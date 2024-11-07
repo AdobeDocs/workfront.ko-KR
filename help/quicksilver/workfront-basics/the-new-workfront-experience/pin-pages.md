@@ -5,10 +5,10 @@ description: 가시성을 높이고, 조직을 개선하고, 보다 신속하게
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: b42028c7f4934d7d2538e078372dd32262232729
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
@@ -70,33 +70,32 @@ ht-degree: 1%
 고정된 페이지의 이름을 사용자에게 더 의미 있게 변경할 수 있습니다.
 
 1. 위쪽 탐색 또는 **[!UICONTROL 추가 메뉴]**&#x200B;에서 고정된 페이지 위로 마우스를 가져갑니다.
-1. 핀 이름 옆에 있는 화살표를 클릭하고 **[!UICONTROL 핀 이름 바꾸기]**&#x200B;를 선택합니다.
+1. 핀 이름 옆에 있는 자세히 아이콘 ![](assets/more-icon.png)을(를) 클릭하고 **[!UICONTROL 핀 이름 바꾸기]**&#x200B;를 선택합니다.
 
-   ![핀 이름 바꾸기](assets/rename-remove-pin.png)
+   ![핀 이름 바꾸기](assets/pin-menu.png)
 
-1. 새 핀 이름을 입력하고 확인 표시 아이콘을 클릭하거나 Enter 키를 누릅니다.
+1. 새 핀 이름을 입력하고 **저장**&#x200B;을 클릭합니다.
 
-   ![확인 표시를 클릭하여 핀 이름을 변경합니다](assets/rename-pin-click-checkmark.png)
+   ![확인 표시를 클릭하여 핀 이름을 변경합니다](assets/new-pin-name.png)
 
-   확인 표시를 클릭하거나 Enter 키를 누른 후 몇 초 동안 작은 팝업 창이 나타나므로 핀 이름을 저장하기 전에 핀 이름 변경을 실행 취소할 수 있습니다.
 
 ## 고정된 페이지 순서 바꾸기
 
 고정된 페이지가 나타나는 순서를 재정렬할 수 있습니다.
 
-1. 위쪽 탐색 또는 **[!UICONTROL 추가 메뉴]**&#x200B;에서 고정된 페이지 위로 마우스를 가져갑니다. 손 모양 커서가 표시되면 핀을 클릭하여 원하는 순서로 끕니다.
+1. 이동할 고정된 페이지 위로 마우스를 가져간 다음 **자세히** 아이콘을 클릭합니다.
+1. 핀을 이동하려면 **왼쪽으로 이동** 또는 **오른쪽으로 이동**&#x200B;을 선택하십시오.
+1. (선택 사항) 핀을 핀 막대의 맨 오른쪽 위치로 이동하려면 **앞쪽으로 이동**&#x200B;을 선택합니다.
+
+   ![고정 항목 이동](assets/pin-menu.png)
 
    변경 사항은 자동으로 저장되고 다음에 Workfront에 액세스할 때 기억됩니다.
 
 ## 고정된 페이지 제거
 
-1. 고정 해제할 고정된 페이지를 클릭합니다.
-1. 화면 상단에서 **[!UICONTROL 현재 페이지 고정 해제]**&#x200B;를 클릭합니다.
+1. 제거할 핀 옆에 있는 자세히 아이콘 ![](assets/more-icon.png)을(를) 클릭합니다.
+1. **핀 제거**&#x200B;를 클릭합니다.
 
-   또는
-
-   핀 이름 옆에 있는 화살표를 클릭하고 **[!UICONTROL 핀 제거]**&#x200B;를 선택합니다.
-
-   ![핀 제거](assets/rename-remove-pin.png)
+   ![핀 제거](assets/pin-menu.png)
 
    [!DNL Workfront]의 페이지 맨 위에서 페이지에 더 이상 액세스할 수 없습니다.
