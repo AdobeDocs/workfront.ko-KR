@@ -6,18 +6,18 @@ description: 기본 제공 상태 아이콘 필드를 보기의 열로 추가하
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1213'
 ht-degree: 3%
 
 ---
 
 # 보기의 기본 제공 상태 아이콘
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.)-->
 
 기본 제공 상태 아이콘 필드를 보기의 열로 추가하여 개체에 대한 주요 지점을 보다 명확하게 볼 수 있습니다. 상태 아이콘을 사용하면 다음 조건이 있을 때 한 눈에 볼 수 있습니다.
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 * 개체에는 연결된 추가 메모가 있습니다.
 * 경비는 청구 가능 또는 환급 가능
 * 작업이 중요 경로에 있습니다.
-* 사용자가 회사, 팀에 속하거나 다른 시간대에 있습니다.
+* 사용자가 회사, 팀에 속하거나 개인 사용자가 다른 시간대에 있습니다
 
 다음 사항을 고려하십시오.
 
@@ -45,6 +45,8 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -57,24 +59,31 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>요청 이상</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> </td> 
-   <td> </td> 
-  </tr> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>기여자 이상</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>요청 이상</p></li>
+         </ul>
+   </td>
+  </tr>
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에 열 추가</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에 열 추가</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>기존 보기에 대한 권한 관리</p> <p>보고서에 열을 추가할 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>기존 보기에 대한 권한 관리</p> <p>보고서에 열을 추가할 권한 관리</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 보기에 상태 아이콘 필드 추가
 

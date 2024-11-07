@@ -6,16 +6,16 @@ description: Adobe Workfront에는 사용할 준비가 된 광범위한 기본 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2964'
 ht-degree: 10%
 
 ---
 
 # Adobe Workfront 기본 제공 보고서 사용
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2024-->
 
 Adobe Workfront에는 사용할 수 있는 광범위한 기본 제공 보고서 목록이 있습니다.
 
@@ -27,6 +27,8 @@ Workfront 관리자는 사용자가 액세스할 수 없도록 기본 제공 보
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -37,8 +39,16 @@ Workfront 관리자는 사용자가 액세스할 수 없도록 기본 제공 보
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새로운 기능: 기여자 이상</p>  
-   <p>현재: 요청 이상</p> </td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>기여자 이상</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>요청 이상</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 

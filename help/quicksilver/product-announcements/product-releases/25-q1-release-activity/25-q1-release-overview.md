@@ -4,9 +4,9 @@ description: 이 페이지에서는 2025년 1분기 릴리스에 포함된 기�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -33,128 +33,243 @@ ht-degree: 0%
 
 ## Adobe Workfront 개선 사항
 
-* [관리자 개선 사항](#administrator-enhancements)
-  <!--* [Boards enhancements](#boards-enhancements)-->
+* [관리자 개선 사항](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
+* [문서 관리 개선 사항](#document-management-enhancements)
+* [홈 개선 사항](#home-enhancements)
+* [증명 개선 사항](#proofing-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
 ### 관리자 개선 사항
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-        <tbody>
-            <tr>
-                <td>
-                    <p><span class="bold">기능</span>
-                    </p>
-                </td>
-                <td>
-                    <p><span class="bold">릴리스 날짜</span>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">"이동" 아이콘이 사용자 지정 필드에 추가됨</a></p>
-                    <p>사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 "이동" 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.</p>
-                </td>
-                <td><p><b>다음 날짜에 사용 가능:</b></p>
-                    <ul>
-                        <li>
-                            <p>미리보기 릴리스: 2024년 10월 29일</p>
-                        </li>
-                        <li>
-                            <p>빠른 릴리스를 위한 프로덕션: 24.11 릴리스 포함(2024년 11월 14일)</p>
-                        </li>
-                        <li>
-                            <p>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</p>
-                        </li>
-                   </ul>
-                </td>
-            </tr>
-        </tbody>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">기능</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">릴리스 날짜</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">"이동" 아이콘이 사용자 지정 필드에 추가됨</a></p>
+                <p>사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 "이동" 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.</p>
+            </td>
+            <td><p><b>다음 날짜에 사용 가능:</b></p>
+                <ul>
+                    <li>
+                        <p>미리보기 릴리스: 2024년 10월 29일</p>
+                    </li>
+                    <li>
+                        <p>빠른 릴리스를 위한 프로덕션: 24.11 릴리스 포함(2024년 11월 14일)</p>
+                    </li>
+                    <li>
+                        <p>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
 </table>
 
 <!--### Boards enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-        <tbody>
-            <tr>
-                <td>
-                    <p><span class="bold">Feature</span>
-                    </p>
-                </td>
-                <td>
-                    <p><span class="bold">Release dates</span>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
-                    <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
-                </td>
-                <td><p><b>Available on these dates:</b></p>
-                    <ul>
-                        <li>
-                            <p>Preview release: October 31, 2024</p>
-                        </li>
-                        <li>
-                            <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
-                        </li>
-                        <li>
-                            <p>Production release for all customers: With the 25.1 release (January 2025)</p>
-                        </li>
-                   </ul>
-                </td>
-            </tr>
-        </tbody>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">Feature</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">Release dates</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
+                <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+            </td>
+            <td><p><b>Available on these dates:</b></p>
+                <ul>
+                    <li>
+                        <p>Preview release: October 31, 2024</p>
+                    </li>
+                    <li>
+                        <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
+                    </li>
+                    <li>
+                        <p>Production release for all customers: With the 25.1 release (January 2025)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
 </table>-->
+
+### 문서 관리 개선 사항
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">기능</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">릴리스 날짜</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 버전 승인에 사용할 수 있는 새로운 철회된 상태</a></p>
+                <p>새 버전이 미결 승인 문서에 추가되면 이제 이전 버전의 승인이 철회됨으로 표시됩니다. 일부 참가자가 아직 결정을 내리지 않았더라도 기존 승인 절차는 종료된다.</p>
+            </td>
+            <td><p><b>다음 날짜에 사용 가능:</b></p>
+                <ul>
+                    <li>
+                        <p>미리보기 릴리스: 2024년 11월 7일</p>
+                    </li>
+                    <li>
+                        <p>빠른 릴리스를 위한 프로덕션: 24.11 릴리스 포함(2024년 11월 14일)</p>
+                    </li>
+                    <li>
+                        <p>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+### 홈 개선 사항
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">기능</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">릴리스 날짜</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">우선 순위에서 프로젝트 세부 정보 보기</a></p>
+                <p>이제 우선 순위의 작업 목록에서 프로젝트 세부 정보 및 주석을 볼 수 있습니다.</p>
+            </td>
+            <td><p><b>다음 날짜에 사용 가능:</b></p>
+                <ul>
+                    <li>
+                        <p>미리보기 릴리스: 2024년 11월 6일</p>
+                    </li>
+                    <li>
+                        <p>빠른 릴리스를 위한 프로덕션: 24.11 릴리스 포함(2024년 11월 14일)</p>
+                    </li>
+                    <li>
+                        <p>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+## 증명 개선 사항
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">기능</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">릴리스 날짜</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">대화형 검토를 위한 새 브라우저 확장 기능을 Beta에서 사용할 수 있음</a></p>
+                [!BADGE In production ]{type=Informative}
+                <p>대화형 ZIP 콘텐츠 검토를 위해 기존 브라우저 확장 기능을 대체하는 새로운 브라우저 확장 기능인 Adobe Workfront 검토 도구를 도입했습니다. 새로운 Adobe Workfront 검토 도구는 모든 공통 브라우저에서 ZIP 콘텐츠 검토를 지원합니다.</p>
+                <p>기존 브라우저 확장은 2025년 2월 28일에 제거됩니다.</p>
+            </td>
+            <td><p><b>다음 날짜에 사용 가능:</b></p>
+                <ul>
+                    <li>
+                        <p>미리보기 릴리스: 2024년 11월 7일</p>
+                    </li>
+                    <li>
+                        <p class="preview">모든 고객을 위한 프로덕션 릴리스: 2024년 11월 7일</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ### 기타 개선 사항
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-        <tbody>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI 도우미가 프로젝트, 작업 및 문제를 처리할 수 있습니다</a></p>
-                    <p>Workfront에서 작업 항목을 보다 쉽게 관리할 수 있도록 프로젝트, 작업 및 문제 관련 작업이 가능하도록 AI Assistant를 업데이트했습니다. 이제 AI 도우미는 "이번 주 기한인 내 작업 찾기"와 같이 지정한 기준에 따라 프로젝트, 작업 및 문제를 찾을 수 있습니다.</p>
-                </td>
-                <td><p><b>다음 날짜에 사용 가능:</b></p>
-                    <ul>
-                        <li>
-                            <p>미리보기 릴리스: 2024년 10월 31일</p>
-                        </li>
-                        <li>
-                            <p>빠른 릴리스를 위한 프로덕션: 24.11 릴리스 포함(2024년 11월 14일)</p>
-                        </li>
-                        <li>
-                            <p>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</p>
-                        </li>
-                   </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025년 1분기 동안의 룩앤필 업데이트</a></p>
-                    <p>2025년 1분기 내에 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트가 이루어지고 있습니다. 특정 릴리스 날짜는 개별 릴리스 정보를 검토하십시오.</p>
-                </td>
-                <td><p><b>다음 날짜에 사용 가능:</b></p>
-                    <ul>
-                        <li>
-                            <p>미리보기 릴리스: 2025년 1분기 릴리스 일정 전체</p>
-                        </li>
-                        <li>
-                            <p><span class="preview">프로덕션 릴리스: 특정 날짜에 대한 릴리스 정보 검토</span></p>
-                        </li>
-                    </ul>
-                </td>
-            </tr>                            
-        </tbody>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI 도우미가 프로젝트, 작업 및 문제를 처리할 수 있습니다</a></p>
+                <p>Workfront에서 작업 항목을 보다 쉽게 관리할 수 있도록 프로젝트, 작업 및 문제 관련 작업이 가능하도록 AI Assistant를 업데이트했습니다. 이제 AI 도우미는 "이번 주 기한인 내 작업 찾기"와 같이 지정한 기준에 따라 프로젝트, 작업 및 문제를 찾을 수 있습니다.</p>
+            </td>
+            <td><p><b>다음 날짜에 사용 가능:</b></p>
+                <ul>
+                    <li>
+                        <p>미리보기 릴리스: 2024년 10월 31일</p>
+                    </li>
+                    <li>
+                        <p>빠른 릴리스를 위한 프로덕션: 24.11 릴리스 포함(2024년 11월 14일)</p>
+                    </li>
+                    <li>
+                        <p>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025년 1분기 동안의 룩앤필 업데이트</a></p>
+                <p>2025년 1분기 내에 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트가 이루어지고 있습니다. 특정 릴리스 날짜는 개별 릴리스 정보를 검토하십시오.</p>
+            </td>
+            <td><p><b>다음 날짜에 사용 가능:</b></p>
+                <ul>
+                    <li>
+                        <p>미리보기 릴리스: 2025년 1분기 릴리스 일정 전체</p>
+                    </li>
+                    <li>
+                        <p><span class="preview">프로덕션 릴리스: 특정 날짜에 대한 릴리스 정보 검토</span></p>
+                    </li>
+                </ul>
+            </td>
+        </tr>                            
+    </tbody>
 </table>
 
 <!--

@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 0%
 >
 >Workfront Planning에 액세스하기 위한 전체 요구 사항 목록은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 >Workfront Planning에 대한 개요는 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
->
 
 이 문서에서는 2025년 1분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
@@ -33,6 +32,24 @@ ht-degree: 0%
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 2024년 8월 28일 일반 출시 이후 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록에 대해서는 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 테이블 보기의 백분율 유형 필드에 대한 새 표시 유형
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 11월 7일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
+
+이제 다음 선택 사항 중에서 선택하여 테이블 보기에서 백분율 유형 필드가 표시되는 방식을 변경할 수 있습니다.
+
+* 숫자
+* 막대
+* 원형
+
+이 표시 유형은 테이블 보기에서만 지원됩니다.
+
+이 개선 이전에는 백분율 값을 숫자로만 표시할 수 있었습니다.
+
+자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 
 ## 이제 연결 필드가 요청 양식에서 지원됩니다
 
