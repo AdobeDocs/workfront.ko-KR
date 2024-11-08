@@ -4,9 +4,10 @@ content-type: reference
 description: 이 요약 기능을 사용하여 작업 항목과 문서를 빠르게 요약할 수 있습니다.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 0eeee68c45003525b9593ce985729f7aa12189cf
+exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -31,27 +32,29 @@ AI Assistant를 통해 Workfront에서 프로젝트, 작업 및 문제를 찾을
 1. AI 지원 패널에서 응답을 봅니다.
 1. (선택 사항) 작업 항목으로 이동하려면 AI Assistant 패널에서 링크를 클릭합니다.
 
-## 작업 항목 만들기
+<!--
 
-1. 화면 오른쪽 상단 근처에 있는 **AI Assistant** 아이콘 ![AI Assistant 아이콘](assets/ai-assistant-icon.png)을 클릭합니다.
-1. 다음과 같은 프롬프트 입력
+## Create a work item
 
-   * 프로젝트 &quot;봄 캠페인&quot; 만들기
-   * 문제 &quot;UI 버그&quot;를 프로젝트 &quot;새 UI&quot;에 추가
-   * 프로젝트 &quot;봄 캠페인&quot;에서 &quot;사진 촬영&quot; 작업 만들기
+1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
+1. Enter a prompt such as 
 
-1. AI Assistant 응답을 확인하여 원하는 조치를 취하고 있는지 확인합니다
-1. (조건부) 응답에서 올바른 동작을 설명하는 경우 **예**&#x200B;를 클릭합니다.
+   * Create project "Spring campaign"
+   * Add issue "UI Bug" to project "New UI" 
+   * Create "photoshoot" task in project "Spring campaign"
 
-   프롬프트의 크기 또는 복잡성과 검색해야 하는 레코드 수에 따라 AI 도우미가 항목을 만드는 데 몇 분 정도 걸릴 수 있습니다.
-1. (조건부) 새 항목 만들기를 취소하려면 **아니요**&#x200B;를 클릭합니다.
-1. (선택 사항) 작업 항목으로 이동하려면 AI Assistant 패널에서 링크를 클릭합니다.
+1. Check the AI Assistant response to ensure that it is taking the desired action
+1. (Conditional) If the response describes the correct action, click **Yes**.
+
+   AI Assistant may take a few moments to create the item, depending on how large or complex the prompt is and how many records it needs to search.
+1. (Conditional) To cancel the creation of the new item, click **No**.
+1. (Optional) To go to the work item, click the link in the AI Assistant panel.
 
 >[!NOTE]
 >
->새 항목이 예상대로 생성되었는지 확인하는 것이 좋습니다.
+>We recommend checking the new item to ensure that it was created as expected.
 
-
+-->
 
 <!--
 

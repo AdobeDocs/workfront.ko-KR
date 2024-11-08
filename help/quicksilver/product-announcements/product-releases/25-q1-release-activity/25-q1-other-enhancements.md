@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,7 @@ ht-degree: 0%
 >
 >미리보기 릴리스: 2024년 10월 31일, 빠른 릴리스를 위한 프로덕션: 24.11 릴리스(2024년 11월 14일), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
 
-Workfront에서 작업 항목을 보다 쉽게 관리할 수 있도록 프로젝트, 작업 및 문제 관련 작업이 가능하도록 AI Assistant를 업데이트했습니다. 이제 AI Assistant는
-
-* 지정한 기준에 따라 프로젝트, 작업 및 문제를 찾습니다(예: &quot;이번 주 기한인 내 작업 찾기&quot;).
-* &quot;프로젝트 봄 캠페인에서 증명 개정이라는 작업 만들기&quot;와 같이 제공한 정보를 기반으로 프로젝트, 작업 및 문제를 만듭니다.
-
+Workfront에서 작업 항목을 보다 쉽게 관리할 수 있도록 프로젝트, 작업 및 문제 관련 작업이 가능하도록 AI Assistant를 업데이트했습니다. 이제 AI 도우미는 &quot;이번 주 기한인 내 작업 찾기&quot;와 같이 지정한 기준에 따라 프로젝트, 작업 및 문제를 찾을 수 있습니다.
 이전에는 AI 비서가 프로젝트, 작업 및 문제로 직접 작업할 수 없었습니다.
 
 Workfront 관리자는 조직에 대해 AI Assistant를 활성화하거나 비활성화할 수 있습니다. AI Assistant는 Select, Prime 및 Ultimate 플랜이 있는 인스턴스에 사용할 수 있습니다.
