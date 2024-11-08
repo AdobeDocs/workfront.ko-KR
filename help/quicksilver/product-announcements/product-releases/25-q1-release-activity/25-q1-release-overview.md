@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 0%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 버전 승인에 사용할 수 있는 새로운 철회된 상태</a></p>
-                <p>새 버전이 미결 승인 문서에 추가되면 이제 이전 버전의 승인이 철회됨으로 표시됩니다. 일부 참가자가 아직 결정을 내리지 않았더라도 기존 승인 절차는 종료된다.</p>
+                <p>승인 보류 중인 문서에 새 버전이 추가되면 이전 버전에 대한 승인이 "철회됨"으로 표시되어 새 버전이 추가되어 이전 승인 프로세스가 종료되었음을 나타냅니다.</p>
             </td>
             <td><p><b>다음 날짜에 사용 가능:</b></p>
                 <ul>

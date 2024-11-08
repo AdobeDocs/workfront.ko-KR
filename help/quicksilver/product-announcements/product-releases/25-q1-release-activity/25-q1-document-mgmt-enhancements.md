@@ -4,9 +4,10 @@ description: 2025년 1분기 문서 관리 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -27,4 +28,6 @@ ht-degree: 0%
 >
 >미리보기 릴리스: 2024년 11월 7일, 빠른 릴리스를 위한 프로덕션: 24.11 릴리스(2024년 11월 14일), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
 
-새 버전이 미결 승인 문서에 추가되면 이제 이전 버전의 승인이 철회됨으로 표시됩니다. 일부 참가자가 아직 결정을 내리지 않았더라도 기존 승인 절차는 종료된다.
+승인 보류 중인 문서에 새 버전이 추가되면 이전 버전에 대한 승인이 &quot;철회됨&quot;으로 표시되어 새 버전이 추가되어 이전 승인 프로세스가 종료되었음을 나타냅니다.
+
+자세한 내용은 [새 문서 버전 업로드 및 승인 요청](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)을 참조하십시오.

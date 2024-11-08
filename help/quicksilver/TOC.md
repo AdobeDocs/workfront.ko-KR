@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 413099ef0ad1cb430e3d0cbdd8f613bd8f579a44
+source-git-commit: 974af7c2dd4a54deb176aa647c033439def2ff0e
 workflow-type: tm+mt
-source-wordcount: '14567'
+source-wordcount: '14576'
 ht-degree: 2%
 
 ---
@@ -896,6 +896,7 @@ ht-degree: 2%
       * [우선 순위: 문서 색인](workfront-basics/priorities/priorities-toc.md)
       * [우선 순위: 예정된 릴리스](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [우선 순위 시작](workfront-basics/priorities/get-started-with-priorities.md)
+      * [우선 순위 작업 목록에서 프로젝트 및 작업 세부 정보 보기](workfront-basics/priorities/view-task-project-details.md)
       * [우선 순위에서 작업 필터링 및 그룹화](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [작업 목록 열 사용자 정의](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [중요한 작업 항목의 우선 순위 지정](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
