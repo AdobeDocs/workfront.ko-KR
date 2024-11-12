@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2210'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ ht-degree: 0%
        <p>리소스 풀에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 리소스 풀 개요 </a>을(를) 참조하십시오.</p> </li> 
        <li><b>시간당 비용</b>: 사용자의 시간당 비용입니다. </li> 
        <li><b>시간당 청구</b>: 사용자의 시간당 청구 금액입니다.</li> 
-       <li><b>사용자 지정 Forms</b>: 기존 사용자 정의 양식을 사용자와 연결합니다. 사용자 정의 양식을 사용자와 연결하려면 먼저 사용자 정의 양식을 만들어야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">양식 디자이너를 사용하여 양식 디자인</a>을 참조하십시오.</li> 
+       <li><b>사용자 지정 Forms</b>: 기존 사용자 정의 양식을 사용자와 연결합니다. 사용자 정의 양식을 사용자와 연결하려면 먼저 사용자 정의 양식을 만들어야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 만들기에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">사용자 정의 양식 만들기</a>를 참조하십시오.</li> 
        <li><b>댓글</b>: 제공된 필드에 댓글을 입력하십시오. 선택한 모든 사용자는 인앱 알림과 함께 귀하의 의견이 포함된 이메일 알림을 받게 됩니다. 주석은 사용자 프로필의 업데이트 탭에 표시됩니다.</li> 
        </ul> </td> 
      </tr> 

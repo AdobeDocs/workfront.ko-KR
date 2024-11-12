@@ -1,23 +1,23 @@
 ---
-title: 사본에서 양식 디자인
+title: 복사본으로 양식 만들기
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: 양식 디자이너를 사용하여 사본에서 사용자 정의 양식을 디자인할 수 있습니다.
+description: 양식 디자이너를 사용하여 사본에서 사용자 정의 양식을 만들 수 있습니다.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# 복사본으로 양식 디자인
+# 복사본으로 양식 만들기
 
-<!--add preview tags and see below in commet out-->
+<!--add preview tags and see below in comment out-->
 
 기존 양식을 기반으로 하는 새 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
@@ -89,12 +89,12 @@ ht-degree: 0%
 1. [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 문서의 다음 섹션에 설명된 대로 양식을 변경합니다.
 
    * [다른 사용자 정의 양식에서 이미 사용된 기존 필드 또는 위젯 재사용](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
-      * [텍스트 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
-      * [계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
-      * [라디오 단추, 확인란 그룹 및 드롭다운 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
-      * [자동 완성 및 날짜 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
-      * [이미지, PDF 및 비디오 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
-      * [Adobe XD 파일 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
-        <!--* [Add Planning connection fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)-->
+   * [텍스트 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
+   * [계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
+   * [라디오 단추, 확인란 그룹 및 드롭다운 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
+   * [자동 완성 및 날짜 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
+   * [이미지, PDF 및 비디오 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
+   * [Adobe XD 파일 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
+     <!--* [Add Planning connection fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)-->
 
-1. (선택 사항) **저장+닫기**&#x200B;를 클릭한 후 [개체에 사용자 정의 양식 추가](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)에 설명된 대로 양식을 사용할 개체에 첨부합니다.
+1. (선택 사항) **저장 및 닫기**&#x200B;를 클릭한 후 [개체에 사용자 정의 양식 추가](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)에 설명된 대로 양식을 사용할 개체에 첨부합니다.

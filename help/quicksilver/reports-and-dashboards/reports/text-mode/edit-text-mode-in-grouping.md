@@ -6,9 +6,9 @@ description: '참고: 텍스트 모드에서 편집할 때 모든 FVG 문서를 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -195,7 +195,7 @@ ht-degree: 0%
       <td> <p>여러 필드 간의 계산으로 목록을 그룹화하려면 <code>valuefield</code>을(를) 바꾸기 위해 이 줄을 추가할 수 있습니다.</p> <p><code>valueexpression</code>에서 개체를 사용할 때마다 개체의 <code>valuefield</code>을(를) 중괄호로 묶어야 합니다.</p> <p>다음과 같은 시나리오가 있습니다.</p> 
        <ol> 
         <li value="1"> <p>대문자로 그룹화의 이름을 표시하려면 다음을 사용합니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>개체의 <code>valuefield</code>이(가) API 탐색기에 나타나는 대로 맞춤법이 지정됩니다.</p> </li> 
-        <li value="2">여러 <code>valuefields</code>을(를) <code>valueexpression </code>행에 함께 묶어 추가하려면 마침표로 구분해야 합니다.<p>예를 들어 작업 목록에서 포트폴리오의 이름을 대문자로 표시하려면 <code>valueexpression</code> 줄에서 다음 코드를 사용합니다.</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p><code>valueexpression</code> 줄에서 사용자 지정 필드를 사용하려면 필드 이름 앞에 <code>DE:</code>을(를) 입력하여 사용자 지정 필드임을 표시해야 합니다. 필드 이름의 철자는 인터페이스에 나타나는 대로 입력됩니다.</p><p>중요: <span>일부 사용자에 대한 권한이 제한된 사용자 정의 양식 섹션에 있는 사용자 정의 필드를 사용하는 경우 해당 사용자가 보고서에서 이 계산을 볼 때 <code>valueexpression </code>의 계산이 비어 있습니다. 사용자 정의 양식 섹션에 대한 권한을 조정하는 방법에 대한 자세한 내용은 </span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">양식 디자이너를 사용하여 양식 디자인</a></span>을 참조하십시오.</p><p>예를 들어 사용자 정의 필드에 "개발자 이름"이라는 레이블이 있고 이 필드로 그룹화하여 대문자로 표시하려는 경우 다음 <code>valueexpression</code>을(를) 사용하여 이를 나타낼 수 있습니다.</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>타이프 어헤드 유형 사용자 정의 필드를 참조할 때 다음 표현식을 사용하여 "개발자 이름"이라는 레이블이 지정된 필드에서 선택한 개체의 이름을 참조합니다.</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="2">여러 <code>valuefields</code>을(를) <code>valueexpression </code>행에 함께 묶어 추가하려면 마침표로 구분해야 합니다.<p>예를 들어 작업 목록에서 포트폴리오의 이름을 대문자로 표시하려면 <code>valueexpression</code> 줄에서 다음 코드를 사용합니다.</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p><code>valueexpression</code> 줄에서 사용자 지정 필드를 사용하려면 필드 이름 앞에 <code>DE:</code>을(를) 입력하여 사용자 지정 필드임을 표시해야 합니다. 필드 이름의 철자는 인터페이스에 나타나는 대로 입력됩니다.</p><p>중요: <span>일부 사용자에 대한 권한이 제한된 사용자 정의 양식 섹션에 있는 사용자 정의 필드를 사용하는 경우 해당 사용자가 보고서에서 이 계산을 볼 때 <code>valueexpression </code>의 계산이 비어 있습니다. 사용자 정의 양식 섹션에서 권한을 조정하는 방법에 대한 자세한 내용은 </span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">사용자 정의 양식 만들기</a></span>를 참조하십시오.</p><p>예를 들어 사용자 정의 필드에 "개발자 이름"이라는 레이블이 있고 이 필드로 그룹화하여 대문자로 표시하려는 경우 다음 <code>valueexpression</code>을(를) 사용하여 이를 나타낼 수 있습니다.</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>타이프 어헤드 유형 사용자 정의 필드를 참조할 때 다음 표현식을 사용하여 "개발자 이름"이라는 레이블이 지정된 필드에서 선택한 개체의 이름을 참조합니다.</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 

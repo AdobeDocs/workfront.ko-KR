@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>사용자 정의 양식</strong> </td> 
-      <td>대기열 주제와 연결할 사용자 정의 양식을 선택합니다. 대기열 주제에 연결하려면 먼저 문제에 대한 사용자 정의 양식을 만들어야 합니다. 사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">양식 디자이너를 사용하여 양식 디자인</a>을 참조하십시오.</td> 
+      <td>대기열 주제와 연결할 사용자 정의 양식을 선택합니다. 대기열 주제에 연결하려면 먼저 문제에 대한 사용자 정의 양식을 만들어야 합니다. 사용자 정의 양식 만들기에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">사용자 정의 양식 만들기</a>를 참조하십시오.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>기본 승인</strong></td> 
