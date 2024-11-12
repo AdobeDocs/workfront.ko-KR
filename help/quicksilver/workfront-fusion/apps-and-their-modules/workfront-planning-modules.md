@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
+source-git-commit: 8cb79a06f46c9a379f7394a6bef14f97d4ff7f98
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1143'
 ht-degree: 0%
 
 ---
@@ -65,15 +65,55 @@ ht-degree: 0%
 
 [!DNL Workfront Fusion] 모듈 내에서 직접 [!DNL Workfront Planning] 계정에 연결할 수 있습니다.
 
-1. [!DNL Workfront Planning] 앱 모듈에서 [!UICONTROL 연결] 상자 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-1. 이 연결의 이름을 입력하십시오.
-1. 프로덕션 환경에 연결할지 아니면 비프로덕션 환경에 연결할지 선택합니다.
-1. 서비스 계정에 연결할지 또는 개인 계정에 연결할지 선택합니다.
-1. 연결을 만들고 모듈로 돌아가려면 **[!UICONTROL SAML 로그인]**&#x200B;을 클릭하세요.
+1. [!DNL Adobe Workfront Planning] 모듈에서 [연결] 상자 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+
+1. 다음 필드를 채웁니다.
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL 연결 이름]</td>
+          <td>
+            <p>이 연결의 이름을 입력하십시오.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 환경]</td>
+          <td>프로덕션 환경에 연결할지 아니면 비프로덕션 환경에 연결할지 선택합니다.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 유형]</td>
+          <td>서비스 계정에 연결할지 개인 계정에 연결할지 선택합니다.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 클라이언트 ID]<p>(선택 사항)</p></td>
+          <td>[!DNL Adobe] [!UICONTROL 클라이언트 ID]를 입력하십시오. 이는 [!DNL Adobe Developer Console]의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 클라이언트 암호]<p>(선택 사항)</p></td>
+          <td>[!DNL Adobe] [!UICONTROL 클라이언트 암호]를 입력하십시오. 이는 [!DNL Adobe Developer Console]의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다.
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 인증 URL]<p>(선택 사항)</p></td>
+          <td>Workfront 인스턴스가 이 연결을 인증하는 데 사용할 URL을 입력하십시오. <p>기본값은 <code>https://oauth.my.workfront.com/integrations/oauth2</code>입니다.</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 호스트 접두사]</td>
+          <td>호스트 접두사를 입력합니다.<p>기본값은 <code>origin-</code>입니다.</p>
+        </tr>
+      </tbody>
+    </table>
+1. 연결을 저장하고 모듈로 돌아가려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
 
 ## [!DNL Adobe Workfront Planning]개 모듈 및 해당 필드
 
-### 이벤트 보기
+### 트리거
+
+#### 이벤트 보기
 
 이 트리거 모듈은 기록, 레코드 유형 또는 작업 영역이 Workfront Planning에서 생성, 업데이트 또는 삭제될 때 시나리오를 시작합니다.
 
@@ -110,7 +150,12 @@ ht-degree: 0%
   </tbody>
 </table>
 
-### 레코드 유형 삭제
+### 액션
+
+* [레코드 유형 삭제](#delete-a-record-type)
+* [사용자 정의 AI 호출 만들기](#make-a-custom-api-call)
+
+#### 레코드 유형 삭제
 
 이 작업 모듈은 해당 ID로 Workfront Planning에서 단일 레코드 유형을 삭제합니다.
 
@@ -135,7 +180,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-### 사용자 지정 API 호출 만들기
+#### 사용자 지정 API 호출 만들기
 
 이 모듈은 [!DNL Adobe Workfront Planning] API에 대한 사용자 지정 API 호출을 만듭니다.
 
@@ -149,26 +194,10 @@ ht-degree: 0%
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 경로]</p>
+        <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/ 관련 경로 입력</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL API version]</p>
-      </td>
-      <td>
-        <p>사용할 API 버전을 선택합니다. 버전을 선택하지 않으면 기본적으로 최신 버전이 사용됩니다.</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL API 경로 재정의]</p>
-      </td>
-      <td>
-        <p>https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/ 관련 경로 입력</p>
+        <p>상대 경로 입력 <code>https://(YOUR_WORKFRONT_DOMAIN)/maestro/api/</code></p>
       </td>
     </tr>
     <tr>
@@ -201,57 +230,18 @@ ht-degree: 0%
 </table>
 
 <!--
+### Searches
 
-### Delete a field
+#### Search records
 
-This action module deletes a single field in Workfront Planning by its ID.
-
->[!WARNING]
->
->Deleting a field in Workfront Planning deletes it and any data in it from every object of that record type in Workfront Planning.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the record type you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
-
-### Get a field 
-
-
-This action module retrieves a single field in Workfront Planning by its ID.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the field you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
+This action module retrieves a list of records based on criteria you specify.
 
 -->
 
-### 레코드 만들기
+### 미분류
+
+
+#### 레코드 만들기
 
 이 작업을 수행하면 Workfront Planning에 단일 레코드가 만들어집니다.
 
@@ -414,11 +404,3 @@ This action module retrieves all records from an [!DNL Adobe Workfront Planning]
      <tr>
   </tbody>
 </table>
-
-### 레코드 검색
-
-이 작업 모듈은 지정한 조건에 따라 레코드 목록을 검색합니다.
-
->[!NOTE]
->
->이 모듈은 제작 중입니다.
