@@ -5,9 +5,10 @@ title: AI Assistant를 사용하여 프로젝트 요약
 description: 프로젝트 헤더에는 AI Assistant를 사용하여 프로젝트를 요약하는 버튼이 포함되어 있습니다.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
+exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 1%
 Workfront의 AI Assistant는 프로젝트를 요약할 수 있으므로 프로젝트 목적 및 상태와 같은 프로젝트 정보를 빠르게 이해할 수 있고, 완료되고 아직 보류 중인 작업의 예를 제공하며, 몇 가지 추가 세부 정보와 메모를 제공합니다.
 
 프로젝트 요약 버튼을 사용하여 요약을 생성하거나 AI Assistant에 프롬프트를 입력할 수 있습니다.
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 >[!NOTE]
 >
@@ -69,8 +68,6 @@ Workfront의 AI Assistant는 프로젝트를 요약할 수 있으므로 프로�
 
 
 
-<div class="preview">
-
 ## 프로젝트 요약 버튼을 사용하여 요약
 
 1. 요약할 업데이트 스트림으로 이동합니다.
@@ -82,8 +79,6 @@ Workfront의 AI Assistant는 프로젝트를 요약할 수 있으므로 프로�
 
 1. AI Assistant 패널에서 AI 요약을 봅니다.
 1. (선택 사항) 필요한 정보를 제공하도록 프롬프트를 세분화합니다.
-
-   </div>
 
 ## AI Assistant에서 오브젝트 요약
 
@@ -99,4 +94,3 @@ Workfront의 AI Assistant는 프로젝트를 요약할 수 있으므로 프로�
    AI Assistant는 객체의 크기 또는 복잡성에 따라 요약을 생성하는 데 몇 분 정도 걸릴 수 있습니다.
 
 1. AI Assistant 패널에서 AI 요약을 봅니다.
-

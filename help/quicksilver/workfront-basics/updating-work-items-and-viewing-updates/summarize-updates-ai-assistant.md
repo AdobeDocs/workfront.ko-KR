@@ -5,9 +5,10 @@ title: AI Assistant를 사용하여 업데이트 요약
 description: 오브젝트의 업데이트에는 AI Assistant를 사용하여 업데이트를 요약하는 버튼이 포함되어 있습니다.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 0%
 Workfront의 AI 도우미는 업데이트 스트림의 콘텐츠를 요약할 수 있으므로 Workfront 오브젝트와 관련하여 발생하는 의견과 토론을 빠르게 이해할 수 있습니다.
 
 콘텐츠 요약 버튼을 사용하여 요약을 생성하거나 AI Assistant에 프롬프트를 입력할 수 있습니다.
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 >[!NOTE]
 >
@@ -60,8 +59,6 @@ Workfront의 AI 도우미는 업데이트 스트림의 콘텐츠를 요약할 �
 
   자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
 
-<div class="preview">
-
 ## 콘텐츠 요약 버튼을 사용하여 요약
 
 1. 요약할 업데이트 스트림으로 이동합니다.
@@ -75,8 +72,6 @@ Workfront의 AI 도우미는 업데이트 스트림의 콘텐츠를 요약할 �
 1. (선택 사항) 필요한 정보를 제공하도록 프롬프트를 세분화합니다.
 
    예를 들어 콘텐츠 요약 프롬프트를 미세 조정하여 지난 7일이 아니라 지난 14일 동안의 주석을 요약할 수 있습니다.
-
-   </div>
 
 ## AI Assistant에서 오브젝트 요약
 
@@ -92,4 +87,3 @@ Workfront의 AI 도우미는 업데이트 스트림의 콘텐츠를 요약할 �
    AI Assistant는 객체의 크기 또는 복잡성에 따라 요약을 생성하는 데 몇 분 정도 걸릴 수 있습니다.
 
 1. AI Assistant 패널에서 AI 요약을 봅니다.
-
