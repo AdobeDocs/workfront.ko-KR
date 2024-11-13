@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
 workflow-type: tm+mt
-source-wordcount: '14576'
+source-wordcount: '14583'
 ht-degree: 2%
 
 ---
@@ -2125,6 +2125,7 @@ ht-degree: 2%
       * [레코드 페이지 레이아웃 관리](planning/records/manage-the-record-page.md)
       * [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](planning/records/manage-records-in-planning-section.md)
       * [레코드의 세부 사항 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)
+      * [Workfront Planning 레코드 자동화를 사용하여 객체 생성](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Adobe Workfront Planning 요청 {#adobe-workfront-planning-requests}
       * [Adobe Workfront Planning 요청: 문서 색인](planning/requests/requests-article-index.md)
       * [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](planning/requests/create-request-form.md)

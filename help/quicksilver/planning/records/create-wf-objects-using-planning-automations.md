@@ -5,19 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: d8631e16234486479aa70233aa3770b28ea0d218
+source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 
-# Workfront Planning 레코드 자동화를 사용하여 Workfront 객체 생성
+# Workfront Planning 레코드 자동화를 사용하여 객체 생성
 
-활성화되면 Workfront에서 개체를 만들도록 Workfront Planning에서 자동화를 구성할 수 있습니다.
+활성화된 경우 Workfront 또는 Workfront Planning에서 개체를 만들도록 Workfront Planning에서 자동화를 구성할 수 있습니다.
 
-레코드에서 자동화를 활성화합니다. Workfront의 개체는 자동화를 활성화한 Planning 레코드에 연결됩니다.
+레코드에서 자동화를 활성화합니다. 생성된 개체는 자동화를 활성화한 Planning 레코드에 연결됩니다.
 
 예를 들어, Workfront Planning 캠페인을 가져와 Workfront에서 프로젝트를 생성하여 해당 캠페인의 진행 상황을 추적하는 자동화를 만들 수 있습니다. 이 프로젝트는 Workfront 계획 캠페인에 연결됩니다.
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ## Workfront Planning에서 자동화 구성
 
-자동화를 사용하여 Workfront 개체를 만들려면 먼저 Workfront Planning에서 자동화를 구성해야 합니다.
+자동화를 사용하여 객체를 만들려면 먼저 Workfront Planning에서 자동화를 구성해야 합니다.
 
 1. **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭하고 **자동화**&#x200B;를 선택합니다.
 
@@ -44,14 +44,14 @@ ht-degree: 1%
    * 프로그램
    * 그룹
 
-1. **프로젝트 이름에 사용할 필드 선택** 필드에서 레코드 필드를 선택합니다. Workfront의 새 프로젝트 이름에는 이 필드의 내용이 포함됩니다.
-1. **생성된 프로젝트를 다시 연결할 필드 선택** 필드에서 레코드 필드를 선택합니다. Workfront Planning에서 레코드를 볼 때 Workfront의 새 프로젝트가 이 필드에 나타납니다.
+1. **프로젝트 이름에 사용할 필드 선택** 필드에서 레코드 필드를 선택합니다. 새 개체의 이름은 이 필드의 내용으로 설정됩니다.
+1. **생성된 프로젝트를 다시 연결할 필드 선택** 필드에서 레코드 필드를 선택합니다. Workfront Planning에서 레코드를 볼 때 새 개체가 이 필드에 나타납니다.
 1. 생성 중인 객체 유형에 사용할 수 있는 다른 옵션을 선택합니다.
 1. **만들기** 클릭
 
 자동화는 자동화 목록에 표시되며 레코드에서 사용할 수 있습니다.
 
-## Workfront Planning 자동화를 사용하여 Workfront 개체 만들기
+## Workfront Planning 자동화를 사용하여 객체 생성
 
 1. Workfront Planning에서 Workfront 객체를 생성하는 데 사용할 레코드가 포함된 레코드 유형 페이지를 엽니다.
 1. 하나 이상의 레코드를 선택합니다.
