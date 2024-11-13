@@ -6,18 +6,21 @@ title: Adobe Workfront Fusion에서 큰 파일 작업
 description: 현재 Workfront 및 HTTP 커넥터에서 대용량 파일을 지원할 수 있습니다.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d9f7f1b9a97faf767965abce4f64c62cb9aad8d2
+exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
+source-git-commit: 5e32c0dd3378fc49f8687668f11daa5dc838c587
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Fusion에서 큰 파일 작업
 
-이제 Workfront Fusion에서 향상된 데이터 전송 기능을 사용할 수 있으므로 훨씬 더 큰 파일을 시나리오에서 처리할 수 있습니다.
+>[!IMPORTANT]
+>
+>대용량 파일 기능은 Workfront Ultimate 고객만 사용할 수 있으며 단계적 롤아웃입니다. Workfront Ultimate 계획을 가진 모든 Fusion 조직은 2025년 1월까지 대용량 파일 기능을 보유하게 됩니다.
 
-대용량 파일 기능은 Workfront Ultimate 고객만 사용할 수 있습니다.
+이제 Workfront Fusion에서 향상된 데이터 전송 기능을 사용할 수 있으므로 훨씬 더 큰 파일을 시나리오에서 처리할 수 있습니다.
 
 더 큰 파일을 처리하려면 시나리오를 업데이트해야 합니다.
 
@@ -240,7 +243,3 @@ If a file is not on this list, it does not support large files. For these connec
 This limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.
 
 -->
-
-
-
-
