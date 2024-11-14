@@ -7,9 +7,9 @@ description: Adobe Workfront을 사용하면 작업 항목과 관련이 없는 �
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,14 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td>
-   <p>새로운 기능: 밝게 또는 높음</p>
-   <p>또는</p>
-   <p>현재: 검토 이상</p>
-   </td>
+   <p>사용자의 프로필 페이지에서 메시지를 보내려면 다음 항목이 있어야 합니다. <br>
+   새로운 기능: 밝게 또는 높음<br>
+   또는<br>
+   현재: 검토 이상</p>
+   <p>사용자 목록에서 메시지를 보내려면 다음 항목이 있어야 합니다. <br>
+   새로운 기능: 표준<br>
+   또는<br>
+   현재: 작업 시간 이상</p></td>
   </tr> 
  </tbody> 
 </table>
