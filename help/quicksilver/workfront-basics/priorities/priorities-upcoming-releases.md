@@ -5,13 +5,13 @@ description: 예정된 우선 순위 릴리스에 대한 정보 보기
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e103da5f938fabf01fead5161263c4324e1c703
+exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
+source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # 우선 순위: 예정된 릴리스
 
@@ -21,8 +21,8 @@ Priority에 대해 저희가 제공하는 사항을 알려드리게 되어 기�
   <tr>
     <td><strong>예정</strong>
     <ul>
-    <li><strong>작업 목록에서 프로젝트 세부 정보에 액세스</strong>: 프로젝트 세부 정보 탭에 프로젝트의 세부 정보, 설명 및 문서가 표시됩니다.</li>
-   <li><strong>문서 탭에서 문서 보기</strong>: 문서 탭에서 작업 및 문제에 업로드된 문서를 볼 수 있습니다. 미리보기를 보고 문서에 주석을 남길 수 있습니다. </li>
+
+<li><strong>문서 탭에서 문서 보기</strong>: 문서 탭에서 작업 및 문제에 업로드된 문서를 볼 수 있습니다. 미리보기를 보고 문서에 주석을 남길 수 있습니다. </li>
     </ul>
     </td>
   </tr>
