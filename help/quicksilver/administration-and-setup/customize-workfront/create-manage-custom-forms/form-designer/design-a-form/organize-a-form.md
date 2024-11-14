@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: bd1635dbcd9a49969b99901faf9e3a4744241001
+source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 양식 구성 및 미리 보기
 
-{{highlighted-preview}}
+{{preview-fast-release-general}}
 
 양식 디자이너를 사용하여 사용자 정의 양식을 구성하고 미리 보기하여 제대로 설정되었는지 확인할 수 있습니다.
 
