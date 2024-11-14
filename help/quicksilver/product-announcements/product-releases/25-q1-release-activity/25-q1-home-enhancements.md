@@ -4,10 +4,11 @@ description: 2025년 1분기 홈 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2517e07cacf9563ca3927db0ba3415f81ab41526
+exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 0%
+source-wordcount: '190'
+ht-degree: 2%
 
 ---
 
@@ -17,6 +18,21 @@ ht-degree: 0%
 
 2025년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)를 참조하십시오.
 
+## 우선 순위의 내 포커스 열에서 옵션이 업데이트됨
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 11월 14일, 모든 고객을 위한 프로덕션 릴리스: 2024년 11월 14일
+
+내 포커스 열의 옵션을 업데이트하여 보다 직관적인 방식으로 작업의 우선 순위를 지정하고 정렬할 수 있습니다. 새 레이블에는 다음이 포함됩니다
+
+* 긴급
+* 높음
+* 기본
+* 낮음
+
+이러한 변화를 통해 긴급도에 따라 작업을 보다 쉽게 보고 구성할 수 있습니다. 자세한 내용은 [중요한 작업 항목 우선 순위 지정](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)을 참조하십시오.
+
 ## 우선 순위에서 프로젝트 세부 정보 보기
 
 >[!NOTE]
@@ -25,4 +41,4 @@ ht-degree: 0%
 
 이제 우선 순위의 작업 목록에서 프로젝트 세부 정보 및 주석을 볼 수 있습니다.
 
-<!--For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).-->
+자세한 내용은 [우선 순위 작업 목록에서 프로젝트 및 작업 세부 정보 보기](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)를 참조하십시오.
