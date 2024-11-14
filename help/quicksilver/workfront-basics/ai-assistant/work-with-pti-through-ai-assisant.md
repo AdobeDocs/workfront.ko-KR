@@ -5,19 +5,48 @@ description: 이 요약 기능을 사용하여 작업 항목과 문서를 빠르
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # AI Assistant를 사용하여 프로젝트, 작업 및 문제 작업
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경과 월별 릴리스를 활성화한 고객의 프로덕션 환경에서 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 
 AI Assistant를 통해 Workfront에서 프로젝트, 작업 및 문제를 찾을 수 있습니다.
+
+## 액세스 요구 사항
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td><p>새로 만들기: 모두</p>
+       <p>또는</p>
+       <p>현재: 사용할 수 없음</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 사용할 수 없음</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
+
 
 ## 작업 항목 찾기
 
