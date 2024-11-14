@@ -9,9 +9,9 @@ description: Adobe Authenticator 모듈을 사용하면 단일 연결을 사용�
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1209'
 ht-degree: 1%
 
 ---
@@ -180,13 +180,14 @@ Adobe Authenticator 연결은 Adobe Developer Console의 단일 프로젝트에 
 
 ## 모듈
 
+* [사용자 지정 API 호출 만들기](#make-a-custom-api-call)
+* [사용자 지정 API 호출 만들기(이전)](#make-a-custom-api-call-legacy)
+
 ### 사용자 지정 API 호출 만들기
 
-이 작업 모듈에서는 모든 Adobe API를 호출할 수 있습니다.
+이 작업 모듈에서는 모든 Adobe API를 호출할 수 있습니다. 텍스트 전용 본문 대신 큰 파일을 지원합니다.
 
->[!TIP]
->
->연결할 API의 전체 URL을 입력해야 합니다. 이 모듈은 상대 URL을 허용하지 않습니다.
+이 모듈은 2024년 11월 14일에 출시되었습니다. 이 날짜 이전에 구성된 모든 Adobe Authenticator > 사용자 지정 API 호출 만들기 는 큰 파일을 처리하지 않으며 이제 사용자 지정 API 호출 만들기(기존) 모듈로 간주됩니다.
 
 <table>
   <col/>
@@ -198,10 +199,83 @@ Adobe Authenticator 연결은 Adobe Developer Console의 단일 프로젝트에 
     </tr>
     <tr>
       <td role="rowheader">
+        <p>[!UICONTROL 기본 URL]</p>
+      </td>
+      <td>
+        <p>연결할 API 지점의 기본 URL을 입력합니다.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
         <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>연결하려는 API 포인트의 전체 URL을 입력합니다.</p>
+        <p>기본 URL에 상대적인 경로를 입력합니다.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 메서드]</p>
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p> </td> 
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td>
+        <p>표준 JSON 개체 형태로 요청의 헤더를 추가합니다.</p>
+        <p>For example, <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion은 인증 헤더를 자동으로 추가합니다.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 쿼리 문자열]  </td>
+      <td>
+        <p>요청 쿼리 문자열을 입력합니다.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Body Type]</td>
+   <td> 이 API 요청에 대한 본문 유형을 선택합니다.
+   <ul>
+   <li>application/x-www-form-urlencoded</li>
+   <li>Raw</li>
+   <li>multipart/form-data</li>
+   </ul>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL 필드]  </td>
+      <td>
+        <p>APU 요청에 추가하려는 각 파일에 대해 <b>항목 추가</b>를 클릭하고 원시 데이터의 경우 파일의 텍스트를 입력하거나 <code>uploadedFile</code> 키를 입력하고 파일의 데이터를 매핑하십시오.</p>
+      </td>
+    </tr>
+    </tr>
+  </tbody>
+</table>
+
+### 사용자 지정 API 호출 만들기(이전)
+
+이 작업 모듈에서는 모든 Adobe API를 호출할 수 있습니다.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+     <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>Adobe Authenticator 모듈에 대한 연결 만들기에 대한 지침은 이 문서의 <a href="#create-a-connection" class="MCXref xref" >연결 만들기</a>를 참조하십시오.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 기본 URL]</p>
+      </td>
+      <td>
+        <p>연결할 API 지점의 기본 URL을 입력합니다.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL]</p>
+      </td>
+      <td>
+        <p>기본 URL에 상대적인 경로를 입력합니다.</p>
       </td>
     </tr>
     <tr>
