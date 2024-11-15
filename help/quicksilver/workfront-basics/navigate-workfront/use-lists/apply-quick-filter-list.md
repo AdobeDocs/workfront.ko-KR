@@ -3,20 +3,18 @@ navigation-topic: use-lists
 title: 목록에 빠른 필터 적용
 description: 객체 목록에서 빠른 필터를 사용하면 자신에게 중요한 항목만 찾을 수 있으므로 빠르게 검토하거나 업데이트하거나 다른 사람과 공유할 수 있습니다.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # 목록에 빠른 필터 적용
 
-<!--
-{{highlighted-preview}}
--->
+<!--Audited:11/2024-->
 
 객체 목록에서 빠른 필터를 사용하면 자신에게 중요한 항목만 찾을 수 있으므로 빠르게 검토하거나 업데이트하거나 다른 사람과 공유할 수 있습니다.
 
@@ -35,6 +33,7 @@ ht-degree: 0%
 * [!UICONTROL 보고서] 영역
 * 문서 목록 및 보고서
 * 여러 [!UICONTROL 설치] 영역
+
   >[!NOTE]
   >
   >빠른 필터는 [!UICONTROL 그룹], [!UICONTROL 팀], [!UICONTROL 회사], [!UICONTROL 일정], [!UICONTROL 레이아웃 템플릿] 및 [!UICONTROL 사용자 지정 Forms] 설정 영역에서 사용할 수 있습니다.
@@ -52,6 +51,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -59,25 +60,35 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] 플랜*</b></td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] 라이센스*</b></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td> 
+    <p>신규:</p>
+   <ul><li><p>기여자 이상 </p></li>
+   </ul>
+
+<p>현재:</p>
+   <ul><li><p>요청 이상</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>액세스 수준 구성*</b></td> 
-   <td> <p>목록의 영역에 대한 액세스 보기</p> <p>예를 들어 프로젝트에 빠른 필터를 적용하려면 프로젝트에 [!UICONTROL 보기] 액세스 권한이 필요합니다.</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오.<br>[!DNL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하세요.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>목록의 영역에 대한 액세스 보기</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>개체 권한</b></td> 
-   <td> <p>[!UICONTROL 보기]</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>목록이 있는 개체에 대한 [!UICONTROL 보기] 권한</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
 
 ## 목록에 빠른 필터 적용
 
@@ -109,7 +120,7 @@ ht-degree: 0%
    1. 목록에서 항목을 모두 또는 여러 개 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭하여 항목을 일괄 편집합니다.
    1. 편집을 완료한 후 **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 
-1. (선택 사항) 빠른 필터로 찾은 항목을 내보내려면 목록에서 전체 또는 여러 항목을 선택한 다음 **[!UICONTROL 내보내기]**&#x200B;를 클릭합니다.
+1. (선택 사항) 빠른 필터로 찾은 항목을 내보내려면 목록에서 전체 또는 여러 항목을 선택한 다음 **[!UICONTROL 내보내기]** 아이콘 ![](assets/export.png)을 클릭합니다.
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
@@ -118,6 +129,6 @@ ht-degree: 0%
    >빠른 필터 검색 내보내기에서 찾은 항목만 선택한 파일로 내보냅니다. 목록을 내보내기 전에 항목을 선택하지 않으면 필터링되지 않은 전체 목록이 내보내집니다.\
    >자세한 내용은 [목록 내보내기](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)를 참조하십시오.
 
-1. (선택 사항) 필터링된 결과를 지우려면 창 오른쪽 상단의 **[!UICONTROL 빠른 필터]** 아이콘을 클릭합니다.\
-   또는\
-   페이지를 새로 고칩니다.
+1. (선택 사항) 필터링된 결과를 지우려면 창 오른쪽 상단의 **[!UICONTROL 빠른 필터]** 아이콘을 클릭합니다.
+또는
+페이지를 새로 고칩니다.

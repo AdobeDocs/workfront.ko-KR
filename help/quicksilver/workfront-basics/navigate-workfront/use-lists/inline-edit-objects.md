@@ -4,16 +4,18 @@ navigation-topic: use-lists
 title: ' [!DNL Adobe Workfront]의 목록에서 항목을 인라인 편집합니다.'
 description: 목록이나 보고서에 표시될 때 오브젝트를 인라인으로 편집할 수 있습니다. 목록이나 보고서에 표시된 객체에 대한 정보를 편집하면 객체가 즉시 업데이트됩니다.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront]의 목록에서 항목을 인라인 편집합니다.
+
+<!--Audited: 11/2024-->
 
 목록이나 보고서에 표시될 때 오브젝트를 인라인으로 편집할 수 있습니다. 목록이나 보고서에 표시된 객체에 대한 정보를 편집하면 객체가 즉시 업데이트됩니다.
 
@@ -24,14 +26,18 @@ ht-degree: 0%
 목록이나 보고서에 표시된 대부분의 개체는 [!DNL Adobe Workfront]에서 인라인 편집할 수 있지만 다음과 같은 몇 가지 제한 사항이 있습니다.
 
 * 계산 필드 또는 계산인 [!DNL Workfront] 기본 제공 필드는 편집할 수 없습니다.
-* 목록의 오브젝트와 직접 연결된 필드만 편집할 수 있습니다. 목록의 객체와 연관된 객체에 속하는 필드는 편집할 수 없습니다.\
-   예를 들어 작업 보고서에서 작업의 상태를 편집할 수 있지만 동일한 보고서에서 작업이 연결된 프로젝트의 이름을 편집할 수는 없습니다. 프로젝트 보고서에서만 프로젝트의 이름을 편집할 수 있습니다.
-* 목록에 대한 보기에 기본 통화가 표시되지 않으면 필드를 인라인 편집할 수 없습니다.\
-   기본 통화 표시에 대한 자세한 내용은 문서 [환율을 고유하게 사용하는 재무 데이터 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)의 [고유 통화를 사용하는 보고서 편집](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) 섹션을 참조하십시오.
+* 목록의 오브젝트와 직접 연결된 필드만 편집할 수 있습니다. 목록의 객체와 연관된 객체에 속하는 필드는 편집할 수 없습니다.
+
+  예를 들어 작업 보고서에서 작업의 상태를 편집할 수 있지만 동일한 보고서에서 작업이 연결된 프로젝트의 이름을 편집할 수는 없습니다. 프로젝트 보고서에서만 프로젝트의 이름을 편집할 수 있습니다.
+* 목록에 대한 보기에 기본 통화가 표시되지 않으면 필드를 인라인 편집할 수 없습니다.
+
+  기본 통화 표시에 대한 자세한 내용은 문서 [환율을 고유하게 사용하는 재무 데이터 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)의 [고유 통화를 사용하는 보고서 편집](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) 섹션을 참조하십시오.
 * 목록에 표시되는 플래그 및 아이콘은 편집할 수 없습니다.
 * 다른 보고서에서 가져온 보고서 필드는 인라인 편집할 수 없습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -40,25 +46,34 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Review] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td> 
+    <p>신규:</p>
+   <ul><li><p>기여자 이상 </p></li>
+   </ul>
+
+<p>현재:</p>
+   <ul><li><p>요청 이상</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>목록이 있는 영역에 대한 [!UICONTROL 편집] 액세스 권한</p> <p>예를 들어 프로젝트에서 작업을 인라인 편집하려면 프로젝트에 대한 [!UICONTROL 편집] 액세스 권한이 필요합니다.</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오.<br>[!DNL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하세요.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>목록이 있는 영역에 대한 [!UICONTROL 편집] 액세스 권한</p> <p>예를 들어 프로젝트에서 작업을 인라인 편집하려면 프로젝트에 대한 [!UICONTROL 편집] 액세스 권한이 필요합니다.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>[!UICONTROL 관리]</p> <p>사용자 정의 필드, 상태 등과 같은 특정 필드를 편집할 권한도 있어야 합니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>[!UICONTROL 관리]</p> <p>사용자 정의 필드, 상태 등과 같은 특정 필드를 편집할 권한도 있어야 합니다.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 인라인 오브젝트 편집
 
@@ -72,13 +87,10 @@ ht-degree: 0%
    >
    >페이지가 여러 개인 경우 다음을 사용하여 객체를 찾을 수 있습니다.
    >
-   >   
-   >   
-   >   * **페이지 매김**: 페이지 사이를 탐색하려면 뒤로 및 앞으로 화살표를 클릭하십시오.\
+   >   * **페이지 매김**: 페이지 사이를 탐색하려면 뒤로 및 앞으로 화살표를 클릭하십시오.
    >     목록의 오른쪽 아래 모서리에 있는 [!UICONTROL 페이지 매김] 영역은 목록을 스크롤할 때 고정된 상태로 유지됩니다.
-   >   * **빠른 필터**: 필터 아이콘을 클릭하거나 Alt+F를 입력하여 빠른 필터를 연 다음, 텍스트를 입력하여 입력한 텍스트가 포함된 항목만 표시합니다.\
+   >   * **빠른 필터**: 필터 아이콘을 클릭하거나 Alt+F를 입력하여 빠른 필터를 연 다음, 텍스트를 입력하여 입력한 텍스트가 포함된 항목만 표시합니다.
    >     빠른 필터는 목록 도구 모음에 있습니다. 자세한 내용은 [목록에 빠른 필터 적용](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)을 참조하십시오.
-
 
    필드를 편집할 수 있는 경우 필드 및 목록에 표시된 다른 모든 필드가 편집 가능한 셀로 바뀝니다.
 

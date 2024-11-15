@@ -4,17 +4,19 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 다중 선택 사용자 정의 필드로 보고서 차트 작성
 description: 다중 선택 사용자 지정 필드에서 선택한 선택 사항을 캡처하는 추가 계산된 필드를 생성한 후에만 다중 선택 사용자 지정 필드로 보고서를 차트로 작성할 수 있습니다.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
 
 # 다중 선택 사용자 정의 필드로 보고서 차트 작성
+
+<!--Audited: 11/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -39,6 +41,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -46,25 +50,34 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td> 
+    <p>신규:</p>
+   <ul><li><p>필터를 수정하는 기여자 </p></li>
+   <li><p>보고서를 수정하는 표준</p></li> </ul>
+
+<p>현재:</p>
+   <ul><li><p>필터 수정 요청 </p></li>
+   <li><p>보고서 수정 계획</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 필터 수정</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -114,12 +127,12 @@ ht-degree: 0%
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (선택 사항) 다중 선택 사용자 지정 필드가 이미 이 양식에 있고 이 양식이 이미 오브젝트에 연결되어 있는 경우 **이전 계산 업데이트(백그라운드)** 옵션을 활성화합니다.
+1. (선택 사항) 다중 선택 사용자 지정 필드가 이미 이 양식에 있고 이 양식이 개체에 이미 연결되어 있는 경우 **기존 계산에 적용** 옵션을 활성화합니다.
 
    이렇게 하면 다중 선택 사용자 정의 필드의 값이 객체에 이미 첨부된 양식에 추가될 때 새 계산된 필드가 자동으로 채워집니다.
 
-1. **완료**&#x200B;를 클릭합니다.
-1. **저장 및 닫기**&#x200B;를 클릭합니다.
+1. **적용**&#x200B;을 클릭합니다.
+1. **저장 후 닫기**&#x200B;를 클릭합니다.
 
    계산된 사용자 정의 필드가 사용자 정의 양식에 추가되고 양식이 현재 오브젝트에 첨부된 경우 필드는 다중 선택 사용자 정의 필드의 정보로 채워집니다.
 

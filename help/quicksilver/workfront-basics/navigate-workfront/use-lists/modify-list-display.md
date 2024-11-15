@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: 목록 표시 방법 수정
 description: ' [!DNL Adobe Workfront]에서 목록을 표시하는 방법을 사용자 지정할 수 있습니다. 목록을 보는 다른 사용자에게는 변경 사항이 표시되지 않습니다.'
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # 목록 표시 방법 수정
+
+<!--Audited: 11/2024-->
 
 [!DNL Adobe Workfront]에서 목록을 표시하는 방법을 사용자 지정할 수 있습니다. 목록을 보는 다른 사용자에게는 변경 사항이 표시되지 않습니다.
 
@@ -32,6 +34,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -39,27 +43,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td> 
+    <p>신규:</p>
+   <ul><li><p>기여자 이상 </p></li>
+   </ul>
+
+<p>현재:</p>
+   <ul><li><p>요청 이상</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>목록이 있는 영역에 대한 [!UICONTROL 보기] 액세스 권한</p> <p>예를 들어 프로젝트의 보기를 수정하려면 프로젝트에 대한 [!UICONTROL 보기] 액세스 권한이 필요합니다.</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오.<br>[!DNL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하세요.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>목록이 있는 영역에 대한 [!UICONTROL 보기] 액세스 권한</p> <p>예를 들어 프로젝트의 보기를 수정하려면 프로젝트에 대한 [!UICONTROL 보기] 액세스 권한이 필요합니다.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>목록에 적용된 보기에 대한 [!UICONTROL 보기] 이상 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>목록에 적용된 보기에 대한 [!UICONTROL 보기] 이상 권한</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-## 목록 표시 방법 수정
++++
+
+## 목록 수정
 
 1. [!DNL Workfront]에서 수정할 목록으로 이동합니다.
 
@@ -101,7 +114,8 @@ ht-degree: 0%
 
 1. 목록의 열 순서를 바꾸려면 열 머리글 위로 마우스를 가져가 손 도구를 표시한 다음 를 클릭하여 열을 표시할 위치로 끕니다.
 
-   페이지를 새로 고칠 때까지 열의 위치가 저장됩니다.\
+   페이지를 새로 고칠 때까지 열의 위치가 저장됩니다.
+
    목록에 있는 열의 너비와 순서를 사용자 지정하는 방법에 대한 자세한 내용은 문서 [열 너비와 순서 수정](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)을 참조하십시오.
 
 1. 목록의 정렬 순서를 조정하려면 열 머리글을 클릭하여 선택한 다음 키보드에서 CMD 키([!DNL Mac]의) 또는 CTRL 키([!DNL Windows]의)를 누른 채 최대 2개의 추가 열 머리글을 선택하여 정렬합니다.
