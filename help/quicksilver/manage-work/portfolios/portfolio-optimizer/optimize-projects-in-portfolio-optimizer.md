@@ -6,9 +6,9 @@ description: '[!UICONTROL Portfolio 최적화 도구]를 사용하여 점수 및
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p> <p>프로젝트에 대한 Contribute 이상 권한</p>  </td> 
+   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p> <p>프로젝트에 대한 Contribute 이상 권한</p> 
+   <p><b>프로젝트 우선 순위 설정</b>을 사용하려면 목록에 있는 모든 프로젝트에 대한 관리 권한이 있어야 합니다.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +61,8 @@ ht-degree: 0%
 
 1. **[!UICONTROL 최적화]** 아이콘 을 클릭합니다.
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)\
+   ![](assets/optimize-icon-portfolio-optimizer.png)
+
    프로젝트에 점수를 매길 수 있는 범주가 [!UICONTROL 최적화] 아이콘 왼쪽에 표시됩니다.
 
 1. 슬라이딩 원을 사용하여 다음 카테고리 중 하나의 최적화를 수정합니다.
@@ -78,9 +81,14 @@ ht-degree: 0%
 
 1. **[!UICONTROL Score]** 열에 올바른 가중치를 설정한 후 **[!UICONTROL Score]** 열의 헤더를 클릭하여 이 열을 기준으로 정렬합니다. 점수가 가장 높은 프로젝트가 목록 맨 위에 표시됩니다.
 
-1. (선택 사항) 우선 순위 순서대로 프로젝트를 드래그하여 놓습니다.\
-   [!UICONTROL Portfolio 최적화 도구]에서 프로젝트의 순서를 변경합니다.
-1. (선택 사항) 프로젝트의 새 우선 순위를 저장하려면 **[!UICONTROL 우선 순위 설정]**&#x200B;을 클릭합니다.\
+1. (선택 사항) 우선 순위 순서대로 프로젝트를 드래그하여 놓습니다.
+[!UICONTROL Portfolio 최적화 도구]에서 프로젝트의 순서를 변경합니다.
+1. (선택 사항) 프로젝트의 새 우선 순위를 저장하려면 **[!UICONTROL 우선 순위 설정]**&#x200B;을 클릭합니다.
+
+   >[!NOTE]
+   >
+   >   **프로젝트 우선 순위 설정**&#x200B;을 사용하려면 목록에 있는 모든 프로젝트에 대한 관리 권한이 있어야 합니다.
+
    [!UICONTROL Portfolio 최적화 도구]에서 프로젝트 우선 순위를 지정하는 방법에 대한 자세한 내용은 문서 [Portfolio 최적화 도구[!UICONTROL 에서 프로젝트 우선 순위 지정]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)을 참조하십시오.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 [!UICONTROL Portfolio 최적화 도구]를 저장합니다.

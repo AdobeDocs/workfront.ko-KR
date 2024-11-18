@@ -7,9 +7,9 @@ description: '[!UICONTROL Portfolio 최적화 도구]는 프로젝트 평가 및
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,9 @@ ht-degree: 0%
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
    <td>[!UICONTROL 프로젝트 우선 순위 설정]</td> 
-   <td>우선 순위에 따라 프로젝트 순서를 저장하려면 이 아이콘을 사용합니다. </td> 
+   <td><p>우선 순위에 따라 프로젝트 순서를 저장하려면 이 아이콘을 사용합니다.</p>
+   <p><b>프로젝트 우선 순위 설정</b>을 사용하려면 목록에 있는 모든 프로젝트에 대한 관리 권한이 있어야 합니다.</p>.
+    </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> 

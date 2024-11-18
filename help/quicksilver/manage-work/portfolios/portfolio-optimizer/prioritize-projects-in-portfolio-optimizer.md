@@ -6,9 +6,9 @@ description: Portfolio 최적화 도구에서 프로젝트의 우선 순위를 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p> <p>프로젝트에 대한 Contribute 이상 권한</p>  </td> 
+   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p> <p>프로젝트에 대한 Contribute 이상 권한</p> 
+   <p><b>프로젝트 우선 순위 설정</b>을 사용하려면 목록에 있는 모든 프로젝트에 대한 관리 권한이 있어야 합니다.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
