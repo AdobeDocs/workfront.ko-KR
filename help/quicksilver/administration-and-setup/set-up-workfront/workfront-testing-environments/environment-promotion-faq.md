@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
+source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '292'
 ht-degree: 3%
 
 ---
@@ -59,11 +59,11 @@ ht-degree: 3%
 
 아니요. 현재 공유가 지원되지 않습니다.
 
-## 롤백 기능은 언제 사용할 수 있습니까?
+## 패키지 롤백을 사용할 수 있습니까?
 
 ### 답변
 
-롤백은 최우선 순위이며 현재 개발 중입니다. 롤백 기능은 2024년 3분기 또는 4분기에 출시될 예정입니다.
+패키지 롤백은 패키지 설치 후 24시간 이내에 최신 패키지에 대해 사용할 수 있습니다.
 
 ## 개별 구성 요소의 프로모션을 건너뛸 수 있는 옵션이 있습니까? `Use Existing`, `Overwrite` 및 `Save with a new Name`&quot; 옵션이 있는 경우 개별 매개 변수의 프로모션을 건너뛸 수 있도록 `Skip`을(를) 추가할 수 있습니까?
 
