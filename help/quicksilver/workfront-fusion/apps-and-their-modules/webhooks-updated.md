@@ -8,7 +8,7 @@ description: 웹후크는 이벤트에 의해 트리거되는 HTTP 호출입니�
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 34d7edb6a3f9cb1e818f6c234a8dda88d01c5fc4
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -16,6 +16,10 @@ ht-degree: 0%
 ---
 
 # 웹후크
+
+
+
+<!--This information moved to the webhooks article in the create scenarios folders in the new repo-->
 
 웹후크는 이벤트에 의해 트리거되는 HTTP 호출입니다. 웹후크를 사용하여 즉시 트리거 모듈을 활성화할 수 있습니다. 인터넷에 연결되어 있고 HTTP 요청을 허용하는 모든 애플리케이션은 웹 후크를 Adobe Workfront Fusion으로 보낼 수 있습니다.
 
