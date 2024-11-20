@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 7f9e9a255e6abefe20ebf018cff82ccc3e4cbe20
+source-git-commit: 347c1484ce24b8aeb3d1e12c35a19afbb937803c
 workflow-type: tm+mt
-source-wordcount: '14590'
+source-wordcount: '14597'
 ht-degree: 2%
 
 ---
@@ -684,7 +684,7 @@ ht-degree: 2%
       * [Workfront 관리](administration-and-setup/manage-workfront/manage-workfront.md)
       * 증명 기능 구성 {#configure-proofing}
          * [증명 구성](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
-         * [증명 설정](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
+         * [교정쇄 설정](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
          * [Workfront과 Workfront Proof 간의 사용자 동기화](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
          * [증명 액세스](administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
          * [데스크톱 증명 뷰어](administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
@@ -854,7 +854,8 @@ ht-degree: 2%
       * [스푸핑 방지 및 SPF 레코드 추가](administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
       * [이메일 헤더 파일 저장](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [공유에 두 개 이상의 권한이 표시됨](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
-      * [인증되지 않은 이메일이 승인되지 않음](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+      * [인증되지 않은 전자 메일이 허용되지 않음](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+        [Workfront: ZScalar 설정으로 인해 성능이 저하될 수 있음](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
       * [사용자 자격 증명과 SAML 자격 증명 비교](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [액세스 수준의 자동 업그레이드 옵션 업데이트](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront 기본 사항 {#basics}
