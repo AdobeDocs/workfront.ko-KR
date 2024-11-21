@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 1%
@@ -60,7 +60,7 @@ Workfront의 다음 영역에 Workfront Planning 레코드 및 Adobe Workfront �
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront 계획 계획*</p></td>
+   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td>
    <td>
 <p>임의</p>
 <p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p>
@@ -113,7 +113,7 @@ Workfront 객체의 Planning 섹션을 사용하여 Workfront 객체에 연결�
 계획 섹션은 다음 Workfront 객체에 사용할 수 있습니다.
 
 * 프로젝트
-* Portfolio
+* 포트폴리오
 * 프로그램
 <!--* Group
 * Company-->
@@ -191,7 +191,7 @@ Planning 연결 사용자 정의 필드를 생성할 때 Workfront 객체에 대
 * Planning 연결 필드는 연결이 설정된 후 필드가 다음 Workfront 객체의 양식에 첨부된 경우 Planning 레코드를 표시합니다.
 
    * 프로젝트
-   * Portfolio
+   * 포트폴리오
    * 프로그램
    * 그룹
    * 회사
@@ -214,7 +214,7 @@ Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를
 1. Workfront Planning 레코드 유형과 연결된 다음 객체 유형 중 하나로 이동합니다.
 
    * 프로젝트
-   * Portfolio
+   * 포트폴리오
    * 프로그램
    * 회사
    * 그룹

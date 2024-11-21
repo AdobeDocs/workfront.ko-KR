@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 2%
@@ -64,7 +64,7 @@ ht-degree: 2%
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront 계획 계획*</p></td>
+   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td>
    <td>
 <p>임의 </p>  
 <p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </td>
@@ -205,7 +205,8 @@ ht-degree: 2%
    * 작업 영역에 대한 참여 이상의 액세스 권한이 있는 모든 사용자
    * 링크를 보유한 모든 사용자
 
-   >[!IMPORTANT]
+   >[!WARNING]
+   >
    >
    >**링크가 있는 모든 사용자**&#x200B;를 선택하면 조직 외부의 사람 중 Workfront 계정이 없는 사람도 양식에 액세스하여 새 레코드를 제출할 수 있습니다.
 

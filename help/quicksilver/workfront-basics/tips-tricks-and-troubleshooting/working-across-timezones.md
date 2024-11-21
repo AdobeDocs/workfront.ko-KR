@@ -5,9 +5,9 @@ title: 시간대 간 작업
 description: ' [!DNL Adobe Workfront] 이(가) 시간대를 사용하여 오브젝트와 이메일과 같은 다른 영역의 시간을 계산하는 방법을 이해하는 것이 도움이 될 수 있습니다.'
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,13 @@ ht-degree: 0%
 # 시간대 간 작업
 
 <!-- Audited: 2/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 [!DNL Adobe Workfront]에서 시간대를 사용하여 다음을 계산하는 방법을 이해하는 것이 도움이 될 수 있습니다.
 
@@ -91,20 +98,37 @@ ht-degree: 0%
 
   이 일정은 프로젝트 일정과 다를 수 있습니다. 예를 들어 누군가가 프로젝트에서 작업을 만들고 아직 아무도 할당하지 않은 경우 작업은 프로젝트 일정을 사용합니다. 사용자가 작업에 할당되면 작업은 해당 사용자의 일정을 사용합니다.
 
-  작업에 여러 사용자가 할당된 경우 시스템은 시스템 전체 프로젝트 환경 설정에 구성된 대로 다음 중 하나를 사용합니다.
+  작업에 여러 사용자가 할당된 경우 시스템은 시스템 또는 그룹 전체 프로젝트 환경 설정에 구성된 대로 다음 중 하나를 사용합니다.
 
    * 작업 기본 소유자의 일정에 대한 시간대
    * 프로젝트 일정에 대한 시간대입니다.
 
-  이로 인해 작업 날짜가 변경될 수 있습니다.
+<!--
+   <div class="preview">
 
-  **예:** EST 사용자는 EST 정오 시간인 오전 9시(PST)에 시작되도록 예약된 1일 작업에 할당됩니다. EST 사용자는 당일 근무시간이 2시간만 남아 있으므로 임무 완료 일자는 다음 근무일까지 약 6시간 연장됩니다.
+   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
 
-  [!UICONTROL 설정]의 [!UICONTROL 프로젝트 환경 설정] 영역에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
+   * The time zone for the schedule of the task's assignee
+   * The time zone for the schedule of the project.
 
-  프로젝트 또는 사용자에게 일정을 할당하는 방법에 대한 지침은 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
+   </div>
+-->
 
-  일정에 구성된 시간대가 [!UICONTROL 업무 균형자]에서 [!UICONTROL 계획된 시간]의 분포에 미치는 영향에 대한 자세한 내용은 [업무 균형자에서 [!UICONTROL 사용자 할당 관리]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)를 참조하십시오.
+이로 인해 작업 날짜가 변경될 수 있습니다.
+
+>[!BEGINSHADEBOX]
+
+**예:**
+EST 사용자는 EST 정오 시간인 오전 9시(PST)에 시작하기로 예정된 1일 작업에 할당됩니다. EST 사용자는 당일 근무시간이 2시간만 남아 있으므로 임무 완료 일자는 다음 근무일까지 약 6시간 연장됩니다.
+
+
+>[!ENDSHADEBOX]
+
+[!UICONTROL 설정]의 [!UICONTROL 프로젝트 환경 설정] 영역에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
+
+프로젝트 또는 사용자에게 일정을 할당하는 방법에 대한 지침은 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
+
+일정에 구성된 시간대가 [!UICONTROL 업무 균형자]에서 [!UICONTROL 계획된 시간]의 분포에 미치는 영향에 대한 자세한 내용은 [업무 균형자에서 [!UICONTROL 사용자 할당 관리]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)를 참조하십시오.
 
 
 ### 사용자 정의 양식에서 계산된 시간 필드 사용 {#use-calculated-time-fields-in-a-custom-form}

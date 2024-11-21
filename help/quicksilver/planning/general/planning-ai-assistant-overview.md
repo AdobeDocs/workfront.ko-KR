@@ -6,15 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
 
 
 # Adobe Workfront Planning AI Assistant 개요
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+-->
 
 {{planning-important-intro}}
 
@@ -59,9 +65,21 @@ AI Assistant를 사용하여 현재 페이지 컨텍스트 및 레코드 구조�
 * 레코드 삭제
 * 방금 삭제한 레코드 복원
 
+
+<!-- ## Locate the AI Assistant in Workfront Planning
+
+You can locate the AI Assistant in the following areas of Workfront Planning:
+
+* The main navigation bar, in the upper-right corner of the screen.
+* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
+
+-->
+
 ## 계획 영역에서 AI 지원에 액세스
 
-1. Workfront에 로그인한 다음 **계획** 영역으로 이동합니다.
+1. Workfront에 로그인한 다음 화면 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/dots-main-menu.png)을(를) 클릭하거나 사용 가능한 경우 왼쪽 상단의 **주 메뉴** 아이콘 ![](assets/lines-main-menu.png)을(를) 클릭합니다.
+
+. **계획**&#x200B;을 클릭합니다. 계획 영역이 열립니다.
 
 1. **작업 영역 카드**&#x200B;를 클릭합니다.
 
@@ -69,7 +87,7 @@ AI Assistant를 사용하여 현재 페이지 컨텍스트 및 레코드 구조�
 
 1. (선택 사항) **레코드**&#x200B;을(를) 클릭하여 레코드의 **세부 정보** 페이지를 엽니다.
 
-1. 전역 탐색 막대에서 화면 오른쪽 상단의 **AI Assistant 아이콘**&#x200B;을 클릭합니다.
+1. 전역 탐색 모음 <!--or in the upper-right corner of the record's preview or page.-->에서 화면 오른쪽 상단의 **AI Assistant 아이콘**&#x200B;을 클릭합니다.
 
    ![](assets/ai-assistant-icon-highlighted.png)
 
@@ -87,3 +105,6 @@ AI Assistant를 사용하여 현재 페이지 컨텍스트 및 레코드 구조�
    AI 어시스턴트가 명령을 처리하는 동안 시각적 표시기가 표시돼 응답 시간에 대한 기대치를 설정할 수 있다.
 
    성공적인 응답을 받은 후 제공된 링크를 따르거나 왼쪽에 변경 사항을 확인합니다.
+
+
+

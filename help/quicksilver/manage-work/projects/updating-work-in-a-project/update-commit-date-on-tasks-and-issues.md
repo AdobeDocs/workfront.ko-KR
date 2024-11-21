@@ -6,9 +6,9 @@ description: 할당된 작업 또는 문제의 커밋 일자를 수동으로 업
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>작업 또는 문제에 대한 권한 관리</p> </td> 
+   <td> <p>작업 또는 문제에 대한 권한 관리</p>
+   <p> 커밋 일자를 업데이트하려면 작업 또는 문제를 할당해야 합니다. </p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

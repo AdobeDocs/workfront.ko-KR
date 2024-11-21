@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '4106'
+source-wordcount: '4129'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 <p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront 계획 계획*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td> 
    <td> 
 <p>임의 </p> 
 <p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
@@ -206,6 +206,9 @@ OLD:
    열 머리글 위로 마우스를 가져간 후 필드 이름 뒤에 있는 아래쪽 화살표를 클릭한 다음 **왼쪽 삽입** 또는 **오른쪽 삽입**&#x200B;을 클릭하여 새 필드를 추가합니다.
 1. **새 필드** 탭에서 **필드 형식** 상자에서 필드 형식을 검색하거나 다음 필드 형식 중에서 선택하십시오.
 
+   **새 필드** 탭에서 **필드 형식** 상자 <!--using any related keyword-->에서 필드 형식을 검색하거나 아래 나열된 필드 형식에서 선택하십시오.
+
+
    * [한 줄 텍스트](#single-line-text)
    * [단락](#paragraph)
    * [다중 선택](#multi-select)
@@ -225,6 +228,9 @@ OLD:
    >[!IMPORTANT]
    >
    >    필드를 저장한 후에는 필드의 필드 유형을 변경할 수 없습니다.
+
+   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. 아래 섹션에 설명된 대로 각 필드를 계속 추가합니다.
 

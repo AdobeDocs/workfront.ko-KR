@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront 계획 계획*</p></td>
+   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td>
    <td>
 <p>임의</p>
 <p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p>

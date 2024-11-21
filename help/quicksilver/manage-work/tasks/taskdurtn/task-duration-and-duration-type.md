@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1402'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,13 @@ ht-degree: 1%
 # 작업 기간 및 기간 유형 개요
 
 <!-- Audited: 12/2023 -->
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+-->
 
 작업 기간은 작업의 계획된 완료 일자와 계획된 시작 일자 간의 차이입니다. 기간은 작업을 완료하는 데 사용할 수 있는 기간을 나타냅니다.
 
@@ -31,7 +38,30 @@ ht-degree: 1%
 
 다음은 Adobe Workfront에서 기간을 계산할 때 발생하는 두 가지 시나리오입니다.
 
-* 작업이 사용자 Workfront에 할당된 경우 에서는 다음 일정 중 하나를 이 순서로 사용하여 기간을 계산합니다.
+<!--
+<div class="preview">
+* If the task is assigned to one user, the following scenarios exist based on what environment you use: 
+
+  * In the Production environment, Workfront uses one of the following schedules, in this exact order to calculate Duration:
+
+   1. Workfront takes into account the user's schedule. 
+   1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
+   1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+   * In the Preview environment:
+
+      1. Workfront takes into account either the schedule of the project or that of the primary assignee.
+
+          Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to one  user. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+      1. If the user or the project don't have a schedule, Workfront uses the system Default schedule. 
+
+      The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
+
+</div>
+-->
+
+* 작업이 사용자에게 할당된 경우 Workfront에서는 다음 일정 중 하나를 이 순서로 사용하여 기간을 계산합니다.
 
    1. Workfront은 사용자의 일정을 고려합니다.
    1. 사용자가 일정과 연결되어 있지 않으면 Workfront에서 프로젝트의 일정을 고려합니다.
@@ -41,7 +71,9 @@ ht-degree: 1%
 
    1. Workfront은 프로젝트 또는 기본 피할당자의 일정을 고려합니다.
 
-  Workfront 관리자는 작업이 여러 사용자에게 할당될 때 Workfront에서 사용하는 일정을 결정합니다. 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
+      Workfront 또는 그룹 관리자는 작업이 여러 사용자에게 할당될 때 Workfront에서 사용하는 일정을 결정합니다. 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
+
+   1. 기본 담당자 또는 프로젝트에 일정이 없는 경우 Workfront은 시스템 기본 일정을 사용합니다.
 
   단계는 Workfront에서 기간을 계산하는 데 사용하는 일정을 파악한 후 첫 번째 시나리오와 유사합니다.
 

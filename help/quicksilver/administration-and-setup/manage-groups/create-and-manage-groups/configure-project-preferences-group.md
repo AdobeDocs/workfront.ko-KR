@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 2%
@@ -16,6 +16,12 @@ ht-degree: 2%
 ---
 
 # 그룹에 대한 프로젝트 환경 설정 구성
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 그룹 관리자인 경우 Adobe Workfront 관리자가 시스템의 모든 그룹에 대한 프로젝트 기본 설정의 잠금을 해제하면 그룹에서 만드는 모든 후속 프로젝트에 영향을 주도록 해당 그룹에 대한 기본 설정을 구성할 수 있습니다.
 
@@ -227,6 +233,19 @@ Workfront 관리자가 프로젝트 환경 설정을 잠금 해제하는 방법�
   </tr> 
  </tbody> 
 </table>
+
+<!--Add this to the table (under the "When multiple users are assigned ..." setting):
+
+When one user is assigned to a task, use the schedule of the...
+
+
+<p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign one user to a task in a project and the project has an assigned schedule and the user assigned to the tasks also has a schedule assigned to them, [!UICONTROL Workfront] uses the following schedules:</p> 
+    <ul> 
+     <li><strong>[!UICONTROL User]</strong>: The schedule of the assigned user on the task to calculate timelines.</li> 
+     <li><strong>[!UICONTROL Project]</strong>: The schedule of the project to calculate the timeline of the task.</li> 
+    </ul> <p>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Create a schedule</a>.</p>
+
+-->
 
 ### 비즈니스 사례 {#business-cases}
 
