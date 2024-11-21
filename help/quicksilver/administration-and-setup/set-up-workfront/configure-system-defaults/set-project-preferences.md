@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2721'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,10 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 [!DNL Adobe Workfront] 관리자는 시스템 전체에서 만든 모든 프로젝트에 대한 기본 환경 설정을 구성할 수 있습니다. 이러한 환경 설정은 프로젝트, 작업 및 문제 동작에 영향을 줍니다.
 
@@ -214,8 +213,23 @@ ht-degree: 1%
      <li><strong>[!UICONTROL 기본 할당]</strong>: [!DNL Workfront]은(는) 작업에 대한 기본 할당 일정을 사용하여 타임라인을 계산합니다.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront]은(는) 프로젝트 일정을 사용하여 각 작업의 타임라인을 계산합니다.</li> 
     </ul> <p>일정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">일정 만들기</a>를 참조하세요.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
+  </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"> <p><span class="preview">작업에 한 명의 사용자가 할당되면 다음의 일정 사용…</span></p> </td> 
+   <td> <div class="preview">
+<p>프로젝트에 할당된 일정이 없거나 작업에 할당된 사용자에게 할당된 일정이 없는 경우 [!DNL Workfront]은(는) 시스템 기본 일정을 사용하여 작업의 타임라인을 계산합니다.</p>
+
+<p>프로젝트의 작업에 한 명의 사용자를 할당하고 프로젝트와 작업에 할당된 사용자 모두에 연결된 일정이 있는 경우 [!UICONTROL Workfront]은 다음 일정을 사용합니다.</p> 
+    <ul> 
+     <li><strong>[!UICONTROL 사용자]</strong>: [!DNL Workfront]은(는) 작업에 할당된 사용자의 일정을 사용하여 타임라인을 계산합니다.</li> 
+     <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront]은(는) 프로젝트 일정을 사용하여 작업의 타임라인을 계산합니다.</li> 
+    </ul> <p>일정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">일정 만들기</a>를 참조하세요.</p>
+</div></td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL 타임라인 계산] </p> </td> 
    <td> 
     <ul> 
@@ -232,18 +246,12 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-<!--Add this to the table (under the "When multiple users are assigned ..." setting):
 
-<span class="preview">When one user is assigned to a task, use the schedule of the...</span>
 
-<div class="preview">
-<p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign one user to a task in a project and the project has an assigned schedule and the user assigned to the tasks also has a schedule assigned to them, [!UICONTROL Workfront] uses the following schedules:</p> 
-    <ul> 
-     <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] uses the schedule of the assigned user on the task to calculate timelines.</li> 
-     <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] uses the schedule of the project to calculate the timeline of the task.</li> 
-    </ul> <p>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Create a schedule</a>.</p>
-</div>
--->
+
+
+
+
 
 ### [!UICONTROL 비즈니스 사례] {#business-cases}
 
