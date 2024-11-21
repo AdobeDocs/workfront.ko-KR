@@ -9,7 +9,7 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Gmail을 사�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1987156c-e003-4f99-8913-cb47f77efbfc
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 0%
@@ -279,7 +279,7 @@ OAuth 클라이언트를 만들고 [!UICONTROL 클라이언트 ID] 및 [!UICONTR
    <td> <p>전자 메일이 포함된 [!DNL Gmail] 폴더를 선택하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 이메일 ID(UID)]</td> 
+   <td>[!UICONTROL 이메일 ID (UID)]</td> 
    <td> <p> 이메일 ID를 입력하거나 매핑합니다.</p> </td> 
   </tr> 
  </tbody> 
@@ -306,7 +306,7 @@ OAuth 클라이언트를 만들고 [!UICONTROL 클라이언트 ID] 및 [!UICONTR
    <td> <p>전자 메일이 포함된 [!DNL Gmail] 폴더를 선택하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 이메일 ID(UID)] </td> 
+   <td>[!UICONTROL 이메일 ID (UID)] </td> 
    <td> <p>읽지 않음으로 표시할 전자 메일의 전자 메일 ID를 입력하거나 매핑합니다.</p> </td> 
   </tr> 
  </tbody> 
@@ -337,7 +337,7 @@ OAuth 클라이언트를 만들고 [!UICONTROL 클라이언트 ID] 및 [!UICONTR
    <td> <p> 전자 메일을 이동할 [!DNL Gmail] 대상 폴더를 선택하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 이메일 ID(UID)]</td> 
+   <td>[!UICONTROL 이메일 ID (UID)]</td> 
    <td> <p> 이동할 전자 메일의 전자 메일 ID를 입력하거나 매핑합니다.</p> </td> 
   </tr> 
  </tbody> 
@@ -368,7 +368,7 @@ OAuth 클라이언트를 만들고 [!UICONTROL 클라이언트 ID] 및 [!UICONTR
    <td> <p>전자 메일을 복사할 대상 폴더 [!DNL Gmail]을(를) 선택하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 이메일 ID(UID)]</td> 
+   <td>[!UICONTROL 이메일 ID (UID)]</td> 
    <td> <p>복사할 이메일의 이메일 ID를 입력하거나 매핑합니다.</p> </td> 
   </tr> 
  </tbody> 

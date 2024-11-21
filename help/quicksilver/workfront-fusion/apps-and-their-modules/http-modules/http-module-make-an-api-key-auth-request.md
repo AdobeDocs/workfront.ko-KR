@@ -9,7 +9,7 @@ description: 이 [!DNL Adobe Workfront Fusion] 작업 모듈은 API 키 인증 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 70bf87c7-6d51-4ef4-9dce-80ad004e613f
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%

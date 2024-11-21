@@ -10,7 +10,7 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '4070'
 ht-degree: 0%
@@ -996,11 +996,11 @@ Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Adobe Workfront
 
 +++
 
-+++**[!UICONTROL 커밋할 Post 주석]**
++++**[!UICONTROL 커밋할 댓글 게시]**
 
 이 작업 모듈은 커밋에 주석을 추가합니다.
 
-필드에 대한 자세한 내용은 [!DNL GitLab] 설명서에서 [커밋할 Post 주석](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit)을 참조하십시오.
+필드에 대한 자세한 내용은 [!DNL GitLab] 설명서의 [커밋에 대한 댓글 게시](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit)을 참조하십시오.
 
 +++
 

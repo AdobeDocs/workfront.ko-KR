@@ -9,7 +9,7 @@ description: OAuth 2.0 인증이 필요한 서버에  [!DNL Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2236'
 ht-degree: 0%

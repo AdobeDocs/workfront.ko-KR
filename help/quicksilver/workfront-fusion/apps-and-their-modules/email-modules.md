@@ -9,7 +9,7 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 전자 메일
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 0%
@@ -100,7 +100,7 @@ SMAP 연결을 사용하면 원격으로 사서함에 액세스하고 사서함�
 
 >[!NOTE]
 >
->고유 전자 메일 ID는 &#39;[!UICONTROL 전자 메일 ID(UID)]&#39;입니다. 이메일 ID는 각 이메일 폴더에 대해 고유합니다.
+>&#39;[!UICONTROL 전자 메일 ID(UID)]&#39;(으)로 알려진 고유한 전자 메일 ID가 전자 메일의 식별자입니다. 이메일 ID는 각 이메일 폴더에 대해 고유합니다.
 
 * [트리거](#triggers)
 * [액션](#actions)
@@ -374,8 +374,8 @@ SMAP 연결을 사용하면 원격으로 사서함에 액세스하고 사서함�
    <td>읽음으로 표시할 전자 메일의 폴더를 선택합니다. 예: 기본.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 이메일 ID(UID)]</p> </td> 
-   <td> <p>읽음으로 표시할 이메일의 이메일 UID를 입력합니다.</p> <p>[!UICONTROL 이메일] &gt;[!UICONTROL 시계 이메일] 모듈 또는 [!UICONTROL 검색 이메일] 모듈을 사용하여 이메일의 UID를 가져올 수 있습니다.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 이메일 ID (UID)]</p> </td> 
+   <td> <p>읽음으로 표시할 이메일의 이메일 UID을 입력합니다.</p> <p>[!UICONTROL Email] &gt;[!UICONTROL Watch Email] 모듈 또는 [!UICONTROL Search Email] 모듈을 사용하여 이메일의 UID을 가져올 수 있습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -397,8 +397,8 @@ SMAP 연결을 사용하면 원격으로 사서함에 액세스하고 사서함�
    <td>읽지 않음으로 표시할 전자 메일의 폴더를 선택합니다. 예: 기본.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 이메일 ID(UID)]</p> </td> 
-   <td> <p>읽지 않음으로 표시할 전자 메일의 전자 메일 UID를 입력합니다.</p> <p>[!UICONTROL 이메일] &gt;[!UICONTROL 시계 이메일] 모듈 또는 [!UICONTROL 검색 이메일] 모듈을 사용하여 이메일의 UID를 가져올 수 있습니다.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 이메일 ID (UID)]</p> </td> 
+   <td> <p>읽지 않음으로 표시할 전자 메일의 전자 메일 UID을 입력합니다.</p> <p>[!UICONTROL Email] &gt;[!UICONTROL Watch Email] 모듈 또는 [!UICONTROL Search Email] 모듈을 사용하여 이메일의 UID을 가져올 수 있습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -424,8 +424,8 @@ SMAP 연결을 사용하면 원격으로 사서함에 액세스하고 사서함�
    <td> <p> 이메일을 추가할 폴더를 선택합니다. 예: 작업.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 이메일 ID(UID)]</p> </td> 
-   <td> <p>대상 폴더로 이동할 이메일의 이메일 UID를 입력합니다.</p> <p>[!UICONTROL 이메일] &gt;[!UICONTROL 시계 이메일] 모듈 또는 [!UICONTROL 검색 이메일] 모듈을 사용하여 이메일의 UID를 가져올 수 있습니다.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 이메일 ID (UID)]</p> </td> 
+   <td> <p>대상 폴더로 이동할 이메일의 이메일 UID을 입력합니다.</p> <p>[!UICONTROL Email] &gt;[!UICONTROL Watch Email] 모듈 또는 [!UICONTROL Search Email] 모듈을 사용하여 이메일의 UID을 가져올 수 있습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -451,8 +451,8 @@ SMAP 연결을 사용하면 원격으로 사서함에 액세스하고 사서함�
    <td> <p> 이메일을 복사할 폴더를 선택합니다. 예: 작업.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 이메일 ID(UID)]</p> </td> 
-   <td> <p>대상 폴더로 복사할 이메일의 이메일 UID를 입력합니다.</p> <p>[!UICONTROL 이메일] &gt;[!UICONTROL 시계 이메일] 모듈 또는 [!UICONTROL 검색 이메일] 모듈을 사용하여 이메일의 UID를 가져올 수 있습니다.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 이메일 ID (UID)]</p> </td> 
+   <td> <p>대상 폴더로 복사할 이메일의 이메일 UID을 입력합니다.</p> <p>[!UICONTROL Email] &gt;[!UICONTROL Watch Email] 모듈 또는 [!UICONTROL Search Email] 모듈을 사용하여 이메일의 UID을 가져올 수 있습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -474,8 +474,8 @@ SMAP 연결을 사용하면 원격으로 사서함에 액세스하고 사서함�
    <td>삭제하려는 이메일 폴더를 선택합니다. 예: 기본.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 이메일 ID(UID)]</p> </td> 
-   <td> <p>삭제하려는 이메일의 이메일 UID를 입력합니다.</p> <p>[!UICONTROL 이메일] &gt;[!UICONTROL 시계 이메일] 모듈 또는 [!UICONTROL 검색 이메일] 모듈을 사용하여 이메일의 UID를 가져올 수 있습니다.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 이메일 ID (UID)]</p> </td> 
+   <td> <p>삭제하려는 이메일의 이메일 UID을 입력합니다.</p> <p>[!UICONTROL Email] &gt;[!UICONTROL Watch Email] 모듈 또는 [!UICONTROL Search Email] 모듈을 사용하여 이메일의 UID을 가져올 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Exponge]</td> 
@@ -538,8 +538,8 @@ SMAP 연결을 사용하면 원격으로 사서함에 액세스하고 사서함�
    <td> <p>키워드를 입력하거나 매핑하여 특정 구문이 포함된 이메일만 검색합니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 이메일 ID(UID)]</td> 
-   <td> <p> 세부 정보를 검색할 이메일의 이메일 ID(UID)를 입력합니다.</p> <p>[!DNL Workfront Fusion]의[!UICONTROL 시계 이메일] 모듈 또는 [!UICONTROL 검색 이메일] 모듈을 사용하여 전자 메일의 UID를 가져올 수 있습니다.</p> </td> 
+   <td role="rowheader">[!UICONTROL 이메일 ID (UID)]</td> 
+   <td> <p> 세부 정보를 검색할 이메일의 이메일 ID(UID)를 입력합니다.</p> <p>[!DNL Workfront Fusion]의[!UICONTROL 시계 이메일] 모듈 또는 [!UICONTROL 검색 이메일] 모듈을 사용하여 이메일의 UID을 가져올 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 최대 결과 수]</td> 

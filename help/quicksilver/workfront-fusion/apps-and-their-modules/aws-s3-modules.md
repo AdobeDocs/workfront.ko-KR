@@ -9,7 +9,7 @@ description: ' [!DNL Adobe Workfront Fusion AWS] S3 모듈을 사용하면 S3 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%

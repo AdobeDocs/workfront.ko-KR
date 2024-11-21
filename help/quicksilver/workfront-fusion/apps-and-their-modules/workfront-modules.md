@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: d14ea876ef58c190a38f1b3b1bfc205df5681bca
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '6797'
 ht-degree: 2%
@@ -1300,7 +1300,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>포트폴리오</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
@@ -1675,7 +1675,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>포트폴리오</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
@@ -1949,7 +1949,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>포트폴리오</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
   </tr> 
