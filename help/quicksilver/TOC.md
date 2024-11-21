@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
+source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
 workflow-type: tm+mt
-source-wordcount: '14607'
+source-wordcount: '14611'
 ht-degree: 2%
 
 ---
@@ -612,7 +612,7 @@ ht-degree: 2%
          * [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [왼쪽 패널 사용자 정의](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [세부 사항 보기 사용자 지정](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-         * [홈 및 요약 맞춤화](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [레이아웃 템플릿을 사용하여 요약 패널 사용자 정의](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [새 홈 맞춤화](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [고정된 페이지 사용자 지정](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [필터, 보기, 그룹화 맞춤화](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)

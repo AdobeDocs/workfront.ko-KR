@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -75,7 +75,7 @@ ht-degree: 0%
    * [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
    * [레이아웃 템플릿을 사용하여 고정된 페이지 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
    * [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [레이아웃 템플릿을 사용하여 홈 및 요약 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [레이아웃 템플릿을 사용하여 요약 패널 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [레이아웃 템플릿을 사용하여 랜딩 페이지 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [레이아웃 템플릿을 사용하여 사용자 인터페이스 용어 맞춤화](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

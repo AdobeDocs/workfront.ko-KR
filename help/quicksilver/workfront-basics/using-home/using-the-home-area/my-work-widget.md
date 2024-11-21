@@ -5,13 +5,13 @@ title: 내 작업 위젯을 사용하여 작업 관리
 description: 내 작업 위젯은 할당된 모든 작업, 문제 및 요청을 한 곳에 표시합니다. 여기에서 작업을 필터링 및 구성하고 시간을 기록하며 업데이트하고 작업 항목을 완료로 표시할 수 있습니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: de782d54a5ab6370b91e7447ed33e5d7511cc50d
+exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 5%
 
 ---
-
 
 # 내 작업 위젯을 사용하여 작업 관리
 
@@ -157,7 +157,7 @@ ht-degree: 5%
 * 업데이트 추가
 * 문서 영역으로 이동하여 문서 업로드
 * 작업 항목 세부 정보 보기 및 사용자 정의 필드 업데이트
-Workfront 관리자는 레이아웃 템플릿의 요약에 표시되는 필드를 사용자 정의할 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 홈 및 요약 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)을 참조하십시오.
+Workfront 관리자는 레이아웃 템플릿의 요약에 표시되는 필드를 사용자 정의할 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 요약 패널 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)을 참조하십시오.
 * 작업 항목 상태 변경
 * 하위 작업 보기
 * 로그 시간
@@ -190,7 +190,3 @@ Workfront 관리자는 레이아웃 템플릿의 요약에 표시되는 필드�
 * 팀 요청
 
 새 홈 페이지에 위젯을 추가하는 방법에 대한 자세한 내용은 [홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)를 참조하십시오.
-
-
-
-
