@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: f69c974a620d5f39bc4ea18b455476c90cd4908e
+source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
 workflow-type: tm+mt
-source-wordcount: '14597'
+source-wordcount: '14607'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 2%
          * [2025년 1분기 문서 관리 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
          * [2025년 1분기 홈 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
          * [2025년 1분기 교정 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
+         * [2025년 1분기 보고서 및 대시보드 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md)
          * [2025년 1분기 릴리스 일정 동안의 기타 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [2025년 1분기 릴리스 기간 동안의 룩앤필 업데이트](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * 2024년 4분기 릴리스 {#release-24-q4}
@@ -1768,7 +1769,7 @@ ht-degree: 2%
       * [향상된 분석에서 팀별 활동 시각화 보기](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Workfront Data Connect 개요](reports-and-dashboards/data-lake/data-lake-overview.md)
-      * [리더 계정 만들기](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Snowflake을 위한 Reader 계정 또는 연결 만들기](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Workfront Data Connect에 연결 설정](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect 데이터 사전](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Workfront Data Connect 쿼리 예제](reports-and-dashboards/data-lake/basic-query-examples.md)
