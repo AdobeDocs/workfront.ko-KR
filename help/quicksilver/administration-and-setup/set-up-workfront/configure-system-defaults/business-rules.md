@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 0%
@@ -136,11 +136,11 @@ IF(
 
      <span class="preview">오류 메시지에 정적 URL을 포함하여 문서 또는 기타 유용한 페이지에 연결하여 규칙 제한 내에서 사용자가 작업을 수정하는 방법을 안내할 수 있습니다.</span>
 
-     <span class="preview">이 예제에서는 &quot;자세히 알아보기&quot;가 URL에 연결됩니다. `"You are not allowed to add a new expense in June.[Learn more](http://url)"` URL은 괄호로 묶어야 하지만 대괄호로 묶인 링크 텍스트는 필요하지 않습니다. 전체 URL을 표시할 수 있으며 클릭할 수 있는 링크가 됩니다.</span>
+     <span class="preview">이 예제에서는 &quot;자세히 알아보기&quot;가 URL에 연결됩니다. `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL은 괄호로 묶어야 하지만 대괄호로 묶인 링크 텍스트는 필요하지 않습니다. 전체 URL을 표시할 수 있으며 클릭할 수 있는 링크가 됩니다.</span>
 
    ![비즈니스 규칙 추가 대화 상자](assets/add-business-rule-dialog-no-ai-button.png)
 
-   이 예는 비용에 대한 비즈니스 규칙입니다. 현재 월이 6월인 경우 사용자가 새 경비를 만들 수 없으며 메시지에 이에 대한 설명이 나와 있습니다.
+   이 예제는 프로젝트에 대한 비즈니스 규칙입니다. 현재 월이 11월인 경우 사용자는 새 프로젝트를 만들 수 없으며 이 메시지가 표시됩니다.
 
    비즈니스 규칙의 자세한 예는 이 문서에서 [비즈니스 규칙에 대한 시나리오](#scenarios-for-business-rules)를 참조하십시오.
 
