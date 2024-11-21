@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Trello를 사
 author: Becky
 feature: Workfront Fusion
 exl-id: 60630b23-e057-4ecf-a014-6e63b6d69b48
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '5095'
+source-wordcount: '5113'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL Trello] 모듈을 사용하려면 [!UICONTROL Trello] 계정이 있어야 합니다.
+
+## Trello API 정보
+
+Trello 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://api.trello.com/1</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v4.12.37</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Workfront Fusion]에 [!UICONTROL Trello] 연결
 

@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는  [!DNL Market
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2083'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,25 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
 ## 전제 조건
 
 [!DNL Marketo] 모듈을 사용하려면 [!DNL Marketo] 계정이 있어야 합니다.
+
+## Marketo API 정보
+
+Marketo 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.14.19</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Workfront Fusion에 [!DNL Marketo] 연결 {#connect-marketo-to-workfront-fusion}
 

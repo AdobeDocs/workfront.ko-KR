@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 SDL Managed T
 author: Becky
 feature: Workfront Fusion
 exl-id: e1ef114f-8ce4-4210-b176-727dc4f5e561
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,25 @@ ht-degree: 0%
 보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 [!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
+
+## SDL Managed Translation API 정보
+
+SDL Managed Translation 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>https://languagecloud.sdl.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.4.26</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL SDL Managed Translation]개 모듈
 

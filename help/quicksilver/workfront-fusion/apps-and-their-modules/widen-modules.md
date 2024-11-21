@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: d46935bc-4f6c-4502-bd2f-3927f33241e1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1597'
 ht-degree: 1%
 
 ---
@@ -62,6 +62,25 @@ ht-degree: 1%
 ## 전제 조건
 
 [!UICONTROL 확장] 모듈을 사용하려면 [!UICONTROL 확장] 계정이 있어야 합니다.
+
+## API 정보 확장
+
+확장 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.10.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Widen]을(를) [!DNL Workfront Fusion]에 연결 {#connect-widen-to-workfront-fusion}
 

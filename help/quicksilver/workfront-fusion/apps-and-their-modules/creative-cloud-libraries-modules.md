@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 라이브러�
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 103a4a7b58048678739d6125c042503458ae3722
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,25 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL Adobe Creative Cloud Libraries] 모듈을 사용하려면 [!UICONTROL Adobe Creative Cloud] 계정이 있어야 합니다.
+
+## Adobe Creative Cloud Libraries API 정보
+
+Adobe Creative Cloud 라이브러리 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>https://cc-libraries.adobe.io/api/v1</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.1.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Adobe Creative Cloud 라이브러리] 모듈 및 해당 필드
 

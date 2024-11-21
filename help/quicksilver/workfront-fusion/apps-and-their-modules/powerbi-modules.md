@@ -10,9 +10,9 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 8dbb29b297d4f8840d5ecb81f819e89b5325f62c
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2493'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ ht-degree: 0%
 &#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 &#42;&#42;라이선스 [!DNL Adobe Workfront Fusion]에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
+
+## Microsoft Power BI API 정보
+
+Microsoft Power BI 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://api.powerbi.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.0.2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Power BI]개 모듈 및 해당 필드
 

@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 9c76e216cf66f230a12023c349093c45ba2c04a7
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2112'
 ht-degree: 1%
 
 ---
@@ -64,6 +64,37 @@ ht-degree: 1%
 ## 전제 조건
 
 [!DNL Jira] 모듈을 사용하려면 [!DNL Jira] 계정이 있어야 합니다.
+
+## Jira API 정보
+
+Jira 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"></td> 
+   <td> Jira 클라우드</td> 
+   <td> Jira 서버</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">apiVersion</td> 
+   <td> 2</td> 
+   <td> 2</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">apiVersionAgile</td> 
+   <td> 1.0 </td> 
+   <td> 1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>1.7.29</td> 
+   <td>1.0.19</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Jira Software]을(를) [!DNL Workfront Fusion]에 연결
 

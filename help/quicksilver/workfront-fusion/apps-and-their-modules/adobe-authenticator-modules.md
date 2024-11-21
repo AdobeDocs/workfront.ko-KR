@@ -9,9 +9,9 @@ description: Adobe Authenticator 모듈을 사용하면 단일 연결을 사용�
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1223'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,21 @@ HTTP 모듈에 대한 이점은 전용 앱에서와 같이 연결을 만들 수 
    * 기존 프로젝트에 API를 추가합니다.
 
   Adobe Developer Console에서 API를 만들거나 프로젝트에 추가하는 방법에 대한 자세한 내용은 Adobe 설명서에서 [프로젝트 만들기](https://developer.adobe.com/dep/guides/dev-console/create-project/)를 참조하십시오.
+
+## Adobe Authenticator API 정보
+
+Adobe Authenticator 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 연결 만들기
 

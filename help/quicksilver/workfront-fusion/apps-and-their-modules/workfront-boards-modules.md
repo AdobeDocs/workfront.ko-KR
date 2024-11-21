@@ -9,10 +9,10 @@ description: Adobe Workfront Boards 커넥터를 사용하여 Workfront Boards �
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 0%
+source-wordcount: '2647'
+ht-degree: 1%
 
 ---
 
@@ -71,6 +71,21 @@ Workfront 보드에 대한 일반적인 정보는 [보드 개요](/help/quicksil
 ## 전제 조건
 
 연결하려면 먼저 Adobe Workfront에서 보드를 구성해야 합니다.
+
+## Adobe Workfront 보드 API 정보
+
+Adobe Workfront 보드 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.23.6</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Workfront 보드에 대한 연결 만들기
 

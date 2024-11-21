@@ -10,9 +10,9 @@ description: Adobe Workfront Fusion 시나리오에서는  [!DNL Workday]을(를
 author: Becky
 feature: Workfront Fusion
 exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1030'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,25 @@ ht-degree: 1%
 
 * [!DNL Workday]에서 OAuth 응용 프로그램을 만듭니다. 자세한 내용은 [!DNL Workday] 설명서를 참조하십시오.
 
+## Workday API 정보
+
+Workday 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>https://{{connection.servicesUrl}}/api</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.6.4</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## [!DNL Workday]을(를) [!DNL Workfront Fusion]에 연결
 
 1. [!DNL Workfront Fusion] 모듈에서 [!UICONTROL 연결] 필드 옆의 [!UICONTROL 추가]를 클릭합니다
@@ -126,12 +145,12 @@ ht-degree: 1%
 
 ![](assets/map-toggle-350x74.png)
 
-* [개 액션](#action)
+* [액션](#action)
 
 * [검색](#search)
 
 
-### 개 액션
+### 액션
 
 * [[!UICONTROL 레코드 만들기]](#create-a-record)
 

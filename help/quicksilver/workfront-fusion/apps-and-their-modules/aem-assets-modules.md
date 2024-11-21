@@ -10,9 +10,9 @@ description: ' [!DNL Adobe Workfront Fusion], you can start a scenario based on 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,21 @@ Adobe Experience Manager Assets 커넥터에 대한 소개는 다음을 참조�
 * Adobe Experience Manager 기술 계정에 쓰기 권한이 있어야 합니다.
 
   Adobe Experience Manager 기술 계정에 쓰기 권한을 추가하는 방법에 대한 지침은 Adobe Experience Manager 설명서에서 [서비스 자격 증명](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)을 참조하십시오.
+
+## Adobe Experience Manager Assets API 정보
+
+Adobe Experience Manager Assets 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.8.61</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Adobe Experience Manager Assets]을(를) [!DNL Workfront Fusion]에 연결 {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 

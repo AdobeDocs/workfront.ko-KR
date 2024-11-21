@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion 시나리오에서는 OpenAIT(ChatGPT)를 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 3a747013-5fb6-4416-8d95-d656dfeeb7db
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,25 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL OpenAI (ChatGPT & DALL-E)] 모듈을 사용하려면 API 키와 조직 ID를 포함한 [!DNL OpenAI] 계정이 있어야 합니다.
+
+## OpenAI(ChatGPT 및 DALL-E) API 정보
+
+OpenAI(ChatGPT &amp; DALL-E) 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.11.1</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Workfront Fusion]에 [!DNL OpenAI (ChatGPT & DALL-E)] 연결 중
 
@@ -330,6 +349,7 @@ This action module makes edits or creates variations of existing images.
     <li><p><b>모델 검색 </b></p><p>검색할 모델의 ID를 입력하거나 매핑합니다. </p></li>
    </ul>
  </td> 
+  </tr>
  </tbody> 
 </table>
 

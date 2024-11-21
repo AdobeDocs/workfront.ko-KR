@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는  [!DNL Azure 
 author: Becky
 feature: Workfront Fusion
 exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL Azure DevOps] 모듈을 사용하려면 [!DNL Azure] DevOps 계정이 있어야 합니다.
+
+## [!DNL Azure DevOps] API 정보
+
+Azure DevOps 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v5.1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.29.33</td> 
+  </tr>
+ </tbody> 
+</table>
 
 ## [!DNL Azure DevOps]을(를) [!DNL Workfront Fusion]에 연결 {#connect-azure-devops-to-workfront-fusion}
 

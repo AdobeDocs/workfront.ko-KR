@@ -8,9 +8,9 @@ description: Text 파서 도구를 사용하여 다른 [!DNL Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,21 @@ ht-degree: 0%
 보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 [!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
+
+## 텍스트 파서 API 정보
+
+텍스트 파서 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL 텍스트 구문 분석기] 모듈과 해당 필드
 
@@ -180,7 +195,7 @@ HTML 코드에서 원하는 요소를 검색합니다.
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>이 옵션을 활성화하여 마침표(.)가 줄 바꿈 문자(<code>\n</code>)와 일치합니다.</td> 
+   <td>마침표(.)가 줄바꿈 문자(<code>\n</code>)와 일치하는지 확인하려면 이 옵션을 활성화하십시오.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 모듈이 결과를 반환하지 않더라도 라우트 실행을 계속합니다.]</td> 
@@ -223,7 +238,7 @@ HTML 코드에서 원하는 요소를 검색합니다.
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>이 옵션을 활성화하여 마침표(.)가 줄 바꿈 문자(<code>\n</code>)와 일치합니다.</td> 
+   <td>마침표(.)가 줄바꿈 문자(<code>\n</code>)와 일치하는지 확인하려면 이 옵션을 활성화하십시오.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Text] </td> 

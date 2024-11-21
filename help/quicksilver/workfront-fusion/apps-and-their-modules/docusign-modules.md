@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1959'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,21 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL DocuSign] 모듈을 사용하려면 [!DNL DocuSign] 계정이 있어야 합니다.
+
+## DocuSign API 정보
+
+DocuSign 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>1.18.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL DocuSign]을(를) [!DNL Workfront Fusion]에 연결 {#connect-docusign-to-workfront-fusion}
 

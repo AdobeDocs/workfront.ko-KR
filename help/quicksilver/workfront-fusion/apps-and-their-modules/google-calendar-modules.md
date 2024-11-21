@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Google 캘린
 author: Becky
 feature: Workfront Fusion
 exl-id: 168e8fce-645d-4108-84b7-46a113c83f41
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '3817'
+source-wordcount: '3837'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL Google Calendar] 모듈을 사용하려면 [!DNL Google] 계정이 있어야 합니다.
+
+## Google Calendar API 정보
+
+Google Calendar 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://www.googleapis.com/calendar/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v5.4.5</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Calendar]개 모듈 및 해당 필드
 

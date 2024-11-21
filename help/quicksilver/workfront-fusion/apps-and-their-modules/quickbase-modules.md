@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Quickbase를 
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c94a6d8-6994-40b1-b4fe-2de09795799c
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '427'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,29 @@ ht-degree: 1%
 ## 전제 조건
 
 [!DNL Quickbase] 모듈을 사용하려면 [!DNL Quickbase] 계정이 있어야 합니다.
+
+## Quickbase API 정보
+
+Quickbase 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://api.quickbase.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.0.12</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Quickbase] 모듈 및 해당 필드
 

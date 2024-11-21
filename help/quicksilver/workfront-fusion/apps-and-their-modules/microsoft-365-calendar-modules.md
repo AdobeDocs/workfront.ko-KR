@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Microsoft Off
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1999'
+source-wordcount: '2023'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,29 @@ Office 365 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 �
 ## 전제 조건
 
 [!DNL Microsoft Office 365 Calendar] 모듈을 사용하려면 [!DNL Microsoft Office 365 Calendar] 계정이 있어야 합니다.
+
+## Microsoft Office 365 Calendar API 정보
+
+Microsoft Office 365 Calendar 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Workfront Fusion]에 [!DNL Office 365 Calendar] 서비스를 연결하는 중
 

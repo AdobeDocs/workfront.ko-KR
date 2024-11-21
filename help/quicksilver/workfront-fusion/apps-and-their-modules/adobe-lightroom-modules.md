@@ -9,9 +9,9 @@ description: Adobe Lightroom 모듈을 사용하면 Adobe Lightroom 계정의 �
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,26 @@ ht-degree: 0%
 
 * 활성 [!DNL Adobe Lightroom] 계정이 있어야 합니다.
 
-## Adobe Lightroom에 대한 연결 만들기
+## Adobe Lightroom API 정보
+
+Adobe Lightroom 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>https://lr.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.17.128</td> 
+  </tr>
+ </tbody> 
+ </table>
+
+<!--## Create a connection to Adobe Lightroom-->
 
 
 

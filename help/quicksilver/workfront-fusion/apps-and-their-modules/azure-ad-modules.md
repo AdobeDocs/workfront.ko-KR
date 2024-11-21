@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는  [!DNL Azure]
 author: Becky
 feature: Workfront Fusion
 exl-id: ac966231-251e-44de-be61-00afa5ece3fd
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1051'
 ht-degree: 1%
 
 ---
@@ -64,6 +64,25 @@ ht-degree: 1%
 ## 전제 조건
 
 [!DNL Azure Active Directory] 모듈을 사용하려면 [!DNL Azure Active Directory] 계정이 있어야 합니다.
+
+## [!DNL Azure Active Directory] API 정보
+
+Azure Active Directory 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.4.5</td> 
+  </tr>
+ </tbody> 
+</table>
 
 ## [!DNL Azure Active Directory]개 모듈 및 해당 필드
 

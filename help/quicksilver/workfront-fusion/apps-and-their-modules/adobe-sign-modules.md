@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Acrobat Sign] 모듈을 사용하면  [!DNL Adobe] Ac
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '6636'
+source-wordcount: '6652'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,26 @@ ht-degree: 0%
 보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 [!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
+
+## [!DNL Adobe Acrobat Sign] API 정보
+
+Adobe Acrobat Sign 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v6 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.35.1</td> 
+  </tr>
+ </tbody> 
+</table>
+
 
 ## [!DNL Adobe Acrobat Sign] 커넥터 사용 권장 사항
 

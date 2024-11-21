@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion Frame].io modules enable you to moni
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2356'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ Frame.io 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
 ## 전제 조건
 
 [!DNL Frame.io] 모듈을 사용하려면 [!DNL Frame.io] 계정이 있어야 합니다.
+
+## Frame.io API 정보
+
+Frame.io 커넥터에서는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://api.frame.io/v2</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.0.76</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Frame.io]을(를) [!UICONTROL Adobe Workfront Fusion]에 연결
 

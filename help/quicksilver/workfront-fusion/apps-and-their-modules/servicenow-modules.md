@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는  [!DNL Servic
 author: Becky
 feature: Workfront Fusion
 exl-id: b362cd8b-06b3-4f4c-b405-a2afc24abddb
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL ServiceNow] 모듈을 사용하려면 [!DNL ServiceNow] 계정이 있어야 합니다.
+
+## ServiceNow API 정보
+
+ServiceNow 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>https://{{connection.instance}}/api</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.5.13</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL ServiceNow]을(를) [!DNL Workfront Fusion]에 연결
 

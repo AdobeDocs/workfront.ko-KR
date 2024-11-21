@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion Google Drive] 모듈을 사용하면
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2958'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ ht-degree: 0%
 보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 [!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
+
+## Google 드라이브 API 정보
+
+Google 드라이브 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://www.googleapis.com/drive/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v4.1.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 
@@ -867,13 +890,13 @@ Google 드라이브의 파일에 대한 공유 링크를 검색합니다.
   <pre>fullText에 "hello world"가 들어 있습니다."fullText에 "hello_world"가 들어 있습니다."</pre>
 * &quot;\&quot; 문자가 포함된 쿼리가 있는 파일 검색(예: &quot;\authors&quot;)
   <pre>전체 텍스트에 '\\authors'가 포함되어 있음</pre>
-* &quot;test@example.org&quot; 사용자가 쓸 수 있는 파일 검색
+* `test@example.org` 사용자가 쓸 수 있는 파일 검색
   <pre>의 'test@example.org' [!DNL writers]</pre>
 * `parents` 컬렉션에서 ID `1234567`을(를) 검색합니다. ID가 `1234567`인 폴더에서 직접 있는 모든 파일과 폴더를 찾습니다.
   <pre>[!UICONTROL 상위]의 '1234567'</pre>
 * `parents` 컬렉션에서 별칭 ID `appDataFolder`을(를) 검색합니다. [응용 프로그램 데이터 폴더](https://developers.google.com/drive/api/v2/appdata) 바로 아래에 있는 모든 파일과 폴더를 찾습니다.
   <pre>상위 항목의 'appDataFolder'</pre>
-* &quot;test@example.org&quot; 및 &quot;test2@example.org&quot; 사용자가 쓸 수 있는 파일 검색
+* `test@example.org` 및 `test2@example.org` 사용자가 쓸 수 있는 파일 검색
   <pre>writers의 'test@example.org' 및 writers의 'test2@example.org'</pre>
 * 휴지통에 있는 &quot;important&quot; 텍스트가 포함된 파일 검색
   <pre>fullText에 'important'가 포함되어 있고 휴지통으로 이동된 = true</pre>

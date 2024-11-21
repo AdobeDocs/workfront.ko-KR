@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Google 슬라이드 모듈을 사용하면 �
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL Google Slides] 모듈을 사용하려면 [!DNL Google] 계정이 있어야 합니다.
+
+## Google 슬라이드 API 정보
+
+Google 슬라이드 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://slides.googleapis.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.5.9</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Slides]개 모듈 및 해당 필드
 
@@ -249,7 +272,7 @@ ht-degree: 0%
    <td> <p>값을 추가합니다.</p> 
     <ul> 
      <li><strong>[!UICONTROL 태그]</strong>: 프레젠테이션에서 바꿀 태그를 입력하십시오. For example, <code>&#123;&#123;Name&#125;&#125;</code></li> 
-     <li><strong>[!UICONTROL Replaced Value]</strong>: 기존 태그를 대체할 값을 입력하십시오. 예를 들어 문자열을 나타내는 경우 <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>[!UICONTROL Replaced Value]</strong>: 기존 태그를 대체할 값을 입력하십시오. 예를 들어 문자열을 나타내는 경우 <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name&#125;&#125;</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
    

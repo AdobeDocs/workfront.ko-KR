@@ -9,9 +9,9 @@ description: ' [!DNL Google Sheets] with [!DNL Adobe Workfront Fusion],you need 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '4000'
+source-wordcount: '4023'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ ht-degree: 0%
 ## 전제 조건
 
 [!UICONTROL Google 시트] 모듈을 사용하려면 [!UICONTROL Google] 계정이 있어야 합니다.
+
+## Google Sheets API 정보
+
+Google Sheets 커넥터에서는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://sheets.googleapis.com/v4</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v4 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v2.5.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 트리거
 
@@ -720,7 +743,7 @@ ht-degree: 0%
    * 함수 이름은 9단계에서 지정한 이름과 일치해야 합니다.
    * URL을 2단계에서 복사한 웹후크의 URL로 바꿉니다.
 
-     <pre>함수 runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
+     <pre>함수 runScenario() {</pre><pre>UrlFetchApp.fetch("&lt;복사한 웹후크&gt;");</pre><pre>}</pre>
 
 1. 스크립트 파일을 저장하려면 **[!UICONTROL Ctrl+S]**&#x200B;를 누르고 프로젝트 이름을 입력한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 

@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Anaplan을 �
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: d281d9eae03254d9cab4ff4bd86cd2d621cc7393
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,29 @@ ht-degree: 0%
 
 * 활성 [!UICONTROL Anaplan] 계정이 있어야 합니다.
 * [!DNL Workfront Fusion]이(가) 작업 공간, 모델 및 [!UICONTROL Anaplan] 계정에서 다른 [!DNL Anaplan] 개체와 상호 작용하려면 먼저 해당 개체를 구성해야 합니다.
+
+## Anaplan API 정보
+
+Anaplan 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>https://api.anaplan.com/2/0/
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.11.5/td&gt; 
+ </tbody> 
+</table>
 
 ## [!DNL Anaplan]을(를) [!DNL Workfront Fusion]에 연결 {#connect-anaplan-to-workfront-fusion}
 

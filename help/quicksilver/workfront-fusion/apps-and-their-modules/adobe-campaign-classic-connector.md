@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Campaign] 모듈을 사용하면  [!DNL Adobe Campaig
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 0%
+source-wordcount: '1448'
+ht-degree: 1%
 
 ---
 
@@ -65,6 +65,21 @@ ht-degree: 0%
 
 * Ip 주소를 Campaign에 추가하는 방법은 Adobe Campaign 설명서에서 [IP 주소를 허용 목록에 추가하다허용 목록에 추가하다 에 추가](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list)를 참조하십시오.
 * 허용 목록에 추가하다에 추가할 IP 주소 목록을 보려면 [Adobe Workfront Fusion에 액세스하기 위한 IP 주소](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md)를 참조하십시오.
+
+## Adobe Campaign API 정보
+
+Adobe Campaign 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.7.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Adobe Campaign]을(를) [!DNL Adobe Workfront Fusion]에 연결
 

@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Cvent를 사�
 author: Becky
 feature: Workfront Fusion
 exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 1%
 ## 전제 조건
 
 [!DNL Cvent] 모듈을 사용하려면 [!DNL Cvent] 계정이 있어야 합니다.
+
+## Cvent API 정보
+
+Cvent 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> V200611.ASMX </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.7.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Cvent]을(를) [!DNL Adobe Workfront Fusion]에 연결 {#connect-cvent-to-adobe-workfront-fusion}
 

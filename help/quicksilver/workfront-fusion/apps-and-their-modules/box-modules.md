@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Box를 사용
 author: Becky
 feature: Workfront Fusion
 exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,30 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL Box] 모듈을 사용하려면 [!DNL Box] 계정이 있어야 합니다.
+
+## Box API 정보
+
+Box 커넥터에서는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://api.box.com/2.0
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v2.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v3.0.3</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Box]개 모듈 및 해당 필드
 

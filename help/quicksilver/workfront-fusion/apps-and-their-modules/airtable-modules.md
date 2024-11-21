@@ -10,9 +10,9 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1877'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,25 @@ ht-degree: 2%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial .</p>
 -->
+
+## Airtable API 정보
+
+Airtable 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>https://api.airtable.com/v0</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v3.3.28</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Airtable을 Workfront Fusion에 연결 {#connect-airtable-to-workfront-fusion}
 
@@ -114,7 +133,7 @@ ht-degree: 2%
    <td> <p>새 레코드가 속할 테이블을 선택합니다.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>기록</p> </td> 
+   <td> <p>레코드</p> </td> 
    <td> <p>새 레코드에 대한 값을 입력합니다. 사용 가능한 필드는 선택한 테이블을 기반으로 합니다.</p> <!--<p>For more information on field types, search for "Supported field types" in the Airtable documentation.</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
@@ -281,7 +300,7 @@ ht-degree: 2%
    <td> <p>모듈을 업데이트할 레코드의 고유 Airtable ID를 입력하거나 매핑합니다. 예를 들어 레코드 검색 모듈을 사용하여 ID를 검색할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>기록</p> </td> 
+   <td> <p>레코드</p> </td> 
    <td> <p>새 레코드에 대한 값을 입력합니다. 사용 가능한 필드는 선택한 테이블에 따라 다릅니다.</p> <!--<p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
@@ -345,7 +364,7 @@ ht-degree: 2%
    <td> <p>레코드를 업데이트하는 경우 모듈을 업데이트할 레코드의 고유 Airtable ID를 입력하거나 매핑합니다. 예를 들어 레코드 검색 모듈을 사용하여 ID를 검색할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>기록</p> </td> 
+   <td> <p>레코드</p> </td> 
    <td> <p>새 레코드에 대한 값을 입력합니다. 사용 가능한 필드는 선택한 테이블에 따라 다릅니다.</p> <!-- <p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 

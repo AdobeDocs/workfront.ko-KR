@@ -9,9 +9,9 @@ description: Adobe I/O 이벤트 모듈을 사용하면 Adobe 애플리케이션
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
-source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,25 @@ Adobe I/O 이벤트 모듈을 사용하면 전용 Adobe Workfront Fusion 커넥�
 Adobe I/O 이벤트 커넥터를 사용하려면 먼저 다음 전제 조건을 충족하는지 확인해야 합니다.
 
 * 활성 Adobe 계정이 있어야 합니다.
+
+## Adobe I/O 이벤트 API 정보
+
+Adobe I/O 이벤트 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>https://api.adobe.io/events</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.6.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Adobe I/O 이벤트에 대한 연결 만들기
 

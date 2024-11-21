@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Datadog를 �
 author: Becky
 feature: Workfront Fusion
 exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 0%
+source-wordcount: '864'
+ht-degree: 1%
 
 ---
 
@@ -66,6 +66,21 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL Datadog] 모듈을 사용하려면 [!DNL Datadog] 계정이 있어야 합니다.
+
+## Datadog API 정보
+
+Datadog 커넥터에서는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>1.0.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Datadog]을(를) [!DNL Workfront Fusion]에 연결 {#connect-datadog-to-workfront-fusion}
 
@@ -128,10 +143,10 @@ ht-degree: 0%
 
 ### 액션
 
-* [[!UICONTROL Post 시계열 지점]](#post-timeseries-points)
+* [[!UICONTROL 시계열 점수 게시]](#post-timeseries-points)
 * [[!UICONTROL API 호출 만들기]](#make-an-api-call)
 
-#### [!UICONTROL Post 시계열 지점]
+#### [!UICONTROL 시계열 점수 게시]
 
 모듈을 사용하면 [!DNL Datadog]의 대시보드에 그래프로 표시할 수 있는 시계열 데이터를 게시할 수 있습니다.
 

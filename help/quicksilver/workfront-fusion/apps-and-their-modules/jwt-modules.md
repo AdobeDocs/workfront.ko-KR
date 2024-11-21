@@ -8,9 +8,9 @@ description: ' [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] 앱은 제공된 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 1c09967e-a236-404f-bf3e-9de66118e77b
-source-git-commit: 2fbf38c3c35761c52416966fb6a4ab032190e04b
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,21 @@ ht-degree: 0%
 보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 [!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
+
+## JWT API 정보
+
+JWT 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+   <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.1.5</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## JWT 모듈 및 해당 필드
 

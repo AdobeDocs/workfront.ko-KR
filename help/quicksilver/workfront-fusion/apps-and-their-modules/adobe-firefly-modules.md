@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는  [!DNL Adobe 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,21 @@ ht-degree: 0%
 [!DNL Adobe Firefly] 커넥터를 사용하려면 먼저 다음 전제 조건을 충족하는지 확인해야 합니다.
 
 * 활성 [!DNL Adobe Firefly] 계정이 있어야 합니다.
+
+## Adobe Campaign API 정보
+
+Adobe Campaign 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.4.24</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Adobe Firefly]에 연결 만들기
 

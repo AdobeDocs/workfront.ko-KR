@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion] HubSpot CRM 모듈을 사용하면 
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: d550ba76a5a6c1d241d1dc73e63e49ef4c22a40d
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '6394'
+source-wordcount: '6411'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,25 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL HubSpot CRM] 모듈을 사용하려면 [!DNL HubSpot CRM] 계정이 있어야 합니다.
+
+## HubSpot CRM API 정보
+
+HubSpot CRM 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>https://api.hubapi.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v2.0.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Adobe Workfront Fusion]을(를) [!DNL HubSpot CRM]에 연결
 

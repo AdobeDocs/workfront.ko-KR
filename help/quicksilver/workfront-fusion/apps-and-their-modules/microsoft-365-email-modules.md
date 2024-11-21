@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Microsoft Off
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 74aba3bbb0a6aface10559bf84fe3467c5469714
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2699'
+source-wordcount: '2723'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,29 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL Microsoft Office 365 Email] 모듈을 사용하려면 [!DNL Microsoft Office 365 Email] 계정이 있어야 합니다.
+
+## Microsoft Office 365 이메일 API 정보
+
+Microsoft Office 365 이메일 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v2.6.5</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 

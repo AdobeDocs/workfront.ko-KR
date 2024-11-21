@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion Google Forms] 모듈을 사용하면
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1435'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,21 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL Google Forms] 모듈을 사용하려면 [!DNL Google] 계정이 있어야 합니다.
+
+## Google Forms API 정보
+
+Google Forms 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 양식에서 스프레드시트 만들기
 

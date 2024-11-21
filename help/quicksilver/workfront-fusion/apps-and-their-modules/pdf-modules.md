@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '3719'
+source-wordcount: '3738'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,25 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF 서비스 API를 추가해야 합니다. API를 추가할 때 OAuth 서버 간 옵션을 선택합니다.
 
 지침은 Adobe 개발자 설명서에서 [OAuth를 사용하여 프로젝트에 API 추가](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/)를 참조하십시오.
+
+## Adobe PDF 서비스 API 정보
+
+Adobe PDF 서비스 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>https://pdf-services-stage.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v2.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Adobe PDF Services]에 연결 만들기
 

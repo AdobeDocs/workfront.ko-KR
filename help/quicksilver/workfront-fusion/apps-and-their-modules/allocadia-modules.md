@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Allocadia를 
 author: Becky
 feature: Workfront Fusion
 exl-id: f1edefd1-9fe0-48fc-bea2-c3f9facf7363
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL Allocadia] 모듈을 사용하려면 [!DNL Allocadia] 계정이 있어야 합니다.
+
+## [!DNL Allocadia] API 정보
+
+Allocadia 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.7.6</td> 
+  </tr>
+ </tbody> 
+</table>
 
 ## [!DNL Allocadia]을(를) [!DNL Workfront Fusion]에 연결
 

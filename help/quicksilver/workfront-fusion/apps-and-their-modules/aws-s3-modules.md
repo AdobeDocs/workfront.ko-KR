@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion AWS] S3 모듈을 사용하면 S3 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,25 @@ ht-degree: 0%
 ## 전제 조건
 
 [!UICONTROL AWS S3] 모듈을 사용하려면 [!DNL Amazon Web Service] 계정이 있어야 합니다.
+
+## AWS S3 API 정보
+
+AWS S3 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>https://s3입니다.{{parameters.region}}.amazonaws.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.5.21</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL AWS]을(를) [!DNL Workfront Fusion]에 연결 {#connect-aws-to-workfront-fusion}
 

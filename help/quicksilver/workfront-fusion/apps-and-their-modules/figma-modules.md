@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] Figma 모듈을 사용하면 주석
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,29 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL Figma] 모듈을 사용하려면 [!DNL Figma] 계정이 있어야 합니다.
+
+## Figma API 정보
+
+Figma 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://api.figma.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.8.25</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Figma]개 모듈 및 해당 필드
 

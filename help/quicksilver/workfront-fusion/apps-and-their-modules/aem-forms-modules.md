@@ -10,9 +10,9 @@ description: ' [!DNL Adobe Workfront Fusion], you can start a scenario based on 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,21 @@ ht-degree: 1%
 ## 전제 조건
 
 * 이 모듈을 사용하려면 [!DNL Adobe Experience Manager Forms] 계정이 있어야 합니다.
+
+## Adobe Experience Manager Assets API 정보
+
+Adobe Experience Manager Assets 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.2.27</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Adobe Experience Manager Forms에 대한 연결 만들기
 

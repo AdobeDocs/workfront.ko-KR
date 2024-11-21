@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Slack을 사�
 author: Becky
 feature: Workfront Fusion
 exl-id: ba5bad6a-3cb3-4024-82f7-d38ee9a8e0b5
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1761'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 1%
 ## 전제 조건
 
 [!DNL Slack] 모듈을 사용하려면 [!DNL Slack] 계정이 있어야 합니다.
+
+## Slack API 정보
+
+Slack 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>{{ifempty(parameters.domain, 'https://slack.com/api/')}}</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v4.0.15</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Slack]개 모듈 및 해당 필드
 

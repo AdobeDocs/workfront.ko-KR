@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion [!DNL Google Docs] 모듈을 사용하면  [
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '4085'
+source-wordcount: '4105'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,29 @@ ht-degree: 0%
 ## 전제 조건
 
 [!DNL Google Docs] 모듈을 사용하려면 Google 계정이 있어야 합니다.
+
+## Google 문서 API 정보
+
+Google 문서 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td> https://docs.googleapis.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 버전</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.4.13</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Docs]개 모듈 및 해당 필드
 

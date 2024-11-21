@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는  [!DNL Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: a2b9722f3964fccab6e30f2cd79e5ac63f736ba4
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3692'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,25 @@ ht-degree: 0%
 [!DNL Adobe Journey Optimizer] 커넥터를 사용하려면 먼저 다음 전제 조건을 충족하는지 확인해야 합니다.
 
 * 활성 [!DNL Adobe Journey Optimizer] 계정이 있어야 합니다.
+
+## Adobe Journey Optimizer API 정보
+
+Adobe Journey Optimizer 커넥터는 다음을 사용합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">기본 URL</td> 
+   <td>{{connection.url}}</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API 태그</td> 
+   <td>v1.7.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Adobe Journey Optimizer에 대한 연결 만들기
 
