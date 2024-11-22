@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,21 @@ ht-degree: 0%
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 2024년 8월 28일 일반 출시 이후 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록에 대해서는 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+
+## 삭제된 레코드 복원
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 11월 22일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
+
+레코드가 삭제되면 이제 30일 동안 최근에 삭제된 저장소로 임시로 이동됩니다. 레코드 유형의 페이지에서 최근에 삭제된 BIN에 액세스할 수 있으며 여기에는 특정 유형의 레코드만 포함됩니다.
+
+Workspace 관리자는 삭제된 후 최대 30일 동안 휴지통에서 레코드를 복원할 수 있습니다. 연결된 레코드 및 해당 필드 정보도 복원됩니다.
+
+이 개선 이전에는 삭제된 레코드를 복원할 수 없었습니다.
+
+자세한 내용은 [삭제된 레코드 복원](/help/quicksilver/planning/records/records-information.md)을 참조하세요.
 
 ## 레코드 세부 정보 영역에서 사용할 수 있는 Adobe AI Assistant
 

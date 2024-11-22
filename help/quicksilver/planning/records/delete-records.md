@@ -1,14 +1,14 @@
 ---
 title: 레코드 삭제
-description: 사용자 또는 다른 사용자가 만든 레코드를 삭제할 수 있습니다. 삭제된 레코드는 복구할 수 없습니다.
+description: 사용자 또는 다른 사용자가 만든 레코드를 삭제할 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '764'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 2%
 
 # 레코드 삭제
 
+<!--take Preview and Production references out at release-->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 {{planning-important-intro}}
 
-Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제할 수 있습니다.
+Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제할 수 있습니다. <span class="preview">삭제된 레코드를 삭제한 후 30일 동안 복구할 수 있습니다. 삭제된 레코드 복구에 대한 자세한 내용은 [삭제된 레코드 복구](/help/quicksilver/planning/records/restore-deleted-records.md)를 참조하십시오. </span>
 
 ## 액세스 요구 사항
 
@@ -156,10 +162,9 @@ OLD
 ## 레코드 삭제에 대한 고려 사항
 
 * 사용자 또는 다른 사용자가 만든 레코드를 삭제할 수 있습니다.
-* 삭제된 레코드는 복구할 수 없습니다. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* 프로덕션 환경에서는 삭제된 레코드를 복구할 수 없습니다. <span class="preview">미리 보기 환경에서 삭제된 레코드를 복구할 수 있습니다.</span>
 * 삭제된 레코드가 다른 레코드와 연결된 경우 연결된 레코드는 삭제되지 않지만 삭제된 레코드의 정보도 삭제됩니다.
-* 레코드를 일괄적으로 삭제할 수 없습니다. <!--this will probably change-->
-* 타임라인 보기에서 레코드를 삭제할 수 없습니다.
+* 타임라인 또는 달력 보기에서는 레코드를 삭제할 수 없습니다.
 
 ## 레코드 삭제
 
@@ -192,7 +197,10 @@ OLD
 1. 레코드 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭한 다음 다시 **삭제**&#x200B;를 클릭하여 확인합니다.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-레코드가 삭제되어 복구할 수 없습니다.
+레코드가 삭제되었습니다.
+1. (선택 사항 및 조건부) 미리 보기 환경에서 레코드를 삭제하는 경우 레코드 페이지의 테이블 보기로 이동하여 보기의 오른쪽 상단에 있는 **실행 취소** 아이콘 ![](assets/undo-icon.png)을(를) 클릭한 다음 **최근에 삭제됨**&#x200B;을(를) 클릭하여 삭제된 레코드를 복구합니다.
+
+삭제된 레코드 복구에 대한 자세한 내용은 [삭제된 레코드 복구](/help/quicksilver/planning/records/restore-deleted-records.md)를 참조하십시오.
 
 ### 레코드 유형 테이블 보기에서 레코드 삭제
 
@@ -211,15 +219,22 @@ OLD
 1. 다음 중 하나를 수행하십시오.
 
    * 레코드 행을 마우스 오른쪽 단추로 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
-   * 레코드 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다
+   * 레코드 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
      ![](assets/contextual-menu-for-record-row.png)
 
    * **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png)을(를) 클릭하여 레코드의 세부 정보가 있는 상자를 열고 레코드 이름 오른쪽에 있는 **자세히** ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
-   레코드가 삭제되어 복구할 수 없습니다.
+   레코드가 삭제되었습니다.
 
-1. (선택 사항) 다음 키보드 단축키를 사용하여 레코드 삭제를 실행 취소하거나 재실행할 수 있습니다.
+1. (선택 사항) 다음 중 하나를 수행하여 레코드 삭제를 실행 취소하거나 재실행합니다.
 
-   * CTRL+Z(Mac의 경우 ⌘+Z)
-   * 변경 내용을 재실행하려면 CTRL+Shift+Z(Mac의 경우 ⌘+Shift+Z)
+   * <span class="preview">삭제된 레코드를 복구하려면 **실행 취소** 아이콘 ![](assets/undo-icon.png)을 클릭한 다음 **최근에 삭제됨**&#x200B;을(를) 클릭합니다. 삭제된 레코드 복구에 대한 자세한 내용은 [삭제된 레코드 복구](/help/quicksilver/planning/records/restore-deleted-records.md)를 참조하십시오. </span>
+   * 다음 키보드 단축키를 사용하여 레코드 삭제를 실행 취소하거나 재실행할 수 있습니다.
+
+      * 레코드 삭제를 취소하려면 CTRL+Z(Mac의 경우 ⌘+Z)
+      * 레코드 삭제를 다시 실행하려면 CTRL + Shift + Z(Mac의 경우 ⌘ + Shift + Z)
+
+
+
+

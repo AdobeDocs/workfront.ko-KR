@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1647'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,13 @@ ht-degree: 1%
 
 작업의 실제 시작 및 실제 완료 일자가 프로젝트, 기본 담당자 또는 기본 일정의 일정을 벗어나는 경우 작업 기간은 0입니다.
 
-**예:** 오전 9시에 시작하여 오후 12시에 끝나는 일정과 오후 2시에 시작하여 오후 4시에 끝나는 작업이 있는 경우 작업의 기간은 0입니다.
+>[!BEGINSHADEBOX]
+
+**예**
+오전 9시에 시작하여 오후 12시에 끝나는 일정과 오후 2시에 시작하여 오후 4시에 끝나도록 예정된 작업이 있는 경우 작업의 기간은 0입니다.
+
+
+>[!ENDSHADEBOX]
 
 다음은 Adobe Workfront에서 기간을 계산할 때 발생하는 두 가지 시나리오입니다.
 
@@ -70,6 +76,14 @@ ht-degree: 1%
 >[!NOTE]
 >
 >프로젝트에 대한 기본 피할당자의 휴가를 고려할 때 작업의 계획된 일자가 조정될 수 있지만 작업의 기간은 동일하게 유지됩니다. 프로젝트를 계획할 때 기본 피할당자의 휴무 시간을 고려하는 방법에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
+
+## 상위 작업의 원래 기간
+
+원래 작업 기간은 작업이 상위 작업이 되기 전에 원래 있었던 기간(분)입니다.
+
+작업이 상위가 되면 가장 이른 하위의 계획된 시작 일자와 마지막 하위의 계획된 완료 일자 사이의 기간이 상위 작업에 롤업되고 상위 작업의 기간이 됩니다. 이렇게 하면 원래 작업의 기간이 대체됩니다.
+
+자세한 내용은 [원래 기간 및 원래 계획된 시간의 개요](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)를 참조하십시오.
 
 ## 작업 기간 단위
 
