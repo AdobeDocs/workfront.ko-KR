@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
+source-git-commit: 8ad2ed8389fdc00649f0853e07d2e83d21ccb385
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
@@ -561,7 +561,7 @@ ht-degree: 0%
 
 #### 24.10으로 기존 홈 환경 사용 중단
 
-24.10 릴리스를 통해 기존의 홈 환경을 공식적으로 사용하지 않습니다. 사용자는 새로운 홈을 사용하는 것이 좋습니다. 홈은 사용이 중단되기 전에 추가 기능을 사용하여 계속 향상될 것입니다. 사용자 및 관리자가 준비할 수 있는 작업에 대한 조언을 포함하여 전환에 대한 자세한 내용은 [기존 홈 사용 중단 안내서](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)를 참조하십시오.
+24.10 릴리스를 통해 기존의 홈 환경을 공식적으로 사용하지 않습니다. 사용자는 새로운 홈을 사용하는 것이 좋습니다. 홈은 사용이 중단되기 전에 추가 기능을 사용하여 계속 향상될 것입니다.
 
 ## 공지
 

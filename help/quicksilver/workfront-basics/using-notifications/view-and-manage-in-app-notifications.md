@@ -5,9 +5,9 @@ description: '''인앱 알림은 공지 알림과 작업 항목 알림의 두 �
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    ![읽지 않은 최근 알림](assets/qs-notifications-350x330.png)
 
-   스크롤 가능한 목록에 최대 80개의 알림이 표시됩니다. 더 많은 정보를 보려면 목록 하단의 **[!UICONTROL 모든 알림]**&#x200B;을 클릭하여 최대 100개의 알림을 볼 수 있습니다. 알림은 30일 후에 자동으로 삭제됩니다.
+   번호 아이콘은 최대 80개의 알림과 함께 스크롤 가능한 목록을 표시합니다. 더 많은 정보를 보려면 목록 하단의 **[!UICONTROL 모든 알림]**&#x200B;을 클릭하여 최대 500개의 알림을 볼 수 있습니다. 알림은 30일 후에 자동으로 삭제됩니다.
 
    각 알림의 맨 아래에 [!UICONTROL 알림 유형] 및 해당 식별 아이콘이 표시됩니다. 이를 통해 언급된 [!DNL Workfront] 항목에 발생한 상황을 식별하고 작업 항목이 있는 경우 이를 알려 줍니다.
 

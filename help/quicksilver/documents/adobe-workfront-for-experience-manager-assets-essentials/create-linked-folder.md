@@ -7,9 +7,9 @@ description: Workfront에 있는 동안 Experience Manager Assets 또는 Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 96830bad7480a99ca8f318dbd791ebcaceddd01e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Experience Manager Assets 또는 Assets Essentials과 연결된 폴더 만들기
 
 Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials과 연결된 폴더를 만들 수 있습니다. 폴더가 연결되므로, 폴더에 추가된 모든 자산이 Workfront 및 Experience Manager 모두에 자동으로 표시됩니다. 연결된 폴더에 자산이 있는 경우 수동으로 전송할 필요가 없습니다.
+
+Experience Manager Assets 또는 Assets Essentials 내의 연결된 폴더에서 에셋을 삭제하거나 이동한 경우 Workfront은 프로젝트 > 문서 영역에 에셋의 사본을 보관합니다.
 
 
 ## 액세스 요구 사항

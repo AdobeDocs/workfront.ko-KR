@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
+source-git-commit: 6a881c1d2f7076f1b7f8f98706657851dc6ab454
 workflow-type: tm+mt
 source-wordcount: '14611'
 ht-degree: 2%
@@ -432,7 +432,6 @@ ht-degree: 2%
       * [공지](product-announcements/announcements/announcements.md)
       * [기능 예약이 더 이상 지원되지 않음](product-announcements/announcements/feature-removal-timeline.md)
       * [향상된 Analytics 사용 중단 안내서](product-announcements/announcements/enhanced-analytics-deprecation.md)
-      * [기존 홈 사용 중단 안내서](product-announcements/announcements/legacy-home-deprecation.md)
       * [유지 관리 기간 FAQ](product-announcements/announcements/maintenance-window-faq.md)
       * [허용 목록에 추가하다에 증명을 추가하는 데 필요한 변경 사항](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [새 Adobe Workfront 경험의 알림 센터 메시지 구독 취소](product-announcements/announcements/unsubscribe-from-ac-messages.md)
@@ -1163,6 +1162,7 @@ ht-degree: 2%
       * [문서 저장 공간 제한 확인](documents/managing-documents/check-document-storage.md)
       * [문서 삭제](documents/managing-documents/delete-documents.md)
       * [클립보드에서 이미지 붙여넣기](documents/managing-documents/paste-image-clipboard.md)
+      * [문서 일괄 편집](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
       * [Workfront 문서 세부 정보 내의 AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * 문서 구성 {#organize-documents}
       * [문서 구성](documents/organizing-documents/organize-documents.md)
