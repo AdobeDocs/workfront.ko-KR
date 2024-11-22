@@ -73,7 +73,7 @@ AWS S3 커넥터는 다음을 사용합니다.
  <tbody> 
   <tr> 
    <td role="rowheader">기본 URL</td> 
-   <td>https://s3입니다.{{parameters.region}}.amazonaws.com</td> 
+   <td>https://s3입니다.&lbrace;&lbrace;parameter.region&rbrace;&rbrace;.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API 태그</td> 
