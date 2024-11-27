@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '6797'
 ht-degree: 2%
@@ -824,18 +824,15 @@ ht-degree: 2%
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-
-<td> <p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">[!DNL Workfront]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
+    <td> <p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">[!DNL Workfront]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL 레코드 유형]</td>
-
-<td>모듈을 읽을 [!DNL Workfront] 개체 형식을 선택하십시오.</td> 
+     <td>모듈을 읽을 [!DNL Workfront] 개체 형식을 선택하십시오.</td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL 출력]</td>
-
-<td> <p>이 모듈에 대한 출력 번들에 포함할 정보를 선택합니다.</p> </td> 
+     <td> <p>이 모듈에 대한 출력 번들에 포함할 정보를 선택합니다.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL 참조]</td>

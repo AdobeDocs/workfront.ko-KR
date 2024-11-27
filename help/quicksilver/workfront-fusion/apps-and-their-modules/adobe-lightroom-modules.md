@@ -9,9 +9,9 @@ description: Adobe Lightroom 모듈을 사용하면 Adobe Lightroom 계정의 �
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2370'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,7 @@ ht-degree: 0%
 
 * 활성 [!DNL Adobe Lightroom] 계정이 있어야 합니다.
 
+
 ## Adobe Lightroom API 정보
 
 Adobe Lightroom 커넥터는 다음을 사용합니다.
@@ -90,7 +91,46 @@ Adobe Lightroom 커넥터는 다음을 사용합니다.
  </tbody> 
  </table>
 
-<!--## Create a connection to Adobe Lightroom-->
+## Adobe Lightroom에 대한 연결 만들기
+
+[!DNL Adobe Lightroom] 모듈에 대한 연결을 만들려면:
+
+1. 연결 상자 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+
+1. 다음 필드를 채웁니다.
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+        <td role="rowheader">[!UICONTROL 연결 이름]</td>
+        <td>
+          <p>이 연결의 이름을 입력하십시오.</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL 환경]</td>
+        <td>프로덕션 환경에 연결할지 아니면 비프로덕션 환경에 연결할지 선택합니다.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL 유형]</td>
+        <td>서비스 계정에 연결할지 또는 개인 계정에 연결할지 선택합니다.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL 클라이언트 ID]</td>
+        <td>[!UICONTROL Adobe] [!UICONTROL 클라이언트 ID]를 입력합니다. 이 로그는 의 [!UICONTROL 자격 증명] 세부 정보 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL 클라이언트 암호]</td>
+        <td>[!DNL Adobe] [!UICONTROL 클라이언트 암호]를 입력하십시오. 이 로그는 의 [!UICONTROL 자격 증명] 세부 정보 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console]</td>
+        </tr>
+      </tbody>
+    </table>
+
+1. 연결을 저장하고 모듈로 돌아가려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
 
 
 
