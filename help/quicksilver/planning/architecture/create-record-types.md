@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 2%
+source-wordcount: '1453'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 2%
 <!--this is linked to the UI in an empty workspace screen-->
 
 # 레코드 유형 만들기
+
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -95,64 +99,6 @@ ht-degree: 2%
 +++
 
 
-<!--
-OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td> Adobe Workfront
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>Current: Plan</p>
-   Or
-   <p>New: Standard </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
--->
-
 ## 레코드 유형 만들기에 대한 고려 사항
 
 * 다음과 같은 방법으로 작업 영역에서 레코드 유형을 만들 수 있습니다.
@@ -162,15 +108,12 @@ OLD:
 
         자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
-     <!--* When you import them using an Excel or CSV file. 
+      * <span class="preview">Excel 또는 CSV 파일을 사용하여 가져온 경우. </span>
 
-            >[!IMPORTANT]
-            >
-            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
+     >[!TIP]
+     >
+     ><span class="preview">Excel 또는 CSV 파일에서 레코드 형식을 가져올 때 레코드와 필드도 가져올 수 있습니다.</span>
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
-        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-        For information about connecting objects with records, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
    * 수동:
 
       * 처음부터.
@@ -204,7 +147,7 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
    작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
 1. (선택 사항) 작업 영역에 새 섹션을 추가하려면 **섹션 추가**&#x200B;를 클릭합니다.
-1. **레코드 종류 추가**&#x200B;를 클릭합니다.
+1. **레코드 종류 추가**&#x200B;를 클릭한 다음 <span class="preview">**새로 만들기**</span>&#x200B;를 클릭합니다.
 
    레코드 유형 추가 상자가 열립니다.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -232,8 +175,6 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    ![](assets/operational-record-type-blank.png)
 
    레코드 유형 페이지는 기본적으로 테이블 뷰에 표시됩니다. 표의 열은 새 레코드 종류와 관련된 필드입니다. 각 행은 추가해야 하는 고유한 레코드입니다.
-
-   <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
    기본적으로 다음 필드는 작업 레코드 유형의 테이블 보기 열에 표시됩니다.
 
@@ -267,69 +208,76 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    * [레코드 유형 편집](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)
 
-<!--
-## Create record types by importing an Excel or CSV file
+<div class="preview">
 
->[!IMPORTANT]
->
->This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
+## Excel 또는 CSV 파일을 가져와서 레코드 유형 만들기
 
-Consider the following when importing record types using an Excel or CSV file: 
+Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져올 때는 다음 사항을 고려하십시오.
 
-* Each sheet of the Excel file becomes a record type. 
-* The columns of each sheet become the fields associated with each record type. 
-* Fields are unique for their respective record types. 
-* Each row in each sheet becomes a unique record associated with its respective record type. 
-* Each sheet of the Excel file should not exceed the following: 
-    * 50,000 rows
-    * 500 columns
-* The Excel file should not be larger than 5MB.
-* Empty sheets are not supported. 
+* Excel 파일의 각 시트는 레코드 유형이 됩니다. 시트의 이름은 레코드 유형의 이름이 됩니다.
+* 시트가 한 개만 있거나 CSV 파일을 가져오는 경우, 파일의 이름은 레코드 유형의 이름이 됩니다.
+* 각 시트의 열 머리글은 각 레코드 유형과 연관된 필드가 됩니다.
+* 필드는 해당 레코드 유형에 대해 고유합니다.
+* 각 시트의 각 행은 해당 레코드 유형과 연관된 고유한 레코드가 됩니다.
+* Excel 파일의 각 시트는 다음을 초과할 수 없습니다.
+   * 10,000행
+   * 500열
+* Excel 파일은 5MB를 초과할 수 없습니다.
+* 빈 시트는 지원되지 않습니다.
 
-To import record types using an Excel file: 
+Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다음을 수행합니다.
 
 {{step1-to-planning}}
 
-1. Click the workspace where you want to create record types, 
+1. 레코드 유형을 만들 작업 영역을 클릭합니다.
 
-    Or
+   또는
 
-    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
-1. Click **Add record type**. 
-1. Click **Excel/CSV**.
-1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
-1. Click **Review your data**.
-    
-    The Preview and edit box displays with the following information: 
+   작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
+1. **레코드 종류 추가**&#x200B;를 클릭합니다.
+1. **파일에서**&#x200B;을(를) 클릭합니다.
+1. 이전에 컴퓨터에 저장한 Excel 또는 CSV 파일을 끌어서 놓거나 **CSV 또는 Excel 파일 선택**&#x200B;을 클릭하여 찾습니다.
+1. **미리 보기 및 편집**&#x200B;을 클릭합니다.
 
-    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
-    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
-    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
+   **미리 보기 및 편집** 상자에 다음 정보가 표시됩니다.
 
-    ![](assets/preview-and-edit-box.png)
+   * 시트 이름 또는 이후 레코드 유형이 왼쪽 패널에 표시됩니다. Workfront Planning에서는 기본적으로 각 새 레코드 유형에 대해 아이콘과 색상을 선택합니다.
+   * 첫 번째 시트 또는 레코드 유형이 선택되고 연관된 필드의 이름이 열 머리글로 표시됩니다. 각 필드의 유형은 기본적으로 선택됩니다.
+   * 각 행은 새 레코드를 나타냅니다. 처음 10개의 레코드만 [미리 보기 및 편집] 상자에 표시됩니다.
 
-1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
+   ![](assets/preview-and-edit-box.png)
 
-    >[!NOTE]
-    >
-    >    Sheets that are empty are not supported and are dimmed. 
+1. (선택 사항) 왼쪽 패널에서 각 시트의 이름을 클릭하여 포함된 정보를 검토합니다.
 
+   >[!NOTE]
+   >
+   >비어 있는 시트는 지원되지 않으며 흐리게 표시됩니다.
 
-1. (Optional) Click the **Select sheets to import** drop-down menu and deselect the sheets that you don't want to import. 
+1. (선택 사항) 왼쪽 패널에서 가져오지 않을 시트는 선택 취소합니다.
 
-    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
+   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
-    Sheets you deselected display with a gray background. 
+   선택을 취소한 시트는 회색 배경과 함께 표시됩니다.
 
-1. Click **Import** when you are ready to import your file. 
+1. (선택 사항) 열 헤더의 오른쪽에 있는 아래쪽 방향 화살표를 클릭하여 다음 중 하나를 수행합니다.
 
-    The following information imports in to Workfront Planning:
+   * 필드 중 하나의 이름을 변경합니다
+   * **필드 형식** 변경
+   * 필드 **설명** 업데이트
 
-    * New record types
-    * New fields associated with each record type
-    * New records associated with each record type
+1. (조건부) 필드에 대한 정보를 업데이트한 후 **저장**&#x200B;을 클릭합니다.
 
-    You can start managing fields and records on the record types pages. 
-    
-    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
+1. 파일을 가져올 준비가 되면 **가져오기**&#x200B;를 클릭합니다.
+
+   다음 정보는에서 Workfront Planning으로 가져옵니다.
+
+   * 새 레코드 유형
+   * 각 레코드 유형과 연결된 새 필드
+   * 각 레코드 유형과 연결된 새 레코드
+
+   레코드 유형 페이지에서 필드 및 레코드 관리를 시작할 수 있습니다.
+
+   이제 Workfront Planning에 액세스할 수 있는 모든 사용자는 가져온 레코드 유형과 해당 정보를 보고 편집할 수 있습니다.
+
+</div>
 

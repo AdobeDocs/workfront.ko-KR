@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 레코드 만들기
+
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -28,6 +32,8 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 * [테이블 보기에서 레코드 복제](#create-records-by-duplicating-them)
 * [다른 레코드와 연결할 때 레코드 만들기](#create-records-as-you-connect-them)
 * [요청 양식을 레코드 유형으로 제출하여 만듭니다.](#create-records-by-submitting-a-request-form-to-a-record-type)
+* <span class="preview">[CSV 또는 Excel 파일에서 레코드 형식을 가져올 때 레코드를 만듭니다](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+
 
 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -270,3 +276,13 @@ You can import records from other applications by linking them to existing recor
 Workfront 사용자와 조직 외부의 사용자 모두 요청 양식에 대한 링크가 있는 경우 Planning 레코드 유형에 요청을 제출하고 레코드를 만들 수 있습니다.
 
 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
+
+<div class="preview">
+
+## CSV 또는 Excel 파일에서 레코드 유형을 가져올 때 레코드 만들기
+
+CSV 또는 Excel 파일을 사용하여 레코드 유형을 가져올 때 레코드를 가져올 수 있습니다.
+
+자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+
+</div>

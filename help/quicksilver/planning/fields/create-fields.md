@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
 workflow-type: tm+mt
-source-wordcount: '4129'
+source-wordcount: '4287'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,9 @@ Workfront Planning에서 다음과 같은 방법으로 필드를 생성할 수 �
 * 레코드 유형 연결
 * 레코드 유형 만들기
 * 템플릿으로 작업 공간 만들기
-  <!--* By importing record types using an Excel or CSV file-->
+* <span class="preview">Excel 또는 CSV 파일을 사용하여 레코드 형식을 가져와서</span>
+* <span class="preview">기존 Workfront 필드의 복사본을 가져와서</span>
+
 
 Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/quicksilver/planning/fields/fields-overview.md)를 참조하십시오.
 
@@ -178,6 +180,8 @@ OLD:
 ## 처음부터 필드 만들기 {#create-fields-from-scratch}
 
 <!--in a table (not sure if this can be done elsewhere?!-->
+
+<!--the first 3 steps are the same as in Import fields from Workfron-->
 
 {{step1-to-planning}}
 
@@ -340,7 +344,7 @@ OLD:
       * **길이**: 2023년 5월 16일
       * **유럽어**: 2023/16/05
       * **ISO**: 2023-05-16
-      * **시간 필드 포함**: 타임스탬프를 포함하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다. <!--update this setting name - submitted bug for it to be changed-->
+      * **시간 포함**: 타임스탬프를 포함하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다. 필드를 보호한 후 시간을 포함할 수 없습니다.
 
      다음 옵션 중에서 선택합니다.
 
@@ -467,6 +471,12 @@ OLD:
    ![](assets/description-of-formula-expression.png)
 
    지원되는 식에 대한 자세한 내용은 [수식 필드 개요](/help/quicksilver/planning/fields/formula-fields.md)를 참조하세요.
+
+
+   >[!TIP]
+   >
+   ><span class="preview">수식 필드를 편집하거나 만들 때 자신이나 공유 필드에 대한 순환 참조를 발생시킬 수 있는 경고 메시지가 표시됩니다. 자체 또는 해당 계산에서 참조되는 항목을 참조하는 공식 필드는 저장할 수 없습니다.  </span>
+
 
 1. 필드 이름이 수식에서 참조되도록 Workfront Planning에 표시되는 대로 필드 이름을 추가합니다.
 
@@ -647,3 +657,21 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 템플릿에서 작업 영역을 만들 때 Adobe Workfront Planning은 레코드 유형에 대한 필드를 만듭니다.
 
 자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
+
+<div class="preview">
+
+## CSV 또는 Excel 파일에서 레코드 유형을 가져올 때 필드 만들기
+
+CSV 또는 Excel 파일을 사용하여 레코드 유형을 가져올 때 필드를 가져올 수 있습니다.
+
+자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+
+## Workfront에서 필드를 가져와 필드 만들기
+
+기존 Workfront 필드의 복사본을 가져올 수 있습니다. Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 대한 각 필드의 사본이 만들어집니다.
+
+필드를 복사한 후 필드는 서로 독립적이며 정보를 교환하지 않습니다.
+
+자세한 내용은 [Workfront에서 필드 가져오기](/help/quicksilver/planning/fields/import-fields-from-workfront.md)를 참조하십시오.
+
+</div>

@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
 
 
 # 레코드 페이지 레이아웃 관리
+
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -249,4 +253,52 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
    필드의 새 위치는 레코드를 보는 모든 사용자에 대해 동일한 유형의 모든 레코드의 미리보기 및 페이지에서 모두 업데이트됩니다.
 
    레코드 미리 보기 또는 페이지의 레이아웃에 대한 모든 변경 사항이 자동으로 저장됩니다.
+
+<span class="preview">
+
+## 레코드의 페이지에 연결된 보기 페이지 추가
+
+레코드 페이지에 연결된 보기 페이지를 추가할 수 있습니다.
+
+연결된 보기 페이지를 레코드의 미리 보기 영역에 추가할 수 없습니다.
+
+연결된 뷰 페이지에는 테이블 뷰에 연결된 레코드 페이지가 한 개 표시됩니다. 테이블 보기는 읽기 전용입니다.
+
+연결된 각 레코드 유형당 연결된 보기 페이지를 한 개 추가할 수 있습니다.  <!--edit this when we can remove fields from this page-->
+
+연결된 보기 페이지를 추가하려면 다음을 수행하십시오.
+
+1. 레코드 페이지 보기에서 레코드 이름을 클릭하여 연 다음 미리 보기 페이지의 오른쪽 상단에 있는 새 탭에서 열기 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을(를) 클릭합니다.
+1. **페이지 추가** > **연결된 보기**&#x200B;를 클릭합니다.
+1. **페이지 이름**&#x200B;을 추가한 다음 **만들기**&#x200B;를 클릭합니다.
+
+   새 탭에서 레코드의 페이지에 추가 페이지가 추가됩니다.
+1. 목록에서 연결된 레코드 또는 개체 유형의 이름을 검색하거나 클릭합니다.
+선택한 레코드 유형의 테이블 뷰가 표시되고 연결된 레코드가 테이블 뷰에 표시됩니다.
+테이블 보기는 읽기 전용입니다.
+
+   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. (선택 사항) 탭 이름을 두 번 클릭합니다
+
+   또는
+
+   탭 이름 위로 마우스를 가져간 다음 **자세히** ![](assets/more-menu.png)를 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭하여 새 연결된 보기 탭으로 이름을 바꿉니다.
+1. (선택 사항) 도구 모음의 모든 보기 요소를 사용하여 테이블 보기를 관리합니다. 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
+
+</span>
+
+<!--
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+<!--
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+-->
+
+
 

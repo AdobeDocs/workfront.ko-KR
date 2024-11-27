@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1397'
 ht-degree: 2%
 
 ---
@@ -145,14 +145,18 @@ ht-degree: 2%
    >
    >* 다음 형식의 필드가 미리 보기 </span> 또는 프로덕션 환경의 요청 양식 <span class="preview">에 표시되지 않습니다.
    >
-   >    * 직원(작성자 및 마지막 수정자 포함)
+   >    * 작성자 및 마지막 수정자
    >    * 공식
-   >    * 제작 일자
-   >    * 마지막 수정일
-   >    * Workfront 개체의 연결된 필드 또는 조회 필드
-   >    * Workfront Planning의 연결된 조회 필드
+   >    * 생성 날짜 및 마지막 수정 날짜
+   >    * Workfront 개체의 조회 필드
+   >    * Workfront Planning 연결된 레코드의 조회 필드
+   >    * AEM Assets 연결된 필드
    >* 다음 유형의 필드는 프로덕션 환경의 요청 양식에 표시되지 않습니다. <span class="preview">미리 보기 환경에 표시됩니다.</span>
    >    * <span class="preview"> Workfront Planning 레코드의 연결된 필드</span>
+   >    * <span class="preview">사람 </span>
+   >    * <span class="preview">Workfront 개체의 연결된 필드</span>
+   >    * <span class="preview">AEM Assets 연결 필드 </span>
+
 
 
    * **기본 섹션**: Workfront이 요청 양식에 적용하는 기본 섹션 구분입니다. 기본 섹션의 이름을 변경하거나 제거할 수 없습니다.
@@ -208,7 +212,15 @@ ht-degree: 2%
    >[!WARNING]
    >
    >
-   >**링크가 있는 모든 사용자**&#x200B;를 선택하면 조직 외부의 사람 중 Workfront 계정이 없는 사람도 양식에 액세스하여 새 레코드를 제출할 수 있습니다.
+   >* **링크가 있는 모든 사용자**&#x200B;를 선택하면 조직 외부의 사람 중 Workfront 계정이 없는 사람도 양식에 액세스하여 새 레코드를 제출할 수 있습니다.
+   >
+   > * <span class="preview">다음 필드 형식을 포함하는 양식은 공개적으로 공유할 수 없습니다.</span>
+   >
+   >     * <span class="preview">수식</span>
+   >     * <span class="preview">Workfront 또는 AEM Assets 연결</span>
+   >     * <span class="preview">조회 필드</span>
+   >     * <span class="preview">사람</span>
+   >
 
 1. (조건부) 이전 단계에서 **링크가 있는 모든 사용자**&#x200B;를 선택한 경우 사용 가능한 달력에서 **링크 만료 날짜**&#x200B;를 선택하십시오. 링크가 만료된 후 오류가 발생하며 양식 액세스 권한을 다시 부여받으려면 먼저 링크 날짜를 업데이트해야 합니다.
 

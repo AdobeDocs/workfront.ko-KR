@@ -6,16 +6,21 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 0%
 
 ---
+
 
 # Adobe Workfront Planning 요청을 제출하여 레코드 생성
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -112,17 +117,21 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
 * 액세스 가능한 방식으로 요청 양식을 링크와 공유해야 합니다. 다음과 같은 시나리오가 있습니다.
 
-   * Workfront 계정이 있는 경우 링크는 내부 직원과만 공유되었으며 작업 영역에 액세스할 수 있습니다. Workfront 외부 사용자는 내부적으로 공유된 링크에 액세스할 수 없습니다.
+   * Workfront 계정이 있는 경우 링크는 내부 직원하고만 공유되었으며 작업 영역에 대한 기여 이상의 액세스 권한이 있습니다. Workfront 외부 사용자는 내부적으로 공유된 링크에 액세스할 수 없습니다.
    * Workfront 계정이 없는 경우 링크가 외부 사용자와 공유되었습니다. Workfront 사용자는 외부 사용자와 공유되는 링크에 액세스할 수도 있습니다.
 
 * 양식에 대한 링크가 만료되지 않아야 합니다.
 
 ## Workfront Planning에 요청 제출에 대한 고려 사항
 
-* 양식에 대한 특정 링크 없이 Workfront Planning 요청에 대한 요청 양식에 액세스할 수 없습니다.
+* 양식에 대한 특정 링크에서만 Workfront Planning 요청에 대한 요청 양식에 액세스할 수 있습니다.
 * 요청을 Workfront Planning에 제출한 후에는 요청을 편집할 수 없습니다.
-* 제출된 각 요청은 사용하는 양식과 관련된 레코드 유형에 대한 레코드를 만듭니다.
+* 제출된 각 요청은 <!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> -->을(를) 사용하는 양식과 연결된 레코드 유형에 대한 레코드를 만듭니다.
 * 요청 양식을 제출하여 생성된 레코드는 다른 방법을 통해 추가된 레코드와 구분할 수 없습니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
+* <span class="preview">제출된 요청은 Workfront </span>의 요청 영역에 있는 제출된 섹션의 계획 탭에 표시됩니다.
+
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+
 
 ## Workfront Planning에 요청 제출
 
@@ -132,8 +141,35 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
    >[!TIP]
    >
-   >   Workfront **제목** 필드를 사용할 수 있는 경우 Workfront Planning에 표시되지 않을 수 있습니다. 레코드 유형에 추가될 때 새 레코드를 식별할 수 있도록 요청의 필드를 가능한 한 많이 업데이트하는 것이 좋습니다.
+   >   **제목** 필드를 사용할 수 있는 경우 요청이 제출된 후에는 Workfront Planning에 표시되지 않습니다.
+   >
+   >Workfront Planning의 레코드 유형에 추가될 때 새 레코드를 식별할 수 있도록 요청의 필드를 가능한 한 많이 업데이트하는 것이 좋습니다.
 
 1. **제출**&#x200B;을 클릭합니다.
 
-   양식이 제출되고 새 레코드가 양식과 연결된 레코드 유형에 추가됩니다.
+   양식이 제출되고 다음 사항이 발생합니다.
+
+   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->양식에 연결된 레코드 유형에 새 레코드가 추가됩니다.
+
+
+   * <!--If the request form was not associated with an approval, the--> <span class="preview"> 요청이 Workfront 요청 영역의 제출됨 섹션에 추가되고 새 레코드가 레코드 유형 페이지에 추가됩니다.</span>
+
+     ![](assets/planning-tab-in-requests.png)
+
+     >[!IMPORTANT]
+     >
+     ><span class="preview">하나 이상의 작업 영역에 액세스할 수 있는 모든 사용자는 요청 영역에서 계획 탭을 볼 수 있습니다. 제출한 요청만 볼 수 있습니다. Workfront 관리자는 시스템의 모든 요청을 볼 수 있습니다. </span> <!--ensure this is correct; asking team in slack-->
+
+   <!--
+   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+
+      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
+   -->
+   <!--
+
+   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
+   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
+   -->
+
+
+

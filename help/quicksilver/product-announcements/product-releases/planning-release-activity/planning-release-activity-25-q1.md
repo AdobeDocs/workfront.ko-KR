@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
+source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,115 @@ ht-degree: 0%
 
 2024년 8월 28일 일반 출시 이후 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록에 대해서는 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
+
+## 기존 Workfront 필드를 Workfront Planning 레코드 유형으로 가져오기
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 11월 27일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
+
+이제 레코드 종류에 필드를 추가할 때 기존 Workfront 사용자 지정 또는 네이티브 필드를 가져와 선택한 레코드 종류에 연결할 수 있는 옵션이 있습니다.
+
+이 개선 이전에는 모든 필드를 수동으로 만들어 레코드 유형과 연결해야 했습니다.
+
+현재 계산된 필드는 지원되지 않습니다.
+
+자세한 내용은 [Adobe Workfront에서 필드 가져오기](/help/quicksilver/planning/fields/import-fields-from-workfront.md)를 참조하십시오.
+
+## CSV 또는 Excel 파일을 가져와 레코드 유형, 레코드 및 필드 만들기
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 11월 27일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
+
+이제 CSV 또는 Excel 파일을 가져와서 새 레코드 유형을 가져올 수 있습니다.
+
+다음 정보를 가져옵니다.
+
+* 시트나 파일의 이름을 레코드 유형 이름으로 가져옵니다.
+
+* 모든 열의 첫 번째 행을 새 필드로 가져옵니다. 가져온 각 시트에는 최대 500개의 필드가 있을 수 있습니다.
+
+* 각 행을 새 레코드로 가져옵니다. 각 시트에 최대 10,000개의 레코드가 있을 수 있습니다.
+
+자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+
+## 수식에서 순환 참조 방지
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 11월 27일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
+
+자체 또는 공유 필드에 대한 순환 참조를 만들 수 있는 수식 필드를 편집하거나 만들 때 경고 메시지가 도입되었습니다. 자체 또는 해당 계산에서 참조되는 항목을 참조하는 공식 필드는 저장할 수 없습니다.
+
+자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
+
+## 연결된 보기 페이지를 레코드의 페이지에 추가하여 테이블 보기에 연결된 레코드를 표시합니다.
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 11월 27일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
+
+레코드의 세부 정보 영역에 페이지를 추가하여 테이블 보기에 연결된 레코드를 표시할 수 있습니다. 연결된 레코드당 한 페이지를 추가할 수 있습니다.
+
+추가된 페이지는 읽기 전용입니다.
+
+자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
+
+## 요청 영역의 제출됨 섹션에서 새 계획 탭
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 11월 27일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
+
+이제 Workfront의 요청 영역에 있는 제출됨 섹션에서 Workfront Planning 요청을 찾을 수 있습니다. 제출됨 섹션에는 이제 Workfront에서 제출된 요청과 Workfront 탭의 Workfront Planning 요청 양식을 사용하여 제출된 요청, 이렇게 두 개의 탭이 표시됩니다.
+
+Workfront Planning 레코드 유형에 요청을 추가하려면 요청 양식에 대한 링크를 사용해야 합니다. Workfront의 요청 영역에서 Workfront Planning 요청을 제출하는 것은 나중에 사용할 수 있습니다.
+
+요청 영역에서 계획 탭을 사용할 수 있으려면 먼저 조직이 Workfront Planning 패키지를 구매해야 합니다.
+
+자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
+
+## 이제 요청 양식에서 추가 필드 유형을 지원합니다
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 11월 27일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
+
+이제 Workfront Planning의 레코드 유형 요청 양식에 다음 필드 유형을 추가할 수 있습니다.
+
+* 사용자
+* Workfront 연결
+
+이 개선 이전에는 이러한 유형의 필드를 Workfront Planning의 요청 양식에 추가할 수 없었습니다.
+
+자세한 내용은 Adobe Workfront Planning에서 요청 양식 만들기 및 관리(/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+
+## 특정 필드 유형이 포함된 요청 양식의 공개 공유 제한
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 11월 27일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스 포함(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스 포함(2025년 1월)
+
+양식에 다음 필드 유형이 포함되어 있으면 더 이상 요청 양식을 공개적으로 공유할 수 없습니다.
+
+* 공식
+* 연결
+* 조회 필드
+* 사용자
+
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+
+
+## 주별 달력 보기에 레코드 표시
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 11월 26일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스 포함(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스 포함(2025년 1월)
+
+이제 주별로 달력 보기에 레코드를 표시할 수 있습니다. 이 개선 이전에는 달력만 월별 보기를 표시할 수 있었습니다.
+
+자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
 
 ## 삭제된 레코드 복원
 

@@ -6,15 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
 
 
 # 레코드 보기 관리
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 {{planning-important-intro}}
 
@@ -199,7 +204,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| 기능 | 표 보기 | 타임라인 보기 | 달력 보기 |
+| 기능 | 테이블 보기 | 타임라인 보기 | 달력 보기 |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
 | 목록 또는 테이블에 레코드 표시 | ✓ 덧신 |              | |
 | 기본적으로 모든 필드를 테이블에 열로 표시 | ✓ 덧신 |              |    |
@@ -218,6 +223,9 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 | 특정 레코드 검색 | ✓ 덧신 | ✓ 덧신 |
 | 다른 사용자와 보기 공유 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
 | 보기에서 레코드의 페이지를 엽니다. | ✓ 덧신 | ✓ 덧신 |    |
+| 연도 및 분기별 레코드 표시 |           | ✓ 덧신 |    |
+| 월별 레코드 표시 |           | ✓ 덧신 | ✓ 덧신 |
+| <span class="preview">주별 레코드 표시</span> |           |               | ✓ 덧신 |
 
 
 ## 보기 만들기 또는 편집 {#create-or-edit-views}

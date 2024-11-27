@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: e91423d1520cc5fbfa6cd5085c3d0c7315d88463
 workflow-type: tm+mt
-source-wordcount: '14642'
+source-wordcount: '14647'
 ht-degree: 2%
 
 ---
@@ -2105,6 +2105,7 @@ ht-degree: 2%
       * [필드 설정 편집](planning/fields/edit-fields.md)
       * [필드 삭제](planning/fields/delete-fields.md)
       * [수식 필드 개요](planning/fields/formula-fields.md)
+      * [Adobe Workfront에서 필드 가져오기](planning/fields/import-fields-from-workfront.md)
       * [기본 필드 개요](planning/fields/primary-field-overview.md)
    * Adobe Workfront Planning 액세스 {#adobe-workfront-planning-access}
       * [Adobe Workfront Planning 액세스 정보: 문서 색인](planning/access/access-information.md)
