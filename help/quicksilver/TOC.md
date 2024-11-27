@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: e91423d1520cc5fbfa6cd5085c3d0c7315d88463
+source-git-commit: 301f8c1b55a91a93616f59e2f530ac51a3696cbf
 workflow-type: tm+mt
 source-wordcount: '14647'
 ht-degree: 2%
@@ -856,7 +856,7 @@ ht-degree: 2%
       * [이메일 헤더 파일 저장](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [공유에 두 개 이상의 권한이 표시됨](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [인증되지 않은 이메일이 승인되지 않음](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-      * [Workfront: ZScalar 설정으로 인해 성능이 저하될 수 있습니다.](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
+      * [Workfront: ZScaler 설정으로 인해 성능이 저하될 수 있습니다.](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [사용자 자격 증명과 SAML 자격 증명 비교](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [액세스 수준의 자동 업그레이드 옵션 업데이트](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront 기본 사항 {#basics}

@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-source-git-commit: 806a4c4835e47da4fbbdb28ec0c35c990f70239e
+source-git-commit: f66b219e9fd203f108844ad397bcfa848b8f1134
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
@@ -43,4 +43,4 @@ ht-degree: 0%
 * [전자 메일 헤더 파일 저장](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [공유에 두 개 이상의 권한이 표시됨](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
 * [도메인의 DMARC 정책으로 인해 인증되지 않은 이메일이 허용되지 않음](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-* [Workfront: ZScalar 설정으로 인해 성능이 저하될 수 있습니다.](../../administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
+* [Workfront: ZScaler 설정으로 인해 성능이 저하될 수 있습니다.](../../administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
