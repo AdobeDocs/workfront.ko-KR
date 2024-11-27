@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >미리보기 릴리스: 2024년 11월 27일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
 
-이제 레코드 종류에 필드를 추가할 때 기존 Workfront 사용자 지정 또는 네이티브 필드를 가져와 선택한 레코드 종류에 연결할 수 있는 옵션이 있습니다.
+이제 레코드 종류에 필드를 추가할 때 기존 Workfront 사용자 지정 또는 네이티브 필드를 가져와 선택한 레코드 종류에 연결할 수 있는 옵션이 있습니다. 기존 필드를 가져오면 Workfront Planning에서 Workfront 필드의 사본이 만들어집니다. 복사된 필드는 원래 버전과 독립적입니다.
 
 이 개선 이전에는 모든 필드를 수동으로 만들어 레코드 유형과 연결해야 했습니다.
 
@@ -89,13 +89,16 @@ ht-degree: 0%
 
 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
 
-## 요청 영역의 제출됨 섹션에서 새 계획 탭
+## 요청 영역의 제출됨 섹션에서 새 Workfront 및 계획 탭
 
 >[!NOTE]
 >
 >미리보기 릴리스: 2024년 11월 27일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
 
-이제 Workfront의 요청 영역에 있는 제출됨 섹션에서 Workfront Planning 요청을 찾을 수 있습니다. 제출됨 섹션에는 이제 Workfront에서 제출된 요청과 Workfront 탭의 Workfront Planning 요청 양식을 사용하여 제출된 요청, 이렇게 두 개의 탭이 표시됩니다.
+이제 Workfront의 요청 영역에 있는 제출됨 섹션에서 Workfront Planning 요청을 찾을 수 있습니다. 이제 제출됨 섹션에 다음 탭이 표시됩니다.
+
+* Workfront: Workfront에서 제출된 요청을 표시합니다.
+* Planning: Workfront Planning 요청 양식을 사용하여 제출된 요청을 표시합니다.
 
 Workfront Planning 레코드 유형에 요청을 추가하려면 요청 양식에 대한 링크를 사용해야 합니다. Workfront의 요청 영역에서 Workfront Planning 요청을 제출하는 것은 나중에 사용할 수 있습니다.
 
@@ -127,7 +130,7 @@ Workfront Planning 레코드 유형에 요청을 추가하려면 요청 양식�
 양식에 다음 필드 유형이 포함되어 있으면 더 이상 요청 양식을 공개적으로 공유할 수 없습니다.
 
 * 공식
-* 연결
+* Workfront 및 AEM Assets 연결
 * 조회 필드
 * 사용자
 

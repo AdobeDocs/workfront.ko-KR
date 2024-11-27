@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1677'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,14 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-**예:** 작업의 기간을 3일 경과로 나타내려면 작업 목록의 기간 필드에 &quot;3 ED&quot;를 입력합니다.  작업을 편집할 때 또는 작업 세부 정보 섹션에서 사용 가능한 드롭다운 메뉴에서 기간 단위 기본 옵션을 선택할 수도 있습니다. 작업 편집에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
+>[!BEGINSHADEBOX]
+
+**예**
+
+작업의 기간을 3일 경과로 나타내려면 작업 목록 의 기간 필드에 &quot;3 ED&quot;를 입력합니다.  작업을 편집할 때 또는 작업 세부 정보 섹션에서 사용 가능한 드롭다운 메뉴에서 기간 단위 기본 옵션을 선택할 수도 있습니다. 작업 편집에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -117,8 +124,8 @@ ht-degree: 1%
 작업 기간을 표시할 때는 다음 사항을 고려하십시오.
 
 * 경과 시간은 작업 기간에 대한 시간 단위입니다. 휴일, 주말 및 휴무를 포함하는 작업의 계획된 시작 일자와 계획된 완료 일자 사이의 시간입니다. 즉, 경과 시간은 역일이 경과된 때이다.
-* 정규 시간은 공휴일, 주말 및 휴무를 고려하여 작업 기간에서 제외합니다.
-
+* 일은 시스템에 정의된 근무일을 나타내며 설정 영역에서 구성할 수 있습니다. 대부분의 경우 하루는 8시간으로 구성됩니다.
+* 정규 시간(일 또는 근무일)은 휴일, 주말 및 휴무를 고려하여 작업 기간에서 제외합니다.
 * 작업 기간을 주 단위로 표시하면 Workfront은 Workfront 관리자가 설정의 프로젝트 환경 설정 영역에서 설정한 주당 일반 근무일 및 근무일당 일반 시간 설정을 기반으로 기간을 계산합니다.
 * Workfront은 기간(월)을 계산할 때 한 달에 대해 4주의 기본 기간을 사용합니다.
 

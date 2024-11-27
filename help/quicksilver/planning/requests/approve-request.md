@@ -3,9 +3,9 @@ title: 요청 승인
 description: 사용자가 Adobe Workfront Planning의 승인과 연결된 요청 양식에 요청을 제출하면 승인자는 보류 중인 승인에 대한 알림 및 이메일을 수신합니다. Workfront Planning에서 개체를 만들기 전에 요청을 승인해야 합니다.
 hide: true
 hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '783'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ recommendations: noDisplay, noCatalog
 제출된 요청은 Workfront의 요청 영역에서 제출된 섹션의 계획 탭에 다음 요청 상태 중 하나로 표시됩니다.
 
 * **검토 보류 중**: 승인자가 요청 개체를 열지 않은 경우 이 상태가 표시됩니다.
-* **검토 중**: 하나 이상의 승인자가 요청 개체를 열면 상태가 **검토 중**(으)로 변경됩니다.
+* **검토 중**: 하나 이상의 승인자가 요청 개체를 열면 상태가 **검토 중**(으)로 변경됩니다. 모든 승인자가 요청을 승인할 때까지 요청의 상태가 **검토 중** 상태로 유지됩니다.
 * **승인됨**: 승인자가 요청 개체를 승인하면 개별 상태가 다음과 같이 됩니다.
 * **승인됨**&#x200B;이지만 전체 요청 개체 상태는 모든 승인자가 결정을 내릴 때까지 **검토 중**&#x200B;으로 유지됩니다.
 * **완료**: 모든 승인자가 요청 개체를 승인하면 상태가 **완료**(으)로 변경되거나 요청에 승인이 필요하지 않은 경우.
@@ -152,7 +152,13 @@ recommendations: noDisplay, noCatalog
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 사용 가능한 경우 화면 오른쪽 상단의 Workfront **주 메뉴** ![](assets/dots-menu.png) 또는 왼쪽 상단의 **주 메뉴** ![](assets/lines-menu.png)에서 **요청** > **제출됨** > **계획**&#x200B;을 클릭하고 **검토 중** 상태의 요청을 클릭합니다. <!--did they change this to Pending approval; logged  a bug-->
+   * Workfront Planning에 액세스할 수 있는 경우 화면 오른쪽 상단에 있는 **주 메뉴** ![](assets/dots-menu.png) 또는 왼쪽 상단에 있는 **주 메뉴** ![](assets/lines-menu.png)(사용 가능한 경우)를 클릭한 다음 **요청** > **제출됨** > **계획**&#x200B;을 클릭하고 **검토 중** 상태의 요청을 클릭합니다. <!--did they change this to Pending approval; logged  a bug-->
+
+     >[!TIP]
+     >
+     >    Workfront Planning에 대한 액세스 권한이 없는 경우 알림을 통해서만 승인 요청에 액세스할 수 있습니다.
+
+
    * 화면 오른쪽 상단의 **알림** 영역으로 이동한 다음 승인 보류 중인 요청에 대한 알림을 클릭하여 요청을 엽니다.
    * 승인 보류 중인 요청에 대해 알리는 이메일의 이메일 알림으로 이동한 다음 을(를) 클릭하여 요청을 엽니다. <!--add the name of the button here, from the email-->
 
@@ -163,4 +169,4 @@ recommendations: noDisplay, noCatalog
 1. **검토 및 승인**&#x200B;을 클릭한 후 다음 중 하나를 선택하십시오. <!--did they fix the button and removed the &??-->
 
    * **승인**: 요청을 승인합니다. 요청 양식과 연결된 레코드 유형에 대한 레코드가 즉시 만들어집니다.
-   * **거부**: 요청을 거부합니다. 요청 양식과 연결된 레코드 유형에 대해 만들어진 레코드가 없습니다. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??-->
+   * **거부**: 요청을 거부합니다. 요청 양식과 연결된 레코드 유형에 대해 만들어진 레코드가 없습니다. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
 source-wordcount: '4287'
 ht-degree: 1%
@@ -668,7 +668,9 @@ CSV 또는 Excel 파일을 사용하여 레코드 유형을 가져올 때 필드
 
 ## Workfront에서 필드를 가져와 필드 만들기
 
-기존 Workfront 필드의 복사본을 가져올 수 있습니다. Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 대한 각 필드의 사본이 만들어집니다.
+기존 Workfront 필드의 복사본을 가져올 수 있습니다.
+
+Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 대한 각 필드의 사본이 만들어집니다.
 
 필드를 복사한 후 필드는 서로 독립적이며 정보를 교환하지 않습니다.
 

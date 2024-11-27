@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 1%
+source-wordcount: '1803'
+ht-degree: 2%
 
 ---
 
@@ -61,57 +61,59 @@ Workfront Planning은 다음과 같은 질문에 답변할 수 있습니다.
 * 조직에서 사용하는 개체 유형(또는 레코드 유형) 결정부터 이러한 개체가 서로 연결되는 방법을 구성하는 등 워크플로를 완전히 사용자 지정합니다.
 * 다른 시스템의 오브젝트 유형에 연결하여 모든 프로세스에 대해 일관된 프레임워크를 만듭니다.
 
-## 현재 사용 가능한 Workfront Planning 기능
+<!--
+## Currently available Workfront Planning features
+(*****for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section*****)
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
+(*****at GA: update the link below to the new place for release notes *****)
 
-<!--at GA: update the link below to the new place for release notes-->
+For information about new features and when they are released, see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md). 
 
-새로운 기능 및 릴리스 시기에 대한 자세한 내용은 [2024년 Adobe Workfront Planning 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)을 참조하십시오.
+The following features are currently available in Workfront Planning:
 
-현재 Workfront Planning에서 사용할 수 있는 기능은 다음과 같습니다.
-
-* 작업 공간 만들기
-* 레코드 유형 만들기
-* 레코드 사용자 정의 필드 만들기\
-  <!--* Import record types and fields using an Excel or CSV file-->
-
-* 표 보기에서 레코드 표시
-* 타임라인 보기에서 레코드 표시
-* 달력 보기에 레코드 표시
-* 표 보기에서 레코드 필터링, 정렬 및 그룹화
-* 타임라인 보기에서 필터, 그룹 및 색상 코드 레코드
-* 달력 보기에서 레코드 필터링
-* 테이블 및 타임라인 보기에서 레코드 검색
-* 동일한 작업 영역에 속하는 레코드 연결
-* 다른 작업 공간에 속한 레코드 연결
-* Workfront Planning 레코드를 Workfront 프로젝트, 프로그램, 포트폴리오, 회사, 그룹에 연결
-* Workfront Planning 레코드를 Adobe Experience Manager 에셋에 연결\
-  Adobe Experience Manager Assets 라이선스가 있어야 하며 AEM Assets과 Workfront 간의 통합이 있어야 합니다.
-자세한 내용은 [Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 문서 색인](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)을 참조하세요.
-* 세부 정보 탭에서 레코드 정보 보기
-* 연결 탭에서 레코드 연결 보기
-* 레코드 페이지의 레이아웃 사용자 지정
-* 작업 공간 공유
-* 보기 공유
-* Workfront 사용자가 아닌 사용자도 외부 리소스와 공개적으로 보기를 공유할 수 있습니다
-* 중복 보기
-* 요청을 제출하여 레코드 만들기
-* Word 및 PDF으로 레코드 세부 사항을 내보냅니다.
-* 레코드에 주석 추가
-* 인앱 알림 수신
-* 이메일 알림 수신
-* 레코드에 썸네일 및 표지 추가
-* 레코드의 변경 내용 보기
-* 단락 필드에 대한 서식 있는 텍스트 서식
-* Workfront 객체에서 Planning 레코드에 액세스
-* Workfront 오브젝트에서 Planning 레코드 연결 및 연결 해제
-* 요청 양식을 제출하여 Planning 레코드 생성
-* Workfront Planning 공용 API
-* Adobe Workfront Fusion용 Adobe Workfront Planning 모듈
+* Create workspaces             
+* Create record types             
+* Create record custom fields             
+(************ * Import record types and fields using an Excel or CSV file*****)
+          
+* Display records in a table view            
+* Display records in a timeline view            
+* Display records in a calendar view            
+* Filter, sort, and group records in a table view
+* Filter, group, and color code records in the timeline view
+* Filter records in the calendar view 
+* Search for records in the table and timeline views             
+* Connect records that belong to the same workspace  
+* Connect records that belong to different workspaces   
+* Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups             
+* Connect Workfront Planning records to Adobe Experience Manager assets          
+    You must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront.
+    For information, see [Adobe Workfront for Experience Manager Assets and Assets Essentials: article index](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md). 
+* View record information in the Details tab
+* View record connections in the Connections tab
+* Customize the layout of a record's page             
+* Share workspaces             
+* Share views             
+* Share views publicly with any external resource, even people who are not Workfront users         
+* Duplicate views             
+* Submit requests to create records            
+* Export record details to Word and PDF.
+* Add comments to records             
+* Receive in-app notifications             
+* Receive email notifications             
+* Add thumbnails and cover pages to records             
+* View the history of changes on a record             
+* Rich Text formatting for Paragraph fields             
+* Access Planning records from Workfront objects             
+* Connect and disconnect Planning records from Workfront objects 
+* Create Planning records by submitting a request form            
+* Workfront Planning public API             
+* Adobe Workfront Planning modules for Adobe Workfront Fusion             
 * Workfront Planning AI Assistant
-* Workfront Planning 정보 보고
-캔버스 대시보드를 사용하여 Planning 정보에 대해 보고할 수 있습니다. 자세한 내용은 [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)를 참조하십시오.
+* Reporting on Workfront Planning information
+    You can report on Planning information using the Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md). 
+
+-->
 
 <!--OLD: 
 
@@ -325,7 +327,7 @@ Adobe Planning을 찾으려면 조직에서 Workfront Planning에 대한 액세�
 
 Workfront Planning을 찾으려면 다음을 수행합니다.
 
-1. Adobe Workfront에 로그인.
+1. Workfront에 로그인.
 
 {{step1-click-main-menu}}
 
