@@ -6,14 +6,16 @@ description: 자동 보고서 배달 예약
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1197'
 ht-degree: 2%
 
 ---
 
 # 자동 보고서 배달 예약
+
+<!-- Audited: 11/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
@@ -24,6 +26,8 @@ ht-degree: 2%
 보고서 배달에 영향을 줄 수 있는 크기 제한을 포함한 자세한 내용은 [보고서 배달 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)를 참조하세요.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -37,20 +41,31 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+      <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>플랜</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -103,7 +118,7 @@ ht-degree: 2%
       <td> <p>보고서에 액세스할 수 있는 사용자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다. 보고서를 받는 사용자에게는 여기에서 지정한 사용자와 동일한 수준의 보고서 액세스 권한이 부여됩니다.<br> 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">다른 사용자의 액세스 권한으로 보고서 실행 및 전달</a>을 참조하십시오.</p> <p>참고: 이 필드는 와일드카드를 지원하지 않습니다. 예를 들어 와일드카드 $$User.ID를 사용하면 보고서를 받고 있는 사용자의 액세스 권한이 있는 보고서가 실행되지 않습니다.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>포맷</p> </td> 
+      <td role="rowheader"> <p>형식</p> </td> 
       <td> <p>게재된 보고서에 사용할 형식을 선택합니다.</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
@@ -172,13 +187,13 @@ ht-degree: 2%
    1. **반복 게재** 패널에서 예약된 게재를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
    1. 확인하려면 **삭제**&#x200B;를 클릭하세요.
 
-## 비디오 둘러보기
+<!--## Video walk-through
 
-보고서 게재를 예약하는 방법을 알아보려면 다음 비디오를 보십시오. 이 비디오는 Workfront Classic에 녹화되었습니다. 하지만 콘텐츠는 새 Workfront 경험에도 적용됩니다.
+View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 
-[![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
+[ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
-<!--
+
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>
 -->
 

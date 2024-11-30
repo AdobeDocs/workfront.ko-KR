@@ -6,7 +6,7 @@ description: 이 문서의 정보가 이동되었습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 076ee364-6ee7-4b50-ad38-54aebaf56036
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 보고서 만들기
+
+<!-- Audited: 11/2024 -->
 
 이 문서의 정보가 이동되었습니다.
 

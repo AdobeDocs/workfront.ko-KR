@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: cea70727aaaa867b55ce999f68a675c453840d41
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,6 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             단일 할당 작업에 프로젝트 또는 사용자 일정을 사용하는 환경 설정</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>이제 시스템 또는 그룹 관리자로서, 작업에 한 명의 사용자를 할당하고 프로젝트와 사용자를 모두 예약과 연결할 때 Workfront이 프로젝트의 일정을 계산할지 또는 사용자의 일정을 사용할지 여부를 나타내는 새로운 환경 설정이 제공됩니다.</p>
         </td>
         <td>
@@ -75,7 +74,6 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             비즈니스 규칙이 이제 하이퍼링크를 지원합니다.</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>이제 비즈니스 규칙의 사용자 지정 오류 메시지에 하이퍼링크를 포함하여 규칙의 제한 사항 내에서 작업을 수정하는 방법을 사용자에게 안내할 수 있습니다. 정적 URL은 설명서 또는 사용자에게 유용한 다른 페이지에 연결할 수 있습니다.</p>
         </td>
         <td>
@@ -91,7 +89,6 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             이제 기본 자동 완성 필드에 대한 필터링을 사용할 수 있습니다</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>이제 사용자 정의 양식에 기본 필드 참조를 추가하고 이 필드가 자동 완성 필드(예: Portfolio, 회사 또는 소유자)를 참조하는 경우 필터 옵션을 사용할 수 있습니다. 필터를 사용하면 사용자가 필드를 사용할 때 선택할 수 있는 개체를 제한할 수 있습니다. 이 사용자 지정 필터는 사용자 지정 자동 완성 필드의 필터와 동일하게 작동하며 텍스트 모드를 사용하여 필터를 정의합니다.</p>
         </td>
         <td>
@@ -172,7 +169,6 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             한 번에 여러 문서 편집</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>이제 여러 문서를 한 번에 편집할 수 있습니다. 설명을 편집하고 사용자 정의 양식을 업데이트할 수 있습니다.</p>
         </td>
         <td>
@@ -309,6 +305,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Data Connect에 대한 최초 판독기 계정 만들기 단추</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>Data Connect에 처음 액세스하는 관리자에게는 이제 단일 버튼을 클릭하여 새 Snowflake 판독기 계정을 만들 수 있는 옵션이 표시됩니다. 이 프로세스는 완료하는 데 몇 분이 걸리지만 추가 작업이 필요하지 않습니다.</p>
         </td>
         <td>
@@ -332,7 +329,6 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             연결된 폴더에서 이동하거나 삭제된 에셋의 관리 방법 업데이트</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>Experience Manager Assets 및 Assets Essentials과 Adobe Workfront 통합을 사용할 때 이동 및 삭제된 에셋을 처리하는 방식이 변경되었습니다.</p>
             <ul>
                 <li>삭제된 에셋: Assets 또는 Assets Essentials의 연결된 폴더 내에서 에셋이 삭제되면 삭제된 에셋은 프로젝트 문서 영역에 유지됩니다.</li>

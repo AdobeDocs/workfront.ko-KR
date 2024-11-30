@@ -6,7 +6,7 @@ description: 보고서 게재 개요
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 보고서 게재 개요
+
+<!-- Audited: 11/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link) </p>
@@ -159,7 +161,7 @@ Workfront 관리자가 Workfront 인스턴스에 사용자 지정된 브랜딩�
 
 Workfront 인스턴스 브랜딩에 대한 자세한 내용은 문서 [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)을 참조하십시오.
 
-### 서식 {#formatting}
+### 서식 지정 {#formatting}
 
 보고서가 전송되거나 배달 예약될 때 특별한 보기가 없는 경우 항상 보고서의 세부 정보 탭을 받게 됩니다.
 

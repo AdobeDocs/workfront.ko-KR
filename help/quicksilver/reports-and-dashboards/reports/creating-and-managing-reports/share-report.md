@@ -6,14 +6,16 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront에서 보고서 공유
+
+<!-- Audited: 11/2024 -->
 
 Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보고서를 보거나 편집할 수 있는 액세스 권한을 사용자에게 부여합니다. 문제에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [보고서, 대시보드 및 일정에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)를 참조하십시오.
 
@@ -27,6 +29,8 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보�
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 객체를 공유하려면 다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>검토 이상</p> </td> 
+      <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>밝거나 높음</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>검토 이상</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한 이상 보기</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한 이상 보기</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서 권한 이상 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>보고서 권한 이상 보기</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 보고서 공유에 대한 고려 사항
 
@@ -79,7 +94,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보�
 
    한 보고서의 이름을 클릭한 다음 **보고서 작업 >****공유**&#x200B;를 클릭합니다.
 
-   ![](assets/qs-report-actions-sharing.png)
+   ![](assets/unshimmed-report-actions-sharing.png)
 
 1. 표시되는 상자에서 **사람, 팀, 역할, 그룹 또는 회사 추가..** 필드에 보고서를 공유할 사용자, 팀, 작업 역할, 그룹 또는 회사의 이름을 입력한 다음 이름이 표시되면 **Enter**&#x200B;를 누릅니다.
 
@@ -91,7 +106,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보�
     <tbody> 
      <tr> 
       <td role="rowheader">보기</td> 
-      <td> <p>받는 사람이 <strong>보고서</strong> <img src="assets/reports-in-main-menu.png"> 영역에서 보고서를 보고 실행할 수 있도록 허용합니다.</p> <p><strong>고급 설정</strong>을 클릭하여 사용자 또는 사용자가 시스템 내의 모든 사용자와 이 설정을 <strong>공유</strong>할 수 있게 할지 여부를 지정할 수 있습니다.</p> </td> 
+      <td> <p>받는 사람이 <strong>보고서</strong> 영역에서 보고서를 보고 실행할 수 있도록 허용합니다.</p> <p><strong>고급 설정</strong>을 클릭하여 사용자 또는 사용자가 시스템 내의 모든 사용자와 이 설정을 <strong>공유</strong>할 수 있게 할지 여부를 지정할 수 있습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">관리함</td> 
@@ -101,9 +116,15 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보�
    </table>
 
 1. (선택 사항) 앞의 2단계를 반복하여 다른 이름을 목록에 추가하고 해당 옵션을 구성합니다.
-1. (선택 사항) 공유 상자의 오른쪽 위 모서리에 있는 **톱니바퀴** 아이콘 ![](assets/gear-icon-settings-with-dn-arrow.jpg)을(를) 클릭한 후 다음 옵션 중 하나를 선택합니다.
+1. (선택 사항) 공유 상자에서 **초대된 사람만 액세스할 수 있음** 드롭다운 메뉴를 클릭한 후 다음 옵션 중 하나를 선택합니다.
 
-   * **외부 사용자에게 공개하기:** 다른 사용자와 공유할 수 있는 URL을 생성하려면 이 옵션을 선택하십시오. URL이 있는 사람은 Adobe Workfront 라이선스가 없어도 보고서에 액세스할 수 있습니다.
+   * **초대된 사람만 액세스할 수 있습니다** 보고서에 대한 액세스 권한이 부여된 사용자만 볼 수 있도록 이 옵션을 선택하십시오.
+
+   * **시스템의 모든 사용자가 볼 수 있습니다** 보고서에 대한 액세스 권한이 있는 모든 Workfront 사용자가 보고서를 볼 수 있도록 이 옵션을 선택하십시오.
+
+1. (선택 사항) 공유 상자의 오른쪽 위 모서리에 있는 **톱니바퀴** 아이콘 ![](assets/gear-icon-settings-with-dn-arrow.jpg)을(를) 클릭한 다음 선택적으로 다음 옵션을 선택합니다.
+
+   * **외부 사용자에게 공개하기** 다른 사용자와 공유할 수 있는 URL을 생성하려면 이 옵션을 선택하십시오. URL이 있는 사람은 Adobe Workfront 라이선스가 없어도 보고서에 액세스할 수 있습니다.
 
      >[!CAUTION]
      >
@@ -112,7 +133,5 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보�
      >[!NOTE]
      >
      >보고서에 프롬프트가 있고 공개적으로 공유하는 경우 공개 공유 링크를 통해 보고서를 실행하는 사용자는 프롬프트를 사용하여 보고서를 실행할 수 없습니다. Workfront에 로그인하지 않고 공개 공유 링크를 사용하지 않고 보고서에 액세스하지 않으면 보고서에 적용된다는 프롬프트 없이 보고서가 표시됩니다. 프롬프트가 있는 보고서를 공유하는 제한 사항에 대한 자세한 내용은 문서 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)의 [프롬프트 보고서 공유 제한](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) 섹션을 참조하십시오.
-
-   * **시스템 전체에 표시:** 보고서에 대한 액세스 권한이 있는 모든 Workfront 사용자가 보고서를 볼 수 있도록 이 옵션을 선택하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.

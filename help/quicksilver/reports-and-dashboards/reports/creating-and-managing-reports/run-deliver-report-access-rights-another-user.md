@@ -6,14 +6,16 @@ description: 기본적으로 사용자는 보기 권한이 있는 보고서 내�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
 
 # 다른 사용자의 액세스 권한으로 보고서 실행 및 전달
+
+<!-- Audited: 11/2024 -->
 
 기본적으로 사용자는 보기 권한이 있는 보고서 내의 개체만 볼 수 있습니다.
 
@@ -28,6 +30,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -40,20 +44,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+      <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>플랜</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 보기 (게재된 보고서를 보기 위해)</p> <p>보고서에 대한 권한 관리(보고서 실행)</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>보고서에 대한 권한 보기 (게재된 보고서를 보기 위해)</p><p>보고서에 대한 권한 관리(보고서 실행)</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 다른 사용자의 액세스 권한이 있는 보고서 표시
 
@@ -63,7 +78,7 @@ ht-degree: 0%
 
 다른 사용자의 액세스 권한으로 보고서를 실행하려면
 
-1. Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 보고서]**&#x200B;를 클릭합니다.
 
 1. 다른 사용자의 액세스 권한으로 표시할 보고서를 선택합니다.
 1. **보고서 동작**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
@@ -71,7 +86,7 @@ ht-degree: 0%
 1. **보고서 설정**&#x200B;을 클릭합니다.
 
 1. **액세스 권한:** 필드에서 이 보고서를 실행하고 보고서를 표시할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다.\
-   ![](assets/qs-access-rights-of-350x251.png)
+   ![](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -101,7 +116,7 @@ ht-degree: 0%
 1. **보고서 보내기**&#x200B;를 클릭합니다.
 
 1. **액세스 권한이 있는 이 보고서 배달:** 필드에서 보고서가 전자 메일에 배달될 때 표시할 사용자의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 기본값은 보고서를 작성하는 사용자의 이름입니다.\
-   ![](assets/qs-send-report-access-rights-of-350x446.png)
+   ![](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -111,8 +126,8 @@ ht-degree: 0%
 
    * HTML
    * PDF
-   * MS Excel
-   * MS Excel (.xlsx)
+   * Excel
+   * Excel (.xlsx)
    * TSV
 
 1. 지금 보내려면 **지금 보내기**&#x200B;를 클릭하세요.\
@@ -138,20 +153,22 @@ ht-degree: 0%
 * 문제 보고서에 대한 프로젝트 이름 또는 작업 이름 열입니다.
 * 세 개체를 모두 참조하는 텍스트 모드 표현식을 사용하는 열입니다. 다음은 시간 보고서의 예입니다.
 
-  `displayname=Custom Source`
-
-  `linkedname=opTask`
-
-  `namekey=view.relatedcolumn`
-
-  `namekeyargkey.0=opTask`
-
-  `namekeyargkey.1=name`
-
-  `textmode=true`
-
-  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
-
-  `valueformat=HTML`
+  ```
+  displayname=Custom Source
+  
+  linkedname=opTask
+  
+  namekey=view.relatedcolumn
+  
+  namekeyargkey.0=opTask
+  
+  namekeyargkey.1=name
+  
+  textmode=true
+  
+  valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))
+  
+  valueformat=HTML
+  ```
 
   텍스트 모드 보기에 대한 자세한 내용은 [텍스트 모드를 사용하여 보기 편집](../text-mode/edit-text-mode-in-view.md)을 참조하십시오.
