@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 301f8c1b55a91a93616f59e2f530ac51a3696cbf
+source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
 workflow-type: tm+mt
-source-wordcount: '14647'
+source-wordcount: '14666'
 ht-degree: 2%
 
 ---
@@ -2240,6 +2240,7 @@ ht-degree: 2%
       * [Adobe Workfront Fusion에서 조직에 사용자 추가](workfront-fusion/organizations/add-user-to-an-organization.md)
       * [Adobe Workfront Fusion에서 사용자 관리](workfront-fusion/organizations/manage-fusion-users.md)
       * [Adobe Workfront Fusion의 조직 역할](workfront-fusion/organizations/organization-roles.md)
+      * [Adobe Workfront Fusion에서 조직에 대한 활동 로그 보기](/help/quicksilver/workfront-fusion/organizations/view-activity-logs-for-an-org.md)
    * Adobe Workfront Fusion {#scenarios-in-fusion}의 시나리오
       * [Adobe Workfront Fusion의 시나리오](workfront-fusion/scenarios/scenarios.md)
       * [Adobe Workfront Fusion 시나리오 개요](workfront-fusion/scenarios/scenario-overview.md)
@@ -2258,6 +2259,7 @@ ht-degree: 2%
       * [Adobe Workfront Fusion의 시나리오에 필터 추가](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
       * [Adobe Workfront Fusion DevTool로 시나리오 디버그](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
       * [AI를 사용하여 시나리오 세그먼트 생성](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
+      * [Adobe Workfront Fusion에서 시나리오 채점 전문가 실행](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
       * Adobe Workfront Fusion 시나리오 템플릿 {#fusion-scenario-templates}
          * [시나리오 템플릿](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion]개 템플릿 개요](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)

@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: e2c8af4428fa7ef910dad3a29abcc375760855cb
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -45,3 +45,9 @@ ht-degree: 0%
 * [ [!DNL Adobe Workfront Fusion]에서 모듈 또는 시나리오 복사](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
 * [ [!DNL Adobe Workfront Fusion] 시나리오의 새 버전으로 모듈 업데이트](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [ [!DNL Adobe Workfront Fusion]에서 잠긴 시나리오 보기 및 관리](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
+* [Adobe Workfront Fusion에서 시나리오 채점 전문가 실행](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+
+
+
+
+
