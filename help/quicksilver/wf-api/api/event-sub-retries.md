@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -40,6 +40,7 @@ ht-degree: 0%
 * 구독 URL이 2,000개가 넘는 연속 오류가 있고 마지막 성공이 72시간 이상이거나 일정 중 50,000개가 넘는 연속 오류가 있는 경우 **frozen**&#x200B;입니다.
 * **사용 안 함** 구독 URL은 10분마다 계속 배달을 시도하고 배달이 성공하면 다시 사용할 수 있게 됩니다.
 * API 요청을 통해 수동으로 활성화되지 않는 한 **frozen** 구독 URL은 배달을 시도하지 않습니다.
+
 
 
 

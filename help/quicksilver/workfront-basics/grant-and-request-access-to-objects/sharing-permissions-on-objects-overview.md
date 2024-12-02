@@ -6,7 +6,7 @@ description: 만든 개체 또는 사용자와 공유된 개체에 대한 권한
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 1%
@@ -166,6 +166,7 @@ Workfront에 있는 개체의 계층 구조 및 상호 종속성에 대한 자�
 객체에 대한 사용자 그룹에 관리 권한을 부여하고 동일한 객체에 대한 해당 그룹의 개별 사용자에게 보기 권한을 부여하는 경우, 사용자는 객체에 대한 그룹 구성원을 통해 부여된 가장 높은 수준의 권한(관리)을 갖게 됩니다. 
 
 이미 더 높은 권한 수준의 조직 단위(그룹, 팀, 작업 역할 또는 회사)에 속하는 사용자에게 더 낮은 권한을 부여하려면 조직 단위에서 권한을 제거하고 더 낮은 권한 수준의 사용자를 개별적으로 추가해야 합니다.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
