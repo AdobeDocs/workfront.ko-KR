@@ -5,13 +5,13 @@ title: 웹 증명 뷰어 확장에서 대화형 콘텐츠 검토
 description: Adobe Workfront 검토 도구는 ZIP 파일 또는 URL로 인터랙티브한 콘텐츠를 증명 할 수 있는 브라우저 확장 기능입니다.
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 5650ebfbf115908cbf2b89ffeab0551a4ecacc2d
+exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
+source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Workfront 검토 도구를 사용하여 대화형 콘텐츠 검토
 
@@ -23,7 +23,11 @@ Adobe Workfront 검토 도구는 ZIP 파일 또는 URL로 인터랙티브한 콘
 * Chrome
 * Edge
 
-Figma와 같이 iFrame에서 사이트를 열지 못하게 하는 웹 사이트의 경우 Desktop Proof Viewer를 사용하는 것이 좋습니다.
+검토해야 하는 컨텐츠가 웹 사이트에 있는 경우 Desktop Proofing Viewer를 사용하는 것이 좋습니다.
+
+* SSO 인증 필요
+* Figma와 같이 iFrame에서 사이트를 열 수 없습니다.
+
 
 
 ## Adobe Workfront 검토 도구를 URL 및 ZIP 증명에 대한 기본 뷰어로 설정
@@ -69,7 +73,3 @@ ZIP 증명에만 웹 검토 도구를 사용하려면 Workfront 관리자가 대
 >[!IMPORTANT]
 >
 >Adobe Workfront 검토 도구를 사용하려면 기존 웹 뷰어 확장을 제거해야 합니다.
-
-
-
-
