@@ -7,13 +7,13 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
-source-git-commit: 89c5ed4d73d875fcbb56287ad51859dc8f4bc5ff
+exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
+source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
 workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 1%
 
 ---
-
 
 # 검토 및 승인을 위한 보고서 대시보드 만들기
 
@@ -344,9 +344,3 @@ KPI 및 차트를 사용하여 문서 승인에 대한 높은 수준의 정보�
       ![보류 중인 승인 테이블 필터 예](assets/approvals-ive-submitted-filter.png)
 1. 화면 오른쪽 상단에서 **완료**를 클릭합니다.
 +++
-
-
-
-
-
-
