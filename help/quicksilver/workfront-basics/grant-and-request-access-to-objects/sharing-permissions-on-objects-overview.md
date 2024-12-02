@@ -6,9 +6,9 @@ description: 만든 개체 또는 사용자와 공유된 개체에 대한 권한
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -108,6 +108,7 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
     <ul> 
      <li><p>개체 보기</p></li> 
      <li><p>오브젝트에 문서 추가</p></li> 
+     <li><p>오브젝트에 문제 추가(작업 또는 프로젝트인 경우)</p></li> 
      <li><p>객체에 대한 재무 정보 보기</p></li> 
      <li> <p>개체 공유<br></p> <p>객체를 공유할 때 다른 사용자에게 상위 레벨이 아니라 해당 객체에 대해서만 가지고 있는 동일한 권한 레벨을 부여할 수 있습니다.</p> </li> 
     </ul> </td> 
@@ -118,7 +119,6 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
     <ul> 
      <li>모든 작업이 보기 권한에 포함되어 있습니다.</li> 
      <li>여기에 경비 추가</li> 
-     <li>문제 추가(작업 또는 프로젝트인 경우)</li> 
      <li>작업 추가(프로젝트인 경우)</li> 
      <li>사용자 정의 Forms 편집</li> 
      <li>오브젝트에 시간 기록</li> 
