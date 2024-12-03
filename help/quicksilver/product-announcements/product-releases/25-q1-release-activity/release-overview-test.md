@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
+source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1388'
 ht-degree: 3%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 3%
 
 ### 관리자 개선 사항
 
-<table style="table-layout:auto">
+<table>
 <col style="width: 50%;" />
 <tbody>
     <tr>
@@ -243,6 +243,53 @@ ht-degree: 3%
 </tbody>
 </table>
 
+### 문서 관리 개선 사항
+
+
+<table>
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">기능</span></p>
+        </td>
+        <td>미리보기</td>
+        <td>빠른 릴리스</td>
+        <td>분기별</td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            단일 할당 작업에 프로젝트 또는 사용자 일정을 사용하는 환경 설정</a></p>
+            <p>이제 시스템 또는 그룹 관리자로서, 작업에 한 명의 사용자를 할당하고 프로젝트와 사용자를 모두 예약과 연결할 때 Workfront이 프로젝트의 일정을 계산할지 또는 사용자의 일정을 사용할지 여부를 나타내는 새로운 환경 설정이 제공됩니다.</p>
+        </td>
+        <td><p>2024년 11월 16일</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td>2024년 12월</td>
+        <td>25.1</td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            비즈니스 규칙이 이제 하이퍼링크를 지원합니다.</a></p>
+            <p>이제 비즈니스 규칙의 사용자 지정 오류 메시지에 하이퍼링크를 포함하여 규칙의 제한 사항 내에서 작업을 수정하는 방법을 사용자에게 안내할 수 있습니다. 정적 URL은 설명서 또는 사용자에게 유용한 다른 페이지에 연결할 수 있습니다.</p>
+        </td>
+        <td>11월 14일 </td>
+        <td><p>11월 14일</p> <p>[!BADGE 서비스 중단 ]{type=Negative}</p></td>
+        <td><p>11월 14일</p> <p>[!BADGE 서비스 중단 ]{type=Negative}</p></td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            사용자 정의 필드에 "이동" 아이콘이 추가됨</a></p>
+            <p>사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 "이동" 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.</p>
+        </td>
+        <td>10월 29일</td>
+          <td><p>2024년 12월</p><p> [!BADGE In Production for Fast Release ]{type=Positive}</p></td>
+        <td>25.1<p> [!BADGE In production]{type=Positive}</p></td>
+    </tr>
+</tbody>
+</table>
+
 <!--
 ### Functionality soon to be removed from Workfront
 
@@ -253,6 +300,9 @@ The following functionality is soon to be removed from Workfront:
 
 * [Adobe Workfront Fusion 릴리스 활동](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 * [Adobe Workfront 계획 2025년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+
+릴리스에는 현재 다음에 대한 업데이트가 없습니다.
+
 * 시나리오 플래너
 * 교정쇄
 * 목표
