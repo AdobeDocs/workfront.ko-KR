@@ -7,9 +7,9 @@ description: 리소스 플래너의 프로젝트 및 역할 보기에서 시간,
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '3086'
 ht-degree: 0%
 
 ---
@@ -217,12 +217,6 @@ ht-degree: 0%
 
 예산 시간을 사용하여 작업할 때 다음 사항을 고려하십시오.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Duplicated below ??)
-</MadCap:conditionalText>
--->
-
 * 프로젝트에 대한 리소스 관리 및 재무 데이터에 대한 편집 액세스 권한 및 재무 관리 권한이 있는 경우에만 리소스의 예산을 책정할 수 있습니다.
 
   리소스 예산 책정에 필요한 액세스에 대한 자세한 내용은 문서 [Adobe Workfront의 리소스 예산 책정에 필요한 액세스](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)를 참조하십시오.
@@ -232,15 +226,23 @@ ht-degree: 0%
   프로젝트 및 역할 옵션에 대한 자세한 내용은 이 문서의 [리소스 플래너의 프로젝트 및 역할 보기에 있는 시간, FTE 및 비용 정보 개요](#Budget) 섹션을 참조하십시오.
 
 * 시간, FTE 또는 비용을 책정할 수 있는 최소 기간은 1주일입니다. 하루 동안 시간, FTE 또는 비용을 책정할 수 없습니다.
-* 예산 시간은 할당된 각 리소스에 대해 작업 기간 내의 각 일자에 균등하게 분배됩니다. 작업 기간은 작업 계획 시작 및 완료 일자를 기준으로 하며 해당 기간 내의 모든 달력일을 포함합니다.\
-  Workfront은 사용자 또는 프로젝트에 예산 시간을 분배할 때 사용자 또는 프로젝트의 일정을 고려합니다. 이 경우 예산 시간은 주말을 제외한 작업 기간 내에서 휴무와 일정 예외를 포함하여 각 날에 균등하게 분배됩니다.\
+* 예산 시간은 할당된 각 리소스에 대해 작업 기간 내의 각 일자에 균등하게 분배됩니다. 작업 기간은 작업 계획 시작 및 완료 일자를 기준으로 하며 해당 기간 내의 모든 달력일을 포함합니다.
+
+  Workfront은 사용자 또는 프로젝트에 예산 시간을 분배할 때 사용자 또는 프로젝트의 일정을 고려합니다. 이 경우 예산 시간은 주말을 제외한 작업 기간 내에서 휴무와 일정 예외를 포함하여 각 날에 균등하게 분배됩니다.
+
   예를 들어 리소스 플래너를 주별로 표시하고 여러 주에 걸친 작업이 있는 경우, 주당 예산 시간 수는 해당 주 내의 일 수가 작업 기간에 속하는지에 따라 달라집니다. 주말의 경우 이 분포에서 제외됩니다. 월별 또는 분기별로 리소스 플래너를 표시할 때와 작업이 여러 달 또는 분기별로 진행될 때 비슷하게 작동합니다.
 
-* 새 보고서에 대한 보고서 객체로 예산 시간을 선택하여 예산 시간에 대해 보고할 수 있습니다.\
-  Workfront에서 보고할 수 있는 개체에 대한 자세한 내용은 문서 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 &quot;개체 보고&quot; 섹션을 참조하십시오.\
+* 새 보고서에 대한 보고서 객체로 예산 시간을 선택하여 예산 시간에 대해 보고할 수 있습니다.
+
+  Workfront에서 보고할 수 있는 개체에 대한 자세한 내용은 문서 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 &quot;개체 보고&quot; 섹션을 참조하십시오.
+
   예산 시간 보고서를 작성하는 방법에 대한 자세한 내용은 문서 [보고서: 예산 시간](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)을 참조하세요.
 
 * 나중에 비활성화된 사용자에 대해 이전에 예산이 책정된 시간이 표시되지 않습니다.
+
+  프로젝트의 예산 인건비에는 리소스 플래너에서 비활성화된 사용자의 예산 시간이 여전히 포함됩니다.
+
+  예를 들어, 두 명의 사용자에게 역할이 할당되고 예산 시간이 추가된 경우(사용자당 20시간, 총 40시간) 역할에 대한 합계가 수동으로 설정되는 경우 리소스 플래너에 있는 사용자 중 하나를 비활성화하면 해당 시간이 더 이상 계산에서 고려되지 않습니다(합계를 20시간으로 감소). 하지만 프로젝트 예산 편성은 역할에 대해 수동으로 설정된 합계를 올바르게 유지하므로 비활성화된 사용자의 시간은 여전히 계산에 포함됩니다(40시간으로 남).
 
 ### VAR(분산) 열 {#the-var-variance-column}
 
