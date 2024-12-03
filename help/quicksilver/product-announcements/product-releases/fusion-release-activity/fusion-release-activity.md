@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 729722a78f984a4c96a1b218a85b7c7e9d3e6605
+source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ Adobe Workfront Fusion은 앱과 웹 서비스를 원활하게 연결하여 동�
 Workfront Fusion 사용 방법에 대한 자세한 내용은 [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md)을 참조하십시오.
 
 ## 2024년 Fusion 릴리스
+
+### 2024년 12월
+
+* [Workfront Fusion 릴리스 활동: 2024년 12월 2일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
 
 ### 2024년 11월
 
