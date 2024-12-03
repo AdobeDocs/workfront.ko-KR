@@ -3,17 +3,19 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: 오브젝트에 대한 액세스 요청
 description: Adobe Workfront에서 개체에 대한 가시성은 해당 개체 유형에 대한 액세스 권한과 개별 개체에 대한 사용 권한에 따라 다릅니다.
-author: Alina
+author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
 
 # 오브젝트에 대한 액세스 요청
+
+{{preview-fast-release-general}}
 
 Adobe Workfront에서 개체에 대한 가시성은 해당 개체 유형에 대한 액세스 권한과 개별 개체에 대한 사용 권한에 따라 다릅니다.
 
@@ -92,14 +94,18 @@ Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를
 1. **액세스 요청**&#x200B;을 클릭합니다.\
    **액세스 요청** 대화 상자가 표시됩니다.
 
-1. (조건부) 추가 액세스 권한을 부여할 수 있는 적절한 액세스 권한이 두 명 이상의 사용자에게 있는 경우 사용자 이름 옆에 드롭다운 화살표가 표시됩니다.
-1. 드롭다운 목록에서 액세스 요청을 수신할 사용자를 선택합니다.\
+1. (조건부) 추가 액세스 권한을 부여할 수 있는 적절한 액세스 권한이 두 명 이상의 사용자에게 있는 경우 사용자 이름 옆에 드롭다운 화살표가 표시됩니다. 드롭다운 목록에서 액세스 요청을 수신할 사용자를 선택합니다.
+
    10명의 사용자만 드롭다운 목록에 표시됩니다. 목록은 알파벳순으로 정렬됩니다.\
    이 드롭다운 메뉴에 나열된 사용자 순서에 대한 자세한 내용은 [액세스 권한 요청 및 액세스 권한 추가 요청 드롭다운 메뉴의 계층 구조](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)를 참조하십시오.
 
 1. 드롭다운 목록에서 요청하는 액세스 유형을 선택합니다.
 1. (선택 사항) **P.S.** 필드에 추가 액세스 권한이 필요한 이유에 대해 사용자에게 메모를 지정합니다.
 
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+   ![액세스 요청 대화 상자](assets/request-access-to-project.png)
+
+   프로덕션 환경의 샘플 이미지:
    ![](assets/request-access-dialog-350x314.png)
 
 객체에 대한 액세스 수준 권한이 없고 링크에서 해당 객체에 액세스하려고 하면 Workfront 관리자에게 문의하라는 화면이 표시됩니다.
@@ -115,7 +121,7 @@ Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를
 
 1. 프로젝트 이름의 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **추가 액세스 요청**&#x200B;을 클릭합니다.
 
-   ![](assets/request-access-in-project-350x201.png)
+   ![추가 액세스 요청](assets/more-menu-request-more-access.png)
 
 1. (조건부) 추가 액세스 권한을 부여할 수 있는 적절한 액세스 권한이 두 명 이상의 사용자에게 있는 경우 사용자 이름 옆에 드롭다운 화살표가 표시됩니다.
 1. 드롭다운 목록에서 액세스 요청을 수신할 사용자를 선택합니다.\
@@ -124,7 +130,12 @@ Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를
 
 1. 드롭다운 목록에서 요청하는 액세스 수준을 선택합니다.
 1. (선택 사항) **P.S.** 필드에 추가 액세스가 필요한 이유에 대한 메모를 지정합니다.
-1. **액세스 요청**&#x200B;을 클릭합니다.\
+1. **액세스 요청**&#x200B;을 클릭합니다.
+
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+   ![액세스 요청 대화 상자](assets/request-access-to-project.png)
+
+   프로덕션 환경의 샘플 이미지:
    ![](assets/request-access-dialog-350x314.png)
 
 ## &quot;액세스 요청&quot; 및 &quot;추가 액세스 요청&quot; 드롭다운 메뉴의 계층 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
