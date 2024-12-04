@@ -2,15 +2,15 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: '자산 및 문서 승인 설정 및 관리: 문서 인덱스'
+title: '자산 및 문서 승인 설정 및 관리: 문서 색인'
 description: 이 섹션에는 Workfront에서의 에셋 및 문서 승인 관리에 대한 문서가 포함되어 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: ddce65dd04752ee68f8bf249e8aa07082a02d3a6
+source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,4 @@ ht-degree: 0%
 * [자산 및 문서에 대한 승인 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 * [새 문서 승인 및 증명 함께 사용](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [새 문서 버전 업로드 및 승인 요청](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+* [검토 및 승인을 위한 보고서 대시보드 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)

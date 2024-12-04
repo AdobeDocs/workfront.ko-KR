@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 6abcd9afbf57162ff1c2dc362e7979fab6d1d997
+source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
 workflow-type: tm+mt
 source-wordcount: '14673'
 ht-degree: 2%
@@ -857,7 +857,7 @@ ht-degree: 2%
       * [이메일 헤더 파일 저장](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [공유에 두 개 이상의 권한이 표시됨](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [인증되지 않은 이메일이 승인되지 않음](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-      * [Workfront: ZScaler 설정으로 인해 성능이 저하될 수 있습니다.](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
+      * [Workfront: ZScaler 설정으로 인해 성능이 저하될 수 있음](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [사용자 자격 증명과 SAML 자격 증명 비교](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [액세스 수준의 자동 업그레이드 옵션 업데이트](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront 기본 사항 {#basics}
@@ -1846,7 +1846,6 @@ ht-degree: 2%
       * [자산 및 문서 검토 및 승인: 문서 색인](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [문서 승인 개요](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [문서 의사 결정 상태 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [검토 및 승인을 위한 보고서 대시보드 만들기](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * 자산 및 문서 승인 설정 및 관리 {#manage-asset-review-and-approval}
          * [자산 및 문서 승인 설정 및 관리: 문서 색인](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [문서 검토 또는 승인 요청 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -1855,6 +1854,7 @@ ht-degree: 2%
          * [자산 및 문서에 대한 승인 템플릿 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [새 문서 승인 및 증명 함께 사용](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [새 문서 버전 업로드 및 승인 요청](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+         * [검토 및 승인을 위한 보고서 대시보드 만들기](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * 자산 및 문서 {#review-and-approve-documents} 검토 및 승인
          * [문서 검토 및 승인: 문서 색인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
