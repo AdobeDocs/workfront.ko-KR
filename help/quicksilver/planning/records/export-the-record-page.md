@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
    * .docx Word
    * .pdf
 
-* 레코드 페이지의 세부 정보 탭을 내보낼 수 있습니다.
+* 레코드 페이지 또는 미리 보기 영역의 세부 정보 탭만 내보낼 수 있습니다.
 
 * 내보낸 파일은 축소판 및 표지 이미지를 포함하여 레코드 페이지의 레이아웃을 유지합니다.
 

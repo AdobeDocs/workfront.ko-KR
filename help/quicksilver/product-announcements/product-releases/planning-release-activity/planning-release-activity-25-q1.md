@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 
-## 연결된 보기 페이지를 레코드의 페이지에 추가하여 테이블 보기에 연결된 레코드를 표시합니다.
+## 연결 보기 페이지를 레코드의 페이지에 추가하여 테이블 보기에 연결된 레코드를 표시합니다.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: 요청 승인
 description: 사용자가 Adobe Workfront Planning의 승인과 연결된 요청 양식에 요청을 제출하면 승인자는 보류 중인 승인에 대한 알림 및 이메일을 수신합니다. Workfront Planning에서 개체를 만들기 전에 요청을 승인해야 합니다.
 hide: true
 hidefromTOC: true
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ recommendations: noDisplay, noCatalog
 * **승인됨**: 승인자가 요청 개체를 승인하면 개별 상태가 다음과 같이 됩니다.
 * **승인됨**&#x200B;이지만 전체 요청 개체 상태는 모든 승인자가 결정을 내릴 때까지 **검토 중**&#x200B;으로 유지됩니다.
 * **완료**: 모든 승인자가 요청 개체를 승인하면 상태가 **완료**(으)로 변경되거나 요청에 승인이 필요하지 않은 경우.
-* **거부됨**: 승인자가 요청 개체를 거부하면 상태는 **거부됨**&#x200B;이 됩니다.
+* **거부됨**: 승인자가 요청 개체를 거부하면 상태는 **거부됨**&#x200B;이 됩니다. 레코드가 만들어지지 않으며 레코드를 만들려면 새 요청을 제출해야 합니다.
 
 ## 액세스 요구 사항
 
