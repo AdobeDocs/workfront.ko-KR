@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: be5c1dcba32efd95ae484c015b66977398f4b762
+source-git-commit: a1c94dd17f96fbd1fb397fd927403317335cefa0
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2181'
 ht-degree: 3%
 
 ---
@@ -60,10 +60,10 @@ ht-degree: 3%
 * 시간
 * 문제
 * 참고
-* Portfolio
+* 포트폴리오
 * 프로그램
 * 프로젝트
-* 기록
+* 레코드
 * 레코드 유형
 * 보고서
 * 작업
@@ -142,7 +142,7 @@ ht-degree: 3%
         <td scope="col">메모</td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>Portfolio</p></td> 
+        <td scope="col"><p>포트폴리오</p></td> 
         <td scope="col"><p>포트</p></td> 
        </tr> 
        <tr> 
@@ -154,7 +154,7 @@ ht-degree: 3%
         <td scope="col"><p>프로젝트</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>기록</p></td> 
+        <td scope="col"><p>레코드</p></td> 
         <td scope="col"><p>기록</p></td> 
        </tr> 
        <tr> 
@@ -649,6 +649,63 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
         }
     ]
 }
+```
+
+### 중첩된 필터 사용
+
+이벤트 구독은 `fieldValue.fields` 키워드를 사용하여 중첩된 이벤트 필드에 대한 필터링을 지원합니다.
+
+```
+{
+    "objCode": "RECORD",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedRecords",
+    "filters": [
+        {
+            "fieldName": "data",
+            "fieldValue": {
+                "fields": {
+                    "customerID": "customer1234"
+                }
+            },
+            "comparison": "eq",
+            "state": "newState"
+        },
+        {
+            "fieldName": "options",
+            "fieldValue": {
+                "objects": {
+                    "projectID": "project1234"
+                }
+            },
+            "comparison": "contains",
+            "state": "newState"
+        },
+    ],
+    "filterConnector": 'AND'
+}
+```
+
+이중으로 중첩된 필터도 처리할 수 있습니다.
+
+```
+"filters": [
+    {
+        "fieldName": "data",
+        "fieldValue": {
+            "fields": {
+                "children": {
+                    "customerId":"customer1234",
+                    "name":"New Campaign"
+                }
+            }
+        },
+        "comparison": "eq",
+        "state": "newState"
+    }
+],
+"filterConnector": 'AND'
 ```
 
 ### 커넥터 필드 사용
