@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: e049ab7d27cf5eced12a43c3a2c08887a7c206ad
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6524'
 ht-degree: 5%
 
 ---
@@ -750,11 +750,11 @@ The Workfront Mobile app -->
 
    **저장 후 닫기**&#x200B;를 클릭합니다.
 
-#### 문서 영역에서 사용자 정의 양식에 비디오 위젯 추가{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### 문서 영역에서 사용자 정의 양식에 이미지 또는 비디오 추가{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
->이러한 방식으로 사용자 정의 양식에 비디오를 추가하면 사용자가 오브젝트의 양식에 액세스할 때 사용자 정의 양식에 대해 설정된 권한만 비디오에 적용되고 문서 영역의 비디오에 대해 설정된 권한은 적용되지 않습니다.
+>이러한 방식으로 사용자 정의 양식에 비디오를 추가하면 사용자가 오브젝트의 양식에 액세스할 때 문서 영역에 설정된 권한이 비디오에 적용됩니다.
 
 1. [웹 사이트 또는 기타 웹 콘텐츠에 대한 대화형 증명 만들기](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)에 설명된 대로 문서 영역의 비디오로 이동하여 증명을 생성합니다.
 1. 증명을 엽니다.
