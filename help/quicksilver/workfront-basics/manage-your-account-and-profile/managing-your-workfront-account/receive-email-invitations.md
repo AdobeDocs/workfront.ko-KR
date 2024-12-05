@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 전자 메일 초대를 받고  [!DNL Adobe Workfront]의 암호를 만드세요.
 description: ' [!DNL Workfront] 관리자가 새 사용자를 만들 때 새 사용자는 몇 가지 요인에 따라 초대 이메일을 받을 수 있습니다.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%

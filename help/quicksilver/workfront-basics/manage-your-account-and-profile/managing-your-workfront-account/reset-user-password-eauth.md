@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 향상된 인증을 통해 사용자 암호 재설정
 description: ' [!DNL Workfront] 환경에 대해 향상된 인증(eAuth)을 사용하도록 설정하면  [!DNL Workfront] 관리자가 다른 사용자의 로그인 자격 증명을 다시 설정할 수 없습니다. 이는 eAuth가 없는  [!DNL Workfront] 환경이나 SSO(Single Sign-On)가 활성화된 환경과 다릅니다.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%

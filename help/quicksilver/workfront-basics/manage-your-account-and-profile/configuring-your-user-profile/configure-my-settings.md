@@ -3,10 +3,10 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: 내 설정 구성
 description: ' [!DNL Adobe Workfront] 프로필에 사용자 자신에 대한 정보(예: 이름, 전자 메일 주소, 주소, 전화 번호, 직함 등)가 포함되어 있습니다.  [!DNL Workfront]  및 회사의 다른 사용자와의 상호 작용에 대한 정보도 포함되어 있습니다.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '3303'
 ht-degree: 1%

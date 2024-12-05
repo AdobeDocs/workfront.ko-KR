@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: 사용자 정의 섹션 만들기
 description: ' [!DNL Workfront] 웹 응용 프로그램에 표시되는 정보는 기본적으로 왼쪽 패널의 섹션에 표시되는 경우가 많습니다. 각 섹션에는  [!DNL Workfront] 영역 또는 개체에 대한 다른 정보가 포함되어 있습니다.'
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%

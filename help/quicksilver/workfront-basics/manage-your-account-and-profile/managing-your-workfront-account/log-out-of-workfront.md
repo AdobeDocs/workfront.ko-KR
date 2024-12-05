@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: ' [!DNL Adobe Workfront]에서 로그아웃'
 description: 보안상의 이유로  [!DNL Adobe Workfront] 에서 정기적으로 로그아웃하는 것이 중요합니다. 기본적으로  [!DNL Workfront] 은(는) 8시간 동안 활동이 없으면 자동으로 사용자를 로그아웃시킵니다.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
