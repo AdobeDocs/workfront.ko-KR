@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
 workflow-type: tm+mt
-source-wordcount: '4419'
+source-wordcount: '4383'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,6 @@ Workfront 스키마에 익숙하면 통합 목적으로 Workfront에서 데이�
 일관된 Workfront 온디맨드 시스템 성능을 보장하기 위해 Workfront API는 동시 API 스레드를 제한합니다. 이 가드레일은 API 호출 남용으로 인해 발생하는 시스템 문제를 방지합니다. 샌드박스 환경에는 동일한 동시 API 스레드 제한이 있으므로 고객 및 파트너가 프로덕션에 코드를 릴리스하기 전에 API 호출을 정확하게 테스트할 수 있습니다.
 
 프로덕션, 미리보기 및 테스트 드라이브 환경의 경우 최종 사용자 요청은 Workfront CDN(Akamai)을 통해 라우팅되므로 최대 URI 길이가 8892바이트입니다. 이 제한은 CDN을 통해 라우팅되는 URI에만 적용됩니다.
-
->[!NOTE]
->
->샌드박스 환경은 CDN을 통해 라우팅되지 않으므로 이 제한은 샌드박스 환경에 적용할 수 없습니다.
 
 ### 면책조항
 
@@ -110,14 +106,6 @@ API는 각 요청을 인증하여 클라이언트가 요청된 개체를 보거�
 ```
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
-```
-
-#### 매개 변수 인증 요청
-
-다음 예와 같이 sessionID라는 요청 매개 변수를 전달하여 인증할 수 있습니다. 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 ```
 
 #### 쿠키 기반 인증
