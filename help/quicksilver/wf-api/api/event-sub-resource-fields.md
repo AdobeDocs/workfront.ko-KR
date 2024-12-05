@@ -7,16 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 10%
+source-wordcount: '757'
+ht-degree: 9%
 
 ---
 
 # 이벤트 구독 리소스 필드
 
 이벤트 구독 리소스 필드는 구성된 끝점에 아웃바운드 메시지를 전송하는 이벤트 구독을 발생시키는 이벤트에 대한 트리거를 나타냅니다. 리소스 필드를 편집하면 UPDATE 이벤트가 트리거됩니다.
+
+데이터는 중첩 필터링을 사용하여 필터링할 수 있습니다. 자세한 내용은 문서 이벤트 구독 API에서 [중첩된 필터 사용](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters)을 참조하십시오.
 
 다음 표에는 이벤트 구독 리소스에 사용할 수 있는 필드가 나열되어 있습니다.
 
@@ -1400,7 +1402,7 @@ ht-degree: 10%
    <td>userID</td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>포트폴리오</td> 
    <td>포트</td> 
    <td>접근자 ID</td> 
   </tr> 
@@ -1840,7 +1842,7 @@ ht-degree: 10%
    <td><span>requesterID</span> </td> 
   </tr> 
   <tr> 
-   <td>기록</td> 
+   <td>레코드</td> 
    <td>기록</td> 
    <td>createdAt</td> 
   </tr> 
