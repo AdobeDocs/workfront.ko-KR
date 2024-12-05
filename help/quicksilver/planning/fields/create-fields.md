@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
-source-wordcount: '4287'
+source-wordcount: '4370'
 ht-degree: 1%
 
 ---
@@ -210,7 +210,12 @@ OLD:
    열 머리글 위로 마우스를 가져간 후 필드 이름 뒤에 있는 아래쪽 화살표를 클릭한 다음 **왼쪽 삽입** 또는 **오른쪽 삽입**&#x200B;을 클릭하여 새 필드를 추가합니다.
 1. **새 필드** 탭에서 **필드 형식** 상자에서 필드 형식을 검색하거나 다음 필드 형식 중에서 선택하십시오.
 
-   **새 필드** 탭에서 **필드 형식** 상자 <!--using any related keyword-->에서 필드 형식을 검색하거나 아래 나열된 필드 형식에서 선택하십시오.
+   **새 필드** 탭에서 관련 키워드를 사용하여 **필드 형식** 상자에서 필드 형식을 검색하거나 아래에 나열된 필드 형식 중에서 선택하십시오.
+
+   >[!TIP]
+   >
+   >    &quot;Budget&quot;을 입력하면 숫자 및 통화의 필드 유형이 간단한 목록으로 표시됩니다.
+
 
 
    * [한 줄 텍스트](#single-line-text)
@@ -299,15 +304,13 @@ OLD:
 1. (선택 사항) 선택 사항을 제거하려면 그 오른쪽에 있는 **x** 아이콘을 클릭합니다.
 1. 선택 항목의 왼쪽에 있는 색상 견본을 클릭하여 색상 선택기를 확장하고 각 옵션의 색상을 사용자 지정합니다.
 
-   <!--
-    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+1. <span class="preview">미리 정의된 색을 선택하려면 **견본**&#x200B;을 클릭하세요</span>
 
-        <span class="preview">Or</span>
+   <span class="preview">또는</span>
 
-        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-        </span>
-    1. <span class="preview:>Click outside the color box to close it. </span>     
-    -->
+   <span class="preview">색 선택기나 16진수 코드를 사용하여 사용자 지정 색을 선택하려면 **사용자 지정**을 클릭하세요.
+   </span>
+1. 색상 상자 외부를 클릭하여 닫습니다.
 1. Click **Create**.
 
    새 다중 선택 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
@@ -330,16 +333,13 @@ OLD:
 1. (선택 사항) 각 선택 사항을 원하는 순서로 수동으로 끌어다 놓거나, 선택 사항을 알파벳 순서로 자동으로 나열하려면 **선택 사항 정렬 A-Z** 옵션을 선택합니다. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (선택 사항) 선택 사항을 제거하려면 그 오른쪽에 있는 **x** 아이콘을 클릭합니다.
 1. 선택 항목의 왼쪽에 있는 색상 견본을 클릭하여 색상 선택기를 확장하고 각 옵션의 색상을 사용자 지정합니다.
+1. <span class="preview">미리 정의된 색을 선택하려면 **견본**&#x200B;을 클릭하세요</span>
 
-   <!--
-        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+   <span class="preview">또는</span>
 
-            <span class="preview">Or</span>
-
-            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-            </span>
-        1. <span class="preview:>Click outside the color box to close it. </span>     
-        -->
+   <span class="preview">색 선택기나 16진수 코드를 사용하여 사용자 지정 색을 선택하려면 **사용자 지정**을 클릭하세요.
+   </span>
+1. 색상 상자 외부를 클릭하여 닫습니다.
 1. Click **Create**.
 
    새 단일 선택 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.

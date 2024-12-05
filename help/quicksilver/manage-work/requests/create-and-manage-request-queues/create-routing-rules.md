@@ -2,15 +2,15 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 라우팅 규칙 만들기
-description: 라우팅 규칙은 Adobe Workfront이 요청 대기열에 제출될 때 발생하는 문제를 제어합니다. 요청 대기열 만들기에 대한 자세한 내용은 요청 대기열 만들기를 참조하십시오.
-author: Lisa
+description: 라우팅 규칙은 Adobe Workfront이 요청 대기열에 제출될 때 발생하는 문제를 제어합니다.
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 8ec279ece400c10a37e67664b77b1e0df6639724
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -27,65 +27,32 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-<!--drafted - replace the table at P&P:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader"><p>Adobe Workfront 플랜</p></td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>
-    <p>새로운 기능: 표준</p>
-    <p>또는</p>
-    <p>현재: 플랜</p></td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td> <p>새 라이선스: Standard </p> 
+   또는
+   <p>현재 라이선스: 플랜 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td>
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>프로젝트에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p> 프로젝트에 대한 권한 관리</p> </td>
+   <td> <p> 프로젝트에 대한 권한 관리</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -93,7 +60,9 @@ ht-degree: 1%
 
 1. 요청에 대한 라우팅 규칙을 추가할 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **라우팅 규칙**&#x200B;을 클릭합니다. **자세히 표시**&#x200B;를 클릭한 다음 **라우팅 규칙**&#x200B;을 클릭해야 할 수 있습니다.
-1. 새 규칙을 추가하려면 **새 라우팅 규칙**&#x200B;을 클릭하세요.
+1. 새 규칙을 추가하려면 **새 라우팅 규칙**&#x200B;을 클릭하세요. **새 라우팅 규칙** 상자가 열립니다.
+
+   ![새 라우팅 규칙 상자](assets/new-routing-rule-box.png)
 1. 공정순서 규칙에 대해 다음 정보를 입력합니다.
 
    <table style="table-layout:auto"> 
@@ -136,8 +105,6 @@ ht-degree: 1%
    >*사용자, 작업 역할 또는 팀이 라우팅 규칙과 연결된 후 비활성화되면 요청이 계속 라우팅됩니다. 모든 공정순서 규칙의 재고를 정기적으로 가져오고 비활성화된 지정을 활성 지정으로 대체해야 합니다.
 
    문제를 프로젝트로 라우팅하면 문제에 대한 권한이 있는 사용자가 해당 프로젝트에 대해 설정된 권한을 받습니다. 프로젝트에 대한 권한 설정에 대한 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)를 참조하십시오.
-
-   ![새 라우팅 규칙 상자](assets/new-routing-rule-box.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 
