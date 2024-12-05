@@ -8,10 +8,10 @@ description: 조직의 시나리오 생성 또는 활성화와 같은 활동 로
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 1%
+source-wordcount: '528'
+ht-degree: 0%
 
 ---
 
@@ -47,11 +47,14 @@ ht-degree: 1%
    <p>레거시: 모두 </p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>활동 로그를 사용하려면 Fusion 관리자여야 합니다.</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>새 항목: [!DNL Workfront Fusion]이(가) Ultimate Workfront 플랜에 포함되어 있습니다.</p> <p>또는</p>
-   <p>현재: 사용할 수 없음</p>
+   <p>이 기능은 [!DNL Workfront Fusion]을(를) 포함하는 Ultimate Workfront 플랜이 있는 조직에서만 사용할 수 있습니다. 추가 제품 구매는 필요하지 않습니다.</p>
    </td> 
   </tr>
  </tbody> 
