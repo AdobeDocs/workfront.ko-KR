@@ -5,13 +5,13 @@ description: 우선 순위 작업 목록에서 프로젝트 및 작업 세부 �
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 8384c2ce2e83aa07c504c56193b19a557226d15a
+exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
+source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
-
 
 # 우선 순위 작업 목록에서 프로젝트 및 작업 세부 정보 보기
 
@@ -67,8 +67,9 @@ ht-degree: 1%
    * 프로젝트에 대한 댓글 보기 및 추가
    * 로그 시간
    * 파일 추가
+   * <span class="preview">프로젝트로 바로 이동</span>
 
-   ![프로젝트 세부 정보](assets/project-details.png)
+<!-- ![project details](assets/project-details.png)-->
 
 ## 작업 세부 정보 보기
 
@@ -83,4 +84,4 @@ ht-degree: 1%
    * 파일 추가
    * 빠른 링크 추가
 
-   ![작업 세부 정보](assets/task-details.png)
+   <!-- ![task details](assets/task-details.png)-->
