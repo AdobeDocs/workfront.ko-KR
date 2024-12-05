@@ -5,14 +5,16 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2734'
 ht-degree: 4%
 
 ---
 
 # 업데이트 영역에 대한 보고서
+
+<!-- Audited: 11/2024 -->
 
 저널 게시물 보고서는 이전에 Adobe Workfront API를 통해서만 사용할 수 있었던 프로젝트, 작업, 문제 및 기타 개체의 업데이트 영역에서 시스템 업데이트를 표시합니다. 특정 사용 사례를 위한 고급 보고서이지만, 보다 간편한 형식을 사용하면 Workfront 내의 프로젝트 활동 및 시스템 업데이트에 대해 보다 쉽게 보고할 수 있습니다.
 
@@ -45,7 +47,16 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 표준 </p><p>또는 </p><p>현재: 플랜 </p> </td> 
+      <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>플랜</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -58,7 +69,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -439,7 +450,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 
    * **프로젝트 ID** > **같음** > **`<project>`**
 
-     ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![](assets/qs-custom-form-changes-filter-350x92.png)
 
    필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
@@ -629,7 +640,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
    * **필드 이름** > **같음** > **소유자 ID**
    * **프로젝트 ID** > **같음** > **`<project name>`**
 
-     ![](assets/qs-owner-changes-filter-350x94.png)
+   ![](assets/qs-owner-changes-filter-350x94.png)
 
    필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Experience Manager Assets 및 Assets Essentials과 Adobe Workfront 통합을 사
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 11월 11일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
+>미리보기 릴리스: 2024년 11월 11일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월 12일), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
 
 이제 여러 섹션이 있는 사용자 정의 양식을 오브젝트에 첨부할 때 양식의 맨 위에 있는 기본 섹션을 제외한 모든 섹션을 축소하고 확장할 수 있습니다. 관리자는 양식 디자이너에서 양식을 미리 볼 때도 이 기능을 볼 수 있습니다.
 

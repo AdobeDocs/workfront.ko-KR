@@ -6,9 +6,9 @@ description: 필터와 프롬프트는 모두 보고서에 표시하는 정보�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -172,3 +172,5 @@ ht-degree: 0%
 * 메시지가 표시된 보고서의 전달을 예약할 때 이메일 첨부 파일의 보고서에는 메시지가 표시되지 않은 보고서 데이터가 포함됩니다. 사용자가 보고서에 액세스하기 위해 이메일의 링크를 클릭하면 먼저 로그인해야 보고서를 보고 프롬프트를 직접 실행할 수 있습니다.
 
   배달된 보고서 예약에 대한 자세한 내용은 [자동 보고서 배달 예약](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)을 참조하세요.
+
+* 날짜 기반 프롬프트로 보고서를 실행할 경우 보고서 결과는 브라우저의 시간대 설정을 기반으로 필터링됩니다. 이렇게 하면 한 달이 시작되거나 끝나는 날짜에 대해 묻는 보고서에 표시되는 날짜 범위가 약간 일치하지 않을 수 있습니다. 브라우저의 시간대 설정이 특정 위치에 연결되어 있는 경우 해당 위치의 현지 시간(예: 일광 절약 시간제 준수)의 변형도 표시된 보고서에 표시되는 날짜에 팩터링됩니다. 이렇게 하면 동일한 시간대에 있지만 다른 위치 설정을 사용하는 사용자 간에 날짜 범위가 약간 일치하지 않을 수 있습니다.

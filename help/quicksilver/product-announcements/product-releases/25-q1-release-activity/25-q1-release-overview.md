@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
                 <li>미리보기 릴리스: 2024년 11월 21일</li>
-                <li>빠른 릴리스를 위한 프로덕션: 24.12 릴리스 포함(2024년 12월)</li>
+                <li>빠른 릴리스를 위한 프로덕션: 24.12 릴리스 포함(2024년 12월 12일)</li>
                 <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
             </ul>
         </td>
@@ -80,7 +80,7 @@ ht-degree: 0%
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
                 <li>미리보기 릴리스: 2024년 11월 21일</li>
-                <li>빠른 릴리스를 위한 프로덕션: 24.12 릴리스 포함(2024년 12월)</li>
+                <li>빠른 릴리스를 위한 프로덕션: 24.12 릴리스 포함(2024년 12월 12일)</li>
                 <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
             </ul>
         </td>
@@ -95,7 +95,7 @@ ht-degree: 0%
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
                 <li>미리보기 릴리스: 2024년 11월 21일</li>
-                <li>빠른 릴리스를 위한 프로덕션: 24.12 릴리스 포함(2024년 12월)</li>
+                <li>빠른 릴리스를 위한 프로덕션: 24.12 릴리스 포함(2024년 12월 12일)</li>
                 <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
             </ul>
         </td>
@@ -175,7 +175,7 @@ ht-degree: 0%
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
                 <li>미리보기 릴리스: 2024년 11월 21일</li>
-                <li>빠른 릴리스를 위한 프로덕션: 24.12 릴리스 포함(2024년 12월)</li>
+                <li>빠른 릴리스를 위한 프로덕션: 24.12 릴리스 포함(2024년 12월 12일)</li>
                 <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
             </ul>
         </td>
@@ -212,6 +212,21 @@ ht-degree: 0%
         </td>
         <td>
             <p><span class="bold">릴리스 날짜</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            우선 순위에서 프로젝트의 세부 정보 페이지로 이동합니다.</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>이제 우선 순위 작업 목록에서 Workfront의 프로젝트로 직접 이동할 수 있습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 12월 5일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
+            </ul>
         </td>
     </tr>
     <tr>
@@ -353,7 +368,7 @@ ht-degree: 0%
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
                 <li>미리보기 릴리스: 2024년 11월 11일</li>
-                <li>빠른 릴리스를 위한 프로덕션: 24.12 릴리스 포함(2024년 12월)</li>
+                <li>빠른 릴리스를 위한 프로덕션: 24.12 릴리스 포함(2024년 12월 12일)</li>
                 <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
             </ul>
         </td>

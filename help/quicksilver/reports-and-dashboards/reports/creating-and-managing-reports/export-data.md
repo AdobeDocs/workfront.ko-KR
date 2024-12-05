@@ -6,9 +6,9 @@ description: 다양한 목록, 보고서, 대시보드 및 검색에서 Adobe Wo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,14 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td>
-    <p>새로운 기능: 밝게 또는 높음</p>
-    <p>또는</p>
-    <p>현재: 검토 이상</p> </td> 
+    <p>신규:</p>
+      <ul>
+      <li>밝거나 높음</li>
+      </ul>
+    <p>현재:</p>
+      <ul>
+      <li>검토 이상</li>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -76,7 +81,7 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -301,7 +306,7 @@ PDF 파일로 내보낸 보고서에는 제목이 있습니다.
 * **PDF:** 타임스탬프가 각 페이지의 바닥글과 파일 이름에 표시됩니다.
 * **Excel:** 타임스탬프가 파일 이름에 표시됩니다.
 
-### 서식 {#formatting}
+### 서식 지정 {#formatting}
 
 프로젝트를 .pdf로 내보내면 하위 작업이 상위 작업에 들여쓰기로 표시됩니다. 내보낸 목록은 상위 작업을 축소하지 않습니다.
 

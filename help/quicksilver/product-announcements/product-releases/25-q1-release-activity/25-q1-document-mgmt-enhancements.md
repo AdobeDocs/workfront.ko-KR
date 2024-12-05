@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 11월 21일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
+>미리보기 릴리스: 2024년 11월 21일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월 12일), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
 
 이제 여러 문서를 한 번에 편집할 수 있습니다. 설명을 편집하고 사용자 정의 양식을 업데이트할 수 있습니다.
 
