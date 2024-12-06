@@ -7,9 +7,9 @@ description: Workfront Proof에서 생성된 이메일 알림은 공동 작업�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**&#x200B;을 클릭합니다.
+1. 오른쪽 상단의 프로필 사진을 클릭한 다음 **[!UICONTROL 개인 설정]**&#x200B;을 클릭합니다.
 
 1. **[!UICONTROL 증명 기본값]** 탭을 클릭합니다.
 1. 확장하려면 **[!UICONTROL 기본 전자 메일 알림 설정]**&#x200B;을 클릭하세요.
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 [!DNL Workfront Proof] 관리자인 경우 계정의 사용자에 대한 증명 기본값을 설정할 수 있습니다.
 
-1. **[!UICONTROL 설정]** > **[!UICONTROL 계정 설정]**&#x200B;을 클릭합니다.
+1. 화면 상단의 **[!UICONTROL 계정 설정]**&#x200B;을 클릭합니다.
 
 1. **[!UICONTROL 사용자]** 탭을 엽니다.
 1. 사용자 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 메뉴 ![자세히_button_small.png](assets/more-button-small.png)를 엽니다.

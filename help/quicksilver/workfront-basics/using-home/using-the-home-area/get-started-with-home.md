@@ -6,10 +6,10 @@ description: 홈은 작업을 관리하는 데 도움이 됩니다. 이 유연�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 1347911f2d0c03874c759f02b207e3fa93ca5bb4
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 3%
+source-wordcount: '1015'
+ht-degree: 4%
 
 ---
 
@@ -148,32 +148,6 @@ Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 
    사용자 정의 패널이 열립니다.
 
 1. **사용자 지정** 패널의 **배경** 섹션에서 홈 배경에 대해 선택할 색상을 클릭합니다. **없음**&#x200B;을 클릭하여 배경을 제거할 수도 있습니다.
-
-## 현재 홈 경험으로 되돌리기
-
-기존 홈 경험을 선호하는 경우 새 홈 경험을 전환할 수 있습니다.
-
-현재 홈 경험으로 돌아가려면
-
-1. 다음 중 하나를 수행하여 홈 페이지로 이동합니다.
-
-   * Home이 랜딩 페이지로 설정된 경우 화면 왼쪽 상단에 있는 **Adobe Workfront** 아이콘 ![Adobe Workfront 아이콘](assets/home-icon-30x29.png)을 클릭합니다.
-   * 화면 오른쪽 상단에 있는 **주 메뉴** 아이콘을 클릭하거나 왼쪽 상단에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
-
-1. 페이지의 오른쪽 아래 모서리에 있는 **현재 홈으로 돌아가기** 단추를 클릭합니다.
-
-   ![현재 홈으로 돌아가기 단추](assets/customize-button.png)
-
-   확인 창이 표시됩니다.
-
-1. 새 홈 경험에 대한 간단한 설문 조사를 하거나 **현재 홈으로 돌아가기**&#x200B;를 클릭하여 현재 홈 경험으로 되돌립니다.
-
->[!NOTE]
->
-> 시스템 관리자는 사용자의 기본값으로 새 홈을 비활성화할 수 있습니다. 시스템 전체에서 사용자의 기본 홈 환경을 변경하는 방법에 대한 자세한 내용은 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
-
-
-
 
 
 
