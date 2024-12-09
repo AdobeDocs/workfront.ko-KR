@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
+source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1381'
 ht-degree: 3%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 <table>
 <col style="width: 20%;" />
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
     <td>영역</td>
@@ -247,7 +247,7 @@ ht-degree: 3%
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
         <td>
@@ -263,7 +263,7 @@ ht-degree: 3%
             단일 할당 작업에 프로젝트 또는 사용자 일정을 사용하는 환경 설정</a></p>
             <p>이제 시스템 또는 그룹 관리자로서, 작업에 한 명의 사용자를 할당하고 프로젝트와 사용자를 모두 예약과 연결할 때 Workfront이 프로젝트의 일정을 계산할지 또는 사용자의 일정을 사용할지 여부를 나타내는 새로운 환경 설정이 제공됩니다.</p>
         </td>
-        <td><p>2024년 11월 16일</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td><p>2024년 11월 16일</p> <p>[!BADGE 새 항목]{type=Negative}<p></td>
         <td>2024년 12월</td>
         <td>25.1</td>
     </tr>     
@@ -284,8 +284,8 @@ ht-degree: 3%
             <p>사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 "이동" 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.</p>
         </td>
         <td>10월 29일</td>
-          <td><p>2024년 12월</p><p> [!BADGE In Production for Fast Release ]{type=Positive}</p></td>
-        <td>25.1<p> [!BADGE In production]{type=Positive}</p></td>
+          <td><p>2024년 12월</p><p> [!BADGE 프로덕션 ]{type=Positive}</p></td>
+        <td>25.1<p> [!BADGE Production]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
