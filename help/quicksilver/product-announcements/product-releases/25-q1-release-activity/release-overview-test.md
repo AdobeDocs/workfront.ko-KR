@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
+source-git-commit: 33b9faed6265b5e82bf768d4c8ae7f703420a7e5
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 3%
+source-wordcount: '878'
+ht-degree: 2%
 
 ---
 
@@ -33,92 +33,7 @@ ht-degree: 3%
 >빠른 릴리스 프로세스에 대한 자세한 내용은 [빠른 릴리스 프로세스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하십시오.
 
 
-## Adobe Workfront 개선 사항
-
-
-<table>
-<col style="width: 20%;" />
-<col style="width: 75%;" />
-<tbody>
-    <tr>
-    <td>영역</td>
-        <td>
-            <p><span class="bold">기능</span></p>
-        </td>
-        <td>미리보기</td>
-        <td>빠른 릴리스</td>
-        <td>분기별</td>
-    </tr>
-    <tr>
-     <td>관리 및 설정</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            단일 할당 작업에 프로젝트 또는 사용자 일정을 사용하는 환경 설정</a></p>
-            [!BADGE New in Preview ]{type=Negative}
-            <p>이제 시스템 또는 그룹 관리자로서, 작업에 한 명의 사용자를 할당하고 프로젝트와 사용자를 모두 예약과 연결할 때 Workfront이 프로젝트의 일정을 계산할지 또는 사용자의 일정을 사용할지 여부를 나타내는 새로운 환경 설정이 제공됩니다.</p>
-        </td>
-        <td>2024년 11월 21일</td>
-        <td>2024년 12월</td>
-        <td>25.1</td>
-    </tr>     
-    <tr>
-     <td>관리 및 설정</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            비즈니스 규칙이 이제 하이퍼링크를 지원합니다.</a></p>
-            [!BADGE Out of cycle]{type=Caution}
-            <p>이제 비즈니스 규칙의 사용자 지정 오류 메시지에 하이퍼링크를 포함하여 규칙의 제한 사항 내에서 작업을 수정하는 방법을 사용자에게 안내할 수 있습니다. 정적 URL은 설명서 또는 사용자에게 유용한 다른 페이지에 연결할 수 있습니다.</p>
-        </td>
-        <td>2024년 11월 14일 금요일</td>
-        <td>2024년 11월 14일 금요일</td>
-        <td>2024년 11월 14일 금요일</td>
-    </tr>    
-    <tr>
-     <td>관리 및 설정</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            이제 기본 자동 완성 필드에 대한 필터링을 사용할 수 있습니다</a></p>
-            [!BADGE 서비스 중단 ]{type=Negative}
-            <p>이제 사용자 정의 양식에 기본 필드 참조를 추가하고 이 필드가 자동 완성 필드(예: Portfolio, 회사 또는 소유자)를 참조하는 경우 필터 옵션을 사용할 수 있습니다. 필터를 사용하면 사용자가 필드를 사용할 때 선택할 수 있는 개체를 제한할 수 있습니다. 이 사용자 지정 필터는 사용자 지정 자동 완성 필드의 필터와 동일하게 작동하며 텍스트 모드를 사용하여 필터를 정의합니다.</p>
-        </td>
-        <td>11월 21일</td>
-        <td>25.12</td>
-        <td>25.1</td>
-    </tr>
-    <tr>
-     <td>관리 및 설정</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            사용자 정의 필드에 "이동" 아이콘이 추가됨</a></p>
-            <p>사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 "이동" 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.</p>
-        </td>
-        <td>2024년 10월 29일</td>
-          <td>2024년 12월</td>
-        <td>25.1</td>
-    </tr>
-</tbody>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Workfront 개선 사항
-
-
-
-
-
 
 
 * [관리자 개선 사항](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
@@ -127,7 +42,10 @@ ht-degree: 3%
 ### 관리자 개선 사항
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -163,91 +81,25 @@ ht-degree: 3%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             이제 기본 자동 완성 필드에 대한 필터링을 사용할 수 있습니다</a></p>
-            [!BADGE 서비스 중단 ]{type=Negative}
             <p>이제 사용자 정의 양식에 기본 필드 참조를 추가하고 이 필드가 자동 완성 필드(예: Portfolio, 회사 또는 소유자)를 참조하는 경우 필터 옵션을 사용할 수 있습니다. 필터를 사용하면 사용자가 필드를 사용할 때 선택할 수 있는 개체를 제한할 수 있습니다. 이 사용자 지정 필터는 사용자 지정 자동 완성 필드의 필터와 동일하게 작동하며 텍스트 모드를 사용하여 필터를 정의합니다.</p>
         </td>
         <td>11월 21일</td>
         <td>25.12</td>
         <td>25.1</td>
     </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            <p>사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 "이동" 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.</p>
-        </td>
-        <td>2024년 10월 29일</td>
-          <td>2024년 12월</td>
-        <td>25.1</td>
-    </tr>
+
 </tbody>
 </table>
+
 
 ### 문서 관리 개선 사항
 
 
 <table>
-<col style="width: 50%;" />
-<tbody>
-    <tr>
-        <td>
-            <p><span class="bold">기능</span></p>
-        </td>
-        <td>미리보기</td>
-        <td>빠른 릴리스</td>
-        <td>분기별</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            단일 할당 작업에 프로젝트 또는 사용자 일정을 사용하는 환경 설정</a></p>
-            [!BADGE New in Preview ]{type=Negative}
-            <p>이제 시스템 또는 그룹 관리자로서, 작업에 한 명의 사용자를 할당하고 프로젝트와 사용자를 모두 예약과 연결할 때 Workfront이 프로젝트의 일정을 계산할지 또는 사용자의 일정을 사용할지 여부를 나타내는 새로운 환경 설정이 제공됩니다.</p>
-        </td>
-        <td>2024년 11월 21일</td>
-        <td>2024년 12월</td>
-        <td>25.1</td>
-    </tr>     
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            비즈니스 규칙이 이제 하이퍼링크를 지원합니다.</a></p>
-            [!BADGE New in Preview ]{type=Caution}
-            <p>이제 비즈니스 규칙의 사용자 지정 오류 메시지에 하이퍼링크를 포함하여 규칙의 제한 사항 내에서 작업을 수정하는 방법을 사용자에게 안내할 수 있습니다. 정적 URL은 설명서 또는 사용자에게 유용한 다른 페이지에 연결할 수 있습니다.</p>
-        </td>
-        <td>2024년 11월 14일 금요일</td>
-        <td>2024년 11월 14일 금요일</td>
-        <td>2024년 11월 14일 금요일</td>
-    </tr>    
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            이제 기본 자동 완성 필드에 대한 필터링을 사용할 수 있습니다</a></p>
-            [!BADGE 서비스 중단 ]{type=Negative}
-            <p>이제 사용자 정의 양식에 기본 필드 참조를 추가하고 이 필드가 자동 완성 필드(예: Portfolio, 회사 또는 소유자)를 참조하는 경우 필터 옵션을 사용할 수 있습니다. 필터를 사용하면 사용자가 필드를 사용할 때 선택할 수 있는 개체를 제한할 수 있습니다. 이 사용자 지정 필터는 사용자 지정 자동 완성 필드의 필터와 동일하게 작동하며 텍스트 모드를 사용하여 필터를 정의합니다.</p>
-        </td>
-        <td>11월 21일</td>
-        <td>25.12</td>
-        <td>25.1</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            사용자 정의 필드에 "이동" 아이콘이 추가됨</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
-            <p>사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 "이동" 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.</p>
-        </td>
-        <td>2024년 10월 29일</td>
-          <td>2024년 12월</td>
-        <td>25.1</td>
-    </tr>
-</tbody>
-</table>
-
-### 문서 관리 개선 사항
-
-
-<table>
-<col style="width: 75%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -264,8 +116,8 @@ ht-degree: 3%
             <p>이제 시스템 또는 그룹 관리자로서, 작업에 한 명의 사용자를 할당하고 프로젝트와 사용자를 모두 예약과 연결할 때 Workfront이 프로젝트의 일정을 계산할지 또는 사용자의 일정을 사용할지 여부를 나타내는 새로운 환경 설정이 제공됩니다.</p>
         </td>
         <td><p>2024년 11월 16일</p> <p>[!BADGE 새 항목]{type=Negative}<p></td>
-        <td>2024년 12월</td>
-        <td>25.1</td>
+        <td><p>24.12</p></td>
+        <td><p>25.1</p></td>
     </tr>     
     <tr>
         <td>
@@ -273,9 +125,9 @@ ht-degree: 3%
             비즈니스 규칙이 이제 하이퍼링크를 지원합니다.</a></p>
             <p>이제 비즈니스 규칙의 사용자 지정 오류 메시지에 하이퍼링크를 포함하여 규칙의 제한 사항 내에서 작업을 수정하는 방법을 사용자에게 안내할 수 있습니다. 정적 URL은 설명서 또는 사용자에게 유용한 다른 페이지에 연결할 수 있습니다.</p>
         </td>
-        <td>11월 14일 </td>
-        <td><p>11월 14일</p> <p>[!BADGE 서비스 중단 ]{type=Negative}</p></td>
-        <td><p>11월 14일</p> <p>[!BADGE 서비스 중단 ]{type=Negative}</p></td>
+        <td><p>11월 14일</p> </td>
+        <td><p>2024년 12월</p> <p> [!BADGE 사용 가능 ]{type=Positive}</p></td>
+        <td><p>25.1</p> </td>
     </tr>    
     <tr>
         <td>
@@ -283,9 +135,29 @@ ht-degree: 3%
             사용자 정의 필드에 "이동" 아이콘이 추가됨</a></p>
             <p>사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 "이동" 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.</p>
         </td>
-        <td>10월 29일</td>
-          <td><p>2024년 12월</p><p> [!BADGE 프로덕션 ]{type=Positive}</p></td>
-        <td>25.1<p> [!BADGE Production]{type=Positive}</p></td>
+        <td><p>12월 5일</p></td>
+          <td><p>12월 15일</p><p> [!BADGE 사용 가능 ]{type=Positive}</p></td>
+        <td><p>12월 15일</p> <p> [!BADGE 사용 가능 ]{type=Positive}</p> <p>[!BADGE 서비스 중단 ]{type=Caution}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            사용자 정의 필드에 "이동" 아이콘이 추가됨</a></p>
+            <p>사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 "이동" 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.</p>
+        </td>
+        <td><p>12월 5일</p><p>[!BADGE 서비스 중단 ]{type=Caution}</p></td>
+          <td><p>12월 15일</p><p> [!BADGE 사용 가능 ]{type=Positive}</p></td>
+        <td><p>12월 15일</p> <p> [!BADGE 사용 가능 ]{type=Positive}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            사용자 정의 필드에 "이동" 아이콘이 추가됨</a></p>
+            <p>사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 "이동" 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.</p>
+        </td>
+        <td><p>11월 1일</p></td>
+          <td><p>24.11</p><p> [!BADGE 사용 가능 ]{type=Positive}</p></td>
+        <td><p>25.1</p> <p> [!BADGE 사용 가능 ]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
