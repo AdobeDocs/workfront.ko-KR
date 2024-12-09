@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2757'
 ht-degree: 4%
 
 ---
@@ -339,7 +339,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 1. **필터** 탭에서 **필터 규칙 추가**&#x200B;를 클릭한 후 다음 필터를 추가합니다.
 
    * **유형 변경** > **같음** > **삭제**
-   * **프로젝트 ID** > **같음** > **`<project>`**
+   * **프로젝트 ID** > **같음** > **&lt; 프로젝트 이름 >**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -383,7 +383,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 
    Report Builder가 로드됩니다.
 
-1. **열(보기)** 탭에서 다음 열을 추가합니다.
+1. **열(보기)** 탭에서 다음 열이 있는지 확인하거나 **열 추가**&#x200B;를 클릭하여 다음 열을 추가합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -446,9 +446,9 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 
      >[!TIP]
      >
-     >이 보고서를 특정 사용자 지정 필드로 제한하려면 필터 규칙 **저널 게시물 필드 이름** > **같음** > **`<custom field>`**&#x200B;을(를) 추가하십시오.
+     >이 보고서를 특정 사용자 지정 필드로 제한하려면 필터 규칙 **저널 게시물 필드 이름** > **같음** > **&lt; 사용자 지정 필드 이름>**&#x200B;을(를) 추가하십시오.
 
-   * **프로젝트 ID** > **같음** > **`<project>`**
+   * **프로젝트 ID** > **같음** > **&lt; 프로젝트 >**.
 
    ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -546,10 +546,10 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 
    열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
-1. **필터** 탭에서 **필터 규칙 추가**&#x200B;를 클릭한 후 다음을 추가하십시오.
+1. **필터** 탭에서 **필터 규칙 추가**&#x200B;를 클릭하고 다음을 추가하십시오.
 
    * **필드 이름** > **같음** > **날짜**
-   * **프로젝트 ID** > **같음** > **`<project>`**
+   * **프로젝트 ID** > **같음** > **&lt; 프로젝트 이름 >**.
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -638,7 +638,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 1. **필터** 탭에서 **필터 규칙 추가**&#x200B;를 클릭한 후 다음을 추가하십시오.
 
    * **필드 이름** > **같음** > **소유자 ID**
-   * **프로젝트 ID** > **같음** > **`<project name>`**
+   * **프로젝트 ID** > **같음** > **&lt; 프로젝트 이름 >**.
 
    ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -662,4 +662,4 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
-   새 보고서가 로드됩니다.
+   새 분개 입력 보고서가 표시됩니다.

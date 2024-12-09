@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1791'
 ht-degree: 1%
 
 ---
@@ -76,14 +76,6 @@ ht-degree: 1%
 >[!NOTE]
 >
 >프로젝트에 대한 기본 피할당자의 휴가를 고려할 때 작업의 계획된 일자가 조정될 수 있지만 작업의 기간은 동일하게 유지됩니다. 프로젝트를 계획할 때 기본 피할당자의 휴무 시간을 고려하는 방법에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
-
-## 상위 작업의 원래 기간
-
-원래 작업 기간은 작업이 상위 작업이 되기 전에 원래 있었던 기간(분)입니다.
-
-작업이 상위가 되면 가장 이른 하위의 계획된 시작 일자와 마지막 하위의 계획된 완료 일자 사이의 기간이 상위 작업에 롤업되고 상위 작업의 기간이 됩니다. 이렇게 하면 원래 작업의 기간이 대체됩니다.
-
-자세한 내용은 [원래 기간 및 원래 계획된 시간의 개요](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)를 참조하십시오.
 
 ## 작업 기간 단위
 
@@ -181,6 +173,27 @@ ht-degree: 1%
 ## 새 작업의 기간 유형
 
 새 작업의 기간 유형이 시스템에 설정된 기간 유형과 일치합니다. 기본 기간 유형은 계산된 지정입니다. Workfront 관리자 또는 그룹 관리자는 시스템 또는 프로젝트와 연결된 그룹에 대한 기본 기간 유형을 업데이트할 수 있습니다. 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
+
+## 상위 작업의 원래 기간
+
+원래 작업 기간은 작업이 상위 작업이 되기 전에 원래 있었던 기간(분)입니다.
+
+작업이 상위가 되면 가장 이른 하위의 계획된 시작 일자와 마지막 하위의 계획된 완료 일자 사이의 기간이 상위 작업에 롤업되고 상위 작업의 기간이 됩니다. 이렇게 하면 원래 작업의 기간이 대체됩니다.
+
+하위 항목이 경과 일수의 기간 단위를 사용하고 상위 항목이 기간 단위 일을 사용하는 경우 Workfront에서 상위 작업의 기간을 계산하는 방식에 불일치가 있을 수 있습니다.
+
+다음 사항을 고려하십시오.
+
+* 기간 단위 경과 일수는 달력 일을 나타내며, 항상 일별 24시간으로 구성됩니다.
+* 기간 단위 일수는 시스템에 정의된 근무일을 나타내며, 구성 가능합니다. 대부분의 경우 하루에 8시간으로 구성되어 있습니다.
+* 상위 작업의 기간을 계산하는 공식은 다음과 같습니다.
+
+  `Parent task duration = Planned Completion Date of the child task that is planned to end the latest - Planned Start Date of the child task that starts the earliest`
+
+* 상위 작업의 기간을 계산할 때 시스템은 먼저 위의 공식으로 기간을 계산한 다음 일정을 적용합니다.
+
+
+자세한 내용은 [원래 기간 및 원래 계획된 시간의 개요](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)를 참조하십시오.
 
 ## 작업의 기간 유형 변경
 

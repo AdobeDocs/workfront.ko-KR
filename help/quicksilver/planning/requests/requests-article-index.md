@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
-source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 0%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)
-* [Adobe Workfront 계획 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)
+* [Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)
+* [Adobe Workfront Planning에서 요청 양식 게시 취소](/help/quicksilver/planning/requests/unpublish-request-form.md)
   <!--* <span class="preview">[Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>-->
   <!--* <span class="preview">[Approve request](/help/quicksilver/planning/requests/approve-request.md)</span>-->

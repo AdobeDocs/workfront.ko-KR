@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '14673'
+source-wordcount: '14681'
 ht-degree: 2%
 
 ---
@@ -2138,6 +2138,7 @@ ht-degree: 2%
       * [Adobe Workfront Planning 요청: 문서 색인](planning/requests/requests-article-index.md)
       * [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](planning/requests/create-request-form.md)
       * [Adobe Workfront Planning 요청을 제출하여 레코드 생성](planning/requests/submit-requests.md)
+      * [Adobe Workfront Planning에서 요청 양식 게시 취소](planning/requests/unpublish-request-form.md)
    * Adobe Workfront 계획 보기 {#adobe-workfront-planning-views}
       * [보기: 문서 색인](planning/views/views-information.md)
       * [레코드 보기 관리](planning/views/manage-record-views.md)
