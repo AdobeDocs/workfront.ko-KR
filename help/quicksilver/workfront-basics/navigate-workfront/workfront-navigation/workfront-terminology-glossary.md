@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 용어집에는  [!DNL Adobe Workfront]. Y
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '20901'
+source-wordcount: '20875'
 ht-degree: 0%
 
 ---
@@ -1252,12 +1252,9 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL 라이브러리 작업]</td> 
-   <td>응용 프로그램에서 [!UICONTROL Tasks] 및 [!UICONTROL Template Tasks]의 이름을 일관되게 지정하는 데 사용되는 단일 작업의 템플릿입니다.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL 라이선스 유형]</td> 
    <td>[!UICONTROL 액세스 수준]에 할당된 라이선스 유형입니다. [!UICONTROL Full User], [!UICONTROL Limited User] 또는 [!UICONTROL Requester]입니다.</td> 
   </tr> 

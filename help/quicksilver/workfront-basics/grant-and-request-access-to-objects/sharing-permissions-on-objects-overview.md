@@ -6,9 +6,9 @@ description: 만든 개체 또는 사용자와 공유된 개체에 대한 권한
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
@@ -89,6 +89,13 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
   >
   >* [시나리오 플래너에서 플랜 공유](../../scenario-planner/share-a-plan.md)
   >* [Workfront 목표에서 목표 공유](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+
+* Workfront은 사용자가 개체를 공유할 때 사용자에게 알림을 보냅니다. 다음 두 설정이 모두 활성화되면 알림이 발송됩니다.
+
+   * 시스템 또는 그룹 관리자가 설정 영역에서 **사용자에게 개체 공유** 및 **팀에 개체 공유** 전자 메일 알림을 사용할 수 있습니다. 자세한 내용은 [시스템의 모든 사용자를 위한 이벤트 알림 구성](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)을 참조하십시오.
+   * **다른 사용자가 나와 개체를 공유함** 및 **다른 사용자가 내 팀과 개체를 공유함** 알림이 사용자의 프로필 페이지에서 활성화됩니다. 자세한 내용은 [전자 메일 알림 수정](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
+
+  사용자에 대한 알림 설정을 활성화하려면 먼저 시스템 또는 그룹 수준 설정을 활성화해야 합니다.
 
 ## 공유 제한 사항
 
