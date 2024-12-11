@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '596'
 ht-degree: 3%
 
 ---
@@ -21,8 +21,7 @@ Adobe Workfront 관리자는 설정 영역에서 팀 설정을 편집할 수 있
 >[!NOTE]
 >
 >* 그룹 관리자는 자신이 관리하는 그룹에 대한 팀의 설정을 편집할 수 있습니다. 자세한 내용은 [그룹의 팀 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)을 참조하세요.
->* 플랜 라이선스가 있는 사용자는 사람 영역에서 팀 설정을 편집할 수 있습니다. 자세한 내용은 [팀 설정 편집](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)을 참조하세요.
->
+>* Standard 또는 Plan 라이선스가 있는 사용자는 팀 영역에서 팀 설정을 편집할 수 있습니다. 자세한 내용은 [팀 설정 편집](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)을 참조하세요.
 
 ## 액세스 요구 사항
 

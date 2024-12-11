@@ -6,9 +6,9 @@ description: Adobe Workfront에서 개체에 대한 가시성은 해당 개체 �
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -108,10 +108,12 @@ Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를
    프로덕션 환경의 샘플 이미지:
    ![](assets/request-access-dialog-350x314.png)
 
-객체에 대한 액세스 수준 권한이 없고 링크에서 해당 객체에 액세스하려고 하면 Workfront 관리자에게 문의하라는 화면이 표시됩니다.
+<!--
+If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
 
-예를 들어 포트폴리오 액세스 권한이 없지만 포트폴리오에 대한 링크가 제공된 경우 다음과 같은 메시지가 표시됩니다.\
+For example, if you do not have portfolio access, but you were given a link to a portfolio, you would see the following message:  
 ![](assets/permission-request-initial2-350x96.png)
+-->
 
 ### 추가 액세스 권한 요청 {#request-additional-access}
 

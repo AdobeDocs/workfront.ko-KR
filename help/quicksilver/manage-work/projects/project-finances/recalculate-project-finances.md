@@ -3,12 +3,12 @@ title: 프로젝트 재무 다시 계산
 product-area: projects
 navigation-topic: financials
 description: 재원은 프로젝트에 기록된 시간 또는 비용 및 수익 계산에 사용되는 비율로 변경되므로 프로젝트에 대해 계산됩니다.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ ht-degree: 0%
 
 * 변경이 이루어지면 시간이 기록되고 재무 정보가 계산됨에 따라 해당 시점부터 업데이트된 요금이 사용됩니다. 비율을 변경해도 변경 전에 어떤 결과가 계산되었는지는 영향을 주지 않습니다. 기록된 모든 기존 시간에 대해 이전 요금을 사용하여 재무 정보를 계산합니다.
 * 재무 다시 계산 옵션을 사용하여 Adobe Workfront에서 지금까지 기록된 모든 시간에 대해 신규 비율을 소급하여 사용하도록 강제할 수 있습니다. 이렇게 하면 Workfront은 새 요금 정보에 따라 이전에 입력한 모든 시간, 계획된 비용 및 수익을 소급하여 다시 계산합니다.
+
+데이터를 로드하기 전에 보고서 유형 프로젝트(재무 데이터)가 자동으로 다시 계산되지 않습니다. 이 보고서 유형의 데이터를 업데이트하려면 개별 프로젝트의 재무를 수동으로 다시 계산해야 합니다.
 
 >[!CAUTION]
 >

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 5%
+source-wordcount: '542'
+ht-degree: 4%
 
 ---
 
@@ -22,8 +22,7 @@ Adobe Workfront 관리자는 설정 영역에서 팀을 만들 수 있습니다.
 >[!NOTE]
 >
 >* 그룹 관리자는 설정 영역에서 관리하는 그룹에 대한 팀을 만들 수 있습니다. 자세한 내용은 [그룹의 팀 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)을 참조하세요.
->* 플랜 라이선스가 있는 사용자는 사람 영역에서 팀을 만들 수도 있습니다. 자세한 내용은 [팀 만들기](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)를 참조하세요.
->
+>* Standard 또는 Plan 라이선스가 있는 사용자는 팀 영역에서 팀을 만들 수도 있습니다. 자세한 내용은 [팀 만들기](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)를 참조하세요.
 
 ## 액세스 요구 사항
 
