@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -227,6 +227,6 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 
 ### 달력 보기 설정 편집
 
-달력 보기 설정을 편집하는 것은 타임라인 보기의 설정을 편집하는 것과 동일합니다.
+달력 보기 설정을 편집하는 것은 타임라인 보기의 설정을 편집하는 것과 비슷합니다.
 
 자세한 내용은 문서 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)의 &quot;타임라인 보기 설정 편집&quot; 섹션을 참조하십시오.

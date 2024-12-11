@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 7%
+source-wordcount: '760'
+ht-degree: 6%
 
 ---
-
 
 <!--add to TOC-->
 
@@ -180,3 +180,8 @@ ht-degree: 7%
 1. **+**&#x200B;을 클릭한 다음 **필드 추가**를 클릭합니다.
 필드는 표 보기 및 레코드의 세부 사항 페이지에 추가됩니다.
 
+   >[!IMPORTANT]
+   >
+   >    모든 레코드 유형에는 500개의 필드로 제한됩니다. 가져온 필드와 함께 기존 필드가 이 제한에 기여합니다.
+
+   추가된 필드는 Workfront 필드의 사본이며 더 이상 Workfront의 원래 필드에 연결되지 않습니다.

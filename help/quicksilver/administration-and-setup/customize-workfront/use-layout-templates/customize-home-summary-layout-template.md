@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '943'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 2%
 
 <!--Audited: 11/2024-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 레이아웃 템플릿을 사용하여 사용자가 작업 또는 문제를 클릭할 때 요약 패널에 표시되는 내용을 구성할 수 있습니다. 아래 단계를 사용하여 수행하는 각 구성은 요약 패널에 영향을 줍니다. 이러한 사용자 지정은 문서 요약 패널에 적용되지 않습니다.
@@ -101,7 +101,7 @@ ht-degree: 2%
       <td role="rowheader">프로젝트</td> 
       <td><ul><li><p>홈에서 사용자가 자신에게 할당된 프로젝트 승인을 클릭하면 이 설정에 대한 구성이 승인 오른쪽 영역에 영향을 줍니다.</p>
       <p><b>중요:</b> </p><p>더 이상 사용되지 않는 기능입니다. 이 영역에 대한 모든 변경 사항은 Workfront에서 제거한 기능과 관련이 있습니다. 이 옵션은 나중에 유지 보수 업데이트를 통해 Workfront에서 제거됩니다.</p></li>
-      <li><span class="preview"><p>이 영역은 미리보기 환경에서 제거되었습니다.</p></li></span></ul> 
+      </ul> 
       </td> 
      </tr> 
      <tr> 
@@ -109,14 +109,14 @@ ht-degree: 2%
       <td>
      <ul><li><p>홈에서 사용자가 자신에게 할당된 문서 승인을 클릭하면 이 설정에 대한 구성이 승인 오른쪽 영역에 영향을 줍니다.</p>
       <p><b>중요:</b> </p><p> 더 이상 사용되지 않는 기능입니다. 이 영역에 대한 모든 변경 사항은 Workfront에서 제거한 기능과 관련이 있습니다. 이 옵션은 나중에 유지 보수 업데이트를 통해 Workfront에서 제거됩니다.</p></li>
-      <li><span class="preview"><p>이 영역은 미리보기 환경에서 제거되었습니다.</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">문서 버전</td> 
       <td><ul><li><p>홈에서 사용자가 특정 버전의 문서에 대해 할당된 승인을 클릭하면 이 설정에 대한 구성이 승인 오른쪽 영역에 영향을 줍니다.</p>
       <p><p><b>중요 사항:</b></p> 더 이상 사용되지 않는 기능입니다. 이 영역에 대한 모든 변경 사항은 Workfront에서 제거한 기능과 관련이 있습니다. 이 옵션은 나중에 유지 보수 업데이트를 통해 Workfront에서 제거됩니다.</p></li>
-      <li><span class="preview"><p>이 영역은 미리보기 환경에서 제거되었습니다.</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
     </tbody> 
@@ -128,15 +128,15 @@ ht-degree: 2%
 
 1. (조건부) 이전 단계에서 작업 또는 문제를 클릭한 경우 사용자 지정할 작업 또는 문제의 범주를 선택합니다.
 
-   <span class="preview">![](assets/choose-cat-cstmz-nwe-adobe-branding.png)</span>
+   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (조건부) **기본 작업 설정 단추** 드롭다운 메뉴가 나타나면(왼쪽 목록에서 **작업** 또는 **문제**&#x200B;를 선택한 경우) 작업 또는 문제를 볼 때 요약 패널에서 사용자가 사용할 수 있는 기본 작업(**완료** 또는 **상태**)을 클릭합니다.
 
-   <span class="preview">![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)</span>
+   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
 1. 선택한 개체 유형에 대해 ![](assets/add-item-plus-in-circle-blue.png)을(를) 추가하거나 ![](assets/close-or-hide---x.png) 필드를 숨깁니다.
 
-   <span class="preview">![](assets/lt-home-add-hide-fields-adobe-branding.png)</span>
+   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 다른 객체 유형에 대해 요약 패널을 사용자 정의하려면 3-6단계를 반복합니다.
 1. 왼쪽 아래 모서리 근처에서 **전역 설정**&#x200B;을 클릭한 다음 요약에서 Adobe Workfront 개체와 관련된 다음 옵션을 활성화하거나 비활성화합니다.

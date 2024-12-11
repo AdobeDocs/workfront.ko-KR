@@ -6,9 +6,9 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 사�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,8 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 �
   프로젝트에 대한 사용자의 권한에 따라 프로젝트의 템플릿 작업 및 문제에 대한 액세스 권한을 관리하는 방법에 대한 자세한 내용은 문서 [프로젝트 템플릿 편집](../../manage-work/projects/create-and-manage-templates/edit-templates.md)의 [액세스](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) 섹션을 참조하십시오.
 
 * Workfront 관리자는 문서가 사용자 액세스 수준의 상위 개체에서 권한을 상속해야 하는지 여부를 지정할 수 있습니다. 문서에 대해 상속된 사용 권한을 제한하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
+
+* 템플릿 작업을 개별적으로 공유할 수 없습니다. 템플릿을 공유하면 템플릿 작업도 공유됩니다. 템플릿에서 프로젝트를 공유하면 향후 프로젝트 작업도 공유됩니다.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

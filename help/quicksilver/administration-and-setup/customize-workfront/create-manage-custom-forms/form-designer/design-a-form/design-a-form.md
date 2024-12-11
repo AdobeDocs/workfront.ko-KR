@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '6522'
+source-wordcount: '6534'
 ht-degree: 5%
 
 ---
@@ -328,7 +328,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
     </tr>
     <tr> 
      <td role="rowheader">레이블</td> 
-     <td> <p>(필수) 사용자 정의 필드 위에 표시할 설명 레이블을 입력합니다. 언제든지 레이블을 변경할 수 있습니다.</p> <p><b>중요</b>: 이 레이블에 특수 문자를 사용하지 마십시오. 보고서에 올바로 표시되지 않습니다. 자세한 내용은 <a href="design-a-form.md#notes-on-field-names-and-labels">필드 이름 및 레이블에 대한 참고</a>을 참조하세요.</p> </td> 
+     <td> <p>(필수) 사용자 정의 필드 위에 표시할 설명 레이블을 입력합니다. 언제든지 레이블을 변경할 수 있습니다.</p> <p><b>중요</b>: </p> <p>이 레이블에는 특수 문자를 사용하지 마십시오. 보고서에 올바로 표시되지 않습니다. 자세한 내용은 <a href="design-a-form.md#notes-on-field-names-and-labels">필드 이름 및 레이블에 대한 참고</a>을 참조하세요.</p> </td> 
      <td><ul>
     <li>라디오 버튼</li>
     <li>확인란 그룹</li>
@@ -411,13 +411,18 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
     <li> <p><strong>선택 항목 제거</strong>: 필드에서 선택 항목을 제거합니다.</p> <p><b>경고</b>: 이 선택 항목을 사용하는 현재 개체가 있는 경우 필드에서 제거하지 마십시오. 삭제하면 내역 데이터가 손실됩니다. 대신 숨기려면 옵션을 선택합니다. 그러면 사용자가 나중에 선택할 수 없게 됩니다.</p> </li> 
     </ul> 
      </li> 
-    </ol> </td> 
+    </ol>
+
+   <p><b>참고:</b></p>
+    <p>선택할 수 있는 선택 횟수에는 제한이 없습니다. </p>    
+    </td> 
     <td><ul>
     <li>라디오 버튼</li>
     <li>확인란 그룹</li>
     <li>단일 선택 드롭다운</li>
     <li>다중 선택 드롭다운</li>
-    </ul></td>
+    </ul>
+    </td>
      </tr> 
     </tbody> 
     </table>

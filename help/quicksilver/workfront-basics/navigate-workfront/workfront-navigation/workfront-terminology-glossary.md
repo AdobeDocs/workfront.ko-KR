@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 용어집에는  [!DNL Adobe Workfront]. Y
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '20875'
+source-wordcount: '20930'
 ht-degree: 0%
 
 ---
@@ -812,7 +812,15 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL 문서 버전]</td> 
    <td> <p>동일한 문서가 동일한 오브젝트에 업로드될 때마다 버전 번호가 지정됩니다. 사용자는 이전 버전의 문서에 대한 몇 가지 옵션을 보고 변경할 수 있습니다.</p> <p>자세한 내용은 <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">문서 버전 관리</a>를 참조하십시오.</p> </td> 
-  </tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL 기한]</td> 
+   <td> <p>작업 또는 문제가 완료될 예정일. 작업 또는 문제의 기한은 계획된 완료 일자와 동일한 날짜입니다.</p>
+    <p>작업 및 문제 기한은 작업 및 문제 목록과 보고서에 표시됩니다.</p> 
+    <p>이 표에서 계획된 완료 일자 를 참조하십시오. 
+    </td> 
+  </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL 기간]</td> 
    <td> <p>작업 문제 또는 프로젝트 완료에 할당된 시간 창([!UICONTROL 계획 시작]과 계획 완료 사이의 일 수로 결정됨).</p> 
