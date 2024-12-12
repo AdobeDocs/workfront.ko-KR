@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '753'
 ht-degree: 2%
 
 ---
@@ -97,34 +97,38 @@ ht-degree: 2%
       <td role="rowheader">문제</td> 
       <td><p>문제 목록에서 이 설정은 사용자가 문제를 선택한 다음 요약 열기 아이콘 <img src="assets/summary-panel-icon.png">을(를) 클릭할 때 페이지 오른쪽에 표시되는 요약 패널에 영향을 줍니다.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">프로젝트</td> 
-      <td><ul><li><p>홈에서 사용자가 자신에게 할당된 프로젝트 승인을 클릭하면 이 설정에 대한 구성이 승인 오른쪽 영역에 영향을 줍니다.</p>
-      <p><b>중요:</b> </p><p>더 이상 사용되지 않는 기능입니다. 이 영역에 대한 모든 변경 사항은 Workfront에서 제거한 기능과 관련이 있습니다. 이 옵션은 나중에 유지 보수 업데이트를 통해 Workfront에서 제거됩니다.</p></li>
+    </tbody> 
+   </table>
+
+<!--These were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">문서</td> 
+      <td role="rowheader">Documents</td> 
       <td>
-     <ul><li><p>홈에서 사용자가 자신에게 할당된 문서 승인을 클릭하면 이 설정에 대한 구성이 승인 오른쪽 영역에 영향을 줍니다.</p>
-      <p><b>중요:</b> </p><p> 더 이상 사용되지 않는 기능입니다. 이 영역에 대한 모든 변경 사항은 Workfront에서 제거한 기능과 관련이 있습니다. 이 옵션은 나중에 유지 보수 업데이트를 통해 Workfront에서 제거됩니다.</p></li>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">문서 버전</td> 
-      <td><ul><li><p>홈에서 사용자가 특정 버전의 문서에 대해 할당된 승인을 클릭하면 이 설정에 대한 구성이 승인 오른쪽 영역에 영향을 줍니다.</p>
-      <p><p><b>중요 사항:</b></p> 더 이상 사용되지 않는 기능입니다. 이 영역에 대한 모든 변경 사항은 Workfront에서 제거한 기능과 관련이 있습니다. 이 옵션은 나중에 유지 보수 업데이트를 통해 Workfront에서 제거됩니다.</p></li>
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
-     </tr> 
-    </tbody> 
-   </table>
+     </tr> -->
 
-   >[!IMPORTANT]
-   >
-   >작업이 할당 해제된 경우 레이아웃 템플릿에 할당된 사용자에게 요약에 필드 사용자 지정이 표시되지 않습니다.
+
+>[!IMPORTANT]
+>
+>작업이 할당 해제된 경우 레이아웃 템플릿에 할당된 사용자에게 요약에 필드 사용자 지정이 표시되지 않습니다.
 
 1. (조건부) 이전 단계에서 작업 또는 문제를 클릭한 경우 사용자 지정할 작업 또는 문제의 범주를 선택합니다.
 
