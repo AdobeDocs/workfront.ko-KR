@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
+source-git-commit: cd60710c8002d090bf1ed7a300d3e600d98032b1
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,8 @@ ht-degree: 1%
    * 파일 추가
    * <span class="preview">프로젝트로 바로 이동</span>
 
-<!-- ![project details](assets/project-details.png)-->
+   ![프로젝트 세부 정보](assets/project-details.png)
+   <!--new screen for prod ![](assets/project-details-new.png)-->
 
 ## 작업 세부 정보 보기
 
@@ -84,4 +85,5 @@ ht-degree: 1%
    * 파일 추가
    * 빠른 링크 추가
 
-   <!-- ![task details](assets/task-details.png)-->
+   ![작업 세부 정보](assets/task-details.png)
+   <!--new screen for prod ![](assets/task-details-new.png)-->

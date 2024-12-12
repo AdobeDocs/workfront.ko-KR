@@ -5,15 +5,17 @@ description: 우선 순위의 작업 목록에서 열을 사용자 정의하여 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
+source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-
 # 우선 순위 작업 목록 열 사용자 정의
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 우선 순위의 작업 목록에서 열을 사용자 정의하여 작업 방식을 지원할 수 있습니다.
 
@@ -59,7 +61,9 @@ ht-degree: 0%
 
 +++
 
-## 열 활성화 또는 비활성화
+## 프로덕션의 우선 순위 작업 목록 열 사용자 정의
+
+### 열 활성화 또는 비활성화
 
 {{step1-to-priorities}}
 
@@ -67,7 +71,7 @@ ht-degree: 0%
    ![](assets/columns.png)
 1. 작업 목록에서 열을 활성화 또는 비활성화하려면 전환을 사용하십시오.
 
-## 열 순서 바꾸기
+### 열 순서 바꾸기
 
 {{step1-to-priorities}}
 
@@ -75,10 +79,37 @@ ht-degree: 0%
 1. **드래그** 아이콘을 클릭하고 열을 원하는 위치로 이동합니다. 작업 목록에서 열을 자동으로 이동합니다.
    ![](assets/reorder-columns.png)
 
-## 열 너비 재설정
+### 열 너비 재설정
 
 {{step1-to-priorities}}
 
 1. 화면 오른쪽에 있는 **열**&#x200B;을 클릭합니다.
 1. **자세히** 아이콘 ![](assets/more-icon.png)을 클릭하고 **열 너비 재설정**을 선택하세요.
    ![](assets/columns.png)
+
+<div class="preview">
+
+## 미리보기에서 우선 순위 작업 목록 열 사용자 정의
+
+### 열 활성화 또는 비활성화
+
+{{step1-to-priorities}}
+
+1. 화면 왼쪽에서 **열**을 클릭합니다.
+   ![](assets/columns-new.png)
+1. 작업 목록에서 열을 활성화 또는 비활성화하려면 전환을 사용하십시오.
+
+### 열 순서 바꾸기
+
+{{step1-to-priorities}}
+
+1. 화면 왼쪽에서 **열**&#x200B;을 클릭합니다.
+1. **드래그** 아이콘을 클릭하고 열을 원하는 위치로 이동합니다. 작업 목록에서 열을 자동으로 이동합니다.
+   ![](assets/reorder-columns-new.png)
+
+>[!NOTE]
+>
+>이름 열은 고정되어 이동할 수 없습니다.
+
+
+</div>

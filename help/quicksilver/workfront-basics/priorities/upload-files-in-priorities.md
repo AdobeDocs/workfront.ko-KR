@@ -5,13 +5,13 @@ description: 우선순위 작업 목록 또는 개별 작업 항목에서 파일
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
 
 ---
-
 
 # 우선 순위로 파일 업로드
 
@@ -54,6 +54,7 @@ ht-degree: 0%
 
 1. 이름을 마우스로 가리킨 다음 **업로드**를 클릭합니다.
    ![](assets/upload-file.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. (선택 사항) 폴더를 선택합니다.
 1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
 또는

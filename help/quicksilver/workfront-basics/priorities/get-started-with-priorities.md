@@ -5,13 +5,13 @@ description: 우선 순위는 작업 소유자에게 맞는 능률적이고 직�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
+exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
+source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '953'
 ht-degree: 3%
 
 ---
-
 
 # [!DNL Priorities] 시작
 
@@ -91,7 +91,6 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 작업을 필터링한 후에는 다음을 기준으로 항목을 그룹화할 수 있습니다.
 
-* 없음
 * 내 포커스
 * 주 마감일
 * 상태
@@ -104,15 +103,16 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 내 포커스는 작업 목록의 열에서 작업의 우선 순위를 지정할 수 있습니다. 내 포커스 값은 개인적이며 프로젝트, 작업 또는 문제 데이터에 영향을 주지 않습니다. 다음 포커스 수준을 사용할 수 있습니다.
 
 * 긴급
-* 기본
-* 보조
+* 높음
 * 보통(기본값)
+* 낮음
 
 작업 항목에 포커스 수준을 할당하면 열을 정렬하여 작업 목록의 맨 위에 긴급 항목을 표시할 수 있습니다.
 
 자세한 내용은 [중요한 작업 항목 우선 순위 지정](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)을 참조하십시오.
 
 ![](assets/my-focus-column.png)
+<!-- new screen for prod ![](assets/worklist.png) -->
 
 ### 일정 보기 [!BADGE 준비 중] 사용{type=Informative}
 
@@ -141,6 +141,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 자세한 내용은 [우선 순위에서 댓글 추가 및 보기](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)를 참조하십시오.
 
 ![](assets/new-update.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### 로그 시간
 
@@ -149,6 +150,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 자세한 내용은 [우선 순위에 시간 기록](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)을 참조하십시오.
 
 ![](assets/log-time.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### 파일 업로드
 
@@ -162,6 +164,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 자세한 내용은 [우선 순위로 파일 업로드](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)를 참조하십시오.
 
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### 문서 보기 [!BADGE 준비 중]{type=Informative}
 
@@ -197,5 +200,3 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 * 현재 Workfront 관리자는 레이아웃 템플릿을 통해 우선 순위를 사용자 정의할 수 없습니다.
 * 우선 순위의 작업에 액세스하는 것은 여러 탭에 걸쳐 있습니다. 향후 문서, 하위 작업, 승인 등과 같은 탭을 추가할 계획입니다. **피드백 제공** 단추를 사용하여 피드백을 제출하여 이러한 항목이 필요한지 알려 주십시오.
-
-

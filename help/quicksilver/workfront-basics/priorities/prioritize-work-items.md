@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 2125639c11513439fdd3ae872b336814f8f77adb
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 1%
@@ -32,6 +32,7 @@ ht-degree: 1%
    | **낮음** | 낮음은 즉각적인 주의가 필요하지 않은 작업 항목에 해당하며, 우선 순위가 높은 작업 항목이 모두 완료될 때까지 연기할 수 있습니다. |
 
    ![](assets/my-focus.png)
+   <!--new screen for prod ![](assets/my-focus-new.png)-->
 
    >[!TIP]
    >

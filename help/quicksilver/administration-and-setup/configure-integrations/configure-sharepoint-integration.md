@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
+source-git-commit: ad75f6e80d0681b5a769e2fd8fc68285597dbca0
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 0%
@@ -175,8 +175,8 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint](Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL [!DNL SharePoint]통합]**&#x200B;을 선택합니다.
-1. 기존의 모든 통합에 대해 목록의 왼쪽에 있는 확인 표시를 선택한 다음 **[!UICONTROL 사용 안 함]**을 선택합니다.
-   ![](assets/disable-old-sharepoint.png)
+1. 기존의 모든 통합에 대해 목록의 왼쪽에 있는 확인 표시를 선택한 다음 **[!UICONTROL 사용 안 함]**&#x200B;을 선택합니다.
+
 
 
 ### 기존 [!DNL SharePoint] 통합에 계속 액세스할 수 있도록 클라이언트 암호 구성

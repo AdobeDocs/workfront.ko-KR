@@ -5,13 +5,13 @@ description: 우선 순위에서 직접 새 작업 및 문제를 만들 수 있�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 3%
+source-wordcount: '241'
+ht-degree: 4%
 
 ---
-
 
 # 우선 순위에서 새 작업 또는 문제 만들기
 
@@ -69,16 +69,16 @@ ht-degree: 3%
 
 1. 오른쪽 상단의 **새로 만들기**를 클릭합니다.
    ![](assets/create-new.png)
+&lt;!—prod ![](assets/create-new--.png)의 새 화면—>
 1. 다음 정보를 지정합니다.
 
    | 필드 | 지침 |
    |---------------|-------------|
    | 작업 항목 유형(선택 사항) | **작업** 또는 **문제**&#x200B;를 만들지 선택하세요. |
    | 이름 | 이름을 입력하십시오. |
-   | 설명(선택 사항) | 설명을 입력합니다. |
+   | 설명 (선택 사항) | 설명을 입력합니다. |
    | 프로젝트 | 프로젝트 이름을 입력한 다음 드롭다운 목록에서 선택합니다. |
    | 할당자(선택 사항) | 작업 항목에 사람을 할당합니다. |
    | 기한(선택 사항) | 기한을 선택합니다. |
 
 1. Click **Create**.
-

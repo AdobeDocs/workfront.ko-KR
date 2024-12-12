@@ -5,13 +5,13 @@ description: 작업 또는 문제에 대한 업데이트를 추가하여 작업 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: a7237746-0a18-408b-b932-8a608fd72eee
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
 
 ---
-
 
 # 우선 순위에서 주석 추가 및 보기
 
@@ -65,6 +65,7 @@ ht-degree: 0%
 1. 업데이트할 작업 항목을 찾습니다.
 1. 이름을 마우스로 가리킨 다음 **새 업데이트 추가**를 클릭합니다.
    ![](assets/add-update.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. 댓글을 입력하세요.
 1. (선택 사항) **사람 또는 팀에 태그 지정** 상자에서 이 댓글에 포함할 사용자 또는 팀의 이름 또는 전자 메일을 입력한 다음 목록에 표시될 때 선택합니다.
 1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하고, 댓글에 이모지, 링크 또는 이미지를 추가하여 콘텐츠를 개선합니다.
