@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: CSI(원가 일정 성과 지표) 계산
 description: CSI(Cost Schedule Performance Index)는 CPI(Cost Performance Index)와 SPI(Schedule Performance Index)를 비용과 일정의 균형을 맞추는 하나의 일반 지표로 결합하는 자동 계산입니다.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%

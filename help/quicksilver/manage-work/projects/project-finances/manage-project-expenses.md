@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: financials
 title: 프로젝트 경비 관리
 description: 비용을 생성하고 관리하는 프로세스는 프로젝트 및 작업 관련 비용 모두에 대해 동일합니다. 비즈니스 사례에서 프로젝트에 추가된 모든 경비는 계획된 경비로 경비 탭에 추가됩니다. 비즈니스 사례에 대한 자세한 내용은 프로젝트에 대한 비즈니스 사례 만들기 문서를 참조하십시오.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '542'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -29,25 +31,29 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>임의</p> </td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>작업 이상 </p> </td> 
+   <td>
+   <p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 작업 시간 이상</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트 및 재무 데이터에 대한 액세스 편집</p> <p><b>참고</b> </p>
-   <p> 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td>프로젝트 및 재무 데이터에 대한 액세스 편집</td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>재무 보기 또는 관리 권한이 있는 프로젝트에 대한 Contribute 이상의 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td>재무 보기 또는 관리 권한이 있는 프로젝트에 대한 Contribute 이상의 권한</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 경비 추가
 

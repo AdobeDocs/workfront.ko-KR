@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 예산 비용 계산
 description: 활용성 보고서로 예산 CostTracking 프로젝트 진행 계산""
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 2%

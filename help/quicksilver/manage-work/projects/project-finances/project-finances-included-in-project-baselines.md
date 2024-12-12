@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 프로젝트 기준선에 포함된 프로젝트 재무
 description: 기준선은 특정 시점의 프로젝트 성능에 대한 스냅샷입니다. 여기에는 주요 날짜, 진행 상황, 비용 및 수익 값과 같은 프로젝트에 대한 주요 정보가 저장됩니다.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 705156d0-0daa-40bf-a511-144d56316136
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 14%

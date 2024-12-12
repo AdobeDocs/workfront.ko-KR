@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: financials
 title: PIM(성과 지표 메서드) 설정
 description: 프로젝트의 PIM(성과 지표 메서드)은 Adobe Workfront이 원가 성과 지수(CPI), 원가 일정 성과 지수(CSI), 일정 성과 지수(SPI) 및 완료 시 추정(EAC)과 같은 프로젝트 성과 지표를 계산하는 데 사용하는 방법을 제어합니다.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: de628881-c016-4521-bc33-3bcfba19a88f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '434'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ Workfront은 다음을 사용하여 이러한 값을 계산합니다.
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -31,25 +33,30 @@ Workfront은 다음을 사용하여 이러한 값을 계산합니다.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>임의</p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>
+   <p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 플랜</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트 및 재무 데이터에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td>프로젝트 및 재무 데이터에 대한 액세스 편집</td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>재무 관리 권한으로 프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td>재무 관리 권한으로 프로젝트에 대한 권한 관리</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## Workfront의 PIM에 대한 고려 사항
 

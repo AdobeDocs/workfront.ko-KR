@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 프로젝트 재무 필드
 description: 프로젝트 재정을 추적하는 것은 프로젝트를 관리하는 데 매우 중요합니다.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 2%

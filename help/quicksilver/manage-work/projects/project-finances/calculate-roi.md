@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 투자 수익률(ROI) 계산
 description: 투자 수익률(ROI)은 포트폴리오 관리자가 프로젝트의 원래 계획된 이익 및 예산 비용에 대해 프로젝트의 성과를 빠르게 확인할 수 있는 Adobe Workfront 지표입니다.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

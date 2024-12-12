@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 순 가치 계산
 description: 프로젝트의 순 가치(Net Value)는 프로젝트의 편익을 계산하고 비용을 제거한 후 프로젝트의 총 예상 가치입니다.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # 순 가치 계산
 
-프로젝트의 순 가치(Net Value)는 프로젝트의 편익을 계산하고 비용을 제거한 후 프로젝트의 총 예상 가치입니다. 
+프로젝트의 순 가치(Net Value)는 프로젝트의 편익을 계산하고 비용을 제거한 후 프로젝트의 총 예상 가치입니다.
 
 ## 프로젝트 순 가치 개요
 
-Adobe Workfront은 다음 공식을 사용하여 프로젝트의 순 가치를 계산합니다. 
+Adobe Workfront은 다음 공식을 사용하여 프로젝트의 순 가치를 계산합니다.
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost

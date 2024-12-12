@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: 작업 역할 청구 요금 재정의 및 프로젝트의 수익 계산에 대한 개요
+title: 작업 역할 청구 요금 재정의 및 프로젝트의 수익 계산 개요
 description: 프로젝트에 소요된 시간에 청구 요금을 곱하면 프로젝트의 수익을 계산하는 데 청구 요금을 사용할 수 있습니다. 청구 요금 및 수익에 대한 자세한 내용은 청구 및 수익 개요 문서를 참조하십시오.
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 0%

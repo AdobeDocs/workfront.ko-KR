@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 계획된 인건비 계산
 description: 프로젝트에 대한 작업을 계획할 때 Adobe Workfront은 시간당 비용 값을 기반으로 이 작업에 할당된 역할 및 사용자의 계획된 인건비를 계산합니다.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: af053e9a-09dc-4b4d-8ed4-f681ed611a59
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
