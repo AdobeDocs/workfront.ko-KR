@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1728'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             단일 할당 작업에 프로젝트 또는 사용자 일정을 사용하는 환경 설정</a></p>
+            [!BADGE In Production for Fast Release ]{type=Positive}
             <p>이제 시스템 또는 그룹 관리자로서, 작업에 한 명의 사용자를 할당하고 프로젝트와 사용자를 모두 예약과 연결할 때 Workfront이 프로젝트의 일정을 계산할지 또는 사용자의 일정을 사용할지 여부를 나타내는 새로운 환경 설정이 제공됩니다.</p>
         </td>
         <td>
@@ -74,6 +75,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             비즈니스 규칙이 이제 하이퍼링크를 지원합니다.</a></p>
+            [!BADGE In Production for Fast Release ]{type=Positive}
             <p>이제 비즈니스 규칙의 사용자 지정 오류 메시지에 하이퍼링크를 포함하여 규칙의 제한 사항 내에서 작업을 수정하는 방법을 사용자에게 안내할 수 있습니다. 정적 URL은 설명서 또는 사용자에게 유용한 다른 페이지에 연결할 수 있습니다.</p>
         </td>
         <td>
@@ -169,6 +171,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             한 번에 여러 문서 편집</a></p>
+            [!BADGE In Production for Fast Release ]{type=Positive}
             <p>이제 여러 문서를 한 번에 편집할 수 있습니다. 설명을 편집하고 사용자 정의 양식을 업데이트할 수 있습니다.</p>
         </td>
         <td>
@@ -217,8 +220,22 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            우선 순위에서 프로젝트의 세부 정보 페이지로 이동합니다.</a></p>
+            우선 순위 작업 목록 업데이트</a></p>
             [!BADGE New in Preview ]{type=Negative}
+            <p>기능을 개선하고 애플리케이션의 다른 영역에 맞게 우선 순위 작업 목록을 업데이트했습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 12월 12일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            우선 순위에서 프로젝트의 세부 정보 페이지로 이동합니다.</a></p>
             <p>이제 우선 순위 작업 목록에서 Workfront의 프로젝트로 직접 이동할 수 있습니다.</p>
         </td>
         <td>
@@ -344,6 +361,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             연결된 폴더에서 이동하거나 삭제된 에셋의 관리 방법 업데이트</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>Experience Manager Assets 및 Assets Essentials과 Adobe Workfront 통합을 사용할 때 이동 및 삭제된 에셋을 처리하는 방식이 변경되었습니다.</p>
             <ul>
                 <li>삭제된 에셋: Assets 또는 Assets Essentials의 연결된 폴더 내에서 에셋이 삭제되면 삭제된 에셋은 프로젝트 문서 영역에 유지됩니다.</li>
@@ -362,6 +380,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             이제 사용자 정의 양식 내의 섹션을 축소 및 확장할 수 있습니다</a></p>
+            [!BADGE In Production for Fast Release ]{type=Positive}
             <p>이제 여러 섹션이 있는 사용자 정의 양식을 오브젝트에 첨부할 때 양식의 맨 위에 있는 기본 섹션을 제외한 모든 섹션을 축소하고 확장할 수 있습니다. 관리자는 양식 디자이너에서 양식을 미리 볼 때도 이 기능을 볼 수 있습니다.</p>
         </td>
         <td>
