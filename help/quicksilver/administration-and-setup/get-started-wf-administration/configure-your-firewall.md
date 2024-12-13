@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 조직에 Enterprise 플랜이 있는 경우 두 개의 Workfront 허용 목록을 구성할 수도 있습니다.
 
 * **전자 메일 허용 목록**: 사용자가 Workfront에 저장된 전자 메일을 보낼 수 있는 위치를 제어할 수 있습니다. 허용 목록에 추가하다 자세한 내용은 [전자 메일 구성](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)을 참조하십시오.
-* **IP 허용 목록**: Workfront에 대한 액세스를 지정한 45개의 IP 주소 또는 IP 주소 범위로 제한하여 Workfront 응용 프로그램에 추가적인 보안 계층을 제공합니다. 자세한 내용은 [IP 주소로 Adobe Workfront에 대한 액세스 제한](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)을 참조하십시오.
+* **IP 허용 목록**: Workfront에 대한 액세스를 지정한 75개의 IP 주소 또는 IP 주소 범위로 제한하여 Workfront 응용 프로그램에 추가적인 보안 계층을 제공합니다. 자세한 내용은 [IP 주소로 Adobe Workfront에 대한 액세스 제한](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)을 참조하십시오.
 
 ## Workfront 클러스터 찾기
 

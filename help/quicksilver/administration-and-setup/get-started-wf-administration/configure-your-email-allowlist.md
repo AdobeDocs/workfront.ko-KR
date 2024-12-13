@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## 기타 허용 목록
 
-조직에서 엔터프라이즈 계획을 수립하는 경우, Workfront에 대한 액세스를 지정한 45개의 IP 주소 또는 IP 주소 범위로 제한하는 Adobe Workfront을 가진 허용 목록에 추가하다 IP를 구성할 수 있습니다. 이렇게 하면 Workfront 애플리케이션에 추가 보안 계층을 제공할 수 있습니다. 자세한 내용은 [IP 주소로 Adobe Workfront에 대한 액세스 제한](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)을 참조하십시오.
+조직에서 엔터프라이즈 계획을 수립하는 경우, Workfront 액세스를 지정한 75개의 IP 주소 또는 IP 주소 범위로 제한하는 Adobe Workfront IP 허용 목록에 추가하다를 구성할 수 있습니다. 이렇게 하면 Workfront 애플리케이션에 추가 보안 계층을 제공할 수 있습니다. 자세한 내용은 [IP 주소로 Adobe Workfront에 대한 액세스 제한](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)을 참조하십시오.
 
 허용 목록에 추가하다 또한 방화벽 또는 메일 서버가 특정 공급업체에만 액세스할 수 있도록 구성된 경우 특정 IP 주소를 해당 공급업체에 추가해야 합니다. 그러면 환경과 Adobe Workfront 서버 간에 통신이 열립니다. 허용 목록에 추가하다 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하세요.
 

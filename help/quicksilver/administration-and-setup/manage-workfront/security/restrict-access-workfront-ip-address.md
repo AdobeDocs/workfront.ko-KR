@@ -3,12 +3,12 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: security
 title: IP 주소로 Adobe Workfront 액세스 제한
-description: Workfront에 대한 액세스를 45개의 IP 주소 범위로 제한하거나 지정한 Adobe Workfront IP 주소 범위를 포함하도록 허용 목록에 추가하다를 구성할 수 있습니다. 이렇게 하면 Workfront 애플리케이션에 추가 보안 계층을 제공할 수 있습니다.
+description: Adobe Workfront IP 주소 75로 Workfront 액세스를 제한하거나 지정한 IP 주소 범위로 액세스를 제한하는 허용 목록에 추가하다 IP 를 구성할 수 있습니다. 이렇게 하면 Workfront 애플리케이션에 추가 보안 계층을 제공할 수 있습니다.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # IP 주소로 Adobe Workfront에 대한 액세스 제한
 
-Workfront에 대한 액세스를 45개의 IP 주소 범위로 제한하거나 지정한 Adobe Workfront IP 주소 범위를 포함하도록 허용 목록에 추가하다를 구성할 수 있습니다. 이렇게 하면 Workfront 애플리케이션에 추가 보안 계층을 제공할 수 있습니다.
+Adobe Workfront IP 주소 75로 Workfront 액세스를 제한하거나 지정한 IP 주소 범위로 액세스를 제한하는 허용 목록에 추가하다 IP 를 구성할 수 있습니다. 이렇게 하면 Workfront 애플리케이션에 추가 보안 계층을 제공할 수 있습니다.
 
 이러한 IP 주소 또는 IP 주소 범위는 네트워크 관리자가 제공해야 합니다.
 
@@ -77,6 +77,6 @@ Workfront허용 목록에 추가하다 에 IP 주소를 추가한 후에는 해�
 1. **IP 범위 추가,**&#x200B;를 클릭한 다음 Workfront에 액세스할 수 있는 IP 주소 또는 IP 주소 범위를 지정합니다.
 1. (선택 사항) 이전 단계를 반복하여 IP 주소 또는 IP 주소 범위를 추가합니다.
 
-   최대 45개의 주소 또는 범위를 추가할 수 있습니다.
+   최대 75개의 주소 또는 범위를 추가할 수 있습니다.
 
 1. **저장**&#x200B;을 클릭합니다.
