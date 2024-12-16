@@ -7,7 +7,7 @@ description: Select 또는 Premium 플랜이 있으면 기존 조직의 사용�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
+source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -59,12 +59,12 @@ SSO 서버에 대한 링크입니다(예: **https://sso.mycompany.com/opensso**)
 1. **로그인 URL**(3)을 입력하십시오.
 사용자를 ID 공급자로 리디렉션하기 위해 호출되는 URL입니다.
 
-1. 이는 브라우저에 입력하는 실제 URL이 아니라 로그인 화면을 표시하기 위해 전송하는 정보를 처리하는 엔드포인트입니다.
+   이는 브라우저에 입력하는 실제 URL이 아니라 로그인 화면을 표시하기 위해 전송하는 정보를 처리하는 엔드포인트입니다.
 
-**로그아웃 URL**(4)을(를) 입력하십시오.
+1. **로그아웃 URL**(4)을(를) 입력하십시오.
 예를 들어 로그아웃한 후 반환되는 URL입니다.
 
-**https://www.yourcompany.com/services/logout.asp**
+   **https://www.yourcompany.com/services/logout.asp**
 
 1. **인증서 지문**(5)을 입력하십시오.
 1. SAML ID 공급자가 제공하는 SAML 인증서의 SHA1 지문.
