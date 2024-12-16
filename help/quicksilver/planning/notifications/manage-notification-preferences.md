@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
 
 
 # Adobe Workfront Planning 알림 환경 설정 관리
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -23,6 +27,14 @@ Workfront Planning에서 다음 작업이 발생하면 인앱 또는 이메일 �
 * 누군가가 기록 페이지의 댓글에 귀하를 추가합니다.
 * 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청합니다.
 * 누군가가 <!--I could not test this but Isk confirmed--> 보기 또는 작업 영역에 액세스할 수 있는 권한을 부여했습니다.
+
+<div class="preview">
+
+* Workfront Planning 요청을 제출합니다.
+* 누군가가 귀하가 제출한 Workfront Planning 요청을 승인하거나 거부합니다.
+* 제출한 Workfront Planning 요청의 상태가 변경됩니다.
+
+</div>
 
 ## 액세스 요구 사항
 
@@ -172,7 +184,12 @@ OLD:
 1. Workfront에 사용할 수 있는 알림은 다음과 같습니다.
 
    * **언급**: 다른 사용자가 Workfront Planning에서 댓글에 태그를 지정하면 알림을 받습니다
-   * **요청**: 누군가 Workfront Planning 개체에 대한 권한을 요청하거나 부여하면 알림을 받습니다
+   * **요청**: 누군가가 다음 중 하나를 완료하면 알림을 받습니다.
+
+      * Workfront Planning 개체에 대한 권한을 요청하거나 부여합니다.
+      * <span class="preview">Workfront 계획 요청을 제출했습니다</span>
+      * <span class="preview">변경 사항을 제출한 Workfront Planning 요청의 상태</span>
+      * <span class="preview">Workfront 계획 요청에 대한 승인을 요청, 부여 또는 거부합니다</span>
 
    알림 관리에 대한 자세한 내용은 [계정 환경 설정 및 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)을 참조하세요.
 

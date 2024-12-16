@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1557'
 ht-degree: 2%
 
 ---
@@ -126,12 +126,12 @@ ht-degree: 2%
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 
 1. 페이지 헤더의 레코드 형식 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **요청 양식 만들기**&#x200B;를 클릭합니다.
-1. 요청 양식 이름을 업데이트합니다. 기본적으로 양식 이름은 **제목 없는 요청 양식**&#x200B;입니다. <!--check this; you logged a bug to rename it to this but was it fixed?-->
+1. 요청 양식 이름을 업데이트합니다. 기본적으로 양식 이름은 **제목 없는 양식**&#x200B;입니다. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (선택 사항) 요청 양식에 대해 **설명**&#x200B;을(를) 추가합니다.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Click **Create**. 선택한 레코드 형식에 대한 요청 양식이 <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.-->에 열립니다.
+1. Click **Create**. 선택한 레코드 종류에 대한 요청 양식이 양식 탭</span>에서 <span class="preview">을(를) 엽니다.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -159,7 +159,12 @@ ht-degree: 2%
 
 
    * **기본 섹션**: Workfront이 요청 양식에 적용하는 기본 섹션 구분입니다. 기본 섹션의 이름을 변경하거나 제거할 수 없습니다.
-   * **제목** 필드: Workfront에서 요청을 식별하는 필드입니다. 이 기능은 아직 사용할 수 없습니다. 제목 필드의 구성 및 값을 편집할 수 없습니다.
+   * **제목** 필드: Workfront에서 요청을 식별하는 필드입니다. 이 기능은 프로덕션 환경에서는 아직 사용할 수 없습니다. <span class="preview">미리 보기 환경에서 사용할 수 있습니다.</span> 구성 및 제목 필드의 값을 편집할 수 없습니다.
+
+     >[!TIP]
+     >
+     >**제목** 필드는 요청 양식에 표시되면 값이 필요합니다. 그러나 필요한 경우 **제목** 필드를 제거할 수 있으며 요청자는 양식에 표시되지 않습니다.
+
    * 레코드 유형과 연결된 모든 필드.
 
      요청 양식에 포함된 필드는 이 레코드 유형에 요청을 제출하는 모든 사람에게 표시됩니다.
@@ -190,14 +195,19 @@ ht-degree: 2%
 
 1. (선택 사항) **미리 보기**&#x200B;를 클릭하여 다른 사용자가 새 레코드를 제출하는 데 사용할 양식을 표시할 방법을 확인합니다.
 
-   <!--
-   <div class="preview">
-   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
-      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
-      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
-   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
-   </div>
-   -->
+1. 
+   <div class="preview">(선택 사항) **구성** 탭을 클릭한 다음 **승인자** 필드에 사용자를 한 명 이상 추가하여 이 레코드 양식에 대한 새 요청을 승인합니다.
+
+   ![](assets/configuration-tab.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+   * 요청 양식을 승인자와 연결하는 경우 새 레코드를 생성하기 전에 모든 승인자가 새 요청을 먼저 승인해야 합니다.
+   * 한 명 또는 여러 명의 승인자를 요청 양식에 추가할 수 있습니다.
+   * 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다.
+   * 요청이 승인 또는 거부되기 전에 모든 승인자는 결정을 내려야 합니다.
+
+     요청 양식에 승인을 추가하는 방법에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오. </div>
 
 1. (선택 사항) 헤더의 양식 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭하여 양식 이름을 업데이트합니다.
 1. 양식을 게시하고 고유한 링크를 얻으려면 **Publish**&#x200B;을(를) 클릭하십시오.
@@ -223,7 +233,7 @@ ht-degree: 2%
    >
    >* **링크가 있는 모든 사용자**&#x200B;를 선택하면 조직 외부의 사람 중 Workfront 계정이 없는 사람도 양식에 액세스하여 새 레코드를 제출할 수 있습니다.
    >
-   > * <span class="preview">다음 필드 형식을 포함하는 양식은 공개적으로 공유할 수 없습니다.</span>
+   > * <span class="preview">다음 필드 형식을 포함하는 양식을 공개적으로 공유할 수 없습니다.</span>
    >
    >     * <span class="preview">수식</span>
    >     * <span class="preview">Workfront 또는 AEM Assets 연결</span>
@@ -231,7 +241,7 @@ ht-degree: 2%
    >     * <span class="preview">사람</span>
    >
 
-1. (조건부) 이전 단계에서 **링크가 있는 모든 사용자**&#x200B;를 선택한 경우 사용 가능한 달력에서 **링크 만료 날짜**&#x200B;를 선택하십시오. 링크가 만료된 후 오류가 발생하며 양식 액세스 권한을 다시 부여받으려면 먼저 링크 날짜를 업데이트해야 합니다.
+1. (조건부) 이전 단계에서 **링크가 있는 모든 사용자**&#x200B;를 선택한 경우 사용 가능한 달력에서 **링크 만료 날짜**&#x200B;를 선택하십시오. 링크가 만료되면 사람들이 오류를 받게 되며 사람들이 양식에 다시 액세스하려면 링크 날짜를 업데이트하고 공유할 새 링크를 생성해야 합니다.
 
    현재 날짜로부터 180일 이내에 미래 날짜를 선택할 수 있습니다.
 
@@ -241,7 +251,7 @@ ht-degree: 2%
 
    요청 양식에 대한 링크를 사용하여 레코드를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
-1. 화면 오른쪽 아래 모서리에 있는 **저장**&#x200B;을 클릭하여 양식을 저장합니다.
+1. **양식** 탭의 오른쪽 아래 모서리에 있는 **저장**&#x200B;을 클릭하여 양식을 저장합니다.
 1. 머리글에서 양식 이름 왼쪽에 있는 왼쪽 화살표를 클릭하여 양식을 닫습니다.
 
    레코드 유형 페이지가 열립니다.

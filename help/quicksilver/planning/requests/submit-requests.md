@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 0%
 # Adobe Workfront Planning 요청을 제출하여 레코드 생성
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+<!--take Preview and Prod references out when releasing to Prod all-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -125,11 +126,11 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
 * 양식에 대한 특정 링크에서만 Workfront Planning 요청에 대한 요청 양식에 액세스할 수 있습니다.
 * 요청을 Workfront Planning에 제출한 후에는 요청을 편집할 수 없습니다.
-* 제출된 각 요청은 <!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> -->을(를) 사용하는 양식과 연결된 레코드 유형에 대한 레코드를 만듭니다.
+* 제출된 각 요청은 <span class="preview">사용하는 양식과 연결된 레코드 유형에 대한 레코드를 만듭니다. 양식이 승인과 연결되어 있지 않거나 모든 승인자가 승인을 부여한 경우</span>
 * 요청 양식을 제출하여 생성된 레코드는 다른 방법을 통해 추가된 레코드와 구분할 수 없습니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 * <span class="preview">제출된 요청은 Workfront </span>의 요청 영역에 있는 제출된 섹션의 계획 탭에 표시됩니다.
 
-<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
 ## Workfront Planning에 요청 제출
@@ -148,27 +149,26 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
    양식이 제출되고 다음 사항이 발생합니다.
 
-   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->양식에 연결된 레코드 유형에 새 레코드가 추가됩니다.
+   * 요청 양식이 승인과 연결되어 있지 않은 경우 또는 <span class="preview">모든 승인자가 승인을 받은 경우</span> 양식에 연결된 레코드 형식에 새 레코드가 추가됩니다.
 
-
-   * <!--If the request form was not associated with an approval, the--> <span class="preview"> 요청이 Workfront 요청 영역의 제출됨 섹션에 추가되고 새 레코드가 레코드 유형 페이지에 추가됩니다.</span>
+   * 요청 양식이 승인과 연결되어 있지 않으면 <span class="preview"> 요청이 Workfront 요청 영역의 제출됨 섹션의 계획 탭에 추가되고 새 레코드가 레코드 유형 페이지에 추가됩니다.</span>
 
      ![](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
-     ><span class="preview">하나 이상의 작업 영역에 액세스할 수 있는 모든 사용자는 요청 영역에서 계획 탭을 볼 수 있습니다. 제출한 요청만 볼 수 있습니다. Workfront 관리자는 시스템의 모든 요청을 볼 수 있습니다. </span> <!--ensure this is correct; asking team in slack-->
+     ><span class="preview">하나 이상의 작업 영역에 액세스할 수 있는 모든 사용자는 요청 영역에서 계획 탭을 볼 수 있습니다. 볼 수 있는 권한 이상이 있는 작업 영역에 사용자 또는 다른 사람이 제출한 요청만 볼 수 있습니다. Workfront 관리자는 시스템의 작업 영역에 제출된 모든 요청을 볼 수 있습니다. </span> <!--ensure this is correct; asking team in slack-->
 
-   <!--
-   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+   * <span class="preview">요청 양식이 승인과 연결된 경우 요청이 Workfront 요청 영역의 제출됨 섹션에 있는 계획 탭에 임시로 저장됩니다. 요청 양식과 연결된 레코드 형식에 대해 만들어진 레코드가 없습니다.</span>
 
-      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
-   -->
-   <!--
+     <span class="preview">자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>를 참조하세요.
+   * <span class="preview">요청이 성공적으로 제출되었거나 검토를 위해 전송되었다는 인앱 및 이메일 알림을 받습니다.</span>
+   * <span class="preview">요청 양식이 승인과 연결된 경우 승인자는 요청을 검토하고 승인하기 위한 인앱 및 전자 메일 알림을 받습니다.</span>
 
-   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
-   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
-   -->
+     >[!NOTE]
+     >
+     ><span class="preview">조직의 Workfront 인스턴스가 Adobe 통합 환경에 온보딩될 때만 전자 메일 및 인앱 알림이 표시됩니다.</span>
+
 
 
 

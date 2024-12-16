@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '2114'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,42 @@ ht-degree: 0%
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 2024년 8월 28일 일반 출시 이후 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록에 대해서는 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+
+## Workfront Planning 요청에 대한 승인 구성
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 12월 16일, 모든 고객을 위한 프로덕션 릴리스: 2025년 1월 16일
+
+이제 승인을 Workfront Planning 요청 양식과 연결할 수 있습니다. 사용자만 요청 승인자로 추가할 수 있습니다. 요청이 제출되면 레코드를 만들기 전에 먼저 모든 승인자에게 전송되어 승인됩니다.
+
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
+
+
+## 요청 제출, 승인 및 상태 변경에 대한 알림
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 12월 16일, 모든 고객을 위한 프로덕션 릴리스: 2025년 1월 16일
+
+이제 Workfront Planning에서 요청을 제출한 후 다음 작업에 대한 인앱과 이메일 알림을 받게 됩니다.
+
+* 요청자가 요청이 성공적으로 제출되었다는 알림을 수신함
+
+* 요청자가 요청이 승인 또는 거부되었다는 알림을 수신함
+
+* 승인자는 승인을 위해 요청이 제출되었다는 알림을 받습니다.
+
+>[!NOTE]
+>
+>사용자가 이메일 및 인앱 알림을 수신할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.
+
+요청 제출 또는 승인에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
+* [Adobe Workfront Planning 요청을 제출하여 레코드 생성](/help/quicksilver/planning/requests/submit-requests.md)
+
+* [Adobe Workfront Planning에서 요청을 승인](/help/quicksilver/planning/requests/approve-request.md)합니다.
 
 ## 필드 유형을 찾을 때 지능형 검색
 
@@ -138,7 +174,7 @@ Workfront Planning 레코드 유형에 요청을 추가하려면 요청 양식�
 
 이 개선 이전에는 이러한 유형의 필드를 Workfront Planning의 요청 양식에 추가할 수 없었습니다.
 
-자세한 내용은 Adobe Workfront Planning에서 요청 양식 만들기 및 관리(/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 ## 특정 필드 유형이 포함된 요청 양식의 공개 공유 제한
 
