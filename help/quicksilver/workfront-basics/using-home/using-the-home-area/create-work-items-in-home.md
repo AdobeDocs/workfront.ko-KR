@@ -6,16 +6,18 @@ description: '[!UICONTROL Home] 영역에서 작업 항목 및 프로젝트를 �
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '811'
 ht-degree: 2%
 
 ---
 
 # 홈 영역에서 작업 항목 및 프로젝트 만들기
 
-[!UICONTROL Home] 영역에서 작업 항목 및 프로젝트를 만들 수 있습니다. 홈에서 다음을 수행할 수 있습니다
+[!UICONTROL Home] 영역에서 작업 항목 및 프로젝트를 만들 수 있습니다.
+
+홈에서 다음을 수행할 수 있습니다
 
 * 개인 할 일 만들기
 * 요청 제출
@@ -23,6 +25,8 @@ ht-degree: 2%
 * 템플릿에서 프로젝트를 만들거나, 빈 프로젝트를 만들거나, MS 프로젝트를 가져옵니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -52,16 +56,23 @@ ht-degree: 2%
 
 &#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
++++
+
 ## 개인 할 일 항목 만들기
 
-[!UICONTROL Home] 영역에서 개인 할 일 항목을 만들 수 있습니다. 할 일 항목은 사용자가 직접 만드는 개인 작업입니다.
+[!UICONTROL 홈] 영역의 할 일 위젯에서 개인 할 일 항목을 만들 수 있습니다. 할 일 항목은 사용자가 직접 만드는 개인 작업입니다.
 
 귀하 및 다른 사용자는 개인 작업 보고서에서 귀하의 개인 작업을 볼 수 있습니다. 필요한 경우 거기에서 프로젝트에 추가할 수 있습니다.
+
+>[!TIP]
+>
+>사용자 프로필 페이지에서 다른 사용자 또는 자신에게 보내는 작업 항목은 사용자의 홈 영역에 있는 할 일 위젯에도 표시됩니다. 자세한 내용은 [개인 작업 만들기](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)를 참조하세요.
+
 
 할 일 항목을 만들려면 다음 작업을 수행하십시오.
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭하거나 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)을(를) 클릭합니다(가능한 경우). **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
-1. (조건부) **사용자 지정**&#x200B;을 클릭한 다음 **할 일**&#x200B;을 클릭하여 할 일 위젯을 홈 화면에 추가합니다.
+1. (조건부) **사용자 지정**&#x200B;을 클릭한 다음 **할 일**&#x200B;을 클릭하여 홈 화면에 할 일 위젯을 추가합니다.
 1. **할 일** 위젯으로 이동한 다음 **할 일 추가**&#x200B;를 클릭합니다.
 1. 개인 할 일 항목의 이름을 입력한 다음 Enter를 클릭합니다.
 1. (선택 사항) **날짜** 아이콘 ![](assets/date-icon.png)을(를) 클릭하여 항목의 기한을 추가합니다.

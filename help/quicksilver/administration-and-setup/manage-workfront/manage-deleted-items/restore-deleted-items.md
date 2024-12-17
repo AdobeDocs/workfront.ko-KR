@@ -8,7 +8,7 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 2%
@@ -137,7 +137,7 @@ Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 
 
 * 오브젝트 해결 중
 
-  해결 중인 개체는 **원래 문제를 유지하고 해결 방법을 이** &lt;**프로젝트** 또는 **작업)**> 옵션과 함께 구성된 전환된 문제입니다. 상위 프로젝트 또는 작업을 삭제하면 더 이상 해당 문제를 프로젝트 또는 작업에 연결하는 링크가 없으므로 이 문제는 해결 중인 개체로 식별되지 않습니다. 상위 항목을 복원하면 링크가 복원되지 않습니다.
+  해결 중인 개체는 **원래 문제를 유지하고 해결 방법을 이** &lt;**(프로젝트** 또는 **작업)**> 옵션과 함께 구성된 전환된 문제입니다. 상위 프로젝트 또는 작업을 삭제하면 더 이상 해당 문제를 프로젝트 또는 작업에 연결하는 링크가 없으므로 이 문제는 해결 중인 개체로 식별되지 않습니다. 상위 항목을 복원하면 링크가 복원되지 않습니다.
 
   Workfront 관리자 또는 그룹 관리자가 전환할 때 해결 오브젝트와 일치하도록 문제를 구성하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) 및 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
 

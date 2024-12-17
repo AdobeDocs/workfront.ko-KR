@@ -8,9 +8,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe Workfront에는 새로운 기능과 업데이트를 릴리스하기 위한
 
 릴리스는 일반적으로 미국 산지 표준시 오후 8~10시(릴리스 날짜 이전 저녁) 경에 수행됩니다.
 
-일반적으로 미리보기의 기능은 다음 릴리스와 함께 프로덕션 환경에서 사용할 수 있습니다. 그러나 경우에 따라 기능이 예약된 릴리스 외부의 프로덕션 환경에서 사용할 수 있습니다. 이러한 변경 사항은 변경 사항을 숙지할 수 있는 적절한 시간을 제공하기 위해 최소 2주 동안 미리보기에 남아 있습니다. 이러한 변경 사항은 미리보기에 추가될 때 공지 센터를 통해서도 전달됩니다.
+일반적으로 미리보기의 기능은 다음 릴리스와 함께 프로덕션 환경에서 사용할 수 있습니다. 그러나 경우에 따라 기능이 예약된 릴리스 외부의 프로덕션 환경에서 사용할 수 있습니다. 이러한 변경 사항은 일반적으로 변경 사항을 숙지할 적절한 시간을 제공하기 위해 최소 2주 동안 미리보기에 유지됩니다.
 
 분기별 및 빠른 릴리스 프로세스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요.
 

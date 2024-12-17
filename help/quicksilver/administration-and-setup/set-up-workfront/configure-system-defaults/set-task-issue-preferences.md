@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f8f86eae11e7f175e130d7f0265d92519923402f
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 0%
@@ -21,6 +21,13 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 [!DNL Adobe Workfront] 관리자는 작업 및 문제에 대한 시스템 전체 환경 설정을 구성할 수 있습니다. 이러한 환경 설정은 사용자가 [!DNL Workfront]에서 작업 및 문제를 만드는 방식에 영향을 줍니다.
 
@@ -42,7 +49,7 @@ Linked to Converting Issues.-->
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
    <td><p>새로운 기능: [!UICONTROL Standard]</p>
    또는
    <p>현재: [!UICONTROL Plan]</p></td> 
@@ -54,7 +61,7 @@ Linked to Converting Issues.-->
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -69,6 +76,9 @@ Linked to Converting Issues.-->
    * [[!UICONTROL 새 작업 기본값]](#new-task-defaults)
    * [[!UICONTROL 문제]](#issues)
    * [[!UICONTROL 삭제]](#deletion)
+
+   <!--* <span class="preview">[Move](#move)</span>-->
+
    * [[!UICONTROL 실제 날짜]](#actual-dates)
    * [[!UICONTROL 위임]](#delegation)
    * [[!UICONTROL 액세스]](#access)
@@ -162,6 +172,22 @@ Linked to Converting Issues.-->
   >시간이 기록된 작업 및 문제가 있는 프로젝트를 삭제하면 기록된 시간이 삭제되거나 [!UICONTROL 설정]의 [!UICONTROL 타임시트 및 시간 환경 설정] 영역에 있는 설정에 따라 유지됩니다. 프로젝트를 삭제할 때 경고 메시지가 표시되지 않습니다.
 
 * 이 옵션을 선택 취소하면 작업 또는 시간이 기록된 문제를 삭제하거나 작업 또는 문제에 대한 시간이 기록된 프로젝트를 삭제할 때 금지 경고가 표시됩니다. 경고는 관리자가 기록된 시간이 있는 작업 또는 문제를 삭제할 수 없도록 지정합니다. 작업, 문제 또는 작업 및 문제에 대한 시간이 기록된 프로젝트는 삭제할 수 없습니다.
+
+<!--*****also replace the & with "and" in the Deletion section
+
+<div class="preview">
+
+### Move
+
+**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+
+* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+
+* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+
+</div>
+
+-->
 
 ### [!UICONTROL 실제 날짜] {#actual-dates}
 

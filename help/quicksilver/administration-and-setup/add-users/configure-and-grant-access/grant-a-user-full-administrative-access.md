@@ -5,14 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 1%
+source-wordcount: '1551'
+ht-degree: 4%
 
 ---
 
 # 사용자에게 전체 관리 액세스 권한 부여
+
+<!--Audited: 12/2024-->
 
 >[!IMPORTANT]
 >
@@ -47,16 +49,18 @@ Adobe Workfront 관리자는 시스템 관리자 액세스 수준을 할당하�
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td> <p>새로운 기능: 표준</p>
+   <p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다. 자세한 내용은 <a href="#" class="MCXref xref selected">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>Workfront 관리자여야 합니다. </td> 
   </tr> 
  </tbody> 
 </table>
 
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 +++
 
 ## 단일 사용자에게 전체 시스템 관리자 액세스 권한 부여
@@ -64,10 +68,10 @@ Adobe Workfront 관리자는 시스템 관리자 액세스 수준을 할당하�
 {{step-1-to-users}}
 
 1. 관리자 권한을 부여할 사용자의 이름을 클릭합니다.
-1. 기타 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+1. 사용자 이름 오른쪽의 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
 
-1. 표시되는 **사용자 편집** 상자에서 **액세스**&#x200B;를 클릭합니다.
-
+   **사용자 편집** 상자가 표시됩니다.
+1. 왼쪽 패널에서 **액세스**&#x200B;를 클릭합니다.
 1. **액세스 수준** 드롭다운 목록에서 **시스템 관리자** 액세스 수준을 선택합니다.
 
    시스템에서 변경된 사항에 따라 이 액세스 수준의 이름이 변경되었을 수 있습니다.
@@ -78,7 +82,7 @@ Adobe Workfront 관리자는 시스템 관리자 액세스 수준을 할당하�
 
 ## Workfront 관리자의 액세스와 관리 권한이 있는 계획 사용자의 액세스 비교  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-아래 두 표는 Workfront 관리자 액세스 수준이 있는 사용자의 액세스 권한과 일부 관리 권한이 있는 플랜 라이선스가 있는 사용자의 액세스 권한의 차이를 보여 줍니다.
+아래 두 표는 Workfront 시스템 관리자 액세스 수준이 있는 사용자의 액세스 권한과 일부 관리 권한이 있는 플랜 라이선스가 있는 사용자의 액세스 권한의 차이를 보여 줍니다.
 
 Workfront 관리자는 만든 사람에 관계없이 시스템의 모든 개체를 보고, 새 개체를 만들고, 기존 개체를 수정하거나 삭제할 수 있습니다. 시스템의 모든 객체에 대한 전체 액세스 권한을 가집니다.
 

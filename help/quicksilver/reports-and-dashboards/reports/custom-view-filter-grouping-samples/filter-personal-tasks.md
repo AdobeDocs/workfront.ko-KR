@@ -6,9 +6,10 @@ title: '필터: 개인 작업'
 description: 이 작업 필터는 사용자에게 전송된 임시 작업 요청이나 홈 영역에서 사용자가 추가한 할 일 항목을 반환합니다. 개인 작업은 프로젝트에 연결되지 않지만 필요한 경우 프로젝트로 이동할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-이 작업 필터는 사용자에게 전송된 임시 작업 요청이나 홈 영역에서 사용자가 추가한 할 일 항목을 반환합니다.
+이 작업 필터는 사용자에게 전송된 임시 작업 요청이나 사용자가 홈 영역의 할 일 위젯에서 추가한 할 일 항목을 반환합니다.
 
 임시 작업 요청 및 할 일 항목은 개인 작업으로 Adobe Workfront에 저장됩니다.
 
-개인 작업은 프로젝트에 연결되지 않지만 필요한 경우 프로젝트로 이동할 수 있습니다.
+개인 작업은 프로젝트에 연결되지 않지만 필요한 경우 프로젝트로 이동할 수 있습니다. 자세한 내용은 [개인 작업 만들기](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)를 참조하세요.
 
 ![](assets/personal-tasks-report.png)
 
@@ -75,7 +76,7 @@ ht-degree: 0%
 1. (조건부) 다음 필터링 기준을 선택합니다.
 
    * 목록 필터에서: **작업** > **개인** **참**
-   * 보고서 필터에서: **작업** > **개인** > **같음** > **참**.
+   * 보고서 필터에서: **작업** > **개인** > **같음(대/소문자 구분)** > **참**.
 1. 필터를 저장합니다.
 
    목록에 프로젝트에 없는 개인 작업만 표시됩니다.
