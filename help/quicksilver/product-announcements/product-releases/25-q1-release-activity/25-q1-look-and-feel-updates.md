@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 11월 6일, 모든 고객을 위한 프로덕션 릴리스: 2024년 11월 6일
+>미리보기 릴리스: 2024년 12월 12일에 일시적으로 제거됨, 모든 고객에 대해 프로덕션에 다시 릴리스됨: 2024년 12월 17일
 
 성능을 개선하기 위해 Workfront 기본 탐색 및 보조 탐색 영역을 업그레이드했습니다. 모양과 느낌의 변화는 미미합니다.
 
