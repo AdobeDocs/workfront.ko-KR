@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 3%
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 도메인 간 환경 프로모션은 현재 지원되지 않습니다. 동일한 도메인에 있는 환경 간에 프로모션해야 합니다.
 
-## Adobe 비즈니스 플랫폼/IMS가 환경 홍보를 위한 전제 조건입니까?
+## Adobe 비즈니스 플랫폼/IMS가 환경 프로모션의 전제 조건입니까?
 
 ### 답변
 
@@ -68,7 +68,6 @@ ht-degree: 3%
 ## 개별 구성 요소의 프로모션을 건너뛸 수 있는 옵션이 있습니까? `Use Existing`, `Overwrite` 및 `Save with a new Name`&quot; 옵션이 있는 경우 개별 매개 변수의 프로모션을 건너뛸 수 있도록 `Skip`을(를) 추가할 수 있습니까?
 
 ### 답변
-
 
 * &quot;기존 사용&quot;은 대상 환경의 기존 오브젝트에 매핑되고 변경을 수행하지 않으므로 &quot;건너뛰기&quot; 또는 배포를 무시하는 것과 동일합니다.
 * 오브젝트를 건너뛰려면 다음을 제거하는 것이 좋습니다.

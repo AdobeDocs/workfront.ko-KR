@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->환경 프로모션을 위해 오브젝트를 구성하는 동안 사용자 정의 새로 고침 샌드박스를 새로 고치면 해당 구성이 새로 고침에서 손실됩니다. 미해결 환경 프로모션 개체 및 패키지가 모두 성공적으로 프로모션되지 않는 한 사용자 정의 샌드박스 새로 고침을 새로 고치지 않는 것이 좋습니다.
+>* 환경 프로모션을 위해 오브젝트를 구성하는 동안 사용자 정의 새로 고침 샌드박스를 새로 고치면 해당 구성이 새로 고침에서 손실됩니다. 미해결 환경 프로모션 개체 및 패키지가 모두 성공적으로 프로모션되지 않는 한 사용자 정의 샌드박스 새로 고침을 새로 고치지 않는 것이 좋습니다.
+>* 패키지 설치의 일부로 대상 환경에서 만든 개체의 ID가 원래 환경의 개체와 **not**&#x200B;입니다. 이는 개체가 생성될 때 시스템에서 ID를 할당하기 때문입니다.
 
 ## 액세스 요구 사항
 
@@ -34,7 +35,7 @@ ht-degree: 0%
   <tr>
    <td><strong>[!DNL Adobe Workfront] 계획</strong>
    </td>
-   <td> Prime 또는 Ultimate(신규 계획만 해당)
+   <td> Prime 또는 Ultimate(새 계획만 해당)
    </td>
   </tr>
   <tr>
