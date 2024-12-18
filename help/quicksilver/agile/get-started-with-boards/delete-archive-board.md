@@ -7,9 +7,9 @@ description: Workfront에서 보드를 삭제하거나 보관할 수 있습니�
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 3e33ba722ff066fd7fec8c7762c63e8c8d3fc4b8
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # 보드 삭제 또는 보관
 
 [!DNL Workfront]에서 보드를 삭제하거나 보관할 수 있습니다. 보드를 삭제하면 [!DNL Workfront]에서 영구적으로 제거되지만 보드를 보관하면 모든 카드가 유지되며 나중에 복원할 수 있습니다.
+
+보드 소유자만 보드를 삭제할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -58,7 +60,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >추가한 보드는 삭제할 수 없고 생성한 보드만 삭제할 수 있습니다.
+   >자신이 만들었거나 소유자로 이름이 지정된 보드만 삭제할 수 있으며 구성원으로 추가된 보드는 삭제할 수 없습니다.
 
    ![더 많은 게시판 메뉴](assets/boards-board-more-menu.png)
 
