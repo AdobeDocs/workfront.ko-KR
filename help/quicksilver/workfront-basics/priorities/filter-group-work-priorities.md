@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
+source-git-commit: 7a6a34ee5b4986137a04d654cf58bfa5f2465715
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '878'
 ht-degree: 6%
 
 ---
@@ -244,22 +244,23 @@ ht-degree: 6%
 
 1. (선택 사항) 선택을 재설정하려면 **기본값으로 돌아가기**&#x200B;를 클릭합니다.
 
-### 스마트 필터를 사용하여 작업 필터링
+<!--### Filter your work with Smart filters
 
-자연어를 사용하여 작업을 빠르게 필터링합니다.
+Use natural language to filter quickly filter work.
 
 {{step1-to-priorities}}
 
-1. 작업 목록 왼쪽 상단의 **필터**&#x200B;를 클릭합니다.
-1. **스마트 필터**&#x200B;를 클릭합니다.
-1. 작업을 필터링할 방법을 입력합니다.
+1. Click **Filters** in the top left of the worklist.
+1. Click **Smart filters**. 
+1. Type how you want to filter your work. 
 
-   다음과 같은 항목을 입력할 수 있습니다.
+    You can type things like
 
-   * 지연된 작업 표시
-   * 내 우선 순위 표시
-   * 오늘 마감 작업 표시
+    * Show me late tasks
+    * Show my top priorities
+    * Show work due today
 
+-->
 
 ### 내 작업 그룹화
 
