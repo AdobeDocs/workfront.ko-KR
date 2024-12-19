@@ -7,9 +7,9 @@ description: 대시보드의 목적은 정보에 대한 빠른 액세스를 제�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ## 대시보드에 추가할 수 있는 오브젝트
 
-Adobe Workfront에서 대시보드를 다음 항목으로 채울 수 있습니다.
+Adobe Workfront에서 최대 25개의 다음 항목으로 대시보드를 채울 수 있습니다.
 
 * 보고서\
   보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.

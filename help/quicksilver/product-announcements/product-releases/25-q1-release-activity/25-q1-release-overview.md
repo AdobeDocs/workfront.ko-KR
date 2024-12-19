@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '2295'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,14 @@ ht-degree: 0%
 
 ## Adobe Workfront 개선 사항
 
-* [관리자 개선 사항](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
+* [관리자 개선 사항](#administrator-enhancements)
+* [보드 개선 사항](#boards-enhancements)
 * [문서 관리 개선 사항](#document-management-enhancements)
 * [홈 개선 사항](#home-enhancements)
+* [프로젝트 개선 사항](#project-enhancements)
 * [증명 개선 사항](#proofing-enhancements)
 * [보고서 및 대시보드 개선 사항](#report-and-dashboard-enhancements)
+* [스트림 개선 사항 업데이트](#update-stream-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
 ### 관리자 개선 사항
@@ -55,6 +58,20 @@ ht-degree: 0%
             <p><span class="bold">릴리스 날짜</span></p>
         </td>
     </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            기록된 시간이 있을 때 작업 이동 방지</a></p>
+            <p>시간이 기록된 작업 또는 문제를 이동하면 경우에 따라 준수 또는 감사 문제가 발생할 수 있으므로 작업 및 문제에 기록된 시간이 있는 경우 사용자가 작업 및 문제를 이동할 수 없도록 하는 기본 설정을 설정의 작업 및 문제 기본 설정 영역에 추가했습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 12월 19일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
+            </ul>
+        </td>
+    </tr>  
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -121,7 +138,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-<!--### Boards enhancements
+### 보드 개선 사항
 
 <table>
 <col style="width: 50%;" />
@@ -129,29 +146,29 @@ ht-degree: 0%
 <tbody>
     <tr>
         <td>
-            <p><span class="bold">Feature</span></p>
+            <p><span class="bold">기능</span></p>
         </td>
         <td>
-            <p><span class="bold">Release dates</span></p>
+            <p><span class="bold">릴리스 날짜</span></p>
         </td>
     </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Change the owner of a board</a></p>
-            <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+            게시판 소유자 변경</a></p>
+            <p>기본적으로 보드 작성자는 소유자입니다. 보드 소유자는 구성 패널에서 해당 보드를 삭제하거나 해당 필터를 업데이트할 수 있는 유일한 사람입니다.</p>
+            <p>Workfront 시스템 관리자가 보드 소유자를 변경할 수 있는 기능이 추가되었습니다. 보드의 현재 소유자는 해당 특정 보드의 소유자를 변경할 수도 있습니다.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
-                <li>Preview release: October 31, 2024</li>
-                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>미리보기 릴리스: 2024년 12월 18일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
             </ul>
         </td>
     </tr>
 </tbody>
-</table>-->
+</table>
 
 ### 문서 관리 개선 사항
 
@@ -217,11 +234,79 @@ ht-degree: 0%
             <p><span class="bold">릴리스 날짜</span></p>
         </td>
     </tr>
+    <!--<tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Catch up on work in Priorities</a></p>
+            <p>You can use Catch me up to help reduce the amount of time looking for information on active projects.</p>
+            <p>Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 20, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>-->
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            우선 순위의 세부 정보 페이지에서 실시간으로 변경 사항 보기</a></p>
+            <p>이제 작업 또는 문제의 세부 정보 페이지에서 실시간 업데이트를 볼 수 있습니다. 실시간 상태 표시기를 사용하여 다른 사용자가 사용자와 동시에 페이지를 보고 있는지 여부도 확인할 수 있습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 12월 19일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            우선 순위에서 문서 및 증명 업로드 및 보기</a></p>
+            <p>이제 작업 및 문제에 대한 문서 및 증명과 상호 작용할 수 있습니다. 새 문서 탭에서 다음을 수행할 수 있습니다.</p>
+            <ul>
+                <li>문서 업로드</li>
+                <li>증명 만들기</li>
+                <li>증명 뷰어 실행</li>
+                <li>기타</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 12월 19일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            이제 우선 순위에서 달력 보기를 사용할 수 있습니다.</a></p>
+            <p>명확하고 시각적인 월 달력을 사용하여 작업을 쉽게 추적할 수 있습니다. 우선순위 달력을 사용하여 다음을 수행할 수 있습니다.</p>
+            <ul>
+                <li>필터를 사용하여 작업 찾기</li>
+                <li>상태 및 포커스 수준과 같은 필드 표시</li>
+                <li>빠른 우선 순위를 위해 색상 적용</li>
+                <li>기타</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 12월 19일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             우선 순위 작업 목록 업데이트</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>기능을 개선하고 애플리케이션의 다른 영역에 맞게 우선 순위 작업 목록을 업데이트했습니다.</p>
         </td>
         <td>
@@ -286,7 +371,38 @@ ht-degree: 0%
 </tbody>
 </table>
 
-## 증명 개선 사항
+### 프로젝트 개선 사항
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">기능</span></p>
+        </td>
+        <td>
+            <p><span class="bold">릴리스 날짜</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            빠른 릴리스 환경을 위한 미리보기 및 프로덕션에서 더 많은 관련 할당이 제거됨</a></p>
+            <p>2023년 12월 이후 미리보기 환경 및 2024년 3월 이후 빠른 릴리스 프로덕션 환경에 있던 기능이 이제 제거되었습니다. 이 기능은 작업을 할당할 때 더 적절한 스마트 할당 제안을 추가했습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 12월 19일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
+### 증명 개선 사항
 
 <table>
 <col style="width: 50%;" />
@@ -319,7 +435,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-## 보고서 및 대시보드 개선 사항
+### 보고서 및 대시보드 개선 사항
 
 <table>
 <col style="width: 50%;" />
@@ -336,6 +452,20 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            대시보드의 보고서, 외부 페이지 또는 캘린더 25개 제한</a></p>
+            <p>대시보드 성능을 유지하기 위해 대시보드에 배치할 수 있는 보고서, 외부 페이지 또는 달력의 총 수에 대한 제한을 구현했습니다. 새 대시보드를 만들 때 최대 25개의 항목을 추가할 수 있습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 12월 16일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Data Connect에 대한 최초 판독기 계정 만들기 단추</a></p>
             [!BADGE In production ]{type=Informative}
             <p>Data Connect에 처음 액세스하는 관리자에게는 이제 단일 버튼을 클릭하여 새 Snowflake 판독기 계정을 만들 수 있는 옵션이 표시됩니다. 이 프로세스는 완료하는 데 몇 분이 걸리지만 추가 작업이 필요하지 않습니다.</p>
@@ -345,6 +475,37 @@ ht-degree: 0%
             <ul>
                 <li>미리보기 릴리스: 2024년 11월 14일</li>
                 <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2024년 11월 14일</span></li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
+### 스트림 개선 사항 업데이트
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">기능</span></p>
+        </td>
+        <td>
+            <p><span class="bold">릴리스 날짜</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            홈 및 내 업데이트 영역의 언급 위젯에서 주석 달기 환경이 업데이트되었습니다</a></p>
+            <p>홈의 언급 위젯 및 내 업데이트 영역의 언급 섹션에서 주석 달기 경험을 업데이트하고 있습니다. 이제 대부분의 Workfront 오브젝트의 업데이트 영역에서 언급 위젯 및 내 업데이트의 언급 섹션에서도 동일한 경험을 사용할 수 있습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 12월 19일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
             </ul>
         </td>
     </tr>

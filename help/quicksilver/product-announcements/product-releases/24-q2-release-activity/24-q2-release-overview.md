@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2260'
 ht-degree: 0%
 
 ---
@@ -371,10 +371,8 @@ ht-degree: 0%
                             <li>
                                 <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
                             </li>
-                            <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 발표 예정</p>
-                            </li>
                         </ul>
+                    <p><i>이 기능은 2024년 12월 19일 미리보기 및 25.1을 사용한 빠른 릴리스 프로덕션(2025년 1월)에서 제거됩니다.</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -391,10 +389,8 @@ ht-degree: 0%
                             <li>
                                 <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
                             </li>
-                            <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 발표 예정</p>
-                            </li>
                         </ul>
+                    <p><i>이 기능은 2024년 12월 19일 미리보기 및 25.1을 사용한 빠른 릴리스 프로덕션(2025년 1월)에서 제거됩니다.</i></p>
                     </td>
                  </tr>
            </tbody>
@@ -664,7 +660,7 @@ API 버전 18의 경우 일부 리소스 및 끝점을 수정했습니다. 일�
 
 API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/help/quicksilver/wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
-### Workfront 유지 보수 업데이트
+### Workfront 유지 관리 업데이트
 
 2024년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 

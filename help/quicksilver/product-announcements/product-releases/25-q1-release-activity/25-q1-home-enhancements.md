@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,58 @@ ht-degree: 1%
 이 페이지에서는 미리보기 환경에 대한 2025년 1분기 릴리스의 모든 홈 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)를 참조하십시오.
+
+<!--## Catch up on work in Priorities
+
+>[!NOTE]
+>
+>Preview release: December 20, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>
+>_This feature is only available for customers on the Unified Adobe Experience using the AI Assistant._
+
+You can use Catch me up to help reduce the amount of time looking for information on active projects. 
+
+Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
+
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).-->
+
+## 우선 순위의 세부 정보 페이지에서 실시간으로 변경 사항 보기
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 12월 19일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
+
+이제 작업 또는 문제의 세부 정보 페이지에서 실시간 업데이트를 볼 수 있습니다. 실시간 상태 표시기를 사용하여 다른 사용자가 사용자와 동시에 페이지를 보고 있는지 여부도 확인할 수 있습니다.
+
+자세한 내용은 [우선 순위 작업 목록에서 프로젝트 및 작업 세부 정보 보기](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)를 참조하십시오.
+
+## 우선 순위에서 문서 및 증명 업로드 및 보기
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 12월 19일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
+
+이제 작업 및 문제에 대한 문서 및 증명과 상호 작용할 수 있습니다. 새 문서 탭에서 다음을 수행할 수 있습니다.
+
+* 문서 업로드
+* 증명 만들기
+* 증명 뷰어 실행
+* 기타
+
+<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+
+## 이제 우선 순위에서 달력 보기를 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 12월 19일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
+
+명확하고 시각적인 월 달력을 사용하여 작업을 쉽게 추적할 수 있습니다. 우선순위 달력을 사용하여 다음을 수행할 수 있습니다.
+
+* 필터를 사용하여 작업 찾기
+* 상태 및 포커스 수준과 같은 필드 표시
+* 빠른 우선 순위를 위해 색상 적용
+* 기타
 
 ## 우선 순위 작업 목록 업데이트
 

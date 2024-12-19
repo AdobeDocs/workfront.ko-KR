@@ -4,9 +4,10 @@ description: 2025년 1분기 보고서 및 대시보드 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,18 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 1분기 릴리스의 모든 보고서 및 대시보드 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)를 참조하십시오.
+
+## 대시보드의 보고서, 외부 페이지 또는 캘린더 25개 제한
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 12월 16일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
+
+대시보드 성능을 유지하기 위해 대시보드에 배치할 수 있는 보고서, 외부 페이지 또는 달력의 총 수에 대한 제한을 구현했습니다. 새 대시보드를 만들 때 최대 25개의 항목을 추가할 수 있습니다.
+
+이 제한을 초과하는 기존 대시보드에는 최상위 25개 항목만 표시된다는 경고가 표시되며, 편집된 대시보드는 포함된 항목 수가 25개 이하로 줄어들 때까지 저장할 수 없습니다.
+
+자세한 내용은 [대시보드 만들기](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)를 참조하세요.
 
 ## Data Connect에 대한 최초 판독기 계정 만들기 단추
 
