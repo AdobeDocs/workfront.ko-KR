@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 3f10e64745b95e4c7d668d798a6c71469948d617
 workflow-type: tm+mt
-source-wordcount: '14699'
+source-wordcount: '14715'
 ht-degree: 2%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 2%
          * [21.1 기타 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion 릴리스 활동 {#fusion-release}
          * [Adobe Workfront Fusion 릴리스 활동](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion 릴리스 활동: 2024년 12월 16일의 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-16.md)
          * [Workfront Fusion 릴리스 활동: 2024년 12월 2일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
          * [Workfront Fusion 릴리스 활동: 2024년 11월 25일의 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Workfront Fusion 릴리스 활동: 2024년 11월 11일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
@@ -2264,6 +2265,7 @@ ht-degree: 2%
       * [Adobe Workfront Fusion DevTool로 시나리오 디버그](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
       * [AI를 사용하여 시나리오 세그먼트 생성](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * [Adobe Workfront Fusion에서 시나리오 채점 전문가 실행](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+      * [cURL을 사용하여 HTTP 모듈 추가](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
       * Adobe Workfront Fusion 시나리오 템플릿 {#fusion-scenario-templates}
          * [시나리오 템플릿](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion]개 템플릿 개요](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
@@ -2342,6 +2344,7 @@ ht-degree: 2%
       * [이미지 모듈](workfront-fusion/apps-and-their-modules/image-module.md)
       * [Jira 소프트웨어 모듈](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
       * [JSON 모듈](workfront-fusion/apps-and-their-modules/json-modules.md)
+      * [JSONata 모듈](workfront-fusion/apps-and-their-modules/jsonata-module.md)
       * [JWT 모듈](workfront-fusion/apps-and-their-modules/jwt-modules.md)
       * [MariaDB 모듈](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Markdown 모듈](workfront-fusion/apps-and-their-modules/markdown-modules.md)
