@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,10 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
--->
 
 [!DNL Adobe Workfront] 관리자는 작업 및 문제에 대한 시스템 전체 환경 설정을 구성할 수 있습니다. 이러한 환경 설정은 사용자가 [!DNL Workfront]에서 작업 및 문제를 만드는 방식에 영향을 줍니다.
 
@@ -76,9 +74,7 @@ Linked to Converting Issues.-->
    * [[!UICONTROL 새 작업 기본값]](#new-task-defaults)
    * [[!UICONTROL 문제]](#issues)
    * [[!UICONTROL 삭제]](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[이동](#move)</span>
    * [[!UICONTROL 실제 날짜]](#actual-dates)
    * [[!UICONTROL 위임]](#delegation)
    * [[!UICONTROL 액세스]](#access)
@@ -173,21 +169,17 @@ Linked to Converting Issues.-->
 
 * 이 옵션을 선택 취소하면 작업 또는 시간이 기록된 문제를 삭제하거나 작업 또는 문제에 대한 시간이 기록된 프로젝트를 삭제할 때 금지 경고가 표시됩니다. 경고는 관리자가 기록된 시간이 있는 작업 또는 문제를 삭제할 수 없도록 지정합니다. 작업, 문제 또는 작업 및 문제에 대한 시간이 기록된 프로젝트는 삭제할 수 없습니다.
 
-<!--*****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### 이동
 
-**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+**[!UICONTROL 사용자가 기록된 시간이 있는 작업 및 문제를 이동할 수 있도록 허용]**: 시간이 기록된 작업 또는 문제의 이동을 허용할지 여부를 결정합니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
-* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+* 이 옵션을 선택하면 시간이 기록된 작업 및 문제를 이동할 수 있습니다. 작업 또는 문제와 함께 시간도 이동합니다.
 
-* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+* 이 옵션을 선택 취소하면 작업 또는 기록된 시간이 있는 문제를 이동할 때 금지 경고가 표시됩니다. 경고는 관리자가 기록된 시간이 있는 작업 또는 문제를 이동할 수 없도록 지정합니다. 시간이 기록된 작업 또는 문제는 이동할 수 없습니다.
 
 </div>
-
--->
 
 ### [!UICONTROL 실제 날짜] {#actual-dates}
 
@@ -216,7 +208,7 @@ Linked to Converting Issues.-->
 
 ### 위임
 
-**[!UICONTROL 사용자가 자신의 작업 및 문제를 위임하도록 허용]** 설정을 사용하면 의 모든 사용자가 자신의 작업을 다른 사용자에게 임시로 위임할 수 있습니다.
+**[!UICONTROL 사용자가 작업 및 문제를 위임하도록 허용]** 설정을 사용하면 시스템의 모든 사용자가 작업을 다른 사용자에게 임시로 위임할 수 있습니다.
 
 이 설정을 사용하면 사용자에게 다음이 표시됩니다.
 
@@ -229,7 +221,7 @@ Linked to Converting Issues.-->
 * 작업 또는 문제 헤더의 [!UICONTROL 할당 및 위임] 영역에서 작업 또는 문제가 다른 사용자에게 위임되었음을 나타냅니다.
 * 작업 또는 문제가 [!UICONTROL Home]의 [!UICONTROL 내 작업] 위젯에서 다른 사용자에게 위임되었음을 나타냅니다.
 
-  [!UICONTROL 사용자가 자신의 작업 및 문제를 위임하도록 허용] 설정을 사용하지 않도록 설정하면 현재 예약된 위임이 중지되고 위임된 사용자는 위임이 중지되었다는 이메일 알림을 받게 됩니다.
+  [!UICONTROL 사용자가 자신의 작업 및 문제를 위임하도록 허용] 설정을 사용하지 않도록 설정하면 현재 예약된 위임이 중지되고 위임된 사용자는 위임이 중지되었다는 전자 메일 알림을 받게 됩니다.
 
 다른 사용자에게 작업을 위임하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 

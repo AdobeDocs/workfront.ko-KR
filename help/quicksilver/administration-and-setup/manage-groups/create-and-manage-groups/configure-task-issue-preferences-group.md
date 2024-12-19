@@ -9,14 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 2%
+source-wordcount: '2226'
+ht-degree: 1%
 
 ---
 
 # 그룹에 대한 작업 및 문제 환경 설정 구성
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 조직의 그룹이 시스템 수준에서 구성된 방식과 별도로 작업 또는 문제 환경 설정을 구성해야 하는 경우 Adobe Workfront 관리자가 환경 설정을 잠금 해제할 수 있습니다. 그런 다음 그룹 관리자는 그룹에 대한 기본 설정을 구성할 수 있으며 이는 그룹과 관련된 모든 작업 또는 문제에 영향을 미칩니다.
 
@@ -91,10 +95,9 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
    * [새 작업 기본값](#new-task-defaults)
    * [문제](#issues)
    * [삭제](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[이동](#move)</span>
    * [실제 일자](#actual-dates)
+   * [위임](#delegation)
    * [액세스](#access)
 
 ### 새 작업 기본값 {#new-task-defaults}
@@ -181,31 +184,27 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
    </table>
 
 
-<!-- *****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### 이동
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Allow users to move tasks and issues with logged hours</td> 
-      <td> <p> Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.</p> 
-       <p>Consider the following:</p> 
+      <td role="rowheader">사용자가 기록된 시간이 있는 작업 및 문제를 이동할 수 있도록 허용</td> 
+      <td> <p> 시간이 기록되는 작업 또는 문제의 이동을 허용할지 여부를 결정할 수 있습니다. 이 옵션은 기본적으로 선택되어 있습니다.</p> 
+       <p>다음 사항을 고려하십시오.</p> 
         <ul> 
-         <li> When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. </li>
-      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. </li></ul>
+         <li> 이 옵션을 선택하면 시간이 기록된 작업 및 문제를 이동할 수 있습니다. 작업 또는 문제와 함께 시간도 이동합니다. </li>
+      <li>이 옵션을 선택 취소하면 작업 또는 기록된 시간이 있는 문제를 이동할 때 금지 경고가 표시됩니다. 경고는 관리자가 기록된 시간이 있는 작업 또는 문제를 이동할 수 없도록 지정합니다. 시간이 기록된 작업 또는 문제는 이동할 수 없습니다. </li></ul>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
 </div>
-
--->
 
 ### 실제 일자 {#actual-dates}
 
@@ -255,6 +254,28 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
    This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.
    If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.
    -->
+
+### 위임
+
+**[!UICONTROL 사용자가 작업 및 문제를 위임하도록 허용]** 설정을 사용하면 그룹의 모든 사용자가 작업을 다른 사용자에게 임시로 위임할 수 있습니다.
+
+이 설정을 사용하면 그룹 사용자에게 다음이 표시됩니다.
+
+* [!UICONTROL 홈] 영역의 [!UICONTROL 내 작업], [!UICONTROL 내 작업] 또는 [!UICONTROL 내 문제] 위젯에 있는 [!UICONTROL **대리인**] 링크입니다. 여기에서 작업 및 문제 할당을 위임할 수 있습니다.
+
+  >[!NOTE]
+  >
+  >  [!UICONTROL **승인 위임**] 링크는 항상 [!UICONTROL Home] 영역에서 활성화됩니다.
+
+* 작업 또는 문제 헤더의 [!UICONTROL 할당 및 위임] 영역에서 작업 또는 문제가 다른 사용자에게 위임되었음을 나타냅니다.
+* 작업 또는 문제가 [!UICONTROL Home]의 [!UICONTROL 내 작업] 위젯에서 다른 사용자에게 위임되었음을 나타냅니다.
+
+  [!UICONTROL 사용자가 자신의 작업 및 문제를 위임하도록 허용] 설정을 사용하지 않도록 설정하면 현재 예약된 위임이 중지되고 위임된 사용자는 위임이 중지되었다는 전자 메일 알림을 받게 됩니다.
+
+다른 사용자에게 작업을 위임하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
+* [작업 위임 개요](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [작업 및 문제 위임](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 ### 액세스 {#access}
 

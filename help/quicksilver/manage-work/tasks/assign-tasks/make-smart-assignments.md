@@ -6,9 +6,9 @@ description: 스마트 할당을 사용하여 작업을 완료하는 데 가장 
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 빠른 릴리스를 사용하도록 설정한 고객의 프로덕션 환경에서만 사용할 수 있는 기능을 참조합니다.</span>
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)를 참조하십시오.</span>
+<span class="preview"> 이 기능은 2025년 1월에 25.1 릴리스로 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서 제거됩니다. 25.1 릴리스에 대한 자세한 내용은 [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)를 참조하십시오.
 
 스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 사용자를 식별할 수 있습니다.
 

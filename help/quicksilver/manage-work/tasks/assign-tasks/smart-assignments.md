@@ -7,9 +7,9 @@ description: 작업 및 문제 할당을 관리할 때 스마트 할당을 사�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 빠른 릴리스를 사용하도록 설정한 고객의 프로덕션 환경에서만 사용할 수 있는 기능을 참조합니다.</span>
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)를 참조하십시오.</span>
+<span class="preview"> 이 기능은 2025년 1월에 25.1 릴리스로 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서 제거됩니다. 25.1 릴리스에 대한 자세한 내용은 [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)를 참조하십시오.
 
 작업 및 문제 할당을 관리할 때 스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 리소스를 식별할 수 있습니다. 스마트 할당은 작업에 가장 적합한 리소스를 결정하는 알고리즘을 기반으로 리소스에 작업 항목을 할당할 때 Adobe Workfront이 제공하는 제안입니다. 스마트 할당은 사용자, 작업 역할 또는 팀이 될 수 있습니다.
 

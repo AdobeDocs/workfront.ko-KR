@@ -6,9 +6,9 @@ description: Adobe Workfront에서 작업을 다른 프로젝트 또는 다른 �
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1547'
 ht-degree: 2%
 
 ---
@@ -17,12 +17,11 @@ ht-degree: 2%
 
 <!--Audited: 12/2024-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 Adobe Workfront에서 다음 개체 간에 작업을 이동할 수 있습니다.
 
@@ -87,13 +86,12 @@ Adobe Workfront에서 다음 개체 간에 작업을 이동할 수 있습니다.
 
 * 마일스톤
 
-<!--
 <div class="preview">
 
-* Your system or group administrator can prevent you from moving tasks that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+* 시스템 또는 그룹 관리자는 사용자가 설정 영역에서 작업 및 기록된 시간 문제를 이동할 수 있도록 허용 기본 설정을 구성하는 방법에 따라 기록된 시간이 있는 작업을 이동하지 못하도록 할 수 있습니다. 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
 </div>
--->
+
 
 ## 목록에서 작업 이동
 
