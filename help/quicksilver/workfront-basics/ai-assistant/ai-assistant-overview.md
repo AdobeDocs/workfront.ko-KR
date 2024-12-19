@@ -5,9 +5,9 @@ description: AI Assistant 개요
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
+source-git-commit: d58088eed3c23652226f5d3f104705ed112c0b9f
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '707'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Workfront의 AI 어시스턴트는 자연어 대화에서 인앱 정보와 제�
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.## AI Assistant 사전 요구 사항
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## AI Assistant 사전 요구 사항
 
@@ -99,6 +99,13 @@ AI Assistant는 현재 다음과 같은 기능을 제공합니다.
   >이 기능은 Prime 또는 Ultimate Workfront 플랜의 조직만 사용할 수 있습니다.
 
   자세한 내용은 [AI Assistant를 사용하여 계산된 필드 수식 생성 또는 수정](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)을 참조하십시오.
+
+<!--<div class="preview">
+* Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
+
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+
+</div>-->
 
 ## AI Assistant에 사용 가능한 객체 유형
 

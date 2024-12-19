@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
-source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
+source-git-commit: 220702225d4f7986b93a43ccc4c33160f7463619
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 우선 순위: 예정된 릴리스
 
 Priority에 대해 저희가 제공하는 사항을 알려드리게 되어 기쁩니다. Workfront의 우선 순위 영역에 있는 피드백 버튼을 사용하여 다음에 보고 싶은 항목을 알려 주십시오.
+
+
 
 <table>
   <tr>
@@ -37,6 +39,25 @@ Priority에 대해 저희가 제공하는 사항을 알려드리게 되어 기�
 </table>
 
 
+
 >[!IMPORTANT]
 >
 >이 표에 나열된 항목은 계획되어 있지만 보장되지 않습니다.
+
+
+
+
+<!--
+
+<table>
+  <tr>
+    <td><strong>Upcoming</strong>
+   <p>More upcoming features will be added soon</p>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Planned</strong>
+<p>More planned features will be added soon</p>
+    </td>
+  </tr>
+</table> -->

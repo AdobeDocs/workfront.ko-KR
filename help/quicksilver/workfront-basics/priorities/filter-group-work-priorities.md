@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 1f27c7e56681fe8c22141b0a98b3dcdb547366d5
+source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '929'
 ht-degree: 6%
 
 ---
@@ -172,13 +172,14 @@ ht-degree: 6%
 
 ## 미리보기에서 우선 순위를 사용하여 작업 필터링 및 그룹화
 
-### 작업 필터링
+### 표준 필터를 사용하여 작업 필터링
 
 자신에게 할당된 작업 및 문제를 필터링할 수 있습니다.
 
 {{step1-to-priorities}}
 
 1. 작업 목록 왼쪽 상단의 **필터**&#x200B;를 클릭합니다.
+1. **표준 필터**&#x200B;를 클릭합니다.
 1. 하나 이상의 필터를 선택하여 작업 항목 범위를 좁힙니다.
    ![](assets/filter-new.png)
 
@@ -243,6 +244,23 @@ ht-degree: 6%
 
 1. (선택 사항) 선택을 재설정하려면 **기본값으로 돌아가기**&#x200B;를 클릭합니다.
 
+### 스마트 필터를 사용하여 작업 필터링
+
+자연어를 사용하여 작업을 빠르게 필터링합니다.
+
+{{step1-to-priorities}}
+
+1. 작업 목록 왼쪽 상단의 **필터**&#x200B;를 클릭합니다.
+1. **스마트 필터**&#x200B;를 클릭합니다.
+1. 작업을 필터링할 방법을 입력합니다.
+
+   다음과 같은 항목을 입력할 수 있습니다.
+
+   * 지연된 작업 표시
+   * 내 우선 순위 표시
+   * 오늘 마감 작업 표시
+
+
 ### 내 작업 그룹화
 
 {{step1-to-priorities}}
@@ -261,6 +279,8 @@ ht-degree: 6%
 | 상태 | 신규, 진행 중, 완료 상태로 항목을 그룹화합니다. <br>참고: 지금은 우선 순위에서 사용자 지정 상태를 사용할 수 없습니다. |
 
 +++
+
+
 
 ### 작업 정렬
 

@@ -6,9 +6,9 @@ description: 캔버스 대시보드에서 승인 지표를 검토할 수 있습�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
+source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
@@ -45,10 +45,6 @@ ht-degree: 1%
 KPI 및 차트를 사용하여 문서 승인에 대한 높은 수준의 정보를 볼 수 있습니다. 드릴다운 정보는 현재 Beta에서 사용할 수 없습니다.
 
 ### KPI
-
->[!IMPORTANT]
->
->현재 미국 산지 시간대의 저녁 시간대에 새 문서 승인 데이터가 새로 고쳐집니다. 실시간 업데이트가 예정되어 있으며 곧 제공될 예정입니다.
 
 ![KPI 예](assets/kpi-dashboard.png)
 
@@ -129,10 +125,6 @@ KPI 및 차트를 사용하여 문서 승인에 대한 높은 수준의 정보�
 
 ### 차트
 
->[!IMPORTANT]
->
->현재 미국 산지 시간대의 저녁 시간대에 새 문서 승인 데이터가 새로 고쳐집니다. 실시간 업데이트가 예정되어 있으며 곧 제공될 예정입니다.
-
 ![차트 예제](assets/chart-dashboard.png)
 
 #### 결정 막대형 차트별 승인
@@ -179,10 +171,6 @@ KPI 및 차트를 사용하여 문서 승인에 대한 높은 수준의 정보�
 1. 화면 오른쪽 상단에서 **완료**&#x200B;를 클릭합니다.
 
 ## 표를 사용하여 자세한 검토 및 승인 정보 추가
-
->[!IMPORTANT]
->
->현재 미국 산지 시간대의 저녁 시간대에 새 문서 승인 데이터가 새로 고쳐집니다. 실시간 업데이트가 예정되어 있으며 곧 제공될 예정입니다.
 
 ![테이블 예제](assets/table-dashboard.png)
 
