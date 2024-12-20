@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -48,14 +48,14 @@ For more information, see [Catch up on work in Priorities](/help/quicksilver/wor
 >
 >미리보기 릴리스: 2024년 12월 19일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
 
-이제 작업 및 문제에 대한 문서 및 증명과 상호 작용할 수 있습니다. 새 문서 탭에서 다음을 수행할 수 있습니다.
+이제 작업 목록 및 달력에서 작업 및 문제에 대한 문서 및 증명과 상호 작용할 수 있습니다. 새 문서 탭에서 다음을 수행할 수 있습니다.
 
 * 문서 업로드
 * 증명 만들기
 * 증명 뷰어 실행
 * 기타
 
-<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+자세한 내용은 [문서 업로드 및 우선 순위에서 증명 만들기](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)를 참조하십시오.
 
 ## 이제 우선 순위에서 달력 보기를 사용할 수 있습니다.
 
@@ -63,12 +63,14 @@ For more information, see [Catch up on work in Priorities](/help/quicksilver/wor
 >
 >미리보기 릴리스: 2024년 12월 19일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
 
-명확하고 시각적인 월 달력을 사용하여 작업을 쉽게 추적할 수 있습니다. 우선순위 달력을 사용하여 다음을 수행할 수 있습니다.
+이제 명확하고 시각적인 캘린더로 작업을 추적할 수 있습니다. 우선순위 달력을 사용하여 다음을 수행할 수 있습니다.
 
 * 필터를 사용하여 작업 찾기
-* 상태 및 포커스 수준과 같은 필드 표시
-* 빠른 우선 순위를 위해 색상 적용
+* 상태 및 포커스 수준과 같은 사용자 정의 필드를 적용하여 우선순위가 높은 작업을 식별합니다
+* 빠른 구성을 위해 색상 적용
 * 기타
+
+자세한 내용은 [우선 순위 달력에서 작업 관리](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)를 참조하십시오.
 
 ## 우선 순위 작업 목록 업데이트
 

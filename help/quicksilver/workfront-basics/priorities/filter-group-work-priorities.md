@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 7a6a34ee5b4986137a04d654cf58bfa5f2465715
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 6%
@@ -66,7 +66,7 @@ ht-degree: 6%
 {{step1-to-priorities}}
 
 1. 작업 목록 오른쪽 상단의 **필터**&#x200B;를 클릭합니다.
-1. 하나 이상의 필터를 선택하여 작업 항목 범위를 좁힙니다.
+1. 하나 또는 여러 필터를 선택하여 작업 항목 범위를 좁힙니다.
    ![](assets/filters.png)
 
 +++을 확장하여 사용 가능한 필터에 대한 자세한 정보 확인

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -267,7 +267,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             우선 순위에서 문서 및 증명 업로드 및 보기</a></p>
-            <p>이제 작업 및 문제에 대한 문서 및 증명과 상호 작용할 수 있습니다. 새 문서 탭에서 다음을 수행할 수 있습니다.</p>
+            <p>이제 작업 목록 및 달력에서 작업 및 문제에 대한 문서 및 증명과 상호 작용할 수 있습니다. 새 문서 탭에서 다음을 수행할 수 있습니다.</p>
             <ul>
                 <li>문서 업로드</li>
                 <li>증명 만들기</li>
@@ -287,11 +287,11 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             이제 우선 순위에서 달력 보기를 사용할 수 있습니다.</a></p>
-            <p>명확하고 시각적인 월 달력을 사용하여 작업을 쉽게 추적할 수 있습니다. 우선순위 달력을 사용하여 다음을 수행할 수 있습니다.</p>
+            <p>명확하고 시각적인 월 달력으로 작업을 추적할 수 있습니다. 우선순위 달력을 사용하여 다음을 수행할 수 있습니다.</p>
             <ul>
                 <li>필터를 사용하여 작업 찾기</li>
-                <li>상태 및 포커스 수준과 같은 필드 표시</li>
-                <li>빠른 우선 순위를 위해 색상 적용</li>
+                <li>상태 및 포커스 수준과 같은 사용자 정의 필드를 적용하여 우선순위가 높은 작업을 식별합니다</li>
+                <li>빠른 구성을 위해 색상 적용</li>
                 <li>기타</li>
             </ul>
         </td>

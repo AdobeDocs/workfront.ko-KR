@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: 우선 순위 작업 목록에서 프로젝트 및 작업 세부 정보 보기
+title: 우선 순위 작업 목록에서 프로젝트 및 작업 항목 세부 정보 보기
 description: 우선 순위 작업 목록에서 프로젝트 및 작업 세부 정보를 볼 수 있습니다.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 2%
+source-wordcount: '401'
+ht-degree: 1%
 
 ---
 
-# 우선 순위에서 프로젝트 및 작업 세부 정보 보기
+# 우선 순위에서 프로젝트 및 작업 항목 세부 정보 보기
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
@@ -80,13 +80,14 @@ ht-degree: 2%
 
 1. 작업 목록에서 작업 이름을 마우스로 가리킨 다음 **요약** 아이콘 ![요약 열기 아이콘](assets/summary-icon.png)을 클릭합니다.
 1. 기본적으로 작업이 선택되어 있습니다. 여기에서 다음을 수행할 수 있습니다
-   * 프로젝트 세부 정보 및 설명 보기 및 편집
+   * 프로젝트 및 작업 세부 정보 및 설명 보기 및 편집
    * 프로젝트에 대한 댓글 보기 및 추가
    * <span class="preview">문서 보기 및 추가</span>
    * <span class="preview">증명 만들기</span>
    * 로그 시간
    * 파일 추가
    * 빠른 링크 추가
+
 
    ![작업 세부 정보](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
@@ -97,7 +98,7 @@ ht-degree: 2%
 
 1. 작업 목록에서 작업 이름을 마우스로 가리킨 다음 **요약** 아이콘 ![요약 열기 아이콘](assets/summary-icon.png)을 클릭합니다.
 1. 기본적으로 문제가 선택되어 있습니다. 여기에서 다음을 수행할 수 있습니다
-   * 프로젝트 세부 정보 및 설명 보기 및 편집
+   * 프로젝트 및 문제 세부 정보 및 설명 보기 및 편집
    * 프로젝트에 대한 댓글 보기 및 추가
 * <span class="preview">문서 보기 및 추가</span>
 * <span class="preview">증명 만들기</span>
