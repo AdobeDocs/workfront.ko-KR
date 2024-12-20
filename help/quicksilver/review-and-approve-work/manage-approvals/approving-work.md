@@ -6,7 +6,7 @@ description: 작업 승인
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
+source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
@@ -93,7 +93,7 @@ Workfront의 다양한 영역에서 승인을 보고 관리할 수 있습니다.
       <p><strong>문서</strong></p>
       </td>
       <td>
-      <p><strong>증명</strong></p>
+      <p><strong>교정쇄</strong></p>
       </td>
    </tr>
    <tr>
@@ -168,7 +168,7 @@ Workfront의 다양한 영역에서 승인을 보고 관리할 수 있습니다.
 1. 승인 프로세스를 승인 또는 거부할지 여부에 따라 **승인** 또는 **거부**&#x200B;를 클릭합니다.\
    이제 승인 보류 중이던 승인 단계가 승인되고, 승인 진행이 다음 단계로 넘어간다. 모든 단계가 승인된 후 상태가 승인됩니다.
 
-## 문서에서 직접 문서 승인 
+## 문서에서 직접 문서 승인
 
 1. 승인이 필요한 문서가 포함된 문서 영역으로 이동합니다.
 1. 문서를 선택한 다음 **승인**, **변경** 또는 **거부**&#x200B;를 클릭합니다.\
