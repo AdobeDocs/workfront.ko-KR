@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: b637694c598540343383af15658a069c305f6bbf
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1000'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### 일정 보기 [!BADGE 준비 중] 사용{type=Informative}
+### 일정 보기 [!BADGE 미리 보기에서 사용 가능] 사용{type=Informative}
 
 달력 보기에서는 작업 및 문제를 시각적으로 표시합니다. 일, 주 또는 월 보기 중에서 선택할 수 있습니다. 또한 작업 목록과 유사한 방식으로 항목을 필터링할 수도 있습니다.
 
@@ -190,11 +190,11 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 * 증명 뷰어를 시작하여 주석 남기기 및 결정
 
 
-## [!DNL Catch me up]을(를) 사용하여 놓친 항목 확인 [!BADGE 곧 출시]{type=Informative}
+## [!DNL Catch me up]을(를) 사용하여 [!BADGE 미리 보기에서 사용 가능] 항목을 봅니다.{type=Informative}
 
 [!DNL Catch me up] 기능을 사용하여 놓친 내용을 확인하세요. Catch me는 업데이트, 업로드된 문서, 승인 및 프로젝트에 대한 기타 주요 변경 사항을 24시간, 3일, 7일 이내에 요약합니다.
 
-<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
+자세한 내용은 [우선 순위에서 작업 따라잡기](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)를 참조하십시오.
 
 ![](assets/catch-me-up.png)
 

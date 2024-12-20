@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 046bbabbfe3944d9fea9008ac60547b602f95f68
+source-git-commit: 998f30661c4bc3e6a16328b194a950f942319335
 workflow-type: tm+mt
-source-wordcount: '14757'
+source-wordcount: '14763'
 ht-degree: 2%
 
 ---
@@ -913,6 +913,7 @@ ht-degree: 2%
       * [우선 순위에 시간 기록](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
       * [우선 순위로 파일 업로드](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
       * [우선 순위에 빠른 링크 추가 및 관리](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+      * [우선 순위에서 작업 따라잡기](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
       * [문서 업로드 및 우선 순위에서 증명 만들기](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
       * [우선 순위 달력에서 작업 관리](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * 홈 {#home}

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2380'
 ht-degree: 0%
 
 ---
@@ -234,21 +234,21 @@ ht-degree: 0%
             <p><span class="bold">릴리스 날짜</span></p>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Catch up on work in Priorities</a></p>
-            <p>You can use Catch me up to help reduce the amount of time looking for information on active projects.</p>
-            <p>Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.</p>
+            우선 순위에서 작업 따라잡기</a></p>
+            <p>Catch me up을 사용하면 활성 프로젝트에 대한 정보를 찾는 시간을 줄일 수 있습니다.</p>
+            <p>Workfront의 AI Assistant를 기반으로 하는 Catch me up은 24시간, 3일 또는 7일 이내의 기간 동안 업데이트, 업로드된 문서 및 프로젝트에 대한 기타 주목할 만한 변경 사항을 요약합니다.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
-                <li>Preview release: December 20, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>미리보기 릴리스: 2024년 12월 20일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
