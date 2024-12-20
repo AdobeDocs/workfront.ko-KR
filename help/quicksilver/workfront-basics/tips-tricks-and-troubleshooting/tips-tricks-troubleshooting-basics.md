@@ -1,20 +1,22 @@
 ---
-title: ' [!DNL Adobe Workfront] 기본 사항에 대한 팁, 요령 및 문제 해결'
-description: ' [!DNL Adobe Workfront] 기본 사항에 대한 팁, 요령 및 문제 해결'
+title: ' [!DNL Adobe Workfront]에 대한 팁, 요령 및 문제 해결: 문서 색인'
+description: 문제 해결 팁을 배우거나 이 섹션의 문서를 검토하면서 몇 가지 자주 묻는 질문에 대한 답변을 찾아보십시오.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] 기본 사항에 대한 팁, 요령 및 문제 해결
+# [!DNL Adobe Workfront]에 대한 팁, 요령 및 문제 해결: 문서 인덱스
 
-이 섹션에는 다음 문서가 포함됩니다.
+<!--Audited: 12/2024-->
+
+문제 해결 팁을 배우거나 FAQ에 대한 답변을 찾아보되 다음 문서를 검토하십시오.
 
 * [ [!DNL Adobe Workfront]에서 도움말 찾기에 대한 빠른 안내](../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
 * [고객 지원 문의](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
@@ -27,3 +29,4 @@ ht-degree: 0%
 * [ [!DNL Adobe Workfront]에서 날짜 형식 변경](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
 * [내가 진행 중인 프로젝트에 예기치 않은 결과가 포함됨](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
 * [여러 브라우저 탭으로 인해 Workfront이 로그아웃됨](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+* [알림을 생성하지 않고 오브젝트를 공유하는 방법](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,18 @@ ht-degree: 0%
 
 2024년 8월 28일 일반 출시 이후 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록에 대해서는 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
+
+## 이제 Adobe Experience Manager 자산과의 연결 필드가 요청 양식에서 지원됩니다
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 12월 20일, 모든 고객을 위한 프로덕션 릴리스: 2025년 1월 16일
+
+이제 AEM Assets가 있는 연결 필드를 Workfront Planning의 레코드 유형 요청 양식에 추가할 수 있습니다.
+
+이 개선 이전에는 이러한 유형의 필드를 요청 양식에 추가할 수 없었습니다.
+
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 ## Workfront Planning 요청에 대한 승인 구성
 

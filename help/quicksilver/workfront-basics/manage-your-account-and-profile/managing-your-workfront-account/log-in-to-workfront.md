@@ -6,14 +6,16 @@ description: 이 문서를 읽고 Workfront에 로그인하는 방법을 알아�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront]에 로그인
+
+<!--Audited: 2024-->
 
 {{important-not-on-aec}}
 
@@ -33,6 +35,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -42,17 +46,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td> 
+   <p>새로운 기능: [!UICONTROL Contributor] 이상</p>
+   <p>현재: [!UICONTROL Request] 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜 또는 라이선스 유형을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## SSO 없이 [!DNL Workfront]에 로그인
 

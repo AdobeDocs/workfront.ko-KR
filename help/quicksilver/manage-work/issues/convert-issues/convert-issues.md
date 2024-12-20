@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1476'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,11 @@ ht-degree: 2%
 
    * 변환 중에 문제 및 해결 방법을 생성 중인 프로젝트 또는 작업에 계속 연결할 것인지 여부를 묻는 메시지가 표시될 수 있습니다.
    * 문제를 유지하면 프로젝트, 작업 또는 문제에 변경 사항이 있거나 Workfront이 타임라인을 다시 계산할 때 프로젝트 또는 작업의 상태 및 완료율이 문제의 상태 및 완료율을 자동으로 업데이트합니다.
+
+  >[!NOTE]
+  >
+  >   문제 상태가 마감됨(작업 또는 프로젝트 마감 결과)이 되면 마감 후 작업 또는 프로젝트가 어떤 상태로 변경되는지에 관계없이 문제는 마감됨 상태로 유지됩니다.
+
 
 * 문제를 작업 또는 프로젝트로 전환할 때 문제에 할당된 사용자의 홈 영역에서 문제가 제거됩니다.
 
@@ -76,7 +81,7 @@ ht-degree: 2%
    <td>템플릿의 그룹에 대해 선택된 기본 상태입니다. 템플릿이 그룹과 연결되어 있지 않으면 프로젝트 상태는 [설정]의 [프로젝트 환경 설정] 영역에서 Workfront 관리자가 설정한 기본 상태로 설정됩니다. 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>을 참조하십시오.</td> 
   </tr> 
   <tr> 
-   <td>우선 순위</td> 
+   <td>우선순위</td> 
    <td><p>문제에서 전송.</p>
    <p>변환된 프로젝트에 템플릿을 사용하는 경우 우선순위를 수동으로 변경할 수 있는 옵션이 있습니다. 변경하지 않기로 선택한 경우 문제의 우선순위가 프로젝트로 이전됩니다. 
     </td> 
@@ -94,7 +99,7 @@ ht-degree: 2%
    <td>Workfront 관리자가 설정 영역에서 결정한 시스템 수준 기본 설정과 일치합니다. 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">프로젝트 기본값으로 사용자 지정 조건 설정</a>을 참조하십시오.</td> 
   </tr> 
   <tr> 
-   <td>일정 출처:</td> 
+   <td>일정 기준</td> 
    <td>템플릿에서 전송합니다.</td> 
   </tr> 
   <tr> 
@@ -106,7 +111,7 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>포트폴리오</td> 
    <td>템플릿에서 전송합니다. 그렇지 않으면 이 필드는 비어 있습니다.</td> 
   </tr> 
   <tr> 

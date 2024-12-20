@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 2%
 
 ---
@@ -150,13 +150,11 @@ ht-degree: 2%
    >    * 생성 날짜 및 마지막 수정 날짜
    >    * Workfront 개체의 조회 필드
    >    * Workfront Planning 연결된 레코드의 조회 필드
-   >    * AEM Assets 연결된 필드
    >* 다음 유형의 필드는 프로덕션 환경의 요청 양식에 표시되지 않습니다. <span class="preview">미리 보기 환경에 표시됩니다.</span>
    >    * <span class="preview"> Workfront Planning 레코드의 연결된 필드</span>
    >    * <span class="preview">사람 </span>
    >    * <span class="preview">Workfront 개체의 연결된 필드</span>
    >    * <span class="preview">AEM Assets 연결 필드 </span>
-
 
    * **기본 섹션**: Workfront이 요청 양식에 적용하는 기본 섹션 구분입니다. 기본 섹션의 이름을 변경하거나 제거할 수 없습니다.
    * **제목** 필드: Workfront에서 요청을 식별하는 필드입니다. 이 기능은 프로덕션 환경에서는 아직 사용할 수 없습니다. <span class="preview">미리 보기 환경에서 사용할 수 있습니다.</span> 구성 및 제목 필드의 값을 편집할 수 없습니다.

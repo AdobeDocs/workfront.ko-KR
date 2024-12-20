@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: fe41b9209d4034e6685db313c8cbfef9c13eda28
+source-git-commit: 046bbabbfe3944d9fea9008ac60547b602f95f68
 workflow-type: tm+mt
-source-wordcount: '14747'
+source-wordcount: '14757'
 ht-degree: 2%
 
 ---
@@ -918,7 +918,7 @@ ht-degree: 2%
    * 홈 {#home}
       * [홈](workfront-basics/using-home/home.md)
       * 홈 영역 {#use-home-area} 사용
-         * [홈 영역 사용](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+         * [홈 영역 사용: 문서 색인](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [홈 시작](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [새 홈에서 위젯 추가, 편집 또는 제거](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [홈 영역의 작업 목록에 항목 표시](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
@@ -1038,7 +1038,7 @@ ht-degree: 2%
          * [Adobe Workfront 모바일 앱에 대한 팁, 요령 및 문제 해결](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
          * [Adobe Workfront 모바일 앱에 오류 메시지: &quot;계정이 API를 사용할 수 없습니다.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
    * Adobe Workfront 기본 사항 {#tips-tricks-for-basics}에 대한 팁, 요령 및 문제 해결
-      * [Adobe Workfront 기본 사항에 대한 팁, 요령 및 문제 해결](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
+      * [Adobe Workfront에 대한 팁, 요령 및 문제 해결: 문서 색인](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [Adobe Workfront에서 도움말 찾기에 대한 빠른 안내서](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
       * [Adobe Workfront에서 날짜 형식 변경](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
       * [고객 지원 문의](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
@@ -1049,7 +1049,8 @@ ht-degree: 2%
       * [Workfront Proof Manager 권한 문제 해결](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
       * [필터 단추가 페이지 헤더에 표시되지 않음](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [내가 진행 중인 프로젝트에 예기치 않은 결과가 포함됨](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-      * [여러 브라우저 탭으로 인해 Workfront이 로그아웃됨](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [여러 브라우저 탭으로 인해 Workfront이 로그아웃됨](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [알림을 생성하지 않고 오브젝트를 공유하는 방법](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
 * 애자일 {#agile}
    * [애자일](agile/agile.md)
    * [보드 개요](agile/boards-overview.md)

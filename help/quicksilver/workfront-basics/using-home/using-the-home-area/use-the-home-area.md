@@ -1,22 +1,24 @@
 ---
 content-type: reference
 navigation-topic: home-navigation-topic
-title: 홈 영역 사용
+title: '홈 영역 사용: 기사 색인'
 description: Adobe Workfront에서 홈 영역을 사용하는 방법을 알아보려면 이 문서를 검토하십시오.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 403fcb01d5a06c257e830724e6e02f0936cc106a
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
-# 홈 영역 사용
+# 홈 영역 사용: 문서 색인
 
-이 섹션에는 다음 문서가 포함됩니다.
+<!--Audited: 12/2024-->
+
+Adobe Workfront에서 홈 영역을 사용하는 방법을 알아보려면 이 문서를 검토하십시오.
 
 * [[!UICONTROL 홈] 시작](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [새 홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)

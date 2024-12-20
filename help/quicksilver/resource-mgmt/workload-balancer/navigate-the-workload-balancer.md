@@ -6,14 +6,16 @@ description: 업무 균형자 를 사용하여 리소스의 가용성을 이해�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4070'
 ht-degree: 0%
 
 ---
 
 # 업무 균형자 탐색
+
+<!--Audited: 12/2024-->
 
 Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용자에게 작업을 할당할 수 있습니다. 이 문서에서는 설정 및 옵션을 사용하여 업무 균형자 를 탐색하고 사용자와 관련된 정보를 표시하는 방법에 대해 설명합니다. 여기에 나열된 추가 문서에서는 업무 균형자 를 사용하여 리소스 및 작업 할당을 관리하는 방법을 설명합니다.
 
@@ -36,7 +38,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td><p>새로운 기능: 표준</p>
        <p>또는</p>
        <p>현재: 리소스 조달 영역에서 업무 균형자 사용 시 계획;</br>
@@ -60,7 +62,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -229,7 +231,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 1. 프로젝트 이름(미할당 영역) 및 사용자 이름(할당 영역) 아래의 모든 항목을 축소하려면 미할당 또는 할당 영역 왼쪽에 있는 **아래쪽 방향 화살표**&#x200B;를 클릭합니다.
 
-1. 왼쪽 패널과 타임라인 영역 사이에 **분리선**&#x200B;을 끌어서 놓아 왼쪽 패널의 크기를 조정합니다.
+1. 마우스를 위에 올린 다음 왼쪽 패널과 타임라인 영역 사이의 **분리선**&#x200B;을 끌어서 놓아 왼쪽 패널의 크기를 조정합니다.
 
    ![분리선](assets/wb-adjust-panel-size.png)
 
