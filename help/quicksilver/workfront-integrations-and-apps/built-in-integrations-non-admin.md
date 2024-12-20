@@ -7,9 +7,9 @@ description: ' [!DNL Adobe Workfront] 을(를) 타사 응용 프로그램과 통
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '502'
 ht-degree: 3%
 
 ---
@@ -99,8 +99,7 @@ ht-degree: 3%
    <td role="rowheader">Microsoft 캘린더(Office 365/Outlook Live)</td> 
    <td> 
     <ul> 
-     <li> <p>클라우드 호스팅 Office 365 또는 Outlook Live에서 웹 기반 버전의 Outlook과 통합됩니다. </p> </li> 
-     <li> <p>[!DNL Outlook] 캘린더의 모든 이벤트와 선택한 관련 캘린더(예: 생일 및 휴일 캘린더)를 홈 캘린더에 표시합니다.</p>  <p>참고: Outlook 일정 구성은 Outlook 추가 기능(Outlook 통합 또는 Outlook용 Workfront)과 완전히 별개입니다. 달력을 구성하는 데 필요한 설치가 없습니다.</p></li> 
+     <li> <p>클라우드 호스팅 Office 365 또는 Outlook Live에서 웹 기반 버전의 Outlook과 통합됩니다. </p>
     </ul> </td> 
   </tr> 
   <tr> 
