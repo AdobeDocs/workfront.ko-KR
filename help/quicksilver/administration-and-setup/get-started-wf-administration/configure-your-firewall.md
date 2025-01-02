@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,6 @@ ht-degree: 0%
 * [클러스터 10을 허용할 IP 주소](#ip-addresses-to-allow-for-cluster-10)
 * 테스트 드라이브를 허용할 [IP 주소](#IP%20Addre2)
 * [이벤트 구독을 구현할 때 허용할 IP 주소](#ip-addresses-to-allow-when-implementing-event-subscriptions)
-* [향상된 인증을 허용하는 IP 주소](#ip-addresses-to-allow-for-enhanced-authentication)
 * [Workfront Fusion 액세스를 위해 추가할 IP 주소](#ip-addresses-to-add-for-accessing-workfront-fusion)
 * [Jira용 Workfront 사용을 위해 추가할 IP 주소](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [모든 클러스터에 추가할 URL Workfront](#urls-to-add-for-all-clusters-workfront)
@@ -289,70 +288,6 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### 향상된 인증을 허용하는 IP 주소 {#ip-addresses-to-allow-for-enhanced-authentication}
-
-미리 보기 또는 프로덕션에 대해 향상된 인증을 사용하려면 다음 IP 주소를 추가하십시오.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">환경이 클러스터 1, 2, 3, 5, 7, 8 또는 9에 있는 경우</td> 
-   <td> 
-    <ul> 
-     <li>35.167.74.121</li> 
-     <li>35.166.202.113</li> 
-     <li>35.160.3.103</li> 
-     <li>54.183.64.135</li> 
-     <li>54.67.77.38</li> 
-     <li>54.67.15.170</li> 
-     <li>54.183.204.205</li> 
-     <li>35.171.156.124</li> 
-     <li>18.233.90.226</li> 
-     <li>3.211.189.167</li> 
-     <li>18.232.225.224</li> 
-     <li>34.233.19.82</li> 
-     <li>52.204.128.250</li> 
-     <li>3.132.201.78</li> 
-     <li>3.19.44.88</li> 
-     <li>3.20.244.231</li> 
-     <li>54.244.142.219</li> 
-     <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">환경이 Cluster 4에 있는 경우</td> 
-   <td> 
-    <ul> 
-     <li>52.28.56.226</li> 
-     <li>52.28.45.240</li> 
-     <li>52.16.224.164</li> 
-     <li>52.16.193.66</li> 
-     <li>34.253.4.94</li> 
-     <li>52.50.106.250</li> 
-     <li>52.211.56.181</li> 
-     <li>52.213.38.246</li> 
-     <li>52.213.74.69</li> 
-     <li>52.213.216.142</li> 
-     <li>35.156.51.163</li> 
-     <li>35.157.221.52</li> 
-     <li>52.28.184.187</li> 
-     <li>52.28.212.16</li> 
-     <li>52.29.176.99</li> 
-     <li>52.57.230.214</li> 
-     <li>54.76.184.103</li> 
-     <li>52.210.122.50</li> 
-     <li>52.208.95.174</li> 
-     <li>52.30.133.50</li> 
-     <li>54.220.93.204</li> 
-     <li>34.254.76.122</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Workfront Fusion 액세스를 위해 추가할 IP 주소  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
 Workfront Fusion을 활성화하려면 다음 IP 주소를 허용 목록에 추가하다에 추가하십시오.
@@ -394,7 +329,7 @@ Workfront Fusion을 활성화하려면 다음 IP 주소를 허용 목록에 추�
  </tbody> 
 </table>
 
-또한 조직에서 아웃바운드 네트워크 필터링을 사용하는 경우 허용 목록에 추가하다에 다음 도메인을 추가하여 시스템이 Workfront Fusion에 액세스할 수 있도록 합니다.
+또한 조직에서 아웃바운드 네트워크 필터링을 사용하는 경우 허용 목록에 추가하다에 다음 도메인을 추가하여 시스템이 Workfront Fusion에 액세스할 수 있도록 합니다. 이러한 URL은 Fusion에서 웹후크에 사용됩니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -485,9 +420,12 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
 * auth.split.io
 * rum-http-intake.logs.datadoghq.com
 * mfe.static.workfront.com
-* https://app.pendo.io/
-* https://cdn.pendo.io/
+* fonts.gstatic.com
+* dpm.demdex.net
+* storage.googleapis.com
+* *.aptrinsic.com
 * *.static.workfront.com
+
 
   다음 도메인을 모두 제외하는 정적 도메인입니다. 원하는 경우 개별 도메인을 추가할 수 있습니다.
 
@@ -496,6 +434,29 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
    * mfe-preview-c.static.workfront.com
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
+
+조직이 통합 경험 Adobe에 있는 경우 다음 도메인을 사용합니다. 이러한 도메인은 `*.adobe.com`에 포함되어 있지만 필요한 경우 추가할 수 있습니다.
+
+* &lt;사용자 도메인>.my.workfront.adobe.com
+* &lt;사용자 도메인>.preview.workfront.adobe.com
+* &lt;사용자 도메인>.sb01.workfront.adobe.com
+* &lt;사용자 도메인>.sb02.workfront.adobe.com
+
+
+Workfront Fusion의 경우 다음 도메인을 추가합니다.
+
+* Adobe 통합 환경에 없는 조직의 경우:
+   * app.workfrontfusion.com (미국 AWS)
+   * app-eu.workfrontfusion.com (EU AWS)
+   * app-az.workfrontfusion.com (미국 Azure)
+
+* 통합 경험 Adobe의 조직용
+(이러한 도메인은 `*.adobe.com`에 포함되어 있지만 필요한 경우 추가할 수 있습니다.)
+
+   * fusion.adobe.com
+   * app-eu.fusion.adobe.com
+   * app-az.fusion.adobe.com
+
 
 
 ## 모든 클러스터에 추가할 URL Workfront {#urls-to-add-for-all-clusters-workfront}
