@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
+source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 자세한 내용은 [비즈니스 리더 개요](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md)를 참조하십시오.
 
-이 기능은 이제 Workfront One의 [관리자 기본 사항, 1부 학습 경로](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)에 포함되어 있습니다.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 관리자를 위한 새로운 기능: 포트폴리오, 프로그램 및 회사를 그룹과 연결
 
@@ -83,7 +83,7 @@ Workfront 관리자는 포트폴리오, 프로그램 또는 회사를 만들거�
 
 자세한 내용은 문서 [그룹 개요](../../../administration-and-setup/manage-groups/groups-overview/groups.md)의 &quot;그룹과 개체 연결 정보&quot; 섹션을 참조하십시오.
 
-이 기능은 이제 Workfront One의 [관리자 기본 사항, 1부 학습 경로](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)에 포함되어 있습니다.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 관리자용 새로운 기능: 회사에 할당된 그룹의 관리자가 회사를 관리할 수 있음
 
@@ -93,7 +93,7 @@ Workfront 관리자는 포트폴리오, 프로그램 또는 회사를 만들거�
 
 회사에 대한 관리 액세스 권한에 대한 자세한 내용은 [특정 영역에 대한 사용자 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
 
-이 기능은 이제 Workfront One의 [관리자 기본 사항, 1부 학습 경로](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)에 포함되어 있습니다.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 처리 중 단추를 시작 단추로 바꾸기
 
@@ -103,7 +103,7 @@ Workfront 관리자는 포트폴리오, 프로그램 또는 회사를 만들거�
 
 이 옵션 구성에 대한 자세한 내용은 [처리 중 단추를 시작 단추로 바꾸기](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)를 참조하십시오.
 
-이 기능은 이제 Workfront One의 [작업자 기본 학습 경로](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) 및 [관리자 기본 사항, 1부 학습 경로](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)에 포함되어 있습니다.
+<!--This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 대기열 주제에 대해 여러 초안 허용
 
@@ -111,7 +111,7 @@ Workfront 관리자는 포트폴리오, 프로그램 또는 회사를 만들거�
 
 이 개선 이전에는 Workfront에서 요청 대기열의 각 대기열 주제에 대해 초안을 하나만 저장했습니다.
 
-요청 제출에 대한 자세한 내용은 &quot;[Workfront 요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
+요청 제출에 대한 자세한 내용은 [Workfront 요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
 ## 팀에 그룹 할당
 
@@ -121,7 +121,7 @@ Workfront 관리자는 포트폴리오, 프로그램 또는 회사를 만들거�
 
 자세한 내용은 [팀 만들기](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)를 참조하세요.
 
-이 기능은 이제 Workfront One의 [관리자 기본 사항, 1부 학습 경로](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)에 포함되어 있습니다.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 새 필드를 사용하면 최상위 수준 그룹 및 모든 하위 그룹의 데이터에 대해 보고할 수 있습니다
 
