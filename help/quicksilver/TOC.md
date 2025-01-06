@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 998f30661c4bc3e6a16328b194a950f942319335
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '14763'
+source-wordcount: '14767'
 ht-degree: 2%
 
 ---
@@ -1852,7 +1852,7 @@ ht-degree: 2%
       * [제출된 승인 회수](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * 자산 및 문서 검토 및 승인 {#document-reviews-and-approvals}
       * [자산 및 문서 검토 및 승인: 문서 색인](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [자산 및 문서 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+      * [자산 및 문서 검토 및 승인을 위해 사용 가능한 기능](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [새 문서 승인 개요](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [문서 의사 결정 상태 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * 자산 및 문서 승인 설정 및 관리 {#manage-asset-review-and-approval}

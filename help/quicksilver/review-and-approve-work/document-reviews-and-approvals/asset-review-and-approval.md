@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 자산 및 문서 승인 개요
+title: 자산 및 문서 검토 및 승인을 위해 사용 가능한 기능
 description: Workfront에서 검토 및 승인을 위해 사용할 수 있는 시스템의 개요입니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9bce16218e002912883994ce2ced6c9d2fce93e7
+exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
-
-# 자산 및 문서 승인 개요
+# 자산 및 문서 검토 및 승인을 위해 사용 가능한 기능
 
 현재 Workfront에서 에셋 및 문서 검토 및 승인을 위해 사용할 수 있는 시스템은 세 가지입니다.
 
@@ -85,4 +85,6 @@ ht-degree: 0%
 
 * 기본 또는 자동화된 워크플로 사용
 
-
+<!--
+## Upcoming deprecations
+-->
