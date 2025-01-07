@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
+source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
   <tr>
    <td><strong>[!DNL Adobe Workfront] 계획</strong>
    </td>
-   <td> Prime 또는 Ultimate(신규 계획만 해당)
+   <td> Prime 또는 Ultimate(새 계획만 해당)
    </td>
   </tr>
   <tr>
@@ -105,3 +105,15 @@ ht-degree: 0%
 1. 패키지를 설치하려면 화면 오른쪽 상단의 **설치**&#x200B;를 클릭합니다.
 
    패키지 설치에 대한 지침은 [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)를 참조하십시오.
+
+## 개체 비교에서 패키지 만들기
+
+개체 비교에서 직접 패키지를 만들 수 있습니다.
+
+1. [환경 간 개체 비교](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)에 설명된 대로 개체 비교를 만듭니다.
+1. 생성된 비교에서 패키지에 포함할 객체를 선택합니다.
+1. 화면 오른쪽 상단의 **패키지 만들기**&#x200B;를 클릭합니다.
+1. 패키지의 이름 및 설명을 입력합니다.
+1. 패키지 만들기 창에서 **패키지 만들기**&#x200B;를 클릭합니다.
+
+   패키지가 생성됩니다.
