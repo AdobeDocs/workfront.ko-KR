@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: fa70a7ae5d8edce9dab4ca2ac4c2266b2c463734
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1063'
 ht-degree: 1%
 
 ---
@@ -52,8 +52,8 @@ ht-degree: 1%
 
 | 프로모션 가능 개체 | 포함된 프로모션 가능 연결된 오브젝트 |
 | --- | --- |
-| 프로젝트(프로젝트) | 프로젝트<br>작업<br>할당<br>전임 작업<br>회사<br>재정의 비율<br>그룹<br>역할<br>팀<br>승인 프로세스<br>승인 경로<br>승인 단계<br>단계 승인자<br>일정<br>비근무일<br>대기열 정의<br>대기열 주제 그룹<br>대기열 주제<br>라우팅 규칙<br>마일스톤 경로<br>마일스톤<br>시간 유형<br>리소스 풀<br>범주<br>범주<br>매개변수<br>매개변수 그룹<br> 6}매개 변수 옵션<br>범주 표시 논리 |
-| 템플릿(TMPL) | 템플릿<br>템플릿 작업<br>템플릿 작업 할당<br>템플릿 작업 전임 작업<br>회사<br>재정의 비율<br>그룹<br>역할<br>팀<br>승인 프로세스<br>승인 경로<br>승인 단계<br>단계 승인자<br>일정<br>비근무일<br>대기열 정의<br>대기열 주제 그룹<br>대기열 주제<br>라우팅 규칙<br>마일스톤 경로<br>마일스톤<br>시간 유형<br>리소스 풀<br>범주<br>범주{24{매개 변수 25}매개 변수 그룹<br>매개 변수 옵션<br>범주 표시 논리<br><br> |
+| 프로젝트(프로젝트) | 프로젝트<br>작업<br>할당<br>전임 작업<br>회사<br>재정의 비율<br>그룹<br>역할<br>팀<br>승인 프로세스<br>승인 경로<br>승인 단계<br>단계 승인자<br>일정<br>비근무일<br>대기열 정의<br>대기열 주제 그룹<br>대기열 주제<br>라우팅 규칙<br>마일스톤 경로<br>마일스톤<br>시간 유형<br>리소스 풀<br>범주<br>범주<br>매개변수<br>매개변수 group<br>매개 변수 옵션<br>범주 표시 논리 |
+| 템플릿(TMPL) | 템플릿<br>템플릿 작업<br>템플릿 작업 할당<br>템플릿 작업 전임 작업<br>회사<br>재정의 비율<br>그룹<br>역할<br>팀<br>승인 프로세스<br>승인 경로<br>승인 단계<br>단계 승인자<br>일정<br>비근무일<br>대기열 정의<br>대기열 주제 그룹<br>대기열 주제<br>라우팅 규칙<br>마일스톤 경로<br>마일스톤<br>시간 유형<br>리소스 풀<br>범주<br>범주<br>매개변수 매개 변수<br>매개 변수 그룹<br>매개 변수 옵션<br>범주 표시 논리 |
 
 ### 보고 개체
 
@@ -101,6 +101,7 @@ ht-degree: 1%
 | 리소스 풀(RSPL) | 리소스 풀 |
 | 액세스 수준(ACSLVL) | 액세스 수준 |
 | <span class="preview">등급 카드(RTCRD)</span> | <span class="preview">등급 카드</span> |
+| <span class="preview">위치/분류자(CLSF)</span> | <span class="preview">위치/분류자</span> |
 
 \* 현재 사용할 수 없음
 
