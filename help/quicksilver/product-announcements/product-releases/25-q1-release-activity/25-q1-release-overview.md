@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2478'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,34 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           환경 프로모션을 위해 환경 간에 객체 비교</a></p>
+            <p>환경 프로모션 패키지에 포함해야 하는 오브젝트를 더 쉽게 결정할 수 있도록 환경 간에 오브젝트를 비교하는 기능을 추가했습니다. 그런 다음 이 비교에서 직접 패키지에 개체를 추가할 수 있습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 1월 6일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            환경 프로모션에 사용할 수 있는 추가 오브젝트</a></p>
+            <p>환경 프로모션 기능의 기능을 확장하기 위해 더 많은 개체를 추가했습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 1월 6일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
+            </ul>
+        </td>
+    </tr>  
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             기록된 시간이 있을 때 작업 이동 방지</a></p>
             <p>시간이 기록된 작업 또는 문제를 이동하면 경우에 따라 준수 또는 감사 문제가 발생할 수 있으므로 작업 및 문제에 기록된 시간이 있는 경우 사용자가 작업 및 문제를 이동할 수 없도록 하는 기본 설정을 설정의 작업 및 문제 기본 설정 영역에 추가했습니다.</p>
         </td>
@@ -71,7 +99,7 @@ ht-degree: 0%
                 <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</li>
             </ul>
         </td>
-    </tr>  
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
