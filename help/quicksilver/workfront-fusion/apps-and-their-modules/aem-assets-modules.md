@@ -6,20 +6,20 @@ product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets 모듈
-description: ' [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] 계정의  [!DNL Adobe Experience Manager Assets] 커넥터를 사용하여 자산을 만들고, 업로드하고, 업데이트하고, 폴더 및 자산을 복사하거나 이동합니다.'
+description: ' [!DNL Adobe Workfront Fusion]용  [!DNL Adobe Experience Manager Assets] 커넥터를 사용하면 자산을 만들고, 업로드하고, 업데이트하고, 폴더 및 자산을 복사하거나 이동할 수 있습니다.'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: a287bc6d7d4755deb19296523d1666f0fcb60526
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets]개 모듈
 
-[!DNL Adobe Workfront Fusion]에 대한 [!DNL Adobe Experience Manager Assets] 커넥터를 사용하면 [!DNL Adobe Experience Manager Assets] 계정의 이벤트를 기반으로 시나리오를 시작하고, 자산을 만들고, 업로드하고, 업데이트하며, 폴더 및 자산을 복사하거나 이동할 수 있습니다.
+[!DNL Adobe Workfront Fusion]에 대한 [!DNL Adobe Experience Manager Assets] 커넥터를 사용하면 자산을 만들고, 업로드하고, 업데이트하고, 폴더 및 자산을 복사하거나 이동할 수 있습니다.
 
 Adobe Experience Manager Assets 커넥터에 대한 소개는 다음을 참조하십시오.
 
