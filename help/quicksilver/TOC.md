@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2b1b167bd3645431399c2eb60e300cd958dfa03a
 workflow-type: tm+mt
-source-wordcount: '14771'
+source-wordcount: '14782'
 ht-degree: 2%
 
 ---
@@ -187,6 +187,7 @@ ht-degree: 2%
          * [21.1 기타 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion 릴리스 활동 {#fusion-release}
          * [Adobe Workfront Fusion 릴리스 활동](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion 릴리스 활동: 2025년 1월 6일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2025-1-6.md)
          * [Workfront Fusion 릴리스 활동: 2024년 12월 16일의 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-16.md)
          * [Workfront Fusion 릴리스 활동: 2024년 12월 2일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
          * [Workfront Fusion 릴리스 활동: 2024년 11월 25일의 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
@@ -2307,6 +2308,7 @@ ht-degree: 2%
       * [Adobe PDF 서비스 모듈](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Adobe Photoshop 모듈](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
       * [Adobe Target 모듈](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+      * [Adobe 사용자 관리 모듈](workfront-fusion/apps-and-their-modules/adobe-user-management-modules.md)
       * [에어테이블 모듈](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Allocadia 모듈](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
       * [Anaplan 모듈](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
