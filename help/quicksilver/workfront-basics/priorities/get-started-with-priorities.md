@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: da688217a1240b74667f31d20e086164e1536576
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 3%
+source-wordcount: '1014'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 ### 필터를 사용하여 작업 찾기
 
-필터를 사용하여 가장 중요한 작업을 찾습니다. <!--<span class="preview">You can use a natural language to find work with the Smart filter</span>, or -->
+필터를 사용하여 가장 중요한 작업을 찾습니다. <span class="preview">자연어를 사용하여 스마트 필터로 작업을 찾을 수 있습니다</span> 또는
 표준 필터를 사용하여 자신에게 할당된 작업 및 문제를 찾을 수 있습니다.
 
 <table>

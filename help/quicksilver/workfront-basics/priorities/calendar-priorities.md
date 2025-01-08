@@ -5,13 +5,13 @@ description: 명확하고 시각적인 캘린더로 작업을 추적합니다.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '538'
 ht-degree: 4%
 
 ---
-
 
 # 우선 순위 달력에서 작업 관리
 
@@ -22,6 +22,11 @@ ht-degree: 4%
 * 필터를 사용하여 작업 찾기
 * 상태 및 포커스 수준과 같은 사용자 정의 필드를 적용하여 우선순위가 높은 작업을 식별합니다
 * 빠른 구성을 위해 색상 적용
+
+>[!IMPORTANT]
+>
+>프로젝트뿐만 아니라 하위 작업 및 문제를 표시하려면 프로젝트가 현재 상태 또는 현재와 동일한 상태여야 합니다.
+
 
 ## 액세스 요구 사항
 
@@ -154,4 +159,3 @@ ht-degree: 4%
 
 1. **색상** 탭에서 작업 항목을 표시할 방법을 선택합니다. 예를 들어 프로젝트를 선택하면 작업 목록에서 프로젝트에 할당된 색상에 따라 작업 항목이 표시됩니다.
    ![샘플 색상 프로젝트](assets/sample-calendar-projects.png)
-

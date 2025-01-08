@@ -6,9 +6,9 @@ description: 내 작업 위젯은 할당된 모든 작업, 문제 및 요청을 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '725'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 5%
 # 내 작업 위젯을 사용하여 작업 관리
 
 내 작업 위젯은 할당된 모든 작업, 문제 및 요청을 한 곳에 표시합니다. 여기에서 작업을 필터링 및 구성하고 시간을 기록하며 업데이트하고 작업 항목을 완료로 표시할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>내 작업 위젯에 작업 및 문제를 표시하려면 상위 프로젝트가 현재 상태 또는 현재 상태와 동등한 상태여야 합니다.
 
 ## 액세스 요구 사항
 

@@ -6,10 +6,10 @@ description: 다양한 위젯 중에서 선택하여 홈 페이지에 표시되�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 14%
+source-wordcount: '818'
+ht-degree: 13%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 14%
 * [내 문제](#my-issues)
 * [내 작업](#my-work)
 * [내 승인](#my-approvals)
+
+>[!IMPORTANT]
+>
+>* 홈 위젯에서 작업 및 문제를 표시하려면 상위 프로젝트가 현재 상태 또는 현재 상태와 동등한 상태여야 합니다.
+>* 프로젝트가 또한 현재 상태 또는 현재 상태와 동등한 상태여야 표시합니다.
 
 ## 내 프로젝트
 

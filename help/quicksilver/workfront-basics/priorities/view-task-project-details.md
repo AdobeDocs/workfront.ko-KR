@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 1%
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 우선 순위 작업 목록에서 프로젝트, 작업 및 문제 세부 정보를 볼 수 있습니다.
+
+>[!IMPORTANT]
+>
+>프로젝트뿐만 아니라 하위 작업 및 문제를 표시하려면 프로젝트가 현재 상태 또는 현재와 동일한 상태여야 합니다.
+
 
 ## 액세스 요구 사항
 
