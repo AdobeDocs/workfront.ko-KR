@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-주제 그룹은 요청 대기열과 연관됩니다. 요청 특성에 따라 요청 대기열을 여러 카테고리에 계층화할 수 있습니다.
+주제 그룹은 요청 대기열과 연관됩니다. 주제 그룹을 사용하여 요청의 특성에 따라 요청 대기열을 여러 카테고리에 계층화할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -64,12 +64,12 @@ ht-degree: 0%
 
 요청 대기열을 만드는 방법에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
->[!TIP]
->
->* 요청 대기열 내에 최대 10개의 주제 그룹 계층을 만들 수 있습니다.
->* 주제 그룹과 연결할 수 있는 대기열 주제 수에는 제한이 없습니다.
->* 주제 그룹은 보고 가능한 객체입니다.
->
+주제 그룹으로 작업할 때 다음 사항을 고려하십시오.
+
+* 요청 대기열 내에 최대 10개의 주제 그룹 계층을 만들 수 있습니다.
+* 주제 그룹과 연결할 수 있는 대기열 주제 수에는 제한이 없습니다.
+* 주제 그룹은 보고 가능한 객체입니다.
+* 한 프로젝트에서 다른 프로젝트로 주제 그룹을 이동할 수 없습니다.
 
 ## 주제 그룹 만들기
 

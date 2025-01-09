@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 2%
 대기열 항목은 라우팅 규칙과 함께 작동하여 들어오는 작업을 자동으로 사용자, 작업 역할, 팀에 할당하거나 프로젝트에 배치합니다. 대기열 항목은 라우팅 규칙을 구현하기 위해 존재해야 하는 조건을 정의합니다.
 
 주제 그룹 또는 프로젝트에 할당할 수 있는 대기열 주제 수에는 제한이 없습니다. 대기열 주제는 보고 가능한 객체 유형입니다.
+
+일단 생성되면 대기열 주제를 한 프로젝트에서 다른 프로젝트로 이동할 수 없습니다.
 
 ## 액세스 요구 사항
 

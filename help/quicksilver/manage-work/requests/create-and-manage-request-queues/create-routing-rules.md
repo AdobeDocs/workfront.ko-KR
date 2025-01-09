@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 8ec279ece400c10a37e67664b77b1e0df6639724
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 1%
 라우팅 규칙은 Adobe Workfront이 요청 대기열에 제출될 때 발생하는 문제를 제어합니다. 요청 대기열 만들기에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
 라우팅 규칙은 제출된 문제 또는 요청을 해결하기 위해 가장 잘 갖추어진 특정 사용자 또는 작업 역할에 문제를 보냅니다. 라우팅 규칙은 일반적으로 대기열 주제와 연결되며, 문제 또는 요청에 적용할 라우팅 규칙을 제어하는 데 사용됩니다.
+
+일단 생성되면 한 프로젝트에서 다른 프로젝트로 라우팅 규칙을 이동할 수 없습니다.
 
 ## 액세스 요구 사항
 

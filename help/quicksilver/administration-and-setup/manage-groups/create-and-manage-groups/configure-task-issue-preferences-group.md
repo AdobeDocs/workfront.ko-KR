@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2226'
-ht-degree: 1%
+source-wordcount: '2245'
+ht-degree: 2%
 
 ---
 
@@ -198,7 +198,7 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
        <p>다음 사항을 고려하십시오.</p> 
         <ul> 
          <li> 이 옵션을 선택하면 시간이 기록된 작업 및 문제를 이동할 수 있습니다. 작업 또는 문제와 함께 시간도 이동합니다. </li>
-      <li>이 옵션을 선택 취소하면 작업 또는 기록된 시간이 있는 문제를 이동할 때 금지 경고가 표시됩니다. 경고는 관리자가 기록된 시간이 있는 작업 또는 문제를 이동할 수 없도록 지정합니다. 시간이 기록된 작업 또는 문제는 이동할 수 없습니다. </li></ul>
+      <li>이 옵션을 선택 취소하면 작업 또는 기록된 시간이 있는 문제를 이동할 때 금지 경고가 표시됩니다. 경고는 관리자가 기록된 시간이 있는 작업 또는 문제를 이동할 수 없도록 지정합니다. 시간이 기록된 작업 또는 문제는 다른 프로젝트로 이동할 수 없습니다. 이 옵션을 선택 취소한 경우에도 기록된 시간이 있는 작업을 동일한 프로젝트 내에서 이동할 수 있습니다.  </li></ul>
       </td> 
      </tr> 
     </tbody> 

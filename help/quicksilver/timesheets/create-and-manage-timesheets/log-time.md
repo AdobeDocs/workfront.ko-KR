@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3848'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,10 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<!--remove all preview and production references from this article with 23.3 release-->
+<!--remove all preview and production references if any-->
+<!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 Adobe Workfront에서 작업 항목에 대한 시간을 기록하여 작업에 소비한 시간을 나타낼 수 있습니다. 휴가, 병가, 회의 등 업무와 관련 없는 시간도 기록할 수 있다. 기록한 시간이 타임시트에 표시됩니다.
 
@@ -490,23 +486,74 @@ Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
 * 시간 수
 * 시간 유형
 * 시간 항목과 연결된 작업 역할
+* 시간 항목에 대한 설명
 
-편집하는 시간 항목 유형에 따라 다음 필드를 편집할 수 있습니다.
+편집하는 시간 항목 유형에 따라 시간 목록 또는 보고서에서 다음 필드를 편집할 수 있습니다.
 
 * 프로젝트별 시간을 편집할 때:
 
-   * 시간 수를 편집할 수 있습니다.
-   * 시간 유형 을 프로젝트별 유형으로만 변경할 수 있습니다.
-   * 시간 작업 역할 할당이 설정에서 활성화된 경우에만 변경할 수 있습니다. 자세한 내용은 [타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하세요.
+   * 시간 수
+   * 시간 유형. 시간 유형 을 프로젝트별 유형으로만 변경할 수 있습니다.
+   * 작업 역할 할당. [설정]에서 작업 역할 지정을 활성화한 경우에만 변경할 수 있습니다. 자세한 내용은 [타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하세요.
+   * 시간 항목에 대한 설명.
+
+<div class="preview">
+
+![](assets/edit-hour-box-project-hour-type.png)
+
+</div>
 
 * 일반 시간을 편집할 때:
 
-   * 시간 수를 편집할 수 있습니다.
-   * 시간 유형은 일반 유형으로만 변경할 수 있습니다.
-   * 일반 시간은 역할과 연결할 수 없으므로 시간 작업 역할 할당을 변경할 수 없습니다.
+   * 시간 수.
+   * 시간 유형. 시간 유형은 일반 유형으로만 변경할 수 있습니다.
+   * 시간 항목에 대한 설명.
+
+>[!TIP]
+>
+> 일반 시간은 역할과 연결할 수 없으므로 시간 작업 역할 할당을 변경할 수 없습니다.
+
+<!--update the screen shot at production - we should not see the job role field for general hours-->
+
+![](assets/edit-hour-box-general-overhead-hour-type.png)
+
 
 * 일반 시간과 프로젝트별 시간의 혼합을 일괄 편집할 때:
 
-   * 시간 수를 편집할 수 있습니다.
-   * 일반 시간 유형은 프로젝트별 유형으로 변경할 수 없으며 프로젝트별 시간 유형은 일반 유형으로 변경할 수 없으므로 시간 유형을 변경할 수 없습니다.
-   * 일반 시간은 역할과 연결할 수 없으므로 작업 역할 할당을 변경할 수 없습니다.
+   * 시간 수.
+   * 시간 항목에 대한 설명.
+
+>[!TIP]
+>
+>* 일반 시간 유형은 프로젝트별 유형으로 변경할 수 없으며 프로젝트별 시간 유형은 일반 유형으로 변경할 수 없으므로 시간 유형을 변경할 수 없습니다.
+>* 일반 시간은 역할과 연결할 수 없으므로 작업 역할 할당을 변경할 수 없습니다.
+
+
+<!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
+
+![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+
+시간 보고서 또는 목록에서 시간 유형을 편집하려면 다음을 수행합니다.
+
+1. 시간 목록 또는 보고서로 이동합니다.
+1. 하나 이상의 시간 항목 왼쪽에 있는 상자를 클릭하여 선택합니다.
+1. 목록 맨 위에 있는 **편집 아이콘** ![](assets/edit-icon.png)을 클릭합니다.
+
+   **시간 편집** 또는 **시간 편집** 상자가 열립니다.
+1. 사용 가능한 다음 필드 중 하나를 업데이트합니다.
+
+   * 시간. 필수 필드입니다.
+   * 시간 유형. 필수 필드입니다.
+   * 작업 역할
+   * 설명
+
+   >[!TIP]
+   >
+   >   선택한 시간 항목과 연결된 시간 유형에 따라 일부 필드는 사용할 수 없습니다.
+
+1. **변경 내용 <span class="preview">저장</span>**&#x200B;을 클릭합니다.
+
+   시간 항목 정보가 업데이트됩니다.
+두 개 이상의 시간 항목을 선택하고 시간 필드를 수정한 경우 선택한 모든 시간 항목에 동일한 시간이 할당됩니다. 원래 시간은 선택한 모든 시간 항목에 대한 새 값으로 대체됩니다.
+
+

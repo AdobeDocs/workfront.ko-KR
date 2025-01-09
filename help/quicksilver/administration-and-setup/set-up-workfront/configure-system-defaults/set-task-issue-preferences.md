@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2296'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Linked to Converting Issues.-->
 
 * 이 옵션을 선택하면 시간이 기록된 작업 및 문제를 이동할 수 있습니다. 작업 또는 문제와 함께 시간도 이동합니다.
 
-* 이 옵션을 선택 취소하면 작업 또는 기록된 시간이 있는 문제를 이동할 때 금지 경고가 표시됩니다. 경고는 관리자가 기록된 시간이 있는 작업 또는 문제를 이동할 수 없도록 지정합니다. 시간이 기록된 작업 또는 문제는 이동할 수 없습니다.
+* 이 옵션을 선택 취소하면 작업 또는 기록된 시간이 있는 문제를 다른 프로젝트로 이동할 때 금지 경고가 표시됩니다. 경고는 관리자가 기록된 시간이 있는 작업 또는 문제를 이동할 수 없도록 지정합니다. 시간이 기록된 작업 또는 문제는 이동할 수 없습니다. 이 옵션을 선택 취소한 경우에도 동일한 프로젝트 내에서 작업을 이동할 수 있습니다.
 
 </div>
 
