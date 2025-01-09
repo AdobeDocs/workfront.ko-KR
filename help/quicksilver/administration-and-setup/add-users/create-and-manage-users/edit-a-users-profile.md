@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 532a7badf236d0d9568bc6c632b7badf3576cce3
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3273'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 -->
 
 Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로필을 관리할 수 있습니다. 사용자 만들기에 대한 자세한 내용은 [사용자 추가](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
+
+사용자가 자신의 프로필을 업데이트하는 방법에 대한 자세한 내용은 [내 설정 구성](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
