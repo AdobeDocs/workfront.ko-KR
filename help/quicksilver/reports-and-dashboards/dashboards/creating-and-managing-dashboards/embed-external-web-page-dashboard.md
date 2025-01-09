@@ -6,16 +6,16 @@ description: 외부 웹 페이지를 대시보드에 포함하여 Adobe Workfron
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 0%
+source-wordcount: '1011'
+ht-degree: 1%
 
 ---
 
 # 외부 웹 페이지를 대시보드에 포함
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 외부 웹 페이지를 대시보드에 포함하여 다른 시스템 또는 Adobe Workfront 내에서 관련 정보에 대한 액세스를 제공할 수 있습니다.
 
@@ -64,10 +64,17 @@ ht-degree: 0%
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
-   <td> <p>현재: 플랜 </p>
-   또는
-   <p>새로운 기능: 표준 </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>플랜</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
@@ -75,12 +82,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> </td> 
+   <td> <p>대시보드에 대한 액세스 편집</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -162,7 +169,7 @@ ht-degree: 0%
 
    **대시보드 세부 정보** 상자가 열립니다.
 
-1. **대시보드 세부 정보** 상자의 **레이아웃 선택/보고서 추가/캘린더 추가** 영역에서 업데이트할 외부 페이지를 찾아 마우스로 가리킨 다음 **편집** 아이콘을 클릭합니다.\
+1. **대시보드 세부 정보** 상자의 **레이아웃 선택/보고서 추가** 영역에서 업데이트할 외부 페이지를 찾은 다음 마우스로 가리킨 다음 **편집** 아이콘을 클릭합니다.\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. **외부 페이지 편집** 상자에서 변경할 필드를 업데이트한 다음 **저장**&#x200B;을 클릭합니다.
@@ -175,7 +182,7 @@ ht-degree: 0%
 
 {{step1-to-reports}}
 
-1. **새 보고서**&#x200B;를 클릭하고 **외부 페이지**&#x200B;를 선택합니다.
+1. **새 보고서**&#x200B;를 클릭하고 **외부 섹션**&#x200B;을 선택합니다.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -183,8 +190,7 @@ ht-degree: 0%
 
    자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
 
-1. **저장+닫기**&#x200B;를 클릭합니다.
+1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
    새 보고서에서 시스템의 외부 페이지와 연결된 이름 및 URL을 볼 수 있습니다.
 
-   ![](assets/external-page-report-name-url-columns-nwe-350x213.png)

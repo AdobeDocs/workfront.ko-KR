@@ -4,9 +4,10 @@ description: 2025년 1분기 보드 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 8f88e9e4-3f87-48f8-a37b-cca50348daaf
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 기본적으로 보드 작성자는 소유자입니다. 보드 소유자는 구성 패널에서 해당 보드를 삭제하거나 해당 필터를 업데이트할 수 있는 유일한 사람입니다.
 
-Workfront 시스템 관리자가 보드 소유자를 변경할 수 있는 기능이 추가되었습니다. 보드의 현재 소유자는 해당 특정 보드의 소유자를 변경할 수도 있습니다.
+Workfront 시스템 관리자가 보드 소유자를 변경할 수 있는 기능이 추가되었습니다. 보드의 현재 소유자는 해당 특정 보드의 소유자를 변경할 수도 있습니다. 이 기능은 기본, 소급 및 Kanban 보드에서 사용할 수 있지만 동적 보드에서는 사용할 수 없습니다.
 
 이전에는 백 엔드에 개입하지 않으면 보드 소유자를 변경할 수 없었습니다.
 

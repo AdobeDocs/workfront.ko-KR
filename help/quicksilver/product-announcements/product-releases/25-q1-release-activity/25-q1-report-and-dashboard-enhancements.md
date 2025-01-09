@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 12월 16일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
+>미리보기 릴리스: 2024년 12월 16일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월 16일)
 
 대시보드 성능을 유지하기 위해 대시보드에 배치할 수 있는 보고서, 외부 페이지 또는 달력의 총 수에 대한 제한을 구현했습니다. 새 대시보드를 만들 때 최대 25개의 항목을 추가할 수 있습니다.
 

@@ -6,18 +6,22 @@ description: 대시보드 및 모든 해당 콘텐츠(보고서, 달력 및 외�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
 
 # 대시보드 복사
 
+<!-- Audited: 1/2025 -->
+
 대시보드 및 모든 해당 콘텐츠(보고서, 달력 및 외부 페이지)를 복사할 수 있습니다. 대시보드의 내용을 복사할 때 원본 대시보드에 나타나는 대로 유지하거나 원본 대시보드에 있는 항목의 복사본인 새 항목을 만들 수 있습니다. 새 대시보드에서 항목을 전송하거나 복사하지 않도록 선택할 수도 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -31,18 +35,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
-   <td> <p>플랜 </p> </td> 
+    <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>플랜</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>대시보드에 대한 액세스 보기</p> <p>복사된 대시보드에 대한 관리 액세스 권한을 받습니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>대시보드에 대한 액세스 보기</p> <p>복사된 대시보드에 대한 관리 액세스 권한을 받습니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -52,7 +69,7 @@ ht-degree: 0%
 
 ## 대시보드 복사
 
-1. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **대시보드**&#x200B;를 클릭합니다.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 대시보드]**&#x200B;를 클릭합니다.
 
 1. 복사할 대시보드를 선택한 다음 **복사** ![](assets/copy-icon.png)를 클릭합니다.\
    또는\

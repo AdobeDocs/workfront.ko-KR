@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Experience Manager Assets 및 Assets Essentials과 Adobe Workfront 통합을 사
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 11월 11일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월 12일), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
+>미리보기 릴리스: 2024년 11월 11일, 빠른 릴리스를 위한 프로덕션: 24.12 릴리스(2024년 12월 12일), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월 16일)
 
 이제 여러 섹션이 있는 사용자 정의 양식을 오브젝트에 첨부할 때 양식의 맨 위에 있는 기본 섹션을 제외한 모든 섹션을 축소하고 확장할 수 있습니다. 관리자는 양식 디자이너에서 양식을 미리 볼 때도 이 기능을 볼 수 있습니다.
 
@@ -43,7 +43,7 @@ Experience Manager Assets 및 Assets Essentials과 Adobe Workfront 통합을 사
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 10월 31일, 빠른 릴리스를 위한 프로덕션: 24.11 릴리스(2024년 11월 14일), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
+>미리보기 릴리스: 2024년 10월 31일, 빠른 릴리스를 위한 프로덕션: 24.11 릴리스(2024년 11월 14일), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월 16일)
 
 Workfront에서 작업 항목을 보다 쉽게 관리할 수 있도록 프로젝트, 작업 및 문제 관련 작업이 가능하도록 AI Assistant를 업데이트했습니다. 이제 AI 도우미는 &quot;이번 주 기한인 내 작업 찾기&quot;와 같이 지정한 기준에 따라 프로젝트, 작업 및 문제를 찾을 수 있습니다.
 이전에는 AI 비서가 프로젝트, 작업 및 문제로 직접 작업할 수 없었습니다.

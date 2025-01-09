@@ -7,16 +7,16 @@ description: 대시보드의 목적은 정보에 대한 빠른 액세스를 제�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
 
 # 대시보드 시작
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 1/2025 -->
 
 대시보드의 목적은 여러 보고서에서 얻은 정보에 빠르게 액세스할 수 있도록 하는 것입니다. 먼저 보고서에 정보를 수집한 다음 여러 보고서를 대시보드에 배치하여 정보에 쉽게 액세스할 수 있습니다.
 
@@ -38,7 +38,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p><strong>Adobe Workfront 라이선스</strong></p> </td> 
-   <td> <p>새로운 기능: 기여자 이상</p><p>또는</p><p>현재: 검토 이상</p> </td> 
+      <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>기여자 이상</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>검토 이상</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td><strong>액세스 수준</strong> </td> 
@@ -51,7 +60,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

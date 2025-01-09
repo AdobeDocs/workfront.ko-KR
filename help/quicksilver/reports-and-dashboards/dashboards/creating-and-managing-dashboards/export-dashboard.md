@@ -6,14 +6,16 @@ description: 웹 브라우저에서 사용할 수 있는 인쇄 옵션을 사용
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 5%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
 
 # 대시보드 내보내기
+
+<!-- Audited: 1/2025 -->
 
 웹 브라우저에서 사용할 수 있는 인쇄 옵션을 사용하여 대시보드를 .pdf 파일로 내보낼 수 있습니다.
 
@@ -24,6 +26,8 @@ ht-degree: 5%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -31,25 +35,36 @@ ht-degree: 5%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
-   <td> <p>작업 이상</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
+    <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>작업 이상</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>보고서, 대시보드 및 캘린더에 대한 액세스 보기</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
+   <td> <p>보고서, 대시보드 및 캘린더에 대한 액세스 보기</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>대시보드에 대한 권한 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>대시보드에 대한 권한 보기</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -60,13 +75,13 @@ ht-degree: 5%
 ## 대시보드를 .pdf 파일로 내보내기:
 
 1. 내보낼 대시보드로 이동합니다.
-1. **대시보드 작업**&#x200B;을 클릭한 다음 **인쇄**&#x200B;을 선택합니다.
+1. **대시보드 작업**&#x200B;을 클릭한 다음 **인쇄 미리 보기**&#x200B;를 선택합니다.
 
    ![](assets/dashboard-actions-print-350x254.png)
 
-   인쇄 대화 상자가 열립니다.
+   인쇄 미리보기 창이 열립니다.
 
-1. 웹 브라우저에 따라 적절한 인쇄 옵션을 선택하여 .pdf를 작성합니다. 파일 내보내기:
+1. **인쇄**&#x200B;를 클릭한 다음 웹 브라우저에 따라 적절한 인쇄 옵션을 선택하여 .pdf를 작성합니다. 파일 내보내기:
 
    <table style="table-layout:auto"> 
     <col> 

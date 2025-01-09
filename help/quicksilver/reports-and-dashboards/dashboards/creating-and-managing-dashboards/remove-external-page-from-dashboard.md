@@ -6,14 +6,16 @@ description: 더 이상 필요하지 않은 경우 대시보드에서 외부 페
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
 # 대시보드에서 외부 페이지 제거
+
+<!-- Audited: 1/2025 -->
 
 더 이상 필요하지 않은 경우 대시보드에서 외부 페이지를 제거할 수 있습니다.
 
@@ -21,39 +23,53 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>플랜</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>대시보드에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>대시보드에 대한 권한 관리</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 대시보드에서 외부 페이지 제거
 
-1. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **대시보드**&#x200B;를 클릭합니다.
-1. 외부 페이지를 제거할 대시보드를 선택한 다음 **편집** ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 삭제할 외부 페이지가 포함된 대시보드로 이동합니다.
 
-   ![편집 아이콘을 선택합니다.](assets/nwe-editdashboard2021-350x188.png)
+1. **대시보드 작업**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+
+   ![](assets/unshimmed-edit-dashboard.png)
 
 1. 화면 오른쪽에서 제거할 외부 페이지를 찾은 다음 **삭제** 아이콘 ![](assets/delete.png)을(를) 클릭합니다.
 

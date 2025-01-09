@@ -6,16 +6,16 @@ description: 대시보드를 만들어 Adobe Workfront의 정보에 빠르게 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
 
 # 대시보드 만들기
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 대시보드를 만들어 Adobe Workfront의 정보에 빠르게 액세스할 수 있습니다. 최적의 공동 작업을 위해 다른 사용자와 공유할 수 있는 대시보드에 최대 25개의 보고서, 캘린더 및 외부 페이지를 추가할 수 있습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 1%
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront 라이센스*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront 라이선스</strong></p> </td> 
    <td> <p>현재: 플랜 </p>
    또는
    <p>새로운 기능: 표준 </p> </td> 
@@ -54,7 +54,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

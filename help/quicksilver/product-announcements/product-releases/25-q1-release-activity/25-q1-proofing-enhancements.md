@@ -4,7 +4,8 @@ description: 2025년 1분기 교정 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 8월 30일, 모든 고객을 위한 프로덕션 릴리스: 2024년 8월 30일.
+>미리보기 릴리스: 2024년 11월 7일, 모든 고객을 위한 프로덕션 릴리스: 2024년 11월 7일.
 
 대화형 ZIP 콘텐츠 검토를 위해 기존 브라우저 확장 기능을 대체하는 새로운 브라우저 확장 기능인 Adobe Workfront 검토 도구를 도입했습니다. 기존 브라우저 확장은 2025년 2월 28일에 제거됩니다.
 

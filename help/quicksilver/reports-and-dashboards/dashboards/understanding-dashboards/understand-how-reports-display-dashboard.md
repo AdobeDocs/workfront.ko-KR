@@ -7,20 +7,22 @@ description: 대시보드에 추가된 보고서가 대시보드에 표시되는
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5ec2380e-e4fc-42f5-a553-b61c11573b9b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
 # 보고서가 대시보드에 표시되는 방식 이해
 
+<!-- Audited: 1/2025 -->
+
 대시보드에 추가된 보고서가 대시보드에 표시되는 방식을 관리할 수 있습니다.
 
 대시보드에서 보고서의 레이아웃을 편집하는 방법에 대한 자세한 내용은 [대시보드 만들기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)를 참조하십시오.
 
-보고서를 만들 때 대시보드에 표시할 보고서 열을 선택할 수 있습니다. 보고서의 모든 열을 항상 대시보드에 표시하려면 보고서를 만들 때 각 열에 대해 를 지정해야 합니다.
+[!UICONTROL **열 설정**]&#x200B;에서 [!UICONTROL **고급 옵션**]&#x200B;을 클릭하여 보고서를 만들거나 편집할 때 대시보드에 표시할 보고서 열을 선택할 수 있습니다. 대시보드에 보고서의 모든 열을 표시하려면 보고서의 각 열에 대해 를 지정해야 합니다.
 
 대시보드에 표시할 보고서 열을 선택하는 방법에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 

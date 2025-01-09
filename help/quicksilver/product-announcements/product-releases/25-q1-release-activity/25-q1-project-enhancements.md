@@ -4,9 +4,10 @@ description: 2025년 1분기 프로젝트 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 12월 19일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
+>미리보기 릴리스: 2024년 12월 19일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월 16일)
 
 2023년 12월 이후 미리보기 환경 및 2024년 3월 이후 빠른 릴리스 프로덕션 환경에 있던 기능이 이제 제거되었습니다. 이 기능은 작업을 할당할 때 더 적절한 스마트 할당 제안을 추가했습니다.
 
