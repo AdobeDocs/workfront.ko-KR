@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,5 @@ Adobe Workfront 이벤트 구독 메시지를 사용하는 서비스 엔드포�
 
    1. 끝점은 수신 시 메시지 정보를 저장하고 즉시 200 레벨 상태로 응답합니다.
    1. 엔드포인트가 이벤트 구독 게재 요청에 응답한 후 저장된 메시지를 처리할 수 있습니다.
+
+* 이벤트 구독 메시지 또는 개체는 1MB를 초과할 수 없습니다.
