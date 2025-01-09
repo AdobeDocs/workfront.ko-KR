@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
 source-wordcount: '2527'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 * [관리자 개선 사항](#administrator-enhancements)
 * [보드 개선 사항](#boards-enhancements)
 * [문서 관리 개선 사항](#document-management-enhancements)
-* [홈 개선 사항](#home-enhancements)
+* [우선 순위 개선](#priorities-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
 * [증명 개선 사항](#proofing-enhancements)
 * [보고서 및 대시보드 개선 사항](#report-and-dashboard-enhancements)
@@ -248,7 +248,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-### 홈 개선 사항
+### 우선 순위 개선
 
 <table>
 <col style="width: 50%;" />
