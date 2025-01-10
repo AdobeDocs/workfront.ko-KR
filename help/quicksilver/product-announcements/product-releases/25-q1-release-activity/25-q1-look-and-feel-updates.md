@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,19 @@ ht-degree: 0%
 이 페이지에서는 2025년 1분기 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트를 설명합니다.
 
 2025년 1분기 릴리스에서 사용 가능한 모든 변경 사항 목록은 [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)를 참조하십시오.
+
+
+## 시간 목록 또는 보고서에서 시간 항목을 편집하기 위한 룩앤필 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 1월 9일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월 16일)
+
+Workfront의 다른 영역 디자인과 일치하도록 시간 목록 또는 보고서에서 시간을 편집할 때 시간 편집 상자의 모양과 느낌을 업데이트했습니다.
+
+자세한 내용은 [로그 시간](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)을 참조하세요.
+
+
 
 ## 설정 영역의 클라우드 공급자 페이지에서 경험을 업데이트했습니다
 
