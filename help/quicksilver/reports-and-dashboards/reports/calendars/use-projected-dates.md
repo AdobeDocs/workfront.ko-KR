@@ -6,9 +6,9 @@ description: 달력 보고서는 작업의 시각적 표현을 제공하는 동�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '609'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -32,35 +34,39 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL 계획] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>[!UICONTROL ][!UICONTROL 보고서], [!UICONTROL 대시보드] 및 [!UICONTROL 달력]에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>[!UICONTROL 보고서], [!UICONTROL 대시보드] 및 [!UICONTROL 달력]에 대한 [!UICONTROL 편집] 액세스 권한</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>달력 보고서에 대한 [!UICONTROL 관리] 액세스</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td role="rowheader">개체 권한</td> 
+   <td>달력 보고서에 대한 [!UICONTROL 관리] 액세스</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 항목 그룹 설정
 
 항목 그룹을 캘린더에 표시할 방법을 선택할 수 있습니다.
 
-1. Adobe Workfront 오른쪽 상단의 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 달력]**&#x200B;을 클릭합니다.
+{{step1-to-calendars}}
 
-1. 새 항목 그룹을 추가할 달력을 선택합니다.\
-   또는\
-   **[!UICONTROL + 새 캘린더]**&#x200B;을(를) 클릭하고 캘린더 이름을 입력합니다.
+1. 새 항목 그룹을 추가할 달력을 선택합니다.
+또는
+**[!UICONTROL + 새 캘린더]**&#x200B;을(를) 클릭하고 캘린더 이름을 입력합니다.
 
    >[!NOTE]
    >
@@ -122,7 +128,7 @@ ht-degree: 1%
    * **[!UICONTROL 프로젝트]**
    * **[!UICONTROL 문제]**
 
-1. 캘린더에 추가하는 개체 유형에 따라 **[!UICONTROL 작업 추가]**, **[!UICONTROL 프로젝트 추가]** 또는 **[!UICONTROL 문제 추가]**&#x200B;를 클릭합니다.\
+1. 캘린더에 추가하는 개체 유형에 따라 **[!UICONTROL 작업 추가]**, **[!UICONTROL 프로젝트 추가]** 또는 **[!UICONTROL 문제 추가]**를 클릭합니다.
    ![달력의 개체 선택](assets/field-name.png)
 
 1. 드롭다운 메뉴에서 필드 이름을 입력한 다음 캘린더에 표시할 개체의 필드 원본을 선택합니다(예: **[!UICONTROL 지연 작업]**).
