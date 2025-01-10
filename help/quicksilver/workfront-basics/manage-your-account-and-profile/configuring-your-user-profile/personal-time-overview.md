@@ -7,10 +7,10 @@ description: 승인된 휴무는 일정에 영향을 주고 할당된 작업의 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -67,6 +67,13 @@ ht-degree: 1%
 ## [!DNL Workfront]에서 개인 휴무 구성
 
 {{step1-click-profile-pic}}
+
+>[!NOTE]
+>
+>통합 경험 Adobe을 사용하는 경우 상단 탐색 영역에서 Adobe 계정 메뉴(프로필 사진)를 클릭한 다음 Workfront 프로필을 선택하여 Workfront 프로필에 액세스할 수 있습니다.
+>
+>![workfront 프로필](assets/aue-profile.png)
+
 
 1. 왼쪽 패널에서 **[!UICONTROL 휴무]**&#x200B;를 클릭합니다.
 1. 개인 휴무에 대해 원하는 날짜를 선택합니다.
