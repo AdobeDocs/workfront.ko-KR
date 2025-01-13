@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 18%
+source-wordcount: '410'
+ht-degree: 23%
 
 ---
 
@@ -148,9 +148,11 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->Light 라이선스나 기여자 라이선스가 있는 사용자는 공유 기능이 제한됩니다. 자세한 내용은 [라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)를 참조하십시오.
+>* Light 라이선스나 기여자 라이선스가 있는 사용자는 공유 기능이 제한됩니다. 자세한 내용은 [라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)를 참조하십시오.
 >
->외부 사용자가 Workfront에서 항목을 검색할 수 없습니다. 문서 및 캘린더와 특별히 공유되는 문서를 볼 수 있습니다. 또한 사용자와 항목을 공유하는 사용자를 볼 수 있습니다.
+>* 외부 사용자가 Workfront에서 항목을 검색할 수 없습니다. 문서 및 캘린더와 특별히 공유되는 문서를 볼 수 있습니다. 또한 사용자와 항목을 공유하는 사용자를 볼 수 있습니다.
+>
+>* 기여자 사용자 및 외부 사용자가 시스템 전체에서 공유되는 콘텐츠를 볼 수 없습니다.  명시적으로 공유해야 합니다.
 
 다음 문서에서 액세스 수준이 각 개체 및 영역에 허용하는 내용에 대한 자세한 정보를 찾을 수 있습니다.
 
