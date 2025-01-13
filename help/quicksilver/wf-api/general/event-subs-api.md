@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: a1c94dd17f96fbd1fb397fd927403317335cefa0
+source-git-commit: 90b863fe27b05524ff9d89f1bdeaa8d056dc1cec
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2198'
 ht-degree: 3%
 
 ---
@@ -653,7 +653,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 ### 중첩된 필터 사용
 
-이벤트 구독은 `fieldValue.fields` 키워드를 사용하여 중첩된 이벤트 필드에 대한 필터링을 지원합니다.
+이벤트 구독은 중첩된 필드 이름을 사용하여 이벤트의 중첩된 필드에 대한 필터링을 지원합니다. 예를 들어, `newState.data.customField1 = 'myCustomeFieldValue'`인 메시지를 필터링하려면 필터를 사용하여 다음 구독을 만들 수 있습니다.
 
 ```
 {
@@ -665,25 +665,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
         {
             "fieldName": "data",
             "fieldValue": {
-                "fields": {
-                    "customerID": "customer1234"
-                }
+                    "customField1": "myCustomFieldValue"
             },
             "comparison": "eq",
             "state": "newState"
-        },
-        {
-            "fieldName": "options",
-            "fieldValue": {
-                "objects": {
-                    "projectID": "project1234"
-                }
-            },
-            "comparison": "contains",
-            "state": "newState"
-        },
-    ],
-    "filterConnector": 'AND'
+        }
 }
 ```
 
