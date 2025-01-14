@@ -6,16 +6,16 @@ description: 리소스 조달 영역을 사용할 수 없는 다른 사용자와
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '695'
 ht-degree: 1%
 
 ---
 
 # 링크를 사용하여 업무 균형자 공유
 
-리소스 조달 영역을 사용할 수 없는 다른 사용자와 업무 균형자 를 공유할 수 있습니다. 업무 균형자 사용에 대한 자세한 내용은 [업무 균형자 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
+메인 메뉴에 리소스 영역을 사용할 수 없는 다른 사용자와 업무 균형자 를 공유할 수 있습니다. 업무 균형자 사용에 대한 자세한 내용은 [업무 균형자 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
