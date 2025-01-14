@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f5eb5165183986f55919bdf2c59a31c12a1c64fe
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 1분기 릴리스의 모든 증명 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2025년 1분기 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)를 참조하십시오.
+
+## Desktop Proofing 뷰어 업그레이드
+
+Chromium 130.0.6723.152를 사용하는 최신 Electron 33.3.0 버전으로 Desktop Viewer를 업데이트했습니다.
+
+Desktop Proofing Viewer 설치에 대한 자세한 내용은 [Desktop Proofing Viewer 설치](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)를 참조하십시오.
+
+
+최신 버전: 2.1.44
 
 ## 대화형 검토를 위한 새로운 브라우저 확장 기능은 Beta에서 사용할 수 있음
 

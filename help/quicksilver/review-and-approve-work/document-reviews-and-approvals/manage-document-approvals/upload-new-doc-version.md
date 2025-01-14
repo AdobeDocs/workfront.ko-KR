@@ -5,21 +5,24 @@ title: 새 문서 버전 업로드 및 승인 요청
 description: 새 문서 버전을 업로드하고 Adobe Workfront의 다른 사용자에게 승인을 요청할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: cf2a6353df0ea0e3e1c473092dab5f263a98a2fd
+exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
+source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
 
-
 # 새 문서 버전 업로드 및 승인 요청
 
-표시된 문서에 이전 검토 작업이 필요한 경우 원본 문서에 새 버전을 업로드하고 다른 버전의 승인을 시작할 수 있습니다.
+표시된 문서에 이전 검토 작업이 필요한 경우 원본 문서에 새 버전을 업로드하고 다른 버전의 승인을 시작할 수 있습니다. 새 버전의 문서를 업로드하면 이전 버전이 잠깁니다.
 
 새 버전의 파일 이름이 이전 버전의 파일 이름과 다른 경우 Workfront에 새 파일 이름으로 문서가 표시됩니다.
 
 미결 승인이 있는 문서에 새 버전이 추가되면 이전 버전의 승인이 철회됨으로 표시됩니다. 일부 참가자가 아직 결정을 내리지 않았더라도 기존 승인 절차는 종료된다.
+
+최신 문서 버전을 삭제하면 이전 버전이 잠긴 상태로 유지됩니다. 이전 버전을 편집해야 하는 경우 수동으로 잠금을 해제해야 합니다.
+
 
 ## 액세스 요구 사항
 

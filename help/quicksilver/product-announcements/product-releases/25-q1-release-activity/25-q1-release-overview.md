@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: a91ca50cacb1f48d49fd70e9612297438bbddd83
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---
@@ -455,6 +455,30 @@ ht-degree: 0%
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tr>
+        <td>
+            <p><span class="bold">기능</span></p>
+        </td>
+        <td>
+            <p><span class="bold">릴리스 날짜</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Desktop Proofing 뷰어 업그레이드</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>Chromium 130.0.6723.152를 사용하는 최신 Electron 33.3.0 버전으로 Desktop Viewer를 업데이트했습니다. </p>
+            <p>최신 버전: 2.1.44 </p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 1월 2일</li>
+                <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 1월 9일</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><span class="bold">기능</span></p>
