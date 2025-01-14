@@ -7,9 +7,9 @@ description: 해결 가능한 오브젝트는 해결 방법이 해결 중인 오
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1771'
 ht-degree: 1%
 
 ---
@@ -120,11 +120,13 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ### 해결 중 오브젝트가 문제일 때 상태 동기화 {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
-문제가 다른 문제와 수동으로 연결된 경우 두 번째 문제의 상태(해결 중 오브젝트)에서 첫 번째 문제의 상태(해결 가능 오브젝트)의 변경을 트리거합니다. 첫 번째 문제의 상태가 두 번째 문제가 변경된 상태와 일치합니다. 이는 기본 및 사용자 정의 문제 상태 모두에 적용됩니다.
+문제가 다른 문제와 수동으로 연결되면 두 번째 문제의 상태(해결 중인 오브젝트)에서 첫 번째 문제의 상태(해결 가능한 오브젝트)의 변경을 트리거합니다. 첫 번째 문제의 상태가 두 번째 문제가 변경된 상태와 일치합니다. 이는 기본 및 사용자 정의 문제 상태 모두에 적용됩니다.
 
 ### 해결 중 오브젝트가 작업 또는 프로젝트인 경우 상태 동기화 {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
 문제가 작업 또는 프로젝트의 해결 가능한 오브젝트인 경우 작업 및 프로젝트의 상태 변경이 문제 상태의 변경을 트리거합니다. 이 경우 기본 상태는 사용자 지정 상태와 다르게 트리거됩니다.
+
+프로젝트 사용자 지정 상태가 문제 상태 변경을 트리거하지 않는 기본 상태와 같으면 문제에 대한 상태 변경을 트리거하지 않습니다.
 
 * [해결 중인 개체의 기본 상태를 해결 가능한 개체의 기본 상태와 동기화](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [해결 중 오브젝트의 사용자 지정 상태를 해결 중 오브젝트의 사용자 지정 상태와 동기화](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

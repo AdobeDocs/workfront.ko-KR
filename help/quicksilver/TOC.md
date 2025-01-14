@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 2b1b167bd3645431399c2eb60e300cd958dfa03a
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '14782'
+source-wordcount: '14784'
 ht-degree: 2%
 
 ---
@@ -867,7 +867,7 @@ ht-degree: 2%
       * [사용자 자격 증명과 SAML 자격 증명 비교](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [액세스 수준의 자동 업그레이드 옵션 업데이트](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront 기본 사항 {#basics}
-   * [Adobe Workfront 기본 사항](workfront-basics/workfront-basics.md)
+   * [Adobe Workfront 기본 사항: 문서 색인](workfront-basics/workfront-basics.md)
    * [Adobe Workfront 용어 목록](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Adobe Workfront 브라우저 요구 사항](workfront-basics/workfront-browser-requirements.md)
    * [Adobe Workfront에서 지원되는 언어](workfront-basics/supported-languages-in-workfront.md)

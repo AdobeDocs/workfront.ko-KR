@@ -1,20 +1,24 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Adobe Workfront 기본 사항
-description: Adobe Workfront의 기본 사항을 이해하려면 다음 영역을 검토합니다.
+title: 'Adobe Workfront 기본 사항: 문서 색인'
+description: 이러한 영역을 검토하여 Adobe Workfront의 기본 사항을 이해하고 홈 또는 우선 순위 영역 사용, 계정 프로필 관리, AI Assistant 사용 또는 브라우저 요구 사항 및 지원되는 언어와 같은 기본 기능을 수행하는 방법을 알아보십시오. Workfront의 일반적인 용어에 대해 알아보려면 Workfront 용어집 을 참조하십시오.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 15%
+source-wordcount: '192'
+ht-degree: 0%
 
 ---
 
-# Adobe Workfront 기본 사항
+# Adobe Workfront 기본 사항: 문서 색인
+
+<!--Audited: 01/2025-->
+
+이러한 영역을 검토하여 Adobe Workfront의 기본 사항을 이해하고 홈 또는 우선 순위 영역 사용, 계정 프로필 관리, AI Assistant 사용 또는 브라우저 요구 사항 및 지원되는 언어와 같은 기본 기능을 수행하는 방법을 알아보십시오. Workfront의 일반적인 용어에 대해 알아보려면 Workfront 용어집 을 참조하십시오.
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 

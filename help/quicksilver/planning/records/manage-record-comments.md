@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -147,14 +147,14 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >댓글을 입력하고 제출하기 전에 댓글 섹션에서 다른 곳으로 이동하면 로그오프한 후 다시 로그온한 후에도 페이지에서 댓글이 초안 모드로 유지됩니다. 주석에 추가된 모든 이미지도 초안에 저장됩니다. 초안은 7일 동안 저장되며 이후 삭제되며 복구할 수 없습니다. 초안 주석은 설명을 입력한 사용자만 볼 수 있습니다.
+   >댓글을 입력하고 제출하기 전에 댓글 섹션에서 다른 곳으로 이동하면 로그오프한 후 다시 로그온한 후에도 페이지에서 댓글이 초안 모드로 유지됩니다. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. (선택 사항) 변경을 실행 취소하거나 재실행하려면 다음 단축키를 사용합니다.
    * 변경 내용을 취소하려면 CTRL+Z(Mac의 경우 ⌘+z)
    * CTRL+Y(Mac의 경우 ⌘+y) 를 눌러 변경 사항을 재실행합니다
 1. (선택 사항 및 조건부) Workfront 인스턴스가 통합 경험 Adobe의 일부인 경우 **@**&#x200B;을(를) 추가한 다음 사용자 이름을 추가하여 업데이트에서 사용자를 태그 지정합니다. 자세한 내용은 이 문서의 [레코드 댓글에 대한 고려 사항](#considerations-about-commenting-on-a-record) 섹션을 참조하십시오.
 
-1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하고, 업데이트에 이모지, 링크 또는 이미지를 추가하여 콘텐츠를 개선합니다.
+1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하거나 이모지 또는 업데이트 링크를 추가하여 콘텐츠를 강화할 수 있습니다.
 
 1. 레코드에 주석을 계속 추가합니다.
 

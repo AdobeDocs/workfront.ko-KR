@@ -4,16 +4,16 @@ description: 활성화되면 Workfront에서 개체를 만들도록 Workfront Pl
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 03eedb00ab45b95e87670872cf015c0f6840658e
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 4%
+source-wordcount: '1252'
+ht-degree: 3%
 
 ---
 
 # Adobe Workfront Planning 레코드 자동화를 사용하여 객체 생성
 
-<!--add screen shots when UI is finalized-->
+<!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 <!--when you make this public, add this to the metadata above (and take the "hide" tags out):
 
 feature: Workfront Planning
@@ -23,9 +23,11 @@ recommendations: noDisplay, noCatalog
 
 -->
 
+<!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
+
 활성화된 경우 Adobe Workfront 또는 Workfront Planning에서 개체를 만들도록 Workfront Planning에서 자동화를 구성할 수 있습니다.
 
-레코드 페이지에서 자동화를 구성하고 활성화할 수 있습니다. 작성된 객체는 Planning 레코드에 연결되어 자동화에 지정한 필드에 배치됩니다.
+레코드 페이지에서 자동화를 구성하고 활성화할 수 있습니다. 작성된 객체는 Planning 레코드에 연결되고 자동화에서 지정한 필드에 배치됩니다.
 
 예를 들어, Workfront Planning 캠페인을 가져와 Workfront에서 프로젝트를 생성하여 해당 캠페인의 진행 상황을 추적하는 자동화를 만들 수 있습니다. 이 프로젝트는 Workfront 계획 캠페인에 연결됩니다.
 
@@ -110,7 +112,6 @@ recommendations: noDisplay, noCatalog
 * 새 개체 또는 레코드 이름은 해당 개체를 만든 레코드 이름과 같습니다.
 * 자동화를 사용하는 레코드에 새 개체를 추가하기 위해 선택한 필드에 같은 유형의 개체가 이미 연결되어 있는 경우 새 개체가 연결 필드에 추가되고 기존 개체도 연결된 상태로 유지됩니다.
 
-
 ## Workfront Planning에서 자동화 구성
 
 자동화를 사용하여 객체를 만들려면 먼저 Workfront Planning에서 자동화를 구성해야 합니다.
@@ -124,11 +125,17 @@ recommendations: noDisplay, noCatalog
 
    사용 가능한 자동화 목록이 열립니다.
 
-1. 화면 오른쪽 상단의 **새 자동화**&#x200B;를 클릭합니다.
+1. 화면 오른쪽 상단의 **새 자동화**&#x200B;를 클릭합니다. **새 자동화** 상자가 열립니다.
 1. 다음 필드를 업데이트합니다.
 
-   * **단추 텍스트**: 자동화 단추에 표시할 텍스트를 입력하십시오. 자동화를 사용하여 Workfront 개체를 만들 때 이 단추를 클릭합니다.
-   * **단추 아이콘**: 단추의 아이콘을 선택합니다. 기본적으로 아이콘이 선택되어 있습니다.
+   * **제목 없는 자동화**&#x200B;를 자동화 단추에 표시할 텍스트로 바꿉니다. 자동화를 사용하여 Workfront 개체를 만들 때 이 단추를 클릭합니다.
+   * **설명**: 자동화의 목적을 식별하려면 설명을 추가하십시오.
+
+1. 자동화의 세부 정보 페이지에서 **트리거** 섹션의 다음 필드를 업데이트하십시오.
+
+   * **트리거**: 자동화를 트리거할 작업을 선택하십시오. 예를 들어 **단추 클릭**&#x200B;을 선택합니다. <!--update this step with a list of all possible triggers; right not only Button click is available-->
+
+1. **작업** 섹션에서 다음 필드를 업데이트합니다.
    * **개체 유형**: 자동화를 만들 개체를 선택하십시오. 필수 필드입니다.
 
      Workfront Planning 레코드에서 다음 객체를 생성할 수 있습니다.
@@ -160,10 +167,17 @@ recommendations: noDisplay, noCatalog
       * **필드 매핑**: 연결된 레코드 형식의 필드에 매핑하려면 자동화를 만드는 레코드 형식에서 필드를 선택하십시오.
       * **연결된 레코드 필드**: 자동화를 만든 레코드 형식의 필드에 해당하는 연결된 레코드에서 필드를 선택합니다.
 1. (선택 사항 및 조건부) Workfront 개체 유형에 대한 연결 필드가 없는 경우 **연결 필드 만들기** 아이콘 ![](assets/create-a-connection-field-icon.png)을 클릭하여 필드를 추가합니다.
-1. (선택 사항 및 조건부) 레코드를 추가하도록 선택한 경우 **연결된 필드 매핑** 영역에서 **추가**&#x200B;를 클릭하여 추가 필드를 추가하고 매핑합니다.
-1. **만들기** 클릭
+1. (선택 사항 및 조건부) 레코드를 추가하도록 선택한 경우, **필드 매핑** 영역에서 **추가**&#x200B;를 클릭하여 추가 필드를 추가하고 매핑한 다음 **전송 대상**&#x200B;을(를) 선택하고 **전송 대상**&#x200B;을(를) 선택하여 원래 선택한 레코드의 어떤 필드가 연결된 레코드의 어떤 필드에 표시되는지 나타냅니다.
+1. **저장**&#x200B;을 클릭합니다.
 
-자동화는 자동화 목록에 표시되며 레코드에서 사용할 수 있습니다.
+   자동화는 자동화 목록에 표시되며 레코드에서 사용할 수 있습니다.
+1. (선택 사항) 자동화를 편집, 비활성화 또는 삭제하려면 다음을 수행합니다.
+
+   자동화 목록에서 저장된 자동화의 이름을 마우스로 가리킨 다음 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭하고 다음 옵션 중 하나를 선택합니다.
+
+   * **편집**: 자동화에 대한 정보를 업데이트하고 필드를 구성합니다.
+   * **사용 안 함**: 자동화는 레코드 테이블 보기의 도구 모음에 옵션으로 표시되지 않으므로 사용자는 더 이상 이 자동화를 사용하여 레코드나 개체를 만들 수 없습니다. 다시 사용하려면 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 다시 클릭한 다음 **활성화**&#x200B;를 클릭하십시오.
+   * **삭제**: 자동화는 삭제되며 복구할 수 없습니다. 자동화를 사용하여 생성된 레코드는 원래 선택한 레코드에 연결된 상태로 유지됩니다.
 
 ## Workfront Planning 자동화를 사용하여 객체 생성
 

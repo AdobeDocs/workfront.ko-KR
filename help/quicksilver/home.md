@@ -3,9 +3,9 @@ title: '[!DNL Adobe Workfront] 설명서'
 description: ' [!DNL Adobe Workfront]에 대한 설명서.'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: cafb8aa532647f878bc66d983023141e0c2faeba
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Adobe Workfront 제품 및 기술 설명서 홈 페이지를 시작합니다. �
  </td>
     <td>
         <ul>
-        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Workfront 시작</a></li>
+        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Adobe Workfront 기본 사항: 문서 색인</a></li>
         <li><a href="/help/quicksilver/manage-work/manage-work.md">작업 관리 시작</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">보고서 및 대시보드 시작</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">텍스트 모드 시작</a></li>

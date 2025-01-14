@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3104'
 ht-degree: 0%
 
 ---
@@ -382,16 +382,26 @@ You can add updates to the following objects:
    1. **표시할 텍스트**&#x200B;에서 링크 텍스트를 입력하거나 붙여 넣습니다.
    1. **저장**&#x200B;을 클릭합니다.
 
-1. (선택 사항) 이미지를 업데이트에 첨부하려면 다음 중 하나를 수행합니다.
+1. (선택 사항) 이미지를 업데이트에 첨부합니다.
+
+   >[!WARNING]
+   >
+   >다음 객체의 업데이트 영역에는 이미지를 첨부할 수 없습니다.
+   >
+   >* 목표
+   >* 보드의 임시 카드
+   >* Workfront Planning의 레코드. 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
+   >
+
+   업데이트에 이미지를 첨부하려면 다음 중 하나를 수행하십시오.
 
    * 이미지를 컴퓨터에 저장한 다음 새 댓글 영역에 끌어서 놓습니다.
    * 컴퓨터에서 스크린샷을 복사한 다음 주석에 붙여넣습니다.
    * **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png)을(를) 클릭하고 컴퓨터에서 이미지를 찾습니다.
 
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >**중요**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
@@ -598,7 +608,7 @@ Workfront 객체의 업데이트 섹션에는 두 가지 유형의 정보가 표
    * 팀
    * 템플릿
    * 템플릿 작업
-   * 임시 카드
+   * 보드의 Ad Hoc 카드
 
 사용자 및 시스템 업데이트와 Workfront 개체의 업데이트 섹션에 표시되는 방법에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
