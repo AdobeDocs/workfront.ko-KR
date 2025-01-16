@@ -3,22 +3,20 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: 킥스타트, 킥스타트, 킥스타트, 킥스타트
 navigation-topic: use-kick-starts
-title: "킥스타트 시나리오: 여러 옵션 사용자 정의 필드를 Workfront에 가져오기"
+title: '킥스타트 시나리오: 여러 옵션 사용자 정의 필드를 Workfront에 가져오기'
 description: 킥스타트 기능을 사용하여 Adobe Workfront에서 여러 옵션이 있는 사용자 정의 필드를 가져올 수 있습니다.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 310333b71d2a92d71a0d8caf73ee8609ed6edd83
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
 
 # 킥스타트 시나리오: 여러 옵션 사용자 정의 필드를 Workfront에 가져오기
-
-{{highlighted-preview}}
 
 킥스타트 기능을 사용하여 Adobe Workfront에서 여러 옵션이 있는 사용자 정의 필드를 가져올 수 있습니다.
 
@@ -90,11 +88,7 @@ Workfront에서 기존 데이터를 내보내려면:
 
 1. **포함할 항목** 섹션에서 **사용자 지정 데이터**&#x200B;를 선택합니다.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
    ![사용자 지정 데이터 선택](assets/kickstarts-select-existing-data.png)
-
-   프로덕션 환경의 샘플 이미지:
-   ![사용자 지정 데이터 선택](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. **다운로드 형식** 섹션에서 **.xlsx 파일**&#x200B;을(를) 선택하십시오.
 
@@ -130,11 +124,7 @@ Workfront에서 기존 데이터를 내보내려면:
 
 1. **빈 킥스타트 스프레드시트 다운로드** 영역에서 **사용자 지정 데이터** 확인란을 선택하고 **다운로드**&#x200B;를 클릭합니다.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
    ![사용자 지정 데이터 선택](assets/kickstarts-select-existing-data.png)
-
-   프로덕션 환경의 샘플 이미지:
-   ![사용자 지정 데이터 선택](assets/blank-custom-data-option-checked-kick-starts.png)
 
    빈 킥스타트 파일이 컴퓨터로 다운로드됩니다.
 

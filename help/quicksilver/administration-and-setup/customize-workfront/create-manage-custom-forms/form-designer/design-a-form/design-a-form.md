@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '6534'
+source-wordcount: '6474'
 ht-degree: 5%
 
 ---
 
 # 사용자 정의 양식 만들기
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
 Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
@@ -847,8 +843,8 @@ The Workfront Mobile app -->
       <td><p>(필수) Workfront 기본 필드를 선택합니다.<p><p>양식 개체에 대한 네이티브 필드만 사용할 수 있습니다. 예를 들어 양식 디자이너 상단의 개체 유형 목록에 프로젝트가 표시되면 프로젝트에 대한 기본 필드는 선택할 수 있지만 작업에만 해당하는 필드는 선택할 수 없습니다.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">필터 추가</span></td>
-      <td><span class="preview"><p>참조 필드에 대한 필터를 추가하여 사용자가 필드를 사용할 때 선택할 수 있는 항목 목록을 제한합니다. </p> <p>예를 들어 사용자 이름이 다음 기준을 충족하는 경우에만 선택할 수 있도록 필드를 제한할 수 있습니다.</p> 
+      <td role="rowheader">필터 추가</td>
+      <td><p>참조 필드에 대한 필터를 추가하여 사용자가 필드를 사용할 때 선택할 수 있는 항목 목록을 제한합니다. </p> <p>예를 들어 사용자 이름이 다음 기준을 충족하는 경우에만 선택할 수 있도록 필드를 제한할 수 있습니다.</p> 
        <ul>
         <li>지정한 그룹에 속합니다</li> 
         <li>지정한 역할 또는 직함과 연결됩니다</li> 
@@ -860,7 +856,7 @@ The Workfront Mobile app -->
         <li>필터 옵션은 Portfolio, 회사 또는 소유자와 같은 기본 자동 완성 필드를 참조하는 경우에만 사용할 수 있습니다.</li>
         <li>기존 사용자 정의 양식을 편집하는 경우 기본 필드에 필터를 추가해도 사용자가 필드를 사용하여 이미 추가한 개체(필터의 범위 밖)는 제거되지 않습니다.</li> 
         <li>모바일 장치에서는 이 필터를 사용할 수 없습니다. 기본 필드에 대한 필터를 사용하는 경우 필드는 필터의 영향을 받지 않는 사용자의 모바일 장치에 표시됩니다.</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -936,8 +932,6 @@ Adobe XD 파일을 추가하려면:
    또는
 
    **저장 후 닫기**&#x200B;를 클릭합니다.
-
-<div class="preview">
 
 ### Planning 연결 필드 추가
 
@@ -1031,8 +1025,6 @@ Planning 연결 필드를 추가하려면
    * Workfront 개체에서 레코드를 연결하거나 연결을 끊습니다.
 
    자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
-
-</div>
 
 ## 양식 디자이너를 사용하여 양식 구성 및 미리 보기
 

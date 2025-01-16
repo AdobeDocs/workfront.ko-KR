@@ -7,16 +7,14 @@ description: Adobe Workfront을 사용하면 작업 항목과 관련이 없는 �
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
 
 # 다른 사용자에게 다이렉트 메시지 보내기
-
-{{preview-fast-release-general}}
 
 [!DNL Adobe Workfront]을(를) 사용하면 작업 항목과 관련이 없는 메시지를 다른 [!DNL Workfront] 사용자에게 직접 빠르고 쉽게 보낼 수 있습니다. 이 섹션에 설명된 대로 보낸 메시지는 사용자 프로필 페이지의 [!UICONTROL 업데이트] 탭에 표시되며 모든 사용자가 볼 수 있습니다. 업데이트에 대한 자세한 내용은 [작업 항목 업데이트 및 업데이트 보기: 문서 색인](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)을 참조하세요.
 
@@ -87,9 +85,7 @@ ht-degree: 0%
 1. 메시지를 보낼 사용자를 선택하고 [!UICONTROL **사용자에게 업데이트 보내기**]&#x200B;를 클릭합니다.
 1. [!UICONTROL 사용자에게 업데이트 보내기] 창에 메시지를 입력하세요.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
-
-   <span class="preview">![사용자에게 업데이트 보내기 창의 메시지 사용자](assets/send-message-to-user-dialog-from-user-list.png)</span>
+   ![사용자에게 업데이트 보내기 창의 메시지 사용자](assets/send-message-to-user-dialog-from-user-list.png)
 
 1. (선택 사항) 메시지에 태깅할 추가 사용자를 검색합니다. 사용자 목록에서 이미 선택한 사용자에 태그를 지정할 필요가 없습니다.
 1. (선택 사항) 이 메시지가 회사의 다른 사용자에게만 표시되도록 하려면 **[!UICONTROL 내 회사에 비공개]**&#x200B;를 선택합니다.

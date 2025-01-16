@@ -6,16 +6,14 @@ description: Adobe Workfront에서 개체에 대한 가시성은 해당 개체 �
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # 오브젝트에 대한 액세스 요청
-
-{{preview-fast-release-general}}
 
 Adobe Workfront에서 개체에 대한 가시성은 해당 개체 유형에 대한 액세스 권한과 개별 개체에 대한 사용 권한에 따라 다릅니다.
 
@@ -102,11 +100,7 @@ Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를
 1. 드롭다운 목록에서 요청하는 액세스 유형을 선택합니다.
 1. (선택 사항) **P.S.** 필드에 추가 액세스 권한이 필요한 이유에 대해 사용자에게 메모를 지정합니다.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
    ![액세스 요청 대화 상자](assets/request-access-to-project.png)
-
-   프로덕션 환경의 샘플 이미지:
-   ![](assets/request-access-dialog-350x314.png)
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -134,11 +128,8 @@ For example, if you do not have portfolio access, but you were given a link to a
 1. (선택 사항) **P.S.** 필드에 추가 액세스가 필요한 이유에 대한 메모를 지정합니다.
 1. **액세스 요청**&#x200B;을 클릭합니다.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+   미리보기 환경의 샘플 이미지:
    ![액세스 요청 대화 상자](assets/request-access-to-project.png)
-
-   프로덕션 환경의 샘플 이미지:
-   ![](assets/request-access-dialog-350x314.png)
 
 ## &quot;액세스 요청&quot; 및 &quot;추가 액세스 요청&quot; 드롭다운 메뉴의 계층 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 

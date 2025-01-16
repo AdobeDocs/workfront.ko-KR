@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
+source-git-commit: 38541313ae1c2b330bf4bad994bee43ee6e84227
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # 비즈니스 규칙 만들기 및 편집
-
-{{preview-fast-release-general}}
 
 비즈니스 규칙을 사용하면 Workfront 객체에 검증을 적용하고 특정 조건이 충족될 때 사용자가 객체를 생성, 편집 또는 삭제하지 못하도록 할 수 있습니다. 비즈니스 규칙을 사용하면 데이터 무결성을 손상시킬 수 있는 작업을 방지하여 데이터 품질과 운영 효율성을 향상시킬 수 있습니다.
 
@@ -137,9 +135,9 @@ IF(
    * 개체와 작업이 이미 정의되어 있으므로 수식에 포함하지 않습니다.
    * 사용자 지정 오류 메시지는 비즈니스 규칙을 트리거할 때 사용자에게 표시됩니다. 무엇이 잘못되었는지, 어떻게 문제를 수정해야 하는지에 대한 명확한 지침을 제공해야 한다.
 
-     <span class="preview">오류 메시지에 정적 URL을 포함하여 문서 또는 기타 유용한 페이지에 연결하여 규칙 제한 내에서 사용자가 작업을 수정하는 방법을 안내할 수 있습니다.</span>
+     오류 메시지에 정적 URL을 포함하여 설명서 또는 기타 유용한 페이지에 연결하여 규칙의 제한 사항 내에서 사용자가 작업을 수정하는 방법을 안내할 수 있습니다.
 
-     <span class="preview">이 예제에서는 &quot;자세히 알아보기&quot;가 URL에 연결됩니다. `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL은 괄호로 묶어야 하지만 대괄호로 묶인 링크 텍스트는 필요하지 않습니다. 전체 URL을 표시할 수 있으며 클릭할 수 있는 링크가 됩니다.</span>
+     이 예에서 &quot;자세히 알아보기&quot;는 URL에 연결됩니다. `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL은 괄호로 묶어야 하지만 대괄호로 묶인 링크 텍스트는 필요하지 않습니다. 전체 URL을 표시할 수 있으며 클릭할 수 있는 링크가 됩니다.
 
    ![비즈니스 규칙 추가 대화 상자](assets/add-business-rule-dialog-no-ai-button.png)
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1014'
 ht-degree: 7%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 7%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 Adobe Workfront 관리자는 킥스타트 데이터 내보내기를 사용하여 Workfront에서 데이터를 내보낼 수 있습니다. 내보낸 후 다른 응용 프로그램에서 사용할 수 있습니다.
 
@@ -261,7 +259,7 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">Portfolio</td> 
+      <td valign="top">포트폴리오</td> 
       <td valign="top"> Portfolio<br>환경 설정  </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -340,11 +338,7 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
 
    단일 내보내기에서 최대 100개의 대시보드와 100개의 보고서를 선택할 수 있습니다.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
    ![킥스타트 내보내기](assets/kickstart-export-spreadsheet-options.png)
-
-   프로덕션 환경의 샘플 이미지:
-   ![킥스타트 내보내기](assets/kickstart-export-350x381.png)
 
    한 번에 여러 객체를 내보낼 수 있습니다.
 
