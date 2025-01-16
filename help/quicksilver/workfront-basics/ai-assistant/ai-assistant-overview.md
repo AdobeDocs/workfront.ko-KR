@@ -5,18 +5,14 @@ description: AI Assistant 개요
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '693'
 ht-degree: 1%
 
 ---
 
 # AI Assistant 개요
-
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경과 월별 릴리스를 활성화한 고객의 프로덕션 환경에서 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 Workfront의 AI 어시스턴트는 자연어 대화에서 인앱 정보와 제안을 제공하여 작업을 완수하도록 도와줍니다. AI Assistant는 다음을 통해 더욱 원활한 작업 경험을 제공할 수 있습니다.
 
@@ -84,13 +80,9 @@ AI Assistant는 현재 다음과 같은 기능을 제공합니다.
 
   자세한 내용은 [AI Assistant에서 도움 받기](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)를 참조하십시오.
 
-<div class="preview">
-
 * Workfront에서 특정 항목을 찾습니다.
 
   자세한 내용은 [AI Assistant를 사용하여 프로젝트, 작업 및 문제 작업](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)을 참조하십시오.
-
-</div>
 
 * 계산된 사용자 정의 필드의 수식 생성 또는 세분화
 
@@ -100,12 +92,10 @@ AI Assistant는 현재 다음과 같은 기능을 제공합니다.
 
   자세한 내용은 [AI Assistant를 사용하여 계산된 필드 수식 생성 또는 수정](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)을 참조하십시오.
 
-<div class="preview">
-* 업데이트, 업로드된 문서 및 기타 주목할 만한 프로젝트 변경 내용을 24시간, 3일, 7일(우선순위) 기간 내에 요약합니다.
+* 업데이트, 업로드된 문서 및 24시간, 3일, 7일 간의 우선 순위 내에서 프로젝트에 대한 기타 주목할 만한 변경 사항을 요약합니다.
 
 자세한 내용은 [우선 순위에서 작업 따라잡기](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)를 참조하십시오.
 
-</div>
 
 ## AI Assistant에 사용 가능한 객체 유형
 
