@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 0%
@@ -112,7 +112,7 @@ IF(
 1. **새 비즈니스 규칙**&#x200B;을 클릭합니다.
 1. 비즈니스 규칙을 할당할 개체 유형을 선택한 다음 **계속**&#x200B;을 클릭합니다.
 
-   ![개체 선택](assets/object-for-business-rule2.png)
+   ![개체 선택](assets/object-for-business-rule3.png)
 
 1. 비즈니스 규칙의 **이름**&#x200B;을(를) 입력하십시오.
 1. **활성 상태임** 필드에서 규칙을 저장할 때 규칙을 활성화해야 하는지 여부를 선택합니다.

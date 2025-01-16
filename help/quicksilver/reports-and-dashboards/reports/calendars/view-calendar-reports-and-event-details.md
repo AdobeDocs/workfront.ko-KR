@@ -6,7 +6,7 @@ description: Adobe Workfront에서 생성했거나 공유한 캘린더 보고서
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 9ddbe09ab99b6b151fc2d052b4c53e004eb0fa44
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -63,6 +63,7 @@ Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤�
 * 기본 [!DNL Adobe Workfront] 캘린더
 
   Workfront은 사용자에게 할당되거나 할당된 팀, 그룹 또는 역할에 할당된 프로젝트, 작업 및 문제를 기반으로 달력을 만듭니다.
+
 * 만든 캘린더
 
   일정 만들기에 대한 자세한 내용은 [일정 보고서 개요](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)를 참조하세요.
