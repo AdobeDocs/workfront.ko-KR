@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -126,9 +126,9 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
 * 양식에 대한 특정 링크에서만 Workfront Planning 요청에 대한 요청 양식에 액세스할 수 있습니다.
 * 요청을 Workfront Planning에 제출한 후에는 요청을 편집할 수 없습니다.
-* 제출된 각 요청은 <span class="preview">사용하는 양식과 연결된 레코드 유형에 대한 레코드를 만듭니다. 양식이 승인과 연결되어 있지 않거나 모든 승인자가 승인을 부여한 경우</span>
+* 제출된 각 요청은 양식이 승인과 연계되어 있지 않거나 모든 승인자가 승인을 부여한 경우 사용하는 양식과 연계된 레코드 유형에 대한 레코드를 생성합니다.
 * 요청 양식을 제출하여 생성된 레코드는 다른 방법을 통해 추가된 레코드와 구분할 수 없습니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
-* <span class="preview">제출된 요청은 Workfront </span>의 요청 영역에 있는 제출된 섹션의 계획 탭에 표시됩니다.
+* 제출된 요청은 Workfront의 요청 영역에 있는 제출됨 섹션의 계획 탭에 표시됩니다.
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -149,23 +149,24 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
    양식이 제출되고 다음 사항이 발생합니다.
 
-   * 요청 양식이 승인과 연결되어 있지 않으면 Workfront 요청 영역 </span>의 제출됨 섹션의 <span class="preview">계획 탭에 요청이 추가되고 양식에 연결된 레코드 유형에 새 레코드가 추가됩니다.
+   * 요청 양식이 승인과 연결되어 있지 않은 경우 Workfront 요청 영역의 제출됨 섹션에 있는 계획 탭에 요청이 추가되고 양식에 연결된 레코드 유형에 새 레코드가 추가됩니다.
 
-   * 요청 양식이 승인과 연결된 경우 <span class="preview"> 요청이 Workfront 요청 영역의 제출됨 섹션의 계획 탭에 추가됩니다. 새 레코드는 모든 승인자가 승인한 후에만 레코드 유형 페이지에 추가됩니다.</span>
-     <span class="preview">자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>를 참조하세요.
+   * 요청 양식이 승인과 연결된 경우 Workfront 요청 영역의 제출됨 섹션에 있는 계획 탭에 요청이 추가됩니다. 새 레코드는 모든 승인자가 승인한 후에만 레코드 유형 페이지에 추가됩니다.
+
+     자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
      ![](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
-     ><span class="preview">하나 이상의 작업 영역에 액세스할 수 있는 모든 사용자는 요청 영역에서 계획 탭을 볼 수 있습니다. 볼 수 있는 권한 이상이 있는 작업 영역에 사용자 또는 다른 사람이 제출한 요청만 볼 수 있습니다. Workfront 관리자는 시스템의 작업 영역에 제출된 모든 요청을 볼 수 있습니다. </span> <!--ensure this is correct; asking team in slack-->
+     >하나 이상의 작업 영역에 액세스할 수 있는 모든 사용자는 요청 영역에서 계획 탭을 볼 수 있습니다. 볼 수 있는 권한 이상이 있는 작업 영역에 사용자 또는 다른 사람이 제출한 요청만 볼 수 있습니다. Workfront 관리자는 시스템의 작업 영역에 제출된 모든 요청을 볼 수 있습니다. <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">요청이 성공적으로 제출되었거나 검토를 위해 전송되었다는 인앱 및 이메일 알림을 받습니다.</span>
-   * <span class="preview">요청 양식이 승인과 연결된 경우 승인자는 요청을 검토하고 승인하기 위한 인앱 및 전자 메일 알림을 받습니다.</span>
+   * 요청이 성공적으로 제출되었거나 검토를 위해 전송되었다는 인앱 및 이메일 알림을 받게 됩니다.
+   * 요청 양식이 승인과 연결된 경우 승인자는 요청을 검토하고 승인하기 위한 인앱 및 이메일 알림을 수신합니다.
 
      >[!NOTE]
      >
-     ><span class="preview">조직의 Workfront 인스턴스가 Adobe 통합 환경에 온보딩될 때만 전자 메일 및 인앱 알림이 표시됩니다.</span>
+     >이메일 및 인앱 알림은 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩될 때만 표시됩니다.
 
 
 

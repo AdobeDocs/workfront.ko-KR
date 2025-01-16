@@ -9,18 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2185'
 ht-degree: 2%
 
 ---
 
 # 그룹에 대한 작업 및 문제 환경 설정 구성
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 조직의 그룹이 시스템 수준에서 구성된 방식과 별도로 작업 또는 문제 환경 설정을 구성해야 하는 경우 Adobe Workfront 관리자가 환경 설정을 잠금 해제할 수 있습니다. 그런 다음 그룹 관리자는 그룹에 대한 기본 설정을 구성할 수 있으며 이는 그룹과 관련된 모든 작업 또는 문제에 영향을 미칩니다.
 
@@ -95,7 +95,7 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
    * [새 작업 기본값](#new-task-defaults)
    * [문제](#issues)
    * [삭제](#deletion)
-   * <span class="preview">[이동](#move)</span>
+   * [이동](#move)
    * [실제 일자](#actual-dates)
    * [위임](#delegation)
    * [액세스](#access)
@@ -184,8 +184,6 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
    </table>
 
 
-<div class="preview">
-
 ### 이동
 
 <table style="table-layout:auto"> 
@@ -203,8 +201,6 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
      </tr> 
     </tbody> 
    </table>
-
-</div>
 
 ### 실제 일자 {#actual-dates}
 

@@ -6,21 +6,20 @@ description: Adobe Workfront의 [!UICONTROL Home] 영역 내에서 작업 항목
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 6%
+source-wordcount: '846'
+ht-degree: 7%
 
 ---
 
 # [!UICONTROL Home] 영역에서 작업 항목 업데이트 또는 편집
 
-<!--Audited: April 2024-->
+<!--Audited: 04/2024-->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 [!DNL Adobe Workfront]의 [!UICONTROL Home] 영역 내에서 작업 항목에 대한 업데이트를 보고 추가할 수 있습니다. 작업 항목 편집 액세스 권한이 있는 경우 작업 항목과 관련된 다른 데이터를 편집할 수도 있습니다.
 
@@ -133,22 +132,18 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 1. **회신**&#x200B;을 클릭합니다.
 
-   <div class="preview">
-
    ![](assets/reply-to-comment-in-mentions-widget.png)
 
-   </div>
-
 1. 댓글을 입력하세요.
-1. (선택 사항) <span class="preview">**인물 태그**</span> 상자에서 이 댓글에 포함할 사용자 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다.
+1. (선택 사항) **인물 태그** 상자에서 이 댓글에 포함할 사용자 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다.
 1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하고, 댓글에 이모지, 링크 또는 이미지를 추가하여 콘텐츠를 개선합니다.
-1. <span class="preview">댓글을 작업 항목에 추가하려면 **제출**&#x200B;을 클릭합니다.</span>
+1. 작업 항목에 댓글을 추가하려면 **제출**&#x200B;을 클릭합니다.
 
    >[!IMPORTANT]
    >
-   ><span class="preview">댓글을 제출한 후 15분 이내에만 편집할 수 있습니다. 댓글을 편집하려면 댓글의 오른쪽 상단에 있는 **자세히** 메뉴를 클릭한 다음 **편집**&#x200B;을 클릭합니다.</span>
+   >의견을 제출한 후 15분 이내에만 편집할 수 있습니다. 댓글을 편집하려면 댓글의 오른쪽 상단에 있는 **자세히** 메뉴를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
-   <span class="preview">업데이트 추가에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>를 참조하세요.
+   업데이트 추가에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 ## 작업 항목 편집
 

@@ -6,9 +6,9 @@ description: 프로젝트와 작업 간에 문제를 이동할 수 있습니다.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 12/2024-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 다음 개체 간에 문제를 이동할 수 있습니다.
 
@@ -72,15 +72,11 @@ ht-degree: 1%
 
 문서가 포함되어 있거나 요청 대기열과 연관된 문제를 이동할 때 다음 사항을 고려하십시오.
 
+* 시스템 또는 그룹 관리자는 설정 영역에서 사용자가 작업 및 기록된 시간 문제를 이동할 수 있도록 허용 기본 설정을 구성하는 방법에 따라 기록된 시간이 있는 문제를 이동하지 못하도록 할 수 있습니다. 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
+
 * **문제가 요청 대기열과 연결되어 있는 경우:** 문제를 다른 개체로 이동했을 때 문제가 요청 대기열과 연결되어 있으면 이동된 문제는 첫 번째 문제가 발생한 원래 대기열과 더 이상 연결되지 않습니다.
 * **문서가 문제에 첨부되어 있을 때:** 문제를 다른 개체로 옮기면 문제에 문서가 첨부되어 있을 때 문서, 해당 버전 및 증명도 새 문제로 이동합니다. 문서와 연결된 모든 승인이 이동되지 않습니다.
 * **문제가 문서 또는 폴더에 연결되어 있는 경우:** 문서 또는 폴더가 Google Drive와 같은 서드파티 서비스에 연결되어 있는 문제를 이동하면 문서에 대한 링크가 문제와 함께 이동합니다.
-
-<div class="preview">
-
-* 시스템 또는 그룹 관리자는 설정 영역에서 사용자가 작업 및 기록된 시간 문제를 이동할 수 있도록 허용 기본 설정을 구성하는 방법에 따라 기록된 시간이 있는 문제를 이동하지 못하도록 할 수 있습니다. 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
-
-</div>
 
 ## 목록에서 문제 이동
 
@@ -103,9 +99,9 @@ ht-degree: 1%
 
 문제를 볼 때 한 가지 문제를 이동할 수 있습니다.
 
-### 미리보기 환경에서 단일 문제 이동
+### 단일 문제 이동
 
-1. 복사할 문제로 이동하여 문제 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)를 클릭한 다음 **이동**&#x200B;을 선택합니다.
+1. 이동할 문제로 이동하여 문제 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **이동**&#x200B;을(를) 클릭합니다.
 
    ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 

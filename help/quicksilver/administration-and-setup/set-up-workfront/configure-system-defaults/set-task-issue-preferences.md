@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2296'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 [!DNL Adobe Workfront] 관리자는 작업 및 문제에 대한 시스템 전체 환경 설정을 구성할 수 있습니다. 이러한 환경 설정은 사용자가 [!DNL Workfront]에서 작업 및 문제를 만드는 방식에 영향을 줍니다.
@@ -74,15 +74,10 @@ Linked to Converting Issues.-->
    * [[!UICONTROL 새 작업 기본값]](#new-task-defaults)
    * [[!UICONTROL 문제]](#issues)
    * [[!UICONTROL 삭제]](#deletion)
-   * <span class="preview">[이동](#move)</span>
+   * [이동](#move)
    * [[!UICONTROL 실제 날짜]](#actual-dates)
    * [[!UICONTROL 위임]](#delegation)
    * [[!UICONTROL 액세스]](#access)
-
-<!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
--->
-
 
 
 ### [!UICONTROL 새 작업 기본값] {#new-task-defaults}
@@ -169,8 +164,6 @@ Linked to Converting Issues.-->
 
 * 이 옵션을 선택 취소하면 작업 또는 시간이 기록된 문제를 삭제하거나 작업 또는 문제에 대한 시간이 기록된 프로젝트를 삭제할 때 금지 경고가 표시됩니다. 경고는 관리자가 기록된 시간이 있는 작업 또는 문제를 삭제할 수 없도록 지정합니다. 작업, 문제 또는 작업 및 문제에 대한 시간이 기록된 프로젝트는 삭제할 수 없습니다.
 
-<div class="preview">
-
 ### 이동
 
 **[!UICONTROL 사용자가 기록된 시간이 있는 작업 및 문제를 이동할 수 있도록 허용]**: 시간이 기록된 작업 또는 문제의 이동을 허용할지 여부를 결정합니다. 이 옵션은 기본적으로 선택되어 있습니다.
@@ -178,8 +171,6 @@ Linked to Converting Issues.-->
 * 이 옵션을 선택하면 시간이 기록된 작업 및 문제를 이동할 수 있습니다. 작업 또는 문제와 함께 시간도 이동합니다.
 
 * 이 옵션을 선택 취소하면 작업 또는 기록된 시간이 있는 문제를 다른 프로젝트로 이동할 때 금지 경고가 표시됩니다. 경고는 관리자가 기록된 시간이 있는 작업 또는 문제를 이동할 수 없도록 지정합니다. 시간이 기록된 작업 또는 문제는 이동할 수 없습니다. 이 옵션을 선택 취소한 경우에도 동일한 프로젝트 내에서 작업을 이동할 수 있습니다.
-
-</div>
 
 ### [!UICONTROL 실제 날짜] {#actual-dates}
 

@@ -6,9 +6,9 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2411'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,12 @@ ht-degree: 1%
 요청 대기열에서 요청을 만든 후 완료할 요청을 할당하거나 작업 또는 프로젝트로 전환할 수 있습니다.\
 문제를 작업 또는 프로젝트로 전환하는 방법에 대한 자세한 내용은 문서 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md)를 참조하십시오.
 
-다음과 같은 방법으로 요청을 만들 수 있습니다.
+다음과 같은 방법으로 Workfront 요청을 만들 수 있습니다.
 
 * 이 문서에 설명된 대로 처음부터.
 * 초안에서. 자세한 내용은 [초안에서 요청 만들기](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)를 참조하십시오.
 * 기존 요청에서 복사본을 복사하고 제출합니다. 자세한 내용은 [요청 복사 및 제출](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)을 참조하십시오.
+* Workfront Planning 요청 양식에서 Workfront Planning에 레코드를 생성합니다. 조직은 Workfront Planning 패키지를 구매해야 합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -344,6 +345,17 @@ Workfront과 통합된 애플리케이션을 사용하여 요청을 제출할 �
 
 * Salesforce용 Workfront 앱을 설치한 경우 Salesforce에서 요청을 제출할 수 있습니다.\
   Salesforce용 Workfront 앱을 사용하여 Salesforce에서 요청을 제출하는 방법에 대한 자세한 내용은 문서 [Salesforce 개체에서 Adobe Workfront 요청 제출](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)을 참조하십시오.
+
+## Workfront Planning 요청 양식을 사용하여 요청 생성
+
+Workfront Planning 요청 양식을 사용하여 요청을 추가할 수 있습니다. 요청 양식이 승인되거나 승인이 필요하지 않은 경우 Workfront Planning 요청을 추가하면 Planning 레코드가 생성될 수 있습니다.
+
+Planning 요청을 제출하려면 조직에서 Workfront Planning 패키지를 구매해야 합니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md).
+* [레코드를 만들 수 있도록 Adobe Workfront Planning 요청을 제출](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## 제출된 요청 찾기
 

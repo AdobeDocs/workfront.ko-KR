@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,19 @@ ht-degree: 1%
 
 본인이나 다른 사람이 제출한 다음 유형의 요청이나 시작했지만 제출하지 않은 요청을 찾을 수 있습니다. Adobe Workfront의 다음 영역에서 이러한 요청을 찾을 수 있습니다.
 
-* **제출된 섹션**: 귀하 또는 다른 사람이 제출한 모든 요청이며 귀하는 최소한 보기에 액세스할 수 있습니다.
-* **초안 섹션** : 시작했지만 완료하지 않았고 제출한 적이 없는 모든 요청. 초안 요청에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
+* Workfront에 있는 요청 영역의 **Workfront** 탭: 다음 섹션에서 Workfront 요청 대기열에 제출된 요청을 찾습니다.
+   * **제출된 섹션**: 귀하 또는 다른 사람이 제출한 모든 요청이며 귀하는 최소한 보기에 액세스할 수 있습니다.
+   * **초안 섹션** : 시작했지만 완료하지 않았고 제출한 적이 없는 모든 요청. 초안 요청에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
   >[!TIP]
   >
   >자신의 초안 요청만 볼 수 있습니다.
+
+* Workfront에 있는 요청 영역의 **계획** 탭: Workfront Planning 요청 양식에 제출된 요청을 찾습니다. 조직은 Workfront Planning 패키지를 구매해야 합니다. 자세한 내용은 다음 문서를 참조하십시오.
+
+   * [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)
+   * [Adobe Workfront Planning 요청을 제출하여 레코드 생성](/help/quicksilver/planning/requests/submit-requests.md)
+
 
 ## 액세스 요구 사항
 
@@ -70,6 +77,7 @@ ht-degree: 1%
 
 {{step1-to-requests}}
 
+1. (조건부) 조직에서 Workfront Planning 패키지를 구입한 경우 **Workfront** 탭을 클릭하여 Workfront 요청을 봅니다.
 1. 제출된 모든 요청을 보려면 왼쪽 패널의 **제출됨**&#x200B;을 클릭합니다.
 
    최대 2000개의 요청을 볼 수 있으며 여러 페이지에 표시될 수 있습니다.
@@ -191,6 +199,12 @@ ht-degree: 1%
    -->
 
 1. 모든 초안 요청을 보려면 **초안**&#x200B;을 클릭하십시오. Workfront은 이 폴더의 각 요청 대기열에 대해 초안을 무제한으로 저장합니다. 이미 초안이 있는 대기열 주제에 대한 새 요청을 입력하면 기존 초안을 사용하라는 메시지가 표시됩니다. 자세한 내용은 [초안에서 요청 만들기](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)를 참조하십시오.
+
+1. (선택 사항 및 조건부) 조직에서 Workfront Planning 패키지를 구입한 경우 **계획** 탭을 클릭한 다음 왼쪽 패널에서 **제출됨**&#x200B;을 클릭하여 Workfront Planning 요청을 봅니다.
+
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+
+   자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
  
 

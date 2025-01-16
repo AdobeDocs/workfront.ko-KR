@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1429'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 2%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -131,7 +133,7 @@ ht-degree: 2%
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Click **Create**. 선택한 레코드 종류에 대한 요청 양식이 양식 탭</span>에서 <span class="preview">을(를) 엽니다.
+1. Click **Create**. 선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -139,40 +141,44 @@ ht-degree: 2%
 
    * 선택한 레코드 유형의 표 보기에서 사용할 수 있는 레코드 필드입니다. <!--they are working on removing the limitation below-->
 
-<!-- when we go to prod, the Preview batch below will become the only batch-->
+   <!-- when we go to prod, the Preview batch below will become the only batch-->
 
->[!IMPORTANT]
->
-> 요청 양식을 만드는 데 사용하는 환경에 따라 다음과 같은 시나리오가 있습니다.
->
->* 다음 유형의 필드는 프로덕션 환경의 요청 양식에 표시되지 않습니다.
->
->    * 작성자 및 마지막 수정자
->    * 생성 날짜 및 마지막 수정 날짜
->    * 공식
->    * 사용자
->    * Workfront 연결된 필드
->    * Workfront 개체의 조회 필드
->    * Workfront Planning의 연결된 필드
->    * Workfront Planning 연결된 레코드의 조회 필드
->    * AEM Assets 연결 필드
->* <span class="preview">미리 보기 환경</span>에서 다음 형식의 필드가 요청 양식에 표시되지 않습니다.
->    * <span class="preview"> 작성자 및 마지막 수정자</span>
->    * <span class="preview">만든 날짜 및 마지막으로 수정한 날짜</span>
->    * <span class="preview">수식</span>
->    * <span class="preview">개의 Workfront 개체의 조회 필드</span>
->    * <span class="preview">Workfront Planning에서 레코드의 조회 필드 </span>을(를) 연결했습니다.
+   >[!IMPORTANT]
+   >
+   >다음 유형의 필드가 요청 양식에 표시되지 않습니다.
+   >
+   >* 작성자 및 마지막 수정자
+   >* 생성 날짜 및 마지막 수정 날짜
+   >* 공식
+   >* Workfront 개체의 조회 필드
+   >* Workfront Planning 연결된 레코드의 조회 필드
+   >
 
-* **기본 섹션**: Workfront이 요청 양식에 적용하는 기본 섹션 구분입니다. 기본 섹션의 이름을 변경하거나 제거할 수 없습니다.
-* **제목** 필드: Workfront에서 요청을 식별하는 필드입니다. 이 기능은 프로덕션 환경에서는 아직 사용할 수 없습니다. <span class="preview">미리 보기 환경에서 사용할 수 있습니다.</span> 구성 및 제목 필드의 값을 편집할 수 없습니다.
+   <!--before release to prod: 
+    > Depending on what environment you use to create a request form, the following scenarios exist:
+   >
+   >* Fields of the following types do not display in the request form in the Production environment: 
+   >
+   >    * Created by and Last modified by
+   >    * Created date and Last modified date
+   >    * Formula
+   >    * People 
+   >    * Workfront connected fields
+   >    * Workfront objects' lookup fields
+   >    * Workfront Planning records' connected fields
+   >    * Workfront Planning connected records' lookup fields
+   >    * AEM Assets connection fields-->
 
-  >[!TIP]
-  >
-  >**제목** 필드는 요청 양식에 표시되면 값이 필요합니다. 그러나 필요한 경우 **제목** 필드를 제거할 수 있으며 요청자는 양식에 표시되지 않습니다.
+   * **기본 섹션**: Workfront이 요청 양식에 적용하는 기본 섹션 구분입니다. 기본 섹션의 이름을 변경하거나 제거할 수 없습니다.
+   * **제목** 필드: Workfront에서 요청을 식별하는 필드입니다. 제목 필드의 구성 및 값을 편집할 수 없습니다.
 
-* 레코드 유형과 연결된 모든 필드.
+     >[!TIP]
+     >
+     >**제목** 필드는 요청 양식에 표시되면 값이 필요합니다. 그러나 필요한 경우 **제목** 필드를 제거할 수 있으며 요청자가 요청을 제출할 때 양식에 표시되지 않습니다.
 
-  요청 양식에 포함된 필드는 이 레코드 유형에 요청을 제출하는 모든 사람에게 표시됩니다.
+   * 레코드 유형과 연결된 모든 필드.
+
+     요청 양식에 포함된 필드는 이 레코드 유형에 요청을 제출하는 모든 사람에게 표시됩니다.
 
 1. (선택 사항) 제거할 양식의 필드 위에 마우스를 놓은 다음 **x** 아이콘을 클릭하여 제거합니다. 양식 왼쪽의 **필드** 탭에 추가됩니다.
 
@@ -200,8 +206,7 @@ ht-degree: 2%
 
 1. (선택 사항) **미리 보기**&#x200B;를 클릭하여 다른 사용자가 새 레코드를 제출하는 데 사용할 양식을 표시할 방법을 확인합니다.
 
-1. 
-   <div class="preview">(선택 사항) **구성** 탭을 클릭한 다음 **승인자** 필드에 사용자를 한 명 이상 추가하여 이 레코드 양식에 대한 새 요청을 승인합니다.
+1. (선택 사항) **구성** 탭을 클릭한 다음 **승인자** 필드에 사용자를 한 명 이상 추가하여 이 레코드 양식에 대한 새 요청을 승인합니다.
 
    ![](assets/configuration-tab.png)
 
@@ -212,7 +217,7 @@ ht-degree: 2%
    * 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다.
    * 요청이 승인 또는 거부되기 전에 모든 승인자는 결정을 내려야 합니다.
 
-     요청 양식에 승인을 추가하는 방법에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오. </div>
+     요청 양식에 승인을 추가하는 방법에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
 1. (선택 사항) 헤더의 양식 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭하여 양식 이름을 업데이트합니다.
 1. 양식을 게시하고 고유한 링크를 얻으려면 **Publish**&#x200B;을(를) 클릭하십시오.
@@ -235,20 +240,19 @@ ht-degree: 2%
 
    >[!WARNING]
    >
-   >
    >* **링크가 있는 모든 사용자**&#x200B;를 선택하면 조직 외부의 사람 중 Workfront 계정이 없는 사람도 양식에 액세스하여 새 레코드를 제출할 수 있습니다.
    >
-   > * <span class="preview">다음 필드 형식을 포함하는 양식을 공개적으로 공유할 수 없습니다.</span>
+   > * 다음 필드 형식을 포함하는 양식은 공개적으로 공유할 수 없습니다.
    >
-   >     * <span class="preview">Workfront 또는 AEM Assets 연결</span>
-   >     * <span class="preview">사람</span>
+   >     * Workfront 또는 AEM Assets 연결
+   >     * 사용자
    >
 
 1. (조건부) 이전 단계에서 **링크가 있는 모든 사용자**&#x200B;를 선택한 경우 사용 가능한 달력에서 **링크 만료 날짜**&#x200B;를 선택하십시오. 링크가 만료되면 사람들이 오류를 받게 되며 사람들이 양식에 다시 액세스하려면 링크 날짜를 업데이트하고 공유할 새 링크를 생성해야 합니다.
 
    현재 날짜로부터 180일 이내에 미래 날짜를 선택할 수 있습니다.
 
-1. **링크 저장 및 복사**&#x200B;를 클릭하여 양식에 대한 공유 세부 정보를 저장합니다.
+1. **링크 저장 및 복사**&#x200B;를 클릭하여 양식에 대한 공유 세부 정보를 저장합니다. 양식을 이전에 저장한 경우 **링크 복사**&#x200B;를 클릭합니다.
 
    양식 공유 옵션이 저장되고 링크가 클립보드에 복사됩니다. 이제 다른 사용자와 공유할 수 있습니다.
 

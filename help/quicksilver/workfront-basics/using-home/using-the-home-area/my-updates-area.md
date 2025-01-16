@@ -6,9 +6,9 @@ description: '[!UICONTROL 내 업데이트] 영역을 사용하여 결정을 기
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # [!UICONTROL 내 업데이트] 영역 사용
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 [!UICONTROL 내 업데이트] 영역을 사용하여 결정을 기다리는 승인 또는 포함된 대화를 빠르게 검토할 수 있습니다.
@@ -82,11 +82,7 @@ ht-degree: 0%
 
    귀하에게 할당된 액세스 승인 및 요청이 **내 업데이트** 아래 페이지 전반부에 나열됩니다.
 
-   <div class="preview">
-
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
-
-   </div>
 
 1. (선택 사항) [!UICONTROL **내 업데이트**] 영역의 아래쪽으로 스크롤하여 오른쪽 방향 화살표를 클릭하면 추가 페이지에 표시되는 승인이 더 많이 표시됩니다.
 
@@ -168,12 +164,8 @@ ht-degree: 0%
 
      업데이트 회신에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
-     <span class="preview">회신을 추가했으면 **[!UICONTROL 제출]**.</span>을 클릭합니다.
-
-     <div class="preview">
+     회신을 추가했으면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
      ![](assets/reply-in-the-my-updates-area.png)
-
-     </div>
 
 1. (선택 사항) **[!UICONTROL 현재 페이지 고정]**&#x200B;을 클릭하여 [!UICONTROL 내 업데이트] 영역을 상단 탐색에 고정합니다.

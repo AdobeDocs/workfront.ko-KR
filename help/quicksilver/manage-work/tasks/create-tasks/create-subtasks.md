@@ -6,9 +6,9 @@ description: Adobe Workfront에서 작업은 상위-하위 관계를 가질 수 
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Adobe Workfront에서 작업은 상위-하위 관계를 가질 수 있습니다.
 
 >[!NOTE]
 >
->Workfront 또는 그룹 관리자가 사용자 환경에서 하위 작업 섹션을 숨길 수 있습니다.
+>Workfront 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 사용자 환경에서 하위 작업 섹션을 제거할 수 있습니다.
 
 1. 하위 작업을 만들 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **작업** 섹션을 클릭합니다.

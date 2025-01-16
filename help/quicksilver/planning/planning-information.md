@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
    * 레코드 공유
    * Workfront에서 Workfront Planning 레코드 관리
 
-* [Adobe Workfront 계획 요청: 문서 인덱스](/help/quicksilver/planning/requests/requests-article-index.md)에는 다음 정보가 포함되어 있습니다.
+* [Adobe Workfront Planning 요청: 문서 인덱스](/help/quicksilver/planning/requests/requests-article-index.md)에는 다음 정보가 포함되어 있습니다.
 
    * 레코드 종류에 대한 요청 양식을 만드는 방법.
    * 사용자가 레코드 유형 요청 양식에 요청을 제출하고 레코드를 만드는 방법입니다.
