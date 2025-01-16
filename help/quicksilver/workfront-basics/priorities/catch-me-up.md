@@ -5,17 +5,15 @@ description: 따라하기
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: ccdbc3402164bba66c08b8b97fdfdd2013ad884e
+exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 5%
+source-wordcount: '180'
+ht-degree: 6%
 
 ---
 
-
 # 우선 순위에서 작업 따라잡기
-
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 Workfront의 AI Assistant를 기반으로 하는 Catch me는 업데이트, 업로드된 문서 및 기타 주목할 만한 변경 사항을 24시간, 3일, 7일 이내에 요약하므로 활성 프로젝트에 대한 정보를 찾는 시간을 줄이는 데 도움이 됩니다.
 

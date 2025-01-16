@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 1%
 * [우선 순위에 시간 기록](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
 * [우선 순위로 파일 업로드](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
 * [우선 순위에 빠른 링크 추가 및 관리](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
-  <!--* [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)-->
+* [우선 순위에서 작업 따라잡기](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
 * [문서 업로드 및 우선 순위에서 증명 만들기](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
 * [우선 순위 달력에서 작업 관리](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)

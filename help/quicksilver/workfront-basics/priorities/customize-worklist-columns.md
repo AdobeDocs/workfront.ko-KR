@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # 우선 순위 작업 목록 열 사용자 정의
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 우선 순위의 작업 목록에서 열을 사용자 정의하여 작업 방식을 지원할 수 있습니다.
 
@@ -87,9 +85,7 @@ ht-degree: 0%
 1. **자세히** 아이콘 ![](assets/more-icon.png)을 클릭하고 **열 너비 재설정**을 선택하세요.
    ![](assets/columns.png)
 
-<div class="preview">
-
-## 미리보기에서 우선 순위 작업 목록 열 사용자 정의
+## 우선 순위 작업 목록 열 사용자 정의
 
 ### 열 활성화 또는 비활성화
 
@@ -110,6 +106,3 @@ ht-degree: 0%
 >[!NOTE]
 >
 >이름 열은 고정되어 이동할 수 없습니다.
-
-
-</div>

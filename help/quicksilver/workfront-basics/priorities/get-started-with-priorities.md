@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: da688217a1240b74667f31d20e086164e1536576
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 2%
+source-wordcount: '999'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 ### 필터를 사용하여 작업 찾기
 
-필터를 사용하여 가장 중요한 작업을 찾습니다. <span class="preview">자연어를 사용하여 스마트 필터로 작업을 찾을 수 있습니다</span> 또는
+필터를 사용하여 가장 중요한 작업을 찾습니다. 자연어를 사용하여 스마트 필터로 작업을 찾거나
 표준 필터를 사용하여 자신에게 할당된 작업 및 문제를 찾을 수 있습니다.
 
 <table>
@@ -112,10 +112,9 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 자세한 내용은 [중요한 작업 항목 우선 순위 지정](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)을 참조하십시오.
 
-![](assets/my-focus-column.png)
-<!-- new screen for prod ![](assets/worklist.png) -->
+![](assets/worklist.png)
 
-### 일정 보기 [!BADGE 미리 보기에서 사용 가능] 사용{type=Informative}
+### 달력 보기 사용
 
 달력 보기에서는 작업 및 문제를 시각적으로 표시합니다. 일, 주 또는 월 보기 중에서 선택할 수 있습니다. 또한 작업 목록과 유사한 방식으로 항목을 필터링할 수도 있습니다.
 
@@ -141,8 +140,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 자세한 내용은 [우선 순위에서 댓글 추가 및 보기](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)를 참조하십시오.
 
-![](assets/new-update.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### 로그 시간
 
@@ -150,8 +148,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 자세한 내용은 [우선 순위에 시간 기록](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)을 참조하십시오.
 
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### 파일 업로드
 
@@ -164,8 +161,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 자세한 내용은 [우선 순위로 파일 업로드](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)를 참조하십시오.
 
-![](assets/upload-file.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 
 ### 빠른 링크 추가
@@ -176,13 +172,13 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 자세한 내용은 [우선 순위에서 빠른 링크 추가 및 관리](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)를 참조하십시오.
 
-### 문서 보기 [!BADGE 미리 보기에서 사용 가능]{type=Informative}
+### 문서 보기
 
 문서 탭에서는 작업 항목과 관련된 모든 파일을 볼 수 있습니다. 이름, 파일 형식 또는 사람별로 문서를 필터링하고 이름 및 업로드 날짜별로 정렬할 수 있습니다.
 
 문서 또는 증명을 열 수도 있습니다.
 
-### 자산 검토 및 승인 [!BADGE 미리 보기에서 사용 가능]{type=Informative}
+### 에셋 검토 및 승인
 
 작업 또는 문제의 문서 탭에서 다음을 수행할 수 있습니다.
 
@@ -190,7 +186,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 * 증명 뷰어를 시작하여 주석 남기기 및 결정
 
 
-## [!DNL Catch me up]을(를) 사용하여 [!BADGE 미리 보기에서 사용 가능] 항목을 봅니다.{type=Informative}
+## [!DNL Catch me up]을(를) 사용하여 누락된 항목 확인
 
 [!DNL Catch me up] 기능을 사용하여 놓친 내용을 확인하세요. Catch me는 업데이트, 업로드된 문서, 승인 및 프로젝트에 대한 기타 주요 변경 사항을 24시간, 3일, 7일 이내에 요약합니다.
 
@@ -200,7 +196,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 <!--need new screen for prod-->
 
-## 세부 정보 페이지 [!BADGE 미리 보기에서 사용 가능]에서 실시간 업데이트 보기{type=Informative}
+## 세부 정보 페이지에서 실시간 업데이트 보기
 
 작업 또는 문제의 세부 정보 페이지에서 실시간 업데이트를 볼 수 있습니다. 실시간 상태 표시기를 사용하여 다른 사용자가 사용자와 동시에 페이지를 보고 있는지 여부도 확인할 수 있습니다.
 
