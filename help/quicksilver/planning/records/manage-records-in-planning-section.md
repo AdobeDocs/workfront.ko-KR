@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1433'
 ht-degree: 1%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 1%
 
 # Workfront 개체에서 레코드 연결 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
 Workfront의 다음 영역에 Workfront Planning 레코드 및 Adobe Workfront 객체에 연결된 해당 레코드를 표시할 수 있습니다.
 
 * Workfront 객체의 계획 섹션: 객체에 연결된 모든 레코드 유형과 해당 연결된 레코드를 표시합니다.
-* <span class="preview">Planning 연결 사용자 정의 필드: 하나의 레코드 유형과 연결된 각각의 레코드를 표시합니다. </span>
+* Planning 연결 사용자 정의 필드: 하나의 레코드 유형과 각 연결된 레코드를 표시합니다.
 
 ## 액세스 요구 사항
 
@@ -180,8 +180,6 @@ Workfront 객체의 계획 섹션에서 Workfront Planning 레코드를 볼 때�
    * Workfront 개체가 Workfront Planning 레코드의 연결된 필드에 추가됩니다.
    * 계획 레코드에 연결된 Workfront 조회 필드의 값은 Workfront Planning에서 채워집니다.
 
-<div class="preview">
-
 ## Planning 연결 필드 유형의 레코드 관리
 
 Workfront 객체에서 Planning 연결 사용자 정의 필드를 사용하여 Workfront 객체에 연결된 하나의 레코드 유형과 해당 레코드를 볼 수 있습니다.
@@ -254,5 +252,3 @@ Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를
 
 1. (선택 사항) Workfront의 사용자 정의 양식에서 레코드의 **제거** 아이콘 ![](assets/remove-icon.png)을(를) 클릭하여 Planning 연결 필드에서 제거하고 Workfront 개체에서 연결을 해제합니다.
 Planning 레코드에서 Workfront 개체의 연결이 끊기고 Workfront의 모든 조회 정보가 레코드에서 제거됩니다.
-
-</div>

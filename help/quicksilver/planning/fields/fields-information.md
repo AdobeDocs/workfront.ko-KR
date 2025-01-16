@@ -1,12 +1,12 @@
 ---
-title: "필드: 문서 색인"
+title: '필드: 문서 색인'
 description: 조직의 라이프사이클을 반영하는 새 필드를 Adobe Workfront Planning에 추가할 수 있습니다. 필드는 레코드 유형의 속성입니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * [필드 개요](/help/quicksilver/planning/fields/fields-overview.md)
 * [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)
-  <span class="preview">[Adobe Workfront에서 필드 가져오기](/help/quicksilver/planning/fields/import-fields-from-workfront.md)</span>
+* [Adobe Workfront에서 필드 가져오기](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
 * [필드 설정 편집](/help/quicksilver/planning/fields/edit-fields.md)
 * [필드 삭제](/help/quicksilver/planning/fields/delete-fields.md)
 * [공식 필드](/help/quicksilver/planning/fields/formula-fields.md)

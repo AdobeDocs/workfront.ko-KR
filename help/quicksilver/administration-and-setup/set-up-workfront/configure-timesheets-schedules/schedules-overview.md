@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 스케줄을 사용하여 작업 주를 정의하고 사용자 또는 프로젝트와 스케줄을 연관시킬 수 있습니다. 이를 통해 [!DNL Adobe Workfront]에서 타임라인 및 사용자 가용성을 계산할 수 있습니다. 지침은 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
 
@@ -66,16 +66,12 @@ Workfront에서 일정을 사용할 때는 다음 사항을 고려하십시오.
 둘 이상의 일정이 있을 때 시스템에서 일정을 사용하는 순서는 다음과 같습니다.
 
 
-* 한 명의 사용자가 작업에 할당되면 사용하는 환경에 따라 다음과 같은 시나리오가 존재합니다.
+* 한 명의 사용자가 작업에 할당되면 [!DNL Workfront]은(는) [!UICONTROL 설정]의 [!UICONTROL 프로젝트 환경 설정] 영역에 정의된 대로 다음 일정 중 하나를 사용합니다.
 
-   * 프로덕션 환경에서 [!DNL Workfront]은(는) 작업의 타임라인을 계산하기 위해 사용자의 일정을 사용합니다. 여기에는 사용자의 개인 시간도 포함됩니다. 프로젝트의 일정이 무시됩니다.
+   * 작업에 할당된 사용자의 일정
+   * 프로젝트와 연계된 일정.
 
      개인 시간에 대한 자세한 내용은 [개인 휴무 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)을 참조하세요.
-
-   * <span class="preview">미리 보기 환경에서 [!DNL Workfront]은(는) [!UICONTROL 설정]의 [!UICONTROL 프로젝트 환경 설정] 영역에 정의된 대로 다음 일정 중 하나를 사용합니다.</span>
-
-      * <span class="preview">작업 </span>에 할당된 사용자의 일정
-      * <span class="preview">프로젝트와 연계된 일정.</span>
 
 * 여러 사용자가 작업에 할당되어 있고 작업 기간 동안 다른 일정을 사용하는 경우 [!DNL Workfront]은(는) [!UICONTROL 설정]의 [!UICONTROL 프로젝트 환경 설정] 영역에 정의된 대로 다음 일정 중 하나를 사용합니다.
 

@@ -7,9 +7,9 @@ description: 작업 및 문제 할당을 관리할 때 스마트 할당을 사�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,15 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 빠른 릴리스를 사용하도록 설정한 고객의 프로덕션 환경에서만 사용할 수 있는 기능을 참조합니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 미리 보기 환경에서만 사용할 수 있는 기능을 참조합니다.</span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> 이 기능은 2025년 1월에 25.1 릴리스로 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서 제거됩니다. 25.1 릴리스에 대한 자세한 내용은 [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)를 참조하십시오.
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
-작업 및 문제 할당을 관리할 때 스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 리소스를 식별할 수 있습니다. 스마트 할당은 작업에 가장 적합한 리소스를 결정하는 알고리즘을 기반으로 리소스에 작업 항목을 할당할 때 Adobe Workfront이 제공하는 제안입니다. 스마트 할당은 사용자, 작업 역할 또는 팀이 될 수 있습니다.
+작업 및 문제 할당을 관리할 때 스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 리소스를 식별할 수 있습니다.
+
+스마트 할당은 작업에 가장 적합한 리소스를 결정하는 알고리즘을 기반으로 리소스에 작업 항목을 할당할 때 Adobe Workfront이 제공하는 제안입니다. 스마트 할당은 사용자, 작업 역할 또는 팀이 될 수 있습니다.
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ ht-degree: 0%
 
 스마트 할당으로 작업할 때 다음 사항을 고려하십시오.
 
-* <span class="preview">알고리즘이 작업 및 문제에 대해 독립적으로 작동합니다. 즉, Workfront은 문제 및 작업과 관련된 기준에 따라 목록을 빌드하므로 문제에 대한 제안 사용자 목록은 작업에 대한 제안 사용자 목록과 다를 수 있습니다. </span>
+<!--* <span class="preview">The algorithm works independently for tasks and issues. This means that the list of suggested users for issues might differ from the list of suggested users for a task because Workfront builds the lists according to criteria pertaining to issues and tasks separately. </span>-->
 <!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
 * 제안된 할당은 항상 활성 사용자, 작업 역할 또는 팀입니다.
 * 먼저 나열된 리소스는 작업에 가장 적합한 리소스여야 합니다.
@@ -51,11 +53,11 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">할당 열의 작업 목록 또는 보고서</span>
+* 할당 열의 작업 목록 또는 보고서
 
   ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">할당 필드의 작업 헤더</span>
+* 할당 필드의 작업 헤더
 
   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -67,9 +69,9 @@ ht-degree: 0%
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">프로젝트에 작업을 추가할 때 새 작업 상자의 할당 필드</span>
+<!--* The Assignments field in the New Task box, when adding a task to a project
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  ![](assets/smart-assignments-new-task-modal.png)-->
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,77 +79,79 @@ ht-degree: 0%
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* <span class="preview">작업 또는 문제를 할당할 때 할당된 대상 영역의 업무 균형자</span>
+* 작업 또는 문제를 할당할 때 할당 대상 영역의 업무 균형자
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## 스마트 할당 기준
 
-스마트 할당은 작업에 대해 문제와 다르게 작동합니다.
+<!--Smart assignments work differently for tasks than for issues.  -->
 
-### 작업에 대한 스마트 할당 기준
+<!--### Smart assignments criteria for tasks
 
-작업 스마트 할당 계산은 <span class="preview">두 개의 다른 알고리즘을 사용하는 두 단계에서 작동합니다.</span>
+The task smart assignments calculation works in <span class="preview">two phases which use two different algorithms.</span>
 
-<span class="preview">스마트 할당을 찾는 알고리즘에 따라 할당은 [할당] 필드의 두 개의 별도 섹션 아래에 나열됩니다.</span> 자세한 내용은 [스마트 할당 만들기](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md)를 참조하십시오.
+<span class="preview">Depending on which algorithm finds the smart assignment, the assignments are listed under two separate sections in the Assignments field.</span> For information, see [Make smart assignments](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md). 
 
 ![](assets/smart-assignments-task-list.png)
 
 <div class="preview">
 
-#### 작업에 대한 스마트 할당 계산의 첫 번째 단계
+#### First phase of smart assignment calculation for tasks 
 
-스마트 할당 계산의 첫 번째 단계에서 Workfront은 모든 할당에 대한 유사성 점수를 계산합니다.
+In the first phase of calculating smart assignments, Workfront calculates a similarity score for every assignment. 
 
 >[!NOTE]
 >
->스마트 할당 계산의 첫 번째 단계는 다음 작업 영역에 적용되지 않습니다.
+>The first phase of the smart assignments calculation does not apply to the following task areas:
 >
->* 업무 균형자에서 일괄 할당.
->* 보드에 연결된 카드.
+>* Bulk Assignments in the Workload Balancer.
+>* Connected cards on boards.
 
 
-유사성 점수와 할당이 나열된 순서에 대한 계산은 다음을 고려합니다.
+The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
 
-* 작업, 프로젝트 및 포트폴리오 이름이 할당하려는 작업과 동일한 기존 할당에 100%의 점수가 제공됩니다. 기존 할당 작업의 프로젝트 및 포트폴리오 이름도 할당하려는 작업의 프로젝트 및 포트폴리오와 일치해야 합니다.
+* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
 
-* 다른 할당의 이 정보 중 일부만 기존 작업과 일치하는 경우 점수가 100%보다 낮을 수 있습니다.
+* If only some of this information from other assignments matches on the existing tasks, the score might be lower than 100%.  
 
-  예를 들어, &quot;내 포트폴리오&quot;라는 포트폴리오의 &quot;내 프로젝트&quot;라는 프로젝트에 &quot;내 두 번째 작업&quot;이라는 작업을 할당하고 &quot;내 포트폴리오&quot;라는 포트폴리오의 &quot;내 프로젝트&quot;라는 다른 프로젝트에 &quot;내 작업&quot;이라는 기존 작업이 있는 경우 기존 작업과 지금 할당하려는 작업의 이름은 유사하지만 동일하지 않으므로 &quot;내 작업&quot;에 할당된 사용자가 95%의 점수를 받을 수 있습니다.
+  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
+ 
+    >[!TIP]
+    >
+    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
 
-  >[!TIP]
-  >
-  >  Workfront은 작업, 프로젝트 및 포트폴리오의 이름 필드에서만 일치 항목을 찾고 다른 필드에서는 찾지 않습니다.
+* An assignment could get a higher score when they are assigned to a lot of tasks in the system that have similar names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
 
-* 이름이 비슷한 시스템에서 많은 작업에 할당되었을 때 할당은 더 높은 점수를 받을 수 있습니다. 예를 들어 &#39;개발&#39;이라는 팀이 이름에 &#39;AI&#39;가 포함된 시스템 내 작업의 50%에 할당되고 이제 이름에 &#39;AI&#39;가 포함된 다른 작업을 할당하는 경우 &#39;개발&#39; 팀의 점수가 더 높아집니다. 이 경우 프로젝트 이름과 포트폴리오는 중요하지 않습니다.
+* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
 
-* 이러한 채점 체계를 고려하여 처음 7개의 제안이 점수의 내림차순으로 스마트 과제로 나열되어 있다. 점수가 40%보다 낮은 할당은 표시되지 않습니다.
+* If several assignments have identical scores, they display in order of the date on which the assignments were made, starting from the most recent date.  
 
-* 점수가 동일한 할당이 여러 개 있는 경우 가장 최근 날짜부터 할당한 날짜 순서대로 표시됩니다.
+  For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
 
-  예를 들어 릭이 오늘 일찍 유사한 작업에 할당되었고 제니퍼가 이틀 전에 유사한 작업에 할당되었다면 릭이 먼저 표시됩니다.
+* Assignments identified in this phase are listed in the    **Suggested assignments**  section of the Assignments field for tasks. 
 
-* 이 단계에서 식별된 할당은    작업에 대한 할당 필드의 **제안된 할당** 섹션.
-
-* 이 계산을 사용하여 일치하는 항목이 없으면 스마트 할당의 두 번째 단계가 시작되고 다른 알고리즘을 사용하여 계산됩니다.
+* If there are no matches using this calculation, the second phase of smart assignments starts which is calculated using a different algorithm.  
 
 </div>
 
-#### 작업에 대한 스마트 할당 계산의 두 번째 단계
+#### Second phase of smart assignment calculation for tasks-->
 
-작업 스마트 할당의 첫 번째 단계에서 일치하는 항목을 찾지 못한 경우 Workfront은 문제에 대한 스마트 할당을 계산하는 것과 동일한 방식으로 작업에 대한 스마트 할당을 계산합니다.
+<!--If the first step of task smart assignments has found no matches,-->
 
-자세한 내용은 이 문서의 [작업 및 문제에 대한 스마트 할당 기준](#smart-assignments-criteria-for-tasks-and-issues) 섹션을 참조하십시오.
+Workfront은 문제에 대한 스마트 할당을 계산하는 것과 동일한 방식으로 작업에 대한 스마트 할당을 계산합니다.
 
-이 단계에서 식별된 할당은 할당 필드의 **사용자 및 팀**, **작업 역할 할당** 및 <span class="preview">**등급 카드 역할**</span> 섹션에 나열됩니다. <span class="preview">등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>를 참조하십시오. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+<!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-### 작업 및 문제에 대한 스마트 할당 기준
+식별된 할당은 할당 필드의 **사용자 및 팀**, **작업 역할 할당** 및 <span class="preview">**등급 카드 역할**</span> 섹션에 나열됩니다. <span class="preview">등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>를 참조하십시오. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
+<!--
+### Smart assignments criteria for tasks and issues 
 
 >[!NOTE]
 >
->다음 기준은 작업 스마트 할당 계산의 첫 번째 단계에서 일치하는 항목을 찾지 못한 경우에만 작업에 적용됩니다. 자세한 내용은 이 문서에서 [작업에 대한 스마트 할당 계산의 첫 번째 단계](#first-phase-of-smart-assignment-calculation-for-tasks) 섹션을 참조하십시오. 기본적으로 다음 기준은 항상 문제에 적용됩니다.
+>The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
 ![](assets/smart-assignments-issue-header.png)
 

@@ -6,9 +6,9 @@ description: 스마트 할당을 사용하여 작업을 완료하는 데 가장 
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 빠른 릴리스를 사용하도록 설정한 고객의 프로덕션 환경에서만 사용할 수 있는 기능을 참조합니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 미리 보기 환경에서만 사용할 수 있는 기능을 참조합니다.</span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> 이 기능은 2025년 1월에 25.1 릴리스로 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서 제거됩니다. 25.1 릴리스에 대한 자세한 내용은 [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)를 참조하십시오.
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 사용자를 식별할 수 있습니다.
 
 스마트 할당은 작업 항목을 리소스에 할당할 때 Adobe Workfront이 사용자에게 제공하는 사용자, 역할 또는 팀에 대한 제안입니다. Workfront은 작업에 가장 적합한 리소스를 결정하는 알고리즘을 기반으로 제안을 합니다.
 
-<span class="preview">Workfront에는 작업과 문제에 대해 다르게 작동하는 스마트 할당을 계산하는 두 가지 알고리즘이 있습니다.</span>
+<!--<span class="preview">There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues.</span> -->
 
 스마트 할당을 결정하는 데 사용되는 기준에 대한 자세한 내용은 [스마트 할당 개요](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.
 
@@ -75,24 +75,22 @@ ht-degree: 0%
    * 작업 또는 문제 목록 또는 보고서
    * 작업 또는 문제 헤더
    * 작업 또는 문제 요약 패널
-   * <span class="preview">새 작업</span> 또는 새 문제 상자 <span class="preview">새 작업</span> 또는 문제를 프로젝트에 추가할 때
    * 업무 균형자의 작업 또는 문제
+     <!--* <span class="preview">A New Task</span> or New Issue box, as you add <span class="preview">a new task</span> or issue to a project-->
 
 1. 지정 필드에 커서를 놓고 2초 동안 기다립니다.
 
-   문제의 경우 스마트 할당이 다음 섹션에 표시됩니다.
+   <!--For issues, the smart assignments display in the following sections: 
+      * **Users and teams**
+      * **Job roles**
+        ![](assets/smart-assignments-issue-header.png)-->
 
-   * **사용자 및 팀**
-   * **작업 역할**
+   스마트 할당은 다음 섹션에 표시됩니다<!--, depending on which phase of the algorithm's calculation identified the assignments-->.
 
-   ![](assets/smart-assignments-issue-header.png)
+   <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
+   * **사용자 및 팀**, **작업 역할** 또는 <span class="preview">**카드 작업 역할 평가**</span>: <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   작업의 경우, 스마트 할당은 알고리즘 계산에서 할당을 식별하는 단계에 따라 다음 섹션에 표시됩니다.
-
-   * <span class="preview">**제안된 할당**: 작업 스마트 할당 알고리즘의 첫 번째 단계에서 식별된 할당을 표시합니다.</span>
-   * **사용자 및 팀**, **작업 역할** 또는 <span class="preview">**등급 카드 작업 역할**</span>: 작업 스마트 할당의 알고리즘 계산의 두 번째 단계에서 확인된 할당입니다.
-
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    자세한 내용은 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.
 

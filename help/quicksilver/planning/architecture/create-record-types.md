@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1394'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # 레코드 유형 만들기
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -108,11 +108,11 @@ ht-degree: 1%
 
         자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
-      * <span class="preview">Excel 또는 CSV 파일을 사용하여 가져온 경우. </span>
+      * Excel 또는 CSV 파일을 사용하여 가져올 때.
 
      >[!TIP]
      >
-     ><span class="preview">Excel 또는 CSV 파일에서 레코드 형식을 가져올 때 레코드와 필드도 가져올 수 있습니다.</span>
+     >Excel 또는 CSV 파일에서 레코드 유형을 가져올 때 레코드와 필드도 가져올 수 있습니다.
 
    * 수동:
 
@@ -147,7 +147,7 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
    작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
 1. (선택 사항) 작업 영역에 새 섹션을 추가하려면 **섹션 추가**&#x200B;를 클릭합니다.
-1. **레코드 종류 추가**&#x200B;를 클릭한 다음 <span class="preview">**새로 만들기**</span>&#x200B;를 클릭합니다.
+1. **레코드 종류 추가**&#x200B;를 클릭한 다음 **새로 만들기**&#x200B;를 클릭합니다.
 
    레코드 유형 추가 상자가 열립니다.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -207,8 +207,6 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    * [레코드 유형 삭제](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [레코드 유형 편집](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)
-
-<div class="preview">
 
 ## Excel 또는 CSV 파일을 가져와서 레코드 유형 만들기
 
@@ -278,6 +276,3 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다�
    레코드 유형 페이지에서 필드 및 레코드 관리를 시작할 수 있습니다.
 
    이제 Workfront Planning에 액세스할 수 있는 모든 사용자는 가져온 레코드 유형과 해당 정보를 보고 편집할 수 있습니다.
-
-</div>
-

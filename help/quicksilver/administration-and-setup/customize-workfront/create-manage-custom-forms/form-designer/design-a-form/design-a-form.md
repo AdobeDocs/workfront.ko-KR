@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
 source-wordcount: '6474'
 ht-degree: 5%
@@ -85,7 +85,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
    * [이미지, PDF 및 비디오 추가](#add-images-pdfs-and-videos)
    * [Workfront 기본 필드 추가](#add-workfront-native-fields)
    * [Adobe XD 파일 추가](#add-adobe-xd-files)
-   * <span class="preview">[Planning 연결 필드 추가](#add-planning-connection-fields)</span>
+   * [Planning 연결 필드 추가](#add-planning-connection-fields)
 
 ## 사용자 정의 양식에 새 필드 또는 기존 필드 추가
 

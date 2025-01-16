@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '3848'
+source-wordcount: '3824'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 Adobe Workfront에서 작업 항목에 대한 시간을 기록하여 작업에 소비한 시간을 나타낼 수 있습니다. 휴가, 병가, 회의 등 업무와 관련 없는 시간도 기록할 수 있다. 기록한 시간이 타임시트에 표시됩니다.
 
@@ -497,11 +495,8 @@ Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
    * 작업 역할 할당. [설정]에서 작업 역할 지정을 활성화한 경우에만 변경할 수 있습니다. 자세한 내용은 [타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하세요.
    * 시간 항목에 대한 설명.
 
-<div class="preview">
 
-![](assets/edit-hour-box-project-hour-type.png)
-
-</div>
+  ![](assets/edit-hour-box-project-hour-type.png)
 
 * 일반 시간을 편집할 때:
 
@@ -551,7 +546,7 @@ Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
    >
    >   선택한 시간 항목과 연결된 시간 유형에 따라 일부 필드는 사용할 수 없습니다.
 
-1. **변경 내용 <span class="preview">저장</span>**&#x200B;을 클릭합니다.
+1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
    시간 항목 정보가 업데이트됩니다.
 두 개 이상의 시간 항목을 선택하고 시간 필드를 수정한 경우 선택한 모든 시간 항목에 동일한 시간이 할당됩니다. 원래 시간은 선택한 모든 시간 항목에 대한 새 값으로 대체됩니다.
