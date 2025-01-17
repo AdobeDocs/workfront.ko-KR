@@ -4,9 +4,10 @@ description: 2024년 4분기 보고서 및 대시보드 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+exl-id: d4b7b926-f747-4aee-b983-fe6b5f2e0dfd
+source-git-commit: 1f33ef44b8e5d703c5407cdd2fc8ca24fba48bb1
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 >
 >모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)
 >
->_새 Adobe Workfront 플랜 중 하나의 조직에서만 사용할 수 있습니다. Data Connect는 Ultimate 플랜에 포함되어 있거나 Prime 및 Select 플랜에 대한 추가 기능으로 구입할 수 있습니다._
+>_새 Adobe Workfront 플랜 중 하나의 조직에서만 사용할 수 있습니다. Data Connect는 Ultimate 플랜에 포함되어 있으며 2025년 상반기에 Prime 및 Select 플랜의 추가 기능으로 구입할 수 있습니다._
 
 Workfront Data Connect는 새로운 Workfront 플랜 중 하나에 있는 고객이 사용할 수 있습니다. Data Connect를 사용하면 조직은 비즈니스 인텔리전스 도구를 사용하여 분석하고 시각화하거나 외부에 저장할 수 있는 안전하고 확장 가능한 데이터 레이크로 데이터에 액세스할 수 있습니다. 또한 조직은 Data Connect를 사용하여 시간 기반 트렌드 분석, 변수 매핑, Workfront 데이터와 결합된 외부 시스템 데이터 분석과 같이 이전에 사용할 수 없었던 데이터 분석을 볼 수 있습니다.
 

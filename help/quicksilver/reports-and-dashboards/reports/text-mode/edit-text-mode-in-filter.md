@@ -6,20 +6,16 @@ description: 텍스트 모드를 사용하여 목록 또는 보고서에서 필�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 0%
+source-wordcount: '1042'
+ht-degree: 1%
 
 ---
 
 # 텍스트 모드를 사용하여 필터 편집
 
-<!-- Audited: 01/2024 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
--->
+<!-- Audited: 1/2025 -->
 
 텍스트 모드를 사용하여 목록 또는 보고서에서 필터를 편집하여 표준 인터페이스에서 사용할 수 없는 필드에 액세스하고 보다 복잡한 필터를 만들 수 있습니다.
 
@@ -29,7 +25,7 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,9 +37,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-    <p>또는</p>
-    <p>현재: 플랜</p> </td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>플랜</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -56,7 +59,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -84,12 +87,20 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행하십시오.
 
-   1. 보고서에서 필터에 액세스하려면 보고서로 이동한 다음 **보고서 작업** > **편집** > **필터** 탭을 클릭합니다.
-   1. 목록에서 필터에 액세스하려면 목록으로 이동한 후 **필터** 메뉴에서 수정할 필터를 마우스로 가리킨 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+   목록에서 필터에 액세스하려면 목록으로 이동하여 **필터** 아이콘을 클릭한 다음 수정할 **필터** 사이드 패널의 필터 위에 마우스를 놓고 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다. **필터** 사이드 패널에 선택한 필터가 표시되거나 레거시 필터 빌더가 열립니다.
 
-      필터 빌더가 열립니다.
+   또는
 
-1. **필터 규칙 추가**&#x200B;를 클릭하여 필터의 조건을 추가한 다음 빌더 오른쪽에 있는 **텍스트 모드** 또는 **텍스트 모드로 전환**&#x200B;을 클릭합니다.
+   보고서에서 필터에 액세스하려면 보고서로 이동한 다음 **보고서 작업** > **편집** > **필터** 탭을 클릭합니다.
+
+1. 다음 중 하나를 수행하십시오.
+
+   목록에서 **필터** 사이드 패널을 사용하는 경우 **텍스트 모드**&#x200B;를 클릭합니다.
+
+   또는
+
+   기존 필터 빌더 또는 보고서에서 사용하는 경우 **필터 규칙 추가**&#x200B;를 클릭하여 필터의 조건을 추가합니다. 그런 다음 빌더 오른쪽에서 **텍스트 모드로 전환**&#x200B;을 클릭한 다음 **텍스트 모드 편집**&#x200B;을 클릭합니다.
+
 1. 텍스트 모드를 사용하여 필터 문을 추가합니다. 각 필터 문에는 다음 줄과 추가 정보가 포함될 수 있습니다.
 
    <table style="table-layout:auto"> 
@@ -175,7 +186,7 @@ ht-degree: 0%
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. 텍스트 모드 변경 내용을 저장하고 보고서 또는 필터를 계속 편집하려면 **텍스트 모드 종료** 또는 **완료**&#x200B;를 클릭하십시오.
+1. 텍스트 모드 변경 내용을 저장하고 보고서 또는 필터를 계속 편집하려면 **적용** 또는 **완료**&#x200B;를 클릭하십시오.
 1. **저장 + 닫기**&#x200B;를 클릭하여 보고서를 저장하거나 **필터 저장**&#x200B;을 클릭하여 필터를 목록에 저장합니다.
 
 

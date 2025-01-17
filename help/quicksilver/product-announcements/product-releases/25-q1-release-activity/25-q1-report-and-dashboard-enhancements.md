@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 0%
+source-wordcount: '324'
+ht-degree: 4%
 
 ---
 
@@ -17,6 +17,31 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 1분기 릴리스의 모든 보고서 및 대시보드 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)를 참조하십시오.
+
+## Data Connect에서 사용할 수 있는 새 엔티티
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 1월 15일, 모든 고객을 위한 프로덕션 릴리스: 2025년 1월 15일
+
+Data Connect에 다음 엔티티에 대한 지원이 추가되었습니다.
+
+* 프로젝트 팀 사용자
+* 프로젝트 팀 사용자 역할
+* 보고 가능한 예산 시간
+* 보고서 보기 통계 수
+* 리소스 관리자
+* 서식 있는 텍스트 메모
+
+다음 에이전시별 엔티티에 대한 지원도 추가했습니다.
+
+* 비즈니스 프로필
+* 비즈니스 규칙
+* 위치
+* 비노동 리소스 범주
+* 사용자 위치
+
+자세한 내용은 [Workfront Data Connect 데이터 사전](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)을 참조하십시오.
 
 ## 대시보드의 보고서, 외부 페이지 또는 캘린더 25개 제한
 

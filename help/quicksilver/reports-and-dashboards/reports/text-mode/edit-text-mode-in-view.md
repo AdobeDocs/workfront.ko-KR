@@ -2,24 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: 텍스트 모드를 사용하여 보기 편집
-description: '참고: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html에 섹션을 추가합니다*** 또한 텍스트 모드 개요 문서에서 이 영역을 초안합니다.'
+description: '참고: 이 문서에서 /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html 섹션도 추가합니다*** 텍스트 모드 개요 문서에서 이 영역을 초안합니다.)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 1%
+source-wordcount: '455'
+ht-degree: 2%
 
 ---
 
 # 텍스트 모드를 사용하여 보기 편집
 
-<!--Audited: 01/2024-->
-
-<!--
-<add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
--->
+<!-- Audited: 1/2025 -->
 
 텍스트 모드를 사용하여 목록이나 보고서의 보기를 편집하여 표준 인터페이스에서 사용할 수 없는 필드에 액세스하고 보다 복잡한 보기를 만들 수 있습니다.
 
@@ -27,23 +23,31 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새로운 기능: 표준 </p>
-   <p>현재: 플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>플랜</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서의 보고 요소를 편집합니다.</p> </td> 
   </tr> 
   <tr> 
@@ -53,8 +57,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
-액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -70,7 +73,7 @@ ht-degree: 1%
 
 ## 보기에서 텍스트 모드 편집
 
-텍스트 모드를 사용하여 뷰를 편집하는 것은 보고서와 목록에 대해 동일합니다. 보고서 또는 목록에서 보기에 액세스하는 방법은 다릅니다.
+텍스트 모드를 사용하여 뷰를 편집하는 것은 보고서와 목록에 대해 동일합니다. 보고서 또는 목록에서 보기에 액세스하는 방법은 다릅니다.
 
 >[!TIP]
 >

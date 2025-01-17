@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,25 @@ ht-degree: 0%
 
 2025년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)를 참조하십시오.
 
+## 이제 비즈니스 규칙이 더 많은 오브젝트에 대해 지원됩니다
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 1월 16일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
+>
+>_Ultimate 플랜의 조직에서만 사용할 수 있습니다._
+
+이제 비즈니스 규칙을 생성하고 회사, 반복, 비인적 자원 범주, 작업 역할, 사용자, 할당, 자원 풀, 휴무, 문서 및 시간과 같은 추가 객체에 검증을 적용할 수 있습니다.
+
+프로젝트, 작업, 요청, Portfolio, 프로그램, 경비, 청구 기록, 그룹, 위험 및 요금 카드 등의 개체가 비즈니스 규칙에 대해 이미 지원되었습니다.
+
+자세한 내용은 [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)을 참조하세요.
+
 ## 환경 프로모션을 위해 환경 간에 객체 비교
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 1월 6일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
+>미리보기 릴리스: 2025년 1월 6일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
 
 환경 프로모션 패키지에 포함해야 하는 오브젝트를 더 쉽게 결정할 수 있도록 환경 간에 오브젝트를 비교하는 기능을 추가했습니다. 이제 개체 유형 및 환경을 선택할 수 있습니다. Workfront은 해당 유형의 객체 목록과 대상 환경에 해당 객체가 있는지 여부 및 소스 환경과 대상 환경 간에 차이가 있는지 여부를 생성합니다. 그런 다음 이 목록에서 직접 패키지에 개체를 추가할 수 있습니다.
 
@@ -34,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 1월 6일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
+>미리보기 릴리스: 2025년 1월 6일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)
 
 환경 프로모션 기능의 기능을 확장하기 위해 더 많은 개체를 추가했습니다. 이제 환경 프로모션 패키지에 다음 오브젝트를 추가할 수 있습니다.
 

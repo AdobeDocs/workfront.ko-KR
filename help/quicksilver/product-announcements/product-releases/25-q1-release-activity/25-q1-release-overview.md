@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: a91ca50cacb1f48d49fd70e9612297438bbddd83
+source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2776'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,23 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           이제 비즈니스 규칙이 더 많은 오브젝트에 대해 지원됩니다</a></p>
+           [!BADGE In production ]{type=Informative}
+            <p>이제 비즈니스 규칙을 생성하고 회사, 반복, 비인적 자원 범주, 작업 역할, 사용자, 할당, 자원 풀, 휴무, 문서 및 시간과 같은 추가 객체에 검증을 적용할 수 있습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2024년 1월 16일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월 16일)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
            환경 프로모션을 위해 환경 간에 객체 비교</a></p>
+           [!BADGE In production ]{type=Informative}
             <p>환경 프로모션 패키지에 포함해야 하는 오브젝트를 더 쉽게 결정할 수 있도록 환경 간에 오브젝트를 비교하는 기능을 추가했습니다. 그런 다음 이 비교에서 직접 패키지에 개체를 추가할 수 있습니다.</p>
         </td>
         <td>
@@ -76,6 +92,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             환경 프로모션에 사용할 수 있는 추가 오브젝트</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>환경 프로모션 기능의 기능을 확장하기 위해 더 많은 개체를 추가했습니다.</p>
         </td>
         <td>
@@ -90,6 +107,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             기록된 시간이 있을 때 작업 이동 방지</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>시간이 기록된 작업 또는 문제를 이동하면 경우에 따라 준수 또는 감사 문제가 발생할 수 있으므로 작업 및 문제에 기록된 시간이 있는 경우 사용자가 작업 및 문제를 이동할 수 없도록 하는 기본 설정을 설정의 작업 및 문제 기본 설정 영역에 추가했습니다.</p>
         </td>
         <td>
@@ -104,7 +122,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             단일 할당 작업에 프로젝트 또는 사용자 일정을 사용하는 환경 설정</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>이제 시스템 또는 그룹 관리자로서, 작업에 한 명의 사용자를 할당하고 프로젝트와 사용자를 모두 예약과 연결할 때 Workfront이 프로젝트의 일정을 계산할지 또는 사용자의 일정을 사용할지 여부를 나타내는 새로운 환경 설정이 제공됩니다.</p>
         </td>
         <td>
@@ -120,7 +138,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             비즈니스 규칙이 이제 하이퍼링크를 지원합니다.</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>이제 비즈니스 규칙의 사용자 지정 오류 메시지에 하이퍼링크를 포함하여 규칙의 제한 사항 내에서 작업을 수정하는 방법을 사용자에게 안내할 수 있습니다. 정적 URL은 설명서 또는 사용자에게 유용한 다른 페이지에 연결할 수 있습니다.</p>
         </td>
         <td>
@@ -136,6 +154,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             이제 기본 자동 완성 필드에 대한 필터링을 사용할 수 있습니다</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>이제 사용자 정의 양식에 기본 필드 참조를 추가하고 이 필드가 자동 완성 필드(예: Portfolio, 회사 또는 소유자)를 참조하는 경우 필터 옵션을 사용할 수 있습니다. 필터를 사용하면 사용자가 필드를 사용할 때 선택할 수 있는 개체를 제한할 수 있습니다. 이 사용자 지정 필터는 사용자 지정 자동 완성 필드의 필터와 동일하게 작동하며 텍스트 모드를 사용하여 필터를 정의합니다.</p>
         </td>
         <td>
@@ -151,7 +170,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             사용자 정의 필드에 "이동" 아이콘이 추가됨</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 "이동" 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.</p>
         </td>
         <td>
@@ -184,6 +203,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
             게시판 소유자 변경</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>기본적으로 보드 작성자는 소유자입니다. 보드 소유자는 구성 패널에서 해당 보드를 삭제하거나 해당 필터를 업데이트할 수 있는 유일한 사람입니다.</p>
             <p>Workfront 시스템 관리자가 보드 소유자를 변경할 수 있는 기능이 추가되었습니다. 보드의 현재 소유자는 해당 특정 보드의 소유자를 변경할 수도 있습니다. 이 기능은 기본, 소급 및 Kanban 보드에서 사용할 수 있지만 동적 보드에서는 사용할 수 없습니다.</p>
         </td>
@@ -216,7 +236,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             한 번에 여러 문서 편집</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>이제 여러 문서를 한 번에 편집할 수 있습니다. 설명을 편집하고 사용자 정의 양식을 업데이트할 수 있습니다.</p>
         </td>
         <td>
@@ -232,7 +252,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             문서 버전 승인에 사용 가능한 새로운 철회된 상태</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>승인 보류 중인 문서에 새 버전이 추가되면 이전 버전에 대한 승인이 "철회됨"으로 표시되어 새 버전이 추가되어 이전 승인 프로세스가 종료되었음을 나타냅니다.</p>
         </td>
         <td>
@@ -266,6 +286,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             스마트 필터를 사용하여 우선 순위에서 작업 찾기</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>자연어를 사용하여 우선 순위 작업 목록에서 작업을 빠르게 필터링합니다. 다음과 같은 항목을 입력할 수 있습니다. </p>
             <ul>
                 <li>지연된 작업 표시</li>
@@ -285,6 +306,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             우선 순위에서 작업 따라잡기</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>Catch me up을 사용하면 활성 프로젝트에 대한 정보를 찾는 시간을 줄일 수 있습니다.</p>
             <p>Workfront의 AI Assistant를 기반으로 하는 Catch me up은 24시간, 3일 또는 7일 이내의 기간 동안 업데이트, 업로드된 문서 및 프로젝트에 대한 기타 주목할 만한 변경 사항을 요약합니다.</p>
         </td>
@@ -302,6 +324,7 @@ ht-degree: 0%
             우선 순위의 세부 정보 페이지에서 실시간으로 변경 사항 보기</a></p>
             <p>이제 작업 또는 문제의 세부 정보 페이지에서 실시간 업데이트를 볼 수 있습니다. 실시간 상태 표시기를 사용하여 다른 사용자가 사용자와 동시에 페이지를 보고 있는지 여부도 확인할 수 있습니다.</p>
         </td>
+        [!BADGE In production ]{type=Informative}
         <td>
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
@@ -314,6 +337,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             우선 순위에서 문서 및 증명 업로드 및 보기</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>이제 작업 목록 및 달력에서 작업 및 문제에 대한 문서 및 증명과 상호 작용할 수 있습니다. 새 문서 탭에서 다음을 수행할 수 있습니다.</p>
             <ul>
                 <li>문서 업로드</li>
@@ -334,6 +358,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             이제 우선 순위에서 달력 보기를 사용할 수 있습니다.</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>명확하고 시각적인 월 달력으로 작업을 추적할 수 있습니다. 우선순위 달력을 사용하여 다음을 수행할 수 있습니다.</p>
             <ul>
                 <li>필터를 사용하여 작업 찾기</li>
@@ -354,6 +379,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             우선 순위 작업 목록 업데이트</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>기능을 개선하고 애플리케이션의 다른 영역에 맞게 우선 순위 작업 목록을 업데이트했습니다.</p>
         </td>
         <td>
@@ -368,6 +394,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             우선 순위에서 프로젝트의 세부 정보 페이지로 이동합니다.</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>이제 우선 순위 작업 목록에서 Workfront의 프로젝트로 직접 이동할 수 있습니다.</p>
         </td>
         <td>
@@ -387,7 +414,7 @@ ht-degree: 0%
             <ul>
                 <li>긴급</li>
                 <li>높음</li>
-                <li>기본</li>
+                <li>보통</li>
                 <li>낮음</li>
             </ul>
         </td>
@@ -403,7 +430,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             우선 순위에서 프로젝트 세부 정보 보기</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>이제 우선 순위의 작업 목록에서 프로젝트 세부 정보 및 주석을 볼 수 있습니다.</p>
         </td>
         <td>
@@ -434,8 +461,9 @@ ht-degree: 0%
     </tr>
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             빠른 릴리스 환경을 위한 미리보기 및 프로덕션에서 더 많은 관련 할당이 제거됨</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>2023년 12월 이후 미리보기 환경 및 2024년 3월 이후 빠른 릴리스 프로덕션 환경에 있던 기능이 이제 제거되었습니다. 이 기능은 작업을 할당할 때 더 적절한 스마트 할당 제안을 추가했습니다.</p>
         </td>
         <td>
@@ -523,7 +551,23 @@ ht-degree: 0%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Data Connect에서 사용할 수 있는 새 엔티티</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>일부 에이전시별 엔티티를 포함하여 Data Connect에 여러 새 엔티티에 대한 지원이 추가되었습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2025년 1월 15일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 2025년 1월 15일</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             대시보드의 보고서, 외부 페이지 또는 캘린더 25개 제한</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>대시보드 성능을 유지하기 위해 대시보드에 배치할 수 있는 보고서, 외부 페이지 또는 달력의 총 수에 대한 제한을 구현했습니다. 새 대시보드를 만들 때 최대 25개의 항목을 추가할 수 있습니다.</p>
         </td>
         <td>
@@ -568,7 +612,7 @@ ht-degree: 0%
     </tr>
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             홈 및 내 업데이트 영역의 언급 위젯에서 주석 달기 환경이 업데이트되었습니다</a></p>
             <p>홈의 언급 위젯 및 내 업데이트 영역의 언급 섹션에서 주석 달기 경험을 업데이트하고 있습니다. 이제 대부분의 Workfront 오브젝트의 업데이트 영역에서 언급 위젯 및 내 업데이트의 언급 섹션에서도 동일한 경험을 사용할 수 있습니다.</p>
         </td>
@@ -612,7 +656,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             이제 사용자 정의 양식 내의 섹션을 축소 및 확장할 수 있습니다</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>이제 여러 섹션이 있는 사용자 정의 양식을 오브젝트에 첨부할 때 양식의 맨 위에 있는 기본 섹션을 제외한 모든 섹션을 축소하고 확장할 수 있습니다. 관리자는 양식 디자이너에서 양식을 미리 볼 때도 이 기능을 볼 수 있습니다.</p>
         </td>
         <td>
@@ -628,7 +672,7 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             이제 AI Assistant를 사용하여 프로젝트, 작업 및 문제 작업 가능</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>Workfront에서 작업 항목을 보다 쉽게 관리할 수 있도록 프로젝트, 작업 및 문제 관련 작업이 가능하도록 AI Assistant를 업데이트했습니다. 이제 AI Assistant는 사용자가 지정하는 기준에 따라 프로젝트, 작업 및 문제를 찾을 수 있습니다.</p>
         </td>
         <td>
@@ -666,6 +710,14 @@ The following functionality is soon to be removed from Workfront:
 ## 공지
 
 ### Workfront Fusion 개선 사항
+
+>[!IMPORTANT]
+>
+>Workfront Fusion 설명서가 새 위치로 이동했습니다. Fusion에 대한 정보, 지침 및 릴리스는 [Workfront Fusion 설명서](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)를 참조하십시오.
+>
+>현재 각 Fusion 설명서 문서에는 새 위치에 있는 해당 문서에 대한 링크가 포함되어 있습니다. 책갈피를 업데이트하십시오.
+>
+>현재 Fusion 설명서 세트는 더 이상 업데이트되지 않으며 가까운 시일 내에 제거됩니다.
 
 Workfront Fusion의 새로운 기능은 2025년 1분기 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 

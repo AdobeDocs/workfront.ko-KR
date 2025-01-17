@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%
@@ -28,7 +28,6 @@ ht-degree: 0%
 Workfront의 다른 영역 디자인과 일치하도록 시간 목록 또는 보고서에서 시간을 편집할 때 시간 편집 상자의 모양과 느낌을 업데이트했습니다.
 
 자세한 내용은 [로그 시간](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)을 참조하세요.
-
 
 
 ## 설정 영역의 클라우드 공급자 페이지에서 경험을 업데이트했습니다

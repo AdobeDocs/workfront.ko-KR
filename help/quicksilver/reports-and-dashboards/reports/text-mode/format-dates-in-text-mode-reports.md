@@ -6,7 +6,7 @@ description: Adobe Workfront의 보고서와 목록에 날짜를 다양한 형�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 텍스트 모드 보고서에서 날짜 형식 지정
+
+<!-- Audited: 1/2025 -->
 
 Adobe Workfront의 보고서와 목록에 날짜를 다양한 형식으로 표시하도록 구성할 수 있습니다. 날짜 형식을 설정하려면 열에서 텍스트 모드 코드의 `valueformat` 줄을 수정해야 합니다.
 
@@ -33,13 +35,7 @@ valuefield=plannedCompletionDate
 
 텍스트 모드를 사용하여 Workfront 보고서 및 목록에서 조건부 서식을 적용하는 방법에 대한 자세한 내용은 [텍스트 모드에서 조건부 서식 사용](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)을 참조하십시오.
 
-다음을 사용하여 날짜 형식을 지정할 수 있습니다
-
-```
-valueformat
-```
-
- 텍스트 모드 값:
+다음 `valueformat` 텍스트 모드 값을 사용하여 날짜 형식을 지정할 수 있습니다.
 
 | **형식** | 예  | ***valueformat=*** |
 |---|---|---|

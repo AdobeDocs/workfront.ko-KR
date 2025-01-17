@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스(2024년 10월 17일)부터 점진적으로 시작하며, 2024년 11월 8일까지 전체 가용성
+>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스(2024년 10월 17일)부터 점진적으로 시작됩니다
 
 Workfront의 다른 영역 디자인과 일치하도록 보고서 인터페이스를 업데이트했습니다. 이러한 업데이트에는 보고 기능에 대한 추가 변경 사항이 포함됩니다.
 

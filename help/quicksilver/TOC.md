@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
 workflow-type: tm+mt
-source-wordcount: '14784'
+source-wordcount: '14788'
 ht-degree: 2%
 
 ---
@@ -319,6 +319,8 @@ ht-degree: 2%
             * [Adobe Workfront Proof 23.3 릴리스 활동: 2023년 5월 8일 주](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof 릴리스 활동: 2021년 5월 17일이 있는 주](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront Proof 릴리스 활동: 2021년 11월 29일의 주](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
+      * 인터페이스 현대화 {#interface-modernization}
+         * [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
       * 분기별 릴리스 보관 파일 {#quarterly-release}
          * [분기별 릴리스 아카이브](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * 20.4 릴리스 {#release-20-4}
@@ -1715,7 +1717,7 @@ ht-degree: 2%
          * [텍스트 모드 구문 개요](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
          * [텍스트 모드를 사용하여 보기 편집](reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
          * [텍스트 모드를 사용하여 필터 편집](reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-         * [그룹화에서 텍스트 모드 편집](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+         * [텍스트 모드를 사용하여 그룹화 편집](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
          * [텍스트 모드에서 조건부 서식 사용](reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
          * [텍스트 모드 보고서에서 날짜 형식 지정](reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
          * [텍스트 모드 보고서에서 숫자, 통화 및 백분율 값 서식 지정](reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)

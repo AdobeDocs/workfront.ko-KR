@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 텍스트 모드 구문 개요
 
-<!--Audited: 12/2023-->
+<!--Audited: 1/2025-->
 
 텍스트 모드 인터페이스를 사용하여 목록 및 보고서에서 보다 복잡한 보기, 필터, 그룹화 및 사용자 지정된 프롬프트를 만들 수 있습니다. 텍스트 모드를 사용하면 표준 모드 인터페이스에서 사용할 수 없는 필드 및 해당 속성에 액세스할 수 있습니다.
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 ## 텍스트 모드 구문에 대한 고려 사항
 
 * 텍스트 모드에서 보고 요소 작성을 시작하려면 Adobe Workfront 구문을 이해해야 합니다. 텍스트 모드의 Workfront 구문은 이 애플리케이션에 고유하며 익숙해야 하는 고유한 특성을 가집니다.
-* 보고서에서 텍스트 모드를 사용하기 전에 텍스트 모드 언어를 더 깊이 있게 이해할 수 있도록 고급 보고에 대한 강의를 수강하는 것이 좋습니다. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* 보고서에서 텍스트 모드를 사용하기 전에 텍스트 모드 언어를 더 깊이 있게 이해할 수 있도록 고급 보고에 대한 강의를 수강하는 것이 좋습니다.
 * 표준 모드 인터페이스를 사용하여 보기, 필터 및 그룹화를 사용자 지정할 수 있습니다. 하지만 텍스트 모드만 사용하여 사용자 정의 프롬프트를 작성할 수 있습니다.
 
 ## 텍스트 모드에서 보고 요소를 작성하기 위한 일반적인 지침
@@ -44,13 +44,11 @@ ht-degree: 0%
 
   **예:** 작업 보기에 Portfolio 소유자의 이름이나 GUID를 표시할 수 있습니다.
 
-
   `valuefield=project:portfolio:ownerID`
 
   작업 보기에서 Portfolio 소유자를 그룹화하거나 필터링하거나 프롬프트를 표시할 수 없습니다.
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
-
 
   이러한 예에서 Portfolio 소유자 ID는 목록의 객체에서 3개의 객체입니다.
 
@@ -90,7 +88,7 @@ ht-degree: 0%
   텍스트 모드에서 뷰 및 그룹화를 작성할 때의 코드 키 행에 대한 자세한 내용은 다음을 참조하십시오.
 
    * [텍스트 모드를 사용하여 보기 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [그룹화에서 텍스트 모드 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [텍스트 모드를 사용하여 그룹화 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * 코드 및 구문 행은 필터 및 사용자 지정 프롬프트에 대해 유사합니다.
 

@@ -6,7 +6,7 @@ description: 차트를 추가하여 보고서를 개선할 수 있습니다. 기
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >* 보고서 결과를 그룹화할 때만 보고서에 차트를 추가할 수 있습니다.
-   >* 텍스트 모드 그룹화는 차트에서 지원되지 않습니다. 텍스트 모드 그룹화에 대한 자세한 내용은 [그룹화에서 텍스트 모드 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)을 참조하십시오.
+   >* 텍스트 모드 그룹화는 차트에서 지원되지 않습니다. 텍스트 모드 그룹화에 대한 자세한 내용은 [텍스트 모드를 사용하여 그룹화 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)을 참조하십시오.
    >* 하나의 지표를 나타내는 단일 그룹화를 추가하면 파이 차트를 제외한 모든 차트에 그룹화의 각 결과가 동일한 색상으로 표시됩니다.
 
    그룹화 만들기에 대한 자세한 내용은 [Adobe Workfront에서 그룹화 만들기](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)를 참조하십시오.

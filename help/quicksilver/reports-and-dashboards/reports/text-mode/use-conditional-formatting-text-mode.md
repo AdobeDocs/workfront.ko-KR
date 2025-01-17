@@ -6,20 +6,16 @@ description: 텍스트 모드에서 조건부 서식 사용
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1682'
 ht-degree: 1%
 
 ---
 
 # 텍스트 모드에서 조건부 서식 사용
 
-<!--Audited: 01/2024-->
-
-<!--
-(NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
--->
+<!--Audited: 01/2025-->
 
 표준 인터페이스 빌더는 조직의 요구 사항을 충족하는 보고 요소를 만들 때 광범위한 유연성을 제공합니다.
 
@@ -30,7 +26,7 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,13 +38,19 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 표준 </p> 
-   <p>또는</p>
-   <p>현재: 플랜</p> 
-   </td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>플랜</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서의 보기 편집</p> </td> 
   </tr> 
   <tr> 
@@ -58,10 +60,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
-
 
 ## 텍스트 모드의 조건부 서식
 
@@ -122,126 +123,11 @@ ht-degree: 1%
 
 자세한 내용은 [텍스트 모드 보고서의 날짜 서식 지정](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)을 참조하십시오.
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above)</p>
-<p>To establish a date format, you must modify the <code>valueformat</code> line of the text mode code in the column.</p>
-<pre>valueformat= [new date format]</pre>
-<p>For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like:</p>
-<pre>valueformat=atDate<br>valuefield=projectedCompletionDate </pre>
-<p>If you wanted to show the Planned Completion Date as <em>Mth, DD, Year</em>, the code would look like:</p>
-<pre>valueformat=mediumAtdate<br>valuefield=plannedCompletionDate</pre>
-<p>You can format dates using the following <code>valueformat</code> text mode values:</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><strong>Format</strong> </th>
-<th scope="col">Example </th>
-<th scope="col"><em><strong>valueformat=</strong></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>atDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY Time</td>
-<td>10/11/18 12:00pm</td>
-<td><pre>longAtDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>shortAtDate</pre> </td>
-</tr>
-<tr>
-<td>Mth, DD, YR</td>
-<td>Oct, 11, 2018</td>
-<td><pre>mediumAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR</td>
-<td>Mon, Oct, 11, 2018</td>
-<td><pre>partialAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR Time</td>
-<td>Mon, Oct, 11, 2018 12:00 pm</td>
-<td><pre>fullAtDate</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
-
 #### 숫자 서식 {#format-numbers}
 
 보고 요구 사항에 가장 적합한 정보를 표시하도록 숫자 값의 형식을 지정할 수 있습니다.
 
 자세한 내용은 [텍스트 모드 보고서의 숫자, 통화 및 백분율 값 서식](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)을 참조하세요.
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To modify the format of a numeric value, you must edit the <strong>valueformat</strong> line of your column.</p> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above) </p>
-<p>For example, if you wanted to display the Budget column as $1000, the value format line would look like:</p>
-<pre>valueformat=currencyStringCurrencyRounded<br>valuefield=budget</pre>
-<p>You can format numbers using the following values for the <code>valueformat</code> line of your column:</p>
-<table border="2" cellspacing="15" cellpadding="1">
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><strong>Example</strong> </th>
-<th scope="col"><em><code>valueformat=</code></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1234</td>
-<td><pre>doubleAsString</pre> or <pre>int</pre></td>
-</tr>
-<tr>
-<td>1,234</td>
-<td><pre>doubleAsInt</pre> </td>
-</tr>
-<tr>
-<td>$1,234</td>
-<td><pre>currencyStringCurrencyRounded</pre> </td>
-</tr>
-<tr>
-<td>1234.56</td>
-<td><pre>doubleAsDouble</pre> </td>
-</tr>
-<tr>
-<td>$1,234.56</td>
-<td><pre>currencyStringCurrency</pre> </td>
-</tr>
-<tr>
-<td>12%</td>
-<td><pre>doubleAsPercentRounded</pre> </td>
-</tr>
-<tr>
-<td>12.34%</td>
-<td><pre>doubleAsPercent</pre> </td>
-</tr>
-<tr>
-<td>(1,234.56)</td>
-<td><pre>doubleAsFinancial</pre> </td>
-</tr>
-<tr>
-<td>(1,234)</td>
-<td><pre>doubleAsFiancialRounded</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
 
 ### 열 규칙 {#column-rules}
 
@@ -303,9 +189,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* 이 문은 회사 이름 열에 적용할 수 있지만 보고서의 다른 열에도 적용할 수 있습니다. 프로젝트에 연결된 회사가 있는 경우에만 녹색 텍스트가 표시됩니다. 조건이 열에 표시되는지 여부에 관계없이 `[field name]`, `[value]` 및 `[qualifier]` 드라이브를 기억하십시오.
 >* 한정자를 사용할 때는 `equal`보다 `cicontains`을(를) 사용하는 것이 좋습니다. 기본적으로 `equal`은(는) ID 번호를 찾습니다. `cicontains` 한정자를 사용하면 해당 이름으로 항목에 액세스할 수 있습니다.
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
+![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
+
+![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 텍스트 모드에 텍스트 색상, 정렬, 글꼴 스타일 또는 배경색을 적용하든 관계없이 동일한 문(위에 표시)이 사용됩니다.
 
@@ -410,14 +297,13 @@ styledef.case.0.comparison.truetext=not today
 >
 >`case.0.`(으)로 시작하는 줄은 텍스트 사용을 식별하기 위해 사용 사례 비교를 사용합니다. `styledef.case.0.`(으)로 시작하는 줄은 `truetext` 식을 통해 텍스트 사용을 식별하는 초기 조건부 서식 문입니다. `truetext`을(를) 비워 두지 말고 값으로 설정하십시오.
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
+![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png)
+![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### 행 형식 적용 {#apply-row-formats}
 
 전체 행에 조건을 적용하려면 열 코드에 다음 코드를 사용합니다.
-
 
 ```
 styledef.case.0.comparison.icon=false
@@ -443,7 +329,6 @@ row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
 row.0.styledef.case.0.comparison.truetext=
 ```
 
-
 #### 이미지 적용 {#apply-images}
 
 텍스트로 서식을 지정하는 것과 마찬가지로 이미지를 사용하여 보고서에 정보를 표시할 수 있습니다. Workfront에는 보고서 설정에서 시각적 정보를 전달할 수 있는 많은 내장 이미지가 있습니다. 조건부 서식 설정에서 이미지를 사용하려면 다음 문이 필요합니다.
@@ -460,7 +345,6 @@ image.case.0.comparison.truetext=
 
 예를 들어 프로젝트 보고서에서 오늘 일자와 같지 않은 모든 계획된 완료 일자에 대해 찡그린 얼굴을 표시하는 열을 작성하려고 합니다. 다음 텍스트 모드 코드를 사용하여 열에 아이콘을 추가합니다.
 
-
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
 image.case.0.comparison.lefttext=plannedCompletionDate
@@ -475,9 +359,9 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >문에서 `icon=true` 식을 사용합니다. 이 문은 `style.def` 형식이 아니라 고유한 이미지 형식을 사용한다는 점에서 다른 조건부 서식 구문과 다릅니다.
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
+![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png)
+![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 사용 가능한 이미지를 사용하려면 다음 코드와 값을 적용합니다.
 
