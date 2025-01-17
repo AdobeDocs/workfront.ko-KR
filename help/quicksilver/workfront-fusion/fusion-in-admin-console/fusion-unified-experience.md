@@ -3,18 +3,31 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Workfront Fusion용 통합 경험 Adobe
-description: Adobe Experience Cloud을 통해 Workfront Fusion에 액세스하면 모든 Adobe 애플리케이션을 원활하고 통합적으로 관리할 수 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
 
 # [!DNL Workfront Fusion]에 대한 [!DNL Adobe Unified Experience]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [프로필 설정 변경](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/change-profile-settings.html)
+>* [팀 알림 옵션 설정](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 [!DNL Adobe Experience Cloud]을(를) 통해 [!DNL Workfront Fusion]에 액세스하면 모든 [!DNL Adobe] 응용 프로그램을 관리할 수 있는 원활하고 통합된 환경을 얻을 수 있습니다. 단일 ID 관리를 사용하면 여러 URL이나 로그인 ID 없이 한 곳에서 로그인할 수 있습니다.
 
@@ -108,7 +121,7 @@ ht-degree: 0%
 
 알림을 보려면 화면 오른쪽 상단 근처에 있는 알림 아이콘 ![알림 아이콘](assets/notifications-icon.png)을 클릭하세요. 알림 아이콘에 빨간색 점이 있으면 읽지 않은 알림 또는 공지가 있음을 나타냅니다.
 
-Adobe Experience Cloud에서 알림을 구성하는 방법에 대한 지침은 Adobe 설명서의 [알림 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.)을 참조하십시오.
+Adobe Experience Cloud에서 알림을 구성하는 방법에 대한 지침은 Adobe 설명서의 [알림 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.)을 참조하십시오.
 
 구성할 때는 다음을 참고하십시오.
 

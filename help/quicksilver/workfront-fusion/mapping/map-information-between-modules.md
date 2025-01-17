@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: ' [!DNL Adobe Workfront Fusion]의 한 모듈에서 다른 모듈로 정보 매핑'
-description: 매핑은 항목으로 구조화된 모듈의 출력을 다른 모듈의 입력 필드에 할당하는 프로세스입니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]의 한 모듈에서 다른 모듈로 정보 매핑
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [한 모듈에서 다른 모듈로 정보를 매핑합니다](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-data-from-one-to-another.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 매핑은 항목으로 구조화된 모듈의 출력을 다른 모듈의 입력 필드에 할당하는 프로세스입니다.
 

@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: OpenAI(ChatGPT) 모듈
-description: Adobe Workfront Fusion 시나리오에서는 OpenAIT(ChatGPT)를 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 애플리케이션 및 서비스에 연결할 수 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3a747013-5fb6-4416-8d95-d656dfeeb7db
-source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
 
 # [!DNL OpenAI (ChatGPT & DALL-E)]개 모듈
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [OpenAI(ChatGPT 및 DALL-E) 모듈](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/openai-chatgpt-modules.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 [!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL OpenAI (ChatGPT & DALL-E)]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 

@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: Adobe Firefly 모듈
-description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는  [!DNL Adobe Firefly]을(를) 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.'
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Firefly]개 모듈
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [Adobe Firefly 모듈](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-firefly-modules.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 [!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL Adobe Firefly]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 

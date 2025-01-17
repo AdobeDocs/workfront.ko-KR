@@ -1,18 +1,30 @@
 ---
 title: 암호화기
-description: Adobe Workfront Fusion Encryptor 모듈을 사용하면 모든 텍스트 데이터를 암호화할 수 있습니다. 현재 AES256 및 PGP(OpenPGP)를 통해 메시지 암호화를 지원합니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 9664c4f1-6467-45c9-8b9e-5a41d0e9ccb9
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 # 암호화기
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [암호기](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/encryptor-modules.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 [!DNL Adobe Workfront Fusion] [!UICONTROL Encryptor] 모듈을 사용하면 모든 텍스트 데이터를 암호화할 수 있습니다. 현재 AES256 및 PGP([!UICONTROL OpenPGP])를 통해 메시지 암호화를 지원합니다.
 

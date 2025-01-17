@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: ' [!DNL Adobe Workfront Fusion]에서 잠긴 시나리오 관리'
-description: ' [!DNL Adobe Workfront Fusion]에서 잠긴 시나리오 관리'
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]에서 잠긴 시나리오 관리
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [잠긴 시나리오 관리](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-manage-locked-scenario.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 경우에 따라 시나리오가 [!DNL Workfront Fusion]에서 일시적으로 잠길 수 있습니다. 잠긴 실행은 2~4시간 내에 자동으로 잠금 해제됩니다. 시나리오를 수동으로 잠금 해제할 수도 있습니다.
 

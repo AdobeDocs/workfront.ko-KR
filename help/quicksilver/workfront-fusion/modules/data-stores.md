@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: ' [!DNL Adobe Workfront Fusion]의 데이터 저장소'
-description: 데이터베이스 또는 간단한 테이블과 유사한 데이터 저장소는 시나리오의 데이터를 저장할 수 있으므로 개별 시나리오 또는 시나리오 실행 간에 데이터를 전송할 수 있습니다. 동기화 중에 데이터 저장소를 사용하여 다양한 시스템의 새 데이터를 저장할 수 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 00a969175626d27b70d516921097725fdf818799
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1369'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]의 데이터 저장소
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [데이터 저장소 만들기 및 관리](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 데이터베이스 또는 간단한 테이블과 유사한 데이터 저장소는 시나리오의 데이터를 저장할 수 있으므로 개별 시나리오 또는 시나리오 실행 간에 데이터를 전송할 수 있습니다. 동기화 중에 데이터 저장소를 사용하여 다양한 시스템의 새 데이터를 저장할 수 있습니다.
 
@@ -27,7 +39,7 @@ ht-degree: 1%
 * 검색
 * 삭제
 * 검색
-* 개수
+* 계수
 
 데이터 저장소 모듈 사용에 대한 자세한 내용은 [[!UICONTROL 데이터 저장소] 모듈](../../workfront-fusion/apps-and-their-modules/data-store-modules.md)을 참조하세요.
 
@@ -80,16 +92,16 @@ Workfront Fusion의 데이터 저장소에 대한 비디오 소개는 다음을 
 
 조직이 새로운 Workfront 플랜 모델(Select, Prime 및 Ultimate 패키지)에 있는 경우, 조직의 플랜은 Fusion 인스턴스에 사용할 수 있는 데이터 저장소의 크기와 수에 영향을 줍니다.
 
-### 최종 플랜
+### Ultimate 플랜
 
-Ultimate 패키지의 Fusion 인스턴스는 다음 혜택을 받습니다.
+Ultimate 패키지의 Fusion 인스턴스는 다음 항목을 수신합니다.
 
 * 100MB 공간
 * 50개 데이터 저장소
 
-### Select 및 Prime 플랜
+### 및 Prime 플랜 선택
 
-Select 또는 Prime 패키지의 Fusion 인스턴스 수신:—>
+Select 또는 Prime 패키지의 Fusion 인스턴스는 다음 항목을 수신합니다.—>
 
 * 처음 500K 작업에는 100MB.
 

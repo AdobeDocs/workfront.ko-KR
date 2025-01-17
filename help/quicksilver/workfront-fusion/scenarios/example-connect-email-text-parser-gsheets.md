@@ -3,18 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 'Adobe Workfront Fusion 시나리오 예: 이메일, 텍스트 파서 및 Google Sheets 연결'
-description: 이 시나리오는 모든 이메일 메시지의 로그를 만들고 스프레드시트에서 추가 작업을 위해 태그를 지정하는 데 도움이 됩니다. 검색 패턴으로 정규 표현식(Regex)을 사용하여 스프레드시트의 두 개의 별도 테이블에 이메일 본문을 캡처합니다. 상기 제1 패턴은 어구를 검색하고, 상기 제2 패턴은 동일한 어구 및 이메일 주소를 검색합니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않습니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] 시나리오 예: 전자 메일 연결, [!UICONTROL 텍스트 구문 분석기] 및 [!DNL Google Sheets]
+
+>[!IMPORTANT]
+>
+>이 문서는 가까운 시일 내에 제거됩니다.
 
 이 시나리오는 모든 이메일 메시지의 로그를 만들고 스프레드시트에서 추가 작업을 위해 태그를 지정하는 데 도움이 됩니다. 검색 패턴으로 정규 표현식(Regex)을 사용하여 스프레드시트의 두 개의 별도 테이블에 이메일 본문을 캡처합니다. 상기 제1 패턴은 어구를 검색하고, 상기 제2 패턴은 동일한 어구 및 이메일 주소를 검색합니다.
 

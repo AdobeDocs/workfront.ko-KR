@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: http-modules
 title: Adobe Workfront Fusion의 HTTP 모듈에서 상호 TLS 사용
-description: Adobe Workfront Fusion HTTP 모듈에서 Mutual TLS를 사용하여 정보 트랜잭션의 양쪽에서 상대방의 ID를 확인할 수 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]의 HTTP 모듈에서 Mutual TLS 사용
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [Adobe Workfront Fusion의 HTTP 모듈에서 상호 TLS 사용](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/use-mtls-in-http-modules.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 >[!NOTE]
 >

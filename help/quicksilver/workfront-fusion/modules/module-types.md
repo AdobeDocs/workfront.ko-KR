@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: 모듈 유형
-description: 'Adobe Workfront Fusion은 작업 모듈, 검색 모듈, 트리거 모듈, 집계기 및 반복기의 5가지 모듈 유형을 구별합니다. 집계자와 반복자는 고급 시나리오용입니다.'
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 58b4aa76-6c4c-47fc-a42c-c5286da5633a
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
 
 # 모듈 유형
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [모듈 개요](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/module-overview.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 [!UICONTROL Adobe Workfront Fusion]은 작업 모듈, 검색 모듈, 트리거 모듈, 집계 및 반복기의 5가지 모듈 유형을 구분합니다. 집계기 및 반복기는 고급 시나리오용입니다.
 

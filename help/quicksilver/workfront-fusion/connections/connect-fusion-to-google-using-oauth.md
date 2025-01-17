@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: 사용자 지정 OAuth 클라이언트를 사용하여  [!DNL Adobe Workfront Fusion] to [!DNL Google Services] 연결
-description: 사용자 지정 OAuth 클라이언트를 사용하여 [!DNL Adobe Workfront Fusion] 을(를) 사용하여 [!DNL Google Services] 에 연결할 수 있습니다. 이 절차에는 기존  [!DNL Google] 계정이 필요합니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5efc0001-a8cd-4ffc-b074-3536f095727b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
 
 # 사용자 지정 OAuth 클라이언트를 사용하여 [!DNL Adobe Workfront Fusion]을(를) [!DNL Google Services]에 연결
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [사용자 지정 OAuth 클라이언트를 사용하여 Adobe Workfront Fusion을 Google 서비스에 연결](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-fusion-to-google-using-oauth.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 ## 액세스 요구 사항
 

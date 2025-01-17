@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: Google 문서 모듈
-description: Adobe Workfront Fusion [!DNL Google Docs] 모듈을 사용하면  [!DNL Google Docs] 및 [!DNL Google Docs] ( [!DNL Google Workspace] 사용자용)에서 문서를 모니터링, 만들기, 편집 및 검색할 수 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '4105'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Docs]개 모듈
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [Google Docs 모듈](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-docs-modules.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 [!DNL Adobe Workfront Fusion] [!DNL Google Docs] 모듈을 사용하면 [!DNL Google Docs] 및 [!DNL Google Docs]의 문서를 모니터링, 만들기, 편집 및 검색할 수 있습니다([!DNL Google Workspace] 사용자용).
 
@@ -69,9 +81,9 @@ ht-degree: 0%
 
 [!DNL Google Docs] 모듈을 사용하려면 Google 계정이 있어야 합니다.
 
-## Google 문서 API 정보
+## Google Docs API 정보
 
-Google 문서 커넥터는 다음을 사용합니다.
+Google Docs 커넥터는 다음을 사용합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -604,7 +616,7 @@ Google 문서 커넥터는 다음을 사용합니다.
  </tbody> 
 </table>
 
-**예:** 다음 API 호출은 Google 문서에서 지정된 문서에 대한 세부 정보를 검색합니다.
+**예:** 다음 API 호출은 Google Docs에서 지정된 문서에 대한 세부 정보를 검색합니다.
 
 **URL:**
 

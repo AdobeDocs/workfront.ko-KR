@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion의 기본 용어
-description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Adobe Workfront Fusion 라이센스가 필요합니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: eb39c26b076e89acb8bc4eef1a459b6ef8cd389b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 0%
+source-wordcount: '917'
+ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]의 기본 용어
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [Adobe Workfront Fusion 용어집](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/fusion-glossary.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 >[!NOTE]
 >
@@ -107,7 +119,7 @@ ht-degree: 0%
    <td> <p> 시나리오의 섹션으로, 모두 동일한 애플리케이션에 연결되는 일련의 모듈로 구성됩니다. 시나리오 세그먼트는 종종 애플리케이션에서 짧은 워크플로우를 나타냅니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>트랜잭션</p> </td> 
+   <td role="rowheader"> <p>거래</p> </td> 
    <td> <p>[!DNL Workfront Fusion] 트랜잭션 처리를 사용하여 시나리오 라이프사이클을 캡처합니다. 트랜잭션은 데이터가 하나의 일관된 상태에서 다른 일관된 상태로 변환되는 여러 단계로 구성됩니다. 초기화, 작업(읽기 또는 쓰기), 커밋/롤백 및 종료의 네 가지 단계가 있습니다.</p> </td> 
   </tr> 
   <tr> 

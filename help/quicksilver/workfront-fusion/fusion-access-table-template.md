@@ -4,16 +4,16 @@ product-area: workfront-integrations
 keywords: 퓨전
 navigation-topic: workfront-fusion-navigation-topic
 title: Fusion 액세스 테이블 템플릿
-description: Fusion 액세스 테이블 템플릿
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 511c0831-a23f-4fbd-8c06-e4276c1c140d
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '13'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: ' [!DNL Adobe Workfront Fusion]에서 오류 처리'
-description: 시나리오 실행 중에 오류가 발생하면 일반적으로 실패로 인해 서비스를 사용할 수 없거나, 서비스가 예기치 않은 데이터에 응답하거나, 입력 데이터의 유효성 검사에 실패하기 때문입니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: a08c18a0-1797-4126-827a-1ea7e11d4bad
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]에서 오류 처리
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [오류 처리 추가](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/error-handling.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 시나리오 실행 중에 오류가 발생하면 일반적으로 실패로 인해 서비스를 사용할 수 없거나, 서비스가 예기치 않은 데이터에 응답하거나, 입력 데이터의 유효성 검사에 실패하기 때문입니다.
 

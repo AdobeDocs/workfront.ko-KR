@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: ' [!DNL Adobe Workfront Fusion]에서 연습 자동화 시나리오 만들기'
-description: 이 문서에서는 Adobe Workfront Fusion을 사용하여 자동화 시나리오를 만드는 방법에 대해 설명합니다. 자동화 시나리오는 데이터 조작 및 변형을 포함한 Workfront 프로세스를 자동화합니다. 이 예제에서는 프로젝트를 검색한 다음 해당 프로젝트와 관련된 모든 작업을 반환하는 시나리오를 만드는 프로세스를 안내합니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8769ed5844e340e007f844370791e93393696819
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]에서 연습 자동화 시나리오 만들기
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [시나리오를 만들기 위한 워크플로](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 자동화 시나리오는 데이터 조작 및 변형을 포함한 Workfront 프로세스를 자동화합니다. 이 문서는 프로젝트를 검색한 다음 해당 프로젝트와 관련된 모든 작업을 반환하는 시나리오를 만드는 프로세스를 안내합니다.
 
@@ -57,7 +69,7 @@ For more information on functionality available with each Workfront Fusion licen
       <td>제품</td>  
       <td> 
         새로운 기능: Select 또는 Prime Workfront 플랜: 조직에서 Adobe Workfront Fusion을 구매해야 합니다.<br>
-        Ultimate Workfront Plan: Workfront Fusion이 포함됩니다.<br>
+        Ultimate Workfront 플랜: Workfront Fusion이 포함됩니다.<br>
         또는<br>
         현재: 조직은 Adobe Workfront Fusion을 구매해야 합니다.
       </td>  
@@ -137,7 +149,7 @@ Workfront에서 프로젝트를 만드는 방법에 대한 자세한 내용은 x
 1. **[!UICONTROL 결과 집합]** 상자에서 **[!UICONTROL 첫 번째 일치하는 레코드]**&#x200B;을 선택합니다. 이 옵션은 기준을 충족하는 첫 번째 레코드만 반환하도록 모듈을 설정합니다. 이 예제에서는 하나의 레코드만 반환되어야 합니다.
 1. **[!UICONTROL 검색 조건]** 영역에서 특정 프로젝트를 반환하는 필터를 설정합니다.
 
-   | 필드 | 개 액션 |
+   | 필드 | 액션 |
    |--------|-------------|
    | 검색 기준 필드 | 값을 검색할 필드를 선택합니다. 이 예제에서는 **[!UICONTROL 이름]**&#x200B;을(를) 선택합니다. |
    | 검색 기준 | 첫 번째 드롭다운 메뉴에서 **[!UICONTROL 이름]**&#x200B;을(를) 선택합니다. |

@@ -5,19 +5,31 @@ product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: workfront-fusion-2-0
 title: 앱 및 해당 모듈
-description: Adobe Workfront Fusion은 현재 이 목록에 있는 앱에 대한 전용 커넥터를 제공합니다. 작업할 앱이 이 목록에 없는 경우 HTTP, SOAP 또는 JSON 모듈을 사용하여 연결할 수 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 5b24a91a9ea5dadb071dfdd88d9f80b2589a1323
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 19%
+source-wordcount: '275'
+ht-degree: 16%
 
 ---
 
 # 앱 및 해당 모듈
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [Fusion 응용 프로그램 및 해당 모듈에서 참조: 문서 인덱스](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/apps-and-modules-toc.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 >[!IMPORTANT]
 >

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Adobe Workfront Fusion의 날짜 및 시간 구문 분석용 토큰
-description: ' [!DNL Adobe Workfront Fusion mapping]  패널에서 날짜 및 시간 구문 분석에 대한 다음 토큰을 사용할 수 있습니다.'
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: f5a92ccb-cdc6-4f7d-8373-31fd17d314d3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '352'
 ht-degree: 5%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]의 날짜 및 시간 구문 분석에 대한 토큰
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [날짜 및 시간 구문 분석용 토큰](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/tokens-for-date-and-time-parsing.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 ## 액세스 요구 사항
 
@@ -202,7 +214,7 @@ ht-degree: 5%
   <tr> 
    <td><code>a A</code> </td> 
    <td><code>am pm</code> </td> 
-   <td> <p> Post 또는 ante meridiem(a p도 유효한 것으로 간주됨)</p> </td> 
+   <td> <p> Post 또는 상쇄(a p도 유효한 것으로 간주됨)</p> </td> 
   </tr> 
   <tr> 
    <td><code>m mm</code> </td> 

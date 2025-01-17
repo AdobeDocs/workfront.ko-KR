@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Workfront Fusion의 AI 지원
-description: Workfront Fusion의 AI 지원
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 99d614da-e900-448b-ab80-13f002638670
-source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
 # Workfront Fusion의 AI 지원
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* Workfront Fusion의 [AI 도우미](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/fusion-ai-assistant.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 AI Assistant는 Workfront 설명서에서 정보를 찾을 수 있으므로 필요한 도움을 받기 위해 Adobe Experience League을 방문할 필요가 없습니다.
 
@@ -47,7 +59,7 @@ AI Assistant는 Workfront 설명서에서 정보를 찾을 수 있으므로 필�
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>새 항목: [!DNL Workfront Fusion]이(가) Ultimate Workfront 플랜에 포함되어 있습니다.</p> <p>또는</p>
+   <p>새 [!DNL Workfront Fusion]이(가) Ultimate Workfront 플랜에 포함되어 있습니다.</p> <p>또는</p>
    <p>현재: 사용할 수 없음</p>
    </td> 
   </tr>

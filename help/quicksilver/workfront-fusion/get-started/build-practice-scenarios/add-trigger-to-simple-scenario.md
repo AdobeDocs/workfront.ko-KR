@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 기본 시나리오에 트리거 모듈 추가
-description: 시나리오가 정기적으로 새 요청을 검색하고 프로젝트로 변환할 수 있도록 트리거 모듈을 추가하는 방법을 알아봅니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
 # 기본 시나리오에 트리거 모듈 추가
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [기본 시나리오에 트리거 모듈 추가](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-trigger-to-basic-scenario.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 트리거 모듈은 시나리오의 시작 부분에 배치됩니다. 이러한 모듈은 주어진 서비스에 변경 사항이 있을 때 특정 기준이 있을 때 시나리오 실행을 시작합니다. 새 레코드 만들기, 레코드 삭제, 레코드 업데이트 등이 변경 내용이 될 수 있습니다.
 

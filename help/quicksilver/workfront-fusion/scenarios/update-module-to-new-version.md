@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: ' [!DNL Adobe Workfront Fusion] 시나리오의 새 버전으로 모듈 업데이트'
-description: Workfront Fusion이 연결되는 애플리케이션은 새 버전을 업데이트하거나 릴리스할 수 있으므로 Fusion에서 해당 애플리케이션에 대해 업데이트된 모듈을 릴리스해야 하는 경우가 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1475a247-47eb-4fe3-98dc-50df242167e7
-source-git-commit: c846fab08113f30431def6321a9d31aea1bb642d
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] 시나리오에서 모듈을 새 버전으로 업데이트
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [모듈을 새 버전으로 업데이트](https://experienceleague.corp.adobe.com/docs/workfront-fusion/using/manage-scenarios/update-module-to-new-version.html?lang=en)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 Workfront Fusion이 연결되는 애플리케이션은 새 버전을 업데이트하거나 릴리스할 수 있으므로 Fusion에서 해당 애플리케이션에 대해 업데이트된 모듈을 릴리스해야 하는 경우가 있습니다.
 

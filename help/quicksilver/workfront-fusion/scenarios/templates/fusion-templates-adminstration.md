@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion 템플릿 관리
-description: 관리자는 다른 사용자가 만든 템플릿을 보고, 수정하고, 이름을 바꾸고, 게시하고, 승인하고, 삭제할 수 있는 권한이 있습니다.  [!DNL Adobe Workfront Fusion Administration] 영역의 [!UICONTROL 템플릿] 페이지에서 이러한 작업을 수행할 수 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
+source-git-commit: 8163f9f12bb27bbc8adfde34fc1e1f0f8c8be7f9
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] 템플릿 관리
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [공개 탭에 대한 템플릿 승인 또는 승인 취소](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/approve-templates.html)
+>* [템플릿 편집](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/edit-templates.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 관리자는 다른 사용자가 만든 템플릿을 보고, 수정하고, 이름을 바꾸고, 게시하고, 승인하고, 삭제할 수 있는 권한이 있습니다. [!DNL Adobe Workfront Fusion Administration] 영역의 [!UICONTROL 템플릿] 페이지에서 이러한 작업을 수행할 수 있습니다.
 

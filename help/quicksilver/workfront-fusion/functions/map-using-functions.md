@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: ' [!DNL Adobe Workfront Fusion]에서 함수를 사용하여 항목 매핑'
-description: 항목을 매핑할 때 함수를 사용하여 단순 또는 복합 공식을 만들 수 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
-source-git-commit: d175a3d43f13338661d8b7e1cb79038a36522ff9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 0%
+source-wordcount: '566'
+ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]에서 함수를 사용하여 항목 매핑
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [함수를 사용하여 항목 매핑](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-using-functions.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 항목을 매핑할 때 함수를 사용하여 단순 또는 복합 공식을 만들 수 있습니다. [!DNL Adobe Workfront Fusion]에서 사용할 수 있는 함수는 Excel 및 일부 프로그래밍 언어의 함수와 유사합니다.
 

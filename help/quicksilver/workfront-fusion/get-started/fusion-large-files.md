@@ -3,22 +3,36 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion에서 큰 파일 작업
-description: 현재 Workfront 및 HTTP 커넥터에서 대용량 파일을 지원할 수 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Fusion에서 큰 파일 작업
 
+
+
 >[!IMPORTANT]
 >
->대용량 파일 기능은 Workfront Ultimate 고객만 사용할 수 있으며 단계적 롤아웃입니다. Workfront Ultimate 계획을 가진 모든 Fusion 조직은 2025년 1월까지 대용량 파일 기능을 보유하게 됩니다.
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [큰 파일로 작업](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-large-files.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
+
+>[!IMPORTANT]
+>
+>대용량 파일 기능은 Workfront Ultimate 고객만 사용할 수 있으며 단계별 롤아웃입니다. Workfront Ultimate 플랜을 보유한 모든 Fusion 조직은 2025년 1월까지 대용량 파일 기능을 보유하게 됩니다.
 
 이제 Workfront Fusion에서 향상된 데이터 전송 기능을 사용할 수 있으므로 훨씬 더 큰 파일을 시나리오에서 처리할 수 있습니다.
 
@@ -53,7 +67,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>새 항목: [!DNL Workfront Fusion]이(가) Ultimate Workfront 플랜에 포함되어 있습니다.</p> <p>또는</p>
+   <p>새 [!DNL Workfront Fusion]이(가) Ultimate Workfront 플랜에 포함되어 있습니다.</p> <p>또는</p>
    <p>현재: 사용할 수 없음</p>
    </td> 
   </tr>

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: ' [!DNL Adobe Workfront Fusion]에서 처리하는 동안 오류 발생'
-description: 시나리오를 실행하는 동안 오류가 발생하는 경우가 있습니다. 이 문제는 일반적으로 서비스에 연결하지 못해서 서비스를 사용할 수 없거나 유효성 검사가 실패하면 발생합니다. 이 문서에서는 일반적인 오류를 설명합니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]에서 처리하는 동안 오류 발생
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [오류 유형](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/error-processing.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 시나리오를 실행하는 동안 오류가 발생하는 경우가 있습니다. 이 문제는 일반적으로 서비스에 연결하지 못해서 서비스를 사용할 수 없거나 유효성 검사가 실패하면 발생합니다. 이 문서에서는 일반적인 오류를 설명합니다.
 

@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: FTP 모듈
-description: FTP 모듈을 사용하면 선택한 폴더의 파일 변경 사항을 모니터링하고, 새 파일을 원하는 폴더에 업로드하고, 폴더에 이미 있는 기존 파일을 수정하거나 삭제할 수 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 360825a4-4580-4039-894e-583e82132ed6
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
 
 # FTP 모듈
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [FTP 모듈](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/ftp-modules.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 FTP 모듈을 사용하면 선택한 폴더의 파일 변경 사항을 모니터링하고, 새 파일을 원하는 폴더에 업로드하고, 폴더에 이미 있는 기존 파일을 수정하거나 삭제할 수 있습니다.
 

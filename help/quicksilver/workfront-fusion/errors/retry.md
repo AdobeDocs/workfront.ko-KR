@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: ' [!DNL Adobe Workfront Fusion]에서 오류 처리 다시 시도'
-description: 시간이 지남에 따라 실패 사유가 사라질 가능성이 있는 경우 실패 모듈을 두 번 다시 실행하는 것이 유용한 경우도 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]에서 오류 처리 다시 시도
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [해결 방법을 처리하는 동안 `retry` 구성](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/retry.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 시간이 지남에 따라 실패 원인이 전달될 가능성이 있는 경우 실패한 모듈을 다시 실행하는 것이 유용한 경우도 있습니다.
 

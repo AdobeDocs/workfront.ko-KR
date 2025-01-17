@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion에서 시나리오 만들기
-description: 다음 작업에서는  [!DNL Adobe Workfront Fusion] 시나리오를 만드는 방법을 설명합니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: ee2283ac159ca26ca473cac28ec4bed85d1dea04
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]에서 시나리오 만들기
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [시나리오를 만들기 위한 워크플로](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 다음 작업에서는 [!DNL Adobe Workfront Fusion] 시나리오를 만드는 방법을 설명합니다.
 
@@ -58,7 +70,7 @@ ht-degree: 0%
       <td>제품</td>  
       <td> 
         새로운 기능: Select 또는 Prime Workfront 플랜: 조직에서 Adobe Workfront Fusion을 구매해야 합니다.<br>
-        Ultimate Workfront Plan: Workfront Fusion이 포함됩니다.<br>
+        Ultimate Workfront 플랜: Workfront Fusion이 포함됩니다.<br>
         또는<br>
         현재: 조직은 Adobe Workfront Fusion을 구매해야 합니다.
       </td>  
@@ -253,7 +265,7 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <thead> 
   <tr> 
-   <th> <p>개 액션</p> </th> 
+   <th> <p>액션</p> </th> 
    <th>[!DNL Windows]</th> 
    <th> <p>[!DNL MacOS]</p> </th> 
   </tr> 

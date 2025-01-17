@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: 이미지 모듈
-description: Adobe Workfront Fusion 이미지 모듈을 사용하면 특정 이미지(치수, 유형 등)에 대한 정보를 얻고, 이미지를 다른 파일 형식으로 변환하고, 이미지 크기를 직접 변경할 수 있습니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 89efa9d5-00c9-4bb5-97b3-2b2f9d73721d
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
 
 # 이미지 모듈
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [이미지 모듈](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/image-module.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 [!DNL Adobe Workfront Fusion] [!UICONTROL 이미지] 모듈을 사용하면 특정 이미지(치수, 유형 등)에 대한 정보를 얻고, 이미지를 다른 파일 형식으로 변환하고, 이미지 크기를 직접 변경할 수 있습니다.
 

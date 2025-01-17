@@ -1,18 +1,30 @@
 ---
 title: DocuSign 모듈
-description: ' [!DNL Adobe Workfront Fusion DocuSign] 모듈을 사용하면 봉투 상태를 모니터링 및 검색하고 봉투를 검색 및 검색하거나  [!DNL DocuSign] 계정에 로그인할 문서를 다운로드하여 보낼 수 있습니다.'
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
 
 # DocuSign 모듈
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다.
+>
+>이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
+>
+>* [DocuSign 모듈](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/docusign-modules.html)
+>
+>모든 책갈피를 업데이트하십시오.
+>
+>이 문서는 더 이상 업데이트되지 않으며 곧 제거될 예정입니다.
 
 [!DNL Adobe Workfront Fusion] [!DNL DocuSign] 모듈을 사용하면 봉투 상태를 모니터링 및 검색하고 봉투를 검색 및 검색하거나 [!DNL DocuSign] 계정에 로그인할 문서를 다운로드하여 보낼 수 있습니다.
 

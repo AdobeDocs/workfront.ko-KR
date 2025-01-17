@@ -3,18 +3,22 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Workfront Fusion의 새 UI 탐색
-description: Workfront Fusion은 Adobe Experience Cloud을 통해 Fusion에 액세스하지 않는 사용자를 위해 UI를 업데이트했습니다. 이제 그들의 경험은 Adobe Experience Cloud의 Fusion과 더 밀접하게 일치합니다.
+description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니다. 이 문서는 더 이상 사용되지 않지만, 이 기능을 다루는 새 문서에 대한 링크를 포함합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # Workfront Fusion의 새로운 경험 탐색
+
+>[!IMPORTANT]
+>
+>이 문서는 가까운 시일 내에 제거됩니다.
 
 Workfront Fusion은 Adobe Experience Cloud을 통해 Fusion에 액세스하지 않는 사용자를 위해 업데이트되었습니다. 새로운 Fusion UI는 다른 Adobe 제품과의 보다 원활한 경험을 제공하고 사용자의 Adobe Experience Cloud 전환을 원활하게 해 줍니다.
 
