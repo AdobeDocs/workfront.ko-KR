@@ -7,7 +7,7 @@ description: Adobe Workfront Fusion 설명서가 새 위치로 이동했습니�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1475a247-47eb-4fe3-98dc-50df242167e7
-source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
+source-git-commit: ac61d25c87185635acf6119299aad6723ce78bbe
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >이 문서의 정보는 이제 문서에서 찾을 수 있습니다.
 >
->* [모듈을 새 버전으로 업데이트](https://experienceleague.corp.adobe.com/docs/workfront-fusion/using/manage-scenarios/update-module-to-new-version.html?lang=en)
+>* [모듈을 새 버전으로 업데이트](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/update-module-to-new-version.html?lang=en)
 >
 >모든 책갈피를 업데이트하십시오.
 >

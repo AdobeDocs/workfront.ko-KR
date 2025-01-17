@@ -6,9 +6,9 @@ description: Adobe Workfront에서 생성했거나 공유한 캘린더 보고서
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 9ddbe09ab99b6b151fc2d052b4c53e004eb0fa44
+source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -56,21 +56,23 @@ Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤�
 
 ## 캘린더 보고서 보기
 
-{{step1-to-calendars}}
+<!--{{step1-to-calendars}}-->
 
-액세스 수준에 따라 다음 캘린더가 표시될 수 있습니다.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 달력]**&#x200B;을 클릭합니다.
 
-* 기본 [!DNL Adobe Workfront] 캘린더
+   액세스 수준에 따라 다음 캘린더가 표시될 수 있습니다.
 
-  Workfront은 사용자에게 할당되거나 할당된 팀, 그룹 또는 역할에 할당된 프로젝트, 작업 및 문제를 기반으로 달력을 만듭니다.
+   * 기본 [!DNL Adobe Workfront] 캘린더
 
-* 만든 캘린더
+     Workfront은 사용자에게 할당되거나 할당된 팀, 그룹 또는 역할에 할당된 프로젝트, 작업 및 문제를 기반으로 달력을 만듭니다.
 
-  일정 만들기에 대한 자세한 내용은 [일정 보고서 개요](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)를 참조하세요.
+   * 만든 캘린더
 
-* 다른 사용자가 귀하와 공유한 캘린더
+     일정 만들기에 대한 자세한 내용은 [일정 보고서 개요](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)를 참조하세요.
 
-  일정 공유에 대한 자세한 내용은 [[!UICONTROL 일정 공유] 보고서](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)를 참조하세요.
+   * 다른 사용자가 귀하와 공유한 캘린더
+
+     일정 공유에 대한 자세한 내용은 [[!UICONTROL 일정 공유] 보고서](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)를 참조하세요.
 
 1. (조건부) **[!UICONTROL 보기]** 드롭다운을 클릭한 다음 보려는 일정 기간을 선택합니다.
    ![일정 기간](assets/view-menu-calendar-report-350x189.png)
