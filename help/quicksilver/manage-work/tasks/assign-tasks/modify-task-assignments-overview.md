@@ -4,10 +4,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 작업 할당 수정 개요
 description: 사용자, 팀 또는 작업 역할에 작업을 할당하거나 할당 해제할 수 있습니다. 여러 리소스를 동시에 할당하거나 하나의 리소스만 할당할 수 있습니다. 한 번에 하나의 작업을 할당하거나 여러 작업을 일괄적으로 할당할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 0%

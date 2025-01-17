@@ -3,11 +3,11 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 작업 목록에서 여러 사용자 할당 수정
 description: 작업 할당을 관리할 때 작업 목록의 일괄 편집 기능을 사용하여 한 번에 여러 작업에 대해 동시에 수정할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 0%
