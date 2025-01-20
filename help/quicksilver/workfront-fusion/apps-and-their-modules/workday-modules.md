@@ -94,7 +94,7 @@ Workday 커넥터는 다음을 사용합니다.
  <tbody> 
   <tr> 
    <td role="rowheader">기본 URL</td> 
-   <td>https://{{connection.servicesUrl}}/api</td> 
+   <td>https://&lbrace;&lbrace;connection.servicesUrl&rbrace;&rbrace;/api</td> 
   </tr>
   <tr> 
    <td role="rowheader">API 태그</td> 

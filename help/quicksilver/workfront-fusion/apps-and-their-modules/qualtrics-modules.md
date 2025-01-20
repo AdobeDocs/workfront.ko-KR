@@ -89,7 +89,7 @@ Qualtrics 커넥터는 다음을 사용합니다.
  <tbody> 
   <tr> 
    <td role="rowheader">기본 URL</td> 
-   <td> https://{{connection.dataCenterCode}}.qualtrics.com/API/v3 </td> 
+   <td> https://&lbrace;&lbrace;connection.dataCenterCode&rbrace;&rbrace;.qualtrics.com/API/v3 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">API 버전</td> 

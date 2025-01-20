@@ -99,7 +99,7 @@ Salesforce 커넥터는 다음을 사용합니다.
  <tbody> 
   <tr> 
    <td role="rowheader">기본 URL</td> 
-   <td> {{connection.instanceUrl}}</td>
+   <td> &lbrace;&lbrace;connection.instanceUrl&rbrace;&rbrace;</td>
   </tr> 
   <tr> 
    <td role="rowheader">API 버전</td> 
