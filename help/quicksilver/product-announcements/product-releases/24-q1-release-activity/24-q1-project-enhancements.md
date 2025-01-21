@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >미리보기 릴리스: 2023년 12월 21일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월).
 >
->_이 기능은 2024년 12월 19일 미리 보기 및 25.1을 사용한 빠른 릴리스 프로덕션(2025년 1월)에서 제거됩니다._
+>_미리 보기 및 빠른 릴리스 프로덕션에서 이 기능이 제거되었습니다._
 
 Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 지정하는 Workfront의 작업 목록, 작업 헤더의 지정 영역, 홈 및 요약 패널에서 적용됩니다.
 
