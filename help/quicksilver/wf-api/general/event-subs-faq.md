@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Workfront 지원 센터에 문의하십시오. 지원 센터에 문의하는 방
 
 ## Workfront 이벤트 구독에는 어떤 유형의 인증을 사용할 수 있습니까?
 
-전달자 토큰을 사용하는 모든 인증을 사용할 수 있습니다. 구독의 **authToken** 필드는 **url** 필드에 지정된 URL로 인증하는 데 사용되는 OAuth2 전달자 토큰을 나타내는 문자열입니다. 이론적으로 대상 끝점이 인코딩을 처리하는 방법을 알고 있는 한 이 토큰 값은 무엇이든 될 수 있습니다(**utf-8**).
+전달자 토큰을 사용하는 모든 인증을 사용할 수 있습니다. 구독의 **authToken** 필드는 **url** 필드에 지정된 URL로 인증하는 데 사용되는 OAuth2 전달자 토큰을 나타내는 문자열입니다. 이론적으로 대상 끝점이 인코딩을 처리하는 방법(**utf-8**)을 알고 있는 한 이 토큰 값은 255자 미만일 수 있습니다.
 
 ## Workfront 이벤트 구독에서 이벤트 페이로드를 받으려면 얼마나 기다려야 합니까?
 
