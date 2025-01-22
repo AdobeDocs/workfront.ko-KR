@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
+source-git-commit: dee1c75e134309a25ba6c739059048972696f2c1
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 0%
 * [[!DNL Adobe Workfront Fusion] 시나리오 예: 전자 메일 연결, [!UICONTROL 텍스트 구문 분석기] 및 [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [ [!DNL Adobe Workfront Fusion]에서 시나리오 버전 복원](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [ [!DNL Adobe Workfront Fusion]에서 모듈 또는 시나리오 복사](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
-* [ [!DNL Adobe Workfront Fusion] 시나리오의 새 버전으로 모듈 업데이트](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [ [!DNL Adobe Workfront Fusion]에서 잠긴 시나리오 보기 및 관리](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [Adobe Workfront Fusion에서 시나리오 채점 전문가 실행](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
 * [cURL을 사용하여 HTTP 모듈 추가](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)

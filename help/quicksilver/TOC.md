@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
+source-git-commit: dee1c75e134309a25ba6c739059048972696f2c1
 workflow-type: tm+mt
-source-wordcount: '14788'
+source-wordcount: '14778'
 ht-degree: 2%
 
 ---
@@ -2270,7 +2270,6 @@ ht-degree: 2%
       * [Adobe Workfront Fusion에서 시나리오의 실행 내역 보기](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Adobe Workfront Fusion의 불완전한 실행 보기 및 해결](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
       * [잠긴 시나리오 보기 및 관리 [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
-      * [모듈을  [!DNL Adobe Workfront Fusion] 시나리오](workfront-fusion/scenarios/update-module-to-new-version.md)의 새 버전으로 업데이트
       * [Adobe Workfront Fusion에서 시나리오 예약](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Adobe Workfront Fusion에서 시나리오 활성화 또는 비활성화](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Adobe Workfront Fusion의 시나리오에 필터 추가](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
