@@ -6,9 +6,9 @@ description: ' [!DNL Experience Manager Assets]에서 작업을 콘텐츠와 연
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1708'
 ht-degree: 0%
 
 ---
@@ -254,6 +254,8 @@ Adobe Experience Manager 통합에서 사용할 수 있는 워크플로는 다�
 * [Adobe Experience Manager Assets으로 전송된 Publish 에셋](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Adobe Experience Manager 연결 폴더 만들기
+
+폴더 트리당 최대 100개의 연결된 폴더를 만들 수 있습니다.
 
 1. **[!UICONTROL 연결된 폴더 만들기]**&#x200B;를 전환합니다.
 1. 생성 중인 연결된 폴더의 이름을 입력합니다.

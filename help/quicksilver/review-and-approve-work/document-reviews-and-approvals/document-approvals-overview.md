@@ -6,9 +6,9 @@ description: 이미 보류 중인 승인이 있는 문서에 승인자 또는 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
+source-git-commit: 5027807d93994b9ce9954be461b571379b36c960
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 1%
 
 * 증명 뷰어에서 문서 승인 결정 버튼을 사용할 수 없습니다. 문서 요약, Workfront 홈 위젯 또는 문서 세부 정보 페이지에서 결정을 내릴 수 있습니다.
 * 문서 승인 참여자는 증명 워크플로 탭이 아니라 문서 요약에 표시됩니다.
-* 새 문서 승인은 현재 보고 도구에서 지원되지 않습니다. 새 홈 및 캔버스 대시보드에서 사용할 수 있는 모든 승인 위젯은 새 문서 승인에 대한 다음 세부 정보를 제공합니다.
+* 새 문서 승인은 현재 보고 도구에서 지원되지 않습니다.
+
+  새 Canvas Dashboards Beta를 [검토 및 승인을 위한 보고서 대시보드를 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)에 참여하거나 새 홈에서 사용할 수 있는 모든 승인 위젯을 사용할 수 있으며 Canvas Dashboards는 새 문서 승인에 대한 다음 세부 정보를 제공합니다.
 
    * 결정에 의한 승인
    * 평균 승인 시간
