@@ -5,9 +5,9 @@ description: AI Assistant 개요
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
+source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '701'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,8 @@ Workfront의 AI 어시스턴트는 자연어 대화에서 인앱 정보와 제�
 * Workfront Planning AI Assistant에는 Workfront AI Assistant와 다른 기능이 있습니다.
 
   Workfront Planning의 AI Assistant에 대한 자세한 내용은 [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)를 참조하십시오.
+
+* AI Assistant는 현재 영어로만 제공됩니다.
 
 
 ## AI Assistant에서 사용 가능한 기능
