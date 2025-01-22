@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Adobe Workfront 관리자는 조직이 Adobe 비즈니스 플랫폼에 온보딩
 >
 >Workfront에서 직접 시스템 관리자가 아닌 사용자를 추가하는 것이 좋습니다. Adobe Admin Console에서는 사용자를 추가할 수 있지만 Workfront에서 사용자를 추가하면 생성 중에 액세스 수준을 설정할 수 있으므로 시간을 절약할 수 있습니다.
 
-Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Admin Console에서 시스템 관리자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
+Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Admin Console에서 사용자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
 
 <!--
 <table style="table-layout:auto"> 

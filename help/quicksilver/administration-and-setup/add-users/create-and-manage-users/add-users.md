@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1128'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 시스템 관리자를 만들어야 합니다.
 >
->Adobe Admin Console에서 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Admin Console에서 시스템 관리자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
+>Adobe Admin Console에서 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Admin Console에서 사용자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
 >
 >Adobe Admin Console에 온보딩된 조직의 그룹 관리자는 이 절차를 사용하여 사용자를 생성하고 관리자 승인을 위해 사용자를 제출할 수 있습니다.
 >

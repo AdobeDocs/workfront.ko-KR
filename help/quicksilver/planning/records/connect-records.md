@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '2928'
+source-wordcount: '2912'
 ht-degree: 1%
 
 ---
@@ -228,7 +228,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
    **Campaign** 연결된 레코드 필드에는 제품 레코드 종류 페이지에서 제품에 연결한 캠페인의 이름이 표시됩니다. Campaign 정보를 업데이트하면 제품 레코드 유형에 대한 Campaign 연결 레코드 필드가 자동으로 업데이트됩니다.
 
-### 레코드 페이지의 테이블 보기 또는 세부 정보 탭에서 Adobe Workfront Planning 레코드를 Workfront 개체에 연결합니다.
+### 테이블 보기 또는 레코드의 세부 정보 페이지에서 Adobe Workfront Planning 레코드를 Workfront 객체에 연결
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -264,7 +264,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
 1. (선택 사항) 연결할 개체를 찾을 수 없고 개체를 추가하려면 **+ 추가**&#x200B;를 클릭하여 새 프로젝트 또는 포트폴리오를 만들고 추가하십시오.
 
-   템플릿 또는 포트폴리오가 없는 프로젝트만 Planning 레코드에 연결할 때 추가할 수 있습니다. 새 프로그램, 그룹 또는 회사를 추가할 수 없습니다.
+   자세한 내용은 [Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)를 참조하십시오.
 
 1. (선택 사항) 적어도 볼 수 있는 권한이 있는 모든 개체를 표시하려면 **모두 보기**&#x200B;를 클릭합니다.
 

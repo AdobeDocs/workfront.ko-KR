@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '128'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,7 @@ Adobe Workfront Planning에서 레코드 유형을 만든 후 해당 유형의 �
 다음 문서에서는 Adobe Workfront Planning에서 레코드 및 해당 정보를 만들고 관리하는 방법에 대해 설명합니다.
 
 * [레코드 만들기](/help/quicksilver/planning/records/create-records.md)
+* [Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [레코드 편집](/help/quicksilver/planning/records/edit-records.md)
 * [레코드 삭제](/help/quicksilver/planning/records/delete-records.md)
 * [삭제된 레코드 복원](/help/quicksilver/planning/records/restore-deleted-records.md)

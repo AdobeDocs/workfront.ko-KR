@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1550'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 >
 >이 페이지에 설명된 절차는 아직 Admin Console에 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
 >
->Adobe Admin Console에서 전체 관리자 액세스 권한을 부여하는 방법에 대한 지침은 [Adobe Admin Console에서 시스템 관리자 관리](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
+>Adobe Admin Console에서 전체 관리자 액세스 권한을 부여하는 방법에 대한 지침은 [Adobe Admin Console에서 사용자 관리](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
 >
 >조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 

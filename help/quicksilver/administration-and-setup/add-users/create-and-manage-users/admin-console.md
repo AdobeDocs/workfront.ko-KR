@@ -5,14 +5,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
 
-# Adobe Admin Console에서 시스템 관리자 관리
+# Adobe Admin Console에서 사용자 관리
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -25,6 +29,10 @@ Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 시스템
 >[!NOTE]
 >
 >Workfront에서 직접 시스템 관리자가 아닌 사용자를 추가하는 것이 좋습니다. Adobe Admin Console에서는 사용자를 추가할 수 있지만 Workfront에서 사용자를 추가하면 생성 중에 액세스 수준을 설정할 수 있으므로 시간을 절약할 수 있습니다.
+
+<!--
+<span class="preview">When making any changes to users from the Admin Console, an update is added to the System activity tab of the user in Workfront indicating that there is an update from the "System". This refers to the Adobe Admin Console administrator and not to the Workfront main Administrator.</span> 
+-->
 
 ## 액세스 요구 사항
 
