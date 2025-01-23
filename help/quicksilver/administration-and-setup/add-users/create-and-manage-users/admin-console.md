@@ -5,18 +5,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
 
 # Adobe Admin Console에서 사용자 관리
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 >[!IMPORTANT]
 >
@@ -30,9 +30,7 @@ Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 시스템
 >
 >Workfront에서 직접 시스템 관리자가 아닌 사용자를 추가하는 것이 좋습니다. Adobe Admin Console에서는 사용자를 추가할 수 있지만 Workfront에서 사용자를 추가하면 생성 중에 액세스 수준을 설정할 수 있으므로 시간을 절약할 수 있습니다.
 
-<!--
-<span class="preview">When making any changes to users from the Admin Console, an update is added to the System activity tab of the user in Workfront indicating that there is an update from the "System". This refers to the Adobe Admin Console administrator and not to the Workfront main Administrator.</span> 
--->
+<span class="preview">Admin Console에서 사용자의 프로필을 변경할 때 Workfront에서 사용자의 시스템 활동 탭에 업데이트가 추가됩니다. 업데이트는 &quot;시스템&quot;에서 수행한 대로 표시됩니다. 이 참조는 Adobe Admin Console 주 관리자가 아니라 Workfront 관리자를 참조합니다.</span>
 
 ## 액세스 요구 사항
 

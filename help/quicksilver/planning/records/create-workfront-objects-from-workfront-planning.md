@@ -5,19 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Workfront Planning에서 Workfront 개체 만들기
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 

@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '2802'
-ht-degree: 3%
+source-wordcount: '2879'
+ht-degree: 2%
 
 ---
 
 # 표 보기 관리
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -397,13 +401,22 @@ OLD:
 1. (선택 사항) 다른 필터링 옵션을 추가하고 위의 단계를 반복하려면 **조건 추가**&#x200B;를 클릭하십시오. 적용된 필터 수는 필터 아이콘 왼쪽에 표시됩니다.
 1. 다음 연산자를 클릭하여 필터 조건이 조인되고 적용되어야 하는 방식을 나타냅니다.
 
-   * **And**: 지정한 조건을 모두 충족해야 합니다.
-   * **Or**: 지정한 조건을 모두 충족해야 합니다. 기본 옵션입니다.
+   * **AND**: 지정한 조건을 모두 충족해야 합니다.
+   * **OR**: 지정한 조건을 모두 충족해야 합니다. 기본 옵션입니다.
+
+   <div class="preview">
+
+   1. (선택 사항) 여러 조건 그룹화 사이에 **AND** 또는 **OR** 연산자를 더 추가합니다.
+
+      ![](assets/multi-tiered-filters-in-views.png)
+
+   </div>
 
    레코드 목록은 자동으로 필터링됩니다.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (선택 사항) **필터**&#x200B;를 클릭한 다음 **x** 아이콘을 클릭하여 필터를 제거합니다. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (선택 사항) 필터 조건을 제거하려면 **x** 아이콘을 클릭하십시오.
+1. (선택 사항) 필터 상자를 닫으려면 **필터**&#x200B;를 클릭합니다. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### 그룹화 추가 {#add-groupings}
 
