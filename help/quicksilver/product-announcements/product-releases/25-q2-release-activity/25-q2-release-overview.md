@@ -4,9 +4,10 @@ description: 이 페이지에서는 2025년 2분기 릴리스에 포함된 기�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
+source-git-commit: ef390581f250515983ba51fb4b1f9ee53fcff693
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -46,15 +47,15 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            이제 AI Assistant를 사용하여 프로젝트, 작업 및 문제 작업 가능</a></p>
-            <p>Workfront에서 작업 항목을 보다 쉽게 관리할 수 있도록 프로젝트, 작업 및 문제 관련 작업이 가능하도록 AI Assistant를 업데이트했습니다. 이제 AI Assistant는 사용자가 지정하는 기준에 따라 프로젝트, 작업 및 문제를 찾을 수 있습니다.</p>
+            Workfront 업데이트 피드에서 Adobe Admin Console 사용자 변경 사항을 "시스템"으로 표시</a></p>
+            <p>이제 Adobe Admin Console 관리자가 Workfront 사용자의 사용자 정보를 변경하면 Workfront은 사용자 업데이트 영역의 시스템 활동 탭에 이 변경 내용을 "시스템"에 속하는 것으로 기록합니다. Adobe Admin Console 관리자에게 문의하십시오.</p>
         </td>
         <td>
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
-                <li>미리보기 릴리스: 2024년 10월 31일</li>
-                <li>빠른 릴리스를 위한 프로덕션: 24.11 릴리스 포함(2024년 11월 14일)</li>
-                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월 16일)</li>
+                <li>미리보기 릴리스: 2025년 1월 23일</li>
+                <li>빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월)</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월)</li>
             </ul>
         </td>
     </tr>
