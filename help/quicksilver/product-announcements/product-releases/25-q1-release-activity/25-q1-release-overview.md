@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -614,14 +614,13 @@ ht-degree: 0%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             홈 및 내 업데이트 영역의 언급 위젯에서 주석 달기 환경이 업데이트되었습니다</a></p>
-            [!BADGE In production ]{type=Informative}
             <p>홈의 언급 위젯 및 내 업데이트 영역의 언급 섹션에서 주석 달기 경험을 업데이트하고 있습니다. 이제 대부분의 Workfront 오브젝트의 업데이트 영역에서 언급 위젯 및 내 업데이트의 언급 섹션에서도 동일한 경험을 사용할 수 있습니다.</p>
         </td>
         <td>
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
                 <li>미리보기 릴리스: 2024년 12월 19일</li>
-                <li>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월 16일)</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 발표 예정</li>
             </ul>
         </td>
     </tr>

@@ -7,33 +7,20 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Planning의 2025년 1분기 릴리스 활동
 
-<!--remove this important intro after the 25.1 release-->
-
->[!IMPORTANT]
->
->이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
->
->Workfront Planning 기능에 액세스하고 사용하려면 Workfront 계획 외에 Workfront Planning 계획을 구매해야 합니다.
->
->Workfront Planning에 액세스하기 위한 전체 요구 사항 목록은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
->Workfront Planning에 대한 개요는 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
-
 이 문서에서는 2025년 1분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 <!--keep the sentence below for all future quarterly release pages-->
-<!--remove the general activity mention after First Quarter 2025 is released-->
 
-2024년 8월 28일 일반 출시 이후 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록에 대해서는 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
-
+Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
 ## 이제 Adobe Experience Manager 자산과의 연결 필드가 요청 양식에서 지원됩니다
 
