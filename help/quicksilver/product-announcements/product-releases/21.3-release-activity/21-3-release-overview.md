@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2310'
 ht-degree: 0%
 
 ---
@@ -249,7 +249,7 @@ Workfront Scenario Planner 릴리스에 21.3 릴리스가 도입되었습니다.
 
 ## Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 21.3 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 21.3 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ## Workfront Proof 개선 사항
 

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Workfront 설명서 방법 문서에는 해당 절차에 필요한 액세스 및
    <ul><li>현재: 현재 라이선스 모델은 수행된 작업 수를 기반으로 하며, 조직에서 수행할 수 있는 작업에 대해서는 제한이 없습니다. </li>
    <li>레거시: 레거시 라이선스는 시나리오가 서드파티 애플리케이션에 연결할 수 있는지 또는 시나리오가 Workfront 자동화에만 사용되는지 여부를 기반으로 합니다. </li>
    </ul>
-   Fusion 라이선스에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Workfront Fusion 라이선스</a>를 참조하십시오.
+   Fusion 라이선스에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion 라이선스</a>를 참조하십시오.
    </td> 
   </tr> 
  </tbody> 

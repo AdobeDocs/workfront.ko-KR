@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2781'
+source-wordcount: '2782'
 ht-degree: 0%
 
 ---
@@ -720,7 +720,7 @@ The following functionality is soon to be removed from Workfront:
 >
 >현재 Fusion 설명서 세트는 더 이상 업데이트되지 않으며 가까운 시일 내에 제거됩니다.
 
-Workfront Fusion의 새로운 기능은 2025년 1분기 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 2025년 1분기 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ### Workfront Planning 개선 사항
 

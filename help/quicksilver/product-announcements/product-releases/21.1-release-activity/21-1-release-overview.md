@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3658'
+source-wordcount: '3659'
 ht-degree: 0%
 
 ---
@@ -325,7 +325,7 @@ Workfront Goals 릴리스의 21.1 릴리스에 포함된 대부분의 새로운 
 
 ## Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 21.1 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하세요.
+Workfront Fusion의 새로운 기능은 21.1 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하세요.
 
 ## API 개선 사항
 
@@ -347,7 +347,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 .
 
-## Workfront 유지 보수 업데이트
+## Workfront 유지 관리 업데이트
 
 21.1 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350)를 참조하십시오.
 

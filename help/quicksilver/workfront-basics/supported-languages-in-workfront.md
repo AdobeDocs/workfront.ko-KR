@@ -6,9 +6,9 @@ description: 브라우저의 언어 환경 설정과 Workfront 내의 기본 이
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Workfront Proof에서 지원되는 언어에 대한 자세한 내용은 [Workfro
 * Workfront Fusion에서는 사용자가 입력한 필드에 영어가 아닌 텍스트 문자를 사용할 수 없습니다.
 
 Workfront Fusion에 액세스하려면 귀사에서 Workfront Fusion 라이센스를 구매해야 합니다.\
-Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](../workfront-fusion/get-started/workfront-fusion-overview.md)를 참조하십시오.
+Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ## 언어 변경
 

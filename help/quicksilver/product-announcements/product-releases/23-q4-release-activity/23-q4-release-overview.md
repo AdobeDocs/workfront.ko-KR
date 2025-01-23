@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2772'
+source-wordcount: '2773'
 ht-degree: 0%
 
 ---
@@ -741,7 +741,7 @@ These enhancements will be included in the following releases:
 
 ### Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 2023년 4분기 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 2023년 4분기 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ### Workfront Scenario Planner 개선 사항
 
@@ -763,7 +763,7 @@ API 버전 17은 2023년 10월 12일에 릴리스되었습니다. API 버전 17�
 
 API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/help/quicksilver/wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
-### Workfront 유지 보수 업데이트
+### Workfront 유지 관리 업데이트
 
 22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 

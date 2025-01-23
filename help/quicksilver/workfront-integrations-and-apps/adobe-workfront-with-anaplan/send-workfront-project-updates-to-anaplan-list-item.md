@@ -6,9 +6,9 @@ description: 이 통합 시나리오는  [!DNL Adobe Workfront] 프로젝트의 
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 &#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-&#42;&#42;라이선스 [!DNL Adobe Workfront Fusion]에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
+&#42;&#42;라이선스 [!DNL Adobe Workfront Fusion]에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하세요.
 
 ## 이벤트 트리거 중
 

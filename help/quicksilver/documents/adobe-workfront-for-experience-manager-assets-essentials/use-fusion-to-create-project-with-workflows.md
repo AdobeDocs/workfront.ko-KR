@@ -6,9 +6,9 @@ description: Workfront Fusion을 통해 프로젝트를 생성하고 프로젝�
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,10 @@ Workfront Fusion을 통해 프로젝트를 생성하고 프로젝트에 Adobe Ex
      <p>신규:</p>
      <ul>
        <li>
-         <p>Select 또는 Prime Workfront 플랜: 조직에서 Adobe Workfront Fusion을 구매해야 합니다.</p>
+         <p>또는 Prime Workfront 플랜 선택: 귀사는 Adobe Workfront Fusion을 구매해야 합니다.</p>
        </li>
        <li> 
-         <p>Ultimate Workfront Plan: Workfront Fusion이 포함됩니다.</p>
+         <p>Ultimate Workfront 플랜: Workfront Fusion이 포함됩니다.</p>
        </li>
      </ul>
      <p>또는</p>
@@ -93,7 +93,7 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 1. 시나리오에 **Workfront** > **기타 작업** 모듈을 추가합니다.
 1. **연결** 필드에서 이 모듈에서 사용할 계정에 연결하는 Workfront 연결을 선택합니다.
 
-   연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion)을 참조하십시오.
+   연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.
 
    클라이언트 ID 및 클라이언트 암호를 만드는 방법에 대한 지침은 이 문서에서 [OAuth 응용 프로그램 만들기](#create-an-oauth-application)를 참조하십시오.
 
@@ -175,4 +175,4 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 
 Fusion에서 모듈의 연결을 구성할 때 이 클라이언트 ID와 클라이언트 암호를 사용합니다.
 
-연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion)을 참조하십시오.
+연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.

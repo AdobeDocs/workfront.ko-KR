@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Workfront은 최근 거의 모든 웹 기반 애플리케이션에서 자유롭�
 
 이전 Workfront Fusion 고객은 Workfront Fusion 2.0에서 향상된 전력, 속도, 편의성 및 예측 가능성을 기대할 수 있습니다. 현재 Workfront Fusion 고객을 Workfront Fusion 2.0으로 마이그레이션하는 중입니다. 자세한 내용은 계정 담당자에게 문의하십시오.
 
-자세한 내용은 [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md)을 참조하십시오.
+자세한 내용은 [Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)을 참조하십시오.
 
 ## MobileIron용 Workfront 소개
 

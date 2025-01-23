@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3973'
+source-wordcount: '3974'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">새 기본 액세스 수준 구성</a> </p> <p>액세스 수준을 생성하는 대부분의 관리자의 요구 사항에 보다 잘 부합하도록 편집 버튼에서 톱니바퀴 아이콘을 클릭할 때 표시되는 여러 "설정 미세 조정" 옵션의 기본 구성을 변경했습니다.</p> <p>이전에 기본적으로 활성화되었던 옵션이 이제 비활성화되었습니다. 조직의 요구 사항에 맞지 않으면 새 액세스 수준을 설정할 때 또는 나중에 언제든지 활성화할 수 있습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">새 기본 액세스 수준 구성</a> </p> <p>액세스 수준을 만드는 대부분의 관리자의 요구에 더 잘 부합하도록 편집 버튼에서 톱니바퀴 아이콘을 클릭할 때 표시되는 "설정 미세 조정" 옵션 중 몇 가지에 대한 기본 구성을 변경했습니다.</p> <p>이전에 기본적으로 활성화되었던 옵션이 이제 비활성화되었습니다. 조직의 요구 사항에 맞지 않으면 새 액세스 수준을 설정할 때 또는 나중에 언제든지 활성화할 수 있습니다.</p> </td> 
    <td> <p><b>다음 날짜에 사용 가능:</b> </p> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 1월 27일<br></p> </li> 
@@ -584,7 +584,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 22.2 릴리스 일정이 아닌 다른 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 22.2 릴리스 일정이 아닌 다른 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ## Workfront Scenario Planner 개선 사항
 
@@ -618,7 +618,7 @@ API 버전 14의 경우 일부 리소스 및 끝점을 수정했습니다. 일�
 
 API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../../wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
-## Workfront 유지 보수 업데이트
+## Workfront 유지 관리 업데이트
 
 22.2 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 

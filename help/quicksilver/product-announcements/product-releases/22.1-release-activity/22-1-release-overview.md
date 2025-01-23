@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '4757'
+source-wordcount: '4758'
 ht-degree: 0%
 
 ---
@@ -365,7 +365,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 22.1 릴리스 일정이 아닌 다른 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 22.1 릴리스 일정이 아닌 다른 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ## Workfront Scenario Planner 개선 사항
 
@@ -395,7 +395,7 @@ API 버전 14의 경우 일부 리소스 및 끝점을 수정했습니다. 일�
 
 API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../../wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
-## Workfront 유지 보수 업데이트
+## Workfront 유지 관리 업데이트
 
 22.1 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350)를 참조하십시오.
 

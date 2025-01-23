@@ -7,9 +7,9 @@ description: Adobe Workfront 제품에서 다양한 기능이 단계적으로 �
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Adobe Workfront 제품에서 다양한 기능이 단계적으로 출시되고 �
    <td> <p>더 이상 2020년 11월 9일에 지원되지 않음(20.4 릴리스 포함)</p> <p>—</p> <p>2022년 상반기 이후 Workfront 플랫폼에서 제거되었습니다.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>레거시 Workfront Fusion</p> <p>Workfront Fusion은 기존 Workfront Fusion에서 향상된 환경을 제공합니다.</p> <p>Workfront Fusion에 대한 자세한 내용은 <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>을 참조하십시오.</p> </td> 
+   <td> <p>레거시 Workfront Fusion</p> <p>Workfront Fusion은 기존 Workfront Fusion에서 향상된 환경을 제공합니다.</p> <p>Workfront Fusion에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>을 참조하십시오.</p> </td> 
    <td> </td> 
    <td>2021년 3월 31일에 Workfront 플랫폼에서 제거되었습니다.</td> 
   </tr> 

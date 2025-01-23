@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
@@ -305,7 +305,7 @@ ht-degree: 0%
 
   [!DNL Adobe Workfront Fusion]은(는) 앱과 서비스 내에서 작업을 연결하여 데이터를 자동으로 전송하고 변환하는 시나리오를 만듭니다. 많은 앱에 대한 전용 커넥터를 보유하고 있지만 공개 API를 사용하여 모든 애플리케이션에 연결할 수 있습니다.
 
-  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](../../workfront-fusion/get-started/workfront-fusion-overview.md)를 참조하십시오.
+  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan]([!DNL Workfront Fusion] 필요)

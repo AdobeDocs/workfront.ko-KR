@@ -5,9 +5,9 @@ title: ' [!DNL Adobe Workfront]에서 도움말 찾기에 대한 빠른 안내'
 description: ' [!DNL Adobe Workfront]에서 도움말 찾기에 대한 빠른 안내'
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ ht-degree: 0%
 | [[!DNL Adobe Workfront] 통합](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | [!DNL Workfront]을(를) 타사 응용 프로그램과 통합할 수 있습니다. 통합은 [!DNL Workfront]의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 이 기술 자료 문서에서는 통합 옵션을 다루고 다음 방향을 안내합니다. |
 |---|---|
 | [[!DNL Workfront] 기본 제공 통합](https://www.workfront.com/integrations) | Workfront의 무료 기본 제공 통합을 사용하면 사용자와 팀이 동일한 워크플로 및 프로세스를 유지하면서 Workfront 플랫폼으로 원활하게 전환할 수 있습니다. |
-| [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | [!DNL Workfront]을(를) 100개 이상의 응용 프로그램에 연결하여 코드 없이 비즈니스 크리티컬 프로세스를 쉽게 자동화할 수 있습니다. |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | [!DNL Workfront]을(를) 100개 이상의 응용 프로그램에 연결하여 코드 없이 비즈니스 크리티컬 프로세스를 쉽게 자동화할 수 있습니다. |
 
 {style="table-layout:auto"}
 

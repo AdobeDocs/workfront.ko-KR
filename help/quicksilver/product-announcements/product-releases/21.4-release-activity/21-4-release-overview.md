@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '4717'
+source-wordcount: '4718'
 ht-degree: 0%
 
 ---
@@ -413,7 +413,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 
 ## Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 21.4 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 21.4 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ## Workfront Scenario Planner 개선 사항
 

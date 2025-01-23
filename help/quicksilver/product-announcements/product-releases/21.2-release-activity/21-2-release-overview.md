@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '5544'
+source-wordcount: '5545'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ For specific release dates and times for each cluster, see the
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for4" class="MCXref xref" xrefformat="{para}">그룹 관리자의 경우: 하위 그룹 및 업데이트된 도구 모음을 이동할 수 있는 컨트롤이 개선되었습니다</a> </p> <p>설정의 하위 그룹 영역에서 다음과 같은 사항이 개선되었습니다.</p> 
     <ul> 
-     <li> <p>관리하는 그룹을 빠르게 재구성할 수 있도록 새 하위 그룹을 만들고 기존 하위 그룹을 이동할 수 있는 "하위 그룹 추가" 도구 모음 버튼을 추가했습니다.</p> </li> 
+     <li> <p>관리하는 그룹을 빠르게 재구성할 수 있도록 새 하위 그룹을 만들고 기존 하위 그룹을 이동할 수 있는 "하위 그룹 추가" 도구 모음 단추를 추가했습니다.</p> </li> 
      <li> <p>이제 하위 그룹 영역의 도구 모음을 사용하여 목록을 새 Workfront 경험의 다른 현대화된 목록과 일관되게 만들 수 있습니다. 그룹을 선택하면 아이콘은 도구 모음에서 사용할 수 있는 기능을 나타냅니다.</p> </li> 
     </ul> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> <p>Beta 미리보기 릴리스: 2021년 4월 22일<br></p> <p>프로덕션 릴리스: 21.2 릴리스 포함</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> </td> 
@@ -203,7 +203,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>다음 날짜에 사용 가능:</strong> <p>Beta 미리보기 릴리스: 2021년 4월 1일<br></p> <p>프로덕션 릴리스: 2021년 4월 15일</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront 클래식 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#update" class="MCXref xref" xrefformat="{para}">사용자가 기록된 시간이 있는 작업 및 문제를 삭제할 수 있도록 설정하는 업데이트</a> </p> <p>모든 오브젝트에서 일관된 경험을 제공하기 위해 Workfront에서 "사용자가 작업 및 문제를 로그 시간으로 삭제할 수 있도록 허용" 설정이 작동하는 방식을 변경했습니다. 이제 Workfront 또는 그룹 관리자가 작업 및 문제 환경 설정을 비활성화하면 기록된 시간이 있는 작업 또는 문제가 포함된 프로젝트를 더 이상 삭제할 수 없습니다. </p> <p>이 변경 이전에는 설정을 비활성화하면 사용자가 프로젝트가 아닌 작업 또는 문제를 삭제하는 것만으로 영향을 받지 않았습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#update" class="MCXref xref" xrefformat="{para}">사용자가 기록된 시간이 있는 작업 및 문제를 삭제할 수 있도록 설정하는 업데이트</a> </p> <p>모든 오브젝트에서 일관된 경험을 제공하기 위해 Workfront에서 "사용자가 작업 및 문제가 기록된 시간을 삭제할 수 있도록 허용" 설정이 작동하는 방식을 변경했습니다. 이제 Workfront 또는 그룹 관리자가 작업 및 문제 환경 설정을 비활성화하면 기록된 시간이 있는 작업 또는 문제가 포함된 프로젝트를 더 이상 삭제할 수 없습니다. </p> <p>이 변경 이전에는 설정을 비활성화하면 사용자가 프로젝트가 아닌 작업 또는 문제를 삭제하는 것만으로 영향을 받지 않았습니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> <p>Beta 미리보기 릴리스: 2021년 4월 1일<br></p> <p>프로덕션 릴리스: 21.2 릴리스 포함</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> </td> 
   </tr> 
  </tbody> 
@@ -220,7 +220,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md#control" class="MCXref xref" xrefformat="{para}">새 요청에 대해 수행할 할당 유형을 제어합니다</a> </p> <p>일관성을 제공하고 사용자가 입력할 수 있는 할당 유형에 관계없이 항상 동일한 필드를 표시하도록 새 요청을 만들 때 할당 필드가 작동하는 방식을 변경했습니다.</p> <p>요청 대기열을 설정할 때 할당 대상, 작업 역할 또는 팀 필드가 표시되도록 설정하면 요청자에게 이 세 가지 할당 유형 모두 또는 모두를 수용할 수 있는 동일한 할당 필드가 표시됩니다.</p> <p>할당 필드에는 허용되는 할당 유형이 표시됩니다. 예를 들어 요청 대기열을 설정할 때 할당 대상 및 팀 필드를 활성화하면 "사람, 역할 또는 팀 검색" 대신 "사람 또는 팀 검색"을 선택하라는 메시지가 표시됩니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md#control" class="MCXref xref" xrefformat="{para}">새 요청에 대해 수행할 할당 유형을 제어합니다</a> </p> <p>일관성을 제공하고 사용자가 입력할 수 있는 할당 유형에 관계없이 항상 동일한 필드를 표시하도록 새 요청을 만들 때 할당 필드가 작동하는 방식을 변경했습니다.</p> <p>요청 대기열을 설정할 때 할당 대상, 작업 역할 또는 팀 필드가 표시되도록 설정하면 요청자에게 이 세 가지 할당 유형 모두 또는 모두를 수용할 수 있는 동일한 할당 필드가 표시됩니다.</p> <p>할당 필드에는 허용되는 할당 유형이 표시됩니다. 예를 들어, 요청 대기열을 설정할 때 할당 대상 및 팀 필드를 활성화한 경우 "사람, 역할 또는 팀 검색" 대신 "사람 또는 팀 검색"을 선택하라는 메시지가 표시됩니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> <p>Beta 미리보기 릴리스: 2021년 4월 8일<br></p> <p>프로덕션 릴리스: 21.2 릴리스 포함</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -442,7 +442,7 @@ Workfront Goals 릴리스의 21.2 릴리스에 포함된 대부분의 새로운 
 
 ## Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 21.2 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하세요.
+Workfront Fusion의 새로운 기능은 21.2 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하세요.
 
 ## API 버전 13
 

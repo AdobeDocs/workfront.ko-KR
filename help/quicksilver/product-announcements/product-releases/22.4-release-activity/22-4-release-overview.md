@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3271'
+source-wordcount: '3272'
 ht-degree: 0%
 
 ---
@@ -666,17 +666,17 @@ ht-degree: 0%
     &lt;td>&lt;p>&lt;b>다음 날짜에 사용 가능:&lt;/b>&lt;/p>
     &lt;ul>
     &lt;li>
-    &lt;p>미리보기 릴리스:&amp;#160;22.4 릴리스 일정 전체&lt;br />&lt;/p>
+    &lt;p>미리보기 릴리스:&amp;#GenStudio for Performance Marketers&amp;-160;2.4 릴리스 전체 일정&lt;br />&lt;/p>
     &lt;/li>
     &lt;li>
-    &lt;p>프로덕션 릴리스:&amp;#160;TBD&lt;/p>
+    &lt;p>프로덕션 릴리스:&amp;#GenStudio for Performance Marketers&amp;-160;TBD&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>설명 팀&lt;/a>&lt;/p>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXxref&quot; xrefformat=&quot;{para}&quot; 팀 설명&lt;/a>&lt;/p>
     &lt;p>이제 팀 영역에서 설명을 클릭하여 팝업에 표시하여 전체 팀 설명을 볼 수 있습니다. 설명의 모든 URL은 팝업에서 클릭할 수 있으며, 팀 설정을 편집할 수 있는 액세스 권한이 있는 경우 설명 텍스트를 클릭하여 편집할 수 있습니다.&lt;/p>
     &lt;p>이전에는 좁은 영역에서 설명을 스크롤하는 것이 모든 콘텐츠를 볼 수 있는 유일한 방법이었습니다.&lt;/p>
 <p>설명에 대한 이 개선 사항은 애자일 팀과 애자일이 아닌 팀 모두에 적용됩니다.</p>
@@ -710,7 +710,7 @@ ht-degree: 0%
 
 ### Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 22.4 릴리스 일정이 아닌 다른 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 22.4 릴리스 일정이 아닌 다른 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ### WorkfrontScenario Planner 개선 사항
 
@@ -732,7 +732,7 @@ API 버전 14의 경우 일부 리소스 및 끝점을 수정했습니다. 일�
 
 API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/help/quicksilver/wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
-### Workfront 유지 보수 업데이트
+### Workfront 유지 관리 업데이트
 
 22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
