@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1095'
 ht-degree: 4%
 
 ---
@@ -345,4 +345,4 @@ Adobe Workfront 관리자 및 그룹 관리자는 다른 사용자로 로그인�
 * 프로젝트 진행 중 우선순위가 변경된 경우
 * 프로젝트 소유자가 변경된 경우
 
-자세한 내용은 [업데이트 영역 보고](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)를 참조하세요.
+자세한 내용은 [저널 게시물 보고서로 업데이트 영역 보고](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)를 참조하세요.

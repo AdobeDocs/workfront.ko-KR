@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '13008'
+source-wordcount: '13013'
 ht-degree: 2%
 
 ---
@@ -1538,7 +1538,7 @@ ht-degree: 2%
          * [고유 환율로 재무 데이터 보고서 만들기](reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
          * [보고서 설정 편집](reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
          * [보고서 소유자 변경](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-         * [업데이트 영역에 대한 보고서](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+         * [분개 입력 보고서를 사용하여 갱신 영역에 대한 보고서](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
          * [사용자 위임 보고서 만들기](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
       * 보고서 {#calculated-custom-data}의 계산된 사용자 지정 데이터
          * [보고서의 계산된 사용자 정의 데이터](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)

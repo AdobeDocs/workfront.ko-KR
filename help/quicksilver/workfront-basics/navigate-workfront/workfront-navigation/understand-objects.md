@@ -1,14 +1,14 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: "[!DNL Adobe Workfront]개 개체 개요"
-description: " [!DNL Adobe Workfront] 에 표시하는 정보는  [!DNL Workfront] 데이터베이스에 저장된 개체로 표시됩니다. 개체는  [!DNL Workfront]의 정보를 유도하는 요소입니다. 이 문서에서 이러한 개체에 대해 자세히 알아보십시오."
+title: '[!DNL Adobe Workfront]개 개체 개요'
+description: ' [!DNL Adobe Workfront] 에 표시하는 정보는  [!DNL Workfront] 데이터베이스에 저장된 개체로 표시됩니다. 개체는  [!DNL Workfront]의 정보를 유도하는 요소입니다. 이 문서에서 이러한 개체에 대해 자세히 알아보십시오.'
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2424'
 ht-degree: 1%
 
 ---
@@ -283,7 +283,7 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 반복]
 * [!UICONTROL 작업 역할]
 * [!UICONTROL 저널 게시물]
-   * 작업, 프로젝트, 문제 등과 같은 개체의 [!UICONTROL 업데이트] 영역에서 추적된 시스템 업데이트를 보고할 수 있습니다. 자세한 내용은 [[!UICONTROL 업데이트] 영역에 대한 보고](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)를 참조하세요.
+   * 작업, 프로젝트, 문제 등과 같은 개체의 [!UICONTROL 업데이트] 영역에서 추적된 시스템 업데이트를 보고할 수 있습니다. 자세한 내용은 [저널 게시물 보고서로 업데이트 영역 보고](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)를 참조하세요.
 
 * [!UICONTROL 레이아웃 템플릿]
 * [!UICONTROL 마일스톤]
@@ -302,7 +302,7 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
   >
   >프로젝트(재무 데이터) 보고서를 실행하면 재무 데이터가 다시 계산되어 이전 재무 데이터를 덮어쓸 수 있으며 상당한 시간이 소요될 수 있습니다. 재무 데이터 다시 계산 결과에 대한 자세한 내용은 [프로젝트 재무 다시 계산](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md)을 참조하십시오.
 
-* [!UICONTROL 증명 승인]
+* [!UICONTROL 교정쇄 승인]
    * 승인을 위해 제출된 증명, [!UICONTROL 승인자]에 대한 정보, 요청자에 대한 정보(요청자가 라이선스가 있는 [!DNL Workfront] 사용자인 경우), 버전 정보, 증명 ID 및 증명 생성 날짜를 포함하여 증명 승인에 대한 다양한 정보를 볼 수 있습니다.\
       [!UICONTROL 증명 승인] 보고서에는 아직 결정이 내려지지 않은 사용자의 내 작업 영역에서 사용할 수 있는 증명만 포함됩니다.\
    * [내에서 증명 공유 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)의 [증명에 사용자 추가](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)에 설명된 대로 [!DNL Workfront]에서 증명 승인이 할당됩니다.

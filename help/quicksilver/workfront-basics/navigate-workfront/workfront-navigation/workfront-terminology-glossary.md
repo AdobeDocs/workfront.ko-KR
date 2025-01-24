@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 용어집에는  [!DNL Adobe Workfront]. Y
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '20931'
+source-wordcount: '20935'
 ht-degree: 0%
 
 ---
@@ -1168,7 +1168,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL 저널 게시물]</p> </td> 
-   <td> <p>프로젝트, 작업, 문제 및 기타 개체의 [!UICONTROL Updates] 영역에 나타나는 추적된 필드의 시스템 업데이트에 대한 정보를 알려주는 보고 가능한 개체입니다.</p> <p>자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">[!UICONTROL 업데이트] 영역에 대한 보고</a>를 참조하세요.</p> </td> 
+   <td> <p>프로젝트, 작업, 문제 및 기타 개체의 [!UICONTROL Updates] 영역에 나타나는 추적된 필드의 시스템 업데이트에 대한 정보를 알려주는 보고 가능한 개체입니다.</p> <p>자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">저널 게시물 보고서로 업데이트 영역 보고</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Kanban 플래그]</td> 

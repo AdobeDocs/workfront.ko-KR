@@ -1,18 +1,18 @@
 ---
-title: 업데이트 영역에 대한 보고서
+title: 분개 입력 보고서를 사용하여 갱신 영역에 대해 보고
 description: 저널 게시물 보고서는 이전에 Adobe Workfront API를 통해서만 사용할 수 있었던 프로젝트, 작업, 문제 및 기타 개체의 업데이트 영역에서 시스템 업데이트를 표시합니다. 특정 사용 사례를 위한 고급 보고서이지만, 보다 간편한 형식을 사용하면 Workfront 내의 프로젝트 활동 및 시스템 업데이트에 대해 보다 쉽게 보고할 수 있습니다.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2767'
 ht-degree: 4%
 
 ---
 
-# 업데이트 영역에 대한 보고서
+# 분개 입력 보고서를 사용하여 갱신 영역에 대한 보고서
 
 <!-- Audited: 11/2024 -->
 
