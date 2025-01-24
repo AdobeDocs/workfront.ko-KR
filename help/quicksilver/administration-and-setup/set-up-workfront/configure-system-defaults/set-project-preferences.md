@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
 workflow-type: tm+mt
-source-wordcount: '2661'
+source-wordcount: '2693'
 ht-degree: 1%
 
 ---
@@ -246,13 +246,6 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
 ### [!UICONTROL 비즈니스 사례] {#business-cases}
 
 시스템 전체에서 새로 생성된 프로젝트에 대한 비즈니스 사례를 만들어 프로젝트 요청을 제출할 수 있습니다. 환경 설정을 정의하여 **[!UICONTROL 비즈니스 사례]** 양식에 표시되는 영역을 결정할 수 있습니다. [!UICONTROL Portfolio 최적화 도구]와 같은 다른 도구가 제대로 업데이트되도록 이러한 옵션을 사용하도록 설정하는 것이 좋습니다. 각 필드에 표시되는 내용에 대한 자세한 내용은 [비즈니스 사례 정의: 문서 색인](../../../manage-work/projects/define-a-business-case/define-business-case.md)을 참조하세요.
@@ -279,11 +272,12 @@ ht-degree: 1%
    <td role="rowheader"> <p>[!UICONTROL 프로젝트가 완료, 중단 또는 승인 보류 중으로 표시된 후에도 직원들은 여전히]</p> </td> 
    <td> <p>프로젝트 상태가 <strong>[!UICONTROL 완료]</strong>, <strong>[!UICONTROL 중단]</strong> 또는 <strong>[!UICONTROL 승인 보류 중]</strong>(으)로 표시된 후 프로젝트의 작업, 문제, 문서 및 기타 개체에 어떤 일이 일어나는지에 대한 조직(또는 그룹에 대한 프로젝트 환경 설정을 구성하는 경우)에 대한 규칙을 결정합니다.</p> 
     <ul> 
-     <li><strong>[!UICONTROL 작업 추가 및 편집]</strong>을(를) 통해 다음과 같은 작업을 수행할 수 있습니다.
+     <li><strong>[!UICONTROL 작업 추가 및 편집:]</strong> 사용자가 수행할 수 있는 작업:
       <ul>
-       <li>프로젝트가 [!UICONTROL Complete], [!UICONTROL Dead] 또는 [!UICONTROL Pending Approval]로 표시된 후 프로젝트 내에서 작업을 편집합니다. 여기에는 작업에 대한 시간 추가 및 경비 항목 변경이 포함됩니다.</li>
+       <li><p>프로젝트가 [!UICONTROL Complete], [!UICONTROL Dead] 또는 [!UICONTROL Pending Approval]로 표시된 후 프로젝트 내에서 작업을 편집합니다.</p>
+           <p>주: 이 옵션을 선택하지 않은 경우에도 사용자가 경비 항목을 추가하고 편집할 수 있습니다. 로깅 시간에는 별도의 설정이 있습니다. 사용자가 완료 또는 중단 상태인 프로젝트에서 시간을 기록하도록 허용하거나 금지하려면 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">타임시트 및 시간 환경 설정 구성</a>을 참조하십시오.</p></li>
        <li>프로젝트에 작업을 추가합니다.</li>
-      </ul></li> 
+      </ul></li>
      <li><strong>[!UICONTROL 문제 추가 및 편집]</strong>: 사용자가 다음을 수행할 수 있도록 허용합니다.
       <ul>
        <li>프로젝트가 [!UICONTROL Complete], [!UICONTROL Dead] 또는 [!UICONTROL Pending Approval](으)로 표시된 후 프로젝트 내의 문제를 편집합니다.</li>
