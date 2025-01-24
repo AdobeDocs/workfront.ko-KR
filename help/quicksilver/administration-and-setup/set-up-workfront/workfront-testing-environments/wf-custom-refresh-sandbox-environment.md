@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -118,11 +118,11 @@ URL을 사용하여 사용자 지정 새로 고침 샌드박스에 액세스하�
 
 1. 사용자 정의 새로 고침 샌드박스가 하나만 있는 경우 이 URL로 이동합니다.
 
-   https://companyname.sb01.workfront.com (이전 URL:https://cr1.attasksandbox.com/.)
+   `https://companyname.sb01.workfront.com`(이전 URL:`https://cr1.attasksandbox.com/`.)
 
    또는 위의 URL 외에 두 개의 사용자 정의 새로 고침 샌드박스가 있는 경우 다음 URL로 이동하여 두 번째 사용자 정의 새로 고침 샌드박스에 액세스할 수도 있습니다.
 
-   https://companyname.sb02.workfront.com (이전 URL:https://cr2.attasksandbox.com/)
+   `https://companyname.sb02.workfront.com`(이전 URL:`https://cr2.attasksandbox.com/`)
 
 1. 로그인 화면에서 사용자 지정 새로 고침 샌드박스 자격 증명을 사용하여 로그인합니다.
 1. 사용자 정의 새로 고침 샌드박스를 마지막으로 새로 고친 후 프로덕션 자격 증명을 변경하지 않는 한, 사용자 정의 새로 고침 샌드박스 자격 증명은 프로덕션 자격 증명과 동일합니다. 새로 고침이 발생할 때만 로그인이 동기화됩니다. 자동으로 동기화되지 않습니다.
@@ -137,15 +137,15 @@ URL을 사용하여 사용자 지정 새로 고침 샌드박스에 액세스하�
 
 1. 사용자 정의 새로 고침 샌드박스가 하나만 있는 경우 이 URL로 이동합니다.
 
-   https://companyname.sb01.workfront.com (이전 URL:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com`(이전 URL:`https://cr3.attasksandbox.com`)
 
    또는
 
    사용자 지정 새로 고침 샌드박스가 두 개 있는 경우 다음 URL 중 하나로 이동합니다.
 
-   https://companyname.sb01.workfront.com (이전 URL:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com`(이전 URL:`https://cr3.attasksandbox.com`)
 
-   https://companyname.sb02.workfront.com (이전 URL:https://cr4.attasksandbox.com)
+   `https://companyname.sb02.workfront.com`(이전 URL:`https://cr4.attasksandbox.com`)
 
 1. 로그인 화면에서 사용자 지정 새로 고침 샌드박스 자격 증명을 사용하여 로그인합니다.
 

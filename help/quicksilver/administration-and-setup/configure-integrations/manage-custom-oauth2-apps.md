@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,6 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth 응용 프로그램]**&#x200B;을 선택합니다.
-1. ** 를 **.
 1. 응용 프로그램 위로 마우스를 가져간 다음 맨 오른쪽에 나타나는 경우 **[!UICONTROL 삭제]** ![](assets/delete.png)을(를) 클릭합니다.
 
 ## OAuth2 애플리케이션에서 클라이언트 암호 관리
