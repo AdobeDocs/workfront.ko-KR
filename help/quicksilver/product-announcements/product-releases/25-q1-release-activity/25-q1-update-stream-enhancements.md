@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 270bf0fb1bb5b3ab93e82aafd423ee6fceaa7b42
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 12월 19일, 모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월 16일)
+>미리보기 릴리스: 2024년 12월 19일, 모든 고객을 위한 프로덕션 릴리스: 발표될 예정
 
 홈의 언급 위젯 및 내 업데이트 영역의 언급 섹션에서 주석 달기 경험을 업데이트하고 있습니다. 이제 대부분의 Workfront 오브젝트의 업데이트 영역에서 언급 위젯 및 내 업데이트의 언급 섹션에서도 동일한 경험을 사용할 수 있습니다.
 
