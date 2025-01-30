@@ -6,14 +6,16 @@ description: 작업의 추적 모드에 따라 Adobe Workfront에서 작업 진�
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 2%
+source-wordcount: '215'
+ht-degree: 3%
 
 ---
 
 # 작업에 대한 추적 모드 설정
+
+<!--Audited: 01/2025-->
 
 작업의 추적 모드에 따라 Adobe Workfront에서 작업 진행 상태가 업데이트되는 방식이 결정됩니다.
 
@@ -21,28 +23,58 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-<!--drafted for P&P - replace the table:
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td> <p>임의</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td> <p>새로운 기능: 표준</p> 
+   또는
+   <p>현재: 작업 시간 이상</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>작업에 대한 액세스 편집 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>작업에 대한 권한 관리</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
+<!--old: 
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan/td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> 
-   </td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks </p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a></p> </td> 
+   <td> <p>Edit access to Tasks </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -50,34 +82,10 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
 -->
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront 플랜</a>*</td> 
-   <td> <p>임의</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>*</td> 
-   <td> <p>작업 이상</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>작업에 대한 액세스 편집 </p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">개체 권한</td> 
-   <td> <p>작업에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
 ## 작업에 대한 추적 모드 설정
 

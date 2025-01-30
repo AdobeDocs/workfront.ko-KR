@@ -6,14 +6,16 @@ description: 위험은 프로젝트가 정시 또는 예산 내에서 완료되�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 8611c7bf8be6405f8ec8462ff2fd0f5998e8a995
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
 
 # 프로젝트에 대한 위험 만들기 및 편집
+
+<!--Audited: 01/2025-->
 
 위험은 프로젝트가 정시 또는 예산 내에서 완료되지 못하게 하는 가능한 이벤트 또는 요인입니다. 위험은 프로젝트의 비즈니스 사례를 만드는 과정의 일부나 위험 탭을 사용하여 기록할 수 있습니다. 위험은 프로젝트에서만 생성됩니다. 위험을 작업 또는 문제와 연결할 수 없습니다.
 
@@ -27,30 +29,35 @@ ht-degree: 0%
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td> <p>새로운 기능: 표준 </p>
+   <p>현재: 플랜 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트 및 재무 데이터에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트 및 재무 데이터에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p> 위험을 만들거나 편집할 프로젝트에 대한 재무 관리를 포함하는 권한을 관리합니다. </p> <p>프로젝트 권한에 대한 자세한 내용은 문서 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>를 참조하십시오.</p> </td> 
+   <td> <p> 위험을 만들거나 편집할 프로젝트에 대한 재무 관리를 포함하는 권한을 관리합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 비즈니스 사례에서 위험 생성 및 편집
 

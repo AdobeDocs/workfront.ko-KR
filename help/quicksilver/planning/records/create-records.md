@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,9 @@ You can import records from other applications by linking them to existing recor
    * 테이블 보기
    * 레코드의 세부 정보 페이지 또는 미리보기 상자
 
-1. (조건부) 다른 레코드의 연결된 레코드 필드에서 레코드를 추가하려고 할 때 해당 레코드를 찾을 수 없으면 레코드를 검색한 다음 **+ 추가**&#x200B;를 클릭합니다. **+ 추가** 단추 다음에 연결 중인 레코드 형식의 이름이 옵니다. 예: 기존 캠페인에 브랜드를 추가할 때 &quot;브랜드 추가&quot;
+1. (조건부) 다른 레코드의 연결된 레코드 필드에서 레코드를 추가하려고 할 때 해당 레코드를 찾을 수 없으면 레코드를 검색한 다음 **+ 추가**&#x200B;를 클릭합니다. **+ 추가** 단추 다음에 연결 중인 레코드 형식의 이름이 옵니다. 예: 기존 캠페인에 브랜드를 추가할 때 &quot;브랜드 추가&quot; 입력한 이름도 [추가] 단추 다음에 표시됩니다.
+
+   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 

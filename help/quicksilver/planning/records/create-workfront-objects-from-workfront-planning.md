@@ -6,16 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 0%
+source-wordcount: '864'
+ht-degree: 1%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Workfront Planning에서 Workfront 개체 만들기
+
+
+<!-- remove preview and production at release time-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -132,7 +135,9 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
    * 레코드 유형의 표 보기
    * 레코드의 세부 정보 페이지 또는 미리보기 상자
 
-1. (조건부) 다른 레코드의 연결된 레코드 필드에서 프로젝트를 추가하려고 할 때 프로젝트를 찾을 수 없으면 이름을 추가한 다음 **+ 추가**&#x200B;를 클릭합니다. **+ 추가** 단추 다음에 연결 중인 개체 형식의 이름이 옵니다. 예: 기존 캠페인에 새 프로젝트를 추가할 때 &quot;프로젝트 추가&quot;. 또한 [추가] 단추 다음에 입력한 프로젝트 이름이 옵니다.
+1. (조건부) 다른 레코드의 연결된 레코드 필드에서 프로젝트를 추가하려고 할 때 프로젝트를 찾을 수 없으면 이름을 추가한 다음 **+ 추가**&#x200B;를 클릭합니다. [추가] 단추 다음에 입력한 프로젝트 이름이 옵니다.
+
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click +Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
 
    ![](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -158,10 +163,47 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
    * 레코드 유형의 표 보기
    * 레코드의 세부 정보 페이지 또는 미리보기 상자
 
-1. (조건부) 다른 레코드의 연결된 레코드 필드에서 포트폴리오를 추가하려고 할 때 해당 포트폴리오를 찾을 수 없으면 이름을 추가한 다음 **+ 추가**&#x200B;를 클릭합니다. **+ 추가** 단추 다음에 연결 중인 개체 형식의 이름이 옵니다. 예: 기존 캠페인에 새 포트폴리오를 추가할 때 &quot;포트폴리오 추가&quot;. 추가 단추 뒤에는 입력한 포트폴리오 이름도 표시됩니다.
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click +Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
+
+1. (조건부) 다른 레코드의 연결된 레코드 필드에서 포트폴리오를 추가하려고 할 때 해당 포트폴리오를 찾을 수 없는 경우 이름을 추가한 다음 **+ 포트폴리오 추가**&#x200B;를 클릭합니다. 추가 단추 뒤에는 입력한 포트폴리오 이름도 표시됩니다.
 
    ![](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
    포트폴리오가 만들어지고 선택한 레코드의 연결 필드에 추가됩니다.
 
 1. (선택 사항) Workfront Planning에서 새 포트폴리오의 이름을 클릭하여 Workfront에서 포트폴리오의 페이지를 열고 포트폴리오를 추가로 업데이트합니다.
+
+<!--
+
+<div class="preview">
+
+## Create programs when connecting them with records from Workfront Planning
+
+To create programs as you are connecting them from other records: 
+
+1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+
+    You can connect programs from a connection field in following areas of Workfront Planning:
+
+    * The table view of a record type
+    * The details page or preview box of a record
+
+    ********at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click +Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."***********
+    
+1. (Conditional) If you cannot find a program when trying to add it from the connected record field of another record, add a name, then click **+ Add**. The Add button is followed by the program name you typed. 
+
+    ![](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+
+    The **Create program** box opens.
+
+1. Update the **Program name**. This is a required field.
+1. Choose a **Portfolio** from the drop-down, or start typing the name of a portfolio, then select it when it displays in the list. This is a required field. 
+1. Click **Create**.
+
+    The program is created and added to the connection field of the record you selected. 
+
+1. (Optional) Click the name of the new program from Workfront Planning to open the program's page in Workfront and make additional updates to it. 
+
+</div>
+
+-->
