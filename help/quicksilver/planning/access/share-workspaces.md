@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 2%
+source-wordcount: '784'
+ht-degree: 1%
 
 ---
 
 # 작업 공간 공유
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -173,9 +177,13 @@ OLD:
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. **작업 공간 액세스 권한 부여** 필드에서 사용자 또는 그룹의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+1. **작업 공간 액세스 권한 부여** 필드에서 사용자, 그룹, <span class="preview">팀, 회사 또는 작업 역할</span>의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+
+   <div class="preview">
 
    ![](assets/sharing-ui-with-groups.png)
+
+   </div>
 
 1. 드롭다운 메뉴에서 다음 권한 수준 중 하나를 선택합니다.
    * 보기
@@ -221,7 +229,7 @@ OLD:
 {{step1-to-planning}}
 
 1. 권한을 제거할 작업 영역을 연 다음 화면 오른쪽 상단의 **공유**&#x200B;를 클릭합니다.
-1. 사용자 또는 그룹 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 **제거**&#x200B;를 클릭합니다.
+1. 작업 영역을 공유하는 엔터티의 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 **제거**&#x200B;를 클릭합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
-   제거된 그룹에 속한 사용자나 사용자는 더 이상 작업공간이나 해당 객체에 액세스할 수 없습니다.
+   제거된 사용자는 더 이상 작업공간이나 해당 객체에 액세스할 수 없습니다.

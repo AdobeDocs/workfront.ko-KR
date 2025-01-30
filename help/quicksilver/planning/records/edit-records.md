@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
 source-wordcount: '2007'
 ht-degree: 0%
@@ -296,7 +296,11 @@ ht-degree: 0%
 
    테이블 보기에서 첫 번째 열의 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png)을(를) 클릭합니다. 레코드의 미리보기가 보기에서 열립니다.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (선택 사항) 레코드 제목 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭합니다. 레코드의 제목으로 표시되는 필드가 업데이트됩니다.
 
@@ -316,6 +320,18 @@ ht-degree: 0%
 1. (선택 사항) 썸네일 아이콘 위로 마우스를 가져간 다음 **자세히** ![](assets/more-menu.png) > **썸네일 편집**&#x200B;을 클릭하여 썸네일 이미지를 추가합니다. 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
 
    Workfront은 변경 사항을 자동으로 저장합니다.
+
+   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+
+    The names and avatars of all users accessing the record at the same time display in this area.  
+
+    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
+    
+    <div class="preview">
+
+    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+    </div>-->
 
 1. (선택 사항) 레코드의 세부 정보를 내보내려면 **내보내기** 메뉴 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭합니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
 
@@ -342,6 +358,8 @@ ht-degree: 0%
      ![](assets/contextual-menu-for-record-row.png)
 
      레코드 페이지가 열립니다.
+
+     <!--update the screen shot below at preview-->
 
      ![](assets/details-page.png)
 
@@ -372,6 +390,18 @@ ht-degree: 0%
    자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
 
    Workfront은 변경 사항을 자동으로 저장합니다.
+
+   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+
+    The names and avatars of all users accessing the record at the same time display in this area.  
+
+    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
+    
+    <div class="preview">
+
+    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+    </div>-->
 
 1. (선택 사항) 레코드의 세부 정보를 내보내려면 **내보내기** 메뉴 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭합니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
 

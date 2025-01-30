@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 1%
@@ -140,13 +140,21 @@ ht-degree: 1%
 
    레코드의 미리보기가 보기에서 열립니다.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
    레코드 페이지가 열립니다.
 
-   ![](assets/details-page.png)
+   <!--<div class="preview">
+
+    ![](assets/details-page.png)
+
+    </div>-->
 
 1. 레코드 미리 보기 또는 세부 정보 페이지에서 레코드 이름 위의 공간을 마우스로 가리킨 다음 **표지 추가**&#x200B;를 클릭합니다.
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 레코드 페이지 레이아웃 관리
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -161,7 +161,11 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
    레코드의 미리보기가 보기에서 열립니다.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png)  
+
+    </div>-->
 
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
@@ -240,13 +244,21 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
    레코드의 미리보기가 보기에서 열립니다.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
    레코드의 **세부 정보** 탭이 기본적으로 열립니다.
 
+   <!--<div class="preview">
+
    ![](assets/details-page.png)
+
+   </div>-->
 
 1. 레코드 **세부 정보** 탭에서 필드 이름 왼쪽에 있는 **grab** 아이콘 ![](assets/grab-icon.png)을(를) 클릭한 다음 원하는 위치에 끌어다 놓습니다. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 

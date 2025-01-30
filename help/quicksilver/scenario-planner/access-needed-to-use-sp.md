@@ -7,7 +7,7 @@ description: 시나리오 플래너에는 Adobe Workfront과 별도의 라이센
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 99711cef67750a04f7a971538a978eff3656ff85
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 0%
@@ -38,7 +38,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    * 현재 Workfront 플랜의 경우 귀사는 다음 두 가지 플랜을 모두 보유해야 합니다.
 
-      * 조직은 [!DNL Workfront] [!UICONTROL 비즈니스] 또는 [!DNL Workfront] 이상의 플랜을 구매해야 합니다. [!DNL Workfront] 플랜에 대한 자세한 내용은 [Workfront 플랜](https://workfront.com/plans)을 참조하십시오.
+      * 조직은 [!DNL Workfront] [!UICONTROL 비즈니스] 또는 [!DNL Workfront] 이상의 플랜을 구매해야 합니다. [!DNL Workfront] 플랜에 대한 자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans)을 참조하십시오.
 
       * 조직에서 [!DNL Workfront] 라이선스 외에 [!DNL Workfront Scenario Planner] 라이선스를 구입해야 합니다. [!DNL Workfront Scenario Planner] 라이선스에 대한 자세한 내용은 [!DNL Workfront] 계정 담당자에게 문의하세요.
 

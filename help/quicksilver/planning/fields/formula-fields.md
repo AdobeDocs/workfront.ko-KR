@@ -6,16 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 7%
+source-wordcount: '664'
+ht-degree: 8%
 
 ---
 
 # 공식 필드 개요
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -175,9 +179,26 @@ OLD:
 
 ## 지원되는 공식
 
-Adobe Workfront Planning 공식 필드는 Workfront 계산된 필드의 모든 표현식을 지원합니다. Workfront 식 목록을 보려면 [계산된 데이터 식의 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)를 참조하십시오.
+Adobe Workfront Planning 공식 필드는 Workfront 계산된 필드의 대부분의 표현식을 지원합니다.
 
-또한 Workfront Planning 공식 필드에 대해 다음 표현식을 지원합니다.
+<!-- make the note available when WF releases the expressions listed in it: 
+
+>[!NOTE]
+>
+>The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>
+>* SORTASCARRAY
+>* SORTDESCARRAY
+>* ADDHOUR
+>* SWITCH
+>* FORMAT
+-->
+
+Workfront 식의 전체 목록을 보려면 [계산된 데이터 식의 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)를 참조하십시오.
+
+또한 Workfront Planning 공식 필드에 대해 다음 표현식을 지원합니다. 다음 표현식은 Workfront 표현식에 지원되지 않습니다.
+
+<!--take these three out when they also come to WF and Lisa has added them to the WF expression article linked above-->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -190,6 +211,21 @@ Adobe Workfront Planning 공식 필드는 Workfront 계산된 필드의 모든 �
  </thead> 
  <tbody>
 
+<tr>
+   <td><strong>배열</strong> </td>
+   <td> <p>문자열을 배열로 변환합니다. 구분 기호는 모든 문자열이 될 수 있습니다.</p>
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>ARRAYELEMENT</strong> </td>
+   <td> <p>배열에서 지정된 숫자의 요소를 반환합니다. 인덱스가 범위를 벗어나면 빈 을 반환합니다.</p>
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p>
+   </td>
+  </tr>
+
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>구분 기호로 연결된 문자열을 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.
@@ -197,6 +233,12 @@ Adobe Workfront Planning 공식 필드는 Workfront 계산된 필드의 모든 �
 <code>ARRAYJOIN(구분 기호,배열)</code>
 </p>
    </td></tr>
+  <tr>
+   <td><strong>ARRAYLENGTH</strong> </td>
+   <td> <p>배열에 있는 요소의 수를 반환하며 형식은 다음과 같습니다.</p>
+   <p><code>ARRAYLENGTH(array)</code></p>
+   </td>
+  </tr>
 
 <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
