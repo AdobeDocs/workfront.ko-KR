@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: a7166f04f5916aebc07d5a5f73fa4f1f74b7a4a8
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,10 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 
 ## Adobe Workfront 개선 사항
 
-* [관리자 개선 사항](#administrator-enhancements)
+<!--* [Administrator enhancements](#administrator-enhancements)-->
 * [기타 개선 사항](#other-enhancements)
 
-### 관리자 개선 사항
+<!--### Administrator enhancements
 
 <table>
 <col style="width: 50%;" />
@@ -48,19 +48,19 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Workfront 업데이트 피드에서 Adobe Admin Console 사용자 변경 사항을 "시스템"으로 표시</a></p>
-            <p>이제 Adobe Admin Console 관리자가 Workfront 사용자의 사용자 정보를 변경하면 Workfront은 사용자 업데이트 영역의 시스템 활동 탭에 이 변경 내용을 "시스템"에 속하는 것으로 기록합니다. Adobe Admin Console 관리자에게 문의하십시오.</p>
+            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
+            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
         </td>
         <td>
-            <p><b>다음 날짜에 사용 가능:</b></p>
+            <p><b>Available on these dates:</b></p>
             <ul>
-                <li>미리보기 릴리스: 2025년 1월 30일</li>
-                <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 1월 30일</span></li>
+                <li>Preview release: January 30, 2025</li>
+                <li><span class="preview">Production release for all customers: January 30, 2025</span></li>
             </ul>
         </td>
     </tr>                          
 </tbody>
-</table>
+</table>-->
 
 ### 기타 개선 사항
 
