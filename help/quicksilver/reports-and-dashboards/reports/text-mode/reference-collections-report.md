@@ -6,14 +6,16 @@ description: 보고서에서 컬렉션 참조
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2539'
 ht-degree: 0%
 
 ---
 
 # 보고서에서 컬렉션 참조
+
+<!-- Audited: 1/2025 -->
 
 Adobe Workfront에서 보고서를 작성하면 목록, 그리드 또는 차트 형식으로 객체 세트, 해당 필드 또는 연결된 객체를 표시할 수 있습니다.
 
@@ -23,32 +25,41 @@ Workfront에서 보고서를 작성하는 방법에 대한 자세한 내용은 [
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>플랜</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>보기, 필터 또는 그룹화에 대한 권한 관리 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p> <p>보기, 필터 또는 그룹화에 대한 권한 관리 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -128,8 +139,9 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
 작업 또는 문제에 대한 정보(예: 이름, 날짜, 기본 담당자, 완료율 등)를 컬렉션 보기에 표시할 수 있습니다.
 
-보기에는 작업 또는 문제 정보가 목록 형식으로 표시되며 목록의 모든 행은 작업 또는 문제에 대한 정보를 나타냅니다. 작업 또는 문제 및 해당 필드의 목록은 작업 또는 문제가 속한 프로젝트와 동일한 줄에 표시됩니다.\
-![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
+보기에는 작업 또는 문제 정보가 목록 형식으로 표시되며 목록의 모든 행은 작업 또는 문제에 대한 정보를 나타냅니다. 작업 또는 문제 및 해당 필드의 목록은 작업 또는 문제가 속한 프로젝트와 동일한 줄에 표시됩니다.
+
+![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [보고서 보기에 컬렉션 열 추가](#add-a-collection-column-in-a-report-view)
 * [텍스트 모드에서 컬렉션 보기의 줄 이해](#understand-the-lines-of-a-collection-view-in-text-mode)
@@ -144,7 +156,8 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 1. 보고서의 개체를 선택합니다.
 1. 보고서에서 떨어진 다음 [API 탐색기](../../../wf-api/general/api-explorer.md)를 사용하여 보고서에 대해 선택한 개체에 사용할 수 있는 컬렉션을 결정합니다.
 
-   컬렉션의 개체를 선택하는 방법에 대한 자세한 내용은 이 문서의 [API 탐색기에서 컬렉션 개체 및 해당 필드 찾기](#find-collection-objects-and-their-fields-in-the-api-explorer) 섹션을 참조하십시오.\
+   컬렉션의 개체를 선택하는 방법에 대한 자세한 내용은 이 문서의 [API 탐색기에서 컬렉션 개체 및 해당 필드 찾기](#find-collection-objects-and-their-fields-in-the-api-explorer) 섹션을 참조하십시오.
+
    컬렉션에 대한 개체의 이름이 무엇인지 메모합니다.
 
 1. [API 탐색기](../../../wf-api/general/api-explorer.md)를 사용하여 컬렉션에 표시할 개체의 필드 목록으로 이동합니다.
@@ -155,7 +168,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
 1. 보고서로 돌아가서 **열(보기)** 탭에서 **열 추가**&#x200B;를 클릭합니다.
 1. **텍스트 모드로 전환**&#x200B;을 클릭합니다.
-1. 대화 상자 위로 마우스를 가져간 후 **텍스트를 편집하려면 클릭하세요**.
+1. **텍스트 모드 편집**&#x200B;을 클릭합니다.
 1. **텍스트 모드** 대화 상자에서 모든 텍스트를 선택하고 제거한 다음 컬렉션 개체의 필드를 참조하는 경우 다음 코드를 붙여넣습니다.
 
    ```
@@ -223,7 +236,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
 1. 프로젝트 보고서에는 기본 피할당자와 함께 각 프로젝트의 모든 작업을 나열하는 다음 열이 표시됩니다.
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
+   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. **저장**&#x200B;을 클릭합니다.
 1. (선택 사항) 보고서를 계속 편집합니다.
@@ -311,7 +324,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
    컬렉션에 표시할 필드를 메모하십시오.
 
-1. 보고서로 돌아간 후 **필터** 탭에서 **텍스트 모드로 전환**&#x200B;을 클릭합니다.
+1. 보고서로 돌아간 후 **필터** 탭에서 **텍스트 모드로 전환**&#x200B;을 클릭한 다음 **텍스트 모드 편집**&#x200B;을 클릭합니다.
 
 1. **보고서에 대한 필터 규칙 설정** 영역에 다음 코드를 붙여넣습니다.
 
@@ -337,7 +350,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
    이 보고서는 이름에 &quot;marketing&quot;이라는 단어가 포함된 작업이 하나 이상 있는 프로젝트만 표시합니다.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
+   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. 문제의 이름을 필터링하려면 다음 코드를 사용하십시오.
 
@@ -391,7 +404,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
    ```
 
 1. (선택 사항) 이 선택 사항이 기본적으로 프롬프트에 표시되는지 여부를 지정합니다.
-1. [API 탐색기](../../../wf-api/general/api-explorer.md)에 나타나는 대로 **컬렉션 개체 이름**&#x200B;을(를) 컬렉션 개체의 이름으로 바꾸십시오. 이 값은 일반적으로 컬렉션 개체 이름의 복수 형식입니다.
+1. [API 탐색기](../../../wf-api/general/api-explorer.md)에 나타나는 대로 **컬렉션 개체 이름**&#x200B;을(를) 컬렉션 개체의 이름으로 바꾸십시오. 이 값은 일반적으로 컬렉션 개체 이름의 복수 형식입니다.
 1. **컬렉션 개체 필드**&#x200B;을(를) [API 탐색기](../../../wf-api/general/api-explorer.md)에 나타나는 컬렉션 개체의 필드 이름으로 바꾸십시오.
 1. **컬렉션 개체 값**&#x200B;을(를) Workfront에 나타나는 컬렉션 개체의 값으로 바꾸십시오.
 
@@ -399,7 +412,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
 1. **한정자의 값**&#x200B;을(를) 올바른 한정자로 바꾸십시오.
 
-   수정자 목록은 다음을 참조하십시오.  [필터 및 조건 수정자](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   수정자 목록을 보려면 [필터 및 조건 수정자](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)를 참조하십시오.
 
    **예:** 예를 들어 특정 사용자에게 하나 이상의 작업이 할당된 프로젝트만 표시할 사용자 지정 프롬프트를 사용하여 프로젝트 보고서를 작성하려면 아래 코드를 사용하십시오.
 
@@ -423,7 +436,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
    >[!NOTE]
    >
-   >컬렉션 개체 이름에 **문제**&#x200B;를 사용해야 합니다. API 탐색기  현재 문제에 대한 컬렉션 개체 이름을 제공하지 않습니다.
+   >컬렉션 개체 이름에 **문제**&#x200B;를 사용해야 합니다. 현재 API 탐색기에서 문제에 대한 컬렉션 개체 이름을 제공하지 않습니다.
 
 1. **완료**&#x200B;를 클릭합니다.
 1. (선택 사항) 보고서를 계속 편집합니다.

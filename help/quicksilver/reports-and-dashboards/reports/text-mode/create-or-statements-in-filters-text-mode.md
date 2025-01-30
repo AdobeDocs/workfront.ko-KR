@@ -6,9 +6,9 @@ description: 목록 및 보고서에서 필터를 만들 때 여러 문을 포�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 필터 만들기에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [텍스트 모드를 사용하여 필터 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [필터 개요](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [텍스트 모드를 사용하여 필터 편집](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## 텍스트 모드 필터 연산자
 
-표준 필터 인터페이스의 Adobe Workfront 필터 연산자에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하십시오.
+표준 필터 인터페이스의 Adobe Workfront 필터 연산자에 대한 자세한 내용은 [필터 개요](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하십시오.
 
 Workfront에는 각 필터 문을 연결하는 2개의 필터 연산자가 있습니다.
 
@@ -36,7 +36,12 @@ Workfront에는 각 필터 문을 연결하는 2개의 필터 연산자가 있�
 
   **예:** 계획된 완료 일자가 오늘이고 완료율이 100%보다 낮은 작업을 필터링하려면 다음 텍스트 모드 코드를 사용하십시오.
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>percentComplete=100</pre><pre>percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq 
+  percentComplete=100 percent
+  Complete_Mod=lt
+  ```
 
 * **OR**: OR 연산자로 2개의 필터 문을 조인할 때 두 문 중 하나를 충족시키려고 함을 나타냅니다.
 
@@ -48,7 +53,12 @@ Workfront에는 각 필터 문을 연결하는 2개의 필터 연산자가 있�
 
   **예:** 계획된 완료 일자가 오늘이거나 완료율이 100%보다 낮은 작업을 필터링하려면 다음 텍스트 모드 코드를 사용하십시오.
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>또는:1:percentComplete=100</pre><pre>또는:1:percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq
+  OR:1:percentComplete=100
+  OR:1:percentComplete_Mod=lt
+  ```
 
 ## OR 필터의 텍스트 모드 구문
 
@@ -58,7 +68,12 @@ OR 필터의 텍스트 모드 구문에는 다음 내용이 포함되어야 합�
 
   OR 필터를 작성할 때 다음 패턴을 따르십시오.
 
-  <pre><field name in camel case>=<value></pre><pre><field name in camel case>_Mod=<modifier value></pre><pre>또는:1:<field name in camel case>=<value></pre><pre>또는:1:<field name in camel case>_Mod=<modifier value></pre>
+  ```
+  <field name in camel case>=<value>
+  <field name in camel case>_Mod=<modifier value>
+  OR:1:<field name in camel case>=<value>
+  OR:1:<field name in camel case>_Mod=<modifier value>
+  ```
 
   >[!TIP]
   >
@@ -68,11 +83,25 @@ OR 필터의 텍스트 모드 구문에는 다음 내용이 포함되어야 합�
 
   **예:** 계획된 완료 일자가 오늘이거나 완료율이 100%보다 낮거나 상태가 새로움인 작업을 필터링하려면 다음 텍스트 모드 코드를 사용하십시오.
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>또는:1:상태=새로 만들기</pre><pre>OR:1:status_Mod=in</pre><pre>또는:2:percentComplete=100</pre><pre>또는:2:percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq
+  OR:1:status=NEW
+  OR:1:status_Mod=in
+  OR:2:percentComplete=100
+  OR:2:percentComplete_Mod=lt
+  ```
 
 * 필터에서 참조하는 필드 이름이나 특성은 카멜 대/소문자로 작성해야 합니다. 낙타 사례에 대한 자세한 내용은 [텍스트 모드 구문 개요](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)를 참조하십시오.
 * OR 필터에서 사용자 지정 필드를 참조할 때 OR 수정자 구문과 사용자 지정 필드의 이름 사이에 DE: 를 삽입해야 합니다. 사용자 정의 필드의 이름이 Workfront 인터페이스에 표시되는 대로 맞춤법을 입력해야 합니다.
 
   **예:** Status가 New 또는 Percent가 100%보다 낮은 작업 또는 값이 &quot;Equal&quot;인 &quot;Account Type&quot;이라는 사용자 지정 필드를 필터링하려면 다음 텍스트 모드 코드를 사용하십시오.
 
-  <pre>status=신규</pre><pre>status_Mod=in</pre><pre>또는:1:percentComplete=100</pre><pre>또는:1:percentComplete_Mod=lt</pre><pre>OR:2:DE:Account Type=Capital</pre><pre>OR:2:DE:Account Type_Mod=in</pre>
+  ```
+  status=NEW
+  status_Mod=in
+  OR:1:percentComplete=100
+  OR:1:percentComplete_Mod=lt
+  OR:2:DE:Account Type=Capital
+  OR:2:DE:Account Type_Mod=in
+  ```

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: ef390581f250515983ba51fb4b1f9ee53fcff693
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,31 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 
 ## Adobe Workfront 개선 사항
 
+* [관리자 개선 사항](#administrator-enhancements)
 * [기타 개선 사항](#other-enhancements)
+
+### 관리자 개선 사항
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Workfront 업데이트 피드에서 Adobe Admin Console 사용자 변경 사항을 "시스템"으로 표시</a></p>
+            <p>이제 Adobe Admin Console 관리자가 Workfront 사용자의 사용자 정보를 변경하면 Workfront은 사용자 업데이트 영역의 시스템 활동 탭에 이 변경 내용을 "시스템"에 속하는 것으로 기록합니다. Adobe Admin Console 관리자에게 문의하십시오.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2025년 1월 30일</li>
+                <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 1월 30일</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
 
 ### 기타 개선 사항
 
@@ -61,18 +85,18 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     </tr>
     <!--<tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Look-and-feel updates during the First Quarter 2025 timeframe</a></p>
-            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the First Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
+            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
+            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: Throughout the First Quarter 2025 release timeframe</li>
+                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
                 <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
             </ul>
         </td>
-    </tr>-->                            
+    </tr>-->
 </tbody>
 </table>
 
@@ -86,7 +110,7 @@ The following functionality is soon to be removed from Workfront:
 
 ### 인터페이스 현대화
 
-사용자 경험을 개선하고 다른 Adobe 애플리케이션과 통합하기 위해 Adobe Workfront 전체에서 인터페이스를 업데이트할 예정입니다. 이러한 변경 사항은 표준 릴리스 일정 외에 릴리스됩니다. 이러한 변경 사항에 대한 목록은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+사용자 경험을 개선하고 다른 Adobe 애플리케이션과 통합하기 위해 Adobe Workfront 전체에서 인터페이스를 업데이트할 예정입니다. 이러한 변경 사항은 표준 릴리스 일정 외에 릴리스됩니다. 이러한 변경 사항 목록은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
 
 ### Workfront Fusion 개선 사항
 

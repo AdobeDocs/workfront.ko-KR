@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,42 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 공식 필드에 추가된 함수
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 1월 30일, 모든 고객을 위한 프로덕션 릴리스: 2025년 1월 30일
+
+이제 Workfront 수식 필드에서 ARRAY, ARRAYLENGTH, ARRAYELEMENT 식을 사용할 수 있습니다. 각 표현식의 정의와 예는 공식 편집기에서 사용할 수 있습니다.
+
+자세한 내용은 [수식 필드 개요](/help/quicksilver/planning/fields/formula-fields.md)를 참조하세요.
+
+<!--## Real-time presence indicators in a record's details preview or page
+
+>[!NOTE]
+>
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
+
+The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+## 팀, 작업 역할 및 회사와 Workfront Planning 항목 공유
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 1월 30일, 빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+
+이제 Workfront Planning에서 팀, 작업 역할 및 회사와 보기 및 작업 공간을 공유할 수 있습니다. 이 기능이 향상되기 전에는 사용자 및 그룹과 보기 및 작업 공간을 공유할 수 있었습니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+[보기 공유](/help/quicksilver/planning/access/share-views.md)
+
+[작업 공간 공유](/help/quicksilver/planning/access/share-workspaces.md)
 
 ## 이제 연결 및 사람 필드에 대해 외부 텍스트 복사 및 붙여넣기가 지원됩니다
 
