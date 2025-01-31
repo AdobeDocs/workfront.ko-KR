@@ -7,9 +7,9 @@ description: 데이터 표현식을 사용하여 Adobe Workfront에서 계산된
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
@@ -131,6 +131,13 @@ For example:
 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>ADDHOUR</strong> </td> 
+   <td> <p>날짜에 시간(시) 수를 추가하고 형식은 다음과 같습니다.</p>
+
+<p><code>ADDHOUR(date, number)</code></p>
+   <p>참고: 이 기능은 Workfront Planning에서 지원되지 않습니다.</p></td> 
+  </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
    <td> <p>날짜의 시간 부분을 지우고 형식을 다음과 같이 지정합니다. 이 예에서 날짜는 작업 객체의 입력 날짜입니다.</p>
@@ -378,6 +385,42 @@ For example:
  </thead> 
  <tbody> 
   <tr> 
+   <td><strong>배열</strong> </td> 
+   <td> <p>문자열을 배열로 변환합니다. 구분 기호는 모든 문자열이 될 수 있습니다.</p> 
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYLENGTH</strong> </td> 
+   <td> <p>배열에 있는 요소의 수를 반환하며 형식은 다음과 같습니다.</p>
+   <p><code>ARRAYLENGTH(array)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYELEMENT</strong> </td> 
+   <td> <p>배열에서 지정된 숫자의 요소를 반환합니다. 인덱스가 범위를 벗어나면 빈 을 반환합니다.</p> 
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>배열 요소의 순서를 오름차순으로 정렬하고 첫 번째 요소의 유형으로 변환합니다.</p>
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>예를 들어 ["-12.6", -13.0]은 ["-12.6", "-13"]이 됩니다.</p>
+   <p>참고: 이 기능은 Workfront Planning에서 지원되지 않습니다.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>배열 요소의 순서를 내림차순으로 지정하고 첫 번째 요소의 유형으로 변환합니다.</p>
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>예를 들어 ["-12.6", -13.0]은 ["-13", "-12.6"]이 됩니다.</p>
+   <p>참고: 이 기능은 Workfront Planning에서 지원되지 않습니다.</p></td> 
+  </tr>
+  <tr>   
    <td><strong>사례</strong> </td> 
    <td> <p>색인 번호를 기반으로 목록에서 값을 선택하는 데 다른 표현식과 함께 사용됩니다. </p>
    <p>색인 번호는 숫자 값(일반적으로 알려진 범위)을 반환하는 필드 또는 함수입니다.</p> 
@@ -413,6 +456,13 @@ For example:
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
+  <tr> 
+   <td><strong>형식</strong> </td> 
+   <td><p>서식 있는 텍스트를 반환합니다. 색상 옵션은 $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE이고, 기타 서식 옵션은 $$BOLD, $$ITALIC, $$UNDERLINE입니다. 최대 3개의 다른 서식 옵션과 함께 기능당 하나의 색상 옵션만 사용할 수 있습니다. 색상 옵션을 지정하지 않으면 시스템의 기본 색상이 적용됩니다.</p>
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
+   <p>참고: 이 기능은 Workfront Planning에서 지원되지 않습니다.</p></td> 
+  </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
    <td> <p>지정한 조건을 평가하고 true인 경우 trueExpression의 값을 반환하며, false인 경우 falseExpression의 값을 반환합니다.</p>
@@ -504,18 +554,16 @@ For example:
    <td> <p>숫자를 문자열로 변환하고 형식을 다음과 같이 지정합니다.</p>
 
 <p><code>STRING(number)</code></p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><strong>SORTASCSTRING</strong> </td> 
    <td> <p>문자열 목록을 오름차순으로 정렬하고 형식을 다음과 같이 지정합니다.</p>
-
-<p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
-  </tr> 
+   <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
+  </tr>
   <tr> 
    <td><strong>SORTDESCSTRING</strong> </td> 
    <td> <p> 문자열 목록을 내림차순으로 정렬하고 형식을 다음과 같이 지정합니다.</p>
-
-<p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
+   <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>하위 문자열</strong> </td> 
@@ -523,6 +571,13 @@ For example:
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>전환</strong> </td> 
+   <td> <p>값 목록에 대해 표현식을 평가하고 일치하는 첫 번째 값에 해당하는 결과를 반환합니다.</p>
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
+   <p>이 함수는 Workfront Planning에서 지원되지 않습니다.</p></td> 
+  </tr>   
   <tr> 
    <td><strong>트리밍</strong> </td> 
    <td> <p>문자열의 시작과 끝에서 공백을 제거하고 형식을 다음과 같이 지정합니다.</p>
