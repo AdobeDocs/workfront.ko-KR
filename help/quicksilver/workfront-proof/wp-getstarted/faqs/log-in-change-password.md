@@ -8,9 +8,9 @@ description: Workfront Proof 관리자는 로그인 페이지에 대한 개인�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 로그인 중
 
-1. [로그인 페이지](https://www.proofhq.com/login)(또는 웹 사이트 [www.proofhq.com](https://www.proofhq.com/))로 이동합니다.
+1. [로그인 페이지](https://app.proofhq.com/login)(으)로 이동합니다.
 
 1. 오른쪽 상단의 [!UICONTROL 로그인] 단추를 클릭합니다.
 1. 이메일 주소와 암호를 입력합니다.\
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 암호를 잊은 경우 [!DNL Workfront Proof]에게 이메일을 보내 재설정 메시지를 보낼 수 있습니다.
 
-1. [로그인 페이지](https://www.proofhq.com/login)(또는 웹 사이트 [www.proofhq.com](https://www.proofhq.com/))로 이동합니다.
+1. [로그인 페이지](https://app.proofhq.com/login)(으)로 이동합니다.
 
 1. **[!UICONTROL 암호를 잊으셨습니까?]**&#x200B;를 클릭하십시오.
 1. 표시되는 상자에서 전자 메일 주소를 입력한 다음 **[!UICONTROL 링크 가져오기]**&#x200B;를 클릭합니다.
