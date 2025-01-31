@@ -6,10 +6,10 @@ description: 목표 진행은 활동, 결과 또는 아동 목표와 같은 진�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 0%
+source-wordcount: '827'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 * 새 플랜 및 라이선스 구조의 경우:
 
-   * 궁극적인 플랜
+   * Ultimate 플랜
 
      또는
 
-     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. 자세한 내용은 [Adobe Workfront 계획](https://www.workfront.com/plans)을 참조하세요.
+     Prime 또는 Adobe Workfront 선택 플랜에 대한 Adobe Workfront 목표에 대한 추가 라이센스입니다.
 
 * 현재 플랜 및 라이선스 구조의 경우:
 

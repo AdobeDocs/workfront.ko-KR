@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 8%
+source-wordcount: '621'
+ht-degree: 7%
 
 ---
 
@@ -181,18 +181,16 @@ OLD:
 
 Adobe Workfront Planning 공식 필드는 Workfront 계산된 필드의 대부분의 표현식을 지원합니다.
 
-<!-- make the note available when WF releases the expressions listed in it: 
-
 >[!NOTE]
 >
->The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>다음 Workfront 표현식은 Workfront Planning 공식 필드에서 지원되지 않습니다.
 >
 >* SORTASCARRAY
 >* SORTDESCARRAY
 >* ADDHOUR
->* SWITCH
->* FORMAT
--->
+>* 전환
+>* 형식
+
 
 Workfront 식의 전체 목록을 보려면 [계산된 데이터 식의 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)를 참조하십시오.
 
@@ -211,21 +209,6 @@ Workfront 식의 전체 목록을 보려면 [계산된 데이터 식의 개요](
  </thead> 
  <tbody>
 
-<tr>
-   <td><strong>배열</strong> </td>
-   <td> <p>문자열을 배열로 변환합니다. 구분 기호는 모든 문자열이 될 수 있습니다.</p>
-   <p>표현식의 형식은 다음과 같습니다.</p>
-   <p><code>ARRAY(string1, "delimiter")</code></p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ARRAYELEMENT</strong> </td>
-   <td> <p>배열에서 지정된 숫자의 요소를 반환합니다. 인덱스가 범위를 벗어나면 빈 을 반환합니다.</p>
-   <p>표현식의 형식은 다음과 같습니다.</p>
-   <p><code>ARRAYELEMENT(array, number)</code></p>
-   </td>
-  </tr>
-
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>구분 기호로 연결된 문자열을 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.
@@ -233,14 +216,7 @@ Workfront 식의 전체 목록을 보려면 [계산된 데이터 식의 개요](
 <code>ARRAYJOIN(구분 기호,배열)</code>
 </p>
    </td></tr>
-  <tr>
-   <td><strong>ARRAYLENGTH</strong> </td>
-   <td> <p>배열에 있는 요소의 수를 반환하며 형식은 다음과 같습니다.</p>
-   <p><code>ARRAYLENGTH(array)</code></p>
-   </td>
-  </tr>
-
-<tr> 
+    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>고유한 값이 있는 배열을 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.
 

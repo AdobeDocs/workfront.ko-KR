@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ ht-degree: 0%
 > 
 >* 새 플랜 및 라이선스 구조의 경우:
 >    
->   * 궁극적인 플랜
+>   * Ultimate 플랜
 >        
 >     또는
 >        
->   * Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다.
->       자세한 내용은 [Adobe Workfront 가격 및 패키징](https://www.workfront.com/plans)을 참조하십시오.
+>   * Prime 또는 Adobe Workfront 선택 플랜에 대한 Adobe Workfront 목표에 대한 추가 라이센스입니다.
+>      
 >      
 >* 현재 플랜 및 라이선스 구조의 경우:
 >    

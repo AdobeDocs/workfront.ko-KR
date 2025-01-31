@@ -6,14 +6,13 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
 
-<!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Adobe Workfront Planning 객체 제한 사항 개요
 
@@ -50,7 +49,7 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 
 *작업 영역은 관리하기 어려워질 수 있으며 워크플로우가 너무 많이 조각날 수 있으므로 너무 많이 사용하지 않는 것이 좋습니다.
 
-Workfront Planning 가격 및 패키징에 대한 자세한 내용은 [Adobe Workfront 가격 및 패키징](https://business.adobe.com/products/workfront/pricing.html)을 참조하십시오.
+Workfront Planning 가격 및 패키징에 대한 자세한 내용은 계정 관리자에게 문의하십시오.
 
 <!--
 ****************KEEP THIS COMMENTED OUT:
