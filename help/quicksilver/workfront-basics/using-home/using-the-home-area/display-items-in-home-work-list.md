@@ -6,10 +6,10 @@ description: 각 위젯에는 고유한 작업 목록이 포함되어 있습니�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 6%
+source-wordcount: '991'
+ht-degree: 4%
 
 ---
 
@@ -59,6 +59,40 @@ ht-degree: 6%
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+## 작업 목록에 표시할 작업 항목에 대한 요구 사항
+
+특정 위젯 작업 목록에 작업 항목이 표시되는 기본 제공 요구 사항이 있습니다. 작업 항목이 다음 위젯의 작업 목록에 표시되려면 이 요구 사항을 충족해야 합니다.
+
+### 내 작업 위젯
+
+작업이 내 작업 위젯에 표시되려면 다음 요구 사항을 충족해야 합니다.
+
+* 작업 상태가 완료와 일치하지 않습니다.
+* 로그인한 사용자는 작업에 할당되어야 합니다.
+* 작업 상태가 완료 와 같지 않습니다.
+* 작업이 속한 프로젝트가 현재 상태와 같아야 합니다.
+
+
+### 내 문제 위젯
+
+문제는 내 문제 위젯에 표시되려면 다음 요구 사항을 충족해야 합니다.
+
+* 로그인한 사용자는 문제에 할당되어야 합니다.
+* 문제 상태가 완료와 일치하지 않습니다.
+* 문제에 해결되지 않은 오브젝트가 첨부되어 있지 않습니다.
+* 문제 상태가 완료 와 같지 않습니다.
+* 문제가 속한 프로젝트가 현재 상태와 동일한 상태여야 합니다.
+
+### 내 팀 위젯
+
+팀 요청이 내 팀 위젯에 표시되려면 다음 요구 사항을 충족해야 합니다.
+
+* 로그인한 사용자는 작업 항목이 할당된 팀에 속합니다.
+* 작업 항목 상태가 완료와 일치하지 않습니다.
+* 작업 항목에 미해결 승인 프로세스가 첨부되어 있지 않습니다.
+* 작업 항목이 반복 작업이 아닙니다.
+* 작업 항목이 속한 프로젝트의 상태는 현재와 동일해야 합니다.
 
 ## 작업 필터링
 

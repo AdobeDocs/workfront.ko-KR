@@ -8,7 +8,7 @@ description: Workfront Proof 관리자는 로그인 페이지에 대한 개인�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
+source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -22,6 +22,7 @@ ht-degree: 0%
 >이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
 ## 로그인 중
+
 
 1. [로그인 페이지](https://app.proofhq.com/login)(으)로 이동합니다.
 
@@ -45,6 +46,7 @@ ht-degree: 0%
 ## 암호를 잊은 경우 {#when-you-forget-your-password}
 
 암호를 잊은 경우 [!DNL Workfront Proof]에게 이메일을 보내 재설정 메시지를 보낼 수 있습니다.
+
 
 1. [로그인 페이지](https://app.proofhq.com/login)(으)로 이동합니다.
 
