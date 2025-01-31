@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: a7166f04f5916aebc07d5a5f73fa4f1f74b7a4a8
+source-git-commit: af7cca08b80dff1baa9a2d9dad421920db008981
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,10 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 
 ## Adobe Workfront 개선 사항
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [관리자 개선 사항](#administrator-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
-<!--### Administrator enhancements
+### 관리자 개선 사항
 
 <table>
 <col style="width: 50%;" />
@@ -48,19 +48,19 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
-            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
+            계산된 사용자 정의 필드에 표현식이 추가됨</a></p>
+            <p>이제 Workfront 계산된 사용자 정의 필드에는 ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT 및 ADDHOUR 표현식을 사용할 수 있습니다. 각 표현식의 정의와 예는 계산 편집기 및 Experience League에서 사용할 수 있습니다.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
-                <li>Preview release: January 30, 2025</li>
-                <li><span class="preview">Production release for all customers: January 30, 2025</span></li>
+                <li>미리보기 릴리스: 2025년 1월 31일</li>
+                <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 1월 31일</span></li>
             </ul>
         </td>
     </tr>                          
 </tbody>
-</table>-->
+</table>
 
 ### 기타 개선 사항
 
