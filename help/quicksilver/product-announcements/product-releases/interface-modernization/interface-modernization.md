@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
+source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,17 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 이 업데이트에는 영역에 대한 시각적 변경 사항이 포함됩니다. 변경된 기능이 없습니다.
 
 ## 애자일
+
+## 팀 > 백로그 영역에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 1월 23일, 프로덕션 릴리스: 2025년 2월 13일 주에 시작**
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 팀 > 백로그 영역을 업데이트했습니다.
+
+이 업데이트에는 다음 변경 사항이 포함됩니다.
+
+* [스토리] 및 [문제] 탭과 [스토리 분류] 대화 상자에 대한 시각적 개선 사항
+* 계획 이터레이션 도구에 대한 새 대화상자
 
 ### 반복 목록에 대한 인터페이스 업데이트
 

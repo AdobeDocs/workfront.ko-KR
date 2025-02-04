@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 31d8528c5e6d31e59492f869a426dc0a5d484edb
+source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -83,20 +83,20 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
             </ul>
         </td>
     </tr>
-    <tr>
+    <!--<tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            2025년 2분기 동안의 룩앤필 업데이트</a></p>
-            <p>2025년 2분기 내에 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트가 이루어지고 있습니다. 특정 릴리스 날짜는 개별 릴리스 정보를 검토하십시오.</p>
+            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
+            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
         </td>
         <td>
-            <p><b>다음 날짜에 사용 가능:</b></p>
+            <p><b>Available on these dates:</b></p>
             <ul>
-                <li>미리보기 릴리스: 2025년 2분기 릴리스 일정 전체</li>
-                <li><span class="preview">프로덕션 릴리스: 특정 날짜에 대한 릴리스 정보 검토</span></li>
+                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
+                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
             </ul>
         </td>
-    </tr>
+    </tr>-->
 </tbody>
 </table>
 
