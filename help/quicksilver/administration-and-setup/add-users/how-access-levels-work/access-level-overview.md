@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: be7377a0c4d933823f65ed09d2b1fc091779f252
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1741'
 ht-degree: 5%
 
 ---
@@ -117,7 +117,6 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 * 대시보드 및 보고서 보기
 * 시간 추적 및 타임시트 승인
 * 문제 만들기 및 관리
-* 작업에 대한 업데이트
 
 액세스 수준이 낮은 사용자:
 
