@@ -6,9 +6,9 @@ description: 반복은 작업 용량 계획에서 스크럼 애자일 팀의 주
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,19 @@ ht-degree: 0%
 
 ## 반복 추가
 
-[!UICONTROL 반복 추가] 기능을 사용하여 신속하게 반복을 만들고 나중에 작업 및 문제를 추가할 수 있습니다.
+목록에 반복을 추가하여 반복을 신속하게 만들고 작업 및 문제를 나중에 추가할 수 있습니다.
 
 {{step1-to-team}}
 
 1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 스크럼 팀을 선택하거나 검색 창에서 팀을 검색합니다.
 
-1. **[!UICONTROL 반복]** 탭에서 **[!UICONTROL 반복 추가]**를 클릭합니다.
-   ![](assets/add-iteration-adobe-350x275.png)
+1. **[!UICONTROL 반복]** 탭에서 **[!UICONTROL 반복 추가]**&#x200B;를 클릭합니다.
+
+   ![반복 추가를 클릭합니다](assets/click-add-iteration.png)
 
 1. 다음을 지정합니다.
 
-   <table style="table-layout:auto"> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -90,7 +91,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. **[!UICONTROL 제출]**&#x200B;을 클릭합니다. 반복을 만들었으므로 이제 스토리를 추가해야 합니다. 자세한 내용은 [기존 반복에 스토리 추가](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)를 참조하십시오.
+1. **[!UICONTROL 반복 추가]**&#x200B;를 클릭합니다. 반복을 만들었으므로 이제 스토리를 추가해야 합니다. 자세한 내용은 [기존 반복에 스토리 추가](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)를 참조하십시오.
 
 ## [!UICONTROL 백로그] 탭에서 반복을 계획합니다
 

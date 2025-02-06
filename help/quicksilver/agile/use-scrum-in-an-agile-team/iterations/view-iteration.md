@@ -6,7 +6,7 @@ description: 주어진 팀에 대한 모든 이터레이션을 보거나 개별 
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL 반복]**&#x200B;을 선택하여 특정 반복을 선택하거나 **[!UICONTROL 현재 반복]**&#x200B;을 선택합니다.
 
-   ![반복 목록](assets/view-iteration-NWE.png)
+   ![반복 목록](assets/view-iteration-list.png)
 
    >[!NOTE]
    >

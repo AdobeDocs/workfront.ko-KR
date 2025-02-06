@@ -6,9 +6,9 @@ description: 더 이상 필요하지 않은 경우 애자일 팀에 대한 반�
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '165'
 ht-degree: 1%
 
 ---
@@ -57,4 +57,4 @@ ht-degree: 1%
 1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 스크럼 팀을 선택하거나 검색 창에서 팀을 검색합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL 반복]**&#x200B;을 선택합니다.
-1. 삭제할 반복을 선택한 다음 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
+1. 삭제할 반복을 선택한 다음 [!UICONTROL **삭제**] 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭합니다.
