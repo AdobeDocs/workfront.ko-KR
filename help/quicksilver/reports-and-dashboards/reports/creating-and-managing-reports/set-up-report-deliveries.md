@@ -6,7 +6,7 @@ description: 보고서 게재 개요
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 0%
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 Workfront에 보고서가 표시되는 방식과 수동 내보내기, 제공된 보고서 또는 API를 통해 내보내는 방식에 영향을 주는 몇 가지 크기 제한이 있습니다.
 
-* **5MB 파일 크기:** 배달 예약된 내보낸 보고서에 대한 파일 크기 제한입니다. 이메일에 첨부된 내보낸 파일이 5MB보다 큰 경우 첨부된 내보낸 보고서 대신 파일을 다운로드할 수 있는 링크가 이메일로 전송됩니다.
+* **10MB 파일 크기:** 배달 예약된 내보낸 보고서에 대한 파일 크기 제한입니다. 이메일에 첨부된 내보낸 파일이 5MB보다 큰 경우 첨부된 내보낸 보고서 대신 파일을 다운로드할 수 있는 링크가 이메일로 전송됩니다.
 
   >[!NOTE]
   >
-  >5MB가 넘는 Excel .xlsx 파일은 이메일을 생성하지 않습니다. 보고서를 수동으로 이 형식으로 내보낼 수 있습니다. 보고서 내보내기에 대한 자세한 내용은 [데이터 내보내기](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)를 참조하십시오.
+  >10MB가 넘는 Excel .xlsx 파일은 이메일을 생성하지 않습니다. 보고서를 수동으로 이 형식으로 내보낼 수 있습니다. 보고서 내보내기에 대한 자세한 내용은 [데이터 내보내기](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)를 참조하십시오.
 
 * **50,000개 행:** .pdf 및 탭으로 구분된 파일에 대한 보고서 내보내기에 허용되는 데이터 행 수입니다.
 
