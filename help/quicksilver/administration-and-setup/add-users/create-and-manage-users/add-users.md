@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1130'
 ht-degree: 1%
 
 ---
@@ -151,7 +151,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 {{step-1-to-users}}
 
-1. 복사할 사용자를 선택한 다음 복사 아이콘 ![](assets/copy-icon.png)을(를) 클릭합니다.
+1. 복사할 사용자를 선택한 다음 복사 아이콘 ![복사 아이콘](assets/copy-icon.png)을 클릭합니다.
 1. 표시되는 **사용자 복사** 상자에서 새 사용자가 사용할 수 있는 필드를 편집합니다.
 
    사용자와 관련된 모든 필드에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.

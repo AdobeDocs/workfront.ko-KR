@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '876'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Adobe Workfront 관리자는 각 사용자가 보유해야 하는 액세스 수�
 또한 다른 사용자가 개별 객체에 대해 특정 권한을 공유하고 부여할 때 사용자는 해당 객체에 액세스할 수 있습니다.
 
 
-![](assets/security-model-hierachy.png)
+![보안 모델 계층 구조](assets/security-model-hierachy.png)
 
 예를 들어, 액세스 수준에 작업을 만들 수 있다고 되어 있지만 특정 프로젝트에서 받은 권한으로 인해 작업을 추가할 수 없는 경우 Workfront의 다른 곳에서 작업을 만들 수는 있어도 프로젝트에 작업을 추가할 수 없습니다.
 

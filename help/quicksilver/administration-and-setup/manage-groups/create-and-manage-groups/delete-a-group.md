@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
@@ -58,9 +58,9 @@ ht-degree: 2%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭합니다.
 
-1. 삭제할 그룹을 선택한 다음 삭제 아이콘 ![](assets/delete.png)을(를) 클릭합니다.
+1. 삭제할 그룹을 선택한 다음 삭제 아이콘 ![삭제](assets/delete.png)를 클릭합니다.
 
    >[!IMPORTANT]
    >
@@ -68,6 +68,6 @@ ht-degree: 2%
 
 1. 표시되는 **그룹 삭제** 상자에서 입력을 시작한 다음 삭제할 그룹의 구성원, 작업 항목 및 하위 그룹을 이동할 그룹 이름을 선택합니다.
 
-   마우스로 가리키고 그 옆에 표시되는 정보 아이콘 ![](assets/info-icon.png)을(를) 클릭하여 올바른 그룹을 선택하고 있는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.
+   마우스로 가리키고 그 옆에 표시되는 정보 아이콘 ![정보 아이콘](assets/info-icon.png)을 클릭하여 올바른 그룹을 선택했는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.
 
 1. **삭제**&#x200B;를 클릭합니다.

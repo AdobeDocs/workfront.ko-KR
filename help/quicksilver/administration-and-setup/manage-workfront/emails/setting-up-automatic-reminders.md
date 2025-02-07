@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -99,7 +99,7 @@ Adobe Workfront 관리자는 모든 작업 또는 문제가 기한이 지났거�
 
    예를 들어 작업이 금요일에 할당되고 기간이 3일인 경우, 작업 완료 날짜가 월요일로 설정됩니다(토요일과 일요일이 주말이라고 가정). 작업의 기간이 3일(경과되지 않음)인 경우 작업 완료 날짜가 수요일로 설정됩니다.
 
-   ![](assets/time-increments-for-automatic-reminder.png)
+   ![시간 증가](assets/time-increments-for-automatic-reminder.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 

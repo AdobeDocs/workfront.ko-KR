@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 12%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 12%
 
 예를 들어 프로젝트의 사용자가 프로젝트에 대한 마케팅 콘텐츠를 요청할 수 있도록 &quot;마케팅 콘텐츠 리서치&quot;라는 사용자 정의 양식을 프로젝트에 첨부할 수 있습니다.
 
-![](assets/see-image-details-page.png)
+![세부 정보 페이지](assets/see-image-details-page.png)
 
 ## 사용자 정의 양식을 만드는 방법
 
@@ -77,7 +77,7 @@ Workfront에서 다음 유형의 사용자 정의 필드를 사용자 정의 양
 * 문서
 * 사용자
 * 프로그램
-* Portfolio
+* 포트폴리오
 * 경비
 * 그룹
 * 반복

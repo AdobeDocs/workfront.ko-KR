@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2695'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 1%
 1. 왼쪽 패널에서 **[!UICONTROL 프로젝트 환경 설정]** > **[!UICONTROL 프로젝트]**&#x200B;을 클릭합니다.
 
 1. **프로젝트 환경 설정** 페이지에서 아래 나열된 4개 섹션 중 하나를 계속하여 [!UICONTROL 프로젝트 상태], [!UICONTROL 타임라인], [!UICONTROL 비즈니스 사례] 및 [!UICONTROL 사망 후 생활]에 대한 환경 설정을 구성합니다.
-1. 조직 전체의 모든 그룹에서 동일한 프로젝트 환경 설정을 사용하도록 하려면 각 환경 설정이 ![](assets/lock-toggle-button.png)(기본값)으로 잠겨 있는지 확인하십시오.
+1. 조직 전체의 모든 그룹에서 동일한 프로젝트 환경 설정을 사용하도록 하려면 각 환경 설정이 잠겨 있는지 확인하십시오. ![잠금 전환](assets/lock-toggle-button.png)(기본값).
 
    >[!IMPORTANT]
    >

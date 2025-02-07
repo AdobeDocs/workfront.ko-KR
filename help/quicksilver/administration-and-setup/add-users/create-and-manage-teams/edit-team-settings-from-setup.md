@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '598'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ Adobe Workfront 관리자는 설정 영역에서 팀 설정을 편집할 수 있
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **팀**&#x200B;을 클릭합니다.
-1. 팀을 선택한 다음 **편집** ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 팀을 선택한 다음 **편집** ![편집 아이콘](assets/edit-icon.png)을 클릭하세요.
 
 1. 다음 중 하나를 변경합니다.
 

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 블루프린트는 Workfront의 일반적인 사용 사례를 처리하는 Workfront 개체 세트입니다. 블루프린트를 다운로드하여 설치한 다음 특정 사용 사례에 맞게 개체를 구성할 수 있습니다.
 
-![](assets/blueprints-main-page-catalog.png)
+![기본 페이지 블루프린트](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >

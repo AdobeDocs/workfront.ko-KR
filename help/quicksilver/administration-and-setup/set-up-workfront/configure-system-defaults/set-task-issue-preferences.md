@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 1. 다음 중 하나를 수행합니다.
 
-   * 그룹 아래의 그룹 관리자가 해당 그룹에 대한 환경 설정을 구성할 수 있도록 하려면 ![](assets/unlock-toggle-button.png) 잠금을 해제하세요.
+   * 그룹 아래의 그룹 관리자가 그룹의 환경 설정을 구성할 수 있도록 하려면 ![잠금 해제 토글](assets/unlock-toggle-button.png)을 잠금 해제하세요.
    * 그룹 및 그 아래의 모든 그룹이 환경 설정에 대한 구성을 사용하도록 하려면 해당 그룹이 잠겨 있는지 확인합니다(기본값).
 
      >[!IMPORTANT]

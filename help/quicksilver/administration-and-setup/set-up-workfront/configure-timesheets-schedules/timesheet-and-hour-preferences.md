@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. (선택 사항) **시스템 타임시트 및 시간 환경 설정** 검색 상자에서 그룹 이름을 입력한 다음 목록에 표시될 때 선택합니다.
 
-   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![그룹 상자 검색](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    타임시트 및 시간 환경 설정 페이지가 선택한 그룹에 대한 환경 설정으로 업데이트됩니다. 그룹 수준 환경 설정을 수정하려면 시스템 수준 환경 설정 잠금을 해제해야 합니다. 자세한 내용은 이 문서의 [그룹에 대한 타임시트 및 시간 환경 설정 잠금 해제](#unlock-timesheet-and-hour-preferences-for-groups) 섹션을 참조하십시오.
 
@@ -212,8 +212,8 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행합니다.
 
-   * 그룹 관리자가 그룹에 대한 환경 설정을 구성할 수 있도록 하려면 **잠금 해제** 토글 ![](assets/unlock-toggle-button.png)을(를) 클릭하여 잠금 해제합니다.
-   * 모든 그룹에서 환경 설정에 대한 구성을 사용하도록 하려면 토글이 ![](assets/locked-preference-toggle.png)(기본값)으로 잠겨 있는지 확인하십시오.
+   * 그룹 관리자가 그룹에 대한 환경 설정을 구성할 수 있도록 하려면 **잠금 해제** 토글 ![잠금 해제 토글](assets/unlock-toggle-button.png)을 클릭하여 잠금 해제합니다.
+   * 모든 그룹에서 환경 설정에 대한 구성을 사용하도록 하려면 전환이 잠겨 있는지 ![잠긴 환경 설정 전환](assets/locked-preference-toggle.png)(기본값)인지 확인하십시오.
 
      >[!IMPORTANT]
      >

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Workfront 관리자가 시스템의 모든 그룹에 대한 환경 설정을 잠
 
 1. 표시되는 페이지에서 시스템 수준에서 잠금 해제된 환경 설정 또는 그룹 위의 그룹에 대해 다음 중 하나를 수행합니다.
 
-   * 그룹 아래의 그룹 관리자가 해당 그룹에 대한 환경 설정을 구성할 수 있도록 하려면 ![](assets/unlock-toggle-button.png) 잠금을 해제하세요.
-   * 아래의 모든 그룹이 환경 설정에 대한 구성을 사용하도록 하려면 ![](assets/lock-toggle-button.png)이(가) 잠겨 있는지 확인하십시오.
+   * 그룹 아래의 그룹 관리자가 그룹의 환경 설정을 구성할 수 있도록 하려면 ![잠금 해제 토글](assets/unlock-toggle-button.png)을 잠금 해제하세요.
+   * 아래의 모든 그룹이 환경 설정에 대한 구성을 사용하도록 하려면 ![잠금 전환](assets/lock-toggle-button.png)이 잠겨 있는지 확인하세요.
 
      >[!IMPORTANT]
      >

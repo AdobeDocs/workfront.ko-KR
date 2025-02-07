@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Workfront 관리자 또는 Standard 또는 Plan 라이선스 사용자를 비활
 
 {{step-1-to-users}}
 
-1. 사용자를 선택하고 **자세히** 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.
+1. 사용자를 선택하고 **자세히** 아이콘 ![추가 아이콘](assets/more-icon.png)을 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.
 
 1. 표시되는 상자에서 **비활성화**&#x200B;를 클릭합니다.
 
@@ -118,7 +118,7 @@ Workfront 관리자 및 플랜 라이선스 사용자는 사용자 프로필에�
 
    (선택 사항) 여러 사용자를 선택하여 일괄 비활성화 일정을 예약합니다.
 
-1. 편집 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 편집 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. 표시되는 사용자 편집 상자에서 해당 영역으로 이동하려면 **리소스 계획**&#x200B;을 클릭합니다.
 1. **비활성화 예약** 옵션을 사용하도록 설정합니다.
 
@@ -139,7 +139,7 @@ Workfront 관리자 및 플랜 라이선스 사용자는 사용자 프로필에�
 
 {{step-1-to-users}}
 
-1. 사용자를 선택하고 기타 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **활성화**&#x200B;를 클릭합니다.
+1. 사용자를 선택하고 기타 아이콘 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **활성화**&#x200B;를 클릭합니다.
 
 1. 드롭다운 메뉴에서 새 **액세스 수준**&#x200B;을 지정한 다음 **다시 활성화**&#x200B;를 클릭합니다.
 <!--

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1330'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ Workfront 관리자 이외의 역할의 사용자에 대한 API 키를 생성하
    1. **시스템**&#x200B;을 확장한 다음 **SSO(Single Sign-On)**&#x200B;을 클릭합니다.
    1. **유형** 필드에서 조직에서 사용하는 SSO 유형을 선택합니다.
    1. 유형을 선택한 상태에서 아래로 스크롤하여 **활성화** 확인란의 선택을 취소합니다.
-      ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+      ![SSO 사용](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. **저장**&#x200B;을 클릭합니다.
 
 
@@ -187,7 +187,7 @@ Workfront 시스템과 관련된 특정 보안 침해가 우려되는 경우 모
 
 인증 기관에서 X.509 인증서를 얻은 후에는 Workfront에 업로드해야 합니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **설정** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
 1. **시스템**&#x200B;을 확장한 다음 **고객 정보**&#x200B;를 클릭합니다.
 

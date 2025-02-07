@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "오류 메시지: SAML 2.0 오류: 기본 StatusCode"
+title: '오류 메시지: SAML 2.0 오류: 기본 StatusCode'
 description: ADFS에 성공적으로 연결할 수 없습니다.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
@@ -70,8 +70,8 @@ ADFS에 성공적으로 연결할 수 없습니다.
 1. 왼쪽 창에서 **[!UICONTROL 트러스트 관계]** > **[!UICONTROL 신뢰 당사자 트러스트]**&#x200B;를 선택합니다.
 
 1. [!DNL Adobe Workfront]과(와) 관련된 신뢰 당사자 트러스트를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 속성]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 고급]** 탭을 클릭한 다음 **[!UICONTROL 보안 해시 알고리즘]** 드롭다운 메뉴에서 **[!UICONTROL SHA-1]**&#x200B;을(를) 선택합니다.\
-   ![](assets/1-350x287.png)
+1. **[!UICONTROL 고급]** 탭을 클릭한 다음 **[!UICONTROL 보안 해시 알고리즘]** 드롭다운 메뉴에서 **[!UICONTROL SHA-1]**을(를) 선택합니다.
+   ![SHA-1](assets/1-350x287.png)
 
 ## 원인 2: ADFS 서명 인증서가 곧 만료되며 날짜가 겹치는 새 인증서로 대체되었습니다.
 

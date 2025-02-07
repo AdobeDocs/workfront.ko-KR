@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 1%
 1. 비활성화할 작업 역할의 이름을 클릭합니다.
 1. **[!UICONTROL 활성 상태임]** 드롭다운 메뉴에서 **[!UICONTROL 아니요]**&#x200B;를 선택합니다.
 
-   ![](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![작업 역할 비활성화](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 

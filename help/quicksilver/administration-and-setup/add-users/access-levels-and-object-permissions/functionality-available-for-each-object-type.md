@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1956'
 ht-degree: 10%
 
 ---
@@ -546,7 +546,7 @@ ht-degree: 10%
 | 계획 및 이니셔티브에 대한 작업 역할 정보 추가 또는 편집&#42; | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |   |
 | 계획 및 이니셔티브에 대한 비용 정보 추가 또는 편집&#42; | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |   |
 | 계획 및 이니셔티브 삭제 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |   |
-| 메인 메뉴 ![](assets/esp-icon-in-main-menu.png)에서 시나리오 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 | |   |
+| 메인 메뉴 ![시나리오 플래너 아이콘](assets/esp-icon-in-main-menu.png)에서 시나리오 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 | |   |
 | 사용자가 만든 계획 및 이니셔티브 보기&#42; | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |   |
 
 {style="table-layout:auto"}

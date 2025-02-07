@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 4%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 고정된 페이지 사용자 지정
 
-레이아웃 템플릿에서 사용자가 Adobe Workfront의 맨 위에서 항상 사용할 수 있도록 하려는 페이지를 고정할 수 있습니다. 기본 메뉴 ![](assets/main-menu-icon.png) 또는 사용 가능한 경우 기본 메뉴 ![](assets/lines-main-menu.png)을(를) 통해 액세스하는 페이지나 대시보드일 수 있습니다.
+레이아웃 템플릿에서 사용자가 Adobe Workfront의 맨 위에서 항상 사용할 수 있도록 하려는 페이지를 고정할 수 있습니다. 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png) 또는 사용 가능한 경우 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 통해 액세스하는 페이지나 대시보드일 수 있습니다.
 
 사용자가 직접 추가한 핀은 레이아웃 템플릿에 추가한 핀 오른쪽에 표시됩니다.
 

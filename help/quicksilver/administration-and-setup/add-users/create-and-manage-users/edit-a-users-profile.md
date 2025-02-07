@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 532a7badf236d0d9568bc6c632b7badf3576cce3
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3275'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
 
 {{step-1-to-users}}
 
-1. 사용자를 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 사용자를 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
    사용자 편집 상자가 표시됩니다.
 

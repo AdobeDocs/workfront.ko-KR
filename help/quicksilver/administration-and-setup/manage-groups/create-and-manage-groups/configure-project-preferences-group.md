@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2767'
 ht-degree: 2%
 
 ---
@@ -80,7 +80,7 @@ Workfront 관리자가 프로젝트 환경 설정을 잠금 해제하는 방법�
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **그룹** ![그룹 아이콘](assets/groups-icon.png)을 클릭합니다.
 
 1. 프로젝트 환경 설정을 구성할 그룹의 이름을 클릭합니다.
 1. 왼쪽 패널에서 **프로젝트 환경 설정**&#x200B;을 클릭합니다.

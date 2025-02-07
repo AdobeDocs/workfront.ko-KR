@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Adobe Workfront이 SAML 2.0 인증서를 업데이트하기 전 또는 그 후�
 1. 이전에 Workfront에서 사용하도록 구성한 신뢰 당사자 트러스트를 선택한 다음 오른쪽 패널에서 **페더레이션 메타데이터에서 업데이트**&#x200B;를 클릭합니다.
 1. (조건부) 이 옵션이 흐리게 표시되면(신뢰 당사자 트러스트가 이전에 메타데이터 파일을 사용하여 구성되었음을 의미함) 다음 단계를 완료합니다.
 
-   1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+   1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **설정** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
    1. **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
 

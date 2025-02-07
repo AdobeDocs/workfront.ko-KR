@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '961'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,13 @@ Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자
 
 1. (조건부) 시스템 전체에서 사용할 상태를 만들거나 편집하는 경우 오른쪽 상단의 상자에서 **시스템 상태**&#x200B;가 선택되어 있는지 확인하십시오.
 
-   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![시스템 상태](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    또는
 
    그룹 또는 하위 그룹의 상태일 경우 오른쪽 상단 모서리에 그룹 이름을 입력한 다음 표시될 때 선택합니다.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![그룹에 대한 시스템 상태](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. 상태와 연결할 개체 유형(**프로젝트**, **작업** 또는 **문제**)의 탭을 선택하십시오.
 
@@ -88,7 +88,7 @@ Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자
 
    기존 상태를 편집하는 경우 해당 상태를 마우스로 가리킨 다음 맨 오른쪽에 표시되는 **편집** 아이콘을 클릭합니다.
 
-   ![](assets/custom-status-edit.png)
+   ![사용자 지정 상태 편집](assets/custom-status-edit.png)
 
 1. 다음 옵션을 사용하여 상태를 구성합니다.
 

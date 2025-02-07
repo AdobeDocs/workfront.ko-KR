@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Some users, such as executives, need to be able to control which administrators 
    >
    >* 그룹 관리자인 경우 관리하는 그룹의 사용자로만 로그인할 수 있습니다. 또한 액세스 수준에서 사용자 관리(그룹 사용자) 권한을 활성화해야 합니다.
    >   
-   >  ![](assets/group-admin-user.png)
+   >  ![그룹 관리자](assets/group-admin-user.png)
    >   
    >  이 설정은 기본적으로 비활성화되어 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
    >   
@@ -153,7 +153,7 @@ Workfront은 관리자가 다른 사용자로 로그인하는 동안 발생하�
 ### 감사 정보 보기 {#view-audit-information}
 
 1. Workfront에 Workfront 관리자 또는 그룹 관리자로 로그인합니다.
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **설정** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
 1. **다음으로 로그인,**&#x200B;을 클릭한 다음 **액세스 로그** 탭을 클릭합니다.
 

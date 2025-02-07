@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1955'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Adobe Workfront 관리자이거나 승인 프로세스에 대한 관리 액세�
 
    그룹 수준 승인 프로세스를 편집하는 경우 다음을 수행합니다.
 
-   1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
+   1. 왼쪽 패널에서 **그룹** ![그룹 아이콘](assets/groups-icon.png)을 클릭합니다.
    1. 그룹 승인 프로세스를 나열하거나 관리할 그룹의 이름을 클릭합니다.
    1. 왼쪽 패널에서 **승인**&#x200B;을 클릭합니다. 먼저 **자세히 표시**&#x200B;를 클릭해야 할 수 있습니다.
 
@@ -80,7 +80,7 @@ Adobe Workfront 관리자이거나 승인 프로세스에 대한 관리 액세�
 
 1. 편집할 승인 프로세스를 선택한 다음 목록의 맨 위에서 **편집**&#x200B;을 클릭합니다. 승인 프로세스 편집 상자가 표시됩니다.
 
-   ![](assets/edit-approval-process-global-area-new.png)
+   ![승인 프로세스 편집](assets/edit-approval-process-global-area-new.png)
 
 1. 표시되는 상자에 다음 정보를 지정합니다.
 

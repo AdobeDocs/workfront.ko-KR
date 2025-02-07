@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ ht-degree: 0%
 
 사용자 지정 상태가 문제 상태인 경우 네 가지 문제 유형(버그 보고서, 순서 변경, 문제 및 요청)을 모두 활성화해야 합니다. 예를 들어 아래에 표시된 문제 상태에서 주문 변경 문제 유형이 선택되지 않았으므로 다시 열림 상태를 기본 상태로 사용할 수 없습니다.
 
-![](assets/all-4-issue-types-enabled.png)
+![모든 문제 유형 사용](assets/all-4-issue-types-enabled.png)
 
 ## 사용자 지정 상태를 그룹의 기본 상태로 설정
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭한 다음 상태를 만들거나 사용자 지정할 그룹의 이름을 클릭합니다.
-1. 왼쪽 패널에서 **상태** ![](assets/gear-icon-settings.png)를 클릭합니다.
+1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭한 다음 상태를 만들거나 사용자 지정할 그룹의 이름을 클릭합니다.
+1. 왼쪽 패널에서 **상태** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 1. 기본 상태로 설정할 상태 유형에 따라 **프로젝트**, **작업** 또는 **문제** 탭을 엽니다.
 1. 오른쪽 상단 근처에 있는 **기본 상태 설정**&#x200B;을 클릭합니다.
 1. 표시되는 드롭다운 영역에서 기본 상태를 설정할 상태 옆에 설정할 기본 상태를 선택합니다.
@@ -90,7 +90,7 @@ ht-degree: 0%
    >프로젝트를 다른 그룹에 할당하면 프로젝트 상태가 다시 로드되고 변경될 수 있습니다.
 
    1. 사용자 지정 상태를 사용할 프로젝트로 이동합니다.
-   1. 기타 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+   1. 기타 메뉴 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
    1. **프로젝트 연결** 아래의 **그룹** 필드에 표시되는 **프로젝트 편집** 상자에서 사용자 지정 상태와 연결된 그룹을 선택합니다.
 
    1. **변경 내용 저장**&#x200B;을 클릭합니다.
@@ -109,4 +109,4 @@ Workfront 관리자가 사용자 지정 상태를 기본 상태로 구성한 후
 
 해당 형식의 사용 가능한 상태가 없으면 상태 형식은 **숨김**&#x200B;으로 표시되며 작업 항목에 사용할 수 없습니다.
 
-![](assets/when-hide-default-status-no-equivalent.png)
+![사용 가능한 상태 없음](assets/when-hide-default-status-no-equivalent.png)

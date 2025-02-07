@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1344'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Workfront 관리자가 상태 잠금을 해제한 경우 관리하는 그룹의 
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭합니다.
 
 1. 상태를 만들거나 사용자 지정할 그룹의 이름을 클릭합니다.
 1. 왼쪽 패널에서 **상태**&#x200B;를 클릭합니다.
@@ -87,7 +87,7 @@ Workfront 관리자가 상태 잠금을 해제한 경우 관리하는 그룹의 
 
 1. (조건부) 상태가 문제 상태인 경우 **기본 목록**&#x200B;을(를) 선택했는지 확인하십시오.
 
-   ![](assets/master-list.png)
+   ![기본 목록](assets/master-list.png)
 
    다른 문제 유형(버그 보고서, 순서 변경, 문제, 요청) 사용자 지정에 대한 자세한 내용은 [기본 문제 유형 사용자 지정](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)을 참조하십시오.
 
@@ -97,7 +97,7 @@ Workfront 관리자가 상태 잠금을 해제한 경우 관리하는 그룹의 
 
    기존 상태를 편집하려면 편집할 상태를 마우스로 가리킨 다음 맨 오른쪽에 표시되는 **편집** 옵션을 클릭합니다.
 
-   ![](assets/group-statuses-edit.jpg)
+   ![그룹 상태](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >다음 경우에만 그룹의 상태를 편집할 수 있습니다.
@@ -173,11 +173,11 @@ Workfront 관리자인 경우 시스템 전체 상태를 만든 다음 필요하
 1. 오른쪽 위 모서리의 상자에서 **시스템 상태**&#x200B;를 삭제하고 상태를 숨기려는 그룹의 이름을 입력한 다음 표시될 때 이름을 클릭합니다.
 1. 그룹에서 숨길 상태를 마우스로 가리킨 다음 표시될 때 **편집**&#x200B;을 클릭합니다.
 
-   ![](assets/hover-click-edit.jpg)
+   ![상태 편집](assets/hover-click-edit.jpg)
 
 1. 표시되는 **상태 숨기기** 옵션을 활성화하십시오.
 
-   ![](assets/hide-group-status.png)
+   ![상태 숨기기](assets/hide-group-status.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 

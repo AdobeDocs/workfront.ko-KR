@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Adobe Workfront 관리자는 2가지 용도로 사용자에게 액세스 수준�
 
 External은 주로 Workfront을 사용하지 않는 공동 작업자와 문서를 공유하기 위해 고안된 미지급 라이선스입니다.
 
-![](assets/access-levels-and-licenses-old.png)
+![기존 액세스 수준 및 라이선스](assets/access-levels-and-licenses-old.png)
 
 액세스 수준과 관련된 항목에 대한 자세한 내용은 다음 문서를 참조하십시오.
 

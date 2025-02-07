@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭합니다.
 
    표시되는 목록에서 관리하는 그룹과 포함된 하위 그룹을 볼 수 있습니다. Adobe Workfront 관리자는 모든 그룹을 볼 수 있습니다.
 
@@ -153,9 +153,9 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭합니다.
 
-1. 최상위 그룹을 만들 그룹의 상위 그룹을 선택한 다음 [편집] 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 최상위 그룹을 만들 그룹의 상위 그룹을 선택한 다음 편집 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. **그룹 구성원 및 그룹 관리자** 아래에 나타나는 **그룹 편집** 상자에서 최상위 그룹을 만들 하위 그룹의 이름을 입력한 다음 표시될 때 이름 오른쪽에 있는 X를 클릭합니다.
 1. **저장**&#x200B;을 클릭합니다.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **[!UICONTROL 회사]** ![](assets/companies-icon-left-panel.png)를 클릭합니다.
+1. 왼쪽 패널에서 **[!UICONTROL 회사]** ![회사 아이콘](assets/companies-icon-left-panel.png)을 클릭합니다.
 
 1. 비활성화하거나 다시 활성화할 회사를 하나 이상 선택하십시오.
 1. **[!UICONTROL 편집]**&#x200B;을 클릭합니다.

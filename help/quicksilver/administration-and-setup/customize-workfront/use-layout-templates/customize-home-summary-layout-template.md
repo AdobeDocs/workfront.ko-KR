@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '770'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
 
-1. **사용자에게 표시되는 항목 사용자 지정** 아래의 아래쪽 화살표 ![](assets/dropdown-arrow.png)을(를) 클릭한 다음 **요약 패널**&#x200B;을(를) 클릭합니다.
+1. **사용자에게 표시되는 항목 사용자 지정**&#x200B;에서 아래쪽 화살표 ![아래쪽 화살표](assets/dropdown-arrow.png)를 클릭한 다음 **요약 패널**&#x200B;을 클릭합니다.
 
 1. 아래에 표시되는 목록에서 요약 패널을 사용자 지정할 객체 유형을 클릭합니다.
 
@@ -132,15 +132,15 @@ ht-degree: 2%
 
 1. (조건부) 이전 단계에서 작업 또는 문제를 클릭한 경우 사용자 지정할 작업 또는 문제의 범주를 선택합니다.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![사용자 지정할 범주 선택](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (조건부) **기본 작업 설정 단추** 드롭다운 메뉴가 나타나면(왼쪽 목록에서 **작업** 또는 **문제**&#x200B;를 선택한 경우) 작업 또는 문제를 볼 때 요약 패널에서 사용자가 사용할 수 있는 기본 작업(**완료** 또는 **상태**)을 클릭합니다.
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![기본 작업 설정](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. 선택한 개체 유형에 대해 ![](assets/add-item-plus-in-circle-blue.png)을(를) 추가하거나 ![](assets/close-or-hide---x.png) 필드를 숨깁니다.
+1. 선택한 개체 형식에 대해 ![항목 추가](assets/add-item-plus-in-circle-blue.png)를 추가하거나 ![항목 숨기기](assets/close-or-hide---x.png) 필드를 숨깁니다.
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![필드 추가 및 숨기기](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 다른 객체 유형에 대해 요약 패널을 사용자 정의하려면 3-6단계를 반복합니다.
 1. 왼쪽 아래 모서리 근처에서 **전역 설정**&#x200B;을 클릭한 다음 요약에서 Adobe Workfront 개체와 관련된 다음 옵션을 활성화하거나 비활성화합니다.

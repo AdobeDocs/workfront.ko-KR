@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 삭제할 조건이 있는 개체 유형(**프로젝트**, **작업** 또는 **문제**)의 탭을 선택하십시오.
 
-1. 삭제할 조건을 마우스로 가리킨 다음 맨 오른쪽에 나타나는 **삭제** 아이콘 ![](assets/delete.png)을(를) 클릭합니다.
+1. 삭제할 조건을 마우스로 가리킨 다음 맨 오른쪽에 나타나는 **삭제** 아이콘 ![삭제](assets/delete.png)을 클릭합니다.
 1. 표시되는 확인 메시지에서 **조건 삭제**&#x200B;를 클릭합니다.
 
 1. 표시되는 **조건 삭제** 상자의 드롭다운 목록에서 삭제하려는 조건을 사용 중인 모든 프로젝트에 대해 새 조건을 선택합니다.

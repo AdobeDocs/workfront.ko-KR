@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 1%
 
 ---
@@ -64,9 +64,9 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭합니다.
 
-1. 그룹을 이동할 대상 그룹을 선택한 다음 편집 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 그룹을 이동할 대상 그룹을 선택한 다음 편집 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. **그룹 구성원 및 그룹 관리자** 아래에 나타나는 **그룹 편집** 상자에서 이동할 그룹의 이름을 입력한 다음 표시될 때 클릭합니다.
 1. **저장**&#x200B;을 클릭합니다.
 

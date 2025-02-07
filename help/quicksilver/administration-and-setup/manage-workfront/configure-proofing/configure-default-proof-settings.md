@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '563'
 ht-degree: 7%
 
 ---
@@ -125,15 +125,15 @@ ht-degree: 7%
       >
       >결정의 이름을 바꿀 때 결정의 논리를 유지합니다. 예를 들어, 기본 [거부됨] 결정은 *새 버전이 필요합니다*(으)로 변경할 수 있지만 *프린터로 보내기*(으)로 변경하면 안 됩니다.
 
-      ![](assets/rename-decision-350x109.png)
+      ![결정 이름 바꾸기](assets/rename-decision-350x109.png)
 
    1. **결정 순서 다시 정렬**: 증명 뷰어에 표시하려는 순서대로 결정 상자를 드래그합니다.
 
-      ![](assets/move-decision-350x110.png)
+      ![결정 이동](assets/move-decision-350x110.png)
 
    1. **결정 숨기기**: 결정 상자 위로 마우스를 가져간 후 오른쪽 상단의 숨기기 아이콘을 클릭합니다.
 
-      ![](assets/hide-decision-350x109.png)
+      ![결정 숨기기](assets/hide-decision-350x109.png)
 
 1. (선택 사항) Workfront 기본값으로 돌아가려면 **기본값 복원**&#x200B;을 클릭합니다.
 1. **저장**&#x200B;을 클릭합니다.

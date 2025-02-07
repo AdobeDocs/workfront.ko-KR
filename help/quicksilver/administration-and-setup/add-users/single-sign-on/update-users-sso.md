@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ SSO 사용자 이름 필드를 업데이트해야 하는 Workfront의 모든 사
    | ID | ID는 Workfront 영숫자 GUID입니다. |
    | SSO 사용자 이름 | 가져오기로 덮어쓰는 사용자 이름이 없는지 확인하기 위해 SSO 사용자 이름 필드를 추가합니다. 사용자가 아직 SSO에 대해 업데이트되지 않은 경우 모든 사용자에 대해 이 필드를 비워 두어야 합니다. |
 
-   ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![SSO 사용자 이름을 사용하지만 액세스 권한이 없는 사용자](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. 보고서를 저장합니다.
 1. 보고서 상단의 **내보내기**&#x200B;를 클릭하고 보고서를 Excel로 내보냅니다.
@@ -112,7 +112,7 @@ SSO 사용자 이름 필드를 업데이트해야 하는 Workfront의 모든 사
    * 두 번째 열에는 SSO 시스템에 표시되는 SSO 사용자 이름이 있어야 합니다.
    * 열에는 헤더가 없어야 하며 이름 목록의 맨 위에는 빈 행이 없어야 합니다.
 
-     ![](assets/update-users-for-sso-csv-file-for-import.png)
+     ![사용자 CSV 업데이트](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. 보고서를 컴퓨터에 CSV 또는 TSV 파일로 저장합니다.
 
@@ -145,6 +145,6 @@ SSO 사용자 이름 정보가 포함된 사용자 보고서를 작성하는 방
 1. SSO 사용자 이름 열의 값이 SSO 서버의 SSO 사용자 이름과 일치하는지 확인하십시오.
 1. SSO 사용자 이름 열이 비어 있는 경우 사용자의 SSO 사용자 이름을 업데이트하십시오.
 
-   ![](assets/users-with-sso-field-updated.png)
+   ![SSO 필드가 있는 사용자](assets/users-with-sso-field-updated.png)
 
    SSO에 대한 사용자 업데이트에 대한 지침은 [SSO에 대한 사용자 업데이트](#update-your-users-for-sso)를 참조하십시오.

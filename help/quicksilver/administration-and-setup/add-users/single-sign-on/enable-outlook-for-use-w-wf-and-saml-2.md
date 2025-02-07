@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ SAML 2.0 인증을 사용하도록 설정하고 사용자가 SAML 2.0 자격 증
    >
    >**iframe에 Workfront 포함 허용** 옵션을 사용하면 **Office 365 추가 기능에서 SAML 2.0 인증 허용** 옵션이 흐리게 표시되어 활성화됩니다.
    >
-   >![](assets/if-you-enable.png)
+   >![포함 옵션 허용](assets/if-you-enable.png)
    >
 
 1. **저장**&#x200B;을 클릭합니다.

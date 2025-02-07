@@ -5,14 +5,14 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
 
-# 시스템의 모든 사용자를 위한 이벤트 알림 구성하기
+# 시스템의 모든 사용자를 위한 이벤트 알림 구성
 
 <!-- Audited: 1/2024 -->
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 1. **전자 메일** > **알림**&#x200B;을 클릭합니다.
 
-   ![](assets/notifications-area-under-setup-emails.png)
+   ![설정 전자 메일의 알림 영역](assets/notifications-area-under-setup-emails.png)
 
 
 1. **이벤트 알림** 탭이 열려 있는지 확인하십시오.
@@ -88,7 +88,7 @@ ht-degree: 1%
 
    전자 메일 알림의 제목 줄을 사용자 지정하는 방법에 대한 자세한 내용은 [이벤트 알림에 대한 전자 메일 제목 사용자 지정](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)을 참조하십시오.
 
-1. (선택 사항) 그룹 관리자가 그룹에 대해 별도로 구성할 수 있도록 전자 메일 알림에 대한 구성을 잠금 해제하려면 알림 오른쪽에 있는 ![](assets/lock-toggle-button.png) 단추를 클릭하여 잠금 해제된 위치 ![](assets/unlock-toggle-button.png)(으)로 전환하십시오.
+1. (선택 사항) 그룹 관리자가 그룹에 대해 별도로 구성할 수 있도록 전자 메일 알림에 대한 구성을 잠금 해제하려면 알림 오른쪽에 있는 ![잠금 토글](assets/lock-toggle-button.png) 단추를 클릭하여 잠금 해제된 위치로 전환합니다![잠금 해제 토글](assets/unlock-toggle-button.png).
 
    >[!NOTE]
    >

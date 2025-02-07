@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ SAML 2.0을 사용하여 Workfront 웹 애플리케이션 및 Workfront 모바�
 
 1. **연결 테스트**&#x200B;를 클릭합니다. 올바르게 설정되면 아래 표시된 페이지와 유사한 페이지가 표시됩니다.
 
-   ![](assets/success-saml-2.png)
+   ![SAML 2 성공 메시지](assets/success-saml-2.png)
 
    >[!NOTE]
    >

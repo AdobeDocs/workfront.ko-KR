@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 사용자 지정 상태가 문제 상태인 경우 네 가지 문제 유형(버그 보고서, 순서 변경, 문제 및 요청)을 모두 활성화해야 합니다. 예를 들어 아래에 표시된 문제 상태에서 주문 변경 문제 유형이 선택되지 않았으므로 다시 열림 상태를 기본 상태로 사용할 수 없습니다.
 
-![](assets/all-4-issue-types-enabled.png)
+![모든 문제 유형 사용](assets/all-4-issue-types-enabled.png)
 
 ## 사용자 지정 상태를 기본 상태로 설정
 
@@ -101,6 +101,6 @@ ht-degree: 0%
    >그룹에 대한 사용자 지정 상태를 설정하고 나중에 프로젝트를 다른 그룹에 할당하면 프로젝트 상태가 다시 로드되어 변경될 수 있습니다.
 
    1. 사용자 지정 상태를 사용할 프로젝트로 이동합니다.
-   1. 기타 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+   1. 기타 메뉴 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
    1. **프로젝트 연결**&#x200B;의 **그룹** 필드에 표시되는 **프로젝트 편집** 상자에서 상태가 있는 그룹을 선택합니다.
    1. **변경 내용 저장**&#x200B;을 클릭합니다.

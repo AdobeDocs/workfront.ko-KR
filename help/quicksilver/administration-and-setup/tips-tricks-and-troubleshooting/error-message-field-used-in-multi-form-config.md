@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "오류 메시지: 약간의 문제가 있습니다. 해당 필드는 다중 양식 구성에서 사용됩니다."
+title: '오류 메시지: 약간의 문제가 있습니다. 해당 필드는 다중 양식 구성에서 사용됩니다'
 description: 사용자 정의 양식의 계산된 사용자 정의 필드에서 계산을 변경할 때 필드가 다중 양식 구성에서 사용된다는 오류 메시지가 표시되면 필드를 사용할 계산이 포함된 새 필드로 바꿔야 합니다.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    **예:** 양식 1의 필드 1 = 예, 양식 2의 필드 2 = 예, 양식 3의 필드 3 = 예. 즉, &quot;계산된 사용자 정의 필드가 양식 1에 있음&quot; 또는 &quot;계산된 사용자 정의 필드가 양식 2에 있음&quot;이 됩니다.
 
-1. 화면 오른쪽 상단의 **[!UICONTROL 검색 아이콘]** ![](assets/search-icon.png)에서 **[!UICONTROL 고급 검색]**&#x200B;을 클릭합니다.
+1. 화면 오른쪽 상단의 **[!UICONTROL 검색 아이콘]** ![검색 아이콘](assets/search-icon.png)에서 **[!UICONTROL 고급 검색]**&#x200B;을 클릭합니다.
 1. 사용자 정의 양식의 개체(문제 등)를 클릭하고 **[!UICONTROL 결과 필터링]**&#x200B;을 클릭한 다음 **[!UICONTROL 필터 추가]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 필드 이름을 입력하십시오]** 필드에 확인란 필드의 이름을 입력하십시오. 목록에 표시될 때 이 필드를 선택한 다음, **[!UICONTROL 같음]**&#x200B;을 선택하고 다음 상자에 **[!UICONTROL 예]**(따옴표 제외)를 입력하십시오.
 

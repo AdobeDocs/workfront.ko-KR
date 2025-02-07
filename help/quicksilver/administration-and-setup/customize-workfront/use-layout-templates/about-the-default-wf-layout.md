@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '627'
 ht-degree: 9%
 
 ---
 
 # 기본 Adobe Workfront 레이아웃 정보
 
-기본 레이아웃은 레이아웃 템플릿을 사용하여 Adobe Workfront 관리자가 변경하기 전에 왼쪽 패널과 보기, 그룹화 및 필터의 배열로 기본 메뉴 ![](assets/main-menu-icon.png) 또는 기본 메뉴 ![](assets/lines-main-menu.png)입니다(사용 가능한 경우).
+기본 레이아웃은 레이아웃 템플릿을 사용하여 Adobe Workfront 관리자가 변경하기 전 왼쪽 패널과 보기, 그룹화 및 필터의 배열입니다(가능한 경우). 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png) 또는 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png) 배열,
 
 Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 사용자의 기본 레이아웃을 수정하는 방법에 대한 자세한 내용은 [사용자를 레이아웃 템플릿에 할당](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
 

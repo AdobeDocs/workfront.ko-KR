@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '294'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 3%
    1. 왼쪽 패널에서 **시스템** 클릭
    1. Workfront 플랜을 보려면 **라이선스**를 선택하세요.
 플랜이 페이지의 오른쪽 상단 근처에 표시됩니다.
-      ![](assets/locate-plan.png)
+      ![계획 찾기](assets/locate-plan.png)
 
   또는
 * Workfront 계정 담당자에게 문의하십시오.

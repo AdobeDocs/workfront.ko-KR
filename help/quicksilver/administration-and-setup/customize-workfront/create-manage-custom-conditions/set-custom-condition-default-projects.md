@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 프로젝트의 상태 유형이 [수동]이 아닌 [진행 상태]로 설정되어 있으면 [프로젝트 상태 및 상태 유형 개요](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)에 설명된 대로 Adobe Workfront은 진행할 때 프로젝트에 내장된 세 가지 기본 조건(대상, 위험 또는 문제 발생) 중 하나를 자동으로 표시합니다.
 
-![](assets/condition-in-project-header-nwe.png)
+프로젝트 헤더의 ![상태](assets/condition-in-project-header-nwe.png)
 
 이러한 세 가지 기본 조건을 사용하는 대신 사용자 지정 조건을 기본 조건으로 설정할 수 있습니다. 예를 들어 모든 프로젝트에서 추적 웰 (Tracking Well)로 표시되도록 타겟 상(On Target) 기본 조건을 변경할 수 있습니다.
 

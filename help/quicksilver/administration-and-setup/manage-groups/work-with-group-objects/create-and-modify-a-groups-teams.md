@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1018'
 ht-degree: 3%
 
 ---
@@ -54,10 +54,10 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭합니다.
 
 1. 팀을 만들거나 수정할 그룹의 이름을 클릭합니다.
-1. 왼쪽 패널에서 **팀** ![](assets/teams.png)을(를) 클릭하여 그룹 및 해당 그룹에 속한 하위 그룹과 관련된 팀을 나열합니다.
+1. 왼쪽 패널에서 **팀** ![팀](assets/teams.png)을(를) 클릭하여 그룹 및 해당 그룹에 포함될 수 있는 하위 그룹과 연결된 팀을 나열합니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -100,7 +100,7 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
       </tbody> 
      </table>
 
-   * **팀 편집**: 하나 이상의 팀을 선택하고 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭한 다음, 다음 옵션을 사용하여 구성하십시오.
+   * **팀 편집**: 하나 이상의 팀을 선택하고 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 후 다음 옵션을 사용하여 구성하십시오.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -149,5 +149,5 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
       </tbody> 
      </table>
 
-   * **팀 삭제**: 하나 이상의 팀을 선택한 다음 삭제 아이콘 ![](assets/delete.png)을(를) 클릭합니다.
-   * **팀 목록 내보내기**: **내보내기** ![](assets/export.png)를 클릭한 다음 내보낸 목록에 사용할 파일 형식을 선택합니다.
+   * **팀 삭제**: 하나 이상의 팀을 선택한 다음 삭제 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다.
+   * **팀 목록 내보내기**: **내보내기** ![내보내기 아이콘](assets/export.png)을 클릭한 다음 내보낸 목록에 사용할 파일 형식을 선택합니다.

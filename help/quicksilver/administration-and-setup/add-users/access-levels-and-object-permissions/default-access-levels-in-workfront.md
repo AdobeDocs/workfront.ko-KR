@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 5%
+source-wordcount: '1715'
+ht-degree: 6%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 
 시스템 관리자 액세스 수준이 있는 사용자는 Workfront에서 모든 작업을 수행할 수 있습니다. 다른 모든 사용자가 Workfront에 입력한 모든 Workfront 개체 및 정보를 보고 편집할 수 있습니다.
 
-또한 시스템 수준에서 설정을 변경할 수 있는 설정 영역에 대한 모든 액세스 권한을 갖습니다. 그리고 가능한 경우 기본 메뉴 ![](assets/main-menu-icon.png) 또는 기본 메뉴 ![](assets/lines-main-menu.png)의 모든 영역에 액세스할 수 있습니다.
+또한 시스템 수준에서 설정을 변경할 수 있는 설정 영역에 대한 모든 액세스 권한을 갖습니다. 그리고 가능한 경우 메인 메뉴 ![메인 메뉴 아이콘](assets/main-menu-icon.png) 또는 메인 메뉴 ![메인 메뉴 아이콘](assets/main-menu-icon.png)의 모든 영역에 액세스할 수 있습니다.
 
 자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)를 참조하십시오.
 
@@ -86,7 +86,7 @@ ht-degree: 5%
 * 작업, 프로젝트, 포트폴리오 및 프로그램의 계획, 생성 및 관리를 담당하는 사람
 * 다른 사용자에게 작업(작업 및 문제)을 할당할 책임이 있는 모든 사람
 * 보고서를 작성하고 타임시트, 작업 항목 및 문서를 승인하는 사용자
-* 사용 가능한 경우 기본 메뉴 ![](assets/main-menu-icon.png) 또는 기본 메뉴 ![](assets/lines-main-menu.png)의 모든 영역에 액세스해야 하는 사용자
+* 사용 가능한 경우 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png) 또는 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png)의 모든 영역에 액세스해야 하는 사용자
 
 플래너 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
 
@@ -122,7 +122,7 @@ ht-degree: 5%
 * 작업 및 문서를 승인할 수 있지만 타임시트는 승인할 수 없음
 * 보고서 액세스 및 공유 가능
 * 시스템의 다른 사용자와 통신할 수 있음
-* 사용 가능한 경우 기본 메뉴 ![](assets/main-menu-icon.png) 또는 기본 메뉴 ![](assets/lines-main-menu.png)의 모든 영역에 액세스할 수 없으며 &quot;사용자&quot; 영역의 이름이 Teams로 지정됩니다. 팀 영역에서 이 액세스 수준을 가진 사용자는 해당 팀에 할당된 작업과 함께 자신이 속한 팀만 볼 수 있습니다.
+* 사용 가능한 경우 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png) 또는 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png)의 모든 영역에 액세스할 수 없으며 &quot;사용자&quot; 영역의 이름이 Teams로 지정됩니다. 팀 영역에서 이 액세스 수준을 가진 사용자는 해당 팀에 할당된 작업과 함께 자신이 속한 팀만 볼 수 있습니다.
 * 객체 생성 기능이 제한되어 있어 프로젝트, 포트폴리오, 프로그램 또는 보고서를 생성할 수 없습니다.
 
 작업자 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
@@ -158,7 +158,7 @@ ht-degree: 5%
 검토자 액세스 수준이 있는 사용자:
 
 * 작업 항목을 할당하거나 타임시트를 승인할 수 없음
-* 가능한 경우 주 메뉴 ![](assets/main-menu-icon.png) 또는 주 메뉴 ![](assets/lines-main-menu.png)의 요청 및 문서 영역에 액세스할 수 있습니다.
+* 가능한 경우 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png) 또는 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png)에서 요청 및 문서 영역에 액세스할 수 있습니다.
 * 객체 생성 기능이 제한되어 있어 프로젝트, 포트폴리오, 프로그램 또는 보고서를 생성할 수 없습니다.
 
 검토자 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
@@ -285,7 +285,7 @@ ht-degree: 5%
 * 문서를 업로드하고 승인할 수 있음
 * 제출한 문제의 상태를 검토할 수 있습니다.
 * 작업 항목에 할당할 수 없음
-* 가능한 경우 기본 메뉴 ![](assets/main-menu-icon.png) 또는 기본 메뉴 ![](assets/lines-main-menu.png)의 요청 영역에서만 요청에 액세스할 수 있습니다. 요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
+* 가능한 경우 주 메뉴 ![주 메뉴 아이콘](assets/main-menu-icon.png) 또는 주 메뉴 ![주 메뉴 아이콘](assets/main-menu-icon.png)의 요청 영역에서만 요청에 액세스할 수 있습니다. 요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
 요청자의 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
 

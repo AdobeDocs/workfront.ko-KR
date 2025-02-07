@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -88,9 +88,9 @@ Adobe Workfront 관리자는 전자 메일 초대를 사용하여 Workfront에 �
 
 1. 이름 뒤에 **등록되지 않음** 레이블을 표시하는 사용자를 선택하십시오.
 
-   ![](assets/unreg-user-qs-350x221.png)
+   ![등록 취소됨](assets/unreg-user-qs-350x221.png)
 
-1. 자세히 아이콘 ![](assets/more-icon.png)을 클릭한 다음 **사용자에게 등록 알림**&#x200B;을 클릭합니다.
+1. 기타 아이콘 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **사용자에게 등록 알림**&#x200B;을 클릭합니다.
 
    새 사용자에게 Workfront 암호를 만드는 데 사용할 수 있는 새 링크로 이메일 초대가 전송됩니다.
 

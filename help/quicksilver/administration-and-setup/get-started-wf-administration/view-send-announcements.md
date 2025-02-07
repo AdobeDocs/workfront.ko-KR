@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Workfront에서 받은 메시지를 시스템의 사용자에게 쉽게 전달�
 
 1. Workfront 인터페이스의 오른쪽 상단에 있는 **알림** 아이콘을 클릭하여 공지 페이지로 이동한 다음 **모든 공지**&#x200B;를 클릭합니다.
 
-   ![](assets/announcement-access-350x212.png)
+   ![모든 공지](assets/announcement-access-350x212.png)
 
 1. **공지** 페이지에서 전달할 메시지를 선택합니다.
 1. **앞으로**&#x200B;를 클릭합니다.
@@ -79,7 +79,7 @@ Workfront에서 받은 메시지를 시스템의 사용자에게 쉽게 전달�
 
 1. Workfront 인터페이스의 오른쪽 상단에 있는 **알림** 아이콘을 클릭하여 공지 페이지로 이동한 다음 **모든 공지**&#x200B;를 클릭합니다.
 
-   ![](assets/announcement-access-350x212.png)
+   ![모든 공지](assets/announcement-access-350x212.png)
 
 1. **공지** 페이지에서 **새 공지**&#x200B;를 클릭합니다.
 

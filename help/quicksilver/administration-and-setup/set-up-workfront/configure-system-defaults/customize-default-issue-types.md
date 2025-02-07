@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 * **[!UICONTROL 문제]** [!DNL Workfront]의 개체로, 예기치 않은 작업, 발생한 문제 또는 작업을 계속하려면 해결해야 하는 문제를 전달합니다.
 * **[!UICONTROL 요청]** 사용자가 Workfront에서 요청하는 요청 대기열에 적용되는 문제 유형입니다.
 
-![](assets/default-issue-types.png)
+![기본 문제 유형](assets/default-issue-types.png)
 
 ## 문제 유형 사용자 정의
 
@@ -86,8 +86,8 @@ ht-degree: 0%
 1. **[!UICONTROL 문제]** 탭을 클릭합니다.
 1. 다음 중 하나를 수행합니다.
 
-   * 사용자 지정할 문제 유형 위로 마우스를 가져간 후 맨 오른쪽에 나타나는 [!UICONTROL 편집] 아이콘 ![](assets/edit-icon.png)을(를) 클릭한 다음 문제 유형의 새 이름을 입력하십시오.
+   * 사용자 지정할 문제 유형 위로 마우스를 가져간 후 맨 오른쪽에 나타나는 [!UICONTROL 편집] 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 문제 유형의 새 이름을 입력하십시오.
 
-     ![](assets/customize-issue-type.png)
+     ![문제 유형 사용자 지정](assets/customize-issue-type.png)
 
    * [!UICONTROL 문제 유형]을(를) 클릭하여 연결된 상태를 나열한 다음 마우스로 가리키면 표시되는 핸들을 드래그하여 사용자의 문제 **[!UICONTROL 상태]** 드롭다운 메뉴에 표시할 순서대로 놓습니다.

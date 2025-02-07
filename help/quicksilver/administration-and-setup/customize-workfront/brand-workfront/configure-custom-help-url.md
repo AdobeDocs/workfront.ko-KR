@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 조직에서 Workfront을 사용하는 방법에 대한 정보가 포함된 사용자 정의 내부 도움말 사이트를 만드는 경우 주 메뉴 도움말 아이콘을 구성하여 해당 사이트로 이동할 수 있습니다.
 
-![](assets/custom-help-button.png)
+![사용자 지정 도움말 단추](assets/custom-help-button.png)
 
 이는 사용자를 Workfront 도움말 사이트로 안내하는 Workfront 전체에서 상황에 맞는 도움말 링크에는 영향을 주지 않습니다.
 

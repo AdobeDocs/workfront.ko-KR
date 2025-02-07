@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth 응용 프로그램]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 앱 통합 만들기]**&#x200B;를 클릭합니다.
-1. 응용 프로그램 위로 마우스를 가져간 후 맨 오른쪽에 나타나는 **[!UICONTROL 편집]** ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 응용 프로그램 위로 마우스를 가져간 후 맨 오른쪽에 나타나는 **[!UICONTROL 편집]** ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. (선택 사항) 응용 프로그램의 세부 정보를 편집합니다.
 
    OAuth2 및 JWT 앱과 관련된 필드는 [통합을 위한 OAuth2 애플리케이션 만들기 [!DNL Workfront] 통합](../../administration-and-setup/configure-integrations/create-oauth-application.md)을 참조하십시오.
@@ -87,7 +87,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth 응용 프로그램]**&#x200B;을 선택합니다.
-1. 응용 프로그램 위로 마우스를 가져간 다음 맨 오른쪽에 나타나는 경우 **[!UICONTROL 삭제]** ![](assets/delete.png)을(를) 클릭합니다.
+1. 응용 프로그램 위로 마우스를 가져간 후 맨 오른쪽에 나타나면 **[!UICONTROL 삭제]** ![삭제](assets/delete.png)를 클릭합니다.
 
 ## OAuth2 애플리케이션에서 클라이언트 암호 관리
 
@@ -143,4 +143,4 @@ ht-degree: 0%
 1. **[!UICONTROL 앱 통합 만들기]**&#x200B;를 클릭합니다.
 1. 응용 프로그램 위로 마우스를 가져간 후 맨 오른쪽에 나타나는 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 1. 삭제할 클라이언트 암호를 찾습니다.
-1. 클라이언트 암호 옆에 있는 **[!UICONTROL 삭제]** 아이콘 ![](assets/delete.png)을(를) 클릭합니다.
+1. 클라이언트 암호 옆에 있는 **[!UICONTROL 삭제]** 아이콘 ![삭제](assets/delete.png)을 클릭합니다.

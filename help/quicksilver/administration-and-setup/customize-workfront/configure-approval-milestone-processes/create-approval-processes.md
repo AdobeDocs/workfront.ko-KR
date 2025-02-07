@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: a1ead3895afaf8b601a9c53e08d41b1cab51cb48
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2193'
 ht-degree: 1%
 
 ---
@@ -82,10 +82,10 @@ ht-degree: 1%
 
    또는
 
-   그룹 수준 승인 프로세스를 만드는 경우 **그룹** ![](assets/groups-icon.png)을 클릭하고 그룹 이름을 클릭한 다음 **승인**&#x200B;을 클릭합니다.
+   그룹 수준 승인 프로세스를 만드는 경우 **그룹** ![그룹 아이콘](assets/groups-icon.png)을 클릭하고 그룹 이름을 클릭한 다음 **승인**&#x200B;을 클릭합니다.
 
    <!--hidden for the new tab redesign - August 2023: 
-   ![](assets/approvals-area-in-setup-processes.png)
+   ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
 1. **프로젝트 승인**, **작업 승인** 또는 **문제 승인** 탭을 선택하십시오.

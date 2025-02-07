@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL 메타데이터 매핑]**&#x200B;을 클릭합니다.
 
-   ![](assets/metadata-mapping.png)
+   ![메타데이터 매핑](assets/metadata-mapping.png)
 
 1. **[!UICONTROL 매핑을 위한 Source 필드 선택]** 상자에서 [!DNL Workfront DAM]에 매핑할 Workfront 필드의 이름을 입력한 다음 목록에 표시되면 선택합니다.
 1. **[!UICONTROL 매핑할 대상 필드 선택]** 상자에서 선택한 [!DNL Workfront] 필드의 정보로 채울 필드를 선택합니다.

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 예를 들어 작업을 볼 때 사용자가 왼쪽 패널에 표시되는 항목 중 하나를 결정할 수 있습니다.
 
-![](assets/left-panel-adobe-branding.png)
+![브랜딩 왼쪽 패널](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ ht-degree: 0%
 ## [!DNL Workfront]의 영역에 대한 왼쪽 패널 사용자 지정:
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
-1. **[!UICONTROL 사용자에게 표시되는 항목 사용자 지정]** 아래의 아래쪽 화살표 ![](assets/dropdown-arrow.png)을(를) 클릭한 다음 사용자 지정할 왼쪽 패널의 개체 형식 또는 [!DNL Workfront] 영역의 이름을 클릭합니다.
+1. **[!UICONTROL 사용자에게 표시되는 항목 사용자 지정]** 아래의 아래쪽 화살표 ![아래쪽 화살표](assets/dropdown-arrow.png)를 클릭한 다음 왼쪽 패널을 사용자 지정할 개체 유형 또는 [!DNL Workfront] 영역의 이름을 클릭합니다.
 
    왼쪽 패널을 사용자 지정할 수 있는 개체 형식과 [!DNL Workfront] 영역이 다음 표에 나열되어 있습니다.
 
@@ -204,9 +204,9 @@ ht-degree: 0%
 
 1. **[!UICONTROL 왼쪽 패널]** 목록에서 다음 중 하나를 수행하여 선택한 [!DNL Workfront] 영역 또는 개체 유형에 대해 왼쪽 패널에 표시되는 사용자를 결정합니다.
 
-   * **표시** ![](assets/add-secondary-nav-item.png) 또는 **숨기기** ![](assets/delete-secondary-nav-item.png) 아이콘을 클릭하여 왼쪽 패널에서 섹션을 표시하거나 숨깁니다. **표시** 또는 **숨기기** 아이콘이 없는 항목은 숨길 수 없습니다.
+   * 왼쪽 패널에서 섹션을 표시하거나 숨기려면 **표시** ![표시 아이콘](assets/add-secondary-nav-item.png) 또는 **숨기기** ![숨기기 아이콘](assets/delete-secondary-nav-item.png) 아이콘을 클릭합니다. **표시** 또는 **숨기기** 아이콘이 없는 항목은 숨길 수 없습니다.
 
-   * ![](assets/move-icon---dots.png) 항목을 드래그하여 왼쪽 패널의 순서를 변경합니다.
+   * 왼쪽 패널에서 순서를 변경하려면 ![이동 아이콘](assets/move-icon---dots.png)을 끕니다.
 
    >[!NOTE]
    >

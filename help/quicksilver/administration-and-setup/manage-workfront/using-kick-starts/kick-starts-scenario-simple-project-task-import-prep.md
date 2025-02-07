@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: 킥스타트, 킥스타트, 킥스타트, 킥스타트
 navigation-topic: use-kick-starts
-title: "킥스타트 시나리오: 간단한 프로젝트 및 작업 가져오기 준비"
+title: '킥스타트 시나리오: 간단한 프로젝트 및 작업 가져오기 준비'
 description: 킥스타트 방법을 사용하여 기본 프로젝트와 작업 가져오기에 사용할 수 있는 설정과 컨트롤에 대해 자세히 설명합니다.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1493'
 ht-degree: 9%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 1. Workfront 구현.
 
-   | 계획된 시작 일자 기준 | 오늘 |
+   | 계획된 시작 일자 | 오늘 |
    |---|---|
    | 프로젝트 관리자 | 제니퍼 캠벨 |
    | 프로젝트 스폰서 | 마크 루이스 |
@@ -46,7 +46,7 @@ ht-degree: 9%
 
 1. HR 시스템 구현
 
-   | 계획된 시작 일자 기준 | 20XX년 7월 14일 |
+   | 계획된 시작 일자 | 20XX년 7월 14일 |
    |---|---|
    | 프로젝트 관리자 | 팸 레이놀즈 |
    | 프로젝트 스폰서 | 마크 루이스 |
@@ -57,7 +57,7 @@ ht-degree: 9%
 
 1. 문서 관리 시스템 구현
 
-   | 계획된 시작 일자 기준 | 20XX년 8월 22일 |
+   | 계획된 시작 일자 | 20XX년 8월 22일 |
    |---|---|
    | 프로젝트 관리자 | 제니퍼 캠벨 |
    | 프로젝트 스폰서 | 레이 앤드루스 |
@@ -68,7 +68,7 @@ ht-degree: 9%
 
 1. 새 캘린더 시스템을 구현합니다.
 
-   | 계획된 시작 일자 기준 | 20XX년 9월 6일 |
+   | 계획된 시작 일자 | 20XX년 9월 6일 |
    |---|---|
    | 프로젝트 관리자 | 팸 레이놀즈 |
    | 프로젝트 스폰서 | 레이 앤드루스 |
@@ -277,10 +277,10 @@ ht-degree: 9%
 
 방금 다운로드한 Workfront.xlsx 파일을 엽니다. 프로젝트 프로젝트 시트로 이동합니다.
 
-![](assets/im2.png)
+![프로젝트 집합](assets/im2.png)
 Workfront에서 프로젝트를 이미 만들지 않았다면 비워 두어야 합니다.
 
-![](assets/im10.png)
+![빈 프로젝트 시트](assets/im10.png)
 
 다음 프로젝트 필드에 대한 값을 설정합니다.
 
@@ -305,7 +305,7 @@ setPlannedStartDate 열에 각 프로젝트의 계획된 시작 일자를 입력
 * **필요한 기타 세부 정보를 설정합니다.**
 필요에 따라 설명 또는 현재 상태 등 다른 세부 정보를 입력합니다. 그룹 그룹 시트에서 각 프로젝트의 그룹 ID를 조회하고 각 프로젝트의 setGroupID 열에 입력합니다. CMPY 회사 시트에서 프로젝트에 대한 회사 ID를 조회하고 setCompanyID 열에 입력합니다. 사용자 사용자 시트에서 각 프로젝트 소유자에 대한 사용자 ID를 조회하고 setOwnerID 열에 입력합니다. USER User 시트에서 각 프로젝트 스폰서에 대한 사용자 ID를 조회하고 setSponsorID 열에 입력합니다.
 
-![](assets/im9.png)
+![값 설정](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ setPlannedStartDate 열에 각 프로젝트의 계획된 시작 일자를 입력
 
 Workfront에서 작업을 이미 만들지 않은 경우 이 시트는 비어 있어야 합니다.
 
-![](assets/im8.png)
+![작업 시트](assets/im8.png)
 
-![](assets/im7.png)
+![빈 작업 시트](assets/im7.png)
 
-![](assets/im6.png)
+![작업 시트 열](assets/im6.png)
 
 작업을 매핑하는 가장 쉬운 방법은 한 번에 하나의 프로젝트입니다(특히 각 프로젝트에서 작업이 동일한 경우). 그런 다음 첫 번째 프로젝트에 대한 작업 계획을 복사하고 후속 프로젝트에 대한 작업 계획을 약간 조정할 수 있습니다. 나머지 단계에서는 Workfront 구현 프로젝트에 대한 작업만 만드는 것으로 가정합니다. 시나리오에 따라 프로젝트당 9개의 작업을 가져오므로 isNew 열에 대해 3행부터 11행까지 TRUE를 입력합니다.
 
@@ -364,7 +364,7 @@ setDuration 필드에 작업의 시간, 일, 주 또는 월 수를 입력하여 
 * 각 작업의 setPercentComplete 필드에 완료율의 전체 숫자 표현을 입력합니다. 이 값에는 퍼센트 기호(%)를 포함하지 않아야 합니다.
 * 필요에 따라 생성 중인 각 작업에 대한 설명 및 기타 세부 정보를 포함합니다.
 
-  ![](assets/im5.png)
+  ![세부 정보 추가](assets/im5.png)
 
 * 전임 작업 관계를 사용하고 있으므로 setPlannedStartDate 및 setTaskConstraint 열은 이 프로젝트의 타임라인을 작성하는 데 사용되지 않습니다. 대신 각 작업의 날짜를 입력할 수 있습니다. 이렇게 하려면 setTaskConstraint 열에도 유효한 작업 제한 사항을 제공해야 합니다. 이 필드의 유효한 값에 대한 자세한 내용은 작업 제한 및 관련 문서를 검토하십시오.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **상태**&#x200B;를 클릭합니다.
 1. 표시되는 상태 목록에서 삭제할 상태를 마우스로 가리킨 다음 맨 오른쪽에 나타나면 **삭제**&#x200B;를 클릭합니다.
 
-   ![](assets/hover-click-delete.jpg)
+   ![삭제](assets/hover-click-delete.jpg)
 
 1. 표시되는 상자에서 삭제하려는 상태를 사용하고 있던 객체(프로젝트, 작업, 문제 및 승인 프로세스)에 대한 대체 상태를 지정할 상태를 선택합니다.
 

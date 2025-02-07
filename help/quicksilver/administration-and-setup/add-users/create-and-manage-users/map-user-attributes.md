@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '977'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ SSO(Single Sign-On)를 사용하여 ID 공급자의 Active Directory에서 Adobe
 
 ### 클래식 경험에서 사용자 속성 매핑
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **설정** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
 1. **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
 
@@ -85,7 +85,7 @@ SSO(Single Sign-On)를 사용하여 ID 공급자의 Active Directory에서 Adobe
 
 1. **사용자 특성 매핑**&#x200B;을 클릭합니다.
 
-   ![](assets/map-user-attributes.png)
+   ![사용자 특성 매핑](assets/map-user-attributes.png)
 
 1. 표시되는 옵션 행에서 Workfront 사용자에게 필요한 속성을 매핑합니다.
 
@@ -123,7 +123,7 @@ SSO(Single Sign-On)를 사용하여 ID 공급자의 Active Directory에서 Adobe
    1. 드롭다운에서 사용할 속성 수정자를 선택합니다.
    1. 오른쪽의 2개 필드에 디렉토리 속성 값과 대체할 값을 입력합니다.
 
-      ![](assets/rule-fields.png)
+      ![규칙 필드](assets/rule-fields.png)
 
    **규칙 추가**&#x200B;를 클릭하여 속성에 규칙을 더 추가할 수 있습니다.
 
@@ -132,7 +132,7 @@ SSO(Single Sign-On)를 사용하여 ID 공급자의 Active Directory에서 Adobe
 
 ### Adobe 통합 경험의 사용자 속성 매핑
 
-1. Adobe Workfront 왼쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-left.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+1. Adobe Workfront 왼쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-left.png)을 클릭한 다음 **설정** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
 1. **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
 

@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 그룹]** 탭을 클릭합니다.
 
-   ![](assets/groupstab.png)
+   ![그룹 탭](assets/groupstab.png)
 
 1. 사용자가 [!UICONTROL 만들기] 및 [!UICONTROL 삭제] 권한을 포함하는 액세스 수준이 있는 하나 이상의 [!DNL Workfront] 그룹에 속해 있는지 확인하십시오.
 

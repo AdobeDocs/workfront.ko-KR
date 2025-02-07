@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    표시되는 목록에서 관리하는 그룹과 포함된 하위 그룹을 볼 수 있습니다. Adobe Workfront 관리자는 모든 그룹을 볼 수 있습니다.
 
-1. 그룹을 선택한 다음 ![](assets/edit-icon.png) 편집, ![](assets/copy-icon.png) 복사 또는 ![](assets/delete.png) 삭제 아이콘을 클릭합니다.
+1. 그룹을 선택한 다음 편집 ![편집 아이콘](assets/edit-icon.png), 복사 ![복사 아이콘](assets/copy-icon.png) 또는 삭제 ![삭제 아이콘](assets/delete.png) 아이콘을 클릭합니다.
 
    표시되는 상자 사용에 대한 정보가 필요한 경우 다음 중 하나를 참조하십시오.
 

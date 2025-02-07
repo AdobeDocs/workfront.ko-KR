@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Workfront에서 SSO 기능을 사용하려면 조직에서 SSO 애플리케이�
 
 Federated Solutions는 사용자가 중앙 집중식 로그인 포털에 사용자 이름과 암호를 입력하여 모든 애플리케이션에 로그인할 수 있도록 합니다.
 
-![](assets/overview-sso-wf-fed-only.png)
+![SSO 연결됨](assets/overview-sso-wf-fed-only.png)
 
 
 ## 방화벽 구성

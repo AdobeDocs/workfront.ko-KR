@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행합니다.
 
-   * 그룹 관리자가 그룹에 대한 환경 설정을 구성할 수 있도록 하려면 ![](assets/unlock-toggle-button.png) 잠금을 해제하세요.
+   * 그룹 관리자가 그룹의 환경 설정을 구성할 수 있도록 하려면 ![잠금 해제 토글](assets/unlock-toggle-button.png)을 잠금 해제하세요.
    * 모든 그룹이 환경 설정에 대한 구성을 사용하도록 하려면 구성 설정이 잠겨 있는지(기본값) 확인합니다.
 
      >[!IMPORTANT]

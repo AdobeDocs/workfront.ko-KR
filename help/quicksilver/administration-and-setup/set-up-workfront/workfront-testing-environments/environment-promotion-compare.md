@@ -8,9 +8,10 @@ description: 여러 환경의 개체를 비교하여 환경 프로모션 패키�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
+exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -85,7 +86,7 @@ ht-degree: 0%
 
 특정 객체 차이를 보려면 다음과 같이 하십시오.
 
-1. 해당 개체의 줄에서 돋보기 아이콘 ![](assets/compare-icon.png)을(를) 클릭합니다.
+1. 해당 개체에 대한 줄에서 돋보기 아이콘 ![비교 아이콘](assets/compare-icon.png)을 클릭합니다.
 
    해당 오브젝트의 모든 필드가 있는 창이 열립니다. 차이점은 빨간색으로 표시됩니다.
 

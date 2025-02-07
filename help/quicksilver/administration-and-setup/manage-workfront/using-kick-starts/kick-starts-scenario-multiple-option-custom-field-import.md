@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -154,7 +154,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
    >
    >Workfront 데이터베이스의 개체 이름에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-explorer.md)를 참조하십시오.
    >
-   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   >![데이터 내보내기에 포함된 시트](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. 다음 정보의 형식이 올바른지 확인합니다.
@@ -206,7 +206,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
    자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
-   ![](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![매개 변수 시트를 채웠습니다](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. **`POPT Parameter Options`** 시트를 선택하고 다음의 필수 열에 각 사용자 지정 필드의 옵션에 대한 정보를 추가하십시오.
 
@@ -228,7 +228,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
    * **`setLabel`** 및 `**setValue`** 열에는 일반적으로 동일한 정보가 포함되며 Workfront UI에서 원하는 이름을 반영해야 합니다. 옵션의 값은 보고서에 표시되는 이름인 반면 레이블은 오브젝트에 첨부할 때 사용자 정의 양식에 표시됩니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
    * **`setIsHidden`** = 옵션을 숨기려면 `TRUE`을(를) 입력합니다.
 
-   ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![매개 변수 시트를 채웠습니다](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
 1. (선택 사항) 나중에 새 필드를 추가할 수 있는 사용자 정의 양식을 만들려면 **`CTGY Category`** 시트를 선택하고 사용자 정의 양식 정보에 필요한 다음 열을 업데이트하십시오.
@@ -259,7 +259,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
    * **`setName`** = Workfront 인터페이스에 표시하려는 사용자 정의 양식의 이름입니다.
 
-     ![](assets/category-sheet-filled-out-kick-starts.png)
+     ![범주 시트 작성됨](assets/category-sheet-filled-out-kick-starts.png)
 
 1. 스프레드시트를 컴퓨터에 .xls 또는 .xlsx 파일로 저장합니다. Excel 스프레드시트가 작성되었으며 이제 Workfront으로 가져올 수 있습니다.
 
@@ -277,11 +277,11 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 1. 컴퓨터에서 준비한 Excel 스프레드시트를 검색하고 찾으면 선택합니다. Workfront이 파일을 인식하면 업로드 버튼이 파란색으로 바뀝니다.
 1. **업로드**&#x200B;를 클릭합니다.
 
-   ![](assets/kick-start-file-selected-and-upload-blue-button.png)
+   ![선택한 파일 및 업로드 단추](assets/kick-start-file-selected-and-upload-blue-button.png)
 
 1. 가져오기가 성공했다는 알림이 표시됩니다. 가져오는 정보의 양에 따라 이 단계는 몇 초에서 1분이 소요될 수 있습니다.
 
-   ![](assets/kick-start-successful.png)
+   ![킥스타트 성공](assets/kick-start-successful.png)
 
    새로운 사용자 정의 필드 및 양식은 이제 Workfront 시스템에 있습니다. 설정의 사용자 지정 Forms 영역에서 찾을 수 있습니다.
 
@@ -294,7 +294,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
 1. (조건부) 가져오기에 성공하지 못하면 문제가 무엇인지에 대한 오류 메시지가 표시됩니다. 문제가 발생한 필드, 시트 및 행 번호를 식별하고 Excel 파일의 정보를 수정한 다음 파일을 다시 가져오십시오.
 
-   ![](assets/kick-start-error.png)
+   ![킥스타트 오류](assets/kick-start-error.png)
 
 1. (조건부) 오류 메시지에 설명된 대로 문제가 무엇인지에 따라 일부 정보를 이미 가져올 수 있습니다. 시트를 다시 가져오려면 먼저 다음 중 하나를 수행해야 합니다.
 

@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '900'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Adobe Workfront 관리자는 Workfront에서 승인 프로세스에 대한 전�
 
 1. **프로세스** > **승인**&#x200B;을 클릭합니다.
 
-1. **승인** 영역 이름 옆의 **설정** 아이콘 ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+1. **승인** 영역 이름 옆에 있는 **설정** 아이콘 ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
 1. 표시되는 **승인 설정** 상자에서 다음 정보를 지정합니다.
 

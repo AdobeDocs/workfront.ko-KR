@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '828'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
 
 1. 왼쪽 패널에서 **전자 메일** > **알림**> **전자 메일 서식 파일**&#x200B;을 클릭합니다.
 
-   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![전자 메일 템플릿 탭](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. **새 전자 메일 서식 파일**&#x200B;을 클릭합니다.
 
@@ -239,7 +239,7 @@ HTML 서식을 지정하면 다음 섹션에 표시된 대로 이메일 템플�
 
 이렇게 하면 다음과 유사한 이메일이 생성됩니다.
 
-![](assets/project-became-late-email.png)
+![프로젝트가 지연된 전자 메일이 됨](assets/project-became-late-email.png)
 
 #### 미리 알림을 시작하려는 작업 또는 문제 {#task-or-issue-about-to-start-reminder-example}
 

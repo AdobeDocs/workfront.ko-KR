@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 0%
+source-wordcount: '728'
+ht-degree: 1%
 
 ---
 
@@ -105,10 +105,10 @@ Workfront에 대한 방화벽을 구성하려면 네트워크 관리자가 추�
 
    클러스터가 **기본 정보** 섹션의 오른쪽 상단 근처에 표시됩니다.
 
-   ![](assets/locate-cluster.png)
+   ![클러스터 찾기](assets/locate-cluster.png)
 
 1. Workfront 플랜을 보려면 **라이선스**&#x200B;를 선택하세요.
 
    플랜이 페이지의 오른쪽 상단 근처에 표시됩니다.
 
-   ![](assets/locate-plan.png)
+   ![계획 찾기](assets/locate-plan.png)

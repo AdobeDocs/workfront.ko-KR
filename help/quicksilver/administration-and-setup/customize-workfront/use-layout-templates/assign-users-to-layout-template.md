@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    최근에 추가된 이름이 파란색 배경과 함께 표시됩니다. 이 기능은 방금 추가한 이름과 이미 목록에 있는 이름을 구분할 수 있으므로 기존 레이아웃 템플릿을 편집할 때 유용합니다.
 
-   다른 레이아웃 템플릿에 이미 할당된 사용자, 작업 역할, 팀 또는 그룹의 이름 오른쪽에 정보 아이콘 ![](assets/info-icon.png)이(가) 표시됩니다. 아이콘 위로 마우스를 가져가면 해당 레이아웃 템플릿의 이름을 볼 수 있으며 기존 할당을 재정의할지 여부를 결정할 수 있습니다.
+   다른 레이아웃 템플릿에 이미 할당된 사용자, 작업 역할, 팀 또는 그룹의 이름 오른쪽에 정보 아이콘 ![정보 아이콘](assets/info-icon.png)이 표시됩니다. 아이콘 위로 마우스를 가져가면 해당 레이아웃 템플릿의 이름을 볼 수 있으며 기존 할당을 재정의할지 여부를 결정할 수 있습니다.
 
 1. 필요에 따라 레이아웃 템플릿을 다른 사용자, 작업 역할, 팀 또는 그룹에 할당하려면 앞의 두 단계를 반복합니다.
 

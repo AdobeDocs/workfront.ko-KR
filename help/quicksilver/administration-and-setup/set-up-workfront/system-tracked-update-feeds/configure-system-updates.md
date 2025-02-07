@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 7%
+source-wordcount: '899'
+ht-degree: 8%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 7%
 >
 >업데이트 피드에서 최대 300개의 기본 제공 및 사용자 지정 필드를 추적할 수 있습니다. 최대 필드 수를 추적하고 [!UICONTROL 모든 필드] 하위 탭에 표시되지 않는 추가 필드를 추적하려면 새 필드를 추적하려면 먼저 추적된 필드 일부를 제거해야 합니다. 업데이트 필드에서 필드를 제거하는 방법에 대한 자세한 내용은 [추적하지 않을 필드 제거](#remove-fields-that-you-don-t-want-tracked)를 참조하십시오.
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL 인터페이스]** > **[!UICONTROL 피드 업데이트]**&#x200B;를 클릭합니다.
 
@@ -111,7 +111,7 @@ ht-degree: 7%
 
 [!DNL Workfront] 인터페이스 전체에서 특정 개체 유형에 대해 시스템에서 추적하지 않으려는 필드를 제거할 수 있습니다.
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
 1. **[!UICONTROL 인터페이스]** > **[!UICONTROL 피드 업데이트]**&#x200B;를 클릭합니다.
 
@@ -198,7 +198,7 @@ ht-degree: 7%
 
 [!DNL Workfront]이(가) 추적할 작업을 구성하려면 다음을 수행하십시오.
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
 1. **[!UICONTROL 인터페이스]** > **[!UICONTROL 피드 업데이트]**&#x200B;를 클릭합니다.
 

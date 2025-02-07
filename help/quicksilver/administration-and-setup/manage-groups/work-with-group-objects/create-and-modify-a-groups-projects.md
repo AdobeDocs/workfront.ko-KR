@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,10 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭합니다.
 
 1. 프로젝트를 만들거나, 보거나, 작업할 그룹의 이름을 클릭합니다.
-1. 왼쪽 패널에서 **프로젝트** ![](assets/projects-in-main-menu.png)을(를) 클릭하여 그룹과 연결된 프로젝트 목록을 봅니다.
+1. 왼쪽 패널에서 **프로젝트** ![주 메뉴의 프로젝트](assets/projects-in-main-menu.png)를 클릭하여 그룹과 연결된 프로젝트 목록을 봅니다.
 
 1. 다음 중 하나를 수행합니다.
 

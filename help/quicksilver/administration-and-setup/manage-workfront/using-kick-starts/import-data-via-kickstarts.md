@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
 source-wordcount: '2754'
 ht-degree: 6%
@@ -79,7 +79,7 @@ ht-degree: 6%
 {{step-1-to-setup}}
 
 <!--
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  -->
 
 1. **시스템** > **데이터 가져오기(킥스타트)**&#x200B;를 클릭합니다.
 
@@ -106,12 +106,12 @@ ht-degree: 6%
      <tr> 
       <td scope="col"> <p>대시보드</p> <p>시스템의 모든 대시보드를 내보낼 수 있습니다. 단일 내보내기에서 최대 100개의 특정 대시보드를 선택할 수 있습니다.</p> </td> 
       <td scope="col">ZIP 파일로 내보내기</td> 
-      <td scope="col"> <p>매개변수</p> <p>설명 텍스트</p><p>매개변수 옵션</p> <p>매개변수 그룹</p> <p>범주 매개변수</p> <p>범주</p> <p>보고서</p> <p>포털 탭 섹션</p> <p>대시보드</p> <p>환경 설정</p> </td> 
+      <td scope="col"> <p>매개변수</p> <p>설명 텍스트</p><p>매개변수 옵션</p> <p>매개변수 그룹</p> <p>범주 매개변수</p> <p>카테고리</p> <p>보고서</p> <p>포털 탭 섹션</p> <p>대시보드</p> <p>환경 설정</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>보고서</p> <p>시스템의 모든 보고서를 내보낼 수 있습니다. 단일 내보내기에서 최대 100개의 특정 보고서를 선택할 수 있습니다.</p> <p>킥스타트는 텍스트 모드 필터 또는 그룹화를 지원하지 않습니다. 내보내기에 성공하려면 보고 필터 및 그룹화를 표준 모드로 전환해야 합니다.</p> </td> 
       <td scope="col">ZIP 파일로 내보내기 </td> 
-      <td scope="col"> <p scope="col">매개변수</p> <p scope="col">설명 텍스트</p> <p scope="col">매개변수 옵션</p> <p scope="col">매개변수 그룹</p> <p scope="col">범주 매개변수</p> <p scope="col">범주</p> <p scope="col">보고서</p> <p scope="col">환경 설정</p> </td> 
+      <td scope="col"> <p scope="col">매개변수</p> <p scope="col">설명 텍스트</p> <p scope="col">매개변수 옵션</p> <p scope="col">매개변수 그룹</p> <p scope="col">범주 매개변수</p> <p scope="col">카테고리</p> <p scope="col">보고서</p> <p scope="col">환경 설정</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>승인</p> </td> 
@@ -121,7 +121,7 @@ ht-degree: 6%
      <tr> 
       <td scope="col"> <p>사용자 정의 데이터</p> </td> 
       <td scope="col"> <p>Excel 파일로 내보내기</p> </td> 
-      <td scope="col"> <p>매개변수</p> <p>설명 텍스트</p>  <p>매개변수 옵션</p> <p>매개변수 그룹</p> <p>범주 매개변수</p> <p>범주</p> <p>환경 설정</p> </td> 
+      <td scope="col"> <p>매개변수</p> <p>설명 텍스트</p>  <p>매개변수 옵션</p> <p>매개변수 그룹</p> <p>범주 매개변수</p> <p>카테고리</p> <p>환경 설정</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>경비 유형</p> </td> 
@@ -216,9 +216,9 @@ ht-degree: 6%
       <td> <p> 참고</p> <p>환경 설정 </p> </td> 
      </tr> 
      <tr> 
-      <td>Portfolio</td> 
+      <td>포트폴리오</td> 
       <td>Excel 파일로 내보내기</td> 
-      <td> <p> Portfolio</p> <p>환경 설정 </p> </td> 
+      <td> <p> 포트폴리오</p> <p>환경 설정 </p> </td> 
      </tr> 
      <tr> 
       <td>프로젝트</td> 
@@ -478,7 +478,7 @@ Excel 템플릿을 데이터로 채운 후 해당 데이터를 Workfront에 업�
 
 템플릿 스프레드시트 데이터를 Workfront으로 가져오려면 다음을 수행하십시오.
 
-<!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
+<!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
 {{step-1-to-setup}}
 

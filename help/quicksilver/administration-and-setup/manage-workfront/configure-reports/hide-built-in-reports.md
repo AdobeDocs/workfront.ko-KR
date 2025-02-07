@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
@@ -60,6 +60,6 @@ Adobe Workfront에는 사용자가 액세스하고 볼 수 있는 광범위한 �
 1. 기본 제공 보고서를 숨기려는 액세스 수준을 선택한 다음 **편집**&#x200B;을 클릭합니다.
 1. **보고서** 개체의 경우 사용 가능한 가장 높은 수준의 액세스 옆에 있는 **설정** 아이콘을 클릭한 다음 **기본 제공 보고서 보기**&#x200B;를 선택 취소합니다.
 
-   ![](assets/edit-access-level.png)
+   ![액세스 수준 편집](assets/edit-access-level.png)
 
 1. **저장**&#x200B;을 클릭합니다.

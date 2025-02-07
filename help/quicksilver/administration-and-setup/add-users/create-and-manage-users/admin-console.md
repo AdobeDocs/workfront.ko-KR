@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -102,13 +102,13 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
 
 1. [Adobe Admin Console 페이지](https://adminconsole.adobe.com/)에서 위쪽 탐색 막대의 **제품** 탭을 선택한 다음 **Workfront**&#x200B;을 선택합니다.
 
-   <!--![](assets/admin-product-1.png)-->
+   <!--![Admin Console product](assets/admin-product-1.png)-->
 
 1. 표시되는 목록에서 맨 위에 있는 링크를 선택합니다.
 
    사용자가 작업하는 프로덕션 인스턴스입니다.
 
-   <!--![](assets/instances-1.png)-->
+   <!--![Admin Console instances](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -119,7 +119,7 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
 
 1. **제품 프로필** 탭을 선택한 상태로 표시되는 목록에서 Workfront 제품 프로필 링크의 이름을 클릭합니다.
 
-   ![](assets/prod-profile-1.png)
+   ![제품 프로필](assets/prod-profile-1.png)
 
    이 목록에는 Workfront의 프로덕션 인스턴스에 이미 할당된 모든 사용자가 포함됩니다.
 
@@ -145,7 +145,7 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
 1. **관리자 추가**&#x200B;를 선택합니다.
 1. **제품 프로필 관리자 추가** 상자에서 추가하려는 관리자의 전자 메일 주소 또는 이름을 입력한 다음 **저장**&#x200B;을 선택합니다.
 
-   ![](assets/add-admin-1.png)
+   ![관리자 추가](assets/add-admin-1.png)
 
    시스템 관리자는 Workfront에서 생성됩니다.
 
@@ -205,7 +205,7 @@ Workfront에서 사용자를 만드는 방법에 대한 지침은 [사용자 추
 
 {{step-1-to-users}}
 
-1. 사용자를 선택한 다음 **자세히** 아이콘 ![](assets/more-icon.png)을(를) 클릭합니다.
+1. 사용자를 선택한 다음 **자세히** 아이콘 ![추가 아이콘](assets/more-icon.png)을 클릭합니다.
 
 1. 사용자를 승인하려면 **승인**&#x200B;을 클릭한 다음 **제출**&#x200B;을 클릭합니다.
 

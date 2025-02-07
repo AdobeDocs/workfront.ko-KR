@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ You must have at least one request type selected. You can select multiple reques
 1. **[!UICONTROL 문제]** 탭을 클릭합니다.
 1. **[!UICONTROL 문제]** 탭의 맨 위에서 요청 유형의 이름을 마우스로 가리킨 다음 표시되는 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 
-   ![](assets/edit-request-type-name-nwe.png)
+   ![요청 유형 이름 편집](assets/edit-request-type-name-nwe.png)
 
 1. 표시되는 상자에 새 이름을 입력한 다음 **[!UICONTROL Enter]**&#x200B;를 누릅니다.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
    >
    >작업 유형 드롭다운 메뉴의 옵션은 선택한 감사 로그에 따라 달라집니다.
 
-   ![](assets/audit-logs.jpg)
+   ![감사 로그](assets/audit-logs.jpg)
 
 1. **적용**&#x200B;을 클릭합니다.
 1. (선택 사항) 필터에 대한 변경 내용을 재설정하려면 **필터 지우기**&#x200B;를 클릭합니다.

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 >
 >현재 프로젝트, 작업 및 문제에 대해 개체 헤더 맞춤화를 사용할 수 있습니다.
 
-![](assets/object-header-fields.png)
+![개체 헤더 필드](assets/object-header-fields.png)
 
 레이아웃 템플릿 만들기에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
@@ -80,7 +80,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![개체 머리글 필드 숨기기 및 이동 아이콘](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. 오브젝트의 헤더에는 최대 5개의 필드가 있을 수 있습니다.
 이미 5개의 필드를 선택한 경우 새 필드를 추가하기 전에 필드를 제거해야 합니다.
@@ -95,7 +95,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
    >* 문제의 헤더에 &quot;해결된 사람&quot; 필드를 추가할 때 문제와 연결된 해결 개체가 있으면 필드가 &quot;해결 중 문제, 작업 또는 프로젝트&quot;로 변경됩니다.
 
 
-   ![](assets/add-field-to-header-in-lt-list.png)
+   ![헤더에 필드 추가](assets/add-field-to-header-in-lt-list.png)
 
 
 1. (선택 사항) 다른 순서로 추가된 필드를 끌어다 놓습니다.

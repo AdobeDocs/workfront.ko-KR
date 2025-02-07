@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 3%
 
 ---
@@ -226,7 +226,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-&#42; 그룹 관리자의 액세스 수준에서 **사용자** 설정에 대해 **편집**&#x200B;을(를) 선택해야 합니다. **설정 미세 조정** ![](assets/gear-icon-in-access-levels.png)에서 **사용자 관리자(그룹 사용자)**&#x200B;를 선택합니다. 자세한 내용은 문서 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)에서 [사용자 정의 액세스 수준을 사용하여 사용자를 편집할 수 있는 사용자 액세스 구성](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) 섹션을 참조하십시오.
+&#42; 그룹 관리자의 액세스 수준에서 **사용자** 설정에 대해 **편집**&#x200B;을(를) 선택해야 합니다. **설정 미세 조정** ![설정 미세 조정 아이콘](assets/gear-icon-in-access-levels.png)에서 **사용자 관리자(그룹 사용자)**&#x200B;를 선택합니다. 자세한 내용은 문서 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)에서 [사용자 정의 액세스 수준을 사용하여 사용자를 편집할 수 있는 사용자 액세스 구성](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) 섹션을 참조하십시오.
 
 &#42;&#42; 그룹 관리자의 액세스 수준에서 이 작업에 대한 액세스를 사용하도록 설정해야 합니다. 자세한 내용은 [특정 영역에 대한 관리자 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
 

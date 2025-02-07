@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ Adobe Workfront 관리자는 다음 문서에 설명된 대로 액세스 수준�
 ## 사용자 정의 액세스 수준을 사용하여 프로젝트에 대한 사용자 액세스 구성
 
 1. [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에 설명된 대로 액세스 수준을 만들거나 편집하십시오.
-1. 프로젝트 오른쪽의 **보기** 또는 **편집** 단추에서 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
+1. 프로젝트 오른쪽에 있는 **보기** 또는 **편집** 단추에서 톱니바퀴 아이콘 ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
 
-   ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![프로젝트 복사를 위한 세부 조정 설정](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >

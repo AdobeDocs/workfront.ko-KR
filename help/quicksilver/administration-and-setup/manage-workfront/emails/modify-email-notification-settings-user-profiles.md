@@ -9,9 +9,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Adobe Workfront 관리자이거나 다른 사용자의 설정을 편집할 수 �
 
 1. 범주를 확장하여 해당 범주와 관련된 알림 설정을 봅니다.
 
-   알림이 선택된 다른 사용자의 알림과 일치하지 않는 사용자를 한 명 이상 선택한 경우 해당 알림의 범주 확인란에 확인 표시 대신 가로줄 ![](assets/straight-line-instead-of-checkmark.jpg)이(가) 포함됩니다.
+   알림이 선택된 다른 사용자의 알림과 일치하지 않는 사용자를 한 명 이상 선택한 경우 해당 알림에 대한 범주 확인란에 확인 표시 대신 확인](assets/straight-line-instead-of-checkmark.jpg)이 아닌 가로 줄 ![줄이 포함됩니다.
 
 
 1. 사용자가 매일 또는 즉시 수신할 알림을 클릭하거나 수신을 중지할 알림을 지우십시오.
@@ -80,7 +80,7 @@ Adobe Workfront 관리자이거나 다른 사용자의 설정을 편집할 수 �
 
 1. 일별 요약으로 보낼 알림을 선택한 경우 **일별 요약 전자 메일 보내기** 메뉴에서 **알림** 섹션의 맨 위에 있는 요약으로 배달할 시간을 선택하십시오.
 
-   ![](assets/daily-digest-time.png)
+   ![일별 요약 시간](assets/daily-digest-time.png)
 
    일별 요약에는 선택한 시간보다 24시간 전에 알림 기준을 충족하는 이벤트가 포함됩니다. 사용자는 각 알림 유형에 대해 일별 요약 이메일을 1개씩 수신합니다.
 

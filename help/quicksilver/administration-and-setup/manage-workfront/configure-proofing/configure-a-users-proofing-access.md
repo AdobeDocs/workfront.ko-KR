@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Workfront 지원에 문의하고 요청을 제출하여 모든 사용자에게 W
 
 1. Workfront에서 전역 탐색 막대에 있는 Workfront Proof 아이콘을 클릭하여 Workfront Proof에 액세스합니다.
 
-   ![](assets/proof-access-proofhq-350x39.png)
+   ![증명 아이콘](assets/proof-access-proofhq-350x39.png)
 
 1. Workfront Proof의 오른쪽 상단 모서리에서 **계정 설정**&#x200B;을 클릭한 다음, **설정** 탭을 클릭합니다.
 

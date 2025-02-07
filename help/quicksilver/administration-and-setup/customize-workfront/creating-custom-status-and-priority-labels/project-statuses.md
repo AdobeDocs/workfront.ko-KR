@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Workfront 관리자는 시스템 수준 프로젝트 상태 목록에 액세스�
 
    Workfront에서 사용할 수 있는 프로젝트 상태가 이 탭에 나열됩니다.
 
-   ![](assets/project-status.png)
+   ![프로젝트 상태](assets/project-status.png)
 
    각 기본 제공 시스템 프로젝트 상태에 대한 자세한 내용은 [시스템 프로젝트 상태 개요](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)를 참조하십시오.
 

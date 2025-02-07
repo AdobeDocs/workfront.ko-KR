@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: be7377a0c4d933823f65ed09d2b1fc091779f252
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1744'
 ht-degree: 5%
 
 ---
@@ -386,7 +386,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 
 사용자가 오브젝트로 수행할 수 있는 활동은 해당 액세스 수준과 해당 오브젝트에 부여된 권한의 조합으로 정의됩니다.
 
-![](assets/security-model-hierachy-copy.png)
+![보안 모델 계층 구조](assets/security-model-hierachy-copy.png)
 
 ### 개체 공유를 통해 권한 부여
 

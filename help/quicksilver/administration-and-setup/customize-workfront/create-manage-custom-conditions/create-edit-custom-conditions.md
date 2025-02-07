@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '633'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작
 
    기존 조건을 편집하려면 편집할 조건을 마우스로 가리킨 다음 맨 오른쪽에 나타나는 **편집** 아이콘을 클릭합니다.
 
-   ![](assets/custom-condition-edit-nwe.jpg)
+   ![사용자 지정 조건](assets/custom-condition-edit-nwe.jpg)
 
 1. 다음 옵션을 사용하여 사용자 지정 조건을 구성합니다.
 
@@ -110,21 +110,21 @@ Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작
    >
    >세 가지 객체 유형 모두에 대해 조건 용어와 색상을 표준화할 수 있습니다. 이렇게 하려면 한 탭(프로젝트, 작업, 문제)의 이름 조건 및 색상 16진수 코드를 다른 두 탭의 해당 조건에 복사합니다.
 
-1. (선택 사항) ![](assets/move-icon---dots.png) 조건을 새 위치로 드래그하여 목록의 순서를 변경합니다.
+1. (선택 사항) ![이동 아이콘](assets/move-icon---dots.png) 조건을 새 위치로 드래그하여 목록의 순서를 변경합니다.
 
    이렇게 하면 프로젝트, 작업 및 문제에 조건이 표시되는 순서가 변경됩니다.
 
    * 사용자가 프로젝트를 편집할 때
 
-     ![](assets/change-condition-edit-project.png)
+     ![프로젝트를 편집할 때 상태 변경](assets/change-condition-edit-project.png)
 
    * 사용자가 업데이트 탭에서 작업 또는 문제에 대한 조건을 변경할 때:
 
-     ![](assets/change-condition-update-comment.png)
+     ![댓글을 업데이트할 때 조건 변경](assets/change-condition-update-comment.png)
 
    * 사용자가 목록 보기에서 작업 또는 문제에 대한 조건을 변경할 때:
 
-     ![](assets/change-conditions-list-dropdown-only.png)
+     ![목록의 조건 변경](assets/change-conditions-list-dropdown-only.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 

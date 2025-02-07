@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '520'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ Workfront 관리자는 시스템의 모든 사용자 또는 단일 그룹에 대
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![](assets/statuses.png)
+![상태](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Workfront 관리자는 시스템의 모든 사용자 또는 단일 그룹에 대
 1. 왼쪽 패널에서 **프로젝트 환경 설정 > 상태**&#x200B;를 클릭합니다.
 1. (조건부) 그룹에 대한 상태를 재정렬하는 경우 오른쪽 상단 모서리의 상자에 그룹 이름을 입력한 다음 표시될 때 이름을 클릭합니다.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![시스템 상태](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. 표시되는 상태 목록 위에서 **프로젝트** 또는 **작업** 탭을 클릭합니다.
 
@@ -137,12 +137,12 @@ Workfront 관리자는 시스템의 모든 사용자 또는 단일 그룹에 대
 
 ## 문제에 대한 상태 재정렬
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **설정** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
 1. **프로젝트 환경 설정 > 상태를 클릭합니다.**
 1. (조건부) 그룹에 대한 상태를 재정렬하는 경우 오른쪽 상단 모서리의 상자에 그룹 이름을 입력한 다음 표시될 때 이름을 클릭합니다.
 
-   ![](assets/issue-statuses-group-name.png)
+   ![그룹에 대한 문제 상태](assets/issue-statuses-group-name.png)
 
 1. **문제** 탭을 클릭합니다.
 1. (선택 사항) 문제 유형(**버그 보고서**, **순서 변경**, **문제** 또는 **요청**)을 선택합니다.

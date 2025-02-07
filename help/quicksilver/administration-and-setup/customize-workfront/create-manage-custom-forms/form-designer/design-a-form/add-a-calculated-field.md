@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2422'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 >
 >계산된 표현식을 변경하면 개체의 필드 값이 오래된 값이 될 수 있습니다. 이러한 필드에서 항상 최신 계산을 보려면 다음 중 하나를 수행합니다.
 >
->* 첨부된 사용자 정의 양식에서 데이터를 편집한 개체를 저장한 후 개체의 기본 페이지에서 자세히 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 사용자 정의 표현식을 다시 계산합니다.
+>* 첨부된 사용자 정의 양식에서 데이터를 편집한 개체를 저장한 후 개체의 기본 페이지에서 자세히 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 사용자 정의 표현식을 다시 계산합니다.
 >* 개체를 일괄 편집할 때 [사용자 정의 표현식 다시 계산] 옵션을 선택합니다.
 >* 사용자 정의 양식에서 계산된 사용자 정의 필드를 편집할 때 이전 계산 업데이트 옵션을 선택합니다.
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 화면 왼쪽 상단에서 **필드 라이브러리**&#x200B;를 클릭합니다.
 
-   ![](assets/field-library.png)
+   ![필드 라이브러리](assets/field-library.png)
 
 1. 검색 상자를 사용하거나 **계산됨** 섹션을 확장하여 필요한 계산된 필드를 찾은 다음 사용자 정의 양식에서 표시할 필드를 드래그합니다.
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 1. 화면 왼쪽에서 **계산됨**&#x200B;을 찾아 캔버스의 섹션으로 끕니다.
 
-   ![](assets/drag-field-to-section.png)
+   ![필드를 섹션으로 드래그](assets/drag-field-to-section.png)
 
 1. 화면 오른쪽에서 추가하려는 사용자 정의 필드 유형에 사용할 수 있는 옵션을 구성합니다.
 
@@ -296,14 +296,14 @@ ht-degree: 0%
       >다음 중 원하는 작업을 수행하여 계산에 도움을 받을 수 있습니다.
       > 
       >* 계산에서 식 위로 마우스를 가져가면 설명, 사용 방법을 보여 주는 예제 및 문서 [계산된 데이터 식의 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)에서 자세한 정보에 대한 &quot;자세히 알아보기&quot; 링크를 볼 수 있습니다.
-      >  ![](assets/hover-expression-help-text.jpg)
+      >  ![식 도움말 텍스트](assets/hover-expression-help-text.jpg)
       >* 색상 코딩을 사용하여 추가한 구성 요소를 식별합니다. 표현식은 파란색으로 표시되고 필드는 녹색으로 표시됩니다.
-      >  ![](assets/colors-fields-expressions.jpg)
+      >  ![필드 식의 색](assets/colors-fields-expressions.jpg)
       >* 가면서 분홍색으로 강조 표시된 계산 오류를 찾습니다. 강조 표시된 오류 위로 마우스를 가져가 원인에 대한 간단한 설명을 표시할 수 있습니다.
-      >  ![](assets/error-help.png)
+      >  ![오류 도움말](assets/error-help.png)
       >* 계산 아래 영역에서 기존 Workfront 객체에서 결과를 미리 봅니다.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![](assets/preview-calc.jpg)
+      >  ![계산 미리 보기](assets/preview-calc.jpg)
       >* 왼쪽에 표시되는 줄 번호를 사용하여 긴 계산에서 참조 표현식입니다.
 
 +++

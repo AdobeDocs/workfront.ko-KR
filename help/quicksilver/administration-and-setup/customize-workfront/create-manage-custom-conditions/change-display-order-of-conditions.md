@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 * 사용자가 프로젝트를 편집할 때
 
-  ![](assets/change-condition-edit-project.png)
+  ![프로젝트를 편집할 때 상태 변경](assets/change-condition-edit-project.png)
 
 * 사용자가 작업 또는 문제에 대한 조건을 변경할 때
 
-  ![](assets/change-conditions-list-dropdown-only.png)
+  ![목록의 조건 변경](assets/change-conditions-list-dropdown-only.png)
 
 ## 액세스 요구 사항
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. **프로젝트**,**작업** 또는 **문제** 탭을 선택하십시오.
 
-1. 순서를 변경하려면 ![](assets/move-icon---dots.png) 조건을 드래그합니다.
+1. ![이동 아이콘](assets/move-icon---dots.png) 조건을 드래그하여 순서를 변경합니다.
 
    새 주문이 자동으로 저장됩니다.
 

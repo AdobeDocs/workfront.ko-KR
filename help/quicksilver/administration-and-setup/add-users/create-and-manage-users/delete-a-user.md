@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 {{step-1-to-users}}
 
-1. 삭제할 사용자를 한 명 이상 선택하고 기타 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+1. 삭제할 사용자를 한 명 이상 선택하고 기타 메뉴 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 1. 표시되는 상자에서 **삭제**&#x200B;를 클릭하여 삭제를 확인합니다.
 
    사용자 삭제 프로세스는 백그라운드 프로세스로 실행되므로 사용자가 삭제될 때 Workfront을 계속 사용할 수 있습니다.

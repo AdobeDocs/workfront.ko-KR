@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -31,19 +31,19 @@ Workfront 관리자는 다음 위치에 로고가 있는 Workfront을 브랜딩�
 
 * 로그인 화면
 
-  ![](assets/brand-login-screen-nwe-adobe.jpg)
+  로그인 화면의 ![브랜드](assets/brand-login-screen-nwe-adobe.jpg)
 
 * 상위 탐색 영역
 
-  ![](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![위쪽 탐색의 브랜드](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * 메인 메뉴
 
-  ![](assets/brand-main-menu-adobe.jpg)
+  주 메뉴의 ![브랜드](assets/brand-main-menu-adobe.jpg)
 
 로그인 화면의 배경 이미지와 색상을 변경할 수도 있습니다.
 
-![](assets/wf_banner_on_login_screen-adobe.png)
+로그인 화면의 ![배너](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >

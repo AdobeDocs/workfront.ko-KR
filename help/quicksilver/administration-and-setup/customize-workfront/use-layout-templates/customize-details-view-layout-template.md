@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Adobe Workfront 관리자는 작업, 문제, 문서, 프로그램 또는 포트폴리오를 보는 동안 사용자가 왼쪽 패널의 세부 정보 아이콘 ![](assets/project-details-icon.png)을(를) 클릭할 때 표시되는 정보를 결정할 때 레이아웃 템플릿을 사용할 수 있습니다.
+Adobe Workfront 관리자는 작업, 문제, 문서, 프로그램 또는 포트폴리오를 보는 동안 사용자가 왼쪽 패널의 세부 정보 아이콘 ![세부 정보 아이콘](assets/project-details-icon.png)을 클릭할 때 표시되는 정보를 결정할 때 레이아웃 템플릿을 사용할 수 있습니다.
 
 <!--
 or billing record
@@ -38,22 +38,22 @@ or billing record
 
 * Create Task와 같은 &quot;Create object&quot; 상자
 
-  ![](assets/new-task-dialog.png)
+  ![새 작업 대화 상자](assets/new-task-dialog.png)
 
 
 * 작업 편집, 문제 편집 및 프로젝트 편집과 같이 오브젝트를 편집할 때 &quot;오브젝트 편집&quot; 화면
 
-  ![](assets/edit-task-screen.png)
+  ![작업 화면 편집](assets/edit-task-screen.png)
 
 
 * 오브젝트를 일괄 편집할 때 &quot;오브젝트 편집&quot; 화면이 표시됩니다. 현재 이 기능은 프로젝트 일괄 편집에 대해 지원됩니다.
 
-  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![프로젝트 편집 사용자 지정](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* 작업 및 문제 목록에 대한 요약 패널 ![](assets/summary-panel-icon.png)
+* 작업 및 문제 목록에 대한 요약 패널 ![요약 패널](assets/summary-panel-icon.png)
 
-  ![](assets/summary-area.png)
+  ![요약 영역](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -100,14 +100,14 @@ or billing record
 ## 세부 정보 보기에 표시되는 사용자 지정
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
-1. **사용자에게 표시되는 항목 사용자 지정**&#x200B;에서 아래쪽 화살표 ![](assets/dropdown-arrow-12x12.png)을(를) 클릭한 다음 **프로젝트**, **작업**, **문제**, **프로그램** 또는 **Portfolio**&#x200B;을(를) 클릭합니다.
+1. **Portfolio에게 표시되는 내용을 사용자 지정**&#x200B;에서 아래쪽 화살표 ![아래쪽 화살표](assets/dropdown-arrow-12x12.png)를 클릭한 다음 **프로젝트**, **작업**, **문제**, **프로그램** 또는 **사용자를 클릭합니다.**
 <!--
 , or billing record
 -->
 
 1. **세부 정보** 섹션에서 다음 중 하나를 수행하여 사용자가 세부 정보 보기에서 보는 내용을 사용자 지정합니다.
 
-   * 섹션 머리글 ![](assets/move-icon---dots.png)을(를) 끌어 순서를 변경합니다.
+   * 순서를 변경하려면 섹션 머리글 ![이동 아이콘](assets/move-icon---dots.png)을 끕니다.
    * 다양한 영역(예: **개요**, **재무** 및 **사용자 지정 Forms**)에서 옵션을 활성화하거나 비활성화하여 표시하거나 숨깁니다.
 
      이러한 섹션 중 하나에 있는 모든 필드를 숨기면 전체 섹션이 숨겨집니다.

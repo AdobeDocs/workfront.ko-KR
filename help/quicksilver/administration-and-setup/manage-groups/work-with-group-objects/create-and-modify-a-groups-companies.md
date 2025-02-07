@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **그룹** ![그룹](assets/groups-icon.png)을 클릭합니다.
 
 1. 회사를 만들거나 수정할 그룹의 이름을 클릭합니다.
 1. 왼쪽 패널에서 **회사**&#x200B;를 클릭하여 그룹과 관련된 회사 및 그룹에 포함될 수 있는 하위 그룹을 나열합니다.
@@ -86,8 +86,8 @@ ht-degree: 0%
    >
    >액세스 수준의 회사에 대한 관리 액세스 권한이 있는 경우 목록 하단의 더 많은 회사 추가를 클릭할 수도 있습니다. 이렇게 하면 새 회사를 빠르게 구성할 수 있는 행이 추가됩니다.
 
-1. (선택 사항) 회사를 편집하거나 삭제하려면 하나 이상의 회사를 선택한 다음 도구 모음 단추를 사용하여 ![](assets/edit-icon.png)을(를) 편집하거나 ![](assets/delete.png)을(를) 삭제합니다.
+1. (선택 사항) 회사를 편집하거나 삭제하려면 하나 이상의 회사를 선택한 다음 도구 모음 단추를 사용하여 ![편집 아이콘](assets/edit-icon.png)을 편집하거나 ![삭제 아이콘](assets/delete.png)을(를) 삭제합니다.
 
    회사 편집에 대한 자세한 내용은 문서 [회사 만들기 및 편집](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)에서 [Workfront에서 회사 만들기 또는 편집](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) 섹션을 참조하십시오.
 
-1. (선택 사항) 회사 목록을 내보내려면 내보내기 아이콘 ![](assets/export.png)을(를) 클릭한 다음 내보낸 목록에 사용할 파일 형식을 선택합니다.
+1. (선택 사항) 회사 목록을 내보내려면 내보내기 아이콘 ![내보내기 아이콘](assets/export.png)을 클릭한 다음 내보낸 목록에 사용할 파일 형식을 선택합니다.

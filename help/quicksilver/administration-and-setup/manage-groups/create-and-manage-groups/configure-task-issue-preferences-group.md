@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -82,13 +82,13 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **그룹** ![그룹 아이콘](assets/groups-icon.png)을 클릭합니다.
 
 1. 잠금 해제된 작업 및 문제 환경 설정을 구성할 그룹의 이름을 클릭합니다.
 1. 그룹에 대해 표시되는 페이지의 왼쪽 패널에서 **작업 및 문제 환경 설정**&#x200B;을 클릭합니다.
 1. 표시되는 페이지에서 이 단계 아래의 5개 섹션 중 하나를 계속하여 새 작업 기본값, 문제, 삭제, 실제 날짜 및 액세스 영역에 대한 설정을 구성한 다음 **저장**&#x200B;을 클릭합니다.
 
-   구성해야 하는 환경 설정을 위해 잠금 아이콘 ![](assets/lock-toggle-button-dimmed.png) 위로 마우스를 가져가면 잠긴 도구 설명이 표시됩니다. Workfront 관리자에게 조직의 모든 그룹에 대해 잠금을 해제하도록 요청할 수 있습니다.
+   기본 설정을 구성하기 위해 잠금 아이콘 ![잠금 아이콘](assets/lock-toggle-button-dimmed.png) 위로 마우스를 가져가면 잠긴 것을 알려주는 도구 설명이 표시됩니다. Workfront 관리자에게 조직의 모든 그룹에 대해 잠금 해제를 요청할 수 있습니다.
 
    잠금이 해제된 경우 사용자와 다른 그룹 관리자는 고유한 그룹에 대해 별도로 구성할 수 있습니다. 또한 그룹 및 그룹 아래의 모든 하위 그룹에 대해 잠글 수 있습니다.
 

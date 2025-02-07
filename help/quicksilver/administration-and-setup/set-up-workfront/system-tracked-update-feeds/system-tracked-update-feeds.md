@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 0%
+source-wordcount: '390'
+ht-degree: 1%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 0%
 
   사용자 업데이트 구성에 대한 자세한 내용은 [사용자 업데이트에 대한 환경 설정 구성](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)을 참조하십시오.
 
-  ![](assets/updates-qs-350x125.png)
+  ![업데이트](assets/updates-qs-350x125.png)
 
 * **시스템 업데이트:** 시스템에서 자동으로 이루어집니다. 시스템 업데이트에는 항목에 발생한 변경 사항을 설명하는 간단한 메모가 포함되어 있습니다. 시스템 업데이트가 객체의 업데이트 섹션에 있는 시스템 활동 및 모든 탭에 표시됩니다.
 
   시스템 업데이트 피드와 사용 방법에 대한 자세한 내용은 [시스템 업데이트 구성](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)을 참조하십시오.
 
-  ![](assets/system-updates-example-unified-stream.png)
+  ![시스템 업데이트 예](assets/system-updates-example-unified-stream.png)
 
 
   <!--

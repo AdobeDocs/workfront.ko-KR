@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
    표시되는 목록에서 관리하는 그룹과 포함된 하위 그룹을 볼 수 있습니다. Adobe Workfront 관리자는 모든 그룹을 볼 수 있습니다.
 
 1. 레이아웃 템플릿을 만들거나 수정할 그룹의 이름을 클릭합니다.
-1. 왼쪽 패널에서 **레이아웃 템플릿** ![](assets/layout-templates-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **레이아웃 템플릿** ![레이아웃 템플릿 아이콘](assets/layout-templates-icon.png)을 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 

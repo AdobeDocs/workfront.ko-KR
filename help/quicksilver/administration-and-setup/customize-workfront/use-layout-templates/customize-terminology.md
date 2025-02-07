@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 조직에서
 1. 페이지의 오른쪽 상단 근처에 있는 **용어 설정**&#x200B;을 클릭합니다.
 1. 다음 중 하나를 수행합니다.
 
-   * Workfront에서 제공하는 대체 용어를 사용하려면 레이블 옆에 있는 아래쪽 화살표 ![](assets/dropdown-arrow.png)을(를) 클릭한 다음 드롭다운 목록에서 원하는 대체 레이블을 클릭합니다.
+   * Workfront에서 제공하는 대체 용어를 사용하려면 레이블 옆에 있는 아래쪽 화살표 ![아래쪽 화살표](assets/dropdown-arrow.png)를 클릭한 다음 드롭다운 목록에서 원하는 대체 레이블을 클릭합니다.
 
      >[!NOTE]
      >
@@ -99,7 +99,7 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 조직에서
        <tr>
         <td role="rowheader"><p>Workfront 개체</p></td>
         <td>
-          <p>Portfolio</p>
+          <p>포트폴리오</p>
           <p>프로그램</p>
           <p>프로젝트</p>
           <p>작업</p>

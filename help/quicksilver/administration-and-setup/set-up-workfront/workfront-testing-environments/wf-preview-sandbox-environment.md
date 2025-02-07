@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 >
 >액세스하고 있는 환경의 이름(미리보기)과 코드의 릴리스 버전이 배너에 표시됩니다. 해당 릴리스에 대한 자세한 내용을 보려면 **[!UICONTROL 새로운 기능 보기]**&#x200B;를 클릭하십시오.
 >
->![](assets/preview-banner-nwe-350x161.png)
+>![배너 미리 보기](assets/preview-banner-nwe-350x161.png)
 
 ## 미리보기 샌드박스 액세스
 

@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -97,9 +97,9 @@ Frame.io 사용자를 활성화하려면:
 
 {{step-1-to-users}}
 
-1. 사용자를 한 명 이상 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 사용자를 한 명 이상 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. 액세스 섹션에서 Frame.io의 프로젝트에 추가 확인란을 활성화한 다음 드롭다운 메뉴에서 **예**를 선택합니다.
-   ![](assets/add-to-frame-project.png)
+   ![프레임 프로젝트에 추가](assets/add-to-frame-project.png)
 
    >[!NOTE]
    >

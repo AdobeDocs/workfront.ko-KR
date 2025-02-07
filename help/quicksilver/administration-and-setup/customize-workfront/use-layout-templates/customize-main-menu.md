@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '639'
 ht-degree: 3%
 
 ---
@@ -98,7 +98,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
      >[!NOTE]
      >
-     >플랜 라이선스가 있는 사용자(현재 라이선스 모델)나 표준 라이선스가 있는 사용자(새 라이선스 모델)만 기본 메뉴의 사용자 영역 ![](assets/users-icon-in-main-menu.png)을(를) 볼 수 있습니다.
+     >플랜 라이선스가 있는 사용자(현재 라이선스 모델)나 표준 라이선스가 있는 사용자(새 라이선스 모델)만 기본 메뉴의 사용자 영역 ![사용자 아이콘](assets/users-icon-in-main-menu.png)을(를) 볼 수 있습니다.
 
    * 요청
    * 타임시트
@@ -123,9 +123,9 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
 1. 다음 중 하나를 수행합니다.
 
-   * 표시하지 않을 ![](assets/remove-icon---x-in-circle.png)개의 **활성 항목** 숨기기
-   * 메인 메뉴에 표시할 ![](assets/add-icon-plus-in-circle.png)개의 **사용 가능한 항목**&#x200B;을 표시합니다.
-   * ![](assets/move-icon---dots.png) **활성 항목**&#x200B;을(를) 끌어 놓아 메인 메뉴의 표시 순서를 변경하십시오.
+   * 표시하지 않을 ![아이콘 숨기기](assets/remove-icon---x-in-circle.png) **활성 항목** 숨기기
+   * 메인 메뉴에 표시할 ![표시 아이콘](assets/add-icon-plus-in-circle.png) **사용 가능한 항목**&#x200B;을 표시합니다.
+   * ![끌어오기 아이콘](assets/move-icon---dots.png) **활성 항목**&#x200B;을 드래그하여 기본 메뉴의 표시 순서를 변경합니다.
 
 1. **완료**&#x200B;를 클릭합니다.
 

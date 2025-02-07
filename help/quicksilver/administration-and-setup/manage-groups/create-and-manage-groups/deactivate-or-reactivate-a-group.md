@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 1. 그룹 이름을 클릭하여 해당 페이지를 엽니다.
 
-1. 그룹 이름 옆에 있는 기타 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **비활성화** 또는 **다시 활성화**&#x200B;를 클릭합니다.
+1. 그룹 이름 옆에 있는 기타 메뉴 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **비활성화** 또는 **다시 활성화**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
   이 상황에서 하위 그룹을 다시 활성화하는 방법에 대한 자세한 내용은 이 문서에서 [비활성 상위 그룹 아래의 하위 그룹 다시 활성화 정보](#about-reactivating-a-subgroup-below-an-inactive-parent-group)를 참조하십시오.
 
-* [설정]의 [그룹] 영역으로 이동하면 [활성]이 기본 필터 ![](assets/filter-nwepng.png)이므로 목록에 활성 그룹만 표시됩니다. 비활성 그룹을 포함하여 관리하는 모든 그룹을 보려면 모두 필터를 사용할 수 있습니다. 또는 비활성 필터를 사용하여 비활성 필터만 나열합니다.
+* [설정]의 [그룹] 영역으로 이동하면 [활성]이 기본 필터 ![필터 아이콘](assets/filter-nwepng.png)이므로 목록에 활성 그룹만 표시됩니다. 비활성 그룹을 포함하여 관리하는 모든 그룹을 보려면 모두 필터를 사용할 수 있습니다. 또는 비활성 필터를 사용하여 비활성 필터만 나열합니다.
 
   목록의 필터에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하십시오.
 

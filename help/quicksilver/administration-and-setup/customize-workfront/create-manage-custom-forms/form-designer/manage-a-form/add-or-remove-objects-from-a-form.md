@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 양식의 맨 위에서 **개체 유형** 뒤에 있는 더하기 기호 + 를 클릭한 다음 표시되는 메뉴에서 원하는 유형을 선택합니다. 이 단계를 반복하여 원하는 만큼 객체 유형을 추가할 수 있습니다.
 
-   ![](assets/add-new-object.png)
+   ![새 개체 추가](assets/add-new-object.png)
 
 1. **저장 후 닫기**&#x200B;를 클릭합니다.
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 1. 편집할 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon2.png)을 클릭합니다.
 1. 양식에서 삭제할 **개체 형식**&#x200B;의 X를 클릭합니다.
 
-   ![](assets/delete-object-types.png)
+   ![개체 유형 삭제](assets/delete-object-types.png)
 
 1. (선택 사항) 양식에서 제거할 다른 객체 유형에 대해 이전 단계를 반복합니다.
 1. **적용**&#x200B;을 클릭한 다음 **저장 및 닫기**&#x200B;를 클릭합니다.

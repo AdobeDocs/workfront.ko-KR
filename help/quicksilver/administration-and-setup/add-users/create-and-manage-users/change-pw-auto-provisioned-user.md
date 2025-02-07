@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ GUID 사용자 이름은 사용하기 어려울 수 있으므로 먼저 사용�
 
    다음과 유사한 응답을 받게 됩니다.
 
-   ![](assets/get-guid.png)
+   ![GUID 가져오기](assets/get-guid.png)
 
    &quot;username&quot;에 대한 반환은 사용자의 GUID입니다.
 
@@ -98,7 +98,7 @@ GUID 사용자 이름은 사용하기 어려울 수 있으므로 먼저 사용�
 
 1. **로그인 전자 메일 주소** 상자에서 사용자의 전자 메일 주소가 올바른지 확인한 다음 **계정 업데이트**&#x200B;를 클릭합니다.
 
-   ![](assets/guidusername-350x272.png)
+   ![사용자 이름](assets/guidusername-350x272.png)
 
    사용자의 사용자 이름이 Workfront 이메일 주소로 변경됩니다.
 
@@ -106,7 +106,7 @@ GUID 사용자 이름은 사용하기 어려울 수 있으므로 먼저 사용�
 >
 >사용자 ID 찾기:
 >
->1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
+>1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **사용자** ![사용자 아이콘](assets/users-icon-in-main-menu.png)을 클릭합니다.
 >
 >1. 사용자를 선택합니다.
 >

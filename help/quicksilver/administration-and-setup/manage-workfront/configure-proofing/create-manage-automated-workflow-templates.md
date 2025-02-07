@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ Workfront Proof 관리자는 자동화된 워크플로 템플릿을 수정할 �
     </tbody> 
    </table>
 
-1. **워크플로** 섹션에서 단계 이름을 변경하고 설정 ![](assets/arrow-button.png)을(를) 확장하여 필요한 대로 변경합니다.
+1. **워크플로** 섹션에서 단계 이름을 변경하고 해당 설정을 확장하십시오. ![확장 단추](assets/arrow-button.png) 필요한 변경을 수행합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -256,7 +256,7 @@ Workfront Proof 관리자는 자동화된 워크플로 템플릿을 수정할 �
 
    다이어그램을 볼 필요가 없으면 **다이어그램 숨기기**&#x200B;를 클릭할 수 있습니다.
 
-1. **다음 사용자와 공유** 섹션에서 사용자를 삭제하려면 오른쪽에 있는 기타 ![](assets/more-icon.png) 단추를 클릭한 다음 **제거**&#x200B;를 클릭합니다.
+1. **다음 사용자와 공유** 섹션에서 사용자를 삭제하려면 오른쪽에 있는 기타 ![기타 아이콘](assets/more-icon.png) 단추를 클릭한 다음 **제거**&#x200B;를 클릭합니다.
 
 ## 자동화된 워크플로우 템플릿 그룹 만들기 {#create-automated-workflow-template-groups}
 

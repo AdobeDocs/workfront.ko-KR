@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: 63c2206905f4ebbc35cb162ae6e895b98b5d20eb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -73,16 +73,16 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행합니다.
 
-   * 목록에서 구성원을 선택한 다음 ![](assets/edit-icon.png) 편집을 클릭하여 해당 사용자의 사용자 프로필을 수정합니다.
+   * 목록에서 구성원을 선택한 다음 편집 ![편집 아이콘](assets/edit-icon.png)을 클릭하여 해당 사용자의 사용자 프로필을 수정합니다.
 
      자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 또는 [사용자 프로필 일괄 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)을 참조하십시오.
 
-   * 목록에서 원하는 수의 구성원을 선택한 다음 ![](assets/comment-icon.png) 업데이트를 클릭하여 사용자 프로필에 주석을 추가합니다.
+   * 목록에서 원하는 수의 구성원을 선택한 다음 ![댓글 아이콘 업데이트](assets/comment-icon.png)를 클릭하여 사용자 프로필에 댓글을 추가합니다.
 
      사용자 또는 사용자는 댓글이 포함된 이메일 알림과 인앱 알림을 받습니다. 댓글은 사용자 프로필의 업데이트 영역에 표시됩니다.
 
-   * 목록에서 원하는 수의 멤버를 선택한 다음 ![](assets/deactivate-user.png) 비활성화 또는 ![](assets/activate-user.png) 활성화를 클릭합니다.
+   * 목록에서 원하는 수의 구성원을 선택한 다음 ![사용자 비활성화](assets/deactivate-user.png) 또는 ![사용자 활성화](assets/activate-user.png) 활성화를 클릭합니다.
 
      자세한 내용은 [사용자 비활성화 또는 다시 활성화](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)를 참조하십시오.
 
-   * 구성원 목록을 ![](assets/export.png)에 내보냅니다.
+   * 구성원 목록을 ![내보내기](assets/export.png)합니다.
