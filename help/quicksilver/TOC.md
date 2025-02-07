@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: a9c2abc7f0d75eb9f90a9437eff7ac4d35fbb431
+source-git-commit: c67affb14c237f8e4a6cf8a44c707a5ab5893364
 workflow-type: tm+mt
-source-wordcount: '13025'
+source-wordcount: '13028'
 ht-degree: 2%
 
 ---
@@ -2464,6 +2464,7 @@ ht-degree: 2%
       * [이벤트 구독 모범 사례](wf-api/general/event-sub-best-practice.md)
       * [이벤트 구독 게재 요구 사항](wf-api/general/setup-event-sub-endpoint.md)
       * [이벤트 구독 다시 시도](wf-api/api/event-sub-retries.md)
+      * [이벤트 구독 버전 관리](/help/quicksilver/wf-api/general/event-subs-versioning.md)
       * [이벤트 구독에 대한 아웃바운드 메시지 형식](wf-api/api/message-format-event-subs.md)
       * [FAQ - 이벤트 구독](wf-api/general/event-subs-faq.md)
    * 문서 웹후크 API {#document-webhooks-api}
@@ -2488,7 +2489,7 @@ ht-degree: 2%
       * [문서 웹후크 오류 처리](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
    * Workfront 개체 설명 {#workfrtont-object-descriptions}
       * [Workfront 개체 설명](wf-api/wf-objects/workfront-objects.md)
-      * [범주](wf-api/wf-objects/category.md)
+      * [카테고리](wf-api/wf-objects/category.md)
    * Adobe Workfront API {#tips-troubleshooting-apis}에 대한 팁, 요령 및 문제 해결
       * [Adobe Workfront API에 대한 팁, 요령 및 문제 해결](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
       * [Adobe Workfront API 호출에 대한 도메인 형식](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)

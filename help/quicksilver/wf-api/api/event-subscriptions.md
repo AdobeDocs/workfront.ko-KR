@@ -5,9 +5,9 @@ description: 이벤트 구독 리소스
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 1b09f1d69561bd192c4e26bf48da558ed2e8b626
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 0%
 * [이벤트 구독 배달 요구 사항](../../wf-api/general/setup-event-sub-endpoint.md)
 * [이벤트 구독 리소스 필드](../../wf-api/api/event-sub-resource-fields.md)
 * [이벤트 구독 다시 시도](../../wf-api/api/event-sub-retries.md)
+* [이벤트 구독 버전 관리](/help/quicksilver/wf-api/general/event-subs-versioning.md)
 * [이벤트 구독 메시지 필터링](../../wf-api/api/filter-event-sub-messages.md)
 * [이벤트 구독에 대한 아웃바운드 메시지 형식](../../wf-api/api/message-format-event-subs.md)
 * [FAQ - 이벤트 구독](../../wf-api/general/event-subs-faq.md)

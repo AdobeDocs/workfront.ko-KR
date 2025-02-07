@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 2e72dd6a4ef91a11627a48b52e96033410c4435c
+source-git-commit: adde34e472a762274b00f5c050b76e71002cea15
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2362'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 {{highlighted-preview}}
 -->
 
-이벤트 구독이 지원하는 Adobe Workfront 개체에서 작업이 발생하면 원하는 끝점에 응답을 보내도록 Workfront을 구성할 수 있습니다. 즉, 서드파티 애플리케이션은 업데이트 발생 직후 Workfront API를 통해 Workfront 상호 작용에서 업데이트를 받을 수 있습니다. 일반적으로 기록되는 데이터 변경 사항에서 5초 이내에 웹후크 알림을 받을 수 있습니다. 평균적으로 고객은 기록되는 데이터 변경 사항에서 1초 이내에 웹후크 알림을 받습니다.  
+이벤트 구독이 지원하는 Adobe Workfront 개체에서 작업이 발생하면 원하는 끝점에 응답을 보내도록 Workfront을 구성할 수 있습니다. 즉, 서드파티 애플리케이션은 업데이트 발생 직후 Workfront API를 통해 Workfront 상호 작용에서 업데이트를 받을 수 있습니다. 일반적으로 기록되는 데이터 변경 사항에서 5초 이내에 웹후크 알림을 받을 수 있습니다. 평균적으로 고객은 기록되는 데이터 변경 사항에서 1초 이내에 웹후크 알림을 받습니다.
 
 허용 목록에 추가하다 귀하의 방화벽을 통해 이벤트 구독 페이로드를 수신하려면 다음 IP 주소를 귀하의 방화벽에 추가해야 합니다.
 
@@ -110,7 +110,7 @@ ht-degree: 3%
         <td scope="col"><p>ASSIGN</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">회사 </td> 
+        <td scope="col">회사 </td> 
         <td scope="col"><p>지저분해</p></td> 
        </tr> 
        <tr> 
@@ -119,7 +119,7 @@ ht-degree: 3%
        </tr> 
        <tr> 
         <td scope="col"><p>문서</p></td> 
-        <td scope="col">도쿠 </td> 
+        <td scope="col">도쿠 </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>경비</p></td> 
@@ -193,7 +193,7 @@ ht-degree: 3%
    * **문자열** - 개체가 구독한 이벤트 유형을 나타내는 값입니다. 사용 가능한 이벤트 유형은 다음과 같습니다.
 
       * 만들기
-      * DELETE 
+      * DELETE
       * 업데이트
 
 * url(필수)
@@ -202,7 +202,7 @@ ht-degree: 3%
 
 * authToken(필수)
 
-   * **문자열** - &quot;URL&quot; 필드에 지정된 URL로 인증하는 데 사용되는 OAuth2 전달자 토큰입니다. 
+   * **문자열** - &quot;URL&quot; 필드에 지정된 URL로 인증하는 데 사용되는 OAuth2 전달자 토큰입니다.
 
 ## 이벤트 구독 API 요청 만들기
 
@@ -210,14 +210,14 @@ ht-degree: 3%
 
 다음 구문을 사용하여 URL을 생성합니다.
 
-**요청 URL:**
+**요청 URL**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**요청 헤더:**
+**요청 헤더**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -253,6 +253,15 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
             }
 ```
 
+**응답 본문 예**
+
+```
+{
+    "id": <NEW SUBSCRIPTION ID>,
+    "version": <NEW SUBSCRIPTION VERSION>
+}
+```
+
 | 응답 코드 | 설명 |
 |---|---|
 | 201(생성됨) | 이벤트 구독이 정상적으로 생성되었습니다. |
@@ -264,7 +273,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 >[!NOTE]
 >
-> &quot;위치&quot; 응답 헤더에는 새로 만든 이벤트 구독의 URI가 포함되어 있습니다.
+> &quot;위치&quot; 응답 헤더에는 새로 만든 이벤트 구독의 URI가 포함되어 있습니다.
 
 **응답 헤더 예:**
 
@@ -288,7 +297,7 @@ Workfront의 HTTP를 쿼리할 때 GET 메서드를 사용합니다. 이벤트 �
 
 특정 고객에 대한 모든 이벤트 구독을 나열하기 위한 요청 구문은 다음과 같습니다.
 
-**요청 URL:**
+**요청 URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -315,7 +324,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**응답 코드:**
+**응답 코드**
 
 | 응답 코드 | 설명 |
 |---|---|
@@ -324,7 +333,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403(금지됨) | 제공된 sessionID와 일치하는 사용자에게 관리자 액세스 권한이 없습니다. |
 
 
-**응답 헤더 예:**
+**응답 헤더 예**
 
 | 응답 헤더 | 예 |
 |---|---|
@@ -334,7 +343,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 전송 인코딩 | `→chunked` |
 
 
-**응답 본문 예:**
+**응답 본문 예**
 
 ```
 {
@@ -368,7 +377,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 이벤트 구독의 ID로 이벤트 구독을 쿼리할 수 있습니다. 이벤트 구독을 나열하기 위한 요청 구문은 다음과 같습니다.
 
-**요청 URL:**
+**요청 URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -376,7 +385,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**요청 헤더:**
+**요청 헤더**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -395,7 +404,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </tbody> 
 </table>
 
-**응답 코드:**
+**응답 코드**
 
 | 응답 코드 | 설명 |
 |---|---|
@@ -404,7 +413,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403(금지됨) | 제공된 sessionID와 일치하는 사용자에게 관리자 액세스 권한이 없습니다. |
 
 
-**응답 본문 예:**
+**응답 본문 예**
 
 
 
@@ -429,6 +438,95 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
    }
 }
 ```
+
+## 이벤트 구독 버전 관리
+
+Workfront에는 두 가지 버전의 이벤트 구독이 있습니다.
+
+이벤트 구독을 업그레이드하거나 다운그레이드할 수 있으므로 이벤트 구조가 변경될 때 기존 구독이 중단되지 않으므로 이벤트 구독에 공백 없이 새 버전으로 테스트하고 업그레이드할 수 있습니다.
+
+버전과 중요한 날짜 간의 특정 차이점을 포함하여 이벤트 구독 버전 관리에 대한 자세한 내용은 [이벤트 구독 버전 관리](/help/quicksilver/wf-api/general/event-subs-versioning.md)를 참조하십시오.
+
+### 단일 구독 버전 변경
+
+단일 구독의 버전을 변경하는 요청 구문은 다음과 같습니다.
+
+**요청 URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>/version 
+```
+
+**예제 요청 본문**
+
+```
+{
+    "version": "v2" 
+}
+```
+
+
+**응답 본문 예(200)**
+
+```
+{
+    "id": <SUBSCRIPTION ID>,
+    "version": "v2" 
+}
+```
+
+**가능한 응답 코드**
+
+* 200
+* 400
+* 404
+
+
+### 여러 구독 버전 변경
+
+이 종단점은 구독 목록 또는 모든 고객의 구독 플래그로 여러 구독의 버전을 변경합니다.
+
+단일 구독의 버전을 변경하는 요청 구문은 다음과 같습니다.
+
+**요청 URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
+```
+
+**예제 요청 본문**
+
+* 구독 목록에 대한 요청 본문
+
+  ```
+  {
+      "subscriptionIds": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>],
+      "version": "v2" 
+  }
+  ```
+
+* 모든 고객의 구독에 대한 요청 본문
+
+  ```
+  {
+      "allCustomerSubscriptions": true,
+      "version": "v2" 
+  }
+  ```
+
+**응답 본문 예(200)**
+
+```
+{
+    "subscription_ids": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>, ...],
+    "version": "v2" 
+}
+```
+
+**가능한 응답 코드**
+
+* 200
+* 400
 
 ## 이벤트 구독 필터링
 
@@ -760,7 +858,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>응답 코드</p> </th> 
-   <th> 설명</th> 
+   <th> 설명</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1001,7 +1099,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>응답 코드</p> </th> 
-   <th> 설명</th> 
+   <th> 설명</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1020,7 +1118,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </tbody> 
 </table>
 
- 
+
 
 ### 응답 본문 예
 
