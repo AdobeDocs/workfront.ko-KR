@@ -8,9 +8,9 @@ description: 대시보드는  [!DNL Workfront Proof]  계정에 로그인할 때
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '996'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 >
 >대시보드에서 보고 사용할 수 있는 메뉴 및 링크는 사용자 프로필 및 권한에 따라 다릅니다.
 
-![](assets/dashboard-350x495.png)
+![대시보드](assets/dashboard-350x495.png)
 
 조직의 로고, 색상, 사용자 지정 링크 등을 표시하도록 계정을 브랜딩할 수 있습니다. 자세한 내용은 [사이트 브랜딩 [!DNL Workfront Proof] 사이트](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)을 참조하세요.&quot;
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 ## 머리글 메뉴
 
-![](assets/header-menu-350x150.png)
+![머리글 메뉴](assets/header-menu-350x150.png)
 
 ### 사용자 이름
 
@@ -97,7 +97,7 @@ ht-degree: 3%
    * 새 사용자(12)
    * 새 그룹 (13)
 
-![](assets/new-proof-350x256.png)
+![새 증명](assets/new-proof-350x256.png)
 
 ## 대시보드 메뉴
 
@@ -116,7 +116,7 @@ ht-degree: 3%
 * 새 태그 만들기
 * 태그 관리(2)
 
-![](assets/edit-tags-350x204.png)
+![태그 편집](assets/edit-tags-350x204.png)
 
 ## 다음으로 이동
 
@@ -126,7 +126,7 @@ ht-degree: 3%
 1. **[!UICONTROL 이동]**(3)을 클릭하고 관련 폴더(4)를 선택합니다.
 1. **[!UICONTROL 저장]**(5)을 클릭합니다.
 
-   ![](assets/move-to-350x297.png)
+   ![이동](assets/move-to-350x297.png)
 
 ### 기타 액션
 
@@ -138,7 +138,7 @@ ht-degree: 3%
 * 보관 해제(증명만)
 * 소유자 변경
 
-![](assets/more-actions-350x303.png)
+![추가 작업](assets/more-actions-350x303.png)
 
 ### 삭제
 
@@ -146,11 +146,11 @@ ht-degree: 3%
 
 1. 항목 왼쪽에 있는 확인 상자를 선택하고 **[!UICONTROL 삭제]**(7)를 클릭합니다.
 
-![](assets/delete-350x109.png)
+![삭제 아이콘](assets/delete-350x109.png)
 
 1. 표시되는 확인 화면에서 세부 정보를 확인하고 **[!UICONTROL 예]**(8)을 클릭하여 확인합니다.
 
-![](assets/deleteing-items-350x237.png)
+![항목 삭제](assets/deleteing-items-350x237.png)
 
 ### 사이드바
 
@@ -168,7 +168,7 @@ ht-degree: 3%
 * 기타 조직의 폴더(10)(여기서 다른 조직이 사용자와 공유한 항목을 찾을 수 있음)
 * 태그(11)
 
-![](assets/sidebar-350x426.png)
+![사이드바](assets/sidebar-350x426.png)
 
 사이드바는 사이드바 도움말 페이지에 더 자세히 설명되어 있습니다.
 
@@ -181,7 +181,7 @@ ht-degree: 3%
 * 지원 연락처 세부 정보 (3)
 * &quot;시작 섹션을 다시 표시하지 않음&quot; 링크(4)
 
-![](assets/welcome-350x73.png)
+![시작](assets/welcome-350x73.png)
 
 ### 개요
 
@@ -197,7 +197,7 @@ ht-degree: 3%
 * 관리할 증명 - 사용자가 소유하고 사용자에게 위임된 총 활성 증명 수
 * 결정을 기다리는 증명 - 결정을 필요로 하는 총 활성 증명 수
 
-  ![](assets/dashboard-overview-350x169.png)
+  ![대시보드 개요](assets/dashboard-overview-350x169.png)
 
 여기에서 바로 귀하 또는 검토자의 즉각적인 조치가 필요한 증명 수를 확인할 수 있습니다.
 
@@ -237,15 +237,15 @@ ht-degree: 3%
 1. 증명 이름 오른쪽에 있는 **[!UICONTROL 작업]** 메뉴(1)를 클릭합니다.
 1. 메뉴에서 **[!UICONTROL 증명 세부 정보 보기]**(2)를 선택합니다.
 
-![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
+![최근 항목](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### 최근 활동
 
 이 섹션에는 계정의 최근 활동에 대한 다음 세부 사항이 표시됩니다.
 
 * 날짜 및 시간 증명/파일 이름
-* 개 액션
-* 세부 정보
+* 액션
+* 세부 사항
 
 항목의 작업 메뉴를 클릭하고 세부 정보 보기를 선택하여 항목의 세부 정보 페이지로 이동할 수도 있습니다. 계정의 활동에 대한 자세한 내용은 활동 감사 추적 을 참조하십시오.
 
@@ -258,4 +258,4 @@ ht-degree: 3%
 1. **[!UICONTROL 작업]** 메뉴를 클릭합니다(1).
 1. 드롭다운 메뉴에서 **[!UICONTROL 증명 세부 정보 보기]**(2)를 선택합니다.
 
-   ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![최근 활동](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

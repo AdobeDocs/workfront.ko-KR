@@ -7,9 +7,9 @@ description: ' [!DNL Workfront Proof] 관리자는 그룹 페이지에서 공개
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ ht-degree: 0%
       * 비공개 그룹은 작성자에게만 표시됩니다.
       * 선택한 그룹을 삭제합니다.
 
-        ![](assets/trash-button.png)
+        ![삭제 아이콘](assets/trash-button.png)
    * 각자의 **[!UICONTROL 자세히]**(점 3개) 메뉴와는 별도로 각 그룹에 대해서도 작업을 수행할 수 있습니다.
 
-     ![](assets/more-button-small.png)
+     ![추가 메뉴](assets/more-button-small.png)
 
       * 그룹 세부 정보를 봅니다.
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 1. 그룹에 추가할 연락처의 이름 옆에 있는 확인란을 선택합니다.
 1. **[!UICONTROL 그룹에 추가]** 단추를 클릭합니다.
-   ![](assets/screenshot-2018-04-06-15-27-17.png)
+   ![그룹에 추가](assets/screenshot-2018-04-06-15-27-17.png)
 **[!UICONTROL 그룹에 추가]** 대화 상자가 나타납니다.
 
 1. **[!UICONTROL 사람]** 섹션에서:

@@ -7,9 +7,9 @@ description: ' [!DNL Workfront Proof]에서 증명이 다른 상태에 있습니
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -71,14 +71,14 @@ ht-degree: 0%
 
 1. **[!UICONTROL 대시보드]**&#x200B;에서 보려는 증명 옆의 **[!UICONTROL 확장]** 화살표를 클릭하거나 상태를 변경합니다.
 
-   ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+   ![확장](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
    **[!UICONTROL 워크플로 프로세스]** 섹션이 나타납니다.
 
-   ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![워크플로 프로세스](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. **[!UICONTROL 워크플로 프로세스]**&#x200B;에서 **[!UICONTROL 상태]**&#x200B;를 봅니다.
 
 1. (선택 사항) 상태를 변경하려면 현재 **[!UICONTROL 상태]** 위로 마우스를 가져간 후 드롭다운 메뉴를 클릭한 다음 새 상태를 선택합니다.
 
-   ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
+   ![새 상태](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

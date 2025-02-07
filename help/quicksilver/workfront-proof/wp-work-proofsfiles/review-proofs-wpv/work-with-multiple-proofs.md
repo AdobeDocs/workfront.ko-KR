@@ -7,9 +7,9 @@ description: ' [!DNL Workfront] Proof에서는 폴더를 사용하여 함께 작
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -64,4 +64,4 @@ ht-degree: 0%
 
      증명을 비교하는 동안 증명 뷰어의 왼쪽이나 오른쪽에 있는 새 증명으로 전환하려면 증명 위에 있는 [!UICONTROL 비교] 단추를 클릭합니다.
 
-     ![](assets/mceclip0-350x126.png)
+     ![비교](assets/mceclip0-350x126.png)

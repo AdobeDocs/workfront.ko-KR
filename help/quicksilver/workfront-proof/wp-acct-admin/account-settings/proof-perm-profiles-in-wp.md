@@ -8,9 +8,9 @@ description: Workfront 관리자 또는 Workfront Proof 관리자는 사용자�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -36,12 +36,12 @@ ht-degree: 0%
 | **고유 항목** |  |  |  |  | **다른 사용자의 항목** |  |  | **관리자** | **청구** |
 |---|---|---|---|---|---|---|---|---|---|
 |   | **추가** | **보기** | **편집** | **삭제** | **보기** | **편집** | **삭제** | **편집 및 삭제** | **편집** |
-| 청구 관리자 | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |
-| 관리자 | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |
-| 감독자 | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |
-| 관리자 | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |   |   |   |
-| 관찰자 |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
-| 방문자 |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| 청구 관리자 | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) |
+| 관리자 | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) |   |
+| 감독자 | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) |   |   |
+| 관리자 | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) | ![확인 표시](assets/cleaner2.png) |   |   |   |   |   |
+| 관찰자 |   | ![확인 표시](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| 방문자 |   | ![확인 표시](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -66,35 +66,35 @@ ht-degree: 0%
 
 청구 관리자는  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] 청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)의 [계정 설정에 액세스할 수 있으며 다음 권한이 있습니다.
 
-![](assets/cleaner2.png)증명을 생성하고, 파일을 업로드하고, 폴더를 만들 수 있습니다. 자세한 내용은 [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) 및 [폴더 만들기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)를 참조하십시오.
+![확인 표시](assets/cleaner2.png)증명을 생성하고, 파일을 업로드하고, 폴더를 만들 수 있습니다. 자세한 내용은 [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) 및 [폴더 만들기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)를 참조하십시오.
 
-![](assets/cleaner2.png)증명 및 자신이 만든 파일을 보고 편집하고 삭제할 수 있습니다.
+![확인 표시](assets/cleaner2.png)자신이 만든 증명 및 파일을 보고 편집하고 삭제할 수 있습니다.
 
-![](assets/cleaner2.png)조직의 모든 사용자가 만든 증명 및 파일을 보고 편집하고 삭제할 수 있습니다.
+![확인 표시](assets/cleaner2.png)조직의 모든 사용자가 만든 증명 및 파일을 보고 편집하고 삭제할 수 있습니다.
 
-![](assets/cleaner2.png)다른 사용자의 공용 폴더를 삭제할 수 있습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
+![확인 표시](assets/cleaner2.png)다른 사용자의 공용 폴더를 삭제할 수 있습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
 
-![](assets/cleaner2.png)계정에서 만든 모든 증명에 대한 편집 권한이 있습니다.
+![확인 표시](assets/cleaner2.png)계정에서 만든 모든 증명에 대한 편집 권한이 있습니다.
 
-![](assets/cleaner2.png)드롭 영역 소유자로 설정할 수 있습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
+![확인 표시](assets/cleaner2.png)드롭 영역 소유자로 설정할 수 있습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
 
-![](assets/cleaner2.png)청구 페이지에 액세스하여 청구 세부 정보를 편집할 수 있습니다. 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2}를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+![확인 표시](assets/cleaner2.png)청구 페이지에 액세스하여 청구 세부 정보를 편집할 수 있습니다. 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2}를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
-![](assets/cleaner2.png)계정 설정 페이지에 액세스하여 계정 세부 정보를 편집할 수 있습니다. 자세한 내용은 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요.
+![확인 표시](assets/cleaner2.png)계정 설정 페이지에 액세스하여 계정 세부 정보를 편집할 수 있습니다. 자세한 내용은 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요.
 
-![](assets/cleaner2.png)휴지통을 비울 수 있습니다. 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)를 참조하십시오.
+![확인 표시](assets/cleaner2.png)휴지통을 비울 수 있습니다. 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)를 참조하십시오.
 
-![](assets/cleaner2.png)사용자를 추가, 편집 및 삭제할 수 있습니다.
+![확인 표시](assets/cleaner2.png)사용자를 추가, 편집 및 삭제할 수 있습니다.
 
-![](assets/cleaner2.png)그룹을 만들고 새 연락처를 추가할 수 있습니다.
+![확인 표시](assets/cleaner2.png)그룹을 만들고 새 연락처를 추가할 수 있습니다.
 
-![](assets/cleaner2.png)연락처를 삭제할 수 있습니다.
+![확인 표시](assets/cleaner2.png)연락처를 삭제할 수 있습니다.
 
-![](assets/cleaner2.png)답글이 없으면 증명을 편집할 수 있습니다.
+![확인 표시](assets/cleaner2.png)답글이 없으면 증명을 편집할 수 있습니다.
 
-![](assets/no2.png)증명 회신을 편집할 수 없습니다.
+![빨간색 X](assets/no2.png)증명 회신을 편집할 수 없습니다.
 
-![](assets/no2.png)다른 사용자의 개인 폴더를 삭제할 수 없습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
+![빨간색 X](assets/no2.png)다른 사용자의 개인 폴더를 삭제할 수 없습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
 
 계정 설정에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)의 [계정 설정을 참조하십시오.
 
@@ -104,127 +104,127 @@ ht-degree: 0%
 
 관리자는 [계정 설정](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)에 액세스할 수 있으며 다음 권한이 있습니다.
 
-![](assets/cleaner2.png)증명을 만들고, 파일을 업로드하고, 폴더를 만들 수 있습니다. 자세한 내용은 [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) 및 [폴더 만들기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)를 참조하십시오.
+![확인 표시](assets/cleaner2.png)증명을 만들고, 파일을 업로드하고, 폴더를 만들 수 있습니다. 자세한 내용은 [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) 및 [폴더 만들기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)를 참조하십시오.
 
-![](assets/cleaner2.png)증명과 만들어진 파일을 보고 편집하고 삭제할 수 있습니다.
+![확인 표시](assets/cleaner2.png)증명과 만들어진 파일을 보고 편집하고 삭제할 수 있습니다.
 
-![](assets/cleaner2.png)조직의 모든 사용자가 만든 증명 및 파일을 보고 편집하고 삭제할 수 있습니다.
+![확인 표시](assets/cleaner2.png)조직의 모든 사용자가 만든 증명 및 파일을 보고 편집하고 삭제할 수 있습니다.
 
-![](assets/cleaner2.png)다른 사용자의 공용 폴더를 삭제할 수 있습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
+![확인 표시](assets/cleaner2.png)다른 사용자의 공용 폴더를 삭제할 수 있습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
 
-![](assets/cleaner2.png)계정에서 만든 모든 증명에 대한 편집 권한이 있습니다.
+![확인 표시](assets/cleaner2.png)계정에서 만든 모든 증명에 대한 편집 권한이 있습니다.
 
-![](assets/cleaner2.png)드롭 영역 소유자로 설정할 수 있습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
+![확인 표시](assets/cleaner2.png)드롭 영역 소유자로 설정할 수 있습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
 
-![](assets/cleaner2.png)계정 설정 페이지에 액세스하여 계정 세부 정보를 편집할 수 있습니다. 자세한 내용은 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요.
+![확인 표시](assets/cleaner2.png)계정 설정 페이지에 액세스하여 계정 세부 정보를 편집할 수 있습니다. 자세한 내용은 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요.
 
-![](assets/cleaner2.png)휴지통을 비울 수 있습니다. 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)를 참조하십시오.
+![확인 표시](assets/cleaner2.png)휴지통을 비울 수 있습니다. 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)를 참조하십시오.
 
-![](assets/cleaner2.png)사용자를 추가, 편집 및 삭제할 수 있습니다.
+![확인 표시](assets/cleaner2.png)사용자를 추가, 편집 및 삭제할 수 있습니다.
 
-![](assets/cleaner2.png)그룹을 만들고 새 연락처를 추가할 수 있습니다.
+![확인 표시](assets/cleaner2.png)그룹을 만들고 새 연락처를 추가할 수 있습니다.
 
-![](assets/cleaner2.png)연락처를 삭제할 수 있습니다.
+![확인 표시](assets/cleaner2.png)연락처를 삭제할 수 있습니다.
 
-![](assets/cleaner2.png)답글이 없으면 증명을 편집할 수 있습니다.
+![확인 표시](assets/cleaner2.png)답글이 없으면 증명을 편집할 수 있습니다.
 
-![](assets/no2.png)증명 회신을 편집할 수 없습니다.
+![빨간색 X](assets/no2.png)증명 회신을 편집할 수 없습니다.
 
-![](assets/no2.png)다른 사용자의 개인 폴더를 삭제할 수 없습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
+![빨간색 X](assets/no2.png)다른 사용자의 개인 폴더를 삭제할 수 없습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
 
-![](assets/no2.png)청구 페이지에 액세스하거나 청구 세부 정보를 편집할 수 없습니다. 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2}를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+![빨간색 X](assets/no2.png)청구 페이지에 액세스하거나 청구 세부 정보를 편집할 수 없습니다. 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2}를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 ### 감독자 {#supervisor}
 
 감독자는 다음과 같은 권한을 가집니다.
 
-![](assets/cleaner2.png)증명을 만들고, 파일을 업로드하고, 폴더를 만들 수 있습니다. 자세한 내용은 [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) 및 [폴더 만들기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)를 참조하십시오.
+![확인 표시](assets/cleaner2.png)증명을 만들고, 파일을 업로드하고, 폴더를 만들 수 있습니다. 자세한 내용은 [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) 및 [폴더 만들기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)를 참조하십시오.
 
-![](assets/cleaner2.png)자신의 증명 및 만들어진 파일을 보고 편집하고 삭제할 수 있습니다.
+![확인 표시](assets/cleaner2.png)자신이 만든 증명 및 파일을 보고 편집하고 삭제할 수 있습니다.
 
-![](assets/cleaner2.png)조직의 모든 사용자가 만든 증명 및 파일을 보고 편집하고 삭제할 수 있습니다.
+![확인 표시](assets/cleaner2.png)조직의 모든 사용자가 만든 증명 및 파일을 보고 편집하고 삭제할 수 있습니다.
 
-![](assets/cleaner2.png)다른 사용자의 공용 폴더를 삭제할 수 있습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
+![확인 표시](assets/cleaner2.png)다른 사용자의 공용 폴더를 삭제할 수 있습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
 
-![](assets/cleaner2.png)계정에서 만든 모든 증명에 대한 편집 권한이 있습니다.
+![확인 표시](assets/cleaner2.png)계정에서 만든 모든 증명에 대한 편집 권한이 있습니다.
 
-![](assets/cleaner2.png)드롭 영역 소유자로 설정할 수 있습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
+![확인 표시](assets/cleaner2.png)드롭 영역 소유자로 설정할 수 있습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
 
-![](assets/cleaner2.png)그룹을 만들고 새 연락처를 추가할 수 있습니다.
+![확인 표시](assets/cleaner2.png)그룹을 만들고 새 연락처를 추가할 수 있습니다.
 
-![](assets/cleaner2.png)연락처를 삭제할 수 있습니다.
+![확인 표시](assets/cleaner2.png)연락처를 삭제할 수 있습니다.
 
-![](assets/cleaner2.png)답글이 없으면 증명을 편집할 수 있습니다.
+![확인 표시](assets/cleaner2.png)답글이 없으면 증명을 편집할 수 있습니다.
 
-![](assets/no2.png)증명 회신을 편집할 수 없습니다.
+![빨간색 X](assets/no2.png)증명 회신을 편집할 수 없습니다.
 
-![](assets/no2.png)다른 사용자의 개인 폴더를 삭제할 수 없습니다. 자세한 내용은 [폴더 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)를 참조하세요.
+![빨간색 X](assets/no2.png)다른 사용자의 개인 폴더를 삭제할 수 없습니다. 자세한 내용은 [폴더 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)를 참조하세요.
 
-![](assets/no2.png)청구 페이지 또는 계정 설정에 액세스할 수 없습니다. 자세한 내용은 [청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) 및 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요. [!DNL Workfront Proof] 
+![빨간색 X](assets/no2.png)청구 페이지 또는 계정 설정에 액세스할 수 없습니다. 자세한 내용은 [청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) 및 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요. [!DNL Workfront Proof] 
 
-![](assets/no2.png)사용자를 추가, 편집 또는 삭제할 수 없습니다.
+![빨간색 X](assets/no2.png)사용자를 추가, 편집 또는 삭제할 수 없습니다.
 
-![](assets/no2.png)휴지통을 비울 수 없습니다. 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)를 참조하십시오.
+![빨간색 X](assets/no2.png)휴지통을 비울 수 없습니다. 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)를 참조하십시오.
 
 ### 관리자 {#manager}
 
 관리자는 다음 권한을 가집니다.
 
-![](assets/cleaner2.png)증명을 만들고, 파일을 업로드하고, 폴더를 만들 수 있습니다. 자세한 내용은 [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) 및 [폴더 만들기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)를 참조하십시오.
+![확인 표시](assets/cleaner2.png)증명을 만들고, 파일을 업로드하고, 폴더를 만들 수 있습니다. 자세한 내용은 [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) 및 [폴더 만들기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)를 참조하십시오.
 
-![](assets/cleaner2.png)자신이 만들거나 소유한 증명 및 파일을 보고 편집하고 삭제할 수 있습니다.
+![확인 표시](assets/cleaner2.png)자신이 만들거나 소유한 증명 및 파일을 보고 편집하고 삭제할 수 있습니다.
 
-![](assets/cleaner2.png)다른 사용자와 명시적으로 공유된 증명(공유 폴더의 모든 항목에 대한 읽기 전용 권한)을 보고 검토하고 승인할 수 있습니다. 자세한 내용은 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
+![확인 표시](assets/cleaner2.png)다른 사용자와 명시적으로 공유된 증명(공유 폴더의 모든 항목에 대한 읽기 전용 권한)을 보고, 검토하고, 승인할 수 있습니다. 자세한 내용은 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
 
-![](assets/cleaner2.png)그룹을 만들고 새 연락처를 추가할 수 있습니다.
+![확인 표시](assets/cleaner2.png)그룹을 만들고 새 연락처를 추가할 수 있습니다.
 
-![](assets/no2.png)조직의 다른 사용자가 만든 증명 및 파일을 보거나 편집하거나 삭제할 수 없습니다.
+![빨간색 X](assets/no2.png)조직의 다른 사용자가 만든 증명 및 파일을 보거나 편집하거나 삭제할 수 없습니다.
 
-![](assets/no2.png)증명 또는 답글을 편집할 수 없습니다.
+![빨간색 X](assets/no2.png)증명 또는 답글을 편집할 수 없습니다.
 
-![](assets/no2.png)다른 사용자의 개인 폴더를 삭제할 수 없습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
+![빨간색 X](assets/no2.png)다른 사용자의 개인 폴더를 삭제할 수 없습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
 
-![](assets/no2.png)다른 사용자의 공용 폴더를 삭제할 수 없습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
+![빨간색 X](assets/no2.png)다른 사용자의 공용 폴더를 삭제할 수 없습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
 
-![](assets/no2.png)청구 페이지 또는 계정 설정에 액세스할 수 없습니다. 자세한 내용은 [청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) 및 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요. [!DNL Workfront Proof] 
+![빨간색 X](assets/no2.png)청구 페이지 또는 계정 설정에 액세스할 수 없습니다. 자세한 내용은 [청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) 및 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요. [!DNL Workfront Proof] 
 
-![](assets/no2.png)드롭 영역 소유자로 설정할 수 없습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
+![빨간색 X](assets/no2.png)드롭 영역 소유자로 설정할 수 없습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
 
-![](assets/no2.png)휴지통을 비울 수 없습니다. 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)를 참조하십시오.
+![빨간색 X](assets/no2.png)휴지통을 비울 수 없습니다. 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)를 참조하십시오.
 
-![](assets/no2.png)사용자를 추가, 편집 또는 삭제할 수 없습니다.
+![빨간색 X](assets/no2.png)사용자를 추가, 편집 또는 삭제할 수 없습니다.
 
-![](assets/no2.png)연락처를 삭제할 수 없습니다.
+![빨간색 X](assets/no2.png)연락처를 삭제할 수 없습니다.
 
 ### 관찰자 {#observer}
 
 관찰자는 다음 권한을 갖습니다.
 
-![](assets/cleaner2.png)다른 사용자와 명시적으로 공유된 증명(공유 폴더의 모든 항목에 대한 읽기 전용 권한)을 보고 검토하고 승인할 수 있습니다. 자세한 내용은 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
+![확인 표시](assets/cleaner2.png)다른 사용자와 명시적으로 공유된 다른 사용자의 증명을 보고 검토하고 승인할 수 있습니다(공유 폴더의 모든 항목에 대한 읽기 전용 권한). 자세한 내용은 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
 
-![](assets/cleaner2.png)명시적으로 공유된 파일을 볼 수 있습니다.
+![확인 표시](assets/cleaner2.png)명시적으로 공유된 파일을 볼 수 있습니다.
 
-![](assets/cleaner2.png) 연락처 및 그룹을 볼 수 있음
+![확인 표시](assets/cleaner2.png) 연락처 및 그룹을 볼 수 있음
 
-![](assets/no2.png)증명을 만들고, 파일을 업로드하고, 폴더를 만들 수 없습니다. 자세한 내용은 [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)를 참조하십시오.
+![빨간색 X](assets/no2.png)증명을 만들고, 파일을 업로드하고, 폴더를 만들 수 없습니다. 자세한 내용은 [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)를 참조하십시오.
 
-![](assets/no2.png)조직의 다른 사용자가 만든 증명 및 파일을 보거나 편집하거나 삭제할 수 없습니다.
+![빨간색 X](assets/no2.png)조직의 다른 사용자가 만든 증명 및 파일을 보거나 편집하거나 삭제할 수 없습니다.
 
-![](assets/no2.png)증명 또는 답글을 편집할 수 없습니다.
+![빨간색 X](assets/no2.png)증명 또는 답글을 편집할 수 없습니다.
 
-![](assets/no2.png)조직에서 만든 항목을 삭제할 수 없습니다.
+![빨간색 X](assets/no2.png)조직에서 만든 항목을 삭제할 수 없습니다.
 
-![](assets/no2.png)청구 페이지 또는 계정 설정에 액세스할 수 없습니다. 자세한 내용은 [청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) 및 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요. [!DNL Workfront Proof] 
+![빨간색 X](assets/no2.png)청구 페이지 또는 계정 설정에 액세스할 수 없습니다. 자세한 내용은 [청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) 및 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요. [!DNL Workfront Proof] 
 
-![](assets/no2.png)드롭 영역 소유자로 설정할 수 없습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
+![빨간색 X](assets/no2.png)드롭 영역 소유자로 설정할 수 없습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
 
-![](assets/no2.png)휴지통을 비울 수 없습니다. 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)를 참조하십시오.
+![빨간색 X](assets/no2.png)휴지통을 비울 수 없습니다. 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)를 참조하십시오.
 
-![](assets/no2.png)사용자를 추가, 편집 또는 삭제할 수 없습니다.
+![빨간색 X](assets/no2.png)사용자를 추가, 편집 또는 삭제할 수 없습니다.
 
-![](assets/no2.png)그룹을 만들거나 새 연락처를 추가할 수 없습니다.
+![빨간색 X](assets/no2.png)그룹을 만들거나 새 연락처를 추가할 수 없습니다.
 
-![](assets/no2.png)연락처를 삭제할 수 없습니다.
+![빨간색 X](assets/no2.png)연락처를 삭제할 수 없습니다.
 
 >[!NOTE]
 >
@@ -238,31 +238,31 @@ ht-degree: 0%
 
 방문자는 다음 권한을 갖습니다.
 
-![](assets/cleaner2.png)다른 사용자와 명시적으로 공유된 증명(공유 폴더의 모든 항목에 대한 읽기 전용 권한)을 보고 검토하고 승인할 수 있습니다. 자세한 내용은 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
+![확인 표시](assets/cleaner2.png)다른 사용자와 명시적으로 공유된 증명(공유 폴더의 모든 항목에 대한 읽기 전용 권한)을 보고, 검토하고, 승인할 수 있습니다. 자세한 내용은 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
 
-![](assets/cleaner2.png)명시적으로 공유된 파일을 볼 수 있습니다.
+![확인 표시](assets/cleaner2.png)명시적으로 공유된 파일을 볼 수 있습니다.
 
-![](assets/no2.png) 연락처 및 그룹을 볼 수 없음
+![빨간색 X](assets/no2.png) 연락처 및 그룹을 볼 수 없음
 
-![](assets/no2.png)증명을 만들고, 파일을 업로드하고, 폴더를 만들 수 없습니다. 자세한 내용은 [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)를 참조하십시오.
+![빨간색 X](assets/no2.png)증명을 만들고, 파일을 업로드하고, 폴더를 만들 수 없습니다. 자세한 내용은 [파일 및 웹 콘텐츠 업로드 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)를 참조하십시오.
 
-![](assets/no2.png)조직의 다른 사용자가 만든 증명 및 파일을 보거나 편집하거나 삭제할 수 없습니다.
+![빨간색 X](assets/no2.png)조직의 다른 사용자가 만든 증명 및 파일을 보거나 편집하거나 삭제할 수 없습니다.
 
-![](assets/no2.png)증명 또는 답글을 편집할 수 없습니다.
+![빨간색 X](assets/no2.png)증명 또는 답글을 편집할 수 없습니다.
 
-![](assets/no2.png)조직에서 만든 항목을 삭제할 수 없습니다.
+![빨간색 X](assets/no2.png)조직에서 만든 항목을 삭제할 수 없습니다.
 
-![](assets/no2.png)청구 페이지 또는 계정 설정에 액세스할 수 없습니다. 자세한 내용은 [청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) 및 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요. [!DNL Workfront Proof] 
+![빨간색 X](assets/no2.png)청구 페이지 또는 계정 설정에 액세스할 수 없습니다. 자세한 내용은 [청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) 및 [계정 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)을 참조하세요. [!DNL Workfront Proof] 
 
-![](assets/no2.png)드롭 영역 소유자로 설정할 수 없습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
+![빨간색 X](assets/no2.png)드롭 영역 소유자로 설정할 수 없습니다. 자세한 내용은 [드롭 영역 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)을 참조하세요.
 
-![](assets/no2.png)휴지통을 비울 수 없습니다. 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)를 참조하십시오.
+![빨간색 X](assets/no2.png)휴지통을 비울 수 없습니다. 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)를 참조하십시오.
 
-![](assets/no2.png)사용자를 추가, 편집 또는 삭제할 수 없습니다.
+![빨간색 X](assets/no2.png)사용자를 추가, 편집 또는 삭제할 수 없습니다.
 
-![](assets/no2.png)그룹을 만들거나 새 연락처를 추가할 수 없습니다.
+![빨간색 X](assets/no2.png)그룹을 만들거나 새 연락처를 추가할 수 없습니다.
 
-![](assets/no2.png)연락처를 삭제할 수 없습니다.
+![빨간색 X](assets/no2.png)연락처를 삭제할 수 없습니다.
 
 >[!NOTE]
 >
@@ -276,15 +276,15 @@ ht-degree: 0%
 
 게스트 프로필은 자체 Workfront Proof 계정이 없는 검토자의 증명에 대한 액세스 권한을 제공하는 데 사용됩니다. 개인 이메일 알림을 통해 직접 공유된 증명에 액세스할 수 있습니다.
 
-![](assets/cleaner2.png)명시적으로 공유된 증명을 보고 검토하고 승인할 수 있습니다.
+![확인 표시](assets/cleaner2.png)명시적으로 공유된 증명을 보고 검토하고 승인할 수 있습니다.
 
-![](assets/cleaner2.png)명시적으로 공유된 파일을 볼 수 있습니다.
+![확인 표시](assets/cleaner2.png)명시적으로 공유된 파일을 볼 수 있습니다.
 
-![](assets/no2.png)대시보드에 액세스할 수 없습니다.
+![빨간색 X](assets/no2.png)대시보드에 액세스할 수 없습니다.
 
-![](assets/no2.png)폴더를 공유할 수 없습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
+![빨간색 X](assets/no2.png)폴더를 공유할 수 없습니다. 자세한 내용은 [폴더 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)를 참조하세요.
 
-![](assets/no2.png)증명을 작성자 또는 중재자로 추가할 수 없습니다. 자세한 내용은 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
+![빨간색 X](assets/no2.png)증명에 작성자 또는 중재자로 추가할 수 없습니다. 자세한 내용은 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -300,11 +300,11 @@ ht-degree: 0%
 
    * **[!UICONTROL 연락처]** 페이지로 이동합니다.
 
-1. 권한을 편집할 사용자의 이름을 클릭합니다. ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+1. 권한을 편집할 사용자의 이름을 클릭합니다. ![사용자 선택](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
 
 1. **[!UICONTROL 권한 프로필]** 드롭다운 메뉴를 클릭하고 새 권한 프로필을 선택합니다. :
 
-   ![Screenshot_2018-03-30_14-18-03.png](assets/screenshot-2018-03-30-14-18-03a.png)
+   ![권한 프로필](assets/screenshot-2018-03-30-14-18-03a.png)
 
    권한 프로필은 관리자, 감독자, 관리자 및 관찰자입니다.
 

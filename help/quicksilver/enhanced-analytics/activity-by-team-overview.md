@@ -7,9 +7,9 @@ description: 팀 시각화별 활동 은 홈 팀의 특정 시간대 동안 발�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '727'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 >프로젝트 활동 시각화는 이 시각화와 유사하지만, 홈 팀에 할당된 사람이 아닌 프로젝트에 할당된 사람을 기반으로 하는 활동을 표시합니다.\
 >프로젝트 활동 시각화에 대한 자세한 내용은 [향상된 분석에서 프로젝트 활동 시각화 보기](../enhanced-analytics/project-activity-overview.md)를 참조하십시오.
 
-![](assets/activity-by-team-350x113.png){width="700"}
+팀별 ![활동](assets/activity-by-team-350x113.png){width="700"}
 
 ## 액세스 요구 사항
 
@@ -75,15 +75,15 @@ ht-degree: 7%
 
 * **로그인한 사용자**: 자주색 상자에 홈 팀의 사용자가 해당 날짜에 로그인했음을 표시됩니다. 어두운 음영은 더 많은 수의 로그인 사용자를 나타냅니다.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![로그인한 사용자](assets/project-activity-users-logged-in.png)
 
 * **작업 상태 변경**: 분홍색 상자로 표시된 경우 홈 팀의 직원들이 해당 날짜의 작업 상태를 변경했습니다. 어두운 음영은 더 많은 수의 작업 상태가 변경됨을 나타냅니다.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![작업 상태 변경](assets/project-activity-task-status-changes.png)
 
 * **작업 완료됨**: 홈 팀의 직원들이 해당 날짜에 작업을 완료했음을 파란색 상자로 표시합니다. 어두운 음영은 더 많은 수의 작업이 완료되었음을 나타냅니다.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![작업 완료됨](assets/project-activity-tasks-completed.png)
 
 상자 위로 마우스를 가져가면 지정된 날짜에 작업이 완료된 정확한 횟수를 볼 수 있습니다. 팀을 선택하여 홈 팀의 각 사용자별로 이러한 활동의 분류를 확인할 수 있습니다.
 
@@ -97,14 +97,14 @@ ht-degree: 7%
 
 ## 팀별 활동 시각화 보기
 
-1. 메인 메뉴 아이콘 ![](assets/main-menu-icon-16x12.png)을(를) 클릭한 다음 **분석**&#x200B;을(를) 선택합니다.
+1. 주 메뉴 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon-16x12.png)을 클릭한 다음 **분석**&#x200B;을 선택합니다.
 1. 왼쪽 패널에서 **직원**&#x200B;을 선택합니다.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![사람 영역](assets/people-area-cropped-qs-350x276.png)
 
 1. (선택 사항) 다른 날짜 범위를 사용하려면 날짜 범위 필터에서 새 시작 날짜와 종료 날짜를 선택합니다.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![날짜 범위 선택](assets/filters-select-date-range-350x344.png)
 
    날짜 범위 필터 사용에 대한 자세한 내용은 [향상된 분석에서 필터 적용](../enhanced-analytics/use-enhanced-analytics-filters.md)을 참조하십시오.
 
@@ -118,7 +118,7 @@ ht-degree: 7%
 
    다른 모든 시각화는 동일한 날짜 범위로 업데이트되며 일정 필터가 만들어집니다.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![일정 필터](assets/timeframe-filter-350x220.png)
 
 1. 팀 이름 클릭
 
@@ -140,9 +140,9 @@ ht-degree: 7%
 
    어두운 색상은 더 높은 활동성을 나타냅니다.
 
-   ![](assets/activity-by-team-activity-pop-up-350x155.png)
+   팀별 ![활동](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (선택 사항) 시각화 데이터를 내보내려면 시각화의 오른쪽 상단 모서리에 있는 내보내기 아이콘 ![](assets/export.png)을(를) 클릭한 다음 내보내기 형식을 선택합니다.
+1. (선택 사항) 시각화 데이터를 내보내려면 시각화의 오른쪽 상단 모서리에 있는 내보내기 아이콘 ![내보내기 아이콘](assets/export.png)을 클릭한 다음 내보내기 형식을 선택합니다.
 
    * **차트(PNG)**
    * **데이터 테이블(XSLX)**

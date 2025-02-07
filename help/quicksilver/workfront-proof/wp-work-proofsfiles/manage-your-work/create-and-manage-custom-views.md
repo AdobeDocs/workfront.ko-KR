@@ -7,9 +7,9 @@ description: 파일 및 증명에 대한 사용자 정의 보기를 만들어 �
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ ht-degree: 0%
 
    * 기존 표준 보기를 기반으로 새 사용자 정의 보기를 만들려면: 드롭다운 메뉴에서 새 사용자 정의 보기의 기반으로 사용할 기존 표준 보기를 선택합니다. **[!UICONTROL 보기 설정]** 아이콘을 클릭한 다음 새 사용자 지정 보기로 **[!UICONTROL 복사]**&#x200B;를 클릭합니다.
 
-   * ![](assets/proof-custom-view-icon.png)
+   * ![사용자 지정 보기 아이콘](assets/proof-custom-view-icon.png)
 
    * 새 사용자 지정 보기를 처음부터 만들려면: **[!UICONTROL 새 보기]** 아이콘을 클릭합니다.
-   * ![](assets/proof-newview.png)
+   * ![새 보기](assets/proof-newview.png)
 
 1. **[!UICONTROL 세부 정보]** 섹션에서 다음 정보를 지정하십시오.
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 1. **[!UICONTROL 열]** 섹션에서 사용자 지정 보기에 포함할 열을 결정합니다.
 
    1. 오른쪽 화살표 아이콘을 클릭합니다.
-   1. ![](assets/proof-view-rightarrow.png)
+   1. ![오른쪽 화살표](assets/proof-view-rightarrow.png)
 
    1. 선택한 열의 이름을 두 번 클릭합니다.
    1. 열을 하나 이상 선택해야 하며 열은 한 번만 추가할 수 있습니다.
@@ -215,7 +215,7 @@ ht-degree: 0%
 1. 사용자 지정 보기에 모든 항목을 포함하려면 **[!UICONTROL 필터]** 섹션을 건너뜁니다.
 1. 사용 가능한 필터:
 
-   * **필드:** 이 필터의 필드를 선택합니다(기본 필드는 댓글). 필드 목록에는 [!UICONTROL 열] 탭에서와 같이 모든 표준 필드가 포함되어 있습니다. 이 목록은 표시용으로 선택한 열로 제한되지 않습니다.
+   * **필드:** 이 필터의 필드를 선택합니다(기본 필드는 댓글). 필드 목록에는 [!UICONTROL 열] 탭과 같은 모든 표준 필드가 포함되어 있습니다. 이 목록은 표시용으로 선택한 열로 제한되지 않습니다.
    * **연산자:** 필터에 사용할 수 있는 연산자는 선택한 필드 유형에 따라 다릅니다. 필드와 값 필드 간의 관계를 보여 주는 연산자를 선택하십시오. 나중에 이 정보를 입력하십시오.
    * **값:** 선택한 필드 및 연산자에 따라 이 필드에서 선택한 값을 선택하거나 입력합니다. 선택한 연산자에 따라 [값] 필드가 한 개 있거나 두 개 또는 전혀 없을 수 있습니다. 아래 예를 참조하십시오.
    * **다음 논리를 사용하여 필터가 적용됩니다.** 다른 필드 간의 필터 기준에는 AND 연산자가 사용됩니다. 동일한 필드를 사용하는 여러 필터 기준은 동일한 필드에 OR 연산자를 사용합니다.
@@ -274,10 +274,10 @@ ht-degree: 0%
 
 1. [!UICONTROL 보기] 단추 클릭(1)
 1. 드롭다운 메뉴에서 편집할 뷰를 선택합니다.\
-   ![](assets/proof-view-edit.png)
+   ![보기 편집](assets/proof-view-edit.png)
 
 1. **[!UICONTROL 보기 옵션]** 단추를 클릭한 다음 **[!UICONTROL 보기 편집]**&#x200B;을 클릭합니다.\
-   ![](assets/proof-view-options.png)\
+   ![옵션 보기](assets/proof-view-options.png)\
    [사용자 정의 뷰 편집] 페이지가 표시됩니다.
 
 1. [!UICONTROL 작업] 메뉴를 클릭합니다. (3)\
@@ -312,7 +312,7 @@ ht-degree: 0%
    ![copying_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. 사용자 지정 보기 복사 페이지에서 모든 원래 설정이 채워집니다. 선택한 대로 사용자 지정 보기를 수정하고 **[!UICONTROL 보기 복사]** 단추를 클릭합니다. 즉시 새 보기로 이동합니다.\
-   ![](assets/copy-custom-view-page-350x542.png)
+   ![사용자 지정 보기 복사](assets/copy-custom-view-page-350x542.png)
 
 ## 사용자 정의 보기 공유
 

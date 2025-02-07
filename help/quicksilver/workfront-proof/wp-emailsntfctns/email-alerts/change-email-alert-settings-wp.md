@@ -7,9 +7,9 @@ description: 검토자가 되는 증명에 대해 받는  [!DNL Workfront Proof]
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ac24a339-6f9f-4452-a37b-023752447700
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 증명에서 검토자에 대한 이메일 경고 변경
 
-1. 목록 보기에서 증명 오른쪽에 있는 **[!UICONTROL 자세히]** 메뉴를 클릭합니다. ![](assets/more-button-small.png)
+1. 목록 보기에서 증명 오른쪽에 있는 **[!UICONTROL 자세히]** 메뉴를 클릭합니다. ![추가 메뉴](assets/more-button-small.png)
 
 1. **[!UICONTROL 증명 세부 정보 보기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 증명 세부 정보]** 페이지에서 검토자의 [!UICONTROL 전자 메일 경고] 드롭다운 메뉴를 연 다음 새 설정을 선택합니다.

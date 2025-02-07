@@ -7,9 +7,9 @@ description: 플라이트 계획 시각화는 적용된 필터 기준 내에서 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '885'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 플라이트 계획 시각화는 적용된 필터 기준 내에서 얼마나 많은 프로젝트가 작동 중인지, 이러한 프로젝트의 라이프타임 동안 어떤 상태 변화가 발생했는지, 그리고 이러한 프로젝트가 계획된 완료 기한을 얼마나 준수했는지 보여 줍니다.
 
-![](assets/flight-plan-350x132.png)
+![플라이트 플랜](assets/flight-plan-350x132.png)
 
 ## 액세스 요구 사항
 
@@ -67,11 +67,11 @@ ht-degree: 4%
 
 * **계획된 기간**: 파란색 가로 선은 프로젝트의 계획된 길이를 나타내며, 선 끝에 있는 삼각형은 시작 날짜와 종료 날짜를 나타냅니다.
 
-  ![](assets/planned-duration-line-350x37.png)
+  ![계획된 기간](assets/planned-duration-line-350x37.png)
 
 * **실제 기간**: 계획된 기간 아래의 굵고 색상이 지정된 선은 프로젝트의 실제 길이를 나타냅니다. 프로젝트의 수명 중 해당 특정 시점에 프로젝트의 상태에 따라 선의 색상이 변경됩니다.
 
-  ![](assets/actual-duration-line.png)
+  ![실제 기간](assets/actual-duration-line.png)
 
 * **실제 상태**: 굵고 색상이 지정된 선은 시간대별로 프로젝트의 상태를 표시합니다. 선 색상은 프로젝트의 상태에 따라 달라집니다.
 
@@ -79,7 +79,7 @@ ht-degree: 4%
    * **주황**: 위험 상태
    * **빨강**: 문제 발생
 
-  ![](assets/actual-condition-color.png)
+  ![실제 상태](assets/actual-condition-color.png)
 
 플라이트 플랜 시각화의 프로젝트 행 위로 마우스를 가져가면 프로젝트의 계획된 일정, 현재 프로젝트 상태 및(해당하는 경우) 사용자 지정 상태에 대한 정보를 볼 수 있습니다. 지속 시간이나 조건에 영향을 미칠 수 있는 사항을 보다 깊이 있게 보려면 고급 분석 영역에서 다른 시각화를 살펴볼 수 있습니다.
 
@@ -95,10 +95,10 @@ ht-degree: 4%
 
 ## 플라이트 계획 시각화 보기
 
-1. **기본 메뉴** 아이콘 ![](assets/main-menu-icon-16x12.png)을(를) 클릭한 다음 **분석**&#x200B;을(를) 선택합니다.
+1. **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon-16x12.png)을 클릭한 다음 **Analytics**&#x200B;를 선택합니다.
 1. (선택 사항) 다른 날짜 범위를 사용하려면 날짜 범위 필터에서 새 시작 날짜와 종료 날짜를 선택합니다.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![날짜 범위 선택](assets/filters-select-date-range-350x344.png)
 
    날짜 범위 필터 사용에 대한 자세한 내용은 [향상된 분석에서 필터 적용](../enhanced-analytics/use-enhanced-analytics-filters.md)을 참조하십시오.
 
@@ -112,7 +112,7 @@ ht-degree: 4%
 
    다른 모든 시각화는 동일한 날짜 범위로 업데이트되며 일정 필터가 만들어집니다.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![일정 필터](assets/timeframe-filter-350x220.png)
 
 1. (선택 사항) 프로젝트 정렬 방법을 변경하려면 플라이트 계획 시각화의 오른쪽 상단에 있는 **정렬 기준** 메뉴를 클릭한 다음, 새 정렬 옵션을 선택하십시오.
 
@@ -127,7 +127,7 @@ ht-degree: 4%
 
    페이지의 다른 모든 시각화는 페이지 선택 사항과 일치하도록 업데이트됩니다.
 
-   ![](assets/pagination-350x118.png)
+   ![페이지 매김](assets/pagination-350x118.png)
 
 1. 프로젝트 막대 그래프 위로 마우스를 가져가면 파란색 날짜 줄과 다음 세부 정보를 볼 수 있습니다.
 
@@ -135,9 +135,9 @@ ht-degree: 4%
    * 현재 상태
    * 사용자 지정 조건(해당되는 경우)
 
-   ![](assets/project-bar-graph-350x143.png)
+   ![프로젝트 막대 그래프](assets/project-bar-graph-350x143.png)
 
-1. (선택 사항) 시각화 데이터를 내보내려면 시각화의 오른쪽 상단에 있는 **내보내기** 아이콘 ![](assets/export.png)을(를) 클릭한 다음 내보내기 형식을 선택합니다.
+1. (선택 사항) 시각화 데이터를 내보내려면 시각화의 오른쪽 상단에 있는 **내보내기** 아이콘 ![내보내기 아이콘](assets/export.png)을 클릭한 다음 내보내기 형식을 선택합니다.
 
    * **차트(PNG)**
    * **데이터 테이블(XSLX)**

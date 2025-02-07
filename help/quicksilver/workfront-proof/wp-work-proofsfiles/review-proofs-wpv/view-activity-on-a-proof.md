@@ -7,9 +7,9 @@ description: 주어진 증명에 대한 최근 활동을 볼 수 있습니다. �
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 왼쪽 도구 모음이 표시되지 않으면 증명 뷰어의 왼쪽 위 모서리에 있는 **[!UICONTROL 메뉴]** 아이콘을 클릭하십시오.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![증명 뷰어 메뉴](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. 증명 뷰어 왼쪽의 도구 모음에서 **[!UICONTROL 증명 세부 정보]** 단추를 클릭합니다.
 

@@ -7,9 +7,9 @@ description: 증명에 대한 편집 권한이 있는 검토자는 기존 증명
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 1.  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리에 설명된 대로 **[!UICONTROL 보기]** 페이지로 이동합니다.
 
 1. 증명에 대한 **[!UICONTROL 자세히]** 메뉴를 엽니다.\
-   ![](assets/more-button-small.png)
+   ![추가 메뉴](assets/more-button-small.png)
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 복사]**&#x200B;를 선택합니다.
 1. 표시되는 **[!UICONTROL 증명 복사]** 페이지에서 복사본을 기존 증명의 새 버전으로 만들지 새 증명으로 만들지 지정합니다.\
@@ -77,7 +77,7 @@ ht-degree: 0%
 1.  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리에 설명된 대로 **[!UICONTROL 보기]** 페이지로 이동합니다.
 
 1. 증명에 대한 **[!UICONTROL 자세히]** 메뉴를 엽니다.\
-   ![](assets/more-button-small.png)
+   ![추가 메뉴](assets/more-button-small.png)
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 증명 세부 정보 보기]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 자세히]**&#x200B;를 클릭합니다.\

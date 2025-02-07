@@ -7,9 +7,9 @@ description: 증명을 만들지 않고  [!DNL Workfront Proof] 에 파일을 �
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 파일을 [!DNL Workfront Proof]에 업로드하려면:
 
 1. [!DNL Workfront Proof]의 왼쪽 상단 모서리에서 **[!UICONTROL 새 증명]** 단추의 아래쪽 화살표를 클릭한 다음 표시되는 메뉴에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭합니다.\
-   ![](assets/new-proof-button-menu.png)
+   ![새 증명 단추](assets/new-proof-button-menu.png)
 
 1. **[!DNL New File]** 페이지가 나타납니다.
 1. 다음 중 하나를 수행하여 증명해야 하는 콘텐츠를 업로드하거나 추가합니다.

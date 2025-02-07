@@ -7,9 +7,9 @@ description: 증명에 대한 편집 권한이 있는 사용자는 삭제할 수
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 ## 증명 삭제
 
 1. 목록 보기에서 증명 오른쪽에 있는 **[!UICONTROL 자세히]** 메뉴를 클릭합니다.\
-   ![](assets/more-button-small.png)
+   ![추가 메뉴](assets/more-button-small.png)
 
 1. 표시되는 드롭다운 메뉴에서 **[!UICONTROL 증명 세부 정보 보기]**&#x200B;를 클릭합니다.
 1. 페이지 오른쪽 상단 근처에 있는 **[!UICONTROL 삭제]** 단추를 클릭합니다.

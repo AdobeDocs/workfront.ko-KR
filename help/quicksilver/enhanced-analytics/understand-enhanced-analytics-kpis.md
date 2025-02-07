@@ -7,9 +7,9 @@ description: Enhanced Analytics 영역의 화면 맨 위에 4개의 KPI(핵심 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '524'
 ht-degree: 1%
 
 ---
@@ -29,22 +29,22 @@ Enhanced Analytics 영역의 화면 맨 위에 4개의 KPI(핵심 성능 지표)
 
 프로젝트 완료 KPI는 필터링된 기간 내에 완료된 프로젝트 수와 이전 기간 이후 증가하거나 감소된 백분율을 보여줍니다. 이 숫자 아래에 이전 기간에 완료된 프로젝트 수와 이전 기간의 일 수를 볼 수 있습니다.
 
-![](assets/kpi-projects-completed-350x182.png)
+![KPI 프로젝트 완료됨](assets/kpi-projects-completed-350x182.png)
 
 ## 프로젝트가 정시에 완료됨
 
 정시에 완료된 프로젝트 KPI는 필터링된 기간 내에 정시에 완료된 프로젝트의 백분율과 이전 기간 이후 백분율이 증가 또는 감소했는지 보여 줍니다. 이 숫자 아래에 이전 기간의 일수는 물론 이전 기간의 정시에 완료된 프로젝트의 백분율도 표시됩니다.
 
-![](assets/kpi-projects-completed-on-time-350x180.png)
+![KPI 프로젝트가 정시에 완료됨](assets/kpi-projects-completed-on-time-350x180.png)
 
 ## 평균 프로젝트 기간
 
 평균 프로젝트 기간 KPI는 필터링된 기간 내에 실제 종료 일자가 있는 프로젝트의 평균 완료 시간(일, 주 또는 년)과 이전 기간 이후 백분율 증가 또는 감소를 표시합니다. 이 숫자 아래에 이전 기간의 일 수뿐만 아니라 이전 기간의 실제 종료 일자가 있는 프로젝트의 평균 완료 시간을 볼 수 있습니다.
 
-![](assets/kpi-avg.-project-duration-350x168.png)
+![KPI 평균 프로젝트 기간](assets/kpi-avg.-project-duration-350x168.png)
 
 ## 프로젝트별 평균 작업 수
 
 Avg, Tasks per project KPI는 필터링된 기간 내에 프로젝트에 할당된 작업의 평균 수와 이전 기간 이후 증가하거나 감소된 백분율을 보여줍니다. 이 숫자 아래에는 이전 기간의 평균 프로젝트 할당 작업 수와 이전 기간의 일 수를 볼 수 있습니다.
 
-![](assets/kpi-average-tasks-per-project-350x179.png)
+![프로젝트당 KPI 평균 작업](assets/kpi-average-tasks-per-project-350x179.png)

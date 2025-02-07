@@ -7,9 +7,9 @@ description: Workfront Proof에서 생성된 이메일 알림은 공동 작업�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 일괄 처리 작업에서 특정 수신자에 대한 이메일 경고를 변경할 수 있습니다.
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 연락처]**&#x200B;를 클릭합니다.
-1. 받는 사람의 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-button-small.png)을(를) 클릭한 다음 드롭다운 메뉴에서 **[!UICONTROL 구성원 세부 정보 보기]**&#x200B;를 클릭합니다.
+1. 받는 사람의 **[!UICONTROL 기타]** 메뉴 ![기타 메뉴](assets/more-button-small.png)를 클릭한 다음 드롭다운 메뉴에서 **[!UICONTROL 구성원 세부 정보 보기]**&#x200B;를 클릭합니다.
 
 1. **[!UICONTROL 공유 항목]** 섹션을 엽니다.
 1. 이메일 경고를 변경할 각 항목의 왼쪽에 있는 확인란을 선택합니다.

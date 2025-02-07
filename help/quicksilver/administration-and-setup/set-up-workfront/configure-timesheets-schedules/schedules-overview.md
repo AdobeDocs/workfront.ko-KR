@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Workfront에서 일정을 사용할 때는 다음 사항을 고려하십시오.
 * 작업에 할당된 사용자에게 일정이 없거나 작업이 작업 역할, 팀에만 할당되거나 할당 해제된 경우 [!DNL Workfront]은(는) 타임라인 계산에 프로젝트 일정을 사용합니다.
 * 작업에 할당된 사용자에게 일정이 없거나 작업이 작업 역할, 팀에만 할당되거나 할당되지 않은 경우 프로젝트에 일정이 없는 경우 [!DNL Workfront]은(는) 타임라인 계산을 위한 기본 일정으로 지정된 시스템에서 일정을 사용합니다.
 
-  ![](assets/default-schedule.png)
+  ![기본 일정](assets/default-schedule.png)
 
 ## 표준 시간대에 걸쳐 [!DNL Workfront]의 Collaboration
 

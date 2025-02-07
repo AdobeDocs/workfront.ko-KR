@@ -7,9 +7,9 @@ description: 향상된 Analytics는 계획 및 완료로 프로젝트 데이터�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 * 프로젝트 진행 중 사용자가 특정 작업을 완료하는 빈도
 * 프로젝트 진행 상황 및 프로젝트 내 개별 작업
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![분석](assets/nwe-full-screen-analytics-350x222.png)
 
 사용 사례를 확인하거나 향상된 분석을 사용하여 현재 작업 관리 및 향후 작업 계획에 대해 자세히 알아보려면 [향상된 분석 학습 경로](https://one.workfront.com/s/enhanced-analytics-program)를 참조하십시오.
 
@@ -121,7 +121,7 @@ ht-degree: 3%
 
 키보드의 다음 키를 사용하여 고급 분석 영역에서 특정 작업을 탐색하거나 완료할 수 있습니다.
 
-| 키 | 개 액션 |
+| 키 | 액션 |
 |---|---|
 | **탭** | 페이지에 표시되지 않는 각 시각화에 대한 정보가 있는 테이블뿐만 아니라 페이지의 각 요소로 이동합니다 |
 | **입력** | 달력 위젯 열기, 기존 필터 삭제, 필터 옵션 추가 열기, 필터 값 선택/선택 해제, 만든 필터 적용, 각 시각화에서 내보내기 옵션 열기, 번다운, 진행 중인 작업 및 프로젝트 트리맵 시각화에서 드롭다운 메뉴 열기 |
@@ -141,7 +141,7 @@ Enhanced Analytics의 특정 기능에 대한 세부 정보, 추가 통찰력을
  <col> 
  <thead> 
   <tr> 
-   <th>기사</th> 
+   <th>문서</th> 
    <th>설명</th> 
   </tr> 
  </thead> 

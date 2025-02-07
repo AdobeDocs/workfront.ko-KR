@@ -7,9 +7,9 @@ description: 진행 중인 작업 시각화는 프로젝트에 대해 진행 중
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '749'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 진행 중인 작업 시각화는 프로젝트에 대해 진행 중인 작업 수(적용된 필터 기준 내), 각 작업에 대해 완료된 작업의 비율 및 작업을 예약하는 방법을 보여 줍니다.
 
-![](assets/tasks-in-flight-possible-replacement-350x104.png)
+진행 중인 ![작업](assets/tasks-in-flight-possible-replacement-350x104.png)
 
 ## 액세스 요구 사항
 
@@ -59,15 +59,15 @@ ht-degree: 4%
 
 * **계획된 작업 기간**: 작업 표시줄의 길이는 작업의 시작 날짜와 완료 날짜를 기준으로 계획된 기간을 나타냅니다.
 
-  ![](assets/tasks-in-flight-duration-350x80.png)
+  ![진행 중인 작업](assets/tasks-in-flight-duration-350x80.png)
 
 * **작업 노력 완료**: 작업 표시줄의 진한 파란색은 작업에 대해 완료된 작업의 양을 나타냅니다. 이 완료율은 작업 표시줄의 오른쪽에 표시됩니다.
 
-  ![](assets/tasks-in-flight-dark-blue-350x35.png)
+  ![진행 중인 작업 진한 파란색](assets/tasks-in-flight-dark-blue-350x35.png)
 
 * **남은 작업 노력**: 작업 표시줄의 연한 파란색은 작업에 대해 완료해야 하는 작업량을 나타냅니다.
 
-  ![](assets/tasks-in-flight-light-blue-350x35.png)
+  ![진행 중인 작업 연한 파란색](assets/tasks-in-flight-light-blue-350x35.png)
 
 이 정보를 통해 다음과 같은 사항을 확인할 수 있습니다.
 
@@ -80,10 +80,10 @@ ht-degree: 4%
 
 ## 진행 중인 작업 시각화 보기
 
-1. 메인 메뉴 아이콘 ![](assets/main-menu-icon-16x12.png)을(를) 클릭한 다음 **분석**&#x200B;을(를) 선택합니다.
+1. 주 메뉴 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon-16x12.png)을 클릭한 다음 **분석**&#x200B;을 선택합니다.
 1. (선택 사항) 다른 날짜 범위를 사용하려면 날짜 범위 필터에서 새 시작 날짜와 종료 날짜를 선택합니다.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![날짜 범위 선택](assets/filters-select-date-range-350x344.png)
 
    날짜 범위 필터 사용에 대한 자세한 내용은 [향상된 분석에서 필터 적용](../enhanced-analytics/use-enhanced-analytics-filters.md)을 참조하십시오.
 
@@ -113,7 +113,7 @@ ht-degree: 4%
 
    다른 모든 시각화는 동일한 날짜 범위로 업데이트되며 일정 필터가 만들어집니다.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![일정 필터](assets/timeframe-filter-350x220.png)
 
 1. (선택 사항) 작업 정렬 방법을 변경하려면 **정렬 기준** 메뉴를 클릭한 다음, 새 정렬 옵션을 선택하십시오.
 
@@ -125,13 +125,13 @@ ht-degree: 4%
 
 1. 선택한 프로젝트에서 작업 진행 상황을 검토한 다음 특정 작업을 마우스로 가리키면 계획된 시간 수, 계획된 납기 일자 및 완료 비율이 표시됩니다.
 
-   ![](assets/tasks-in-flight-task-details-350x242.png)
+   진행 중인 ![작업 세부 정보](assets/tasks-in-flight-task-details-350x242.png)
 
 1. 작업을 클릭하여 화면 오른쪽에 있는 작업 세부 정보 를 엽니다. 이 화면에서 작업에 대한 자세한 내용을 보거나, 업데이트를 보거나, 입력하거나, 작업을 변경할 수 있습니다.
 
-   ![](assets/task-details-qs-350x675.png)
+   ![작업 세부 정보](assets/task-details-qs-350x675.png)
 
-1. (선택 사항) 시각화 데이터를 내보내려면 시각화의 오른쪽 상단 모서리에 있는 **내보내기 아이콘** ![](assets/export.png)을(를) 클릭한 다음 내보내기 형식을 선택합니다.
+1. (선택 사항) 시각화 데이터를 내보내려면 시각화의 오른쪽 상단에 있는 **내보내기 아이콘** ![내보내기 아이콘](assets/export.png)을 클릭한 다음 내보내기 형식을 선택합니다.
 
    * **차트(PNG)**
    * **데이터 테이블(XSLX)**

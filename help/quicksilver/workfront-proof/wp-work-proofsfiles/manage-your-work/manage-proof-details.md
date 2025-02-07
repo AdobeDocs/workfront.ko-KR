@@ -7,9 +7,9 @@ description: 증명 세부 정보 페이지를 사용하여 기존 증명을 관
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ ht-degree: 0%
 ## 증명 뷰어에서 증명 세부 정보 페이지 열기
 
 1. 왼쪽 도구 모음이 표시되지 않으면 왼쪽 위 모서리에 있는 **[!UICONTROL 메뉴]** 아이콘을 클릭합니다.\
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![증명 뷰어 메뉴](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. 왼쪽 도구 모음 위로 마우스를 가져간 다음 **[!UICONTROL 증명 세부 정보]**&#x200B;를 클릭합니다.\
-   ![](assets/proof-details-in-proofing-viewer-350x215.png)
+   ![증명 뷰어 세부 정보](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >

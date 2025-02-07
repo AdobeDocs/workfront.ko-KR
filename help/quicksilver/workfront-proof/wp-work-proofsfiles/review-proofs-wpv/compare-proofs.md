@@ -7,9 +7,9 @@ description: 두 증명에 대한 병렬 비교를 볼 수 있습니다. 동일�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 비교할 여러 버전이 있는 증명을 엽니다.
 1. 표시되는 증명 뷰어의 왼쪽 상단 모서리에서 증명 이름을 클릭합니다. 그런 다음 표시되는 버전 목록에서 열고 비교할 버전 옆에 있는 **비교** 아이콘을 클릭합니다.
 
-   ![](assets/compare-proofs-choose-version-350x115.jpg)
+   ![증명 비교](assets/compare-proofs-choose-version-350x115.jpg)
 
    증명이 나란히 표시되고 새 버전이 왼쪽에 표시됩니다.
 

@@ -7,9 +7,9 @@ description: 여러 검토자가 동시에 증명을 검토할 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4f55af53-0ca8-4f50-b539-b93d13655f0c
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 1. (선택 사항) 사용자의 이름을 보려면 현재 상태 표시등 위로 마우스를 가져갑니다.
 
-   ![](assets/proof-presence.png)
+   ![증명 유무](assets/proof-presence.png)

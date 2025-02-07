@@ -7,9 +7,9 @@ description: 프로젝트 트리맵 시각화는 규모에 있어 다른 작업 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 프로젝트 트리맵 시각화는 규모에 있어 다른 작업 노력과 비교하여 특정 기간 동안 작업한 시간 또는 일을 보는 것입니다. 이렇게 하면 사람들이 프로젝트에 얼마나 많은 시간을 할애했는지 이해하는 데 도움이 됩니다.
 
-![](assets/project-treemap-350x126.png){width="700"}
+![프로젝트 트리맵](assets/project-treemap-350x126.png){width="700"}
 
 ## 액세스 요구 사항
 
@@ -71,22 +71,22 @@ ht-degree: 2%
 
 * **더 작고 연한 파란색 상자**: 몇 시간 또는 며칠이 더 적은 프로젝트는 연한 파란색의 더 작은 상자로 표시됩니다.
 
-  ![](assets/project-treemap-smaller-box.png)
+  ![작은 상자](assets/project-treemap-smaller-box.png)
 
 * **크고 짙은 파란색 상자**: 시간이 더 많은 프로젝트(일)는 어두운 파란색의 더 큰 상자로 표시됩니다.
 
-  ![](assets/project-treemap-larger-box-350x205.png)
+  ![큰 상자](assets/project-treemap-larger-box-350x205.png)
 
 * **Medium 크기, 파란색 상자**: 두 범주 사이에 있는 프로젝트는 어두운 파란색과 연한 파란색 사이에 파란색 음영이 있는 중간 크기 상자로 표시됩니다. 중간 크기의 상자에는 3가지 가능한 파란색 음영이 있습니다.
 
 오른쪽의 범례는 각 파란색 음영에 대한 완료된 시간 분류를 보여 줍니다. 이 범례는 동적이며 데이터에 따라 업데이트됩니다.
 
-![](assets/project-treemap-hours-completed.png)
+![트리맵 시간 완료됨](assets/project-treemap-hours-completed.png)
 
 >[!NOTE]
 >
 >프로젝트 트리맵 시각화를 계획된 시간이 아닌 기간별로 보고 있는 경우 이 범례는 각 파란색 음영에 대해 작업한 일의 분류를 표시합니다.\
->![](assets/project-treemap-days-worked.png)>
+>![트리맵 작업일](assets/project-treemap-days-worked.png)>
 
 이 정보를 보면 다음과 같은 사항을 확인할 수 있습니다.
 
@@ -99,10 +99,10 @@ ht-degree: 2%
 
 ## 프로젝트 트리맵 시각화 보기
 
-1. 메인 메뉴 아이콘 ![](assets/main-menu-icon-16x12.png)을(를) 클릭한 다음 **분석**&#x200B;을(를) 선택합니다.
+1. 주 메뉴 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon-16x12.png)을 클릭한 다음 **분석**&#x200B;을 선택합니다.
 1. (선택 사항) 다른 날짜 범위를 사용하려면 날짜 범위 필터에서 새 시작 날짜와 종료 날짜를 선택합니다.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![날짜 범위 선택](assets/filters-select-date-range-350x344.png)
 
    날짜 범위 필터 사용에 대한 자세한 내용은 [향상된 분석에서 필터 적용](../enhanced-analytics/use-enhanced-analytics-filters.md)을 참조하십시오.
 
@@ -125,7 +125,7 @@ ht-degree: 2%
 
    페이지의 다른 모든 시각화는 페이지 선택 사항과 일치하도록 업데이트됩니다.
 
-   ![](assets/pagination-350x118.png)
+   ![페이지 매김](assets/pagination-350x118.png)
 
 1. (선택 사항) 보기를 **계획된 시간**&#x200B;에서 **지속 시간**(으)로 변경합니다.
 
@@ -133,7 +133,7 @@ ht-degree: 2%
 
 1. 프로젝트 상태를 확인하고 총 계획된 시간, 총 완료된 시간 및 일별 프로젝트에 소요된 평균 시간을 확인하려면 프로젝트 위로 마우스를 가져갑니다.
 
-   ![](assets/project-treemap-project-details-350x404.png)
+   ![트리맵 프로젝트 세부 정보](assets/project-treemap-project-details-350x404.png)
 
    >[!NOTE]
    >
@@ -142,11 +142,11 @@ ht-degree: 2%
    >* **계획된 일정**: 프로젝트를 완료하는 데 계획된 일 수입니다.
    >* **근무일**: 맨 위에서 선택한 날짜 범위 내에 완료된 각 작업의 계획된 기간을 하루의 시간 수로 나눈 값입니다.
    >   
-   >![](assets/duration-treemap-350x159.png)
+   >![트리맵 기간](assets/duration-treemap-350x159.png)
    >
    >기간에 대한 자세한 내용은 [향상된 분석 개요](../enhanced-analytics/enhanced-analytics-overview.md)의 &quot;기간 보기&quot; 섹션을 참조하십시오.
 
-1. (선택 사항) 시각화 데이터를 내보내려면 시각화의 오른쪽 상단 모서리에 있는 **내보내기 아이콘** ![](assets/export.png)을(를) 클릭한 다음 내보내기 형식을 선택합니다.
+1. (선택 사항) 시각화 데이터를 내보내려면 시각화의 오른쪽 상단에 있는 **내보내기 아이콘** ![내보내기 아이콘](assets/export.png)을 클릭한 다음 내보내기 형식을 선택합니다.
 
    * **차트(PNG)**
    * **데이터 테이블(XSLX)**

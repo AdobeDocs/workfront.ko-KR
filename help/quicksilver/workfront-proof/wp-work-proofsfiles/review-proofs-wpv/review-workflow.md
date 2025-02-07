@@ -7,9 +7,9 @@ description: 워크플로 패널에는 증명 세부 정보 페이지 및 이메
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    **[!UICONTROL 워크플로]** 패널이 나타납니다.
 
-   ![](assets/workflow-panel-350x115.png)
+   ![워크플로 패널](assets/workflow-panel-350x115.png)
 
    [워크플로] 패널의 각 섹션에는 증명, 단계 및 검토자의 진행 상황과 상태가 표시됩니다.
 

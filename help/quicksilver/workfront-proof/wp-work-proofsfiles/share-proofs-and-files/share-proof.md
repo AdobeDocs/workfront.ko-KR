@@ -7,9 +7,9 @@ description: 증명에 대한 편집 권한이 있는 경우 다른 검토자와
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 ## 기존 증명에 검토자 추가
 
 1. 대시보드 또는 목록 보기에서 증명 오른쪽에 있는 **[!UICONTROL 자세히]** 단추 드롭다운을 클릭합니다.\
-   ![](assets/more-button-small.png)
+   ![추가 메뉴](assets/more-button-small.png)
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
 1. 표시되는 **[!UICONTROL 이 버전 공유]** 페이지에서 전자 메일 주소를 추가하여 검토자를 추가하십시오.\

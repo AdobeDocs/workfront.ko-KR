@@ -7,9 +7,9 @@ description: 프로젝트 및 증명을 폴더로 구성할 때 얻을 수 있�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
    * 폴더의 **작성자** 이름을 확인하세요.
 
 1. (선택 사항)폴더의 항목과 연결된 정보를 변경하려면 항목 오른쪽에 있는 **[!UICONTROL 자세히]** 아이콘을 클릭한 다음 표시되는 옵션을 사용하십시오.\
-   ![](assets/more-button-small.png)\
+   ![추가 메뉴](assets/more-button-small.png)\
    표시되는 옵션은 항목이 증명인지 아니면 파일인지에 따라 다릅니다.
 
    * **[!UICONTROL 증명 세부 정보 보기]** 또는 **[!UICONTROL 파일 세부 정보 보기]**: 증명 세부 정보 또는 파일 세부 정보 페이지를 엽니다. 자세한 내용은 [파일 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) 또는 [증명 세부 정보 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)를 참조하십시오.
@@ -111,9 +111,9 @@ ht-degree: 0%
 1. (선택 사항) 폴더에서 수행된 모든 작업을 시간 순서대로 보려면 **[!UICONTROL 활동]**&#x200B;을 클릭하십시오.
 1. (선택 사항) 폴더의 사용자에게 보낸 메시지를 보려면 **[!UICONTROL 메시지]** 섹션을 클릭합니다.\
    메시지 위로 마우스를 가져가면 오른쪽에 있는 **i** 아이콘을 클릭하여 전체 메시지를 볼 수 있습니다.\
-   ![](assets/messages-1-350x74.png)\
+   ![메시지](assets/messages-1-350x74.png)\
    전체 이메일이 포함된 팝업이 표시됩니다.\
-   ![](assets/messages-2-350x252.png)
+   ![메시지 팝업](assets/messages-2-350x252.png)
 
 ## 하위 폴더 관리
 
