@@ -6,9 +6,9 @@ description: 아트보드를 교정으로 Adobe Workfront에 직접 업로드하
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/menu-350x440.png)
+   ![메뉴 아이콘](assets/menu-350x440.png)
 
 1. 정적 증명을 업로드할 작업 항목으로 이동합니다.
-1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을(를) 클릭합니다.
+1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭합니다.
 
 1. 플러그 인 아래쪽의 **[!UICONTROL 새 파일]**&#x200B;을 클릭합니다.
 1. 업로드할 아트보드를 선택합니다.
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역에 댓글을 입력합니다.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![XD에서 증명 승인](assets/proof-approvals-xd-350x396.png)
 
 1. **[!UICONTROL 자산 유형]** 드롭다운 메뉴에서 내보내기 형식을 선택합니다.
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 1. (선택 사항) PDF 이름을 지정합니다.
 
-   ![](assets/pdf-options.png)
+   ![PDF 옵션](assets/pdf-options.png)
 
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.\
    플러그 인 및 데스크톱 앱의 [!UICONTROL 문서] 영역에 문서가 표시됩니다.
@@ -149,10 +149,10 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/menu-350x440.png)
+   ![메뉴 아이콘](assets/menu-350x440.png)
 
 1. 대화형 증명을 업로드할 작업 항목으로 이동합니다.
-1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을(를) 클릭합니다.
+1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭합니다.
 
 1. 플러그 인 아래쪽의 **[!UICONTROL 새 파일]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 증명 만들기]**&#x200B;를 사용하도록 설정합니다.
@@ -184,10 +184,10 @@ ht-degree: 0%
 
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역에 댓글을 입력합니다.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![XD에서 증명 승인](assets/proof-approvals-xd-350x396.png)
 
 1. **[!UICONTROL 자산 유형]** 드롭다운 메뉴에서 **공유 링크** 탭에서 방금 만든 링크를 선택합니다. 자세한 내용은 [아트보드용 대화형 링크 만들기](#create-an-interactive-link-for-your-artboard)를 참조하십시오.\
-   ![](assets/shared-links-xd-350x870.png)
+   ![XD에서 공유된 링크](assets/shared-links-xd-350x870.png)
 
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
 
@@ -203,10 +203,10 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/menu-350x440.png)
+   ![메뉴 아이콘](assets/menu-350x440.png)
 
 1. 문서를 업로드해야 하는 작업 항목으로 이동합니다.
-1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을(를) 클릭합니다.
+1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭합니다.
 
 1. 플러그 인의 맨 아래에 있는 **[!UICONTROL 새 버전]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 증명 만들기]**&#x200B;를 사용하도록 설정합니다.
@@ -243,17 +243,17 @@ ht-degree: 0%
 
 1. **[!UICONTROL 자산 유형]** 드롭다운 메뉴에서 내보내기 형식을 선택합니다.
 
-   ![](assets/create-a-proof-xd-350x202.png)
+   ![XD에서 증명 만들기](assets/create-a-proof-xd-350x202.png)
 
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역에 댓글을 입력합니다.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![XD에서 증명 승인](assets/proof-approvals-xd-350x396.png)
 
 1. (선택 사항) PDF을 에셋 유형으로 선택하고 둘 이상의 아트보드를 선택한 경우, 아트보드를 **[!UICONTROL 단일 PDF 파일]s** 또는 **M[!UICONTROL 여러 PDF 파일]**(으)로 내보내시겠습니까?
 
 1. (선택 사항) PDF 이름을 지정합니다.
 
-   ![](assets/pdf-options.png)
+   PDF 옵션
 
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.\
    플러그 인 및 데스크톱 앱의 [!UICONTROL 문서] 영역에 문서가 표시됩니다.

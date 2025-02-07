@@ -9,9 +9,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 hidefromtoc: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
-source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. **내보내기 파일 설정 설정** 대화 상자를 엽니다.
 
-   ![](assets/file-export-settings.png)
+   ![파일 내보내기 설정](assets/file-export-settings.png)
 
 1. 내보낼 자산 유형을 찾고 아래에 설명된 대로 설정을 조정합니다.
 

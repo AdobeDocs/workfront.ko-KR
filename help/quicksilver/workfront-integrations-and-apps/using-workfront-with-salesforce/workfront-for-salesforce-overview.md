@@ -3,13 +3,13 @@ content-type: overview
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
 title: Adobe Workfront for Salesforce 개요
-description: Salesforce용  [!DNL Adobe Workfront] 을(를) 설치하여 Salesforce 사용자가  [!DNL Workfront] 요청을 제출하고 Salesforce를 종료하지 않고 프로젝트를 자동으로 만들 수 있도록 할 수 있습니다.
+description: Salesforce용  [!DNL Adobe Workfront] 을(를) 설치하여 Salesforce 사용자가 Salesforce을 종료하지 않고도 요청을 제출 [!DNL Workfront] 하고 자동으로 프로젝트를 만들 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -68,20 +68,20 @@ ht-degree: 0%
 
   [!DNL Salesforce]에서 볼 수 있는 [!DNL Workfront] 필드 목록에 대해서는 [제출 [!DNL Adobe Workfront] 개체](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)의 요청 [!DNL Salesforce] 및 [개체 [!DNL Salesforce] 에서  [!DNL Adobe Workfront] 프로젝트 만들기](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)를 참조하십시오.
 
-* Workfront에서 **[!UICONTROL Salesforce로 이동]** 링크를 클릭하여 [!DNL Salesforce]에 연결된 항목에 직접 액세스할 수 있습니다.
+* Workfront에서 **[!UICONTROL Salesforce으로 이동]** 링크를 클릭하여 [!DNL Salesforce]에 연결된 항목에 직접 액세스할 수 있습니다.
 
-  [!DNL Workfront]에서 [!DNL Salesforce] 항목에 대한 정보를 볼 수 없지만 [!DNL Salesforce]에서 검토하기 위해 [!DNL Workfront]에서 [!UICONTROL Salesforce] 항목에 대한 링크가 있습니다.
+  [!DNL Workfront]에서 [!DNL Salesforce]개 항목에 대한 정보를 볼 수 없지만 [!DNL Salesforce]에서 검토하려면 [!DNL Workfront]에서 [!UICONTROL Salesforce] 항목에 대한 링크가 있습니다.
 
-  [!UICONTROL 다음 영역에 **Salesforce로 이동**] 링크가 표시됩니다.
+  [!UICONTROL 다음 영역에 **Salesforce으로 이동**] 링크가 표시됩니다.
 
    * 프로젝트 또는 문제의 [!UICONTROL 세부 정보] 섹션
    * 프로젝트 또는 문제의 헤더.
 
-     시스템 또는 그룹 관리자가 프로젝트 또는 문제 헤더에서 [!UICONTROL Salesforce로 이동] 링크를 보려면 [!UICONTROL 통합] 필드를 레이아웃 템플릿에 추가해야 합니다.
-   * 목록의 도구 모음에서 [!UICONTROL 요약 열기] ![](assets/summary-panel-icon.png)를 클릭한 후 목록에서 문제를 선택할 때 문제가 발생하는 [!DNL Summary] 패널.
+     시스템 또는 그룹 관리자가 프로젝트 또는 문제 헤더에서 [!UICONTROL Salesforce으로 이동] 링크를 보려면 [!UICONTROL 통합] 필드를 레이아웃 템플릿에 추가해야 합니다.
+   * 목록의 도구 모음에서 [!UICONTROL 요약 열기] ![요약 패널 아이콘](assets/summary-panel-icon.png)을 클릭한 후 목록에서 문제를 선택할 때 문제가 발생하는 [!DNL Summary] 패널.
 
      >[!NOTE]
      >
-     >[!UICONTROL Salesforce로 이동] 링크는 프로젝트 또는 문제를 볼 수 있는 모든 [!DNL Workfront] 사용자에게 표시됩니다. 문제가 기록된 [!DNL Salesforce] 영업 기회 또는 계정으로 이동하려면 [!DNL Salesforce] 계정이 있어야 합니다.
+     >[!UICONTROL Salesforce으로 이동] 링크는 프로젝트 또는 문제를 볼 수 있는 모든 [!DNL Workfront] 사용자에게 표시됩니다. 문제가 기록된 [!DNL Salesforce] 영업 기회 또는 계정으로 이동하려면 [!DNL Salesforce] 계정이 있어야 합니다.
 
 * 한 응용 프로그램의 한 항목에 대한 필드를 업데이트해도 다른 응용 프로그램의 연결된 항목에 대한 정보는 업데이트되지 않습니다.

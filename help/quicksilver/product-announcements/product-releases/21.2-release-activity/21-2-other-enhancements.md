@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Adobe Workfront 애플리케이션 및 고객 대면 웹 사이트에서 가장 
 
 새 Workfront 경험의 새 개체 헤더에 대한 자세한 내용은 [새 개체 헤더](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)를 참조하십시오.
 
-![](assets/product-announcement-object-header-350x179.png)
+![개체 헤더](assets/product-announcement-object-header-350x179.png)
 
 ## 오브젝트 상태 검색 응답 업데이트
 

@@ -7,9 +7,9 @@ description: ' [!DNL Adobe] [!DNL Workfront]에서 업데이트에 대한 알림
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 ## [!DNL Google Workspace]의 업데이트 알림에 회신
 
-1. [!UICONTROL Workfront for Google Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![](assets/wf-lion-icon.png)을(를) 클릭하십시오.
+1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![Workfront 아이콘](assets/wf-lion-icon.png)을 클릭하십시오.
 1. 업데이트가 포함된 [!DNL Workfront] 전자 메일 알림을 엽니다.
-1. [!UICONTROL Google Workspace용 Workfront] 패널 아래쪽에서 **[!UICONTROL 댓글 Post]**&#x200B;을 클릭한 다음 회신을 입력하세요.
+1. [!UICONTROL Google용 Workfront Workspace] 패널 아래쪽에서 **[!UICONTROL 댓글 게시]**&#x200B;를 클릭한 다음 답글을 입력하세요.
 1. (선택 사항) 회신에 대해 특정 사용자에게 알리려면 **[!DNL Notify people and teams]**&#x200B;을(를) 클릭하고 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
 
    추가할 다른 이름에 대해 이 단계를 반복할 수 있습니다.

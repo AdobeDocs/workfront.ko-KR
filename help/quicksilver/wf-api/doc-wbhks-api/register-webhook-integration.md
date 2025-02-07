@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 11%
 
 ---
@@ -22,9 +22,7 @@ Adobe Workfront 관리자는 Workfront 내의 설정 > 문서 > 사용자 정의
 
 통합을 추가하려면 **사용자 지정 통합 추가**&#x200B;를 클릭합니다.
 
-![](assets/webhooks-integration-350x230.png)
-
-![](assets/webhooks-integration-2-350x220.png)
+![사용자 지정 통합 추가](assets/webhooks-integration-2-350x220.png)
 
 ## 사용 가능한 필드
 

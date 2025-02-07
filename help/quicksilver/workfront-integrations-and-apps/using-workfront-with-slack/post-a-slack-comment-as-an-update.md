@@ -1,19 +1,19 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: 업데이트로 Slack 주석 Post
+title: Slack 댓글을 업데이트로 게시
 description: Adobe Workfront의 특정 프로젝트, 작업 또는 문제에 대한 업데이트로 Slack 주석을 추가할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# [!DNL Slack] 댓글을 업데이트로 Post
+# [!DNL Slack] 댓글을 업데이트로 게시하기
 
 [!DNL Adobe Workfront]의 특정 프로젝트, 작업 또는 문제에 대한 업데이트로 [!DNL Slack] 댓글을 추가할 수 있습니다.
 
@@ -43,15 +43,15 @@ ht-degree: 0%
 * [!DNL Workfront for Slack] 구성\
    [!DNL Workfront for Slack] 구성에 대한 지침은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을 참조하십시오.
 
-## [!DNL Workfront]에서 업데이트로 [!DNL Slack] 댓글 Post
+## [!DNL Workfront]에서 [!DNL Slack] 댓글을 업데이트로 게시합니다.
 
 1. [!DNL Slack] 채널에서 추가한 댓글에 마우스를 가져다 대고 **[!UICONTROL 추가 작업]**(점 3개) 아이콘을 클릭합니다.
 
-1. **[!UICONTROL 업데이트 Post]...`<the name of your Workfront app>`**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL 업데이트 게시]...`<the name of your Workfront app>`**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
-   >**[!UICONTROL 추가 메시지 바로 가기]**&#x200B;를 클릭하고 아래로 스크롤하여 **[!UICONTROL 업데이트 Post]** 옵션을 찾아야 할 수 있습니다.
+   >**[!UICONTROL 추가 메시지 바로 가기]**&#x200B;를 클릭하고 아래로 스크롤하여 **[!UICONTROL 업데이트 게시]** 옵션을 찾아야 할 수 있습니다.
    >
    >
 1. **[!UICONTROL 프로젝트, 작업 또는 문제]** 상자에서 업데이트를 추가할 프로젝트, 작업 또는 문제의 이름을 입력한 다음 목록에 표시될 때 프로젝트, 작업 또는 문제의 이름을 클릭합니다. 목록에 표시되기 전에 객체를 볼 수 있는 액세스 권한이 있어야 합니다.
@@ -64,4 +64,4 @@ ht-degree: 0%
 
    댓글이 [!DNL Slack]에서 시작된 경우 댓글에 [!DNL Workfront]의 &quot;[!DNL Slack]]에서 게시됨&quot; 메시지가 표시됩니다.[!UICONTROL 
 
-   ![](assets/slack-update-posted-from-slack-350x112.png)
+   ![Slack에서 게시된 업데이트](assets/slack-update-posted-from-slack-350x112.png)

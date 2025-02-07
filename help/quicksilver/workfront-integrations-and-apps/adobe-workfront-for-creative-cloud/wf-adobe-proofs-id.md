@@ -6,9 +6,9 @@ description: 미술 게시판을 빠른 검토 및 승인을 위한 문서로 �
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. 증명을 업로드할 작업 항목으로 이동합니다.
-1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을(를) 클릭합니다.
+1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭합니다.
 1. 플러그 인 아래쪽의 **[!UICONTROL 새 파일]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 증명 만들기]** 토글을 사용하도록 설정합니다.
 1. (선택 사항) **[!UICONTROL 증명 이름]** 텍스트 상자에 증명 이름을 입력합니다.
@@ -75,14 +75,14 @@ ht-degree: 0%
 1. (선택 사항) 승인자를 추가합니다.
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역에 댓글을 입력합니다.
 
-   ![](assets/add-comment.png)
+   ![댓글 추가](assets/add-comment.png)
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 자산 유형]**&#x200B;을(를) 선택합니다.
 
 1. (선택 사항) **[!UICONTROL 외부 파일 추가]**&#x200B;를 선택하여 컴퓨터에서 파일을 추가합니다.
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭한 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
 
-   ![](assets/plugin-files-350x307.png)\
+   ![플러그 인의 파일](assets/plugin-files-350x307.png)\
    플러그 인 및 데스크톱 앱의 [!UICONTROL 문서] 영역에 문서가 표시됩니다.
 
 
@@ -90,10 +90,10 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. 증명을 업로드할 작업 항목으로 이동합니다.
-1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을(를) 클릭합니다.
+1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭합니다.
 
 1. 플러그 인 아래쪽의 **[!UICONTROL 새 파일]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 증명 만들기]** 토글을 사용하도록 설정합니다.
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역에 댓글을 입력합니다.
 
-   ![](assets/add-comment-automated-approval.png)
+   ![댓글 자동 승인 추가](assets/add-comment-automated-approval.png)
 
 1. 드롭다운 메뉴에서 **[!UICONTROL 자산 유형]**&#x200B;을(를) 선택합니다.
 1. (선택 사항) **[!UICONTROL 외부 파일 추가]**&#x200B;를 선택하여 컴퓨터에서 파일을 추가합니다.
@@ -123,10 +123,10 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. 문서를 업로드해야 하는 작업 항목으로 이동합니다.
-1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을(를) 클릭합니다.
+1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭합니다.
 
 1. 플러그 인의 맨 아래에 있는 **[!UICONTROL 새 버전]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 증명 만들기]** 토글을 사용하도록 설정합니다.

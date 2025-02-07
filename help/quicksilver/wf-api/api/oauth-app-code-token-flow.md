@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
 ## 인증 코드 흐름 설정
 
-![](assets/oauth-2-authorization-code-flow.png)
+![OAuth 코드 흐름](assets/oauth-2-authorization-code-flow.png)
 
 OAuth2로 사용자를 로그인하려면 다음 프로세스를 사용하십시오.
 
@@ -93,7 +93,7 @@ OAuth2로 사용자를 로그인하려면 다음 프로세스를 사용하십시
 
    사용자가 동일한 브라우저에서 Workfront에 이미 로그인되어 있거나 Workfront에 성공적으로 로그인된 경우 사용자는 동의 화면으로 리디렉션됩니다.
 
-   ![](assets/consent-screen-350x227.png)
+   ![동의 화면](assets/consent-screen-350x227.png)
 
 1. 사용자가 액세스를 허용하면 페이지가 `redirect_url`(으)로 리디렉션됩니다. 리디렉션에는 다음 쿼리 매개 변수가 포함되어야 합니다.
 
@@ -172,7 +172,7 @@ OAuth2로 사용자를 로그인하려면 다음 프로세스를 사용하십시
 
 ## 액세스 토큰 새로 고침 설정
 
-![](assets/refresh-access-token-flow-350x142.png)
+![액세스 토큰 흐름 새로 고침](assets/refresh-access-token-flow-350x142.png)
 
 access_token을 새로 고치려면 토큰 끝점에 대해 &#39;POST&#39; 호출을 다시 수행해야 합니다. 이번에는 다음과 같이 다른 양식 데이터를 보냅니다.
 

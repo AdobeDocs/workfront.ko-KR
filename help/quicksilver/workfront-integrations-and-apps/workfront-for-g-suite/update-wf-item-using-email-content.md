@@ -7,9 +7,9 @@ description: Adobe Workfront이 아닌 이메일의 정보로 기존 프로젝�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -52,8 +52,8 @@ ht-degree: 0%
 
 ## [!DNL Google Workspace]의 전자 메일 콘텐츠를 사용하여 [!DNL Workfront] 항목 업데이트
 
-1. [!UICONTROL Workfront for Google Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 Workfront 아이콘 ![](assets/wf-lion-icon.png)을(를) 클릭합니다.
-1. [!DNL Google Workspace]에 전자 메일 메시지를 연 상태에서 [!DNL Google Workspace] 패널에서 **[!UICONTROL 새 업데이트로 Post]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL Google Workspace용 Workfront] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 Workfront 아이콘 ![Workfront 아이콘](assets/wf-lion-icon.png)을 클릭하십시오.
+1. [!DNL Google Workspace]에 전자 메일 메시지를 연 상태에서 [!DNL Google Workspace] 패널에서 **[!UICONTROL 새 업데이트로 게시]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL Type]**&#x200B;에서 드롭다운 화살표를 클릭한 다음 업데이트를 추가할 개체 형식을 클릭합니다.
 1. **[!UICONTROL 검색]** 옵션을 클릭하고 업데이트를 추가할 개체 이름을 입력한 다음 아래 목록에 나타나는 항목을 선택합니다.
 
@@ -99,6 +99,6 @@ ht-degree: 0%
 
    * **[!UICONTROL 업데이트]** 탭에서 업데이트에 회신하려면 **[!UICONTROL 회신]**&#x200B;을 클릭하고 회신을 입력하세요.
 
-     위의 두 옵션 모두에 대해 **[!UICONTROL 알림]**&#x200B;을 클릭하여 5단계에서와 같이 회신에 대한 수신자를 지정할 수 있습니다. 준비가 되면 **[!UICONTROL Post]**&#x200B;을 클릭하여 업데이트를 추가하거나 회신합니다.
+     위의 두 옵션 모두에 대해 **[!UICONTROL 알림]**&#x200B;을 클릭하여 5단계에서와 같이 회신에 대한 수신자를 지정할 수 있습니다. 준비가 되면 **[!UICONTROL 게시]**&#x200B;를 클릭하여 업데이트 또는 회신을 추가합니다.
 
    * 새 프로젝트, 작업 또는 문제에 대한 세부 정보를 보려면 **[!UICONTROL 세부 정보]** 탭을 클릭하십시오.

@@ -6,9 +6,9 @@ description: 20.3 릴리스(2020년 8월 목표)를 통해 Adobe Workfront은 Wo
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 이 기능은 시스템 관리자로 로그인하고 설정 > 이메일 > 설정으로 이동하여 액세스할 수 있습니다. 다음은 이 기능을 강조 표시하는 스크린샷입니다.
 
-![](assets/email-server-settings-350x226.png)
+![전자 메일 서버 설정](assets/email-server-settings-350x226.png)
 
 이 스크린샷에서 강조 표시된 설정은 20.3 릴리스에서 Workfront 메일 서버 옵션을 사용하도록 자동으로 전환됩니다.
 

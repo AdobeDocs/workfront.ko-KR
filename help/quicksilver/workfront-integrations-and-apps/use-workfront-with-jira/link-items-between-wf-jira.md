@@ -6,9 +6,9 @@ description: ' [!DNL Jira] 문제를  [!DNL Adobe Workfront] 작업 또는 문�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Jira 문제를 자동으로 만들기 위한 트리거를 정의하는 방법에
 
    작업 액세스에 대한 자세한 내용은 [작업에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)를 참조하십시오.
 
-1. 프로젝트로 이동하여 왼쪽 패널에서 **[!UICONTROL 작업]** ![](assets/tasks-icon-in-left-panel-14x14.png)을(를) 선택하십시오.
+1. 프로젝트로 이동하여 왼쪽 패널에서 **[!UICONTROL 작업]** ![작업 아이콘](assets/tasks-icon-in-left-panel-14x14.png)을(를) 선택하십시오.
 
 1. **[!UICONTROL 새 작업]** 클릭
 

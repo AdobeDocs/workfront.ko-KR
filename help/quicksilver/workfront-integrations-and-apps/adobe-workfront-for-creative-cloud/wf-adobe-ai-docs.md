@@ -6,9 +6,9 @@ description: 미술 게시판을 빠른 검토 및 승인을 위한 문서로 �
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -64,17 +64,17 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. 문서를 업로드할 작업 항목으로 이동합니다.
-1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을(를) 클릭합니다.
+1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭합니다.
 
 1. 플러그 인 아래쪽의 **[!UICONTROL 새 파일]**&#x200B;을 클릭합니다.
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역에 댓글을 입력합니다.
 1. 드롭다운 메뉴에서 **[!UICONTROL 자산 유형]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL 내보내기 파일 설정 설정]** 대화 상자를 연 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
 
-   ![](assets/file-export-settings.png)
+   ![파일 내보내기 설정](assets/file-export-settings.png)
 1. **[!UICONTROL 업로드]**를 클릭합니다.
 플러그 인 및 데스크톱 앱의 [!UICONTROL 문서] 영역에 문서가 표시됩니다.
 

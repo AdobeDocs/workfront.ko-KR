@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Workfront의 현대화된 목록에 대한 자세한 내용은 [목록 표시 �
 * 각 하위 페이지 이름 위의 계층 정보(예: 단일 그룹의 경우 페이지에서)
 * 현대화된 글꼴 스타일 및 크기
 
-  ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
+  ![설정에서 업데이트된 헤더](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 설정 영역에 대한 자세한 내용은 [관리 및 설정](../../../administration-and-setup/administration-and-setup.md)을 참조하십시오.
 

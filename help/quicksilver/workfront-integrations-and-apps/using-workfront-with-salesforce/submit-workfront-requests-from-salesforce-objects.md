@@ -6,9 +6,9 @@ description: ' [!DNL Salesforce] 기회 및 계정의  [!DNL Adobe Workfront] fo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 ## [!DNL Salesforce]에서 [!DNL Workfront]개 요청 제출
 
-1. Salesforce의 Opportunity 또는 계정으로 이동합니다.
+1. Salesforce의 Opportunity 또는 Account 로 이동합니다.
 1. [!DNL Workfront] 섹션으로 이동합니다.
 1. **[!UICONTROL 새 요청]** 탭의 **[!UICONTROL 요청 유형 선택]** 드롭다운 메뉴에서 요청 유형을 선택합니다.
 
@@ -107,9 +107,9 @@ ht-degree: 1%
 1. (선택 사항) **[!UICONTROL 이동[!DNL Salesforce]]**&#x200B;을(를) 클릭하여 Workfront의 다음 영역에서 문제가 발생한 영업 기회 또는 계정에 액세스합니다.
 
    * 문제의 [!UICONTROL 세부 정보] 섹션에서
-   * 목록에서 문제를 선택할 때 요약 패널에서 목록의 도구 모음에서 [!UICONTROL 요약 열기] ![](assets/summary-panel-icon.png)를 클릭합니다.
-   * 문제 헤더에서 [!UICONTROL 통합] 필드를 사용할 수 있는 경우. 시스템 또는 그룹 관리자가 [!UICONTROL 통합] 필드를 레이아웃 템플릿에 추가하여 문제 헤더에서 Salesforce로 이동 링크를 확인해야 합니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오.
+   * 목록에서 문제를 선택할 때 요약 패널에서 목록의 도구 모음에서 [!UICONTROL 요약 열기] ![요약 패널 아이콘](assets/summary-panel-icon.png)을 클릭합니다.
+   * 문제 헤더에서 [!UICONTROL 통합] 필드를 사용할 수 있는 경우. 시스템 또는 그룹 관리자가 [!UICONTROL 통합] 필드를 레이아웃 템플릿에 추가하여 문제 헤더에서 Salesforce으로 이동 링크를 확인해야 합니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오.
 
    >[!NOTE]
    >
-   >[!UICONTROL Salesforce로 이동] 링크는 문제를 볼 수 있는 모든 [!DNL Workfront] 사용자에게 표시됩니다. 문제가 기록된 [!DNL Salesforce] 영업 기회 또는 계정으로 이동하려면 [!DNL Salesforce] 계정이 있어야 합니다.
+   >[!UICONTROL Salesforce으로 이동] 링크가 문제를 볼 수 있는 모든 [!DNL Workfront] 사용자에게 표시됩니다. 문제가 기록된 [!DNL Salesforce] 영업 기회 또는 계정으로 이동하려면 [!DNL Salesforce] 계정이 있어야 합니다.

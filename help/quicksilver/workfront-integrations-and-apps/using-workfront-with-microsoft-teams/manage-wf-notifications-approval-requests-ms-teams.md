@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 에서 승인해야 하는 항목, 받은 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
 1. 표시되는 목록에서 [!DNL Workfront]을(를) 클릭합니다.
 1. **[!UICONTROL 설정]** 탭을 선택합니다.
 
-   ![](assets/ms-teams-settings-tab-350x552.png)
+   ![MS 팀 설정 탭](assets/ms-teams-settings-tab-350x552.png)
 
 1. 수신하지 않을 알림을 비활성화합니다. 정보 또는 승인 알림과 같은 알림 그룹을 활성화 또는 비활성화하거나 개별적으로 알림을 관리할 수 있습니다.
 

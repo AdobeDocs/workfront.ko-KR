@@ -7,9 +7,9 @@ description: Google Workspace을 종료하지 않고도  [!DNL Adobe Workfront] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## [!DNL Google Workspace]에서 [!DNL Workfront]개 문서 보기 및 관리
 
-1. [!UICONTROL Workfront for Google Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![](assets/wf-lion-icon.png)을(를) 클릭하십시오.
+1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![Workfront 아이콘](assets/wf-lion-icon.png)을 클릭하십시오.
 1.  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)의 [Access [!DNL Adobe Workfront] [!UICONTROL Home] 콘텐츠에 설명된 대로 [!DNL Google Workspace] 내의 [!DNL Workfront] 작업 또는 문제로 이동합니다.
 1. **[!UICONTROL 문서]**&#x200B;를 클릭합니다.
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
    업데이트 또는 답글 게시에 대한 정보가 필요한 경우 [다음에서  [!DNL Adobe Workfront] 개체 업데이트 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)를 참조하세요.
 
-1. (선택 사항) 목록에서 문서를 다운로드하려면 **[!UICONTROL 다운로드]** 아이콘 ![](assets/download-icon.png)을(를) 클릭합니다.
+1. (선택 사항) 목록에서 문서를 다운로드하려면 **[!UICONTROL 다운로드]** 아이콘 ![다운로드 아이콘](assets/download-icon.png)을 클릭합니다.
 
    또는
 
-   문서가 클라우드 드라이브에 저장된 경우 **[!UICONTROL 열기]** 아이콘 ![](assets/open-icon.png) 을 클릭합니다.
+   문서가 클라우드 드라이브에 저장되면 **[!UICONTROL 열기]** 아이콘 ![열기 아이콘](assets/open-icon.png) 을 클릭합니다.
 
 1. [!DNL Workfront]의 문서에 대한 문서 세부 정보 페이지로 이동하려면 **[!UICONTROL Workfront에서 보기]**&#x200B;를 클릭하십시오.
 

@@ -6,9 +6,9 @@ description: Adobe 마켓플레이스에서 XD용 Adobe Workfront 플러그인�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
 
 1. 왼쪽 하단 모서리에서 **Plugins** 아이콘을 클릭합니다.
 
-![](assets/xd-plugin-window-350x620.png)
+![XD 플러그인 창](assets/xd-plugin-window-350x620.png)
 
 1. **[!UICONTROL 플러그인 패널]**&#x200B;에서 **[!UICONTROL XD용 Adobe Workfront]**&#x200B;를 찾으십시오.
 
@@ -103,7 +103,7 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
    >[!TIP]
    >
    >* 도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스로 이동한 다음 URL의 첫 부분을 복사합니다.\
-   >![](assets/domain-350x50.png)
+   >![도메인 찾기](assets/domain-350x50.png)
    >
    > * Workfront 인스턴스가 Experience Cloud과 통합된 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하도록 요청하십시오.
 

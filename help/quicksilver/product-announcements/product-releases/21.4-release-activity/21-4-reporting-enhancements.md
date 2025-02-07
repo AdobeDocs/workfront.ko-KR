@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: db33cee1-45d3-4641-9afa-790de92654c5
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 목록의 할당에 대한 자세한 내용은 [작업 할당](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 또는 [문제 할당](../../../manage-work/issues/manage-issues/assign-issues.md)을 참조하세요.
 
-![](assets/assignments-updates-350x193.png)
+![할당 업데이트](assets/assignments-updates-350x193.png)
 
 ## 업데이트된 목록 및 보고서에서 자동 완성 필드의 새로운 모양과 느낌
 
@@ -60,4 +60,4 @@ ht-degree: 0%
 
 업데이트된 목록에 대한 자세한 내용은 문서 [Adobe Workfront 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)에서 [업데이트된 목록과 기존 목록의 차이점](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 섹션을 참조하십시오.
 
-![](assets/typeahead-updates-350x336.png)
+![자동 완성 필드](assets/typeahead-updates-350x336.png)

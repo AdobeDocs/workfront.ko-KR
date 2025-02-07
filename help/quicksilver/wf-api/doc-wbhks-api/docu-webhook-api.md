@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3627'
 ht-degree: 2%
 
 ---
@@ -851,10 +851,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 (릴리스 날짜 - TBD) 이 끝점을 사용하면 Workfront 사용자(또는 자동화된 워크플로 이벤트)가 외부 시스템에서 작업을 수행할 수 있습니다. /customAction 끝점이 &quot;name&quot; 매개 변수를 허용하므로 웹후크 공급자가 여러 사용자 지정 작업을 구현할 수 있습니다.
 
 웹후크 공급자는 customActions 아래의 /serviceInfo 응답에 작업을 포함하여 사용자 지정 작업을 Workfront에 등록합니다. Workfront은 설정 > 문서 > 사용자 정의 통합에서 웹후크 공급자를 설정하거나 새로 고칠 때 이 목록을 로드합니다.\
-![](assets/mceclip0-350x262.png)
+![사용자 지정 작업 수행](assets/mceclip0-350x262.png)
 
 사용자는 &quot;문서 작업&quot; 아래의 섹션을 선택하여 사용자 지정 작업을 트리거할 수 있습니다.\
-![](assets/mceclip1-350x95.png)
+![사용자 지정 작업 트리거](assets/mceclip1-350x95.png)
 
 **URL**
 

@@ -6,10 +6,10 @@ description: Adobe Workfront 플러그인 전체에서 작업을 업데이트할
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 2%
+source-wordcount: '224'
+ht-degree: 3%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 {{cc-install-prereq}}
 
-## Post 업데이트
+## 업데이트 게시
 
 플러그인의 다음 영역 중 하나에서 작업을 업데이트할 수 있습니다.
 
@@ -86,11 +86,11 @@ ht-degree: 2%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. **[!UICONTROL 작업 목록]**&#x200B;에서 업데이트를 게시해야 하는 작업 항목을 선택합니다.
 1. 탐색 모음에서 **[!UICONTROL 업데이트]**&#x200B;를 클릭합니다.\
-   ![](assets/photoshop-update-350x295.png)
+   ![Photoshop 업데이트](assets/photoshop-update-350x295.png)
 
 1. **[!UICONTROL 새 업데이트]**&#x200B;를 클릭합니다.
 1. 업데이트를 입력합니다.

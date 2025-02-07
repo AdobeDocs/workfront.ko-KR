@@ -6,10 +6,10 @@ description: Adobe Creative Cloud 애플리케이션에서 직접 작업 중인 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '260'
+ht-degree: 1%
 
 ---
 
@@ -68,16 +68,16 @@ Workfront 플러그인을 사용하여 시간을 기록하려면 다음을 수�
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. **[!UICONTROL 작업 목록]**&#x200B;에서 시간을 기록해야 하는 작업 항목을 선택하십시오.
 1. 탐색 모음에서 **[!UICONTROL 시간]**&#x200B;을 클릭합니다.
 
-   ![](assets/log-time-350x337.png)
+   ![로그 시간](assets/log-time-350x337.png)
 
 1. (선택 사항) 드롭다운 메뉴에서 **[!UICONTROL 시간 유형]**&#x200B;을(를) 선택합니다.
 1. 필요한 날의 시간을 시간 단위로 입력하십시오.
 
-   ![](assets/copy-of-log-hours-350x236.png)
+   ![시간 기록](assets/copy-of-log-hours-350x236.png)
 
 1. **[!UICONTROL 제출]**&#x200B;을 클릭합니다.

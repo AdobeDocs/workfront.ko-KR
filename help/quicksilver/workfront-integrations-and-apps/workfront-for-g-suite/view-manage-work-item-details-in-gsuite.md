@@ -7,9 +7,9 @@ description: Google Workspace에서 나가지 않고도 작업 항목의 세부 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## [!DNL Google Workspace]에서 작업 항목 세부 정보 보기 및 관리
 
-1. [!UICONTROL Workfront for Google Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![](assets/wf-lion-icon.png)을(를) 클릭하십시오.
+1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![Workfront 아이콘](assets/wf-lion-icon.png)을 클릭하십시오.
 1.  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)의 [Access [!DNL Adobe Workfront] [!UICONTROL Home] 콘텐츠에 설명된 대로 [!DNL Google Workspace] 내의 [!DNL Workfront] 작업 또는 문제로 이동합니다.
 
    작업 또는 문제를 선택하면 **[!UICONTROL 세부 정보]** 탭이 열립니다. **[!UICONTROL 세부 정보]** 탭 위의 영역에는 상위 개체의 이름, 작업 또는 문제의 이름, [!UICONTROL 기한](작업인 경우) 또는 [!UICONTROL 우선 순위 날짜](문제인 경우)가 표시됩니다.

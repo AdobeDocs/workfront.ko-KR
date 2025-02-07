@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook] 추가 기능을 사용하�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Workfront은 다음 버전의 [!DNL Outlook]을(를) 지원합니다.
 
 ### [!DNL Outlook 365]에 대한 [!DNL Workfront] {#workfront-for-outlook-365}
 
-1. [!DNL Outlook 365]에서 Office 365 인터페이스 상단의 **[!UICONTROL 추가 기능 찾아보기]** 아이콘 ![](assets/outlook-add-in-26x26.png)을 클릭한 다음 **[!UICONTROL 추가 기능 관리]**&#x200B;를 클릭합니다.
+1. [!DNL Outlook 365]에서 Office 365 인터페이스 상단의 **[!UICONTROL 추가 기능 찾아보기]** 아이콘 ![추가 기능 찾아보기](assets/outlook-add-in-26x26.png)를 클릭한 다음 **[!UICONTROL 추가 기능 관리]**&#x200B;를 클릭합니다.
 
 1. **[!UICONTROL 추가 기능 검색]** 상자에서 **[!DNL Workfront]**&#x200B;을 검색한 다음 [!UICONTROL Enter]를 누릅니다.
 
@@ -121,7 +121,7 @@ Workfront은 다음 버전의 [!DNL Outlook]을(를) 지원합니다.
 ### 웹에서 [!DNL Outlook]에 대한 [!DNL Workfront] {#workfront-for-outlook-on-the-web}
 
 1. 웹 브라우저에서 [!DNL Microsoft Outlook] 열기
-1. **[!UICONTROL 찾아보기] 추가 기능** 아이콘 ![](assets/outlook-add-in-web-version-20x20.png)을(를) 클릭합니다.
+1. **[!UICONTROL 추가 기능 찾아보기]개** 아이콘 ![추가 기능 찾아보기](assets/outlook-add-in-web-version-20x20.png)를 클릭합니다.
 
    아이콘을 찾으려면 Microsoft 설명서에서 [웹에서  [!DNL Outlook] 추가 기능 사용](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon)을 참조하세요.
 

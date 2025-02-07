@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: fc85b4c2-4a76-4226-9120-11635b03aa4e
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
 
 자세한 내용은 [블루프린트 개요](../../../administration-and-setup/blueprints/blueprints-overview.md)를 참조하십시오.
 
-![](assets/blueprint-detailspage.png)
+![블루프린트 세부 정보](assets/blueprint-detailspage.png)
 
 ## 새 문제에 대한 블루프린트 환경 설정
 

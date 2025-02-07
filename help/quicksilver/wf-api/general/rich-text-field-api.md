@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Adobe Workfront의 일부 개체를 사용하면 서식 있는 텍스트 형식�
 
 서식 있는 텍스트 서식이 있는 사용자 지정 필드는 **서식 있는 텍스트가 있는 필드**&#x200B;라고 하며 다음 값을 연결할 수 있습니다.
 
-![](assets/rich-text-example-350x158.png)
+![서식 있는 텍스트 예제](assets/rich-text-example-350x158.png)
 
 **예:** 사용자 지정 양식 필드 **서식 있는 텍스트가 있는 필드**&#x200B;의 값을 검색하기 위한 기본 GET 요청입니다.
 
@@ -48,7 +48,7 @@ Adobe Workfront의 일부 개체를 사용하면 서식 있는 텍스트 형식�
 
 **예:** 사용자 지정 필드의 각 텍스트 줄을 배열 블록의 블록 요소에 매핑합니다.
 
-![](assets/copy-of-rich-text-mapping-350x159.png)
+![서식 있는 텍스트 매핑](assets/copy-of-rich-text-mapping-350x159.png)
 
 각 블록 요소는 JSON 개체이므로 각 블록은 **key**, **text**, **type**, **depth**, **inlineStyleRanges**, **entityRanges** 및 **data** 요소로 구성됩니다. 이러한 각 요소는 다음과 같이 작동합니다.
 
@@ -61,7 +61,7 @@ Adobe Workfront의 일부 개체를 사용하면 서식 있는 텍스트 형식�
 
 **예:** 문자 수준에서 각 스타일을 설명하는 inlineStyleRanges 배열입니다. 이 경우 인덱스 0(오프셋: 0)부터 9자(길이: 9)에는 **굵게** 스타일이 적용되었습니다.
 
-![](assets/copy-of-rich-text-mapping-2-350x136.png)
+![서식 있는 텍스트 매핑](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 한 줄에 여러 유형의 서식이 적용된 경우 스타일은 ** inlineStyleRanges** 배열의 추가 요소에 매핑됩니다.
 

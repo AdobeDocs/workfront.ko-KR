@@ -6,9 +6,9 @@ description: Adobe 마켓플레이스에서  [!DNL Adobe Workfront for design an
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 1%
    >
    >Premiere Pro을 사용하는 경우 이 메뉴에 액세스하려면 프로젝트가 열려 있어야 합니다.
 
-   ![](assets/adobe-workfront-menu.png)
+   ![Workfront 메뉴](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -121,7 +121,7 @@ ht-degree: 1%
    >[!TIP]
    >
    >* 도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스로 이동한 다음 URL의 첫 부분을 복사합니다.\
-   >![](assets/domain-350x50.png)
+   >![도메인 찾기](assets/domain-350x50.png)
    >
    > * Workfront 인스턴스가 Experience Cloud과 통합된 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하도록 요청하십시오.
 

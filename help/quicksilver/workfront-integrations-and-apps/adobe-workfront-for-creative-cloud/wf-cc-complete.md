@@ -6,10 +6,10 @@ description: Adobe Creative Cloud 애플리케이션을 계속 사용하고 Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 0%
+source-wordcount: '290'
+ht-degree: 1%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. **[!UICONTROL 작업 목록]**&#x200B;에서 완료로 표시할 작업 또는 문제를 선택하십시오.
 1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.  이 작업 또는 문제에 할당된 유일한 사용자인 경우 [!DNL Workfront]에서 항목 [!UICONTROL 완료] 또는 [!UICONTROL 해결됨]을(를) 표시합니다.
@@ -75,6 +75,6 @@ ht-degree: 0%
    >[!NOTE]
    >
    >작업 항목에 전임 작업이 있는 경우 해당 전임 작업이 완료로 표시될 때까지 완료 버튼이 회색으로 표시됩니다. [!DNL Workfront]의 전임 작업을 보려면 작업 이름을 클릭하십시오.
-   >![](assets/navigate-to-workfront.png)
+   >![Workfront으로 이동](assets/navigate-to-workfront.png)
 
-<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
+<!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

@@ -7,9 +7,9 @@ description: Google Workspace에서  [!DNL Workfront] 이(가) 보낸 알림 전
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 ## [!DNL Google Workspace]에서 [!DNL Adobe Workfront] 알림 세부 정보 관리
 
-1. [!DNL Workfront for Google Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![](assets/wf-lion-icon.png)을(를) 클릭합니다.
+1. [!DNL Workfront for Google Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![Workfront 아이콘](assets/wf-lion-icon.png)을 클릭하십시오.
 1. [!DNL Google Workspace]에서 [!DNL Workfront] 알림 전자 메일을 엽니다.
 1. 패널 상단 근처에 표시되면 **[!UICONTROL 모든 업데이트 보기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 세부 정보]**&#x200B;를 클릭합니다.
@@ -70,7 +70,7 @@ ht-degree: 1%
     <thead> 
      <tr> 
       <th>이메일 알림 유형</th> 
-      <th>개 액션</th> 
+      <th>액션</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -88,7 +88,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td>업데이트 </td> 
-      <td> <p>새 업데이트 또는 <strong>[!UICONTROL Reply]</strong>을(를) <strong>[!UICONTROL Post]</strong>해야 하는 컨텍스트를 갖도록 항목에 대한 전체 업데이트 목록의 일부를 봅니다. <strong>[!UICONTROL 알림]</strong>을(를) 클릭하여 특정 사용자에게 회신에 대해 경고할 수 있습니다. </p> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">[!DNL Google Workspace]</a>에서 [!DNL Adobe Workfront] 업데이트 알림에 회신 을 참조하십시오.</p> </td> 
+      <td> <p>새 업데이트 또는 <strong>[!UICONTROL 회신]</strong>을(를) <strong>[!UICONTROL Post]</strong>해야 하는 컨텍스트를 갖도록 항목에 대한 전체 업데이트 목록의 일부를 봅니다. <strong>[!UICONTROL 알림]</strong>을(를) 클릭하여 특정 사용자에게 회신에 대해 경고할 수 있습니다. </p> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">[!DNL Google Workspace]</a>에서 [!DNL Adobe Workfront] 업데이트 알림에 회신 을 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td>승인 요청</td> 

@@ -6,9 +6,9 @@ description: Adobe 마켓플레이스에서 Photoshop용 Adobe Workfront 플러�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 1. 상단 메뉴에서 **[!UICONTROL 플러그인]** > **[!UICONTROL 플러그인 패널]**&#x200B;을 클릭합니다.
 
-   ![](assets/plugins-panel-ps.png)
+   ![플러그인 패널](assets/plugins-panel-ps.png)
 
 1. **[!UICONTROL 플러그인 패널]**&#x200B;에서 **[!UICONTROL 플러그인]** 탭을 선택하고 **[!UICONTROL Adobe Photoshop용 Workfront]**&#x200B;를 찾습니다.
 
@@ -107,7 +107,7 @@ ht-degree: 1%
    >[!TIP]
    >
    >* 도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스로 이동한 다음 URL의 첫 부분을 복사합니다.\
-   >![](assets/domain-350x50.png)
+   >![도메인 찾기](assets/domain-350x50.png)
    >
    > * Workfront 인스턴스가 Experience Cloud과 통합된 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하도록 요청하십시오.
 

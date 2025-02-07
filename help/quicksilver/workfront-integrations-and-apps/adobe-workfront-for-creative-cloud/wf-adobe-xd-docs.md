@@ -6,10 +6,10 @@ description: 빠른 검토 및 승인을 위한 문서 또는 Adobe Workfront에
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 0%
+source-wordcount: '596'
+ht-degree: 1%
 
 ---
 
@@ -65,10 +65,10 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/menu-350x440.png)
+   ![메뉴 아이콘](assets/menu-350x440.png)
 
 1. 문서를 업로드할 작업 항목으로 이동합니다.
-1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을(를) 클릭합니다.
+1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭합니다.
 
 1. 플러그 인 아래쪽의 **[!UICONTROL 새 파일]**&#x200B;을 클릭합니다.
 1. 업로드할 아트보드를 선택합니다.
@@ -113,10 +113,10 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/menu-350x440.png)
+   ![메뉴 아이콘](assets/menu-350x440.png)
 
 1. 문서를 업로드할 작업 항목으로 이동합니다.
-1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을(를) 클릭합니다.
+1. 탐색 모음에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭합니다.
 
 1. 새 버전을 추가할 문서를 클릭합니다.
 1. 플러그 인의 맨 아래에 있는 **[!UICONTROL 새 버전]**&#x200B;을 클릭합니다.

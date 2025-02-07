@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Outlook 365에 직접 통합하면 Outlook 365에서 직접 Workfront을 업데�
 
 자세한 내용은 다음을 참조하십시오.  [2016년에 미리 보기에서 사용할 수 있는 기능](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
-![](assets/mceclip0-350x218.png)\
+![전자 메일에서 작업 관리](assets/mceclip0-350x218.png)\
 **프로젝트 추적 및 예산 유지**
 새로운 활용성 보고서를 사용하여 프로젝트를 예산 및 예산에 맞게 유지하면서 자원과 활용성을 관리합니다. 프로젝트 및 역할당 계획된 시간과 실제 시간을 비교하고 정기적으로 리소스 및 부서를 비교합니다.
 
 자세한 내용은 다음을 참조하십시오.  [R1 미리 보기 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
-![](assets/mceclip1-350x169.png)\
+![프로젝트를 계속 진행](assets/mceclip1-350x169.png)\
 **용어 및 알림 사용자 지정**
 사용자 정의 용어 기능을 활용하여 &quot;Portfolio&quot; 또는 &quot;프로젝트&quot;와 같은 용어를 업종에 상관없이 원하는 링크에 맞게 변경하여 Workfront을 팀에 보다 적합하도록 합니다. 또한 이제 각 사용자는 다이제스트 빈도를 조정하여 수신하는 알림 유형을 사용자 지정할 수 있습니다.
 
@@ -51,7 +51,7 @@ Outlook 365에 직접 통합하면 Outlook 365에서 직접 Workfront을 업데�
 
 자세한 내용은 다음을 참조하십시오.  [R1 미리 보기 5](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
 
-![](assets/mceclip3-350x122.png)
+![마일스톤 보기](assets/mceclip3-350x122.png)
 
 **Workfront 휴지통**
 새로운 Workfront 휴지통을 사용하면 삭제 후 30일 이내에 프로젝트, 작업, 문제 및 모든 관련 문서, 양식 및 업데이트를 복원할 수 있습니다.
@@ -60,13 +60,13 @@ Outlook 365에 직접 통합하면 Outlook 365에서 직접 Workfront을 업데�
 
 ### PROOFHQ 개선 사항 {#proofhq-enhancements}
 
-![](assets/mceclip4-350x201.png)\
+![ProofHQ 개선 사항](assets/mceclip4-350x201.png)\
 **증명 검색 및 찾기**
 ProofHQ의 새로운 검색 기능을 사용하면 검토하는 동안 증명에서 직접 단어 또는 구의 모든 인스턴스를 빠르고 쉽게 검색하고 찾을 수 있습니다. PDF 및 Microsoft Word 파일을 포함하여 모든 텍스트 기반 문서에 적용됩니다.
 
 자세한 내용은 다음을 참조하십시오.  [R1 최종](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
-![](assets/mceclip5-350x226.png)\
+![증명 검색 및 찾기](assets/mceclip5-350x226.png)\
 **시각적 보고 및 향상된 사용자 지정 보기**
 ProofHQ의 새 보고 지표를 사용하면 반환 시간, 지연 백분율, 댓글 수 및 첫 번째 활동까지의 시간을 추적할 수 있습니다. 새로운 사용자 정의 보기는 고급 필터 논리를 만들어 필요할 때 정확한 데이터를 바로 얻을 수 있습니다.
 
@@ -77,7 +77,7 @@ ProofHQ의 새 보고 지표를 사용하면 반환 시간, 지연 백분율, �
 
 ## WORKFRONT DAM 개선 사항 {#workfront-dam-enhancements}
 
-![](assets/mceclip6-350x195.png)\
+![Workfront DAM 개선 사항](assets/mceclip6-350x195.png)\
 **DAM 포함된 링크**
 외부 플랫폼에 대한 디지털 에셋의 사용을 관리, 게시 및 추적하는 더 나은 방법이 필요한 마케팅 팀을 위해 임베드된 링크 기능은 적절한 시간에 적절한 콘텐츠를 공유하는 프로세스를 관리하는 데 필요한 제어 기능을 제공합니다.
 

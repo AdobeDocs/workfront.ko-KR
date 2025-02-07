@@ -7,9 +7,9 @@ description: 외부 전자 메일(Adobe  [!DNL Workfront]에서 생성되지 않
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 전자 메일 콘텐츠를 사용하여 [!DNL Google Workspace]에서 [!DNL Adobe Workfront] 작업 만들기
 
-1. [!UICONTROL Workfront for Google Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![](assets/wf-lion-icon.png)을(를) 클릭하십시오.
+1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![Workfront 아이콘](assets/wf-lion-icon.png)을 클릭하십시오.
 1. [!DNL Google Workspace]에 전자 메일 메시지를 연 상태에서 [!DNL Workfront for Google Workspace]의 옵션을 클릭하여 전자 메일을 새 [!DNL Workfront] 작업으로 전환합니다.
 
 1. **[!UICONTROL 새로 만들기]** 옵션을 선택하여 작업이 프로젝트의 일부가 될지 아니면 프로젝트와 독립적인 개인 작업이 될지 여부를 나타냅니다.
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 업데이트]** 탭에서 업데이트에 회신하려면 **[!UICONTROL 회신]**&#x200B;을 클릭하고 회신을 입력하세요.
 
-     위의 두 작업 모두에 대해 특정 사용자에게 댓글에 대해 알릴 수 있습니다. **[!UICONTROL 알림]**&#x200B;을 클릭하고 사용자 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다. 알림을 보낼 다른 사용자에 대해 이 프로세스를 반복한 다음 **[!UICONTROL Post]**&#x200B;을(를) 클릭합니다.
+     위의 두 작업 모두에 대해 특정 사용자에게 댓글에 대해 알릴 수 있습니다. **[!UICONTROL 알림]**&#x200B;을 클릭하고 사용자 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다. 알림을 보낼 다른 사용자에 대해 이 프로세스를 반복한 다음 **[!UICONTROL 게시물]**&#x200B;을 클릭합니다.
 
    * 작업과 함께 저장된 문서를 보려면 **[!UICONTROL 문서]** 탭을 클릭하십시오.
 

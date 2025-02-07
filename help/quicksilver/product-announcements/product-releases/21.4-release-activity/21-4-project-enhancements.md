@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Workfront을 새 Workfront 환경과 일관되게 사용하기 위해 프로젝�
 
 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
 
-![](assets/duration-combined-field-350x139.png)
+![기간 필드](assets/duration-combined-field-350x139.png)
 
 ## 프로젝트에서 인라인 문제 추가 비활성화
 

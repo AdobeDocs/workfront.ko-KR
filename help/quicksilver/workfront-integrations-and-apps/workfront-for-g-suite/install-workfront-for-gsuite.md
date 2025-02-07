@@ -7,9 +7,9 @@ description: Google Workspace 마켓플레이스에서 Google Workspace용  [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,6 @@ ht-degree: 0%
    [!DNL Google Workspace] 앱의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 더하기 기호 아이콘([!DNL Gmail], [!DNL Google Calendar] 또는 [!DNL Google Drive])을 클릭합니다. *[!DNL Workfront for Google Workspace]*&#x200B;을(를) 검색한 다음 표시되는 [!DNL Workfront for Google Workspace] 앱 항목을 클릭합니다.
 
 1. **[!UICONTROL 설치]**&#x200B;를 클릭한 다음 나타나는 메시지를 따릅니다.
-1. (조건부) [!DNL Google Workspace] 앱에서 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에 [!DNL Workfront] 아이콘 ![](assets/wf-lion-icon.png)이(가) 표시되지 않으면 페이지를 새로 고치십시오.
+1. (조건부) [!DNL Google Workspace] 앱에서 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에 [!DNL Workfront] 아이콘 ![Workfront 아이콘](assets/wf-lion-icon.png)이 표시되지 않으면 페이지를 새로 고치십시오.
 
 로그인에 대한 자세한 내용은 [로그인 및 로그아웃 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)을 참조하세요.

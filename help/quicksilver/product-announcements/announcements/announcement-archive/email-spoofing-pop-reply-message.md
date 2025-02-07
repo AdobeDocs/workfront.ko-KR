@@ -6,7 +6,7 @@ description: Adobe Workfront이 20.3 릴리스(2020년 8월 목표)를 사용하
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Adobe Workfront이 20.3 릴리스(2020년 8월 목표)를 사용하여 이메일
 
 ## Workfront의 아웃바운드 이메일
 
-이메일의 성공적인 전달을 높이기 위해 스팸으로 태그가 지정된 이메일의 스푸핑을 제거합니다(이메일 스푸핑 참조). 자동화된 경고와 사용자 간 통신을 포함하여 Workfront의 모든 이메일이 notifications@my.workfront.com에서 전송됩니다. Joan Harris의 예제 이메일은 이메일의 출처 영역에서 다음과 같이 표시됩니다.
+이메일의 성공적인 전달을 높이기 위해 스팸으로 태그가 지정된 이메일의 스푸핑을 제거합니다(이메일 스푸핑 참조). 자동 알림 및 사용자와 사용자 간 통신을 포함하여 Workfront의 모든 전자 메일이 `notifications@my.workfront.com`에서 전송됩니다. Joan Harris의 예제 이메일은 이메일의 출처 영역에서 다음과 같이 표시됩니다.
 
-![](assets/noreply.png)
+![전자 메일 예제](assets/noreply.png)
 
-*IT 팀에 연락하는 것이 좋습니다*. notifications@my.workfront.com에서 보낸 전자 메일이 시스템에 들어오는 전자 메일에 대해 차단되지 않도록 하려면. 트래픽 및 전자 메일의 IP 주소에 대한 자세한 내용은 [방화벽 허용 목록 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조할 수도 있습니다.
+*IT 팀에 문의*&#x200B;하여 `notifications@my.workfront.com`의 전자 메일이 시스템에 들어오는 전자 메일에 대해 차단되지 않도록 하는 것이 좋습니다. 트래픽 및 전자 메일의 IP 주소에 대한 자세한 내용은 [방화벽 허용 목록 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조할 수도 있습니다.
 
 ## 알림에 대한 인바운드 이메일 회신(POP 회신)
 

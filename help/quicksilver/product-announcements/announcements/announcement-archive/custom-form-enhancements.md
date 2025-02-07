@@ -4,9 +4,9 @@ description: 22.2 릴리스에서 사용자 정의 양식 관리에 대해 다�
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 사용자 정의 양식에 이미지를 포함할 수 있습니다. 이렇게 하면 사용자 정의 양식 사용자와 보다 대화형이고 시각적인 방식으로 통신할 수 있습니다. 추가적인 위젯 유형이 곧 제공될 예정입니다.
 
-![](assets/image-in-custom-form.png)
+![사용자 정의 양식의 이미지](assets/image-in-custom-form.png)
 
 위젯이 포함된 사용자 정의 양식을 오브젝트에 첨부할 때 오브젝트로 작업하는 사용자는 다음 영역에서 해당 양식을 볼 수 있습니다.
 
 * 객체의 세부 정보 영역(예: 프로젝트의 경우 프로젝트 세부 정보 영역)&#x200B;
 
-  ![](assets/see-image-details-page.png)
+  ![이미지 세부 정보](assets/see-image-details-page.png)
 
 * 새로운 Adobe Workfront 경험 모양과 느낌이 있는 객체의 편집 상자(예: 프로젝트 편집 및 작업 편집 상자)&#x200B;.
 
-  ![](assets/image-see-in-edit.png)
+  ![이미지 편집](assets/image-see-in-edit.png)
 
 현재 사용자는 다음 영역에서 위젯을 볼 수 없습니다&#x200B;.
 
@@ -42,11 +42,11 @@ ht-degree: 0%
 
 여러 객체 유형을 새 사용자 정의 양식과 연결할 수 있습니다.
 
-![](assets/new-custom-form-object-types.png)
+![사용자 지정 양식 개체 형식](assets/new-custom-form-object-types.png)
 
 또는 기존 사용자 정의 양식:
 
-![](assets/add-object-type-existing-form.png)
+![양식에 개체 유형 추가](assets/add-object-type-existing-form.png)
 
 이를 통해 프로젝트, 작업, 문제 및 사용자 정의 양식에 대해 지원되는 다른 유형의 오브젝트에서 사용할 단일 사용자 정의 양식을 만들 수 있습니다.
 
@@ -76,11 +76,11 @@ ht-degree: 0%
 
 문제, 작업, 프로젝트 및 사용자 객체 유형에 사용할 수 있는 섹션 구분 권한 옵션 세트에는 다른 모든 객체 유형에 대한 권한 옵션 세트인 제한 편집보다 하나 이상의 권한 옵션이 있습니다.
 
-![](assets/section-break-permissions-limited-edit.png)
+![제한된 편집으로 섹션 나누기](assets/section-break-permissions-limited-edit.png)
 
 다른 모든 객체 유형(Portfolio, 문서, 프로그램, 경비, 회사, 반복, 청구 기록 및 그룹)에 사용할 수 있는 섹션 구분 권한 집합에는 제한된 편집이 포함되지 않습니다.
 
-![](assets/section-break-permissions-no-limited-edit.png)
+![제한된 편집 없이 섹션 나누기](assets/section-break-permissions-no-limited-edit.png)
 
 이러한 두 그룹의 객체 유형과 연관된 사용자 정의 양식에서 시스템은 모든 객체 유형에 대해 작동하는 공통 섹션 구분 권한 집합을 사용합니다. 특히, 이 공통 세트는 [제한된 편집] 권한 옵션을 사용하는 대신 [제한된 편집] 권한 옵션에 대한 [편집] 권한 옵션을 대체합니다. 편집 옵션은 모든 객체 유형과 호환됩니다.
 

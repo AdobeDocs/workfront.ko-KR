@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -22,12 +22,12 @@ Adobe Workfront Core API를 사용하는 경우 API 탐색기는 지원되는 �
 ## API 탐색기 액세스:
 
 1. 웹 브라우저를 사용하여 [API 탐색기](https://developer.adobe.com/workfront/api-explorer/)(으)로 이동\
-   ![](assets/mceclip1-350x149.png)
+   ![API 탐색기로 이동](assets/mceclip1-350x149.png)
 
 1. API 탐색기의 오른쪽 상단에서 desiredWorkfront **API 버전**&#x200B;을(를) 선택합니다. 기본적으로 최신 버전이 자동으로 선택됩니다
 1. **필터** 필드를 사용하여 이름으로 나열된 개체를 필터링할 수 있으며 그에 따라 표시되는 개체 목록이 잘립니다.
 
-   ![](assets/mceclip2-350x147.png)
+   ![API 탐색기 필드](assets/mceclip2-350x147.png)
 
    * **필드**: 지정된 개체 내에서 사용 가능한 필드입니다.
    * **참조**: 지정한 개체에 사용 가능한 참조 변수입니다. 참조는 변수의 별칭입니다. 참조가 초기화되면 변수 이름과 상호 교환하여 사용할 수 있습니다. 참조는 초기화된 메모리를 사용합니다.
@@ -36,7 +36,7 @@ Adobe Workfront Core API를 사용하는 경우 API 탐색기는 지원되는 �
    * **작업**: 개체에 지원되는 작업입니다. 작업은 리소스 또는 리소스 세트에 대해 실행되는 간단하거나 복잡한 절차일 수 있습니다. 특정 작업은 관련 리소스에도 영향을 줄 수 있습니다.
 
 1. 탭을 열고 개체 ID를 클릭하여 적용 가능한 변수를 봅니다.\
-   ![](assets/approval-350x89.png)\
+   ![변수 보기](assets/approval-350x89.png)\
    선택한 객체에 따라 다음 변수가 적용될 수 있습니다.
 
    | 변수 | 정의 |

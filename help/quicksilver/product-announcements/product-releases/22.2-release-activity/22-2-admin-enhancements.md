@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ in January 2022
 
 ## 새로운 기본 액세스 수준 구성
 
-새 액세스 수준을 만드는 대부분의 관리자의 요구에 더 잘 부합하도록 아래 나열된 &quot;설정 세부 조정&quot; 옵션에 대한 기본 구성을 변경했습니다. 편집 단추에서 톱니바퀴 아이콘 ![](assets/gear-icon-in-access-levels.png)을(를) 클릭하면 표시됩니다.
+새 액세스 수준을 만드는 대부분의 관리자의 요구에 더 잘 부합하도록 아래 나열된 &quot;설정 세부 조정&quot; 옵션에 대한 기본 구성을 변경했습니다. 편집 단추에서 톱니바퀴 아이콘 ![액세스 수준 톱니바퀴 아이콘](assets/gear-icon-in-access-levels.png)을 클릭하면 표시됩니다.
 
 이러한 모든 변경 사항은 이전에 기본적으로 활성화되었던 옵션을 비활성화합니다. 조직의 요구 사항에 맞지 않으면 새 액세스 수준을 설정할 때 또는 나중에 언제든지 활성화할 수 있습니다.
 
@@ -100,7 +100,7 @@ in January 2022
 
 자세한 내용은 [블루프린트 설치](../../../administration-and-setup/blueprints/blueprints-install.md)를 참조하십시오.
 
-![](assets/blueprints-installation-history-350x95.png)
+![블루프린트 설치 기록](assets/blueprints-installation-history-350x95.png)
 
 ## 프로덕션에 미리보기 전용 블루프린트를 설치할 때 이제 경고가 표시됩니다
 

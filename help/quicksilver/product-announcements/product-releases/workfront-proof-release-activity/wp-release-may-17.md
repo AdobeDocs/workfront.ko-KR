@@ -2,15 +2,15 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: "Workfront Proof 릴리스 활동: 2021년 5월 17일 주"
+title: 'Workfront Proof 릴리스 활동: 2021년 5월 17일이 있는 주'
 description: 이 페이지에서는 Workfront Proof(독립 실행형 증명 애플리케이션)에 대한 변경 사항에 대해 설명합니다. 여기에 설명된 변경 사항은 Adobe Workfront 애플리케이션 내의 증명 기능에 적용되지 않습니다.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ ht-degree: 0%
 
 이전에는 모든 프로필 검색 드롭다운에 시스템의 모든 사용자가 나열되어 큰 메뉴가 표시되었습니다.
 
-![](assets/user-profile-typeahead-350x142.png)
+![사용자 프로필 자동 완성](assets/user-profile-typeahead-350x142.png)

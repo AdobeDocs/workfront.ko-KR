@@ -6,9 +6,9 @@ description: Adobe Creative Cloud 애플리케이션에서 프로젝트, 작업,
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. 보려는 작업 항목을 선택합니다.
 
@@ -74,7 +74,7 @@ ht-degree: 0%
    >
    >**[!UICONTROL Menu]** 아이콘을 사용하여 작업 항목의 상위 개체로 이동하십시오.
 
-1. 다음을 보려면 탐색 막대에서 **[!UICONTROL 세부 정보]** 아이콘 ![](assets/details.png)을(를) 클릭하십시오.
+1. 다음을 보려면 탐색 막대에서 **[!UICONTROL 세부 정보]** 아이콘 ![세부 정보](assets/details.png)을 클릭하세요.
 
    * [!UICONTROL 설명]
    * [!UICONTROL 계획된 완료 일자]
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. 보려는 작업 항목을 선택합니다.
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    >
    >**[!UICONTROL Menu]** 아이콘을 사용하여 작업 항목의 상위 개체로 이동하십시오.
 
-1. 탐색 막대에서 **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을(를) 클릭한 다음 문서를 두 번 클릭하여 다음 내용을 봅니다.
+1. 탐색 막대에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭한 다음 문서를 두 번 클릭하여 다음 내용을 봅니다.
 
    * [!UICONTROL 설명]
    * [!UICONTROL 파일 형식]
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. 보려는 작업 항목을 선택합니다.
 
@@ -116,7 +116,7 @@ ht-degree: 0%
    >
    >**[!UICONTROL Menu]** 아이콘을 사용하여 작업 항목의 상위 개체로 이동하십시오.
 
-1. 탐색 막대에서 **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을(를) 클릭한 다음 증명을 두 번 클릭합니다.
+1. 탐색 막대에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭한 다음 증명을 두 번 클릭합니다.
 
 1. 썸네일의 오른쪽 위 모서리에 있는 화살표 아이콘을 클릭하여 [!DNL Workfront]에서 증명 세부 정보를 엽니다.
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. 보려는 작업 항목을 선택합니다.
 
@@ -134,17 +134,17 @@ ht-degree: 0%
    >
    >**[!UICONTROL Menu]** 아이콘을 사용하여 작업 항목의 상위 개체로 이동하십시오.
 
-1. 탐색 막대에서 **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을(를) 클릭한 다음 증명을 두 번 클릭합니다.
+1. 탐색 막대에서 **[!UICONTROL 문서]** 아이콘 ![문서 아이콘](assets/documents.png)을 클릭한 다음 증명을 두 번 클릭합니다.
 
 1. 맨 아래로 스크롤하여 증명의 현재 상태를 확인합니다. SOCD(전송, 열림, 주석, 의사 결정) 세부 정보에 대한 자세한 내용은 [문서 세부 정보 개요](/help/quicksilver/documents/managing-documents/document-details-overview.md)를 참조하십시오.
 
-![](assets/proof-status.png)
+![증명 상태](assets/proof-status.png)
 
 ## 하위 작업 및 문제 보기
 
 1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. 보려는 작업 항목을 선택합니다.
 
@@ -152,9 +152,9 @@ ht-degree: 0%
    >
    >**[!UICONTROL Menu]** 아이콘을 사용하여 작업 항목의 상위 개체로 이동하십시오.
 
-1. **[!UICONTROL 문제]** 아이콘 ![](assets/issues.png) 또는 **하위 작업** 아이콘 ![](assets/subtasks.png)을(를) 클릭합니다.
+1. **[!UICONTROL 문제]** 아이콘 ![문제 아이콘](assets/issues.png) 또는 **하위 작업** 아이콘 ![하위 작업 아이콘](assets/subtasks.png)을 클릭합니다.
 
-1. 작업 또는 문제를 선택한 다음 탐색 막대에서 **[!UICONTROL 세부 정보]** 아이콘 ![](assets/details.png)을(를) 클릭하여 다음을 확인합니다.
+1. 작업 또는 문제를 선택한 다음 탐색 막대에서 **[!UICONTROL 세부 정보]** 아이콘 ![세부 정보](assets/details.png)을(를) 클릭하여 다음을 확인합니다.
 
    * [!UICONTROL 계획된 완료 일자]
    * [!UICONTROL 상태]

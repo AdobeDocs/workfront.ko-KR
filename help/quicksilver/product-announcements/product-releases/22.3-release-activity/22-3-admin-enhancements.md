@@ -6,10 +6,10 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 0%
+source-wordcount: '770'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 자세한 내용은 다음 문서를 참조하십시오.
 
-* [작업 항목에 대한 승인 프로세스 만들기](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+* [작업 항목을 위한 승인 프로세스 만들기](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 
 * [상태 만들기 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ## 그룹 페이지에서 그룹 비활성화
 
-최근에 그룹을 비활성화하고 다시 활성화하는 기능이 추가되었습니다. 이 작업을 더 빠르고 쉽게 수행하기 위해 그룹의 페이지에 이 작업을 추가했습니다. 이제 그룹 이름을 클릭하여 해당 페이지로 이동한 후 그룹 이름 옆에 있는 기타 메뉴 ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png)을(를) 선택한 다음 비활성화 또는 다시 활성화를 선택할 수 있습니다.
+최근에 그룹을 비활성화하고 다시 활성화하는 기능이 추가되었습니다. 이 작업을 더 빠르고 쉽게 수행하기 위해 그룹의 페이지에 이 작업을 추가했습니다. 이제 그룹 이름을 클릭하여 해당 페이지로 이동한 후 그룹 이름 옆에 있는 기타 메뉴 ![기본 메뉴 아이콘](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png)을 선택한 다음 비활성화 또는 다시 활성화를 선택할 수 있습니다.
 
 이전에는 세부 정보 페이지의 활성 확인란을 통해서만 그룹을 비활성화하거나 다시 활성화할 수 있었습니다.
 

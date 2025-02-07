@@ -7,9 +7,9 @@ title: Adobe Workfront 통합 메서드
 description: ' [!DNL Adobe Workfront] 을(를) 타사 응용 프로그램과 통합할 수 있습니다. 이러한 통합을 통해  [!DNL Workfront] 의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 제공된 작업에 가장 유용한 통합에 따라 이러한 통합 중 일부 또는 모두를 사용할 수 있습니다.'
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -95,6 +95,6 @@ Adobe [!DNL Workfront] 관리자는 [!DNL Workfront] 인스턴스에 대한 OAut
 >
 >[!DNL Workfront Fusion]의 다음 [!DNL Workfront] 모듈이 선택한 프로젝트에 주석을 추가하도록 설정되었습니다. 모듈이 실행되면 주석은 Workfront의 프로젝트 업데이트 스트림에 표시됩니다.
 >
->![](assets/fusion-example-comment-350x416.png)
+>![예: Fusion에서 댓글 추가](assets/fusion-example-comment-350x416.png)
 
 [!DNL Workfront Fusion]에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)을(를) 참조하십시오.
