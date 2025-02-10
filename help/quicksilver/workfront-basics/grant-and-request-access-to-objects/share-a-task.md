@@ -6,17 +6,14 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '643'
 ht-degree: 2%
 
 ---
 
 # 작업 공유
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
-
 
 Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작업을 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 작업에 대한 액세스 권한 부여에 대한 자세한 내용은 [작업에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)를 참조하십시오.
 
@@ -38,10 +35,6 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작�
    * 관리
    * 참여\
      ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
-
-     <span class="preview">미리 보기 중:
-     ![](assets/task-permissons.png)
-  </span>
 
 * 작업을 공유할 때 기본적으로 사용자는 작업과 연결된 모든 하위 개체에 대해 동일한 권한을 상속합니다. 예를 들어, 하위 작업, 문제 및 작업에 첨부된 문서에 대한 동일한 권한을 상속합니다.\
   Workfront의 개체 계층 구조에 대한 자세한 내용은  [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

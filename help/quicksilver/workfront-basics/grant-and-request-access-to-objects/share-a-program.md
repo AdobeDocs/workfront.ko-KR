@@ -7,16 +7,14 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 사�
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # 프로그램 공유
-
-{{highlighted-preview}}
 
 Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 프로그램을 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 프로그램 편집에 액세스하려면 플랜 라이선스가 있어야 합니다. 자세한 내용은 [프로그램에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)를 참조하십시오.
 
@@ -41,9 +39,6 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 �
 * 프로그램에 대한 보기 또는 관리 권한만 부여할 수 있습니다.
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
-
-  <span class="preview">미리 보기 중:
-  ![](assets/program-permissions.png)
 
 * 프로그램을 공유하면 기본적으로 사용자는 프로그램과 연결된 모든 자식 개체에 대해 동일한 권한을 상속합니다.
 

@@ -6,7 +6,7 @@ description: 문서 영역에서 폴더와 해당 컨텐츠를 공유할 수 있
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 0%
@@ -132,8 +132,6 @@ ht-degree: 0%
 1. (선택 사항) 시스템의 모든 사용자가 폴더 및 해당 컨텐츠를 볼 수 있도록 하려면 공유 상자의 오른쪽 위 모서리에 있는 톱니바퀴 아이콘 ![](assets/gear-icon-settings-with-dn-arrow.jpg)을(를) 클릭한 다음 **이 항목을 시스템 전체에 표시합니다.**
 
    마음이 바뀌면 **시스템 전체 액세스 제거**(기본 옵션)를 클릭할 수 있습니다.
-
-<!--1. (Optional) If you want everyone in the system to be able to view the folder and its contents, choose **Everyone in the System can view** in the **Who has access** drop-down menu. -->
 
 ## 사용자가 공유된 폴더의 콘텐츠에 액세스하는 방법
 

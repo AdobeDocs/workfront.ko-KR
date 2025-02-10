@@ -6,16 +6,14 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 사�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '584'
 ht-degree: 2%
 
 ---
 
 # 템플릿 공유
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 템플릿을 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 템플릿 편집에 액세스하려면 사용자에게 플랜 라이선스가 있어야 합니다.
 
@@ -42,13 +40,12 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 �
      템플릿에 다음 권한을 부여할 수 있습니다.
 
       * 보기
+
+        ![](assets/view-on-template-262x221.png)
+
       * 관리
 
-        ![](assets/view-on-template-262x221.png) ![](assets/manage-on-template-225x280.png)
-
-     <span class="preview">미리 보기 중:
-     ![](assets/template-permissions.png)
-  </span>
+        ![](assets/manage-on-template-225x280.png)
 
    * 템플릿을 사용하여 만드는 향후 프로젝트입니다. 템플릿에서 만든 프로젝트에 개별 프로젝트와 동일한 수준의 권한을 부여할 수 있습니다. 
 
