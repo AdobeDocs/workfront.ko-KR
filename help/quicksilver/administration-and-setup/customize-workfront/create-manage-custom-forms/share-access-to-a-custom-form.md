@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 911a284f388ed93e6c6c5545a4c0b5c1f73bfe96
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 1%
@@ -108,7 +108,16 @@ ht-degree: 1%
    >![](assets/visible-system-wide-350x480.png)
    >   
    >사용자 정의 양식을 특정 개체에 첨부할 때 사용자가 중요한 데이터를 입력할 수 있는 경우 양식 자체에 대한 액세스를 제한하는 것보다 해당 *개체*&#x200B;에 대한 공유를 제한하는 것이 더 나을 수 있습니다.
-
+<!--
+   >[!NOTE]
+   >
+   >* When you make a custom form visible to everyone in the system, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 5.
+   >* Most organizations want to ensure that everyone in the system can fill out a custom form when it's attached to objects they work on and view its data in reports. If this is true for your organization, we recommend that you use **Everyone in the system can view**.
+   >   
+   >![](assets/share-custom-form-in-designer.png)
+   >   
+   >If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
+-->
 1. **저장**&#x200B;을 클릭합니다.
 
 ## 양식 디자이너에서 사용자 정의 양식 공유

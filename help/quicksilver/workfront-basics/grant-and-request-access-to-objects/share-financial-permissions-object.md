@@ -6,9 +6,9 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 재�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -106,6 +106,10 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터�
    * **관리**
 
      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
+
+   미리 보기의 <span class="preview">:
+   ![](assets/project-permissions.png)
+   </span>
 
 1. 같은 드롭다운 메뉴에서 **고급 설정**&#x200B;을 클릭한 후 다음 중 하나를 수행합니다.
 

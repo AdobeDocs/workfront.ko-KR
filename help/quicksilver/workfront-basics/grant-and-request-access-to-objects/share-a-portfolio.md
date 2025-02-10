@@ -5,14 +5,16 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
 # 포트폴리오 공유
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 Adobe Workfront 관리자는 액세스 수준을 할당할 때 포트폴리오를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 포트폴리오를 편집하려면 액세스 권한이 있는 플랜 라이선스가 있어야 합니다. 자세한 내용은 [포트폴리오에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)를 참조하십시오.
 
@@ -35,9 +37,12 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 포트폴리오�
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
 
-* 포트폴리오를 공유하면 기본적으로 사용자는 포트폴리오와 연결된 모든 하위 개체에 대해 동일한 권한을 상속합니다.
+  <span class="preview">미리 보기 중:
+  ![](assets/share-portfolio.png)
+</span>
+* 포트폴리오를 공유할 때 사용자는 기본적으로 포트폴리오와 연결된 모든 하위 개체에 대해 동일한 권한을 상속합니다.
 
-  Workfront의 개체 계층 구조에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)를 참조하십시오.
+Workfront의 개체 계층 구조에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)를 참조하십시오.
 
 * Portfolio에서 상속된 권한을 제거할 수 있습니다. 개체에서 권한을 제거하는 방법에 대한 자세한 내용은 [개체에서 권한 제거](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)를 참조하십시오.
 

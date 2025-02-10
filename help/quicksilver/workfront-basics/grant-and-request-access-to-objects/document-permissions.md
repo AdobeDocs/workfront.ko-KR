@@ -7,14 +7,16 @@ description: Adobe Workfront 관리자는 문서에 대한 액세스 권한 부�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
 
 # 문서 공유
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 Adobe Workfront 관리자는 [문서에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)에 설명된 대로 액세스 수준을 할당할 때 사용자에게 문서를 보거나 편집할 수 있는 액세스 권한을 부여합니다.
 
@@ -39,6 +41,10 @@ Workfront에 문서를 업로드하는 사용자에게는 기본적으로 관리
 
    * 보기
    * 관리
+
+  <span class="preview">미리 보기 중:
+  ![](assets/document-permissions.png)
+</span>
 
 * 문서를 공개적으로 공유하거나 시스템 전체에서 공유할 수도 있습니다.
 

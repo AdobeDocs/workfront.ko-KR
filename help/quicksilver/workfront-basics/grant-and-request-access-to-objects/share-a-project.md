@@ -6,14 +6,16 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1014'
 ht-degree: 2%
 
 ---
 
 # Adobe Workfront에서 프로젝트 공유
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 <!-- Audited: 1/2024 -->
 
@@ -29,7 +31,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 
 * 기본적으로 프로젝트 작성자는 프로젝트를 관리할 수 있는 권한이 있으며 프로젝트 소유자로도 지정됩니다. 프로젝트가 다른 소유자에게 할당된 경우 해당 사용자도 프로젝트를 관리할 수 있는 권한이 있습니다. 프로젝트 작성자(또는 소유자)가 프로젝트를 다른 사용자와 공유할 때 사용자는 프로젝트에서 작업하면서 수행할 수 있는 작업을 제어할 수 있는 특정 권한을 해당 사용자에게 부여합니다.
 
-  그러나 프로젝트 소유자에게 플래너 라이선스가 없는 경우 프로젝트를 관리할 수 있는 전체 액세스 권한이 없습니다. 플랜 라이선스가 있는 사용자만 프로젝트를 관리할 수 있는 권한을 가질 수 있습니다. 자세한 내용은 [액세스 수준과 사용 권한이 함께 작동하는 방법](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)을 참조하세요.
+  단, 프로젝트 소유자에게 플랜 또는 표준 라이센스가 없는 경우 프로젝트를 관리할 수 있는 전체 액세스 권한이 없습니다. 플랜 또는 Standard 라이선스가 있는 사용자만 프로젝트를 관리할 수 있는 권한을 가질 수 있습니다. 자세한 내용은 [액세스 수준과 사용 권한이 함께 작동하는 방법](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)을 참조하세요.
 
 * 프로젝트를 개별적으로 공유하거나 여러 개의 프로젝트를 한 번에 공유할 수 있습니다. 프로젝트 공유는 다른 오브젝트 공유와 동일합니다. Workfront에서 항목을 공유하는 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 * 프로젝트에 다음 권한을 부여할 수 있습니다.
@@ -39,6 +41,10 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
    * 참여
 
      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
+
+     <span class="preview">미리 보기 중:
+     ![](assets/project-permissions.png)
+  </span>
 
 * 프로젝트를 공유할 때는 별도로 지정하지 않는 한 모든 작업, 문제 및 문서가 동일한 권한을 상속합니다.
 
