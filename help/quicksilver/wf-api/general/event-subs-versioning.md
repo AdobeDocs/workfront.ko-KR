@@ -6,21 +6,23 @@ description: 이벤트 구독 API
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
+source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
-
 
 # 이벤트 구독 버전 관리
 
 Workfront에는 두 가지 버전의 이벤트 구독이 있습니다. 이 문서에서는 두 요소의 차이점에 대해 설명합니다.
 
-이는 Workfront API에 대한 변경이 아니라 이벤트 구독 기능에 대한 변경입니다.
+새 버전은 Workfront API가 아니라 이벤트 구독 기능이 변경되었습니다.
 
-이벤트 구독을 업그레이드하거나 다운그레이드할 수 있으므로 이벤트 구조가 변경될 때 기존 구독이 중단되지 않으므로 이벤트 구독에서 공백 없이 새 버전으로 테스트하고 업그레이드할 수 있습니다.
+이벤트 구독을 업그레이드하거나 다운그레이드할 수 있으므로 이벤트 구조가 변경될 때 기존 구독이 중단되지 않으므로 이벤트 구독에 공백 없이 새 버전으로 테스트하고 업그레이드할 수 있습니다.
+
+이벤트 구독을 업그레이드하거나 다운그레이드하는 데 사용되는 끝점에 대한 자세한 내용은 이벤트 구독 API 문서에서 [이벤트 구독 버전 관리](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -35,7 +37,6 @@ Workfront에는 두 가지 버전의 이벤트 구독이 있습니다. 이 문�
 
 
 ### 일반 변경 사항
-
 
 
 <table style="table-layout:auto"> 
