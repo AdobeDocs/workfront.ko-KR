@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
+source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Workfront에는 두 가지 버전의 이벤트 구독이 있습니다. 이 문�
 
 ## 버전 1과 버전 2 간의 변경 사항
 
-이벤트 구독 버전 2가 다음과 같이 변경되었습니다
+이벤트 구독 버전 2가 다음과 같이 변경되었습니다.
 
 
 ### 일반 변경 사항
