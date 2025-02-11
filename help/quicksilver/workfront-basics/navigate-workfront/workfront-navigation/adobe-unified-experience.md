@@ -1,14 +1,14 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: ' [!DNL Workfront]에 대한 통합 경험 Adobe'
+title: ' [!DNL Workfront]용 Adobe 통합 경험'
 description: Adobe Experience Cloud을 통해  [!DNL Workfront] 에 액세스하면 모든 Adobe 애플리케이션을 관리할 수 있는 원활하고 통합된 환경을 얻을 수 있습니다.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 [!DNL Adobe Experience Cloud]을(를) 통해 [!DNL Workfront]에 액세스하면 모든 [!DNL Adobe] 응용 프로그램을 관리할 수 있는 원활하고 통합된 환경을 얻을 수 있습니다. 단일 ID 관리를 사용하면 여러 URL이나 로그인 ID 없이 한 곳에서 로그인할 수 있습니다.
 
-조직이 통합 경험 Adobe에 있는 경우 Workfront에 액세스하는 데 사용하는 URL은 `experience.adobe.com`(으)로 시작합니다.
+조직이 Adobe 통합 환경에 있는 경우 Workfront에 액세스하는 데 사용하는 URL은 `experience.adobe.com`(으)로 시작합니다.
 
 | URL | Adobe 경험 |
 |------------|------------|
 | (CompanyName).my.workfront.com | Workfront 경험 |
-| experience.adobe.com | 통합 경험 Adobe |
+| experience.adobe.com | Adobe 통합 경험 |
 
 ## 액세스 요구 사항
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ## [!DNL Workfront] 탐색
 
-[!DNL Workfront] 탐색 모음 왼쪽의 [!UICONTROL 기본 메뉴] 아이콘 ![](assets/main-menu-icon-left-nav.png)을(를) 사용하여 액세스 권한이 있는 페이지로 이동합니다. [!UICONTROL 주 메뉴]에서 사용할 수 있는 옵션은 다음에 따라 다릅니다.
+[!DNL Workfront] 탐색 모음 왼쪽의 [!UICONTROL 기본 메뉴] 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon-left-nav.png)을 사용하여 액세스 권한이 있는 페이지로 이동합니다. [!UICONTROL 주 메뉴]에서 사용할 수 있는 옵션은 다음에 따라 다릅니다.
 
 * **레이아웃 템플릿 구성**: [!DNL Workfront] 관리자가 레이아웃 템플릿에서 [!UICONTROL 주 메뉴]를 수정하는 방법에 대해 알아보려면 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴] 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하세요.
 * **라이선스 유형**: 다른 라이선스 유형에 대한 기본 구성에 대해 알아보려면 [[!UICONTROL 검토] 라이선스 사용자의 탐색 이해](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) 또는 [[!UICONTROL 작업] 라이선스 사용자의 탐색 이해](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)를 참조하십시오.
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 * [!DNL Adobe Experience Cloud]에 대해 **[!UICONTROL 어두운 테마]** 서식을 선택하세요.
 * 기본 및 보조 언어 기본 설정을 포함하여 [!DNL Adobe Experience Cloud]에 대해 **[!UICONTROL 기본 설정]**&#x200B;을 설정합니다.
-* **[!UICONTROL [!DNL Workfront]프로필에 액세스]**. 프로필에 등록된 후에는 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png)을(를) 클릭하고 **[!UICONTROL 편집]**&#x200B;을(를) 선택합니다. 프로필에 대한 자세한 내용은 [내 설정 구성](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)을 참조하십시오.
+* **[!UICONTROL [!DNL Workfront]프로필에 액세스]**. 프로필에 등록된 후에는 **[!UICONTROL 기타]** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭하고 **[!UICONTROL 편집]**&#x200B;을 선택합니다. 프로필에 대한 자세한 내용은 [내 설정 구성](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)을 참조하십시오.
 * Adobe Experience Cloud **[!UICONTROL 로그아웃]**
 
 ## 암호 관리

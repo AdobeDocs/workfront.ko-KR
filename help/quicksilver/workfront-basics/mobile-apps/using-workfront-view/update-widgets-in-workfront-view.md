@@ -6,9 +6,9 @@ description: '[!UICONTROL 프로젝트 세부 정보] 화면에 위젯을 추가
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 1%
 1. 화면 가운데 하단의 탭을 누릅니다.\
    [!UICONTROL 위젯] 영역이 표시됩니다.\
    왼쪽에서 오른쪽으로 밀어서 위젯을 스크롤합니다.\
-   ![](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![위젯](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. 위젯을 드래그 앤 드롭하여 프로젝트 페이지의 레이아웃을 사용자 지정합니다.\
    한 번에 최대 4개의 위젯을 표시할 수 있습니다.\

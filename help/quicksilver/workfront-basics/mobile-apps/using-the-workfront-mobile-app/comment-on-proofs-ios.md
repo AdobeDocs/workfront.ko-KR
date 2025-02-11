@@ -6,9 +6,9 @@ description: 증명에 대한 기존 주석을 검토 및 해결하고, 증명 �
 author: Nolan
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    이 옵션은 읽지 않은 댓글이 있는 경우에만 사용할 수 있습니다.
 
-1. 선택한 댓글을 삭제하려면 아래쪽 도구 모음에서 **[!UICONTROL 삭제]** 아이콘 ![](assets/delete-30x28.png)을(를) 선택하십시오. 그런 다음 확인 메시지에서 **[!UICONTROL 삭제]**&#x200B;를 선택하여 댓글을 영구적으로 삭제합니다.
+1. 선택한 댓글을 삭제하려면 아래쪽 도구 모음에서 **[!UICONTROL 삭제]** 아이콘 ![삭제 아이콘](assets/delete-30x28.png)을(를) 선택하십시오. 그런 다음 확인 메시지에서 **[!UICONTROL 삭제]**&#x200B;를 선택하여 댓글을 영구적으로 삭제합니다.
 
 ## 증명에 주석 달기
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
    ![그리기 도구 설정](assets/ios-drawingtoolsettings-350x359.png)
 
-1. 증명 문서의 도형을 Draw 합니다. **[!UICONTROL 실행 취소]** 아이콘 ![실행 취소](assets/android-undo-icon-30x31.png)를 선택하여 드로잉을 실행 취소합니다.
+1. 증명 문서에 모양을 그립니다. **[!UICONTROL 실행 취소]** 아이콘 ![실행 취소](assets/android-undo-icon-30x31.png)를 선택하여 드로잉을 실행 취소합니다.
 1. (조건부) 도형을 선택하고 **[!UICONTROL 설정]**&#x200B;을 선택하여 도형 설정을 편집하거나 **[!UICONTROL 제거]**&#x200B;를 선택하여 도형을 삭제합니다.
 
    ![그리기 메뉴](assets/ios-drawing-settingsremove-350x190.png)

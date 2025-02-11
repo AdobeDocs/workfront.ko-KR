@@ -6,10 +6,10 @@ description: '[!UICONTROL Home] 영역의 [!UICONTROL 내 작업] 섹션에는 �
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >모바일 앱의 [!UICONTROL 내 작업]은(는) [!UICONTROL Adobe Workfront]의 데스크톱 버전에서 [!UICONTROL 내 작업]과(와) 별개입니다.
 
-![](assets/home-myworksection-338x379.png)
+![내 작업](assets/home-myworksection-338x379.png)
 
 ## [!UICONTROL 내 작업] 섹션 사용자 지정
 
@@ -36,4 +36,4 @@ ht-degree: 0%
    >
    >[!UICONTROL 작업 및 문제] 메뉴 항목은 항상 표시되므로 숨길 수 없습니다.
 
-   ![](assets/mobile-settings-338x366.png)
+   ![모바일 설정](assets/mobile-settings-338x366.png)

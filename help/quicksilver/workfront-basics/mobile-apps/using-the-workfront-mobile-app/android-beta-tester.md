@@ -6,9 +6,9 @@ description: 이 문서를 검토하여  [!DNL Adobe Workfront] 모바일 앱의
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Beta에 참여하기 전에 [!DNL Workfront] 앱을 설치해야 합니다.
 
 1. 진행이 완료되면 이제 Beta 사용자라는 확인을 받게 됩니다.\
    앱의 베타 버전을 사용 중임을 나타내는 &quot;[!UICONTROL Beta]&quot;이라는 단어가 [!DNL Play Store]에서 앱 이름 뒤에 나타납니다.\
-   ![](assets/android-beta-tester-adobe-350x468.png)
+   ![Android 베타 테스터](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR 코드
 
 아래의 QR 코드를 스캔하여 Beta에 등록하고 앱을 다운로드할 수도 있습니다.
 
-![](assets/android-qr-code-350x409.png)
+![Android QR 코드](assets/android-qr-code-350x409.png)
 
 ## 현재 진행 상황을 알려주십시오.
 

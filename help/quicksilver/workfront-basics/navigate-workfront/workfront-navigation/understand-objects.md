@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 에 표시하는 정보는  [!DNL Workfron
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2508'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 [!DNL Workfront]에서 개체가 정의되는 방식을 이해하는 것이 중요하므로 조직에서 필요한 요구 사항에 적합한 개체를 사용할 수 있습니다.
 
-예를 들어 많은 양의 작업을 계획하는 경우 [!UICONTROL Project] 개체를 사용하여 해당 작업을 정의해야 합니다. 이 작업을 더 작은 계획된 증분으로 나누려면 [!UICONTROL Task] 개체를 사용할 수 있습니다. 계획되지 않고 예기치 않게 발생할 수 있는 적은 양의 작업의 경우 Issue 개체를 사용할 수 있습니다. 프로젝트 그룹의 진행 상황과 예산 및 타임라인 준수를 추적하려면 [!UICONTROL Portfolio] 및 [!UICONTROL 프로그램]에서 구성할 수 있습니다. 작업을 확인하는 데 도움이 되는 다른 요소를 정의하려면 [!UICONTROL 프로젝트], [!UICONTROL 작업], [!UICONTROL 문제] 또는 [!UICONTROL Portfolio]에 저장된 다른 개체(예: [!UICONTROL 문서], [!UICONTROL 업데이트], [!UICONTROL 시간], [!UICONTROL 사용자] 또는 [!UICONTROL 작업 역할])를 사용합니다.
+예를 들어 많은 양의 작업을 계획하는 경우 [!UICONTROL Project] 개체를 사용하여 해당 작업을 정의해야 합니다. 이 작업을 더 작은 계획된 증분으로 나누려면 [!UICONTROL Task] 개체를 사용할 수 있습니다. 계획되지 않고 예기치 않게 발생할 수 있는 적은 양의 작업의 경우 Issue 개체를 사용할 수 있습니다. 프로젝트 그룹의 진행 상황과 예산 및 타임라인 준수를 추적하려면 [!UICONTROL 포트폴리오] 및 [!UICONTROL 프로그램]에서 구성할 수 있습니다. 작업을 확인하는 데 도움이 되는 다른 요소를 정의하려면 [!UICONTROL 프로젝트], [!UICONTROL 작업], [!UICONTROL 문제] 또는 [!UICONTROL 포트폴리오]에 저장된 다른 개체(예: [!UICONTROL 문서], [!UICONTROL 업데이트], [!UICONTROL 시간], [!UICONTROL 사용자] 또는 [!UICONTROL 작업 역할])를 사용합니다.
 
 [!UICONTROL 보고서] 및 [!UICONTROL 대시보드]는 모든 사용자가 쉽게 액세스할 수 있도록 시각적으로 [!DNL Workfront]에 있는 데이터의 양을 구성하는 데 도움이 되는 개체의 또 다른 예입니다.
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 |---|---|---|
 | [!UICONTROL 포트폴리오] |  | [!UICONTROL 프로그램], [!UICONTROL 프로젝트], [!UICONTROL 문서], [!DNL Notes], [!UICONTROL 사용자] |
 | [!UICONTROL 프로그램] | [!UICONTROL 포트폴리오] | [!UICONTROL 프로젝트], [!UICONTROL 문서], [!UICONTROL 메모], [!UICONTROL 사용자] |
-| [!UICONTROL 프로젝트] | [!UICONTROL Portfolio], [!UICONTROL 프로그램] | [!UICONTROL 작업], [!UICONTROL 문제], [!UICONTROL 문서], [!UICONTROL 메모], [!UICONTROL 시간], [!UICONTROL 사용자] |
+| [!UICONTROL 프로젝트] | [!UICONTROL 포트폴리오], [!UICONTROL 프로그램] | [!UICONTROL 작업], [!UICONTROL 문제], [!UICONTROL 문서], [!UICONTROL 메모], [!UICONTROL 시간], [!UICONTROL 사용자] |
 | [!UICONTROL 작업] | [!UICONTROL 프로젝트] | [!UICONTROL 문제], [!UICONTROL 하위 작업], [!UICONTROL 문서], [!UICONTROL 메모], [!UICONTROL 시간], [!UICONTROL 사용자] |
 | [!UICONTROL 문제] | [!UICONTROL 작업], [!UICONTROL 프로젝트] | [!UICONTROL 문서], [!UICONTROL 메모], [!UICONTROL 시간], [!UICONTROL 사용자] |
 | [!UICONTROL 대시보드] |  | [!UICONTROL 보고서], 외부 페이지 |
@@ -50,7 +50,7 @@ ht-degree: 1%
 | [!UICONTROL 팀] |  | [!UICONTROL 사용자] |
 | [!UICONTROL 사용자] | [!UICONTROL 그룹], [!UICONTROL 팀], [!UICONTROL 회사] | [!UICONTROL 작업 역할] |
 | [!UICONTROL 회사] |  | [!UICONTROL 사용자] |
-| [!UICONTROL 문서] | [!UICONTROL 작업], [!UICONTROL 문제], [!UICONTROL 프로젝트], [!UICONTROL Portfolio], [!UICONTROL 프로그램], [!UICONTROL 사용자] |  |
+| [!UICONTROL 문서] | [!UICONTROL 작업], [!UICONTROL 문제], [!UICONTROL 프로젝트], [!UICONTROL 포트폴리오], [!UICONTROL 프로그램], [!UICONTROL 사용자] |  |
 | [!UICONTROL 계획]* |  | [!UICONTROL 이니셔티브] |
 | [!DNL Goals]* |  | [!UICONTROL 결과], [!UICONTROL 활동] |
 
@@ -161,21 +161,21 @@ Workfront에서 다른 개체의 이름은 사용자 지정할 수 없습니다.
 
 | **개체** | **아이콘** | **사용자 지정 가능한 개체 이름** |
 |---|---|---|
-| [!UICONTROL 회사] | ![](assets/company-icon-nwe.png) , ![](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL 대시보드] | ![](assets/dashboard-icon-nwe.png) , ![](assets/nwe-dashboards-icon.png) |  |
-| [!UICONTROL 목표] | ![](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL 그룹] | ![](assets/groups-icon-nwe.png) , ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL 문제] | ![](assets/issue-icon-nwe.png) , ![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL 작업 역할] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
-| [!UICONTROL 계획] | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL Portfolio] | ![](assets/portfolio-icon-nwe.png) , ![](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL 프로그램] | ![](assets/program-icon-nwe.png) , ![](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL 프로젝트] | ![](assets/project-icon-nwe.png) , ![](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL 보고서] | ![](assets/report-icon-nwe.png) , ![](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL 작업] | ![](assets/task-icon-new.png) , ![](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL 팀] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png), ![](assets/nwe-teams-icon.png) |  |
-| [!UICONTROL 템플릿] | ![](assets/template-icon-nwe.png) , ![](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL 사용자] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
+| [!UICONTROL 회사] | ![회사 아이콘](assets/company-icon-nwe.png) , ![회사 아이콘 파란색](assets/nwe-company-icon-54x54.png) |  |
+| [!UICONTROL 대시보드] | ![대시보드 아이콘](assets/dashboard-icon-nwe.png) , ![대시보드 아이콘 파란색](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL 목표] | ![목표 아이콘](assets/nwe-goal-icon.png) | ✔ |
+| [!UICONTROL 그룹] | ![그룹 아이콘](assets/groups-icon-nwe.png) , ![그룹 아이콘](assets/nwe-group-icon.png) |  |
+| [!UICONTROL 문제] | ![문제 아이콘](assets/issue-icon-nwe.png) , ![문제 아이콘 분홍색](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL 작업 역할] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![작업 역할 아이콘](assets/job-role-nwe-no-color.png), ![작업 역할 아이콘 색상](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL 계획] | ![계획 아이콘](assets/plan-icon.png), ![계획 아이콘 파란색](assets/nwe-plan-icon-60x57.png) |  |
+| [!UICONTROL Portfolio] | ![Portfolio](assets/portfolio-icon-nwe.png) , ![Portfolio 아이콘 파란색](assets/nwe-portfolios-icon.png) | ✔ |
+| [!UICONTROL 프로그램] | ![프로그램 아이콘](assets/program-icon-nwe.png) , ![프로그램 아이콘 주황색](assets/nwe-programs-icon.png) | ✔ |
+| [!UICONTROL 프로젝트] | ![프로젝트 아이콘](assets/project-icon-nwe.png) , ![프로젝트 아이콘 자주색](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL 보고서] | ![보고서 아이콘](assets/report-icon-nwe.png) , ![보고서 아이콘 녹색](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL 작업] | ![작업 아이콘](assets/task-icon-new.png) , ![작업 아이콘 녹색](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL 팀] | ![팀 아이콘](assets/team-icon-nwe.png), ![팀 아이콘 라운드](assets/team-icon-nwe-color.png), ![팀 아이콘](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL 템플릿] | ![템플릿 아이콘](assets/template-icon-nwe.png) , ![템플릿 아이콘 녹색](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL 사용자] | ![사용자 아이콘 회색](assets/users-icon-gray.png) , ![사용자 아이콘 파랑](assets/user-icon-blue.png) , ![이니셜이 있는 사용자 아이콘](assets/user-icon-initials.png) , ![아바타](assets/user-avatar.png) , ![사용자 아이콘 기본 메뉴](assets/user-main-menu-area.png) |  |
 
 ## 개체 참조 번호
 
@@ -191,18 +191,18 @@ Workfront에서 다른 개체의 이름은 사용자 지정할 수 없습니다.
 
 | **개체** | **기본 검색** | **고급 검색** |
 |---|---|---|
-| [!UICONTROL 프로젝트] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 작업] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 문제] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 보고서] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 사용자] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 템플릿] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 문서] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 포트폴리오] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 프로그램] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 대시보드] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 회사] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 메모](또는 [!UICONTROL 업데이트]) | ✓ 덧신 |  |
+| [!UICONTROL 프로젝트] | ✓ | ✓ |
+| [!UICONTROL 작업] | ✓ | ✓ |
+| [!UICONTROL 문제] | ✓ | ✓ |
+| [!UICONTROL 보고서] | ✓ | ✓ |
+| [!UICONTROL 사용자] | ✓ | ✓ |
+| [!UICONTROL 템플릿] | ✓ | ✓ |
+| [!UICONTROL 문서] | ✓ | ✓ |
+| [!UICONTROL 포트폴리오] | ✓ | ✓ |
+| [!UICONTROL 프로그램] | ✓ | ✓ |
+| [!UICONTROL 대시보드] | ✓ | ✓ |
+| [!UICONTROL 회사] | ✓ | ✓ |
+| [!UICONTROL 메모](또는 [!UICONTROL 업데이트]) | ✓ |  |
 
 [!DNL Workfront]에서 기본 및 고급 검색을 실행하는 방법에 대한 자세한 내용은 [검색 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md)을 참조하십시오.
 

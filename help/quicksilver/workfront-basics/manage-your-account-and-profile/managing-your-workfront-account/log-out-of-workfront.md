@@ -6,9 +6,9 @@ description: 보안상의 이유로  [!DNL Adobe Workfront] 에서 정기적으�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -58,5 +58,5 @@ ht-degree: 0%
 
 ## [!DNL Workfront] 계정에서 로그아웃
 
-1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 로그아웃]** ![](assets/logout-icon.png)을(를) 클릭합니다.
+1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 로그아웃]** ![로그아웃 아이콘](assets/logout-icon.png)을 클릭합니다.
 1. 그러면 사용자 이름과 암호를 다시 입력할 수 있는 로그인 페이지로 돌아갑니다.

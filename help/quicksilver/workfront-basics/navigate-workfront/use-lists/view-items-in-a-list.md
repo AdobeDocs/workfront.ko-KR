@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront] 에서 개체 목록을 보고 해당 개�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2290'
 ht-degree: 0%
 
 ---
@@ -123,14 +123,14 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>포트폴리오 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolio]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>프로그램 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL 포트폴리오 선택] &gt;[!UICONTROL 프로그램]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL 포트폴리오 선택] &gt;[!UICONTROL 프로그램]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL 프로그램]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -139,8 +139,8 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL 프로젝트]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL 포트폴리오 선택] &gt;[!UICONTROL 프로젝트]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL 포트폴리오 선택] &gt;[!UICONTROL 프로그램] &gt;[!UICONTROL 프로그램 선택] &gt;[!UICONTROL 프로젝트]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL 포트폴리오 선택] &gt;[!UICONTROL 프로젝트]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL 포트폴리오 선택] &gt;[!UICONTROL 프로그램] &gt;[!UICONTROL 프로그램 선택] &gt;[!UICONTROL 프로젝트]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -194,8 +194,8 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL 문서]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL 포트폴리오 선택] &gt; [!UICONTROL 문서]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt; [!UICONTROL 포트폴리오 선택] &gt;[!UICONTROL 프로그램] &gt;[!UICONTROL 프로그램 선택] &gt;[!UICONTROL 문서]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL 포트폴리오 선택] &gt; [!UICONTROL 문서]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL 포트폴리오 선택] &gt;[!UICONTROL 프로그램] &gt;[!UICONTROL 프로그램 선택] &gt;[!UICONTROL 문서]</p> </li> 
      <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 문서]</p> </li> 
      <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 선택] &gt; [!UICONTROL 문서]</p> </li> 
      <li> <p>[!UICONTROL 프로젝트] &gt; [!UICONTROL 선택] 프로젝트 &gt; [!UICONTROL 문제] &gt;[!UICONTROL 문제 선택] &gt; [!UICONTROL 문서]</p> </li> 
@@ -331,7 +331,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 이러한 요소는 기본적으로 모든 목록의 맨 위에 표시됩니다. 이러한 파일은 고정되어 있으며 목록을 스크롤할 때 이동하지 않습니다. 각 요소의 아이콘 위에 마우스를 놓아 해당 요소를 식별합니다.
 
-![](assets/nwe-list-elements.png)
+![요소 나열](assets/nwe-list-elements.png)
 
 다음 영역에서 목록 요소를 사용자 지정하고 다른 사용자와 공유할 수 있습니다.
 
@@ -525,83 +525,83 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <tbody> 
   <tr> 
    <td> <p>누구나 만들 수 있습니다.</p> </td> 
-   <td>✓ <span>개</span> </td> 
+   <td><span>✓*</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Workfront] 관리자와 [!UICONTROL Plan] 라이선스가 있는 사용자만 만들 수 있습니다.</p> </td> 
    <td> </td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td> <p>다음에서 기본 세트를 사용할 수 있습니다. [!DNL Workfront]</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>표준 모드에서 사용자 지정 가능</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>텍스트 모드에서 사용자 지정 가능</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>다른 사용자와 공유할 수 있습니다.</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>시스템 전체에 공유할 수 있습니다.</p> </td> 
-   <td>✓ 덧신</td> 
-   <td> ✓ 덧신 </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>시스템 외부에서 공유할 수 있습니다</p> </td> 
    <td> </td> 
-   <td>✓ 덧신 </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p>.pdf, [!DNL Excel] 및 탭으로 구분된 형식으로 내보낼 수 있습니다</p> </td> 
-   <td>✓ 덧신</td> 
-   <td> ✓ 덧신 </td> 
+   <td>✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>이메일에서 게재를 예약할 수 있습니다</p> </td> 
    <td> </td> 
-   <td>✓ 덧신 </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p>레이아웃 템플릿에 추가할 수 있습니다.</p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>사용자 정의 섹션에 추가할 수 있습니다 </p> </td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>대시보드에 추가할 수 있습니다.</p> </td> 
-   <td> ✓ *** </td> 
-   <td>✓ 덧신</td> 
+   <td> ✓*** </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>프롬프트를 사용하여 표시되는 내용을 사용자 지정할 수 있습니다</p> </td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>차트에 표시할 수 있습니다</p> </td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>객체의 객체를 인라인 편집할 수 있습니다</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -624,11 +624,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 * 레거시 목록
 
-  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![파란색 그룹화](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * 업데이트된 목록
 
-  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![회색 그룹화](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 다음 표는 [!DNL Workfront]의 기존 목록과 업데이트된 목록의 몇 가지 차이점을 보여 줍니다.
 

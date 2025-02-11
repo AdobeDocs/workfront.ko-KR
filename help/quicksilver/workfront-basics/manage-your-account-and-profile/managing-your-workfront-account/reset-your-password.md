@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 암호를 재설정할 수 있습니다. �
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '253'
 ht-degree: 1%
 
 ---
@@ -50,15 +50,15 @@ ht-degree: 1%
 
 ## [!DNL Adobe Workfront]에서 암호 재설정
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 프로필 사진 옆에 있는 사용자 이름을 클릭합니다.
+1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 프로필 사진 옆에 있는 사용자 이름을 클릭합니다.
 
    ![기본 메뉴를 열고 사용자 이름을 선택합니다.](assets/main-menu-options-350x481.png)
 
-1. **[!UICONTROL 추가 메뉴]** ![](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 추가 메뉴]** ![추가 아이콘](assets/more-icon.png)을 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
 1. **[!UICONTROL 개인 정보]**&#x200B;에 표시되는 **[!UICONTROL 사용자 편집]** 상자에서 **[!UICONTROL 암호 재설정]**&#x200B;을 클릭합니다.
 
-   ![](assets/edit-person-box-350x196.jpg)
+   ![사용자 편집](assets/edit-person-box-350x196.jpg)
 
    조직에서 [!DNL Workfront]을(를) SSO 솔루션과 통합한 경우 **[!UICONTROL 암호 재설정]**&#x200B;을 클릭하면 SSO 시스템을 통해 암호를 재설정하도록 라우팅될 수 있습니다. 이렇게 하면 조직 내의 다른 모든 애플리케이션에 로그인하는 데 영향을 주는 SSO 암호가 재설정됩니다.
 

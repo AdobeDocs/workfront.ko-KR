@@ -6,9 +6,9 @@ description: 목록이나 보고서에 표시될 때 오브젝트를 인라인�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    필드를 편집할 수 있는 경우 필드 및 목록에 표시된 다른 모든 필드가 편집 가능한 셀로 바뀝니다.
 
-   ![](assets/nwe-editable-cells-350x131.png)
+   ![편집 가능한 셀](assets/nwe-editable-cells-350x131.png)
 
 1. 이 셀의 정보를 편집한 다음 [!UICONTROL Enter]를 누르십시오.
 

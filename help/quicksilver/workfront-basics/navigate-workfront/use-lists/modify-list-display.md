@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront]에서 목록을 표시하는 방법을 사
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 1. (선택 사항 및 조건부) 특정 개수의 항목을 화면에 표시하려면 화면의 오른쪽 하단에 있는 **[!UICONTROL 표시]** 드롭다운 메뉴를 클릭한 다음 **100**, **250**, **500**, **[!UICONTROL 모두]** 또는 **2000** 항목을 표시하도록 선택하십시오.
 
-   ![](assets/list-number-page-350x119.png)
+   ![페이지의 목록 번호](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >

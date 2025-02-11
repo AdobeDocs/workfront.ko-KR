@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -48,17 +48,17 @@ ht-degree: 0%
 
 ## eAuth 사용 환경에서 사용자 암호 재설정
 
-1. [!DNL Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 사용자]** ![](assets/users-icon-in-main-menu.png)을(를) 클릭합니다.
+1. [!DNL Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 사용자]** ![사용자 아이콘](assets/users-icon-in-main-menu.png)을 클릭합니다.
 
-   ![](assets/main-menu-options-350x481.png)
+   ![주 메뉴 옵션](assets/main-menu-options-350x481.png)
 
 1. 암호를 다시 설정해야 하는 **[!UICONTROL 사용자]**을(를) 선택하십시오.
-   ![](assets/100520classicnweselectuser-350x105.png)
+   ![사용자 선택](assets/100520classicnweselectuser-350x105.png)
 
 1. 원하는 **[!UICONTROL 사용자]**&#x200B;를 선택한 후 표시되는 **[!UICONTROL 자세히] 단추**&#x200B;를 클릭하고 드롭다운 메뉴에서 **[!UICONTROL 암호 찾기 이메일 보내기]** 옵션을 선택합니다.
 
-   ![](assets/100520classicnwesendemail-350x134.png)
+   ![암호 찾기 이메일 보내기](assets/100520classicnwesendemail-350x134.png)
 
 **[!UICONTROL 암호 찾기 이메일 보내기]** 옵션을 선택하면 선택한 사용자에게 암호를 변경하는 지침이 포함된 이메일이 전송됩니다.
 
-![](assets/pwresetemail-resized-350x461.png)
+![전자 메일 재설정](assets/pwresetemail-resized-350x461.png)

@@ -5,9 +5,9 @@ description: AI Assistant 개요
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '707'
 ht-degree: 1%
 
 ---
@@ -115,7 +115,7 @@ AI Assistant는 현재 다음과 같은 기능을 제공합니다.
 
 ## AI Assistant 액세스
 
-1. Workfront 페이지 맨 위에서 AI Assistant 아이콘 ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)을(를) 클릭합니다.
+1. Workfront 페이지 맨 위에서 AI Assistant 아이콘 ![AI Assistant 아이콘](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)을 클릭합니다.
 1. 화면의 오른쪽에 있는 패널에 질문이나 프롬프트를 입력합니다.
 
    이 패널에 입력할 수 없는 경우 조직은 파일에 서명된 Adobe Gen AI 계약이 없습니다.
@@ -129,13 +129,13 @@ AI Assistant는 현재 다음과 같은 기능을 제공합니다.
 Adobe Gen AI 계약이 서명되지 않은 상태에서 사용자가 AI Assistant를 사용하려고 하면 다음과 같은 메시지가 표시됩니다.
 
 * 사용자: 사용자는 조직에 대해 AI Assistant가 활성화되지 않았으며 Workfront 관리자에게 문의하여 해당 조직에 대해 요청할 수 있다는 알림을 받게 됩니다.
-* 관리자: 관리자는 서명된 Adobe Gen AI 계약이 없다는 알림을 받고, 서명을 위해 계약 사본을 보내도록 요청할 수 있습니다.
+* 관리자: 관리자는 서명된 Adobe Gen AI 계약이 없다는 알림을 받으며, 서명을 위해 계약 사본을 보내도록 요청할 수 있습니다.
 
 Adobe Gen AI 계약을 요청하려면
 
-1. Workfront 관리자로서 AI Assistant 아이콘 ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)을(를) 클릭합니다.
+1. Workfront 관리자는 AI Assistant 아이콘 ![AI Assistant 아이콘](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)을 클릭합니다.
 1. AI Assistant 패널에서 입력을 시작합니다.
-1. Adobe Gen AI 계약 메시지가 나타나면 **계약 검토**&#x200B;를 클릭하십시오.
+1. Adobe Gen AI 계약 메시지가 나타나면 **계약 검토**&#x200B;를 클릭합니다.
 1. Adobe Gen AI 계약에 서명할 조직의 개인 이름과 이메일 주소를 입력합니다.
 
    계약서는 서명을 위해 이 개인에게 전송됩니다. 서명되고 반환되면 조직에 대해 AI 비서가 활성화됩니다.

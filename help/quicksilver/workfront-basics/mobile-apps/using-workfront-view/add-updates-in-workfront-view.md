@@ -7,9 +7,9 @@ description: ' [!DNL Adobe Workfront] 보기 앱에서 검토 중인 프로젝�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 업데이트를 입력합니다.
 1. (선택 사항) [!UICONTROL 사람] 아이콘을 탭하고 다른 사용자의 이름을 지정하여 업데이트에 다른 사용자를 포함하십시오.\
-   ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![모바일 앱의 업데이트](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
-1. **[!UICONTROL Post]**&#x200B;을 누릅니다.\
+1. **[!UICONTROL 게시물]**&#x200B;을 누릅니다.\
    업데이트가 **[!UICONTROL 업데이트]** 위젯의 프로젝트에 표시됩니다.

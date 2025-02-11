@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront] 의 정확한 위치를 기억하지 못�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1690'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 [!DNL Workfront] 내 페이지의 오른쪽 위 모서리에 [!UICONTROL 검색] 상자가 표시됩니다.
 
-![](assets/search-globalnavigationbar-350x62.png)
+탐색 막대의 ![검색 아이콘](assets/search-globalnavigationbar-350x62.png)
 
 검색에서 개체를 찾으려면 먼저 개체를 볼 수 있는 권한이 있어야 합니다. 이러한 이유로 검색 결과는 사용자마다 다릅니다.
 
@@ -185,15 +185,15 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 
 기본 검색을 수행하려면 다음을 수행합니다.
 
-1. 페이지의 오른쪽 위 모서리에 있는 돋보기 ![](assets/search-icon.png)을(를) 클릭합니다. **[!UICONTROL ALT + /]** 또는 **[!UICONTROL 옵션 + /]**&#x200B;을(를) 입력하여 [!UICONTROL 검색] 메뉴를 열 수도 있습니다.
+1. 페이지의 오른쪽 상단에 있는 돋보기 ![검색 아이콘](assets/search-icon.png)을 클릭합니다. **[!UICONTROL ALT + /]** 또는 **[!UICONTROL 옵션 + /]**&#x200B;을(를) 입력하여 [!UICONTROL 검색] 메뉴를 열 수도 있습니다.
 
 1. (선택 사항) 특정 개체를 검색하려면 **[!UICONTROL 모두]** 드롭다운 메뉴를 클릭하고 검색할 개체를 선택합니다.
 
-   ![](assets/search-objecttype.png)
+   ![개체 유형별로 검색](assets/search-objecttype.png)
 
 1. **[!UICONTROL 검색]** 상자에서 검색 중인 정보를 입력하세요.\
    [!DNL Workfront]에서 검색한 필드에 대한 자세한 내용은 [검색 이해](#understand-search)를 참조하십시오.\
-   ![](assets/qs-search-drop-down-highlighted-350x234.png)\
+   ![검색 드롭다운](assets/qs-search-drop-down-highlighted-350x234.png)\
    검색 창에서 입력을 시작하면 [!DNL Workfront]이(가) 사용자의 보기 기록을 기반으로 추천 항목을 만들어 검색 중인 키워드를 파란색으로 강조 표시합니다.
 
 1. 찾고 있는 항목이 [!UICONTROL 자동 완성] 메뉴에 표시되면 해당 항목을 클릭합니다.
@@ -232,7 +232,7 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 1. 결과 목록을 줄이는 데 사용할 수 있는 필드 내부를 클릭합니다.\
    선택한 항목은 파란색으로 강조 표시되고 선택하지 않은 필드 값은 숨겨집니다.\
    각 새 값을 선택하면 올바른 결과에 동적으로 업데이트됩니다.\
-   ![](assets/qs-refine-search-350x175.png)
+   ![검색 구체화](assets/qs-refine-search-350x175.png)
 
 1. (선택 사항) 선택한 값을 클릭하여 선택을 취소하고 각 필드의 모든 값을 다시 표시합니다.
 
@@ -253,16 +253,16 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 
 고급 검색을 수행하려면 다음을 수행합니다.
 
-1. [!DNL Workfront]에 있는 페이지의 오른쪽 상단 모서리에서 **[!UICONTROL 검색]** 아이콘 ![](assets/search-icon.png)을(를) 클릭합니다. [!DNL Search] 메뉴가 표시됩니다.
+1. [!DNL Workfront]에 있는 페이지의 오른쪽 상단 모서리에서 **[!UICONTROL 검색]** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭합니다. [!DNL Search] 메뉴가 표시됩니다.
 
 1. [!UICONTROL 검색] 메뉴 아래쪽에서 **[!UICONTROL 고급 검색]**&#x200B;을 클릭합니다.\
-   ![](assets/qs-advanced-search-350x224.png)\
+   ![고급 검색](assets/qs-advanced-search-350x224.png)\
    [!UICONTROL 고급 검색] 페이지가 오른쪽에서 열리고 이전 페이지의 대부분을 다루고 있습니다.
 
 1. 검색 중인 객체 유형을 선택합니다.\
    기본적으로 **[!UICONTROL 프로젝트]**&#x200B;이(가) 선택됩니다.
 
-   ![](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![고급 검색 개체](assets/advanced-search-objects-qs-remove-after-prod-release.png)
 
 1. (선택 사항) 목록 맨 위의 필드에 키워드를 입력합니다.
 1. (선택 사항) **[!UICONTROL 결과 필터링]**&#x200B;을 클릭하여 특정 필드 유형에 따라 검색 결과를 필터링한 다음 목록에서 필드를 선택합니다. 필요한 경우 필드의 값도 선택합니다.\

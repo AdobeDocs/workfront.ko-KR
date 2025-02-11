@@ -6,9 +6,9 @@ description: 이 문서에서는  [!DNL Adobe Workfront]의 프로젝트, 작업
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2357'
 ht-degree: 3%
 
 ---
@@ -47,9 +47,9 @@ ht-degree: 3%
 >
 >[!UICONTROL Must Start On] 작업 또는 고정 날짜 제약 조건은 [!UICONTROL 실제 시작 일자]가 아닌 작업의 [!UICONTROL 계획된 시작 일자]에 영향을 줍니다. [!UICONTROL 계획된 시작 일자]를 지정한 일자로 업데이트합니다. 위에서 설명한 대로 [!UICONTROL 실제 시작 일자]는 [!UICONTROL 계획된 시작 일자]와(과) 별도로 업데이트됩니다.
 
-![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+![작업 편집 시 실제 시작 일자](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![작업의 실제 시작 일자](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL 실제 완료 일자]
 
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 자세한 내용은 [프로젝트 개요 [!UICONTROL 실제 완료 날짜]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md)를 참조하십시오.
 
-![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+![세부 정보의 실제 완료 날짜](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
 ## 승인 경로 완료 일자
 
@@ -138,7 +138,7 @@ ht-degree: 3%
 
 자세한 내용은 이 문서의 [계획된 완료 일자](#planned-completion-date) 섹션을 참조하십시오.
 
-## 기한:
+## 마감 일자
 
 프로젝트 완료 예정일. 프로젝트의 기한 일자는 프로젝트의 계획된 완료 일자와 동일한 일자입니다.
 
@@ -152,7 +152,7 @@ ht-degree: 3%
 
 [!UICONTROL 시작 날짜]은(는) 프로젝트, 작업 또는 문제의 타임라인에 영향을 주지 않지만 추적 및 보고에는 중요합니다. 개체를 만들 때 [!DNL Workfront]에서 [!UICONTROL 시작 날짜]를 자동으로 생성하므로 개체를 수동으로 편집할 수 없습니다.
 
-![](assets/entry-date-in-task-details-highlighted-nwe.png)
+![작업 세부 정보의 입력 날짜](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## 예상 기한
 
@@ -184,7 +184,7 @@ ht-degree: 3%
 
 프로젝트의 고정 종료 날짜는 프로젝트의 비즈니스 사례 섹션과 프로젝트 목록 및 보고서에 표시됩니다.
 
-![](assets/fixed-end-date-business-case-highlight.png)
+![고정 종료 날짜](assets/fixed-end-date-business-case-highlight.png)
 
 ## 고정 시작 일자
 
@@ -194,7 +194,7 @@ ht-degree: 3%
 
 프로젝트의 고정 시작 일자는 프로젝트의 비즈니스 사례 섹션과 프로젝트 목록 및 보고서에 표시됩니다.
 
-![](assets/fixed-start-date-business-case-highlight.png)
+![고정 시작 날짜](assets/fixed-start-date-business-case-highlight.png)
 
 ## 핸드오프 일자
 
@@ -252,9 +252,9 @@ Workfront에서 시간을 기록하는 방법에 대한 자세한 내용은 [시
 * [프로젝트 [!UICONTROL 계획된 완료 일자] 설정](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [문제 개요 [!UICONTROL 계획된 완료 일자]](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+![헤더의 계획된 완료 일자](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
 
-![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![작업 목록의 계획된 완료 일자](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## 계획된 일자 정렬
@@ -277,9 +277,9 @@ Workfront에서 항목이 계획된 완료 일자와 관련하여 완료될 때 
 
 자세한 내용은 [프로젝트 개요 [!UICONTROL 계획된 시작 일자]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md)를 참조하십시오.
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
+![작업 편집 시 계획된 시작 일자](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+![작업 목록에서 시작 날짜를 계획합니다](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL 예상 완료 일자]
 
@@ -289,7 +289,7 @@ Workfront에서 항목이 계획된 완료 일자와 관련하여 완료될 때 
 
 자세한 내용은 [프로젝트, 작업 및 문제에 대한 [!UICONTROL 예상 완료 일자]의 개요](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)를 참조하십시오.
 
-![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
+![예상 완료 일자](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## [!UICONTROL 예상 시작 일자]
 
@@ -305,7 +305,7 @@ Workfront에서 항목이 계획된 완료 일자와 관련하여 완료될 때 
 
 자세한 내용은 [프로젝트 개요 [!UICONTROL 예상 시작 날짜]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md)를 참조하십시오.
 
-![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+![예상 시작 일자](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
 <!--## Rejection Date-->
 
@@ -313,13 +313,13 @@ Workfront에서 항목이 계획된 완료 일자와 관련하여 완료될 때 
 
 작업이 프로젝트 완료 날짜에 영향을 주지 않고 늦게 시작되거나 완료되는 경우가 있습니다.
 
-Slack 날짜 는 작업이 프로젝트의 완료 날짜에 영향을 줄 수 있는 정확한 날짜를 표시합니다.
+Slack 날짜에는 작업이 프로젝트의 완료 날짜에 영향을 줄 수 있는 정확한 날짜가 표시됩니다.
 
 작업의 Slack 날짜에 대한 자세한 내용은 [작업 Slack 날짜 개요](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md)를 참조하십시오.
 
 작업 Slack 날짜는 작업 목록 및 보고서에 표시됩니다.
 
-## 시작 일자:
+## 시작 일자
 
 프로젝트가 시작될 계획인 날짜입니다. 프로젝트의 시작 일자는 프로젝트의 계획된 시작 일자와 동일한 일자입니다.
 

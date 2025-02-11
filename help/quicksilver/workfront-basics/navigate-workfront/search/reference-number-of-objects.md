@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront]에서 항목은 개체로 식별됩니다.
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Workfront은 객체를 생성할 때 다음 각 객체에 고유 참조 번호�
 
 작업 또는 문제를 볼 때 기본적으로 참조 번호가 표시됩니다.  참조 번호를 보려면 왼쪽 패널에서 **[!UICONTROL 작업 세부 정보]** 또는 **[!UICONTROL 문제 세부 정보]**&#x200B;를 클릭한 다음 개요에서 **[!UICONTROL 기본 정보]** 섹션을 찾습니다.
 
-![](assets/reference-number-nwe-350x184.png)
+![참조 번호](assets/reference-number-nwe-350x184.png)
 
 ### 다른 개체에 대한 참조 번호 보기
 

@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 관리자가 할당한 액세스 수준에
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 * **[!UICONTROL 블루프린트]**: [!DNL Workfront] 관리자가 블루프린트에 대한 요청 큐를 구성한 경우 시스템에서 기존 블루프린트를 검토하고 설치할 블루프린트를 요청합니다. 자세한 내용은 [블루프린트 개요](../../../administration-and-setup/blueprints/blueprints-overview.md)를 참조하십시오.
 
 
-![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![주 메뉴에서 내 업데이트에 액세스](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## 기본 [!UICONTROL 기본 메뉴] 사용자 지정
 

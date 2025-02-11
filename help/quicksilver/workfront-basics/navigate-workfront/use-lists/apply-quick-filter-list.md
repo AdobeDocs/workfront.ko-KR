@@ -5,9 +5,9 @@ description: 객체 목록에서 빠른 필터를 사용하면 자신에게 중�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 ## 목록에 빠른 필터 적용
 
-1. 빠른 필터를 지원하는 목록 또는 보고서로 이동한 다음 도구 모음에서 **[!UICONTROL 빠른 필터] 아이콘** ![](assets/qs-quick-filter-icon.png)을 클릭합니다.
+1. 빠른 필터를 지원하는 목록 또는 보고서로 이동한 다음 도구 모음에서 **[!UICONTROL 빠른 필터] 아이콘** ![빠른 필터 아이콘](assets/qs-quick-filter-icon.png)을 클릭합니다.
 
    또는
 
@@ -120,7 +120,7 @@ ht-degree: 0%
    1. 목록에서 항목을 모두 또는 여러 개 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭하여 항목을 일괄 편집합니다.
    1. 편집을 완료한 후 **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 
-1. (선택 사항) 빠른 필터로 찾은 항목을 내보내려면 목록에서 전체 또는 여러 항목을 선택한 다음 **[!UICONTROL 내보내기]** 아이콘 ![](assets/export.png)을 클릭합니다.
+1. (선택 사항) 빠른 필터로 찾은 항목을 내보내려면 목록에서 전체 또는 여러 항목을 선택한 다음 **[!UICONTROL 내보내기]** 아이콘 ![내보내기 아이콘](assets/export.png)을 클릭합니다.
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

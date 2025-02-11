@@ -6,9 +6,9 @@ description: 이 문서를 검토하여  [!DNL Adobe Workfront] 모바일 앱의
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ iOS 장치에서 Beta 테스터가 되려면 먼저 iOS 장치에 [!DNL Workfron
 
 아래의 QR 코드를 스캔하여 Beta에 등록하고 앱을 다운로드할 수도 있습니다.
 
-![](assets/ios-qr-code-350x397.png)
+![iOS QR 코드](assets/ios-qr-code-350x397.png)
 
 ## 현재 진행 상황을 알려주십시오.
 
