@@ -7,10 +7,10 @@ description: 데이터 표현식을 사용하여 Adobe Workfront에서 계산된
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
+source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
 workflow-type: tm+mt
 source-wordcount: '2425'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -132,11 +132,11 @@ For example:
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDHOUR</strong> </td> 
+   <td><strong>ADDHOURS</strong> </td> 
    <td> <p>날짜에 시간(시) 수를 추가하고 형식은 다음과 같습니다.</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
-   <p>참고: 이 기능은 Workfront Planning에서 지원되지 않습니다.</p></td> 
+   <p>참고: 이 표현식은 Workfront Planning에서 지원되지 않습니다.</p></td> 
   </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
@@ -399,7 +399,7 @@ For example:
   </tr>
   <tr> 
    <td><strong>ARRAYELEMENT</strong> </td> 
-   <td> <p>배열에서 지정된 숫자의 요소를 반환합니다. 인덱스가 범위를 벗어나면 빈 을 반환합니다.</p> 
+   <td> <p>배열에서 지정된 번호에 있는 요소를 반환합니다. 색인이 범위를 벗어나면 비어 있는 값을 반환합니다.</p> 
    <p>표현식의 형식은 다음과 같습니다.</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
@@ -410,7 +410,7 @@ For example:
    <p>표현식의 형식은 다음과 같습니다.</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>예를 들어 ["-12.6", -13.0]은 ["-12.6", "-13"]이 됩니다.</p>
-   <p>참고: 이 기능은 Workfront Planning에서 지원되지 않습니다.</p></td> 
+   <p>참고: 이 표현식은 Workfront Planning에서 지원되지 않습니다.</p></td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCARRAY</strong> </td> 
@@ -418,7 +418,7 @@ For example:
    <p>표현식의 형식은 다음과 같습니다.</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>예를 들어 ["-12.6", -13.0]은 ["-13", "-12.6"]이 됩니다.</p>
-   <p>참고: 이 기능은 Workfront Planning에서 지원되지 않습니다.</p></td> 
+   <p>참고: 이 표현식은 Workfront Planning에서 지원되지 않습니다.</p></td> 
   </tr>
   <tr>   
    <td><strong>사례</strong> </td> 
@@ -461,7 +461,7 @@ For example:
    <td><p>서식 있는 텍스트를 반환합니다. 색상 옵션은 $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE이고, 기타 서식 옵션은 $$BOLD, $$ITALIC, $$UNDERLINE입니다. 최대 3개의 다른 서식 옵션과 함께 기능당 하나의 색상 옵션만 사용할 수 있습니다. 색상 옵션을 지정하지 않으면 시스템의 기본 색상이 적용됩니다.</p>
    <p>표현식의 형식은 다음과 같습니다.</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
-   <p>참고: 이 기능은 Workfront Planning에서 지원되지 않습니다.</p></td> 
+   <p>참고: 이 표현식은 Workfront Planning에서 지원되지 않습니다.</p></td> 
   </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
@@ -573,10 +573,10 @@ For example:
   </tr> 
   <tr> 
    <td><strong>전환</strong> </td> 
-   <td> <p>값 목록에 대해 표현식을 평가하고 일치하는 첫 번째 값에 해당하는 결과를 반환합니다.</p>
+   <td> <p>표현식을 값의 목록과 비교하고, 일치하는 첫 번째 값에 해당하는 결과를 반환합니다.</p>
    <p>표현식의 형식은 다음과 같습니다.</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
-   <p>이 함수는 Workfront Planning에서 지원되지 않습니다.</p></td> 
+   <p>이 표현식은 Workfront Planning에서 지원되지 않습니다.</p></td> 
   </tr>   
   <tr> 
    <td><strong>트리밍</strong> </td> 

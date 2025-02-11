@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
 workflow-type: tm+mt
-source-wordcount: '3824'
+source-wordcount: '3826'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>시간을 기록한 작업 항목 유형에 대한 액세스 편집 </p> <p>예를 들어 문제에 대한 시간을 기록하려면 문제에 대한 편집 액세스 권한이 필요합니다</p> </td> 
+   <td> <p>시간을 기록한 작업 항목 유형에 대한 보기 이상의 액세스 권한 </p> <p>예를 들어 문제에 대한 시간을 기록하려면 문제에 대한 보기 액세스 권한이 필요합니다</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
