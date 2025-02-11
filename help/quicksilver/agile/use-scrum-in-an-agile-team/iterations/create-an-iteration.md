@@ -6,9 +6,9 @@ description: 반복은 작업 용량 계획에서 스크럼 애자일 팀의 주
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,6 @@ ht-degree: 0%
 
 [!UICONTROL 반복 종료 날짜]에서 [!UICONTROL 작업 기간]을 뺀 값은 [!UICONTROL 작업 계획 시작 날짜]입니다.
 
-[!UICONTROL 프로젝트 종료 날짜]이(가) 대신 사용되었습니다.   프로젝트 시작 일자가 반복 시작 일자 이후이고 프로젝트 종료 일자가 반복 종료 일자 이후인 경우.
+프로젝트 시작 날짜가 반복 시작 날짜 이후이고 프로젝트 종료 날짜가 반복 종료 날짜 이후인 경우 [!UICONTROL 프로젝트 종료 날짜]이(가) 반복 종료 날짜 대신 사용됩니다.
 
 개별 스크럼 팀이 반복 날짜가 아닌 프로젝트 날짜를 기본적으로 사용하도록 구성할 수 있습니다. 자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 문서의 [반복에 작업 항목을 추가할 때 날짜가 적용되는 방법 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) 섹션을 참조하십시오.

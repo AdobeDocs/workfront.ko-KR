@@ -6,9 +6,9 @@ description: 스크럼 보드에서 다른 반복 또는 백로그로 스토리 
 author: Lisa
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # [!UICONTROL 스크럼] 게시판에서 스토리 및 문제 관리
 
 [!UICONTROL 스크럼] 보드에서 다른 반복이나 백로그로 스토리 또는 문제를 이동하거나 [!UICONTROL 스크럼] 보드에서 삭제할 수 있습니다. 스토리나 문제를 삭제하면 30일 동안 휴지통으로 이동되며 시스템 관리자만 복구할 수 있습니다.
+
+작업 또는 문제를 삭제하거나 백로그로 보내지 않고 반복에서 제거하려면 프로젝트로 이동하여 할당 열에서 애자일 팀을 제거합니다. 스크럼 보드에서 작업 또는 문제가 제거되지만 프로젝트에는 유지됩니다.
 
 ## 액세스 요구 사항
 

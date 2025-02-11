@@ -6,9 +6,9 @@ description: 작업 및 문제는 팀이 사용 중인 애자일 방법론에 �
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 ### 백로그에서 스토리 만들기 {#create-a-story-from-the-backlog}
 
-백로그에서 스토리를 만들면 스토리가 프로젝트 내의 작업 또는 문제로 생성됩니다. 백로그에서 스토리를 문제로 만들 수 없습니다.
+백로그에서 스토리를 만들면 스토리가 프로젝트 내의 작업 또는 문제로 생성됩니다.
 
 백로그에서 스토리를 만들려면:
 
@@ -189,11 +189,11 @@ ht-degree: 0%
 
 ## 백로그 내부 또는 외부로 스토리 이동
 
-* [백로그에서 반복 또는 + 보드로 스토리 이동](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [백로그에서 반복 또는 보드로 스토리 이동](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [기존 스토리를 백로그로 이동](#move-existing-stories-to-the-backlog)
 * [백로그에서 스토리 내보내기](#export-stories-from-the-backlog)
 
-### 백로그에서 반복 또는 + 보드로 스토리 이동
+### 백로그에서 반복 또는 보드로 스토리 이동
 
 1. 애자일 팀의 백로그로 이동합니다.
 1. 반복 또는 칸반 보드로 이동할 스토리를 선택한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 다음으로 이동]**을 클릭합니다.

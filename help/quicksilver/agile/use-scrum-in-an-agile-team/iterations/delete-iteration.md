@@ -6,9 +6,9 @@ description: 더 이상 필요하지 않은 경우 애자일 팀에 대한 반�
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # 반복 삭제
 
 더 이상 필요하지 않은 경우 애자일 팀에 대한 반복을 삭제할 수 있습니다.
+
+반복을 삭제하면 반복의 모든 스토리가 백로그로 이동됩니다. 작업과 문제는 프로젝트에 남아 있습니다.
 
 >[!NOTE]
 >
