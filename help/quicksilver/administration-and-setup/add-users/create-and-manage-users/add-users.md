@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1131'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >Adobe Admin Console에 온보딩된 조직의 그룹 관리자는 이 절차를 사용하여 사용자를 생성하고 관리자 승인을 위해 사용자를 제출할 수 있습니다.
 >
->조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 처음부터 개별 사용자를 만들거나 기존 사용자를 복사하여 Adobe Workfront에서 사용자를 추가할 수 있습니다.
 
@@ -42,7 +42,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -120,9 +120,9 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
    >
    >* Workfront 관리자가 Workfront과의 SSO 통합을 활성화한 경우 이메일 초대를 비활성화하면 &lt;SSO 구성> 인증만 허용 필드가 표시되지 않습니다. 페더레이션 ID 또는 &lt;SSO 구성> 사용자 이름 필드가 계속 표시됩니다.
    >
-   * 조직이 Admin Console에 온보딩되었고 Workfront을 통해 사용자를 추가하는 경우 이메일 초대를 보낼 수 있는 옵션이 없습니다.
+   * 조직이 Admin Console에 온보딩되고 Workfront을 통해 사용자를 추가하는 경우 이메일 초대를 보낼 수 있는 옵션이 없습니다.
    >
-   기존 Adobe 사용자의 경우, 사용자는 사용 가능한 Workfront에 대한 이메일을 받을 수도 있고 받지 못할 수도 있습니다. 제품에 대해 Adobe 관리자가 제어하는 기본 설정입니다.
+   기존 Adobe 사용자의 경우, 사용자는 사용 가능한 Workfront에 대한 이메일을 받을 수도 있고 받지 못할 수도 있습니다. 이는 제품에 대해 Adobe 관리자가 제어하는 기본 설정입니다.
 
 1. **이 사용자 추가**&#x200B;를 클릭합니다.
 
@@ -168,6 +168,6 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 >[!NOTE]
 >
-조직이 Admin Console에 온보딩되었고 Workfront을 통해 사용자를 추가하는 경우 이메일 초대를 보낼 수 있는 옵션이 없습니다.
+조직이 Admin Console에 온보딩되고 Workfront을 통해 사용자를 추가하는 경우 이메일 초대를 보낼 수 있는 옵션이 없습니다.
 >
-기존 Adobe 사용자의 경우, 사용자는 사용 가능한 Workfront에 대한 이메일을 받을 수도 있고 받지 못할 수도 있습니다. 제품에 대해 Adobe 관리자가 제어하는 기본 설정입니다.
+기존 Adobe 사용자의 경우, 사용자는 사용 가능한 Workfront에 대한 이메일을 받을 수도 있고 받지 못할 수도 있습니다. 이는 제품에 대해 Adobe 관리자가 제어하는 기본 설정입니다.

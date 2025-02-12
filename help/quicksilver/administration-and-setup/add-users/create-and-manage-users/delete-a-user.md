@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->이 페이지에 설명된 절차는 아직 Adobe 비즈니스 플랫폼에 온보딩되지 않은 조직에만 적용됩니다. Adobe 비즈니스 플랫폼에 온보딩한 경우 Adobe Admin Console에서 사용자를 삭제해야 합니다.
+>이 페이지에 설명된 절차는 Adobe Business Platform에 아직 온보딩되지 않은 조직에만 적용됩니다. Adobe Business Platform에 온보딩한 경우 Adobe Admin Console에서 사용자를 삭제해야 합니다.
 >
->조직이 Adobe 비즈니스 플랫폼에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>조직이 Adobe Business Platform에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 사용자가 조직을 떠나면 Adobe Workfront에서 해당 사용자를 제거할 수 있습니다.
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 

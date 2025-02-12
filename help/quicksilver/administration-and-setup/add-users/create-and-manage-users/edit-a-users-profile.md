@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +110,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
       <li> <p><b>시간대:</b> 사용자의 시간대입니다.</p> <p>사용자가 Workfront에서 시간대 간에 공동 작업하는 데 대한 자세한 내용은 <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">시간대 간에 작업</a>을 참조하세요.</p> </li>
 
    <li><p><b>전자 메일 로케일</b>: 사용자의 기본 전자 메일 로케일입니다. 이는 Workfront에서 이 사용자에게 제공되는 이메일의 숫자 및 날짜 형식에 영향을 줍니다.</p>
-      <p><b>참고:</b> 조직이 Adobe 통합 환경에 있는 경우 사용자의 언어 환경 설정은 Adobe 프로필에 저장되며 전자 메일 로케일은 사용되지 않습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오.</p></li>
+      <p><b>참고:</b> 조직에서 Adobe 통합 환경을 사용하는 경우 사용자의 언어 환경 설정은 Adobe 프로필에 저장되고 전자 메일 로케일은 사용되지 않습니다. 이러한 환경 설정에 액세스하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오.</p></li>
 
    <li><b>이 테스트 환경에서 전자 메일 받기</b>: 현재 로그인한 환경에서 전자 메일 알림을 받으려면 이 옵션을 선택하십시오.
       <p><b>메모</b></p>

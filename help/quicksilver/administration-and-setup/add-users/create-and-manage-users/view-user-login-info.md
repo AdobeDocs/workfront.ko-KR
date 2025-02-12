@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +69,7 @@ Workfront은 시스템에 로그인하는 사용자에 대한 다음 정보를 �
 
   >[!NOTE]
   >
-  >Workfront API를 통해 Workfront에 로그인하는 것은 아직 Adobe 비즈니스 플랫폼에 온보딩되지 않은 조직에서만 사용할 수 있습니다.
+  >Workfront API를 통해 Workfront에 로그인하는 것은 Adobe Business Platform에 아직 온보딩되지 않은 조직에서만 사용할 수 있습니다.
 
 ## 사용자 목록 또는 보고서에 사용 정보 표시
 
