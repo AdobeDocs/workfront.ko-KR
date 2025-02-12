@@ -6,9 +6,9 @@ description: 프로젝트 및 역할 보기를 사용하여 Adobe Workfront 리�
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2127'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 역할 보기의 리소스 플래너에서 할당 예산**** 책정하려면
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+1. Adobe Workfront 오른쪽 위 모서리에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
 
 1. **리소스 조달**&#x200B;을 클릭합니다.
 1. **Planner**&#x200B;이(가) 기본적으로 표시됩니다.
@@ -225,7 +225,7 @@ ht-degree: 0%
 
 빠른 링크를 사용할 때 리소스에 대한 할당의 예산을 일괄 책정할 수 있습니다. 빠른 링크는 프로젝트 및 역할 보기에만 사용할 수 있습니다.
 
-![](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![자동 예산 옵션](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

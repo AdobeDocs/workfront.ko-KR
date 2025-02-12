@@ -6,9 +6,9 @@ description: Adobe Workfront은 대시보드에 외부 페이지로 포함할 �
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe Workfront은 대시보드에 외부 페이지로 포함할 수 있는 리소스 플래너의 사용자 보기에 대한 고유 URL을 생성하거나 새 브라우저 탭에서 별도로 열 수 있습니다. 이 기능은 리소스 조달 영역에 직접 액세스할 수 없는 사용자와 리소스 플래너 정보를 공유할 때 유용합니다.
 
-![](assets/rp-user-view-with-link-highlight-350x49.png)
+![링크가 있는 사용자 보기](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## 액세스 요구 사항
 

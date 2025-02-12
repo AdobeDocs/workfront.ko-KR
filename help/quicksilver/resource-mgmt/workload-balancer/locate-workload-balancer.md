@@ -7,10 +7,10 @@ description: 업무 균형자 를 사용하여 작업에 대한 리소스를 예
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 3d7708e674af716657cc287c9f54a8cf56278da3
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 0%
+source-wordcount: '714'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
 
-   ![](assets/nwe-balancer-global.png)
+   ![워크로드 밸런서](assets/nwe-balancer-global.png)
 
    업무 균형자 는 기본적으로 다음 정보를 리소스 조달 영역에 표시합니다.
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![팀용 업무 균형자](assets/nwe-balancer-team-350x172.png)
 
    팀의 업무 균형자 에는 기본적으로 다음 정보가 표시됩니다.
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
    프로젝트에 대한 업무 균형자 가 표시됩니다.
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   ![프로젝트에 대한 업무 균형자](assets/nwe-balancer-project-350x152.png)
 
    프로젝트의 업무 균형자 에는 기본적으로 다음 정보가 표시됩니다.
 

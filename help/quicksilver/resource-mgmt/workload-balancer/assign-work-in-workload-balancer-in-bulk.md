@@ -6,9 +6,9 @@ description: Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1551'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>할당이 포함된 프로젝트, 작업 및 문제에 대한 Contribute 권한 이상</td> 
+   <td>할당이 포함된 프로젝트, 작업 및 문제에 권한 이상 기여</td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +87,7 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
    리소스 영역, 프로젝트 또는 팀 수준에서 업무 균형자 를 사용하여 사용자에게 작업을 할당할 수 있습니다. Workfront에서 업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)를 참조하십시오.
 
 
-1. 업무 균형자 상단에서 **일괄 할당** ![](assets/bulk-assignments-wb.png)을(를) 클릭합니다.
+1. 업무 균형자 상단에서 **일괄 할당** ![일괄 할당](assets/bulk-assignments-wb.png)을 클릭합니다.
 
    일괄 할당 패널이 업무 균형자 오른쪽에 열립니다.
 
@@ -99,7 +99,7 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
    >
    >프로젝트에 대한 업무 균형자 를 액세스하면 기본적으로 프로젝트 이름 이 선택됩니다.
 
-   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![일괄 할당의 프로젝트 이름](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. (선택 사항) **프로젝트 작업 선택**&#x200B;을 클릭하여 할당하려는 작업을 선택한 다음 **작업: 이름** 드롭다운 메뉴에서 이름(기본 옵션) 또는 상태별로 작업을 선택하고 필터 수정자를 사용하여 특정 작업을 검색합니다.
 
@@ -109,13 +109,13 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
    >
    >완료 상태의 작업은 선택할 수 없습니다.
 
-   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   일괄 할당의 ![작업 상태](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
    >[!TIP]
    >
    >문제와 작업에 일괄 할당하려면 이 선택을 비워 두십시오.
 
-1. (선택 사항) 선택한 기준 중 하나 옆에 있는 **삭제** 아이콘 ![](assets/delete.png)을(를) 클릭합니다
+1. (선택 사항) 선택한 기준 중 하나 옆에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다
 
    또는
 
@@ -149,7 +149,7 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
 
 1. **역할 할당** 필드에서 드롭다운 화살표를 클릭하여 역할 목록에서 선택합니다. 지정된 프로젝트 내에서 현재 할당된 역할만 표시됩니다. 필수 필드입니다.
 
-   ![](assets/bulk-assignments-workload-balancer-assign-selected.png)
+   ![역할 할당](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
 1. **할당할 사용자** 필드에서 드롭다운 화살표를 클릭하여 제안된 사용자 목록에서 선택하거나 다른 사용자의 이름을 입력합니다.
 
@@ -176,7 +176,7 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
 
    선택한 역할이 선택한 사용자로 대체된 작업 항목의 수에 대한 확인이 수신됩니다.
 
-   ![](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   ![일괄 할당 확인](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
 ### 사용자 바꾸기 {#replace-user}
 
@@ -194,13 +194,13 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
 1. 위에서 설명한 대로 업무 균형자에서 작업 항목 할당을 시작하고 **바꾸기**&#x200B;를 선택합니다.
 1. **현재 할당된 사용자** 필드에서 드롭다운 화살표를 클릭하여 사용자 목록에서 선택합니다. 지정된 프로젝트 내의 미완료 작업 항목에 현재 할당된 사용자만 표시됩니다. 필수 필드입니다.
 
-   ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
+   ![사용자 바꾸기](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
 1. **할당할 사용자** 필드에서 드롭다운 화살표를 클릭하여 제안된 사용자 목록에서 선택하거나 다른 사용자 이름을 입력합니다. 목록에 기본적으로 나열된 사용자는 스마트 할당 기준과 일치합니다. 자세한 내용은 [스마트 할당 개요](../../manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.
 
    Workfront은 현재 할당된 사용자가 두 번째 사용자를 대체할 항목의 수와 대체할 역할에 대한 메모를 표시합니다.
 
-   ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
+   ![사용자 일괄 바꾸기 확인](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
 1. **바꾸기**&#x200B;를 클릭합니다.
 
@@ -227,11 +227,11 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
 
 1. **할당 해제할 사용자** 필드에서 드롭다운 화살표를 클릭하여 사용자 목록에서 선택합니다. 지정된 프로젝트 내의 미완료 작업 항목에 현재 할당된 사용자만 표시됩니다. 필수 필드입니다.
 
-   ![](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
+   ![사용자 할당 해제](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
 
    Workfront은 현재 할당된 사용자가 할당 해제될 항목 수에 대한 메모를 표시합니다.
 
-   ![](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
+   ![일괄 할당 해제 확인](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
 1. **할당 해제**&#x200B;를 클릭합니다.\
    지정된 사용자가 제거된 작업 항목 수에 대한 확인을 받습니다.

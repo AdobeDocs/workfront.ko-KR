@@ -6,9 +6,9 @@ description: 업무 균형자에서 요약 패널을 열어 할당된 작업 영
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>프로젝트, 작업 및 문제에 대한 Contribute 권한 이상</td> 
+   <td>프로젝트, 작업 및 문제에 대한 권한 이상 기여</td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,11 +78,11 @@ ht-degree: 2%
 
    또는
 
-   **요약 열기** 아이콘 ![](assets/summary-panel-icon.png)을 클릭한 다음 작업 또는 문제의 막대를 클릭하여 요약 패널을 엽니다.
+   **요약 열기** 아이콘 ![요약 열기 아이콘](assets/summary-panel-icon.png)을 클릭한 다음 작업 또는 문제의 막대를 클릭하여 요약 패널을 엽니다.
 
    또는
 
-   작업 또는 문제의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **요약 열기**&#x200B;를 클릭합니다.
+   작업 또는 문제의 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **요약 열기**&#x200B;를 클릭합니다.
 
    오른쪽에 요약 패널이 열립니다.
 
@@ -97,4 +97,4 @@ ht-degree: 2%
    요약을 사용하여 정보를 업데이트하는 방법에 대한 자세한 내용은 [요약 개요](../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.
 
 1. (조건부) 작업 항목의 섹션을 연 경우 브라우저의 **뒤로 단추**&#x200B;를 클릭하여 업무 균형자로 돌아갑니다.
-1. 요약 오른쪽 위의 **닫기 아이콘** ![](assets/close-icon.png)을 클릭하여 닫습니다.
+1. 요약 오른쪽 상단의 **닫기 아이콘** ![닫기 아이콘](assets/close-icon.png)을 클릭하여 닫습니다.

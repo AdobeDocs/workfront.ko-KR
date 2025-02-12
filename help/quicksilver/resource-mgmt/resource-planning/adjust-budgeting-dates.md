@@ -6,9 +6,9 @@ description: 리소스 플래너에서 예산을 책정한 후 리소스에 대�
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '515'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 1%
    프로젝트 할당 타임라인이 표시됩니다.\
    현재 시간이 예산으로 책정된 시간대는 예산 충돌이 있는 경우 주황색으로, 충돌이 없는 경우 파란색으로 강조 표시됩니다.
 
-   ![](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
+   ![예산 책정 날짜 조정](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
 
 1. 강조 표시된 시간대를 다른 시간으로 끌어다 놓아 선택한 프로젝트에 대해 예산 충돌이 없는 위치를 이해합니다. [순] 값이 양수인 시간대를 찾으면 강조 표시된 시간대가 파란색으로 바뀝니다.
 1. 프로젝트 할당 타임라인의 오른쪽 위 모서리에 있는 &quot;x&quot;를 클릭하여 닫습니다.

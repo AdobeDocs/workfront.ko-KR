@@ -7,9 +7,9 @@ description: Adobe Workfront 리소스 플래너를 사용하면 리소스의 �
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2652'
 ht-degree: 1%
 
 ---
@@ -24,13 +24,13 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 
 리소스 플래너를 완전히 사용하는 데 필요한 사전 요구 사항을 충족해야 합니다. 리소스 플래너에 대한 자세한 내용은 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
-![](assets/rp-project-view-all-functionality-350x117.png)
+![리소스 플래너](assets/rp-project-view-all-functionality-350x117.png)
 
 다음 섹션에서는 리소스 플래너의 모든 영역에 대해 간략히 설명합니다.
 
 ## 프로젝트 타임라인
 
-![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![타임라인 달력](assets/timeline-calendar-resource-planner-nwe-350x25.png)
 
 
 
@@ -77,7 +77,7 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 
 ## 프로젝트/역할/사용자 보기 선택
 
-![](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![프로젝트, 역할 또는 사용자별로 보기](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
 정보 표시 방법에 따라 리소스 플래너에서 보기를 변경할 수 있습니다.
 
@@ -127,7 +127,7 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
    * 사용 가능
    * 계획됨
    * 예산
-   * 변량
+   * 분산
    * 순
 
      자세한 내용은 [프로젝트 및 역할 보기를 사용하여 리소스 플래너의 리소스 예산](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)을 참조하세요.
@@ -150,7 +150,7 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
    * 사용 가능
    * 계획됨
    * 예산
-   * 변량
+   * 분산
    * 순
 
      자세한 내용은 [프로젝트 및 역할 보기를 사용하여 리소스 플래너의 리소스 예산](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)을 참조하세요.
@@ -194,7 +194,7 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
    * 프로젝트를 볼 수 있는 권한이 있지만 프로젝트에 대한 작업이나 문제가 없으면 프로젝트 이름이 표시되고 작업 및 문제가 **액세스할 수 없는 항목** 섹션에 나열됩니다.\
      Workfront의 사용 권한에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
 
-     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![액세스할 수 없는 항목](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
    
 
@@ -210,7 +210,7 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 
 ## 프로젝트 이름
 
-![](assets/project-name-highlighted-resource-planner-350x445.png)
+![프로젝트 이름](assets/project-name-highlighted-resource-planner-350x445.png)
 
 리소스 플래너에서 다음 프로젝트를 볼 수 있습니다.
 
@@ -232,13 +232,13 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 
 프로젝트는 가장 중요한 프로젝트가 맨 위에 있는 리소스 플래너에 우선 순위 순서로 나열됩니다. 우선 순위는 프로젝트 이름 앞에 숫자로 표시됩니다.
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![프로젝트 계획 우선 순위](assets/rp-planner-priority-highlighted-350x186.png)
 
 포트폴리오와 연결된 경우 포트폴리오에 따라 프로젝트 우선 순위를 표시하도록 설정을 활성화할 수도 있습니다. 리소스 플래너에서 프로젝트 우선 순위 지정 및 포트폴리오 우선 순위 표시에 대한 자세한 내용은 [리소스 플래너에서 프로젝트 우선 순위 지정](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)을 참조하십시오.
 
 ## 작업 역할 이름
 
-![](assets/role-highlighted-resource-planner-350x243.png)
+![작업 역할 이름](assets/role-highlighted-resource-planner-350x243.png)
 
 리소스 플래너에는 다음 작업 역할 범주가 나열됩니다.
 
@@ -254,7 +254,7 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 
 ## 사용자 이름
 
-![](assets/user-highlighted-resource-planner-350x272.png)
+![사용자 이름](assets/user-highlighted-resource-planner-350x272.png)
 
 리소스 플래너의 프로젝트 및 역할 보기에 나열된 사용자는 프로젝트와 연결된 리소스 풀에 속합니다.\
 사용자로 리소스 풀을 채우는 방법에 대한 자세한 내용은 [사용자와 리소스 풀 연결](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)을 참조하십시오.
@@ -310,11 +310,11 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 1. 리소스 플래너를 엽니다.
 1. **설정** 아이콘을 클릭합니다.
 
-   ![](assets/rp-settings-icon-edit-1.png)
+   ![리소스 플래너 설정 아이콘](assets/rp-settings-icon-edit-1.png)
 
    리소스 플래너 설정 상자가 표시됩니다.
 
-   ![](assets/rp-settings-without-actual-hours-350x211.png)
+   ![리소스 플래너 설정](assets/rp-settings-without-actual-hours-350x211.png)
 
 1. **문제 후 시간 포함** 설정을 사용하여 리소스 플래너에 문제 후 계획된 시간을 표시합니다. 이 설정은 기본적으로 비활성화되어 있습니다.
 
@@ -327,7 +327,7 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
      >
      >**문제에 대한 계획된 시작 및 완료 날짜가 프로젝트의 타임라인을 벗어나는 경우 문제의 계획된 시간이 문제의 날짜에 따라 표시됩니다. 예를 들어 프로젝트 타임라인이 1월과 3월 사이에 있지만 문제의 타임라인이 8월에 있는 경우 문제에 대한 계획된 시간이 8월 기간에 나타납니다.**
 
-1. (조건부 및 선택 사항) 프로젝트 보기를 선택한 경우, Portfolio 우선 순위 표시 설정을 활성화하여 프로젝트 우선 순위를 지정된 Portfolio에 따라 표시합니다. 포트폴리오에 따른 프로젝트의 우선 순위가 리소스 플래너 우선 순위 옆에 표시됩니다. 이 설정은 기본적으로 비활성화되어 있습니다.
+1. (조건부 및 선택 사항) 프로젝트 보기를 선택한 경우, Portfolio 우선 순위 표시 설정을 활성화하여 할당된 Portfolio에 따라 프로젝트 우선 순위를 표시합니다. 포트폴리오에 따른 프로젝트의 우선 순위가 리소스 플래너 우선 순위 옆에 표시됩니다. 이 설정은 기본적으로 비활성화되어 있습니다.
 
    리소스 플래너에서 프로젝트 우선 순위를 지정하는 방법에 대한 자세한 내용은 [리소스 플래너에서 프로젝트 우선 순위 지정](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)을 참조하십시오.
 
@@ -348,7 +348,7 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 
 ## 내보내기 옵션
 
-![](assets/export-button-highlighted-resource-planner-350x92.png)
+![내보내기 단추](assets/export-button-highlighted-resource-planner-350x92.png)
 
 리소스 플래너의 모든 보기에서 정보를 Excel(.xlsx) 파일로 내보낼 수 있습니다.\
 리소스 플래너에서 정보를 내보내는 방법에 대한 자세한 내용은 [리소스 플래너에서 정보 내보내기](../../resource-mgmt/resource-planning/export-resource-planner.md)를 참조하십시오.

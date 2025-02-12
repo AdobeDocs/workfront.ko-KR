@@ -6,9 +6,9 @@ description: 리소스 플래너를 사용하여 프로젝트에 대한 리소�
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 기본적으로 플래너가 표시됩니다.  리소스 플래너의 리소스 예산 책정에 대한 자세한 내용은 문서 [프로젝트 및 역할 보기를 사용하여 리소스 플래너의 리소스 예산](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)을 참조하십시오.
 
-![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![기본값으로 리소스 플래너](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. 왼쪽 패널에서 **리소스 풀**을 클릭합니다.
 리소스 풀 만들기에 대한 자세한 내용은 [리소스 풀 만들기](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)를 참조하십시오.
@@ -105,6 +105,6 @@ ht-degree: 0%
    >
    >프로젝트에 연결된 리소스 풀이 없는 경우 비즈니스 사례의 리소스 예산 책정 영역에만 리소스 풀을 추가할 수 있습니다. 프로젝트에 이미 리소스 풀이 있는 경우, 풀의 사용자와 해당 작업 역할이 기본적으로 리소스 예산 책정 영역에 표시됩니다.
 
-   ![](assets/resource-budgeting-area-on-project-350x70.png)
+   ![리소스 예산 책정](assets/resource-budgeting-area-on-project-350x70.png)
 
    한 프로젝트의 리소스 예산 편성에 대한 자세한 내용은 [비즈니스 사례의 리소스 예산](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md) 문서를 참조하십시오.

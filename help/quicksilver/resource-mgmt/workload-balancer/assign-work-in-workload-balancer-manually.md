@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목�
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>할당이 포함된 프로젝트, 작업 및 문제에 대한 Contribute 권한 이상</td> 
+   <td>할당이 포함된 프로젝트, 작업 및 문제에 권한 이상 기여</td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,9 +77,9 @@ Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목�
 
    해당 항목을 다시 할당하려면 **할당된 작업** 영역으로 이동하여 할당된 작업 항목을 볼 사용자 이름을 확장하세요.
 
-1. 작업 항목 이름 왼쪽의 **추가 메뉴** ![](assets/qs-more-menu.png)을(를) 클릭한 다음 **할당 대상**&#x200B;을 클릭합니다.
+1. 작업 항목 이름 왼쪽의 **추가 메뉴** ![추가 메뉴](assets/qs-more-menu.png)를 클릭한 다음 **할당 대상**&#x200B;을 클릭합니다.
 
-   ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+   ![할당 대상](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목�
    > 사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
 
 
-   ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+   ![고급 할당](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
@@ -130,7 +130,7 @@ Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목�
 
      고급 할당에 대한 자세한 내용은 [고급 할당 만들기](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)를 참조하십시오.
 
-1. (선택 사항) **할당 표시 아이콘** ![](assets/show-allocations-icon-small.png)을 클릭한 다음 **추가 메뉴** ![](assets/qs-more-menu.png) > **할당 편집**&#x200B;을 클릭합니다.
+1. (선택 사항) **할당 표시 아이콘** ![할당 표시 아이콘](assets/show-allocations-icon-small.png)을 클릭한 다음 **추가 메뉴** ![추가 메뉴](assets/qs-more-menu.png) > **할당 편집**&#x200B;을 클릭합니다.
 
    또는
 

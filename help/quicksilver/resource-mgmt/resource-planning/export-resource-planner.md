@@ -6,9 +6,9 @@ description: 리소스 플래너의 모든 보기에서 정보를 컴퓨터에 �
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 3%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 3%
 
    내보내기 옵션(Export Options) 대화상자가 표시됩니다.
 
-   ![](assets/rp-export-options-box-350x421.png)
+   ![내보내기 옵션](assets/rp-export-options-box-350x421.png)
 
 1. 다음 정보를 지정합니다.\
    **시작 날짜**: 내보내기의 시작 날짜입니다. 내보낸 파일에는 여기에서 지정한 요일이 포함된 요일로 시작하는 할당 및 가용성 정보가 포함되어 있습니다.\

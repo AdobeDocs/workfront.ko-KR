@@ -6,9 +6,9 @@ description: 리소스 풀은 Adobe Workfront에서 리소스를 관리하는 �
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
@@ -80,14 +80,14 @@ Also - take out all the references to Preview and Prod at prod final
 
 리소스 풀을 프로젝트와 연관시키는 것과 동일한 방식으로 리소스 풀을 템플릿에 연관시킬 수 있습니다. 이 문서에서는 리소스 풀을 프로젝트와 연결하는 방법에 대해 설명합니다.
 
-1. 프로젝트로 이동하여 프로젝트 이름 옆에 있는 **자세히** 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
+1. 프로젝트로 이동하여 프로젝트 이름 옆에 있는 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
 1. **프로젝트 설정**&#x200B;을 클릭합니다.
 
 1. **리소스 풀** 필드에 리소스 풀 이름을 입력한 다음 표시될 때 목록에서 선택하십시오.\
    여러 리소스 풀을 하나의 프로젝트 또는 템플릿에 연결할 수 있습니다.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![프로젝트 설정](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -104,7 +104,7 @@ Also - take out all the references to Preview and Prod at prod final
 리소스 풀을 여러 프로젝트와 일괄 연결하려면 다음을 수행합니다.
 
 1. 프로젝트 목록으로 이동합니다.
-1. 여러 프로젝트를 선택한 다음 목록 맨 위에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 여러 프로젝트를 선택한 다음 목록 맨 위에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
 1. **설정**&#x200B;을 클릭합니다.
 1. **리소스 풀** 필드에 리소스 풀 이름을 입력한 다음 표시될 때 목록에서 선택하십시오.\

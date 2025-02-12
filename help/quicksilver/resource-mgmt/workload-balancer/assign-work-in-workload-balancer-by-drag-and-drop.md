@@ -6,9 +6,9 @@ description: 작업 항목을 올바른 사용자에게 끌어다 놓아 Adobe W
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>할당이 포함된 프로젝트, 작업 및 문제에 대한 Contribute 권한 이상</td> 
+   <td>할당이 포함된 프로젝트, 작업 및 문제에 권한 이상 기여</td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,13 +76,13 @@ ht-degree: 0%
 
    해당 항목을 다시 할당하려면 **할당된 작업** 영역으로 이동하여 할당된 작업 항목을 볼 사용자 이름을 확장하세요.
 
-1. (조건부) 프로젝트의 업무 균형자에서 **모든 사용자 표시** 아이콘 ![](assets/show-all-users-icon-project-workload-balancer.png)을 클릭하여 모든 Workfront 사용자를 표시합니다.
+1. (조건부) 프로젝트의 업무 균형자에서 **모든 사용자 표시** 아이콘 ![모든 사용자 표시](assets/show-all-users-icon-project-workload-balancer.png)를 클릭하여 모든 Workfront 사용자를 표시합니다.
 
    보기 액세스 권한이 있는 모든 사용자가 표시됩니다.
 
    프로젝트 팀에 속해 있고 프로젝트의 항목에 이미 할당된 사용자에게는 할당된 작업 영역에서 이름 오른쪽에 프로젝트 아이콘이 표시됩니다.
 
-   ![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
+   프로젝트의 ![사용자](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
 
    >[!TIP]
@@ -100,7 +100,7 @@ ht-degree: 0%
    >
    >마우스로 가리키고 있는 사용자의 계획된 시간은 작업 항목에서 매일 계획된 시간의 수로 실시간으로 업데이트되어, 전체 할당에 새 항목을 추가할 때 어떤 영향이 있을 수 있는지 나타냅니다.
 
-   ![](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   ![할당할 항목 삭제](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
 1. 준비가 되면 선택한 작업 항목을 할당된 영역의 사용자 이름과 동일한 줄에 놓습니다. 항목이 할당되고 할당된 계획 시간이 작업 항목의 새 시간과 함께 사용자에 대해 업데이트됩니다.
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 
 1. (선택 사항) 할당된 작업 영역에서 사용자 이름 아래에 있는 작업 항목의 막대를 클릭하고 드래그한 다음 미할당 작업 영역에 놓아 할당을 취소합니다. 사용자에게서 항목의 할당이 해제되었지만, 여전히 작업 역할에 할당될 수 있으며, 이 경우 할당 해제된 작업 영역에 표시됩니다. 항목이 다른 사용자에게 할당된 경우 여전히 할당된 사용자의 이름으로 할당된 작업 영역에 유지됩니다.
-1. (선택 사항) **할당 표시 아이콘** ![](assets/show-allocations-icon-small.png)을 클릭한 다음 **추가 메뉴** ![](assets/qs-more-menu.png) > **할당 편집**&#x200B;을 클릭합니다.
+1. (선택 사항) **할당 표시 아이콘** ![할당 표시 아이콘](assets/show-allocations-icon-small.png)을 클릭한 다음 **추가 메뉴** ![추가 메뉴](assets/qs-more-menu.png) > **할당 편집**&#x200B;을 클릭합니다.
 
    <!--
    (make sure these are still called this, and that the icon has not changed)

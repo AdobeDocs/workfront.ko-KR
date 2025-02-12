@@ -6,9 +6,9 @@ description: 프로젝트는 가장 중요한 프로젝트가 맨 위에 있는 
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 1%
 1. **리소스 플래너**(으)로 이동합니다.
 
 1. 숫자가 포함된 프로젝트 이름 왼쪽의 필드 내부를 클릭하고 숫자를 입력하여 Planning 우선 순위를 변경한 다음 Enter 키를 누릅니다.\
-   ![](assets/mceclip4.png)\
+   ![계획 우선 순위 변경](assets/mceclip4.png)\
    또는\
    프로젝트 이름 위로 마우스를 가져간 후 프로젝트 이름 왼쪽에 있는 표시기를 클릭하고 드래그하여 올바른 위치에 놓아 우선 순위를 변경합니다.
 
@@ -110,21 +110,21 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Portfolio 최적화 도구에서 프로젝트의 우선 순위를 지정하려면 귀사에 비즈니스 이상의 Workfront 계획이 있어야 합니다.
+>Portfolio Optimizer에서 프로젝트의 우선 순위를 지정하려면 귀사에 비즈니스 이상의 Workfront 계획이 있어야 합니다.
 >
 >Workfront 플랜에 대한 자세한 내용은 [플랜](https://www.workfront.com/plans)을 참조하세요.
 >
->Portfolio 최적화 도구에서 프로젝트 우선 순위를 지정하는 방법에 대한 자세한 내용은 [Portfolio 최적화 도구에서 프로젝트 우선 순위 지정](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)을 참조하십시오.
+>Portfolio Optimizer에서 프로젝트 우선 순위를 지정하는 방법에 대한 자세한 내용은 [Portfolio Optimizer에서 프로젝트 우선 순위 지정](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)을 참조하십시오.
 
 1. **프로젝트 보기**&#x200B;에서 **리소스 플래너**&#x200B;를 엽니다.
 1. **설정** 아이콘을 클릭합니다.
-1. **Portfolio 우선 순위 표시** 설정을 사용하여 프로젝트 우선 순위를 할당된 Portfolio에 따라 표시합니다. 포트폴리오에 따른 프로젝트의 우선 순위가 리소스 플래너 우선 순위 옆에 표시됩니다. 이 설정은 기본적으로 비활성화되어 있습니다.
+1. **Portfolio 우선 순위 표시** 설정을 사용하여 할당된 Portfolio에 따라 프로젝트 우선 순위를 표시합니다. 포트폴리오에 따른 프로젝트의 우선 순위가 리소스 플래너 우선 순위 옆에 표시됩니다. 이 설정은 기본적으로 비활성화되어 있습니다.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Portfolio 우선 순위](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    프로젝트의 포트폴리오 우선 순위는 리소스 플래너의 프로젝트 보기에만 표시됩니다.
 
@@ -136,7 +136,7 @@ ht-degree: 1%
    1. 계획된 시작 일자
    1. 프로젝트 이름
 
-   ![](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![Portfolio 우선 순위 정렬됨](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 

@@ -6,9 +6,9 @@ description: Adobe Workfront 업무 균형자 의 할당된 작업 영역에서 
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 196d0aa4ed67cf564c823625515ef49d811e0e06
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '405'
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ Adobe Workfront 업무 균형자 의 할당된 작업 영역에서 작업 항목
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>할당이 포함된 프로젝트, 작업 및 문제에 대한 Contribute 권한 이상</td> 
+   <td>할당이 포함된 프로젝트, 작업 및 문제에 권한 이상 기여</td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,9 +75,9 @@ Adobe Workfront 업무 균형자 의 할당된 작업 영역에서 작업 항목
 1. 다음 중 하나를 수행하십시오.
 
    * 사용자 영역에서 할당 해제할 항목을 찾아 클릭한 다음 할당 해제된 영역 또는 다른 사용자 영역으로 끌어서 놓습니다.
-   * 작업 항목 이름 오른쪽에 있는 **자세히** 아이콘 ![](assets/more-icon-task-list.png)을 클릭하고 **할당 대상**&#x200B;을 클릭한 다음 작업 항목에 할당된 엔터티 이름을 제거하거나 다른 이름을 입력하고 **저장**&#x200B;을 클릭합니다.
+   * 작업 항목 이름 오른쪽에 있는 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon-task-list.png)을 클릭하고 **할당 대상**&#x200B;을 클릭한 다음 작업 항목에 할당된 엔터티 이름을 제거하거나 다른 이름을 입력하고 **저장**&#x200B;을 클릭합니다.
 
-     ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+     ![할당 대상](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    항목이 해당 영역의 필터링 기준과 일치하고 다른 사용자에게 할당되지 않은 경우 미할당 작업 영역에 표시되고 다른 사용자에게 할당된 경우 사용자 영역에 표시됩니다.
 

@@ -6,9 +6,9 @@ description: 리소스 조달 영역을 사용할 수 없는 다른 사용자와
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '697'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 1%
 
      업무 균형자에서 정보를 필터링하는 방법에 대한 자세한 내용은 [업무 균형자에서 정보 필터링](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)을 참조하십시오.
 
-1. **링크 아이콘** ![](assets/wb-shearable-link-icon-small.png)을(를) 클릭합니다.
+1. **링크 아이콘** ![링크 아이콘](assets/wb-shearable-link-icon-small.png)을 클릭합니다.
 
    이렇게 하면 클립보드에 링크가 추가됩니다.
 

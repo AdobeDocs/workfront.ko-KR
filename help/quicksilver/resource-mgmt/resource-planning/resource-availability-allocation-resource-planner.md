@@ -6,9 +6,9 @@ description: 리소스 플래너에서 리소스의 가용성과 프로젝트에
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1243'
 ht-degree: 4%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 4%
 
 1. (조건부) **사용자 지정**&#x200B;을 선택한 경우 **표시된 지표 사용자 지정** 상자에 옵션을 표시하여 사용자 지정 보기를 설정합니다.
 
-   ![](assets/planner-customize-view-box-350x114.png)
+   ![보기 상자 사용자 지정](assets/planner-customize-view-box-350x114.png)
 
 1. 왼쪽의 **보기 형식** 열에서 다음 보기 중 하나를 선택합니다.
 
@@ -163,7 +163,7 @@ ht-degree: 4%
    | 사용 가능 | ✔ | ✔ | ✔ |
    | 계획됨 | ✔ | ✔ | ✔ |
    | 예산 |   | ✔ | ✔ |
-   | 변량 |   | ✔ | ✔ |
+   | 분산 |   | ✔ | ✔ |
    | 순 |   | ✔ | ✔ |
    | 실제 | ✔ |   |   |
    | 차이 | ✔ |   |   |
@@ -189,7 +189,7 @@ ht-degree: 4%
    >
    >사용자 정의된 보기는 하나만 있을 수 있습니다.
 
-   ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![플래너 시간 드롭다운](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## 사용자 할당 차트 보기
 

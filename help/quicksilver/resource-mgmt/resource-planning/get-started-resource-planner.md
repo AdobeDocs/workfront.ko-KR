@@ -7,9 +7,9 @@ description: 리소스 플래너를 사용하여 배정된 프로젝트에 대�
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Adobe Workfront의 리소스 계획에 대한 일반적인 개요는 [리소스 
 >다음 전제 조건 중 하나가 누락된 경우 리소스 할당 또는 가용성에 대한 일부 정보가 누락되었거나 값이 0일 수 있습니다.\
 >필드에 데이터가 없거나 필드 값이 0인 이유를 자세히 이해하려면 필드 위로 마우스를 가져갑니다.
 
-![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
+![이 역할을 가진 사용자가 없습니다](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Adobe Workfront의 리소스 계획에 대한 일반적인 개요는 [리소스 
 
 시스템의 리소스 관리 기본 설정에 따라 Workfront 인스턴스가 사용자 가용성을 계산하는 방법을 이해해야 합니다. Workfront은 사용자 프로필 페이지에 정의된 사용자의 일정 또는 시스템의 기본 일정을 사용하여 사용자 가용성을 계산할 수 있습니다.
 
-![](assets/resource-management-preferences-section-in-setup-350x89.png)
+![관리 환경 설정](assets/resource-management-preferences-section-in-setup-350x89.png)
 
 Workfront 관리자가 리소스 관리 환경 설정을 구성합니다.
 
