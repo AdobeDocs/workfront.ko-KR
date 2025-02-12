@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제에 대한 권한 관리</p> <p> 하나의 문제를 할당할 때 문제가 있는 프로젝트 또는 작업에 대한 권한 이상을 봅니다</p><p>여러 문제를 할당할 때 문제가 있는 프로젝트 또는 작업에 대한 Contribute 권한 이상</p> </td> 
+   <td> <p>문제에 대한 권한 관리</p> <p> 하나의 문제를 할당할 때 문제가 있는 프로젝트 또는 작업에 대한 권한 이상을 봅니다</p><p>여러 문제를 할당할 때 문제가 있는 프로젝트 또는 작업에 권한 이상을 부여하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,7 +166,7 @@ ht-degree: 0%
 
    * **할당 대상** 또는 **할당 대상** 필드 내부를 클릭하고 문제에 할당할 활성 사용자의 이름을 입력한 다음 목록에 표시되면 클릭합니다.
 
-     ![](assets/assigned-to-field-task-list-nwe.png)
+     ![필드에 할당됨](assets/assigned-to-field-task-list-nwe.png)
 
    * **할당** 필드 내부를 클릭하고 문제에 할당할 활성 사용자, 작업 역할 또는 활성 팀의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
@@ -181,7 +181,7 @@ ht-degree: 0%
    >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
 
 
-1. (조건부) 할당 필드에 표시되면 할당 상자의 오른쪽 위에 있는 **사람 아이콘** ![](assets/teams.png)을 클릭하여 고급 할당 상자를 열고 고급 할당을 만듭니다. 자세한 내용은 [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)를 참조하십시오.
+1. (조건부) 할당 필드에 표시되면 할당 상자의 오른쪽 위에 있는 **사람 아이콘** ![사람 아이콘](assets/teams.png)을 클릭하여 고급 할당 상자를 열고 고급 할당을 만듭니다. 자세한 내용은 [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)를 참조하십시오.
 
    >[!TIP]
    >
@@ -193,7 +193,7 @@ ht-degree: 0%
 
 1. 일괄 할당할 문제 목록으로 이동합니다.
 1. 목록에서 몇 가지 문제를 선택하십시오.
-1. **편집 아이콘** ![](assets/qs-edit-icon.png)을 클릭합니다.
+1. **편집 아이콘** ![편집 아이콘](assets/qs-edit-icon.png)을 클릭합니다.
 
    **문제 편집** 대화 상자가 열립니다.
 

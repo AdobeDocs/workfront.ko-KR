@@ -5,9 +5,9 @@ description: 작업 목록 간트 차트 및 프로젝트 목록 간트 차트 �
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Workfront 내의 여러 영역에서 작업 목록 간트 차트 및 프로젝�
 
    프로젝트 목록이 표시됩니다.
 
-1. 화면 오른쪽 상단의 **[!UICONTROL 간트 차트]** 아이콘 ![](assets/gantt-icon-nwe.png)을(를) 클릭합니다.
+1. 화면 오른쪽 상단의 **[!UICONTROL 간트 차트]** 아이콘 ![간트 아이콘](assets/gantt-icon-nwe.png)을 클릭합니다.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -113,7 +113,7 @@ Workfront 내의 여러 영역에서 작업 목록 간트 차트 및 프로젝�
 
 1. [!UICONTROL 간트 차트]에서 시간대 드롭다운 메뉴를 클릭합니다.
 
-   ![](assets/timeline-options.png)
+   ![타임라인 옵션](assets/timeline-options.png)
 
 1. 사용 가능한 다음 옵션 중에서 시간대를 선택합니다.
 

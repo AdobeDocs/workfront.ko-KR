@@ -6,9 +6,9 @@ description: 포트폴리오 내에서 탐색
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>프로젝트 및 Portfolio에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
+   <td> <p>프로젝트 및 포트폴리오에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -60,16 +60,16 @@ ht-degree: 0%
 
 ## 포트폴리오 내에서 탐색
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭합니다.
 
-1. [!UICONTROL Portfolio]을 클릭합니다.
+1. [!UICONTROL 포트폴리오]를 클릭합니다.
 1. **[!UICONTROL 필터]** 드롭다운 메뉴에서 다음을 선택합니다.
 
-   * **[!UICONTROL 내가 소유한 Portfolio]**: [!UICONTROL Portfolio 관리자](으)로 지정된 포트폴리오 목록을 포함합니다.
+   * **[!UICONTROL 내가 소유한 포트폴리오]**: [!UICONTROL Portfolio 관리자](으)로 지정된 포트폴리오 목록을 포함합니다.
    * **[!UICONTROL 모두]**: 적어도 볼 수 있는 액세스 권한이 있는 모든 포트폴리오를 포함합니다.
 
-     Portfolio 액세스에 대한 자세한 내용은 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하세요.
-Portfolio 권한에 대한 자세한 내용은 [포트폴리오 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)를 참조하십시오.
+     포트폴리오 액세스에 대한 자세한 내용은 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하세요.
+포트폴리오 권한에 대한 자세한 내용은 [포트폴리오 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)를 참조하십시오.
 
      새 포트폴리오를 추가하려면 [포트폴리오 만들기](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)를 참조하세요.
 
@@ -105,21 +105,21 @@ Portfolio 권한에 대한 자세한 내용은 [포트폴리오 공유](../../..
 1. 왼쪽 패널의 **[!UICONTROL 프로그램]**을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
 프로그램에 대한 자세한 내용은 [프로그램 만들기 및 관리](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) 섹션을 참조하십시오.
 
-1. (선택 사항) 왼쪽 패널에서 **[!UICONTROL Portfolio 세부 정보]** 영역을 확장한 다음 **[!UICONTROL 개요]** 또는 **[!UICONTROL 사용자 지정 Forms]**&#x200B;을 클릭하여 포트폴리오에 대한 정보를 편집합니다.
+1. (선택 사항) 왼쪽 패널에서 **[!UICONTROL Portfolio 세부 정보]** 영역을 확장한 다음 **[!UICONTROL 개요]** 또는 **[!UICONTROL 사용자 지정 Forms]**&#x200B;를 클릭하여 포트폴리오에 대한 정보를 편집합니다.
 
 1. (선택 사항) 포트폴리오의 성능을 최적화하려면 왼쪽 패널에서 **[!UICONTROL Portfolio 최적화]**&#x200B;를 클릭합니다.
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![프로젝트가 있는 Portfolio 최적화 도구](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL Portfolio 최적화 도구]에 액세스하려면 회사에 [!UICONTROL 비즈니스] 또는 [!DNL Workfront] 이상의 플랜이 있어야 합니다.
+   >[!UICONTROL Portfolio Optimizer]에 액세스하려면 회사에 [!UICONTROL 비즈니스] 또는 [!DNL Workfront] 이상의 플랜이 있어야 합니다.
 
-   Portfolio 최적화 도구 사용에 대한 자세한 내용은 [Portfolio 최적화 도구에서 프로젝트 관리](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) 섹션을 참조하십시오.
+   Portfolio Optimizer 사용에 대한 자세한 내용은 [Portfolio Optimizer에서 프로젝트 관리](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) 섹션을 참조하십시오.
 
 1. (선택 사항) 포트폴리오에 문서를 첨부하려면 왼쪽 패널에서 **문서**&#x200B;를 클릭합니다.
 1. (선택 사항) 포트폴리오의 업데이트 스트림에 설명을 추가하려면 왼쪽 패널에서 **[!UICONTROL 업데이트]**&#x200B;를 클릭합니다. 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
-1. (선택 사항) **[!UICONTROL 자세히] 메뉴** ![](assets/qs-more-icon-on-an-object.png)를 클릭하여 다음 중 하나를 수행합니다.
+1. (선택 사항) 다음 중 하나를 수행하려면 **[!UICONTROL 기타] 메뉴** ![기타 메뉴](assets/qs-more-icon-on-an-object.png)를 클릭하십시오.
 
    * 포트폴리오를 비활성화합니다. 포트폴리오가 비활성화되면 더 이상 프로젝트 수준의 프로젝트와 연결할 수 없습니다.
    * 포트폴리오를 삭제합니다.
@@ -130,4 +130,4 @@ Portfolio 권한에 대한 자세한 내용은 [포트폴리오 공유](../../..
 
    * 다른 사용자와 포트폴리오를 공유합니다.
 
-1. (선택 사항) 포트폴리오 이름 오른쪽에 있는 **별** 아이콘 ![](assets/qs-star-icon-favorites-39x38.png)을(를) 클릭하여 즐겨찾기 목록에 포트폴리오를 추가합니다.
+1. (선택 사항) 포트폴리오 이름의 오른쪽에 있는 **별** 아이콘 ![별 아이콘](assets/qs-star-icon-favorites-39x38.png)을 클릭하여 즐겨찾기 목록에 포트폴리오를 추가합니다.

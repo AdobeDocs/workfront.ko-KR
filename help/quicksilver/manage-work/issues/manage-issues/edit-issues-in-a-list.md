@@ -6,9 +6,9 @@ description: 개별 문제를 편집하거나 문제 목록 또는 보고서에�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제에 대한 Contribute 이상 권한</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 권한 요청을 참조하십시오.</p> </td> 
+   <td> <p>문제에 대한 기여 또는 더 높은 권한</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 권한 요청을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +65,7 @@ ht-degree: 1%
 1. 프로젝트 또는 작업의 문제 목록으로 이동합니다.
 1. 수동으로 업데이트할 권한이 있는 필드 내부를 클릭합니다. 필드는 편집 가능해지며 변경할 수 있습니다.
 
-   ![](assets/edit-issues-inline-350x34.png)
+   ![인라인 문제 편집](assets/edit-issues-inline-350x34.png)
 
 1. 변경 내용을 적용하려면 Enter 키를 누릅니다. 변경 사항이 즉시 저장됩니다.
 
@@ -76,9 +76,9 @@ ht-degree: 1%
 1. 프로젝트 또는 작업의 문제 목록으로 이동합니다.
 1. 다음 중 하나를 수행합니다
 
-   * 목록에서 문제를 선택한 다음 도구 모음에서 편집 아이콘 ![](assets/qs-edit-icon.png)을(를) 클릭합니다.
-   * 문제 이름 오른쪽에 있는 **추가 메뉴** ![](assets/more-icon-task-list.png)를 클릭한 다음 **새 탭에서 열기**&#x200B;를 클릭합니다. 새 탭에서 문제 페이지가 열립니다. 문제 페이지에서 **자세히** > **편집**&#x200B;을 클릭합니다.
-   * 문제 이름 오른쪽에 있는 **추가 메뉴** ![](assets/more-icon-task-list.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+   * 목록에서 문제를 선택한 다음 도구 모음에서 편집 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭합니다.
+   * 문제 이름 오른쪽에 있는 **추가 메뉴** ![추가 메뉴](assets/more-icon-task-list.png)를 클릭한 다음 **새 탭에서 열기**&#x200B;를 클릭합니다. 새 탭에서 문제 페이지가 열립니다. 문제 페이지에서 **자세히** > **편집**&#x200B;을 클릭합니다.
+   * 문제 이름 오른쪽에 있는 **추가 메뉴** ![추가 메뉴](assets/more-icon-task-list.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
      이러한 작업을 수행하면 문제 편집 상자가 열립니다.
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    프로젝트의 문제 목록이 표시됩니다.
 
-1. 편집할 문제를 선택한 다음 문제 목록의 오른쪽 상단에 있는 **요약 열기** 아이콘 ![](assets/qs-open-summary-icon-in-new-toolbar-small.png)을(를) 클릭합니다.
+1. 편집할 문제를 선택한 다음 문제 목록의 오른쪽 상단에 있는 **요약 열기** 아이콘 ![요약 열기 아이콘](assets/qs-open-summary-icon-in-new-toolbar-small.png)을 클릭합니다.
 
    **요약**&#x200B;이 열립니다.
 
@@ -102,7 +102,7 @@ ht-degree: 1%
 
    | 문서 | 문제에 문서를 추가하려면 **여기를 클릭**&#x200B;하세요. |
    |---|---|
-   | 세부 정보 | 을(를) 클릭하여 문제에 대한 정보를 업데이트합니다. |
+   | 세부 사항 | 을(를) 클릭하여 문제에 대한 정보를 업데이트합니다. |
    | 시간 | 클릭하여 시간을 기록합니다. |
    | 승인 | 문제 승인을 추가하려면 클릭하십시오. |
 
@@ -119,7 +119,7 @@ ht-degree: 1%
 1. 프로젝트 이름을 클릭하여 프로젝트에 액세스합니다.
 1. 왼쪽 패널에서 **문제**&#x200B;를 클릭합니다.
 1. 목록에서 몇 가지 문제를 선택하십시오.
-1. **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
    **문제 편집** 대화 상자가 열립니다.
 

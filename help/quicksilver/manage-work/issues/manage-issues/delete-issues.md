@@ -6,9 +6,9 @@ description: 올바른 액세스 및 권한이 있는 경우 Adobe Workfront에�
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제에 대한 권한 관리</p> <p>프로젝트 또는 작업에 대한 Contribute 이상 권한</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> </td> 
+   <td> <p>문제에 대한 권한 관리</p> <p>프로젝트 또는 작업에 대한 기여 또는 더 높은 권한</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,7 +110,7 @@ Workfront 또는 그룹 관리자가 Workfront 인스턴스의 **타임시트 �
 1. **프로젝트**&#x200B;를 클릭합니다.
 1. 삭제할 문제가 포함된 프로젝트 이름을 클릭합니다.
 1. 왼쪽 패널에서 **문제**&#x200B;를 클릭합니다.
-1. 문제를 선택한 다음 목록의 맨 위에 있는 **삭제** 아이콘 ![](assets/delete.png)을(를) 클릭합니다.
+1. 문제를 선택한 다음 목록의 맨 위에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다.
 
 1. 삭제가 허용되면 **예, 삭제**&#x200B;를 클릭합니다.\
    Workfront 관리자는 시간이 기록되는 문제의 삭제를 허용하지 않을 수 있습니다.\
@@ -123,12 +123,12 @@ Workfront 또는 그룹 관리자가 Workfront 인스턴스의 **타임시트 �
 1. 삭제할 문제가 포함된 프로젝트 이름을 클릭합니다.
 1. 왼쪽 패널에서 **문제**&#x200B;를 클릭합니다.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![문제 아이콘](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. 삭제할 문제의 이름을 클릭합니다.
 1. 문제 이름 오른쪽에 있는 **자세히** 메뉴를 클릭합니다.
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![추가 문제 메뉴](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. **문제 삭제**&#x200B;를 클릭합니다.
 1. 삭제가 허용되면 **예, 삭제**&#x200B;를 클릭합니다.

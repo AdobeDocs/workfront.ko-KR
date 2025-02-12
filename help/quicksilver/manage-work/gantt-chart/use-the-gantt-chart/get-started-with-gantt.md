@@ -6,9 +6,9 @@ description: Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,9 @@ Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목록의 타임�
    * 작업 또는 템플릿 작업을 클릭한 다음 왼쪽 패널에서 [!UICONTROL **하위 작업**]&#x200B;을(를) 클릭합니다.
    * 작업 보고서
 
-1. 작업 목록 맨 위에 있는 [!UICONTROL **간트**] 아이콘 ![](assets/gantt-icon-nwe.png)을(를) 클릭합니다.
+1. 작업 목록 맨 위에 있는 [!UICONTROL **간트**] 아이콘 ![간트 아이콘](assets/gantt-icon-nwe.png)을 클릭합니다.
 
-   ![](assets/task-list-gantt.png)
+   ![작업 목록 간트](assets/task-list-gantt.png)
 
    작업 목록 [!UICONTROL 간트 차트]가 작업 목록 오른쪽에 열립니다.
 
@@ -114,7 +114,7 @@ Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목록의 타임�
 
 1. 프로젝트 목록 맨 위에 있는 [!UICONTROL **간트**] 아이콘을 클릭합니다.
 
-   ![](assets/project-list-gantt.png)
+   ![프로젝트 목록 간트](assets/project-list-gantt.png)
 
    프로젝트 목록 [!UICONTROL 간트 차트]가 열립니다.
 

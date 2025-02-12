@@ -6,9 +6,9 @@ description: 프로젝트를 시작할 때 포트폴리오에 프로젝트를 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준</td> 
-   <td> <p>[!UICONTROL Edit] 액세스 Portfolio</p> <p>프로젝트에 대한 [!UICONTROL 편집] 액세스 권한</p> </td> 
+   <td> <p>[!UICONTROL Edit] 액세스 포트폴리오</p> <p>프로젝트에 대한 [!UICONTROL 편집] 액세스 권한</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. 포트폴리오로 이동한 다음 왼쪽 패널에서 **[!UICONTROL 프로젝트]**&#x200B;를 클릭합니다.
 
-   ![](assets/qs-portfolio-with-projects-350x90.png)
+   ![프로젝트가 있는 Portfolio](assets/qs-portfolio-with-projects-350x90.png)
 
 1. **[!UICONTROL 새 프로젝트]**&#x200B;를 클릭하고 프로젝트를 추가할 방법을 선택하십시오.
 
@@ -98,11 +98,11 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-   ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![새 프로젝트 드롭다운](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (조건부) 기존 프로젝트를 추가하도록 선택한 경우 **[!UICONTROL 프로젝트 추가]** 상자에 프로젝트 이름을 입력한 다음 목록에 나타나면 클릭합니다. 한 번에 여러 프로젝트를 추가할 수 있습니다.
 
-   ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   ![기존 프로젝트 추가](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
 1. **[!UICONTROL 프로젝트 추가]**&#x200B;를 클릭합니다.
 

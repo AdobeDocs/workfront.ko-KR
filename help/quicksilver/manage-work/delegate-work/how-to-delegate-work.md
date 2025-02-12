@@ -6,9 +6,9 @@ description: 부재 중 할당된 작업을 임시로 위임할 수 있습니다
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 1. [!UICONTROL **내 작업**], [!UICONTROL **내 작업**] 또는 [!UICONTROL **내 문제**] 위젯의 왼쪽 상단 모서리에서 [!UICONTROL **위임**]&#x200B;을 클릭합니다.
 
-   ![](assets/delegate-button-on-my-work-widget.png)
+   ![위임 단추](assets/delegate-button-on-my-work-widget.png)
 
 1. 다음 내용을 업데이트합니다.
 
@@ -133,7 +133,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
      >
      >종료 날짜 필드를 비워 두고 종료 날짜 없음 옵션을 선택하지 않으면 위임은 현재 날짜에만 설정됩니다.
 
-     ![](assets/delegate-box-expanded-in-home.png)
+     ![대리자 상자 확장](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. [!UICONTROL **저장**]&#x200B;을 클릭합니다.
@@ -158,7 +158,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
       </MadCap:conditionalText>
       -->
 
-     ![](assets/edit-delegation-button-on-my-work-widget.png)
+     ![위임 편집 단추](assets/edit-delegation-button-on-my-work-widget.png)
 
    * 이벤트 알림 및 개인 알림이 활성화된 경우 위임에 대한 이메일 확인도 받습니다.
 
@@ -179,7 +179,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    >
    >    위임이 이미 시작된 경우 위임 종료 날짜만 편집할 수 있습니다.
 
-   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![위임 중지 단추](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. (조건부) 새 위임 날짜를 저장하려면 [!UICONTROL **저장**]&#x200B;을 클릭합니다
 
@@ -213,11 +213,11 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
   작업 또는 문제 헤더의 [!UICONTROL 할당] 필드가 [!UICONTROL 할당 및 위임](으)로 변경됩니다.
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![작업 헤더의 할당 및 대리자 패널](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * 작업 또는 문제를 수동으로 할당할 때 [!UICONTROL 업무 균형자]
 
-  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![업무 균형자의 할당 및 위임 패널](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -240,7 +240,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    * [!UICONTROL **내게 위임됨**]: 다른 사용자가 내게 위임한 작업 및 문제를 봅니다.
    * [!UICONTROL **내가 위임함**]: 사용자가 다른 사용자에게 위임한 작업 및 문제를 봅니다.
 
-     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
+     ![위임된 작업 및 문제 필터](assets/delegated-tasks-and-issues-new-home-filter.png)
 
 1. (선택 사항) 다음 기준으로 목록을 정렬하려면 [!UICONTROL **정렬**] 드롭다운 메뉴를 클릭합니다.
    * [!UICONTROL 기한]. 기본 정렬 옵션입니다.

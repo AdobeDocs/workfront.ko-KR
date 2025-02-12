@@ -6,9 +6,9 @@ description: 프로젝트 요청은 Adobe Workfront에서 [!UICONTROL 요청됨]
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Portfolio에 대한 [!UICONTROL 보기] 액세스 이상</p> <p>프로젝트에 대한 [!UICONTROL 편집] 액세스 권한</p>  </td> 
+   <td> <p>포트폴리오에 대한 [!UICONTROL 보기] 액세스 이상</p> <p>프로젝트에 대한 [!UICONTROL 편집] 액세스 권한</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 상태]** 드롭다운 메뉴에서 프로젝트의 상태를 다른 상태로 변경합니다.
 
-     ![](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![드롭다운에서 프로젝트 상태 변경](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
  
 
  

@@ -6,9 +6,9 @@ description: 문제 기간은 문제의 계획된 시작 일자와 계획된 완
 author: Alina
 feature: Work Management
 exl-id: 5a8f7c74-21e4-4e90-bb55-b4ff6e35a751
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -23,4 +23,4 @@ ht-degree: 0%
 
 보고서 작성에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 
-![](assets/nwe-issue-duration-view-highlighted-350x73.png)
+![문제 기간 보기](assets/nwe-issue-duration-view-highlighted-350x73.png)

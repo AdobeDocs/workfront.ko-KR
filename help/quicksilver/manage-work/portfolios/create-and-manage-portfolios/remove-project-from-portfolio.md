@@ -6,9 +6,9 @@ description: 포트폴리오에서 프로젝트를 제거하고 다른 포트폴
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준</td> 
-   <td> <p>프로젝트에 대한 [!UICONTROL 편집] 액세스 권한</p> <p>Portfolio에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
+   <td> <p>프로젝트에 대한 [!UICONTROL 편집] 액세스 권한</p> <p>포트폴리오에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -59,9 +59,9 @@ ht-degree: 1%
 1. Portfolio으로 이동하여 왼쪽 패널에서 **[!UICONTROL 프로젝트]**&#x200B;를 클릭합니다.
 1. 제거할 프로젝트를 선택합니다. 
 
-   ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![프로젝트 제거 단추](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. **[!UICONTROL 프로젝트 제거]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 삭제]**&#x200B;를 클릭하여 [!DNL Workfront]에서 프로젝트를 삭제하거나 **[!UICONTROL Portfolio에서 제거]** **[!UICONTROL 제거]**&#x200B;를 클릭하여 선택한 Portfolio에서 제거합니다.
+1. [!DNL Workfront]에서 프로젝트를 삭제하려면 **[!UICONTROL 삭제]**&#x200B;를 클릭하고 선택한 Portfolio에서 제거하려면 **[!UICONTROL Portfolio에서 제거]** **[!UICONTROL 제거]**&#x200B;를 클릭하십시오.
 
 1. (선택 사항 및 조건부) 포트폴리오에서 제거한 프로젝트를 찾아 다른 포트폴리오와 연결합니다. 프로젝트를 포트폴리오와 연결하는 방법에 대한 자세한 내용은 [포트폴리오에 프로젝트 추가](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)를 참조하십시오.

@@ -6,9 +6,9 @@ description: 사용자가 만든 프로그램이나 다른 사용자가 사용�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
    >
    >프로그램에 대한 모든 정보를 편집하려면 4단계로 이동하십시오.
 
-   ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![사용자 정의 양식 섹션을 사용한 프로그램 세부 정보](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -81,10 +81,10 @@ ht-degree: 0%
    [!UICONTROL 세부 정보] 섹션의 정보를 편집하려면 다음을 수행하십시오.
 
    1. (선택 사항) 오른쪽 상단의 **[!UICONTROL 모두 축소]** 아이콘을 클릭하여 모든 영역을 축소합니다.
-   1. (선택 사항 및 조건부) 영역이 축소되면 각 영역 옆에 있는 **오른쪽 방향 화살표** ![](assets/right-pointing-arrow.png)를 클릭하여 편집할 영역을 확장합니다.
+   1. (선택 사항 및 조건부) 영역이 축소되면 각 영역 옆에 있는 **오른쪽 방향 화살표** ![오른쪽 방향 화살표](assets/right-pointing-arrow.png)를 클릭하여 편집할 영역을 확장합니다.
    1. [!UICONTROL 프로그램 세부 정보] 섹션에 표시되는 필드에 대한 자세한 내용을 보려면 아래 설명된 대로 [!UICONTROL 프로그램 편집] 상자에서 프로그램을 계속 편집하십시오.
    1. (선택 사항) 프로그램에 첨부된 사용자 정의 양식이 없는 경우 **[!UICONTROL 사용자 정의 양식 추가]** 필드에 양식 이름을 입력하고 목록에 표시될 때 선택한 다음 **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
-   1. (선택 사항) **[!UICONTROL 내보내기]** 아이콘 ![](assets/export.png)을(를) 클릭하여 [!UICONTROL 개요] 및 사용자 정의 양식 정보를 PDF 파일로 내보낸 다음 **[!UICONTROL 내보내기]**&#x200B;를 클릭합니다. 다음 중에서 선택합니다.
+   1. (선택 사항) **[!UICONTROL 내보내기]** 아이콘 ![내보내기 아이콘](assets/export.png)을 클릭하여 [!UICONTROL 개요] 및 사용자 정의 양식 정보를 PDF 파일로 내보낸 다음 **[!UICONTROL 내보내기]**&#x200B;를 클릭합니다. 다음 중에서 선택합니다.
 
       * 모두 선택(사용자 정의 양식이 하나 이상 첨부된 경우에만 표시됨)
       * [!UICONTROL 개요]
@@ -92,19 +92,19 @@ ht-degree: 0%
 
       PDF 파일이 컴퓨터로 다운로드됩니다.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![포트폴리오 세부 정보 내보내기](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       자세한 내용은 [사용자 정의 양식 및 개체 세부 정보 내보내기](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)를 참조하십시오.
 
 
 1. 하나 이상의 프로그램에 대한 모든 정보를 편집하려면 다음 중 하나를 수행하십시오.
 
-   * 프로그램 이름 옆에 있는 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 &#x200B; 다음 **[!UICONTROL 편집].**
-   * 프로그램 목록으로 이동하여 편집할 프로그램을 하나 이상 선택한 다음 목록 맨 위에 있는 **[!UICONTROL 편집]** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+   * 프로그램 이름 옆에 있는 **[!UICONTROL 자세히]** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 {&#x200B;4}편집].****[!UICONTROL 
+   * 프로그램 목록으로 이동하여 편집할 프로그램을 하나 이상 선택한 다음 목록 맨 위에 있는 **[!UICONTROL 편집]** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
    **[!UICONTROL 프로그램 편집]** 대화 상자가 표시됩니다.
 
-   ![](assets/edit-program-box-nwe-350x236.png)
+   ![프로그램 상자 편집](assets/edit-program-box-nwe-350x236.png)
 
    모든 프로그램 필드는 [!UICONTROL 프로그램 편집] 상자에서 사용할 수 있으며 왼쪽 패널에 나열된 영역별로 그룹화됩니다.
 
@@ -140,7 +140,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 설명]</td> 
-      <td> <p>Portfolio에 대한 설명을 입력하여 고유한 내용을 나타냅니다. </p> </td> 
+      <td> <p>Portfolio에 대한 고유한 사항을 나타내도록 설명에 정보를 입력합니다. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 프로그램 관리자]</td> 
@@ -177,7 +177,7 @@ ht-degree: 0%
 1. 위에서 설명한 대로 프로그램 편집을 시작합니다.
 1. **[!UICONTROL 댓글]**&#x200B;을 클릭하세요.
 
-   ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
+   ![프로그램 편집 상자의 주석 상자](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
 1. **[!UICONTROL 프로그램에 대한 업데이트 게시]** 필드에 댓글을 추가합니다.
 1. (선택 사항) 댓글에 사용자 또는 팀을 추가하려면 **[!UICONTROL 사람]** 아이콘을 클릭합니다.

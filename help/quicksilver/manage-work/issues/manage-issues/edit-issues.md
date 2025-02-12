@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2551'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 2%
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제에 대한 Contribute 권한이 세부 정보 영역에서 다음 필드를 편집할 수 있습니다. </p>
+   <td> <p>세부 정보 영역에서 다음 필드를 편집할 수 있는 권한을 문제에 기여합니다. </p>
    <ul>
    <li>설명</li>
    <li>상태</li>
@@ -74,7 +74,7 @@ ht-degree: 2%
 1. (선택 사항) **작업** 을 클릭한 다음 작업 이름을 클릭하여 작업을 엽니다.
 1. 왼쪽 패널에서 **문제**&#x200B;를 클릭합니다.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![문제 아이콘](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (선택 사항) 문제에 대한 제한된 정보를 편집하려면 왼쪽 패널에서 **문제 세부 정보**&#x200B;를 클릭하십시오.
 
@@ -85,9 +85,9 @@ ht-degree: 2%
    세부 정보 섹션에서 정보를 편집하려면 다음 작업을 수행하십시오.
 
    1. (선택 사항) 오른쪽 상단의 **모두 축소** 아이콘을 클릭하여 모든 영역을 축소합니다.
-   1. (선택 사항 및 조건부) 영역이 축소되면 각 영역 옆에 있는 **오른쪽 방향 화살표** ![](assets/right-pointing-arrow.png)를 클릭하여 편집할 영역을 확장합니다.
+   1. (선택 사항 및 조건부) 영역이 축소되면 각 영역 옆의 **오른쪽 방향 화살표** ![오른쪽 방향 화살표](assets/right-pointing-arrow.png)를 클릭하여 편집할 영역을 확장합니다.
    1. (선택 사항) 사용자 정의 양식을 첨부하려면 **사용자 정의 양식 추가** 필드에 양식 이름을 입력한 다음 목록에 표시될 때 선택하고 **변경 내용 저장**&#x200B;을 클릭합니다.
-   1. (선택 사항) **내보내기** 아이콘 ![](assets/export.png)을(를) 클릭하여 개요 및 사용자 정의 양식 정보를 PDF 파일로 내보낸 다음 **내보내기**&#x200B;를 클릭합니다. 다음 중에서 선택합니다.
+   1. (선택 사항) **내보내기** 아이콘 ![내보내기 아이콘](assets/export.png)을 클릭하여 개요 및 사용자 정의 양식 정보를 PDF 파일로 내보낸 다음 **내보내기**&#x200B;를 클릭합니다. 다음 중에서 선택합니다.
 
       * 모두 선택(사용자 정의 양식이 하나 이상 첨부된 경우에만 표시됨)
       * 개요
@@ -95,7 +95,7 @@ ht-degree: 2%
 
       PDF 파일이 컴퓨터로 다운로드됩니다.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![문제 세부 정보 내보내기](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       자세한 내용은 [사용자 정의 양식 및 개체 세부 정보 내보내기](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)를 참조하십시오.
 
@@ -134,7 +134,7 @@ ht-degree: 2%
 1. 위에 설명된 대로 문제 편집을 시작합니다.
 1. **문제 이름**&#x200B;을 클릭하세요.
 
-   ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![문제 이름 섹션](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. **문제 이름** 필드를 업데이트합니다.
 1. **저장**&#x200B;을 클릭하거나 다음 섹션을 계속 편집하십시오.
@@ -144,7 +144,7 @@ ht-degree: 2%
 1. 위에 설명된 대로 문제 편집을 시작합니다.
 1. **개요**&#x200B;를 클릭합니다.
 
-   ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![문제 개요 섹션](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. 다음 표의 필드를 업데이트하거나 검토합니다.
 
@@ -164,7 +164,7 @@ ht-degree: 2%
       <td> <p>문제의 상태를 선택합니다. 문제 상태에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">시스템 문제 상태 목록에 액세스</a>를 참조하십시오. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">우선 순위</td> 
+      <td role="rowheader">우선순위</td> 
       <td> <p>문제의 우선 순위를 지정할 수 있는 시각적 플래그입니다.</p> <p>다음 옵션 중에서 선택합니다.</p> 
        <ul> 
         <li> <p><strong>없음</strong> </p> </li> 
@@ -271,7 +271,7 @@ ht-degree: 2%
 1. 위에 설명된 대로 문제 편집을 시작합니다.
 1. 왼쪽 패널에서 **할당**&#x200B;을 클릭합니다.
 
-   ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![문제 할당 섹션](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. **사람, 역할 및 팀 검색**&#x200B;을 클릭하고 작업에 할당할 사용자, 역할 또는 팀의 이름을 입력한 다음 해당 작업을 클릭하거나 목록에 표시될 때 Enter 키를 누릅니다.
 
@@ -322,7 +322,7 @@ ht-degree: 2%
 1. 위에 설명된 대로 문제 편집을 시작합니다.
 1. **사용자 지정 Forms**&#x200B;을 클릭합니다.
 
-   ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![사용자 정의 양식 섹션 문제](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
 1. **사용자 정의 양식 추가** 필드에서 문제와 연결할 사용자 정의 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오. 문제에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
 
@@ -339,7 +339,7 @@ ht-degree: 2%
 1. 위에 설명된 대로 문제 편집을 시작합니다.
 1. **설정**&#x200B;을 클릭합니다.
 
-   ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![문제 설정 아이콘](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    다음 정보를 업데이트합니다.
 
@@ -383,7 +383,7 @@ ht-degree: 2%
 
 시스템 또는 그룹 관리자는 문제 헤더에 표시되는 필드를 사용자 정의할 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오.
 
-![](assets/issue-header-350x19.png)
+![문제 헤더](assets/issue-header-350x19.png)
 
 기본적으로 다음 필드가 문제 헤더에 포함됩니다.
 

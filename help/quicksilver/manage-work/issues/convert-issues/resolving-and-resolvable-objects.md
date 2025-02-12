@@ -7,9 +7,9 @@ description: 해결 가능한 오브젝트는 해결 방법이 해결 중인 오
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1788'
 ht-degree: 1%
 
 ---
@@ -79,10 +79,10 @@ Workfront 또는 그룹 관리자가 시스템 또는 그룹 수준 문제 환�
 다음과 같은 시나리오가 있습니다.
 
 * Workfront 또는 그룹 관리자가 **원래 문제를 유지하고 해결 방법을 작업에 연결** 및 **원래 문제를 유지하고 해결 방법을 프로젝트에 연결**&#x200B;을 선택하고 **전환 중에 이러한 설정을 변경할 수 있도록 허용**&#x200B;을 선택하지 않은 경우 문제를 작업 또는 프로젝트로 전환할 때 이러한 설정을 변경할 수 없습니다.\
-  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![프로젝트 환경 설정 문제 영역](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * Workfront 또는 그룹 관리자가 **원래 문제를 유지하고 해결 방법을 작업에 연결** 및 **원래 문제를 유지하고 해결 방법을 프로젝트에 연결**&#x200B;을 선택 또는 선택 취소하고 **전환 중에 이러한 설정을 변경할 수 있도록 허용**&#x200B;을 선택한 경우 문제를 작업 또는 프로젝트로 전환할 때 이러한 설정을 변경할 수 있습니다.\
-  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![문제를 유지하는 옵션](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 문제를 작업 및 프로젝트로 변환하는 방법에 대한 자세한 내용은 [Adobe Workfront의 문제 변환 개요](../../../manage-work/issues/convert-issues/convert-issues.md)를 참조하십시오.
 
@@ -202,7 +202,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 문제 목록에서 **상태 아이콘** 또는 **플래그** 열에서 상태 아이콘을 통해 해결 중 개체로 레이블이 지정된 문제를 확인할 수 있습니다.
 
-![](assets/ro1.png)
+![개체를 확인하는 중](assets/ro1.png)
 
 ## 보고서에서 해결 가능 및 해결 중 객체 정보 보기
 
@@ -225,43 +225,43 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
  <tbody> 
   <tr> 
    <td><strong>해결 가능한 항목이 있습니다</strong>: 프로젝트 또는 작업에 해결 가능한 문제가 있는 경우 <strong>True</strong> 값을 표시하고 그렇지 않은 경우 <strong>False</strong> 값을 표시합니다.</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td><strong>원래 문제 이름, 원래 문제 입력 날짜, 작성자 이름</strong>: 텍스트 모드 사용자 지정 보기에서 원래 문제의 이름, 입력 날짜 및 문제를 만든 사용자의 이름을 표시합니다.<br>원래 문제에 대한 정보를 표시하는 프로젝트나 작업 보고서 또는 목록의 텍스트 모드 사용자 지정 보기를 만드는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">보기: 작업 또는 프로젝트 목록에 원래 문제 정보 표시</a>를 참조하십시오.<br></td> 
    <td> </td> 
-   <td> ✓ 덧신</td> 
-   <td> ✓ 덧신</td> 
+   <td> ✓</td> 
+   <td> ✓</td> 
   </tr> 
   <tr> 
    <td> <p><strong>해결 가능한 개체:</strong> 프로젝트, 작업 보고서 또는 목록에 대한 텍스트 모드 사용자 지정 보기에 모든 해결 가능한 개체 목록을 표시합니다.</p> <p>이 보기를 만드는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">보기: 작업 또는 프로젝트 보고서의 해결 가능한 개체</a>를 참조하십시오.</p> </td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
-   <td> ✓ 덧신</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
   </tr> 
   <tr> 
    <td><strong>전환된 문제 작성자</strong>: 나중에 작업으로 전환된 문제를 처음 기록한 사용자에 대한 정보를 표시합니다. </td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>해결 프로젝트</strong>: 원래 문제에서 변환되었거나 문제의 해결 개체로 수동으로 지정된 해결 중인 프로젝트에 대한 정보를 표시합니다.</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>해결 작업</strong>: 원래 문제에서 변환되었거나 문제의 해결 개체로 수동으로 지정된 해결 작업에 대한 정보를 표시합니다.</td> 
-   <td>✓ 덧신 </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>문제 해결</strong>: 문제의 해결 개체로 수동으로 지정된 해결 중 문제에 대한 정보를 표시합니다.</td> 
-   <td> ✓ 덧신</td> 
+   <td> ✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 

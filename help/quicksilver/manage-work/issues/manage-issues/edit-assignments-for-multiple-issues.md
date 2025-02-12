@@ -6,9 +6,9 @@ description: 목록의 여러 문제에 대한 사용자 할당 수정
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->문제에 할당하려면 문제에 대한 Contribute 이상의 권한이 있어야 합니다.
+>문제에 할당하려면 문제에 대해 적어도 기여자 권한이 있어야 합니다.
 
 ## 액세스 요구 사항
 
@@ -54,7 +54,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제에 대한 권한 관리</p> <p>여러 문제를 할당할 때 문제가 있는 프로젝트 또는 작업에 대한 Contribute 권한 이상</p>  </td> 
+   <td> <p>문제에 대한 권한 관리</p> <p>여러 문제를 할당할 때 문제가 있는 프로젝트 또는 작업에 권한 이상을 부여하십시오.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,13 +102,13 @@ ht-degree: 1%
    1. 필터링할 사용자 또는 역할의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
    1. **필터 저장**&#x200B;을 클릭합니다.
 
-1. 할당을 수정할 문제를 선택한 다음 **편집** 아이콘 ![](assets/qs-edit-icon.png)을(를) 클릭합니다.
+1. 할당을 수정할 문제를 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭합니다.
 
    **문제 편집**&#x200B;이 표시됩니다. 편집된 항목은 페이지의 왼쪽 위 모서리에 표시됩니다.
 
 1. **할당** 섹션으로 이동한 다음 **피할당자**&#x200B;를 선택합니다.
 
-   ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![할당 영역](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. 다음 중 하나를 수행하십시오.
 

@@ -6,9 +6,9 @@ description: 프로젝트, 작업 또는 반복과 관련된 문제를 볼 수 �
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 프로젝트에 프로젝트 보고서의 문제가 있는지 여부를 표시하는 아이콘을 추가하려면 다음 작업을 수행하십시오.
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+1. Adobe Workfront 오른쪽 위 모서리에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
 1. **보고** > **새 보고서** > **프로젝트 보고서**&#x200B;를 클릭합니다.
 1. **이 열에 표시** 필드에 **상태 아이콘**&#x200B;을 입력한 다음 목록에 표시될 때 선택합니다.
 

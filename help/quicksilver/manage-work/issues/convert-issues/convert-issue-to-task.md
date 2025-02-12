@@ -6,9 +6,9 @@ description: 문제가 제출된 후 문제를 완료하기 위해 추가 작업
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제에 대한 권한 보기</p> <p>프로젝트에 대한 Contribute 권한</p> <p>문제가 전환된 후 작업에 대한 관리 권한을 받습니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>문제에 대한 권한 보기</p> <p>프로젝트에 대한 기여 권한</p> <p>문제가 전환된 후 작업에 대한 관리 권한을 받습니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ ht-degree: 0%
 1. 문제의 랜딩 페이지로 이동하려면 전환하려는 문제를 클릭하십시오.
 1. 문제에 대한 [!UICONTROL **자세히**] 메뉴를 클릭한 다음 [!UICONTROL **작업으로 전환**]&#x200B;하세요.
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![추가 문제 메뉴](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. [!UICONTROL 작업 이름] 섹션에서 작업 이름을 업데이트합니다. 기본적으로 작업 이름은 원래 문제의 이름과 같습니다.
 
-   ![](assets/convert-to-task-box-nwe.png)
+   ![작업 상자로 변환](assets/convert-to-task-box-nwe.png)
 
 1. [!UICONTROL **대상 프로젝트**]&#x200B;를 클릭한 다음 [!UICONTROL **대상 프로젝트**] 필드에 새 작업을 배치할 프로젝트의 이름을 입력하고 목록에 표시될 때 선택합니다. 문제의 프로젝트가 기본적으로 선택됩니다.
 

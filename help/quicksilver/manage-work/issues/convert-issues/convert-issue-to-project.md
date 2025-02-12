@@ -6,9 +6,9 @@ description: Adobe Workfront에서 문제를 프로젝트로 전환
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1975'
 ht-degree: 1%
 
 ---
@@ -69,12 +69,12 @@ ht-degree: 1%
 1. 프로젝트로 이동한 다음 왼쪽 패널에서 **[!UICONTROL 문제]**&#x200B;를 클릭합니다.
 1. 표시되는 문제 목록에서 다음 중 하나를 수행합니다.
 
-   * 문제를 빈 프로젝트로 전환하려면 문제 이름을 클릭하고 문제 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **[!UICONTROL 빈 프로젝트로 전환]**&#x200B;을 클릭합니다.
+   * 문제를 빈 프로젝트로 전환하려면 문제 이름을 클릭하고 문제 이름 오른쪽에 있는 **[!UICONTROL 기타]** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL 빈 프로젝트로 전환]**&#x200B;을 클릭합니다.
 
 
      또는
 
-     문제 목록에서 문제를 선택하고 목록 맨 위에 있는 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **[!UICONTROL 빈 프로젝트로 전환]**&#x200B;을 클릭합니다.
+     문제 목록에서 문제를 선택하고 목록 맨 위에 있는 **[!UICONTROL 자세히]** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL 빈 프로젝트로 전환]**&#x200B;을 클릭합니다.
 
      >[!IMPORTANT]
      >
@@ -122,7 +122,7 @@ ht-degree: 1%
    * 문제에 첨부된 사용자 정의 양식을 검토하십시오. 프로젝트 사용자 정의 양식인 경우 새 프로젝트로 전송됩니다.
    * 더 많은 사용자 정의 양식 추가
    * 모든 필수 필드에 유효한 정보가 있는지 확인하십시오.
-   * 원하는 위치에서 ![](assets/drag-object-icon.png)을(를) 끌어 사용자 정의 양식을 다시 정렬합니다.
+   * 사용자 정의 양식을 원하는 위치로 ![드래그 아이콘](assets/drag-object-icon.png)하여 다시 정렬합니다.
    * 프로젝트로 전송하지 않을 양식 오른쪽의 **x** 아이콘을 클릭합니다. 이렇게 하면 프로젝트에서 양식이 제거됩니다.
    * 필요한 경우 문제의 사용자 정의 양식 정보를 프로젝트로 전송합니다.
 
@@ -153,7 +153,7 @@ ht-degree: 1%
 템플릿을 사용하여 문제를 프로젝트로 전환할 수 있습니다.
 
 1. 프로젝트로 이동한 다음 왼쪽 패널에서 **[!UICONTROL 문제]**&#x200B;를 클릭합니다.
-1. 표시되는 문제 목록에서 문제 이름을 클릭하고 문제 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **템플릿에서 프로젝트로 전환**&#x200B;을(를) 클릭하고 **템플릿 검색** 상자에 템플릿 이름을 입력한 다음 목록에 표시될 때 템플릿 이름을 클릭합니다. 3단계를 계속 진행합니다.
+1. 표시되는 문제 목록에서 문제 이름을 클릭하고 문제 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **템플릿에서 프로젝트로 전환**&#x200B;을 클릭하고 **템플릿 검색** 상자에 템플릿 이름을 입력한 다음 목록에 표시될 때 템플릿 이름을 클릭합니다. 3단계를 계속 진행합니다.
 
    >[!TIP]
    >
@@ -161,7 +161,7 @@ ht-degree: 1%
 
    템플릿의 새 프로젝트 상자가 표시됩니다.
 
-   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+   ![템플릿의 새 프로젝트](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
    >[!TIP]
    >
@@ -180,7 +180,7 @@ ht-degree: 1%
    * 템플릿의 모든 작업 수
    * 템플릿 사용자 정의 양식의 이름
 
-1. (선택 사항) 템플릿 이름 위로 마우스를 가져간 후 **즐겨찾기** 아이콘 ![](assets/favorites-icon-small.png)을(를) 클릭하여 나중에 사용할 수 있도록 즐겨찾기로 표시합니다.
+1. (선택 사항) 템플릿 이름 위로 마우스를 가져간 후 **즐겨찾기** 아이콘 ![즐겨찾기](assets/favorites-icon-small.png)를 클릭하여 나중에 사용할 수 있도록 즐겨찾기로 표시합니다.
 
    >[!TIP]
    >
@@ -190,7 +190,7 @@ ht-degree: 1%
 
    [!UICONTROL 프로젝트로 전환] 상자가 열립니다.
 
-   ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![프로젝트로 전환](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
 1. 템플릿에 필드가 이미 채워져 있으면 [!UICONTROL 프로젝트로 전환] 상자에서 필드가 미리 채워집니다. 프로젝트와 더 잘 일치하도록 미리 채워진 값을 편집할 수 있습니다. 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
@@ -230,7 +230,7 @@ ht-degree: 1%
       * 템플릿에 첨부된 사용자 정의 양식을 검토하십시오. 그들은 새 프로젝트로 이전할 것이다.
       * 문제에 첨부된 사용자 정의 양식을 검토하십시오. 프로젝트 양식인 경우 프로젝트로 전송됩니다.
       * 모든 필수 필드에 유효한 정보가 있는지 확인하십시오.
-      * 원하는 위치에서 ![](assets/drag-object-icon.png)을(를) 끌어 사용자 정의 양식을 다시 정렬합니다.
+      * 사용자 정의 양식을 원하는 위치로 ![드래그 아이콘](assets/drag-object-icon.png)하여 다시 정렬합니다.
       * 프로젝트로 전송하지 않을 양식 오른쪽의 **x** 아이콘을 클릭합니다.
       * 필요한 경우 문제의 사용자 정의 양식 정보를 프로젝트로 전송합니다.
 

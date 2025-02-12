@@ -6,9 +6,9 @@ description: 작업 목록 간트 차트는 프로젝트 또는 템플릿에 있
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 1. 수정할 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **[!UICONTROL 작업]**&#x200B;을 클릭합니다.
 
-   ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![작업 영역](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. **[!UICONTROL 간트 차트]** 아이콘을 클릭합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. (선택 사항) **[!UICONTROL 계획 모드]** 아이콘을 클릭하고 **[!UICONTROL 표준 수동 저장]** 또는 **[!UICONTROL 타임라인 계획 수립]**&#x200B;을 선택하여 변경 사항을 수동으로 저장합니다.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![수동 설정 사용](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 작업의 타임라인을 마우스로 가리킨 다음 타임라인 표시기를 다른 날짜로 끕니다.
 1. 작업의 올바른 새 완료 날짜에 도달하면 표시기를 놓습니다.
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 1. (선택 사항) **[!UICONTROL 계획 모드]** 아이콘을 클릭하고 **[!UICONTROL 표준 수동 저장]** 또는 **[!UICONTROL 타임라인 계획 수립]**&#x200B;을 선택하여 변경 사항을 수동으로 저장합니다.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![수동 설정 사용](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 전임 작업 관계를 만들려면 작업의 시작점을 클릭하고 작업의 끝점으로 끕니다.
 1. 전임 작업 관계를 삭제하려면 두 작업을 연결하는 전임 작업 줄을 클릭하여 선택한 다음 키보드에서 **[!UICONTROL 삭제]**&#x200B;를 누르십시오.\
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 1. (선택 사항) **[!UICONTROL 계획 모드]** 아이콘을 클릭하고 **[!UICONTROL 표준 수동 저장]** 또는 **[!UICONTROL 타임라인 계획 수립]**&#x200B;을 선택하여 변경 사항을 수동으로 저장합니다.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![수동 설정 사용](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 작업의 가운데로 마우스를 가져간 후 여러 방향 화살표를 찾습니다.
 1. 을(를) 클릭하고 작업을 원하는 날짜로 드래그합니다.

@@ -6,9 +6,9 @@ description: 문제를 전환하지 않고도 문제 해결을 프로젝트, 작
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 1. 해결 방법을 다른 문제의 해결 방법이나 작업 또는 프로젝트의 해결 방법과 연결할 문제로 이동합니다.
 1. 왼쪽 패널에서 **문제 세부 정보**&#x200B;를 클릭한 다음 **개요** 영역을 확장합니다.
 
-   ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![문제 세부 정보 아이콘](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. **해결한 사람** 필드를 클릭하고 다음 유형의 해결 개체 중에서 선택합니다.
 

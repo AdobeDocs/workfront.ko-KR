@@ -6,9 +6,9 @@ description: 문제 또는 요청을 복사하여 동일하거나 다른 프로�
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1064'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제에 대한 권한 관리</p> <p>문제를 추가할 수 있는 권한으로 문제를 복사할 항목에 대한 Contribute 권한을 부여합니다.</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 권한 요청을 참조하십시오.</p> </td> 
+   <td> <p>문제에 대한 권한 관리</p> <p>문제를 추가할 수 있는 권한으로 문제를 복사할 항목에 권한을 부여합니다.</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 권한 요청을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ ht-degree: 1%
 1. 프로젝트로 이동하기로 선택한 경우 왼쪽 패널에서 **문제**&#x200B;를 클릭합니다.
 1. 복사할 문제를 선택하고 문제 목록의 맨 위에서 **추가 메뉴**&#x200B;를 클릭한 다음 **복사 위치**&#x200B;를 클릭합니다.
 
-   ![](assets/copy-issue-in-list-nwe-350x169.png)
+   ![목록의 문제 복사](assets/copy-issue-in-list-nwe-350x169.png)
 
 1. 2단계부터 [단일 문제 복사](#copy-a-single-issue) 섹션에 설명된 대로 문제 복사를 계속하십시오.
 
@@ -109,13 +109,13 @@ ht-degree: 1%
 
 볼 때 하나의 문제를 복사할 수 있습니다.
 
-1. 복사할 문제로 이동한 다음 문제 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을 클릭한 다음 **복사**&#x200B;를 클릭합니다.
+1. 복사할 문제로 이동한 다음 문제 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **복사**&#x200B;를 클릭합니다.
 
-   ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+   ![문제 수준에서 복사](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
    **문제 복사** 상자가 표시됩니다.
 
-   ![](assets/copy-issue-box-nwe-350x285.png)
+   ![문제 상자 복사](assets/copy-issue-box-nwe-350x285.png)
 
 1. **대상 프로젝트 선택** 섹션에서 문제를 복사할 프로젝트의 이름을 지정합니다. 현재 프로젝트의 이름이 기본적으로 표시됩니다.
 
@@ -126,7 +126,7 @@ ht-degree: 1%
 1. (조건부) 프로젝트에 문제를 복사할 수 있는 액세스 권한이 없는 경우 **액세스 권한 요청**&#x200B;을 클릭합니다.
 1. (조건부) 대상 프로젝트의 작업 중 하나에 문제를 추가할 수 있는 액세스 권한이 있는 경우 액세스 요청 없이 선택한 대상 프로젝트에 문제를 계속 복사합니다.
 
-   ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+   ![문제 복사 및 액세스 요청](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >

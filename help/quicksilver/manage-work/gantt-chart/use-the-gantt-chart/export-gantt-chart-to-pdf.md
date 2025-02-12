@@ -1,13 +1,13 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: 간트 차트를 PDF으로 내보내기
-description: 간트 차트를 PDF으로 내보낼 수 있습니다. 간트 차트를 PDF으로 내보낸 후 이메일에 인쇄하거나 첨부하여 다른 사용자와 공유할 수 있습니다.
+description: 간트 차트를 PDF으로 내보낼 수 있습니다. 간트 차트를 PDF으로 내보낸 후 이를 인쇄하거나 이메일에 첨부하여 다른 사용자와 공유할 수 있습니다.
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 1%
 
    * 계획된 일자가 아닌 예상 일자를 보려면 **예상 일자로 전환** 옵션을 선택하십시오. 기본적으로 계획된 일자가 표시됩니다.
 
-   * 간트 차트의 오른쪽 상단에 있는 **설정** 아이콘 ![](assets/settings-icon.png)을(를) 클릭하고 간트 차트에서 보려는 정보를 선택합니다. 선택하면 이 정보가 내보낸 Gantt PDF 파일에 포함됩니다.
+   * 간트 차트의 오른쪽 위 모서리에 있는 **설정** 아이콘 ![설정 아이콘](assets/settings-icon.png)을 클릭하고 간트 차트에서 보려는 정보를 선택합니다. 선택하면 이 정보가 내보낸 Gantt PDF 파일에 포함됩니다.
 
      다음 옵션 중에서 선택합니다.
 
@@ -103,13 +103,13 @@ ht-degree: 1%
 
      내보내기 파일에 기간이 표시되는 방식은 이후 단계에서 **[!UICONTROL 표시되는 항목]** 또는 **[!UICONTROL 여러 페이지]**&#x200B;를 선택했는지 여부에 따라 다릅니다.
 
-1. (선택 사항) 내보낸 PDF에 특정 작업만 포함하려면 포함할 작업을 선택합니다.
+1. (선택 사항) 내보낸 PDF의 특정 작업만 포함하려면 포함할 작업을 선택합니다.
 
    작업을 선택하지 않으면 내보낸 PDF에 모든 작업이 포함됩니다.
 
    예를 들어 50개의 작업이 포함된 프로젝트에 대한 [!UICONTROL 간트 차트]를 보고 있지만 내보낸 [!UICONTROL 간트 차트]에 10개의 작업만 표시하려면 표시할 10개의 작업을 선택합니다.
 
-1. 간트 차트의 오른쪽 위 모서리에 있는 프린터 아이콘 ![](assets/printer-icon.png)을(를) 클릭합니다.
+1. 간트 차트의 오른쪽 위 모서리에 있는 프린터 아이콘 ![프린터 아이콘](assets/printer-icon.png)을 클릭합니다.
 **[!UICONTROL PDF으로 내보내기]** 대화 상자가 표시됩니다.
 
    ![exported_gantt_UI.png](assets/exported-gantt-ui-350x225.png)
@@ -140,7 +140,7 @@ ht-degree: 1%
      >   * 항목이 500개를 초과하는 경우
 
 
-1. PDF을 페이지로 내보낸 후 인쇄할 경우 **[!UICONTROL PDF 크기]** 드롭다운 메뉴에서 인쇄할 용지 크기를 선택합니다.
+1. PDF을 PDF으로 내보낸 후 인쇄할 경우 **[!UICONTROL 페이지 크기]** 드롭다운 메뉴에서 인쇄할 용지 크기를 선택합니다.
 다음 옵션 중에서 선택할 수 있습니다.
 
    * **[!UICONTROL 편지]**
@@ -150,7 +150,7 @@ ht-degree: 1%
    * **[!UICONTROL A2]**
    * **[!UICONTROL A3]**(일부 언어에서만 사용 가능)
    * **[!UICONTROL A4]**
-1. **[!UICONTROL PDF 방향]** 섹션에서 페이지를 가로 또는 세로 방향으로 내보낼지 선택합니다.
+1. **[!UICONTROL 페이지 방향]** 섹션에서 PDF을 가로 방향으로 내보내거나 세로 방향으로 내보내기를 선택합니다.
 1. 내보낸 PDF에 범례를 포함하려면 **[!UICONTROL 범례 표시]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 내보내기]**&#x200B;를 클릭합니다.
 

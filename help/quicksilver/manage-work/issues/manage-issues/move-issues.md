@@ -6,9 +6,9 @@ description: 프로젝트와 작업 간에 문제를 이동할 수 있습니다.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '887'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제에 대한 권한 관리</p> <p>문제를 추가할 수 있는 기능과 함께 문제를 이동하는 항목에 대한 Contribute 권한입니다.</td> 
+   <td> <p>문제에 대한 권한 관리</p> <p>문제를 추가할 수 있는 권한과 함께 문제를 이동할 항목에 권한을 부여합니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ ht-degree: 1%
 1. 프로젝트로 이동하기로 선택한 경우 왼쪽 패널에서 **문제**&#x200B;를 클릭합니다.
 1. 이동할 문제를 선택하고 문제 목록의 맨 위에서 **추가 메뉴**&#x200B;를 클릭한 다음 **이동**&#x200B;을 클릭합니다.
 
-   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![링크로 복사 및 이동](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. 2단계부터 [단일 문제 이동](#move-a-single-issue) 섹션에 설명된 대로 문제를 계속 이동합니다.
 
@@ -101,13 +101,13 @@ ht-degree: 1%
 
 ### 단일 문제 이동
 
-1. 이동할 문제로 이동하여 문제 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **이동**&#x200B;을(를) 클릭합니다.
+1. 이동할 문제로 이동하여 문제 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭한 다음 **이동**&#x200B;을 클릭합니다.
 
-   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![문제 수준에서 이동](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    **문제 이동** 상자가 표시됩니다.
 
-   ![](assets/move-issue-box-nwe-350x280.png)
+   ![문제 상자 이동](assets/move-issue-box-nwe-350x280.png)
 
 1. **대상 프로젝트 선택** 섹션에서 문제를 이동할 프로젝트의 이름을 지정합니다. 현재 프로젝트의 이름이 기본적으로 표시됩니다.
 
@@ -118,7 +118,7 @@ ht-degree: 1%
 1. (조건부) 프로젝트로 문제를 이동할 수 있는 액세스 권한이 없는 경우 **액세스 요청**&#x200B;을 클릭합니다.
 1. (조건부) 대상 프로젝트의 작업 중 하나에 문제를 추가할 수 있는 액세스 권한이 있는 경우 액세스 요청 없이 선택한 대상 프로젝트에서 문제를 계속 이동합니다.
 
-   ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![문제 이동 및 액세스 요청](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >

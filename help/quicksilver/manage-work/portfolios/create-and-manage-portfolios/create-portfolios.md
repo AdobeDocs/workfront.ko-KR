@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: 포트폴리오 만들기
-description: Portfolio은 동일한 리소스, 예산 및 일정을 위해 경쟁하는 프로젝트의 컬렉션입니다. Portfolio의 프로젝트는 동일한 리소스 풀을 사용하고 동일한 스코어카드에 대해 측정될 만큼 유사합니다.
+description: Portfolio은 동일한 리소스, 예산 및 일정에 대해 경쟁하는 프로젝트의 컬렉션입니다. Portfolio의 프로젝트는 동일한 리소스 풀을 사용하고 동일한 스코어카드에 대해 측정될 만큼 유사합니다.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 7/2024-->
 
-Portfolio은 동일한 리소스, 예산 및 일정을 위해 경쟁하는 프로젝트의 컬렉션입니다. Portfolio의 프로젝트는 동일한 리소스 풀을 사용하고 동일한 스코어카드에 대해 측정될 만큼 유사합니다.
+Portfolio은 동일한 리소스, 예산 및 일정에 대해 경쟁하는 프로젝트의 컬렉션입니다. Portfolio의 프로젝트는 동일한 리소스 풀을 사용하고 동일한 스코어카드에 대해 측정될 만큼 유사합니다.
 
-Portfolio을 사용하여 동일한 제품 라인, 부서, 부서, 회사 또는 기타 비즈니스 단위에 속하는 프로젝트를 그룹화할 수 있습니다.
+포트폴리오를 사용하여 동일한 제품 라인, 부서, 부서, 회사 또는 기타 비즈니스 단위에 속하는 프로젝트를 그룹화할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -40,7 +40,7 @@ Portfolio을 사용하여 동일한 제품 라인, 부서, 부서, 회사 또는
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Portfolio에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
+   <td> <p>포트폴리오에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -57,7 +57,7 @@ Portfolio을 사용하여 동일한 제품 라인, 부서, 부서, 회사 또는
 
 다음 방법 중 하나를 사용하여 Workfront에서 포트폴리오를 만들 수 있습니다.
 
-* 메인 메뉴의 Portfolio 영역에서 시작하여 처음부터 포트폴리오를 만듭니다. 이 문서에서는 처음부터 포트폴리오를 만드는 방법에 대해 설명합니다.
+* 메인 메뉴의 포트폴리오 영역에서 시작하여 처음부터 포트폴리오를 만듭니다. 이 문서에서는 처음부터 포트폴리오를 만드는 방법에 대해 설명합니다.
 
 * 킥스타트를 사용하여 포트폴리오를 가져옵니다.
 
@@ -78,15 +78,15 @@ Portfolio을 사용하여 동일한 제품 라인, 부서, 부서, 회사 또는
 
 {{step1-click-main-menu}}
 
-1. **[!UICONTROL Portfolio]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 새 Portfolio]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 포트폴리오]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 새 Portfolio]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 제목 없는 Portfolio]**&#x200B;을(를) 포트폴리오에 사용할 이름으로 바꾸십시오.
 
    이름에는 최대 255자를 사용할 수 있습니다.
 
-1. (선택 사항) 페이지 상단의 머리글에서 **[!UICONTROL Portfolio 관리자]** 아래 이름을 클릭하여 포트폴리오에 다른 관리자를 할당합니다.
+1. (선택 사항) 페이지 상단의 헤더에 있는 **[!UICONTROL Portfolio 관리자]** 아래의 이름을 클릭하여 포트폴리오에 다른 관리자를 할당합니다.
 
-   ![](assets/portfolio-manager-name-350x51.jpg)
+   ![Portfolio 관리자 이름](assets/portfolio-manager-name-350x51.jpg)
 
    포트폴리오의 작성자는 기본적으로 포트폴리오 관리자로 할당됩니다.
 
@@ -99,11 +99,11 @@ Portfolio을 사용하여 동일한 제품 라인, 부서, 부서, 회사 또는
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL 설명]</td> 
-      <td> <p>Portfolio에 대한 설명을 입력하여 고유한 내용을 나타냅니다. </p> </td> 
+      <td> <p>Portfolio에 대한 고유한 사항을 나타내도록 설명에 정보를 입력합니다. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Portfolio 관리자]</td> 
-      <td> <p>포트폴리오 관리자로 지정할 사용자의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 이는 [!UICONTROL Portfolio 소유자]와 동일합니다. 포트폴리오의 프로젝트에 정의된 작업을 감독하고 비즈니스 사례를 승인할 수 있는 사람입니다.</p> <p>중요: 사용자를 [!UICONTROL Portfolio 관리자]로 지정하면 포트폴리오, 프로그램 및 포트폴리오의 프로젝트에 대한 [!UICONTROL 관리] 권한이 자동으로 부여됩니다. </p> <p>팁: 페이지 상단의 헤더에서 [!UICONTROL Portfolio 관리자]를 업데이트할 수도 있습니다.</p> </td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
+      <td> <p>포트폴리오 관리자로 지정할 사용자의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 이는 [!UICONTROL Portfolio Owner]와 동일합니다. 포트폴리오의 프로젝트에 정의된 작업을 감독하고 비즈니스 사례를 승인할 수 있는 사람입니다.</p> <p>중요: 사용자를 [!UICONTROL Portfolio 관리자]로 지정하면 포트폴리오, 프로그램 및 포트폴리오의 프로젝트에 대한 [!UICONTROL 관리] 권한이 자동으로 부여됩니다. </p> <p>팁: 페이지 상단의 헤더에서 [!UICONTROL Portfolio Manager]를 업데이트할 수도 있습니다.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">그룹 </td> 
@@ -112,7 +112,7 @@ Portfolio을 사용하여 동일한 제품 라인, 부서, 부서, 회사 또는
     </tbody> 
    </table>
 
-1. (선택 사항) [!UICONTROL Portfolio 세부 정보] 페이지의 오른쪽 위 모서리에 있는 **[!UICONTROL 사용자 정의 양식 추가]** 상자 내부를 클릭하여 포트폴리오의 사용자 정의 양식을 선택하고 사용자 정의 필드를 업데이트합니다.
+1. (선택 사항) [!UICONTROL Portfolio 세부 정보] 페이지의 오른쪽 위 모서리에 있는 **[!UICONTROL 사용자 정의 양식 추가]** 상자 내부를 클릭하여 포트폴리오에 대한 사용자 정의 양식을 선택하고 사용자 정의 필드를 업데이트합니다.
 
    >[!TIP]
    >

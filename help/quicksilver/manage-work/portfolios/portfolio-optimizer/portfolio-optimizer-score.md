@@ -2,14 +2,14 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Portfolio 최적화 프로그램 점수 개요
-description: Portfolio 최적화 도구에서 Portfolio 최적화 도구 점수를 찾을 수 있습니다. 모든 프로젝트에 대해 [!UICONTROL 점수] 열에 표시됩니다. 포트폴리오의 모든 프로젝트에 대한 점수를 나타냅니다.
+title: Portfolio Optimizer 점수 개요
+description: Portfolio Optimizer에서 Portfolio Optimizer 점수를 찾을 수 있습니다. 모든 프로젝트에 대해 [!UICONTROL 점수] 열에 표시됩니다. 포트폴리오의 모든 프로젝트에 대한 점수를 나타냅니다.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-[!UICONTROL Portfolio 최적화 도구]에서 [!UICONTROL Portfolio 최적화 도구] 점수를 찾을 수 있습니다. 모든 프로젝트에 대해 **[!UICONTROL 점수]** 열에 표시됩니다. 포트폴리오의 모든 프로젝트에 대한 점수를 나타냅니다.
+[!UICONTROL Portfolio Optimizer]에서 [!UICONTROL Portfolio Optimizer] 점수를 찾을 수 있습니다. 모든 프로젝트에 대해 **[!UICONTROL 점수]** 열에 표시됩니다. 포트폴리오의 모든 프로젝트에 대한 점수를 나타냅니다.
 
-[!UICONTROL Portfolio 최적화 도구]를 찾는 방법에 대한 자세한 내용은 문서 [[!UICONTROL Portfolio 최적화 도구] 개요](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
+[!UICONTROL Portfolio Optimizer]을(를) 찾는 방법에 대한 자세한 내용은 문서 [[!UICONTROL Portfolio Optimizer] 개요](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
 
-[!DNL Adobe Workfront]이(가) 프로젝트 점수 및 기타 프로젝트 정보를 사용하여 [!UICONTROL Portfolio 최적화 도구]에서 프로젝트를 최적화하는 방법에 대한 자세한 내용은 [Portfolio 최적화 도구에서 프로젝트 최적화](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)를 참조하십시오.
+[!DNL Adobe Workfront]이(가) 프로젝트 점수 및 기타 프로젝트 정보를 사용하여 [!UICONTROL Portfolio Optimizer]에서 프로젝트를 최적화하는 방법에 대한 자세한 내용은 [Portfolio Optimizer에서 프로젝트 최적화](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)를 참조하십시오.
 
 ## [!UICONTROL 정렬 점수]와(과) [!UICONTROL Portfolio 최적화 프로그램 점수] 간의 차이
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 프로젝트의 정렬 점수는 스코어카드를 완료한 후 얻은 점을 기반으로 계산됩니다. 그런 다음 이 점수를 사용하여 포트폴리오 정렬 점수를 결정합니다. 정렬 점수는 백분율로 표시됩니다.
 
-프로젝트의 정렬 점수가 [!UICONTROL Portfolio 최적화 도구]의 **[!UICONTROL 정렬]** 열 또는 [!UICONTROL 비즈니스 사례 요약]의 [!UICONTROL 정렬] 필드에 표시됩니다.
+프로젝트의 정렬 점수가 [!UICONTROL Portfolio Optimizer]의 **[!UICONTROL 정렬]** 열 또는 [!UICONTROL 비즈니스 사례 요약]의 [!UICONTROL 정렬] 필드에 표시됩니다.
 
-![](assets/business-case-summary-aligned-field-highlighted.png)
+![비즈니스 사례 요약](assets/business-case-summary-aligned-field-highlighted.png)
 
-![](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![프로젝트 정렬 점수](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 프로젝트의 정렬 점수 생성에 대한 자세한 내용은 [프로젝트에 스코어카드 적용 및 정렬 점수 생성](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) 문서를 참조하십시오.
 
@@ -42,9 +42,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->비즈니스 사례가 완료된 경우에만 [!UICONTROL Portfolio 최적화 도구]에서 프로젝트를 채점할 수 있습니다. 비즈니스 사례를 완료하는 방법에 대한 자세한 내용은 [[!UICONTROL 프로젝트 비즈니스 사례 만들기]](../../../manage-work/projects/define-a-business-case/create-business-case.md) 문서를 참조하십시오.
+>비즈니스 사례가 완료된 경우에만 [!UICONTROL Portfolio Optimizer]에서 프로젝트에 점수를 매길 수 있습니다. 비즈니스 사례를 완료하는 방법에 대한 자세한 내용은 [[!UICONTROL 프로젝트 비즈니스 사례 만들기]](../../../manage-work/projects/define-a-business-case/create-business-case.md) 문서를 참조하십시오.
 
-![](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![프로젝트 점수](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 각 프로젝트에 대한 점수는 다음 카테고리의 중요도를 기반으로 계산됩니다.
 
@@ -87,9 +87,9 @@ ht-degree: 0%
 * [!UICONTROL 혜택 위험]
 * [!UICONTROL ROI]
 
-![](assets/optimizer-sliding-value-options-350x77.png)
+![슬라이딩 값 옵션](assets/optimizer-sliding-value-options-350x77.png)
 
-포트폴리오에서 프로젝트를 최적화하는 방법에 대한 자세한 내용은 [Portfolio 최적화 도구에서 프로젝트 최적화]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)를 참조하십시오.[!UICONTROL 
+포트폴리오에서 프로젝트를 최적화하는 방법에 대한 자세한 내용은 [[!UICONTROL Portfolio Optimizer에서 프로젝트 최적화]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)를 참조하십시오.
 
 구성 패널의 각 기준([!UICONTROL 비용], [!UICONTROL 정렬], [!UICONTROL ROI], [!UICONTROL 순 가치], [!UICONTROL 이익 대비 위험])에는 선택한 항목에 따라 0~100 범위의 가중치가 부여됩니다.
 

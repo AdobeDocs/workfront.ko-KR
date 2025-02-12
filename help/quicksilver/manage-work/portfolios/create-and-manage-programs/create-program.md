@@ -6,9 +6,9 @@ description: 프로그램은 프로젝트 경계를 초월하는 공통 전략, 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 포트폴리오가 너무 커지면 프로그램을 만들어 구성할 수 있습니다.
 
-예를 들어 마케팅 부서의 모든 프로젝트를 포함하는 2024년 마케팅 회계 연도 Portfolio이 있을 수 있습니다. 프로젝트를 회계 분기로 추가로 구성하고 마케팅 회계 연도 2024 Portfolio 내에 마케팅 회계 분기 1-4 2024 프로그램을 추가할 수 있습니다.
+예를 들어 마케팅 부서의 모든 프로젝트를 포함하는 마케팅 회계 연도 2024 Portfolio이 있을 수 있습니다. 프로젝트를 회계 분기로 추가로 구성하고 마케팅 회계 연도 2024 Portfolio 내에 마케팅 회계 분기 1-4 2024 프로그램을 추가할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -45,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Portfolio 및 프로그램에 대한 [!UICONTROL 편집] 액세스 </p>  </td> 
+   <td> <p>포트폴리오 및 프로그램에 대한 [!UICONTROL 편집] 액세스 </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -83,9 +83,9 @@ ht-degree: 0%
       1. 표시되는 상자에서 **[!UICONTROL Portfolio 선택]** 필드에 기존 Portfolio의 이름을 입력합니다.
       1. **[!UICONTROL 이름]** 필드에 새 프로그램의 이름을 입력하십시오.
       1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-   * [!UICONTROL Portfolio] 영역에서 프로그램을 만듭니다.
+   * [!UICONTROL 포트폴리오] 영역에서 프로그램을 만듭니다.
 
-      1. [!UICONTROL 기본 메뉴]에서 **[!UICONTROL Portfolio]**&#x200B;을 클릭한 다음 포트폴리오를 엽니다.
+      1. [!UICONTROL 기본 메뉴]에서 **[!UICONTROL 포트폴리오]**&#x200B;를 클릭한 다음 포트폴리오를 엽니다.
       1. 왼쪽 패널에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
       1. **[!UICONTROL 새 프로그램]** 드롭다운 메뉴를 클릭한 다음 **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
 
@@ -146,7 +146,7 @@ ht-degree: 0%
    프로그램에 프로젝트를 추가하는 방법에 대한 자세한 내용은 [프로그램에 프로젝트 추가](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)를 참조하십시오.
 
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
-1. (선택 사항) 프로그램 이름 옆에 있는 **[!UICONTROL 추가 메뉴]** ![](assets/more-icon.png)를 클릭하고 **[!UICONTROL 프로그램 비활성화]**&#x200B;를 클릭합니다.
+1. (선택 사항) 프로그램 이름 옆에 있는 **[!UICONTROL 추가 메뉴]** ![추가 메뉴](assets/more-icon.png)를 클릭하고 **[!UICONTROL 프로그램 비활성화]**&#x200B;를 클릭합니다.
 
    프로그램을 비활성화하면 사용자가 프로그램을 프로젝트에 추가하려고 할 때 프로그램이 더 이상 프로그램 목록에 표시되지 않습니다. [!UICONTROL 프로그램] 영역에서 프로그램에 계속 액세스할 수 있습니다.
 

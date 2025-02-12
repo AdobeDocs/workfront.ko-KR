@@ -1,14 +1,14 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Portfolio 최적화 도구 찾기
+title: Portfolio Optimizer 찾기
 description: 포트폴리오에 액세스하면 [!UICONTROL Portfolio 최적화 도구]를 찾을 수 있습니다.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>Portfolio 및 프로젝트에 대한 [!UICONTROL 편집] 액세스 권한</p>  </td>
+   <td> <p>포트폴리오 및 프로젝트에 대한 [!UICONTROL 편집] 액세스</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolio 최적화 도구] 찾기
 
-1. **[!UICONTROL 기본 메뉴]**&#x200B;에서 **[!UICONTROL Portfolio]**&#x200B;을 클릭하세요.
+1. **[!UICONTROL 기본 메뉴]**&#x200B;에서 **[!UICONTROL 포트폴리오]**&#x200B;를 클릭합니다.
 
    소유한 포트폴리오는 기본적으로 표시됩니다.
 
@@ -63,4 +63,4 @@ ht-degree: 0%
 
    [!UICONTROL Portfolio 최적화 도구]가 표시됩니다.
 
-   ![](assets/nwe-portfolio-optimizer-350x83.png)
+   ![Portfolio 최적화 도구](assets/nwe-portfolio-optimizer-350x83.png)
