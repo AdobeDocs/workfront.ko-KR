@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 0%
 1. (선택 사항) 회신에 이전 업데이트의 텍스트를 포함하려면 회신할 댓글의 오른쪽 상단에 있는 **자세히** 메뉴를 클릭한 다음 **회신 견적**&#x200B;을 클릭합니다. 이전 업데이트의 텍스트가 입력 영역에 세로로 회색 선으로 표시됩니다.
 1. **회신**&#x200B;을 클릭합니다.
 
-   ![](assets/reply-to-update-empty-box.png)
+   ![빈 상자를 업데이트하는 회신](assets/reply-to-update-empty-box.png)
 
    **회신 추가...** 상자 아래쪽에 대화에 적극적으로 참여한 사용자가 표시되어 더 이상 관련이 없는 사용자를 추가하거나 제거할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트 또는 회신이 이루어질 때마다 알림을 받습니다. 더 많은 사용자에 태그를 지정하여 회신에 추가할 수도 있습니다.  더 많은 사용자를 태그 지정하려면 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 1. 회신을 저장하려면 **제출**&#x200B;을 클릭하세요.
 
-1. (선택 사항) 회신을 관리할 추가 옵션을 보려면 회신할 댓글의 오른쪽 상단에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭합니다. 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
+1. (선택 사항) 회신을 관리할 추가 옵션을 보려면 회신할 댓글의 오른쪽 상단에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭합니다. 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

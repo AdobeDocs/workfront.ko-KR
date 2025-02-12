@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
 workflow-type: tm+mt
-source-wordcount: '7528'
+source-wordcount: '7694'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -98,7 +100,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
 1. (선택 사항) 오른쪽 상단의 **내가 진행 중인 프로젝트** 또는 **내가 소유한 프로젝트**&#x200B;를 클릭하여 자신이 소유자인 프로젝트 또는 자신이 프로젝트 팀에 속한 프로젝트를 표시합니다.
 
-   ![](assets/projects-on-my-own-buttons-350x302.png)
+   ![내 단추의 프로젝트](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
@@ -108,7 +110,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
 1. (선택 사항) 프로젝트에 대한 제한된 정보를 편집하려면 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭하십시오. 프로젝트에 대한 모든 정보를 편집하려면 5단계를 진행하십시오. <!--accurate?!-->
 
-   ![](assets/nwe-project-details-expanded-350x298.png)
+   ![프로젝트 세부 정보 확장](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
@@ -116,15 +118,15 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
    세부 정보 섹션에서 정보를 편집하려면 다음 작업을 수행하십시오.
 
-   1. (선택 사항) 모든 영역을 축소하려면 오른쪽 상단의 **모두 축소** 아이콘 ![](assets/collapse-icon.png)을(를) 클릭합니다.
-   1. (선택 사항 및 조건부) 영역이 축소되면 각 영역 옆에 있는 **오른쪽 방향 화살표** ![](assets/right-pointing-arrow.png)를 클릭하여 편집할 영역을 확장합니다.
+   1. (선택 사항) 모든 영역을 축소하려면 오른쪽 상단의 **모두 축소** 아이콘 ![모두 축소](assets/collapse-icon.png)을 클릭합니다.
+   1. (선택 사항 및 조건부) 영역이 축소되면 각 영역 옆에 있는 **오른쪽 방향 화살표** ![오른쪽 방향 화살표](assets/right-pointing-arrow.png)를 클릭하여 편집할 영역을 확장합니다.
    1. 프로젝트 세부 정보 탭에서 정보를 편집하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
       * [프로젝트 개요 영역의 정보를 관리합니다](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [프로젝트 재무 영역에서 정보 관리](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (선택 사항) 사용자 정의 양식을 첨부하려면 **사용자 정의 양식 추가** 필드에 양식 이름을 입력한 다음 목록에 표시될 때 선택하고 **변경 내용 저장**&#x200B;을 클릭합니다.
-   1. (선택 사항) **내보내기** 아이콘 ![](assets/export.png)을(를) 클릭하여 개요 및 사용자 정의 양식 정보를 PDF 파일로 내보낸 다음 **내보내기**&#x200B;를 클릭합니다. 다음 중에서 선택합니다.
+   1. (선택 사항) **내보내기** 아이콘 ![내보내기 아이콘](assets/export.png)을 클릭하여 개요 및 사용자 정의 양식 정보를 PDF 파일로 내보낸 다음 **내보내기**&#x200B;를 클릭합니다. 다음 중에서 선택합니다.
 
       * 모두 선택(사용자 정의 양식이 하나 이상 첨부된 경우에만 표시됨)
       * 개요
@@ -132,16 +134,16 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
       PDF 파일이 컴퓨터로 다운로드됩니다.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![내보내기 단추가 있는 내보내기 문제 세부 정보 선택 상자](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       자세한 내용은 [사용자 정의 양식 및 개체 세부 정보 내보내기](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)를 참조하십시오.
 
    프로젝트 세부 정보 섹션에 표시되는 필드에 대한 자세한 내용은 아래 설명된 대로 프로젝트 편집 상자에서 프로젝트를 계속 편집합니다.
-1. 프로젝트에 대한 모든 정보를 편집하려면 프로젝트 이름 옆에 있는 **자세히** 메뉴 ![](assets/qs-more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
+1. 프로젝트에 대한 모든 정보를 편집하려면 프로젝트 이름 옆에 있는 **기타** 메뉴 ![기타 메뉴](assets/qs-more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
    또는
 
-   프로젝트 목록에서 하나 이상의 프로젝트를 선택한 다음 목록 맨 위에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+   프로젝트 목록에서 하나 이상의 프로젝트를 선택한 다음 목록 맨 위에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
    일괄 프로젝트 편집에 대한 자세한 내용은 이 문서의 [일괄 프로젝트 편집](#edit-projects-in-bulk) 섹션을 참조하십시오.
 
@@ -167,6 +169,9 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
    * [작업 설정](#task-settings)
    * [문제 설정](#issue-settings)
    * [액세스](#access)
+   * [연결된 폴더](#linked-folders-conditional-availability)(조건부 가용성)
+     <!--* <span class="preview">[Comment](#comment)</span>-->
+
 
    >[!NOTE]
    >
@@ -177,7 +182,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 1. 위에 설명된 대로 프로젝트 편집을 시작합니다.
 1. 왼쪽 패널에서 **프로젝트 이름**&#x200B;을 클릭합니다.
 
-   ![](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![프로젝트 편집 상자의 프로젝트 이름 영역](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. 프로젝트의 이름을 업데이트합니다.
 
@@ -188,7 +193,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 1. 위에 설명된 대로 프로젝트 편집을 시작합니다.
 1. 왼쪽 패널에서 **개요**&#x200B;를 클릭합니다.
 
-   ![](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![프로젝트 편집 상자의 개요 영역](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. 프로젝트에 대한 다음 정보를 업데이트합니다.
 
@@ -241,7 +246,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
          <td> <p><strong>완료 날짜부터 예약</strong>을 선택하는 날짜를 지정하십시오. </p> <p><strong>시작 날짜부터 일정</strong>을 선택하는 경우 이 필드는 읽기 전용입니다.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Portfolio</strong></td> 
+         <td role="rowheader"><strong>포트폴리오</strong></td> 
          <td>프로젝트가 속한 Portfolio을 나타냅니다. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. 활성 포트폴리오만 프로젝트와 연결할 수 있습니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>를 참조하십시오.
          <p><b>메모</b></p>
          <p>프로젝트에 포트폴리오를 추가하거나 제거하려면 관리 권한이 있어야 합니다.</p>
@@ -249,7 +254,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
       </tr> 
       <tr> 
          <td role="rowheader"><strong>프로그램</strong></td> 
-         <td> <p>프로젝트에 대한 Portfolio을 선택한 경우 프로젝트에 대한 프로그램을 지정합니다. 일부 Portfolio은 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 프로젝트와 연결할 수 있습니다. </p> <p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>를 참조하십시오.</p> 
+         <td> <p>프로젝트에 대해 Portfolio을 선택한 경우 프로젝트에 대한 프로그램을 지정합니다. 일부 포트폴리오에는 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 프로젝트와 연결할 수 있습니다. </p> <p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>를 참조하십시오.</p> 
       <p><b>메모</b></p>
          <p>프로젝트에 추가하거나 제거하려면 프로그램에 대한 관리 권한이 있어야 합니다.</p>   
       </td> 
@@ -334,7 +339,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 1. 위에 설명된 대로 프로젝트 편집을 시작합니다.
 1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
 
-   ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![프로젝트 편집 상자의 사용자 정의 양식](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. **사용자 정의 양식 추가** 상자를 클릭하고 목록에서 프로젝트에 첨부할 양식을 선택합니다. 기본적으로 처음 40개 양식은 알파벳 순서로 표시됩니다. 목록에 양식이 표시되지 않으면 해당 이름을 입력한 다음 목록에 표시될 때 선택합니다.
 
@@ -369,7 +374,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 1. 위에 설명된 대로 프로젝트 편집을 시작합니다.
 1. 왼쪽 패널에서 **재무**&#x200B;을 클릭합니다.
 
-   ![](assets/nwe-finance-in-edit-project-box-350x183.png)
+   ![프로젝트 편집 상자의 재무 영역](assets/nwe-finance-in-edit-project-box-350x183.png)
 
 1. 프로젝트에 대한 다음 재무 정보를 갱신합니다.
 
@@ -399,7 +404,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
      </tr> 
      <tr> 
       <td role="rowheader"><strong>계획된 혜택</strong> </td> 
-      <td> <p>프로젝트의 계획된 이익을 예측합니다. 프로젝트 및 Portfolio 최적기의 비즈니스 사례에서 사용됩니다. 프로젝트의 계획된 편익에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">프로젝트 계획된 편익 개요</a>를 참조하십시오. 프로젝트의 순 가치 계산 시 프로젝트의 계획된 이익이 고려됩니다. </p> <p>자세한 내용은 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Portfolio 최적화 도구에서 프로젝트 관리</a> 를 참조하십시오.<br></p> </td> 
+      <td> <p>프로젝트의 계획된 이익을 예측합니다. 프로젝트 및 Portfolio Optimizer의 비즈니스 사례에 사용됩니다. 프로젝트의 계획된 편익에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">프로젝트 계획된 편익 개요</a>를 참조하십시오. 프로젝트의 순 가치 계산 시 프로젝트의 계획된 이익이 고려됩니다. </p> <p>자세한 내용은 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Portfolio Optimizer에서 프로젝트 관리</a> 를 참조하십시오.<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>실제 이익</strong> </td> 
@@ -427,7 +432,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 1. 위에 설명된 대로 프로젝트 편집을 시작합니다.
 1. 왼쪽 패널에서 **프로젝트 설정**&#x200B;을 클릭합니다.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![프로젝트 편집 상자의 프로젝트 설정 영역](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. 다음 정보를 업데이트합니다.
 
@@ -551,7 +556,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 1. 위에 설명된 대로 프로젝트 편집을 시작합니다.
 1. 왼쪽 패널에서 **작업 설정**&#x200B;을 클릭합니다.
 
-   ![](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   프로젝트 편집 상자의 ![작업 설정](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
 1. **작업 기본 승인 프로세스** 상자에서 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 작업 승인 프로세스를 선택합니다.
 
@@ -565,7 +570,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 1. **작업 기본 사용자 지정 Forms** 상자에서 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 사용자 지정 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오. 작업에 최대 10개의 사용자 정의 양식을 연결할 수 있습니다.
 1. (선택 사항) 계획된 시간 대신 작업 노력을 사용하여 작업 노력을 관리하려면 **작업 노력 사용을 선택하여 작업 계획된 시간을 자동으로 계산합니다**.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![프로젝트 편집 상자의 작업 노력](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. (조건부 및 선택 사항) 작업 노력 사용을 선택하여 작업 계획 시간을 자동으로 계산하는 경우 각 노력 레벨에 대한 드롭다운 메뉴를 누르고 각 레벨에 대한 백분율을 선택합니다. 다음 백분율 값은 기본값입니다.
 
@@ -590,7 +595,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 1. 위에 설명된 대로 프로젝트 편집을 시작합니다.
 1. 왼쪽 패널에서 **문제 설정**&#x200B;을 클릭합니다.
 
-   ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![프로젝트 편집 상자의 문제 설정](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. (선택 사항) **사용자가 문제를 인라인으로 추가할 수 있도록 허용** 옵션을 선택 취소합니다. 기본적으로 선택되어 있습니다.
 
@@ -622,7 +627,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 1. 위에 설명된 대로 프로젝트 편집을 시작합니다.
 1. 왼쪽 패널에서 **액세스**&#x200B;를 클릭합니다.
 
-   ![](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![프로젝트 편집 상자의 액세스 영역](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. 프로젝트에 대해 다음 **액세스** 정보를 지정하십시오.
 
@@ -632,23 +637,23 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>누군가가 작업에 할당되었을 때</strong></td> 
-      <td><p>작업에 대한 <strong>보기</strong>, <strong>Contribute,</strong> 또는 <strong>관리</strong> 액세스에서 선택하십시오. 작업에 할당된 사용자에게는 작업에 대한 이 액세스 권한이 자동으로 부여됩니다.</p></td> 
+      <td><p>작업에 대한 <strong>보기</strong>, <strong>참여,</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 작업에 할당된 사용자에게는 작업에 대한 이 액세스 권한이 자동으로 부여됩니다.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>프로젝트에 대한 액세스 권한 부여</strong></td> 
-      <td><p>프로젝트에 대한 <strong>보기</strong>, <strong>Contribute</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 작업에 할당된 사용자에게는 프로젝트에 대한 이 액세스 권한도 자동으로 부여됩니다.<br></p></td> 
+      <td><p>프로젝트에 대한 <strong>보기</strong>, <strong>기여</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 작업에 할당된 사용자에게는 프로젝트에 대한 이 액세스 권한도 자동으로 부여됩니다.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>누군가가 문제에 할당되었을 때</strong></td> 
-      <td><p>문제에 대한 <strong>보기</strong>, <strong>Contribute,</strong> 또는 <strong>관리</strong> 액세스에서 선택하십시오. 문제에 할당된 사용자에게 문제에 대한 이 액세스 권한이 자동으로 부여됩니다. 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.<br></p></td> 
+      <td><p>문제에 대한 <strong>보기</strong>, <strong>참여,</strong> 또는 <strong>관리</strong> 액세스에서 선택하십시오. 문제에 할당된 사용자에게 문제에 대한 이 액세스 권한이 자동으로 부여됩니다. 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>프로젝트에 대한 액세스 권한 부여</strong></td> 
-      <td><p>프로젝트에 대한 <strong>보기</strong>, <strong>Contribute</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 문제에 할당된 사용자에게는 프로젝트에 대한 이 액세스 권한도 자동으로 부여됩니다.<br></p></td> 
+      <td><p>프로젝트에 대한 <strong>보기</strong>, <strong>기여</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 문제에 할당된 사용자에게는 프로젝트에 대한 이 액세스 권한도 자동으로 부여됩니다.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>누군가가 요청을 제출했을 때: 액세스 권한 부여</strong></td> 
-      <td><p>요청에 대한 <strong>보기</strong>, <strong>Contribute</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 프로젝트가 요청 대기열이기도 하고 사용자가 프로젝트에 요청을 제출하면 제출한 요청에 대한 이 액세스 권한이 부여됩니다. 프로젝트를 요청 대기열로 설정하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>를 참조하십시오.<br></p></td> 
+      <td><p>요청에 대한 <strong>보기</strong>, <strong>기여</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 프로젝트가 요청 대기열이기도 하고 사용자가 프로젝트에 요청을 제출하면 제출한 요청에 대한 이 액세스 권한이 부여됩니다. 프로젝트를 요청 대기열로 설정하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>를 참조하십시오.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>같은 회사의 직원들은 모든 요청에 대해 동일한 권한을 상속합니다.</strong></td> 
@@ -663,7 +668,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
 1. **저장**&#x200B;을 클릭합니다.
 
-### 연결된 폴더
+### 연결된 폴더(조건부 가용성) {#linked-folders}
 
 연결된 폴더 기능은 자동으로 Adobe Experience Manager Assets에 폴더를 만들고 이러한 폴더를 Workfront에 연결합니다.
 
@@ -673,11 +678,28 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 * 조직에서 Adobe Experience Manager과의 통합을 활성화하고 구성했습니다.
 * 이 프로젝트를 만드는 데 사용된 템플릿에 연결된 폴더가 사용 및 구성되었습니다.
 
-연결된 폴더 편집에 대한 지침은 Experience Manager Assets 통합에서 워크플로 사용 문서에서 [프로젝트의 워크플로 값 편집](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project)을 참조하십시오.
+연결된 폴더 편집에 대한 지침은 [Experience Manager Assets 통합에서 워크플로 사용](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md) 문서의 [프로젝트의 워크플로 값 편집](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project)을 참조하십시오.
 
 >[!NOTE]
 >
 >연결된 폴더는 프로젝트를 만들 때 만들어지므로 기존 프로젝트에서 연결된 폴더 워크플로를 편집하면 효과가 없습니다. 프로젝트를 만들 때 이러한 값을 편집하면 예상대로 작동합니다.
+
+<!--
+<div class="preview">
+
+### Comment
+
+1. Begin editing your project as described above.
+1. Click **Comment** in the left panel.
+
+   ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
+
+1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Save**. 
+
+</div>
+
+-->
 
 ## 프로젝트 헤더에서 프로젝트 편집(제한적)
 
@@ -685,7 +707,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
 시스템 또는 그룹 관리자는 프로젝트 헤더에 표시되는 필드를 사용자 정의할 수 있습니다.
 
-![](assets/project-header-350x18.png)
+![프로젝트 헤더](assets/project-header-350x18.png)
 
 기본적으로 다음 필드가 프로젝트 헤더에 포함됩니다.
 
@@ -719,21 +741,21 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
 * 동일한 필드에 대해 다른 값이 있는 프로젝트를 선택하면 필드에 프로젝트 편집 상자에 &quot;여러 값&quot; 표시기가 표시됩니다. 확인란, 라디오 버튼 및 토글 필드의 옆에 &quot;여러 값&quot; 표시기가 있습니다.
 
-  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![프로젝트 일괄 편집 상자의 날짜에 대한 여러 값 표시기](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * &quot;복수 값&quot; 표시기 외에도 선택한 프로젝트 중 적어도 하나에서 선택한 옵션이 다른 경우 다음 방법 중 하나로 여러 옵션이 있는 필드가 표시됩니다.
 
    * 확인란 필드에는 선택한 모든 프로젝트가 아닌 일부에 대해 선택된 옵션의 확인란 대신 줄이 표시됩니다.
 
-     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![일괄 편집 프로젝트 상자의 여러 값 표시기 확인란](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * 선택한 모든 프로젝트에 대해 활성화되지 않은 일부 옵션에 대해 토글이 중간에 표시되고 토글 유형 필드가 흐리게 표시됩니다.
 
-  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![일괄 편집 프로젝트에서 강조 표시된 여러 값](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * 일부 옵션이 선택되었지만 전체가 아닌 라디오 단추 유형 필드에는 모든 라디오 단추가 비어 있습니다.
 
-     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+     ![여러 값 표시기 라디오 단추 일괄 편집 프로젝트 상자](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * 다중 옵션 필드(예: 전환 또는 확인란 세트로 표시되는 필드)의 한 옵션을 업데이트할 경우 선택한 프로젝트 간에 다른 모든 옵션이 일치해야 합니다.
 
@@ -748,10 +770,10 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 {{step1-to-projects}}
 
 1. 목록에서 여러 프로젝트를 선택합니다.
-1. 목록 맨 위에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 목록 맨 위에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 **프로젝트 편집** 대화 상자가 열립니다.
 
-   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+   ![일괄 모달에서 프로젝트 편집](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
 Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정한 방법에 따라 프로젝트 편집 상자의 왼쪽 패널에 있는 영역이나 이러한 영역에 나열된 필드가 재배열되거나 표시되지 않을 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오.
 
@@ -765,7 +787,7 @@ Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정�
 
    선택한 모든 프로젝트에 첨부된 사용자 정의 양식은 **사용자 정의 Forms** 영역의 **공통 사용자 정의 양식** 하위 섹션에 표시됩니다.
 
-   ![](assets/custom-forms-in-common-unshimmed.png)
+   ![일괄 편집 프로젝트에서 공통적인 사용자 정의 양식](assets/custom-forms-in-common-unshimmed.png)
 
    >[!TIP]
    >
@@ -774,7 +796,7 @@ Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정�
 1. **사용자 정의 양식 추가** 필드에 사용자 정의 양식 이름을 입력하세요.
 
 
-   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   ![Forms에서 이미 프로젝트 일괄 편집에 지표를 첨부했습니다](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    선택한 프로젝트에 이미 첨부된 사용자 정의 양식은 **사용자 정의 양식 추가** 필드의 **첨부된 양식** 하위 섹션에 표시됩니다.
 
@@ -802,9 +824,10 @@ Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정�
 문제 설정 영역 편집에 대한 자세한 내용은 이 문서의 [문제 설정](#issue-settings) 섹션을 참조하십시오.
 1. 선택한 모든 프로젝트에 대한 액세스 설정을 편집하려면 **액세스**를 클릭하십시오.
 액세스 영역 편집에 대한 자세한 내용은 이 문서의 [액세스](#access) 섹션을 참조하십시오.
+   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
 1. (선택 사항) [프로젝트 편집] 상자에 추가한 정보를 제거하려면 편집된 필드를 마우스로 가리킨 다음 필드의 오른쪽 상단에 있는 **x** 무시 아이콘을 클릭합니다.
 
-   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   ![필드 편집 프로젝트에 대한 무시 아이콘 일괄 처리](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. (선택 사항) 모든 프로젝트에 대한 변경 사항을 모두 제거하려면 **프로젝트 편집** 페이지 하단에 있는 **취소**&#x200B;를 클릭하십시오.
 1. **저장**&#x200B;을 클릭합니다.

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >   통합 경험 Adobe과 함께 온보딩된 고객의 사용자만 인앱 알림과 이메일 알림을 모두 받습니다. 회사에서 통합 경험 Adobe을 사용하는지 확인하려면 [Workfront에 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
+  >   Adobe 통합 경험과 함께 온보딩한 고객의 사용자만 인앱 알림과 이메일 알림을 모두 받습니다. 회사에서 Adobe 통합 환경을 사용하는지 확인하려면 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하세요.
 
 * 레코드에 업데이트를 추가하고 Workfront Planning의 다음 영역에서 변경 내역을 검토할 수 있습니다.
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 1. **새 댓글** 상자에 댓글을 입력하세요.
 
-   ![](assets/empty-comment-box-on-record.png)
+   ![레코드의 주석 상자 비우기](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
@@ -152,7 +152,7 @@ ht-degree: 0%
 1. (선택 사항) 변경을 실행 취소하거나 재실행하려면 다음 단축키를 사용합니다.
    * 변경 내용을 취소하려면 CTRL+Z(Mac의 경우 ⌘+z)
    * CTRL+Y(Mac의 경우 ⌘+y) 를 눌러 변경 사항을 재실행합니다
-1. (선택 사항 및 조건부) Workfront 인스턴스가 통합 경험 Adobe의 일부인 경우 **@**&#x200B;을(를) 추가한 다음 사용자 이름을 추가하여 업데이트에서 사용자를 태그 지정합니다. 자세한 내용은 이 문서의 [레코드 댓글에 대한 고려 사항](#considerations-about-commenting-on-a-record) 섹션을 참조하십시오.
+1. (선택 사항 및 조건부) Workfront 인스턴스가 Adobe 통합 경험의 일부인 경우 **@**&#x200B;을(를) 추가한 다음 사용자 이름을 추가하여 업데이트에서 사용자를 태그 지정합니다. 자세한 내용은 이 문서의 [레코드 댓글에 대한 고려 사항](#considerations-about-commenting-on-a-record) 섹션을 참조하십시오.
 
 1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하거나 이모지 또는 업데이트 링크를 추가하여 콘텐츠를 강화할 수 있습니다.
 
