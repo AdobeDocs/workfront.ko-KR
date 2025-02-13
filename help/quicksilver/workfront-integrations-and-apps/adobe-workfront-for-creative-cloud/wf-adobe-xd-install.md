@@ -6,9 +6,9 @@ description: Adobe 마켓플레이스에서 XD용 Adobe Workfront 플러그인�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
 
 [!DNL Adobe Exchange]에서 직접 [!DNL Adobe Workfront for XD] 플러그인을 설치할 수 있습니다.
 
-1. Adobe Exchange에서 [XD용 Adobe Workfront 설치 페이지](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share)(으)로 이동합니다.
+1. Adobe Exchange의 [XD용 Adobe Workfront 설치 페이지](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share)(으)로 이동합니다.
 1. 표시되는 대화 상자에서 **데스크톱 앱 [!DNL Adobe Creative Cloud] 열기**&#x200B;를 클릭합니다.
 1. [!DNL Adobe XD] 플러그 인 관리자가 열리면 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. 대화 상자에서 정보를 읽은 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
@@ -89,7 +89,7 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
 
 1. 왼쪽 하단 모서리에서 **Plugins** 아이콘을 클릭합니다.
 
-![XD 플러그인 창](assets/xd-plugin-window-350x620.png)
+![XD 플러그 인 창](assets/xd-plugin-window-350x620.png)
 
 1. **[!UICONTROL 플러그인 패널]**&#x200B;에서 **[!UICONTROL XD용 Adobe Workfront]**&#x200B;를 찾으십시오.
 
@@ -122,4 +122,20 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
 
 1. 로그인을 완료하려면 **[!UICONTROL 액세스 허용]**&#x200B;을 클릭하고 작업을 보려면 [!DNL Adobe XD](으)로 돌아가세요.
 
- 
+### 로그인 오류 문제 해결
+
+로그인하려고 할 때 **&quot;문제가 발생했습니다&quot; 오류가 표시됩니다.**
+
+
+`experience.adobe.com`(으)로 시작하는 URL을 사용하여 플러그인에 로그인할 수 없습니다.
+
+![로그인 오류](assets/plugin-log-in-error.png) ![도메인](assets/incorrect-domain.png)
+
+
+이 문제를 해결하려면,
+
+1. Adobe Workfront for XD 플러그인을 제거하고 다시 설치하여 도메인 및 오류를 지웁니다.
+
+1. Workfront 도메인을 입력합니다. 도메인은 `experience.adobe.com`이(가) 아닌 `company-name.my.workfront.com`이어야 합니다.
+
+Adobe 통합 경험을 사용하는 경우 Workfront 도메인을 찾으려면 다음으로 이동합니다.

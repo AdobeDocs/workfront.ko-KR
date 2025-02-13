@@ -6,9 +6,9 @@ description: 문서 영역에서 문서를 미리 볼 수 있습니다. 이 기�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: f8ce7b64b117b709328be982339fd28ef4a741a7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,20 @@ ht-degree: 0%
 
 ## 문서 미리보기
 
+Workfront에서 문서를 미리 볼 수 있습니다.
+
 1. 문서 목록에서 문서 가 포함된 행 위로 마우스를 가져간 다음 **문서 세부 정보**&#x200B;를 클릭합니다.
 1. 표시되는 페이지에서 문서의 축소판 이미지를 클릭합니다.
 
    * 검토를 위해 문서를 준비하지 않은 경우 새 브라우저 탭에 표시됩니다.
    * 검토를 위해 문서를 준비한 경우 증명 뷰어가 열리고 문서가 표시됩니다.
+
+다음 파일 형식은 미리보기 창에 표시할 수 없습니다.
+
+* .mp4
+* .gif
+* .jpeg
+* .png
+* .tiff
+* .plain
+* .pdf

@@ -6,9 +6,9 @@ description: Adobe 마켓플레이스에서  [!DNL Adobe Workfront for design an
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
@@ -141,3 +141,25 @@ ht-degree: 1%
 1. 로그인을 완료하려면 **[!UICONTROL 액세스 허용]**&#x200B;을 클릭하세요.
 1. 작업을 보려면 [!DNL Adobe Photoshop](으)로 돌아가십시오.
 
+### 로그인 오류 문제 해결
+
+로그인하려고 할 때 **&quot;문제가 발생했습니다&quot; 오류가 표시됩니다.**
+
+
+`experience.adobe.com`(으)로 시작하는 URL을 사용하여 플러그인에 로그인할 수 없습니다.
+
+![로그인 오류](assets/plugin-log-in-error.png) ![도메인](assets/incorrect-domain.png)
+
+
+이 문제를 해결하려면,
+
+1. 플러그인의 도메인을 저장하는 폴더를 삭제합니다.
+
+   >[!TIP]
+   >
+   >Mac에서 Finder로 이동하여 **Command+Shift+를 누릅니다.** 숨겨진 폴더를 표시하려면 **/Users//Library/Application Support**(으)로 이동한 다음 **Workfront** 폴더를 삭제하십시오.
+
+
+1. 플러그인으로 돌아가 Workfront 도메인을 입력합니다. 도메인은 `experience.adobe.com`이(가) 아닌 `company-name.my.workfront.com`이어야 합니다.
+
+   Adobe 통합 환경을 사용하는 경우 [Workfront 도메인을 찾으려면](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) [설정], [고객 정보]로 이동하십시오.
