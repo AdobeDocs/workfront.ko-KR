@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 
 | 월별 릴리스 | 분기별 릴리스 |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (2025년 2월)</li><li>25.3 (2025년 3월)</li><li>25.4 (2025년 4월)</li></ul> | <ul><li>25.4 (2025년 4월)</li></ul> |
+| <ul><li>25.2 (2025년 2월 13일)</li><li>25.3 (2025년 3월)</li><li>25.4 (2025년 4월)</li></ul> | <ul><li>25.4 (2025년 4월)</li></ul> |
 
 >[!NOTE]
 >
@@ -37,6 +37,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 ## Adobe Workfront 개선 사항
 
 * [관리자 개선 사항](#administrator-enhancements)
+* [프로젝트 개선 사항](#project-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
 ### 관리자 개선 사항
@@ -49,6 +50,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             계산된 사용자 정의 필드에 표현식이 추가됨</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>이제 Workfront 계산된 사용자 정의 필드에는 ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT 및 ADDHOUR 표현식을 사용할 수 있습니다. 각 표현식의 정의와 예는 계산 편집기 및 Experience League에서 사용할 수 있습니다.</p>
         </td>
         <td>
@@ -56,6 +58,31 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
             <ul>
                 <li>미리보기 릴리스: 2025년 1월 31일</li>
                 <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 1월 31일</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### 프로젝트 개선 사항
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            프로젝트 편집 상자에서 프로젝트를 편집할 때 프로젝트에 주석 추가</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>이제 프로젝트 편집 상자에서 편집할 때 프로젝트에 주석을 추가할 수 있습니다. 여러 프로젝트를 일괄적으로 편집할 때 한 번에 주석을 추가할 수도 있습니다. 이 업데이트 이전에는 프로젝트를 편집할 때 이 기능이 없었습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2025년 2월 13일</li>
+                <li>빠른 릴리스를 위한 프로덕션: 25.3 릴리스 포함(2025년 3월)</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월)</li>
             </ul>
         </td>
     </tr>                          
@@ -72,39 +99,44 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Workfront 업데이트 피드에서 Adobe Admin Console 사용자 변경 사항을 "시스템"으로 표시</a></p>
+            [!BADGE In Production for Fast Release ]{type=Positive}
             <p>이제 Adobe Admin Console 관리자가 Workfront 사용자의 사용자 정보를 변경하면 Workfront은 사용자 업데이트 영역의 시스템 활동 탭에 이 변경 내용을 "시스템"에 속하는 것으로 기록합니다. Adobe Admin Console 관리자에게 문의하십시오.</p>
         </td>
         <td>
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
                 <li>미리보기 릴리스: 2025년 1월 23일</li>
-                <li>빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월)</li>
+                <li>빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월 13일)</li>
                 <li>모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월)</li>
             </ul>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
-            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+            2025년 2분기 동안의 룩앤필 업데이트</a></p>
+            <p>2025년 2분기 내에 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트가 이루어지고 있습니다. 특정 릴리스 날짜는 개별 릴리스 정보를 검토하십시오.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
-                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
-                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
+                <li>미리보기 릴리스: 2025년 2분기 릴리스 일정 전체</li>
+                <li><span class="preview">프로덕션 릴리스: 특정 날짜에 대한 릴리스 정보 검토</span></li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
 </tbody>
 </table>
 
-<!--
-### Functionality soon to be removed from Workfront
+### Workfront에서 곧 제거될 기능
 
-The following functionality is soon to be removed from Workfront:
--->
+다음 기능은 곧 Workfront에서 제거될 예정입니다.
+
+#### 프로젝트에서 기존 애자일 보기를 제거하고 있습니다.
+
+프로젝트의 기존 애자일 보기는 2025년 3월 13일 25.3 릴리스를 통해 Workfront에서 제거됩니다. 보드 아이콘을 클릭하여 프로젝트의 애자일 보기에서 작업을 계속 볼 수 있습니다.
+
+애자일 보기를 사용하는 방법에 대한 자세한 내용은 [애자일 보기에서 프로젝트 관리](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)를 참조하십시오.
 
 ## 공지
 
@@ -154,4 +186,4 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront Tutorials 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

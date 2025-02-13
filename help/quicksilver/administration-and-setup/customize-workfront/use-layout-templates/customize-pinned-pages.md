@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '546'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,10 +44,17 @@ ht-degree: 4%
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td><p>새로운 기능: 표준</p>
-  <p> 현재: 플랜</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>플랜</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -57,7 +64,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -91,23 +98,28 @@ ht-degree: 4%
       * 블루프린트
       * 계획 수립
 
-   >[!IMPORTANT]
-   >
-   >시나리오, 목표 및 계획 영역을 보려면 추가 라이센스가 필요합니다.
-   >
-   >* Workfront 목표에 대한 자세한 내용은 [Adobe Workfront 목표 개요](../../../workfront-goals/goal-management/wf-goals-overview.md)를 참조하십시오.
-   >
-   >* Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
-   >
-   >* Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
+     >[!IMPORTANT]
+     >
+     >목표, 시나리오 및 계획 영역을 보려면 추가 라이센스가 필요합니다.
+     >
+     >* Workfront 목표에 대한 자세한 내용은 [Adobe Workfront 목표 개요](../../../workfront-goals/goal-management/wf-goals-overview.md)를 참조하십시오.
+     >
+     >* Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
+     >
+     >* Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
-   * **대시보드 추가**&#x200B;를 클릭한 다음 설명 **사용자 지정 섹션 제목**&#x200B;을 입력하고 대시보드를 추가하십시오.
+   * **대시보드 추가**&#x200B;를 클릭합니다
+      * <!--**Quick link name**-->**사용자 지정 이름** 필드에 수사적 이름을 입력하십시오.
+      * **대시보드 추가** 필드 <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->에서 대시보드를 선택하십시오.
+      * **추가**&#x200B;를 클릭합니다.
 
 1. 다른 페이지를 고정하려면 이전 단계를 반복합니다.
 
-1. (선택 사항) 핀 이름을 바꾸려면 핀 위로 마우스를 가져간 후 핀 이름 옆에 있는 화살표를 클릭하고 **핀 이름 바꾸기**&#x200B;를 선택합니다. 새 핀 이름을 입력하고 확인 표시 아이콘을 클릭하거나 Enter 키를 누릅니다.
+1. (선택 사항) 핀을 이동하려면 핀 위로 마우스를 가져간 후 핀 이름 옆에 있는 기타 메뉴 아이콘 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **왼쪽으로 이동** 또는 **오른쪽으로 이동**&#x200B;을 클릭하여 선택한 방향으로 핀을 이동하거나 **맨 앞으로 이동**&#x200B;을 클릭하여 핀을 맨 왼쪽 위치로 이동합니다.
 
-   확인 표시를 클릭하거나 Enter 키를 누른 후 몇 초 동안 작은 팝업 창이 나타나므로 핀 이름을 저장하기 전에 핀 이름 변경을 실행 취소할 수 있습니다.
+1. (선택 사항) 핀 이름을 바꾸려면 핀 위로 마우스를 가져간 후 핀 이름 옆에 있는 기타 메뉴 아이콘 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **핀 이름 바꾸기**&#x200B;를 클릭합니다. 새 이름을 입력한 다음 **저장**&#x200B;을 클릭합니다.
+
+1. (선택 사항) 핀을 삭제하려면 핀 위로 마우스를 가져간 후 핀 이름 옆에 있는 기타 메뉴 아이콘 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **핀 제거**&#x200B;를 클릭합니다.
 
 1. 레이아웃 템플릿을 계속 사용자 지정합니다.
 

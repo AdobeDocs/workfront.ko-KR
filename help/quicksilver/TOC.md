@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 7a2549e0d523f211ee13bf13fdc9a54aa7cf4572
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '13030'
+source-wordcount: '13034'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 2%
       * 2025년 2분기 릴리스 {#release-25-q2}
          * [2025년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [2025년 2분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
+         * [2025년 2분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md)
          * [2025년 2분기 릴리스 일정 동안의 기타 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [2025년 2분기 릴리스 기간 동안의 룩앤필 업데이트](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
       * 2025년 1분기 릴리스 {#release-25-q1}
@@ -365,7 +366,7 @@ ht-degree: 2%
          * [iOS 및 Android용 모바일 앱 업데이트(2017년 8월 초)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [Adobe Workfront에서 TLS 1.2 필요](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [이제 Outlook 365 추가 기능을 사용할 수 있습니다.](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
-         * [Adobe Workfront에서 Flash 기반 도구 교체](product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+         * [Adobe Workfront에서 Flash 기반 도구 대체](product-announcements/announcements/announcement-archive/replace-flash-tools.md)
          * [요청 대기열에 대한 POP 이메일을 21.1로 대체하는 새로운 Adobe Workfront 관리 시스템](product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)
          * [21.1 릴리스가 포함된 Adobe Workfront 이메일의 새 IP 주소](product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
          * [이메일 스푸핑 및 POP 회신 제거](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
@@ -805,8 +806,8 @@ ht-degree: 2%
          * [목록 내보내기](workfront-basics/navigate-workfront/use-lists/export-lists.md)
          * [Adobe Workfront 목록의 항목 인라인 편집](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
          * [목록 표시 방법 수정](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
-      * [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
-      * [통합 경험 FAQ Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
+      * [Workfront용 Adobe 통합 경험](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+      * [Adobe 통합 경험 FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
       * [상단 탐색 막대 개요](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
       * [Adobe Workfront에서 왼쪽 탐색](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
       * [요약 개요](workfront-basics/the-new-workfront-experience/summary-overview.md)
@@ -1107,22 +1108,22 @@ ht-degree: 2%
          * [강화된 커넥터로 문서 보내기](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
          * [향상된 커넥터로 연결된 자산 증명](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [강화된 커넥터로 연결된 에셋 보기 또는 다운로드](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
-      * Experience Manager Assets 및 Assets Essentials {#wf-aem-essentials}용 Adobe Workfront
-         * [Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 문서 색인](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+      * Experience Manager Assets 및 Assets Essentials용 Adobe Workfront {#wf-aem-essentials}
+         * [Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Adobe Experience Manager Assets 통합 개요](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Experience Manager Assets Essentials에서 에셋 및 폴더 연결](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [Experience Manager Assets 또는 Assets Essentials에 대해 매핑된 메타데이터 보기](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
-         * [Experience Manager Assets 또는 Assets Essentials에서 연결된 에셋 보기 또는 다운로드](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
-         * [Experience Manager Assets 또는 Assets Essentials에게 문서 보내기](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+         * [Experience Manager Assets 또는 Assets Essentials에서 연결된 에셋 조회 또는 다운로드](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
+         * [Experience Manager Assets 또는 Assets Essentials로 문서 보내기](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Experience Manager Assets 또는 Asset Essentials에 대해 연결된 에셋 증명](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
-         * [Experience Manager Assets 또는 Assets Essentials과 연결된 폴더 만들기](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+         * [Experience Manager Assets 또는 Assets Essentials와 연결된 폴더 만들기](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
          * [Experience Manager Assets 또는 Assets Essentials에서 에셋 및 폴더 연결 해제 또는 삭제](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Experience Manager Assets Essentials 통합에서 워크플로우 사용](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion을 사용하여 Workfront 문제를 Adobe Experience Manager 워크플로가 포함된 프로젝트로 변환합니다](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [Adobe Experience Manager 통합 문제 해결](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 레거시 또는 향상된 커넥터 {#migrate-from-legacy-enhanced-connectors}에서 마이그레이션
       * [레거시 또는 향상된 커넥터에서 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [Adobe as a Cloud Service Experience Mangaer 통합을 위해 레거시 또는 향상된 커넥터에서 Workfront으로 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [기존 또는 향상된 커넥터에서 Adobe Experience Manager용 Workfront as a Cloud Service 통합으로 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [기존 커넥터에서 향상된 커넥터로 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Adobe Experience Manager 레거시 커넥터를 사용하여 Workfront 제거](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [Workfront with Adobe Experience Manager 강화 커넥터 제거](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -1416,13 +1417,13 @@ ht-degree: 2%
          * [포트폴리오에 기존 프로그램 추가](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [프로그램에 프로젝트 추가](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [프로그램에서 프로젝트 제거](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
-      * Portfolio 최적화 도구 {#manage-projects-in-portfolio-optimizer}에서 프로젝트 관리
-         * [Portfolio 최적화 도구에서 프로젝트 관리](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
-         * [Portfolio 최적화 프로그램 개요](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
-         * [Portfolio 최적화 도구 찾기](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
-         * [Portfolio 최적화 프로그램 점수 개요](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
-         * [Portfolio 최적화 도구에서 프로젝트 우선 순위 지정](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
-         * [Portfolio 최적화 도구에서 프로젝트 최적화](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
+      * Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}에서 프로젝트 관리
+         * [Portfolio Optimizer에서 프로젝트 관리](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+         * [Portfolio Optimizer 개요](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+         * [Portfolio Optimizer 찾기](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
+         * [Portfolio Optimizer 점수 개요](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
+         * [Portfolio Optimizer에서 프로젝트 우선 순위 지정](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
+         * [Portfolio Optimizer에서 프로젝트 최적화](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [포트폴리오에서 순 가치에 대한 위험 계산](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
    * 요청 {#requests}
       * [요청](manage-work/requests/requests-overview.md)
@@ -1698,7 +1699,7 @@ ht-degree: 2%
       * [향상된 분석에서 팀별 활동 시각화 보기](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Workfront Data Connect 개요](reports-and-dashboards/data-lake/data-lake-overview.md)
-      * [Snowflake을 위한 Reader 계정 또는 연결 만들기](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Snowflake에 대한 Reader 계정 또는 연결 만들기](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Workfront Data Connect에 연결 설정](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect 데이터 사전](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Workfront Data Connect 쿼리 예제](reports-and-dashboards/data-lake/basic-query-examples.md)
@@ -2085,8 +2086,8 @@ ht-degree: 2%
    * [Adobe Workfront 통합](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront 기본 제공 통합 개요](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront 통합 메서드](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Creative Cloud {#workfront-for-creative-cloud}에 대한 Adobe Workfront
-      * [Creative Cloud을 위한 Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
+   * Creative Cloud용 Adobe Workfront {#workfront-for-creative-cloud}
+      * [Creative Cloud용 Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Creative Cloud 응용 프로그램 {#install-wf-cc}용 Adobe Workfront 플러그인 설치
          * [Creative Cloud 애플리케이션용 Adobe Workfront 설치](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Photoshop용 Adobe Workfront 설치 및 열기](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
@@ -2100,9 +2101,9 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 작업 항목을 완료로 표시](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
-      * Creative Cloud 응용 프로그램 {#upload-docs-proofs-wf-cc}용 Adobe Workfront 플러그인으로 문서 및 증명 업로드
+      * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인 {#upload-docs-proofs-wf-cc}을(를) 사용하여 문서 및 증명 업로드
          * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
-         * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인으로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+         * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
          * [XD 아트보드를 Workfront에 대한 증명으로 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
@@ -2147,9 +2148,9 @@ ht-degree: 2%
       * [작업 목록에 작업으로 Outlook 전자 메일 추가](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
       * [Outlook용 Adobe Workfront에 대한 추가 정보 보기 및 로그아웃](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [Adobe Workfront 및 SAML 2.0에서 사용할 Office용 Outlook 활성화](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
-   * Microsoft Teams {#workfront-for-microsoft-teams}용 Adobe Workfront
+   * Microsoft Teams용 Adobe Workfront {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: 문서 인덱스](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
-      * [Microsoft Teams에 대한 Adobe Workfront 개요](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
+      * [Microsoft Teams용 Adobe Workfront 개요](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [Microsoft Teams용 Adobe Workfront 설치](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Microsoft Teams에서 Adobe Workfront 액세스](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
       * [Microsoft Teams에서 Adobe Workfront 항목 검색 및 공유](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
@@ -2163,16 +2164,16 @@ ht-degree: 2%
       * [Salesforce 사용자를 위한 Adobe Workfront 섹션 구성](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
       * [Salesforce 오브젝트에서 Adobe Workfront 요청 제출](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
       * [Salesforce 오브젝트에서 Adobe Workfront 프로젝트 만들기](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
-   * Slack {#workfront-for-slack}에 대한 Adobe Workfront
-      * [Slack을 위한 Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
-      * [Slack을 위한 Adobe Workfront 구성](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
+   * Slack용 Adobe Workfront {#workfront-for-slack}
+      * [Slack용 Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
+      * [Slack용 Adobe Workfront 구성](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
       * [Slack에서 즐겨찾기 및 최근 항목에 액세스](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
       * [Slack에서 작업 및 승인 관리](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
       * [Slack에서 작업 및 문제 만들기](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
       * [Slack에서 Adobe Workfront 항목 검색](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [Slack의 공유 링크에서 Adobe Workfront 개체에 액세스](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
       * [Slack에서 Adobe Workfront 액세스](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [Slack 댓글을 업데이트로 게시](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [Slack 댓글을 업데이트로 게시하기](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Slack에서 Adobe Workfront 알림 수신](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Anaplan이 {#workfront-with-anaplan}인 Adobe Workfront
       * [Adobe Workfront과 Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)

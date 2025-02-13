@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,23 @@ ht-degree: 0%
 
 2025년 2분기 릴리스에서 사용 가능한 모든 변경 사항 목록은 [2025년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)를 참조하십시오.
 
-<!--## New look and feel for the Share dialog 
+## 문서 이메일에 대한 일시적인 모양 및 느낌 변경
 
 >[!NOTE]
 >
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+>미리보기 릴리스: 2025년 2월 13일, 모든 고객을 위한 프로덕션 릴리스: 2025년 2월 13일
 
-We have updated the look and feel of the Share dialog modern design that is consistent with other areas of Workfront. There are slight visual differences including:
+문서 추가 또는 공유와 관련된 전자 메일의 본문에는 더 이상 썸네일 이미지가 없습니다. 일부 고객은 피할당자의 아바타만 표시되는 이전 작업 및 문제 할당 이메일도 볼 수 있습니다.
 
-* The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
-* There is a new icon to access advanced share settings.-->
+이메일 지연을 조사할 때 이러한 변경 사항은 일시적입니다.
+
+## 공유 대화 상자의 새로운 모양 및 느낌
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 2월 13일, 모든 고객을 위한 프로덕션 릴리스: 25.3 릴리스 포함(2025년 3월)
+
+공유 대화 상자의 모양과 느낌을 Workfront의 다른 영역과 일관된 최신 디자인으로 업데이트했습니다. 다음과 같은 약간의 시각적 차이가 있습니다.
+
+* 이제 &quot;시스템 전체 표시&quot; 옵션에 &quot;시스템의 모든 사용자가 볼 수 있음&quot;이 표시됩니다. 이 옵션은 여전히 이전과 동일하게 작동합니다.
+* 고급 공유 설정에 액세스할 수 있는 새 아이콘이 있습니다.

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,16 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## AI Assistant가 수행한 작업 검토 및 확인
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 2월 13일, 빠른 릴리스를 위한 프로덕션: 25.3 릴리스 포함(2025년 3월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+
+이제 AI 도우미가 원하는 작업을 수행하도록 하기 위해 작업을 실행하기 전에 해당 작업을 검사하고 확인할 수 있습니다. 이제 레코드 만들기, 업데이트 또는 삭제와 같은 작업을 수행하는 프롬프트를 입력하면 AI 도우미가 수행할 작업을 표시하고 이러한 작업이 올바른 작업인지 확인하도록 요청합니다.
+
+이전에는 이 확인 단계를 사용할 수 없었습니다.
 
 ## 공식 필드에 추가된 함수
 
@@ -48,7 +58,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->미리보기 릴리스: 2025년 1월 30일, 빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+>미리보기 릴리스: 2025년 1월 30일, 빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월 13일), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
 
 이제 Workfront Planning에서 팀, 작업 역할 및 회사와 보기 및 작업 공간을 공유할 수 있습니다. 이 기능이 향상되기 전에는 사용자 및 그룹과 보기 및 작업 공간을 공유할 수 있었습니다.
 
@@ -62,7 +72,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->미리보기 릴리스: 2025년 1월 23일, 빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+>미리보기 릴리스: 2025년 1월 23일, 빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월 13일), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
 
 이제 Workfront 외부 소스에서 텍스트를 복사하여 Workfront Planning 연결 필드 또는 사람 유형 필드에 붙여넣을 수 있습니다. 이 향상된 기능은 표 보기에서 레코드를 편집할 때 사용할 수 있습니다.  텍스트는 기존 사용자(사람 유형 필드의 경우) 또는 기존 레코드 또는 개체(연결된 레코드의 경우)와 일치해야 합니다. 여러 필드에 대해 여러 값을 복사하여 붙여넣을 수 있으며 레코드를 대량으로 업데이트할 수 있습니다.
 
@@ -74,7 +84,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->미리보기 릴리스: 2025년 1월 23일, 빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+>미리보기 릴리스: 2025년 1월 23일, 빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월 13일), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
 
 이번 릴리스에서는 다중 계층 필터를 허용하도록 Workfront Planning의 필터 빌더를 업데이트했습니다.
 
@@ -92,7 +102,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->미리보기 릴리스: 2025년 1월 22일, 빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+>미리보기 릴리스: 2025년 1월 22일, 빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월 13일), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
 
 이제 프로젝트를 기존 레코드에 연결하는 동안 템플릿을 사용하여 프로젝트를 만들 수 있습니다.
 
@@ -106,7 +116,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->미리보기 릴리스: 2025년 1월 22일, 빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+>미리보기 릴리스: 2025년 1월 22일, 빠른 릴리스를 위한 프로덕션: 25.2 릴리스 포함(2025년 2월 13일), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
 
 표시 페이지의 헤더에 제목을 기록할 수 있는 가시성을 개선하기 위해 제목에 더 많은 공간을 제공하고, 겹치지 않도록 하고, 잘림을 우아하게 처리하도록 개선했습니다.
 
