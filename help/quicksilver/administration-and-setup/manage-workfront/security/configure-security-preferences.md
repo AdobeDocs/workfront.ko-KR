@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
+source-git-commit: d4ebdcc942f119dc229e2a3216dbe82b3d701cba
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '951'
 ht-degree: 5%
 
 ---
@@ -113,11 +113,11 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
      </tr> 
      <tr> 
       <td role="rowheader">다음 시간 후 자동으로 사용자 로그아웃</td> 
-      <td> 사용자가 비활성 기간 후 Workfront에서 로그아웃할 시기를 지정할 수 있습니다. 기본적으로 사용자는 8시간 동안 활동이 없으면 로그아웃됩니다. <p>이 옵션은 SSO(Single Sign-On) 솔루션을 사용하는 Workfront 고객에게도 영향을 줍니다.</p> </td> 
+      <td> 사용자가 비활성 기간 후 Workfront에서 로그아웃할 시기를 지정할 수 있습니다. 기본적으로 사용자는 8시간 동안 활동이 없으면 로그아웃됩니다. <p>이 옵션은 SSO(Single Sign-On) 솔루션을 사용하는 Workfront 고객에게도 영향을 줍니다.</p> <p>Adobe IMS로 마이그레이션한 조직에서는 이 설정을 사용할 수 없습니다.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">다음 시간 후 자동으로 모바일 사용자 로그아웃 </td> 
-      <td>사용자가 비활성 기간 후 Workfront 애플리케이션에서 로그아웃하는 시간을 지정할 수 있습니다. 기본적으로 사용자는 7일 동안 활동이 없으면 로그아웃됩니다. <p>이 옵션은 SSO(Single Sign-On) 솔루션을 사용하는 Workfront 고객에게도 영향을 줍니다.</p></td> 
+      <td>사용자가 비활성 기간 후 Workfront 애플리케이션에서 로그아웃하는 시간을 지정할 수 있습니다. 기본적으로 사용자는 7일 동안 활동이 없으면 로그아웃됩니다. <p>이 옵션은 SSO(Single Sign-On) 솔루션을 사용하는 Workfront 고객에게도 영향을 줍니다.</p> <p>Adobe IMS로 마이그레이션한 조직에서는 이 설정을 사용할 수 없습니다.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">사용자 정의 도움말 URL</td> 
