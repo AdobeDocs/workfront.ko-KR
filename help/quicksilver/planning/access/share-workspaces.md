@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,9 @@ This article describes how you can share a view with others. For information abo
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p>
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p>
 <p>사용자가 권한 요청에서 작업 영역에 권한을 요청하고 부여할 수 있으려면 조직이 Adobe 통합 경험에 온보딩되어야 합니다. </p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -175,15 +175,11 @@ OLD:
 
 1. 공유할 작업 영역을 연 다음 화면 오른쪽 상단의 **공유**&#x200B;를 클릭합니다.
 
-   ![](assets/share-button-on-workspace-top-right.png)
+   작업 영역 오른쪽 상단의 ![공유 단추](assets/share-button-on-workspace-top-right.png)
 
-1. **작업 공간 액세스 권한 부여** 필드에서 사용자, 그룹, <span class="preview">팀, 회사 또는 작업 역할</span>의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+1. **이 작업 영역에 대한 액세스 권한 부여** 필드에서 사용자, 그룹, <span class="preview">팀, 회사 또는 작업 역할</span>의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
-   <div class="preview">
-
-   ![](assets/sharing-ui-with-groups.png)
-
-   </div>
+   ![그룹과 UI 공유](assets/sharing-ui-with-groups.png)
 
 1. 드롭다운 메뉴에서 다음 권한 수준 중 하나를 선택합니다.
    * 보기
@@ -202,20 +198,20 @@ OLD:
 1. (조건부) 작업 공간의 관리자인 경우 다른 사용자로부터 다음 영역의 보기에 대한 액세스 요청을 받을 수 있습니다.
 
    * 인앱 알림
-     ![](assets/in-app-notification-for-access-request.png)
+     ![액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request.png)
    * 이메일 알림
-     ![](assets/email-notification-for-access-request.png)
+     ![액세스 요청에 대한 전자 메일 알림](assets/email-notification-for-access-request.png)
 1. (조건부) Workfront의 알림 영역에서 인앱 알림을 클릭합니다
 또는
 전자 메일 알림에서 **모든 알림 보기**&#x200B;를 클릭한 다음 목록에서 알림을 클릭합니다.
 
    **액세스 요청 보류 중** 상자가 표시됩니다.
 
-   ![](assets/notifications-list-approval-box.png)
+   ![알림 목록 승인 상자](assets/notifications-list-approval-box.png)
 
 1. (선택 사항) 권한을 승인하려는 사용자의 경우 드롭다운 메뉴에서 사용자 이름 오른쪽에 있는 다음 옵션 중 하나를 선택합니다.
    * **보기**
-   * **Contribute**
+   * **참여**
    * **관리**
 1. 권한을 승인하거나 거부할 사용자를 선택한 다음 **모두 승인** 또는 **모두 거부**&#x200B;를 클릭합니다.
 1. **보류 중인 액세스 요청**&#x200B;의 왼쪽에 있는 왼쪽 화살표를 클릭한 다음 **저장**&#x200B;을 클릭합니다.

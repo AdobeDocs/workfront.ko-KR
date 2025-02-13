@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '7694'
+source-wordcount: '7828'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -170,7 +170,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
    * [문제 설정](#issue-settings)
    * [액세스](#access)
    * [연결된 폴더](#linked-folders-conditional-availability)(조건부 가용성)
-     <!--* <span class="preview">[Comment](#comment)</span>-->
+   * <span class="preview">[댓글](#comment)</span>
 
 
    >[!NOTE]
@@ -684,22 +684,19 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 >
 >연결된 폴더는 프로젝트를 만들 때 만들어지므로 기존 프로젝트에서 연결된 폴더 워크플로를 편집하면 효과가 없습니다. 프로젝트를 만들 때 이러한 값을 편집하면 예상대로 작동합니다.
 
-<!--
 <div class="preview">
 
-### Comment
+### 댓글
 
-1. Begin editing your project as described above.
-1. Click **Comment** in the left panel.
+1. 위에 설명된 대로 프로젝트 편집을 시작합니다.
+1. 왼쪽 패널에서 **댓글**&#x200B;을 클릭합니다.
 
    ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
 
-1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Click **Save**. 
+1. 제공된 공간에 주석을 추가합니다. Workfront이 프로젝트의 업데이트 영역에 설명을 추가합니다. 작업 업데이트에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
+1. **저장**&#x200B;을 클릭합니다.
 
 </div>
-
--->
 
 ## 프로젝트 헤더에서 프로젝트 편집(제한적)
 
@@ -824,7 +821,7 @@ Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정�
 문제 설정 영역 편집에 대한 자세한 내용은 이 문서의 [문제 설정](#issue-settings) 섹션을 참조하십시오.
 1. 선택한 모든 프로젝트에 대한 액세스 설정을 편집하려면 **액세스**를 클릭하십시오.
 액세스 영역 편집에 대한 자세한 내용은 이 문서의 [액세스](#access) 섹션을 참조하십시오.
-   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
+1. <span class="preview">**댓글**&#x200B;을 클릭한 다음 제공된 공간에 댓글을 추가합니다. Workfront은 각 프로젝트의 **업데이트** 영역에 설명을 추가합니다. 작업 업데이트에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>를 참조하세요.
 1. (선택 사항) [프로젝트 편집] 상자에 추가한 정보를 제거하려면 편집된 필드를 마우스로 가리킨 다음 필드의 오른쪽 상단에 있는 **x** 무시 아이콘을 클릭합니다.
 
    ![필드 편집 프로젝트에 대한 무시 아이콘 일괄 처리](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)

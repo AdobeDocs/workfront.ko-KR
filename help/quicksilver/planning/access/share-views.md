@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1583'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,9 @@ This article describes how you can share a view with others. For information abo
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
 <p>사용자가 권한 요청에서 보기에 대한 권한을 요청하고 부여할 수 있으려면 조직이 Adobe 통합 경험에 온보딩되어야 합니다. </p>
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -200,9 +200,9 @@ This article describes how you can share a view with others. For information abo
 
    그러면 레코드 유형 페이지가 열립니다.
 
-1. 보기 탭에서 공유할 보기를 마우스로 가리키고 보기 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **공유**&#x200B;를 클릭합니다.
+1. 보기 탭에서 공유할 보기를 마우스로 가리키고 보기 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **공유**&#x200B;를 클릭합니다.
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![공유 옵션으로 확장된 보기에 대한 추가 메뉴](assets/more-menu-for-views-expanded-with-share-option.png)
 
    기본적으로 **내부 공유** 탭을 선택해야 합니다.
 
@@ -211,13 +211,9 @@ This article describes how you can share a view with others. For information abo
    * **초대된 사람만 액세스할 수 있습니다**: 보기를 공유할 사용자, 그룹, <span class="preview">팀, 회사 또는 작업 역할</span>을 지정해야 합니다. 기본 옵션입니다.
    * **작업 영역의 모든 사용자가 볼 수 있습니다**: 작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자가 보기에 액세스할 수 있습니다.
 
-1. **보기 액세스 권한 부여** 필드에서 사용자, 그룹, <span class="preview">팀, 회사 또는 작업 역할</span>의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+1. **이 보기에 대한 액세스 권한 부여** 필드에서 사용자, 그룹, <span class="preview">팀, 회사 또는 작업 역할</span>의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
-   <div class="preview">
-
-   ![](assets/sharing-a-view-ui-with-groups.png)
-
-   </div>
+   ![그룹과 보기 공유](assets/sharing-a-view-ui-with-groups.png)
 
 1. 드롭다운 메뉴에서 다음 권한 수준 중 하나를 선택합니다.
    * 보기
@@ -230,7 +226,7 @@ This article describes how you can share a view with others. For information abo
 1. 보기에 대한 링크를 클립보드에 복사하려면 **링크 복사**&#x200B;를 클릭하십시오.
 1. **저장**&#x200B;을 클릭합니다.
 
-   보기가 현재 다른 사용자와 공유되고 있음을 나타내기 위해 사람 아이콘 ![](assets/view-shared-with-others-people-icon.png)(으)로 업데이트됩니다.
+   보기가 현재 다른 사용자와 공유되고 있음을 나타내기 위해 사람 아이콘 ![다른 사용자와 공유되는 보기 아이콘](assets/view-shared-with-others-people-icon.png)(으)로 업데이트됩니다.
 
    >[!TIP]
    >
@@ -255,25 +251,25 @@ Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수
 
    그러면 레코드 유형 페이지가 열립니다.
 
-1. 보기 탭에서 공유할 보기를 마우스로 가리키고 보기 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **공유**&#x200B;를 클릭합니다.
+1. 보기 탭에서 공유할 보기를 마우스로 가리키고 보기 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **공유**&#x200B;를 클릭합니다.
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![공유 옵션으로 확장된 보기에 대한 추가 메뉴](assets/more-menu-for-views-expanded-with-share-option.png)
 
 1. **공개 공유**&#x200B;를 클릭합니다.
 
-   ![](assets/public-sharing-tab-for-views.png)
+   ![보기를 위한 공개 공유 탭](assets/public-sharing-tab-for-views.png)
 
 1. **공개 링크 만들기** 설정을 사용하도록 설정합니다.
 
    링크를 사용할 수 있습니다. 공개 링크입니다. 링크를 공유하면 조직 외부의 직원을 포함하여 모든 사용자가 레코드 유형 페이지에 액세스하고 페이지의 레코드와 필드를 볼 수 있습니다.
 
-1. **링크 복사** 아이콘 ![](assets/copy-link-view.png)을(를) 클릭하여 클립보드에 링크를 복사합니다.
+1. **링크 복사** 아이콘 ![링크 복사](assets/copy-link-view.png)를 클릭하여 링크를 클립보드에 복사합니다.
 
 1. 수동으로 날짜를 입력하거나 **링크 만료 날짜** 필드의 달력을 사용하여 공개 링크에 대한 만료 날짜를 선택하십시오. 선택한 날짜 이후에는 레코드 페이지 보기에 액세스할 수 없습니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
-   보기가 공개적으로 공유됨을 나타내기 위해 전역 아이콘 ![](assets/public-shared-view-icon-highlighted.png)(으)로 업데이트됩니다.
+   보기가 공개적으로 공유되었음을 나타내기 위해 전역 아이콘 ![공개 공유 보기 아이콘 강조 표시](assets/public-shared-view-icon-highlighted.png)로 업데이트됩니다.
 
    >[!TIP]
    >
@@ -289,16 +285,16 @@ Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수
 1. (조건부) 사용자가 보기 관리자인 경우 다른 사용자로부터 다음 영역의 보기에 액세스하라는 요청을 받을 수 있습니다.
 
    * 인앱 알림
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![보기에 대한 액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request-for-view.png)
    * 이메일 알림
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![보기에 대한 액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request-for-view.png)
 1. (조건부) Workfront의 알림 영역에서 인앱 알림을 클릭합니다
 또는
 전자 메일 알림에서 **모든 알림 보기**&#x200B;를 클릭한 다음 목록에서 알림을 클릭합니다.
 
    **액세스 요청 보류 중** 상자가 표시됩니다.
 
-   ![](assets/notifications-list-approval-box.png)
+   ![알림 목록 승인 상자](assets/notifications-list-approval-box.png)
 1. (선택 사항) 권한을 승인하려는 사용자의 경우 드롭다운 메뉴에서 사용자 이름 오른쪽에 있는 다음 옵션 중 하나를 선택합니다.
    * **보기**
    * **관리**
@@ -312,7 +308,7 @@ Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수
 {{step1-to-planning}}
 
 1. 공유를 중지할 보기를 가진 작업 영역을 연 다음 레코드 유형 카드를 클릭합니다. 그러면 레코드 유형 페이지가 열립니다.
-1. 공유를 제거할 보기의 탭 이름 위에 마우스를 올려 놓고 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **공유**&#x200B;를 클릭합니다.
+1. 공유를 제거할 보기의 탭 이름 위에 마우스를 올려 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **공유**&#x200B;를 클릭합니다.
 1. 보기의 내부 공유를 제거하려면 다음 작업을 수행하십시오.
 
    1. **내부 공유** 탭을 선택했는지 확인하십시오.
