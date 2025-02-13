@@ -6,7 +6,7 @@ description: 이 통합 시나리오는  [!DNL Adobe Workfront] 프로젝트(캠
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 이 시나리오를 사용하려면 [!DNL Workfront]에 다음 항목이 있어야 합니다.
 
-* 시스템 관리자 권한이 있는 [!DNL Workfront]의 사용자 프로필(이름: *[!UICONTROL *[!DNL Anaplan] 통합]**)입니다.
+* [!DNL Workfront]의 사용자 프로필(이름이 **[!DNL Anaplan]통합**&#x200B;임)에 시스템 관리자 권한이 있습니다.
 
   [!DNL Workfront]에서 사용자를 만드는 방법에 대한 자세한 내용은 [사용자 추가](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
 
