@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 4%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 4%
 
 예를 들어 &quot;누군가가 지시된 업데이트에 나를 포함시킵니다&quot;에는 두 개의 서로 다른 제목 줄이 있습니다. 첫 번째는 작업, 문제, 템플릿 작업 및 문서(&quot;referenceObject&quot;라고도 함)에 대한 것이고 두 번째는 사용자가 포트폴리오, 프로그램 등과 같이 주석을 달 수 있는 개체(&quot;topReferenceObject&quot;라고도 함)에 대한 것입니다.
 
-![이벤트가 여러 제목이 아님](assets/Ev-not-mult-subj-lines.png)
+![이벤트가 여러 제목이 아님](assets/ev-multiple-subject.png)
 
 사용자가 작업, 문제, 템플릿 작업 또는 문서에 대한 대화에 포함되어 있으면 이메일이 첫 번째 제목 줄로 생성됩니다. 제목 줄에는 &quot;referenceObject:name&quot;이 포함되며 시스템이 개체를 정의하고 제목 필드에 적절한 이름을 표시합니다. 이메일 제목 줄은 &quot;Project ABC의 작업 123에 대한 댓글&quot;과 유사합니다.
 
@@ -96,6 +96,8 @@ ht-degree: 4%
 
 예를 들어 문제에 문서 추가 요청은 두 개의 서로 다른 이메일을 트리거할 수 있는 이벤트입니다. 하나는 문서가 추가될 때용이고 다른 하나는 문서가 편집될 때용입니다.
 
-![다른 동작 이벤트](assets/ev-not-mult-subj-lines-diff-actions.png)
+
+
+![이벤트가 여러 제목이 아님](assets/Ev-not-mult-subj-lines.png)
 
 전자 메일 제목 줄을 편집하고 제목 줄에 필드를 추가하려면 이 문서의 [이벤트 알림에 대한 전자 메일 제목 줄 사용자 지정](#customize-email-subject-lines-for-event-notifications)을 참조하세요.
