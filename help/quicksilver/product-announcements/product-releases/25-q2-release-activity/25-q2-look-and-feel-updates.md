@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -24,7 +24,9 @@ ht-degree: 0%
 >
 >미리보기 릴리스: 2025년 2월 13일, 모든 고객을 위한 프로덕션 릴리스: 2025년 2월 13일
 
-문서 추가 또는 공유와 관련된 전자 메일의 본문에는 더 이상 썸네일 이미지가 없습니다. 일부 고객은 피할당자의 아바타만 표시되는 이전 작업 및 문제 할당 이메일도 볼 수 있습니다.
+문서 추가 또는 공유와 관련된 전자 메일의 본문에는 더 이상 썸네일 이미지가 없습니다.
+
+일부 고객은 피할당자의 아바타만 표시되는 이전 작업 및 문제 할당 이메일도 볼 수 있습니다.
 
 이메일 지연을 조사할 때 이러한 변경 사항은 일시적입니다.
 
