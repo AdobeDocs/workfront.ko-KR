@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
 source-wordcount: '6493'
 ht-degree: 5%
@@ -663,7 +663,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 >다음 항목은 외부 API 호출의 기술적 제한입니다.
 >
 >* 최대 옵션 수는 2000개입니다(반환된 JSON의 처음 2000개의 고유 옵션만 표시됨).
->* 시간 초과: 3초
+>* 시간 초과: 30초
 >* 재시도 횟수: 3
 >* 재시도 사이의 대기 기간: 500ms
 >* 예상 응답 상태: 2xx

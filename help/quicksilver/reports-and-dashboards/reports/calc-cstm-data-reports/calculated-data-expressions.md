@@ -7,9 +7,9 @@ description: 데이터 표현식을 사용하여 Adobe Workfront에서 계산된
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2433'
 ht-degree: 2%
 
 ---
@@ -458,7 +458,8 @@ For example:
   </tr> 
   <tr> 
    <td><strong>형식</strong> </td> 
-   <td><p>서식 있는 텍스트를 반환합니다. 색상 옵션은 $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE이고, 기타 서식 옵션은 $$BOLD, $$ITALIC, $$UNDERLINE입니다. 최대 3개의 다른 서식 옵션과 함께 기능당 하나의 색상 옵션만 사용할 수 있습니다. 색상 옵션을 지정하지 않으면 시스템의 기본 색상이 적용됩니다.</p>
+   <td><p>서식 있는 텍스트를 반환합니다. 여기에 나열된 매개변수 옵션만 FORMAT으로 허용됩니다.</p>
+   <p>색상 옵션은 $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE이고, 기타 서식 옵션은 $$BOLD, $$ITALIC, $$UNDERLINE입니다. 최대 3개의 다른 서식 옵션과 함께 하나의 색상 옵션만 허용됩니다. 색상 옵션을 지정하지 않으면 시스템의 기본 색상이 적용됩니다.</p>
    <p>표현식의 형식은 다음과 같습니다.</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>참고: 이 표현식은 Workfront Planning에서 지원되지 않습니다.</p></td> 
