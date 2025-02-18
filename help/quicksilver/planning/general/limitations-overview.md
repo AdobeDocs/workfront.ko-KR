@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | 하나의 Workfront 인스턴스에 대한 작업 공간 수 | 제한 없음* |
 | 하나의 작업 영역에 대한 섹션 수 | 50 |
-| 하나의 작업 영역에 대한 레코드 유형 수 | 1,000(모든 섹션의 레코드 유형과 작업 영역 템플릿을 사용할 때 생성된 레코드 유형 포함) |
+| 하나의 작업 영역에 대한 레코드 유형 수 | 100(모든 섹션의 레코드 유형과 작업 공간 템플릿을 사용할 때 생성되는 레코드 유형 포함) |
 | 하나의 레코드 유형에 대한 레코드 수 | 25,000 |
 | 하나의 작업 영역에 대한 레코드 수 | Planning을 사용하는 고객의 경우 25,000명 <br>을(를) 사용하는 고객의 경우 500,000명 Planning Plus를 사용하는 고객 |
 | Workfront Planning 인스턴스 하나에 대한 총 레코드 수 | Planning Plus를 사용하는 고객의 경우 50만, Planning을 사용하는 고객의 경우 <br>2백만 |

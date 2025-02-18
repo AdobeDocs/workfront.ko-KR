@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,10 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 * [외부 목록에서 레코드 목록 복사 및 붙여넣기](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [테이블 보기에서 레코드 복제](#create-records-by-duplicating-them)
 * [다른 레코드와 연결할 때 레코드 만들기](#create-records-as-you-connect-them)
-* [요청 양식을 레코드 유형으로 제출하여 만듭니다.](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [요청 양식을 레코드 유형으로 제출하여 레코드 생성](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [CSV 또는 Excel 파일에서 레코드 유형을 가져올 때 레코드 만들기](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+
+<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
 
 
 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
@@ -78,8 +80,8 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -137,9 +139,9 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
       * 테이블의 마지막 행에서 **새 레코드**&#x200B;을(를) 클릭합니다.
 
       * 표의 열 또는 행에서 키보드에서 **Shift + Enter**&#x200B;를 클릭합니다. 이렇게 하면 시작한 레코드 아래에 빈 행이 추가됩니다.
-      * 레코드의 기본 필드 위에 마우스를 가져다 대고 필드 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **위에 레코드 삽입** 또는 **아래에 레코드 삽입**&#x200B;을(를) 클릭합니다.
+      * 레코드의 기본 필드 위에 마우스를 가져다 대고 필드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **위에 레코드 삽입** 또는 **아래에 레코드 삽입**&#x200B;을 클릭합니다.
 
-     ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![테이블 행에 새 캠페인 추가](assets/adding-a-new-campaign-in-table-row.png)
 
    * 모든 보기에서:
 
@@ -162,14 +164,14 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
    또는
 
-   새 레코드 이름 또는 레코드 이름 왼쪽에 있는 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png)을(를) 클릭합니다. 레코드의 세부 정보가 포함된 미리보기가 테이블에 열립니다.
+   새 레코드 이름 또는 레코드 이름 왼쪽에 있는 **세부 정보 열기** 아이콘 ![테이블 이름 필드의 세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다. 레코드의 세부 정보가 포함된 미리보기가 테이블에 열립니다.
 
    >[!TIP]
    >
    >이름 필드가 기본 필드인 경우 레코드의 이름 필드에서만 **세부 정보 열기** 아이콘에 액세스할 수 있습니다.
 
 1. 레코드 미리 보기에서 레코드 정보 편집을 시작합니다. Workfront은 변경 사항을 자동으로 저장합니다.
-1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다. 레코드 페이지에서 레코드 편집을 계속합니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
+1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭하여 새 탭에서 레코드 페이지를 엽니다. 레코드 페이지에서 레코드 편집을 계속합니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
 1. (선택 사항) 다음 키보드 단축키를 사용하여 표 보기에서 새 레코드 또는 해당 정보를 추가할 때 해당 추가 작업을 취소하거나 다시 실행합니다.
 
@@ -263,7 +265,7 @@ You can import records from other applications by linking them to existing recor
 
    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
-   ![](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![강조 표시된 컨텍스트에서 레코드를 만들기 위한 추가 단추](assets/add-button-to-create-records-in-context-highlighted.png)
 
    레코드가 생성되고 연결된 레코드 필드에 추가됩니다.
 
@@ -297,3 +299,17 @@ CSV 또는 Excel 파일을 사용하여 레코드 유형을 가져올 때 레코
 
 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
+<!--
+<div class="preview">
+
+## Create records by using automations
+
+You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+
+You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+
+For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+
+</div>
+
+-->
