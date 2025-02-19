@@ -6,9 +6,9 @@ description: '알림: 목표'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '569'
 ht-degree: 4%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 4%
 
 다음 표에 나열된 알림은 [!DNL Workfront Goals]에서 발생하는 이벤트(예: 누군가 사용자에게 목표, 결과 또는 활동을 할당하거나 사용자가 소유한 목표, 결과 또는 활동을 업데이트하는 사람)에 대해 알려줍니다. 받는 알림을 구성하는 방법에 대한 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
-![](assets/goals-notifications-preferences-350x114.png)
+![알림 환경 설정](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >

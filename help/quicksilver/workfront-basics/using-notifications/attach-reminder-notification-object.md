@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: 객체에 미리 알림 첨부
-description: "미리 알림 을 프로젝트, 작업, 문제, 타임시트, 템플릿, 템플릿 작업 및 반복 타임시트 프로필과 같은 여러 오브젝트 유형과 연결할 수 있습니다."
+description: 미리 알림 을 프로젝트, 작업, 문제, 타임시트, 템플릿, 템플릿 작업 및 반복 타임시트 프로필과 같은 여러 오브젝트 유형과 연결할 수 있습니다.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -56,14 +56,14 @@ ht-degree: 1%
 ## 객체에 미리 알림 첨부
 
 1. 미리 알림을 첨부할 객체로 이동합니다.
-1. 편집 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 편집 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. 표시되는 **[!UICONTROL 편집]** 상자의 왼쪽 패널에서 **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
 
 1. **[!UICONTROL 미리 알림]**&#x200B;에서 개체에 첨부할 알림을 선택합니다.
 
    이 예에서 편집되는 객체는 작업입니다.
 
-   ![](assets/reminder-notification-select-one-350x213.png)
+   ![미리 알림](assets/reminder-notification-select-one-350x213.png)
 
    [!DNL Workfront] 관리자가 미리 알림을 여러 개 만든 경우 하나의 개체에 여러 개의 알림을 첨부할 수 있습니다.
 

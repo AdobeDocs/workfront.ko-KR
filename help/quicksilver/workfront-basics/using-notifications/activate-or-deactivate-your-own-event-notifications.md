@@ -7,9 +7,9 @@ description: 이 문서에서는 사용자 프로필에서 이메일 알림을 �
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Adobe [!DNL Workfront] 관리자는 Workfront에서 이벤트가 발생할 때 사용자가 받는 전자 메일 알림을 구성합니다([[!UICONTROL 이벤트 구성] 시스템의 모든 사용자를 위한 알림](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)에 설명된 대로).
+Adobe [!DNL Workfront] 관리자는 Workfront에서 이벤트가 발생할 때 사용자가 수신하는 이메일 알림을 구성합니다([[!UICONTROL 이벤트 구성] 시스템의 모든 사용자를 위한 알림](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)에 설명된 대로).
 
 그룹 관리자는 사용자와 [!UICONTROL 홈 그룹]의 사용자에 대해 활성화된 알림을 구성할 수도 있습니다. [!UICONTROL 홈 그룹]이 하위 그룹인 경우 그룹 위의 최상위 그룹에 대해 활성화된 알림을 받게 됩니다.
 
@@ -67,13 +67,13 @@ Adobe [!DNL Workfront] 관리자는 Workfront에서 이벤트가 발생할 때 �
 
 {{step1-click-profile-pic}}
 
-1. 이름 옆에 있는 **[!UICONTROL 자세히]** 아이콘 ![](assets/more-icon.png)을 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+1. 이름 옆에 있는 **[!UICONTROL 자세히]** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
 1. 표시되는 **[!UICONTROL 사용자 편집]** 상자에서 **[!UICONTROL 알림]** 섹션으로 이동합니다.
 
 1. 범주를 클릭하여 해당 범주와 관련된 알림 설정을 봅니다.
 
-   ![](assets/my-profile-notifications.png)
+   ![내 프로필 알림](assets/my-profile-notifications.png)
 
 1. 오른쪽에 있는 확인란을 선택하거나 선택 해제하여 알림을 매일 수신할지, 즉시 수신할지 또는 둘 다 수신할지 여부를 지정합니다.
 
@@ -90,13 +90,13 @@ Adobe [!DNL Workfront] 관리자는 Workfront에서 이벤트가 발생할 때 �
 
 1. 매일 요약으로 보낼 알림을 선택한 경우 **[!UICONTROL 매일 요약 보내기]** 메뉴의 **[!UICONTROL 알림]** 섹션 맨 위에서 알림을 받을 시간을 선택합니다.
 
-   ![](assets/digest-time-stamp-my-settings-350x78.png)
+   ![일별 요약 선택 시간](assets/digest-time-stamp-my-settings-350x78.png)
 
    일별 요약에는 선택한 시간보다 24시간 전에 알림 기준을 충족하는 이벤트가 포함됩니다. 각 알림 유형에 대해 일별 요약 이메일 1개를 받습니다.\
    시스템에서 게재를 위해 큐에 올라가 있는 이메일 수에 따라, 선택한 시간 후에 일별 요약이 도착할 수 있습니다. 나열된 시간은 브라우저 설정에 지정된 현지 시간입니다.
 
 1. (조건부 및 선택 사항) 미리 보기 환경에서 전자 메일 알림 설정을 수정할 때 전자 메일을 받으려면 **[!UICONTROL 이 테스트 환경에서 전자 메일 받기]** 설정을 활성화하십시오. 이메일은 미리보기 환경에서 자동으로 생성되지 않습니다.
 
-   ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+   ![샌드박스에서 전자 메일 받기](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.

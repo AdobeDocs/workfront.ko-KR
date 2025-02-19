@@ -5,9 +5,9 @@ description: 미리보기 샌드박스 환경에서 이메일 알림을 수신�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 1%
 
    또는
 
-   여러 사용자의 경우: Workfront의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 사용자]** ![](assets/users-icon-in-main-menu.png)을(를) 클릭합니다.  그런 다음 여러 사용자를 선택하고 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+   여러 사용자의 경우: Workfront의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 사용자]** ![사용자 아이콘](assets/users-icon-in-main-menu.png)을 클릭합니다.  그런 다음 여러 사용자를 선택하고 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
 1. **[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 이 테스트 환경에서 전자 메일 받기]**&#x200B;를 선택합니다.

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '보기: 사용자 지정 데이터 필드를 사용하는 외부 URL'
+title: '보기: 사용자 정의 데이터 필드를 사용하는 외부 URL'
 description: 작업 보기에서 "사용자 지정 URL"이라는 계산된 사용자 지정 필드를 사용하여 내부 사용자 지정 URL에 대한 링크를 표시할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 아래 예제의 작업 **보기**&#x200B;에는 &quot;사용자 지정 URL&quot;이라는 **계산된 사용자 지정 필드**&#x200B;이(가) 작업&#x200B;**세부 정보** 탭의 **개요** 하위 탭과 작업의 **URL** 필드에 대한 직접 링크로 표시됩니다.
 
-![](assets/task-view-with-custom-url-field-quicksilver-350x70.png)
+(assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
 이 보기를 사용자 지정하려면:
 

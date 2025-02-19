@@ -5,9 +5,9 @@ description: Adobe Workfront은 귀하에게 할당되거나 귀하가 소유한
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -75,12 +75,12 @@ ht-degree: 0%
    >
    >프로젝트를 구독하려면 다음 중 하나를 수행할 수 있습니다.
    >
-   >* 구독하려는 프로젝트로 이동하여 프로젝트 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 아이콘 ![](assets/qs-more-menu.png)을 클릭한 다음 **[!UICONTROL 구독]**&#x200B;을 클릭합니다.
-   >* 프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택하고 목록 맨 위에 있는 **[!UICONTROL 자세히]** 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭한 다음 **[!UICONTROL 구독]**&#x200B;을(를) 클릭합니다. 이 기능은 프로젝트 목록에서만 사용할 수 있습니다.
+   >* 구독하려는 프로젝트로 이동하여 프로젝트 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 아이콘 ![추가 메뉴](assets/qs-more-menu.png)를 클릭한 다음 **[!UICONTROL 구독]**&#x200B;을 클릭합니다.
+   >* 프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택하고 목록 맨 위에 있는 **[!UICONTROL 자세히]** 아이콘 ![추가 메뉴](assets/qs-more-menu.png)를 클릭한 다음 **[!UICONTROL 구독]**&#x200B;을 클릭합니다. 이 기능은 프로젝트 목록에서만 사용할 수 있습니다.
 
-1. **[!UICONTROL 자세히]** ![](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL 구독]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png)을 클릭한 다음 **[!UICONTROL 구독]**&#x200B;을 클릭합니다.
 
-   ![](assets/subscribe-to-a-work-item-350x258.png)
+   ![작업 항목 구독](assets/subscribe-to-a-work-item-350x258.png)
 
    벨에 확인 표시가 나타나고 옆에 있는 숫자가 업데이트되어 구독한 사용자 수에 추가됩니다.
 
@@ -102,12 +102,12 @@ ht-degree: 0%
    >
    >프로젝트 구독을 취소하려면 다음 중 하나를 수행할 수 있습니다.
    >
-   >* 구독을 취소할 프로젝트로 이동하여 프로젝트 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 아이콘 ![](assets/qs-more-menu.png)을 클릭한 다음 **[!UICONTROL 구독 취소]**&#x200B;를 클릭합니다.
-   >* 프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택하고 목록 맨 위에 있는 **[!UICONTROL 자세히]** 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭한 다음 **[!UICONTROL 구독 취소]**&#x200B;를 클릭합니다. 이 기능은 프로젝트 목록에서만 사용할 수 있습니다.
+   >* 구독을 취소하려는 프로젝트로 이동하여 프로젝트 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 아이콘 ![자세히 아이콘](assets/qs-more-menu.png)을 클릭한 다음 **[!UICONTROL 구독 취소]**&#x200B;를 클릭합니다.
+   >* 프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택하고 목록 맨 위에 있는 **[!UICONTROL 자세히]** 아이콘 ![자세히 아이콘](assets/qs-more-menu.png)을 클릭한 다음 **[!UICONTROL 구독 취소]**&#x200B;를 클릭합니다. 이 기능은 프로젝트 목록에서만 사용할 수 있습니다.
 
-1. **[!UICONTROL 자세히]** ![](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL 구독 취소]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png)을 클릭한 다음 **[!UICONTROL 구독 취소]**&#x200B;를 클릭합니다.
 
-   ![](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![작업 항목에서 구독 취소](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. 구독 이메일에서 [!UICONTROL 구독 취소] 링크를 클릭하여 구독 중인 항목에서 구독을 취소할 수도 있습니다.
 
@@ -136,7 +136,7 @@ ht-degree: 0%
    >   
    >* 프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택합니다.
 
-1. **[!UICONTROL 자세히]** ![](assets/more-icon.png)을(를) 클릭합니다.
+1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png)을 클릭합니다.
 1. **[!UICONTROL 구독]** 링크 옆에 있는 숫자 버블을 클릭합니다.
 1. 표시되는 상자에서 **[!UICONTROL 다른 사용자 구독]** 상자에 사용자 이름을 입력한 다음 표시되는 옵션에서 사용자를 선택합니다.
 
@@ -159,7 +159,7 @@ ht-degree: 0%
    >   
    >* 프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택합니다.
 
-1. **[!UICONTROL 자세히]** ![](assets/more-icon.png)을(를) 클릭합니다.
+1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png)을 클릭합니다.
 1. **[!UICONTROL 구독]** 또는 **[!UICONTROL 구독 취소]** 링크 옆에 있는 숫자 버블을 클릭합니다.
 1. 표시되는 **[!UICONTROL 구독자]** 페이지에서 구독을 취소하려는 사용자 이름 옆에 있는 &quot;X&quot;를 클릭합니다.
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 누군가가 내가 가입한 항목에 대한 댓글을 게시하면 바로 인앱 알림을 받게 된다.
 
-![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
+![앱 알림에서](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 자세한 내용은 [인앱 알림 보기 및 관리](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)를 참조하세요.
 
