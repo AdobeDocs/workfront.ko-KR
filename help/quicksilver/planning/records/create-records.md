@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -256,10 +256,16 @@ You can import records from other applications by linking them to existing recor
 
 다른 레코드에서 연결할 때 레코드를 만들려면 다음 작업을 수행하십시오.
 
-1. [레코드 연결](/help/quicksilver/planning/records/connect-records.md) 문서에 설명된 대로 Workfront Planning 레코드 연결을 시작합니다. Workfront Planning의 다음 영역에 있는 연결 필드에서 레코드를 연결할 수 있습니다.
+1. [레코드 연결](/help/quicksilver/planning/records/connect-records.md) 문서에 설명된 대로 Workfront Planning 레코드 연결을 시작합니다. 다음 영역의 레코드를 연결할 수 있습니다.
 
-   * 테이블 보기
-   * 레코드의 세부 정보 페이지 또는 미리보기 상자
+   * Workfront Planning의 다음 영역에 있는 연결 필드:
+
+      * 테이블 보기
+      * 레코드의 세부 정보 페이지 또는 미리보기 상자
+
+   * Workfront에 있는 프로젝트, 포트폴리오 또는 프로그램의 계획 섹션에 있는 연결 필드입니다.
+
+     자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
 
 1. (조건부) 다른 레코드의 연결된 레코드 필드에서 레코드를 추가하려고 할 때 해당 레코드를 찾을 수 없으면 레코드를 검색한 다음 **+ 추가**&#x200B;를 클릭합니다. **+ 추가** 단추 다음에 연결 중인 레코드 형식의 이름이 옵니다. 예: 기존 캠페인에 브랜드를 추가할 때 &quot;브랜드 추가&quot; 입력한 이름도 [추가] 단추 다음에 표시됩니다.
 

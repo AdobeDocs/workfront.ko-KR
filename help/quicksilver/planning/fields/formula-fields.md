@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -67,8 +67,8 @@ ht-degree: 7%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -230,6 +230,14 @@ Workfront 식의 전체 목록을 보려면 [계산된 데이터 식의 개요](
 <code>{ID}</code>
 </p>
    </td></tr>
+  <!--
+   <tr> 
+   <td><strong>JSONELEMENT</strong> </td> 
+   <td> <p>Returns the data from JSON by the provided JSONPath. If the JSONPath doesn't exist in the JSON, an empty result will be returned. </p> <p>The expression is formatted as follows:
+      <code>JSONELEMENT(JSONString, JSONPathString) </code>
+   </p>
+   </td></tr>
+   -->
 
 <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 

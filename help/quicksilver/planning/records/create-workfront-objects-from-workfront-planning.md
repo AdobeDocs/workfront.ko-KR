@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 1%
 
 ---
 
@@ -64,6 +64,7 @@ Workfront Planning의 다음 영역에 있는 연결 필드에서 프로젝트 �
 
 * 레코드 유형의 표 보기
 * 레코드의 세부 정보 페이지 또는 미리보기 상자
+* 레코드의 연결 탭
 
 Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하십시오.
 

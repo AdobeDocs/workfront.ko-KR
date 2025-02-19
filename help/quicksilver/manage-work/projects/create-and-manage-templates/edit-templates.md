@@ -6,9 +6,9 @@ description: 프로젝트 프로세스 및 설정의 변경 사항을 반영하�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '4720'
+source-wordcount: '4809'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 2%
    <td role="rowheader">개체 권한</td> 
    <td> 
     <ul> 
-     <li> <p>템플릿 세부 정보 탭에서 편집할 수 있는 템플릿에 대한 Contribute 권한</p> </li> 
+     <li> <p>템플릿 세부 정보 탭에서 템플릿을 편집할 수 있는 권한을 템플릿에 제공</p> </li> 
      <li> <p>템플릿 편집 상자에서 편집할 템플릿에 대한 권한을 관리합니다.</p> </li> 
    </td> 
   </tr> 
@@ -592,6 +592,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    * [작업 설정](#task-settings)
    * [문제 설정](#issue-settings)
    * [액세스](#access-preview)
+   * [연결된 폴더](#linked-folders-conditional-availability)(조건부 가용성)
 
 
 ### 템플릿 이름{#template-name}
@@ -624,12 +625,12 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <td>템플릿에 대한 추가 정보를 추가합니다.</td> 
        </tr> 
          <tr> 
-         <td role="rowheader"><strong>우선 순위</strong></td> 
+         <td role="rowheader"><strong>우선순위</strong></td> 
          <td><p>이는 향후 프로젝트에 우선 순위를 지정할 수 있도록 해 주는 시각적 플래그일 뿐입니다. 다음 옵션 중에서 선택합니다.</p> 
          <ul> 
          <li><p><strong>없음</strong></p></li> 
          <li><p><strong>낮음</strong></p></li> 
-         <li><p><strong>기본</strong></p></li> 
+         <li><p><strong>보통</strong></p></li> 
          <li><p><strong>높음</strong></p></li> 
          <li><p><strong>긴급</strong></p></li> 
          </ul><p><p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a>을 참조하십시오.</p></p></td> 
@@ -657,12 +658,12 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr>
 
    <tr> 
-         <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td><p>이 템플릿에서 만든 프로젝트에 대한 Portfolio을 지정하십시오. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. </p><p>활성 포트폴리오만 목록에 표시됩니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>를 참조하십시오.</p></td> 
+         <td role="rowheader"><strong>포트폴리오</strong></td> 
+         <td><p>이 템플릿에서 만드는 프로젝트에 대한 Portfolio을 지정하십시오. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. </p><p>활성 포트폴리오만 목록에 표시됩니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>를 참조하십시오.</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>프로그램</strong></td> 
-         <td><p>템플릿에 대한 Portfolio을 선택한 경우 향후 프로젝트에 대해 <strong>프로그램</strong>을(를) 지정하십시오. 일부 Portfolio은 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 목록에 표시됩니다.</p><p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>를 참조하십시오.</p></td> 
+         <td><p>템플릿에 대해 Portfolio을 선택한 경우 향후 프로젝트에 대해 <strong>프로그램</strong>을(를) 지정하십시오. 일부 포트폴리오에는 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 목록에 표시됩니다.</p><p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>를 참조하십시오.</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>그룹</strong></td> 
@@ -737,7 +738,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    </tr> 
          <tr> 
          <td role="rowheader"><strong>계획된 이익</strong></td> 
-         <td><p>이 템플릿에서 만든 프로젝트의 계획된 이점을 지정하십시오. 계획된 혜택은 프로젝트 및 Portfolio 최적기의 비즈니스 사례에 사용됩니다. </p><p>프로젝트의 계획된 편익에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">프로젝트 계획된 편익 개요</a>를 참조하십시오. 프로젝트의 순 가치 계산 시 프로젝트의 계획된 이익이 고려됩니다. </p><p>Portfolio 최적화 도구 사용에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Portfolio 최적화 도구에서 프로젝트 관리</a>를 참조하십시오. </p></td> 
+         <td><p>이 템플릿에서 만든 프로젝트의 계획된 이점을 지정하십시오. 계획된 혜택은 프로젝트 및 Portfolio Optimizer의 비즈니스 사례에 사용됩니다. </p><p>프로젝트의 계획된 편익에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">프로젝트 계획된 편익 개요</a>를 참조하십시오. 프로젝트의 순 가치 계산 시 프로젝트의 계획된 이익이 고려됩니다. </p><p>Portfolio Optimizer 사용에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Portfolio Optimizer에서 프로젝트 관리</a>를 참조하세요. </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>고정 비용</strong></td> 
@@ -991,23 +992,23 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
        <tr> 
          <td role="rowheader"><strong>누군가가 작업에 할당되었을 때</strong> </td> 
-         <td> <p>작업에 대한 <strong>보기</strong>, <strong>Contribute,</strong> 또는 <strong>관리</strong> 액세스에서 선택하십시오. 작업에 할당된 사용자에게는 작업에 대한 이 액세스 권한이 자동으로 부여됩니다. </p> </td> 
+         <td> <p>작업에 대한 <strong>보기</strong>, <strong>참여,</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 작업에 할당된 사용자에게는 작업에 대한 이 액세스 권한이 자동으로 부여됩니다. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>프로젝트에 대한 액세스 권한도 부여</strong> </td> 
-         <td> <p> 프로젝트에 대한 <strong>보기</strong>, <strong>Contribute</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 작업에 할당된 사용자에게는 프로젝트에 대한 이 액세스 권한도 자동으로 부여됩니다. </p> </td> 
+         <td> <p> 프로젝트에 대한 <strong>보기</strong>, <strong>기여</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 작업에 할당된 사용자에게는 프로젝트에 대한 이 액세스 권한도 자동으로 부여됩니다. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>누군가 문제에 할당되었을 때</strong> </td> 
-         <td> <p>문제에 대한 <strong>보기</strong>, <strong>Contribute,</strong> 또는 <strong>관리</strong> 액세스에서 선택하십시오. 문제에 할당된 사용자에게 문제에 대한 이 액세스 권한이 자동으로 부여됩니다. </p> </td> 
+         <td> <p>문제에 대한 <strong>보기</strong>, <strong>참여,</strong> 또는 <strong>관리</strong> 액세스에서 선택하십시오. 문제에 할당된 사용자에게 문제에 대한 이 액세스 권한이 자동으로 부여됩니다. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>프로젝트에 대한 액세스 권한도 부여</strong> </td> 
-         <td> <p> 프로젝트에 대한 <strong>보기</strong>, <strong>Contribute</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 문제에 할당된 사용자에게는 프로젝트에 대한 이 액세스 권한도 자동으로 부여됩니다. </p> </td> 
+         <td> <p> 프로젝트에 대한 <strong>보기</strong>, <strong>기여</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 문제에 할당된 사용자에게는 프로젝트에 대한 이 액세스 권한도 자동으로 부여됩니다. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>누군가 요청을 제출하면 액세스 권한 부여</strong> </td> 
-         <td> <p> 요청에 대한 <strong>보기</strong>, <strong>Contribute</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 프로젝트에 요청을 제출하면 제출한 요청에 대한 이 액세스 권한이 부여됩니다. 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> </td> 
+         <td> <p> 요청에 대한 <strong>보기</strong>, <strong>기여</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 프로젝트에 요청을 제출하면 제출한 요청에 대한 이 액세스 권한이 부여됩니다. 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>같은 회사의 직원들이 모든 요청에 대해 동일한 권한을 상속합니다</strong> </td> 
@@ -1030,6 +1031,23 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    이제 이 템플릿을 사용하여 프로젝트를 만들면 이러한 모든 설정이 새 프로젝트로 전송됩니다.
 
+
+### 연결된 폴더(조건부 가용성) {#linked-folders}
+
+연결된 폴더 기능은 자동으로 Adobe Experience Manager Assets에 폴더를 만들고 이러한 폴더를 Workfront에 연결합니다.
+
+이 섹션은 다음 사항이 모두 적용되는 경우에만 나타납니다.
+
+* 조직이 Adobe Admin Console으로 마이그레이션되었습니다.
+* 조직에서 Adobe Experience Manager과의 통합을 활성화하고 구성했습니다.
+* 템플릿에서 연결된 폴더를 활성화하고 구성했습니다.
+
+연결된 폴더 편집에 대한 지침은 [Experience Manager Assets 통합에서 워크플로 사용](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md) 문서의 [프로젝트의 워크플로 값 편집](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project)을 참조하십시오.
+
+<!--I don't think this note is valid anymore - this note was on Edit project when this section was in that article, by mistake: 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
 
 ## 일괄 템플릿 편집
 

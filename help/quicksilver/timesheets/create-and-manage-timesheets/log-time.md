@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '3826'
+source-wordcount: '3824'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>시간을 기록한 작업 항목 유형에 대한 보기 이상의 액세스 권한 </p> <p>예를 들어 문제에 대한 시간을 기록하려면 문제에 대한 보기 액세스 권한이 필요합니다</p> </td> 
+   <td> <p>시간을 기록한 작업 항목 유형에 대한 액세스 편집 </p> <p>예를 들어 문제에 대한 시간을 기록하려면 문제에 대한 편집 액세스 권한이 필요합니다</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>Contribute 또는 시간을 기록하는 작업 항목에 대한 더 높은 권한에는 시간 기록 권한이 포함됩니다</p> </td> 
+   <td> <p>시간을 기록하는 작업 항목에 대한 기여 또는 더 높은 권한과 함께 시간 기록 권한 포함</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -420,7 +420,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 다음 항목이 모두 있어야 합니다.
 
 * 타임시트 및 시간에 대한 관리 액세스 권한이 있는 플랜 라이선스. 타임시트 및 시간에 대한 관리 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [특정 영역에 대한 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
-* 로그 시간에 대한 액세스 권한이 있는 프로젝트에 대한 Contribute 이상의 권한입니다. 프로젝트에 대한 권한 부여에 대한 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)를 참조하십시오.
+* 로그 시간에 액세스할 수 있는 프로젝트에 대한 또는 더 높은 권한을 제공하십시오. 프로젝트에 대한 권한 부여에 대한 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)를 참조하십시오.
 * 프로젝트에 직접 시간을 기록하려면 Workfront 관리자가 설정 영역의 **타임시트 및 시간 > 환경 설정** 섹션에서 프로젝트에 직접 시간 기록 설정을 활성화해야 합니다. 사용자가 시간을 프로젝트에 직접 기록할 수 있도록 허용하는 방법에 대한 자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하십시오.
 
 프로젝트, 작업 또는 문제의 시간 섹션에 시간을 기록하려면 다음을 수행하십시오.

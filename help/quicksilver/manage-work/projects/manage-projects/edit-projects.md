@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7703'
 ht-degree: 1%
 
 ---
@@ -169,7 +169,6 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
    * [작업 설정](#task-settings)
    * [문제 설정](#issue-settings)
    * [액세스](#access)
-   * [연결된 폴더](#linked-folders-conditional-availability)(조건부 가용성)
    * <span class="preview">[댓글](#comment)</span>
 
 
@@ -667,22 +666,6 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
    </table>
 
 1. **저장**&#x200B;을 클릭합니다.
-
-### 연결된 폴더(조건부 가용성) {#linked-folders}
-
-연결된 폴더 기능은 자동으로 Adobe Experience Manager Assets에 폴더를 만들고 이러한 폴더를 Workfront에 연결합니다.
-
-이 섹션은 다음 사항이 모두 적용되는 경우에만 나타납니다.
-
-* 조직이 Adobe Admin Console으로 마이그레이션되었습니다.
-* 조직에서 Adobe Experience Manager과의 통합을 활성화하고 구성했습니다.
-* 이 프로젝트를 만드는 데 사용된 템플릿에 연결된 폴더가 사용 및 구성되었습니다.
-
-연결된 폴더 편집에 대한 지침은 [Experience Manager Assets 통합에서 워크플로 사용](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md) 문서의 [프로젝트의 워크플로 값 편집](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project)을 참조하십시오.
-
->[!NOTE]
->
->연결된 폴더는 프로젝트를 만들 때 만들어지므로 기존 프로젝트에서 연결된 폴더 워크플로를 편집하면 효과가 없습니다. 프로젝트를 만들 때 이러한 값을 편집하면 예상대로 작동합니다.
 
 <div class="preview">
 

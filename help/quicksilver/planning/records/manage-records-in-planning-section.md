@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1475'
 ht-degree: 1%
 
 ---
@@ -69,8 +69,8 @@ Workfront의 다음 영역에 Workfront Planning 레코드 및 Adobe Workfront �
 <tr>
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
    <td>
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p>
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p>
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p>
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p>
    </td>
 
 </tr>
@@ -84,20 +84,20 @@ Workfront의 다음 영역에 Workfront Planning 레코드 및 Adobe Workfront �
   </tr>
   <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>프로젝트, 프로그램 및 Portfolio에 대한 보기 또는 상위 액세스 권한</p>  
+   <td> <p>프로젝트, 프로그램 및 포트폴리오 보기 또는 상위 액세스</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>개체 권한</p></td>
    <td>
    <p>Workfront에서 프로젝트, 포트폴리오 또는 프로그램에 대한 권한 보기 이상</a> </p> 
-   <p>Workfront Planning에서 작업 영역에 대한 권한을 보고 연결된 레코드를 보거나 Contribute 또는 작업 영역에 대한 권한 이상을 보고 레코드를 연결하거나 연결을 끊습니다</a> </p>  
+   <p>Workfront Planning에서 작업 영역에 대한 권한을 보고 연결된 레코드를 보거나 Contribute 또는 작업 영역에 대한 권한 이상을 제공하여 레코드를 연결하거나 연결을 끊습니다</a> </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 Workfront Planning 작업 영역에 대한 권한을 가집니다</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 객체에 대한 계획 영역 또는 계획 섹션을 보려면 Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역과 프로젝트, 포트폴리오 및 프로그램의 계획 영역이 포함된 레이아웃 템플릿을 지정해야 합니다. </p> 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">Adobe 계획 액세스 개요</a>를 참조하십시오. </p>  </p>  
+   <td> <p>Workfront 객체에 대한 계획 영역 또는 계획 섹션을 보려면 Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역과 프로젝트, 포트폴리오 및 프로그램의 계획 영역이 포함된 레이아웃 템플릿을 지정해야 합니다. </p> 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Planning 액세스 개요</a>를 참조하십시오. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -172,7 +172,10 @@ Workfront 객체의 계획 섹션에서 Workfront Planning 레코드를 볼 때�
    * 레코드가 더 이상 Workfront 개체에 연결되어 있지 않습니다.
    * Workfront 개체는 Workfront Planning에서 레코드의 연결된 필드에서도 제거됩니다.
    * 계획 레코드에 연결된 Workfront 조회 필드의 값도 삭제됩니다.
-1. 연결된 레코드 형식에 대한 레코드를 더 연결하려면 **연결**&#x200B;을(를) 클릭하십시오. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
+1. 연결된 레코드 형식에 대한 레코드를 더 연결하려면 **연결**&#x200B;을(를) 클릭하십시오.
+
+   자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
+1. (선택 사항) 연결할 레코드를 찾을 수 없는 경우 해당 레코드를 추가하려면 **+ 추가**&#x200B;를 클릭하여 새 레코드를 추가합니다. 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;다른 레코드와 연결할 때 레코드 만들기&quot; 섹션을 참조하십시오.
 
    다음과 같은 상황이 발생합니다.
 

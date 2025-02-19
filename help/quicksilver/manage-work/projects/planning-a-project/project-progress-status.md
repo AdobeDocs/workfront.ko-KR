@@ -7,9 +7,9 @@ description: Adobe Workfront은 타임라인 전체에서 프로젝트의 진행
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Adobe Workfront은 타임라인 전체에서 프로젝트의 진행률을 확인
   </tr> 
   <tr> 
    <td>위험 상태</td> 
-   <td> 다음 중 <strong>모두</strong>이(가) true인 경우 프로젝트의 진행 상태는 <strong>위험</strong>입니다.<ul><li>예상 완료 일자와 예상 완료 일자는 모두 미래입니다.</li><li> 예상 및 예상 완료 일자가 모두 계획된 완료 일자보다 늦습니다.</li><li> 예상 완료 일자가 예상 완료 일자보다 늦음</li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> 다음 중 <strong>모두</strong>이(가) true인 경우 프로젝트의 진행 상태는 <strong>위험</strong>입니다.<ul><li>예상 완료 일자와 예상 완료 일자는 모두 미래입니다.</li><li> 예상 완료 일자가 계획된 완료 일자와 예상 완료 일자 모두보다 늦습니다. </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>지연됨</td> 
