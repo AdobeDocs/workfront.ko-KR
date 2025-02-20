@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 8%
+source-wordcount: '651'
+ht-degree: 7%
 
 ---
 
@@ -230,16 +230,13 @@ Workfront 식의 전체 목록을 보려면 [계산된 데이터 식의 개요](
 <code>{ID}</code>
 </p>
    </td></tr>
-  <!--
-   <tr> 
+  <tr> 
    <td><strong>JSONELEMENT</strong> </td> 
-   <td> <p>Returns the data from JSON by the provided JSONPath. If the JSONPath doesn't exist in the JSON, an empty result will be returned. </p> <p>The expression is formatted as follows:
+   <td> <p>제공된 JSONPath로 JSON의 데이터를 반환합니다. JSONPath가 JSON에 존재하지 않으면 빈 결과가 반환됩니다. </p> <p>표현식의 형식은 다음과 같습니다.
       <code>JSONELEMENT(JSONString, JSONPathString) </code>
    </p>
    </td></tr>
-   -->
-
-<tr> 
+  <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>날짜 및 시간의 시간대를 특정 시간대로 설정합니다.</p> <p>표현식의 형식은 다음과 같습니다.
 

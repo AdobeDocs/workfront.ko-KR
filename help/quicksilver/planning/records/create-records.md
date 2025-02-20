@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1801'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # 레코드 만들기
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -33,8 +33,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 * [다른 레코드와 연결할 때 레코드 만들기](#create-records-as-you-connect-them)
 * [요청 양식을 레코드 유형으로 제출하여 레코드 생성](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [CSV 또는 Excel 파일에서 레코드 유형을 가져올 때 레코드 만들기](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-
-<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
+* <span class="preview">[자동화를 사용하여 레코드 만들기](#create-records-by-using-automations)</span>
 
 
 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
@@ -246,7 +245,7 @@ You can import records from other applications by linking them to existing recor
 >
 >Workfront 프로젝트 및 포트폴리오를 Workfront Planning 레코드에 연결할 때 만드는 것은 다른 레코드에서 연결할 때 Planning 레코드를 만드는 것과 비슷합니다.
 >
->Workfront Planning에서 Workfront 개체를 만드는 방법에 대한 자세한 내용은 [Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)를 참조하십시오.
+>Workfront Planning에서 Workfront 개체를 만드는 방법에 대한 자세한 내용은 [기록에 연결할 때 Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)를 참조하십시오.
 
 기존 레코드에서 새 레코드를 연결하여 추가하려면 먼저 다음 항목이 있어야 합니다.
 
@@ -267,7 +266,10 @@ You can import records from other applications by linking them to existing recor
 
      자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
 
-1. (조건부) 다른 레코드의 연결된 레코드 필드에서 레코드를 추가하려고 할 때 해당 레코드를 찾을 수 없으면 레코드를 검색한 다음 **+ 추가**&#x200B;를 클릭합니다. **+ 추가** 단추 다음에 연결 중인 레코드 형식의 이름이 옵니다. 예: 기존 캠페인에 브랜드를 추가할 때 &quot;브랜드 추가&quot; 입력한 이름도 [추가] 단추 다음에 표시됩니다.
+1. (조건부) 연결을 시도할 때 레코드를 찾을 수 없는 경우 <span class="preview">**+ 추가**</span>&#x200B;를 클릭합니다.
+
+   또는
+이름을 입력한 다음 **+ 추가**&#x200B;를 클릭합니다. **+ 추가** 단추 다음에 연결 중인 레코드 형식의 이름이 옵니다. 예: 기존 캠페인에 브랜드를 추가할 때 &quot;브랜드 추가&quot; 입력한 이름도 [추가] 단추 다음에 표시됩니다.
 
    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
@@ -275,14 +277,12 @@ You can import records from other applications by linking them to existing recor
 
    레코드가 생성되고 연결된 레코드 필드에 추가됩니다.
 
-   <!--
-    >[!IMPORTANT]
-    >
-    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
-    >
-    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
-    >
-    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record. -->
+   >[!IMPORTANT]
+   >
+   >* 레코드에서 연결할 때 Workfront에서 프로젝트, 포트폴리오 및 프로그램만 만들 수 있습니다.
+   >
+   >* Workfront Planning의 레코드에서 그룹 또는 회사를 연결할 때 그룹 또는 회사를 만들 수 없습니다.
+   > 
 
 1. (선택 사항) 레코드를 생성한 레코드 유형의 테이블 뷰로 이동합니다. 새 레코드가 보기의 마지막 행에 표시됩니다.
 1. (선택 사항) 테이블 보기에서 새 레코드에 대한 정보 추가를 시작합니다
@@ -305,17 +305,16 @@ CSV 또는 Excel 파일을 사용하여 레코드 유형을 가져올 때 레코
 
 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
-<!--
 <div class="preview">
 
-## Create records by using automations
+## 자동화를 사용하여 레코드 만들기
 
-You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+활성화된 경우 Planning 레코드에서 트리거될 때 레코드를 생성하도록 Workfront Planning에서 자동화를 구성할 수 있습니다. 생성된 레코드는 자동화를 트리거하는 레코드에 자동으로 연결됩니다.
 
-You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+Workfront Planning의 레코드 페이지에서 자동화를 구성하고 활성화할 수 있습니다. 생성된 연결된 레코드는 자동화를 실행하는 레코드 유형의 연결된 필드에 배치됩니다.
 
-For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오.
 
 </div>
 
--->
+

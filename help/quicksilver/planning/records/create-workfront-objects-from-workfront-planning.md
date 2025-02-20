@@ -6,16 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 1%
+source-wordcount: '1140'
+ht-degree: 2%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Workfront Planning <!--as you connect them to records-->에서 Workfront 개체 만들기
+# 레코드에 연결할 때 Workfront Planning에서 Workfront 개체 만들기
 
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
@@ -26,41 +26,29 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-You can create Adobe Workfront objects from Workfront Planning in the following ways: 
+Workfront Planning에서 다음과 같은 방법으로 Adobe Workfront 객체를 생성할 수 있습니다.
 
-* As you try to connect Workfront objects from Planning records
+* Planning 레코드에서 Workfront 객체를 연결할 때
 
-    This article describes how to create Workfront objects from Workfront Planning as you try to connect them from Planning records. 
-* <span class="preview">When you use automations from a record's page.</span> 
+  이 문서에서는 Planning 레코드에서 연결할 때 Workfront Planning에서 Workfront 객체를 만드는 방법에 대해 설명합니다.
+* <span class="preview">레코드 페이지에서 자동화를 사용하는 경우.</span>
 
-    For information about creating Workfront objects using automations, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
--->
+  <span class="preview">자동화를 사용하여 Workfront 개체를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오. </span>
 
 Workfront Planning 레코드를 다음 Workfront 객체 유형과 연결할 때 Workfront Planning에서 다음 유형의 Workfront 객체를 생성할 수 있습니다.
 
 * 프로젝트
 * 포트폴리오
-  <!--* <span class="preview">Programs</span>-->
+* <span class="preview">프로그램</span>
 
 >[!IMPORTANT]
 >
->* 레코드에서 프로젝트 및 포트폴리오를 연결할 때 Workfront에서 프로젝트 및 포트폴리오만 만들 수 있습니다.
+>* 레코드에서 연결할 때 Workfront에서 프로젝트, 포트폴리오 및 <span class="preview">프로그램</span>만 만들 수 있습니다.
 >
->* Workfront Planning의 레코드에서 프로그램, 그룹 또는 회사를 연결할 때 만들 수 없습니다.
+>* Workfront Planning의 레코드에서 그룹 또는 회사를 연결할 때 그룹 또는 회사를 만들 수 없습니다.
 >
 
-<!--replace the IMPORTANT above with this when we release programs: 
-
->[!IMPORTANT]
->
->* You can create only projects, portfolios, and <span class="preview">programs</span> in Workfront when connecting them from a record. 
->
->* You cannot create groups or companies when connecting them from a record in Workfront Planning. 
->
--->
-
-Workfront Planning의 다음 영역에 있는 연결 필드에서 프로젝트 및 포트폴리오 <!--<span class="preview"> and programs </span>-->을(를) 연결할 수 있습니다.
+Workfront Planning의 다음 영역에 있는 연결 필드에서 프로젝트, 포트폴리오, <span class="preview"> 및 프로그램 </span>을(를) 연결할 수 있습니다.
 
 * 레코드 유형의 표 보기
 * 레코드의 세부 정보 페이지 또는 미리보기 상자
@@ -145,7 +133,7 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
 
 기존 레코드에서 새 프로젝트 또는 포트폴리오를 연결하여 추가하려면 먼저 다음 사항이 있어야 합니다.
 
-* Workfront 프로젝트 또는 포트폴리오 <!--or <span class="preview">programs</span>-->에 연결된 레코드 유형입니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+* Workfront 프로젝트, 포트폴리오 또는 <span class="preview">프로그램</span>에 연결된 레코드 유형입니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 * 레코드. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 * 이 문서의 [액세스 요구 사항](#access-requirements) 섹션에 설명된 대로 Workfront Planning 및 Workfront의 올바른 액세스 및 권한.
 
@@ -155,7 +143,11 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
 
 1. [레코드 연결](/help/quicksilver/planning/records/connect-records.md) 문서에 설명된 대로 레코드의 세부 정보 페이지 또는 레코드 유형의 테이블로 이동하여 Workfront Planning 레코드와 Workfront 프로젝트 연결을 시작합니다.
 
-1. (조건부) <!--<span class="preview">Click **Add project**</span> Or Start typing the name of a project, then click **Add project** if you cannot find it.--> 다른 레코드의 연결된 레코드 필드에서 프로젝트를 추가하려고 할 때 프로젝트를 찾을 수 없으면 이름을 추가한 다음 **프로젝트 추가**&#x200B;를 클릭합니다. [추가] 단추 다음에 입력한 프로젝트 이름이 옵니다.
+1. (조건부) <span class="preview">**프로젝트 추가**</span> 클릭
+또는
+프로젝트 이름을 입력한 다음 찾을 수 없는 경우 **프로젝트 추가**&#x200B;를 클릭합니다.
+
+   다른 레코드의 연결된 레코드 필드에서 프로젝트를 추가할 때 프로젝트를 찾을 수 없으면 이름을 추가한 다음 **프로젝트 추가**&#x200B;를 클릭합니다. [추가] 단추 다음에 입력한 프로젝트 이름이 옵니다.
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
 
@@ -180,7 +172,11 @@ Planning 레코드에서 포트폴리오를 연결할 때 포트폴리오를 생
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
 
-1. (조건부) <!--<span class="preview">Click **Add portfolio**</span> Or Start typing the name of a portfolio, then click **Add portfolio** if you cannot find it.--> 다른 레코드의 연결된 레코드 필드에서 포트폴리오를 추가하려고 할 때 해당 포트폴리오를 찾을 수 없으면 이름을 추가한 다음 **포트폴리오 추가**&#x200B;를 클릭합니다. 추가 단추 뒤에는 입력한 포트폴리오 이름도 표시됩니다.
+1. (조건부) <span class="preview">**포트폴리오 추가**</span> 클릭
+
+   또는
+
+   포트폴리오의 이름을 입력한 다음 찾을 수 없는 경우 **포트폴리오 추가**&#x200B;를 클릭합니다.—> 다른 레코드의 연결된 레코드 필드에서 포트폴리오를 추가할 때 해당 포트폴리오를 찾을 수 없으면 이름을 추가한 다음 **포트폴리오 추가**&#x200B;를 클릭합니다. 추가 단추 뒤에는 입력한 포트폴리오 이름도 표시됩니다.
 
    ![연결 필드에서 연결할 때 포트폴리오 추가](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -188,36 +184,33 @@ Planning 레코드에서 포트폴리오를 연결할 때 포트폴리오를 생
 
 1. (선택 사항) Workfront Planning에서 새 포트폴리오의 이름을 클릭하여 Workfront에서 포트폴리오의 페이지를 열고 포트폴리오를 추가로 업데이트합니다.
 
-<!--
-
 <div class="preview">
 
-## Create programs as you connect them with records from Workfront Planning
+## Workfront Planning의 레코드와 연결하여 프로그램을 만듭니다.
 
-To create programs as you are connecting them from Planning records: 
+Planning 레코드에서 프로그램을 연결할 때 프로그램을 생성하려면 다음을 수행합니다.
 
-1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. [레코드 연결](/help/quicksilver/planning/records/connect-records.md) 문서에 설명된 대로 레코드의 세부 정보 페이지 또는 레코드 유형의 테이블로 이동하여 Workfront Planning 레코드와 Workfront 포트폴리오의 연결을 시작합니다.
 
-    ******** at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed." ***********
-    
-1. Click **Add program** 
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
 
-    Or 
-    
-    Start typing the name of a program, then click **Add program** if you cannot find it. The Add button is followed by the program name you typed. 
+1. **프로그램 추가** 클릭
 
-    ![Add Workfront program when connecting it from connection field](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+   또는
 
-    The **Create program** box opens.
+   프로그램 이름을 입력한 다음 찾을 수 없는 경우 **프로그램 추가**&#x200B;를 클릭합니다. [추가] 단추 다음에 프로그램 이름을 입력합니다.
 
-1. Update the **Program name**. This is a required field.
-1. Choose a **Portfolio** from the drop-down, or start typing the name of a portfolio, then select it when it displays in the list. This is a required field. 
+   ![연결 필드에서 연결할 때 Workfront 프로그램 추가](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+
+   **프로그램 만들기** 상자가 열립니다.
+
+1. **프로그램 이름**&#x200B;을(를) 업데이트합니다. 필수 필드입니다.
+1. 드롭다운에서 **Portfolio**&#x200B;을(를) 선택하거나 포트폴리오의 이름을 입력한 다음 목록에 표시될 때 선택하십시오. 필수 필드입니다.
 1. Click **Create**.
 
-    The program is created and added to the connection field of the record you selected. 
+   선택한 레코드의 연결 필드에 프로그램이 만들어지고 추가됩니다.
 
-1. (Optional) Click the name of the new program from Workfront Planning to open the program's page in Workfront and make additional updates to it. 
+1. (선택 사항) Workfront Planning에서 새 프로그램 이름을 클릭하여 Workfront에서 프로그램 페이지를 열고 추가로 업데이트합니다.
 
 </div>
 
--->

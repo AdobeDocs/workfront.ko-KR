@@ -6,14 +6,13 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2156'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 레코드 편집
 
@@ -71,8 +70,8 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -89,7 +88,7 @@ ht-degree: 0%
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>  <p>작업 영역에 대한 Contribute 이상의 권한</a> </p>  
+   <td>  <p>작업 영역 </a>에 대한 또는 더 높은 권한 제공 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
   </tr> 
 <tr> 
@@ -296,11 +295,11 @@ ht-degree: 0%
 
    테이블 보기에서 첫 번째 열의 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png)을(를) 클릭합니다. 레코드의 미리보기가 보기에서 열립니다.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![](assets/details-box.png) 
+   ![](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (선택 사항) 레코드 제목 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭합니다. 레코드의 제목으로 표시되는 필드가 업데이트됩니다.
 
@@ -321,17 +320,17 @@ ht-degree: 0%
 
    Workfront은 변경 사항을 자동으로 저장합니다.
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> (선택 사항) 레코드의 미리 보기 상자 오른쪽 위에 있는 **실시간 표시기** ![](assets/real-time-indicator-icon.png)을(를) 클릭한 다음 **공동 작업자 표시** 설정을 사용하여 다른 사용자가 편집하고 있는 필드를 실시간으로 강조 표시합니다.
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   레코드에 동시에 액세스하는 모든 사용자의 이름과 아바타가 이 영역에 표시됩니다.
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   설정을 사용하지 않으면 아바타와 이름이 실시간 표시기 영역에 나열되고 편집 중인 필드는 강조 표시되지 않습니다. </span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. (선택 사항) 레코드의 세부 정보를 내보내려면 **내보내기** 메뉴 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭합니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
 
@@ -358,8 +357,6 @@ ht-degree: 0%
      ![](assets/contextual-menu-for-record-row.png)
 
      레코드 페이지가 열립니다.
-
-     <!--update the screen shot below at preview-->
 
      ![](assets/details-page.png)
 
@@ -391,17 +388,17 @@ ht-degree: 0%
 
    Workfront은 변경 사항을 자동으로 저장합니다.
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> (선택 사항) 레코드 페이지의 오른쪽 위 모서리에 있는 **실시간 표시기** ![](assets/real-time-indicator-icon.png)을(를) 클릭한 다음 **공동 작업자 표시** 설정을 사용하여 다른 사용자가 편집하고 있는 필드를 실시간으로 강조 표시합니다.
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   레코드에 동시에 액세스하는 모든 사용자의 이름과 아바타가 이 영역에 표시됩니다.
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   설정을 사용하지 않으면 아바타와 이름이 실시간 표시기 영역에 나열되고 편집 중인 필드는 강조 표시되지 않습니다. </span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. (선택 사항) 레코드의 세부 정보를 내보내려면 **내보내기** 메뉴 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭합니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
 

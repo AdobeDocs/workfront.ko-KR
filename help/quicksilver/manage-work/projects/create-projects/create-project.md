@@ -6,9 +6,9 @@ description: 프로젝트는 Adobe Workfront의 대규모 작업 단위입니다
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1388'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 1%
 
   킥스타트를 사용하여 프로젝트를 가져오는 방법에 대한 자세한 내용은 [킥스타트 시나리오: 간단한 프로젝트 및 작업 가져오기 준비](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)를 참조하십시오.
 
-* Publish은 Adobe Workfront Scenario Planner의 시나리오에서 나온 이니셔티브입니다.
+* Adobe Workfront 시나리오 플래너의 시나리오에서 이니셔티브를 게시합니다.
 
   시나리오 플래너에는 다음 중 하나가 필요합니다.
 
@@ -129,7 +129,7 @@ ht-degree: 1%
 
   Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
-  프로젝트에 레코드를 추가하여 프로젝트를 만드는 방법에 대한 자세한 내용은 문서 [Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)의 &quot;Workfront Planning의 레코드와 연결할 때 프로젝트 만들기&quot; 섹션을 참조하십시오.
+  프로젝트에 레코드를 추가하여 프로젝트를 만드는 방법에 대한 자세한 내용은 문서 [Workfront Planning에서 레코드에 연결할 때 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)의 &quot;Workfront Planning의 레코드와 연결할 때 프로젝트 만들기&quot; 섹션을 참조하십시오.
 
 ## 전제 조건
 
