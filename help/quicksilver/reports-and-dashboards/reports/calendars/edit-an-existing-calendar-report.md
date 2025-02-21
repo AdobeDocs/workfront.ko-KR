@@ -6,9 +6,9 @@ description: 프로젝트에 대한 링크를 추가하거나 삭제하여 기�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,11 @@ ht-degree: 0%
 
 {{step1-to-calendars}}
 
-1. (선택 사항) 캘린더 보고서의 이름을 변경하려면 [!UICONTROL 캘린더 이름] 필드를 클릭한 다음, 원하는 대로 변경하십시오.
+1. (선택 사항) 캘린더 보고서의 이름을 변경하려면 [!UICONTROL 캘린더 이름] 필드를 클릭한 다음, 원하는 대로 변경하십시오. 호환성 문제를 방지하려면 UTF-8 문자만 사용하는 것이 좋습니다.
+
    ![보고서 이름 변경](assets/titlechange-250x230.png)
-다른 사용자 또는 팀과 캘린더 보고서를 공유한 경우, 수정된 캘린더 이름은 캘린더 보기에서 자동으로 업데이트됩니다.
+
+   다른 사용자 또는 팀과 캘린더 보고서를 공유한 경우, 수정된 캘린더 이름은 캘린더 보기에서 자동으로 업데이트됩니다.
 
 1. (선택 사항) 달력 보고서에 프로젝트를 추가하려면 다음을 수행합니다.
 

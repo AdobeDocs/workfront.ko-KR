@@ -6,9 +6,9 @@ description: 캔버스 대시보드를 만들면 Adobe Workfront 데이터를 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 표시되는 **보고서 추가** 창에서 캔버스 대시보드에 추가할 보고서 유형 아래의 **추가**&#x200B;를 클릭합니다.
 
-1. 선택한 보고서 유형에 따라 보고서 설정을 계속합니다. 각 유형의 보고서 설정에 대한 자세한 내용은 [캔버스 대시보드 보고서 유형](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)을 참조하세요. 설정을 완료하기 전에 창을 닫아도 빈 보고서가 캔버스 대시보드에 추가됩니다. 빈 보고서의 중앙에 있는 **구성** 단추를 클릭하면 나중에 설정을 완료할 수 있습니다.
+1. 선택한 보고서 유형에 따라 보고서 설정을 계속합니다. <!--For detailed information about setting up each type of report, see [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md).--> 설정을 완료하기 전에 창을 닫아도 빈 보고서가 캔버스 대시보드에 추가됩니다. 빈 보고서의 중앙에 있는 **구성** 단추를 클릭하면 나중에 설정을 완료할 수 있습니다.
 
 ## 캔버스 대시보드에서 보고서 이동 또는 크기 조정
 

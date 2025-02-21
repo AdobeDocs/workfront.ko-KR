@@ -6,9 +6,9 @@ description: 대시보드를 만들어 Adobe Workfront의 정보에 빠르게 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 1%
     <tbody>
      <tr>
       <td role="rowheader"><strong>이름</strong></td>
-      <td><p>대시보드 이름입니다.</p><p>이름을 지정하지 않으면 기본적으로 대시보드에 있는 첫 번째 보고서의 이름이 대시보드 이름이 됩니다.</p></td>
+      <td><p>대시보드 이름입니다. 호환성 문제를 방지하려면 UTF-8 문자만 사용하는 것이 좋습니다.</p><p>이름을 지정하지 않으면 기본적으로 대시보드에 있는 첫 번째 보고서의 이름이 대시보드 이름이 됩니다.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>설명 (선택 사항)</strong></td>

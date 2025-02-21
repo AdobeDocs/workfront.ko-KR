@@ -6,9 +6,9 @@ description: 보고서에서 새 대시보드 또는 기존 대시보드에 보�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-보고서에서 새 대시보드 또는 기존 대시보드에 보고서를 직접 추가할 수 있습니다. [대시보드 만들기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)에 설명된 대로 기존 보고서를 대시보드에 추가할 수도 있습니다.
+보고서에서 새 대시보드 또는 기존 대시보드에 보고서를 직접 추가할 수 있습니다. [대시보드 만들기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)에 설명된 대로 기존 보고서를 대시보드에 추가할 수도 있습니다. 단일 대시보드에 추가할 수 있는 보고서, 캘린더 또는 외부 페이지는 최대 25개입니다.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 보고서를 대시보드에 추가하려면 먼저 보고서를 만들어야 합니다.
 
-보고서 만들기에 대한 자세한 내용은 [보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)를 참조하십시오.
+보고서 만들기에 대한 자세한 내용은 [보고서 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)를 참조하십시오.
 
 ## 기존 대시보드에 보고서 추가
 

@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 9259c694eab8e5970e512434735cf9b0af3926a6
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 0%
    * [캔버스 대시보드 공유](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
 * [캔버스 대시보드 보고서 유형](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
    * [캔버스 대시보드에 기존 보고서 추가](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-   * [캔버스 대시보드에서 KPI 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-   * [캔버스 대시보드에서 차트 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-   * [캔버스 대시보드에서 표 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-   * [캔버스 대시보드에 보류 중인 승인 보고서 추가](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+  <!--* [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+    * [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+    * [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+    * [Add a pending approvals report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
 

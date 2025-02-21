@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,56 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 공식 필드에 새 표현식이 추가됨
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 2월 20일, 모든 고객을 위한 프로덕션 릴리스: 2025년 2월 20일
+
+공식 필드에 JSONELEMENT 표현식을 추가했습니다. 이 표현식은 제공된 JSONPath에 의해 JSON의 데이터를 반환합니다.
+
+자세한 내용은 [수식 필드 개요](/help/quicksilver/planning/fields/formula-fields.md)를 참조하세요.
+
+## 레코드의 세부 사항 미리 보기 또는 페이지에 있는 실시간 현재 상태 표시기
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 2월 20일, 빠른 릴리스를 위한 프로덕션: 25.3 릴리스 포함(2025년 3월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+
+레코드의 미리보기 또는 세부 정보 페이지에서 작업할 때 다른 사용자가 편집하는 정보를 이해하기 위해 Workfront Planning의 이 영역에 대한 실시간 현재 상태 표시기를 도입했습니다.
+
+이제 다른 사용자가 편집한 필드가 강조 표시되고 다른 사용자의 아바타가 미리 보기 또는 세부 정보 페이지의 오른쪽 상단에 표시됩니다.
+
+자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
+
+## Planning 레코드에 연결할 때 Workfront 객체를 생성하기 위한 개선 사항
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 2월 20일, 빠른 릴리스를 위한 프로덕션: 25.3 릴리스 포함(2025년 3월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+
+이제 프로젝트, 포트폴리오 및 프로그램을 기존 연결 필드의 레코드에 연결할 때 쉽게 만들 수 있습니다.
+
+이 개선 사항을 통해 사용할 수 있는 기능은 다음과 같습니다.
+
+* Workfront 프로젝트, 포트폴리오 또는 다른 Planning 레코드에 연결할 때 지속되는 추가 단추
+
+* 연결 필드의 지속적인 추가 버튼을 사용하여 프로그램을 추가하고 포트폴리오와 연결하는 기능.
+
+자세한 내용은 [Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)를 참조하십시오.
+
+## 기존 레코드를 기반으로 개체 및 레코드를 만들도록 자동화 구성
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 2월 20일, 빠른 릴리스를 위한 프로덕션: 25.3 릴리스 포함(2025년 3월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+
+이제 작업 영역 관리자로서 레코드 유형에 대한 사용자 정의 자동화를 구성하여 연결된 Workfront 개체 또는 Planning 레코드를 자동으로 만들 수 있습니다.
+
+생성된 개체 또는 레코드는 자동화가 구성되고 트리거되는 레코드에 즉시 연결됩니다.
+
+자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오.
 
 ## AI Assistant가 수행한 작업 검토 및 확인
 
@@ -41,18 +91,6 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 이제 Workfront 수식 필드에서 ARRAY, ARRAYLENGTH, ARRAYELEMENT 식을 사용할 수 있습니다. 각 표현식의 정의와 예는 공식 편집기에서 사용할 수 있습니다.
 
 자세한 내용은 [수식 필드 개요](/help/quicksilver/planning/fields/formula-fields.md)를 참조하세요.
-
-<!--## Real-time presence indicators in a record's details preview or page
-
->[!NOTE]
->
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
-
-To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
-
-The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
-
-For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
 
 ## 팀, 작업 역할 및 회사와 Workfront Planning 항목 공유
 
