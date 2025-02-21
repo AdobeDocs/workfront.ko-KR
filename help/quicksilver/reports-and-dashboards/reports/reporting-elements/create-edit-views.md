@@ -6,9 +6,9 @@ description: 보기를 사용하여 화면에 표시할 정보 유형을 사용�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1731'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 1%
 
         숫자 및 통화 필드의 경우 다음 옵션으로 값을 요약할 수 있습니다.
 
-         * 개수
+         * 계수
          * 합계
          * 평균
          * 최대
@@ -123,7 +123,7 @@ ht-degree: 1%
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>사용자 정의 열 레이블</strong></td> 
-           <td><p>열에 대한 사용자 지정 레이블을 지정합니다. 이 레이블은 기본 레이블을 대체합니다.</p></td> 
+           <td><p>열에 대한 사용자 지정 레이블을 지정합니다. 이 레이블은 기본 레이블을 대체합니다. 호환성 문제를 방지하려면 UTF-8 문자만 사용하는 것이 좋습니다.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>필드 형식</strong></td> 
@@ -179,7 +179,7 @@ ht-degree: 1%
       기본 애자일 보기는 사용자 정의할 수 없습니다.
 
    1. **보기** 드롭다운 메뉴를 다시 클릭한 다음 **보기 사용자 지정**&#x200B;을 클릭합니다.\
-      ![](assets/view-agile-customize.png)
+      ![보기 사용자 지정](assets/view-agile-customize.png)
 
 1. (조건부) 새 애자일 보기를 만들려면 **새 보기**&#x200B;를 클릭합니다.\
    **애자일 보기 사용자 지정** 대화 상자가 표시됩니다.

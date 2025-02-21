@@ -4,9 +4,9 @@ description: 보고 캔버스에서 시각화 블록 추가 또는 편집
 hidefromtoc: true
 hide: true
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 보고서에 다음 유형의 시각화를 추가할 수 있습니다.
 
-* 바
+* 막대
 * 열
 * 파이
 * KPI
@@ -32,12 +32,12 @@ ht-degree: 1%
 >
 >보고서에서 블록을 빌드하고 편집할 때 모든 변경 사항이 자동으로 저장됩니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고**&#x200B;를 클릭합니다.
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭한 다음 [보고 캔버스에서 보고서 작성](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) 및 [보고 캔버스에서 테이블 블록 추가 또는 편집](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)에 설명된 대로 데이터가 포함된 테이블을 사용하여 보고서를 만듭니다.
 
    또는
 
-   데이터가 포함된 테이블이 있는 기존 보고서에서 보고서 헤더의 **추가 메뉴** 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 선택합니다.
+   데이터가 포함된 테이블이 있는 기존 보고서에서 보고서 헤더의 **추가 메뉴** 아이콘 ![추가 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 선택합니다.
 
 1. 화면 오른쪽의 **블록 추가**&#x200B;에서 다음 중 하나를 수행합니다.
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 
 1. (조건부) 보고서에 둘 이상의 테이블이 포함된 경우 표시되는 **시각화 만들기** 상자에서 시각화에 대한 소스 테이블을 선택합니다.
 
-   ![](assets/select-table-on-vis-350x155.png)
+   ![시각화에서 테이블 선택](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 1. 추가할 시각화 유형을 선택합니다.
 
-   ![](assets/select-vis-type-350x205.png)
+   ![시각화 유형 선택](assets/select-vis-type-350x205.png)
 
    선택한 테이블의 데이터를 나타내는 시각화가 표시됩니다.
 

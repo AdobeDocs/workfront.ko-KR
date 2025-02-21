@@ -7,9 +7,9 @@ description: '보기: 사용자 개인 휴무'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 5%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 5%
 
 ## 사용자 개인 휴무 보기
 
-1. 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고서 > 새 보고서**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고서 > 새 보고서**&#x200B;를 클릭합니다.
 1. 드롭다운 메뉴에서 **휴무**&#x200B;를 선택합니다.
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 

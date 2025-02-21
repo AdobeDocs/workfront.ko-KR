@@ -7,9 +7,9 @@ description: 증명 승인 보고서에서 현재 문서 버전 필터를 사용
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   자체 증명 승인 보고서를 만들려면 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭하거나 왼쪽 상단의 **주 메뉴** 아이콘 ![](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **보고서** ![](assets/reports-in-main-menu.png)을(를) 클릭합니다.
+   증명 승인 보고서를 만들려면 오른쪽 상단의 **기본 메뉴** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭하거나 왼쪽 상단의 **기본 메뉴** 아이콘 ![기본 메뉴 줄](assets/lines-main-menu.png)을(를) 클릭한 다음 사용 가능한 경우 **보고서** ![보고서 아이콘](assets/reports-in-main-menu.png)을 클릭하십시오.
 
 1. **새 보고서**&#x200B;를 클릭합니다. 객체 유형 목록이 표시됩니다.
 1. 목록에서 **증명 승인**을 클릭합니다.

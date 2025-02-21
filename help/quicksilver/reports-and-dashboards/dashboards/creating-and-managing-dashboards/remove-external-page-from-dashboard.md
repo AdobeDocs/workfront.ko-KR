@@ -6,9 +6,9 @@ description: 더 이상 필요하지 않은 경우 대시보드에서 외부 페
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ ht-degree: 0%
 
 1. **대시보드 작업**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![대시보드 편집](assets/unshimmed-edit-dashboard.png)
 
-1. 화면 오른쪽에서 제거할 외부 페이지를 찾은 다음 **삭제** 아이콘 ![](assets/delete.png)을(를) 클릭합니다.
+1. 화면 오른쪽에서 제거할 외부 페이지를 찾은 다음 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다.
 
-   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![대시보드 내부의 외부 페이지 아이콘 삭제](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. 왼쪽 아래에서 **저장 + 닫기**&#x200B;를 클릭합니다.
 

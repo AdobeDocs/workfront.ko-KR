@@ -6,9 +6,9 @@ description: 보고서 사용 보기
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 ## 보고서 목록 보기에 보고서 사용 정보 표시
 
-1. Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 
 1. 보고서 목록에서 **보기** 드롭다운 메뉴를 클릭합니다.
 1. (선택 사항) 가장 일반적인 보고서 사용 정보를 표시하려면 **보고서 사용** 보기를 선택하십시오.\
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 ## 사용 정보로 보고서 목록 필터링 {#filter-a-report-list-by-usage-information}
 
-1. Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 1. 보고서 목록에서 **필터** 드롭다운 메뉴를 클릭합니다.
 1. **새 필터**&#x200B;를 클릭한 다음 **필터 규칙 추가**&#x200B;를 클릭합니다.
 1. 다음 필드 입력을 시작하고 **보고서** 개체 아래의 목록에 표시될 때 해당 필드를 선택하여 새 필터 규칙으로 추가하십시오.
@@ -112,7 +112,7 @@ ht-degree: 1%
    * **마지막으로 본 날짜**: 보고서를 마지막으로 본 날짜를 표시합니다
 
 1. 필드에 대한 수정자를 선택한 다음 메시지가 표시되면 값을 지정합니다.\
-   ![](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![보고서 사용 필터 통계](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. **필터 저장**&#x200B;을 클릭합니다.\
    정의한 사용 정보를 충족하는 보고서 목록이 표시됩니다.\

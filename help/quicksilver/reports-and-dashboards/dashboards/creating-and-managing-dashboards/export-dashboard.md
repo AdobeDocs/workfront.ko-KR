@@ -6,9 +6,9 @@ description: 웹 브라우저에서 사용할 수 있는 인쇄 옵션을 사용
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 6%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 6%
 1. 내보낼 대시보드로 이동합니다.
 1. **대시보드 작업**&#x200B;을 클릭한 다음 **인쇄 미리 보기**&#x200B;를 선택합니다.
 
-   ![](assets/dashboard-actions-print-350x254.png)
+   ![대시보드 인쇄 미리 보기](assets/dashboard-actions-print-350x254.png)
 
    인쇄 미리보기 창이 열립니다.
 
@@ -105,7 +105,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td>Internet Explorer, Microsoft Edge 및 Mozilla Firefox</td> 
-      <td> <p>참고: Internet Explorer 버전 11을 사용하는 경우 서드파티 플러그인을 설치하지 않으면 인쇄를 사용하여 PDF 기능을 사용할 수 없습니다.</p> 
+      <td> <p>참고: Internet Explorer 버전 11을 사용하는 경우 서드파티 플러그인을 설치하지 않으면 PDF에 인쇄 기능을 사용하지 못할 수 있습니다.</p> 
        <ol> 
         <li value="1">Microsoft <strong>프린터</strong> 또는 <strong>프린터 선택</strong> 필드에서 <strong>PDF으로 인쇄</strong>를 선택한 다음 변경할 다른 인쇄 옵션을 수정합니다.</li> 
         <li value="2"><strong>인쇄</strong>를 클릭합니다.</li> 

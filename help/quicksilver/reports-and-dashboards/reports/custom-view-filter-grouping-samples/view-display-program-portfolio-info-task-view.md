@@ -7,9 +7,9 @@ description: 이 작업 보기에는 작업의 프로젝트와 연결된 프로�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 또한 이 보기는 작업 목록에서 프로젝트, 프로그램 및 Portfolio에 대한 링크도 제공합니다.
 
-![](assets/view--program-and-portfolio-350x116.png)
+![프로그램 및 포트폴리오 보기](assets/view--program-and-portfolio-350x116.png)
 
 ## 액세스 요구 사항
 

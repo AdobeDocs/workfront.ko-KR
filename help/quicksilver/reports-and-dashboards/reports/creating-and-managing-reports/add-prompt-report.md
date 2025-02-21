@@ -6,9 +6,9 @@ description: 필터와 프롬프트는 모두 보고서에 표시하는 정보�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1. **보고서 설정** 단추를 클릭합니다.
 1. **보고서 프롬프트** 탭을 클릭한 다음 **프롬프트 추가**&#x200B;를 클릭합니다.\
-   ![](assets/create-report-prompt-tab.png)
+   ![보고서 프롬프트 탭](assets/create-report-prompt-tab.png)
 
 1. (조건부) 프롬프트의 기반이 될 필드를 선택합니다. 필드 이름을 입력한 다음 목록에 표시될 때 클릭하여 선택합니다.\
    보고서를 실행하는 사용자가 사용할 수 있는 옵션은 선택하는 필드에 따라 다릅니다.\
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 1. 프롬프트가 표시되면 보고서로 이동합니다.
 
-   ![](assets/run-report-prompts.png)
+   ![보고서 프롬프트 실행](assets/run-report-prompts.png)
 
 1. **프롬프트** 탭에 표시되는 하나 또는 모든 프롬프트에 대한 조건을 선택합니다.\
    (선택 사항) 프롬프트를 비워 두고 프롬프트 조건으로 보고서를 필터링하지 않을 수 있습니다.

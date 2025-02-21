@@ -6,9 +6,9 @@ description: 해당 오브젝트에 대한 보고서의 보기, 필터 및 그�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
 
 예를 들어 사용자 정의 필드 **컨설턴트**&#x200B;를 포함하는 모든 프로젝트에 사용자 정의 양식이 적용되어 있을 수 있습니다. Olivia Kim이 컨설턴트인 모든 프로젝트를 나열하는 보고서를 만들려면 **프로젝트** 개체 유형을 필드 소스로 사용하고 **컨설턴트**&#x200B;를 필드 이름으로 사용합니다. 필터 한정자를 **Equal**(으)로 설정한 다음 Olivia Kim을 입력하십시오.
 
-![](assets/qs-consultant-filter-example-350x126.png)
+![컨설턴트 필터](assets/qs-consultant-filter-example-350x126.png)
 
 보고서 만들기에 대한 자세한 내용은 문서 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 
@@ -111,13 +111,13 @@ ht-degree: 2%
 1. [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 문서에 설명된 대로 보고서 만들기를 시작합니다.
 1. **열** 탭에서 참조할 사용자 정의 양식이 적용되는 개체 유형을 확장한 다음 **범주 이름**&#x200B;을 클릭합니다.\
    예를 들어 작업과 연결된 모든 사용자 정의 양식을 표시하려면 **작업** 필드 원본을 확장한 다음 **범주 이름** 필드 이름을 클릭합니다.\
-   ![](assets/qs-category-name-column-350x267.png)
+   ![범주 이름 열](assets/qs-category-name-column-350x267.png)
 
 객체와 연관된 기본 사용자 정의 양식만 표시하려면 다음을 수행합니다.
 
 1. [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 문서에 설명된 대로 보고서 만들기를 시작합니다.
 1. **열** 탭에서 **Category** 필드 원본을 확장한 다음 **이름** 필드 이름을 클릭합니다.\
-   ![](assets/qs-category-name-column-2-350x248.png)
+   ![범주 이름](assets/qs-category-name-column-2-350x248.png)
 
 ### 보고서 필터에서 사용자 정의 양식 참조 {#reference-custom-forms-in-a-report-filter}
 
@@ -125,7 +125,7 @@ ht-degree: 2%
 
 1. [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 문서에 설명된 대로 보고서 만들기를 시작합니다.
 1. **필터** 탭에서 **범주**&#x200B;을 확장한 다음 **이름**&#x200B;을 클릭합니다.\
-   ![](assets/qs-categories-name-filter-350x311.png)
+   ![범주 이름 필터](assets/qs-categories-name-filter-350x311.png)
 
 1. 사용할 조건 한정자를 선택합니다.
 
@@ -133,8 +133,8 @@ ht-degree: 2%
    * 비어 있지 않음
    * 포함
    * 포함하지 않음
-   * 같음
-   * 다음과 같지 않음
+   * Equal
+   * 같지 않음
 
    각 한정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) 문서를 참조하십시오.
 
@@ -150,7 +150,7 @@ ht-degree: 2%
 
 1. [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 문서에 설명된 대로 보고서 만들기를 시작합니다.
 1. **필터** 탭에서 **Category** 필드 원본을 확장한 다음 **이름** 필드 이름을 클릭합니다.\
-   ![](assets/qs-category-name-filter-350x437.png)
+   ![범주 이름 필터](assets/qs-category-name-filter-350x437.png)
 
 1. 사용할 조건 한정자를 선택합니다.
 
@@ -158,8 +158,8 @@ ht-degree: 2%
    * 비어 있지 않음
    * 포함
    * 포함하지 않음
-   * 같음
-   * 다음과 같지 않음
+   * Equal
+   * 같지 않음
 
    각 한정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) 문서를 참조하십시오.
 
@@ -175,4 +175,4 @@ ht-degree: 2%
 
 1. [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 문서에 설명된 대로 보고서 만들기를 시작합니다.
 1. **그룹화** 탭에서 **범주**&#x200B;을 확장한 다음 **이름**&#x200B;을 클릭합니다.\
-   ![](assets/qs-category-name-grouping-350x373.png)
+   ![범주 이름 그룹화](assets/qs-category-name-grouping-350x373.png)

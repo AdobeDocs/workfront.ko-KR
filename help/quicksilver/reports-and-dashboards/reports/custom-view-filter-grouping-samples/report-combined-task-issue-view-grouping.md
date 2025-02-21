@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '보고서: 작업 및 문제 보기 및 그룹화가 결합됨'
+title: '보고서: 결합된 작업 및 문제 보기 및 그룹화'
 description: 이 작업 항목 보고서는 사용자가 하나의 보고서에서 작업에 동의한 작업과 문제를 모두 표시합니다. 이 방법은 사용자 지정 그룹화와 결합할 때 가장 좋습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: bc99e303047b989b972974b398420a9180e40874
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 이 보기로 보고서를 작성하려면 다음을 수행합니다.
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭하거나 왼쪽 상단의 **주 메뉴** 아이콘 ![](assets/lines-main-menu.png)을(를) 클릭합니다(사용 가능한 경우). 그런 다음 **보고서**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭하거나 왼쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 줄](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **보고서**&#x200B;를 클릭합니다.
 
 1. 드롭다운 메뉴에서 **새 보고서** > **자세히** > **작업 항목**&#x200B;을 클릭합니다.
 

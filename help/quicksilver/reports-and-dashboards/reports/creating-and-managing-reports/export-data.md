@@ -6,7 +6,7 @@ description: 다양한 목록, 보고서, 대시보드 및 검색에서 Adobe Wo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -97,7 +97,7 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
 
 정보는 다음 형식으로 내보낼 수 있습니다.
 
-* PDF(Letter Landscape 또는 Portrait, 법률, 원장 및 A4)
+* PDF(Letter Landscape 또는 Portrait, Legal, Ledger 및 A4)
 * Excel (.xls)
 * Excel (.xlsx)
 * 탭으로 구분됨
@@ -190,7 +190,7 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
-   >![](assets/nwe-dashboard-export-note-350x271.png)
+   >![Export dashboard note](assets/nwe-dashboard-export-note-350x271.png)
    -->
 
    또는

@@ -6,9 +6,9 @@ description: Adobe Workfront의 보고서를 사용하여 시스템의 객체에
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Adobe Workfront의 보고서를 사용하여 시스템의 객체에 대한 정�
 
 생성했거나 나와 공유했거나 공개적으로 공유한 보고서에 액세스하려면 다음 작업을 수행하십시오.
 
-1. **기본 메뉴** ![](assets/main-menu-icon.png)에서 **보고서**&#x200B;를 클릭합니다.
+1. **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)에서 **보고서**&#x200B;를 클릭합니다.
 
 1. 보려는 보고서에 따라 다음 옵션 중 하나를 클릭합니다.
 
@@ -67,10 +67,10 @@ Adobe Workfront의 보고서를 사용하여 시스템의 객체에 대한 정�
 
 ### 보고서용 새 폴더 만들기 {#create-a-new-folder-for-reports}
 
-1. **기본 메뉴** ![](assets/main-menu-icon.png)에서 **보고서**&#x200B;를 클릭합니다.
+1. **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)에서 **보고서**&#x200B;를 클릭합니다.
 
 1. **새 폴더** 아이콘을 클릭합니다.\
-   ![](assets/nwe-new-folder-350x346.png)
+   ![새 폴더 아이콘](assets/nwe-new-folder-350x346.png)
 
 1. 새 폴더의 이름을 지정한 다음 Enter 키를 누릅니다.
 1. **내 보고서** 폴더에서 새 폴더에 보고서를 추가합니다.\
@@ -82,7 +82,7 @@ Adobe Workfront의 보고서를 사용하여 시스템의 객체에 대한 정�
 
 ### 폴더에 보고서 추가 {#add-reports-to-a-folder}
 
-1. **기본 메뉴** ![](assets/main-menu-icon.png)에서 **보고서**&#x200B;를 클릭합니다.
+1. **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)에서 **보고서**&#x200B;를 클릭합니다.
 
 1. **내 보고서**&#x200B;를 클릭합니다.\
    또는\
@@ -94,4 +94,4 @@ Adobe Workfront의 보고서를 사용하여 시스템의 객체에 대한 정�
    >
    >**내 보고서** 폴더의 보고서만 **내 보고서** 아래에 중첩된 다른 폴더로 이동할 수 있습니다. **나와 공유** 또는 **모든 보고서** 폴더에서 다른 폴더로 또는 다른 폴더에서 보고서를 이동할 수 없습니다.
 
-   ![](assets/nwe-drag-report-to-folder-350x292.png)
+   ![보고서를 폴더로 드래그](assets/nwe-drag-report-to-folder-350x292.png)

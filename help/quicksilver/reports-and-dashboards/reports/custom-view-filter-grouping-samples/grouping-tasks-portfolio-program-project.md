@@ -7,9 +7,9 @@ description: 이 작업 그룹화를 사용하여 작업을 포트폴리오, 프
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 이 작업 그룹화를 사용하여 작업을 포트폴리오, 프로그램 및 연결된 프로젝트별로 그룹화합니다.
 
-![](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![Portfolio 프로그램 프로젝트 그룹화](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## 액세스 요구 사항
 

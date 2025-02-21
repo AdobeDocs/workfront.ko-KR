@@ -6,9 +6,9 @@ description: 차트를 추가하여 보고서를 개선할 수 있습니다. 기
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,11 @@ ht-degree: 0%
 
    예를 들어 작업 보고서에서 **프로젝트 이름**&#x200B;을(를) 선택한 경우 **작업 상태**&#x200B;를 **버블 색상** 필드로 추가할 수 있습니다.
 
-   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+   ![버블 색상으로 작업 상태](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
    그러나 **버블** 필드에 대해 **작업 상태**&#x200B;을(를) 선택한 경우 **버블 색상** 필드를 선택할 수 없습니다. 또한 **버블** 필드에 **프로젝트 이름**&#x200B;을(를) 선택하더라도 **버블 색상** 필드에 **프로젝트 이름**&#x200B;을(를) 선택할 수 없습니다.
 
-   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![버블 색상을 선택할 수 없음](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
 1. 인터페이스 빌더에 변경 사항을 저장하려면 **저장 + 닫기**&#x200B;를 클릭합니다.
 
@@ -304,7 +304,7 @@ Workfront에서 차트의 요소 색상을 선택하도록 하거나, 보고서�
 
 1. 이 필드를 사용할 수 있는 경우 **사용자 지정 색**&#x200B;을 클릭하세요.\
    [사용자 정의 색상] 대화 상자가 표시됩니다.\
-   ![](assets/unshimmed-custom-colors-in-charts.png)
+   ![차트의 사용자 지정 색](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

@@ -6,9 +6,9 @@ description: 이 페이지의 정보는 미리보기 및 사용자 지정 새로
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 샌드박스 환경에서 전자 메일을 사용하는 방법에 대한 자세한 내용은 [미리 보기 샌드박스 환경에서 전자 메일 배달 사용](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)을 참조하십시오.
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![샌드박스에서 이메일 수신 옵션](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 미리보기 환경에서 보고서 배달을 예약하는 것은 프로덕션 환경에서 보고서를 예약하는 것과 동일합니다. 보고서 배달 예약에 대한 자세한 내용은 [보고서 배달 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)를 참조하세요.
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 미리 보기 환경에서 전자 메일을 사용하는 방법에 대한 자세한 내용은 문서 [사용자 전자 메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)의 [전자 메일 알림 설정 보기 및 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) 섹션을 참조하십시오.
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![샌드박스에서 이메일 수신 옵션](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 사용자 지정 새로 고침 샌드박스 환경에서 보고서 배달을 예약하는 것은 프로덕션 환경에서 보고서를 예약하는 것과 동일합니다. 보고서 배달 예약에 대한 자세한 내용은 [보고서 배달 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)를 참조하세요.
 

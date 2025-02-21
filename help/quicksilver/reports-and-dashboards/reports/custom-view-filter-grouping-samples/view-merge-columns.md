@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '보기: 하나의 공유 열에 여러 열의 정보 병합'
+title: '보기: 여러 열의 정보를 하나의 공유 열에 병합'
 description: 여러 개별 열에 표시되는 정보를 병합하여 하나의 공유 열에 표시할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 0%
 줄 바꿈 없이 두 열의 데이터를 병합하려면 다음을 수행합니다.
 
 1. 개체 목록으로 이동합니다.
-1. **보기** 드롭다운에서 보기를 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭하여 보기를 편집합니다.
+1. **보기** 드롭다운에서 보기를 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭하여 보기를 편집합니다.
 1. 병합할 첫 번째 열로 이동한 다음 **텍스트 모드로 전환** > **텍스트 모드 편집**&#x200B;을 클릭합니다.
 1. 병합할 첫 번째 열에 다음 텍스트를 추가합니다.
 
@@ -121,7 +121,7 @@ ht-degree: 0%
    column.3.valueformat=HTML
    ```
 
-   ![](assets/shared-column-no-line-breaks-350x142.png)
+   ![줄 바꿈이 없는 공유 열](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. **완료**&#x200B;를 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.
@@ -131,7 +131,7 @@ ht-degree: 0%
 여러 열의 데이터를 병합하여 각 열의 값 사이에 줄 바꿈을 사용하여 하나의 공통 열에 표시하려면 다음을 수행합니다.
 
 1. 개체 목록으로 이동합니다.
-1. **보기** 드롭다운에서 보기를 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭하여 보기를 편집합니다.
+1. **보기** 드롭다운에서 보기를 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭하여 보기를 편집합니다.
 1. 병합할 두 열 사이에 세 번째 열을 추가합니다.
 
    >[!TIP]
@@ -182,6 +182,6 @@ ht-degree: 0%
    column.5.valueformat=HTML 
    ```
 
-   ![](assets/shared-column-with-line-breaks-350x199.png)
+   ![줄 바꿈이 있는 공유 열](assets/shared-column-with-line-breaks-350x199.png)
 
 1. **완료**&#x200B;를 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.

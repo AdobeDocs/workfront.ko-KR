@@ -4,9 +4,9 @@ description: 보고 캔버스에서 열 시각화 구성
 hidefromtoc: true
 hide: true
 exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '327'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 1. [보고 캔버스에서 시각화 블록 추가 또는 편집](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)에 설명된 대로 **열** 시각화 유형을 사용하는 시각화 블록을 보고서에 추가합니다.
 
-1. 시각화의 오른쪽 상단에 있는 시각화 편집 아이콘 ![](assets/edit-icon.png)을(를) 클릭한 후 다음 중 하나를 수행합니다.
+1. 시각화의 오른쪽 상단에 있는 시각화 편집 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭하고 다음 중 하나를 수행합니다.
 
    1. **설정** 탭에서:
 

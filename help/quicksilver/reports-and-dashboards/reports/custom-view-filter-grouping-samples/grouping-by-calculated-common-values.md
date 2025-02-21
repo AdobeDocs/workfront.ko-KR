@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '그룹화: 그룹화에 있는 모든 개체에 공통되는 계산된 값으로 목록 결과를 구성합니다.'
+title: '그룹화: 그룹화의 모든 객체에 공통되는 계산된 값으로 목록 결과를 구성합니다.'
 description: 0~25, 26~50, 51~75, 75~99 및 100 범위에서 완료율별로 그룹화된 작업을 볼 수 있습니다. 텍스트 모드를 사용하여 그룹화를 만들어 이 작업을 수행할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 0~25, 26~50, 51~75, 75~99 및 100 범위에서 완료율별로 그룹화된 작업을 볼 수 있습니다. 텍스트 모드를 사용하여 그룹화를 만들어 이 작업을 수행할 수 있습니다.
 
-![](assets/grouping-calculated-value-column-to-all-objects.png)
+![계산된 값별 그룹화](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## 액세스 요구 사항
 

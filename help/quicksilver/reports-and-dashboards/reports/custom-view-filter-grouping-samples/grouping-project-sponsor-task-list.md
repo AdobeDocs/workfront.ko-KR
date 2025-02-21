@@ -7,9 +7,9 @@ description: 이 작업 그룹화를 사용하면 프로젝트 스폰서별로 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 이 작업 그룹화를 사용하면 프로젝트 스폰서별로 작업을 그룹화할 수 있습니다.
 
-![](assets/grouping--project-sponsor-for-a-task-350x189.png)
+![프로젝트 스폰서별 그룹](assets/grouping--project-sponsor-for-a-task-350x189.png)
 
 ## 액세스 요구 사항
 

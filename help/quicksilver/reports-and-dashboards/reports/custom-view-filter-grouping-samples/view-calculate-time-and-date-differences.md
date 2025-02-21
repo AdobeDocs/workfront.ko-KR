@@ -7,9 +7,9 @@ description: 시간 및 날짜 차이를 계산하는 방법을 알아봅니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 예를 들어 작업의 계획된 완료 일자와 실제 완료 일자 간의 차이를 계산할 수 있습니다.
 
-![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![날짜 차이 보기](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. 작업 목록으로 이동합니다.
 1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 클릭합니다.
@@ -100,7 +100,7 @@ ht-degree: 0%
 개체 및 상위 개체의 목록을 보려면 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)에서 &quot;개체의 상호 종속성 및 계층 구조 이해&quot; 섹션을 참조하십시오.\
 예를 들어 작업의 계획된 완료 일자와 상위 작업 또는 작업이 진행 중인 프로젝트의 계획된 완료 일자 간의 차이를 계산할 수 있습니다.
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![계획된 완료 일자 차이 보기](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. 작업 목록으로 이동합니다.
 1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 클릭합니다.

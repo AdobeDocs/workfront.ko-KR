@@ -7,9 +7,9 @@ description: 뷰에 표시되는 일부 객체는 기본적으로 객체의 세�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    또는
 
-   **편집 아이콘** ![](assets/edit-icon.png) 클릭
+   **편집 아이콘** ![편집 아이콘](assets/edit-icon.png) 클릭
 
    기존 뷰를 편집하려면 뷰를 선택합니다.
 

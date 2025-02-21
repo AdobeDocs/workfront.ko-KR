@@ -7,9 +7,9 @@ description: 사용자 위임 보고서 만들기
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '333'
 ht-degree: 2%
 
 ---
@@ -83,11 +83,11 @@ Adobe Workfront에서 사용자는 프로젝트, 작업 및 문제 승인을 다
 
 ## 사용자 위임 보고서 만들기
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 
 1. **새 보고서**&#x200B;를 클릭한 다음 **사용자 위임**&#x200B;을 선택합니다.
 
-   ![](assets/classic-new-report-user-delegation-350x644.png)
+   ![새 보고서 사용자 위임](assets/classic-new-report-user-delegation-350x644.png)
 
    이 보고서에는 기본적으로 다음 필드가 표시됩니다.
 

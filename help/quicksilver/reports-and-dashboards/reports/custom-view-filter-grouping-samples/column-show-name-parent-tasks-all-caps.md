@@ -7,9 +7,9 @@ description: 이 열을 작업 보기에 추가하여 상위 작업의 이름을
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 이 열을 작업 보기에 추가하여 상위 작업의 이름을 모든 대문자로 표시할 수 있습니다.
 
-![](assets/column-task-with-all-caps-parent-350x112.png)
+![부모 작업이 모두 대문자로 표시된 열](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## 액세스 요구 사항
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 작업 보기에서 이 열을 만들려면 다음 작업을 수행하십시오.
 
 1. 작업 목록으로 이동합니다.
-1. **보기** 드롭다운 메뉴에서 보기를 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. **보기** 드롭다운 메뉴에서 보기를 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 또는\
    **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 선택합니다.
 

@@ -4,9 +4,9 @@ description: 보고 캔버스에서 테이블 블록 추가 또는 편집
 hidefromtoc: true
 hide: true
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,20 @@ ht-degree: 0%
 
 ## 테이블 블록 추가 또는 편집
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고**&#x200B;를 클릭합니다.
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭합니다.
 
    또는
 
-   기존 보고서로 이동하여 보고서 머리글에서 **자세히** 아이콘 ![](assets/more-icon-27x15.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
+   기존 보고서로 이동하여 보고서 머리글에서 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon-27x15.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
 1. **블록 추가** 아래 화면 오른쪽에서 다음 중 하나를 수행합니다.
 
-   **테이블** 아이콘 ![](assets/table-icon.png)을(를) 캔버스로 원하는 위치로 바로 끕니다.
+   **테이블** 아이콘 ![테이블 아이콘](assets/table-icon.png)을 캔버스로 원하는 위치로 바로 드래그합니다.
 
    또는
 
-   **테이블** 아이콘 ![](assets/table-icon.png)을(를) 두 번 클릭하여 캔버스 맨 위에 테이블을 추가합니다.
+   **테이블** 아이콘 ![테이블 아이콘](assets/table-icon.png)을 두 번 클릭하여 캔버스 맨 위에 테이블을 추가합니다.
 
    >[!TIP]
    >
@@ -42,14 +42,14 @@ ht-degree: 0%
 
 1. 테이블 헤더에서 **제목 없는 테이블**&#x200B;을 클릭한 다음 테이블의 제목을 입력합니다.
 
-   ![](assets/table-name-350x142.png)
+   ![테이블 이름](assets/table-name-350x142.png)
 
 1. 표 블록의 중앙에 있는 **편집**&#x200B;을 클릭하여 표를 구성합니다.
 
    >[!NOTE]
    >
-   >테이블이 이미 캔버스의 일부인 경우(예: 기존 보고서 편집 시) **편집** 단추가 블록의 중앙에 표시되지 않습니다. 표를 편집하려면 표 머리글에서 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 대신 클릭합니다.
-   >![](assets/edit-icon-table-header-350x71.png)
+   >테이블이 이미 캔버스의 일부인 경우(예: 기존 보고서 편집 시) **편집** 단추가 블록의 중앙에 표시되지 않습니다. 표를 편집하려면 표 머리글에서 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 대신 클릭합니다.
+   >![테이블 헤더의 편집 아이콘](assets/edit-icon-table-header-350x71.png)
 
 1. 오른쪽의 **필드** 패널에서 테이블에 열로 추가할 필드를 찾은 다음 원하는 테이블로 끌거나 두 번 클릭하여 테이블의 마지막 열로 추가합니다.
 

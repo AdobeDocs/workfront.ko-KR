@@ -4,9 +4,9 @@ description: 보고 캔버스에서 테이블 필터링
 hidefromtoc: true
 hide: true
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -46,19 +46,19 @@ ht-degree: 0%
 
 ## 테이블에 대한 필터 규칙 구성
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고**&#x200B;를 클릭합니다.
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고**&#x200B;를 클릭합니다.
 
 1. **새 보고서**&#x200B;를 클릭합니다.
 
    또는
 
-   기존 보고서로 이동하고 보고서 헤더에서 **추가 메뉴** 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 선택합니다.
+   기존 보고서로 이동하고 보고서 헤더에서 **추가 메뉴** 아이콘 ![추가 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 선택합니다.
 
 1. 새 테이블의 행을 그룹화하려면 테이블 블록을 캔버스로 드래그하거나 두 번 클릭합니다.
 
    또는
 
-   기존 테이블의 행을 그룹화하려면 테이블 머리글에서 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+   기존 테이블의 행을 그룹화하려면 테이블 머리글에서 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
 1. 오른쪽 패널에서 테이블을 필터링할 필드를 찾은 다음 필터 섹션으로 드래그합니다.
 

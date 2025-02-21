@@ -6,9 +6,9 @@ description: 조건부 서식을 사용하여 보기에서 두 개의 서로 다
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 1%
 1. 빌더에 있는 기존 값을 사용하여 비교 기준을 입력하고 조건부 서식을 지정합니다.\
    예를 들어, 실제 시작 일자가 계획된 시작 일자보다 늦거나 큰 작업을 강조 표시하려고 합니다. 보다 큼 수정자를 선택하고 날짜 필드에서 실제 날짜를 선택합니다.
 
-   ![](assets/cond-format-1-350x84.png)
+   ![실제 시작 날짜에 대한 조건부 서식](assets/cond-format-1-350x84.png)
 
 1. (선택 사항) 전체 행에 서식을 적용하려면 **전체 행에 적용**&#x200B;을 선택합니다.
 1. **저장**&#x200B;을 클릭합니다.
@@ -104,7 +104,7 @@ ht-degree: 1%
 
 1. `righttext` 코드 줄이 `rightmethod` 코드 줄의 문과 일치하는지 확인하십시오.
 
-   ![](assets/cond-format-2-350x171.png)
+   ![조건부 서식](assets/cond-format-2-350x171.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 1. **저장 및 닫기**&#x200B;를 클릭합니다.

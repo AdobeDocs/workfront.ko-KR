@@ -4,9 +4,9 @@ description: 웹 콘텐츠 블록을 사용하면 보고서 내에서 직접 외
 hidefromtoc: true
 hide: true
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '332'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 1%
 
 ## 웹 콘텐츠 블록 추가 또는 편집
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고**&#x200B;를 클릭합니다.
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭합니다.
 
    또는
 
-   기존 보고서로 이동하여 보고서 머리글에서 **자세히** 아이콘 ![](assets/more-icon-27x15.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
+   기존 보고서로 이동하여 보고서 머리글에서 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon-27x15.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
 1. 화면 오른쪽의 **블록 추가**&#x200B;에서 다음 중 하나를 수행합니다.
 
@@ -41,9 +41,9 @@ ht-degree: 1%
    >블록 모서리 핸들을 드래그하여 블록을 배치한 후 블록 크기를 변경할 수 있습니다.
 
 1. 블록 헤더에서 **제목 없는 웹 콘텐츠**&#x200B;를 클릭한 다음 블록의 제목을 입력합니다.
-1. 블록 헤더에서 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 블록 헤더에서 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
-   ![](assets/web-content-block-header-350x76.png)
+   ![블록 헤더의 편집 아이콘](assets/web-content-block-header-350x76.png)
 
 1. 열리는 **설정** 패널에서 **URL** 필드에 표시할 페이지의 전체 URL(&quot;https://&quot; 포함)을 입력합니다.
 

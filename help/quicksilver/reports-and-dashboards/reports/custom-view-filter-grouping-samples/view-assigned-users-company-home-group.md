@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "보기: 할당된 사용자의 회사 및 홈 그룹"
+title: '보기: 할당된 사용자의 회사 및 홈 그룹'
 description: 이 작업 보기에는 작업의 기본 소유자의 회사 및 홈 그룹이 표시됩니다. 이러한 값은 표준 인터페이스에서 사용할 수 없지만 텍스트 모드를 통해 액세스할 수 있는 값입니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 이 작업 보기에는 작업의 기본 소유자의 회사 및 홈 그룹이 표시됩니다. 이러한 값은 표준 인터페이스에서 사용할 수 없지만 텍스트 모드를 통해 액세스할 수 있는 값입니다.
 
-![](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![할당된 사용자의 회사 및 홈 그룹 보기](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## 액세스 요구 사항
 

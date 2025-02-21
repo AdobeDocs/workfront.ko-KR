@@ -7,9 +7,9 @@ description: 목록 및 보고서에서 그룹화의 이름을 사용자에게 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 예를 들어 표준 Portfolio 이름 그룹화를 프로젝트 목록에 적용하면 그룹화의 이름이 *Portfolio: 이름:`<name of portfolio>`*(으)로 표시됩니다.
 
-![](assets/grouping-unedited-name-350x167.png)
+![편집되지 않은 이름으로 그룹화](assets/grouping-unedited-name-350x167.png)
 
 텍스트 모드를 사용하여 이 그룹화를 수정하여 읽기 쉬운 이름을 표시할 수 있습니다.
 
-![](assets/grouping-edited-name-350x160.png)
+![편집된 이름별 그룹화](assets/grouping-edited-name-350x160.png)
 
 ## 액세스 요구 사항
 
@@ -103,7 +103,7 @@ ht-degree: 0%
      >`group.0.name=`과(와) `group.0.displayname=` 줄을 비워 둘 수도 있습니다. 이 경우 그룹화에는 그룹화할 값이 표시됩니다.
 
 
-     ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![이름이 없는 편집된 이름으로 그룹화](assets/grouping-edited-name-no-name-350x162.png)
 
 1. **완료**&#x200B;를 클릭한 다음 **그룹화 저장**&#x200B;을 클릭합니다.
 1. (선택 사항) 그룹화 이름을 업데이트한 다음 **그룹화 저장**&#x200B;을 클릭합니다.

@@ -6,9 +6,9 @@ description: 보고서 게재 개요
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Workfront에서 보고서를 보내면 사용자가 보고서가 포함된 이�
 
 첨부된 보고서의 이름은 *The_Name_Of_The_Report*&#x200B;이고 그 뒤에 내보낸 파일 형식이 옵니다.
 
-배달된 보고서를 PDF 또는 HTML 파일 형식으로 예약한 경우 보고서 제목은 다음과 같습니다.
+배달된 보고서를 PDF 또는 HTML 파일 형식으로 예약한 경우 보고서의 제목은 다음과 같습니다.
 
 *보고서 이름.*
 
@@ -141,7 +141,7 @@ Excel, Excel(.xlsx) 또는 TSV 형식으로 배달되도록 예약된 보고서�
 
 >[!NOTE]
 >
->보고서에 설명이 있는 경우, 파일의 형식이 PDF 또는 HTML 파일인 경우, 이 설명은 내보낸 파일에 포함됩니다.
+>보고서에 설명이 있으면 파일 형식이 PDF 또는 HTML 파일인 경우 내보낸 파일에 포함됩니다.
 
 ### 타임스탬프 {#timestamps}
 
@@ -167,7 +167,7 @@ Workfront 인스턴스 브랜딩에 대한 자세한 내용은 문서 [Adobe Wor
 
 웹 응용 프로그램에서 보고서에 특수 서식이 있는 경우 .pdf 및 Excel 파일에 대해서만 세부 정보 및 매트릭스 탭이 제공될 때 보고서가 특수 서식으로 제공되어야 합니다.
 
-보고서의 필터, 보기 또는 그룹화는 배달된 파일에 포함되지 않습니다. 보고서의 설명은 보고서를 PDF 파일로 보내는 경우에만 포함됩니다.
+보고서의 필터, 보기 또는 그룹화는 배달된 파일에 포함되지 않습니다. 보고서의 설명은 보고서를 PDF 파일로 보낼 때만 포함됩니다.
 
 특수 보기가 있는 보고서를 받는 방법에 대한 자세한 내용은 문서 [특수 보기가 있는 보고서](#reports-with-a-special-view)를 참조하십시오.\
 보고서의 기본 탭 선택 및 특수 형식에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
@@ -189,7 +189,7 @@ Workfront에서 PDF 또는 Excel 형식으로 보고서를 보낼 때 원본 문
 
 * **보고서 개체에 대한 필터**: 보고서 목록 또는 보고서에 다음 문으로 필터를 만듭니다. *예약된 보고서 ID가 비어 있지 않습니다*.\
   목록이나 보고서에 예약된 보고서만 표시됩니다.\
-  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  ![예약된 보고서 필터](assets/qs-scheduled-report-filter-350x101.png)\
   보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오. 보고서에서 보고서를 만드는 방법에 대한 자세한 내용은 [보고 활동에 대한 보고서 만들기](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)를 참조하십시오.
 
 <!--

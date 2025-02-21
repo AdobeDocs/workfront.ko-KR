@@ -6,9 +6,9 @@ description: 오브젝트에 있는 날짜의 시간대별로 보고서를 필�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1024'
 ht-degree: 5%
 
 ---
@@ -70,14 +70,14 @@ ht-degree: 5%
 
 ## 날짜의 시간대별로 보고서 필터링 {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고**&#x200B;를 클릭합니다.
+1. **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고**&#x200B;를 클릭합니다.
 
 1. **새 보고서**&#x200B;를 클릭한 다음 원하는 보고서 유형을 선택합니다.\
    예를 들어 **시간 보고서**&#x200B;를 선택합니다.
 
 1. **필터** 탭을 선택합니다.
 1. **필터 규칙 추가**&#x200B;를 클릭한 다음 **시간 항목 날짜**&#x200B;를 선택합니다.\
-   ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![시간대별 시간 보고서 필터링](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. 다음 드롭다운 메뉴에서 다음 옵션 중 하나를 선택합니다.
 
@@ -106,7 +106,7 @@ ht-degree: 5%
       <td>이 수정자를 선택한 후 시간을 입력한 날짜 범위를 지정합니다. 보고서에는 지정된 날짜 사이에 입력된 시간이 표시됩니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">다음보다 작음</td> 
+      <td role="rowheader">보다 작음</td> 
       <td>이 수정자를 선택한 후 시간을 입력하기 전에 날짜를 지정합니다. 보고서에는 지정된 날짜 이전에 입력된 시간이 표시되며 지정된 날짜는 포함되지 않습니다.</td> 
      </tr> 
      <tr> 
@@ -114,7 +114,7 @@ ht-degree: 5%
       <td>이 수정자를 선택한 후 시간을 입력하기 전에 날짜를 지정합니다. 이 보고서는 지정된 날짜를 포함하여 지정된 날짜 이전에 입력한 시간을 보여줍니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">다음보다 큼</td> 
+      <td role="rowheader">보다 큼</td> 
       <td>이 수정자를 선택한 후 시간을 입력한 날짜를 지정합니다. 보고서에는 지정된 날짜 이후에 입력된 시간이 표시되며 지정된 날짜는 포함되지 않습니다.</td> 
      </tr> 
      <tr> 

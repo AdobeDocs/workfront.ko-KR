@@ -7,9 +7,9 @@ description: 보고서의 여러 행 프로젝트 보기에 대해 알아봅니�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 * 프로젝트 이름 뒤에 프로젝트 소유자를 괄호로 묶어 표시합니다.
 * 프로젝트 이름을 프로젝트에 대한 링크로 표시합니다.
 
-![](assets/project-multi-row-stacked-view-350x219.png)
+![스택 보기가 있는 프로젝트 행](assets/project-multi-row-stacked-view-350x219.png)
 
 ## 액세스 요구 사항
 

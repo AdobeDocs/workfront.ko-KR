@@ -4,9 +4,9 @@ description: 보고 캔버스에서 테이블 열 구성
 hidefromtoc: true
 hide: true
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1052'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,10 @@ ht-degree: 2%
 
 ## 테이블의 열 수정
 
-1. 기존 보고서로 이동하고 보고서 헤더에서 **추가 메뉴** 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 선택합니다.
-1. 보고서의 테이블 머리글에서 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 기존 보고서로 이동하고 보고서 헤더에서 **추가 메뉴** 아이콘 ![추가 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 선택합니다.
+1. 보고서의 테이블 머리글에서 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![테이블 헤더의 편집 아이콘](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >

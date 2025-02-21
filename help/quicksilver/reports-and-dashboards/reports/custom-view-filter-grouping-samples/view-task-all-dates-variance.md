@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '보기: 모든 날짜 차이가 있는 작업'
+title: '보기: 모든 일자 차이가 있는 작업'
 description: 이 작업 보기는 Adobe Workfront 계정과 함께 제공되는 "모든 날짜" 보기와 유사합니다. 이 특정 보기에는 날짜 간의 일 차이를 계산하는 분산 열이 포함되어 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 보기에서 계산을 사용하는 방법에 대한 자세한 내용은 [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) 섹션을 참조하십시오.  [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-![](assets/view-task-with-all-dates-variance.png)
+![모든 날짜가 포함된 작업 보기](assets/view-task-with-all-dates-variance.png)
 
 ## 액세스 요구 사항
 

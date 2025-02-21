@@ -7,9 +7,9 @@ description: Adobe Workfront에서 보고서가 대시보드에 추가되었는�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Adobe Workfront에서 보고서가 대시보드에 추가되었는지 여부를 
 
 보고서 목록에 대한 대시보드 정보로 보기를 만들려면 다음 작업을 수행하십시오.
 
-1. Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 1. 보고서 목록에서 **보기** 드롭다운 메뉴를 클릭합니다.
 1. **새 보기**&#x200B;를 클릭합니다.
 1. **열 추가**&#x200B;를 클릭합니다.
@@ -77,13 +77,13 @@ Adobe Workfront에서 보고서가 대시보드에 추가되었는지 여부를 
 
 1. **보기 저장**&#x200B;을 클릭합니다.\
    보고서가 표시되는 대시보드가 보고서 목록의 대시보드 열에 표시됩니다.\
-   ![](assets/qs-dashboards-in-report-view.png)
+   보고서의 ![대시보드](assets/qs-dashboards-in-report-view.png)
 
 ## 대시보드 정보로 보고서 목록 필터링
 
 대시보드 정보로 보고서 목록을 필터링하려면 다음을 수행합니다.
 
-1. Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 
 1. 보고서 목록에서 **필터** 드롭다운 메뉴를 클릭합니다.
 1. **새 필터**&#x200B;를 클릭한 다음 **필터 규칙 추가**&#x200B;를 클릭합니다.
@@ -93,7 +93,7 @@ Adobe Workfront에서 보고서가 대시보드에 추가되었는지 여부를 
 1. **대시보드** 개체 아래에서 **이름**&#x200B;을(를) 선택합니다.
 
 1. 수정자 드롭다운 메뉴에서 **같음**&#x200B;을 선택한 다음 필터링할 대시보드 이름을 입력하세요. 필터에 대해 여러 대시보드를 선택할 수 있습니다.\
-   ![](assets/qs-dashboards-in-report-filters-350x143.png)
+   보고서 필터의 ![대시보드](assets/qs-dashboards-in-report-filters-350x143.png)
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.\
    지정된 대시보드에만 나열되는 보고서 목록이 표시됩니다.\

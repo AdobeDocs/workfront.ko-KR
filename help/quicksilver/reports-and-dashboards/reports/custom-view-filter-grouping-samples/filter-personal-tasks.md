@@ -7,9 +7,9 @@ description: 이 작업 필터는 사용자에게 전송된 임시 작업 요청
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 개인 작업은 프로젝트에 연결되지 않지만 필요한 경우 프로젝트로 이동할 수 있습니다. 자세한 내용은 [개인 작업 만들기](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)를 참조하세요.
 
-![](assets/personal-tasks-report.png)
+![개인 작업 보고서](assets/personal-tasks-report.png)
 
 ## 액세스 요구 사항
 

@@ -6,9 +6,9 @@ description: 더 이상 대시보드를 사용할 수 없는 경우 Adobe Workfr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 1. 편집할 대시보드로 이동합니다.
 1. **대시보드 작업**&#x200B;을 클릭한 다음 **삭제**&#x200B;을 클릭합니다.
 
-   ![](assets/unshimmed-delete-dashboard.png)
+   ![대시보드 삭제](assets/unshimmed-delete-dashboard.png)
 
 1. 대시보드를 삭제하려면 **예, 삭제를 클릭합니다.**
 대시보드가 Workfront에서 제거됩니다.
@@ -84,9 +84,9 @@ ht-degree: 0%
 여러 대시보드를 삭제하려면 다음 작업을 수행하십시오.
 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 대시보드]**&#x200B;를 클릭합니다.
-1. 목록에서 삭제할 각 대시보드를 선택한 다음 **삭제** ![](assets/delete.png)를 클릭합니다.
+1. 목록에서 삭제할 각 대시보드를 선택한 다음 **삭제** ![삭제 아이콘](assets/delete.png)을 클릭합니다.
 
-   ![](assets/unshimmed-delete-dashboard-list.png)
+   ![대시보드 삭제](assets/unshimmed-delete-dashboard-list.png)
 
 1. 대시보드를 삭제하려면 **예, 삭제를 클릭합니다.**
 대시보드가 Workfront에서 제거됩니다.

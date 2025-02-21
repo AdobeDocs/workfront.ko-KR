@@ -6,9 +6,9 @@ description: 텍스트 모드를 사용하여 목록 또는 보고서에서 필�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1044'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 1. 다음 중 하나를 수행하십시오.
 
-   목록에서 필터에 액세스하려면 목록으로 이동하여 **필터** 아이콘을 클릭한 다음 수정할 **필터** 사이드 패널의 필터 위에 마우스를 놓고 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다. **필터** 사이드 패널에 선택한 필터가 표시되거나 레거시 필터 빌더가 열립니다.
+   목록에서 필터에 액세스하려면 목록으로 이동하여 **필터** 아이콘을 클릭한 다음 수정할 측면 **필터** 패널의 필터 위에 마우스를 놓고 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다. **필터** 사이드 패널에 선택한 필터가 표시되거나 레거시 필터 빌더가 열립니다.
 
    또는
 

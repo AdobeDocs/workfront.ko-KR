@@ -6,9 +6,9 @@ description: 텍스트 모드를 사용하여 목록 또는 보고서에서 그�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 1. 다음 중 하나를 수행하십시오.
 
    1. 보고서에서 그룹화에 액세스하려면 보고서로 이동한 다음 **보고서 작업** > **편집** > **그룹화** 탭을 클릭합니다.
-   1. 목록에서 그룹화에 액세스하려면 목록으로 이동한 후 **그룹화** 드롭다운 메뉴에서 수정할 그룹화를 마우스로 가리키고 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+   1. 목록에서 그룹화에 액세스하려면 목록으로 이동한 후 **그룹화** 드롭다운 메뉴에서 수정할 그룹화를 마우스로 가리키고 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
       그룹화 빌더가 열립니다.
 
@@ -194,7 +194,7 @@ ht-degree: 0%
        <ol> 
         <li value="1"> <p> 표시되는 필드 이름이 단일 명사가 아닌 구문인 경우 <code>valuefield</code>에 대해 카멜 대/소문자 구문을 사용해야 합니다. 예를 들어 작업의 계획된 시작 일자의 경우 코드는 다음과 같습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>사용자 지정 필드를 표시하려면 <code>valuefield</code> 값이 인터페이스에 표시된 실제 필드 이름입니다. 예를 들어 "추가 정보"라는 사용자 정의 필드의 경우 코드는 다음과 같습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>코드의 <code>valuefield</code> 줄을 사용하여 다른 개체와 관련된 개체별로 그룹화하려면 개체 이름과 특성이 콜론으로 구분됩니다.</p> <p>예를 들어, 작업 목록에 대해 Portfolio 이름별로 그룹화할 때 valuefield 라인의 값은 다음과 같습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>이는 보고서(작업) 객체에서 다음 관련 객체(프로젝트)에 액세스할 수 있음을 나타냅니다. 여기에서 프로젝트(포트폴리오)에서 다음 관련 객체에 액세스한 다음 포트폴리오 이름(이름)에 액세스할 수 있습니다.</p> </li> 
+        <li value="3"> <p>코드의 <code>valuefield</code> 줄을 사용하여 다른 개체와 관련된 개체별로 그룹화하려면 개체 이름과 특성이 콜론으로 구분됩니다.</p> <p>예를 들어 작업 목록에 대해 Portfolio 이름별로 그룹화할 경우 valuefield 행에 대해 다음 값이 있습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>이는 보고서(작업) 객체에서 다음 관련 객체(프로젝트)에 액세스할 수 있음을 나타냅니다. 여기에서 프로젝트(포트폴리오)에서 다음 관련 객체에 액세스한 다음 포트폴리오 이름(이름)에 액세스할 수 있습니다.</p> </li> 
        </ol> <p>개체가 서로 연결되는 방법에 대한 자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront의 개체 이해</a>의 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">개체의 상호 종속성 및 계층 구조</a> 섹션을 참조하십시오.</p> <p>주: 표준 인터페이스에서 유효하지 않은 텍스트 모드의 필드를 선택하고 표준 인터페이스로 전환하면 그룹화가 삭제됩니다.</p> </td> 
      </tr> 
      <tr> 

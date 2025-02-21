@@ -4,9 +4,9 @@ description: 보고 캔버스에서 보고서 내보내기
 hidefromtoc: true
 hide: true
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 전체 보고서(또는 특정 블록)를 필요에 맞게 파일 형식으로 내보낼 수 있습니다. 다음과 같이 내보낼 수 있습니다.
 
-* PDF(현재 비활성화됨)
+* PDF (현재 비활성화됨)
 * CSV
 * PNG
 * XLSX
@@ -27,7 +27,7 @@ ht-degree: 2%
 ## 보고서 내보내기
 
 1. 내보낼 보고서로 이동합니다.
-1. 보고서 헤더에서 **자세히** 아이콘 ![](assets/more-icon-27x15.png)을 클릭하고 **내보내기**&#x200B;를 클릭한 다음 만들 파일 형식을 선택합니다.
+1. 보고서 헤더에서 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon-27x15.png)을 클릭하고 **내보내기**&#x200B;를 클릭한 다음 만들 파일 형식을 선택합니다.
 
    >[!NOTE]
    >

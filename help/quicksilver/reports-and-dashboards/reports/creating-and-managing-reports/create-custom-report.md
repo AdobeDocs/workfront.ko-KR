@@ -6,9 +6,9 @@ description: 보고서를 만들어 Adobe Workfront에서 조직에 필요한 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -30,35 +30,34 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>새로운 기능: 표준 </p>
    또는
    <p>현재: 플랜 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p><b>메모</b></p>
-   <p> 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>작성한 보고서에 대한 관리 권한을 받습니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>작성한 보고서에 대한 관리 권한을 받습니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -72,11 +71,13 @@ ht-degree: 1%
 
    사용 가능한 개체 보고서에 대한 자세한 내용은 문서 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 [개체 보고서](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) 섹션을 참조하십시오.
 
-   ![](assets/nwe-select-new-report-350x666.png)
+   ![새 보고서 선택](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
    >기존 보고서의 복사본을 만들어 보고서를 만들 수도 있습니다. 자세한 내용은 [보고서 복사본 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)를 참조하세요.
+
+1. (선택 사항) 새 보고서의 제목을 편집하려면 Report Builder의 왼쪽 상단 모서리에 있는 텍스트 필드에 원하는 보고서 제목을 입력합니다. 호환성 문제를 방지하려면 UTF-8 문자만 사용하는 것이 좋습니다.
 
 1. Report Builder에서 보고서에 다음을 추가합니다.
 
@@ -126,11 +127,11 @@ ht-degree: 1%
 
    또는
 
-   기존 열을 변경하려면 열을 클릭하고 Report Builder의 왼쪽 위 모서리에 있는 **이 열 필드에 표시** 영역에서 현재 필드 오른쪽에 있는 **제거** 아이콘 ![](assets/remove-column-icon.png)을(를) 클릭한 다음 새 필드를 입력한 다음 목록에 표시될 때 클릭합니다.
+   기존 열을 변경하려면 열을 클릭하고 Report Builder의 왼쪽 위 모서리에 있는 **이 열 필드에 표시** 영역에서 현재 필드 오른쪽에 있는 **제거** 아이콘 ![열 제거 아이콘](assets/remove-column-icon.png)을 클릭한 다음 새 필드를 입력한 다음 목록에 표시될 때 클릭합니다.
 
    열에 표시되는 필드에 대한 자세한 내용은 [Adobe Workfront 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)를 참조하십시오.
 
-   ![](assets/nwe-add-column-typeahead-350x459.png)
+   ![열 자동 완성 추가](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (선택 사항) **열 설정** 영역에서 **이 열을 기준으로 정렬**&#x200B;을 선택하여 내림차순 알파벳순으로 열의 값을 정렬한 다음 목록에서 이 열을 첫 번째 정렬로 사용할지 여부를 나타냅니다.
 
@@ -202,7 +203,7 @@ ht-degree: 1%
 
    목록에 표시될 때 기존 그룹화를 선택하려면 **기존 그룹화 적용**&#x200B;을 선택하십시오.
 
-   ![](assets/nwe-add-grouping-350x230.png)
+   ![그룹화 추가](assets/nwe-add-grouping-350x230.png)
 
 1. 그룹화로 추가할 필드를 입력하십시오. 필드를 사용할 수 있는 경우 해당 필드는 연결할 수 있는 각 오브젝트에 대해 채워집니다. 필드 이름을 클릭하여 해당 그룹화에 추가합니다.
 1. (선택 사항) **텍스트 모드로 전환**&#x200B;을 클릭하여 텍스트 모드에서 그룹화를 만들 수 있습니다. 텍스트 모드 사용에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
@@ -234,7 +235,7 @@ ht-degree: 1%
    또는\
    기존 필터를 사용하려면 **기존 필터 적용**&#x200B;을 선택하십시오.
 
-   ![](assets/nwe-add-a-filter-350x93.png)
+   ![필터 추가](assets/nwe-add-a-filter-350x93.png)
 
 1. **필터 규칙 추가**&#x200B;를 클릭한 경우 필터로 추가할 필드를 입력하세요. 필드를 사용할 수 있는 경우 해당 필드는 연결할 수 있는 각 오브젝트에 대해 채워집니다. 필드 이름을 클릭하여 해당 필터에 추가합니다.\
    필터 수정자를 사용하여 필터를 빌드합니다. 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)를 참조하십시오.
@@ -254,7 +255,7 @@ ht-degree: 1%
 1. 이 문서의 [보고서 만들기](#create-a-report) 섹션에 설명된 대로 보고서 만들기를 시작합니다.
 1. Report Builder에서 **차트** 탭을 선택한 다음 추가할 차트 유형을 선택합니다.
 
-   ![](assets/nwe-add-a-chart-350x247.png)
+   ![차트 추가](assets/nwe-add-a-chart-350x247.png)
 
    보고서에서 차트를 만드는 방법에 대한 자세한 내용은 [보고서에 차트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)를 참조하세요.
 

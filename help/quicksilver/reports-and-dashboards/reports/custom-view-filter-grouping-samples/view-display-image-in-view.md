@@ -7,9 +7,9 @@ description: 텍스트 모드를 사용하여 뷰의 개체 이름을 이미지�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >이미지는 실제 해상도로 나타나므로 작은 이미지를 사용하십시오.
 
-![](assets/replace-project-name-with-image-and-link-350x125.png)
+![프로젝트 이름을 이미지 및 링크로 바꾸기](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## 액세스 요구 사항
 
@@ -86,7 +86,7 @@ ht-degree: 0%
    1. 마우스 오른쪽 단추를 클릭하고 브라우저에 따라 **이미지 위치 복사** 또는 **링크 가져오기**&#x200B;를 선택합니다. 이제 해당 특정 이미지에 대한 URL이 있으며 클립보드에서 붙여넣을 수 있습니다.
    1. 해당 링크를 가진 모든 사람이 링크로 이동하여 이미지를 볼 수 있는 권한이 있고, 링크에 액세스하기 위해 로그인하지 않아도 되는지 확인하십시오.
 
-1. 프로젝트로 이동하여 프로젝트 이름 옆에 있는 **자세히** 메뉴 ![](assets/more-icon-45x33.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
+1. 프로젝트로 이동하여 프로젝트 이름 옆에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon-45x33.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
 1. **URL** 필드에서 이미지에 링크를 추가합니다.
 1. 프로젝트 목록에서 프로젝트 보기로 이동합니다.

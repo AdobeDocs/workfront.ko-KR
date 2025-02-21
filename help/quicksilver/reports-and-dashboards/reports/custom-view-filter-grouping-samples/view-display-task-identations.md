@@ -7,9 +7,9 @@ description: 이 작업 보기에서 작업 이름 열에 코드를 추가하여
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 이 작업 보기에서 작업 이름 열에 코드를 추가하여 프로젝트의 작업 분류 구조에 따라 들여쓴 작업을 표시할 수 있습니다.
 
-![](assets/view-text-mode-indentation-task-list-350x171.png)
+![작업 들여쓰기 보기](assets/view-text-mode-indentation-task-list-350x171.png)
 
 ## 액세스 요구 사항
 

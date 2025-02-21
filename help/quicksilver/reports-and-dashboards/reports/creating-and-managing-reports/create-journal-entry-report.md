@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2798'
 ht-degree: 4%
 
 ---
@@ -181,7 +181,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭한 다음 **저널 게시물**&#x200B;을 선택합니다.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![저널 게시물 선택](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder가 로드됩니다.
 
@@ -255,7 +255,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 
 1. **필터** 탭에서 **필터 규칙 추가**&#x200B;를 클릭한 다음 **필드 이름** > **같음** > **상태**&#x200B;를 추가합니다.
 
-   ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![저널 게시물 상태 필터](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -295,7 +295,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭한 다음 **저널 게시물**&#x200B;을 선택합니다.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![저널 게시물 선택](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder가 로드됩니다.
 
@@ -342,7 +342,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
    * **프로젝트 ID** > **같음** > **&lt; 프로젝트 이름 >**
 
      <!--WRITER check link; this png file has spaces
-     [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
    필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
@@ -379,7 +379,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭한 다음 **저널 게시물**&#x200B;을 선택합니다.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![저널 게시물 선택](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder가 로드됩니다.
 
@@ -450,7 +450,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 
    * **프로젝트 ID** > **같음** > **&lt; 프로젝트 >**.
 
-   ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![사용자 정의 양식 변경 필터](assets/qs-custom-form-changes-filter-350x92.png)
 
    필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
@@ -481,7 +481,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭한 다음 **저널 게시물**&#x200B;을 선택합니다.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![저널 게시물 선택](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder가 로드됩니다.
 
@@ -551,7 +551,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
    * **필드 이름** > **같음** > **날짜**
    * **프로젝트 ID** > **같음** > **&lt; 프로젝트 이름 >**.
 
-   ![](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![계획된 완료 일자 변경 필터](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
@@ -582,7 +582,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭한 다음 **저널 게시물**&#x200B;을 선택합니다.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![저널 게시물 선택](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder가 로드됩니다.
 
@@ -640,7 +640,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
    * **필드 이름** > **같음** > **소유자 ID**
    * **프로젝트 ID** > **같음** > **&lt; 프로젝트 이름 >**.
 
-   ![](assets/qs-owner-changes-filter-350x94.png)
+   ![소유자 변경 필터](assets/qs-owner-changes-filter-350x94.png)
 
    필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 

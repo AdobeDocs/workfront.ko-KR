@@ -6,9 +6,9 @@ description: 텍스트 모드를 사용하여 목록이나 보고서의 보기�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '461'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 2%
 1. 다음 중 하나를 수행하십시오.
 
    1. 보고서에서 보기에 액세스하려면 보고서로 이동한 다음 **보고서 작업** > **편집** > **열(보기)** 탭을 클릭합니다.
-   1. 목록에서 보기에 액세스하려면 목록으로 이동한 후 **보기** 드롭다운 메뉴에서 수정할 보기를 마우스로 가리키고 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+   1. 목록에서 보기에 액세스하려면 목록으로 이동한 후 **보기** 드롭다운 메뉴에서 수정할 보기를 마우스로 가리키고 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
       뷰 빌더 가 열립니다.
 

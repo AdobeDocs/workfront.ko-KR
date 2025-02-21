@@ -7,9 +7,9 @@ description: 텍스트 모드를 사용해야만 Adobe Workfront 보고서의 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 0%
 
    보고서의 개체는 다중 선택 사용자 지정 필드의 값으로 그룹화됩니다.
 
-   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![다중 선택 필드 그룹화](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    보고서의 그룹화 이름은 다중 선택 사용자 정의 필드 이름 뒤에 필드에서 선택한 값이 옵니다.
 

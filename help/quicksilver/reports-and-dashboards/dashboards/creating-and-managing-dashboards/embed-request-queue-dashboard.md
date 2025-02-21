@@ -6,9 +6,9 @@ description: 요청 영역으로 이동할 필요 없이 새 요청 대기열을
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 1%
 
    화면에 표시할 때 요청 대기열 또는 대기열 주제에 링크가 복사됩니다. 사용자는 요청 유형 또는 사용 가능한 모든 주제 그룹 및 대기열 주제를 업데이트할 수 있습니다.
 
-   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![공유 경로가 있는 요청 큐](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### 요청 대기열에 대한 링크 및 요청 유형 변경 기능 얻기 {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 
    사용자는 필요한 주제 그룹 또는 대기열 주제를 선택하거나 다른 요청 유형을 선택할 수 있습니다.
 
-   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![요청 큐 URL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### 요청 유형을 변경할 수 없는 요청 대기열에 대한 링크 가져오기 {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +150,7 @@ ht-degree: 1%
 
    사용자는 선택한 요청 유형에 필요한 주제 그룹 또는 대기열 주제를 선택할 수 있습니다. 사용자가 다른 요청 유형을 선택할 수 없습니다.
 
-   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![요청 큐 코드](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## 대시보드에 요청 대기열 포함
 
@@ -164,7 +164,7 @@ ht-degree: 1%
 
 1. **외부 페이지 추가**&#x200B;를 클릭합니다.
 
-   ![](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![외부 페이지](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. **외부 페이지 추가** 상자에서 다음 필드를 편집합니다.
 

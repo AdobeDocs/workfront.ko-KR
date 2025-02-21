@@ -7,9 +7,9 @@ description: '보기: 증명에 대한 링크가 있는 문서 보고서'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 이 문서 보기에서는 문서의 현재 버전 증명에 대한 링크를 삽입할 수 있습니다.
 
-![](assets/view-document-with-proof-link-350x92.png)
+![증명 링크가 있는 문서 보기](assets/view-document-with-proof-link-350x92.png)
 
 ## 액세스 요구 사항
 

@@ -7,9 +7,9 @@ description: 보고서 FAQ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Workfront에서 시간을 사용하는 필드는 분 단위로 저장됩니다. 
 ### 답변
 
 보고서 또는 달력에는 로그인한 사용자를 가리키는 와일드카드 필터 변수가 있을 수 있습니다. 이 경우 보고서는 로그인한 사용자를 기반으로 한 정보를 표시합니다. 로그인한 사용자를 가리키는 와일드카드를 제거하려면 필터를 조정합니다.\
-![](assets/qs--user.id-filter-variable-350x79.png)
+![사용자 ID 필터 변수](assets/qs--user.id-filter-variable-350x79.png)
 
 사용자 기반 와일드카드 필터 변수의 전체 목록을 보려면 [와일드카드 필터 변수 개요](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)를 참조하십시오.
 
@@ -122,7 +122,7 @@ Workfront에서 시간을 사용하는 필드는 분 단위로 저장됩니다. 
 1. **Equal** 한정자를 선택하십시오.
 1. 텍스트 상자에 *$$USER.ID*&#x200B;을(를) 입력하고 표시되는 드롭다운 목록에서 선택하십시오.\
    이렇게 하면 로그인한 사용자에게 할당된 모든 작업 및 문제가 표시됩니다. 와일드카드를 특정 사용자 이름으로 바꿀 수 있습니다.\
-   ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![나에게 할당된 작업](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
@@ -143,7 +143,7 @@ Workfront에서 시간을 사용하는 필드는 분 단위로 저장됩니다. 
 * 프로젝트의 기본 통화 이외의 통화가 선택된 이러한 목록에 **보기**&#x200B;가 적용된 경우 링크가 표시되지 않습니다. **보기**&#x200B;를 **프로젝트의 원래 통화**(으)로 변경하면 프로젝트에 문제와 작업을 추가할 수 있도록 링크가 표시됩니다.\
   보기에서 통화 변경에 대한 자세한 내용은 [환율이 고유한 재무 데이터 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)를 참조하십시오.
 
-![](assets/nwe-project-original-currency-350x229.png)
+![프로젝트 통화](assets/nwe-project-original-currency-350x229.png)
 
 ## 보고서나 대시보드의 정보가 자동으로 새로 고쳐집니까?
 

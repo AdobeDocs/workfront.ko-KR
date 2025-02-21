@@ -7,9 +7,9 @@ description: 보고서에 대한 보고서를 만들 때 비활성화된 사용�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## 기존 보고서에 대한 보고서 만들기 {#create-the-report-about-existing-reports}
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+1. Adobe Workfront 오른쪽 위 모서리에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
 1. **보고서**&#x200B;를 클릭한 다음 **새 보고서**&#x200B;를 클릭합니다.
 1. **새 보고서** 드롭다운 메뉴에서 **보고서**&#x200B;을(를) 선택하여 기존 보고서에 대한 보고서를 만듭니다.
 

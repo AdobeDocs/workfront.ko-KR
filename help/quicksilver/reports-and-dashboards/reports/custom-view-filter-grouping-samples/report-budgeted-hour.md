@@ -7,9 +7,9 @@ description: '보고서: 예산 시간'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 >
 >예산 시간은 일반적으로 Adobe Workfront 데이터베이스에서 매시간마다 업데이트됩니다(드물게 최대 3시간이 소요될 수 있습니다). 보고서를 새로 고쳐도 해당 보고서 내의 시간 정보가 새로 고쳐지지 않습니다. 모든 예산 시간 보고서의 오른쪽 상단 모서리에서 마지막 업데이트 이후 경과한 시간을 볼 수 있습니다. 보고서를 새로 고치면 마지막 업데이트 후 1시간 이상 경과한 경우에만 보고서 내의 정보가 새로 고침됩니다.
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![예산 시간 보고서 동기화 경고](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## 액세스 요구 사항
 
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 ## 예산 시간 보고서 작성
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭하거나 왼쪽 상단의 **주 메뉴** 아이콘 ![](assets/lines-main-menu.png)을(를) 클릭합니다(사용 가능한 경우). 그런 다음 **보고서**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭하거나 왼쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 줄](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **보고서**&#x200B;를 클릭합니다.
 
 1. **새 보고서** > **자세히** > **예산 시간**&#x200B;을 클릭합니다.
 

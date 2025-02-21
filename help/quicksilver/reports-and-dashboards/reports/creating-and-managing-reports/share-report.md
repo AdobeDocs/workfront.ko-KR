@@ -6,9 +6,9 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보�
 
    * **시스템의 모든 사용자가 볼 수 있습니다** 보고서에 대한 액세스 권한이 있는 모든 Workfront 사용자가 보고서를 볼 수 있도록 이 옵션을 선택하십시오.
 
-1. (선택 사항) 공유 상자의 오른쪽 위 모서리에 있는 **톱니바퀴** 아이콘 ![](assets/gear-icon-settings-with-dn-arrow.jpg)을(를) 클릭한 다음 선택적으로 다음 옵션을 선택합니다.
+1. (선택 사항) 공유 상자의 오른쪽 위 모서리에 있는 **톱니바퀴** 아이콘 ![톱니바퀴 아이콘 설정](assets/gear-icon-settings-with-dn-arrow.jpg)을 클릭한 다음 선택적으로 다음 옵션을 선택합니다.
 
    * **외부 사용자에게 공개하기** 다른 사용자와 공유할 수 있는 URL을 생성하려면 이 옵션을 선택하십시오. URL이 있는 사람은 Adobe Workfront 라이선스가 없어도 보고서에 액세스할 수 있습니다.
 

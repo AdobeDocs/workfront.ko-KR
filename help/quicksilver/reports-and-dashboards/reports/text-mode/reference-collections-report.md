@@ -6,9 +6,9 @@ description: 보고서에서 컬렉션 참조
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
 보고서 보기에 컬렉션 열을 추가하려면 다음 작업을 수행하십시오.
 
-1. **기본** 메뉴 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. **주** 메뉴 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭합니다.
 1. 보고서의 개체를 선택합니다.
 1. 보고서에서 떨어진 다음 [API 탐색기](../../../wf-api/general/api-explorer.md)를 사용하여 보고서에 대해 선택한 개체에 사용할 수 있는 컬렉션을 결정합니다.
@@ -236,7 +236,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
 1. 프로젝트 보고서에는 기본 피할당자와 함께 각 프로젝트의 모든 작업을 나열하는 다음 열이 표시됩니다.
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![작업 및 할당자 컬렉션이 있는 프로젝트 보고서](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. **저장**&#x200B;을 클릭합니다.
 1. (선택 사항) 보고서를 계속 편집합니다.
@@ -261,7 +261,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
  <tbody> 
   <tr> 
    <td><code>valueformat=HTML</code> </td> 
-   <td> <p>이 줄에는 다양한 값을 사용할 수 있지만 컬렉션 목록의 <code style="font-weight: normal;">valueformat</code>은(는) <strong>HTML</strong>이어야 합니다.</p>
+   <td> <p>이 줄에는 다양한 값을 사용할 수 있지만 컬렉션 목록의 <code style="font-weight: normal;">valueformat</code>은(는) <strong>HTML.</strong>이어야 합니다.</p>
    </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
 보고서 필터의 컬렉션에 대한 참조를 추가하려면 다음 작업을 수행하십시오.
 
-1. **기본** 메뉴 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. **주** 메뉴 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭합니다.
 1. 보고서의 개체를 선택합니다.
 1. 보고서에서 떨어진 다음 [API 탐색기](../../../wf-api/general/api-explorer.md)를 사용하여 보고서에 대해 선택한 개체에 사용할 수 있는 컬렉션을 결정합니다.
@@ -350,7 +350,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
    이 보고서는 이름에 &quot;marketing&quot;이라는 단어가 포함된 작업이 하나 이상 있는 프로젝트만 표시합니다.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![프로젝트의 마케팅 전용 작업](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. 문제의 이름을 필터링하려면 다음 코드를 사용하십시오.
 
@@ -386,7 +386,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
 보고서의 사용자 지정 프롬프트에서 컬렉션에 대한 참조를 추가하려면 다음을 수행하십시오.
 
-1. **기본** 메뉴 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. **주** 메뉴 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭합니다.
 1. 보고서의 개체를 선택합니다.
 1. 이 문서의 [보고서의 필터에서 컬렉션 참조](#reference-a-collection-in-the-filter-of-a-report) 섹션에 설명된 대로 컬렉션 참조를 사용하여 필터를 빌드합니다.

@@ -6,9 +6,9 @@ description: 마일스톤 보기를 프로젝트 목록 또는 보고서에 적�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -126,16 +126,16 @@ ht-degree: 0%
 * **작업 상태 아이콘:** 마일스톤 보기에서 각 프로젝트 및 작업 옆에 상태 아이콘이 표시됩니다.
 
    * 정시\
-     ![](assets/gantt-ontime.png)
+     ![시간 아이콘](assets/gantt-ontime.png)
 
    * 지연됨\
-     ![](assets/gantt-behind.png)
+     ![뒤로 아이콘](assets/gantt-behind.png)
 
    * 위험 상태\
-     ![](assets/gantt-atrisk.png)
+     ![위험 상태 아이콘](assets/gantt-atrisk.png)
 
    * 지연\
-     ![](assets/gantt-late.png)
+     ![지연 아이콘](assets/gantt-late.png)
 
   이 문서의 [마일스톤 보기에 표시되는 정보 구성](#configure-what-information-displays-in-the-milestone-view) 섹션에 설명된 대로 이러한 상태 아이콘이 표시되지 않도록 할 수 있습니다.\
   각 상태 유형에 대한 자세한 내용은 문서 [작업 진행 상태 개요](../../../manage-work/tasks/task-information/task-progress-status.md)를 참조하십시오.

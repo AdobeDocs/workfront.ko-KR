@@ -7,9 +7,9 @@ description: 아래 작업 필터를 적용하여 작업 작업을 표시할 수
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 다음 필터를 작업 보고서에 적용하여 하위 항목이 없는 작업을 표시할 수 있습니다. 그들은 그들 자신의 부모를 가질 수 있고 다른 과제의 자식이 될 수 있다.
 
-1. 오른쪽 상단의 **주 메뉴** ![](assets/main-menu-icon.png) 또는 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)에서 사용 가능한 경우 **보고서**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png) 또는 왼쪽 상단의 **주 메뉴** ![주 메뉴 줄](assets/lines-main-menu.png)에서 사용 가능한 경우 **보고서**&#x200B;를 클릭하십시오.
 
 1. **새 보고서**&#x200B;를 클릭합니다.
 1. **작업 보고서**&#x200B;를 선택하십시오.
@@ -79,7 +79,7 @@ ht-degree: 1%
 1. **필드 이름 입력 시작...** 줄에서 **하위 항목 수**&#x200B;를 입력한 다음 목록에 표시되면 **작업 >> 하위 항목 수**&#x200B;를 클릭합니다.
 
 1. 수정자에 대해 **같음(대/소문자 구분)**&#x200B;을 선택한 다음, 하위 항목 수에 대해 **0**&#x200B;을(를) 입력하십시오.\
-   ![](assets/parent-task-filter-from-the-ui-350x76.png)
+   ![상위 작업 필터](assets/parent-task-filter-from-the-ui-350x76.png)
 
    또는
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 작업 보고서에 다음 필터를 적용하여 상위 작업(하위 작업)을 표시할 수 있습니다. 단, 이러한 작업은 필터가 하위 항목을 제외하지 않으므로 하위 항목도 가질 수 있습니다. 다른 작업의 부모가 되는 하위 작업은 작업 작업으로 간주되지 않습니다.
 
-1. 오른쪽 상단의 **주 메뉴** ![](assets/main-menu-icon.png) 또는 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)에서 사용 가능한 경우 **보고서**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png) 또는 왼쪽 상단의 **주 메뉴** ![주 메뉴 줄](assets/lines-main-menu.png)에서 사용 가능한 경우 **보고서**&#x200B;를 클릭하십시오.
 
 1. **새 보고서**&#x200B;를 클릭합니다.
 1. **작업 보고서**&#x200B;를 선택하십시오.
@@ -108,7 +108,7 @@ ht-degree: 1%
 1. **필드 이름 입력 시작...** 줄에서 **상위 ID**&#x200B;을(를) 입력한 다음 목록에 표시될 때 **작업 >> 상위 ID**&#x200B;을(를) 선택합니다.
 1. 한정자에 대해 **Is Not Blank**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/filter-parent-id-not-blank-350x100.png)
+   ![상위 ID가 비어 있지 않습니다](assets/filter-parent-id-not-blank-350x100.png)
 
    또는
 
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 다음 필터를 작업 보고서에 적용하여 독립형 작업 작업을 표시할 수 있습니다. 이러한 작업에는 상위가 없으며 자신의 하위 항목도 없습니다.
 
-1. 오른쪽 상단의 **주 메뉴** ![](assets/main-menu-icon.png) 또는 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)에서 사용 가능한 경우 **보고서**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png) 또는 왼쪽 상단의 **주 메뉴** ![주 메뉴 줄](assets/lines-main-menu.png)에서 사용 가능한 경우 **보고서**&#x200B;를 클릭하십시오.
 
 1. **새 보고서**&#x200B;를 클릭합니다.
 1. **작업 보고서**&#x200B;를 선택하십시오.
@@ -136,7 +136,7 @@ ht-degree: 1%
 1. **필드 이름 입력 시작...** 줄에서 **상위 ID**&#x200B;을(를) 입력한 다음 목록에서 **작업 >> 상위 ID**&#x200B;을(를) 선택합니다.
 1. 한정자에 대해 **Is Blank**&#x200B;를 선택합니다.
 
-   ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![상위 ID가 비어 있고 하위 항목이 없습니다](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    또는
 

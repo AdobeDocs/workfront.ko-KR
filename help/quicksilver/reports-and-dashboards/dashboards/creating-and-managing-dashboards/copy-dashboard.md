@@ -6,9 +6,9 @@ description: 대시보드 및 모든 해당 콘텐츠(보고서, 달력 및 외�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 대시보드]**&#x200B;를 클릭합니다.
 
-1. 복사할 대시보드를 선택한 다음 **복사** ![](assets/copy-icon.png)를 클릭합니다.\
+1. 복사할 대시보드를 선택한 다음 **복사** ![복사 아이콘](assets/copy-icon.png)을 클릭합니다.\
    또는\
    복사할 대시보드를 연 다음 **대시보드 작업** > **복사**&#x200B;를 클릭합니다.\
    대시보드 복사(Dashboard Copy) 대화상자가 표시됩니다. 원본 대시보드의 모든 항목이 표시됩니다.

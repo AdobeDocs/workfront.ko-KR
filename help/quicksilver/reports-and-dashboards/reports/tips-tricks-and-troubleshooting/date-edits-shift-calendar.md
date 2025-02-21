@@ -7,9 +7,9 @@ description: 개체 목록에서 날짜를 인라인 편집할 때 달력에 필
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## 문제
 
 개체 목록에서 날짜를 인라인 편집할 때 달력에 필요한 것보다 많은 날짜가 표시됩니다. 이렇게 하면 날짜가 달력 상자 외부에 표시됩니다.\
-![](assets/calendar-view-350x134.png)
+![일정 보기](assets/calendar-view-350x134.png)
 
 ## 원인
 

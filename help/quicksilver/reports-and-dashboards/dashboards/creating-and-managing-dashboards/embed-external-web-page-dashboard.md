@@ -6,9 +6,9 @@ description: 외부 웹 페이지를 대시보드에 포함하여 Adobe Workfron
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1030'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >* 보안상의 이유로 일부 웹 사이트에서는 웹 페이지를 iframe으로 포함할 수 없습니다. 대시보드에 임베드하려는 웹 페이지에서 이를 허용하지 않는 경우 페이지가 대시보드에 표시되지 않습니다. 그러나 대시보드 이름을 클릭하여 외부 페이지에 계속 액세스할 수 있습니다.\
->![](assets/qs-empty-external-page-report-350x165.png)\
+>![빈 외부 페이지 보고서](assets/qs-empty-external-page-report-350x165.png)\
 >소유한 웹 사이트에 포함을 허용하려면 웹 관리자와 함께 **X-Frame-Options** 설정을 조정하십시오. 자세한 내용은 [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)을 참조하세요.
 >
 >
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 1. **레이아웃 선택/ 보고서 추가/ 캘린더 추가** 영역에서 **외부 페이지 추가**&#x200B;를 클릭합니다.
 
-   ![](assets/qs-add-external-page-350x239.png)
+   ![외부 페이지 추가](assets/qs-add-external-page-350x239.png)
 
    **외부 페이지 추가** 상자가 표시됩니다.
 
@@ -132,7 +132,7 @@ ht-degree: 1%
 
       * 웹 페이지에 대한 https(암호화된) URL입니다.\
         https(암호화된) 페이지만 URL을 사용하여 로드됩니다.\
-        ![](assets/add-external-page-dialog-qs-350x247.png)
+        ![외부 페이지 추가 대화 상자](assets/add-external-page-dialog-qs-350x247.png)
 
       * 특정 웹 사이트에 대한 세션 정보가 포함된 템플릿 URL입니다.\
         예: *https://localhost/?session={!$$SESSION}*
@@ -170,10 +170,10 @@ ht-degree: 1%
    **대시보드 세부 정보** 상자가 열립니다.
 
 1. **대시보드 세부 정보** 상자의 **레이아웃 선택/보고서 추가** 영역에서 업데이트할 외부 페이지를 찾은 다음 마우스로 가리킨 다음 **편집** 아이콘을 클릭합니다.\
-   ![](assets/nwe-inline-edit-external-page-350x226.png)
+   ![외부 페이지 인라인 편집](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. **외부 페이지 편집** 상자에서 변경할 필드를 업데이트한 다음 **저장**&#x200B;을 클릭합니다.
-1. (선택 사항) 대시보드에서 외부 페이지를 제거하려면 **삭제** 아이콘 ![](assets/delete.png)을(를) 클릭합니다. 자세한 내용은 [대시보드에서 외부 페이지 제거](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)를 참조하십시오.
+1. (선택 사항) 대시보드에서 외부 페이지를 제거하려면 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다. 자세한 내용은 [대시보드에서 외부 페이지 제거](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)를 참조하십시오.
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
 ## 보고서에서 외부 페이지 보기
@@ -184,7 +184,7 @@ ht-degree: 1%
 
 1. **새 보고서**&#x200B;를 클릭하고 **외부 섹션**&#x200B;을 선택합니다.
 
-   ![](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![외부 섹션](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (선택 사항) 보고서의 보기, 필터 또는 그룹화 탭을 업데이트합니다.
 

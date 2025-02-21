@@ -6,9 +6,9 @@ description: Workfront에서 열 너비 지침 및 열 너비와 순서를 변�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Workfront 목록에 대한 자세한 내용은 문서 [Adobe Workfront 목록 �
 
 1. 수정할 목록으로 이동합니다.
 1. 열이 원하는 크기에 도달할 때까지 열 머리글의 테두리를 드래그합니다.\
-   ![](assets/column-resize-350x124.png)
+   ![열 크기 조정](assets/column-resize-350x124.png)
 
 #### 일시적으로 열 순서 바꾸기 {#reorder-columns-temporarily}
 

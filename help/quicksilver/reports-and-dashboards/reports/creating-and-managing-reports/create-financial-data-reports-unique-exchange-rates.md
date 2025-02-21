@@ -6,9 +6,9 @@ description: Adobe Workfront에 여러 환율이 구성된 경우 기본 통화 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,13 @@ Adobe Workfront에 여러 환율이 구성된 경우 기본 통화 이외의 통
 
 1. 다른 통화가 적용된 두 개의 프로젝트를 만듭니다.
 
-   ![](assets/qs-currency-350x217.png)
+   ![통화](assets/qs-currency-350x217.png)
 
 1. 두 프로젝트에 시간을 기록합니다.
 
    로깅 시간에 대한 자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md)을 참조하십시오.
 
-1. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고**&#x200B;를 클릭합니다.
+1. **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭한 다음 **프로젝트 보고서**&#x200B;를 클릭합니다.
 1. **열(보기)** 탭에서 **실제 비용** 열을 추가하고 **합계**&#x200B;로 요약합니다.
 
@@ -182,6 +182,6 @@ Adobe Workfront에 여러 환율이 구성된 경우 기본 통화 이외의 통
 1. **보고서 설정**&#x200B;을 클릭합니다.
 1. **기본 통화** 드롭다운을 클릭한 다음 **프로젝트의 원래 통화**&#x200B;를 선택합니다.
 
-   ![](assets/qs-report-settings-default-currency-350x370.png)
+   ![기본 통화](assets/qs-report-settings-default-currency-350x370.png)
 
 1. **완료**&#x200B;를 클릭합니다.

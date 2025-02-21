@@ -4,9 +4,9 @@ description: 보고 캔버스에서 공식 필드 작성
 hidefromtoc: true
 hide: true
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '662'
 ht-degree: 7%
 
 ---
@@ -22,16 +22,16 @@ ht-degree: 7%
 ## 공식 필드 만들기
 
 1. [보고 캔버스에서 테이블 블록 추가 또는 편집](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)에 설명된 대로 테이블 블록을 만들거나 해당 테이블 블록으로 이동합니다.
-1. 보고서의 테이블 머리글에서 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 보고서의 테이블 머리글에서 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![테이블 헤더의 편집 아이콘](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
    >표를 만들었지만 아직 필드를 추가하지 않은 경우에는 표 중앙에 있는 편집 단추를 클릭하십시오.
 
 1. 오른쪽 패널의 **필드** 목록 맨 위에서 **새로 만들기 +**&#x200B;을(를) 클릭합니다.
-1. 새 페이지가 열리면 왼쪽 상단의 필드 이름 옆에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭하여 수식 필드의 이름을 변경합니다.
+1. 새 페이지가 열리면 왼쪽 상단의 필드 이름 옆에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭하여 수식 필드의 이름을 변경합니다.
 1. **함수** 또는 **필드**&#x200B;를 왼쪽 패널에서 중앙에 있는 필드 빌더로 드래그하여 수식 필드에 추가합니다.
 
 

@@ -7,9 +7,9 @@ description: 다중 선택 사용자 지정 필드에서 선택한 선택 사항
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 1. &quot;다중 선택 사용자 정의 필드&quot;를 Workfront에 나타나는 대로 다중 선택 사용자 정의 필드의 실제 이름으로 바꿉니다.
 
-   ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![계산된 다중 선택 사용자 지정 필드](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
 1. (선택 사항) 다중 선택 사용자 지정 필드가 이미 이 양식에 있고 이 양식이 개체에 이미 연결되어 있는 경우 **기존 계산에 적용** 옵션을 활성화합니다.
 
@@ -140,11 +140,11 @@ ht-degree: 0%
 
 1. (선택 사항) 차트로 작성할 모든 계산된 필드가 값으로 채워지도록 하려면 보고서의 세부 정보 탭에서 다중 선택 사용자 지정 필드와 계산된 사용자 지정 필드가 모두 있는 사용자 지정 양식을 포함하는 모든 개체를 선택한 다음 **편집**&#x200B;을 클릭합니다.
 1. (선택 사항 및 조건부) **사용자 지정 표현식 다시 계산** 필드를 선택한 다음 **변경 내용 저장**&#x200B;을 클릭합니다.\
-   ![](assets/recalculate-custom-expressions-350x259.png)
+   ![사용자 지정 표현식 다시 계산](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >이 옵션은 프로젝트 일괄 편집에서 제거되었습니다.  프로젝트 목록 맨 위에 있는 **자세히** 아이콘 ![](assets/more-icon-45x33.png)을 클릭한 다음 **식을 다시 계산**&#x200B;하여 프로젝트에 대한 식을 일괄적으로 다시 계산할 수 있습니다.
+   >이 옵션은 프로젝트 일괄 편집에서 제거되었습니다.  프로젝트 목록 맨 위에 있는 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon-45x33.png)을 클릭한 다음 **식을 다시 계산**&#x200B;하여 프로젝트에 대한 식을 일괄적으로 다시 계산할 수 있습니다.
 
 1. 다중 선택 사용자 정의 필드를 참조하는 계산된 필드에 대한 차트를 추가하려는 보고서로 이동합니다.
 1. **보고서 동작**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
@@ -160,4 +160,4 @@ ht-degree: 0%
 
    이 보고서는 차트에 계산된 다중 선택 필드로 그룹화된 결과를 표시합니다.
 
-   ![](assets/chart-multi-select-field-column-chart-example.png)
+   ![차트의 다중 선택 필드](assets/chart-multi-select-field-column-chart-example.png)
