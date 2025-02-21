@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: f9dea6c80c0d681e3638c9baf36e6e511693b59c
+source-git-commit: 0cbce301426ee42bc00f8b0930a13d0d7875e382
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
   >
   >제품 프로필 자체를 변경하지 마십시오.
 
-* Adobe Admin Console 관리자는 자동 할당 규칙을 설정하여 조직의 사용자에게 Adobe 제품을 할당하는 프로세스를 자동화할 수 있습니다. 자세한 내용 및 지침은 Adobe 설명서에서 [자동 할당 규칙 관리](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html)를 참조하십시오.
+* Adobe Admin Console 관리자는 자동 할당 규칙을 설정하여 조직의 사용자에게 Adobe 제품을 할당하는 프로세스를 자동화할 수 있습니다. 이 기능을 사용하려면 조직을 Adobe 통합 경험으로 마이그레이션해야 합니다. 자세한 내용 및 지침은 Adobe 설명서에서 [자동 할당 규칙 관리](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html)를 참조하십시오.
 
 ## Workfront 프로덕션 인스턴스의 사용자 및 관리 영역에 액세스 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
