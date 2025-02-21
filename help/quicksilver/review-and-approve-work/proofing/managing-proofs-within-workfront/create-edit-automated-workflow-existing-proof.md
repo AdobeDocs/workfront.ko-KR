@@ -6,9 +6,9 @@ description: 프로세스가 복잡하거나 검토용 콘텐츠를 동일한 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    또는
 
-   증명 뷰어에서 증명을 검토하고 있는 경우 왼쪽 패널에서 **워크플로** ![](assets/workflow-icon-proofing-viewer.png)를 클릭한 다음 편집 아이콘 ![](assets/edit-icon-proofing-viewer.png)을(를) 클릭하여 증명에 대한 자동 워크플로 설정을 엽니다.
+   증명 뷰어에서 증명을 검토하고 있는 경우 왼쪽 패널에서 **워크플로** ![워크플로 아이콘](assets/workflow-icon-proofing-viewer.png)을 클릭한 다음 편집 아이콘 ![편집 아이콘](assets/edit-icon-proofing-viewer.png)을 클릭하여 증명에 대한 자동 워크플로 설정을 엽니다.
 
 1. (조건부) 증명이 현재 단계 없이 기본 워크플로를 사용하고 있는 경우 표시되는 화면에서 **자동화된 워크플로로 변환**&#x200B;을 클릭합니다.
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
    자동화된 워크플로에 단계를 추가하면 화면에 해당 단계를 나타내는 다이어그램 양식이 표시됩니다.
 
-   ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![워크플로 다이어그램](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. 단계를 모두 추가했으면 **완료**&#x200B;를 클릭합니다.
 

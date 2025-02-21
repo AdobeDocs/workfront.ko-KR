@@ -6,9 +6,9 @@ description: 비디오 증명에서 재생을 제어하는 방법을 알아봅�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 1. 증명 뷰어 하단에서 **앞으로** 및 **뒤로** 화살표를 클릭하여 프레임별로 비디오를 검토합니다.
 
-   ![](assets/frame-.png)
+   ![프레임](assets/frame-.png)
 
 ## 재생 볼륨 변경
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 1. 증명 뷰어의 오른쪽 아래 모서리에서 **볼륨** 아이콘 위로 마우스를 가져간 다음 슬라이더를 드래그하여 새 볼륨을 선택합니다.
 
-   ![](assets/phq-viewer-volume.png)
+   ![볼륨](assets/phq-viewer-volume.png)
 
    또는
 

@@ -7,10 +7,10 @@ description: 기업의 장기적 전략을 구상 할 때, 처음부터 가지�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
+source-wordcount: '964'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 2%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 1. 기존 시나리오 옆에 있는 아래쪽 화살표를 클릭한 다음 **[!UICONTROL 복사]** 아이콘을 클릭합니다.
 
-   ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![시나리오 복사](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    이렇게 하면 복사된 시나리오와 동일한 정보로 새 시나리오가 생성됩니다. 플랜의 두 번째 시나리오인 경우 자동으로 &quot;[!UICONTROL 시나리오 2]&quot;, 세 번째 시나리오인 경우 자동으로 &quot;[!UICONTROL 시나리오 3]&quot;으로 지정됩니다. 시나리오 이름은 변경할 수 없습니다. 만들 수 있는 부수는 제한이 없습니다.
 
@@ -116,7 +116,7 @@ ht-degree: 2%
 
    플랜에 대한 모든 기존 시나리오가 나란히 카드 형식으로 표시됩니다. 초기 시나리오는 항상 먼저 나열되며 정적입니다.
 
-   ![](assets/scenario-cards-overlapping-350x166.png)
+   ![Senario 카드](assets/scenario-cards-overlapping-350x166.png)
 
 1. (선택 사항) 모든 시나리오 카드를 보려면 오른쪽으로 스크롤합니다.
 
@@ -174,7 +174,7 @@ ht-degree: 2%
    >초기 시나리오와 추가 시나리오 간에 정보가 다른 경우, 초기 시나리오와 비교하여 해당 값의 증가 또는 감소를 나타내도록 변경된 값 옆에 위쪽 또는 아래쪽 화살표가 표시됩니다.
    >
    >
-   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >시나리오 카드의 ![화살표](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >예를 들어 예산, 작업 역할 수, 이니셔티브 수가 한 시나리오에서 다른 시나리오로 변경될 수 있습니다.
 
@@ -188,9 +188,9 @@ ht-degree: 2%
 
    설명 필드를 클릭하여 업데이트한 다음 화면의 아무 곳이나 클릭하여 변경 사항을 저장합니다.
 
-1. (선택 사항) 시나리오를 **[!UICONTROL 복사]** 또는 **[!UICONTROL 삭제]**&#x200B;하려면 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png)를 클릭합니다.
+1. (선택 사항) 시나리오를 **[!UICONTROL 복사]** 또는 **[!UICONTROL 삭제]**&#x200B;하려면 **[!UICONTROL 자세히]** 메뉴 ![추가 아이콘](assets/more-icon.png)을 클릭합니다.
 
-   ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![시나리오 복사 또는 삭제](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    시나리오를 복사하면 카드 페이지에 자동으로 표시되며 다음 패턴에 따라 이름이 바뀝니다. &quot;[!UICONTROL 시나리오] `<next number in order>`&quot;
 

@@ -6,9 +6,9 @@ description: 승인 프로세스를 통해 프로젝트, 작업 및 문제에 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Workfront의 여러 영역에서 승인을 보거나 관리할 수 있습니다.
 
 ## 홈 영역에서 승인을 위해 제출한 작업 검토 {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 승인** 위젯을 추가합니다.
 1. (조건부) **필터** 드롭다운 메뉴를 클릭한 다음 **내가 제출한 승인**&#x200B;을 선택하여 제출한 승인을 확인합니다.
 
@@ -133,6 +133,6 @@ Workfront의 여러 영역에서 승인을 보거나 관리할 수 있습니다.
 
    승인 탭에는 모든 과거 승인 경로 및 단계에 대한 전체 정보가 표시됩니다. 승인에 대해 누가 결정했는지 또는 팀, 작업 역할 또는 사용자에 대해 승인이 설정되었는지 정확하게 확인할 수 있습니다.
 
-   ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
+   ![승인 탭 확장됨](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    승인 프로세스 만들기에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.

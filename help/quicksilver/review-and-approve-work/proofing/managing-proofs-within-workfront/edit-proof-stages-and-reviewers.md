@@ -6,9 +6,9 @@ description: 증명 단계 및 검토자를 편집하는 방법에 대해 알아
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 1%
 ## 검토자 세부 정보 편집
 
 1. Workfront에서 증명 위로 마우스를 가져간 다음 **증명 세부 정보**&#x200B;를 클릭하여 증명 세부 정보 페이지를 엽니다.
-1. **워크플로** 섹션에서 검토자 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-button-small.png)을(를) 클릭한 다음 나타나는 드롭다운 메뉴에서 **편집**&#x200B;을(를) 클릭합니다.
+1. **워크플로** 섹션에서 검토자 이름의 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-button-small.png)를 클릭한 다음 나타나는 드롭다운 메뉴에서 **편집**&#x200B;을 클릭합니다.
 
 1. 표시되는 **검토자 편집** 상자에서 다음 세부 정보를 편집하십시오.
 

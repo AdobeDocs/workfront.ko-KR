@@ -6,9 +6,9 @@ description: 승인을 위해 제출된 다음 객체를 불러올 수 있습니
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -69,14 +69,14 @@ ht-degree: 1%
 
 제출한 프로젝트 승인을 회수하려면
 
-1. Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
+1. Adobe Workfront의 왼쪽 위 모서리에 있는 **홈** 아이콘 ![홈 아이콘](assets/home-icon-30x29.png)을 클릭합니다.
 
    >[!NOTE]
    >
    >Workfront 관리자는 사용자 환경의 홈 아이콘을 다음과 같이 변경할 수 있습니다.
    >
    >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **기본 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
+   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **홈**&#x200B;을 클릭합니다.
 
 1. **작업 목록** 영역에서 **내가 제출한 승인** 그룹화로 이동합니다.
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 
    그러면 작업 목록 오른쪽에 프로젝트가 열립니다.
 
-   ![](assets/project-pending-approval-phome-nwe-350x106.png)
+   ![승인 보류 중인 프로젝트](assets/project-pending-approval-phome-nwe-350x106.png)
 
 1. 오른쪽 패널의 오른쪽 위 모서리에서 **다시 실행**&#x200B;을 클릭합니다.
 
@@ -100,14 +100,14 @@ ht-degree: 1%
 
 제출한 작업 승인을 회수하려면
 
-1. Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
+1. Adobe Workfront의 왼쪽 위 모서리에 있는 **홈** 아이콘 ![홈 아이콘](assets/home-icon-30x29.png)을 클릭합니다.
 
    >[!NOTE]
    >
    >Workfront 관리자는 사용자 환경의 홈 아이콘을 다음과 같이 변경할 수 있습니다.
    >
    >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **기본 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
+   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **홈**&#x200B;을 클릭합니다.
 
 1. **작업 목록** 영역에서 **내가 제출한 승인** 그룹화로 이동합니다.
 
@@ -115,7 +115,7 @@ ht-degree: 1%
 
    그러면 작업 목록 오른쪽에 작업이 열립니다.
 
-   ![](assets/task-pending-approval-home-nwe-350x97.png)
+   ![승인 보류 중인 작업](assets/task-pending-approval-home-nwe-350x97.png)
 
 1. 오른쪽 패널의 오른쪽 위 모서리에서 **다시 실행**&#x200B;을 클릭합니다.
 
@@ -129,14 +129,14 @@ ht-degree: 1%
 >
 >템플릿을 사용하여 문제의 첫 번째 상태를 승인 프로세스와 연결할 수 있습니다. 요청 대기열을 만드는 방법에 대한 자세한 내용은 [요청 대기열 만들기](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
-1. Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
+1. Adobe Workfront의 왼쪽 위 모서리에 있는 **홈** 아이콘 ![홈 아이콘](assets/home-icon-30x29.png)을 클릭합니다.
 
    >[!NOTE]
    >
    >Workfront 관리자는 사용자 환경의 홈 아이콘을 다음과 같이 변경할 수 있습니다.
    >
    >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **기본 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
+   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **홈**&#x200B;을 클릭합니다.
 
 1. **작업 목록** 영역에서 **내가 제출한 승인** 그룹화로 이동합니다.
 
@@ -144,7 +144,7 @@ ht-degree: 1%
 
    그러면 작업 목록 오른쪽에 문제가 열립니다.
 
-   ![](assets/issue-pending-approval-home-nwe-350x103.png)
+   ![승인 보류 중인 문제](assets/issue-pending-approval-home-nwe-350x103.png)
 
 1. 오른쪽 패널의 오른쪽 위 모서리에서 **다시 실행**&#x200B;을 클릭합니다.
 
@@ -152,14 +152,14 @@ ht-degree: 1%
 
 타임시트 승인을 회수하면 타임시트는 승인을 위해 제출되기 전의 상태로 돌아갑니다.
 
-1. Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
+1. Adobe Workfront의 왼쪽 위 모서리에 있는 **홈** 아이콘 ![홈 아이콘](assets/home-icon-30x29.png)을 클릭합니다.
 
    >[!NOTE]
    >
    >Workfront 관리자는 사용자 환경의 홈 아이콘을 다음과 같이 변경할 수 있습니다.
    >
    >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **기본 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
+   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **홈**&#x200B;을 클릭합니다.
 
 1. **작업 목록** 영역에서 **내가 제출한 승인** 그룹화로 이동합니다.
 
@@ -167,7 +167,7 @@ ht-degree: 1%
 
    작업 목록 오른쪽에 타임시트가 열립니다.
 
-   ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
+   ![승인 보류 중인 타임시트](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
 1. 오른쪽 패널의 오른쪽 위 모서리에서 **다시 실행**&#x200B;을 클릭합니다.
 
@@ -175,14 +175,14 @@ ht-degree: 1%
 
 문서 승인을 회수하려면 승인에서 한 명 또는 모든 사용자를 수동으로 제거해야 합니다.
 
-1. Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
+1. Adobe Workfront의 왼쪽 위 모서리에 있는 **홈** 아이콘 ![홈 아이콘](assets/home-icon-30x29.png)을 클릭합니다.
 
    >[!NOTE]
    >
    >Workfront 관리자는 사용자 환경의 홈 아이콘을 다음과 같이 변경할 수 있습니다.
    >
    >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **기본 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
+   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **홈**&#x200B;을 클릭합니다.
 
 1. **작업 목록** 영역에서 **내가 제출한 승인** 그룹화로 이동합니다.
 
@@ -199,14 +199,14 @@ ht-degree: 1%
 
 ## 액세스 권한 요청
 
-1. Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
+1. Adobe Workfront의 왼쪽 위 모서리에 있는 **홈** 아이콘 ![홈 아이콘](assets/home-icon-30x29.png)을 클릭합니다.
 
    >[!NOTE]
    >
    >Workfront 관리자는 사용자 환경의 홈 아이콘을 다음과 같이 변경할 수 있습니다.
    >
    >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **기본 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
+   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **홈**&#x200B;을 클릭합니다.
 
 1. **작업 목록** 영역에서 **내가 제출한 승인** 그룹화로 이동합니다.
 
@@ -214,6 +214,6 @@ ht-degree: 1%
 
    그러면 작업 목록 오른쪽에 액세스 요청이 열립니다.
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![승인 보류 중인 액세스 요청](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. 오른쪽 패널의 오른쪽 위 모서리에서 **다시 실행**&#x200B;을 클릭합니다.

@@ -6,9 +6,9 @@ description: 모든 기간 및 상태에서 기존 목표를 편집할 수 있�
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li></ul>
+  <ul><li>Ultimate 플랜 </li></ul>
    </p>
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
@@ -51,7 +51,7 @@ ht-degree: 1%
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -104,9 +104,9 @@ Editing goals differs depending on what environment you use.
 ### Edit goals in the Production environment
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Edit**.
 
-   ![](assets/edit-goal-highlighted.png)
+   ![Edit goal](assets/edit-goal-highlighted.png)
 
 1. Update the name of the goal in the **Goal** field. 
 1. Select a time period when the goal should be completed.
@@ -144,17 +144,17 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **목표**&#x200B;를 클릭합니다.\
+1. **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.\
    목표 목록이 표시됩니다.
 1. 목표를 클릭합니다.\
    목표 페이지가 표시됩니다.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![목표 페이지](assets/goal-page-unshimmed.png)
 
 1. 다음 중 하나를 수행하여 목표에 대한 정보를 편집합니다.
    * 목표 헤더에 표시되는 필드를 클릭하여 업데이트합니다. 헤더의 일부 필드를 편집할 수 있는 것은 아닙니다.
-   * 목표 이름의 오른쪽에 있는 **자세히 아이콘** ![](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
-   * 왼쪽 패널에서 **목표 세부 사항**&#x200B;을 클릭하고 오른쪽 상단에서 **편집 아이콘** ![](assets/edit-icon.png)을 클릭한 다음 **모두 편집**&#x200B;을 클릭합니다. 목표 세부 사항 섹션의 필드 업데이트를 시작합니다.
+   * 목표 이름의 오른쪽에 있는 **자세히 아이콘** ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+   * 왼쪽 패널에서 **목표 세부 사항**&#x200B;을 클릭하고 오른쪽 상단에서 **편집 아이콘** ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 **모두 편집**&#x200B;을 클릭합니다. 목표 세부 사항 섹션의 필드 업데이트를 시작합니다.
 
      >[!IMPORTANT]
      >

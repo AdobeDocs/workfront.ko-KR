@@ -6,9 +6,9 @@ description: Adobe Workfront에서 문서에 대한 다른 사용자의 승인�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트, 작업, 문제, 템플릿, Portfolio, 프로그램, 보고서, 대시보드 및 캘린더, 문서에 대한 보기 또는 상위 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>프로젝트, 작업, 문제, 템플릿, 포트폴리오, 프로그램, 보고서, 대시보드 및 캘린더, 문서에 대한 보기 또는 상위 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -58,7 +58,7 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 ## 문서 페이지에서 문서 검토 또는 승인 요청 만들기
 
 1. 문서 위로 마우스를 가져간 다음 문서 세부 정보 를 클릭합니다.
-   ![](assets/doc-details.png)
+   ![문서 세부 정보](assets/doc-details.png)
 
 
 1. 문서 이름 근처에서 버전 드롭다운에서 승인을 만들려는 문서 버전을 선택합니다. 기본적으로 최신 버전이 선택됩니다.
@@ -71,7 +71,7 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 
 1. 검토자를 추가하려면 **검토자** 확인란을 클릭하고 사용자 또는 팀 이름을 입력하십시오.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![승인자 및 기한 추가](assets/add-approver-and-deadline.png)
 
 1. 이전 단계를 반복하여 승인자 또는 검토자를 추가합니다.
 
@@ -85,7 +85,7 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 
 1. 문서 요약 창의 **승인** 섹션까지 아래로 스크롤한 다음 **추가**&#x200B;를 클릭합니다.
 
-![](assets/doc-summary-add-approvers.png)
+![문서 요약에 승인자 추가](assets/doc-summary-add-approvers.png)
 
 1. (선택 사항) 승인 기한을 설정합니다. 사용자와 팀은 지정된 기한 24시간 전에 이메일로 72시간 전에 알림을 받습니다.
 
@@ -93,7 +93,7 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 
 1. 검토자를 추가하려면 **검토자** 확인란을 클릭하고 사용자 또는 팀 이름을 입력하십시오.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![승인자 및 기한 추가](assets/add-approver-and-deadline.png)
 
 1. 이전 단계를 반복하여 승인자 또는 검토자를 추가합니다.
 
@@ -111,5 +111,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

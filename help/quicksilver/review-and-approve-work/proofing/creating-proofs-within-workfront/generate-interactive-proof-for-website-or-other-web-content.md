@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: 웹 사이트 또는 기타 웹 콘텐츠에 대한 대화형 증명 만들기
-description: 웹 콘텐츠에 대한 새 대화형 증명 또는 기존 대화형 증명의 새 버전을 생성할 수 있습니다. 웹 사이트나 스트리밍 비디오나 오디오가 있는 광고, HTML 애니메이션 및 대화형 배너 같은 다른 종류의 대화형 콘텐츠일 수 있습니다.
+description: 웹 콘텐츠에 대한 새 대화형 증명 또는 기존 대화형 증명의 새 버전을 생성할 수 있습니다. 웹 사이트나 스트리밍 비디오나 오디오가 있는 광고, HTML 애니메이션 및 대화형 배너와 같은 다른 종류의 대화형 콘텐츠일 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 # 웹 사이트 또는 기타 웹 콘텐츠에 대한 대화형 증명 만들기
 
-웹 콘텐츠에 대한 새 대화형 증명 또는 기존 대화형 증명의 새 버전을 생성할 수 있습니다. 웹 사이트나 스트리밍 비디오나 오디오가 있는 광고, HTML 애니메이션 및 대화형 배너 같은 다른 종류의 대화형 콘텐츠일 수 있습니다.
+웹 콘텐츠에 대한 새 대화형 증명 또는 기존 대화형 증명의 새 버전을 생성할 수 있습니다. 웹 사이트나 스트리밍 비디오나 오디오가 있는 광고, HTML 애니메이션 및 대화형 배너와 같은 다른 종류의 대화형 콘텐츠일 수 있습니다.
 
 대화형 증명에서 검토자는 웹 사이트나 다른 웹 콘텐츠와 일반적인 방식으로 탐색하고 상호 작용할 수 있습니다.
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 1. 추가한 URL을 클릭합니다.
 
-   ![](assets/click-url-350x137.png)
+   ![URL 클릭](assets/click-url-350x137.png)
 
 1. (선택 사항) 웹 사이트 URL에서 증명 이름을 다른 이름으로 변경하려면 **증명 이름**&#x200B;을 입력하십시오.
 1. **대화식**&#x200B;을 선택한 다음 **완료**&#x200B;를 클릭합니다.

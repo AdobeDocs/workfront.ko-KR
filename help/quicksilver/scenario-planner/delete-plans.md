@@ -6,9 +6,9 @@ description: 생성한 계획을 삭제할 수 있습니다. 공유된 플랜은
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
@@ -90,7 +90,7 @@ ht-degree: 1%
 계획 목록이 표시됩니다.
 
 1. 계획명을 눌러 계획을 엽니다.
-1. 플랜 이름 오른쪽에 있는 **[!UICONTROL 추가 메뉴]** ![](assets/more-menu.png)를 클릭한 다음 **[!UICONTROL 삭제]** > **[!UICONTROL 예, 삭제]**&#x200B;를 클릭합니다.
+1. 플랜 이름 오른쪽에 있는 **[!UICONTROL 추가 메뉴]** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **[!UICONTROL 삭제]** > **[!UICONTROL 예, 삭제]**&#x200B;를 클릭합니다.
 
    플랜이 삭제되고 플랜 목록으로 돌아갑니다.
 
@@ -114,7 +114,7 @@ ht-degree: 1%
    기본적으로 초기 시나리오가 표시됩니다.
 
 1. **[!UICONTROL 시나리오 비교]**&#x200B;를 클릭합니다.
-1. 시나리오 카드의 오른쪽 상단 모서리에서 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
+1. 시나리오 카드의 오른쪽 상단 모서리에서 **[!UICONTROL 자세히]** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
    시나리오가 삭제됩니다.
 

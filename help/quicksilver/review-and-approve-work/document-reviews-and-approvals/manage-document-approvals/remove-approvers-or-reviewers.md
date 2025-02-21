@@ -6,9 +6,9 @@ description: 문서에서 개별 승인자 또는 검토자를 제거할 수 있
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트, 작업, 문제, 템플릿, Portfolio, 프로그램, 보고서, 대시보드 및 캘린더, 문서에 대한 보기 또는 상위 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>프로젝트, 작업, 문제, 템플릿, 포트폴리오, 프로그램, 보고서, 대시보드 및 캘린더, 문서에 대한 보기 또는 상위 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 왼쪽 창에서 **승인**&#x200B;을 선택합니다.
 
-1. 제거할 승인자 또는 검토자의 이름 위에 마우스를 가져다 대고 이름 뒤에 나타나는 **삭제** 아이콘 ![](../assets/delete.png)을(를) 클릭합니다.
+1. 제거하려는 승인자 또는 검토자의 이름을 마우스로 가리킨 다음, 이름 뒤에 나타나는 **삭제** 아이콘 ![삭제 아이콘](../assets/delete.png)을 클릭합니다.
 
    승인 또는 검토 요청이 제거되고 승인자가 더 이상 승인이 필요하지 않다는 알림을 받습니다. 승인 관련 공유 액세스도 제거됩니다.
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. 버전 드롭다운에서 승인자 또는 검토자를 제거할 문서 버전을 선택합니다. 기본적으로 최신 버전이 선택됩니다.
 
-1. 문서 요약 창의 **승인** 섹션까지 아래로 스크롤합니다. 제거할 승인자 또는 검토자의 이름 위에 마우스를 가져다 대고 이름 뒤에 나타나는 **삭제** 아이콘 ![](../assets/delete.png)을(를) 클릭합니다.
+1. 문서 요약 창의 **승인** 섹션까지 아래로 스크롤합니다. 제거하려는 승인자 또는 검토자의 이름을 마우스로 가리킨 다음, 이름 뒤에 나타나는 **삭제** 아이콘 ![삭제 아이콘](../assets/delete.png)을 클릭합니다.
 
    승인 또는 검토 요청이 제거되고 승인자가 더 이상 승인이 필요하지 않다는 알림을 받습니다. 승인 관련 공유 액세스도 제거됩니다.
 

@@ -6,9 +6,9 @@ description: 목표 세부 정보 패널에 액세스하여 개별 목표에 대
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '642'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li></ul>
+  <ul><li>Ultimate 플랜 </li></ul>
    </p>
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
@@ -61,7 +61,7 @@ ht-degree: 1%
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -98,7 +98,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 ### Update goals in the Goal Details panel in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -108,7 +108,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 1. Click the name of a goal in the Goal List, then click the name of a goal.
 
    This opens the Goal Details panel on the right.
-   ![](assets/goal-details-summary-tab-350x294.png)
+   ![Goal details summary](assets/goal-details-summary-tab-350x294.png)
 
    >[!TIP]
    >
@@ -120,7 +120,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
    >The Check-in and Pulse sections have been removed from the Preview environment.
    >
 
-1. On the Summary tab, click the **More icon** ![](assets/more-icon.png), then click any of the following options:
+1. On the Summary tab, click the **More icon** ![More icon](assets/more-icon.png), then click any of the following options:
 
    1. **Edit**. For information about editing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
    1. **Copy**. For information about copying goals, see [Copy goals in Adobe Workfront Goals](../../workfront-goals/goal-management/copy-goals.md).
@@ -159,7 +159,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Click the **Updates** tab. Here, you can view goal comments and review the entire editing history of the goal, activities, and results, to understand who changed what and when.
 
-   ![](assets/goal-details-updates-tab-350x280.png)
+   ![Goal details updates](assets/goal-details-updates-tab-350x280.png)
 
 1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab.&nbsp;They are selected by default: 
 
@@ -171,7 +171,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. (Optional) Click **Details** under a progress or an editing history update to display additional information about the update.
 
-   ![](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
+   ![Details in update tab](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
 
 -->
 
@@ -181,9 +181,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    왼쪽에 **목표 세부 정보** 섹션이 열립니다.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![목표 페이지](assets/goal-page-unshimmed.png)
 
-1. 오른쪽 상단의 **편집 아이콘** ![](assets/edit-icon.png)을 클릭한 다음 **모두 편집** 또는 **개요**&#x200B;를 클릭합니다
+1. 오른쪽 상단의 **편집 아이콘** ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 **모두 편집** 또는 **개요**&#x200B;를 클릭합니다
 
    또는
 

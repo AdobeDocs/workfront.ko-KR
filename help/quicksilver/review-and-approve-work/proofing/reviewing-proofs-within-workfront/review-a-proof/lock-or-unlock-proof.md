@@ -6,9 +6,9 @@ description: 검토 프로세스에서 언제든지 증명을 수동으로 잠�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -61,13 +61,13 @@ ht-degree: 1%
 
    또는
 
-   이전 버전의 문서에 대한 증명을 열려면 요약에서 해당 버전에 대한 기타 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **증명 열기**&#x200B;를 클릭합니다.
+   문서의 이전 버전에 대한 증명을 열려면 요약에서 해당 버전에 대한 기타 아이콘 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **증명 열기**&#x200B;를 클릭합니다.
 
    요약에 대한 자세한 내용은 [문서에 대한 요약 개요](../../../../documents/managing-documents/summary-for-documents.md)를 참조하십시오.
 
-1. 왼쪽 패널에서 **잠금** 아이콘 ![](assets/unlock-proof-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **잠금** 아이콘 ![잠금 아이콘](assets/unlock-proof-icon.png)을 클릭합니다.
 
-   ![](assets/lock-proof-350x277.png)
+   ![증명 잠금](assets/lock-proof-350x277.png)
 
 ## 증명 잠금 해제
 
@@ -79,10 +79,10 @@ ht-degree: 1%
 
    또는
 
-   이전 버전의 문서에 대한 증명을 열려면 요약에서 해당 버전에 대한 기타 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **증명 열기**&#x200B;를 클릭합니다.
+   문서의 이전 버전에 대한 증명을 열려면 요약에서 해당 버전에 대한 기타 아이콘 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **증명 열기**&#x200B;를 클릭합니다.
 
    요약에 대한 자세한 내용은 [문서에 대한 요약 개요](../../../../documents/managing-documents/summary-for-documents.md)를 참조하십시오.
 
-1. 왼쪽 패널에서 **잠금 해제** 아이콘 ![](assets/unlock-proof-icon.png)을 클릭한 다음 **예, 잠금 해제**&#x200B;을 클릭합니다.
+1. 왼쪽 패널에서 **잠금 해제** 아이콘 ![잠금 해제 아이콘](assets/unlock-proof-icon.png)을 클릭한 다음 **예, 잠금 해제**&#x200B;을 클릭합니다.
 
-   ![](assets/copy-of-unlock-proof-350x279.png)
+   ![증명 잠금 해제](assets/copy-of-unlock-proof-350x279.png)

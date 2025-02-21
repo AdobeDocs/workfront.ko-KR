@@ -6,9 +6,9 @@ description: 이니셔티브는 계획에 나열된 순서대로 계획에서 �
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
      Workfront에 선택한 이니셔티브 수가 표시됩니다.
 
-     ![](assets/multi-select-initiative-number.png)
+     ![여러 개의 이니셔티브 번호 선택](assets/multi-select-initiative-number.png)
 
    * 플랜 하단의 **[!UICONTROL 우선 순위 지정]** 상자를 클릭한 후 다음 옵션 중에서 선택하십시오.
 
@@ -100,7 +100,7 @@ ht-degree: 1%
       * **[!UICONTROL 아래쪽]**: 선택한 이니셔티브를 이니셔티브 목록의 맨 아래로 이동합니다. 선택한 이니셔티브가 플랜의 마지막 목록에 나열됩니다.
       * **[!UICONTROL 숫자를 선택하세요]**: 선택한 이니셔티브를 여기에 표시된 이니셔티브 뒤로 이동합니다.
 
-        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![이니셔티브 우선 순위 지정](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront]은(는) 선택한 이니셔티브를 지정한 위치에 즉시 배치하고 모든 이니셔티브의 수를 그에 따라 업데이트합니다.
 

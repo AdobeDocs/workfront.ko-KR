@@ -6,7 +6,7 @@ description: 승인 템플릿을 만들어 승인 프로세스를 간소화할 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: a077266bf91beca1fb6a7a841220f11ebd6687ea
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 2%
@@ -70,4 +70,4 @@ Workfront 설정 영역에서 Standard 라이선스를 가진 사용자는 재�
 
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
-![](assets/assign-template.png)-->
+![Assign template](assets/assign-template.png)-->

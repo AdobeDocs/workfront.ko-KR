@@ -6,9 +6,9 @@ description: 증명에서 텍스트를 빠르게 찾는 방법에 대해 알아�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 2%
 1. 검색할 증명을 엽니다.
 1. 증명 위의 도구 모음에서 **문서 검색** 아이콘을 클릭합니다.
 
-   ![](assets/search-document-icon-search-in-proof-350x129.png)
+   ![문서 검색](assets/search-document-icon-search-in-proof-350x129.png)
 
 1. 검색할 텍스트를 입력하십시오.
 

@@ -6,9 +6,9 @@ description: 문서 결정 상태가 나열되고 설명됨
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 37c4b6d5609c429d6e0706e48d1143596eca9ea4
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '167'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 문서 목록에서 직접 문서 상태를 볼 수 있습니다.
 
-![](assets/status-in-doc-list.png)
+문서 목록의 ![상태](assets/status-in-doc-list.png)
 
 
 다음 상태를 사용할 수 있습니다.

@@ -7,9 +7,9 @@ description: Adobe Workfront 목표에는 계정에 대해 활성화할 수 있�
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >* 새 플랜 및 라이선스 구조의 경우:
 >
->   * 궁극적인 Workfront 플랜
+>   * Ultimate Workfront 플랜
 >    
 >* 현재 플랜 및 라이선스 구조의 경우:
 >
@@ -140,4 +140,4 @@ A personal goal is a goal where you are designated as the owner.
 
 활성화한 알림에 의해 정의된 이벤트가 발생하면 이벤트를 설명하는 이메일을 받게 됩니다. 다음은 사용자가 새 목표의 소유자로 할당되었음을 알리는 이메일의 예입니다.
 
-![](assets/wf-align-notification-email-350x164.png)
+![목표 알림 전자 메일](assets/wf-align-notification-email-350x164.png)

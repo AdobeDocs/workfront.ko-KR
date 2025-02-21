@@ -6,9 +6,9 @@ description: 더 이상 연결할 수 없는 경우 두 목표 간의 정렬을 
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '456'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -101,9 +101,9 @@ Removing goal alignment differs depending on which environment you use.
 
 1. Go to a child goal aligned to a parent goal. 
 1. Click the goal name to open the **Goal Details** panel. 
-1. Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
+1. Click the **gear icon** ![Gear icon](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
 
-   ![](assets/edit-remove-alignment-350x88.png)
+   ![Reove alignment](assets/edit-remove-alignment-350x88.png)
 
    The goal becomes a standalone goal and its progress no longer influences the progress of the original parent goal. 
 
@@ -117,9 +117,9 @@ Removing goal alignment differs depending on which environment you use.
 1. Workfront의 **목표** 영역에 액세스하고 목표의 이름을 클릭하여 목표의 페이지를 엽니다.
 1. 상위 목표의 목표 페이지에서 왼쪽 패널의 **진행 표시기**&#x200B;를 클릭합니다.
 
-   ![](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![목표 정렬 다시 이동](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. **유형: 목표** 그룹화에서 목표를 선택한 다음 목록 맨 위에 있는 **연결 끊기** 아이콘 ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)을(를) 클릭합니다.
+1. **유형: 목표** 그룹화에서 목표를 선택한 다음 목록 맨 위에 있는 **연결 끊기** 아이콘 ![연결 끊기 아이콘](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)을 클릭합니다.
 
    연결 해제 상자가 표시됩니다.
 

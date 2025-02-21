@@ -6,9 +6,9 @@ description: 한 작업의 여러 버전 또는 수정 버전에서 피드백을
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Workfront에서 새 증명 버전을 업로드하는 방법에는 몇 가지가 
   <table>
   <tbody>
   <tr>
-  <td>문서 업로드 시 자동으로 증명 생성</td>
+  <td>문서 업로드 시 자동으로 교정쇄 생성</td>
   <td>기본 증명 설정이 이월되지 않습니다. 사용자 프로필에서 이 설정을 활성화한 경우 새 버전을 끌어서 놓을 때 기본 증명 설정이 이월되지 않습니다.</td>
   </tr>
   <tr>
@@ -105,7 +105,7 @@ Workfront에서 새 증명 버전을 업로드하는 방법에는 몇 가지가 
 
    증명이 나열된 행을 선택하고 **새로 추가** > **버전**&#x200B;을 클릭한 다음 새 증명 버전을 추가하는 데 사용할 옵션을 클릭합니다.
 
-   ![](assets/add-new-version-350x185.png)
+   ![새 버전 추가](assets/add-new-version-350x185.png)
 
 ## 증명 뷰어에서 증명의 새 버전 만들기(Workfront Proof만 해당)
 

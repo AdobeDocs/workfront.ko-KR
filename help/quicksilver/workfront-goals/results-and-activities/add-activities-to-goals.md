@@ -7,9 +7,9 @@ description: 활동은 목표의 진행 상황을 측정합니다. 연결된 결
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li></ul>
+  <ul><li>Ultimate 플랜 </li></ul>
    </p>
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
@@ -52,7 +52,7 @@ ht-degree: 1%
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -101,7 +101,7 @@ Adding activities to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
 
-   ![](assets/add-activity-inside-goal-details-highlighted-350x152.png)
+   ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
@@ -144,14 +144,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. **주 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **목표**&#x200B;를 클릭합니다.
+1. **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 1. 목표 목록에서 목표 이름을 클릭하여 목표의 페이지를 엽니다.
 1. 왼쪽 패널에서 **진행률 표시기**&#x200B;를 클릭합니다.
 1. 새 진행 표시기 드롭다운 메뉴에서 **활동 만들기**&#x200B;를 클릭합니다.
 
    새 활동 상자가 열립니다.
 
-   ![](assets/new-activity-box-unshimmed.png)
+   ![새 활동 상자](assets/new-activity-box-unshimmed.png)
 
 1. 활동 이름 필드에 활동의 이름을 입력합니다. 필수 필드입니다.
 1. (선택 사항) 다른 사용자에게 활동을 할당하려면 **활동 소유자** 필드에서 이름을 제거합니다. 기본적으로 사용자가 만드는 활동의 소유자입니다.

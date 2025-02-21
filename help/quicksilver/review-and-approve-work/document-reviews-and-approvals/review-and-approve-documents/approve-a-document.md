@@ -6,9 +6,9 @@ description: 문서의 승인자로 할당된 경우 여러 가지 방법으로 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 홈에서 문서 승인
 
-1. Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](../assets/home-icon-30x29.png)을(를) 클릭합니다.
+1. Adobe Workfront의 왼쪽 위 모서리에 있는 **홈** 아이콘 ![홈 아이콘](../assets/home-icon-30x29.png)을 클릭합니다.
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ ht-degree: 0%
    >
    >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
    >
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **기본 메뉴** ![](../assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
+   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **주 메뉴** ![주 메뉴 아이콘](../assets/main-menu-icon.png)을 클릭한 다음 **홈**&#x200B;을 클릭합니다.
 
 1. 페이지 왼쪽 상단의 **필터**&#x200B;를 클릭하고 **승인**&#x200B;이 선택되어 있는지 확인하십시오.
 
@@ -103,7 +103,7 @@ ht-degree: 0%
    현재 선택한 문서 버전에 대기 중인 승인이 있는 경우 페이지 오른쪽 상단에 승인 결정 버튼이 표시되고 다른 문서 버전에 대기 중인 승인이 있는 경우 버전 드롭다운 메뉴에 빨간색 점이 표시됩니다.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. 페이지의 오른쪽 상단 모서리에서 다음 두 가지 승인 옵션 중 하나를 클릭합니다.
@@ -127,7 +127,7 @@ ht-degree: 0%
    현재 선택한 버전의 문서에 대해 승인 보류 중인 승인이 있는 경우 문서 요약 창의 오른쪽 상단 모서리에 승인 결정 버튼이 표시됩니다. 다른 버전의 문서에 대해 승인 보류 중인 승인이 있는 경우 버전 드롭다운 메뉴에 빨간색 점이 표시됩니다.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. 문서 요약 창의 오른쪽 상단 모서리에서 다음 두 가지 승인 옵션 중 하나를 클릭합니다.

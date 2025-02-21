@@ -6,9 +6,9 @@ description: 증명 주석을 검색, 필터링 및 정렬하여 콘텐츠에 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 1. 댓글 영역이 열려 있지 않으면 오른쪽 상단의 **댓글 보기**&#x200B;를 클릭합니다.
 
 1. 정렬 메뉴를 클릭하여 엽니다.
-1. ![](assets/mceclip3.png)
+1. ![정렬 메뉴](assets/mceclip3.png)
 
 1. 다음 정렬 옵션 중 하나를 선택합니다.
 

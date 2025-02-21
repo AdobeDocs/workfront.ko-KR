@@ -6,9 +6,9 @@ description: 이 문서에서는 Adobe Workfront에서 목표를 찾고 관리�
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li></ul>
+  <ul><li>Ultimate 플랜 </li></ul>
    </p>
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
@@ -52,7 +52,7 @@ ht-degree: 1%
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ## Workfront 목표 액세스
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **목표**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Accessing goals differs depending on what environment you use.
 
 To access an individual goal in the Production environment:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
 
      (!--drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,11 +155,11 @@ To access an individual goal in the Production environment:
 
 1. Workfront의 오른쪽 위 모서리에 있는 **기본 메뉴** 아이콘을 클릭한 다음 **목표** 를 클릭합니다.
 기본적으로 목표 목록이 표시됩니다.
-   ![](assets/goal-list-unshimmed.png)
+   ![목표 목록](assets/goal-list-unshimmed.png)
 1. 목록에서 목표의 이름을 클릭합니다.
 목표의 페이지가 표시됩니다.
-   ![](assets/goal-page-unshimmed.png)
-1. 목표를 추가로 편집하거나 공유하려면 목표 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭하십시오.
+   ![목표 페이지](assets/goal-page-unshimmed.png)
+1. 목표를 추가로 편집하거나 공유하려면 목표 이름 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭하십시오.
 1. 목표에 대한 정보를 편집하려면 왼쪽 패널의 **목표 세부 정보**&#x200B;를 클릭하십시오. 자세한 내용은 [Adobe Workfront 목표의 목표 세부 정보 섹션에서 목표 업데이트](../goal-management/update-goals-in-goal-details-panel.md)를 참조하십시오.
 
 

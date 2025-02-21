@@ -6,9 +6,9 @@ description: 증명의 단일 버전 또는 모든 버전을 다운로드할 수
 author: Courtney
 feature: Digital Content and Documents
 exl-id: eb61cc0b-b402-48db-aa88-9a1dea3180d6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '227'
 ht-degree: 4%
 
 ---
@@ -53,11 +53,11 @@ ht-degree: 4%
 ## 단일 증명 버전 다운로드
 
 1. 문서 목록에서 증명을 클릭합니다.
-1. 요약의 **버전**&#x200B;에서 버전 오른쪽에 있는 기타 메뉴 ![](assets/more-icon.png)을 클릭한 다음 표시되는 드롭다운 목록에서 **다운로드**&#x200B;를 클릭합니다.
+1. 요약에서 **버전** 아래의 버전 오른쪽에 있는 기타 메뉴 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 나타나는 드롭다운 목록에서 **다운로드**&#x200B;를 클릭합니다.
 
-   ![](assets/more-versions-350x143.png)
+   ![버전 다운로드](assets/more-versions-350x143.png)
 
-## 모든 증명 버전 다운로드
+## 모든 교정쇄 버전 다운로드
 
 1. 문서 목록에서 증명을 클릭합니다.
 1. **문서 세부 정보**&#x200B;를 클릭한 다음 왼쪽 패널에서 **모든 버전**&#x200B;을 선택합니다.

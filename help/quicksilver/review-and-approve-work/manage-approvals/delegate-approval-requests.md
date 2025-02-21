@@ -6,9 +6,9 @@ description: '승인 요청을 위임하면 다른 사용자에게 일정 기간
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 다른 사용자에게 승인을 위임하려면 다음 작업을 수행하십시오.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 승인** 위젯을 추가합니다.
 1. 내 승인 위젯으로 이동한 다음 **내 승인 위임**&#x200B;을 클릭합니다.
 
@@ -112,7 +112,7 @@ ht-degree: 0%
    >
    >Workfront 관리자는 설정 영역에서 승인 위임을 비활성화할 수 있습니다. 승인 위임이 비활성화된 경우 승인 위임 버튼이 표시되지 않습니다.
 
-   ![](assets/delegate-approvals-home.png)
+   ![홈에서 승인 위임](assets/delegate-approvals-home.png)
 
 1. 내 승인 위임 섹션에 다음 정보를 지정합니다.
 
@@ -144,11 +144,11 @@ ht-degree: 0%
 
 ## 승인 위임 업데이트 또는 중지 {#update-or-stop-an-approval-delegation}
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 승인** 위젯을 추가합니다.
 
 1. 내 승인 위젯으로 이동한 다음 **위임 편집**을 클릭합니다.
-   ![](assets/edit-delegations.png)
+   ![위임 편집](assets/edit-delegations.png)
 <!--
    Or
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 위임된 승인을 보려면 다음과 같이 하십시오.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 승인** 위젯을 추가합니다.
 1. **내 승인** 위젯에서 **필터** 드롭다운 메뉴를 클릭한 다음 **위임된 승인**&#x200B;을 클릭합니다.\
    내게 위임된 모든 승인이 목록에 표시됩니다.

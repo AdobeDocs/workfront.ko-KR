@@ -7,9 +7,9 @@ description: 증명 권한 프로필을 일괄적으로 편집하는 방법을 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '259'
 ht-degree: 3%
 
 ---
@@ -63,6 +63,6 @@ ht-degree: 3%
    >
    >Workfront 플랜에 따라 **증명 권한 프로필** 메뉴를 표시하려면 **사용자가 증명을 생성할 수 있음** 확인란을 활성화해야 할 수 있습니다.
 
-   ![](assets/proof-permission-profile-350x203.png)
+   ![증명 권한 프로필](assets/proof-permission-profile-350x203.png)
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.

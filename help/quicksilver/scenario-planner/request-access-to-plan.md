@@ -7,9 +7,9 @@ description: 플랜에 대한 링크가 사용자와 공유될 때 Adobe Workfro
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 1. 플랜에 대한 링크를 누릅니다.
 
-   ![](assets/request-access-to-plan-350x277.png)
+   ![플랜 액세스 요청](assets/request-access-to-plan-350x277.png)
 
 1. **[!UICONTROL 액세스 권한 요청]** 드롭다운 메뉴에서 부여할 권한 수준을 지정합니다. 다음 중에서 선택합니다.
 
@@ -98,11 +98,11 @@ ht-degree: 1%
    다음 상황이 발생합니다.
 
    * [!DNL Workfront]이(가) 요청된 권한을 부여할 수 있는 이메일 알림을 계획 소유자에게 보냅니다.\
-     ![](assets/request-access-to-plan-email-350x156.png)
+     ![전자 메일 알림 액세스 요청](assets/request-access-to-plan-email-350x156.png)
 
    * 플랜 소유자가 요청한 권한을 부여한 후 [!DNL Workfront] 관리자가 시스템에서 [사용자에게 개체 공유] 알림을 사용하도록 설정한 상태에서 [!UICONTROL 다른 사용자가 나와 개체를 공유] 프로필에서 전자 메일 알림을 사용하도록 설정한 경우 권한이 부여되었다는 전자 메일을 받게 됩니다.
 
-     ![](assets/access-granted-to-plan-email-350x172.png)
+     ![부여된 전자 메일 액세스](assets/access-granted-to-plan-email-350x172.png)
 
    * [!UICONTROL Home] 영역 및 [!DNL Workfront] 모바일 앱에서 플랜에 권한을 부여할 수도 있습니다.
 

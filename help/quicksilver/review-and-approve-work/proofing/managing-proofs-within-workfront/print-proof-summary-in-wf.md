@@ -6,9 +6,9 @@ description: 증명 요약을 인쇄하거나, PDF으로 저장하거나, Adobe 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
 
    또는
 
-   증명 뷰어에서 증명을 보는 동안 왼쪽 도구 모음에서 **인쇄**&#x200B;아이콘 ![](assets/print-icon-in-pv.png)을(를) 클릭합니다. 왼쪽 도구 모음이 표시되지 않으면 증명 뷰어의 왼쪽 위 모서리에 있는 메뉴 아이콘 ![](assets/menu-icon-in-pv.png)을(를) 클릭합니다.
+   증명 뷰어에서 증명을 보는 동안 왼쪽 도구 모음에서 **인쇄**&#x200B;아이콘 ![인쇄 아이콘](assets/print-icon-in-pv.png)을 클릭합니다. 왼쪽 도구 모음이 표시되지 않으면 증명 뷰어의 왼쪽 위 모서리에 있는 메뉴 아이콘 ![메뉴 아이콘](assets/menu-icon-in-pv.png)을 클릭합니다.
 
 1. 다음 옵션 중 하나를 사용합니다.
 
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 1. 페이지의 오른쪽 위 모서리 근처에 있는 XLS 아이콘 또는 PDF 아이콘을 클릭합니다.
 
-   ![](assets/xls-pdf-icons-350x136.png)
+   ![XLS PDF 아이콘](assets/xls-pdf-icons-350x136.png)
 
 내보낸 파일이 준비되면 파일을 다운로드할 수 있는 이메일을 받게 됩니다.
 

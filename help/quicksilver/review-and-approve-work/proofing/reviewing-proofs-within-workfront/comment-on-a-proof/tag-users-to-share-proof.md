@@ -6,9 +6,9 @@ description: 증명 뷰어에서 증명에 댓글을 달 때 다른 사용자를
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 1. 댓글을 작성한 후 **게시물**&#x200B;을 클릭하세요.
 1. (조건부) 증명에 아직 추가되지 않은 사용자를 태그 지정한 경우 표시되는 상자에 나열된 각 사용자에 대해 **증명 역할** 및 **알림 메일** 설정을 지정한 다음 **사람 추가 및 댓글 게시**&#x200B;를 클릭합니다.
 
-   ![](assets/add-people-to-proof-350x220.png)
+   ![증명에 사람 추가](assets/add-people-to-proof-350x220.png)
 
    증명 역할에 대한 자세한 내용은 을 참조하십시오. 증명 전자 메일 경고에 대한 자세한 내용은 문서 [Workfront Proof에서 전자 메일 알림 설정 구성](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)의 섹션을 참조하십시오.
 

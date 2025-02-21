@@ -6,9 +6,9 @@ description: 문제가 진행 중인 목표 는 달성되지 못할 위험이 �
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li></ul>
+  <ul><li>Ultimate 플랜 </li></ul>
    </p>
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
@@ -55,7 +55,7 @@ ht-degree: 0%
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-## Recommendations을 통해 목표 달성 시 문제 진행 상황 도달 방지
+## 목표 달성 시 문제 상황 진행에 도달하지 않도록 하기 위한 권장 사항
 
 목표 진행 상황에 도달하기 전에 목표 진행 상황을 자주 모니터링하고 목표 진행 상황에 도달할 때 진행 상황을 조정할 수 있습니다. 위험에 처한 목표는 곤경에 빠질 위험이 있다. 목표 진행 상황에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 상황 및 상태 개요](../../workfront-goals/goal-management/calculate-goal-progress.md)를 참조하십시오.
 
@@ -97,7 +97,7 @@ Workfront 목표의 모든 섹션에서 목표를 검토할 수 있습니다. W
 
 이 문서에서는 목표 목록에서 목표를 검토하는 방법을 설명합니다.
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -124,7 +124,7 @@ Workfront 목표의 모든 섹션에서 목표를 검토할 수 있습니다. W
 
 1. 진행률 표시줄 표시기 위로 마우스를 가져가 실제 진행률 및 현재 날짜의 예상 값을 확인합니다.
 
-   ![](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![진행 상황 가리키기 세부 정보](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. (선택 사항) 필터를 사용하여 특정 소유자에게 속한 목표를 찾습니다.
 
@@ -134,7 +134,7 @@ Workfront 목표의 모든 섹션에서 목표를 검토할 수 있습니다. W
 
    결과 및 활동 업데이트에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행률 업데이트](../goal-review-and-workfront-goals-sections/check-in-goals.md)를 참조하세요.
 
-   ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![실제 진행 상황](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

@@ -6,9 +6,9 @@ description: 기존 프로젝트를 플랜으로 가져올 수 있습니다. 가
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
    [!UICONTROL 프로젝트 가져오기] 상자가 표시됩니다. 플랜의 시간대에 포함된 날짜가 있는 프로젝트가 목록에 표시됩니다.
 
-   ![](assets/project-import-ui-projects-selected-350x72.png)
+   ![프로젝트 가져오기](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -174,9 +174,9 @@ ht-degree: 0%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. (선택 사항) **[!UICONTROL 필터 아이콘]** ![](assets/filter-nwepng.png)을 클릭하고 목록에서 사용 가능한 필터를 선택하여 목록의 프로젝트 양을 줄이십시오. 기본적으로 프로젝트 목록은 프로젝트 목록에서 사용자가 현재 선택한 프로젝트 필터로 필터링됩니다.
+1. (선택 사항) **[!UICONTROL 필터 아이콘]** ![필터 아이콘](assets/filter-nwepng.png)을 클릭하고 목록에서 사용 가능한 필터를 선택하여 목록의 프로젝트 양을 줄입니다. 기본적으로 프로젝트 목록은 프로젝트 목록에서 사용자가 현재 선택한 프로젝트 필터로 필터링됩니다.
 
-1. (선택 사항) **[!UICONTROL 검색 아이콘]** ![](assets/search-icon.png)을 클릭하고 화면의 필드에 표시된 키워드를 추가합니다. 검색어를 포함하는 항목이 목록에 자동으로 표시되고 모든 항목이 숨겨집니다.
+1. (선택 사항) **[!UICONTROL 검색 아이콘]** ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면의 필드에 표시된 키워드를 추가합니다. 검색어를 포함하는 항목이 목록에 자동으로 표시되고 모든 항목이 숨겨집니다.
 
 1. (조건부) **[!UICONTROL X 아이콘]**&#x200B;을 클릭하여 검색을 제거하고 모든 프로젝트를 표시합니다.
 1. 최대 100개의 프로젝트를 선택하고 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다.
@@ -185,10 +185,10 @@ ht-degree: 0%
 
    다음 사항에 주목하십시오.
 
-   * 이니셔티브 이름 오른쪽에 프로젝트 아이콘 ![](assets/project-icon-sp.png)이(가) 표시됩니다.
+   * 프로젝트 아이콘 ![프로젝트 아이콘](assets/project-icon-sp.png)이 이니셔티브 이름 오른쪽에 표시됩니다.
    * 프로젝트 타임라인이 플랜 기간을 초과하는 경우 이니셔티브의 막대는 왼쪽(시작 일자가 플랜 일자보다 빠른 경우) 또는 오른쪽(종료 일자가 플랜 일자보다 늦은 경우)에 뾰족한 여백으로 끝납니다.
 
-     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![프로젝트 막대가 시작 날짜보다 빠름](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * 개월 수와 작업 역할이 프로젝트의 개월 수와 일치하도록 업데이트되었습니다.
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 
 1. 새 이니셔티브를 나타내는 막대를 클릭하여 오른쪽에 이니셔티브 세부 사항 패널을 엽니다.
 
-   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![이니셔티브 기간](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    **[!UICONTROL 이니셔티브 기간]** 영역에서 다음 정보를 검토하십시오.
 
@@ -234,4 +234,4 @@ ht-degree: 0%
 1. (선택 사항) 이니셔티브의 변경 사항을 가져온 프로젝트로 다시 업데이트하려면 플랜에서 프로젝트를 게시합니다. 게시 계획에 대한 자세한 내용은 [이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)를 참조하십시오.
 1. (선택 사항) 프로젝트 아이콘을 클릭하여 연결된 프로젝트에 액세스합니다.
 
-   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
+   ![이니셔티브의 프로젝트 아이콘](assets/project-icon-on-initiative-highlighted-350x49.png)

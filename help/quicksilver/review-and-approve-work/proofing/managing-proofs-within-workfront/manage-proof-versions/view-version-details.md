@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 1. 문서 목록에서 증명이 포함된 행을 마우스로 가리킨 다음 **문서 세부 정보**&#x200B;를 클릭합니다.
 1. 문서 세부 정보 페이지 상단에서 이름 옆에 있는 드롭다운 메뉴를 클릭한 다음 보고 관리할 버전의 이름을 클릭합니다.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![버전 드롭다운](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    버전의 세부 사항 보기와 함께 버전 이름, 메타데이터 및 증명 설정(문서 증명인 경우)과 같은 버전을 변경할 수 있습니다.
 

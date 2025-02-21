@@ -7,9 +7,9 @@ description: Adobe Workfront 시나리오 플래너에서 만든 플랜을 다�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
@@ -108,57 +108,57 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p>플랜 보기 </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>이니셔티브 보기 </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>시나리오 보기</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ <span style="font-weight: normal;">개</span> </td> 
+   <td>✓</td> 
+   <td><span style="font-weight: normal;">✓</span> </td> 
   </tr> 
   <tr> 
    <td>작업 역할 보기</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>비용 및 예산 정보 보기*</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신 </td> 
+   <td>✓</td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td>비용 및 예산 정보 관리*</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>이니셔티브 만들기</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>시나리오 만들기</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>이니셔티브 또는 시나리오 삭제</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>시나리오 복사</td> 
-   <td>✓ 덧신 </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Publish 시나리오**</td> 
-   <td>✓ 덧신</td> 
+   <td>시나리오 게시**</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 
@@ -186,7 +186,7 @@ ht-degree: 1%
    >
    >플랜 헤더의 오른쪽 상단 모서리에서 플랜을 공유하는 사용자의 아바타를 클릭하여 플랜을 공유할 수 있습니다.
 
-1. (조건부) 플랜을 연 경우 [!UICONTROL 플랜] 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **[!UICONTROL 공유]**&#x200B;를 클릭합니다
+1. (조건부) 플랜을 연 경우 [!UICONTROL 플랜] 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **[!UICONTROL 공유]**&#x200B;를 클릭합니다
 
    또는
 

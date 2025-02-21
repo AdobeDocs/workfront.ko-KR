@@ -6,9 +6,9 @@ description: 프로젝트 및 이니셔티브를 연결한 후 리소스 할당�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
@@ -87,12 +87,12 @@ ht-degree: 1%
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 월별 업무 균형자를 보려면 **[!UICONTROL 월]**&#x200B;을(를) 클릭하고 타임라인에서 한 달 옆에 있는 드롭다운 메뉴를 클릭한 다음 ![](assets/drop-down-next-to-month-month-view-wb.png)자세히&#x200B;]**를 클릭합니다.**[!UICONTROL 
-   * 도구 모음의 오른쪽 상단에 있는 **[!UICONTROL 역할 할당 표시]** 아이콘 ![](assets/show-role-allocation-icon.png)을(를) 클릭합니다.
+   * **[!UICONTROL 월]**&#x200B;을(를) 클릭하여 월별 업무 균형자를 확인하고 타임라인에서 월 옆에 있는 드롭다운 메뉴를 클릭한 다음 ![월 옆에 있는 드롭다운 메뉴](assets/drop-down-next-to-month-month-view-wb.png)을(를) 클릭한 다음 **[!UICONTROL 자세히]**&#x200B;를 클릭합니다.
+   * 도구 모음의 오른쪽 상단에 있는 **[!UICONTROL 역할 할당 표시]** 아이콘 ![역할 할당 표시](assets/show-role-allocation-icon.png)를 클릭합니다.
 
    [!UICONTROL 역할 할당] 패널이 표시됩니다.
 
-   ![](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![역할 할당 패널](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -162,7 +162,7 @@ ht-degree: 1%
 
 1. (선택 사항) 드롭다운 아이콘을 클릭하여 [!UICONTROL 역할 할당] 패널 또는 [!UICONTROL 업무 균형자]의 타임라인에서 월 중 하나를 확장합니다.
 
-   ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![역할 할당 패널에서 월 확장](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    [!UICONTROL 프로젝트 총계] 영역에 표시되는 같은 유형의 정보도 각 달에 표시됩니다.
 

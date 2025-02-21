@@ -6,9 +6,9 @@ description: 자신이 생성한 계획이나 다른 사람이 나와 공유한 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
@@ -90,7 +90,7 @@ ht-degree: 2%
 1. 계획명을 눌러 계획을 연 다음 삭제할 이니셔티브를 찾습니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 이니셔티브 이름의 오른쪽에 있는 **[!UICONTROL 추가 메뉴]** ![](assets/more-menu.png)를 클릭한 다음 **[!UICONTROL 삭제]** > **[!UICONTROL 예, 삭제]**&#x200B;를 클릭합니다.
+   * 이니셔티브 이름의 오른쪽에 있는 **[!UICONTROL 추가 메뉴]** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **[!UICONTROL 삭제]** > **[!UICONTROL 예, 삭제]**&#x200B;를 클릭합니다.
 
    * 이니셔티브 왼쪽에 있는 상자를 선택한 다음, 플랜 하단에 나타나는 부동 메뉴에서 **[!UICONTROL 삭제]**&#x200B;를 클릭한 다음, **[!UICONTROL 예, 삭제]**&#x200B;를 클릭합니다.
 
@@ -107,7 +107,7 @@ ht-degree: 2%
 1. 계획명을 눌러 계획을 연 다음 삭제할 이니셔티브를 찾습니다.
 1. 삭제할 이니셔티브의 왼쪽에 있는 상자를 선택한 다음, 플랜 하단에 나타나는 메뉴에서 **[!UICONTROL 삭제]**&#x200B;를 클릭한 다음, **[!UICONTROL 예, 삭제]**&#x200B;를 클릭합니다.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![이니셔티브 메뉴 관리](assets/bottom-manage-initiative-menu-350x45.png)
 
    이니셔티브와 해당 작업 역할 및 비용 정보가 계획에서 삭제됩니다.
 

@@ -8,9 +8,9 @@ description: 프로젝트를 목표에 연결하여 프로젝트의 실제 진�
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '931'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li></ul>
+  <ul><li>Ultimate 플랜 </li></ul>
    </p>
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
@@ -64,7 +64,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -112,7 +112,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
-  ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+  ![Goal closed](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 -->
 
 * 목표에 첨부된 프로젝트를 삭제하면 프로젝트도 목표에서 삭제됩니다.
@@ -124,14 +124,14 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## 목표에 프로젝트 추가
 
-1. **주 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭합니다(셸에 대해 이 초안 작성: 또는 사용 가능한 경우 왼쪽 상단 모서리에서 **주 메뉴** ![](assets/three-line-main-menu-icon.png)을(를) 클릭합니다.) 그런 다음 **목표**&#x200B;를 클릭합니다.
+1. **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)(셸에 대한 초안: 또는 왼쪽 위 모서리에 있는 **주 메뉴** ![주 메뉴 줄](assets/three-line-main-menu-icon.png)(사용 가능한 경우)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 1. 목표 목록에서 목표 이름을 클릭하여 목표 페이지를 엽니다.
 1. 왼쪽 패널에서 **진행률 표시기**&#x200B;를 클릭합니다.
 1. **새 진행률 표시기** 드롭다운 메뉴에서 **기존 프로젝트 추가**&#x200B;를 클릭합니다.
 
    목표에 프로젝트 추가 상자가 표시됩니다.
 1. (선택 사항) 프로젝트 목록이 표시되는 방식을 수정하려면 목록의 오른쪽 상단에 있는 각 아이콘을 클릭하여 **보기**, **필터** 또는 **그룹화**&#x200B;를 업데이트합니다.
-1. (선택 사항) **검색** 아이콘 ![](assets/search-icon.png)을(를) 클릭하고 프로젝트 이름을 입력하여 목록에서 빠르게 찾을 수 있습니다.
+1. (선택 사항) **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 프로젝트 이름을 입력하여 목록에서 빠르게 찾을 수 있습니다.
 1. 목표에 추가할 프로젝트를 선택한 다음 **추가**&#x200B;를 클릭합니다.
 
    선택한 프로젝트가 목표에 추가되고 **프로젝트** 그룹화 아래 목표 페이지의 진행 표시기 섹션에 표시됩니다.

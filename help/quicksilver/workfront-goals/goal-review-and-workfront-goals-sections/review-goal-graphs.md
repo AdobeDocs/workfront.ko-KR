@@ -6,9 +6,9 @@ description: Adobe Workfront 목표의 그래프 섹션에서 목표의 전반�
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li></ul>
+  <ul><li>Ultimate 플랜 </li></ul>
    </p>
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
@@ -57,7 +57,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -113,7 +113,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 
 ## 그래프로 목표 진행 상황 검토
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -122,7 +122,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 
 1. 왼쪽 패널에서 **그래프**&#x200B;를 클릭합니다.
 
-   ![](assets/graphs-in-left-panel.png)
+   왼쪽 패널의 ![그래프](assets/graphs-in-left-panel.png)
 
    그래프 섹션이 표시됩니다.
 
@@ -141,7 +141,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 
 1. 목표 상태 차트를 검토할 때 아래 표의 정보를 검토하십시오.
 
-   ![](assets/gauge-graph-wf-align-350x230.png)
+   ![게이지 그래프](assets/gauge-graph-wf-align-350x230.png)
 
    | 총 목표 수 | 차트 하단의 숫자는 선택한 모든 상태에서 선택한 기간의 모든 목표 수를 나타냅니다. |
    |---|---|
@@ -151,7 +151,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 
 1. 목표 진행률 차트를 검토할 때 아래 표의 정보를 검토하십시오.
 
-   ![](assets/line-graph-wf-align-350x161.png)
+   ![선 그래프](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

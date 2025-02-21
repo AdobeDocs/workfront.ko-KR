@@ -6,9 +6,9 @@ description: 증명 소유자 또는 작성자가 공유를 활성화한 경우 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 왼쪽 아이콘 메뉴가 표시되지 않으면 증명 뷰어의 왼쪽 위 모서리에 있는 **메뉴** 아이콘을 클릭합니다.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![메뉴 아이콘](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. 증명 뷰어의 왼쪽 아이콘 메뉴에서 **공유** 아이콘을 클릭합니다.
 

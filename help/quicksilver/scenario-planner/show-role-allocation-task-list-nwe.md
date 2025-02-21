@@ -6,9 +6,9 @@ description: 프로젝트와 이니셔티브를 연결한 후 리소스 할당�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 1. 프로젝트 및 연계된 이니셔티브에 대한 작업 역할 할당을 검토하려는 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **[!UICONTROL 작업]**&#x200B;을 클릭합니다.
-1. 도구 모음의 오른쪽 상단에 있는 **[!UICONTROL 역할 할당 표시]** 아이콘 ![](assets/show-role-allocation-icon.png)을(를) 클릭합니다.
+1. 도구 모음의 오른쪽 상단에 있는 **[!UICONTROL 역할 할당 표시]** 아이콘 ![역할 할당 표시](assets/show-role-allocation-icon.png)를 클릭합니다.
 
    [!UICONTROL 역할 할당] 패널이 표시됩니다.
 

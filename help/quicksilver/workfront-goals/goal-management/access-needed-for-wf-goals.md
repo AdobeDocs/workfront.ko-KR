@@ -7,9 +7,9 @@ description: Adobe Workfront 관리자는 Adobe Workfront 목표에 액세스하
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Workfront 관리자는 시스템에 있는 Workfront Goals 라이선스 수를 �
 
 Workfront 또는 그룹 관리자는 사용자가 Workfront 목표에 액세스할 수 있도록 메인 메뉴의 목표 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다.
 
-![](assets/layout-template-align-highlighted-350x220.png)
+![레이아웃 템플릿](assets/layout-template-align-highlighted-350x220.png)
 
 Workfront 관리자 또는 그룹 관리자는 사용자가 Workfront 목표에 쉽게 액세스할 수 있도록 레이아웃 템플릿에 다음을 추가할 수도 있습니다.
 

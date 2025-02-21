@@ -8,9 +8,9 @@ description: 공개 URL과 증명을 공유하거나 증명별 또는 개별 사
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 1. 증명 위로 마우스를 가져간 후 **문서 세부 정보** 를 선택합니다.
 1. 왼쪽 패널에서 **증명 뷰어 설정**&#x200B;을 클릭한 다음 **공개 URL 또는 포함 코드를 통한 증명 공유 허용** 확인란을 비활성화합니다.
 
-   ![](assets/proofing-viewer-settings-350x200.png)
+   ![증명 뷰어 설정](assets/proofing-viewer-settings-350x200.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -64,9 +64,9 @@ ht-degree: 0%
 
 Workfront 인스턴스의 개별 사용자에 대해 공개 증명 설정을 비활성화할 수 있습니다. 이 내용을 변경하려면 관리자의 증명 권한 프로필이 있어야 합니다.
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **증명**&#x200B;을(를) 클릭합니다.
+1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **증명**&#x200B;을 클릭합니다.
 1. 오른쪽 상단 근처에 있는 **계정 설정**&#x200B;을 클릭합니다.
 1. **사용자** 탭을 클릭한 다음 사용자 이름을 클릭합니다.
 1. **기본 증명 설정** 섹션에서 **공개 공유** 확인란을 비활성화합니다.
 
-   ![](assets/default-proof-settings--public-sharing-350x210.png)
+   ![공개 공유](assets/default-proof-settings--public-sharing-350x210.png)

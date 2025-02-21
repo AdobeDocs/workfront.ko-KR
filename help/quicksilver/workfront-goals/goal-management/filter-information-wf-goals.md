@@ -6,9 +6,9 @@ description: 본인 또는 다른 사람이 Adobe Workfront 목표에 추가한 
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li> </ul>
+  <ul><li>Ultimate 플랜 </li> </ul>
 
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
@@ -51,7 +51,7 @@ ht-degree: 2%
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -128,7 +128,7 @@ Workfront 목표에서 필터를 사용할 때는 다음 사항을 고려하십�
 
 1. 목록의 오른쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다.
 
-   ![](assets/filter-icon-and-label.png)
+   ![필터 아이콘](assets/filter-icon-and-label.png)
 
    기본적으로 Workfront은 시스템의 모든 목표를 표시하는 **모두** 필터를 적용합니다.
 
@@ -172,7 +172,7 @@ Workfront 목표에서 필터를 사용할 때는 다음 사항을 고려하십�
       </tbody> 
      </table>
 
-   * 필터 이름을 마우스로 가리킨 다음, 필터 이름 옆에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭하여 사용자 지정하고 사용자, 팀, 그룹 또는 조직의 이름을 추가한 다음 목록에 표시될 때 선택합니다.
+   * 필터 이름을 마우스로 가리킨 다음, 필터 이름 옆에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭하여 사용자 지정하고 사용자, 팀, 그룹 또는 조직의 이름을 추가한 다음 목록에 표시될 때 선택합니다.
 
    * **새 필터**&#x200B;를 클릭하여 새 필터를 만든 다음 다음 다음 옵션 중에서 선택하여 새 필터를 사용자 지정합니다.
 
@@ -249,11 +249,11 @@ Workfront 목표에서 필터를 사용할 때는 다음 사항을 고려하십�
 
 1. (선택 사항 및 조건부) 목표 정렬 섹션에서 목표를 볼 때 필터링된 목표를 보려면 **목표 표시**&#x200B;를 클릭합니다.
 
-   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![필터링된 항목에 대한 링크 표시](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    필터 이름의 윤곽선이 노란색으로 표시되어 무시되고 있음을 나타냅니다.
 
-   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![노란색 윤곽선 필터링](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. (선택 사항 및 조건부) **필터 다시 적용**&#x200B;을 클릭하여 필터를 적용하고 이전 단계에서 표시한 항목을 생략합니다.

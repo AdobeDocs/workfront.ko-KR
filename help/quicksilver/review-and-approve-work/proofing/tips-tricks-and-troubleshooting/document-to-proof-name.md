@@ -6,9 +6,9 @@ title: 업로드 후 문서 이름이 변경되었으며 잘못된 문자가 포
 description: 특정 문서는 증명으로 변환할 수 없습니다.
 author: Courtney
 exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
-source-git-commit: 3e16f69f5b3c2b37093b00841945e6529394fa94
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,6 @@ Workfront에 업로드된 파일은 파일 이름에 특정 문자를 포함할 
 
    잘못된 문자: `! # % * \ | ' " / ? < > { } [ ]`
 
-   ![](assets/doc-name.png)
+   ![문서 이름](assets/doc-name.png)
 
 1. 페이지를 새로 고치고 증명을 생성합니다.

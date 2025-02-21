@@ -6,9 +6,9 @@ description: 해결된 댓글에 표시할 수 있습니다. 본인 또는 다�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 1%
 1. 주석을 선택합니다.
 1. 주석의 오른쪽 아래 모서리에 있는 확인 표시 아이콘을 클릭합니다. 주석의 왼쪽 상단 모서리에 녹색 확인 표시가 나타나고 &quot;해결된 스레드&quot; 레이블과 메시지가 그 아래에 나타납니다. 댓글을 제출한 사용자는 댓글이 해결되었다는 이메일 알림을 받게 됩니다.
 
-   ![](assets/resolve-comment-350x247.png)
+   ![댓글 확인](assets/resolve-comment-350x247.png)
 
 ## 해결된 주석 다시 열기
 
@@ -74,4 +74,4 @@ ht-degree: 1%
 1. 주석을 선택합니다.
 1. 댓글의 오른쪽 아래 모서리에 있는 녹색 확인 표시 아이콘을 클릭합니다(**회신** 단추 오른쪽). 댓글의 왼쪽 상단 모서리에 있는 확인 표시가 사라지고 그 아래에 &quot;스레드 다시 열림&quot; 레이블과 메시지가 나타납니다. 댓글을 제출한 사용자는 댓글이 다시 열렸다는 이메일 알림을 받습니다.
 
-   ![](assets/reopen-resolved-comment-350x334.png)
+   ![해결된 댓글 다시 열기](assets/reopen-resolved-comment-350x334.png)

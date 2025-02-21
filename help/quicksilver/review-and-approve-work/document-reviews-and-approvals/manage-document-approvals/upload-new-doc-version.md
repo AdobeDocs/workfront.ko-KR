@@ -6,9 +6,9 @@ description: 새 문서 버전을 업로드하고 Adobe Workfront의 다른 사�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. 문서 요약 창의 **승인** 섹션까지 아래로 스크롤한 다음 **추가**&#x200B;를 클릭합니다.
 
-![](assets/doc-summary-add-approvers.png)
+![문서 요약에 승인자 추가](assets/doc-summary-add-approvers.png)
 
 1. (선택 사항) 승인 기한을 설정합니다. 사용자와 팀은 지정된 기한 24시간 전에 이메일로 72시간 전에 알림을 받습니다.
 
@@ -89,4 +89,4 @@ ht-degree: 0%
 
 1. 새 승인자 및 검토자를 추가하려면 **검토자** 또는 **승인자**&#x200B;를 클릭하고 사용자 또는 팀을 입력하십시오.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![승인자 및 기한 추가](assets/add-approver-and-deadline.png)

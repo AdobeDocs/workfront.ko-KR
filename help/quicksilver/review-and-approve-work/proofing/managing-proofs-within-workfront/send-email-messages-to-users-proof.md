@@ -6,9 +6,9 @@ description: 검토 및 승인 프로세스 중에 증명에 대한 검토자 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -61,15 +61,15 @@ ht-degree: 1%
 1. 메시지를 보낼 사용자가 포함된 증명 문서를 찾습니다.
 1. 문서 위로 마우스를 가져간 다음 **증명 워크플로**&#x200B;를 클릭합니다.
 
-   ![](assets/proof-workflow-doc-list-350x92.png)
+   ![증명 워크플로](assets/proof-workflow-doc-list-350x92.png)
 
 1. 스테이지에 있는 모든 사용자에게 메시지를 보내려면 스테이지에서 **자세히** 메뉴를 클릭하고 **모두 메시지**&#x200B;를 선택하세요.
 
-   ![](assets/message-stage-350x122.png)
+   ![스테이지에 있는 메시지](assets/message-stage-350x122.png)
 
 1. 개별 사용자에게 메시지를 보내려면 사용자 옆에 있는 **자세히** 메뉴를 클릭하고 **메시지**&#x200B;를 선택하세요.
 
-   ![](assets/message-user-350x121.png)
+   ![메시지 사용자](assets/message-user-350x121.png)
 
 1. **메시지 세부 정보** 섹션에서 다음 정보를 지정하십시오.
 

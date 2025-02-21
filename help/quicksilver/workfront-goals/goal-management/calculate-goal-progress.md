@@ -6,9 +6,9 @@ description: 목표 진행은 활동, 결과 또는 아동 목표와 같은 진�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '833'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Adobe Workfront은 진행 표시기의 진행 상황을 기반으로 목표 진�
 | 예상 완료율 | 목표가 제시간에 완성되려면 지금까지 어느 정도의 목표를 달성해야 하는가. Workfront 목표 는 목표의 지속 기간과 현재 시간을 확인하여 이 값을 계산합니다. 정시에 완료되어야 하는 경우 목표에는 현재 시간에 이 값을 표시해야 합니다. |
 | 진행 | 목표가 정시에 완료되는 목표인지 또는 완료될 위험이 있거나 완료되지 않는 문제가 있는지 여부를 나타내는 레이블입니다. |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![문제 발생](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -108,7 +108,7 @@ Goal progress percentage = Actual percent complete * 100 / Expected percent comp
 
 다음 차트는 조건 레이블과 진행률 간의 관계를 보여 줍니다.
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![진행 상태 레이블 차트로 표시](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 아래 표에는 목표 조건 레이블과 각 레이블과 연관된 목표 진행률 백분율이 나열되어 있습니다.
 

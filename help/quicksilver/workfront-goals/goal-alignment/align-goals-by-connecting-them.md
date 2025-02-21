@@ -6,9 +6,9 @@ description: 개인 목표가 있는 개별 기여자의 경우 조직의 전략
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Adobe Workfront 목표에는 두 가지 접근 방식으로 목표를 연결할 
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -103,7 +103,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 
 1. Click **Align to another goal** in the upper-right corner of the right panel.
 
-   ![](assets/align-to-another-goal-link-highlighted-350x128.png)
+   ![Align to another goal](assets/align-to-another-goal-link-highlighted-350x128.png)
 
 1. Start typing the name of an existing goal or the name of an owner in the **Align to another goal** field, then select it when it appears in the list. Only goals that are from the same or future periods display in the list. 
 1. Click **Save**.
@@ -111,12 +111,12 @@ Aligning goals by connecting them differs depending on what environment you use.
    The goal you started with (Goal 2) is now the child goal of the goal you aligned it with (Goal 1).   
    The aligned goals display connected in the Goal Alignment section with Goal 2 as secondary to Goal 1.
 
-   ![](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![Aligned cards](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. (Optional) To view the goals in the Goal Alignment section, do one of the following:
 
    * Click the Goal Alignment section in the left panel and find the goals by applying the correct filter. For information about filtering information in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
-   * Click the Goal List, Check-in, or Pulse sections in the left panel and find one of the goals, then click the **Alignment icon** ![](assets/align-icon.png) next to the goal name to go directly to the goal in the Goal Alignment section.
+   * Click the Goal List, Check-in, or Pulse sections in the left panel and find one of the goals, then click the **Alignment icon** ![Align icon](assets/align-icon.png) next to the goal name to go directly to the goal in the Goal Alignment section.
 
    For information about the Goal Alignment section, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md). 
 
@@ -152,7 +152,7 @@ Aligning goals by connecting them differs depending on what environment you use.
    정렬된 목표는 목표 1에 대한 보조로 목표 2를 사용하여 목표 정렬 섹션에 연결됩니다.
 하위 목표가 상위 목표의 진행 상황을 업데이트할 때 상위 목표의 진행 상황 표시기 섹션에 표시됩니다.
 
-   ![](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![정렬된 카드](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. (선택 사항) 목표 정렬 섹션에서 목표를 보려면 Workfront의 목표 영역으로 이동한 다음 왼쪽 패널에서 **목표 정렬** 섹션을 클릭합니다. 목표 정렬 섹션에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 정렬 섹션 탐색](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)을 참조하십시오.
 

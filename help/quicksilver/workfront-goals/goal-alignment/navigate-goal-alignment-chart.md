@@ -6,9 +6,9 @@ description: '[목표 정렬] 섹션을 사용하여 순서에서 전체 조직�
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
 <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
 <p>또는</p>
 <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
 </tr>
@@ -137,11 +137,11 @@ ht-degree: 1%
 
    다른 목표와 정렬된 목표에는 목표 카드 아래에 정렬된 목표의 수가 표시됩니다.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![정렬 차트 화살표](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. 하위 목표를 더 확장하고 보려면 목표 아래의 **아래쪽 방향 화살표** 아이콘을 클릭합니다.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![정렬 차트 화살표](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ ht-degree: 1%
 
 1. (조건부) 현재 필터가 정렬에 참여하는 목표 중 일부를 제외하는 경우 일부 목표가 표시되지 않는다는 경고 메시지가 표시됩니다.
 
-   ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![상위 목표 제외됨](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. **목표 표시**&#x200B;를 클릭하여 필터에서 현재 제거된 목표를 표시합니다.
 
@@ -158,14 +158,14 @@ ht-degree: 1%
    * 필터에서 이전에 제거한 연결된 목표가 이제 정렬 차트에 표시됩니다.
    * 오른쪽 위 모서리의 필터는 현재 적용되지 않았음을 나타내기 위해 노란색으로 윤곽선이 표시되어 있습니다.
 
-     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![노란색 필터 강조 표시](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      필터 이름 왼쪽에 필터 재적용 링크가 표시됩니다.
 
 1. (선택 사항) 원래 결과로 돌아가서 목표 계층을 표시하려면 **필터 다시 적용**&#x200B;을 클릭합니다.
 1. (선택 사항) 진행 표시기 위로 마우스를 가져가면 현재 날짜의 목표 진행 상황을 파악할 수 있습니다.
 
-   ![](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![마우스 위 정렬 차트](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    다음 정보가 표시됩니다.
 

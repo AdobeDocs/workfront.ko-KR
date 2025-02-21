@@ -6,9 +6,9 @@ description: 증명이 포함된 새 문서 승인을 사용할 수 있습니다
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Workfront의 새 문서 승인에는 문서를 검토하고 승인하는 데 도
 참여자를 지정하려면
 
 1. 업로드한 문서를 선택하고 문서 요약을 엽니다.
-   ![](assets/open-doc-summary.png)
+   ![문서 요약 열기](assets/open-doc-summary.png)
 
 1. 승인 섹션까지 아래로 스크롤한 다음 **추가**&#x200B;를 클릭합니다.
 
@@ -62,7 +62,7 @@ Workfront의 새 문서 승인에는 문서를 검토하고 승인하는 데 도
 
 1. 검토자를 추가하려면 [검토자] 단추를 클릭하고 사용자 또는 팀 이름을 입력하십시오.
 
-   ![](assets/add-approvers.png)
+   ![승인자 추가](assets/add-approvers.png)
 
 1. 모든 검토자와 승인자를 추가했으면 **요청 제출**&#x200B;을 클릭합니다. 참가자에게는 이메일을 통해 알림이 전송됩니다.
 
@@ -77,7 +77,7 @@ Workfront의 새 문서 승인에는 문서를 검토하고 승인하는 데 도
 1. 문서 업로드가 완료되면 문서를 선택한 다음 **증명 만들기** > **단순 증명**&#x200B;을 클릭합니다.
 
 1. 문서를 다시 선택하고 문서 요약을 엽니다.
-   ![](assets/open-doc-summary.png)
+   ![문서 요약 열기](assets/open-doc-summary.png)
 
 1. 승인 섹션까지 아래로 스크롤한 다음 **추가**&#x200B;를 클릭합니다.
 
@@ -89,7 +89,7 @@ Workfront의 새 문서 승인에는 문서를 검토하고 승인하는 데 도
 
 1. 검토자를 추가하려면 [검토자] 단추를 클릭하고 사용자 또는 팀 이름 <span class="preview">을(를) 입력하거나 이전 버전에서 검토자를 선택하십시오. </span>
 
-   ![](assets/add-approvers.png)
+   ![승인자 추가](assets/add-approvers.png)
 
 1. 모든 검토자와 승인자를 추가했으면 **요청 제출**&#x200B;을 클릭합니다. 참가자에게는 이메일을 통해 알림이 전송됩니다.
 

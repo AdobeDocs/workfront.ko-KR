@@ -6,9 +6,9 @@ description: 웹 증명 뷰어와 데스크탑 증명 뷰어 모두에 대한 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -80,13 +80,13 @@ Desktop Proofing Viewer에 대해 다음 설정을 구성할 수 있습니다.
 1. 다음 방법 중 하나로 웹 증명 뷰어 또는 데스크탑 증명 뷰어를 엽니다.
 
    * Adobe Workfront 내에서 증명을 사용하는 경우 보려는 증명이 포함된 문서 목록으로 이동한 후 문서 위로 마우스를 가져간 다음 **증명 열기**&#x200B;를 클릭합니다.
-   * Workfront Proof을 사용하는 경우 대시보드 또는 보기 목록 ![](assets/go-to-proof-blue-icon.png)에서 증명에 대한 **증명으로 이동** 아이콘을 클릭합니다.
+   * Workfront Proof을 사용하는 경우 대시보드 또는 보기 목록에서 증명에 대한 **증명으로 이동** 아이콘을 클릭합니다![증명으로 이동](assets/go-to-proof-blue-icon.png).
 
 1. 왼쪽 도구 모음이 표시되지 않으면 [웹 증명 뷰어]의 왼쪽 위 모서리에 있는 **메뉴** 아이콘을 클릭하십시오.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![메뉴 아이콘](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. 왼쪽 도구 모음에서 **설정** 아이콘 ![](assets/settings-icon-in-pv.png)을 클릭합니다.
+1. 왼쪽 도구 모음에서 **설정** 아이콘 ![설정 아이콘](assets/settings-icon-in-pv.png)을 클릭합니다.
 
 1. 표시되는 다음 **설정**&#x200B;을 구성하십시오.
 

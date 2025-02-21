@@ -6,9 +6,9 @@ description: Workfront에 업로드할 때 문서에 대한 증명을 생성할 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ If a proof fails to generate after following the steps described in the followin
 
 1. 새 증명을 만들 프로젝트, 작업 또는 문제로 이동합니다.
 1. **문서** 탭을 클릭합니다.
-1. 왼쪽 패널에서 문서 ![](assets/document-icon.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 문서 ![문서 아이콘](assets/document-icon.png)을 클릭합니다.
 1. **새로 추가**&#x200B;를 클릭한 다음 표시되는 메뉴에서 **증명**&#x200B;을 클릭합니다.
 
    >[!TIP]

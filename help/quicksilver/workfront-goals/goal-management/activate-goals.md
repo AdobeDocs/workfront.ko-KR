@@ -6,9 +6,9 @@ description: 목표를 만들면 Adobe Workfront 목표가 초안 상태로 목�
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li></ul>
+  <ul><li>Ultimate 플랜 </li></ul>
    </p>
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
@@ -60,7 +60,7 @@ ht-degree: 1%
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -116,8 +116,8 @@ ht-degree: 1%
 
 1. 활성화하려는 목표로 이동합니다. 목표 페이지가 열립니다.
 
-1. 목표 이름 오른쪽에 있는 **자세히** 메뉴 ![](../goal-management/assets/more-icon.png)을(를) 클릭한 다음 **활성화**&#x200B;를 클릭합니다.
+1. 목표 이름 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](../goal-management/assets/more-icon.png)을 클릭한 다음 **활성화**&#x200B;를 클릭합니다.
 
-   ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![메뉴가 더 확장됨](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    목표 상태가 활성으로 변경됩니다. 이제 목표에 대한 진행률을 추적할 수 있으며, 목표가 체크인 섹션에 표시되고 Workfront 목표의 그래프 섹션에서 고려됩니다

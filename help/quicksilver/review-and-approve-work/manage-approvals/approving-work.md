@@ -6,9 +6,9 @@ description: 작업 승인
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '914'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Workfront의 다양한 영역에서 승인을 보고 관리할 수 있습니다.
 
 ## 홈 영역에서 작업 승인
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 승인** 위젯을 추가합니다.
 1. (조건부) **필터** 드롭다운 메뉴를 클릭한 다음 **모두**&#x200B;를 선택하여 귀하에게 할당 및 위임된 승인을 확인합니다.
 
@@ -77,7 +77,7 @@ Workfront의 다양한 영역에서 승인을 보고 관리할 수 있습니다.
 
 1. 승인 결정을 내릴 품목을 선택합니다.
 
-   ![](assets/my-approvals-widget.png)
+   ![내 승인 위젯](assets/my-approvals-widget.png)
 
 1. 오른쪽 패널에서 승인 결정을 내릴 때 사용할 수 있는 옵션 중 하나를 클릭합니다. 승인하는 항목의 유형에 따라 페이지의 오른쪽 상단에 다음 옵션이 표시됩니다.
 
@@ -146,7 +146,7 @@ Workfront의 다양한 영역에서 승인을 보고 관리할 수 있습니다.
 
    프로젝트, 작업 또는 문제의 현재 승인 프로세스에 대한 승인 정보가 항목 헤더에 표시됩니다.
 
-   ![](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![프로젝트 헤더의 현재 승인 프로세스](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    다음 승인 정보를 사용할 수 있습니다.
 
@@ -172,8 +172,8 @@ Workfront의 다양한 영역에서 승인을 보고 관리할 수 있습니다.
 
 1. 승인이 필요한 문서가 포함된 문서 영역으로 이동합니다.
 1. 문서를 선택한 다음 **승인**, **변경** 또는 **거부**&#x200B;를 클릭합니다.\
-   ![](assets/approval-approve-document-350x215.png)\
-   ![](assets/document-approval-350x199.png)
+   ![문서 승인](assets/approval-approve-document-350x215.png)\
+   ![문서 승인](assets/document-approval-350x199.png)
 
 1. (선택 사항) 문서에 대한 증명이 생성된 경우 [증명에서 문서 승인](#approve-a-document-from-a-proof)에 설명된 대로 증명 인터페이스 내에서 문서를 승인할 수 있습니다.
 
@@ -185,7 +185,7 @@ Workfront의 다양한 영역에서 승인을 보고 관리할 수 있습니다.
 1. 다음 중 하나를 수행하여 문서를 검토하십시오.
 
    * 문서에 대한 메타데이터를 봅니다.
-   * 마크업과 댓글이 있는 문서를 검토할 수 있는 증명이 만들어졌다면 오른쪽 상단 모서리에서 **증명 열기** ![](assets/open-proof-icon-qs.png)를 클릭하고 증명을 검토하십시오.
+   * 마크업과 댓글이 있는 문서를 검토할 수 있는 증명이 만들어졌다면 오른쪽 상단 모서리에서 **증명 열기** ![증명 열기](assets/open-proof-icon-qs.png)를 클릭하고 증명을 검토하십시오.
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

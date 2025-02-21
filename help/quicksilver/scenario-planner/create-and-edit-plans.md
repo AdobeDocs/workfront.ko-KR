@@ -6,9 +6,9 @@ description: 회사의 상위 수준 전략에 우선 순위를 지정할 때 Wo
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 생성한 기존 계획 목록이 [!DNL Workfront Scenario Planner]에 표시됩니다.
 
-1. (선택 사항) 계획 목록의 오른쪽 상단에 있는 **[!UICONTROL 필터]** 아이콘 ![](assets/filter-icon-34x37.png)을(를) 클릭하고 다음 중에서 선택합니다.
+1. (선택 사항) 계획 목록의 오른쪽 상단에 있는 **[!UICONTROL 필터]** 아이콘 ![필터 아이콘](assets/filter-icon-34x37.png)을 클릭하고 다음 중에서 선택합니다.
 
    | 필터 | 설명 |
    |---|---|
@@ -97,9 +97,9 @@ ht-degree: 0%
    | [!UICONTROL 내 플랜] | 생성한 계획을 표시합니다. |
    | [!UICONTROL 나와 공유] | 사용자와 공유된 계획을 표시합니다. |
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![계획 필터 드롭다운 옵션](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (선택 사항) **[!UICONTROL 검색]** 아이콘 ![](assets/search-icon.png)을(를) 클릭하여 키워드를 입력하고 목록에서 계획을 빠르게 찾습니다.
+1. (선택 사항) **[!UICONTROL 검색]** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하여 키워드를 입력하고 목록에서 계획을 빠르게 찾습니다.
 
 1. 기존 계획의 이름을 클릭하여 편집하고 7단계로 진행합니다.
 
@@ -115,11 +115,11 @@ ht-degree: 0%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
    -->
 
-   ![](assets/new-plan-button.png)
+   ![새 플랜 단추](assets/new-plan-button.png)
 
    [!UICONTROL 새 플랜] 상자가 표시됩니다.
 
-   ![](assets/new-plan-ui-adding-a-new-plan-350x306.png)
+   ![새 플랜 상자](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
 1. (조건부) 신규 계획을 생성할 때 다음 정보를 지정합니다.
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 
 1. (선택 사항) 타임라인 드롭다운 메뉴에서 다음 표의 옵션 중 하나를 선택하여 계획의 타임라인 보기 방법을 변경합니다.
 
-   ![](assets/month-dropdown-with-all-options.png)
+   ![월 드롭다운](assets/month-dropdown-with-all-options.png)
 
    | 드롭다운 메뉴 옵션 | 설명 |
    |---|---|
@@ -183,7 +183,7 @@ ht-degree: 0%
 1. (선택 사항) 왼쪽에서 오른쪽으로 스크롤하여 계획의 전체 기간을 봅니다.
 1. (선택 사항) 현재 날짜로 돌아가려면 **[!UICONTROL 오늘]** 표시줄을 클릭합니다.
 
-   ![](assets/today-indicator-350x160.png)
+   ![오늘 표시기](assets/today-indicator-350x160.png)
 
 1. 계획 헤더에 있는 **[!UICONTROL 작업 역할]** 상자를 클릭하여 계획을 실행하는 데 사용할 수 있는 작업 역할을 추가합니다.
 
@@ -193,7 +193,7 @@ ht-degree: 0%
    >
    >[!DNL Workfront]이(가) 이 계획에 사용하는 역할 할당 단위(FTE 또는 시간)가 상자 제목의 괄호로 표시됩니다.
 
-   ![](assets/adding-people-to-plan-350x206.png)
+   ![플랜에 사용자 추가](assets/adding-people-to-plan-350x206.png)
 
 1. **[!UICONTROL 작업 역할 입력 시작]** 필드를 클릭하고 목록에서 역할을 선택하거나 활성 작업 역할의 이름을 입력하십시오.
 
@@ -239,12 +239,12 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. (선택 사항) 역할 정보를 업데이트한 후 작업 역할의 이름 위에 마우스를 가져다 대거나 탭을 클릭한 다음 **[!UICONTROL 휴지통 아이콘]** ![](assets/delete.png)을(를) 클릭하여 계획에서 제거합니다.
+1. (선택 사항) 역할 정보를 업데이트한 후 작업 역할의 이름 위에 마우스를 가져다 대거나 탭을 클릭한 다음 **[!UICONTROL 휴지통 아이콘]** ![삭제 아이콘](assets/delete.png)을 클릭하여 계획에서 제거합니다.
 1. **[!UICONTROL 작업 역할 분배]**&#x200B;를 클릭합니다.
 
    작업 역할 분배 패널이 시나리오 기간 내의 모든 달에 대해 표시됩니다.
 
-   ![](assets/job-role-monthly-distribution-box-fte-350x144.png)
+   ![작업 역할 월별 배포](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
 1. **[!UICONTROL 작업 역할 입력 필드]**&#x200B;에서 계획에 추가할 작업 역할 이름을 입력한 다음 목록에 나타나면 [입력]을 클릭하십시오. [!UICONTROL 작업 역할] 열에 작업 역할을 추가합니다.
 1. 시나리오의 각 달에 대한 다음 정보를 업데이트하거나 검토합니다.
@@ -334,13 +334,13 @@ ht-degree: 0%
 
 1. 월별 예산 분포를 보려면 **[!UICONTROL 고급]**&#x200B;을 클릭하세요. 연간 및 월별 예산은 항상 반올림된 숫자입니다. 소수로 인해 1년 내의 모든 달에 예산 금액을 균등하게 분배할 수 없는 경우 **[!UICONTROL 남은]** 표시기가 연간 예산 분배 아래에 표시됩니다.
 
-   ![](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
+   ![고급 및 나머지 링크](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. 초과 금액을 제거하기 위해 월별 예산을 수동으로 조정합니다.
 
    모든 월별 예산 금액의 합계가 연간 예산보다 큰 경우 연간 예산 분포 아래에 **[!UICONTROL 초과]** 경고 표시기가 표시됩니다. 월별 예산 금액이 계획에 대해 사용 가능한 예산과 같거나 낮을 때까지 수동으로 조정합니다.
 
-   ![](assets/exceeding-budget-warning-on-plan-350x483.png)
+   ![예산 초과 경고](assets/exceeding-budget-warning-on-plan-350x483.png)
 
 1. **[!UICONTROL 인력 비용 포함]** 설정을 비활성화하여 작업 역할과 관련된 비용을 계획의 전체 비용 계산에서 제외합니다. 고정 비용은 항상 계획의 전체 비용에 포함됩니다. 이 설정은 기본적으로 활성화되어 있으며 플랜의 모든 시나리오에 영향을 줍니다.
 1. 닫으려면 [!UICONTROL 재무] 상자 외부의 아무 곳이나 클릭하십시오. 입력한 정보가 자동으로 저장됩니다.
@@ -360,6 +360,6 @@ ht-degree: 0%
 
    플랜이 생성되거나 업데이트됩니다.
 
-1. (선택 사항) 플랜 이름 오른쪽에 있는 **[!UICONTROL 즐겨찾기 아이콘]** ![](assets/favorites-icon-small.png)을 클릭하여 즐겨찾기 목록에 플랜을 추가합니다.
+1. (선택 사항) 플랜 이름 오른쪽에 있는 **[!UICONTROL 즐겨찾기 아이콘]** ![즐겨찾기 아이콘](assets/favorites-icon-small.png)을 클릭하여 즐겨찾기 목록에 플랜을 추가합니다.
 
 1. (선택 사항) 플랜의 URL을 복사하여 검토하거나 업데이트해야 할 다른 사용자에게 보냅니다. 플랜을 보려면 액세스 수준에 [!UICONTROL 보기] 이상의 액세스 권한이 있어야 합니다. 편집하려면 [!UICONTROL 편집] 액세스 권한이 있어야 합니다. 예산, 비용 및 작업 역할 비율 정보와 같은 계획에 대한 재무 정보를 검토해야 하는 경우 액세스 수준의 [!UICONTROL 재무 데이터]에도 액세스할 수 있어야 합니다. [!DNL Scenario Planner]에 필요한 액세스에 대한 자세한 내용은 [을(를) 사용하는 데 필요한 액세스 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)을(를) 참조하십시오.

@@ -6,9 +6,9 @@ description: 목표를 공유하면 목표를 만들지 않은 사람에게 목�
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '795'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 4%
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li></ul>
+  <ul><li>Ultimate 플랜 </li></ul>
    </p>
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
@@ -51,7 +51,7 @@ ht-degree: 4%
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -117,7 +117,7 @@ ht-degree: 4%
 
 ## 목표 공유
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -128,11 +128,11 @@ ht-degree: 4%
 
 1. 목표 이름 옆에 있는 **자세히 아이콘**&#x200B;을 클릭한 다음 **공유**&#x200B;를 클릭합니다.
 
-   ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
+   ![추가 메뉴](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
    목표 액세스 상자가 표시됩니다.
 
-   ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![목표 액세스](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. 다음 중 하나를 수행하십시오.
 
@@ -168,62 +168,62 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p>목표 보기</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>결과 또는 활동 보기</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>목표 복사* </td> 
-   <td>✓ 덧신 </td> 
-   <td>✓ 덧신</td> 
+   <td>✓ </td> 
+   <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>결과 또는 활동을 다른 목표로 변환*</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>활동으로 추가된 프로젝트 보기** </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>목표 편집</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>결과 또는 활동 편집</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>목표에 대한 결과 또는 활동 추가</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>프로젝트를 목표에 대한 활동으로 연결합니다**</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>목표 삭제</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>결과 또는 활동 삭제</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>목표에서 프로젝트 연결 해제</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 

@@ -6,9 +6,9 @@ description: 증명 승인 보고서를 사용하여 환경에서 증명에 대�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 1. **새 보고서**&#x200B;를 클릭한 다음 스크롤하여 **증명 승인**&#x200B;을 선택합니다.
 
-   ![](assets/proof-approval-report.png)
+   ![증명 승인 보고서](assets/proof-approval-report.png)
 
 1. (선택 사항) 추가 필드를 추가합니다.
 1. **저장 및 닫기**&#x200B;를 클릭합니다.

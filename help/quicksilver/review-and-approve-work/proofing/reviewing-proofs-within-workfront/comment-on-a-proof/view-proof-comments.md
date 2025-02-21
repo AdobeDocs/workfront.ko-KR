@@ -6,9 +6,9 @@ description: 다른 검토자가 작성한 증명 주석을 보고 회신할 수
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 Workfront에서는 증명 뷰어를 시작하지 않고도 증명 주석을 볼 수 있습니다.
 
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
-1. 문서가 포함된 행을 클릭한 다음 페이지 오른쪽의 **요약** 아이콘 ![](assets/summary-panel-icon.png)을(를) 클릭합니다.\
+1. 문서가 포함된 행을 클릭한 다음 페이지 오른쪽의 **요약** 아이콘 ![요약 아이콘](assets/summary-panel-icon.png)을 클릭합니다.\
    문서 요약의 업데이트 섹션에 설명이 표시됩니다.
 
 ## 모든 주석을 읽은 상태로 표시
@@ -96,7 +96,7 @@ Workfront에서는 증명 뷰어를 시작하지 않고도 증명 주석을 볼 
 
 1. 댓글 목록 위에서 **자세히** 아이콘을 클릭한 다음 **모두 읽음으로 표시**&#x200B;를 클릭합니다.
 
-1. ![](assets/mceclip8-350x173.png)
+1. ![모두 읽은 상태로 표시](assets/mceclip8-350x173.png)
 
 ## 증명 뷰어의 증명 댓글에 회신
 

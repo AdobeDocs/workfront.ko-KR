@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -123,19 +123,19 @@ Workfront 관리자가 시스템의 모든 그룹에 대한 전역 승인 프로
 
    **자세히 표시**&#x200B;를 클릭한 다음 **승인**&#x200B;을 클릭해야 할 수 있습니다.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![작업에 대한 승인 섹션](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
-1. ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
+1. ![기존 승인 사용 또는 단일 사용 승인 만들기](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    선택한 승인 프로세스가 표시됩니다.
 
 1. **기존 사용** 드롭다운 메뉴를 확장하고 기존 승인 프로세스를 선택합니다.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![승인 메뉴](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
    선택한 승인 프로세스가 표시됩니다.
 
-   ![](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
+   ![기존 승인이 작업에 첨부됨](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 1. (선택 사항) 항목에 첨부한 기존 승인을 수정하려면 승인 프로세스 편집 을 클릭합니다. 이렇게 하면 전역 승인 프로세스가 일회용 승인 프로세스로 변경됩니다. 자세한 내용은 이 문서의 [특정 개체에서 사용할 전역 승인 프로세스 수정](#modify-a-global-approval-process-for-use-on-a-specific-object) 섹션을 참조하십시오.
@@ -168,7 +168,7 @@ Workfront 관리자가 시스템의 모든 그룹에 대한 전역 승인 프로
    >
    >승인을 추가할 때 **저장**&#x200B;을 클릭해야 합니다.
 
-1. 전역 승인 프로세스가 추가되면 승인 페이지의 오른쪽 상단에 있는 **편집**&#x200B;아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다. 이 작업은 전역 또는 그룹 수준의 승인 프로세스를 일회용 승인 프로세스로 전환합니다.
+1. 글로벌 승인 프로세스가 추가되면 승인 페이지의 오른쪽 상단에 있는 **편집**&#x200B;아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다. 이 작업은 전역 또는 그룹 수준의 승인 프로세스를 일회용 승인 프로세스로 전환합니다.
 1. 기존 승인 프로세스를 변경합니다. 자세한 내용은 이 문서의 [일회용 승인 프로세스를 프로젝트, 작업, 문제, 템플릿 또는 템플릿 작업과 연결](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) 섹션을 참조하십시오.
 1. **저장**&#x200B;을 클릭한 다음 **저장**&#x200B;을 다시 클릭하여 전역 승인 프로세스를 이 개체에서만 사용할 수 있는 단일 사용 승인 프로세스로 전환할지 확인합니다.
 
@@ -193,11 +193,11 @@ Workfront 관리자가 시스템의 모든 그룹에 대한 전역 승인 프로
 
    **자세히 표시** > **승인**&#x200B;을 클릭해야 할 수 있습니다.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![작업에 대한 승인 섹션](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. **일회용 만들기**&#x200B;를 클릭합니다.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![승인 메뉴](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
 1. 문서 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)의 &quot;작업 항목에 대한 시스템 수준 또는 그룹 수준 글로벌 승인 프로세스 만들기&quot; 섹션에서 6단계부터 시작하는 단계를 완료합니다.
 
@@ -232,12 +232,12 @@ Workfront 관리자가 시스템의 모든 그룹에 대한 전역 승인 프로
 
    **자세히 표시** > **승인**&#x200B;을 클릭해야 할 수 있습니다.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![작업에 대한 승인 섹션](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. 항목과 연결된 승인 유형에 따라 승인 섹션의 오른쪽 상단에 있는 다음 아이콘 중 하나를 클릭합니다.
 
-   * 전역 또는 그룹 수준 승인을 위한 **제거**&#x200B;아이콘 ![](assets/remove-icon---x-in-circle.png)입니다.
-   * 일회용 승인의 경우 **삭제**&#x200B;아이콘 ![](assets/delete.png)을(를) 사용합니다.
+   * 전역 또는 그룹 수준 승인을 위한 **제거**&#x200B;아이콘 ![제거 아이콘](assets/remove-icon---x-in-circle.png).
+   * 일회성 승인을 위한 **삭제**&#x200B;아이콘 ![삭제 아이콘](assets/delete.png).
 
 1. 확인하려면 **제거** 또는 **삭제**&#x200B;를 클릭하세요.
 

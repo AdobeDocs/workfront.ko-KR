@@ -6,9 +6,9 @@ description: 작업을 사용하여 증명의 각 댓글 스레드에서 수행�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ Workfront 관리자가 작업을 활성화하고 구성하는 방법에 대한 �
 
    * 주석의 오른쪽 아래 모서리에 있는 플래그 아이콘을 클릭한 다음 드롭다운 메뉴에서 원하는 작업을 클릭합니다.
 
-     ![](assets/actions-flag-icon-350x198.png)
+     ![작업 플래그 아이콘](assets/actions-flag-icon-350x198.png)
 
    * **자세히** 아이콘(댓글에 세 개의 가로 점)을 클릭한 다음 표시되는 드롭다운 메뉴의 아래 섹션에서 원하는 작업을 클릭합니다.
 

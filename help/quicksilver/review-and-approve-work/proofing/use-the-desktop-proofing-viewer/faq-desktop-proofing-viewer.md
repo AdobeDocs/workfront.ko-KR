@@ -7,9 +7,9 @@ description: 아니요. Desktop Proofing Viewer는 실시간 웹 사이트 교�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 대화형 증명을 열고 Launch 화면에서 직접 앱을 다운로드합니다.
 
-![](assets/mceclip0-350x114.png) 
+![시작 화면](assets/mceclip0-350x114.png) 
 
 ## 새 버전의 Desktop Viewer를 다시 설치해야 합니까?
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 내 조직에서 대화형 증명에 사용한 레거시 증명 뷰어의 상태는 무엇입니까?
 
-2018.3 릴리스 이전에는 레거시 증명 뷰어가 지원되었습니다. 2018.3 릴리스(2018년 11월)부터 레거시 증명 뷰어 및 Flash에 의존하는 다른 모든 애플리케이션이 제거되어 더 이상 사용할 수 없습니다. 
+2018.3 릴리스 이전에는 레거시 증명 뷰어가 지원되었습니다. 2018.3 릴리스(2018년 11월)부터 기존 증명 뷰어 및 Flash를 사용하는 다른 모든 응용 프로그램이 제거되었으며 더 이상 사용할 수 없습니다. 
 
 정적 및 비디오 증명의 경우 새 웹 증명 뷰어가 기본 뷰어입니다. 대화형 증명의 경우 Desktop Proofing Viewer가 기본 뷰어입니다.
 

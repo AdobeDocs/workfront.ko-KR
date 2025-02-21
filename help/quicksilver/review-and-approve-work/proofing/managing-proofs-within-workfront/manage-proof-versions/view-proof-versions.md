@@ -6,9 +6,9 @@ description: 증명의 이전 버전을 볼 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 909b8924-c0f6-47a6-ba30-fbff7c2e0d55
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '298'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 1%
 1. 문서 목록으로 이동한 다음 증명을 선택합니다.
 1. 요약에서 **모든 버전** 섹션으로 스크롤합니다. 여기에서 증명의 모든 버전을 볼 수 있습니다.
 
-   ![](assets/copy-of-versions-350x173.png)
+   ![버전 사본](assets/copy-of-versions-350x173.png)
 
 ## 이전 증명 버전 미리 보기
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 1. 문서 목록으로 이동한 후 증명을 선택합니다.
 1. 요약에서 **버전**(으)로 스크롤하고 **자세히** 메뉴를 클릭한 다음 **미리 보기**&#x200B;를 선택합니다.
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   요약의 ![증명 버전](assets/proof-versions-in-summary-350x167.png)
 
 ## 이전 증명 버전 보기
 
@@ -74,4 +74,4 @@ ht-degree: 1%
 1. 필요한 증명을 찾습니다.
 1. 요약에서 **버전**(으)로 스크롤하고 **자세히** 메뉴를 클릭한 다음 **증명 열기**&#x200B;를 선택합니다.
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   요약의 ![증명 버전](assets/proof-versions-in-summary-350x167.png)

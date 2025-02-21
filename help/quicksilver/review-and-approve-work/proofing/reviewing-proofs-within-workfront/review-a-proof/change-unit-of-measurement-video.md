@@ -6,9 +6,9 @@ description: 비디오 타임라인에서 사용되는 측정 단위를 조정�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 553c7cea-6d92-438e-a76e-639daa020ac5
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 1%
 
 1. 증명 뷰어의 왼쪽 아래 모서리에서 현재 측정 단위를 클릭합니다.
 
-   ![](assets/phq-viewer-video-timeline.png)
+   ![비디오 타임라인](assets/phq-viewer-video-timeline.png)
 
 1. 다음 옵션 중에서 선택합니다.
 

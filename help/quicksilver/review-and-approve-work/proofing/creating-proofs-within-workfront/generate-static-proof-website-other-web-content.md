@@ -6,9 +6,9 @@ description: 웹 콘텐츠에 대한 새 정적 증명 또는 기존 정적 증�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    웹 사이트 증명 구성 옵션이 표시됩니다.
 
-   ![](assets/interactive-proof-radio-btn-area-350x199.png)
+   ![대화형 증명](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. (선택 사항) 웹 사이트 URL에서 증명 이름을 다른 이름으로 변경하려면 **증명 이름을 입력하십시오.**
 1. **스크린샷 캡처**&#x200B;를 선택하고 다음 옵션을 사용하십시오.

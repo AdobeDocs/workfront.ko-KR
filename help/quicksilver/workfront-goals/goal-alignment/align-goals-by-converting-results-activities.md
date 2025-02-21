@@ -6,10 +6,10 @@ description: 두 목표를 수동으로 정렬하거나 기존 목표의 결과�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 15%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 16%
  <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
+<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
  <p>또는</p>
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
@@ -109,9 +109,9 @@ ht-degree: 16%
 1. Click the name of the goal to open the **Goal Details** panel.
 1. Expand the **Results** or **Activities** right-pointing arrows to see a list of results or activities for the goal. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
 
-   ![](assets/convert-to-goal-link-highlighted-350x191.png)
+   ![Convert to goal](assets/convert-to-goal-link-highlighted-350x191.png)
 
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click **Convert**. The activity or result displays as an aligned goal in the Goal Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
@@ -120,9 +120,9 @@ ht-degree: 16%
 
 1. 목표로 전환할 결과 또는 활동이 있는 목표로 이동합니다.
 1. 목표의 페이지에서 왼쪽 패널의 **진행률 표시기**&#x200B;를 클릭합니다.
-1. 진행 표시기 목록에서 결과나 활동을 선택한 다음 진행 표시기 목록 맨 위에 있는 **목표로 전환** 아이콘 ![](assets/convert-to-goal-icon-unshimmed.png)을 클릭합니다. 목표로 변환 상자가 열립니다.
+1. 진행 표시기 목록에서 결과나 활동을 선택한 다음 진행 표시기 목록 맨 위에 있는 **목표로 전환** 아이콘 ![목표로 전환](assets/convert-to-goal-icon-unshimmed.png)을 클릭합니다. 목표로 변환 상자가 열립니다.
 
-   ![](assets/convert-to-goal-box-unshimmed.png)
+   ![목표 상자로 전환](assets/convert-to-goal-box-unshimmed.png)
 1. 다음 정보를 업데이트합니다.
    * **목표 이름**: 기본적으로 새 목표의 이름은 원래 결과 또는 활동과 동일합니다.
    * **기간**: 기본적으로 새 목표의 기간은 현재 분기입니다. **사용자 지정 날짜 사용** 설정을 선택하여 새 목표에 대한 사용자 지정 기간을 정의할 수 있습니다.

@@ -7,9 +7,9 @@ description: 기본 증명을 만든 후 하나의 기한을 설정할 수 있�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 2%
 1. **증명 워크플로**&#x200B;를 클릭합니다.
 1. **워크플로** 영역에서 **기한 없음**&#x200B;을 선택합니다.
 
-   ![](assets/no-deadline-basic-proof-350x70.png)
+   ![기한 없음](assets/no-deadline-basic-proof-350x70.png)
 
 1. 날짜를 선택하고 시간을 지정한 다음 화면에서 아무 곳이나 클릭합니다.
 1. 검토자에게 새 기한을 알리려면 선택합니다.

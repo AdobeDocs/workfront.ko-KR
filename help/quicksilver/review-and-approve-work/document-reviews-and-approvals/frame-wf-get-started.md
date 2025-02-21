@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Frame.io를 정기적으로 사용하는 Workfront 사용자는 Frame.io 사용�
 
 자세한 내용은 [통합 구성 [!DNL Workfront] 및 [!DNL Frame.io] 을 참조하십시오](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
-![](assets/Frame-enabled-user.png)
+![프레임 사용 사용자](assets/Frame-enabled-user.png)
 
 
 ### Frame.io와 연결된 프로젝트 만들기
@@ -114,7 +114,7 @@ Frame.io에 대한 자세한 내용은 [I&#39;ve been invited to collaborate on 
   자세한 내용은 [승인 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)를 참조하세요.
 
 
-![](assets/assign-template.png)
+![템플릿 할당](assets/assign-template.png)
 
 
 #### Frame.io 뷰어 액세스
@@ -123,7 +123,7 @@ Frame.io에 대한 자세한 내용은 [I&#39;ve been invited to collaborate on 
 
 * Workfront 이메일 알림
 * 새 Workfront 홈 영역의 내 승인 위젯
-  ![](assets/awaiting-my-approval.png)
+  ![내 승인 대기 중](assets/awaiting-my-approval.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Frame.io 뷰어에서 작성한 모든 주석은 Workfront 업데이트 탭에�
 
 Workfront의 의사 결정에 대한 자세한 내용은 [문서 의사 결정 상태 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)를 참조하십시오.
 
-![](assets/frame-viewer-and-decision.png)
+![프레임 뷰어 및 결정](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -158,4 +158,4 @@ Reviewer/approver needs to go through email to get to frame vier
 프로젝트 코디네이터는 다음 위젯을 사용하여 Workfront 홈 영역에서 모든 진행 중인 승인의 진행률을 모니터링할 수 있습니다.
 
 * **모든 승인**: 평균 승인 시간 및 결정과 보류 중인 승인 및 기한 경과 승인의 목록 보기에 대한 정보가 있는 2개의 차트를 표시합니다.
-  ![](assets/all-approvals.png)
+  ![모든 승인](assets/all-approvals.png)

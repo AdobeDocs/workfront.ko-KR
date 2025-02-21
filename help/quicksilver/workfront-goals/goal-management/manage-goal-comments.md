@@ -6,9 +6,9 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li></ul>
+  <ul><li>Ultimate 플랜 </li></ul>
    </p>
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
@@ -96,7 +96,7 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 
 목표 페이지의 업데이트 섹션에서 목표에 주석을 추가할 수 있습니다.
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭하거나 왼쪽 상단의 **주 메뉴** 아이콘 ![](assets/lines-main-menu.png)을(를) 클릭합니다(사용 가능한 경우). **목표**를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭하거나 왼쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 줄](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **목표**를 클릭합니다.
 이렇게 하면 목표 목록이 열립니다.
 1. 주석을 추가할 목표를 찾은 다음 해당 이름을 클릭하여 목표 페이지를 엽니다.
 1. 왼쪽 패널에서 **업데이트**&#x200B;를 클릭합니다.
@@ -106,7 +106,7 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 
    
-   ![](assets/search-field-in-updates-tab-goals.png)
+   ![Search field](assets/search-field-in-updates-tab-goals.png)
 
    The keyword (****or user****) you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
 
@@ -121,7 +121,7 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 1. Click the **Comments** tab in the upper-left corner of the Updates area.
 1. Start entering a comment in the **New comment** box.
          
-   ![](assets/comment-box-empty-unshimmed.png)
+   ![Comment box](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -145,13 +145,13 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
       >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
       >
       >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
+      >![Real time new red indicator](assets/real-time-new-red-indicator-unified-commenting-copy.png)
       
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
+1. (Optional) To edit a comment, click the **More** menu ![More icon](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
 1. Edit the information in the comment or remove any of the tagged users. 
    You can edit your comment within 15 minutes from submitting it. An "edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   ![Edited tag on comment](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
    >
    > * The date stamp is the date of the original comment and not the date of the latest update. 
 
-1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard or into a new reply:
+1. (Optional) Click the **More** menu ![More icon](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard or into a new reply:
 
       * **Copy link** to copy the link of an update, without the replies.
       * **Copy body text** to copy the text of an update. 
@@ -167,14 +167,14 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 
          For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Click the **More** menu ![More icon](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). (**********insure this stays accurate*********)
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
    
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   ![Blue comments banner](assets/blue-new-comments-banner-with-view-button.png)
    
    Additional comments display at the bottom of the screen.
-1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
+1. (Optional) Click the **Like** icon![Like icon](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. (*********ensure the casing on the tab has not changed**********)-->
 

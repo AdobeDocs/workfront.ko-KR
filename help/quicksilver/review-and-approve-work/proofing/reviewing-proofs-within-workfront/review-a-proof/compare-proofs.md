@@ -2,19 +2,19 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: 증명 비교
+title: 교정쇄 비교
 description: 증명 뷰어를 사용하여 두 개의 서로 다른 증명 또는 동일한 증명의 두 버전을 비교할 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 2%
 
 ---
 
-# 증명 비교
+# 교정쇄 비교
 
 증명 뷰어를 사용하여 두 개의 서로 다른 증명 또는 동일한 증명의 두 버전을 비교할 수 있습니다.
 
@@ -68,13 +68,13 @@ ht-degree: 2%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
 
-   ![](assets/compare-proofs-select-docs-350x138.jpg)
+   ![증명 비교](assets/compare-proofs-select-docs-350x138.jpg)
 
    두 증명이 모두 증명 뷰어에 나란히 표시됩니다. 각 문서를 비교하면서 검토할 수 있습니다.
 
    각 증명 위에 별도의 이동 경로를 사용하여 증명과 연관된 작업 항목을 보고 이동할 수 있습니다.
 
-   ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![증명 이동 경로 비교](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    두 증명을 비교하는 데 사용할 수 있는 도구에 대한 자세한 내용은  [증명 뷰어에서 증명 비교](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)에서 [비교 도구를 사용](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)합니다.
 

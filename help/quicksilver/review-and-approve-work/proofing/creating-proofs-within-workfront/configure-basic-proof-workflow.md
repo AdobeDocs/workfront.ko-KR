@@ -6,9 +6,9 @@ description: 기본 워크플로를 사용하면 여러 검토자가 증명을 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
 1. 워크플로 유형 섹션에서 **기본**&#x200B;을(를) 선택합니다.
 1. 추가할 사용자를 지정한 다음 증명 역할을 선택합니다.
 
-   ![](assets/new-proof---roles-350x213.png)
+   ![새 증명 역할](assets/new-proof---roles-350x213.png)
 
 1. 다음 표에는 각 역할 및 해당 역할과 관련된 권한이 나열되어 있습니다.
 
@@ -111,99 +111,99 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td> <p><strong>읽기 전용</strong> </p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ 덧신</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ 덧신</td> 
+      <td>✓</td> 
       <td> </td> 
       <td> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>검토자</strong> </p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ 덧신</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ 덧신</td> 
+      <td>✓</td> 
       <td> </td> 
       <td> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>승인자</strong> </p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ 덧신</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ 덧신</td> 
+      <td>✓</td> 
       <td> </td> 
-      <td> <p>✓ 덧신</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>검토자 및 승인자</strong> </p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> </td> 
-      <td>✓ 덧신</td> 
+      <td>✓</td> 
       <td> <p> </p> </td> 
-      <td>✓ 덧신</td> 
+      <td>✓</td> 
       <td> </td> 
-      <td> <p>✓ 덧신</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>작성자</strong> </p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
-      <td>✓ 덧신</td> 
-      <td>✓ 덧신</td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td>✓ 덧신</td> 
-      <td>✓ 덧신</td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td> <p>✓</p> </td> 
+      <td>✓</td> 
+      <td>✓</td> 
       <td> </td> 
-      <td>✓ 덧신</td> 
+      <td>✓</td> 
      </tr> 
      <tr> 
       <td> <p><strong>중재자</strong> </p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ <strong>개</strong> </p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td> <p>✓ 덧신</p> <p> </p> </td> 
-      <td>✓ 덧신</td> 
-      <td>✓ 덧신</td> 
-      <td> <p>✓ 덧신</p> </td> 
-      <td>✓ 덧신</td> 
-      <td>✓ 덧신</td> 
-      <td>✓ 덧신</td> 
-      <td>✓ 덧신</td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p><strong>✓</strong> </p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> </td> 
+      <td> <p>✓</p> <p> </p> </td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td> <p>✓</p> </td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td>✓</td> 
+      <td>✓</td> 
      </tr> 
     </tbody> 
    </table>
@@ -224,7 +224,7 @@ ht-degree: 1%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">태그하여 증명 공유</td> 
+      <td role="rowheader">태그하여 교정쇄 공유</td> 
       <td> <p><a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">증명을 공유할 수 있는 사용자 태그 지정</a>에 설명된 대로 검토자가 모든 Workfront 사용자를 증명에 추가할 수 있습니다.</p> <p>참고:  <p>이 두 옵션을 사용할 수 없는 경우(흐리게 표시), 사용자에게 댓글 해결, 댓글에 작업 적용 및 사용자 태그 지정을 허용하는 권한 프로필이 이미 있습니다. </p> <p>옵션이 표시되지 않으면 추가한 사용자는 Workfront 라이선스 소유자가 아닙니다.</p> </p> </td> 
      </tr> 
     </tbody> 
@@ -347,6 +347,6 @@ ht-degree: 1%
 
 1. 증명이 생성되면 **증명 열기**&#x200B;를 클릭하여 증명 뷰어를 시작합니다.
 
-   ![](assets/open-proof-350x132.png)
+   ![증명 열기](assets/open-proof-350x132.png)
 
    계정에 증명이 활성화되지 않은 사용자는 여전히 문서를 보고 증명에 대한 댓글을 달 수 있습니다.

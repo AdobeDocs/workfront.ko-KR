@@ -6,9 +6,9 @@ description: Adobe Workfront Scenario Planner를 사용할 때 생성했거나 �
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
@@ -102,7 +102,7 @@ ht-degree: 0%
 1. (선택 사항) 이니셔티브 막대의 끝을 드래그하여 기간을 1개월 이상으로 늘린 다음 이니셔티브의 종료 월을 원하는 위치에 놓습니다.
 1. (선택 사항 및 조건부) 이니셔티브 기간이 계획의 기간보다 짧은 경우 이니셔티브 막대를 계획의 타임라인에서 다른 위치에 끌어다 놓아 다른 시간대로 이동합니다.
 
-   ![](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![타임라인에서 이니셔티브 이동](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -120,7 +120,7 @@ ht-degree: 0%
 1. (선택 사항) 왼쪽에서 오른쪽으로 스크롤하여 이니셔티브의 전체 지속 시간을 확인합니다.
 1. (선택 사항) 현재 날짜로 돌아가려면 **[!UICONTROL 오늘]** 표시줄을 클릭합니다.
 
-   ![](assets/today-indicator-350x160.png)
+   ![오늘 표시기](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 1. 이니셔티브의 막대를 클릭합니다. 오른쪽에 이니셔티브 세부 정보 패널이 열립니다.
 
-   ![](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![이니셔티브 세부 정보 패널](assets/initiative-details-panel-multiple-months-350x626.png)
 
    다음 정보를 지정하거나 검토합니다.
 
@@ -196,7 +196,7 @@ ht-degree: 0%
    >
    >플랜에 대한 작업 역할 수 및 예산, 편집 중인 이니셔티브 및 그 위에 있는 모든 이니셔티브의 작업 역할 수 및 비용을 이미 정의했으며 그 금액이 플랜에 대해 지정한 금액을 모두 초과하는 경우 [!DNL Workfront]에서 이니셔티브를 완료할 수 있는 충분한 리소스가 부족한 것을 확인할 수 있습니다. [!DNL Workfront]이(가) 이 이니셔티브를 달성하려고 할 때 이를 충돌로 표시하고 빨간색 표시줄로 표시합니다. 충돌하는 이니셔티브를 따르는 모든 이니셔티브가 빨간색 배경에 표시됩니다. 리소스가 부족한 첫 번째 이니셔티브부터 일부 이니셔티브의 요구 사항을 조정해야 할 수 있습니다. 충돌하는 이니셔티브를 조정하는 방법에 대한 자세한 내용은 [이니셔티브 충돌 해결 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)을 참조하십시오.
 
-1. (선택 사항) 작업 역할의 이름을 마우스로 가리킨 다음 **[!UICONTROL 휴지통 아이콘]** ![](assets/delete.png)을(를) 클릭하여 이니셔티브에서 제거합니다.
+1. (선택 사항) 작업 역할의 이름을 마우스로 가리킨 다음 **[!UICONTROL 휴지통 아이콘]** ![삭제 아이콘](assets/delete.png)을 클릭하여 이니셔티브에서 제거합니다.
 
 1. (조건부) 이니셔티브를 변경한 경우 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 

@@ -6,9 +6,9 @@ description: 검토 프로세스를 통해 증명이 진행되는 방식에 대�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 증명 진행률은 수신자에게 증명을 보낸 시점부터 증명에 대한 결정을 내릴 때까지 증명에 대한 작업이 완료됨을 나타냅니다. 진행률 아이콘 S, O, C 및 D가 증명 이름 옆에 나타나고 증명 진행률에 대한 정보를 제공합니다.
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![기존 진행률을 편집하는 사용자](assets/proof-edit-existing-progress-350x62.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 증명 상태는 증명에 필요한 결정의 상태를 표시합니다. 증명의 상태는 &quot;최악의 경우&quot; 참가자에 의해 결정됩니다. 예를 들어 증명에 대한 세 가지 결정이 있다고 가정해 보겠습니다. 두 개의 상태는 **수락됨**&#x200B;이고 한 개의 상태는 **거부됨**&#x200B;입니다. **Rejected**&#x200B;의 &quot;최악의 경우&quot; 결정은 다른 결정 및 증명의 전체 상태를 **Rejected**&#x200B;로 표시합니다. 
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![기존 진행률 증명 편집](assets/proof-edit-existing-progress-350x62.png)
 
 표준 상태 옵션은 다음과 같습니다.
 

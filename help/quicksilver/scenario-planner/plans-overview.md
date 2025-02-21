@@ -7,9 +7,9 @@ description: 비즈니스 관리자는 Adobe Workfront Scenario Planner를 사�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 계획에 사용할 수 있는 작업 역할의 양과 이니셔티브가 완료되는 데 필요한 작업 역할의 양을 나타내는 계획에 대한 작업 역할 일반 정보를 검토할 수 있습니다. 플랜 헤더의 [!UICONTROL 작업 역할] 상자에서 이 정보를 볼 수 있습니다.
 
-![](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+![계획의 작업 역할 상자](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
 
 작업 역할 상자에서 다음을 볼 수 있습니다.
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 계획, 특히 계획된 예산, 예산 활용 방법 및 계획의 순 가치에 대한 재무 정보를 검토할 수 있습니다. 계획의 순 가치(Net Value)는 이니셔티브의 순 가치(Net Value)를 기반으로 합니다. 플랜 헤더의 [!UICONTROL 재무] 및 [!UICONTROL 요약] 상자에서 이 정보를 볼 수 있습니다.
 
-![](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![예산 및 순 가치 상자](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 플랜의 [!UICONTROL 재무] 및 [!UICONTROL 요약] 상자에서 다음을 볼 수 있습니다.
 

@@ -6,9 +6,9 @@ description: 프로세스가 복잡하거나 검토용 콘텐츠를 정기적으
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 0%
 
       **증명 생성 시**, **특정 날짜 및 시간에** 또는 **수동으로** 옵션 외에 이전 단계에서 발생한 내용에 따라 다른 옵션을 선택할 수 있습니다.
 
-      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![단계 옵션 활성화](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. 이전 단계에서 발생한 사항에 따라 달라지는 단계 활성화 옵션을 선택한 경우 표시되는 옵션을 사용하여 활성화 설정을 구성합니다.
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 
    자동화된 워크플로에 단계를 추가하면 화면에 해당 단계를 나타내는 다이어그램 양식이 표시됩니다.
 
-   ![](assets/stages-diagram-350x213.png)
+   ![단계 다이어그램](assets/stages-diagram-350x213.png)
 
 1. 아래의 [증명에 대한 전자 메일 설정 구성](#configure-email-settings-for-the-proof)을 사용하여 계속합니다.
 
@@ -230,6 +230,6 @@ ht-degree: 0%
 
 1. 증명이 생성되면 **증명 열기**&#x200B;를 클릭하여 증명 뷰어를 시작합니다.
 
-   ![](assets/open-proof-350x132.png)
+   ![증명 열기](assets/open-proof-350x132.png)
 
    계정에 증명이 활성화되어 있지 않은 사용자는 여전히 문서를 보고 증명 [에 댓글을 달 수 있습니다.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
