@@ -6,9 +6,9 @@ description: 프로그램은 프로젝트 경계를 초월하는 공통 전략, 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # 프로그램 만들기
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 프로그램은 프로젝트 경계를 초월하는 공통 전략, 목표 또는 목표를 공유하는 프로젝트 컬렉션을 나타냅니다.
 프로그램은 포트폴리오의 하위 구분이며 포트폴리오 외부에 존재할 수 없습니다. 일반적으로 프로그램은 동일한 포트폴리오 내의 다른 프로그램과 동일한 리소스를 공유합니다.
@@ -69,6 +73,18 @@ ht-degree: 0%
   Workfront 관리자는 킥스타트를 사용하여 프로그램을 가져올 수 있습니다.
 
   Workfront에서 킥스타트를 사용하여 데이터를 가져오는 방법에 대한 자세한 내용은 [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)를 참조하십시오.
+
+<div class="preview">
+
+* Workfront Planning의 레코드 유형에서 프로그램을 연결할 때 프로그램을 추가합니다.
+
+  Workfront Planning에 대한 새 Workfront 라이선스 및 추가 Workfront Planning 패키지가 있어야 합니다.
+
+  Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+
+  포트폴리오를 레코드에 추가하여 만드는 방법에 대한 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;연결할 때 레코드 만들기&quot; 섹션을 참조하십시오.
+
+</div>
 
 ## 프로그램 만들기
 

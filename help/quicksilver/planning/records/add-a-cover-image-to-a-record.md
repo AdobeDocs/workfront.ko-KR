@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
@@ -68,8 +68,8 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -136,53 +136,46 @@ ht-degree: 1%
 
    또는
 
-   테이블 테이블 보기에서 첫 번째 열의 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png)을(를) 클릭합니다.
+   테이블 테이블 보기에서 첫 번째 열의 **세부 정보 열기** 아이콘 ![세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다.
 
    레코드의 미리보기가 보기에서 열립니다.
 
-   <!--<div class="preview">
+   ![세부 정보 미리 보기 상자](assets/details-box.png)
 
-    ![](assets/details-box.png) 
 
-    </div>-->
-
-1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
+1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 열기](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
    레코드 페이지가 열립니다.
 
-   <!--<div class="preview">
-
-    ![](assets/details-page.png)
-
-    </div>-->
+   ![세부 정보 페이지](assets/details-page.png)
 
 1. 레코드 미리 보기 또는 세부 정보 페이지에서 레코드 이름 위의 공간을 마우스로 가리킨 다음 **표지 추가**&#x200B;를 클릭합니다.
 
    또는
 
-   기존 표지 이미지 위로 마우스를 가져간 후 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **업로드**&#x200B;를 클릭합니다. <!--check the casing here; I logged a bug for this-->
+   기존 표지 이미지 위로 마우스를 가져간 후 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **업로드**&#x200B;를 클릭합니다. <!--check the casing here; I logged a bug for this-->
 **레코드 표지** 상자가 **업로드** 탭에서 열립니다.
 
-   ![](assets/record-cover-box-for-upload.png)
+   ![업로드를 위한 레코드 표지](assets/record-cover-box-for-upload.png)
 
 1. **이미지 찾아보기**&#x200B;를 클릭하고 컴퓨터에서 그림을 찾아 선택하여 추가합니다.
 
-1. (선택 사항) 이미지를 저장하기 전에 제거하려면 **새 이미지 업로드** 아이콘 ![](assets/upload-new-image-icon.png)을(를) 클릭하고 새 이미지를 업로드하십시오.
+1. (선택 사항) 이미지를 저장하기 전에 제거하려면 **새 이미지 업로드** 아이콘 ![새 이미지 업로드 아이콘](assets/upload-new-image-icon.png)을 클릭하고 새 이미지를 업로드하십시오.
 
 1. (선택 사항) **갤러리** 탭을 클릭한 다음 이미지 갤러리에서 이미지를 클릭합니다. 이미지 갤러리는 수정할 수 없습니다.
 
-   ![](assets/record-cover-box-for-gallery.png)
+   ![갤러리에 대한 레코드 표지](assets/record-cover-box-for-gallery.png)
 
 1. **이미지 사용**&#x200B;을 클릭합니다.
 
    이미지는 레코드 미리 보기 또는 세부 사항 페이지의 맨 위에 업로드되고 변경 사항이 자동으로 저장됩니다.
 
-   ![](assets/record-page-with-cover-image.png)
+   ![표지 이미지로 페이지 기록](assets/record-page-with-cover-image.png)
 
-1. (선택 사항) 이미지 위로 마우스를 가져간 다음 표지 이미지의 오른쪽 아래 모서리에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭하고 다음 중 하나를 수행합니다.
+1. (선택 사항) 이미지 위로 마우스를 가져간 다음 표지 이미지의 오른쪽 아래 모서리에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭하고 다음 중 하나를 수행하십시오.
 
    * 표지 이미지를 바꾸려면 **업로드**&#x200B;를 클릭하고 6단계를 반복하여 새 이미지를 업로드하고 저장합니다.
-   * **위치 변경**&#x200B;을 클릭하고 **위치 변경** 도구 ![](assets/reposition-tool-icon.png)을(를) 사용하여 표지 이미지를 가운데로 설정한 다음 완료되면 **저장**&#x200B;을 클릭합니다.
+   * **위치 변경**&#x200B;을 클릭하고 **위치 변경** 도구 ![위치 변경 도구 아이콘](assets/reposition-tool-icon.png)을 사용하여 표지 이미지를 가운데로 설정한 다음 완료되면 **저장**&#x200B;을 클릭합니다.
    * 표지 이미지를 제거하려면 **제거**&#x200B;를 클릭하십시오.
 
    Workfront은 변경 사항을 자동으로 저장합니다.

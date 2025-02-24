@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,8 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -132,9 +132,9 @@ ht-degree: 0%
 
    그러면 레코드 유형 페이지가 열립니다.
 1. **보기** 드롭다운 메뉴에서 표 보기를 선택하십시오. 선택한 유형의 모든 레코드가 테이블에 표시됩니다.
-1. 기본 필드 정보를 마우스로 가리키고 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **썸네일**&#x200B;을(를) 클릭합니다.
+1. 기본 필드 정보를 마우스로 가리키고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **썸네일**&#x200B;을 클릭합니다.
 
-   ![](assets/record-more-menu-expanded.png)
+   ![확장된 추가 메뉴 기록](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
@@ -180,15 +180,15 @@ ht-degree: 0%
 1. 보기에서 레코드를 클릭하여 엽니다.
 
    세부 사항 미리 보기 상자가 표시됩니다.
-1. (선택 사항) 오른쪽 상단의 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을 클릭합니다.
+1. (선택 사항) 오른쪽 상단의 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭합니다.
 
    레코드의 세부 정보 페이지가 열립니다.
 
-1. (조건부) 레코드 미리 보기 또는 세부 정보 페이지에서 썸네일 이미지 또는 아이콘 ![](assets/record-thumbnail-icon-on-details-page.png)을(를) 마우스로 가리킨 다음 레코드 이름 위의 공간을 마우스로 가리킨 다음 **썸네일 추가** 또는 **썸네일 편집**&#x200B;을 클릭합니다.
+1. (조건부) 레코드 미리 보기 또는 세부 정보 페이지에서 썸네일 이미지 또는 아이콘 ![세부 정보 페이지의 레코드 썸네일 아이콘](assets/record-thumbnail-icon-on-details-page.png) 위로 마우스를 가져간 다음 레코드 이름 위의 스페이스 위로 마우스를 가져간 다음 **썸네일 추가** 또는 **썸네일 편집**&#x200B;을 클릭합니다.
 
    **업로드** 탭은 기본적으로 **레코드 썸네일** 상자에서 열립니다.
 
-   ![](assets/record-thumbnail-box-for-upload.png)
+   ![업로드를 위한 썸네일 상자 기록](assets/record-thumbnail-box-for-upload.png)
 
 1. 썸네일로 추가할 파일 드래그 앤 드롭
 
@@ -197,12 +197,12 @@ ht-degree: 0%
    **이미지 찾아보기**&#x200B;를 클릭한 다음 추가할 이미지 파일을 찾습니다. 파일을 컴퓨터에 저장해야 합니다.
 
 1. (선택 사항) 이미지가 **썸네일 기록** 상자에 업로드되면 크기 조정 도구를 사용하여 이미지를 자르고 크기를 조정합니다.
-1. (선택 사항) 다른 이미지를 업로드하려면 **새 이미지 업로드** 아이콘 ![](assets/upload-new-image-icon.png)을(를) 클릭합니다.
+1. (선택 사항) 다른 이미지를 업로드하려면 **새 이미지 업로드** 아이콘 ![새 이미지 업로드 아이콘](assets/upload-new-image-icon.png)을 클릭합니다.
 1. (선택 사항) **갤러리** 탭을 클릭한 다음 이미지를 클릭합니다. 이미지 갤러리는 수정할 수 없습니다.
 
-   ![](assets/record-thumbnail-box-for-gallery.png)
+   ![갤러리의 썸네일 상자 기록](assets/record-thumbnail-box-for-gallery.png)
 
-1. (선택 사항) 썸네일을 저장하기 전에 제거하려면 이미지 오른쪽에 있는 **제거** 아이콘 ![](assets/remove-image-icon.png)을(를) 클릭합니다.
+1. (선택 사항) 썸네일을 저장하기 전에 제거하려면 이미지 오른쪽에 있는 **제거** 아이콘 ![이미지 제거 아이콘](assets/remove-image-icon.png)을 클릭합니다.
 
 1. **이미지 사용**을 클릭하여 이미지를 축소판으로 추가합니다.
 **Record thumbnail** 상자를 닫습니다.
@@ -212,7 +212,7 @@ ht-degree: 0%
    >
    >   이 보기에서 썸네일을 표시하려면 표 보기에서 썸네일 필드를 활성화해야 합니다. 기본적으로 비활성화되어 있습니다.
 
-1. (선택 사항) 썸네일 저장 후 썸네일을 제거하려면 보기에서 레코드를 클릭하여 세부 정보 페이지를 연 다음 썸네일 이미지 위로 마우스를 가져간 후 **추가** 메뉴 ![](assets/more-menu.png)> **제거** 아이콘 ![](assets/remove-image-icon.png)을(를) 클릭합니다. 썸네일 이미지가 제거됩니다.
+1. (선택 사항) 썸네일 저장 후 썸네일을 제거하려면 보기에서 레코드를 클릭하여 세부 정보 페이지를 연 다음 썸네일 이미지 위로 마우스를 가져간 다음 **추가** 메뉴 ![추가 메뉴 아이콘](assets/more-menu.png)> **제거** 아이콘 ![제거 아이콘](assets/remove-image-icon.png)을 클릭합니다. 썸네일 이미지가 제거됩니다.
 
 
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -78,8 +78,8 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 <tr>
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
    <td>
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p>
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p>
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p>
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p>
    </td>
 
 </tr>
@@ -105,7 +105,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 관리자를 비롯한 모든 사용자에게는 프로젝트, 포트폴리오 및 프로그램의 계획 영역과 주 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">Adobe 계획 액세스 개요</a>를 참조하십시오. </p>  </p>  
+   <td> <p>Workfront 관리자를 비롯한 모든 사용자에게는 프로젝트, 포트폴리오 및 프로그램의 계획 영역과 주 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Planning 액세스 개요</a>를 참조하십시오. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -157,29 +157,29 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
    또는
 
-   테이블 테이블 보기에서 첫 번째 열의 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png)을(를) 클릭합니다.
+   테이블 테이블 보기에서 첫째 열의 테이블 이름 필드에 있는 **세부 정보 열기** 아이콘 ![세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다.
 
    레코드의 미리보기가 보기에서 열립니다.
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png)  
+    ![Details box](assets/details-box.png)  
 
     </div>-->
 
-1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
+1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
    레코드 페이지가 열립니다. 기본적으로 세부 정보 탭이 열립니다.
 
-   ![](assets/details-page.png)
+   ![세부 정보 페이지](assets/details-page.png)
 
-1. 레코드 미리 보기 또는 페이지의 **세부 정보** 탭에서 필드 왼쪽의 공백 위로 마우스를 가져간 다음 **섹션 추가** 아이콘 ![](assets/add-section-icon.png)을(를) 클릭하여 섹션을 추가합니다.
+1. 레코드 미리 보기 또는 페이지의 **세부 정보** 탭에서 필드 왼쪽의 공백 위로 마우스를 가져간 다음 **섹션 추가** 아이콘 ![섹션 추가 아이콘](assets/add-section-icon.png)을 클릭하여 섹션을 추가합니다.
 1. 섹션 이름 내부를 클릭하고 **제목 없는 섹션**&#x200B;을(를) 이름으로 바꾼 다음 Enter를 클릭합니다. 섹션 아래에 표시되는 필드는 자동으로 새 섹션의 일부입니다.
 1. 이 문서의 [레코드 미리 보기 또는 세부 정보 페이지에서 필드 다시 정렬](#rearrange-fields-in-the-record-preview-or-details-page) 섹션에 설명된 대로 필드를 새 섹션으로 끌어다 놓습니다.
 
-1. (선택 사항) 섹션 이름 위에 마우스를 놓고 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭합니다.
+1. (선택 사항) 섹션 이름 위에 마우스를 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다.
 
-   ![](assets/more-menu-options-for-section-on-record-page.png)
+   ![레코드 페이지의 섹션에 대한 추가 메뉴 옵션](assets/more-menu-options-for-section-on-record-page.png)
 1. (선택 사항) 다음 중 하나를 수행하여 섹션을 편집합니다.
 
    * 섹션 이름을 변경하려면 **이름 바꾸기**&#x200B;를 클릭하십시오.
@@ -200,19 +200,19 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 1. 섹션 이름의 왼쪽에 있는 아래쪽 방향 화살표를 클릭하여 축소하거나 오른쪽 방향 화살표를 클릭하여 확장합니다.
 기본적으로 모든 섹션이 확장되어 있습니다.
 
-1. (선택 사항) 섹션 이름의 왼쪽에 있는 **grab** 아이콘 ![](assets/grab-icon.png)을(를) 클릭한 다음 원하는 위치에 끌어다 놓습니다.
+1. (선택 사항) 섹션 이름의 왼쪽에 있는 **그랩** 아이콘 ![그랩 아이콘](assets/grab-icon.png)을 클릭한 다음 원하는 위치에 끌어다 놓습니다.
 
    새 섹션 위치는 레코드를 보는 모든 사용자에 대해 동일한 유형의 모든 레코드의 미리보기 및 페이지에서 모두 업데이트됩니다.
 
    섹션과 필드 순서에 대한 모든 변경 사항은 자동으로 저장됩니다.
 
-1. (선택 사항) **내보내기** 메뉴 ![](assets/export-icon-in-record-details-page.png)를 클릭하여 세부 사항 탭을 Word 또는 PDF 파일로 내보냅니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
+1. (선택 사항) **내보내기** 메뉴 ![레코드 세부 정보 페이지의 내보내기 아이콘](assets/export-icon-in-record-details-page.png)을 클릭하여 세부 정보 탭을 Word 또는 PDF 파일로 내보냅니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
 
 1. (선택 사항) **세부 정보** 탭 옆에 있는 **연결** 탭을 클릭합니다. **연결** 탭을 클릭하기 전에 **자세히**&#x200B;를 클릭해야 할 수 있습니다.
 
    선택한 레코드에 연결된 모든 레코드 또는 개체는 레코드 유형 또는 해당 레코드가 속한 응용 프로그램의 이름 아래에 표시됩니다.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Workfront Planning의 레코드에 있는 연결 탭](assets/connections-tab-on-record-in-workfront-planning.png)
 
 1. (선택 사항) [연결] 탭의 오른쪽 상단 모서리에서 **모든 레코드 표시** 설정을 선택합니다. 아직 연결된 레코드가 없는 레코드 종류를 포함하여 연결된 모든 레코드 종류가 표시됩니다. 기본적으로 토글이 선택 해제되고 연결된 레코드가 없는 레코드 유형이 숨겨집니다.
 
@@ -240,27 +240,27 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
    또는
 
-   테이블 테이블 보기에서 첫 번째 열의 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png)을(를) 클릭합니다.
+   테이블 테이블 보기에서 첫째 열의 테이블 이름 필드에 있는 **세부 정보 열기** 아이콘 ![세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다.
 
    레코드의 미리보기가 보기에서 열립니다.
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png) 
+    ![Details box](assets/details-box.png) 
 
     </div>-->
 
-1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
+1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 상자 열기](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
    레코드의 **세부 정보** 탭이 기본적으로 열립니다.
 
    <!--<div class="preview">
 
-   ![](assets/details-page.png)
+   ![Details page](assets/details-page.png)
 
    </div>-->
 
-1. 레코드 **세부 정보** 탭에서 필드 이름 왼쪽에 있는 **grab** 아이콘 ![](assets/grab-icon.png)을(를) 클릭한 다음 원하는 위치에 끌어다 놓습니다. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. 레코드 **세부 정보** 탭에서 필드 이름 왼쪽에 있는 **grab** 아이콘 ![Grab 아이콘](assets/grab-icon.png)을 클릭한 다음 원하는 위치에 끌어다 놓습니다. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    필드의 새 위치는 레코드를 보는 모든 사용자에 대해 동일한 유형의 모든 레코드의 미리보기 및 페이지에서 모두 업데이트됩니다.
 
@@ -268,40 +268,64 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
 ## 레코드의 페이지에 연결 보기 페이지 추가
 
+<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+
 레코드의 페이지에 연결 보기를 추가할 때는 다음 사항을 고려하십시오.
 
 * 레코드 페이지에 연결 보기 페이지를 추가할 수 있습니다.
 
 * 연결 보기 페이지를 레코드의 미리 보기 영역에 추가할 수 없습니다.
 
-* 연결 뷰 페이지에는 테이블 뷰에 연결된 레코드 페이지가 한 개 표시됩니다. 테이블 보기는 읽기 전용입니다.
+* 연결 뷰 페이지에는 테이블 뷰에 연결된 레코드 페이지가 한 개 표시됩니다. 테이블 보기는 읽기 전용입니다. <!--more views might be added in the future-->
 
 * 연결된 각 레코드 유형당 하나의 연결 보기 페이지를 추가할 수 있습니다.  <!--edit this when we can remove fields from this page-->
 
-* 연결 보기 페이지를 레코드의 페이지에 추가하면 해당 페이지는 레코드의 미리 보기 영역에서 볼 수 있습니다.
+* 연결 보기 페이지를 레코드의 페이지에 추가하면 해당 레코드의 미리 보기 영역에 페이지 탭이 표시됩니다. 연결된 레코드에 대한 테이블 보기를 보려면 전체 페이지로 이동해야 합니다. <!--this might have changed? check and take disclaimer out-->
 
 연결 보기 페이지를 추가하려면 다음 작업을 수행하십시오.
 
-1. 레코드 페이지 보기에서 레코드 이름을 클릭하여 연 다음 미리 보기 페이지의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을 클릭합니다.
+1. 레코드 페이지 보기에서 레코드 이름을 클릭하여 연 다음 미리 보기 페이지의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭합니다.
 1. **페이지 추가** > **연결 보기**&#x200B;를 클릭합니다.
 
-   ![](assets/add-connection-view-page-modal.png)
+   ![연결 보기 페이지 모달 추가](assets/add-connection-view-page-modal.png)
 1. **페이지 이름**&#x200B;을(를) 추가하고 **연결 보기**&#x200B;를 클릭한 다음 **만들기**&#x200B;를 클릭합니다.
 
    새 탭이 레코드의 페이지에 추가됩니다.
 1. 목록에서 연결된 레코드 또는 개체 유형의 이름을 검색하거나 클릭합니다.
 선택한 레코드 유형의 테이블 뷰가 표시되고 연결된 레코드가 테이블 뷰에 표시됩니다.
-테이블 보기는 읽기 전용입니다.
+연결된 레코드의 모든 필드는 연결된 레코드 탭의 테이블 보기에 표시됩니다.
 
-   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+   <!--<span class="preview">When you access Workfront Planning from the Preview environment, five fields from the connected record display in the connected record's table view by default. Some connection fields display in addition to other fields. All lookup fields are hidden.</span> (*****be more specific about which connected fields show, if Robert responds*******)-->
+
+   테이블 보기는 읽기 전용입니다.
+
+   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
+
+   ![캠페인 세부 정보 아래의 대상자 연결 테이블 보기](assets/audience-connected-table-view-under-campaign-details-page.png)
 1. (선택 사항) 탭 이름을 두 번 클릭합니다
 
    또는
 
-   탭 이름 위로 마우스를 가져간 다음 **자세히** ![](assets/more-menu.png)를 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭하여 새 연결된 보기 탭으로 이름을 바꿉니다.
-1. (선택 사항) 도구 모음의 모든 보기 요소를 사용하여 테이블 보기를 관리합니다. 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
-1. (선택 사항) 탭의 이름을 마우스로 가리킨 다음 **자세히** ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭하여 새 연결된 보기 탭을 제거합니다.
+   탭 이름을 마우스로 가리킨 다음 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭하여 새 연결된 보기 탭으로 이름을 바꿉니다.
+1. (선택 사항) 도구 모음에서 다음 보기 요소를 사용하여 테이블 보기를 관리합니다
 
+   * 필터
+   * 정렬
+   * 그룹화
+
+   <!--Add to the list above some of the capabilities in the note with a preview tag when they are available.-->
+
+   자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
+
+   >[!NOTE]
+   >
+   >   연결된 레코드 탭의 표 보기에서 다음 작업을 수행할 수 없습니다.
+   >
+   >   * 필드 숨기기
+   >   * 필드 만들기, 편집 또는 삭제
+   >   * 필드 다시 정렬
+   >
+1. (선택 사항) 탭의 이름을 마우스로 가리킨 다음 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭하여 새 연결된 보기 탭을 제거합니다.
 
 
 <!--
