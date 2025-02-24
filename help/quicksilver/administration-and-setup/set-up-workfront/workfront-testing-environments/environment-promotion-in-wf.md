@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
+source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
@@ -100,6 +100,7 @@ ht-degree: 2%
 | 액세스 수준(ACSLVL) | 액세스 수준 |
 | 등급 카드(RTCRD) | 요율 카드 |
 | 위치/분류자(CLSF) | 위치/분류자 |
+| 비즈니스 규칙(BSNRUL) | 비즈니스 규칙 |
 
 \* 현재 사용할 수 없음
 
