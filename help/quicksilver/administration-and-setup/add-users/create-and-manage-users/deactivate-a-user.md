@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,14 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->조직을 떠난 사용자를 삭제하는 것보다 비활성화하는 것이 좋습니다. 사용자가 삭제되면 해당 사용자와 연결된 Workfront의 모든 기록이 손실됩니다. 여기에는 작업 할당, 메모, 시간, 문서 및 한 번 만든 다른 모든 개체와의 연관성이 포함됩니다.
+>* 조직을 떠난 사용자를 삭제하는 것보다 비활성화하는 것이 좋습니다. 사용자가 삭제되면 해당 사용자와 연결된 Workfront의 모든 기록이 손실됩니다. 여기에는 작업 할당, 메모, 시간, 문서 및 한 번 만든 다른 모든 개체와의 연관성이 포함됩니다.
 >
->Workfront에서 사용자를 비활성화하면 Workfront과 디지털 증명 모두에 대한 사용자 라이선스가 제거됩니다. 또한 사용자에게 더 이상 작업을 할당할 수 없습니다. 사용자가 비활성화되면 다른 사용자가 해당 사용자의 Workfront 라이선스 및 증명 라이선스를 사용할 수 있습니다. 비활성화된 사용자 프로필의 다른 모든 정보는 변경되지 않습니다.
+>   Workfront에서 사용자를 비활성화하면 Workfront과 디지털 증명 모두에 대한 사용자 라이선스가 제거됩니다. 또한 사용자에게 더 이상 작업을 할당할 수 없습니다. 사용자가 비활성화되면 다른 사용자가 해당 사용자의 Workfront 라이선스 및 증명 라이선스를 사용할 수 있습니다. 비활성화된 사용자 프로필의 다른 모든 정보는 변경되지 않습니다.
 >
->삭제의 영향 및 사용자 비활성화의 영향에 대한 자세한 내용은 [사용자 삭제](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)를 참조하십시오.
+>   삭제의 영향 및 사용자 비활성화의 영향에 대한 자세한 내용은 [사용자 삭제](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)를 참조하십시오.
+>
+>* Workfront의 사용자를 비활성화해도 Adobe Admin Console의 Workfront 제품 프로필에서 사용자가 제거되지는 않습니다.
+
 
 ## 액세스 요구 사항
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
       <td> 
        <ul> 
         <li><p><b>이름</b></p></li>
-        <li><p><b>성</b></p></li> 
-        <li> <p><b>전자 메일 주소:</b> 사용자의 전자 메일 주소도 Workfront의 사용자 이름입니다. 이 필드는 대/소문자를 구분하므로 고유해야 합니다. 사용자가 10분 내에 고유하지 않은 이메일 주소를 3번 추가하려고 하면 reCAPTCHA 응답이 나타납니다.</p> <p> 계속하려면 <b>로봇이 아닙니다</b> 설정을 선택하십시오.</p><p>허용 목록에 추가하다 전자 메일 도메인을 사용하고 목록에 없는 전자 메일 도메인을 입력하면 사용자에게 전자 메일 알림이 전송되지 않습니다. 허용 목록에 추가하다허용 목록에 추가하다 에 대한 자세한 내용은 <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">전자 메일 구성</a>을 참조하십시오.</p> </li> 
+        <li><p><b>성</b></p><p><b>참고:</b></p><p>Workfront에서 사용자 이름을 편집해도 Adobe Admin Console에서 사용자 이름이 편집되지 않습니다.</p></li> 
+        <li> <p><b>전자 메일 주소:</b> 사용자의 전자 메일 주소도 Workfront의 사용자 이름입니다. 이 필드는 대/소문자를 구분하므로 고유해야 합니다. 사용자가 10분 내에 고유하지 않은 이메일 주소를 3번 추가하려고 하면 reCAPTCHA 응답이 나타납니다.</p> <p> 계속하려면 <b>로봇이 아닙니다</b> 설정을 선택하십시오.</p><p>허용 목록에 추가하다 전자 메일 도메인을 사용하고 목록에 없는 전자 메일 도메인을 입력하면 사용자에게 전자 메일 알림이 전송되지 않습니다. 허용 목록에 추가하다허용 목록에 추가하다 에 대한 자세한 내용은 <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">전자 메일 구성</a>을 참조하십시오.</p><p>조직이 Adobe Admin Console으로 마이그레이션된 경우 Workfront에서 사용자의 이메일 주소를 편집할 수 없습니다. 사용자의 이메일 주소는 Adobe Admin Console에서 설정됩니다. </li> 
         <li> <p><b>암호 재설정</b>: 사용자의 암호를 재설정하려면 이 링크를 클릭하십시오. 다른 사용자의 암호를 재설정하려면 먼저 자신의 암호를 입력해야 합니다.</p> <p>다른 사용자의 암호를 재설정하려면 Workfront 관리자 또는 그룹 관리자여야 합니다.</p> <p><b>참고</b>:  
           <ul> 
            <li> <p>그룹 관리자인 경우 관리자로 지정된 그룹의 사용자에 대해서만 암호를 재설정할 수 있습니다. 또한 액세스 수준에서 사용자 관리(그룹 사용자) 권한을 활성화해야 합니다.</p> <p> <img src="assets/group-admin-user.png" > </p> <p>이 설정은 기본적으로 비활성화되어 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하세요.</p> </li> 
