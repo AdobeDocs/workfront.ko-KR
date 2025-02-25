@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '200'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # 중요한 작업 항목의 우선 순위 지정
 
 내 포커스 열을 사용하여 작업의 우선 순위를 지정할 수 있습니다. 내 포커스 열은 개인 값이며 작업 또는 문제에 설정된 우선 순위에 영향을 주지 않습니다.
+
+우선 순위에는 사용자에게 할당된 작업 항목이 표시됩니다. 팀에 할당된 작업 항목을 볼 수 없습니다.
 
 ## 내 포커스 열을 사용하여 작업 우선 순위 지정
 

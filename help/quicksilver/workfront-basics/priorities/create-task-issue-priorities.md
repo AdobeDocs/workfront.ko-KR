@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '263'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 4%
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
    <td> 
    <p>현재: 요청의 경우 요청 이상, 문제의 경우 검토 이상, 작업의 경우 작업 이상</p>
-   <p>새로운 기능: 요청에 대한 기여자 이상, 문제에 대한 가볍게 이상 <!--and documents-->: 표준 이상 작업</p> 
+   <p>새로운 기능: 요청에 대한 기여자 이상, 문제 및 문서에 대한 가볍게 이상: 표준 이상 작업</p> 
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ ht-degree: 4%
 
 ## 우선 순위에서 작업 또는 문제 만들기
 
-프로젝트에서 작업 또는 문제를 만들 수 있습니다.
+프로젝트에서 작업 또는 문제를 만들 수 있습니다. 우선 순위에는 사용자에게 할당된 작업 항목이 표시됩니다. 우선 순위 작업 목록에서 팀에 할당된 작업 항목을 볼 수 없습니다.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ ht-degree: 4%
 
 1. 오른쪽 상단의 **새로 만들기**를 클릭합니다.
    ![](assets/create-new.png)
-&lt;!—prod ![](assets/create-new--.png)의 새 화면—>
+prod ![](assets/create-new--.png)의 새 화면
 1. 다음 정보를 지정합니다.
 
    | 필드 | 지침 |

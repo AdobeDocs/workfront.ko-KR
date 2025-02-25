@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 우선 순위에 시간 기록
 
 Adobe Workfront에서 작업 항목에 대한 시간을 기록하여 작업에 소비한 시간을 나타낼 수 있습니다. 기록한 시간이 타임시트에 표시됩니다.
+
+우선 순위에는 사용자에게 할당된 작업 항목이 표시됩니다. 팀에 할당된 작업 항목을 볼 수 없습니다.
 
 ## 액세스 요구 사항
 
@@ -44,7 +46,7 @@ Adobe Workfront에서 작업 항목에 대한 시간을 기록하여 작업에 �
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>Contribute 또는 시간을 기록하는 작업 항목에 대한 더 높은 권한에는 시간 기록 권한이 포함됩니다</p> </td> 
+   <td> <p>시간을 기록하는 작업 항목에 대한 기여 또는 더 높은 권한과 함께 시간 기록 권한 포함</p> </td> 
   </tr> 
  </tbody> 
 </table>

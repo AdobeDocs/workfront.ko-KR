@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 223e84eaccbfddb9a798af2528f4d33060bf60f2
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '642'
 ht-degree: 4%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 4%
 # 우선 순위를 사용하여 작업 필터링 및 그룹화
 
 필터를 사용하여 원하는 작업을 찾은 다음 그룹화를 적용하여 체계적으로 관리할 수 있습니다.
+
+우선 순위에는 사용자에게 할당된 작업 항목이 표시됩니다. 우선 순위 작업 목록에서 팀에 할당된 작업 항목을 볼 수 없습니다.
 
 ## 액세스 요구 사항
 
@@ -129,7 +131,7 @@ ht-degree: 4%
 
 ## 스마트 필터를 사용하여 작업 필터링
 
-자연어를 사용하여 작업을 빠르게 필터링합니다. Workfront 인스턴스는 새로운 Workfront 플랜에 있어야 하며 Adobe 통합 경험에서 활성화되어야 합니다. 자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
+자연어를 사용하여 작업을 빠르게 필터링합니다. Workfront 인스턴스는 새로운 Workfront 플랜에 있어야 하며 Adobe 통합 경험에서 활성화되어야 합니다. 자세한 내용은 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하십시오.
 
 {{step1-to-priorities}}
 

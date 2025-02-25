@@ -5,17 +5,19 @@ description: 우선 순위의 작업 또는 문제에서 자주 방문하는 링
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
-
 # 우선 순위에 빠른 링크 추가 및 관리
 
 작업 또는 문제에서 자주 방문하는 링크를 저장하고 우선 순위의 개요 탭에서 액세스할 수 있습니다.
+
+우선 순위에는 사용자에게 할당된 작업 항목이 표시됩니다. 팀에 할당된 작업 항목을 볼 수 없습니다.
 
 ## 액세스 요구 사항
 

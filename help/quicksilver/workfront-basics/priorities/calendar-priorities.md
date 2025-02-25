@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '537'
 ht-degree: 4%
 
 ---
@@ -65,6 +65,8 @@ ht-degree: 4%
 +++
 
 ## 캘린더에서 내 작업 보기
+
+우선 순위에는 사용자에게 할당된 작업 항목이 표시됩니다. 우선 순위 달력에서 팀에 할당된 작업 항목을 볼 수 없습니다.
 
 {{step1-to-priorities}}
 

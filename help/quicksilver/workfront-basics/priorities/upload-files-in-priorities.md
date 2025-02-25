@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 우선 순위로 파일 업로드
 
 우선순위 작업 목록 또는 개별 작업 항목에서 파일을 업로드할 수 있습니다. 우선 순위에서 업로드한 파일은 작업 항목의 문서 탭에 나타납니다.
+
+우선 순위에는 사용자에게 할당된 작업 항목이 표시됩니다. 팀에 할당된 작업 항목을 볼 수 없습니다.
 
 ## 액세스 요구 사항
 
@@ -57,7 +59,7 @@ ht-degree: 0%
 1. (선택 사항) 폴더를 선택합니다.
 1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
 또는
-파일을 찾아보거나 Document Cloud 공급자로부터 파일을 가져오려면 **파일 추가**를 클릭하십시오.
+**파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
    ![](assets/add-files.png)
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.
@@ -78,7 +80,7 @@ ht-degree: 0%
 1. (선택 사항) 폴더를 선택합니다.
 1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
 또는
-파일을 찾아보거나 Document Cloud 공급자로부터 파일을 가져오려면 **파일 추가**를 클릭하십시오.
+**파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
    ![](assets/add-files.png)
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.

@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 3%
+source-wordcount: '1019'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,8 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 * 일별 작업 관리 및 우선 순위 지정: 보다 명확성을 위해 통합 탐색으로 하루 또는 주별 구성
 * 생산성 향상: 클릭 수를 줄여 프로젝트 컨텍스트에 액세스하고 작업을 보다 신속하게 수행할 수 있습니다.
 * 맞춤형 기능: 작업 소유자를 위해 고유하게 설계된 기능의 이점
+
+우선 순위 작업 목록 및 달력에는 사용자에게 할당된 작업 항목이 표시됩니다. 팀에 할당된 작업 항목을 볼 수 없습니다.
 
 ## 작업 찾기 및 구성
 
