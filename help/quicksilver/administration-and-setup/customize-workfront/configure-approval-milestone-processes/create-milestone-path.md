@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 3%
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 있는 마일스톤 경로를 만들 수 있습니다. 이 영역의 마일스톤 경로에 대한 변경 사항은 전체 Workfront 시스템에 영향을 줍니다.
 
@@ -116,3 +120,38 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
    마일스톤 경로를 프로젝트와 연결할 준비가 되었습니다.
 
    마일스톤 경로를 프로젝트에 연결하고 마일스톤을 작업에 연결하는 방법에 대한 자세한 내용은 [마일스톤과 작업 연결](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)을 참조하세요.
+
+
+## 보고서에서 마일스톤 경로 세부 정보 보기
+
+프로젝트 보고서에서 마일스톤 경로의 세부 사항을 볼 수 있습니다.
+
+마일스톤 경로를 프로젝트와 연결해야 프로젝트 보고서에서 해당 세부 사항을 볼 수 있습니다.
+
+마일스톤 경로를 프로젝트에 연결하는 방법에 대한 자세한 내용은 [프로젝트 편집](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
+
+{{step1-to-reports}}
+
+1. **새 보고서**&#x200B;를 클릭한 다음 **프로젝트**&#x200B;를 클릭합니다.
+1. **열 추가**&#x200B;를 클릭합니다.
+1. **이 열에 표시** 영역에서 **마일스톤 경로**&#x200B;를 입력한 다음 표시될 때 **마일스톤 경로 이름**&#x200B;을 클릭하세요.
+1. (선택 사항) **필터**&#x200B;를 클릭하고 보고서에 다음 필터를 추가합니다. **프로젝트 마일스톤 경로 ID가 비어 있지 않습니다**.
+
+   필터는 보고서에 마일스톤 경로와 연결된 프로젝트만 표시하도록 합니다.
+
+1. **저장 및 닫기**&#x200B;를 클릭합니다.
+1. 보고서 이름을 추가한 다음 **적용**&#x200B;을 클릭합니다.
+
+   프로젝트 보고서가 표시됩니다. 각 프로젝트와 연결된 마일스톤 경로가 보고서의 마지막 열에 표시됩니다.
+1. 보고서의 마지막 열에서 마일스톤 경로 이름을 클릭합니다.
+
+   마일스톤 경로의 세부 정보가 표시됩니다. 각 이정표에 대한 세부 정보도 표시됩니다.
+
+   ![프로젝트 보고서의 마일스톤 경로 세부 정보](assets/milestone-details-from-project-report.png)
+
+   <!--replace screen shot above with unshimming and mark it for Preview-->
+
+1. (선택 사항) 프로젝트 보고서로 돌아가려면 **뒤로**&#x200B;를 클릭합니다.
+
+
+

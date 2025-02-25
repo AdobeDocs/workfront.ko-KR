@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: 마일스톤 보기 사용
-description: 마일스톤 보기를 프로젝트 목록 또는 보고서에 적용할 수 있습니다.
+description: 마일스톤 보기를 프로젝트 목록 또는 보고서에 적용할 수 있습니다. 마일스톤 보기를 사용하여 보고 있는 프로젝트 내에서 작업과 관련된 모든 마일스톤을 볼 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,15 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-마일스톤 보기를 프로젝트 목록 또는 보고서에 적용할 수 있습니다.
+마일스톤 보기를 프로젝트 목록 또는 보고서에 적용할 수 있습니다. 마일스톤 보기를 사용하여 보고 있는 프로젝트 내에서 작업과 관련된 모든 마일스톤을 볼 수 있습니다.
 
-마일스톤 보기를 사용하려면 [마일스톤 경로 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) 및 [마일스톤과 작업 연결](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)에 설명된 대로 마일스톤을 구성하고 마일스톤 경로를 프로젝트에 추가하고 마일스톤을 작업에 연결해야 합니다.
+마일스톤 보기를 사용하려면 다음 요소가 있어야 합니다.
 
-마일스톤 보기는 프로젝트 목록 또는 프로젝트 보고서를 볼 때 사용할 수 있습니다. 다음 섹션에서는 마일스톤 보기를 보고 사용하는 방법에 대해 설명합니다.
+* 마일스톤 경로가 구성됩니다. 자세한 내용은 [마일스톤 경로 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)를 참조하세요.
+* 마일스톤 경로를 프로젝트에 추가해야 합니다. 자세한 내용은 [프로젝트 편집](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
+* 이정표는 작업과 연결됩니다. 자세한 내용은 [작업과 마일스톤 연결](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)을 참조하세요.
+
+마일스톤 보기는 프로젝트 목록이나 프로젝트 보고서를 볼 때 사용할 수 있습니다. 다음 섹션에서는 마일스톤 보기를 보고 사용하는 방법에 대해 설명합니다.
 
 ## 액세스 요구 사항
 
