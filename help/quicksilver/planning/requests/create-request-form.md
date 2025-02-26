@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1538'
 ht-degree: 2%
 
 ---
@@ -115,6 +115,49 @@ ht-degree: 2%
 
 +++
 
+## 요청 양식의 필드 및 값 표시 제한
+
+<!--
+
+There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+
+For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+
+* 다음 유형의 필드를 요청 양식에 추가할 수 없습니다.
+
+   * 작성자 및 마지막 수정자
+   * 생성 날짜 및 마지막 수정 날짜
+   * 공식. 공식 필드는 미리보기 환경에서 지원됩니다.
+   * Workfront 개체의 조회 필드
+   * Workfront Planning 연결된 레코드의 조회 필드
+
+<!--at release to Preview, replace the above with this:  
+>
+>Fields of the following types do not display in the request form:
+>* Created by and Last modified by
+>* Created date and Last modified date
+>* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
+>* Workfront objects' lookup fields
+>* Workfront Planning connected records' lookup fields-->
+
+* 요청 양식 빌더에 필드 형식이 표시되는 방식과 레코드 또는 요청 세부 정보 페이지에서 값의 형식이 지정되는 방식의 차이점:
+
+   * 통화, 숫자 및 백분율 필드는 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
+
+     그러나 필드 형식은 유지되고 이러한 필드의 숫자 값은 레코드 유형 및 요청 세부 정보 페이지에서 통화, 숫자 및 백분율 값으로 표시됩니다.
+
+<!--
+* The following describes how some field values display on request forms and the request details pages: 
+
+   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
+   * People field values display as IDs.
+   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
+   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
+   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+-->
+
 ## 레코드 유형에 대한 요청 양식 만들기
 
 {{step1-to-planning}}
@@ -140,34 +183,6 @@ ht-degree: 2%
    요청 양식에는 기본적으로 다음 정보가 포함되어 있습니다.
 
    * 선택한 레코드 유형의 표 보기에서 사용할 수 있는 레코드 필드입니다. <!--they are working on removing the limitation below-->
-
-   <!-- when we go to prod, the Preview batch below will become the only batch-->
-
-   >[!IMPORTANT]
-   >
-   >다음 유형의 필드가 요청 양식에 표시되지 않습니다.
-   >
-   >* 작성자 및 마지막 수정자
-   >* 생성 날짜 및 마지막 수정 날짜
-   >* 공식
-   >* Workfront 개체의 조회 필드
-   >* Workfront Planning 연결된 레코드의 조회 필드
-   >
-
-   <!--before release to prod: 
-    > Depending on what environment you use to create a request form, the following scenarios exist:
-   >
-   >* Fields of the following types do not display in the request form in the Production environment: 
-   >
-   >    * Created by and Last modified by
-   >    * Created date and Last modified date
-   >    * Formula
-   >    * People 
-   >    * Workfront connected fields
-   >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected fields
-   >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connection fields-->
 
    * **기본 섹션**: Workfront이 요청 양식에 적용하는 기본 섹션 구분입니다. 모든 레코드 필드가 **기본 섹션** 영역에 표시됩니다.
    * **제목** 필드: Workfront에서 요청을 식별하는 필드입니다. 제목 필드의 구성 및 값을 편집할 수 없습니다.
@@ -196,12 +211,10 @@ ht-degree: 2%
    * **필수 필드 만들기**: 선택한 경우 필드에 값이 있어야 합니다. 그렇지 않으면 양식을 제출할 수 없습니다.
    * **논리 추가**: 필드가 표시되거나 숨겨지기 위해 충족되어야 하는 조건을 정의합니다.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >   각 필드의 필드 유형은 양식에서 필드를 선택한 후 오른쪽 패널 상단에 표시됩니다.
-   >   
-   >
-   >   통화, 숫자 및 백분율 필드는 한 줄 텍스트 필드 유형으로 표시됩니다. 그러나 필드 형식은 유지되고 이러한 필드 내의 값은 통화, 숫자 및 백분율 값으로 표시됩니다.
+   >     
 
 1. (선택 사항) 양식 왼쪽에 있는 **콘텐츠 요소** 탭을 클릭하고 다음 요소를 추가합니다.
 
