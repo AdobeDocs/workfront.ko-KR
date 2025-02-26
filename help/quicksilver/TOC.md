@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 34fe190983a165a69f9dfbb49f619e84f6216fa8
+source-git-commit: 78538764a5a4551877a7175df83488f74ae1ce3a
 workflow-type: tm+mt
-source-wordcount: '13007'
+source-wordcount: '13010'
 ht-degree: 2%
 
 ---
@@ -1079,6 +1079,7 @@ ht-degree: 2%
       * [문서 영역](documents/managing-documents/documents-area.md)
       * [문서 세부 정보 개요](documents/managing-documents/document-details-overview.md)
       * [문서에 대한 요약 개요](documents/managing-documents/summary-for-documents.md)
+      * [Workfront AI 검토자](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [문서 미리보기](documents/managing-documents/preview-documents.md)
       * [문서 승인 및 증명](documents/managing-documents/document-approvals-and-proofing.md)
       * [문서에 업데이트 추가](documents/managing-documents/add-update-documents.md)
@@ -1487,12 +1488,10 @@ ht-degree: 2%
       * 캔버스 대시보드 보고서 유형 {#report-types}
          * [캔버스 대시보드 보고서 유형 개요](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [캔버스 대시보드에 기존 보고서 추가](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-<!--
-         * [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-         * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-         * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-         * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
--->
+        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
    * 보고서 {#reports}
       * [보고서](reports-and-dashboards/reports/reports-overview.md)
       * 보고 기본 사항 {#report-basics}
