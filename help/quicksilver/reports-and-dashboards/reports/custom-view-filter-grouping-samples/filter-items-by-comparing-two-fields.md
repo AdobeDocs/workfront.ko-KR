@@ -7,7 +7,7 @@ description: 두 필드를 비교하여 목록에서 항목을 필터링할 수 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: 4532e08bddf993426e9d4eed6f7f8bd638663188
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -74,6 +74,9 @@ ht-degree: 0%
 1. **텍스트 모드**&#x200B;를 클릭합니다.
 1. 표시된 영역에 다음 코드를 추가합니다.
 
-   `actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt`
+   ```
+   actualCompletionDate=FIELD:plannedCompletionDate
+   actualCompletionDate_Mod=gt
+   ```
 
 1. **적용** > **새 이름으로 저장**&#x200B;을 클릭합니다.

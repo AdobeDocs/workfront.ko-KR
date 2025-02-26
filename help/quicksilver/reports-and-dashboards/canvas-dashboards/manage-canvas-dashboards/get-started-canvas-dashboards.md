@@ -6,9 +6,9 @@ description: 캔버스 대시보드 목록으로 이동하는 방법뿐만 아�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 ## 전제 조건
 
-* Canvas 대시보드를 만들려면 플랜 라이선스(현재 라이선스) 또는 Standard 라이선스(새 라이선스)가 있어야 합니다.\
-  Workfront 라이선스 유형에 대한 자세한 내용은 현재 라이선스의 경우 [라이선스 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)를, 새 라이선스의 경우 [새 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)를 참조하십시오.
+* 조직이 Canvas Dashboards Closed Beta의 일부여야 합니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
 
-* Canvas 대시보드를 만들거나 편집하려면 Workfront 관리자가 액세스 수준에서 대시보드 편집에 대한 액세스 권한을 부여해야 합니다.\
-  대시보드에 대한 편집 액세스 권한 부여에 대한 자세한 내용은 [보고서, 대시보드 및 일정에 대한 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)를 참조하십시오.
+* Canvas 대시보드를 만들려면 플랜 라이선스(현재 라이선스) 또는 Standard 라이선스(새 라이선스)가 있어야 합니다. Workfront 라이선스 유형에 대한 자세한 내용은 [라이선스 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 또는 [새 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)를 참조하십시오.
+
+* Workfront 대시보드를 만들거나 편집하려면 Canvas 관리자가 액세스 수준의 대시보드에 대한 편집 액세스 권한을 부여해야 합니다. 편집 액세스 권한 부여에 대한 자세한 내용은 [보고서, 대시보드 및 일정에 대한 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)를 참조하십시오.
 
 ## 캔버스 대시보드로 이동
 

@@ -6,9 +6,9 @@ description: 오브젝트에 있는 날짜의 시간대별로 보고서를 필�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1027'
 ht-degree: 5%
 
 ---
@@ -129,11 +129,11 @@ ht-degree: 5%
 
 ## 기본 제공 시간대 수정자 {#built-in-time-frame-modifiers}
 
-Adobe Workfront에는 특정 날짜를 정의하지 않고 사용할 수 있는 시간대 수정자가 내장되어 있습니다. 
+Adobe Workfront에는 특정 날짜를 정의하지 않고 사용할 수 있는 시간대 수정자가 내장되어 있습니다.
 
-이러한 수정자는 보고서의 필터 또는 프롬프트에 있는 날짜 필드에 사용할 수 있습니다. 
+이러한 수정자는 보고서의 필터 또는 프롬프트에 있는 날짜 필드에 사용할 수 있습니다.
 
-날짜와 연결된 시간대별로 보고서를 필터링하는 방법에 대한 자세한 내용은  [날짜를 기준으로 보고서를 필터링합니다](#filter-a-report-by-the-time-frame-of-a-date).
+날짜와 연계된 시간대별로 보고서를 필터링하는 방법에 대한 자세한 내용은 위의 [날짜의 시간대별로 보고서 필터링](#filter-a-report-by-the-time-frame-of-a-date)을 참조하십시오.
 
 예를 들어, 시간 보고서를 작성하고 특정 시간대에 입력한 시간을 표시하려는 경우 다음의 기본 제공 시간대 필터 옵션 중에서 선택할 수 있습니다.
 

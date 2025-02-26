@@ -6,9 +6,9 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1007'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 자세한 내용은 [프로젝트에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)를 참조하십시오.
 
-사용자에게 부여된 액세스 수준과 함께 공유할 액세스 권한이 있는 특정 프로젝트를 보기, Contribute 또는 관리할 수 있는 권한을 부여할 수도 있습니다.
+사용자에게 부여된 액세스 수준과 함께 공유할 액세스 권한이 있는 특정 프로젝트를 보거나, 기여하거나, 관리할 수 있는 권한을 부여할 수도 있습니다.
 
 권한은 Workfront의 한 항목에 한정되며, 해당 항목에 대해 수행할 수 있는 작업을 정의합니다.
 
@@ -104,9 +104,9 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 
 ## 다양한 라이선스 유형에 대한 제한 사항
 
-* 작업자 라이선스가 있는 사용자는 프로젝트를 관리할 수 있는 권한이 없습니다. 작업자의 경우 가장 높은 공유 권한은 Contribute입니다.
-* 요청 라이선스가 있는 사용자는 프로젝트 정보를 볼 수 있지만 프로젝트 액세스 권한은 제한됩니다.
-* 보기 또는 Contribute 권한이 있는 사용자도 승인 프로세스에 포함된 경우 프로젝트 상태 변경에 대한 예외가 발생합니다. 프로젝트를 승인하여 프로젝트의 상태를 변경할 수 있지만 상태는 승인 또는 거절에 대해 사전 정의된 상태입니다.
+* Light 라이선스가 있고 그 이하(또는 이전 라이선스 모델의 경우 작업 라이선스와 그 이하)의 사용자에게는 프로젝트 관리 권한이 없습니다. 이러한 사용자의 경우 가장 높은 공유 권한은 Contribute입니다.
+* 기여자 라이선스(또는 이전 라이선스 모델에 대한 요청 라이선스)가 있는 사용자는 프로젝트 정보를 볼 수 있지만 프로젝트 액세스 권한은 제한됩니다.
+* 보기 또는 기여 권한이 있는 사용자도 승인 프로세스에 포함된 경우 프로젝트 상태 변경의 예외가 발생합니다. 프로젝트를 승인하여 프로젝트의 상태를 변경할 수 있지만 상태는 승인 또는 거절에 대해 사전 정의된 상태입니다.
 * 프로젝트를 복사할 수 있으려면 사용자는 액세스 수준에서도 프로젝트를 만들 수 있는 액세스 권한이 있어야 합니다.
 
 <!--
@@ -144,206 +144,206 @@ The
   <tr> 
    <th> <p><strong>작업</strong> </p> </th> 
    <th> <p><strong>관리</strong> </p> </th> 
-   <th> <p><strong>Contribute</strong> </p> </th> 
+   <th> <p><strong>참여</strong> </p> </th> 
    <th> <p><strong>보기</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>사용자 정의 양식 추가</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>사용자 정의 필드 업데이트</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>승인 프로세스 추가</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>프로젝트 승인</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>시간 승인</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신 </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓ </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>프로젝트 만들기</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>문서 추가</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>문제 추가</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>작업 추가</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>프로젝트 복사</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>프로젝트 삭제</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>계획된 일자 수정</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>프로젝트 공유</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>시스템 전체 공유</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>프로젝트 보기</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>업데이트/주석</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>상태 변경</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>시간 기록</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>할당 편집</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>기준선 관리</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>위험 관리*</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>재무 관리*</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>경비 추가/편집*</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>재무 보기*</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>템플릿 첨부</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>템플릿으로 저장</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>비즈니스 사례 추가/편집</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>프로젝트 세부 정보 편집</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>직원 편집</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>MS 프로젝트로 내보내기</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td> <p>재무/타임라인 다시 계산*</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>대기열 속성 설정</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>목록에서 프로젝트를 일괄적으로 편집</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 

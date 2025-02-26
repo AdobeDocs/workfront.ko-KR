@@ -7,7 +7,7 @@ description: 액세스 권한이 있는 보고서의 복사본을 만들 수 있
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -102,12 +102,12 @@ ht-degree: 0%
 
 ## 보고서의 새 버전 만들기 {#create-a-new-version-of-a-report}
 
-기본 보고서의 복사본을 만들려면 다음 작업을 수행하십시오.
+기본 제공 보고서의 복사본을 만들려면 다음 작업을 수행하십시오.
 
 1. Adobe Workfront 오른쪽 위 모서리에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
 
 1. **보고서**&#x200B;를 클릭한 다음 **모든 보고서**&#x200B;를 클릭합니다.
-1. 기본 보고서 이름을 클릭하여 엽니다.
+1. 기본 제공 보고서의 이름을 클릭하여 엽니다.
 1. **보고서 동작**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
    ![보고서 편집](assets/unshimmed-report-actions-default-report.png)

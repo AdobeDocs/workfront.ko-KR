@@ -6,9 +6,9 @@ description: Adobe Workfront에는 사용할 준비가 된 광범위한 기본 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '2970'
+source-wordcount: '2986'
 ht-degree: 10%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 10%
 
 Adobe Workfront에는 사용할 수 있는 광범위한 기본 제공 보고서 목록이 있습니다.
 
-Workfront 관리자는 사용자가 액세스할 수 없도록 기본 제공 보고서를 숨길 수 있습니다.
-
-기본 제공 보고서를 숨기는 방법에 대한 자세한 내용은 [기본 제공 보고서 숨기기](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)를 참조하십시오.
+Workfront 관리자는 사용자가 액세스할 수 없도록 기본 제공 보고서를 숨길 수 있습니다. 기본 제공 보고서를 숨기는 방법에 대한 자세한 내용은 [기본 제공 보고서 숨기기](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -67,7 +65,7 @@ Workfront 관리자는 사용자가 액세스할 수 없도록 기본 제공 보
 
 ## 기본 제공 보고서 개요 {#overview-of-built-in-reports}
 
-기본 제공 보고서를 사용자 지정하고 새 보고서로 저장할 수 있습니다. 기본 제공 보고서 사용자 지정에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
+기본 제공 보고서의 복사본을 만들고 새 보고서로 저장할 수 있습니다. 기본 제공 보고서의 복사본을 만드는 방법에 대한 자세한 내용은 문서 [보고서 복사본 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)에서 [보고서의 새 버전 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)를 참조하십시오.
 
 다음 보고서는 Workfront 패키지와 함께 제공됩니다. 보고서는 액세스 수준에 기본 제공 보고서에 대해 적어도 보기 권한이 있는 모든 사용자가 사용할 수 있습니다.
 
