@@ -6,14 +6,16 @@ description: 프로젝트에 대한 링크를 추가하거나 삭제하여 기�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8f4d8e460ed9247ca5d89c9a711ecb1ec5ed1e9
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # 기존 캘린더 보고서 편집
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 프로젝트에 대한 링크를 추가하거나 삭제하여 기존 달력을 수정할 수 있습니다. 달력 보고서와 연관된 달력 그룹화를 수정할 수도 있습니다.
 
@@ -58,7 +60,7 @@ ht-degree: 0%
 
 +++
 
-## 기존 캘린더 보고서 편집
+## 프로덕션에서 기존 캘린더 보고서 편집
 
 {{step1-to-calendars}}
 
@@ -87,3 +89,34 @@ ht-degree: 0%
       * [일정 보고서에서 [!UICONTROL 계획된 일자] 사용](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
       * [일정 보고서에서 [!UICONTROL 예상 일자] 사용](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [달력 보고서에서 사용자 정의 날짜 필드 사용](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+<div class="preview">
+
+## 미리보기에서 기존 캘린더 보고서 편집
+
+{{step1-to-calendars}}
+
+1. (선택 사항) 일정 보고서의 이름을 변경하려면 **자세히** 메뉴를 클릭하고 **편집**을 선택합니다.
+   ![추가 메뉴](assets/new-more-menu-calendar.png)
+다른 사용자 또는 팀과 캘린더 보고서를 공유한 경우, 수정된 캘린더 이름은 캘린더 보기에서 자동으로 업데이트됩니다.
+
+1. (선택 사항) 달력 보고서에 프로젝트를 추가하려면 다음을 수행합니다.
+   1. **[!UICONTROL 일정에 추가].**&#x200B;를 클릭합니다.
+   1. 달력 이벤트를 추가할 프로젝트의 이름을 입력한 다음 드롭다운 목록에 표시될 때 해당 이름을 클릭합니다.
+   1. **추가**를 클릭합니다.
+      ![캘린더에 프로젝트 추가](assets/add-a-calendar-project.png)
+
+
+1. (선택 사항) 달력 그룹화를 추가하거나 기존 달력 그룹화를 수정하려면
+   1. 프로젝트 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **편집**을 클릭합니다.
+      ![일정에서 프로젝트 편집](assets/edit-project-in-calendar.png)e
+
+   1. 항목을 그룹화할 방법 선택:
+
+      * [일정 보고서에서 [!UICONTROL 계획된 일자] 사용](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [일정 보고서에서 [!UICONTROL 예상 일자] 사용](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+      * [달력 보고서에서 사용자 정의 날짜 필드 사용](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+      </div>

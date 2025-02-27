@@ -6,14 +6,16 @@ description: 자신이 소유하거나 다른 사람이 나와 공유한 캘린�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
 # 캘린더 보고서 삭제
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 자신이 소유하거나 다른 사람이 나와 공유한 캘린더를 삭제할 수 있습니다. 캘린더를 삭제하면 캘린더를 공유한 사용자가 캘린더에 액세스할 수 없게 됩니다.
 
@@ -56,8 +58,21 @@ ht-degree: 0%
 
 +++
 
-## 캘린더 보고서 삭제
+## 프로덕션에서 캘린더 보고서 삭제
 
 1. 삭제할 달력으로 이동합니다.
 1. **[!UICONTROL 일정]** 도구 모음에서 **[!UICONTROL 일정 작업]**&#x200B;을 클릭한 다음, 드롭다운 목록에서 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 1. **[!UICONTROL 예, 삭제]**&#x200B;를 클릭합니다.
+
+<div class="preview">
+
+## 미리 보기에서 캘린더 보고서 삭제
+
+1. 삭제할 달력으로 이동합니다.
+1. 달력 드롭다운 메뉴 옆에 있는 **자세히** 메뉴를 클릭합니다.
+   ![일정 추가 메뉴](assets/more-menu-calendar.png)
+
+1. 드롭다운 목록에서 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
+
+</div>
