@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '3082'
+source-wordcount: '3249'
 ht-degree: 1%
 
 ---
@@ -155,8 +155,9 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드를 연결할 수 있습니다.
 
 * 테이블 보기의 연결된 레코드 필드입니다.
-* 세부 정보 탭의 연결된 레코드 필드에 있는 레코드의 미리 보기 또는 페이지입니다.
-* 연결 탭의 레코드 미리 보기 또는 페이지입니다.
+* 세부 정보 탭의 연결된 레코드 필드에 있는 레코드의 미리 보기 상자 또는 페이지입니다.
+* 연결 탭의 레코드 미리 보기 상자 또는 페이지입니다.
+* <span class="preview">연결 보기 탭의 레코드 페이지입니다.</span> <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### 표 보기 또는 레코드의 세부 정보 영역에서 Workfront Planning 레코드 연결
 
@@ -462,3 +463,25 @@ Workfront 객체에서 Workfront Planning 레코드를 연결하려면 다음이
 * Workfront 또는 그룹 관리자는 레이아웃 템플릿의 Workfront 프로젝트, 포트폴리오 및 프로그램에 계획 섹션을 추가해야 합니다.
 
 자세한 내용은 [Adobe Workfront 개체의 계획 섹션에서 레코드 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
+
+<div class="preview">
+
+## 레코드의 세부 정보 페이지에 있는 연결 보기 탭에서 레코드 연결
+
+<!--section needs title edit when they rename the "Connection view" page type-->
+
+1. 다른 Planning 레코드 유형 또는 다른 응용 프로그램의 객체 유형에 연결된 레코드 유형의 모든 뷰로 이동합니다.
+1. 이전 하위 섹션에 설명된 단계에 따라 다른 레코드나 오브젝트와 연결할 레코드를 뷰에서 찾습니다.
+1. 레코드 이름을 클릭합니다.
+
+   미리보기 페이지가 열립니다.
+1. **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭하여 레코드 페이지를 엽니다.
+1. 레코드의 미리 보기 또는 페이지에서 기존 연결 보기 탭을 클릭합니다. 먼저 연결 보기 페이지를 만들어야 합니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
+
+   연결된 레코드 유형 페이지가 테이블 뷰에 표시됩니다.
+1. 레코드를 추가하거나 제거하려면 **연결**&#x200B;을 클릭하세요.
+
+   ![연결된 레코드 세부 정보 탭에서 강조 표시된 연결 단추](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+1. (선택 사항) 연결된 레코드를 찾을 수 없는 경우 **+ 추가**&#x200B;를 클릭하여 레코드를 만들고 연결합니다.
+
+</div>

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '779'
 ht-degree: 3%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 3%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 있는 마일스톤 경로를 만들 수 있습니다. 이 영역의 마일스톤 경로에 대한 변경 사항은 전체 Workfront 시스템에 영향을 줍니다.
 
@@ -145,11 +145,19 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
    프로젝트 보고서가 표시됩니다. 각 프로젝트와 연결된 마일스톤 경로가 보고서의 마지막 열에 표시됩니다.
 1. 보고서의 마지막 열에서 마일스톤 경로 이름을 클릭합니다.
 
-   마일스톤 경로의 세부 정보가 표시됩니다. 각 이정표에 대한 세부 정보도 표시됩니다.
+   마일스톤 경로의 세부 정보가 표시됩니다.
+
+   <div class="preview">
 
    ![프로젝트 보고서의 마일스톤 경로 세부 정보](assets/milestone-details-from-project-report.png)
 
-   <!--replace screen shot above with unshimming and mark it for Preview-->
+   마일스톤 경로 세부 정보 페이지에는 다음 정보가 표시됩니다.
+
+   * 마일스톤 경로 이름, ID 및 설명
+   * 마일스톤 경로 그룹
+   * 이정표 이름, 설명, 색상 및 색상 아이콘
+
+   </div>
 
 1. (선택 사항) 프로젝트 보고서로 돌아가려면 **뒤로**&#x200B;를 클릭합니다.
 

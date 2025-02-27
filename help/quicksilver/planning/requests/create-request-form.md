@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 2%
+source-wordcount: '1868'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 2%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -117,46 +116,37 @@ ht-degree: 2%
 
 ## 요청 양식의 필드 및 값 표시 제한
 
-<!--
+요청을 제출한 후 특정 필드가 요청 양식에 표시되는 방식과 해당 값이 나중에 레코드 또는 요청 세부 정보 페이지에 표시되는 방식에는 제한이 있습니다.
 
-There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
-For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+* 다음은 특정 필드가 요청 양식, 요청 양식에서 만든 레코드 또는 요청 세부 정보 페이지에 표시되는 방식에 대한 제한 사항입니다.
 
-The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+   * 다음 유형의 필드를 요청 양식에 추가할 수 없습니다.
 
-* 다음 유형의 필드를 요청 양식에 추가할 수 없습니다.
+      * 작성자 및 마지막 수정자
+      * 생성 날짜 및 마지막 수정 날짜
+      * 공식. <span class="preview">수식 필드가 미리 보기 환경에서 지원됩니다.</span>
+      * Workfront 개체의 조회 필드
+      * Workfront Planning 연결된 레코드의 조회 필드
 
-   * 작성자 및 마지막 수정자
-   * 생성 날짜 및 마지막 수정 날짜
-   * 공식. 공식 필드는 미리보기 환경에서 지원됩니다.
-   * Workfront 개체의 조회 필드
-   * Workfront Planning 연결된 레코드의 조회 필드
-
-<!--at release to Preview, replace the above with this:  
->
->Fields of the following types do not display in the request form:
->* Created by and Last modified by
->* Created date and Last modified date
->* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
->* Workfront objects' lookup fields
->* Workfront Planning connected records' lookup fields-->
-
-* 요청 양식 빌더에 필드 형식이 표시되는 방식과 레코드 또는 요청 세부 정보 페이지에서 값의 형식이 지정되는 방식의 차이점:
+* 다음은 요청 양식 빌더에 필드 형식이 표시되는 방식과 레코드 또는 요청 세부 정보 페이지에서 필드 값의 형식이 지정되는 방식의 차이점입니다.
 
    * 통화, 숫자 및 백분율 필드는 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 
      그러나 필드 형식은 유지되고 이러한 필드의 숫자 값은 레코드 유형 및 요청 세부 정보 페이지에서 통화, 숫자 및 백분율 값으로 표시됩니다.
 
-<!--
-* The following describes how some field values display on request forms and the request details pages: 
+<div class="preview">
 
-   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
-   * People field values display as IDs.
-   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
-   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
-   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
--->
+* 다음은 요청 양식 및 요청 세부 정보 페이지에 일부 필드 값이 표시되는 방식을 설명합니다.
+
+   * 통화, 숫자 및 백분율 필드에 대한 특수 서식은 유지되지 않습니다. 예를 들어, 이러한 영역의 이러한 필드 값에 대한 소수점 이하 자리수는 유지되지 않습니다.
+   * 사람 필드 값은 ID로 표시됩니다.
+   * 다른 필드 또는 계산을 참조하지 않는 수식 필드에는 값이 표시되지 않습니다. 예를 들어 `STRING` 수식이 있는 필드는 &quot;N/A&quot; 값을 표시합니다.
+   * 통화 필드를 참조하는 공식 필드에는 환율을 계산하지 않고 값이 표시됩니다.
+   * 특수 서식이 포함된 단락 필드의 값은 요청 양식에 &quot;N/A&quot; 값을 표시하며 요청 세부 정보 페이지에서 서식이 지정된 텍스트 대신 html 태그를 표시합니다.
+
+</div>
 
 ## 레코드 유형에 대한 요청 양식 만들기
 
@@ -170,7 +160,7 @@ The following are limitations for how certain fields display in request forms, r
 
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 
-1. 페이지 헤더의 레코드 형식 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **요청 양식 만들기**&#x200B;를 클릭합니다.
+1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 만들기**&#x200B;를 클릭합니다.
 1. 요청 양식 이름을 업데이트합니다. 기본적으로 양식 이름은 **제목 없는 양식**&#x200B;입니다. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (선택 사항) 요청 양식에 대해 **설명**&#x200B;을(를) 추가합니다.
 
@@ -178,7 +168,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Click **Create**. 선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
 
-   ![](assets/campaigns-request-form-edit-mode.png)
+   ![캠페인 요청 양식 편집 모드](assets/campaigns-request-form-edit-mode.png)
 
    요청 양식에는 기본적으로 다음 정보가 포함되어 있습니다.
 
@@ -197,7 +187,8 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (선택 사항) 제거할 양식의 필드 위에 마우스를 놓은 다음 **x** 아이콘을 클릭하여 제거합니다. 양식 왼쪽의 **필드** 탭에 추가됩니다.
 
-   예를 들어 **제목** 필드는 Workfront Planning에 표시되지 않으므로 제거합니다. <!--remove this step when we connect intake with the Requests area in Workfront-->
+   예를 들어 **제목** 필드는 Workfront Planning에 표시되지 않으므로 제거합니다. <!--remove this example if this becomes visible in Planning?-->
+
 1. (선택 사항) 양식에서 **기본 섹션**&#x200B;을(를) 제거하려면 다음을 수행하십시오.
 
    1. 기본 섹션에서 모든 필드를 제거합니다.
@@ -227,7 +218,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (선택 사항) **구성** 탭을 클릭한 다음 **승인자** 필드에 사용자를 한 명 이상 추가하여 이 레코드 양식에 대한 새 요청을 승인합니다.
 
-   ![](assets/configuration-tab.png)
+   ![구성 탭](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -238,7 +229,7 @@ The following are limitations for how certain fields display in request forms, r
 
      요청 양식에 승인을 추가하는 방법에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
-1. (선택 사항) 헤더의 양식 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭하여 양식 이름을 업데이트합니다.
+1. (선택 사항) 헤더의 양식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭하여 양식 이름을 업데이트합니다.
 1. 양식을 게시하고 고유한 링크를 얻으려면 **게시**&#x200B;를 클릭하십시오.
 
    다음과 같은 상황이 발생합니다.
@@ -249,7 +240,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. 양식을 다른 사용자와 공유하려면 **공유**&#x200B;를 클릭하세요.
 
-   ![](assets/share-box-for-request-form.png)
+   ![요청 양식에 대한 공유 상자](assets/share-box-for-request-form.png)
 
 1. 이 양식에 액세스할 수 있는 사용자 유형을 나타내려면 다음 옵션 중에서 선택합니다.
 
@@ -261,7 +252,7 @@ The following are limitations for how certain fields display in request forms, r
    >
    >* **링크가 있는 모든 사용자**&#x200B;를 선택하면 조직 외부의 사람 중 Workfront 계정이 없는 사람도 양식에 액세스하여 새 레코드를 제출할 수 있습니다.
    >
-   > * 다음 필드 형식을 포함하는 양식은 공개적으로 공유할 수 없습니다.
+   >* 다음 필드 형식을 포함하는 양식은 공개적으로 공유할 수 없습니다.
    >
    >     * Workfront 또는 AEM Assets 연결
    >     * 사용자
@@ -271,7 +262,12 @@ The following are limitations for how certain fields display in request forms, r
 
    현재 날짜로부터 180일 이내에 미래 날짜를 선택할 수 있습니다.
 
-1. **링크 저장 및 복사**&#x200B;를 클릭하여 양식에 대한 공유 세부 정보를 저장합니다. 양식을 이전에 저장한 경우 **링크 복사**&#x200B;를 클릭합니다.
+   >[!TIP]
+   >
+   ><span class="preview">공유 날짜가 만료되면 Workfront의 요청 영역에서 요청 양식을 더 이상 사용할 수 없습니다.</span>
+
+
+1. <span class="preview">(선택 사항)</span> 양식에 대한 공유 세부 정보를 저장하려면 **링크 저장 및 복사**&#x200B;를 클릭합니다. 양식을 이전에 저장한 경우 **링크 복사**&#x200B;를 클릭합니다.
 
    양식 공유 옵션이 저장되고 링크가 클립보드에 복사됩니다. 이제 다른 사용자와 공유할 수 있습니다.
 
@@ -281,11 +277,12 @@ The following are limitations for how certain fields display in request forms, r
 1. 머리글에서 양식 이름 왼쪽에 있는 왼쪽 화살표를 클릭하여 양식을 닫습니다.
 
    레코드 유형 페이지가 열립니다.
-1. (선택 사항) 헤더에서 레코드 형식 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 후 다음 중 하나를 수행합니다.
+1. (선택 사항) 헤더에서 레코드 형식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 중 하나를 수행합니다.
    * 요청 양식을 변경하려면 **요청 양식 업데이트**&#x200B;를 클릭하십시오.
    * **요청 양식에 대한 링크 복사**&#x200B;를 클릭하여 양식에 대한 링크를 다른 사용자와 공유합니다.
+   * <span class= "preview"> Workfront의 **요청** 영역으로 이동하여 공유 양식을 찾아 요청을 제출합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md).</span>을 참조하십시오.
 
    >[!TIP]
    >
    >이러한 경우 링크가 공개적으로 공유된다는 표시가 있습니다.
-   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   >![레코드 종류 메뉴의 양식에 대한 공개 공유 링크](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
