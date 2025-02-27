@@ -5,9 +5,9 @@ description: AI Assistant 개요
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '817'
 ht-degree: 1%
 
 ---
@@ -139,3 +139,30 @@ Adobe Gen AI 계약을 요청하려면
 1. Adobe Gen AI 계약에 서명할 조직의 개인 이름과 이메일 주소를 입력합니다.
 
    계약서는 서명을 위해 이 개인에게 전송됩니다. 서명되고 반환되면 조직에 대해 AI 비서가 활성화됩니다.
+
+## AI Assistant에서 프롬프트 생성에 대한 팁
+
+프롬프트에서 다음 키워드를 사용하여 컨텍스트를 제공하고 올바른 정보를 찾는 데 도움을 줍니다. 키워드는 대/소문자를 구분하지 않습니다.
+
+프롬프트를 입력할 때 `using (keyword)` 구문을 포함하십시오.
+
+| 키워드 | 효과 |
+|---|---|
+| `workfront` | Workfront과 상호 작용합니다. |
+| `planning ` | Workfront Planning과 상호 작용합니다. |
+| `help` | Experience League 설명서에서 정보를 반환합니다. |
+| `formula` | Planning, Setup 또는 사용자 정의 양식에서 사용할 공식을 확인하고 반환합니다. |
+| `health` | 프로젝트 상태 관리자를 사용하여 프로젝트 상태를 확인합니다. |
+| `summarize` | 파일을 업로드하거나 프로젝트를 요약하는 경우와 같은 항목을 요약합니다. |
+
+>[!NOTE]
+>
+> 모든 키워드가 모든 영역에서 사용 가능한 것은 아닙니다.
+>
+>* `formula` 키워드는 Planning, Setup 및 사용자 정의 양식 빌더에서만 사용할 수 있습니다.
+>* `planning` 키워드는 Workfront Planning에서만 사용할 수 있습니다.
+
+
+
+
+
