@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,62 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 브라우저 탭 이름에 Workfront Planning 요청 세부 정보 페이지의 레코드 이름 표시
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 2월 27일, 빠른 릴리스를 위한 프로덕션: 25.3 릴리스 포함(2025년 3월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+
+Workfront Planning 요청의 세부 정보 페이지가 브라우저에 표시되는 방식을 업데이트했습니다. 이제 요청으로 생성된 레코드의 이름이 브라우저 탭 이름으로 표시됩니다. 이 개선 사항 이전에는 브라우저 탭에 &quot;Workfront&quot;가 표시되었습니다.
+
+## Workfront 및 Planning용 통합 요청 워크플로
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 2월 27일, 빠른 릴리스를 위한 프로덕션: 25.3 릴리스 포함(2025년 3월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+
+이제 메인 메뉴의 요청 영역에서 Workfront 및 Workfront Planning 요청을 모두 제출할 수 있습니다.
+
+이제 이 업데이트에서 다음 기능을 사용할 수 있습니다.
+
+* 새 요청 단추 옆에 있는 새 토글을 사용하면 요청 영역에서 이 경험을 사용할 수 있습니다. 토글을 선택 해제하면 Workfront 요청만 제출할 수 있습니다.
+
+* 통합 검색 가능 영역에서 Workfront 요청 대기열과 Workfront Planning 요청 양식을 모두 찾을 수 있습니다.
+
+* 가장 최근 요청 6개가 통합 검색 가능 영역에 먼저 표시됩니다.
+
+자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
+
+## 이제 공식 필드가 요청 양식에서 지원됩니다
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 2월 27일, 빠른 릴리스를 위한 프로덕션: 25.3 릴리스 포함(2025년 3월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+
+이제 Workfront Planning에서 레코드 유형 요청 양식에 공식 필드를 추가할 수 있습니다.
+
+이 개선 이전에는 이러한 유형의 필드를 요청 양식에 추가할 수 없었습니다.
+
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+
+## 레코드의 연결 보기 페이지에 대한 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 2월 27일, 빠른 릴리스를 위한 프로덕션: 25.3 릴리스 포함(2025년 3월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+
+다음 기능으로 레코드 페이지의 연결 보기를 업데이트했습니다.
+
+* 기본적으로 연결된 레코드의 처음 5개 필드만 테이블 보기에 표시됩니다. 이 업데이트 이전에는 모든 필드가 표시되었습니다.
+
+* 이제 연결된 레코드의 테이블 보기에서 열을 숨길 수 있습니다.
+
+* 표 도구 모음의 필드 아이콘을 사용하여 열을 재정렬할 수 있습니다.
+
+* 레코드를 연결하고 연결을 끊을 수 있습니다.
+
+자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
 
 ## 공식 필드에 새 표현식이 추가됨
 
