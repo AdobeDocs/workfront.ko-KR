@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Snowflake을 위한 Reader 계정 만들기
-description: Data Connect 데이터에 액세스하려면 먼저 Snowflake 판독기 계정을 만들어야 합니다.
+title: Snowflake용 Reader 계정 만들기
+description: Data Connect 데이터에 액세스하려면 먼저 Snowflake 리더 계정을 만들어야 합니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# Snowflake을 위한 Reader 계정 또는 연결 만들기
+# Snowflake에 대한 Reader 계정 또는 연결 만들기
 
-Data Connect 데이터에 액세스하려면 먼저 조직에 대한 Snowflake 판독기(또는 서비스) 계정을 만든 다음 Data Connect에 액세스할 각 사용자 또는 도구에 대해 새 연결을 만들어야 합니다.
+Data Connect 데이터에 액세스하려면 먼저 조직에 대한 Snowflake 리더(또는 서비스) 계정을 만든 다음 Data Connect에 액세스하려는 각 사용자 또는 도구에 대해 새 연결을 만들어야 합니다.
 
 연결을 만든 후 **기존 연결** 탭 아래의 **Data Connect** 페이지(**기본 메뉴** > **설정** > **시스템** > **데이터 연결**)에서 연결을 클릭하여 연결된 URL과 사용자 이름을 찾을 수 있습니다.
 
@@ -38,17 +38,17 @@ Data Connect 데이터에 액세스하려면 먼저 조직에 대한 Snowflake �
     <ul>
         <li>Ultimate</li> 
     </ul>    
-   <p>다음 플랜에 대한 추가 기능으로 구입할 수 있습니다.</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>선택</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect는 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
-   </td> </td> 
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td><p>플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -63,7 +63,7 @@ Data Connect 데이터에 액세스하려면 먼저 조직에 대한 Snowflake �
 
 ## 리더 계정 만들기
 
-연결 만들기를 시작하려면 먼저 조직에 대한 새 Snowflake 판독기 계정을 만들어야 합니다.
+연결 만들기를 시작하려면 먼저 조직에 대한 새 Snowflake reader 계정을 만들어야 합니다.
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ Data Connect 데이터에 액세스하려면 먼저 조직에 대한 Snowflake �
 
 1. 왼쪽 패널에서 **시스템** > **데이터 연결**&#x200B;을 클릭합니다.
 
-1. **Reader 계정 만들기** 단추를 클릭하여 조직의 리더 계정을 만듭니다. 이 프로세스는 자동으로 진행되지만 완료하는 데 몇 분 정도 걸릴 수 있습니다.
+1. 조직의 Reader 계정을 만들려면 **Reader 계정 만들기** 단추를 클릭하십시오. 이 프로세스는 자동으로 진행되지만 완료하는 데 몇 분 정도 걸릴 수 있습니다.
 
 1. 완료되면 리더 계정이 이제 활성 상태임을 설명하는 대화 상자 창이 표시됩니다. 브라우저 페이지를 새로 고쳐 **새 연결 만들기** 단추에 액세스할 수 있습니다.
 
@@ -93,11 +93,11 @@ Data Connect 데이터에 액세스하려면 먼저 조직에 대한 Snowflake �
 
    ![새 연결 만들기](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. **기본 암호**&#x200B;와 Snowflake을 통해 데이터를 볼 수 있는 URL이 생성됩니다. Snowflake에 처음 로그인하기 위해 선택한 사용자 이름과 함께 암호를 사용해야 하므로 이 암호와 URL을 기록해야 합니다. 확인란을 선택하고 **닫기**&#x200B;를 클릭합니다.
+1. **기본 암호**&#x200B;와 Snowflake을 통해 데이터를 볼 수 있는 URL이 생성됩니다. Snowflake에 처음 로그인하기 위해 선택한 사용자 이름과 함께 암호를 사용해야 하므로, 이 암호와 URL을 기록해야 합니다. 확인란을 선택하고 **닫기**&#x200B;를 클릭합니다.
 
    ![기본 계정 암호](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
-1. 브라우저를 사용하여 Snowflake을 열어 이전 단계의 URL로 이동하고, 선택한 사용자 이름과 이전 단계의 기본 암호를 입력한 다음 **로그인**&#x200B;을 클릭합니다.
+1. 브라우저를 사용하여 Snowflake을 열고 이전 단계의 URL로 이동하고, 선택한 사용자 이름과 이전 단계의 기본 암호를 입력한 다음 **로그인**&#x200B;을 클릭합니다.
 
 1. 처음 로그인하면 새 암호를 선택하라는 메시지가 표시됩니다. **새 암호**&#x200B;와 **암호 확인** 필드 모두에 선택한 암호를 입력한 다음 **제출**&#x200B;을 클릭합니다.
 

@@ -7,9 +7,9 @@ description: Workfront Data Connect를 사용하면 비즈니스 인텔리전스
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Workfront Data Connect를 사용하면 비즈니스 인텔리전스 도구를 통해 조직의 Workfront 데이터를 사용하거나 외부 데이터 웨어하우스에 저장할 수 있습니다.
 
-Data Connect 데이터 레이크를 외부 제품과 연결하려면 먼저 [Snowflake에 대한 리더 계정 또는 연결 만들기](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)에 설명된 대로 연결을 만들어야 합니다. 그런 다음 아래 [IP를 허용 목록에 추가하다에 추가](#add-ips-to-the-allowlist)에서 설명한 대로 필요한 IP를 허용 목록에 추가하다에 추가해야 합니다.
+Data Connect 데이터 레이크를 외부 제품과 연결하려면 먼저 [Snowflake에 대한 판독기 계정 또는 연결 만들기](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)에 설명된 대로 연결을 만들어야 합니다. 그런 다음 아래 [IP를 허용 목록에 추가하다에 추가](#add-ips-to-the-allowlist)에서 설명한 대로 필요한 IP를 허용 목록에 추가하다에 추가해야 합니다.
 
 대부분의 제품에서 연결을 설정하려면 데이터 레이크에 대한 다음 정보가 필요합니다.
 
@@ -55,19 +55,19 @@ Data Connect 데이터 레이크를 외부 제품과 연결하려면 먼저 [Sno
    <td role="rowheader">Adobe Workfront 플랜</td> 
    <td><p>다음 플랜에 포함됩니다.</p>
     <ul>
-        <li>Ultimate</li> 
+        <li><p>Ultimate</p></li> 
     </ul>    
-   <p>다음 플랜에 대한 추가 기능으로 구입할 수 있습니다.</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>선택</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect는 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td><p>플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 

@@ -6,10 +6,11 @@ title: Workfront Data Connect 사용 지표 보기
 description: Workfront Data Connect 지표 탭을 사용하여 월별 컴퓨팅 사용 시간과 수행된 쿼리 수에 따라 조직의 사용 지표를 볼 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 1%
+source-wordcount: '334'
+ht-degree: 0%
 
 ---
 
@@ -33,17 +34,17 @@ ht-degree: 1%
     <ul>
         <li>Ultimate</li> 
     </ul>    
-   <p>다음 플랜에 대한 추가 기능으로 구입할 수 있습니다.</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>선택</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect는 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td><p>플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
