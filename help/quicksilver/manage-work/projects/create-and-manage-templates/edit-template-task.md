@@ -7,9 +7,9 @@ description: 템플릿을 만든 후 템플릿 작업에 대한 정보를 편집
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2420'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한 </td> 
-   <td> <p>템플릿에 대한 권한을 관리합니다. </p> <p>템플릿 작업에 대한 Contribute 이상의 권한.</p> </td> 
+   <td> <p>템플릿에 대한 권한을 관리합니다. </p> <p>템플릿 작업에 대한 기여 이상의 권한.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,8 +82,8 @@ ht-degree: 4%
 1. 목록에서 템플릿 작업의 이름을 클릭하여 템플릿 작업을 엽니다.
 1. (선택 사항) 여러 템플릿 작업을 일괄적으로 편집하려면 여러 템플릿 작업을 선택한 다음 템플릿 목록 맨 위에서 **편집**&#x200B;을 클릭합니다.
 1. (조건부) 템플릿 작업에 대한 제한된 정보를 편집하려면 왼쪽 패널에서 **템플릿 작업 세부 정보**&#x200B;를 클릭한 다음 세부 정보 섹션의 영역으로 이동하여 각 영역에 대한 정보를 편집하십시오.
-1. (선택 사항) 모든 영역을 축소하려면 **모두 축소** 아이콘 ![](assets/collapse-all-icon.png)을(를) 클릭합니다.
-1. 세부 정보 섹션의 정보를 편집하려면 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭한 다음 아래 영역 중 하나를 선택하거나 **모두 편집**&#x200B;을(를) 클릭하여 모든 영역의 정보를 편집합니다.
+1. (선택 사항) 모든 영역을 축소하려면 **모두 축소** 아이콘 ![모두 축소](assets/collapse-all-icon.png)을 클릭합니다.
+1. 세부 정보 섹션의 정보를 편집하려면 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 아래 영역에서 선택하거나 **모두 편집**&#x200B;을 클릭하여 모든 영역의 정보를 편집하십시오.
 
    * 개요
    * 사용자 정의 양식
@@ -96,7 +96,7 @@ ht-degree: 4%
    >
    >세부 정보 영역에 표시되는 모든 필드에 대한 자세한 내용은 아래 설명된 대로 템플릿 작업 편집 상자를 사용하여 모든 필드를 계속 편집합니다.
 
-1. (조건부) 템플릿 작업에 대한 모든 정보를 편집하려면 템플릿 작업 이름 옆에 있는 **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
+1. (조건부) 템플릿 작업에 대한 모든 정보를 편집하려면 템플릿 작업 이름 옆에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
    **템플릿 작업 편집** 상자가 표시됩니다.
 
@@ -104,7 +104,7 @@ ht-degree: 4%
    >
    >목록에서 템플릿 작업을 선택한 다음 편집 을 클릭하여 템플릿 작업 편집 상자를 열 수도 있습니다.
 
-   ![](assets/edit-template-tasks-box-classic-350x356.png)
+   ![템플릿 작업 편집](assets/edit-template-tasks-box-classic-350x356.png)
 
 1. 다음 섹션 중 하나에서 정보를 지정하는 것이 좋습니다.
 
@@ -268,7 +268,7 @@ ht-degree: 4%
 1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **설정**&#x200B;을 클릭합니다.
 
-   ![](assets/edit-template-tasks-settings-classic-350x231.png)
+   ![템플릿 작업 설정 편집](assets/edit-template-tasks-settings-classic-350x231.png)
 
 1. 다음 중 하나를 업데이트합니다.
 
