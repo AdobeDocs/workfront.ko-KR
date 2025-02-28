@@ -6,9 +6,9 @@ description: 타임라인을 다시 계산하면 관리자는 프로젝트와 �
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -174,13 +174,13 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 프로젝트 페이지나 프로젝트 목록 또는 보고서에서 Workfront의 프로젝트 타임라인을 다시 계산할 수 있습니다.
 
-1. 타임라인을 다시 계산할 프로젝트로 이동한 다음 프로젝트 이름 왼쪽에 있는 **자세히** 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭합니다
+1. 타임라인을 다시 계산할 프로젝트로 이동한 다음 프로젝트 이름 왼쪽에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-menu.png)를 클릭합니다
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![추가 드롭다운](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    또는
 
-   프로젝트 목록 또는 보고서로 이동하여 하나 또는 여러 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭합니다.
+   프로젝트 목록 또는 보고서로 이동하여 하나 또는 여러 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-menu.png)를 클릭합니다.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
