@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '652'
 ht-degree: 4%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 4%
 1. 작업 목록 왼쪽 상단의 **필터**&#x200B;를 클릭합니다.
 1. **표준 필터**&#x200B;를 클릭합니다.
 1. 하나 이상의 필터를 선택하여 작업 항목 범위를 좁힙니다.
-   ![](assets/filter-new.png)
+   ![필터](assets/filter-new.png)
 
 +++을 확장하여 사용 가능한 필터에 대한 자세한 정보 확인
 <table>
@@ -157,7 +157,7 @@ ht-degree: 4%
 
 1. 작업 목록 왼쪽 상단에서 **그룹**&#x200B;을 클릭합니다.
 1. 작업 목록을 구성할 그룹 선택
-   ![](assets/groups-new.png)
+   ![그룹](assets/groups-new.png)
 
 +++을 확장하여 사용 가능한 그룹에 대한 자세한 정보 보기
 
@@ -184,7 +184,7 @@ ht-degree: 4%
 
 그룹 내에서 작업을 정렬하려면 **그룹**&#x200B;을 열고 **오름차순 정렬** 또는 **내림차순 정렬**&#x200B;을 클릭하세요.
 
-![](assets/sort-in-groups.png)
+![그룹에서 정렬](assets/sort-in-groups.png)
 
 ### 열 정렬
 
@@ -196,4 +196,4 @@ ht-degree: 4%
 
 모든 그룹 섹션을 확장하거나 축소하려면 **그룹**&#x200B;을 열고 **모두 확장** 또는 **모두 축소**&#x200B;를 클릭합니다.
 
-![](assets/expand-collapse-groups.png)
+![그룹 확장 또는 축소](assets/expand-collapse-groups.png)
