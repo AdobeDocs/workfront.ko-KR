@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 1%
    | **보통** | 보통 은 긴급 및 우선순위가 높은 항목이 완료된 후 작업할 일상적인 작업 항목에 해당합니다. 작업 및 문제의 기본값입니다. |
    | **낮음** | 낮음은 즉각적인 주의가 필요하지 않은 작업 항목에 해당하며, 우선 순위가 높은 작업 항목이 모두 완료될 때까지 연기할 수 있습니다. |
 
-   ![](assets/my-focus-new.png)
+   ![내 포커스](assets/my-focus-new.png)
 
    >[!TIP]
    >
