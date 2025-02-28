@@ -6,9 +6,9 @@ description: 작업을 시작하기 전에 승인할 프로젝트를 요청할 �
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '530'
 ht-degree: 2%
 
 ---
@@ -70,14 +70,14 @@ Adobe Workfront의 다음 영역에서 새 프로젝트를 추가할 때 프로�
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 오른쪽 상단의 **주 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭하거나 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)을(를) 클릭합니다(가능한 경우). **프로젝트**&#x200B;을(를) 클릭한 다음 **새 프로젝트**&#x200B;을(를) 확장합니다.
+   * 오른쪽 상단의 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭하거나 왼쪽 상단의 **주 메뉴** ![주 메뉴 줄](assets/lines-main-menu.png)을 클릭합니다(가능한 경우). **프로젝트**&#x200B;를 클릭한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 포트폴리오로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 프로그램으로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 그룹 관리자는 관리하는 그룹의 프로젝트 섹션에서 프로젝트를 만들 수도 있습니다. 자세한 내용은 [그룹의 프로젝트 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)을 참조하세요.
 
 1. **프로젝트 요청**&#x200B;을 클릭합니다.
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![새 프로젝트 드롭다운](assets/new-project-dropdown-nwe-350x358.png)
 
 1. 다음 중 하나를 수행하십시오.
 
