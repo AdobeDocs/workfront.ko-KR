@@ -6,9 +6,9 @@ description: 사용자 정의 양식을 문서 또는 문서 버전에 추가하
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 1%
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 찾습니다.
 
-1. **요약** 아이콘 ![](assets/summary-panel-icon.png)을(를) 클릭한 다음 **세부 정보** 섹션을 찾습니다.
+1. **요약** 아이콘 ![요약 아이콘](assets/summary-panel-icon.png)을 클릭한 다음 **세부 정보** 섹션을 찾습니다.
 1. **사용자 정의 양식 추가** 상자에서 입력을 시작하고 사용자 정의 양식을 선택합니다. 양식이 문서에 자동으로 저장됩니다.
 
    >[!NOTE]
@@ -73,8 +73,8 @@ ht-degree: 1%
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 찾습니다.
 
-1. **요약** 아이콘 ![](assets/summary-panel-icon.png)을(를) 클릭한 다음 상단 근처에서 **세부 정보** 섹션을 찾습니다.
+1. **요약** 아이콘 ![요약 아이콘](assets/summary-panel-icon.png)을 클릭한 다음 상단 근처에서 **세부 정보** 섹션을 찾습니다.
 1. 오른쪽 상단에서 **편집**&#x200B;을 클릭한 다음 원하는 양식을 확장합니다.
 1. 필요한 사항을 변경한 다음 **저장**&#x200B;을 클릭합니다.
 
-   ![](assets/edit-custom-form-350x265.png)
+   ![사용자 정의 양식 편집](assets/edit-custom-form-350x265.png)
