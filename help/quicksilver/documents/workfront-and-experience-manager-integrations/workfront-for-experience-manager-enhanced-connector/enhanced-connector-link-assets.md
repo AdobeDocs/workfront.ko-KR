@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 0%
+source-wordcount: '591'
+ht-degree: 1%
 
 ---
 
@@ -84,7 +84,7 @@ Experience Manager Assets에 자산을 연결하려면 다음 작업을 수행�
 
 1. 원하는 자산을 선택합니다.
 
-   ![](assets/select-an-asset.png)
+   ![자산 선택](assets/select-an-asset.png)
 
 1. **링크**&#x200B;를 클릭합니다.
 
@@ -103,7 +103,7 @@ Experience Manager Assets에 자산을 연결하려면 다음 작업을 수행�
 
 1. 원하는 폴더를 선택합니다.
 
-   ![](assets/select-a-folder.png)
+   ![폴더 선택](assets/select-a-folder.png)
 
 1. **링크**&#x200B;를 클릭합니다.
 
@@ -127,6 +127,6 @@ Experience Manager Assets에서 새 버전을 연결하려면 다음을 수행�
 
 1. 원하는 자산을 선택합니다.
 
-   ![](assets/select-an-asset.png)
+   ![자산 선택](assets/select-an-asset.png)
 
 1. **링크**&#x200B;를 클릭합니다.
