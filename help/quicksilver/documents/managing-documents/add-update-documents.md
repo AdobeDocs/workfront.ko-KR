@@ -6,9 +6,9 @@ description: 문서에 업데이트를 추가하거나 회신하여 공동 작�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 1. 문서가 포함된 개체로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;를 선택합니다.
 1. 필요한 문서를 찾아 다음 중 하나를 수행합니다.
 
-   * 목록의 문서를 클릭하고 오른쪽 상단의 **요약 열기** 아이콘 ![](assets/qs-summary-in-new-toolbar-small.png)을(를) 클릭한 다음 새 댓글을 추가하거나 **회신**&#x200B;을(를) 클릭하여 기존 댓글에 회신을 추가합니다. 요약에 대한 자세한 내용은 [문서에 대한 요약 개요](../../documents/managing-documents/summary-for-documents.md)를 참조하십시오.
+   * 목록의 문서를 클릭하고 오른쪽 상단의 **요약 열기** 아이콘 ![요약 열기 아이콘](assets/qs-summary-in-new-toolbar-small.png)을 클릭한 다음 새 댓글을 추가하거나 **회신**&#x200B;을 클릭하여 기존 댓글에 회신을 추가합니다. 요약에 대한 자세한 내용은 [문서에 대한 요약 개요](../../documents/managing-documents/summary-for-documents.md)를 참조하십시오.
    * 문서 위로 마우스를 가져간 후 왼쪽 패널에서 **문서 세부 정보**&#x200B;를 클릭한 다음 **업데이트**를 클릭합니다.
 개체에 업데이트를 추가하는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
