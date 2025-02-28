@@ -7,9 +7,9 @@ description: 일정 성과 지수(SPI)는 계획된 일정과 실제 일정 간�
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,6 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
    1. 왼쪽 패널에서 **작업 세부 정보**&#x200B;를 클릭한 다음 **재무** 영역을 봅니다.
 
-      ![](assets/spi-on-project-nwe.png)
+      ![프로젝트의 SPI](assets/spi-on-project-nwe.png)
 
 1. **CPI/ SPI/ CSI** 필드를 찾습니다.
