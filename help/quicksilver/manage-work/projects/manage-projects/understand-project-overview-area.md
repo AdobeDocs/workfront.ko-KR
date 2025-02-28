@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
@@ -63,13 +63,13 @@ ht-degree: 3%
 
    또는
 
-   세부 정보 섹션의 오른쪽 상단에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭한 다음 **개요**&#x200B;를 클릭합니다. 편집을 위해 개요 영역이 열립니다.
+   세부 정보 섹션의 오른쪽 상단에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 **개요**&#x200B;를 클릭합니다. 편집을 위해 개요 영역이 열립니다.
 
    >[!NOTE]
    >
    >Workfront 관리자가 레이아웃 템플릿을 구성한 방식에 따라 개요 섹션이 먼저 나열되지 않을 수 있으며 이 경우 축소됩니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오.
 
-1. (조건부) 프로젝트에서 업데이트해야 하지만 이 섹션에 표시되지 않는 특정 필드가 있는 경우 프로젝트 이름 옆에 있는 **추가 메뉴** ![](assets/more-icon.png)를 클릭한 다음 **편집**&#x200B;하여 더 많은 프로젝트 필드를 보십시오.
+1. (조건부) 프로젝트에서 업데이트해야 하지만 이 섹션에 표시되지 않는 특정 필드가 있는 경우 프로젝트 이름 옆에 있는 **추가 메뉴** ![추가 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;하여 더 많은 프로젝트 필드를 봅니다.
 
    프로젝트 편집에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
@@ -97,7 +97,7 @@ ht-degree: 3%
       <td>이 필드에 URL을 삽입합니다. Workfront URL 또는 기타 다른 URL일 수 있습니다. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">우선 순위</td> 
+      <td role="rowheader">우선순위</td> 
       <td>프로젝트의 지정 우선 순위 또는 중요도 역할을 합니다.</td> 
      </tr> 
      <tr> 
@@ -121,7 +121,7 @@ ht-degree: 3%
       <td> 프로젝트 완료 예정일. 이는 프로젝트가 완료 일자부터 예약되는 경우 프로젝트 관리자가 수동으로 설정합니다. Workfront은 프로젝트의 작업 기간에 따라 프로젝트가 시작 날짜에서 예약된 이 날짜를 자동으로 설정합니다. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Portfolio</td> 
+      <td role="rowheader">포트폴리오</td> 
       <td>프로젝트와 연계된 포트폴리오입니다. 포트폴리오를 프로젝트에 추가하려면 먼저 만들어야 합니다. </td> 
      </tr> 
      <tr> 
