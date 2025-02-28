@@ -6,9 +6,9 @@ description: 달력 보고서는 작업의 시각적 표현을 제공하는 동�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: c88c8dc7431f3bc711ae1942df12925fafa7eff0
+source-git-commit: 40bbb198216b2806154f83730d8afedd5f355a3e
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 1%
 
 ---
@@ -205,7 +205,6 @@ ht-degree: 1%
    * **[!UICONTROL 작업]**
    * **[!UICONTROL 프로젝트]**
    * **[!UICONTROL 문제]**
-   * **휴무**
 
 1. 캘린더에 추가하는 개체 유형에 따라 **[!UICONTROL 작업 추가]**, **[!UICONTROL 프로젝트 추가]**, **[!UICONTROL 문제 추가]** 또는 **휴무**&#x200B;를 클릭합니다.
 

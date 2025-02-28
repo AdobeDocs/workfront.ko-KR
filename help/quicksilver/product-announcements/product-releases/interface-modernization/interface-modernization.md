@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
+source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 ### 문서의 승인 영역에 대한 인터페이스 업데이트
 
-**미리 보기 릴리스: 2025년 2월 13일, 프로덕션 릴리스: 발표 예정**
+**미리 보기 릴리스: 2025년 2월 13일, 프로덕션 릴리스: 2025년 2월 27일 주에 시작**
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 문서의 승인 영역을 업데이트했습니다.
 
