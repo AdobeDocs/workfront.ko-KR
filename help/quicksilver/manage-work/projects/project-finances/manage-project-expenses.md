@@ -6,9 +6,9 @@ description: 비용을 생성하고 관리하는 프로세스는 프로젝트 �
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>재무 보기 또는 관리 권한이 있는 프로젝트에 대한 Contribute 이상의 권한</td> 
+   <td>재무 보기 또는 관리 권한이 있는 프로젝트에 대한 상위 권한 기여</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ ht-degree: 1%
    * **실제 금액:** 실제 비용이 소요된 금액입니다.\
      이는 프로젝트의 실제 비용에 영향을 줍니다.
 
-   * **계획된 일자:** 비용이 발생할 예상 일자입니다. *mm/dd/yy* 형식을 사용하여 필드에 날짜를 입력하거나 달력 아이콘을 클릭할 수 있습니다  ![](assets/calendar-icon.png)을(를) 클릭하고 날짜를 동적으로 선택합니다.
+   * **계획된 일자:** 비용이 발생할 예상 일자입니다. *mm/dd/yy* 형식을 사용하여 필드에 날짜를 입력하거나 달력 아이콘을 클릭할 수 있습니다  ![달력 아이콘](assets/calendar-icon.png)을 클릭하고 날짜를 동적으로 선택합니다.
 
    * **지급일:** 경비가 지급된 날입니다.
    * **청구 가능:** 이 비용을 청구하려면 이 옵션을 선택하십시오. 청구 기록을 생성할 때 경비를 청구 가능으로 분류하는 것이 중요합니다.
