@@ -7,9 +7,9 @@ description: 문서 세부 정보 페이지에서는 Adobe Workfront 객체에 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 1. 문서를 마우스로 가리킨 다음 **문서 세부 정보**&#x200B;를 클릭합니다.
 
-   ![](assets/document-details-350x179.png)
+   ![문서 세부 정보](assets/document-details-350x179.png)
 
 ## 문서 및 증명에 대한 기본 작업 수행
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 * 문서 설명 편집
 * 문서 체크인 또는 체크아웃
 
-또한 문서 이름 옆에 있는 자세히 아이콘 ![](assets/more-icon.png)을(를) 사용하여 다음 작업을 수행할 수 있습니다.
+또한 문서 이름 옆에 있는 기타 아이콘 ![기타 메뉴](assets/more-icon.png)를 사용하여 다음 작업을 수행할 수 있습니다.
 
 * 공유
 * 이동
