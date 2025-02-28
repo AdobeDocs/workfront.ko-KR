@@ -6,9 +6,9 @@ description: 프로젝트 관리자는 프로젝트의 상태 유형을 업데�
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
    <td role="rowheader">개체 권한</td> 
    <td> 
     <ul> 
-     <li> <p>프로젝트 세부 정보 영역에서 상태 유형을 편집할 수 있는 Contribute 권한 </p> </li> 
+     <li> <p>프로젝트 세부 정보 영역에서 상태 유형을 편집할 수 있는 권한을 프로젝트에 제공 </p> </li> 
      <li> <p>프로젝트 편집 상자에서 상태 유형을 편집할 프로젝트에 대한 권한 관리</p> </li> 
     </ul> <p> 프로젝트 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>를 참조하십시오.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
@@ -55,7 +55,7 @@ ht-degree: 1%
 1. 조건 유형을 업데이트할 프로젝트로 이동합니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 프로젝트 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/qs-more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
+   * 프로젝트 이름의 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/qs-more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
    * 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭합니다.
 
    ![](assets/update-condition-type-nwe-350x108.png)
