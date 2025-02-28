@@ -7,9 +7,9 @@ description: 프로젝트의 예산 인건비 및 예산 시간 이해
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,11 @@ Workfront은 프로젝트에서 작업 역할의 예산 인건비를 사용하�
 
 * [!UICONTROL **예산 인건비**]: 해당 역할의 비즈니스 사례에 대한 리소스 예산 영역입니다.
 
-  ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![비즈니스 사례의 예산 인건비](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]: 비용별 프로젝트 및 역할 보기에서 정보를 볼 때 리소스 플래너입니다.
 
-  ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![리소스 계획의 예산 인건비](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 사용자는 각 역할의 비즈니스 사례의 리소스 예산 편성 영역에 표시되거나 다음 요구 사항을 충족하는 경우 리소스 플래너에 표시됩니다.
 
