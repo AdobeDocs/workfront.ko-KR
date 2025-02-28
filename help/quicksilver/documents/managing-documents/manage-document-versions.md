@@ -6,9 +6,9 @@ description: Workfront에서 여러 버전의 문서를 관리할 수 있습니�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -64,15 +64,15 @@ Workfront에서 여러 버전의 문서를 관리할 수 있습니다.
 
 1. 문서 세부 정보 페이지 상단에서 이름 옆에 있는 드롭다운 메뉴를 클릭한 다음 보고 관리할 버전의 이름을 클릭합니다.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   문서 세부 정보의 ![버전 드롭다운](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    버전의 세부 사항 보기와 함께 버전 이름, 메타데이터 및 증명 설정(문서 증명인 경우)과 같은 버전을 변경할 수 있습니다.
 
 ## 단일 문서 버전 다운로드
 
-1. 요약의 **버전**&#x200B;에서 버전 오른쪽에 있는 기타 메뉴 ![](assets/more-icon.png)을 클릭한 다음 표시되는 드롭다운 목록에서 **다운로드**&#x200B;를 클릭합니다.
+1. 요약의 **버전**&#x200B;에서 버전 오른쪽에 있는 기타 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭한 다음 표시되는 드롭다운 목록에서 **다운로드**&#x200B;를 클릭합니다.
 
-   ![](assets/more-versions-350x143.png)
+   ![단일 문서 다운로드](assets/more-versions-350x143.png)
 
 ## 문서의 모든 버전 다운로드
 
@@ -105,4 +105,4 @@ Workfront에서 여러 버전의 문서를 관리할 수 있습니다.
 
    문서가 외부 소스에 연결된 경우 해당 링크가 삭제되고 Workfront을 통해 문서에 더 이상 액세스할 수 없습니다.
 
-   ![](assets/more-versions-350x143.png)
+   ![문서 버전 삭제](assets/more-versions-350x143.png)
