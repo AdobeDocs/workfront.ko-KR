@@ -7,9 +7,9 @@ description: 프로젝트의 순 가치(Net Value)는 프로젝트의 편익을 
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -48,15 +48,15 @@ Workfront의 다음 영역에서 프로젝트에 대한 순 가치 를 찾을 �
 * 비즈니스 사례의 비즈니스 사례 요약 영역 \
   비즈니스 사례 요약 영역에 대한 자세한 내용은 문서 [프로젝트에 대한 비즈니스 사례 만들기](../../../manage-work/projects/define-a-business-case/create-business-case.md) [프로젝트에 대한 비즈니스 사례 만들기](../../../manage-work/projects/define-a-business-case/create-business-case.md)의 &quot;비즈니스 사례 요약 이해&quot; 섹션을 참조하십시오.
 
-  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  ![비즈니스 사례의 순 가치](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* 프로젝트가 포트폴리오와 연결된 경우 Portfolio 최적화 도구에서
+* 프로젝트가 포트폴리오와 연결된 경우 Portfolio Optimizer에서
 
   >[!TIP]
   >
   >모든 프로젝트 순 가치 합계는 포트폴리오의 순 가치입니다.
 
-  Portfolio 최적화 프로그램에 대한 자세한 내용은 [Portfolio 최적화 프로그램 개요](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
+  Portfolio Optimizer에 대한 자세한 내용은 [Portfolio Optimizer 개요](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하세요.
 
 * 다음 목록 및 보고서의 프로젝트 순 값 필드에서 다음을 수행합니다.
 
