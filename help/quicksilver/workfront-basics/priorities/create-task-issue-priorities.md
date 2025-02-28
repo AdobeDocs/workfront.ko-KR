@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '268'
 ht-degree: 4%
 
 ---
@@ -68,8 +68,8 @@ ht-degree: 4%
 {{step1-to-priorities}}
 
 1. 오른쪽 상단의 **새로 만들기**를 클릭합니다.
-   ![](assets/create-new.png)
-prod ![](assets/create-new--.png)의 새 화면
+   ![새로 만들기](assets/create-new.png)
+prod ![새로 만들기(프로덕션)](assets/create-new--.png)를 위한 새 화면
 1. 다음 정보를 지정합니다.
 
    | 필드 | 지침 |
