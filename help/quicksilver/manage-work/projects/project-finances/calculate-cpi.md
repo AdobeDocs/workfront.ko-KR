@@ -7,9 +7,9 @@ description: 원가 성과 지수(CPI)는 프로젝트 또는 태스크 레벨�
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Adobe Workfront에서 CPI의 계산은 프로젝트에 대해 선택한 성과 �
 
 #### 시간 기반 PIM 사용 시 CPI 계산 {#cpi-calculations-when-using-hour-based-pim}
 
-만약 다음이라면
+조건
 
 ```
 Actual Hours > 0 THEN CPI = Total Budgeted Cost Work Performed / Actual Hours
@@ -121,7 +121,7 @@ BCWP(수행된 총 예산 비용 작업)에 대한 자세한 내용은 [BCWP(수
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>NOTE: this used to be here before - above - but Anna sent me the one below. I kept the other one, although she is still researching its validity - see this issue: https://hub.workfront.com/issue/5fc7b1cf00012aeebf9e822db8ea2513/overview)</code> </p>
 -->
 
-만약 다음이라면
+조건
 
 ```
 Actual Labor Cost + Incurred Actual Expense Cost <> 0 THEN CPI = (Total Budgeted Cost Work Performed + Incurred Planned Expense Cost) / (Actual Labor Cost + Incurred Actual Expense Cost)
@@ -200,4 +200,4 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 
    CPI가 **CPI/ SPI/ CSI** 필드에 표시됩니다.
 
-   ![](assets/cpi-on-project-nwe.png)
+   프로젝트의 ![CPI](assets/cpi-on-project-nwe.png)
