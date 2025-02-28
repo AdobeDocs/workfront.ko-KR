@@ -6,9 +6,9 @@ description: 프로젝트 프로세스 및 설정의 변경 사항을 반영하�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '4809'
+source-wordcount: '4854'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ Editing a template differs depending on what environment you choose.
 
 1. Go to the template you want to edit.
 1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+1. To edit information in the Details section, click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
    * Overview
    * Custom Forms
@@ -84,7 +84,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 
@@ -105,7 +105,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Overview**.
 
-   ![](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
+   ![Edit template overview](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
 
 1. Update the following fields:
 
@@ -204,7 +204,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
 
-   ![](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
+   ![Edit template finance](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
 
 1. Update the following fields:
 
@@ -250,7 +250,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Portfolio**.
 
-   ![](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
+   ![Edit template portfolio](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
 
 1. Update the following fields:
 
@@ -283,7 +283,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Settings**.
 
-   ![](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
+   ![Edit template settings](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
 
 1. Update the following fields: 
 
@@ -411,7 +411,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Access**.
 
-   ![](assets/edit-template-access-with-tasks-and-issues-350x241.png)
+   ![Edit template access](assets/edit-template-access-with-tasks-and-issues-350x241.png)
 
    The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project.
 
@@ -488,7 +488,7 @@ For information about how these settings affect creating new tasks, see [Create 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Tasks**.
 
-   ![](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
+   ![Edit template tasks](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
@@ -516,7 +516,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Issues**.
 
-   ![](assets/edit-template-box-with-issues-nwe-350x171.png)
+   ![Edit template issues](assets/edit-template-box-with-issues-nwe-350x171.png)
 
 1. (Optional) Deselect the **Allow users to add issues inline** option. It is enabled by default.
 
@@ -565,7 +565,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. 편집할 템플릿으로 이동합니다.
 1. (조건부) 템플릿에 대한 제한된 정보를 편집하려면 왼쪽 패널에서 **템플릿 세부 정보**&#x200B;를 클릭한 다음 왼쪽 패널에 나열된 영역으로 이동하여 각 영역에 대한 정보를 편집합니다.
-1. 세부 정보 섹션의 정보를 편집하려면 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭한 다음 아래 영역 중 하나를 선택하거나 **모두 편집**&#x200B;을(를) 클릭하여 모든 영역의 정보를 편집합니다.
+1. 세부 정보 섹션의 정보를 편집하려면 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 아래 영역에서 선택하거나 **모두 편집**&#x200B;을 클릭하여 모든 영역의 정보를 편집하십시오.
 
    * 개요
    * 사용자 정의 양식
@@ -578,7 +578,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    >
    >세부 정보 영역에 표시되는 모든 필드에 대한 자세한 내용은 아래의 템플릿 편집 상자를 사용하여 모든 필드 편집을 계속하십시오.
 
-1. (조건부) 템플릿에 대한 모든 정보를 편집하려면 템플릿 이름 옆에 있는 **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
+1. (조건부) 템플릿에 대한 모든 정보를 편집하려면 템플릿 이름 옆에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
    **템플릿 편집** 상자가 열립니다. 이 상자의 섹션에는 템플릿 세부 정보 섹션에서 사용할 수 있는 것과 동일한 필드가 포함되어 있습니다.
 
@@ -612,7 +612,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
 1. **템플릿 편집** 상자에서 **개요**&#x200B;를 클릭합니다.
 
-   ![](assets/edit-template-box-overview-section.png)
+   ![템플릿 상자 편집](assets/edit-template-box-overview-section.png)
 
 1. 다음 필드를 업데이트합니다.
 
@@ -710,7 +710,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
 1. **템플릿 편집** 상자에서 **재무**&#x200B;을 클릭합니다.
 
-   ![](assets/edit-template-box-finance-section.png)
+   ![서식 파일 상자 재무 편집](assets/edit-template-box-finance-section.png)
 
 1. 다음 필드를 업데이트합니다.
 
@@ -766,7 +766,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
 1. **템플릿 편집** 상자에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
 
-   ![](assets/edit-template-box-custom-forms-section.png)
+   ![템플릿 상자 사용자 정의 양식 편집](assets/edit-template-box-custom-forms-section.png)
 
    템플릿에 이미 첨부된 사용자 정의 양식의 이름이 왼쪽 패널에 표시됩니다.
 
@@ -793,7 +793,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
 1. **템플릿 편집** 상자에서 **프로젝트 설정**&#x200B;을 클릭합니다.
 
-   ![](assets/edit-template-box-project-settings-section.png)
+   ![템플릿 상자 설정 편집](assets/edit-template-box-project-settings-section.png)
 
 1. 다음 필드를 업데이트합니다.
 
@@ -925,7 +925,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
 1. **템플릿 편집** 상자에서 **작업 설정**&#x200B;을 클릭합니다.
 
-   ![](assets/edit-template-box-tax-settings-section.png)
+   ![템플릿 상자 작업 설정 편집](assets/edit-template-box-tax-settings-section.png)
 
 1. **작업 기본 승인 프로세스** 상자에서 이 템플릿으로 만든 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 승인 프로세스를 선택합니다. 작업과 연결하려면 먼저 작업에 대한 승인 프로세스를 만들어야 합니다. 활성 승인 프로세스만 목록에 표시됩니다. 승인 프로세스 만들기에 대한 자세한 내용은 [승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 1. **작업 기본 사용자 지정 Forms** 상자에서 이 템플릿으로 만든 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 사용자 지정 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오. 작업에 최대 10개의 사용자 정의 양식을 연결할 수 있습니다.
@@ -953,7 +953,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
 1. **템플릿 편집** 상자에서 **문제 설정**&#x200B;을 클릭합니다.
 
-   ![](assets/edit-template-box-issue-settings-section.png)
+   ![템플릿 상자 문제 설정 편집](assets/edit-template-box-issue-settings-section.png)
 
 1. (선택 사항) **사용자가 문제를 인라인으로 추가할 수 있도록 허용** 옵션을 선택 취소합니다. 기본적으로 활성화되어 있습니다.
 
@@ -980,7 +980,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
 1. **템플릿 편집** 상자에서 **액세스**&#x200B;를 클릭합니다.
 
-   ![](assets/edit-template-box-access-section.png)
+   ![템플릿 상자 액세스 편집](assets/edit-template-box-access-section.png)
 
    템플릿에 지정한 액세스 권한은 템플릿을 사용하여 프로젝트를 만들 때 프로젝트와 연결된 사용자의 액세스 권한이 됩니다.
 
@@ -1055,7 +1055,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 템플릿을 일괄적으로 편집하려면 다음을 수행합니다.
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+1. Adobe Workfront 오른쪽 위 모서리에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
 
 1. **템플릿**&#x200B;을 클릭합니다.
 1. 목록에서 템플릿을 여러 개 선택합니다.
@@ -1063,7 +1063,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    **템플릿 편집** 대화 상자가 열립니다.
 
-   ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
+   ![템플릿 편집](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 선택한 모든 템플릿을 편집하려면 왼쪽의 섹션을 클릭합니다.
 
@@ -1130,12 +1130,12 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 템플릿을 비활성화하려면 다음 작업을 수행하십시오.
 
-1. 활성 템플릿으로 이동한 다음 템플릿 이름 옆에 있는 **자세히** ![](assets/qs-more-icon-on-an-object.png) 메뉴를 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.
+1. 활성 템플릿으로 이동한 다음 템플릿 이름 옆에 있는 **자세히** ![추가 아이콘](assets/qs-more-icon-on-an-object.png) 메뉴를 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.
 
-   ![](assets/deactivate-template-link-in-more-menu.png)
+   ![템플릿 비활성화](assets/deactivate-template-link-in-more-menu.png)
 
    템플릿이 더 이상 활성 상태가 아니며 사용자는 더 이상 템플릿을 찾아 템플릿에서 프로젝트를 만들 수 없습니다.
-1. (선택 사항) 템플릿을 활성화하려면 템플릿 이름 옆에 있는 **자세히** ![](assets/qs-more-icon-on-an-object.png) 메뉴를 클릭한 다음 **활성화**&#x200B;를 클릭합니다.
+1. (선택 사항) 템플릿을 활성화하려면 템플릿 이름 옆에 있는 **자세히** ![추가 아이콘](assets/qs-more-icon-on-an-object.png) 메뉴를 클릭한 다음 **활성화**&#x200B;를 클릭합니다.
 
    이제 템플릿이 활성화되었으며 프로젝트에 첨부하거나 프로젝트를 만드는 데 사용할 수 있습니다.
 
