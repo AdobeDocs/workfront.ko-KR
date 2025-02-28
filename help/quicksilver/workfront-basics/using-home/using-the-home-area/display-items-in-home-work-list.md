@@ -6,9 +6,9 @@ description: 각 위젯에는 고유한 작업 목록이 포함되어 있습니�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 0bd250b323a4e8e83d7ce8b42d0446c3879d7e6b
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1016'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>작업해야 하는 작업 및 문제에 대한 Contribute 권한 이상</p>  </td> 
+   <td> <p>작업해야 하는 작업 및 문제에 권한 이상 부여</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ ht-degree: 4%
 
 작업을 필터링하려면 다음을 수행하십시오.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) 다음 위젯을 추가하려면 **사용자 지정**&#x200B;을 클릭합니다.
 
    | 위젯 | 설명 |
@@ -117,12 +117,12 @@ ht-degree: 4%
    | 내 요청 | 제출한 모든 요청을 표시합니다. |
    | 내 승인 | 보류 중, 지정, 위임 및 제출된 승인을 모두 표시합니다. |
 
-1. 위젯 작업 목록의 오른쪽 상단 모서리에 있는 **필터** 아이콘 ![](assets/filter-nwepng.png)을(를) 클릭합니다.
+1. 위젯 작업 목록의 오른쪽 상단 모서리에 있는 **필터** 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭합니다.
 1. **제안** 필터 또는 만든 필터를 선택하십시오.
 추천 필터에 대한 자세한 내용은 [홈 위젯 필터 개요](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)를 참조하세요.
 1. (선택 사항) **스택 필터**&#x200B;을(를) 전환하여 여러 필터 옵션을 선택합니다.
 
-   ![](assets/my-task-filter-open.png)
+   ![내 작업 필터 열림](assets/my-task-filter-open.png)
 
 
 ## 내 작업 그룹화
@@ -131,7 +131,7 @@ ht-degree: 4%
 
 작업 목록을 그룹화하려면:
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) 다음 위젯을 추가하려면 **사용자 지정**&#x200B;을 클릭합니다.
 
    | 위젯 | 설명 |
@@ -144,16 +144,16 @@ ht-degree: 4%
    | 내 요청 | 제출한 모든 요청을 표시합니다. |
    | 내 승인 | 보류 중, 지정, 위임 및 제출된 승인을 모두 표시합니다. |
 
-1. 위젯 작업 목록의 오른쪽 상단 모서리에 있는 **그룹** 아이콘 ![](assets/group-icon.png)을(를) 클릭합니다.
+1. 위젯 작업 목록의 오른쪽 상단 모서리에 있는 **그룹** 아이콘 ![그룹 아이콘](assets/group-icon.png)을 클릭합니다.
 1. **제안** 그룹화 또는 만든 그룹화를 선택하십시오.
-   ![](assets/grouping-expanded.png)
+   ![확장된 그룹화](assets/grouping-expanded.png)
 
 
 ## 작업 목록 열 사용자 정의
 
 위젯 작업 목록에 표시할 열을 선택할 수 있습니다.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) 다음 위젯을 추가하려면 **사용자 지정**&#x200B;을 클릭합니다.
 
    | 위젯 | 설명 |
@@ -166,10 +166,10 @@ ht-degree: 4%
    | 내 요청 | 제출한 모든 요청을 표시합니다. |
    | 내 승인 | 보류 중, 지정, 위임 및 제출된 승인을 모두 표시합니다. |
 
-1. 위젯 작업 목록의 오른쪽 상단 모서리에 있는 **열** 아이콘 ![](assets/column-icon.png)을(를) 클릭합니다.
+1. 위젯 작업 목록의 오른쪽 상단 모서리에 있는 **열** 아이콘 ![열 아이콘](assets/column-icon.png)을 클릭합니다.
 1. 기본 설정에 따라 열을 켜거나 끕니다.
-1. (선택 사항) **Drag** 아이콘 ![](assets/drag-icon.png)을(를) 클릭하여 열 순서를 변경합니다.
-   ![](assets/columns-expanded.png)
+1. (선택 사항) 열 순서를 변경하려면 **드래그** 아이콘 ![드래그 아이콘](assets/drag-icon.png)을 클릭합니다.
+   ![확장된 열](assets/columns-expanded.png)
 
 
 ## 지연 항목 보기
