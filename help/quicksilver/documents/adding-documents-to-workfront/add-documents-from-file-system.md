@@ -6,9 +6,9 @@ description: Adobe Workfront의 여러 영역에서 프로젝트, 작업 또는 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 8687e92ffed08e87fcb8c22816fd86bafa7f9e7a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
 1. 새 문서를 추가할 프로젝트, 작업 또는 문제로 이동합니다.
 1. **문서** 탭을 클릭한 다음 **새로 추가** 드롭다운 메뉴를 클릭합니다.
 
-   ![](assets/add-new-doc.png)
+   ![새 문서 추가](assets/add-new-doc.png)
 
 1. 추가할 문서의 유형에 따라 다음 중 하나를 수행합니다.
 
