@@ -6,9 +6,9 @@ description: 재원은 프로젝트에 기록된 시간 또는 비용 및 수익
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -149,15 +149,15 @@ ht-degree: 0%
 
 일괄적으로 편집하면서 재무 정보를 다시 계산할 수 있습니다. 자세한 내용은 이 문서에서 [재무 정보를 수동으로 다시 계산](#manually-recalculate-finances-in-bulk) 섹션을 참조하십시오.
 
-1. 재무 정보를 다시 계산하려는 프로젝트로 이동한 다음 프로젝트 이름 오른쪽에 있는 **자세히** 아이콘 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭합니다.
+1. 재무 정보를 다시 계산하려는 프로젝트로 이동한 다음 프로젝트 이름 오른쪽에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-icon-on-an-object.png)를 클릭합니다.
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![프로젝트 수준 추가 드롭다운](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    또는
 
-   프로젝트 목록 또는 보고서로 이동하여 하나 또는 여러 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭합니다.
+   프로젝트 목록 또는 보고서로 이동하여 하나 또는 여러 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-icon-on-an-object.png)를 클릭합니다.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![표현식 다시 계산](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -181,9 +181,9 @@ ht-degree: 0%
 여러 프로젝트의 재무 정보를 수동으로 다시 계산하려면
 
 1. 프로젝트 목록으로 이동합니다.
-1. 목록에서 여러 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭합니다.
+1. 목록에서 여러 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-icon-on-an-object.png)를 클릭합니다.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![표현식 다시 계산](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +207,4 @@ ht-degree: 0%
 >
 >프로젝트 상태를 변경하면 계획된 값만 다시 계산됩니다.
 
-**재무 다시 계산**&#x200B;을 클릭하여 프로젝트 수준의 **자세히** 메뉴 ![](assets/qs-more-menu.png)에서 재무 정보를 수동으로 다시 계산할 수도 있습니다.
+**재무 다시 계산**&#x200B;을 클릭하여 프로젝트 수준의 **기타** 메뉴 ![기타 메뉴](assets/qs-more-menu.png)에서 재무 정보를 수동으로 다시 계산할 수도 있습니다.
