@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,6 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             프로젝트 편집 상자에서 프로젝트를 편집할 때 프로젝트에 주석 추가</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>이제 프로젝트 편집 상자에서 편집할 때 프로젝트에 주석을 추가할 수 있습니다. 여러 프로젝트를 일괄적으로 편집할 때 한 번에 주석을 추가할 수도 있습니다. 이 업데이트 이전에는 프로젝트를 편집할 때 이 기능이 없었습니다.</p>
         </td>
         <td>

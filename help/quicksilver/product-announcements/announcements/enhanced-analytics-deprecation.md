@@ -7,9 +7,10 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 **언제?**
 
-* 25.2 릴리스(2025년 2월)
+* 5월 26일의 주
 
 **대신 사용할 수 있는 항목**
 
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 첫 번째 권장 사항은 조직에서 Workfront Data Connect에 액세스할 수 있도록 하고 가능한 한 빨리 그 사용을 숙지하는 것입니다. Data Connect 기능 및 사용 방법에 대한 자세한 내용은 [Workfront Data Connect 개요](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)를 참조하십시오.
 
-Data Connect는 새로운 Ultimate 플랜에 포함되어 있으며 새로운 Select 및 Prime 플랜의 추가 기능으로 구입할 수 있습니다. 기존 Workfront 플랜의 조직에서는 Data Connect를 사용할 수 없습니다. 조직이 현재 어떤 플랜을 사용하고 있는지, 그리고 Data Connect를 구매하는 방법을 알아보려면 Workfront 계정 담당자에게 문의하십시오.
+Data Connect가 새 Ultimate 플랜<!--, and can be purchased as an add-on to the new Select and Prime plans-->에 포함되어 있습니다. 기존 Workfront 플랜의 조직에서는 Data Connect를 사용할 수 없습니다. 조직이 현재 어떤 플랜을 사용하고 있는지, 그리고 Data Connect를 구매하는 방법을 알아보려면 Workfront 계정 담당자에게 문의하십시오.
 
 ### 향상된 Analytics 시각화 복제
 
@@ -59,6 +60,7 @@ No, it will be completely removed from the application.
 +++
 
 +++ What do I do if my organization is on a legacy Workfront plan but I want to use Data Connect?
-Contact your account representative about moving to one of the new Workfront plans.
 
+Contact your account representative about moving to one of the new Workfront plans.
++++
 -->

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,18 @@ Workfront 캘린더의 모양과 느낌을 Workfront의 다른 영역과 일관�
 * 기타
 
 자세한 내용은 [달력](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) 문서를 참조하십시오.
+
+## 프로젝트 보기에서 프로젝트 마일스톤 경로 보기를 업데이트했습니다.
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 2월 27일, 빠른 릴리스를 위한 프로덕션: 25.3 릴리스 포함(2025년 3월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+
+이제 프로젝트 목록 또는 보고서에서 마일스톤 경로에 액세스할 때 마일스톤 세부 정보 페이지의 모양과 느낌이 새로 달라집니다. 마일스톤 경로의 세부 사항 페이지에 액세스하려면 목록 또는 보고서 보기에 마일스톤 경로 이름 필드를 추가해야 합니다.
+
+이 업데이트에서는 각 이정표의 색상 및 색상 코드에 대한 정보도 추가했습니다.
+
+자세한 내용은 [마일스톤 경로 만들기](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)를 참조하세요.
 
 ## 문서 이메일에 대한 일시적인 모양 및 느낌 변경
 
