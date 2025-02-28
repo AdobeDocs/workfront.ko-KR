@@ -7,9 +7,9 @@ description: 프로젝트, 작업 및 문제의 Adobe Workfront 실제 시작 �
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 프로젝트의 세부 정보 섹션에서 실제 시작 일자를 찾으려면 다음을 수행합니다.
 
-1. Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **프로젝트**&#x200B;를 클릭합니다.
+1. Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **프로젝트**&#x200B;를 클릭합니다.
 1. 실제 시작 일자를 보려는 프로젝트를 클릭합니다.
 1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭한 다음 **개요** 섹션으로 이동합니다.
 
