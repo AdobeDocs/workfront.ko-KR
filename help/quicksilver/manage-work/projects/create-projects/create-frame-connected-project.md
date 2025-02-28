@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1180'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Frame.io의 프로젝트는 Workfront 그룹에 연결된 팀별로 구성됩니
 
 다음 섹션으로 이동합니다.
 
-![](assets/template-group.png)
+![템플릿 그룹](assets/template-group.png)
 
 ### 작업 추가 및 Frame.io 사용 사용자 할당
 
@@ -105,7 +105,7 @@ Frame.io의 프로젝트는 Workfront 그룹에 연결된 팀별로 구성됩니
    또는
 
    한 번에 하나씩 작업을 추가하고 추가 설정을 구성하려면 **새 템플릿 작업**을 클릭하십시오.
-   ![](assets/add-tasks-to-template.png)
+   ![템플릿에 작업 추가](assets/add-tasks-to-template.png)
 1. 작업 이름을 추가합니다.
 1. **할당** 영역에서 사용자 또는 팀을 할당합니다. 개별적으로 또는 팀에서 Frame.io 사용 사용자를 할당하면 Frame.io 프로젝트에 대한 공동 작업자 액세스 권한이 부여되고 이메일을 통해 Frame.io 프로젝트의 작업에 대한 알림이 전송됩니다. 해당 이메일에서 Frame.io 프로젝트에 참여하고 작업을 시작할 수 있습니다.
 1. 필요에 따라 1단계와 2단계를 반복합니다.
@@ -133,7 +133,7 @@ Workfront은 강력한 프로젝트 관리 기능을 제공합니다. [프로젝
 1. **템플릿의 새 프로젝트**&#x200B;를 클릭합니다.
 1. 검색 상자를 사용하여 필요한 템플릿의 이름을 입력하십시오.
 1. 템플릿 이름을 선택한 다음 **템플릿 사용**을 클릭합니다.
-   ![](assets/find-your-template.png)
+   ![템플릿 찾기](assets/find-your-template.png)
 1. 필요에 따라 프로젝트 설정을 조정한 다음 **프로젝트 만들기**&#x200B;를 클릭합니다.
 1. 왼쪽 패널에서 **문서**&#x200B;를 클릭합니다.
 1. 단방향 동기화 폴더를 사용하여 크리에이티브 자료를 Frame.io와 자동으로 공유할 수 있습니다. [!BADGE 준비 중]{type=Informative}
@@ -176,7 +176,7 @@ Workfront은 강력한 프로젝트 관리 기능을 제공합니다. [프로젝
    또는
 
    한 번에 하나의 작업을 추가하고 추가 설정을 구성하려면 **새 작업**을 클릭하십시오.
-   ![](assets/add-project-tasks.png)
+   ![새 작업](assets/add-project-tasks.png)
 1. 작업 이름을 추가합니다.
 1. **할당** 영역에서 사용자 또는 팀을 할당합니다. 개별적으로 또는 팀에서 Frame.io 사용 사용자를 할당하면 Frame.io 프로젝트에 대한 공동 작업자 액세스 권한이 부여되고 이메일을 통해 Frame.io 프로젝트의 작업에 대한 알림이 전송됩니다. 해당 이메일에서 Frame.io 프로젝트에 참여하고 작업을 시작할 수 있습니다.
 1. 필요에 따라 1단계와 2단계를 반복합니다.
