@@ -1,21 +1,21 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Experience Manager Assets 또는 Assets Essentials에서 연결된 에셋 보기 또는 다운로드
-description: Experience Manager Assets 또는 Assets Essentials에서 연결된 Adobe Workfront의 에셋을 보거나 다운로드할 수 있습니다.
+title: Experience Manager Assets 또는 Assets Essentials에서 연결된 에셋 조회 또는 다운로드
+description: Experience Manager Assets 또는 Assets Essentials에서 연결된 Adobe Workfront 에셋을 보거나 다운로드할 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
-# Experience Manager Assets 또는 Assets Essentials에서 연결된 에셋 보기 또는 다운로드
+# Experience Manager Assets 또는 Assets Essentials에서 연결된 에셋 조회 또는 다운로드
 
-Experience Manager Assets 또는 Assets Essentials에서 연결된 Adobe Workfront의 에셋을 보거나 다운로드할 수 있습니다.
+Experience Manager Assets 또는 Assets Essentials에서 연결된 Adobe Workfront 에셋을 보거나 다운로드할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -37,7 +37,7 @@ Experience Manager Assets 또는 Assets Essentials에서 연결된 Adobe Workfro
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
-   <td>Experience Manager as a Cloud Service 또는 Assets Essentials이 있어야 하며 Admin Console에서 사용자로 제품에 추가되어야 합니다.</td> 
+   <td>Experience Manager as a Cloud Service 또는 Assets Essentials가 있어야 하며 Admin Console에서 사용자로 제품에 추가되어야 합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -66,4 +66,4 @@ Experience Manager Assets 또는 Assets Essentials에서 연결된 Adobe Workfro
 1. 문서 목록에서 문서를 선택합니다.
 1. 오른쪽의 문서 요약에서 맨 위의 썸네일 위로 마우스를 가져간 후 **미리 보기** 또는 **다운로드**&#x200B;를 선택합니다.
 
-   ![](assets/preview-or-download-350x107.png)
+   ![미리 보기 또는 다운로드](assets/preview-or-download-350x107.png)
