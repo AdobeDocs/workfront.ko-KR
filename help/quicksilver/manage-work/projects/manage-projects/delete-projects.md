@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 1%
 프로젝트 목록에서 프로젝트를 삭제할 수 있습니다.
 
 1. 프로젝트 목록 또는 프로젝트 보고서로 이동합니다.
-1. 삭제할 프로젝트를 선택한 다음 목록 맨 위에 있는 **삭제** 아이콘 ![](assets/delete-icon.png)을(를) 클릭합니다.
+1. 삭제할 프로젝트를 선택한 다음 목록 맨 위에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭합니다.
 
 1. **예, 삭제**&#x200B;를 클릭하여 삭제를 확인합니다.
 
@@ -144,9 +144,9 @@ ht-degree: 1%
 ## 프로젝트 수준에서 프로젝트 삭제
 
 1. 삭제할 프로젝트로 이동합니다.
-1. 프로젝트 이름의 오른쪽에 있는 **자세히** 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭한 다음 **프로젝트 삭제**&#x200B;를 클릭합니다.
+1. 프로젝트 이름의 오른쪽에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-menu.png)를 클릭한 다음 **프로젝트 삭제**&#x200B;를 클릭합니다.
 
-   ![](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![메뉴가 더 확장됨](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. **예, 삭제**&#x200B;를 클릭합니다.
 
