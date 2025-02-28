@@ -6,9 +6,9 @@ description: 작업 작업 및 문제가 할당되면 내 작업 위젯, 내 작
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>작업해야 하는 작업 및 문제에 대한 Contribute 권한 이상</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>작업해야 하는 작업 및 문제에 권한 이상 부여</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,10 +63,10 @@ ht-degree: 0%
 
 내 작업 위젯에서 작업 항목을 보려면 다음과 같이 하십시오.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 작업** 위젯을 추가합니다.
 
-1. 위젯 작업 목록의 왼쪽 상단 모서리에 있는 **필터** 아이콘 ![](assets/filter-nwepng.png)을(를) 클릭합니다.
+1. 위젯 작업 목록의 왼쪽 상단 모서리에 있는 **필터** 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭합니다.
 
 1. 작업에 대해 다음 옵션 중 하나 또는 모두를 클릭합니다.
 
@@ -89,12 +89,12 @@ ht-degree: 0%
 
 팀 요청에 액세스하려면:
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **팀 요청** 위젯을 추가합니다.
 
    위젯은 팀 그룹화 아래에 팀 요청을 표시합니다. **[!UICONTROL 팀 요청]** 위젯은 사용자가 속한 모든 팀에 할당된 모든 요청을 표시하고 표시합니다. 팀 요청 작업에 대한 자세한 내용은 [작업 및 팀 요청 관리](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)를 참조하십시오.
 
-   ![](assets/team-request-widget.png)
+   ![팀 요청 위젯](assets/team-request-widget.png)
 
 ## 내 작업 위젯의 작업 항목 작업
 
@@ -102,13 +102,13 @@ ht-degree: 0%
 
 작업 항목에 대해 작업하려면
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 작업** 위젯을 추가합니다.
 
 1. 위젯의 **[!UICONTROL 작업 목록]** 영역에서 작업할 요청을 선택한 다음 **[!UICONTROL 작업]**&#x200B;을 클릭합니다.
 1. 작업 항목 위로 마우스를 가져간 다음 **요약** 아이콘을 클릭하여 작업 항목에 대한 정보를 봅니다.
 
-   ![](assets/open-summary-new-home.png)
+   ![요약 열기](assets/open-summary-new-home.png)
 
 
 ## 작업 항목 제거
@@ -117,20 +117,20 @@ ht-degree: 0%
 
 작업 항목을 제거하려면 다음 작업을 수행하십시오.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 작업** 위젯을 추가합니다.
 
 1. 위젯 작업 목록에서 작업 항목을 마우스로 가리킨 다음 **요약** 아이콘을 클릭하여 작업 항목에 대한 정보를 봅니다.
-   ![](assets/open-summary-new-home.png)
+   ![요약 열기](assets/open-summary-new-home.png)
 1. **할당** 섹션에서 이름을 제거합니다.
-   ![](assets/remove-assignment.png)
+   ![할당 제거](assets/remove-assignment.png)
 
 
 
 <!--
 ## Reassign a request
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
 
 1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 You can reply to a request to further clarify the request or to propose a new date.
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
 1. Locate the individual who assigned the request to you.
 
