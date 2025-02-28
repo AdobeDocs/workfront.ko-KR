@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: 비즈니스 사례 목표 만들기
-description: 비즈니스 사례를 만드는 과정의 일부로, 일련의 목표를 생성하여 프로젝트의 목표를 정의할 수 있습니다. 비즈니스 사례 목표는 프로젝트 완료를 위해 Portfolio 관리자 또는 프로젝트 스폰서에게 전달하는 데 사용됩니다.
+description: 비즈니스 사례를 만드는 과정의 일부로, 일련의 목표를 생성하여 프로젝트의 목표를 정의할 수 있습니다. 비즈니스 사례 목표는 프로젝트 완료를 위해 Portfolio 관리자 또는 프로젝트 스폰서와 통신하는 데 사용됩니다.
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
 # 비즈니스 사례 목표 만들기
 
-비즈니스 사례를 만드는 과정의 일부로, 일련의 목표를 생성하여 프로젝트의 목표를 정의할 수 있습니다. 비즈니스 사례 목표는 프로젝트 완료를 위해 Portfolio 관리자 또는 프로젝트 스폰서에게 전달하는 데 사용됩니다.
+비즈니스 사례를 만드는 과정의 일부로, 일련의 목표를 생성하여 프로젝트의 목표를 정의할 수 있습니다. 비즈니스 사례 목표는 프로젝트 완료를 위해 Portfolio 관리자 또는 프로젝트 스폰서와 통신하는 데 사용됩니다.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -31,9 +31,9 @@ ht-degree: 1%
 
 * 목표는 프로젝트의 비즈니스 사례에서 필수 섹션이 아닙니다.
 
-  비즈니스 사례의 목표 섹션이 정의되지 않은 경우에도 프로젝트는 Portfolio 최적화 도구에서 우선 순위 지정할 점수를 받을 수 있습니다.
+  비즈니스 사례의 목표 섹션이 정의되지 않은 경우에도 프로젝트는 Portfolio Optimizer에서 우선 순위 지정할 점수를 받을 수 있습니다.
 
-  Portfolio 최적화 프로그램 점수에 대한 자세한 내용은 [프로젝트에 스코어카드 적용 및 맞춤 점수 생성](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)을 참조하십시오.
+  Portfolio Optimizer 점수에 대한 자세한 내용은 [프로젝트에 스코어카드 적용 및 맞춤 점수 생성](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)을 참조하십시오.
 
 * 비즈니스 사례 목표에 대해서는 보고할 수 없습니다.
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
    비즈니스 사례가 표시됩니다.
 
-   ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   ![비즈니스 사례 정보](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. **목표** 섹션에서 **목표 편집**&#x200B;을 클릭합니다.
 
@@ -88,7 +88,7 @@ ht-degree: 1%
    * 낮음
    * 가장 낮음
 
-     ![](assets/g1-350x76.png)
+     중요도(assets/g1-350x76.png)
 
      목표의 중요도 수준은 사용자 지정할 수 없습니다.
 
