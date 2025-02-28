@@ -6,9 +6,9 @@ description: Workfront 확장 프로그램을 사용하여 Adobe Illustrator 및
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3107'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Illustrator 및 InDesign의 Workfront 확장을 [업데이트된 Creative Cloud 플러그인](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)(으)로 바꾸는 중입니다. 2022년 말부터 이 확장 프로그램은 더 이상 지원되지 않으며 그대로 사용할 수 있습니다.
+>Illustrator 및 InDesign용 Workfront 확장을 [업데이트된 Creative Cloud 플러그인](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)(으)로 바꾸는 중입니다. 2022년 말부터 이 확장 프로그램은 더 이상 지원되지 않으며 그대로 사용할 수 있습니다.
 
 Workfront 확장 프로그램을 사용하여 Adobe Illustrator 및 Adobe InDesign에서 저장하고 만든 디지털 콘텐츠를 Workfront으로 내보낼 수 있습니다. 이를 통해 문서 검토 및 승인 프로세스를 가속화할 수 있습니다.
 
@@ -70,7 +70,7 @@ Workfront 확장은 다음 애플리케이션에서 Adobe Creative Cloud 2017 �
 
 +++
 
-## Illustrator 또는 InDesign에서 Workfront 확장 기능에 로그인합니다 {#log-in-to-workfront-extension-from-illustrator-or-indesign}
+## Illustrator 또는 InDesign에서 Workfront 확장 프로그램에 로그인합니다 {#log-in-to-workfront-extension-from-illustrator-or-indesign}
 
 지원되는 Adobe 애플리케이션 중 하나에서 Workfront에 로그인하면 지원되는 모든 Adobe 애플리케이션에 로그인됩니다.
 
@@ -101,7 +101,7 @@ Adobe Creative Cloud에서 파일을 업로드하거나 내보낼 때 다음 사
 * 액세스 수준에서는 Workfront에 문서를 업로드할 수 있어야 합니다. 자세한 내용은 [문서에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)를 참조하십시오.
 * 문서를 원하는 항목에 업로드할 수 있는 권한이 있어야 합니다. 자세한 내용은 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
 * 선택한 Workfront 객체의 문서 영역에 파일이 업로드됩니다.
-* Adobe Creative Cloud 응용 프로그램에서 문서를 기본 메뉴 ![](assets/main-menu-icon.png)의 문서 영역으로 내보낼 수 없습니다.
+* Adobe Creative Cloud 응용 프로그램에서 문서를 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png)의 문서 영역으로 내보낼 수 없습니다.
 
 다음 섹션은 다음 사항을 설명합니다.
 
@@ -135,7 +135,7 @@ Adobe Creative Cloud 애플리케이션을 종료하지 않고 프로젝트, 작
 
 1. (선택 사항) 파일의 새 이름을 입력합니다.
 
-   ![](assets/rename-file-uploading.png)
+   ![파일 이름 바꾸기](assets/rename-file-uploading.png)
 
 1. **업로드**&#x200B;를 클릭합니다.
 
@@ -165,7 +165,7 @@ Adobe Creative Cloud 애플리케이션을 종료하지 않고 프로젝트, 작
 1. (조건부) 파일을 업로드할 작업 항목에 문서 폴더가 있는 경우 **문서 폴더를 선택하려면 클릭** 필드에서 문서 폴더를 선택한 다음 **선택**&#x200B;을 클릭합니다.
 1. (선택 사항) 문서의 이름을 바꾸려면 문서 이름을 클릭하고 새 이름을 입력합니다.
 
-   ![](assets/rename-doc-exporting.png)
+   ![내보낼 때 문서 이름 바꾸기](assets/rename-doc-exporting.png)
 
 1. **내보내기**&#x200B;를 클릭합니다.
 
@@ -211,7 +211,7 @@ Adobe Creative Cloud 애플리케이션을 종료하지 않고 프로젝트, 작
    >Workfront의 문서 이름은 기본적으로 채워지며 편집할 수 없습니다. 업로드하거나 새 버전으로 내보내는 파일의 이름도 변경되지 않습니다.
    >
    >
-   >![](assets/doc-name-cant-be-changed.png)
+   >![문서 이름을 변경할 수 없습니다](assets/doc-name-cant-be-changed.png)
 
 ## Illustrator 또는 InDesign의 Workfront 문서에 대한 댓글 {#comment-on-a-workfront-document-from-illustrator-or-indesign}
 
@@ -276,7 +276,7 @@ Adobe 애플리케이션에서 문서에 대한 승인을 요청하려면
 
    * 승인자의 이름을 입력한 다음 목록에 표시될 때 선택합니다.
 
-     ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+     ![문서 승인자 추가](assets/adobe-cc-adding-a-doc-approver-350x189.png)
 
    * 외부 사용자의 이메일 주소를 입력합니다.
 
@@ -289,7 +289,7 @@ Adobe 애플리케이션에서 문서에 대한 승인을 요청하려면
 
 ## Illustrator 또는 InDesign에서 증명 생성 {#generate-a-proof-from-illustrator-or-indesign}
 
-조직에서 자동화된 워크플로 템플릿을 사용하는 경우 응용 프로그램을 종료하지 않고 Adobe 응용 프로그램에서 만든 문서에 대한 증명을 생성할 수 있습니다. 증명 만들기에 대한 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)를 참조하십시오. 자동화된 워크플로 템플릿에 대한 자세한 내용은 [자동화된 워크플로 개요](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)에서 [자동화된 워크플로 템플릿](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)을 참조하십시오.
+조직에서 자동화된 워크플로 템플릿을 사용하는 경우 애플리케이션을 종료하지 않고 Adobe 애플리케이션에서 만든 문서에 대한 증명을 생성할 수 있습니다. 증명 만들기에 대한 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)를 참조하십시오. 자동화된 워크플로 템플릿에 대한 자세한 내용은 [자동화된 워크플로 개요](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)에서 [자동화된 워크플로 템플릿](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)을 참조하십시오.
 
 1. 지원되는 Adobe 애플리케이션 중 하나를 엽니다.
 1. Workfront 확장이 표시되지 않으면 **창** > **확장** > Workfront을 클릭합니다.
@@ -302,7 +302,7 @@ Adobe 애플리케이션에서 문서에 대한 승인을 요청하려면
 
    또는
 
-   이 문서의 [Workfront 프로젝트, 작업 또는 문제에 파일 업로드](#upload-a-file-to-a-workfront-project-task-or-issue) 섹션에 설명된 대로 Workfront 개체에 Adobe 문서를 업로드한 다음 문서 이름을 클릭합니다.
+   이 문서의 [Workfront 프로젝트, 작업 또는 문제에 파일 업로드](#upload-a-file-to-a-workfront-project-task-or-issue) 섹션에 설명된 대로 Adobe 문서를 Workfront 개체에 업로드한 다음 문서 이름을 클릭합니다.
 
 1. **형식을 선택하려면 클릭** 드롭다운 메뉴에서 Workfront에서 파일을 저장할 형식을 클릭합니다.
 
@@ -350,7 +350,7 @@ Adobe 애플리케이션에서 문서에 대한 승인을 요청하려면
 
 1. Adobe 응용 프로그램에서 **창** > **확장** > **Workfront**&#x200B;을 클릭합니다.
 
-1. 패널의 오른쪽 위 모서리에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭합니다.
+1. 패널의 오른쪽 상단에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다.
 
 1. (선택 사항) 간단한 설문 조사를 열고 Workfront for Adobe Creative Cloud에 대한 피드백을 Workfront에 보내려면 **피드백**&#x200B;을 클릭하십시오.
 1. **로그아웃**&#x200B;을 클릭합니다.\
@@ -366,7 +366,7 @@ Adobe 애플리케이션에서 문서에 대한 승인을 요청하려면
 Workfront은 InDesign에서 Workfront으로 파일을 내보내기 위해 다음과 같은 파일 형식을 지원합니다.
 
 * EPS - 캡슐화된 PostScript
-* EPUB - 고정 레이아웃 전자 발행
+* EPUB - 고정된 레이아웃 전자 발행
 * EPUB - 리플로우 가능한 전자 발행물 &#42;
 * HTML - 하이퍼텍스트 마크업 언어
 * IDML - InDesign 마크업 언어 &#42;
@@ -376,7 +376,7 @@ Workfront은 InDesign에서 Workfront으로 파일을 내보내기 위해 다음
 * SWF - Flash Player &#42;
 * XML - Extensible Markup Language &#42;
 
-&#42; **새 증명 업로드**&#x200B;를 사용하는 경우에는 이 파일 형식을 사용할 수 없습니다(이 옵션에 대한 자세한 내용은 이 문서의 [Illustrator 또는 InDesign에서 증명 생성](#generate-a-proof-from-illustrator-or-indesign)을 참조하십시오). **새 증명 PDF**&#x200B;을 사용하기 전에 이 파일 형식을 이미 선택한 경우, 시스템이 파일 형식을 업로드하도록 변경합니다. 목록에서 다른 형식을 선택할 수 있습니다.
+&#42; **새 증명 업로드**&#x200B;를 사용하는 경우에는 이 파일 형식을 사용할 수 없습니다(이 옵션에 대한 자세한 내용은 이 문서의 [Illustrator 또는 InDesign에서 증명 생성](#generate-a-proof-from-illustrator-or-indesign)을 참조하십시오). **새 증명 업로드**&#x200B;를 사용하기 전에 이 파일 형식을 이미 선택한 경우, 시스템이 파일 형식을 PDF으로 변경합니다. 목록에서 다른 형식을 선택할 수 있습니다.
 
 ### Adobe Illustrator에서 지원되는 내보낸 파일 형식  {#supported-exported-file-formats-for-adobe-illustrator}
 
