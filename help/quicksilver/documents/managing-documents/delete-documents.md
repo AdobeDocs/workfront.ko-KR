@@ -6,9 +6,9 @@ description: 업로드한 문서를 삭제할 수 있습니다. 특정 문서에
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 찾습니다.
 
-1. 문서 영역 위의 **삭제** 아이콘 ![](assets/delete.png)을(를) 클릭합니다.
+1. 문서 영역 위의 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다.
 
 1. 표시되는 상자에서 **예, 삭제**&#x200B;를 클릭하여 확인합니다.
 
