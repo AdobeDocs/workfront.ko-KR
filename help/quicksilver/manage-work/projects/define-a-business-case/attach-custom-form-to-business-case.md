@@ -5,9 +5,9 @@ description: 사용자 지정 Forms은 기존 Adobe Workfront 필드에 표시�
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,9 @@ ht-degree: 0%
 
 1. **사용자 정의 양식** 섹션의 드롭다운 메뉴에서 첨부할 사용자 정의 양식을 선택합니다.
 
-   ![](assets/custom-forms-drop-down-menu.png)
+   ![사용자 정의 양식 드롭다운](assets/custom-forms-drop-down-menu.png)
 
 1. (선택 사항) **사용자 정의 양식 편집**&#x200B;을 선택합니다.\
-   ![](assets/acf1-350x122.png)
+   ![사용자 정의 양식 편집](assets/acf1-350x122.png)
 
 1. (선택 사항) 사용자 정의 양식의 필드에 정보를 지정한 다음 **저장** 을 클릭합니다.
