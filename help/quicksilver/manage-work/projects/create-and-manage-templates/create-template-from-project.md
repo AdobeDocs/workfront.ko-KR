@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 1%
 ## 프로젝트에서 템플릿 만들기
 
 1. 템플릿으로 저장할 프로젝트로 이동합니다.
-1. **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **템플릿으로 저장**&#x200B;을 클릭합니다.
+1. **자세히** 메뉴 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭한 다음 **템플릿으로 저장**&#x200B;을 클릭합니다.
 1. 템플릿에 대해 다음 정보를 지정합니다.
 
    <table style="table-layout:auto"> 
@@ -94,17 +94,17 @@ ht-degree: 1%
 
 1. 양식을 제거하거나 순서를 변경하려면 **Forms 관리**&#x200B;를 클릭하십시오. 템플릿에서 사용자 정의 양식을 제거하고 순서를 변경하는 방법에 대한 자세한 내용은 [사용자 정의 양식](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)을 참조하십시오.
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![템플릿으로 저장 첫 단계](assets/save-as-template-first-step-350x159.png)
 
 1. **다음 단계를 클릭합니다.**
 1. **옵션** 섹션에서 템플릿에서 지우려는 정보 옆의 확인란을 선택합니다.
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![템플릿으로 저장 옵션](assets/save-as-template-options-step-350x109.png)
 
 1. **다음 단계를 클릭합니다.**
 1. **제외** 섹션에서 프로젝트에서 제외할 작업을 선택합니다.
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![템플릿으로 저장 제외](assets/save-as-template-exclude-350x205.png)
 
 1. **템플릿 완료 및 저장**&#x200B;을 클릭합니다.
 
