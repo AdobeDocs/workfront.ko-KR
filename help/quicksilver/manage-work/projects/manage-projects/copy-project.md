@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '776'
 ht-degree: 4%
 
 ---
@@ -112,15 +112,15 @@ ht-degree: 4%
 
 프로젝트를 복사하려면 다음 작업을 수행하십시오.
 
-1. 복사할 프로젝트로 이동한 다음 프로젝트 이름 오른쪽에 있는 **자세히** 아이콘 ![](assets/qs-more-menu.png)을 클릭합니다
+1. 복사할 프로젝트로 이동한 다음 프로젝트 이름 오른쪽에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-menu.png)를 클릭합니다
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![추가 드롭다운](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    또는
 
-   프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭합니다.
+   프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-menu.png)를 클릭합니다.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![메뉴가 더 확장됨](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. **복사**&#x200B;를 클릭합니다.
 
@@ -128,7 +128,7 @@ ht-degree: 4%
 
    기본적으로 새 이름은 **`<Original project name>`의 복사본**&#x200B;입니다.
 
-   ![](assets/copy-project-box-nwe-350x276.png)
+   ![프로젝트 상자 복사](assets/copy-project-box-nwe-350x276.png)
 
 1. 새 프로젝트에 대한 **상태**&#x200B;를 선택하십시오.
 
