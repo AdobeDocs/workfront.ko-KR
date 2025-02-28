@@ -6,9 +6,9 @@ description: Adobe Workfront에서 프로젝트를 만들면 프로젝트의 프
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Adobe Workfront에서 프로젝트를 만들면 프로젝트의 프로젝트 소
 
 1. 업데이트할 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭합니다.
-1. 프로젝트 세부 정보 영역의 오른쪽 상단에 있는 **편집** 아이콘 ![](assets/qs-edit-icon.png)을(를) 클릭한 다음 **개요**&#x200B;를 클릭합니다.
+1. 프로젝트 세부 정보 영역의 오른쪽 상단에 있는 **편집** 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭한 다음 **개요**&#x200B;를 클릭합니다.
 
 1. **프로젝트 소유자** 필드에 대한 사용자 이름을 지정하십시오.
 
@@ -121,7 +121,7 @@ Adobe Workfront에서 프로젝트를 만들면 프로젝트의 프로젝트 소
 
 1. 업데이트할 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭합니다.
-1. 프로젝트 세부 정보 영역의 오른쪽 상단에 있는 **편집** 아이콘 ![](assets/qs-edit-icon.png)을(를) 클릭한 다음 **개요**&#x200B;를 클릭합니다.
+1. 프로젝트 세부 정보 영역의 오른쪽 상단에 있는 **편집** 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭한 다음 **개요**&#x200B;를 클릭합니다.
 
 1. **프로젝트 스폰서** 필드에 대한 사용자 이름을 지정하십시오.
 
