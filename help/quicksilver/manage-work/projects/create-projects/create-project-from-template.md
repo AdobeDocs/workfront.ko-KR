@@ -6,9 +6,9 @@ description: 템플릿을 프레임워크로 사용하여 Adobe Workfront에서 
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
    <td role="rowheader">액세스 수준</td> 
    <td> <p>프로젝트 및 템플릿에 대한 액세스 편집</p>
 
-<p>사용하는 템플릿에 Portfolio 및 프로그램이 포함되어 있는 경우 Portfolio 및 프로그램에 대한 액세스 편집</p>
+<p>사용하는 템플릿에 Portfolio 및 프로그램이 포함된 경우 포트폴리오 및 프로그램에 대한 액세스 편집</p>
 
 </td> 
   </tr> 
@@ -137,7 +137,7 @@ ht-degree: 0%
       * 템플릿의 모든 작업 수
       * 템플릿 사용자 정의 양식의 이름
 
-   1. (선택 사항) 왼쪽 창의 템플릿 이름 위에 마우스를 놓고 **즐겨찾기** **아이콘** ![](assets/favorites-icon-small.png)을 클릭하여 나중에 사용할 수 있도록 즐겨찾기로 표시합니다.
+   1. (선택 사항) 왼쪽 창의 템플릿 이름 위에 마우스를 놓고 **즐겨찾기** **아이콘** ![즐겨찾기 아이콘](assets/favorites-icon-small.png)을 클릭하여 나중에 사용할 수 있도록 즐겨찾기로 표시합니다.
 
       또는
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 {{step1-to-templates}}
 
 1. 사용할 템플릿의 이름을 클릭합니다.
-1. **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **프로젝트 만들기**&#x200B;를 클릭합니다.
+1. **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **프로젝트 만들기**&#x200B;를 클릭합니다.
 
    ![템플릿에서 프로젝트 만들기](assets/project-sharing-on-template.png)
 
