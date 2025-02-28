@@ -6,9 +6,9 @@ description: 인쇄하거나 보다 압축된 형식으로 이메일에 첨부�
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -52,9 +52,9 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **비즈니스 사례**&#x200B;를 클릭합니다.
 1. 오른쪽 상단&#x200B;**비즈니스 사례 요약** 영역에서 **내보내기**&#x200B;를 클릭합니다.
 
-   ![](assets/bc-summary--350x587.png)\
-   PDF  파일이 컴퓨터에 다운로드됩니다. 파일에는 비즈니스 사례의 모든 영역이 읽기 쉬운 형식으로 포함되어 있습니다.
+   ![비즈니스 사례 요약](assets/bc-summary--350x587.png)\
+   A PDF  파일이 컴퓨터에 다운로드됩니다. 파일에는 비즈니스 사례의 모든 영역이 읽기 쉬운 형식으로 포함되어 있습니다.
 
    ![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)
 
-1. (선택 사항) PDF 파일을 전자 메일에 첨부하거나 인쇄하여 다른 사용자와 공유할 수 있습니다. 
+1. (선택 사항) PDF 파일을 이메일에 첨부하거나 인쇄하여 다른 사용자와 공유할 수 있습니다. 
