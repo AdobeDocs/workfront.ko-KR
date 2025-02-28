@@ -6,9 +6,9 @@ description: Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -88,15 +88,15 @@ Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼 수 있습�
 
 프로젝트 페이지나 프로젝트 목록 또는 보고서에서 Workfront에서 프로젝트를 내보낼 수 있습니다.
 
-1. 내보낼 프로젝트로 이동한 다음 프로젝트 이름 오른쪽에 있는 **자세히** 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭합니다
+1. 내보낼 프로젝트로 이동한 다음 프로젝트 이름 오른쪽에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-menu.png)를 클릭합니다
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![추가 드롭다운](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    또는
 
-   프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택한 다음 목록 맨 위에 있는 자세히 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭합니다.
+   프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택한 다음 목록 맨 위에 있는 자세히 아이콘 ![추가 메뉴](assets/qs-more-menu.png)를 클릭합니다.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![메뉴가 더 확장됨](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. **MS 프로젝트 내보내기**&#x200B;를 클릭합니다.
 
