@@ -6,9 +6,9 @@ description: 프로젝트를 템플릿으로 저장Save as a template at project
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 1%
 ## 프로젝트를 템플릿으로 저장
 
 1. 템플릿으로 저장할 프로젝트로 이동합니다.
-1. **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **템플릿으로 저장**&#x200B;을 클릭합니다.
+1. **자세히** 메뉴 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭한 다음 **템플릿으로 저장**&#x200B;을 클릭합니다.
 1. 템플릿에 대해 다음 정보를 지정합니다.
 
    <table style="table-layout:auto"> 
