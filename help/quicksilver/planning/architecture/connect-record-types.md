@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2344'
 ht-degree: 1%
 
 ---
@@ -59,9 +59,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront 계획<p></li>
-   <li><p> Adobe Experience Manager Assets, AEM assets를 Planning 레코드 유형과 연결하려면<p>
+   <li><p> Adobe Experience Manager Assets, AEM 에셋을 Planning 레코드 유형과 연결하려는 경우<p>
    <p>Adobe Experience Manager Assets 라이선스가 있어야 하며 AEM Assets과 Workfront 간의 통합이 있어야 합니다.
-    자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 문서 색인</a>을 참조하세요. </p>
+    자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p>
    </li>
    </ul></td> 
   </tr>   
@@ -83,8 +83,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -201,20 +201,22 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      >선택한 작업 영역에 다른 레코드 유형이 없는 경우 작업 영역 섹션이 표시되지 않습니다.
 
 
-   * 다른 작업 영역에서 연결하도록 구성된 다른 작업 영역의 레코드 유형입니다. 자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
-
-     ![](assets/new-connection-allow-multiple-records-box.png)
+   * 다른 작업 영역에서 연결하도록 구성된 다른 작업 영역의 레코드 유형입니다.
 
      >[!TIP]
      >
-     >다른 작업공간에서 연결하도록 구성된 레코드 유형이 없는 경우 작업공간 섹션이 표시되지 않습니다.
+     >다른 작업 영역에서 레코드 유형에 액세스하려면 **레코드 유형 편집** 상자의 **고급 설정** 탭에서 레코드 유형에 대해 **다른 작업 영역에서 연결** 설정을 사용하도록 설정해야 합니다. 다른 작업공간에서 연결하도록 구성된 레코드 유형이 없는 경우 작업공간 섹션이 표시되지 않습니다.
+     > ![레코드 종류 상자 고급 설정 탭](assets/edit-record-type-box-advanced-settings-tab.png)
 
+     자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
+
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * **Workfront 개체 유형** 섹션의 **프로젝트, Portfolio, 프로그램, 회사** 또는 **그룹**.
 
      ![](assets/workfront-project-connection-selection.png)
 
-   * **응용 프로그램 Adobe** 섹션의 **Experience Manager Assets**.
+   * **Experience Manager Assets 응용 프로그램** 섹션의 **Adobe**.
 
      ![](assets/aem-assets-connection-selection.png)
 
@@ -267,7 +269,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    > 이 목록에 표시되기 전에 선택한 개체에 대해 Workfront에서 사용자 정의 양식을 만들어야 합니다.
 
-1. (조건부) Experience Manager Assets에 연결하도록 선택한 경우 **다음 저장소에서 Experience Manager 연결** 섹션의 **저장소 연결** 드롭다운 메뉴에서 저장소를 선택합니다. 필수 필드입니다. Experience Manager Assets에서 액세스할 수 있는 저장소만 이 필드에 표시됩니다.
+1. (조건부) Experience Manager Assets에 연결하도록 선택한 경우 **다음 저장소에서 에셋 연결** 섹션의 **Experience Manager 저장소** 드롭다운 메뉴에서 저장소를 선택합니다. 필수 필드입니다. Experience Manager Assets에서 액세스할 수 있는 저장소만 이 필드에 표시됩니다.
 
    >[!NOTE]
    >

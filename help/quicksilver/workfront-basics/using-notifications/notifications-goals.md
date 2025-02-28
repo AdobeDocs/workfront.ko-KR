@@ -6,9 +6,9 @@ description: '알림: 목표'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '575'
 ht-degree: 4%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 4%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -55,18 +57,12 @@ ht-degree: 4%
 
 &#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
++++
+
 ## 전제 조건
 
-[!DNL Goals] 알림을 업데이트하는 사용자에게는 다음 항목이 있어야 합니다.
+* 업데이트하려는 [!DNL Goals] 알림의 사용자에게는 [!UICONTROL 기본 메뉴]의 [!DNL Goals] 영역을 포함하는 레이아웃 템플릿이 있어야 합니다.
 
-* [!UICONTROL 기본 메뉴]의 [!DNL Goals] 영역을 포함하는 레이아웃 템플릿입니다.
-* 새 [!DNL Adobe Workfront] 경험에 대한 액세스 권한.
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: we need this here because you can see these notifications from Classic)
-  </MadCap:conditionalText>
-  -->
 
 ## [!UICONTROL 사용자 프로필] 영역의 [!DNL Goals]개 알림
 

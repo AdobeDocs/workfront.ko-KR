@@ -7,9 +7,9 @@ description: '[!UICONTROL Portfolio 최적화 도구]는 프로젝트 평가 및
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 남음]</td> 
-   <td> <p>포트폴리오 내의 모든 프로젝트에 대한 [!UICONTROL 예산 비용] 이후의 나머지 예산을 포트폴리오의 예산에서 뺍니다.</p> <p>[!UICONTROL Remaining Portfolio Budget]은 다음 공식을 사용하여 계산됩니다.</p> <p><em>[!UICONTROL 남은 Portfolio 예산] = [!UICONTROL 총 Portfolio 예산] - 모든 Portfolio 프로젝트의 총 [!UICONTROL 예산 비용]</em> </p> <p>포트폴리오에 있는 모든 프로젝트의 전체 [!UICONTROL 예산 비용]은 예산 필드 아래의 표시기 막대에 표시됩니다. </p> <p>프로젝트의 비용 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">비용 추적</a>을 참조하세요.</p> </td> 
+   <td> <p>포트폴리오 내의 모든 프로젝트에 대한 [!UICONTROL 총 비용] 다음의 나머지 예산을 포트폴리오의 예산에서 뺍니다.</p> <p>[!UICONTROL Remaining Portfolio Budget]은 다음 공식을 사용하여 계산됩니다.</p> <p><em>[!UICONTROL 남은 Portfolio 예산] = [!UICONTROL 총 Portfolio 예산] - 모든 Portfolio 프로젝트의 총 [!UICONTROL 예산 비용]</em> </p> <p>포트폴리오 예산은 Portfolio Optimizer의 예산 필드에 수동으로 입력하는 것입니다. </p> <p>프로젝트의 비용 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">비용 추적</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 총 비용]</td> 

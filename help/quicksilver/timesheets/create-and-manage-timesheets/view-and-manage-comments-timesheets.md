@@ -6,9 +6,9 @@ description: 타임시트, 타임시트에 포함된 작업 항목 및 사용자
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 * 타임시트에서
 * 시간 항목
 * 작업 또는 문제와 같은 개별 항목에서
+
+타임시트 또는 메모 보고서의 개별 시간 항목에서 업데이트를 표시할 수 있습니다. 자세한 내용은 [메모 보고서의 모든 업데이트 보기](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)를 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -73,7 +75,7 @@ ht-degree: 0%
 1. 타임시트의 오른쪽 상단에서 **댓글 표시**를 클릭합니다.
 시간 항목과 댓글이 기록된 항목 아래에 댓글이 표시됩니다.
 
-   ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![다시 디자인된 타임시트 작업에서 확장된 주석](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
 
 ## 타임시트에 주석 달기 {#make-comments-on-a-timesheet}
@@ -86,7 +88,7 @@ ht-degree: 0%
 
 타임시트에 대한 일반적인 설명을 할 수 있습니다. 전체 타임시트에 댓글을 다는 것은 다른 오브젝트에 댓글을 다는 것과 비슷합니다.
 
-1. Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭하거나 사용 가능한 경우 왼쪽 상단의 **주 메뉴** 아이콘 ![](assets/lines-main-menu.png)을(를) 클릭합니다.
+1. Workfront 사용 가능한 경우 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png) 또는 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭합니다.
 
 1. **타임시트**&#x200B;를 클릭합니다.
 1. 댓글을 달려는 타임시트로 이동합니다.
@@ -113,7 +115,7 @@ ht-degree: 0%
 
 ### 타임시트의 개별 시간 항목에 주석 달기 {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+1. Adobe Workfront 오른쪽 위 모서리에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
 
 1. **타임시트**&#x200B;를 클릭합니다.
 1. 댓글을 달 타임시트로 이동하여 왼쪽 패널에서 **타임시트**&#x200B;를 클릭합니다.
@@ -128,11 +130,11 @@ ht-degree: 0%
 
    * 새 댓글을 입력하고 **완료**&#x200B;를 클릭하세요.
    * 기존 댓글을 편집하고 **완료**&#x200B;를 클릭하거나 **취소**&#x200B;를 클릭하여 변경 내용을 취소합니다.
-   * 저장된 댓글을 삭제하려면 **삭제** 아이콘 ![](assets/delete.png)을(를) 클릭하십시오.
+   * 저장된 댓글을 삭제하려면 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭하세요.
 
      시간 항목 상자의 오른쪽 위 모서리에 파란색 마커가 표시되어 시간 항목과 함께 기록된 댓글이 있음을 나타냅니다.
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![다시 디자인된 타임시트의 시간 로그에 주석 단추](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -152,7 +154,7 @@ ht-degree: 0%
 
 타임시트의 작업 및 문제에만 댓글을 달 수 있습니다. 프로젝트 또는 일반 시간에 대해 댓글을 달 수 없습니다.
 
-1. Adobe Workfront 오른쪽 상단의 [!UICONTROL **주 메뉴**] 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+1. Adobe Workfront 오른쪽 위 모서리에 있는 [!UICONTROL **주 메뉴**] 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
 1. [!UICONTROL **타임시트**]&#x200B;를 클릭합니다.
 1. 댓글을 달려는 타임시트로 이동하여 왼쪽 패널에서 [!UICONTROL **타임시트**]&#x200B;를 클릭합니다.
 1. 작업 또는 문제의 행을 클릭한 다음 [!UICONTROL **요약 열기**]&#x200B;를 클릭합니다.

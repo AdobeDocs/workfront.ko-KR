@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1811'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 2%
 >
 >이 문서의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning을 참조합니다.
 >
->Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
+>Workfront Planning의 모든 기능에 대한 전체 액세스 권한을 얻으려면 다음이 있어야 합니다.
 >
 >* 새로운 Workfront 패키지 및 라이선스. 기존 Workfront 패키지 또는 라이선스에는 Workfront Planning을 사용할 수 없습니다.
 >* Workfront Planning 패키지
->* 조직의 Workfront 인스턴스는 통합 경험 Adobe에 온보딩되어야 합니다.
+>* 조직의 Workfront 인스턴스는 Adobe 통합 경험에 온보딩되어야 합니다.
 >
 > Workfront Planning에 액세스하기 위한 전체 요구 사항 목록은 [Adobe Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 > 
@@ -272,7 +272,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
    * 기록 유형 및 Workfront 프로젝트, 프로그램, 포트폴리오, 회사 또는 그룹 객체 유형.
    * 레코드 유형 및 Adobe Experience Manager 에셋 또는 폴더입니다.
 
-     레코드 종류를 Experience Manager 개체와 연결하려면 Adobe Experience Manager 라이선스가 있어야 합니다.
+     레코드 종류를 Experience Manager 개체에 연결하려면 Adobe Experience Manager 라이선스가 있어야 합니다.
 
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
@@ -325,7 +325,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 ## Adobe Workfront Planning 찾기
 
-Adobe Planning을 찾으려면 조직에서 Workfront Planning에 대한 액세스 권한을 받았는지, 시스템 또는 그룹 관리자가 [기본 메뉴]에 [계획] 영역을 추가했는지 확인하십시오. 자세한 내용은 [Adobe 계획 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+Adobe Planning을 찾으려면 조직에서 Workfront Planning에 대한 액세스 권한을 받았는지, 시스템 또는 그룹 관리자가 [기본 메뉴]에 [계획] 영역을 추가했는지 확인하십시오. 자세한 내용은 [Adobe Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
 Workfront Planning을 찾으려면 다음을 수행합니다.
 
