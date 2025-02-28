@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -62,14 +62,14 @@ Adobe Workfront에서 작업 항목에 대한 시간을 기록하여 작업에 �
 {{step1-to-priorities}}
 
 1. 이름을 마우스로 가리킨 다음 **로그 시간**을 클릭합니다.
-   ![](assets/update-log-upload.png)
+   ![업데이트, 로그 시간 및 업로드](assets/update-log-upload.png)
 1. **시간 유형** 드롭다운 메뉴에서 적절한 시간 유형을 선택합니다. 시간 유형 및 가용성 정의에 설명된 대로 시스템, 프로젝트 및 사용자 수준에서 정의된 내용에 따라 시간 유형을 사용할 수 있습니다.
 
 1. (조건부) Workfront 또는 그룹 관리자가 시간 항목에 작업 역할 할당 수동 설정을 활성화한 경우 드롭다운 메뉴에서 작업 역할을 선택합니다. 작업 항목에 할당할 때 지정된 역할이 기본적으로 표시됩니다. 오브젝트에 역할이 할당되지 않은 경우 기본 역할이 기본값으로 표시됩니다. 기본 역할이 할당되지 않은 경우 작업 역할이 표시되지 않습니다.
 
 1. 기록할 시간을 입력한 다음 **시간 기록**&#x200B;을 클릭합니다.
 
-   ![](assets/log-time-dialog.png)
+   ![로그 시간](assets/log-time-dialog.png)
 
 ## 작업 항목에 시간 기록
 
@@ -84,4 +84,4 @@ Adobe Workfront에서 작업 항목에 대한 시간을 기록하여 작업에 �
 
 1. 기록할 시간을 입력한 다음 **시간 기록**&#x200B;을 클릭합니다.
 
-   ![](assets/log-time-dialog.png)
+   ![로그 시간](assets/log-time-dialog.png)
