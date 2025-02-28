@@ -6,9 +6,9 @@ description: 프로젝트 관리자는 특정 프로젝트의 작업 역할에 �
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. **작업 역할** 필드에서 청구 요금을 변경할 작업 역할을 선택합니다.
 
-   ![](assets/override-billing-rate-on-project-nwe-350x310.png)
+   ![프로젝트에 대한 청구 요금 재정의](assets/override-billing-rate-on-project-nwe-350x310.png)
 
    **기본 청구 요금** 필드에 이 작업 역할에 대한 시스템 수준 요금이 표시됩니다.
 
