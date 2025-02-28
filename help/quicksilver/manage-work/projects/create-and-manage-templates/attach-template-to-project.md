@@ -6,9 +6,9 @@ description: 프로젝트의 초기 생성 단계 또는 생성 후 프로젝트
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1165'
 ht-degree: 4%
 
 ---
@@ -77,15 +77,15 @@ ht-degree: 4%
 
 프로젝트 페이지나 프로젝트 목록 또는 보고서에서 Workfront의 프로젝트에 템플릿을 첨부할 수 있습니다.
 
-1. 템플릿을 첨부할 프로젝트로 이동한 다음 프로젝트 이름 오른쪽에 있는 **자세히** 아이콘 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭합니다
+1. 템플릿을 첨부할 프로젝트로 이동한 다음 프로젝트 이름 오른쪽에 있는 **자세히** 아이콘 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭합니다
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![추가 드롭다운](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    또는
 
-   프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭합니다.
+   프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭합니다.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![메뉴가 더 확장됨](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 
 1. **템플릿 첨부**&#x200B;를 클릭합니다.
@@ -106,16 +106,16 @@ ht-degree: 4%
    * 총 작업 수
    * 첨부된 사용자 정의 양식의 이름
 
-   ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![템플릿 상자 첨부](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (선택 사항) 템플릿 이름 왼쪽의 **즐겨찾기** 아이콘 ![](assets/favorites-icon-small.png)을(를) 클릭하여 즐겨찾기로 표시합니다. 즐겨찾기 목록의 템플릿이 이동합니다.
+1. (선택 사항) 템플릿 이름 왼쪽의 **즐겨찾기** 아이콘 ![즐겨찾기 아이콘](assets/favorites-icon-small.png)을 클릭하여 즐겨찾기로 표시합니다. 즐겨찾기 목록의 템플릿이 이동합니다.
 
-   ![](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+   템플릿 목록의 ![즐겨찾기 아이콘](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
 
-1. (선택 사항) **즐겨찾기** 아이콘 ![](assets/favorites-icon-selected.png)을(를) 다시 클릭하여 즐겨찾기 목록에서 제거합니다.
+1. (선택 사항) **즐겨찾기** 아이콘 ![즐겨찾기 아이콘](assets/favorites-icon-selected.png)을 다시 클릭하여 즐겨찾기 목록에서 제거합니다.
 1. **사용자 지정 및 첨부**&#x200B;를 클릭합니다.
 
-   ![](assets/attach-template-large-box-nwe-350x262.png)
+   ![템플릿 첨부](assets/attach-template-large-box-nwe-350x262.png)
 
 1. 템플릿을 첨부하기 전에 다음 섹션의 정보를 업데이트하십시오(또는 언제든지 **템플릿 첨부**&#x200B;를 클릭하십시오).
 
@@ -193,6 +193,6 @@ ht-degree: 4%
 1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭합니다.
 1. **프로젝트 관계** 아래 **개요** 섹션 아래쪽의 **템플릿** 필드에서 프로젝트에 첨부된 템플릿의 이름을 찾습니다.
 
-   ![](assets/nwe-template-info-on-project-350x356.png)
+   ![프로젝트의 템플릿 정보](assets/nwe-template-info-on-project-350x356.png)
 
 
