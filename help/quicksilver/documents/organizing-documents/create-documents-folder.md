@@ -6,9 +6,9 @@ description: 문서를 폴더로 구성할 수 있습니다. 개인 문서 영�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Workfront 개체를 연 상태에서 왼쪽 패널에서 **문서**&#x200B;를 �
 
 1. 문서 표시 방법을 변경하려면 오른쪽 패널 위의 보기 옵션을 클릭합니다.
 
-   ![](assets/screenshot-2016-07-07-12.46.54.png)
+   ![문서 보기 옵션](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## 폴더 및 하위 폴더 만들기
 
