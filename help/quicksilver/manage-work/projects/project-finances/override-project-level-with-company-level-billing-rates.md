@@ -6,9 +6,9 @@ description: 프로젝트 수준 청구 요율을 회사 수준 청구 요율로
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 1%
 사용자가 프로젝트의 재무를 수동으로 다시 계산할 때 회사 수준의 청구 요금에 대한 모든 변경 사항이 적용됩니다. 청구됨으로 표시되지 않는 한 과거 수익 계산도 무시됩니다.
 
 1. 프로젝트로 이동합니다.
-1. 헤더의 프로젝트 이름 옆에 있는 **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
+1. 헤더의 프로젝트 이름 옆에 있는 **기타** 메뉴 ![기타 메뉴](assets/qs-more-icon-on-an-object.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 1. **재무** 섹션에서 **회사 수준의 청구 요금이 프로젝트 수준의 청구 요금을 재정의할 수 있도록 허용**&#x200B;을(를) 설정합니다.
 
    >[!CAUTION]
@@ -103,4 +103,4 @@ ht-degree: 1%
    * 단일 프로젝트:
 
       1. 회사 수준 청구 요율 재정의를 활성화한 프로젝트로 이동합니다.
-      1. 헤더의 프로젝트 이름 옆에 있는 **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **재무 다시 계산**&#x200B;을 클릭합니다.
+      1. 헤더의 프로젝트 이름 옆에 있는 **기타** 메뉴 ![기타 메뉴](assets/qs-more-icon-on-an-object.png)를 클릭한 다음 **재무 다시 계산**&#x200B;을 클릭합니다.
