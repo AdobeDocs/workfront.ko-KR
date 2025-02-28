@@ -5,9 +5,9 @@ description: 프로젝트 요청에 대한 비즈니스 사례를 완료하고 �
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 * 비즈니스 사례 승인이 필요한 개별 프로젝트로 직접 이동해야 승인 보류 중인지 확인할 수 있습니다. 프로젝트의 비즈니스 사례를 승인해야 한다고 경고하는 Workfront 알림 메커니즘이 없습니다.
 * 프로젝트 보고서를 작성하거나 프로젝트 보고서와 연결된 포트폴리오에 액세스하여 비즈니스 사례 승인을 기다리고 있는 프로젝트를 찾을 수 있습니다.
 
-  Portfolio에 대한 자세한 내용은 문서 [Adobe Workfront의 Portfolio 개요](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)를 참조하십시오.
+  포트폴리오에 대한 자세한 내용은 문서 [Adobe Workfront의 Portfolio 개요](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)를 참조하십시오.
 
 ## 프로젝트 보고서를 작성하여 비즈니스 사례 승인
 
@@ -106,7 +106,7 @@ ht-degree: 0%
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   Portfolio 관리자로 지정된 위치를 표시합니다.
+   Portfolio Manager로 지정된 위치를 표시합니다.
 
 1. **저장+닫기**&#x200B;를 클릭합니다.
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **비즈니스 사례**&#x200B;를 클릭합니다.
 1. 비즈니스 사례 요약 영역에서 **승인** 또는 **거부**&#x200B;를 클릭하여 비즈니스 사례를 승인하거나 거부합니다.
 
-   ![](assets/business-case-summary-with-rp-information--1-.png)
+   ![비즈니스 사례](assets/business-case-summary-with-rp-information--1-.png)
 
    비즈니스 사례가 승인되면 프로젝트 상태가 **승인됨**(으)로 변경됩니다.
 
