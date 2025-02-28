@@ -5,9 +5,9 @@ description: 수익 및 추적 경비를 설정하는 것 외에도 청구해야
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -241,7 +241,7 @@ ht-degree: 0%
 
    또는
 
-   오른쪽 상단의 **편집 아이콘** ![](assets/edit-icon.png)을(를) 클릭한 다음 사용 가능한 필드에서 정보를 편집합니다.
+   오른쪽 상단의 **편집 아이콘** ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 사용 가능한 모든 필드에서 정보를 편집합니다.
 
    다음 내용을 업데이트합니다.
 
