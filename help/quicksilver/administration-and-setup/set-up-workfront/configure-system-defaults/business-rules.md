@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 0%
@@ -75,7 +75,10 @@ IF 문에 대한 자세한 내용은 계산된 사용자 지정 필드의 [&quot
 API 와일드카드는 비즈니스 규칙에서도 사용할 수 있습니다. `$$ISAPI`을(를) 사용하여 API에서만 규칙을 트리거합니다. `!$$ISAPI`을(를) 사용하여 사용자 인터페이스에서만 규칙을 적용하고 사용자가 API를 통해 규칙을 무시할 수 있도록 합니다.
 
 * 예를 들어 이 규칙은 사용자가 API를 통해 완료된 프로젝트를 편집할 수 없도록 합니다. 와일드카드가 사용되지 않은 경우 규칙은 사용자 인터페이스와 API 모두에서 작업을 차단합니다.
-  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
+
+  ```
+  IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")
+  ```
 
 `$$BEFORE_STATE` 및 `$$AFTER_STATE` 와일드카드는 편집 전후에 개체의 필드 값에 액세스하는 데 표현식에 사용됩니다.
 
@@ -85,8 +88,17 @@ API 와일드카드는 비즈니스 규칙에서도 사용할 수 있습니다. 
 
 몇 가지 간단한 비즈니스 규칙 시나리오는 다음과 같습니다.
 
-* 2월 마지막 주 중에는 새 경비를 추가할 수 없습니다. 이 수식은 다음과 같이 지정할 수 있습니다. `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* 완료 상태인 프로젝트의 프로젝트 이름은 편집할 수 없습니다. 이 수식은 다음과 같이 지정할 수 있습니다. `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
+* 2월 마지막 주 중에는 새 경비를 추가할 수 없습니다. 이 공식은 다음과 같이 명시될 수 있습니다.
+
+  ```
+  IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")
+  ```
+
+* 완료 상태인 프로젝트의 프로젝트 이름은 편집할 수 없습니다. 이 공식은 다음과 같이 명시될 수 있습니다.
+
+  ```
+  IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
+  ```
 
 중첩된 IF 문이 있는 시나리오는 다음과 같습니다.
 
