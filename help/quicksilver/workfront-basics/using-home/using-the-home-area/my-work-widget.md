@@ -6,10 +6,10 @@ description: 내 작업 위젯은 할당된 모든 작업, 문제 및 요청을 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 5%
+source-wordcount: '744'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
-   <td> <p>현재: Contribute</p>
+   <td> <p>현재: 기여</p>
    <p>또는</p> 
    <p>새로 만들기:[!UICONTROL Light] 이상<p> 
   </td> 
@@ -50,7 +50,7 @@ ht-degree: 5%
   </tr>  
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>작업해야 하는 작업 및 문제에 대한 Contribute 권한 이상</p>  </td> 
+   <td> <p>작업해야 하는 작업 및 문제에 권한 이상 부여</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ ht-degree: 5%
 
 내 작업 필터를 미세 조정하여 작업 목록의 특정 항목에 집중할 수 있습니다.
 
-![](assets/filter-my-work-widget.png)
+![내 작업 필터](assets/filter-my-work-widget.png)
 
 ### 필터 세부 정보
 
@@ -135,7 +135,7 @@ ht-degree: 5%
 >내 작업 위젯의 맨 위에 모든 기한 경과 항목을 표시하는 목록을 만들려면 기한을 기준으로 정렬하고 그룹화를 적용하지 마십시오.
 
 
-![](assets/sort-my-work-widget.png)
+![내 작업 위젯에서 정렬](assets/sort-my-work-widget.png)
 
 ### 그룹
 
@@ -151,7 +151,7 @@ ht-degree: 5%
 >그룹화를 적용하면 [정렬] 메뉴에서 선택한 항목에 따라 그룹화 내의 순서가 결정됩니다.
 
 
-![](assets/group-my-work-widget.png)
+![내 작업 위젯에서 그룹화](assets/group-my-work-widget.png)
 
 ## 요약에서 작업 항목 정보 업데이트
 
@@ -167,7 +167,7 @@ Workfront 관리자는 레이아웃 템플릿의 요약에 표시되는 필드�
 * 로그 시간
 * 첨부된 승인 진행 보기
 
-요약을 열려면 작업 항목 위로 마우스를 가져간 다음 **요약** 아이콘 ![](assets/open-summary-new-home.png)을(를) 클릭합니다.
+요약을 열려면 작업 항목 위로 마우스를 가져간 다음 **요약** 아이콘 ![요약 아이콘](assets/open-summary-new-home.png)을 클릭합니다.
 
 요약 패널 사용 방법에 대한 자세한 내용은 [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.
 
@@ -182,7 +182,7 @@ Workfront 관리자는 레이아웃 템플릿의 요약에 표시되는 필드�
 
 빠른 작업 메뉴를 찾으려면 작업 항목 위로 마우스를 가져갑니다. 빠른 작업 목록은 **처리 중** 또는 **완료** 단추 근처에 표시됩니다.
 
-![](assets/quick-actions-new-home.png)
+![빠른 작업 메뉴](assets/quick-actions-new-home.png)
 
 
 ## 승인 및 팀 요청 보기
