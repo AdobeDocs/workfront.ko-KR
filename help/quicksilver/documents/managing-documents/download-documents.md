@@ -6,9 +6,9 @@ description: Adobe Workfront에서 문서를 개별적으로 또는 대량으로
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Adobe Workfront에서 문서를 개별적으로 또는 대량으로 다운로드
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 찾습니다.
 
-1. **선택한 다운로드** 아이콘 ![](assets/download-icon.png)을(를) 클릭합니다.
+1. **선택한 항목 다운로드** 아이콘 ![선택한 항목 다운로드](assets/download-icon.png)를 클릭합니다.
 
 ## 여러 문서를 동시에 다운로드
 
@@ -69,6 +69,6 @@ Adobe Workfront에서 문서를 개별적으로 또는 대량으로 다운로드
    >Box, Dropbox, Google Drive 등에서 Workfront에 연결된 문서는 일괄적으로 다운로드할 수 없습니다.
 
 1. (선택 사항) 폴더 목록에서 다운로드할 문서가 포함된 폴더를 선택합니다.
-1. 선택한 다운로드 아이콘 ![](assets/download-icon.png)을(를) 클릭합니다.
+1. 선택한 항목 다운로드 아이콘 ![선택한 항목 다운로드 아이콘](assets/download-icon.png)을 클릭합니다.
 
    폴더는 .zip 파일로 다운로드되며 4GB로 제한됩니다.
