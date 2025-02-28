@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '643'
 ht-degree: 4%
 
 ---
@@ -131,7 +131,11 @@ ht-degree: 4%
 
 ## 스마트 필터를 사용하여 작업 필터링
 
-자연어를 사용하여 작업을 빠르게 필터링합니다. Workfront 인스턴스는 새로운 Workfront 플랜에 있어야 하며 Adobe 통합 경험에서 활성화되어야 합니다. 자세한 내용은 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하십시오.
+자연어를 사용하여 작업을 빠르게 필터링합니다.
+
+>[!NOTE]
+>
+>이 기능은 AI Assistant를 사용하여 통합 Adobe 환경을 사용하는 고객만 사용할 수 있습니다. AI Assistant에 대한 자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
 
 {{step1-to-priorities}}
 

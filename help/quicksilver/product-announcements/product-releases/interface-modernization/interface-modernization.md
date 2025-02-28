@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 ### 반복에 스토리 및 문제 추가
 
-**미리 보기 릴리스: 2025년 2월 6일, 프로덕션 릴리스: 발표 예정**
+**미리 보기 릴리스: 2025년 2월 6일, 프로덕션 릴리스: 2025년 2월 13일 주에 시작**
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 스토리 추가 및 문제 추가 대화 상자를 업데이트했습니다.
 
