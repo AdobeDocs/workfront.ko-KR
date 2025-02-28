@@ -7,9 +7,9 @@ description: 성과 지표인 EAC(완료 시 추정 비용)는 프로젝트 또�
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -140,4 +140,4 @@ EAC = EAC Labor + EAC Expense
 
    EAC 값이 **완료 시 예상** 필드에 표시됩니다.
 
-   ![](assets/eac-highlighted-on-project-350x112.png)
+   프로젝트의 ![EAC](assets/eac-highlighted-on-project-350x112.png)
