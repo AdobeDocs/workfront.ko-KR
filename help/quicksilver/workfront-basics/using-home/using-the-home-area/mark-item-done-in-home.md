@@ -6,16 +6,16 @@ description: 작업 또는 문제 피할당자인 경우 작업 또는 문제를
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Home] 영역에서 항목을 [!UICONTROL Done](으)로 표시
+# [!UICONTROL Home] 영역에서 항목을 [!UICONTROL Done]&#x200B;(으)로 표시
 
-작업 또는 문제 피할당자인 경우 작업 또는 문제를 완료로 표시할 수 있습니다. 작업 또는 문제를 [!UICONTROL 완료](으)로 표시하면 작업 또는 문제의 상태가 [!UICONTROL 완료](으)로 변경됩니다.
+작업 또는 문제 피할당자인 경우 작업 또는 문제를 완료로 표시할 수 있습니다. 작업 또는 문제를 [!UICONTROL 완료]&#x200B;(으)로 표시하면 작업 또는 문제의 상태가 [!UICONTROL 완료]&#x200B;(으)로 변경됩니다.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>작업해야 하는 작업 및 문제에 대한 Contribute 권한 이상</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>작업해야 하는 작업 및 문제에 권한 이상 부여</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,27 +58,27 @@ ht-degree: 0%
 
 ## 내 작업 위젯에서 작업 항목을 완료로 표시
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 작업** 위젯을 추가합니다.
 1. 작업 항목을 찾은 다음 작업 항목에서 **[!UICONTROL 완료로 표시]**를 클릭합니다.
 이 단추가 표시되는 방법에 대한 자세한 내용은 [[!UICONTROL 완료] 단추의 옵션 이해](#understand-the-options-of-the-done-button)를 참조하십시오.
-   ![](assets/my-work-done.png)
+   ![내 작업 표시 완료](assets/my-work-done.png)
 
 
 ## 요약 패널에서 작업 항목을 완료됨으로 표시
 
 요약 패널을 사용하여 내 작업 및 내 문제 위젯에서 작업 항목을 완료 로 표시할 수 있습니다.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 작업** 또는 **내 문제** 위젯을 추가합니다.
 1. 작업 항목을 마우스로 가리킨 다음 **요약** 아이콘을 클릭합니다.
-   ![](assets/open-summary-new-home.png)
+   ![요약 열기](assets/open-summary-new-home.png)
 1. 요약 패널 상단의 **완료 표시**&#x200B;를 클릭합니다.
 
 
 ## [!UICONTROL 완료] 단추의 옵션 이해
 
-기본적으로 작업 항목에서 [!UICONTROL 완료] 단추를 클릭하면 해당 항목의 상태가 [!UICONTROL 완료](작업의 경우) 또는 [!UICONTROL 해결됨](문제의 경우)으로 변경됩니다.
+기본적으로 작업 항목에서 [!UICONTROL 완료] 단추를 클릭하면 해당 항목의 상태가 [!UICONTROL 완료]&#x200B;(작업의 경우) 또는 [!UICONTROL 해결됨]&#x200B;(문제의 경우)으로 변경됩니다.
 
 [!DNL Adobe Workfront] 관리자는 [!UICONTROL 완료] 단추와 연결된 상태를 사용자 지정하고 이러한 사용자 지정을 홈 팀에 적용할 수 있습니다.
 
@@ -113,5 +113,5 @@ ht-degree: 0%
 >
 >여러 명의 할당자가 있는 작업 또는 문제에서 각 사용자는 작업 또는 문제에 대한 자신의 할당이 실제로 완료되었음을 표시할 책임이 있습니다. 따라서 각 할당자는 [!UICONTROL 완료]를 클릭하여 항목에서 할당된 작업을 완료했음을 표시해야 합니다.
 
-![](assets/done-with-my-part.png)
+![내 파트 완료](assets/done-with-my-part.png)
 
