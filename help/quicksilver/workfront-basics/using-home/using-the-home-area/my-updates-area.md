@@ -6,9 +6,9 @@ description: '[!UICONTROL 내 업데이트] 영역을 사용하여 결정을 기
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -76,13 +76,13 @@ ht-degree: 0%
 
 1. **[!UICONTROL 기본 메뉴]**&#x200B;에서 **[!UICONTROL 내 업데이트]**&#x200B;를 클릭합니다.
 
-   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+   ![주 메뉴의 내 업데이트](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
    [!UICONTROL 내 업데이트] 영역이 열립니다.
 
    귀하에게 할당된 액세스 승인 및 요청이 **내 업데이트** 아래 페이지 전반부에 나열됩니다.
 
-   ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+   ![검토자를 위한 내 업데이트 언급](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (선택 사항) [!UICONTROL **내 업데이트**] 영역의 아래쪽으로 스크롤하여 오른쪽 방향 화살표를 클릭하면 추가 페이지에 표시되는 승인이 더 많이 표시됩니다.
 
@@ -90,9 +90,9 @@ ht-degree: 0%
    >
    >기본적으로 처음 5개의 액세스 승인 또는 요청이 표시됩니다. 나머지 승인은 추가 페이지에 표시됩니다. [!UICONTROL 내 업데이트] 영역에 최대 2000개의 승인을 표시할 수 있습니다.
 
-   ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![내 업데이트에 대한 페이지 매김](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (선택 사항) **[!UICONTROL 내 업데이트]** 섹션의 오른쪽 위 모서리에 있는 **[!UICONTROL 필터]** 드롭다운 메뉴 ![](assets/filter-nwepng.png)을(를) 확장하고 다음 중에서 선택합니다.
+1. (선택 사항) **[!UICONTROL 내 업데이트]** 섹션의 오른쪽 위 모서리에 있는 **[!UICONTROL 필터]** 드롭다운 메뉴 ![필터 아이콘](assets/filter-nwepng.png)을 확장하고 다음 중에서 선택합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -117,13 +117,13 @@ ht-degree: 0%
 
 1. 승인하기 전에 항목을 승인 또는 거부하거나 문서에 대한 변경 사항을 제안하려면 다음을 수행합니다.
 
-   1. (선택 사항) 승인 결정 옆의 **드롭다운** 아이콘 ![](assets/down-arrow-blue.png)(**[!UICONTROL 승인]**, **[!UICONTROL 변경]**,**[!UICONTROL 거부]**)을 클릭하고 댓글을 추가한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+   1. (선택 사항) 승인 결정(**[!UICONTROL 승인]**, **[!UICONTROL 변경]**,**[!UICONTROL 거부]**) 옆의 **드롭다운** 아이콘 ![드롭다운 아이콘](assets/down-arrow-blue.png)을 클릭하고 댓글을 추가한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
       또는
 
       댓글을 입력하지 않으려면 **[!UICONTROL 건너뛰기]**&#x200B;를 클릭하세요.
 
-      ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![댓글 상자가 있는 승인 결정 단추](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -136,7 +136,7 @@ ht-degree: 0%
       >결정에 댓글을 추가하지 않으려면 **[!UICONTROL 승인]**, **[!UICONTROL 거부]** 또는 **[!UICONTROL 변경]** 단추를 클릭하면 승인 결정이 즉시 부여됩니다.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >![승인 결정 단추](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
       >작업 승인에 대한 자세한 내용은 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md)을 참조하세요.
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
    권한을 부여하기 전에 요청된 액세스 권한을 수정하려면 **[!UICONTROL 액세스 권한 변경]** 드롭다운 메뉴를 확장합니다.
 
-   ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![액세스 변경 단추](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. (선택 사항) 승인 목록에서 액세스 요청을 승인하지 않고 지우려면 **[!UICONTROL 무시]**&#x200B;를 클릭합니다.
 1. 한동안 승인 결정을 내릴 수 없는 경우 **[!UICONTROL 내 승인 위임]**&#x200B;을 클릭하여 제출된 승인을 위임합니다. 승인 위임에 대한 자세한 내용은 [승인 요청 위임](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)을 참조하십시오.
@@ -166,6 +166,6 @@ ht-degree: 0%
 
      회신을 추가했으면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
-     ![](assets/reply-in-the-my-updates-area.png)
+     ![내 업데이트 영역에서 회신](assets/reply-in-the-my-updates-area.png)
 
 1. (선택 사항) **[!UICONTROL 현재 페이지 고정]**&#x200B;을 클릭하여 [!UICONTROL 내 업데이트] 영역을 상단 탐색에 고정합니다.
