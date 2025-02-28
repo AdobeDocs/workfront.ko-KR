@@ -6,9 +6,9 @@ description: 프로젝트 관리자는 Adobe Workfront 시스템에 대해 기�
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭한 다음 **재무** 영역으로 이동합니다.
 1. **통화** 필드에서 **추가**&#x200B;를 클릭하고 프로젝트의 기본 통화로 사용할 통화를 선택합니다. Workfront 관리자가 Workfront 인스턴스에 대해 설정한 모든 통화가 표시됩니다.
 
-   ![](assets/currency-on-project-expanded-nwe.png)
+   ![프로젝트의 통화](assets/currency-on-project-expanded-nwe.png)
 
 1. (조건부) Workfront 시스템에 대해 설정된 기본 통화 이외의 통화를 선택하는 경우, 시스템에서 기본 통화로 설정된 통화와 관련되므로 선택한 통화에 대한 환율을 지정합니다.
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
