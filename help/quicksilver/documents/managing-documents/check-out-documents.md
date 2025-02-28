@@ -6,9 +6,9 @@ description: 문서를 체크 아웃하여 다른 사용자가 해당 문서를 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ ht-degree: 0%
 
    문서 추가에 대한 자세한 내용은 [파일 시스템에서 Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)를 참조하십시오.
 
-1. **체크 아웃** 아이콘 ![](assets/check-out-25x23.png)을 클릭합니다.
+1. **체크 아웃** 아이콘 ![체크 아웃 아이콘](assets/check-out-25x23.png)을 클릭합니다.
 
-1. 문서 이름 오른쪽에 잠금 아이콘 ![](assets/lock-icon-locked-qs.png)이(가) 표시됩니다. Workfront에서 로그아웃한 후에도 문서가 체크 아웃된 상태로 유지됩니다.
+1. 문서 이름 오른쪽에 잠금 아이콘 ![잠금 아이콘](assets/lock-icon-locked-qs.png)이 표시됩니다. Workfront에서 로그아웃한 후에도 문서가 체크 아웃된 상태로 유지됩니다.
 1. 문서를 체크아웃한 사용자나 Workfront 관리자만 문서를 체크인할 수 있습니다.
 
 ## 체크 아웃된 문서 관리
@@ -103,6 +103,6 @@ ht-degree: 0%
 
 1. 문서가 저장된 영역으로 이동하여 문서를 선택합니다. 
 
-   문서 이름 오른쪽에 잠금 아이콘 ![](assets/lock-icon-locked-qs.png)이(가) 표시됩니다.
+   문서 이름 오른쪽에 잠금 아이콘 ![잠금 아이콘](assets/lock-icon-locked-qs.png)이 표시됩니다.
 
-1. **체크 인** 아이콘 ![](assets/check-in-25x22.png)을 클릭합니다.
+1. **체크 인** 아이콘 ![체크 인 아이콘](assets/check-in-25x22.png)을 클릭합니다.
