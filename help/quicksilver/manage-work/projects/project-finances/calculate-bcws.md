@@ -7,9 +7,9 @@ description: 계획된 값이라고도 하는 BCWS(Budgeted Cost of Work Schedul
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '621'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Adobe Workfront은 프로젝트 및 작업 모두에 대해 BCWS(예약된 작�
 1. 프로젝트로 이동한 다음 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭합니다.
 1. **재무** 영역에서 **성과 지표 메서드** 필드를 찾아 두 번 클릭하여 편집합니다.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM 옵션](assets/pim-options-hour-cost-based-nwe.png)
 
 1. 다음 옵션 중에서 선택합니다.
 
@@ -126,7 +126,7 @@ BCWS 열을 보기에 추가하여 보고서 또는 목록에서 예약된 작�
 1. **열 추가**&#x200B;를 클릭합니다.
 1. **이 열에 표시:** 필드에서 **BCWS**&#x200B;을(를) 입력하고 목록에 표시될 때 클릭하여 선택합니다.
 
-   ![](assets/bcws-in-project-view.png)
+   프로젝트 보기의 ![BCWS](assets/bcws-in-project-view.png)
 
 1. **보기 저장**&#x200B;을 클릭합니다.
 1. **BCWS** 필드가 보기에 표시됩니다.
