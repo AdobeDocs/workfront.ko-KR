@@ -6,9 +6,9 @@ description: 프로젝트에 대한 업데이트 유형을 선택하여 프로�
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 작업이 업데이트되면 해당 상위 개체(상위 작업 또는 프로젝트)가 업데이트 유형에 표시된 시점에 업데이트됩니다.  프로젝트의 업데이트 유형을 지정하려면 다음을 수행합니다.
 
 1. 업데이트 유형을 지정할 프로젝트로 이동합니다.
-1. 프로젝트 이름 옆에 있는 기타 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집** 을(를) 클릭합니다.
+1. 프로젝트 이름 옆에 있는 기타 메뉴 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **편집** 을 클릭합니다.
 
 1. **프로젝트** **설정**&#x200B;을 클릭합니다.
 
