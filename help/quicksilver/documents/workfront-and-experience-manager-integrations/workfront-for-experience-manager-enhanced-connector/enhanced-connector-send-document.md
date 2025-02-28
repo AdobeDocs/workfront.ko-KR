@@ -6,9 +6,9 @@ description: Workfront에서 Experience Manager Assets으로 문서를 보낼 �
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Workfront에서 Experience Manager Assets으로 문서를 보낼 수 있습니�
    >
    >이 통합을 위해 모든 이름을 선택할 수 있으므로 Experience Manager Assets에 대해 구체적으로 언급되지 않을 수 있습니다.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![전송 대상](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 에셋을 이동할 위치를 선택한 다음 **폴더 선택**&#x200B;을 클릭합니다.
 1. 원하는 대상을 찾으면 **저장**&#x200B;을 클릭하세요.
@@ -87,6 +87,6 @@ Workfront에서 Experience Manager Assets으로 문서를 보낼 수 있습니�
    >
    >이 통합을 위해 모든 이름을 선택할 수 있으므로 Experience Manager Assets에 대해 구체적으로 언급되지 않을 수 있습니다.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![전송 대상](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. **저장**&#x200B;을 클릭합니다. 새 버전이 이전 버전과 동일한 위치에 저장됩니다.
