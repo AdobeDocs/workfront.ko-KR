@@ -6,10 +6,10 @@ description: Adobe Workfront의 [!UICONTROL Home] 영역 내에서 작업 항목
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 7%
+source-wordcount: '869'
+ht-degree: 6%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>작업해야 하는 작업 및 문제에 대한 Contribute 권한 이상</p> </td> 
+   <td> <p>작업해야 하는 작업 및 문제에 권한 이상 부여</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ ht-degree: 7%
 
 You can view updates on any work item in the [!UICONTROL Work List]:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
    Updates are displayed in the right panel.
 
@@ -104,13 +104,13 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 [!UICONTROL 내 작업] 위젯에서 모든 작업 항목에 대한 업데이트를 제공할 수 있습니다.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭하거나 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)을(를) 클릭합니다(가능한 경우). **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png) 또는 왼쪽 상단의 **주 메뉴** ![주 메뉴 줄 아이콘](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 [!UICONTROL **내 작업**] 위젯을 추가합니다.
 
 1. [!UICONTROL **내 작업**] 위젯에서 업데이트할 작업 항목을 찾습니다.
 1. 이름을 마우스로 가리킨 다음 **새 업데이트 추가** 아이콘을 클릭합니다.
 
-   ![](assets/add-update-on-widget.png)
+   ![위젯에 업데이트 추가](assets/add-update-on-widget.png)
 
 1. 댓글을 입력하세요.
 1. (선택 사항) **사람 또는 팀에 태그 지정** 상자에서 이 댓글에 포함할 사용자 또는 팀의 이름 또는 전자 메일을 입력한 다음 목록에 표시될 때 선택합니다.
@@ -132,7 +132,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 1. **회신**&#x200B;을 클릭합니다.
 
-   ![](assets/reply-to-comment-in-mentions-widget.png)
+   ![댓글에 다시 적용](assets/reply-to-comment-in-mentions-widget.png)
 
 1. 댓글을 입력하세요.
 1. (선택 사항) **인물 태그** 상자에서 이 댓글에 포함할 사용자 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다.
@@ -149,11 +149,11 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 편집할 수 있는 액세스 권한이 있는 작업 항목의 모든 필드를 편집할 수 있습니다.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭하거나 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)을(를) 클릭합니다(가능한 경우). **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png) 또는 왼쪽 상단의 **주 메뉴** ![주 메뉴 줄 아이콘](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 작업** 위젯을 추가합니다.
 
 1. 작업 항목을 마우스로 가리킨 다음 **요약** 아이콘을 클릭합니다.
-   ![](assets/open-summary-new-home.png)
+   ![요약 열기](assets/open-summary-new-home.png)
 
 1. 요약 패널에서 편집할 필드를 마우스로 가리킵니다.
 필드를 편집할 권한이 있는 경우 필드를 마우스로 가리키면 필드가 강조 표시됩니다.
