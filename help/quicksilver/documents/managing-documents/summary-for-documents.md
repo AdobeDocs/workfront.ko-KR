@@ -7,10 +7,10 @@ description: 요약을 사용하면 문서 목록에서 직접 중요한 정보�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 3%
+source-wordcount: '418'
+ht-degree: 2%
 
 ---
 
@@ -56,32 +56,32 @@ ht-degree: 3%
 ## 요약 보기 열기
 
 1. **문서** 영역으로 이동하여 목록에서 항목을 선택하십시오.
-1. **요약 열기 아이콘** ![](assets/qs-summary-in-new-toolbar-small.png)을 클릭합니다.
+1. **요약 열기 아이콘** ![요약 열기 아이콘](assets/qs-summary-in-new-toolbar-small.png)을 클릭합니다.
 
    요약은 다른 문서를 클릭할 때 열려 있는 상태로 유지되며 수동으로 닫을 때까지 열려 있습니다.
 
-   ![](assets/summary-details-350x585.png)
+   ![요약 정보](assets/summary-details-350x585.png)
 
-## 세부 정보
+## 세부 사항
 
 세부 정보 섹션을 사용하여 높은 수준의 개요 정보를 보고 사용자 정의 양식과 상호 작용할 수 있습니다. 전체 문서 세부 정보 페이지로 이동하려면 섹션 상단의 **세부 정보**&#x200B;를 클릭합니다.
 
 * [개요](#overview)
 * [사용자 정의 양식](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+![문서 요약 정보](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### 개요 {#overview}
 
 개요 섹션을 확장하여 이미지 썸네일을 보거나 다운로드하고, 증명을 열고, 기본 설명을 업데이트하고, 문서를 체크 아웃하는 등의 작업을 수행합니다.
 
-![](assets/copy-of-doc-summary-with-overview-350x560.png)
+![문서 요약 개요](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### 사용자 정의 양식 {#custom-forms}
 
 사용자 정의 Forms 섹션을 사용하여 문서와 연결된 모든 사용자 정의 양식을 추가, 편집 또는 볼 수 있습니다. 사용자 정의 양식의 이름을 입력하여 문서에 추가하십시오. 자세한 내용은 [문서에 사용자 정의 양식 추가 또는 편집](../../documents/managing-documents/add-custom-form-documents.md)을 참조하십시오.
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+![문서 요약에 사용자 정의 양식 추가](assets/add-custom-form-doc-summary-350x265.png)
 
 ## 업데이트
 
@@ -98,7 +98,7 @@ ht-degree: 3%
 * [작업 승인](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [문서 승인 요청](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![문서 요약 승인](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## 버전
 
@@ -110,4 +110,4 @@ ht-degree: 3%
 * 문서 세부 정보로 이동
 * 증명 또는 문서 삭제
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![문서 요약 버전](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
