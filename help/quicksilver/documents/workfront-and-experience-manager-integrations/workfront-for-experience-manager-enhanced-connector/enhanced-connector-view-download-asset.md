@@ -6,9 +6,9 @@ description: Experience Manager Assets에서 연결된 Adobe Workfront 에셋을
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4516ddf7-b39d-4bd7-8e59-4b3bdad5b643
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,4 @@ Experience Manager Assets에서 연결된 Adobe Workfront 에셋을 보거나 �
 1. 문서 목록에서 문서를 선택합니다.
 1. 오른쪽의 문서 요약에서 맨 위의 썸네일 위로 마우스를 가져간 후 **미리 보기** 또는 **다운로드**&#x200B;를 선택합니다.
 
-   ![](assets/view-or-download-enhanced-connector-350x123.png)
+   ![미리 보기 또는 다운로드](assets/view-or-download-enhanced-connector-350x123.png)
