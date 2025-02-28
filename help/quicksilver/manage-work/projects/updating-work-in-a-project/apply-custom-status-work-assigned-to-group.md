@@ -6,9 +6,9 @@ description: 프로젝트가 그룹과 연결된 경우 시스템 수준 상태�
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
 프로젝트에 대한 그룹을 업데이트할 때 작업, 문제 또는 프로젝트 상태에 사용할 수 있는 옵션이 그룹과 일치하도록 변경됩니다.
 
 1. [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md)에 설명된 대로 프로젝트로 이동하거나 새 프로젝트를 만듭니다.
-1. **자세히** 아이콘 ![](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+1. **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
 1. **개요** 섹션 아래쪽에 표시되는 **프로젝트 편집** 상자의 **그룹** 드롭다운 메뉴에서 그룹을 선택합니다.
 
