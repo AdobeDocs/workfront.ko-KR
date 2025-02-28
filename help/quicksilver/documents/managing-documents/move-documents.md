@@ -6,9 +6,9 @@ description: 문서에 대한 관리 권한이 있는 사용자는 문서를 다
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 찾습니다.
 
-1. **이동** 아이콘 ![](assets/move-document--25x19.png)을 클릭합니다.
+1. **이동** 아이콘 ![이동 아이콘](assets/move-document--25x19.png)을 클릭합니다.
 1. 나타나는 상자의 드롭다운 메뉴에서 **문제**, **프로젝트** 또는 **작업**&#x200B;을 클릭하여 문서를 이동할 개체 유형을 나타냅니다. 
 
 1. 텍스트 상자에 **문제**, **프로젝트** 또는 **작업**&#x200B;의 이름을 입력하십시오.
