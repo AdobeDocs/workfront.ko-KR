@@ -7,9 +7,9 @@ description: 성과 값이라고도 하는 BCWP(수행된 작업의 예산 비�
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Adobe Workfront은 프로젝트 및 작업 모두에 대해 BCWP(수행된 작�
 1. 프로젝트로 이동하여 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 확장합니다.
 1. **재무** 영역에서 **성과 지표 메서드** 필드를 찾아 더블 클릭하여 편집합니다.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM 옵션](assets/pim-options-hour-cost-based-nwe.png)
 
 1. 다음 옵션 중에서 선택합니다.
 
@@ -125,7 +125,7 @@ BCWP 열을 보기에 추가하여 보고서나 목록에서 수행된 작업의
 1. **열 추가**&#x200B;를 클릭합니다.
 1. **이 열에 표시:** 필드에서 **BCWP**&#x200B;을(를) 입력하고 목록에 표시될 때 클릭하여 선택합니다.
 
-   ![](assets/bcwp-project-view.png)
+   프로젝트 보기의 ![BCWP](assets/bcwp-project-view.png)
 
 1. **보기 저장**&#x200B;을 클릭합니다.
 1. BCWP 필드가 보기에 표시됩니다.
