@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1041'
 ht-degree: 2%
 
 ---
@@ -114,7 +114,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 자세한 내용은 [중요한 작업 항목 우선 순위 지정](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)을 참조하십시오.
 
-![](assets/worklist.png)
+![작업 목록](assets/worklist.png)
 
 ### 달력 보기 사용
 
@@ -142,7 +142,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 자세한 내용은 [우선 순위에서 댓글 추가 및 보기](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)를 참조하십시오.
 
-![](assets/update-log-upload.png)
+![업데이트, 로그 시간 및 업로드](assets/update-log-upload.png)
 
 ### 로그 시간
 
@@ -150,7 +150,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 자세한 내용은 [우선 순위에 시간 기록](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)을 참조하십시오.
 
-![](assets/update-log-upload.png)
+![업데이트, 로그 시간 및 업로드](assets/update-log-upload.png)
 
 ### 파일 업로드
 
@@ -163,14 +163,14 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 자세한 내용은 [우선 순위로 파일 업로드](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)를 참조하십시오.
 
-![](assets/update-log-upload.png)
+![업데이트, 로그 시간 및 업로드](assets/update-log-upload.png)
 
 
 ### 빠른 링크 추가
 
 자주 사용하는 링크를 작업 항목의 세부 정보 페이지에 포함할 수 있습니다. 빠른 링크를 사용하면 링크를 빠르게 방문하거나 복사할 수 있습니다.
 
-![](assets/quick-links.png)
+![빠른 링크](assets/quick-links.png)
 
 자세한 내용은 [우선 순위에서 빠른 링크 추가 및 관리](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)를 참조하십시오.
 
@@ -194,7 +194,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 자세한 내용은 [우선 순위에서 작업 따라잡기](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)를 참조하십시오.
 
-![](assets/catch-me-up.png)
+![따라잡기](assets/catch-me-up.png)
 
 <!--need new screen for prod-->
 
