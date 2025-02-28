@@ -6,9 +6,9 @@ description: 프로젝트에 대한 자원 관리자를 지정하여 프로젝�
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -167,7 +167,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 ## 템플릿에 대한 리소스 관리자 지정
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+1. Adobe Workfront 오른쪽 위 모서리에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
 
 1. **템플릿**&#x200B;을 클릭합니다.
 
