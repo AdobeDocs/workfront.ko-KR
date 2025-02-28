@@ -5,9 +5,9 @@ description: 리소스 계획의 일부로, Adobe Workfront 시나리오 플래�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -120,11 +120,11 @@ ht-degree: 0%
 
    * 시나리오 플래너에서 정보를 게시한 경우 **리소스 예산 책정 영역의 프로젝트 예산 인건비를 계산하는 데 사용할 시간을 선택하십시오** 필드에서 시나리오 플래너를 선택한 다음 **선택**&#x200B;을 클릭합니다.
 
-     ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     ![리소스 플래너의 비즈니스 사례(선택 단추 포함)](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
    * 이전에 리소스 플래너가 프로젝트 리소스 예산 책정에 선택된 경우 **변경** > **시나리오 플래너** > **선택**&#x200B;을 클릭합니다.
 
-     ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![시나리오 플래너의 비즈니스 사례(선택 단추 포함)](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront은 연결된 이니셔티브의 필수 작업 역할 시간을 사용하여 프로젝트의 예산 인건비 및 예산 시간을 계산합니다. 이 옵션이 권장됩니다. 비용은 프로젝트 통화로 비즈니스 사례에 표시됩니다.
 
