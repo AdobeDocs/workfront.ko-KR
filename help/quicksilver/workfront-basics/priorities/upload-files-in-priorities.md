@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -55,12 +55,12 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 이름을 마우스로 가리킨 다음 **업로드**를 클릭합니다.
-   ![](assets/update-log-upload.png)
+   ![업데이트, 로그 시간 및 업로드](assets/update-log-upload.png)
 1. (선택 사항) 폴더를 선택합니다.
 1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
 또는
 **파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
-   ![](assets/add-files.png)
+   ![파일 추가](assets/add-files.png)
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
    >
    >추가 파일은 별도의 문서로 업로드됩니다.
 1. **업로드**를 클릭합니다.
-   ![](assets/upload-file-module.png)
+   ![파일 업로드](assets/upload-file-module.png)
 
 
 ## 작업 항목에 파일 업로드
@@ -81,7 +81,7 @@ ht-degree: 0%
 1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
 또는
 **파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
-   ![](assets/add-files.png)
+   ![파일 추가](assets/add-files.png)
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.
 
@@ -89,4 +89,4 @@ ht-degree: 0%
    >
    >추가 파일은 별도의 문서로 업로드됩니다.
 1. **업로드**를 클릭합니다.
-   ![](assets/upload-file-module.png)
+   ![파일 업로드](assets/upload-file-module.png)
