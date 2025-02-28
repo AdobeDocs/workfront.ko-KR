@@ -6,10 +6,10 @@ description: 새 프로젝트 템플릿을 처음부터 새로 만드는 대신,
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 3%
+source-wordcount: '335'
+ht-degree: 2%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 ## 템플릿 복사
 
 1. 복사할 템플릿으로 이동합니다.
-1. **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **복사**&#x200B;를 클릭합니다.
+1. **자세히** 메뉴 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭한 다음 **복사**&#x200B;를 클릭합니다.
 1. **새 템플릿 이름** 필드에 템플릿 이름을 지정하십시오.
 
    기본적으로 새 이름은 **`<original template name>`의 복사본**&#x200B;입니다.
