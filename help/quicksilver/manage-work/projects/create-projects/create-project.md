@@ -6,9 +6,9 @@ description: 프로젝트는 Adobe Workfront의 대규모 작업 단위입니다
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
@@ -204,7 +204,7 @@ ht-degree: 1%
 
    프로젝트에 작업을 추가하는 방법에 대한 자세한 내용은 [프로젝트에서 작업 만들기](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)를 참조하십시오.
 
-1. **자세히** 메뉴를 클릭한 다음 프로젝트 이름 옆에 있는 **편집** ![](assets/qs-edit-icon.png)을(를) 클릭하여 프로젝트 세부 정보를 편집합니다.
+1. 프로젝트 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **편집** ![편집 아이콘](assets/qs-edit-icon.png)을 클릭하여 프로젝트 세부 정보를 편집합니다.
 
    **프로젝트 편집** 대화 상자가 열립니다.
 
