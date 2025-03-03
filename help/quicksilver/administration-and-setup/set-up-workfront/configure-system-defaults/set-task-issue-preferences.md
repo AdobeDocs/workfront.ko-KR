@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2251'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,8 @@ Linked to Converting Issues.-->
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-    <td> <p>작업에 대한 계획 및 실제 수익 추정치를 계산합니다. <strong>[!UICONTROL Revenue Type]</strong>이(가) <strong>[!UICONTROL Not Billable]</strong>(으)로 설정된 경우 계획된 시간과 기록된 실제 시간은 작업에 대한 예상 수익을 생성하지 않으며 작업에 대한 작업이 프로젝트 수준 매출에 기여하지 않습니다.</p> </td> 
+    <td> <p>작업에 대한 계획 및 실제 수익 추정치를 계산합니다. <strong>[!UICONTROL Revenue Type]</strong>이(가) <strong>[!UICONTROL Not Billable]</strong>(으)로 설정된 경우 계획된 시간과 기록된 실제 시간은 작업에 대한 예상 수익을 생성하지 않으며 작업에 대한 작업이 프로젝트 수준 매출에 기여하지 않습니다.</p>
+         <p>다양한 수익 유형에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">청구 및 수익 개요</a>를 참조하십시오.</p></td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL 비용 유형]</td> 
