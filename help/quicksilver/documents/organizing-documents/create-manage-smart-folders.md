@@ -6,9 +6,9 @@ description: 스마트 폴더는 프로젝트, 작업 또는 문제 외부의 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -70,9 +70,6 @@ ht-degree: 0%
 1. 편집할 스마트 폴더가 포함된 **문서** 영역으로 이동합니다.
 1. **폴더** 열에서 편집할 스마트 폴더 옆에 있는 **자세히** 아이콘 ![기타 메뉴](assets/more-icon.png)를 클릭합니다.
 1. **편집**&#x200B;을 클릭합니다.
-
-   **스마트 폴더 편집** 대화 상자가 표시됩니다.\
-   ![스마트 폴더 편집](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
 
 1. 변경한 다음 **폴더 저장**&#x200B;을 클릭합니다.
 

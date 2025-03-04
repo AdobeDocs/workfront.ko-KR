@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
+source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -200,6 +200,14 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 문서의 승인 영역을 업데이트했습니다.
 
 이 변경 사항을 보려면 문서로 이동 > 문서 세부 정보 > 승인 을 클릭합니다.
+
+### 스마트 폴더 편집 대화 상자의 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 1월 27일, 프로덕션 릴리스: 2025년 2월 3일 주에 시작**
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 스마트 폴더 편집 대화 상자를 업데이트했습니다.
+
+이 변경 사항을 보려면 문서 > 스마트 필터 이름 옆에 있는 자세히 메뉴 클릭 > 편집 을 클릭합니다.
 
 ## 보고서와 대시보드
 
