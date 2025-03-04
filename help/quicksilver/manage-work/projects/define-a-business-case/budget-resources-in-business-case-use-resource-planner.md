@@ -5,9 +5,9 @@ description: 리소스 계획의 일부로, 프로젝트 수준 리소스 플래
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -108,11 +108,11 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
 
    * **프로젝트의 예산 인건비를 계산하는 데 사용할 시간을 선택하십시오** 필드에서 리소스 플래너를 선택한 다음 **선택 > 리소스 예산 편집**&#x200B;을 클릭합니다.
 
-     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     ![리소스 플래너의 비즈니스 사례](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
    * 시나리오 플래너가 프로젝트의 리소스 예산 책정을 위해 선택된 경우 **변경** > **리소스 예산 편집**&#x200B;을 클릭합니다.
 
-     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     ![시나리오 플래너의 비즈니스 사례](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
    프로젝트의 예산 시간을 사용하여 프로젝트의 예산 인건비를 계산합니다.
 
