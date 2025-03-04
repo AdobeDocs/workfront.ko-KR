@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 1%
+source-wordcount: '996'
+ht-degree: 2%
 
 ---
 
@@ -66,8 +66,8 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -98,7 +98,6 @@ ht-degree: 1%
 
 +++
 
-
 ## 레코드 유형 만들기에 대한 고려 사항
 
 * 다음과 같은 방법으로 작업 영역에서 레코드 유형을 만들 수 있습니다.
@@ -108,11 +107,11 @@ ht-degree: 1%
 
         자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
-      * Excel 또는 CSV 파일을 사용하여 가져올 때.
+      * CSV 또는 Excel 파일을 사용하여 가져올 때.
 
      >[!TIP]
      >
-     >Excel 또는 CSV 파일에서 레코드 유형을 가져올 때 레코드와 필드도 가져올 수 있습니다.
+     >CSV 또는 Excel 파일에서 레코드 유형을 가져올 때 레코드와 필드도 가져올 수 있습니다.
 
    * 수동:
 
@@ -152,7 +151,7 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    레코드 유형 추가 상자가 열립니다.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
-   ![](assets/add-record-type-box-with-appearance-options.png)
+   ![표시 형식 옵션이 있는 레코드 형식 상자 추가](assets/add-record-type-box-with-appearance-options.png)
 
 1. 다음 정보를 업데이트합니다.
 
@@ -167,12 +166,12 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    레코드 유형 카드가 선택한 섹션 및 작업 영역에 추가됩니다.
 레코드 유형의 설명이 카드에 표시됩니다.
 
-   ![](assets/record-type-card-with-description.png)
+   ![설명이 있는 레코드 형식 카드](assets/record-type-card-with-description.png)
 
-1. (선택 사항) 레코드 종류 카드 위로 마우스를 가져간 후 오른쪽 상단의 **자세히** 아이콘 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭하여 레코드 종류에 대한 정보를 수정합니다.
+1. (선택 사항) 레코드 종류 카드 위에 마우스를 놓고 오른쪽 상단의 **자세히** 아이콘 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭하여 레코드 종류에 대한 정보를 수정합니다.
 1. (선택 사항) 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 엽니다.
 
-   ![](assets/operational-record-type-blank.png)
+   ![작업 레코드 형식이 비어 있음](assets/operational-record-type-blank.png)
 
    레코드 유형 페이지는 기본적으로 테이블 뷰에 표시됩니다. 표의 열은 새 레코드 종류와 관련된 필드입니다. 각 행은 추가해야 하는 고유한 레코드입니다.
 
@@ -188,7 +187,7 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
    또는
 
-   레코드 형식 이름 오른쪽에 있는 **자세히** 아이콘 ![](assets/more-menu.png)을(를) 클릭하고 **편집**&#x200B;을(를) 클릭하여 이름을 바꾸거나 레코드 형식 정보를 변경합니다. 자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
+   레코드 종류 이름의 오른쪽에 있는 **자세히** 아이콘 ![추가 메뉴](assets/more-menu.png)를 클릭하고 **편집**&#x200B;을 클릭하여 이름을 바꾸거나 레코드 종류 정보를 변경합니다. 자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
 
 1. (선택 사항) **+ 새 레코드**&#x200B;을(를) 클릭하여 선택한 레코드 종류의 레코드를 추가합니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 1. (선택 사항) 레코드 종류에 필드를 더 추가하려면 표의 오른쪽 상단에 있는 **+** 아이콘을 클릭합니다.
@@ -208,71 +207,14 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    * [레코드 유형 편집](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)
 
-## Excel 또는 CSV 파일을 가져와서 레코드 유형 만들기
+## CSV 또는 Excel 파일에서 정보를 가져와서 레코드 유형 만들기
 
-Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져올 때는 다음 사항을 고려하십시오.
+CSV 또는 Excel 파일에서 정보를 가져올 때 다음을 가져올 수 있습니다.
 
-* Excel 파일의 각 시트는 레코드 유형이 됩니다. 시트의 이름은 레코드 유형의 이름이 됩니다.
-* 시트가 한 개만 있거나 CSV 파일을 가져오는 경우, 파일의 이름은 레코드 유형의 이름이 됩니다.
-* 각 시트의 열 머리글은 각 레코드 유형과 연관된 필드가 됩니다.
-* 필드는 해당 레코드 유형에 대해 고유합니다.
-* 각 시트의 각 행은 해당 레코드 유형과 연관된 고유한 레코드가 됩니다.
-* Excel 파일의 각 시트는 다음을 초과할 수 없습니다.
-   * 10,000행
-   * 500열
-* Excel 파일은 5MB를 초과할 수 없습니다.
-* 빈 시트는 지원되지 않습니다.
+* 레코드 유형
+* 레코드
+* 레코드 필드
 
-Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다음을 수행합니다.
+자세한 내용은 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 형식 만들기](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)를 참조하십시오.
 
-{{step1-to-planning}}
 
-1. 레코드 유형을 만들 작업 영역을 클릭합니다.
-
-   또는
-
-   작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
-1. **레코드 종류 추가**&#x200B;를 클릭합니다.
-1. **파일에서**&#x200B;을(를) 클릭합니다.
-1. 이전에 컴퓨터에 저장한 Excel 또는 CSV 파일을 끌어서 놓거나 **CSV 또는 Excel 파일 선택**&#x200B;을 클릭하여 찾습니다.
-1. **미리 보기 및 편집**&#x200B;을 클릭합니다.
-
-   **미리 보기 및 편집** 상자에 다음 정보가 표시됩니다.
-
-   * 시트 이름 또는 이후 레코드 유형이 왼쪽 패널에 표시됩니다. Workfront Planning에서는 기본적으로 각 새 레코드 유형에 대해 아이콘과 색상을 선택합니다.
-   * 첫 번째 시트 또는 레코드 유형이 선택되고 연관된 필드의 이름이 열 머리글로 표시됩니다. 각 필드의 유형은 기본적으로 선택됩니다.
-   * 각 행은 새 레코드를 나타냅니다. 처음 10개의 레코드만 [미리 보기 및 편집] 상자에 표시됩니다.
-
-   ![](assets/preview-and-edit-box.png)
-
-1. (선택 사항) 왼쪽 패널에서 각 시트의 이름을 클릭하여 포함된 정보를 검토합니다.
-
-   >[!NOTE]
-   >
-   >비어 있는 시트는 지원되지 않으며 흐리게 표시됩니다.
-
-1. (선택 사항) 왼쪽 패널에서 가져오지 않을 시트는 선택 취소합니다.
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   선택을 취소한 시트는 회색 배경과 함께 표시됩니다.
-
-1. (선택 사항) 열 헤더의 오른쪽에 있는 아래쪽 방향 화살표를 클릭하여 다음 중 하나를 수행합니다.
-
-   * 필드 중 하나의 이름을 변경합니다
-   * **필드 형식** 변경
-   * 필드 **설명** 업데이트
-
-1. (조건부) 필드에 대한 정보를 업데이트한 후 **저장**&#x200B;을 클릭합니다.
-
-1. 파일을 가져올 준비가 되면 **가져오기**&#x200B;를 클릭합니다.
-
-   다음 정보는에서 Workfront Planning으로 가져옵니다.
-
-   * 새 레코드 유형
-   * 각 레코드 유형과 연결된 새 필드
-   * 각 레코드 유형과 연결된 새 레코드
-
-   레코드 유형 페이지에서 필드 및 레코드 관리를 시작할 수 있습니다.
-
-   이제 Workfront Planning에 액세스할 수 있는 모든 사용자는 가져온 레코드 유형과 해당 정보를 보고 편집할 수 있습니다.

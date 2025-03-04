@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 0%
@@ -33,6 +33,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 * [다른 레코드와 연결할 때 레코드 만들기](#create-records-as-you-connect-them)
 * [요청 양식을 레코드 유형으로 제출하여 레코드 생성](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [CSV 또는 Excel 파일에서 레코드 유형을 가져올 때 레코드 만들기](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
 * <span class="preview">[자동화를 사용하여 레코드 만들기](#create-records-by-using-automations)</span>
 
 
@@ -304,6 +305,19 @@ Workfront 사용자와 조직 외부의 사용자 모두 요청 양식에 대한
 CSV 또는 Excel 파일을 사용하여 레코드 유형을 가져올 때 레코드를 가져올 수 있습니다.
 
 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+
+<!--
+<div class="preview">
+
+## Create records when importing records from a CSV or Excel file
+
+You can import records for existing record types when you import information from a CSV or Excel file. 
+
+For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+
+</div> 
+
+-->
 
 <div class="preview">
 

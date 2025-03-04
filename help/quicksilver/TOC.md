@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
 workflow-type: tm+mt
-source-wordcount: '13018'
+source-wordcount: '13041'
 ht-degree: 2%
 
 ---
@@ -2017,6 +2017,7 @@ ht-degree: 2%
       * [작업 공간 만들기](planning/architecture/create-workspaces.md)
       * [레코드 유형 개요](planning/architecture/overview-of-record-types.md)
       * [레코드 유형 만들기](planning/architecture/create-record-types.md)
+      * [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 유형 만들기](planning/architecture/import-file-to-create-record-types.md)
       * [레코드 유형 연결 개요](planning/architecture/connect-record-types-overview.md)
       * [레코드 유형 연결](planning/architecture/connect-record-types.md)
       * [레코드 유형 편집](planning/architecture/edit-record-types.md)
@@ -2045,6 +2046,7 @@ ht-degree: 2%
    * Adobe Workfront 계획 레코드 {#adobe-workfront-planning-records}
       * [레코드: 문서 인덱스](planning/records/records-information.md)
       * [레코드 만들기](planning/records/create-records.md)
+      * [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](planning/records/import-file-to-create-records.md)
       * [연결된 레코드 개요](planning/records/connected-records-overview.md)
       * [기록 연결](planning/records/connect-records.md)
       * [레코드 편집](planning/records/edit-records.md)

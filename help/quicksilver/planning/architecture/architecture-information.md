@@ -1,14 +1,14 @@
 ---
-title: "아키텍처: 문서 색인"
+title: '아키텍처: 문서 색인'
 description: 다음 문서에서는 Adobe Workfront Planning의 아키텍처를 구성하는 방법에 대해 설명합니다. 이 구성의 일부로, 작업 공간, 레코드 유형 및 사용자 지정 필드를 만들어 Workfront Planning에서 관리할 워크플로를 매핑하는 방법에 대해 알아봅니다.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ Workfront Planning을 사용하면 조직에서 사용하는 개체 유형(또�
 * [작업 공간 템플릿 목록](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [레코드 유형 개요](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md)
+* [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 유형 만들기](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
 * [레코드 유형 편집](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [연결된 레코드 유형 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md)

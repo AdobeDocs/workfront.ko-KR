@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,11 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    * Planning에 있는 레코드 유형의 테이블 뷰에 있는 연결된 레코드 필드.
    * 세부 정보 탭의 연결된 레코드 필드에 있는 레코드의 미리 보기 또는 페이지입니다.
    * 연결 탭의 레코드 미리 보기 또는 페이지입니다.
+   * <span class="preview">연결된 레코드의 연결 보기 탭에 있는 레코드의 페이지입니다.</span>
 
-* 다음 영역에서 Workfront 개체를 Workfront Planning 레코드에 연결할 수 있습니다.
+* Workfront의 다음 영역에서 Workfront 개체를 Workfront Planning 레코드에 연결할 수 있습니다.
 
-   * Workfront 객체의 Planning 섹션에서 다음을 수행합니다.
-   * <span class="preview">Workfront 개체의 사용자 정의 양식에 있는 Planning 연결 필드에서 가져왔습니다. </span>
+   * Workfront 개체의 계획 섹션입니다.
+   * <span class="preview">Workfront 개체의 사용자 정의 양식에 있는 Planning 연결 필드입니다. </span>
 
   자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
