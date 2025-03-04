@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: f469147947715dd1bae2718565cd521fa8bc6e96
 workflow-type: tm+mt
 source-wordcount: '2407'
 ht-degree: 3%
@@ -452,11 +452,11 @@ Workfront에는 두 가지 버전의 이벤트 구독이 있습니다.
 
 버전과 중요한 날짜 간의 특정 차이점을 포함하여 이벤트 구독 버전 관리에 대한 자세한 내용은 [이벤트 구독 버전 관리](/help/quicksilver/wf-api/general/event-subs-versioning.md)를 참조하십시오.
 
-### 단일 구독 버전 변경
-
 >[!NOTE]
 >
 >이벤트 구독을 다른 버전으로 업그레이드하거나 다운그레이드하면 버전 변경 후 5분 동안 모든 이벤트 게재에 대해 중복 이벤트를 받습니다. 중복에는 이벤트 구독 버전 1과 버전 2가 각각 하나씩 포함됩니다. 이렇게 하면 이벤트 구독 버전 변경으로 인해 이벤트를 놓치지 않습니다.
+
+### 단일 구독 버전 변경
 
 단일 구독의 버전을 변경하는 요청 구문은 다음과 같습니다.
 
