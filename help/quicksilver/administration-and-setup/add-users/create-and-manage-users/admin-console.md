@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 47aa463406c2807a375297f296b3e81eca1285bb
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -223,10 +223,18 @@ Workfront에서 사용자를 만드는 방법에 대한 지침은 [사용자 추
    거부된 사용자는 Workfront에서 자동으로 삭제됩니다.
 
 
+## Adobe Admin Console에서 기존 사용자 편집
 
+Adobe Admin Console에서 다음 사용자 세부 사항을 편집할 수 있습니다.
 
+* 사용자와 연계된 사용자 그룹 및 제품
+* 관리 권한
+* 국가
 
+Adobe Admin Console에서 단일 사용자를 편집하는 방법에 대한 자세한 내용은 Adobe 설명서의 개별 사용자 관리 문서에서 [사용자 세부 정보 편집](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details)을 참조하십시오.
 
+Adobe Admin Console에서 사용자를 일괄 편집하는 방법에 대한 자세한 내용은
+Adobe 설명서의 여러 사용자 관리 문서에서 [사용자 세부 정보 편집](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details).
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
