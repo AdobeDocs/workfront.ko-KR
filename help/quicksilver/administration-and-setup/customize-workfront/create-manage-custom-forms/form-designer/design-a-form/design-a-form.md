@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '6493'
 ht-degree: 5%
@@ -16,6 +16,13 @@ ht-degree: 5%
 ---
 
 # 사용자 정의 양식 만들기
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
@@ -1005,6 +1012,17 @@ Planning 연결 필드를 추가하려면
     </tbody> 
    </table>
 
+
+   <!--
+
+    Add this to the table - one more row at the bottom at release time: 
+
+    <span class="preview">Record type fields</span>
+      
+    <p><span class="preview">(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </span></p> <span class="preview"><p> The connected record's fields that you select display in the table view on the custom form. The records that will later display on the selected Workfront objects' custom form will not be editable in the table view of the custom form.</span></p>  
+    <img src="assets/planning-connections-field-with-table-on-form-preview.png">
+    -->
+
 1. (선택 사항) 다른 필드를 추가하려면 이전 단계를 반복하십시오.
 
    또는
@@ -1029,3 +1047,6 @@ Planning 연결 필드를 추가하려면
 ## 양식 디자이너를 사용하여 양식 구성 및 미리 보기
 
 섹션 구분을 사용하여 사용자 정의 양식을 구성하고 양식의 미리 보기를 확인하는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 구성 및 미리 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)를 참조하십시오.
+
+
+

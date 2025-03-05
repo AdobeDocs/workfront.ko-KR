@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 1%
 
 ---
-
 
 # CSV 또는 Excel 파일에서 정보를 가져와서 레코드 유형 만들기
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 * 필드는 해당 레코드 유형에 대해 고유합니다.
 * 각 시트의 각 행은 해당 레코드 유형과 연관된 고유한 레코드가 됩니다.
 * Excel 파일의 각 시트는 다음을 초과할 수 없습니다.
-   * 10,000행
+   * 25,000행
    * 500열
 * 파일은 5MB보다 크지 않아야 합니다.
 * 빈 시트는 지원되지 않습니다.

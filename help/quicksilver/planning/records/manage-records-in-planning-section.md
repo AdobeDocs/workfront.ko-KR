@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1567'
 ht-degree: 1%
 
 ---
@@ -24,10 +24,16 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Workfront의 다음 영역에 Workfront Planning 레코드 및 Adobe Workfront 객체에 연결된 해당 레코드를 표시할 수 있습니다.
+연결된 오브젝트의 다음 영역에 Workfront에서 Workfront Planning 레코드를 표시할 수 있습니다.
 
 * Workfront 객체의 계획 섹션: 객체에 연결된 모든 레코드 유형과 해당 연결된 레코드를 표시합니다.
 * Planning 연결 사용자 정의 필드: 하나의 레코드 유형과 각 연결된 레코드를 표시합니다.
+
+<!--replace the last sentence above with this: 
+
+Displays one record type, its respective connected records, <span class="preview">and up to 7 lookup fields of the connected records.</span>
+
+-->
 
 ## 액세스 요구 사항
 
@@ -85,6 +91,7 @@ Workfront의 다음 영역에 Workfront Planning 레코드 및 Adobe Workfront �
   <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
    <td> <p>프로젝트, 프로그램 및 포트폴리오 보기 또는 상위 액세스</p>  
+   <p>Workfront Planning에 대한 액세스 수준 구성이 없습니다. </p>
 </td>
   </tr>
 <tr>
@@ -203,11 +210,19 @@ Planning 연결 사용자 정의 필드를 생성할 때 Workfront 객체에 대
 
 Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를 볼 때 다음 사항을 고려하십시오.
 
-* 하나의 레코드 유형만 하나의 Planning 연결 필드에 연결할 수 있습니다.
-* 올바른 액세스 권한이 있는 경우 Planning 연결 사용자 정의 필드가 있는 사용자 정의 양식을 Workfront Planning에서 연결할 수 있는 Workfront 객체에 첨부해야 합니다.
-* Workfront Planning 레코드 유형은 먼저 Workfront 객체 유형에 연결되어야 합니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
-* Workfront Planning 연결이 가능한 객체에 대해서만 Workfront 객체의 Planning 연결 필드에서 레코드를 연결하거나 연결을 해제할 수 있습니다.
+<!--
+* A Planning connection field displays in the following ways on a Workfront object's custom form, after Planning records are connected to the Workfront object:
+
+   * If only the primary field of the connected record is selected, as a field with multiple values, if the connection allows for multiple records to be linked. For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+   * <span class="preview">If any additional lookup fields from the connected record are selected, the Planning connection field displays as a table. Up to 7 fields can be selected for the Planning connection field. The table view is read-only.  </span>
+-->
+* 하나의 레코드 유형만 하나의 Planning 연결 필드에 연결할 수 있습니다. 양식에 있는 Planning 연결 필드 수에는 제한이 없습니다.
+* Planning 연결 사용자 정의 필드가 있는 사용자 정의 양식을 Workfront 객체에 첨부하려면 객체, 레코드 및 Workfront Planning에 대한 올바른 액세스 및 권한이 있어야 합니다.
 * Workfront 개체의 Planning 연결 필드에서 레코드를 연결하거나 연결을 끊으려면 Workfront Planning의 작업 영역에 대한 Contribute 권한이 있어야 합니다.
+* Workfront Planning 레코드 유형은 먼저 Workfront 객체 유형에 연결되어야 합니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하십시오.이렇게 하면 Workfront에서 Workfront Planning 레코드에 액세스할 수 있습니다.
+* Workfront Planning 연결이 가능한 객체에 대해서만 Workfront 객체의 Planning 연결 필드에서 레코드를 연결하거나 연결을 해제할 수 있습니다.
+
+  예를 들어 Planning 연결 필드가 있는 사용자 정의 양식을 작업에 첨부할 수 있지만 Workfront Planning 객체를 작업에 연결할 수는 없습니다.
 * Workfront 오브젝트를 일괄적으로 편집할 때는 Planning 연결 필드를 편집할 수 없습니다.
 
 ### Planning 연결 필드 유형에서 레코드 연결 관리
@@ -249,9 +264,15 @@ Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를
    * 레코드는 즉시 Workfront 개체에 연결되고 Workfront 개체의 Planning 섹션과 Planning 연결 필드에 표시됩니다.
    * Workfront 개체가 Workfront Planning 레코드의 연결된 필드에 추가됩니다.
    * 계획 레코드에 연결된 Workfront 조회 필드의 값은 Workfront Planning에서 채워집니다.
-1. (선택 사항) Planning 연결 필드에서 레코드 이름을 눌러 Workfront Planning에서 엽니다.
-레코드 세부 사항 탭이 Workfront Planning에서 열립니다.
-레코드에 대한 정보를 검토하거나 레코드 유형 페이지로 이동할 수 있습니다.
+   <!--* <span class="preview">If any record lookup fields were added when the custom form was set up, the record's lookup fields populate automatically in a table view. The table view in the Planning connection field is read-only</span>
+   
+      ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)-->
+
+1. (선택 사항) Planning 연결 필드에서 <!--<span class="preview">or hover the name of the record in the table, then click the **Open record** icon ![Open record icon on Planning connection custom form](assets/open-record-icon-on-planning-connection-custom-form.png)</span>--> 레코드의 이름을 클릭하여 Workfront Planning에서 엽니다.
+Workfront Planning 레코드 세부 정보 미리 보기 상자가 열립니다.
+레코드에 대한 정보를 검토하거나 편집하거나 **새 탭에서 열기** 아이콘 ![새 탭에서 레코드 열기](assets/open-details-in-a-new-tab-icon.png)를 클릭하여 레코드 세부 정보 페이지를 열 수 있습니다.
 
 1. (선택 사항) Workfront의 사용자 정의 양식에서 레코드의 **제거** 아이콘 ![](assets/remove-icon.png)을(를) 클릭하여 Planning 연결 필드에서 제거하고 Workfront 개체에서 연결을 해제합니다.
 Planning 레코드에서 Workfront 개체의 연결이 끊기고 Workfront의 모든 조회 정보가 레코드에서 제거됩니다.
+
+1. **변경 내용 저장**&#x200B;을 클릭하여 사용자 정의 양식과 Workfront 개체에 적용한 다른 변경 내용을 저장합니다.

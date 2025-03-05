@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | API 요청을 수행할 수 있는 속도입니다 | 분당 요청 200개 |
 | 한 사용자가 하나의 레코드 유형에 대해 만들 수 있는 보기 수 | 10 |
 | 레코드 유형을 만들기 위해 가져올 수 있는 Excel 파일의 CSV 크기 | 5MB |
-| CSV 또는 Excel 파일로 가져와 레코드 유형을 만들 수 있는 행 수 | 10,000 |
+| CSV 또는 Excel 파일로 가져와 레코드 유형을 만들 수 있는 행 수 | 25,000 |
 | CSV 또는 Excel 파일로 가져와 레코드 유형을 만들 수 있는 열 수 | 500 |
 
 *작업 영역은 관리하기 어려워질 수 있으며 워크플로우가 너무 많이 조각날 수 있으므로 너무 많이 사용하지 않는 것이 좋습니다.

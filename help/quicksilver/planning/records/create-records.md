@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 * [CSV 또는 Excel 파일에서 레코드 유형을 가져올 때 레코드 만들기](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
 <!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
 * <span class="preview">[자동화를 사용하여 레코드 만들기](#create-records-by-using-automations)</span>
-
 
 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -94,12 +93,12 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
    <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p> 
-   <p>레코드를 연결할 때 만들려는 개체 유형(프로젝트 및 포트폴리오)에 대한 Workfront의 액세스 권한을 편집합니다. </p>  
+   <p>레코드를 연결할 때 만들려는 개체 유형(프로젝트, 프로그램 및 포트폴리오)에 대한 Workfront의 액세스 권한을 편집합니다. </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td> <p>레코드를 추가할 작업 영역에 대한 권한을 관리합니다. </p>  
+   <td> <p>레코드를 추가할 작업 영역에 대한 또는 그 이상의 권한을 제공하십시오. </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
    <p>하위 개체(프로젝트)를 추가하기 위해 Workfront 개체(포트폴리오)에 대한 권한을 관리합니다.</p>
    </td> 

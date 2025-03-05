@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1916'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 <tr>
    <td role="rowheader"><p>개체 권한</p></td>
    <td>
-   <p>작업 영역</a>에 대한 권한 관리 </p>  
+   <p>작업 영역 </a>에 대한 또는 더 높은 권한 제공 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> 
   </td>
   </tr>

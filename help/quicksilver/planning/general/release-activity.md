@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '7392'
+source-wordcount: '7388'
 ht-degree: 0%
 
 ---
@@ -268,7 +268,7 @@ Workfront Planning AI Assistant에 대한 자세한 내용은 [Adobe Workfront P
 
 * Workfront 계획 레코드
 * 템플릿이 없는 Workfront 프로젝트
-* Workfront Portfolio
+* Workfront 포트폴리오
 
 레코드에 연결할 때 연결된 다른 Workfront 개체 또는 Experience Manager 에셋을 만들 수 없습니다.
 
@@ -715,7 +715,7 @@ Workfront의 계획 섹션에서 다음 작업을 사용할 수 있습니다.
 
 * 세부 정보 미리 보기 상자 또는 페이지를 열어 연결된 레코드에 대한 자세한 내용을 봅니다
 
-자세한 내용은 [Adobe Workfront 개체의 계획 섹션에서 레코드 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
+자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
 
 ## 2024년 5월 13일 주
 
@@ -794,7 +794,7 @@ Workfront의 계획 섹션에서 다음 작업을 사용할 수 있습니다.
 
 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
-### Adobe 통합 경험 고객을 위한 Workfront Planning 알림 활성화
+### Adobe Unified Experience 고객을 위한 Workfront Planning 알림 활성화
 
 프로덕션: 2024년 5월 8일
 
@@ -1237,7 +1237,7 @@ Adobe Workfront Planning 기능이 미리보기 및 샌드박스 환경에서 �
 
 * 보기: 사용자는 공유된 작업 공간을 볼 수 있습니다. 공유 작업 영역에서 레코드 유형 및 레코드를 볼 수도 있습니다.
 
-* Contribute: 사용자는 공유된 작업 영역에서 레코드를 생성, 편집 또는 삭제할 수 있습니다.  레코드 유형 또는 공유된 작업 공간은 만들거나 편집할 수 없습니다.
+* Contribute: 사용자는 공유된 작업 영역에서 레코드를 만들거나 편집하거나 삭제할 수 있습니다.  레코드 유형 또는 공유된 작업 공간은 만들거나 편집할 수 없습니다.
 
 * 관리: 사용자는 작업 공간을 만들고, 편집하고, 삭제할 수 있으며 공유 작업 공간의 유형, 레코드 및 필드를 기록할 수 있습니다.
 
@@ -1246,7 +1246,7 @@ Adobe Workfront Planning 기능이 미리보기 및 샌드박스 환경에서 �
 * 보기: 사용자는 레코드 유형 페이지의 보기 드롭다운 메뉴에서 보기를 선택할 수 있습니다.
 * 관리: 사용자가 보기를 편집, 공유 및 삭제할 수 있습니다.
 
-자세한 내용은 [Adobe 계획 액세스 개요](/help/quicksilver/planning/access/access-overview.md) 및 [Adobe Workfront 계획 기능의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
+자세한 내용은 [Adobe Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md) 및 [Adobe Workfront Planning 기능의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 
 ### 새 공식 필드 유형
 

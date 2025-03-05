@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
@@ -108,7 +108,7 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
    <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p> 
-   <p>레코드를 연결할 때 만들려는 개체 유형(프로젝트 및 포트폴리오)에 대한 Workfront의 액세스 권한을 편집합니다. </p>  
+   <p>레코드를 연결할 때 만들려는 개체 유형(프로젝트, 프로그램 및 포트폴리오)에 대한 Workfront의 액세스 권한을 편집합니다. </p>  
 </td> 
   </tr> 
 <tr> 

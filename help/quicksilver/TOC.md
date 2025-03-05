@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '13041'
+source-wordcount: '13037'
 ht-degree: 2%
 
 ---
@@ -2059,7 +2059,7 @@ ht-degree: 2%
       * [레코드에 썸네일 추가](planning/records/add-thumbnails-to-records.md)
       * [레코드에 표지 이미지 추가](planning/records/add-a-cover-image-to-a-record.md)
       * [레코드 페이지 레이아웃 관리](planning/records/manage-the-record-page.md)
-      * [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](planning/records/manage-records-in-planning-section.md)
+      * [Workfront 개체에서 레코드 연결 관리](planning/records/manage-records-in-planning-section.md)
       * [레코드의 세부 사항 내보내기](planning/records/export-the-record-page.md)
       * [레코드에 연결할 때 Workfront Planning에서 Workfront 개체 만들기](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Workfront Planning 레코드 자동화를 사용하여 객체 생성](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
