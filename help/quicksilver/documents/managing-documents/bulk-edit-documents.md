@@ -7,17 +7,17 @@ description: 문서 영역에서 여러 문서를 한 번에 편집할 수 있�
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 8c1f829eb29d8cd13524814d98ed353add15e881
+exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # 문서 일괄 편집
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 한 번에 여러 문서에서 설명을 편집하고, 사용자 정의 양식을 추가하고, 사용자 정의 양식을 편집할 수 있습니다.
 
@@ -97,4 +97,33 @@ ht-degree: 0%
     </table>
 1. **저장**&#x200B;을 클릭합니다.
 
+<span class="preview">
 
+## 문서 보고서에서 문서를 일괄적으로 편집
+
+1. 기존 문서 보고서로 이동합니다.
+또는
+[사용자 지정 보고서 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)에 설명된 대로 문서 보고서를 만듭니다.
+1. 편집할 문서를 선택합니다.
+1. 편집 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
+   ![페이지의 아이콘 위치 편집](assets/edit-multiple-documents.png)
+1. (선택 사항) **설명**&#x200B;을 추가하거나 편집합니다. 각 문서에 대한 설명이 다른 경우 설명 상자에 _여러 값_&#x200B;이 표시됩니다. 모든 문서에 대해 동일한 설명을 추가할 수 있지만 일괄 편집 시 개별 문서 설명을 편집할 수는 없습니다.
+1. 사용자 정의 양식을 사용하여 다음과 같이 변경합니다.
+
+   <table>
+    <tr>
+    <td><strong>양식 추가</strong></td>
+    <td><strong>사용자 정의 양식 추가</strong>에서 추가할 첨부된 양식과 양식을 선택할 수 있습니다. 첨부된 양식이 선택한 문서 중 일부에 있지만 전부에 없습니다. 선택한 모든 문서에 첨부된 양식이 편집 창에 자동으로 표시됩니다.  </td>
+    </tr>
+    <tr>
+    <td><strong>양식 편집</strong></td>
+    <td>첨부된 사용자 정의 양식을 편집합니다. 변경하는 정보는 개별 문서의 기존 정보를 덮어씁니다. 문서 간에 서로 다른 값이 있는 필드는 "여러 값"으로 표시됩니다. </td>
+    </tr>
+    <tr>
+    <td><strong>양식 재정렬</strong></td>
+    <td>재배열할 사용자 정의 양식을 클릭하고 드래그합니다.</td>
+    </tr>
+    </table>
+1. **저장**&#x200B;을 클릭합니다.
+
+</span>

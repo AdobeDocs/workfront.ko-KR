@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,7 @@ ht-degree: 0%
 
 이제 여러 문서를 한 번에 편집할 수 있습니다. 설명을 편집하고 사용자 정의 양식을 업데이트할 수 있습니다.
 
-<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
-
->[!IMPORTANT]
->
->아래 나열된 기능은 단계별 릴리스의 일부이며, 특정 고객에게만 제공됩니다.
+자세한 내용은 [문서 일괄 편집](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)을 참조하십시오.
 
 ## 문서 버전 승인에 사용 가능한 새로운 철회된 상태
 
