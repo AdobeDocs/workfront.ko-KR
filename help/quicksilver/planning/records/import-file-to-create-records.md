@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -148,9 +148,6 @@ ht-degree: 0%
    >
    >작업 공간에 대한 관리 권한이 없는 경우 레코드를 가져올 수 있지만, 추가 선택 항목이 만들어지지 않습니다. 대신 열 머리글 상자에 Planning 필드 매핑 상자의 오른쪽 상단 모서리에서 다음 메시지가 표시됩니다. **단일 또는 다중 선택 필드 연결에 없는 선택 사항은 추가되지 않습니다**.
 
-
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
-
 1. **가져오기**&#x200B;를 클릭합니다.
 
    다음 정보는에서 Workfront Planning으로 가져옵니다.
@@ -162,3 +159,5 @@ ht-degree: 0%
    레코드 유형 페이지에서 필드 및 레코드 관리를 시작할 수 있습니다.
 
    이제 Workfront Planning 및 작업 영역에 대한 액세스 권한이 있는 모든 사람이 가져온 레코드 및 해당 정보를 보고 편집할 수 있습니다.
+
+   <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->

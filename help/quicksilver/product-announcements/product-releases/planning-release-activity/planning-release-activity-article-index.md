@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,19 @@ ht-degree: 0%
 
 이 문서에는 Adobe Workfront Planning 제품에 대한 릴리스 활동 문서 목록이 포함되어 있습니다.
 
+>[!BEGINSHADEBOX]
+
+현재 Workfront Planning 릴리스 활동에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
 * [Adobe Workfront Planning의 2025년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
+
+>[!ENDSHADEBOX]
+
+<!-- for every new release, add the new release page in the first bullet (above) and move that first note to the list below; update the date of the most recent release in the statement below-->
+
+2025년 1월 17일 프로덕션 릴리스 전에 릴리스된 기능에 대한 정보는 다음 문서를 참조하십시오.
+
 * [Adobe Workfront Planning의 2025년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 * [Adobe Workfront Planning의 2024년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
-
-<!-- remove this after 25.1 and consider removing the pages too-->
-
-2024년 8월 28일 공식 출시 전에 릴리스된 기능에 대해서는 다음 문서를 참조하십시오.
-
 * [Adobe Workfront 2024년 릴리스 활동 계획](/help/quicksilver/planning/general/release-activity.md)
 * [Adobe Workfront 2023년 릴리스 활동 계획](/help/quicksilver/planning/general/release-activity-archives-2023.md)

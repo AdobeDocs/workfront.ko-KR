@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '795'
 ht-degree: 1%
 
 ---
@@ -105,6 +105,12 @@ ht-degree: 1%
    * 500열
 * 파일은 5MB보다 크지 않아야 합니다.
 * 빈 시트는 지원되지 않습니다.
+* 다음 유형의 필드는 지원되지 않으며 가져오기 시트의 필드에 매핑할 수 없습니다.
+   * 연결된 레코드 <!--or connected Workfront objects-->의 연결 및 조회 필드
+   * 공식 필드
+   * 만든 날짜, 만든 사람
+   * 마지막 수정 날짜, 마지막 수정자
+   * 사용자
 
 Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다음을 수행합니다.
 

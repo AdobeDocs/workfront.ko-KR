@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1800'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를
 * Planning 레코드가 Workfront 객체에 연결된 후 Planning 연결 필드가 Workfront 객체의 사용자 정의 양식에 다음과 같이 표시됩니다.
 
    * 연결된 레코드의 기본 필드만 선택한 경우, 연결에 의해 여러 레코드가 연결될 수 있는 경우 Planning 연결 필드는 여러 값이 있는 필드로 표시됩니다. 자세한 내용은 [레코드 종류 연결 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
-   * <span class="preview">연결된 레코드에서 추가 조회 필드를 선택하면 Planning 연결 필드가 표로 표시됩니다. Planning 연결 필드에 대해 최대 7개의 필드를 선택할 수 있습니다. 테이블 보기는 읽기 전용입니다.  </span>
+   * <span class="preview">Workfront 또는 그룹 관리자가 사용자 정의 양식의 연결된 레코드에서 조회 필드를 추가한 경우 Planning 연결 필드가 표로 표시됩니다. Planning 연결 필드에 대해 최대 7개의 필드를 선택할 수 있습니다. 테이블 보기는 읽기 전용입니다.  </span>
 
 * 하나의 레코드 유형만 하나의 Planning 연결 필드에 연결할 수 있습니다. 양식에 있는 Planning 연결 필드 수에는 제한이 없습니다.
 * Planning 연결 사용자 정의 필드가 있는 사용자 정의 양식을 Workfront 객체에 첨부하려면 객체, 레코드 및 Workfront Planning에 대한 올바른 액세스 및 권한이 있어야 합니다.
