@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
+source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,29 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## Workfront 사용자 정의 양식의 Planning 연결 필드에 연결된 레코드의 조회 필드 추가
+
+>[!NOTE]
+>
+>미리 보기: 2025년 3월 6일, 빠른 릴리스를 위한 프로덕션: 2025년 3월 13일, 모든 고객을 위한 프로덕션: 2025년 4월 10일
+
+Workfront 개체에서 연결된 레코드의 모든 정보에 쉽게 액세스할 수 있도록 연결된 레코드의 조회 필드를 Workfront의 Planning 연결 필드에 추가했습니다.
+
+Planning 연결 사용자 정의 필드의 Workfront 개체에 연결된 레코드에 최대 7개의 조회 필드를 추가할 수 있습니다. 이러한 개선 사항의 일부로, 이제 Workfront 개체의 사용자 지정 형식으로 읽기 쉬운 표 형식으로 연결된 레코드와 해당 필드를 표시할 수 있습니다.
+
+자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+
+## CSV 또는 Excel 파일을 사용하여 레코드 가져오기
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 3월 6일, 모든 고객을 위한 프로덕션: 2025년 4월 10일
+
+이제 레코드 유형의 페이지에서 CSV 또는 Excel 스프레드시트를 사용하여 레코드를 가져올 수 있습니다.
+이 개선 이전에는 레코드 유형을 만들 때만 레코드를 가져올 수 있었습니다. 이 업데이트를 통해 레코드를 기존 레코드 유형으로 가져올 수 있습니다.
+
+자세한 내용은 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)를 참조하십시오.
 
 ## 브라우저 탭 이름에 Workfront Planning 요청 세부 정보 페이지의 레코드 이름 표시
 

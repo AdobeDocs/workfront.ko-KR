@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 </tbody>
 </table>
 
+### 문서 관리 개선 사항
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            문서 보고서에서 한 번에 여러 문서 편집 </a></p>
+            <p>이제 문서 보고서에서 여러 문서를 한 번에 편집할 수 있습니다. 설명을 편집하고 사용자 정의 양식을 업데이트할 수 있습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2025년 2월 6일</li>
+                <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 3월 13일</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### 프로젝트 개선 사항
 
 <table>
@@ -94,6 +117,20 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            버전 업그레이드 종단점을 사용하여 새 이벤트 구독 버전으로 업그레이드</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>이제 Workfront에 이벤트 구독 버전이 있습니다. 새 버전은 Workfront API가 아니라 이벤트 구독 기능이 변경되었습니다. 이벤트 구독에 간격을 두지 않고 이벤트 구독을 새 버전으로 전환할 수 있습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 3월 6일</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
