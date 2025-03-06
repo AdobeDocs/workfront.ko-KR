@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
+source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 ## Adobe Workfront 개선 사항
 
 * [관리자 개선 사항](#administrator-enhancements)
+* [문서 관리 개선 사항](#document-management-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
 * [기타 개선 사항](#other-enhancements)
 

@@ -4,9 +4,9 @@ description: 2025년 2분기 프로젝트 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
+source-git-commit: 1123c028a1971c7a66158b95642154e540dc3d0e
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2025년 2월 6일, 프로덕션 전체 고객: 2025년 3월 13일
+>미리보기 릴리스: 2025년 2월 6일, 모든 고객을 위한 프로덕션: 2025년 3월 13일
 
 이제 문서 보고서에서 여러 문서를 한 번에 편집할 수 있습니다. 설명을 편집하고 사용자 정의 양식을 업데이트할 수 있습니다.
 
