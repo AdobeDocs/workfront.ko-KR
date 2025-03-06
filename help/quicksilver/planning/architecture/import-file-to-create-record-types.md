@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -158,4 +158,4 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다�
 
    레코드 유형 페이지에서 필드 및 레코드 관리를 시작할 수 있습니다.
 
-   이제 Workfront Planning에 액세스할 수 있는 모든 사용자는 가져온 레코드 유형과 해당 정보를 보고 편집할 수 있습니다.
+   이제 Workfront Planning 및 작업 영역에 대한 액세스 권한이 있는 모든 사람이 가져온 레코드 유형 및 해당 정보를 보고 편집할 수 있습니다.

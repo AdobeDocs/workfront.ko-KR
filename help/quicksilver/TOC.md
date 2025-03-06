@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 0e9dd7a4504daf8e5c71bcd72152b0e5287f9354
+source-git-commit: cee44cb281dbbf5bfecd599e63b556208749ca6c
 workflow-type: tm+mt
 source-wordcount: '13042'
 ht-degree: 2%

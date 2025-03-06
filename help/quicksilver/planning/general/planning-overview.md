@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 2%
 
 ---
@@ -277,9 +277,9 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-  레코드 종류 간에 연결을 설정한 후 해당 형식의 개별 레코드를 서로 연결할 수 있습니다. 레코드 간의 연결은 연결된 레코드 필드로 표시됩니다.
+  레코드 종류 간에 연결을 설정한 후에는 개별 레코드나 해당 형식의 개체를 서로 연결할 수 있습니다. 레코드 간의 연결은 연결된 레코드 필드 또는 연결로 표시됩니다.
 
-* **연결된 필드**(또는 조회 필드): 두 레코드 종류 간에 연결을 설정하고 개별 레코드를 함께 연결하면 연결 중인 레코드에서 연결된 레코드의 필드를 참조할 수 있습니다.
+* **조회 필드**(또는 연결된 필드): 두 레코드 종류 간에 연결을 설정하고 개별 레코드를 함께 연결하면 연결 중인 레코드에서 연결된 레코드의 필드를 참조할 수 있습니다.
 
   예를 들어 캠페인 레코드 유형을 Workfront 프로젝트 오브젝트 유형과 연결하는 경우, 캠페인 레코드에 연결된 프로젝트의 예산 필드를 표시할 수 있습니다.
 

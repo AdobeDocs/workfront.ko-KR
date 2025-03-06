@@ -1,22 +1,18 @@
 ---
 title: CSV 또는 Excel 파일에서 정보를 가져와 레코드 만들기
 description: 레코드는 Adobe Workfront Planning의 객체 유형인 레코드 유형의 개별 인스턴스입니다. Workfront Planning에서 CSV 또는 Excel 파일에서 정보를 가져와서 레코드를 만들 수 있습니다.
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
 
-<!-- add the following in the metadata when live:
-
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog-->
 
 # CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기
 
@@ -125,14 +121,14 @@ recommendations: noDisplay, noCatalog-->
 
 {{step1-to-planning}}
 
-1. 레코드 유형을 만들 작업 영역을 클릭합니다.
+1. 레코드를 만들 작업 영역을 클릭합니다.
 
    또는
 
    작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
 1. 레코드를 가져올 레코드 유형의 카드를 클릭합니다.
 1. 화면 오른쪽 상단에서 **새 레코드**&#x200B;을(를) 클릭합니다.
-1. **파일에서 업로드**&#x200B;를 클릭한 다음 **계속**&#x200B;을 클릭합니다.
+1. **파일에서 업로드**&#x200B;를 클릭한 다음 **계속**&#x200B;을 클릭합니다. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. 이전에 컴퓨터에 저장한 Excel 또는 CSV 파일을 끌어서 놓거나 **CSV 또는 Excel 파일 선택**&#x200B;을 클릭하여 찾습니다.
 1. **미리 보기 및 편집**&#x200B;을 클릭합니다.
 1. (조건부) 가져온 파일에 시트가 두 개 이상 있으면 **가져올 시트 선택** 상자에서 가져올 시트의 라디오 단추를 선택한 후 **다음**&#x200B;을 클릭합니다. 그렇지 않으면 다음 단계를 계속 진행하십시오.
@@ -146,14 +142,14 @@ recommendations: noDisplay, noCatalog-->
 
 1. (선택 사항 및 조건부) 작업 영역에 대한 관리 권한이 있는 경우 화면 왼쪽 하단의 **누락된 옵션 만들기**&#x200B;를 선택합니다. 활성화되면 단일 및 다중 선택 필드의 누락된 선택 사항이 추가됩니다.
 
->[!NOTE]
->
->예를 들어 선택한 레코드 유형에 새로 만들기, 진행 중 및 닫힘 선택 사항이 있는 단일 선택 상태 필드가 있고 파일에서 가져온 상태 필드에 보류 중 상태 선택 사항이 있는 경우 보류 중 상태 선택 사항도 추가됩니다.
->
->작업 공간에 대한 관리 권한이 없는 경우 레코드를 가져올 수 있지만, 추가 선택 항목이 만들어지지 않습니다. 대신 열 머리글 상자에 Planning 필드 매핑 상자의 오른쪽 상단 모서리에서 다음 메시지가 표시됩니다. **단일 또는 다중 선택 필드 연결에 없는 선택 사항은 추가되지 않습니다**.
+   >[!NOTE]
+   >
+   >예를 들어 선택한 레코드 유형에 새로 만들기, 진행 중 및 닫힘 선택 사항이 있는 단일 선택 상태 필드가 있고 파일에서 가져온 상태 필드에 보류 중 상태 선택 사항이 있는 경우 보류 중 상태 선택 사항도 추가됩니다.
+   >
+   >작업 공간에 대한 관리 권한이 없는 경우 레코드를 가져올 수 있지만, 추가 선택 항목이 만들어지지 않습니다. 대신 열 머리글 상자에 Planning 필드 매핑 상자의 오른쪽 상단 모서리에서 다음 메시지가 표시됩니다. **단일 또는 다중 선택 필드 연결에 없는 선택 사항은 추가되지 않습니다**.
 
 
-    &lt;!—연결된 레코드를 추가하고 도구의 정보 아이콘이 변경되면 해당 항목도 이 단계에 추가합니다—>
+   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
 
 1. **가져오기**&#x200B;를 클릭합니다.
 
@@ -161,7 +157,7 @@ recommendations: noDisplay, noCatalog-->
 
    * 선택한 레코드 종류의 표 보기 아래쪽에 표시되는 새 레코드입니다.
    * 각 레코드와 연결된 기존 필드의 새 필드 값.
-   * Planning에 존재하지 않았던 다중 선택 필드 또는 단일 선택 필드의 새 선택 사항입니다.
+   * Planning에 존재하지 않았던 다중 선택 필드 또는 단일 선택 필드의 새 선택 사항입니다.  <!--when we add connected records - add those here too-->
 
    레코드 유형 페이지에서 필드 및 레코드 관리를 시작할 수 있습니다.
 

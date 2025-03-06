@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1858'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 * [다른 레코드와 연결할 때 레코드 만들기](#create-records-as-you-connect-them)
 * [요청 양식을 레코드 유형으로 제출하여 레코드 생성](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [CSV 또는 Excel 파일에서 레코드 유형을 가져올 때 레코드 만들기](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
+* <Span class="preview">[CSV 또는 Excel 파일에서 정보를 가져와서 레코드를 만듭니다](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
 * <span class="preview">[자동화를 사용하여 레코드 만들기](#create-records-by-using-automations)</span>
 
 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
@@ -271,8 +271,6 @@ You can import records from other applications by linking them to existing recor
    또는
 이름을 입력한 다음 **+ 추가**&#x200B;를 클릭합니다. **+ 추가** 단추 다음에 연결 중인 레코드 형식의 이름이 옵니다. 예: 기존 캠페인에 브랜드를 추가할 때 &quot;브랜드 추가&quot; 입력한 이름도 [추가] 단추 다음에 표시됩니다.
 
-   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
-
    ![강조 표시된 컨텍스트에서 레코드를 만들기 위한 추가 단추](assets/add-button-to-create-records-in-context-highlighted.png)
 
    레코드가 생성되고 연결된 레코드 필드에 추가됩니다.
@@ -305,18 +303,15 @@ CSV 또는 Excel 파일을 사용하여 레코드 유형을 가져올 때 레코
 
 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
-<!--
 <div class="preview">
 
-## Create records when importing records from a CSV or Excel file
+## CSV 또는 Excel 파일에서 레코드를 가져올 때 레코드 만들기
 
-You can import records for existing record types when you import information from a CSV or Excel file. 
+CSV 또는 Excel 파일에서 정보를 가져올 때 기존 레코드 유형의 레코드를 가져올 수 있습니다.
 
-For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+자세한 내용은 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)를 참조하십시오.
 
-</div> 
-
--->
+</div>
 
 <div class="preview">
 
