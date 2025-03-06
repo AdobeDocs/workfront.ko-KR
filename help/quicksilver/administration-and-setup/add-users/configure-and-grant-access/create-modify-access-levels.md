@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 6%
 
 ---
@@ -184,7 +184,7 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
      </tr> 
      <tr> 
       <td role="rowheader">소속 회사, 그룹 및 팀만 보기</td> 
-      <td>사용자가 자신이 속한 회사, 그룹 및 팀과만 항목을 보고 공유할 수 있도록 해줍니다.<p><strong>참고</strong>: 요청자 라이선스가 있는 사용자는 이 옵션을 선택하더라도 자신이 속하지 않은 회사를 볼 수 없습니다.</td> 
+      <td>사용자가 자신이 속한 회사, 그룹 및 팀과만 항목을 보고 공유할 수 있도록 해줍니다.<p><strong>참고</strong>: 요청자 또는 기여자 라이선스가 있는 사용자는 이 옵션을 선택하더라도 자신이 속하지 않은 회사를 볼 수 없습니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">계획된 시간 또는 실제 근로시간 표시 허용 안 함</td> 
@@ -212,7 +212,7 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
 
    자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
-   Adobe 관리자가 사용자에게 시스템 관리자 액세스 수준을 할당하는 방법에 대한 자세한 내용은 [사용자에게 전체 관리자 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)를 참조하십시오.
+   Adobe 관리자가 사용자에게 시스템 관리자 액세스 수준을 할당하는 방법에 대한 자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)를 참조하십시오.
 
 ## 작업 역할에 대한 관리 액세스 권한이 있는 표준 또는 플래너 사용자 {#planner-users}
 
