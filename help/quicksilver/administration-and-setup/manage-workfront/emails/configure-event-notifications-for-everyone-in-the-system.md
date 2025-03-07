@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -90,8 +90,6 @@ ht-degree: 1%
 
 1. (선택 사항) 그룹 관리자가 그룹에 대해 별도로 구성할 수 있도록 전자 메일 알림에 대한 구성을 잠금 해제하려면 알림 오른쪽에 있는 ![잠금 토글](assets/lock-toggle-button.png) 단추를 클릭하여 잠금 해제된 위치로 전환합니다![잠금 해제 토글](assets/unlock-toggle-button.png).
 
-   >[!NOTE]
-   >
-   >이 기능은 처음에는 단계적 롤아웃의 일부로 클러스터 4의 고객만 사용할 수 있습니다. 곧 다른 클러스터에서 사용할 수 있게 됩니다. 이 문서는 이에 따라 업데이트됩니다.
-
    자세한 내용은 [모든 그룹에 대한 이벤트 알림 구성 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)을 참조하세요.
+
+사용자는 사용자 프로필에서 이러한 알림의 빈도를 사용자 지정할 수 있습니다.

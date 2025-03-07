@@ -7,14 +7,19 @@ description: 플라이트 계획 시각화는 적용된 필터 기준 내에서 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '927'
 ht-degree: 4%
 
 ---
 
 # 향상된 분석에서 플라이트 플랜 시각화 보기
+
+>[!IMPORTANT]
+>
+>향상된 Analytics는 5월 26일이 있는 주에 Workfront에서 제거됩니다. Workfront Data Connect는 새로운 대체 솔루션이며 현재 사용하는 향상된 Analytics 시각화를 복제하는 데 사용할 수 있습니다. <br>자세한 내용은 [향상된 Analytics 사용 중단](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) 안내서를 참조하십시오.
+
 
 플라이트 계획 시각화는 적용된 필터 기준 내에서 얼마나 많은 프로젝트가 작동 중인지, 이러한 프로젝트의 라이프타임 동안 어떤 상태 변화가 발생했는지, 그리고 이러한 프로젝트가 계획된 완료 기한을 얼마나 준수했는지 보여 줍니다.
 

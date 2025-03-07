@@ -4,11 +4,9 @@ title: 향상된 Analytics 사용 중단 안내서
 description: 이 페이지에는 향상된 Analytics의 향후 사용 중단에 대한 정보가 포함되어 있습니다.
 author: Nolan
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%

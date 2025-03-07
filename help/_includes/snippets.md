@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: affff16630379333465c118734babf7a239af272
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -94,7 +94,7 @@ ht-degree: 1%
 >
 >이 페이지에 설명된 절차는 Adobe Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다.
 >
->조직이 Adobe Admin Console에 온보딩된 경우 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>조직이 Adobe Admin Console에 온보딩되었다면 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하세요.
 
 ## 1단계 - 사용자 가져오기 {#step-1-to-users}
 
@@ -172,7 +172,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 사용 중인 Adobe Creative Cloud 애플리케이션에 맞는 플러그인을 설치해야 합니다.
 * Photoshop의 경우 [Photoshop용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)를 참조하십시오.
 * XD의 경우 [XD용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)를 참조하십시오.
-* InDesign, Illustrator, Premiere Pro 및 After Effects에 대해서는 [디자인 및 비디오용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)를 참조하십시오.
+* InDesign, Illustrator, Premiere Pro 및 After Effects의 경우 [디자인 및 비디오용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)를 참조하십시오.
 
 ## CC Applications 목록 {#cc-app-list}
 
@@ -293,7 +293,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 >
 >* 새로운 Workfront 패키지 및 라이선스. 기존 Workfront 패키지 또는 라이선스에는 Workfront Planning을 사용할 수 없습니다.
 >* Workfront Planning 패키지
->* 조직의 Workfront 인스턴스는 통합 경험 Adobe에 온보딩되어야 합니다.
+>* 조직의 Workfront 인스턴스는 Adobe 통합 경험에 온보딩되어야 합니다.
 >
 > Workfront Planning에 액세스하기 위한 전체 요구 사항 목록은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 > 
@@ -315,9 +315,9 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 <!-- Manage Work -->
 
-## 1단계 - Portfolio 시작 - {#step1-to-portfolios}
+## 1단계 - 포트폴리오 시작하기 - {#step1-to-portfolios}
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL Portfolio]**&#x200B;을 클릭합니다.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 포트폴리오]**&#x200B;를 클릭합니다.
 
 ## 1단계 - 프로그램 시작하기 - {#step1-to-programs}
 
@@ -495,3 +495,5 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
+
+

@@ -7,14 +7,19 @@ description: 진행 중인 작업 시각화는 프로젝트에 대해 진행 중
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '791'
 ht-degree: 4%
 
 ---
 
 # 향상된 분석에서 진행 중인 작업 시각화 보기
+
+>[!IMPORTANT]
+>
+>향상된 Analytics는 5월 26일이 있는 주에 Workfront에서 제거됩니다. Workfront Data Connect는 새로운 대체 솔루션이며 현재 사용하는 향상된 Analytics 시각화를 복제하는 데 사용할 수 있습니다. <br>자세한 내용은 [향상된 Analytics 사용 중단](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) 안내서를 참조하십시오.
+
 
 진행 중인 작업 시각화는 프로젝트에 대해 진행 중인 작업 수(적용된 필터 기준 내), 각 작업에 대해 완료된 작업의 비율 및 작업을 예약하는 방법을 보여 줍니다.
 

@@ -7,14 +7,20 @@ description: 팀 시각화별 활동 은 홈 팀의 특정 시간대 동안 발�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 7%
+source-wordcount: '769'
+ht-degree: 6%
 
 ---
 
 # 향상된 분석에서 팀별 활동 시각화 보기
+
+>[!IMPORTANT]
+>
+>향상된 Analytics는 5월 26일이 있는 주에 Workfront에서 제거됩니다. Workfront Data Connect는 새로운 대체 솔루션이며 현재 사용하는 향상된 Analytics 시각화를 복제하는 데 사용할 수 있습니다. <br>자세한 내용은 [향상된 Analytics 사용 중단](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) 안내서를 참조하십시오.
+
+
 
 <!-- Audited: 12/2023 -->
 

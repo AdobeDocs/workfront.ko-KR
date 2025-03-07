@@ -7,7 +7,7 @@ description: 증명에서 만들거나 편집할 증명을 구성할 수 있습�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 1%
@@ -113,11 +113,12 @@ ht-degree: 1%
 
 증명에서 구독을 활성화한 경우 아래 필드가 활성화됩니다.
 
-* **[!UICONTROL 구독자 유효성 검사 필요]** - 구독자가 증명에 액세스하려면 전자 메일의 링크를 클릭해야 합니다.\
+* **[!UICONTROL 구독자 역할]** - 증명을 구독하는 모든 검토자에게 할당되는 기본 증명 역할입니다.
+* **[!UICONTROL 구독자에 대한 전자 메일 경고 설정]** - 증명을 구독하는 모든 검토자에게 할당되는 기본 전자 메일 경고입니다.
+* **[!UICONTROL 전자 메일 링크를 통한 증명 액세스 필요]** - 구독자가 증명에 액세스하려면 전자 메일의 링크를 클릭해야 함\
    이 옵션을 선택하면 구독하는 사람이 증명에 즉시 액세스할 수 없지만 전자 메일에 증명에 대한 링크를 받게 됩니다. 구독자 유효성 검사의 목적은 해당 사용자가 액세스할 수 있는 올바른 이메일 주소를 입력했는지 확인하는 것입니다.
 
-* **[!UICONTROL 새 구독자의 기본 역할]** - 증명에 자신을 구독하는 모든 검토자에게 할당되는 기본 증명 역할입니다.
-* **[!UICONTROL 새 구독자에 대한 기본 전자 메일 경고]** - 증명에 자신을 구독하는 모든 검토자에게 할당되는 기본 전자 메일 경고입니다.
+
 
 [다음에서 증명 구독 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)도 참조하세요.
 

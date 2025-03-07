@@ -7,9 +7,9 @@ description: Enhanced Analytics 영역의 화면 맨 위에 4개의 KPI(핵심 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->이 기능을 사용하려면 비즈니스 계획 이상이 필요합니다.\
->사용 가능한 다양한 플랜에 대한 자세한 내용은 [Adobe Workfront 플랜](https://www.workfront.com/plans)을 참조하십시오.
+>향상된 Analytics는 5월 26일이 있는 주에 Workfront에서 제거됩니다. Workfront Data Connect는 새로운 대체 솔루션이며 현재 사용하는 향상된 Analytics 시각화를 복제하는 데 사용할 수 있습니다. <br>자세한 내용은 [향상된 Analytics 사용 중단](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) 안내서를 참조하십시오.
+
+
+이 기능을 사용하려면 비즈니스 계획 이상이 필요합니다.\
+사용 가능한 다양한 플랜에 대한 자세한 내용은 [Adobe Workfront 플랜](https://www.workfront.com/plans)을 참조하십시오.
 
 Enhanced Analytics 영역의 화면 맨 위에 4개의 KPI(핵심 성능 지표)가 표시됩니다. 이러한 지표를 통해 프로젝트의 소요 시간, 프로젝트의 규모, 특정 시간대 내에 완료되는 프로젝트의 수를 빠르게 파악할 수 있습니다. 이 숫자는 이 페이지의 시각화에 표시되는 최대 50개 프로젝트로 제한되지 않습니다. 대신, 이 데이터는 설정된 필터에 적용되는 모든 프로젝트를 기반으로 하며, 선택한 날짜 범위 또는 필터를 변경하면 이러한 숫자가 조정됩니다.
 

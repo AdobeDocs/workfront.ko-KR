@@ -7,14 +7,19 @@ description: 향상된 Analytics는 계획 및 완료로 프로젝트 데이터�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 3%
 
 ---
 
 # 향상된 분석 개요
+
+>[!IMPORTANT]
+>
+>향상된 Analytics는 5월 26일이 있는 주에 Workfront에서 제거됩니다. Workfront Data Connect는 새로운 대체 솔루션이며 현재 사용하는 향상된 Analytics 시각화를 복제하는 데 사용할 수 있습니다. <br>자세한 내용은 [향상된 Analytics 사용 중단](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) 안내서를 참조하십시오.
+
 
 향상된 Analytics는 계획 및 완료로 프로젝트 데이터를 보고 트렌드를 식별할 수 있도록 해주는 미리 작성된 시각화가 있는 Adobe Workfront의 강력한 도구입니다. 프로젝트에 대한 이러한 통찰력을 통해 현재 작업을 관리하고 향후 작업을 보다 정확하게 계획할 수 있습니다.
 

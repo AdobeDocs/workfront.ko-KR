@@ -6,14 +6,19 @@ description: Adobe Workfront의 향상된 분석 영역에 있는 필터를 사�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
 
 # 향상된 분석에서 필터 적용
+
+>[!IMPORTANT]
+>
+>향상된 Analytics는 5월 26일이 있는 주에 Workfront에서 제거됩니다. Workfront Data Connect는 새로운 대체 솔루션이며 현재 사용하는 향상된 Analytics 시각화를 복제하는 데 사용할 수 있습니다. <br>자세한 내용은 [향상된 Analytics 사용 중단](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) 안내서를 참조하십시오.
+
 
 <!-- Audited: 12/2023 -->
 
@@ -52,7 +57,7 @@ Adobe Workfront의 향상된 분석 영역에 있는 필터를 사용하면 특�
   </tr>
   <tr> 
    <td>액세스 수준 구성</td> 
-   <td> <p>프로젝트에 대한 액세스 보기</p> <p>특정 프로젝트 필드 필터 옵션을 보려면 작업, Portfolio 및 사용자에 대한 보기 액세스 권한도 있어야 합니다.</p> <p>참고: 액세스 수준 편집 대화 상자의 <strong>추가 제한 설정</strong> 섹션에서 제한을 선택하면 필터가 적용된 후 필터 또는 향상된 분석 페이지에 일부 정보가 표시되지 않을 수 있습니다.</p> </td> 
+   <td> <p>프로젝트에 대한 액세스 보기</p> <p>특정 프로젝트 필드 필터 옵션을 보려면 작업, 포트폴리오 및 사용자에 대한 보기 액세스 권한도 있어야 합니다.</p> <p>참고: 액세스 수준 편집 대화 상자의 <strong>추가 제한 설정</strong> 섹션에서 제한을 선택하면 필터가 적용된 후 필터 또는 향상된 분석 페이지에 일부 정보가 표시되지 않을 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>개체 권한 </p> </td> 
