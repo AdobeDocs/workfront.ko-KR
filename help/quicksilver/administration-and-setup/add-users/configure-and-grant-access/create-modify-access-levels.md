@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
+source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 6%
@@ -221,3 +221,6 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
 나중에 사용자의 작업 역할에 대한 관리 액세스를 비활성화하면 역할 청구 및 비용 요금 편집 설정이 계속 활성화되어 있기 때문에 작업 역할이 사용자에게 계속 표시됩니다.
 
 이 경우 작업 역할을 보려면 사용자의 액세스 권한을 제거해야 합니다. 사용자의 역할 청구 및 비용 요금 편집 권한 설정을 비활성화해야 합니다. 지침은 [재무 데이터에 대한 액세스 권한 부여](grant-access-financial.md)를 참조하십시오.
+
+
+
