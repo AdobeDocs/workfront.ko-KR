@@ -9,13 +9,13 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 77d93919a84b2c3b098d1b5e6796af6b37b51034
+exl-id: b7155160-4537-4919-bebf-72056b181bb6
+source-git-commit: bd39c5794c55e27a876da185e67bf8c654a003b2
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 1%
+source-wordcount: '178'
+ht-degree: 0%
 
 ---
-
 
 # 프로젝트 활동 쿼리
 
@@ -35,3 +35,191 @@ ht-degree: 1%
    1. [Workfront Data Connect에 연결 설정](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 
 연결을 설정한 후에는 이 문서의 쿼리를 사용하여 데이터를 추출하고 시각화할 수 있습니다.
+
+## 프로젝트 사용자의 로그인 이벤트
+
+특정 날짜에 로그인한 프로젝트에 할당된 사람 수를 표시합니다.
+
+```
+WITH userlogins as ( 
+    SELECT 
+        userid, 
+        lastlogindate 
+    FROM ( 
+        SELECT 
+            userid, 
+            lastlogindate, 
+            lag(lastlogindate, 1, '1990-01-01') OVER (PARTITION BY userid ORDER BY begin_effective_timestamp) as previous_login 
+        FROM users_event 
+    ) 
+    WHERE lastlogindate != previous_login 
+) 
+ 
+SELECT 
+    tds.projectid, 
+    ads.calendardate, 
+    count(1) 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+    INNER JOIN userlogins ul ON ads.assignedtoid = ul.userid and TO_DATE(ul.lastlogindate) = ads.calendardate 
+GROUP BY tds.projectid, ads.calendardate
+```
+
+### 프로젝트 사용자의 로그인 이벤트: 드릴다운
+
+```
+WITH userlogins as ( 
+    SELECT 
+        userid, 
+        lastlogindate 
+    FROM ( 
+        SELECT 
+            userid, 
+            lastlogindate, 
+            lag(lastlogindate, 1, '1990-01-01') OVER (PARTITION BY userid ORDER BY begin_effective_timestamp) as previous_login 
+        FROM users_event 
+    ) 
+    WHERE lastlogindate != previous_login 
+) 
+
+SELECT 
+    tds.projectid, 
+    ul.userid, 
+    ads.calendardate, 
+    count(1) 
+FROM assignments_daily_history ads 
+INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+INNER JOIN userlogins ul ON ads.assignedtoid = ul.userid AND TO_DATE(ul.lastlogindate) = ads.calendardate 
+group by tds.projectid, ul.userid, ads.calendardate
+ 
+```
+
+## 프로젝트 사용자의 작업 상태 변경 이벤트
+
+지정된 날짜에 프로젝트에 대한 작업의 상태를 변경한 사람 수를 표시합니다.
+
+```
+WITH task_status_changes as (  
+    SELECT 
+        taskid, 
+        status, 
+        begin_effective_timestamp  
+    FROM (  
+        SELECT 
+            taskid, 
+            status, 
+            begin_effective_timestamp, 
+            lag(status, 1, 'NOSTATUS') OVER (PARTITION BY taskid ORDER BY begin_effective_timestamp) as previous_status 
+        FROM tasks_event 
+        WHERE status != 'CPL' 
+    )  
+    WHERE status != previous_status  
+)  
+ 
+SELECT 
+    tds.projectid, 
+    count(tds.status), 
+    ads.calendardate 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+    INNER JOIN task_status_changes tsc ON tsc.taskid = ads.taskid AND tsc.taskid = tds.taskid and TO_DATE(tsc.begin_effective_timestamp) = tds.calendardate 
+GROUP BY tds.projectid, ads.calendardate
+```
+
+### 프로젝트 사용자의 작업 상태 변경 이벤트: 드릴다운
+
+```
+WITH task_status_changes as (  
+    SELECT 
+        taskid, 
+        status, 
+        lastupdatedbyid, 
+        begin_effective_timestamp  
+    FROM (  
+        SELECT 
+            taskid, 
+            status, 
+            begin_effective_timestamp, 
+            lastupdatedbyid, 
+            lag(status, 1, 'NOSTATUS') OVER (PARTITION BY taskid ORDER BY begin_effective_timestamp) as previous_status  
+        FROM tasks_event  
+        WHERE status != 'CPL'  
+    )  
+    WHERE status != previous_status  
+)  
+ 
+SELECT 
+    tds.projectid, 
+    tsc.lastupdatedbyid, 
+    count(tcs.status), 
+    ads.calendardate 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+    INNER JOIN task_status_changes tsc ON tsc.taskid = ads.taskid AND tsc.taskid = tds.taskid AND TO_DATE(tsc.begin_effective_timestamp) = tds.calendardate 
+GROUP BY tds.projectid, tsc.lastupdatedbyid, ads.calendardate
+```
+
+## 프로젝트 사용자의 작업 완료 이벤트
+
+지정된 날짜에 프로젝트에 대한 작업을 완료한 사람 수를 표시합니다.
+
+```
+WITH task_status_changes as (  
+    SELECT 
+        taskid, 
+        status, 
+        begin_effective_timestamp  
+    FROM (  
+        SELECT 
+            taskid, 
+            status, 
+            begin_effective_timestamp, 
+            lag(status, 1, 'NOSTATUS') OVER (PARTITION BY taskid ORDER BY begin_effective_timestamp) as previous_status  
+        FROM tasks_event  
+        WHERE status = 'CPL'  
+    )  
+    WHERE status != previous_status  
+) 
+ 
+SELECT 
+    tds.projectid, 
+    count(tds.status), 
+    ads.calendardate 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid and tds.calendardate = ads.calendardate 
+    INNER JOIN task_status_changes tsc ON tsc.taskid = ads.taskid and tsc.taskid = tds.taskid and TO_DATE(tsc.begin_effective_timestamp) = tds.calendardate 
+GROUP BY tds.projectid, ads.calendardate
+```
+
+### 프로젝트 사용자의 작업 완료 이벤트: 드릴다운
+
+```
+WITH task_status_changes as (  
+    SELECT 
+        taskid, 
+        status, 
+        lastupdatedbyid, 
+        begin_effective_timestamp  
+    FROM (  
+        SELECT 
+            taskid, 
+            status, 
+            begin_effective_timestamp, 
+            lastupdatedbyid, 
+            lag(status, 1, 'NOSTATUS') OVER (PARTITION BY taskid ORDER BY begin_effective_timestamp) as previous_status  
+        FROM tasks_event  
+        WHERE status = 'CPL'  
+    )  
+    WHERE status != previous_status  
+)  
+ 
+SELECT 
+    tds.projectid, 
+    tsc.lastupdatedbyid, 
+    count(tsc.status), 
+    ads.calendardate 
+FROM assignments_daily_history ads 
+    INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
+    INNER JOIN task_status_changes tsc ON tsc.taskid = ads.taskid AND tsc.taskid = tds.taskid AND TO_DATE(tsc.begin_effective_timestamp) = tds.calendardate 
+GROUP BY tds.projectid, tsc.lastupdatedbyid, ads.calendardate
+```

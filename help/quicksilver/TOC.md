@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 1e372089de40c49cd99c0b0d95a614f6e6c4a997
+source-git-commit: 321a29a4792bf8a40c04e46e8b29bf44e092678f
 workflow-type: tm+mt
-source-wordcount: '13061'
+source-wordcount: '13063'
 ht-degree: 2%
 
 ---
@@ -1702,13 +1702,13 @@ ht-degree: 2%
       * [Workfront Data Connect 데이터 사전](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Workfront Data Connect 쿼리 예제](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Workfront Data Connect 사용 지표 보기](reports-and-dashboards/data-lake/view-usage-metrics.md)
-      * [향상된 Analytics 쿼리]{#enhanced-analytics-queries}
+      * 향상된 Analytics 쿼리{#enhanced-analytics-queries}
          * [향상된 Analytics 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [KPI 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [플라이트 플랜 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [프로젝트 활동 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [프로젝트 트리맵 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
-         * [사용자 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/people-queries.md)
+         * [팀 쿼리별 활동](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 * 리소스 관리 {#manage-resources}
    * [리소스 관리](resource-mgmt/manage-resources.md)
    * 리소스 관리 {#resource-management}
