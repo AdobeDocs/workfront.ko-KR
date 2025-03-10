@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 설정 > 그룹 > 승인의 프로젝트, 작업 및 문제 승인 목록을 업데이트했습니다.
 
-이 변경 사항을 보려면 설정 > 그룹 > 승인으로 이동합니다.
+이 변경 사항을 보려면 설정 > 그룹 > 그룹 선택 > 승인으로 이동합니다.
 
 이 업데이트에는 영역에 대한 시각적 변경 사항이 포함됩니다. 변경된 기능이 없습니다.
 
