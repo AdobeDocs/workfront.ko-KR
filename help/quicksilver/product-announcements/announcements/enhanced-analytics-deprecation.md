@@ -6,9 +6,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: 6d0074438b4711198fd94105544efe39665a785e
+source-git-commit: 905aaaa5d300bc71058dd6ee2d568c8fc1229570
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -43,21 +43,21 @@ Data Connect가 새 Ultimate 플랜<!--, and can be purchased as an add-on to th
 
 ### 향상된 Analytics 시각화 복제
 
-Workfront Data Connect를 사용하여 많은 새로운 시각화 옵션 외에도 가장 가치 있다고 생각하는 향상된 Analytics 시각화를 복제할 수 있습니다. 사용 중단에 가까워지면 향상된 Analytics 시각화를 복제하는 쿼리의 특정 예제를 [Workfront Data Connect 예제 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) 페이지에 추가합니다.
+Workfront Data Connect를 사용하여 많은 새로운 시각화 옵션 외에도 가장 가치 있다고 생각하는 향상된 Analytics 시각화를 복제할 수 있습니다.
 
-<!--Use the queries in the articles below to create data visualizations similar to those in Enhanced Analytics:
-
-
-* [KPI queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
-
-Coming soon:
-
-* Flight plan queries
-* Project activities queries
-* Project treemap queries
-* People queries
+아래 문서의 쿼리를 사용하여 고급 Analytics의 쿼리와 유사한 데이터 시각화를 만드십시오.
 
 
+* [KPI 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
+
+준비 중:
+
+* 플라이트 플랜 쿼리
+* 프로젝트 활동 쿼리
+* 프로젝트 트리맵 쿼리
+* 사용자 쿼리
+
+<!--
 * [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
 * [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
 * [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
