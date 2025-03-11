@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -68,3 +68,5 @@ Workfront 캘린더의 모양과 느낌을 Workfront의 다른 영역과 일관�
 
 * 이제 &quot;시스템 전체 표시&quot; 옵션에 &quot;시스템의 모든 사용자가 볼 수 있음&quot;이 표시됩니다. 이 옵션은 여전히 이전과 동일하게 작동합니다.
 * 고급 공유 설정에 액세스할 수 있는 새 아이콘이 있습니다.
+
+공유 대화 상자를 찾을 위치에 대한 자세한 내용은 [개체에 권한 부여 및 요청](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)을 참조하십시오.
