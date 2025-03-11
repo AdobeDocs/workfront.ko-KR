@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 321a29a4792bf8a40c04e46e8b29bf44e092678f
+source-git-commit: e4c037b3c5d77094db51c159dcd045aa34fcbe61
 workflow-type: tm+mt
-source-wordcount: '13063'
+source-wordcount: '13066'
 ht-degree: 2%
 
 ---
@@ -2049,6 +2049,7 @@ ht-degree: 2%
       * [Adobe Workfront Planning의 공유 권한 개요](planning/access/sharing-permissions-overview.md)
       * [Adobe Workfront Planning 사용 시 라이선스 유형 개요](planning/access/license-type-overview.md)
       * [작업 공간 공유](planning/access/share-workspaces.md)
+      * [레코드 유형 공유](planning/access/share-record-types.md)
       * [보기 공유](planning/access/share-views.md)
       * [보기 또는 작업 영역에 대한 권한 요청](planning/access/request-permissions.md)
    * Adobe Workfront 계획 레코드 {#adobe-workfront-planning-records}

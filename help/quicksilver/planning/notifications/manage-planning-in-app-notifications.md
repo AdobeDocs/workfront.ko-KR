@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '433'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항 보기..
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -64,9 +64,9 @@ ht-degree: 1%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>조직의 Workfront 인스턴스는 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
-<p>조직의 사용자는 조직이 Adobe 통합 경험에 온보딩될 때만 Workfront Planning에서 알림을 받습니다. </p>
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>조직의 Workfront 인스턴스는 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>조직의 사용자는 조직이 Workfront 통합 경험에 온보딩될 때만 Adobe Planning에서 알림을 받습니다. </p>
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -101,7 +101,7 @@ ht-degree: 1%
 <!--
 OLD:
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 <table style="table-layout:auto">
  <col>

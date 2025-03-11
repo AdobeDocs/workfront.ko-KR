@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -72,8 +72,8 @@ Workfront Planning에서 요청 양식을 만드는 방법에 대한 자세한 �
 <tr>
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
    <td>
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p>
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p>
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p>
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p>
    </td>
   </tr>
   </tr>
@@ -93,7 +93,7 @@ Workfront Planning에서 요청 양식을 만드는 방법에 대한 자세한 �
    <td role="rowheader"><p>개체 권한</p></td>
    <td>
    <ul>
-   <li><p>작업 공간에 대한 권한 관리</p></li>
+   <li><p>작업 공간에 대한 권한 관리 <!--<span class="preview">and record type</span>--></p></li>
     <li><p>시스템 관리자는 자신이 만들지 않은 작업 공간을 관리할 수 있습니다. </p></li>
     </ul>
    <p>Workfront Planning 객체의 권한 공유에 대한 자세한 내용은  
@@ -148,7 +148,7 @@ Workfront Planning에서 요청 양식을 만드는 방법에 대한 자세한 �
    >* 요청이 승인 또는 거부되기 전에 모든 승인자는 결정을 내려야 합니다.
 
 
-1. (선택 사항) 이전에 요청 양식을 공유한 적이 없으면 **Publish**&#x200B;을 클릭합니다
+1. (선택 사항) 요청 양식을 공유한 적이 없으면 **게시**&#x200B;를 클릭합니다
 
    또는
 

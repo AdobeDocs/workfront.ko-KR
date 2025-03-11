@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1797'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항 보기..
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -92,7 +92,11 @@ ht-degree: 1%
    <td role="rowheader"><p>개체 권한</p></td>
    <td>
    <p>Workfront에서 프로젝트, 포트폴리오 또는 프로그램에 대한 권한 보기 이상</a> </p> 
-   <p>Workfront Planning에서 작업 영역에 대한 권한을 보고 연결된 레코드를 보거나 Contribute 또는 작업 영역에 대한 권한 이상을 제공하여 레코드를 연결하거나 연결을 끊습니다</a> </p>  
+   <p>Workfront Planning에서:
+   <ul><li>
+   연결된 레코드를 볼 수 있는 <!--<span class="preview">and record type</span>--> 작업 영역에 대한 권한을 봅니다. </li>
+   또는
+   <li> <!--<span class="preview">and record type</span>--> 작업 영역에 기록 연결 또는 연결을 끊을 수 있는 이상의 권한을 제공하십시오.</a></li></ul> </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 Workfront Planning 작업 영역에 대한 권한을 가집니다</p> 
   </td>
   </tr>

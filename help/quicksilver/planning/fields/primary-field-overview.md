@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -15,6 +15,10 @@ ht-degree: 1%
 
 
 # 기본 필드 개요
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,4 +53,4 @@ ht-degree: 1%
 * 테이블 보기의 기본 필드를 변경하면 기본 필드를 선택하는 다른 모든 사용자의 보기에 영향을 줍니다.
 * 표 보기에서 기본 필드를 변경하면 레코드 유형의 모든 표 보기에 영향을 줍니다.
 * 기본 필드에 나열된 값은 항상 레코드의 페이지에 하이퍼링크됩니다.
-* 작업 영역에 대한 Contribute 이상의 권한이 있는 경우 공식 필드를 제외한 기본 필드의 값을 편집할 수 있습니다. 공식은 자동으로 업데이트되는 계산입니다.
+* 작업 영역 <!--<span class="preview">and record type</span>-->에 대한 기여 이상의 권한이 있는 경우 수식 필드를 제외한 기본 필드의 값을 편집할 수 있습니다. 공식은 자동으로 업데이트되는 계산입니다.

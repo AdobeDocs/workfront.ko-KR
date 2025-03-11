@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
@@ -17,16 +17,14 @@ ht-degree: 1%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 
 Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로 공동 작업하려면 레코드의 세부 사항을 파일로 내보내고 해당 사용자와 공유할 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항 보기..
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -62,8 +60,8 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -80,7 +78,7 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역 </a>에 대한 이상의 권한 보기 </p>  
+   <td>   <p>작업 영역 <!--<span class="preview">and record type</span>--> </a>에 대한 이상의 권한 보기 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> </td> 
   </tr> 
 <tr> 
@@ -129,7 +127,7 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
    * **Microsoft Word**
    * **Adobe PDF**
 
-   Word(.docx) 또는 PDF 파일을 다운로드하여 컴퓨터에 저장합니다.
+   Word(.docx) 또는 PDF 파일이 다운로드되고 컴퓨터에 저장됩니다.
 
    내보낸 파일의 이름은 레코드의 기본 필드입니다.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항 보기..
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -99,7 +99,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 <tr>
    <td role="rowheader"><p>개체 권한</p></td>
    <td>
-   <p>작업 영역 </a>에 대한 또는 더 높은 권한 제공 </p>  
+   <p>작업 영역 <!--<span class="preview">and record type</span>--> </a>에 대한 권한 이상 제공 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> 
   </td>
   </tr>

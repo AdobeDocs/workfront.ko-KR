@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Adobe Workfront 라이선스 유형은 Adobe Workfront Planning 권한과 함께 작동하여 다음 액세스 권한을 부여합니다.
 
-* 작업 영역 보기, 기여 또는 관리
+* 작업 영역 <!--<span class="preview">or record types</span>--> 보기, 참여 또는 관리
 * 보기를 보거나 관리합니다.
 
 Workfront Planning의 개체에 대한 사용 권한에 대한 자세한 내용은 [Adobe Workfront Planning의 사용 권한 공유 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
@@ -39,9 +39,20 @@ Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [Adob
 
 보기에 액세스하고 관리할 수 있도록 작업 공간에 대해 보유하고 있는 권한 외에 보기에 대한 별도의 권한을 사용자에게 부여해야 합니다.
 
+
+<div class="preview">
+
+레코드 유형 권한으로 작업할 때 다음 사항을 고려하십시오.
+
+* 사용자는 작업 영역에서 레코드 유형 권한을 자동으로 상속합니다.
+* 사용자가 작업 영역에 대한 관리 권한을 가지고 있으면 레코드 유형에 대해 더 적은 액세스 권한을 가질 수 없습니다.
+* 사용자는 레코드 유형이 속한 작업 영역에 대해 가지고 있는 권한보다 레코드 유형에 대해 더 큰 권한을 가질 수 없습니다.
+
+</div>
+
 | Adobe Workfront 라이선스 유형* | Adobe Workfront Planning에서 허용되는 가장 높은 권한 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 표준 | <p>사용자는 작업 공간 및 보기를 관리할 수 있습니다. 작업 공간, 레코드 유형, 레코드, 필드 및 보기를 생성, 편집 또는 삭제할 수 있습니다.</p> <br> <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 관리 권한을 가집니다.</p> |
+| 표준 | <p>사용자는 작업 영역 <span class="preview">, 레코드 종류, </span> 및 보기를 관리할 수 있습니다. 작업 공간, 레코드 유형, 레코드, 필드 및 보기를 생성, 편집 또는 삭제할 수 있습니다.</p> <br> <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 관리 권한을 가집니다.</p> |
 | 라이트 또는 기여자 | <p>사용자는 공유된 작업 공간과 해당 작업 공간의 레코드 유형, 레코드 및 필드를 볼 수 있습니다.</p> <br> <p>사용자는 공유된 보기를 볼 수 있지만 자신의 보기를 만들 수는 없습니다. </p><br> <p>사용자는 작업 공간, 레코드 유형, 레코드 또는 필드를 작성, 편집 또는 삭제할 수 없습니다.</p> |
 
 *Workfront Planning은 기존 Workfront 라이선스에 사용할 수 없습니다.
@@ -60,9 +71,11 @@ Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [Adob
 
 ### 라이선스 유형 및 작업 영역 권한
 
-표준 라이선스가 있는 사용자만 작업 공간에 대한 Contribute 또는 Manage 권한을 가질 수 있습니다. 다른 모든 라이선스 유형을 가진 사용자는 공유된 작업 공간에 대한 보기 권한을 가질 수 있습니다.
+표준 라이선스가 있는 사용자만 작업 영역 <span class="preview"> 및 레코드 종류</span>에 대한 Contribute 또는 Manage 권한을 가질 수 있습니다. 다른 모든 라이선스 유형을 가진 사용자는 작업 영역 <span class="preview"> 및 레코드 유형 </span>에 대한 보기 권한을 가질 수 있습니다.
 
 시스템 관리자는 작성하지 않은 작업 영역까지 시스템의 모든 작업 영역을 볼 수 있습니다.
+
+<!--does the shot below need to be replaced for record types??-->
 
 >[!INFO]
 >

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1422'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항 보기..
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -84,8 +84,8 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -206,26 +206,26 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
 | 기능 | 테이블 보기 | 타임라인 보기 | 달력 보기 |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
-| 목록 또는 테이블에 레코드 표시 | ✓ 덧신 |              | |
-| 기본적으로 모든 필드를 테이블에 열로 표시 | ✓ 덧신 |              |    |
-| 필드(또는 열) 숨기기 또는 표시 | ✓ 덧신 |               |    |
-| 각 레코드의 필드 값 편집 | ✓ 덧신 |               |             |
-| 보기에 새 행으로 레코드 추가 | ✓ 덧신 |               |        |
-| 보기에 필드를 새 열로 추가 | ✓ 덧신 |               |         |
-| 외부 목록에서 행을 복사하여 표에 붙여넣기 | ✓ 덧신 |               |          |
-| 타임라인에 레코드 표시 |            | ✓ 덧신 |             |
-| 레코드 필터링 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
-| 달력에 레코드 표시 |           |              | ✓ 덧신 |
-| 그룹 레코드 | ✓ 덧신 | ✓ 덧신 |
-| 레코드 정렬 | ✓ 덧신 |              |
-| 색상 코드 레코드 |           | ✓ 덧신 | ✓ 덧신 |
-| 색상 코드 그룹화 |           | ✓ 덧신 |
-| 특정 레코드 검색 | ✓ 덧신 | ✓ 덧신 |
-| 다른 사용자와 보기 공유 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
-| 보기에서 레코드의 페이지를 엽니다. | ✓ 덧신 | ✓ 덧신 |    |
-| 연도 및 분기별 레코드 표시 |           | ✓ 덧신 |    |
-| 월별 레코드 표시 |           | ✓ 덧신 | ✓ 덧신 |
-| 주별 레코드 표시 |           |               | ✓ 덧신 |
+| 목록 또는 테이블에 레코드 표시 | ✓ |              | |
+| 기본적으로 모든 필드를 테이블에 열로 표시 | ✓ |              |    |
+| 필드(또는 열) 숨기기 또는 표시 | ✓ |               |    |
+| 각 레코드의 필드 값 편집 | ✓ |               |             |
+| 보기에 새 행으로 레코드 추가 | ✓ |               |        |
+| 보기에 필드를 새 열로 추가 | ✓ |               |         |
+| 외부 목록에서 행을 복사하여 표에 붙여넣기 | ✓ |               |          |
+| 타임라인에 레코드 표시 |            | ✓ |             |
+| 레코드 필터링 | ✓ | ✓ | ✓ |
+| 달력에 레코드 표시 |           |              | ✓ |
+| 그룹 레코드 | ✓ | ✓ |
+| 레코드 정렬 | ✓ |              |
+| 색상 코드 레코드 |           | ✓ | ✓ |
+| 색상 코드 그룹화 |           | ✓ |
+| 특정 레코드 검색 | ✓ | ✓ |
+| 다른 사용자와 보기 공유 | ✓ | ✓ | ✓ |
+| 보기에서 레코드의 페이지를 엽니다. | ✓ | ✓ |    |
+| 연도 및 분기별 레코드 표시 |           | ✓ |    |
+| 월별 레코드 표시 |           | ✓ | ✓ |
+| 주별 레코드 표시 |           |               | ✓ |
 
 
 ## 보기 만들기 또는 편집 {#create-or-edit-views}

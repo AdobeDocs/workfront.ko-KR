@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >이 문서에 설명된 기능은 조직이 Adobe 통합 경험에 온보딩되었을 때만 사용할 수 있습니다.
 >
->자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
+>자세한 내용은 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하십시오.
 
 
 다른 사용자가 액세스 권한이 없는 보기 또는 작업 영역에 대한 링크를 사용자와 공유하는 경우 보기 또는 작업 영역에 대한 권한을 요청할 수 있습니다.
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항 보기..
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -72,10 +72,10 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
 <p><b>중요 사항</b></p>
-<p>조직의 사용자는 조직이 Adobe 통합 경험에 온보딩될 때만 보기 및 작업 영역에 대한 권한을 요청할 수 있습니다. </p>
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+<p>조직의 사용자는 조직이 Adobe 통합 환경에 온보딩될 때만 보기 및 작업 영역에 대한 권한을 요청할 수 있습니다. </p>
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -94,7 +94,7 @@ ht-degree: 0%
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>  <p>권한 요청이 부여되면 다음 권한을 얻을 수 있습니다.</p>
    <ul><li><p>보기에 대한 보기 또는 관리</p></li>
-   <li><p>작업 공간에 대한 보기, Contribute 또는 관리</p></li></ul>  
+   <li><p>작업 공간에 대한 보기, 기여 또는 관리</p></li></ul>  
    <p>작업 공간 및 보기에 대한 관리 권한이 있는 사용자만 보기를 공개적으로 공유할 수 있습니다.</p></td> 
   </tr> 
 <tr> 

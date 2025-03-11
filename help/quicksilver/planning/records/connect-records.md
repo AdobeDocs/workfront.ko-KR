@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '3330'
+source-wordcount: '3327'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항 보기..
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -118,8 +118,8 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역에 기록 연결 이상의 권한 기여 </p>  
-   <p>작업공간에 대한 또는 그 이상의 권한을 보고 다른 응용 프로그램에서의 액세스와 관계없이 다른 응용 프로그램의 개체 및 필드에 대한 모든 연결을 볼 수 있습니다. </p>
+   <td>   <p>레코드를 연결할 수 있도록 <!--<span class="preview">and record type</span>--> 작업 영역에 대한 이상의 사용 권한을 제공하십시오. </p>  
+   <p>작업 영역 <!--<span class="preview">and record type</span>-->에 대한 이상의 권한을 보고 다른 응용 프로그램의 액세스 권한에 관계없이 다른 응용 프로그램의 개체 및 필드에 대한 모든 연결을 볼 수 있습니다. </p>
    <p>Workfront 또는 Experience Manager Assets에서 연결할 개체에 대한 이상의 권한을 봅니다. </p>
    <p>시스템 관리자에게는 작성하지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한이 있습니다.</p> </td> 
   </tr> 

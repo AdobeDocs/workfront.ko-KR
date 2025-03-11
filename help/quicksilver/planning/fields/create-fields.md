@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '4336'
+source-wordcount: '4333'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항 보기..
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -100,7 +100,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역</a>에 대한 권한 관리 </p>  
+   <td>   <p>작업 영역 <!--<span class="preview">and record type</span>--> </a>에 대한 권한 관리 </p>  
    <p>시스템 관리자에게는 작성하지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한이 있습니다.</p> </td> 
   </tr> 
 <tr> 

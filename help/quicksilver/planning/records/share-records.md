@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # 레코드 공유
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +32,28 @@ ht-degree: 1%
 
 * 레코드 유형의 표 보기에서 레코드를 볼 때 레코드의 페이지에 대한 링크를 복사합니다.
 
-* 작업 영역을 공유하면 작업 영역의 모든 레코드를 다른 사용자와 공유할 수 있습니다. 자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
+* 작업 영역 <!--<span class="preview">and record type</span>-->을(를) 공유하여 작업 영역의 모든 레코드를 다른 사용자와 공유할 수 있습니다. 자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
+
+<!-- replace the last sentence above with this: 
+
+For more information see the following articles:
+
+* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+
+<div class="preview">
+
+* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
+
+-->
 
 이 문서에서는 레코드 유형의 표 보기에서 레코드 페이지에 링크를 복사하는 방법에 대해 설명합니다.
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항 보기..
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -88,8 +107,8 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>  <p>링크를 사용하여 레코드를 공유할 수 있는 작업 영역에 대한 이상의 권한 보기 </p>
-   <p>작업 영역에 대한 권한을 관리하여 레코드가 속한 작업 영역을 레코드 공유 </p>
+   <td>  <p>링크를 사용하여 <!--<span class="preview">and record type</span>-->개의 레코드를 공유할 수 있는 작업 영역에 대한 이상의 권한을 봅니다. </p>
+   <p><!--<span class="preview">and record type</span>--> 작업 영역에 대한 권한을 관리하여 작업 영역의 레코드를 공유합니다. </p>
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
   </tr> 
 <tr> 

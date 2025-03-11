@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '651'
 ht-degree: 3%
 
 ---
 
 # 내역 섹션 개요
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -25,6 +29,76 @@ ht-degree: 3%
 
 * **댓글**: 사용자가 레코드에 추가하는 댓글과 답글을 표시합니다. Workfront Planning 레코드의 댓글 관리에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
 * **기록**: 사용자가 레코드 필드에 적용한 시스템 기록 변경 내용을 표시합니다.
+
+## 액세스 요구 사항
+
++++ 를 확장하여 액세스 요구 사항 보기..
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 제품</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront 계획<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
+   <td> 
+<p>다음 Workfront 플랜 중 하나:</p> 
+<ul><li>선택</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td> 
+   <td> 
+<p>임의 </p> 
+<p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
+   <td> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
+   <td> <p>표준</p>
+   <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>개체 권한</p></td> 
+   <td>   <p>작업 영역 <!--<span class="preview">and record type</span>--> </a>에 대한 이상의 권한 보기 </p>  
+   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>레이아웃 템플릿</p></td> 
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 레코드의 내역 섹션 찾기
 

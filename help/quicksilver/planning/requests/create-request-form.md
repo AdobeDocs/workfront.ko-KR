@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 1%
@@ -95,7 +95,7 @@ ht-degree: 1%
    <td role="rowheader"><p>개체 권한</p></td>
    <td>
    <ul>
-   <li><p>작업 공간에 대한 권한 관리</p></li>
+   <li><p>작업 영역 <!--<span class="preview">and record type</span>-->에 대한 권한 관리 </p></li>
     <li><p>시스템 관리자는 자신이 만들지 않은 작업 공간을 관리할 수 있습니다. </p></li>
     </ul>
    <p>Workfront Planning 객체의 권한 공유에 대한 자세한 내용은  

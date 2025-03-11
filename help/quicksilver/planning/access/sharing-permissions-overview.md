@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '922'
 ht-degree: 6%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 6%
 
 # Adobe Workfront Planning의 공유 권한 개요
 
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
+
+
 {{planning-important-intro}}
 
 Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유하거나 제거할 수 있습니다.
 
 이 문서에서는 Workfront Planning 객체의 권한 수준에 대해 설명합니다.
-
-작업 영역 또는 보기를 공유하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
-
-* [작업 공간 공유](/help/quicksilver/planning/access/share-workspaces.md)
-
-* [보기 공유](/help/quicksilver/planning/access/share-views.md)
 
 ## Adobe Workfront Planning에서 공유할 수 있는 객체
 
@@ -40,6 +40,22 @@ Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유�
    * 작업 영역을 공유하면 작업 영역과 연관된 모든 레코드 유형, 레코드 및 필드도 공유됩니다.
    * 작업 영역을 공유하면 보기가 공유되지 않습니다. 뷰는 별도로 공유됩니다.
 
+  자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
+
+<!--
+<div class="preview">
+
+* Record types
+
+    * You can share record types with people inside your organization.
+    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
+    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+
+    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+</div>
+-->
+
 * 보기
 
    * 시스템 관리자를 포함한 사용자에게 작업 공간 액세스에 대한 권한과 별도로 보기에 액세스할 수 있는 권한을 부여해야 합니다.
@@ -47,12 +63,20 @@ Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유�
    * 보기를 공유할 때 보기에 표시되는 레코드는 공유되지 않습니다. 작업 영역을 공유하여 레코드를 공유해야 합니다.
    * 보기에 대한 공개 링크를 생성할 때 조직 외부의 사람들과 공개적으로 보기를 공유할 수 있습니다.공개 링크에서 레코드 페이지에 액세스하는 사람들은 연결된 레코드와 필드를 포함하여 모든 레코드와 해당 필드를 볼 수 있습니다.
 
-  자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하십시오.
+  자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하세요.
 
 내부적으로 작업 공간 또는 보기를 다음 Workfront 엔티티와 공유할 수 있습니다.
 
 * 사용자
 * 그룹
+
+<div class="preview">
+
+* 팀
+* 회사
+* 작업 역할
+
+</div>
 
 ## Adobe Workfront Planning에서 객체 공유에 대한 고려 사항
 
@@ -78,7 +102,7 @@ Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유�
 >
 >모든 사용자가 아래에 설명된 권한 수준을 가질 수 있는 것은 아닙니다. 사용자의 개별 라이선스는 Workfront Planning 개체에 대해 받을 수 있는 권한 수준을 결정합니다.
 >
->Standard(또는 Plan) 라이선스 사용자만 작업 공간에 대한 Contribute 또는 관리 권한 및 보기에 대한 관리 권한을 가질 수 있습니다.
+>표준(또는 플랜) 라이선스 사용자만 작업 공간에 대한 Contribute 또는 Manage 권한을 가지며 보기에 대한 Manage 권한을 가질 수 있습니다.
 > 
 >다른 모든 라이선스 유형을 가진 사용자는 작업 공간 및 보기에 대한 보기 권한을 가질 수 있습니다.
 >
@@ -98,24 +122,45 @@ Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유�
 
 |        | 관리 | 참여 | 보기 |
 |--------|--------|------------|-------|
-| 편집 | ✓ 덧신 |            |       |
-| 공유 | ✓ 덧신 |            |       |
-| 삭제 | ✓ 덧신 |            |       |
-| 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+| 편집 | ✓ |            |       |
+| 공유 | ✓ |            |       |
+| 삭제 | ✓ |            |       |
+| 보기 | ✓ | ✓ | ✓ |
 
 ### 레코드 유형 권한
 
-작업 영역에 권한을 부여하면 레코드 유형 권한이 상속됩니다.
+<!--In the Production environment,--> 작업 영역에 권한을 부여할 때 레코드 유형 권한은 항상 상속됩니다.
 
 다음은 레코드 유형에 대한 권한 수준입니다.
 
 
 |        | 관리 | 참여 | 보기 |
 |--------|--------|------------|-------|
-| 만들기 | ✓ 덧신 |            |       |
-| 삭제 | ✓ 덧신 |            |       |
-| 편집 | ✓ 덧신 |            |       |
-| 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+| 만들기 | ✓ |            |       |
+| 삭제 | ✓ |            |       |
+| 편집 | ✓ |            |       |
+| 보기 | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+
+You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+
+The following scenarios exist: 
+
+|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, No permissions           | 
+| Contribute |     Contribute |  Contribute, View, No permissions        |
+| View   |  View     |      View, No permissions        |     
+
+
+</div>
+
+-->
 
 ### 권한 기록
 
@@ -126,10 +171,10 @@ Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유�
 
 |        | 관리 | 참여 | 보기 |
 |--------|--------|------------|-------|
-| 만들기 | ✓ 덧신 | ✓ 덧신 |       |
-| 삭제 | ✓ 덧신 | ✓ 덧신 |       |
-| 편집 | ✓ 덧신 | ✓ 덧신 |       |
-| 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+| 만들기 | ✓ | ✓ |       |
+| 삭제 | ✓ | ✓ |       |
+| 편집 | ✓ | ✓ |       |
+| 보기 | ✓ | ✓ | ✓ |
 
 ### 필드 권한
 
@@ -138,10 +183,10 @@ Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유�
 
 |        | 관리 | 참여 | 보기 |
 |--------|--------|------------|-------|
-| 만들기 | ✓ 덧신 |            |       |
-| 삭제 | ✓ 덧신 |            |       |
-| 편집 | ✓ 덧신 |            |       |
-| 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+| 만들기 | ✓ |            |       |
+| 삭제 | ✓ |            |       |
+| 편집 | ✓ |            |       |
+| 보기 | ✓ | ✓ | ✓ |
 
 
 ### 권한 보기
@@ -163,16 +208,16 @@ Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유�
 
 | 내부 공유 | 관리(초대받은 사람만 액세스 가능) | 보기(초대된 사람만 액세스할 수 있음) | 작업 영역의 모든 사용자가 볼 수 있음* |
 |--------|--------|-------|------------------------------|
-| 편집 | ✓ 덧신 |       |                            |
-| 삭제 | ✓ 덧신 |       |                            |
-| 공유 | ✓ 덧신 |       |                           |
-| 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
-| 적용 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+| 편집 | ✓ |       |                            |
+| 삭제 | ✓ |       |                            |
+| 공유 | ✓ |       |                           |
+| 보기 | ✓ | ✓ | ✓ |
+| 적용 | ✓ | ✓ | ✓ |
 
 | 공개 공유 | 보기 |
 |--------|-------|
-| 보기 | ✓ 덧신 |
-| 적용 | ✓ 덧신 |
+| 보기 | ✓ |
+| 적용 | ✓ |
 
 *이 보기 액세스 권한을 얻으려면 사용자에게 작업 영역에 대한 보기 이상의 권한이 있어야 합니다.
 
