@@ -6,9 +6,9 @@ description: Kanban 보드에서 스토리 타일을 볼 때 특정 정보는 �
 author: Lisa
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -33,38 +33,38 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>작업 또는 문제에 직접 연결된 링크가 있는 스토리 이름</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>프로젝트에 직접 연결되는 링크가 있는 프로젝트 이름<br>이 링크는 반복에서 애자일 보기를 사용할 때는 스토리(하위 작업이 아닌 상위 작업)에만 표시되고 프로젝트에서 애자일 보기를 사용할 때는 표시되지 않습니다.</p> </td> 
-   <td>✓ 덧신 </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>스토리의 완료 지점 또는 시간 수와 스토리에 할당된 지점 또는 시간 수<br>이 수치는 각 스토리에 대한 [!UICONTROL 완료율]을 계산하고 표시하는 데 사용됩니다.</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>각 스토리 및 문제에 대한 [!UICONTROL 완료율].<br>반복에 대한 [!UICONTROL 완료율]은 각 스토리의 [!UICONTROL 완료율]을 기반으로 계산됩니다.</p> <p>스토리 또는 문제에 대해 [!UICONTROL 완료율]을 업데이트할 때 0에서 100 사이의 숫자를 선택할 수 있습니다.</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>스토리가 할당된 사람</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>타일의 색상 또는 범주</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p><a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">[!UICONTROL Adobe Workfront]의 보기 개요</a>에서 "[!UICONTROL 애자일] 보기 만들기 및 사용자 지정"에 설명된 대로 애자일 보기를 수정하여 애자일 보기에 추가되었을 수 있는 추가 필드(사용자 지정 필드 포함)입니다.</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +89,7 @@ ht-degree: 0%
   </tr>
    <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>작업 또는 문제에 대한 [!UICONTROL Contribute] 또는 [!UICONTROL 관리] 액세스 권한</td> 
+   <td>작업 또는 문제에 대한 [!UICONTROL Contribute] 또는 [!UICONTROL Manage] 액세스</td> 
   </tr>
  </tbody> 
 </table>
@@ -109,7 +109,7 @@ ht-degree: 0%
 1. [!UICONTROL 스크럼] 애자일 스토리 보드로 이동합니다.
 1. [!UICONTROL 스토리] 타일을 확장하여 스토리와 연결된 모든 필드를 봅니다.
 
-   ![](assets/agile-storycard-scrum-2021-350x333.png)
+   ![스토리 카드](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. (선택 사항) 필드를 편집하려면 필드를 클릭한 후 변경합니다.
 

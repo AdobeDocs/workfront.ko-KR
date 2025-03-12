@@ -6,9 +6,9 @@ description: Kanban 보드에서 스토리 타일을 볼 때 특정 정보는 �
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -33,38 +33,38 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>작업 또는 문제에 직접 연결된 링크가 있는 스토리 이름</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>프로젝트에 직접 연결되는 링크가 있는 프로젝트 이름</p> </td> 
-   <td>✓ 덧신 </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>스토리의 완료점 또는 완료 시간 및 스토리에 할당된 완료점 또는 완료 시간<br>이 수치는 각 스토리의 완료율을 계산하고 표시하는 데 사용됩니다.</p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>각 스토리 및 문제에 대한 [!UICONTROL 완료율].반복에 대한 <br>[!UICONTROL 완료율]은 각 스토리에 대한 [!UICONTROL 완료율]을 기반으로 계산됩니다.<br></p> <p>스토리 또는 문제에 대해 [!UICONTROL 완료율]을 업데이트할 때 0에서 100 사이의 숫자를 선택할 수 있습니다.</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>스토리가 할당된 사람</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>타일의 색상 또는 범주</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront]</a>의 <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">보기 개요에서 "애자일 보기 만들기 및 사용자 지정"에 설명된 대로 애자일 보기를 수정하여 애자일 보기에 추가되었을 수 있는 추가 필드(사용자 지정 필드 포함)</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +107,7 @@ ht-degree: 0%
 1. [!UICONTROL Kanban] 보드로 이동합니다.
 1. 스토리 타일을 확장하여 스토리와 연결된 모든 필드를 표시합니다.
 
-   ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![스토리 카드](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. (선택 사항) 필드를 편집하려면 필드를 클릭한 후 변경합니다.
 스토리 타일을 편집하려면 작업 또는 문제에 대한 [!UICONTROL 편집] 권한이 있어야 합니다.

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: e4c037b3c5d77094db51c159dcd045aa34fcbe61
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '13066'
+source-wordcount: '13072'
 ht-degree: 2%
 
 ---
@@ -849,6 +849,7 @@ ht-degree: 2%
          * [홈 영역에서 작업 및 팀 요청 관리](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [홈 영역에서 작업 항목 업데이트 또는 편집](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [홈 영역에서 작업 항목 및 프로젝트 만들기](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [개인 할 일 항목 만들기 및 관리](workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
          * [홈 영역의 작업 항목에 시간을 기록합니다.](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [홈 영역에서 항목을 완료로 표시](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [내 업데이트 영역 사용](workfront-basics/using-home/using-the-home-area/my-updates-area.md)

@@ -6,9 +6,9 @@ description: 스크럼 보드 스토리의 기본 색상 연관성은 스토리 
 author: Lisa
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 자유 형식 사용 시 스토리 색상 변경
 
-애자일 팀 설정이 구성되어 [!UICONTROL 카드 색상을 ]에 연결 옵션이 [!UICONTROL 자유 형식](으)로 설정된 경우 사용자가 개별 스토리 타일의 색상을 수동으로 변경할 수 있습니다. 이렇게 하면 팀이나 조직에 중요한 다른 유형의 정보를 전달하는 데 유용할 수 있습니다.
+애자일 팀 설정이 구성되어 [!UICONTROL 카드 색상을 ]에 연결 옵션이 [!UICONTROL 자유 형식]&#x200B;(으)로 설정된 경우 사용자가 개별 스토리 타일의 색상을 수동으로 변경할 수 있습니다. 이렇게 하면 팀이나 조직에 중요한 다른 유형의 정보를 전달하는 데 유용할 수 있습니다.
 
 {{step1-to-team}}
 
@@ -59,8 +59,8 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **[!UICONTROL 반복]**&#x200B;을 선택하여 특정 반복을 선택하거나 **[!UICONTROL 현재 반복]**&#x200B;을 선택합니다.
 1. 스토리 타일 상단의 컬러 배너 위로 마우스를 가져갑니다.
 
-   ![](assets/agile-story-color1-nwe-350x140.png)
+   ![스토리 카드](assets/agile-story-color1-nwe-350x140.png)
 
 1. **[!UICONTROL 색상 변경]**&#x200B;을 클릭한 다음 원하는 색상을 선택합니다.
 
-   ![](assets/agile-story-color2-nwe-350x138.png)
+   ![색상 선택](assets/agile-story-color2-nwe-350x138.png)

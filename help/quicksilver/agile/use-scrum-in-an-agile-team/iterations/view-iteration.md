@@ -6,7 +6,7 @@ description: 주어진 팀에 대한 모든 이터레이션을 보거나 개별 
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -64,4 +64,4 @@ ht-degree: 0%
 1. (선택 사항) 보려는 특정 이터레이션의 이름을 클릭합니다.
 반복 스토리가 표시됩니다.
 
-   ![[!UICONTROL 반복의 스토리]](assets/iteration-stories-list-NWE.png)
+   ![[!UICONTROL 반복의 스토리]](assets/iteration-stories-list.png)

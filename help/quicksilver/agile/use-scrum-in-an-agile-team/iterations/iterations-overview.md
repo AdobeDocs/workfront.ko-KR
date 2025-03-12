@@ -6,9 +6,9 @@ description: 애자일 반복은 완료 상태, 번다운 및 스토리 보드�
 author: Lisa
 feature: Agile
 exl-id: db32d3b9-f573-43e3-b4fb-49b75162057b
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 애자일 반복은 완료 상태, 번다운 및 스토리 보드의 세 가지 영역으로 구성됩니다.
 
-![](assets/agile-iteration-with-callouts.png)
+![반복 보기](assets/agile-iteration-with-callouts.png)
 
 번다운 차트 및 완료 상태에 대한 자세한 내용은 [[!UICONTROL 번다운]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md) 섹션을 참조하십시오.
 

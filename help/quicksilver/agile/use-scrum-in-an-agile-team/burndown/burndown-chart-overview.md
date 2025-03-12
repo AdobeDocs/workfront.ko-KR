@@ -7,9 +7,9 @@ description: 번다운 차트는 스토리가 반복 또는 프로젝트 를 통
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="이상적 번다운 비율 시작"> </td> 
    <td> <p>반복이 시작된 시기를 기준으로 이상적인 번다운 비율.</p> <p>이 선은 반복 범위가 변경되지 않는 경우(시간이나 포인트가 추가 또는 제거되지 않음) 표시되지 않습니다.</p> <p>이 선은 휴무일에 작업을 마치면 평평하게 표시됩니다. 자세한 내용은 <a title="애자일 번다운 차트 사용" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">휴무가 번다운 차트에 미치는 영향</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="스토리 또는 작업에 대한 이상적인 번다운 비율"> </td> 
    <td> <p>현재 스토리 또는 작업에 따라 이상적인 번다운 비율.</p> <p>현재의 이상적인 번다운 비율(파란색 실선)은 반복이 시작된 후 반복에 시간이나 점을 추가하거나 제거할 때 원래의 이상적인 번다운 비율(파란색 점선)과 다릅니다.</p> <p>이 선은 휴무일에 작업을 마치면 평평하게 표시됩니다.</p> <p>자세한 내용은 <a title="애자일 번다운 차트 사용" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">휴무가 번다운 차트에 미치는 영향</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="실제 번다운 비율(빨간색)"> </td> 
    <td> <p>번다운 비율이 이상보다 낮을 때 실제 번다운 비율은 빨간색으로 표시됩니다(이상적인 번다운 계산보다 하루 더 많은 포인트 또는 남은 시간).</p> <p>다음 공식을 사용하여 실제 번다운 비율을 계산합니다.</p> <p>[SUM(진행 중인 작업의 포인트 또는 시간 값 * 완료율) + 완료된 작업의 포인트 또는 시간 값]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="실제 번다운 비율(녹색)"> </td> 
    <td> <p>번다운 비율이 이상적(이상적 번다운 계산보다 매일 남은 점수와 같거나 적은 점)과 같거나 더 높을 때 실제 번다운 비율은 녹색으로 표시됩니다.</p> <p>다음 공식을 사용하여 실제 번다운 비율을 계산합니다.</p> <p>[SUM(진행 중인 작업의 포인트 또는 시간 값 * 완료율) + 완료된 작업의 포인트 또는 시간 값]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="범위 변경"> </td> 
    <td> <p>범위 변경(시간 또는 포인트가 반복에서 추가 또는 제거됨).</p> <p>범위 변경은 항상 한 낮에 세로선으로 표시됩니다. 또한 범위 변경이 발생한 모든 날의 중간에 파란색 점이 표시됩니다.</p> <p>번다운 차트의 세로 축은 스토리 포인트 또는 시간을 보여 줍니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="날짜 범위 변경"> </td> 
    <td> <p>날짜 범위 변경(반복 기간이 증가하거나 감소함).</p> <p>이터레이션 지속 시간이 변경된 모든 날의 중간에 파란색 점이 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="작업용 녹색 점 타서"> </td> 
    <td> <p>녹색 또는 빨간색 점은 작업이 타버릴 때마다 실제 번다운 비율에 표시됩니다. (해당 날짜의 실제 번다운 비율이 빨간색이면 점이 빨간색이고, 해당 날짜의 실제 번다운 비율이 녹색이면 점이 녹색입니다.)</p> <p>다음 중 하나가 발생하면 작업이 전소됩니다.</p> 
     <ul> 
      <li> 스토리에서 [!UICONTROL 완료율]이 증가했습니다.다음과 같은 경우 <br>[!UICONTROL 완료율]이 증가합니다. 

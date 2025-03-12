@@ -8,9 +8,9 @@ description: Workfront Proof 관리자는 Basecamp, Basecamp Classic, [!DNL NetS
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6210f20e-073a-45c8-9b71-212a124648e8
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: aa0cd55db1bb70f74fb7157ed0aeb484d7598c0b
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,3 @@ ht-degree: 0%
 [!DNL Workfront Proof] 관리자는 [!DNL Basecamp], [!DNL Basecamp Classic], [!DNL NetSuite] 및 [!DNL Workfront]과(와) 통합되도록 [!DNL Workfront Proof]을(를) 구성할 수 있습니다.
 
 통합을 위해 일반 연결을 설정한 후 각 사용자는 개인 설정 페이지의 [!UICONTROL 통합] 탭을 통해 자신의 개인 연결을 설정할 수 있습니다.
-
-자세한 내용 및 지침은 [통합 문서](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations)를 참조하십시오.

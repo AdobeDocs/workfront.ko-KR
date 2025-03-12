@@ -6,7 +6,7 @@ description: 다양한 방법으로 반복에 대한 애자일 스토리를 만�
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 다양한 방법으로 반복에 대한 애자일 스토리를 만들 수 있습니다. 애자일 스토리를 만든 후 스토리에 하위 작업을 추가할 수 있습니다.
 
-반복에 스토리 또는 하위 작업을 추가하면 기간 유형이 [!UICONTROL 단순](으)로 설정되고 작업 제한 사항이 고정 날짜로 설정되며, 날짜가 반복 내에서 잠깁니다. 반복에서는 기간 유형 또는 작업 제한을 수정할 수 없습니다. 또한 작업 기간은 0분 이상이어야 합니다.
+반복에 스토리 또는 하위 작업을 추가하면 기간 유형이 [!UICONTROL 단순]&#x200B;(으)로 설정되고 작업 제한 사항이 고정 날짜로 설정되며, 날짜가 반복 내에서 잠깁니다. 반복에서는 기간 유형 또는 작업 제한을 수정할 수 없습니다. 또한 작업 기간은 0분 이상이어야 합니다.
 
 스토리가 반복에 추가된 후 관리하는 방법에 대한 자세한 내용은 [반복](../../agile/use-scrum-in-an-agile-team/iterations/iterations.md)을 참조하세요.
 
@@ -65,7 +65,7 @@ ht-degree: 0%
    1. 왼쪽 패널에서 **[!UICONTROL 반복]**&#x200B;을 선택하여 특정 반복을 선택하거나 **[!UICONTROL 현재 반복]**&#x200B;을 선택합니다.
    1. 스토리를 만들 특정 이터레이션의 이름을 클릭합니다.
 
-   ![반복에 새 스토리 추가](assets/iteration-add-story.png)
+   ![반복에 새 스토리 추가](assets/iteration-stories-list.png)
 
 1. **[!UICONTROL 새 스토리]을(를) 클릭합니다.**
 1. 다음 정보를 지정합니다.

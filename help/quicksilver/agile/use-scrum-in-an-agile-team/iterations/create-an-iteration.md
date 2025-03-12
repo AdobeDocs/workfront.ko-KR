@@ -6,9 +6,9 @@ description: 반복은 작업 용량 계획에서 스크럼 애자일 팀의 주
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,14 @@ ht-degree: 0%
 
 1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 스크럼 팀을 선택하거나 검색 창에서 팀을 검색합니다.
 
-1. 왼쪽 패널에서 **[!UICONTROL 백로그]**&#x200B;를 선택합니다. 그런 다음 **[!UICONTROL 계획 반복]**&#x200B;을 클릭합니다.
+1. 왼쪽 패널에서 **[!UICONTROL 백로그]**&#x200B;를 선택합니다.
+
+1. **스토리** 또는 **문제** 탭에서 작업 항목을 하나 이상 선택한 다음 **[!UICONTROL 반복 계획]**&#x200B;을 클릭하세요.
+
+>[!NOTE]
+>
+> 백로그 탭에서 반복을 계획할 때 스토리 또는 문제 탭 간을 전환할 수 없습니다. 반복이 생성되면 기존 스토리 또는 문제를 추가할 수 있습니다. 자세한 내용은 [백로그에서 반복 또는 보드로 스토리 이동](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board)을 참조하십시오.
+
 
 1. 다음 정보를 지정합니다.
 

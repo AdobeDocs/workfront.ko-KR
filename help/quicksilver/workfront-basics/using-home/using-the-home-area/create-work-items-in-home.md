@@ -6,9 +6,9 @@ description: '[!UICONTROL Home] 영역에서 작업 항목 및 프로젝트를 �
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 2%
 
 홈에서 다음을 수행할 수 있습니다
 
-* 개인 할 일 만들기
 * 요청 제출
 * 특정 프로젝트에 작업 및 문제 추가
 * 템플릿에서 프로젝트를 만들거나, 빈 프로젝트를 만들거나, MS 프로젝트를 가져옵니다.

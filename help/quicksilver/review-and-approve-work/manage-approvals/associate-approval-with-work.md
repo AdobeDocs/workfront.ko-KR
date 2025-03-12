@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1917'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,9 @@ Adobe Workfront에서 글로벌 또는 일회용 승인 프로세스를 작업 �
 
 글로벌 승인 프로세스를 작업 항목(프로젝트, 작업, 문제, 템플릿, 템플릿 작업)과 연결할 수 있습니다.
 
-글로벌 승인 프로세스는 작업 항목과 연관된 그룹 또는 시스템의 모든 그룹에서 사용할 수 있어야 합니다.
+속한 그룹 또는 시스템의 모든 그룹과 공유되는 한 모든 글로벌 승인 프로세스에 액세스할 수 있습니다.
+
+<!--The global approval process must be available to the group associated with the work item or to all groups in the system.-->
 
 >[!NOTE]
 >

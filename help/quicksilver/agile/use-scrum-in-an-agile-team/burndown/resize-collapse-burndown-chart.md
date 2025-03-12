@@ -6,9 +6,9 @@ description: 번다운 차트의 크기를 조정하거나 축소하여 스토�
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 크기를 조정할 번다운 차트가 포함된 반복으로 이동합니다.
 1. 번다운 차트의 하단 라인 위로 마우스를 가져간 다음 차트를 원하는 크기로 드래그합니다.
-   ![](assets/burndown-resize.png)
+   ![번다운 차트 크기 조정](assets/burndown-resize.png)
 
 ## 번다운 차트 축소
 
