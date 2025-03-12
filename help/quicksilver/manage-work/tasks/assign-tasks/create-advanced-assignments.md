@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 고급 할당을 수행할 수 있는 Adobe Workfront 영역
 
-이 문서에서는 작업 또는 문제 헤더에서 고급 할당에 액세스하는 방법에 대해 설명합니다.
+이 문서에서는 작업 또는 문제 헤더의 고급 할당에 액세스하는 방법에 대해 설명합니다.
 
 또한 Workfront의 다음 영역에서 고급 할당을 수행할 수 있습니다.
 
@@ -47,6 +47,8 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -56,7 +58,7 @@ ht-degree: 0%
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>새로운 기능: 표준</p>
     <p>현재: 작업 시간 이상</p> </td> 
   </tr> 
@@ -71,7 +73,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -83,18 +85,17 @@ ht-degree: 0%
    >[!TIP]
    >
    >배정된 인원이 2명 이상인 경우 작업 또는 문제 목록에서 직접 고급 배정을 할 수 있습니다. 작업 또는 문제와 같은 줄의 **할당** 필드 내부를 클릭한 다음 **사람 아이콘**&#x200B;을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.\
-   >![](assets/nwe-advanced-assignments-350x55.png)
-   >
+   >![사람 아이콘 클릭](assets/nwe-advanced-assignments-350x55.png)
 
 1. 작업 또는 문제의 헤더에 있는 **할당** 필드에서 **할당 대상**&#x200B;을 클릭합니다
 
    또는
 
-   작업 또는 문제가 이미 할당된 경우 할당명을 클릭합니다.
+   작업 또는 문제가 이미 할당된 경우 할당된 이름 중 하나를 클릭합니다.
 
 1. **고급**&#x200B;을 클릭합니다.
 
-   <span class="preview">![고급 클릭](assets/assignments-box-in-task-header.png)</span>
+   ![고급 클릭](assets/assignments-box-in-task-header.png)
 
 1. **사람, 역할 및 팀 검색** 필드에서 사용자, 역할 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
 
@@ -102,7 +103,7 @@ ht-degree: 0%
    >
    >사용자 이름에 특수 문자가 포함되어 있으면 검색 필드에 특수 문자를 포함해야 합니다.
 
-1. (선택 사항) **사람, 역할 또는 팀 검색** 상자에서 피할당자를 계속 추가하여 작업 또는 문제에 여러 리소스를 추가합니다.
+1. (선택 사항) **사람, 역할 및 팀 검색** 상자에서 피할당자를 계속 추가하여 작업 또는 문제에 여러 리소스를 추가합니다.
 
    >[!TIP]
    >
@@ -118,7 +119,6 @@ ht-degree: 0%
    >   
    >   * 작업 항목을 활성 리소스에 재할당합니다.
    >   * 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
-   >
 
    <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
@@ -133,7 +133,7 @@ ht-degree: 0%
      >
      >Workfront 관리자 또는 그룹 관리자가 프로젝트 환경 설정을 설정하는 방법에 따라 Workfront은 작업에 여러 명의 사용자를 할당한 경우 작업 소유자의 일정을 사용하여 작업의 타임라인을 계산할 수 있습니다. 여러 작업 할당자에 대한 자세한 내용은 문서 [작업 할당](../../../manage-work/tasks/assign-tasks/assign-tasks.md)의 &quot;작업에 여러 사용자 할당&quot; 섹션을 참조하십시오.
 
-   * **할당** : 작업의 기간 유형이 간단한 경우 각 사용자 또는 작업 역할이 작업에 할당되어야 하는 시간을 지정합니다. 각 사용자에 대해 할당된 모든 시간의 합계는 [할당] 열의 맨 아래에 있는 **계획된 시간** 필드의 숫자와 같습니다. 다른 모든 경우에는 할당자가 작업 또는 문제를 해결하는 데 소비할 시간(또는 할당)의 백분율을 지정합니다.
+   * **할당**: 작업의 기간 유형이 간단한 경우 각 사용자 또는 작업 역할이 작업에 할당되어야 하는 시간을 지정합니다. 각 사용자에 대해 할당된 모든 시간의 합계는 [할당] 열의 맨 아래에 있는 **계획된 시간** 필드의 숫자와 같습니다. 다른 모든 경우에는 할당자가 작업 또는 문제를 해결하는 데 소비할 시간(또는 할당)의 백분율을 지정합니다.
 
      >[!TIP]
      >   
@@ -141,7 +141,7 @@ ht-degree: 0%
      >   * 문제에 대한 할당 할당을 수동으로 수정할 수 없습니다.
      >   * 작업에 할당된 팀의 할당은 수동으로 수정할 수 없습니다.
 
-   * **피할당자의 역할:** 이 할당을 수행할 때 사용자가 사용해야 하는 역할을 선택합니다.  사용자의 기본 역할 이 기본적으로 표시됩니다. 피할당자의 역할 상자를 클릭하여 다른 역할을 선택합니다.  먼저 작업 또는 문제를 역할에 할당한 다음 해당 역할을 수행할 수 있는 사용자를 두 번째 할당으로 추가하면 제안된 사용자 목록이 작업 및 문제에 이미 할당된 역할을 수행할 수 있는 사용자에 대해 필터링됩니다.
+   * **피할당자의 역할:** 이 할당을 수행할 때 사용자가 사용해야 하는 역할을 선택합니다.  사용자의 기본 역할 이 기본적으로 표시됩니다. **피할당자의 역할** 상자를 클릭하여 다른 역할을 선택합니다. 먼저 작업 또는 문제를 역할에 할당한 다음 해당 역할을 수행할 수 있는 사용자를 두 번째 할당으로 추가하면 제안된 사용자 목록이 작업 및 문제에 이미 할당된 역할을 수행할 수 있는 사용자에 대해 필터링됩니다.
 
      ![피할당자의 역할](assets/advanced-assignments-select-role.png)
 
@@ -160,6 +160,5 @@ ht-degree: 0%
      자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오. 할당 정보를 일괄 편집할 때 사용자, 시간, 할당 및 작업 소유자를 할당하는 유사한 대화 상자가 나타납니다.
 
    * **계획된 시간**: 기간 유형이 계산된 할당이거나 단순이면 계획된 시간 수를 업데이트하십시오. 결과적으로 각 리소스에 대한 할당 백분율 또는 시간이 균등하게 분배됩니다. Workfront은 기간 유형이 계산된 작업 또는 작업량 고정 시 계획된 시간을 계산합니다. 자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오.
-
 
 1. **저장**&#x200B;을 클릭합니다.

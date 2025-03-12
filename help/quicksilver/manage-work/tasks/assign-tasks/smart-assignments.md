@@ -7,9 +7,9 @@ description: 작업 및 문제 할당을 관리할 때 스마트 할당을 사�
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -51,23 +51,23 @@ ht-degree: 0%
 
 * 할당 열의 문제 목록 또는 보고서
 
-  ![](assets/smart-assignments-issue-list.png)
+  ![문제 목록 할당 열](assets/smart-assignments-issue-list.png)
 
 * 할당 열의 작업 목록 또는 보고서
 
-  ![](assets/smart-assignments-task-list.png)
+  ![작업 목록 할당 열](assets/smart-assignments-task-list.png)
 
 * 할당 필드의 작업 헤더
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![작업 헤더 할당 필드](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 할당 필드의 문제 헤더
 
-  ![](assets/smart-assignments-issue-header.png)
+  ![문제 헤더 할당 필드](assets/smart-assignments-issue-header.png)
 
 * 할당 영역의 작업 또는 문제 요약 패널
 
-  ![](assets/issue-assignments-summary-panel.png)
+  ![요약 패널 할당 영역](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -81,8 +81,7 @@ ht-degree: 0%
 
 * 작업 또는 문제를 할당할 때 할당 대상 영역의 업무 균형자
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
-
+  ![업무 균형자 할당 영역](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## 스마트 할당 기준
 
@@ -153,7 +152,7 @@ Workfront은 문제에 대한 스마트 할당을 계산하는 것과 동일한 
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![](assets/smart-assignments-issue-header.png)
+![스마트 할당 예](assets/smart-assignments-issue-header.png)
 
 다음 기준의 조합(가장 중요한 것에서 가장 중요하지 않은 것의 순서로 나열됨)을 기반으로 스마트 할당 드롭다운 목록에서 사용자를 권장합니다.
 
