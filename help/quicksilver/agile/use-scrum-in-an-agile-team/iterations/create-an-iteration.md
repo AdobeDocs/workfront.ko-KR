@@ -6,9 +6,9 @@ description: 반복은 작업 용량 계획에서 스크럼 애자일 팀의 주
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
+source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -103,11 +103,11 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL 백로그]**&#x200B;를 선택합니다.
 
-1. **스토리** 또는 **문제** 탭에서 작업 항목을 하나 이상 선택한 다음 **[!UICONTROL 반복 계획]**&#x200B;을 클릭하세요.
+1. **스토리** 또는 **문제** 탭에서 반복에 추가할 작업 항목을 선택한 다음 **[!UICONTROL 반복 계획]**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
-> 백로그 탭에서 반복을 계획할 때 스토리 또는 문제 탭 간을 전환할 수 없습니다. 반복이 생성되면 기존 스토리 또는 문제를 추가할 수 있습니다. 자세한 내용은 [백로그에서 반복 또는 보드로 스토리 이동](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board)을 참조하십시오.
+> 백로그 탭에서 반복을 계획할 때 스토리 또는 문제 탭 간을 전환하거나 추가 작업을 추가할 수 없습니다. 반복이 생성되면 기존 스토리 또는 문제를 추가할 수 있습니다. 자세한 내용은 아래의 [백로그 탭에서 기존 반복에 작업 또는 문제 추가](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab)를 참조하십시오.
 
 
 1. 다음 정보를 지정합니다.
@@ -143,19 +143,20 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. (선택 사항) 스토리를 선택하여 이제 반복에 추가하거나, 이 단계를 건너뛰고 나중에 스토리를 반복에 추가할 수 있습니다. 백로그 상단에 있는 스토리가 더 높은 우선 순위입니다. 스토리지는 용량에 적합하면 녹색으로 강조 표시되고 그렇지 않으면 빨간색으로 강조 표시됩니다.
-단일 반복에 작업과 문제를 모두 추가할 수 있습니다.
+1. **[!UICONTROL 저장]을 클릭합니다.** 반복이 만들어집니다.
 
-   * **반복에 작업을 추가하려면:** **[!UICONTROL 백로그]** 탭에서 **[!UICONTROL 스토리]** 탭이 선택되어 있는지 확인하십시오(백로그를 볼 때 이 탭이 기본적으로 선택됨). 반복에 추가할 스토리를 선택합니다.
+## 백로그 탭의 기존 반복에 작업 또는 문제 추가
 
-     반복에 작업을 추가하면 [[!UICONTROL 작업 시작 날짜가 반복에 추가될 때 계산되는 방법 이해]에 설명된 대로 작업의 시작 날짜가 계산됩니다](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+1. **백로그** 탭에서 **스토리** 또는 **문제** 탭을 클릭합니다.
 
-   * **반복에 문제를 추가하려면:** **[!UICONTROL 백로그]** 탭에서 **[!UICONTROL 문제]** 탭을 클릭하십시오. 반복에 추가할 문제를 선택합니다.
+1. 반복에 추가할 스토리 또는 문제를 선택합니다. 백로그 상단에 있는 스토리가 더 높은 우선 순위입니다.
 
-1. **[!UICONTROL 저장]을 클릭합니다.**
-이터레이션이 작성됩니다.
+   ![작업 항목 이동](assets/move-to-iteration.png)
 
-1. (선택 사항) 기존 반복에 스토리를 추가하려면 [기존 반복에 스토리 추가](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)를 참조하십시오.
+   >[!NOTE]
+   >
+   >  반복에 작업을 추가하면 [[!UICONTROL 작업 시작 날짜가 반복에 추가될 때 계산되는 방법 이해]에 설명된 대로 작업의 시작 날짜가 계산됩니다](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+
 
 ## 반복에 추가할 때 작업 시작 일자를 계산하는 방법 이해 {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 

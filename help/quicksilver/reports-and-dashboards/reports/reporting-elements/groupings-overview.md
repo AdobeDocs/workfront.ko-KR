@@ -7,9 +7,9 @@ description: 그룹화를 추가하여 보고서와 목록의 정보 레이아�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 69dec186cdb8a6d29853703edb41073282cdd447
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,17 @@ ht-degree: 0%
 
 보고서의 각 열에 있는 값을 요약하여 그룹화 행에 보고서에 표시된 데이터를 집계할 수 있습니다. 그룹화에서 열 데이터를 요약하는 방법에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
+
 >[!NOTE]
 >
->그룹화에서 다음 필드의 값을 합산하는 경우 상위 객체(예: 상위 작업)에 다음 예외가 적용됩니다.
+>>그룹화에 있는 다음 필드의 값을 집계하는 경우 상위 객체(예: 상위 작업)에 다음 예외가 적용됩니다.
 >
->* 실제 시간을 제외한 모든 숫자 및 통화 필드(예: 계획된/실제 인건비, 계획된/실제 경비, 계획된/실제 원가, 계획된 시간)는 하위 태스크 및 독립형 태스크에 대한 값만 집계합니다. 상위 작업 또는 상위 작업의 값을 집계하지 않습니다.
->* 실제 시간은 기본 상위 작업과 독립형 작업에 대한 값을 집계합니다. 상위 작업 또는 하위 작업의 상위 작업에 대한 값은 집계하지 않습니다.
+>* 실제 시간을 제외한 모든 숫자, 통화 및 일자 필드는 하위 작업 및 독립형 작업에 대해서만 값을 집계합니다. 상위 작업 또는 상위 작업의 값을 집계하지 않습니다. 상위 작업만 포함하는 목록의 숫자, 통화 및 날짜 필드를 집계하면 그룹화 막대에 집계된 값이 표시되지 않습니다.
+>
+>* 실제 시간은 기본 상위 작업과 독립형 작업에 대한 값을 집계합니다. 하위 작업 또는 상위 작업의 상위 작업에는 값을 집계하지 않습니다. <!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
+>
 >* 숫자 및 통화 값에 대한 사용자 정의 데이터 필드는 상위, 1차 하위 구성요소, 1차 상위 구성요소 및 독립 실행형 작업과 같은 모든 작업을 집계합니다.
+
 
 ### 그룹별로 정렬 {#sort-by-a-grouping}
 
@@ -84,3 +88,13 @@ ht-degree: 0%
 * **그룹화가 귀하와 공유되어 있고 이를 제거한 경우** 그룹화는 귀하에게만 제거됩니다. 원래 이 그룹을 만든 사용자와 이 사용자를 공유한 다른 모든 사용자는 여전히 그룹화에 액세스할 수 있습니다.
 
 그룹화 제거에 대한 자세한 내용은 문서 [필터, 보기 및 그룹화 제거](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)를 참조하십시오.
+
+
+<!--Original note
+
+The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+
+-->
