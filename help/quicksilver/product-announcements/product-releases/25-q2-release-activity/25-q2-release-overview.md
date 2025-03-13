@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
+source-git-commit: a86b91ee323e9efdca33655eaaac805a019cbb1c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 
 | 월별 릴리스 | 분기별 릴리스 |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (2025년 2월 13일)</li><li>25.3 (2025년 3월)</li><li>25.4 (2025년 4월)</li></ul> | <ul><li>25.4 (2025년 4월)</li></ul> |
+| <ul><li>25.2 (2025년 2월 13일)</li><li>25.3 (2025년 3월 13일)</li><li>25.4 (2025년 4월 10일)</li></ul> | <ul><li>25.4 (2025년 4월 10일)</li></ul> |
 
 >[!NOTE]
 >
@@ -47,6 +47,21 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            사용자 정의 양식 논리 개선 사항</a></p>
+            <p>사용자 정의 양식 논리 빌더에는 논리 규칙을 만들 수 있는 추가 공간을 제공하기 위해 업데이트된 인터페이스가 있습니다. 이 새 설계는 향후 추가될 수 있는 추가 논리 유형을 보다 쉽게 수용할 수 있습니다.</p><p>현재 디스플레이 및 건너뛰기 논리 옵션 외에도 유효성 검사 논리를 사용할 수 있습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2025년 1월 31일</li>
+                <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 1월 31일</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -74,7 +89,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            문서 보고서에서 한 번에 여러 문서 편집 </a></p>
+            문서 보고서에서 한 번에 여러 문서 편집 </a></p>[!BADGE In production ]{type=Informative}
             <p>이제 문서 보고서에서 여러 문서를 한 번에 편집할 수 있습니다. 설명을 편집하고 사용자 정의 양식을 업데이트할 수 있습니다.</p>
         </td>
         <td>
@@ -97,7 +112,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            프로젝트 편집 상자에서 프로젝트를 편집할 때 프로젝트에 주석 추가</a></p>
+            프로젝트 편집 상자에서 편집할 때 프로젝트에 주석을 추가합니다.</a>[!BADGE In production for Fast Release]{type=Positive}</p>
             <p>이제 프로젝트 편집 상자에서 편집할 때 프로젝트에 주석을 추가할 수 있습니다. 여러 프로젝트를 일괄적으로 편집할 때 한 번에 주석을 추가할 수도 있습니다. 이 업데이트 이전에는 프로젝트를 편집할 때 이 기능이 없었습니다.</p>
         </td>
         <td>

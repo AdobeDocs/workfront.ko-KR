@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,31 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 레코드 유형에서 여러 요청 양식 설정 및 관리
+
+>[!NOTE]
+>
+>미리 보기: 2025년 3월 13일, 모든 고객을 위한 프로덕션: 2025년 4월 10일
+
+조직의 다양한 영역에서 오는 다양한 관련자에 대한 요청 양식을 사용자 정의할 수 있도록 지원하기 위해 이제 레코드 유형에 대해 두 개 이상의 요청 양식을 만들고 관리하는 기능을 도입합니다. 이 개선 이전에는 하나의 레코드 유형에 대해 하나의 양식만 만들 수 있었습니다.
+
+다른 양식을 사용하여 제출된 모든 요청은 선택한 레코드 유형에 대한 레코드를 만들 수 있습니다. 이제 동일한 레코드 종류에 대해 여러 요청 양식을 설정할 수 있습니다. 양식이 레코드 유형의 새 요청 양식 표 보기에 나열됩니다. 이제 요청 양식을 관리할 때 레코드 유형의 요청 양식 목록에서 요청 양식을 편집, 게시, 공유, 복사 또는 삭제할 수 있습니다.
+
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+
+## 기록 유형 페이지의 게시된 요청 양식에 쉽게 액세스
+
+>[!NOTE]
+>
+>미리 보기: 2025년 3월 13일, 모든 고객을 위한 프로덕션: 2025년 4월 10일
+
+이제 레코드 종류 페이지의 오른쪽 상단에 있는 새 레코드 단추에서 요청 양식에 액세스할 수 있습니다. 작업 영역에 대한 보기 권한이 있는 사용자의 경우 새 레코드가 레코드 요청 버튼으로 표시됩니다.
+
+이제 수동으로 레코드를 만들 수 있을 뿐만 아니라, CSV 또는 Excel 파일을 가져와 레코드를 만들 수도 있습니다. 레코드 유형 페이지의 요청 양식에서 레코드를 만들 수도 있습니다.
+이 개선 이전에는 양식에 대한 직접 링크나 Workfront의 요청 영역에서만 요청 양식을 사용하여 레코드를 만들 수 있었습니다.
+
+자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
 ## Workfront 사용자 정의 양식의 Planning 연결 필드에 연결된 레코드에서 조회 필드를 추가합니다.
 

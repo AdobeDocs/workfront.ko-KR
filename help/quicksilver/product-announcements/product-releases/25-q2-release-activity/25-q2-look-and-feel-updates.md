@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
+source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,38 @@ ht-degree: 0%
 
 2025년 2분기 릴리스에서 사용 가능한 모든 변경 사항 목록은 [2025년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)를 참조하십시오.
 
+## 아바타가 특정 이메일 알림에 더 이상 표시되지 않음
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 3월 13일, 모든 고객을 위한 프로덕션 릴리스: 2025년 3월 13일
+
+
+아바타는 다음 이메일 알림에 더 이상 표시되지 않습니다.
+
+* 모든 통신 이벤트 알림
+* 새 할당 알림
+* 모든 전임 작업 완료 알림
+
+<!--
+
+## Look and feel updates to a Milestone Path list 
+
+>[!NOTE]
+>
+>Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+
+We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+
+For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+-->
+
 ## Workfront 캘린더에 대한 디자인 업데이트
 
 >[!NOTE]
 >
->미리보기 릴리스: 2025년 2월 27일, 모든 고객을 위한 프로덕션 릴리스: 25.3 릴리스 포함(2025년 3월)
+>미리보기 릴리스: 2025년 2월 27일, 모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)
 
 Workfront 캘린더의 모양과 느낌을 Workfront의 다른 영역과 일관된 최신 디자인으로 업데이트했습니다. 현재 Workfront 캘린더와는 다음과 같은 몇 가지 기능 차이점이 있습니다.
 
@@ -38,7 +65,7 @@ Workfront 캘린더의 모양과 느낌을 Workfront의 다른 영역과 일관�
 
 >[!NOTE]
 >
->미리보기 릴리스: 2025년 2월 27일, 빠른 릴리스를 위한 프로덕션: 25.3 릴리스 포함(2025년 3월), 분기별 릴리스의 프로덕션: 25.4 릴리스 포함(2025년 4월)
+>미리보기 릴리스: 2025년 3월 13일, 모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)
 
 이제 프로젝트 목록 또는 보고서에서 마일스톤 경로에 액세스할 때 마일스톤 세부 정보 페이지의 모양과 느낌이 새로 달라집니다. 마일스톤 경로의 세부 사항 페이지에 액세스하려면 목록 또는 보고서 보기에 마일스톤 경로 이름 필드를 추가해야 합니다.
 
@@ -62,7 +89,7 @@ Workfront 캘린더의 모양과 느낌을 Workfront의 다른 영역과 일관�
 
 >[!NOTE]
 >
->미리보기 릴리스: 2025년 2월 13일, 모든 고객을 위한 프로덕션 릴리스: 25.3 릴리스 포함(2025년 3월)
+>미리보기 릴리스: 2025년 2월 13일, 모든 고객을 위한 프로덕션 릴리스: 25.3 릴리스 포함(2025년 3월 13일)
 
 공유 대화 상자의 모양과 느낌을 Workfront의 다른 영역과 일관된 최신 디자인으로 업데이트했습니다. 다음과 같은 약간의 시각적 차이가 있습니다.
 
