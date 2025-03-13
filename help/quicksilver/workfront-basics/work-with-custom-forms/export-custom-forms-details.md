@@ -5,23 +5,23 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: c21029e098f6b4f51f8698155e2b8a2e789c8bfc
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
 
 # 사용자 정의 양식 및 개체 세부 정보 내보내기
 
-개체의 세부 정보 섹션에서 개요 및 사용자 정의 양식 정보를 PDF 파일로 내보낼 수 있습니다. 그런 다음 PDF을 인쇄하거나 다른 사용자와 공유할 수 있습니다.
+오브젝트의 세부 정보 섹션에서 개요 및 사용자 정의 양식 정보를 PDF 파일로 내보낼 수 있습니다. 그런 다음 PDF을 인쇄하거나 다른 사용자와 공유할 수 있습니다.
 
 이 기능은 다음 개체에 대해 지원됩니다.
 
 * 프로젝트
 * 작업
 * 문제
-* Portfolio
+* 포트폴리오
 * 프로그램
 
 <!--
@@ -97,19 +97,15 @@ ht-degree: 1%
    >
    >다음과 같은 시나리오가 있을 수 있습니다.
    >
-   >   
-   >   
    >   * 그룹 또는 Workfront 관리자가 개요 영역에서 모든 필드를 선택 취소하고 오브젝트에 사용자 정의 양식이 첨부되어 있는 경우 개요 섹션이 표시되지 않습니다.
    >   * 그룹 또는 Workfront 관리자가 개요 영역에서 모든 필드를 선택 취소하고 오브젝트에 사용자 정의 양식이 첨부되어 있지 않은 경우 내보내기 드롭다운 메뉴가 표시되지 않습니다.
    >   * 오브젝트에 사용자 정의 양식이 첨부되어 있지 않은 경우 개요 영역만 내보낼 수 있습니다.
-   >   * 논리보다 뒤처져 양식에 표시되지 않는 사용자 정의 필드는 내보낼 수 없습니다. 사용자 정의 양식에 논리를 추가하는 방법에 대한 자세한 내용은 [양식에 표시 논리 추가 및 논리 건너뛰기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)를 참조하십시오.
-   >   
-   >
+   >   * 논리보다 뒤처져 양식에 표시되지 않는 사용자 정의 필드는 내보낼 수 없습니다. 사용자 정의 양식에 논리를 추가하는 방법에 대한 자세한 내용은 [사용자 정의 양식 및 필드에 논리 규칙 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)를 참조하십시오.
 
    PDF 파일이 생성되고 컴퓨터에 다운로드됩니다. PDF 파일에는 다음 정보가 포함되어 있습니다.
 
    * 양식이 첨부된 개체의 이름입니다.
    * PDF을 내보낸 사용자의 이름
-   * PDF 제작 날짜 및 시간
+   * PDF이 생성된 날짜 및 시간입니다
    * 내보낸 양식의 이름
    * 양식에 작성된 필드의 정보

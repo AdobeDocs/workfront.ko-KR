@@ -1,5 +1,5 @@
 ---
-title: "양식 디자인: 문서 색인"
+title: '양식 디자인: 문서 색인'
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,9 +10,9 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 091edfd8-8b69-4a56-9dae-ec73828a3f64
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: c21029e098f6b4f51f8698155e2b8a2e789c8bfc
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,6 @@ ht-degree: 0%
 * [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 * [복사본으로 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
 * [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
-* [양식에 표시 논리 및 건너뛰기 논리 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+* [사용자 정의 양식 및 필드에 논리 규칙 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
 * [사용자 정의 양식의 외부 조회 필드 예](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
 * [양식 구성 및 미리 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)

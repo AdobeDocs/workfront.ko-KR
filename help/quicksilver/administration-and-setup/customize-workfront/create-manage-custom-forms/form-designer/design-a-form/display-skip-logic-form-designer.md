@@ -1,5 +1,5 @@
 ---
-title: 양식에 표시 논리 및 건너뛰기 논리 추가
+title: 사용자 지정 Forms 및 필드에 논리 규칙 추가
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1745'
 ht-degree: 0%
 
 ---
 
-# 양식에 표시 논리 및 건너뛰기 논리 추가
+# 사용자 정의 양식 및 필드에 논리 규칙 추가
 
-사용자가 양식을 작성할 때 선택한 사항에 따라 사용자 정의 양식의 표시 또는 생략 섹션을 결정할 수 있습니다.
+{{highlighted-preview}}
+
+논리 규칙을 사용하면 양식의 필드를 추가로 사용자 지정할 수 있습니다.
+
+예를 들어, 사용자가 필드 또는 섹션을 작성할 때 선택하는 내용에 따라 사용자 정의 양식의 필드나 섹션을 표시하거나 건너뛸 수 있습니다.
 
 >[!NOTE]
 >
@@ -57,7 +61,7 @@ ht-degree: 0%
 
 ## 논리 아이콘 표시 및 건너뛰기
 
-사용자 정의 양식에는 특정 필드에 적용되는 논리를 나타내는 아이콘이 표시됩니다. 양식 디자이너의 필드에 있는 아이콘은 논리가 필드에 적용되었음을 나타냅니다.
+사용자 정의 양식에는 특정 필드에 표시 또는 건너뛰기 논리가 적용되는 시기를 나타내는 아이콘이 표시됩니다. 양식 디자이너의 필드에 있는 아이콘은 논리가 필드에 적용되었음을 나타냅니다.
 
 | 아이콘 | 양식 디자이너의 필드 위치 | 정의 |
 |--- |--- |--- |
@@ -96,31 +100,104 @@ ht-degree: 0%
 
 표시 논리는 사용자가 다중 선택 필드에서 특정 값을 선택할 때 양식에 표시되는 사용자 정의 필드를 정의합니다. 값이 선택될 때만 표시되는 대상 필드에 논리가 추가됩니다.
 
+<!--
+>[!NOTE]
+>
+><span class="preview">This procedure describes the basic mode for display logic. Advanced display logic is also available. For more information, see [Add advanced display logic to a custom form](#add-advanced-display-logic-to-a-custom-form), in this article.</span>
+-->
+
 {{step-1-to-setup}}
 
 1. **사용자 지정 Forms**&#x200B;을 클릭합니다.
 1. 새 사용자 정의 양식을 만들거나 기존 양식을 엽니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 1. 필요에 따라 양식에 필드를 추가합니다. 하나 이상의 객관식 필드(라디오 버튼, 드롭다운 또는 확인란)를 표시할 대상 필드 앞에 배치해야 합니다.
-1. 대상 필드를 선택하고 화면 왼쪽 하단에서 **논리 추가**&#x200B;를 클릭합니다.
-1. **표시 논리** 탭을 선택합니다.
-1. 논리 빌더에서 **표시 규칙 추가**&#x200B;를 클릭합니다.
+1. 대상 필드를 선택하고 **논리 추가**&#x200B;를 클릭합니다.
+1. 논리 빌더에서 **표시** 탭을 선택합니다.
+1. **표시 규칙 추가**&#x200B;를 클릭합니다.
+
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+
+   ![디스플레이 논리 빌더](assets/simple-display-logic1-val-only-in-menu.png)
+
+   프로덕션 환경의 샘플 이미지:
 
    ![디스플레이 논리 빌더](assets/custom-form-logic-builder-display-blank.png)
 
-1. 빌더에서 아래 단계에 따라 논리 문을 만듭니다.
+1. 아래 단계에 따라 빌더에 논리 구문을 만듭니다.
 
    1. 첫 번째 옵션은 정의 필드를 선택하는 것입니다. 대상을 표시하는 선택 값이 있는 필드입니다. 객관식 필드여야 합니다.
    1. 두 번째 옵션은 선택 값을 선택하는 것입니다. 해당 필드에 이미 정의된 값만 사용할 수 있습니다.
    1. 세 번째 옵션은 **선택됨** 또는 **선택되지 않음**&#x200B;입니다. **선택됨**&#x200B;을(를) 선택하면 값을 선택할 때 대상 필드가 표시됩니다. **선택되지 않음**&#x200B;을 선택하면 정의 필드에서 다른 값을 선택하면 대상 필드가 표시됩니다.
    1. **And** 규칙을 논리 문에 추가하려면 방금 만든 규칙 바로 아래에 있는 **규칙 추가**&#x200B;를 클릭합니다. 동일한 프롬프트에 따라 규칙을 빌드합니다. 대상 필드를 표시하려면 And 규칙이 모두 충족되어야 합니다.
 
+      <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+
+      ![디스플레이 논리 빌더](assets/simple-display-logic2.png)
+
+      프로덕션 환경의 샘플 이미지:
+
       ![디스플레이 논리 빌더](assets/custom-form-logic-builder-display1.png)
 
    1. 논리 문에 **Or** 규칙을 추가하려면 논리 빌더 아래쪽의 **규칙 추가**&#x200B;를 클릭하십시오. 그런 다음 Or 영역 내에서 **규칙 추가**&#x200B;를 클릭하고 같은 프롬프트에 따라 규칙을 만듭니다. 하나 이상의 규칙이 충족되면 대상 필드가 표시됩니다.
 
-1. 논리 문 작성을 마치면 **저장**&#x200B;을 클릭합니다.
+1. 논리 문 작성을 마치면 **저장** <span class="preview">또는 **적용**</span>&#x200B;을 클릭합니다.
 
    표시 논리 아이콘이 양식 디자이너의 대상 필드 및 정의 필드에 추가됩니다.
+
+<!--
+<div class="preview">
+
+## Add advanced display logic to a custom form
+
+The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+
+### Examples
+
+You can use advanced display logic to control the visibility of custom form sections based on user roles and the visibility of a field based on another field's status.
+
+No logic is applied to the default section on the form, so it is always visible to all users.
+
+Using the following condition, the Resources Required section is only displayed when a user with the job role of Resource Manager views the form.
+
+```IF($$USER.{roleID}="123abc", true)```
+
+Note that ```123abc``` represents the role ID of the Resource Manager.
+
+![Form section displayed for role](assets/advanced-display-on-form1.png)
+
+The same condition with a different role ID is applied to the Project Financial KPIs section to define that  only the Financial Advisor role can view the section.
+
+Using the following condition, the Sold KPI field only becomes visible when the project is complete. This logic is applied directly to the field instead of to a form section. There is no need to specify which role can view the field, because that is already defined in the section that the field is in.
+
+```IF({status}="CPL", true)```
+
+![Field is visible on complete project](assets/advanced-display-on-form2.png)
+
+### Define advanced display logic
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Display** tab on the logic builder.
+1. Turn on **Advanced mode**.
+   
+   This option might be turned on automatically, for fields that do not support the simple mode of display logic.
+
+   ![Advanced mode for display logic](assets/advanced-display-logic-blank-editor.png)
+
+1. Build the display condition in the editor.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field and the display logic icon is added in the form designer.
+
+</div>
+-->
 
 ## 사용자 정의 양식에 건너뛰기 논리 추가
 
@@ -132,24 +209,145 @@ ht-degree: 0%
 1. 새 사용자 정의 양식을 만들거나 기존 양식을 엽니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 1. 필요에 따라 양식에 필드를 추가합니다. 건너뛰기 논리를 위한 정의 필드는 다중 선택 필드(라디오 단추, 드롭다운 또는 확인란)여야 합니다.
 1. 정의 필드를 선택하고 화면 왼쪽 하단에서 **논리 추가**&#x200B;를 클릭합니다.
-1. **논리 건너뛰기** 탭을 선택합니다.
-1. 논리 빌더에서 **건너뛰기 규칙 추가**&#x200B;를 클릭합니다.
+1. 논리 빌더에서 **건너뛰기** 탭을 선택합니다.
+1. **건너뛰기 규칙 추가**&#x200B;를 클릭합니다.
+
+
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+
+   ![논리 빌더 건너뛰기](assets/skip-logic1-val-only-in-menu.png)
+
+   프로덕션 환경의 샘플 이미지:
 
    ![논리 빌더 건너뛰기](assets/custom-form-logic-builder-skip-blank.png)
 
-1. 빌더에서 아래 단계에 따라 논리 문을 만듭니다.
+1. 아래 단계에 따라 빌더에 논리 구문을 만듭니다.
 
    1. 정의 필드가 빌더에 표시됩니다. 건너뛰기 논리를 적용하기 위해 선택한 필드입니다.
    1. 첫 번째 옵션은 선택 값을 선택하는 것입니다. 필드에 이미 정의된 값만 사용할 수 있습니다.
    1. 두 번째 옵션은 **선택됨** 또는 **선택되지 않음**&#x200B;입니다. **선택됨**&#x200B;을(를) 선택하면 값을 선택할 때 대상 필드가 표시되고 그 사이의 필드는 건너뜁니다. **선택되지 않음**&#x200B;을 선택하면 정의 필드에서 다른 값을 선택할 때 대상 필드가 표시되고 그 사이의 필드는 건너뜁니다.
    1. 세 번째 옵션은 타겟 필드이거나 건너뛸 위치입니다. 필드 이름 또는 **양식의 끝**&#x200B;을(를) 선택하십시오. 옵션을 선택하기 전에 먼저 &quot;empty&quot;라는 단어를 클릭해야 할 수 있습니다.
 
+      <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+
+      ![논리 빌더 건너뛰기](assets/skip-logic2.png)
+
+      프로덕션 환경의 샘플 이미지:
+
       ![논리 빌더 건너뛰기](assets/custom-form-logic-builder-skip1.png)
 
    1. 논리 문에 **Or** 규칙을 추가하려면 논리 빌더 아래쪽의 **규칙 추가**&#x200B;를 클릭하십시오. 그런 다음 동일한 프롬프트에 따라 옵션을 선택하여 규칙을 빌드합니다. **Or** 규칙 하나가 충족되면 대상 필드가 표시됩니다.
 
-1. 논리 문 작성을 마치면 **저장**&#x200B;을 클릭합니다.
+1. 논리 문 작성을 마치면 **저장** <span class="preview">또는 **적용**</span>&#x200B;을 클릭합니다.
 
    건너뛰기 논리 아이콘은 양식 디자이너의 대상 필드 및 정의 필드에 추가됩니다.
 
+<div class="preview">
 
+## 사용자 정의 양식에 유효성 검사 논리 추가
+
+유효성 검사 논리는 공식을 사용하여 작성되며, 논리를 필요한 만큼 단순하거나 복잡하게 만들 수 있습니다. 유효성 검사는 다른 필드의 값 또는 객체의 상태를 기반으로 할 수 있으며, 유효성 검사가 실패하는 경우에 대한 오류 메시지를 제공할 수 있습니다.
+
+사용자가 사용자 정의 양식을 작성할 때 논리가 적용된 필드가 정의된 유효성 검사 조건을 충족하면 필드가 강조 표시되고 오류 메시지가 표시됩니다.
+
+드롭다운, 라디오 단추, 확인란, 자동 완성, 한 줄 텍스트, 단락 텍스트, 날짜 필드, 서식이 있는 텍스트 및 계산된 필드와 같은 필드 유형에 유효성 검사 논리를 적용할 수 있습니다.
+
+### 예시
+
+다음 조건을 사용하면 사용자가 메시지를 트리거하는 값을 입력할 때 예산 필드가 필드 아래에 메시지를 표시합니다. 예를 들어 입력한 값이 음수이면 첫 번째 메시지가 표시됩니다. 예산 값을 입력하기 전에 프로젝트 상태를 현재로 변경하려고 하면 두 번째 메시지가 표시됩니다.
+
+```
+IF({DE:Budget Field} < 0,
+     "Budget cannot be negative",
+     IF({DE:Budget Field} == 0 && {status} == "CUR", "Budget must be specified before moving to Current status")
+)
+```
+
+또 다른 간단한 예는 전화 번호 필드가 유효하려면 특정 자릿수를 포함해야 한다는 것입니다.
+
+다른 필드를 기반으로 한 유효성 검사의 추가 예는 회의실 크기(소규모, 중간 또는 대규모)에 대한 필드와 회의 참석자의 수에 대한 별도의 필드입니다. 각 룸 크기에 대한 인원은 유효성 검사 공식에 기록됩니다. 사용자가 입력한 참석자 수가 선택한 회의실에 비해 너무 많은 경우 오류 메시지가 표시됩니다.
+
+### 유효성 검사 논리 정의
+
+{{step-1-to-setup}}
+
+1. **사용자 지정 Forms**&#x200B;을 클릭합니다.
+1. 새 사용자 정의 양식을 만들거나 기존 양식을 엽니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+1. 필요에 따라 양식에 필드를 추가합니다.
+1. 논리를 적용할 필드를 선택하고 **논리 추가**&#x200B;를 클릭합니다.
+1. 논리 빌더에서 **유효성 검사** 탭을 선택합니다.
+
+   ![유효성 검사 논리 빌더](assets/validation-logic-blank-editor-val-only-in-menu.png)
+
+1. 유효성 검사를 충족하지 않을 때 표시할 오류 메시지를 포함하여 편집기에서 유효성 검사 조건을 작성합니다.
+
+   계산 및 식에 대한 자세한 내용은 [양식에 계산 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) 및 [계산된 데이터 식의 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)를 참조하십시오.
+
+1. **적용**&#x200B;을 클릭합니다.
+
+   논리는 양식 디자이너의 필드에 적용됩니다.
+
+</div>
+
+<!--
+<div class="preview">
+
+## Add formatting logic to a custom form
+
+Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+
+Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+
+### Example
+
+Using the following condition, the Budget field appears red when the user enters a value of 1000 or more. The field appears yellow when the user enters a value of 500 or more.
+
+To add a hover-over definition of the formatting, use the Instructions field in the custom form. For example, a message on the Budget field could say "Please enter a budget within a reasonable range. Values over 500 are a warning notice, and above 1000 is considered too high."
+
+```
+IF(
+     {DE:Budget Field} >=1000,
+     FORMAT($$NEGATIVE),
+     IF({DE:Budget Field} >= 500, FORMAT($$NOTICE))
+)
+```
+
+### Define formatting logic
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Formatting** tab on the logic builder.
+
+   ![Formatting logic builder](assets/formatting-logic-blank-editor.png)
+
+1. Build the formatting condition in the editor.
+
+   You can add up to five formatting rules per field.
+
+   The field highlighting color options are:
+
+   * `$$POSITIVE (green)`
+   * `$$INFORMATIVE (blue)`
+   * `$$NEGATIVE (red)`
+   * `$$NOTICE (orange)`
+   
+   The text formatting options are:
+   
+   * `$$BOLD`
+   * `$$ITALIC`
+   * `$$UNDERLINE`
+
+   Only one color option may be used per function, along with up to three additional text formatting options. If no color option is specified, the system's default color is applied.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field in the form designer.
+
+</div>
+-->
