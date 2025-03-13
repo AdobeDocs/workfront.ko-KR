@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
+source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,15 @@ ht-degree: 0%
 * 새 할당 알림
 * 모든 전임 작업 완료 알림
 
-<!--
-
-## Look and feel updates to a Milestone Path list 
+## 마일스톤 경로 목록 업데이트 보기 및 느낌
 
 >[!NOTE]
 >
->Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+>미리보기 릴리스: 2025년 3월 6일, 모든 고객을 위한 프로덕션 릴리스: 2025년 4월 10일
 
-We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+Workfront의 다른 영역 디자인에 맞게 설정 영역의 마일스톤 경로 목록의 모양과 느낌을 업데이트했습니다.
 
-For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
--->
+자세한 내용은 [마일스톤 경로 만들기](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)를 참조하세요.
 
 ## Workfront 캘린더에 대한 디자인 업데이트
 
@@ -89,7 +85,7 @@ Workfront 캘린더의 모양과 느낌을 Workfront의 다른 영역과 일관�
 
 >[!NOTE]
 >
->미리보기 릴리스: 2025년 2월 13일, 모든 고객을 위한 프로덕션 릴리스: 25.3 릴리스 포함(2025년 3월 13일)
+>미리보기 릴리스: 2025년 2월 13일, 모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)
 
 공유 대화 상자의 모양과 느낌을 Workfront의 다른 영역과 일관된 최신 디자인으로 업데이트했습니다. 다음과 같은 약간의 시각적 차이가 있습니다.
 
