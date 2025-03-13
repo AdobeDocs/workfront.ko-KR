@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '944'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유�
 
 ## Adobe Workfront Planning에서 공유할 수 있는 객체
 
-다음 개체를 공유할 수 있습니다.
+Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니다.
 
 * 작업 영역
 
@@ -49,7 +49,7 @@ Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유�
 
     * You can share record types with people inside your organization.
     * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+    * You cannot share a record type with a higher permission level than the user has on the workspace. 
 
     For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
 
@@ -77,6 +77,8 @@ Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유�
 * 작업 역할
 
 </div>
+
+<span class="preview"> 작업 공간 및 레코드 형식을 다른 사용자와 공유할 때 레코드 형식의 사용 권한 수준이 연결된 레코드 및 필드에 자동으로 상속됩니다. </span>
 
 ## Adobe Workfront Planning에서 객체 공유에 대한 고려 사항
 
@@ -129,7 +131,7 @@ Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유�
 
 ### 레코드 유형 권한
 
-<!--In the Production environment,--> 작업 영역에 권한을 부여할 때 레코드 유형 권한은 항상 상속됩니다.
+<!--In the Production environment,--> 작업 영역에 권한을 부여할 때 레코드 유형 권한이 <!--always-->에서 상속되었습니다.
 
 다음은 레코드 유형에 대한 권한 수준입니다.
 
@@ -145,18 +147,17 @@ Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유�
 
 <div class="preview">
 
-In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
 
-You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
 
 The following scenarios exist: 
 
 |   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, No permissions           | 
-| Contribute |     Contribute |  Contribute, View, No permissions        |
-| View   |  View     |      View, No permissions        |     
-
+| Manage |   Manage    |   Manage, Remove permissions           | 
+| Contribute |     Contribute |  Contribute, View, Remove permissions        |
+| View   |  View     |      View, Remove permissions        |     
 
 </div>
 
@@ -164,7 +165,7 @@ The following scenarios exist:
 
 ### 권한 기록
 
-작업 영역에 권한을 부여하면 레코드 권한이 상속됩니다.
+레코드 권한은 <!--<span class="preview">the record type</span>, when you grant permissions to -->작업 영역<!-- and <span class="preview">the record type</span>-->에서 상속됩니다.
 
 다음은 레코드에 대한 권한 수준입니다.
 
@@ -178,7 +179,8 @@ The following scenarios exist:
 
 ### 필드 권한
 
-작업 영역에 권한을 부여하면 필드 권한이 상속됩니다.
+필드 권한은 <!--<span class="preview">the record type</span>, when you grant permissions to -->작업 영역 <!--and <span class="preview">the record type</span>-->에서 상속됩니다.
+
 다음 권한은 필드 자체를 참조하며 각 필드와 연결된 값은 참조하지 않습니다. 필드 값을 편집하려면 레코드를 편집할 권한이 있어야 합니다.
 
 |        | 관리 | 참여 | 보기 |

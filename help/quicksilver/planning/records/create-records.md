@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '2411'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 다음 중 하나를 수행하여 레코드를 만들 수 있습니다.
 
-* [테이블 보기의 레코드 유형 페이지에서 레코드 추가](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [레코드 유형 테이블 보기에서 인라인으로 추가하여 레코드를 만듭니다.](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* <span class="preview">[모든 레코드 형식 보기에서 새 레코드 또는 레코드 요청 단추를 사용하여 레코드를 만듭니다](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
 * [외부 목록에서 레코드 목록 복사 및 붙여넣기](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [테이블 보기에서 레코드 복제](#create-records-by-duplicating-them)
 * [다른 레코드와 연결할 때 레코드 만들기](#create-records-as-you-connect-them)
@@ -97,7 +98,8 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td> <p>레코드를 추가할 작업 영역 <!--<span class="preview">and record type</span>-->에 대해 또는 그 이상의 권한을 제공하십시오. </p>  
+   <td> <p>레코드를 추가할 작업 영역 <!--<span class="preview">and record type</span>-->에 대해 또는 그 이상의 권한을 제공하십시오. </p>
+   <p><span class="preview">레코드 페이지의 레코드 요청 단추를 사용하여 레코드를 만들 수 있는 <!--<span class="preview">and record type</span>--> 작업 영역에 대한 이상의 권한을 봅니다.</span></p>
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
    <p>하위 개체(프로젝트)를 추가하기 위해 Workfront 개체(포트폴리오)에 대한 권한을 관리합니다.</p>
    </td> 
@@ -113,9 +115,9 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 +++
 
-## 레코드 유형 테이블의 레코드 유형에 추가하여 레코드 만들기
+## 레코드 유형 테이블 보기에서 인라인으로 추가하여 레코드를 만듭니다.
 
-레코드 유형 페이지의 표 보기에서 레코드를 만들 수 있습니다.
+레코드 유형 페이지의 테이블 보기에서 레코드를 만들면 인라인으로 추가할 수 있습니다.
 
 레코드 정보 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
@@ -128,27 +130,28 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
-선택한 유형의 모든 레코드가 뷰에 표시됩니다.
+선택한 유형의 레코드가 뷰에 표시됩니다.
 
-1. (조건부) 표시되는 보기에 따라 다음 중 하나를 수행합니다.
+1. (조건부) 테이블 보기에서 다음 중 하나를 수행합니다.
 
-   * 테이블 보기에서:
+   * 테이블의 마지막 행에서 **새 레코드**&#x200B;을(를) 클릭합니다.
 
-      * 테이블의 마지막 행에서 **새 레코드**&#x200B;을(를) 클릭합니다.
+   * 표의 열 또는 행에서 키보드에서 **Shift + Enter**&#x200B;를 클릭합니다. 이렇게 하면 시작한 레코드 아래에 빈 행이 추가됩니다.
+   * 레코드의 기본 필드 위에 마우스를 가져다 대고 필드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **위에 레코드 삽입** 또는 **아래에 레코드 삽입**&#x200B;을 클릭합니다.
 
-      * 표의 열 또는 행에서 키보드에서 **Shift + Enter**&#x200B;를 클릭합니다. 이렇게 하면 시작한 레코드 아래에 빈 행이 추가됩니다.
-      * 레코드의 기본 필드 위에 마우스를 가져다 대고 필드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **위에 레코드 삽입** 또는 **아래에 레코드 삽입**&#x200B;을 클릭합니다.
+   ![테이블 행에 새 캠페인 추가](assets/adding-a-new-campaign-in-table-row.png)
 
-     ![테이블 행에 새 캠페인 추가](assets/adding-a-new-campaign-in-table-row.png)
+   Workfront은 각 새 레코드에 썸네일을 자동으로 업로드합니다. 나중에 이러한 이미지를 수정할 수 있습니다. 자세한 내용은 [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)를 참조하십시오.
 
-   * 모든 보기에서:
+   새 레코드가 표에 추가됩니다.
 
-      * 페이지의 오른쪽 상단에 있는 **새 레코드**&#x200B;을(를) 클릭합니다. 레코드 미리 보기 상자가 열립니다.
+1. 새 레코드의 기본 필드 클릭
 
-     Workfront은 각 새 레코드에 썸네일과 표지 이미지를 자동으로 업로드합니다. 나중에 이러한 이미지를 수정할 수 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
+   또는
 
-      * [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
-      * [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+   레코드 이름 왼쪽의 테이블 이름 필드에 있는 **세부 정보 열기** 아이콘 ![세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다.
+
+   테이블에 미리보기 상자가 열립니다.
 
 1. 미리 보기 상자에 표시되는 필드에 새 레코드에 대한 정보를 입력하십시오.
 
@@ -158,23 +161,94 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
    >
    >  * 다른 레코드 종류 또는 계산된 필드를 참조하는 필드는 읽기 전용 필드입니다.
 
-1. (조건부) 표에 레코드를 추가할 때 각 행에 정보를 계속 추가한 다음 키보드에서 **Enter**&#x200B;를 클릭하여 변경 내용을 저장합니다.
+1. (조건부) 테이블에서 레코드를 추가할 때 레코드의 미리 보기 상자를 열기 전에 각 행에 정보를 계속 추가한 다음 키보드에서 **Enter**&#x200B;를 클릭하여 변경 내용을 저장합니다.
 
    또는
 
-   새 레코드 이름 또는 레코드 이름 왼쪽에 있는 **세부 정보 열기** 아이콘 ![테이블 이름 필드의 세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다. 레코드의 세부 정보가 포함된 미리보기가 테이블에 열립니다.
+   새 레코드 이름 또는 레코드 이름 왼쪽의 **세부 정보 열기** 아이콘 ![테이블 이름 필드의 세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭하여 미리 보기 상자를 열고 세부 정보 영역에서 레코드 정보를 편집합니다.
 
    >[!TIP]
    >
    >이름 필드가 기본 필드인 경우 레코드의 이름 필드에서만 **세부 정보 열기** 아이콘에 액세스할 수 있습니다.
 
-1. 레코드 미리 보기에서 레코드 정보 편집을 시작합니다. Workfront은 변경 사항을 자동으로 저장합니다.
-1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭하여 새 탭에서 레코드 페이지를 엽니다. 레코드 페이지에서 레코드 편집을 계속합니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
+1. (선택 사항) 레코드의 미리 보기 상자에서 오른쪽 상단의 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭하여 새 탭에서 레코드의 페이지를 엽니다. 레코드 페이지에서 레코드 편집을 계속합니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
-1. (선택 사항) 다음 키보드 단축키를 사용하여 표 보기에서 새 레코드 또는 해당 정보를 추가할 때 해당 추가 작업을 취소하거나 다시 실행합니다.
+   Workfront은 변경 사항을 자동으로 저장합니다.
+
+1. (선택 사항) 레코드의 페이지를 연 경우 미리 보기 상자를 닫거나 레코드 이름 왼쪽에 있는 뒤로 화살표를 클릭합니다.
+
+1. (선택 사항) 테이블 보기에서 새 레코드 또는 해당 정보를 추가할 때 다음 키보드 단축키를 사용하여 해당 정보 추가를 실행 취소하거나 재실행합니다.
 
    * CTRL+Z(Mac의 경우 ⌘+Z)
    * 변경 내용을 재실행하려면 CTRL+Shift+Z(Mac의 경우 ⌘+Shift+Z)
+
+<div class="preview">
+
+## 레코드 유형 보기에서 새 레코드 또는 레코드 요청 버튼을 사용하여 레코드 만들기
+
+작업 영역 <!--<span class="preview">and record type</span>-->에 대한 보기 권한이 있는 사용자는 레코드 유형 페이지의 레코드 요청 단추를 통해서만 레코드를 만들 수 있습니다.
+
+작업 영역 <!--<span class="preview">and record type</span>-->에 대한 기여 및 관리 권한이 있는 사용자는 레코드 유형 페이지의 새 레코드 단추를 사용하여 레코드를 만들 수 있습니다.
+<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+
+>[!IMPORTANT]
+>
+>작업 영역 관리자는 보기 권한이 있는 사용자가 요청 양식을 사용하여 레코드를 추가할 수 있도록 레코드 유형에 대한 요청 양식을 만들어야 합니다. 그렇지 않으면 보기 권한 사용자가 레코드를 만들 수 없습니다.
+
+{{step1-to-planning}}
+
+1. 레코드를 추가할 작업 영역을 클릭합니다.
+
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
+
+1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+
+   마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
+선택한 유형의 모든 레코드가 뷰에 표시됩니다.
+
+1. 작업 영역 <!--<span class="preview">and record type</span>--> 권한에 따라 화면의 오른쪽 상단 모서리에서 다음을 클릭합니다.
+
+   * 작업 영역 <!--<span class="preview">and record type</span>-->에 대한 Contribute 이상의 권한이 있는 경우 **새 레코드**&#x200B;을(를) 클릭합니다.
+
+     또는
+
+   * 작업 영역 <!--<span class="preview">and record type</span>-->에 대한 보기 권한이 있는 경우 **레코드 요청**&#x200B;을 클릭하세요.
+
+1. (조건부) **새 레코드**&#x200B;을(를) 클릭한 경우 다음 작업을 수행하십시오.
+
+   1. 다음 방법 중 하나를 클릭하여 레코드를 만든 다음 **계속**&#x200B;을 클릭합니다.
+
+      * **수동으로 추가**. 레코드의 미리보기 상자가 열립니다.\
+        이 문서의 레코드 유형 테이블 보기](#create-records-by-adding-them-inline-from-the-record-type-table-view) 섹션에서 인라인으로 추가하여 [레코드 만들기{6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
+      * **파일에서 업로드**
+문서 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)에 설명된 대로 6단계부터 레코드를 추가합니다. <!--ensure this stays accurate-->
+      * **요청 제출**
+레코드 유형의 요청 양식이 열립니다.
+
+        작업 영역 관리자는 요청 양식을 사용하여 레코드를 추가할 수 있도록 요청 양식을 만들어야 합니다.
+
+        >[!TIP]
+        >
+        >일부 레코드 유형에는 여러 양식이 있을 수 있습니다. 열려면 하나를 클릭하십시오.
+
+        문서 [레코드 만들기에 대한 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)에 설명된 대로 레코드를 6단계부터 추가합니다. <!--ensure this stays accurate-->
+
+      ![](assets/three-ways-to-create-records-choice-modal.png)
+
+1. (조건부) **레코드 요청**&#x200B;을 클릭한 경우 다음을 수행하십시오.
+
+   1. (조건부) 레코드 종류에 요청 양식이 두 개 이상 있는 경우 하나를 클릭하여 선택합니다.
+   2. 문서 [레코드 만들기에 대한 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)에 설명된 대로, 6단계부터 양식에 정보를 계속 추가하여 레코드를 만듭니다. <!--ensure this stays accurate-->
+
+1. (조건부) 새 레코드를 검토합니다.
+
+   레코드를 추가하도록 선택한 방법에 따라 다음 중 일부가 발생할 수 있습니다.
+
+   * 승인 프로세스가 있는 요청 양식을 사용하여 추가하도록 선택하지 않은 경우 새 레코드가 레코드 유형에 추가됩니다. 레코드를 만들기 전에 모든 승인자가 승인을 받아야 합니다.
+   * CSV 또는 Excel 스프레드시트를 사용하여 레코드를 추가한 경우 레코드 유형에 여러 레코드가 추가됩니다.
+   * 요청 양식을 제출하여 요청을 추가한 경우 Workfront 요청 영역의 계획 탭에 새 요청이 추가됩니다.
+
+</div>
 
 <!-- this is not possible anymore: 
 

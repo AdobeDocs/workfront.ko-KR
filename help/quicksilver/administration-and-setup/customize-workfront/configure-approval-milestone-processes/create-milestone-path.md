@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '875'
 ht-degree: 3%
 
 ---
@@ -115,26 +115,28 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
    </table>
 
 1. **마일스톤 추가**&#x200B;를 클릭하고 경로가 완료될 때까지 필요에 따라 마일스톤을 계속 추가합니다.
+
 1. 변경 내용을 저장하려면 **마일스톤 경로 만들기**&#x200B;를 클릭하세요.
 
    마일스톤 경로를 프로젝트와 연결할 준비가 되었습니다.
 
    마일스톤 경로를 프로젝트에 연결하고 마일스톤을 작업에 연결하는 방법에 대한 자세한 내용은 [마일스톤과 작업 연결](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)을 참조하세요.
 
-<!--
-1. <span class="preview">(Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file: </span>
+
+1. <span class="preview">(선택 사항) **Export** 아이콘 ![Export 아이콘](assets/export-icon.png)을(를) 클릭하고 다음 형식 중 선택하여 마일스톤 경로 목록을 파일로 내보냅니다. </span>
 
    * PDF
    * Excel
-   * Excel (xlsx)
-   * Tab Delimited
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information. </span>
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. </span>
-1. <span class="preview">Click **Yes, Delete it**. </span>
-   <span class="preview">The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. </span>
+   * Excel(xlsx)
+   * 탭으로 구분됨
 
-   </div>
--->
+1. <span class="preview">(선택 사항) 마일스톤 목록에서 마일스톤을 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭하여 마일스톤 정보를 편집합니다. </span>
+1. <span class="preview">(선택 사항) 마일스톤 목록에서 마일스톤을 선택한 다음 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭하여 삭제합니다. </span>
+1. <span class="preview">**예, 삭제**&#x200B;를 클릭합니다. </span>
+   <span class="preview">마일스톤이 삭제되어 복구할 수 없습니다. 이정표와 연관된 프로젝트 정보와 이정표 경로와 연관된 작업 정보도 모두 삭제됩니다. </span>
+
+
+<div class="preview">
 
 ## 보고서에서 마일스톤 경로 세부 정보 보기
 
@@ -171,9 +173,8 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
    * 마일스톤 경로 그룹
    * 이정표 이름, 설명, 색상 및 색상 아이콘
 
-   </div>
-
 1. (선택 사항) 프로젝트 보고서로 돌아가려면 **뒤로**&#x200B;를 클릭합니다.
 
+</div>
 
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1828'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,14 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-누군가가 Adobe Workfront Planning의 레코드 유형 페이지에서 요청 양식에 대한 링크를 귀하에게 공유하면 요청을 추가하여 요청 양식과 연관된 레코드 유형에 대한 레코드를 생성할 수 있습니다.
+작업 영역 관리자가 Adobe Workfront Planning에서 레코드 유형에 대한 요청 양식을 작성한 후 이 양식을 사용하여 해당 양식과 관련된 레코드 유형에 대한 레코드를 만들 요청을 제출할 수 있습니다.
+
+다음 영역에서 Workfront Planning 요청을 제출할 수 있습니다.
+
+* Workfront의 요청 영역 또는 요청 양식에 대한 직접 링크에서. 이 문서에서는 Workfront의 요청 영역 또는 공유 링크에서 레코드 유형에 새 레코드를 추가하도록 요청을 제출하는 방법에 대해 설명합니다.
+* <span class="preview">레코드 종류 페이지에서 새 레코드를 추가하거나 요청할 때 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).</span>를 참조하세요.
 
 Workfront 사용자와 외부 사용자는 Planning 레코드 유형에 요청을 제출하고 레코드를 생성할 수 있습니다. <!--double check on the external users-->
-
-이 문서에서는 레코드 유형에 새 레코드를 추가하도록 요청을 제출하는 방법에 대해 설명합니다.
 
 작업 영역 관리자가 요청 양식을 만들고 레코드 유형과 연결하는 방법에 대한 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
@@ -113,34 +116,41 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 * Workfront Planning에는 다음이 있어야 합니다.
 
    * 작업 영역
-   * 요청 양식과 연결된 레코드 유형입니다. 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+   * 레코드 종류.
+   * 레코드 유형과 연결된 요청 양식입니다.
 
-* 액세스 가능한 방식으로 요청 양식을 링크와 공유해야 합니다. 다음과 같은 시나리오가 있습니다.
+     자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
-   * Workfront 계정이 있는 경우 링크는 내부 직원하고만 공유되었으며 작업 영역에 대한 기여 이상의 액세스 권한이 있습니다. Workfront 외부 사용자는 내부적으로 공유된 링크에 액세스할 수 없습니다.
-   * Workfront 계정이 없는 경우 링크가 외부 사용자와 공유되었습니다. Workfront 사용자는 외부 사용자와 공유되는 링크에 액세스할 수도 있습니다.
+* 액세스 가능한 방식으로 요청 양식을 공유해야 합니다. 다음과 같은 시나리오가 있습니다.
+
+   * 내부적으로 작업 영역에 대한 보기 이상의 권한이 있는 사용자와 양식을 공유해야 합니다.
+
+     Workfront 사용자는 <span class="preview"> 링크에서 양식에 액세스하거나 Workfront의 요청 영역에서 요청 양식을 찾을 수 있습니다.</span>
+
+   * Workfront 계정이 없는 경우 양식에 대한 링크가 외부 사용자와 공유되었습니다.
+
+     Workfront 사용자는 외부 사용자와 공유되는 링크에 액세스할 수도 있습니다.
 
 * 양식에 대한 링크가 만료되지 않아야 합니다.
 
 ## Workfront Planning에 요청 제출에 대한 고려 사항
 
-* 양식에 대한 특정 링크에서만 Workfront Planning 요청에 대한 요청 양식에 액세스할 수 있습니다.
-* Workfront Planning에 제출한 후 Workfront에서 요청을 편집할 수 없습니다.
+* 요청을 제출한 후에는 Workfront에서 요청을 편집할 수 없습니다.
 * 제출된 각 요청은 사용하는 양식과 연결된 레코드 유형, 양식이 승인과 연결되지 않은 경우 또는 모든 승인자가 승인을 부여한 경우 레코드를 만듭니다.
-* 요청 양식을 제출하여 생성된 레코드는 다른 방법을 통해 추가된 레코드와 구분할 수 없습니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
+* 요청 양식을 제출하여 생성된 레코드는 Workfront Planning에서 다른 방법을 통해 추가된 레코드와 구분할 수 없습니다.
+
+  자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 * 제출된 요청은 Workfront의 요청 영역에 있는 제출됨 섹션의 계획 탭에 표시됩니다.
-* 특정 필드 유형이 요청 양식 또는 양식 제출 후 요청 세부 정보 페이지에 표시되는 방법에는 제한이 있습니다. 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+* 특정 필드 유형이 요청 양식 또는 양식 제출 후 요청 세부 정보 페이지에 표시되는 방법에는 제한이 있습니다.
+
+  자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
-## Workfront Planning에 요청 제출
-
-Workfront Planning에 요청을 제출하는 것은 사용하는 환경에 따라 다릅니다.
-
 <div class="preview">
 
-### 미리보기 환경에서 Workfront Planning에 요청 제출
+## Workfront의 요청 영역에서 Workfront Planning에 요청 제출
 
 >[!NOTE]
 >
@@ -214,7 +224,7 @@ Workfront Planning에 요청을 제출하는 것은 사용하는 환경에 따�
 
    >[!TIP]
    >
-   >* 레코드 이름이 요청 양식에 추가되지 않은 경우 요청의 레코드 필드에 있는 레코드 이름이 **제목 없음**&#x200B;으로 표시됩니다.
+   >* 레코드의 기본 필드가 요청 양식에서 업데이트되지 않으면 요청의 레코드 필드에 있는 레코드 이름이 **제목 없음**&#x200B;으로 표시됩니다.
    >
    >* 요청 양식이 승인과 연결된 경우 요청 페이지에서 레코드에 액세스하려면 승인을 받아야 합니다.
 
@@ -224,7 +234,7 @@ Workfront Planning에 요청을 제출하는 것은 사용하는 환경에 따�
 
 </div>
 
-### 프로덕션 환경에서 Workfront Planning에 요청 제출
+## 공유 링크에서 요청 양식으로 Workfront Planning에 요청 제출
 
 1. Workfront Planning 레코드 유형에서 사용자와 공유되는 링크로 이동합니다.
 

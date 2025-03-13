@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '2084'
 ht-degree: 1%
 
 ---
@@ -160,7 +160,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 
-1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 만들기**&#x200B;를 클릭합니다.
+1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 만들기** <span class="preview">또는 **요청 양식 관리**&#x200B;를 클릭합니다(이미 양식이 있고 추가 양식을 만들려면</span>).
 1. 요청 양식 이름을 업데이트합니다. 기본적으로 양식 이름은 **제목 없는 양식**&#x200B;입니다. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (선택 사항) 요청 양식에 대해 **설명**&#x200B;을(를) 추가합니다.
 
@@ -258,7 +258,14 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    >     * 사용자
    >
 
-1. (조건부) 이전 단계에서 **링크가 있는 모든 사용자**&#x200B;를 선택한 경우 사용 가능한 달력에서 **링크 만료 날짜**&#x200B;를 선택하십시오. 링크가 만료되면 사람들이 오류를 받게 되며 사람들이 양식에 다시 액세스하려면 링크 날짜를 업데이트하고 공유할 새 링크를 생성해야 합니다.
+1. (조건부) 이전 단계에서 **링크가 있는 모든 사용자**&#x200B;를 선택한 경우 사용 가능한 달력에서 **링크 만료 날짜**&#x200B;를 선택하십시오. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
+
+   >[!TIP]
+   >
+   >이러한 경우 링크가 공개적으로 공유된다는 표시가 있습니다.
+   >![레코드 종류 메뉴의 양식에 대한 공개 공유 링크](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+
+   링크가 만료되면 사람들이 오류를 받게 되며 사람들이 양식에 다시 액세스하려면 링크 날짜를 업데이트하고 공유할 새 링크를 생성해야 합니다.
 
    현재 날짜로부터 180일 이내에 미래 날짜를 선택할 수 있습니다.
 
@@ -274,18 +281,31 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    요청 양식에 대한 링크를 사용하여 레코드를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
 1. **양식** 탭의 오른쪽 아래 모서리에 있는 **저장**&#x200B;을 클릭하여 양식을 저장합니다.
+
 1. 머리글에서 양식 이름 왼쪽에 있는 왼쪽 화살표를 클릭하여 양식을 닫습니다.
 
-   레코드 유형 페이지가 열립니다.
-1. (선택 사항) 헤더에서 레코드 형식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 중 하나를 수행합니다.
+   <span class="preview">요청 양식&#x200B;**테이블 보기가 열리고 양식이 추가됩니다.</span>**
+
+1. <span class="preview">(선택 사항) 테이블 보기에서 요청 양식 이름 위로 마우스를 가져간 후 양식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭하고 다음 중 하나를 클릭합니다.</span>
+
+   * <span class="preview">**양식 편집**: 양식에 대한 정보를 추가로 편집하려면 여기를 클릭하십시오. </span>
+   * <span class="preview"> **게시 취소**: Workfront의 요청 영역에서 양식을 제거하는 게시를 취소하려면 이 옵션을 클릭합니다. </span>
+   * <span class="preview">**공유**: 양식에 액세스할 수 있는 사용자를 수정하려면 이 항목을 클릭하십시오. </span>
+   * <span class="preview">**링크 복사**: 양식을 열지 않고 요청 양식의 링크를 빠르게 복사하려면 이 링크를 클릭하십시오. </span>
+   * <span class="preview">**삭제**: 양식을 삭제하려면 이 항목을 클릭하십시오. 양식을 사용하여 추가된 모든 요청 및 레코드는 삭제되지 않습니다. 양식을 복구할 수 없습니다. </span>
+
+   ![요청 양식 목록의 요청 양식에 대한 추가 메뉴](assets/more-menu-on-request-form-from-request-forms-list.png)
+
+
+1. <span class= "preview">요청 양식 테이블을 닫으려면 헤더의 **요청 양식** 왼쪽에 있는 왼쪽 화살표를 클릭합니다.   </span>
+
+   <span class= "preview">레코드 종류 페이지가 열립니다. </span>
+1. (선택 사항 및 조건부) 프로덕션 환경에서 헤더의 레코드 형식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 중 하나를 수행합니다.
    * 요청 양식을 변경하려면 **요청 양식 업데이트**&#x200B;를 클릭하십시오.
    * **요청 양식에 대한 링크 복사**&#x200B;를 클릭하여 양식에 대한 링크를 다른 사용자와 공유합니다.
 
-   또는
+1. <span class="preview">(선택 사항 및 조건부) 미리 보기 환경에서 헤더의 레코드 형식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 관리**&#x200B;를 클릭합니다. </span>
 
-   * <span class= "preview"> Workfront의 **요청** 영역으로 이동하여 공유 양식을 찾아 요청을 제출합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md).</span>을 참조하십시오.
-
-   >[!TIP]
-   >
-   >이러한 경우 링크가 공개적으로 공유된다는 표시가 있습니다.
-   >![레코드 종류 메뉴의 양식에 대한 공개 공유 링크](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   <span class="preview">요청 양식 표 보기가 열립니다. </span>
+1. <span class="preview">요청 양식을 열어 편집하려면 클릭하세요.</span>
+1. <span class= "preview">(선택 사항) Workfront의 **요청** 영역으로 이동하여 공유 양식을 찾아 요청을 제출합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md).</span>을 참조하십시오.

@@ -3,13 +3,13 @@ title: 레코드 유형 공유
 description: Adobe Workfront Planning 사용 시 공동 작업을 보장하기 위해 다른 사용자와 레코드 유형을 공유할 수 있습니다.
 hide: true
 hidefromtoc: true
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+exl-id: bf49db73-09f1-417e-836b-16c6062740d4
+source-git-commit: 5005493bb98b63f4c463f424be43a9d422744846
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
-
 
 <!-- add these to metadata on release:
 
@@ -30,8 +30,9 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 
 >[!IMPORTANT]
 >
->* 작업 영역에 권한을 부여하면 작업 영역의 레코드 유형에 대해 동일한 권한을 사용자에게 부여합니다.
->* 레코드 유형에 권한을 부여하면 사용자에게 작업 영역에서 이미 가지고 있는 권한보다 낮은 권한과 더 높은 권한이 부여되지 않을 수 있습니다.
+>* 작업 영역에 권한을 부여하면 기본적으로 작업 영역의 레코드 유형에 대해 동일한 권한이 사용자에게 부여됩니다.
+>* 개별 레코드 유형에 대한 권한을 조정할 수 있습니다.
+>* 작업 공간에 대한 액세스 권한보다 레코드 유형에 대한 더 높은 액세스 권한을 부여할 수 없습니다.
 > 자세한 내용은 이 문서의 [레코드 종류 공유 시 고려 사항](#considerations-when-sharing-record-types) 섹션을 참조하십시오.
 
 ## 액세스 요구 사항
@@ -117,7 +118,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 * 자동으로 사용자는 작업 영역에서 레코드 유형 권한을 상속합니다.
 * 레코드 유형에 대한 보기 권한을 사용자에게 수동으로 부여하거나 작업 영역에서 상속된 권한을 제거할 수 있습니다.
 
-* 작업 영역 권한이 없는 레코드 유형에 추가된 사용자는 보기 권한으로 공유하는 작업 영역에 자동으로 추가됩니다.
+* 작업 영역 권한이 없는 레코드 유형 공유 상자에 추가된 사용자는 보기 권한으로 공유하는 작업 영역에 자동으로 추가됩니다.
 
   작업 영역 권한이 기록 유형에 대한 보기 권한보다 높은 권한을 가지고 있지 않은 사용자에게 부여하려면 먼저 작업 영역을 공유해야 합니다. 레코드 유형만 공유하는 경우 레코드 유형에 대한 보기 권한만 받을 수 있으며 보기 권한이 있는 작업 영역에도 추가됩니다. 레코드 유형에 대한 권한을 부여하면 공유 상자에 해당 레코드 또한 작업 공간에 추가된다는 표시가 나타납니다.
 
@@ -128,7 +129,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 
 ## 레코드 종류에 대한 권한 공유
 
-생성한 레코드 유형이나 관리 권한이 있는 레코드 유형을 Workfront Planning의 사용자, 그룹, 팀, 회사 및 작업 역할과 공유할 수 있습니다.
+작업 공간에 대한 관리 권한이 있는 경우 작업 공간의 개별 레코드 유형에 대한 권한을 조정할 수 있습니다.
 
 {{step1-to-planning}}
 
@@ -145,7 +146,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 다음 옵션 중 하나를 선택합니다. <!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
 
    * **초대된 사람만 액세스할 수 있습니다**: 보기를 공유할 사용자, 그룹, 팀, 회사 또는 작업 역할을 지정해야 합니다.
-   * **작업 영역의 모든 사용자가 볼 수 있습니다**: 작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자가 보기에 액세스할 수 있습니다. 기본 옵션입니다.
+   * **작업 영역의 모든 사용자가 볼 수 있습니다**: 작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자가 보기에 액세스할 수 있습니다. 기본 옵션입니다. <!--rewrite this based on what Lilit says in the proof: At this point, once the inherited permissions are disabled, everyone in the workspace except workspace managers will have View permission to the record type because the "Everyone in the workspace can view"  setting cannot be changed. -->
 
 1. (선택 사항) **상속된 권한** 옵션을 확장하여 작업 영역에서 권한을 상속받는 사용자, 팀, 그룹, 회사 또는 작업 역할을 봅니다.
 
@@ -157,7 +158,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 
    1. 상속된 사용 권한을 해제합니다.
    1. **이 레코드 형식에 대한 액세스 권한 부여** 필드에서 다른 권한 수준을 부여할 사용자, 팀, 그룹, 회사 또는 작업 역할을 추가합니다.
-1. 권한 수준을 선택합니다.
+   1. 권한 수준을 선택합니다.
 
    >[!IMPORTANT]
    >
@@ -207,6 +208,8 @@ Users who access a link to a record type to which they do not have permissions c
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
 
 ## 레코드 유형에 대한 권한 제거
+
+<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 {{step1-to-planning}}
 

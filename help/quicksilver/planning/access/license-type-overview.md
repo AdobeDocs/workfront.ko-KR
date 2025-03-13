@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -39,41 +39,41 @@ Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [Adob
 
 보기에 액세스하고 관리할 수 있도록 작업 공간에 대해 보유하고 있는 권한 외에 보기에 대한 별도의 권한을 사용자에게 부여해야 합니다.
 
+<!--
 
 <div class="preview">
 
-레코드 유형 권한으로 작업할 때 다음 사항을 고려하십시오.
+Consider the following when working with record type permissions: 
 
-* 사용자는 작업 영역에서 레코드 유형 권한을 자동으로 상속합니다.
-* 사용자가 작업 영역에 대한 관리 권한을 가지고 있으면 레코드 유형에 대해 더 적은 액세스 권한을 가질 수 없습니다.
-* 사용자는 레코드 유형이 속한 작업 영역에 대해 가지고 있는 권한보다 레코드 유형에 대해 더 큰 권한을 가질 수 없습니다.
+* Users automatically inherit record type permissions from workspaces. 
+* When a user has Manage permissions to a workspace, they cannot have a lesser access to record type. 
+* Users cannot have greater permissions to a record type than they have for the workspace the record type belongs to.
 
 </div>
+-->
 
 | Adobe Workfront 라이선스 유형* | Adobe Workfront Planning에서 허용되는 가장 높은 권한 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 표준 | <p>사용자는 작업 영역 <span class="preview">, 레코드 종류, </span> 및 보기를 관리할 수 있습니다. 작업 공간, 레코드 유형, 레코드, 필드 및 보기를 생성, 편집 또는 삭제할 수 있습니다.</p> <br> <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 관리 권한을 가집니다.</p> |
+| 표준 | <p>사용자는 작업 영역 <!--<span class="preview">, record types, </span> --> 및 보기를 관리할 수 있습니다. 작업 공간, 레코드 유형, 레코드, 필드 및 보기를 생성, 편집 또는 삭제할 수 있습니다.</p> <br> <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 관리 권한을 가집니다.</p> |
 | 라이트 또는 기여자 | <p>사용자는 공유된 작업 공간과 해당 작업 공간의 레코드 유형, 레코드 및 필드를 볼 수 있습니다.</p> <br> <p>사용자는 공유된 보기를 볼 수 있지만 자신의 보기를 만들 수는 없습니다. </p><br> <p>사용자는 작업 공간, 레코드 유형, 레코드 또는 필드를 작성, 편집 또는 삭제할 수 없습니다.</p> |
 
 *Workfront Planning은 기존 Workfront 라이선스에 사용할 수 없습니다.
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 
-<!--OLD 
+### 작업 공간에 대한 라이선스 유형 및 권한
 
-| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
-|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|New: Standard <br> or <br>Current: Plan                    | Users can manage workspaces. They can create, edit, or delete workspaces, record types, records, and fields. <br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
-| New: Light, Contributor <br> or <br>Current: Work, Requestor, Reviewer                      | Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces. <br> Users cannot create, edit, or delete workspaces, record types, records, or fields.|
+<!--should we add "record types" in the title above and to this section?-->
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
--->
+표준 라이선스가 있는 사용자만 작업 영역 <!--<span class="preview">and record types</span>-->에 대한 Contribute 또는 Manage 권한을 가질 수 있습니다. 작업 영역 <!--<span class="preview">and record types</span>-->에 대한 Contribute 및 Manage 권한도 레코드 종류, 레코드 및 필드로 전송됩니다.
 
-### 라이선스 유형 및 작업 영역 권한
+<!--take "record types" out from the end of the sentence above when we release record type-level access-->
 
-표준 라이선스가 있는 사용자만 작업 영역 <span class="preview"> 및 레코드 종류</span>에 대한 Contribute 또는 Manage 권한을 가질 수 있습니다. 다른 모든 라이선스 유형을 가진 사용자는 작업 영역 <span class="preview"> 및 레코드 유형 </span>에 대한 보기 권한을 가질 수 있습니다.
+다른 모든 라이선스 유형을 가진 사용자는 레코드 유형, 레코드 및 필드뿐만 아니라 공유된 작업 공간 <!--<span class="preview"> and record types </span> -->에 대한 보기 권한을 가질 수 있습니다.
 
-시스템 관리자는 작성하지 않은 작업 영역까지 시스템의 모든 작업 영역을 볼 수 있습니다.
+<!--take "record types" out from the end of the sentence above when we release record type-level access-->
+
+시스템 관리자는 작성하지 않은 작업 영역을 포함하여 시스템의 모든 작업 영역을 볼 수 있습니다.
 
 <!--does the shot below need to be replaced for record types??-->
 
@@ -88,7 +88,7 @@ Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [Adob
 >![작업 영역의 기여자 사용자에 대한 권한이 회색으로 표시됨](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
-### 라이선스 유형 및 보기 권한
+### 라이선스 유형 및 보기에 대한 권한
 
 Standard 라이선스를 가진 사용자만 보기에 대한 관리 권한을 가질 수 있습니다. 다른 모든 라이선스 유형을 가진 사용자는 공유된 보기에 대한 보기 권한을 가질 수 있습니다.
 
