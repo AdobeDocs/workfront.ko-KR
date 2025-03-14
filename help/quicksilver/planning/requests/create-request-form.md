@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2121'
 ht-degree: 1%
 
 ---
@@ -161,6 +161,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 
 1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 만들기** <span class="preview">또는 **요청 양식 관리**&#x200B;를 클릭합니다(이미 양식이 있고 추가 양식을 만들려면</span>).
+1. <span class="preview">(조건부) 다른 양식을 추가하려면 **새 요청 양식**</span>&#x200B;을 클릭하세요.
 1. 요청 양식 이름을 업데이트합니다. 기본적으로 양식 이름은 **제목 없는 양식**&#x200B;입니다. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (선택 사항) 요청 양식에 대해 **설명**&#x200B;을(를) 추가합니다.
 
@@ -271,7 +272,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
    >[!TIP]
    >
-   ><span class="preview">공유 날짜가 만료되면 Workfront의 요청 영역에서 요청 양식을 더 이상 사용할 수 없습니다.</span>
+   ><span class="preview">공유 날짜가 만료되면 Workfront의 요청 영역에서 요청 양식을 더 이상 사용할 수 없으며 다른 사용자와 공유한 링크에 더 이상 액세스할 수 없습니다.</span>
 
 
 1. <span class="preview">(선택 사항)</span> 양식에 대한 공유 세부 정보를 저장하려면 **링크 저장 및 복사**&#x200B;를 클릭합니다. 양식을 이전에 저장한 경우 **링크 복사**&#x200B;를 클릭합니다.
@@ -300,12 +301,20 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 1. <span class= "preview">요청 양식 테이블을 닫으려면 헤더의 **요청 양식** 왼쪽에 있는 왼쪽 화살표를 클릭합니다.   </span>
 
    <span class= "preview">레코드 종류 페이지가 열립니다. </span>
-1. (선택 사항 및 조건부) 프로덕션 환경에서 헤더의 레코드 형식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 중 하나를 수행합니다.
-   * 요청 양식을 변경하려면 **요청 양식 업데이트**&#x200B;를 클릭하십시오.
-   * **요청 양식에 대한 링크 복사**&#x200B;를 클릭하여 양식에 대한 링크를 다른 사용자와 공유합니다.
+1. (선택 사항 및 조건부) 기존 양식을 편집하려면 사용 중인 환경에 따라 다음 중 하나를 수행하십시오.
 
-1. <span class="preview">(선택 사항 및 조건부) 미리 보기 환경에서 헤더의 레코드 형식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 관리**&#x200B;를 클릭합니다. </span>
+   * 프로덕션 환경에서:
 
-   <span class="preview">요청 양식 표 보기가 열립니다. </span>
-1. <span class="preview">요청 양식을 열어 편집하려면 클릭하세요.</span>
-1. <span class= "preview">(선택 사항) Workfront의 **요청** 영역으로 이동하여 공유 양식을 찾아 요청을 제출합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md).</span>을 참조하십시오.
+      1. 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 후 다음 중 하나를 실행하십시오.
+
+      1. 요청 양식을 변경하려면 **요청 양식 업데이트**&#x200B;를 클릭하십시오.
+      1. **요청 양식에 대한 링크 복사**&#x200B;를 클릭하여 양식에 대한 링크를 다른 사용자와 공유합니다.
+
+   * <span class="preview">미리 보기 환경에서:
+
+      1. 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 관리**&#x200B;를 클릭합니다. </span>
+
+         <span class="preview">요청 양식 표 보기가 열립니다. </span>
+
+      1. <span class="preview">요청 양식을 열어 편집하려면 클릭하세요.</span>
+      1. <span class= "preview">(선택 사항) Workfront의 **요청** 영역으로 이동하여 공유 양식을 찾아 요청을 제출합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md).</span>을 참조하십시오.

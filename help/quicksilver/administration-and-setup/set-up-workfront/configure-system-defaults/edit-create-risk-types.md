@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 2%
+source-wordcount: '581'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,17 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-계획 단계에서 프로젝트에 위험을 추가하여 작업의 승인 전에 잠재적인 장애물을 식별할 수 있습니다. 위험은 프로젝트를 제때 또는 예산 내에서 완성하지 못하게 할 수 있는 가능한 사건이다.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+Adobe Workfront에는 작업의 승인 전에 잠재적인 장애 요소를 식별하기 위해 계획 단계에서 프로젝트와 연결할 수 있는 여러 가지 기본 위험 유형이 있습니다.
+
+위험은 프로젝트를 제때 또는 예산 내에서 완성하지 못하게 할 수 있는 가능한 사건이다.
+
+기본 위험 유형 외에도 조직의 요구 사항을 반영하기 위해 새 위험 유형을 추가할 수 있습니다.
+
+프로젝트에 발생할 수 있는 위험 종류를 식별하기 위해 위험 유형을 프로젝트 위험과 연결할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -55,14 +65,23 @@ ht-degree: 2%
 
 ## 위험 유형
 
-위험 유형은 보고 목적으로 위험을 분류하는 데 사용할 수 있는 레이블입니다. [!DNL Adobe Workfront] 관리자가 **[!UICONTROL 설정]** 영역에서 만듭니다. 위험 유형이 **[!UICONTROL 설정]** 영역에 설정되면 시스템에 범용적입니다. 모든 프로젝트 소유자는 프로젝트에 동일한 위험 유형을 사용할 수 있습니다.
+위험 유형은 보고 목적으로 위험을 분류하는 데 사용할 수 있는 레이블입니다.
+
+[!DNL Workfront] 관리자는 [!UICONTROL **설정**] 영역에서 [!UICONTROL 위험 유형]을 만들 수 있습니다.
+
+위험 유형을 설정한 후에는 시스템에 범용적입니다.
+
+모든 프로젝트 소유자는 프로젝트에 동일한 위험 유형을 사용할 수 있습니다.
 
 ## 위험 유형 편집 및 만들기
 
-기본적으로 일부 위험 유형이 [!DNL Workfront]에 이미 있습니다. 조직의 요구 사항을 반영하기 위해 기존 위험 유형을 편집하거나 새 위험 유형을 만들 수 있습니다.
+기본적으로 일부 위험 유형이 [!DNL Workfront]에 이미 있습니다.
+
+
+Workfront 인스턴스의 위험 유형 수를 개선하기 위해 다음을 수행할 수 있습니다.
 
 * [기존 위험 유형 편집](#edit-existing-risk-types)
-* [새 위험 유형 만들기](#create-new-risk-types)
+* [위험 유형 만들기](#create-risk-types)
 
 ### 기존 위험 유형 편집 {#edit-existing-risk-types}
 
@@ -70,33 +89,61 @@ ht-degree: 2%
 
 1. **[!UICONTROL 위험 유형]**&#x200B;을 클릭하세요.
 1. 편집할 위험 유형을 선택합니다.
-1. **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 편집]** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
+
+   [!UICONTROL **위험 유형 편집**] 상자가 열립니다. <!--add screen shot-->
+
+   >[!TIP]
+   >
+   >   목록에서 위험 유형의 이름 또는 설명을 두 번 클릭하면 위험 유형 정보를 인라인으로 편집할 수 있습니다.
+
 1. (선택사항) 위험 유형의 이름과 설명을 변경합니다.
+
 
    **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]** 필드에는 50자로 제한되어 있습니다.
 
 1. **[!UICONTROL 변경 내용 저장].** 클릭
 
-### 새 위험 유형 만들기 {#create-new-risk-types}
+1. (선택 사항) 위험 유형을 삭제하려면 목록에서 위험 유형을 선택한 다음 [!UICONTROL **삭제**] 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭하고 [!UICONTROL **예, 삭제**]&#x200B;를 클릭합니다. 위험 유형이 삭제되며 복구할 수 없습니다.
 
-기본 위험 유형 외에 새로운 위험 유형을 만들어 조직의 요구 사항을 반영할 수 있습니다.
+1. (선택 사항) 위험 유형 목록을 내보내려면 [!UICONTROL **내보내기**] 아이콘 ![내보내기 아이콘](assets/export-icon.png)을 클릭합니다. 다음 파일 유형으로 내보낼 수 있습니다.
 
-신규 위험 유형을 생성하려면
+   * PDF
+   * Excel
+   * Excel(xlsx)
+   * 탭으로 구분됨
+
+   >[!TIP]
+   >
+   >   먼저 제한된 수의 위험 유형을 선택한 다음 더 작은 목록으로 내보낼 수 있습니다.
+
+
+### 위험 유형 만들기 {#create-risk-types}
+
+기본 위험 유형 외에 위험 유형을 생성할 수 있습니다.
 
 {{step-1-to-setup}}
 
 1. **[!UICONTROL 위험 유형]**&#x200B;을 클릭하세요.
-1. **[!UICONTROL 새 위험 유형]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 새 위험 유형]**&#x200B;을 클릭하여 [!UICONTROL **새 위험 유형**] 상자를 엽니다.
+
+   또는
+
+   위험 유형 목록의 왼쪽 아래에서 [!UICONTROL **위험 유형 추가**]&#x200B;를 클릭하여 위험 유형을 인라인으로 추가합니다. <!--add screen shot-->
 1. 위험 유형에 **[!UICONTROL 이름]**(필수)과 **[!UICONTROL 설명]**(선택 사항)을 입력하십시오.
 
    **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]** 필드에는 50자로 제한되어 있습니다.
 
-1. **[!UICONTROL 위험 유형 만들기]**&#x200B;를 클릭합니다. 인라인 편집을 사용하여 위험 유형을 추가한 경우 완료되면 **[!UICONTROL Enter]**&#x200B;를 클릭하세요.
+1. **[!UICONTROL 위험 유형 만들기]**&#x200B;를 클릭합니다.
 
-   >[!NOTE]
+   또는 인라인 편집을 사용하여 위험 유형을 추가한 경우 완료되면 **[!UICONTROL Enter]**&#x200B;를 클릭하세요.
+
+   >[!TIP]
    >
-   >사용자 지정 위험 유형을 편집해야 하는 경우 이 문서의 [[!UICONTROL 기존 위험 유형 편집]](#edit-existing-risk-types) 섹션을 참조하십시오.
+   >사용자 지정 위험 유형을 편집하려면 이 문서의 [[!UICONTROL 기존 위험 유형 편집]섹션](#edit-existing-risk-types)을 참조하세요.
 
 ## 프로젝트에 위험 유형과 함께 위험 첨부
 
-위험 유형은 프로젝트에 추가된 위험에 레이블을 지정하는 데 사용할 수 있습니다. 프로젝트에 위험을 추가하는 방법에 대한 자세한 내용은 [프로젝트에 대한 위험 만들기 및 편집](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)을 참조하세요.
+위험 유형을 사용하여 프로젝트에 추가된 위험에 레이블을 지정할 수 있습니다.
+
+프로젝트에 위험을 추가하는 방법에 대한 자세한 내용은 [프로젝트에 대한 위험 만들기 및 편집](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)을 참조하세요.
