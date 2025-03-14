@@ -7,14 +7,19 @@ description: 프로젝트 관리자가 작업을 생성하여 프로젝트에 �
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
 
-# 업무 균형자 개요
+# 업무 균형자 개요 {#workload-balancer-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-workload-balancer"
+>title="워크로드 밸런서"
+>abstract="프로젝트 소유자 및 팀 관리자는 업무 균형자 를 사용하여 사용자에게 작업 항목을 할당할 수 있습니다."
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
@@ -30,7 +35,7 @@ ht-degree: 0%
 
 이 문서에서는 업무 균형자의 일반적인 목적과 이를 성공적으로 사용하도록 프로젝트 및 리소스를 설정하는 방법에 대한 몇 가지 모범 사례에 대해 설명합니다.
 
-업무 균형자의 비디오 튜토리얼을 검토하려면 [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) 페이지로 이동하십시오. 왼쪽 메뉴에서 **리소스 관리** > **업무 균형자**&#x200B;를 선택하고 자습서를 선택합니다.
+업무 균형자의 비디오 튜토리얼을 검토하려면 [Workfront 튜토리얼](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) 페이지로 이동하십시오. 왼쪽 메뉴에서 **리소스 관리** > **업무 균형자**&#x200B;를 선택하고 자습서를 선택합니다.
 
 ## 업무 균형자 찾기
 
