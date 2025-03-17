@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 3%
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 도메인 간 환경 프로모션은 현재 지원되지 않습니다. 동일한 도메인에 있는 환경 간에 프로모션해야 합니다.
 
-## Adobe 비즈니스 플랫폼/IMS가 환경 프로모션의 전제 조건입니까?
+## Adobe Business Platform/IMS가 환경 프로모션의 전제 조건입니까?
 
 ### 답변
 
@@ -70,5 +70,4 @@ ht-degree: 3%
 ### 답변
 
 * &quot;기존 사용&quot;은 대상 환경의 기존 오브젝트에 매핑되고 변경을 수행하지 않으므로 &quot;건너뛰기&quot; 또는 배포를 무시하는 것과 동일합니다.
-* 오브젝트를 건너뛰려면 다음을 제거하는 것이 좋습니다.
-프로모션 패키지 또는 소스 환경에서 직접 설치하지 않으려는 모든 객체 개체를 제거한 후 패키지를 다시 어셈블합니다.
+* 오브젝트를 건너뛰려면 프로모션 패키지나 소스 환경에서 직접 설치하지 않으려는 오브젝트를 제거하는 것이 좋습니다. 개체를 제거한 후 패키지를 다시 어셈블합니다.
