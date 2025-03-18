@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: 프로젝트 계획 개요
-description: 프로젝트 계획 개요
+description: 프로젝트가 무엇인지, 범위 및 구조를 설정하는 방법은 물론 일정, 타임라인, 시작 및 완료 날짜와 같은 주요 개념을 알아봅니다.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-프로젝트는 Adobe Workfront의 큰 작업 항목입니다. 프로젝트를 작업과 같이 더 작은 작업 항목인 작업으로 분류할 수 있습니다. 작업은 완료를 책임질 수 있는 사용자 또는 팀에 할당할 수 있습니다. 모든 사용자가 작업을 완료하면 프로젝트도 완료됩니다.
+프로젝트는 Adobe Workfront의 큰 작업 항목입니다. 프로젝트를 더 작은 작업 항목인 작업으로 분류할 수 있습니다. 작업은 완료를 책임질 수 있는 사용자 또는 팀에 할당할 수 있습니다. 모든 사용자가 작업을 완료하면 프로젝트도 완료됩니다.
 
 프로젝트에서 작업을 계획하는 것 외에도 많은 다른 세부 정보가 프로젝트 계획에 들어갑니다. 경제적 영향을 결정하는 것부터 자원 가용성을 고려하는 것까지 관심을 필요로 하는 사업 요소들이 많다.
 
