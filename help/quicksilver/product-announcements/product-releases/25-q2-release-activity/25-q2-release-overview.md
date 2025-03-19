@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 3e9323b42037eec496cf5d1b000f5b91be998e1f
+source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -189,6 +189,12 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 프로젝트의 기존 애자일 보기는 2025년 3월 13일 25.3 릴리스를 통해 Workfront에서 제거됩니다. 보드 아이콘을 클릭하여 프로젝트의 애자일 보기에서 작업을 계속 볼 수 있습니다.
 
 애자일 보기를 사용하는 방법에 대한 자세한 내용은 [애자일 보기에서 프로젝트 관리](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)를 참조하십시오.
+
+#### 향상된 Analytics 사용 중단
+
+사용량이 적고 감소하여 2025년 5월 25일이 있는 주에 Enhanced Analytics 제품을 사용하지 않기로 결정했습니다.
+Data Connect 제품을 대체품으로 고려하는 것이 좋습니다. Data Connect를 사용하면 원하는 비즈니스 인텔리전스 도구를 사용하여 사용자 정의 가능한 유사한 시각화를 구축할 수 있습니다.
+이 사용 중단에 대한 자세한 내용은 [향상된 Analytics 사용 중단 안내서](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)를 참조하십시오.
 
 ## 공지
 
