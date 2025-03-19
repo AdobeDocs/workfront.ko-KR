@@ -4,7 +4,7 @@ description: Adobe Workfront Planning 사용 시 공동 작업을 보장하기 �
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -17,6 +17,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog-->
+
+<!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 # 레코드 유형 공유
 
@@ -196,6 +198,25 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 
 1. 복사한 링크를 다른 사용자와 공유합니다. 링크를 받은 사용자는 활성 사용자여야 하며 레코드 유형 페이지에 액세스하여 선택한 보기에 표시할 수 있도록 Workfront에 로그인해야 합니다.
 
+## 레코드 유형에 대한 권한 제거
+
+{{step1-to-planning}}
+
+1. 공유를 중지할 레코드 종류가 있는 작업 영역을 연 다음 레코드 종류 카드를 클릭합니다. 그러면 레코드 유형 페이지가 열립니다.
+
+1. 보기의 탭에서 레코드 종류의 오른쪽 상단의 **공유**&#x200B;를 클릭합니다.
+
+   **공유** 상자가 열립니다.
+1. 권한을 제거할 사용자, 그룹, 팀, 회사 또는 작업 역할을 찾은 다음 이름 오른쪽에 있는 권한 드롭다운 메뉴를 확장한 다음 **제거**&#x200B;를 클릭합니다. <!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![레코드 형식 공유 드롭다운에서 옵션 제거](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. **저장**&#x200B;을 클릭합니다.
+
+   사람들은 더 이상 레코드 종류에 액세스할 수 없습니다. 작업 영역 권한에서 제거하지 않는 한 작업 영역에 대한 권한이 있을 수 있습니다.
+
+   보기에 액세스하지 못하도록 제거된 사용자에게 더 이상 이 액세스 권한이 없다는 알림이 없습니다.
+
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
@@ -222,25 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
-
-## 레코드 유형에 대한 권한 제거
-
-<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
-
-{{step1-to-planning}}
-
-1. 공유를 중지할 레코드 종류가 있는 작업 영역을 연 다음 레코드 종류 카드를 클릭합니다. 그러면 레코드 유형 페이지가 열립니다.
-
-1. 보기의 탭에서 레코드 종류의 오른쪽 상단의 **공유**&#x200B;를 클릭합니다.
-
-   **공유** 상자가 열립니다.
-1. 권한을 제거할 사용자, 그룹, 팀, 회사 또는 작업 역할을 찾은 다음 이름 오른쪽에 있는 권한 드롭다운 메뉴를 확장한 다음 **제거**&#x200B;를 클릭합니다. <!--check the screen shot below - the UI text for View might not be accurate-->
-
-   ![레코드 형식 공유 드롭다운에서 옵션 제거](assets/remove-option-on-record-type-sharing-drop-down.png)
-
-1. **저장**&#x200B;을 클릭합니다.
-
-   사람들은 더 이상 레코드 종류에 액세스할 수 없습니다. 작업 영역 권한에서 제거하지 않는 한 작업 영역에 대한 권한이 있을 수 있습니다.
-
-   보기에 액세스하지 못하도록 제거된 사용자에게 더 이상 이 액세스 권한이 없다는 알림이 없습니다.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
-source-wordcount: '4333'
+source-wordcount: '4611'
 ht-degree: 1%
 
 ---
@@ -231,7 +231,8 @@ OLD:
    * [제작자](#created-by)
    * [제작 일자](#created-date)
    * [마지막 수정자](#last-modified-by)
-   * [마지막 수정일](#last-modified-date)
+   * [마지막으로 수정한 날짜](#last-modified-date)
+     <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
@@ -248,7 +249,7 @@ OLD:
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **한 줄 텍스트** 필드 형식을 선택합니다.
 
-   ![](assets/single-line-text-field-type.png)
+   ![한 줄 텍스트 필드 형식](assets/single-line-text-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
    * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 형식의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -273,7 +274,7 @@ OLD:
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **단락** 필드 형식을 선택합니다.
 
-   ![](assets/paragraph-field-type.png)
+   ![단락 필드 형식](assets/paragraph-field-type.png)
 
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
@@ -290,7 +291,7 @@ OLD:
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **다중 선택** 필드 형식을 선택합니다.
 
-   ![](assets/multi-select-field-type.png)
+   ![다중 선택 필드 형식](assets/multi-select-field-type.png)
 
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
@@ -319,7 +320,7 @@ OLD:
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **Single-select** 필드 형식을 선택합니다.
 
-   ![](assets/single-select-field-type.png)
+   ![단일 선택 필드 형식](assets/single-select-field-type.png)
 
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
@@ -348,7 +349,7 @@ OLD:
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **날짜** 필드 형식을 선택합니다.
 
-   ![](assets/date-field-type.png)
+   ![날짜 필드 형식](assets/date-field-type.png)
 
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
@@ -377,9 +378,17 @@ OLD:
 
 숫자 필드 유형은 숫자 형식으로 정보를 캡처합니다.
 
+>[!TIP]
+>
+>숫자 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
+>
+>그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 숫자로 표시됩니다.
+>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+
+
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **숫자** 필드 형식을 선택합니다.
 
-   ![](assets/number-field-type.png)
+   ![숫자 필드 형식](assets/number-field-type.png)
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
 
    * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다.
@@ -399,9 +408,17 @@ OLD:
 
 백분율 필드 유형은 숫자 형식 다음에 백분율 기호가 있는 정보를 캡처합니다.
 
+>[!TIP]
+>
+>백분율 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
+>
+>그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 백분율로 표시됩니다.
+>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+
+
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **백분율** 필드 형식을 선택합니다.
 
-   ![](assets/percentage-field-type.png)
+   ![백분율 필드 형식](assets/percentage-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
    * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다.
@@ -431,9 +448,16 @@ OLD:
 
 통화 필드 유형은 앞에 통화 기호가 있는 숫자 형식으로 정보를 캡처합니다.
 
+>[!TIP]
+>
+>통화 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
+>
+>그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 통화로 표시됩니다.
+>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **통화** 필드 형식을 선택합니다.
 
-   ![](assets/currency-field-type.png)
+   ![통화 필드 형식](assets/currency-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
    * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -456,7 +480,7 @@ OLD:
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **확인란** 필드 형식을 선택합니다.
 
-   ![](assets/checkbox-field-type.png)
+   ![확인란 필드 유형](assets/checkbox-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
    * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -473,7 +497,7 @@ OLD:
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **수식** 필드 형식을 선택합니다.
 
-   ![](assets/new-formula-field-with-list-of-expressions.png)
+   ![식 목록이 있는 새 수식 필드](assets/new-formula-field-with-list-of-expressions.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
 
@@ -483,7 +507,7 @@ OLD:
 
 1. 선택한 표현식을 클릭하여 정의를 표시하고 형식을 확인합니다.
 
-   ![](assets/description-of-formula-expression.png)
+   ![수식 설명](assets/description-of-formula-expression.png)
 
    지원되는 식에 대한 자세한 내용은 [수식 필드 개요](/help/quicksilver/planning/fields/formula-fields.md)를 참조하세요.
 
@@ -501,7 +525,7 @@ OLD:
    >
    >* 현재 레코드 유형에서 최대 4개의 필드(및 개체)가 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형(1)에 대한 공식 필드를 생성하고 활동이 Workfront 프로젝트(3)에 연결된 캠페인 레코드 유형(2)에 연결된 경우, 활동 레코드 유형에 대해 생성 중인 공식에서 프로젝트의 예산 필드(4)를 참조할 수 있습니다.
    >
-   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >![공식 예제 프로젝트 예산 4개 필드 제거됨 ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. **형식** 필드에서 수식 유형 필드에 표시되는 결과의 형식을 식별하려면 다음 선택 항목 중에서 선택합니다.
@@ -516,7 +540,7 @@ OLD:
      >
      >배열을 표시하는 필드에는 태그를 사용하는 것이 좋습니다. 이 경우 각 배열 멤버는 별도의 태그로 표시됩니다.
 
-     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![선택한 태그가 강조 표시된 수식 필드 형식 목록](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **날짜**: 수식 필드의 결과가 날짜로 표시됩니다.
 
@@ -536,11 +560,15 @@ OLD:
 
 >[!TIP]
 >
->인력 필드에 사용자 이름을 추가하면 해당 사용자 이름과 기본 작업 역할이 필드에 표시됩니다.
+>* 인력 필드에 사용자 이름을 추가하면 해당 사용자 이름과 기본 작업 역할이 필드에 표시됩니다.
+>
+>* 사람 필드는 요청 양식 빌더에 참조(또는 연결) 필드 유형으로 표시됩니다.
+>
+>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **사람** 필드 형식을 선택합니다.
 
-   ![](assets/people-field-type.png)
+   ![사람 필드 형식](assets/people-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
    * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다.
@@ -561,7 +589,7 @@ OLD:
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **작성자** 필드 형식을 선택합니다.
 
-   ![](assets/created-by-field-type.png)
+   ![필드 유형별로 생성됨](assets/created-by-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
 
@@ -579,7 +607,7 @@ OLD:
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **만든 날짜** 필드 형식을 선택합니다.
 
-   ![](assets/created-date-field-type.png)
+   ![만든 날짜 필드 형식](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -612,7 +640,7 @@ OLD:
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **마지막으로 수정한 사람** 필드 형식을 선택합니다.
 
-   ![](assets/last-modified-by-field-type.png)
+   ![마지막으로 수정한 사람 필드 형식](assets/last-modified-by-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
 
@@ -630,7 +658,7 @@ OLD:
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **만든 날짜** 필드 형식을 선택합니다.
 
-   ![](assets/last-modified-date-field-type.png)
+   ![마지막으로 수정한 날짜 필드 형식](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -656,6 +684,52 @@ OLD:
 1. Click **Create**.
 
    새 마지막 수정 날짜 유형 필드가 레코드 유형에 열로 추가되고 해당 값은 레코드가 마지막으로 수정된 날짜(또는 날짜 및 시간)로 미리 채워집니다.
+
+<!--
+
+## Object field type
+
+You can use the Object field type when you need to store several fields that might include several pieces of information. For example, you can store the source, code, error message, or details of an object in one field. In this case, instead of having several separate single-line text fields for that, you can use an Object field to store all information in one place. 
+
+For example, when using an Object-type field, you can store the following type of information: 
+
+```
+"{
+""source"": ""string"",
+""code"": ""string"",
+""subCode"": ""string"",
+""message"": ""string"",
+""details"": ""string""
+}"
+
+```
+
+You can also store an array of values in one field and you would rather rely on user input for each element of the array, instead of using a multi-select field type for the same purpose. For example, you can store information in the following format: 
+
+`["EMEA", "APAC"] `
+
+Consider the following when using Object-type fields:
+
+* In addition to strings and arrays, you can store other value formats like HTML.
+* There is no format validation for this field. 
+* Object-type fields have a limit of 10,000 characters.
+
+Create an Object field: 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+
+    ![Object field type](assets/object-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+
+1. Click **Create**.
+
+    The new Object-type field is added as a column to the record type.
+
+-->
 
 ## 레코드 유형을 연결하여 필드 만들기
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '2121'
 ht-degree: 1%
@@ -134,7 +134,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
    * 통화, 숫자 및 백분율 필드는 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 
-     그러나 필드 형식은 유지되고 이러한 필드의 숫자 값은 레코드 유형 및 요청 세부 정보 페이지에서 통화, 숫자 및 백분율 값으로 표시됩니다.
+     그러나 필드 형식은 유지되고 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 통화, 숫자 및 백분율로 필드 값이 표시됩니다.
 
 <div class="preview">
 
