@@ -4,7 +4,7 @@ description: Adobe Workfront Planning 사용 시 공동 작업을 보장하기 �
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -243,3 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
    사람들은 더 이상 레코드 종류에 액세스할 수 없습니다. 작업 영역 권한에서 제거하지 않는 한 작업 영역에 대한 권한이 있을 수 있습니다.
 
    보기에 액세스하지 못하도록 제거된 사용자에게 더 이상 이 액세스 권한이 없다는 알림이 없습니다.
+
