@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
+source-git-commit: eb51a0b5f726105d7d25a358fc3546f7a2f27d89
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,21 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Desktop Proofing 뷰어 업데이트 </a></p>[!BADGE In production ]{type=Informative}
+            <p>Desktop Proofing Viewer가 버전 2.1.45로 업데이트되었습니다. 이 업데이트를 통해 뷰어는
+            <ul><li>일렉트론 버전</li><li>Chromium 버전 134</li><ul></p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2025년 3월 20일</li>
+                <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 3월 20일</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
