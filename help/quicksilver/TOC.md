@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 92efd05bc97e2e957825cbe7a5ca6d43ca795d6b
+source-git-commit: 8d8282e095c902c0e6b2f51585ac0d4ac9b1e177
 workflow-type: tm+mt
-source-wordcount: '13071'
+source-wordcount: '13099'
 ht-degree: 2%
 
 ---
@@ -1710,6 +1710,10 @@ ht-degree: 2%
          * [프로젝트 활동 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [프로젝트 트리맵 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [팀 쿼리별 활동](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
+      * Data Connect에 대한 팁, 요령 및 문제 해결{#troubleshooting-data-connect}
+         * [Data Connect에 대한 팁, 요령 및 문제 해결](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
+         * [Tableau Desktop에서 연결을 설정할 수 없음](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
+         * [Power BI 도구는 제공된 암호로 연결할 수 없습니다.](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * 리소스 관리 {#manage-resources}
    * [리소스 관리](resource-mgmt/manage-resources.md)
    * 리소스 관리 {#resource-management}
