@@ -6,9 +6,9 @@ description: 프로젝트 프로세스 및 설정의 변경 사항을 반영하�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '4854'
+source-wordcount: '4877'
 ht-degree: 2%
 
 ---
@@ -1098,7 +1098,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
   승인 프로세스를 작업과 연결하는 방법에 대한 자세한 내용은 [새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)을 참조하십시오.
 
-* 청구 요금
+* 결제 요율
 
   프로젝트의 청구 요율 재정의에 대한 자세한 내용은 [작업 역할 청구 요율 재정의 개요 및 프로젝트의 수익 계산](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
 
@@ -1106,9 +1106,16 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
   경비 추가에 대한 자세한 내용은 [프로젝트 경비 관리](../../../manage-work/projects/project-finances/manage-project-expenses.md)를 참조하십시오.
 
+* 대기열 세부 정보
+
+  프로젝트 또는 템플릿에 큐 세부 정보를 추가하는 방법에 대한 자세한 내용은 [요청 큐 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
+
 * 주제 그룹 및 대기열 주제
 
-  프로젝트 또는 템플릿에 주제 그룹 및 대기열 주제를 추가하는 방법에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
+  프로젝트 또는 템플릿에 주제 그룹 및 대기열 주제를 추가하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
+   * [주제 그룹 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [대기열 주제 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 템플릿의 작업에 다음 항목을 추가할 수 있습니다.
 

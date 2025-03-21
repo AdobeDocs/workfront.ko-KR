@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 0%
+source-wordcount: '625'
+ht-degree: 1%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    보기 또는 작업 영역에 대한 액세스 권한이 없음을 알리는 **액세스 권한이 없습니다** 페이지가 표시됩니다.
 
-   ![](assets/request-access-to-view.png)
+   ![보기에 대한 액세스 권한 요청](assets/request-access-to-view.png)
 
 1. (조건부) 공유 링크가 액세스 권한이 있는 작업 영역의 보기용인 경우 **기존 보기로 열기**&#x200B;를 클릭합니다. 작업공간에 액세스할 수 있는 권한이 있는 경우 기본 보기에서 레코드 유형 페이지가 열립니다.
 
@@ -126,8 +126,8 @@ ht-degree: 0%
 
    보기 또는 작업 공간에 대한 관리 권한이 있는 모든 사용자는 액세스 요청에 대해 다음 알림을 받습니다.
    * 인앱 알림
-     ![](assets/in-app-notification-for-access-request.png)
+     ![액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request.png)
    * 이메일 알림
-     ![](assets/email-notification-for-access-request.png)
+     ![액세스 요청에 대한 전자 메일 알림](assets/email-notification-for-access-request.png)
 
 1. (조건부) 보기 또는 작업 영역 관리자가 보기 또는 작업 영역에 대한 권한을 부여하면 권한이 부여되었음을 확인하는 이메일 알림 및 인앱 알림을 받게 됩니다. <!--check this - I was not able to test this, but Isk confirmed.-->

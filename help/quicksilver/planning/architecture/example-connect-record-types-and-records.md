@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ Product라는 다른 레코드 유형이 있으며 Budget이라는 통화 필드
       * **이미지**: 연결된 레코드의 축소판이나 아이콘만 표시합니다.
    * **조회 필드 선택**: 이 옵션을 선택한 상태로 두면 다음에 **조회 필드 추가** 상자가 열려 제품 필드를 캠페인 레코드 유형과 연결할 수 있습니다. **건너뛰기**&#x200B;를 클릭하여 이 단계를 건너뛰고 나중에 제품 필드를 추가할 수 있습니다.
 
-     ![](assets/new-connection-with-product-record-type.png)
+     ![제품 레코드 종류가 있는 새 연결](assets/new-connection-with-product-record-type.png)
 
 1. (조건부) 이전 단계에서 **조회 필드 선택**&#x200B;을 선택한 경우 **제품** 레코드 유형과 연결된 필드 목록에서 **예산** 필드에 대한 **+** 아이콘을 클릭한 다음 **필드 추가**&#x200B;를 클릭합니다. 이렇게 하면 연결된 필드의 이름인 **Budget(제품 정보에서)**&#x200B;이라는 필드가 만들어집니다. 제품 예산에 대한 모든 정보가 캠페인 레코드에 대한 이 필드에 표시됩니다.
 
-   ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
+   ![레코드 종류 연결에 대한 예산 필드 추가](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
    >[!TIP]
    >
@@ -84,17 +84,17 @@ Product라는 다른 레코드 유형이 있으며 Budget이라는 통화 필드
 
       * **Campaign**: 제품 레코드 형식이 캠페인 레코드 형식에서 연결되어 있음을 나타냅니다.
 
-     ![](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
+     ![제품 레코드 테이블의 캠페인 정보 관계 필드 예](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
 
    >[!TIP]
    >
-   >    연결된 레코드 필드 앞에는 관계 아이콘 ![](assets/relationship-field-icon.png)이(가) 있습니다.
+   >    연결된 레코드 필드 앞에는 관계 아이콘 ![관계 필드 아이콘](assets/relationship-field-icon.png)이(가) 있습니다.
 
 1. **Campaign** 레코드 형식 테이블 보기에서 Campaign 레코드 형식 페이지의 테이블에 새 행을 추가하여 캠페인을 만듭니다.
 
 1. 새 캠페인의 **제품 정보** 열 내부를 두 번 클릭합니다.
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![테이블 보기에서 다른 레코드 작은 상자 연결](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. 다음 중 하나를 수행하십시오.
 
@@ -104,7 +104,7 @@ Product라는 다른 레코드 유형이 있으며 Budget이라는 통화 필드
 
 1. (조건부) 이전 단계에서 **모두 보기**&#x200B;를 클릭한 경우 **개체 연결** 상자가 표시됩니다.
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![레코드에 대해 연결된 개체 테이블](assets/connected-objects-table-for-records.png)
 
 1. 검색 상자에 제품 이름을 입력한 다음 목록에 표시될 때 선택합니다
 
@@ -120,7 +120,7 @@ Product라는 다른 레코드 유형이 있으며 Budget이라는 통화 필드
    * **제품 정보** 필드가 선택한 제품으로 캠페인 레코드에 대해 채워집니다.
    * **예산(제품 정보에서)** 필드는 선택한 각 제품에 대한 예산 값 또는 선택한 제품의 총 예산으로 채워집니다(집계자에 대해 SUM을 선택한 경우).
 
-   ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
+   ![캠페인 레코드 테이블에 대한 제품 정보 및 예산 관계 필드의 예](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ Workfront Planning의 캠페인에 연결된 Workfront 프로젝트의 계획된
    * **이 조건에 맞는 개체만 연결**: **사용자 지정 양식** 드롭다운 메뉴에서 사용자 지정 양식을 선택하십시오. 지정된 양식과 연결된 프로젝트만 캠페인에 연결할 수 있습니다. 여러 양식을 선택할 수 있습니다.
    * **조회 필드 선택**: 이 옵션을 선택한 상태로 두면 프로젝트 필드를 Campaign 레코드 유형과 연결할 수 있도록 **조회 필드 추가** 상자가 다음에 열립니다. **건너뛰기**&#x200B;를 클릭하여 이 단계를 건너뛰고 나중에 프로젝트 필드를 추가할 수 있습니다.
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![Workfront 옵션이 있는 새 연결 탭](assets/new-connection-tab-with-workfront-option.png)
 
 1. (조건부) 이전 단계에서 **조회 필드 선택**&#x200B;을(를) 선택한 경우 **프로젝트** 개체 유형과 연결된 필드 목록에서 **계획된 수익** 필드에 대한 **+** 아이콘을 클릭한 다음 **필드 추가**&#x200B;를 클릭합니다. 이렇게 하면 연결된 필드의 이름인 **계획된 수익(프로젝트 정보)**&#x200B;이라는 필드가 만들어집니다. 프로젝트 계획 수익 필드의 모든 정보는 캠페인 레코드에 대해 이 필드에 자동으로 표시됩니다.
 
@@ -169,7 +169,7 @@ Workfront Planning의 캠페인에 연결된 Workfront 프로젝트의 계획된
    >
    > **SUM** 대신 **없음**&#x200B;을 선택하면 쉼표로 구분된 개별 계획된 수익이 표시됩니다.
 
-   ![](assets/add-planned-revenue-project-field-to-new-connection.png)
+   ![새 연결에 계획된 수익 프로젝트 필드 추가](assets/add-planned-revenue-project-field-to-new-connection.png)
 
    이렇게 하면 다음 필드가 생성됩니다.
 
@@ -180,13 +180,13 @@ Workfront Planning의 캠페인에 연결된 Workfront 프로젝트의 계획된
 
    >[!TIP]
    >
-   >    연결된 개체 필드 앞에는 관계 아이콘 ![](assets/relationship-field-icon.png)이(가) 있습니다.
+   >    연결된 개체 필드 앞에는 관계 아이콘 ![관계 필드 아이콘](assets/relationship-field-icon.png)이(가) 있습니다.
 
 1. **Campaign** 레코드 형식 테이블 보기에서 테이블에 새 행을 추가하여 캠페인을 만듭니다.
 
 1. 새 캠페인의 프로젝트 정보** 열 내부를 두 번 클릭합니다.
 
-   ![](assets/connect-projects-smaller-box-in-table.png)
+   ![테이블의 작은 상자 연결](assets/connect-projects-smaller-box-in-table.png)
 
 1. 다음 중 하나를 수행하십시오.
 
@@ -196,7 +196,7 @@ Workfront Planning의 캠페인에 연결된 Workfront 프로젝트의 계획된
 
 1. (조건부) 이전 단계에서 **모두 보기**&#x200B;를 클릭한 경우 **개체 연결** 상자가 표시됩니다.
 
-   ![](assets/connect-projects-larger-box.png)
+   ![더 큰 프로젝트 연결](assets/connect-projects-larger-box.png)
 
 1. 검색 상자에 프로젝트 이름을 입력한 다음 목록에 표시될 때 선택합니다
 
@@ -214,7 +214,7 @@ Workfront Planning의 캠페인에 연결된 Workfront 프로젝트의 계획된
       * **프로젝트 정보** 필드가 선택한 프로젝트로 캠페인 레코드에 대해 채워집니다.
       * **제품 정보에서 계획된 수익** 필드가 선택한 각 제품에 대한 예산 값으로 채워집니다. 읽기 전용 필드입니다.
 
-   ![](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
+   ![강조 표시된 캠페인 테이블의 프로젝트 연결 필드 및 계획된 수익](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
    >[!TIP]
    >

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 0%
+source-wordcount: '733'
+ht-degree: 1%
 
 ---
 
@@ -166,14 +166,14 @@ For more information about access requirements, see [Access requirements in Work
 1. (선택 사항) 화면에 표시되는 작업 영역의 수를 제한하려면 **간단히 표시**&#x200B;를 클릭합니다.
 1. 작업 영역을 편집하려면 다음 중 하나를 수행합니다.
 
-   * 작업 영역 카드 위로 마우스를 가져간 다음 카드의 오른쪽 상단에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭합니다
+   * 작업 영역 카드 위로 마우스를 가져간 다음 카드의 오른쪽 상단에 있는 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다
 또는
-   * 작업 영역 카드를 클릭하여 작업 영역을 연 다음 작업 영역 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭합니다.
+   * 작업 영역 카드를 클릭하여 작업 영역을 연 다음 작업 영역 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭합니다.
 1. **편집**&#x200B;을 클릭합니다.
 
    **작업 영역 편집** 상자가 표시됩니다.
 
-   ![](assets/edit-workspace-box.png)
+   ![작업 영역 상자 편집](assets/edit-workspace-box.png)
 
 1. **작업 영역 편집** 상자에서 다음 정보를 업데이트하십시오.
 
@@ -186,16 +186,16 @@ For more information about access requirements, see [Access requirements in Work
 1. (선택 사항) 새 작업 공간 섹션을 추가하려면 다음 중 하나를 수행합니다.
 
    * 작업 영역의 맨 아래에 있는 **섹션 추가**&#x200B;를 클릭합니다.
-   * 구역 이름 위에 마우스를 올려 놓고 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **위에 섹션 추가** 또는 **아래에 섹션 추가**&#x200B;를 클릭합니다.
+   * 섹션 이름 위에 마우스를 올려 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **위에 섹션 추가** 또는 **아래에 섹션 추가**&#x200B;를 클릭합니다.
 
 1. (선택 사항) 섹션의 위치를 변경하려면 다음 중 하나를 수행합니다.
 
-   * 섹션 이름 위로 마우스를 가져간 후 **grab** 아이콘 ![](assets/grab-icon.png)을(를) 클릭한 다음 올바른 위치에 끌어서 놓습니다.
-   * 구역 이름을 마우스로 가리키고 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **위로 이동** 또는 **아래로 이동**&#x200B;을 클릭합니다. 섹션은 작업 영역 내에서 위나 아래로 이동합니다.
+   * 구역 이름을 마우스로 가리키고 **grab** 아이콘 ![Grab 아이콘](assets/grab-icon.png)을 클릭한 다음 올바른 위치에 끌어다 놓습니다.
+   * 구역 이름을 마우스로 가리키고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **위로 이동** 또는 **아래로 이동**&#x200B;을 클릭합니다. 섹션은 작업 영역 내에서 위나 아래로 이동합니다.
 
 1. (선택 사항) 작업 영역 섹션을 삭제하려면 다음을 수행합니다.
 
-   1. 구역 이름을 마우스로 가리킨 다음 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다. <!--add screen shot when UI is final?-->
+   1. 구역 이름을 마우스로 가리킨 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭합니다. <!--add screen shot when UI is final?-->
    1. 새 섹션을 선택하여 모든 레코드 종류를 이동한 다음 **삭제**&#x200B;를 클릭합니다. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       모든 레코드 유형이 선택 섹션으로 이동하고 섹션이 삭제됩니다.
@@ -204,17 +204,17 @@ For more information about access requirements, see [Access requirements in Work
 
    자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
-1. (선택 사항) 레코드 종류 카드 위에 마우스를 올려 놓고 오른쪽 상단의 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭하여 레코드 종류의 모양을 수정합니다.
+1. (선택 사항) 레코드 종류 카드 위에 마우스를 올려 놓고 오른쪽 상단의 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭하여 레코드 종류의 모양을 수정합니다.
 
    자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
 
-1. (선택 사항) 레코드 종류 카드 위에 마우스를 놓고 오른쪽 상단의 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭하여 레코드 종류를 삭제합니다.
+1. (선택 사항) 레코드 종류 카드 위에 마우스를 놓고 오른쪽 상단의 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭하여 레코드 종류를 삭제합니다.
 
    자세한 내용은 [레코드 종류 삭제](/help/quicksilver/planning/architecture/delete-record-types.md)를 참조하세요.
 
 1. (선택 사항) 레코드 유형 카드를 마우스 오른쪽 단추로 클릭하여 새 위치로 끌어서 놓습니다. 한 작업 영역 섹션에서 다른 작업 영역으로 레코드 유형을 끌어다 놓을 수 있습니다.
 
-   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
+   ![작업 영역에서 레코드 형식을 끌어서 놓기](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (선택 사항) 작업 영역의 오른쪽 상단에 있는 **공유**&#x200B;를 클릭하여 다른 사용자와 작업 영역을 공유합니다.
 

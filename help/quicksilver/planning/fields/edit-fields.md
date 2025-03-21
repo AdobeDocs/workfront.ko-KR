@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning에서 이미 생성된 필드의 필드 설정을 편집할 수 있습니다.
+Adobe Workfront Planning에서 기존 필드의 설정을 편집할 수 있습니다.
 
 Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 
@@ -99,72 +99,11 @@ Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 
 +++
 
 
-<!--
-OLD
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access controls for Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
-
 ## 필드 설정 편집에 대한 고려 사항
 
 필드의 구성을 변경하기 전에 다음 사항을 고려해야 합니다.
 
-* 필드가 속한 작업 영역에 대한 관리 권한이 있는 경우 사용자가 만든 필드나 다른 사용자가 만든 필드를 편집할 수 있습니다.
-* 레코드 유형 테이블에서 필드를 편집할 수 있습니다.
+* 레코드 유형 테이블에서만 필드 설정을 편집할 수 있습니다.
 * 레코드 페이지나 테이블 보기 외부의 다른 보기에서는 필드를 편집할 수 없습니다.
 * 필드를 저장한 후에는 필드 유형을 편집할 수 없습니다.
 * 이미 음수 값이 첨부된 레코드에 저장된 경우 숫자, 백분율 또는 통화 필드에 대해 이전에 선택한 음수 허용 설정을 선택 해제할 수 없습니다.
@@ -181,6 +120,12 @@ OLD
   >필드의 구성을 변경할 때 이 데이터 손실이 발생할 수 있다는 경고나 표시는 없습니다.
   >
   >필드 구성이 변경되었다는 알림이 다른 사용자에게 표시되지 않습니다.
+
+* 연결된 레코드에서 기존 조회 필드를 편집할 수 없습니다.
+
+<!--replace he last bullet with thsi: 
+
+* <span class="preview">You can edit existing lookup fields from connected records.</span>-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -207,7 +152,7 @@ OLD
 
    필드의 열 머리글을 두 번 클릭합니다.
 
-   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![강조 표시된 테이블 헤더의 필드 이름 뒤 화살표 메뉴](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. 필드에 대한 정보를 업데이트하고 **저장**&#x200B;을 클릭합니다. <!--insert screen shot when finalized-->
 

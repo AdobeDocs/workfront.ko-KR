@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1541'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
      >
      >작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 링크된 객체 유형의 응용 프로그램에서 자신의 권한 또는 액세스 수준이나 다른 작업 영역에서 본인의 권한에 관계없이 조회 필드에서 정보를 볼 수 있습니다.
 
-     연결된 레코드 필드 앞에는 관계 아이콘 ![](assets/relationship-field-icon.png)이(가) 있습니다.
+     연결된 레코드 필드 앞에는 관계 아이콘 ![관계 필드 아이콘](assets/relationship-field-icon.png)이(가) 있습니다.
 
      연결된 필드 앞에는 필드 유형을 식별하는 아이콘이 표시됩니다. 예를 들어 연결된(또는 조회) 필드 앞에는 필드가 숫자, 단락 또는 날짜임을 나타내는 아이콘이 표시됩니다.
 
@@ -118,7 +118,7 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
 ### 다대다 연결 유형
 
-![](assets/many-to-many-connection-picker.png)
+![다대다 연결 선택기](assets/many-to-many-connection-picker.png)
 
 레코드 유형 간에 다대다 연결을 만들면 두 레코드 유형의 연결 필드에서 여러 레코드를 선택할 수 있습니다.
 
@@ -130,7 +130,7 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
 ### 일대다 연결 유형
 
-![](assets/one-to-many-connection-picker.png)
+![일대다 연결 선택기](assets/one-to-many-connection-picker.png)
 
 
 레코드 유형 간에 일대다 연결을 만들 때 현재 레코드 유형의 연결 필드에서 여러 레코드를 선택할 수 있지만 연결하는 레코드 유형의 해당 연결 필드에서는 하나의 레코드만 선택할 수 있습니다. 두 번째 레코드 유형에서 자동으로 생성된 연결된 레코드 필드는 다대일 관계 유형으로 자동 설정됩니다.
@@ -143,7 +143,7 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
 ### 다대일 연결 유형
 
-![](assets/many-to-one-connection-picker.png)
+![다대일 연결 선택기](assets/many-to-one-connection-picker.png)
 
 
 레코드 유형 간에 다대일 연결을 만들면 현재 레코드 유형의 각 레코드를 연결된 레코드 유형의 레코드와 연결할 수 있습니다. 두 번째 레코드 유형에서 자동으로 생성된 연결된 레코드 필드는 일대다 관계 유형으로 자동 설정됩니다.
@@ -156,7 +156,7 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
 ### 일대일 연결 유형
 
-![](assets/one-to-one-connection-picker.png)
+![일대일 연결 선택기](assets/one-to-one-connection-picker.png)
 
 레코드 종류 간에 일대일 연결을 만들 때 두 레코드 종류 모두에서 각 레코드를 다른 레코드 종류의 레코드로만 연결할 수 있습니다.
 

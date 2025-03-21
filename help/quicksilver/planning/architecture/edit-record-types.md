@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '714'
 ht-degree: 2%
 
 ---
@@ -159,15 +159,15 @@ OLD:
    작업 영역 페이지가 열리고 레코드 유형이 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**을(를) 클릭합니다
+   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**을 클릭합니다
 또는
-   * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 열고 레코드 유형 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
+   * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 열고 레코드 유형 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
-   ![](assets/more-menu-options-from-record-type-card.png)
+   ![레코드 종류 카드의 추가 메뉴 옵션](assets/more-menu-options-from-record-type-card.png)
 
 1. **레코드 종류 편집** 상자에서 기본적으로 **모양** 탭이 열립니다.
 
-   ![](assets/edit-record-type-box-appearance-tab.png)
+   ![레코드 종류 상자 모양 편집 탭 ](assets/edit-record-type-box-appearance-tab.png)
 
    **모양** 탭에서 다음 정보를 업데이트합니다.
 
@@ -179,7 +179,7 @@ OLD:
 
 1. (조건부) 시스템 관리자인 경우 **레코드 종류 편집** 상자에서 **고급 설정** 탭을 클릭합니다.
 
-   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![레코드 종류 상자 고급 설정 탭](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. (조건부) 시스템 관리자는 **고급 설정** 탭에서 다음 정보를 업데이트합니다.
 
@@ -189,10 +189,10 @@ OLD:
 
 1. **저장**&#x200B;을 클릭합니다.
 
-   작업 영역의 레코드 유형 카드에 오른쪽 상단 모서리에 연결 아이콘 ![](assets/connect-from-other-workspaces-icon.png)이(가) 표시되어 이제 다른 작업 영역에서 레코드에 액세스할 수 있음을 나타냅니다.
+   작업 영역의 레코드 유형 카드에 오른쪽 상단의 연결 아이콘 ![다른 작업 영역에서 연결](assets/connect-from-other-workspaces-icon.png)이 표시되어 이제 다른 작업 영역에서 레코드에 액세스할 수 있음을 나타냅니다.
 
 1. (선택 사항) 작업 영역 영역에서 레코드 유형 카드를 클릭하여 레코드 유형의 페이지를 연 다음 헤더에서 레코드 유형의 이름을 변경합니다.
 
 1. (선택 사항) 다른 레코드 유형을 편집하려면 레코드 유형 페이지에서 레코드 유형 이름의 오른쪽에 있는 아래쪽 화살표를 확장하고 레코드 유형을 검색한 다음 목록에 표시될 때 선택합니다.
 
-   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![검색 상자가 있는 레코드 종류 페이지의 레코드 종류 드롭다운](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

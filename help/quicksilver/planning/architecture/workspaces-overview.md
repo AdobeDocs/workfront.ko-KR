@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
-
 
 # 작업 공간 개요
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 작업 영역은 조직 단위에서 사용하는 레코드 유형의 컬렉션이며 해당 단위의 작업 주기 및 프로세스를 나타냅니다. Adobe Workfront Planning에서 작업 공간을 완전히 사용자 정의할 수 있습니다.
 
 
-![](assets/workspaces-landing-page-admin-account.png)
+![작업 영역 랜딩 페이지 관리자 계정](assets/workspaces-landing-page-admin-account.png)
 
 ## 작업 공간에 대한 고려 사항
 
@@ -56,6 +56,3 @@ ht-degree: 0%
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * Workfront Planning 인스턴스에 만들 수 있는 작업 영역 객체의 수에 제한이 있습니다. 자세한 내용은 [Adobe Workfront Planning 개체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md)를 참조하십시오.
-
-
-

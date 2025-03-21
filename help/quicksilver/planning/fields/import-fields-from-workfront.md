@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '709'
 ht-degree: 7%
 
 ---
@@ -169,11 +169,11 @@ ht-degree: 7%
    열 머리글 위로 마우스를 가져간 후 필드 이름 뒤에 있는 아래쪽 화살표를 클릭한 다음 **왼쪽 삽입** 또는 **오른쪽 삽입**&#x200B;을 클릭하여 새 필드를 추가합니다.
 1. **새 필드** 탭의 오른쪽 아래 모서리에 있는 **기존 필드 추가**&#x200B;를 클릭합니다. <!--check UI - did they change this??-->
 
-   ![](assets/add-existing-fields-from-workfront-modal.png)
+   ![Workfront 모달에서 기존 필드 추가](assets/add-existing-fields-from-workfront-modal.png)
 
 1. 검색 영역에서 기존 Workfront 필드의 이름을 입력한 다음 목록에 표시될 때 **+**&#x200B;을(를) 클릭합니다.
 1. (선택 사항) 다른 필드를 입력한 다음 목록에 표시될 때 **+**&#x200B;을(를) 클릭합니다.
-1. (선택 사항) **필터** 아이콘 ![](assets/filters-in-import-fields-icon.png)을(를) 클릭한 후 다음 필드 중 하나 또는 둘 다를 업데이트합니다.
+1. (선택 사항) **필터** 아이콘 ![필드 가져오기의 필터 아이콘](assets/filters-in-import-fields-icon.png)을 클릭한 다음, 다음 필드 중 하나 또는 둘 다를 업데이트합니다.
 
    * 오브젝트 유형: 가져올 필드의 Workfront 오브젝트 유형을 선택합니다.
    * 사용자 정의 양식: Workfront에서 하나 또는 여러 사용자 정의 양식을 선택합니다. 먼저 오브젝트 유형을 선택하지 않고 사용자 정의 양식을 선택할 수 있습니다.

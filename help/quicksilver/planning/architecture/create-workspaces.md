@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 1%
+source-wordcount: '628'
+ht-degree: 2%
 
 ---
 
@@ -176,7 +176,7 @@ For more information about access requirements, see [Access requirements in Work
 
    각 템플릿과 연관된 운영 레코드 유형, 분류 및 필드 수가 표시됩니다.
 
-   ![](assets/previewing-a-workspace-template.png)
+   ![작업 영역 템플릿 미리 보기](assets/previewing-a-workspace-template.png)
 
    Workfront Planning 작업 영역 템플릿에 대한 자세한 내용은 [작업 영역 템플릿 목록](/help/quicksilver/planning/architecture/workspace-templates.md)을 참조하십시오.
 
@@ -201,7 +201,7 @@ For more information about access requirements, see [Access requirements in Work
 
    또는
 
-   섹션의 이름을 마우스로 가리킨 다음 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭하여 섹션의 이름을 변경합니다.
+   섹션의 이름을 마우스로 가리킨 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭하여 섹션의 이름을 변경합니다.
 
    >[!TIP]
    >

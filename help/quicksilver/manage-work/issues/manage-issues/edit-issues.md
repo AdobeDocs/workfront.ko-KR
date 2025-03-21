@@ -8,20 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2522'
 ht-degree: 2%
 
 ---
 
 # 문제 편집
 
+<!--Audited: 03/2025-->
+
 사용자가 귀하와 문제를 공유한 경우 귀하가 만든 문제 또는 다른 사용자가 만든 문제에 대한 정보를 편집할 수 있습니다.
 
 단일 문제를 편집하거나 목록에서 문제를 편집할 수 있습니다. 목록에서 문제를 편집하는 방법에 대한 자세한 내용은 [목록에서 문제 편집](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md)을 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -30,19 +34,21 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>요청 이상</p> <p>작업 또는 프로젝트의 문제 섹션에서 문제를 편집하려면 라이선스 이상을 검토하십시오.</p> </td> 
+   <td> <p>새 라이선스:</p>
+   <ul><li>기여자 이상</li>
+   <li>가볍게 또는 더 높이 - 작업 또는 프로젝트의 문제 섹션에서 문제 편집</li></ul>
+   <p>현재 라이선스:</p>
+  <ul><li>요청 이상</li> <li>검토 이상: 작업 또는 프로젝트의 문제 섹션에서 문제 편집</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준*</td> 
-   <td> <p>문제에 대한 액세스 편집</p> <p><b>메모</b>
-
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. 액세스 수준의 문제에 액세스하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 액세스 권한 부여</a>를 참조하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오. </p> </td>
-</tr> 
+   <td role="rowheader">액세스 수준</td> 
+   <td> <p>문제에 대한 액세스 편집</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
    <td> <p>세부 정보 영역에서 다음 필드를 편집할 수 있는 권한을 문제에 기여합니다. </p>
@@ -56,7 +62,9 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 문제 편집 시 제한 사항
 
@@ -254,14 +262,9 @@ ht-degree: 2%
       <tr> 
       <td role="rowheader">해결됩니다</td> 
       <td>액세스하는 문제가 해결되면 완료되는 문제의 연결된 이름.  </td> 
-     </tr>
-
-
-   </tbody> 
+     </tr> 
+    </tbody> 
    </table>
-
-
-
 
 
 1. **저장**&#x200B;을 클릭하거나 다음 섹션을 계속 편집하십시오.

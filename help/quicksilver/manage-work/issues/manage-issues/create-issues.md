@@ -8,14 +8,16 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
 
 # 문제 만들기
+
+<!--Audited: 03/2025-->
 
 <!--
 
@@ -46,25 +48,29 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>프로젝트 또는 작업에 문제를 추가하려면 검토 이상</p> <p>요청 대기열을 사용하여 문제를 요청으로 추가하려면 요청 이상</p> </td> 
+   <td> <p>새 라이선스:</p>
+   <ul><li>기여자 이상</li>
+   <li>가볍게 또는 더 높이 - 작업 또는 프로젝트의 문제 섹션에서 문제 편집</li></ul>
+   <p>현재 라이선스:</p>
+  <ul><li>요청 이상</li> <li>검토 이상: 작업 또는 프로젝트의 문제 섹션에서 문제 편집</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문제에 대한 액세스 편집</p> <p>프로젝트 및 작업에 대한 보기 또는 상위 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. 액세스 수준의 문제에 액세스하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 액세스 권한 부여</a>를 참조하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오. </p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>문제에 대한 액세스 편집</p> <p>프로젝트 및 작업에 대한 보기 또는 상위 액세스 권한</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제를 만드는 작업 또는 프로젝트에 문제를 추가할 수 있는 기능을 가진 참여자 이상의 권한</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 권한 요청을 참조하십시오.</p> </td> 
+   <td> <p>문제를 만드는 작업 또는 프로젝트에 문제를 추가할 수 있는 기능을 가진 참여자 이상의 권한</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -81,76 +87,30 @@ ht-degree: 0%
 
 ## 새 문제 양식 준비
 
-문제를 기록하는 시기와 방법에 대해 조직이 잘 정의된 프로세스를 갖추고 있어야 합니다. 이 프로세스를 구성할 때 첫 번째 단계는 문제 제출에 필요한 양식을 만드는 것입니다. 문제를 작업 및 프로젝트에 직접 추가하도록 허용할지 또는 문제가 제출된 요청 대기열이 있는 경우 사용자가 새 문제를 제출하고 완료해야 할 때 사용할 수 있는 사용자 정의 필드 및 Workfront 필드를 정의할 수 있습니다. 새 문제 양식에는 문제를 신속하게 해결하는 데 도움이 되는 중요한 정보가 포함될 수 있습니다.
+문제를 기록하는 시기와 방법에 대해 조직이 잘 정의된 프로세스를 갖추고 있어야 합니다. 이 프로세스를 구성할 때 첫 번째 단계는 문제 제출에 필요한 양식을 만드는 것입니다.
 
-프로젝트의 새 문제에 대한 필드는 문제가 기록될 프로젝트의 대기열 세부 정보 섹션에 정의됩니다. 프로젝트의 큐 세부 정보 섹션을 구성하는 방법에 대한 자세한 내용은 [요청 큐 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
+사용자는 다음과 같은 방법으로 프로젝트에 문제를 추가할 수 있습니다.
+
+* 작업 및 프로젝트에 직접 추가합니다.
+* 요청 대기열에 제출합니다.
+
+새 문제 양식에는 문제를 신속하게 해결하는 데 도움이 되는 중요한 정보가 포함될 수 있습니다.
+
+사용자가 프로젝트 또는 해당 작업에 문제를 추가할 때 다음 정보를 포함하도록 새 문제 양식을 구성할 수 있습니다.
+
+* 사용자 정의 필드
+* 승인
+* 지정(공정순서 규칙)
+
+새 문제 또는 요청에 대한 필드는 문제가 기록될 프로젝트의 대기열 세부 정보 섹션에 정의되어 있습니다.
+
+프로젝트의 큐 세부 정보 섹션을 구성하는 방법에 대한 자세한 내용은 [요청 큐 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
 요청 대기열에 문제를 제출하여 문제를 만드는 방법에 대한 자세한 내용은 이 문서의 [새 요청을 입력하여 문제 만들기](#create-issues-by-entering-a-new-request) 섹션을 참조하십시오.
 
 ## 새 문제 버튼을 사용하여 작업 또는 프로젝트에 문제 생성
 
 프로젝트에서 새 문제 양식의 필드를 정의한 후 문제 만들기를 시작할 수 있습니다.
-
-<!-- OLD UI: redesigned on Oct 26, 2023:
-
-Creating issues differs depending on which environment you choose to create the issue. 
-
-### Create issues on a task or project using the New Issue button in the Production environment
-
-To create an issue on a task or a project:
-
-1. Go to a project where you want to create the issue. 
-1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
-1. Click the **Issues** section.
-
-   
-1. Click **New Issue**.
-
-  
-
-1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
-   For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
-
-   ![New issue screen](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
-
-   * If there is only one Queue Topic set on the project, it is displayed automatically.
-   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
-
-1. (Conditional) If the project creator allowed for the **Request Type** field to display on the New Issue form, select the type of your issue from the following options:
-
-   * Bug Report
-   * Change Order
-   * Issue
-   * Request  
-     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you. 
-
-   >[!TIP]
-   >
-   >The Request Types must be enabled in the Queue Details and as well as when creating the Queue Topic to display as a selection in the New Issue form. For information, see the following articles: 
-   >* [Create a Request Queue](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
-
-
-1. Add a name for the new issue in the **Issue Name** field. 
-1. Continue specifying the fields available in the **New Issue** form. For more information about the fields available as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
-
-   >[!IMPORTANT]
-   >
-   >Not all the issue-related fields are available in the New Issue form. The project creator enables the fields available when creating an issue when they define the Queue Details area of the project. For more information, see [Create a Requests Queue](../../requests/create-and-manage-request-queues/create-request-queue.md). 
-
-
-1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the **New Issue** form.  
-   Or  
-   If the project is associated with an issue custom form through the Queue Details area, the form displays in the **New Issue** form, after the default Workfront fields.
-
-   For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-
-1. Click **Save New Issue.**
-
-Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
-
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content:
--->
 
 작업 또는 프로젝트에 문제를 만들려면 다음 작업을 수행하십시오.
 
@@ -247,7 +207,7 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 
 ## 새 요청을 입력하여 문제 만들기 {#create-issues-by-entering-a-new-request}
 
-프로젝트를 문제 수신을 위한 콘센트로 지정할 수 있습니다. 이러한 유형의 프로젝트를 Workfront의 요청 대기열이라고 합니다. 메인 메뉴의 요청 영역을 통해 요청 대기열에 액세스할 수 있습니다.
+프로젝트를 문제 수신을 위한 콘센트로 지정할 수 있습니다. 이러한 유형의 프로젝트를 Workfront의 요청 대기열이라고 합니다. 메인 메뉴의 요청 영역에서 요청 대기열에 액세스할 수 있습니다.
 
 >[!TIP]
 >

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2407'
 ht-degree: 1%
 
 ---
@@ -187,13 +187,13 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
 1. 테이블 보기의 오른쪽 위 모서리에 있는 **+** 아이콘을 클릭한 다음 **새 연결** 탭을 클릭합니다.
 
-   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Workfront AEM 옵션이 있는 새 연결 탭](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. **레코드 종류** 필드에서 레코드 종류를 검색하거나 다음 중 하나를 선택하십시오.
 
    * 현재 작업 공간의 다른 레코드 유형
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![다대다 연결 선택기](assets/many-to-many-connection-picker.png)
 
      >[!TIP]
      >
@@ -210,15 +210,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![여러 레코드를 허용하는 새 연결](assets/new-connection-allow-multiple-records-box.png)
 
    * **Workfront 개체 유형** 섹션의 **프로젝트, Portfolio, 프로그램, 회사** 또는 **그룹**.
 
-     ![](assets/workfront-project-connection-selection.png)
+     ![Workfront 프로젝트 연결 선택](assets/workfront-project-connection-selection.png)
 
    * **Experience Manager Assets 응용 프로그램** 섹션의 **Adobe**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     ![AEM Assets 연결 선택](assets/aem-assets-connection-selection.png)
 
 1. 다음 정보를 업데이트합니다.
 
@@ -233,7 +233,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      이 옵션은 두 개의 다른 작업 영역 또는 레코드와 Adobe Experience Manager 에셋 개체의 레코드를 연결하는 경우에만 사용할 수 있습니다.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![여러 레코드를 허용하는 새 연결](assets/new-connection-allow-multiple-records-box.png)
 
    * **연결 유형**: 다음 옵션 중 하나를 선택하여 연결할 수 있는 레코드 수를 나타냅니다.
 
@@ -244,7 +244,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      이 옵션은 동일한 작업 영역 또는 레코드와 Workfront 개체 유형의 레코드를 연결하는 경우에만 사용할 수 있습니다.
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![다대다 연결 선택기](assets/many-to-many-connection-picker.png)
 
      연결 유형에 대한 자세한 내용은 [연결된 레코드 유형 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
 
@@ -303,7 +303,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    **선택한 필드** 영역에서 필드를 제거하려면 **-** 아이콘을 클릭하십시오.
 
-   ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+   ![다른 레코드 종류 상자에 대한 조회 필드 추가](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
    레코드나 개체를 연결하면 연결된 필드의 값이 자동으로 채워집니다.
 
@@ -328,7 +328,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >    조회 날짜 필드를 추가할 때 타임라인 및 달력 보기의 시작 및 종료 날짜로 필드를 추가할 수 있게 하려면 집계 값을 선택해야 합니다. 예를 들어 조회 날짜 필드에 대한 MAX 또는 최소 집계를 선택할 수 있습니다.
 
-   ![](assets/aggregator-drop-down-for-number-linked-field.png)
+   연결된 숫자 필드에 대한 ![집계 드롭다운](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -358,7 +358,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >* **고유**: $100,000
    >
 
-1. (선택 사항) 필드를 검색하려면 **search** 아이콘 ![](assets/search-icon.png)을(를) 사용하십시오.
+1. (선택 사항) 필드를 검색하려면 **search** 아이콘 ![Search 아이콘](assets/search-icon.png)을(를) 사용하십시오.
 
 1. 변경 내용을 저장하려면 **필드 추가**&#x200B;를 클릭하세요.
 
@@ -385,7 +385,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    * **필드 편집**: 필드의 **이름** 및 **설명** 정보를 업데이트합니다.
    * **조회 필드 편집**: 연결된 레코드의 필드를 추가하거나 제거합니다.
 
-   ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![테이블 열의 필드 및 조회 필드 편집 드롭다운 메뉴](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    조회 필드를 추가하거나 제거하려면 위의 16-17단계에 있는 지침을 따르십시오. <!--ensure these step numbers stay accurate-->
 

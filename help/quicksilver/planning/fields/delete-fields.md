@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -193,7 +193,7 @@ OLD:
 
 1. 열 헤더에서 삭제할 필드를 찾고 열 헤더 위로 마우스를 가져간 다음 필드 이름 뒤에 있는 아래쪽 방향 화살표를 클릭합니다.
 
-   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![강조 표시된 테이블 헤더의 필드 이름 뒤 화살표 메뉴](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. **삭제**&#x200B;를 클릭합니다. <!-- check this: they might replace it with **Delete field**-->
 
