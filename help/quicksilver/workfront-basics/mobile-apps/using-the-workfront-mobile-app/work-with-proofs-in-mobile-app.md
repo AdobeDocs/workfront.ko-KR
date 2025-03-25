@@ -6,9 +6,9 @@ description: 승인이 필요한 증명이 할당되면 모바일 앱의 승인 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >비디오 증명은 모바일 앱에서 열 수 없습니다.
+   >비디오 증명은 iOS 모바일 앱에서만 열 수 있습니다. 이 기능은 Android에서 아직 사용할 수 없습니다.
 
 1. 문서 증명을 검토합니다.
 1. (선택 사항) 문서의 오른쪽 상단에서 ![[!UICONTROL 단일 페이지 아이콘]](assets/mobile-proofpagingicon1-25x36.png)을 선택하여 단일 페이지 보기에서 연속 보기로 변경합니다. 단일 페이지 보기로 다시 변경하려면 ![[!UICONTROL 연속 페이지 아이콘]](assets/mobile-proofpagingicon2-25x25.png)을 선택하세요.
