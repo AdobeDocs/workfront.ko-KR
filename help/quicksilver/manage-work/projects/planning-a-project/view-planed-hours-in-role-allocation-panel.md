@@ -6,9 +6,9 @@ description: 프로젝트의 역할 할당 패널에서 프로젝트의 작업 �
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -107,11 +107,11 @@ ht-degree: 1%
    * **작업**
    * **워크로드 밸런서**
 
-1. **역할 할당 표시** 아이콘 ![](assets/show-role-allocation-icon.png)을 클릭합니다.
+1. **역할 할당 표시** 아이콘 ![역할 할당 표시 아이콘](assets/show-role-allocation-icon.png)을 클릭합니다.
 
    역할 할당 패널이 표시됩니다.
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   계획된 시간만 있는 ![역할 할당 패널](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. **역할 할당** 패널에서 다음 정보를 검토하십시오.
 

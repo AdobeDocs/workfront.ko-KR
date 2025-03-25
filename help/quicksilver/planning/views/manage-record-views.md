@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1459'
 ht-degree: 1%
 
 ---
@@ -252,7 +252,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
    선택한 보기로 새 탭이 만들어집니다.
 
-   화면의 너비에 따라 **자세히** 메뉴 ![](assets/more-menu.png)에 추가 보기가 표시될 수 있습니다.
+   화면의 너비에 따라 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)에 추가 보기가 표시될 수 있습니다.
 
 
 >[!TIP]
@@ -264,7 +264,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 >그렇지 않으면 [타임라인] 및 [달력] 옵션이 흐리게 표시됩니다.
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![레코드 형식 목록의 보기 형식 드롭다운](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (조건부) 타임라인 또는 달력 보기를 만들 때 **다음**&#x200B;을 클릭합니다.
 
@@ -285,10 +285,10 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 1. Click **Create**.
 
    보기가 새 탭으로 표시됩니다. 보기가 만들어지거나 사용자와 공유될 때부터 시간 순서대로 표시됩니다.
-1. (선택 사항) 선택한 레코드 종류의 모든 보기를 표시하려면 마지막 보기 옆의 **자세히** 메뉴 ![](assets/more-caret-down-icon-views.png)을(를) 클릭합니다.
+1. (선택 사항) 선택한 레코드 종류에 대한 모든 보기를 표시하려면 마지막 보기 옆의 **자세히** 메뉴 ![추가 삽입 아래쪽 아이콘 보기](assets/more-caret-down-icon-views.png)를 클릭합니다.
 
    마지막 보기 탭 뒤에 **자세히** 메뉴 아래에 추가 보기가 표시됩니다. **자세히** 메뉴 옆의 숫자는 추가 보기 수를 표시합니다.
-1. (선택 사항) 보기가 만들어진 후 보기의 이름을 바꾸려면 보기 드롭다운 메뉴를 클릭한 다음 **자세히** 메뉴 ![](assets/more-menu.png) > **이름 바꾸기**&#x200B;를 클릭하여 보기 이름을 업데이트합니다
+1. (선택 사항) 보기가 만들어진 후 보기의 이름을 바꾸려면 보기 드롭다운 메뉴를 클릭한 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png) > **이름 바꾸기**&#x200B;를 클릭하여 보기 이름을 업데이트합니다
 
    또는
 
@@ -315,7 +315,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-1. 보기 탭에서 보기 이름 중 하나를 마우스로 가리킨 다음, 보기 이름 왼쪽의 **자세히** ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**를 클릭합니다.
+1. 보기 탭에서 보기 이름 중 하나를 마우스로 가리킨 다음 보기 이름 왼쪽의 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**를 클릭합니다.
 먼저, 삭제할 보기를 찾으려면 마지막 탭 왼쪽에 있는 **자세히**&#x200B;를 클릭해야 할 수 있습니다.
 
 1. 확인하려면 **삭제**&#x200B;를 클릭하세요. <!--ensure there is not another saving step here?!-->
@@ -345,9 +345,9 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
    레코드 유형 페이지가 열립니다.
 기본적으로 선택된 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-1. 복제할 보기의 탭 위로 마우스를 가져간 후 보기 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **복제**&#x200B;를 클릭합니다.
+1. 복제할 보기의 탭 위로 마우스를 가져간 후 보기 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **복제**&#x200B;를 클릭합니다.
 
-   ![](assets/view-more-menu-with-duplicate-option.png)
+   ![중복 옵션으로 더 많은 메뉴 보기](assets/view-more-menu-with-duplicate-option.png)
 
 
    보기가 복제되고 새 보기의 이름이 `Original view's name (Copy)` 패턴을 따릅니다. 새 보기 탭은 모든 보기 탭의 끝에 표시됩니다.
@@ -362,13 +362,13 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 1. (조건부) 선택한 유형의 레코드를 편집하는 다른 사용자가 동시에 있는 경우, 해당 아바타가 보기의 오른쪽 상단에 표시됩니다.
 1. 아바타 옆에 있는 드롭다운 메뉴를 클릭하고 **공동 작업자 표시** 토글을 선택합니다. 기본적으로 토글이 선택됩니다.
 
-   ![](assets/show-collaborators-toggle-selected.png)
+   ![공동 작업자 표시 전환](assets/show-collaborators-toggle-selected.png)
 
 1. (조건부) 표 보기를 열면 다른 사람이 활발하게 편집하고 있는 필드가 표 보기에서 아바타의 윤곽에 해당하는 색으로 강조 표시됩니다.
 
    아바타의 강조 색상이 회색이면 사용자는 30초 이상 전에 레코드 편집을 중지했습니다.
 
-   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![실시간 지표 테이블 필드 및 아바타 연결](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >

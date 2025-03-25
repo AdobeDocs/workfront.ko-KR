@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 1%
 
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 
-1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **요청 양식 업데이트**&#x200B;를 클릭합니다.
+1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 업데이트**&#x200B;를 클릭합니다.
 1. 화면 오른쪽 상단의 **공유**&#x200B;를 클릭한 다음 공유 선택 사항을 업데이트합니다. 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 1. (선택 사항) 요청 양식 공유를 변경하고 새 링크가 있는 새 사용자 그룹에 공유하려면 **링크 복사**&#x200B;를 클릭합니다.
 
@@ -142,10 +142,10 @@ ht-degree: 1%
 
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 
-1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **요청 양식 업데이트**&#x200B;를 클릭합니다.
+1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 업데이트**&#x200B;를 클릭합니다.
 1. 오른쪽 상단의 **게시 취소**&#x200B;를 클릭합니다.
 
-   ![](assets/unpublish-button-highlighted.png)
+   ![게시 취소 단추 강조 표시](assets/unpublish-button-highlighted.png)
 
    양식 게시가 취소되었음을 알리는 확인 메시지가 화면 하단에 표시됩니다.
 

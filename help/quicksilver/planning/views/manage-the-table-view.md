@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 2%
+source-wordcount: '2932'
+ht-degree: 3%
 
 ---
 
@@ -171,7 +171,7 @@ OLD:
 
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 테이블 보기를 만듭니다.
 
-   ![](assets/table-view-example.png)
+   ![테이블 보기 예제](assets/table-view-example.png)
 
 1. (선택 사항) **행 높이**&#x200B;를 클릭한 후 다음 옵션 중에서 선택하여 테이블 행의 높이를 수정합니다.
    * 짧음
@@ -209,7 +209,7 @@ OLD:
 
    * 표의 도구 모음에서 **필드**&#x200B;를 클릭한 다음 원하는 순서로 필드를 끌어다 놓은 다음 **필드 표시 및 순서** 상자 외부를 클릭하여 닫습니다.
 
-     ![](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![필드 설정 테이블 보기 도구 모음 확장](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -224,7 +224,7 @@ OLD:
 
 1. (선택 사항) 테이블의 첫 번째 열에 표시되지 않는 필드의 열 머리글에 있는 필드 이름을 마우스로 가리키고 필드 이름의 오른쪽에 있는 아래쪽 화살표를 클릭한 다음 **기본 필드로 설정**&#x200B;을 클릭합니다.
 
-   ![](assets/set-as-primary-field-option-table-view.png)
+   ![테이블 보기에서 기본 필드 옵션으로 설정](assets/set-as-primary-field-option-table-view.png)
 
 1. 확인하려면 **필드 설정**&#x200B;을 클릭하세요.
 
@@ -253,9 +253,9 @@ OLD:
 
 1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
 
-   1. **검색** 아이콘 ![](assets/search-icon.png)을(를) 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 항목 수가 표시되고 올바른 일치 항목이 있는 필드가 강조 표시됩니다.
+   1. **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 항목 수가 표시되고 올바른 일치 항목이 있는 필드가 강조 표시됩니다.
 
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+      ![테이블 보기에서 결과가 파란색으로 표시된 검색 상자](assets/search-box-with-results-blue-outline-table-view.png)
 
       화면에 표시되는 모든 단어 또는 특수 문자를 사용할 수 있습니다.
 
@@ -284,7 +284,7 @@ OLD:
 
    자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
 
-1. (선택 사항) 한 행에서 하나 이상의 레코드를 선택한 다음 레코드 왼쪽에 **handle** 아이콘 ![](assets/handle-icon.png)을(를) 끌어다 놓아 행 순서를 변경합니다.
+1. (선택 사항) 한 행에서 하나 이상의 레코드를 선택한 다음 레코드 왼쪽에 **handle** 아이콘 ![Handle 아이콘](assets/handle-icon.png)을(를) 끌어다 놓아 행 순서를 변경합니다.
 
    >[!NOTE]
    >
@@ -394,7 +394,7 @@ OLD:
 
    * 선택한 필드의 값을 선택합니다.
 
-   ![](assets/filter-ui-table-view.png)
+   ![UI 테이블 보기 필터링](assets/filter-ui-table-view.png)
 
    추가할 수 있는 필터링 조건 수에는 제한이 없습니다.
 
@@ -408,7 +408,7 @@ OLD:
 
    1. (선택 사항) 여러 조건 그룹화 사이에 **AND** 또는 **OR** 연산자를 더 추가합니다.
 
-      ![](assets/multi-tiered-filters-in-views.png)
+      ![보기의 다중 계층 필터](assets/multi-tiered-filters-in-views.png)
 
    </div>
 
@@ -446,7 +446,7 @@ OLD:
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
 1. 테이블 보기의 오른쪽 위 모서리에서 **그룹화**&#x200B;을 클릭합니다.
 
-   ![](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![연결된 필드가 있는 그룹화 UI 테이블 보기](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;을 클릭하고 다른 필드를 검색한 다음 목록에 표시될 때 해당 필드를 클릭합니다.
 
@@ -456,7 +456,7 @@ OLD:
 
    그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
 
-   ![](assets/grouping-applied-in-table-view.png)
+   ![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)
 
 1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
 
@@ -499,7 +499,7 @@ OLD:
 <!--ungrouped (add this when sorting for groupings will be available-->개의 레코드를 정렬하려면 다음을 수행하십시오.
 
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 테이블 보기를 만듭니다.
-1. 표의 오른쪽 위 모서리에 있는 **정렬** 아이콘 ![](assets/sort-icon.png)을(를) 클릭합니다
+1. 표의 오른쪽 위 모서리에 있는 **정렬** 아이콘 ![정렬 아이콘](assets/sort-icon.png)을 클릭합니다
 
    또는
 
@@ -523,7 +523,7 @@ OLD:
 
 1. 닫으려면 **레코드 정렬 기준** 상자 외부를 클릭합니다.
 
-   ![](assets/sorting-in-table-view.png)
+   ![표 보기에서 정렬](assets/sorting-in-table-view.png)
 
    표에 표시된 정보는 선택한 기준에 따라 정렬됩니다.
 

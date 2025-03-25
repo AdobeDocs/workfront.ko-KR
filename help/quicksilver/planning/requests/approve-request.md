@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -141,20 +141,20 @@ ht-degree: 1%
 
 1. 다음 중 하나를 수행하십시오.
 
-   * Workfront Planning에 대한 액세스 권한이 있고 하나 이상의 작업 영역을 볼 수 있는 경우 화면 오른쪽 상단의 **주 메뉴** ![](assets/dots-menu.png) 또는 사용 가능한 경우 왼쪽 상단의 **주 메뉴** ![](assets/lines-menu.png)을(를) 클릭한 다음 **요청** > **제출됨** > **계획**&#x200B;을 클릭하고 **검토 보류 중** 또는 **검토 중** 상태의 요청을 클릭합니다.
+   * Workfront Planning에 액세스하여 하나 이상의 작업 영역을 볼 수 있는 경우 화면 오른쪽 상단의 **주 메뉴** ![점 주 메뉴](assets/dots-menu.png) 또는 사용 가능한 경우 왼쪽 상단의 **주 메뉴** ![선 주 메뉴](assets/lines-menu.png)를 클릭한 다음 **요청** > **제출됨** > **계획**&#x200B;을 클릭하고 **검토 보류 중** 또는 **검토 중** 상태의 요청을 클릭합니다.
 
      >[!TIP]
      >
      >Workfront Planning에 대한 액세스 권한이 없거나 작업 영역을 볼 수 있는 액세스 권한이 없는 경우 이메일 또는 인앱 알림을 사용하는 승인 요청에만 액세스할 수 있습니다.
 
-   * 화면 오른쪽 상단에 있는 **알림** 영역 아이콘 ![](assets/notifications-area-icon-unified-shell.png)을(를) 클릭하고 승인 보류 중인 요청에 대한 알림을 클릭하여 요청을 엽니다.
+   * 화면 오른쪽 상단에 있는 **알림** 영역 아이콘 ![통합 셸의 알림 영역 아이콘](assets/notifications-area-icon-unified-shell.png)을 클릭하고 승인 보류 중인 요청에 대한 알림을 클릭하여 요청을 엽니다.
    * 승인 보류 중인 요청을 알리는 전자 메일의 전자 메일 알림으로 이동한 다음 **요청 열기**&#x200B;를 클릭하여 요청을 엽니다. <!--add the name of the button here, from the email-->
 
    요청 페이지가 읽기 전용 모드로 열립니다.
 
-   ![](assets/read-only-reqeust-page-in-review-status.png)
+   ![검토 상태의 읽기 전용 요청 페이지](assets/read-only-reqeust-page-in-review-status.png)
 
-1. (선택 사항) 승인자를 보려면 요청의 오른쪽 상단에 있는 **승인** 아이콘 ![](assets/approvals-icon.png)을(를) 클릭합니다.
+1. (선택 사항) 승인자를 보려면 요청의 오른쪽 상단에 있는 **승인** 아이콘 ![승인 아이콘](assets/approvals-icon.png)을 클릭합니다.
 1. **검토 및 승인**&#x200B;을 클릭한 후 다음 중 하나를 선택하십시오. <!--did they fix the button and removed the &??-->
 
    * **승인**: 요청을 승인합니다. 모든 승인자가 요청을 승인한 후 요청 양식과 연결된 레코드 유형에 대해 레코드가 즉시 만들어집니다.

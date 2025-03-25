@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1878'
 ht-degree: 2%
 
 ---
@@ -184,7 +184,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 * **Workspace**: 특정 조직의 작업 주기를 정의하는 레코드 형식의 컬렉션입니다. 작업 공간은 조직 단위의 작업 프레임입니다.
 
-  ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![페이지 열기 중 레코드 유형 분류법이 있는 마케팅 작업 영역](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
@@ -202,7 +202,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 * **레코드**: 레코드 형식의 인스턴스입니다.
 
-  ![](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![캠페인 레코드 유형 목록에서 강조 표시된 레코드](assets/records-highlighted-in-campaign-record-type-list.png)
 
   작업 영역에 레코드 유형을 추가한 후 레코드 유형의 페이지에 해당 유형의 레코드를 추가할 수 있습니다.
 
@@ -212,7 +212,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 * **Workspace 템플릿**: 미리 정의된 템플릿을 사용하여 작업 영역을 만들 수 있습니다. 템플릿에 있는 미리 정의된 레코드 종류 및 필드를 사용하거나 사용자 고유의 레코드 종류를 추가할 수 있습니다.
 
-  ![](assets/workspaces-page-with-templates-thumbnails.png)
+  ![템플릿 썸네일이 있는 작업 영역 페이지](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning에는 다음 템플릿이 포함되어 있습니다.
 
@@ -226,7 +226,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 * **필드**: 필드는 레코드 형식에 추가할 수 있는 특성입니다. 필드에는 레코드 유형에 대한 정보가 포함됩니다. <!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![](assets/drop-down-list-of-record-fields.png)
+  ![레코드 필드의 드롭다운 목록](assets/drop-down-list-of-record-fields.png)
 
   레코드 필드에 대한 고려 사항:
 
@@ -274,7 +274,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
      레코드 종류를 Experience Manager 개체에 연결하려면 Adobe Experience Manager 라이선스가 있어야 합니다.
 
-     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![Workfront AEM 옵션이 있는 새 연결 탭](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   레코드 종류 간에 연결을 설정한 후에는 개별 레코드나 해당 형식의 개체를 서로 연결할 수 있습니다. 레코드 간의 연결은 연결된 레코드 필드 또는 연결로 표시됩니다.
@@ -283,7 +283,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
   예를 들어 캠페인 레코드 유형을 Workfront 프로젝트 오브젝트 유형과 연결하는 경우, 캠페인 레코드에 연결된 프로젝트의 예산 필드를 표시할 수 있습니다.
 
-  ![](assets/add-lookup-fields-modal.png)
+  ![조회 필드 추가](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
@@ -303,7 +303,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 * **보기**: 레코드가 각 레코드 형식 페이지 아래에 다른 형식의 보기로 표시됩니다.
 
-  ![](assets/view-types-drop-down-from-record-type-list.png)
+  ![레코드 형식 목록의 보기 형식 드롭다운](assets/view-types-drop-down-from-record-type-list.png)
 
   보기에는 필드 목록(열), 레코드 목록(행), 레코드 순서(정렬), 적용 또는 적용 가능한 필터 및 그룹화와 같은 특정 보기 유형의 개인화된 설정이 포함됩니다.
 
@@ -311,14 +311,14 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
    * **테이블 보기**: 연결된 필드와 조회 필드를 포함한 레코드와 해당 필드를 테이블 형식으로 표시합니다. 표의 행은 개별 레코드이고 열은 레코드 필드입니다. 테이블 뷰가 기본 뷰입니다.
 
-     ![](assets/table-view-example.png)
+     ![테이블 보기 예제](assets/table-view-example.png)
 
    * **타임라인 보기**: 날짜 형식 필드가 두 개 이상 있는 레코드를 시간 순서대로 표시합니다. 최대 5개의 연결된 레코드 유형과 해당 레코드를 타임라인 보기에 표시할 수 있습니다.
 
-     ![](assets/grouping-applied-in-timeline-view.png)
+     ![타임라인 보기에서 적용된 그룹화](assets/grouping-applied-in-timeline-view.png)
 
    * **일정 보기**: 날짜 유형 필드가 두 개 이상 있는 레코드를 일정 형식으로 표시합니다.
-     ![](assets/calendar-view-example.png)
+     ![달력 보기 예](assets/calendar-view-example.png)
 
 
 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하십시오.
@@ -333,11 +333,11 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 
 {{step1-click-main-menu}}
 
-1. **계획** ![](assets/planning-icon.png)을 클릭합니다.
+1. **계획** ![계획 아이콘](assets/planning-icon.png)을 클릭합니다.
 
    Workfront Planning 기본 페이지가 열립니다.
 
-   ![](assets/planning-landing-page-admin.png)
+   ![랜딩 페이지 관리자 계획](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >

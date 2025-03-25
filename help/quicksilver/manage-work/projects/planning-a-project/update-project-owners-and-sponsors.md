@@ -6,9 +6,9 @@ description: Adobe Workfront에서 프로젝트를 만들면 프로젝트의 프
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Adobe Workfront에서 프로젝트를 만들면 프로젝트의 프로젝트 소
 
    프로젝트 소유자 는 프로젝트 헤더 및 프로젝트 세부 정보 영역에서 업데이트됩니다.
 
-   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![강조 표시된 프로젝트 이해 당사자 소유자](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## 프로젝트의 프로젝트 스폰서 업데이트
 
@@ -131,4 +131,4 @@ Adobe Workfront에서 프로젝트를 만들면 프로젝트의 프로젝트 소
 
    프로젝트 스폰서는 프로젝트 세부 정보 영역에서 업데이트됩니다.
 
-   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![프로젝트 관련자 스폰서 강조 표시](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

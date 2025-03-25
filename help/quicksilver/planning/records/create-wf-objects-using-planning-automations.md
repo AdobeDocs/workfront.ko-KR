@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1811'
 ht-degree: 2%
 
 ---
@@ -200,7 +200,7 @@ Workfront Planning의 레코드 유형 페이지에서 자동화를 구성하고
    선택한 레코드 유형에 대한 연결된 필드는 자동화를 구성하는 원본 레코드 유형에도 생성됩니다.
 1. (선택 사항 및 조건부) Workfront 개체를 만들도록 선택했지만 선택한 Workfront 개체 유형에 대한 연결 필드가 없는 경우 &lt; Workfront 개체 유형 이름 > 이 만들어지는 **연결된 필드 오른쪽에 있는 물음표 아이콘을 클릭하고** **추가** 아이콘을 클릭하여 연결 필드를 추가합니다![연결 필드 만들기 아이콘](assets/create-a-connection-field-icon.png).
 
-   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   ![Workfront에서 자동화에 연결된 필드를 추가하는 물음표 아이콘](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
 
    새 필드가 자동으로 만들어지고 이름이 **연결됨 &lt; Workfront 개체 이름 >**&#x200B;으로 지정됩니다. 예를 들어 레코드에 대해 포트폴리오 연결 필드를 만들 경우 해당 필드를 &quot;연결된 포트폴리오&quot;라고 합니다.
 

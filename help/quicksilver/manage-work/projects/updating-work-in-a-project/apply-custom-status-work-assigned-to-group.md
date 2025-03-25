@@ -6,9 +6,9 @@ description: 프로젝트가 그룹과 연결된 경우 시스템 수준 상태�
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    >**그룹** 드롭다운 메뉴에서 다른 그룹을 선택하면 **상태** 메뉴의 사용자 지정 상태가 자동으로 변경되어 새 그룹과의 상관 관계를 만듭니다.
    >
    >
-   >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![프로젝트에 대한 사용자 지정 상태로 상태 드롭다운이 확장됨](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
    >
 
 1. 프로젝트의 상태를 선택합니다. 해당 그룹에 작성 및 적용한 사용자 정의 상태가 목록에 표시됩니다.

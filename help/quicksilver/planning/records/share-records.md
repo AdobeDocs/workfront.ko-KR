@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
@@ -196,9 +196,9 @@ For more information see the following articles:
 
    또는
 
-   레코드 이름 위에 마우스를 올려 놓고 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **링크 복사**&#x200B;를 클릭합니다.
+   레코드 이름 위에 마우스를 올려 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **링크 복사**&#x200B;를 클릭합니다.
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![레코드 행의 상황에 맞는 메뉴](assets/contextual-menu-for-record-row.png)
 
    링크가 클립보드에 복사됩니다.
 

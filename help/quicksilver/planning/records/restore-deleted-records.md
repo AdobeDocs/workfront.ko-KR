@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -109,11 +109,11 @@ Adobe Workfront Planning의 최근에 삭제된 영역에서 삭제된 레코드
 ## 삭제된 레코드 복원
 
 1. 레코드를 삭제한 레코드 유형 페이지로 이동합니다.
-1. 레코드 종류 페이지 보기의 오른쪽 상단에 있는 **실행 취소** 아이콘 ![](assets/undo-icon.png)을(를) 클릭한 다음 **최근에 삭제됨**&#x200B;을(를) 클릭합니다.
+1. 레코드 종류 페이지 보기의 오른쪽 상단에 있는 **실행 취소** 아이콘 ![실행 취소 아이콘](assets/undo-icon.png)을 클릭한 다음 **최근에 삭제됨**&#x200B;을 클릭합니다.
 
    **최근에 삭제됨** 상자가 표시됩니다.
 
-   ![](assets/recently-deleted-box.png)
+   ![최근에 삭제된 상자](assets/recently-deleted-box.png)
 
 1. 삭제할 레코드를 선택한 다음 **복원** > **복원**&#x200B;을 클릭합니다. 두 개 이상의 레코드를 선택할 수 있습니다.
 

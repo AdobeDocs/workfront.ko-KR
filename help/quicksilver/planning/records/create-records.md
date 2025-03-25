@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2418'
 ht-degree: 0%
 
 ---
@@ -233,7 +233,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
         문서 [레코드 만들기에 대한 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)에 설명된 대로 레코드를 6단계부터 추가합니다. <!--ensure this stays accurate-->
 
-      ![](assets/three-ways-to-create-records-choice-modal.png)
+      ![레코드 선택 모달을 만드는 세 가지 방법](assets/three-ways-to-create-records-choice-modal.png)
 
 1. (조건부) **레코드 요청**&#x200B;을 클릭한 경우 다음을 수행하십시오.
 

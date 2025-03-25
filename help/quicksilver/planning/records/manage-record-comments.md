@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 0%
 
    레코드의 **세부 정보** 페이지가 열립니다. 주석(Comments) 영역은 기본적으로 오른쪽 패널에 열립니다.
 
-1. (조건부) 기본적으로 오른쪽 패널이 열리지 않으면 오른쪽 상단의 **댓글 표시** ![](assets/show-comments-icon.png) 아이콘을 클릭하여 [댓글] 섹션을 엽니다.
+1. (조건부) 기본적으로 오른쪽 패널이 열리지 않으면 오른쪽 상단의 **댓글 표시** ![댓글 표시 아이콘](assets/show-comments-icon.png) 아이콘을 클릭하여 [댓글] 섹션을 엽니다.
 
 1. **새 댓글** 상자에 댓글을 입력하세요.
 
@@ -173,8 +173,8 @@ ht-degree: 0%
 
    Workfront Planning 레코드를 포함하여 개체를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
-1. (선택 사항) 댓글의 오른쪽 상단에 있는 **자세히** 아이콘 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭하여 댓글을 삭제합니다.
-1. (선택 사항) **댓글 숨기기** 아이콘 ![](assets/hide-comments-icon.png)을 클릭하여 오른쪽 패널을 닫습니다.
+1. (선택 사항) 댓글의 오른쪽 상단에 있는 **자세히** 아이콘 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭하여 댓글을 삭제합니다.
+1. (선택 사항) **댓글 숨기기** 아이콘 ![댓글 숨기기 아이콘](assets/hide-comments-icon.png)을 클릭하여 오른쪽 패널을 닫습니다.
 
 <!--
       >[!TIP]
@@ -183,9 +183,9 @@ ht-degree: 0%
       >
       >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
       >
-      >![](assets/new-line-indicator-comments.png)
+      >![New line indicator in comments](assets/new-line-indicator-comments.png)
 1. Click **Submit** to add the update to the record. 
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
+1. (Optional) To edit a comment, click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
    >[!IMPORTANT]
    >
    >You can edit your comment only within 15 minutes from submitting it.  
@@ -194,15 +194,15 @@ ht-degree: 0%
       >
       >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
-   ![](assets/search-box-for-comments-area.png)
+   ![Search box for comments](assets/search-box-for-comments-area.png)
 1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
-   ![](assets/new-comments-banner-on-record.png)
+   ![New comments banner on record](assets/new-comments-banner-on-record.png)
 
     Additional comments display at the bottom of the screen.
 1. (Optional) Click the **Like** icon to like an update or acknowledge that you read it. The icon updates with the number of likes.
 1. (Conditional and optional) If you included additional people in your comment, click the avatars of the users included in the update to display a list of users that the comment is shared with. 
-1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
+1. (Optional) Click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
     * **Copy link**: This copies a link to the comment to your clipboard.
     * **Copy body text**: This copies the text of the comment to your clipboard.
     * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 

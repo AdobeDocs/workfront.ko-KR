@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -118,11 +118,11 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
 
    레코드의 미리보기 상자가 열립니다.
 
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을 클릭하여 레코드 페이지를 엽니다.
+1. (선택 사항) 레코드의 페이지를 열려면 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)를 클릭합니다.
 
 1. **세부 정보** 탭을 선택합니다. 기본적으로 세부 정보 탭이 열립니다.
 
-1. 미리 보기 또는 레코드 페이지에서 **내보내기** 메뉴 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭한 후 다음 중 하나를 클릭합니다.
+1. 미리 보기 또는 레코드 페이지에서 **내보내기** 메뉴 ![레코드 세부 정보 페이지의 내보내기 아이콘](assets/export-icon-in-record-details-page.png)을 클릭하고 다음 중 하나를 클릭합니다.
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -131,7 +131,7 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
 
    내보낸 파일의 이름은 레코드의 기본 필드입니다.
 
-   ![](assets/exported-word-file.png)
+   ![내보낸 word 파일](assets/exported-word-file.png)
 
    >[!NOTE]
    >

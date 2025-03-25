@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -160,9 +160,9 @@ OLD:
 
 ## 다른 사용자가 귀하를 댓글에 태그 지정할 때 인앱 알림 관리
 
-1. (조건부) 다른 사용자가 레코드에 있는 댓글에 귀하를 태그 지정한 후 Adobe Experience Cloud의 인앱 **알림** 아이콘 ![](assets/experience-cloud-notifications-icon.png)(으)로 이동합니다.
+1. (조건부) 다른 사용자가 레코드에 있는 댓글에 귀하를 태그 지정한 후 Adobe Experience Cloud의 인앱 **알림** 아이콘 ![Experience Cloud 알림 아이콘](assets/experience-cloud-notifications-icon.png)(으)로 이동합니다.
 
-   ![](assets/in-app-notification-example.png)
+   ![인앱 알림 예](assets/in-app-notification-example.png)
 
 1. 알림을 클릭합니다.
 

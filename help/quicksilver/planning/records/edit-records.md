@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ ht-degree: 0%
    선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
 1. 레코드 행 내부를 클릭하여 인라인 레코드에 대한 정보 편집을 시작합니다.
 
-   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+   ![서식 있는 표 보기로 레코드 단락 필드 편집](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
    >[!TIP]
    >
@@ -226,7 +226,7 @@ ht-degree: 0%
    * 글머리 기호 목록 추가
    * 번호 매기기 목록 추가
 
-   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+   ![단락 필드의 서식 있는 텍스트 도구 모음](assets/rich-text-toolbar-on-paragraph-field.png)
 
 1. (선택 사항) 연결된 레코드 필드를 두 번 클릭하여 연결된 레코드나 개체를 다른 레코드에 추가합니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
 1. 키보드에서 **Enter**&#x200B;를 누르거나 행 바깥쪽을 클릭하여 변경 내용을 저장합니다. 변경 사항은 자동으로 저장됩니다. 변경 내용이 저장되었음을 나타내기 위해 테이블 보기의 오른쪽 위 모서리에 **저장됨** 표시기가 잠시 표시됩니다.
@@ -240,7 +240,7 @@ ht-degree: 0%
    * 한 셀에서 정보를 복사한 다음 여러 셀을 선택하고 동일한 정보를 여러 셀에 붙여넣습니다. 여러 셀을 선택하고 인접한 행과 열의 여러 셀에 동일한 정보를 붙여 넣을 수 있습니다.
    * 복사할 정보가 들어 있는 기존 셀의 오른쪽 아래 모서리를 선택한 다음 동일한 정보를 붙여넣을 인접한 셀에 끌어서 놓습니다. 모든 셀에는 동일한 유형의 정보가 포함되어야 합니다.
 
-     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+     ![표 보기에서 복사 붙여넣기를 위한 오른쪽 아래 모서리 드래그 가능](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    <div class="preview">
 
@@ -293,11 +293,11 @@ ht-degree: 0%
 
    또는
 
-   테이블 보기에서 첫 번째 열의 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png)을(를) 클릭합니다. 레코드의 미리보기가 보기에서 열립니다.
+   테이블 보기에서 첫째 열의 테이블 이름 필드에 있는 **세부 정보 열기** 아이콘 ![세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다. 레코드의 미리보기가 보기에서 열립니다.
 
    <div class="preview">
 
-   ![](assets/details-box.png)
+   ![세부 정보 상자](assets/details-box.png)
 
    </div>
 
@@ -316,11 +316,11 @@ ht-degree: 0%
 
 1. (선택 사항) 레코드에 표지 이미지를 추가하려면 **표지 추가**&#x200B;를 클릭합니다. 자세한 내용은 [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)를 참조하십시오.
 
-1. (선택 사항) 썸네일 아이콘 위로 마우스를 가져간 다음 **자세히** ![](assets/more-menu.png) > **썸네일 편집**&#x200B;을 클릭하여 썸네일 이미지를 추가합니다. 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
+1. (선택 사항) 썸네일 아이콘 위로 마우스를 가져간 다음 **자세히** ![추가 메뉴](assets/more-menu.png) > **썸네일 편집**&#x200B;을 클릭하여 썸네일 이미지를 추가합니다. 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
 
    Workfront은 변경 사항을 자동으로 저장합니다.
 
-1. <span class="preview"> (선택 사항) 레코드의 미리 보기 상자 오른쪽 위에 있는 **실시간 표시기** ![](assets/real-time-indicator-icon.png)을(를) 클릭한 다음 **공동 작업자 표시** 설정을 사용하여 다른 사용자가 편집하고 있는 필드를 실시간으로 강조 표시합니다.
+1. <span class="preview"> (선택 사항) 레코드의 미리 보기 상자 오른쪽 상단에 있는 **실시간 표시기** ![실시간 표시기 아이콘](assets/real-time-indicator-icon.png)을 클릭한 다음 **공동 작업자 표시** 설정을 사용하여 다른 사용자가 편집하고 있는 필드를 실시간으로 강조 표시합니다.
 
    레코드에 동시에 액세스하는 모든 사용자의 이름과 아바타가 이 영역에 표시됩니다.
 
@@ -328,13 +328,13 @@ ht-degree: 0%
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![실시간 표시기가 확장된 레코드 미리 보기 상자](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (선택 사항) 레코드의 세부 정보를 내보내려면 **내보내기** 메뉴 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭합니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
+1. (선택 사항) 레코드의 세부 정보를 내보내려면 **내보내기** 메뉴 ![레코드 세부 정보 페이지의 내보내기 아이콘](assets/export-icon-in-record-details-page.png)을 클릭합니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
 
-1. (선택 사항) 레코드 미리 보기의 오른쪽 위 모서리에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을 클릭하여 새 탭에서 레코드 페이지를 엽니다. 이 문서의 [레코드 페이지에서 레코드 편집](#edit-a-record-from-the-records-page) 섹션에 설명된 대로 레코드를 계속 편집합니다.
+1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을 클릭하여 새 탭에서 레코드 페이지를 엽니다. 이 문서의 [레코드 페이지에서 레코드 편집](#edit-a-record-from-the-records-page) 섹션에 설명된 대로 레코드를 계속 편집합니다.
 
 ### 레코드 페이지에서 레코드 편집
 
@@ -350,15 +350,15 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 모든 보기에서 이 문서의 [보기에서 레코드 미리 보기 편집](#edit-a-record-from-the-records-preview-in-a-view) 섹션에 설명된 대로 레코드의 미리 보기에 액세스한 다음 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
+   * 모든 보기에서 이 문서의 [보기에서 레코드의 미리 보기 편집](#edit-a-record-from-the-records-preview-in-a-view) 섹션에 설명된 대로 레코드의 미리 보기에 액세스한 다음 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을 클릭하여 새 탭에서 레코드의 페이지를 엽니다.
 
-   * **테이블** 보기에서 레코드 이름 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭하고 **보기**&#x200B;를 클릭합니다
+   * **테이블** 보기에서 레코드 이름 위로 마우스를 가져간 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **보기**&#x200B;를 클릭합니다
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![레코드 행의 상황에 맞는 메뉴](assets/contextual-menu-for-record-row.png)
 
      레코드 페이지가 열립니다.
 
-     ![](assets/details-page.png)
+     ![세부 정보 페이지](assets/details-page.png)
 
 1. (선택 사항) 레코드 제목 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭합니다. 레코드의 제목으로 표시되는 필드가 업데이트됩니다.
 
@@ -378,17 +378,17 @@ ht-degree: 0%
 
    또는
 
-   기존 표지 이미지를 마우스로 가리킨 다음 **자세히** 메뉴 ![](assets/more-menu.png) > **업로드**&#x200B;를 클릭하여 레코드에 대한 새 표지 이미지를 추가합니다.
+   기존 표지 이미지를 마우스로 가리킨 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png) > **업로드**&#x200B;를 클릭하여 레코드에 대한 새 표지 이미지를 추가합니다.
 
    자세한 내용은 [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)를 참조하십시오.
 
-1. (선택 사항) 기존 썸네일 또는 **썸네일 아이콘** ![](assets/record-thumbnail-icon-on-details-page.png) 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png) > **썸네일 편집**&#x200B;을 클릭하여 레코드에 대한 썸네일을 추가합니다.
+1. (선택 사항) 기존 썸네일 또는 **썸네일 아이콘** ![세부 정보 페이지의 레코드 썸네일 아이콘](assets/record-thumbnail-icon-on-details-page.png) 위로 마우스를 가져간 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png) > **썸네일 편집**&#x200B;을 클릭하여 레코드에 대한 썸네일을 추가합니다.
 
    자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
 
    Workfront은 변경 사항을 자동으로 저장합니다.
 
-1. <span class="preview"> (선택 사항) 레코드 페이지의 오른쪽 위 모서리에 있는 **실시간 표시기** ![](assets/real-time-indicator-icon.png)을(를) 클릭한 다음 **공동 작업자 표시** 설정을 사용하여 다른 사용자가 편집하고 있는 필드를 실시간으로 강조 표시합니다.
+1. <span class="preview"> (선택 사항) 레코드 페이지의 오른쪽 상단에 있는 **실시간 표시기** ![실시간 표시기 아이콘](assets/real-time-indicator-icon.png)을 클릭한 다음 **공동 작업자 표시** 설정을 사용하여 다른 사용자가 편집하고 있는 필드를 실시간으로 강조 표시합니다.
 
    레코드에 동시에 액세스하는 모든 사용자의 이름과 아바타가 이 영역에 표시됩니다.
 
@@ -396,11 +396,11 @@ ht-degree: 0%
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![실시간 표시기가 확장된 레코드 미리 보기 상자](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (선택 사항) 레코드의 세부 정보를 내보내려면 **내보내기** 메뉴 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭합니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
+1. (선택 사항) 레코드의 세부 정보를 내보내려면 **내보내기** 메뉴 ![레코드 세부 정보 페이지의 내보내기 아이콘](assets/export-icon-in-record-details-page.png)을 클릭합니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
 
 
 ## 계획 섹션의 Workfront 객체에서 레코드 편집

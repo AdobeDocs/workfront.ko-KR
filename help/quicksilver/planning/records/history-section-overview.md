@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 3%
+source-wordcount: '661'
+ht-degree: 4%
 
 ---
 
@@ -114,14 +114,14 @@ ht-degree: 3%
 1. 보기에서 레코드 이름을 클릭합니다.
 
    레코드 페이지가 열립니다. 주석(Comments) 영역은 기본적으로 오른쪽 패널에 열립니다.
-1. **내역 표시** 아이콘 ![](assets/show-history-icon.png)을(를) 클릭합니다. 레코드의 필드에 대한 모든 변경 사항은 가장 최근 것부터 시작하여 오른쪽 패널에 표시됩니다.
-1. (선택 사항) **내역 숨기기** 아이콘 ![](assets/hide-history-icon.png)을 클릭하여 오른쪽 패널을 닫습니다.
+1. **내역 표시** 아이콘 ![내역 표시 아이콘](assets/show-history-icon.png)을 클릭합니다. 레코드의 필드에 대한 모든 변경 사항은 가장 최근 것부터 시작하여 오른쪽 패널에 표시됩니다.
+1. (선택 사항) **내역 숨기기** 아이콘 ![내역 숨기기 아이콘](assets/hide-history-icon.png)을 클릭하여 오른쪽 패널을 닫습니다.
 
 ## 작업 내역 섹션에 대한 고려 사항
 
 레코드 페이지의 오른쪽 패널에 있는 기록 섹션에서 레코드 필드에 대한 변경 사항을 검토할 수 있습니다.
 
-![](assets/history-area-in-comments.png)
+![댓글의 기록 영역](assets/history-area-in-comments.png)
 
 * Workfront Planning은 내역 섹션에 다음 정보를 기록합니다.
 

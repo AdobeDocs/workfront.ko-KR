@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -124,18 +124,18 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 1. 다음 중 하나를 수행하십시오.
 
    * 테이블 보기에서 레코드 이름을 클릭합니다.
-   * 테이블 보기에서 레코드 이름 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭하고 **보기**&#x200B;를 클릭합니다
+   * 테이블 보기에서 레코드 이름 위로 마우스를 가져간 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **보기**&#x200B;를 클릭합니다
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![레코드 행의 상황에 맞는 메뉴](assets/contextual-menu-for-record-row.png)
    * 타임라인 보기에서 레코드 모음을 클릭합니다.
 
    레코드 페이지가 열립니다.
 
-1. 레코드 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭한 다음 다시 **삭제**&#x200B;를 클릭하여 확인합니다.
+1. 레코드 이름의 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭한 다음 다시 **삭제**&#x200B;를 클릭하여 확인합니다.
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   ![레코드 세부 정보 페이지의 추가 메뉴 옵션](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 레코드가 삭제되었습니다.
-1. (선택 사항 및 조건부) 미리 보기 환경에서 레코드를 삭제하는 경우 레코드 페이지의 테이블 보기로 이동하여 보기의 오른쪽 상단에 있는 **실행 취소** 아이콘 ![](assets/undo-icon.png)을(를) 클릭한 다음 **최근에 삭제됨**&#x200B;을(를) 클릭하여 삭제된 레코드를 복구합니다.
+1. (선택 사항 및 조건부) 미리 보기 환경에서 레코드를 삭제하는 경우 레코드 페이지의 테이블 보기로 이동하여 보기의 오른쪽 상단에 있는 **실행 취소** 아이콘 ![실행 취소 아이콘](assets/undo-icon.png)을 클릭한 다음 **최근에 삭제됨**&#x200B;을 클릭하여 삭제된 레코드를 복구합니다.
 
 삭제된 레코드 복구에 대한 자세한 내용은 [삭제된 레코드 복구](/help/quicksilver/planning/records/restore-deleted-records.md)를 참조하십시오.
 
@@ -156,17 +156,17 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 1. 다음 중 하나를 수행하십시오.
 
    * 레코드 행을 마우스 오른쪽 단추로 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
-   * 레코드 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+   * 레코드 이름 오른쪽의 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![레코드 행의 상황에 맞는 메뉴](assets/contextual-menu-for-record-row.png)
 
-   * **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png)을(를) 클릭하여 레코드의 세부 정보가 있는 상자를 열고 레코드 이름 오른쪽에 있는 **자세히** ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+   * **세부 정보 열기** 아이콘 ![테이블 이름 필드의 세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭하여 레코드의 세부 정보가 있는 상자를 열고 레코드 이름 오른쪽에 있는 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
    레코드가 삭제되었습니다.
 
 1. (선택 사항) 다음 중 하나를 수행하여 레코드 삭제를 실행 취소하거나 재실행합니다.
 
-   * **실행 취소** 아이콘 ![](assets/undo-icon.png)을(를) 클릭한 다음 **최근에 삭제됨**&#x200B;을(를) 클릭하여 삭제된 레코드를 복구합니다. 삭제된 레코드 복구에 대한 자세한 내용은 [삭제된 레코드 복구](/help/quicksilver/planning/records/restore-deleted-records.md)를 참조하십시오.
+   * **실행 취소** 아이콘 ![실행 취소 아이콘](assets/undo-icon.png)을 클릭한 다음 **최근에 삭제됨**&#x200B;을 클릭하여 삭제된 레코드를 복구합니다. 삭제된 레코드 복구에 대한 자세한 내용은 [삭제된 레코드 복구](/help/quicksilver/planning/records/restore-deleted-records.md)를 참조하십시오.
    * 다음 키보드 단축키를 사용하여 레코드 삭제를 실행 취소하거나 재실행할 수 있습니다.
 
       * 레코드 삭제를 취소하려면 CTRL+Z(Mac의 경우 ⌘+Z)

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '605'
 ht-degree: 2%
 
 ---
@@ -175,13 +175,13 @@ OLD:
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 이름 위로 마우스를 가져간 다음 레코드 이름과 인라인으로 **자세히** 메뉴를 클릭한 다음 **복제** 아이콘 ![](assets/duplicate-icon-gray.png) 을 클릭합니다.
+   * 레코드 이름 위로 마우스를 가져간 다음 레코드 이름과 인라인으로 **자세히** 메뉴를 클릭한 다음 **복제** 아이콘 ![복제 아이콘 회색](assets/duplicate-icon-gray.png) 을 클릭합니다.
 
-     ![](assets/more-menu-from-record-in-table-view.png)
+     ![표 보기의 레코드에서 메뉴 더 보기](assets/more-menu-from-record-in-table-view.png)
 
-   * 레코드를 선택한 다음 페이지 하단의 도구 모음에서 **복제** 아이콘 ![](assets/duplicate-icon-white-and-blue.png)을(를) 클릭합니다.
+   * 레코드를 선택한 다음 페이지 하단의 도구 모음에서 **복제** 아이콘 ![복제 아이콘 흰색 및 파란색](assets/duplicate-icon-white-and-blue.png)을 클릭합니다.
 
-     ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![테이블 보기의 도구 모음에 있는 중복 아이콘](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    원래 레코드 아래에 이름이 같은 동일한 레코드가 만들어집니다. 새 레코드의 모든 필드는 원래 레코드와 동일한 정보로 채워집니다.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Workfront Planning의 다음 영역에서 AI Assistant를 찾을 수 있습니�
 
 ## 계획 영역에서 AI 지원에 액세스
 
-1. Workfront에 로그인한 다음 화면 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/dots-main-menu.png)을(를) 클릭하거나 사용 가능한 경우 왼쪽 상단의 **주 메뉴** 아이콘 ![](assets/lines-main-menu.png)을(를) 클릭합니다.
+1. Workfront에 로그인한 다음 화면 오른쪽 상단의 **주 메뉴** 아이콘 ![점 주 메뉴](assets/dots-main-menu.png) 또는 사용 가능한 경우 왼쪽 상단의 **주 메뉴** 아이콘 ![선 주 메뉴](assets/lines-main-menu.png)을 클릭합니다.
 
 . **계획**&#x200B;을 클릭합니다. 계획 영역이 열립니다.
 
@@ -88,11 +88,11 @@ Workfront Planning의 다음 영역에서 AI Assistant를 찾을 수 있습니�
 
 1. 전역 탐색 막대에서 화면 오른쪽 위 모서리나 레코드 미리 보기 또는 페이지의 오른쪽 위 모서리에 있는 **AI Assistant 아이콘**&#x200B;을 클릭합니다.
 
-   ![](assets/ai-assistant-icon-highlighted.png)
+   ![AI 길잡이 아이콘](assets/ai-assistant-icon-highlighted.png)
 
 1. 제공된 공간에서 AI Assistant에 대한 명령을 입력한 다음 완료되면 Enter 를 클릭합니다.
 
-   ![](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![빈 명령 상자가 있는 AI 도우미 패널](assets/ai-assistant-panel-with-empty-command-box.png)
 
    예를 들어 다음 중 하나를 입력할 수 있습니다.
 

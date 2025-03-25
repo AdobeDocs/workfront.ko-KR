@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '625'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 ### 답변
 
-이는 Portfolio 상태가 비활성 상태이기 때문에 발생합니다. Portfolio 상태를 변경하려면:
+Portfolio 상태가 비활성 상태이기 때문입니다. Portfolio의 상태를 변경하려면:
 
 1. **Portfolio 세부 정보 > 개요**&#x200B;를 클릭합니다.
 1. **Status**&#x200B;을(를) **Active.**(으)로 변경합니다.
@@ -99,6 +99,6 @@ ht-degree: 1%
 
 Adobe Workfront 관리자가 의 액세스 수준에서 귀하가 속한 회사, 그룹 및 팀만 볼 수 있도록 제한했습니다. 찾고 있는 팀은 귀하가 속한 팀 중 하나가 아닙니다.
 
-![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![소속 팀, 그룹, 회사만 보기](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 사용자가 시스템의 모든 팀을 볼 수 있도록 하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.

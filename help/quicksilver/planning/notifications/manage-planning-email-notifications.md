@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 0%
+source-wordcount: '662'
+ht-degree: 1%
 
 ---
 
@@ -163,7 +163,7 @@ OLD:
 
 1. (조건부 및 선택 사항) 다른 사용자가 레코드에 있는 댓글에 귀하를 태그하면 태그 및 댓글을 알려 주는 이메일 알림으로 이동합니다. 이메일 발신자는 Adobe Experience Cloud입니다.
 
-   ![](assets/email-notification-example.png)
+   ![전자 메일 알림 예](assets/email-notification-example.png)
 
 1. (선택 사항) 전자 메일 내부의 **Workfront** 상자에 있는 메시지를 클릭합니다.
 
@@ -195,6 +195,6 @@ Workfront Planning 알림 관리에 대한 자세한 내용은 [Adobe Workfront 
 
 1. (선택 사항) **요청 열기**&#x200B;를 클릭합니다. 그러면 Workfront Planning에서 요청이 열립니다.
 
-1. 화면 오른쪽 위의 **알림** 아이콘 ![](assets/notifications-area-icon-unified-shell.png)을(를) 클릭하여 **알림** 페이지에 액세스합니다.
+1. 화면 오른쪽 상단의 **알림** 아이콘 ![알림 영역 아이콘 통합 셸](assets/notifications-area-icon-unified-shell.png)을 클릭하여 **알림** 페이지에 액세스합니다.
 
    Workfront Planning 알림 관리에 대한 자세한 내용은 [Adobe Workfront Planning 알림 환경 설정 관리](/help/quicksilver/planning/notifications/manage-notification-preferences.md)를 참조하십시오.

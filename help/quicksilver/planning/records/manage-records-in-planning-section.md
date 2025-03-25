@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1837'
 ht-degree: 1%
 
 ---
@@ -166,12 +166,12 @@ Workfront 객체의 계획 섹션에서 Workfront Planning 레코드를 볼 때�
       * Workfront Planning에 표시되는 연결된 레코드 필드의 이름.
    * 레코드는 해당 작업 공간 및 레코드 유형 아래에 표시됩니다.
 
-   ![](assets/planning-section-on-project.png)
+   ![프로젝트의 계획 섹션](assets/planning-section-on-project.png)
 
 1. (선택 사항) 연결된 레코드가 없는 레코드 종류를 포함하여 연결된 모든 레코드 종류를 표시하려면 **모든 연결 표시**&#x200B;를 클릭합니다. 기본적으로 연결된 레코드가 없는 레코드 유형은 표시되지 않습니다.
 1. 레코드에 대한 자세한 내용을 표시하려면 레코드 카드를 클릭합니다. 레코드 미리 보기 상자가 표시됩니다.
 1. (선택 사항) 레코드의 미리 보기 상자에서 필드 수정을 시작합니다. 변경 사항은 자동으로 저장됩니다.
-1. (선택 사항) 미리 보기 상자의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을(를) 클릭하여 레코드의 세부 정보 페이지를 엽니다. 레코드의 세부 사항 페이지가 Workfront Planning에 열립니다.
+1. (선택 사항) 미리 보기 상자의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭하여 레코드의 세부 정보 페이지를 엽니다. 레코드의 세부 사항 페이지가 Workfront Planning에 열립니다.
 1. (선택 사항) 레코드 카드 위로 마우스를 가져간 다음 레코드 연결 끊기 아이콘 **-**&#x200B;을 클릭한 다음 **연결 끊기**를 클릭합니다.
 다음과 같은 상황이 발생합니다.
    * 레코드가 더 이상 Workfront 개체에 연결되어 있지 않습니다.
@@ -242,7 +242,7 @@ Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를
 
 1. 연결된 레코드를 추가하려면 필드 내부를 클릭하고 목록에서 레코드를 선택하려면 필드 내부의 아래쪽 화살표를 클릭합니다.
 
-   ![](assets/planning-connection-field-on-project-with-record-list-open.png)
+   ![레코드 목록이 열려 있는 프로젝트의 Planning 연결 필드](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
@@ -252,7 +252,7 @@ Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를
    >
    >필드의 개체와 선택한 개체가 일치하지 않음을 나타냅니다.
    >
-   >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
+   >![양식의 지원되지 않는 개체 계획 연결 필드 경고](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
 1. 목록 외부를 클릭하여 닫습니다.
 
@@ -263,13 +263,13 @@ Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를
    * 계획 레코드에 연결된 Workfront 조회 필드의 값은 Workfront Planning에서 채워집니다.
    * <span class="preview">Workfront 또는 그룹 관리자가 사용자 정의 양식을 만들 때 레코드 조회 필드를 추가한 경우 해당 레코드의 조회 필드가 표 보기에 자동으로 채워집니다. Planning 연결 필드의 테이블 보기가 읽기 전용입니다.</span>
 
-     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+     ![프로젝트 세부 정보 사용자 정의 양식의 테이블이 있는 연결 필드 계획](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
 1. (선택 사항) 레코드 이름 <span class="preview">을(를) 클릭하거나 테이블에 있는 레코드 이름을 마우스로 가리킨 다음 Planning 연결 필드의 **레코드 열기** 아이콘 ![Planning 연결 사용자 정의 양식에 있는 레코드 열기 아이콘](assets/open-record-icon-on-planning-connection-custom-form.png)</span>을(를) 클릭하여 Workfront Planning에서 엽니다.
 Workfront Planning 레코드 세부 정보 미리 보기 상자가 열립니다.
 1. 레코드에 대한 정보를 검토하거나 편집하거나 **새 탭에서 열기** 아이콘 ![새 탭에서 레코드 열기](assets/open-details-in-a-new-tab-icon.png)를 클릭하여 레코드 세부 정보 페이지를 엽니다.
 
-1. (선택 사항) Workfront의 사용자 정의 양식에서 레코드의 **제거** 아이콘 ![](assets/remove-icon.png)을(를) 클릭하여 Planning 연결 필드에서 제거하고 Workfront 개체에서 연결을 해제합니다.
+1. (선택 사항) Workfront의 사용자 정의 양식에서 레코드의 **제거** 아이콘 ![제거 아이콘](assets/remove-icon.png)을 클릭하여 Planning 연결 필드에서 제거하고 Workfront 개체에서 연결을 해제합니다.
 Planning 레코드에서 Workfront 개체의 연결이 끊기고 Workfront의 모든 조회 정보가 레코드에서 제거됩니다.
 
 1. **변경 내용 저장**&#x200B;을 클릭하여 사용자 정의 양식과 Workfront 개체에 적용한 다른 변경 내용을 저장합니다.
