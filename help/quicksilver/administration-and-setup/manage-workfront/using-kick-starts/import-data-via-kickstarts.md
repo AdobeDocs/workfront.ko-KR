@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2776'
 ht-degree: 6%
 
 ---
@@ -361,6 +361,10 @@ ht-degree: 6%
    * 사용자 지정 필드(예: 라디오 단추, 확인란 또는 목록)에 여러 데이터 값을 추가해야 하는 경우 환경 설정 탭에 나열된 세로 막대 사용자 지정 데이터 구분 기호 &quot;|&quot;를 사용하여 값을 구분하십시오.
 
      **예:** DE:Departments 열 아래에 A|D를 입력하여 사용자 정의 양식의 부서 A 및 부서 D를 채웁니다.
+
+     >[!NOTE]
+     >
+     >사용자 정의 필드 값을 구분하려면 구분 기호 &quot;|&quot;만 사용하십시오. **setCategoryID**&#x200B;를 포함한 다른 스프레드시트 열에서는 사용할 수 없습니다.
 
 ### 날짜 포함  {#include-dates}
 

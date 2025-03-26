@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Adobe Workfront 관리자는 사용자가 만든 레이아웃 템플릿을 사용해야 하는 사용자, 작업 역할, 팀 또는 그룹에 할당할 수 있습니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td><p>새로운 기능: 표준</p>
   <p> 현재: 플랜</p>
    </td> 
@@ -57,7 +57,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -110,8 +110,8 @@ ht-degree: 0%
 
 ## 많은 사용자가 레이아웃 템플릿에 할당됨
 
-2000명 이상의 사용자에게 할당된 레이아웃 템플릿을 편집하고 변경하면 처음 2000명의 사용자만 레이아웃 템플릿에 유지되고 수행한 변경 사항이 표시됩니다. 레이아웃 템플릿이 다른 모든 템플릿에서 제거됩니다.
-
+<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+-->
 레이아웃 템플릿에 할당할 사용자가 2000명을 초과하는 경우 다음 중 하나를 수행하는 것이 좋습니다.
 
 * 사용자를 그룹 또는 팀으로 구성하고 해당 그룹 또는 팀에 레이아웃 템플릿을 할당합니다. 자세한 내용은 [그룹 만들기](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) 및 [팀 만들기 및 관리](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)를 참조하세요.
