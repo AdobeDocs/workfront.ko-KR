@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '2166'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,45 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 요청을 제출한 후 새 요청을 보기 위한 링크
+
+>[!NOTE]
+>
+>미리 보기: 2025년 3월 27일, 모든 고객을 위한 프로덕션: 2025년 4월 10일
+
+이제 다음 영역에서 제출한 후 즉시 새 요청을 열 수 있습니다.
+
+* 공유 링크에서 액세스 후 요청 양식
+* 새 레코드 또는 레코드 요청 단추의 레코드 유형 페이지
+* 메인 메뉴의 요청 영역
+
+자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
+
+## 자동화를 사용하여 하나의 레코드에서 여러 개체 만들기
+
+>[!NOTE]
+>
+>미리 보기: 2025년 3월 27일, 모든 고객을 위한 프로덕션: 2025년 4월 10일
+
+이제 Workfront Planning에서 자동화를 사용할 때 동일한 Workfront Planning 레코드에서 여러 프로젝트를 만들 수 있습니다. 하나의 자동화를 트리거할 때 여러 프로젝트를 만들고 단일 또는 다중 선택 필드의 값을 기준으로 각 프로젝트를 만들 수 있습니다. 이 기능은 프로젝트를 만드는 데만 사용할 수 있습니다.  Planning에서 자동화를 사용하여 다른 변경 사항을 트리거하거나 다른 유형의 객체를 생성할 수 없습니다.
+
+
+이 개선 이전에는 프로젝트에 대해 구성된 자동화를 트리거할 때마다 프로젝트를 하나만 만들 수 있었습니다.
+
+자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오.
+
+## 조회 필드 이름 바꾸기
+
+>[!NOTE]
+>
+>미리 보기: 2025년 3월 27일, 모든 고객을 위한 프로덕션: 2025년 4월 10일
+
+이제 조회 필드가 연결된 레코드의 테이블에 추가된 후 조회 필드의 정보를 업데이트할 수 있습니다.
+
+이 개선 사항 이전에는 기존 조회 필드를 편집할 수 없었습니다.
+
+자세한 내용은 [필드 편집](/help/quicksilver/planning/fields/edit-fields.md)을 참조하세요.
 
 ## 레코드 유형에서 여러 요청 양식 설정 및 관리
 

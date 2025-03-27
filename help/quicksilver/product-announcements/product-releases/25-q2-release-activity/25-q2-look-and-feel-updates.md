@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
+source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,62 @@ ht-degree: 0%
 이 페이지에서는 2025년 2분기 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트를 설명합니다.
 
 2025년 2분기 릴리스에서 사용 가능한 모든 변경 사항 목록은 [2025년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)를 참조하십시오.
+
+<!--
+
+## Updated experience in the Access Levels area in Setup
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+
+A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+
+-->
+
+## 경비 유형 대화 상자의 룩앤필 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 3월 27일, 모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)
+
+Workfront의 다른 영역 디자인에 맞게 설정 영역에서 경비 유형을 추가 및 편집하기 위한 대화 상자의 모양과 느낌을 업데이트했습니다.
+
+자세한 내용은 [사용자 지정 경비 형식 만들기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)를 참조하세요.
+
+## 위험 유형 편집 상자에 대한 룩앤필 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 3월 27일, 모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)
+
+Workfront의 설정 영역에서 기존 위험 유형을 업데이트할 때 위험 유형 편집 상자의 모양을 업데이트했습니다. 이제 새로운 디자인이 Workfront의 다른 영역과 일치합니다.
+
+자세한 내용은 [위험 유형 편집 및 만들기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)를 참조하십시오.
+
+## 새로운 위험 유형 상자에 대한 룩앤필 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 3월 27일, 모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)
+
+Workfront의 설정 영역에서 새 위험 유형을 추가할 때 새 위험 유형 상자의 모양을 업데이트했습니다. 이제 새로운 디자인이 Workfront의 다른 영역과 일치합니다.
+
+자세한 내용은 [위험 유형 편집 및 만들기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)를 참조하십시오.
+
+## 프로젝트의 대기열 세부 정보 영역 업데이트 확인
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 3월 27일, 모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)
+
+Workfront의 다른 영역 디자인에 맞게 프로젝트의 대기열 세부 정보 영역의 디자인을 업데이트했습니다.
+
+이 업데이트에서는 템플릿의 대기열 세부 정보 영역 모양과 느낌이 변경되지 않았습니다.
+
+자세한 내용은 [요청 큐 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하세요.
 
 ## 아바타가 특정 이메일 알림에 더 이상 표시되지 않음
 
@@ -35,27 +91,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2025년 3월 6일, 모든 고객을 위한 프로덕션 릴리스: 2025년 4월 10일
+>미리보기 릴리스: 2025년 3월 6일, 모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)
 
 Workfront의 다른 영역 디자인에 맞게 설정 영역의 마일스톤 경로 목록의 모양과 느낌을 업데이트했습니다.
 
 자세한 내용은 [마일스톤 경로 만들기](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)를 참조하세요.
-
-## Workfront 캘린더에 대한 디자인 업데이트
-
->[!NOTE]
->
->미리보기 릴리스: 2025년 2월 27일, 모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)
-
-Workfront 캘린더의 모양과 느낌을 Workfront의 다른 영역과 일관된 최신 디자인으로 업데이트했습니다. 현재 Workfront 캘린더와는 다음과 같은 몇 가지 기능 차이점이 있습니다.
-
-* 캘린더에 임시 항목을 추가하는 방법
-* 달력을 만들고 이름을 변경하는 방법
-* 캘린더 작업이 캘린더 이름 옆에 있는 기타 메뉴로 이동되었습니다.
-* 달력 정보를 볼 수 있는 새 사이드 패널
-* 기타
-
-자세한 내용은 [달력](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) 문서를 참조하십시오.
 
 ## 프로젝트 보기에서 프로젝트 마일스톤 경로 보기를 업데이트했습니다.
 

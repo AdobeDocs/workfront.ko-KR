@@ -6,7 +6,8 @@ description: Adobe Workfront은 2022년 4월 6일에 API 버전 19를 출시했�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
+exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
+source-git-commit: 1c1f9f46ea25ffa7d01c1a762b0478a5edb3339e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -522,5 +523,3 @@ TemplateAssignment 개체가 **DATA_EXTENSIBLE** 플래그를 추가했습니다
       </td>
   </tbody>
 </table>
-
-

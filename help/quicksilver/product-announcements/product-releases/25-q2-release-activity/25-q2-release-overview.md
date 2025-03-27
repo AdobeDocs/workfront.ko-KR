@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 90cb8df4735ed7868b15064588ff0b043e972a3f
+source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 
 * [관리자 개선 사항](#administrator-enhancements)
 * [문서 관리 개선 사항](#document-management-enhancements)
+* [모바일 개선 사항](#mobile-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
+* [보고 개선 사항](#reporting-enhacements)
 * [기타 개선 사항](#other-enhancements)
 
 ### 관리자 개선 사항
@@ -73,7 +75,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
                 <li>미리보기 릴리스: 2025년 1월 31일</li>
-                <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 1월 31일</span></li>
+                <span class="preview"><li>모든 고객을 위한 프로덕션 릴리스: 2025년 1월 31일</li></span>
             </ul>
         </td>
     </tr>                          
@@ -86,6 +88,20 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<!--    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            New document approval decision buttons available in proofing viewer</a></p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 27, 2025</li>
+                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+            </ul>
+        </td>
+    </tr>    -->                      
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -97,7 +113,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
                 <li>미리보기 릴리스: 2025년 3월 20일</li>
-                <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 3월 20일</span></li>
+                <span class="preview"><li>모든 고객을 위한 프로덕션 릴리스: 2025년 3월 20일</li></span>
             </ul>
         </td>
     </tr>                          
@@ -111,7 +127,39 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
                 <li>미리보기 릴리스: 2025년 2월 6일</li>
-                <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 3월 13일</span></li>
+                <span class="preview"><li>모든 고객을 위한 프로덕션 릴리스: 2025년 3월 13일</li></span>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### 모바일 개선 사항
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            모바일 앱의 증명 개선 사항(iOS만 해당)</a>[!BADGE In production ]{type=Informative}</p>
+            <p>Adobe Workfront 모바일 앱에서 증명 기능에 대한 몇 가지 개선 사항을 사용할 수 있습니다.
+            <ul>
+            <li>이제 모바일 이메일 애플리케이션 또는 사용자와 공유된 링크에서 증명 파일을 열 수 있습니다. 이전에는 이메일의 링크가 지원되지 않았으며 Workfront 모바일 앱에서 증명에 액세스해야 했습니다.</li>
+            <li>이제 모바일 앱에서 멀티미디어 증명 파일이 지원됩니다.</li>
+            </ul>
+            </p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 해당 사항 없음</li>
+                <span class="preview"><li>모든 고객을 위한 프로덕션 릴리스: 2025년 3월 12일</li> 
+            </ul>
+            <p><b>다음 환경에서 사용할 수 있습니다.</b></p>
+            <ul>
+                <li>iOS 모바일 앱</li>
             </ul>
         </td>
     </tr>                          
@@ -142,6 +190,48 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 </tbody>
 </table>
 
+### 보고 개선 사항
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            이제 Data Connect에서 문서 승인 및 결정 데이터를 사용할 수 있음</a>[!BADGE In production ]{type=Informative}</p>
+            <p>이제 Data Connect에서 문서 승인 및 결정을 위한 데이터에 액세스할 수 있습니다. 이 데이터 세트는 Workfront 문서에서 발생하는 Workfront 증명 기능과 Frame.io 승인의 문서 승인을 연결합니다. 이제 BI 시각화를 통해 지연 승인에 대한 주기 시간, 주기 수 및 타임라인 영향을 설명할 수 있습니다.</p>
+        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2025년 3월 25일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 2025년 3월 25일</li>
+            </ul>
+        </td>
+    </tr>                          
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront 캘린더 업데이트</a></p>
+            <p>Workfront 캘린더의 모양과 느낌을 Workfront의 다른 영역과 일관된 최신 디자인으로 업데이트했습니다. 현재 Workfront 캘린더와는 다음과 같은 몇 가지 기능 차이점이 있습니다.
+            <ul>
+            <li>캘린더에 임시 항목을 추가하는 방법</li>
+            <li>달력을 만들고 이름을 변경하는 방법</li>
+            <li>캘린더 작업이 캘린더 이름 옆에 있는 기타 메뉴로 이동되었습니다.</li>
+            <li>달력 정보를 볼 수 있는 새 사이드 패널</li>
+            <li>기타</li>
+            <ul>        </td>
+        <td>
+            <p><b>다음 날짜에 사용 가능:</b></p>
+            <ul>
+                <li>미리보기 릴리스: 2025년 2월 27일</li>
+                <li>모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)</li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### 기타 개선 사항
 
 <table>
@@ -158,7 +248,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
         <td>
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
-                <li><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2025년 3월 6일</span></li>
+                <span class="preview"><li>모든 고객을 위한 프로덕션 릴리스: 2025년 3월 6일</li></span>
             </ul>
         </td>
     </tr>
@@ -188,7 +278,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
                 <li>미리보기 릴리스: 2025년 2분기 릴리스 일정 전체</li>
-                <li><span class="preview">프로덕션 릴리스: 특정 날짜에 대한 릴리스 정보 검토</span></li>
+                <span class="preview"><li>프로덕션 릴리스: 특정 날짜에 대한 릴리스 정보 검토</li></span>
             </ul>
         </td>
     </tr>
@@ -198,6 +288,13 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 ### Workfront에서 곧 제거될 기능
 
 다음 기능은 곧 Workfront에서 제거될 예정입니다.
+
+#### API 버전 2-15 사용 중단
+
+Workfront 플랫폼을 지속적으로 향상함에 따라 API를 최신 상태로 유지하는 것이 중요합니다. 이를 통해 최적의 성능과 보안을 보장하고 새로운 기능을 지원합니다. 따라서 Workfront API 버전 2-15는 더 이상 사용되지 않습니다.
+
+* **2025년 9월**: 현재 지원되지 않는 API 버전 2-14는 더 이상 사용되지 않습니다. 이 날짜 이후, 이러한 버전은 더 이상 액세스할 수 없습니다.
+* **2025년 12월**: API 버전 15는 더 이상 사용되지 않습니다.
 
 #### 프로젝트에서 기존 애자일 보기를 제거하고 있습니다.
 
