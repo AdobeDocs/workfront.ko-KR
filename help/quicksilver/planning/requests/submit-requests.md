@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,10 @@ ht-degree: 0%
 
 다음 영역에서 Workfront Planning 요청을 제출할 수 있습니다.
 
-* Workfront의 요청 영역 또는 요청 양식에 대한 직접 링크에서. 이 문서에서는 Workfront의 요청 영역 또는 공유 링크에서 레코드 유형에 새 레코드를 추가하도록 요청을 제출하는 방법에 대해 설명합니다.
+* Workfront의 요청 영역에서
+* 공유된 요청 양식에 대한 직접 링크에서.
+
+  이 문서에서는 Workfront의 요청 영역 또는 공유 링크에서 레코드 유형에 새 레코드를 추가하도록 요청을 제출하는 방법에 대해 설명합니다.
 * <span class="preview">레코드 종류 페이지에서 새 레코드를 추가하거나 요청할 때 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).</span>를 참조하세요.
 
 Workfront 사용자와 외부 사용자는 Planning 레코드 유형에 요청을 제출하고 레코드를 생성할 수 있습니다. <!--double check on the external users-->
@@ -212,6 +215,8 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
      >
      >이메일 및 인앱 알림은 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩될 때만 표시됩니다.
 
+   1. (선택 사항) 확인 메시지에서 **요청 보기**&#x200B;를 클릭하여 요청을 열거나 **X** 아이콘을 클릭하여 확인을 닫습니다.
+
 1. (선택 사항) 요청을 보려면 요청 영역에서 **계획** 탭을 클릭한 다음 요청 이름을 클릭합니다.
 
    요청 세부 정보 페이지가 열립니다.
@@ -269,7 +274,13 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
      >
      >이메일 및 인앱 알림은 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩될 때만 표시됩니다.
 
-1. (선택 사항) 요청을 보려면 요청 영역에서 **계획** 탭을 클릭한 다음 요청 이름을 클릭합니다.
+1. <span class="preview">(선택 사항) **요청 보기**&#x200B;를 클릭하여 Workfront에서 요청을 엽니다.</span>
+
+   또는
+
+   <span class="preview">[다른 요청 제출](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)을 클릭하여 요청 양식을 열고 새 요청을 추가합니다. </span>
+
+1. (선택 사항) **기본 메뉴** > **요청** > **계획** 탭을 클릭하여 요청을 확인한 다음 요청 이름을 클릭합니다.
 
    요청 세부 정보 페이지가 열립니다.
 

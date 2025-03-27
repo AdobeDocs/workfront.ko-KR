@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2184'
 ht-degree: 1%
 
 ---
@@ -178,9 +178,11 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    * **기본 섹션**: Workfront이 요청 양식에 적용하는 기본 섹션 구분입니다. 모든 레코드 필드가 **기본 섹션** 영역에 표시됩니다.
    * **제목** 필드: Workfront에서 요청을 식별하는 필드입니다. 제목 필드의 구성 및 값을 편집할 수 없습니다.
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >**제목** 필드는 요청 양식에 표시되면 값이 필요합니다. 그러나 필요한 경우 **제목** 필드를 제거할 수 있으며 요청자가 요청을 제출할 때 양식에 표시되지 않습니다.
+     >* **제목** 필드는 요청 양식에 표시되면 값이 필요합니다. 그러나 필요한 경우 **제목** 필드를 제거할 수 있으며 요청자가 요청을 제출할 때 양식에 표시되지 않습니다.
+     >* 요청 양식에서 제목 필드가 누락되었지만 이후 레코드의 이름에 대한 이름 필드가 있는 경우 요청 이름은 생성된 레코드와 동일한 이름으로 자동 할당됩니다.
+     >* 요청 양식에 제목 필드와 이름 필드가 모두 없으면 `< Record name > request form < Entry date of the request >` 패턴을 사용하여 요청의 이름이 지정됩니다. 레코드의 이름은 **제목 없음**&#x200B;입니다.
 
    * 레코드 유형과 연결된 모든 필드.
 

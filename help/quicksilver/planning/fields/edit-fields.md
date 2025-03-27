@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 필드 설정 편집
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -121,11 +121,10 @@ Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 
   >
   >필드 구성이 변경되었다는 알림이 다른 사용자에게 표시되지 않습니다.
 
-* 연결된 레코드에서 기존 조회 필드를 편집할 수 없습니다.
+* 프로덕션 환경에서는 기존 조회 필드를 편집할 수 없습니다.
+  <span class="preview">미리 보기 환경에서 연결된 레코드의 기존 조회 필드를 편집할 수 있습니다.</span>
 
-<!--replace he last bullet with thsi: 
-
-* <span class="preview">You can edit existing lookup fields from connected records.</span>-->
+<!--at production - April 10, 2025 - remove the last bullet altogether-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -164,7 +163,21 @@ Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 
 
    필드 정보는 작업 영역을 볼 수 있는 액세스 권한이 있는 모든 사용자에 대해 업데이트됩니다.
 
-1. (조건부) 연결된 레코드 필드의 경우 **조회 필드 편집**&#x200B;을 클릭하고 연결된 레코드 형식에서 필드를 추가하거나 제거합니다.
+1. (조건부) 연결된 레코드 필드의 경우 **조회 필드 편집**&#x200B;을 클릭하고 연결된 레코드 형식에서 조회 필드를 추가하거나 제거합니다.
 
    자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
+   >[!TIP]
+   >
+   >연결된 레코드에서 조회 필드를 추가하거나 제거할 수 있지만 조회 필드의 설정을 편집할 수는 없습니다.
+
+
+<!-- replace the TIP above with the one below at Preview, and remove this tip altogether after April 10 Prod release:-->
+
+<!--
+   >[!TIP]
+   >
+   >* In the Production environment, you can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
+   >* <span class="preview">In the Preview environment, you can edit the settings of lookup fields.</span>
+
+-->

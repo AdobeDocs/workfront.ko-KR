@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 3%
+source-wordcount: '658'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 Adobe Workfront에는 작업의 승인 전에 잠재적인 장애 요소를 식별하기 위해 계획 단계에서 프로젝트와 연결할 수 있는 여러 가지 기본 위험 유형이 있습니다.
 
@@ -93,7 +93,9 @@ Workfront 인스턴스의 위험 유형 수를 개선하기 위해 다음을 수
 1. 편집할 위험 유형을 선택합니다.
 1. **[!UICONTROL 편집]** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
-   [!UICONTROL **위험 유형 편집**] 상자가 열립니다. <!--add screen shot-->
+   <span class="preview">위험 유형 [!UICONTROL **편집**] 상자가 열립니다.</span>
+
+   ![위험 유형 편집 상자](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
@@ -126,11 +128,18 @@ Workfront 인스턴스의 위험 유형 수를 개선하기 위해 다음을 수
 {{step-1-to-setup}}
 
 1. **[!UICONTROL 위험 유형]**&#x200B;을 클릭하세요.
+
 1. **[!UICONTROL 새 위험 유형]**&#x200B;을 클릭하여 [!UICONTROL **새 위험 유형**] 상자를 엽니다.
 
    또는
 
-   위험 유형 목록의 왼쪽 아래에서 [!UICONTROL **위험 유형 추가**]&#x200B;를 클릭하여 위험 유형을 인라인으로 추가합니다. <!--add screen shot-->
+   위험 유형 목록의 왼쪽 아래에서 [!UICONTROL **위험 유형 추가**]&#x200B;를 클릭하여 위험 유형을 인라인으로 추가합니다.
+
+   <span class="preview">새 위험 유형 **2} 상자가 열립니다. <span>**
+
+   ![새 위험 유형 상자](assets/new-risk-type-box.png)
+
+
 1. 위험 유형에 **[!UICONTROL 이름]**(필수)과 **[!UICONTROL 설명]**(선택 사항)을 추가하십시오.
 
    **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]** 필드에는 50자로 제한되어 있습니다.
