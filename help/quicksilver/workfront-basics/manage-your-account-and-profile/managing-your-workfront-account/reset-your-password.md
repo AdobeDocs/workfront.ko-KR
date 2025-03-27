@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 암호를 재설정할 수 있습니다. �
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 00930d520a6421a33ebe7c4842b59b9df514080b
+source-git-commit: 0df2a474fe1c29faca580088289d04ce9d1ef7f5
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -77,11 +77,10 @@ ht-degree: 1%
 
 1. 기존 암호를 입력한 다음 원하는 새 암호를 두 번 입력합니다.
 
-   암호는 8자 이상이어야 하며 다음 문자 유형 중 2개를 포함해야 합니다.
+   암호는 최소 8자여야 하며 다음 문자 유형 중 2가지를 포함해야 합니다.
 
    * 대문자
    * 소문자
-   * 편지
    * 숫자
    * 특수 문자(예: ! @ # $ %)
 
