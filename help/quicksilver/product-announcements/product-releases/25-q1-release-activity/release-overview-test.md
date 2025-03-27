@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 4ab8fede74c9e2ec5d374b0766445a2c23430777
+source-git-commit: 8e90b7c3bcc75be75ccec7ae5ee8e0d88b190426
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 2%
+source-wordcount: '541'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,6 @@ ht-degree: 2%
 
 ### 관리자 개선 사항
 
-월별 릴리스: 11월 14일, 12월 12일. 1월 15일 | 분기별 릴리스: 1월
 <table style="table-layout:auto">
   <tbody>
     <tr>
@@ -60,7 +59,7 @@ ht-degree: 2%
         </td>
         <td>2024년 11월 21일</td>
         <td>2024년 12월</td>
-        <td>2024년 1월 (25.1)</td>
+        <td>2024년 1월</td>
     </tr>     
     <tr>
         <td>
@@ -88,11 +87,13 @@ ht-degree: 2%
 
 
 
-<!--
-### Functionality soon to be removed from Workfront
 
-The following functionality is soon to be removed from Workfront:
--->
+### Workfront에서 곧 제거될 기능
+
+다음 기능은 곧 Workfront에서 제거될 예정입니다.
+
+* 고급 Analytics
+
 
 ## 기타 영역에 대한 릴리스 노트
 
