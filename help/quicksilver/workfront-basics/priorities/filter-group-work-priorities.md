@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
+source-git-commit: fbe5373ebe1c73db656384da8a339d0983215e4e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -93,8 +93,9 @@ ht-degree: 4%
       <td>준비 안 됨</td>
       <td>다음과 같은 항목이 있는 항목 표시
        <ul>
-      <li>항목이 작업되지 않도록 하는 불완전한 전임 작업 또는 작업 제한</li>
+      <li>항목이 작업되지 않도록 하는 불완전한 전임 작업 또는 작업 제한</li></ul>
       <p>또는</p>
+      <ul>
       <li>2주 이상 후의 계획된 시작 일자</li>
       </ul>
        </td>

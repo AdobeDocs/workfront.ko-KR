@@ -5,7 +5,7 @@ description: 가시성을 높이고, 조직을 개선하고, 보다 신속하게
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: b42028c7f4934d7d2538e078372dd32262232729
+source-git-commit: e8a3f47a33b862a29000436d7c08c1a0e9371907
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
