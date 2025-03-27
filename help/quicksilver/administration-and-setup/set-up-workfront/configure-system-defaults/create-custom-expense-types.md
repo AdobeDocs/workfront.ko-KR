@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 4%
@@ -16,6 +16,8 @@ ht-degree: 4%
 ---
 
 # 사용자 정의 경비 유형 만들기
+
+{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -57,7 +59,7 @@ ht-degree: 4%
 
 ## 기본 경비 유형
 
-기본적으로 [!DNL Workfront]에 있는 경비 형식은 삭제하거나 편집할 수 없습니다.
+[!DNL Workfront]에서 삭제하거나 편집할 수 없는 기본 경비 유형은 다음과 같습니다.
 
 * [!UICONTROL Advertising]
 * [!UICONTROL 컨설팅]
@@ -72,7 +74,7 @@ ht-degree: 4%
 
 1. **[!UICONTROL 경비 유형]**&#x200B;을 클릭하세요.
 1. **[!UICONTROL 새 경비 유형]**&#x200B;을 클릭하세요.
-1. 표시되는 **[!UICONTROL 새 경비 유형]** 상자에서 다음 정보를 지정합니다.
+1. **[!UICONTROL 새 경비 유형]** 대화 상자에서 다음 정보를 지정하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,7 +108,8 @@ ht-degree: 4%
     </tbody> 
    </table>
 
-1. **[!UICONTROL 경비 유형 만들기]**&#x200B;를 클릭합니다.\
+1. **경비 유형 만들기** <span class="preview"> 또는 **[!UICONTROL 저장]**.</span>을 클릭합니다.
+
    이제 사용자가 경비 유형을 프로젝트 및 작업의 경비와 연결할 수 있습니다.
 
 ## 사용자 정의 경비 유형 수정
@@ -116,9 +119,10 @@ ht-degree: 4%
 1. **[!UICONTROL 경비 유형]**&#x200B;을 클릭하세요.
 1. 수정할 경비 유형을 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
-   **[!UICONTROL 경비 유형 편집]** 대화 상자가 표시됩니다.
+   **[!UICONTROL 경비 유형 편집]** 대화 상자가 나타납니다.
 
-1. 원하는 대로 변경한 다음 **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.\
+1. 원하는 대로 변경한 다음 **변경 내용 저장** <span class="preview"> 또는 **[!UICONTROL 저장]**</span>을 클릭합니다.
+
    이제 사용자가 경비 유형을 프로젝트 및 작업의 경비와 연결할 수 있습니다.
 
 경비를 사용하는 방법과 이 방법이 프로젝트 비용에 영향을 주는 방법에 대한 자세한 내용은 [프로젝트 경비 관리](../../../manage-work/projects/project-finances/manage-project-expenses.md) 문서를 참조하십시오.
