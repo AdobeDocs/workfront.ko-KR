@@ -9,16 +9,16 @@ exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '7283'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 자원 가동률 정보 보기 {#view-resource-utilization-information}
+# 리소스 활용성 정보 보기 {#view-resource-utilization-information}
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-utilization"
 >title="활용성 보고서"
->abstract="활용성 보고서를 사용하면 프로젝트, 프로그램 또는 포트폴리오의 진행 상황, 비용 또는 수익을 단일 보고서로 볼 수 있습니다. 매출과 원가를 비교할 수도 있습니다."
+>abstract="활용성 보고서를 사용하면 프로젝트, 프로그램 또는 포트폴리오의 진행 상황, 비용 또는 수익을 단일 보고서에서 볼 수 있습니다. 수익과 비용을 비교할 수도 있습니다."
 
 <!-- Audited: 01/2024 -->
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ## 활용성 보고서 개요 {#overview-of-the-utilization-report}
 
-활용성 보고서를 사용하면 프로젝트, 프로그램 또는 포트폴리오의 진행 상황, 비용 또는 수익을 단일 보고서로 볼 수 있습니다. 매출과 원가를 비교할 수도 있습니다.
+활용성 보고서를 사용하면 프로젝트, 프로그램 또는 포트폴리오의 진행 상황, 비용 또는 수익을 단일 보고서에서 볼 수 있습니다. 수익과 비용을 비교할 수도 있습니다.
 
 자원 조달 영역에서 활용률 보고서를 조회하여 여러 프로젝트의 활용률을 표시하거나 한 프로젝트 수준에서 이를 조회하여 해당 프로젝트와 연관된 개별 자원(작업 역할 및 사용자)의 활용률을 표시할 수 있습니다.
 

@@ -10,16 +10,16 @@ exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 업무 균형자 개요 {#workload-balancer-overview}
+# 워크로드 밸런서 개요 {#workload-balancer-overview}
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-workload-balancer"
 >title="워크로드 밸런서"
->abstract="프로젝트 소유자 및 팀 관리자는 업무 균형자 를 사용하여 사용자에게 작업 항목을 할당할 수 있습니다."
+>abstract="프로젝트 소유자와 팀 관리자는 워크로드 밸런서를 사용하여 사용자에게 작업 항목을 할당할 수 있습니다."
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>

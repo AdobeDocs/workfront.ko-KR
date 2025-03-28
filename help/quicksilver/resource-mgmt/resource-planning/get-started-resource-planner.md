@@ -10,7 +10,7 @@ exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '2113'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-planner"
 >title="리소스 플래너"
->abstract="리소스 플래너를 사용하여 할당된 프로젝트에 대한 리소스 할당을 예측하고 예산을 책정하며 향후 작업에 대한 가용성을 예측할 수 있습니다."
+>abstract="리소스 플래너를 사용하면 프로젝트에 할당된 리소스 할당을 추정하고 예산을 책정할 수 있으며, 향후 작업에 대한 리소스의 가용성을 예측할 수 있습니다."
 
 <!-- Audited: 12/2023 -->
 
