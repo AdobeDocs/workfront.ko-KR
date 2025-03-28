@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
+source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,16 @@ ht-degree: 0%
 
 2025년 2분기 릴리스에서 사용 가능한 모든 변경 사항 목록은 [2025년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)를 참조하십시오.
 
-<!--
-
-## Updated experience in the Access Levels area in Setup
+## 설정의 액세스 수준 영역에서 업데이트된 경험
 
 >[!NOTE]
 >
->Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+>미리보기 릴리스: 2025년 3월 27일, 모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)
 
-To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+성능을 향상시키기 위해 설정의 액세스 수준 영역에 대한 몇 가지 시각적 업데이트를 수행했습니다.
 
-A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+액세스 수준 목록에는 작은 기능 변경 사항이 적용되었습니다. 액세스 수준을 복사, 편집 또는 삭제하려면 해당 수준을 선택하고 해당 아이콘을 클릭합니다.
 
--->
 
 ## 경비 유형 대화 상자의 룩앤필 업데이트
 
