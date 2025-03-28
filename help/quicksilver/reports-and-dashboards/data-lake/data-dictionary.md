@@ -7,9 +7,9 @@ description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: eccc878f4b6fdeeffbcd5635b80ac3e26f7fb8c6
 workflow-type: tm+mt
-source-wordcount: '4609'
+source-wordcount: '4719'
 ht-degree: 4%
 
 ---
@@ -196,7 +196,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <td>자체<br>사용자_현재 | USERID<br>USERS_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
     </tr>
     <tr>
-        <td>범주</td>
+        <td>카테고리</td>
         <td>사용자 정의 양식</td>
         <td>CTGY | 범주</td>
         <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>
@@ -233,7 +233,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <td>CSTQRT | 사용자 정의 영역</td>
         <td>CUSTOMQUARTERS_CURRENT<br>CUSTOMQUARTERS_DAILY_HISTORY<br>CUSTOMQUARTERS_EVENT</td>
         <td>CUSTOMQUARTERID(자체) <br>SYSID</td>
-        <td>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
+        <td><br>Self 관계가 아니며 내부 애플리케이션 목적으로 사용됩니다.</td>
     </tr>
     <tr>
         <td>CustomEnum</td>
@@ -249,7 +249,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <td>도쿠 | 문서</td>
         <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT<br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
         <td>CATEGORYID<br>CHECKEDOUTBYID<br>DOCUMENTID<br>DOCUMENTREQUESTID<br>EXCHANGERATEID<br>ITERATIONID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>NOTEID<br>OBJID<br>OPTASKID<br>OWNERID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>RELEASEVERSIONID<br>TASKID<br>TEMPLATEID<br>TEMPLATEKID<br>USERID<br></td>
-        <td>CATEGORS_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>자체<br>문서 요청 테이블이 현재 지원되지 않음<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>ITERATIONS_CURRENT | ITERATIONID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>DOCOBJCODE 값에 따라 변수<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>PORTFOLIO_현재 | 포트폴리오<br>PROGRAM_CURRENT | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>릴리스 버전 테이블이 현재 지원되지 않음<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>TOPOBJCODE 값에 따라 변수<br>USER_CURRENT | 사용자 ID</td>
+        <td>CATEGORS_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>자체<br>문서 요청 테이블이 현재 지원되지 않음<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>ITERATIONS_CURRENT | ITERATIONID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>DOCOBJCODE 값에 따라 변수<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>PORTFOLIO_CURRENT | 포트폴리오<br>PROGRAM_CURRENT | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>릴리스 버전 테이블이 현재 지원되지 않음<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>TOPOBJCODE 값에 따라 변수<br>USER_CURRENT | 사용자 ID</td>
     </tr>
     <tr>
         <td>문서 승인</td>
@@ -294,16 +294,16 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     <tr>
         <td>DocumentVersion</td>
         <td>문서 버전</td>
-        <td>DOCV | 문서 버전</td>
-        <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
-        <td>DOCUMENTID<br>DOCUMENTPROVIDERID<br>DOCUMENTVERSIONID<br>ENTEREDBYID<br>EXTERNALSTORAGEID<br>PROOFAPPROVALSTATUSID<br>PROOFFEDBYUSERID<br>PROOFID<br>PROOFOWNERID<br>PROOFSTAGEID</td>
-        <td>DOCUMENT_CURRENT | DOCUMENTID<br>DOCPROVIDERS_CURRENT | DOCUMENTPROVIDERID<br>Self<br>USER_CURRENT | USERID<br>외부 ID<br>증명 승인 상태 테이블이 현재 지원되지 않음<br>USER_CURRENT | USERID<br>증명 테이블이 현재 지원되지 않음<br>USER_CURRENT | USERID<br>증명 단계 테이블이 현재 지원되지 않음</td>
+        <td>증권 시세 표시기 | 문서 버전</td>
+        <td><br>DOCUMENTVERSIONS_CURRENT DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
+        <td>DOCUMENTID<br>DOCUMENTPROVIDERID<br>DOCUMENTVERSIONID<br>ENTEREDBYID<br>EXTERNALSTORAGEID<br>PROOFAPPROVALSTATUSID<br>PROOFEDBYUSERID<br>PROOFID PROOFOWNERID<br><br>PROOFSTAGEID</td>
+        <td>DOCUMENT_CURRENT | 문서 ID<br>DOCPROVIDERS_CURRENT | DOCUMENTPROVIDERID<br>자체<br>USER_CURRENT | USERID<br>외부 ID<br>증명 승인 상태 테이블은 현재<br>지원되지 않습니다USER_CURRENT | USERID<br>현재 지원되지<br>않는 증명 테이블 USER_CURRENT | USERID<br>증명 스테이지 테이블은 현재 지원되지 않습니다.</td>
     </tr>
     <tr>
         <td>환율</td>
         <td>환율</td>
         <td>EXRATE | 환율</td>
-        <td>EXCHANGERATES_CURRENT<br>EXCHANGERATES_DAILY_HISTORY<br>EXCHANGERATES_EVENT</td>
+        <td><br>EXCHANGERATES_CURRENT EXCHANGERATES_DAILY_HISTORY<br>EXCHANGERATES_EVENT</td>
         <td>EXCHANGERATEID(자체)<br>PROJECTID<br>SYSID <br>TEMPLATEID  </td>
         <td>자체<br>프로젝트_현재 | PROJECTID <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다. <br>TEMPLATES_CURRENT | TEMPLATEID  </td>
     </tr>
@@ -312,8 +312,8 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <td>경비</td>
         <td>확장 | 경비</td>
         <td>EXPENSES_CURRENT<br>EXPENSES_DAILY_HISTORY<br>EXPENSES_EVENT</td>
-        <td>BILLINGRECORDID<br>CATEGORYID<br>ENTEREDBYID<br>EXCHANGERATEID <br>EXPENSEID(자체) <br>EXPENSETYPEID <br>LASTUPDATEDBYID <br>OBJID <br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOPOBJID</td>
-        <td>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID <br>자체 <br>EXPENSETYPES_CURRENT | EXPENSETYPEID <br>USERS_CURRENT | USERID <br>OBJCODE 필드 <br>PROJECTS_CURRENT에서 식별된 개체의 ID | PROJECTID <br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>TOPOBJCODE 필드에서 식별된 개체의 ID입니다</td>
+        <td>BILLINGRECORDID<br>CATEGORYID<br>ENTEREDBYID<br>EXCHANGERATEID <br>EXPENSEID (self) <br>EXPENSETYPEID <br>LASTUPDATEDBYID <br>OBJID <br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID TEMPLATETASKID<br><br>TOPOBJID</td>
+        <td>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>CATEGORIES_CURRENT | 카테고리 ID<br>USERS_CURRENT | 사용자 ID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID  <br>자체  <br>EXPENSETYPES_CURRENT | EXPENSETYPEID <br>USERS_CURRENT | USERID <br>OBJCODE 필드 <br>에서 식별된 개체의 ID입니다. PROJECTS_CURRENT | PROJECTID <br>관계가 아니며 내부 애플리케이션 목적으로<br>사용됩니다. TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | 템플릿 ID<br>TEMPLATETASKS_CURRENT | **TEMPLATETASKID<br>** TOPOBJCODE 필드에서 식별된 개체의 ID입니다.</td>
     </tr>
     <tr>
         <td>경비 유형</td>
@@ -374,16 +374,16 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     <tr>
         <td>마일스톤</td>
         <td>마일스톤</td>
-        <td>마일 | 마일스톤</td>
-        <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
+        <td>마일 | 이정표</td>
+        <td><br>MILESTONES_CURRENT MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
         <td>LASTUPDATEDBYID<br>MILESTONEID<br>MILESTONEPATHID</td>
-        <td>USER_CURRENT | USERID<br>자체<br>마일스톤 경로_현재 | 마일스톤ID</td>
+        <td>USER_CURRENT | USERID<br>자체<br>MILESTONEPATH_CURRENT | 마일스톤 ID</td>
     </tr>
     <tr>
+        <td>마일스톤패스</td>
         <td>마일스톤 경로</td>
-        <td>마일스톤 경로</td>
-        <td>MPATH | 마일스톤 경로</td>
-        <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
+        <td>엠패스 | 이정표 경로</td>
+        <td><br>MILESTONEPATHS_CURRENT MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
         <td>ENTEREDBYID<br>LASTUPDATEDBYID<br>MILESTONEPATHID</td>
         <td>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>Self</td>
     </tr>
@@ -392,8 +392,8 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <td>비노동 리소스</td>
         <td>NLBR | 비인적 자원</td>
         <td>NONLABORRESOURCES_CURRENT<br>NONLABORRESOURCES_DAILY_HISTORY<br>NONLABORRESOURCES_EVENT</td>
-        <td>CATEGORYID<br>NONLABORRESOURCEID(자체)<br>ENTEREDBYID<br>HOMEGROUPPID<br>LASTUPDATEDBYID<br>NONLABORRESOURCECATEGORYID<br>SYSID  </td>
-        <td>CATEGORS_CURRENT | CATEGORYID<br>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>비인적 자원 범주 테이블은 현재 지원되지 않음<br>관계가 없음, 내부 응용 프로그램 용도로 사용됨</td>
+        <td>CATEGORYID<br>NONLABORRESOURCEID (SELF)<br>ENTEREDBYID<br>HOMEGROUPID<br>LASTUPDATEDBYID<br>NONLABORRESOURCECATEGORYID<br>SYSID  </td>
+        <td>CATEGORIES_CURRENT | CATEGORYID<br>자체<br>USERS_CURRENT | 사용자 ID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>비노동 자원 현재 지원되지<br>않는 범주 테이블 관계가 아님, 내부 애플리케이션 용도로 사용됨</td>
     </tr>
     <tr>
         <td>비노동 리소스 범주</td>
@@ -454,16 +454,16 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     <tr>
         <td>매개변수 옵션</td>
         <td>매개변수 옵션</td>
-        <td>POPT | 매개변수 옵션</td>
-        <td>PARAMETEROPTIONS_CURRENT<br>PARAMETEROPTIONS_DAILY_HISTORY<br>PARAMETEROPTIONS_EVENT</td>
+        <td>뽀뽀 | 매개 변수 옵션</td>
+        <td><br>PARAMETEROPTIONS_CURRENT PARAMETEROPTIONS_DAILY_HISTORY<br>PARAMETEROPTIONS_EVENT</td>
         <td>PARAMETERID<br>PARAMETERATIONID(자체) <br>SYSID  </td>
-        <td>PARAMETERS_CURRENT | PARAMETERID <br>자체 <br>관계가 없습니다. 내부 응용 프로그램 용도로 사용됩니다.  </td>
+        <td>PARAMETERS_CURRENT | PARAMETERID <br>Self  <br>관계가 아니며 내부 애플리케이션 용도로 사용됩니다.  </td>
     </tr>
     <tr>
         <td>포털 섹션</td>
         <td>보고서</td>
-        <td>PTLSEC | 보고서</td>
-        <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
+        <td>PTLSEC 명령 | 보고서</td>
+        <td><br>PORTALSECTIONS_CURRENT PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
         <td>APPGLOBALID<br>ENTEREDBYID<br>FILTERID<br>GROUPBYID<br>LASTUPDATEDBYID<br>LASTVIEWEDBYID<br>OBJID<br>PORTALSECTIONID(자체)<br>PREFERENCEID<br>PUBLICRUNASUSERID<br>REPORTFOLDERID<br>RUNASUSERID<br>SCHEDULEDREPORTID<br>SYSID<br>VIEWID</td>
         <td>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다. <br>USERS_CURRENT | 사용자 ID <br>UIFILTERS_CURRENT | FILTERID<br>UIGROUPYS_CURRENT | GROUPBYID<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>OBJOBJCODE 필드에서 식별된 개체의 ID<br>Self<br>PREFERENCES_CURRENT | PREFERENCEID<br>USERS_CURRENT | 사용자 ID <br>REPORTFOLDERS_CURRENT | REPORTFOLDERID<br>USERS_CURRENT | USERID <br>예약된 보고서 테이블이 현재 지원되지 않음<br>관계가 없음. 내부 응용 프로그램 용도로 사용됨 <br>UIVIEWS_CURRENT | VIEWID</td>
     </tr>
@@ -473,7 +473,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <td>PTLTAB | 대시보드</td>
         <td>PORTALTAB_CURRENT<br>PORTALTAB_DAILY_HISTORY<br>PORTALTAB_EVENT</td>
         <td>DOCID<br>LASTUPDATEDBYID<br>PORTALPROFILEID<br>PORTALTABID(자체)<br>SYSID<br>USERID</td>
-        <td>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다. <br>USERS_CURRENT | USERID <br>포털 프로필 테이블이 지원되지 않습니다. <br>자체<br>관계가 없습니다. 내부 응용 프로그램 용도로 사용됨 <br>USERS_CURRENT | 사용자 ID  </td>
+        <td>관계가 아닙니다. 내부 애플리케이션 목적으로  <br>사용 USERS_CURRENT | 사용자 ID  <br>포털 프로필 테이블은 지원되지 <br>않습니다. 본인<br>관계가 아님, 내부 애플리케이션 목적으로  <br>사용됨 USERS_CURRENT | 사용자 ID  </td>
     </tr>
     <tr>
         <td>포털 탭 섹션</td>
@@ -495,7 +495,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <td>포트폴리오</td>
         <td>포트폴리오</td>
         <td>포트 | Portfolio</td>
-        <td>PORTFOLIO_CURRENT<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO_EVENT<br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
+        <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT<br>PORTFOLIOS_CUSTOM_VALUE_CURRENT<br>PORTFOLIOS_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
         <td>ALIGNMENTSCORECARDID<br>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID</td>
         <td>스코어카드 테이블은 현재 지원되지 않습니다<br>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>Self</td>
     </tr>
@@ -521,7 +521,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <td>프로젝트 | 프로젝트</td>
         <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
         <td>AEMNATIVEFOLDERTREESREFID<br>ALIGNMENTSCORECARDID<br>APPROVALPROCESID<br>ATTACHEDRATECARDID<br>CATEGORYID<br>COMPANYID<br>CONVERTEDOPTASKID<br>CONVERTEDOPTASKORIDATORID<br>CURRENTAPPROVALSTEPID<br>DELIVERABLESCORECARDID<br>ENTEREDBYID<br>GROUPID<br>LASTCONDITIONNOTEID<br>LASTNOTEID<br>LASTUPTEDBYID<br>MILESTONEPATHID<br>OWNERID<br>POPACCOUNTID <br>PORTFOLIOID<br>PRIVATERATECARDID<br>PROGRAMID<br>PROJECTID<br>QUEUEDEFID<br>REJECTIONISSUEID<br>RESOURCEPOOID<br>SCHEDULEID<br>SPONSORID<br>SUBMITTEDBYID<br>TEMAMID<br>TEMPLATEID</td>
-        <td>Workfront 관계가 아닙니다. 외부 시스템과의 통합에 사용됩니다.<br>현재 스코어카드 테이블이 지원되지 않습니다.<br>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>RATECARD_CURRENT | RATECARDID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID <br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>스코어카드 테이블이 현재 지원되지 않음<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>MILESTONEPATH_CURRENT | 마일스톤 경로 ID<br>USER_CURRENT | USERID<br>현재 POP 계정 테이블이 지원되지 않음<br>PORTFOLIO_현재 | 포트폴리오<br>RATECARD_CURRENT | RATECARDID<br>PROGRAM_CURRENT | PROGRAMID<br>Self<br>큐 정의 테이블이 현재 지원되지 않음<br>OPTASK_CURRENT | OPTASKID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>SCHEDULE_CURRENT | 예약 ID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>TEAM_CURRENT | TEAMID<br>TEMPLATES_CURRENT | TEMPLATEID</td>
+        <td>Workfront 관계가 아닙니다. 외부 시스템과의 통합에 사용됩니다.<br>현재 스코어카드 테이블이 지원되지 않습니다.<br>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>RATECARD_CURRENT | RATECARDID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID <br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>스코어카드 테이블이 현재 지원되지 않음<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>MILESTONEPATH_CURRENT | 마일스톤 경로 ID<br>USER_CURRENT | USERID<br>현재 POP 계정 테이블이 지원되지 않음<br>PORTFOLIO_CURRENT | 포트폴리오<br>RATECARD_CURRENT | RATECARDID<br>PROGRAM_CURRENT | PROGRAMID<br>Self<br>큐 정의 테이블이 현재 지원되지 않음<br>OPTASK_CURRENT | OPTASKID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>SCHEDULE_CURRENT | 예약 ID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>TEAM_CURRENT | TEAMID<br>TEMPLATES_CURRENT | TEMPLATEID</td>
     </tr>
     <tr>
         <td>프로젝트 팀 사용자</td>
@@ -534,17 +534,17 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     <tr>
         <td>프로젝트 팀 사용자 역할</td>
         <td>프로젝트 팀 사용자 역할</td>
-        <td>TEAM | 프로젝트 사용자 역할</td>
-        <td>PROJECTSUSERSROLES_CURRENT<br>PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
+        <td>PTEAM (팀) | ProjectUserRole</td>
+        <td><br>PROJECTSUSERSROLES_CURRENT PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
         <td>PROJECTID<br>PROJECTSUSERSROLEID(자체)<br>ROLEID<br>SYSID<br>USERID</td>
-        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>USERS_CURRENT | 사용자 ID</td>
+        <td>PROJECTS_CURRENT | PROJECTID<br>자체<br>ROLES_CURRENT | ROLEID<br>관계가 아니며 내부 애플리케이션 목적으로<br>사용됩니다. USERS_CURRENT | 사용자 ID</td>
     </tr>
     <tr>
         <td>카드 속도</td>
         <td>요율 카드</td>
-        <td>RTCRD |등급 카드</td>
-        <td>RATECARD_CURRENT<br>RATECARD_DAILY_HISTORY<br>RATECARD_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID <br>RATECARDID(자체) <br>SECURITYROOTID <br>SOURCEID<br>SYSID</td>
+        <td>증권거래기준(RTCRD) |요율표</td>
+        <td><br>RATECARD_CURRENT RATECARD_DAILY_HISTORY<br>RATECARD_EVENT</td>
+        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID  <br>RATECARDID(자체) <br>SECURITYROOTID  <br>SOURCEID<br>SYSID</td>
         <td>CATEGORYID<br>USERS_CURRENT | USERID <br>USERS_CURRENT | 사용자 ID    <br>자체<br>SECURITYOBJCODE 필드에서 식별된 개체의 ID <br>SOURCEOBJCODE 필드에서 식별된 개체의 ID<br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다  </td>
     </tr>
     <tr>
@@ -553,12 +553,12 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <td>RPTFDR | 보고서 폴더</td>
         <td>REPORTFOLDERS_CURRENT<br>REPORTFOLDERS_DAILY_HISTORY<br>REPORTFOLDERS_EVENT</td>
         <td>REPORTFOLDERID(자체)<br>SYSID</td>
-        <td>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
+        <td><br>Self 관계가 아니며 내부 애플리케이션 목적으로 사용됩니다.</td>
     </tr>
     <tr>
-        <td>보고서 보기 통계 수</td>
-        <td>보고서 보기 통계 수</td>
-        <td>PLSVST | PortalSectionStatisticInfo</td>
+        <td>보고서 보기 통계 카운트</td>
+        <td>보고서 보기 통계 카운트</td>
+        <td>PLSVST 명령 | PortalSectionStatisticInfo</td>
         <td>REPORTVIEWSTATICCOUNTS_CURRENT<br>REPORTVIEWSTATICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATICCOUNTS_EVENT</td>
         <td>REPORTID<br>REPORTVIEWSTATICCOUNTID(자체)<br>SYSID</td>
         <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID<br>Self<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
@@ -614,17 +614,17 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     <tr>
         <td>위험</td>
         <td>위험</td>
-        <td>위험 | 위험</td>
-        <td>RISK_CURRENT<br>RISK_DAILY_HISTORY<br>RISK_EVENT</td>
+        <td>리스크 | 위험</td>
+        <td><br>RISKS_CURRENT RISKS_DAILY_HISTORY<br>RISKS_EVENT</td>
         <td>ENTEREDBYID<br>EXCHANGERATEID<br>LASTUPDATEDBYID <br>PROJECTID <br>RISKID(자체)<br>RISKTYPEID<br>SYSID<br>TEMPLATEID</td>
-        <td>USERS_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>USERS_CURRENT | 사용자 ID <br>PROJECTS_CURRENT | PROJECTID   <br>자체<br>RISKTYPES_CURRENT | RISKTYPEID<br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.<br>TEMPLATES_CURRENT | TEMPLATEID</td>
+        <td>USERS_CURRENT | 사용자 ID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>USERS_CURRENT | 사용자 ID  <br>PROJECTS_CURRENT | PROJECTID   <br>자체<br>RISKTYPES_CURRENT | RISKTYPEID<br>관계가 아니며 내부 애플리케이션 목적으로<br>사용됩니다. TEMPLATES_CURRENT | 템플릿 ID</td>
     </tr>
     <tr>
         <td>위험 유형</td>
         <td>위험 유형</td>
-        <td>RSKTYP | 위험 유형</td>
-        <td>RISKTYPES_CURRENT<br>RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
-        <td>RISKTYPEID<br>SYSID</td>
+        <td>RSKTYP (영어) | 위험 유형</td>
+        <td><br>RISKTYPES_CURRENT RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
+        <td>RISKTYPEID<br>시스템</td>
         <td>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
     </tr>
     <tr>
@@ -723,12 +723,28 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <td>PREDECESSORID<br>SUCCESSORID <br>TEMPLATEPREDECESSORID(자체)<br>SYSID</td>
         <td>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID <br>자체<br>관계가 없습니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
     </tr>
+       <tr>
+        <td>시간 단계별 KPI 통화(제한된 고객 가용성)</td>
+        <td>시간별 KPI</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
+        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
+        <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>자체<br>타임시트 프로필_현재 | TIMESHEETPROFILEID<br>USER_CURRENT | 사용자 ID</td>
+    </tr>
+        <tr>
+        <td>시간 단계별 KPI 기간(제한된 고객 가용성)</td>
+        <td>시간별 KPI</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
+        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCESETASKID<br>TASKID<br>TIMEPHASEDDURATIONID(자체)<br>USERID</td>
+        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GROUPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | 포트폴리오<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>KPI 레코드 주체 식별<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>자가<br>사용자_현재 | 사용자 ID</td>
+    </tr>
     <tr>
         <td>타임시트</td>
         <td>타임시트</td>
-        <td>체트 | 타임시트</td>
-        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
-        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
+        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCESETASKID<br>TASKID<br>TIMEPHASEDCURRENCYID(자체)<br>USERID</td>
         <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>자체<br>타임시트 프로필_현재 | TIMESHEETPROFILEID<br>USER_CURRENT | 사용자 ID</td>
     </tr>
     <tr>
@@ -737,7 +753,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <td>TSPRO | 타임시트 프로필</td>
         <td>TIMESHEETPROFILES_CURRENT<br>TIMESHEETPROFILES_DAILY_HISTORY<br>TIMESHEETPROFILES_EVENT</td>
         <td>APPROVERID<br>ENTEREDBYID <br>GROUPID<br>SYSID<br>TIMESHEETPROFILEID(자체)</td>
-        <td>USERS_CURRENT | USERID<br>USERS_CURRENT | 사용자 ID <br>GROUPS_CURRENT | GROUPID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>자체</td>
+        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GROUPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | 포트폴리오<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>KPI 레코드 주체 식별<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>자가<br>사용자_현재 | 사용자 ID</td>
     </tr>
     <tr>
         <td>UI 필터</td>

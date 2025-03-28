@@ -2,12 +2,12 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: 'Single Sign-On in [!DNL Workfront Proof]: AD FS 구성'
+title: ' [!DNL Workfront Proof]의 SSO(Single Sign-On): AD FS 구성'
 description: AD 서버의 관리자인 경우 AD FS를 설치하고 구성할 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%
@@ -24,7 +24,7 @@ AD 서버의 관리자인 경우 AD FS를 설치하고 구성할 수 있습니�
 
 ## AD FS 설치 및 구성
 
-1. 컴퓨터에 [AD FS 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=10909)을(를) 다운로드합니다.
+1. 컴퓨터에 Microsoft AD FS 2.0을 다운로드합니다.
 1. 다운로드한 AdfsSetup.exe 파일을 열어 ADFS(Active Directory Federation Services) 설치 마법사를 시작합니다.
 1. 서버 역할 화면에서 옵션 중 하나를 선택합니다(최소 페더레이션 서버가 필요).
 1. AD 서버의 IIS를 인터넷(HTTP 및 HTTPS의 경우 포트 80 및 443)에 노출하지 않으려면 먼저 방화벽 뒤에 페더레이션 서버를 설정한 다음 방화벽을 통해 페더레이션 서버로 요청을 전달하는 두 번째 페더레이션 서버 프록시를 빌드할 수 있습니다.
