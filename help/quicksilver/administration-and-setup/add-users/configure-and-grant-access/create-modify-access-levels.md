@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
+source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1521'
 ht-degree: 6%
 
 ---
@@ -66,11 +66,21 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **액세스 수준**&#x200B;을 클릭합니다.
-1. 복사하고 사용자 지정할 액세스 수준을 선택한 다음 **복사**&#x200B;를 클릭합니다.
+1. 
+   * 프로덕션 환경에서:
+복사하고 사용자 지정할 액세스 수준을 선택한 다음 **복사**&#x200B;를 클릭합니다.
 
-   또는
+     또는
 
-   이전에 복사한 기존 액세스 수준을 편집하는 경우 해당 이름을 클릭합니다.
+     이전에 복사한 기존 액세스 수준을 편집하는 경우 해당 이름을 클릭합니다.
+
+   * <span class="preview">미리 보기 환경에서:</span>
+
+     <span class="preview">복사하고 사용자 지정할 액세스 수준을 선택한 다음 **복사** 아이콘 ![복사 아이콘](assets/copy-icon.png)을 클릭합니다. </span>
+
+     <span class="preview"> 또는 </span>
+
+     <span class="preview">기존 액세스 수준을 편집하는 경우 해당 액세스 수준의 왼쪽에 있는 상자를 클릭하여 액세스 수준을 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다. </span>
 
 1. 표시되는 상자에서 다음 중 하나를 수행하여 사용자 정의 액세스 수준 구성을 시작합니다.
 
