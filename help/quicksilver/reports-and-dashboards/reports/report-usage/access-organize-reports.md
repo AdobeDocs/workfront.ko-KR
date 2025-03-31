@@ -6,9 +6,9 @@ description: Adobe Workfront의 보고서를 사용하여 시스템의 객체에
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: da574efdede5aee34518f251cabdfe96983a69eb
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -88,10 +88,15 @@ Adobe Workfront의 보고서를 사용하여 시스템의 객체에 대한 정�
    또는\
    **내 보고서** 폴더 아래에 중첩된 폴더를 클릭합니다.
 
-1. 보고서 목록의 보고서를 원하는 폴더로 끌어 놓았다가 해당 폴더에 도달하면 놓습니다.
+1. 보고서를 선택한 다음 목록의 맨 위에 있는 폴더 아이콘 ![폴더 아이콘](assets/folder-icon.png)을 클릭합니다.
+
+1. 보고서를 추가할 폴더를 선택합니다.
+
+   ![보고서를 이동할 폴더 선택](assets/choose-folder.png)
 
    >[!NOTE]
    >
    >**내 보고서** 폴더의 보고서만 **내 보고서** 아래에 중첩된 다른 폴더로 이동할 수 있습니다. **나와 공유** 또는 **모든 보고서** 폴더에서 다른 폴더로 또는 다른 폴더에서 보고서를 이동할 수 없습니다.
 
-   ![보고서를 폴더로 드래그](assets/nwe-drag-report-to-folder-350x292.png)
+
+
