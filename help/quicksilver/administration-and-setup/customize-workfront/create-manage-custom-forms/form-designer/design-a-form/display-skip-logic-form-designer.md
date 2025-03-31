@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
+source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
@@ -250,7 +250,7 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 
 사용자가 사용자 정의 양식을 작성할 때 논리가 적용된 필드가 정의된 유효성 검사 조건을 충족하면 필드가 강조 표시되고 오류 메시지가 표시됩니다.
 
-드롭다운, 라디오 단추, 확인란, 자동 완성, 한 줄 텍스트, 단락 텍스트, 날짜 필드, 서식이 있는 텍스트 및 계산된 필드와 같은 필드 유형에 유효성 검사 논리를 적용할 수 있습니다.
+한 줄 텍스트, 단락, 단일 선택 드롭다운, 다중 선택 드롭다운, 외부 조회, 라디오 단추, 확인란 그룹 및 자동 완성 필드 유형에 유효성 검사 논리를 적용할 수 있습니다.
 
 ### 예시
 
