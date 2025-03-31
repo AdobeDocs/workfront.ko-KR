@@ -6,10 +6,10 @@ description: '알림: 목표'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 4%
+source-wordcount: '436'
+ht-degree: 2%
 
 ---
 
@@ -97,15 +97,19 @@ ht-degree: 4%
    <td> <p>댓글을 남긴 사람의 이름</p> <p>목표 기간 </p> <p>목표의 이름</p> <p>주석의 텍스트입니다.</p> <p>[!UICONTROL 목표 세부 정보] 패널을 여는 <strong>[!UICONTROL 웹 앱에서 열기]</strong> 단추</p> <p>알림을 관리할 수 있는 <strong>[!UICONTROL 알림 설정 변경]</strong> 단추입니다.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>누군가 목표의 내 댓글에 좋아요를 눌렀습니다.</strong></td> 
-   <td> <p>댓글을 좋아한 사람의 이름</p> <p>목표 기간 </p> <p>목표의 이름</p> <p>주석의 텍스트입니다. </p> <p>[!UICONTROL 목표 세부 정보] 패널을 여는 <strong>[!UICONTROL 웹 앱에서 열기]</strong> 단추</p> <p>알림을 관리할 수 있는 <strong>[!UICONTROL 알림 설정 변경]</strong> 단추입니다.</p> </td> 
+  </tbody> 
+</table>
+
+<!--these were removed at some point: 
+
+   <td><strong>Someone liked my comment on a Goal</strong></td> 
+   <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>누군가 내 목표의 업데이트에 좋아요를 눌렀습니다.</strong></td> 
-   <td> <p>누군가 사용자가 목표에 대한 댓글을 좋아하거나 목표에 대한 결과나 활동의 진행 상황을 업데이트할 때 이메일을 받습니다. </p> <p>업데이트를 좋아한 사람의 이름</p> <p>목표 기간 </p> <p>목표의 이름</p> <p>[!UICONTROL 목표 세부 정보] 패널을 여는 <strong>[!UICONTROL 웹 앱에서 열기]</strong> 단추</p> <p>알림을 관리할 수 있는 <strong>[!UICONTROL 알림 설정 변경]</strong> 단추입니다.</p> </td> 
+   <td><strong>Someone liked an update on my Goal</strong></td> 
+   <td> <p>You receive an email when someone likes a comment you made on a goal or when you update the progress of your results or activities on the goal. </p> <p>The name of the person who liked the update</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
- </tbody> 
-</table>
+ -->
 
 <!--
 NOTE FOR NAME OF GOAL IN LAST TABLE CELL: check this. Is this true? Didn't triggger when this was written; add anything else? Maybe the type of the update is mentioned?!

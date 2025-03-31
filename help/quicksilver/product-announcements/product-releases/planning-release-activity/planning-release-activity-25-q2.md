@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,14 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >
 >미리 보기: 2025년 3월 27일, 모든 고객을 위한 프로덕션: 2025년 4월 10일
 
-이제 다음 영역에서 제출한 후 즉시 새 요청을 열 수 있습니다.
+Workfront Planning에서 제출하는 요청에 액세스하는 방식을 개선했습니다.
+방금 제출한 요청의 세부 사항 페이지로 이동하는 데 사용할 수 있는 &quot;요청 보기&quot; 링크를 추가했습니다.
 
-* 공유 링크에서 액세스 후 요청 양식
-* 새 레코드 또는 레코드 요청 단추의 레코드 유형 페이지
-* 메인 메뉴의 요청 영역
+새 링크는 다음 영역에서 요청을 제출하면 사용할 수 있습니다.
+
+* 공유 링크에서
+* 레코드 유형 페이지의 새 레코드 또는 요청 레코드 단추
+* 요청 영역에서 요청 제출에 대한 새 경험을 활성화한 후
 
 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 

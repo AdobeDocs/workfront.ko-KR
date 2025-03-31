@@ -1,14 +1,12 @@
 ---
 title: Adobe Workfront Planning 레코드 자동화를 사용하여 Workfront 객체 생성
 description: 활성화된 경우 Adobe Workfront Planning에서 개체 또는 Workfront Planning의 레코드를 만들도록 Workfront Planning에서 자동화를 구성할 수 있습니다. 생성된 객체와 레코드는 자동으로 기존 Planning 레코드에 연결됩니다. 이 문서에서는 개체와 레코드를 만들도록 편집, 비활성화, 삭제 및 트리거하는 방법을 포함하여 자동화를 관리하는 방법에 대해 설명합니다.
-hide: true
-hidefromtoc: true
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 89b2e3547387397279cce751dd7c84d8174532b5
+source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
 workflow-type: tm+mt
 source-wordcount: '2197'
 ht-degree: 2%

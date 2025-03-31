@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
@@ -206,7 +206,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 선택한 유형의 모든 레코드가 뷰에 표시됩니다.
 
-1. 작업 영역 <!--<span class="preview">and record type</span>--> 권한에 따라 화면의 오른쪽 상단 모서리에서 다음을 클릭합니다.
+1. (조건부) 작업 영역 <!--<span class="preview">and record type</span>--> 권한에 따라 화면의 오른쪽 상단에 있는 다음 항목을 클릭합니다.
 
    * 작업 영역 <!--<span class="preview">and record type</span>-->에 대한 Contribute 이상의 권한이 있는 경우 **새 레코드**&#x200B;을(를) 클릭합니다.
 
