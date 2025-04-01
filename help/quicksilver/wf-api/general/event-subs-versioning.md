@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -250,3 +250,10 @@ Workfront에는 두 가지 버전의 이벤트 구독이 있습니다. 이 문�
    <td>없음. 영향을 받는 필드에 필터가 있는 경우 <code>UPDATE</code> 이벤트는 해당 필드가 실제로 변경된 경우에만 수신되며, 다른 매개 변수 값이 변경된 경우에는 수신되지 않습니다.
  </tbody> 
 </table>
+
+
+## Workfront Fusion 시나리오에서 이벤트 구독 버전 업데이트
+
+Workfront Fusion은 이벤트 구독을 사용하여 Workfront의 변경 사항을 살펴보고 시나리오를 트리거합니다. Workfront > 이벤트 페이로드 버전 업데이트 모듈을 사용하여 Fusion이 시나리오에서 직접 사용하는 이벤트 구독 버전을 업데이트할 수 있습니다.
+
+이 모듈 사용에 대한 지침은 Workfront Fusion 설명서의 [Workfront 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)을 참조하십시오.
