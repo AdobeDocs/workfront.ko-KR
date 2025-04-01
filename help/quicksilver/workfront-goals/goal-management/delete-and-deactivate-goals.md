@@ -6,18 +6,22 @@ description: 목표 작업을 시작할 때 조직에서 관련이 없게 되면
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront 목표에서 목표 삭제 및 비활성화
 
+<!--Audited for P&P only: 4/2025-->
+
 목표 작업을 시작할 때 조직에서 관련이 없게 되면 삭제하는 대신 비활성화하는 것이 좋습니다. 목표를 비활성화하면 기록 정보가 유지되며 나중에 다시 활성화할 수 있습니다. 그러나 목표를 삭제할 때 목표 목록을 정확하게 유지하는 것이 적절할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -36,27 +40,25 @@ ht-degree: 0%
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
   <li>Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
+ <tr>
  <tr>
  <td role="rowheader">Adobe Workfront 라이센스*</td>
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
  <td>
- <p> 다음 중 하나인 새 제품 요구 사항: </p>
-<ul>
-<li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
+  <p> 새 제품 요구 사항: Workfront</p>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
+  <p>현재 제품 요구 사항: Workfront 라이선스 외에도 Adobe Workfront Goals에 대한 라이선스를 구입해야 합니다. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
- <td role="rowheader"><p>액세스 수준</p></td>
+ <td role="rowheader">액세스 수준</td>
  <td> <p>목표에 대한 액세스 편집</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -68,7 +70,7 @@ ht-degree: 0%
   <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
    <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 목표 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p>  
 </td>
@@ -77,6 +79,8 @@ ht-degree: 0%
 </table>
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 목표 비활성화
 

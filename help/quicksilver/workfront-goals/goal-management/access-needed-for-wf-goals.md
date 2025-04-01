@@ -3,23 +3,22 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Workfront 목표 사용 요구 사항
-description: Adobe Workfront 관리자는 Adobe Workfront 목표에 액세스하려면 특정 조건이 충족되는지 확인해야 합니다.
+description: Adobe Workfront 관리자는 Adobe Workfront 목표에 액세스하려면 특정 조건이 충족되는지 확인해야 합니다. 이 문서에서는 Workfront 목표에 액세스하기 위한 액세스, 권한 및 레이아웃 요구 사항에 대해 알아봅니다.
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # Workfront 목표 사용 요구 사항
 
-Adobe Workfront 목표에 액세스하려면 Adobe Workfront 관리자가 다음 조건을 모두 충족하는지 확인해야 합니다.
+<!--Audited P&P only: 04/2025-->
 
-<!--drafted for P&P - replace the first bullet with this one when licensing changes: 
-* Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
+Adobe Workfront 목표에 액세스하려면 Adobe Workfront 관리자가 다음 조건을 모두 충족하는지 확인해야 합니다.
 
 * 조직은 Workfront 목표에 대한 올바른 라이선스를 구입해야 합니다. 자세한 내용은 이 문서의 [Workfront 목표 조직 액세스 권한 얻기](#obtain-workfront-goals-organization-access) 섹션을 참조하십시오.
 
@@ -48,9 +47,9 @@ Adobe Workfront 목표에 액세스하려면 Adobe Workfront 관리자가 다음
 
 귀사가 현재 계획 중인 Workfront에 따라 다음과 같은 시나리오가 존재합니다.
 
-* 회사에 새로운 Workfront 플랜이 있는 경우 Ultimate Workfront 플랜이 있어야 합니다. Workfront 목표는 이 계획에만 포함됩니다.
+* **새 Workfront 플랜**: Ultimate Workfront 플랜이 있어야 합니다. Workfront 목표는 이 계획에만 포함됩니다.
 
-* 회사에 현재 Workfront 플랜이 있는 경우, 조직은 사용자가 Workfront 목표에 액세스할 수 있도록 Workfront 라이선스 외에 추가 라이선스를 구입해야 합니다.
+* **현재 Workfront 플랜**: 조직에서 Workfront 라이선스 외에 추가 라이선스를 구입해야 합니다.
 
   조직에서 추가 라이선스를 구매하면 Workfront에서 계정에 대해 Workfront 목표를 활성화합니다. Workfront Goals에 대한 라이선스 구매에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
 
@@ -60,13 +59,13 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 귀사가 현재 계획 중인 Workfront에 따라 다음과 같은 시나리오가 존재합니다.
 
-* 회사에 새로운 액세스 수준 모델이 있는 경우 Workfront 관리자는 Workfront 목표에 액세스하려면 다음 Workfront 라이선스 유형 중 하나를 부여해야 합니다.
+* **새 액세스 수준 모델**: Workfront 관리자가 Workfront 목표에 액세스하려면 다음 Workfront 라이선스 유형 중 하나를 부여해야 합니다.
 
    * 기여자
    * 라이트
    * 표준
 
-* 회사에 현재 액세스 수준 모델이 있는 경우 Workfront 관리자는 Workfront 목표에 액세스하려면 다음 Workfront 라이선스 유형 중 하나를 부여해야 합니다.
+* **현재 액세스 수준 모델**: Workfront 관리자가 Workfront 목표에 액세스하려면 다음 Workfront 라이선스 유형 중 하나를 부여해야 합니다.
 
    * 플랜
    * 작업

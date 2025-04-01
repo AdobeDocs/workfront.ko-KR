@@ -7,7 +7,7 @@ description: 목표 상태는 목표가 활성 상태이고 현재 진행 상황
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 4%
@@ -16,13 +16,15 @@ ht-degree: 4%
 
 # Adobe Workfront 목표의 목표 상태 개요
 
+<!--Audited: 4/2025-->
+
 >[!IMPORTANT]
 >
 >이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
 >
 >* 새 플랜 및 라이선스 구조의 경우:
 >
->   * 궁극적인 Workfront 플랜
+>   * Ultimate Workfront 플랜
 >    
 >* 현재 플랜 및 라이선스 구조의 경우:
 >

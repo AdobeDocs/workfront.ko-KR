@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2556'
 ht-degree: 2%
 
 ---
@@ -243,15 +243,15 @@ ht-degree: 2%
       <td role="rowheader">해결한 사람</td> 
       <td> <p>다른 오브젝트로 문제를 해결했는지 여부를 보여 줍니다. 드롭다운 메뉴에서 이 문제가 작업, 프로젝트 또는 다른 문제로 해결되었는지 선택한 다음 문제를 해결할 작업, 프로젝트 또는 문제의 이름을 입력할 수 있습니다. 목록에 나타나면 선택합니다.</p>
 
-   <b>참고</b>
+   <b>메모</b>
 
-   문제를 해결할 오브젝트를 선택하면 문제 상태가 해결 오브젝트의 상태에 연결되고 해당 문제에서 변경할 수 없습니다. 개체 확인에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 및 해결 가능한 개체 개요 </a>을(를) 참조하십시오.
+   <ul><li>문제를 해결할 오브젝트를 선택하면 문제 상태가 해결 오브젝트의 상태에 연결되고 해당 문제에서 변경할 수 없습니다. 개체 확인에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 및 해결 가능한 개체 개요 </a>을(를) 참조하십시오.</li>
 
-   <b>팁</b>
+   <li>다른 작업, 문제 또는 프로젝트에 의해 해결될 문제를 연결할 때 해결된 사람 필드에 나열된 문제, 문제 또는 프로젝트 등의 해결 오브젝트에 문제의 정보가 전송되지 않습니다. </li>
 
-   시스템 또는 그룹 관리자가 문제 사용자 정의 헤더에 &quot;해결된 사람&quot; 필드를 추가하면 문제와 연결된 해결 오브젝트가 있는 경우 필드가 &quot;문제 해결&quot;, &quot;작업 해결&quot; 또는 &quot;프로젝트 해결&quot;로 변경됩니다.
+   <li>시스템 또는 그룹 관리자가 문제 사용자 정의 헤더에 "해결된 사람" 필드를 추가하면 문제와 연결된 해결 오브젝트가 있는 경우 필드가 "문제 해결", "작업 해결" 또는 "프로젝트 해결"로 변경됩니다.
 
-   이 필드가 문제 헤더에 표시되면 편집할 수 없습니다. 문제 헤더 사용자 지정에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">레이아웃 템플릿을 사용하여 개체 헤더 사용자 지정 </a>을(를) 참조하십시오.
+   이 필드가 문제 헤더에 표시되면 편집할 수 없습니다. 문제 헤더 사용자 지정에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">레이아웃 템플릿을 사용하여 개체 헤더 사용자 지정 </a>을(를) 참조하십시오.</li></ul>
    </td> 
      </tr>
 

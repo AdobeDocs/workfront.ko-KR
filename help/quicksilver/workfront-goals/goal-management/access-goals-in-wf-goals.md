@@ -1,26 +1,30 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront 목표의 목표 액세스 및 열기
+title: Adobe Workfront 목표의 액세스 및 목표 열기
 description: 이 문서에서는 Adobe Workfront에서 목표를 찾고 관리하는 방법을 설명합니다.
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront 목표의 목표 액세스 및 열기
 
+<!--Audited P&P only: 4/2025-->
+
 이 문서에서는 Adobe Workfront에서 전략적 목표를 찾고 관리하는 방법을 설명합니다.
 
 
 ## 액세스 요구 사항
 
-이 문서에 설명된 활동을 수행하려면 다음이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,18 +53,12 @@ ht-degree: 1%
   <tr>
  <td role="rowheader">제품*</td>
  <td>
- <p> 다음 중 하나인 새 제품 요구 사항: </p>
-<ul>
-<li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
- <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
+ <p> 새 제품 요구 사항: Workfront</p>
+<p>또는</p>
+ <p>현재 제품 요구 사항: Workfront 라이선스 외에도 Adobe Workfront Goals에 대한 라이선스를 구입해야 합니다. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
- <tr>
- <td role="rowheader">액세스 수준</td>
- <td> <p>목표에 대한 액세스 편집</p> </td>
- </tr>
-  <tr> 
+
+<tr> 
    <td role="rowheader">액세스 수준</td> 
    <td> <p>목표에 대한 액세스 편집</p> </td> 
   </tr> 
@@ -82,6 +80,8 @@ ht-degree: 1%
 </table>
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## Workfront 목표 액세스
 

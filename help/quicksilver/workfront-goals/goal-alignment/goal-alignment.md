@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Workfront 목표의 목표를 조정하는 방법을 이해하려면 다음 문서를 검토하십시오.
-description: 다음 문서에서 Adobe Workfront의 목표 정렬에 대해 알아보십시오.
+title: 'Adobe Workfront 목표의 목표 정렬: 문서 색인'
+description: 엔터프라이즈에서 모든 수준의 목표가 서로 일치하고 전반적인 전략에 부합하는지 확인하는 것은 조직의 성공에 있어 중요한 단계입니다. 다음 문서에서 Adobe Workfront의 목표 정렬에 대해 알아보십시오.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront 목표의 목표 정렬
+# Adobe Workfront 목표의 목표 정렬: 문서 색인
+
+<!--Audited P&P only: 4/2025-->
 
 >[!NOTE]
 >
@@ -24,11 +26,6 @@ ht-degree: 0%
 >* 새 플랜 및 라이선스 구조의 경우:
 >    
 >   * Ultimate 플랜
->        
->     또는
->        
->   * Prime 또는 Adobe Workfront 선택 플랜에 대한 Adobe Workfront 목표에 대한 추가 라이센스입니다.
->      
 >      
 >* 현재 플랜 및 라이선스 구조의 경우:
 >    

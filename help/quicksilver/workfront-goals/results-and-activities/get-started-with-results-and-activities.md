@@ -7,9 +7,9 @@ description: 목표를 활성화하려면 목표에 결과, 활동 또는 정렬
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >* 새 플랜 및 라이선스 구조의 경우:
 >
->   * 궁극적인 Workfront 플랜
+>   * Ultimate Workfront 플랜
 >    
 >* 현재 플랜 및 라이선스 구조의 경우:
 >
@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 > 목표에는 총 1000개를 초과하는 활동, 결과, 프로젝트 또는 정렬된 목표를 사용할 수 없습니다.</span>
 
-이 문서에서는 활동 및 결과에 대한 개요를 제공합니다. 목표 정렬에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 정렬](../../workfront-goals/goal-alignment/goal-alignment.md)을 참조하십시오. 목표에 프로젝트를 연결하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 프로젝트 추가](../results-and-activities/connect-projects-to-goals-overview.md)를 참조하십시오.
+이 문서에서는 활동 및 결과에 대한 개요를 제공합니다. 목표 정렬에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 정렬: 문서 인덱스](../../workfront-goals/goal-alignment/goal-alignment.md)을 참조하십시오. 목표에 프로젝트를 연결하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 프로젝트 추가](../results-and-activities/connect-projects-to-goals-overview.md)를 참조하십시오.
 
 ## 결과 개요
 

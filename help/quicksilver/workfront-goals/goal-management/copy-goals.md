@@ -6,18 +6,22 @@ description: Adobe Workfront 목표에서 목표를 복사하여 목표를 생�
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '788'
 ht-degree: 4%
 
 ---
 
 # Adobe Workfront 목표의 목표 복사
 
+<!--Audited for P&P only: 4/2025-->
+
 Adobe Workfront 목표에서 목표를 복사하여 목표를 생성할 수 있습니다. 원래 목표 정보 중 일부가 새 목표로 이전됩니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -36,7 +40,7 @@ Adobe Workfront 목표에서 목표를 복사하여 목표를 생성할 수 있�
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
   <li>Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <tr>
@@ -49,12 +53,9 @@ Adobe Workfront 목표에서 목표를 복사하여 목표를 생성할 수 있�
  <tr>
  <td role="rowheader">제품*</td>
  <td>
- <p> 다음 중 하나인 새 제품 요구 사항: </p>
-<ul>
-<li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
+  <p> 새 제품 요구 사항: Workfront</p>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
+  <p>현재 제품 요구 사항: Workfront 라이선스 외에도 Adobe Workfront Goals에 대한 라이선스를 구입해야 합니다. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -78,6 +79,8 @@ Adobe Workfront 목표에서 목표를 복사하여 목표를 생성할 수 있�
 </table>
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 목표 복사에 대한 고려 사항
 

@@ -7,9 +7,9 @@ description: 이 페이지에서는 미리보기 환경에 대한 Adobe Workfron
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: ebc729ad0300d54d294be275773d9ffc13128c83
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,6 @@ ht-degree: 0%
 >
 >이 업데이트로 목표 영역에서 체크인 및 펄스 섹션을 제거했습니다.
 
-Workfront 목표에 대한 자세한 내용은 Workfront 설명서의 [Workfront 목표](/help/quicksilver/workfront-goals/workfront-goals.md) 영역에서 사용할 수 있는 문서를 참조하십시오.
+Workfront 목표에 대한 자세한 내용은 Workfront 설명서의 [Adobe Workfront 목표: 문서 인덱스](/help/quicksilver/workfront-goals/workfront-goals.md) 영역에서 사용할 수 있는 문서를 참조하십시오.
 
 [이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3413327/){target=_blank}

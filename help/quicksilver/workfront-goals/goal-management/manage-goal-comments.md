@@ -6,16 +6,16 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
 # Adobe Workfront 목표의 목표 주석 관리
 
-<!--Audited: 01/2024-->
+<!--Audited for P&P only: 04/2025-->
 
 <!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
 
@@ -63,9 +63,9 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
  <tr>
  <td role="rowheader">제품*</td>
  <td>
- <p> 새 제품 요구 사항: Select 또는 Prime Adobe Workfront 플랜이 있는 경우 추가 Adobe Workfront Goals 라이센스도 구입해야 합니다. Workfront 목표는 Ultimate Workfront 플랜에 포함되어 있습니다.</p>
+ <p> 새 제품 요구 사항: Workfront</p>
  또는
- <p>현재 제품 요구 사항: 이 문서에 설명된 기능에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이선스를 구입해야 합니다. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 라이선스 외에도 Adobe Workfront Goals에 대한 라이선스를 구입해야 합니다. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준 구성</td>

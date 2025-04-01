@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: db709d801e3e80be8fbbc184e41d0ae70b983fb6
+source-git-commit: bbbb3f7895256e2f5341e6e9fd76c4fccbd15db0
 workflow-type: tm+mt
-source-wordcount: '13110'
+source-wordcount: '13116'
 ht-degree: 2%
 
 ---
@@ -1971,10 +1971,10 @@ ht-degree: 2%
    * [작업 목록에 프로젝트 및 이니셔티브에 대한 역할 할당 표시](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [업무 균형자에서 프로젝트 및 이니셔티브에 대한 역할 할당 표시](scenario-planner/show-role-allocation-workload-balancer.md)
 * Adobe Workfront 목표 {#adobe-workfront-goals}
-   * [Adobe Workfront 목표](workfront-goals/workfront-goals.md)
+   * [Adobe Workfront 목표: 문서 색인](workfront-goals/workfront-goals.md)
    * [Adobe Workfront 목표 개요](workfront-goals/goal-management/wf-goals-overview.md)
    * Adobe Workfront 목표 {#goal-management}의 목표 관리
-      * [Adobe Workfront 목표의 목표 관리](workfront-goals/goal-management/goal-management.md)
+      * [Adobe Workfront 목표의 목표 관리: 문서 색인](workfront-goals/goal-management/goal-management.md)
       * [Adobe Workfront 목표 시작](workfront-goals/goal-management/getting-started-with-wf-goals.md)
       * [Adobe Workfront 목표의 목표 액세스 및 열기](workfront-goals/goal-management/access-goals-in-wf-goals.md)
       * [Workfront 목표 사용 요구 사항](workfront-goals/goal-management/access-needed-for-wf-goals.md)
@@ -1991,7 +1991,7 @@ ht-degree: 2%
       * [Adobe Workfront 목표의 목표 세부 사항 섹션에서 목표 업데이트](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Adobe Workfront 목표에서 문제 발생 목표 검토](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Adobe Workfront 목표 {#goal-alignment}의 목표 정렬
-      * [Adobe Workfront 목표의 목표 정렬](workfront-goals/goal-alignment/goal-alignment.md)
+      * [Adobe Workfront 목표의 목표 정렬: 문서 색인](workfront-goals/goal-alignment/goal-alignment.md)
       * [Adobe Workfront 목표에서 연결하여 목표 정렬](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
       * [결과 및 활동을 목표로 변환하여 목표 정렬](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
       * [Adobe Workfront 목표의 목표 정렬 개요](workfront-goals/goal-alignment/goal-alignment-overview.md)

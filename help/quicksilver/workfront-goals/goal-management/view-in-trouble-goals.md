@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront 목표에서 문제 발생 목표 검토
+title: Adobe Workfront 목표에서 문제 해결 목표 검토
 description: 문제가 진행 중인 목표 는 달성되지 못할 위험이 있으며 Adobe Workfront 목표의 빨간색 진행률 표시줄에 표시됩니다. 목표를 자주 검토하고 진행 상황이 느린 이유를 이해해야 합니다.
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 01e53bbc10573950d08f2df63fc742e6b9771e77
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront 목표에서 문제 발생 목표 검토
+
+<!--Audited: 4/2025-->
 
 <!--
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
@@ -22,6 +24,8 @@ ht-degree: 0%
 문제가 진행 중인 목표는 달성되지 못할 위험이 있으며 Adobe Workfront 목표의 빨간색 진행률 표시줄이 표시됩니다. 목표를 자주 검토하고 진행 상황이 느린 이유를 이해해야 합니다. 목표 진행 상황에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 상황 및 상태 개요](../../workfront-goals/goal-management/calculate-goal-progress.md)를 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -52,12 +56,9 @@ ht-degree: 0%
  <tr>
  <td role="rowheader">제품*</td>
  <td>
- <p> 다음 중 하나인 새 제품 요구 사항: </p>
-<ul>
-<li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
- <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
+  <p> 새 제품 요구 사항: Workfront</p>
+  또는
+  <p>현재 제품 요구 사항: Workfront 라이선스 외에도 Adobe Workfront Goals에 대한 라이선스를 구입해야 합니다. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -81,6 +82,8 @@ ht-degree: 0%
 </table>
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 목표 달성 시 문제 상황 진행에 도달하지 않도록 하기 위한 권장 사항
 

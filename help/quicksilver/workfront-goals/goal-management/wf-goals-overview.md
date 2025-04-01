@@ -7,7 +7,7 @@ description: Workfront 목표는 전략을 작업 실행 및 전달에 연결하
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -16,13 +16,15 @@ ht-degree: 0%
 
 # Adobe Workfront 목표 개요
 
+<!--Audited: 4/2025-->
+
 >[!IMPORTANT]
 >
 >이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
 >
 >* 새 플랜 및 라이선스 구조의 경우:
 >
->   * 궁극적인 Workfront 플랜
+>   * Ultimate Workfront 플랜
 >    
 >* 현재 플랜 및 라이선스 구조의 경우:
 >

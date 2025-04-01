@@ -6,33 +6,34 @@ description: 목표 진행은 활동, 결과 또는 아동 목표와 같은 진�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 1%
+source-wordcount: '817'
+ht-degree: 0%
 
 ---
 
 # Adobe Workfront 목표의 목표 진행 및 상태 개요
 
-이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
+<!--Audited for P&P only: 4/2025-->
 
-* 새 플랜 및 라이선스 구조의 경우:
-
-   * Ultimate 플랜
-
-     또는
-
-     Prime 또는 Adobe Workfront 선택 플랜에 대한 Adobe Workfront 목표에 대한 추가 라이센스입니다.
-
-* 현재 플랜 및 라이선스 구조의 경우:
-
-   * Pro 이상
-   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
-
-Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
-
-Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
+>[!IMPORTANT]
+>
+>이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
+>
+>
+>* 새 플랜 및 라이선스 구조의 경우:
+>
+>   * Ultimate 플랜
+>    
+>* 현재 플랜 및 라이선스 구조의 경우:
+>
+>   * Pro 이상
+>   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
+>
+> Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
+>
+>Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
 Adobe Workfront은 진행 표시기의 진행 상황을 기반으로 목표 진행 상황을 자동으로 계산합니다.
 

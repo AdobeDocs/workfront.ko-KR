@@ -6,14 +6,16 @@ description: '[목표 정렬] 섹션을 사용하여 순서에서 전체 조직�
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront 목표의 목표 정렬 섹션 탐색
+
+<!--Audited P&P only: 4/2025-->
 
 [목표 정렬] 섹션을 사용하여 순서에서 전체 조직에 대한 목표 정렬을 전체적으로 볼 수 있습니다. 정렬된 목표는 계층 트리에서 상호 연결되는 카드에 표시됩니다.
 
@@ -24,6 +26,8 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서에 설명된 활동을 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto">
@@ -33,11 +37,15 @@ ht-degree: 1%
 </col>
 <tbody>
 <tr>
-<td role="rowheader">Adobe Workfront 플랜</td>
-<td>
-<p>임의</p>
-
-</td>
+<td role="rowheader">Adobe Workfront 플랜*</td>
+<td> 
+   <p>새 플랜 및 라이선스 구조의 경우:
+  <ul><li>Ultimate 플랜 </li></ul>
+   </p>
+<p>현재 플랜 및 라이선스 구조의 경우: 
+<ul><li> Pro 이상 </li>
+  <li>Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.</li></ul></p>
+   </td> 
 </tr>
 <tr>
 <td role="rowheader">Adobe Workfront 라이센스*</td>
@@ -49,12 +57,9 @@ ht-degree: 1%
 <tr>
 <td role="rowheader">제품*</td>
 <td>
-<p> 다음 중 하나인 새 제품 요구 사항: </p>
-<ul>
-<li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
-<p>또는</p>
-<p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
+  <p> 새 제품 요구 사항: Workfront</p>
+  또는
+  <p>현재 제품 요구 사항: Workfront 라이선스 외에도 Adobe Workfront Goals에 대한 라이선스를 구입해야 합니다. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
 </tr>
 <tr>
 <td role="rowheader">액세스 수준</td>
@@ -78,6 +83,8 @@ ht-degree: 1%
 </table>
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 목표 정렬 섹션 탐색
 
