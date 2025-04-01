@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: db709d801e3e80be8fbbc184e41d0ae70b983fb6
 workflow-type: tm+mt
-source-wordcount: '13107'
+source-wordcount: '13110'
 ht-degree: 2%
 
 ---
@@ -1703,6 +1703,7 @@ ht-degree: 2%
       * [Snowflake에 대한 Reader 계정 또는 연결 만들기](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Workfront Data Connect에 연결 설정](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect 데이터 사전](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [데이터 사전 테스트](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
       * [Workfront Data Connect 쿼리 예제](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Workfront Data Connect 사용 지표 보기](reports-and-dashboards/data-lake/view-usage-metrics.md)
       * 향상된 Analytics 쿼리{#enhanced-analytics-queries}
