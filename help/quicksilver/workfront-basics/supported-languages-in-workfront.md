@@ -6,16 +6,18 @@ description: 브라우저의 언어 환경 설정과 Workfront 내의 기본 이
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1159'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront에서 지원되는 언어
 
-브라우저의 언어 환경 설정(IMS가 아닌 경우) 또는 Adobe Experience Cloud 프로필 언어 환경 설정(IMS인 경우) 및 Adobe Workfront 내의 기본 이메일 로케일을 조정하여 Workfront 및 Workfront에서 보낸 이메일을 표시하는 언어를 변경할 수 있습니다.
+브라우저에서 언어 환경 설정(조직이 Adobe Workfront으로 마이그레이션되지 않은 경우) 또는 Workfront 프로필 언어 환경 설정(Adobe Admin Console에서)과 Workfront 내에서 기본 이메일 로케일을 조정하여 Adobe Experience Cloud 및 Adobe Admin Console에서 보낸 이메일을 표시하는 언어를 변경할 수 있습니다.
+
+Workfront를 표시하는 언어를 변경하려면 이 문서에서 [언어 변경](#change-the-language)을(를) 참조하십시오.
 
 Workfront 용어는 모든 Workfront 업데이트에서 지원되는 언어를 위해 업데이트됩니다.
 
@@ -32,7 +34,7 @@ Workfront은 다음 언어를 지원합니다.
 * 중국어 - 간체(zh-CN)
 * 중국어 - 번체(zh-TW)
 
-브라우저에서 Workfront을 보는 데 사용되는 언어는 조직이 IMS를 사용하고 있지 않은 경우 브라우저 언어 설정에 의해 제어되거나 조직이 IMS를 사용하고 있지 않은 경우 Adobe Experience Cloud 프로필 언어에 의해 제어됩니다. 두 경우 모두 지원되는 언어 목록에 나열된 언어를 선택해야 합니다.
+브라우저에서 Workfront을 보는 데 사용되는 언어는 조직이 Adobe Admin Console에 없는 경우 브라우저 언어 설정에 의해 제어되며, 조직이 Adobe Admin Console에 있는 경우 Adobe Experience Cloud 프로필 언어에 의해 제어됩니다. 두 경우 모두 지원되는 언어 목록에 나열된 언어를 선택해야 합니다.
 
 지원되는 언어 중 하나로 발신 이메일을 표시하려면 Workfront에서 사용자 이메일 로케일 또는 고객 정보 설정을 수정합니다.\
 고객 정보 설정을 수정하려면 Workfront 관리자여야 합니다.\
@@ -97,11 +99,18 @@ Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](h
 
 다음 설정을 수정하여 Workfront을 보는 언어 및 발신 이메일의 언어를 변경할 수 있습니다.
 
-* 브라우저의 언어(IMS가 아닌 사용자의 경우)
-* AEM 프로필의 기본 및 보조 언어(IMS 사용자용)
+* 브라우저의 언어(Adobe Admin Console이 아닌 사용자의 경우)
+* AEM 프로필의 기본 및 보조 언어(Adobe Admin Console 사용자용)
 * Workfront 계정의 고객 정보 및 사용자 이메일 로케일 설정.
 
 선택한 언어에 대해 사용 가능한 모든 번역을 보려면 Workfront 로케일과 브라우저 로케일을 모두 동일한 언어로 설정해야 합니다.
+
+조직이 Adobe Admin Console으로 마이그레이션되었는지 확인하려면 Workfront을 보는 데 사용하는 URL을 검사하십시오.
+
+| URL | Adobe 경험 |
+|---|---|
+| (CompanyName).my.workfront.com | Adobe Admin Console으로 마이그레이션되지 않음 |
+| experience.adobe.com | Adobe Admin Console으로 마이그레이션됨 |
 
 * [브라우저 언어 변경](#change-the-browser-language)
 * [Adobe Experience Cloud 언어 변경](#change-the-adobe-experience-cloud-language)
@@ -109,7 +118,7 @@ Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](h
 
 ### 브라우저 언어 변경 {#change-the-browser-language}
 
-조직이 IMS를 사용하고 있지 않은 경우 브라우저 언어를 변경하면 Workfront 인터페이스가 해당 언어로 표시됩니다.\
+조직이 Adobe Admin Console으로 마이그레이션되지 않은 경우 브라우저 언어를 변경하면 Workfront 인터페이스가 해당 언어로 표시됩니다.\
 Workfront에서 지원하는 언어에 대한 자세한 내용은 [Adobe Workfront에서 지원되는 언어](#supported-languages)를 참조하십시오.
 
 브라우저 언어는 개별 사용자 단위로 변경해야 합니다.
@@ -118,7 +127,7 @@ Workfront에서 지원하는 언어에 대한 자세한 내용은 [Adobe Workfro
 
 ### Adobe Experience Cloud 언어 변경
 
-조직이 IMS에 있는 경우 Adobe Experience Cloud 프로필 언어에 따라 Workfront에 표시되는 언어가 결정됩니다.
+조직이 Adobe Admin Console으로 마이그레이션된 경우 Adobe Experience Cloud 프로필 언어에 따라 Workfront에 표시되는 언어가 결정됩니다.
 
 1. Adobe Experience Cloud 도구 모음의 오른쪽 끝에 있는 프로필 사진을 클릭한 다음 **환경 설정**&#x200B;을 클릭합니다. Adobe Experience Cloud 도구 모음은 기본 Workfront 도구 모음 바로 위에 있습니다.
 
