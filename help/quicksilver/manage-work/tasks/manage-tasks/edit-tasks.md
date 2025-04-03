@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 작업 편집
-description: 생성한 작업 또는 Contribute 또는 관리 권한이 있는 작업에 대한 정보를 편집할 수 있습니다. 이 문서에서는 작업을 검색하고, 찾고, 편집할 수 있는 권한이 있는 경우 해당 작업을 편집하는 방법에 대해 설명합니다.
+description: 직접 만들었거나 Contribute 또는 Manage 권한이 있는 작업에 대한 정보를 편집할 수 있습니다. 이 문서에서는 작업을 검색하고, 찾고, 편집할 수 있는 권한이 있는 경우 해당 작업을 편집하는 방법에 대해 설명합니다.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '3681'
-ht-degree: 3%
+source-wordcount: '3706'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 -->
 
 
-생성한 작업 또는 Contribute 또는 관리 권한이 있는 작업에 대한 정보를 편집할 수 있습니다.
+직접 만들었거나 Contribute 또는 Manage 권한이 있는 작업에 대한 정보를 편집할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -54,7 +54,7 @@ ht-degree: 3%
    <td role="rowheader">개체 권한</td> 
    <td> 
     <ul> 
-     <li> <p>작업에 대한 Contribute 권한을 통해 작업 세부 정보 영역에서 다음 정보를 편집할 수 있습니다. </p>
+     <li> <p>작업에 대한 기여 권한을 사용하여 작업 세부 정보 영역에서 다음 정보를 편집할 수 있습니다. </p>
      <ul>
      <li>설명</li>
      <li>상태</li>
@@ -63,7 +63,7 @@ ht-degree: 3%
      <li> <p>세부 정보 영역 및 작업 편집 상자의 모든 정보를 편집하려면 작업에 대한 권한 관리</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>프로젝트에 대한 Contribute 이상 권한</p> </li> 
+     <li> <p>프로젝트에 대한 상위 권한 기여</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ ht-degree: 3%
 * 작업을 업데이트하면 현재 상태인 프로젝트에 대한 알림이 트리거됩니다. 작업에 할당된 사용자의 혼동을 방지하기 위해 프로젝트가 현재 상태일 때 편집 작업을 가능한 한 제한하십시오.
 * 승인 진행 중인 작업은 편집할 수 없습니다. 승인 프로세스에서 작업에 대한 시간을 기록하거나 상태를 업데이트할 수만 있습니다.
 
-  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![승인 프로세스를 사용하여 작업 편집](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * Workfront 관리자 또는 그룹 관리자가 프로젝트 환경 설정 영역에서 이 기능을 활성화한 경우에만 상태가 완료, 중단 또는 승인 보류 인 프로젝트의 작업을 편집하고 문서를 추가할 수 있습니다. 프로젝트 환경 설정 지정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 
@@ -223,15 +223,18 @@ ht-degree: 3%
       <td role="rowheader">상태</td> 
       <td> <p>작업이 속한 개발 단계를 나타내는 작업 상태를 선택합니다.</p> <p><b>팁</b>
 
-   작업 헤더에서 작업 상태를 업데이트할 수 있습니다. </p> </td>
-   </tr> 
+   작업 헤더에서 작업 상태를 업데이트할 수 있습니다. </p>
+
+   <p>Workfront 또는 그룹 관리자는 작업 상태의 이름을 사용자 지정할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">상태 만들기 또는 편집</a>을 참조하세요. 
+      </td> 
+     </tr> 
      <tr> 
-      <td role="rowheader">우선 순위</td> 
+      <td role="rowheader">우선순위</td> 
       <td> <p>작업의 우선 순위를 지정할 수 있는 시각적 플래그입니다. </p> <p>다음 옵션 중에서 선택합니다. </p> 
        <ul> 
       <li> <p> 없음</p> </li> 
       <li> <p> 낮음 </p> </li> 
-      <li> <p>기본 </p> </li> 
+      <li> <p>보통 </p> </li> 
       <li> <p>높음 </p> </li> 
       <li> <p> 긴급 </p> </li> 
        </ul> <p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 작업 우선 순위에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">작업 우선 순위 업데이트</a>를 참조하십시오. </p> </td> 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2684'
 ht-degree: 0%
 
 ---
@@ -394,7 +394,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    선택한 사양과 함께 레코드가 타임라인 보기에 표시됩니다.
 
-### 분류 기능을 사용하여 연결된 레코드를 타임라인 보기에 표시합니다
+### 타임라인 보기에서 연결된 레코드 분류
 
 분류 기능을 사용하여 레코드의 타임라인 보기에 연결된 레코드를 표시할 수 있습니다. 레코드와 연결을 분류할 경우 연결된 다른 레코드의 타임라인을 보고 해당 레코드가 성능과 기한에 어떤 영향을 미칠 수 있는지 이해할 수 있습니다.
 
@@ -418,7 +418,7 @@ this is not possible right now; if this is the same functionality as the table v
 * 타임라인 보기에 표시할 레코드 유형의 시작 날짜와 종료 날짜는 시간 순서대로 표시되어야 합니다. 예를 들어 레코드에 시작 날짜가 1월 31일이고 종료 날짜가 1월 1일인 경우 타임라인 보기에 표시되지 않습니다. 자세한 내용은 이 문서의 [타임라인 보기 관리](#manage-a-timeline-view) 섹션을 참조하십시오.
 * 레코드 분류에 포함할 수 있는 레코드 유형은 5개로 제한됩니다.
 
-#### 타임라인 보기에서 연결된 레코드 분류
+#### 연결된 레코드 분류
 
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
 1. (조건부) 표준 모드에서 타임라인 보기를 보려면 **분류**&#x200B;를 클릭합니다.

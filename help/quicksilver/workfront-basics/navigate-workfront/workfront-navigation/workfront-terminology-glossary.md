@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 용어집에는  [!DNL Adobe Workfront]. Y
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '20935'
+source-wordcount: '20999'
 ht-degree: 0%
 
 ---
@@ -299,8 +299,18 @@ ht-degree: 0%
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
      --> 
     </ul> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL 분류]</td> 
+   <td> <p>Workfront Planning에서 분류 기능을 사용하여 레코드의 타임라인 보기에 연결된 레코드를 표시할 수 있습니다. </p>
+   <p>레코드와 연결을 분류할 경우 연결된 다른 레코드의 타임라인을 보고 해당 레코드가 성능과 기한에 어떤 영향을 미칠 수 있는지 이해할 수 있습니다. </p>
+   <p>연결된 레코드는 해당 레코드 아래에 중첩되어 표시됩니다. </p>
+   <p>자세한 내용은 <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">타임라인 보기 관리</a>를 참조하십시오. </p>
+   </td> 
+    </tr>
+
+<tr> 
    <td>[!UICONTROL 예산 완료 일자]</td> 
    <td> <p>사용되지 않는 필드입니다. 이 필드에 표시될 수 있는 모든 정보는 [!DNL Workfront]이(가) 제거한 기능과 관련되어 있습니다. 이 필드는 업데이트할 수 없습니다. </p>
    <p> 이 필드는 [!UICONTROL 프로젝트] 보고서 및 목록에 계속 표시됩니다.</p>  </td> 
@@ -721,7 +731,7 @@ ht-degree: 0%
      <li>[!UICONTROL 문제]</li> 
      <li>[!UICONTROL 문서]</li> 
      <li>[!UICONTROL Expenses]</li> 
-     <li>[!UICONTROL Portfolio]</li> 
+     <li>[!UICONTROL Portfolios]</li> 
      <li>[!UICONTROL 프로그램]</li> 
      <li>[!UICONTROL 반복]</li> 
     </ul> </td> 
@@ -1116,7 +1126,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 이니셔티브 마지막 게시 날짜]</td> 
-   <td> <p>계획 이니셔티브가 프로젝트에 마지막으로 게시된 날짜를 표시하는 [!UICONTROL 이니셔티브], [!UICONTROL 이니셔티브 작업 역할] 및 [!UICONTROL 프로젝트] 보고서의 필드입니다. 이니셔티브를 게시하여 프로젝트를 만들거나 이니셔티브에 연결된 프로젝트를 업데이트할 수 있습니다.</p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p><span>이니셔티브 게시에 대한 자세한 내용은 [!DNL Workfront Scenario Planner]</a>에서 프로젝트를 만들고 업데이트하는 </span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publish 시나리오를 참조하십시오. 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입하지 않은 경우 [!DNL Workfront] 인스턴스에 이 필드가 표시되지 않습니다.</p> </td> 
+   <td> <p>계획 이니셔티브가 프로젝트에 마지막으로 게시된 날짜를 표시하는 [!UICONTROL 이니셔티브], [!UICONTROL 이니셔티브 작업 역할] 및 [!UICONTROL 프로젝트] 보고서의 필드입니다. 이니셔티브를 게시하여 프로젝트를 만들거나 이니셔티브에 연결된 프로젝트를 업데이트할 수 있습니다.</p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p><span>이니셔티브 게시에 대한 자세한 내용은 </span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">시나리오 게시를 참조하여 [!DNL Workfront Scenario Planner]</a>에서 프로젝트를 만들고 업데이트하십시오. 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입하지 않은 경우 [!DNL Workfront] 인스턴스에 이 필드가 표시되지 않습니다.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 인라인 검색]</td> 
@@ -1395,7 +1405,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL 개체]</td> 
    <td> <p>[!DNL Adobe Workfront]에 표시하는 정보는 [!DNL Workfront] 데이터베이스에 저장된 개체로 표시됩니다. 개체는 Workfront의 정보를 유도하는 요소입니다. 객체의 몇 가지 예는 다음과 같습니다.</p> 
     <ul> 
-     <li>[!UICONTROL Portfolio]</li> 
+     <li>[!UICONTROL Portfolios]</li> 
      <li>[!UICONTROL 프로그램]</li> 
      <li>[!UICONTROL 프로젝트]</li> 
      <li>[!UICONTROL 작업]</li> 
@@ -1539,7 +1549,7 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[!UICONTROL 프로젝트]</li> 
      <li>[!UICONTROL 작업]</li> 
      <li>[!UICONTROL 문제]</li> 
-     <li>[!UICONTROL Portfolio]</li> 
+     <li>[!UICONTROL Portfolios]</li> 
      <li>[!UICONTROL 프로그램]</li> 
      <li>[!UICONTROL 보고서]</li> 
      <li>[!UICONTROL 대시보드]</li> 
@@ -1663,19 +1673,19 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Portfolio]</td> 
-   <td> <p>통합 특성이 있는 프로젝트 모음입니다. 이러한 프로젝트는 일반적으로 동일한 리소스, 예산 또는 시간대에 대해 경쟁합니다. Portfolio을 프로그램으로 나누고 Portfolio에 추가하기 전에 프로젝트를 프로그램과 연결할 수 있습니다.</p> <p>포트폴리오에 대한 자세한 내용은 [!DNL Adobe Workfront]</a>의 <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Portfolio 개요를 참조하십시오.</p> 
+   <td> <p>통합 특성이 있는 프로젝트 모음입니다. 이러한 프로젝트는 일반적으로 동일한 리소스, 예산 또는 시간대에 대해 경쟁합니다. 포트폴리오를 프로그램으로 나누고 Portfolio에 추가하기 전에 프로젝트를 프로그램과 연결할 수 있습니다.</p> <p>포트폴리오에 대한 자세한 내용은 [!DNL Adobe Workfront]</a>의 <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Portfolio 개요를 참조하십시오.</p> 
    </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>[!UICONTROL Portfolio 관리]</td> 
+   <td>[!UICONTROL Portfolio Management]</td> 
    <td>컬렉션 또는 관련 프로그램 및 프로젝트 노력을 관리하는 데 중점을 둔 연습 영역입니다.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>[!UICONTROL Portfolio 최적화 도구]</td> 
+   <td>[!UICONTROL Portfolio Optimizer]</td> 
    <td>포트폴리오 내에서 프로젝트를 평가하고 우선 순위를 지정하는 데 도움이 되는 [!DNL Workfront] 도구입니다.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>[!UICONTROL Portfolio 소유자]</td> 
+   <td>[!UICONTROL Portfolio Owner]</td> 
    <td>포트폴리오에 대한 우선 순위 지정 및 예산을 담당하는 관련자입니다.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -2096,7 +2106,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Slack 날짜]</td> 
-   <td>작업 보기 또는 보고서에서 [!UICONTROL Slack 날짜]에는 작업이 프로젝트의 [!UICONTROL 완료 날짜]에 영향을 미칠 수 있는 정확한 날짜가 표시됩니다. 작업의 [!UICONTROL Slack 날짜]에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">작업 Slack 날짜 개요</a>를 참조하십시오.</td> 
+   <td>작업 보기 또는 보고서에서 [!UICONTROL Slack 날짜]에는 작업이 프로젝트의 [!UICONTROL 완료 날짜]에 영향을 줄 수 있는 정확한 날짜가 표시됩니다. 작업의 [!UICONTROL Slack 날짜]에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">작업 Slack 날짜 개요</a>를 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 스마트 할당]</td> 
