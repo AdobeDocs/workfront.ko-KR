@@ -6,9 +6,9 @@ description: Adobe Workfront은 대시보드에 외부 페이지로 포함할 �
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Adobe Workfront은 대시보드에 외부 페이지로 포함할 수 있는 리�
 
 +++
 
-
 리소스 플래너의 사용자 보기에 대한 고유 URL을 생성할 때 다음 사항을 고려하십시오.
 
 * 사용자 보기에 대해서만 고유한 URL을 가져올 수 있습니다. 프로젝트 또는 역할 보기에 URL을 생성하는 옵션이 없습니다.
@@ -80,18 +79,18 @@ Adobe Workfront은 대시보드에 외부 페이지로 포함할 수 있는 리�
    * 분기
 
 1. (선택 사항) **FTE** 또는 **시간**&#x200B;을(를) 기준으로 정보를 볼지 여부를 선택합니다.\
-   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+   ![FTE 또는 시간 선택](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (선택 사항) 리소스 플래너에 필터를 적용합니다.\
    필터를 적용하는 방법에 대한 자세한 내용은 [리소스 플래너의 필터 정보](../../resource-mgmt/resource-planning/filter-resource-planner.md) 를 참조하십시오.
 
 1. **하이퍼링크** 아이콘을 클릭합니다.\
-   ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![하이퍼링크 아이콘 및 URL](assets/rp-generate-url-from-link-icon.png)
 
 1. **URL 복사**&#x200B;를 클릭합니다.\
    사용자 보기에서 리소스 플래너의 고유 URL을 클립보드에 복사합니다.
 
-1. (선택 사항) 다음 중 하나를 수행합니다.  
+1. (선택 사항) 다음 중 하나를 수행합니다.
 
    * URL을 다른 애플리케이션에 붙여넣어 다른 사용자에게 보냅니다.\
      사용자 보기에서 리소스 플래너를 보려면 사용자가 Workfront에 로그인해야 합니다.
@@ -114,4 +113,4 @@ Adobe Workfront은 대시보드에 외부 페이지로 포함할 수 있는 리�
    레이아웃 템플릿에 대시보드를 추가하는 방법에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.\
    대시보드 공유에 대한 자세한 내용은 [대시보드 공유](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) 를 참조하십시오.\
    공유 URL을 볼 때 사용자는 리소스 플래너에 원래 적용한 설정으로 정보를 볼 수 있습니다. 공유 URL을 보려면 Workfront에 로그인해야 합니다.\
-   ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![리소스 플래너가 표시된 샘플 대시보드](assets/user-view-dashoard-from-unique-url-350x85.png)
