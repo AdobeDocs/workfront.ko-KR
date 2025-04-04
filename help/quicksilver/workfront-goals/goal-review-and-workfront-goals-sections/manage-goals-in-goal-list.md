@@ -6,14 +6,16 @@ description: 귀하 또는 다른 사용자가 목표를 만든 후 목표 목�
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '796'
 ht-degree: 2%
 
 ---
 
 # Adobe Workfront 목표의 목표 목록에서 목표 관리
+
+<!--Audited for P&P only: 4/2025-->
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
@@ -21,7 +23,9 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-이 문서에 설명된 작업을 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto">
 <col>
@@ -38,7 +42,7 @@ ht-degree: 2%
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
   <li>Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.</li></ul></p>
-   </td> 
+   </td>
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront 라이센스*</td>
@@ -50,12 +54,9 @@ ht-degree: 2%
  <tr>
  <td role="rowheader">제품*</td>
  <td>
- <p> 다음 중 하나인 새 제품 요구 사항: </p>
-<ul>
-<li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
-<li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 플랜입니다. </li></ul>
- <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
+    <p> 새 제품 요구 사항: Workfront</p>
+    또는
+    <p>현재 제품 요구 사항: Workfront 라이선스 외에도 Adobe Workfront Goals에 대한 라이선스를 구입해야 합니다. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -79,6 +80,8 @@ ht-degree: 2%
 </table>
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 목표 목록의 목표 관리
 

@@ -2,19 +2,21 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: 목표 검토 및 Adobe Workfront 목표 섹션
+title: '목표 검토 및 Adobe Workfront 목표 섹션: 문서 색인'
 description: 다음 문서에서 목표 검토에 대해 알아보고 Adobe Workfront에서 목표를 관리할 수 있는 섹션을 이해합니다.
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-# 목표 검토 및 Adobe Workfront 목표 섹션
+# 목표 검토 및 Adobe Workfront 목표 섹션: 문서 색인
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -22,7 +24,7 @@ ht-degree: 0%
 >
 >* 새 플랜 및 라이선스 구조의 경우:
 >
->   * 궁극적인 Workfront 플랜
+>   * Ultimate Workfront 플랜
 >    
 >* 현재 플랜 및 라이선스 구조의 경우:
 >
