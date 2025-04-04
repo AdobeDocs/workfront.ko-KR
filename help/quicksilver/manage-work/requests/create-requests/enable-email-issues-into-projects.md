@@ -3,17 +3,19 @@ product-area: requests
 navigation-topic: create-requests
 title: 사용자가 요청 대기열 프로젝트에 문제를 이메일로 보내기 활성화
 description: 사용자가 이메일을 통해 프로젝트에 문제를 추가할 수 있도록 프로젝트를 구성할 수 있습니다.
-author: LIsa
+author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
 
 # 사용자가 문제를 요청 대기열 프로젝트에 이메일로 보낼 수 있도록 설정
+
+<!-- Audited: 4/2025 -->
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
@@ -55,9 +57,7 @@ ht-degree: 0%
 
 ## 전제 조건
 
-사용자가 이메일을 통해 프로젝트에 문제를 추가할 수 있도록 프로젝트를 구성하려면 다음 전제 조건이 필요합니다.
-
-이 기능을 활성화하기 전에 다음 조건을 충족해야 합니다.
+사용자가 이메일을 통해 프로젝트에 문제를 추가할 수 있도록 프로젝트를 구성하는 데 다음 조건이 필요합니다.
 
 * 이 계정에 문제를 이메일로 보내는 사용자는 Workfront 라이선스가 있는 활성 사용자여야 합니다.
 * 이 계정에 문제를 이메일로 보내는 사용자는 프로젝트에 대한 문제 추가 권한이 있어야 합니다.
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 1. 이메일을 통해 문제를 수신할 수 있도록 활성화할 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **큐 세부 정보**&#x200B;를 클릭합니다. 먼저 **자세히 표시**&#x200B;를 클릭해야 할 수 있습니다.
-1. **큐 유형** 영역에서 **도움말 요청 큐로 Publish**&#x200B;을 선택합니다.
+1. **큐 유형** 영역에서 **도움말 요청 큐로 게시**&#x200B;를 선택합니다.
 
 1. **전자 메일 대기열 설정** 영역까지 아래로 스크롤한 다음 **전자 메일을 통한 요청 수신 활성화**&#x200B;를 선택합니다.
 

@@ -8,14 +8,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
 
 # 프로젝트 계획된 완료 일자 설정
+
+<!-- Audited: 4/2025 -->
 
 프로젝트의 계획된 완료 일자는 프로젝트가 완료되도록 설정된 일자입니다.
 
@@ -56,6 +58,8 @@ ht-degree: 1%
 </table>
 -->
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -63,15 +67,22 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>
+   새로운 기능: 표준
+
+또는
+
+현재: 플랜 </p>
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>프로젝트에 대한 액세스 편집</p> <p><b>메모</b>
 
 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
@@ -83,7 +94,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 프로젝트의 계획된 완료 일자 수동 설정
 
@@ -96,15 +109,17 @@ ht-degree: 1%
 
 완료 일자부터 프로젝트를 스케줄링하려면
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **프로젝트**&#x200B;를 클릭합니다.
+{{step1-to-projects}}
 
-1. **새 프로젝트**&#x200B;를 클릭한 다음&#x200B;**새 프로젝트**&#x200B;를 클릭합니다.
+1. **새 프로젝트**&#x200B;를 클릭한 다음 나타나는 드롭다운에서 **새 프로젝트**&#x200B;을 선택합니다.
 
    프로젝트 만들기에 대한 자세한 내용은 문서 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md)를 참조하십시오.
 
-1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 선택한 다음 오른쪽 상단의 **프로젝트 편집** 아이콘을 클릭합니다.
+1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;을(를) 선택합니다.
 
-1. **일정 모드** 필드에서 **완료 날짜**&#x200B;를 선택합니다.
+1. 오른쪽 상단의 **프로젝트 편집** 아이콘 ![편집 아이콘](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png)을 클릭한 다음 나타나는 드롭다운에서 **개요**&#x200B;를 선택합니다.
+
+1. **프로젝트 날짜** 섹션에서 **일정 모드** 필드를 클릭한 다음 **완료 날짜**&#x200B;를 선택합니다.
 
 1. 프로젝트의 **계획된 완료 일자**&#x200B;를 지정하십시오.
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
@@ -117,15 +132,17 @@ ht-degree: 1%
 
 시작 일자부터 프로젝트를 스케줄링하려면
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **프로젝트**&#x200B;를 클릭합니다.
+{{step1-to-projects}}
 
-1. **새 프로젝트**&#x200B;를 클릭한 다음&#x200B;**새 프로젝트**&#x200B;를 클릭합니다.
+1. **새 프로젝트**&#x200B;를 클릭한 다음 나타나는 드롭다운에서 **새 프로젝트**&#x200B;을 선택합니다.
 
    프로젝트 만들기에 대한 자세한 내용은 문서 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md)를 참조하십시오.
 
-1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 선택한 다음 오른쪽 상단의 **프로젝트 편집** 아이콘을 클릭합니다.
+1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;을(를) 선택합니다.
 
-1. **일정 모드** 필드에서 **시작 날짜**&#x200B;를 선택합니다.
+1. 오른쪽 상단의 **프로젝트 편집** 아이콘 ![편집 아이콘](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png)을 클릭한 다음 나타나는 드롭다운에서 **개요**&#x200B;를 선택합니다.
+
+1. **프로젝트 날짜** 섹션에서 **일정 모드** 필드를 클릭한 다음 **시작 날짜**&#x200B;를 선택합니다.
 
 1. 프로젝트의 **계획된 시작 일자**&#x200B;를 지정하십시오.
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
