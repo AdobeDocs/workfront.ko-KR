@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -298,9 +298,11 @@ Workfront 플랫폼을 지속적으로 향상함에 따라 API를 최신 상태�
 
 #### 프로젝트에서 기존 애자일 보기를 제거하고 있습니다.
 
-프로젝트의 기존 애자일 보기는 2025년 3월 13일 25.3 릴리스를 통해 Workfront에서 제거됩니다. 보드 아이콘을 클릭하여 프로젝트의 애자일 보기에서 작업을 계속 볼 수 있습니다.
+프로젝트의 기존 애자일 보기는 2025년 3월 13일 25.3 릴리스를 통해 Workfront에서 제거됩니다. 보드 아이콘을 클릭하여 프로젝트의 애자일 보기에서 작업을 계속 볼 수 있습니다. 기존 애자일 도구는 팀 영역에서 계속 사용할 수 있습니다.
 
-애자일 보기를 사용하는 방법에 대한 자세한 내용은 [애자일 보기에서 프로젝트 관리](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)를 참조하십시오.
+아래 이미지는 제거될 이전 애자일 옵션을 보여 줍니다.
+![기존 애자일 보기 링크](assets/project-agile-board-view.png)
+
 
 #### 향상된 Analytics 사용 중단
 
