@@ -6,16 +6,22 @@ description: 모든 비유료 Workfront 라이선스에 대해 증명 및 문서
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 비유료 사용자에 대한 제한된 문서 및 증명 결정 개요
 
-증명 및 문서 결정은 새로운 플랜에 대한 모든 비유료 Workfront 라이선스에 대해 제한됩니다. 자세한 내용은 [새 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)를 참조하세요.
+증명 및 문서 결정은 새로운 플랜에 대한 모든 비유료 Workfront 라이선스에 대해 제한됩니다. 문서 또는 증명의 승인자로 할당되면 검토 및 승인 프로세스를 진행하기 위한 결정을 내려야 합니다.
+
+다음 결정 옵션은 월별 한도에 포함됩니다.
+
+* 승인
+* 변경 사항과 함께 승인
+* 작업 필요
 
 한도는 매월 사용자별로 재설정됩니다. 각 라이선스의 결정 한도는 사용 중인 플랜에 따라 다릅니다.
 
@@ -61,6 +67,8 @@ ht-degree: 3%
    </td>
   </tr>
 </table>
+
+자세한 내용은 [새 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)를 참조하세요.
 
 ## 외부 사용자
 
