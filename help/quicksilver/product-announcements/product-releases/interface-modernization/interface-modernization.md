@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
+source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -211,6 +211,18 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 ## 문서
 
 +++을 확장하여 문서 인터페이스 업데이트 보기
+
+### 외부 문서의 공유 페이지에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 4월 3일, 프로덕션 릴리스: 2025년 4월 10일 주에 시작**
+
+문서가 외부 사용자와 공유될 때 외부 사용자가 볼 수 있는 페이지를 업데이트했습니다. 이 페이지에서 외부 사용자는
+
+* 문서 다운로드
+* 승인 결정
+* 증명 뷰어 열기
+
+이 업데이트에는 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인이 포함되어 있습니다.
 
 ### 문서의 승인 영역에 대한 인터페이스 업데이트
 
