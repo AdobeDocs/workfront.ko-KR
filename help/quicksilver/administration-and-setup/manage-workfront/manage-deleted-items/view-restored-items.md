@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1d18b58d1ac47159f301589315883f28dfa58694
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -66,8 +66,8 @@ Adobe Workfront 관리자 또는 플랜 라이선스가 있는 사용자는 지�
 
    항목은 기본적으로 복원 날짜별로 정렬됩니다.
 
-1. 복원된 항목 유형에 따라 **프로젝트**, **작업**, **문제** 또는 **문서** 탭을 클릭합니다.
+1. 복원된 항목 유형에 따라 **프로젝트**, **작업**, **문제**, **문서** 또는 **템플릿** 탭을 클릭합니다.
 
 1. 보려는 항목의 연결된 이름을 클릭합니다.
 
-   프로젝트, 작업, 문제 또는 문서가 표시됩니다.
+   프로젝트, 작업, 문제, 문서 또는 템플릿이 표시됩니다.
