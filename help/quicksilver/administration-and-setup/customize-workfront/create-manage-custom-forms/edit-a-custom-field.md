@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 16c1cb48fcbd771cbc5e01c53c43009be64a9d8c
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 사용자 정의 양식을 열어 필드를 만들지 않고도 Workfront의 필드 영역에서 직접 새 사용자 정의 필드 또는 위젯을 추가할 수 있습니다.
 
 사용자 정의 양식에 사용되는 사용자 정의 필드, 섹션 구분 또는 위젯의 속성을 편집할 수도 있습니다. 여기에는 항목의 레이블, 이름, 지침 등이 포함됩니다.
+
+사용자 정의 양식에서 사용자 정의 필드를 제거해도 추가된 다른 모든 양식에는 여전히 있으므로 양식이나 필드 영역에서 편집할 수 있습니다. 필드 삭제에 대한 자세한 내용은 [시스템에서 사용자 지정 필드 또는 위젯 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)를 참조하십시오.
 
 사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
@@ -80,3 +82,4 @@ ht-degree: 0%
    자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 1. 완료되면 **편집**&#x200B;을 클릭하세요.
+
