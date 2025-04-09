@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '64'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
-* [보고 기본 사항](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
+* [보고 기본 사항: 문서 인덱스](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
 * [보고 요소 개요](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
 * [기본 제공 보고서 사용](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
 * [보고서 만들기 및 관리](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
