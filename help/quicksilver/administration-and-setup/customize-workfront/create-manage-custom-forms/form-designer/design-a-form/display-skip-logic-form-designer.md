@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1680'
 ht-degree: 0%
 
 ---
 
 # 사용자 정의 양식 및 필드에 논리 규칙 추가
-
-{{highlighted-preview}}
 
 논리 규칙을 사용하면 양식의 필드를 추가로 사용자 지정할 수 있습니다.
 
@@ -115,13 +113,7 @@ ht-degree: 0%
 1. 논리 빌더에서 **표시** 탭을 선택합니다.
 1. **표시 규칙 추가**&#x200B;를 클릭합니다.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
-
    ![디스플레이 논리 빌더](assets/simple-display-logic1-val-only-in-menu.png)
-
-   프로덕션 환경의 샘플 이미지:
-
-   ![디스플레이 논리 빌더](assets/custom-form-logic-builder-display-blank.png)
 
 1. 아래 단계에 따라 빌더에 논리 구문을 만듭니다.
 
@@ -130,17 +122,11 @@ ht-degree: 0%
    1. 세 번째 옵션은 **선택됨** 또는 **선택되지 않음**&#x200B;입니다. **선택됨**&#x200B;을(를) 선택하면 값을 선택할 때 대상 필드가 표시됩니다. **선택되지 않음**&#x200B;을 선택하면 정의 필드에서 다른 값을 선택하면 대상 필드가 표시됩니다.
    1. **And** 규칙을 논리 문에 추가하려면 방금 만든 규칙 바로 아래에 있는 **규칙 추가**&#x200B;를 클릭합니다. 동일한 프롬프트에 따라 규칙을 빌드합니다. 대상 필드를 표시하려면 And 규칙이 모두 충족되어야 합니다.
 
-      <span class="preview">미리 보기 환경의 샘플 이미지:</span>
-
       ![디스플레이 논리 빌더](assets/simple-display-logic2.png)
-
-      프로덕션 환경의 샘플 이미지:
-
-      ![디스플레이 논리 빌더](assets/custom-form-logic-builder-display1.png)
 
    1. 논리 문에 **Or** 규칙을 추가하려면 논리 빌더 아래쪽의 **규칙 추가**&#x200B;를 클릭하십시오. 그런 다음 Or 영역 내에서 **규칙 추가**&#x200B;를 클릭하고 같은 프롬프트에 따라 규칙을 만듭니다. 하나 이상의 규칙이 충족되면 대상 필드가 표시됩니다.
 
-1. 논리 문 작성을 마치면 **저장** <span class="preview">또는 **적용**</span>&#x200B;을 클릭합니다.
+1. 논리 문 작성을 마치면 **적용**&#x200B;을 클릭합니다.
 
    표시 논리 아이콘이 양식 디자이너의 대상 필드 및 정의 필드에 추가됩니다.
 
@@ -212,14 +198,7 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 1. 논리 빌더에서 **건너뛰기** 탭을 선택합니다.
 1. **건너뛰기 규칙 추가**&#x200B;를 클릭합니다.
 
-
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
-
    ![논리 빌더 건너뛰기](assets/skip-logic1-val-only-in-menu.png)
-
-   프로덕션 환경의 샘플 이미지:
-
-   ![논리 빌더 건너뛰기](assets/custom-form-logic-builder-skip-blank.png)
 
 1. 아래 단계에 따라 빌더에 논리 구문을 만듭니다.
 
@@ -228,21 +207,13 @@ Using the following condition, the Sold KPI field only becomes visible when the 
    1. 두 번째 옵션은 **선택됨** 또는 **선택되지 않음**&#x200B;입니다. **선택됨**&#x200B;을(를) 선택하면 값을 선택할 때 대상 필드가 표시되고 그 사이의 필드는 건너뜁니다. **선택되지 않음**&#x200B;을 선택하면 정의 필드에서 다른 값을 선택할 때 대상 필드가 표시되고 그 사이의 필드는 건너뜁니다.
    1. 세 번째 옵션은 타겟 필드이거나 건너뛸 위치입니다. 필드 이름 또는 **양식의 끝**&#x200B;을(를) 선택하십시오. 옵션을 선택하기 전에 먼저 &quot;empty&quot;라는 단어를 클릭해야 할 수 있습니다.
 
-      <span class="preview">미리 보기 환경의 샘플 이미지:</span>
-
       ![논리 빌더 건너뛰기](assets/skip-logic2.png)
-
-      프로덕션 환경의 샘플 이미지:
-
-      ![논리 빌더 건너뛰기](assets/custom-form-logic-builder-skip1.png)
 
    1. 논리 문에 **Or** 규칙을 추가하려면 논리 빌더 아래쪽의 **규칙 추가**&#x200B;를 클릭하십시오. 그런 다음 동일한 프롬프트에 따라 옵션을 선택하여 규칙을 빌드합니다. **Or** 규칙 하나가 충족되면 대상 필드가 표시됩니다.
 
-1. 논리 문 작성을 마치면 **저장** <span class="preview">또는 **적용**</span>&#x200B;을 클릭합니다.
+1. 논리 문 작성을 마치면 **적용**&#x200B;을 클릭합니다.
 
    건너뛰기 논리 아이콘은 양식 디자이너의 대상 필드 및 정의 필드에 추가됩니다.
-
-<div class="preview">
 
 ## 사용자 정의 양식에 유효성 검사 논리 추가
 
@@ -286,8 +257,6 @@ IF({DE:Budget Field} < 0,
 1. **적용**&#x200B;을 클릭합니다.
 
    논리는 양식 디자이너의 필드에 적용됩니다.
-
-</div>
 
 <!--
 <div class="preview">

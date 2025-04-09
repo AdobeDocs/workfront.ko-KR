@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '405'
 ht-degree: 4%
 
 ---
 
 # 사용자 정의 경비 유형 만들기
-
-{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -108,7 +106,7 @@ ht-degree: 4%
     </tbody> 
    </table>
 
-1. **경비 유형 만들기** <span class="preview"> 또는 **[!UICONTROL 저장]**.</span>을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    이제 사용자가 경비 유형을 프로젝트 및 작업의 경비와 연결할 수 있습니다.
 
@@ -121,7 +119,7 @@ ht-degree: 4%
 
    **[!UICONTROL 경비 유형 편집]** 대화 상자가 나타납니다.
 
-1. 원하는 대로 변경한 다음 **변경 내용 저장** <span class="preview"> 또는 **[!UICONTROL 저장]**</span>을 클릭합니다.
+1. 원하는 대로 변경한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    이제 사용자가 경비 유형을 프로젝트 및 작업의 경비와 연결할 수 있습니다.
 
