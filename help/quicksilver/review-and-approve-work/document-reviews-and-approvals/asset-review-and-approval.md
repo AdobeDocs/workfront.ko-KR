@@ -6,9 +6,9 @@ description: Workfront에서 검토 및 승인을 위해 사용할 수 있는 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 * [레거시 문서 승인](#legacy-document-approvals)
 
-* [새 문서 승인](#new-document-approvals)
+* [통합 승인](#new-document-approvals)
 
 * [증명 승인](#proof-approvals)
 
 ## 레거시 문서 승인
 
-기존 문서 승인은 2025년에 Workfront에서 제거됩니다. 새 문서 승인 시스템은 기존 문서 승인을 대체하도록 설계되었습니다.
+기존 문서 승인은 2025년에 Workfront에서 제거됩니다. 통합 승인 시스템은 기존 문서 승인을 대체하도록 설계되었습니다.
 
 기존 문서 승인에 사용할 수 있는 주요 기능:
 
@@ -36,13 +36,13 @@ ht-degree: 0%
 
 자세한 내용은 [기존 문서 승인](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes)을 참조하세요.
 
-## 새 문서 승인
+## 통합 승인
 
-새 문서 승인은 기존 승인 시스템을 재설계한 것입니다. 현재 제한된 릴리스에서 제공되고 있는 이 솔루션은 포괄적인 이해 관계자 참여 및 버전별 문서 승인이 필요한 비즈니스에 실용적이고 효과적인 솔루션이 되도록 설계되었습니다.
+통합 승인은 기존 승인 시스템을 다시 디자인하는 것입니다. 현재 제한된 릴리스에서 제공되고 있는 이 솔루션은 포괄적인 이해 관계자 참여 및 버전별 문서 승인이 필요한 비즈니스에 실용적이고 효과적인 솔루션이 되도록 설계되었습니다.
 
-새 문서 승인에 대한 자세한 내용은 [새 문서 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)를 참조하십시오.
+통합 승인에 대한 자세한 내용은 [통합 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)를 참조하십시오.
 
-새 문서 승인에 사용할 수 있는 주요 기능:
+통합 승인에 사용할 수 있는 주요 기능:
 
 * 사용자와 팀을 승인자 및 검토자로 추가
 
@@ -51,14 +51,14 @@ ht-degree: 0%
 * 템플릿 만들기 및 사용
 
 * 증명 뷰어에서 검토 및 주석 달기
-증명 뷰어 사용에 대한 자세한 내용은 [새 문서 승인 및 증명 함께 사용](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)을 참조하십시오.
+증명 뷰어 사용에 대한 자세한 내용은 [통합 승인 및 증명 함께 사용](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)을 참조하십시오.
 
 * Workfront 홈 위젯에서 승인에 대한 여러 주요 성능 지표 보기
 
-* 현재 베타 버전의 캔버스 대시보드를 사용하여 새 문서 승인에 대한 보고 세부 사항을 볼 수 있습니다
+* 현재 Beta의 캔버스 대시보드를 사용하여 통합 승인에 대한 보고 세부 사항을 봅니다
 보고에 대한 자세한 내용은 [검토 및 승인을 위한 보고서 대시보드 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)를 참조하세요.
 
-* 증명 뷰어 [!BADGE 준비 중]에서 결정{type=Informative}
+* 증명 뷰어 [!BADGE 준비 중]{type=Informative}에서 결정
 
 * 여러 단계 승인 만들기 [!BADGE 준비 중]{type=Informative}
 

@@ -6,10 +6,10 @@ description: 모든 비유료 Workfront 라이선스에 대해 증명 및 문서
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '286'
+ht-degree: 8%
 
 ---
 
@@ -17,11 +17,47 @@ ht-degree: 0%
 
 증명 및 문서 결정은 새로운 플랜에 대한 모든 비유료 Workfront 라이선스에 대해 제한됩니다. 문서 또는 증명의 승인자로 할당되면 검토 및 승인 프로세스를 진행하기 위한 결정을 내려야 합니다.
 
-다음 결정 옵션은 월별 한도에 포함됩니다.
+다음 결정 유형은 월별 한도에 포함됩니다.
 
-* 승인
-* 변경 사항과 함께 승인
-* 작업 필요
+<table>
+  <tr>
+
+<td><strong>기존 문서 승인</strong> 
+   </td>
+   <td><strong>통합 승인</strong> 
+   </td>
+   <td><strong>증명 승인</strong> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <ul>
+   <li>승인</li>
+    <li>변경 사항과 함께 승인</li>
+     <li>거부</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>승인</li>
+    <li>변경 사항과 함께 승인</li>
+     <li>작업 필요</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>승인</li>
+    <li>변경 사항과 함께 승인</li>
+     <li>변경 필요</li>
+   </ul>
+   <p><strong>참고</strong>: 증명 승인에는 사용자 지정 결정 레이블이 있을 수 있습니다.</p>
+  </tr>
+  </tr>
+</table>
+
+
+
+## 제한
 
 한도는 매월 사용자별로 재설정됩니다. 각 라이선스의 결정 한도는 사용 중인 플랜에 따라 다릅니다.
 
