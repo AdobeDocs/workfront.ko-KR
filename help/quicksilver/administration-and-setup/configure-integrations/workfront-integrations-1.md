@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 [!DNL Workfront]은(는) Workfront 응용 프로그램에서 직접 구성하거나 해당 응용 프로그램에 대한 [!DNL Workfront] 추가 기능을 설치하여 다른 응용 프로그램에서 직접 구성할 수 있는 다양한 통합을 제공합니다.
 
-이러한 통합 중 일부는 추가 비용 없이 사용할 수 있는 반면, 다른 통합은 추가 구매가 필요합니다.
+이러한 통합 중 일부는 추가 비용 없이 사용할 수 있지만 다른 통합은 추가 구매가 필요합니다.
 
-* [기본 제공(기본) 통합 시작](#get-started-with-built-in-native-integrations)
+* [빌트인(기본) 통합 시작하기](#get-started-with-built-in-native-integrations)
 * [추가 비용 없이 통합 사용 가능](#integrations-available-at-no-additional-cost)
 * [추가 구매가 필요한 통합](#integrations-requiring-an-additional-purchase)
 
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 1. **사용자의 요구 사항에 가장 적합한 네이티브 통합 확인**
 
-   통합을 선택할 때 사람들이 이미 정기적으로 사용하는 애플리케이션을 선택하는 것이 중요합니다. [!DNL Workfront]을(를) 정기적으로 또는 자주 사용하는 응용 프로그램과 통합하면 사용자 간의 채택률이 높아집니다.
+   통합을 선택할 때 사람들이 이미 정기적으로 사용하고 있는 애플리케이션 프로그램을 선택하는 것이 중요합니다. [!DNL Workfront]을(를) 정기적으로 또는 자주 사용하는 응용 프로그램과 통합하면 사용자 간의 채택률이 높아집니다.
 
-   사용 가능한 통합 목록을 보려면 [추가 비용 없이 사용할 수 있는 통합](#integrations-available-at-no-additional-cost) 및 [추가 구매가 필요한 통합](#integrations-requiring-an-additional-purchase)을 참조하십시오.
+   사용 가능한 통합 목록은 추가 비용](#integrations-available-at-no-additional-cost) 없이 사용할 수 있는 통합 및 [추가 구매](#integrations-requiring-an-additional-purchase)가 필요한 통합을 참조하십시오[.
 
 1. **기술 관리자 식별**
 
@@ -97,7 +97,7 @@ ht-degree: 0%
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치</p></li></ul>
+     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
      <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> 
      </td>  <td> </td> 
    <td> </td> 
@@ -112,7 +112,7 @@ ht-degree: 0%
       <li>조직 ID를 통해 여러 Experience Manager Assets 저장소를 하나의 Workfront 환경에 또는 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 원활하게 연결합니다</li></ul>
      <p>자세한 내용 및 지침은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets 통합 개요</a>를 참조하십시오.</p> 
      </td>
-   <td><ul><li>Workfront은 할당된 조직 ID가 있는 Admin Console에 있어야 합니다.</li><li>Workfront 및 Experience Manager Assets 또는 Assets Essentials은 통합을 구성하는 사용자에게 제품으로 할당되어야 합니다.</li></ul></td>   <td> </td> 
+   <td><ul><li>Workfront은 할당된 조직 ID가 있는 Admin Console에 있어야 합니다.</li><li>Workfront 및 Experience Manager Assets 또는 Assets Essentials는 통합을 구성하는 사용자에게 제품으로 할당해야 합니다.</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -136,8 +136,8 @@ ht-degree: 0%
    <td> <p>[!DNL Google Workspace]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>프로젝트 또는 작업에 [!DNL Google Workspace] 전자 메일 추가 </li> 
-     <li>다음 위치에서 [!DNL Workfront] 알림 보기 및 관리 [!DNL Gmail]</li> 
+     <li>[!DNL Google Workspace] 프로젝트 또는 작업에 이메일 추가 </li> 
+     <li>에서 알림 보기 및 관리 [!DNL Workfront] [!DNL Gmail]</li> 
      <li>[!DNL Gmail]을(를) 통해 요청 제출 </li> 
     </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a>을(를) 참조하십시오.</p> </td> 
    <td> 
@@ -229,7 +229,7 @@ ht-degree: 0%
      <li>[!DNL Workfront]개의 프로젝트, 작업 및 문제 검색 </li> 
      <li>[!DNL Workfront]개의 개인 작업 만들기 </li> 
      <li>[!DNL Workfront]개 요청 제출 </li> 
-    </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: 문서 인덱스</a>을(를) 참조하십시오.</p> </td> 
+    </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: 문서 인덱스</a>을(를) 참조하십시오.</p><p><b>참고</b>: 2025년 7월 1일부터 Microsoft에서 Classic Teams 데스크톱 앱에 대한 지원을 제거합니다. 따라서 Classic Teams 데스크탑 앱을 더 이상 사용할 수 없게 되면 Microsoft Teams과의 Workfront 통합이 지원되지 않습니다. </p></td> 
    <td> 
     <ul> 
      <li>둘 이상의 팀이 사용하려는 경우 조직의 각 팀이 통합을 설치해야 합니다</li> 
@@ -261,7 +261,7 @@ ht-degree: 0%
    <td> 
     <ul> 
      <li>문서 및 폴더 연결 대상 [!DNL Workfront]</li> 
-    </ul> <p>자세한 내용은 <a href="../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md" class="MCXref xref">[!DNL SharePoint] 통합 구성</a>을 참조하십시오.</p> </td> 
+    </ul> <p>자세한 내용은 통합</a> 구성을 [!DNL SharePoint] 참조하십시오<a href="../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md" class="MCXref xref">.</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -273,11 +273,11 @@ ht-degree: 0%
      <li>[!DNL Slack]에서 승인 관리 </li> 
      <li>[!DNL Slack]에서 [!DNL Workfront]개의 작업 및 문제 만들기 </li> 
      <li>의 프로젝트 또는 작업에 대한 댓글 게시 [!DNL Slack]</li> 
-    </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>을(를) 참조하십시오.</p> </td> 
+    </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Slack] 관리자는 모든 Slack 사용자의 설치를 허용해야 합니다. [!DNL Workfront for Slack]</li> 
-     <li>[!DNL Slack] 사용자에게 [!DNL Workfront] 라이선스가 있어야 합니다. </li> 
+     <li>[!DNL Slack] 관리자는 모든 Slack 사용자가 설치할 수 있도록 허용해야 합니다. [!DNL Workfront for Slack]</li> 
+     <li>[!DNL Slack] 사용자에게 라이선스가 있어야 합니다.[!DNL Workfront] </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -303,12 +303,12 @@ ht-degree: 0%
 
 * [!DNL Workfront Fusion]
 
-  [!DNL Adobe Workfront Fusion]은(는) 앱과 서비스 내에서 작업을 연결하여 데이터를 자동으로 전송하고 변환하는 시나리오를 만듭니다. 많은 앱에 대한 전용 커넥터를 보유하고 있지만 공개 API를 사용하여 모든 애플리케이션에 연결할 수 있습니다.
+  [!DNL Adobe Workfront Fusion] 앱과 서비스 내부 및 앱 간에 작업을 연결하여 데이터를 자동으로 전송하고 변환하는 시나리오를 만듭니다. 많은 앱에 대한 전용 커넥터를 보유하고 있지만 공개 API를 사용하여 모든 애플리케이션에 연결할 수 있습니다.
 
   자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 * [!DNL Adobe Experience Manager Assets]
-* [!DNL Anaplan]([!DNL Workfront Fusion] 필요)
+* [!DNL Anaplan]&#x200B;([!DNL Workfront Fusion] 필요)
 
 Workfront과 Experience Manager Assets 또는 Assets Essentials 간의 통합을 통해 조직은 작업과 디지털 에셋 관리를 본질적으로 연결하여 콘텐츠 속도와 마켓 출시 속도를 개선할 수 있습니다.
 
@@ -316,9 +316,9 @@ Workfront과 Experience Manager Assets 또는 Assets Essentials 간의 통합을
 
 ## 파트너 통합
 
-[!DNL Workfront]에는 많은 파트너 통합이 있어 [!DNL Workfront] 경험이 풍성해집니다.
+[!DNL Workfront] 에는 많은 파트너 통합이 있어 [!DNL Workfront] 경험 경험이 풍부해집니다.
 
-Workfront에는 Workfront 환경을 향상시키는 많은 파트너 통합이 있습니다. 기존 파트너 오퍼링의 예로는 Claravine, RWS Group 과의 통합 등이 있습니다.
+Workfront에는 Workfront 경험 경험을 풍부하게 하는 많은 파트너 통합이 있습니다. 기존 파트너 서비스의 예로는 Claravine, RWS Group 등과의 통합이 있습니다.
 
 이러한 파트너 통합 및 기타 파트너 통합에 대한 자세한 내용은 [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE)를 참조하십시오.
 

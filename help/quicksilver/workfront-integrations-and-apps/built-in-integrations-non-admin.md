@@ -7,9 +7,9 @@ description: ' [!DNL Adobe Workfront] 을(를) 타사 응용 프로그램과 통
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '539'
 ht-degree: 3%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 3%
 
 <!-- Audited: 12/2023 -->
 
-[!DNL Adobe Workfront]을(를) 타사 응용 프로그램 및 다른 [!DNL Adobe] 제품과 통합할 수 있습니다. 이러한 통합을 통해 [!DNL Workfront]의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어 마케팅 업계의 크리에이티브 작업자인 경우 [!DNL Creative Cloud] 애플리케이션에 [!DNL Adobe Workfront] 플러그인을 사용하여 자산을 Photoshop에서 Workfront으로 직접 내보낼 수 있습니다.
+서드파티 응용 프로그램은 물론 다른 [!DNL Adobe] 제품과도 통합 [!DNL Adobe Workfront] 할 수 있습니다. 이러한 통합을 통해 유용성을 [!DNL Workfront] 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어, 마케팅 업계의 크리에이티브 작업자인 경우 애플리케이션용 [!DNL Creative Cloud] 플러그인을 사용하여 [!DNL Adobe Workfront] Photoshop에서 Workfront로 직접 자산을 내보낼 수 있습니다.
 
-[!DNL Workfront] 관리자는 기본 제공 통합을 사용하도록 설정하고 구성해야 사용할 수 있습니다. 조직 내에서 사용되는 기본 제공 통합에 대해 알아보려면 [!DNL Workfront] 관리자에게 문의하십시오.
+[!DNL Workfront] 내장된 통합을 사용하려면 먼저 관리자가 이를 활성화하고 구성해야 합니다. 조직 내에서 사용되는 기본 제공 통합에 대해 알아보려면 관리자에게 문의하십시오 [!DNL Workfront] .
 
-## 사용 가능한 내장 통합
+## 사용 가능한 기본 제공 통합
 
-현재 Workfront에서는 다음과 같은 내장 통합을 사용할 수 있습니다.
+다음 기본 제공 통합은 현재 Workfront에서 사용할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,18 +43,18 @@ ht-degree: 3%
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치</p></li></ul>
-     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> </td> 
+     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
+     <p>자세한 내용은 응용 프로그램</a>용 [!DNL Creative Cloud] 플러그인 설치를 [!DNL Adobe Workfront] 참조하십시오<a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets 및 Assets Essentials </p>  </p> </td> 
    <td> 
     <ul> 
-     <li>Workfront과 Adobe Experience Manager 간에 연결된 폴더 자동 생성 
+     <li>Workfront와 Adobe Experience Manager 간에 연결된 폴더를 자동으로 생성합니다. 
       <li>기존의 연결된 자산에 대한 메타데이터 동기화</p></li>
       <li>Workfront에서 메타타가 변경되면 포트폴리오, 프로그램, 프로젝트, 작업, 문제 및 문서를 자동으로 업데이트합니다.</li>
-      <li>조직 ID를 통해 여러 Experience Manager Assets 저장소를 하나의 Workfront 환경에 또는 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 원활하게 연결합니다</li></ul>
-     <p>자세한 내용 및 지침은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets 통합 개요</a>를 참조하십시오.</p> 
+      <li>여러 Experience Manager Assets 리포지토리를 하나의 Workfront 환경에 원활하게 연결하거나 여러 Workfront 환경을 하나의 조직 ID 전체에서 하나의 Experience Manager Assets 저장소에 원활하게 연결</li></ul>
+     <p>자세한 내용은 Adobe Experience Manager Assets 통합 개요를 참조하십시오 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">.</a></p> 
      </td>
   </tr> 
   <tr> 
@@ -120,7 +120,7 @@ ht-degree: 3%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>참고</b>: 2025년 7월 1일부터 Microsoft에서 Classic Teams 데스크톱 앱에 대한 지원을 제거합니다. 따라서 Classic Teams 데스크탑 앱을 더 이상 사용할 수 없게 되면 Microsoft Teams과의 Workfront 통합이 지원되지 않습니다. </p> </td> 
    <td> 
     <ul> 
      <li>[!DNL Microsoft Teams]에서 [!DNL Workfront]개의 알림 받기 </li> 
@@ -135,11 +135,11 @@ ht-degree: 3%
    <td> 
     <ul> 
      <li>[!DNL Salesforce]에서 새 [!DNL Workfront]개 요청 만들기 </li> 
-     <li>[!DNL Workfront]개 프로젝트 만들기 [!DNL Salesforce]</li> 
+     <li>[!DNL Workfront] 프로젝트 만들기 [!DNL Salesforce]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Sharepoint</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
+   <td role="rowheader"> <p>셰어포인트</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
    <td> 
     <ul> 
      <li>문서 및 폴더 연결 대상 [!DNL Workfront]</li> 
@@ -151,12 +151,12 @@ ht-degree: 3%
     <ul> 
      <li>[!DNL Slack]에서 [!DNL Workfront]개의 알림 수신 </li> 
      <li>Slack에서 승인 관리 </li> 
-     <li>[!DNL Slack]에서 [!DNL Workfront]개의 작업 및 문제 만들기 </li> 
-     <li>Slack에서 프로젝트 또는 작업에 주석 게시</li> 
+     <li>[!DNL Workfront] 작업 및 문제점 만들기[!DNL Slack] </li> 
+     <li>Slack에서 프로젝트 또는 작업에 댓글 Post</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Webdam</p> <p> <img src="assets/webdam-logo.png"> </p> </td> 
+   <td role="rowheader"> <p>웹댐</p> <p> <img src="assets/webdam-logo.png"> </p> </td> 
    <td> 
     <ul> 
      <li>문서 및 폴더 연결 대상 [!DNL Workfront]</li> 

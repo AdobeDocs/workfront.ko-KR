@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Workfront for Microsoft Teams 통합은 현재 클래식 Microsoft Teams 경험에 대해서만 지원됩니다.
+>2025년 7월 1일부터 Microsoft은 Classic Teams 데스크탑 앱에 대한 지원을 제거합니다. 따라서 Classic Teams 데스크탑 앱을 더 이상 사용할 수 없게 되면 Microsoft Teams과의 Workfront 통합이 지원되지 않게 됩니다.
 
 [!DNL Microsoft Teams]에서 팀 소유자로서 팀에 대한 [!DNL Adobe Workfront for Microsoft Teams] 앱을 설치할 수 있습니다.
 
-Microsoft Teams에 [!DNL Workfront]을(를) 사용하면 Microsoft Teams을 종료하지 않고 [!DNL Workfront]에서 여러 작업을 수행할 수 있습니다.
+Microsoft Teams에 [!DNL Workfront]을(를) 사용하면 Microsoft Teams을 종료하지 않고도 [!DNL Workfront]에서 여러 작업을 수행할 수 있습니다.
 
 Microsoft Teams용 Workfront 설치에 대한 자세한 내용은 [Microsoft Teams용 Adobe Workfront 설치](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
 
@@ -47,7 +47,7 @@ Microsoft Teams용 Workfront 설치에 대한 자세한 내용은 [Microsoft Tea
 * 문서 승인 요청에 응답합니다.\
    [!DNL Microsoft Teams]에서 [!DNL Workfront] 알림 및 문서 승인 요청에 응답하는 방법에 대한 자세한 내용은 [관리 [!DNL Adobe Workfront] 알림 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)을 참조하세요.
 
-[!DNL Microsoft Teams]에 대해 [!DNL Workfront](으)로 작업할 때 다음 사항을 고려하십시오.
+[!DNL Microsoft Teams]에 대해 [!DNL Workfront]&#x200B;(으)로 작업할 때 다음 사항을 고려하십시오.
 
 * [!DNL Workfront for Microsoft Teams]을(를) 설치하려면 [!DNL Workfront] 관리자일 필요는 없습니다.\
    앱은 무료이며, [!DNL Microsoft Teams]의 팀 소유자이기도 한 경우 팀에 추가할 수 있습니다.

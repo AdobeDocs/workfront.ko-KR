@@ -7,9 +7,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 * 내부 뉴스레터
 * 이메일
 * 공지 센터 메시지([!DNL Workfront]에서 전달되거나 사용자가 만든 메시지)
-* [!DNL Slack] 또는 [!DNL Microsoft Teams]과(와) 같은 공동 작업 도구의 공지
+* [!DNL Slack]과(와) 같은 공동 작업 도구에 대한 공지
 * 내부 웨비나 또는 교육
 
 조직의 요구 사항과 워크플로에 더 적합한 정보를 사용하여 [!DNL Workfront] 리소스(예: 설명서, 릴리스 정보 및 교육) 간의 균형을 선택할 수 있습니다. 새로운 기능을 통해 작업을 개선하거나 시간과 에너지를 절약할 수 있는 방법을 사용자에게 표시하면 사용자가 변경 사항을 수용하는 데 도움이 되지만, [!DNL Workfront]을 통해 이미 사용 가능한 데모나 설명서를 사용하여 시간을 절약할 수 있습니다.

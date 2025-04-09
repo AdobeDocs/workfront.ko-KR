@@ -1,25 +1,25 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-microsoft-teams
-title: Microsoft Teams  [!DNL Adobe Workfront] 을(를) 설치합니다.
+title: Microsoft Teams용  [!DNL Adobe Workfront] 설치
 description: ' [!DNL Adobe Workfront for Microsoft Teams] 앱을 사용하면  [!DNL Microsoft Teams] 채팅 채널을 떠나지 않고  [!DNL Workfront] 에서 기본 작업을 수행할 수 있습니다.'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
 
-# Microsoft Teams에 대해 [!DNL Adobe Workfront] 설치
+# Microsoft Teams용 [!DNL Adobe Workfront] 설치
 
 <!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
->Adobe Workfront for Microsoft Teams 통합은 현재 클래식 Microsoft Teams 경험에 대해서만 지원됩니다.
+>2025년 7월 1일부터 Microsoft은 Classic Teams 데스크탑 앱에 대한 지원을 제거합니다. 따라서 Classic Teams 데스크탑 앱을 더 이상 사용할 수 없게 되면 Microsoft Teams과의 Workfront 통합이 지원되지 않게 됩니다.
 
 
 [!DNL Adobe Workfront for Microsoft Teams] 앱을 사용하면 [!DNL Microsoft Teams] 채팅 채널을 떠나지 않고 [!DNL Workfront]에서 기본 작업을 수행할 수 있습니다.
@@ -153,6 +153,6 @@ ht-degree: 0%
    >* 향상된 인증은 [!DNL Workfront] 관리자가 이 통합에 사용하도록 설정할 때까지 사용할 수 없습니다.
 
 
-1. 로그인할 때 사용한 브라우저 탭을 닫고 [!DNL Microsoft Teams](으)로 돌아갑니다.
+1. 로그인할 때 사용한 브라우저 탭을 닫고 [!DNL Microsoft Teams]&#x200B;(으)로 돌아갑니다.
 
    [!DNL Workfront]에 성공적으로 로그인했는지 확인하는 알림이 [!DNL Workfront] 봇 채팅 채널에 표시됩니다.

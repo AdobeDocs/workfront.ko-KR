@@ -6,9 +6,9 @@ description: Workfront 봇 채널 또는 다른 팀 채널에 명령을 입력�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '485'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe Workfront for Microsoft Teams 통합은 현재 클래식 Microsoft Teams 경험에 대해서만 지원됩니다.
+>2025년 7월 1일부터 Microsoft은 Classic Teams 데스크탑 앱에 대한 지원을 제거합니다. 따라서 Classic Teams 데스크탑 앱을 더 이상 사용할 수 없게 되면 Microsoft Teams과의 Workfront 통합이 지원되지 않게 됩니다.
 
 [!DNL Workfront] 봇 채널 또는 다른 팀 채널에 명령을 입력하여 [!DNL Microsoft Teams]에서 [!DNL Adobe Workfront]에 액세스하고 [!DNL Workfront]에서 여러 작업을 수행할 수 있습니다.
 
