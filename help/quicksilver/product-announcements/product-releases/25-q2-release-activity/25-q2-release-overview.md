@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: bb7f627f7ee2fdf15ba84919bf67f6c8fbb682dd
+source-git-commit: 75ff6f954c1a53a36d64c4f428097fe9a0c4b053
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
@@ -225,7 +225,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
             <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
                 <li>미리보기 릴리스: 2025년 2월 27일</li>
-                <li>모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)</li>
+                <li>이 기능은 프로덕션 환경으로의 3단계 롤아웃, 즉 25.4 릴리스(2025년 4월 10일)부터 2024년 4월 17일 완료에 따라 릴리스될 예정입니다</li>
             </ul>
         </td>
     </tr>                          
