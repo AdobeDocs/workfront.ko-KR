@@ -6,7 +6,7 @@ description: 증명이 포함된 통합 승인을 사용할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 통합 승인 및 증명 함께 사용
 
-Workfront의 통합 승인에는 문서를 검토하고 승인하는 데 도움이 되는 새로운 기능 세트가 도입되었습니다. 기존 증명 뷰어로 통합 승인 워크플로를 사용하여 검토 중인 문서에 주석 및 마크업을 추가할 수 있습니다.
+Workfront의 통합 승인에는 문서를 검토하고 승인하는 데 도움이 되는 새로운 기능 세트가 도입되었습니다. 기존 증명 뷰어와 함께 통합 승인 워크플로를 사용하여 검토 중인 문서에 주석 및 마크업을 추가할 수 있습니다.
 
 통합 승인과 증명을 함께 사용할 때 워크플로에는 다음과 같은 몇 가지 주요 차이점이 있습니다.
 

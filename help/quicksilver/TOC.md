@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
+source-git-commit: 43e58f4495cc970b1d0f49dd4ce38fd8b1ef61e4
 workflow-type: tm+mt
 source-wordcount: '13116'
 ht-degree: 2%
@@ -404,8 +404,8 @@ ht-degree: 2%
       * 시스템 기본값 구성 {#configure-system-defaults}
          * [기본값 구성](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [프로젝트 환경 설정 구성](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
-         * [작업 및 문제 기본 설정 구성](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
-         * [그룹에 대한 프로젝트 환경 설정 잠그기](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
+         * [작업 및 문제 환경 설정 구성](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
+         * [그룹에 대한 프로젝트 환경 설정 잠금](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
          * [요청 유형 구성](administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
          * [문제 유형 사용자 지정](administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
          * [필터, 보기, 그룹화 관리](administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
@@ -817,7 +817,7 @@ ht-degree: 2%
       * [탐색 표시 개요](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
       * [개체 헤더 개요](workfront-basics/the-new-workfront-experience/new-object-headers.md)
       * [페이지를 고정하여 작업 영역 사용자 지정](workfront-basics/the-new-workfront-experience/pin-pages.md)
-      * [사용자 지정 섹션 만들기](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+      * [사용자 정의 섹션 만들기](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [Adobe Workfront 도움말 액세스](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
       * [[!DNL Adobe Workfront]개 개체 개요](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [작업 라이선스 사용자의 탐색 이해](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
@@ -828,10 +828,10 @@ ht-degree: 2%
       * [우선 순위: 예정된 릴리스](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [우선 순위 시작](workfront-basics/priorities/get-started-with-priorities.md)
       * [우선 순위에서 프로젝트 및 작업 항목 세부 정보 보기](workfront-basics/priorities/view-task-project-details.md)
-      * [우선순위에서 작업 필터링 및 그룹](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
-      * [작업 목록 열 사용자 지정](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
+      * [우선 순위에서 작업 필터링 및 그룹화](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+      * [작업 목록 열 사용자 정의](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [중요한 작업 항목의 우선 순위 지정](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
-      * [우선 순위에서 작업 및 문제점 만들기](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
+      * [우선 순위에서 작업 및 문제 만들기](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
       * [우선 순위에서 업데이트 추가 및 보기](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)
       * [우선 순위에 시간 기록](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
       * [우선 순위로 파일 업로드](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
@@ -1152,10 +1152,10 @@ ht-degree: 2%
          * [프로젝트의 실제 시작 일자 개요](manage-work/projects/planning-a-project/project-actual-start-date.md)
          * [프로젝트 기간 개요](manage-work/projects/planning-a-project/project-duration.md)
          * [프로젝트 업데이트 유형 개요](manage-work/projects/planning-a-project/project-update-type-overview.md)
-         * [프로젝트 우선순위 이해 및 업데이트](manage-work/projects/planning-a-project/project-priority.md)
-         * [프로젝트 계획된 완료 날짜 설정](manage-work/projects/planning-a-project/project-planned-completion-date.md)
-         * [프로젝트 개요 계획된 시작 날짜](manage-work/projects/planning-a-project/project-planned-start-date.md)
-         * [프로젝트, 작업 및 문제점에 대한 예상 완료 날짜 개요](manage-work/projects/planning-a-project/project-projected-completion-date.md)
+         * [프로젝트 우선 순위 이해 및 업데이트](manage-work/projects/planning-a-project/project-priority.md)
+         * [프로젝트 계획된 완료 일자 설정](manage-work/projects/planning-a-project/project-planned-completion-date.md)
+         * [프로젝트 계획 시작 일자 개요](manage-work/projects/planning-a-project/project-planned-start-date.md)
+         * [프로젝트, 작업 및 문제의 예상 완료 일자 개요](manage-work/projects/planning-a-project/project-projected-completion-date.md)
          * [프로젝트 진행 상태 개요](manage-work/projects/planning-a-project/project-progress-status.md)
          * [프로젝트 예상 시작 일자 개요](manage-work/projects/planning-a-project/project-projected-start-date.md)
       * 프로젝트 만들기 {#create-projects}
@@ -1481,7 +1481,7 @@ ht-degree: 2%
       * [팀 및 그룹에 대한 팁, 요령 및 문제 해결](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [사용자 이름이 이미 사용 중입니다.](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * 보고 {#reporting}
-   * [보고서 및 대시보드: 기사 색인](reports-and-dashboards/reports-and-dashboards-overview.md)
+   * [보고서 및 대시보드: 문서 색인](reports-and-dashboards/reports-and-dashboards-overview.md)
    * 캔버스 대시보드 {#canvas-dashboards}
       * [캔버스 대시보드](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
       * 캔버스 대시보드 관리 {#manage-canvas-dashboards}
@@ -1495,8 +1495,8 @@ ht-degree: 2%
    * 보고서 {#reports}
       * [보고서](reports-and-dashboards/reports/reports-overview.md)
       * 보고 기본 사항 {#report-basics}
-         * [보고 기본 사항: 기사 색인](reports-and-dashboards/reports/reporting/reporting-basics.md)
-         * [보고서 시작하기](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+         * [보고 기본 사항: 문서 색인](reports-and-dashboards/reports/reporting/reporting-basics.md)
+         * [보고서 시작](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [기본 보고서를 새 보고서로 저장](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
       * 보고 요소 {#report-elements}
          * [보고 요소 개요](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
@@ -1576,17 +1576,17 @@ ht-degree: 2%
          * [그룹화: 프로젝트 백분율 분류 1](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
          * [그룹화: 프로젝트 백분율 분류 2](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
          * [그룹화: 입력 날짜별 프로젝트](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
-         * [그룹화: 몇 시간 동안 프로젝트 스폰서](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
+         * [그룹화: 시간 동안 프로젝트 스폰서](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
          * [그룹화: 작업 목록에 대한 프로젝트 스폰서](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
-         * [그룹화: 그룹화의 표시 이름 편집](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
+         * [그룹화: 그룹화에서 표시 이름 편집](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
          * [그룹화: 시간 목록의 프로젝트 소유자 홈 그룹](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
          * [그룹화: 작업 비율 분류 1](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
-         * [그룹화: 작업 백분율 분류 2](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
+         * [그룹화: 작업 비율 분류 2](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
          * [그룹화: 포트폴리오, 프로그램 및 프로젝트별 작업](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
          * [보고서: 예산 시간](reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
-         * [보고서: 결합된 작업 및 문제점 보기 및 그룹화](reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
+         * [보고서: 결합된 작업 및 문제 보기 및 그룹화](reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
          * [보기: 상위 작업의 이름을 모두 대문자로 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
-         * [보기: 작업 보기의 동일한 열에 있는 계획된 시간에 대한 실제 시간](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
+         * [보기: 작업 보기의 동일한 열에서 계획된 시간에 대한 실제 시간](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
          * [보기: 할당된 사용자의 회사 및 홈 그룹](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
          * [보기: 작업 보기의 기간 및 계획된 작업에 대한 기준선 차이](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
          * [보기: 타임시트 보기에서 초과 작업 비용 계산](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
@@ -1919,10 +1919,10 @@ ht-degree: 2%
       * [승인을 위한 팁, 요령 및 문제 해결: 문서 색인](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [모든 사용자에 대한 증명 및 문서 결정 수 보기](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 타임시트 {#timesheets}
-   * [작업표: 문서 색인](timesheets/timesheets-all.md)
-   * 작업표 세부 정보 {#details}
-      * [작업표 세부 정보: 문서 색인](timesheets/timesheets/timesheets.md)
-      * [작업표 개요](timesheets/timesheets/timesheets-overview.md)
+   * [타임시트: 문서 색인](timesheets/timesheets-all.md)
+   * 타임시트 세부 정보 {#details}
+      * [타임시트 세부 정보: 문서 색인](timesheets/timesheets/timesheets.md)
+      * [타임시트 개요](timesheets/timesheets/timesheets-overview.md)
       * [타임시트 레이아웃 개요](timesheets/timesheets/timesheet-layout.md)
    * 타임시트 만들기 및 관리 {#create-and-manage-timesheets-in-adobe-workfront}
       * [타임시트 만들기 및 관리: 문서 인덱스](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
@@ -2008,8 +2008,8 @@ ht-degree: 2%
       * [Adobe Workfront 목표의 목표에 활동 추가](workfront-goals/results-and-activities/add-activities-to-goals.md)
       * [Adobe Workfront 목표의 목표에 결과 추가](workfront-goals/results-and-activities/add-results-to-goals.md)
       * [Adobe Workfront 목표의 목표에 프로젝트 추가](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
-      * [에서 결과 및 활동 편집 Adobe Systems Workfront 목표](workfront-goals/results-and-activities/edit-results-and-activities.md)
-      * [Adobe Systems Workfront Goals에서 결과 및 활동 시작하기](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+      * [Adobe Workfront 목표에서 결과 및 활동 편집](workfront-goals/results-and-activities/edit-results-and-activities.md)
+      * [Adobe Workfront 목표에서 결과 및 활동 시작](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
       * [Adobe Workfront 목표의 목표에서 진행 표시기 제거](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
    * Adobe Workfront 목표 설정 {#adobe-workfront-goal-settings}
       * [Adobe Workfront 목표 설정](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
@@ -2242,14 +2242,14 @@ ht-degree: 2%
          * [Workfront Proof 활동 감사 추적 이해](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
       * 증명 및 파일 만들기 {#create-proofs-and-files}
          * [증명 및 파일 만들기](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
-         * [Workfront Proof에 파일 및 웹 콘텐츠 업로드](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
+         * [Workfront Proof에 파일 및 웹 컨텐츠 업로드](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
          * [Workfront Proof에서 증명 생성](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
          * [Workfront Proof에서 증명 복사](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
          * [드롭 영역](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
       * 작업 관리 {#manage-your-work}
          * [작업 관리](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
          * [Workfront Proof에서 파일 관리](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
-         * [Workfront Proof의 보기 페이지 항목 관리](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
+         * [Workfront Proof의 보기 페이지에서 항목 관리](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
          * [Workfront Proof에서 증명 버전 관리](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)
          * [Workfront Proof에서 증명 설정 구성](workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
          * [Workfront Proof Proof에서 사용자 정의 보기 만들기 및 관리](workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)

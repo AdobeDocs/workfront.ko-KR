@@ -6,7 +6,7 @@ description: Workfront에서 검토 및 승인을 위해 사용할 수 있는 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 통합 승인
 
-통합 승인은 기존 승인 시스템을 다시 디자인하는 것입니다. 현재 제한된 릴리스에서 제공되고 있는 이 솔루션은 포괄적인 이해 관계자 참여 및 버전별 문서 승인이 필요한 비즈니스에 실용적이고 효과적인 솔루션이 되도록 설계되었습니다.
+통합 승인 은 기존 승인 시스템을 재설계한 것입니다. 현재 제한된 릴리스에서 제공되고 있는 이 솔루션은 포괄적인 이해 관계자 참여 및 버전별 문서 승인이 필요한 비즈니스에 실용적이고 효과적인 솔루션이 되도록 설계되었습니다.
 
 통합 승인에 대한 자세한 내용은 [통합 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)를 참조하십시오.
 
