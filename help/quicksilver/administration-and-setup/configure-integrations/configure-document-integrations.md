@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 04bdfbdf1fa05082fe12c2ab239e861a6db4ee6e
+source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1125'
+ht-degree: 1%
 
 ---
 
@@ -207,9 +207,9 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>
 -->
 
-[!DNL Workfront]에서 [!DNL Workfront DAM](으)로 문서를 보낼 때 해당 문서와 관련된 정보를 보낼 수도 있습니다. 문서에 대한 정보가 [!DNL Workfront DAM]에 메타데이터로 매핑되어 있습니다.
+[!DNL Workfront]에서 [!DNL Workfront DAM]&#x200B;(으)로 문서를 보낼 때 해당 문서와 관련된 정보를 보낼 수도 있습니다. 문서에 대한 정보가 [!DNL Workfront DAM]에 메타데이터로 매핑되어 있습니다.
 
-정보는 [!DNL Workfront]에서 [!DNL Workfront DAM](으)로 단방향 매핑되며 문서가 [!DNL Workfront DAM](으)로 업로드될 때만 전송됩니다. 문서가 이미 업로드된 후에는 Workfront 필드를 변경해도 [!DNL Workfront DAM]의 메타데이터 필드가 업데이트되지 않습니다.\
+정보는 [!DNL Workfront]에서 [!DNL Workfront DAM]&#x200B;(으)로 단방향 매핑되며 문서가 [!DNL Workfront DAM]&#x200B;(으)로 업로드될 때만 전송됩니다. 문서가 이미 업로드된 후에는 Workfront 필드를 변경해도 [!DNL Workfront DAM]의 메타데이터 필드가 업데이트되지 않습니다.\
 동일한 [!DNL Workfront] 필드를 다양한 [!DNL Workfront DAM] 필드에 매핑할 수 있지만 여러 [!DNL Workfront] 필드에 동일한 [!DNL Workfront DAM] 필드를 사용할 수는 없습니다.
 
 여러 [!DNL Workfront] 필드를 구성하여 하나의 [!DNL Workfront DAM] 필드로 내보내야 하는 경우 먼저 [!DNL Workfront]에서 계산된 사용자 지정 필드를 만들어 개체의 모든 개별 사용자 지정 필드를 표시하십시오. 그런 다음 계산된 [!DNL Workfront] 필드를 하나의 [!DNL Workfront DAM] 필드에 매핑합니다.\
@@ -219,7 +219,7 @@ ht-degree: 0%
 
 [!DNL Workfront] 관리자는 메타데이터 매핑 프로세스에 대한 필드를 매핑하려면 먼저 Workfront에서 [!DNL Workfront DAM]을(를) 활성화해야 합니다.
 
-메타데이터를 [!DNL Workfront DAM](으)로 보내도록 [!DNL Workfront]을(를) 구성하려면:
+메타데이터를 [!DNL Workfront DAM]&#x200B;(으)로 보내도록 [!DNL Workfront]을(를) 구성하려면:
 
 {{step-1-to-setup}}
 
@@ -245,4 +245,9 @@ ht-degree: 0%
 1. 필드 목록에서 메타데이터 매핑에서 제거할 필드를 선택합니다.
 1. **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
-   메타데이터 매핑에서 필드가 제거되며 이 필드에 포함된 정보는 업로드된 문서와 함께 [!DNL Workfront DAM](으)로 전송되지 않습니다.
+   메타데이터 매핑에서 필드가 제거되며 이 필드에 포함된 정보는 업로드된 문서와 함께 [!DNL Workfront DAM]&#x200B;(으)로 전송되지 않습니다.
+
+
+## 제한 사항
+
+* Google 드라이브 문서 통합은 Google 드라이브의 내 드라이브 영역에서 폴더 및 이미지 추가를 지원합니다. 공유 드라이브에서는 폴더나 이미지를 추가할 수 없습니다. [Google 공유 드라이브](https://support.google.com/a/users/answer/7212025?hl=en)에 대해 자세히 알아보세요.

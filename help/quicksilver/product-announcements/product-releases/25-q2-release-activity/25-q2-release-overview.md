@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1709'
 ht-degree: 0%
 
 ---
@@ -88,20 +88,20 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-<!--    <tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            New document approval decision buttons available in proofing viewer</a></p>
-            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+            증명 뷰어에서 사용할 수 있는 새 문서 승인 결정 버튼</a></p>
+            <p>이제 증명 뷰어에 새 문서 승인 결정 버튼이 표시됩니다. 이제 간단한 증명을 만든 다음 문서 요약에서 승인자와 검토자를 추가하면 승인자가 증명 뷰어 내에서 직접 결정을 내릴 수 있습니다.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>다음 날짜에 사용 가능:</b></p>
             <ul>
-                <li>Preview release: March 27, 2025</li>
-                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+                <li>미리보기 릴리스: 2025년 4월 9일</li>
+                <li>제한된 고객 세트를 위한 프로덕션 릴리스: 25.4 릴리스(2025년 4월) 포함</li>
             </ul>
         </td>
-    </tr>    -->                      
+    </tr>                        
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">

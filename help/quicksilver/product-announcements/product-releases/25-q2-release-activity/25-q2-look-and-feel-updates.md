@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,33 @@ ht-degree: 0%
 이 페이지에서는 2025년 2분기 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트를 설명합니다.
 
 2025년 2분기 릴리스에서 사용 가능한 모든 변경 사항 목록은 [2025년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)를 참조하십시오.
+
+## Google 드라이브 문서 통합 대화 상자에 대한 룩앤필 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 3월 26일, 모든 고객을 위한 프로덕션 릴리스: 25.4 릴리스 포함(2025년 4월 10일)
+
+Google 드라이브 문서 통합을 사용하여 새 버전의 문서를 만들 때의 디자인을 업데이트했습니다. 이 업데이트는 버전 > Google 드라이브에서 대화 상자를 새로 추가 > Google 드라이브에서 대화 상자와 동일하게 만듭니다.
+
+이전에는 내 드라이브 또는 공유 드라이브(계정과 연결된 경우)에서 선택할 수 있는 옵션이 있었습니다. 이제 대화 상자가 Google 드라이브의 내 드라이브 영역으로 직접 이동합니다.
+
++++ 이 변경 사항을 보려면 확장
+
+<table>
+ <thead>
+    <tr>
+        <th>이전</th>
+        <th>신규</th>
+    </tr>
+  </thead>
+ <tr>
+        <td><img src="assets/legacy-add.png" alt="Google Drive 통합으로 문서 추가"></td>
+         <td><img src="assets/new-add.png" alt="Google Drive 통합으로 문서 추가"></td>
+    </tr>
+</table>
+
++++
 
 ## 설정의 액세스 수준 영역에서 업데이트된 경험
 
