@@ -6,9 +6,9 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 사�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 871117ddb06af6d37448c683a259ccc7e708930c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Workfront의 개체 계층 구조에 대한 자세한 내용은 [Adobe Workfront
 </table>
 -->
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -81,6 +83,8 @@ Workfront의 개체 계층 구조에 대한 자세한 내용은 [Adobe Workfront
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 개체에 대해 상속된 권한 보기
 

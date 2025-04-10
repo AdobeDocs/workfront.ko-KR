@@ -6,7 +6,7 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 사�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 2%
@@ -40,12 +40,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 �
      템플릿에 다음 권한을 부여할 수 있습니다.
 
       * 보기
-
-        ![](assets/view-on-template-262x221.png)
-
       * 관리
-
-        ![](assets/manage-on-template-225x280.png)
 
    * 템플릿을 사용하여 만드는 향후 프로젝트입니다. 템플릿에서 만든 프로젝트에 개별 프로젝트와 동일한 수준의 권한을 부여할 수 있습니다. 
 
@@ -124,38 +119,38 @@ You can share an object only with active users, teams,
  <tbody> 
   <tr> 
    <td>복사</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>삭제</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>템플릿 세부 정보 편집</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>템플릿 보기</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>공유</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>시스템 전체 공유</td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>문서 추가</p> <p>팁: 사람들이 프로젝트에 문서를 추가하는 것으로 생각하고 프로젝트 템플릿에 문서를 추가하는 경우가 있습니다. 이 설정을 사용하지 않도록 설정하여 수신자가 이 문제를 겪지 않도록 할 수 있습니다.</p> </td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

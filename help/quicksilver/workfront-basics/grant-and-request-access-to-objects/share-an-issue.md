@@ -6,9 +6,9 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문제를 보거나 편집할 수 있는 액세스 권한을 사용자에게 부여합니다. 문제에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [문제에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)를 참조하십시오.
 
-사용자에게 부여된 액세스 수준과 함께 공유할 액세스 권한이 있는 특정 문제를 보거나, Contribute 또는 관리할 수 있는 권한을 부여할 수도 있습니다. 액세스 수준 및 사용 권한에 대한 자세한 내용은 [액세스 수준 및 사용 권한이 함께 작동하는 방법](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)을 참조하세요.
+사용자에게 부여된 액세스 수준과 함께 공유할 액세스 권한이 있는 특정 문제를 보거나, 기여하거나, 관리할 수 있는 권한을 부여할 수도 있습니다. 액세스 수준 및 사용 권한에 대한 자세한 내용은 [액세스 수준 및 사용 권한이 함께 작동하는 방법](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)을 참조하세요.
 
 권한은 Workfront의 한 항목에 한정되며, 해당 항목에 대해 수행할 수 있는 작업을 정의합니다.
 
@@ -34,15 +34,8 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
 * 문제에 대해 다음 권한을 부여할 수 있습니다. 
 
    * 보기
-
-     ![view_on_issue.png](assets/view-on-issue-221x216.png)
-
+   * 참여
    * 관리
-
-     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
-
-   * 참여\
-     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
 * 문제를 공유하면 문제에 첨부된 모든 문서가 동일한 권한을 상속합니다.
 
@@ -134,7 +127,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
 
 ## 문제 권한
 
-다음 표에는 사용자에게 문제를 확인, Contribute 또는 관리할 수 있도록 허용할 때 부여할 수 있는 권한이 표시됩니다.
+다음 표에는 사용자에게 문제를 보고, 기여하고, 관리할 수 있도록 허용할 때 부여할 수 있는 권한이 표시됩니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -145,110 +138,110 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
   <tr> 
    <td><strong>작업</strong> </td> 
    <td><strong>관리</strong> </td> 
-   <td><strong>Contribute</strong> </td> 
+   <td><strong>참여</strong> </td> 
    <td><strong>보기</strong> </td> 
   </tr> 
   <tr> 
    <td> <p> 문제 추가</p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>삭제 </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>사용자 정의 양식 첨부</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>사용자 정의 필드 편집</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>문제 승인</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>승인 프로세스 추가</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>문서 추가</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>문제 복사*</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>문제 이동</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>시간 기록</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>프로젝트로 전환*</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>할당 수락</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>업데이트/주석</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>계획된 일자 수정</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>할당하기</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>공유</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>시스템 전체 공유</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

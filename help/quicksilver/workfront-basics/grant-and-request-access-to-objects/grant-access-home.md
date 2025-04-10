@@ -6,9 +6,9 @@ description: 사용자는 Adobe Workfront 내의 오브젝트에 대한 액세�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 2c94dd423cfffc7685f24699fa73fb6a48cf2806
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/
 
    1. **내 승인** 위젯으로 이동하여 추가 액세스 요청을 찾은 다음 **액세스 권한 부여**&#x200B;를 클릭합니다.
 
-      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+      ![요청 승인](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
    1. (선택 사항) 요청된 액세스 수준과 다른 액세스 수준을 부여하려면 액세스 권한 부여 단추 왼쪽에 있는 드롭다운 메뉴를 클릭하고 새 액세스 권한을 선택한 다음 **액세스 권한 부여**&#x200B;를 클릭합니다.
 
@@ -89,29 +89,11 @@ Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/
 1. 다음 중 하나를 수행하여 사용자 프로필로 이동합니다.
 
    * 화면 오른쪽 상단의 **주 메뉴** ![](assets/dots-main-menu.png)을(를) 클릭한 다음 이름을 클릭합니다.
-   * 오른쪽 상단의 Adobe **메인 메뉴** ![](assets/adobe-blue-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **Workfront 프로필**&#x200B;을(를) 클릭합니다.
+   * 오른쪽 상단의 Adobe **기본 메뉴** ![프로필 아이콘](assets/adobe-blue-main-menu.png)을 클릭한 다음(사용 가능한 경우) **Workfront 프로필**&#x200B;을 클릭합니다.
 
-1. 헤더의 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
+1. 헤더의 이름 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 1. **알림**&#x200B;을 클릭하고 **작업 필요** 섹션에서 **누군가 액세스 요청**&#x200B;을 선택하거나 선택 취소하십시오. 다른 사용자가 사용자의 액세스를 요청할 때 전자 메일 알림을 받을지 여부에 따라 달라집니다.
 
    매일 또는 즉시 알림을 활성화할 수 있습니다.
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
-
-<!--1. (Conditional) From the legacy Home area, do the following: 
-   
-   1. In the **Work List**, select the access request you want to manage in the **Approvals** section.  
-
-   ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
-
-   The request displays on the right of the Work List. 
-
-   1. In the upper-right corner, click the grant access button.  
-   Depending on the type of access requested, the button name changes. For example, if the requestor asks for View access, the button says **Grant View Access**.  
-   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
-
-   1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access, then click **Grant < Permission level > Access >**.  
-   A message appears confirming access was granted.  
-   
-   1. (Optional) Click **Ignore** to deny access.  
-   A message appears confirming access was ignored.-->

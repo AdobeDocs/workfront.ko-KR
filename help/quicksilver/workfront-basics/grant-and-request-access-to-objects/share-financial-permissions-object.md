@@ -6,16 +6,14 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 재�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 1%
 
 ---
 
 # 개체에 대한 재무 권한 공유
-
-{{highlighted-preview}}
 
 Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 자세한 내용은 [재무 데이터에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)를 참조하십시오.
 
@@ -54,6 +52,8 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터�
  </tbody> 
 </table>
 -->
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 개체에 대한 재무 데이터 정보를 공유하려면 다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -81,11 +81,13 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터�
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 개체 공유 및 재무 권한 부여
 
 객체에 재무 권한을 부여할 때 다음 사항을 고려하십시오.
 
-* 프로젝트, 작업, 문제, <span class="preview">및 평가 카드</span>에 재무 권한을 부여할 수 있습니다.
+* 프로젝트, 작업 및 문제에 대한 재무 권한을 부여할 수 있습니다.
 * 권한은 상속될 수 있습니다. 프로젝트에 대한 재무 보기 권한이 있는 경우 프로젝트의 작업 및 문제에 대한 재무 보기 권한을 자동으로 상속합니다.
 
 객체에 재무 권한을 부여하려면 다음을 수행합니다.
@@ -102,10 +104,8 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터�
 1. 선택한 이름의 오른쪽에 드롭다운 메뉴가 나타나면 다음 옵션 중 하나를 클릭합니다.
 
    * **보기**
-   * **Contribute 대상**
+   * **참여**
    * **관리**
-
-     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. 같은 드롭다운 메뉴에서 **고급 설정**&#x200B;을 클릭한 후 다음 중 하나를 수행합니다.
 
@@ -116,7 +116,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터�
 
 ## 모든 공유 수준에 대한 재무 권한
 
-다음 표에는 객체에 대한 보기, Contribute 또는 관리 권한을 부여할 때 사용자에게 부여되는 재무 권한이 표시됩니다. 
+다음 표에는 객체에 대한 보기, 기여 또는 관리 권한을 부여할 때 사용자에게 부여되는 재무 권한이 표시됩니다. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -127,64 +127,52 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터�
   <tr> 
    <th><strong>작업</strong> </th> 
    <th><strong>관리</strong> </th> 
-   <th><strong>Contribute</strong> </th> 
+   <th><strong>참여</strong> </th> 
    <th><strong>보기</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>청구 기록 관리</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>역할 청구 및 비용 요금 관리/보기</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>사용자 청구 및 비용 요금 관리/보기</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>재무 보기</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td> ✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
   </tr> 
-  <tr> 
-   <td><span class="preview">등급 카드 관리</span></td> 
-   <td>✓ 덧신</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td><span class="preview">등급 카드 보기</span></td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td> ✓ 덧신</td> 
-  </tr>
   <tr> 
    <td>자원 계획 도구에서 원가별 정보 조회</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>리소스 계획 도구의 예산 리소스*</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>자원 계획 도구에서 자원 조회*</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
   </tr> 
  </tbody> 
 </table>

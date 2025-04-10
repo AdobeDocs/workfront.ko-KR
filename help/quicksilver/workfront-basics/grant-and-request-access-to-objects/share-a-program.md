@@ -7,7 +7,7 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 사�
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 851e946fd4e9b0da725185227f9ed24334eafb86
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -15,6 +15,7 @@ ht-degree: 0%
 ---
 
 # 프로그램 공유
+
 
 Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 프로그램을 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 프로그램 편집에 액세스하려면 플랜 라이선스가 있어야 합니다. 자세한 내용은 [프로그램에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)를 참조하십시오.
 
@@ -38,8 +39,6 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 �
 
 * 프로그램에 대한 보기 또는 관리 권한만 부여할 수 있습니다.
 
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
-
 * 프로그램을 공유하면 기본적으로 사용자는 프로그램과 연결된 모든 자식 개체에 대해 동일한 권한을 상속합니다.
 
   Workfront의 개체 계층 구조에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)를 참조하십시오.
@@ -52,17 +51,19 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 �
 
 | **작업** | **관리** | **보기** |
 |---|---|---|
-| 프로그램 세부 정보 편집 | ✓ 덧신 |   |
-| 프로그램 보기 | ✓ 덧신 | ✓ 덧신 |
-| 프로그램 삭제 | ✓ 덧신 |   |
-| 사용자 정의 양식 첨부 | ✓ 덧신 |   |
-| 사용자 정의 필드 편집 | ✓ 덧신 |   |
-| 프로젝트 추가 또는 제거&#42; | ✓ 덧신 |   |
-| 프로젝트 승인 | ✓ 덧신 |   |
-| 문서 폴더 추가&#42; | ✓ 덧신 | ✓ 덧신 |
-| 문서 추가 | ✓ 덧신 | ✓ 덧신 |
-| 업데이트/주석 추가 | ✓ 덧신 | ✓ 덧신 |
-| 공유 | ✓ 덧신 | ✓ 덧신 |
-| 시스템 전체 공유 |   | ✓ 덧신 |
+| 프로그램 세부 정보 편집 | ✓ |   |
+| 프로그램 보기 | ✓ | ✓ |
+| 프로그램 삭제 | ✓ |   |
+| 사용자 정의 양식 첨부 | ✓ |   |
+| 사용자 정의 필드 편집 | ✓ |   |
+| 프로젝트 추가 또는 제거&#42; | ✓ |   |
+| 프로젝트 승인 | ✓ |   |
+| 문서 폴더 추가&#42; | ✓ | ✓ |
+| 문서 추가 | ✓ | ✓ |
+| 업데이트/주석 추가 | ✓ | ✓ |
+| 공유 | ✓ | ✓ |
+| 시스템 전체 공유 |   | ✓ |
 
-*이러한 권한은 액세스 수준 및 프로젝트와 같은 다른 오브젝트에 대한 권한에 의해 제어됩니다. 
+*이러한 권한은 액세스 수준 및 프로젝트와 같은 다른 오브젝트에 대한 권한에 의해 제어됩니다.
+
+

@@ -6,9 +6,9 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
+source-git-commit: 8b524f7cd7e1bfedbaa1e993cbf4b3b805344b7c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1909'
 ht-degree: 0%
 
 ---
@@ -193,9 +193,7 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
 
    ![](assets/share-a-document-350x160.png)
 
-1. **다음 &lt; 개체 이름 > 액세스 권한 부여** 필드에서 개체를 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 해당 이름을 클릭합니다.
-
-   ![](assets/portfolio-access-box.png)
+1. **[개체 이름 제공]에 액세스 권한 부여** 필드에서 개체를 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
 
    >[!TIP]
    >
@@ -205,7 +203,7 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
 
 1. (선택 사항) 객체에 대한 액세스 권한을 부여할 각 사용자, 팀, 역할 또는 그룹에 대해 3단계를 반복합니다.
 
-1. 드롭다운 메뉴를 클릭한 다음 부여할 권한 수준을 선택하여 3단계에서 추가한 각 사용자, 팀, 역할, 그룹 또는 회사에 대한 권한을 지정합니다.
+1. 3단계에서 추가한 각 사용자, 팀, 역할, 그룹 또는 회사에 대한 권한을 지정합니다.
 
    개체에서 권한을 제거하려면 [개체에서 권한 제거](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)를 참조하십시오.
 
@@ -218,24 +216,24 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
      >
      >Workfront 관리자 또는 개체 작성자는 이러한 엔티티에서 권한을 제거할 수 있습니다.
 
-     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
+1. (선택 사항) 객체에 대한 특정 권한을 구성하기 위해 부여한 권한 수준 옆에 있는 고급 옵션 아이콘을 클릭합니다.
 
-1. (선택 사항) 개체에 대한 특정 권한을 구성하려면 **고급 설정**&#x200B;을 클릭합니다.
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    보기 및 관리 권한에는 선택한 객체에 따라 다른 고급 옵션이 있습니다.\
    권한 수준에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
 
-1. (선택 사항) 시스템의 모든 사용자가 이 개체를 사용할 수 있도록 하려면 **톱니바퀴** 아이콘 ![](assets/gear-icon-settings-with-dn-arrow.jpg)을(를) 클릭한 다음, 드롭다운 메뉴에서 **시스템 전체에 표시**&#x200B;를 클릭합니다.
+1. (선택 사항) 시스템의 모든 사용자가 이 개체를 사용할 수 있도록 하려면 드롭다운 메뉴에서 **액세스 권한이 있는 사용자**&#x200B;를 클릭하고 **시스템의 모든 사용자가 볼 수 있음**&#x200B;을 선택합니다.
 
    모든 사용자는 사용자가 설정한 권한에 따라 개체를 볼 수 있습니다.
 
-1. (선택 사항) 개체를 공개하려면 **외부 사용자에게 공개하기**&#x200B;를 클릭합니다.
+1. (선택 사항) 개체를 공개로 설정하려면 톱니바퀴 아이콘을 클릭한 다음 **외부 사용자에게 공개로 설정**&#x200B;을 활성화하십시오.
 
    >[!TIP]
    >
    >일부 객체에는 이 옵션을 사용할 수 없습니다.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
 
 1. (조건부) 개체를 외부 사용자에게 공개하는 경우 **링크 복사**&#x200B;를 클릭한 다음 링크를 외부 사용자에게 배포합니다.
 
@@ -261,7 +259,6 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
 
 1. **편집 &lt; 개체 이름 > 액세스 대상** 상자에서 개체를 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
 
-   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -273,11 +270,10 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
 
 1. (선택 사항) 객체에 대한 액세스 권한을 부여할 각 사용자, 팀, 역할 또는 그룹에 대해 3단계를 반복합니다.
 
-1. 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 부여할 권한 수준을 선택하여 3단계에서 추가한 각 사용자, 팀, 역할, 그룹 또는 회사에 대한 권한을 지정합니다.
+1. 단계에서 추가한 각 사용자, 팀, 역할, 그룹 또는 회사에 대한 권한을 지정합니다.
 
    개체에서 권한을 제거하려면 [개체에서 권한 제거](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)를 참조하십시오.
 
-   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    다음 옵션을 사용할 수 있습니다.
 
@@ -299,12 +295,12 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
      >
      >Workfront 관리자 또는 개체 작성자는 이러한 엔티티에서 권한을 제거할 수 있습니다.
 
-1. (선택 사항) 개체에 대한 특정 권한을 구성하려면 **고급 설정**&#x200B;을 클릭합니다.
+1. (선택 사항) 객체에 대한 특정 권한을 구성하기 위해 부여한 권한 수준 옆에 있는 고급 옵션 아이콘을 클릭합니다.
+
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    보기, 관리 및 기여는 선택한 객체에 따라 다른 고급 옵션이 있습니다.\
    권한 수준에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (선택 사항) 시스템의 모든 사용자가 이 개체를 사용할 수 있도록 하려면 **톱니바퀴** 아이콘 ![](assets/gear-icon-settings-with-dn-arrow.jpg)을(를) 클릭한 다음, 드롭다운 메뉴에서 **시스템 전체에 표시**&#x200B;를 클릭합니다.
 

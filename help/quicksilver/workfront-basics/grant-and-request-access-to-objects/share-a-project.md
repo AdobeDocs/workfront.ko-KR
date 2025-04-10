@@ -6,9 +6,9 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '990'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 
 * 기본적으로 프로젝트 작성자는 프로젝트를 관리할 수 있는 권한이 있으며 프로젝트 소유자로도 지정됩니다. 프로젝트가 다른 소유자에게 할당된 경우 해당 사용자도 프로젝트를 관리할 수 있는 권한이 있습니다. 프로젝트 작성자(또는 소유자)가 프로젝트를 다른 사용자와 공유할 때 사용자는 프로젝트에서 작업하면서 수행할 수 있는 작업을 제어할 수 있는 특정 권한을 해당 사용자에게 부여합니다.
 
-  그러나 프로젝트 소유자에게 플래너 라이선스가 없는 경우 프로젝트를 관리할 수 있는 전체 액세스 권한이 없습니다. 플랜 라이선스가 있는 사용자만 프로젝트를 관리할 수 있는 권한을 가질 수 있습니다. 자세한 내용은 [액세스 수준과 사용 권한이 함께 작동하는 방법](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)을 참조하세요.
+  단, 프로젝트 소유자에게 플랜 또는 표준 라이센스가 없는 경우 프로젝트를 관리할 수 있는 전체 액세스 권한이 없습니다. 플랜 또는 Standard 라이선스가 있는 사용자만 프로젝트를 관리할 수 있는 권한을 가질 수 있습니다. 자세한 내용은 [액세스 수준과 사용 권한이 함께 작동하는 방법](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)을 참조하세요.
 
 * 프로젝트를 개별적으로 공유하거나 여러 개의 프로젝트를 한 번에 공유할 수 있습니다. 프로젝트 공유는 다른 오브젝트 공유와 동일합니다. Workfront에서 항목을 공유하는 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 * 프로젝트에 다음 권한을 부여할 수 있습니다.
@@ -37,8 +37,6 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
    * 보기
    * 관리
    * 참여
-
-     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
 * 프로젝트를 공유할 때는 별도로 지정하지 않는 한 모든 작업, 문제 및 문서가 동일한 권한을 상속합니다.
 
@@ -104,8 +102,8 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 
 ## 다양한 라이선스 유형에 대한 제한 사항
 
-* Light 라이선스가 있고 그 이하(또는 이전 라이선스 모델의 경우 작업 라이선스와 그 이하)의 사용자에게는 프로젝트 관리 권한이 없습니다. 이러한 사용자의 경우 가장 높은 공유 권한은 Contribute입니다.
-* 기여자 라이선스(또는 이전 라이선스 모델에 대한 요청 라이선스)가 있는 사용자는 프로젝트 정보를 볼 수 있지만 프로젝트 액세스 권한은 제한됩니다.
+* 작업자 라이선스가 있는 사용자는 프로젝트를 관리할 수 있는 권한이 없습니다. 작업자의 경우 가장 높은 공유 권한은 Contribute입니다.
+* 요청 라이선스가 있는 사용자는 프로젝트 정보를 볼 수 있지만 프로젝트 액세스 권한은 제한됩니다.
 * 보기 또는 기여 권한이 있는 사용자도 승인 프로세스에 포함된 경우 프로젝트 상태 변경의 예외가 발생합니다. 프로젝트를 승인하여 프로젝트의 상태를 변경할 수 있지만 상태는 승인 또는 거절에 대해 사전 정의된 상태입니다.
 * 프로젝트를 복사할 수 있으려면 사용자는 액세스 수준에서도 프로젝트를 만들 수 있는 액세스 권한이 있어야 합니다.
 
