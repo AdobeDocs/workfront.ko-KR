@@ -6,9 +6,9 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2680'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업으로 표시됩니다. 그러나 요청 형태로 계획되지 않은 작업이 언제든지 들어올 수 있는 환경에서 작업할 수 있습니다. Workfront은 요청 대기열 을 사용하여 이러한 유형의 환경을 수용하는 워크플로를 제공합니다.
 
@@ -44,7 +44,7 @@ Workfront Planning 요청을 처음부터 작성하여 다음과 같은 방법�
 
 * Workfront Planning 요청 양식에 대한 링크에서
 
-* <span class="preview">Workfront의 요청 영역에 있는 Workfront Planning 요청 양식에서 가져온 것입니다. </span>
+* Workfront의 요청 영역에 있는 Workfront Planning 요청 양식에서 가져올 수 있습니다.
 
   조직은 Workfront Planning 패키지를 구매해야 합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
@@ -124,12 +124,12 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 
 {{step1-to-requests}}
 
-1. <span class="preview">(선택 사항 및 조건부) 조직 및 Workfront 인스턴스에 다음 사항이 적용되는 경우 화면 오른쪽 상단의 **새 경험으로 전환** 설정을 선택합니다. </span>
+1. (선택 사항 및 조건부) 조직 및 Workfront 인스턴스에 다음 사항이 적용되는 경우 화면 오른쪽 상단의 **새 경험으로 전환** 설정을 선택합니다.
 
-   * <span class="preview">조직에서 Workfront 패키지를 구매했습니다</span>
-   * <span class="preview">조직이 Adobe 통합 환경에 온보딩되었습니다.
-   * <span class="preview">관리자가 Workfront Planning에 대한 액세스 권한을 부여했습니다</span>
-   * <span class="preview">Workfront Planning 작업 영역에 대한 적어도 보기 권한이 있습니다</span>
+   * 조직이 Workfront 패키지를 구매했습니다.
+   * 조직이 Adobe 통합 경험에 온보딩되었습니다.
+   * 관리자가 Workfront Planning에 대한 액세스 권한을 부여했습니다.
+   * Workfront Planning 작업 영역에 대한 보기 권한이 적어도 있습니다.
 
    자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
@@ -142,15 +142,15 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 
    **새 요청** 상자가 열립니다.
 
-1. <span class="preview">(조건부) Workfront Planning을 포함하는 새 경험으로 전환하면 **새 요청** 상자에 다음 항목이 표시됩니다.</span>
+1. (조건부) Workfront Planning을 포함하는 새 경험으로 전환하면 **새 요청** 상자에 다음이 표시됩니다.</span>
 
-   * <span class="preview">가장 최근에 액세스한 6개의 Workfront 요청 큐 및 Planning 요청 양식이 최근 섹션에 표시됩니다. </span>
-   * <span class="preview">50개의 추가 Workfront 요청 큐 및 Planning 요청 양식이 **모든 요청 양식** 섹션에 알파벳 순서로 표시됩니다. 기본적으로 표시되지 않는 요청 대기열을 검색할 수 있습니다. </span>
+   * 가장 최근에 액세스한 6개의 Workfront 요청 대기열 및 Planning 요청 양식이 최근 섹션에 표시됩니다.
+   * 50개의 추가 Workfront 요청 큐 및 Planning 요청 양식이 **모든 요청 양식** 섹션에 알파벳 순서로 표시됩니다. 기본적으로 표시되지 않는 요청 대기열을 검색할 수 있습니다.
 
    ![계획 요청에 대한 통합 워크플로가 있는 새 요청 상자](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
-   <span class="preview">Workfront 요청 큐 카드 중 하나를 클릭하거나 검색한 다음 목록에 표시될 때 클릭합니다. </span>
-1. (조건부) <span class="preview">Workfront Planning이 포함된 새 환경으로 전환한 경우 주제 그룹 및 대기열 주제를 선택하고 양식을 계속 업데이트하십시오</span>
+   Workfront 요청 대기열 카드 중 하나를 클릭하거나 검색한 다음 목록에 표시될 때 클릭합니다.
+1. (조건부) Workfront Planning을 포함하는 새 경험으로 전환한 경우 주제 그룹 및 대기열 주제를 선택하고 양식을 계속 업데이트합니다.
 
    그렇지 않으면 **요청 유형** 필드 내부를 클릭하고 다음 중 하나를 수행합니다.
 
@@ -333,7 +333,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 
    요청을 제출하면 초안이 자동으로 삭제되고 복원할 수 없습니다.
 
-   제출된 요청은 요청 영역의 **제출됨** 섹션에 나열됩니다. <span class="preview">Workfront Planning을 포함하는 새 환경을 사용하는 경우 Workfront 제출 요청이 요청 영역의 **Workfront** 탭에 표시됩니다. </span>
+   제출된 요청은 요청 영역의 **제출됨** 섹션에 나열됩니다. Workfront Planning을 포함하는 새 환경을 사용하는 경우 Workfront 제출 요청이 요청 영역의 **Workfront** 탭에 표시됩니다.
 
    수신 요청 처리에 대한 자세한 내용은 [작업 및 팀 요청 관리](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) 문서를 참조하십시오.
 

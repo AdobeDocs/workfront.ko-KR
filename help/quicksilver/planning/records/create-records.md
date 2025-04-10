@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4b5248f667648543263073022ae10336fb022f97
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2359'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # 레코드 만들기
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +28,13 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 다음 중 하나를 수행하여 레코드를 만들 수 있습니다.
 
 * [레코드 유형 테이블 보기에서 인라인으로 추가하여 레코드를 만듭니다.](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-* <span class="preview">[모든 레코드 형식 보기에서 새 레코드 또는 레코드 요청 단추를 사용하여 레코드를 만듭니다](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
+* [레코드 유형 보기에서 새 레코드 또는 레코드 요청 버튼을 사용하여 레코드 만들기](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [외부 목록에서 레코드 목록 복사 및 붙여넣기](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [테이블 보기에서 레코드 복제](#create-records-by-duplicating-them)
 * [다른 레코드와 연결할 때 레코드 만들기](#create-records-as-you-connect-them)
 * [요청 양식을 레코드 유형으로 제출하여 레코드 생성](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[CSV 또는 Excel 파일에서 정보를 가져와서 레코드를 만듭니다](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
-* <span class="preview">[자동화를 사용하여 레코드 만들기](#create-records-by-using-automations)</span>
+* [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [자동화를 사용하여 레코드 만들기](#create-records-by-using-automations)
 
 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -99,7 +99,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td> <p>레코드를 추가할 작업 영역 <!--<span class="preview">and record type</span>-->에 대해 또는 그 이상의 권한을 제공하십시오. </p>
-   <p><span class="preview">레코드 페이지의 레코드 요청 단추를 사용하여 레코드를 만들 수 있는 <!--<span class="preview">and record type</span>--> 작업 영역에 대한 이상의 권한을 봅니다.</span></p>
+   <p>레코드 페이지의 레코드 요청 단추를 사용하여 레코드를 만들 수 있는 <!--<span class="preview">and record type</span>--> 작업 영역에 대한 이상의 권한을 봅니다.</p>
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
    <p>하위 개체(프로젝트)를 추가하기 위해 Workfront 개체(포트폴리오)에 대한 권한을 관리합니다.</p>
    </td> 
@@ -182,8 +182,6 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
    * CTRL+Z(Mac의 경우 ⌘+Z)
    * 변경 내용을 재실행하려면 CTRL+Shift+Z(Mac의 경우 ⌘+Shift+Z)
 
-<div class="preview">
-
 ## 레코드 유형 보기에서 새 레코드 또는 레코드 요청 버튼을 사용하여 레코드 만들기
 
 작업 영역 <!--<span class="preview">and record type</span>-->에 대한 보기 권한이 있는 사용자는 레코드 유형 페이지의 레코드 요청 단추를 통해서만 레코드를 만들 수 있습니다.
@@ -247,8 +245,6 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
    * 승인 프로세스가 있는 요청 양식을 사용하여 추가하도록 선택하지 않은 경우 새 레코드가 레코드 유형에 추가됩니다. 레코드를 만들기 전에 모든 승인자가 승인을 받아야 합니다.
    * CSV 또는 Excel 스프레드시트를 사용하여 레코드를 추가한 경우 레코드 유형에 여러 레코드가 추가됩니다.
    * 요청 양식을 제출하여 요청을 추가한 경우 Workfront 요청 영역의 계획 탭에 새 요청이 추가됩니다.
-
-</div>
 
 <!-- this is not possible anymore: 
 
@@ -339,7 +335,7 @@ You can import records from other applications by linking them to existing recor
 
      자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
 
-1. (조건부) 연결을 시도할 때 레코드를 찾을 수 없는 경우 <span class="preview">**+ 추가**</span>&#x200B;를 클릭합니다.
+1. (조건부) 연결을 시도할 때 레코드를 찾을 수 없으면 **+ 추가**&#x200B;를 클릭합니다
 
    또는
 이름을 입력한 다음 **+ 추가**&#x200B;를 클릭합니다. **+ 추가** 단추 다음에 연결 중인 레코드 형식의 이름이 옵니다. 예: 기존 캠페인에 브랜드를 추가할 때 &quot;브랜드 추가&quot; 입력한 이름도 [추가] 단추 다음에 표시됩니다.
@@ -376,17 +372,11 @@ CSV 또는 Excel 파일을 사용하여 레코드 유형을 가져올 때 레코
 
 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
-<div class="preview">
-
 ## CSV 또는 Excel 파일에서 레코드를 가져와서 레코드 만들기
 
 CSV 또는 Excel 파일에서 정보를 가져올 때 기존 레코드 유형의 레코드를 가져올 수 있습니다.
 
 자세한 내용은 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)를 참조하십시오.
-
-</div>
-
-<div class="preview">
 
 ## 자동화를 사용하여 레코드 만들기
 
@@ -396,6 +386,5 @@ Workfront Planning의 레코드 페이지에서 자동화를 구성하고 활성
 
 자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오.
 
-</div>
 
 

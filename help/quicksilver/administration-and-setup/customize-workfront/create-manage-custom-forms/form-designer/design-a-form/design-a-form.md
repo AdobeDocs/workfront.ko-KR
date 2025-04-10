@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '6615'
+source-wordcount: '6555'
 ht-degree: 5%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 5%
 # 사용자 정의 양식 만들기
 
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
@@ -1009,8 +1009,8 @@ Planning 연결 필드를 추가하려면
      </tr>
 
 <tr> 
-      <td role="rowheader"><span class="preview">레코드 유형 필드</span></td> 
-      <td><p><span class="preview">(선택 사항) 연결된 레코드 유형에서 최대 7개의 조회 필드를 선택하여 사용자 정의 양식에 표시합니다. 기본 필드는 기본적으로 선택되어 있으며 편집할 수 없습니다. </span></p> <span class="preview"><p> 선택한 연결된 레코드의 필드가 사용자 정의 양식의 표 보기에 표시됩니다. 양식이 Workfront 개체에 첨부된 경우 테이블 보기는 읽기 전용입니다. </span></p>  
+      <td role="rowheader">레코드 유형 필드</td> 
+      <td><p>(선택 사항) 연결된 레코드 유형에서 최대 7개의 조회 필드를 선택하여 사용자 정의 양식에 표시합니다. 기본 필드는 기본적으로 선택되어 있으며 편집할 수 없습니다. </p> <p> 선택한 연결된 레코드의 필드가 사용자 정의 양식의 표 보기에 표시됩니다. 양식이 Workfront 개체에 첨부된 경우 테이블 보기는 읽기 전용입니다. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
       </tbody> 

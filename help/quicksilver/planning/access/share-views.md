@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1540'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 보기 공유
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 다음 엔티티와 뷰를 공유할 수 있습니다.
 
-* 내부적으로, Workfront 사용자, 그룹, <span class="preview">팀, 회사 및 작업 역할</span> 사용
+* 내부적으로 Workfront 사용자, 그룹, 팀, 회사 및 작업 역할 사용
 * 공개적으로, Workfront 외부의 사용자 포함
 
 <!--
@@ -129,7 +129,7 @@ This article describes how you can share a view with others. For information abo
 
 ## 내부적으로 보기에 대한 권한 공유
 
-만든 보기 또는 관리 권한이 있는 보기를 Workfront Planning의 사용자, 그룹, <span class="preview">팀, 회사 및 작업 역할</span>과 공유할 수 있습니다.
+생성한 보기 또는 관리 권한이 있는 보기를 Workfront Planning의 사용자, 그룹, 팀, 회사 및 작업 역할과 공유할 수 있습니다.
 
 >[!NOTE]
 >
@@ -151,10 +151,10 @@ This article describes how you can share a view with others. For information abo
 
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 다음 선택 사항 중에서 선택합니다.
 
-   * **초대된 사람만 액세스할 수 있습니다**: 보기를 공유할 사용자, 그룹, <span class="preview">팀, 회사 또는 작업 역할</span>을 지정해야 합니다. 기본 옵션입니다.
+   * **초대된 사람만 액세스할 수 있습니다**: 보기를 공유할 사용자, 그룹, 팀, 회사 또는 작업 역할을 지정해야 합니다. 기본 옵션입니다.
    * **작업 영역의 모든 사용자가 볼 수 있습니다**: 작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자가 보기에 액세스할 수 있습니다.
 
-1. **이 보기에 대한 액세스 권한 부여** 필드에서 사용자, 그룹, <span class="preview">팀, 회사 또는 작업 역할</span>의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+1. **이 보기에 대한 액세스 권한 부여** 필드에서 사용자, 그룹, 팀, 회사 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
    ![그룹과 보기 공유](assets/sharing-a-view-ui-with-groups.png)
 
@@ -255,7 +255,7 @@ Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수
 1. 보기의 내부 공유를 제거하려면 다음 작업을 수행하십시오.
 
    1. **내부 공유** 탭을 선택했는지 확인하십시오.
-   1. 제거할 사용자, 그룹, <span class="preview">팀, 회사 또는 작업 역할</span>을(를) 찾고 보기를 공유하는 엔터티 이름 오른쪽에 있는 권한 드롭다운 메뉴를 확장한 다음 **제거**&#x200B;를 클릭합니다.
+   1. 제거할 사용자, 그룹, 팀, 회사 또는 작업 역할을 찾고 보기를 공유하는 엔터티 이름 오른쪽에 있는 권한 드롭다운 메뉴를 확장한 다음 **제거**&#x200B;를 클릭합니다.
 
 1. 보기의 공개 공유를 제거하려면 다음 작업을 수행하십시오.
 

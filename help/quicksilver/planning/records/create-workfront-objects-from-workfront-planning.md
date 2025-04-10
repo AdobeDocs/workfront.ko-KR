@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1078'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -31,24 +31,24 @@ Workfront Planning에서 다음과 같은 방법으로 Adobe Workfront 객체를
 * Planning 레코드에서 Workfront 객체를 연결할 때
 
   이 문서에서는 Planning 레코드에서 연결할 때 Workfront Planning에서 Workfront 객체를 만드는 방법에 대해 설명합니다.
-* <span class="preview">레코드 페이지에서 자동화를 사용하는 경우.</span>
+* 레코드 페이지에서 자동화를 사용하는 경우입니다.
 
-  <span class="preview">자동화를 사용하여 Workfront 개체를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오. </span>
+  자동화를 사용하여 Workfront 개체를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오.
 
 Workfront Planning 레코드를 다음 Workfront 객체 유형과 연결할 때 Workfront Planning에서 다음 유형의 Workfront 객체를 생성할 수 있습니다.
 
 * 프로젝트
 * 포트폴리오
-* <span class="preview">프로그램</span>
+* 프로그램
 
 >[!IMPORTANT]
 >
->* 레코드에서 연결할 때 Workfront에서 프로젝트, 포트폴리오 및 <span class="preview">프로그램</span>만 만들 수 있습니다.
+>* 레코드에서 연결할 때 Workfront에서 프로젝트, 포트폴리오 및 프로그램만 만들 수 있습니다.
 >
 >* Workfront Planning의 레코드에서 그룹 또는 회사를 연결할 때 그룹 또는 회사를 만들 수 없습니다.
 >
 
-Workfront Planning의 다음 영역에 있는 연결 필드에서 프로젝트, 포트폴리오, <span class="preview"> 및 프로그램 </span>을(를) 연결할 수 있습니다.
+Workfront Planning의 다음 영역에 있는 연결 필드에서 프로젝트, 포트폴리오 및 프로그램을 연결할 수 있습니다.
 
 * 레코드 유형의 표 보기
 * 레코드의 세부 정보 페이지 또는 미리보기 상자
@@ -58,7 +58,7 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항 보기..
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -133,7 +133,7 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
 
 기존 레코드에서 새 프로젝트 또는 포트폴리오를 연결하여 추가하려면 먼저 다음 사항이 있어야 합니다.
 
-* Workfront 프로젝트, 포트폴리오 또는 <span class="preview">프로그램</span>에 연결된 레코드 유형입니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+* Workfront 프로젝트, 포트폴리오 또는 프로그램에 연결된 레코드 유형입니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 * 레코드. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 * 이 문서의 [액세스 요구 사항](#access-requirements) 섹션에 설명된 대로 Workfront Planning 및 Workfront의 올바른 액세스 및 권한.
 
@@ -143,7 +143,7 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
 
 1. [레코드 연결](/help/quicksilver/planning/records/connect-records.md) 문서에 설명된 대로 레코드의 세부 정보 페이지 또는 레코드 유형의 테이블로 이동하여 Workfront Planning 레코드와 Workfront 프로젝트 연결을 시작합니다.
 
-1. (조건부) <span class="preview">**프로젝트 추가**</span> 클릭
+1. (조건부) **프로젝트 추가**를 클릭합니다
 또는
 프로젝트 이름을 입력한 다음 찾을 수 없는 경우 **프로젝트 추가**&#x200B;를 클릭합니다.
 
@@ -153,12 +153,12 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
 
    ![연결 필드에서 연결할 때 프로젝트 추가](assets/add-project-when-connecting-it-from-connection-field.png)
 
-   <span class="preview">프로젝트 만들기&#x200B;**상자가 열립니다.</span>**
+   **프로젝트 만들기** 상자가 열립니다.
 
-1. <span class="preview">(선택 사항) **프로젝트 이름**&#x200B;을(를) 업데이트합니다. 레코드에서 연결할 때 검색 항목으로 추가한 항목의 이름을 따라 기본적으로 프로젝트 이름이 지정됩니다. </span>
-1. <span class="preview">(선택 사항) **프로젝트 템플릿**&#x200B;을(를) 선택하십시오. 템플릿을 선택하지 않으면 Workfront에서 작업이 없는 빈 프로젝트를 만듭니다. </span>
-1. <span class="preview">**만들기**&#x200B;를 클릭합니다. </span>
-1. <span class="preview">(조건부) 템플릿에서 프로젝트를 만들도록 선택한 경우 문서 [템플릿을 사용하여 프로젝트 만들기](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) 문서의 단계에 따라 프로젝트 추가를 완료합니다.</span>
+1. (선택 사항) **프로젝트 이름**&#x200B;을(를) 업데이트합니다. 레코드에서 연결할 때 검색 항목으로 추가한 항목의 이름을 따라 기본적으로 프로젝트 이름이 지정됩니다.
+1. (선택 사항) **프로젝트 템플릿**&#x200B;을(를) 선택합니다. 템플릿을 선택하지 않으면 Workfront에서 작업이 없는 빈 프로젝트를 만듭니다.
+1. Click **Create**.
+1. (조건부) 템플릿에서 프로젝트를 만들도록 선택한 경우 문서 [템플릿을 사용하여 프로젝트 만들기](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) 문서의 단계에 따라 프로젝트 추가를 완료합니다.
 
    새 프로젝트가 만들어지고 선택한 레코드의 연결된 필드에 추가됩니다.
 
@@ -172,7 +172,7 @@ Planning 레코드에서 포트폴리오를 연결할 때 포트폴리오를 생
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
 
-1. (조건부) <span class="preview">**포트폴리오 추가**</span> 클릭
+1. (조건부) **포트폴리오 추가** 클릭
 
    또는
 
@@ -183,8 +183,6 @@ Planning 레코드에서 포트폴리오를 연결할 때 포트폴리오를 생
    포트폴리오가 만들어지고 선택한 레코드의 연결 필드에 추가됩니다.
 
 1. (선택 사항) Workfront Planning에서 새 포트폴리오의 이름을 클릭하여 Workfront에서 포트폴리오의 페이지를 열고 포트폴리오를 추가로 업데이트합니다.
-
-<div class="preview">
 
 ## Workfront Planning의 레코드와 연결하여 프로그램을 만듭니다.
 
@@ -211,6 +209,4 @@ Planning 레코드에서 프로그램을 연결할 때 프로그램을 생성하
    선택한 레코드의 연결 필드에 프로그램이 만들어지고 추가됩니다.
 
 1. (선택 사항) Workfront Planning에서 새 프로그램 이름을 클릭하여 Workfront에서 프로그램 페이지를 열고 추가로 업데이트합니다.
-
-</div>
 

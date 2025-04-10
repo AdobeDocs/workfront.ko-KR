@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 1%
+source-wordcount: '825'
+ht-degree: 2%
 
 ---
 
 # 작업 공간 공유
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -104,7 +104,7 @@ This article describes how you can share a view with others. For information abo
 ## 작업 공간 공유에 대한 고려 사항
 
 * Workfront Planning에서 개체 공유에 대한 일반적인 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
-* 조직 내에서 사용자, <span class="preview">명의 팀, 역할, 그룹 또는 회사 </span>와 작업 공간을 공유할 수 있습니다.
+* 조직 내에서 사용자, 팀, 역할, 그룹 또는 회사와 작업 공간을 공유할 수 있습니다.
 * 조직 외부의 사용자와 작업 공간을 공유할 수 없습니다.
 * 작업 영역을 공유하면 작업 영역과 연관된 모든 레코드 유형, 레코드 및 필드도 공유됩니다.
 * 작업 영역을 공유하면 보기가 공유되지 않습니다. 별도로 보기를 공유해야 합니다.
@@ -133,7 +133,7 @@ This article describes how you can share a view with others. For information abo
 
    작업 영역 오른쪽 상단의 ![공유 단추](assets/share-button-on-workspace-top-right.png)
 
-1. **이 작업 영역에 대한 액세스 권한 부여** 필드에서 사용자, 그룹, <span class="preview">팀, 회사 또는 작업 역할</span>의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+1. **이 작업 영역에 대한 액세스 권한 부여** 필드에서 사용자, 그룹, 팀, 회사 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
    ![그룹과 UI 공유](assets/sharing-ui-with-groups.png)
 

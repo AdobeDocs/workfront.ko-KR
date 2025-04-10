@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '815'
 ht-degree: 3%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 3%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 있는 마일스톤 경로를 만들 수 있습니다. 이 영역의 마일스톤 경로에 대한 변경 사항은 전체 Workfront 시스템에 영향을 줍니다.
 
@@ -123,20 +123,18 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
    마일스톤 경로를 프로젝트에 연결하고 마일스톤을 작업에 연결하는 방법에 대한 자세한 내용은 [마일스톤과 작업 연결](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)을 참조하세요.
 
 
-1. <span class="preview">(선택 사항) **Export** 아이콘 ![Export 아이콘](assets/export-icon.png)을(를) 클릭하고 다음 형식 중 선택하여 마일스톤 경로 목록을 파일로 내보냅니다. </span>
+1. (선택 사항) **Export** 아이콘 ![Export 아이콘](assets/export-icon.png)을 클릭하고 다음 형식 중 선택하여 마일스톤 경로 목록을 파일로 내보냅니다.
 
    * PDF
    * Excel
    * Excel(xlsx)
    * 탭으로 구분됨
 
-1. <span class="preview">(선택 사항) 마일스톤 목록에서 마일스톤을 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭하여 마일스톤 정보를 편집합니다. </span>
-1. <span class="preview">(선택 사항) 마일스톤 목록에서 마일스톤을 선택한 다음 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭하여 삭제합니다. </span>
-1. <span class="preview">**예, 삭제**&#x200B;를 클릭합니다. </span>
-   <span class="preview">마일스톤이 삭제되어 복구할 수 없습니다. 이정표와 연관된 프로젝트 정보와 이정표 경로와 연관된 작업 정보도 모두 삭제됩니다. </span>
+1. (선택 사항) 마일스톤 목록에서 마일스톤을 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭하여 마일스톤 정보를 편집합니다.
+1. (선택 사항) 마일스톤 목록에서 마일스톤을 선택한 다음 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭하여 삭제합니다.
+1. **예, 삭제**를 클릭합니다.
+마일스톤이 삭제되어 복구할 수 없습니다. 이정표와 연관된 프로젝트 정보와 이정표 경로와 연관된 작업 정보도 모두 삭제됩니다.
 
-
-<div class="preview">
 
 ## 보고서에서 마일스톤 경로 세부 정보 보기
 
@@ -163,8 +161,6 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
 
    마일스톤 경로의 세부 정보가 표시됩니다.
 
-   <div class="preview">
-
    ![프로젝트 보고서의 마일스톤 경로 세부 정보](assets/milestone-details-from-project-report.png)
 
    마일스톤 경로 세부 정보 페이지에는 다음 정보가 표시됩니다.
@@ -175,6 +171,5 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
 
 1. (선택 사항) 프로젝트 보고서로 돌아가려면 **뒤로**&#x200B;를 클릭합니다.
 
-</div>
 
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2046'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -126,7 +126,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
       * 작성자 및 마지막 수정자
       * 생성 날짜 및 마지막 수정 날짜
-      * 공식. <span class="preview">수식 필드가 미리 보기 환경에서 지원됩니다.</span>
+      * 공식. <!--Formula fields are supported in the Preview environment.-->
       * Workfront 개체의 조회 필드
       * Workfront Planning 연결된 레코드의 조회 필드
 
@@ -136,8 +136,6 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
      그러나 필드 형식은 유지되고 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 통화, 숫자 및 백분율로 필드 값이 표시됩니다.
 
-<div class="preview">
-
 * 다음은 요청 양식 및 요청 세부 정보 페이지에 일부 필드 값이 표시되는 방식을 설명합니다.
 
    * 통화, 숫자 및 백분율 필드에 대한 특수 서식은 유지되지 않습니다. 예를 들어, 이러한 영역의 이러한 필드 값에 대한 소수점 이하 자리수는 유지되지 않습니다.
@@ -145,8 +143,6 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    * 다른 필드 또는 계산을 참조하지 않는 수식 필드에는 값이 표시되지 않습니다. 예를 들어 `STRING` 수식이 있는 필드는 &quot;N/A&quot; 값을 표시합니다.
    * 통화 필드를 참조하는 공식 필드에는 환율을 계산하지 않고 값이 표시됩니다.
    * 단락 필드의 값은 요청 양식에 &quot;N/A&quot; 값을 표시하며, 요청 세부 정보 페이지의 서식 있는 텍스트 대신 html 태그를 표시합니다.
-
-</div>
 
 ## 레코드 유형에 대한 요청 양식 만들기
 
@@ -160,8 +156,8 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 
-1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 만들기** <span class="preview">또는 **요청 양식 관리**&#x200B;를 클릭합니다(이미 양식이 있고 추가 양식을 만들려면</span>).
-1. <span class="preview">(조건부) 다른 양식을 추가하려면 **새 요청 양식**</span>&#x200B;을 클릭하세요.
+1. 이미 양식이 있고 추가 양식을 만들려면 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 만들기** 또는 **요청 양식 관리**&#x200B;를 클릭합니다.
+1. (조건부) 다른 양식을 추가하려면 **새 요청 양식**&#x200B;을 클릭하세요.
 1. 요청 양식 이름을 업데이트합니다. 기본적으로 양식 이름은 **제목 없는 양식**&#x200B;입니다. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (선택 사항) 요청 양식에 대해 **설명**&#x200B;을(를) 추가합니다.
 
@@ -274,10 +270,10 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
    >[!TIP]
    >
-   ><span class="preview">공유 날짜가 만료되면 Workfront의 요청 영역에서 요청 양식을 더 이상 사용할 수 없으며 다른 사용자와 공유한 링크에 더 이상 액세스할 수 없습니다.</span>
+   >공유 날짜가 만료되면 Workfront의 요청 영역에서 요청 양식을 더 이상 사용할 수 없고 다른 사용자와 공유한 링크에 더 이상 액세스할 수 없습니다.
 
 
-1. <span class="preview">(선택 사항)</span> 양식에 대한 공유 세부 정보를 저장하려면 **링크 저장 및 복사**&#x200B;를 클릭합니다. 양식을 이전에 저장한 경우 **링크 복사**&#x200B;를 클릭합니다.
+1. (선택 사항) 양식에 대한 공유 세부 정보를 저장하려면 **링크 저장 및 복사**&#x200B;를 클릭합니다. 양식을 이전에 저장한 경우 **링크 복사**&#x200B;를 클릭합니다.
 
    양식 공유 옵션이 저장되고 링크가 클립보드에 복사됩니다. 이제 다른 사용자와 공유할 수 있습니다.
 
@@ -287,36 +283,34 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 머리글에서 양식 이름 왼쪽에 있는 왼쪽 화살표를 클릭하여 양식을 닫습니다.
 
-   <span class="preview">요청 양식&#x200B;**테이블 보기가 열리고 양식이 추가됩니다.</span>**
+   **요청 양식** 테이블 보기가 열리고 양식이 추가됩니다.
 
-1. <span class="preview">(선택 사항) 테이블 보기에서 요청 양식 이름 위로 마우스를 가져간 후 양식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭하고 다음 중 하나를 클릭합니다.</span>
+1. (선택 사항) 테이블 보기에서 요청 양식 이름 위로 마우스를 가져간 후 양식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭하고 다음 중 하나를 클릭합니다.
 
-   * <span class="preview">**양식 편집**: 양식에 대한 정보를 추가로 편집하려면 여기를 클릭하십시오. </span>
-   * <span class="preview"> **게시 취소**: Workfront의 요청 영역에서 양식을 제거하는 게시를 취소하려면 이 옵션을 클릭합니다. </span>
-   * <span class="preview">**공유**: 양식에 액세스할 수 있는 사용자를 수정하려면 이 항목을 클릭하십시오. </span>
-   * <span class="preview">**링크 복사**: 양식을 열지 않고 요청 양식의 링크를 빠르게 복사하려면 이 링크를 클릭하십시오. </span>
-   * <span class="preview">**삭제**: 양식을 삭제하려면 이 항목을 클릭하십시오. 양식을 사용하여 추가된 모든 요청 및 레코드는 삭제되지 않습니다. 양식을 복구할 수 없습니다. </span>
+   * **양식 편집**: 양식에 대한 정보를 추가로 편집하려면 여기를 클릭하십시오.
+   * **게시 취소**: Workfront의 요청 영역에서 양식을 제거하는 게시를 취소하려면 이 옵션을 클릭합니다.
+   * **공유**: 양식에 액세스할 수 있는 사용자를 수정하려면 이 항목을 클릭하십시오.
+   * **링크 복사**: 양식을 열지 않고 요청 양식의 링크를 빠르게 복사하려면 이 링크를 클릭하십시오.
+   * **삭제**: 양식을 삭제하려면 이 항목을 클릭하십시오. 양식을 사용하여 추가된 모든 요청 및 레코드는 삭제되지 않습니다. 양식을 복구할 수 없습니다.
 
    ![요청 양식 목록의 요청 양식에 대한 추가 메뉴](assets/more-menu-on-request-form-from-request-forms-list.png)
 
 
-1. <span class= "preview">요청 양식 테이블을 닫으려면 헤더의 **요청 양식** 왼쪽에 있는 왼쪽 화살표를 클릭합니다.   </span>
+1. 헤더의 **요청 양식** 왼쪽에 있는 왼쪽 화살표를 클릭하여 요청 양식 표를 닫습니다.
 
-   <span class= "preview">레코드 종류 페이지가 열립니다. </span>
-1. (선택 사항 및 조건부) 기존 양식을 편집하려면 사용 중인 환경에 따라 다음 중 하나를 수행하십시오.
+   레코드 유형 페이지가 열립니다.
+1. (선택 사항 및 조건부) 기존 양식을 편집하려면:
 
-   * 프로덕션 환경에서:
+   1. 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 관리**&#x200B;를 클릭합니다. </span>
 
-      1. 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 후 다음 중 하나를 실행하십시오.
+      그러면 요청 양식 표 보기가 열립니다.
 
-      1. 요청 양식을 변경하려면 **요청 양식 업데이트**&#x200B;를 클릭하십시오.
-      1. **요청 양식에 대한 링크 복사**&#x200B;를 클릭하여 양식에 대한 링크를 다른 사용자와 공유합니다.
+   1. 요청 양식을 열어 편집하려면 클릭하십시오.
+   1. (선택 사항) Workfront의 **요청** 영역으로 이동하여 공유 양식을 찾아 요청을 제출합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
-   * <span class="preview">미리 보기 환경에서:
-
-      1. 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 관리**&#x200B;를 클릭합니다. </span>
-
-         <span class="preview">요청 양식 표 보기가 열립니다. </span>
-
-      1. <span class="preview">요청 양식을 열어 편집하려면 클릭하세요.</span>
-      1. <span class= "preview">(선택 사항) Workfront의 **요청** 영역으로 이동하여 공유 양식을 찾아 요청을 제출합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md).</span>을 참조하십시오.
+<!--   * From the Production environment:
+   
+      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
+   
+      1. Click **Update request form** to make any changes to the request form.
+      1. Click **Copy link to request form**  to share the link to the form with others.-->

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1853'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 레코드 페이지 레이아웃 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -161,11 +161,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
    레코드의 미리보기가 보기에서 열립니다.
 
-   <div class="preview">
-
    ![세부 정보 상자](assets/details-box.png)
-
-   </div>
 
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
@@ -244,21 +240,13 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
    레코드의 미리보기가 보기에서 열립니다.
 
-   <div class="preview">
-
    ![세부 정보 상자](assets/details-box.png)
-
-   </div>
 
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 상자 열기](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
    레코드의 **세부 정보** 탭이 기본적으로 열립니다.
 
-   <div class="preview">
-
    ![세부 정보 페이지](assets/details-page.png)
-
-   </div>
 
 1. 레코드 **세부 정보** 탭에서 필드 이름 왼쪽에 있는 **grab** 아이콘 ![Grab 아이콘](assets/grab-icon.png)을 클릭한 다음 원하는 위치에 끌어다 놓습니다.
 
@@ -301,17 +289,13 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 선택한 레코드 유형의 테이블 뷰가 표시되고 연결된 레코드가 테이블 뷰에 표시됩니다.
 연결된 레코드의 모든 필드는 연결된 레코드 탭의 테이블 보기에 표시됩니다.
 
-   <span class="preview">미리 보기 환경에서 Workfront Planning에 액세스하면 연결된 레코드 테이블의 처음 5개 필드가 기본적으로 표시됩니다. 기본적으로 표시되는 조회 필드가 없습니다.</span>
+   미리보기 환경에서 Workfront Planning에 액세스하면 연결된 레코드 테이블의 처음 5개 필드가 기본적으로 표시됩니다. 기본적으로 표시되는 조회 필드가 없습니다.0
 
    테이블 보기는 읽기 전용입니다.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
-   <div class="preview">
-
    ![캠페인 세부 정보 아래의 대상자 연결 테이블 보기](assets/audience-connected-table-view-under-campaign-details-page.png)
-
-   </div>
 
 1. (선택 사항) 탭 이름을 두 번 클릭합니다
 
@@ -323,7 +307,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
    * 필터
    * 정렬
    * 그룹화
-   * <span class="preview">필드, 표시, 숨기기 또는 다시 정렬</span>
+   * 필드, 필드를 표시, 숨기기 또는 다시 정렬
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -333,11 +317,11 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
    >
    >   연결된 레코드 탭의 표 보기에서 다음 작업을 수행할 수 없습니다.
    >
-   >   * 필드를 숨기거나 다시 정렬합니다. <span class="preview">미리 보기 환경에서 필드를 숨기거나 다시 정렬할 수 있습니다.</span>
+   >   * 필드를 숨기거나 다시 정렬합니다. 미리보기 환경에서 필드를 숨기거나 재배열할 수 있습니다.
    >   * 필드 만들기, 편집 또는 삭제
    >
 
-1. <span class="preview">레코드를 추가하거나 제거하려면 **연결**&#x200B;을 클릭하세요. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)</span>을 참조하세요.
+1. 레코드를 추가하거나 제거하려면 **연결**&#x200B;을 클릭하세요. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
 1. (선택 사항) 연결 보기 탭의 이름 위로 마우스를 가져간 후 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭하여 새 연결된 보기 탭을 제거합니다.
 
 

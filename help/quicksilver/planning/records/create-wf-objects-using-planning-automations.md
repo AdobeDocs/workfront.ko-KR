@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2138'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 2%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 활성화된 경우 Planning 레코드에서 트리거될 때 Adobe Workfront Planning의 객체 또는 Workfront Planning의 레코드를 생성하도록 Workfront Planning에서 자동화를 구성할 수 있습니다. 생성된 개체 또는 레코드는 자동화를 트리거하는 레코드에 자동으로 연결됩니다.
 
@@ -37,7 +37,7 @@ Workfront Planning의 레코드 유형 페이지에서 자동화를 구성하고
 
 Workfront Planning에서 자동화를 사용하여 다음을 생성할 수 있습니다.
 
-* 한 개의 <span class="preview">또는 여러 개의</span> 프로젝트
+* 하나 또는 여러 개의 프로젝트
 * 그룹
 * 프로그램
 * 포트폴리오
@@ -123,15 +123,11 @@ Workfront Planning에서 자동화를 사용하여 다음을 생성할 수 있�
 
 * 자동화를 통해 작성된 객체 또는 레코드의 이름은 단일 객체를 작성할 때 작성한 레코드 이름과 동일합니다.
 
-<div class="preview">
-
 * 여러 프로젝트를 만들면 다음 패턴에 따라 프로젝트 이름이 자동으로 지정됩니다.
 
   `[ Name of the record ] Name of the field choice`
 
   자세한 내용은 이 문서에서 [개체 또는 레코드를 만드는 데 Workfront Planning 자동화 사용](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) 섹션을 참조하십시오.
-
-</div>
 
 * 새 개체 또는 레코드는 동일한 필드의 기존 개체보다 우선하지 않습니다. 동일한 레코드에 대해 동일한 자동화를 여러 번 트리거하면 이전에 만든 레코드 외에 원본 레코드의 연결된 동일한 필드에 새 개체나 레코드가 추가됩니다.
 
@@ -166,8 +162,8 @@ Workfront Planning에서 자동화를 사용하여 다음을 생성할 수 있�
    * **작업**: 자동화를 트리거할 때 Workfront에서 수행할 작업을 선택합니다. 필수 필드입니다.
 다음 작업 중 하나를 선택합니다.
 
-      * <span class="preview">여러 프로젝트 만들기</span>
-      * <span class="preview">단일 프로젝트 만들기</span>
+      * 여러 프로젝트 만들기
+      * 단일 프로젝트 만들기
       * 프로젝트 만들기
       * 레코드 만들기
       * 프로그램 만들기
@@ -180,11 +176,9 @@ Workfront Planning에서 자동화를 사용하여 다음을 생성할 수 있�
 
 1. (조건부) 선택한 작업에 따라 다음 필드를 업데이트합니다.
 
-   * **단일 <span class="preview">프로젝트 만들기</span>**: <!--replace to the left: Create a single project-->
+   * **단일 프로젝트 만들기**: <!--replace to the left: Create a single project-->
       * **프로젝트가 만들어지는 연결된 필드**: 새 프로젝트가 표시될 연결된 필드입니다. 필수 필드입니다.
       * **프로젝트 템플릿**: Workfront에서 프로젝트를 만드는 데 사용할 프로젝트 템플릿을 선택하십시오.
-
-   <div class="preview">
 
    * 여러 프로젝트 만들기:
       * **프로젝트가 만들어지는 연결된 필드**: 새 프로젝트가 표시될 연결된 필드입니다. 필수 필드입니다.
@@ -197,8 +191,6 @@ Workfront Planning에서 자동화를 사용하여 다음을 생성할 수 있�
 
       * **같은 서식 파일 사용**: 새 프로젝트마다 같은 서식 파일을 사용하려면 이 옵션을 선택하십시오. 옵션을 선택 해제한 경우 각 필드 선택에 대해 **프로젝트 템플릿**&#x200B;을(를) 선택하십시오.
       * **프로젝트 템플릿**: **동일한 템플릿 사용** 옵션을 선택한 경우 Workfront에서 프로젝트를 만드는 데 사용할 프로젝트 템플릿을 선택하십시오.
-
-   </div>
 
    * **포트폴리오 만들기**:
       * **포트폴리오를 만드는 연결된 필드**: 새 포트폴리오를 표시하는 연결된 필드입니다. 필수 필드입니다.
@@ -311,15 +303,11 @@ Workfront Planning에서 자동화를 사용하여 다음을 생성할 수 있�
 
    * 새 객체는 자동화 버튼 설정에 표시된 연결된 필드에 표시됩니다. 새 개체를 보기 전에 페이지를 새로 고쳐야 할 수도 있습니다. 새 개체의 이름은 원본 레코드와 같습니다.
 
-   <div class="preview">
-
    * 다중 또는 단일 선택 필드의 선택 사항을 기반으로 여러 프로젝트를 만든 경우 다음 패턴에 따라 프로젝트의 이름이 자동으로 지정됩니다.
 
      `[ Name of the record ] Name of the field choice`
 
      예를 들어 이름이 `Summer breeze`인 캠페인이 `EMEA`인 필드 선택에서 프로젝트를 생성한 경우 프로젝트의 이름은 `[ Summer breeze ] EMEA`입니다.
-
-   </div>
 
    * 자동화를 트리거하는 레코드가 새 레코드의 연결된 필드에 추가됩니다.
 

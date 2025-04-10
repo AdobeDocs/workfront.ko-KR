@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2186'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 레코드 편집
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -242,7 +242,6 @@ ht-degree: 0%
 
      ![표 보기에서 복사 붙여넣기를 위한 오른쪽 아래 모서리 드래그 가능](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-   <div class="preview">
 
    * 외부 소스(예: Excel 파일)에서 하나 이상의 셀을 복사한 다음 다음 필드 유형 중 하나에 붙여넣습니다.
 
@@ -250,7 +249,6 @@ ht-degree: 0%
       * 사람 필드. 값이 한 개인 필드만 지원됩니다.
 
      외부 소스에서 정보를 복사하여 Workfront 또는 AEM Assets 연결 필드를 포함한 다른 필드 유형에 붙여넣을 수 없습니다.
-   </div>
 
    >[!NOTE]
    >
@@ -295,11 +293,7 @@ ht-degree: 0%
 
    테이블 보기에서 첫째 열의 테이블 이름 필드에 있는 **세부 정보 열기** 아이콘 ![세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다. 레코드의 미리보기가 보기에서 열립니다.
 
-   <div class="preview">
-
    ![세부 정보 상자](assets/details-box.png)
-
-   </div>
 
 1. (선택 사항) 레코드 제목 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭합니다. 레코드의 제목으로 표시되는 필드가 업데이트됩니다.
 
@@ -320,17 +314,13 @@ ht-degree: 0%
 
    Workfront은 변경 사항을 자동으로 저장합니다.
 
-1. <span class="preview"> (선택 사항) 레코드의 미리 보기 상자 오른쪽 상단에 있는 **실시간 표시기** ![실시간 표시기 아이콘](assets/real-time-indicator-icon.png)을 클릭한 다음 **공동 작업자 표시** 설정을 사용하여 다른 사용자가 편집하고 있는 필드를 실시간으로 강조 표시합니다.
+1. (선택 사항) 레코드의 미리 보기 상자 오른쪽 상단에 있는 **실시간 표시기** ![실시간 표시기 아이콘](assets/real-time-indicator-icon.png)을 클릭한 다음 **공동 작업자 표시** 설정을 사용하여 다른 사용자가 편집하고 있는 필드를 실시간으로 강조 표시합니다.
 
    레코드에 동시에 액세스하는 모든 사용자의 이름과 아바타가 이 영역에 표시됩니다.
 
-   설정을 사용하지 않으면 아바타와 이름이 실시간 표시기 영역에 나열되고 편집 중인 필드는 강조 표시되지 않습니다. </span>
-
-   <div class="preview">
+   설정을 사용하지 않으면 아바타와 이름이 실시간 표시기 영역에 나열되고 편집 중인 필드는 강조 표시되지 않습니다.
 
    ![실시간 표시기가 확장된 레코드 미리 보기 상자](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. (선택 사항) 레코드의 세부 정보를 내보내려면 **내보내기** 메뉴 ![레코드 세부 정보 페이지의 내보내기 아이콘](assets/export-icon-in-record-details-page.png)을 클릭합니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
 
@@ -388,17 +378,13 @@ ht-degree: 0%
 
    Workfront은 변경 사항을 자동으로 저장합니다.
 
-1. <span class="preview"> (선택 사항) 레코드 페이지의 오른쪽 상단에 있는 **실시간 표시기** ![실시간 표시기 아이콘](assets/real-time-indicator-icon.png)을 클릭한 다음 **공동 작업자 표시** 설정을 사용하여 다른 사용자가 편집하고 있는 필드를 실시간으로 강조 표시합니다.
+1. (선택 사항) 레코드 페이지의 오른쪽 상단에 있는 **실시간 표시기** ![실시간 표시기 아이콘](assets/real-time-indicator-icon.png)을 클릭한 다음 **공동 작업자 표시** 설정을 사용하여 다른 사용자가 편집하고 있는 필드를 실시간으로 강조 표시합니다.
 
    레코드에 동시에 액세스하는 모든 사용자의 이름과 아바타가 이 영역에 표시됩니다.
 
-   설정을 사용하지 않으면 아바타와 이름이 실시간 표시기 영역에 나열되고 편집 중인 필드는 강조 표시되지 않습니다. </span>
-
-   <div class="preview">
+   설정을 사용하지 않으면 아바타와 이름이 실시간 표시기 영역에 나열되고 편집 중인 필드는 강조 표시되지 않습니다.
 
    ![실시간 표시기가 확장된 레코드 미리 보기 상자](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. (선택 사항) 레코드의 세부 정보를 내보내려면 **내보내기** 메뉴 ![레코드 세부 정보 페이지의 내보내기 아이콘](assets/export-icon-in-record-details-page.png)을 클릭합니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
 

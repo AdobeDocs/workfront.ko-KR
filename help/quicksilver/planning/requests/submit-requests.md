@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 * 공유된 요청 양식에 대한 직접 링크에서.
 
   이 문서에서는 Workfront의 요청 영역 또는 공유 링크에서 레코드 유형에 새 레코드를 추가하도록 요청을 제출하는 방법에 대해 설명합니다.
-* <span class="preview">레코드 종류 페이지에서 새 레코드를 추가하거나 요청할 때 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).</span>를 참조하세요.
+* 레코드 유형 페이지에서 새 레코드를 추가하거나 요청할 때 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
 Workfront 사용자와 외부 사용자는 Planning 레코드 유형에 요청을 제출하고 레코드를 생성할 수 있습니다. <!--double check on the external users-->
 
@@ -128,7 +128,7 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
    * 내부적으로 작업 영역에 대한 보기 이상의 권한이 있는 사용자와 양식을 공유해야 합니다.
 
-     Workfront 사용자는 <span class="preview"> 링크에서 양식에 액세스하거나 Workfront의 요청 영역에서 요청 양식을 찾을 수 있습니다.</span>
+     Workfront 사용자는 링크에서 양식에 액세스하거나 Workfront의 요청 영역에서 요청 양식을 찾을 수 있습니다.
 
    * Workfront 계정이 없는 경우 양식에 대한 링크가 외부 사용자와 공유되었습니다.
 
@@ -150,8 +150,6 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
-
-<div class="preview">
 
 ## Workfront의 요청 영역에서 Workfront Planning에 요청 제출
 
@@ -239,8 +237,6 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
    Workfront Planning에서 레코드 유형 페이지가 열립니다.
 
-</div>
-
 ## 공유 링크에서 요청 양식으로 Workfront Planning에 요청 제출
 
 1. Workfront Planning 레코드 유형에서 사용자와 공유되는 링크로 이동합니다.
@@ -276,11 +272,11 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
      >
      >이메일 및 인앱 알림은 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩될 때만 표시됩니다.
 
-1. <span class="preview">(선택 사항) **요청 보기**&#x200B;를 클릭하여 Workfront에서 요청을 엽니다.</span>
+1. (선택 사항) Workfront에서 요청을 열려면 **요청 보기**&#x200B;를 클릭합니다.
 
-   또는
+   <!--Or-->
 
-   <span class="preview">[다른 요청 제출](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)을 클릭하여 요청 양식을 열고 새 요청을 추가합니다. </span>
+   <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
 1. (선택 사항) **기본 메뉴** > **요청** > **계획** 탭을 클릭하여 요청을 확인한 다음 요청 이름을 클릭합니다.
 

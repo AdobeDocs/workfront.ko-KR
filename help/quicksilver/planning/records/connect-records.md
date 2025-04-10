@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3267'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 기록 연결
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -157,7 +157,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 * 테이블 보기의 연결된 레코드 필드입니다.
 * 세부 정보 탭의 연결된 레코드 필드에 있는 레코드의 미리 보기 상자 또는 페이지입니다.
 * 연결 탭의 레코드 미리 보기 상자 또는 페이지입니다.
-* <span class="preview">연결 보기 탭의 레코드 페이지입니다.</span> <!--this needs title edit when they rename the "Connection view" page type-->
+* 연결 보기 탭에 있는 레코드의 페이지입니다. <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### 표 보기 또는 레코드의 세부 정보 영역에서 Workfront Planning 레코드 연결
 
@@ -184,7 +184,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
    >
 
 1. (조건부) 레코드 유형을 연결할 때 연결 유형에 대해 일대다 또는 일대일을 선택한 경우 다른 곳에 이미 연결되어 있는 레코드나 개체를 연결하려고 하면 다시 연결하면 원래 연결에서 해당 레코드가 제거된다는 경고가 표시됩니다. 제거를 허용하고 레코드를 연결하려면 **연결**&#x200B;을 클릭하고 필드로 돌아가서 다른 레코드를 선택하려면 **취소**&#x200B;를 클릭하십시오.
-1. (선택 사항) 연결할 개체를 찾을 수 없고 개체를 추가하려면 <span class="preview">**+ 추가**</span>&#x200B;를 클릭하십시오.
+1. (선택 사항) 연결할 개체를 찾을 수 없고 개체를 추가하려면 **+ 추가**&#x200B;를 클릭하십시오.
 
    또는
 
@@ -270,7 +270,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
    >
    >보기에서 레코드의 페이지를 열거나 연결된 레코드 필드를 두 번 클릭하거나 필드에서 **연결**&#x200B;을 클릭하여 연결된 개체 형식의 개체를 추가할 수 있습니다.
 
-1. (선택 사항) 연결할 개체를 찾을 수 없고 개체를 추가하려면 <span class="preview">**+ 추가**</span>&#x200B;를 클릭하십시오.
+1. (선택 사항) 연결할 개체를 찾을 수 없고 개체를 추가하려면 **+ 추가**&#x200B;를 클릭하십시오.
 
    또는
 
@@ -440,7 +440,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 1. (선택 사항) 축소하려면 섹션의 왼쪽에 있는 아래쪽 방향 화살표를 클릭합니다.
 
 1. (조건부) 같은 형식의 레코드나 개체를 더 추가하려면 **연결**&#x200B;을 클릭합니다.
-1. (선택 사항) 연결할 레코드 또는 개체를 찾을 수 없고 해당 개체를 추가하려면 <span class="preview">**+ 추가**</span>&#x200B;를 클릭하십시오.
+1. (선택 사항) 연결할 레코드 또는 개체를 찾을 수 없고 해당 개체를 추가하려면 **+ 추가**&#x200B;를 클릭합니다
 
    또는
 
@@ -454,8 +454,6 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
    ![연결 탭에서 도구 설명이 있는 레코드 연결 끊기 아이콘](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    레코드는 Workfront Planning의 모든 영역 또는 연결된 것으로 표시될 수 있는 다른 응용 프로그램에서 즉시 연결이 끊어집니다. 모든 조회 필드 값도 제거됩니다.
-
-<div class="preview">
 
 ### 레코드의 세부 정보 페이지에 있는 연결 보기 탭에서 레코드 연결
 
@@ -474,8 +472,6 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
    ![연결된 레코드 세부 정보 탭에서 강조 표시된 연결 단추](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 1. (선택 사항) 연결된 레코드를 찾을 수 없는 경우 **+ 추가**&#x200B;를 클릭하여 레코드를 만들고 연결합니다.
-
-</div>
 
 ## Workfront 개체에서 레코드 연결
 

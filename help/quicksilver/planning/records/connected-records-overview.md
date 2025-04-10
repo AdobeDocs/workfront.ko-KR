@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # 연결된 레코드 개요
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -54,11 +54,11 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    * Planning에 있는 레코드 유형의 테이블 뷰에 있는 연결된 레코드 필드.
    * 세부 정보 탭의 연결된 레코드 필드에 있는 레코드의 미리 보기 또는 페이지입니다.
    * 연결 탭의 레코드 미리 보기 또는 페이지입니다.
-   * <span class="preview">연결된 레코드의 연결 보기 탭에 있는 레코드의 페이지입니다.</span>
+   * 연결된 레코드의 연결 보기 탭에 있는 레코드의 페이지
 
 * Workfront의 다음 영역에서 Workfront 개체를 Workfront Planning 레코드에 연결할 수 있습니다.
 
    * Workfront 개체의 계획 섹션입니다.
-   * <span class="preview">Workfront 개체의 사용자 정의 양식에 있는 Planning 연결 필드입니다. </span>
+   * Workfront 오브젝트의 사용자 정의 양식에 대한 Planning 연결 필드.
 
   자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
