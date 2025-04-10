@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
+source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 0%
+source-wordcount: '1308'
+ht-degree: 2%
 
 ---
 
@@ -124,7 +124,29 @@ IF(
 
    ![개체 선택](assets/object-for-business-rule3.png)
 
-1. 비즈니스 규칙의 **이름**&#x200B;을(를) 입력하십시오.
+   다음 객체에 비즈니스 규칙을 적용할 수 있습니다.
+
+   * 프로젝트
+   * 작업
+   * 문제 / 요청
+   * 포트폴리오
+   * 문서
+   * 프로그램
+   * 경비
+   * 사용자
+   * 회사
+   * 반복
+   * 청구 기록
+   * 그룹
+   * 위험
+   * 할당
+   * 작업 역할
+   * 리소스 풀
+   * 휴무
+   * 시간
+   * 템플릿
+
+1. 규칙 빌더 대화 상자에서 비즈니스 규칙의 **이름**&#x200B;을(를) 입력하십시오.
 1. **활성 상태임** 필드에서 규칙을 저장할 때 규칙을 활성화해야 하는지 여부를 선택합니다.
 
    **아니요**&#x200B;를 선택하면 규칙이 비활성 상태로 저장되며 나중에 활성화할 수 있습니다.
