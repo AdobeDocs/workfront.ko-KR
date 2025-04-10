@@ -6,9 +6,9 @@ description: 필터 및 조건 수정자를 사용하여 필터를 작성하고 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 텍스트 모드를 이해하는 방법에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
 
-기본 제공 시간 프레임 수정자 목록을 보려면 문서 [시간대별 보고서 필터링](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)을 참조하십시오.
+기본 제공 시간 간격 수정자 목록을 보려면 문서 [시간대별 보고서 필터링](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)을 참조하십시오.
 
 필터 및 조건부 서식 명령문에서 다음 조건 수정자를 사용할 수 있습니다.
 

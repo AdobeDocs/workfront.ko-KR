@@ -3,19 +3,19 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: 자동 보고서 배달 예약
 description: 자동 보고서 배달 예약
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1268'
 ht-degree: 2%
 
 ---
 
 # 자동 보고서 배달 예약
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
@@ -36,24 +36,21 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
       <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>표준</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>플랜</p></li>
-         </ul>
-   </td>
+      <p>새로운 기능: 표준</p>
+      <p>또는</p>
+
+<p>현재: 플랜</p>
+
+</td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +60,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -73,24 +70,24 @@ ht-degree: 2%
 
 ## 보고서 배달 예약
 
-보고서를 자동 게재하도록 예약하거나 기존 보고서 게재를 편집하거나 삭제하려면 다음을 수행합니다&#x200B;.
 
-1. 배달 일정을 예약하려는 보고서로 이동합니다.
+보고서를 자동 게재하도록 예약하려면 다음을 수행합니다&#x200B;.
 
-   >[!NOTE]
-   >
-   >보고서 게재에 프롬프트가 포함되어 있지 않습니다. 보고서 게재에서 데이터를 제한하려면 전송할 보고서에 필터를 적용하는 것이 좋습니다.
+{{step1-to-reports}}
 
-1. **보고서 동작**&#x200B;을 클릭한 다음 **보고서 보내기**&#x200B;를 클릭합니다.
+>[!NOTE]
+>
+>보고서 게재에 프롬프트가 포함되어 있지 않습니다. 보고서 게재에서 데이터를 제한하려면 전송할 보고서에 필터를 적용하는 것이 좋습니다.
 
-   **보고서 보내기** 대화 상자가 표시됩니다.
+1. **보고서** 페이지에서 보고서를 선택하십시오.
+1. 화면 맨 위에서 표시되는 드롭다운에서 **보고서 작업**&#x200B;을 클릭한 다음 **보고서 보내기**&#x200B;를 클릭합니다. **보고서 보내기** 대화 상자가 표시됩니다.
 
    >[!TIP]
    >
    >지정된 시간에 수동으로 보고서를 보내려면 해당 보고서로 이동한 다음 **보고서 작업** > **보고서 보내기** > **지금 보내기**&#x200B;를 클릭합니다.
 
 1. **반복 게재** 탭을 선택합니다.
-1. (조건부) 기존 반복 보고서 배달을 수정하려면 **반복 배달** 섹션에서 보고서 배달을 선택합니다.
+1. (조건부) 기존 반복 보고서 배달을 수정하려면 대화 상자의 오른쪽에 있는 **반복 배달** 섹션에서 보고서 배달을 선택합니다.
 1. 다음 정보를 지정합니다.
 
    <table style="table-layout:auto"> 
@@ -99,30 +96,30 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>전송 대상</p> </td> 
-      <td> <p>보고서를 보낼 사용자, 그룹, 팀 또는 역할의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.</p> <p>또는</p> <p>보고서에 액세스할 수 있는 Workfront 시스템 외부 사용자의 이메일 주소를 지정합니다.</p> <p>이 프로세스를 반복하여 여러 사용자, 그룹, 팀 또는 역할에 보고서를 전송합니다.</p> <p>참고:  <p>보고서 게재 수신자를 추가할 때 다음 사항을 고려하십시오.</p> 
+      <td> <p>보고서를 보낼 사용자, 그룹, 팀 또는 역할의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.</p> <p>또는</p> <p>보고서에 액세스하려는 Workfront 시스템 외부 사용자의 이메일 주소를 입력합니다.</p> <p>이 프로세스를 반복하여 여러 사용자, 그룹, 팀 또는 역할에 보고서를 전송합니다.</p> <p>참고:  <p>보고서 게재 수신자를 추가할 때 다음 사항을 고려하십시오.</p> 
         <ul> 
          <li>조직에서 Workfront 알림을 특정 이메일 도메인으로 제한하면, 전자 메일 허용 목록에 나열된 전자 메일 주소로만 보고서를 보낼 수 있습니다.<p>Workfront 허용 목록에 추가하다 허용 목록에 추가하다 관리자가 전자 메일을 업데이트하는 방법에 대한 자세한 내용은 {전자 메일 구성</a> 섹션을 참조하십시오.<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref"></p></li> 
          <li> <p>많은 사용자를 수신자로 추가하면 게재가 실패할 수 있습니다. 게재 오류가 발생하는 경우 더 작은 사용자 그룹과 함께 여러 보고서 게재를 예약할 수 있습니다.</p> </li> 
-        </ul> </p> </td> 
+        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>이메일 제목</p> </td> 
-      <td> <p>이메일 알림의 제목을 지정합니다.</p> <p>기본적으로 이메일 제목은 다음과 같습니다.</p> <p><em>Workfront 보고서: [보고서 이름] [날짜]</em> </p> </td> 
+      <td> <p>이메일 알림의 제목을 입력합니다.</p> <p>기본적으로 이메일 제목은 다음과 같습니다.</p> <p><em>Workfront 보고서: [보고서 이름] [날짜]</em> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>이메일 메시지</p> </td> 
-      <td> <p>이메일에 포함할 메시지를 지정합니다.</p> <p>기본적으로 이메일 메시지는 다음과 같습니다.</p> <p><em>Workfront에서 [Date]에 생성한 [보고서 빈도] 보고서 [보고서 이름]을(를) 첨부했습니다.</em> </p> <p>참고: Excel 파일로만 제공되는 보고서의 경우 다음과 같은 메시지도 전자 메일에 추가됩니다. "MS Excel(XLS) 파일 형식의 경우 이러한 파일 형식이 지원하는 하이퍼링크 수에 제한(65,530)이 있습니다. 이러한 제한을 초과하는 경우 파일이 열리지 않으며 하이퍼링크 없이 다시 전송하는 것이 좋습니다. 하이퍼링크를 제거하고 보고서를 다시 보내려면 보고서 스케줄러로 돌아가십시오." "보고서 스케줄러로 돌아가기" 구문은 보고서에 대한 링크입니다.</p> </td> 
+      <td> <p>이메일에 포함할 메시지를 입력합니다.</p> <p>기본적으로 이메일 메시지는 다음과 같습니다.</p> <p><em>Workfront에서 [Date]에 생성한 [보고서 빈도] 보고서 [보고서 이름]을(를) 첨부했습니다.</em> </p> <p>참고: Excel 파일로만 제공되는 보고서의 경우 다음과 같은 메시지도 전자 메일에 추가됩니다. "MS Excel(XLS) 파일 형식의 경우 이러한 파일 형식이 지원하는 하이퍼링크 수에 제한(65,530)이 있습니다. 이러한 제한을 초과하는 경우 파일이 열리지 않으며 하이퍼링크 없이 다시 전송하는 것이 좋습니다. 하이퍼링크를 제거하고 보고서를 다시 보내려면 보고서 스케줄러로 돌아가십시오." "보고서 스케줄러로 돌아가기" 구문은 보고서에 대한 링크입니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>다음의 액세스 권한으로 이 보고서 게재</p> </td> 
-      <td> <p>보고서에 액세스할 수 있는 사용자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다. 보고서를 받는 사용자에게는 여기에서 지정한 사용자와 동일한 수준의 보고서 액세스 권한이 부여됩니다.<br> 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">다른 사용자의 액세스 권한으로 보고서 실행 및 전달</a>을 참조하십시오.</p> <p>참고: 이 필드는 와일드카드를 지원하지 않습니다. 예를 들어 와일드카드 $$User.ID를 사용하면 보고서를 받고 있는 사용자의 액세스 권한이 있는 보고서가 실행되지 않습니다.</p> </td> 
+      <td> <p>보고서에 액세스할 수 있는 사용자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다. 보고서를 받는 사용자에게는 여기에서 지정한 사용자와 동일한 수준의 보고서 액세스 권한이 부여됩니다.<br> 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">다른 사용자의 액세스 권한으로 보고서 실행 및 전달</a>을 참조하십시오.</p> <p>참고: 이 필드는 와일드카드를 지원하지 않습니다. 예를 들어 와일드카드 <em>$$User.ID</em>을(를) 사용하면 보고서를 받는 사용자의 액세스 권한으로 보고서를 실행하지 않습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>형식</p> </td> 
       <td> <p>게재된 보고서에 사용할 형식을 선택합니다.</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
-        <li> <p>PDF</p> <p>이 옵션을 선택하면 표시되는 추가 <strong>용지 크기</strong> 및 <strong>방향</strong> 옵션을 사용하여 출력 서식을 지정할 수 있습니다.</p> </li> 
+        <li> <p>PDF</p> <p>PDF을 선택하면 표시되는 추가 <strong>용지 크기</strong> 및 <strong>방향</strong> 옵션을 사용하여 출력 형식을 지정할 수 있습니다.</p> </li> 
         <li> <p>MS Excel (.xlsx)</p> </li> 
         <li> <p>TSV</p> </li> 
        </ul> </td> 
@@ -170,9 +167,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. 보고서 배달을 저장하려면 **저장**&#x200B;을 클릭하세요.
-
-   보고서는 **보고서 보내기** 대화 상자의 **반복 배달** 섹션에 표시되며 예약된 시간에 전송됩니다.
+1. 보고서 배달을 저장하려면 **저장**&#x200B;을 클릭하세요. 보고서는 **보고서 보내기** 대화 상자의 **반복 배달** 섹션에 표시되며 예약된 시간에 전송됩니다.
 
    보고서 배달에 영향을 줄 수 있는 크기 제한에 대한 자세한 내용은 [보고서 배달 제한](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) 및 [내보내기 제한](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export) 섹션을 참조하십시오.
 
@@ -182,10 +177,21 @@ ht-degree: 2%
 >
 >예약된 보고서 배달을 사용하여 BI 도구를 통해 Workfront 데이터를 분석하는 경우 Workfront Data Connect를 대신 사용하는 것이 좋습니다. 자세한 내용은 [Workfront Data Connect 개요](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)를 참조하십시오.
 
-1. (선택 사항) 예약된 게재를 삭제하려면
+## 예약된 보고서 게재 삭제
 
-   1. **반복 게재** 패널에서 예약된 게재를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
-   1. 확인하려면 **삭제**&#x200B;를 클릭하세요.
+예약된 보고서 게재를 삭제하려면 다음을 수행합니다&#x200B;.
+
+{{step1-to-reports}}
+
+1. **보고서** 페이지에서 보고서를 선택하십시오.
+
+1. 화면 맨 위에서 표시되는 드롭다운에서 **보고서 작업**&#x200B;을 클릭한 다음 **보고서 보내기**&#x200B;를 클릭합니다. **보고서 보내기** 대화 상자가 표시됩니다.
+
+1. **반복 게재** 탭을 선택합니다.
+1. 대화 상자 오른쪽의 **반복 게재** 섹션에서 삭제할 예약된 게재를 클릭합니다.
+1. **반복 게재** 세부 정보 섹션에서 **삭제**&#x200B;를 클릭합니다.
+
+1. 확인하려면 **삭제**&#x200B;를 클릭하세요.
 
 <!--## Video walk-through
 

@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 * [보고서 실행](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
 * [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
 * [보고서 복사본 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-* [시간대별로 보고서 필터링](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
+* [시간대별로 보고서 필터링](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
 * [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [보고서에 차트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
 * [보고서 배달 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)
