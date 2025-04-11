@@ -8,16 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # 문서 일괄 편집
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 한 번에 여러 문서에서 설명을 편집하고, 사용자 정의 양식을 추가하고, 사용자 정의 양식을 편집할 수 있습니다.
 
@@ -97,7 +95,6 @@ ht-degree: 0%
     </table>
 1. **저장**&#x200B;을 클릭합니다.
 
-<span class="preview">
 
 ## 문서 보고서에서 문서를 일괄적으로 편집
 
@@ -125,5 +122,3 @@ ht-degree: 0%
     </tr>
     </table>
 1. **저장**&#x200B;을 클릭합니다.
-
-</span>
