@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ### 외부 조회에서 기본 Workfront 필드 값 사용
 
-이 예에서는 Workfront API를 호출하고 기존 &quot;상태 쿼리&quot; 필드의 데이터를 외부 조회 필드로 가져오는 방법을 보여 줍니다.
+이 예에서는 Workfront API를 호출하고 $$QUERY를 통해 &quot;상태 쿼리&quot; 사용자 정의 필드 값 및 검색어를 사용하여 상태별로 필터링된 외부 조회 필드에 프로젝트 목록을 채우는 방법을 보여 줍니다.
 
 1. 사용자 정의 양식을 엽니다.
 1. 화면 왼쪽에서 **외부 조회**&#x200B;를 찾아 캔버스의 섹션으로 끕니다.
@@ -37,17 +37,17 @@ ht-degree: 0%
 1. 필드의 **형식**&#x200B;을(를) 선택하십시오.
 1. **기본 API URL** 필드에 API 호출을 입력합니다.
 
-   * 사용자 정의 양식이 있는 동일한 Workfront 인스턴스를 참조하려면 URL에 $$HOST를 사용하십시오.
-   * 다른 필드의 쿼리를 기준으로 결과를 필터링하려면 $$QUERY를 추가합니다.
+   * $$HOST를 사용하여 사용자 정의 양식이 있는 동일한 Workfront 인스턴스를 참조합니다.
+   * $$QUERY를 사용하여 사용자 입력에 따라 결과를 동적으로 필터링합니다.
 
-   **예**
-   `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
+   **API 호출 예**
+   `$$HOST/attask/api/v15.0/project/search?status={DE:Status Query}&description=$$QUERY`
 
-1. 이 조회 필드가 API에서 참조하는 필드에 대한 **종속성**&#x200B;을 검토하십시오.
+1. API 호출에서 참조된 필드에 대한 **종속성**&#x200B;을(를) 검토하십시오.
 
-   종속성 필드는 개체의 세부 정보 페이지에 있는 사용자 지정 필드나 기본 필드일 수 있습니다.
+   종속성 필드는 개체에서 사용할 수 있는 사용자 지정 필드나 네이티브 필드일 수 있습니다. 예를 들어 외부 조회 필드가 포함된 그룹에 대한 사용자 정의 양식을 만들 때 종속성 필드에 그룹에서 사용할 수 있는 필드가 포함될 수 있습니다.
 
-   이 예제에서는 `{DE:StatusQuery}`이(가) StatusQuery 사용자 지정 필드의 값으로 바뀝니다.
+   이 예제에서 `{DE:Status Query}`은 현재 그룹에 대한 &quot;상태 쿼리&quot; 사용자 지정 필드의 값으로 동적으로 대체됩니다. 따라서 양식을 그룹 A에 연결하면 `{DE:Status Query}`이(가) 해당 그룹의 &quot;상태 쿼리&quot; 필드에 설정된 값으로 바뀝니다.
 
 1. **HTTP 메서드**&#x200B;를 선택하십시오.
 
