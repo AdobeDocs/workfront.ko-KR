@@ -6,9 +6,9 @@ description: Adobe Workfront에서 생성했거나 공유한 캘린더 보고서
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
+source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,6 @@ Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤�
    * **[!UICONTROL 주]**: 달력의 1주일을 표시합니다.
    * **[!UICONTROL 간트]**: 캘린더의 연속 보기를 표시합니다.
 
-     ![[!UICONTROL 간트] 일정 보고서](assets/gantt-calendar-report.png)
-
      아래로 스크롤하거나 옆으로 스크롤하여 [!UICONTROL 간트] 보기에서 더 많은 이벤트를 볼 수 있습니다. 보기의 데이터가 채워질 때 로딩 기호가 나타납니다.
 
    >[!NOTE]
@@ -118,16 +116,5 @@ Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤�
 
 현재 이벤트와 과거 이벤트 모두에 대한 이벤트의 세부 정보를 달력에서 볼 수 있습니다.
 
-1. 세부 정보를 알 이벤트로 이동한 다음 이벤트를 클릭합니다.
-이벤트에 대한 세부 정보 페이지가 열립니다.
-   ![calendar_report_EventDetails.png](assets/calendar-report-eventdetails-350x145.png)
-
-1. (선택 사항) 객체에 대한 추가 세부 정보를 보려면 다음과 같이 하십시오.
-
-   1. 프로젝트, 작업 또는 문제 이름 위로 마우스를 가져갑니다.
-
-      객체에 대한 세부 정보 페이지가 열립니다.
-      ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
-
-   1. (선택 사항) 연결된 프로젝트, 작업 또는 문제를 열려면 개체의 제목을 클릭합니다.
-   1. (선택 사항) 열려 있는 모든 세부 정보 페이지를 닫으려면 이벤트 세부 정보 페이지의 바깥쪽을 클릭합니다.
+1. 세부 정보를 알 이벤트로 이동한 다음 이벤트를 클릭합니다. 오른쪽의 패널에서 세부 정보가 열립니다.
+1. (선택 사항) 연결된 프로젝트, 작업 또는 문제를 열려면 개체의 제목을 클릭합니다.
