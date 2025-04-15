@@ -7,10 +7,10 @@ description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: eccc878f4b6fdeeffbcd5635b80ac3e26f7fb8c6
+source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
 workflow-type: tm+mt
-source-wordcount: '4719'
-ht-degree: 4%
+source-wordcount: '7843'
+ht-degree: 7%
 
 ---
 
@@ -63,801 +63,8008 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
 
 다음 표는 Workfront의 개체 이름(인터페이스 및 API의 이름)과 Data Connect의 해당 이름을 상호 연결합니다.
 
+### 액세스 수준
+
 <table>
-  <thead>
-    <tr>
-        <th>Workfront 엔티티 이름</th>
-        <th>인터페이스 참조</th>
-        <th>API 참조 | 레이블</th>
-        <th>데이터 레이크 테이블</th>
-        <th>관계 필드</th>
-        <th>관계 테이블 및 필드</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-        <td>액세스 수준</td>
-        <td>액세스 수준</td>
-        <td>ACSLVL | 액세스 수준</td>
-        <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
-        <td>ACCESSLEVELID(자체)<br>APPGLOBALID<br>LASTUPDATEDBYID<br>LEGACYACCESSLEVELID<br>OBJID<br>SYSID</td>
-        <td>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>USER_CURRENT | USERID<br>관계가 없음, 내부 응용 프로그램 용도로 사용<br>OBJCODE 필드에서 식별된 개체의 ID<br>관계가 없음, 내부 응용 프로그램 용도로 사용</td>
-    </tr>
-    <tr>
-        <td>액세스 규칙</td>
-        <td>공유</td>
-        <td>ACSRUL | 공유</td>
-        <td>ACCESSRULES_CURRENT<br>ACCESSRULES_DAILY_HISTORY<br>ACCESSRULES_EVENT</td>
-        <td>ACCESSORID <br>ACCESSRULEID(자체) <br>ANCESTORID <br>LASTUPDATEDBYID <br>SECURITYOBJID <br>SYSID</td>
-        <td>ACCESSOROBJCODE 필드에서 식별된 개체의 ID<br>자체<br>ANCESTOROBJCODE 필드에서 식별된 개체의 ID<br>USERS_CURRENT | USERID<br>SECURITYOBJCODE 필드에서 식별된 개체의 ID<br>관계가 없습니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
-    </tr>
-    <tr>
-        <td>승인 경로</td>
-        <td>승인 경로</td>
-        <td>ARVPTH | 승인</td>
-        <td>APPROVALPATHS_CURRENT<br>APPROVALPATHS_DAILY_HISTORY<br>APPROVALPATHS_EVENT</td>
-        <td>APPROVALPATHID(자체) <br>APPROVALPROCESSID <br>ENTEREDBYID <br>GLOBALPATHID <br>LASTUPDATEDBYID <br>SYSID</td>
-        <td>자체<br>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USERS_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>USERS_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>승인 진행</td>
-        <td>승인 진행</td>
-        <td>ARVPRC | 승인 진행</td>
-        <td>APPROVALPROCESSES_CURRENT<br>APPROVALPROCESSES_DAILY_HISTORY<br>APPROVALPROCESSES_EVENT</td>
-        <td>APPROVALPROCESSID(자체) <br>ENTEREDBYID <br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>자체<br>사용자_현재 | USERID<br>USERS_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>승인 단계</td>
-        <td>승인 단계</td>
-        <td>ARVSTP | 승인 단계</td>
-        <td>APPROVALSTEPS_CURRENT<br>APPROVALSTEPS_DAILY_HISTORY<br>APPROVALSTEPS_EVENT</td>
-        <td>APPROVALPATHID <br>APPROVALSTEPID(자체) <br>SYSID</td>
-        <td>APPROVALPATHS_CURRENT | APPROVALPATHID<br>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>승인자 상태</td>
-        <td>승인자 상태</td>
-        <td>아르브스트 | 승인자 상태</td>
-        <td>APPROVERSTATUSES_CURRENT<br>APPROVERSTATUSES_DAILY_HISTORY<br>APPROVERSTATUSES_EVENT</td>
-        <td>APPROVERSTATUSID(자체)<br>APPROVABLEOBJID<br>APPROVALSTEPID<br>APPROVEDBYID <br>DELEGATEUSERID<br>LASTUPDATEDBYID <br>OPTASKID<br>OVERRIDDENUSERID<br>PROJECTID<br>STEAPPROVERID<br>SYSID<br>TASKID<br>WILDCARDUSERID</td>
-        <td>자체<br>APPROVABLEOBJCODE 필드에서 식별된 개체의 ID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID<br>USERS_CURRENT | 사용자 ID <br>OPTASKS_CURRENT | OPTASKID<br>USERS_CURRENT | USERID<br>PROJECTS_CURRENT | PROJECTID<br>USERS_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TASKS_CURRENT | TASKID<br>USERS_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>할당</td>
-        <td>할당</td>
-        <td>ASSIGN | 할당</td>
-        <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
-        <td>ASSIGNEDBYID<br>ASSIGNEDTOID<br>ASSIGNMENTID(자체)<br>CATEGORYID<br>CLASSIFIERID<br>OPTASKID<br>PRIVATERATECARDID<br>PROJECTID<br>ROLEID<br>TASKID<br>TEAMID</td>
-        <td>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>자체<br>범주_현재 | CATEGORYID<br>분류자 테이블이 현재 지원되지 않음<br>OPTASK_CURRENT | OPTASKID<br>RATECARD_CURRENT | RATECARDID<br>PROJECT_CURRENT | PROJECTID<br>ROLE_CURRENT | ROLEID<br>TASK_CURRENT | TASKID<br>TEAM_CURRENT | 티미드</td>
-    </tr>
-    <tr>
-        <td>승인 대기 중</td>
-        <td>승인 대기 중</td>
-        <td>AWAPVL | 승인 대기 중</td>
-        <td>AWAITINGAPPROVALS_CURRENT<br>AWAITINGAPPROVALS_DAILY_HISTORY<br>AWAITINGAPPROVALS_EVENT</td>
-        <td>ACCESSREQUESTID<br>APPROVABLEID <br>APPROVERID <br>AWAITINGAPPROVALID(자체) <br>DOCUMENTID <br>DOCUMENTVERSIONID<br>OPTASKID <br>PROJECTID <br>ROLEID <br>SUBMITTEDBYID <br>SYSID<br>TASKID <br>TEAMID <br>TIMESHEETID<br>USERID</td>
-        <td>액세스 요청 테이블이 현재 지원되지 않음<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>USERS_CURRENT | USERID<br>자체<br>DOCUMENTS_CURRENT | DOCUMENTID<br>DOCUMENTVERSIONS_CURRENT | DOCUMENTVERSIONID<br>OPTASKS_CURRENT | OPTASKID<br>PROJECTS_CURRENT | PROJECTID<br>ROLES_CURRENT | ROLEID<br>USERS_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TASKS_CURRENT | TASKID<br>TEAMS_CURRENT | TEAMID<br>TIMESHEETS_CURRENT | TIMESHEETID<br>USERS_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>기준선</td>
-        <td>기준선</td>
-        <td>블린 | 기준선</td>
-        <td>BASELINES_CURRENT<br>BASELINES_DAY_HISTORY<br>BASELINES_EVENT</td>
-        <td>BASELINEID(자체)<br>EXCHANGERATEID <br>PROJECTID <br>SYSID</td>
-        <td>자체<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>PROJECTS_CURRENT | PROJECTID<br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
-    </tr>
-    <tr>
-        <td>기준선 작업</td>
-        <td>기준선 작업</td>
-        <td>BSTSK | 기준선 작업</td>
-        <td>BASELINETTASKS_CURRENT<br>BASELINETTASKS_DAILY_HISTORY<br>BASELINETTASKS_EVENT</td>
-        <td>BASELINEID<br>BASELINETASKID(자체) <br>EXCHANGERATEID <br>PROJECTID <br>SYSID<br>TASKID</td>
-        <td>BASELINES_CURRENT | BASELINEID<br>자체<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>PROJECTS_CURRENT | PROJECTID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TASKS_CURRENT | TASKID</td>
-    </tr>
-    <tr>
-        <td>청구 요금</td>
-        <td>비율 또는 재정의 비율</td>
-        <td>비율 | 청구 요금</td>
-        <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
-        <td>ASSIGNMENTID<br>CLASSIFIERID<br>EXCHANGERATEID<br>NLBRCATEGORYID<br>NONLABORRESOURCEID<br>OBJID<br>PROJECTID <br>RATECARDID<br>RATEID(자체)<br>ROLEID <br>SOURCERATECARDID <br>SYSID <br>TEMPLATEID<br>USERID</td>
-        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>분류자 테이블이 현재 지원되지 않음<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>비인적 자원 범주 테이블은 현재 지원되지 않습니다<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>OBJCODE 필드에서 식별된 개체의 ID<br>PROJECTS_CURRENT | PROJECTID <br>RATECARD_CURRENT | RATECARDID<br>Self<br>ROLES_CURRENT | ROLEID <br>RATECARD_CURRENT | RATECARDID <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다. <br>TEMPLATES_CURRENT | TEMPLATEID<br>USERS_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>청구 기록</td>
-        <td>청구 기록</td>
-        <td>청구서 | 청구 기록</td>
-        <td>BILLINGRECORDS_CURRENT<br>BILLINGRECORDS_DAILY_HISTORY<br>BILLINGRECORDS_EVENT</td>
-        <td>BILLINGRECORDID(자체)<br>CATEGORYID<br>EXCHANGERATEID <br>INVOICID <br>LASTUPDATEDBYID <br>PROJECTID <br>SYSID</td>
-        <td>자체<br>범주_현재 | CATEGORYID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID <br>현재 <br>USERS_CURRENT의 송장 테이블이 지원되지 않습니다. | 사용자 ID <br>PROJECTS_CURRENT | PROJECTID   <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
-    </tr>
-    <tr>
-        <td>예약</td>
-        <td>예약</td>
-        <td>예약 | 예약</td>
-        <td>BOOKINGS_CURRENT<br>BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
-        <td>BOOKINGID(자체)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID<br>NONLABORRESOURCEID<br>OBJID<br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOPOBJID</td>
-        <td>자체<br>사용자_현재 | USERID<br>USERS_CURRENT | USERID<br>비인적 자원 범주 테이블은 현재 지원되지 않음<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>OBJOBJCODE 필드에서 식별된 개체의 ID<br>PROJECTS_CURRENT | PROJECTID <br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>TOPOBJCODE 필드에서 식별된 개체의 ID입니다</td>
-    </tr>
-    <tr>
-        <td>비즈니스 프로필</td>
-        <td>비즈니스 프로필</td>
-        <td>BSNPRF | 비즈니스 프로필</td>
-        <td>BUSINESSPROFILE_CURRENT<br>BUSINESSPROFILE_DAILY_HISTORY<br>BUSINESSPROFILE_EVENT</td>
-        <td>ACCESSLEVELID<br>BUSINESSPROFILEID(자체)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>ACCESSLEVELS_CURRENT | ACCESSLEVELID<br>자체<br>사용자_현재 | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>비즈니스 규칙</td>
-        <td>비즈니스 규칙</td>
-        <td>BSNRUL | 비즈니스 규칙</td>
-        <td>BUSINESSRULE_CURRENT<br>BUSINESSRULE_DAILY_HISTORY<br>BUSINESSRULE_EVENT</td>
-        <td>BUSINESSRULEID(자체)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>자체<br>사용자_현재 | USERID<br>USERS_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>카테고리</td>
-        <td>사용자 정의 양식</td>
-        <td>CTGY | 범주</td>
-        <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>
-        <td>CATEGORYID(자체)<br>ENTEREDBYID<br>GROUPPID<br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>자체<br>사용자_현재 | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>범주 매개변수</td>
-        <td>사용자 정의 양식 필드</td>
-        <td>CTGYA | 범주 매개변수</td>
-        <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
-        <td>CATEGORIESPARAMETERID(자체)<br>CATEGORYID<br>PARAMETERGROUPID<br>PARAMETERID<br>SYSID</td>
-        <td>자체<br>범주_현재 | CATEGORYID<br>현재 지원되지 않는 매개변수 그룹 테이블<br>PARAMETERS_CURRENT | 매개 변수화    <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
-    </tr>
-    <tr>
-        <td>분류자</td>
-        <td>위치</td>
-        <td>CLSF | 위치</td>
-        <td>CLASSIFIER_CURRENT<br>CLASSIFIER_DAILY_HISTORY<br>CLASSIFIER_EVENT</td>
-        <td>CLASSIFIERID(자체)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>PARENTID<br>SYSID</td>
-        <td>자체<br>사용자_현재 | USERID<br>USERS_CURRENT | USERID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>회사</td>
-        <td>회사</td>
-        <td>지저분해 | 회사</td>
-        <td>COMPANIES_CURRENT<br>COMPANIES_DAILY_HISTORY<br>COMPANIES_EVENT</td>
-        <td>CATEGORYID<br>COMPANYID(자체)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>PRIVATERATECARDID<br>SYSID</td>
-        <td>CATEGORS_CURRENT | CATEGORYID<br>Self<br>USERS_CURRENT | 사용자 ID <br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | 사용자 ID <br>RATECARD_CURRENT | RATECARDID<br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
-    </tr>
-    <tr>
-        <td>사용자 정의 분기</td>
-        <td>사용자 정의 분기</td>
-        <td>CSTQRT | 사용자 정의 영역</td>
-        <td>CUSTOMQUARTERS_CURRENT<br>CUSTOMQUARTERS_DAILY_HISTORY<br>CUSTOMQUARTERS_EVENT</td>
-        <td>CUSTOMQUARTERID(자체) <br>SYSID</td>
-        <td><br>Self 관계가 아니며 내부 애플리케이션 목적으로 사용됩니다.</td>
-    </tr>
-    <tr>
-        <td>CustomEnum</td>
-        <td>상태, 우선 순위, 심각도, 상태</td>
-        <td>CSTEM | 사용자 정의 열거형</td>
-        <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT<br>* 레코드 유형은 'enumClass' 속성을 통해 식별됩니다. 다음은 예상 유형입니다.<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
-        <td>ENTEREDBYID<br>GROUPID</td>
-        <td>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID</td>
-    </tr>
-    <tr>
-        <td>문서</td>
-        <td>문서</td>
-        <td>도쿠 | 문서</td>
-        <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT<br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
-        <td>CATEGORYID<br>CHECKEDOUTBYID<br>DOCUMENTID<br>DOCUMENTREQUESTID<br>EXCHANGERATEID<br>ITERATIONID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>NOTEID<br>OBJID<br>OPTASKID<br>OWNERID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>RELEASEVERSIONID<br>TASKID<br>TEMPLATEID<br>TEMPLATEKID<br>USERID<br></td>
-        <td>CATEGORS_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>자체<br>문서 요청 테이블이 현재 지원되지 않음<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>ITERATIONS_CURRENT | ITERATIONID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>DOCOBJCODE 값에 따라 변수<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>PORTFOLIO_CURRENT | 포트폴리오<br>PROGRAM_CURRENT | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>릴리스 버전 테이블이 현재 지원되지 않음<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>TOPOBJCODE 값에 따라 변수<br>USER_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>문서 승인</td>
-        <td>문서 승인</td>
-        <td>DOCAPL | 문서 승인</td>
-        <td>DOCAPPROVALS_CURRENT<br>DOCAPPROVALS_DAILY_HISTORY<br>DOCAPPROVALS_EVENT</td>
-        <td>APPROVERID<br>DOCAPPROVALID(자체)<br>DOCUMENTID<br>NOTEID<br>REQUESTORID<br>SYSID</td>
-        <td>USERS_CURRENT | USERID <br>Self<br>DOCUMENTS_CURRENT | DOCUMENTID<br>NOTES_CURRENT | NOTEID<br>USERS_CURRENT | USERID <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
-    </tr>
-    <tr>
-        <td>문서 폴더</td>
-        <td>문서 폴더</td>
-        <td>DOCFLD | 문서 폴더</td>
-        <td>DOCTFOLDERS_CURRENT<br>DOCTFOLDERS_DAILY_HISTORY<br>DOCTFOLDERS_EVENT</td>
-        <td>DOCFOLDERID(자체)<br>ENTEREDBYID<br>ISSUEID<br>ITERATIONID    <br>LINKEDFOLDERID<br>PARENTID<br>PORTFOLIOID <br>PROGRAMID    <br>PROJECTID<br>SYSID<br>TASKID     <br>TEMPLATEID<br>TEMPLATETASKID<br>USERID</td>
-        <td>자체<br>사용자_현재 | USERID<br>OPTASKS_CURRENT | OPTASKID<br>ITERATIONS_CURRENT | ITERATIONID<br>LINKEDFOLDERS_CURRENT | LINKEDFOLDERID<br>DOCTFOLDERS_CURRENT | DOCFOLDERID<br>PORTFOLIO_CURRENT | 포트폴리오 <br>PROGRAM_CURRENT | PROGRAMID    <br>프로젝트_CURRENT | PROJECTID <br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TASKS_CURRENT | TASKID     <br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>USERS_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>DocumentProviderMetadata</td>
-        <td>문서 제공 메타데이터</td>
-        <td>문서 | 문서 공급자 메타데이터</td>
-        <td>DOCTPROVIDERMETA_CURRENT<br>DOCTPROVIDERMETA_DAILY_HISTORY<br>DOCTPROVIDERMETA_EVENT</td>
-        <td>DOCPROVIDERMETAID(자체) <br>SYSID</td>
-        <td>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>DocumentProvider</td>
-        <td>문서 공급자</td>
-        <td>DOCPRO | 문서 공급자</td>
-        <td>DOCPROVIDERS_CURRENT<br>DOCPROVIDERS_DAILY_HISTORY<br>DOCPROVIDERS_EVENT</td>
-        <td>DOCTPROVIDERCONFIGID<br>DOCTPROVIDERID(자체)<br>OWNERID    <br>SYSID</td>
-        <td>DOCPROVIDERCONFIG_CURRENT | DOCTPROVIDERCONFIGID<br>자체<br>USERS_CURRENT | 사용자 ID    <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
-    </tr>
-    <tr>
-        <td>DocumentProviderConfig</td>
-        <td>문서 공급자 구성</td>
-        <td>DOCCFG | DocumentProviderConfig</td>
-        <td>DOCTPROVIDERCONFIG_CURRENT<br>DOCTPROVIDERCONFIG_DAILY_HISTORY<br>DOCTPROVIDERCONFIG_EVENT</td>
-        <td>DOCTPROVIDERCONFIGID(self)<br>SYSID</td>
-        <td>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>DocumentVersion</td>
-        <td>문서 버전</td>
-        <td>증권 시세 표시기 | 문서 버전</td>
-        <td><br>DOCUMENTVERSIONS_CURRENT DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
-        <td>DOCUMENTID<br>DOCUMENTPROVIDERID<br>DOCUMENTVERSIONID<br>ENTEREDBYID<br>EXTERNALSTORAGEID<br>PROOFAPPROVALSTATUSID<br>PROOFEDBYUSERID<br>PROOFID PROOFOWNERID<br><br>PROOFSTAGEID</td>
-        <td>DOCUMENT_CURRENT | 문서 ID<br>DOCPROVIDERS_CURRENT | DOCUMENTPROVIDERID<br>자체<br>USER_CURRENT | USERID<br>외부 ID<br>증명 승인 상태 테이블은 현재<br>지원되지 않습니다USER_CURRENT | USERID<br>현재 지원되지<br>않는 증명 테이블 USER_CURRENT | USERID<br>증명 스테이지 테이블은 현재 지원되지 않습니다.</td>
-    </tr>
-    <tr>
-        <td>환율</td>
-        <td>환율</td>
-        <td>EXRATE | 환율</td>
-        <td><br>EXCHANGERATES_CURRENT EXCHANGERATES_DAILY_HISTORY<br>EXCHANGERATES_EVENT</td>
-        <td>EXCHANGERATEID(자체)<br>PROJECTID<br>SYSID <br>TEMPLATEID  </td>
-        <td>자체<br>프로젝트_현재 | PROJECTID <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다. <br>TEMPLATES_CURRENT | TEMPLATEID  </td>
-    </tr>
-    <tr>
-        <td>경비</td>
-        <td>경비</td>
-        <td>확장 | 경비</td>
-        <td>EXPENSES_CURRENT<br>EXPENSES_DAILY_HISTORY<br>EXPENSES_EVENT</td>
-        <td>BILLINGRECORDID<br>CATEGORYID<br>ENTEREDBYID<br>EXCHANGERATEID <br>EXPENSEID (self) <br>EXPENSETYPEID <br>LASTUPDATEDBYID <br>OBJID <br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID TEMPLATETASKID<br><br>TOPOBJID</td>
-        <td>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>CATEGORIES_CURRENT | 카테고리 ID<br>USERS_CURRENT | 사용자 ID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID  <br>자체  <br>EXPENSETYPES_CURRENT | EXPENSETYPEID <br>USERS_CURRENT | USERID <br>OBJCODE 필드 <br>에서 식별된 개체의 ID입니다. PROJECTS_CURRENT | PROJECTID <br>관계가 아니며 내부 애플리케이션 목적으로<br>사용됩니다. TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | 템플릿 ID<br>TEMPLATETASKS_CURRENT | **TEMPLATETASKID<br>** TOPOBJCODE 필드에서 식별된 개체의 ID입니다.</td>
-    </tr>
-    <tr>
-        <td>경비 유형</td>
-        <td>경비 유형</td>
-        <td>EXPTYP | 경비 유형</td>
-        <td>EXPENSETYPES_CURRENT<br>EXPENSETYPES_DAILY_HISTORY<br>EXPENSETYPES_EVENT</td>
-        <td>APPGLOBALID<br>EXPENSETYPEID(자체)<br>OBJID <br>SYSID  </td>
-        <td>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다<br>자체<br>OBJCODE 필드에서 식별된 개체의 ID <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.  </td>
-    </tr>
-    <tr>
-        <td>그룹</td>
-        <td>그룹</td>
-        <td>그룹 | 그룹</td>
-        <td>GROUPS_CURRENT<br>GROUPS_DAILY_HISTORY<br>GROUPS_EVENT</td>
-        <td>BUSINESLEADERID<br>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LAYOUTTEMPLATEID<br>PARENTID<br>ROOTID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | USERID<br>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>자체<br>레이아웃 템플릿 테이블이 지원되지 않습니다.<br>GROUP_CURRENT | GROUPID<br>GROUP_CURRENT | GROUPID<br>UITEMPLATES_CURRENT | UITEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>시간</td>
-        <td>시간</td>
-        <td>시간 | 시간</td>
-        <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
-        <td>APPROVEDBYID<br>BILLINGRECORDID<br>CATEGORYID<br>CLASSIFIERID<br>DUPID<br>EXCHANGERATEID<br>EXTERNALTIMESHEETID<br>HOURTYPEID<br>LASTUPDATEDBYID<br>OPTASKID<br>OWNERID<br>PROJECTID<br>PROJECTTOVERHEADID<br>ROLEID<br>TASKID<br>TIMESHEETID<br></td>
-        <td>USER_CURRENT | USERID<br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>CATEGORIES_CURRENT | CATEGORYID<br>분류자 테이블이 현재 지원되지 않음<br>관계가 없음, 내부 응용 프로그램 용도로 사용됨<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>Workfront 관계가 아님, 외부 시스템과의 통합에 사용됨<br>Self<br>HOURTYPE_CURRENT | HOURTYPEID<br>USER_CURRENT | USERID<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>PROJECT_CURRENT | PROJECTID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>ROLE_CURRENT | ROLEID<br>TASK_CURRENT | TASKID<br>TIMESHEET_CURRENT | TIMESHEETID</td>
-    </tr>
-    <tr>
-        <td>시간 유형</td>
-        <td>시간 유형</td>
-        <td>시간 | 시간 유형</td>
-        <td>HOURTYPES_CURRENT</td>
-        <td>APPGLOBALID<br>HOURTYPEID<br>OBJID</td>
-        <td>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다<br>자체<br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
-    </tr>
-    <tr>
-        <td>반복</td>
-        <td>반복</td>
-        <td>ITRN | 반복</td>
-        <td>ITERATIONS_CURRENT<br>ITERATIONS_DAILY_HISTORY<br>ITERATIONS_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>ITERATIONID(자체)<br>LASTUPDATEDBYID<br>OWNERID<br>SYSID<br>TEAMID</td>
-        <td>CATEGORS_CURRENT | CATEGORYID<br>USERS_CURRENT | 사용자 ID <br>자체<br>사용자_현재 | USERID <br>USERS_CURRENT | 사용자 ID <br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TEAMS_CURRENT | 티미드</td>
-    </tr>
-    <tr>
-        <td>저널 항목</td>
-        <td>저널 항목</td>
-        <td>JRNLE | 저널 게시물</td>
-        <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
-        <td>APPROVERSTATUSID<br>ASSIGNMENTID<br>AUDITRECORDID<br>BASELINEID <br>BILLINGRECORDID<br>COMPANYID <br>DOCUMENTID <br>DOCUMENTSHAREID <br>EDITEDBYID<br>EXPENSEID<br>HOURID<br>INITIATIVEID<br>JOURNALENTRIEID(자체)<br>OBJID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>SUBOBJID<br>SUBSCBEID<br>SYSID <br>TASKID<br>TEMPLATEID<br>TIMESHEETID<br>TOPOBJID<br>USERID</td>
-        <td>APPROVERSTATUSES_CURRENT | APPROVERSTATUSID<br>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>감사 레코드 테이블이 현재 지원되지 않음<br>BASELINES_CURRENT | BASELINEID <br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>COMPANIES_CURRENT | COMPANYID <br>DOCUMENTS_CURRENT | DOCUMENTID <br>문서 공유 테이블은 현재 <br>USERS_CURRENT에서 지원되지 않습니다. | USERID<br>EXPENSES_CURRENT | EXPENSEID<br>HOURS_CURRENT | HOURID<br>이니셔티브 테이블이 현재 지원되지 않음<br>자체<br>OBJCODE 필드에서 식별된 개체의 ID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIO_CURRENT | 포트폴리오<br>PROGRAM_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID <br>SUBOBJCODE 필드에서 식별된 개체의 ID<br>구독 테이블이 현재 지원되지 않음<br>관계가 없음, 내부 응용 프로그램 용도로 사용됨<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TIMESHEETS_CURRENT | TIMESHEETID<br>TOPOBJCODE 필드에서 식별된 개체의 ID<br>USERS_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>LinkedFolder</td>
-        <td>LinkedFolder</td>
-        <td>LNKFDR | LinkedFolder</td>
-        <td>LINKEDFOLDERS_CURRENT<br>LINKEDFOLDERS_DAILY_HISTORY<br>LINKEDFOLDERS_EVENT</td>
-        <td>DOCUMENTPROVIDERID<br>EXTERNALSTORAGEID<br>FOLDERID<br>LINKEDBYID<br>LINKEDFOLDERID(자체)<br>SYSID</td>
-        <td>DOCPROVIDERS_CURRENT | DOCTPROVIDERID<br>외부 ID<br>DOCTFOLDERS_CURRENT | DOCFOLDERID<br>USERS_CURRENT | USERID <br>Self<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨  </td>
-    </tr>
-    <tr>
-        <td>마일스톤</td>
-        <td>마일스톤</td>
-        <td>마일 | 이정표</td>
-        <td><br>MILESTONES_CURRENT MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
-        <td>LASTUPDATEDBYID<br>MILESTONEID<br>MILESTONEPATHID</td>
-        <td>USER_CURRENT | USERID<br>자체<br>MILESTONEPATH_CURRENT | 마일스톤 ID</td>
-    </tr>
-    <tr>
-        <td>마일스톤패스</td>
-        <td>마일스톤 경로</td>
-        <td>엠패스 | 이정표 경로</td>
-        <td><br>MILESTONEPATHS_CURRENT MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
-        <td>ENTEREDBYID<br>LASTUPDATEDBYID<br>MILESTONEPATHID</td>
-        <td>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>Self</td>
-    </tr>
-    <tr>
-        <td>NonLaborResource</td>
-        <td>비노동 리소스</td>
-        <td>NLBR | 비인적 자원</td>
-        <td>NONLABORRESOURCES_CURRENT<br>NONLABORRESOURCES_DAILY_HISTORY<br>NONLABORRESOURCES_EVENT</td>
-        <td>CATEGORYID<br>NONLABORRESOURCEID (SELF)<br>ENTEREDBYID<br>HOMEGROUPID<br>LASTUPDATEDBYID<br>NONLABORRESOURCECATEGORYID<br>SYSID  </td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>자체<br>USERS_CURRENT | 사용자 ID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>비노동 자원 현재 지원되지<br>않는 범주 테이블 관계가 아님, 내부 애플리케이션 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>비노동 리소스 범주</td>
-        <td>비노동 리소스 범주</td>
-        <td>NLBRCY | 비인적 자원 범주</td>
-        <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID(자체)<br>PRIVATERATECARDID<br>SCHEDULEID<br>SYSID</td>
-        <td>CATEGORS_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Self<br>RATECARD_CURRENT | RATECARDID<br>USERS_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>비근무일</td>
-        <td>일정 예외</td>
-        <td>NONWKD | 비근무일</td>
-        <td>NONWORKDAYS_CURRENT<br>NONWORKDAYS_DAILY_HISTORY<br>NONWORKDAYS_EVENT</td>
-        <td>NONWORKDAYID(자체)<br>OBJID <br>SCHEDULEID <br>SYSID <br>USERID  </td>
-        <td>Self<br>OBJCODE 필드 <br>SCHEDULES_CURRENT에서 식별된 개체의 ID | 일정 ID <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다. <br>USERS_CURRENT | 사용자 ID  </td>
-    </tr>
-    <tr>
-        <td>참고</td>
-        <td>참고</td>
-        <td>참고 | 참고</td>
-        <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
-        <td>ATTACHDOCUMENTID<br>ATTACHOBJID<br>ATTACHOPTASKID<br>ATTACHWORKID<br>ATTACHWORKUSERID<br>AUDITRECORDID<br>COMPANYID<br>DOCUMENTID<br>EXTERNALSERVICID<br>ITERATIONID<br>NOTEID<br>OBJID<br>OPTASKID<br>OWNERID<br>PARENTENDORSEMENTID<br>PARENTJOURALENTRYID<br>PARENTNOTEID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>PROOFATIONFACID <br>PROFID<br>RICHTEXTNOTEID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>THREADID<br>TIMESHEETID<br>TOPOBJID<br>USERID</td>
-        <td>DOCUMENT_CURRENT | DOCUMENTID<br>ATTACHOBJCODE에 따른 변수<br>OPTASK_CURRENT | OPTASKID<br>WORKITEMS_CURRENT<br>USER_CURRENT | USERID<br>감사 레코드 테이블이 현재 지원되지 않음<br>COMPANIES_CURRENT | COMPANYID <br>DOCUMENT_CURRENT | DOCUMENTID<br>Workfront 관계가 아님, 외부 시스템과의 통합에 사용됨<br>ITERATIONS_CURRENT | ITERATIONID<br>Self<br>NOTEOBJCODE<br>OPTASK_CURRENT에 따른 변수 | OPTASKID<br>USER_CURRENT | USERID<br>보증 테이블이 현재 지원되지 않음<br>JOURNALENTRIES_CURRENT | JOURNALENTRYID<br>NOTE_CURRENT | NOTEID<br>PORTFOLIO_CURRENT | 포트폴리오<br>PROGRAM_CURRENT | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>증명 작업 테이블이 현재 지원되지 않음<br>증명 테이블이 현재 지원되지 않음<br>RESERVEDTEXTNOTES_CURRENT | RICHTEXTNOTEID<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>NOTE_CURRENT | NOTEID<br>TIMESHEET_CURRENT | TIMESHEETID<br>TOPOBJCODE에 따른 변수<br>USER_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>오브젝트 통합</td>
-        <td>오브젝트 통합</td>
-        <td>오브젝트 | 오브젝트 통합</td>
-        <td>OBJECTINTEGRATION_CURRENT<br>OBJECTINTEGRATION_DAILY_HISTORY<br>OBJECTINTEGRATION_EVENT</td>
-        <td>LINKEDOBJECTID<br>OBJECTINTEGRATIONID   (self)<br>OBJID <br>SYSID  </td>
-        <td>LINKEDOBJECTCODE 필드에서 식별된 개체의 ID <br>자체<br>OBJCODE 필드에서 식별된 개체의 ID <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.  </td>
-    </tr>
-    <tr>
-        <td>오브젝트 범주</td>
-        <td>오브젝트 범주</td>
-        <td>OBJCAT | 오브젝트 범주</td>
-        <td>OBJECTSCATEGORIES_CURRENT<br>OBJECTSCATEGORIES_DAILY_HISTORY<br>OBJECTSCATEGORIES_EVENT</td>
-        <td>CATEGORYID<br>OBJECTSCATEGORYID(자체)<br>OBJID <br>SYSID  </td>
-        <td>CATEGORS_CURRENT | CATEGORYID<br>Self<br>OBJCODE 필드에서 식별된 개체의 ID <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.  </td>
-    </tr>
-    <tr>
-        <td>OpTask</td>
-        <td>문제, 요청</td>
-        <td>OPTASK | 문제</td>
-        <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT<br>OPTASKS_CUSTOM_VALUE_CURRENT<br>OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>OPTASKS_CUSTOM_VALUE_EVENT</td>
-        <td>APPROVALPROCESSID<br>ASSIGNEUTTOID<br>CATEGORYID<br>CURRENTAPPROVALSTEPID<br>ENTEREDBYID<br>EXCHANGERATEID<br>ITERATIONID<br>KANBANBOARDID<br>LASTCONDITIONNOTEID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>OPTASKID<br>OWNERID<br>PROJECTID<br>QUEUEDEFID<br>QUEUETOPICID<br>RESOLVEOPTASKID<br>RESOLVETID<br>RESOLVEETASKID <br>RESOLVINGOBJID<br>ROLEID<br>SOURCEOBJID<br>SOURCETASKID<br>SUBMITTEDBYID<br>TEAMID</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USER_CURRENT | USERID<br>CATEGORIES_CURRENT | CATEGORYID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>USER_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>ITERATIONS_CURRENT | ITERATIONID<br>Kanban 보드 테이블이 현재 지원되지 않음<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>자체<br>USER_CURRENT | USERID<br>PROJECT_CURRENT | PROJECTID<br>큐 정의 테이블이 현재 지원되지 않음<br>큐 주제 테이블이 현재 지원되지 않음<br>OPTASK_CURRENT | OPTASKID<br>PROJECT_CURRENT | PROJECTID<br>TASK_CURRENT | TASKID<br>RESOLVINGOBJCODE에 따른 변수<br>ROLE_CURRENT | ROLEID<br>SOURCEOBJCODE에 따른 변수<br>TASK_CURRENT | TASKID<br>USER_CURRENT | USERID<br>TEAM_CURRENT | 티미드</td>
-    </tr>
-    <tr>
-        <td>매개변수</td>
-        <td>사용자 정의 필드</td>
-        <td>매개 변수 | 매개 변수</td>
-        <td>PARAMETERS_CURRENT<br>PARAMETERS_DAILY_HISTORY<br>PARAMETERS_EVENT</td>
-        <td>LASTUPDATEDBYID<br>PARAMETERFILTERID<br>PARAMETERID(자체)<br>SYSID  </td>
-        <td>USERS_CURRENT | USERID<br>매개 변수 필터 테이블이 현재 지원되지 않음<br>자체<br>관계가 없음, 내부 응용 프로그램 용도로 사용됨  </td>
-    </tr>
-    <tr>
-        <td>매개변수 옵션</td>
-        <td>매개변수 옵션</td>
-        <td>뽀뽀 | 매개 변수 옵션</td>
-        <td><br>PARAMETEROPTIONS_CURRENT PARAMETEROPTIONS_DAILY_HISTORY<br>PARAMETEROPTIONS_EVENT</td>
-        <td>PARAMETERID<br>PARAMETERATIONID(자체) <br>SYSID  </td>
-        <td>PARAMETERS_CURRENT | PARAMETERID <br>Self  <br>관계가 아니며 내부 애플리케이션 용도로 사용됩니다.  </td>
-    </tr>
-    <tr>
-        <td>포털 섹션</td>
-        <td>보고서</td>
-        <td>PTLSEC 명령 | 보고서</td>
-        <td><br>PORTALSECTIONS_CURRENT PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID<br>FILTERID<br>GROUPBYID<br>LASTUPDATEDBYID<br>LASTVIEWEDBYID<br>OBJID<br>PORTALSECTIONID(자체)<br>PREFERENCEID<br>PUBLICRUNASUSERID<br>REPORTFOLDERID<br>RUNASUSERID<br>SCHEDULEDREPORTID<br>SYSID<br>VIEWID</td>
-        <td>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다. <br>USERS_CURRENT | 사용자 ID <br>UIFILTERS_CURRENT | FILTERID<br>UIGROUPYS_CURRENT | GROUPBYID<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>OBJOBJCODE 필드에서 식별된 개체의 ID<br>Self<br>PREFERENCES_CURRENT | PREFERENCEID<br>USERS_CURRENT | 사용자 ID <br>REPORTFOLDERS_CURRENT | REPORTFOLDERID<br>USERS_CURRENT | USERID <br>예약된 보고서 테이블이 현재 지원되지 않음<br>관계가 없음. 내부 응용 프로그램 용도로 사용됨 <br>UIVIEWS_CURRENT | VIEWID</td>
-    </tr>
-    <tr>
-        <td>포털 탭</td>
-        <td>대시보드</td>
-        <td>PTLTAB | 대시보드</td>
-        <td>PORTALTAB_CURRENT<br>PORTALTAB_DAILY_HISTORY<br>PORTALTAB_EVENT</td>
-        <td>DOCID<br>LASTUPDATEDBYID<br>PORTALPROFILEID<br>PORTALTABID(자체)<br>SYSID<br>USERID</td>
-        <td>관계가 아닙니다. 내부 애플리케이션 목적으로  <br>사용 USERS_CURRENT | 사용자 ID  <br>포털 프로필 테이블은 지원되지 <br>않습니다. 본인<br>관계가 아님, 내부 애플리케이션 목적으로  <br>사용됨 USERS_CURRENT | 사용자 ID  </td>
-    </tr>
-    <tr>
-        <td>포털 탭 섹션</td>
-        <td>대시보드 섹션</td>
-        <td>PRTBSC | 포털 탭 섹션</td>
-        <td>PORTALTABSPORTALSECTIONS_CURRENT<br>PORTALTABSPORTALSECTIONS_DAILY_HISTORY<br>PORTALTABSPORTALSECTIONS_EVENT</td>
-        <td>CALENDARPORTALSECTIONID<br>EXTERNALSECTIONID<br>INTERNALSECTIONID <br>PORTALSECTIONOBJID <br>PORTALTABID<br>PORTALTABSECTIONID(자체)<br>SYSID</td>
-        <td>일정 포털 섹션이 현재 지원되지 않음<br>외부 섹션 테이블이 현재 지원되지 않음<br>PORTALSECTIONS_CURRENT | PORTALSECTIONID <br>PORTALSECTIONOBJCODE 필드에서 식별된 개체의 ID<br>PORTALTAB_CURRENT | PORTALTABID<br>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>포털 섹션 마지막 뷰어</td>
-        <td>마지막 뷰어 보고서</td>
-        <td>PLSLSV | 포털 섹션 마지막 뷰어</td>
-        <td>REPORTLASTVIEWERS_CURRENT<br>REPORTLASTVIEWERS_DAILY_HISTORY<br>REPORTLASTVIEWERS_EVENT</td>
-        <td>REPORTID<br>REPORTLASTVIEWERID(자체)<br>SYSID<br>VIEWERID</td>
-        <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID <br>REPORTLASTVIEWERID(자체)<br>관계가 없음, 내부 응용 프로그램 용도로 사용됨<br>USERS_CURRENT | 사용자 ID  </td>
-    </tr>
-    <tr>
-        <td>포트폴리오</td>
-        <td>포트폴리오</td>
-        <td>포트 | Portfolio</td>
-        <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT<br>PORTFOLIOS_CUSTOM_VALUE_CURRENT<br>PORTFOLIOS_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
-        <td>ALIGNMENTSCORECARDID<br>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID</td>
-        <td>스코어카드 테이블은 현재 지원되지 않습니다<br>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>Self</td>
-    </tr>
-    <tr>
-        <td>환경 설정</td>
-        <td>보기, 필터링, 그룹화, 보고서 정의</td>
-        <td>PROSET | 환경 설정</td>
-        <td>PREFERENCES_CURRENT<br>PREFERENCES_DAILY_HISTORY<br>PREFERENCES_EVENT</td>
-        <td>APPGLOBALID<br>PREFERENCEID(자체) <br>SYSID  </td>
-        <td>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다<br>자체 <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.  </td>
-    </tr>
-    <tr>
-        <td>프로그램</td>
-        <td>프로그램</td>
-        <td>PRGM | 프로그램</td>
-        <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT<br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID<br>PROGRAMID</td>
-        <td>CATEGORS_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>PORTFOLIO_CURRENT | 포트폴리오<br>자가</td>
-    </tr>
-    <tr>
-        <td>프로젝트</td>
-        <td>프로젝트</td>
-        <td>프로젝트 | 프로젝트</td>
-        <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
-        <td>AEMNATIVEFOLDERTREESREFID<br>ALIGNMENTSCORECARDID<br>APPROVALPROCESID<br>ATTACHEDRATECARDID<br>CATEGORYID<br>COMPANYID<br>CONVERTEDOPTASKID<br>CONVERTEDOPTASKORIDATORID<br>CURRENTAPPROVALSTEPID<br>DELIVERABLESCORECARDID<br>ENTEREDBYID<br>GROUPID<br>LASTCONDITIONNOTEID<br>LASTNOTEID<br>LASTUPTEDBYID<br>MILESTONEPATHID<br>OWNERID<br>POPACCOUNTID <br>PORTFOLIOID<br>PRIVATERATECARDID<br>PROGRAMID<br>PROJECTID<br>QUEUEDEFID<br>REJECTIONISSUEID<br>RESOURCEPOOID<br>SCHEDULEID<br>SPONSORID<br>SUBMITTEDBYID<br>TEMAMID<br>TEMPLATEID</td>
-        <td>Workfront 관계가 아닙니다. 외부 시스템과의 통합에 사용됩니다.<br>현재 스코어카드 테이블이 지원되지 않습니다.<br>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>RATECARD_CURRENT | RATECARDID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID <br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>스코어카드 테이블이 현재 지원되지 않음<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>MILESTONEPATH_CURRENT | 마일스톤 경로 ID<br>USER_CURRENT | USERID<br>현재 POP 계정 테이블이 지원되지 않음<br>PORTFOLIO_CURRENT | 포트폴리오<br>RATECARD_CURRENT | RATECARDID<br>PROGRAM_CURRENT | PROGRAMID<br>Self<br>큐 정의 테이블이 현재 지원되지 않음<br>OPTASK_CURRENT | OPTASKID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>SCHEDULE_CURRENT | 예약 ID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>TEAM_CURRENT | TEAMID<br>TEMPLATES_CURRENT | TEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>프로젝트 팀 사용자</td>
-        <td>프로젝트 팀 사용자</td>
-        <td>PRTU | 프로젝트 사용자</td>
-        <td>PROJECTSUSERS_CURRENT<br>PROJECTSUSERS_DAILY_HISTORY<br>PROJECTSUSERS_EVENT</td>
-        <td>PROJECTID<br>PROJECTSUSERID(자체)<br>SYSID<br>TMPUSERID<br>USERID</td>
-        <td>PROJECTS_CURRENT | PROJECTID<br>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TEMPLATES_CURRENT | TEMPLATEID<br>USERS_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>프로젝트 팀 사용자 역할</td>
-        <td>프로젝트 팀 사용자 역할</td>
-        <td>PTEAM (팀) | ProjectUserRole</td>
-        <td><br>PROJECTSUSERSROLES_CURRENT PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
-        <td>PROJECTID<br>PROJECTSUSERSROLEID(자체)<br>ROLEID<br>SYSID<br>USERID</td>
-        <td>PROJECTS_CURRENT | PROJECTID<br>자체<br>ROLES_CURRENT | ROLEID<br>관계가 아니며 내부 애플리케이션 목적으로<br>사용됩니다. USERS_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>카드 속도</td>
-        <td>요율 카드</td>
-        <td>증권거래기준(RTCRD) |요율표</td>
-        <td><br>RATECARD_CURRENT RATECARD_DAILY_HISTORY<br>RATECARD_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID  <br>RATECARDID(자체) <br>SECURITYROOTID  <br>SOURCEID<br>SYSID</td>
-        <td>CATEGORYID<br>USERS_CURRENT | USERID <br>USERS_CURRENT | 사용자 ID    <br>자체<br>SECURITYOBJCODE 필드에서 식별된 개체의 ID <br>SOURCEOBJCODE 필드에서 식별된 개체의 ID<br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다  </td>
-    </tr>
-    <tr>
-        <td>보고서 폴더</td>
-        <td>보고서 폴더</td>
-        <td>RPTFDR | 보고서 폴더</td>
-        <td>REPORTFOLDERS_CURRENT<br>REPORTFOLDERS_DAILY_HISTORY<br>REPORTFOLDERS_EVENT</td>
-        <td>REPORTFOLDERID(자체)<br>SYSID</td>
-        <td><br>Self 관계가 아니며 내부 애플리케이션 목적으로 사용됩니다.</td>
-    </tr>
-    <tr>
-        <td>보고서 보기 통계 카운트</td>
-        <td>보고서 보기 통계 카운트</td>
-        <td>PLSVST 명령 | PortalSectionStatisticInfo</td>
-        <td>REPORTVIEWSTATICCOUNTS_CURRENT<br>REPORTVIEWSTATICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATICCOUNTS_EVENT</td>
-        <td>REPORTID<br>REPORTVIEWSTATICCOUNTID(자체)<br>SYSID</td>
-        <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID<br>Self<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>보고 가능한 예산 시간</td>
-        <td>보고 가능한 예산 시간</td>
-        <td>RPBGHR | 예산 시간</td>
-        <td>REPORTABLEBUDGETEDHOURS_CURRENT<br>REPORTABLEBUDGETEDHOURS_DAILY_HISTORY<br>REPORTABLEBUDGETEDHOURS_EVENT</td>
-        <td>PROJECTID<br>REPORTABLEBUDGETEDHOURID(자체)<br>ROLEID<br>SYSID<br>USERID</td>
-        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>USERS_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>예약된 시간</td>
-        <td>(개인) 휴무</td>
-        <td>REVT | 휴무</td>
-        <td>RESERVEDTIMES_CURRENT<br>RESERVEDTIMES_DAILY_HISTORY<br>RESERVEDTIMES_EVENT</td>
-        <td>RESERVEDTIMEID(자체)<br>SYSID<br>TASKID<br>USERID</td>
-        <td>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TASKS_CURRENT | TASKID<br>USERS_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>리소스 관리자</td>
-        <td>리소스 관리자</td>
-        <td>RESMGR | 리소스 관리자</td>
-        <td>RESOURCEMANAGERS_CURRENT<br>RESOURCEMANAGERS_DAILY_HISTORY<br>RESOURCEMANAGERS_EVENT</td>
-        <td>ID(자체)<br>PROJECTID<br>RESOURCEMANAGERID<br>SYSID<br>TEMPLATEID</td>
-        <td>자체<br>프로젝트_현재 | PROJECTID<br>USERS_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TEMPLATES_CURRENT | TEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>리소스 풀</td>
-        <td>리소스 풀</td>
-        <td>RSPL | 리소스 풀</td>
-        <td>RSRCPOOLS_CURRENT<br>RSRCPOOLS_DAILY_HISTORY<br>RSRCPOOLS_EVENT</td>
-        <td>ENTEREDBYID<br>LASTUPDATEDBYID <br>RESOURCEPOOLID(자체)<br>SYSID  </td>
-        <td>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>Self<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨  </td>
-    </tr>
-    <tr>
-        <td>서식 있는 텍스트 메모</td>
-        <td>서식 있는 텍스트 메모</td>
-        <td>RHNOTE | 서식 있는 텍스트 메모</td>
-        <td>RESERVEDTEXTNOTES_CURRENT<br>RESERVEDTEXTNOTES_DAILY_HISTORY<br>RESERVEDTEXTNOTES_EVENT</td>
-        <td>RICHTEXTNOTEID(자체)<br>SYSID</td>
-        <td>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>리치 텍스트 매개 변수 값</td>
-        <td>리치 텍스트 매개 변수 값</td>
-        <td>RCHVAL | 리치 텍스트 매개 변수 값</td>
-        <td>RICHTEXTPARAMETERVALUES_CURRENT<br>RICHTEXTPARAMETERVALUES_DAILY_HISTORY<br>RICHTEXTPARAMETERVALUES_EVENT</td>
-        <td>PARAMETERVALUEID<br>RICHTEXTPARAMETERVALUEID(자체) <br>SYSID  </td>
-        <td>매개 변수 값 테이블이 현재 지원되지 않음<br>자체 <br>관계가 아님, 내부 응용 프로그램 용도로 사용됨  </td>
-    </tr>
-    <tr>
-        <td>위험</td>
-        <td>위험</td>
-        <td>리스크 | 위험</td>
-        <td><br>RISKS_CURRENT RISKS_DAILY_HISTORY<br>RISKS_EVENT</td>
-        <td>ENTEREDBYID<br>EXCHANGERATEID<br>LASTUPDATEDBYID <br>PROJECTID <br>RISKID(자체)<br>RISKTYPEID<br>SYSID<br>TEMPLATEID</td>
-        <td>USERS_CURRENT | 사용자 ID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>USERS_CURRENT | 사용자 ID  <br>PROJECTS_CURRENT | PROJECTID   <br>자체<br>RISKTYPES_CURRENT | RISKTYPEID<br>관계가 아니며 내부 애플리케이션 목적으로<br>사용됩니다. TEMPLATES_CURRENT | 템플릿 ID</td>
-    </tr>
-    <tr>
-        <td>위험 유형</td>
-        <td>위험 유형</td>
-        <td>RSKTYP (영어) | 위험 유형</td>
-        <td><br>RISKTYPES_CURRENT RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
-        <td>RISKTYPEID<br>시스템</td>
-        <td>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨</td>
-    </tr>
-    <tr>
-        <td>역할</td>
-        <td>작업 역할</td>
-        <td>역할 | 작업 역할</td>
-        <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
-        <td>ENTEREDBYID<br>LAYOUTTEMPLATEID<br>PRIVATERATECARDID<br>ROLEID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | USERID<br>레이아웃 템플릿 테이블이 지원되지 않습니다<br>RATECARD_CURRENT | RATECARDID<br>Self<br>UITEMPLATES_CURRENT |UITEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>예약</td>
-        <td>예약</td>
-        <td>일정 조정됨 | 예약</td>
-        <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID<br>HOMEGROUPID<br>SCHEDULEID</td>
-        <td>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>GROUP_CURRENT | GROUPID<br>Self</td>
-    </tr>
-    <tr>
-        <td>단계 승인자</td>
-        <td>단계 승인자</td>
-        <td>SPAPVR | 단계 승인자</td>
-        <td>STEPAPPROVERS_CURRENT<br>STEPAPPROVERS_DAILY_HISTORY<br>STEPAPPROVERS_EVENT</td>
-        <td>APPROVALSTEPID<br>ROLEID<br>STEPAPPROVERID(자체)<br>SYSID <br>TEAMID<br>USERID</td>
-        <td>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>ROLES_CURRENT | ROLEID<br>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨 <br>TEAMS_CURRENT | TEAMID<br>USERS_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>작업</td>
-        <td>작업</td>
-        <td>작업 | 작업</td>
-        <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT<br>TASKS_CUSTOM_VALUE_CURRENT<br>TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>TASKS_CUSTOM_VALUE_EVENT</td>
-        <td>APPROVALPROCESSID<br>ASSIGNEDTOID<br>BILLINGRECORDID<br>CATEGORYID<br>CONVERTEDOPTASKID<br>CONVERTEDOPTASKORIATORID<br>CURRENTAPPROVALSTEPID<br>ENTEREDBYID<br>EXCHANGERATEID<br>GROUPID<br>ITERATIONID<br>KANBANBOARDID<br>LASTCONDITIONNOTEID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEID<br>PARENTID<br>PROJECTID<br>RECURRENUCERENUCERENULEULEULEULEULEID<br>ID}ID}ID}ID rejectionissuid<br>RESERVEDTIMEID<br>ROLEID<br>SUBMITTEDBYID<br>TASKID<br>TEAMID<br>TEMPLATETASKID</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USER_CURRENT | USERID<br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>CATEGORIES_CURRENT | CATEGORYID<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>USER_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>GROUP_CURRENT | GROUPID<br>ITERATIONS_CURRENT | ITERATIONID<br>Kanban 보드 테이블이 현재 지원되지 않음<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>MILESTONE_CURRENT | MILESTONEID<br>TASK_CURRENT | TASKID<br>PROJECT_CURRENT | PROJECTID<br>반복 규칙 테이블이 현재 지원되지 않음<br>OPTASK_CURRENT | OPTASKID<br>RESERVEDTIMES_CURRENT | RESERVEDTIMEID<br>ROLE_CURRENT | ROLEID<br>USER_CURRENT | USERID<br>자체<br>팀_현재 | TEAMID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID</td>
-    </tr>
-    <tr>
-        <td>작업 전임 작업</td>
-        <td>전임 작업</td>
-        <td>PRED | 전임 작업</td>
-        <td>PREDECESSORS_CURRENT<br>PREDECESSORS_DAILY_HISTORY<br>PREDECESSORS_EVENT</td>
-        <td>ID(자체)<br>PREDECESSORID<br>SUCCESSORID <br>SYSID</td>
-        <td>자체<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
-    </tr>
-    <tr>
-        <td>팀</td>
-        <td>팀</td>
-        <td>TEAOB | 팀</td>
-        <td>TEAMS_CURRENT<br>TEAMS_DAILY_HISTORY<br>TEAMS_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID<br>LAYOUTTEMPLATEID<br>MYWORKVIEWID<br>OWNERID<br>REQUESTSVIEWID<br>SCHEDULEID<br>TEAMID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>레이아웃 템플릿 테이블이 지원되지 않습니다.<br>UIVIEWS_CURRENT | UIVIEWID<br>USER_CURRENT | USERID<br>UIVIEWS_CURRENT | UIVIEWID<br>SCHEDULE_CURRENT | 예약 ID<br>자체<br>UITEMPLATES_CURRENT |UITEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>팀원</td>
-        <td>기타 팀, 팀원</td>
-        <td>TEAMMB | 팀원</td>
-        <td>TEAMMEMBERS_CURRENT<br>TEAMMEMBERS_DAILY_HISTORY<br>TEAMMEMBERS_EVENT</td>
-        <td>SYSID <br>TEAMID<br>TEAMMEMBERID(자체)<br>USERID</td>
-        <td>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다. <br>TEAMS_CURRENT | TEAMID<br>자체<br>사용자_현재 | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>팀멤버역할</td>
-        <td>팀원 역할</td>
-        <td>팀 | 팀원 역할</td>
-        <td>TEAMMEMBERROLES_CURRENT<br>TEAMMEMBERROLES_DAILY_HISTORY<br>TEAMMEMBERROLES_EVENT</td>
-        <td>ROLEID <br>TEAMID<br>TEAMMEMBERROLEID(자체)<br>USERID</td>
-        <td>ROLES_CURRENT | ROLEID <br>TEAMS_CURRENT | TEAMID<br>자체<br>사용자_현재 | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>템플릿</td>
-        <td>템플릿</td>
-        <td>템플릿 | 템플릿</td>
-        <td>TEMPLATES_CURRENT<br>TEMPLATES_DAILY_HISTORY<br>TEMPLATES_EVENT</td>
-        <td>APPROVALPROCESSID<br>CATEGORYID<br>COMPANYID <br>DELIVERABLESCORECARDID <br>ENTEREDBYID<br>GROUPID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEPATHID <br>OWNERID <br>PRIVATERATECARDID<br>PROGRAMID<br>QUEUEDEFID<br>SCHEDULEID <br>SYSID <br>TEMAMID<br>TEMPLATEID(자체)</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID   <br>DELIVERABLESCORECARDID <br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>NOTES_CURRENT | NOTEID<br>USERS_CURRENT | USERID<br>MILESTONEPATH_CURRENT | 마일스톤 경로 ID <br>USERS_CURRENT | USERID <br>RATECARD_CURRENT | RATECARDID<br>PROGRAM_CURRENT | PROGRAMID<br>큐 정의 테이블이 현재 지원되지 않음<br>SCHEDULES_CURRENT | 일정 ID <br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다. <br>TEAMS_CURRENT | TEAMID<br>자체</td>
-    </tr>
-    <tr>
-        <td>템플릿 할당</td>
-        <td>템플릿 할당</td>
-        <td>작업 | 템플릿 할당</td>
-        <td>TEMPLATEASSIGNMENTS_CURRENT<br>TEMPLATEASSIGNMENTS_DAILY_HISTORY<br>TEMPLATEASSIGNMENTS_EVENT</td>
-        <td>ASSIGNEDTOID<br>CATEGORYID<br>LASTUPDATEDBYID<br>OBJID<br>ROLEID<br>SYSID<br>TEAMID<br>TEAMELELINEABLEID<br>TEMPLATEASSIGNMENTID(자체)<br>TEMPLATETASKID</td>
-        <td>USERS_CURRENT | USERID<br>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>OBJCODE 필드에서 식별된 개체의 ID<br>ROLES_CURRENT | ROLEID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TEAMS_CURRENT | TEAMID<br>팀 타임라인 가능 테이블은 현재 지원되지 않음<br>자체<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID</td>
-    </tr>
-    <tr>
-        <td>템플릿 작업</td>
-        <td>템플릿 작업</td>
-        <td>TTSK | 템플릿 작업</td>
-        <td>TEMPLATETASKS_CURRENT<br>TEMPLATETASKS_DAILY_HISTORY<br>TEMPLATETASKS_EVENT</td>
-        <td>APPROVALPROCESSID<br>ASSIGNEEDTOID<br>CATEGORYID<br>ENTEREDBYID<br>EXCHANGERATEID<br>LASTNOTEID<br>LASTUDATEDBYID<br>MILESTONEID<br>PARENTID<br>RECURRENCERULEID<br>ROLEID<br>SYSID<br>TEAMID<br>TEAMID<br>TEMPLATEID<br>TEMPLATETASKID(자체)</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USERS_CURRENT | USERID<br>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>NOTES_CURRENT | NOTEID<br>USERS_CURRENT | USERID<br>MILESTONE_CURRENT | MILESTONEID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>반복 규칙 테이블이 현재 지원되지 않음<br>ROLES_CURRENT | ROLEID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TEAMS_CURRENT | TEAMID<br>팀 타임라인 가능 테이블은 현재 지원되지 않음<br>TEMPLATES_CURRENT | TEMPLATEID<br>Self</td>
-    </tr>
-    <tr>
-        <td>템플릿 작업 전임 작업</td>
-        <td>템플릿 전임 작업</td>
-        <td>TPRED | 전임 작업</td>
-        <td>TEMPLATEPREDECESSORS_CURRENT<br>TEMPLATEPREDECESSORS_DAILY_HISTORY<br>TEMPLATEPREDECESSORS_EVENT</td>
-        <td>PREDECESSORID<br>SUCCESSORID <br>TEMPLATEPREDECESSORID(자체)<br>SYSID</td>
-        <td>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID <br>자체<br>관계가 없습니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
-    </tr>
-       <tr>
-        <td>시간 단계별 KPI 통화(제한된 고객 가용성)</td>
-        <td>시간별 KPI</td>
-        <td>TMPH | TimePhasedKPI</td>
-        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
-        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
-        <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>자체<br>타임시트 프로필_현재 | TIMESHEETPROFILEID<br>USER_CURRENT | 사용자 ID</td>
-    </tr>
+    <thead>
         <tr>
-        <td>시간 단계별 KPI 기간(제한된 고객 가용성)</td>
-        <td>시간별 KPI</td>
-        <td>TMPH | TimePhasedKPI</td>
-        <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
-        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCESETASKID<br>TASKID<br>TIMEPHASEDDURATIONID(자체)<br>USERID</td>
-        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GROUPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | 포트폴리오<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>KPI 레코드 주체 식별<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>자가<br>사용자_현재 | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>타임시트</td>
-        <td>타임시트</td>
-        <td>TMPH | TimePhasedKPI</td>
-        <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
-        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCESETASKID<br>TASKID<br>TIMEPHASEDCURRENCYID(자체)<br>USERID</td>
-        <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>자체<br>타임시트 프로필_현재 | TIMESHEETPROFILEID<br>USER_CURRENT | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>타임시트 프로필</td>
-        <td>타임시트 프로필</td>
-        <td>TSPRO | 타임시트 프로필</td>
-        <td>TIMESHEETPROFILES_CURRENT<br>TIMESHEETPROFILES_DAILY_HISTORY<br>TIMESHEETPROFILES_EVENT</td>
-        <td>APPROVERID<br>ENTEREDBYID <br>GROUPID<br>SYSID<br>TIMESHEETPROFILEID(자체)</td>
-        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GROUPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | 포트폴리오<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>KPI 레코드 주체 식별<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>자가<br>사용자_현재 | 사용자 ID</td>
-    </tr>
-    <tr>
-        <td>UI 필터</td>
-        <td>필터</td>
-        <td>UIFT | 필터</td>
-        <td>UIFILTERS_CURRENT<br>UIFILTERS_DAILY_HISTORY<br>UIFILTERS_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIFILTERID(자체)</td>
-        <td>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>OBJCODE 필드에서 식별된 개체의 ID<br>PREFERENCES_CURRENT | PREFERENCEID<br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다. <br>자체</td>
-    </tr>
-    <tr>
-        <td>UI 그룹 기준</td>
-        <td>그룹화</td>
-        <td>UIGB | 그룹화</td>
-        <td>UIGROUPYS_CURRENT<br>UIGROUPYS_DAILY_HISTORY<br>UIGROPBYS_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID <br>LASTUPDATEDBYID <br>SYSID <br>UITEMPLATEID(자체)</td>
-        <td>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID <br>USERS_CURRENT | USERID <br>관계가 아님, 내부 응용 프로그램 용도로 사용됨 <br>자체</td>
-    </tr>
-    <tr>
-        <td>UI 템플릿</td>
-        <td>레이아웃 템플릿</td>
-        <td>UITMPL | 레이아웃 템플릿</td>
-        <td>UITEMPLATES_CURRENT<br>UITEMPLATES_DAILY_HISTORY<br>UITEMPLATES_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIGROUPBYID(자체)</td>
-        <td>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>OBJCODE 필드에서 식별된 개체의 ID<br>PREFERENCES_CURRENT | PREFERENCEID<br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다. <br>자체</td>
-    </tr>
-    <tr>
-        <td>UI 보기</td>
-        <td>보기</td>
-        <td>UIVIEW | 보기</td>
-        <td>UIVIEWS_CURRENT<br>UIVIEWS_DAILY_HISTORY<br>UIVIEWS_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIVIEWID(자체)</td>
-        <td>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>OBJCODE 필드에서 식별된 개체의 ID<br>PREFERENCES_CURRENT | PREFERENCEID<br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다. <br>자체</td>
-    </tr>
-    <tr>
-        <td>사용자</td>
-        <td>사용자</td>
-        <td>사용자 | 사용자</td>
-        <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT<br>USERS_CUSTOM_VALUE_CURRENT<br>USERS_CUSTOM_VALUE_DAILY_HISTORY<br>USERS_CUSTOM_VALUE_EVENT</td>
-        <td>ACCESSLEVELID<br>CATEGORYID<br>COMPANYID<br>DEFAULTHORTYPEID<br>DELEGATIONTOID<br>EAUTHUSERID<br>ENTEREDBYID<br>HOMEGROUPID<br>HOMETEMAID<br>LATESTUREDNOTEID<br>LASTUPDATEDBYID<br>LATESTUPDATENOTEID<br>LAYOUTTEMPLATEID<br>MANAGERID<br>PORTALPROFILEID<br>PREFUIID<br>PRIVATERATECARDID<br>RESOURCEOLIPOD<br>ROLEID <br>SCHEDULEID<br>TIMESHEETPROFILEID<br>UITEMPLATEID<br>USERID<br>UUSERID</td>
-        <td>ACCESSLEVELS_CURRENT |ACCESSLEVELID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID <br>HOURTYPE_CURRENT | HOURTYPEID<br>USER_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>TEAM_CURRENT | TEAMID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>레이아웃 템플릿 테이블이 지원되지 않습니다<br>USER_CURRENT | USERID<br>포털 프로필 테이블이 지원되지 않습니다<br>관계가 없습니다. 내부 응용 프로그램 용도로 사용됨<br>RATECARD_CURRENT | RATECARDID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>ROLE_CURRENT | ROLEID<br>SCHEDULE_CURRENT | SCHEDULEID<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>UITEMPLATES_CURRENT |UITEMPLATEID<br>자체<br>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
-    </tr>
-    <tr>
-        <td>사용자 위임</td>
-        <td>사용자 위임</td>
-        <td>우르델 | 사용자 위임</td>
-        <td>USERDELEGATIONS_CURRENT<br>USERDELEGATIONS_DAILY_HISTORY<br>USERDELEGATIONS_EVENT</td>
-        <td>FROMUSERID<br>SYSID <br>TOUSERID <br>USERDELEGATIONID(자체)</td>
-        <td>USERS_CURRENT | USERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨 <br>USERS_CURRENT | 사용자 ID <br>Self</td>
-    </tr>
-    <tr>
-        <td>사용자 그룹</td>
-        <td>기타 그룹</td>
-        <td>USRGPS | 사용자 그룹</td>
-        <td>USERSGROUPS_CURRENT<br>USERSGROUPS_DAILY_HISTORY<br>USERSGROUPS_EVENT</td>
-        <td>GROUPID <br>SYSID<br>사용자 ID <br>사용자 GROUPID(자체)</td>
-        <td>GROUPS_CURRENT | GROUPID <br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>USERS_CURRENT | 사용자 ID <br>Self</td>
-    </tr>
-    <tr>
-        <td>사용자 위치</td>
-        <td>사용자 위치</td>
-        <td>USRLOC | 사용자 위치</td>
-        <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
-        <td>CLASSIFIERID<br>SYSID<br>USERID<br>USERLOCATIONID(자체)</td>
-        <td>CLASSIFIER_CURRENT | CLASSIFIERID<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>USERS_CURRENT | USERID<br>Self</td>
-    </tr>
-    <tr>
-        <td>사용자 역할</td>
-        <td>기타 역할</td>
-        <td>USRROL | 사용자 역할</td>
-        <td>USERSROLES_CURRENT<br>USERSROLES_DAILY_HISTORY<br>USERSROLES_EVENT</td>
-        <td>ROLEID <br>SYSID<br>사용자 ID    <br>USERROLESEID<br>USERSROLEID(자체)</td>
-        <td>ROLES_CURRENT | ROLEID <br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>USERS_CURRENT | 사용자 ID    <br>USERROLESET_CURRENT | USERROLESETID<br>자가</td>
-    </tr>
-    <tr>
-        <td>UserPrefValue</td>
-        <td>UserPrefValue</td>
-        <td>USERPF | 사용자 환경 설정</td>
-        <td>USERPREFVALUES_CURRENT<br>USERPREFVALUES_DAILY_HISTORY<br>USERPREFVALUES_EVENT</td>
-        <td>SYSID    <br>USERID <br>USERPREFVALUEID(자체)</td>
-        <td>관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다<br>USERS_CURRENT | 사용자 ID    <br>자가</td>
-    </tr>
-    <tr>
-        <td>사용자 역할 집합</td>
-        <td>사용자 역할 집합</td>
-        <td>URSET | 사용자 역할 집합</td>
-        <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>
-        <td>PRIMARYROLEID <br>SYSID<br>사용자 ID    <br>USERROLESEID(자체)</td>
-        <td>ROLES_CURRENT | ROLEID <br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>USERS_CURRENT | 사용자 ID <br>Self</td>
-    </tr>
-    <tr>
-        <td>사용자 결정</td>
-        <td>사용자 결정</td>
-        <td>USRDEC | 사용자 의사 결정</td>
-        <td>USERSDECISIONS_CURRENT<br>USERSDECISIONS_DAILY_HISTORY<br>USERSDECISIONS_EVENT</td>
-        <td>USERDECISIONID(자체)<br>SYSID <br>USERID  </td>
-        <td>자체<br>관계가 아님, 내부 응용 프로그램 용도로 사용됨 <br>USERS_CURRENT | 사용자 ID </td>
-    </tr>
-    <tr>
-        <td>작업 항목</td>
-        <td>작업 항목</td>
-        <td>WRKITM | 작업 항목</td>
-        <td>WORKITEMS_CURRENT<br>WORKITEMS_DAILY_HISTORY<br>WORKITEMS_EVENT</td>
-        <td>ASSIGNMENTID <br>OBJID<br>OPTASKID    <br>PROJECTID <br>SYSID<br>TASKID    <br>USERID <br>WORKITEMID(자체)</td>
-        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID <br>OBJOBJCODE 필드에서 식별된 개체의 ID<br>OPTASK_CURRENT | OPTASKID    <br>PROJECTS_CURRENT | PROJECTID <br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TASKS_CURRENT | TASKID    <br>USERS_CURRENT | 사용자 ID    <br>자가 </td>
-    </tr>
-  </tbody>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>액세스 수준</td>
+            <td>액세스 수준</td>
+            <td>ACSLVL</td>
+            <td>액세스 수준</td>
+            <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSLEVELID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LEGACYACCESSLEVELID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 액세스 규칙
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>액세스 규칙</td>
+            <td>공유</td>
+            <td>ACSRUL</td>
+            <td>공유</td>
+            <td>ACCESSRULES_CURRENT<br>ACCESSRULES_DAILY_HISTORY<br>ACCESSRULES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>접근자 ID</td>
+             <td>FK</td>
+             <td>변수, ACCESSOROBJCODE 기반</td>
+             <td>ACCESSOROBJCODE 필드에서 식별된 개체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>접근성 ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ANCESTORID</td>
+             <td>PK</td>
+             <td>변수, ANCESTOROBJCODE 기반</td>
+             <td>ANCESTOROBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SECURITYOBJID</td>
+             <td>FK</td>
+             <td>변수, SECURITYOBJCODE 기반</td>
+             <td>SECURITYOBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 승인 경로
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>승인 경로</td>
+            <td>승인 경로</td>
+            <td>ARVPTH</td>
+            <td>승인</td>
+            <td>APPROVALPATHS_CURRENT<br>APPROVALPATHS_DAILY_HISTORY<br>APPROVALPATHS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPATHID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GLOBALPATHID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 승인 진행
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>승인 진행</td>
+            <td>승인 진행</td>
+            <td>ARVPRC</td>
+            <td>승인 진행</td>
+            <td>APPROVALPROCESSES_CURRENT<br>APPROVALPROCESSES_DAILY_HISTORY<br>APPROVALPROCESSES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 승인 단계
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>승인 단계</td>
+            <td>승인 단계</td>
+            <td>ARVSTP</td>
+            <td>승인 단계</td>
+            <td>APPROVALSTEPS_CURRENT<br>APPROVALSTEPS_DAILY_HISTORY<br>APPROVALSTEPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPATHID</td>
+             <td>FK</td>
+             <td>APPROVALPATHS_CURRENT</td>
+             <td>APPROVALPATHID</td>
+        </tr>
+        <tr>
+             <td>승인스테피드</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 승인자 상태
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>승인자 상태</td>
+            <td>승인자 상태</td>
+            <td>아르브스트</td>
+            <td>승인자 상태</td>
+            <td>APPROVERSTATUSES_CURRENT<br>APPROVERSTATUSES_DAILY_HISTORY<br>APPROVERSTATUSES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVERSTATUSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>APPROVABLEOBJID</td>
+             <td>FK</td>
+             <td>변수, APPROVABLEOBJCODE 기반</td>
+             <td>APPROVABLEOBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>승인스테피드</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>승인스테피드</td>
+        </tr>
+        <tr>
+             <td>APPROVEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>DELEGATEUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OVERRIDDENUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>STEAPPROVERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>시시드</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>와일드카드 사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 할당
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>할당</td>
+            <td>할당</td>
+            <td>ASSIGN</td>
+            <td>할당</td>
+            <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>분류자</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>분류자</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>프로젝트 ID</td>
+        </tr>
+        <tr>
+             <td>롤로이드</td>
+             <td>에프케이</td>
+             <td>ROLES_CURRENT</td>
+             <td>롤로이드</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+    </tbody>
+</table>
+
+### 승인 대기 중
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>승인 대기 중</td>
+            <td>승인 대기 중</td>
+            <td>AWAPVL</td>
+            <td>승인 대기 중</td>
+            <td>AWAITINGAPPROVALS_CURRENT<br>AWAITINGAPPROVALS_DAILY_HISTORY<br>AWAITINGAPPROVALS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSREQUESTID</td>
+             <td>-</td>
+             <td colspan="2">액세스 요청 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>APPROVABLEID</td>
+             <td>FK</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>승인자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>AWAITINGAPPROVALID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTVERSIONID</td>
+             <td>FK</td>
+             <td>DOCUMENTVERSIONS_CURRENT</td>
+             <td>DOCUMENTVERSIONID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETID</td>
+             <td>FK</td>
+             <td>TIMESHEETS_CURRENT</td>
+             <td>TIMESHEETID</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 기준선
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>기준선</td>
+            <td>기준선</td>
+            <td>블린</td>
+            <td>기준선</td>
+            <td>BASELINES_CURRENT<br>BASELINES_DAY_HISTORY<br>BASELINES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BASELINEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGE_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 기준선 작업
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>기준선 작업</td>
+            <td>기준선 작업</td>
+            <td>BSTSK</td>
+            <td>기준선 작업</td>
+            <td>BASELINETTASKS_CURRENT<br>BASELINETTASKS_DAILY_HISTORY<br>BASELINETTASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BASELINEID</td>
+             <td>FK</td>
+             <td>BASELINES_CURRENT</td>
+             <td>BASELINEID</td>
+        </tr>
+        <tr>
+             <td>BASELINETASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGE_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 청구 요금
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>청구 요금</td>
+            <td>비율 또는 재정의 비율</td>
+            <td>비율</td>
+            <td>청구 요금</td>
+            <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>분류자</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>분류자</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGE_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>NLBRCATEGORYID</td>
+             <td>FK</td>
+             <td>NLBRCATEGORIES_CURRENT</td>
+             <td>NLBRCATEGORYID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCEID</td>
+             <td>FK</td>
+             <td>NONLABORRESOURCES_CURRENT</td>
+             <td>NONLABORRESOURCEID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>RATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SOURCERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 청구 기록
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>청구 기록</td>
+            <td>청구 기록</td>
+            <td>청구서</td>
+            <td>청구 기록</td>
+            <td>BILLINGRECORDS_CURRENT<br>BILLINGRECORDS_DAILY_HISTORY<br>BILLINGRECORDS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>빌링레코디드</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGE_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>INVOICID</td>
+             <td>-</td>
+             <td colspan="2">송장 테이블이 현재 지원되지 않음</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>프로젝트 ID</td>
+             <td>에프케이</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>프로젝트 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 예약
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>예약</td>
+            <td>예약</td>
+            <td>부쿵</td>
+            <td>예약</td>
+            <td><br>BOOKINGS_CURRENT BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BOOKINGID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>NLBRCATEGORYID</td>
+             <td>FK</td>
+             <td>NLBRCATEGORIES_CURRENT</td>
+             <td>NLBRCATEGORYID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCEID</td>
+             <td>FK</td>
+             <td>NONLABORRESOURCES_CURRENT</td>
+             <td>NONLABORRESOURCEID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>변수, TOPOBJCODE 기반</td>
+             <td>TOPOBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 비즈니스 프로필
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>비즈니스 프로필</td>
+            <td>비즈니스 프로필</td>
+            <td>BSNPRF</td>
+            <td>비즈니스 프로필</td>
+            <td>BUSINESSPROFILE_CURRENT<br>BUSINESSPROFILE_DAILY_HISTORY<br>BUSINESSPROFILE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSLEVELID</td>
+             <td>FK</td>
+             <td>ACCESSLEVELS_CURRENT</td>
+             <td>ACCESSLEVELID</td>
+        </tr>
+        <tr>
+             <td>BUSINESSPROFILEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 비즈니스 규칙
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>비즈니스 규칙</td>
+            <td>비즈니스 규칙</td>
+            <td>BSNRUL</td>
+            <td>비즈니스 규칙</td>
+            <td>BUSINESSRULE_CURRENT<br>BUSINESSRULE_DAILY_HISTORY<br>BUSINESSRULE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BUSINESSRULEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 카테고리
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>카테고리</td>
+            <td>사용자 정의 양식</td>
+            <td>CTGY</td>
+            <td>카테고리</td>
+            <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>범주 ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 범주 매개변수
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>범주 매개변수</td>
+            <td>사용자 정의 양식 필드</td>
+            <td>CTGYA</td>
+            <td>범주 매개변수</td>
+            <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORIESPARAMETERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERGROUPID</td>
+             <td>FK</td>
+             <td>PARAMETERGROUPS_CURRENT</td>
+             <td>PARAMETERGROUPID</td>
+        </tr>
+        <tr>
+             <td>매개 변수화</td>
+             <td>FK</td>
+             <td>PARAMETERS_CURRENT</td>
+             <td>매개 변수화</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 분류자
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>분류자</td>
+            <td>위치</td>
+            <td>CLSF</td>
+            <td>위치</td>
+            <td>CLASSIFIER_CURRENT<br>CLASSIFIER_DAILY_HISTORY<br>CLASSIFIER_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>분류자</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>괄호 ID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>분류자</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 회사
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>회사</td>
+            <td>회사</td>
+            <td>지저분해</td>
+            <td>회사</td>
+            <td>COMPANIES_CURRENT<br>COMPANIES_DAILY_HISTORY<br>COMPANIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 사용자 정의 분기
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>사용자 정의 분기</td>
+            <td>사용자 정의 분기</td>
+            <td>CSTQRT</td>
+            <td>사용자 정의 분기</td>
+            <td>CUSTOMQUARTERS_CURRENT<br>CUSTOMQUARTERS_DAILY_HISTORY<br>CUSTOMQUARTERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CUSTOMQUARTERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 사용자 정의 열거형
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>CustomEnum</td>
+            <td>상태, 우선 순위, 심각도, 상태</td>
+            <td>CSTEM</td>
+            <td>사용자 정의 열거형</td>
+            <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CUSTOMENUMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+<div>* 레코드 유형은 'enumClass' 속성을 통해 식별됩니다. 다음은 예상 형식입니다.<br>
+<ul><li>CONDITION_OPTASK</li>
+<li>CONDITION_PROJ</li>
+<li>CONDITION_TASK</li>
+<li>PRIORITY_OPTASK</li>
+<li>PRIORITY_PROJECT</li>
+<li>PRIORITY_TASK</li>
+<li>SEVERITY_OPTASK</li>
+<li>STATUS_OPTASK</li>
+<li>STATUS_PROJECT</li>
+<li>STATUS_TASK</li></ul></div>
+
+### 문서
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>문서</td>
+            <td>문서</td>
+            <td>도쿠</td>
+            <td>문서</td>
+            <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>CHECKEDOUTBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTREQUESTID</td>
+             <td>-</td>
+             <td colspan="2">문서 요청 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGE_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>이터레이션 ID</td>
+             <td>에프케이</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>NOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>소유자 ID</td>
+             <td>에프케이</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>포트폴리오 ID</td>
+             <td>에프케이</td>
+             <td>포트폴리오_현재</td>
+             <td>포트폴리오</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RELEASEVERSIONID</td>
+             <td>-</td>
+             <td colspan="2">릴리스 버전 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>변수, TOPOBJCODE 기반</td>
+             <td>TOPOBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 문서 승인
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>문서 승인</td>
+            <td>문서 승인</td>
+            <td>DOCAPL</td>
+            <td>문서 승인</td>
+            <td>DOCAPPROVALS_CURRENT<br>DOCAPPROVALS_DAILY_HISTORY<br>DOCAPPROVALS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>승인자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>DOCAPPROVALID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>NOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>REQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 문서 폴더
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>문서 폴더</td>
+            <td>문서 폴더</td>
+            <td>DOCFLD</td>
+            <td>문서 폴더</td>
+            <td>DOCTFOLDERS_CURRENT<br>DOCTFOLDERS_DAILY_HISTORY<br>DOCTFOLDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCFOLDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>ISSUEID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>LINKEDFOLDERID</td>
+             <td>FK</td>
+             <td>LINKEDFOLDERS_CURRENT</td>
+             <td>LINKEDFOLDERID</td>
+        </tr>
+        <tr>
+             <td>괄호 ID</td>
+             <td>FK</td>
+             <td>DOCFOLDERS_CURRENT</td>
+             <td>DOCFOLDERID</td>
+        </tr>
+        <tr>
+             <td>포트폴리오</td>
+             <td>FK</td>
+             <td>포트폴리오_현재</td>
+             <td>포트폴리오</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 문서 공급자 메타데이터
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>문서 공급자 메타데이터</td>
+            <td>문서 공급자 메타데이터</td>
+            <td>문서</td>
+            <td>문서 공급자 메타데이터</td>
+            <td>DOCTPROVIDERMETA_CURRENT<br>DOCTPROVIDERMETA_DAILY_HISTORY<br>DOCTPROVIDERMETA_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCPROVIDERMETAID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 문서 공급자
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>문서 공급자</td>
+            <td>문서 공급자</td>
+            <td>DOCPRO</td>
+            <td>문서 공급자</td>
+            <td>DOCPROVIDERS_CURRENT<br>DOCPROVIDERS_DAILY_HISTORY<br>DOCPROVIDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCTPROVIDERCONFIGID</td>
+             <td>FK</td>
+             <td>DOCPROVIDERCONFIG_CURRENT</td>
+             <td>DOCTPROVIDERCONFIGID</td>
+        </tr>
+        <tr>
+             <td>DOCPROVIDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>소유자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 문서 공급자 구성
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>문서 공급자 구성</td>
+            <td>문서 공급자 구성</td>
+            <td>DOCCFG</td>
+            <td>DocumentProviderConfig</td>
+            <td>DOCTPROVIDERCONFIG_CURRENT<br>DOCTPROVIDERCONFIG_DAILY_HISTORY<br>DOCTPROVIDERCONFIG_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCTPROVIDERCONFIGID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 문서 버전
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>문서 버전</td>
+            <td>문서 버전</td>
+            <td>DOCV</td>
+            <td>문서 버전</td>
+            <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTPROVIDERID</td>
+             <td>FK</td>
+             <td>DOCPROVIDERS_CURRENT</td>
+             <td>DOCUMENTPROVIDERID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTVERSIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSTORAGEID</td>
+             <td>-</td>
+             <td colspan="2">외부 스토리지 시스템의 외부 ID</td>
+        </tr>
+        <tr>
+             <td>PROOFAPPROVALSTATUSID</td>
+             <td>-</td>
+             <td colspan="2">증명 승인 상태 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>PROFEDBYUSERID</td>
+             <td>에프케이</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>PROFID</td>
+             <td>-</td>
+             <td colspan="2">증명 테이블은 현재 지원되지 않음</td>
+        </tr>
+        <tr>
+             <td>PROOFOWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>PROOFSTAGID</td>
+             <td>FK</td>
+             <td>-</td>
+             <td colspan="2">증명 스테이지 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 환율
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>환율</td>
+            <td>환율</td>
+            <td>EXRATE</td>
+            <td>환율</td>
+            <td>EXCHANGERATES_CURRENT<br>EXCHANGERATES_DAILY_HISTORY<br>EXCHANGERATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 경비
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>경비</td>
+            <td>경비</td>
+            <td>확장</td>
+            <td>경비</td>
+            <td>EXPENSES_CURRENT<br>EXPENSES_DAILY_HISTORY<br>EXPENSES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>빌링레코디드</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>빌링레코디드</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGE_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>경비 ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>EXPENSETYPEID</td>
+             <td>FK</td>
+             <td>EXPENSETYPES_CURRENT</td>
+             <td>EXPENSETYPEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>변수, TOPBJCODE 기반</td>
+             <td>TOPBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 경비 유형
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>경비 유형</td>
+            <td>경비 유형</td>
+            <td>EXPTYP</td>
+            <td>경비 유형</td>
+            <td>EXPENSETYPES_CURRENT<br>EXPENSETYPES_DAILY_HISTORY<br>EXPENSETYPES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>EXPENSETYPEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 그룹
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>그룹</td>
+            <td>그룹</td>
+            <td>그룹</td>
+            <td>그룹</td>
+            <td>GROUPS_CURRENT<br>GROUPS_DAILY_HISTORY<br>GROUPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BUSINESSLEADERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>괄호 ID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>ROOTID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 시간
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>시간</td>
+            <td>시간</td>
+            <td>시간</td>
+            <td>시간</td>
+            <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>빌링레코디드</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>빌링레코디드</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>분류자</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>분류자</td>
+        </tr>
+        <tr>
+             <td>더피</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGE_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALTIMESHEETID</td>
+             <td>-</td>
+             <td colspan="2">Workfront 관계가 아닙니다. 외부 시스템과의 통합에 사용됩니다.
+자가</td>
+        </tr>
+        <tr>
+             <td>야우리</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>HOURTYPEID</td>
+             <td>FK</td>
+             <td>HOURTYPES_CURRENT</td>
+             <td>HOURTYPEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>소유자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROJECTTOVERHEADID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETID</td>
+             <td>FK</td>
+             <td>TIMESHEETS_CURRENT</td>
+             <td>TIMESHEETID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 시간 유형
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>시간 유형</td>
+            <td>시간 유형</td>
+            <td>시간</td>
+            <td>시간 유형</td>
+            <td>HOURTYPES_CURRENT<br>HOURTYPES_DAILY_HISTORY<br>HOURTYPES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>HOURTYPEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 반복
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>반복</td>
+            <td>반복</td>
+            <td>ITRN</td>
+            <td>반복</td>
+            <td>ITERATIONS_CURRENT<br>ITERATIONS_DAILY_HISTORY<br>ITERATIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>소유자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+    </tbody>
+</table>
+
+### 저널 항목
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>저널 항목</td>
+            <td>저널 항목</td>
+            <td>JRNLE</td>
+            <td>저널 항목</td>
+            <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVERSTATUSID</td>
+             <td>FK</td>
+             <td>APPROVERSTATUSES_CURRENT</td>
+             <td>APPROVERSTATUSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>AUDITRECORDID</td>
+             <td>-</td>
+             <td colspan="2">감사 레코드 테이블이 현재 지원되지 않음</td>
+        </tr>
+        <tr>
+             <td>BASELINEID</td>
+             <td>FK</td>
+             <td>BASELINES_CURRENT</td>
+             <td>BASELINEID</td>
+        </tr>
+        <tr>
+             <td>빌링레코디드</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>빌링레코디드</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTSHAREID</td>
+             <td>-</td>
+             <td colspan="2">문서 공유 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>EDITEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>경비 ID</td>
+             <td>FK</td>
+             <td>EXPENSES_CURRENT</td>
+             <td>경비 ID</td>
+        </tr>
+        <tr>
+             <td>야우리</td>
+             <td>FK</td>
+             <td>HOURS_CURRENT</td>
+             <td>야우리</td>
+        </tr>
+        <tr>
+             <td>INITIATIVEID</td>
+             <td>-</td>
+             <td colspan="2">이니셔티브 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>JOURNALENTRIESID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>포트폴리오</td>
+             <td>FK</td>
+             <td>포트폴리오_현재</td>
+             <td>포트폴리오</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SUBOBJID</td>
+             <td>FK</td>
+             <td>변수, SUBOBJCODE 기반</td>
+             <td>SUBOBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>구독 ID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETID</td>
+             <td>FK</td>
+             <td>TIMESHEETS_CURRENT</td>
+             <td>TIMESHEETID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>변수, TOPOBJCODE 기반</td>
+             <td>TOPOBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 연결된 폴더
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>연결된 폴더</td>
+            <td>연결된 폴더</td>
+            <td>LNKFDR</td>
+            <td>LinkedFolder</td>
+            <td>LINKEDFOLDERS_CURRENT<br>LINKEDFOLDERS_DAILY_HISTORY<br>LINKEDFOLDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCUMENTPROVIDERID</td>
+             <td>FK</td>
+             <td>DOCPROVIDERS_CURRENT</td>
+             <td>DOCUMENTPROVIDERID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSTORAGEID</td>
+             <td>-</td>
+             <td colspan="2">외부 스토리지 시스템의 외부 ID</td>
+        </tr>
+        <tr>
+             <td>폴더 ID</td>
+             <td>FK</td>
+             <td>DOCFOLDERS_CURRENT</td>
+             <td>폴더 ID</td>
+        </tr>
+        <tr>
+             <td>LINKEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LINKEDFOLDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 마일스톤
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>마일스톤</td>
+            <td>마일스톤</td>
+            <td>마일</td>
+            <td>마일스톤</td>
+            <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>마일스톤ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>마일스톤 경로 ID</td>
+             <td>FK</td>
+             <td>MILESTONEPATHS_CURRENT</td>
+             <td>마일스톤 경로 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 마일스톤 경로
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>마일스톤 경로</td>
+            <td>마일스톤 경로</td>
+            <td>MPATH</td>
+            <td>마일스톤 경로</td>
+            <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>마일스톤 경로 ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 비노동 리소스
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>비노동 리소스</td>
+            <td>비노동 리소스</td>
+            <td>NLBR</td>
+            <td>비노동 리소스</td>
+            <td>NONLABORRESOURCES_CURRENT<br>NONLABORRESOURCES_DAILY_HISTORY<br>NONLABORRESOURCES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>HOMEGROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCECATEGORYID</td>
+             <td>FK</td>
+             <td>NLBRCATEGORIES_CURRENT</td>
+             <td>NLBRCATEGORYID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 비노동 리소스 범주
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>비노동 리소스 범주</td>
+            <td>비노동 리소스 범주</td>
+            <td>NLBRCY</td>
+            <td>비노동 리소스 범주</td>
+            <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>NLBRCATEGORYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>예약 ID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>예약 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 비근무일
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>비근무일</td>
+            <td>일정 예외</td>
+            <td>NONWKD</td>
+            <td>비근무일</td>
+            <td>NONWORKDAYS_CURRENT<br>NONWORKDAYS_DAILY_HISTORY<br>NONWORKDAYS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>NONWORKDAYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>옵지드</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>예약 ID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>예약 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 참고
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>참고</td>
+            <td>참고</td>
+            <td>메모</td>
+            <td>참고</td>
+            <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHDOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>ATTACHOBJID</td>
+             <td>FK</td>
+             <td>변수, ATTACHOBJCODE 기반</td>
+             <td>OBJCODE ATTACHOBJCODE에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>ATTACHOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>ATTACHWORKID</td>
+             <td>FK</td>
+             <td>WORKITEMS_CURRENT</td>
+             <td>WORKITEMID</td>
+        </tr>
+        <tr>
+             <td>ATTACHWORKUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>AUDITRECORDID</td>
+             <td>-</td>
+             <td colspan="2">감사 레코드 테이블이 현재 지원되지 않음</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSERVICEID</td>
+             <td>-</td>
+             <td colspan="2">Workfront 관계가 아닙니다. 외부 시스템과의 통합에 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>NOTEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, NOTEOBJCODE 기반</td>
+             <td>NOTEOBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>소유자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>비실어샘체</td>
+             <td>-</td>
+             <td colspan="2">보증 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>PARENTJOURNALENTRYID</td>
+             <td>FK</td>
+             <td>JOURNALENTRIES_CURRENT</td>
+             <td>JOURNALENTRYID</td>
+        </tr>
+        <tr>
+             <td>PARENTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>포트폴리오</td>
+             <td>FK</td>
+             <td>포트폴리오_현재</td>
+             <td>포트폴리오</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROFACATIONID</td>
+             <td>-</td>
+             <td colspan="2">증명 작업 테이블은 현재 지원되지 않음</td>
+        </tr>
+        <tr>
+             <td>PROFID</td>
+             <td>-</td>
+             <td colspan="2">증명 테이블은 현재 지원되지 않음</td>
+        </tr>
+        <tr>
+             <td>RICHTEXTNOTEID</td>
+             <td>FK</td>
+             <td>RESERVEDTEXTNOTES_CURRENT</td>
+             <td>RICHTEXTNOTEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>스레디드</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETID</td>
+             <td>FK</td>
+             <td>TIMESHEETS_CURRENT</td>
+             <td>TIMESHEETID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>변수, TOPOBJCODE 기반</td>
+             <td>TOPOBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+
+
+    &lt;/tbody>
+</table>
+
+### 오브젝트 통합
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>오브젝트 통합</td>
+            <td>오브젝트 통합</td>
+            <td>오브젝트</td>
+            <td>오브젝트 통합</td>
+            <td>OBJECTINTEGRATION_CURRENT<br>OBJECTINTEGRATION_DAILY_HISTORY<br>OBJECTINTEGRATION_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LINKEDOBJECTID</td>
+             <td>FK</td>
+             <td>변수, LINKEDOBJECTCODE 기반</td>
+             <td>LINKEDOBJECTCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>OBJECTINTEGRATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+
+    &lt;/tbody>
+</table>
+
+### 오브젝트 범주
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>오브젝트 범주</td>
+            <td>오브젝트 범주</td>
+            <td>OBJCAT</td>
+            <td>오브젝트 범주</td>
+            <td>OBJECTSCATEGORIES_CURRENT<br>OBJECTSCATEGORIES_DAILY_HISTORY<br>OBJECTSCATEGORIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>OBJECTSCATEGORYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### OpTask / 문제
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>OpTask</td>
+            <td>문제, 요청</td>
+            <td>OPTASK</td>
+            <td>문제</td>
+            <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>CURRENTAPPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>승인스테피드</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGE_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>칸반보드</td>
+             <td>-</td>
+             <td colspan="2">칸반 보드 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>LASTCONDITIONNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>소유자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>QUEUEDEFID</td>
+             <td>-</td>
+             <td colspan="2">대기열 정의 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>QUEUETOPICID</td>
+             <td>-</td>
+             <td colspan="2">대기열 주제 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>RESOLVEOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>RESOLVEPROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RESOLVETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>RESOLVINGOBJID</td>
+             <td>FK</td>
+             <td>변수, RESOLVINGOBJCODE 기반</td>
+             <td>RESOLVINGOBJCODE 필드에서 식별된 개체의 기본 키/ID입니다</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SOURCEOBJID</td>
+             <td>FK</td>
+             <td>변수, SOURCEOBJCODE 기반</td>
+             <td>SOURCEOBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+    </tbody>
+</table>
+
+### 매개변수
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>매개변수</td>
+            <td>사용자 정의 필드</td>
+            <td>매개 변수</td>
+            <td>매개변수</td>
+            <td>PARAMETERS_CURRENT<br>PARAMETERS_DAILY_HISTORY<br>PARAMETERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERFILTERID</td>
+             <td>-</td>
+             <td colspan="2">매개변수 필터 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>매개 변수화</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 매개변수 그룹
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>매개변수 그룹</td>
+            <td>양식 섹션</td>
+            <td>매개 변수</td>
+            <td>매개변수 그룹</td>
+            <td>PARAMETERGROUPS_CURRENT<br>PARAMETERGROUPS_DAILY_HISTORY<br>PARAMETERGROUPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERGROUPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 매개변수 옵션
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>매개변수 옵션</td>
+            <td>매개변수 옵션</td>
+            <td>POPT</td>
+            <td>매개변수 옵션</td>
+            <td>PARAMETEROPTIONS_CURRENT<br>PARAMETEROPTIONS_DAILY_HISTORY<br>PARAMETEROPTIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>매개 변수화</td>
+             <td>FK</td>
+             <td>PARAMETERS_CURRENT</td>
+             <td>매개 변수화</td>
+        </tr>
+        <tr>
+             <td>PARAMETEROPATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 포털 섹션 / 보고서
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>포털 섹션</td>
+            <td>보고서</td>
+            <td>PTLSEC</td>
+            <td>보고서</td>
+            <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>여과물</td>
+             <td>FK</td>
+             <td>UIFILTERS_CURRENT</td>
+             <td>여과물</td>
+        </tr>
+        <tr>
+             <td>GROUPBYID</td>
+             <td>FK</td>
+             <td>UIGROUPYS_CURRENT</td>
+             <td>GROUPBYID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTVIEWEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>PORTALSECTIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>PREFERENCES_CURRENT</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>PUBLRUNASUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>REPORTFOLDERID</td>
+             <td>FK</td>
+             <td>REPORTFOLDERS_CURRENT</td>
+             <td>REPORTFOLDERID</td>
+        </tr>
+        <tr>
+             <td>RUNASUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEDREPORTID</td>
+             <td>-</td>
+             <td colspan="2">예약된 보고서 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>VIEWID</td>
+             <td>FK</td>
+             <td>UIVIEWS_CURRENT</td>
+             <td>VIEWID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 포털 탭/대시보드
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>포털 탭</td>
+            <td>대시보드</td>
+            <td>PTLTAB</td>
+            <td>대시보드</td>
+            <td>PORTALTAB_CURRENT<br>PORTALTAB_DAILY_HISTORY<br>PORTALTAB_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>PORTALPROFILEID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>PORTALTABID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 포털 탭 섹션
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>포털 탭 섹션</td>
+            <td>대시보드 섹션</td>
+            <td>PRTBSC</td>
+            <td>포털 탭 섹션</td>
+            <td>PORTALTABSPORTALSECTIONS_CURRENT<br>PORTALTABSPORTALSECTIONS_DAILY_HISTORY<br>PORTALTABSPORTALSECTIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CALENDARPORTALSECTIONID</td>
+             <td>-</td>
+             <td colspan="2">달력 포털 섹션은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSECTIONID</td>
+             <td>-</td>
+             <td colspan="2">현재 외부 섹션 테이블이 지원되지 않음</td>
+        </tr>
+        <tr>
+             <td>INTERNALSECTIONID</td>
+             <td>FK</td>
+             <td>PORTALSECTIONS_CURRENT</td>
+             <td>PORTALSECTIONID</td>
+        </tr>
+        <tr>
+             <td>PORTALSECTIONOBJID</td>
+             <td>FK</td>
+             <td>변수, PORTALSECTIONOBJCODE 기반</td>
+             <td>PORTALSECTIONOBJCODE 필드에서 식별된 개체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>PORTALTABID</td>
+             <td>FK</td>
+             <td>PORTALTAB_CURRENT</td>
+             <td>PORTALTABID</td>
+        </tr>
+        <tr>
+             <td>PORTALTABSECTIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 포털 섹션 마지막 뷰어
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>포털 섹션 마지막 뷰어</td>
+            <td>마지막 뷰어 보고서</td>
+            <td>PLSLSV</td>
+            <td>포털 섹션 마지막 뷰어</td>
+            <td>REPORTLASTVIEWERS_CURRENT<br>REPORTLASTVIEWERS_DAILY_HISTORY<br>REPORTLASTVIEWERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>REPORTID</td>
+             <td>FK</td>
+             <td>PORTALSECTIONS_CURRENT</td>
+             <td>REPORTID</td>
+        </tr>
+        <tr>
+             <td>REPORTLASTVIEWERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>VIEWERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 포트폴리오
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>포트폴리오</td>
+            <td>포트폴리오</td>
+            <td>포트</td>
+            <td>포트폴리오</td>
+            <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>포트폴리오_이벤트</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ALIGNMENTSCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">스코어카드 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>소유자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>포트폴리오</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 환경 설정
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>환경 설정</td>
+            <td>보기, 필터링, 그룹화, 보고서 정의</td>
+            <td>PROSET</td>
+            <td>환경 설정</td>
+            <td>PREFERENCES_CURRENT<br>PREFERENCES_DAILY_HISTORY<br>PREFERENCES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 프로그램
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>프로그램</td>
+            <td>프로그램</td>
+            <td>PRGM</td>
+            <td>프로그램</td>
+            <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>소유자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>포트폴리오</td>
+             <td>FK</td>
+             <td>포트폴리오_현재</td>
+             <td>포트폴리오</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 프로젝트
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>프로젝트</td>
+            <td>프로젝트</td>
+            <td>프로젝트</td>
+            <td>프로젝트</td>
+            <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>AEMNATIVEFOLDERTREESREFID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>ALIGNMENTSCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">스코어카드 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ATTACHEDATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKORIGINATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>CURRENTAPPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>승인스테피드</td>
+        </tr>
+        <tr>
+             <td>DELIVERABLESCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">스코어카드 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTCONDITIONNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>마일스톤 경로 ID</td>
+             <td>FK</td>
+             <td>MILESTONEPATHS_CURRENT</td>
+             <td>마일스톤 경로 ID</td>
+        </tr>
+        <tr>
+             <td>소유자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>POPACCOUNTID</td>
+             <td>-</td>
+             <td colspan="2">Pop 계정 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>포트폴리오</td>
+             <td>FK</td>
+             <td>포트폴리오_현재</td>
+             <td>포트폴리오</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>QUEUEDEFID</td>
+             <td>-</td>
+             <td colspan="2">대기열 정의 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>REJECTIONISSUEID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEPOOLID</td>
+             <td>FK</td>
+             <td>RESOURCEPOOL_CURRENT</td>
+             <td>RESOURCEPOOLID</td>
+        </tr>
+        <tr>
+             <td>예약 ID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>예약 ID</td>
+        </tr>
+        <tr>
+             <td>스폰소이드</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 프로젝트 팀 사용자
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>프로젝트 팀 사용자</td>
+            <td>프로젝트 팀 사용자</td>
+            <td>PRTU</td>
+            <td>프로젝트 사용자</td>
+            <td>PROJECTSUSERS_CURRENT<br>PROJECTSUSERS_DAILY_HISTORY<br>PROJECTSUSERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROJECTSUSERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TMPUSERID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>에프케이</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 프로젝트 팀 사용자 역할
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>프로젝트 팀 사용자 역할</td>
+            <td>프로젝트 팀 사용자 역할</td>
+            <td>TEAM</td>
+            <td>프로젝트 사용자 역할</td>
+            <td>PROJECTSUSERSROLES_CURRENT<br>PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROJECTSUSERSROLEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 요율 카드
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>요율 카드</td>
+            <td>요율 카드</td>
+            <td>RTCRD</td>
+            <td>요율 카드</td>
+            <td>RATECARD_CURRENT<br>RATECARD_DAILY_HISTORY<br>RATECARD_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>RATECARDID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SECURITYROOTID</td>
+             <td>FK</td>
+             <td>변수, SECURITYOBJCODE 기반</td>
+             <td>SECURITYOBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>SOURCEID</td>
+             <td>FK</td>
+             <td>변수, SOURCEOBJCODE 기반</td>
+             <td>SOURCEOBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+
+    &lt;/tbody>
+</table>
+
+### 보고서 폴더
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>보고서 폴더</td>
+            <td>보고서 폴더</td>
+            <td>RPTFDR</td>
+            <td>보고서 폴더</td>
+            <td>REPORTFOLDERS_CURRENT<br>REPORTFOLDERS_DAILY_HISTORY<br>REPORTFOLDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>REPORTFOLDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 보고서 보기 통계 수
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>보고서 보기 통계 수</td>
+            <td>보고서 보기 통계 수</td>
+            <td>PLSVST</td>
+            <td>PortalSectionStatisticInfo</td>
+            <td>REPORTVIEWSTATICCOUNTS_CURRENT<br>REPORTVIEWSTATICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATICCOUNTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>REPORTID</td>
+             <td>FK</td>
+             <td>PORTALSECTIONS_CURRENT</td>
+             <td>PORTALSECTIONID</td>
+        </tr>
+        <tr>
+             <td>REPORTVIEWSTATICCOUNTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 보고 가능한 예산 시간
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>보고 가능한 예산 시간</td>
+            <td>보고 가능한 예산 시간</td>
+            <td>RPBGHR</td>
+            <td>예산 시간</td>
+            <td>REPORTABLEBUDGETEDHOURS_CURRENT<br>REPORTABLEBUDGETEDHOURS_DAILY_HISTORY<br>REPORTABLEBUDGETEDHOURS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>REPORTABLEBUDGETEDHOURID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 예약 시간/PTO
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>예약된 시간</td>
+            <td>(개인) 휴무</td>
+            <td>REVT</td>
+            <td>휴무</td>
+            <td>RESERVEDTIMES_CURRENT<br>RESERVEDTIMES_DAILY_HISTORY<br>RESERVEDTIMES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RESERVEDTIMEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 리소스 관리자
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>리소스 관리자</td>
+            <td>리소스 관리자</td>
+            <td>RESMGR</td>
+            <td>리소스 관리자</td>
+            <td>RESOURCEMANAGERS_CURRENT<br>RESOURCEMANAGERS_DAILY_HISTORY<br>RESOURCEMANAGERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEMANAGERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 리소스 풀
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>리소스 풀</td>
+            <td>리소스 풀</td>
+            <td>RSPL</td>
+            <td>리소스 풀</td>
+            <td>RSRCPOOLS_CURRENT<br>RSRCPOOLS_DAILY_HISTORY<br>RSRCPOOLS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEPOOLID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 서식 있는 텍스트 메모
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>서식 있는 텍스트 메모</td>
+            <td>서식 있는 텍스트 메모</td>
+            <td>RHNOTE</td>
+            <td>서식 있는 텍스트 메모</td>
+            <td>RESERVEDTEXTNOTES_CURRENT<br>RESERVEDTEXTNOTES_DAILY_HISTORY<br>RESERVEDTEXTNOTES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RICHTEXTNOTEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 리치 텍스트 매개 변수 값
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>리치 텍스트 매개 변수 값</td>
+            <td>리치 텍스트 매개 변수 값</td>
+            <td>RCHVAL</td>
+            <td>리치 텍스트 매개 변수 값</td>
+            <td>RICHTEXTPARAMETERVALUES_CURRENT<br>RICHTEXTPARAMETERVALUES_DAILY_HISTORY<br>RICHTEXTPARAMETERVALUES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PARAMETERVALUEID</td>
+             <td>-</td>
+             <td colspan="2">매개변수 값 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>RICHTEXTPARAMETERVALUEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 위험
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>위험</td>
+            <td>위험</td>
+            <td>위험</td>
+            <td>위험</td>
+            <td>RISK_CURRENT<br>RISK_DAILY_HISTORY<br>RISK_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGE_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>위험하</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>RISKTYPEID</td>
+             <td>FK</td>
+             <td>RISKTYPES_CURRENT</td>
+             <td>RISKTYPEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 위험 유형
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>위험 유형</td>
+            <td>위험 유형</td>
+            <td>RSKTYP</td>
+            <td>위험 유형</td>
+            <td>RISKTYPES_CURRENT<br>RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RISKTYPEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 역할
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>역할</td>
+            <td>작업 역할</td>
+            <td>역할</td>
+            <td>작업 역할</td>
+            <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">레이아웃 템플릿 테이블은 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 예약
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>예약</td>
+            <td>예약</td>
+            <td>일정 조정됨</td>
+            <td>예약</td>
+            <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>HOMEGROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>예약 ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 단계 승인자
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>단계 승인자</td>
+            <td>단계 승인자</td>
+            <td>SPAPVR</td>
+            <td>단계 승인자</td>
+            <td>STEPAPPROVERS_CURRENT<br>STEPAPPROVERS_DAILY_HISTORY<br>STEPAPPROVERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>승인스테피드</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>승인스테피드</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>STEAPPROVERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 작업
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>작업</td>
+            <td>작업</td>
+            <td>작업</td>
+            <td>작업</td>
+            <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>빌링레코디드</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>빌링레코디드</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKORIGINATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>CURRENTAPPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>승인스테피드</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGE_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>칸반보드</td>
+             <td>-</td>
+             <td colspan="2">칸반 보드 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>LASTCONDITIONNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>마일스톤ID</td>
+             <td>FK</td>
+             <td>마일스톤_현재</td>
+             <td>마일스톤ID</td>
+        </tr>
+        <tr>
+             <td>괄호 ID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>재귀결핵-</td>
+             <td>-</td>
+             <td colspan="2">반복 규칙 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>REJECTIONISSUEID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>RESERVEDTIMEID</td>
+             <td>FK</td>
+             <td>RESERVEDTIMES_CURRENT</td>
+             <td>RESERVEDTIMEID</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>SUBMITTEDBYID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 작업 전임 작업
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>작업 전임 작업</td>
+            <td>전임 작업</td>
+            <td>PRED</td>
+            <td>전임 작업</td>
+            <td>PREDECESSORS_CURRENT<br>PREDECESSORS_DAILY_HISTORY<br>PREDECESSORS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PREDECESSORID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SUCCESSORID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 팀
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>팀</td>
+            <td>팀</td>
+            <td>TEAOB</td>
+            <td>팀</td>
+            <td>TEAMS_CURRENT<br>TEAMS_DAILY_HISTORY<br>TEAMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>그룹 피드</td>
+             <td>에프케이</td>
+             <td>GROUPS_CURRENT</td>
+             <td>그룹 피드</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">레이아웃 템플릿 테이블은 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>MYWORKVIEWID</td>
+             <td>FK</td>
+             <td>UIVIEWS_CURRENT</td>
+             <td>UIVIEWID</td>
+        </tr>
+        <tr>
+             <td>소유자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>REQUESTSVIEWID</td>
+             <td>에프케이</td>
+             <td>UIVIEWS_CURRENT</td>
+             <td>UIVIEWID</td>
+        </tr>
+        <tr>
+             <td>예약 ID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>예약 ID</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 팀원
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>팀원</td>
+            <td>기타 팀, 팀원</td>
+            <td>TEAMMB</td>
+            <td>팀원</td>
+            <td>TEAMMEMBERS_CURRENT<br>TEAMMEMBERS_DAILY_HISTORY<br>TEAMMEMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+        <tr>
+             <td>TEAMMEMBERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 팀원 역할
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>팀원 역할</td>
+            <td>팀원 역할</td>
+            <td>팀</td>
+            <td>팀원 역할</td>
+            <td>TEAMMEMBERROLES_CURRENT<br>TEAMMEMBERROLES_DAILY_HISTORY<br>TEAMMEMBERROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+        <tr>
+             <td>TEAMMEMBERROLEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 템플릿
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>템플릿</td>
+            <td>템플릿, 프로젝트 템플릿</td>
+            <td>템플릿</td>
+            <td>템플릿</td>
+            <td>TEMPLATES_CURRENT<br>TEMPLATES_DAILY_HISTORY<br>TEMPLATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DELIVERABLESCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">결과물 스코어카드 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>마일스톤 경로 ID</td>
+             <td>FK</td>
+             <td>MILESTONEPATHS_CURRENT</td>
+             <td>마일스톤 경로 ID</td>
+        </tr>
+        <tr>
+             <td>소유자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>QUEUEDEFID</td>
+             <td>-</td>
+             <td colspan="2">대기열 정의 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>예약 ID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>예약 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 템플릿 작업 할당
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>템플릿 작업 할당</td>
+            <td>템플릿 할당</td>
+            <td>작업</td>
+            <td>템플릿 할당</td>
+            <td>TEMPLATEASSIGNMENTS_CURRENT<br>TEMPLATEASSIGNMENTS_DAILY_HISTORY<br>TEMPLATEASSIGNMENTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+        <tr>
+             <td>TEAMTIMELINEABLEID</td>
+             <td>-</td>
+             <td colspan="2">팀 타임라인 가능 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>템플릿할당 ID</td>
+             <td>증권 시세 표시기</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>템플릿태스크 ID</td>
+             <td>에프케이</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 템플릿 작업
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>템플릿 작업</td>
+            <td>템플릿 작업</td>
+            <td>TTSK</td>
+            <td>템플릿 작업</td>
+            <td>TEMPLATETASKS_CURRENT<br>TEMPLATETASKS_DAILY_HISTORY<br>TEMPLATETASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>APPROVALPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGE_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>마일스톤ID</td>
+             <td>FK</td>
+             <td>마일스톤_현재</td>
+             <td>마일스톤ID</td>
+        </tr>
+        <tr>
+             <td>괄호 ID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>재귀결핵-</td>
+             <td>-</td>
+             <td colspan="2">반복 규칙 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>티미드</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+        <tr>
+             <td>TEAMTIMELINEABLEID</td>
+             <td>-</td>
+             <td colspan="2">팀 타임라인 가능 테이블은 현재 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 템플릿 작업 전임 작업
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>템플릿 작업 전임 작업</td>
+            <td>템플릿 전임 작업</td>
+            <td>TPRED</td>
+            <td>전임 작업</td>
+            <td>TEMPLATEPREDECESSORS_CURRENT<br>TEMPLATEPREDECESSORS_DAILY_HISTORY<br>TEMPLATEPREDECESSORS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PREDECESSORID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>SUCCESSORID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEPREDECESSORID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 시간 단계별 KPI 통화
+
+제한된 고객 가용성
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>시간 단계별 KPI 통화</td>
+            <td>시간별 KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>위치 ID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>분류자</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>포트폴리오</td>
+             <td>FK</td>
+             <td>포트폴리오_현재</td>
+             <td>포트폴리오</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>참조 ID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>곧 추가될 예정입니다.</td>
+             <td>SCHEMAID</td>
+        </tr>
+        <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TIMEPHASEDCURRENCYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 시간 단계별 KPI 기간
+
+제한된 고객 가용성
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>시간 단계별 KPI 기간</td>
+            <td>시간별 KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>위치 ID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>분류자</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>포트폴리오</td>
+             <td>FK</td>
+             <td>포트폴리오_현재</td>
+             <td>포트폴리오</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>참조 ID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>곧 추가될 예정입니다.</td>
+             <td>SCHEMAID</td>
+        </tr>
+        <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>TIMEPHASEDDURATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 타임시트
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>타임시트</td>
+            <td>타임시트</td>
+            <td>체트</td>
+            <td>타임시트</td>
+            <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>승인자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETPROFILEID</td>
+             <td>FK</td>
+             <td>TIMESHEETPROFILES_CURRENT</td>
+             <td>TIMESHEETPROFILEID</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 타임시트 프로필
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>타임시트 프로필</td>
+            <td>타임시트 프로필</td>
+            <td>TSPRO</td>
+            <td>타임시트 프로필</td>
+            <td>TIMESHEETPROFILES_CURRENT<br>TIMESHEETPROFILES_DAILY_HISTORY<br>TIMESHEETPROFILES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>승인자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETPROFILEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### UI 필터
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>UI 필터</td>
+            <td>필터</td>
+            <td>UIFT</td>
+            <td>필터</td>
+            <td>UIFILTERS_CURRENT<br>UIFILTERS_DAILY_HISTORY<br>UIFILTERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>PREFERENCES_CURRENT</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>우이필테르</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### UI 그룹 기준
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>UI 그룹 기준</td>
+            <td>그룹화</td>
+            <td>UIGB</td>
+            <td>그룹화</td>
+            <td>UIGROUPYS_CURRENT<br>UIGROUPYS_DAILY_HISTORY<br>UIGROPBYS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>PREFERENCES_CURRENT</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>UIGROUPBYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### UI 템플릿
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>UI 템플릿</td>
+            <td>레이아웃 템플릿</td>
+            <td>UITMPL</td>
+            <td>레이아웃 템플릿</td>
+            <td>UITEMPLATES_CURRENT<br>UITEMPLATES_DAILY_HISTORY<br>UITEMPLATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### UI 보기
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>UI 보기</td>
+            <td>보기</td>
+            <td>UIVIEW</td>
+            <td>보기</td>
+            <td>UIVIEWS_CURRENT<br>UIVIEWS_DAILY_HISTORY<br>UIVIEWS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>PREFERENCES_CURRENT</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>UIVIEWID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 사용자
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>사용자</td>
+            <td>사용자</td>
+            <td>사용자</td>
+            <td>사용자</td>
+            <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSLEVELID</td>
+             <td>FK</td>
+             <td>ACCESSLEVELS_CURRENT</td>
+             <td>ACCESSLEVELID</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DEFAULTHOURTYPEID</td>
+             <td>FK</td>
+             <td>HOURTYPES_CURRENT</td>
+             <td>HOURTYPEID</td>
+        </tr>
+        <tr>
+             <td>DELEGATIONTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>EAUTHUSERID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>HOMEGROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>홈메팀</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>티미드</td>
+        </tr>
+        <tr>
+             <td>LASTENTEREDNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>LATESTUPDATENOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">레이아웃 템플릿 테이블은 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>MANAGERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>PORTALPROFILEID</td>
+             <td>-</td>
+             <td colspan="2">포털 프로필 테이블이 지원되지 않습니다.</td>
+        </tr>
+        <tr>
+             <td>PREFUID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEPOOLID</td>
+             <td>FK</td>
+             <td>RESOURCEPOOL_CURRENT</td>
+             <td>RESOURCEPOOLID</td>
+        </tr>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>예약 ID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>예약 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETPROFILEID</td>
+             <td>FK</td>
+             <td>TIMESHEETPROFILES_CURRENT</td>
+             <td>TIMESHEETPROFILEID</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>유무세리드</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 사용자 위임
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>사용자 위임</td>
+            <td>사용자 위임</td>
+            <td>우르델</td>
+            <td>사용자 위임</td>
+            <td>USERDELEGATIONS_CURRENT<br>USERDELEGATIONS_DAILY_HISTORY<br>USERDELEGATIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>프로무세라드</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TOUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>USERDELEGATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 사용자 그룹
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>사용자 그룹</td>
+            <td>기타 그룹</td>
+            <td>USRGPS</td>
+            <td>사용자 그룹</td>
+            <td>USERSGROUPS_CURRENT<br>USERSGROUPS_DAILY_HISTORY<br>USERSGROUPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>USERSGROUPID</td>
+             <td>증권 시세 표시기</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 사용자 위치
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>사용자 위치</td>
+            <td>사용자 위치</td>
+            <td>USRLOC</td>
+            <td>사용자 위치</td>
+            <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>분류자</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>분류자</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>USERLOCATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 사용자 역할
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>사용자 역할</td>
+            <td>기타 역할</td>
+            <td>USRROL</td>
+            <td>사용자 역할</td>
+            <td>USERSROLES_CURRENT<br>USERSROLES_DAILY_HISTORY<br>USERSROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>USERROLESETID</td>
+             <td>FK</td>
+             <td>USERROLESET_CURRENT</td>
+             <td>USERROLESETID</td>
+        </tr>
+        <tr>
+             <td>USERLOCATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 사용자 환경 설정 값
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>사용자 환경 설정 값</td>
+            <td>사용자 환경 설정</td>
+            <td>USERPF</td>
+            <td>사용자 환경 설정</td>
+            <td>USERPREFVALUES_CURRENT<br>USERPREFVALUES_DAILY_HISTORY<br>USERPREFVALUES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>USERPREFVALUEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 사용자 역할 집합
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>사용자 역할 집합</td>
+            <td>사용자 역할 집합</td>
+            <td>URSET</td>
+            <td>사용자 역할 집합</td>
+            <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>프리마리롤리드</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>USERROLESETID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 사용자 결정
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>사용자 결정</td>
+            <td>사용자 결정</td>
+            <td>USRDEC</td>
+            <td>사용자 결정</td>
+            <td>USERSDECISIONS_CURRENT<br>USERSDECISIONS_DAILY_HISTORY<br>USERSDECISIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>USERDECISIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 작업 항목
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>작업 항목</td>
+            <td>작업 항목</td>
+            <td>WRKITM</td>
+            <td>작업 항목</td>
+            <td>WORKITEMS_CURRENT<br>WORKITEMS_DAILY_HISTORY<br>WORKITEMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+        <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>WORKITEMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
 </table>
