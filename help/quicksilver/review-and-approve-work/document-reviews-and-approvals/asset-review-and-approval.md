@@ -6,7 +6,7 @@ description: Workfront에서 검토 및 승인을 위해 사용할 수 있는 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 97821d0fa97e8ba18e63b7e4156e06563e148a3d
+source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
 * 현재 Beta의 캔버스 대시보드를 사용하여 통합 승인에 대한 보고 세부 사항을 봅니다
 보고에 대한 자세한 내용은 [검토 및 승인을 위한 보고서 대시보드 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)를 참조하세요.
 
-* 증명 뷰어 [!BADGE 준비 중]에서 결정{type=Informative}
+* 증명 뷰어 [!BADGE 준비 중]{type=Informative}에서 결정
 
 * 여러 단계 승인 만들기 [!BADGE 준비 중]{type=Informative}
 
