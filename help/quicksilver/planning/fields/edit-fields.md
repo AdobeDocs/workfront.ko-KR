@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e49f1b3d9de3984ed798e20a0a0f03f9d4060115
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -165,18 +165,3 @@ Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 
 1. (조건부) 연결된 레코드 필드의 경우 **조회 필드 편집**&#x200B;을 클릭하고 연결된 레코드 형식에서 조회 필드를 추가하거나 제거합니다.
 
    자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
-
-   >[!TIP]
-   >
-   >연결된 레코드에서 조회 필드를 추가하거나 제거할 수 있지만 조회 필드의 설정을 편집할 수는 없습니다.
-
-
-<!-- replace the TIP above with the one below at Preview, and remove this tip altogether after April 10 Prod release:-->
-
-<!--
-   >[!TIP]
-   >
-   >* In the Production environment, you can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
-   >* <span class="preview">In the Preview environment, you can edit the settings of lookup fields.</span>
-
--->

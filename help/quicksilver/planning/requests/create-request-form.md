@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '2020'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-요청 양식을 만들어 Adobe Workfront Planning에서 레코드 유형과 연결할 수 있습니다. 그런 다음 다른 내부 또는 외부 사용자와 링크를 공유할 수 있습니다.
-
-양식에 대한 링크가 있는 사용자는 해당 양식의 필드 값을 업데이트하고 이를 제출하여 새 레코드를 추가할 수 있습니다.
+요청 양식을 만들어 Adobe Workfront Planning에서 레코드 유형과 연결할 수 있습니다. 그런 다음 양식을 다른 사용자와 공유하고 레코드를 만들도록 요청을 제출할 수 있습니다.
 
 이 문서에서는 작업 영역 관리자가 레코드 유형과 연결된 요청 양식을 만드는 방법에 대해 설명합니다.
 
@@ -126,7 +124,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
       * 작성자 및 마지막 수정자
       * 생성 날짜 및 마지막 수정 날짜
-      * 공식. <!--Formula fields are supported in the Preview environment.-->
+      * 공식
       * Workfront 개체의 조회 필드
       * Workfront Planning 연결된 레코드의 조회 필드
 
@@ -257,12 +255,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    >     * 사용자
    >
 
-1. (조건부) 이전 단계에서 **링크가 있는 모든 사용자**&#x200B;를 선택한 경우 사용 가능한 달력에서 **링크 만료 날짜**&#x200B;를 선택하십시오. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
-
-   >[!TIP]
-   >
-   >이러한 경우 링크가 공개적으로 공유된다는 표시가 있습니다.
-   >![레코드 종류 메뉴의 양식에 대한 공개 공유 링크](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+1. (조건부) 이전 단계에서 **링크가 있는 모든 사용자**&#x200B;를 선택한 경우 사용 가능한 달력에서 **링크 만료 날짜**&#x200B;를 선택하십시오.
 
    링크가 만료되면 사람들이 오류를 받게 되며 사람들이 양식에 다시 액세스하려면 링크 날짜를 업데이트하고 공유할 새 링크를 생성해야 합니다.
 
@@ -299,18 +292,10 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 1. 헤더의 **요청 양식** 왼쪽에 있는 왼쪽 화살표를 클릭하여 요청 양식 표를 닫습니다.
 
    레코드 유형 페이지가 열립니다.
-1. (선택 사항 및 조건부) 기존 양식을 편집하려면:
+1. (선택 사항 및 조건부) 헤더에서 레코드 형식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 중 하나를 수행합니다.
 
-   1. 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 관리**&#x200B;를 클릭합니다. </span>
+   1. **요청 양식 업데이트**&#x200B;를 클릭하여 요청 양식을 변경한 다음 요청 양식을 클릭하여 열고 편집합니다.
+   1. **요청 양식에 대한 링크 복사**&#x200B;를 클릭하여 양식에 대한 링크를 다른 사용자와 공유합니다.
 
-      그러면 요청 양식 표 보기가 열립니다.
+1. (선택 사항) Workfront의 **요청** 영역으로 이동하여 공유 양식을 찾아 요청을 제출합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
-   1. 요청 양식을 열어 편집하려면 클릭하십시오.
-   1. (선택 사항) Workfront의 **요청** 영역으로 이동하여 공유 양식을 찾아 요청을 제출합니다. 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
-
-<!--   * From the Production environment:
-   
-      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
-   
-      1. Click **Update request form** to make any changes to the request form.
-      1. Click **Copy link to request form**  to share the link to the form with others.-->

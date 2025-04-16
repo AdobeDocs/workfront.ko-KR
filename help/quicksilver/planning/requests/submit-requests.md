@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -152,10 +152,6 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
 
 ## Workfront의 요청 영역에서 Workfront Planning에 요청 제출
-
->[!NOTE]
->
->월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 이 섹션에 설명된 기능을 사용할 수 있습니다.
 
 {{step1-to-requests}}
 

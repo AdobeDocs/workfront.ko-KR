@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -270,9 +270,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
 * 연결 보기 페이지를 레코드의 미리 보기 영역에 추가할 수 없습니다.
 
-* 연결 뷰 페이지에는 테이블 뷰에 연결된 레코드 페이지가 한 개 표시됩니다. 테이블 보기는 읽기 전용입니다. <!--more views might be added in the future-->
-
-* 연결된 각 레코드 유형당 하나의 연결 보기 페이지를 추가할 수 있습니다.  <!--edit this when we can remove fields from this page-->
+* 연결 뷰 페이지에는 테이블 뷰에 연결된 레코드 유형 페이지가 한 개 표시됩니다.
 
 * 연결 보기 페이지를 레코드의 페이지에 추가하면 해당 레코드의 미리 보기 영역에 페이지 탭이 표시됩니다. 연결된 레코드에 대한 테이블 보기를 보려면 전체 페이지로 이동해야 합니다. <!--this might have changed? check and take disclaimer out-->
 
@@ -289,7 +287,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 선택한 레코드 유형의 테이블 뷰가 표시되고 연결된 레코드가 테이블 뷰에 표시됩니다.
 연결된 레코드의 모든 필드는 연결된 레코드 탭의 테이블 보기에 표시됩니다.
 
-   미리보기 환경에서 Workfront Planning에 액세스하면 연결된 레코드 테이블의 처음 5개 필드가 기본적으로 표시됩니다. 기본적으로 표시되는 조회 필드가 없습니다.0
+   연결된 레코드 테이블의 처음 5개 필드는 기본적으로 표시됩니다. 기본적으로 표시되는 조회 필드가 없습니다.
 
    테이블 보기는 읽기 전용입니다.
 
@@ -309,16 +307,11 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
    * 그룹화
    * 필드, 필드를 표시, 숨기기 또는 다시 정렬
 
-   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
-
    자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
    >[!NOTE]
    >
-   >   연결된 레코드 탭의 표 보기에서 다음 작업을 수행할 수 없습니다.
-   >
-   >   * 필드를 숨기거나 다시 정렬합니다. 미리보기 환경에서 필드를 숨기거나 재배열할 수 있습니다.
-   >   * 필드 만들기, 편집 또는 삭제
+   >   연결된 레코드 탭의 표 보기에서 필드를 만들거나 편집하거나 삭제할 수 없습니다.
    >
 
 1. 레코드를 추가하거나 제거하려면 **연결**&#x200B;을 클릭하세요. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
