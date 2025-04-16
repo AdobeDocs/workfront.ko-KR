@@ -6,14 +6,16 @@ description: Adobe Workfront에서 개체에 대한 가시성은 해당 개체 �
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 18b96a6d57dc358bfe52e813bc98d8eb19f37dba
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 0%
+source-wordcount: '1338'
+ht-degree: 1%
 
 ---
 
 # 오브젝트에 대한 액세스 요청
+
+<!-- Audited: 4/2025 -->
 
 Adobe Workfront에서 개체에 대한 가시성은 해당 개체 유형에 대한 액세스 권한과 개별 개체에 대한 사용 권한에 따라 다릅니다.
 
@@ -30,9 +32,7 @@ Workfront 관리자는 액세스 수준의 오브젝트 유형에 대한 액세�
 
 Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를 요청할 수 있습니다. Workfront 관리자 또는 개체 소유자에게 이메일을 보내 요구 사항을 설명하는 대신 Workfront 내에서 추가 액세스(또는 권한)를 요청할 수 있습니다.
 
-다른 사용자가 객체에 대한 링크를 공유하는 경우 객체에 대한 초기 액세스를 요청하거나 최소한 보는 객체에 대한 추가 액세스를 요청할 수 있습니다.
-
-예를 들어 프로젝트에 대한 보기 권한이 있을 수 있지만 해당 프로젝트에 작업을 추가해야 합니다. 이 경우 프로젝트에 Contribute 권한을 요청할 수 있습니다.
+다른 사용자가 객체에 대한 링크를 공유하는 경우 객체에 대한 초기 액세스를 요청하거나 이미 보기 권한이 있는 객체에 대한 추가 액세스를 요청할 수 있습니다. 예를 들어, 프로젝트에 대한 보기 권한이 있을 수 있지만 작업을 추가해야 합니다. 이 경우 프로젝트에 대한 기여 권한을 요청할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -49,8 +49,9 @@ Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>새로운 기능: 표준</p> 
+   <p>또는</p>
    <p>현재: 작업 시간 이상</p> 
    </td> 
   </tr> 
@@ -61,15 +62,15 @@ Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 ## 표준 공유 규칙 이해
 
-다음 표준 공유 규칙은 Workfront 시스템에서 기본 옵션으로 설정되므로 자동으로 적용됩니다.
+다음 표준 공유 규칙은 Workfront 시스템의 기본 옵션이며 자동으로 적용됩니다.
 
-* 작업 또는 문제에 할당된 사용자에게는 Contribute 액세스 권한이 있습니다.
+* 작업 또는 문제에 할당된 사용자에게 기여 액세스 권한이 있습니다.
 * 프로젝트, Portfolio 및 프로그램 관리자는 자신이 소유한 객체에 대한 관리 액세스 권한을 가집니다.
 * 대화에 포함된 사용자는 대화가 발생하는 오브젝트에 대한 보기 액세스 권한을 갖습니다.
 * 승인자로 할당된 사용자는 승인 대기 중인 오브젝트에 대한 보기 액세스 권한을 갖습니다.
@@ -85,22 +86,22 @@ Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를
 
 ### 초기 액세스 요청  {#request-initial-access}
 
-오브젝트에 대한 액세스 권한이 없는 경우 링크에서 해당 오브젝트로 이동하면 정보를 볼 수 있는 액세스 권한이 없음을 알리는 화면이 표시됩니다.
+객체에 대한 액세스 권한이 없는 경우 링크에서 해당 객체로 이동하면 정보를 볼 수 있는 액세스 권한이 없음을 알리는 화면이 표시됩니다.
 
 객체에 대한 초기 액세스를 요청하려면 다음을 수행합니다.
 
-1. **액세스 요청**&#x200B;을 클릭합니다.\
-   **액세스 요청** 대화 상자가 표시됩니다.
+1. **액세스 요청**&#x200B;을 클릭합니다. **액세스 요청** 대화 상자가 표시됩니다.
 
-1. (조건부) 추가 액세스 권한을 부여할 수 있는 적절한 액세스 권한이 두 명 이상의 사용자에게 있는 경우 사용자 이름 옆에 드롭다운 화살표가 표시됩니다. 드롭다운 목록에서 액세스 요청을 수신할 사용자를 선택합니다.
+1. (조건부) 추가 액세스 권한을 부여할 수 있는 적절한 액세스 권한이 두 명 이상의 사용자에게 있는 경우 사용자 이름 옆에 드롭다운 화살표가 표시됩니다. 드롭다운 목록에서 액세스 요청을 받을 사용자를 선택합니다.
 
-   10명의 사용자만 드롭다운 목록에 표시됩니다. 목록은 알파벳순으로 정렬됩니다.\
-   이 드롭다운 메뉴에 나열된 사용자 순서에 대한 자세한 내용은 [액세스 권한 요청 및 액세스 권한 추가 요청 드롭다운 메뉴의 계층 구조](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)를 참조하십시오.
+   10명의 사용자만 드롭다운 목록에 표시되며, 이 드롭다운 목록은 알파벳순으로 정렬됩니다. 이 드롭다운 메뉴에 나열된 사용자 순서에 대한 자세한 내용은 [액세스 권한 요청 및 액세스 권한 추가 요청 드롭다운 메뉴의 계층 구조](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)를 참조하십시오.
 
 1. 드롭다운 목록에서 요청하는 액세스 유형을 선택합니다.
-1. (선택 사항) **P.S.** 필드에 추가 액세스 권한이 필요한 이유에 대해 사용자에게 메모를 지정합니다.
+1. (선택 사항) **P.S.** 필드에 추가 액세스가 필요한 이유에 대한 메모를 입력합니다.
 
    ![액세스 요청 대화 상자](assets/request-access-to-project.png)
+
+1. **액세스 요청**&#x200B;을 클릭합니다.
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -113,40 +114,37 @@ For example, if you do not have portfolio access, but you were given a link to a
 
 이미 제한된 액세스 권한이 있는 객체에 대한 추가 액세스를 요청하려면 다음을 수행합니다.
 
-1. 추가 액세스를 요청할 객체로 이동합니다.
+1. 추가 액세스를 요청할 개체로 이동합니다.
 
 1. 프로젝트 이름의 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **추가 액세스 요청**&#x200B;을 클릭합니다.
 
    ![추가 액세스 요청](assets/more-menu-request-more-access.png)
 
-1. (조건부) 추가 액세스 권한을 부여할 수 있는 적절한 액세스 권한이 두 명 이상의 사용자에게 있는 경우 사용자 이름 옆에 드롭다운 화살표가 표시됩니다.
-1. 드롭다운 목록에서 액세스 요청을 수신할 사용자를 선택합니다.\
-   10명의 사용자만 드롭다운 목록에 표시됩니다. 목록은 알파벳순으로 정렬됩니다.\
-   이 드롭다운 메뉴에 나열된 사용자 순서에 대한 자세한 내용은 [액세스 권한 요청 및 액세스 권한 추가 요청 드롭다운 메뉴의 계층 구조](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)를 참조하십시오.
+1. (조건부) 추가 액세스 권한을 부여할 수 있는 적절한 액세스 권한이 두 명 이상의 사용자에게 있는 경우 사용자 이름 옆에 드롭다운 화살표가 표시됩니다. 드롭다운 목록에서 액세스 요청을 받을 사용자를 선택합니다.
+
+   10명의 사용자만 드롭다운 목록에 표시되며, 이 드롭다운 목록은 알파벳순으로 정렬됩니다. 이 드롭다운 메뉴에 나열된 사용자 순서에 대한 자세한 내용은 [액세스 권한 요청 및 액세스 권한 추가 요청 드롭다운 메뉴의 계층 구조](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)를 참조하십시오.
 
 1. 드롭다운 목록에서 요청하는 액세스 수준을 선택합니다.
-1. (선택 사항) **P.S.** 필드에 추가 액세스가 필요한 이유에 대한 메모를 지정합니다.
-1. **액세스 요청**&#x200B;을 클릭합니다.
+1. (선택 사항) **P.S.** 필드에 추가 액세스가 필요한 이유에 대한 메모를 입력합니다.
 
-   미리보기 환경의 샘플 이미지:
    ![액세스 요청 대화 상자](assets/request-access-to-project.png)
 
-## &quot;액세스 요청&quot; 및 &quot;추가 액세스 요청&quot; 드롭다운 메뉴의 계층 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
+1. **액세스 요청**&#x200B;을 클릭합니다.
+
+## 액세스 요청 및 액세스 권한 추가 요청 드롭다운 메뉴의 계층 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
 * [액세스 요청 및 액세스 권한 추가 요청 드롭다운 메뉴에 나열된 사용자 계층 구조 이해](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
 * [오브젝트의 소유자 이해](#understand-the-owner-of-an-object)
 
 ### 액세스 요청 및 액세스 권한 추가 요청 드롭다운 메뉴에 나열된 사용자 계층 구조 이해 {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
 
-Workfront은 개체에 &quot;액세스 요청&quot; 또는 &quot;추가 액세스 요청&quot; 목록을 채울 때 아래 설명된 대로 개체 공유에 대한 다양한 역할을 수행하는 최대 10명의 사용자 목록을 선택합니다. 이러한 사용자는 객체를 요청하는 사용자에게 객체에 대한 액세스 권한을 부여할 수 있습니다.\
-그런 다음 결과 목록이 이름별로 오름차순으로 정렬됩니다.\
-Workfront은 &quot;액세스 요청&quot; 및 &quot;추가 액세스 요청&quot; 목록에 최대 10명의 사용자를 표시합니다.
+Workfront은 객체에 대해 액세스 요청 또는 액세스 권한 추가 요청 목록을 채울 때 요청하는 사용자에게 객체 액세스 권한을 부여할 수 있는 다양한 역할을 수행하는 최대 10명의 사용자 목록을 선택합니다. 그런 다음 결과 목록이 이름별로 오름차순으로 정렬됩니다.
 
-&quot;액세스 요청&quot; 또는 &quot;추가 액세스 요청&quot; 드롭다운 메뉴의 사용자 순서는 다음 규칙에 따라 결정됩니다.
+액세스 요청 또는 추가 액세스 요청 드롭다운의 사용자 순서는 다음 규칙에 따라 다릅니다.
 
 * [개체 소유자 이해](#understand-the-owner-of-an-object)에 설명된 대로 목록의 첫 번째 사용자는 &quot;소유자&quot; 개체입니다.
-* 그러면 객체가 개별적으로 공유되는 사용자로 목록이 채워집니다. 그들은 알파벳순으로 나열되어 있다.
-* 그러면 목록이 팀, 그룹 또는 회사와의 공유를 통해 필요한 액세스 권한을 받는 사용자로 더 채워집니다. 그들은 알파벳순으로 나열되어 있다.
+* 그러면 목록이 객체가 개별적으로 공유되는 사용자로 채워집니다. 그들은 알파벳순으로 나열되어 있다.
+* 그러면 목록이 팀, 그룹 또는 회사와의 공유를 통해 필요한 액세스 권한을 받는 사용자로 추가로 채워집니다. 그들은 알파벳순으로 나열되어 있다.
 * 목록이 비어 있으면 항상 액세스 권한을 요청할 사용자가 있도록 Workfront 관리자가 추가됩니다. 그들은 알파벳순으로 나열되어 있다.
 * 목록에 있는 각 사용자는 요청된 개체 액세스 권한과 개체 공유 액세스 권한이 있어야 합니다.
 
@@ -186,7 +184,7 @@ Workfront은 &quot;액세스 요청&quot; 및 &quot;추가 액세스 요청&quot
   </tr> 
   <tr> 
    <td>보고서 및 대시보드</td> 
-   <td>소유자는 작성자이거나 보고서 또는 대시보드입니다. </td> 
+   <td>소유자는 보고서 또는 대시보드의 작성자입니다. </td> 
   </tr> 
   <tr> 
    <td>캘린더</td> 
