@@ -6,23 +6,27 @@ description: ' [!DNL Microsoft Teams] 의  [!DNL Adobe WorkfrontWorkfront] 채�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft Teams]에서 [!DNL Adobe Workfront]개 항목 검색 및 공유
 
+<!--
+
 >[!NOTE]
 >
->2025년 7월 1일부터 Microsoft은 Classic Teams 데스크탑 앱에 대한 지원을 제거합니다. 따라서 Classic Teams 데스크탑 앱을 더 이상 사용할 수 없게 되면 Microsoft Teams과의 Workfront 통합이 지원되지 않게 됩니다.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
 
-의 [!DNL Microsoft Teams] 모든 [!DNL Adobe Workfront] 채널에서 항목을 검색 [!DNL Workfront] 하고 이러한 항목을 팀 구성원과 공유할 수 있습니다.
+-->
 
-* [에서 항목을 공유 [!DNL Workfront] 하기 위한 전제 조건 [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
-* [Search 및 공유 [!DNL Workfront] 위치 [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
+[!DNL Microsoft Teams]의 [!DNL Adobe Workfront] 채널에서 [!DNL Workfront]개 항목을 검색하고 해당 항목을 팀의 구성원과 공유할 수 있습니다.
+
+* [ [!DNL Microsoft Teams]의  [!DNL Workfront] 항목 공유를 위한 필수 구성 요소](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
+* [ [!DNL Microsoft Teams]에서  [!DNL Workfront] 개 항목 검색 및 공유](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
 
 ## 액세스 요구 사항
 
@@ -33,8 +37,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 계획*</td> 
-   <td> <p>어떤</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
@@ -47,16 +51,16 @@ ht-degree: 0%
 
 ## [!DNL Microsoft Teams]에서 [!DNL Workfront]개 항목을 공유하기 위한 필수 구성 요소 {#prerequisites-for-sharing-workfront-items-in-microsoft-teams}
 
-다음 조건이 충족되면 항목을 [!DNL Microsoft Teams] 검색 및 공유할 [!DNL Workfront] 수 있습니다.
+다음 조건이 충족되는 경우 [!DNL Microsoft Teams]에서 [!DNL Workfront]개 항목을 검색하고 공유할 수 있습니다.
 
-* 팀 팀 소유자가 설치 및 구성 [!DNL Workfront for Microsoft Teams] 되었습니다.
-* Microsoft Teams]에서 [!UICONTROL 로그인했습니다[!DNL Workfront].
+* 팀 소유자가 귀하의 팀에 대해 [!DNL Workfront for Microsoft Teams]을(를) 설치하고 구성했습니다.
+* [!UICONTROL Microsoft Teams]에서 [!DNL Workfront]에 로그인했습니다.
 
-Workfront for Microsoft Teams를 설치하고 [!UICONTROL 에서 [!DNL Microsoft Teams]Workfront]에 [!UICONTROL 로깅 하는 방법에 대한 자세한 내용은 Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)용 Adobe Systems Workfront 설치를 참조하십시오[.]
+[!UICONTROL Microsoft Teams용 Workfront]을 설치하고 [!DNL Microsoft Teams]에서 [!UICONTROL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Microsoft Teams용 Adobe Workfront 설치](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] 더 이상 를 지원하지 [!DNL Internet Explorer]않습니다. 을 [!DNL Adobe Workfront for Microsoft Teams integration]&#x200B;(를) 사용하려면 가 아닌 [!DNL Internet Explorer]다른 웹 브라우저()를 사용해야 합니다.
+>[!DNL Microsoft Teams]은(는) 더 이상 [!DNL Internet Explorer]을(를) 지원하지 않습니다. [!DNL Adobe Workfront for Microsoft Teams integration]을(를) 사용하려면 [!DNL Internet Explorer] 이외의 웹 브라우저를 사용해야 합니다.
 
 
 ## [!DNL Microsoft Teams]에서 [!DNL Workfront]개 항목 검색 및 공유 {#search-for-and-share-workfront-items-in-microsoft-teams}
@@ -72,14 +76,14 @@ Workfront for Microsoft Teams를 설치하고 [!UICONTROL 에서 [!DNL Microsoft
 
 * 문제
 
-검색한 항목을 찾으면 에서 다른 사용자와 [!DNL Microsoft Teams]공유할 수 있습니다.
+검색한 항목을 찾으면 [!DNL Microsoft Teams]의 다른 사용자와 공유할 수 있습니다.
 
-항목을 [!DNL Microsoft Teams] 검색 [!DNL Workfront] 및 다른 사람과 공유하려면:
+[!DNL Microsoft Teams]에서 [!DNL Workfront] 항목을 검색하고 다른 사용자와 공유하려면 다음을 수행하십시오.
 
-1. 에서 [!DNL Microsoft Teams]채팅 채널로 이동하여 아이콘을 클릭합니다 **[!DNL Workfront]** .
-1. [!DNL Workfront] 다음 중 하나를 수행하여 항목을 Search.
+1. [!DNL Microsoft Teams]에서 채팅 채널로 이동하여 **[!DNL Workfront]** 아이콘을 클릭합니다.
+1. 다음 중 하나를 수행하여 [!DNL Workfront] 항목을 검색합니다.
 
-   * 대화 필드 아래에 있는 [!DNL Workfront] 아이콘을 클릭합니다.\
+   * 대화 필드 아래의 [!DNL Workfront] 아이콘을 클릭합니다.\
 
      ![ms_teams_workfront_pinned_icon_highlight.png](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)\
       설정에 따라 이 아이콘이 **[!UICONTROL 자세히]** 아이콘 아래에 대신 표시될 수 있습니다.\
@@ -90,13 +94,13 @@ Workfront for Microsoft Teams를 설치하고 [!UICONTROL 에서 [!DNL Microsoft
 
      ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
 
-1. [!UICONTROL 제공된 검색] 상자에 프로젝트, 작업 또는 문제점의 이름이나 참조 번호를 입력하기 시작하고 목록에 나타나면 클릭합니다.\
-   ![ms_teams_searching_for_items.png](assets/ms-teams-searching-for-items-350x359.png)\
-   이렇게 하면 채팅 필드에 항목이 있는 [!DNL Workfront] 카드 가 추가됩니다. 항목에 대한 일부 정보(예: 항목 이름, 상위 개체, 상태, 우선 순위, 완료율)가 카드 내에 포함됩니다.
+1. 제공된 [!UICONTROL 검색] 상자에서 프로젝트, 작업 또는 문제의 이름 또는 참조 번호를 입력하고 목록에 나타나면 클릭합니다.\
+   ![ms_teams_search_for_items.png](assets/ms-teams-searching-for-items-350x359.png)\
+   채팅 필드에 [!DNL Workfront] 항목이 있는 카드가 추가됩니다. 항목 이름, 상위 개체, 상태, 우선 순위, 완료율 등 항목에 대한 일부 정보가 카드에 포함되어 있습니다.
 
-1. (선택 사항) 카드 아래에 댓글을 [!DNL Workfront] 추가한 다음 &#39;보내기&#x200B;]**&#39;를 클릭**[!UICONTROL &#x200B;하거나 Enter 키를 누릅니다.\
-   이렇게 하면 항목을 포함한 [!DNL Workfront] 메시지가 채널로 전송됩니다.\
-   채널의 모든 구성원은 카드 정보를 [!DNL Workfront] 포함하여 이 메시지를 볼 수 있습니다.
+1. (선택 사항) [!DNL Workfront] 카드 아래에 주석을 추가한 다음 **[!UICONTROL 보내기]**&#x200B;를 클릭하거나 Enter 키를 누릅니다.\
+   [!DNL Workfront] 항목을 포함하는 메시지를 채널로 보냅니다.\
+   [!DNL Workfront] 카드에 대한 정보를 포함하여 채널의 모든 구성원이 이 메시지를 볼 수 있습니다.
 
 1. [!DNL Workfront]에서 항목을 보려면 **[!UICONTROL Workfront에서 보기]**&#x200B;를 클릭하십시오.\
    [!DNL Workfront] 라이선스가 있는 사용자만 [!DNL Workfront]에서 항목을 볼 수 있습니다.

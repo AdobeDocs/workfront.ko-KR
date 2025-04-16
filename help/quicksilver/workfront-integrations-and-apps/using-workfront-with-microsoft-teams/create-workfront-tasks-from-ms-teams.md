@@ -2,22 +2,26 @@
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: ' [!DNL Microsoft] 팀에서  [!DNL Adobe Workfront] 작업 만들기'
-description: 팀 소유자가 팀 위해 Microsoft Teams용으로 설치 및 구성 [!DNL Workfront] 되었으며 Microsoft Teams에서 Workfront에 로그인한 경우 Microsoft Teams에서 Adobe Systems [!DNL Workfront] 개인 작업을 만들 수 있습니다.
+description: 팀 소유자가 귀하의 팀에 대해 Adobe을 설치 및 구성 [!DNL Workfront] 했으며 귀하가 Microsoft Teams에서 Workfront에 로그인한 경우 Microsoft TeamsMicrosoft Teams 에서  [!DNL Workfront] 개인 작업을 만들 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] 작업 만들기 위치[!DNL Microsoft Teams]
+# [!DNL Microsoft Teams]에서 [!DNL Adobe Workfront]개 작업 만들기
+
+<!--
 
 >[!NOTE]
 >
->2025년 7월 1일부터 Microsoft는 클래식 Teams 데스크탑 앱에 대한 지원을 제거합니다. 따라서 클래식 Teams 데스크탑 앱을 더 이상 사용할 수 없게 된 후에는 Microsoft Teams와의 Workfront 통합이 지원되지 않습니다.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 ## 액세스 요구 사항
 
@@ -44,8 +48,8 @@ ht-degree: 0%
 
 다음 조건이 충족되는 경우 [!DNL Microsoft Teams]의 [!DNL Adobe Workfront]에서 개인 작업을 만들 수 있습니다.
 
-* 팀 팀 소유자가 설치 및 구성 [!DNL Workfront for Microsoft Teams] 되었습니다.
-* 에서 [!DNL Microsoft Teams]로그인 [!DNL Workfront] 했습니다.
+* 팀 소유자가 귀하의 팀에 대해 [!DNL Workfront for Microsoft Teams]을(를) 설치하고 구성했습니다.
+* [!DNL Microsoft Teams]에서 [!DNL Workfront]에 로그인했습니다.
 
 >[!NOTE]
 >
@@ -62,12 +66,12 @@ ht-degree: 0%
 1. **[!UICONTROL 새 작업]** 카드를 열려면:
 
    * [!DNL Workfront] 봇 채팅 채널에 있는 경우 [!UICONTROL 대화] 필드에 **[!UICONTROL 새 작업]**&#x200B;을 입력하여 새 작업을 만드십시오.
-   * 보트 채팅 채널 이외의 [!DNL Workfront] 채팅 채널에 있는 경우:
+   * [!DNL Workfront] 보트 채팅 채널 이외의 채팅 채널에 있는 경우:
 
-      * 대화] 필드에 입력 **[!DNL @workfront]** 을 [!UICONTROL 시작 한 다음, 원하는 보트 채널을 선택합니다[!DNL Workfront].
-      * 대화] 필드에 새로 만들기 작업을 **계속 입력하여**[!UICONTROL &#x200B;새 작업을 생성합니다.
+      * [!UICONTROL 대화] 필드에 **[!DNL @workfront]**&#x200B;을(를) 입력한 다음 원하는 [!DNL Workfront] 봇 채널을 선택하십시오.
+      * [!UICONTROL 대화] 필드에 **[!UICONTROL 새 작업]**&#x200B;을(를) 계속 입력하여 새 작업을 만듭니다.
 
-        [!UICONTROL 새로 만들기 작업] 카드가 보트 채널에 [!DNL Workfront] 표시됩니다.
+        [!UICONTROL 새 작업] 카드가 [!DNL Workfront] 봇 채널에 표시됩니다.
 
         ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
@@ -81,7 +85,7 @@ ht-degree: 0%
 
    새 개인 작업이 [!DNL Workfront]에 만들어졌습니다. [!UICONTROL 참조 번호]이(가) 할당되어 [!UICONTROL 새 작업] 카드에 표시됩니다.
 
-   참조 번호에 대한 자세한 내용은 개체 이해 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 문서의 개체의](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) 참조 번호] 섹션을 [참조하세요[[!UICONTROL .
+   참조 번호에 대한 자세한 내용은 [개체 이해 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 문서에서 [[!UICONTROL 개체의 참조 번호]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) 섹션을 참조하십시오.
 
-1. (선택 사항) 편집(Edit ]**)을 클릭하여**[!UICONTROL &#x200B;작업 정보를 추가로 편집합니다.
-1. (선택 사항) 보기 인을 [!DNL Workfront]]**클릭하여**[!UICONTROL &#x200B;새 탭 [!DNL Workfront] 에서 작업을 열고 작업을 추가로 편집하거나, 프로젝트로 이동하거나, 다른 사람에게 할당합니다.
+1. (선택 사항) 작업 정보를 추가로 편집하려면 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+1. (선택 사항) [!DNL Workfront]의 새 탭에서 작업을 열고 추가로 작업을 편집하거나, 프로젝트로 이동하거나, 다른 사람에게 할당하려면 [!DNL Workfront]]**의**[!UICONTROL &#x200B;보기를 클릭합니다.

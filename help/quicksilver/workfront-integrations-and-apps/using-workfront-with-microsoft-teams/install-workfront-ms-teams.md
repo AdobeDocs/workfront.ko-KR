@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront for Microsoft Teams] 앱을 사용하면  [
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
+<!--
+
 >[!IMPORTANT]
 >
->2025년 7월 1일부터 Microsoft은 Classic Teams 데스크탑 앱에 대한 지원을 제거합니다. 따라서 Classic Teams 데스크탑 앱을 더 이상 사용할 수 없게 되면 Microsoft Teams과의 Workfront 통합이 지원되지 않게 됩니다.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 
 [!DNL Adobe Workfront for Microsoft Teams] 앱을 사용하면 [!DNL Microsoft Teams] 채팅 채널을 떠나지 않고 [!DNL Workfront]에서 기본 작업을 수행할 수 있습니다.
