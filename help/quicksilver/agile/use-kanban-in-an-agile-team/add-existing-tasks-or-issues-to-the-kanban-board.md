@@ -6,7 +6,7 @@ description: 프로젝트에 대한 관리 액세스 권한이 있는 경우 Kan
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
+source-git-commit: bf79bc8fd3e25ff1bae404700ca27973a8b2307d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -65,6 +65,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >여러 팀이 작업 또는 문제에 할당된 경우 작업 항목이 한 팀의 [!DNL kanban] 보드에만 표시될 수 있습니다.
+
 1. **추가**&#x200B;를 클릭합니다.
 
 
@@ -82,6 +83,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >여러 팀이 작업 또는 문제에 할당된 경우 작업 항목이 한 팀의 [!DNL kanban] 보드에만 표시될 수 있습니다.
+
 1. **추가**&#x200B;를 클릭합니다.
 
 
