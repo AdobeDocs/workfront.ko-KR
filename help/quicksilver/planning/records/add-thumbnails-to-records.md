@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '975'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 레코드에 썸네일 추가
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 
 {{planning-important-intro}}
@@ -86,7 +86,7 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역 <!--<span class="preview">and record type</span>-->에 대한 권한 이상 제공  </p>  
+   <td>   <p>작업 영역 <span class="preview"> 및 레코드 종류</span>에 대한 권한 이상 제공  </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> </td> 
   </tr> 
 <tr> 
@@ -213,8 +213,6 @@ ht-degree: 1%
    >   이 보기에서 썸네일을 표시하려면 표 보기에서 썸네일 필드를 활성화해야 합니다. 기본적으로 비활성화되어 있습니다.
 
 1. (선택 사항) 썸네일 저장 후 썸네일을 제거하려면 보기에서 레코드를 클릭하여 세부 정보 페이지를 연 다음 썸네일 이미지 위로 마우스를 가져간 다음 **추가** 메뉴 ![추가 메뉴 아이콘](assets/more-menu.png)> **제거** 아이콘 ![제거 아이콘](assets/remove-image-icon.png)을 클릭합니다. 썸네일 이미지가 제거됩니다.
-
-
 
 
 <!--

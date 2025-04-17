@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
+<!--take out preview and production references at release-->
+
 # 레코드 공유
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
-<!--take out preview and production references at release-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -34,22 +34,17 @@ ht-degree: 1%
 
 * 레코드 유형의 표 보기에서 레코드를 볼 때 레코드의 페이지에 대한 링크를 복사합니다.
 
-* 작업 영역 <!--<span class="preview">and record type</span>-->을(를) 공유하여 작업 영역의 모든 레코드를 다른 사용자와 공유할 수 있습니다. 자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
+* 작업 영역 <span class="preview">과(와) 레코드 종류를 공유하여 작업 영역의 모든 레코드를 다른 사용자와 공유할 수 있습니다.</span>
 
-<!-- replace the last sentence above with this: 
+  자세한 내용은 다음 문서를 참조하십시오.
 
-For more information see the following articles:
+   * [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)
 
-* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+  <div class="preview">
 
+   * [레코드 유형 공유](/help/quicksilver/planning/access/share-record-types.md)
 
-<div class="preview">
-
-* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
-
-</div>
-
--->
+  </div>
 
 이 문서에서는 레코드 유형의 표 보기에서 레코드 페이지에 링크를 복사하는 방법에 대해 설명합니다.
 
@@ -109,8 +104,8 @@ For more information see the following articles:
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>  <p>링크를 사용하여 <!--<span class="preview">and record type</span>-->개의 레코드를 공유할 수 있는 작업 영역에 대한 이상의 권한을 봅니다. </p>
-   <p><!--<span class="preview">and record type</span>--> 작업 영역에 대한 권한을 관리하여 작업 영역의 레코드를 공유합니다. </p>
+   <td>  <p>공유할 작업 영역 <span class="preview"> 및 레코드 종류</span>에 대한 이상의 권한 보기   링크를 사용하는 레코드 </p>
+   <p>작업 영역의 레코드를 공유할 수 있는 <span class="preview"> 작업 영역 및 </span> 레코드 유형에 대한 권한을 관리합니다. </p>
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
   </tr> 
 <tr> 
@@ -220,26 +215,23 @@ For more information see the following articles:
 자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
 
 
-<!--
 <div class="preview">
 
-## Share all records in a record type by sharing the record type
+## 레코드 유형을 공유하여 레코드 유형의 모든 레코드 공유
 
-In the Production environment, records inherit permissions from the workspace. 
+프로덕션 환경에서 레코드는 작업 영역에서 권한을 상속합니다.
 
-In the Preview environment, records inherit permissions from the record type. 
+미리보기 환경에서 레코드는 레코드 유형에서 권한을 상속합니다.
 
-By default, record types inherit permissions from the workspace. 
+기본적으로 레코드 유형은 작업 영역에서 권한을 상속합니다.
 
-However, you can do any of the following:
+하지만 다음 중 원하는 작업을 수행할 수 있습니다.
 
-* Turn off inherited permissions from the workspace on a record type. This removes permissions from the records. 
-* Manually grant permissions to users to a record type, even when they have no permissions to the workspace. This automatically gives them View permissions to the workspace. This grants permissions to users to the records. 
+* 레코드 종류에 대한 작업 공간에서 상속된 권한을 비활성화합니다. 이렇게 하면 레코드에 대한 더 높은 권한이 제거되지만 작업 영역, 레코드 유형 및 레코드에 대한 보기 권한이 유지됩니다.
+* 작업 영역에 대한 권한이 없는 사용자에게도 레코드 유형에 대한 권한을 수동으로 부여합니다. 그러면 작업공간에 대한 보기 권한이 자동으로 부여됩니다. 사용자에게 레코드에 대한 권한을 부여합니다.
 
-Only users with Manage permissions to a workspace can share its record types and records with others. 
+작업 영역에 대한 관리 권한이 있는 사용자만 해당 레코드 유형 및 레코드를 다른 사용자와 공유할 수 있습니다.
 
-For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+자세한 내용은 [레코드 종류 공유](/help/quicksilver/planning/access/share-record-types.md)를 참조하세요.
 
 </div>
-
--->

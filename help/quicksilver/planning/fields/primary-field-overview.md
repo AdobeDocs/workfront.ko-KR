@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 기본 필드 개요
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -53,4 +53,4 @@ ht-degree: 0%
 * 테이블 보기의 기본 필드를 변경하면 기본 필드를 선택하는 다른 모든 사용자의 보기에 영향을 줍니다.
 * 표 보기에서 기본 필드를 변경하면 레코드 유형의 모든 표 보기에 영향을 줍니다.
 * 기본 필드에 나열된 값은 항상 레코드의 페이지에 하이퍼링크됩니다.
-* 작업 영역 <!--<span class="preview">and record type</span>-->에 대한 기여 이상의 권한이 있는 경우 수식 필드를 제외한 기본 필드의 값을 편집할 수 있습니다. 공식은 자동으로 업데이트되는 계산입니다.
+* 작업 영역 <span class="preview">과(와) 레코드 종류</span>에 대한 기여 이상의 권한이 있는 경우 수식 필드를 제외한 기본 필드의 값을 편집할 수 있습니다. 공식은 자동으로 업데이트되는 계산입니다.

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1863'
 ht-degree: 1%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 1%
 
 # Workfront 개체에서 레코드 연결 관리
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
 {{planning-important-intro}}
 
 연결된 오브젝트의 다음 영역에 Workfront에서 Workfront Planning 레코드를 표시할 수 있습니다.
 
 * Workfront 객체의 계획 섹션: 객체에 연결된 모든 레코드 유형과 해당 연결된 레코드를 표시합니다.
-* Planning 연결 사용자 정의 필드: 하나의 레코드 유형, 각 연결된 레코드, <span class="preview">및 연결된 레코드의 최대 7개의 조회 필드를 표시합니다.</span>
+* Planning 연결 사용자 정의 필드: 하나의 레코드 유형, 각 연결된 레코드 및 연결된 레코드의 최대 7개의 조회 필드를 표시합니다.
 
 ## 액세스 요구 사항
 
@@ -94,9 +94,9 @@ ht-degree: 1%
    <p>Workfront에서 프로젝트, 포트폴리오 또는 프로그램에 대한 권한 보기 이상</a> </p> 
    <p>Workfront Planning에서:
    <ul><li>
-   연결된 레코드를 볼 수 있는 <!--<span class="preview">and record type</span>--> 작업 영역에 대한 권한을 봅니다. </li>
+   연결된 레코드를 볼 수 있는 작업 영역 <span class="preview"> 및 레코드 종류</span>에 대한 권한을 봅니다. </li>
    또는
-   <li> <!--<span class="preview">and record type</span>--> 작업 영역에 기록 연결 또는 연결을 끊을 수 있는 이상의 권한을 제공하십시오.</a></li></ul> </p>  
+   <li> 레코드를 연결하거나 연결을 끊을 수 있도록 작업 영역 <span class="preview"> 및 레코드 종류</span>에 대한 권한 이상을 제공하십시오.</a></li></ul> </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 Workfront Planning 작업 영역에 대한 권한을 가집니다</p> 
   </td>
   </tr>
@@ -211,7 +211,7 @@ Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를
 * Planning 레코드가 Workfront 객체에 연결된 후 Planning 연결 필드가 Workfront 객체의 사용자 정의 양식에 다음과 같이 표시됩니다.
 
    * 연결된 레코드의 기본 필드만 선택한 경우, 연결에 의해 여러 레코드가 연결될 수 있는 경우 Planning 연결 필드는 여러 값이 있는 필드로 표시됩니다. 자세한 내용은 [레코드 종류 연결 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
-   * <span class="preview">Workfront 또는 그룹 관리자가 사용자 정의 양식의 연결된 레코드에서 조회 필드를 추가한 경우 Planning 연결 필드가 표로 표시됩니다. Planning 연결 필드에 대해 최대 7개의 필드를 선택할 수 있습니다. 테이블 보기는 읽기 전용입니다.  </span>
+   * Workfront 또는 그룹 관리자가 사용자 정의 양식에 연결된 레코드에서 추가 조회 필드를 추가한 경우 Planning 연결 필드가 표로 표시됩니다. Planning 연결 필드에 대해 최대 7개의 필드를 선택할 수 있습니다. 테이블 보기는 읽기 전용입니다.
 
 * 하나의 레코드 유형만 하나의 Planning 연결 필드에 연결할 수 있습니다. 양식에 있는 Planning 연결 필드 수에는 제한이 없습니다.
 * Planning 연결 사용자 정의 필드가 있는 사용자 정의 양식을 Workfront 객체에 첨부하려면 객체, 레코드 및 Workfront Planning에 대한 올바른 액세스 및 권한이 있어야 합니다.
@@ -261,11 +261,16 @@ Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를
    * 레코드는 즉시 Workfront 개체에 연결되고 Workfront 개체의 Planning 섹션과 Planning 연결 필드에 표시됩니다.
    * Workfront 개체가 Workfront Planning 레코드의 연결된 필드에 추가됩니다.
    * 계획 레코드에 연결된 Workfront 조회 필드의 값은 Workfront Planning에서 채워집니다.
-   * <span class="preview">Workfront 또는 그룹 관리자가 사용자 정의 양식을 만들 때 레코드 조회 필드를 추가한 경우 해당 레코드의 조회 필드가 표 보기에 자동으로 채워집니다. Planning 연결 필드의 테이블 보기가 읽기 전용입니다.</span>
+   * Workfront 또는 그룹 관리자가 사용자 정의 양식을 만들 때 레코드 조회 필드를 추가한 경우 레코드의 조회 필드가 표 보기에 자동으로 채워집니다. Planning 연결 필드의 테이블 보기는 읽기 전용입니다.
 
      ![프로젝트 세부 정보 사용자 정의 양식의 테이블이 있는 연결 필드 계획](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
-1. (선택 사항) 레코드 이름 <span class="preview">을(를) 클릭하거나 테이블에 있는 레코드 이름을 마우스로 가리킨 다음 Planning 연결 필드의 **레코드 열기** 아이콘 ![Planning 연결 사용자 정의 양식에 있는 레코드 열기 아이콘](assets/open-record-icon-on-planning-connection-custom-form.png)</span>을(를) 클릭하여 Workfront Planning에서 엽니다.
+     >[!NOTE]
+     >
+     >조회 필드가 사용자 정의 양식의 Planning 연결 필드에 추가된 경우에만 테이블 보기가 표시됩니다.
+
+
+1. (선택 사항) 레코드 이름을 클릭하거나 테이블의 레코드 이름을 마우스로 가리킨 다음, Planning 연결 필드에서 **레코드 열기** 아이콘 ![Planning 연결 사용자 정의 양식의 레코드 열기 아이콘](assets/open-record-icon-on-planning-connection-custom-form.png)을 클릭하여 Workfront Planning에서 엽니다.
 Workfront Planning 레코드 세부 정보 미리 보기 상자가 열립니다.
 1. 레코드에 대한 정보를 검토하거나 편집하거나 **새 탭에서 열기** 아이콘 ![새 탭에서 레코드 열기](assets/open-details-in-a-new-tab-icon.png)를 클릭하여 레코드 세부 정보 페이지를 엽니다.
 

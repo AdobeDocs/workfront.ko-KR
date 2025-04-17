@@ -1,26 +1,26 @@
 ---
 title: 레코드 페이지 내보내기
-description: 레코드의 미리 보기 또는 세부 정보 페이지를 Word로 내보낼 수 있습니다.
+description: 레코드의 미리 보기 또는 세부 사항 페이지를 Adobe Workfront Planning에서 Microsoft Word 파일로 내보낼 수 있습니다.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '553'
 ht-degree: 1%
 
 ---
 
 # 레코드의 세부 사항 내보내기
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
 
-Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로 공동 작업하려면 레코드의 세부 사항을 파일로 내보내고 해당 사용자와 공유할 수 있습니다.
+Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로 공동 작업하려면 레코드의 세부 사항 페이지를 Microsoft Word 파일로 내보내 공유할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -78,7 +78,7 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역 <!--<span class="preview">and record type</span>--> </a>에 대한 이상의 권한 보기 </p>  
+   <td>   <p>작업 영역 <span class="preview"> 및 레코드 종류</span></a>에 대한 권한 이상 보기 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> </td> 
   </tr> 
 <tr> 

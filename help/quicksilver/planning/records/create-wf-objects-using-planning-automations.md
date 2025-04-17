@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2202'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 2%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 활성화된 경우 Planning 레코드에서 트리거될 때 Adobe Workfront Planning의 객체 또는 Workfront Planning의 레코드를 생성하도록 Workfront Planning에서 자동화를 구성할 수 있습니다. 생성된 개체 또는 레코드는 자동화를 트리거하는 레코드에 자동으로 연결됩니다.
 
@@ -102,7 +102,7 @@ Workfront Planning에서 자동화를 사용하여 다음을 생성할 수 있�
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td> <p>자동화를 만들려면 작업 영역에 대한 권한을 관리합니다. </p>
-   <p>기존 자동화를 사용하여 개체를 만들려는 작업 영역 <!--<span class="preview">and to the record type</span>-->에 대해 또는 그 이상의 권한을 제공하십시오. </p>  
+   <p>기존 자동화를 사용하여 개체를 만들려는 작업 영역 <span class="preview">과(와) 레코드 종류</span>에 대해 또는 그 이상의 권한을 제공하십시오. </p>  
    <p>하위 개체(프로그램 또는 프로젝트)를 추가하기 위해 Workfront 개체(포트폴리오)에 대한 권한을 관리합니다.</p>
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
    </td> 
@@ -131,7 +131,7 @@ Workfront Planning에서 자동화를 사용하여 다음을 생성할 수 있�
 
 * 새 개체 또는 레코드는 동일한 필드의 기존 개체보다 우선하지 않습니다. 동일한 레코드에 대해 동일한 자동화를 여러 번 트리거하면 이전에 만든 레코드 외에 원본 레코드의 연결된 동일한 필드에 새 개체나 레코드가 추가됩니다.
 
-<!--hide this for now; they are trying to remove this militation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
+<!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 ## Workfront Planning에서 자동화 구성
 

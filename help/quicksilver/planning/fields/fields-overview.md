@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '504'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 # 필드 개요
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 
 {{planning-important-intro}}
@@ -87,7 +87,7 @@ ht-degree: 2%
 
 * Workfront 필드는 레코드 유형을 Workfront 개체 유형과 연결하고 Workfront 개체에서 연결 또는 조회 필드를 추가하는 경우에만 Workfront Planning에서 액세스할 수 있습니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
-* 필드가 속한 작업 영역 <!--<span class="preview">and record type</span>-->에 대한 관리 권한이 있는 경우 사용자 또는 다른 사용자가 만든 필드의 설정을 보고 업데이트할 수 있습니다.
+* 작업 영역 <span class="preview">에 대한 관리 권한과 필드가 속한 레코드 종류</span>이(가) 있는 경우 사용자 또는 다른 사용자가 만든 필드의 설정을 보고 업데이트할 수 있습니다.
 
 * 하나의 레코드 유형에 대해 최대 500개의 필드가 있을 수 있습니다.
 

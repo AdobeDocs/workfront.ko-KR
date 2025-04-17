@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '972'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -83,7 +83,7 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td> <p>레코드를 추가할 작업 영역 <!--and record type-->에 대해 또는 그 이상의 권한을 제공하십시오. </p>  
+   <td> <p>레코드를 추가할 작업 영역 <span class="preview"> 및 레코드 종류</span>에 대한 또는 그 이상의 사용 권한을 제공하십시오. </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
    <p>하위 개체(프로젝트)를 추가하기 위해 Workfront 개체(포트폴리오)에 대한 권한을 관리합니다.</p>
    </td> 
@@ -128,6 +128,8 @@ ht-degree: 1%
    작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
 1. 레코드를 가져올 레코드 유형의 카드를 클릭합니다.
 1. 화면 오른쪽 상단에서 **새 레코드**&#x200B;을(를) 클릭합니다.
+
+   ![레코드 3개를 추가하는 방법 선택](assets/choose-way-to-add-records-three-button-box.png)
 1. **파일에서 업로드**&#x200B;를 클릭한 다음 **계속**&#x200B;을 클릭합니다. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. 이전에 컴퓨터에 저장한 Excel 또는 CSV 파일을 끌어서 놓거나 **CSV 또는 Excel 파일 선택**&#x200B;을 클릭하여 찾습니다.
 1. **미리 보기 및 편집**&#x200B;을 클릭합니다.

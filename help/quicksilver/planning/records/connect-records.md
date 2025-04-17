@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '3267'
+source-wordcount: '3333'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 기록 연결
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -118,8 +118,8 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>레코드를 연결할 수 있도록 <!--<span class="preview">and record type</span>--> 작업 영역에 대한 이상의 사용 권한을 제공하십시오. </p>  
-   <p>작업 영역 <!--<span class="preview">and record type</span>-->에 대한 이상의 권한을 보고 다른 응용 프로그램의 액세스 권한에 관계없이 다른 응용 프로그램의 개체 및 필드에 대한 모든 연결을 볼 수 있습니다. </p>
+   <td>   <p>레코드를 연결할 작업 영역 <span class="preview"> 및 레코드 종류</span>에 대한 또는 그 이상의 사용 권한을 제공하십시오. </p>  
+   <p>작업 영역 <span class="preview"> 및 레코드 종류</span>에 대한 이상의 권한을 보고 다른 응용 프로그램에서의 액세스 권한과 관계없이 다른 응용 프로그램의 개체 및 필드에 대한 모든 연결을 볼 수 있습니다. </p>
    <p>Workfront 또는 Experience Manager Assets에서 연결할 개체에 대한 이상의 권한을 봅니다. </p>
    <p>시스템 관리자에게는 작성하지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한이 있습니다.</p> </td> 
   </tr> 

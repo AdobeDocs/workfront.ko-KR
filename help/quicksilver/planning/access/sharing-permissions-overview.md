@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 6%
+source-wordcount: '1122'
+ht-degree: 5%
 
 ---
 
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!--remove the Prod and Preview references when we release to Prod-->
 
 # Adobe Workfront Planning의 공유 권한 개요
 
@@ -69,14 +71,9 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
 
 * 사용자
 * 그룹
-
-<div class="preview">
-
 * 팀
 * 회사
 * 작업 역할
-
-</div>
 
 <span class="preview"> 작업 공간 및 레코드 형식을 다른 사용자와 공유할 때 레코드 형식의 사용 권한 수준이 연결된 레코드 및 필드에 자동으로 상속됩니다. </span>
 
@@ -131,7 +128,7 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
 
 ### 레코드 유형 권한
 
-<!--In the Production environment,--> 작업 영역에 권한을 부여할 때 레코드 유형 권한이 <!--always-->에서 상속되었습니다.
+프로덕션 환경에서는 작업 영역에 권한을 부여할 때 레코드 유형 권한이 항상 상속됩니다.
 
 다음은 레코드 유형에 대한 권한 수준입니다.
 
@@ -143,29 +140,35 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
 | 편집 | ✓ |            |       |
 | 보기 | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
+미리보기 환경에서는 작업 영역에서 받은 레코드 유형의 상속된 권한을 제거할 수 있습니다.
 
-You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
+작업 영역에서 사용자에게 레코드 유형에 대한 사용 권한을 보다 낮게 부여할 수 있습니다.
 
-The following scenarios exist: 
+그러나 다음을 수행할 수는 없습니다.
 
-|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+* 작업 영역에서 사용자가 가지고 있는 권한보다 레코드 유형에 더 높은 권한을 부여합니다.
+* 작업 영역 관리자에게 레코드 유형에 대한 낮은 권한을 부여합니다.
+* 레코드 유형 권한에서 사용자를 제거하여 레코드 유형 또는 작업 영역에 대한 보기 권한을 제거합니다.
+
+다음과 같은 시나리오가 있습니다.
+
+| Workspace 권한 | 레코드 유형에 대해 자동으로 상속된 권한 | 상속된 권한이 꺼져 있을 때(수동으로 부여됨) 가능한 레코드 유형 권한 |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions           | 
-| Contribute |     Contribute |  Contribute, View, Remove permissions        |
-| View   |  View     |      View, Remove permissions        |     
+| 관리 | 관리 | 관리, 권한 제거* |
+| 참여 | 참여 | 참여, 보기, 권한 제거* |
+| 보기 | 보기 | 보기, 권한 제거* |
+
+>[!NOTE]
+>
+>*레코드 유형에서 권한을 제거하면 작업 영역에서 해당 권한을 제거하지 않는 한 작업 영역과 모든 레코드 유형에 대한 보기 권한이 계속 유지됩니다.
 
 </div>
 
--->
-
 ### 권한 기록
 
-레코드 권한은 <!--<span class="preview">the record type</span>, when you grant permissions to -->작업 영역<!-- and <span class="preview">the record type</span>-->에서 상속됩니다.
+작업 영역 및 <span class="preview">레코드 종류</span>에 대한 권한을 부여하면 레코드 사용 권한이 <span class="preview">레코드 종류</span>에서 상속됩니다.
 
 다음은 레코드에 대한 권한 수준입니다.
 
@@ -179,7 +182,7 @@ The following scenarios exist:
 
 ### 필드 권한
 
-필드 권한은 <!--<span class="preview">the record type</span>, when you grant permissions to -->작업 영역 <!--and <span class="preview">the record type</span>-->에서 상속됩니다.
+작업 영역 및 <span class="preview">레코드 종류</span>에 대한 권한을 부여하면 필드 권한은 <span class="preview">레코드 종류</span>에서 상속됩니다.
 
 다음 권한은 필드 자체를 참조하며 각 필드와 연결된 값은 참조하지 않습니다. 필드 값을 편집하려면 레코드를 편집할 권한이 있어야 합니다.
 

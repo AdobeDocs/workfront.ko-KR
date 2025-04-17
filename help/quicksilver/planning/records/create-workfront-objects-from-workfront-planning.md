@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1088'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -113,7 +113,7 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td> <p>레코드를 추가할 작업 영역 <!--<span class="preview">and record type</span>-->에 대한 권한을 관리합니다. </p>  
+   <td> <p>레코드를 추가할 작업 영역 <span class="preview">및 레코드 종류</span>에 대한 권한을 관리합니다. </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
    <p>하위 개체(프로젝트)를 추가하기 위해 Workfront 개체(포트폴리오)에 대한 권한을 관리합니다.</p>
    </td> 
@@ -145,11 +145,7 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
 
 1. (조건부) **프로젝트 추가**를 클릭합니다
 또는
-프로젝트 이름을 입력한 다음 찾을 수 없는 경우 **프로젝트 추가**&#x200B;를 클릭합니다.
-
-   다른 레코드의 연결된 레코드 필드에서 프로젝트를 추가할 때 프로젝트를 찾을 수 없으면 이름을 추가한 다음 **프로젝트 추가**&#x200B;를 클릭합니다. [추가] 단추 다음에 입력한 프로젝트 이름이 옵니다.
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
+프로젝트 이름을 입력한 다음 찾을 수 없는 경우 **프로젝트 추가**&#x200B;를 클릭합니다. [추가] 단추 다음에 입력한 프로젝트 이름이 옵니다.
 
    ![연결 필드에서 연결할 때 프로젝트 추가](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -170,13 +166,11 @@ Planning 레코드에서 포트폴리오를 연결할 때 포트폴리오를 생
 
 1. [레코드 연결](/help/quicksilver/planning/records/connect-records.md) 문서에 설명된 대로 레코드의 세부 정보 페이지 또는 레코드 유형의 테이블로 이동하여 Workfront Planning 레코드와 Workfront 포트폴리오의 연결을 시작합니다.
 
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
-
 1. (조건부) **포트폴리오 추가** 클릭
 
    또는
 
-   포트폴리오의 이름을 입력한 다음 찾을 수 없는 경우 **포트폴리오 추가**&#x200B;를 클릭합니다.—> 다른 레코드의 연결된 레코드 필드에서 포트폴리오를 추가할 때 해당 포트폴리오를 찾을 수 없으면 이름을 추가한 다음 **포트폴리오 추가**&#x200B;를 클릭합니다. 추가 단추 뒤에는 입력한 포트폴리오 이름도 표시됩니다.
+   포트폴리오의 이름을 입력한 다음 찾을 수 없는 경우 **포트폴리오 추가**&#x200B;를 클릭합니다. 추가 단추 다음에 입력한 포트폴리오 이름이 옵니다.
 
    ![연결 필드에서 연결할 때 포트폴리오 추가](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -189,8 +183,6 @@ Planning 레코드에서 포트폴리오를 연결할 때 포트폴리오를 생
 Planning 레코드에서 프로그램을 연결할 때 프로그램을 생성하려면 다음을 수행합니다.
 
 1. [레코드 연결](/help/quicksilver/planning/records/connect-records.md) 문서에 설명된 대로 레코드의 세부 정보 페이지 또는 레코드 유형의 테이블로 이동하여 Workfront Planning 레코드와 Workfront 포트폴리오의 연결을 시작합니다.
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
 
 1. **프로그램 추가** 클릭
 
