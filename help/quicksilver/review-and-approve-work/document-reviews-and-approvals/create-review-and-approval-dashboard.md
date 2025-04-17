@@ -6,9 +6,9 @@ description: 캔버스 대시보드에서 승인 지표를 검토할 수 있습�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 0aeef516c8e3b94edee6fc177766be032241965f
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
@@ -199,19 +199,19 @@ KPI 및 차트를 사용하여 문서 승인에 대한 높은 수준의 정보�
     </tr>
     <tr>
     <td><strong>마감</strong></td>
-    <td>문서 &gt; 승인 단계 &gt; 기한</td>
+    <td>문서 승인 &gt; 승인 단계 &gt; 기한</td>
     </tr>
     <tr>
     <td><strong>요청한 사람</strong></td>
-    <td>문서 &gt; 승인 단계 &gt; 승인 단계 참가자* &gt; 요청자 &gt; 검색 상자에 _Name_을 입력합니다.</td>
+    <td>문서 승인 &gt; 승인 단계 &gt; 승인 단계 참가자* &gt; 요청자 &gt; 검색 상자에 _Name_을 입력합니다.</td>
     </tr>
      <tr>
     <td><strong>요청한 날짜</strong></td>
-    <td>문서 &gt; 승인 단계 &gt; 승인 단계 참가자* &gt; 생성일</td>
+    <td>문서 승인 &gt; 승인 단계 &gt; 승인 단계 참가자* &gt; 생성일</td>
     </tr>
      <tr>
     <td><strong>승인자</strong></td>
-    <td>문서 &gt; 승인 단계 &gt; 승인 단계 참가자* &gt; 참가자 사용자 &gt; 검색 상자에 _Name_을 입력합니다.</td>
+    <td>문서 승인 &gt; 승인 단계 &gt; 승인 단계 참가자* &gt; 참가자 사용자 &gt; 검색 상자에 _Name_을 입력합니다.</td>
     </tr>
     <table>
 

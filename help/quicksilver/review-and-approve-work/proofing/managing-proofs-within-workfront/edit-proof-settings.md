@@ -6,7 +6,7 @@ description: 증명을 만든 후 언제든지 증명 설정을 편집할 수 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: a036a99c13d80a2ba2305ebcdc799ad6e5b62b39
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 2%
@@ -73,12 +73,7 @@ Workfront 관리자가 계정 수준에서 일부 설정을 사용하지 않도�
      </tr> 
      <tr> 
       <td role="rowheader">결정 시 전자 서명 필요</td> 
-      <td> <p>증명에 대해 결정을 내리는 모든 검토자의 전자 서명이 필요할 수 있습니다. 검토자가 결정을 내리면 이메일 및 암호를 입력하고 결정을 확인하라는 메시지가 나타납니다. <!--
-         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          For more information, see 
-          <a href="../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md" class="MCXref xref">Understanding electronic signatures in Workfront Proof</a>
-         </MadCap:conditionalText>
-        --></p> </td> 
+      <td> <p>증명에 대해 결정을 내리는 모든 검토자의 전자 서명이 필요할 수 있습니다. 검토자가 결정을 내리면 이메일 및 암호를 입력하고 결정을 확인하라는 메시지가 나타납니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">필요한 모든 결정을 내릴 때 증명 잠금</td> 
