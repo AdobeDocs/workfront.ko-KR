@@ -4,9 +4,7 @@ description: 2025년 3분기 릴리스 기간 동안의 룩앤필 업데이트
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
+source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 5%
@@ -62,6 +60,3 @@ Workfront의 다른 영역 디자인에 맞게 여러 보고서의 디자인을 
 회사 보고서에서 회사를 삭제할 때 회사 삭제 상자의 모양과 느낌을 업데이트했습니다. 이제 새로운 디자인이 Workfront의 다른 영역과 일치합니다.
 
 이 업데이트로 인해 설정 영역의 회사 페이지에서 회사 삭제 상자의 모양과 느낌이 변경되지 않았습니다.
-
-
-
