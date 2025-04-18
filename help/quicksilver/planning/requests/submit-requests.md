@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 4bdd4510a5ff7faf8f497299eac0a10f4fe7fbc2
 workflow-type: tm+mt
 source-wordcount: '1875'
 ht-degree: 0%
@@ -202,7 +202,7 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
      >
      >하나 이상의 작업 영역에 액세스할 수 있는 모든 사용자는 요청 영역에서 계획 탭을 볼 수 있습니다. 볼 수 있는 권한 이상이 있는 작업 영역에 사용자 또는 다른 사람이 제출한 요청만 볼 수 있습니다. Workfront 관리자는 시스템의 작업 영역에 제출된 모든 요청을 볼 수 있습니다.
 
-   * 작업 영역 <!--and people with Manage access to the request type (asking Rafael about this, because not sure how one would give Manage access to the request type??)-->에 대해 적어도 보기 권한이 있는 사용자, 승인자 및 소유자에게만 요청이 표시됩니다.
+   * 요청은 소유자, 승인자 및 작업 영역에 대해 최소 보기 권한이 있는 사람에게만 표시됩니다.
 
    * 요청이 성공적으로 제출되었거나 검토를 위해 전송되었다는 인앱 및 이메일 알림을 받게 됩니다.
    * 요청 양식이 승인과 연결된 경우 승인자는 요청을 검토하고 승인하기 위한 인앱 및 이메일 알림을 수신합니다.

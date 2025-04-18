@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 4bdd4510a5ff7faf8f497299eac0a10f4fe7fbc2
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '2203'
 ht-degree: 2%
 
 ---
@@ -123,7 +123,7 @@ Workfront Planning에서 자동화를 사용하여 다음을 생성할 수 있�
 
 * 자동화를 통해 작성된 객체 또는 레코드의 이름은 단일 객체를 작성할 때 작성한 레코드 이름과 동일합니다.
 
-* 여러 프로젝트를 만들면 다음 패턴에 따라 프로젝트 이름이 자동으로 지정됩니다.
+* 여러 프로젝트를 만들 때 다음 패턴에 따라 프로젝트 이름이 자동으로 지정됩니다.
 
   `[ Name of the record ] Name of the field choice`
 
