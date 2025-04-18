@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 용어집에는  [!DNL Adobe Workfront]. Y
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 3a86ce4878304cee749fa298a39f03a46083a7b4
 workflow-type: tm+mt
-source-wordcount: '20999'
+source-wordcount: '21023'
 ht-degree: 0%
 
 ---
@@ -1099,6 +1099,10 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL ID]</td> 
    <td> <p>ID는 [!DNL Workfront]의 모든 개체와 연결된 영숫자 표시기입니다. [!DNL Workfront] 데이터베이스의 각 개체를 고유하게 식별합니다. 보고서나 목록에 있는 각 객체의 ID를 볼 수 있습니다. </p> <p><b>팁</b></p>   <p>개체 페이지의 URL에서 ID를 볼 수도 있습니다. 예를 들어 [!UICONTROL 프로젝트 세부 사항] 페이지에 액세스하면 프로젝트 ID가 다음 URL에 요약된 번호와 비슷하게 보일 수 있습니다.</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+   <td>[!UICONTROL IMS]</td> 
+   <td>Identity Management 시스템. Adobe IMS를 사용하려면 Workfront 사용자 이름과 암호를 사용하는 대신 Adobe을 통해 Workfront에 로그인해야 합니다.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL 개별 목표]</td> 
