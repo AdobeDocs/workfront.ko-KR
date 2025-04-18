@@ -6,9 +6,9 @@ description: 검토자는 검토를 위해 제출한 문서를 미리 볼 수 �
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: da00226448e0969cec57bf9d525686129d53430e
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -76,15 +76,15 @@ Add once functionality is added
 1. (선택 사항) 문서를 검토한 후에는 문서의 **업데이트** 섹션에 요청자를 위한 댓글을 남길 수 있습니다. 댓글에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 1. 검토를 완료했음을 기록하려면 **검토 완료**&#x200B;를 클릭하십시오.
 
-## 문서 요약 창에서 문서 검토
+## 문서 요약 패널에서 문서 검토
 
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 
-1. 필요한 문서를 클릭하면 문서 요약 창이 열립니다.
+1. 필요한 문서를 클릭하면 문서 요약 패널이 열립니다.
 
 1. 버전 드롭다운에서 검토할 문서의 버전을 선택합니다. 기본적으로 최신 버전이 선택됩니다.
 
-1. 문서 요약 창 상단의 **세부 정보** 섹션에서 문서 미리 보기 위로 마우스를 가져갑니다. 그런 다음 다음 다음 중 하나를 수행합니다.
+1. 문서 요약 패널 상단의 **세부 정보** 섹션에서 문서 미리 보기 위로 마우스를 가져갑니다. 그런 다음 다음 다음 중 하나를 수행합니다.
 
    **미리 보기**&#x200B;를 클릭하여 새 창에서 읽기 전용 버전의 문서를 엽니다.
 
@@ -94,5 +94,18 @@ Add once functionality is added
 
 1. (선택 사항) 문서를 검토한 후에는 문서의 **업데이트** 섹션에 요청자를 위한 댓글을 남길 수 있습니다. 댓글에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
-1. (선택 사항) 문서 요약 창의 **버전** 섹션으로 스크롤한 다음 검토할 버전 옆에 있는 자세히 아이콘 ![자세히 아이콘](../assets/more-icon.png)을 클릭하고 **다운로드** 또는 **미리 보기**&#x200B;를 선택하여 특정 버전의 문서를 미리 보거나 다운로드할 수도 있습니다.
+1. (선택 사항) 문서 요약 패널의 **버전** 섹션으로 스크롤한 다음 검토할 버전 옆에 있는 자세히 아이콘 ![자세히 아이콘](../assets/more-icon.png)을 클릭하고 **다운로드** 또는 **미리 보기**&#x200B;를 선택하여 특정 버전의 문서를 미리 보거나 다운로드할 수도 있습니다.
 1. 검토를 완료했음을 기록하려면 **검토 완료**&#x200B;를 클릭하십시오.
+
+## 증명 뷰어에서 문서 검토
+
+문서를 검토하려면 다음과 같이 하십시오.
+
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+
+1. Workfront에 있으면 **증명으로 이동**&#x200B;을 클릭하세요.
+
+1. 콘텐츠를 검토하고 주석 또는 마크업을 추가합니다. 증명 뷰어를 사용하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 증명 검토: 문서 인덱스](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)를 참조하십시오.
+
+1. 검토를 완료했음을 기록하려면 **검토 완료**&#x200B;를 클릭하십시오.
+

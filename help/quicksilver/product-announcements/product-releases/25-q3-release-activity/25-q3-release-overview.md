@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 70dce5fb7848f137a264e28e012234870e8d8eb5
+source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">증명 뷰어에서 새 문서 승인 결정 단추를 사용할 수 있음</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
-            <p>이제 증명 뷰어에 새 문서 승인 결정 버튼이 표시됩니다. 이제 간단한 증명을 만든 다음 문서 요약에서 승인자와 검토자를 추가하면 승인자가 증명 뷰어 내에서 직접 결정을 내릴 수 있습니다.</p><p><b>참고</b>현재 Adobe 통합 환경의 사용자는 이 기능을 사용할 수 없습니다.</p>
+            <p>이제 증명 뷰어에 새 문서 승인 결정 버튼이 표시됩니다. 이제 간단한 증명을 만든 다음 문서 요약에서 승인자와 검토자를 추가하면 승인자가 증명 뷰어 내에서 직접 결정을 내릴 수 있습니다.</p>
         </td>
         <td>2025년 4월 10일 금요일</td>
         <td>2025년 4월 17일 금요일</td>

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
+source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 미리보기 릴리스: 2025년 4월 10일, 모든 고객을 위한 프로덕션 릴리스: 2025년 4월 17일
->
->* 이 기능은 현재 Adobe 통합 경험의 사용자가 사용할 수 없습니다.
 
 이제 증명 뷰어에 새 문서 승인 결정 버튼이 표시됩니다. 이제 간단한 증명을 만든 다음 문서 요약에서 승인자와 검토자를 추가하면 승인자가 증명 뷰어 내에서 직접 결정을 내릴 수 있습니다.
 

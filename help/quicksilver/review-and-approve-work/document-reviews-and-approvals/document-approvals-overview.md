@@ -6,9 +6,9 @@ description: 이미 보류 중인 승인이 있는 문서에 승인자 또는 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 1%
 
 **증명 차이점**
 
-* 증명 뷰어에서 문서 승인 결정 버튼을 사용할 수 없습니다. 문서 요약, Workfront 홈 위젯 또는 문서 세부 정보 페이지에서 결정을 내릴 수 있습니다.
 * 문서 승인 참여자는 증명 워크플로 탭이 아니라 문서 요약에 표시됩니다.
 * 통합 승인은 현재 보고 도구에서 지원되지 않습니다.
 

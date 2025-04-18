@@ -6,9 +6,9 @@ description: Workfront에서 검토 및 승인을 위해 사용할 수 있는 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 0%
 
 * 승인자로 사용자 추가
 * 증명 뷰어에서 검토 및 주석 달기
-* 증명 뷰어에서 결정
 * 기존 보고로 승인 보고서 만들기
 * 홈 영역의 내 승인 위젯에서 승인 요청에 액세스
 
@@ -51,15 +50,13 @@ ht-degree: 0%
 
 * 템플릿 만들기 및 사용
 
-* 증명 뷰어에서 검토 및 주석 달기
+* 증명 뷰어에서 검토, 주석 달기 및 결정
 증명 뷰어 사용에 대한 자세한 내용은 [통합 승인 및 증명 함께 사용](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)을 참조하십시오.
 
 * Workfront 홈 위젯에서 승인에 대한 여러 주요 성능 지표 보기
 
 * 현재 Beta의 캔버스 대시보드를 사용하여 통합 승인에 대한 보고 세부 사항을 봅니다
 보고에 대한 자세한 내용은 [검토 및 승인을 위한 보고서 대시보드 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)를 참조하세요.
-
-* 증명 뷰어 [!BADGE 준비 중]{type=Informative}에서 결정
 
 * 여러 단계 승인 만들기 [!BADGE 준비 중]{type=Informative}
 
