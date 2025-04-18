@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 94cc3fc02e5ac499684056f21e84956a00d00334
+source-git-commit: 70dce5fb7848f137a264e28e012234870e8d8eb5
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 2%
@@ -110,7 +110,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## 기타 영역에 대한 릴리스 노트
 
 * [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Adobe Workfront 계획 2025년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+* [Adobe Workfront 계획 2025년 3분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
 
 릴리스에는 현재 다음에 대한 업데이트가 없습니다.
 
