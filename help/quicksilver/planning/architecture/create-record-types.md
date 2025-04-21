@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1098'
 ht-degree: 2%
 
 ---
@@ -146,20 +146,30 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
    작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
 1. (선택 사항) 작업 영역에 새 섹션을 추가하려면 **섹션 추가**&#x200B;를 클릭합니다.
-1. **레코드 종류 추가**&#x200B;를 클릭한 다음 **새로 만들기**&#x200B;를 클릭합니다.
+1. **레코드 종류 추가**&#x200B;를 클릭한 다음 **수동으로 추가**&#x200B;를 클릭합니다.
 
    레코드 유형 추가 상자가 열립니다.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![표시 형식 옵션이 있는 레코드 형식 상자 추가](assets/add-record-type-box-with-appearance-options.png)
 
-1. 다음 정보를 업데이트합니다.
+1. **모양** 탭에서 다음 정보를 업데이트합니다.
 
    * &quot;제목 없는 레코드 유형&quot;을 이후 레코드 유형의 이름으로 바꿉니다. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **설명**: 레코드 형식에 대한 정보를 더 추가합니다.
    * 레코드 유형과 연관된 아이콘의 색과 모양을 선택합니다. 다음을 수행합니다.
       * 색상을 선택하여 새 레코드 유형을 식별합니다. 레코드 유형 아이콘의 색상입니다. 기본적으로 회색이 선택되어 있습니다.
       * 목록에서 아이콘을 선택하거나 아이콘 이름을 입력하여 아이콘이 나타내는 내용을 설명한 다음 표시될 때 선택합니다. 레코드 유형의 아이콘입니다. 기본적으로 파일 아이콘이 선택되어 있습니다.
+
+1. (선택 사항 및 조건부) 시스템 관리자인 경우 **고급 설정**&#x200B;을 클릭하고 **연결 범위** 섹션에서 다음 정보를 업데이트하십시오. <!--the info here is duplicated in the Edit record types article-->
+
+   * **다른 작업 영역에서 연결** 설정을 사용하도록 설정합니다. 활성화되면 기록 유형에 액세스하고 다른 작업 공간에서 연결할 수 있습니다.
+   * 레코드 종류에 액세스할 수 있는 작업 공간을 선택합니다. 다음 옵션 중에서 선택합니다.
+
+      * **시스템 전체**: 사용자는 관리 권한이 있는 모든 작업 영역에서 이 레코드 형식에 연결할 수 있습니다.
+      * **특정 작업 영역**: 작업 영역 관리자가 이 레코드 형식에 연결할 수 있는 작업 영역의 이름을 추가합니다.
+
+   ![고급 설정 탭에서 레코드 형식 상자 만들기](assets/create-record-type-box-advanced-settings-tab.png)
 
 1. Click **Create**.
 
