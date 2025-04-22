@@ -1,19 +1,19 @@
 ---
-title: Adobe Workfront에서 프로젝트 공유
+title: 프로젝트 공유
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 자세한 내용은 프로젝트에 대한 액세스 권한 부여를 참조하십시오.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1579'
 ht-degree: 2%
 
 ---
 
-# Adobe Workfront에서 프로젝트 공유
+# 프로젝트 공유
 
 <!-- Audited: 1/2024 -->
 
@@ -22,6 +22,43 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 사용자에게 부여된 액세스 수준과 함께 공유할 액세스 권한이 있는 특정 프로젝트를 보거나, 기여하거나, 관리할 수 있는 권한을 부여할 수도 있습니다.
 
 권한은 Workfront의 한 항목에 한정되며, 해당 항목에 대해 수행할 수 있는 작업을 정의합니다.
+
+
+## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+객체를 공유하려면 다음 항목이 있어야 합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td> <p>임의 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>새로운 기능: 표준</p> 
+   또는
+   <p>현재: 작업 시간 이상</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>공유할 개체에 대한 액세스 이상의 보기</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>공유할 개체에 대한 권한 이상 보기</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 프로젝트 공유에 대한 고려 사항
 
@@ -46,6 +83,13 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 
 * 하위 개체가 상속되지 않도록 프로젝트에서 상속된 권한을 제거할 수 있습니다. 개체에서 상속된 사용 권한을 제거하는 방법에 대한 자세한 내용은 [개체에서 사용 권한 제거](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)를 참조하십시오.
 
+## 다양한 라이선스 유형에 대한 제한 사항
+
+* 작업자 라이선스가 있는 사용자는 프로젝트를 관리할 수 있는 권한이 없습니다. 작업자의 경우 가장 높은 공유 권한은 Contribute입니다.
+* 요청 라이선스가 있는 사용자는 프로젝트 정보를 볼 수 있지만 프로젝트 액세스 권한은 제한됩니다.
+* 보기 또는 기여 권한이 있는 사용자도 승인 프로세스에 포함된 경우 프로젝트 상태 변경의 예외가 발생합니다. 프로젝트를 승인하여 프로젝트의 상태를 변경할 수 있지만 상태는 승인 또는 거절에 대해 사전 정의된 상태입니다.
+* 프로젝트를 복사할 수 있으려면 사용자는 액세스 수준에서도 프로젝트를 만들 수 있는 액세스 권한이 있어야 합니다.
+
 ## 프로젝트를 공유하는 방법 {#ways-to-share-a-project}
 
 다음과 같은 방법으로 프로젝트를 공유할 수 있습니다.
@@ -53,25 +97,18 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 * 다음 중 하나를 수행하여 수동으로 수행합니다.
 
    * 프로젝트 팀에 사용자 추가 프로젝트 팀에 사용자를 추가하면 해당 사용자는 프로젝트에 대한 보기 권한을 자동으로 부여받습니다.\
-     프로젝트 팀에 사용자를 추가하는 방법에 대한 자세한 내용은 [프로젝트 팀 개요](../../manage-work/projects/planning-a-project/project-team-overview.md)의 &quot;프로젝트 팀에 사용자 추가&quot; 섹션을 참조하십시오.
+     프로젝트 팀에 사용자를 추가하는 방법에 대한 자세한 내용은 [프로젝트 팀 개요](../../manage-work/projects/planning-a-project/project-team-overview.md)에서 프로젝트 팀에 사용자 추가 섹션을 참조하십시오.
    * **공유** 옵션을 사용할 때 프로젝트를 개별적으로 또는 대량으로 공유합니다.
-
-     프로젝트를 공유하는 것은 Adobe Workfront의 다른 모든 개체를 공유하는 것과 비슷합니다.
-
-     Workfront에서 개체를 공유하는 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 
 * 다음 중 하나를 수행하여 자동으로
 
    * 이미 다른 사용자와 공유된 **Portfolio** 또는 **프로그램**&#x200B;에 프로젝트를 배치하십시오. 사용자는 포트폴리오 또는 프로그램에 대해 가지고 있는 것과 동일한 권한을 프로젝트에 부여받습니다.\
      **Portfolio**&#x200B;에 프로젝트를 추가하는 방법에 대한 자세한 내용은 [포트폴리오에 프로젝트 추가](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)를 참조하십시오.\
      **Program**&#x200B;에 프로젝트를 추가하는 방법에 대한 자세한 내용은 [프로그램에 프로젝트 추가](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)를 참조하십시오.
-
-     개체에 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)를 참조하십시오.
+개체에 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)를 참조하십시오.
 
    * 프로젝트를 만드는 데 사용된 템플릿의 프로젝트 공유에 엔티티를 추가합니다. 템플릿에서 프로젝트를 공유하는 방법에 대한 자세한 내용은 [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)를 참조하십시오.
    * 프로젝트 액세스 템플릿을 정의합니다.
-
-     프로젝트 액세스 템플릿을 정의하려면 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 
      >[!TIP]
      >
@@ -100,12 +137,87 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 </ol>
 -->
 
-## 다양한 라이선스 유형에 대한 제한 사항
+## 프로젝트 공유
 
-* 작업자 라이선스가 있는 사용자는 프로젝트를 관리할 수 있는 권한이 없습니다. 작업자의 경우 가장 높은 공유 권한은 Contribute입니다.
-* 요청 라이선스가 있는 사용자는 프로젝트 정보를 볼 수 있지만 프로젝트 액세스 권한은 제한됩니다.
-* 보기 또는 기여 권한이 있는 사용자도 승인 프로세스에 포함된 경우 프로젝트 상태 변경의 예외가 발생합니다. 프로젝트를 승인하여 프로젝트의 상태를 변경할 수 있지만 상태는 승인 또는 거절에 대해 사전 정의된 상태입니다.
-* 프로젝트를 복사할 수 있으려면 사용자는 액세스 수준에서도 프로젝트를 만들 수 있는 액세스 권한이 있어야 합니다.
+{{step1-to-projects}}
+
+1. **프로젝트** 페이지의 목록에서 공유할 프로젝트를 선택하십시오. 프로젝트 페이지가 열립니다.
+
+1. 프로젝트 이름 오른쪽에서 **공유**&#x200B;를 클릭합니다. **[프로젝트 이름 공유]** 대화 상자가 열립니다.
+
+   ![프로젝트 공유 단추](assets/share-project.png)
+
+1. **프로젝트 액세스 권한 부여** 필드에서 프로젝트를 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
+
+   >[!TIP]
+   >
+   >활성 사용자, 팀, 역할 또는 회사와만 프로젝트를 공유할 수 있습니다.
+
+
+1. (선택 사항) **액세스 권한이 있는 사용자** 드롭다운을 선택하고 프로젝트의 액세스 수준을 선택합니다.
+
+   * **초대된 사용자만 액세스할 수 있습니다.** 프로젝트에 초대된 사용자만 액세스할 수 있습니다(기본값).
+   * **시스템의 모든 사용자가 볼 수 있습니다**: 시스템의 모든 사용자는 초대장 없이 프로젝트를 볼 수 있습니다.
+
+1. (선택 사항) 선택한 프로젝트 액세스 설정을 모든 새 프로젝트에 자동으로 적용하려면 **톱니바퀴** 아이콘을 클릭합니다![톱니바퀴 아이콘을 선택합니다](assets/gear-icon.png). 그런 다음 **내 프로젝트 액세스 템플릿으로 설정**(으)로 확인란을 인라인으로 선택합니다.
+
+   >[!NOTE]
+   >
+   >프로젝트 액세스 템플릿은 액세스 수준의 Workfront 관리자가 부여한 공유 기본값을 무시합니다.\
+   >액세스 수준의 프로젝트에 대한 공유 기본값을 지정하는 방법에 대한 자세한 내용은 [프로젝트에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)를 참조하십시오.
+
+   <!--
+   >this note also appears in Understanding Project Permissions-->
+
+
+1. 사용자 이름 오른쪽에 있는 드롭다운을 클릭하고 이 프로젝트에 대한 권한 수준을 선택합니다.
+
+
+   * **보기**: 사용자가 프로젝트를 검토하고 공유할 수 있습니다.
+   * **참여**: 사용자는 업데이트를 수행하고, 정보를 기록하며, 간단한 편집을 수행하고, 프로젝트를 공유할 수 있습니다(모든 보기 권한도 포함).
+   * **관리**: 사용자가 액세스 수준에서 부여된 관리 권한 없이 프로젝트에 대한 전체 액세스 권한을 가지고 있습니다(모든 보기 및 기여 권한도 포함).
+
+1. (선택 사항) 프로젝트에서 특정 권한을 구성하기 위해 부여한 권한 수준 옆에 있는 고급 옵션 아이콘을 클릭합니다.
+
+   ![구성된 고급 권한 옵션](assets/advanced-permission-options.png)
+
+1. (선택 사항) 링크를 사용하여 프로젝트를 빠르게 공유하려면 **링크 복사**&#x200B;를 클릭한 다음 받는 사람에게 전달하십시오.
+
+1. **저장**&#x200B;을 클릭합니다.
+
+## 프로젝트 일괄 공유
+
+{{step1-to-projects}}
+
+1. **프로젝트** 페이지에서 공유할 각 프로젝트의 왼쪽에 있는 상자를 선택한 다음 페이지 상단의 **공유** 아이콘 ![공유 아이콘](assets/share-icon.png)을 클릭합니다. 공유 모달이 열립니다.
+
+   ![프로젝트 일괄 공유](assets/bulk-share-icon.png)
+
+1. **프로젝트 액세스 권한 부여** 필드에서 프로젝트를 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
+
+   >[!TIP]
+   >
+   >활성 사용자, 팀, 역할 또는 회사와만 프로젝트를 공유할 수 있습니다.
+
+
+1. (선택 사항) **액세스 권한이 있는 사용자** 드롭다운을 선택하고 프로젝트의 액세스 수준을 선택합니다.
+
+   * **초대된 사용자만 액세스할 수 있습니다.** 프로젝트에 초대된 사용자만 액세스할 수 있습니다(기본값).
+   * **시스템의 모든 사용자가 볼 수 있습니다**: 시스템의 모든 사용자는 초대장 없이 프로젝트를 볼 수 있습니다.
+
+
+1. 사용자 이름 오른쪽에 있는 드롭다운을 클릭하고 프로젝트에 대한 권한 수준을 선택합니다.
+
+   * **보기**: 사용자가 프로젝트를 검토하고 공유할 수 있습니다.
+   * **참여**: 사용자는 업데이트를 수행하고, 정보를 기록하며, 간단한 편집을 수행하고, 프로젝트를 공유할 수 있습니다(모든 보기 권한도 포함).
+   * **관리**: 사용자가 액세스 수준에서 부여된 관리 권한 없이 프로젝트에 대한 전체 액세스 권한을 가지고 있습니다(모든 보기 및 기여 권한도 포함).
+
+1. (선택 사항) 프로젝트에서 특정 권한을 구성하기 위해 부여한 권한 수준 옆에 있는 고급 옵션 아이콘을 클릭합니다.
+
+   ![구성된 고급 권한 옵션](assets/advanced-permission-options.png)
+
+1. **저장**&#x200B;을 클릭합니다.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
+source-git-commit: ef09ee2fce1619f7e44deb7a584738db955a8599
 workflow-type: tm+mt
-source-wordcount: '13163'
+source-wordcount: '13162'
 ht-degree: 2%
 
 ---
@@ -908,13 +908,13 @@ ht-degree: 2%
       * [알림: 기타 정보](workfront-basics/using-notifications/notifications-misc-information.md)
       * [알림: 내가 한 요청](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
    * 오브젝트에 권한 부여 및 요청 {#grant-request-object-permissions}
-      * [오브젝트에 권한 부여 및 요청](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+      * [오브젝트에 대한 권한 부여 및 요청: 문서 색인](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
       * [오브젝트에 대한 공유 권한 개요](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
       * [홈 영역의 객체에 대한 액세스 권한 부여](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
       * [오브젝트에 대한 액세스 요청](workfront-basics/grant-and-request-access-to-objects/request-access.md)
       * [오브젝트에 대한 상속된 권한 보기](workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
       * [개체 공유](workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-      * [Adobe Workfront에서 프로젝트 공유](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+      * [프로젝트 공유](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
       * [작업 공유](workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
       * [문제 공유](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
       * [템플릿 공유](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)

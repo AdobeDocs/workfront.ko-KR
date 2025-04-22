@@ -2,20 +2,20 @@
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
-title: 오브젝트에 권한 부여 및 요청
+title: '오브젝트에 대한 권한 부여 및 요청: 문서 색인'
 description: Workfront에서 오브젝트에 권한을 부여하고 요청하는 방법을 배우려면 이 문서를 검토하십시오.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 1%
 
 ---
 
-# 오브젝트에 권한 부여 및 요청
+# 오브젝트에 대한 권한 부여 및 요청: 문서 색인
 
 이 섹션에는 객체에 권한을 부여하고 요청하는 방법에 대한 다음 문서가 포함되어 있습니다.
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 * [개체에 대한 액세스 요청](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [개체에서 권한 제거](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [Adobe Workfront에서 프로젝트 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [프로젝트 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
 * [작업 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
 * [문제 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 * [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
