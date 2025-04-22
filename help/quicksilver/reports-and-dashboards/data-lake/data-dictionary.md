@@ -7,9 +7,9 @@ description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
+source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8129'
 ht-degree: 7%
 
 ---
@@ -570,13 +570,13 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>PROJECTID</td>
              <td>FK</td>
              <td>PROJECTS_CURRENT</td>
-             <td>프로젝트 ID</td>
+             <td>PROJECTID</td>
         </tr>
         <tr>
-             <td>롤로이드</td>
-             <td>에프케이</td>
+             <td>장미모양-</td>
+             <td>FK</td>
              <td>ROLES_CURRENT</td>
-             <td>롤로이드</td>
+             <td>장미모양-</td>
         </tr>
         <tr>
              <td>TASKID</td>
@@ -1024,10 +1024,10 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>사용자 ID</td>
         </tr>
         <tr>
-             <td>프로젝트 ID</td>
-             <td>에프케이</td>
+             <td>PROJECTID</td>
+             <td>FK</td>
              <td>PROJECTS_CURRENT</td>
-             <td>프로젝트 ID</td>
+             <td>PROJECTID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -1053,9 +1053,9 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <tr>
             <td>예약</td>
             <td>예약</td>
-            <td>부쿵</td>
             <td>예약</td>
-            <td><br>BOOKINGS_CURRENT BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
+            <td>예약</td>
+            <td>BOOKINGS_CURRENT<br>BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -1722,8 +1722,8 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>EXCHANGERATEID</td>
         </tr>
         <tr>
-             <td>이터레이션 ID</td>
-             <td>에프케이</td>
+             <td>ITERATIONID</td>
+             <td>FK</td>
              <td>ITERATIONS_CURRENT</td>
              <td>ITERATIONID</td>
         </tr>
@@ -1759,13 +1759,13 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         </tr>
         <tr>
              <td>소유자 ID</td>
-             <td>에프케이</td>
+             <td>FK</td>
              <td>USERS_CURRENT</td>
              <td>사용자 ID</td>
         </tr>
         <tr>
-             <td>포트폴리오 ID</td>
-             <td>에프케이</td>
+             <td>포트폴리오</td>
+             <td>FK</td>
              <td>포트폴리오_현재</td>
              <td>포트폴리오</td>
         </tr>
@@ -1890,6 +1890,235 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>SYSID</td>
              <td>-</td>
              <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+### 문서 승인(신규)
+
+제한된 고객 가용성
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>문서 승인</td>
+            <td>승인</td>
+            <td>해당 사항 없음</td>
+            <td>해당 사항 없음</td>
+            <td>APPROVAL_CURRENT<br>APPROVAL_DAILY_HISTORY<br>APPROVAL_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">승인 가능하</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>참고: 승인과 연결된 DOCUMENTVERSION 개체의 ID이기도 합니다.</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>변수, ASSETTYPE 기반</td>
+             <td>ASSETTYPE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td class="key">크리토이드</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td class="key">이우테난티드</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td class="key">PRODUCTID</td>
+             <td>-</td>
+             <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
+        </tr>
+        <tr>
+             <td class="key">REALCREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 문서 승인 단계(신규)
+
+제한된 고객 가용성
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>문서 승인 단계</td>
+            <td>승인 단계</td>
+            <td>해당 사항 없음</td>
+            <td>해당 사항 없음</td>
+            <td>APPROVAL_STAGE_CURRENT<br>APPROVAL_STAGE_DAILY_HISTORY<br>APPROVAL_STAGE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">승인 가능하</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>승인 가능하</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">크리토이드</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 문서 승인 단계 참가자(신규)
+
+제한된 고객 가용성
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>문서 승인 단계 참가자</td>
+            <td>승인 결정</td>
+            <td>해당 사항 없음</td>
+            <td>해당 사항 없음</td>
+            <td>APPROVAL_STAGE_PARTICIPANT_CURRENT<br>APPROVAL_STAGE_PARTICIPANT_DAILY_HISTORY<br>APPROVAL_STAGE_PARTICIPANT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">승인 가능하</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>승인 가능하</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEPARTICIPANTID/td&gt;
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>변수, ASSETTYPE 기반</td>
+             <td>ASSETTYPE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td class="key">DECISIONUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td class="key">입천장염-</td>
+             <td>FK</td>
+             <td class="relatedtable">변수, PARTICIPANTTYPE 기반</td>
+             <td>PARTICIPANTTYPE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+        <tr>
+             <td class="key">REALREQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td class="key">REALUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td class="key">REQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td class="key">STAGID</td>
+             <td>FK</td>
+             <td>APPROVAL_STAGE_CURRENT</td>
+             <td>STAGID</td>
         </tr>
     </tbody>
 </table>
@@ -2226,11 +2455,11 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <tr>
              <td>PROOFAPPROVALSTATUSID</td>
              <td>-</td>
-             <td colspan="2">증명 승인 상태 테이블은 현재 지원되지 않습니다.</td>
+             <td colspan="2">증명 승인 상태 테이블은 현재 지원되지 않음</td>
         </tr>
         <tr>
              <td>PROFEDBYUSERID</td>
-             <td>에프케이</td>
+             <td>FK</td>
              <td>USERS_CURRENT</td>
              <td>사용자 ID</td>
         </tr>
@@ -2249,7 +2478,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>PROOFSTAGID</td>
              <td>FK</td>
              <td>-</td>
-             <td colspan="2">증명 스테이지 테이블은 현재 지원되지 않습니다.</td>
+             <td colspan="2">증명 단계 테이블은 현재 지원되지 않음</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -3414,7 +3643,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>-</td>
         </tr>
         <tr>
-             <td>옵지드</td>
+             <td>OBJID</td>
              <td>FK</td>
              <td>변수, OBJCODE 기반</td>
              <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
@@ -4929,7 +5158,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         </tr>
         <tr>
              <td>사용자 ID</td>
-             <td>에프케이</td>
+             <td>FK</td>
              <td>USERS_CURRENT</td>
              <td>사용자 ID</td>
         </tr>
@@ -6138,10 +6367,10 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>사용자 ID</td>
         </tr>
         <tr>
-             <td>그룹 피드</td>
-             <td>에프케이</td>
+             <td>GROUPID</td>
+             <td>FK</td>
              <td>GROUPS_CURRENT</td>
-             <td>그룹 피드</td>
+             <td>GROUPID</td>
         </tr>
         <tr>
              <td>LAYOUTTEMPLATEID</td>
@@ -6162,7 +6391,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         </tr>
         <tr>
              <td>REQUESTSVIEWID</td>
-             <td>에프케이</td>
+             <td>FK</td>
              <td>UIVIEWS_CURRENT</td>
              <td>UIVIEWID</td>
         </tr>
@@ -6527,14 +6756,14 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td colspan="2">팀 타임라인 가능 테이블은 현재 지원되지 않습니다.</td>
         </tr>
         <tr>
-             <td>템플릿할당 ID</td>
-             <td>증권 시세 표시기</td>
+             <td>TEMPLATEASSIGNMENTID</td>
+             <td>PK</td>
              <td>-</td>
              <td>-</td>
         </tr>
         <tr>
-             <td>템플릿태스크 ID</td>
-             <td>에프케이</td>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
              <td>TEMPLATETASKS_CURRENT</td>
              <td>TEMPLATETASKID</td>
         </tr>
@@ -7696,7 +7925,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         </tr>
         <tr>
              <td>USERSGROUPID</td>
-             <td>증권 시세 표시기</td>
+             <td>PK</td>
              <td>-</td>
              <td>-</td>
         </tr>

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
+source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1911'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,19 @@ ht-degree: 0%
 >대부분의 경우 각 업데이트는 미리보기 환경에 먼저 릴리스된 후 나열된 프로덕션 릴리스 날짜부터 증가하는 고객 하위 집합에 대해 프로덕션 환경에서 점진적으로 활성화됩니다.
 
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
+
+## Workfront 탐색 및 검색
+
+### 고급 검색을 위한 인터페이스 업데이트
+
+**미리 보기 릴리스: 4월 17일, 프로덕션 릴리스: 발표 예정**
+
+다음 변경 사항으로 고급 검색 영역을 업데이트했습니다.
+
+* 새 전체 검색 탭이 추가되었습니다. 이 탭에서 유형별로 검색, 입력 기준, 입력 일자, 범주 및 최종 업데이트자를 사용할 수 있습니다.
+* 고급 검색 탭의 필터가 약간 다릅니다. 이제 필터가 미리 채워지지 않습니다. 이 기능을 켜고 처음부터 필터를 빌드해야 합니다. 페이지를 새로 고치면 필터가 유지되지 않습니다.
+
+자세한 내용은 [검색 [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md)을 참조하세요.
 
 ## 관리 및 설정
 
