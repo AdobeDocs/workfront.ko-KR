@@ -6,7 +6,7 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 1%
@@ -126,7 +126,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작�
 
    ![구성된 고급 권한 옵션](assets/advanced-permission-options.png)
 
-1. (선택 사항) 작업의 자식 개체에 대해 상속된 사용 권한을 끄려면 **상속된 사용 권한**&#x200B;과(와) 함께 **끄기**&#x200B;를 클릭하십시오.
+1. (선택 사항) 작업의 자식 개체에 대해 상속된 사용 권한을 끄려면 **상속된 사용 권한**&#x200B;과(와) 함께 **끄기** 인라인을 클릭합니다.
 
 1. (선택 사항) 링크를 사용하여 작업을 빠르게 공유하려면 **링크 복사**&#x200B;를 클릭한 다음 받는 사람에게 전달하십시오.
 
