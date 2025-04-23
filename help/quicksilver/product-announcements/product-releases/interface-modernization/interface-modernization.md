@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
+source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,12 @@ Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/hel
 * 고급 검색 탭의 필터가 약간 다릅니다. 이제 필터가 미리 채워지지 않습니다. 이 기능을 켜고 처음부터 필터를 빌드해야 합니다. 페이지를 새로 고치면 필터가 유지되지 않습니다.
 
 자세한 내용은 [검색 [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md)을 참조하세요.
+
+### Workfront 계정에 대한 지원 액세스 권한을 부여하기 위한 인터페이스 업데이트
+
+**미리 보기 릴리스: 4월 24일, 프로덕션 릴리스: 발표 예정**
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 Workfront 계정에 대한 지원 액세스 권한을 부여하는 데 사용하는 페이지를 업데이트했습니다.
 
 ## 관리 및 설정
 
