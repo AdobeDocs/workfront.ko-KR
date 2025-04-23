@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2863'
 ht-degree: 0%
 
 ---
 
 # 타임라인 보기 관리
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -90,65 +94,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
-
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 
 ## 타임라인 보기 관리 {#manage-a-timeline-view}
 
@@ -326,7 +271,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >시작 또는 종료 날짜에 대한 값이 없거나 시작 날짜가 종료 날짜보다 늦은 레코드는 타임라인 보기에 표시되지 않습니다.
 
-1. 왼쪽 패널에서 **막대 스타일**&#x200B;을 클릭하여 레코드 막대에 표시할 필드를 나타냅니다.
+1. 왼쪽 패널에서 **막대 스타일**&#x200B;을 클릭하여 레코드 막대에 표시할 정보를 표시합니다.
 
    레코드의 테이블 보기에서 정의된 레코드의 기본 필드(또는 제목)는 기본적으로 선택됩니다. <!--adjust this when the primary field is released??-->
 
@@ -336,18 +281,30 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >    축소판을 타임라인 보기에 표시하려면 먼저 표 보기에 축소판을 추가해야 합니다. 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
 
-1. 레코드 표시줄에 최대 4개의 필드를 추가하려면 **필드 추가**&#x200B;를 클릭하십시오.
-1. **필드 검색** 상자 안을 클릭하고 추가할 필드를 클릭합니다.
+1. **필드 추가**&#x200B;를 클릭한 다음 **필드 검색** 상자 안을 클릭하고 추가할 필드를 클릭합니다.
 
    >[!TIP]
    >
    >   * 필드를 레코드 표시줄에 추가하려면 먼저 필드를 만들어야 합니다.
    > 
    >   * 하나 이상의 필드를 선택해야 합니다. 기본적으로 **이름**&#x200B;이(가) 선택되어 있습니다.
+   >
+   >   * 최대 5개의 필드를 추가할 수 있습니다.
 
    타임라인에서 막대가 어떻게 보이는지에 대한 미리보기가 오른쪽에 표시됩니다.
 
    미리 보기로 ![레코드 세부 정보 패널 타임라인 설정](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. <span class="preview">(선택 사항 및 조건부) 표준 모드에서 타임라인을 표시하는 경우 **막대 세부 정보 자르기** 설정을 사용하도록 설정합니다. 활성화되면 레코드 막대에 대한 정보는 잘리고 막대를 마우스로 가리키면 완전히 표시됩니다. 이 설정은 기본적으로 비활성화되며 정보는 막대에 완전히 표시됩니다. </span>
+
+   ![타임라인 설정 상자에 설정된 잘라내기 설정이 강조 표시됨](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+
+   >[!TIP]
+   >
+   >* <span class="preview">축소 모드에서 타임라인 보기를 표시할 때는 막대 세부 정보 자르기 설정을 사용할 수 없으며 달력 보기에서는 사용할 수 없습니다.</span>
+   >
+   >* <span class="preview">타임라인 보기를 분류하여 타임라인에 연결된 개체를 표시하는 경우 막대 세부 정보 자르기 설정은 기본 레코드 형식에만 적용됩니다. 연결된 레코드 모음에는 적용되지 않습니다.</span>
+
 
 1. 타임라인에서 레코드와 그룹화의 색상을 사용자 지정하려면 왼쪽 패널에서 **색상**&#x200B;을 클릭합니다.
 

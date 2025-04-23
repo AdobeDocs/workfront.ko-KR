@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 6169f243f44645744c88ddf2fe5011d3bb3d0a37
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
 source-wordcount: '2204'
 ht-degree: 2%
@@ -118,6 +118,14 @@ Workfront Planning에서 자동화를 사용하여 다음을 생성할 수 있�
 
 +++
 
+
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
 
 ## 자동화를 사용하여 오브젝트 및 레코드 만들기에 대한 고려 사항
 
