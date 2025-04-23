@@ -3,10 +3,10 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: 요청 대기열에 대한 액세스 권한 제공
 description: 요청 대기열에 대한 액세스 권한을 제공하면 조직에서 Adobe Workfront의 요청 영역에서 요청 대기열을 볼 수 있는 사용자를 결정합니다.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
    >현재 상태의 프로젝트만 요청 영역에 표시됩니다.
 
 1. 왼쪽 패널에서 **큐 세부 정보**&#x200B;를 클릭합니다. **자세히 표시**&#x200B;를 클릭한 다음 **큐 세부 정보**&#x200B;를 클릭해야 할 수 있습니다.
-1. **도움말 요청 대기열로 Publish**&#x200B;를 선택하여 프로젝트를 요청 대기열로 지정합니다.
+1. **도움말 요청 대기열로 게시**&#x200B;를 선택하여 프로젝트를 요청 대기열로 지정합니다.
 1. 다음 옵션 중에서 선택합니다.
 
    * **모든 사용자**: 모든 사용자는 요청을 보고 요청 큐에 추가할 수 있습니다.

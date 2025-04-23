@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: 초안에서 요청 만들기
 description: 새 요청을 입력할 때 Workfront에서 제안하는 사용 가능한 초안을 사용할 수 있을 뿐만 아니라 초안 섹션에서 초안 요청에 액세스하고 여기에서 제출을 완료할 수도 있습니다.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 1%

@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: 요청 생성 및 제출
 description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업으로 표시됩니다. 그러나 무작위 요청의 형태로 계획되지 않은 작업이 언제든지 들어올 수 있는 환경에서 작업할 수 있습니다. Workfront은 요청 대기열 을 사용하여 이러한 유형의 환경을 수용하는 워크플로를 제공합니다.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '2680'
 ht-degree: 1%

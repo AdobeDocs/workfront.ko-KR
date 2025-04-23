@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 주제 그룹 만들기
 description: 주제 그룹은 요청 대기열과 연관됩니다. 요청 특성에 따라 요청 대기열을 여러 카테고리에 계층화할 수 있습니다.
-author: Lisa
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%

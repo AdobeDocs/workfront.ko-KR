@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: 제출된 요청 찾기
 description: 귀하 또는 다른 사람이 제출한 요청 또는 제출한 적이 없고 초안으로 저장된 요청을 찾을 수 있는 Adobe Workfront 영역에 대해 알아봅니다.
-author: Lisa
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 1%

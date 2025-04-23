@@ -3,10 +3,10 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: 프로젝트에 대한 요청 유형 정의
 description: 요청 유형별로 Adobe Workfront에 로그인된 문제 또는 요청의 종류를 구성할 수 있습니다.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 2%
