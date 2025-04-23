@@ -4,7 +4,8 @@ description: 2025년 3분기 릴리스 기간 동안의 룩앤필 업데이트
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
+exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
+source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 5%
@@ -15,7 +16,7 @@ ht-degree: 5%
 
 이 페이지에서는 2025년 3분기 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트를 설명합니다.
 
-2025년 3분기 릴리스에서 사용 가능한 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)를 참조하십시오.
+2025년 3분기 릴리스에서 사용 가능한 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
 
 ## 설정 의 리소스 관리 영역에 대한 룩앤필 업데이트
 
