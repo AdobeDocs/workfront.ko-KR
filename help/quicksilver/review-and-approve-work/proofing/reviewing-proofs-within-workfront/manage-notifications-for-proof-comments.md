@@ -6,7 +6,7 @@ description: Adobe Workfront 사용자이든 외부 공동 작업자이든 증�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 증명 댓글 및 결정에 대한 알림 관리
+
+<!-- Audited: 4/2025 -->
 
 Adobe Workfront 사용자이든 외부 공동 작업자이든 증명 작업을 수행할 때 증명에 대한 댓글 및 결정에 대해 수신할 이메일 알림을 지정할 수 있습니다. 자세한 내용은 [증명 댓글과 의사 결정에 대한 알림 개요](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)를 참조하세요.
 

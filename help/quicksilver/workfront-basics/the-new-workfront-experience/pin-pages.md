@@ -5,14 +5,16 @@ description: 가시성을 높이고, 조직을 개선하고, 보다 신속하게
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
 
 # 페이지를 고정하여 작업 영역 사용자 지정
+
+<!-- Audited: 4/2025 -->
 
 가시성 향상, 조직 개선 및 빠른 액세스를 위해 [!DNL Adobe Workfront]에서 가장 중요한 작업을 고정할 수 있습니다. 고정된 페이지는 항상 Workfront의 모든 페이지 맨 위에서 액세스할 수 있습니다.
 
@@ -53,6 +55,8 @@ ht-degree: 1%
 1. 고정할 페이지로 이동합니다. 프로젝트, 작업, 요청 대기열 등과 같은 모든 작업 항목일 수 있습니다.
 
 1. 페이지의 왼쪽 상단 모서리에서 **[!UICONTROL 현재 페이지 고정]**&#x200B;을 클릭합니다. 이제 고정된 페이지에 [!DNL Workfront]의 모든 페이지 맨 위에서 액세스할 수 있습니다.
+
+   ![현재 페이지 고정](assets/pin-current-page-button.png)
 
 ## 고정된 페이지에 액세스
 

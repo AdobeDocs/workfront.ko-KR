@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 0%
 1. 화면 오른쪽에서 **[!UICONTROL ACE 추가]**&#x200B;를 선택하여 새 항목을 만듭니다.
 1. {&#x200B;0}새 항목 추가{1&#x200B;} 창에서 **[!UICONTROL 경로]** 필드&#x200B;의 확인란 아이콘을 선택하고 다음 폴더를 선택합니다. */conf*****
 1. **권한** 필드에 다음을 입력하십시오. *jcr:read*
-1. 오른쪽 상단 모서리에서 **[!UICONTROL 추가]**&#x200B;를 선택합니다&#x200B;.
+1. 오른쪽 상단 모서리에서 **추가**&#x200B;를 선택합니다.
 1. (선택 사항) 더 많은 항목을 만들려면 위의 단계를 반복합니다.
 
 ### [!DNL Workfront]과(와) AEM 통합 {#integrate-aem-with-workfront}

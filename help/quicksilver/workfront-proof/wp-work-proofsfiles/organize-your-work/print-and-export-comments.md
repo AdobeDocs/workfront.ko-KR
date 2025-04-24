@@ -7,9 +7,9 @@ description: 댓글 요약은 Workfront Proof에서 액세스할 수 있습니�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,7 @@ ht-degree: 0%
 
 1. **자세히** 단추를 클릭한 다음 **Excel로 내보내기**&#x200B;를 선택합니다.
 
-   <!--
-   ![Export to Excel option](assets/export-to-excel-option.png) -->
+   ![Excel로 내보내기](assets/export-to-excel.png)
 
 ## PDF으로 내보내기
 
