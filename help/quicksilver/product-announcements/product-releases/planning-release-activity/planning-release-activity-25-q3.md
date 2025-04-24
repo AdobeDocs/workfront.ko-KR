@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
+source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >* 프로덕션 빠른 릴리스: 2025년 5월 15일
 >* 모든 고객을 위한 프로덕션: 2025년 7월 17일
 
-이제 표준 보기에 표시할 때 타임라인 보기의 설정 상자에 있는 막대 스타일 탭에서 설정을 활성화하여 더 긴 레코드 이름을 자를 수 있습니다. 이 설정은 기본적으로 비활성화되며 표준 모드에서 타임라인 보기를 표시하는 경우에만 활성화할 수 있습니다.
+이제 표준 보기에 표시할 때 타임라인 보기의 설정 상자에 있는 막대 스타일 탭에서 설정을 활성화하여 더 긴 레코드 이름을 자를 수 있습니다. 이 설정은 기본적으로 비활성화되며 표준 모드에서 타임라인 보기를 표시하는 경우에만 활성화할 수 있습니다. 이 설정을 사용하지 않으면 기본적으로 레코드 막대의 정보가 확장되어 표시됩니다. 이 기능이 향상되기 전에는 기본적으로 레코드 막대의 정보가 잘렸습니다.
 
 자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 
