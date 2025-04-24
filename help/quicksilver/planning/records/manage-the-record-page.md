@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '2034'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,6 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 +++
 
 <!--replace the layout template info in the table with this at release: 
-
 
 <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
 <p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
@@ -268,42 +267,75 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
    레코드 미리 보기 또는 페이지의 레이아웃에 대한 모든 변경 사항이 자동으로 저장됩니다.
 
-## 레코드의 페이지에 연결 보기 페이지 추가
+## 레코드의 페이지에 연결 보기 탭 추가
 
-<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+
+연결 보기 페이지 유형에 대한 탭을 레코드에 추가하여 연결된 레코드나 개체에서 정보를 볼 수 있습니다. 연결된 레코드의 정보가 읽기 전용 테이블 뷰에 표시됩니다.
+
+&lt;!-위의 마지막 문장을 릴리스 시점의 이 문장으로 바꿉니다.
+
+프로덕션 환경에서는 연결된 레코드 또는 개체의 정보가 읽기 전용 테이블 뷰에 표시됩니다.
+
+<Span class="preview">미리 보기 환경에서 연결된 레코드의 정보를 표 보기에서 편집할 수 있습니다. 다른 응용 프로그램에서 연결된 개체의 정보를 테이블 보기에서 편집할 수 없습니다.</span> —>
 
 레코드의 페이지에 연결 보기를 추가할 때는 다음 사항을 고려하십시오.
 
-* 레코드 페이지에 연결 보기 페이지를 추가할 수 있습니다.
+* 레코드 유형이나 개체 유형을 레코드 유형에 연결한 후 레코드 페이지에 연결 보기 페이지를 추가할 수 있습니다.
 
 * 연결 보기 페이지를 레코드의 미리 보기 영역에 추가할 수 없습니다.
 
-* 연결 뷰 페이지에는 테이블 뷰에 연결된 레코드 유형 페이지가 한 개 표시됩니다.
+* 연결 뷰 페이지에는 테이블 뷰의 다른 응용 프로그램에서 연결된 레코드 유형 페이지 또는 연결된 객체 유형이 표시됩니다.
 
 * 연결 보기 페이지를 레코드의 페이지에 추가하면 해당 레코드의 미리 보기 영역에 페이지 탭이 표시됩니다. 연결된 레코드에 대한 테이블 보기를 보려면 전체 페이지로 이동해야 합니다. <!--this might have changed? check and take disclaimer out-->
 
 연결 보기 페이지를 추가하려면 다음 작업을 수행하십시오.
 
 1. 레코드 페이지 보기에서 레코드 이름을 클릭하여 연 다음 미리 보기 페이지의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭합니다.
-1. **페이지 추가** > **연결 보기**&#x200B;를 클릭합니다.
+1. **페이지 추가**&#x200B;를 클릭합니다.
 
    ![연결 보기 페이지 모달 추가](assets/add-connection-view-page-modal.png)
 1. **페이지 이름**&#x200B;을(를) 추가하고 **연결 보기**&#x200B;를 클릭한 다음 **만들기**&#x200B;를 클릭합니다.
 
    새 탭이 레코드의 페이지에 추가됩니다.
-1. 목록에서 연결된 레코드 또는 개체 유형의 이름을 검색하거나 클릭합니다.
-선택한 레코드 유형의 테이블 뷰가 표시되고 연결된 레코드가 테이블 뷰에 표시됩니다.
+1. 목록에서 연결된 레코드 이름 또는 개체 유형을 검색하거나 클릭합니다.
+선택한 레코드 유형의 테이블 뷰는 새 페이지에 표시되고 연결된 레코드는 테이블 뷰에 표시됩니다.
 연결된 레코드의 모든 필드는 연결된 레코드 탭의 테이블 보기에 표시됩니다.
 
    연결된 레코드 테이블의 처음 5개 필드는 기본적으로 표시됩니다. 기본적으로 표시되는 조회 필드가 없습니다.
-
-   테이블 보기는 읽기 전용입니다.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![캠페인 세부 정보 아래의 대상자 연결 테이블 보기](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (선택 사항) 탭 이름을 두 번 클릭합니다
+1. (선택 사항) 연결된 레코드의 표 보기에서 다음 중 하나를 수행합니다.
+
+   * 레코드 이름을 클릭합니다. 새 탭에서 레코드 페이지가 열립니다. <!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
+   * **연결**을 클릭하여 더 많은 레코드를 연결한 다음 연결 상자 바깥쪽을 클릭하여 닫습니다. 새 레코드는 자동으로 표에 추가됩니다.
+     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+
+   <!--<div class="preview">
+
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * View 
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Insert record above or below
+      * Delete 
+   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
+      * View
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Delete. Delete is the only option available when you select more than one record. 
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   </div>-->
+
+
+1. (선택 사항) 연결 보기 탭의 이름을 두 번 클릭합니다
 
    또는
 
@@ -323,7 +355,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
    >
 
 1. 레코드를 추가하거나 제거하려면 **연결**&#x200B;을 클릭하세요. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
-1. (선택 사항) 연결 보기 탭의 이름 위로 마우스를 가져간 후 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭하여 새 연결된 보기 탭을 제거합니다.
+1. (선택 사항) 연결 보기 탭의 이름 위에 마우스를 놓고 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭하여 탭으로 제거합니다.
 
 
 

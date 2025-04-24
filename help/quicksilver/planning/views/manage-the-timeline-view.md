@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2860'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,14 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
 
 ## 타임라인 보기 관리 {#manage-a-timeline-view}
 
@@ -303,7 +311,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* <span class="preview">축소 모드에서 타임라인 보기를 표시할 때는 막대 세부 정보 자르기 설정을 사용할 수 없으며 달력 보기에서는 사용할 수 없습니다.</span>
    >
-   >* <span class="preview">타임라인 보기를 분류하여 타임라인에 연결된 개체를 표시하는 경우 막대 세부 정보 자르기 설정은 기본 레코드 형식에만 적용됩니다. 연결된 레코드 모음에는 적용되지 않습니다.</span>
+   >* <span class="preview">연결된 개체를 표시하기 위해 타임라인 보기를 분류하면 주 레코드 형식에만 막대 세부 정보 자르기 설정이 적용됩니다. 연결된 레코드 모음에는 적용되지 않습니다.</span>
 
 
 1. 타임라인에서 레코드와 그룹화의 색상을 사용자 지정하려면 왼쪽 패널에서 **색상**&#x200B;을 클릭합니다.
