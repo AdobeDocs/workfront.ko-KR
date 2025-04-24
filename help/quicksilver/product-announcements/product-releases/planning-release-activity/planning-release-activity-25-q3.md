@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
+source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,18 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 표준 타임라인 보기에서 긴 레코드 이름을 자르는 새로운 설정입니다
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 4월 23일
+>* 프로덕션 빠른 릴리스: 2025년 5월 15일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
+
+이제 표준 보기에 표시할 때 타임라인 보기의 설정 상자에 있는 막대 스타일 탭에서 설정을 활성화하여 더 긴 레코드 이름을 자를 수 있습니다. 이 설정은 기본적으로 비활성화되며 표준 모드에서 타임라인 보기를 표시하는 경우에만 활성화할 수 있습니다.
+
+자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 
 ## 레코드 유형에 대한 권한 공유
 
