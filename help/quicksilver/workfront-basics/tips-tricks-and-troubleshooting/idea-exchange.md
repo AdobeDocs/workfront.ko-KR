@@ -5,9 +5,9 @@ title: 혁신 연구소
 description: '[!UICONTROL 혁신 랩]을 통해 인증된 사용자는 동료 고객과 아이디어를 제출하고 투표하고 토론할 수 있습니다.'
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 3583368918cf9eb4c64faeda4730e2be08375aed
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -47,4 +47,4 @@ ht-degree: 0%
 * **[!UICONTROL 배달됨]:** 솔루션을 만들고 배달했습니다. 더 이상 업데이트가 제공되지 않으며 댓글이 비활성화됩니다.
 * **[!UICONTROL 보관됨]**: 18개월 표시(제출 날짜부터)에 도달하고 300포인트 미만인 아이디어가 보관됩니다.
 
-시작하거나 자세히 알아보려면 [workfront.com/customer](https://www.workfront.com/customer)의 Innovation Lab에 로그인하십시오.
+시작하거나 자세히 알아보려면 [혁신 랩](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)에 로그인하십시오.
