@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -273,11 +273,11 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
 연결 보기 페이지 유형에 대한 탭을 레코드에 추가하여 연결된 레코드나 개체에서 정보를 볼 수 있습니다. 연결된 레코드의 정보가 읽기 전용 테이블 뷰에 표시됩니다.
 
-&lt;!-위의 마지막 문장을 릴리스 시점의 이 문장으로 바꿉니다.
+<!--replace the last sentence above with this at release:
 
-프로덕션 환경에서는 연결된 레코드 또는 개체의 정보가 읽기 전용 테이블 뷰에 표시됩니다.
+In the Production environment, the information from the connected records or objects displays in a read-only table view. 
 
-<Span class="preview">미리 보기 환경에서 연결된 레코드의 정보를 표 보기에서 편집할 수 있습니다. 다른 응용 프로그램에서 연결된 개체의 정보를 테이블 보기에서 편집할 수 없습니다.</span> —>
+<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
 
 레코드의 페이지에 연결 보기를 추가할 때는 다음 사항을 고려하십시오.
 
