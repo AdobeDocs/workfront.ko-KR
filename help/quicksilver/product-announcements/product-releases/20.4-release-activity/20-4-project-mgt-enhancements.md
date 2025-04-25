@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 0%
@@ -138,5 +138,5 @@ Workfront 관리자는 포트폴리오, 프로그램 또는 회사를 만들거�
 
 이제 저장된 초안을 삭제할 때 초안이 삭제됨을 알리는 확인 메시지에서 취소 를 클릭할 수 있습니다. 이렇게 하면 초안을 버리려고 마음이 바뀌어도 잃어버리지 않는다.
 
-이 기능은 새로운 Workfront 환경에서만 사용할 수 있습니다. 자세한 내용은 [Workfront 요청 만들기 및 제출](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html)을 참조하십시오.
+이 기능은 새로운 Workfront 환경에서만 사용할 수 있습니다. 자세한 내용은 [Workfront 요청 만들기 및 제출](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하십시오.
 

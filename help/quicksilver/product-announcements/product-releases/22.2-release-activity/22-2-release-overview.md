@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3974'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.2 릴리스 개요
 
-이 페이지에서는 22.2 릴리스에 포함된 기능에 대한 정보를 제공합니다. 나열된 모든 기능은 새로운 Adobe Workfront 환경에서 사용할 수 있습니다. 일부 기능은 Adobe Workfront Classic에서도 사용할 수 있습니다. 그러나 [Workfront Classic은 2022년 3월에 중단되며](https://one.workfront.com/s/new-workfront-experience), 곧 Workfront Classic의 사용 종료 날짜는 2022년 7월입니다.
+이 페이지에서는 22.2 릴리스에 포함된 기능에 대한 정보를 제공합니다. 나열된 모든 기능은 새로운 Adobe Workfront 환경에서 사용할 수 있습니다. 일부 기능은 Adobe Workfront Classic에서도 사용할 수 있습니다. 그러나 [Workfront Classic은 2022년 3월에 중단되며](https://experienceleague.adobe.com/en/docs/workfront/using/home), 곧 Workfront Classic의 사용 종료 날짜는 2022년 7월입니다.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -123,7 +123,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic(<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -291,7 +291,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic(<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -303,7 +303,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic(<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -357,7 +357,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic(<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -440,7 +440,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">이제 Anaplan이 포함된 Adobe Workfront 통합을 사용할 수 있습니다</a> </p> <p>이제 Workfront을 Anaplan 계정과 통합하여 Workfront 프로젝트의 재무 측면에 대한 보다 나은 유연성과 통찰력을 얻을 수 있습니다. Workfront 오브젝트를 Anaplan 오브젝트에 연결하면 두 계정 간의 정보를 자동으로 업데이트하여 두 계정의 정보가 모두 최신 상태이고 동일한지 확인할 수 있습니다. </p> <p>Workfront의 작업을 기반으로 Anaplan에서 자동화된 프로세스를 트리거할 수도 있습니다(또는 그 반대의 경우도 가능).</p> <p>예를 들어 Anaplan에서 캠페인을 만든 다음 캠페인에 연결된 Workfront 프로젝트 또는 프로그램을 만들 수 있습니다. 그런 다음 Workfront에서 추적한 모든 비용을 Anaplan에 다시 업로드하여 캠페인 성과를 검토할 수 있습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">이제 Anaplan이 포함된 Adobe Workfront 통합을 사용할 수 있습니다</a> </p> <p>이제 Workfront을 Anaplan 계정과 통합하여 Workfront 프로젝트의 재무 측면에서 보다 나은 유연성과 insight을 제공할 수 있습니다. Workfront 오브젝트를 Anaplan 오브젝트에 연결하면 두 계정 간의 정보를 자동으로 업데이트하여 두 계정의 정보가 모두 최신 상태이고 동일한지 확인할 수 있습니다. </p> <p>Workfront의 작업을 기반으로 Anaplan에서 자동화된 프로세스를 트리거할 수도 있습니다(또는 그 반대의 경우도 가능).</p> <p>예를 들어 Anaplan에서 캠페인을 만든 다음 캠페인에 연결된 Workfront 프로젝트 또는 프로그램을 만들 수 있습니다. 그런 다음 Workfront에서 추적한 모든 비용을 Anaplan에 다시 업로드하여 캠페인 성과를 검토할 수 있습니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
@@ -451,9 +451,9 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Experience Manager 강화 커넥터 업데이트용 Workfront</a> </p> <p>이제 Workfront for Experience Manager 강화 커넥터에 다음 업데이트가 포함됩니다.</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Experience Manager용 Workfront 강화 커넥터 업데이트</a> </p> <p>이제 Workfront for Experience Manager 강화 커넥터에 다음 업데이트가 포함됩니다.</p> 
     <ul> 
-     <li> <p>이제 여러 프로젝트 폴더 구성이 있더라도 Adobe Workfront과 Adobe Experience Manager Assets as a Cloud Service 간에 연결된 폴더를 만들 수 있습니다.</p> </li> 
+     <li> <p>이제 여러 개의 프로젝트로 연결된 폴더 구성이 있는 경우에도 Adobe Workfront 및 Adobe Experience Manager Assets as a Cloud Service 간에 연결된 폴더를 만들 수 있습니다.</p> </li> 
      <li> <p>이벤트 구독 페이지 매김에 대한 지원을 추가했습니다.</p> </li> 
      <li> <p>AEM 6.4.x에 대한 지원이 추가되었습니다</p> </li> 
      <li> <p>프록시 환경에 대한 지원이 추가되었습니다</p> </li> 
@@ -552,7 +552,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md#enhancem" class="MCXref xref" xrefformat="{para}">상단 탐색 모음 개선 사항</a> </p> <p>Adobe Workfront 상단 탐색 막대를 몇 가지 개선했습니다.</p> 
     <ul> 
      <li> <p>이제 즐겨찾기 및 최근 항목에 상단 탐색 모음에 별도의 아이콘이 있습니다. 각 페이지에는 여전히 동일한 컨텐츠(즐겨찾기로 표시한 페이지 및 최근 방문한 페이지)가 표시되며, 동일한 방식으로 즐겨찾기 페이지를 계속 추가 및 제거할 수 있습니다.</p> </li> 
-     <li> <p>핀과 메인 메뉴의 모양과 느낌이 모두 색상 및 글꼴을 포함한 Adobe 디자인 기준으로 업데이트되었습니다. 주 메뉴에서 액세스 권한이 있는 영역 및 핀을 추가하거나 제거하는 방법은 변경되지 않았습니다.</p> </li> 
+     <li> <p>핀과 메인 메뉴의 모양과 느낌이 모두 색상 및 글꼴을 포함한 Adobe 디자인 표준으로 업데이트되었습니다. 주 메뉴에서 액세스 권한이 있는 영역 및 핀을 추가하거나 제거하는 방법은 변경되지 않았습니다.</p> </li> 
      <li> <p>상단 탐색 막대 오른쪽에 있는 아이콘은 보다 직관적으로 순서가 변경되었습니다. 아이콘 순서는 다음과 같습니다. 도움말 링크, 알림, 즐겨찾기, 최근 항목, 검색, 기본 메뉴.</p> </li> 
     </ul> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> 
@@ -620,7 +620,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 ## Workfront 유지 관리 업데이트
 
-22.2 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
+22.2 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ## 22.2 릴리스 웨비나
 
@@ -653,7 +653,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://one.workfront.com/s/training-release-updates)를 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
 
 ## 기능이 더 이상 지원되지 않음
 

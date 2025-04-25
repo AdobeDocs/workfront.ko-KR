@@ -6,7 +6,7 @@ description: 머리글을 검토할 때  [!DNL Adobe Workfront] 의 개체에 �
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3697'
 ht-degree: 0%
@@ -254,7 +254,7 @@ The following headers are available in Home:
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Portfolio 이름이 있는 이동 경로</td> 
+   <td role="rowheader">Portfolio 이름이 포함된 탐색 표시</td> 
    <td> <p>[!UICONTROL 프로그램]의 헤더에서 [!UICONTROL Portfolio]에 액세스할 수 있습니다. 상위 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
@@ -322,7 +322,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">오브젝트 유형 이름</td> 
-   <td> <p>포트폴리오가 활성으로 표시되면 헤더의 포트폴리오 이름 위에 "[!UICONTROL PORTFOLIO]" 텍스트가 표시됩니다.</p> </td> 
+   <td> <p>포트폴리오가 활성으로 표시되면 헤더의 포트폴리오 이름 위에 텍스트 "[!UICONTROL PORTFOLIO]"가 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">활성화 상태</td> 
@@ -333,8 +333,8 @@ The following headers are available in Home:
    <td> <p>포트폴리오 이름 옆에 [!UICONTROL 작업] 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Portfolio 관리자]</td> 
-   <td>헤더에서 [!UICONTROL Portfolio 관리자]를 편집할 수 있습니다. 이는 [!UICONTROL Portfolio 소유자]와 동일합니다.</td> 
+   <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
+   <td>헤더에서 [!UICONTROL Portfolio Manager]를 편집할 수 있습니다. 이는 [!UICONTROL Portfolio Owner]와 동일합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 설정 시간]</td> 
@@ -850,8 +850,8 @@ The following headers are available in Home:
    <td>계획을 보거나 관리할 수 있는 액세스 권한이 있는 사용자는 헤더의 오른쪽 상단에 표시됩니다. 프로필 사진 위로 마우스를 가져가면 이름이 표시됩니다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Publish으로 이동]</td> 
-   <td>[!UICONTROL Publish으로 이동]을 클릭하면 보고 있는 시나리오에서 이니셔티브에 연결된 프로젝트를 만들거나 업데이트할 수 있습니다.</td> 
+   <td role="rowheader">[!UICONTROL Go to Publish]</td> 
+   <td>[!UICONTROL 게시로 이동]을 클릭하면 보고 있는 시나리오에서 이니셔티브에 연결된 프로젝트를 만들거나 업데이트할 수 있습니다.</td> 
   </tr> 
  </tbody> 
 </table>

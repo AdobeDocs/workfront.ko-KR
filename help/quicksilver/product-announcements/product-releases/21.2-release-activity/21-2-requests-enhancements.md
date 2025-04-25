@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 새 요청 만들기에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 공동 작업자 기본 사항](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 공동 작업자 기본 사항](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)에 포함되어 있습니다.
 
 ## 요청 워크플로에 대한 개선 사항
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 * 이제 페이지에서 나가면 열 중 하나를 기준으로 제출된 요청 목록 정렬이 유지됩니다. 자세한 내용은 [제출된 요청 찾기](../../../manage-work/requests/create-requests/locate-submitted-requests.md)를 참조하십시오.
 * 이제 새 요청을 만들 때 제출 및 취소 버튼이 새 요청 양식 하단에 있습니다. 자세한 내용은 [Workfront 요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 공동 작업자 기본 사항](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 공동 작업자 기본 사항](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)에 포함되어 있습니다.
 
 ## 요청 영역의 제출됨 섹션에서 요약 패널 열기
 
@@ -76,7 +76,7 @@ Adobe Workfront의 모든 영역에서 경험을 일관되게 유지하기 위�
 
 제출된 요청에 대한 자세한 내용은 [제출된 요청 찾기](../../../manage-work/requests/create-requests/locate-submitted-requests.md)를 참조하십시오.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 공동 작업자 기본 사항](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 공동 작업자 기본 사항](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)에 포함되어 있습니다.
 
 ## 새 요청 양식에서 제거된 새 문제 필드 다시 가져오기
 
@@ -104,7 +104,7 @@ Adobe Workfront의 모든 영역에서 경험을 일관되게 유지하기 위�
 
 요청 제출에 대한 자세한 내용은 [Workfront 요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 공동 작업자 기본 사항](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 공동 작업자 기본 사항](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)에 포함되어 있습니다.
 
 ## 요청을 제출할 때 요청 대기열에 대한 링크 공유
 
@@ -118,4 +118,4 @@ Adobe Workfront의 모든 영역에서 경험을 일관되게 유지하기 위�
 
 요청을 제출할 때 요청 대기열에 대한 링크를 공유하는 방법에 대한 자세한 내용은 [요청 대기열에 대한 링크 공유](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)를 참조하십시오.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 공동 작업자 기본 사항](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 공동 작업자 기본 사항](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)에 포함되어 있습니다.

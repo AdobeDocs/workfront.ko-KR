@@ -6,7 +6,7 @@ description: Workfront과 Experience Manager Assets 또는 Assets Essentials 간
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: 68692d49420fe3f3a1f8294d77fe8b335845acc7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Workfront과 Experience Manager Assets 또는 Assets Essentials 간의 통합을
 ## 전제 조건
 
 * Workfront은 할당된 조직 ID가 있는 Admin Console에 있어야 합니다.
-* Workfront 및 Experience Manager Assets 또는 Assets Essentials은 통합을 구성하는 사용자에게 제품으로 할당되어야 합니다.
+* Workfront 및 Experience Manager Assets 또는 Assets Essentials는 통합을 구성하는 사용자에게 제품으로 할당해야 합니다.
 
 
 ## 지원되는 제품
@@ -54,9 +54,9 @@ Workfront과 Experience Manager Assets 또는 Assets Essentials 간의 통합을
 
 ## 시작하기
 
-1. [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑을 구성합니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑을 구성합니다](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 1. 통합 설정:
    1. [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 또는
    1. [Experience Manager Assets Essentials 통합 구성하기](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-1. 자산 전송, 연결된 폴더 만들기, 메타데이터 매핑 등 통합을 사용합니다. 자세한 내용은 [Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 문서 인덱스](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)를 참조하십시오.
+1. 자산 전송, 연결된 폴더 만들기, 메타데이터 매핑 등 통합을 사용합니다. 자세한 내용은 [Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)을 참조하십시오.

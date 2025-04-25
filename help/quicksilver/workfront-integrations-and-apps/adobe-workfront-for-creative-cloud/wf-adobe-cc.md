@@ -8,7 +8,7 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 ## 플러그인 설치 및 사용
 
-다음 Creative Cloud 앱에서 [!DNL Creative Cloud] 플러그인의 [!DNL Adobe Workfront]을(를) 사용할 수 있습니다
+[!DNL Creative Cloud] 플러그인에 대한 [!DNL Adobe Workfront]은(는) 다음 Creative Cloud 앱에서 사용할 수 있습니다
 
 {{cc-app-list}}
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 * [ [!DNL Creative Cloud] 응용 프로그램용  [!DNL Adobe Workfront] 플러그 인 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
 * [ [!DNL Creative Cloud] 응용 프로그램에 대한  [!DNL Adobe Workfront] 플러그인으로 작업 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [ [!DNL Creative Cloud] Applications용  [!DNL Adobe Workfront] 플러그인으로 문서 및 증명 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
-* [비디오 튜토리얼:  [!DNL Creative Cloud]에  [!DNL Adobe Workfront] 플러그인 사용](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
+* [비디오 튜토리얼:  [!DNL Creative Cloud]에  [!DNL Adobe Workfront] 플러그인 사용](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [비디오 자습서: 패키지 만들기 및 관리, 업데이트 배포 및 설치 오류 문제 해결](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
 >[!NOTE]

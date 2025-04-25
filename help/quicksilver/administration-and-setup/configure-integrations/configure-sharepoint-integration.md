@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 0%
@@ -133,7 +133,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 | 액세스 | 이유 |
 |---|---|
-| 파일에 대한 전체 액세스 권한 보유 | [!DNL Workfront]이(가) 사용자의 파일에 액세스하여 자산을 연결할 수 있도록 허용합니다. 문서를 [!DNL Workfront]에서 [!DNL SharePoint](으)로 보낼 때 [!DNL Workfront]은(는) 에셋을 만들 수 있는 액세스 권한이 필요합니다. |
+| 파일에 대한 전체 액세스 권한 보유 | [!DNL Workfront]이(가) 사용자의 파일에 액세스하여 자산을 연결할 수 있도록 허용합니다. 문서를 [!DNL Workfront]에서 [!DNL SharePoint]&#x200B;(으)로 보낼 때 [!DNL Workfront]은(는) 에셋을 만들 수 있는 액세스 권한이 필요합니다. |
 | 모든 사이트 모음의 항목 읽기 | [!DNL Workfront]이(가) 에셋을 읽어서 사용자 탐색을 사용하도록 허용합니다. |
 | 모든 사이트 모음의 항목 편집 또는 삭제 | [!DNL Workfront]에서 사이트 및 사이트 모음에 자산을 만들 수 있습니다. 삭제는 실패한 링크 시도 후 정리할 때만 사용됩니다. |
 | 액세스 권한을 부여한 데이터에 대한 액세스 유지 | [!DNL Workfront]이(가) 새로 고침 토큰을 생성할 수 있도록 허용합니다. |
@@ -152,7 +152,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 [!DNL Workfront]은(는) [!DNL SharePoint]의 데이터를 저장, 복사 또는 복제하지 않습니다. 유일한 예외는 [!DNL Workfront]이(가) [!DNL SharePoint]의 축소판을 저장하여 목록 보기와 미리 보기에 표시한다는 것입니다.
 
-에셋을 [!DNL Workfront]에 업로드한 다음 [!DNL SharePoint](으)로 보낸 경우 사용자가 이전 버전의 [!DNL Workfront] 문서를 다운로드할 수 있으므로 [!DNL Workfront]에서 첫 번째 파일에 대한 데이터를 유지합니다. [!DNL SharePoint]에서 문서를 만든 경우 [!DNL Workfront]은(는) 해당 파일 데이터를 저장하지 않습니다.
+에셋을 [!DNL Workfront]에 업로드한 다음 [!DNL SharePoint]&#x200B;(으)로 보낸 경우 사용자가 이전 버전의 [!DNL Workfront] 문서를 다운로드할 수 있으므로 [!DNL Workfront]에서 첫 번째 파일에 대한 데이터를 유지합니다. [!DNL SharePoint]에서 문서를 만든 경우 [!DNL Workfront]은(는) 해당 파일 데이터를 저장하지 않습니다.
 
 ## 문서에 계속 액세스할 수 있도록 레거시 [!DNL SharePoint] 통합을 구성하십시오.
 
@@ -168,7 +168,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 >[!NOTE]
 >
 > * 기존 [!DNL SharePoint] 통합에는 &quot;[!DNL SharePoint]&quot; 레이블이 지정됩니다.
-> * 새 [!DNL SharePoint] 통합에는 &quot;[!UICONTROL [!DNL SharePoint](Graph API)]&quot; 레이블이 지정됩니다.
+> * 새 [!DNL SharePoint] 통합에는 &quot;[!UICONTROL [!DNL SharePoint]&#x200B;(Graph API)]&quot; 레이블이 지정됩니다.
 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL 클라우드 공급자]**&#x200B;를 선택하십시오.

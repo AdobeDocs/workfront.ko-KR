@@ -7,7 +7,7 @@ description: 이 기능을 사용하려면 Select 또는 Premium 플랜이 필�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c0433621-3988-45f2-9d6b-68ef92b5b7d2
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
-이 기능을 사용하려면 Select 또는 Premium 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://www.workfront.com/plans)을 참조하세요.
+이 기능을 사용하려면 Select 또는 Premium 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하세요.
 
 여러 증명에 대해 검토자로 추가할 수 있는 사용자 그룹을 만들 수 있습니다. 이 기능은 동일한 사용자에게 콘텐츠를 정기적으로 전송하는 경우에 유용합니다.
 

@@ -7,7 +7,7 @@ description: 프로젝트 관리자가 작업을 생성하여 프로젝트에 �
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 이 문서에서는 업무 균형자의 일반적인 목적과 이를 성공적으로 사용하도록 프로젝트 및 리소스를 설정하는 방법에 대한 몇 가지 모범 사례에 대해 설명합니다.
 
-업무 균형자의 비디오 튜토리얼을 검토하려면 [Workfront 튜토리얼](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) 페이지로 이동하십시오. 왼쪽 메뉴에서 **리소스 관리** > **업무 균형자**&#x200B;를 선택하고 자습서를 선택합니다.
+업무 균형자의 비디오 튜토리얼을 검토하려면 [Workfront 튜토리얼](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) 페이지로 이동하십시오. 왼쪽 메뉴에서 **리소스 관리** > **업무 균형자**&#x200B;를 선택하고 자습서를 선택합니다.
 
 ## 업무 균형자 찾기
 

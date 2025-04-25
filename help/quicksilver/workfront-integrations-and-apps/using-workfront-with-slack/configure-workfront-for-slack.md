@@ -2,11 +2,11 @@
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-slack
 title: Slack에 대해  [!DNL Adobe Workfront] 구성
-description: ' [!DNL Adobe Workfront] Slack과 통합하여  [!DNL Workfront] 작업 항목, 승인, 즐겨찾기, 최근 항목 등을 Slack에서 액세스하고 만들 수 있습니다.'
+description: ' [!DNL Adobe Workfront] Slack과 통합하여 Slack에서  [!DNL Workfront] 작업 항목, 승인, 즐겨찾기, 최근 항목에 액세스하고 만들 수 있습니다.'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] 계획]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] 계획]</a>*</td> 
    <td> <p>[!UICONTROL Pro] 이상</p> </td> 
   </tr> 
  </tbody> 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Slack을 위한 [!DNL Workfront]의 새 버전이 출시되면 앱을 계속 사용하려면 앱을 다시 승인해야 합니다.
+>Slack용 [!DNL Workfront]의 새 버전이 출시되면 앱을 계속 사용하려면 앱을 다시 승인해야 합니다.
 
 1. [[!DNL Slack] 스토어](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info)에서 [!DNL Adobe Workfront] 추가 기능을 찾습니다.
 

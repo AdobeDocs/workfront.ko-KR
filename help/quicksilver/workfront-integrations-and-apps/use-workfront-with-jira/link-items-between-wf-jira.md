@@ -6,7 +6,7 @@ description: ' [!DNL Jira] 문제를  [!DNL Adobe Workfront] 작업 또는 문�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] 계획]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] 계획]</a>*</td> 
    <td> <p>[!UICONTROL Pro] 이상</p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ Jira 문제를 자동으로 만들기 위한 트리거를 정의하는 방법에
 
    시스템 또는 그룹 관리자가 작업 또는 문제 헤더에 표시하려면 [!UICONTROL 통합] 필드를 레이아웃 템플릿에 추가해야 합니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오.
 
-   [!DNL Jira] 사용자는 [!DNL Workfront]에서 자동으로 만든 항목에 대한 작업을 즉시 시작할 수 있으며, [!DNL Workfront]에 대한 라이선스가 없어도 해당 업데이트가 [!DNL Workfront](으)로 전송됩니다.
+   [!DNL Jira] 사용자는 [!DNL Workfront]에서 자동으로 만든 항목에 대한 작업을 즉시 시작할 수 있으며, [!DNL Workfront]에 대한 라이선스가 없어도 해당 업데이트가 [!DNL Workfront]&#x200B;(으)로 전송됩니다.
 
    [!DNL Workfront] 추가 기능을 설정하는 동안 [!DNL Workfront] 관리자인 필드만 업데이트됩니다.
 
@@ -144,9 +144,9 @@ Jira 문제를 자동으로 만들기 위한 트리거를 정의하는 방법에
 
    >[!IMPORTANT]
    >
-   >조직이 Adobe 통합 경험에 온보딩된 경우 Workfront 항목을 Jira에 연결하려면 **참조 번호**&#x200B;를 사용해야 합니다. (URL 옵션을 사용할 수 있지만 이 옵션을 사용하면 오류가 반환됩니다.) 통합 경험에 대한 자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
+   >조직이 Adobe 통합 경험에 온보딩된 경우 Workfront 항목을 Jira에 연결하려면 **참조 번호**&#x200B;를 사용해야 합니다. (URL 옵션을 사용할 수 있지만 이 옵션을 사용하면 오류가 반환됩니다.) 통합 경험에 대한 자세한 내용은 [Workfront용 Adobe 통합 경험](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하십시오.
    >
-   >통합 경험 Adobe에 없는 조직의 경우 URL이 변경될 수 있으므로 URL 옵션을 사용하지 않는 것이 좋습니다.
+   >Adobe 통합 경험을 기반으로 하지 않는 조직의 경우 URL이 변경될 수 있으므로 URL 옵션을 사용하지 않는 것이 좋습니다.
 
    >[!NOTE]
    >

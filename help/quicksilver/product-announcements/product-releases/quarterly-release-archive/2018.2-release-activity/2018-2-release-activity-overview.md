@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b9dd01ee0e8732bf7e2fec68a7682fc17271e19e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 * [Google 팀 드라이브 지원](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
 * [간트 차트의 새 내보내기 제한](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart) 
 * [프로젝트 목록의 간트 차트에서 프로젝트 간 전임 작업 관계 보기](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#view-cross-project-predecessor-relationshipts-in-the-gantt)
-* [Portfolio 최적화 도구에서 예산 비용을 사용하여 Portfolio 재무 계산](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
+* [Portfolio Optimizer에서 예산 비용을 사용하여 Portfolio 재무 계산](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
 * [간트 차트에서 작업 날짜 수정](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#modify-task-dates-in-the-gantt-chart)
 * [업데이트 탭에서 프로젝트 간트 차트에 액세스](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#access-the-project-gantt-chart-from-the-updates-tab)
 * [새 프로젝트 목록 환경](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#new-project-list-expeirence)
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 * [Salesforce용 Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce) 준비 중!
 
-* Slack 개선을 위한 [Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements)개 신규! (Beta Final에서)
+* [Slack용 Workfront 개선 사항](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements)이 새로 추가되었습니다! (Beta Final에서)
 
 ### API 개선 사항
 
@@ -166,9 +166,9 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
 
   자세한 내용은 [간트 차트에서 정보 보기](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)를 참조하세요.
 
-* Portfolio 최적기가 새 Portfolio 최적기로 대체됩니다.
+* Portfolio Optimizer가 새 Portfolio Optimizer로 교체됩니다.
 
-  자세한 내용은 [Portfolio 최적화 도구 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
+  자세한 내용은 [Portfolio Optimizer 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하세요.
 
 * 용량 플래너가 새 리소스 플래너로 대체됩니다.
 
@@ -215,7 +215,7 @@ Workfront은 7월 18.2 제품 릴리스 이후 더 이상 추가 기능의 데�
 
 다음 리소스를 사용하여 Outlook용 Workfront에 대해 자세히 알아보고 시작하십시오.
 
-* [웹 사이트 및 비디오](https://www.workfront.com/integrations/outlook) 
+* [웹 사이트 및 비디오](https://business.adobe.com/products/workfront/integrations.html) 
 * [Outlook에서 Workfront 사용](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)(도움말 문서)
 
 ### 이전 API 버전 제거 {#removing-old-api-versions}

@@ -1,12 +1,12 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Slack 댓글을 업데이트로 게시
-description: Adobe Workfront의 특정 프로젝트, 작업 또는 문제에 대한 업데이트로 Slack 주석을 추가할 수 있습니다.
+title: Slack 댓글을 업데이트로 게시하기
+description: Slack 댓글을 Adobe Workfront의 특정 프로젝트, 작업 또는 문제에 대한 업데이트로 추가할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] 계획]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] 계획]</a>*</td> 
    <td> <p>[!UICONTROL Pro] 이상</p> </td> 
   </tr> 
  </tbody> 

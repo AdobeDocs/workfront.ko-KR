@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '보기: 작업 보기의 기간 및 계획된 작업에 대한 기준선 차이'
+title: '보기: 작업 보기의 기간 및 계획된 작업에 대한 초기 계획 차이'
 description: 기간 및 계획된 작업에 대한 베이스라인 차이를 봅니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%

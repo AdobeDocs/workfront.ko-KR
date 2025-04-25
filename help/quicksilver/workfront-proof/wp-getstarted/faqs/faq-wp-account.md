@@ -8,7 +8,7 @@ description: 새 계정을 열려면 평가판 등록 페이지로 이동하여 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 새 [!DNL Workfront Proof] 계정을 여는 방법
 
-새 계정을 열려면 [평가판 등록 페이지](https://www.proofhq.com/html/free-trial.html)(으)로 이동하여 평가판 계정을 여십시오. 그러면 팀원이 [!DNL Workfront Proof]을(를) 시작하는 데 도움을 주기 위해 연락하게 됩니다.
+새 계정을 열려면 [평가판 등록 페이지](https://business.adobe.com/products/workfront/proofing-approvals.html)&#x200B;(으)로 이동하여 평가판 계정을 여십시오. 그러면 팀원이 [!DNL Workfront Proof]을(를) 시작하는 데 도움을 주기 위해 연락하게 됩니다.
 
 시스템을 이미 알고 있고 유료 요금제에 등록하려면 *[!UICONTROL 설정]* *>* *[!UICONTROL 청구]*(으)로 이동하여 계정을 유료 요금제 중 하나로 업그레이드하세요.
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 비밀번호를 잊어버렸는데 어떻게 해야 하나요?
 
-[로그인 페이지](https://app.proofhq.com/login)(으)로 이동한 다음 *[!UICONTROL 암호 찾기]*&#x200B;를 클릭합니다. 암호를 변경할 수 있는 재설정 링크를 이메일로 보내 드립니다.
+[로그인 페이지](https://app.proofhq.com/login)&#x200B;(으)로 이동한 다음 *[!UICONTROL 암호 찾기]*&#x200B;를 클릭합니다. 암호를 변경할 수 있는 재설정 링크를 이메일로 보내 드립니다.
 
 ## 권한 프로필이 중요한 이유는 무엇입니까?
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ## 실수로 증명을 삭제하는 경우 어떻게 해야 합니까?
 
-증명이 삭제되면 사이드바의 [!UICONTROL 휴지통] 폴더로 이동됩니다. 실수로 무언가를 삭제했더라도 걱정하지 마십시오 - 증명을 삭제할 수 있다면 휴지통에서 복구 할 수 있습니다. 간단히 [!UICONTROL 휴지통](으)로 이동하여 삭제한 증명을 선택하고 *[!UICONTROL 복원]*&#x200B;을 클릭하세요.
+증명이 삭제되면 사이드바의 [!UICONTROL 휴지통] 폴더로 이동됩니다. 실수로 무언가를 삭제했더라도 걱정하지 마십시오 - 증명을 삭제할 수 있다면 휴지통에서 복구 할 수 있습니다. 간단히 [!UICONTROL 휴지통]&#x200B;(으)로 이동하여 삭제한 증명을 선택하고 *[!UICONTROL 복원]*&#x200B;을 클릭하세요.
 
 휴지통 폴더에 대한 자세한 내용은 [휴지통 복원 및 비우기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) 문서에서 확인할 수 있습니다.
 

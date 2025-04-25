@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: acd1fe5500776b8f16c67b05048a88d0c8107079
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -514,7 +514,7 @@ RichTextNote 개체에서 `REPORTABLE` 플래그를 제거했습니다.
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>이러한 작업은 시스템 전체에서 필터, 보기 및 그룹화를 공유하는 기능을 지원합니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">모든 사용자가 사용할 수 있는 필터, 보기 또는 그룹화 만들기</a>를 참조하십시오.</p>
+            <p>이러한 작업은 시스템 전체에서 필터, 보기 및 그룹화를 공유하는 기능을 지원합니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">모든 사용자가 사용할 수 있는 필터, 보기 또는 그룹화 만들기</a>를 참조하십시오.</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ RichTextNote 개체에서 `REPORTABLE` 플래그를 제거했습니다.
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>이러한 작업은 시스템 전체에서 필터, 보기 및 그룹화를 공유하는 기능을 지원합니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">모든 사용자가 사용할 수 있는 필터, 보기 또는 그룹화 만들기</a>를 참조하십시오.</p>
+            <p>이러한 작업은 시스템 전체에서 필터, 보기 및 그룹화를 공유하는 기능을 지원합니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">모든 사용자가 사용할 수 있는 필터, 보기 또는 그룹화 만들기</a>를 참조하십시오.</p>
          </li>
         </ul>
       </td>
@@ -579,7 +579,7 @@ RichTextNote 개체에서 `REPORTABLE` 플래그를 제거했습니다.
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>이러한 작업은 시스템 전체에서 필터, 보기 및 그룹화를 공유하는 기능을 지원합니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">모든 사용자가 사용할 수 있는 필터, 보기 또는 그룹화 만들기</a>를 참조하십시오.</p>
+            <p>이러한 작업은 시스템 전체에서 필터, 보기 및 그룹화를 공유하는 기능을 지원합니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">모든 사용자가 사용할 수 있는 필터, 보기 또는 그룹화 만들기</a>를 참조하십시오.</p>
          </li>
         </ul>
       </td>

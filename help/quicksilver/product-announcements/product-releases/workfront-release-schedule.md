@@ -8,7 +8,7 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Adobe Workfront에는 새로운 기능과 업데이트를 릴리스하기 위한
 
 ### 유지 보수 업데이트
 
-Adobe Workfront 제품에 대한 문제 수정은 매주 프로덕션 환경에서 사용할 수 있습니다. 최근 수정된 사항을 확인하려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하세요.
+Adobe Workfront 제품에 대한 문제 수정은 매주 프로덕션 환경에서 사용할 수 있습니다. 최근 수정된 사항을 확인하려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) 페이지를 참조하세요.
 
 ## 예약된 릴리스에서 제거된 기능
 

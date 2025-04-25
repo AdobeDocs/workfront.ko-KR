@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 14%
@@ -43,6 +43,6 @@ Adobe 제품의 정렬을 개선하고 Workfront 애플리케이션 전체의 �
 
 >[!NOTE]
 >
->이 변경 사항은 2022년 5월 23일 프로덕션에서 업데이트되었습니다. 자세한 내용은 [2022년 5월 26일 유지 보수 업데이트](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022)를 참조하십시오.
+>이 변경 사항은 2022년 5월 23일 프로덕션에서 업데이트되었습니다. 자세한 내용은 [2022년 5월 26일 유지 보수 업데이트](https://experienceleague.adobe.com/en/docs/workfront/using/home)를 참조하십시오.
 
 이동 경로를 사용할 수 있는 모든 영역에서 이동 경로 구분 기호를 업데이트했습니다. 이제 이동 경로의 오브젝트가 파이프(|)로 구분됩니다. 이 업데이트 이전에는 슬래시(/)로 구분되었습니다.

@@ -6,7 +6,7 @@ description: 올바른 액세스 또는 권한이 없으면 업무 균형자에�
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-Workfront 플랜에 대한 자세한 내용은 [플랜](https://www.workfront.com/plans)을 참조하세요.
+Workfront 플랜에 대한 자세한 내용은 [플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하세요.
 
 Workfront에서 업무 균형자를 찾을 수 있는 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)를 참조하십시오.
 
@@ -104,7 +104,7 @@ Workfront에서 업무 균형자를 찾을 수 있는 위치에 대한 자세한
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p> 할당할 프로젝트에 대한 Contribute 이상의 권한으로, 할당에 대한 권한이 포함되어 있습니다. </p> <p>프로젝트 권한에 대한 자세한 내용은 문서 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>를 참조하십시오.</p></td>
+   <td> <p> 할당할 프로젝트에 대해 할당할 권한이 포함된 상위 이상의 권한을 부여합니다. </p> <p>프로젝트 권한에 대한 자세한 내용은 문서 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>를 참조하십시오.</p></td>
   </tr> 
  </tbody> 
 </table>

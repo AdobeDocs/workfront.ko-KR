@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -343,11 +343,11 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">Dropbox 비즈니스에서 문서 연결</a> </p> <p>Dropbox 비즈니스를 사용 가능한 문서 통합으로 추가했습니다. 이제 Workfront 내부에서 직접 Dropbox 비즈니스에 저장한 문서에 액세스할 수 있습니다.</p> <p>Dropbox 비즈니스를 사용하면 공유 문서를 연결하고 문서를 공유 폴더에 업로드할 수 있습니다. Dropbox(Dropbox 비즈니스 아님)에서는 문서 소유자만 Workfront에서 문서를 볼 수 있습니다.</p> <p>Workfront 관리자가 조직에 대해 이 통합을 활성화할 수 있습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">Dropbox Business에서 문서 연결</a> </p> <p>Dropbox Business를 사용 가능한 문서 통합으로 추가했습니다. 이제 Workfront 내에서 Dropbox Business에 저장한 문서에 직접 액세스할 수 있습니다.</p> <p>Dropbox Business를 사용하면 공유 문서를 연결하고 문서를 공유 폴더에 업로드할 수 있습니다. Dropbox(Dropbox Business 아님)에서는 문서 소유자만 Workfront에서 문서를 볼 수 있습니다.</p> <p>Workfront 관리자가 조직에 대해 이 통합을 활성화할 수 있습니다.</p> </td> 
    <td> <p><b>다음 날짜에 사용 가능:</b> </p> <p>미리보기 릴리스: 해당 사항 없음<br></p> <p>프로덕션 릴리스: 21.4 릴리스 포함</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront 클래식 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Slack을 위한 Workfront 업데이트</a> </p> <p>이제 다음 업데이트가 Slack 통합을 위한 Workfront에 표시됩니다.</p> <p>이제 Slack 통합을 위한 Workfront에 새로운 모양과 느낌이 있습니다. Workfront 또한 이제 Slack 알림을 실시간으로 받을 수 있습니다. </p> <p>예를 들어 작업에 할당되면 할당되자마자 해당 알림을 받습니다. </p> <p>이전에는 Slack에 알림이 표시되기 전에 지연이 있을 수 있었습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Slack용 Workfront 업데이트</a> </p> <p>이제 Slack용 Workfront 통합에 다음 업데이트가 표시됩니다.</p> <p>이제 Slack용 Workfront 통합에 새로운 모양과 느낌이 있습니다. 또한 이제 Workfront for Slack 알림을 실시간으로 받게 됩니다. </p> <p>예를 들어 작업에 할당되면 할당되자마자 해당 알림을 받습니다. </p> <p>이전에는 Slack에 알림이 표시되기 전에 지연이 있을 수 있었습니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 2021년 7월 29일<br></p> <p>프로덕션 릴리스: 2021년 7월 29일</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront 클래식 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -465,7 +465,7 @@ Workfront 21.4 릴리스 웨비나는 2021년 9월 23일에 제공되었습니�
 
 ## 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://one.workfront.com/s/training-release-updates)를 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
 
 ## 기능이 더 이상 지원되지 않음
 

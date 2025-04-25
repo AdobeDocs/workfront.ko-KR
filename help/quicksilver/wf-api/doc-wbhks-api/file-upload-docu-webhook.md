@@ -8,10 +8,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 **예:** 문서 관리 시스템에서 문서에 대한 추가 정보를 원하는 경우 웹후크 구현 코드는 문서 ID를 사용하여 Workfront의 RESTful API를 사용하여 해당 정보를 검색할 수 있습니다. 문서의 사용자 정의 데이터 필드에서 가져온 이 정보에는 작업, 문제 또는 프로젝트가 포함되어 있는 것이 좋습니다.
 
-## POST 방법
+## POST 메서드
 
 **URL**
 
@@ -71,13 +71,13 @@ POST /uploadInit
 https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&documentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b
 ```
 
-## PUT 방법
+## PUT 메서드
 
 문서의 바이트를 웹후크 공급자에 업로드합니다.
 
 **URL**
 
-PUT /업로드
+PUT /upload
 
 ## 쿼리 매개변수
 

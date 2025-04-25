@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 자세한 내용은 [블루프린트 개요](../../../administration-and-setup/blueprints/blueprints-overview.md)를 참조하십시오.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험의 프로젝트 템플릿](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) 학습 경로에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험의 프로젝트 템플릿](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
 
 ## 그룹 관리자를 위한 새로운 기능: 모든 수준에서 그룹에 대한 상태를 만들고 관리합니다.
 

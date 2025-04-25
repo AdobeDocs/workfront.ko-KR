@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 >
 >**프로덕션 가용성:**(20.4 릴리스 포함)
 
-이 기능은 이제 Workfront One의 [Workfront 목표 학습 경로](https://one.workfront.com/s/getting-started?tabset-9473f=c292c)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [Workfront 목표 학습 경로](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
 
 ## Workfront 목표에 대한 액세스 제어
 
@@ -61,7 +61,7 @@ Workfront 목표에 대한 액세스 권한 부여에 대한 자세한 내용은
 >
 >**프로덕션 가용성:**(20.4 릴리스 포함)
 
-이 기능은 이제 Workfront One의 [Workfront 목표 학습 경로](https://one.workfront.com/s/getting-started?tabset-9473f=c292c)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [Workfront 목표 학습 경로](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
 
 ## Workfront 목표 유용성 개선 사항
 
@@ -82,4 +82,4 @@ Workfront 목표에 대한 액세스 권한 부여에 대한 자세한 내용은
 >
 >**프로덕션 가용성:**(20.4 릴리스 포함)
 
-이 기능은 이제 Workfront One의 [Workfront 목표 학습 경로](https://one.workfront.com/s/getting-started?tabset-9473f=c292c)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [Workfront 목표 학습 경로](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.

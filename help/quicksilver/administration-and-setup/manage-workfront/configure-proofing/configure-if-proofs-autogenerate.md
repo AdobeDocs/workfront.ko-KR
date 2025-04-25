@@ -6,7 +6,7 @@ navigation-topic: configure-proofing-functionality
 title: 증명을 자동으로 생성할지 여부 구성
 description: 사용자가 Workfront에 문서를 추가하도록 지정할 때 시스템에서 증명을 자동으로 생성할지 여부를 구성할 수 있습니다. 이 설정은 기본적으로 비활성화되어 있습니다.
 author: Courtney
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
@@ -27,7 +27,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront 플랜</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront 플랜</a> </td> 
    <td>임의</td> 
   </tr> 
   <tr> 

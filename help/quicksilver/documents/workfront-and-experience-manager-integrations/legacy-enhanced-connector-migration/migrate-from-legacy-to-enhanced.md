@@ -6,7 +6,7 @@ description: 다음 프로세스에서는 Adobe Experience Manager 레거시 커
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >이 설명서는 Adobe Experience Manager Assets On-Premise 또는 Managed Services 환경을 사용하는 고객에게만 적용됩니다.
 
 
-Adobe Experience Manager Assets as a Cloud Service 고객의 경우 기존 커넥터의 마이그레이션 경로가 Workfront 내부의 새로운 기본 통합으로 변경됩니다. 이 마이그레이션 프로세스에 대한 자세한 내용은 [기존 또는 향상된 커넥터에서 Adobe Experience Manager as a Cloud Service 통합을 위한 Workfront으로 마이그레이션](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)을 참조하세요.
+Adobe Experience Manager Assets as a Cloud Service을 사용하는 고객의 경우 기존 커넥터의 마이그레이션 경로가 Workfront 내의 새로운 기본 통합으로 변경됩니다. 이 마이그레이션 프로세스에 대한 자세한 내용은 [기존 또는 향상된 커넥터에서 Adobe Experience Manager as a Cloud Service 통합을 위한 Workfront으로 마이그레이션](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)을 참조하세요.
 
 ## 향상된 커넥터 구현
 
@@ -30,9 +30,9 @@ Adobe Experience Manager Assets as a Cloud Service 고객의 경우 기존 커�
 >
 >향상된 커넥터를 구현하려면 인증된 파트너 또는 Adobe Consulting 서비스가 필요합니다.
 >
-> 향상된 커넥터에 대한 인증을 원하는 파트너는 다음 문서를 검토하십시오. [Workfront for Experience Manager 향상된 커넥터 전문가 시리즈](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html?lang=en).
+> 향상된 커넥터에서 인증하려는 파트너는 다음 문서를 검토하십시오. [Workfront for Experience Manager 향상된 커넥터 전문가 시리즈](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-향상된 커넥터를 구현하려면 [Experience Manager 향상된 커넥터용 Workfront 구성](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-connector-configure.html?lang=en)을 참조하십시오.
+향상된 커넥터를 구현하려면 [Experience Manager용 Workfront 강화 커넥터 구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)을 참조하십시오.
 
 
 ## 기존 에셋 이동

@@ -7,7 +7,7 @@ description: Salesforce용  [!DNL Adobe Workfront] 을(를) 설치하여 Salesfo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront for Salesforce] 개요
 
-이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://www.workfront.com/plans)을 참조하세요.
+이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하세요.
 
 [!DNL Adobe Workfront for Salesforce]을(를) 설치하여 [!DNL Salesforce] 사용자가 [!DNL Workfront]개의 요청을 제출하고 [!DNL Salesforce]을(를) 종료하지 않고 자동으로 프로젝트를 만들 수 있습니다.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
   [!DNL Salesforce]에서 [!DNL Workfront] 프로젝트를 만드는 방법에 대한 자세한 내용은 [만들기 [!DNL Adobe Workfront] 개체 [!DNL Salesforce] 에서 프로젝트](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)를 참조하십시오.
 
-[!DNL Salesforce]에 대해 [!DNL Workfront](으)로 작업할 때 다음 사항을 고려하십시오.
+[!DNL Salesforce]에 대해 [!DNL Workfront]&#x200B;(으)로 작업할 때 다음 사항을 고려하십시오.
 
 * [!DNL Salesforce Classic] 및 [!DNL Lightning Experience] 프레임워크를 모두 지원합니다.
 * [!DNL Salesforce]에서 [!DNL Workfront]까지만 항목을 만들 수 있습니다.

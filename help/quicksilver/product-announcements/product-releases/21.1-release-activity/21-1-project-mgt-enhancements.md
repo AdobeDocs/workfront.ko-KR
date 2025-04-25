@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 자세한 내용은 [프로젝트 지표 개요](../../../manage-work/projects/manage-projects/project-metrics.md)를 참조하십시오.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 플래너 기본 사항, 3부: 프로젝트 관리](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) 학습 경로에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 플래너 기본 사항, 3부: 프로젝트 관리](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
 
 ## 문제 업데이트에서 프로젝트 또는 작업이 전환될 때 문제 완료율 업데이트
 
@@ -41,9 +41,9 @@ ht-degree: 1%
 
 제출된 요청을 찾는 방법에 대한 자세한 내용은 [제출된 요청 찾기](../../../manage-work/requests/create-requests/locate-submitted-requests.md)를 참조하십시오.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 공동 작업자 기본 사항](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 공동 작업자 기본 사항](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)에 포함되어 있습니다.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험의 요청](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) 학습 경로에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험의 요청](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) 학습 경로에 포함되어 있습니다.
 
 ## 새 요청 페이지에서 필드 제거됨
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 
 * 심각도
 * 계획된 시간
-* 계획된 시작 일자 기준
+* 계획된 시작 일자
 * URL
 * 할당 대상
 * 작업 역할

@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 조직은 계정 관리자와 협력하여 AppBuilder를 구매해야 합니다. POC를 위해서 이렇게 할 필요가 없었기 때문에 이에 대한 정확한 프로세스는 이해가 되지 않습니다.
 
 AppBuilder 통합을 테스트하려면 여기에서 IMS 조직에 대한 무료 평가판을 요청할 수 있습니다.
-[https://developer.adobe.com/app-builder/trial/#](https://developer.adobe.com/app-builder/trial/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
 
 30일 무료 체험판인데도 그 시간이 지나면 실제로 체험판이 비활성화되지 않을 거라는 인상을 받고 있다.
 

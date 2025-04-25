@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 ## 릴리스 웨비나
 
-릴리스 웨비나 대신 다음 Workfront 세션을 시청하려면 Adobe Summit에 등록하시기 바랍니다.
+릴리스 웨비나 대신 Adobe Summit에 등록하여 다음 Workfront 세션을 시청하십시오.
 
 [영향력 있는 경험: 2023년 3월 21일 콘텐츠 제작에서 Personalization으로](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9)하여 콘텐츠를 만들고, 관리하고, 개인화하고, 더 높은 효율성으로 영향력 있는 경험을 전달하는 새로운 방법을 알아봅니다. 이 세션은 가상 대상자를 위해 실시간 스트리밍됩니다.
 
-2023년 3월 23일 [Adobe Workfront의 미래](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU)를 통해 Workfront에 대한 비전과 Adobe 생태계 내에서의 위치를 확인하고 향후 로드맵을 간단히 살펴볼 수 있습니다. 이 세션은 나중에 온디맨드 콘텐츠로 녹화되고 사용할 수 있습니다.
+2023년 3월 23일 [Adobe Workfront의 미래](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU)를 통해 Workfront에 대한 비전 및 Adobe 생태계 내에서의 위치를 확인하고 향후 로드맵을 간단히 살펴볼 수 있습니다. 이 세션은 나중에 온디맨드 콘텐츠로 녹화되고 사용할 수 있습니다.
 
 <span class="preview">오프라인 기능(23.2 릴리스 날짜 이전에 프로덕션에 릴리스된 기능)은 노란색으로 강조 표시됩니다.</span>
 
@@ -516,8 +516,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Creative Cloud 플러그인을 위한 Workfront을 처음 사용</a>
-                        <p>Creative Cloud 플러그인용 Workfront에 다음과 같은 변경 사항을 추가했습니다.
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Creative Cloud 플러그인용 Workfront을 처음 사용</a>
+                        <p>Creative Cloud용 Workfront 플러그인에 다음과 같은 변경 사항을 추가했습니다.
                         <ul>
                         <li>이제 플러그인이 작업에 전임 작업이 있는 경우 알림을 보냅니다.</li>
                         <li>한국어는 이제 지원되는 언어입니다</li>
@@ -553,8 +553,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 고객 중 통합 경험 Adobe에 온보딩할 고객</a></p>
-                        <p>통합 경험 Adobe은 다음을 포함합니다.
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 고객을 Adobe 통합 경험에 온보딩할 수 있습니다</a></p>
+                        <p>Adobe 통합 경험에는 다음이 포함됩니다.
                         <ul>
                         <li>Adobe Experience Cloud을 통한 모든 Adobe 애플리케이션에 대한 단일 로그인</li>
                         <li>Workfront 조직과 환경 사이를 이동하는 "조직 전환기"</li>
@@ -593,7 +593,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">XD용 Adobe Workfront에서 아트보드를 단일 PDF 또는 여러 PDF 파일로 내보내기</span></a>
-                        <p>이제 Adobe Workfront for XD 플러그인에서 대지를 단일 PDF 파일 또는 여러 PDF 파일로 내보내도록 선택할 수 있습니다.</p>
+                        <p>이제 Adobe Workfront for XD 플러그인에서 아트보드를 단일 PDF 파일 또는 여러 PDF 파일로 내보내도록 선택할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -653,11 +653,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-23.2 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
+23.2 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront Tutorials 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
 
 ### Workfront에서 곧 제거될 기능
 

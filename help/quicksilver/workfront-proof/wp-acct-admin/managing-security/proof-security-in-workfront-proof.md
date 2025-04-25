@@ -8,7 +8,7 @@ description: ' [!DNL Workfront Proof]의 경우 데이터 보안이 가장 중�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 그 결과, 당사는 고객에게 탁월한 수준의 보안 및 개인정보 보호를 제공합니다.
 
-자세한 내용은 [보안 개요](https://www.workfront.com/workfront-security) 페이지를 참조하십시오.
+자세한 내용은 [보안 개요](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html) 페이지를 참조하십시오.
 
 ## 전자 서명 필요
 

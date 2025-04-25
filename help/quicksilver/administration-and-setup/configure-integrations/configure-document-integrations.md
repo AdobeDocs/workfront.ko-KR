@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 1%
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 * [!DNL Workfront Proof]
 
-  [!DNL Workfront Proof]에서 증명을 연결하면 원래 [!DNL Workfront Proof] 내에 만들어진 증명을 [!DNL Workfront] 내에서 사용할 수 있습니다. 현재 플랜의 경우 이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜 이상이 필요합니다. 새 플랜의 경우 이 기능은 모든 플랜에서 사용할 수 있습니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans)을 참조하십시오.
+  [!DNL Workfront Proof]에서 증명을 연결하면 원래 [!DNL Workfront Proof] 내에 만들어진 증명을 [!DNL Workfront] 내에서 사용할 수 있습니다. 현재 플랜의 경우 이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜 이상이 필요합니다. 새 플랜의 경우 이 기능은 모든 플랜에서 사용할 수 있습니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하십시오.
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 * 기타 문서 공급자(사용자 지정 문서 통합을 통해).
 
-  현재 플랜의 경우 이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜 이상이 필요합니다. 새 플랜의 경우 이 기능은 모든 플랜에서 사용할 수 있습니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans)을 참조하십시오.
+  현재 플랜의 경우 이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜 이상이 필요합니다. 새 플랜의 경우 이 기능은 모든 플랜에서 사용할 수 있습니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하십시오.
 
 또한 타사 DAM 통합을 통해 [!DNL Workfront] 문서 환경을 개선할 수 있습니다. 사용자가 서비스를 [!DNL Workfront] 계정에 연결하려면 관리자가 이러한 기능을 사용하도록 설정해야 합니다.
 

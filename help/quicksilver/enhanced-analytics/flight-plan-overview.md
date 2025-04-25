@@ -7,7 +7,7 @@ description: 플라이트 계획 시각화는 적용된 필터 기준 내에서 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 4%
@@ -34,7 +34,7 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront 플랜</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront 플랜</a>*</td> 
    <td> <p>비즈니스 이상</p> </td> 
   </tr> 
   <tr> 
@@ -149,6 +149,6 @@ ht-degree: 4%
 
 1. 자세한 프로젝트 정보를 보려면 시각화에서 프로젝트를 클릭하여 번다운 및 진행 중인 작업 시각화를 엽니다.
 
-   이러한 시각화는 프로젝트가 궤도를 이탈하게 한 원인에 대한 심층적인 통찰력을 얻는 데 도움이 될 수 있습니다. 또한 진행 중인 프로젝트에 쉽게 체크 인할 수 있습니다.\
+   이러한 시각화를 통해 프로젝트의 원인을 더 깊이 있게 파악할 수 있습니다. insight 또한 진행 중인 프로젝트에 쉽게 체크 인할 수 있습니다.\
    번다운 시각화에 대한 자세한 내용은 [향상된 분석에서 번다운 시각화 보기](../enhanced-analytics/burndown-overview.md)를 참조하십시오. 진행 중인 작업 시각화에 대한 자세한 내용은 [향상된 분석에서 진행 중인 작업 시각화 보기](../enhanced-analytics/tasks-in-flight-overview.md)를 참조하십시오.
 

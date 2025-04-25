@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 0%
@@ -245,7 +245,7 @@ ht-degree: 0%
    <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#added" class="MCXref xref" xrefformat="{para}">Microsoft Teams 알림에 추가된 기능 </a> </p> <p>Microsoft Teams을 통해 Workfront을 더 쉽게 사용할 수 있도록 Workfront에서 전송된 Microsoft Teams 알림에 새로운 기능을 추가했습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#added" class="MCXref xref" xrefformat="{para}">Microsoft Teams 알림에 추가된 기능 </a> </p> <p>Microsoft Teams을 통해 Workfront을 더 쉽게 사용할 수 있도록 Workfront에서 보낸 Microsoft Teams 알림에 새로운 기능을 추가했습니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> <p>Beta 미리보기 릴리스: TBD</p> <p>프로덕션 릴리스: 20.4 릴리스 <strong>(2020년 12월 또는 2021년 초로 연기됨)</strong></p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront 클래식 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-새로운 기능 및 업데이트 내용은 [API 버전 12의 새로운 기능](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm)을 참조하세요.
+새로운 기능 및 업데이트 내용은 [API 버전 12의 새로운 기능](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)을 참조하세요.
 
 API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../../wf-api/api/api-version-support-schedule.md)을 참조하세요.
 
@@ -334,11 +334,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 ### Flash 사용 중단 {#flash-deprecation}
 
-2020년 말, Adobe과 모든 주요 브라우저는 사용 중단 Adobe Flash 기술을 완료하므로 이러한 도구가 더 이상 작동하지 않습니다.
+2020년 말에 Adobe과 모든 주요 브라우저는 사용 중단 Adobe 플래시 기술을 완료하므로 이러한 도구가 더 이상 작동하지 않습니다.
 
-Workfront은 Flash에 의존하지 않는 새로운 솔루션 제품군을 제공하여 최신 기술로의 전환을 지원하는 것을 목표로 합니다. 다음 문서에서 각 특정 Flash 기반 도구의 대체 솔루션에 대해 자세히 알아보십시오. [Adobe Workfront에서 Flash 기반 도구 교체](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Workfront은 Flash에 의존하지 않는 새로운 솔루션 제품군을 제공하여 최신 기술로 전환하는 데 도움을 드리고자 합니다. 다음 문서에서 각 특정 Flash 기반 도구의 대체 솔루션에 대해 자세히 알아보십시오. [Adobe Workfront에서 Flash 기반 도구 대체](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
-모든 Flash 기반 도구는 2020년 11월 19일에 모든 제품에서 제거됩니다. 인스턴스의 보안을 강화하려면 새 도구 사용을 시작하고 그 이전에 Flash 도구를 폐기하는 것이 좋습니다. 11월 19일 이전에 Flash 도구를 비활성화하려면 고객 지원 센터에 문의하십시오.
+모든 Flash 기반 도구는 2020년 11월 19일에 모든 제품에서 제거됩니다. 인스턴스의 보안을 강화하려면 새 도구를 사용하고 그 전에 Flash 도구를 폐기하는 것이 좋습니다. 11월 19일 이전에 Flash 도구를 비활성화하려면 고객 지원 센터에 문의하십시오.
 
 ### 20.4 릴리스 웨비나 {#20-4-release-webinar}
 
@@ -348,7 +348,7 @@ Workfront 20.4 릴리스 웨비나는 2020년 10월 28일 수요일 오전 11시
 
 2020년 5월 20일부터 Workfront은 기능을 매주 미리보기 환경에서 사용할 수 있도록 설정하기 시작했습니다. 이 변경 전에 기능은 일반적으로 2주마다 미리보기 환경에 릴리스되었습니다.
 
-자세한 내용은 [Workfront 미리 보기 릴리스 케이던스의 변경 내용 FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)을 참조하세요.
+자세한 내용은 [Workfront 미리 보기 릴리스 케이던스의 변경 내용 FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하세요.
 
 ### 에 액세스해야 하는 추가 Workfront 허용 목록 {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -363,4 +363,4 @@ Workfront 20.4 릴리스 웨비나는 2020년 10월 28일 수요일 오전 11시
 
 Workfront One을 사용하면 한 번의 로그인으로 Workfront에서 가장 중요한 콘텐츠, 리소스 및 뉴스를 모두 한 곳에서 확인할 수 있습니다. Experience, Community 및 Training 사이트를 통합하여 원하는 항목을 보다 쉽게 찾을 수 있습니다.
 
-[Workfront One에 대해 자세히 알아보세요](https://www.workfront.com/campaigns/workfront-one).
+[Workfront One에 대해 자세히 알아보세요](https://business.adobe.com/products/workfront.html).

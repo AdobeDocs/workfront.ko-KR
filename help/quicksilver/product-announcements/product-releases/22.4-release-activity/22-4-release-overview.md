@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3272'
 ht-degree: 0%
@@ -61,8 +61,8 @@ ht-degree: 0%
     </ul>  </td>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">통합 경험 Adobe으로 마이그레이션</a> </p>
-                        <p>조직이 Adobe Admin Console에 온보딩된 경우 Workfront 인스턴스는 22.4 릴리스가 포함된 Adobe 통합 경험으로 마이그레이션됩니다.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe 통합 경험으로 마이그레이션</a> </p>
+                        <p>조직이 Adobe Admin Console에 온보딩된 경우 Workfront 인스턴스는 22.4 릴리스를 통해 Adobe 통합 경험으로 마이그레이션됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                      <p>
@@ -604,7 +604,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">InDesign에 대한 Adobe Workfront</a> 프로덕션의 새로운 항목 <span style="color: #ff0000;"></span> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">InDesign용 Adobe Workfront</a> 프로덕션의 새로운 기능 <span style="color: #ff0000;"></span> </p>
                         <p>이 플러그인은 이제 InDesign에서 설치할 수 있습니다. XD을 종료하지 않고도 작업 항목 세부 정보에 액세스하고, 업데이트 영역에서 동료와 공동 작업하고, 검토를 위해 증명을 제출할 수 있습니다. 지금 Adobe Creative Cloud 마켓플레이스로 이동하여 플러그인을 다운로드하십시오. </p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -640,7 +640,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">메타데이터가 프로그램 및 포트폴리오 상위 개체를 푸시합니다</a></p>
-                        <p>이제 에셋을 Experience Manager Assets 또는 Assets Essentials으로 처음 전송하면 프로그램 및 포트폴리오 상위 개체에 대해 매핑되도록 구성된 모든 메타데이터도 전송됩니다.</p>
+                        <p>이제 에셋을 Experience Manager Assets 또는 Assets Essentials로 처음 전송하면 프로그램 및 포트폴리오 상위 오브젝트에 매핑되도록 구성된 메타데이터도 모두 전송됩니다.</p>
                         <p>이전에는 상위 프로젝트 데이터만 전송되었습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -734,7 +734,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
+22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ### 22.4 릴리스 웨비나
 
@@ -742,7 +742,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://one.workfront.com/s/training-release-updates)를 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
 
 ### 22.4 릴리스에서 제거되는 기능
 

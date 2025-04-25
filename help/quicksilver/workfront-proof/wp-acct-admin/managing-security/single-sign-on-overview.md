@@ -8,7 +8,7 @@ description: SSO(Single Sign-On)를 통해 사용자는 조직의 기존 사용�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb1f6883-6209-4a55-b181-67af4b496ca0
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -21,11 +21,11 @@ ht-degree: 0%
 >
 >이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
-이 기능을 사용하려면 [!UICONTROL Enterprise] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans)을 참조하십시오.
+이 기능을 사용하려면 [!UICONTROL Enterprise] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하십시오.
 
 SSO(Single Sign-On)를 통해 사용자는 조직의 기존 사용자 이름과 암호를 사용하여 [!DNL Workfront Proof]에 로그인할 수 있습니다.
 
-이 기능을 제공하기 위해 ID 공급자와 웹 서비스 간에 데이터를 승인하고 인증을 교환할 수 있는 XML 기반 프로토콜인 [!DNL Security Assertion Markup Language](SAML) 2.0을 사용합니다.
+이 기능을 제공하기 위해 ID 공급자와 웹 서비스 간에 데이터를 승인하고 인증을 교환할 수 있는 XML 기반 프로토콜인 [!DNL Security Assertion Markup Language]&#x200B;(SAML) 2.0을 사용합니다.
 
 즉, [!DNL Workfront Proof]의 로그인 페이지가 아니라 사용자의 로그인 시스템에 대해 인증합니다.
 

@@ -7,7 +7,7 @@ description: 향상된 Analytics는 계획 및 완료로 프로젝트 데이터�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 3%
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ![분석](assets/nwe-full-screen-analytics-350x222.png)
 
-사용 사례를 확인하거나 향상된 분석을 사용하여 현재 작업 관리 및 향후 작업 계획에 대해 자세히 알아보려면 [향상된 분석 학습 경로](https://one.workfront.com/s/enhanced-analytics-program)를 참조하십시오.
+사용 사례를 확인하거나 향상된 분석을 사용하여 현재 작업 관리 및 향후 작업 계획에 대해 자세히 알아보려면 [향상된 분석 학습 경로](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
 
 ## 전제 조건
 
@@ -42,11 +42,11 @@ ht-degree: 3%
 
 * 비즈니스 또는 엔터프라이즈 플랜이 있습니다.
 
-  자세한 내용은 [Workfront 계획](https://www.workfront.com/plans)을 참조하세요.
+  자세한 내용은 [Workfront 계획](https://business.adobe.com/products/workfront/pricing.html)을 참조하세요.
 
 * Workfront 관리자가 레이아웃 템플릿에 향상된 분석을 추가하도록 합니다.
 
-  자세한 내용은 [향상된 분석: 레이아웃 템플릿에 분석 추가](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE)를 참조하십시오.
+  자세한 내용은 [향상된 분석: 레이아웃 템플릿에 분석 추가](https://experienceleague.adobe.com/en/docs/workfront/using/home)를 참조하십시오.
 
 프로젝트 및 작업에 대한 정보를 보려면 다음을 수행해야 합니다.
 
@@ -139,7 +139,7 @@ ht-degree: 3%
 
 ## 향상된 Analytics 보기 및 기능
 
-Enhanced Analytics의 특정 기능에 대한 세부 정보, 추가 통찰력을 얻기 위해 완료할 수 있는 작업 및 이 데이터에서 배울 수 있는 사항에 대해서는 다음 문서를 참조하십시오.
+Enhanced Analytics의 특정 기능에 대한 세부 정보, 추가 insight을 위해 완료할 수 있는 작업 및 이 데이터에서 배울 수 있는 사항에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 <table style="table-layout:auto"> 
  <col> 

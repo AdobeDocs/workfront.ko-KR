@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 0%
@@ -98,7 +98,7 @@ ht-degree: 0%
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 레이아웃 템플릿에서 "모두 선택" 옵션을 사용할 수 있습니다</a></p>
                     [!BADGE In production ]{type=Informative}
-                    <p>레이아웃 템플릿으로 필드를 보다 쉽게 표시하거나 숨길 수 있도록 레이아웃 템플릿에서 세부 정보 보기의 개요 및 재무 영역에 "모두 선택" 확인란이 추가되었습니다. 이 옵션은 '사용자에게 표시되는 항목 사용자 지정' 아래에서 프로젝트, 작업, 문제, Portfolio 또는 프로그램을 선택한 경우에 사용할 수 있습니다.</p>
+                    <p>레이아웃 템플릿으로 필드를 보다 쉽게 표시하거나 숨길 수 있도록 레이아웃 템플릿에서 세부 정보 보기의 개요 및 재무 영역에 "모두 선택" 확인란이 추가되었습니다. 이 옵션은 '사용자가 볼 항목 사용자 지정' 아래에서 프로젝트, 작업, 문제, Portfolio 또는 프로그램을 선택한 경우에 사용할 수 있습니다.</p>
                 </td>
                 <td><p><b>다음 날짜에 사용 가능:</b></p>
                     <ul>
@@ -511,7 +511,7 @@ ht-degree: 0%
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront에서 사용할 수 있는 Adobe AI 길잡이</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront에서 사용 가능한 Adobe AI Assistant</a></p>
                     [!BADGE In production ]{type=Informative}
                     <p>작업을 보다 쉽게 수행할 수 있도록 Adobe의 AI Assistant를 Workfront에 추가했습니다. AI Assistant는 다음을 통해 도움을 줄 수 있습니다.</p>
                     <ul>
@@ -591,8 +591,8 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2024년 4분기 릴리스 중 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
+2024년 4분기 릴리스 중 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront Tutorials 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

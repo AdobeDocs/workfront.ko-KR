@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -118,7 +118,7 @@ For specific release dates and times for each cluster, see the
 >
 >이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
 >
->* Pro 이상의 [Adobe Workfront 플랜](https://www.workfront.com/plans).
+>* Pro 이상의 [Adobe Workfront 플랜](https://business.adobe.com/products/workfront/pricing.html).
 >* Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
 >
 >  Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
@@ -154,7 +154,7 @@ For specific release dates and times for each cluster, see the
 &gt; <col> 
 &gt; <tbody> 
 &gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront 플랜</a>*</p> </td> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront 플랜</a>*</p> </td> 
 &gt;   <td>비즈니스 이상</td> 
 &gt;  </tr> 
 &gt;  <tr> 
@@ -284,7 +284,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>다음 날짜에 사용 가능:</strong> <p>Beta 미리보기 릴리스: 2020년 7월 2일</p> <p>프로덕션 릴리스: 20.3 릴리스 포함</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(일부 목록에는 사용할 수 있지만 지원되지는 않음)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#updated" class="MCXref xref">여러 글로벌 헤더의 모양과 느낌을 업데이트했습니다</a> </p> <p>이제 프로젝트, Portfolio, 프로그램 및 템플릿의 전역 영역에 화면의 공간을 더 잘 활용할 수 있도록 업데이트된 헤더가 있습니다. 이 업데이트는 작업에 집중해야 하는 정보에 더 많은 공간을 제공합니다. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#updated" class="MCXref xref">여러 글로벌 헤더의 모양과 느낌을 업데이트했습니다</a> </p> <p>이제 프로젝트, 포트폴리오, 프로그램 및 템플릿의 전역 영역에 화면의 공간을 더 잘 활용할 수 있도록 업데이트된 헤더가 있습니다. 이 업데이트는 작업에 집중해야 하는 정보에 더 많은 공간을 제공합니다. </p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> <p>Beta 미리보기 릴리스: 2020년 6월 19일</p> <p>프로덕션 릴리스: 20.3 릴리스 포함</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -391,7 +391,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>다음 날짜에 사용 가능:</strong> </p> <p>Beta 미리보기 릴리스: 2020년 7월 9일</p> <p>프로덕션 릴리스: 20.3 릴리스부터 단계적으로 출시되며 2020년 9월 1일까지 모든 고객에게 제공됩니다.</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront 클래식 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref">이제 발신 Workfront 이메일에 DKIM(DomainKeys Identified Mail)이 포함됨</a> </p> <p>보내는 모든 이메일에 DKIM(이메일 인증 기법)이 포함됩니다. 이 DKIM 서명은 최종 사용자에게 표시되지 않지만 서버 수준에서 유효성 검사를 허용하고 기존 인증 프레임워크를 강화합니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref">이제 발신 Workfront 전자 메일에 도메인 키 확인 메일(DKIM)이 포함됨</a> </p> <p>보내는 모든 이메일에 이메일 인증 기술(DKIM)이 포함됩니다. 이 DKIM 서명은 최종 사용자에게 표시되지 않지만 서버 수준에서 유효성 검사를 허용하고 기존 인증 프레임워크를 강화합니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> <p>Beta 미리보기 릴리스: 2020년 7월 29일</p> <p>프로덕션 릴리스: 20.3 릴리스부터 단계적으로 출시되며 2020년 9월 1일까지 모든 고객에게 제공됩니다.</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront 클래식 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -419,7 +419,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 .
 
-## Workfront 유지 보수 업데이트
+## Workfront 유지 관리 업데이트
 
 20.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350)를 참조하십시오.
 
@@ -435,7 +435,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 2020년 5월 20일부터 Workfront은 기능을 매주 미리보기 환경에서 사용할 수 있도록 설정하기 시작했습니다. 이 변경 전에 기능은 일반적으로 2주마다 미리보기 환경에 릴리스되었습니다.
 
-자세한 내용은 [Workfront 미리 보기 릴리스 케이던스의 변경 내용 FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)을 참조하세요.
+자세한 내용은 [Workfront 미리 보기 릴리스 케이던스의 변경 내용 FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하세요.
 
 ### 에 액세스해야 하는 추가 Workfront 허용 목록 {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -450,11 +450,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 Workfront One을 사용하면 한 번의 로그인으로 Workfront에서 가장 중요한 콘텐츠, 리소스 및 뉴스를 모두 한 곳에서 확인할 수 있습니다. Experience, Community 및 Training 사이트를 통합하여 원하는 항목을 보다 쉽게 찾을 수 있습니다.
 
-[Workfront One에 대해 자세히 알아보세요](https://www.workfront.com/campaigns/workfront-one).
+[Workfront One에 대해 자세히 알아보세요](https://business.adobe.com/products/workfront.html).
 
 ### 20.3 릴리스 웨비나 {#20-3-release-webinar}
 
-20.3 제품 릴리스 웨비나 [여기](https://one.workfront.com/s/managed-content-event/20-3-product-release-webinar-20Y0z000000bmRJEAY)를 확인하세요.
+20.3 제품 릴리스 웨비나 [여기](https://experienceleague.adobe.com/en/docs/workfront/using/home)를 확인하세요.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

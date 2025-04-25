@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Adobe Workfront 이벤트 구독 메시지를 사용하는 서비스 엔드포인트는 메시지가 올바르게 전송되고 수신되는지 확인하기 위해 다음 기본 요구 사항을 충족해야 합니다.
 
-* 서비스 끝점이 HTTP POST 요청을 수락해야 합니다. HTTP POST은 유효성 검사 메시지를 포함한 모든 이벤트 구독 메시지 게재에 사용되는 요청 메서드입니다.
+* 서비스 끝점이 HTTP POST 요청을 수락해야 합니다. HTTP POST는 유효성 검사 메시지를 포함하여 이벤트 구독 메시지의 모든 게재에 사용되는 요청 메서드입니다.
 
 * 이벤트 구독 게재 시스템이 메시지를 성공적으로 수신했음을 확인하려면 끝점이 들어오는 모든 메시지에 대해 200 수준 HTTP 상태(예: 200 OK 또는 202)를 반환해야 합니다.
 

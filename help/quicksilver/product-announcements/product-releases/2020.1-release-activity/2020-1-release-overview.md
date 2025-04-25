@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2566'
 ht-degree: 0%
@@ -286,9 +286,9 @@ ht-degree: 0%
    <td> <p>Beta 미리보기 릴리스: 2020년 3월 10일</p> <p>프로덕션 릴리스: 2020.1 릴리스 <span style="color: #ff0000;">(릴리스에서 제거됨)</span></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Flash Portfolio 최적화 프로그램이 제거되었습니다</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Flash Portfolio Optimizer가 제거되었습니다</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Flash Portfolio Optimizer has been removed</a>
-     --> </p> <p>모든 고객을 위해 Workfront Classic 환경에서 새 Optimizer 및 기존(FlashFlash 기반) Portfolio Optimizer 간을 전환하는 기능을 제거했습니다. 레거시 Portfolio 최적화 프로그램은 더 이상 사용되지 않는 기능이며 새로운 도구는 현재 동일한 기능을 제공합니다.</p> </td> 
+     --> </p> <p>모든 고객을 위해 Workfront Classic 환경에서 새 Portfolio Optimizer 및 기존(FlashFlash 기반) Flash Optimizer 간 전환 기능을 제거했습니다. 레거시 Portfolio Optimizer는 더 이상 사용되지 않는 기능이며, 새 도구는 현재 동일한 기능을 제공합니다.</p> </td> 
    <td> <p>Beta 미리보기 릴리스: 2020년 2월 27일</p> <p>프로덕션 릴리스: 2020.1 릴리스 포함</p> </td> 
   </tr> 
   <tr> 
@@ -331,7 +331,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 >리소스 예약이 더 이상 사용되지 않으며 Workfront에서 제거되었습니다.
 
 
-## Workfront 유지 보수 업데이트
+## Workfront 유지 관리 업데이트
 
 2020.1 릴리스 동안 수행된 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350)를 참조하십시오.
 
@@ -358,7 +358,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 Workfront One을 사용하면 한 번의 로그인으로 Workfront에서 가장 중요한 콘텐츠, 리소스 및 뉴스를 모두 한 곳에서 확인할 수 있습니다. Experience, Community 및 Training 사이트를 통합하여 원하는 항목을 보다 쉽게 찾을 수 있습니다.
 
-[Workfront One에 대해 자세히 알아보세요](https://www.workfront.com/campaigns/workfront-one).
+[Workfront One에 대해 자세히 알아보세요](https://business.adobe.com/products/workfront.html).
 
 ### 2020.1 릴리스 웨비나 {#2020-1-release-webinar}
 
@@ -439,7 +439,7 @@ and watch the recording on demand
 
 Flash 기술에 의존하는 모든 기능은 2018.3 릴리스부터 Workfront에서 제거되었으며 새 솔루션으로 대체되었습니다.
 
-기존 Flash 도구 및 대체 요소에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
+기존 Flash 도구 및 대체 도구에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
 
 <!--
 <a href="https://experience.workfront.com/s/article/Replacement-of-Flash-Based-Tools-in-Workfront-194935493" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">

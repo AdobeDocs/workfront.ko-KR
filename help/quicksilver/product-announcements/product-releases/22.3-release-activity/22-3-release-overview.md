@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3221'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 릴리스 개요
 
-이 페이지에서는 22.3 릴리스에 포함된 기능에 대한 정보를 제공합니다. 나열된 모든 기능은 새로운 Adobe Workfront 환경에서 사용할 수 있습니다. 일부 기능은 Adobe Workfront Classic에서도 사용할 수 있습니다. 그러나 [Workfront Classic은 2022년 3월에 중단되며](https://one.workfront.com/s/new-workfront-experience), 곧 Workfront Classic의 사용 종료 날짜는 2022년 7월입니다.
+이 페이지에서는 22.3 릴리스에 포함된 기능에 대한 정보를 제공합니다. 나열된 모든 기능은 새로운 Adobe Workfront 환경에서 사용할 수 있습니다. 일부 기능은 Adobe Workfront Classic에서도 사용할 수 있습니다. 그러나 [Workfront Classic은 2022년 3월에 중단되며](https://experienceleague.adobe.com/en/docs/workfront/using/home), 곧 Workfront Classic의 사용 종료 날짜는 2022년 7월입니다.
 
 이러한 개선 사항은 2022년 7월 11일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
@@ -85,7 +85,7 @@ ht-degree: 0%
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">사용자 정의 양식에 PDF 파일 추가
-</a></p></p> <p>이미지 및 비디오와 같은 추가할 수 있는 새로운 에셋 위젯을 통해 사용자 정의 양식을 보다 시각적이고 유익하게 만들 수 있도록 지속적으로 지원하고 있습니다. 이제 사용자 정의 양식에 PDF 파일에 대한 링크를 추가할 수 있습니다. 양식이 오브젝트에 첨부되어 있으면 오브젝트와 함께 작업하는 사용자는 양식 내에서 PDF을 보고 상호 작용할 수 있습니다.</p>
+</a></p></p> <p>이미지 및 비디오와 같은 추가할 수 있는 새로운 에셋 위젯을 통해 사용자 정의 양식을 보다 시각적이고 유익하게 만들 수 있도록 지속적으로 지원하고 있습니다. 이제 PDF 파일에 대한 링크를 사용자 정의 양식에 추가할 수 있습니다. 양식이 오브젝트에 첨부되어 있으면 오브젝트와 함께 작업하는 사용자는 양식 내에서 PDF을 보고 상호 작용할 수 있습니다.</p>
    </td> 
     <td> <p><b>다음 날짜에 사용 가능:</b> </p> 
     <ul> 
@@ -240,7 +240,7 @@ ht-degree: 0%
     </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic(<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic이 2022년 3월에 중단됨</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경되었습니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic이 2022년 3월에 중단됨</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경되었습니다.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -278,7 +278,7 @@ ht-degree: 0%
     </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic(<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic이 2022년 3월에 중단됨</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경되었습니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic이 2022년 3월에 중단됨</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경되었습니다.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -290,7 +290,7 @@ ht-degree: 0%
     </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic(<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
@@ -376,8 +376,8 @@ ht-degree: 0%
    <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets용 Adobe Workfront 통합</a> </p> <p>이제 Adobe Workfront Experience Manager Assets 통합을 Cloud Service에 사용할 수 있게 되었음을 발표하게 되어 기쁘게 생각합니다.</p>
-   <p>Cloud Service 및 Assets Essentials 모두를 위한 새로운 기능도 도입했습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets용 Adobe Workfront 통합</a> </p> <p>이제 Cloud Service에 Adobe Workfront Experience Manager Assets 통합을 사용할 수 있음을 발표하게 되어 기쁘게 생각합니다.</p>
+   <p>또한 Cloud Service 및 Assets Essentials에 대한 새로운 기능도 도입되었습니다.</p> </td> 
    <td> <p><b>다음 날짜에 사용 가능:</b> </p> 
     <ul> 
      <li> <p>미리보기 릴리스: 해당 사항 없음<br></p> </li> 
@@ -388,7 +388,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Creative Cloud 플러그인의 단일 증명에 여러 파일을 결합</a> </p> <p>이제 Adobe Workfront for Creative Cloud 플러그인에서 만든 콘텐츠로 외부 파일을 업로드하여 Workfront에서 다중 파일 증명을 만들 수 있습니다. 외부 파일은 Workfront 내에서 추가 증명 페이지로 표시됩니다. 이 향상된 기능을 통해 증명 생성 경험의 모양과 느낌도 업데이트했습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Creative Cloud 플러그인의 단일 증명에 여러 파일 결합</a> </p> <p>이제 Adobe Workfront for Creative Cloud 플러그인에서 만든 콘텐츠로 외부 파일을 업로드하여 Workfront에서 다중 파일 증명을 만들 수 있습니다. 외부 파일은 Workfront 내에서 추가 증명 페이지로 표시됩니다. 이 향상된 기능을 통해 증명 생성 경험의 모양과 느낌도 업데이트했습니다.</p> </td> 
    <td> <p><b>다음 날짜에 사용 가능:</b> </p> 
     <ul> 
      <li> <p>미리보기 릴리스: 해당 사항 없음<br></p> </li> 
@@ -534,7 +534,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 ## Workfront 유지 관리 업데이트
 
-22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
+22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ## 22.3 릴리스 웨비나
 
@@ -565,7 +565,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://one.workfront.com/s/training-release-updates)를 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
 
 ## 기능이 더 이상 지원되지 않음
 

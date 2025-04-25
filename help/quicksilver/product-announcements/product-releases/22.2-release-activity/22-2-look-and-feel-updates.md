@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Workfront의 문서 영역 성능을 개선했습니다. 이제 문서 페이지
 
 >[!NOTE]
 >
->2022년 3월 3일에 주간 [유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)로 프로덕션에서 대시보드 내의 동일한 보고서에 대한 도구 모음도 업데이트되었습니다.
+>2022년 3월 3일에 주간 [유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)로 프로덕션에서 대시보드 내의 동일한 보고서에 대한 도구 모음도 업데이트되었습니다.
 
 * 프로젝트 보고서
 * 작업 보고서

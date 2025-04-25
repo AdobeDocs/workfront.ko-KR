@@ -2,11 +2,11 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Slack에서 작업 및 문제 만들기
-description: Slack을 위해  [!DNL Adobe Workfront] 을(를) 설치하고 구성한 후에는 Slack에서 작업 및 문제를 만들고 Workfront의 프로젝트와 연결할 수 있습니다.
+description: Slack용  [!DNL Adobe Workfront] 을(를) 설치 및 구성한 후에는 Slack에서 작업 및 문제를 만들어 Workfront의 프로젝트와 연결할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 [!DNL Slack]을(를) 사용하여 [!DNL Workfront]을(를) 구성하는 방법에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을(를) 참조하십시오.
 
-액세스 수준에서 작업 및 문제를 만들 수 있는 액세스 권한이 있어야 하며 연결 중인 프로젝트에 대해 [!UICONTROL Contribute] 권한이 있어야 합니다.
+액세스 수준에서 작업 및 문제를 만들 수 있는 액세스 권한이 있어야 하며 연결 중인 프로젝트에 대해 [!UICONTROL 기여] 권한이 있어야 합니다.
 
 액세스 수준에 대한 자세한 내용은 [액세스 수준 개요](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하십시오. 개체에 대한 사용 권한에 대한 자세한 내용은 [개체에 대한 사용 권한 공유 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
 
@@ -34,7 +34,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] 계획]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] 계획]</a>*</td> 
    <td> <p>[!UICONTROL Pro] 이상</p> </td> 
   </tr> 
  </tbody> 

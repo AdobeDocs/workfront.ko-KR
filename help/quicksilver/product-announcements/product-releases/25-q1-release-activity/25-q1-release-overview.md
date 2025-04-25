@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2775'
 ht-degree: 0%
@@ -583,7 +583,7 @@ ht-degree: 0%
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Data Connect에 대한 최초 판독기 계정 만들기 단추</a></p>
             [!BADGE In production ]{type=Informative}
-            <p>Data Connect에 처음 액세스하는 관리자에게는 이제 단일 버튼을 클릭하여 새 Snowflake 판독기 계정을 만들 수 있는 옵션이 표시됩니다. 이 프로세스는 완료하는 데 몇 분이 걸리지만 추가 작업이 필요하지 않습니다.</p>
+            <p>Data Connect에 처음 액세스하는 관리자에게는 이제 단일 버튼을 클릭하여 새 Snowflake reader 계정을 만들 수 있는 옵션이 표시됩니다. 이 프로세스는 완료하는 데 몇 분이 걸리지만 추가 작업이 필요하지 않습니다.</p>
         </td>
         <td>
             <p><b>다음 날짜에 사용 가능:</b></p>
@@ -638,7 +638,7 @@ ht-degree: 0%
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             연결된 폴더에서 이동하거나 삭제된 에셋의 관리 방법 업데이트</a></p>
             [!BADGE In production ]{type=Informative}
-            <p>Experience Manager Assets 및 Assets Essentials과 Adobe Workfront 통합을 사용할 때 이동 및 삭제된 에셋을 처리하는 방식이 변경되었습니다.</p>
+            <p>Experience Manager Assets 및 Assets Essentials와 Adobe Workfront 통합을 사용할 때 이동 및 삭제된 에셋을 처리하는 방식이 변경되었습니다.</p>
             <ul>
                 <li>삭제된 에셋: Assets 또는 Assets Essentials의 연결된 폴더 내에서 에셋이 삭제되면 삭제된 에셋은 프로젝트 문서 영역에 유지됩니다.</li>
                 <li>이동된 에셋: 에셋을 Assets 또는 Assets essentials의 연결된 폴더 외부로 이동하면 이동된 에셋은 프로젝트 문서 영역에 유지됩니다.</li>
@@ -747,8 +747,8 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront Tutorials 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

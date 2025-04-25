@@ -6,7 +6,7 @@ description: 프로젝트는 가장 중요한 프로젝트가 맨 위에 있는 
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
@@ -112,7 +112,7 @@ ht-degree: 1%
 >
 >Portfolio Optimizer에서 프로젝트의 우선 순위를 지정하려면 귀사에 비즈니스 이상의 Workfront 계획이 있어야 합니다.
 >
->Workfront 플랜에 대한 자세한 내용은 [플랜](https://www.workfront.com/plans)을 참조하세요.
+>Workfront 플랜에 대한 자세한 내용은 [플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하세요.
 >
 >Portfolio Optimizer에서 프로젝트 우선 순위를 지정하는 방법에 대한 자세한 내용은 [Portfolio Optimizer에서 프로젝트 우선 순위 지정](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)을 참조하십시오.
 

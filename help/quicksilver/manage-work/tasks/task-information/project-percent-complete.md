@@ -7,7 +7,7 @@ description: 프로젝트의 완료율 값은 프로젝트의 작업 계획된 �
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 816fd70642ffb7b24095602ce160421aa947e2a6
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%

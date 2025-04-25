@@ -7,7 +7,7 @@ description: 텍스트 모드를 사용할 때 Adobe Workfront에서 계산된 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -53,7 +53,7 @@ Workfront에서 다음 조건 수정자를 사용할 수 있습니다.
  </thead> 
  <tbody> 
   <tr> 
-   <td>같음</td> 
+   <td>Equal</td> 
    <td>= </td> 
    <td> <p>이 연산자를 사용하여 명령문의 첫 번째 필드가 두 번째 필드와 같을 때 조건이 충족되었음을 나타냅니다.</p> <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 계획된 완료 일자와 작업의 예상 완료 일자를 비교하는 "IF" 문을 작성할 수 있습니다. </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 

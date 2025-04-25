@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -361,7 +361,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">디자인 및 비디오 플러그인을 위해 Adobe Workfront에 Illustrator 추가 소개</a><span style="color: #ff0000;"> 프로덕션의 새로운 기능!</span></p>
-                        <p>Adobe Illustrator을 포함하는 InDesign 플러그인용 Adobe Workfront의 확장을 발표하게 되어 기쁘게 생각합니다.</p>
+                        <p>Adobe Illustrator을 포함하도록 InDesign용 Adobe Workfront 플러그인의 확장을 발표하게 되어 기쁘게 생각합니다.</p>
                         <p>업데이트된 플러그인인 디자인 및 비디오용 Adobe Workfront은 이제 Illustrator, InDesign, Premiere Pro 및 After Effects을 지원합니다.  </p>
                         <p>이 플러그인을 사용하면 즐겨 찾는 Creative Cloud 애플리케이션을 종료하지 않고 작업 항목 세부 정보에 액세스하고, 업데이트 영역에서 동료와 공동 작업하고, 모든 시간을 기록할 수 있습니다.</p>
                         <p>또한 관리자는 Admin Console의 플러그인을 사용하여 패키지를 만들고 관리 또는 자체 관리 방식으로 사용자에게 배포할 수 있습니다.</p>
@@ -454,9 +454,9 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">통합 경험 Adobe의 고객을 위해 Workfront 도움말에 액세스하는 방법</a></p>
-                        <p>조직이 Adobe Admin Console 및 Workfront용 통합 경험 Adobe에 온보딩된 경우 Workfront 탐색 모음에 더 이상 "도움말" 링크가 포함되지 않습니다.</p>
-                        <p>Workfront 탐색 막대의 왼쪽에 있는 메인 메뉴 또는 상단 탐색 영역에 있는 물음표 아이콘을 통해 Adobe Experience League의 Workfront 도움말에 액세스할 수 있습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe 통합 환경의 고객을 위한 Workfront 도움말에 액세스하는 방법</a></p>
+                        <p>조직이 Adobe Admin Console 및 Workfront용 Adobe 통합 경험에 온보딩된 경우 Workfront 탐색 모음에 더 이상 "도움말" 링크가 포함되지 않습니다.</p>
+                        <p>Workfront 탐색 막대의 왼쪽에 있는 메인 메뉴 또는 위쪽 탐색 영역에 있는 물음표 아이콘을 통해 Adobe Experience League에서 Workfront 도움말에 액세스할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                      <p>
@@ -524,11 +524,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
+22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront Tutorials 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
 
 ### Workfront에서 곧 제거될 기능
 
@@ -553,11 +553,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 #### Illustrator 및 InDesign용 **Workfront 확장**
 
-Illustrator 및 InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)용 [Workfront 확장을 업데이트된 Creative Cloud 플러그인으로 바꾸는 중입니다. 2022년 말부터 이 확장 프로그램은 더 이상 Adobe Exchange에 설치할 수 없습니다.
+Illustrator 및 InDesign용 [Workfront 확장](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)을(를) 업데이트된 Creative Cloud 플러그인으로 바꾸는 중입니다. 2022년 말부터 이 확장 프로그램은 Adobe Exchange에서 더 이상 설치할 수 없습니다.
 
-몇 가지 향상된 기능과 함께 이 확장 기능의 기능은 업데이트된 Adobe Workfront for Creative Cloud 플러그인에서 사용할 수 있습니다.
+몇 가지 향상된 기능과 함께 이 확장 기능의 기능은 업데이트된 Creative Cloud 플러그인용 Adobe Workfront에서 사용할 수 있습니다.
 * [Photoshop용 Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-* [Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* [XD용 Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [디자인 및 비디오용 Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 #### **리소스 스케줄러**

@@ -2,11 +2,11 @@
 product-area: workfront-integrations;setup;user-management
 navigation-topic: workfront-for-salesforce
 title: ' [!DNL Salesforce] 사용자를 위한  [!DNL Adobe Workfront] 섹션 구성'
-description: Salesforce용  [!DNL Adobe Workfront] 을(를) 관리자 [!DNL Workfront] 로 설치한 후 Salesforce의 Opportunity 및 Account 페이지 레이아웃에 새 섹션에 추가하여 사용자가 사용할 수 있도록 설정할 수 있습니다.
+description: Salesforce용  [!DNL Adobe Workfront] 관리자  [!DNL Workfront] 를 설치한 후 Salesforce의 Opportunity 및 Account 페이지 레이아웃에 새 섹션에 추가하여 사용자에게 제공할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # [!DNL Salesforce] 사용자에 대한 [!DNL Adobe Workfront] 섹션 구성
 
-이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://www.workfront.com/plans)을 참조하세요.
+이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하세요.
 
 [!DNL Workfront] 관리자로서 [!DNL Salesforce]용 [!DNL Adobe Workfront]을(를) 설치한 후 새 섹션에서 [!UICONTROL 기회] 및 [!UICONTROL 계정]에 추가하여 사용자가 사용할 수 있도록 설정할 수 있습니다.
 [!UICONTROL Salesforce]의 페이지 레이아웃.

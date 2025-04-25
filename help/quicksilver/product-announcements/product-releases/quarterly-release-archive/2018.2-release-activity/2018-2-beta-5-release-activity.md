@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Outlook에서 일정을 사용하는 경우 일정을 통합하여 홈 일정 �
 
 목록의 열 순서 조정 방법에 대한 자세한 내용은 [열 너비 및 순서 수정](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)을 참조하십시오.
 
-현재 목록 개선 사항에 대한 베타 테스트 프로그램에 참여하려면 [새 목록 연구를 참조하십시오.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)(로그인 필요)
+현재 목록 개선 사항에 대한 베타 테스트 프로그램에 참여하려면 [새 목록 연구를 참조하십시오.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)&#x200B;(로그인 필요)
 
 ## 새 프로젝트 목록에 대한 아이콘 지원 {#icon-support-for-the-new-project-lists}
 

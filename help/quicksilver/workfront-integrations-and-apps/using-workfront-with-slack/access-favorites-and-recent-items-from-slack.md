@@ -2,11 +2,11 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: ' [!DNL Slack]에서 즐겨찾기 및 최근 항목에 액세스'
-description: Slack을 위해  [!DNL Adobe Workfront] 을(를) 설치 및 구성한 후에는 Workfront 즐겨찾기 및 최근 항목을 보고 Slack의 두 목록 중 하나에서 항목에 액세스할 수 있습니다.
+description: Slack용  [!DNL Adobe Workfront] 을(를) 설치 및 구성한 후에는 Workfront 즐겨찾기 및 최근 항목을 보고 Slack의 목록에 있는 항목에 액세스할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] 계획]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] 계획]</a>*</td> 
    <td> <p>[!UICONTROL Pro] 이상</p> </td> 
   </tr> 
  </tbody> 

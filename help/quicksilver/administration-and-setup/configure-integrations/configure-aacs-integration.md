@@ -6,7 +6,7 @@ description: ' [!DNL Experience Manager Assets]에서 작업을 콘텐츠와 연
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1708'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 [!DNL Experience Manager Assets]의 콘텐츠와 작업을 연결할 수 있습니다&#x200B;.
 
-* 자산 및 메타데이터를 [!DNL Adobe Workfront]에서 [!DNL Experience Manager Assets](으)로 &#x200B; 푸시
+* 자산 및 메타데이터를 [!DNL Adobe Workfront]에서 [!DNL Experience Manager Assets]&#x200B;(으)로 &#x200B; 푸시
 * [!DNL Experience Manager Assets]의 자산을 [!DNL Workfront&#x200B;]의 프로젝트 및 작업에 연결
 * 버전 관리 사용 사례 촉진
 * [!DNL Experience Manager Assets]에 연결된 폴더 만들기
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->메타데이터는 [!DNL Workfront]에서 [!DNL Experience Manager] 방향으로만 매핑할 수 있습니다. [!DNL Experience Manager]에서 [!DNL Workfront]에 연결된 문서의 메타데이터를 [!DNL Workfront](으)로 전송할 수 없습니다.
+>메타데이터는 [!DNL Workfront]에서 [!DNL Experience Manager] 방향으로만 매핑할 수 있습니다. [!DNL Experience Manager]에서 [!DNL Workfront]에 연결된 문서의 메타데이터를 [!DNL Workfront]&#x200B;(으)로 전송할 수 없습니다.
 
 ### 메타데이터 필드 구성
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 메타데이터 필드를 구성하려면:
 
-1. [Adobe 간 에셋 메타데이터 매핑 구성 [!DNL Workfront] 과(와) [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)에 설명된 대로 [!DNL Experience Manager Assets]에서 메타데이터 스키마를 구성합니다.
+1. [Adobe과(와)  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) 간의 에셋 메타데이터 매핑 구성 [!DNL Workfront] 에 설명된 대로 [!DNL Experience Manager Assets]에서 메타데이터 스키마를 구성합니다.
 
 
 1. Workfront에서 사용자 정의 양식 필드를 구성합니다. [!DNL Workfront]에 사용할 수 있는 기본 제공 사용자 지정 필드가 많습니다. 그러나 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 필드를 만들 수도 있습니다.
@@ -151,7 +151,7 @@ Workfront 지원 필드를 Experience Manager Assets의 태그에 매핑할 수 
 
 Experience Manager Assets에서 태그를 만들면 메타데이터 섹션의 태그 드롭다운 아래에 태그가 표시됩니다. 필드를 태그에 연결하려면 메타데이터 매핑 영역의 Experience Manager Assets 필드 드롭다운에서 `xcm:keywords`을(를) 선택합니다.
 
-태그를 만들고 관리하는 방법을 포함하여 Experience Manager Assets의 태그에 대한 자세한 내용은 [태그 관리](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html)를 참조하십시오.
+태그를 만들고 관리하는 방법을 포함하여 Experience Manager Assets의 태그에 대한 자세한 내용은 [태그 관리](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)를 참조하십시오.
 
 **Experience Manager Assets 사용자 지정 메타데이터 스키마 필드**
 
@@ -183,7 +183,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 ### 에셋의 메타데이터 매핑
 
-에셋이 [!DNL Workfront]에서 처음으로 전달될 때 메타데이터가 매핑됩니다. 기본 제공 필드 또는 사용자 지정 필드가 있는 문서는 에셋을 [!DNL Experience Manager Assets](으)로 처음 보낼 때 지정된 필드에 자동으로 매핑됩니다.
+에셋이 [!DNL Workfront]에서 처음으로 전달될 때 메타데이터가 매핑됩니다. 기본 제공 필드 또는 사용자 지정 필드가 있는 문서는 에셋을 [!DNL Experience Manager Assets]&#x200B;(으)로 처음 보낼 때 지정된 필드에 자동으로 매핑됩니다.
 
 에셋의 메타데이터를 매핑하려면 다음을 수행합니다.
 
@@ -251,7 +251,7 @@ Adobe Experience Manager 전체에 대해 워크플로우가 활성화되고 구
 Adobe Experience Manager 통합에서 사용할 수 있는 워크플로는 다음과 같습니다.
 
 * [Adobe Experience Manager 연결 폴더 만들기](#create-adobe-experience-manager-linked-folders)
-* [Adobe Experience Manager Assets으로 전송된 Publish 에셋](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Adobe Experience Manager Assets으로 전송된 자산 게시](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Adobe Experience Manager 연결 폴더 만들기
 
@@ -282,7 +282,7 @@ Adobe Experience Manager 통합에서 사용할 수 있는 워크플로는 다�
    1. (선택 사항) 폴더를 삭제하려면 폴더를 선택하고 **폴더 삭제** 아이콘 ![폴더 삭제](assets/delete-folder.png)를 클릭합니다.
 1. (조건부) 다른 폴더 트리를 추가하려면 **+ 폴더 트리 추가**&#x200B;를 클릭하고 5단계의 단계를 따릅니다.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭하거나 이 문서의 [Adobe Experience Manager Assets으로 전송된 Publish 자산](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 섹션으로 이동하십시오.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하거나 이 문서의 [Adobe Experience Manager Assets으로 보낸 에셋 게시](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 섹션으로 이동하십시오.
 
 >[!NOTE]
 >
@@ -291,16 +291,16 @@ Adobe Experience Manager 통합에서 사용할 수 있는 워크플로는 다�
 >* 제공된 폴더 트리가 없으면 루트 폴더가 연결된 폴더가 됩니다.
 
 
-### Adobe Experience Manager Assets으로 전송된 Publish 에셋
+### Adobe Experience Manager Assets으로 전송된 자산 게시
 
-1. **[!UICONTROL Publish 에셋을 자동으로]** 켭니다.
+1. **[!UICONTROL 자산을 자동으로 게시]**&#x200B;합니다.
 1. Adobe Experience Manager Assets로 전송된 자산을 게시할 위치 옆에 있는 상자를 선택합니다. 두 옵션 중 하나 또는 모두를 활성화할 수 있습니다.
 1. (조건부) Brand Portal 옵션을 활성화한 경우 에셋을 게시할 Brand Portal을 선택합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하거나 이 문서의 [연결된 폴더 설정(선택 사항)](#set-up-linked-folders-optional) 섹션으로 이동하십시오.
 
 ## 연결된 폴더 설정(선택 사항)
 
-사용자가 [!DNL Workfront] 프로젝트에 있는 동안 [!DNL Experience Manager]에 연결된 폴더를 만들도록 허용할 수 있습니다. 폴더가 연결되면 폴더에 추가된 모든 자산이 [!DNL Workfront]과(와) [!DNL Experience Manager] 모두에 자동으로 표시됩니다. [!DNL Workfront]의 연결된 폴더에 에셋을 처음 추가하면 에셋의 메타데이터가 [!DNL Experience Manager Assets](으)로 푸시됩니다.
+사용자가 [!DNL Workfront] 프로젝트에 있는 동안 [!DNL Experience Manager]에 연결된 폴더를 만들도록 허용할 수 있습니다. 폴더가 연결되면 폴더에 추가된 모든 자산이 [!DNL Workfront]과(와) [!DNL Experience Manager] 모두에 자동으로 표시됩니다. [!DNL Workfront]의 연결된 폴더에 에셋을 처음 추가하면 에셋의 메타데이터가 [!DNL Experience Manager Assets]&#x200B;(으)로 푸시됩니다.
 
 아래 단계에서는 연결된 폴더를 만들 위치를 지정합니다. 각 통합에는 연결된 모든 폴더에 대해 하나의 위치만 있을 수 있습니다.
 

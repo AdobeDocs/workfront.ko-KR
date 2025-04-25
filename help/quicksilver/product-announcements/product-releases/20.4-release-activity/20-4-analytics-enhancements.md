@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -29,4 +29,4 @@ ht-degree: 0%
 
 이전에는 향상된 분석 영역에서 볼 수 있는 프로젝트의 양을 50개로 제한했습니다.
 
-이 기능은 이제 Workfront One의 [향상된 Analytics, 1부 학습 경로](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [향상된 Analytics, 1부 학습 경로](https://experienceleague.adobe.com/en/docs/workfront/using/home)에 포함되어 있습니다.

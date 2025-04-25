@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 150bc838-d6a5-445a-af77-62c4ed74dd1b
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 관리자가 새 프로젝트에 대해 구성된 상태를 숨기거나 잠금 해제하더라도 새 프로젝트가 항상 상태를 유지하도록 하기 위해, 새 프로젝트에 대한 새 상태를 다시 구성할 때까지 이제 시스템은 상태 목록의 첫 번째 상태를 모든 새 프로젝트에 할당합니다.
 
-모든 새 프로젝트의 상태에 대한 환경 설정 지정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [프로젝트 환경 설정 지정](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)을 참조하십시오).
+모든 새 프로젝트의 상태에 대한 환경 설정 지정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [프로젝트 환경 설정 지정](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하십시오).
 
 **다음 환경에서 사용 가능:**
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 * &quot;근무일당 일반 시간&quot;과 같은 옵션에 대해 잘못된 숫자를 입력하면 저장을 클릭한 후 경고 메시지가 표시되지 않고 바로 나타납니다.
 * 옵션 레이블은 세부 정보 영역 및 보고서와 같은 Workfront의 다른 곳에서도 해당 인터페이스 텍스트와 일치합니다.
 
-프로젝트 환경 설정 영역에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [프로젝트 환경 설정 지정](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)을 참조하십시오).
+프로젝트 환경 설정 영역에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [프로젝트 환경 설정 지정](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하십시오).
 
 **다음 환경에서 사용 가능:**
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
 이 변경 전에 작업 제한 사항은 항상 가능한 한 빨리 로 변경됩니다.
 
-작업 이동에 대한 자세한 내용은 [작업 이동](../../../manage-work/tasks/manage-tasks/move-tasks.md)(또는 Adobe Workfront Classic을 사용하는 경우 [작업 이동](https://one.workfront.com/s/article/Moving-Tasks-2081996259))을 참조하십시오.
+작업 이동에 대한 자세한 내용은 [작업 이동](../../../manage-work/tasks/manage-tasks/move-tasks.md)(또는 Adobe Workfront Classic을 사용하는 경우 [작업 이동](https://experienceleague.adobe.com/en/docs/workfront/using/home))을 참조하십시오.
 
-작업 복사에 대한 자세한 내용은 [작업 복사 및 복제](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)를 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [작업 복사 및 복제](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)를 참조하십시오).
+작업 복사에 대한 자세한 내용은 [작업 복사 및 복제](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)를 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [작업 복사 및 복제](https://experienceleague.adobe.com/en/docs/workfront/using/home)를 참조하십시오).
 
-모든 작업 제한에 대한 개요는 [작업 제한 개요](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)를 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [작업 제한 개요](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)를 참조하십시오).
+모든 작업 제한에 대한 개요는 [작업 제한 개요](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)를 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [작업 제한 개요](https://experienceleague.adobe.com/en/docs/workfront/using/home)를 참조하십시오).
 
 **다음 환경에서 사용 가능:**
 

@@ -7,7 +7,7 @@ description: 이 기능을 사용하려면 Select 또는 Premium [!DNL Workfront
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
-이 기능을 사용하려면 Select 또는 Premium [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans)을 참조하십시오.
+이 기능을 사용하려면 Select 또는 Premium [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하십시오.
 
 사용자 정의 필드를 사용하면 새 증명, 사용자 또는 게스트를 만들 때 추가 데이터를 캡처할 수 있습니다. 예를 들어 새 증명을 만드는 사용자는 작업 번호, 부서 코드 또는 공급자 참조를 캡처할 수 있는 추가 섹션을 포함할 수 있습니다.
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -29,7 +29,7 @@ in January 2022
 
 ## 이제 Adobe Workfront과 Anaplan 통합을 사용할 수 있습니다.
 
-이제 Workfront을 Anaplan 계정과 통합하여 Workfront 프로젝트의 재무 측면에 대한 보다 나은 유연성과 통찰력을 얻을 수 있습니다. Workfront 오브젝트를 Anaplan 오브젝트에 연결하면 두 계정 간의 정보를 자동으로 업데이트하여 두 계정의 정보가 모두 최신 상태이고 동일한지 확인할 수 있습니다. Workfront의 작업을 기반으로 Anaplan에서 자동화된 프로세스를 트리거할 수도 있습니다(또는 그 반대의 경우도 가능).
+이제 Workfront을 Anaplan 계정과 통합하여 Workfront 프로젝트의 재무 측면에서 보다 나은 유연성과 insight을 제공할 수 있습니다. Workfront 오브젝트를 Anaplan 오브젝트에 연결하면 두 계정 간의 정보를 자동으로 업데이트하여 두 계정의 정보가 모두 최신 상태이고 동일한지 확인할 수 있습니다. Workfront의 작업을 기반으로 Anaplan에서 자동화된 프로세스를 트리거할 수도 있습니다(또는 그 반대의 경우도 가능).
 
 예를 들어 Anaplan에서 캠페인을 만든 다음 캠페인에 연결된 Workfront 프로젝트 또는 프로그램을 만들 수 있습니다. 그런 다음 Workfront에서 추적한 모든 비용을 Anaplan에 다시 업로드하여 캠페인 성과를 검토할 수 있습니다.
 
@@ -45,7 +45,7 @@ Workfront을 Anaplan에 통합하는 데 사용할 수 있는 기타 워크플�
 
 이제 Workfront for Experience Manager 강화 커넥터에 다음 업데이트가 포함됩니다.
 
-* 이제 여러 프로젝트 폴더 구성이 있더라도 Adobe Workfront과 Adobe Experience Manager Assets as a Cloud Service 간에 연결된 폴더를 만들 수 있습니다.
+* 이제 여러 개의 프로젝트로 연결된 폴더 구성이 있는 경우에도 Adobe Workfront 및 Adobe Experience Manager Assets as a Cloud Service 간에 연결된 폴더를 만들 수 있습니다.
 * 이벤트 구독 페이지 매김에 대한 지원을 추가했습니다.
 * AEM 6.4.x에 대한 지원이 추가되었습니다
 * 프록시 환경에 대한 지원이 추가되었습니다
@@ -55,7 +55,7 @@ Workfront을 Anaplan에 통합하는 데 사용할 수 있는 기타 워크플�
 
 >[!NOTE]
 >
->이 커넥터를 배포하고 구성하려면 인증된 파트너가 필요합니다. 자세한 내용은 [Experience Manager 강화 커넥터용 Workfront 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#)를 참조하십시오.
+>이 커넥터를 배포하고 구성하려면 인증된 파트너가 필요합니다. 자세한 내용은 [Experience Manager 강화 커넥터용 Workfront 설치](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)를 참조하십시오.
 
 ## 이제 Adobe Creative Cloud 통합에서 OAuth2를 사용합니다
 

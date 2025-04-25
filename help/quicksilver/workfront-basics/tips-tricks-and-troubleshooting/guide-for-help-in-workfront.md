@@ -5,9 +5,9 @@ title: ' [!DNL Adobe Workfront]에서 도움말 찾기에 대한 빠른 안내'
 description: ' [!DNL Adobe Workfront]에서 도움말 찾기에 대한 빠른 안내'
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 8789f7ad50f9180edc7549a8a6802d5df6c5b006
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -40,12 +40,12 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Experience League]</strong>에서 <strong>[!DNL Workfront] 체크 아웃 </td> 
-   <td> <p><a href="https://experienceleague.adobe.com/docs/workfront.html">https://experienceleague.adobe.com/docs/workfront.html</a>의 맨 위에 있는 검색 창을 사용하여 특정 문서, 토론 또는 교육을 찾을 수 있습니다. 모든 항목 [!DNL Workfront]에 대한 검색 엔진으로 생각하십시오.</p> <p>여기에서 다음 리소스를 찾을 수도 있습니다.</p> 
+   <td> <p><a href="https://experienceleague.adobe.com/en/docs/workfront">https://experienceleague.adobe.com/en/docs/workfront</a>의 맨 위에 있는 검색 창을 사용하여 특정 문서, 토론 또는 교육을 찾을 수 있습니다. 모든 항목 [!DNL Workfront]에 대한 검색 엔진으로 생각하십시오.</p> <p>여기에서 다음 리소스를 찾을 수도 있습니다.</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/home.html">설명서</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html">Tutorials</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en">제품 릴리스</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html">API 설명서</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">설명서</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home">튜토리얼</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">릴리스</a> </p></li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API 설명서</a> </p> </li> 
      <li> <p>기타!</p> </li> 
     </ul> </td> 
   </tr> 
@@ -63,11 +63,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td><strong>모든</strong>[!DNL Workfront]의 새로운 기능 확인<strong>제품</strong></td> 
-   <td>새로운 기능에 대한 최신 정보를 보려면 <a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html" target="_blank">제품 릴리스</a>를 방문하세요.</td> 
+   <td>새로운 기능에 대한 최신 정보를 보려면 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">제품 릴리스</a>를 방문하세요.</td> 
   </tr> 
   <tr> 
    <td><strong>요청 시 자세히 알아보고 [!DNL Workfront] 교육을 통해 자세히 알아보기</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">Experience League</a>은(는) 플래너, 작업자, 공동 작업자 및 시스템 관리자가 [!DNL Workfront]의 주요 기능을 사용하여 시작하고 실행할 수 있도록 역할 기반 학습 경로를 제공합니다.<br>관심 항목에 대한 학습 경로, 비디오 튜토리얼 및 다운로드 가능한 안내서를 탐색하여 [!DNL Workfront] 지식을 확장</a>하십시오.<br></td> 
+   <td><a href="https://experienceleague.adobe.com">Experience League</a>에서는 [!DNL Workfront]의 주요 기능을 사용하여 플래너, 작업자, 공동 작업자 및 시스템 관리자를 시작하고 실행할 수 있는 역할 기반 학습 경로를 제공합니다.<br>관심 항목에 대한 학습 경로, 비디오 튜토리얼 및 다운로드 가능한 안내서를 탐색하여 [!DNL Workfront] 지식을 확장</a>하십시오.<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +85,7 @@ ht-degree: 0%
    <td>웨비나, 전자책, 백서, 비디오 및 보고서에 대한 출발점입니다.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories?Products=Adobe%2520Workfront">사례 연구</a> </td> 
+   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">사례 연구 </a></td> 
    <td>고객의 당면 과제와 [!DNL Workfront] 솔루션 및 이점을 강조하는 60개 이상의 사례 연구 모음을 읽어 보십시오.</td> 
   </tr> 
   <tr> 
@@ -107,7 +107,7 @@ ht-degree: 0%
    <td><strong>1단계: 설명 알아보기</strong> </td> 
    <td> <p>이러한 리소스를 통해 Workfront에 어떤 업데이트가 출시되는지 계속 확인할 수 있습니다.</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en" target="_blank">제품 공지</a>: Workfront의 제품 로드맵 업데이트를 찾고 계십니까? 제품 공지 페이지에서 릴리스 업데이트 및 로드맵 프레젠테이션을 찾을 수 있습니다.</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">제품 공지</a>: Workfront의 제품 로드맵 업데이트를 찾고 계십니까? 제품 공지 페이지에서 릴리스 업데이트 및 로드맵 프레젠테이션을 찾을 수 있습니다.</p> </li> 
      <li> <p><strong>알림 센터</strong>: 알림을 검토하고 [!DNL Workfront] 제품 팀으로부터 모든 고객에 대한 정보에 대한 중요 업데이트를 받습니다. 위쪽 탐색에서 [!DNL Workfront]의 <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a> 섹션을 방문하십시오.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -116,7 +116,7 @@ ht-degree: 0%
    <td> 
     <ul> 
      <li> <p>[!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">샌드박스</a>에서 최신 업데이트를 테스트합니다.</p> </li> 
-     <li> <p>이러한 업데이트가 직원들의 작업 방식에 어떤 영향을 미치는지 결정합니다. <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">기술 자료</a> 및 <a href="https://experienceleague.adobe.com/events/?lang=en">이벤트</a>가 도움이 될 수 있습니다. EMC 제품 관리자는 해당 기능이 해결한 직접적인 최종 사용자 또는 비즈니스 문제를 언급하여 변경 효과를 단축하는 데 도움을 줍니다.</p> </li> 
+     <li> <p>이러한 업데이트가 직원들의 작업 방식에 어떤 영향을 미치는지 결정합니다. <a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">기술 자료</a> 및 <a href="https://experienceleague.adobe.com/en/events"> 이벤트</a>가 도움이 될 수 있습니다. EMC 제품 관리자는 해당 기능이 해결한 직접적인 최종 사용자 또는 비즈니스 문제를 언급하여 변경 효과를 단축하는 데 도움을 줍니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 | [[!DNL Adobe Workfront] 통합](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | [!DNL Workfront]을(를) 타사 응용 프로그램과 통합할 수 있습니다. 통합은 [!DNL Workfront]의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 이 기술 자료 문서에서는 통합 옵션을 다루고 다음 방향을 안내합니다. |
 |---|---|
-| [[!DNL Workfront] 기본 제공 통합](https://www.workfront.com/integrations) | Workfront의 무료 기본 제공 통합을 사용하면 사용자와 팀이 동일한 워크플로 및 프로세스를 유지하면서 Workfront 플랫폼으로 원활하게 전환할 수 있습니다. |
+| [[!DNL Workfront] 기본 제공 통합](https://business.adobe.com/products/workfront/integrations.html) | Workfront의 무료 기본 제공 통합을 사용하면 사용자와 팀이 동일한 워크플로 및 프로세스를 유지하면서 Workfront 플랫폼으로 원활하게 전환할 수 있습니다. |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | [!DNL Workfront]을(를) 100개 이상의 응용 프로그램에 연결하여 코드 없이 비즈니스 크리티컬 프로세스를 쉽게 자동화할 수 있습니다. |
 
 {style="table-layout:auto"}
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 [!DNL Workfront] 상태 사이트에 대한 자세한 내용은 [상태 사이트 [!DNL Adobe Workfront] 3}를 참조하세요.](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
 
-주간 유지 관리 업데이트에서 해결된 사항을 알아보려면 [유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
+주간 유지 관리 업데이트에서 해결된 사항을 알아보려면 [유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 <!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 

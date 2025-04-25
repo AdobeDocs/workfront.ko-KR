@@ -7,7 +7,7 @@ description: 프로젝트 트리맵 시각화는 규모에 있어 다른 작업 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront 플랜</a></td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront 플랜</a></td> 
    <td> <p>비즈니스 이상</p> </td> 
   </tr> 
   <tr> 
@@ -156,7 +156,7 @@ ht-degree: 2%
    * **차트(PNG)**
    * **데이터 테이블(XSLX)**
 
-1. 번다운 및 진행 중인 작업 시각화를 열어 작업과 시간(또는 일)이 프로젝트 크기에 어떻게 기여했는지 깊이 있는 통찰력을 얻으려면 프로젝트를 클릭하십시오.
+1. 번다운 및 진행 중인 작업 시각화를 열어 작업과 시간(또는 일)이 프로젝트 크기에 어떻게 기여했는지에 대한 심도 있는 insight을 얻으려면 프로젝트를 클릭하십시오.
 
 번다운 시각화에 대한 자세한 내용은 [향상된 분석에서 번다운 시각화 보기](../enhanced-analytics/burndown-overview.md)를 참조하십시오. 진행 중인 작업 시각화에 대한 자세한 내용은 [향상된 분석에서 진행 중인 작업 시각화 보기](../enhanced-analytics/tasks-in-flight-overview.md)를 참조하십시오.
 

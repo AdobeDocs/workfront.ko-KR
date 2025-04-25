@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 증명 결정에 대한 자세한 내용은 [문서 영역](../../../documents/managing-documents/documents-area.md)을 참조하세요.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험에서 증명 및 버전 관리](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험에서 증명 및 버전 관리](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
 
 ## 증명 승인 보고서의 새 필드
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 이러한 필드는 기본 보고서의 일부가 아닙니다. 이를 보려면 추가해야 합니다.
 
-이 기능은 이제 Workfront One의 [증명 시스템 설정, 2부: 워크플로 관리](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) 학습 경로에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [증명 시스템 설정, 2부: 워크플로 관리](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
 
 ## 새 버전을 생성할 때 기존 증명 워크플로 이월
 
