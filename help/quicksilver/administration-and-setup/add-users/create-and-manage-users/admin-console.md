@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 6e4135fc6f0431c8222ce48c18a0b5c4c6f0dbed
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Admin Console에서 사용자 프로필을 변경하면 Workfront에서 사용�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe 관리자 권한</td> 
-   <td> <p>조직의 Adobe 제품 제품 제품 구성 관리자여야 합니다.</p> </td> 
+   <td> <p>조직의 Adobe 제품 제품 프로필 관리자여야 합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
