@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
+source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
-## Workfront 탐색 및 검색
+## 탐색 및 검색
 
 ### 고급 검색을 위한 인터페이스 업데이트
 
@@ -325,3 +325,30 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 * 그룹화
 
 +++
+
+## 사용자
+
+### 외부 사용자에 대한 문서 공유 페이지가 업데이트되었습니다.
+
+**미리 보기 릴리스: 2024년 4월 10일, 프로덕션 릴리스: 2024년 4월 17일 주에 시작**
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 외부 사용자를 위한 문서 공유 페이지를 업데이트했습니다.
+
+외부 사용자는 더 이상 이 페이지에서 _내 설정_&#x200B;에 액세스할 수 없습니다.
+
+<!--
+
+### Updated external user registration page
+
+**Preview release: April 24, 2024; Production release: To be announced**
+
+We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+
+
+## Licenses
+
+### Updated license agreement page
+
+**Preview release: tbd; Production release: To be announced**
+
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
