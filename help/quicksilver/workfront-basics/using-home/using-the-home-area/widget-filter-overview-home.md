@@ -6,10 +6,10 @@ description: 다양한 위젯 중에서 선택하여 홈 페이지에 표시되�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 13%
+source-wordcount: '963'
+ht-degree: 12%
 
 ---
 
@@ -238,6 +238,44 @@ ht-degree: 13%
     <td>할당된 기본 사용자가 없지만 할당된 역할이 있는 모든 문제를 표시합니다. </td>
   </tr>
 </table>
+
+## 내 요청
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">모두</td> 
+      <td>상태 또는 요청 제출자에 관계없이 제출된 모든 요청을 표시합니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">열기</td> 
+      <td> <p>제출된 모든 요청 표시 
+      <ul>
+      <li>누가 제출했는지에 상관없이 현재 열려 있습니다. 직접 제출하지 않은 경우 적어도 볼 수 있는 권한이 있는 요청만 여기에 표시됩니다.</li>
+      <li>실제 완료 일자가 없거나 해결 객체에 실제 완료 일자가 없는 경우 열기 하위 탭에 나열됩니다.</li> 
+      </ul>
+      <p><b>참고</b> 
+      Closed와 동일하지 않은 모든 상태에 있는 요청은 Open으로 간주됩니다.</p> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">내 요청</td> 
+      <td>상태에 관계없이 제출한 요청을 표시합니다. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">내 진행 중 요청</td> 
+      <td> <p>요청 표시 
+      <ul>
+      <li>을(를) 제출했으며 아직 열려 있습니다. </li> 
+      <li>실제 완료 일자가 없거나 해결 객체에 실제 완료 일자가 없는 경우 [내 진행 요청] 하위 탭에 나열됩니다. </li> 
+      </ul>
+      <p><b>참고</b> 
+      Closed와 동등한 상태가 아닌 요청은 Open으로 간주됩니다.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## 내 작업
 
