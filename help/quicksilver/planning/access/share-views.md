@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1564'
 ht-degree: 1%
 
 ---
@@ -160,6 +160,12 @@ This article describes how you can share a view with others. For information abo
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 다음 선택 사항 중에서 선택합니다.
 
    * **초대된 사람만 액세스할 수 있습니다**: 보기를 공유할 사용자, 그룹, 팀, 회사 또는 작업 역할을 지정해야 합니다. 기본 옵션입니다.
+
+     >[!NOTE]
+     >
+     >   팀, 그룹, 회사 및 작업 역할 외에도 Adobe Admin Console에 추가된 사용자와만 공유할 수 있습니다.
+
+
    * **작업 영역의 모든 사용자가 볼 수 있습니다**: 작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자가 보기에 액세스할 수 있습니다.
 
 1. **이 보기에 대한 액세스 권한 부여** 필드에서 사용자, 그룹, 팀, 회사 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.

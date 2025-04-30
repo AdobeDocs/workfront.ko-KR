@@ -6,7 +6,7 @@ description: Adobe Workfront의 [!UICONTROL Home] 영역 내에서 작업 항목
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 6%
@@ -132,7 +132,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 1. **회신**&#x200B;을 클릭합니다.
 
-   ![댓글에 다시 적용](assets/reply-to-comment-in-mentions-widget.png)
+   ![댓글에 회신](assets/reply-to-comment-in-mentions-widget.png)
 
 1. 댓글을 입력하세요.
 1. (선택 사항) **인물 태그** 상자에서 이 댓글에 포함할 사용자 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다.

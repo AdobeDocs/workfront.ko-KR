@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '2872'
-ht-degree: 3%
+source-wordcount: '3205'
+ht-degree: 2%
 
 ---
 
 # 표 보기 관리
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -86,7 +86,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
   </tr> 
 <tr> 
    <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> </td> 
+   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 계획 영역이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
+<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 계획 영역을 사용할 수 있습니다.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -95,13 +96,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## 표 보기를 사용하여 레코드 편집
 
@@ -117,9 +112,11 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 테이블 뷰를 관리하려면 다음을 수행합니다.
 
-1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 테이블 보기를 만듭니다.
+1. <span class="preview">문서 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)에 설명된 대로 테이블 보기를 만듭니다. </span>
 
-   ![테이블 보기 예제](assets/table-view-example.png)
+   <span class="preview">![테이블 보기 예제](assets/table-view-example.png)
+
+   </span>
 
 1. (선택 사항) **행 높이**&#x200B;를 클릭한 후 다음 옵션 중에서 선택하여 테이블 행의 높이를 수정합니다.
    * 짧음
@@ -130,14 +127,17 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
    * [열(또는 필드)](#add-columns-or-fields)
    * [행(또는 레코드)](#add-rows-or-records)
    * [필터](#add-filters)
-   * [그룹화](#add-groupings)
    * [정렬](#add-a-sort)
-   * [실시간 현재 상태 표시기 활성화](#enable-the-real-time-presence-indicator)
+   * [그룹화](#add-groupings)
+   * <span class="preview">[행 색](#add-row-colors)</span>
+   * [실시간 존재 표시기](#enable-the-real-time-presence-indicator)
 
 
 ### 열(또는 필드) 추가 {#add-columns}
 
-테이블 보기의 열 머리글에는 보기의 레코드와 관련된 필드가 표시됩니다. 표 보기에 표시된 동일한 필드가 레코드의 세부 정보 섹션에도 표시됩니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
+테이블 보기의 열 머리글에는 보기의 레코드와 관련된 필드가 표시됩니다. 표 보기에 표시되는 필드는 레코드의 세부 정보 섹션에도 표시됩니다.
+
+자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -362,55 +362,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 1. (선택 사항) 필터 조건을 제거하려면 **x** 아이콘을 클릭하십시오.
 1. (선택 사항) 필터 상자를 닫으려면 **필터**&#x200B;를 클릭합니다. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-### 그룹화 추가 {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-보기에 그룹화를 적용할 때 유사한 정보별로 레코드를 그룹화할 수 있습니다.
-
-표 보기에서 그룹화를 추가하는 것은 타임라인 보기에 그룹화를 추가하는 것과 비슷합니다.
-
-다음 사항을 고려하십시오.
-
-* 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
-* 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
-&lt;!—* API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —현재 이 항목을 확인하고 있습니다—>
-* 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
-* 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
-* 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
-* 그룹화 아래에 나열된 레코드를 편집할 수 있습니다.
-* 연결된 레코드 필드 또는 조회 필드를 기준으로 그룹화할 수 있습니다.
-* 집계자가 요약하지 않은 여러 값이 있는 조회 필드를 기준으로 그룹화하면, 레코드는 각 필드 값의 고유한 조합으로 그룹화됩니다.
-* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형에 대한 그룹화를 만드는 중에 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우, 활동 레코드 유형에 대해 만들고 있는 그룹화에서 프로젝트의 상태를 참조할 수 있습니다.
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-그룹화를 추가하려면:
-
-1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
-1. 테이블 보기의 오른쪽 위 모서리에서 **그룹화**&#x200B;을 클릭합니다.
-
-   ![연결된 필드가 있는 그룹화 UI 테이블 보기](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;을 클릭하고 다른 필드를 검색한 다음 목록에 표시될 때 해당 필드를 클릭합니다.
-
-   그룹화가 테이블에 자동으로 적용되며 그룹화 구분선 아래에 레코드가 표시됩니다.
-
-1. (선택 사항) **조건 추가**&#x200B;를 클릭하고 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
-
-   그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
-
-   ![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)
-
-1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
-
-   또는
-
-   모든 필드를 제거하려면 **모두 지우기**&#x200B;를 클릭하십시오.
-
-1. **레코드 그룹화 기준** 상자 바깥쪽을 클릭하여 닫습니다.
-1. (선택 사항) 그룹화 끝에 있는 **+ 새 레코드**&#x200B;을 클릭하여 새 레코드를 추가한 다음 페이지를 새로 고쳐 새 레코드를 적절한 그룹화에 추가합니다. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
 ### 정렬 추가 {#sort-information}
 
 정렬을 적용하여 주어진 순서로 정보를 구성할 수 있습니다.
@@ -473,6 +424,56 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
    정렬하기 위해 선택한 필드에는 정렬 아이콘이 표시되고 그 뒤에 정렬이 적용되는 순서를 나타내는 숫자가 표시됩니다.
 
+### 그룹화 추가 {#add-groupings}
+
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
+
+보기에 그룹화를 적용할 때 유사한 정보별로 레코드를 그룹화할 수 있습니다.
+
+표 보기에서 그룹화를 추가하는 것은 타임라인 보기에 그룹화를 추가하는 것과 비슷합니다.
+
+다음 사항을 고려하십시오.
+
+* 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
+* 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
+&lt;!—* API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —현재 이 항목을 확인하고 있습니다—>
+* 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
+* 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
+* 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
+* 그룹화 아래에 나열된 레코드를 편집할 수 있습니다.
+* 연결된 레코드 필드 또는 조회 필드를 기준으로 그룹화할 수 있습니다.
+* 집계자가 요약하지 않은 여러 값이 있는 조회 필드를 기준으로 그룹화하면, 레코드는 각 필드 값의 고유한 조합으로 그룹화됩니다.
+* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형에 대한 그룹화를 만드는 중에 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우, 활동 레코드 유형에 대해 만들고 있는 그룹화에서 프로젝트의 상태를 참조할 수 있습니다.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
+
+그룹화를 추가하려면:
+
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
+1. 테이블 보기의 오른쪽 위 모서리에서 **그룹화**&#x200B;을 클릭합니다.
+
+   ![연결된 필드가 있는 그룹화 UI 테이블 보기](assets/grouping-ui-table-view-with-linked-fields.png)
+
+1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;을 클릭하고 다른 필드를 검색한 다음 목록에 표시될 때 해당 필드를 클릭합니다.
+
+   그룹화가 테이블에 자동으로 적용되며 그룹화 구분선 아래에 레코드가 표시됩니다.
+
+1. (선택 사항) **조건 추가**&#x200B;를 클릭하고 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
+
+   그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
+
+   ![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)
+
+1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
+
+   또는
+
+   모든 필드를 제거하려면 **모두 지우기**&#x200B;를 클릭하십시오.
+
+1. **레코드 그룹화 기준** 상자 바깥쪽을 클릭하여 닫습니다.
+1. (선택 사항) 그룹화 끝에 있는 **+ 새 레코드**&#x200B;을 클릭하여 새 레코드를 추가한 다음 페이지를 새로 고쳐 새 레코드를 적절한 그룹화에 추가합니다. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+
+
 <!-- this is not available yet: 
 
 To sort grouped records: 
@@ -481,6 +482,42 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+<div class="preview">
+
+### 행 색상 추가
+
+1. (선택 사항) **행 색**&#x200B;을 클릭하여 조건을 정의하고 표 행에 다른 색 구성을 선택합니다.
+
+1. **색상 추가**&#x200B;를 클릭한 다음 **값을 지정할 필드 선택**&#x200B;을 클릭합니다.
+
+   예를 들어 상태가 활성인 캠페인을 녹색으로 표시하려면 **상태**&#x200B;를 선택한 다음 필드에 대한 수정자와 값을 선택합니다.
+
+   ![활성 상태 및 기본 색상 선택을 가진 행 색상 상자](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+
+1. 선택한 조건의 왼쪽 위 모서리에 있는 색상 피커에 대한 드롭다운 메뉴를 클릭하여 조건에 대한 색상을 선택한 다음 색상 피커 상자 외부를 클릭하여 닫습니다.
+
+   ![행 색 상자의 드롭다운 색 선택 메뉴 강조 표시](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+
+1. (선택 사항) **조건 추가**&#x200B;를 클릭하여 첫 번째 조건 집합에 더 많은 필드와 값을 추가합니다
+
+   또는
+
+   새 조건 집합을 추가하고 새 색을 식별하려면 **색 추가**&#x200B;를 클릭하세요.
+
+   예를 들어 새 조건 세트를 정의하여 캠페인을 계획 상태에서 노란색으로 표시할 수 있습니다.
+
+   ![활성 및 계획 상태 사용자 정의 색상이 있는 행 색 상자](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+
+1. (선택 사항) [행 색상] 상자의 오른쪽 위 모서리에 있는 **전체 행에 적용** 설정을 켭니다. 조건이 충족되는 전체 행이 선택한 색상으로 자동으로 표시됩니다.
+
+   >[!TIP]
+   >
+   >전체 행에 적용 설정이 해제되어 있으면 기본 필드의 왼쪽에만 선택한 색상으로 좁은 색상 표시기가 표시됩니다. 이 설정은 기본적으로 꺼져 있습니다.
+
+1. **행 색** 상자 바깥쪽을 클릭하여 닫습니다. 색상이 자동으로 적용됩니다.
+
+</div>
 
 ### 실시간 현재 상태 표시기 활성화
 

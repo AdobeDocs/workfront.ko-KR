@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '816'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,7 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
 마일스톤이 삭제되어 복구할 수 없습니다. 이정표와 연관된 프로젝트 정보와 이정표 경로와 연관된 작업 정보도 모두 삭제됩니다.
 
 
-## 보고서에서 마일스톤 경로 세부 정보 보기
+## 프로젝트 보고서에서 마일스톤 경로 세부 정보 보기
 
 프로젝트 보고서에서 마일스톤 경로의 세부 사항을 볼 수 있습니다.
 

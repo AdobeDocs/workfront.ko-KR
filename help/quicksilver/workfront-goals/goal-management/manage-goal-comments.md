@@ -6,7 +6,7 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
@@ -101,7 +101,7 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 1. 주석을 추가할 목표를 찾은 다음 해당 이름을 클릭하여 목표 페이지를 엽니다.
 1. 왼쪽 패널에서 **업데이트**&#x200B;를 클릭합니다.
 
-   Workfront 개체에 대한 댓글을 관리하는 방법에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
+   Workfront 개체의 댓글을 관리하는 방법에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 

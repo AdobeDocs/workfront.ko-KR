@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3333'
+source-wordcount: '3359'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,8 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
   </tr> 
 <tr> 
    <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다 </p> </td> 
+   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 계획 영역이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
+<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 계획 영역을 사용할 수 있습니다.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -133,14 +134,6 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## 레코드 연결에 대한 고려 사항
 
@@ -165,7 +158,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 * 테이블 보기의 연결된 레코드 필드입니다.
 * 세부 정보 탭의 연결된 레코드 필드에 있는 레코드의 미리 보기 상자 또는 페이지입니다.
 * 연결 탭의 레코드 미리 보기 상자 또는 페이지입니다.
-* 연결 보기 탭에 있는 레코드의 페이지입니다. <!--this needs title edit when they rename the "Connection view" page type-->
+* <span class="preview">연결된 레코드 페이지</span> 탭의 레코드 페이지입니다.
 
 ### 표 보기 또는 레코드의 세부 정보 영역에서 Workfront Planning 레코드 연결
 
@@ -463,9 +456,8 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
    레코드는 Workfront Planning의 모든 영역 또는 연결된 것으로 표시될 수 있는 다른 응용 프로그램에서 즉시 연결이 끊어집니다. 모든 조회 필드 값도 제거됩니다.
 
-### 레코드의 세부 정보 페이지에 있는 연결 보기 탭에서 레코드 연결
+### 레코드의 <span class="preview">연결된 레코드 페이지</span>에서 레코드를 연결합니다.
 
-<!--section needs title edit when they rename the "Connection view" page type-->
 
 1. 다른 Planning 레코드 유형 또는 다른 응용 프로그램의 객체 유형에 연결된 레코드 유형의 모든 뷰로 이동합니다.
 1. 이전 하위 섹션에 설명된 단계에 따라 다른 레코드나 오브젝트와 연결할 레코드를 뷰에서 찾습니다.
@@ -473,9 +465,11 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
    미리보기 페이지가 열립니다.
 1. **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭하여 레코드 페이지를 엽니다.
-1. 레코드의 미리 보기 또는 페이지에서 기존 연결 보기 탭을 클릭합니다. 먼저 연결 보기 페이지를 만들어야 합니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
+1. 레코드 페이지에서 기존 <span class="preview">연결된 레코드 페이지</span> 탭을 클릭합니다. 먼저 <span class="preview">연결된 레코드 페이지</span>를 만들어야 합니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
 
    연결된 레코드 유형 페이지가 테이블 뷰에 표시됩니다.
+
+   한 유형의 연결된 모든 레코드가 테이블에 표시됩니다.
 1. 레코드를 추가하거나 제거하려면 **연결**&#x200B;을 클릭하세요.
 
    ![연결된 레코드 세부 정보 탭에서 강조 표시된 연결 단추](assets/connect-button-highlighted-in-connected-record-details-tab.png)

@@ -6,9 +6,9 @@ description: 개인 작업은 사용자가 홈 영역에서 직접 생성하는 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,20 @@ ht-degree: 0%
 
 개인 작업은 사용자에게 보내거나 직접 보내거나 추가하는 임시 작업 요청입니다.
 
-Adobe Workfront은 임시 작업 요청을 저장하고 항목을 개인 작업으로 수행합니다.
+Adobe Workfront은 임시 작업 요청을 저장하고 Windows가 각 사용자에 대해 자동으로 만드는 사용자의 개인 프로젝트에서 항목을 개인 작업으로 처리합니다.
 
-기본적으로 Workfront의 모든 사용자에게는 &quot;&lt; 사용자의 전체 이름>&#39;s Tasks&quot;라는 개인 프로젝트가 있습니다. 예를 들어 &quot;John Smith의 작업&quot;입니다.
+다음은 사용자의 개인 프로젝트 특성입니다.
 
-각 사용자의 개인 프로젝트는 검색에 표시되지 않고 숨겨집니다. 모든 개인 작업은 이 프로젝트에 저장됩니다.
+* Workfront의 모든 사용자에게는 &quot;&lt; 사용자의 전체 이름>&#39;s Tasks&quot;라는 개인 프로젝트가 있습니다. 예를 들어 &quot;John Smith의 작업&quot;입니다.
+* 각 사용자의 개인 프로젝트는 검색에 표시되지 않고 숨겨집니다.
+* 사용자가 비활성화된 경우에도 개인 프로젝트를 삭제할 수 없습니다.
+* 개인 프로젝트의 상태는 항상 현재입니다. 개인 프로젝트는 완료하거나 취소할 수 없습니다.
+* 모든 개인 작업은 사용자 개인 프로젝트에 저장됩니다.
+* 필요한 경우 개인 작업을 다른 프로젝트로 이동할 수 있습니다.
 
-필요한 경우 개인 작업을 프로젝트로 이동할 수 있습니다.
+다음과 같은 방법으로 개인 작업을 만들 수 있습니다.
 
-다음과 같은 방법으로 개인 태스크를 생성할 수 있습니다.
-
-* 홈 영역에 할 일 항목 만들기
+* 홈 영역에서 할 일 항목 만들기
 
   자세한 내용은 [홈 영역에서 작업 항목 및 프로젝트 만들기](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)를 참조하십시오.
 
@@ -79,13 +82,13 @@ Adobe Workfront은 임시 작업 요청을 저장하고 항목을 개인 작업�
 
 ## 개인 작업 요청 만들기
 
-1. 사용자의 프로필 페이지로 이동하거나, 보기 액세스 권한이 있는 다른 사용자의 프로필 페이지로 이동합니다.
+1. 사용자의 프로필 페이지로 이동하거나, 보기 권한이 있는 다른 사용자의 프로필 페이지로 이동합니다.
 
    >[!TIP]
    >
-   >Workfront 관리자는 사용자가 액세스 수준을 구성할 때 특정 사용자가 표시되지 않도록 할 수 있습니다.
+   >Workfront 관리자가 특정 사용자가 액세스 수준을 구성할 때 특정 사용자를 못하도록 차단할 수 있습니다.
 
-1. 헤더의 사용자 이름 오른쪽에 있는 **추가 메뉴** ![](assets/more-menu.png)을(를) 클릭합니다.
+1. **헤더에서 사용자 이름 오른쪽에 있는 자세히 메뉴를** ![](assets/more-menu.png) 클릭합니다.
 1. **작업 요청 보내기**를 클릭합니다.
 **사용자에게 작업 요청 보내기** 상자가 표시됩니다.
 
@@ -105,12 +108,12 @@ Adobe Workfront은 임시 작업 요청을 저장하고 항목을 개인 작업�
 
 ## 개인 작업 찾기
 
-다음 영역에서 개인 태스크를 찾을 수 있습니다.
+다음 영역에서 개인 작업을 찾을 수 있습니다.
 
-* 개인 요청이 전송된 사용자의 홈 영역에 있는 할 일 위젯.
+* 개인 요청 수신을 받은 사용자 홈 영역에 있는 To-dos 위젯
 
-  자세한 내용은 [홈 영역에서 작업 항목 및 프로젝트 만들기](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)를 참조하십시오.
+  자세한 내용은 홈 영역에서](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) 작업 항목 및 프로젝트 만들기 항목을 [참조하세요.
 
-* 개인 작업 보고서 또는 목록. 개인 작업 필터를 작성하고 작업 보고서 또는 목록에 적용하여 개인 작업만 표시하고 프로젝트 작업을 제외할 수 있습니다.
+* 개인 작업 보고서 또는 목록입니다. 개인 작업 필터를 작성하고 작업 보고서 또는 목록에 적용하여 개인 작업만 표시하고 프로젝트 작업을 제외할 수 있습니다.
 
   자세한 내용은 [필터: 개인 작업](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)을 참조하세요.

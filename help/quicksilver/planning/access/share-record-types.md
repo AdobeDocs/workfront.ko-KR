@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1499'
 ht-degree: 0%
 
 ---
@@ -185,6 +185,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 
    >[!IMPORTANT]
    >
+   >* 팀, 그룹, 회사 및 작업 역할 외에도 Adobe Admin Console에 추가된 사용자와만 공유할 수 있습니다.
    >* 작업 영역에서 사용자에게 기록 유형에 대한 권한보다 더 큰 권한을 부여할 수 없습니다.
    >* 작업 영역에 대한 관리 권한이 있는 경우 사용자에게 레코드 유형에 대한 관리 권한보다 적은 권한을 부여할 수 없습니다.
    >* 작업 영역에 대한 기여 권한이 있는 경우 사용자에게 레코드 유형에 대한 권한을 덜 부여할 수 있습니다.
