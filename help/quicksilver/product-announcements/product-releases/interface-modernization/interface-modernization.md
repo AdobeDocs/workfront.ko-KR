@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,14 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 **미리 보기 릴리스: 2025년 1월 16일, 2025년 1월 30일 주에 시작**
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 설정 > 문서 > Sharepoint 통합에서 Sharepoint 추가 대화 상자를 업데이트했습니다.
+
+이 업데이트에는 영역에 대한 시각적 변경 사항이 포함됩니다. 변경된 기능이 없습니다.
+
+### 사용자 정의 통합 추가 대화 상자의 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 1월 16일, 2025년 1월 30일 주에 시작**
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인을 사용하여 설정 > 문서 > 사용자 지정 통합에서 사용자 지정 통합 추가 대화 상자를 업데이트했습니다.
 
 이 업데이트에는 영역에 대한 시각적 변경 사항이 포함됩니다. 변경된 기능이 없습니다.
 
