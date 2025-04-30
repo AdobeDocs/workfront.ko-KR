@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3231'
 ht-degree: 0%
 
 ---
@@ -661,24 +661,23 @@ ht-degree: 0%
                         <p>Workfront Campaign을 사용하면 새로운 작업 컨테이너에서 다양한 포트폴리오 및 프로그램의 프로젝트를 구성할 수 있습니다.
 캠페인은 2022년 7월에 22.3 릴리스와 함께 베타 미리보기에 릴리스되었습니다.</p>
 <p>이 새 컨테이너는 현재 별도의 사일로에서 관리되는 작업 객체를 연결하기 위해 향후 릴리스에서 발전할 예정입니다.</p>
-
-    &lt;/td>
-    &lt;td>&lt;p>&lt;b>다음 날짜에 사용 가능:&lt;/b>&lt;/p>
-    &lt;ul>
-    &lt;li>
-    &lt;p>미리보기 릴리스:&amp;#GenStudio for Performance Marketers&amp;-160;2.4 릴리스 전체 일정&lt;br />&lt;/p>
-    &lt;/li>
-    &lt;li>
-    &lt;p>프로덕션 릴리스:&amp;#GenStudio for Performance Marketers&amp;-160;TBD&lt;/p>
-    &lt;/li>
-    &lt;/ul>
-    &lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXxref&quot; xrefformat=&quot;{para}&quot; 팀 설명&lt;/a>&lt;/p>
-    &lt;p>이제 팀 영역에서 설명을 클릭하여 팝업에 표시하여 전체 팀 설명을 볼 수 있습니다. 설명의 모든 URL은 팝업에서 클릭할 수 있으며, 팀 설정을 편집할 수 있는 액세스 권한이 있는 경우 설명 텍스트를 클릭하여 편집할 수 있습니다.&lt;/p>
-    &lt;p>이전에는 좁은 영역에서 설명을 스크롤하는 것이 모든 콘텐츠를 볼 수 있는 유일한 방법이었습니다.&lt;/p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 22.4 릴리스 일정 전체<br /></p>
+                            </li>
+                            <li>
+                                <p>프로덕션 릴리스: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">팀 설명 확장</a></p>
+                        <p>이제 팀 영역에서 설명을 클릭하여 팝업에 표시하여 전체 팀 설명을 볼 수 있습니다. 설명의 모든 URL은 팝업에서 클릭할 수 있으며, 팀 설정을 편집할 수 있는 액세스 권한이 있는 경우 설명 텍스트를 클릭하여 편집할 수 있습니다.</p>
+                        <p>이전에는 좁은 영역에서 설명을 스크롤하는 것이 모든 콘텐츠를 볼 수 있는 유일한 방법이었습니다.</p>
 <p>설명에 대한 이 개선 사항은 애자일 팀과 애자일이 아닌 팀 모두에 적용됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
