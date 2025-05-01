@@ -6,9 +6,9 @@ description: 필터 및 조건 수정자를 사용하여 필터를 작성하고 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>기본 제공 한정자</strong> </p> </th> 
+   <th> <p><strong>내장 수정자</strong> </p> </th> 
    <th> <p><strong>텍스트 모드 수정자</strong> </p> </th> 
    <th> <p><strong>설명</strong> </p> </th> 
   </tr> 
@@ -49,17 +49,17 @@ ht-degree: 0%
  <tbody> 
   <tr valign="top"> 
    <td> <p><strong>비어 있음</strong> </p> </td> 
-   <td> <p><strong>blank</strong> </p> </td> 
-   <td> <p>오브젝트에 대한 필드가 있지만 필드에 현재 값이 없습니다.</p> </td> 
+   <td> <p><strong>빈</strong> </p> </td> 
+   <td> <p>개체에 대한 필드가 존재하지만 필드에 현재 값이 없습니다.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>비어 있지 않음</strong> </p> </td> 
-   <td> <p><strong>notblank</strong> </p> </td> 
-   <td> <p>필터링 중인 필드가 존재하며 해당 필드에 값이 지정되었습니다.</p> </td> 
+   <td> <p><strong>비어 있지 않음</strong> </p> </td> 
+   <td> <p>필터링 중인 필드가 존재하며 값이 지정되었습니다.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
-   <td> <p><strong>null</strong> </p> </td> 
+   <td> <p><strong>영</strong> </p> </td> 
    <td> <p>필드가 비어 있거나 존재하지 않습니다. 예를 들어 상위 작업 ID가 없는 항목을 찾으려고 합니다. 즉, 독립 실행형 작업만 표시하려고 합니다. ID(이 경우 상위)가 없는 작업이 없으므로 "상위 작업 ID"의 한정자는 <strong>null</strong>이 됩니다. </p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -75,7 +75,12 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <p><strong>다음을 포함하지 않음</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p><strong>notcontains</strong>의 <i>대/소문자를 구분하지 않습니다</i> 버전입니다.</p><p>이 수정자는 지정된 값이 누락된 항목을 필터링합니다.</p> <p>예를 들어 <code>does not contain inf</code>은(는) 이름에 <code>Inf</code> 또는 <code>inf</code>이(가) 없는 모든 항목을 캡처합니다.</p> <p>참고: <span>필터링하려는 필드에 여러 옵션이 있는 경우, 이 옵션은 지정한 선택과 지정한 선택 및 추가 선택 항목이 모두 포함된 결과를 필터링합니다.</span> </p> </td> 
+   <td> <p><strong>notcontains</strong>의 <i>대/소문자를 구분하지 않습니다</i> 버전입니다.</p><p>이 수정자는 지정된 값이 누락된 항목을 필터링합니다.</p> <p>예를 들어 <code>does not contain inf</code>은(는) 이름에 <code>Inf</code> 또는 <code>inf</code>이(가) 없는 모든 항목을 캡처합니다.</p> <p>참고: 여러 값이 포함된 필드(예: 프로젝트 내의 메모 컬렉션)에 적용되면 필터는 다음과 같이 제외를 결정합니다.
+<ul>
+    <li>컬렉션의 모든 항목에 지정된 텍스트가 포함되어 있으면 전체 레코드가 결과에서 제외됩니다.</li>
+    <li>컬렉션에서 하나 이상의 항목에 지정된 텍스트가 없으면 레코드가 결과에 남아 있습니다.</li>
+</ul>
+ </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
@@ -103,18 +108,18 @@ ht-degree: 0%
   </tr> 
   <tr valign="top"> 
    <td> </td> 
-   <td><strong>새</strong> </td> 
-   <td> <p><strong>eq</strong>과(와) 반대의 <i>대/소문자 구분</i>입니다. 검색된 값과 정확히 일치하지 않는 결과만 반환하며 값의 대/소문자도 일치합니다.</p> <p>예를 들어 <b>ne</b>은(는) "Current"와 같지 않은 값은 반환하지만 "current"와 같지 않은 값은 반환하지 않습니다. </p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.<br></p> </td> 
+   <td><strong>네브라스카</strong> </td> 
+   <td> <p>이것은 eq</strong>의 반대인 <i>대소문자 구분</i> 구분입니다<strong>. 검색된 값과 정확히 일치하지 않는 결과만 반환하며 값의 대/소문자도 일치합니다.</p> <p>예를 들어, ne</b>는 <b>"Current"와 같지 않은 값은 반환하지만 "current"와 같지 않은 값은 반환하지 않습니다. </p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 텍스트 모드를</a> 사용하여 필터 편집을 참조하십시오<a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">.<br></p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
-   <td> <p><strong>로그인</strong> </p> </td> 
-   <td> <p> <strong>in</strong>의 <i>대/소문자를 구분하지 않는</i> 버전입니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
+   <td> <p><strong>CIIN (시인)</strong> </p> </td> 
+   <td> <p> 이것은 in</strong>의 <i><strong>대소문자 구분 안 함</i> 버전입니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 텍스트 모드를</a> 사용하여 필터 편집을 참조하십시오<a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
-   <td> <p><strong>cinotin</strong> </p> </td> 
-   <td> <p><strong>알림</strong>의 <i>대/소문자를 구분하지 않는</i> 버전입니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
+   <td> <p><strong>시노틴</strong> </p> </td> 
+   <td> <p>이것은 notin</strong>의 <i><strong>대소문자 구분 안</i> 함 버전입니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> <p> </p> <p> </p> <p><strong>같음</strong> </p> </td> 
@@ -173,7 +178,7 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>notbetween</strong> </p> </td> 
-   <td> <p><strong>between</strong>의 역버전입니다. 두 개의 필수 값 필드를 제공하고, 입력한 값을 포함하여 두 필드의 범위를 벗어나는 모든 결과를 검색합니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>을 참조하십시오.</p> </td> 
+   <td> <p><strong>between</strong>의 역버전입니다. 두 개의 필수 값 필드를 제공하고, 입력한 값을 포함하여 두 필드의 범위를 벗어나는 모든 결과를 검색합니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 텍스트 모드를</a> 사용하여 필터 편집을 참조하십시오<a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">.</p> </td> 
   </tr>
 
 </tbody> 
