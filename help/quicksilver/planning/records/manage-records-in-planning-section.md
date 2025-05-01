@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1847'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항 보기..
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -102,7 +102,8 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 객체에 대한 계획 영역 또는 계획 섹션을 보려면 Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역과 프로젝트, 포트폴리오 및 프로그램의 계획 영역이 포함된 레이아웃 템플릿을 지정해야 합니다. </p> 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Planning 액세스 개요</a>를 참조하십시오. </p>  </p>  
+   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 Planning이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
+<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 Planning을 활성화합니다.</span></p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -112,13 +113,6 @@ ht-degree: 1%
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## 계획 섹션의 레코드 관리
 

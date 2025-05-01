@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '4674'
+source-wordcount: '4688'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항 보기..
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -105,7 +105,8 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
   </tr> 
 <tr> 
    <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> </td> 
+   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 Planning이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
+<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 Planning을 활성화합니다.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,14 +114,6 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## 처음부터 필드 만들기 {#create-fields-from-scratch}
 

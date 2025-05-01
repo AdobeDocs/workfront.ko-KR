@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
 source-wordcount: '3205'
 ht-degree: 2%
@@ -27,7 +27,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항 보기..
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -95,8 +95,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
-
-
 
 ## 표 보기를 사용하여 레코드 편집
 

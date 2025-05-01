@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
 source-wordcount: '2425'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항 보기..
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 

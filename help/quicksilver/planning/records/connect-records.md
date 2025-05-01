@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '3359'
+source-wordcount: '3355'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항 보기..
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -125,8 +125,8 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
   </tr> 
 <tr> 
    <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 계획 영역이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
-<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 계획 영역을 사용할 수 있습니다.</span></p> </td> 
+   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 Planning이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
+<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 Planning을 활성화합니다.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>

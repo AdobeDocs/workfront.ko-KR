@@ -6,7 +6,7 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!-- Audited: 4/2025 -->
 
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객이 미리 보기 환경에서만 사용할 수 있습니다. 프로덕션에 대한 월별 릴리스 후에는 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 조직에](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) 대한 빠른 릴리스 활성화 또는 비활성화를 참조하세요[.</span>
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -48,11 +48,11 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-Adobe Systems Workfront 개체에 주석을 추가하여 개체의 상태나 진행 상황을 다른 사용자에게 알리거나 추가 정보 또는 추가 리소스를 요청하여 개체를 업데이트할 수 있습니다.
+다른 사용자에게 오브젝트의 상태 또는 진행 상황을 알리거나 추가 정보 또는 추가 리소스를 요청하기 위해 주석을 추가하여 Adobe Workfront 오브젝트에 업데이트를 추가할 수 있습니다.
 
-Workfront에서 업데이트를 추가할 수 있는 개체에 대한 자세한 내용은 업데이트 섹션 개요를](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) 참조하십시오[.
+Workfront에서 업데이트를 추가할 수 있는 개체에 대한 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
-이 문서에서는 프로젝트, 작업 및 문제에 대해 의견을 제시하는 방법에 대해 설명합니다. 객체에 지정되거나 가입된 사용자는 업데이트를 볼 수 있습니다. 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수도 있습니다.
+이 문서의 정보에서는 프로젝트, 작업 및 문제에 대해 댓글을 작성하는 방법에 대해 설명합니다. 오브젝트에 할당되거나 가입한 사용자는 업데이트를 볼 수 있습니다. 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수도 있습니다.
 
 다른 Workfront 오브젝트에 주석을 추가하는 것은 프로젝트, 작업 및 문제를 업데이트하는 것과 비슷합니다.
 
@@ -114,7 +114,7 @@ Workfront Planning의 카드, 목표 및 레코드에 대한 댓글에 대한 �
 
   Workfront에 있는 오브젝트의 업데이트 섹션에서 사용할 수 있는 기능 중 일부가 다른 애플리케이션에서 Workfront 오브젝트에 액세스할 때 사용할 수 있는 것은 아닙니다. 예를 들어 서드파티 애플리케이션에서 Workfront 객체에 댓글을 추가할 때 리치 텍스트 기능이나 댓글을 누군가의 회사에 비공개로 만들 수 없는 경우가 있을 수 있습니다.
 
-* Workfront 개체(프로젝트, 작업 또는 문제)에 대한 댓글을 달면서 해당 개체의 진행 상황에 대해 소통할 수 있습니다. 개체에 할당되거나 가입된 사용자는 업데이트에 대한 알림 알림을 받을 수 있습니다. 개체에 대한 보기 액세스 권한이 있는 사람은 누구나 업데이트를 볼 수 있습니다.
+* Workfront 개체(프로젝트, 작업 또는 문제)에 대한 댓글을 달면서 해당 개체의 진행 상황에 대해 소통할 수 있습니다. 개체를 할당받거나 구독하는 사용자는 업데이트에 대한 알림을 받을 수 있습니다. 오브젝트에 대한 보기 액세스 권한이 있는 모든 사람이 업데이트를 볼 수 있습니다.
 
 * 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 태그가 지정된 사용자는 인앱 알림 및 업데이트에 대한 이메일을 받습니다.
 
@@ -241,26 +241,24 @@ You can add updates to the following objects:
 1. 왼쪽 패널에서 **업데이트**를 클릭합니다.
 기본적으로 **댓글** 탭이 선택되어 있습니다.
 
-1. 
-   <div class="preview">**새 주석** 상자에 주석 입력을 시작합니다.
+1. <span class="preview">**새 댓글** 상자에 댓글을 입력하세요.</span>
 
-   ![새 댓글 상자](assets/comment-box-all-tabs.png)
-   </div>
+   <span class="preview">![새 댓글 상자](assets/comment-box-all-tabs.png)</span>
 
    >[!TIP]
    >
    >댓글을 입력하고 제출하기 전에 업데이트 섹션에서 다른 곳으로 이동하면 로그오프했다가 다시 로그온한 후에도 페이지에서 댓글이 초안 모드로 유지됩니다. 주석에 추가된 모든 이미지도 초안에 저장됩니다. 초안은 7일 동안 저장되며 이후 삭제되며 복구할 수 없습니다. 초안 주석은 설명을 입력한 사용자만 볼 수 있습니다.
 
 1. (선택 사항) 변경을 실행 취소하거나 재실행하려면 다음 단축키를 사용합니다.
-   * CTRL + Z(Mac의 경우 ⌘+z)를 사용하여 변경 사항을 실행 취소합니다.
-   * CTRL + Y(Mac의 경우 ⌘+y)를 눌러 변경 사항을 다시 실행합니다.
+   * 변경 내용을 취소하려면 CTRL+Z(Mac의 경우 ⌘+z)
+   * CTRL+Y(Mac의 경우 ⌘+y) 를 눌러 변경 사항을 재실행합니다
 
-1. <span class="preview">(선택 사항) **태그 사용자 또는 팀** 영역에서 이 댓글에 포함할 좋아요 또는 좋아요 팀 이름이나 전자 메일을 입력하거나 목록에 표시될 때 선택합니다. </span>
-1. (선택 사항) 서식 있는 텍스트 도구 모음의 옵션을 사용하여 텍스트를 포맷하고, 이모지, 링크 또는 이미지를 업데이트에 추가하여 컨텐츠 향상시킬 수 있습니다. 자세한 내용은 이 문서의 Workfront 업데이트](#use-rich-text-in-a-workfront-update)에서 [서식 있는 텍스트 사용 섹션을 참조하십시오.
+1. <span class="preview">(선택 사항) **사람 또는 팀 태그 지정** 영역에서 이 댓글에 포함할 사용자 또는 팀의 이름이나 전자 메일을 입력하거나 목록에 표시될 때 선택하십시오. </span>
+1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하고, 업데이트에 이모지, 링크 또는 이미지를 추가하여 콘텐츠를 개선합니다. 자세한 내용은 이 문서의 [Workfront 업데이트에서 서식 있는 텍스트 사용](#use-rich-text-in-a-workfront-update) 섹션을 참조하십시오.
 
    >[!TIP]
    >
-   >다른 사용자 업데이트 중인 동일한 항목에 대한 주석을 제출하면 최신 댓글 알려주는 &quot;새로 만들기&quot; 표시기가 있는 빨간색 선이 표시됩니다.
+   >다른 사용자가 업데이트하고 있는 동일한 항목에 주석을 제출하는 경우 새로운 주석을 알려주는 &quot;신규&quot; 표시기가 있는 빨간색 줄이 있습니다.
    >
    >표시기는 항목에 대한 댓글이 제출된 후에만 표시되며 댓글이 아직 작성된 경우에는 표시되지 않습니다.
    >
@@ -306,9 +304,9 @@ You can add updates to the following objects:
    >태그가 지정된 처음 두 엔티티의 이름이 아바타 옆에 표시됩니다. 두 개 이상의 엔티티에 태그가 지정되면 첫 번째 엔티티 이름과 추가 엔티티 수만 표시됩니다.
 
 1. (선택 사항) commententer의 이름을 클릭하면 정보 상자에 이름, 역할 및 이메일 주소가 표시됩니다. 정보 상자에서 댓글의 이름을 다시 클릭하여 해당 사용자 프로필을 엽니다.
-1. (선택 사항) 시스템에서 기록한 업데이트를 보려면 **시스템 활동** 탭을 클릭합니다. 개체 또는 해당 하위 항목이 업데이트되면 Workfront에서 해당 업데이트에 대한 메모를 생성하여 시스템 활동 탭 에 표시합니다.
+1. (선택 사항) 시스템에서 기록한 업데이트를 보려면 **시스템 활동** 탭을 클릭합니다. 개체 또는 그 하위 항목이 업데이트되면 Workfront은 해당 업데이트에 대한 메모를 생성하고 시스템 활동 탭에 표시합니다.
 
-   자세한 내용은 업데이트 섹션 개요를](../updating-work-items-and-viewing-updates/updates-tab-overview.md) 참조하세요[.
+   자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
    >[!TIP]
    >
@@ -334,7 +332,7 @@ You can add updates to the following objects:
    | 볼드체 | ![굵게 아이콘](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 기울임체 | ![기울임꼴 아이콘](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 밑줄 | ![밑줄 아이콘](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 하이퍼링크 | ![하이퍼링크 아이콘](assets/mceclip7.png) | <br>링크 추가 상자를 열려면: ⌘+K</br> <br>선택한 텍스트 위에 링크 붙여넣기: ⌘+V</br> | <br>링크 추가 상자를 열려면 Ctrl+K를 누릅니다.</br> <br>선택한 텍스트 위에 링크 붙여 넣기: Ctrl+V</br> |
+   | 하이퍼링크 | ![하이퍼링크 아이콘](assets/mceclip7.png) | <br>링크 추가 상자를 열려면 ⌘+K</br> <br>선택한 텍스트 위에 링크를 붙여넣으려면: ⌘+V</br> | <br>링크 추가 상자를 열려면 Ctrl+K</br> <br>선택한 텍스트 위에 링크를 붙여넣으려면: Ctrl+V</br> |
    | 글머리 기호 목록 | ![글머리 기호 목록 아이콘](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 번호 매기기 목록 | ![번호 매기기 목록 아이콘](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
 
@@ -437,15 +435,15 @@ You can add updates to the following objects:
 
    ![업데이트에서 검색](assets/updates-all-tabs-with-search-field.png)
 
-   검색한 키워드가 강조 표시되고 해당 키워드 <!--or user--> 가 포함된 댓글이 업데이트 섹션의 맨 위에 표시됩니다.
+   검색한 키워드 <!--or user-->이(가) 강조 표시되고 이 키워드가 포함된 댓글이 [업데이트] 섹션의 맨 위에 표시됩니다.
 
-   Workfront는 화면에 표시되는 댓글 외부에서 개체의 전체 업데이트 스트림을 검색합니다.
+   Workfront은 화면에 표시되는 주석 외부에서 개체의 전체 업데이트 스트림을 검색합니다.
 
-1. **검색 필드에서 x** 아이콘을 클릭하면 검색 결과가 지워지고 모든 댓글로 돌아갑니다.
+1. 검색 필드에서 **x** 아이콘을 클릭하여 검색 결과를 지우고 모든 댓글로 돌아갑니다.
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## 댓글 복사
+## 주석 복사
 
 주석을 복사할 수 있는 방법에는 몇 가지가 있습니다.
 
