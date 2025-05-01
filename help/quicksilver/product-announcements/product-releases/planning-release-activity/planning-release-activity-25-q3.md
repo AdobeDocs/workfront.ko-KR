@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
+source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -103,3 +103,5 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 * 기록 유형에 대해 상속된 권한을 비활성화하여 작업 공간의 모든 사람에 대해 읽기 전용으로 만들 수 있습니다. 그런 다음 개별 사람, 팀, 그룹, 회사 또는 역할을 추가하고 레코드 유형에 기여 권한을 부여할 수 있습니다.
 
 자세한 내용은 [레코드 종류 공유](/help/quicksilver/planning/access/share-record-types.md)를 참조하세요.
+
+
