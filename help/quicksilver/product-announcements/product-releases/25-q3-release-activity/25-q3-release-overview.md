@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 2%
+source-wordcount: '593'
+ht-degree: 3%
 
 ---
 
@@ -41,6 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront 개선 사항
 
 * [문서 관리 개선 사항](#document-management-enhancements)
+* [업데이트 및 알림 개선 사항]
 * [기타 개선 사항](#other-enhancements)
 
 ### 문서 관리 개선 사항
@@ -62,6 +63,52 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>2025년 4월 10일 금요일</td>
         <td>2025년 4월 17일 금요일</td>
         <td>2025년 4월 17일 금요일</td>
+    </tr>     
+  </tbody>
+</table>
+
+### 보고 개선 사항
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>기능</strong>
+        </td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">사용자 와일드카드는 </a>을(를) 필터링할 때 더 이상 null 값이 있는 결과를 반환하지 않습니다.<p></p>
+            <p>보고서를 필터링할 때 null 값을 제외하도록 사용자 와일드카드 동작을 업데이트했습니다. 이러한 변경 사항은 사용자가 올바르게 구성되지 않은 결과(null 결과)를 반환하는 대신 필터가 보다 정확한 결과를 생성하는 데 도움이 됩니다. </p>
+        </td>
+        <td>2025년 4월 30일 목요일</td>
+        <td>2025년 5월 15일 금요일</td>
+        <td>2025년 7월 17일 금요일</td>
+    </tr>     
+  </tbody>
+</table>
+
+### 업데이트 및 알림 개선 사항
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>기능</strong>
+        </td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">댓글에 사용자를 추가할 때 경험이 수정됨</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+            <p>성능을 개선하기 위해 댓글에 사용자를 추가할 때 수정된 경험을 도입했습니다. 이제 "사람 또는 팀 태그 지정" 링크는 댓글에 사용자 또는 팀을 추가한 후에도 댓글 상자에 계속 유지됩니다. </p>
+        </td>
+        <td>2025년 4월 30일 목요일</td>
+        <td>(단계적 롤아웃): 2025년 5월 8일~5월 15일</td>
+        <td>(단계적 롤아웃): 2025년 5월 8일~5월 15일</td>
     </tr>     
   </tbody>
 </table>

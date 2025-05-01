@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
+source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 5%
+source-wordcount: '552'
+ht-degree: 3%
 
 ---
 
@@ -17,6 +17,33 @@ ht-degree: 5%
 이 페이지에서는 2025년 3분기 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트를 설명합니다.
 
 2025년 3분기 릴리스에서 사용 가능한 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
+
+## 댓글에 대한 기타 메뉴 옵션을 찾아 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 4월 17일, 모든 고객을 위한 프로덕션 릴리스: 2025년 4월 17일
+
+모든 개체에 대해 업데이트 섹션에서 주석의 기타 메뉴에서 사용할 수 있는 옵션의 모양과 느낌을 업데이트했습니다.
+
+이 업데이트에는 다음 변경 사항이 포함됩니다.
+
+* 유사한 기능이 함께 그룹화되도록 작업을 재배열했습니다.
+* 각 그룹을 명확하게 분리하기 위해 칸막이를 삽입했습니다.
+* Delete 작업을 빨간색으로 표시하여 강조 표시합니다.
+
+자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
+
+
+## 마일스톤 경로 보고서 보기 및 느낌
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 4월 30일, 모든 고객을 위한 프로덕션 릴리스: 2025년 4월 30일
+
+Workfront의 다른 영역 디자인과 일치하도록 마일스톤 경로 보고서의 모양과 느낌을 업데이트했습니다.
+
+자세한 내용은 [사용자 지정 보고서 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
 
 ## 최근에 복원된 항목에 대한 룩앤필 업데이트
 

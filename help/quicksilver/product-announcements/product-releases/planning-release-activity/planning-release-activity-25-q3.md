@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
+source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,54 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 레코드의 연결된 레코드 페이지에서 인라인 편집
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 4월 30일
+>* 프로덕션 빠른 릴리스: 2025년 5월 15일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
+
+이제 레코드의 연결된 레코드 페이지에서 레코드를 편집할 수 있습니다. 이 업데이트에서는 다음을 도입했습니다.
+
+* 페이지 이름이 &quot;연결 보기&quot;에서 &quot;연결된 레코드 페이지&quot;로 변경되었습니다.
+* 이 페이지에 표시된 연결된 레코드는 테이블 보기에서 인라인 편집할 수 있습니다. 연결된 Workfront 개체는 읽기 전용 테이블에 계속 표시됩니다.
+
+이 기능이 향상되기 전에는 연결 보기 페이지의 테이블이 레코드 연결에 대해 읽기 전용이었습니다.
+
+자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
+
+## 표준 라이선스 사용자를 위한 기본 메뉴에 기본적으로 표시되는 계획 영역
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 4월 30일
+>* 프로덕션 빠른 릴리스: 2025년 5월 15일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
+
+표준 및 시스템 관리자 사용자는 이제 계획 영역이 포함된 레이아웃 템플릿에 할당되지 않고 기본적으로 기본 메뉴에서 계획 영역을 찾을 수 있습니다. 다른 모든 사용자에게 액세스하려면 사용자에게 할당된 계획 영역을 포함하는 레이아웃 템플릿이 있어야 합니다.
+
+이 개선 이전에는 모든 라이선스 수준을 가진 사용자가 이 영역에 액세스하려면 기본 메뉴에 계획 영역을 포함하도록 수정된 레이아웃 템플릿에 할당되어야 했습니다.
+
+>[!NOTE]
+>
+>이 변경 사항은 시스템 관리자 및 표준 라이선스를 가진 모든 신규 및 기존 사용자에게 표시됩니다.
+>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
+
+자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+
+## 표 보기의 행 수준 색상 서식
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 4월 30일
+>* 프로덕션 빠른 릴리스: 2025년 5월 15일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
+
+레코드의 중요한 정보를 더 잘 보이도록 하기 위해 테이블 보기에 행 수준 색상 서식이 도입되었습니다. 이제 각 선택 사항에 대한 조건을 정의한 후 각 행의 색상을 선택할 수 있습니다.  이 기능은 이 업데이트 이전에는 존재하지 않았던 새로운 기능입니다.
+
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
 ## 표준 타임라인 보기에서 긴 레코드 이름을 자르는 새로운 설정입니다
 
