@@ -2,12 +2,12 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "프로젝트 계획: 문서 색인"
+title: '프로젝트 계획: 문서 색인'
 description: 다음 문서에는 프로젝트, 프로젝트 팀 및 프로젝트 계획 방법에 대한 정보가 포함되어 있습니다.
 author: Alina
 feature: Work Management
 exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 프로젝트 계획: 문서 색인
+
+<!-- Audited: 4/2025 -->
 
 프로젝트 정보, 프로젝트 팀 및 프로젝트 계획 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 

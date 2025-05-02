@@ -6,14 +6,16 @@ description: Microsoft Project에서 Adobe Workfront으로 프로젝트를 가�
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
 
 # Microsoft 프로젝트에서 프로젝트 가져오기
+
+<!-- Audited: 4/2025 -->
 
 Microsoft Project에서 Adobe Workfront으로 프로젝트를 가져오고 하나의 애플리케이션에서 모든 프로젝트를 관리할 수 있습니다. Microsoft 프로젝트에서 프로젝트를 가져올 때마다 Workfront에 새 프로젝트가 만들어집니다.
 
@@ -36,10 +38,10 @@ Microsoft Project에서 Adobe Workfront으로 프로젝트를 가져오고 하�
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새 라이선스: Standard </p> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>새로운 기능: 표준 </p> 
    또는
-   <p>현재 라이선스: 플랜 </p>
+   <p>현재: 플랜 </p>
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +55,7 @@ Microsoft Project에서 Adobe Workfront으로 프로젝트를 가져오고 하�
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -90,9 +92,9 @@ You must have the following access to perform the steps in this article:
 
 ## MS 프로젝트에서 프로젝트 만들기
 
-주 메뉴의 프로젝트 영역이나 포트폴리오 또는 프로그램의 프로젝트 영역에서 프로젝트를 만들 수 있습니다.
+**기본 메뉴**&#x200B;의 **프로젝트** 영역이나 포트폴리오 또는 프로그램의 **프로젝트** 영역에서 프로젝트를 만들 수 있습니다.
 
-1. Microsoft 프로젝트로 이동한 다음 Workfront에서 가져올 프로젝트를 엽니다.
+1. Microsoft Project에 로그인하고 Workfront에서 가져올 프로젝트를 엽니다.
 1. 프로젝트를 .xml 파일로 저장하려면 **파일**&#x200B;을 클릭한 다음 **다른 이름으로 저장**&#x200B;을 클릭합니다.
 
 1. Workfront에 로그인.
@@ -101,16 +103,14 @@ You must have the following access to perform the steps in this article:
    * Workfront의 오른쪽 위 모서리에 있는 **기본 메뉴** ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭하거나 왼쪽 위 모서리에 있는 **기본 메뉴** ![기본 메뉴 줄](assets/lines-main-menu.png)을 클릭합니다(가능한 경우). **프로젝트**&#x200B;를 클릭한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 포트폴리오로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 프로그램으로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
-   * 그룹 관리자는 관리하는 그룹의 프로젝트 섹션에서 프로젝트를 만들 수도 있습니다. 자세한 내용은 [그룹의 프로젝트 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)을 참조하세요.
+   * 그룹 관리자인 경우 관리하는 그룹의 **프로젝트** 섹션에서 프로젝트를 만들 수 있습니다. 자세한 내용은 [그룹의 프로젝트 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)을 참조하세요.
 
-1. **MS 프로젝트 가져오기** 옵션을 선택하십시오.
+1. **MS 프로젝트 가져오기**&#x200B;를 클릭합니다. **MS 파일 가져오기** 대화 상자가 나타납니다.
 
-   ![새 프로젝트 드롭다운](assets/new-project-dropdown-nwe-350x358.png)
+   ![새 프로젝트 드롭다운](assets/import-ms-project-option.png)
 
-1. **파일 선택**&#x200B;을 클릭한 다음 Microsoft 프로젝트에서 내보낸 컴퓨터의 .xml 파일을 찾습니다.
-1. 선택한 파일을 가져옵니다.
-
-   Workfront은 가져오기 프로세스를 시작하고 Microsoft 프로젝트에서 내보낸 파일을 기반으로 새 프로젝트를 만듭니다.
+1. **파일 선택**&#x200B;을 클릭한 다음 Microsoft 프로젝트에서 내보낸 .xml 파일을 컴퓨터에서 찾습니다.
+1. 선택한 파일을 가져옵니다. Workfront은 가져오기 프로세스를 시작하고 Microsoft 프로젝트에서 내보낸 파일을 기반으로 새 프로젝트를 만듭니다.
 
    가져오기 프로세스가 완료되면 가져오기가 성공적으로 완료되었음을 확인하는 메시지가 표시되는 새 프로젝트 페이지로 이동합니다.
 
@@ -120,4 +120,7 @@ You must have the following access to perform the steps in this article:
 
 1. (선택 사항) Workfront에서 프로젝트를 계속 편집합니다. 프로젝트 편집에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
-   템플릿에서 생성된 새 프로젝트의 상태는 프로젝트 환경 설정 영역에서 Workfront 관리자 또는 그룹 프로젝트 환경 설정 영역에서 그룹 관리자가 정의한 상태에 해당합니다. 프로젝트 환경 설정 구성에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
+
+   >[!NOTE]
+   >
+   >템플릿에서 만든 새 프로젝트의 상태는 **프로젝트 환경 설정** 영역에서 Workfront 관리자 또는 **그룹 프로젝트 환경 설정** 영역에서 그룹 관리자가 정의한 상태와 같습니다. 프로젝트 환경 설정 구성에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
