@@ -6,9 +6,9 @@ description: 리소스 관리자는 사용자에게 작업을 할당하고 업�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
 workflow-type: tm+mt
-source-wordcount: '2909'
+source-wordcount: '2886'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->업무 균형자 에는 사용자당 작업 항목당 최대 1000개의 계획된 시간과 항목 지속 시간인 최대 1000일만 표시됩니다. 업무 균형자의 할당은 1000시간 또는 1000일 제한에 도달하면 0으로 표시됩니다. 더 많은 계획된 시간 또는 1000일 이상의 기간을 적용하려면 작업을 더 작은 하위 작업으로 나누는 것이 좋습니다.
+>업무 균형자에 항목 기간이 최대 1000일까지만 <!--up to 1000 Planned Hours per work item per user, and-->이(가) 표시됩니다. 업무 균형자의 할당은 1000일 제한에 도달하면 0으로 표시됩니다. 1000일 이상 동안 작업을 더 작은 하위 작업 <!--to accommodate a larger number of Planned Hours or-->로 나누는 것이 좋습니다.
 
 업무 균형자에서 작업 또는 문제에 대한 일별, 주별 또는 월별 할당을 찾을 때 다음 사항을 고려하십시오.
 
