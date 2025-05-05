@@ -53,7 +53,7 @@ Workfront의 AI Assistant를 기반으로 하는 Catch me는 업데이트, 업�
 
 {{step1-to-priorities}}
 
-1. 페이지 맨 위에서 **다시 걸기**를 클릭합니다.
+1. 페이지 맨 위에서 **다시 걸기**&#x200B;를 클릭합니다.
    ![따라오기 단추](assets/catch-me-up-button.png)
 1. 요약할 기간을 선택하십시오.
    1. 24시간

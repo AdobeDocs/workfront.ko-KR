@@ -40,7 +40,7 @@ Workfront Proof을 사용하면 보고서를 볼 수 있으므로 팀의 작업 
 
 ### 사용자 사전 요구 사항 {#user-prerequisites}
 
-보고 정보는 계정의 모든 증명에 대한 전체 액세스 권한이 있는 사용자(예:  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)에서 [증명 권한 프로필 이상이 있는 사용자)에게만 제공됩니다.
+보고 정보는 계정의 모든 증명에 대한 전체 액세스 권한이 있는 사용자(예:  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)에서 증명 권한 프로필 이상이 있는 사용자)에게만 제공됩니다.
 
 이 패널에서 다음 작업을 수행할 수 있습니다.
 

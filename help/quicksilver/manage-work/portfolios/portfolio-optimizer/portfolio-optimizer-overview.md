@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * [!UICONTROL Portfolio Optimizer]에서 일치하는 조건에 따라 [!UICONTROL 비즈니스 사례]이(가) 완료되면 프로젝트에 각각 점수가 부여됩니다. 예를 들어 비용이 저렴하거나 정렬 수준이 높은 프로젝트일수록 높은 점수를 받습니다.
 
-  프로젝트의 포트폴리오 최적화 프로그램 점수를 계산하는 방법에 대한 자세한 내용은 [Portfolio 최적화 프로그램 개요] 점수](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)를 참조하십시오.[!UICONTROL 
+  프로젝트의 포트폴리오 최적화 프로그램 점수를 계산하는 방법에 대한 자세한 내용은 [Portfolio 최적화 프로그램 개요] 점수(../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)를 참조하십시오.
 
 * [!UICONTROL Portfolio 최적화 도구]에 대한 재무 계산은 프로젝트의 [!UICONTROL 비즈니스 사례]에서 [!UICONTROL 예산 비용]을 사용합니다.
 * [!UICONTROL Portfolio 최적화 도구]에서 프로젝트에 대한 모든 정보를 고려하여 프로젝트의 우선 순위를 수동으로 지정할 수 있습니다. 재무 데이터, 스코어카드에 대한 정렬 및 ROI 등이 여기에 포함됩니다.
@@ -78,7 +78,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL 설정 시간]</td> 
-   <td> <p>포트폴리오에서 [!UICONTROL On Time]으로 간주되는 프로젝트의 백분율입니다. 포트폴리오 내의 모든 탭에서 볼 수 있습니다.</p> <p>프로젝트 <strong>[!UICONTROL Condition]</strong>이(가) Target의 <strong>[!UICONTROL]</strong>인 경우 프로젝트는 [!UICONTROL On Time]으로 간주됩니다. <br>[!UICONTROL 프로젝트 상태]에 대한 자세한 내용은 문서 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">프로젝트 상태 및 상태 형식 개요</a>를 참조하십시오.</p> <p><strong>[!UICONTROL On Time]</strong> 백분율은 다음 공식을 사용하여 계산됩니다.</p> <p><em>[!UICONTROL On Time Portfolio 백분율] = [!UICONTROL Current] 또는 [!UICONTROL Approved] 상태의 총 프로젝트 수 </em> </p> </td> 
+   <td> <p>포트폴리오에서 [!UICONTROL On Time]으로 간주되는 프로젝트의 백분율입니다. 포트폴리오 내의 모든 탭에서 볼 수 있습니다.</p> <p>프로젝트 <strong>[!UICONTROL Condition]</strong>이(가) Target의 <strong></strong>인 경우 프로젝트는 [!UICONTROL On Time]으로 간주됩니다. <br>[!UICONTROL 프로젝트 상태]에 대한 자세한 내용은 문서 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">프로젝트 상태 및 상태 형식 개요</a>를 참조하십시오.</p> <p><strong>[!UICONTROL On Time]</strong> 백분율은 다음 공식을 사용하여 계산됩니다.</p> <p><em>[!UICONTROL On Time Portfolio 백분율] = [!UICONTROL Current] 또는 [!UICONTROL Approved] 상태의 총 프로젝트 수 </em> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL On Budget]</td> 
@@ -86,7 +86,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>ROI(포트폴리오용)</td> 
-   <td> <p>포트폴리오에 대한 [!UICONTROL 투자 수익률](ROI)은 [!UICONTROL Portfolio]의 총 [!UICONTROL 이익]과 프로젝트의 총 [!UICONTROL 예산 비용]을 고려하여 계산됩니다. 포트폴리오 내의 모든 탭에서 볼 수 있습니다.</p> <p>Portfolio ROI 값은 다음 공식을 사용하여 계산됩니다.</p> <p><em>Portfolio ROI = ([!UICONTROL 총 이익] - [!UICONTROL 총 예산 비용])/ [!UICONTROL 총 비용] * 100</em> </p> <p>프로젝트에 대한 ROI 계산 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">투자 수익률 계산</a> 문서를 참조하십시오.</p> </td> 
+   <td> <p>포트폴리오에 대한 [!UICONTROL 투자 수익률] (ROI)은 [!UICONTROL Portfolio]의 총 [!UICONTROL 이익]과 프로젝트의 총 [!UICONTROL 예산 비용]을 고려하여 계산됩니다. 포트폴리오 내의 모든 탭에서 볼 수 있습니다.</p> <p>Portfolio ROI 값은 다음 공식을 사용하여 계산됩니다.</p> <p><em>Portfolio ROI = ([!UICONTROL 총 이익] - [!UICONTROL 총 예산 비용])/ [!UICONTROL 총 비용] * 100</em> </p> <p>프로젝트에 대한 ROI 계산 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">투자 수익률 계산</a> 문서를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Aligned] 또는 [!UICONTROL Alignment Score] </td> 

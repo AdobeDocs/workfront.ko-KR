@@ -26,7 +26,7 @@ ht-degree: 1%
 
 2018.2 Beta 5 릴리스에는 Workfront 관리자 및 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [감사 로그로 사용자가 트리거한 변경 내용 보기](#view-user-triggered-changes-with-audit-logs)
 * [그룹 관리자로 라이선스 정보 보기](#view-license-information-as-a-group-administrator)

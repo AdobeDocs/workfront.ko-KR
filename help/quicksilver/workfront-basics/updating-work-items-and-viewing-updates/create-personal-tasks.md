@@ -89,7 +89,7 @@ Adobe Workfront은 임시 작업 요청을 저장하고 Windows가 각 사용자
    >Workfront 관리자가 특정 사용자가 액세스 수준을 구성할 때 특정 사용자를 못하도록 차단할 수 있습니다.
 
 1. **헤더에서 사용자 이름 오른쪽에 있는 자세히 메뉴를** ![](assets/more-menu.png) 클릭합니다.
-1. **작업 요청 보내기**를 클릭합니다.
+1. **작업 요청 보내기**&#x200B;를 클릭합니다.
 **사용자에게 작업 요청 보내기** 상자가 표시됩니다.
 
    ![](assets/personal-task-box.png)
@@ -112,7 +112,7 @@ Adobe Workfront은 임시 작업 요청을 저장하고 Windows가 각 사용자
 
 * 개인 요청 수신을 받은 사용자 홈 영역에 있는 To-dos 위젯
 
-  자세한 내용은 홈 영역에서](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) 작업 항목 및 프로젝트 만들기 항목을 [참조하세요.
+  자세한 내용은 홈 영역에서[&#128279;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) 작업 항목 및 프로젝트 만들기 항목을 참조하세요.
 
 * 개인 작업 보고서 또는 목록입니다. 개인 작업 필터를 작성하고 작업 보고서 또는 목록에 적용하여 개인 작업만 표시하고 프로젝트 작업을 제외할 수 있습니다.
 

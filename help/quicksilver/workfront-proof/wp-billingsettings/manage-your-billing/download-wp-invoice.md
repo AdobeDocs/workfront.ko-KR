@@ -22,7 +22,7 @@ ht-degree: 0%
 
 새 청구 기간의 첫 날에 구독료 청구서가 계정의 기본 청구 담당자와 [!UICONTROL 청구 CC] 이메일 주소(정의된 경우)로 전송됩니다.
 
-청구서는 [!DNL Workfront Proof] 계정의 [!UICONTROL 청구] 섹션에도 나타나며 다운로드할 수 있습니다. 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2}를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+청구서는 [!DNL Workfront Proof] 계정의 [!UICONTROL 청구] 섹션에도 나타나며 다운로드할 수 있습니다. 자세한 내용은 [청구 페이지 [!DNL Workfront Proof] 2&rbrace;를 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 청구서에는 다음 정보가 있습니다.
 

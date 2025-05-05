@@ -172,7 +172,7 @@ ht-degree: 0%
    * **[!UICONTROL 예산 중]**
    * **[!UICONTROL 정렬됨]**
 
-     [!UICONTROL ROI], [!UICONTROL 순 가치], [!UICONTROL 정렬], [!UICONTROL 정시] 및 [!UICONTROL 예산] 값을 포함한 포트폴리오 지표에 대한 자세한 내용은 [Portfolio 최적화 도구 이해]](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.[!UICONTROL 
+     [!UICONTROL ROI], [!UICONTROL 순 가치], [!UICONTROL 정렬], [!UICONTROL 정시] 및 [!UICONTROL 예산] 값을 포함한 포트폴리오 지표에 대한 자세한 내용은 [Portfolio 최적화 도구 이해](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
 
 ## [!DNL Slack]에서 프로그램에 액세스
 

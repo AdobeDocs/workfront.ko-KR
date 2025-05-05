@@ -26,7 +26,7 @@ ht-degree: 2%
 
 2018.1 Beta 2 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [사용자 및 레이아웃 템플릿을 위한 그룹 관리](#group-administration-for-users-and-layout-templates)
 

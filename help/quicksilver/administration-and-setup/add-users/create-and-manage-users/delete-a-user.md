@@ -89,7 +89,7 @@ ht-degree: 1%
      >[!NOTE]
      >
      >사용자를 비활성화하고 사용자와 연결된 보고서나 대시보드를 더 이상 볼 수 없는 경우 **액세스 권한** 필드로 이 보고서 실행을 업데이트해야 할 수 있습니다.\
-     >자세한 내용은 [비활성화된 사용자가 소유한 보고서에 액세스할 수 없는 이유는 무엇입니까?[보고서 FAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 문서의 ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) 섹션.
+     >자세한 내용은 [&#128279;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)비활성화된 사용자가 소유한 보고서에 액세스할 수 없는 이유는 무엇입니까?[보고서 FAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 문서의  섹션.
 
    * 문서
    * 업데이트
@@ -112,7 +112,7 @@ ht-degree: 1%
      >[!NOTE]
      >
      >또한 삭제된 사용자와 관련된 대시보드가 포함된 사용자 정의 섹션에 대한 액세스 권한을 잃게 됩니다.\
-     >자세한 내용은 [삭제된 사용자가 소유한 보고서가 포함된 대시보드에 액세스하려면 어떻게 합니까?[보고서 FAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 문서의 ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) 섹션.
+     >자세한 내용은 [&#128279;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how)삭제된 사용자가 소유한 보고서가 포함된 대시보드에 액세스하려면 어떻게 합니까?[보고서 FAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 문서의  섹션.
 
    * 업데이트
    * 시간

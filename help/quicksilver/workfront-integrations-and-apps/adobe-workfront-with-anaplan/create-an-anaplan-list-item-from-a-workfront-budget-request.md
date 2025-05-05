@@ -50,7 +50,7 @@ ht-degree: 0%
 
 &#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-&#42;&#42;라이선스 [!DNL  Adobe Workfront Fusion]에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하세요.
+&#42;&#42;라이선스 [!DNL &#x200B; Adobe Workfront Fusion]에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하세요.
 
 ## 이벤트 트리거 중
 
@@ -119,11 +119,11 @@ ht-degree: 0%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">시장 시작 날짜의 [!UICONTROL]</td> 
+     <td role="rowheader">시장 시작 날짜의 </td> 
      <td>[!UICONTROL 날짜] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">시장 종료 날짜의 [!UICONTROL]</td> 
+     <td role="rowheader">시장 종료 날짜의 </td> 
      <td>[!UICONTROL 날짜]</td> 
     </tr> 
     <tr> 
@@ -186,7 +186,7 @@ ht-degree: 0%
 1. 메시지가 표시되면 나머지 [!DNL Anaplan] 모듈을 모두 [!DNL Anaplan] 연결로 업데이트합니다.
 1. [!DNL Workfront] 연결 프로필을 선택하거나 추가하십시오.
 
-   템플릿을 배포한 후 기본 매핑된 필드를 [!DNL Anaplan](으)로 변경하려는 경우 필드 속성 값에서 사용자 지정 필드 참조를 추가하거나 제거하기 위해 업데이트하는 모듈입니다.
+   템플릿을 배포한 후 기본 매핑된 필드를 [!DNL Anaplan] (으)로 변경하려는 경우 필드 속성 값에서 사용자 지정 필드 참조를 추가하거나 제거하기 위해 업데이트하는 모듈입니다.
 
 1. 메시지가 표시되면 나머지 [!DNL Workfront] 모듈을 모두 [!DNL Workfront] 연결로 업데이트합니다.
 

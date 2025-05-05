@@ -24,7 +24,7 @@ ht-degree: 1%
 
 2019.1의 모든 변경 사항 목록은 &quot;2019.1 릴리스 활동 개요&quot;를 참조하십시오.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [휴지통에서 템플릿 복원](#restore-templates-from-the-recycle-bin)
 * [홈의 날짜 필드에 대한 타임스탬프 표시](#show-timestamps-for-date-fields-in-home)

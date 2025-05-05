@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Workfront] 및 [!DNL Jira]의 모든 사용자가 이 통합을 통해 혜택을 받을 수 있습니다. 가장 많이 사용하는 시스템에 대한 라이선스만 있으면 되고 두 시스템 모두에 대한 라이선스는 필요하지 않습니다.
 
-이 추가 기능은 [!DNL Jira] 소프트웨어의 [!UICONTROL 서버] 및 [!UICONTROL OnDemand](또는 [!UICONTROL 클라우드]) 버전에서 사용할 수 있습니다. [!DNL Jira] 소프트웨어의 [!DNL Data Center] 버전에서는 이 추가 기능을 사용할 수 없습니다.
+이 추가 기능은 [!DNL Jira] 소프트웨어의 [!UICONTROL 서버] 및 [!UICONTROL OnDemand] (또는 [!UICONTROL 클라우드]) 버전에서 사용할 수 있습니다. [!DNL Jira] 소프트웨어의 [!DNL Data Center] 버전에서는 이 추가 기능을 사용할 수 없습니다.
 
 현재 [!DNL Workfront for Jira]에서 지원하는 [!DNL Jira] 버전 목록은 Atlassian Marketplace에서 [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview)을(를) 참조하십시오.
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이러한 요구 사항은 [!DNL Jira] 소프트웨어의 [!UICONTROL OnDemand]([!UICONTROL Cloud]) 버전에는 적용되지 않습니다.
+>이러한 요구 사항은 [!DNL Jira] 소프트웨어의 [!UICONTROL OnDemand] ([!UICONTROL Cloud]) 버전에는 적용되지 않습니다.
 
 두 [!DNL Jira] 환경에서 [!DNL Workfront] 추가 기능을 설치하는 것은 비슷하지만 [!DNL Jira Server] 설치를 사용하여 작업할 때는 다음 사항을 고려해야 합니다.
 

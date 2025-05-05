@@ -34,7 +34,7 @@ ht-degree: 0%
 
 사용자의 증명 권한 프로필을 편집하려면:
 
-1. [!UICONTROL 계정 설정](으)로 이동한 다음 [!UICONTROL 사용자] 탭을 클릭합니다.
+1. [!UICONTROL 계정 설정] (으)로 이동한 다음 [!UICONTROL 사용자] 탭을 클릭합니다.
 1. 권한을 편집할 사용자의 이름을 클릭합니다.
 1. [!UICONTROL 권한 프로필] 드롭다운 메뉴를 클릭하고 새 권한 프로필을 선택합니다.
 
@@ -50,4 +50,4 @@ ht-degree: 0%
    >   * 사용자 프로필 로그(해당 사용자만 액세스할 수 있음)
 
 
-활동 로그에 대한 자세한 내용은 [활동 감사 추적 이해 [!DNL Workfront Proof] 2}를 참조하세요.](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+활동 로그에 대한 자세한 내용은 [활동 감사 추적 이해 [!DNL Workfront Proof] 2&rbrace;를 참조하세요.](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

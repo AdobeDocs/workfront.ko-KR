@@ -120,6 +120,6 @@ Workfront에서(제출자) 파일이 새 증명인지 새 버전인지 확인하
 * 증명 요약 펼치기/접기(8)
 * 증명 선택(9)
 
-페이지 레이아웃과 정렬 및 필터링 옵션은 [!DNL Views] 목록과 동일합니다. 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리 를 참조하십시오.
+페이지 레이아웃과 정렬 및 필터링 옵션은 [!DNL Views] 목록과 동일합니다. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리 를 참조하십시오.
 
 ![New_Dropzone_design__Feb_2013_.jpg](assets/new-dropzone-design--feb-2013--350x224.jpg)

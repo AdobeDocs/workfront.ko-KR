@@ -213,7 +213,7 @@ ht-degree: 0%
 >
 >관리자 또는 청구 관리자 프로필이 있는 사용자만 계정의 다른 사용자에 대한 증명 기본값을 변경할 수 있습니다.
 
-자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)의 [개인 설정을 참조하십시오.
+자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)의 개인 설정을 참조하십시오.
 
 ## 작성자 및 소유자
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 >
 >동일한 계정 또는 파트너 계정의 사용자만 증명 소유자로 만들 수 있습니다. 다음과 같은 경우에만 파트너 계정의 사용자를 증명 소유자로 설정할 수 있습니다.
 >
->* 계정 간에 기존 파트너 관계가 설정되어 있습니다. 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)의 [파트너 계정을 참조하십시오.
+>* 계정 간에 기존 파트너 관계가 설정되어 있습니다. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)의 파트너 계정을 참조하십시오.
 >* [!UICONTROL 새 증명] 페이지에 사용자 지정 필드가 없습니다.
 >* 증명이 폴더에 할당되지 않았습니다.
 >* 증명에 적용된 태그가 없습니다.

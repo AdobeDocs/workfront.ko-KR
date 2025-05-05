@@ -271,4 +271,4 @@ ht-degree: 0%
      Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)
      ```
 
-1. **변경 내용 저장****1}을 클릭합니다.**
+1. **변경 내용 저장**&#x200B;**1&rbrace;을 클릭합니다.**

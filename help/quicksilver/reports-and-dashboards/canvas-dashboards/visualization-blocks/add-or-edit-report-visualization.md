@@ -41,15 +41,15 @@ ht-degree: 1%
 
 1. 화면 오른쪽의 **블록 추가**&#x200B;에서 다음 중 하나를 수행합니다.
 
-   **시각화** 아이콘 ****을 캔버스로 원하는 위치로 바로 드래그합니다.
+   **시각화** 아이콘 **&#x200B;**&#x200B;을 캔버스로 원하는 위치로 바로 드래그합니다.
 
    또는
 
-   **시각화** 아이콘 ****을 두 번 클릭하여 캔버스 맨 위에 시각화를 추가합니다.
+   **시각화** 아이콘 **&#x200B;**&#x200B;을 두 번 클릭하여 캔버스 맨 위에 시각화를 추가합니다.
 
    또는
 
-   캔버스에서 기존 테이블의 ****에 있는 **시각화** 아이콘을 선택합니다.
+   캔버스에서 기존 테이블의 **&#x200B;**&#x200B;에 있는 **시각화** 아이콘을 선택합니다.
 
    >[!TIP]
    >
@@ -61,7 +61,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >**+ 새 테이블 추가**&#x200B;를 선택하면 시각화 블록 아래에 새 테이블 블록이 만들어집니다. 시각화를 추가하기 전에 먼저 표를 데이터로 채워야 합니다. 표 만들기 및 편집에 대한 자세한 내용은 [ [보고 캔버스에서 표 블록 추가 또는 편집](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)을 참조하십시오.
+   >**+ 새 테이블 추가**&#x200B;를 선택하면 시각화 블록 아래에 새 테이블 블록이 만들어집니다. 시각화를 추가하기 전에 먼저 표를 데이터로 채워야 합니다. 표 만들기 및 편집에 대한 자세한 내용은 [&#128279;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) [보고 캔버스에서 표 블록 추가 또는 편집](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)을 참조하십시오.
 
 1. 추가할 시각화 유형을 선택합니다.
 

@@ -38,7 +38,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 설정]** > **[!UICONTROL 계정 설정]**&#x200B;을 클릭한 다음 **[!UICONTROL +새 사용자]**&#x200B;를 클릭합니다.
 
-   * 왼쪽 탐색 메뉴에서 **[!UICONTROL 연락처]**&#x200B;를 클릭하고 **[!UICONTROL + 신규]**&#x200B;를 클릭한 다음 **[!UICONTROL 새 사용자]**를 클릭합니다.
+   * 왼쪽 탐색 메뉴에서 **[!UICONTROL 연락처]**&#x200B;를 클릭하고 **[!UICONTROL + 신규]**&#x200B;를 클릭한 다음 **[!UICONTROL 새 사용자]**&#x200B;를 클릭합니다.
 *새 사용자 대화 상자가 표시됩니다.
 
 1. 표시되는 **[!UICONTROL 새 사용자]** 상자에서 사용자의 정보를 입력하고 [다음을 사용하여 사용자 정보 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)에 설명된 대로 구성 옵션을 설정합니다.
@@ -52,7 +52,7 @@ ht-degree: 0%
 게스트 및 사용자에 대한 자세한 내용은 [사용자, 구성원 및 게스트 이해 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)를 참조하십시오.
 
 1. 왼쪽 탐색 메뉴에서 **[!UICONTROL 연락처]**&#x200B;를 클릭합니다.
-1. 사용자로 전환하려는 게스트 오른쪽에 있는 **[!UICONTROL 자세히]** 아이콘을 클릭한 다음 **[!UICONTROL 사용자로 전환]**을 클릭합니다.
+1. 사용자로 전환하려는 게스트 오른쪽에 있는 **[!UICONTROL 자세히]** 아이콘을 클릭한 다음 **[!UICONTROL 사용자로 전환]**&#x200B;을 클릭합니다.
    ![Screenshot_2018-03-30_14-08-35.png](assets/screenshot-2018-03-30-14-08-35-350x143.png)
 
 1. 표시되는 **[!UICONTROL 새 사용자]** 대화 상자에서 [다음을 사용하여 사용자 정보 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)에 설명된 대로 사용자에 대한 구성 옵션을 설정합니다.

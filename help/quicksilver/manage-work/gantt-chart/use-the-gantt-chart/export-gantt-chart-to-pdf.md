@@ -56,7 +56,7 @@ ht-degree: 1%
 
 ## [!UICONTROL 간트 차트] 내보내기
 
-1. [간트 차트 시작]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)에 설명된 대로 PDF으로 내보낼 [!UICONTROL 간트 차트]에 액세스합니다.[!UICONTROL 
+1. [간트 차트 시작](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)에 설명된 대로 PDF으로 내보낼 [!UICONTROL 간트 차트]에 액세스합니다.
 1. 내보내기 전에 적절한 정보를 표시하도록 [!UICONTROL 간트 차트]를 구성했는지 확인하십시오.
 
    >[!NOTE]
@@ -99,7 +99,7 @@ ht-degree: 1%
 
    * [!UICONTROL 간트 차트]에 표시되는 기간입니다.
 
-     자세한 내용은 [간트 차트에서 정보 보기]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)를 참조하십시오.[!UICONTROL 
+     자세한 내용은 [간트 차트에서 정보 보기](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)를 참조하십시오.
 
      내보내기 파일에 기간이 표시되는 방식은 이후 단계에서 **[!UICONTROL 표시되는 항목]** 또는 **[!UICONTROL 여러 페이지]**&#x200B;를 선택했는지 여부에 따라 다릅니다.
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 
      >[!TIP]
      >
-     >[간트 차트에서 정보 보기]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)에 설명된 대로 **[!UICONTROL 확대/축소]** 드롭다운 메뉴 또는 슬라이더 도구를 사용하여 [!UICONTROL 간트 차트]의 일부만 표시할 수 있습니다.[!UICONTROL 
+     >[간트 차트에서 정보 보기](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)에 설명된 대로 **[!UICONTROL 확대/축소]** 드롭다운 메뉴 또는 슬라이더 도구를 사용하여 [!UICONTROL 간트 차트]의 일부만 표시할 수 있습니다.
 
 
    * **[!UICONTROL 여러 페이지]:** 전체 [!UICONTROL 간트 차트]를 내보냅니다. 이 차트에는 현재 500개 항목까지 표시되지 않습니다.

@@ -30,7 +30,7 @@ ht-degree: 0%
 * 공개 API(1) - 전용 [API 도움말 페이지](https://api.proofhq.com/) 참조
 * [!DNL Basecamp] (2) - 전용 [[!DNL Basecamp]](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp) 및 [[!DNL Basecamp Classic]](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic) 도움말 페이지 보기
 
-* [!DNL NetSuite](3)
-* [!DNL WorkFront](4)
+* [!DNL NetSuite] (3)
+* [!DNL WorkFront] (4)
 
 ![통합_tab_-_Personal_Settings.png](assets/integrations-tab---personal-settings-350x323.png)

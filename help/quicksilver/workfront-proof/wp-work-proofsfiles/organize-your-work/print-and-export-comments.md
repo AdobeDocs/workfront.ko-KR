@@ -90,7 +90,7 @@ ht-degree: 0%
 
 증명 작업 메뉴에서 [!DNL Excel] 요약을 내보내려면:
 
-1. 증명 오른쪽에 있는 **작업** 아이콘을 클릭한 다음 **[!UICONTROL [!DNL Excel]개의 요약]**을 선택합니다.
+1. 증명 오른쪽에 있는 **작업** 아이콘을 클릭한 다음 **[!UICONTROL [!DNL Excel]개의 요약]**&#x200B;을 선택합니다.
    ![Excel 요약 내보내기](assets/excel-summary-option.png)
 
 증명 세부 정보 페이지에서 [!DNL Excel] 요약을 다운로드하려면 다음을 수행하십시오.

@@ -77,7 +77,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 
 * 프로젝트를 공유할 때는 별도로 지정하지 않는 한 모든 작업, 문제 및 문서가 동일한 권한을 상속합니다.
 
-  프로젝트에 대한 사용자의 권한을 기반으로 프로젝트의 작업 및 문제에 대한 액세스 관리에 대한 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md) 문서의 [](../../manage-work/projects/manage-projects/edit-projects.md#access) 섹션을 참조하십시오.
+  프로젝트에 대한 사용자의 권한을 기반으로 프로젝트의 작업 및 문제에 대한 액세스 관리에 대한 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md) 문서의 [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) 섹션을 참조하십시오.
 
   Workfront 관리자는 문서가 사용자 액세스 수준의 상위 개체에서 권한을 상속해야 하는지 여부를 지정할 수 있습니다. 문서에 대해 상속된 사용 권한을 제한하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 

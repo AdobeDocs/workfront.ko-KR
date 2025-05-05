@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2017.3 Beta 최종 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [승인 설정 영역에서 요청 회수를 위한 새 구성](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [기본 증명 역할 구성](#configure-default-proof-roles)

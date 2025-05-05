@@ -98,7 +98,7 @@ ht-degree: 2%
       <td role="rowheader"> <p>전송 대상</p> </td> 
       <td> <p>보고서를 보낼 사용자, 그룹, 팀 또는 역할의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.</p> <p>또는</p> <p>보고서에 액세스하려는 Workfront 시스템 외부 사용자의 이메일 주소를 입력합니다.</p> <p>이 프로세스를 반복하여 여러 사용자, 그룹, 팀 또는 역할에 보고서를 전송합니다.</p> <p>참고:  <p>보고서 게재 수신자를 추가할 때 다음 사항을 고려하십시오.</p> 
         <ul> 
-         <li>조직에서 Workfront 알림을 특정 이메일 도메인으로 제한하면, 전자 메일 허용 목록에 나열된 전자 메일 주소로만 보고서를 보낼 수 있습니다.<p>Workfront 허용 목록에 추가하다 허용 목록에 추가하다 관리자가 전자 메일을 업데이트하는 방법에 대한 자세한 내용은 {전자 메일 구성</a> 섹션을 참조하십시오.<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref"></p></li> 
+         <li>조직에서 Workfront 알림을 특정 이메일 도메인으로 제한하면, 전자 메일 허용 목록에 나열된 전자 메일 주소로만 보고서를 보낼 수 있습니다.<p>Workfront 허용 목록에 추가하다 허용 목록에 추가하다 관리자가 전자 메일을 업데이트하는 방법에 대한 자세한 내용은 &lbrace;전자 메일 구성</a> 섹션을 참조하십시오.<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref"></p></li> 
          <li> <p>많은 사용자를 수신자로 추가하면 게재가 실패할 수 있습니다. 게재 오류가 발생하는 경우 더 작은 사용자 그룹과 함께 여러 보고서 게재를 예약할 수 있습니다.</p> </li> 
         </ul> </td> 
      </tr> 

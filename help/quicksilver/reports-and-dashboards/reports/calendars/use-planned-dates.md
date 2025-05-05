@@ -108,7 +108,7 @@ ht-degree: 2%
        <ul>
         <li><strong>[!UICONTROL 시작 날짜만]</strong>: 캘린더에 개체가 단일 날짜에 표시됩니다.</li>
         <li><strong>[!UICONTROL 종료 날짜만]</strong>: 캘린더에 개체가 단일 날짜에 표시됩니다.</li>
-        <li><strong>[!UICONTROL Duration](시작~끝)</strong>: 일정에서 일 범위에 걸쳐 개체를 표시합니다.</li>
+        <li><strong>[!UICONTROL Duration] (시작~끝)</strong>: 일정에서 일 범위에 걸쳐 개체를 표시합니다.</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">

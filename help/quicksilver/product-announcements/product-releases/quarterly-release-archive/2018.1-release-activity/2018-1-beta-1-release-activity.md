@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2018.1 Beta 1 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [홈 영역을 지원하도록 레이아웃 템플릿을 업데이트했습니다](#updated-layout-template-to-support-the-home-area)
 * [Workfront에서 보낸 증명 전자 메일 알림 사용 안 함](#disable-proofing-email-notifications-sent-from-workfront)

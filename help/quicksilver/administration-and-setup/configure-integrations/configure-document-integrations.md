@@ -201,7 +201,7 @@ ht-degree: 1%
 
 사용자가 서드파티 문서 통합을 구성한 후 이를 사용할 수 있는 방법에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
-### [!UICONTROL [!DNL Workfront] DAM](으)로 메타데이터를 보내도록 [!DNL Workfront] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
+### [!UICONTROL [!DNL Workfront] DAM] (으)로 메타데이터를 보내도록 [!DNL Workfront] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>

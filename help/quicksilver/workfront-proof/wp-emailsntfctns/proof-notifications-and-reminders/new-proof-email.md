@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 활동 로그
 
-검토자에게 [!UICONTROL 새 증명] 전자 메일을 보내는 것은 [!UICONTROL 증명 세부 정보] 페이지의 [!UICONTROL 활동] 섹션에 기록됩니다. 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)의 [관리[!UICONTROL  증명 세부 정보]를 참조하십시오. 증명을 만들 때 [!UICONTROL 새 증명] 전자 메일이 활성화되었는지 확인할 수 있습니다.
+검토자에게 [!UICONTROL 새 증명] 전자 메일을 보내는 것은 [!UICONTROL 증명 세부 정보] 페이지의 [!UICONTROL 활동] 섹션에 기록됩니다. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)의 관리[!UICONTROL &#x200B; 증명 세부 정보]를 참조하십시오. 증명을 만들 때 [!UICONTROL 새 증명] 전자 메일이 활성화되었는지 확인할 수 있습니다.
 
 ![New_Verison_email_-_activity_log.png](assets/new-verison-email---acitivity-log-350x44.png)
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 [!UICONTROL 새 증명] 페이지의 **[!UICONTROL 공유]** 섹션 아래에서 새 증명을 만들 때 전자 메일 경고를 보낼지 여부를 선택할 수 있습니다.
 
-* 여기에서 [!UICONTROL 사람들에게 이메일로 알림](1)을 원하는지 결정할 수 있습니다. 이 옵션을 선택 취소하면 검토자 중 아무도 증명을 검토할 준비가 되었음을 알리는 이메일을 받지 못합니다.
+* 여기에서 [!UICONTROL 사람들에게 이메일로 알림] (1)을 원하는지 결정할 수 있습니다. 이 옵션을 선택 취소하면 검토자 중 아무도 증명을 검토할 준비가 되었음을 알리는 이메일을 받지 못합니다.
 * 이메일 알림(2)에 사용자 지정 메시지를 포함할 수도 있습니다.
 * 사용자 정의 메시지를 추가하기로 결정하는 경우 사용자 정의 제목 줄(3)과 메시지를 이메일 본문(4)에 넣을 수 있습니다.
 * 사용자 지정 메시지를 취소하려면 링크(5)를 클릭하면 됩니다.

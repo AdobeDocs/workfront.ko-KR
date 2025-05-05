@@ -63,7 +63,7 @@ ht-degree: 0%
 1. 표시되는 [!UICONTROL [!DNL Basecamp]]에 추가 상자에서 다음을 수행합니다.
 
    1. 계속하기 전에 **[!UICONTROL 데이터 새로 고침]**&#x200B;을 클릭하여 [!DNL Basecamp Classic]과(와) 동기화하십시오.
-   1. 이 증명을 [!DNL Basecamp]의 [!UICONTROL Private](새 [!DNL Basecamp]에서는 옵션을 사용할 수 없음)으로 할지 여부를 지정하십시오.
+   1. 이 증명을 [!DNL Basecamp]의 [!UICONTROL Private] (새 [!DNL Basecamp]에서는 옵션을 사용할 수 없음)으로 할지 여부를 지정하십시오.
    1. [!DNL Basecamp Classic] 프로젝트를 선택하십시오.
    1. [!UICONTROL [!DNL Basecamp Classic] 메시지 범주]을 선택하세요.
    1. **[!UICONTROL 프로젝트의 직원]**&#x200B;에서 증명에 추가할 [!DNL Basecamp Classic] 계정의 검토자에 대한 확인란을 선택하십시오.

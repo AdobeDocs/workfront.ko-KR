@@ -62,12 +62,12 @@ Select 또는 Premium 버전 플랜을 사용하는 [!DNL Workfront Proof] 관�
 요구 사항에 따라 여러 가지 이유를 선택하도록 허용하거나 하나의 선택 목록으로 만들 수 있습니다. 이유를 필수 항목으로 지정할 수도 있습니다. 즉, 검토자가 증명을 저장하기 전에 이유를 선택해야 합니다.
    ![Reasons_setup.png](assets/reasons-setup-350x121.png)
 
-1. **[!UICONTROL 이유]** 섹션에서 **[!UICONTROL 새 이유]**를 클릭합니다.
+1. **[!UICONTROL 이유]** 섹션에서 **[!UICONTROL 새 이유]**&#x200B;를 클릭합니다.
    ![New_reason.png](assets/new-reason-350x135.png)
 
 1. **[!UICONTROL Reason]** 아래에 나타나는 상자에 이유 섹션의 제목을 입력합니다.
 1. 텍스트 상자를 포함하려면 **[!UICONTROL 텍스트 상자 포함]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 저장]**을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
    ![reasons_setup_2.png](assets/reasons-setup-2-350x146.png)
 가장 중요한 단계는 이유가 표시되어야 하는 결정을 선택하는 것입니다. 만약 당신이 그것을 잊었다면, 이유는 당신의 증명에 나타나지 않을 것이다.
 
@@ -81,7 +81,7 @@ Select 또는 Premium 버전 플랜을 사용하는 [!DNL Workfront Proof] 관�
 1. **[!UICONTROL 설정]** > **[!UICONTROL 계정 설정]**&#x200B;을 클릭합니다.
 
 1. **[!UICONTROL 결정]** 탭을 엽니다.
-1. **[!UICONTROL Post 결정 메시지]** 섹션에서 **[!UICONTROL 메시지]** 행 끝에 있는 **[!UICONTROL 편집]**을 클릭합니다.
+1. **[!UICONTROL Post 결정 메시지]** 섹션에서 **[!UICONTROL 메시지]** 행 끝에 있는 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 메시지를 모든 의사 결정자에게 표시할지 또는 기본 의사 결정자로 제한할지 결정할 수도 있습니다.
    ![post_decision_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 

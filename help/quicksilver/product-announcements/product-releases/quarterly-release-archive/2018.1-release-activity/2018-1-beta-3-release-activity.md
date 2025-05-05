@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2018.1 Beta 3 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [그룹 관리자 개선 사항](#group-administrator-improvements)
 

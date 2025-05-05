@@ -155,7 +155,7 @@ Workfront에서 다른 개체의 이름은 사용자 지정할 수 없습니다.
 
 [!DNL Workfront] 설명서는 항상 개체의 기본 이름을 참조합니다. 개체의 이름이 사용자 지정된 경우 해당 개체와 관련된 아이콘을 사용하여 사용자 지정된 개체가 기본 개체 [!DNL Workfront]에 해당하는지 파악할 수 있습니다.
 
-[!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 [레이아웃 템플릿]](#object-names-that-can-be-customized-using-a-layout-template)을 사용하여 사용자 지정할 수 있는 개체 이름을 참조하십시오.[!UICONTROL 
+[!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 [레이아웃 템플릿](#object-names-that-can-be-customized-using-a-layout-template)을 사용하여 사용자 지정할 수 있는 개체 이름을 참조하십시오.
 
 다음은 Workfront에 있는 개체 및 해당 아이콘 목록입니다.
 
@@ -202,7 +202,7 @@ Workfront에서 다른 개체의 이름은 사용자 지정할 수 없습니다.
 | [!UICONTROL 프로그램] | ✓ | ✓ |
 | [!UICONTROL 대시보드] | ✓ | ✓ |
 | [!UICONTROL 회사] | ✓ | ✓ |
-| [!UICONTROL 메모](또는 [!UICONTROL 업데이트]) | ✓ |  |
+| [!UICONTROL 메모] (또는 [!UICONTROL 업데이트]) | ✓ |  |
 
 [!DNL Workfront]에서 기본 및 고급 검색을 실행하는 방법에 대한 자세한 내용은 [검색 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md)을 참조하십시오.
 
@@ -227,7 +227,7 @@ Open API를 사용하여 데이터베이스의 모든 개체에 대해 보고할
 
 >[!NOTE]
 >
-> * 레이아웃 템플릿을 사용하여 오브젝트의 이름을 사용자 정의한 경우 Report Builder의 오브젝트 이름도 사용자 정의되었습니다. 사용자 정의된 개체를 알고 Report Builder에서 사용자 정의된 이름을 찾습니다. [!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 이 문서에서 [!UICONTROL 레이아웃 템플릿]](#object-names-that-can-be-customized-using-a-layout-template)을 사용하여 사용자 지정할 수 있는 [개체 이름을 참조하십시오.
+> * 레이아웃 템플릿을 사용하여 오브젝트의 이름을 사용자 정의한 경우 Report Builder의 오브젝트 이름도 사용자 정의되었습니다. 사용자 정의된 개체를 알고 Report Builder에서 사용자 정의된 이름을 찾습니다. [!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 이 문서에서 [!UICONTROL 레이아웃 템플릿][&#128279;](#object-names-that-can-be-customized-using-a-layout-template)을 사용하여 사용자 지정할 수 있는 개체 이름을 참조하십시오.
 > * 보고서에서 텍스트 모드를 사용할 때 텍스트 모드 표현식의 개체 이름은 사용자 지정된 개체 이름이 아니라 [!DNL Workfront]의 표준 이름입니다. 보고서에서 텍스트 모드를 사용하는 방법에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
 
 보고서 작성에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.\
@@ -275,7 +275,7 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 그룹화]
 * [!UICONTROL 시간 유형]
 * [!UICONTROL 이니셔티브]
-   * 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입한 경우에만 플랜의 하위 개체인 이니셔티브에 대한 보고서를 만들 수 있습니다. 이니셔티브에 대한 자세한 내용은  [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md)에서 [이니셔티브 개요 를 참조하십시오.
+   * 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입한 경우에만 플랜의 하위 개체인 이니셔티브에 대한 보고서를 만들 수 있습니다. 이니셔티브에 대한 자세한 내용은  [!DNL Workfront Scenario Planner][&#128279;](../../../scenario-planner/initiatives-overview.md)에서 이니셔티브 개요 를 참조하십시오.
 
 * 이니셔티브 작업 역할
    * 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입한 경우에만 플랜의 이니셔티브와 연결된 작업 역할에 대한 보고서를 만들 수 있습니다. 이니셔티브를 만들고 작업 역할과 연결하는 방법에 대한 자세한 내용은 [이니셔티브 만들기 및 편집 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md)을 참조하십시오.
@@ -291,8 +291,8 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 참고] 또는 [!UICONTROL 업데이트]
    * 개별 사용자가 추가한 댓글에 대해 보고할 수 있습니다.
 
-* [!UICONTROL 매개 변수](또는 [!UICONTROL 사용자 지정 필드])
-* [!UICONTROL 매개 변수 그룹](또는 [!UICONTROL 섹션 구분])
+* [!UICONTROL 매개 변수] (또는 [!UICONTROL 사용자 지정 필드])
+* [!UICONTROL 매개 변수 그룹] (또는 [!UICONTROL 섹션 구분])
 * [!UICONTROL Portfolio]
 * [!UICONTROL 프로그램]
 * [!UICONTROL 프로젝트(재무 데이터)]
@@ -309,7 +309,7 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 
 * [!UICONTROL 큐]
 * [!UICONTROL 대기열 주제]
-* [!UICONTROL 요금](작업 역할 [!UICONTROL 청구 요금] 정보를 표시함)
+* [!UICONTROL 요금] (작업 역할 [!UICONTROL 청구 요금] 정보를 표시함)
 * [!UICONTROL 미리 알림]
 * [!UICONTROL 보고서]
 * [!UICONTROL 리소스 풀]
@@ -336,4 +336,4 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
    * 이번 달에 사용자가 증명 및 문서에 대해 내린 결정 횟수를 보고할 수 있습니다.
 
 * [!UICONTROL 보기]
-* [!UICONTROL 작업 항목](작업 및 문제에 대한 보고서 생성)
+* [!UICONTROL 작업 항목] (작업 및 문제에 대한 보고서 생성)

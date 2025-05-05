@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Mobile Device Management]에 대한 [!DNL Adobe Workfront](MDM)
+# [!DNL Mobile Device Management]에 대한 [!DNL Adobe Workfront] (MDM)
 
-Adobe [!DNL Workfront]이(가) 몇 개의 [!DNL Mobile Device Management](MDM) 플랫폼과 파트너 관계를 맺어 조직에 보다 안전하고 통제된 모바일 환경을 제공합니다. [!DNL Workfront] 모바일 앱은 다음 모바일 장치 관리 플랫폼에서 사용할 수 있습니다.
+Adobe [!DNL Workfront]이(가) 몇 개의 [!DNL Mobile Device Management] (MDM) 플랫폼과 파트너 관계를 맺어 조직에 보다 안전하고 통제된 모바일 환경을 제공합니다. [!DNL Workfront] 모바일 앱은 다음 모바일 장치 관리 플랫폼에서 사용할 수 있습니다.
 
 ## MobileIron
 

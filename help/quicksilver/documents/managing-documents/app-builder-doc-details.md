@@ -107,6 +107,7 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
 
 1. 템플릿 선택 및 설정
    1. 사용 가능한 모든 템플릿을 탐색하고 프로젝트의 **@adobe/aem-cf-editor-ui-ext-tpl** 템플릿을 선택합니다.
+
       ![검색 템플릿](assets/search-template.png)
       ![템플릿 선택](assets/select-template.png)
 
@@ -114,7 +115,8 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
    1. 확장 이름을 지정합니다.
    1. 확장 기능에 대한 설명 요약을 제공합니다.
    1. 시작할 초기 버전 번호를 선택합니다.
-   1. **완료**를 선택하여 완료를 확인합니다.
+   1. **완료**&#x200B;를 선택하여 완료를 확인합니다.
+
       ![확장 정의](assets/define-extension.png)
 
 1. 프로젝트 폴더로 이동
@@ -341,7 +343,7 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
 
 1. 시스템 관리자의 경우 [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) 또는 [https://exchange.adobe.com/](https://exchange.adobe.com/)&#x200B;(으)로 이동합니다.
 
-1. **관리** > **Experience Cloud 응용 프로그램**을 클릭합니다. 제출된 앱에는 승인/거부 옵션이 표시됩니다.
+1. **관리** > **Experience Cloud 응용 프로그램**&#x200B;을 클릭합니다. 제출된 앱에는 승인/거부 옵션이 표시됩니다.
 승인되면 게시된 애플리케이션 확장은 Workfront 환경에 자동으로 로드됩니다.
 
    ![승인된 제출](assets/approve-submission.png)

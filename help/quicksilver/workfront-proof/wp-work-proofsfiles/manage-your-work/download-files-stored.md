@@ -24,14 +24,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->증명 설정에서 원본 파일 다운로드 허용이 활성화되어 있는지 확인합니다( [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)에서 [증명 설정 구성 참조).
+>증명 설정에서 원본 파일 다운로드 허용이 활성화되어 있는지 확인합니다( [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)에서 증명 설정 구성 참조).
 
 ## 단일 증명에서 파일 다운로드
 
 1. 목록 또는 썸네일 목록 레이아웃에서 증명이 나열된 행 끝에 있는 **[!UICONTROL 자세히]** 단추를 클릭합니다.
 1. ![More_button_small.png](assets/more-button-small.png)
 
-1. 이러한 레이아웃에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)의 보기 탭에서 [페이지 레이아웃을 참조하십시오.
+1. 이러한 레이아웃에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)의 보기 탭에서 페이지 레이아웃을 참조하십시오.
 1. 표시되는 메뉴에서 **[!UICONTROL 원본 다운로드]**&#x200B;를 클릭합니다.\
    목록에서 증명을 선택하고 목록 위에 있는 **[!UICONTROL 자세히]** 단추를 클릭한 다음 **[!UICONTROL 다운로드]**&#x200B;를 클릭할 수도 있습니다.\
    다음 파일을 다운로드할 수도 있습니다.

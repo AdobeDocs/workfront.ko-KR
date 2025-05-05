@@ -64,7 +64,7 @@ ht-degree: 1%
 
 {{step1-to-calendars}}
 
-1. 새 항목 그룹을 추가할 일정을 선택하고 기타 메뉴를 클릭한 다음 **편집**을 클릭합니다.
+1. 새 항목 그룹을 추가할 일정을 선택하고 기타 메뉴를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 또는
 **[!UICONTROL + 새 일정]**&#x200B;을 클릭하고 프로젝트 이름을 입력한 다음 **[!UICONTROL 고급 항목 추가]**&#x200B;를 클릭합니다.
 
@@ -102,7 +102,7 @@ ht-degree: 1%
        <ul>
         <li><strong>[!UICONTROL 시작 날짜만]</strong>: 캘린더에 개체가 단일 날짜에 표시됩니다.</li>
         <li><strong>[!UICONTROL 종료 날짜만]</strong>: 캘린더에 개체가 단일 날짜에 표시됩니다.</li>
-        <li><strong>[!UICONTROL Duration](시작~끝)</strong>: 일정에서 일 범위에 걸쳐 개체를 표시합니다.</li>
+        <li><strong>[!UICONTROL Duration] (시작~끝)</strong>: 일정에서 일 범위에 걸쳐 개체를 표시합니다.</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">

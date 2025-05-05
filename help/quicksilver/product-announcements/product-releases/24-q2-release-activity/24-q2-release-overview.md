@@ -67,7 +67,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 양식 디자이너 미리 보기 모드에서 표시 논리 및 건너뛰기 논리를 사용할 수 있습니다</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 양식 디자이너 미리 보기 모드에서 표시 논리 및 건너뛰기 논리를 사용할 수 있습니다</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>이제 Beta 사용자 정의 양식 디자이너를 사용하여 미리보기 모드에서 디스플레이 논리를 테스트하고 논리를 건너뛸 수 있습니다. 이전에는 논리가 적용되어도 모든 필드가 미리보기에 표시되었습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -83,7 +83,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">회사 및 사용자가 고급 사용자 정의 양식 필드를 지원합니다</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">회사 및 사용자가 고급 사용자 정의 양식 필드를 지원합니다</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>이제 회사 또는 사용자에 사용자 정의 양식을 첨부할 때 외부 조회 필드 및 Workfront 기본 필드와 같은 고급 사용자 정의 양식 기능을 사용할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -99,7 +99,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 새 패키지 유형에 JumpSeat 통합을 사용할 수 있습니다</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 새 패키지 유형에 JumpSeat 통합을 사용할 수 있습니다</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>이제 새로운 패키지 유형(예: Select, Prime 또는 Ultimate) 중 하나를 사용하는 계정에서 기존 JumpSeat 통합을 사용할 수 있습니다. 통합을 활성화하려면 여전히 활성 JumpSeat 구독이 있어야 합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -118,7 +118,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">양식 디자이너 베타에서 Workfront 네이티브 필드를 사용할 수 있습니다</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">양식 디자이너 베타에서 Workfront 네이티브 필드를 사용할 수 있습니다</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>이제 Workfront의 기본 필드를 사용하여 사용자 정의 양식에 추가할 수 있습니다. 이 새 필드 유형을 사용하면 사용자 정의 필드에서 기존 데이터를 다시 생성하지 않고도 데이터를 논리적으로 구성하고 사용자에게 제공할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -138,7 +138,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Adobe IMS로 마이그레이션한 조직에서 특성 매핑을 사용할 수 있습니다</a></p>
-                        <p>[!BADGE In production ]{type=Informative}</p><p>이제 Workfront 시스템 관리자는 Adobe IMS로 마이그레이션한 조직에 대한 사용자 속성 매핑을 설정할 수 있습니다. 이렇게 하면 사용자 정보를 조직의 SSO(Single Sign-On) 공급자에서 Workfront으로 전달할 수 있으므로 사용자의 데이터를 Workfront과 SSO 공급자 모두에 입력할 필요가 없습니다.</p>
+                        <p>[!BADGE In production &#x200B;]{type=Informative}</p><p>이제 Workfront 시스템 관리자는 Adobe IMS로 마이그레이션한 조직에 대한 사용자 속성 매핑을 설정할 수 있습니다. 이렇게 하면 사용자 정보를 조직의 SSO(Single Sign-On) 공급자에서 Workfront으로 전달할 수 있으므로 사용자의 데이터를 Workfront과 SSO 공급자 모두에 입력할 필요가 없습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -153,7 +153,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 양식 디자이너 베타에서 건너뛰기 논리와 표시 논리를 사용할 수 있습니다</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 양식 디자이너 베타에서 건너뛰기 논리와 표시 논리를 사용할 수 있습니다</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>이제 양식 디자이너 베타에서 기존 표시 및 건너뛰기 논리를 편집하고 새 논리를 사용자 정의 양식에 추가할 수 있습니다. 사용하기 쉬운 논리 빌더를 사용하여 양식의 선택 사항을 기반으로 표시하거나 건너뛸 필드를 정의할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -195,7 +195,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 검토 및 승인에 기한 추가</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 검토 및 승인에 기한 추가</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>이제 문서를 검토하거나 승인하도록 할당된 사용자 또는 팀에 대한 기한을 지정할 수 있습니다. 검토자와 승인자는 72시간 후 지정된 기한 24시간 전에 이메일 알림을 수신합니다. 기한은 새 홈 영역의 승인 위젯에도 반영됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -211,7 +211,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">승인 템플릿 만들기 및 사용</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">승인 템플릿 만들기 및 사용</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>이제 설정 영역에서 승인 템플릿을 만들어 검토 및 승인 프로세스를 간소화할 수 있습니다. 승인 템플릿을 사용하면 다음 작업을 통해 검토 및 승인 프로세스를 보다 반복적으로 사용할 수 있습니다.
                         <ul>
                             <li>
@@ -236,7 +236,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">한 번에 모든 승인에 대한 정보 보기</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">한 번에 모든 승인에 대한 정보 보기</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>승인 요청을 한눈에 관리하고 분석할 수 있도록 모든 승인 위젯에 다음과 같은 주요 성능 지표를 추가했습니다.
                         <ul>
                             <li>
@@ -286,7 +286,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿을 사용하여 새 홈의 관리자 컨트롤에 열 옵션이 추가됨</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿을 사용하여 새 홈의 관리자 컨트롤에 열 옵션이 추가됨</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>이제 관리자는 레이아웃 템플릿을 사용하여 특정 새 홈 위젯의 사용자가 사용할 수 있는 열을 사용자 정의할 수 있습니다. 옵션에는 기본 열을 숨기거나 표시하고 기존 필드를 새 열로 추가하는 작업이 포함됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -324,7 +324,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 통합에서 자동 폴더 만들기 워크플로우가 개선되었습니다</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 통합에서 자동 폴더 만들기 워크플로우가 개선되었습니다</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Adobe Experience Manager 폴더가 요구 사항을 보다 정확하게 반영할 수 있도록 Adobe Experience Manager 연결 폴더 워크플로에 대한 몇 가지 업데이트를 수행했습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -360,7 +360,7 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">새 작업 워크플로에 관련 할당이 더 추가됨</a></p>
-                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In Production for Fast Release &#x200B;]{type=Positive}</p>
                         <p>프로젝트 및 프로젝트 작업 목록에 작업을 추가할 때 새 작업 상자의 할당 필드에 더 적절한 스마트 할당에 대해 동일한 기능을 추가했습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -378,7 +378,7 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">더 적절한 스마트 할당</a></p>
-                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In Production for Fast Release &#x200B;]{type=Positive}</p>
                         <p>Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 지정하는 Workfront의 작업 목록, 작업 헤더의 지정 영역, 홈 및 요약 패널에서 적용됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -414,7 +414,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">업무 균형자에서 수동으로 조정된 할당에 대한 표시기</a></p><p>[!BADGE In production ]{type=Informative}</p><p>업무 균형자에서 수동 조정 또는 윤곽선에 대해 더 명확하게 이해하기 위해 이제 수동으로 조정된 시간별 할당에 연필 아이콘이 표시됩니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">업무 균형자에서 수동으로 조정된 할당에 대한 표시기</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>업무 균형자에서 수동 조정 또는 윤곽선에 대해 더 명확하게 이해하기 위해 이제 수동으로 조정된 시간별 할당에 연필 아이콘이 표시됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -451,7 +451,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새 댓글 달기 경험이 반복에 추가됨</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새 댓글 달기 경험이 반복에 추가됨</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>애플리케이션 전반에 걸쳐 일관된 경험을 제공하기 위해 새 주석 달기 경험을 반복에 추가했습니다. </p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -477,7 +477,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">기존 댓글 영역에 대한 액세스가 제거되었습니다</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">기존 댓글 영역에 대한 액세스가 제거되었습니다</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>프로젝트, 작업, 문제 및 문서에 대한 업데이트 영역에서 "새 댓글 달기" 전환을 제거했습니다. 이제 새로운 댓글 달기 는 이러한 개체에 대한 기본적이고 유일한 옵션입니다. 이 변경 사항으로 인해 더 이상 이전의 댓글 달기 경험으로 되돌릴 수 없습니다. 또한 사용자 프로필에서 "업데이트 상태에서 완료율 표시" 설정을 제거했습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -493,7 +493,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 새 홈 위젯에 대한 빠른 작업에서 새 댓글 달기 스트림을 사용할 수 있습니다</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 새 홈 위젯에 대한 빠른 작업에서 새 댓글 달기 스트림을 사용할 수 있습니다</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>이제 새 홈의 내 작업, 내 프로젝트, 내 작업 및 내 문제 위젯에 있는 "새 업데이트 추가" 빠른 작업 버튼에 새 댓글 달기 기능이 추가되었습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -512,7 +512,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새 댓글 달기 환경에서 사용할 수 있는 추가 댓글 정보</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새 댓글 달기 환경에서 사용할 수 있는 추가 댓글 정보</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>새로운 댓글 달기 환경에서 다음과 같은 사항이 개선되었습니다.</p>
                         <ul>
                             <li>
@@ -539,7 +539,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새 댓글 달기 환경의 시스템 활동 탭에서 읽기 전용 댓글을 지원합니다</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새 댓글 달기 환경의 시스템 활동 탭에서 읽기 전용 댓글을 지원합니다</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>이제 기존 댓글 달기 경험의 시스템 활동 레코드에 대한 댓글이 새 댓글 달기 경험의 시스템 활동 탭에 읽기 전용으로 채워집니다. 새 댓글 달기 환경에서 시스템 활동 레코드에 답글을 달 수 없습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -558,7 +558,7 @@ ht-degree: 0%
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">댓글과 시스템 활동 항목을 모두 캡처하는 새 업데이트 스트림 탭</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">댓글과 시스템 활동 항목을 모두 캡처하는 새 업데이트 스트림 탭</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>의견과 시스템 활동 로그를 연대순으로 집계하여 볼 수 있도록 모든 객체의 업데이트 영역에 세 번째 탭을 도입합니다. "모두" 탭은 사용자 댓글과 시스템 활동 댓글을 하나의 통합 스트림으로 캡처합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -577,7 +577,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 요약 패널에서 새 댓글 스트림을 사용할 수 있습니다</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 요약 패널에서 새 댓글 스트림을 사용할 수 있습니다</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>이제 작업 및 문제 목록에 대한 요약 패널에 새로운 주석 달기 기능이 추가되었습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -615,7 +615,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2024년 2분기 동안의 룩앤필 업데이트</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2024년 2분기 동안의 룩앤필 업데이트</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>2024년 2분기 내에 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트가 이루어지고 있습니다. 특정 릴리스 날짜는 개별 릴리스 정보를 검토하십시오.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>

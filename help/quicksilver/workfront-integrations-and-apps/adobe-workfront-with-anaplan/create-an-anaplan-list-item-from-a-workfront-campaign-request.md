@@ -75,7 +75,7 @@ ht-degree: 2%
   | [!UICONTROL 총 요청 자금] |   |
   | [!UICONTROL 요청한 인건비] |   |
   | [!UICONTROL 요청된 경비 자금] |   |
-  | [!UICONTROL 을(를) [!DNL Anaplan]](으)로 보냄 | 확인란 |
+  | [!UICONTROL 을(를) [!DNL Anaplan]] (으)로 보냄 | 확인란 |
 
   양식에 다음 옵션 필드가 있을 수 있습니다. 이 시나리오는 위의 필드만 매핑하지만, 캠페인 브리핑의 추가 필드를 매핑할 수 있습니다.
 
@@ -90,11 +90,11 @@ ht-degree: 2%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">시장 시작 날짜의 [!UICONTROL]</td> 
+     <td role="rowheader">시장 시작 날짜의 </td> 
      <td>일자 </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">시장 종료 날짜의 [!UICONTROL]</td> 
+     <td role="rowheader">시장 종료 날짜의 </td> 
      <td>일자</td> 
     </tr> 
     <tr> 
@@ -159,7 +159,7 @@ ht-degree: 2%
 1. 메시지가 표시되면 나머지 [!DNL Anaplan] 모듈을 모두 [!DNL Anaplan] 연결로 업데이트합니다.
 1. [!DNL Workfront] 연결 프로필을 선택하거나 추가하십시오.
 
-   템플릿을 배포한 후 기본 매핑된 필드를 [!DNL Anaplan](으)로 변경하려는 경우 필드 속성 값에서 사용자 지정 필드 참조를 추가하거나 제거하기 위해 업데이트하는 모듈입니다.
+   템플릿을 배포한 후 기본 매핑된 필드를 [!DNL Anaplan] (으)로 변경하려는 경우 필드 속성 값에서 사용자 지정 필드 참조를 추가하거나 제거하기 위해 업데이트하는 모듈입니다.
 
 1. 메시지가 표시되면 나머지 [!DNL Workfront] 모듈을 모두 [!DNL Workfront] 연결로 업데이트합니다.
 
@@ -167,7 +167,7 @@ ht-degree: 2%
 
 이 템플릿으로 표시되는 워크플로우를 완료하려면 다음 추가 템플릿도 배포해야 합니다.
 
-* [[!UICONTROL 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용 [!DNL Adobe Workfront] 3}]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [[!UICONTROL 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용 [!DNL Adobe Workfront] 3&rbrace;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 지출 최적화를 위한 추가 시나리오는 다음과 같습니다.
 

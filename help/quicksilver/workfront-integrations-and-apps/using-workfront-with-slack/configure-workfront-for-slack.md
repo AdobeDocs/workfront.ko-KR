@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. [[!DNL Slack] 스토어](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info)에서 [!DNL Adobe Workfront] 추가 기능을 찾습니다.
 
-1. [!DNL Slack]]**에서**[!UICONTROL &#x200B;열기를 클릭합니다.
+1. [!DNL Slack]&#x200B;**에서**&#x200B;열기를 클릭합니다.
 
 1. [!DNL Slack] URL을 지정하고 **[!UICONTROL 계속]**&#x200B;을 클릭하여 작업 영역에 로그인합니다.\
 

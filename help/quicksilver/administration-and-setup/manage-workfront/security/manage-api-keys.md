@@ -107,13 +107,14 @@ Workfront 관리자 이외의 역할의 사용자에 대한 API 키를 생성하
    1. **시스템**&#x200B;을 확장한 다음 **SSO(Single Sign-On)**&#x200B;을 클릭합니다.
    1. **유형** 필드에서 조직에서 사용하는 SSO 유형을 선택합니다.
    1. 유형을 선택한 상태에서 아래로 스크롤하여 **활성화** 확인란의 선택을 취소합니다.
+
       ![SSO 사용](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. **저장**&#x200B;을 클릭합니다.
 
 
 1. 브라우저의 주소 표시줄에 다음 API 호출을 입력합니다.
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**사용자 이름**&amp;password=**암호**&amp;method=PUT
+   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;사용자 이름&#x200B;**&amp;password=**&#x200B;암호**&amp;method=PUT
 
    `<domain>`을(를) Workfront 도메인 이름으로 바꾸고 사용자 이름 및 암호를 사용자의 Workfront 자격 증명으로 바꿉니다.
 

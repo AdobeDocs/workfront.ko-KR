@@ -63,7 +63,7 @@ ht-degree: 2%
    | 아이콘 | 결정 |
    |---|---|
    | ![작업에서 증명 승인](assets/mobile-approveprooffromtask.png) | [!UICONTROL 승인] |
-   | ![작업에서 변경 사항이 있는 증명 승인](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL 변경 사항과 함께 승인](문서에만 사용 가능) |
+   | ![작업에서 변경 사항이 있는 증명 승인](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL 변경 사항과 함께 승인] (문서에만 사용 가능) |
    | ![작업에서 증명 거부](assets/mobile-rejectprooffromtask.png) | [!UICONTROL 거부] |
 
    {style="table-layout:auto"}

@@ -38,7 +38,7 @@ ht-degree: 1%
 ## [!DNL Slack]에서 [!DNL Workfront]에 로그인 {#log-in-to-workfront-from-slack}
 
 Slack의 메시지 필드에 명령을 입력하면 먼저 [!DNL Workfront]에 로그인하라는 메시지가 표시됩니다.\
-[!DNL Slack]의 [!DNL Workfront] 명령에 대한 전체 목록을 보려면 이 문서의  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) 섹션에 있는 [슬래시 명령에서  [!DNL Workfront] 액세스를 참조하십시오.
+[!DNL Slack]의 [!DNL Workfront] 명령에 대한 전체 목록을 보려면 이 문서의  [!DNL Slack][&#128279;](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) 섹션에 있는 슬래시 명령에서  [!DNL Workfront] 액세스를 참조하십시오.
 
 [!DNL Slack]에서 [!DNL Workfront]에 로그인하려면:
 

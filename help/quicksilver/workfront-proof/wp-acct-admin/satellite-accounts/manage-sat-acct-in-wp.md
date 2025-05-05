@@ -29,7 +29,7 @@ ht-degree: 0%
 1. [!UICONTROL 청구] 페이지로 이동합니다.
 1. 페이지 상단(1)에서 드롭다운 메뉴를 연 다음, 관련 위성 계정을 선택합니다. (2)
 
-   자세한 내용은 &quot;[청구] 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)를 참조하세요. [!DNL Workfront Proof] [!UICONTROL 
+   자세한 내용은 &quot;[청구] 페이지(../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)를 참조하세요. [!DNL Workfront Proof] 
 
    ![Satellite_Account_Billing_Page__1_.png](assets/satellite-account-billing-page--1--350x167.png)
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 Satellite 계정의 계정 설정을 보고 관리하려면:
 
-1. 페이지 상단의 [!UICONTROL 계정 설정](으)로 이동합니다.
+1. 페이지 상단의 [!UICONTROL 계정 설정] (으)로 이동합니다.
 1. **[!UICONTROL 계정]** 드롭다운 메뉴를 클릭한 다음 관련 위성 계정을 선택합니다. (1)
 1. 관련 탭을 클릭하여 Satellite 계정에 대한 계정 설정을 관리합니다.
 

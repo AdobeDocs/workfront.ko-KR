@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2018.1 Beta 최종 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [리소스 가용성 및 사용자 할당을 구성하여 사용자 일정에 따라 계산](#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule)
 

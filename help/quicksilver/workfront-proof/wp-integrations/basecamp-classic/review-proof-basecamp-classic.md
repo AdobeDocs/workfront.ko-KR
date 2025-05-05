@@ -97,7 +97,7 @@ ht-degree: 0%
 
 증명을 검토하려면:
 
-1. 댓글을 추가하려면 증명 상단에 있는 [!UICONTROL 댓글](3)을 클릭하고 댓글을 입력하세요.\
+1. 댓글을 추가하려면 증명 상단에 있는 [!UICONTROL 댓글] (3)을 클릭하고 댓글을 입력하세요.\
    댓글과 [증명 뷰어에서 증명에 대한 결정을 내립니다](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)(예: [!DNL Workfront Proof] 내의 증명 검토).[!DNL Basecamp]
 
 1. 결정을 추가하려면 증명 상단에 있는 결정 (3)을 클릭하고 승인 결정을 선택합니다.\

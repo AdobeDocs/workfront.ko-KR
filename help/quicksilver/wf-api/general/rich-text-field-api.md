@@ -28,7 +28,7 @@ Adobe Workfront의 일부 개체를 사용하면 서식 있는 텍스트 형식�
 **예:** 사용자 지정 양식 필드 **서식 있는 텍스트가 있는 필드**&#x200B;의 값을 검색하기 위한 기본 GET 요청입니다.
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 **예:** 이 요청은 **parameterValue** **DE:Field with rich text**&#x200B;에 저장된 JSON의 **Field with rich text** 값을 반환합니다.
 
@@ -63,7 +63,7 @@ Adobe Workfront의 일부 개체를 사용하면 서식 있는 텍스트 형식�
 
 ![서식 있는 텍스트 매핑](assets/copy-of-rich-text-mapping-2-350x136.png)
 
-한 줄에 여러 유형의 서식이 적용된 경우 스타일은 ** inlineStyleRanges** 배열의 추가 요소에 매핑됩니다.
+한 줄에 여러 유형의 서식이 적용된 경우 스타일은 **&#x200B; inlineStyleRanges** 배열의 추가 요소에 매핑됩니다.
 
 **예:** 혼합 서식이 포함된 텍스트 줄을 저장할 때 블록의 모양은 다음과 같습니다. **굵은 텍스트 및 기울임꼴**
 
@@ -118,4 +118,4 @@ Workfront API를 사용하여 서식 있는 텍스트 필드의 다음 값을 �
 1. 위에 요약된 JSON에서 **stringify** 메서드를 사용하여 **PUT**&#x200B;을 요청하고 업데이트를 보냅니다
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

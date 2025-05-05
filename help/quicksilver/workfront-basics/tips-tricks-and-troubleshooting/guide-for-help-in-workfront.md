@@ -58,7 +58,7 @@ ht-degree: 0%
     </ul> <p>자세한 내용은 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}">고객 지원 센터에 문의</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL이 피어와 연결]</strong> </td> 
+   <td><strong>[!UICONTROL 이 피어와 연결]</strong> </td> 
    <td>[!UICONTROL [!DNL Workfront] Community]에서는 통찰력과 전문 지식을 적극적으로 공유하는 최신 작업을 숙지하는 전문가 네트워크를 제공합니다. 자세한 내용은 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">[!DNL Adobe Workfront] 커뮤니티</a>를 참조하십시오.</td> 
   </tr> 
   <tr> 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 [status.adobe.com](https://status.adobe.com/)을(를) 구독하면 유지 관리 일정 및 중단 문제에 대한 최신 정보를 얻을 수 있습니다.
 
-[!DNL Workfront] 상태 사이트에 대한 자세한 내용은 [상태 사이트 [!DNL Adobe Workfront] 3}를 참조하세요.](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
+[!DNL Workfront] 상태 사이트에 대한 자세한 내용은 [상태 사이트 [!DNL Adobe Workfront] 3&rbrace;를 참조하세요.](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
 
 주간 유지 관리 업데이트에서 해결된 사항을 알아보려면 [유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 

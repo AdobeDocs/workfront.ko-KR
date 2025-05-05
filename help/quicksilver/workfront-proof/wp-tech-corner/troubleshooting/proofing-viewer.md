@@ -45,7 +45,7 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 
 일반적으로 대부분의 브라우저는 자동으로 업데이트되지만 문제가 발생하는 경우 사용 중인 버전을 확인하고 필요한 경우 업데이트를 수행하는 것이 좋습니다.
 
-브라우저에서 [!UICONTROL 메뉴](으)로 이동하여 [!UICONTROL 정보] 옵션을 찾습니다(경우에 따라 [!UICONTROL 도움말] 메뉴에 표시될 수 있음). [!UICONTROL 정보] 팝업에서 현재 브라우저 버전에 대한 정보와 업데이트를 업데이트/확인하는 옵션을 찾을 수 있습니다.
+브라우저에서 [!UICONTROL 메뉴] (으)로 이동하여 [!UICONTROL 정보] 옵션을 찾습니다(경우에 따라 [!UICONTROL 도움말] 메뉴에 표시될 수 있음). [!UICONTROL 정보] 팝업에서 현재 브라우저 버전에 대한 정보와 업데이트를 업데이트/확인하는 옵션을 찾을 수 있습니다.
 
 예를 들어 Chrome에서:
 

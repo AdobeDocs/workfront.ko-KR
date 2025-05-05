@@ -141,10 +141,10 @@ ht-degree: 1%
 1. **[!UICONTROL 설정>보안 컨트롤>원격 사이트 설정]**(으)로 이동합니다.
 1. (조건부) **[!UICONTROL 모든 원격 사이트]** 목록에 [!DNL Workfront] URL이 표시되지 않으면 **[!UICONTROL 새 원격 사이트]**&#x200B;를 클릭합니다.
 
-1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 이름]**을(를) 지정하십시오.
+1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 이름]**&#x200B;을(를) 지정하십시오.
 예: *[!DNL Workfront]*.
 
-1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 URL]**을(를) 지정하십시오.
+1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 URL]**&#x200B;을(를) 지정하십시오.
 예: *yourDomain.my.workfront.com*.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.\
@@ -185,10 +185,10 @@ ht-degree: 1%
 1. **[!UICONTROL 원격 사이트 설정]**&#x200B;을 클릭합니다.
 1. (조건부) **[!UICONTROL 모든 원격 사이트]** 목록에 [!DNL Workfront] URL이 표시되지 않으면 **[!UICONTROL 새 원격 사이트]**&#x200B;를 클릭합니다.
 
-1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 이름]**을(를) 지정하십시오.
+1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 이름]**&#x200B;을(를) 지정하십시오.
 예: *[!DNL Workfront]*.
 
-1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 URL]**을(를) 지정하십시오.
+1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 URL]**&#x200B;을(를) 지정하십시오.
 예: *yourDomain.my.workfront.com*.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

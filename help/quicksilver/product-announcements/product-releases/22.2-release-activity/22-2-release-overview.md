@@ -624,7 +624,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 ## 22.2 릴리스 웨비나
 
-Workfront 22.2 릴리스 웨비나는 2022년 3월 24일 오전 8시 MST에서 제공됩니다. Workfront One](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne)의 [이벤트 페이지에서 이벤트를 등록할 수 있습니다.
+Workfront 22.2 릴리스 웨비나는 2022년 3월 24일 오전 8시 MST에서 제공됩니다. Workfront One[&#128279;](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne)의 이벤트 페이지에서 이벤트를 등록할 수 있습니다.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

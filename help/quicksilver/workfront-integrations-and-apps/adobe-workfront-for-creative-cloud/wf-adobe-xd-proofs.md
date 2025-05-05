@@ -195,7 +195,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >대화형 증명을 검토하고 승인하려면 사용자가 [!UICONTROL 데스크톱 증명 뷰어]에 액세스할 수 있어야 합니다. 자세한 내용은 [Desktop Proofing Viewer 설치]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)를 참조하십시오.[!UICONTROL 
+   >대화형 증명을 검토하고 승인하려면 사용자가 [!UICONTROL 데스크톱 증명 뷰어]에 액세스할 수 있어야 합니다. 자세한 내용은 [Desktop Proofing Viewer 설치](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)를 참조하십시오.
 
 ## 새 증명 버전 업로드
 

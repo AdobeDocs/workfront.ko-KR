@@ -24,7 +24,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-올바른 액세스 또는 권한이 없으면 [!DNL  Adobe Workfront]의 [!UICONTROL 시나리오] 영역을 보거나 조직의 계획 또는 이니셔티브를 관리하지 못할 수 있습니다. 계획 및 이니셔티브의 관리에는 계획 및 이니셔티브 생성, 편집 및 삭제가 포함됩니다.
+올바른 액세스 또는 권한이 없으면 [!DNL &#x200B; Adobe Workfront]의 [!UICONTROL 시나리오] 영역을 보거나 조직의 계획 또는 이니셔티브를 관리하지 못할 수 있습니다. 계획 및 이니셔티브의 관리에는 계획 및 이니셔티브 생성, 편집 및 삭제가 포함됩니다.
 
 ## [!DNL Adobe Workfront Scenario Planner]을(를) 보고 사용하는 데 필요한 액세스 권한
 

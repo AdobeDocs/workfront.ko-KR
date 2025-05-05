@@ -20,9 +20,9 @@ ht-degree: 0%
 >
 >이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
-위성 계정은 자신의 [!DNL Workfront Proof] 계정 내에서 구성하고 관리하는 유료 계정입니다. 자세한 내용은  [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)의 [위성 계정을 참조하십시오.
+위성 계정은 자신의 [!DNL Workfront Proof] 계정 내에서 구성하고 관리하는 유료 계정입니다. 자세한 내용은  [!DNL Workfront] Proof[&#128279;](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)의 위성 계정을 참조하십시오.
 
-모든 청구 관리자는 위성 계정을 만들 수 있습니다. 청구 관리자에 대한 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [[!UICONTROL 증명 권한 프로필]을 참조하십시오.
+모든 청구 관리자는 위성 계정을 만들 수 있습니다. 청구 관리자에 대한 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [!UICONTROL 증명 권한 프로필]을 참조하십시오.
 
 >[!NOTE]
 >

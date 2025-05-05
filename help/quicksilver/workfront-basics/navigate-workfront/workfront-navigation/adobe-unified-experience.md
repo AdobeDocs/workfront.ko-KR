@@ -63,7 +63,7 @@ ht-degree: 0%
 1. 브라우저 창을 열고 <https://experience.adobe.com>(으)로 이동합니다.
 1. [!UICONTROL **로그인**] 화면에서 전자 메일 주소를 입력하고 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
-   [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)에 ![로그인
+   [!DNL Adobe Experience Cloud]![&#128279;](assets/aec-login-page.png)에 로그인
 
 >[!NOTE]
 >

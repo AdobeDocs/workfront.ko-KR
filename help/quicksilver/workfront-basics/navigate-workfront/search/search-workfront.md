@@ -95,7 +95,7 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 
 >[!NOTE]
 >
->[!UICONTROL 고급 검색]을 수행하려면 검색을 시작할 때 [!UICONTROL 고급 검색] 옵션을 선택해야 합니다. 기본 검색을 [!UICONTROL 고급 검색](으)로 세분화할 수 없습니다.
+>[!UICONTROL 고급 검색]을 수행하려면 검색을 시작할 때 [!UICONTROL 고급 검색] 옵션을 선택해야 합니다. 기본 검색을 [!UICONTROL 고급 검색] (으)로 세분화할 수 없습니다.
 
 ## [!DNL Workfront] 검색 제한 사항 이해
 
@@ -171,7 +171,7 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 
 >[!NOTE]
 >
->[!UICONTROL 고급 검색]을 수행하려면 검색을 시작할 때 [!UICONTROL 고급 검색] 옵션을 선택해야 합니다. 기본 검색을 [!UICONTROL 고급 검색](으)로 세분화할 수 없습니다.
+>[!UICONTROL 고급 검색]을 수행하려면 검색을 시작할 때 [!UICONTROL 고급 검색] 옵션을 선택해야 합니다. 기본 검색을 [!UICONTROL 고급 검색] (으)로 세분화할 수 없습니다.
 
 * [기본 검색 수행](#perform-a-basic-search)
 * [기본 검색 세분화](#refine-a-basic-search)
@@ -242,7 +242,7 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 
 >[!NOTE]
 >
->[!UICONTROL 고급 검색]을 수행하려면 검색을 시작할 때 [!UICONTROL 고급 검색] 옵션을 선택해야 합니다. 기본 검색을 [!UICONTROL 고급 검색](으)로 세분화할 수 없습니다.
+>[!UICONTROL 고급 검색]을 수행하려면 검색을 시작할 때 [!UICONTROL 고급 검색] 옵션을 선택해야 합니다. 기본 검색을 [!UICONTROL 고급 검색] (으)로 세분화할 수 없습니다.
 
 * [[!UICONTROL 고급 검색] 사용](#use-advanced-search)
 

@@ -88,7 +88,7 @@ ht-degree: 0%
 
    * PDF
    * [!DNL Excel]
-   * [!DNL Excel](xlsx)
+   * [!DNL Excel] (xlsx)
    * 탭으로 구분됨
 
      이렇게 하면 목록의 사본이 이러한 형식 중 하나로 내보내지고 컴퓨터에 저장됩니다.

@@ -60,6 +60,6 @@ ht-degree: 0%
 * [ [!DNL Android]의 증명에 대한 댓글](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
 * [ [!DNL Adobe Workfront] 모바일 앱에서 증명 공유 및 다운로드](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
 * [ [!DNL Adobe Workfront] 모바일 앱의 승인](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
-* [ [!DNL Mobile Device Management] 에 대한 [!DNL Adobe Workfront](MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
+* [ [!DNL Mobile Device Management] 에 대한 [!DNL Adobe Workfront] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
 * [ [!DNL MobileIron]에 대해  [!DNL Adobe Workfront] 구성](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
 

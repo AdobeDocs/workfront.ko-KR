@@ -28,7 +28,7 @@ ht-degree: 5%
 * [Outlook용 [!UICONTROL Adobe Workfront 사용]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
 * [문서 통합 구성](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 * [문서 통합 사용 안 함](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
-* [통합 구성 [!DNL SharePoint] 2}](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
+* [통합 구성 [!DNL SharePoint] 2&rbrace;](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
 * [메타데이터 매핑 설정](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
 * [ [!DNL Adobe Admin Console]에서 사용자를 위한 [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 

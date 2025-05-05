@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## [!UICONTROL 간트 차트] 찾기
 
-Workfront 내의 여러 영역에서 작업 목록 간트 차트 및 프로젝트 목록 [!UICONTROL 간트 차트]를 모두 찾을 수 있습니다. 자세한 내용은 [간트 차트 시작]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)을 참조하세요.[!UICONTROL 
+Workfront 내의 여러 영역에서 작업 목록 간트 차트 및 프로젝트 목록 [!UICONTROL 간트 차트]를 모두 찾을 수 있습니다. 자세한 내용은 [간트 차트 시작](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)을 참조하세요.
 
 ## [!UICONTROL 중요 경로]에서 작업 보기
 

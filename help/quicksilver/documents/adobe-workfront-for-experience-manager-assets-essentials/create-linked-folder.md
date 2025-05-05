@@ -91,5 +91,5 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials와
    >
    >Workfront 관리자는 이 통합에 사용할 이름을 선택할 수 있으므로 Experience Manager Assets 또는 Assets Essentials에 대해 특별히 언급하지 않을 수 있습니다.
 
-1. **연결된 폴더 만들기**를 선택합니다. 시스템은 통합 설정 시 지정된 위치를 기반으로 Experience Manager에 폴더를 자동으로 생성합니다.
+1. **연결된 폴더 만들기**&#x200B;를 선택합니다. 시스템은 통합 설정 시 지정된 위치를 기반으로 Experience Manager에 폴더를 자동으로 생성합니다.
    ![연결된 폴더 만들기](assets/linked-folder.png)

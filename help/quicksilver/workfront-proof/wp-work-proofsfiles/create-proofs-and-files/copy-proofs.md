@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 증명 복사
 
-1.  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리에 설명된 대로 **[!UICONTROL 보기]** 페이지로 이동합니다.
+1. [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리에 설명된 대로 **[!UICONTROL 보기]** 페이지로 이동합니다.
 
 1. 증명에 대한 **[!UICONTROL 자세히]** 메뉴를 엽니다.\
    ![추가 메뉴](assets/more-button-small.png)
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 * **폴더 세부 정보 페이지**. 자세한 내용은 [폴더 및 해당 컨텐츠 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)를 참조하십시오.
 
-* **모든 목록 보기 페이지**. 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리를 참조하십시오.
+* **모든 목록 보기 페이지**. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리를 참조하십시오.
 
 ## 새 증명에 대한 기존 증명 설정 복사
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 새 증명에 대한 기존 증명 설정을 복사하려면 다음을 수행하십시오.
 
-1.  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리에 설명된 대로 **[!UICONTROL 보기]** 페이지로 이동합니다.
+1. [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리에 설명된 대로 **[!UICONTROL 보기]** 페이지로 이동합니다.
 
 1. 증명에 대한 **[!UICONTROL 자세히]** 메뉴를 엽니다.\
    ![추가 메뉴](assets/more-button-small.png)

@@ -62,6 +62,6 @@ ht-degree: 0%
 
 1. (선택 사항) 업데이트를 게시한 프로젝트, 작업 또는 문제의 이름을 클릭하여 [!DNL Workfront]에서 액세스합니다.
 
-   댓글이 [!DNL Slack]에서 시작된 경우 댓글에 [!DNL Workfront]의 &quot;[!DNL Slack]]에서 게시됨&quot; 메시지가 표시됩니다.[!UICONTROL 
+   댓글이 [!DNL Slack]에서 시작된 경우 댓글에 [!DNL Workfront]의 &quot;[!DNL Slack]에서 게시됨&quot; 메시지가 표시됩니다.
 
    ![Slack에서 게시된 업데이트](assets/slack-update-posted-from-slack-350x112.png)

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2018.2 Beta 4 릴리스에는 Workfront 관리자 및 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [시스템 설정: 외부 페이지의 세션 정보](#system-setting-session-information-in-external-pages)
 

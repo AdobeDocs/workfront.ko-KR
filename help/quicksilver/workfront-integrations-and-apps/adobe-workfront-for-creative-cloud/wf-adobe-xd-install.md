@@ -69,7 +69,7 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
 
 [비디오 튜토리얼은 여기에서 봅니다](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
+[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console][&#128279;](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
 
 ## 개별적으로 [!DNL Adobe Workfront for XD] 플러그 인을 설치하십시오.
 
@@ -120,7 +120,7 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
    >* [!DNL Workfront]은(는) 사용자의 인증 및 권한 부여를 위해 대부분의 웹 기반 통합에서 사용하는 보안 표준인 OAuth 2.0을 사용하여 [!DNL Adobe Creative Cloud]에 연결합니다.
    >* [!DNL Workfront] 계정의 [도메인 또는 호스트]를 입력하라는 메시지가 표시되면 *yourCompany&#39;sDomain.my.workfront.com* 형식을 사용하여 입력하세요. 회사의 도메인은 일반적으로 회사의 이름입니다.
 
-1. 로그인을 완료하려면 **[!UICONTROL 액세스 허용]**&#x200B;을 클릭하고 작업을 보려면 [!DNL Adobe XD](으)로 돌아가세요.
+1. 로그인을 완료하려면 **[!UICONTROL 액세스 허용]**&#x200B;을 클릭하고 작업을 보려면 [!DNL Adobe XD] (으)로 돌아가세요.
 
 ### 로그인 오류 문제 해결
 

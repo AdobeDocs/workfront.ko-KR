@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 작업** 위젯을 추가합니다.
-1. 작업 항목을 찾은 다음 작업 항목에서 **[!UICONTROL 완료로 표시]**를 클릭합니다.
+1. 작업 항목을 찾은 다음 작업 항목에서 **[!UICONTROL 완료로 표시]**&#x200B;를 클릭합니다.
 이 단추가 표시되는 방법에 대한 자세한 내용은 [[!UICONTROL 완료] 단추의 옵션 이해](#understand-the-options-of-the-done-button)를 참조하십시오.
    ![내 작업 표시 완료](assets/my-work-done.png)
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 [!UICONTROL 완료] 단추와 관련된 상태를 이해하려면 [팀 설정 편집](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)에 설명된 대로 홈 팀의 [!UICONTROL 팀 설정]에서 [!UICONTROL 완료 단추] 섹션을 확인하십시오.
 
-홈 팀에 할당되지 않은 경우 [완료] 단추의 옵션 이해](#understand-the-options-of-the-done-button)에서 설명한 대로 [!UICONTROL 완료]를 클릭하면 기본 상태가 선택됩니다.[!UICONTROL 
+홈 팀에 할당되지 않은 경우 [완료] 단추의 옵션 이해(#understand-the-options-of-the-done-button)에서 설명한 대로 [!UICONTROL 완료]를 클릭하면 기본 상태가 선택됩니다.
 
 ### 여러 상태와 연결된 [!UICONTROL 완료] 단추
 

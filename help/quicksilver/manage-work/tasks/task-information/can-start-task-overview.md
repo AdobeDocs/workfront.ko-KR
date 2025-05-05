@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: '`작업에 대한 시작 가능` 개요'
+title: '&grave;작업에 대한 시작 가능&grave; 개요'
 description: 작업을 시작할 준비가 되면 Adobe Workfront은 작업 시작 가능 표시기를 작업에 추가하여 작업을 시작하는 것이 안전함을 쉽게 식별합니다. 이 표시기는 작업 목록 또는 보고서 보기에서 볼 수 있습니다.
 author: Alina
 feature: Work Management

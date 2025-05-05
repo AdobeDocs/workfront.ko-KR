@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 문제
 
-URL(https://customerdomain.my.workfront.com)을 사용하여 [!DNL Adobe Workfront]에 로그인하려고 하면 SAML 로그인 포털로 리디렉션된 다음 다음 오류가 발생하여 다시 [!DNL Workfront](으)로 리디렉션됩니다.
+URL(https://customerdomain.my.workfront.com)을 사용하여 [!DNL Adobe Workfront]에 로그인하려고 하면 SAML 로그인 포털로 리디렉션된 다음 다음 오류가 발생하여 다시 [!DNL Workfront] (으)로 리디렉션됩니다.
 
 “다시 시도해 보십시오. 다음 필드가 잘못되었습니다. emailAddr은 null일 수 없습니다.&quot;
 

@@ -23,5 +23,5 @@ ht-degree: 0%
 [!DNL Workfront Proof] 관리자는 [!DNL Workfront Proof]에 로그인한 모든 사용자에 대한 사용 정보를 볼 수 있습니다.
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 활동]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 증명 및 미디어 로그]** 드롭다운 메뉴에서 **[!UICONTROL 인증 로그]**를 클릭합니다.
+1. **[!UICONTROL 증명 및 미디어 로그]** 드롭다운 메뉴에서 **[!UICONTROL 인증 로그]**&#x200B;를 클릭합니다.
 시스템의 모든 사용자에 대한 로그인 기록이 표시됩니다.

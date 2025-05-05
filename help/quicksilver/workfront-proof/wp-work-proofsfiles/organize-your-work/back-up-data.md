@@ -62,7 +62,7 @@ ht-degree: 0%
 
 백업이 준비되면 다음 상황이 발생합니다.
 
-* [!DNL Workfront Proof](으)로부터 이를 알리는 이메일을 받습니다(&quot;[!DNL Workfront Proof] 백업이 준비되었습니다&quot;). 이메일에는 백업 데이터에 대한 다운로드 링크가 포함되어 있습니다.
+* [!DNL Workfront Proof] (으)로부터 이를 알리는 이메일을 받습니다(&quot;[!DNL Workfront Proof] 백업이 준비되었습니다&quot;). 이메일에는 백업 데이터에 대한 다운로드 링크가 포함되어 있습니다.
 * [계정 설정](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) 백업 탭에 백업 데이터에 대한 다운로드 링크가 표시됩니다.
 * 백업 탭에 새 백업 요청 링크(3)가 다시 나타납니다
 

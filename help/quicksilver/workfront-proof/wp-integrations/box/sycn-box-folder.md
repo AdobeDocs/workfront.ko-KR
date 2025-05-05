@@ -37,7 +37,7 @@ ht-degree: 0%
 1. [!DNL Workfront Proof]에 로그인한 경우 표시되는 [!UICONTROL 동기화 폴더] 상자에서 다음 중 하나를 수행합니다.
 
    * [!DNL Workfront Proof] 폴더 이름을 클릭하여 Box (4)의 해당 폴더와 동기화합니다.
-   * **[!UICONTROL 새 폴더]**&#x200B;을(를) 클릭하여 [!DNL Workfront Proof](5)에 새 폴더를 만듭니다.\
+   * **[!UICONTROL 새 폴더]**&#x200B;을(를) 클릭하여 [!DNL Workfront Proof] (5)에 새 폴더를 만듭니다.\
 
      ![folder_sync_2.jpg](assets/folder-sync-2-350x231.jpg)새 폴더를 만들도록 선택한 경우 새 폴더에 대한 세부 정보를 입력하라는 메시지가 표시됩니다.
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 >
 >* [!UICONTROL 폴더 옵션] 메뉴에서 [!DNL Box] 폴더를 동기화할 수도 있습니다.
 >* 브랜드 [!DNL Workfront Proof] 로그인 페이지가 있는 경우 표준 [!DNL Workfront Proof] 로그인 페이지가 아닌 해당 페이지로 이동합니다. 자세한 내용은 [브랜딩](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)의 문서를 참조하십시오.
->* [!DNL Workfront Proof] 계정에서 [!UICONTROL SSO(Single Sign-On)] 기능을 사용하도록 설정한 경우 SSO 로그인 페이지로 이동하여 SSO 로그인 자격 증명을 입력하도록 요청하지만, [!DNL Box] 계정 및 [!DNL Workfront Proof]에 대해 동일한 전자 메일 주소를 사용하고 있는 경우에만 가능합니다. 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)의 [[!UICONTROL SSO(Single Sign-On)]을 참조하세요.
+>* [!DNL Workfront Proof] 계정에서 [!UICONTROL SSO(Single Sign-On)] 기능을 사용하도록 설정한 경우 SSO 로그인 페이지로 이동하여 SSO 로그인 자격 증명을 입력하도록 요청하지만, [!DNL Box] 계정 및 [!DNL Workfront Proof]에 대해 동일한 전자 메일 주소를 사용하고 있는 경우에만 가능합니다. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)의 [!UICONTROL SSO(Single Sign-On)]을 참조하세요.
 >* [!DNL Box] 계정과 [!DNL Workfront Proof] 계정 모두에 동일한 이메일 주소를 사용하지 않는 경우 항상 표준 [!DNL Workfront Proof] 로그인 페이지로 이동됩니다.
 >
 

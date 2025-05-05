@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 파트너 중 한 명 사용
 
-[!DNL AtAppStore]([www.atappstore.com](https://www.atappstore.com))에 데이터를 직접 다운로드할 수 있는 사용하기 쉬운 앱([Workfront 스냅숏](https://store.atappstore.com/product/workfront-snapshot/) 솔루션)이 있습니다. 선택적 뷰어([Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/) 솔루션)를 사용하면 데이터를 오프라인에서 쉽게 볼 수 있습니다.
+[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com))에 데이터를 직접 다운로드할 수 있는 사용하기 쉬운 앱([Workfront 스냅숏](https://store.atappstore.com/product/workfront-snapshot/) 솔루션)이 있습니다. 선택적 뷰어([Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/) 솔루션)를 사용하면 데이터를 오프라인에서 쉽게 볼 수 있습니다.
 
 * **장점:** 사용자 지정 필드 및 메모를 포함하여 모든 핵심 [!DNL Workfront] 개체를 내보낸 다음 쉽게 액세스할 수 있는 [!DNL MS Access] 데이터베이스에 저장됩니다. 뷰어의 인터페이스는 쉽게 사용하고 읽을 수 있습니다. 문서 추출은 별도로 서비스로도 사용할 수 있으며, 출력은 각 문서(및 선택적으로 이전 버전)에 매핑되는 논리적 폴더 구조로 구성됩니다.
 

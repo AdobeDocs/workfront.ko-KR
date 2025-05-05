@@ -65,7 +65,7 @@ ht-degree: 0%
 1. [!UICONTROL 포트폴리오]를 클릭합니다.
 1. **[!UICONTROL 필터]** 드롭다운 메뉴에서 다음을 선택합니다.
 
-   * **[!UICONTROL 내가 소유한 포트폴리오]**: [!UICONTROL Portfolio 관리자](으)로 지정된 포트폴리오 목록을 포함합니다.
+   * **[!UICONTROL 내가 소유한 포트폴리오]**: [!UICONTROL Portfolio 관리자] (으)로 지정된 포트폴리오 목록을 포함합니다.
    * **[!UICONTROL 모두]**: 적어도 볼 수 있는 액세스 권한이 있는 모든 포트폴리오를 포함합니다.
 
      포트폴리오 액세스에 대한 자세한 내용은 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하세요.
@@ -78,7 +78,7 @@ ht-degree: 0%
 
    * 포트폴리오가 [!UICONTROL 정시]인지 여부
    * 포트폴리오가 [!UICONTROL 예산에 있음]인지 여부
-   * [!UICONTROL 투자 수익률](ROI)
+   * [!UICONTROL 투자 수익률] (ROI)
    * 포트폴리오 [!UICONTROL 정렬]
    * 포트폴리오 [!UICONTROL 순 가치]
 
@@ -102,7 +102,7 @@ ht-degree: 0%
      필터 만들기에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
 
-1. 왼쪽 패널의 **[!UICONTROL 프로그램]**을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
+1. 왼쪽 패널의 **[!UICONTROL 프로그램]**&#x200B;을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
 프로그램에 대한 자세한 내용은 [프로그램 만들기 및 관리](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) 섹션을 참조하십시오.
 
 1. (선택 사항) 왼쪽 패널에서 **[!UICONTROL Portfolio 세부 정보]** 영역을 확장한 다음 **[!UICONTROL 개요]** 또는 **[!UICONTROL 사용자 지정 Forms]**&#x200B;를 클릭하여 포트폴리오에 대한 정보를 편집합니다.

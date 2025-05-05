@@ -80,8 +80,8 @@ Workfront은 다음 버전의 [!DNL Outlook]을(를) 지원합니다.
 
 * [!DNL Windows]의 [!DNL Outlook 2013] 이상
 * [!DNL Windows]의 [!DNL Outlook 2016] 이상
-* [!DNL Mac]의 [!DNL Outlook]([!DNL Microsoft 365])
-* [!DNL Windows]의 [!DNL Outlook]([!DNL Microsoft 365])
+* [!DNL Mac]의 [!DNL Outlook] ([!DNL Microsoft 365])
+* [!DNL Windows]의 [!DNL Outlook] ([!DNL Microsoft 365])
 * 웹에서 [!DNL Outlook]
 
 직접 연결을 사용하여 [!DNL Exchange Server] 또는 [!DNL Office 365]에 연결해야 합니다.
@@ -97,7 +97,7 @@ Workfront은 다음 버전의 [!DNL Outlook]을(를) 지원합니다.
 [!DNL Office 365] 또는 [!DNL Outlook.com]에 연결할 때 메일 서버 요구 사항이 기본적으로 충족됩니다. 그러나 [!DNL Exchange Server]의 On-Premise 설치에 연결된 경우 다음 요구 사항이 적용됩니다.
 
 * Workfront은 모든 [!DNL Exchange On-Premise] 서버를 지원합니다.
-* [!DNL Exchange Web Services](EWS)을(를) 사용하도록 설정해야 하며 인터넷에 노출되어야 합니다.
+* [!DNL Exchange Web Services] (EWS)을(를) 사용하도록 설정해야 하며 인터넷에 노출되어야 합니다.
 * 서버가 유효한 ID 토큰을 발급하려면 서버에 유효한 인증 인증서가 있어야 합니다. [!DNL Exchange Server]의 새 설치에 기본 인증 인증서가 포함되어 있습니다.
 
   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->

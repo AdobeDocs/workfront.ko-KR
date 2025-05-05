@@ -99,7 +99,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >계획에는 여러 가지 시나리오가 있을 수 있습니다. 계획의 충돌을 볼 때 [!DNL Workfront]은(는) 선택한 시나리오에서 현재 사용할 수 있는 리소스와 해당 시나리오의 이니셔티브에 필요한 리소스를 참조합니다. 시나리오에 대한 자세한 내용은  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)에서 [계획 시나리오 만들기 및 비교를 참조하십시오.
+   >계획에는 여러 가지 시나리오가 있을 수 있습니다. 계획의 충돌을 볼 때 [!DNL Workfront]은(는) 선택한 시나리오에서 현재 사용할 수 있는 리소스와 해당 시나리오의 이니셔티브에 필요한 리소스를 참조합니다. 시나리오에 대한 자세한 내용은  [!DNL Scenario Planner][&#128279;](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)에서 계획 시나리오 만들기 및 비교를 참조하십시오.
 
 1. **[!UICONTROL 충돌 표시]**&#x200B;가 활성화되어 있는지 확인하십시오. 기본적으로 활성화되어 있습니다.
 

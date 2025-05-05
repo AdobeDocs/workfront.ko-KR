@@ -45,7 +45,7 @@ ht-degree: 0%
 
 즉, 작업 중인 모든 항목을 한 곳에서 볼 수 있는 자체 대시보드가 있습니다. 또한 [!DNL Workfront Proof]을(를) 통해 파일을 보낼 수 있으며, 이를 증명으로 변환할 수 있습니다([!UICONTROL Enterprise] 및 [!UICONTROL Unlimited] 요금제만). 자세한 내용은 [파일 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)를 참조하십시오.
 
-또한 프리랜서가 검토 프로세스 중에 증명의 새 버전을 만들어야 하는 경우 증명에 명시적으로 [!UICONTROL 작성자](으)로 추가하여 검토 프로세스에 참여하고 필요할 때 새 버전을 만들 수 있습니다. 자세한 내용은 및 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
+또한 프리랜서가 검토 프로세스 중에 증명의 새 버전을 만들어야 하는 경우 증명에 명시적으로 [!UICONTROL 작성자] (으)로 추가하여 검토 프로세스에 참여하고 필요할 때 새 버전을 만들 수 있습니다. 자세한 내용은 및 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
 
 ![프리랜서_-_option_B.png](assets/freelancers_-_option_B.png)
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Dropzone] 사용
 
-이 옵션은 클라이언트와 프리랜서가 [!DNL Workfront Proof]에서 서로 보지 않도록 하려는 경우에 유용합니다. 프리랜서에게 [!UICONTROL Dropzone]에 대한 액세스 권한을 부여할 수 있습니다([!UICONTROL Enterprise] 및 [!UICONTROL Unlimited] 플랜에서만 사용 가능). 자세한 내용은 [Dropzone]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)을 참조하십시오.[!UICONTROL 
+이 옵션은 클라이언트와 프리랜서가 [!DNL Workfront Proof]에서 서로 보지 않도록 하려는 경우에 유용합니다. 프리랜서에게 [!UICONTROL Dropzone]에 대한 액세스 권한을 부여할 수 있습니다([!UICONTROL Enterprise] 및 [!UICONTROL Unlimited] 플랜에서만 사용 가능). 자세한 내용은 [Dropzone](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)을 참조하십시오.
 
 ![프리랜서_-_option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
 

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2017.3 Beta 2 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1}**
+관리자용 **1&rbrace;**
 
 * [단계 활성화를 통해 워크플로우에 대한 액세스 제한(Workfront Proof)](#restrict-access-to-workflows-by-stage-activation-workfront-proof)
 

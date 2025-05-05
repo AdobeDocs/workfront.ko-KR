@@ -23,7 +23,7 @@ ht-degree: 0%
 
 [!DNL Workfront] 및 [!DNL Jira]의 모든 사용자가 이 통합을 통해 혜택을 받을 수 있습니다. 가장 많이 사용하는 시스템에 대한 라이선스만 있으면 되고 두 시스템 모두에 대한 라이선스는 필요하지 않습니다.
 
-이 추가 기능은 [!DNL Jira] 소프트웨어의 [!UICONTROL Server] 및 [!UICONTROL OnDemand](또는 [!UICONTROL Cloud]) 버전 모두에서 사용할 수 있습니다.
+이 추가 기능은 [!DNL Jira] 소프트웨어의 [!UICONTROL Server] 및 [!UICONTROL OnDemand] (또는 [!UICONTROL Cloud]) 버전 모두에서 사용할 수 있습니다.
 
 현재 [!DNL Workfront for Jira]에서 지원하는 [!DNL Jira] 버전 목록은 [!DNL Atlassian Marketplace]의 [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview)을(를) 참조하십시오.
 
@@ -190,7 +190,7 @@ ht-degree: 0%
 
       <table style="table-layout:auto">
          <tr>
-              <td>만들 때 [!UICONTROL]</td>
+              <td>만들 때 </td>
               <td>지정한 필드는 Workfront에서 항목을 만들 때 연결된 Workfront과 [!DNL Jira]개 항목 간에 동기화됩니다.</td>
           </tr>
           <tr>
@@ -203,7 +203,7 @@ ht-degree: 0%
           </tr>
       </table>
 
-   1. [!DNL Workfront]에서 [!DNL Jira](으)로 필드를 동기화하려면 다음 중 하나를 선택하십시오.
+   1. [!DNL Workfront]에서 [!DNL Jira] (으)로 필드를 동기화하려면 다음 중 하나를 선택하십시오.
 
       <table style="table-layout:auto">
        <col>
@@ -252,7 +252,7 @@ ht-degree: 0%
        </tbody>
       </table>
 
-   1. [!DNL Jira]에서 [!DNL Workfront](으)로 다음 필드 중 하나를 동기화하려면 선택하십시오.
+   1. [!DNL Jira]에서 [!DNL Workfront] (으)로 다음 필드 중 하나를 동기화하려면 선택하십시오.
 
       <table style="table-layout:auto">
        <col>
@@ -336,7 +336,7 @@ ht-degree: 0%
 
 이 동작의 가장 일반적인 원인은 오류 &quot;[!UICONTROL 필드 &#39;duedate&#39;를 설정할 수 없기 때문입니다. 적절한 화면이 아니거나 알 수 없습니다.]&quot;
 
-이 오류는 &quot;[!UICONTROL 계획된 완료 일자]&quot;을(를) [!DNL Workfront]에서 [!DNL Jira](으)로 동기화하려고 시도하고 있음을 의미합니다. 이렇게 하려면 [!DNL Jira] 개체에 &quot;[!UICONTROL 기한]&quot;이라는 필드가 있는지 확인해야 합니다. 이 필드가 없으면 [!DNL Workfront]이(가) [!DNL Workfront]에서 계획된 완료 일자를 동기화할 수 없으며 트리거를 사용할 수 없게 됩니다.
+이 오류는 &quot;[!UICONTROL 계획된 완료 일자]&quot;을(를) [!DNL Workfront]에서 [!DNL Jira] (으)로 동기화하려고 시도하고 있음을 의미합니다. 이렇게 하려면 [!DNL Jira] 개체에 &quot;[!UICONTROL 기한]&quot;이라는 필드가 있는지 확인해야 합니다. 이 필드가 없으면 [!DNL Workfront]이(가) [!DNL Workfront]에서 계획된 완료 일자를 동기화할 수 없으며 트리거를 사용할 수 없게 됩니다.
 
 이 오류를 해결하려면 다음 중 하나를 시도해 보십시오.
 

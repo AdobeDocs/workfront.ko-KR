@@ -58,16 +58,16 @@ ht-degree: 0%
 * [!DNL Cinepak]
 * [!DNL Cirrus Logic AccuPak]
 * [!DNL Creative Labs Video Blaster Webcam]
-* [!DNL Creative YUV](CYUV)
+* [!DNL Creative YUV] (CYUV)
 * [!DNL Delphine Software International CIN] 비디오
 * [!UICONTROL 디럭스 페인트 애니메이션]
-* [!DNL DivX ;-)]([!DNL MPEG-4])
-* [!DNL DNxHD](VC3)
-* [!DNL DV](디지털 비디오)
+* [!DNL DivX ;-)] ([!DNL MPEG-4])
+* [!DNL DNxHD] (VC3)
+* [!DNL DV] (디지털 비디오)
 * [!DNL Feeble Files]/[!DNL ScummVM DXA]
 * [!DNL FFmpeg] 비디오 코덱 #1
 * [!DNL Flash Screen Video]
-* [!DNL Flash Video](FLV) / [!DNL Sorenson Spark] / [!DNL Sorenson H.263]
+* [!DNL Flash Video] (FLV) / [!DNL Sorenson Spark] / [!DNL Sorenson H.263]
 * [!DNL Forward Uncompressed Video Codec]
 * [!DNL fox motion video]
 * [!DNL FRAPS: Realtime Video Capture]
@@ -112,7 +112,7 @@ ht-degree: 0%
 * [!DNL MPEG-1] 비디오
 * [!DNL MPEG-2] 비디오
 * [!DNL MPEG-4 part 2]
-* [!DNL MPEG-4 part 2]([!DNL Microsoft]개 변형 1-3)
+* [!DNL MPEG-4 part 2] ([!DNL Microsoft]개 변형 1-3)
 * [!DNL MPEG-PES]
 * [!DNL MSS2]
 * [!DNL MSU Screen Capture Lossless Codec]
@@ -123,7 +123,7 @@ ht-degree: 0%
 * [!DNL On2 VP4]
 * [!DNL On2 VP5]
 * [!DNL On2 VP6]
-* [!DNL On2 VP6A]([!DNL alpha channel] 포함)
+* [!DNL On2 VP6A] ([!DNL alpha channel] 포함)
 * [!DNL On2 VP7]
 * [!DNL Power VideoWorks] 비디오
 * [!DNL ProRes 422]
@@ -139,7 +139,7 @@ ht-degree: 0%
 * [!DNL RealVideo 3.0]
 * [!DNL RealVideo 4.0]
 * [!DNL RL2] 비디오
-* [!DNL Schrödinger]([!DNL Schroedinger]), [!DNL Dirac]
+* [!DNL Schrödinger] ([!DNL Schroedinger]), [!DNL Dirac]
 * [!DNL Sierra VMD] 비디오
 * [!DNL sif1 alpha4]
 * [!DNL Smacker] 비디오
@@ -195,9 +195,9 @@ ht-degree: 0%
 ## 지원되지 않는 코덱
 
 * [!DNL Apple Intermediate]
-* [!DNL ProRes 4444]([!DNL ProRes 422]개 지원됨)
+* [!DNL ProRes 4444] ([!DNL ProRes 422]개 지원됨)
 * [!DNL HDV 720p60]
 * [!DNL Go2Meeting3 (G2M3)]
 * [!DNL Go2Meeting4 (G2M4)]
-* [!DNL ER AAC LD](오류 복원성, [!DNL AAC]의 저지연 변형)
+* [!DNL ER AAC LD] (오류 복원성, [!DNL AAC]의 저지연 변형)
 * [!DNL REDCODE]

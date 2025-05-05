@@ -40,7 +40,7 @@ ht-degree: 0%
 이미 구독한 후 상태 사이트에 가입하거나 구독을 관리하려면 다음을 수행하십시오.
 
 1. [status.adobe.com](https://status.adobe.com/)(으)로 이동합니다.
-1. 상태 표시줄에서 **[!UICONTROL 구독 관리]**를 선택합니다.
+1. 상태 표시줄에서 **[!UICONTROL 구독 관리]**&#x200B;를 선택합니다.
    ![](assets/manage-subs.png)
 1. 기존 계정이 있는 경우 계정에 로그인하고, 없는 경우 새 계정을 만듭니다.
 1. **[!UICONTROL 구독 만들기]** 단추를 클릭합니다.
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 취약성 연구자와 악용 작성자는 프로젝트 이름을 내부적으로 지정하여 참조하기 쉽도록 합니다(예: [!DNL ShellShock], [!DNL Heartbleed], [!DNL POODLE] 및 [!DNL WannaCry]/[!DNL Petya]). 취약점이 광범위하게 영향을 미칠 때 이러한 이름은 취약점이 공개될 때 공개됩니다.
 
-### [!DNL Workfront?](으)로 식별된 명명된 취약성을 보려면 어떻게 합니까? {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
+### [!DNL Workfront?] (으)로 식별된 명명된 취약성을 보려면 어떻게 합니까? {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
 1. [status.adobe.com](https://status.adobe.com/)(으)로 이동한 다음 **[!UICONTROL 보안]**&#x200B;을 클릭합니다.
 

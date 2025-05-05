@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## [!DNL Workfront Proof]과(와) [!DNL Basecamp] 통합 사용
 
- [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [증명 권한 프로필 또는  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [증명 권한 프로필[계정 설정](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)에서 전체 계정에 대한 [!DNL Basecamp] 통합을 설정할 수 있습니다.
+ [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [증명 권한 프로필 또는  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 증명 권한 프로필[계정 설정](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)에서 전체 계정에 대한 [!DNL Basecamp] 통합을 설정할 수 있습니다.
 
 1. [!UICONTROL Basecamp]에서 다음 정보를 수집하십시오.
 

@@ -55,4 +55,4 @@ ht-degree: 0%
 
 개인 설정에 저장된 설정은 사용자가 만든 모든 증명에 적용되지만 새 증명을 만들거나 증명을 수정할 때 [에서 증명 세부 정보 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)에 설명된 대로 재정의할 수 있습니다.
 
-[에서 증명 설정 구성[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)에 설명된 대로 개인 증명 설정을 수정하여 파일 다운로드를 비활성화할 수 있습니다.
+[에서 증명 설정 구성[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)에 설명된 대로 개인 증명 설정을 수정하여 파일 다운로드를 비활성화할 수 있습니다.

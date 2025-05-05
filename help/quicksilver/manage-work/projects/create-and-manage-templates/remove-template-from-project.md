@@ -88,4 +88,4 @@ ht-degree: 1%
 
      보기 만들기에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
-1. 2단계에서 템플릿에서 만든 작업을 모두 선택한 다음 **삭제 아이콘****> 예, 삭제**를 클릭합니다. 자세한 내용은 [작업 삭제](../../../manage-work/tasks/manage-tasks/delete-tasks.md)를 참조하십시오.
+1. 2단계에서 템플릿에서 만든 작업을 모두 선택한 다음 **삭제 아이콘**&#x200B;**> 예, 삭제**&#x200B;를 클릭합니다. 자세한 내용은 [작업 삭제](../../../manage-work/tasks/manage-tasks/delete-tasks.md)를 참조하십시오.

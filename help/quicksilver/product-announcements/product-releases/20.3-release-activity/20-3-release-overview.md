@@ -150,32 +150,32 @@ For specific release dates and times for each cluster, see the
 >다음 항목이 있어야 합니다.
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront 플랜</a>*</p> </td> 
-&gt;   <td>비즈니스 이상</td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>라이센스 유형*</p> </td> 
-&gt;   <td> <p>검토 이상. 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">제품</td> 
-&gt;   <td>Workfront 시나리오 플래너 <p>Workfront 시나리오 플래너에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">시나리오 플래너 개요</a>를 참조하십시오.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"><strong>액세스 수준*</strong> </td> 
-&gt;   <td> <p>시나리오 플래너에 대한 액세스 권한 이상 보기</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"> <p><strong>개체 권한</strong> </p> </td> 
-&gt;   <td> <p>플랜에 대한 권한 이상 보기</p> <p>플랜에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">시나리오 플래너의 플랜에 대한 액세스 요청</a>을 참조하십시오.</p> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
-&gt;*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront 플랜</a>*</p> </td> 
+>&gt;   <td>비즈니스 이상</td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>라이센스 유형*</p> </td> 
+>&gt;   <td> <p>검토 이상. 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">제품</td> 
+>&gt;   <td>Workfront 시나리오 플래너 <p>Workfront 시나리오 플래너에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">시나리오 플래너 개요</a>를 참조하십시오.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"><strong>액세스 수준*</strong> </td> 
+>&gt;   <td> <p>시나리오 플래너에 대한 액세스 권한 이상 보기</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"> <p><strong>개체 권한</strong> </p> </td> 
+>&gt;   <td> <p>플랜에 대한 권한 이상 보기</p> <p>플랜에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">시나리오 플래너의 플랜에 대한 액세스 요청</a>을 참조하십시오.</p> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
+>&gt;*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
  
 

@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# 칸반 보드에서 [!UICONTROL 진행 중인 작업](WIP) 제한 관리
+# 칸반 보드에서 [!UICONTROL 진행 중인 작업] (WIP) 제한 관리
 
-[Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 문서에 설명된 대로 [!UICONTROL Kanban] 보드의 각 열에 대해 [!UICONTROL 진행 중인 작업](WIP) 제한을 구성할 수 있습니다.
+[Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 문서에 설명된 대로 [!UICONTROL Kanban] 보드의 각 열에 대해 [!UICONTROL 진행 중인 작업] (WIP) 제한을 구성할 수 있습니다.
 
 WIP 제한은 단순히 시각적 경고일 뿐 팀이 각 상태 열에 사용자가 설정한 제한보다 더 많은 항목을 보유하는 것을 제한하지 않습니다.
 
@@ -48,14 +48,14 @@ WIP 제한은 단순히 시각적 경고일 뿐 팀이 각 상태 열에 사용�
 
 +++
 
-## [!UICONTROL Kanban] 보드에서 [!UICONTROL 진행 중인 작업](WIP) 제한 보기
+## [!UICONTROL Kanban] 보드에서 [!UICONTROL 진행 중인 작업] (WIP) 제한 보기
 
 애자일 팀에 대해 WIP 제한이 구성된 경우 Kanban 보드의 각 열 오른쪽 상단 모서리에 표시됩니다([!UICONTROL 완료] 열 제외).
 
 [!UICONTROL Kanban] 보드의 열에 대한 제한을 초과할 때마다 제한이 빨간색으로 강조 표시되고 메시지가 표시됩니다.
 ![WIP 제한](assets/kanban-wip.png)
 
-## [!UICONTROL Kanban] 보드에서 [!UICONTROL 진행 중인 작업](WIP) 제한 업데이트
+## [!UICONTROL Kanban] 보드에서 [!UICONTROL 진행 중인 작업] (WIP) 제한 업데이트
 
 [!UICONTROL 편집] 권한이 있는 팀원은 [!UICONTROL Kanban] 보드에서 직접 각 상태 열에 대한 WIP 제한을 업데이트할 수 있습니다. 또는 문서 [Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)에 설명된 대로 WIP 제한을 업데이트할 수 있습니다.
 

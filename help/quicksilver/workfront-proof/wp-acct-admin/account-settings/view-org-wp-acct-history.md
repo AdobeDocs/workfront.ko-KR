@@ -27,5 +27,5 @@ ht-degree: 0%
    * **사용 통계**: 플랜 이름, 청구 기간 시작 및 종료 날짜, 사용된 증명 수 및 사용된 총 저장소 등 현재 및 가장 최근의 청구 기간에 대한 세부 정보.
    * **[!UICONTROL 계정 변경] 로그**: 작업의 날짜 및 설명과 작업을 수행한 사용자를 포함하여 계정의 최근 변경 사항입니다.
 
-1. 계정 변경 사항의 전체 목록을 보려면 **[!UICONTROL 사용 통계]** 섹션에서 **전체 목록 보기**를 클릭하십시오.
-[작업 로그] 페이지가 표시됩니다. 자세한 내용은 [활동 감사 추적 이해 [!DNL Workfront Proof] 2}를 참조하십시오.](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+1. 계정 변경 사항의 전체 목록을 보려면 **[!UICONTROL 사용 통계]** 섹션에서 **전체 목록 보기**&#x200B;를 클릭하십시오.
+[작업 로그] 페이지가 표시됩니다. 자세한 내용은 [활동 감사 추적 이해 [!DNL Workfront Proof] 2&rbrace;를 참조하십시오.](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

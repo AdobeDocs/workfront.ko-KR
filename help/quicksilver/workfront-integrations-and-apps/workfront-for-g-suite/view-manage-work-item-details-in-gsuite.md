@@ -53,9 +53,9 @@ ht-degree: 0%
 ## [!DNL Google Workspace]에서 작업 항목 세부 정보 보기 및 관리
 
 1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![Workfront 아이콘](assets/wf-lion-icon.png)을 클릭하십시오.
-1.  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)의 [Access [!DNL Adobe Workfront] [!UICONTROL Home] 콘텐츠에 설명된 대로 [!DNL Google Workspace] 내의 [!DNL Workfront] 작업 또는 문제로 이동합니다.
+1. [!DNL Google Workspace][&#128279;](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)의 Access [!DNL Adobe Workfront] [!UICONTROL Home] 콘텐츠에 설명된 대로 [!DNL Google Workspace] 내의 [!DNL Workfront] 작업 또는 문제로 이동합니다.
 
-   작업 또는 문제를 선택하면 **[!UICONTROL 세부 정보]** 탭이 열립니다. **[!UICONTROL 세부 정보]** 탭 위의 영역에는 상위 개체의 이름, 작업 또는 문제의 이름, [!UICONTROL 기한](작업인 경우) 또는 [!UICONTROL 우선 순위 날짜](문제인 경우)가 표시됩니다.
+   작업 또는 문제를 선택하면 **[!UICONTROL 세부 정보]** 탭이 열립니다. **[!UICONTROL 세부 정보]** 탭 위의 영역에는 상위 개체의 이름, 작업 또는 문제의 이름, [!UICONTROL 기한] (작업인 경우) 또는 [!UICONTROL 우선 순위 날짜] (문제인 경우)가 표시됩니다.
 
 
    [!DNL Google Workspace]을(를) 종료하지 않고 이 탭에서 다음을 포함한 다양한 작업을 수행할 수 있습니다.
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 액세스 요청을 승인]** 또는 **[!UICONTROL 무시]**&#x200B;합니다.
 
-1. (선택 사항) [!DNL Workfront]의 현재 작업 항목으로 이동하려면 [!DNL Workfront]]**의**[!UICONTROL &#x200B;보기를 클릭합니다.
+1. (선택 사항) [!DNL Workfront]의 현재 작업 항목으로 이동하려면 [!DNL Workfront]&#x200B;**의**&#x200B;보기를 클릭합니다.
 
 * [!DNL Workfront for Google Workspace]에서 [!UICONTROL 업데이트] 탭을 사용하는 방법에 대한 자세한 내용은 [개체 업데이트 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)를 참조하십시오. [!DNL Adobe Workfront] 
 * [!DNL Workfront for Google Workspace]에서 [!UICONTROL 문서] 탭을 사용하는 방법에 대한 자세한 내용은 [[!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)에서 문서 보기 및 관리를 참조하십시오.

@@ -75,5 +75,5 @@ ht-degree: 0%
 1. **[!UICONTROL 내보내기 파일 설정 설정]** 대화 상자를 연 다음 위에서 선택한 자산 유형에 따라 원하는 내보내기 옵션을 구성합니다.
 
    ![파일 내보내기 설정](assets/file-export-settings.png)
-1. **[!UICONTROL 업로드]**를 클릭합니다.
+1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
 플러그 인 및 데스크톱 앱의 [!UICONTROL 문서] 영역에 문서가 표시됩니다.

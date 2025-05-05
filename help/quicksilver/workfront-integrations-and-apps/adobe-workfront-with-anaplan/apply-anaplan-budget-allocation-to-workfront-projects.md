@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront] 프로젝트에 [!DNL Anaplan] 예산 할당 적용
 
-이 통합 시나리오는 [!DNL Anaplan]에서 수행된 모든 예산 할당을 다시 [!DNL Workfront](으)로 동기화합니다. 시나리오에서는 연결된 모든 캠페인 예산 항목을 가져온 다음 예산 값이 변경된 경우 예산 값을 연결된 [!DNL Workfront] 프로젝트에 전달합니다.
+이 통합 시나리오는 [!DNL Anaplan]에서 수행된 모든 예산 할당을 다시 [!DNL Workfront] (으)로 동기화합니다. 시나리오에서는 연결된 모든 캠페인 예산 항목을 가져온 다음 예산 값이 변경된 경우 예산 값을 연결된 [!DNL Workfront] 프로젝트에 전달합니다.
 
 >[!IMPORTANT]
 >
@@ -98,7 +98,7 @@ ht-degree: 0%
 
    6. [!UICONTROL 브랜드]
 
-  [!UICONTROL [!DNL Workfront] 프로젝트 GUID]이(가) 있는 항목과 예산 할당을 [!DNL Workfront](으)로 전송해야 한다는 일부 표시기를 표시하려면 보기를 필터링해야 합니다.
+  [!UICONTROL [!DNL Workfront] 프로젝트 GUID]이(가) 있는 항목과 예산 할당을 [!DNL Workfront] (으)로 전송해야 한다는 일부 표시기를 표시하려면 보기를 필터링해야 합니다.
 
 이러한 작업에 대한 지침은 [!DNL Anaplan] 설명서를 참조하십시오.
 
@@ -139,7 +139,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL [!DNL Anaplan] 보기 이름]</td> 
-      <td> <p>[!DNL Workfront](으)로 캠페인 예산을 전송할 준비가 된 내용이 포함된 보기의 이름입니다.</p> <p>(예: [!UICONTROL Campaigns.Load Campaigns to [!DNL Adobe Workfront]]) </p> </td> 
+      <td> <p>[!DNL Workfront] (으)로 캠페인 예산을 전송할 준비가 된 내용이 포함된 보기의 이름입니다.</p> <p>(예: [!UICONTROL Campaigns.Load Campaigns to [!DNL Adobe Workfront]]) </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 이 템플릿으로 표시되는 워크플로우를 완료하려면 다음 추가 템플릿도 배포해야 합니다.
 
-* [[!UICONTROL 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기 [!DNL Adobe Workfront] 3}]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [[!UICONTROL 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기 [!DNL Adobe Workfront] 3&rbrace;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
 
 지출 최적화를 위한 추가 시나리오는 다음과 같습니다.
 

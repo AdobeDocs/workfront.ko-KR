@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 받은 알림 이메일의 링크를 클릭합니다.
 1. [!DNL Workfront Proof]에 로그인합니다.\
-     [!DNL  Workfront Proof]이(가) 폴더 세부 정보 페이지를 표시합니다. 자세한 내용은 [폴더 및 해당 컨텐츠 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)를 참조하십시오.
+     [!DNL &#x200B; Workfront Proof]이(가) 폴더 세부 정보 페이지를 표시합니다. 자세한 내용은 [폴더 및 해당 컨텐츠 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)를 참조하십시오.
 
 ## 하위 폴더 공유 정보
 

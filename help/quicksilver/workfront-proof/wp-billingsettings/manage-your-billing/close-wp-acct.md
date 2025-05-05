@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. [!UICONTROL 설정] 메뉴를 열고 **[!UICONTROL 청구]**(1)를 선택하여 계정에서 [!UICONTROL 청구] 페이지를 엽니다.
 
-   청구 페이지에 대한 자세한 내용은 [청구 페이지 증명 [!DNL Workfront] 2}을 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+   청구 페이지에 대한 자세한 내용은 [청구 페이지 증명 [!DNL Workfront] 2&rbrace;을 참조하세요.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
    ![청구 설정](assets/upgradesdowngrades-billing-settings-350x168.png)
 

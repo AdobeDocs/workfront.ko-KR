@@ -80,7 +80,7 @@ ht-degree: 0%
    * [!UICONTROL 계획된 완료 일자]
    * [!UICONTROL 상태]
    * [!UICONTROL 할당 대상]
-   * [!UICONTROL 프로젝트 소유자](프로젝트만 해당)
+   * [!UICONTROL 프로젝트 소유자] (프로젝트만 해당)
    * 사용자 정의 양식 데이터
 
 ## 문서 세부 정보 보기
@@ -99,7 +99,7 @@ ht-degree: 0%
 
    * [!UICONTROL 설명]
    * [!UICONTROL 파일 형식]
-   * [!UICONTROL 증명 상태](증명에만 사용 가능)
+   * [!UICONTROL 증명 상태] (증명에만 사용 가능)
    * [!UICONTROL 버전]
    * [!UICONTROL 크기]
    * 사용자 정의 양식 데이터

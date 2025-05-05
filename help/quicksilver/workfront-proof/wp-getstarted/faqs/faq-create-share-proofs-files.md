@@ -49,7 +49,7 @@ ht-degree: 1%
 
 정적 파일, 오디오 파일, 비디오 파일 및 URL에서 증명을 만들 수 있습니다( 참조).
 
-계정에서 증명을 만들려면 올바른 권한 프로필을 가진 사용자여야 합니다( [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [[!UICONTROL 증명 권한 프로필] 참조).
+계정에서 증명을 만들려면 올바른 권한 프로필을 가진 사용자여야 합니다( [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)의 [!UICONTROL 증명 권한 프로필] 참조).
 
 여러 파일을 동시에 업로드하는 경우 하나의 이메일을 사용하여 동일한 검토자 그룹에 보낼 수 있는 여러 증명을 만듭니다. 조직에 [!UICONTROL Enterprise] 또는 [!UICONTROL Unlimited] 계정이 있는 경우 파일을 하나의 증명으로 결합할 수 있습니다([다중 페이지 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) 참조).
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 증명 역할은 검토자가 증명에서 수행해야 하는 작업을 정의합니다. 증명을 만들 때 검토자가 댓글을 달거나 결정을 내릴 수 있도록 할지 여부에 따라 검토자에게 사용할 수 있는 역할 옵션이 달라집니다. 자세한 내용은 [증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)를 참조하십시오.
 
-이메일 경고는 증명의 진행 상황에 대한 검토자를 업데이트합니다(새 증명 및 지연 증명 알림과 다름). 증명에 대한 각 검토자의 역할에 따라 검토자마다 다른 옵션을 선택할 수 있습니다. 자세한 내용은 [자동화된 워크플로를 사용하여 고급 증명 만들기]](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)를 참조하십시오.[!UICONTROL 
+이메일 경고는 증명의 진행 상황에 대한 검토자를 업데이트합니다(새 증명 및 지연 증명 알림과 다름). 증명에 대한 각 검토자의 역할에 따라 검토자마다 다른 옵션을 선택할 수 있습니다. 자세한 내용은 [자동화된 워크플로를 사용하여 고급 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)를 참조하십시오.
 
 ## 여러 파일에서 증명을 만들 수 있습니까?
 

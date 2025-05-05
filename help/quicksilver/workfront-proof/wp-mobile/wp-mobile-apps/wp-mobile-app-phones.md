@@ -133,7 +133,7 @@ iOS 장치의 경우 새 앱을 설치하기 전에 iOS 장치의 이전 [!DNL W
 
    ![tap_the_add_comment_button.png](assets/tap-the-add-comment-button-350x541.png)
 
-1. [!UICONTROL 패닝 모드](2), [!UICONTROL 사각형 도구](3), [!UICONTROL 자유 곡선 그리기](4) 또는 [!UICONTROL 화살표] 도구(5) 중에서 선택합니다.
+1. [!UICONTROL 패닝 모드] (2), [!UICONTROL 사각형 도구] (3), [!UICONTROL 자유 곡선 그리기] (4) 또는 [!UICONTROL 화살표] 도구(5) 중에서 선택합니다.
 
    마크업의 선 색상을 변경할 수도 있습니다(6).
 

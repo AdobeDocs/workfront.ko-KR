@@ -158,7 +158,7 @@ Salesforce용 [!DNL Adobe Workfront]을(를) 설치한 후 [!DNL Salesforce] [!U
    1. **[!UICONTROL Type]** 드롭다운 메뉴에서 **[!UICONTROL Type]**&#x200B;을(를) 선택합니다.
 
       **계정
-**2}에 지정된 **[!UICONTROL Type]**(으)로 지정되었으며 [!DNL Workfront]에 **[!UICONTROL Project]**&#x200B;이(가) 만들어집니다.[!DNL Salesforce]
+**2&rbrace;에 지정된 &#x200B;** [!UICONTROL Type]&#x200B;**(으)로 지정되었으며 [!DNL Workfront]에 &#x200B;** [!UICONTROL Project]**&#x200B;이(가) 만들어집니다.[!DNL Salesforce]
 
       필수 필드입니다.
 

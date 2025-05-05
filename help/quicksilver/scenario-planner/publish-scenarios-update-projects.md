@@ -249,7 +249,7 @@ ht-degree: 0%
      >   
      >   
      >   * 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에서 영역을 추가하거나 제거하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 보기 사용자 지정](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오.
-     >   * [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL 개요] 영역에서 정보를 보는 방법에 대한 자세한 내용은 프로젝트 [!UICONTROL 개요] 영역](../manage-work/projects/manage-projects/understand-project-overview-area.md)에서 [[!UICONTROL 관리] 정보를 참조하십시오.
+     >   * [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL 개요] 영역에서 정보를 보는 방법에 대한 자세한 내용은 프로젝트 [!UICONTROL 개요] 영역[&#128279;](../manage-work/projects/manage-projects/understand-project-overview-area.md)에서 [!UICONTROL 관리] 정보를 참조하십시오.
      >   
      >
 
@@ -263,7 +263,7 @@ ht-degree: 0%
 
    * **프로젝트의 [!UICONTROL 비즈니스 사례]에 있는 [!UICONTROL 리소스 예산 편성] 영역**: [!DNL Scenario Planner] 정보를 사용하여 프로젝트 리소스를 관리하는 새로운 옵션이 프로젝트의 [!UICONTROL 비즈니스 사례]에 있는 [!UICONTROL 리소스 예산 편성] 영역에 추가되었습니다.
 
-     자세한 내용은  [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)을(를) 사용하여 [!UICONTROL 비즈니스 사례]의 [예산 리소스를 참조하십시오.
+     자세한 내용은  [!DNL Scenario Planner][&#128279;](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)을(를) 사용하여 [!UICONTROL 비즈니스 사례]의 예산 리소스를 참조하십시오.
 
      ![비즈니스 사례의 시나리오 플래너](assets/sp-in-business-case-selected-350x110.png)
 

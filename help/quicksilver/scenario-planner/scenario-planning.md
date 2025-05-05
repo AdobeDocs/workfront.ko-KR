@@ -19,18 +19,18 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [개요 [!DNL Scenario Planner] 2}](../scenario-planner/scenario-planner-overview.md)
+* [개요 [!DNL Scenario Planner] 2&rbrace;](../scenario-planner/scenario-planner-overview.md)
 * [시작 [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
-*  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)을(를) 사용하려면 [액세스 권한이 필요합니다.
-*  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)의 [계획 개요
+* [!DNL Scenario Planner][&#128279;](../scenario-planner/access-needed-to-use-sp.md)을(를) 사용하려면 액세스 권한이 필요합니다.
+* [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)의 계획 개요
 * [다음 위치에서 계획 만들기 및 편집 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)
 * [ [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)에서 계획 시나리오 만들기 및 비교
-*  [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)에서 [계획 삭제
-*  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)의 [이니셔티브 개요
+* [!DNL Scenario Planner][&#128279;](../scenario-planner/delete-plans.md)에서 계획 삭제
+* [!DNL Scenario Planner][&#128279;](../scenario-planner/initiatives-overview.md)의 이니셔티브 개요
 * [이니셔티브 만들기 및 편집 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)
 * [이니셔티브 복사 위치: [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md)
-*  [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)에서 [이니셔티브 우선 순위 업데이트
-*  [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)에서 [이니셔티브 삭제
+* [!DNL Scenario Planner][&#128279;](../scenario-planner/prioritize-initiatives.md)에서 이니셔티브 우선 순위 업데이트
+* [!DNL Scenario Planner][&#128279;](../scenario-planner/delete-initiatives.md)에서 이니셔티브 삭제
 * [ [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)에서 이니셔티브 충돌 해결
 * [플랜에 프로젝트 가져오기 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
 * [플랜에 대한 액세스 요청 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)

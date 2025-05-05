@@ -118,7 +118,7 @@ ht-degree: 1%
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>[!UICONTROL이 활성 상태입니다]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL 이 활성 상태입니다]</strong> </td> 
       <td>이 팀을 활성화하려면 이 옵션을 선택하십시오. 비활성 팀은 작업에 할당할 다른 사용자에게 표시되지 않습니다. </td> 
      </tr>
 

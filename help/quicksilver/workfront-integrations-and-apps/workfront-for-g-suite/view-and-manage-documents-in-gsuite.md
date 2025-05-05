@@ -53,7 +53,7 @@ ht-degree: 0%
 ## [!DNL Google Workspace]에서 [!DNL Workfront]개 문서 보기 및 관리
 
 1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![Workfront 아이콘](assets/wf-lion-icon.png)을 클릭하십시오.
-1.  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)의 [Access [!DNL Adobe Workfront] [!UICONTROL Home] 콘텐츠에 설명된 대로 [!DNL Google Workspace] 내의 [!DNL Workfront] 작업 또는 문제로 이동합니다.
+1. [!DNL Google Workspace][&#128279;](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)의 Access [!DNL Adobe Workfront] [!UICONTROL Home] 콘텐츠에 설명된 대로 [!DNL Google Workspace] 내의 [!DNL Workfront] 작업 또는 문제로 이동합니다.
 1. **[!UICONTROL 문서]**&#x200B;를 클릭합니다.
 
    숫자는 첨부 파일 및 클라우드에 저장된 공유 파일로 작업 또는 문제에 업로드된 문서 수를 나타냅니다.
@@ -78,5 +78,5 @@ ht-degree: 0%
 
 [!DNL Workfront] 알림 전자 메일을 받으면 [!DNL Google Workspace]의 [!DNL Workfront] 개체와 관련된 문서(및 기타 세부 정보)를 보고 관리할 수도 있습니다. 자세한 내용은 [관리 [!DNL Adobe Workfront] 알림 세부 정보 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)를 참조하세요.
 
-* [!DNL Workfront for Google Workspace]에서 [!UICONTROL 세부 정보] 탭을 사용하는 방법에 대한 자세한 내용은  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)에서 [개체 세부 정보 보기 및 관리 [!DNL Adobe Workfront] 를 참조하십시오.
+* [!DNL Workfront for Google Workspace]에서 [!UICONTROL 세부 정보] 탭을 사용하는 방법에 대한 자세한 내용은  [!DNL Google Workspace][&#128279;](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)에서 개체 세부 정보 보기 및 관리 [!DNL Adobe Workfront] 를 참조하십시오.
 * [!DNL Workfront for Google Workspace]에서 [!UICONTROL 업데이트] 탭을 사용하는 방법에 대한 자세한 내용은 [개체 업데이트 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)를 참조하십시오. [!DNL Adobe Workfront] 

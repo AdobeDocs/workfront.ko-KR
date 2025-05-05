@@ -64,7 +64,7 @@ ht-degree: 0%
 
 프로젝트의 순위를 확인하려면 다음을 수행합니다.
 
-1. [!UICONTROL Portfolio 최적화 도구](으)로 이동합니다.
+1. [!UICONTROL Portfolio 최적화 도구] (으)로 이동합니다.
 1. 등급 아이콘 위로 마우스를 가져가면 프로젝트에 대한 포트폴리오 최적화 도구 점수를 볼 수 있습니다.
 
 ![ranking_icon_in_portfolio_optimizer_new.png](assets/ranking-icon-in-portfolio-optimizer-new-350x160.png)

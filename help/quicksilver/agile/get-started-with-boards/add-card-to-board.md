@@ -85,7 +85,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 상태]</strong> </td> 
-      <td>카드 상태를 선택합니다. 카드 상단에서 <strong>[!UICONTROL Mark Complete]</strong>을(를) 클릭하면 상태가 자동으로 [!UICONTROL Complete](으)로 변경됩니다.</td> 
+      <td>카드 상태를 선택합니다. 카드 상단에서 <strong>[!UICONTROL Mark Complete]</strong>을(를) 클릭하면 상태가 자동으로 [!UICONTROL Complete] (으)로 변경됩니다.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 기한]</strong></td> 

@@ -291,7 +291,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 활성 프로젝트 상태]</td> 
-   <td>이는 프로그램에 있는 활성 프로젝트의 [!UICONTROL Condition]이 Target에 대한 [!UICONTROL], 위험 상태 [!UICONTROL] 또는 문제 발생 [!UICONTROL]로 설정된 비율을 계산한 것입니다.</td> 
+   <td>이는 프로그램에 있는 활성 프로젝트의 [!UICONTROL Condition]이 Target에 대한 , 위험 상태  또는 문제 발생 로 설정된 비율을 계산한 것입니다.</td> 
   </tr> 
  </tbody> 
 </table>

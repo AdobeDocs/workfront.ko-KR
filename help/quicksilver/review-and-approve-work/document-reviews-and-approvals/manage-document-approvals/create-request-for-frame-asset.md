@@ -81,7 +81,7 @@ You must have the following access to perform the steps in this article:
 
 ## 문서 세부 정보 페이지에서 검토 또는 승인 요청 만들기
 
-1. 문서를 마우스로 가리킨 다음 **문서 세부 정보**를 클릭합니다.
+1. 문서를 마우스로 가리킨 다음 **문서 세부 정보**&#x200B;를 클릭합니다.
    ![문서 세부 정보](assets/doc-details.png)
 
 1. 문서 이름 근처에서 승인을 생성할 문서 버전을 선택합니다. 기본적으로 최신 버전이 선택됩니다.

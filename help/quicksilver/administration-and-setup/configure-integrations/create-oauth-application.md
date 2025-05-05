@@ -130,7 +130,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
 {{step-1-to-setup}}
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth2 응용 프로그램]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 앱 통합 만들기]**를 클릭합니다.
+1. **[!UICONTROL 앱 통합 만들기]**&#x200B;를 클릭합니다.
 **새 OAuth2 응용 프로그램** 상자가 표시됩니다.
 1. **새 OAuth2 응용 프로그램** 상자에서 **[!UICONTROL 컴퓨터 대 컴퓨터 응용 프로그램]**&#x200B;을 선택합니다.
 1. 새 응용 프로그램의 이름을 입력하십시오(예: &quot;[!DNL Workfront] for ClientApp&quot;).
@@ -215,7 +215,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 리디렉션 URL]</td> 
-      <td>사용자가 [!DNL Workfront](으)로 인증되면 이 경로로 리디렉션됩니다.</td> 
+      <td>사용자가 [!DNL Workfront] (으)로 인증되면 이 경로로 리디렉션됩니다.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 새로 고침 토큰 순환]</td> 

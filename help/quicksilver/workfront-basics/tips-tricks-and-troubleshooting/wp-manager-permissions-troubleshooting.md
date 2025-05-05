@@ -36,8 +36,8 @@ ht-degree: 0%
    **해결 방법:** [!UICONTROL 관리자] 권한이 있는 사용자는 다음 두 가지 경우에 [!UICONTROL 관리자] 권한이 있는 사용자가 다른 사용자의 증명에 버전을 제출할 수 있습니다.
 
    * 증명에 명시적으로 추가됨
-   * 증명에서 [!UICONTROL 작성자](증명 역할)로 설정
+   * 증명에서 [!UICONTROL 작성자] (증명 역할)로 설정
 
 * **문제:** [!UICONTROL 관리자] 권한이 있는 사용자가 소유하지 않았거나 만들지 않은 증명에서 다른 사용자의 의견을 편집할 수 없습니다.\
-   **해결 방법:** [!UICONTROL 관리자] 권한이 있는 사용자가 증명을 소유하고 있지 않지만 댓글을 편집할 수 있는 경우 [!UICONTROL 작성자](또는 [!UICONTROL 중재자])로 추가하세요.\
+   **해결 방법:** [!UICONTROL 관리자] 권한이 있는 사용자가 증명을 소유하고 있지 않지만 댓글을 편집할 수 있는 경우 [!UICONTROL 작성자] (또는 [!UICONTROL 중재자])로 추가하세요.\
    이 세 가지 유형의 권한은 [!DNL Workfront]에서 [!UICONTROL Planner], [!UICONTROL Worker], [!UICONTROL Requester], [!UICONTROL Reviewer] 유형 라이선스에 대해 사용할 수 있습니다. [!DNL Workfront]의 시스템 관리자 또는 사용자 관리자는 사용자의 프로필을 편집하고 [!DNL Workfront Proof] 권한을 조정할 수 있습니다.

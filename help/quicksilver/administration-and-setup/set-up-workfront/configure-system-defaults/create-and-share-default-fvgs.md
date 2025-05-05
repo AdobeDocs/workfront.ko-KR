@@ -81,7 +81,7 @@ ht-degree: 1%
    사용 가능한 옵션에 대한 자세한 내용은 다음 문서 중 하나를 참조하십시오.
 
    * [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)의 [보기 개요
+   * [!UICONTROL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)의 보기 개요
    * [[!UICONTROL Adobe Workfront]의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 1. 왼쪽 아래 모서리 근처에 있는 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

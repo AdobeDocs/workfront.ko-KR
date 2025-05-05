@@ -67,7 +67,7 @@ ht-degree: 0%
 
 플랜을 작성하거나 다른 사용자가 플랜을 공유해야 해당 플랜 내에서 이니셔티브를 작성할 수 있습니다. 계획 만들기에 대한 자세한 내용은 [계획 만들기 및 편집 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)을 참조하세요.
 
-이니셔티브가 무엇인지에 대한 자세한 내용은  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)에서 [이니셔티브 개요 를 참조하십시오.
+이니셔티브가 무엇인지에 대한 자세한 내용은  [!DNL Scenario Planner][&#128279;](../scenario-planner/initiatives-overview.md)에서 이니셔티브 개요 를 참조하십시오.
 
 ## 이니셔티브 만들기
 

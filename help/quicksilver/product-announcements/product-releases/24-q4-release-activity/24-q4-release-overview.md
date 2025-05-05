@@ -63,7 +63,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 환경 프로모션에서 액세스 수준을 사용할 수 있습니다</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>환경 프로모션 기능의 기능을 확장하기 위해 액세스 수준을 포함하는 기능이 추가되었습니다. 이제 샌드박스 환경에서 액세스 수준을 구성한 다음 해당 액세스 수준을 프로덕션 환경으로 승격할 수 있습니다.</p>
                 </td>
                 <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -80,7 +80,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">사용자 정의 양식의 카운터가 필드 수를 표시합니다</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>사용자 정의 양식은 500개의 필드로 제한됩니다. 긴 형식에서는 형식에 몇 개의 필드가 있으며 한도에 도달하는지 여부를 알기 어려울 수 있습니다. 왼쪽 하단의 사용자 정의 양식에 카운터가 추가되었습니다. 카운터는 폼에 사용되는 필드 수를 표시하며 폼 디자이너 내에서 스크롤할 때 항상 표시됩니다.</p>
                 </td>
                 <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -97,7 +97,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 레이아웃 템플릿에서 "모두 선택" 옵션을 사용할 수 있습니다</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>레이아웃 템플릿으로 필드를 보다 쉽게 표시하거나 숨길 수 있도록 레이아웃 템플릿에서 세부 정보 보기의 개요 및 재무 영역에 "모두 선택" 확인란이 추가되었습니다. 이 옵션은 '사용자가 볼 항목 사용자 지정' 아래에서 프로젝트, 작업, 문제, Portfolio 또는 프로그램을 선택한 경우에 사용할 수 있습니다.</p>
                 </td>
                 <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -114,7 +114,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">환경 프로모션 패키지 롤백</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>환경 프로모션을 보다 유연하고 쉽게 사용할 수 있도록 롤백 기능을 활성화했습니다. 이제 24시간 내에 패키지를 롤백하여 환경 프로모션 패키지의 영향을 받은 이전 구성을 보다 쉽게 복원할 수 있습니다.</p>
                 </td>
                 <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -193,7 +193,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">이전 검토자와 승인자를 새 문서 버전에 빠르게 추가</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>이제 이전 문서 버전에서 검토자와 승인자를 빠르게 추가할 수 있습니다.</p>
                 </td>
                 <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -229,7 +229,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">새 홈에서 내 승인 대기 중인 위젯에 대한 업데이트</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>내 승인 대기 위젯에 대해 다음과 같이 변경되었습니다.</p>
                         <ul>
                             <li>위젯 이름 변경됨: 이 위젯의 이름이 이제 내 승인입니다.</li>
@@ -251,7 +251,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">우선 순위 소개: 작업 소유자를 위한 단순하고 능률적이며 직관적인 Workfront 환경</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>우선 순위는 집중력과 생산성을 향상시켜 고객이 더 짧은 시간에 더 많은 성과를 달성하도록 지원합니다.</p>
                     <p>Priority 를 사용하면 다음과 같은 이점을 누릴 수 있습니다.</p>
                         <ul>
@@ -293,7 +293,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook 통합 로그인 환경 개선 사항</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Outlook 통합에 대한 로그인 경험이 간소화되어 모든 고객이 IMS를 사용하는지 여부에 관계없이 Workfront에 로그인하는 동일한 버튼을 볼 수 있습니다. 이후 로그인 단계는 IMS 및 비 IMS 인스턴스에 대해 다르게 유지되지만 초기 페이지는 모든 사용자에 대해 동일합니다.</p>
                 </td>
                 <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -329,7 +329,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">새 작업 워크플로에 관련 할당이 더 추가됨</a></p>
-                    [!BADGE In Production for Fast Release ]{type=Positive}
+                    [!BADGE In Production for Fast Release &#x200B;]{type=Positive}
                     <p>프로젝트 및 프로젝트 작업 목록에 작업을 추가할 때 새 작업 상자의 할당 필드에 더 적절한 스마트 할당에 대해 동일한 기능을 추가했습니다.</p>
                 </td>
                 <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -347,7 +347,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">더 적절한 스마트 할당</a></p>
-                    [!BADGE In Production for Fast Release ]{type=Positive}
+                    [!BADGE In Production for Fast Release &#x200B;]{type=Positive}
                     <p>Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 지정하는 Workfront의 작업 목록, 작업 헤더의 지정 영역, 홈 및 요약 패널에서 적용됩니다.</p>
                 </td>
                 <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -384,7 +384,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">데스크톱 증명 뷰어에 대한 복사/붙여넣기 문제 해결</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Desktop Proofing Viewer의 업데이트 섹션에서 콘텐츠가 잘못 붙여넣는 문제가 수정되었습니다.</p>
                     <p>신규 버전: 2.1.39</p>
                 </td>
@@ -402,7 +402,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">데스크톱 증명 뷰어 Windows 사용자를 위한 빈 화면 수정</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>일부 Windows 사용자가 뷰어를 연 후 빈 화면이 표시되는 새로운 2.1.36 Desktop Proofing Viewer 버전 문제를 해결했습니다. </p>
                     <p>Windows 사용자를 위한 새 버전: 2.1.37</p>
                 </td>
@@ -420,7 +420,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">데스크톱 증명 뷰어에 대한 Chromium 업데이트</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>대화형 증명에서 UI 요소 문제를 해결하는 Chromium 126.0.6478.127을 지원하도록 데스크탑 증명 뷰어를 업그레이드하고 있습니다.</p>
                 </td>
                 <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -456,7 +456,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 플랜에 Workfront Data Connect 사용 가능</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Workfront Data Connect는 새로운 Workfront 계획 중 하나에 있는 조직에서 사용할 수 있습니다. Data Connect를 사용하면 조직은 비즈니스 인텔리전스 도구를 사용하여 분석하고 시각화하거나 외부에 저장할 수 있는 안전하고 확장 가능한 데이터 레이크로 데이터에 액세스할 수 있습니다. 또한 조직은 Data Connect를 사용하여 시간 기반 트렌드 분석, 변수 매핑, Workfront 데이터와 결합된 외부 시스템 데이터 분석과 같이 이전에 사용할 수 없었던 데이터 분석을 볼 수 있습니다.</p>
                 </td>
                 <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -480,7 +480,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">한 번의 클릭으로 프로젝트 또는 업데이트 요약</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>프로젝트 또는 업데이트 스트림의 주요 사항을 더 쉽게 볼 수 있도록 Workfront의 해당 영역에 요약 버튼을 추가했습니다. 이제 버튼을 클릭하여 AI Assistant에서 요약을 생성할 수 있습니다.</p><p>이전에는 사용자가 AI Assistant를 열고 프로젝트 요약을 생성하거나 스트림을 업데이트하라는 메시지를 입력할 수 있었습니다.</p>
                 </td>
                 <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -497,7 +497,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning의 일반 가용성</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Workfront Planning은 Workfront 라이선스 외에 Workfront Planning 라이선스를 구입한 모든 고객이 사용할 수 있습니다. Workfront Planning에 대한 자세한 내용은 계정 담당자에게 문의하십시오.</p>
                     <p>분기별 최신 Workfront Planning 릴리스 정보는 아래의 <a href="#workfront-planning-enhancements">Workfront Planning 개선 사항</a> 섹션을 참조하십시오.</p>
                 </td>
@@ -512,7 +512,7 @@ ht-degree: 0%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront에서 사용 가능한 Adobe AI Assistant</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>작업을 보다 쉽게 수행할 수 있도록 Adobe의 AI Assistant를 Workfront에 추가했습니다. AI Assistant는 다음을 통해 도움을 줄 수 있습니다.</p>
                     <ul>
                         <li>작업 항목 및 문서를 요약하면 작업, 프로젝트 및 에셋에 대한 일반적인 이해를 신속하게 얻을 수 있습니다.</li>

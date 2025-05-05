@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * **작업 상태:** 스토리가 있는 상태 열을 기준으로 스토리가 반복 또는 프로젝트에서 진행되는 방식을 나타냅니다.
 
-  [Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)의 [애자일 보기 만들기 또는 사용자 지정](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)에 설명된 대로 애자일 보기를 수정하여 프로젝트에 대해 작업 상태를 사용자 지정할 수 있습니다.[!UICONTROL 
+  [Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)의 [애자일 보기 만들기 또는 사용자 지정](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)에 설명된 대로 애자일 보기를 수정하여 프로젝트에 대해 작업 상태를 사용자 지정할 수 있습니다.
 
 * **수영 레인:** 상위 스토리와 하위 작업이 스토리 보드에 나타나면 스토리와 하위 작업에 대해 특별히 수영 레인이 만들어집니다. 이렇게 하면 스토리의 하위 작업이 스토리 보드에서 어떻게 진행되는지 시각적으로 더 잘 구분할 수 있습니다.
 

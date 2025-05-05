@@ -86,7 +86,7 @@ Workfront에서 작업을 생성할 때 작업에 대해 자동으로 업데이�
 * 한 프로젝트에서 다른 프로젝트로 작업을 복사할 때 대상 프로젝트에 작업에 대한 기본 설정이 다를 경우 복사 프로세스에서 작업을 지우지 않는 한 복사된 작업은 원래 프로젝트의 기본 설정을 유지합니다.
 * 동일한 프로젝트에서 작업을 복제하면 사용자 정의 양식 및 승인 프로세스가 중복 작업으로 전송됩니다.
 
-  작업 복사 및 복제에 대한 자세한 내용은 [ [작업 복사 및 복제](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)를 참조하십시오.
+  작업 복사 및 복제에 대한 자세한 내용은 [&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [작업 복사 및 복제](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)를 참조하십시오.
 
 * 작업을 다른 프로젝트로 이동하면 새 프로젝트의 작업 기본 설정에 관계없이 기본 작업 설정이 원래 프로젝트의 작업에 저장됩니다.
 

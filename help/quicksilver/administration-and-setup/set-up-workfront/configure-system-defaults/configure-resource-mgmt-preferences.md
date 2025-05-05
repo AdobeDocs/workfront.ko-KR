@@ -60,7 +60,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 사용자의 용량을 계산할 때 Workfront은 다음 정보를 고려합니다.
 
 * 사용자의 일정 또는 Workfront 시스템의 [!UICONTROL 기본 일정]에 정의된 예약 시간 수
-* [!UICONTROL 일정] [!UICONTROL 예외](사용 중인 [!UICONTROL 일정]에 따라 사용자의 일정 또는 [!DNL Workfront] [!UICONTROL 기본 일정]과(와) 관련된 예외일 수 있음)
+* [!UICONTROL 일정] [!UICONTROL 예외] (사용 중인 [!UICONTROL 일정]에 따라 사용자의 일정 또는 [!DNL Workfront] [!UICONTROL 기본 일정]과(와) 관련된 예외일 수 있음)
 * 사용자 휴무
 * 사용자의 FTE([!UICONTROL FTE]) 또는 [!DNL Workfront] 시스템의 FTE 값입니다. 사용자가 일정에 정의된 대로 전체 시간을 사용하는 경우 [!UICONTROL FTE]은(는) 1입니다.
 * 사용자의 [!UICONTROL 작업 시간] 값은 사용자가 프로젝트 관련 작업에 소요하는 시간을 나타냅니다. 여기에는 회의 및 훈련과 같은 오버헤드 시간은 포함되지 않습니다. [!UICONTROL 작업 시간]은(는) 사용자가 [!UICONTROL FTE] 또는 일정에 표시된 전체 시간 동안 작업에 사용할 수 있는 경우 1입니다. 즉, 모임 또는 교육과 같이 프로젝트와 관련되지 않은 작업에 시간을 사용하지 않습니다.

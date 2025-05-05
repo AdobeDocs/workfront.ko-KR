@@ -79,7 +79,7 @@ ht-degree: 0%
 
    1. **[!DNL Microsoft Exchange]POP3**&#x200B;을(를) 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 속성]**&#x200B;을 클릭합니다.
 
-   1. (조건부) POP 서비스가 자동으로 시작되도록 하려면 **[!UICONTROL 일반]** 탭에서 **[!UICONTROL 시작]** 유형을 [!UICONTROL 자동](으)로 설정합니다.
+   1. (조건부) POP 서비스가 자동으로 시작되도록 하려면 **[!UICONTROL 일반]** 탭에서 **[!UICONTROL 시작]** 유형을 [!UICONTROL 자동] (으)로 설정합니다.
 
 1. 서버용 POP3를 구성합니다.
 

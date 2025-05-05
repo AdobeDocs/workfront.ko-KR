@@ -403,7 +403,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">누군가가 [!UICONTROL 지정 업데이트에 귀하의 팀을 포함시킵니다.</td> 
+   <td role="rowheader">누군가가 지정 업데이트에 귀하의 팀을 포함시킵니다.</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

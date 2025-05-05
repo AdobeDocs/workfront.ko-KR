@@ -25,7 +25,7 @@ ht-degree: 0%
 
 이전에는 Workfront 데이터를 Experience Manager Assets 태그에 매핑할 수 없었습니다.
 
-이 기능에 대한 자세한 내용은 Experience Manager Assetsas a Cloud Service 를 참조하십시오. [Experience Manager Assets as a Cloud Service 구성] 통합](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)[!UICONTROL 
+이 기능에 대한 자세한 내용은 Experience Manager Assetsas a Cloud Service 를 참조하십시오. [Experience Manager Assets as a Cloud Service 구성] 통합(/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 
 Experience Manager Assets Essentials의 이 기능에 대한 자세한 내용은 [Experience Manager Assets Essentials 통합을 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)하십시오.
 

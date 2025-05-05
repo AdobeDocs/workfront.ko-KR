@@ -31,7 +31,7 @@ ht-degree: 0%
 공유 증명에 대한 다음 사항을 고려하십시오.
 
 * 유효한 이메일 주소를 가진 모든 사용자는 증명에 추가할 수 있습니다. 로그인 자격 증명이 있는 [!DNL Workfront Proof] 사용자일 필요는 없습니다.
-* 나와 공유된 모든 증명이 계정의 [!DNL Views] 페이지에 표시됩니다. 자세한 내용은  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 [항목 관리를 참조하십시오.
+* 나와 공유된 모든 증명이 계정의 [!DNL Views] 페이지에 표시됩니다. 자세한 내용은  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)의 보기 페이지에서 항목 관리를 참조하십시오.
 * 다른 사용자가 귀하와 증명 URL을 공유할 때 [[!UICONTROL 공개 URL 공유 [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)에 설명된 대로 증명에 액세스할 수 있습니다.
 * 다음 기준에 따라 사용자와 공유된 모든 증명을 검색할 수 있습니다.
 

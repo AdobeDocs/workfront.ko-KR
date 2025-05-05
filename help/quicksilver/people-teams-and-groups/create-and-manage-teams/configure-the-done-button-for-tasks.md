@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 작업에 대한 [!UICONTROL 완료] 단추 구성
 
-[!UICONTROL 완료] 단추를 사용하면 작업 또는 문제의 상태를 자동으로 설정할 수 있습니다. 기본적으로 [!UICONTROL Adobe Workfront]은(는) 피할당자가 작업 항목에서 완료 표시를 클릭하면 작업을 [!UICONTROL 완료됨](으)로 표시합니다.
+[!UICONTROL 완료] 단추를 사용하면 작업 또는 문제의 상태를 자동으로 설정할 수 있습니다. 기본적으로 [!UICONTROL Adobe Workfront]은(는) 피할당자가 작업 항목에서 완료 표시를 클릭하면 작업을 [!UICONTROL 완료됨] (으)로 표시합니다.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ ht-degree: 1%
    >* 항목에 할당된 사용자가 항목을 [!UICONTROL 완료] 단추와 연결된 상태로 두면 선택한 상태가 [!UICONTROL 완료] 또는 [!UICONTROL 마감됨] 상태이거나 작업 상태인지에 관계없이 해당 사용자에 대해 항목이 [!UICONTROL 완료]로 표시됩니다.
    >   
    >   
-   >  예를 들어 [!UICONTROL 완료] 단추를 [!UICONTROL 진행 중]과 연결하면 [!UICONTROL 새로 만들기]에서 [!UICONTROL 진행 중](으)로 상태를 변경하는 사용자의 작업 항목이 [!UICONTROL 완료]로 표시됩니다.
+   >  예를 들어 [!UICONTROL 완료] 단추를 [!UICONTROL 진행 중]과 연결하면 [!UICONTROL 새로 만들기]에서 [!UICONTROL 진행 중] (으)로 상태를 변경하는 사용자의 작업 항목이 [!UICONTROL 완료]로 표시됩니다.
    >   
    >* 문제 유형은 사용자 정의할 수 있으며 사용자 환경에 아래에 나열된 것과 다른 이름을 가질 수 있습니다.\
    >  다음은 기본 작업 및 문제 유형입니다.

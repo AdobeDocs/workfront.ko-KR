@@ -79,7 +79,7 @@ Adobe Workfront의 다음 영역에서 작업의 전임 작업을 볼 수 있습
 
 1. 일 단위로 **Lag** 금액을 지정하십시오.
 
-   지연 유형에 대한 자세한 내용은 {&#x200B;0}지연 유형 개요](../../../manage-work/tasks/use-prdcssrs/lag-types.md)를 참조하십시오.[
+   지연 유형에 대한 자세한 내용은 {&#x200B;0}지연 유형 개요[&#128279;](../../../manage-work/tasks/use-prdcssrs/lag-types.md)를 참조하십시오.
 
 1. 두 작업 간에 전임 작업 관계를 적용하려면 **적용됨**&#x200B;을 선택합니다.
 

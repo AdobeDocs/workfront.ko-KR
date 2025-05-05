@@ -61,7 +61,7 @@ ht-degree: 0%
 1. 필요한 문서를 찾아 다음 중 하나를 수행합니다.
 
    * 목록의 문서를 클릭하고 오른쪽 상단의 **요약 열기** 아이콘 ![요약 열기 아이콘](assets/qs-summary-in-new-toolbar-small.png)을 클릭한 다음 새 댓글을 추가하거나 **회신**&#x200B;을 클릭하여 기존 댓글에 회신을 추가합니다. 요약에 대한 자세한 내용은 [문서에 대한 요약 개요](../../documents/managing-documents/summary-for-documents.md)를 참조하십시오.
-   * 문서 위로 마우스를 가져간 후 왼쪽 패널에서 **문서 세부 정보**&#x200B;를 클릭한 다음 **업데이트**를 클릭합니다.
+   * 문서 위로 마우스를 가져간 후 왼쪽 패널에서 **문서 세부 정보**&#x200B;를 클릭한 다음 **업데이트**&#x200B;를 클릭합니다.
 개체에 업데이트를 추가하는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
    업데이트 및 답글이 문서와 상위 오브젝트에 추가됩니다. 자세한 내용은 [섹션 업데이트 개요](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하세요.

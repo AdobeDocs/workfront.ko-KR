@@ -631,12 +631,12 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td role="rowheader">JSON 경로</td>
       <td><p>API에 대한 JSON 경로를 입력하거나 붙여넣습니다.</p> <p>이 옵션을 사용하면 API URL에서 반환되는 JSON에서 데이터를 추출할 수 있습니다. JSON 내에서 드롭다운 옵션에 표시할 값을 선택하는 데 사용됩니다.</p><p>예를 들어 API URL이 다음 형식으로 JSON을 반환하는 경우: </br>
       <pre>
-      {
-       데이터: {
+      &lbrace;
+       데이터: &lbrace;
          { name: "미국"},
          { name: "Canada"}
-       }
-      }
+       &rbrace;
+      &rbrace;
       </pre>
       </p>
       <p>그런 다음 "$.data[*].name"을 사용하여 미국 및 캐나다를 드롭다운 옵션으로 선택할 수 있습니다.</p> <p>JSON 경로와 올바른 JSON 경로를 작성하는 방법에 대한 자세한 내용은 <a href="https://jsonpath.com/">https://jsonpath.com/</a>을(를) 참조하십시오.</p></td>

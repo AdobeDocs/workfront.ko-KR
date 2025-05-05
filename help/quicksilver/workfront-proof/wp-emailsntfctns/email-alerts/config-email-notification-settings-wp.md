@@ -116,7 +116,7 @@ ht-degree: 0%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 이메일 없음]</td> 
-      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary]([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td> 
+      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary] ([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -129,7 +129,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">증명이 준비되면 [!UICONTROL 이메일 확인]</td> 
-      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">증명된 [!UICONTROL] 메일</a>을 참조하세요.</td> 
+      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">증명된  메일</a>을 참조하세요.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 나에게 보낸 이메일 형식] </td> 
@@ -210,7 +210,7 @@ ht-degree: 0%
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">[!UICONTROL 이메일 없음]</td>
-      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary]([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td>
+      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary] ([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td>
      </tr>
     </tbody>
    </table>
@@ -223,7 +223,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">증명이 준비되면 [!UICONTROL 이메일 확인]</td> 
-      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="https://support.workfront.com/hc/en-us/article">증명된 [!UICONTROL] 이메일을 참조하십시오.</a></td> 
+      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="https://support.workfront.com/hc/en-us/article">증명된  이메일을 참조하십시오.</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 나에게 보낸 이메일 형식] </td> 

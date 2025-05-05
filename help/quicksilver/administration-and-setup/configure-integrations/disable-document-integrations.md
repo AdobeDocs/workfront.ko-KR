@@ -74,7 +74,7 @@ ht-degree: 1%
 1. **[!UICONTROL 문서]**&#x200B;를 확장한 다음 **[!UICONTROL [!DNL SharePoint]통합]**&#x200B;을 클릭합니다.
 1. 비활성화할 [!DNL SharePoint] 통합을 선택하십시오.
 1. **[!UICONTROL 사용 안 함]**&#x200B;을 클릭합니다.\
-   사용자가 사용하지 않도록 설정한 [!DNL SharePoint] 사이트에 연결할 수 없으며 [!DNL SharePoint]에서 [!DNL Workfront](으)로 문서를 더 이상 연결할 수 없습니다.
+   사용자가 사용하지 않도록 설정한 [!DNL SharePoint] 사이트에 연결할 수 없으며 [!DNL SharePoint]에서 [!DNL Workfront] (으)로 문서를 더 이상 연결할 수 없습니다.
 
 ## 사용자 정의 통합 비활성화
 

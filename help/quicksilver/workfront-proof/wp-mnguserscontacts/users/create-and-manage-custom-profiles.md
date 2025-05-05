@@ -94,10 +94,10 @@ ht-degree: 0%
 자세한 내용은 [Single Sign-On in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)을 참조하세요.
 
 * 계정 내역 보기
-자세한 내용은 [활동 감사 추적 이해 [!DNL Workfront Proof] 2}를 참조하십시오.](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+자세한 내용은 [활동 감사 추적 이해 [!DNL Workfront Proof] 2&rbrace;를 참조하십시오.](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
 
 * 계정 백업 보기
-자세한 내용은 [데이터 백업 [!DNL Workfront Proof] 2}을 참조하세요.](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
+자세한 내용은 [데이터 백업 [!DNL Workfront Proof] 2&rbrace;을 참조하세요.](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
 
 * 청구 관리
 자세한 내용은 [청구 관리](https://support.workfront.com/hc/en-us/sections/115000912187-Managing-your-billing)를 참조하세요.
@@ -135,7 +135,7 @@ ht-degree: 0%
 
    자세한 내용은 [관리 권한](#administrative-permissions)을 참조하세요.
 
-1. **[!UICONTROL 만들기]**를 클릭합니다.
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 이제 **[!UICONTROL 사용자]** 탭에서 새 프로필을 사용할 수 있습니다.
 
 1. (선택 사항) 새 프로필을 새 사용자 계정 및 기존 사용자 계정에 할당합니다.
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 1. 활성화하거나 비활성화할 프로필을 선택합니다.
 또는
-여러 프로필을 동시에 활성화하거나 비활성화하려면 프로필을 수동으로 선택하거나 **[!UICONTROL 이름]**을 선택하여 모든 사용자 지정 프로필을 선택합니다.
+여러 프로필을 동시에 활성화하거나 비활성화하려면 프로필을 수동으로 선택하거나 **[!UICONTROL 이름]**&#x200B;을 선택하여 모든 사용자 지정 프로필을 선택합니다.
    ![Screenshot_2018-04-06_12-31-53.png](assets/screenshot-2018-04-06-12-31-53.png)
 
 1. **[!UICONTROL 자세히]** 드롭다운 메뉴를 클릭한 다음 프로필을 활성화할지 비활성화할지 여부에 따라 다음 옵션 중 하나를 클릭합니다.

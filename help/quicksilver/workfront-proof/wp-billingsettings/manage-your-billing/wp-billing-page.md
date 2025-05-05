@@ -128,7 +128,7 @@ ht-degree: 0%
 
 이 섹션에는 최근 청구 기간에 대한 활동이 표시됩니다. 이 섹션에서 청구서를 다운로드할 수도 있습니다.
 
-자세한 내용은 &quot;[청구서 다운로드 [!DNL Workfront Proof] 2}&quot;를 참조하십시오.](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+자세한 내용은 &quot;[청구서 다운로드 [!DNL Workfront Proof] 2&rbrace;&quot;를 참조하십시오.](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
 
 ## [!UICONTROL 청구 활동]
 

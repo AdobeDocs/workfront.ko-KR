@@ -135,7 +135,7 @@ Workfront 인스턴스의 위험 유형 수를 개선하기 위해 다음을 수
 
    위험 유형 목록의 왼쪽 아래에서 [!UICONTROL **위험 유형 추가**]&#x200B;를 클릭하여 위험 유형을 인라인으로 추가합니다.
 
-   <span class="preview">새 위험 유형 **2} 상자가 열립니다. <span>**
+   <span class="preview">새 위험 유형 **2&rbrace; 상자가 열립니다. <span>**
 
    ![새 위험 유형 상자](assets/new-risk-type-box.png)
 

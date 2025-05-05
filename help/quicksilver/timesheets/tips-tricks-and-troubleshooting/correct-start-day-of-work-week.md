@@ -33,7 +33,7 @@ Adobe Workfront의 타임시트 시작 일자는 브라우저의 언어 및 로�
 다음은 Workfront에서 지원되는 다양한 브라우저에 대한 언어 및 로케일 설정을 변경하는 지침입니다.
 
 * **Chrome:** Chrome 브라우저에 다음 링크 `chrome://settings/languages`을(를) 복사하여 붙여 넣은 다음 언어로 이동하십시오.
-* **Firefox:**다음 링크를 복사하여 Firefox 브라우저에 붙여 넣은 다음 `about:preferences#content` 언어로 이동합니다.
+* **Firefox:**&#x200B;다음 링크를 복사하여 Firefox 브라우저에 붙여 넣은 다음 `about:preferences#content` 언어로 이동합니다.
 * **IE 11:** 도구 -> 인터넷 옵션 -> 일반 -> 언어
 * **Safari:** 죄송합니다. Safari에서는 전체 운영 체제 언어를 변경하지 않고 웹 탐색 언어를 변경할 수 없습니다. Chrome 또는 Firefox와 같은 다른 브라우저를 설치하는 것이 더 쉬울 수 있습니다.
 

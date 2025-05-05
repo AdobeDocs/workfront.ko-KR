@@ -47,7 +47,7 @@ ht-degree: 0%
 
 대신 이 팝업에서 [!UICONTROL 확인] (4) 단추를 클릭하면 검토자가 [!UICONTROL Single Sign-On] 페이지로 리디렉션됩니다.
 
-SSO 자격 증명을 입력하면 검토자가 자동으로 [!UICONTROL 증명 세부 정보] 페이지로 다시 리디렉션됩니다(또는 해당 페이지에서 결정이 내려지는 경우 [!UICONTROL 증명 뷰어](으)로 다시 리디렉션됨).
+SSO 자격 증명을 입력하면 검토자가 자동으로 [!UICONTROL 증명 세부 정보] 페이지로 다시 리디렉션됩니다(또는 해당 페이지에서 결정이 내려지는 경우 [!UICONTROL 증명 뷰어] (으)로 다시 리디렉션됨).
 
 ![Electronic_Signature_SSO_-_Proof_Details_3.png](assets/electronic-signature-sso---proof-details-3-350x146.png)
 

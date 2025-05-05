@@ -107,7 +107,7 @@ ht-degree: 0%
 
 1. [!UICONTROL CRX 패키지 관리자]를 닫습니다. 커넥터가 설치되어 있으므로 [!DNL AEM Assets]을(를) [!DNL Workfront]과(와) 통합하도록 구성할 수 있습니다.
 
-1.  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)과(와) 통합하려면 [구성 [!DNL AEM Assets] 을(를) 계속합니다.
+1. [!DNL Workfront][&#128279;](#configure-aem-assets-to-integrate-with-workfront)과(와) 통합하려면 구성 [!DNL AEM Assets] 을(를) 계속합니다.
 
 ## [!DNL Workfront]과(와) 통합하도록 [!DNL AEM Assets] 구성 {#configure-aem-assets-to-integrate-with-workfront}
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 1. AEM에서 **[!UICONTROL 도구]** > **[!UICONTROL 보안]** > **[!UICONTROL 권한]**(으)로 이동합니다.
 1. 왼쪽 상단 모서리에서 &#x200B; 드롭다운 메뉴에서 **[!UICONTROL 사용자]**&#x200B;를 선택하고 **[!UICONTROL 검색]** 필드에 *[!UICONTROL workfront-service]*&#x200B;을(를) &#x200B; 입력합니다. [!UICONTROL workfront-service] 사용자를 선택하십시오.
 1. 화면 오른쪽에서 **[!UICONTROL ACE 추가]**&#x200B;를 선택하여 새 항목을 만듭니다.
-1. {&#x200B;0}새 항목 추가{1&#x200B;} 창에서 **[!UICONTROL 경로]** 필드&#x200B;의 확인란 아이콘을 선택하고 다음 폴더를 선택합니다. */conf*****
+1. {&#x200B;0}새 항목 추가{1&#x200B;} 창에서 **[!UICONTROL 경로]** 필드&#x200B;의 확인란 아이콘을 선택하고 다음 폴더를 선택합니다. */conf&#x200B;**&#x200B;***
 1. **권한** 필드에 다음을 입력하십시오. *jcr:read*
 1. 오른쪽 상단 모서리에서 **추가**&#x200B;를 선택합니다.
 1. (선택 사항) 더 많은 항목을 만들려면 위의 단계를 반복합니다.
@@ -143,7 +143,7 @@ ht-degree: 0%
 
       예를 들어 [!DNL https]://`<account>`.my.workfront.com입니다. 여기서 `<account>`은(는) AEM과의 통합에 사용하는 계정입니다.
 
-   1. {&#x200B;0}기본 폴더&#x200B;]**필드에서 확인란 아이콘을 선택합니다.**[!UICONTROL 
+   1. {&#x200B;0}기본 폴더&#x200B;**필드에서 확인란 아이콘을 선택합니다.**
    1. 드롭다운 메뉴에서 [!DNL Workfront] 개체에 연결된 문서가 저장된 경로를 선택합니다.
    1. 표시되는 AEM 모달에서 [!DNL Workfront] 개체에 연결된 문서가 있는 폴더의 경로를 따릅니다. 폴더를 선택한 다음 오른쪽 상단의 **[!UICONTROL 선택]**&#x200B;을 누릅니다.
 
@@ -229,7 +229,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL OSGI]**&#x200B;를 클릭한 다음 드롭다운 메뉴에서 **[!UICONTROL 구성]**&#x200B;을 클릭합니다.
 
-1. 구성 목록에서 {&#x200B;0}일 CQ 링크 외부화]를 선택합니다.**[!UICONTROL ** **[!UICONTROL 외부화]** 페이지가 표시됩니다.
+1. 구성 목록에서 {&#x200B;0}일 CQ 링크 외부화를 선택합니다.**&#x200B;** **[!UICONTROL 외부화]** 페이지가 표시됩니다.
 
 1. **[!UICONTROL 도메인]** 섹션에서 **[!UICONTROL 작성자]** 필드에 나열된 도메인이 AEM 사용자가 외부에서 액세스할 수 있는 도메인 이름인지 확인하십시오.
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 1. (조건부) 필요한 경우 **[!UICONTROL 작성자]** 필드에서 도메인을 업데이트합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이제 [!UICONTROL AEM Assets]이(가) 문서를 [!DNL Workfront]과(와) 연결하도록 구성되었습니다.
 
-1.  [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets)과(와) 통합하려면 [구성 [!DNL Workfront] 을(를) 계속합니다.
+1. [!DNL AEM assets][&#128279;](#configure-workfront-to-integrate-with-aem-assets)과(와) 통합하려면 구성 [!DNL Workfront] 을(를) 계속합니다.
 
 ## [!DNL AEM assets]과(와) 통합하도록 [!DNL Workfront] 구성 {#configure-workfront-to-integrate-with-aem-assets}
 
@@ -269,7 +269,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 인증 유형]** 드롭다운 메뉴에서 **[!UICONTROL ApiKey].**&#x200B;을(를) 선택합니다.
 
-1. {&#x200B;0}API 키&#x200B;]**상자에 [!UICONTROL AEM Assets]을(를) 구성할 때 복사한 AEM API 키를 붙여 넣습니다.**[!UICONTROL 
+1. {&#x200B;0}API 키&#x200B;**상자에 [!UICONTROL AEM Assets]을(를) 구성할 때 복사한 AEM API 키를 붙여 넣습니다.**
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. (선택 사항) 통합이 [!UICONTROL Active]&#x200B;(으)로 표시되어 있는지 확인하십시오.\
    ![aem_custom_integration_active.png](assets/aem-custom-integration-active-350x81.png)
@@ -289,7 +289,7 @@ ht-degree: 0%
 ### [!DNL AEM assets]에서 사용자 설정 {#set-up-users-in-aem-assets}
 
 1. [!DNL AEM Assets]에 Workfront 관리자로 로그인합니다.
-1. **[!UICONTROL 도구]** > **{&#x200B;3}{4&#x200B;}보안]** > **[!UICONTROL 사용자]**&#x200B;를 클릭합니다.****[!UICONTROL 
+1. **[!UICONTROL 도구]** > **{&#x200B;3}{4&#x200B;}보안** > **[!UICONTROL 사용자]**&#x200B;를 클릭합니다.**&#x200B;**
 
 1. (조건부) 사용자에게 AEM에 사용자 프로필이 없는 경우 AEM 사용자 프로필을 만듭니다.
 
@@ -304,7 +304,7 @@ ht-degree: 0%
 
 1. (조건부) 사용자에게 AEM 프로필이 있는 경우 사용자의 AEM 프로필을 엽니다.
 
-   1. {&#x200B;0}사용자&#x200B;]**를 클릭합니다.**[!UICONTROL  **[!UICONTROL 사용자 관리]** 페이지가 표시됩니다.
+   1. {&#x200B;0}사용자&#x200B;**를 클릭합니다.** **[!UICONTROL 사용자 관리]** 페이지가 표시됩니다.
 
    1. 추가할 사용자를 클릭한 다음 **[!UICONTROL 속성]**&#x200B;을 클릭합니다. 사용자의 설정 페이지가 표시됩니다.
 

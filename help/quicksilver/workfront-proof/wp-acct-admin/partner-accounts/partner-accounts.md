@@ -24,5 +24,5 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof ]계정 간의 파트너 관계 관리](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+* [ [!DNL Workfront Proof &#x200B;]계정 간의 파트너 관계 관리](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
 * [ [!DNL Workfront Proof]에서 파트너와 항목 공유](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
