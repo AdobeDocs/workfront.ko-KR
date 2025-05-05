@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ![분석](assets/nwe-full-screen-analytics-350x222.png)
 
-사용 사례를 확인하거나 향상된 분석을 사용하여 현재 작업 관리 및 향후 작업 계획에 대해 자세히 알아보려면 [향상된 분석 학습 경로](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
+사용 사례를 확인하거나 향상된 분석을 사용하여 현재 작업 관리 및 향후 작업 계획에 대해 자세히 알아보려면 [향상된 분석 학습 경로](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
 
 ## 전제 조건
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 * Workfront 관리자가 레이아웃 템플릿에 향상된 분석을 추가하도록 합니다.
 
-  자세한 내용은 [향상된 분석: 레이아웃 템플릿에 분석 추가](https://experienceleague.adobe.com/en/docs/workfront/using/home)를 참조하십시오.
+  자세한 내용은 [향상된 분석: 레이아웃 템플릿에 분석 추가](https://experienceleague.adobe.com/ko/docs/workfront/using/home)를 참조하십시오.
 
 프로젝트 및 작업에 대한 정보를 보려면 다음을 수행해야 합니다.
 

@@ -44,7 +44,7 @@ Adobe Workfront 제품에서 다양한 기능이 단계적으로 출시되고 �
    <td> <p>더 이상 2020년 11월 9일에 지원되지 않음(20.4 릴리스 포함)</p> <p>—</p> <p>2022년 상반기 이후 Workfront 플랫폼에서 제거되었습니다.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>레거시 Workfront Fusion</p> <p>Workfront Fusion은 기존 Workfront Fusion에서 향상된 환경을 제공합니다.</p> <p>Workfront Fusion에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>을 참조하십시오.</p> </td> 
+   <td> <p>레거시 Workfront Fusion</p> <p>Workfront Fusion은 기존 Workfront Fusion에서 향상된 환경을 제공합니다.</p> <p>Workfront Fusion에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>을 참조하십시오.</p> </td> 
    <td> </td> 
    <td>2021년 3월 31일에 Workfront 플랫폼에서 제거되었습니다.</td> 
   </tr> 

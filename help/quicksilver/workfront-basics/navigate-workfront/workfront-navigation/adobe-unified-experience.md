@@ -117,7 +117,7 @@ ht-degree: 0%
 
 [!DNL Adobe]에서 암호를 관리하는 경우 Adobe 계정에서 암호를 변경할 수 있습니다.
 
-[Adobe 암호를 변경하려면 이 문서를 참조하세요.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Adobe 암호를 변경하려면 이 문서를 참조하세요.](https://helpx.adobe.com/kr/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 암호 변경에 대한 자세한 내용은 관리자에게 문의하십시오.
 

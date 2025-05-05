@@ -442,7 +442,7 @@ Workfront Goals 릴리스의 21.2 릴리스에 포함된 대부분의 새로운 
 
 ## Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 21.2 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하세요.
+Workfront Fusion의 새로운 기능은 21.2 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하세요.
 
 ## API 버전 13
 

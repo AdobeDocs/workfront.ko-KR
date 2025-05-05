@@ -325,7 +325,7 @@ Workfront Goals 릴리스의 21.1 릴리스에 포함된 대부분의 새로운 
 
 ## Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 21.1 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하세요.
+Workfront Fusion의 새로운 기능은 21.1 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하세요.
 
 ## API 개선 사항
 
@@ -337,7 +337,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-새로운 기능 및 업데이트 내용은 [API 버전 12의 새로운 기능](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)을 참조하세요.
+새로운 기능 및 업데이트 내용은 [API 버전 12의 새로운 기능](https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)을 참조하세요.
 
 API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../../wf-api/api/api-version-support-schedule.md)을 참조하세요.
 
@@ -398,7 +398,7 @@ Workfront 21.1 릴리스 웨비나는 2월 3일 오전 11시(EDT) / 오후 4시(
 
 2020년 5월 20일부터 Workfront은 기능을 매주 미리보기 환경에서 사용할 수 있도록 설정하기 시작했습니다. 이 변경 전에 기능은 일반적으로 2주마다 미리보기 환경에 릴리스되었습니다.
 
-자세한 내용은 [Workfront 미리 보기 릴리스 케이던스의 변경 내용 FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하세요.
+자세한 내용은 [Workfront 미리 보기 릴리스 케이던스의 변경 내용 FAQ](https://experienceleague.adobe.com/ko/docs/workfront/using/home)을 참조하세요.
 
 ### Workfront 원 {#workfront-one}
 

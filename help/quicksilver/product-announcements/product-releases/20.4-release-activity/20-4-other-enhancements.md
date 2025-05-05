@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Workfront Classic에서 글로벌 탐색 막대의 오른쪽 상단 모서리에 있는 프로필 사진을 클릭하면 표시되는 메뉴에 새 경험으로 전환 옵션이 나타납니다.
 
-이 기능은 이제 Workfront One의 [관리자 기본 사항, 1부 학습 경로](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [관리자 기본 사항, 1부 학습 경로](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
 
 ## Workfront Proof의 암호화 개선
 
@@ -62,7 +62,7 @@ Workfront에 액세스할 때 지원되는 브라우저를 사용하고 있는�
 
 전자 메일 알림 구성에 대한 자세한 내용은 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)을 참조하십시오.
 
-이 기능은 이제 Workfront One의 [전자 메일 및 인앱 알림 학습 경로](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [전자 메일 및 인앱 알림 학습 경로](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
 
 ## 이벤트 구독 업데이트를 트리거하는 새 API 개체
 

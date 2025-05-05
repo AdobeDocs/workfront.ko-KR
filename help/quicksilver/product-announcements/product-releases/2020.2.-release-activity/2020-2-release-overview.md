@@ -267,7 +267,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 2020년 5월 20일부터 Workfront은 매주 미리보기 환경에서 기능을 사용할 수 있도록 합니다. 이 변경 전에 기능은 일반적으로 2주마다 미리보기 환경에 릴리스되었습니다.
 
-자세한 내용은 [Workfront 미리 보기 릴리스 케이던스의 변경 내용 FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하세요.
+자세한 내용은 [Workfront 미리 보기 릴리스 케이던스의 변경 내용 FAQ](https://experienceleague.adobe.com/ko/docs/workfront/using/home)을 참조하세요.
 
 ### 허용 목록에 추가하다 Workfront 액세스에 필요한 도메인에 추가 도메인 추가 {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 

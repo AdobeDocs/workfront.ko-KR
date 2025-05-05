@@ -47,7 +47,7 @@ ht-degree: 0%
 >
 >**프로덕션 가용성:**(20.4 릴리스 포함)
 
-이 기능은 이제 Workfront One의 [Workfront 목표 학습 경로](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [Workfront 목표 학습 경로](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
 
 ## Workfront 목표에 대한 액세스 제어
 
@@ -61,7 +61,7 @@ Workfront 목표에 대한 액세스 권한 부여에 대한 자세한 내용은
 >
 >**프로덕션 가용성:**(20.4 릴리스 포함)
 
-이 기능은 이제 Workfront One의 [Workfront 목표 학습 경로](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [Workfront 목표 학습 경로](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
 
 ## Workfront 목표 유용성 개선 사항
 
@@ -82,4 +82,4 @@ Workfront 목표에 대한 액세스 권한 부여에 대한 자세한 내용은
 >
 >**프로덕션 가용성:**(20.4 릴리스 포함)
 
-이 기능은 이제 Workfront One의 [Workfront 목표 학습 경로](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [Workfront 목표 학습 경로](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.

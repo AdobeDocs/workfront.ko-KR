@@ -93,7 +93,7 @@ Workfront Proof에서 지원되는 언어에 대한 자세한 내용은 [Workfro
 * Workfront Fusion에서는 사용자가 입력한 필드에 영어가 아닌 텍스트 문자를 사용할 수 없습니다.
 
 Workfront Fusion에 액세스하려면 귀사에서 Workfront Fusion 라이센스를 구매해야 합니다.\
-Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ## 언어 변경
 

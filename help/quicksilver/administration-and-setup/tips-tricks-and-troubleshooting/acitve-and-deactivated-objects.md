@@ -104,7 +104,7 @@ ht-degree: 2%
 >
 >조직이 [!DNL Adobe Business Platform]에 온보딩되었다면 [!UICONTROL Adobe Admin Console]를 통해 사용자를 비활성화해야 합니다.
 >
->[!UICONTROL Adobe Admin Console]에서 사용자를 비활성화하는 방법에 대한 지침은 문서 [개별적으로 사용자 관리](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)의 &quot;사용자 제거&quot; 섹션을 참조하거나 [!UICONTROL Adobe Admin Console] 관리자에게 문의하십시오.
+>[!UICONTROL Adobe Admin Console]에서 사용자를 비활성화하는 방법에 대한 지침은 문서 [개별적으로 사용자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html)의 &quot;사용자 제거&quot; 섹션을 참조하거나 [!UICONTROL Adobe Admin Console] 관리자에게 문의하십시오.
 >
 >조직이 [!DNL Adobe Business Platform]에 온보딩되었는지 여부에 따라 다른 절차 목록을 보려면 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 

@@ -44,7 +44,7 @@ ht-degree: 3%
      <li>After Effects </li>
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
-     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> </td> 
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets 및 Assets Essentials </p>  </p> </td> 

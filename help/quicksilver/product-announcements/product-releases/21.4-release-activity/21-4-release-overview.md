@@ -413,7 +413,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 
 ## Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 21.4 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 21.4 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ## Workfront Scenario Planner 개선 사항
 
@@ -465,7 +465,7 @@ Workfront 21.4 릴리스 웨비나는 2021년 9월 23일에 제공되었습니�
 
 ## 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
 
 ## 기능이 더 이상 지원되지 않음
 

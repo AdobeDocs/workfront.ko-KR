@@ -29,7 +29,7 @@ ht-degree: 1%
 
 자세한 내용은 [반복 작업 만들기](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)를 참조하십시오.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 플래너 기본 사항, 2부: 프로젝트 계획](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 플래너 기본 사항, 2부: 프로젝트 계획](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
 
 ## 프로젝트 헤더에서 사용할 수 있는 새 버튼
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 프로젝트 페이지에서 프로젝트 목록을 빠르게 필터링할 수 있도록 헤더에 내가 진행 중인 프로젝트 또는 내가 소유한 프로젝트 필터를 빠르게 적용할 수 있는 두 개의 새 버튼이 있습니다.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 플래너 기본 사항, 1부: 프로젝트 만들기](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)학습 경로에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험을 위한 플래너 기본 사항, 1부: 프로젝트 만들기](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)학습 경로에 포함되어 있습니다.
 
 ## 스크럼 보드에서 스토리 또는 문제 이동 또는 삭제
 
@@ -133,9 +133,9 @@ ht-degree: 1%
 
 이전에는 Workfront Classic에서 텍스트 서식이 프로젝트, 작업 및 시간 목록에만 표시되었습니다.
 
-사용자 지정 필드의 텍스트 서식 지정에 대한 자세한 내용은 [사용자 지정 양식 만들기](https://experienceleague.adobe.com/en/docs/workfront/using/home)를 참조하십시오.
+사용자 지정 필드의 텍스트 서식 지정에 대한 자세한 내용은 [사용자 지정 양식 만들기](https://experienceleague.adobe.com/ko/docs/workfront/using/home)를 참조하십시오.
 
-목록에 정보를 표시하는 방법에 대한 자세한 내용은 [목록 시작](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하세요.
+목록에 정보를 표시하는 방법에 대한 자세한 내용은 [목록 시작](https://experienceleague.adobe.com/ko/docs/workfront/using/home)을 참조하세요.
 
 ## 새 작업 편집 상자
 

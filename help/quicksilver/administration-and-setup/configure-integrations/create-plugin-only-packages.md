@@ -44,4 +44,4 @@ ht-degree: 4%
 
 [!DNL Adobe Admin Console]을(를) 통해 패키지가 만들어집니다.
 
-이러한 패키지를 만드는 방법에 대한 지침은 Adobe Admin Console 설명서에서 [관리 패키지](https://helpx.adobe.com/enterprise/using/create-nul-packages.html#managed-packages)를 참조하십시오.
+이러한 패키지를 만드는 방법에 대한 지침은 Adobe Admin Console 설명서에서 [관리 패키지](https://helpx.adobe.com/kr/enterprise/using/create-nul-packages.html#managed-packages)를 참조하십시오.

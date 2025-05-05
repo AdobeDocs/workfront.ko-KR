@@ -145,7 +145,7 @@ Desktop Proofing Viewer와 브라우저 기반 증명 뷰어의 기능 차이에
 
 리소스 플래너 데이터를 Excel로 내보내는 방법에 대한 자세한 내용은 [리소스 플래너 탐색 개요](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)의 &quot;내보내기 옵션&quot; 섹션을 참조하십시오.
 
-리소스 플래너의 현재 Beta 프로그램에 참여하려면 [리소스 플래너 성능 Beta](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)를 참조하세요.
+리소스 플래너의 현재 Beta 프로그램에 참여하려면 [리소스 플래너 성능 Beta](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ko)를 참조하세요.
 
 ## 시스템 설정: 외부 페이지의 세션 정보 {#system-setting-session-information-in-external-pages}
 

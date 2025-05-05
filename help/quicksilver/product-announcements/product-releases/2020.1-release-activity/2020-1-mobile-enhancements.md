@@ -25,7 +25,7 @@ ht-degree: 0%
 
 모바일 앱과 웹 모두에서 Workfront을 사용할 때 경험을 일관되게 유지하기 위해 새 레이아웃 템플릿 또는 기존 레이아웃 템플릿에서 왼쪽 패널 보조 탐색의 사용자 지정이 모바일 앱에 자동으로 반영됩니다.
 
-왼쪽 패널 사용자 지정에 대한 자세한 내용은 [새 Workfront 경험에서 레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하십시오.
+왼쪽 패널 사용자 지정에 대한 자세한 내용은 [새 Workfront 경험에서 레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](https://experienceleague.adobe.com/ko/docs/workfront/using/home)을 참조하십시오.
 
 ## 모바일 앱의 업데이트와 유사
 

@@ -72,7 +72,7 @@ Workfront에서 캘린더를 공유하는 부담을 덜기 위해 사용자를 �
 
 이전에는 실제 날짜를 사용할 수 없을 때 예상 및 계획으로만 달력을 관리할 수 있었습니다.
 
-자세한 내용은 [캘린더 보고서에서 사용자 지정 날짜 필드 사용](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)을 참조하십시오(또는 Workfront Classic을 사용하는 경우 [캘린더 보고서에서 사용자 지정 날짜 필드 사용](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하십시오).
+자세한 내용은 [캘린더 보고서에서 사용자 지정 날짜 필드 사용](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)을 참조하십시오(또는 Workfront Classic을 사용하는 경우 [캘린더 보고서에서 사용자 지정 날짜 필드 사용](https://experienceleague.adobe.com/ko/docs/workfront/using/home)을 참조하십시오).
 
 ## 이메일 변경 사항
 
@@ -82,7 +82,7 @@ Workfront에서 캘린더를 공유하는 부담을 덜기 위해 사용자를 �
 
 **인바운드 전자 메일 POP 회신 변경 사항:** 시스템 관리자는 더 이상 알림에 대한 수신 전자 메일 회신을 위한 사용자 지정 POP 전자 메일 서버를 구성할 수 없습니다.
 
-자세한 내용은 [전자 메일 스푸핑 및 POP 회신 전자 메일 변경 내용](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하세요.
+자세한 내용은 [전자 메일 스푸핑 및 POP 회신 전자 메일 변경 내용](https://experienceleague.adobe.com/ko/docs/workfront/using/home)을 참조하세요.
 
 ## 이제 발신 Workfront 이메일에 DomainKeys Identified Mail(DKIM)이 포함됨
 

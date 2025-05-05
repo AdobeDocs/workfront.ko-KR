@@ -27,7 +27,7 @@ ht-degree: 0%
 
 자세한 내용은 [블루프린트 개요](../../../administration-and-setup/blueprints/blueprints-overview.md)를 참조하십시오.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험의 프로젝트 템플릿](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험의 프로젝트 템플릿](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
 
 ## 그룹 관리자를 위한 새로운 기능: 모든 수준에서 그룹에 대한 상태를 만들고 관리합니다.
 

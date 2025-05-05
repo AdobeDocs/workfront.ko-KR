@@ -40,7 +40,7 @@ Adobe Workfront에는 새로운 기능과 업데이트를 릴리스하기 위한
 
 ### 유지 보수 업데이트
 
-Adobe Workfront 제품에 대한 문제 수정은 매주 프로덕션 환경에서 사용할 수 있습니다. 최근 수정된 사항을 확인하려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) 페이지를 참조하세요.
+Adobe Workfront 제품에 대한 문제 수정은 매주 프로덕션 환경에서 사용할 수 있습니다. 최근 수정된 사항을 확인하려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/ko/docs/workfront-known-issues/releases/current-updates) 페이지를 참조하세요.
 
 ## 예약된 릴리스에서 제거된 기능
 

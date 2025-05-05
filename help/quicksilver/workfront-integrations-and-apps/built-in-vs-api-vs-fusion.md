@@ -97,4 +97,4 @@ Adobe [!DNL Workfront] 관리자는 [!DNL Workfront] 인스턴스에 대한 OAut
 >
 >![예: Fusion에서 댓글 추가](assets/fusion-example-comment-350x416.png)
 
-[!DNL Workfront Fusion]에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)을(를) 참조하십시오.
+[!DNL Workfront Fusion]에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/home)을(를) 참조하십시오.

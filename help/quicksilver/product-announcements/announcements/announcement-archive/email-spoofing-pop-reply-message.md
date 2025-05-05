@@ -31,4 +31,4 @@ Adobe Workfront이 20.3 릴리스(2020년 8월 목표)를 사용하여 이메일
 
 Workfront Proof 시스템에서 직접 전송되는 이메일은 변경되지 않습니다. 이전과 마찬가지로 해당 이메일을 계속 수신하게 됩니다.
 
-다른 질문이 있거나 문제가 있는 경우 [Workfront 지원 팀](https://experienceleague.adobe.com/?support-tab=home#support)에 문의하십시오.
+다른 질문이 있거나 문제가 있는 경우 [Workfront 지원 팀](https://experienceleague.adobe.com/ko?support-tab=home#support)에 문의하십시오.

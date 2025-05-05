@@ -41,15 +41,15 @@ Workfront for Experience Manager 강화 커넥터를 사용하면 통합 워크�
 ## 사전 요구 사항 및 지원되는 플랫폼
 
 * Adobe Workfront
-* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
-* [Adobe Experience Manager 6.5 Assets 온-프레미스](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)
-* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
+* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
+* [Adobe Experience Manager 6.5 Assets 온-프레미스](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-manager-on-premise.html)
+* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 * Adobe Experience Manager Assets 온-프레미스
 * Adobe Experience Manager Assets as a Managed Service
 
 ## 시작하기
 
-1. **커넥터를 설치하고 구성**&#x200B;합니다. 인증 파트너 또는 Adobe Professional Services을 사용하여 Workfront for Experience Manager 강화 커넥터를 설치 및 구성하여 프로세스를 구성하고 표준화하고 거버넌스를 확립하며 생성에서 전달에 이르는 자산 라이프사이클을 간소화할 수 있습니다. [Adobe Experience Manager 6.5에 설치](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations) 또는 [Adobe Experience Manager as a Cloud Service에 설치](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
+1. **커넥터를 설치하고 구성**&#x200B;합니다. 인증 파트너 또는 Adobe Professional Services을 사용하여 Workfront for Experience Manager 강화 커넥터를 설치 및 구성하여 프로세스를 구성하고 표준화하고 거버넌스를 확립하며 생성에서 전달에 이르는 자산 라이프사이클을 간소화할 수 있습니다. [Adobe Experience Manager 6.5에 설치](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/integrations/workfront-integrations) 또는 [Adobe Experience Manager as a Cloud Service에 설치](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
 1. **커넥터를 사용합니다**. Experience Manager Assets에서 프로젝트 연결 폴더의 자동 생성, Experience Manager Assets 및 폴더에 매핑된 Workfront 메타데이터, 양방향 메타데이터 동기화 등과 함께 작동하는 향상된 커넥터의 기능을 참조하십시오. 자세한 내용은 [Experience Manager용 Workfront 강화 커넥터](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)를 참조하십시오.
 
 ## 다음과 같음

@@ -32,7 +32,7 @@ ht-degree: 0%
 
 작업 노력에 대한 자세한 내용은 [작업 노력 개요](../../../manage-work/tasks/task-information/work-effort.md)를 참조하세요.
 
-이 기능은 이제 Workfront One의 [Planner 기본 사항, 2부 학습 경로](https://experienceleague.adobe.com/en/docs/workfront/using/home)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [Planner 기본 사항, 2부 학습 경로](https://experienceleague.adobe.com/ko/docs/workfront/using/home)에 포함되어 있습니다.
 
 ## 업무 균형자의 작업 항목에 대한 프로젝트 상태 기반 색상
 

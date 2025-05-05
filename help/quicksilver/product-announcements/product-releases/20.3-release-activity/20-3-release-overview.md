@@ -435,7 +435,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 2020년 5월 20일부터 Workfront은 기능을 매주 미리보기 환경에서 사용할 수 있도록 설정하기 시작했습니다. 이 변경 전에 기능은 일반적으로 2주마다 미리보기 환경에 릴리스되었습니다.
 
-자세한 내용은 [Workfront 미리 보기 릴리스 케이던스의 변경 내용 FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하세요.
+자세한 내용은 [Workfront 미리 보기 릴리스 케이던스의 변경 내용 FAQ](https://experienceleague.adobe.com/ko/docs/workfront/using/home)을 참조하세요.
 
 ### 에 액세스해야 하는 추가 Workfront 허용 목록 {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -454,7 +454,7 @@ Workfront One을 사용하면 한 번의 로그인으로 Workfront에서 가장 
 
 ### 20.3 릴리스 웨비나 {#20-3-release-webinar}
 
-20.3 제품 릴리스 웨비나 [여기](https://experienceleague.adobe.com/en/docs/workfront/using/home)를 확인하세요.
+20.3 제품 릴리스 웨비나 [여기](https://experienceleague.adobe.com/ko/docs/workfront/using/home)를 확인하세요.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

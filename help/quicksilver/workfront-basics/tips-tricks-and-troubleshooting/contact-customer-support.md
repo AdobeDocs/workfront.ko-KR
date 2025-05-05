@@ -52,7 +52,7 @@ ht-degree: 0%
 >승인된 지원 담당자(또는 지원 권한이 있는 사용자)만 온라인 지원 티켓을 제출할 수 있습니다.
 
 
-1. [[!DNL Experience League]](https://experienceleague.adobe.com) 웹 사이트에서 페이지 상단의 **[!UICONTROL 지원]**&#x200B;을 클릭합니다.
+1. [[!DNL Experience League]](https://experienceleague.adobe.com/ko) 웹 사이트에서 페이지 상단의 **[!UICONTROL 지원]**&#x200B;을 클릭합니다.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 1. (선택 사항) 서비스 케이스를 닫으려면 **[!UICONTROL 서비스 케이스 닫기]** 단추를 클릭합니다.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=ko)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

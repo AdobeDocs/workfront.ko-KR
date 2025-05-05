@@ -155,7 +155,7 @@ Outlook에서 일정을 사용하는 경우 일정을 통합하여 홈 일정 �
 
 목록의 열 순서 조정 방법에 대한 자세한 내용은 [열 너비 및 순서 수정](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)을 참조하십시오.
 
-현재 목록 개선 사항에 대한 베타 테스트 프로그램에 참여하려면 [새 목록 연구를 참조하십시오.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)&#x200B;(로그인 필요)
+현재 목록 개선 사항에 대한 베타 테스트 프로그램에 참여하려면 [새 목록 연구를 참조하십시오.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ko)&#x200B;(로그인 필요)
 
 ## 새 프로젝트 목록에 대한 아이콘 지원 {#icon-support-for-the-new-project-lists}
 

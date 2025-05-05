@@ -713,13 +713,13 @@ The following functionality is soon to be removed from Workfront:
 
 >[!IMPORTANT]
 >
->Workfront Fusion 설명서가 새 위치로 이동했습니다. Fusion에 대한 정보, 지침 및 릴리스는 [Workfront Fusion 설명서](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)를 참조하십시오.
+>Workfront Fusion 설명서가 새 위치로 이동했습니다. Fusion에 대한 정보, 지침 및 릴리스는 [Workfront Fusion 설명서](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/home)를 참조하십시오.
 >
 >현재 각 Fusion 설명서 문서에는 새 위치에 있는 해당 문서에 대한 링크가 포함되어 있습니다. 책갈피를 업데이트하십시오.
 >
 >현재 Fusion 설명서 세트는 더 이상 업데이트되지 않으며 가까운 시일 내에 제거됩니다.
 
-Workfront Fusion의 새로운 기능은 2025년 1분기 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 2025년 1분기 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ### Workfront Planning 개선 사항
 
@@ -747,8 +747,8 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/ko/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

@@ -47,7 +47,7 @@ ht-degree: 0%
 
 이 변경 내용에 대한 자세한 내용은 [요청 대기열에 대한 POP 전자 메일을 21.1로 바꾸기 위한 새 Adobe Workfront 관리 시스템](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)을 참조하십시오.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험의 큐 관리](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험의 큐 관리](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
 
 ## 타임시트의 시간 편집 제한
 

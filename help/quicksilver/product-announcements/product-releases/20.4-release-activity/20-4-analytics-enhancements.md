@@ -29,4 +29,4 @@ ht-degree: 0%
 
 이전에는 향상된 분석 영역에서 볼 수 있는 프로젝트의 양을 50개로 제한했습니다.
 
-이 기능은 이제 Workfront One의 [향상된 Analytics, 1부 학습 경로](https://experienceleague.adobe.com/en/docs/workfront/using/home)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [향상된 Analytics, 1부 학습 경로](https://experienceleague.adobe.com/ko/docs/workfront/using/home)에 포함되어 있습니다.

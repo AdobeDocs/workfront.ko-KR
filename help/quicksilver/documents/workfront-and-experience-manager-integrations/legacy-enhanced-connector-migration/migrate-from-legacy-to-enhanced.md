@@ -30,9 +30,9 @@ Adobe Experience Manager Assets as a Cloud Service을 사용하는 고객의 경
 >
 >향상된 커넥터를 구현하려면 인증된 파트너 또는 Adobe Consulting 서비스가 필요합니다.
 >
-> 향상된 커넥터에서 인증하려는 파트너는 다음 문서를 검토하십시오. [Workfront for Experience Manager 향상된 커넥터 전문가 시리즈](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
+> 향상된 커넥터에서 인증하려는 파트너는 다음 문서를 검토하십시오. [Workfront for Experience Manager 향상된 커넥터 전문가 시리즈](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-향상된 커넥터를 구현하려면 [Experience Manager용 Workfront 강화 커넥터 구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)을 참조하십시오.
+향상된 커넥터를 구현하려면 [Experience Manager용 Workfront 강화 커넥터 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)을 참조하십시오.
 
 
 ## 기존 에셋 이동

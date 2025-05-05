@@ -31,7 +31,7 @@ ht-degree: 0%
 
 프로젝트 복사에 대한 자세한 내용은 [프로젝트 복사](../../../manage-work/projects/manage-projects/copy-project.md)를 참조하십시오.
 
-이제 이 기능은 새 Workfront 환경의 [관리자 기본 사항, Workfront One의 1부: 사용자 조직](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
+이제 이 기능은 새 Workfront 환경의 [관리자 기본 사항, Workfront One의 1부: 사용자 조직](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
 
 ## 오브젝트의 사용자 정의 양식에서 다중 선택 드롭다운 필드의 모든 항목을 선택합니다
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 자세한 내용은 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
 
-이 기능은 이제 Workfront One의 새로운 Workfront 경험 2부: 프로젝트 설정[&#128279;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)에서 관리자 기본 사항에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 새로운 Workfront 경험 2부: 프로젝트 설정[&#128279;](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)에서 관리자 기본 사항에 포함되어 있습니다.
 
 ## 포트폴리오와 프로그램에 대한 액세스 수준 설정을 개별적으로 구성
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 프로그램 및 포트폴리오에 대해 구성할 수 있는 액세스 설정에 대한 자세한 내용은 [각 개체 유형에 대한 기능에 대한 구성 가능한 액세스](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)를 참조하십시오.
 
-이제 이 기능은 새 Workfront 환경의 [관리자 기본 사항, Workfront One의 1부: 사용자 조직](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
+이제 이 기능은 새 Workfront 환경의 [관리자 기본 사항, Workfront One의 1부: 사용자 조직](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
 
 ## 사용자 정의 양식에서 정보를 편집할 때 일련의 확인란을 모두 선택합니다
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 자세한 내용은 문서 [하위 그룹 개요](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)의 [하위 그룹의 그룹 관리자](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) 섹션을 참조하십시오.
 
-이제 이 기능은 새 Workfront 환경의 [관리자 기본 사항, Workfront One의 1부: 사용자 조직](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
+이제 이 기능은 새 Workfront 환경의 [관리자 기본 사항, Workfront One의 1부: 사용자 조직](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
 
 ## 그룹에 대한 이벤트 알림 구성
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 * [모든 그룹에 대한 이벤트 알림의 구성 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-이제 이 기능은 새 Workfront 환경의 [관리자 기본 사항, Workfront One의 1부: 사용자 조직](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
+이제 이 기능은 새 Workfront 환경의 [관리자 기본 사항, Workfront One의 1부: 사용자 조직](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
 
 이 기능은 이제 Workfront One의 새 Workfront 경험에서 [전자 메일 및 인앱 알림](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) 학습 경로에 포함되어 있습니다.
 

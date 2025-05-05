@@ -33,7 +33,7 @@ ht-degree: 0%
 
 증명 결정에 대한 자세한 내용은 [문서 영역](../../../documents/managing-documents/documents-area.md)을 참조하세요.
 
-이 기능은 이제 Workfront One의 [새 Workfront 경험에서 증명 및 버전 관리](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [새 Workfront 경험에서 증명 및 버전 관리](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)에 포함되어 있습니다.
 
 ## 증명 승인 보고서의 새 필드
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 이러한 필드는 기본 보고서의 일부가 아닙니다. 이를 보려면 추가해야 합니다.
 
-이 기능은 이제 Workfront One의 [증명 시스템 설정, 2부: 워크플로 관리](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 [증명 시스템 설정, 2부: 워크플로 관리](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
 
 ## 새 버전을 생성할 때 기존 증명 워크플로 이월
 

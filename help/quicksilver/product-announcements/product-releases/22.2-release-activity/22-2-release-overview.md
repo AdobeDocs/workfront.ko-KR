@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.2 릴리스 개요
 
-이 페이지에서는 22.2 릴리스에 포함된 기능에 대한 정보를 제공합니다. 나열된 모든 기능은 새로운 Adobe Workfront 환경에서 사용할 수 있습니다. 일부 기능은 Adobe Workfront Classic에서도 사용할 수 있습니다. 그러나 [Workfront Classic은 2022년 3월에 중단되며](https://experienceleague.adobe.com/en/docs/workfront/using/home), 곧 Workfront Classic의 사용 종료 날짜는 2022년 7월입니다.
+이 페이지에서는 22.2 릴리스에 포함된 기능에 대한 정보를 제공합니다. 나열된 모든 기능은 새로운 Adobe Workfront 환경에서 사용할 수 있습니다. 일부 기능은 Adobe Workfront Classic에서도 사용할 수 있습니다. 그러나 [Workfront Classic은 2022년 3월에 중단되며](https://experienceleague.adobe.com/ko/docs/workfront/using/home), 곧 Workfront Classic의 사용 종료 날짜는 2022년 7월입니다.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -123,7 +123,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -291,7 +291,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -303,7 +303,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -357,7 +357,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -584,7 +584,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 22.2 릴리스 일정이 아닌 다른 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 22.2 릴리스 일정이 아닌 다른 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ## Workfront Scenario Planner 개선 사항
 
@@ -620,7 +620,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 ## Workfront 유지 관리 업데이트
 
-22.2 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
+22.2 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/ko/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ## 22.2 릴리스 웨비나
 
@@ -653,7 +653,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
 
 ## 기능이 더 이상 지원되지 않음
 

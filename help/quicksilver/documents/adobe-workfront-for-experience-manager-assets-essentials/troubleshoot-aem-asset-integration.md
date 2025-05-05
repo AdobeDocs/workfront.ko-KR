@@ -27,5 +27,5 @@ ht-degree: 0%
 
 Adobe Cloud Manager Workfront에 허용 목록에 추가하다 IP 주소를 추가합니다.
 
-* Adobe Cloud Manager에 IP 주소를 추가하는 방법에 대한 지침은 Adobe Experience Manager 설명서에서 [IP 허용 목록 소개](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction)를 참조하십시오.
+* Adobe Cloud Manager에 IP 주소를 추가하는 방법에 대한 지침은 Adobe Experience Manager 설명서에서 [IP 허용 목록 소개](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction)를 참조하십시오.
 * Workfront에 추가할 허용 목록에 추가하다 IP 주소 목록을 보려면 [방화벽 구성](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.

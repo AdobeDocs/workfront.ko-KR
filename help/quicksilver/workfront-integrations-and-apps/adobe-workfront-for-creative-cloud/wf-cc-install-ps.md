@@ -48,7 +48,7 @@ ht-degree: 1%
   </tr> -->
   <tr> 
    <td role="rowheader">제품</td> 
-   <td><p>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud 지원 정책</a>을 참조하세요.</p></td> 
+   <td><p>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/kr/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud 지원 정책</a>을 참조하세요.</p></td> 
   </tr> 
  </tbody> 
 </table>

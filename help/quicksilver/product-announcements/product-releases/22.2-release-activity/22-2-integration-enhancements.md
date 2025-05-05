@@ -55,7 +55,7 @@ Workfront을 Anaplan에 통합하는 데 사용할 수 있는 기타 워크플�
 
 >[!NOTE]
 >
->이 커넥터를 배포하고 구성하려면 인증된 파트너가 필요합니다. 자세한 내용은 [Experience Manager 강화 커넥터용 Workfront 설치](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)를 참조하십시오.
+>이 커넥터를 배포하고 구성하려면 인증된 파트너가 필요합니다. 자세한 내용은 [Experience Manager 강화 커넥터용 Workfront 설치](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)를 참조하십시오.
 
 ## 이제 Adobe Creative Cloud 통합에서 OAuth2를 사용합니다
 

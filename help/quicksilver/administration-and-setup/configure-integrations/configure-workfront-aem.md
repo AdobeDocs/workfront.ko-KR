@@ -74,7 +74,7 @@ ht-degree: 0%
 
 [!UICONTROL AEM Assets]용 [!DNL Workfront] 커넥터를 설치하려면 먼저 다음 필수 구성 요소를 충족하는지 확인하십시오.
 
-* [!UICONTROL AEM Assets]이(가) 설치 및 구성되었습니다. 버전 6.5 이상 [!UICONTROL AEM Assets] 설치에 대한 자세한 내용은 [[!DNL Adobe Experience Manager] 설명서](https://experienceleague.adobe.com/en/docs/experience-manager)를 참조하세요.
+* [!UICONTROL AEM Assets]이(가) 설치 및 구성되었습니다. 버전 6.5 이상 [!UICONTROL AEM Assets] 설치에 대한 자세한 내용은 [[!DNL Adobe Experience Manager] 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager)를 참조하세요.
 * (조건부) 방화벽 규칙이 예상대로 트래픽을 허용하지 않는 경우 클러스터의 IP 주소 및/또는 도메인을 허용 목록에 추가하다에 추가하십시오. 허용 목록에 추가하다 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
 
 ## [!DNL Workfront for AEM Assets] 커넥터 패키지 설치 {#install-the-workfront-for-aem-assets-connector-package}

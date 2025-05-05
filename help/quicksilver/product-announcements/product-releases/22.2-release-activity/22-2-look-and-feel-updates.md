@@ -55,7 +55,7 @@ Workfront의 문서 영역 성능을 개선했습니다. 이제 문서 페이지
 
 >[!NOTE]
 >
->2022년 3월 3일에 주간 [유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)로 프로덕션에서 대시보드 내의 동일한 보고서에 대한 도구 모음도 업데이트되었습니다.
+>2022년 3월 3일에 주간 [유지 관리 업데이트](https://experienceleague.adobe.com/ko/docs/workfront-known-issues/releases/current-updates)로 프로덕션에서 대시보드 내의 동일한 보고서에 대한 도구 모음도 업데이트되었습니다.
 
 * 프로젝트 보고서
 * 작업 보고서

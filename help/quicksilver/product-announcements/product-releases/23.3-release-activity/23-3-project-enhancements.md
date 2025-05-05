@@ -29,10 +29,10 @@ ht-degree: 0%
 * 내 업데이트 및 홈에서 직접 승인 결정
 * 특정 문서 버전에 대한 승인 만들기
 
-새 문서 승인 사용에 대한 자세한 내용은 [새 문서 승인 개요](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview)를 참조하십시오.
+새 문서 승인 사용에 대한 자세한 내용은 [새 문서 승인 개요](https://experienceleague.adobe.com/ko/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview)를 참조하십시오.
 
 ## 새 공유 단추
 
 공유 옵션을 더 직관적으로 공유하기 위해 프로젝트, 작업 및 문제에 대한 더 보기 메뉴에서 제거했습니다. 이제 [추가] 메뉴 바로 앞에 개체의 이름 옆에 새 공유 단추가 표시됩니다. 문서, 포트폴리오 및 프로그램 공유는 변경되지 않습니다.
 
-개체 공유에 대한 자세한 내용은 [개체 공유](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)를 참조하십시오.
+개체 공유에 대한 자세한 내용은 [개체 공유](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)를 참조하십시오.

@@ -64,7 +64,7 @@ ht-degree: 0%
 
 이제 새로운 설정을 사용하여 올바른 할당 결정을 내리는 데 도움이 되도록 일정에 따라 사용자가 작업할 수 있는 시간과 사용자가 이미 작업에 할당된 시간(나머지 시간) 간의 시간 차이를 볼 수 있습니다. 이제 업무 균형자에서 새 설정을 사용할 수 있습니다.
 
-업무 균형자에서 정보를 보는 방법에 대한 자세한 내용은 [업무 균형자 이동](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오. 또는 Adobe Workfront Classic을 사용하는 경우에는 [업무 균형자 이동](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하십시오.
+업무 균형자에서 정보를 보는 방법에 대한 자세한 내용은 [업무 균형자 이동](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오. 또는 Adobe Workfront Classic을 사용하는 경우에는 [업무 균형자 이동](https://experienceleague.adobe.com/ko/docs/workfront/using/home)을 참조하십시오.
 
 **다음 환경에서 사용 가능:**
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 이 변경 이전에는 이 설정이 밸런서의 할당된 작업 영역에 있는 정보만 업데이트했습니다.
 
-업무 균형자 탐색에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [업무 균형자 탐색](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하십시오).
+업무 균형자 탐색에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [업무 균형자 탐색](https://experienceleague.adobe.com/ko/docs/workfront/using/home)을 참조하십시오).
 
 **다음 환경에서 사용 가능:**
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 * 프로젝트별 그룹
 * 작업 및 프로젝트에 대해 할당된 시간 또는 남은 시간을 표시합니다.
 
-업무 균형자에서 정보를 보는 방법에 대한 자세한 내용은 [업무 균형자 이동](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [업무 균형자 이동](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하십시오).
+업무 균형자에서 정보를 보는 방법에 대한 자세한 내용은 [업무 균형자 이동](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [업무 균형자 이동](https://experienceleague.adobe.com/ko/docs/workfront/using/home)을 참조하십시오).
 
 **다음 환경에서 사용 가능:**
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 이제 직원들의 업무량을 경영진과 공유하여 직원 채용 요구에 대한 맥락을 파악할 수 있습니다. 이를 위해 이제 다른 사용자와 업무 균형자에 대한 고유 URL을 공유하여 업무 균형자를 공유할 수 있습니다.
 
-업무 균형자 탐색에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)(또는 Adobe Workfront Classic을 사용하는 경우 [업무 균형자 탐색](https://experienceleague.adobe.com/en/docs/workfront/using/home))을 참조하십시오.
+업무 균형자 탐색에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)(또는 Adobe Workfront Classic을 사용하는 경우 [업무 균형자 탐색](https://experienceleague.adobe.com/ko/docs/workfront/using/home))을 참조하십시오.
 
 **다음 환경에서 사용 가능:**
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 이 개선 이전에는 업무 균형자에 항상 현재 주부터 시작되는 정보가 표시되었습니다.
 
-업무 균형자 탐색에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)(또는 Adobe Workfront Classic을 사용하는 경우 [업무 균형자 탐색](https://experienceleague.adobe.com/en/docs/workfront/using/home))을 참조하십시오.
+업무 균형자 탐색에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)(또는 Adobe Workfront Classic을 사용하는 경우 [업무 균형자 탐색](https://experienceleague.adobe.com/ko/docs/workfront/using/home))을 참조하십시오.
 
 **다음 환경에서 사용 가능:**
 
@@ -129,11 +129,11 @@ ht-degree: 0%
 
 이 변경 전에 작업 제한 사항은 항상 가능한 한 빨리 로 변경됩니다.
 
-작업 이동에 대한 자세한 내용은 [작업 이동](../../../manage-work/tasks/manage-tasks/move-tasks.md)(또는 Adobe Workfront Classic을 사용하는 경우 [작업 이동](https://experienceleague.adobe.com/en/docs/workfront/using/home))을 참조하십시오.
+작업 이동에 대한 자세한 내용은 [작업 이동](../../../manage-work/tasks/manage-tasks/move-tasks.md)(또는 Adobe Workfront Classic을 사용하는 경우 [작업 이동](https://experienceleague.adobe.com/ko/docs/workfront/using/home))을 참조하십시오.
 
-작업 복사에 대한 자세한 내용은 [작업 복사 및 복제](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)를 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [작업 복사 및 복제](https://experienceleague.adobe.com/en/docs/workfront/using/home)를 참조하십시오).
+작업 복사에 대한 자세한 내용은 [작업 복사 및 복제](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)를 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [작업 복사 및 복제](https://experienceleague.adobe.com/ko/docs/workfront/using/home)를 참조하십시오).
 
-모든 작업 제한에 대한 개요는 [작업 제한 개요](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)를 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [작업 제한 개요](https://experienceleague.adobe.com/en/docs/workfront/using/home)를 참조하십시오).
+모든 작업 제한에 대한 개요는 [작업 제한 개요](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)를 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [작업 제한 개요](https://experienceleague.adobe.com/ko/docs/workfront/using/home)를 참조하십시오).
 
 **다음 환경에서 사용 가능:**
 
@@ -161,9 +161,9 @@ ht-degree: 0%
 * 오브젝트(프로젝트, 작업 또는 문제)에 대한 단일 사용 승인 프로세스를 만들고 해당 오브젝트에서 작업 중인 그룹과 관련된 상태를 기반으로 합니다. 여기에는 그룹과 관련된 모든 사용자 지정 상태가 포함됩니다.
 * 글로벌 승인 프로세스를 만들고 그룹 또는 시스템의 모든 사용자에 대해서만 사용할 수 있도록 합니다.
 
-승인 프로세스에 대한 관리자 액세스 권한이 있는 사용자의 경우 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)에서 승인 프로세스 구성에 대한 정보를 사용할 수 있습니다(또는 Adobe Workfront Classic을 사용하는 경우 [승인 프로세스 만들기](https://experienceleague.adobe.com/en/docs/workfront/using/home)를 참조하십시오).
+승인 프로세스에 대한 관리자 액세스 권한이 있는 사용자의 경우 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)에서 승인 프로세스 구성에 대한 정보를 사용할 수 있습니다(또는 Adobe Workfront Classic을 사용하는 경우 [승인 프로세스 만들기](https://experienceleague.adobe.com/ko/docs/workfront/using/home)를 참조하십시오).
 
-사용자의 경우 승인 프로세스를 작업 항목과 연결하는 방법에 대한 정보는 [신규 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)에서 확인할 수 있습니다(또는 Adobe Workfront Classic을 사용하는 경우 [신규 또는 기존 승인 프로세스를 작업과 연결](https://experienceleague.adobe.com/en/docs/workfront/using/home)을 참조하십시오).
+사용자의 경우 승인 프로세스를 작업 항목과 연결하는 방법에 대한 정보는 [신규 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)에서 확인할 수 있습니다(또는 Adobe Workfront Classic을 사용하는 경우 [신규 또는 기존 승인 프로세스를 작업과 연결](https://experienceleague.adobe.com/ko/docs/workfront/using/home)을 참조하십시오).
 
 **다음 환경에서 사용 가능:**
 

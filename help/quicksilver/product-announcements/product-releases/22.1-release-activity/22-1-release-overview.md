@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.1 릴리스 개요
 
-이 페이지에서는 22.1 릴리스에 포함된 기능에 대한 정보를 제공합니다. 모든 기능은 새로운 Adobe Workfront 환경에서 사용할 수 있습니다. 일부 기능은 Adobe Workfront Classic에서도 사용할 수 있습니다. 그러나 [Workfront Classic은 2022년 3월에 중단되며](https://experienceleague.adobe.com/en/docs/workfront/using/home), 곧 Workfront Classic의 사용 종료 날짜는 2022년 7월입니다.
+이 페이지에서는 22.1 릴리스에 포함된 기능에 대한 정보를 제공합니다. 모든 기능은 새로운 Adobe Workfront 환경에서 사용할 수 있습니다. 일부 기능은 Adobe Workfront Classic에서도 사용할 수 있습니다. 그러나 [Workfront Classic은 2022년 3월에 중단되며](https://experienceleague.adobe.com/ko/docs/workfront/using/home), 곧 Workfront Classic의 사용 종료 날짜는 2022년 7월입니다.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -77,7 +77,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#document" class="MCXref xref" xrefformat="{para}">업데이트 영역에 기록된 문서 다운로드</a> </p> <p>사용자가 Workfront에 저장하는 문서의 다운로드를 추적할 수 있도록 이제 누군가 문서를 다운로드할 때 시스템에서 업데이트 영역에 문서에 대한 항목을 기록합니다.</p> <p>새로 업로드한 문서에 대한 미리 보기에서 이 기능을 테스트하는 것이 좋습니다.</p> </td> 
-   <td> <p>미리보기 릴리스: 2021년 12월 16일<br></p> <p>프로덕션 릴리스: 22.1 릴리스 포함 </p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
+   <td> <p>미리보기 릴리스: 2021년 12월 16일<br></p> <p>프로덕션 릴리스: 22.1 릴리스 포함 </p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#create" class="MCXref xref" xrefformat="{para}">Workfront과 응용 프로그램을 통합하는 OAuth2 앱 만들기</a> </p> <p>이제 Workfront을 Workfront에서 기본 제공 통합을 제공하지 않는 다른 애플리케이션과 통합할 수 있습니다. 통합하려는 애플리케이션에 대한 OAuth2 앱을 생성하면 데이터가 보안 업계 표준 OAuth2 인증 프로토콜에 의해 보호된다는 사실을 알면서도 해당 애플리케이션이 Workfront에 액세스하도록 할 수 있습니다.</p> <p>이전에는 내장된 통합, Workfront Fusion 또는 Workfront API를 통해서만 다른 애플리케이션과 통합할 수 있었습니다.</p> </td> 
@@ -140,11 +140,11 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#groups" class="MCXref xref" xrefformat="{para}">그룹별로 타임시트 및 시간 환경 설정을 구성할 수 있음</a> </p> <p>대규모 조직의 경우, 일부 그룹은 시스템 수준에서 관리자가 구성한 환경 설정을 상속하지 않고 고유 워크플로우에 맞게 타임시트 및 시간 환경 설정을 독립적으로 구성해야 할 수 있습니다. 이제 Workfront 관리자는 시스템의 모든 그룹에 대한 타임시트 및 시간 기본 설정을 잠금 해제하여 직접 구성할 수 있습니다.</p> <p>이 기능은 프로젝트 환경 설정 및 작업 및 문제 환경 설정에 대해서도 최근에 추가되었습니다. </p> </td> 
-   <td> <p><b>다음 날짜에 사용 가능:</b> </p> <p>미리보기 릴리스: 2021년 9월 9일<br></p> <p>프로덕션 릴리스: 2021년 11월 8일 <span style="color: #ff0000;">(이 기능은 21.4 릴리스를 사용하는 클러스터 4의 고객에게만 프로덕션에서 제공되었으며, 2021년 11월 8일에 프로덕션의 다른 모든 클러스터에 대해 제공되었습니다.)</span></p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
+   <td> <p><b>다음 날짜에 사용 가능:</b> </p> <p>미리보기 릴리스: 2021년 9월 9일<br></p> <p>프로덕션 릴리스: 2021년 11월 8일 <span style="color: #ff0000;">(이 기능은 21.4 릴리스를 사용하는 클러스터 4의 고객에게만 프로덕션에서 제공되었으며, 2021년 11월 8일에 프로덕션의 다른 모든 클러스터에 대해 제공되었습니다.)</span></p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#select2" class="MCXref xref" xrefformat="{para}">그룹에 대해 잠금 해제하거나 다시 잠글 여러 알림을 선택하십시오</a> </p> <p>이제 그룹에 대한 이메일 알림을 잠금 해제하거나 다시 잠그는 것이 더 빠르고 쉽습니다. 이제 여러 알림을 선택하고 선택 내용이 올바른지 확인한 다음 도구 모음에 표시되는 새로운 잠금 해제 또는 잠금 버튼을 클릭할 수 있습니다.</p> <p>이전에는 알림을 한 번에 하나씩 잠금 해제했다가 다시 잠가야 했습니다. Workfront에는 현재 95개의 알림이 있으므로 전체 또는 많은 알림에 대해 수행해야 하는 경우 시간이 다소 걸렸습니다.</p> </td> 
-   <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 2021년 10월 14일 <br></p> <p>프로덕션 릴리스: 22.1 릴리스 포함 </p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
+   <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 2021년 10월 14일 <br></p> <p>프로덕션 릴리스: 22.1 릴리스 포함 </p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#for" class="MCXref xref" xrefformat="{para}">그룹 관리자의 경우: 그룹을 삭제할 때 더 쉽게 대체 그룹을 선택할 수 있습니다</a> </p> <p>그룹을 삭제할 때 [그룹 삭제] 상자의 두 가지 개선 사항을 사용하면 삭제된 그룹의 사용자, 작업 항목 및 하위 그룹을 유지할 대체 그룹을 쉽게 선택할 수 있습니다.</p> 
@@ -173,7 +173,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#limit" class="MCXref xref" xrefformat="{para}">공유 중인 서식 파일에 문서를 추가하는 기능을 제한합니다</a> </p> <p>프로젝트에 문서를 추가하는 것으로 생각하고 프로젝트 템플릿에 문서를 추가하는 경우가 있습니다. 이제 보기 액세스 권한이 있는 템플릿을 공유할 때 문서 추가 의 새로운 고급 설정을 비활성화하여 이 문제를 방지할 수 있습니다. 수신자가 템플릿에 문서를 추가할 수 없게 됩니다.</p> </td> 
-   <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 2021년 10월 14일 <br></p> <p>프로덕션 릴리스: 22.1 릴리스 포함 </p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
+   <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 2021년 10월 14일 <br></p> <p>프로덕션 릴리스: 22.1 릴리스 포함 </p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#update" class="MCXref xref" xrefformat="{para}">대시보드의 대시보드 목록 및 보고서에 대한 도구 모음을 업데이트했습니다</a> </p> <p>이제 4개의 대시보드 페이지에 있는 도구 모음에는 프로젝트, 작업 및 문제와 같은 다른 Workfront 목록과 일치하는 현대적인 모양과 느낌이 있습니다. 이제 이 직관적인 도구 모음을 사용하여 대시보드를 더 쉽게 추가, 편집, 공유, 복사 및 삭제할 수 있습니다.</p> </td> 
@@ -238,7 +238,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-resource-mgt-enhancements.md#override" class="MCXref xref" xrefformat="{para}">작업 역할을 관리할 때 통화 재정의</a> </p> <p>글로벌 조직 전체의 비용 및 청구 요금을 쉽게 관리할 수 있도록 작업 역할의 통화 재정의를 구현했습니다. 이제 이 기능을 사용하여 작업 역할의 위치와 일치하는 통화로 작업 역할에 대한 비용 및 청구 요금을 설정할 수 있습니다. 작업 역할에 대한 모든 재무 계산에서 시스템 통화를 재정의합니다.</p> </td> 
-   <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 2021년 12월 2일 <br></p> <p>프로덕션 릴리스: 22.1 릴리스 포함 </p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
+   <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 2021년 12월 2일 <br></p> <p>프로덕션 릴리스: 22.1 릴리스 포함 </p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -289,11 +289,11 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>증명에 대한 <a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md#electron" class="MCXref xref" xrefformat="{para}">전자 서명 개선</a> </p> <p>사용자가 증명에 전자 방식으로 더 쉽게 서명할 수 있도록 했습니다. 이제 사용자는 Workfront 자격 증명을 사용하여 증명에 대한 의사 결정에 서명할 수 있습니다.</p> <p>SSO 자격 증명으로 증명에 전자 방식으로 서명하려면 Workfront Proof에서 SSO를 설정해야 합니다. </p> <p>이전에는 사용자가 Workfront 자격 증명과 다른 Workfront Proof 자격 증명을 사용해야 했습니다.</p> </td> 
-   <td><strong>다음 날짜에 사용 가능:</strong> <p>미리 보기 릴리스: 2021년 12월 2일 <b style="color: #ff0000;">(EMEA 및 미국 고객 모두 사용 가능)</b><br></p> <p>프로덕션 릴리스: TBD <b style="color: #ff0000;">(2021년 12월 21일 EMEA의 고객이 사용할 수 있음, 2022년 2월 3일 나머지 모든 고객이 사용할 수 있음)</b></p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
+   <td><strong>다음 날짜에 사용 가능:</strong> <p>미리 보기 릴리스: 2021년 12월 2일 <b style="color: #ff0000;">(EMEA 및 미국 고객 모두 사용 가능)</b><br></p> <p>프로덕션 릴리스: TBD <b style="color: #ff0000;">(2021년 12월 21일 EMEA의 고객이 사용할 수 있음, 2022년 2월 3일 나머지 모든 고객이 사용할 수 있음)</b></p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md#desktop" class="MCXref xref" xrefformat="{para}">데스크톱 뷰어 업그레이드</a> </p> <p>대화형 증명과의 호환성을 높이기 위해 최대 Chrome 버전 91을 지원하도록 Desktop Proofing Viewer를 업그레이드했습니다.</p> <p>Windows 사용자가 최신 버전으로 업그레이드하려면 데스크톱 뷰어를 수동으로 다시 설치해야 합니다. 이후 Desktop Proofing Viewer에 대한 향후 업데이트는 자동으로 수행됩니다.</p> <p>Mac 사용자는 자동으로 최신 버전으로 업그레이드됩니다.</p> </td> 
-   <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 해당 사항 없음<br></p> <p>프로덕션 릴리스: 2021년 12월 2일</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
+   <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 해당 사항 없음<br></p> <p>프로덕션 릴리스: 2021년 12월 2일</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -332,7 +332,7 @@ For specific release dates and times for each cluster, see the
      <li> <p>이제 타임시트 버튼이 포함된 바닥글이 고정되므로 페이지 맨 아래로 스크롤하지 않고 항상 저장 및 취소에 액세스할 수 있습니다. 또한 페이지 맨 위로 빠르게 돌아가기 위해 이 영역에 다시 맨 위로 단추를 새로 추가했습니다.</p> </li> 
      <li> <p>이제 새 경고 알림이 저장되지 않은 변경 사항에 대해 경고하여 타임시트에서 이동할 때 정보를 잃지 않도록 합니다.</p> </li> 
     </ul> </td> 
-   <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 2021년 12월 2일<br></p> <p>프로덕션 릴리스: 22.1 릴리스 포함</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
+   <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 2021년 12월 2일<br></p> <p>프로덕션 릴리스: 22.1 릴리스 포함</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> <p>Adobe Workfront Classic(<a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md#updated" class="MCXref xref" xrefformat="{para}">도움말 메뉴를 업데이트함</a> </p> <p>이제 위쪽 탐색 막대에서 도움말 링크를 클릭하면 보다 간소화된 업데이트된 메뉴가 나타납니다. 새 메뉴에서는 동일한 정보를 제공하지만 탐색 수준이 낮아 관련 콘텐츠를 보는 데 필요한 클릭 수가 줄어듭니다.</p> </td> 
@@ -365,7 +365,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 22.1 릴리스 일정이 아닌 다른 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 22.1 릴리스 일정이 아닌 다른 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ## Workfront Scenario Planner 개선 사항
 
@@ -417,7 +417,7 @@ Workfront 22.1 릴리스 웨비나는 2022년 1월 12일에 제공되었습니�
 
 ## 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
 
 ## 기능이 더 이상 지원되지 않음
 
