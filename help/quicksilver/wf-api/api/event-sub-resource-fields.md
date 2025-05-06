@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
+source-git-commit: 50878d9799025f35101cc267d26f2f6330750357
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '763'
 ht-degree: 9%
 
 ---
@@ -42,6 +42,11 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>접근자 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>actualWorkPerDayStartDate</td> 
   </tr> 
   <tr> 
@@ -67,12 +72,22 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td> 범주 ID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> 분류자 ID </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
    <td> customerID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> financeLastUpdateDate </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -92,9 +107,23 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td> 마지막 업데이트 날짜 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> lastUpdatedByID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> objCode </td> 
   </tr> 
   <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objectCategors </td> 
+  </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
