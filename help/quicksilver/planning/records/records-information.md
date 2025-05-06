@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 594504c6a7acc9341471371ca279379042a45457
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '158'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,7 @@ Adobe Workfront Planning에서 레코드 유형을 만든 후 해당 유형의 �
 * [레코드 만들기](/help/quicksilver/planning/records/create-records.md)
 * [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)
 * [레코드에 연결할 때 Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Adobe Workfront Planning 자동화 구성](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
 * [Adobe Workfront Planning 레코드 자동화를 사용하여 객체 생성](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [레코드 편집](/help/quicksilver/planning/records/edit-records.md)
 * [레코드 삭제](/help/quicksilver/planning/records/delete-records.md)

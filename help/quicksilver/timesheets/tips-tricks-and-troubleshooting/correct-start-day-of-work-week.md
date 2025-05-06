@@ -2,39 +2,61 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: 타임시트의 작업 주 시작일 수정
-description: 내 타임시트에 있는 주의 시작 일자가 내 타임시트 프로필에 구성된 주의 시작 일자와 일치하지 않습니다.
+title: Correct the Start Day of the Work Week for Timesheets
+description: The start day of the week on my timesheet does not match my expected weekly start day.
 author: Alina
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # 타임시트의 작업 주 시작일 수정
 
+<!--Audited: 5/2025-->
+
 ## 문제
 
-내 타임시트의 시작 요일이 내 타임시트 프로필에 구성된 주의 시작 요일과 일치하지 않습니다([타임시트 프로필 만들기, 편집 및 할당](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)에 설명된 대로).
+The start day of the week on my timesheet does not match my expected weekly start day.
+
+This typically occurs when you are not assigned to a Timesheet Profile and your timesheet was manually created.
+
 
 ## 솔루션
 
-Adobe Workfront의 타임시트 시작 일자는 브라우저의 언어 및 로케일 설정을 사용하여 요일을 결정합니다. 따라서 브라우저에 대한 언어 및 로케일 설정을 업데이트해야 합니다.
+Your Workfront administrator should create timesheet profiles and assign everyone to a profile, as described in [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). Your Workfront administrator might define the start date of a timesheet on a day other than your expected weekly start date. Check with them to find out what the start date of a timesheet profile is for your timesheet.
 
-예를 들어 브라우저 언어가 영어로 설정되고 로케일이 미국으로 설정되면 주가 일요일에 시작됩니다. 또는 브라우저 언어가 영어로 설정되고 로케일이 영국으로 설정된 경우 시작일은 월요일입니다.
+If your timesheet was manually created, the start day of the week in the timesheet uses the Email Locale settings in your user&#39;s profile, as described in the article [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
-이 설정은 시스템의 팝업 달력에서 요일의 시작일에도 영향을 줍니다.
+For example, with the Email Locale set to English (United States), the week in the timesheet starts on Sunday. Alternatively, with the Email Locale set to English (United Kingdom), the week in the timesheet starts on a Monday.
 
-로케일 변경은 리소스 그리드(또는 리소스 그리드 보기)의 요일에 영향을 주지 않습니다. 그 주는 항상 일요일에 시작한다.
 
-다음은 Workfront에서 지원되는 다양한 브라우저에 대한 언어 및 로케일 설정을 변경하는 지침입니다.
+<!--This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
 
-* **Chrome:** Chrome 브라우저에 다음 링크 `chrome://settings/languages`을(를) 복사하여 붙여 넣은 다음 언어로 이동하십시오.
-* **Firefox:**&#x200B;다음 링크를 복사하여 Firefox 브라우저에 붙여 넣은 다음 `about:preferences#content` 언어로 이동합니다.
-* **IE 11:** 도구 -> 인터넷 옵션 -> 일반 -> 언어
-* **Safari:** 죄송합니다. Safari에서는 전체 운영 체제 언어를 변경하지 않고 웹 탐색 언어를 변경할 수 없습니다. Chrome 또는 Firefox와 같은 다른 브라우저를 설치하는 것이 더 쉬울 수 있습니다.
+## Problem
+
+The start day of the week on my timesheet does not match the start day of the week that is configured on my timesheet profile (as described in [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).).
+
+## Solution
+
+The start day of the week of a timesheet in Adobe Workfront uses the language and locale settings in your browser to determine the day of the week. Because of this, you need to update the language and locale settings for your browser. 
+
+For example, with the browser language set to English and the locale set to United States, the week starts on Sunday. Alternatively, the browser language set to English and the locale set to United Kingdom, the start day is Monday.
+
+This setting also affects the start day of the week in the pop-up calendars across the system.
+
+The locale change does not affect the start day of the week on the Resource Grid (or resource grid view). The week always starts on Sunday.
+
+Following are the directions for changing language and locale settings for various browsers that are supported with Workfront.
+
+* **Chrome:** Copy and paste the following link into your Chrome browser: `chrome://settings/languages` then go to Languages.
+* **Firefox:**Copy and paste the following link into your Firefox browser: `about:preferences#content` then go to Languages.
+* **IE 11:** Tools -> Internet Options -> General -> Languages
+* **Safari:** Unfortunately, Safari does not allow changing web browsing languages without also changing your entire operating system language. It is probably easier to simply install another browser like Chrome or Firefox.
+
+-->
 
 
