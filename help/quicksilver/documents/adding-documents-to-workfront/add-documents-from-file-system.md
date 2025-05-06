@@ -6,9 +6,9 @@ description: Adobe Workfront의 여러 영역에서 프로젝트, 작업 또는 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ Workfront 사이트는 다음과 같은 방법으로 문서를 통해 바이러�
 
 문서 스캔이 활성화된 경우 25MB 이하의 파일을 업로드할 때 스캔됩니다. 25MB가 넘는 파일은 검사되지 않습니다.
 
-Workfront에서 손상된 문서를 감지하면 Workfront이 업로드 프로세스를 중단하고 파일이 손상되었음을 나타내는 메시지가 나타납니다. 또한 Workfront에서 잠재적인 악성 콘텐츠를 탐지하고 파일을 제거할 예정이 되면 이메일 알림을 받게 됩니다.
+Workfront에서 손상된 문서를 감지하면 파일이 손상되었음을 나타내는 메시지가 나타납니다. 또한 Workfront에서 잠재적인 악성 콘텐츠를 탐지하고 파일을 제거할 예정이 되면 이메일 알림을 받게 됩니다.
 
 수동으로 제거하지 않는 한 검색 후 24시간 이내에 손상된 파일이 제거됩니다. 손상된 파일을 삭제하면 Workfront이 이 작업을 업데이트로 추적합니다. Workfront에서 제거하도록 허용하면 업데이트가 기록되지 않습니다.
 
