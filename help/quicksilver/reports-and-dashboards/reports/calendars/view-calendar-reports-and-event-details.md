@@ -6,9 +6,9 @@ description: Adobe Workfront에서 생성했거나 공유한 캘린더 보고서
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
+source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -90,18 +90,18 @@ Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤�
 
 1. (선택 사항) [!UICONTROL 월] 또는 [!UICONTROL 주] 보기에서 캘린더를 보는 경우 다음 옵션을 사용하여 캘린더 보기를 변경할 수 있습니다.
 
-   * 주말을 포함하거나 제외하려면 다음을 수행합니다.
+<!--   * To include or exclude weekends:
 
-      1. **[!UICONTROL 일정]** 도구 모음에서 **[!UICONTROL 일정 작업]**&#x200B;을 클릭한 다음 드롭다운 목록에서 **[!UICONTROL 주말 표시]** 또는 **[!UICONTROL 주말 숨기기]**&#x200B;를 선택합니다.
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-   * 표시된 일자를 빠르게 변경하려면
+* 표시된 일자를 빠르게 변경하려면
 
-      1. **[!UICONTROL 달력]** 도구 모음에서 날짜 표시기의 왼쪽 화살표를 클릭하여 달력에서 뒤로 이동하거나 오른쪽 화살표를 클릭하여 앞으로 이동합니다.
+   1. **[!UICONTROL 달력]** 도구 모음에서 날짜 표시기의 왼쪽 화살표를 클릭하여 달력에서 뒤로 이동하거나 오른쪽 화살표를 클릭하여 앞으로 이동합니다.
 
-         날짜를 변경하려면 ![화살표를 클릭하세요](assets/click-arrows-to-change-dates-calendar-report.png)\
-         표시되는 날짜는 현재 달력 보기에 따라 간격에 따라 조정됩니다. 예를 들어, [!UICONTROL 주] 보기에서 달력을 보는 경우 선택한 화살표에 따라 달력은 1주일 앞으로 또는 1주일 뒤로 표시됩니다.
+      날짜를 변경하려면 ![화살표를 클릭하세요](assets/click-arrows-to-change-dates-calendar-report.png)\
+      표시되는 날짜는 현재 달력 보기에 따라 간격에 따라 조정됩니다. 예를 들어, [!UICONTROL 주] 보기에서 달력을 보는 경우 선택한 화살표에 따라 달력은 1주일 앞으로 또는 1주일 뒤로 표시됩니다.
 
-      1. (선택 사항) 현재 날짜로 돌아가려면 [!UICONTROL **오늘**]&#x200B;을 클릭합니다.
+   1. (선택 사항) 현재 날짜로 돌아가려면 [!UICONTROL **오늘**]&#x200B;을 클릭합니다.
 
 
 1. (선택 사항) 전체 화면으로 달력을 보려면 **[!UICONTROL 달력]** 도구 모음의 오른쪽에 있는 전체 화면 화살표를 클릭합니다.
