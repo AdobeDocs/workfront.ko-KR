@@ -2,20 +2,22 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: 작업 정보
+title: '작업 정보: 문서 색인'
 description: 작업은 Adobe Workfront에서 프로젝트 완료에 기여하는 작업 항목입니다. 다음 문서에서 작업 정보에 대해 알아보십시오.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
-# 작업 정보
+# 작업 정보: 문서 색인
+
+<!-- Audited: 5/2025 -->
 
 이 섹션에는 다음 문서가 포함됩니다.
 

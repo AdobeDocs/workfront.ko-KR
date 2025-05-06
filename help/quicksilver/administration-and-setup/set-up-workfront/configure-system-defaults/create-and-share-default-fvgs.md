@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 1%
@@ -66,7 +66,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 인터페이스]** > **[!UICONTROL 필터]**&#x200B;를 클릭합니다.
 
-   * **[!UICONTROL 인터페이스] >** **[!UICONTROL 보기]**&#x200B;를 클릭합니다.
+   * **[!UICONTROL 인터페이스]** > **[!UICONTROL 보기]**&#x200B;를 클릭합니다.
 
    * **[!UICONTROL 인터페이스]** > **[!UICONTROL 그룹화]**&#x200B;를 클릭합니다.
 
@@ -81,7 +81,7 @@ ht-degree: 1%
    사용 가능한 옵션에 대한 자세한 내용은 다음 문서 중 하나를 참조하십시오.
 
    * [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * [!UICONTROL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)의 보기 개요
+   * [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)의 [보기 개요
    * [[!UICONTROL Adobe Workfront]의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 1. 왼쪽 아래 모서리 근처에 있는 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

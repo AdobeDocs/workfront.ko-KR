@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: requests
 navigation-topic: projects-navigation-topic
-title: 요청
+title: '요청: 문서 색인'
 description: 다음 섹션에서 요청 및 요청 대기열을 만드는 방법에 대해 알아봅니다.
 author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: f7c12f06-868e-45da-816b-4eb94e06c783
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '31'
+ht-degree: 0%
 
 ---
 
-# 요청
+# 요청: 문서 색인
+
+<!-- Audited: 5/2025 -->
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
