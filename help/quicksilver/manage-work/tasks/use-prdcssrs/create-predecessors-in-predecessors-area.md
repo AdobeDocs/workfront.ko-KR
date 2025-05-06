@@ -87,7 +87,7 @@ Adobe Workfront의 다음 영역에서 작업의 전임 작업을 볼 수 있습
 
 1. **Lag** 금액을 입력하십시오.
 
-   자세한 내용은 {&#x200B;0}지연 유형 개요](../../../manage-work/tasks/use-prdcssrs/lag-types.md)를 참조하십시오.[
+   자세한 내용은 {&#x200B;0}지연 유형 개요[&#128279;](../../../manage-work/tasks/use-prdcssrs/lag-types.md)를 참조하십시오.
 
    ![전임 작업 추가 대화 상자](assets/add-predecessor-dialog-box.png)
 

@@ -127,7 +127,7 @@ ht-degree: 0%
 ## 표시 옵션 구성
 
 1. **작업 목록 간트 차트** 또는 **프로젝트 목록 간트 차트**(으)로 이동합니다.\
-   Gantt 차트의 위치에 대한 자세한 내용은 [Gantt 차트 시작]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)을 참조하세요.[!UICONTROL 
+   Gantt 차트의 위치에 대한 자세한 내용은 [Gantt 차트 시작](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)을 참조하세요.
 
 1. (선택 사항) **예상 날짜로 전환** 설정을 선택하여 예상 날짜별로 작업을 표시합니다. 기본적으로 작업은 계획된 일자에 따라 표시됩니다.
 1. **옵션** 아이콘을 클릭합니다. **옵션** 대화 상자가 열립니다.\
