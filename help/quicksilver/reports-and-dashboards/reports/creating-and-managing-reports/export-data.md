@@ -81,7 +81,7 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
  </tbody> 
 </table>
 
-*자세한 내용은 Workfront 설명서](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)에서 액세스 요구 사항을 참조하십시오[.
+*자세한 내용은 Workfront 설명서[&#128279;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)에서 액세스 요구 사항을 참조하십시오.
 
 +++
 
@@ -89,7 +89,7 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
 
 데이터를 내보내기 전에 보고서를 만들어야 합니다.
 
-보고서 만들기에 대한 자세한 내용은 사용자 지정 보고서](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 만들기 또는 [보고서](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) 복사본 만들기를 참조하십시오[.
+보고서 만들기에 대한 자세한 내용은 사용자 지정 보고서[&#128279;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 만들기 또는 [보고서](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) 복사본 만들기를 참조하십시오.
 
 ## 내보내기 형식 및 제한
 
@@ -142,7 +142,7 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
    * API 통합을 통한 내보내기.
    * 킥스타트를 통해 내보낸 데이터.
 
-     킥 스타트를 통한 데이터 내보내기에 대한 자세한 내용은 킥 스타트를 통해 Adobe Systems Workfront에서 데이터 내보내기를](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md) 참조하십시오[.
+     킥 스타트를 통한 데이터 내보내기에 대한 자세한 내용은 킥 스타트를 통해 Adobe Systems Workfront에서 데이터 내보내기를[&#128279;](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md) 참조하십시오.
 
      >[!NOTE]
      >
@@ -341,4 +341,4 @@ Workfront 관리자가 전역 탐색 막대에 대한 Workfront 인스턴스에 
 
 다른 형식으로 내보낸 데이터는 로고로 개인화할 수 없습니다.
 
-Workfront 인스턴스 및 전역 탐색 막대 브랜딩에 대한 자세한 내용은 Adobe Systems Workfront 인스턴스](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md) 브랜딩을 참조하십시오[.
+Workfront 인스턴스 및 전역 탐색 막대 브랜딩에 대한 자세한 내용은 Adobe Systems Workfront 인스턴스[&#128279;](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md) 브랜딩을 참조하십시오.

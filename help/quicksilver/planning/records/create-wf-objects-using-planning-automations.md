@@ -130,7 +130,7 @@ Workfront Planning에서 자동화를 사용하여 다음 항목을 생성할 �
 
   `[ Name of the record ] Name of the field choice`
 
-  자세한 내용은 이 문서의 Workfront Planning 자동화를 사용하여 개체 또는 레코드](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) 만들기 섹션을 참조하십시오[.
+  자세한 내용은 이 문서의 Workfront Planning 자동화를 사용하여 개체 또는 레코드[&#128279;](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) 만들기 섹션을 참조하십시오.
 
 * 새로 만들기 대상체 또는 레코드는 동일한 필드에 있는 기존 대상체 또는 레코드를 덮어쓰지 않습니다. 동일한 레코드에 대해 동일한 자동화를 여러 번 트리거하면 이전에 생성된 것 외에 원래 레코드의 동일한 연결된 필드에 새 개체 또는 레코드가 추가됩니다.
 
