@@ -21,7 +21,7 @@ Adobe Workfront 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 >[!TAB 최신 릴리스]
 
 * [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
-* [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning 2025년 3분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 * [Adobe Workfront Planning 2025년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Adobe Workfront Planning 2025년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
@@ -42,7 +42,7 @@ Adobe Workfront 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 * [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning 2025년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 >[!TAB 베타]
@@ -51,7 +51,7 @@ Adobe Workfront 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 
 >[!TAB 알려진 문제]
 
-* [알려진 문제](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
+* [알려진 문제](https://experienceleague.adobe.com/ko/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -70,7 +70,7 @@ Adobe Workfront 제품 및 기술 설명서 홈 페이지를 시작합니다. �
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Workfront 관리 시작</a></li>
-    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Workfront Fusion 시작</li>
+    <li><a href="https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Workfront Fusion 시작</li>
     </ul>
  </td>
     <td>
@@ -108,9 +108,9 @@ Adobe Workfront 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 
 ### 학습 및 교육 섹션 탐색
 
-* **교육 자료**: Workfront 기능 및 설정을 더 잘 이해할 수 있도록 고안된 교육 비디오 및 문서 라이브러리의 [Workfront 교육](https://experienceleague.adobe.com/en/browse/workfront) 페이지로 이동합니다. [learning.adobe.com](https://learning.adobe.com/)에서 유료 교육 자료에 액세스할 수도 있습니다.
-* **과정**: 논리적 시퀀스에서 다양한 Workfront 기능을 사용하는 방법을 안내하는 [구조화된 학습 과정](https://experienceleague.adobe.com/home?Solution=Workfront#courses)을 찾으십시오.
+* **교육 자료**: Workfront 기능 및 설정을 더 잘 이해할 수 있도록 고안된 교육 비디오 및 문서 라이브러리의 [Workfront 교육](https://experienceleague.adobe.com/ko/browse/workfront) 페이지로 이동합니다. [learning.adobe.com](https://learning.adobe.com/)에서 유료 교육 자료에 액세스할 수도 있습니다.
+* **과정**: 논리적 시퀀스에서 다양한 Workfront 기능을 사용하는 방법을 안내하는 [구조화된 학습 과정](https://experienceleague.adobe.com/home?lang=ko&Solution=Workfront#courses)을 찾으십시오.
 
 ### 커뮤니티 포럼에서 답변 찾기
 
-* **질문하기**: 설명서가 질문에 대답하지 않으면 다른 사용자와 전문가가 도움을 제공할 수 있는 [Workfront 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en)에 게시해 보십시오.
+* **질문하기**: 설명서가 질문에 대답하지 않으면 다른 사용자와 전문가가 도움을 제공할 수 있는 [Workfront 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ko)에 게시해 보십시오.
