@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1199'
 ht-degree: 1%
 
 ---
@@ -201,7 +201,7 @@ ht-degree: 1%
 
 사용자가 서드파티 문서 통합을 구성한 후 이를 사용할 수 있는 방법에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
-### [!UICONTROL [!DNL Workfront] DAM] (으)로 메타데이터를 보내도록 [!DNL Workfront] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
+### [!UICONTROL [!DNL Workfront] DAM](으)로 메타데이터를 보내도록 [!DNL Workfront] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>
@@ -250,4 +250,12 @@ ht-degree: 1%
 
 ## 제한 사항
 
-* Google 드라이브 문서 통합은 Google 드라이브의 내 드라이브 영역에서 폴더 및 이미지 추가를 지원합니다. 공유 드라이브에서는 폴더나 이미지를 추가할 수 없습니다. [Google 공유 드라이브](https://support.google.com/a/users/answer/7212025?hl=en)에 대해 자세히 알아보세요.
+### Google 드라이브 통합
+
+* 연결된 폴더가 Workfront에 추가되면 폴더의 파일이 더 이상 자동으로 추가되지 않습니다.
+   * 파일 없이 Google 폴더를 Workfront에 추가한 다음 개별 파일을 Workfront에 추가할 수 있습니다. 파일은 Workfront의 Google 폴더에 자동으로 추가됩니다.
+또는
+   * Workfront에서 문서 폴더를 만든 다음 Google 폴더에서 모든 파일을 선택하고 Workfront 폴더에 추가할 수 있습니다.
+
+
+* Google 드라이브 문서 통합은 Google 드라이브의 내 드라이브 영역에서 파일 추가를 지원합니다. 공유 드라이브에서는 폴더나 이미지를 추가할 수 없습니다. [Google 공유 드라이브](https://support.google.com/a/users/answer/7212025?hl=en)에 대해 자세히 알아보세요.
