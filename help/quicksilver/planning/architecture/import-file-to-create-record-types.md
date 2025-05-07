@@ -109,7 +109,7 @@ ht-degree: 1%
 * 빈 시트는 지원되지 않습니다.
 * 다음 유형의 필드는 지원되지 않으며 가져오기 시트의 필드에 매핑할 수 없습니다.
 
-   * <!--In the Production environment,--> Planning 레코드 또는 Workfront 및 AEM Assets 객체에 대한 연결 필드
+   * &#x200B;<!--In the Production environment,--> Planning 레코드 또는 Workfront 및 AEM Assets 객체에 대한 연결 필드
 
      <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
 
