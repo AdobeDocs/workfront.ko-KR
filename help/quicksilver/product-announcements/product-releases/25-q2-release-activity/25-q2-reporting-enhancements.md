@@ -4,9 +4,10 @@ description: 2025년 2분기 보고 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: afd73cab145c1f1b73c06ee093de92a28f10bea4
+exl-id: 50639b81-d4d0-4702-98ba-2d5ec29575dc
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ Workfront 캘린더의 모양과 느낌을 Workfront의 다른 영역과 일관�
 * 달력을 만들고 이름을 변경하는 방법
 * 캘린더 작업이 캘린더 이름 옆에 있는 기타 메뉴로 이동되었습니다.
 * 달력 정보를 볼 수 있는 새 사이드 패널
+* 더 이상 주말을 숨길 수 없습니다.
 * 기타
 
 자세한 내용은 [달력](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) 문서를 참조하십시오.

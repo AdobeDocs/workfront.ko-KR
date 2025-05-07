@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,25 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >이 페이지에 나열된 기능은 단계별 릴리스의 일부이며, 특정 고객에게만 제공됩니다.
+
+## 연결된 Google 폴더의 Assets을 Workfront에 표시하려면 개별적으로 추가해야 합니다.
+
+>[!NOTE]
+>
+>* 미리보기 릴리스: 2025년 5월 31일, 모든 고객을 위한 프로덕션 릴리스: 2025년 5월 31일
+
+Google은 Google Drive에 액세스하는 타사 응용 프로그램에 대해 [보안 제어를 강화](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps)하므로 응용 프로그램에서 사용자별 동의 모델을 채택해야 합니다. 따라서 개별 에셋이 Workfront에서 표시되도록 한 번에 하나씩 연결되어야 합니다. 자세한 내용은 [문서 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md)을 참조하십시오.
+
+변경되지 않는 주요 기능:
+
+* Google 드라이브 모달 내에서 에셋 및 폴더를 검색하고 필터링합니다
+* Google 드라이브에서 Workfront 개체에 자산 연결
+* 문서 페이지의 &quot;전송 대상&quot; 드롭다운을 통해 Google 드라이브에 에셋 업로드
+* 사용자의 내 드라이브 영역에서 폴더 구조 보기 및 액세스
+* Google 드라이브의 새 자산 버전을 Workfront의 기존 문서에 연결합니다.
+* Google 드라이브에서 Workfront 개체에 폴더 연결
+* 연결된 폴더로 문서를 끌어다 놓아 Google 드라이브에 에셋 업로드
+* Workfront 내에서 새 Google 드라이브 문서 만들기
 
 
 ## 증명 뷰어에서 사용할 수 있는 새 문서 승인 결정 버튼
