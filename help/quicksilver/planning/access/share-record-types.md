@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
 <p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
-<p>사용자가 권한 요청에서 보기에 대한 권한을 요청하고 부여할 수 있으려면 조직이 Adobe 통합 경험에 온보딩되어야 합니다. </p>
+<p>Workfront Planning 보기에 대한 권한을 얻으려면 Adobe Admin Console에 사용자를 추가해야 합니다.</p>
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
@@ -154,7 +154,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 
    **공유** 상자가 열립니다.
 
-   ![&#128279;](assets/permissions-for-record-types-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드 형식에 대한 사용 권한
+   ](assets/permissions-for-record-types-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드 형식에 대한 ![사용 권한
 
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 레코드 유형을 볼 수 있습니다.
 
@@ -199,7 +199,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 
 ## 레코드 유형에 대한 권한 제거
 
-레코드 유형에서 사용자의 권한을 제거할 수 있습니다. 그러나 레코드 유형 이상을 볼 수 있는 권한을 부여하는 작업 영역에 대한 적어도 보기 액세스 권한은 유지됩니다. 작업 영역의 레코드 유형에 대한 권한이 없도록 하려면 작업 영역에서 해당 액세스 권한을 제거해야 합니다.
+레코드 유형에서 사용자의 권한을 제거할 수 있습니다. 그러나 레코드 유형에 대해 적어도 보기 권한을 제공하는 작업 영역에 대해 적어도 보기 권한은 유지됩니다. 작업 영역의 레코드 유형에 대한 권한이 없도록 하려면 작업 영역에서 해당 액세스 권한을 제거해야 합니다.
 
 {{step1-to-planning}}
 

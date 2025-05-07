@@ -1,14 +1,14 @@
 ---
-title: Workfront Planning에서 Workfront 개체 만들기
+title: 레코드에 연결할 때 Workfront Planning에서 Workfront 개체 만들기
 description: Workfront Planning의 다른 레코드에서 연결할 때 Workfront 객체 유형을 만들 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1108'
 ht-degree: 2%
 
 ---
@@ -144,7 +144,7 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
 
 1. [레코드 연결](/help/quicksilver/planning/records/connect-records.md) 문서에 설명된 대로 레코드의 세부 정보 페이지 또는 레코드 유형의 테이블로 이동하여 Workfront Planning 레코드와 Workfront 프로젝트 연결을 시작합니다.
 
-1. (조건부) **프로젝트 추가**&#x200B;를 클릭합니다
+1. (조건부) **프로젝트 추가**를 클릭합니다
 또는
 프로젝트 이름을 입력한 다음 찾을 수 없는 경우 **프로젝트 추가**&#x200B;를 클릭합니다. [추가] 단추 다음에 입력한 프로젝트 이름이 옵니다.
 

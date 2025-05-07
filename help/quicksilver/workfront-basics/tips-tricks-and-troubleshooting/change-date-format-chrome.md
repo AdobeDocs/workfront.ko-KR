@@ -6,9 +6,9 @@ title: ' [!DNL Adobe Workfront]에서 날짜 형식 변경'
 description: ' [!DNL Adobe Workfront] 의 날짜 형식을 변경하려면 브라우저에서 언어 설정을 변경해야 합니다.'
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 이 문서의 정보는 아직 Adobe 통합 경험에 온보딩되지 않은 조직에만 적용됩니다.
+> 이 문서의 정보는 Adobe 통합 경험에 아직 온보딩되지 않은 조직에만 적용됩니다.
 > 조직이 Adobe 통합 경험에 온보딩된 경우 날짜 환경 설정은 Adobe 통합 쉘에 설정된 언어 환경 설정에 따라 제어됩니다. 기본 언어 설정과 기본 날짜 설정은 `en-US`입니다.
+> 자세한 내용은 [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences)을 참조하세요.
 
 [!UICONTROL 계획된 완료 일자], [!UICONTROL 실제 완료 일자] 또는 [!UICONTROL 예상 완료 일자]와 같은 [!DNL Adobe Workfront] 날짜의 날짜 형식을 변경할 수 있습니다.
 

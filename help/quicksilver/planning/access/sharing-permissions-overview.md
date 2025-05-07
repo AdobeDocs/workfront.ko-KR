@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1227'
 ht-degree: 5%
 
 ---
@@ -44,19 +44,18 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
 
   자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
 
-<!--
 <div class="preview">
 
-* Record types
+* 레코드 유형
 
-    * You can share record types with people inside your organization.
-    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a record type with a higher permission level than the user has on the workspace. 
+   * 조직 내의 직원과 레코드 유형을 공유할 수 있습니다.
+   * 작업 영역에 부여된 권한 수준은 레코드 유형에 대해 상속된 권한으로 표시됩니다.
+   * 작업 영역에서 사용자가 보유한 권한 수준보다 높은 권한 수준의 레코드 유형은 공유할 수 없습니다.
 
-    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+  자세한 내용은 [레코드 종류 공유](/help/quicksilver/planning/access/share-record-types.md)를 참조하세요.
 
 </div>
--->
+
 
 * 보기
 
@@ -67,7 +66,7 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
 
   자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하세요.
 
-내부적으로 작업 공간 또는 보기를 다음 Workfront 엔티티와 공유할 수 있습니다.
+내부적으로 작업 영역, 보기, <span class="preview"> 또는 레코드 종류 </span>을(를) 다음 Workfront 엔터티와 공유할 수 있습니다.
 
 * 사용자
 * 그룹
@@ -76,6 +75,11 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
 * 작업 역할
 
 <span class="preview"> 작업 공간 및 레코드 형식을 다른 사용자와 공유할 때 레코드 형식의 사용 권한 수준이 연결된 레코드 및 필드에 자동으로 상속됩니다. </span>
+
+>[!IMPORTANT]
+>
+>조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩된 경우 Planning 개체를 공유할 사용자를 Adobe Admin Console에 추가해야 합니다. Adobe Admin Console에 추가되지 않은 Workfront 사용자와 Planning 객체를 공유할 수 없습니다.
+
 
 ## Adobe Workfront Planning에서 객체 공유에 대한 고려 사항
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1002'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,12 @@ ht-degree: 1%
 * 파일은 5MB보다 크지 않아야 합니다.
 * 빈 시트는 지원되지 않습니다.
 * 다음 유형의 필드는 지원되지 않으며 가져오기 시트의 필드에 매핑할 수 없습니다.
-   * 연결된 레코드 <!--or connected Workfront objects-->의 연결 및 조회 필드
+
+   * <!--In the Production environment,--> Planning 레코드 또는 Workfront 및 AEM Assets 객체에 대한 연결 필드
+
+     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+
+   * 연결된 Planning 레코드 또는 Workfront 및 AEM Assets 개체의 조회 필드
    * 공식 필드
    * 만든 날짜, 만든 사람
    * 마지막 수정 날짜, 마지막 수정자
