@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/hel
 
 ### 고급 검색을 위한 인터페이스 업데이트
 
-**미리 보기 릴리스: 4월 17일, 프로덕션 릴리스: 발표 예정**
+**미리 보기 릴리스: 4월 17일, 프로덕션 릴리스: 4월 24일 주에 시작**
 
 다음 변경 사항으로 고급 검색 영역을 업데이트했습니다.
 
@@ -344,19 +344,16 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 외부 사용자는 더 이상 이 페이지에서 _내 설정_&#x200B;에 액세스할 수 없습니다.
 
-<!--
+### 업데이트된 외부 사용자 등록 페이지
 
-### Updated external user registration page
+**미리 보기 릴리스: 2024년 4월 24일, 프로덕션 릴리스: 2024년 5월 8일 주 시작**
 
-**Preview release: April 24, 2024; Production release: To be announced**
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 외부 사용자 등록 페이지를 업데이트했습니다.
 
-We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+## 라이선스
 
+### 사용권 계약 페이지를 업데이트했습니다.
 
-## Licenses
+**미리 보기 릴리스: 2024년 4월 24일, 프로덕션 릴리스: 2024년 5월 8일 주 시작**
 
-### Updated license agreement page
-
-**Preview release: tbd; Production release: To be announced**
-
-We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 라이선스 계약 페이지를 업데이트했습니다.
