@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront] 의 정확한 위치를 기억하지 못�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: b04d09d1244a7d7abef8aaddb62dbdf7124bfde8
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1673'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 
 >[!NOTE]
 >
->[!UICONTROL 고급 검색]을 수행하려면 검색을 시작할 때 [!UICONTROL 고급 검색] 옵션을 선택해야 합니다. 기본 검색을 [!UICONTROL 고급 검색] (으)로 세분화할 수 없습니다.
+>[!UICONTROL 고급 검색]을 수행하려면 검색을 시작할 때 [!UICONTROL 고급 검색] 옵션을 선택해야 합니다. 기본 검색을 [!UICONTROL 고급 검색]&#x200B;(으)로 세분화할 수 없습니다.
 
 ## [!DNL Workfront] 검색 제한 사항 이해
 
@@ -171,7 +171,7 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 
 >[!NOTE]
 >
->[!UICONTROL 고급 검색]을 수행하려면 검색을 시작할 때 [!UICONTROL 고급 검색] 옵션을 선택해야 합니다. 기본 검색을 [!UICONTROL 고급 검색] (으)로 세분화할 수 없습니다.
+>[!UICONTROL 고급 검색]을 수행하려면 검색을 시작할 때 [!UICONTROL 고급 검색] 옵션을 선택해야 합니다. 기본 검색을 [!UICONTROL 고급 검색]&#x200B;(으)로 세분화할 수 없습니다.
 
 * [기본 검색 수행](#perform-a-basic-search)
 * [기본 검색 세분화](#refine-a-basic-search)
@@ -191,9 +191,10 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 
    ![개체 유형별로 검색](assets/search-objecttype.png)
 
-1. **[!UICONTROL 검색]** 상자에서 검색 중인 정보를 입력하세요.\
-   [!DNL Workfront]에서 검색한 필드에 대한 자세한 내용은 [검색 이해](#understand-search)를 참조하십시오.\
-   ![검색 드롭다운](assets/qs-search-drop-down-highlighted-350x234.png)\
+1. **[!UICONTROL 검색]** 상자에서 검색 중인 정보를 입력하세요.
+[!DNL Workfront]에서 검색한 필드에 대한 자세한 내용은 [검색 이해](#understand-search)를 참조하십시오.
+   ![검색 드롭다운](assets/qs-search-drop-down-highlighted-350x234.png)
+
    검색 창에서 입력을 시작하면 [!DNL Workfront]이(가) 사용자의 보기 기록을 기반으로 추천 항목을 만들어 검색 중인 키워드를 파란색으로 강조 표시합니다.
 
 1. 찾고 있는 항목이 [!UICONTROL 자동 완성] 메뉴에 표시되면 해당 항목을 클릭합니다.
@@ -227,12 +228,13 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 검색을 구체화하려면 다음 작업을 수행하십시오.
 
 1. (조건부) 일반 검색을 수행한 경우 결과 왼쪽 상단의 객체 목록에서 검색 중인 객체를 선택합니다.
-1. 결과 왼쪽에 있는 도구 모음에서 검색에 표시된 객체에 사용할 수 있는 필드를 찾습니다.\
-   각 필드의 값은 개수별로 정렬되어 각 필드에 대해 최대 10개의 값을 표시합니다.
-1. 결과 목록을 줄이는 데 사용할 수 있는 필드 내부를 클릭합니다.\
-   선택한 항목은 파란색으로 강조 표시되고 선택하지 않은 필드 값은 숨겨집니다.\
-   각 새 값을 선택하면 올바른 결과에 동적으로 업데이트됩니다.\
-   ![검색 구체화](assets/qs-refine-search-350x175.png)
+1. 결과 왼쪽에 있는 도구 모음에서 검색에 표시된 객체에 사용할 수 있는 필드를 찾습니다.
+각 필드의 값은 개수별로 정렬되어 각 필드에 대해 최대 10개의 값을 표시합니다.
+1. 결과 목록을 줄이는 데 사용할 수 있는 필드 내부를 클릭합니다.
+선택한 항목은 파란색으로 강조 표시되고 선택하지 않은 필드 값은 숨겨집니다.
+각 새 값을 선택하면 올바른 결과에 동적으로 업데이트됩니다.
+
+   ![기본 검색 탭](assets/basic-search.png)
 
 1. (선택 사항) 선택한 값을 클릭하여 선택을 취소하고 각 필드의 모든 값을 다시 표시합니다.
 
@@ -242,7 +244,7 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 
 >[!NOTE]
 >
->[!UICONTROL 고급 검색]을 수행하려면 검색을 시작할 때 [!UICONTROL 고급 검색] 옵션을 선택해야 합니다. 기본 검색을 [!UICONTROL 고급 검색] (으)로 세분화할 수 없습니다.
+>[!UICONTROL 고급 검색]을 수행하려면 검색을 시작할 때 [!UICONTROL 고급 검색] 옵션을 선택해야 합니다. 기본 검색을 [!UICONTROL 고급 검색]&#x200B;(으)로 세분화할 수 없습니다.
 
 * [[!UICONTROL 고급 검색] 사용](#use-advanced-search)
 
@@ -260,14 +262,12 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
    [!UICONTROL 고급 검색] 페이지가 오른쪽에서 열리고 이전 페이지의 대부분을 다루고 있습니다.
 
 1. 검색 중인 객체 유형을 선택합니다.\
-   기본적으로 **[!UICONTROL 프로젝트]**&#x200B;이(가) 선택됩니다.
+   기본적으로 **[!UICONTROL 작업]**&#x200B;이(가) 선택됩니다.
 
-   ![고급 검색 개체](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![고급 검색 개체](assets/advanced-search.png)
 
 1. (선택 사항) 목록 맨 위의 필드에 키워드를 입력합니다.
-1. (선택 사항) **[!UICONTROL 결과 필터링]**&#x200B;을 클릭하여 특정 필드 유형에 따라 검색 결과를 필터링한 다음 목록에서 필드를 선택합니다. 필요한 경우 필드의 값도 선택합니다.\
-   또는\
-   새 필터를 추가합니다.
+1. (선택 사항) 검색을 구체화하기 위한 필터를 빌드하려면 **[!UICONTROL 결과 필터링]**&#x200B;을(를) 전환합니다. 완료되면 **적용**&#x200B;을 클릭하세요.
 
 1. **[!UICONTROL 검색]**&#x200B;을 클릭합니다.\
    검색과 일치하는 항목 목록이 [!UICONTROL 고급 검색] 도구 모음 오른쪽에 표시됩니다.
