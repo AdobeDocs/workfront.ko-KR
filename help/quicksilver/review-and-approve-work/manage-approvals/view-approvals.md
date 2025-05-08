@@ -6,9 +6,9 @@ description: 승인 프로세스를 통해 프로젝트, 작업 및 문제에 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Workfront의 여러 영역에서 승인을 보거나 관리할 수 있습니다.
 작업 또는 문제가 승인 프로세스에 있는 현재 상태를 보려면 다음과 같이 하십시오.
 
 1. 승인이 연결된 프로젝트, 작업 또는 문제로 이동합니다.
-1. 왼쪽 패널에서 **승인**&#x200B;을 클릭합니다. 먼저 **자세히 표시**&#x200B;를 클릭해야 할 수 있습니다.
+1. 왼쪽 패널에서 **승인**&#x200B;을 클릭합니다.
 
    승인 탭에는 모든 과거 승인 경로 및 단계에 대한 전체 정보가 표시됩니다. 승인에 대해 누가 결정했는지 또는 팀, 작업 역할 또는 사용자에 대해 승인이 설정되었는지 정확하게 확인할 수 있습니다.
 

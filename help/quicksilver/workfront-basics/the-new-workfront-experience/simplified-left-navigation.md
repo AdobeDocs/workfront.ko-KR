@@ -3,11 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: ' [!DNL Adobe Workfront]의 왼쪽 탐색'
 description: ' [!DNL Workfront] 의 왼쪽 탐색 패널을 사용하면 시스템을 쉽게 탐색할 수 있습니다.'
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1373'
 ht-degree: 1%
 
 ---
@@ -61,7 +62,7 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
 * 프로젝트
 * 작업
 * 문제
-* Portfolio
+* 포트폴리오
 * 프로그램
 * 템플릿
 * 템플릿 작업
@@ -242,7 +243,7 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
 
    객체 페이지가 표시됩니다.
 
-1. (조건부) 개체 목록이 포함된 영역(예: **[!UICONTROL 프로젝트]** 또는 **[!UICONTROL Portfolio]**)을 선택한 경우 왼쪽 패널 탐색에 액세스하려면 다음을 수행해야 합니다.
+1. (조건부) 개체 목록이 포함된 영역(예: **[!UICONTROL 프로젝트]** 또는 **[!UICONTROL 포트폴리오]**)을 선택한 경우 왼쪽 패널 탐색에 액세스하려면 다음을 수행해야 합니다.
 
    1. 목록에서 개체를 클릭합니다.
    1. (선택 사항) 왼쪽 패널 탐색에서 프로젝트 내의 **[!UICONTROL 작업]** 또는 **[!UICONTROL 문제]**&#x200B;와 같은 다른 개체를 선택하여 개체 목록에 액세스한 다음 특정 개체의 이름을 클릭합니다.\
@@ -254,12 +255,6 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
    정보를 편집하려면 먼저 개체를 편집할 권한이 있어야 합니다.
 
    ![왼쪽 패널 섹션](assets/NWE-left-navigation-panel.png)
-
-1. (선택 사항) 더 많은 섹션을 표시하려면 왼쪽 패널 하단의 **[!UICONTROL 자세히 표시]**&#x200B;를 클릭합니다.
-
-   >[!NOTE]
-   >
-   >기본적으로 모든 섹션이 왼쪽 패널에 표시되는 경우에는 이 옵션을 사용할 수 없습니다.
 
 1. (선택 사항) 대시보드 빠른 링크를 추가하려면 왼쪽 패널 하단의 **[!UICONTROL 대시보드 추가]**&#x200B;를 클릭한 후 다음을 수행합니다.
 

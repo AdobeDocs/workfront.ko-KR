@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -123,8 +123,6 @@ Workfront 관리자가 시스템의 모든 그룹에 대한 전역 승인 프로
 1. 승인 프로세스를 연결할 작업 항목으로 이동합니다.
 1. 왼쪽 패널에서 **승인**&#x200B;을 클릭합니다.
 
-   **자세히 표시**&#x200B;를 클릭한 다음 **승인**&#x200B;을 클릭해야 할 수 있습니다.
-
    ![작업에 대한 승인 섹션](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. ![기존 승인 사용 또는 단일 사용 승인 만들기](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
@@ -193,8 +191,6 @@ Workfront 관리자가 시스템의 모든 그룹에 대한 전역 승인 프로
 1. 승인 프로세스를 연결할 프로젝트, 작업, 문제, 템플릿 또는 템플릿 작업으로 이동합니다.
 1. 왼쪽 패널에서 **승인**&#x200B;을 클릭합니다.
 
-   **자세히 표시** > **승인**&#x200B;을 클릭해야 할 수 있습니다.
-
    ![작업에 대한 승인 섹션](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. **일회용 만들기**&#x200B;를 클릭합니다.
@@ -231,8 +227,6 @@ Workfront 관리자가 시스템의 모든 그룹에 대한 전역 승인 프로
 
 1. 이전에 추가한 승인 프로세스를 제거할 프로젝트, 작업, 문제, 템플릿 또는 템플릿 작업으로 이동합니다.
 1. 왼쪽 패널에서 **승인**&#x200B;을 클릭합니다.
-
-   **자세히 표시** > **승인**&#x200B;을 클릭해야 할 수 있습니다.
 
    ![작업에 대한 승인 섹션](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
