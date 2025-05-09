@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 새 사용자에 대한 이메일 초대 관리
 description: Adobe Workfront 관리자는 전자 메일 초대를 사용하여 Workfront에 사용자를 추가하고 추가되었음을 알릴 수 있습니다.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 페이지에 설명된 절차는 아직 Admin Console에 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
+>이 페이지에 설명된 절차는 Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
 >
->조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 Adobe Workfront 관리자는 전자 메일 초대를 사용하여 Workfront에 사용자를 추가하고 추가되었음을 알릴 수 있습니다.
 
@@ -69,7 +69,7 @@ Adobe Workfront 관리자는 전자 메일 초대를 사용하여 Workfront에 �
 
 +++
 
-## 이메일 초대 생성 {#generate-email-invitations}
+## 등록되지 않은 기존 사용자에게 이메일 초대 다시 보내기
 
 전자 메일 초대는 다음 시나리오에서 생성됩니다.
 
@@ -82,7 +82,7 @@ Adobe Workfront 관리자는 전자 메일 초대를 사용하여 Workfront에 �
   >
   >사용자를 만들 때 **이 사람에게 전자 메일 초대를 보내기** 상자를 선택 취소하면 전자 메일 초대를 수동으로 생성할 수 없습니다. 계정을 만들 때 원래 이메일 초대를 보낸 사용자만 이메일 초대를 수동으로 다시 보낼 수 있습니다. 새 사용자를 만드는 방법에 대한 자세한 내용은 [사용자 추가](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
 
-등록되지 않은 기존 사용자에 대한 이메일 초대를 수동으로 생성하려면 다음을 수행합니다.
+등록되지 않은 기존 사용자에게 이메일 초대를 수동으로 다시 보내려면
 
 {{step-1-to-users}}
 
@@ -98,9 +98,9 @@ Adobe Workfront 관리자는 전자 메일 초대를 사용하여 Workfront에 �
    >
    >조직이 Admin Console에 온보딩되고 Workfront을 통해 사용자를 추가하는 경우 새 사용자에게 이메일 초대를 보낼 수 있는 옵션이 없습니다.
    >
-   >새 Adobe 사용자가 Admin Console에 추가되고 Admin Console이 이메일을 보내 등록 프로세스를 완료하도록 초대합니다. 모든 사용자가 모든 Adobe 시스템에 액세스하려면 등록 프로세스를 완료해야 합니다.
+   >새 Adobe 사용자가 Admin Console에 추가되고 Admin Console에서 이메일을 보내어 등록 프로세스를 완료합니다. 모든 사용자가 모든 Adobe 시스템에 액세스하려면 등록 프로세스를 완료해야 합니다.
    >
-   >기존 Adobe 사용자의 경우, 사용자는 사용 가능한 Workfront에 대한 이메일을 받을 수도 있고 받지 못할 수도 있습니다. 제품에 대해 Adobe 관리자가 제어하는 기본 설정입니다.
+   >기존 Adobe 사용자의 경우, 사용자는 사용 가능한 Workfront에 대한 이메일을 받을 수도 있고 받지 못할 수도 있습니다. 이는 제품에 대해 Adobe 관리자가 제어하는 기본 설정입니다.
 
 ## 이메일 초대 구성 {#configure-email-invitations}
 
