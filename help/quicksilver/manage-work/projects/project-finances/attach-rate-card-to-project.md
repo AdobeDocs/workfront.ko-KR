@@ -5,9 +5,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
 ## 프로젝트에 요금 카드 첨부
 
 1. 프로젝트로 이동합니다.
-1. 왼쪽 패널에서 **청구 요금**&#x200B;을 클릭합니다. 먼저 **자세히 표시**&#x200B;를 클릭해야 할 수 있습니다.
+1. 왼쪽 패널에서 **청구 요금**&#x200B;을 클릭합니다.
 1. **청구 요금 추가 > 요금 카드 첨부**&#x200B;를 클릭합니다.
 
    요금 카드 첨부 페이지가 열립니다. 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)를 참조하십시오.

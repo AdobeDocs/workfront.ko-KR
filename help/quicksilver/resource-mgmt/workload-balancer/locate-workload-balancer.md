@@ -7,9 +7,9 @@ description: 업무 균형자 를 사용하여 작업에 대한 리소스를 예
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '714'
 ht-degree: 1%
 
 ---
@@ -122,7 +122,7 @@ Workfront의 팀에 대한 자세한 내용은 [팀 개요](/help/quicksilver/pe
 {{step1-to-projects}}
 
 1. 프로젝트 이름을 클릭하여 프로젝트 페이지를 엽니다.
-1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다. **자세히 표시**&#x200B;를 클릭한 다음 **업무 균형자**&#x200B;를 클릭해야 할 수 있습니다.
+1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
 
    프로젝트에 대한 업무 균형자 가 표시됩니다.
 

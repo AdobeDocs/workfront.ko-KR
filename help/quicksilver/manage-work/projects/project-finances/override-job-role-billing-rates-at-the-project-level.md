@@ -6,9 +6,9 @@ description: 프로젝트 관리자는 특정 프로젝트의 작업 역할에 �
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
 프로젝트에 대한 청구 요율을 대체하려면
 
 1. 청구 요율을 재정의할 프로젝트로 이동합니다.
-1. 왼쪽 패널에서 **청구 요금**&#x200B;을 클릭합니다. 먼저 **자세히 표시**&#x200B;를 클릭해야 할 수 있습니다.
+1. 왼쪽 패널에서 **청구 요금**&#x200B;을 클릭합니다.
 1. **청구 요금 추가** > **새 청구 요금**&#x200B;을 클릭합니다.
 
    새 청구 요금 상자가 열립니다.
