@@ -6,9 +6,9 @@ description: 사용자가 프로젝트에서 작업을 완료하는 데 더 이�
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 사용자를 제거할 프로젝트로 이동합니다.
 
-1. 왼쪽 패널에서 **직원**&#x200B;을 클릭한 다음 제거할 사용자를 선택합니다. **자세히 표시**&#x200B;를 클릭한 다음 **사람**&#x200B;을 클릭해야 할 수 있습니다.
+1. 왼쪽 패널에서 **직원**&#x200B;을 클릭한 다음 제거할 사용자를 선택합니다.
 
 1. 사용자 목록 맨 위에 있는 **제거** 아이콘 ![항목 제거](assets/remove-icon---x-in-circle.png)를 클릭합니다.
 

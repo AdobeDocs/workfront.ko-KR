@@ -1,21 +1,23 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: 포트폴리오에 기존 프로그램 추가
+title: Portfolio에 기존 프로그램 추가
 description: 포트폴리오에 기존 프로그램을 추가할 수 있습니다. 프로그램은 서로 다른 두 포트폴리오에 존재할 수 없으므로 기존 프로그램을 추가하면 한 포트폴리오에서 다른 포트폴리오로 영구적으로 이동합니다.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
 # 포트폴리오에 기존 프로그램 추가
 
-포트폴리오에 기존 프로그램을 추가할 수 있습니다. 프로그램은 서로 다른 두 포트폴리오에 존재할 수 없으므로 기존 프로그램을 추가하면 한 포트폴리오에서 다른 포트폴리오로 영구적으로 이동합니다. 
+<!--Audited: 5/2025-->
+
+포트폴리오에 기존 프로그램을 추가할 수 있습니다. 프로그램은 서로 다른 두 포트폴리오에 존재할 수 없으므로 기존 프로그램을 추가하면 한 포트폴리오에서 다른 포트폴리오로 영구적으로 이동합니다.
 
 ## 액세스 요구 사항
 
@@ -37,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Portfolio 및 프로그램에 대한 [!UICONTROL 편집] 액세스 </p> </td> 
+   <td> <p>포트폴리오 및 프로그램에 대한 [!UICONTROL 편집] 액세스 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -56,11 +58,20 @@ ht-degree: 0%
 1. **[!UICONTROL 프로그램 추가]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 기존 프로그램]**&#x200B;을 클릭합니다.
 
+   **프로그램 추가** 상자가 열립니다.
+
    >[!IMPORTANT]
    >
    >기존 프로그램을 추가하면 해당 프로그램과 연결된 모든 프로젝트가 포트폴리오에 포함됩니다. 의도치 않게 프로젝트를 이러한 방식으로 이동하지 않도록 주의하십시오.
 
-1. **[!UICONTROL 프로그램 추가]** 대화 상자에서 프로그램 이름을 입력하고 선택합니다.
-1. (선택 사항) 프로그램을 더 추가하려면 프로그램 이름을 입력하고 선택합니다.
-1. **[!UICONTROL 프로그램 추가]**&#x200B;를 클릭합니다.\
+1. **[!UICONTROL 프로그램 추가]** 대화 상자에서 프로그램 이름을 입력한 다음 목록에 표시될 때 선택합니다.
+
+   두 개 이상의 프로그램을 추가할 수 있습니다.
+
+1. (선택 사항) 프로그램 이름을 추가하지 않으려면 프로그램 이름 오른쪽에 있는 **X** 아이콘을 클릭하여 목록에서 제거합니다.
+
+   <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a program if you decide not to add it to the portfolio.-->
+
+1. **[!UICONTROL 프로그램 추가]**&#x200B;를 클릭합니다.
+
    선택한 포트폴리오의 **[!UICONTROL 프로그램]** 탭에 프로그램이 표시됩니다.

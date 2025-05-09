@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1105'
 ht-degree: 2%
 
 ---
@@ -108,7 +108,7 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
    <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p> 
-   <p>레코드를 연결할 때 만들려는 개체 유형(프로젝트, 프로그램 및 포트폴리오)에 대한 Workfront의 액세스 권한을 편집합니다. </p>  
+   <p>만들려는 객체 유형(프로젝트, 포트폴리오, 프로그램)의 Workfront에서 객체 만들기에 대한 액세스 권한을 가지고 액세스 권한을 편집합니다. </p>  
 </td> 
   </tr> 
 <tr> 
@@ -144,7 +144,7 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
 
 1. [레코드 연결](/help/quicksilver/planning/records/connect-records.md) 문서에 설명된 대로 레코드의 세부 정보 페이지 또는 레코드 유형의 테이블로 이동하여 Workfront Planning 레코드와 Workfront 프로젝트 연결을 시작합니다.
 
-1. (조건부) **프로젝트 추가**&#x200B;를 클릭합니다
+1. (조건부) **프로젝트 추가**를 클릭합니다
 또는
 프로젝트 이름을 입력한 다음 찾을 수 없는 경우 **프로젝트 추가**&#x200B;를 클릭합니다. [추가] 단추 다음에 입력한 프로젝트 이름이 옵니다.
 

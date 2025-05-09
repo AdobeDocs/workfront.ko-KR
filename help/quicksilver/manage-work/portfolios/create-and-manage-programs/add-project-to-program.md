@@ -2,24 +2,26 @@
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: 프로그램에 프로젝트 추가
-description: 포트폴리오 내의 프로그램에 프로젝트를 추가하여 구성할 수 있습니다. 하나의 프로그램 내에 여러 개의 프로젝트를 가질 수 있지만 하나의 프로그램만 프로젝트와 연결할 수 있습니다.
+description: 포트폴리오 내의 프로그램에 프로젝트를 추가하여 구성할 수 있습니다. 하나의 프로그램 내에 여러 개의 프로젝트를 가질 수 있지만 하나의 프로그램만 프로젝트와 연결할 수 있습니다. 프로그램에 프로젝트를 추가하면 해당 프로젝트가 동시에 프로그램의 포트폴리오에 자동으로 추가됩니다.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # 프로그램에 프로젝트 추가
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
 
 포트폴리오 내의 프로그램에 프로젝트를 추가하여 구성할 수 있습니다. 하나의 프로그램 내에 여러 개의 프로젝트를 가질 수 있지만 하나의 프로그램만 프로젝트와 연결할 수 있습니다.
 
 프로그램에 프로젝트를 추가하려면 먼저 이 포트폴리오 내에서 포트폴리오와 프로그램을 만들어야 합니다.
+
+프로그램에 프로젝트를 추가하면 해당 프로젝트가 동시에 프로그램의 포트폴리오에 자동으로 추가됩니다.
 
 포트폴리오 만들기에 대한 자세한 내용은 [포트폴리오 만들기](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)를 참조하십시오.
 
@@ -98,7 +100,19 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. (조건부) **[!UICONTROL 기존 프로젝트]**&#x200B;을(를) 선택한 경우 다음을 수행합니다.
+1. (조건부) **[!UICONTROL 기존 프로젝트]**&#x200B;를 선택한 경우 **프로젝트 추가** 상자가 열립니다.
 
-   1. **[!UICONTROL 프로젝트 추가]** 대화 상자에서 제공된 필드에 프로젝트 이름을 입력한 다음 목록에 표시될 때 선택합니다. 한 번에 여러 프로젝트를 추가할 수 있습니다.
-   1. **[!UICONTROL 프로젝트 추가]**&#x200B;를 클릭합니다.**{&#x200B;1}&#x200B;프로젝트가 프로그램의**&#x200B;[!UICONTROL &#x200B;프로젝트&#x200B;]&#x200B;**탭에 나타나고 이제 프로그램 및 포트폴리오와 연결됩니다.**
+   <!--screen shot at unshim?-->
+
+1. 다음을 수행합니다.
+
+   1. **[!UICONTROL 프로젝트 추가]** 상자에서 **이 프로그램에 프로젝트 추가** 필드에 프로젝트 이름을 입력한 다음 목록에 표시될 때 선택합니다. <!--check casing on links and buttons-->
+
+      두 개 이상의 프로젝트를 추가할 수 있습니다.
+   1. (선택 사항) 프로그램에 추가하지 않으려면 프로젝트 이름 오른쪽에 있는 **X** 아이콘을 클릭하여 목록에서 제거합니다.
+
+      <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the program.-->
+
+   1. **[!UICONTROL 프로젝트 추가]**&#x200B;를 클릭합니다.
+
+      프로젝트가 프로그램의 **[!UICONTROL 프로젝트]** 탭에 나타나고 이제 프로그램 및 프로그램의 각 포트폴리오와 연결됩니다.

@@ -6,9 +6,9 @@ description: 프로젝트 승인 시간 필요
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
 프로젝트의 시간을 승인하거나 거부하려면 다음 작업을 수행하십시오.
 
 1. 프로젝트로 이동합니다.
-1. 왼쪽 패널에서 **시간** 영역을 클릭합니다. **자세히 표시** 영역 아래에 있을 수 있습니다.
+1. 왼쪽 패널에서 **시간** 영역을 클릭합니다.
 
 1. 문제, 작업 및 프로젝트에 기록된 시간이 **제출됨** 상태여야 합니다.\
    시간 항목 왼쪽에 있는 상자를 클릭하여 승인할 시간을 선택합니다.

@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
 1. 도움말 요청 대기열로 게시한 프로젝트로 이동합니다.\
    프로젝트를 도움말 요청 대기열로 게시하는 방법에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
-1. 왼쪽 패널에서 **주제 그룹**&#x200B;을 클릭합니다. **자세히 표시**&#x200B;를 클릭한 다음 **주제 그룹**&#x200B;을 클릭해야 할 수 있습니다.
+1. 왼쪽 패널에서 **주제 그룹**&#x200B;을 클릭합니다.
 1. **새 주제 그룹**&#x200B;을 클릭합니다.
 
    ![](assets/new-topic-group-box-nwe-350x306.png)

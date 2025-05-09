@@ -8,9 +8,9 @@ description: 프로젝트 지표는 프로젝트에서 발생하는 작업을 �
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ ht-degree: 0%
 지표 영역의 차트와 상호 작용하여 차트의 다양한 측면을 살펴보거나 차트 내의 작업 및 문제를 더 자세히 살펴볼 수 있습니다.
 
 1. 지표를 보려는 프로젝트로 이동합니다.
-1. 왼쪽 패널에서 **자세히 표시**&#x200B;를 클릭하여 더 많은 섹션을 표시한 다음 **지표**&#x200B;를 클릭합니다.\
+1. 왼쪽 패널에서 **지표**&#x200B;를 클릭합니다.\
    지표 영역의 차트에는 기본적으로 작업에 대한 정보가 표시됩니다.\
    ![](assets/metrics-section-350x298.png)
 

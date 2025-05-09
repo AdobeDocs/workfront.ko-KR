@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -31,38 +31,42 @@ Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td> <p>현재: [!UICONTROL Business] 이상</p> 
-   또는
-   <p>새로운 기능: [!UICONTROL Prime] 이상</p>
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td> <p>새로운 기능: [!UICONTROL Prime] 이상</p>
+   <p>현재: [!UICONTROL Business] 이상</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td><p>현재: [!UICONTROL Plan]</p>
-   또는
-   <p>새로운 기능: [!UICONTROL Standard]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
+   <td><p>새로운 기능: [!UICONTROL Standard]</p>
+   <p>현재: [!UICONTROL Plan]</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 ## 스코어카드 만들기
 
+스코어카드를 처음부터 만들거나 기존 스코어카드를 복사할 수 있습니다.
+
+스코어카드를 처음부터 만들려면:
+
 {{step-1-to-setup}}
 
-1. **[!UICONTROL 스코어카드]**&#x200B;를 클릭한 다음 **[!UICONTROL 새 스코어카드]**&#x200B;를 클릭하여 스코어카드 빌더를 시작하고 스코어카드를 만듭니다.
+1. **[!UICONTROL 스코어카드]**&#x200B;를 클릭한 다음 **[!UICONTROL 새 스코어카드]**&#x200B;를 클릭합니다. **새 스코어카드** 상자가 열립니다.
+
+   <!--add screen shot at unshim-->
 
 1. **[!UICONTROL 스코어카드 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 지정하십시오.
 
@@ -104,6 +108,25 @@ Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정�
 
    이렇게 하면 스코어카드가 만들어지고 프로젝트 관리자는 이제 스코어카드를 프로젝트 비즈니스 사례에 첨부할 수 있습니다.
 
+## 기존 스코어카드 복사
+
+기존 스코어카드를 복사하고 편집하여 스코어카드를 만들 수 있습니다.
+
+{{step-1-to-setup}}
+
+1. 왼쪽 패널에서 **[!UICONTROL 스코어카드]**&#x200B;를 클릭합니다.
+1. 목록에서 스코어카드를 선택한 다음 스코어카드 목록 맨 위에 있는 **복사** 아이콘 ![스코어카드 복사 아이콘](assets/copy-scorecard-icon.png)을 클릭합니다.
+**스코어카드 복사** 상자가 열립니다.
+
+   <!--add screen shot at unshim-->
+1. 다음 정보를 지정합니다.
+
+   * **스코어카드**: 스코어카드의 이름을 입력합니다.  기본적으로 이름은 다음 형식에 따라 자동으로 업데이트됩니다.
+
+     `Original scorecard name (Copy)`
+   * **설명**: 스코어카드에 대한 추가 정보를 입력하십시오.
+1. **저장**&#x200B;을 클릭합니다.
+
 ## 프로젝트에 스코어카드 적용
 
 [!DNL Workfront] 관리자가 스코어카드를 만든 후에는 프로젝트에 대한 [!UICONTROL 관리] 권한이 있는 사용자가 스코어카드를 프로젝트에 적용할 수 있습니다.
@@ -111,3 +134,5 @@ Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정�
 프로젝트에 대한 비즈니스 사례를 만드는 과정의 일부로 스코어카드가 프로젝트에 추가됩니다. 프로젝트에 스코어카드를 추가하는 방법에 대한 자세한 내용은 [프로젝트에 스코어카드 적용 및 정렬 점수 생성](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)을 참조하십시오.
 
 프로젝트 권한에 대한 자세한 내용은 [프로젝트 공유 [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)를 참조하십시오.
+
+

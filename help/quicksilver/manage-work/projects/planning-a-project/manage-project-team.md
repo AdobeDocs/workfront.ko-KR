@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 1. 사용자를 추가할 프로젝트로 이동합니다.
 
-1. 왼쪽 패널에서 **사람**&#x200B;을 클릭합니다. 먼저 **자세히 표시**&#x200B;를 클릭해야 할 수 있습니다.
+1. 왼쪽 패널에서 **사람**&#x200B;을 클릭합니다.
 
 1. **사용자 추가**&#x200B;를 클릭합니다.
 

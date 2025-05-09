@@ -6,9 +6,9 @@ description: 기준선은 초기 프로젝트 계획 또는 프로젝트 수명 
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -115,10 +115,6 @@ drafted for P&P:
 
 1. 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **기준선**&#x200B;을 클릭합니다.
-
-   또는
-
-   **자세히 표시**&#x200B;를 클릭한 다음 **기준선**&#x200B;을 클릭합니다.
 
    프로젝트의 ![기준선 섹션](assets/baselines-section-on-project-with-header.png)
 

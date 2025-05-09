@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2845'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ To create a Request Queue:
 
 1. Go to the project that you want to set up as a Request Queue.
 1. (Optional) Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
-1. Click **Queue Details** in the left panel. You might need to click **Show More**, then **Queue Details**.
+1. Click **Queue Details** in the left panel. 
 
    This opens the Queue Details section.
 
@@ -339,7 +339,7 @@ To create a Request Queue:
 
 1. 요청 대기열로 설정할 프로젝트로 이동합니다.
 1. (선택 사항) 왼쪽 패널의 **프로젝트 세부 정보**&#x200B;를 클릭하고 **개요** 영역의 프로젝트에 **설명**&#x200B;을(를) 추가합니다. 이 정보는 모든 새 요청에 표시됩니다.
-1. 왼쪽 패널에서 **큐 세부 정보**&#x200B;를 클릭합니다. **자세히 표시**&#x200B;를 클릭한 다음 **큐 세부 정보**&#x200B;를 클릭해야 할 수 있습니다.
+1. 왼쪽 패널에서 **큐 세부 정보**&#x200B;를 클릭합니다.
 
    그러면 대기열 세부 정보 섹션이 열립니다.
 

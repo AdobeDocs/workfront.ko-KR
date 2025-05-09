@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 1%
 ## 라우팅 규칙 만들기
 
 1. 요청에 대한 라우팅 규칙을 추가할 프로젝트로 이동합니다.
-1. 왼쪽 패널에서 **라우팅 규칙**&#x200B;을 클릭합니다. **자세히 표시**&#x200B;를 클릭한 다음 **라우팅 규칙**&#x200B;을 클릭해야 할 수 있습니다.
+1. 왼쪽 패널에서 **라우팅 규칙**&#x200B;을 클릭합니다.
 1. 새 규칙을 추가하려면 **새 라우팅 규칙**&#x200B;을 클릭하세요. **새 라우팅 규칙** 상자가 열립니다.
 
    ![새 라우팅 규칙 상자](assets/new-routing-rule-box.png)
