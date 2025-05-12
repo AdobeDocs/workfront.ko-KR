@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
+source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >[!NOTE]
 >
 >* 미리 보기: 2025년 4월 17일
->* 프로덕션 빠른 릴리스: 2025년 5월 15일
+>* 프로덕션 빠른 릴리스: 2025년 6월 12일
 >* 모든 고객을 위한 프로덕션: 2025년 7월 17일
 
 각 레코드 유형의 레코드를 보거나 관리할 수 있는 사용자를 보다 잘 제어하고 승인된 사용자만 역할과 책임을 기반으로 각 레코드 유형의 정보를 관리할 수 있도록 레코드 유형 수준에서 권한을 도입했습니다.
