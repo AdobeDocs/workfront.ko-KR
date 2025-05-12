@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,14 @@ ht-degree: 0%
 
 2025년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
 
->[!IMPORTANT]
->
->이 페이지에 나열된 기능은 단계별 릴리스의 일부이며, 특정 고객에게만 제공됩니다.
+## Desktop Proofing 뷰어 업데이트
+
+Desktop Proofing Viewer가 버전 2.1.48로 업데이트되었습니다.
+
+이 업데이트는 Desktop Viewer를 Mac 운영 체제와 호환되도록 하는 문제 해결입니다. 전자는 34.4.0으로 다운그레이드되었고 크롬은 132로 다운그레이드되었다.
+
+이 업데이트는 Mac 및 Windows 모두에 해당됩니다.
+
 
 ## 연결된 Google 폴더의 Assets을 Workfront에 표시하려면 개별적으로 추가해야 합니다.
 
@@ -43,6 +48,10 @@ Google은 Google Drive에 액세스하는 타사 응용 프로그램에 대해 [
 
 
 ## 증명 뷰어에서 사용할 수 있는 새 문서 승인 결정 버튼
+
+>[!IMPORTANT]
+>
+>이 기능은 단계별 릴리스의 일부이며 특정 고객에게만 제공됩니다.
 
 >[!NOTE]
 >
