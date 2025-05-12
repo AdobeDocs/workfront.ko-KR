@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,38 @@ ht-degree: 0%
 이 문서에서는 외부 조회 필드를 사용하여 동일한 Workfront 인스턴스 또는 공개 API를 호출하는 예제를 제공합니다. 외부 조회를 사용하여 Jira, Salesforce 또는 ServiceNow와 같은 외부 시스템과 통신할 수도 있습니다.
 
 사용자 정의 양식에 외부 조회 필드를 추가하고 외부 조회 구성 요소에 대한 추가 정의에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+
+## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront 플랜 </td> 
+   <td>임의</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>
+   <p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 플랜</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td>사용자 정의 양식에 대한 관리 액세스 </td> 
+  </tr>  
+ </tbody> 
+</table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 동일한 Workfront 인스턴스에 대해 외부 조회 필드 설정
 

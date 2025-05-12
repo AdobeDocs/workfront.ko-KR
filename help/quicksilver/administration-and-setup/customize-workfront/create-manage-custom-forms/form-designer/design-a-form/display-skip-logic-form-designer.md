@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -237,6 +237,8 @@ IF({DE:Budget Field} < 0,
 또 다른 간단한 예는 전화 번호 필드가 유효하려면 특정 자릿수를 포함해야 한다는 것입니다.
 
 다른 필드를 기반으로 한 유효성 검사의 추가 예는 회의실 크기(소규모, 중간 또는 대규모)에 대한 필드와 회의 참석자의 수에 대한 별도의 필드입니다. 각 룸 크기에 대한 인원은 유효성 검사 공식에 기록됩니다. 사용자가 입력한 참석자 수가 선택한 회의실에 비해 너무 많은 경우 오류 메시지가 표시됩니다.
+
+유효성 검사 논리의 추가 예제는 [사용자 지정 양식의 고급 논리 예제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)를 참조하십시오.
 
 ### 유효성 검사 논리 정의
 
