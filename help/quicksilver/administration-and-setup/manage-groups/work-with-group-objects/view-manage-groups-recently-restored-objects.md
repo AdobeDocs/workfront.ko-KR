@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 최근에 복원된 그룹의 항목 보기 및 관리
 description: 그룹 영역에서 관리하는 그룹을 볼 때 최근에 복원된 작업 항목, 문서 및 템플릿을 보고, 필터링하고, 그룹화하고, 복원할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 1%
