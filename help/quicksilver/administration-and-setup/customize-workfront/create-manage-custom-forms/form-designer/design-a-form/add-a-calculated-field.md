@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
 
 # 양식에 계산된 필드 추가
+
+<!-- Audited: 5/2025 -->
 
 사용자 정의 양식을 오브젝트에 첨부할 때 기존 데이터를 사용하여 새 데이터를 생성하는 계산된 사용자 정의 필드를 추가할 수 있습니다.
 
@@ -77,7 +79,7 @@ ht-degree: 0%
 
 다른 오브젝트에 속한 사용자 정의 양식에서 동일한 계산된 사용자 정의 필드를 사용할 수 있습니다. 예를 들어 작업 사용자 정의 양식에서 프로젝트 사용자 정의 양식에 대해 생성한 Profit 계산 필드를 사용할 수 있습니다.
 
-기존의 계산된 사용자 정의 필드를 사용할 때 계산이 새 양식으로 전송되지 않습니다. 새 사용자 정의 양식에 동일한 필드에 계산을 다시 추가해야 합니다.
+기존의 계산된 사용자 정의 필드를 사용할 때 계산이 새 양식으로 전송되지 않습니다. 새 사용자 정의 양식의 동일한 필드에 계산을 다시 추가해야 합니다.
 
 새 양식에서 동일한 필드에 대해 다른 계산을 사용할 수도 있습니다. 계산된 사용자 정의 필드에 대해 동일한 이름을 유지하면 명명 규칙에서 일관성과 일관성이 보장됩니다.
 
@@ -93,15 +95,15 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
+1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭한 다음 **Forms**&#x200B;을 클릭합니다.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. **새 사용자 정의 양식을 클릭합니다.**
-1. 사용자 정의 양식을 첨부할 개체 유형을 선택한 다음 **계속**&#x200B;을 클릭합니다.
+1. **새 사용자 정의 양식**&#x200B;을 클릭합니다.
 
+1. **새 사용자 정의 양식** 대화 상자에서 사용자 정의 양식을 첨부할 개체 유형을 선택한 다음 **계속**&#x200B;을 클릭합니다.
 1. 화면 왼쪽 상단에서 **필드 라이브러리**&#x200B;를 클릭합니다.
 
    ![필드 라이브러리](assets/field-library.png)
@@ -131,14 +133,15 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
+1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭한 다음 **Forms**&#x200B;을 클릭합니다.
+
+1. **새 사용자 정의 양식**&#x200B;을 클릭합니다.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. **새 사용자 정의 양식을 클릭합니다.**
-1. 사용자 정의 양식을 첨부할 개체 유형을 선택한 다음 **계속**&#x200B;을 클릭합니다.
+1. **새 사용자 정의 양식** 대화 상자에서 사용자 정의 양식을 첨부할 개체 유형을 선택한 다음 **계속**&#x200B;을 클릭합니다.
 
 1. 화면 왼쪽에서 **계산됨**&#x200B;을 찾아 캔버스의 섹션으로 끕니다.
 
@@ -166,9 +169,9 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">형식</td> 
-      <td> <p>필드의 결과를 저장 및 표시할 형식입니다.</p> <p>필드가 수학 계산에 사용되는 경우 항상 <strong>숫자</strong> 또는 <strong>통화</strong> 형식을 사용하십시오. 숫자 또는 통화를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</p> 
+      <td> <p>필드의 결과를 저장 및 표시할 형식입니다.</p> <p>필드가 수학 계산에 사용되는 경우 항상 <strong>숫자</strong> 또는 <strong>통화</strong> 형식을 사용하십시오. <strong>숫자</strong> 또는 <strong>통화</strong>를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</p> 
       <p><b>중요</b>: 형식을 선택하기 전에 새 필드에 대한 올바른 형식을 고려하십시오. 사용자 정의 양식을 저장한 후에는 형식 필드를 편집할 수 없습니다. 그리고 잘못된 포맷을 선택하면 보고서와 목록 그룹화의 향후 계산 및 집계 값에 영향을 줄 수 있습니다.</p>
-      <p><strong>참고:</strong> 통화 형식의 계산 필드에는 따옴표를 사용할 수 없습니다. (예를 들어, "800.00"이 아닌 800.00을 사용합니다.) 따옴표를 사용하면 통화 유형의 언어 서식과 관련된 뉘앙스로 인해 예기치 않은 결과가 발생할 수 있습니다.</p></td>
+      <p><strong>참고</strong>: <strong>통화</strong> 형식의 계산 필드에는 따옴표를 사용할 수 없습니다. (예를 들어, "800.00"이 아닌 800.00을 사용합니다.) 따옴표를 사용하면 통화 유형의 언어 서식과 관련된 뉘앙스로 인해 예기치 않은 결과가 발생할 수 있습니다.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -195,7 +198,7 @@ ht-degree: 0%
 
         필드 이름은 대/소문자를 구분하므로 Workfront 시스템에 표시되는 방식과 동일하게 계산에 표시되어야 합니다.
 
-        계산에 사용할 수 있는 필드 이름을 식별하려면 [Workfront API 탐색기](https://developer.adobe.com/workfront/api-explorer/)(으)로 이동합니다.
+        계산에 사용할 수 있는 필드 이름을 식별하려면 [Workfront API 탐색기](https://developer.adobe.com/workfront/api-explorer/)&#x200B;(으)로 이동합니다.
 
       * 계산에서 사용자 지정 필드를 참조하도록 하려면 필드 이름을 중괄호로 묶고 중괄호 안에 `DE:`을(를) 추가해야 합니다.
 
@@ -295,7 +298,7 @@ ht-degree: 0%
       >
       >다음 중 원하는 작업을 수행하여 계산에 도움을 받을 수 있습니다.
       > 
-      >* 계산에서 식 위로 마우스를 가져가면 설명, 사용 방법을 보여 주는 예제 및 문서 [계산된 데이터 식의 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)에서 자세한 정보에 대한 &quot;자세히 알아보기&quot; 링크를 볼 수 있습니다.
+      >* 계산에서 식 위로 마우스를 가져가면 설명, 사용 방법을 보여 주는 예제 및 문서 [계산된 데이터 식의 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)에서 자세한 정보로 연결되는 **자세히 알아보기** 링크를 볼 수 있습니다.
       >  ![식 도움말 텍스트](assets/hover-expression-help-text.jpg)
       >* 색상 코딩을 사용하여 추가한 구성 요소를 식별합니다. 표현식은 파란색으로 표시되고 필드는 녹색으로 표시됩니다.
       >  ![필드 식의 색](assets/colors-fields-expressions.jpg)
@@ -317,7 +320,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">논리 추가</td> 
-      <td>표시 논리를 추가하여 사용자가 양식을 채울 때 이전 다중 선택 필드(드롭다운, 확인란 또는 라디오 버튼)에서 선택한 하나 이상의 항목에 따라 계산된 필드가 표시되는지 여부를 결정할 수 있습니다. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>적어도 하나의 확인란, 라디오 버튼 또는 드롭다운 필드가 양식의 계산된 사용자 지정 필드 앞에 오는 경우에만 사용할 수 있습니다. </p> <p>계산된 사용자 정의 필드에는 건너뛰기 논리를 사용할 수 없습니다.</p> </td> 
+      <td>표시 논리를 추가하여 사용자가 양식을 채울 때 이전 다중 선택 필드(드롭다운, 확인란 또는 라디오 버튼)에서 선택한 하나 이상의 항목을 기반으로 계산된 필드가 표시되는지 여부를 결정할 수 있습니다. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>적어도 하나의 확인란, 라디오 버튼 또는 드롭다운 필드가 양식의 계산된 사용자 지정 필드 앞에 오는 경우에만 사용할 수 있습니다. </p> <p>계산된 사용자 정의 필드에는 건너뛰기 논리를 사용할 수 없습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">이전 계산 업데이트</td> 

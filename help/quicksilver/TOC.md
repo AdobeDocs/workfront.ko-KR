@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: c02c5173626857b279b20ebe2784f8d81b1a1fcc
+source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
 workflow-type: tm+mt
-source-wordcount: '13189'
+source-wordcount: '13194'
 ht-degree: 2%
 
 ---
@@ -409,7 +409,7 @@ ht-degree: 2%
    * Workfront 설정 {#set-up-wf}
       * [설정](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * 시스템 기본값 구성 {#configure-system-defaults}
-         * [기본값 구성](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+         * [시스템 기본값 구성: 문서 색인](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [프로젝트 환경 설정 구성](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
          * [작업 및 문제 환경 설정 구성](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
          * [그룹에 대한 프로젝트 환경 설정 잠금](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
@@ -1462,7 +1462,7 @@ ht-degree: 2%
       * [작업 및 문제 위임 개요](manage-work/delegate-work/delegate-work-overview.md)
       * [작업 및 문제 위임](manage-work/delegate-work/how-to-delegate-work.md)
 * 팀 및 그룹 {#teams-groups}
-   * [팀 및 그룹](people-teams-and-groups/people-teams-and-groups.md)
+   * [팀 및 그룹: 문서 색인](people-teams-and-groups/people-teams-and-groups.md)
    * 팀 만들기 및 관리 {#create-manage-teams}
       * [팀 만들기 및 관리](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
       * [팀 개요](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
@@ -2129,7 +2129,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
