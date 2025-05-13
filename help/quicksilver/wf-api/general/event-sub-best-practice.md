@@ -46,7 +46,7 @@ ht-degree: 0%
 
 이벤트 구독을 생성, 쿼리 또는 삭제하려면 Workfront 사용자가 필요합니다.
 
-* **시스템 관리자**의 액세스 수준
+* **시스템 관리자**&#x200B;의 액세스 수준
 자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) 또는 [사용자에게 특정 영역에 대한 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
 
 * 이벤트 구독 API를 사용하려면 `sessionID` 헤더가 필요합니다.
