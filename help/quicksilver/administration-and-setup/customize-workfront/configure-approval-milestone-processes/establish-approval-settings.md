@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '879'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ Adobe Workfront 관리자는 Workfront에서 승인 프로세스에 대한 전�
      </tr> 
      <tr> 
       <td role="rowheader">승인자는 프로젝트 팀에 속해 있지 않아도 됩니다(역할이 포함된 승인 프로세스의 경우).</td> 
-      <td> <p>승인 프로세스에 역할이 포함되어 있을 때 승인자가 프로젝트 팀에 속해 있지 않아도 되는 경우 선택합니다. 작업 역할에 승인 결정을 할당할 때 프로젝트에서 사용자와 관련된 역할이 있는 사용자만 승인을 볼 수 있습니다. 이 설정을 사용하면 해당 작업 역할을 가진 모든 사용자가 프로젝트 팀에 있든 없든 승인 요청을 받습니다. 사용자의 프로젝트 역할 편집에 대한 자세한 내용은 <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">프로젝트 팀 관리</a>를 참조하십시오. </p> 
+      <td> <p>승인 프로세스에 역할이 포함되어 있을 때 승인자가 프로젝트 팀에 속해 있지 않아도 되는 경우 선택합니다. 해당 작업 역할이 있는 모든 사용자는 프로젝트에 대한 액세스 권한이 자동으로 부여되지 않지만 프로젝트 팀에 속해 있는지 여부에 관계없이 승인 요청을 받습니다. 사용자의 프로젝트 역할 편집에 대한 자세한 내용은 <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">프로젝트 팀 관리</a>를 참조하십시오. </p> 
       <p><b>팁</b>: 역할에 승인을 할당하고 옵션 <b>승인자가 프로젝트 팀에 속해 있지 않아도 됩니다(역할이 포함된 승인 프로세스의 경우)</b>이(가) 비활성화되었지만 프로젝트 팀에 승인의 역할과 일치하는 역할이 없으면 승인이 프로젝트 소유자에게 다시 할당됩니다. </p> </td> 
      </tr> 
      <tr> 
