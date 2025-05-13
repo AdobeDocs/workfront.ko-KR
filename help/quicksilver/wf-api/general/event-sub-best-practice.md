@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,13 @@ ht-degree: 0%
 
 허용 목록에 추가하다 이벤트 구독 페이로드를 방화벽을 통해 수신하려면 글로벌 영역별로 IP 주소를 방화벽에 추가해야 합니다. 자세한 내용은 [이벤트 구독 API](../../wf-api/general/event-subs-api.md)를 참조하세요.
 
-## 적절한 액세스 수준 및 API 키 보유
+## 적절한 액세스 수준 및 인증 보유
 
 이벤트 구독을 생성, 쿼리 또는 삭제하려면 Workfront 사용자가 필요합니다.
 
-* **시스템 관리자**&#x200B;의 액세스 수준
+* **시스템 관리자**의 액세스 수준
 자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) 또는 [사용자에게 특정 영역에 대한 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
 
-* API 키
+* 이벤트 구독 API를 사용하려면 `sessionID` 헤더가 필요합니다.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
-  -->
+  자세한 내용은 [API 기본 사항](api-basics.md)의 [인증](api-basics.md#authentication)을 참조하세요.

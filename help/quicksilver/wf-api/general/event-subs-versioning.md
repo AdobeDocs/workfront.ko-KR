@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Workfront에는 두 가지 버전의 이벤트 구독이 있습니다. 이 문�
 >
 >* **25.2 릴리스**(2025년 4월 10일): 25.2 릴리스 이후에 만들어진 모든 새 구독은 버전 2로 만들어집니다.
 >* **25.3 릴리스**(2025년 7월 17일): 25.3 릴리스 이후 구독을 더 이상 버전 1로 다운그레이드할 수 없습니다.
->* **2025년 9월 1일**: 나머지 모든 버전 1 구독이 버전 2로 마이그레이션됩니다.
+>* **2026년 1월 15일**: 나머지 모든 버전 1 구독이 버전 2로 마이그레이션됩니다.
 
 ## 버전 1과 버전 2 간의 변경 사항
 
@@ -256,4 +256,4 @@ Workfront에는 두 가지 버전의 이벤트 구독이 있습니다. 이 문�
 
 Workfront Fusion은 이벤트 구독을 사용하여 Workfront의 변경 사항을 살펴보고 시나리오를 트리거합니다. Workfront > 이벤트 페이로드 버전 업데이트 모듈을 사용하여 Fusion이 시나리오에서 직접 사용하는 이벤트 구독 버전을 업데이트할 수 있습니다.
 
-이 모듈 사용에 대한 지침은 Workfront Fusion 설명서의 [Workfront 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)을 참조하십시오.
+이 모듈 사용에 대한 지침은 Workfront Fusion 설명서의 [Workfront 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)을 참조하십시오.
