@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1508'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
 * [보기 만들기 및 편집](#create-or-edit-record-views)
 * [보기 삭제](#delete-views)
-* [보기 복제](#duplicate-views)
+* [보기 복제](#duplicate-a-view)
 * [보기에서 실시간 현재 상태 표시기를 사용하도록 설정](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
@@ -257,7 +257,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-1. 보기 탭에서 보기 이름 중 하나를 마우스로 가리킨 다음 보기 이름 왼쪽의 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+1. 보기 탭에서 보기 이름 중 하나를 마우스로 가리킨 다음 보기 이름 왼쪽의 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**를 클릭합니다.
 먼저, 삭제할 보기를 찾으려면 마지막 탭 왼쪽에 있는 **자세히**&#x200B;를 클릭해야 할 수 있습니다.
 
 1. 확인하려면 **삭제**&#x200B;를 클릭하세요. <!--ensure there is not another saving step here?!-->

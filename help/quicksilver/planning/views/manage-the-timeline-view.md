@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2946'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
 1. (선택 사항) 타임라인에 연결된 레코드를 표시하려면 **분류**&#x200B;를 클릭합니다.
 
-   자세한 내용은 [분류 기능을 사용하여 연결된 레코드를 타임라인 보기로 표시](#break-down-connected-records-in-the-timeline-view) 섹션을 참조하십시오.
+   자세한 내용은 이 문서의 [분류 기능을 사용하여 타임라인 보기에서 연결된 레코드를 표시](#break-down-connected-records-in-the-timeline-view) 섹션을 참조하십시오.
 
 ### 필터 추가
 
@@ -266,15 +266,22 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
 1. **설정**&#x200B;을 클릭합니다.
-1. 왼쪽 패널에서 **날짜 및 시간**&#x200B;을 클릭한 다음 타임라인에 표시할 **시작 날짜** 및 **종료 날짜**&#x200B;를 선택하십시오. 기본 시작 및 종료 날짜를 선택하거나 사용 가능한 날짜 필드를 선택할 수 있습니다. 레코드를 나타내는 막대는 시작 날짜에 해당하는 날짜에 시작하여 종료 날짜에 해당하는 날짜에 끝납니다.
+1. 왼쪽 패널에서 **날짜 및 시간**&#x200B;을 클릭한 다음 타임라인에 표시할 **시작 날짜** 및 **종료 날짜**&#x200B;를 선택하십시오. 기본 시작 및 종료 날짜를 선택하거나 사용 가능한 날짜 필드를 선택할 수 있습니다.
+
+   레코드를 나타내는 막대는 시작 날짜에 해당하는 날짜에 시작하여 종료 날짜에 해당하는 날짜에 끝납니다.
 
    >[!NOTE]
    >
-   >시작 또는 종료 날짜에 대한 값이 없거나 시작 날짜가 종료 날짜보다 늦은 레코드는 타임라인 보기에 표시되지 않습니다.
+   >* 시작 또는 종료 날짜에 대한 값이 없거나 시작 날짜가 종료 날짜보다 늦은 레코드는 타임라인 보기에 표시되지 않습니다.
+   >
+   >* 분류 옵션을 사용하여 추가 레코드를 표시하는 경우 시작 및 종료 날짜는 기본 레코드의 날짜가 됩니다. 이 영역에서 연결된 레코드에 대한 시작 및 종료 날짜를 선택할 수 없습니다.
 
 1. 왼쪽 패널에서 **막대 스타일**&#x200B;을 클릭하여 레코드 막대에 표시할 정보를 표시합니다.
 
-   레코드의 테이블 보기에서 정의된 레코드의 기본 필드(또는 제목)는 기본적으로 선택됩니다. <!--adjust this when the primary field is released??-->
+   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+
+   레코드의 테이블 보기에서 정의된 레코드의 기본 필드(또는 제목)는 기본적으로 선택됩니다.
+   <!--adjust this when the primary field is released??-->
 
 1. (선택 사항 및 조건부) 레코드에 썸네일을 추가한 경우 썸네일 옵션을 선택하여 레코드와 연관된 이미지를 레코드 표시줄에 표시합니다.
 
@@ -306,10 +313,13 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* <span class="preview">연결된 개체를 표시하기 위해 타임라인 보기를 분류하면 주 레코드 형식에만 막대 세부 정보 자르기 설정이 적용됩니다. 연결된 레코드 모음에는 적용되지 않습니다.</span>
 
+   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. 타임라인에서 레코드와 그룹화의 색상을 사용자 지정하려면 왼쪽 패널에서 **색상**&#x200B;을 클릭합니다.
 
    ![색상 탭 타임라인 보기](assets/color-tab-timeline-view.png)
+
+   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
 
 1. (조건부 및 선택 사항) 타임라인 보기에 그룹화를 추가한 경우 **그룹화 색상 설정** 섹션에서 그룹화에 대한 색상을 설정하려면 다음 옵션 중 하나를 선택하십시오.
 
@@ -348,9 +358,13 @@ this is not possible right now; if this is the same functionality as the table v
 
    선택한 레코드 유형에 대해 색상으로 구분된 옵션이 있는 필드가 없는 경우 이 옵션은 흐리게 표시됩니다.
 
+   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+
 1. **저장**&#x200B;을 클릭합니다.
 
    선택한 사양과 함께 레코드가 타임라인 보기에 표시됩니다.
+
+
 
 ### 타임라인 보기에서 연결된 레코드 분류
 
@@ -359,6 +373,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 분류 기능을 사용할 때의 고려 사항
 
 * 타임라인 보기에서 선택한 레코드 유형의 레코드 아래에 연결된 레코드나 개체를 표시할 수 있습니다.
+* 표준 모드에서 레코드를 볼 때만 연결된 레코드를 타임라인 보기에 표시할 수 있습니다. 타임라인 보기의 압축 모드에서는 분류 옵션을 사용할 수 없습니다.
 * 분류 기능을 사용하여 타임라인 보기에 다음을 표시할 수 있습니다.
    * 선택한 레코드 유형에 연결된 Workfront Planning 레코드입니다.
    * Workfront 개체 유형 또는 선택한 레코드 유형에 연결된 Experience Manager 에셋.

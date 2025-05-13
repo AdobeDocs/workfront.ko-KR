@@ -6,10 +6,10 @@ description: 처음부터 프로젝트 템플릿을 작성할 수 있을 뿐만 
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 3%
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td><p>새로운 기능: 표준</p> 
-   <p>현재:플랜 </p> </td> 
+   <p>현재: 플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -81,9 +81,14 @@ ht-degree: 3%
 1. 헤더의 템플릿 이름 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭한 다음 **복사**&#x200B;를 클릭합니다.
 
    **템플릿 복사** 상자가 열립니다.
+
+   <!--![Copy template box](assets/copy-template-box.png)-->
+
 1. **새 템플릿 이름** 필드에 템플릿 이름을 지정하십시오.
 
    기본적으로 새 이름은 `Copy of Original template name`입니다.
 
-1. **작업 및 템플릿에 대한 사용자 할당 유지**: 이 옵션을 선택하여 원래 템플릿의 모든 작업 및 템플릿 할당을 새 템플릿으로 전달합니다.
+1. 원래 템플릿에서 새 템플릿으로 모든 작업 및 템플릿 할당을 이전하려면 **작업 및 템플릿에 대한 사용자 할당 유지** 옵션을 선택하십시오. 템플릿 작업 할당, 템플릿 소유자 및 스폰서가 복사된 템플릿으로 전송됩니다.
 1. 템플릿의 복사본을 만들려면 **저장**&#x200B;을 클릭하십시오.
+
+   Workfront의 템플릿 영역에 있는 템플릿 목록에 새 템플릿이 표시됩니다.
