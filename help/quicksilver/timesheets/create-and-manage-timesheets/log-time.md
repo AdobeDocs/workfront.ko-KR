@@ -7,16 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '3824'
+source-wordcount: '3819'
 ht-degree: 0%
 
 ---
 
 # 로그 시간
 
-<!--Audited: 12/2023-->
+<!--Audited: 5/2025-->
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
@@ -41,11 +41,9 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>신규:</p>
-   <ul><li><p> 가볍게 또는 그 이상: 작업, 문제 또는 타임시트의 일반 시간에 기록</p>
-   <li><p>프로젝트에 시간을 기록하는 표준</p></li></ul>
-   <p>
-   <p>현재: 
+   <td> <p>새로 만들기: 가볍게 또는 그 이상: 프로젝트, 작업, 문제의 시간 또는 타임시트의 일반 시간을 기록합니다.</p>
+
+<p>현재: 
    <ul><li>타임시트에 일반 시간을 기록하려면 이상을 검토하십시오.</li>
    <li>프로젝트, 작업 또는 문제에 시간을 기록하려면 이상 작업</li></ul> </td> 
   </tr> 
@@ -142,7 +140,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 1. (조건부) 한 번에 50개 이상의 항목을 추가하는 경우 타임시트에 추가된 항목 수를 표시하는 확인 메시지가 표시됩니다.
 
-   모든 항목을 추가하려면 **모두 추가**&#x200B;를 클릭하십시오.
+   모든 항목을 추가하려면 **모두 추가**를 클릭하십시오.
 또는
 선택한 항목의 추가를 중지하려면 **취소**&#x200B;를 클릭하고 항목 목록을 닫으려면 **취소**&#x200B;를 클릭하십시오.
 

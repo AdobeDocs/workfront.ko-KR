@@ -1,14 +1,14 @@
 ---
 title: 레코드 보기 관리
-description: Adobe Workfront Planning을 사용할 때 표, 타임라인 또는 달력 보기에 레코드를 표시할 수 있습니다. 이 문서에서는 보기를 만들고 기존 보기를 편집하거나 삭제하는 방법에 대해 설명합니다.
+description: Adobe Workfront Planning을 사용할 때 표, 타임라인 또는 달력 보기에 레코드를 표시할 수 있습니다. 이 문서에서는 보기를 만들고 기존 보기를 편집하는 방법에 대해 설명합니다.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1161'
 ht-degree: 1%
 
 ---
@@ -40,10 +40,14 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 이 문서에서는 레코드 보기에 대한 다음 정보를 설명합니다.
 
 * [보기 만들기 및 편집](#create-or-edit-record-views)
-* [보기 삭제](#delete-views)
-* [보기 복제](#duplicate-a-view)
 * [보기에서 실시간 현재 상태 표시기를 사용하도록 설정](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
+Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
+* [레코드 보기 삭제](/help/quicksilver/planning/views/delete-record-views.md)
+* [중복 레코드 보기](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [보기 공유](/help/quicksilver/planning/access/share-views.md)
 
 
 ## 액세스 요구 사항
@@ -123,21 +127,17 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 * 만든 보기는 사용자와 보기를 공유하는 사용자만 볼 수 있습니다.
 * 보기를 수정하거나 삭제하면 보기에 대한 권한이 있는 모든 사용자에 대해 수정 및 삭제됩니다.
 * 각 사용자는 최대 100개의 보기를 만들 수 있습니다. 레코드 유형에 대해 100개 이상의 보기를 표시할 수 있지만 한 사용자가 100개의 보기만 만들 수 있습니다.
-* 만든 보기를 다른 사용자와 공유할 수 있습니다. 자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하십시오.
-* 다음 요소는 각 레코드 보기에 고유합니다.
+* 일부 보기 요소는 동일한 레코드에 대한 여러 보기에 적용할 수 있지만 각 레코드 보기에 대해 고유합니다.
 
    * 필터
-   * 그룹화
-   * 정렬
-   * 막대 모양(타임라인 보기의 경우)
+   * 그룹화(테이블 및 타임라인 보기)
+   * 막대 모양(타임라인 및 달력 보기의 경우)
 
-  <!-- some of these are not available in all of the views - edit above-->
+  예를 들어, 테이블 보기에서 필터를 만들 때 선택한 보기(테이블 보기)에서만 필터 결과가 표시되고 레코드 유형과 연관된 모든 보기에서는 표시되지 않습니다.
 
-  예를 들어, 테이블 보기에서 필터를 만들 때 선택한 보기에서만 필터 결과를 볼 수 있고 레코드 유형과 연관된 모든 보기에서는 볼 수 없습니다.
-
-  >[!NOTE]
+  >[!TIP]
   >
-  > 일부 보기 요소는 모든 보기에서 사용하지 못할 수 있습니다.
+  >일부 보기 요소는 모든 보기에서 사용할 수 없습니다.
 
 
 ## 레코드 보기 간의 유사성 및 차이점
@@ -160,7 +160,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 | 달력에 레코드 표시 |           |              | ✓ |
 | 그룹 레코드 | ✓ | ✓ |
 | 레코드 정렬 | ✓ |              |
-| 색상 코드 레코드 |           | ✓ | ✓ |
+| <span class="preview">색상 코드 레코드</span> | <span class="preview">✓</span> | ✓ | ✓ |
 | 색상 코드 그룹화 |           | ✓ |
 | 특정 레코드 검색 | ✓ | ✓ |
 | 다른 사용자와 보기 공유 | ✓ | ✓ | ✓ |
@@ -242,76 +242,18 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
    * [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)
    * [달력 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
-
-## 보기 삭제
-
-{{step1-to-planning}}
-
-1. 작업 영역의 카드를 클릭합니다.
-
-   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
-
-1. 레코드 유형 카드를 클릭합니다.
-
-   레코드 유형 페이지가 열립니다.
-
-   기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
-
-1. 보기 탭에서 보기 이름 중 하나를 마우스로 가리킨 다음 보기 이름 왼쪽의 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
-먼저, 삭제할 보기를 찾으려면 마지막 탭 왼쪽에 있는 **자세히**&#x200B;를 클릭해야 할 수 있습니다.
-
-1. 확인하려면 **삭제**&#x200B;를 클릭하세요. <!--ensure there is not another saving step here?!-->
-
-   레코드 영역에 액세스할 수 있는 모든 사용자에 대해 보기가 삭제되며 복구할 수 없습니다.
-
-<!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->
-
-## 보기 복제
-
-여러 버전의 보기를 유지하고 버전 간에 약간의 변경 내용을 적용하려는 경우 보기를 복제할 수 있습니다.
-
-뷰를 복제하면 기존 뷰의 동일한 복사본이 만들어집니다.
-
-원래 보기의 공유 권한이 복제된 보기로 전송되지 않습니다.
-
-{{step1-to-planning}}
-
-1. 작업 영역의 카드를 클릭합니다.
-
-   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
-
-1. 레코드 유형 카드를 클릭합니다.
-
-   레코드 유형 페이지가 열립니다.
-기본적으로 선택된 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
-
-1. 복제할 보기의 탭 위로 마우스를 가져간 후 보기 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **복제**&#x200B;를 클릭합니다.
-
-   ![중복 옵션으로 더 많은 메뉴 보기](assets/view-more-menu-with-duplicate-option.png)
-
-
-   보기가 복제되고 새 보기의 이름이 `Original view's name (Copy)` 패턴을 따릅니다. 새 보기 탭은 모든 보기 탭의 끝에 표시됩니다.
-
 ## 보기에서 실시간 현재 상태 표시기 활성화
+
+보기의 실시간 상태 표시기를 따라 다른 사용자가 사용자와 동시에 레코드를 편집하고 있는지 확인할 수 있습니다.
 
 기본적으로 모든 레코드 보기의 오른쪽 위 모서리에 표시함과 동시에 레코드 정보를 편집하는 다른 사용자의 아바타입니다.
 
 표 보기를 표시할 때 레코드를 볼 때 다른 사용자가 편집하고 있는 필드를 볼 수도 있습니다.
 
-1. 레코드 유형 페이지로 이동하여 보기를 엽니다.
-1. (조건부) 선택한 유형의 레코드를 편집하는 다른 사용자가 동시에 있는 경우, 해당 아바타가 보기의 오른쪽 상단에 표시됩니다.
-1. 아바타 옆에 있는 드롭다운 메뉴를 클릭하고 **공동 작업자 표시** 토글을 선택합니다. 기본적으로 토글이 선택됩니다.
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
-   ![공동 작업자 표시 전환](assets/show-collaborators-toggle-selected.png)
 
-1. (조건부) 표 보기를 열면 다른 사람이 활발하게 편집하고 있는 필드가 표 보기에서 아바타의 윤곽에 해당하는 색으로 강조 표시됩니다.
 
-   아바타의 강조 색상이 회색이면 사용자는 30초 이상 전에 레코드 편집을 중지했습니다.
+<!--## Add a view as a favorite - this is not possible yet-->
 
-   ![실시간 지표 테이블 필드 및 아바타 연결](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-   >[!TIP]
-   >
-   >모든 보기에서 **공동 작업자 표시** 전환을 선택할 수 있습니다. 현재 다른 사용자가 편집한 필드는 테이블 보기에서만 윤곽선이 표시됩니다.
+<!--not possible yet - August 30, 2023: -->

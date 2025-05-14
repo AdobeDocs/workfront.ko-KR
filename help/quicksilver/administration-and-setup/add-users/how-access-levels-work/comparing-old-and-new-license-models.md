@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: dd6ff5927aaa4f8f2d41d0f2950d98ea32517ff9
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -55,319 +55,319 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>컨텐츠 보기 및 검토(증명 및 문서)</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-  <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  <td>✓</td> 
    <td></td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>문서 다운로드</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>동적 통합 캘린더 보기</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td>
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
    <tr> 
    <td>게시판에 액세스</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>작업 작업 및 문제 검토 및 승인</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>보고서 및 대시보드 보기</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>자원 관리 및 능력 계획 보고서 보기</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>요청 제출</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>진행 상황을 추적하고 작업 및 요청에 대해 공동 작업</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>프로젝트 및 문서 세부 정보 보기</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>작업 할당 알림 수신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>프로젝트 검토 및 승인</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>모바일 앱을 통한 작업 보기</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>프로젝트 계획 및 타임라인 보기</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>포트폴리오 및 프로그램 보기</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>무제한 콘텐츠 결정(증명 및 문서)</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>시간 추적 및 타임시트 제출</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td></td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>타임시트 승인</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
   </tr> 
    <td>작업 작업 만들기</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>할당된 작업 완료</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>프로젝트 만들기 및 관리</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>요청 대기열 생성 및 관리</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>자동 승인 워크플로우 만들기</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>사용자 정의 양식 만들기</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>템플릿 만들기</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>포트폴리오 및 프로그램 관리</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>자원 관리 및 능력 계획 사용</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>보고서 및 대시보드 만들기 및 배포</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
    <td>디지털 증명 생성</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
    <td></td>
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 

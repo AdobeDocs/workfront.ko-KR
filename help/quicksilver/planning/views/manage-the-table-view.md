@@ -1,14 +1,14 @@
 ---
 title: 표 보기 관리
-description: Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다. 이 문서에서는 테이블 뷰를 만들고 기존 뷰를 편집하거나 삭제하는 방법에 대해 설명합니다.
+description: Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다. 이 문서에서는 표 보기 편집을 만들거나 편집하는 방법과 보기에 대한 실시간 현재 상태 표시기를 활성화하는 방법 또는 CSV 또는 Excel 파일로 내보내는 방법에 대해 설명합니다.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '3229'
+source-wordcount: '3395'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,12 @@ ht-degree: 2%
 Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
 
 레코드 보기 및 관리 방법에 대한 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하세요.
+
+이 문서에서는 다음 정보에 대해 설명합니다.
+
+* [테이블 보기에서 열과 행 만들기 또는 편집](#manage-a-table-view)
+* [테이블 보기에 대한 실시간 현재 상태 표시기를 사용합니다](#enable-the-real-time-presence-indicator)
+  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
 
 ## 액세스 요구 사항
 
@@ -270,7 +276,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 1. 표 보기를 선택한 다음 표의 오른쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다.
 1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
-   * &#x200B;<!-- the tip below might change-->(으)로 필터링할 **필드 선택**
+   * <!-- the tip below might change-->(으)로 필터링할 **필드 선택**
 
    * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
 
@@ -525,7 +531,21 @@ To sort grouped records:
 
 표 보기를 표시할 때 레코드를 볼 때 다른 사용자가 편집하고 있는 필드를 볼 수도 있습니다.
 
-자세한 내용은 문서 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)의 &quot;실시간 현재 상태 표시기 사용&quot; 섹션을 참조하십시오.
+1. 레코드 유형 페이지로 이동하여 보기를 엽니다.
+1. (조건부) 선택한 유형의 레코드를 편집하는 다른 사용자가 동시에 있는 경우, 해당 아바타가 보기의 오른쪽 상단에 표시됩니다.
+1. 아바타 옆에 있는 드롭다운 메뉴를 클릭하고 **공동 작업자 표시** 토글을 선택합니다. 기본적으로 토글이 선택됩니다.
+
+   ![공동 작업자 표시 전환](assets/show-collaborators-toggle-selected.png)
+
+1. (조건부) 표 보기를 열면 다른 사람이 활발하게 편집하고 있는 필드가 표 보기에서 아바타의 윤곽에 해당하는 색으로 강조 표시됩니다.
+
+   아바타의 강조 색상이 회색이면 사용자는 30초 이상 전에 레코드 편집을 중지했습니다.
+
+   ![실시간 지표 테이블 필드 및 아바타 연결](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >모든 보기에서 **공동 작업자 표시** 전환을 선택할 수 있습니다. 현재 다른 사용자가 편집한 필드는 테이블 보기에서만 윤곽선이 표시됩니다.
 
 <!--<div class="preview">
 
