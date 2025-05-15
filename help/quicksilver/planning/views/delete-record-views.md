@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
-
 
 # 레코드 보기 삭제
 
@@ -111,11 +111,14 @@ Adobe Workfront Planning에서 더 이상 사용하지 않는 레코드 보기�
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-1. 보기 탭에서 보기 이름 중 하나를 마우스로 가리킨 다음 보기 이름 왼쪽의 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+1. <span class="preview">보기 탭에서 보기 이름 중 하나를 마우스로 가리킨 다음 보기 이름 왼쪽의 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.</span>
 
-   먼저, 삭제할 보기를 찾으려면 마지막 탭 왼쪽에 있는 **자세히**&#x200B;를 클릭해야 할 수 있습니다.
+   <span class="preview">![레코드 보기에서 추가 메뉴 보기](assets/view-more-menu-with-duplicate-option.png)</span>
 
-   ![레코드 보기에서 추가 메뉴 보기](assets/view-more-menu-with-duplicate-option.png)
+   >[!TIP]
+   >
+   >삭제할 보기를 찾으려면 마지막 탭 오른쪽에 있는 **자세히**&#x200B;를 클릭해야 할 수 있습니다.
+
 
 1. 확인하려면 **삭제**&#x200B;를 클릭하세요. <!--ensure there is not another saving step here?!-->
 

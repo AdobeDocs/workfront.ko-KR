@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1166'
 ht-degree: 1%
 
 ---
@@ -168,6 +168,7 @@ Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 
 | 연도 및 분기별 레코드 표시 |           | ✓ |    |
 | 월별 레코드 표시 |           | ✓ | ✓ |
 | 주별 레코드 표시 |           |               | ✓ |
+| <span class="preview">보기에서 정보 내보내기</span> | <span class="preview">✓</span> |               |    |
 
 
 ## 보기 만들기 또는 편집 {#create-or-edit-views}

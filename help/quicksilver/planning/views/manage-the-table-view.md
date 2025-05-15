@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '3395'
+source-wordcount: '3680'
 ht-degree: 2%
 
 ---
@@ -28,8 +28,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 이 문서에서는 다음 정보에 대해 설명합니다.
 
 * [테이블 보기에서 열과 행 만들기 또는 편집](#manage-a-table-view)
-* [테이블 보기에 대한 실시간 현재 상태 표시기를 사용합니다](#enable-the-real-time-presence-indicator)
-  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
+* [테이블 보기에 대한 실시간 현재 상태 표시기 활성화](#enable-the-real-time-presence-indicator)
+* <span class="preview">[CSV 또는 Excel 파일로 표 보기 내보내기](#export-the-table-view)</span>
 
 ## 액세스 요구 사항
 
@@ -88,7 +88,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>보기에 대한 권한 관리</p>  
-   <p>보기에 대한 권한을 보고 일시적으로 보기 설정을 변경하거나 복제합니다. <!--<span class="preview">or to export the view</span>--></p> </td> 
+   <p>보기에 대한 사용 권한을 보고 보기 설정을 일시적으로 변경하거나, 복제하거나, <span class="preview">하거나, 내보내십시오</span></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>레이아웃 템플릿</p></td> 
@@ -109,8 +109,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 표 보기에서 레코드를 편집하는 방법에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하십시오.
 
 ## 표 보기 관리 {#manage-a-table-view}
-
-<!--insert screen shot of table view-->
 
 테이블 뷰를 만들 때 선택한 유형의 모든 레코드가 테이블에 표시됩니다. 각 행은 고유한 레코드이며 각 열은 레코드 필드입니다. 기본적으로 모든 필드와 모든 레코드가 표시됩니다.
 
@@ -276,7 +274,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 1. 표 보기를 선택한 다음 표의 오른쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다.
 1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
-   * &#x200B;<!-- the tip below might change-->(으)로 필터링할 **필드 선택**
+   * <!-- the tip below might change-->(으)로 필터링할 **필드 선택**
 
    * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
 
@@ -547,51 +545,52 @@ To sort grouped records:
    >
    >모든 보기에서 **공동 작업자 표시** 전환을 선택할 수 있습니다. 현재 다른 사용자가 편집한 필드는 테이블 보기에서만 윤곽선이 표시됩니다.
 
-<!--<div class="preview">
+<div class="preview">
 
-## Export the table view
+## 테이블 보기 내보내기
 
-You can export information in the table view to a CSV or an Excel file. 
+표 보기의 정보를 CSV 또는 Excel 파일로 내보낼 수 있습니다.
 
-Consider the following when exporting the table view:
+테이블 뷰를 내보낼 때는 다음 사항을 고려하십시오.
 
-* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
+* Excel 파일로 내보낸 정보는 Workfront Planning의 테이블 보기에 적용된 필터, 그룹화 및 정렬을 유지합니다. 그룹화는 CSV 파일에 표시되지 않습니다.
 
-* Thumbnails and custom row colors are not supported in exported files.  
+* 내보낸 파일에는 축소판 및 사용자 정의 행 색상이 지원되지 않습니다.
 
-* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
+* Workfront 인터페이스에 표시된 필드만 내보내집니다. 숨겨진 필드는 내보내지 않습니다.
 
-To export information from the table view or a record type:
+테이블 뷰 또는 레코드 유형에서 정보를 내보내려면 다음을 수행합니다.
 
-1. Go to a record type page and click a table view tab. 
-1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
-1. Click **Export**, then select one of the following formats:
+1. 레코드 유형 페이지로 이동하고 표 보기 탭을 클릭합니다.
+1. 테이블 보기 탭의 이름을 마우스로 가리킨 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다.
 
-    * Excel
-    * CSV
+   ![보기에 있는 기타 메뉴](assets/view-more-menu-with-duplicate-option.png)
+1. **내보내기**&#x200B;를 클릭한 후 다음 형식 중 하나를 선택합니다.
 
-    >[!IMPORTANT]
-    >
-    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
+   * Excel
+   * CSV
 
-    The file is downloaded to your computer. 
+   >[!IMPORTANT]
+   >
+   >다른 보기를 화면에 표시할 때는 표 보기에서 정보를 내보낼 수 없습니다. 기타 메뉴의 내보내기 옵션에 액세스하려면 내보낼 테이블 뷰를 표시해야 합니다.
 
-1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
+   파일이 컴퓨터에 다운로드됩니다.
 
-    The name of the exported file follows the following format: 
+1. (선택 사항) 컴퓨터의 다운로드 폴더로 이동하여 다운로드한 파일을 찾습니다.
 
-    `Name of the view - name of the record type`
+   내보낸 파일의 이름은 다음 형식을 따릅니다.
 
-    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
+   `Name of the view - name of the record type`
 
-    The file displays the following information: 
-    
-    * The column headers are highlighted in black, in the Excel file
-    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
-    * Groupings are preserved in the Excel file
+   예를 들어 Campaigns 레코드 형식의 테이블 보기는 이름이 `Table view - Campaigns`인 파일을 생성합니다.
 
-    You can now share the exported files with others, or attach them to any communication. 
-    
- </div>   
+   파일에는 다음 정보가 표시됩니다.
 
- -->
+   * 열 머리글은 Excel 파일에서 검은색으로 강조 표시됩니다
+   * Workfront 인터페이스에 표시되는 모든 필드를 동일한 기준으로 정렬 및 필터링합니다
+   * 그룹화는 Excel 파일에서 유지됩니다
+
+   이제 내보낸 파일을 다른 사용자와 공유하거나 모든 통신에 첨부할 수 있습니다.
+
+</div>
+

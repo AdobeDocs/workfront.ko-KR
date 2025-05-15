@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -113,9 +113,11 @@ ht-degree: 1%
 * 빈 시트는 지원되지 않습니다.
 * 다음 유형의 필드는 지원되지 않으며 가져오기 시트의 필드에 매핑할 수 없습니다.
 
-   * &#x200B;<!--In the Production environment,--> Planning 레코드 또는 Workfront 및 AEM Assets 객체에 대한 연결 필드
+   * 사용 환경에 따라 연결 필드:
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * 프로덕션 환경에서는 Planning 레코드 또는 Workfront 및 AEM Assets 개체에 대한 연결 필드를 매핑할 수 없습니다
+
+      * <span class="preview">미리 보기 환경에서 연결 필드를 Planning 레코드에 매핑하고 가져올 수 있습니다. Workfront 및 AEM Assets에 필드를 매핑할 수 없습니다.</span>
 
    * 연결된 Planning 레코드 또는 Workfront 및 AEM Assets 개체의 조회 필드
    * 공식 필드
@@ -148,6 +150,11 @@ ht-degree: 1%
    ![레코드를 가져올 때 Planning 필드를 열에 매핑](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    각 행은 새 레코드를 나타냅니다. 처음 10개의 레코드만 [미리 보기 및 편집] 상자에 표시됩니다.
+
+   >[!TIP]
+   >
+   >일부 필드 유형은 지원되지 않습니다. 자세한 내용은 이 문서의 [Excel 또는 CSV 파일을 사용하여 레코드 가져오기에 대한 고려 사항](#considerations-about-importing-records-using-an-excel-or-csv-file) 섹션을 참조하십시오.
+
 
 1. (선택 사항 및 조건부) 작업 영역에 대한 관리 권한이 있는 경우 화면 왼쪽 하단의 **누락된 옵션 만들기**&#x200B;를 선택합니다. 활성화되면 단일 및 다중 선택 필드의 누락된 선택 사항이 추가됩니다.
 

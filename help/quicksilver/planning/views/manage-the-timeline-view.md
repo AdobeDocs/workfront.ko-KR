@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '2946'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 +++
 
 ## 타임라인 보기 관리 {#manage-a-timeline-view}
-
-<!--insert screen shot of timeline view-->
 
 타임라인 보기를 만들 때 선택한 레코드 유형의 모든 레코드가 시간 순서대로 표시됩니다.
 
@@ -278,7 +276,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 왼쪽 패널에서 **막대 스타일**&#x200B;을 클릭하여 레코드 막대에 표시할 정보를 표시합니다.
 
-   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">표준 보기에서 분류 옵션을 사용하면 연결된 레코드뿐 아니라 기본 레코드의 막대 스타일을 정의할 수 있습니다. </span>
 
    레코드의 테이블 보기에서 정의된 레코드의 기본 필드(또는 제목)는 기본적으로 선택됩니다.
    <!--adjust this when the primary field is released??-->
@@ -309,17 +307,14 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   >* <span class="preview">축소 모드에서 타임라인 보기를 표시할 때는 막대 세부 정보 자르기 설정을 사용할 수 없으며 달력 보기에서는 사용할 수 없습니다.</span>
+   ><span class="preview">축소 모드에서 타임라인 보기를 표시할 때는 막대 세부 정보 자르기 설정을 사용할 수 없으며 달력 보기에서는 사용할 수 없습니다.</span>
    >
-   >* <span class="preview">연결된 개체를 표시하기 위해 타임라인 보기를 분류하면 주 레코드 형식에만 막대 세부 정보 자르기 설정이 적용됩니다. 연결된 레코드 모음에는 적용되지 않습니다.</span>
-
-   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. 타임라인에서 레코드와 그룹화의 색상을 사용자 지정하려면 왼쪽 패널에서 **색상**&#x200B;을 클릭합니다.
 
    ![색상 탭 타임라인 보기](assets/color-tab-timeline-view.png)
 
-   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">표준 보기에서 분류 옵션을 사용할 때 연결된 레코드뿐 아니라 기본 레코드의 색상을 정의할 수 있습니다. </span>
 
 1. (조건부 및 선택 사항) 타임라인 보기에 그룹화를 추가한 경우 **그룹화 색상 설정** 섹션에서 그룹화에 대한 색상을 설정하려면 다음 옵션 중 하나를 선택하십시오.
 
@@ -358,7 +353,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    선택한 레코드 유형에 대해 색상으로 구분된 옵션이 있는 필드가 없는 경우 이 옵션은 흐리게 표시됩니다.
 
-   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+   1. <span class="preview">(선택 사항) [분류] 옵션을 사용하는 경우 타임라인에 표시된 연결된 각 레코드에 대해 4단계부터 시작하는 단계를 반복합니다. </span>
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -410,9 +405,18 @@ this is not possible right now; if this is the same functionality as the table v
    >    시작 및 종료 날짜는 순차적이어야 합니다. 종료 날짜가 시작 날짜 이전이면 타임라인에 레코드가 표시되지 않습니다.
 
    다른 레코드와 연결된 경우 타임라인에서 선택한 레코드의 막대에 오른쪽 방향 화살표가 표시됩니다.
-1. 레코드 유형을 확장하고 연결을 표시하려면 오른쪽 화살표를 클릭합니다.
+1. 레코드 유형을 확장하고 해당 연결을 표시하려면 오른쪽 화살표를 클릭합니다.
 
    ![타임라인 보기의 프로그램별로 분류된 캠페인](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+
+   >[!IMPORTANT]
+   >
+   >    분류에 연결된 여러 레코드를 표시할 때 계층 구조 순서가 아닙니다.
+   >
+   >예를 들어, 캠페인 타임라인을 보고 제품 을 추가한 다음 분류에 프로그램을 추가하는 경우 프로그램이 먼저 제품에 연결되어 있을 필요는 없습니다.
+   >
+   >두 제품 및 프로그램 모두 분류 선택 사항으로 표시할 캠페인에 연결되어 있어야 하며 순서에 관계없이 분류에 추가할 수 있습니다.
+
 
 1. (선택 사항) 연결된 레코드를 더 추가하려면 위의 단계를 반복합니다.
 

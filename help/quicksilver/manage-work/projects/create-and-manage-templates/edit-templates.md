@@ -6,9 +6,9 @@ description: 프로젝트 프로세스 및 설정의 변경 사항을 반영하�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '4877'
+source-wordcount: '4881'
 ht-degree: 2%
 
 ---
@@ -1100,7 +1100,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 * 결제 요율
 
-  프로젝트의 청구 요율 재정의에 대한 자세한 내용은 [작업 역할 청구 요율 재정의 개요 및 프로젝트의 수익 계산](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
+  템플릿에 대한 청구 요율을 추가하는 것은 프로젝트에 청구 요율을 추가하는 것과 비슷합니다. 자세한 내용은 [프로젝트 수준에서 작업 역할 청구 요금 재정의](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)를 참조하십시오.
 
 * 경비
 

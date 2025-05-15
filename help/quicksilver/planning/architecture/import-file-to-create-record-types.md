@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -109,9 +109,11 @@ ht-degree: 1%
 * 빈 시트는 지원되지 않습니다.
 * 다음 유형의 필드는 지원되지 않으며 가져오기 시트의 필드에 매핑할 수 없습니다.
 
-   * &#x200B;<!--In the Production environment,--> Planning 레코드 또는 Workfront 및 AEM Assets 객체에 대한 연결 필드
+   * 사용 환경에 따라 연결 필드:
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * 프로덕션 환경에서는 Planning 레코드 또는 Workfront 및 AEM Assets 개체에 대한 연결 필드를 매핑할 수 없습니다
+
+      * <span class="preview">미리 보기 환경에서 연결 필드를 Planning 레코드에 매핑하고 가져올 수 있습니다. Workfront 및 AEM Assets에 필드를 매핑할 수 없습니다.</span>
 
    * 연결된 Planning 레코드 또는 Workfront 및 AEM Assets 개체의 조회 필드
    * 공식 필드
@@ -129,8 +131,8 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다�
 
    작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
 1. **레코드 종류 추가**&#x200B;를 클릭합니다.
-1. **파일에서**&#x200B;을(를) 클릭합니다.
-1. 이전에 컴퓨터에 저장한 Excel 또는 CSV 파일을 끌어서 놓거나 **CSV 또는 Excel 파일 선택**&#x200B;을 클릭하여 찾습니다.
+1. **파일에서 업로드**&#x200B;를 클릭합니다.
+1. 이전에 컴퓨터에 저장한 Excel 또는 CSV 파일을 끌어서 놓거나 **CSV 또는 Excel 파일 선택**&#x200B;을 클릭하여 찾은 다음 선택합니다.
 1. **미리 보기 및 편집**&#x200B;을 클릭합니다.
 
    **미리 보기 및 편집** 상자에 다음 정보가 표시됩니다.
@@ -153,11 +155,21 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다�
 
    선택을 취소한 시트는 회색 배경과 함께 표시됩니다.
 
-1. (선택 사항) 열 헤더의 오른쪽에 있는 아래쪽 방향 화살표를 클릭하여 다음 중 하나를 수행합니다.
+1. (선택 사항) 열 머리글 오른쪽의 아래쪽 방향 화살표를 클릭하여 **필드** 탭에서 <span class="preview"> 중 하나를 수행합니다</span>.
+
+   레코드 종류 매핑 가져오기 상자의 <span class="preview">![필드 탭](assets/field-tab-on-record-type-import-mapping-box.png)</span>
 
    * 필드 중 하나의 이름을 변경합니다
    * **필드 형식** 변경
    * 필드 **설명** 업데이트
+
+1. <span class="preview">(선택 사항) 열의 정보를 다른 레코드 형식의 연결된 필드에 매핑하려면 **연결** 탭을 클릭합니다.</span>
+
+   <span class="preview">![레코드 종류 가져오기 매핑 상자의 연결 탭](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Workfront Planning 연결 레코드의 필드에만 매핑할 수 있습니다. Workfront 또는 AEM Assets 연결의 필드에 매핑할 수 없습니다. 자세한 내용은 이 문서의 [Excel 또는 CSV 파일을 사용하여 레코드 형식을 가져오는 데 대한 고려 사항](#considerations-about-importing-record-types-using-an-excel-or-csv-file) 섹션을 참조하십시오.</span>
 
 1. (조건부) 필드에 대한 정보를 업데이트한 후 **저장**&#x200B;을 클릭합니다.
 
