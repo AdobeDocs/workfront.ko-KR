@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,61 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 분류 옵션을 사용할 때 연결된 레코드 막대의 모양과 느낌을 정의하도록 타임라인 보기 설정을 업데이트합니다.
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 5월 15일
+>* 프로덕션 빠른 릴리스: 2025년 6월 12일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
+
+이제 분류에 있는 레코드에 대해 타임라인 보기에서 레코드 막대의 모양과 느낌의 서식을 지정할 수 있습니다. 이러한 레코드 모음에 대해 다음 설정을 업데이트할 수 있습니다.
+
+* 바 스타일
+* 색상
+
+이 기능이 향상되기 전에는 기본 레코드의 막대가 타임라인 보기에 표시될 때만 서식을 지정할 수 있었고 연결된 레코드의 막대는 서식을 지정할 수 없었습니다.\
+ 
+자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.  
+
+## 표 보기를 CSV 또는 Excel 파일로 내보내기 
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 5월 15일
+>* 프로덕션 빠른 릴리스: 2025년 6월 12일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
+
+표 보기에 표시된 정보를 CSV 또는 Excel 파일로 내보낼 수 있는 새 기능이 Workfront Planning에 추가되었습니다.  
+
+테이블 보기에서 정보를 내보낼 때는 다음 사항을 고려하십시오.  
+
+* 내보낸 정보는 Workfront Planning의 테이블 보기에 적용된 필터, 그룹화 및 정렬을 고려합니다.
+* 내보낸 파일에는 축소판 및 사용자 정의 행 색상이 지원되지 않습니다.  
+* Workfront 인터페이스에 표시된 필드만 내보내집니다. 숨겨진 필드는 내보내지 않습니다.  
+
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오. 
+
+## 이제 CSV 또는 Excel 파일을 사용하여 레코드를 가져올 때 Workfront Planning 연결된 필드가 지원됩니다
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 5월 15일
+>* 프로덕션 빠른 릴리스: 2025년 6월 12일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
+
+이제 CSV 또는 Excel 파일을 사용하여 레코드 유형에 레코드를 추가할 때 연결된 필드의 값을 채울 수 있습니다.  연결된 Planning 레코드 필드만 지원됩니다. 다른 응용 프로그램에 대한 연결을 표시하는 필드는 지원되지 않습니다.
+
+CSV 및 Excel 파일을 가져와서 레코드 형식과 기존 레코드 형식의 레코드를 모두 만들 때 이 변경 사항이 지원됩니다.
+
+이 개선 이전에는 레코드를 가져올 때 연결 필드를 채울 수 없었습니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* [CSV 또는 Excel 파일에서 정보를 가져와서 레코드를 만듭니다](/help/quicksilver/planning/records/import-file-to-create-records.md).
+
+* [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 형식을 만듭니다](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
 ## 레코드의 연결된 레코드 페이지에서 인라인 편집
 

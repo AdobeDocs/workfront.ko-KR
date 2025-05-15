@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 564d9b6ba81093caf7ac897ef785120f3bc85d07
+source-git-commit: 93a904811ccc48d320c8d2646c095017baf13900
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,44 @@ ht-degree: 3%
 ## 인터페이스 현대화
 
 사용자 경험을 개선하고 다른 Adobe 애플리케이션과 통합하기 위해 Adobe Workfront 전체에서 인터페이스를 업데이트할 예정입니다. 이러한 변경 사항은 표준 릴리스 일정 외에 릴리스됩니다. 이러한 변경 사항 목록은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+
+<!--
+
+## Look-and-feel-updates to a group's recently restored items
+
+>[!NOTE]
+>
+>Preview release: May 15, 2025; Production release for all customers: May 15, 2025
+
+We have updated the look and feel of the recently restored items for groups, to match the design of other areas of Workfront. No functionality has changed for recently restored group projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Groups > Select name of group > Recently Restored.
+
+For information, see [View and manage a group's recently restored items](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+-->
+
+## 설정 의 진단 페이지에 대한 유사 항목 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 5월 15일, 모든 고객을 위한 프로덕션 릴리스: 2025년 5월 15일
+
+Workfront의 다른 영역 디자인에 맞게 설정 영역에서 진단 페이지의 디자인을 업데이트했습니다.
+
+이 변경 사항을 보려면 설정 > 시스템 > 진단으로 이동합니다.
+
+자세한 내용은 [진단을 사용하여 자동화된 프로세스를 트리거합니다](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)를 참조하십시오.
+
+## 템플릿에 청구 요금을 추가할 때 업데이트 확인
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2025년 5월 15일, 모든 고객을 위한 프로덕션 릴리스: 2025년 5월 15일
+
+애플리케이션의 다른 영역에 맞게 템플릿에 청구 요금을 추가할 때 인터페이스를 업데이트했습니다.
+
+이 업데이트에는 기능 변경 사항이 도입되지 않았습니다.
 
 ## 댓글에 대한 기타 메뉴 옵션을 찾아 업데이트
 

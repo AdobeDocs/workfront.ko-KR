@@ -1,13 +1,13 @@
 ---
-title: 2025년 3분기 프로젝트 개선 사항
-description: 2025년 3분기 프로젝트 개선 사항
+title: 2025년 3분기 문서 관리 개선 사항
+description: 2025년 3분기 문서 관리 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
+source-git-commit: c8222e177d7e1ab9f62f5a520a2a941ca87cc27a
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---

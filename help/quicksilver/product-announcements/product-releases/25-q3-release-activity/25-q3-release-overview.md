@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 2629598989726e1beaf03092dcd1a4b93a23a9aa
+source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '800'
 ht-degree: 3%
 
 ---
@@ -41,6 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront 개선 사항
 
 * [문서 관리 개선 사항](#document-management-enhancements)
+* [홈 개선 사항](#home-enhancements)
 * [보고 개선 사항](#reporting-enhancements)
 * [업데이트 및 알림 개선 사항](#update-and-notification-enhancements)
 * [기타 개선 사항](#other-enhancements)
@@ -87,6 +88,33 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
   </tbody>
 </table>
+
+<!--
+
+### Home enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
+            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+        </td>
+        <td>May 15, 2025</td>
+        <td>May 15, 2025</td>
+        <td>July 17, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+-->
 
 ### 보고 개선 사항
 
@@ -183,7 +211,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ### Workfront Planning 개선 사항
 
@@ -205,11 +233,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
 
 
 
