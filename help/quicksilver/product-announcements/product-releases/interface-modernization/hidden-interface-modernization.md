@@ -6,9 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: b2ab4ca5aab65966d3833b0e6d58a563e70694e0
+exl-id: c0bf438f-f496-420a-b3b6-b958c8a70d3f
+source-git-commit: 1d2761d50176ea5ddf7649f31da8423fd60a6fe6
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3365'
 ht-degree: 1%
 
 ---
@@ -556,6 +557,8 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 ### 업데이트 및 주석
 
++++을 확장하여 Q2에 수행한 업데이트 및 댓글 인터페이스 업데이트 보기
+
 ### 댓글에 대한 기타 메뉴 옵션을 찾아 업데이트
 
 **미리 보기 릴리스: 2024년 4월 17일, 프로덕션 릴리스: 2024년 4월 17일 주에 시작**
@@ -569,3 +572,5 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 * Delete 작업을 빨간색으로 표시하여 강조 표시합니다.
 
 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
+
++++
