@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '3060'
 ht-degree: 0%
@@ -276,7 +276,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 왼쪽 패널에서 **막대 스타일**&#x200B;을 클릭하여 레코드 막대에 표시할 정보를 표시합니다.
 
-   <span class="preview">표준 보기에서 분류 옵션을 사용하면 연결된 레코드뿐 아니라 기본 레코드의 막대 스타일을 정의할 수 있습니다. </span>
+   표준 보기에서 분류 옵션을 사용할 때 기본 레코드 <span class="preview">뿐만 아니라 연결된 레코드</span>의 막대 스타일을 정의할 수 있습니다.
 
    레코드의 테이블 보기에서 정의된 레코드의 기본 필드(또는 제목)는 기본적으로 선택됩니다.
    <!--adjust this when the primary field is released??-->
@@ -314,7 +314,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    ![색상 탭 타임라인 보기](assets/color-tab-timeline-view.png)
 
-   <span class="preview">표준 보기에서 분류 옵션을 사용할 때 연결된 레코드뿐 아니라 기본 레코드의 색상을 정의할 수 있습니다. </span>
+   표준 보기에서 분류 옵션을 사용할 때 기본 레코드 <span class="preview">뿐만 아니라 연결된 레코드</span>의 색상을 정의할 수 있습니다.
 
 1. (조건부 및 선택 사항) 타임라인 보기에 그룹화를 추가한 경우 **그룹화 색상 설정** 섹션에서 그룹화에 대한 색상을 설정하려면 다음 옵션 중 하나를 선택하십시오.
 
