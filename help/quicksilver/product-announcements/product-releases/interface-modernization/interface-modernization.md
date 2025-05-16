@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
+source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3691'
 ht-degree: 1%
 
 ---
@@ -82,8 +82,28 @@ Workfront의 다른 영역 디자인에 맞게 설정 영역에서 진단 페이
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 Workfront 계정에 대한 지원 액세스 권한을 부여하는 데 사용하는 페이지를 업데이트했습니다.
 
+## 보고서 및 대시보드
+
+### Workfront 대시보드에서 /tile 또는 /qstile이 있는 URL이 더 이상 지원되지 않음
+
+**미리 보기 릴리스: 5월 13일, 프로덕션 릴리스: 발표 예정**
+
+대시보드에 `/tile` 또는 `/qstile`을(를) 포함하는 Workfront URL이 있는 외부 페이지가 있으면 해당 페이지가 더 이상 로드되지 않습니다.
+
+Workfront URL에 `/tile` 또는 `/qstile`을(를) 추가하면 브라우저에서 2022년 7월에 더 이상 사용되지 않는 지원되지 않는 클래식 경험 페이지를 로드할 수 있습니다.
+
+URL을 대체하여 지원되는 페이지로 이동하거나 대시보드에서 외부 페이지를 제거하는 것이 좋습니다.
+
 
 ## 사용자
+
+### 새 사용자 등록 페이지에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2024년 5월 15일, 프로덕션 릴리스: 발표 예정**
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 새 사용자 등록 페이지를 업데이트했습니다.
+
+사용자는 더 이상 이 페이지에 사진을 업로드할 수 없습니다. 하지만 Workfront에 로그인하면 사용자 프로필에 사진을 업로드할 수 있습니다.
 
 ### 로그인 페이지 찾기를 업데이트했습니다.
 
@@ -122,7 +142,6 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 **미리 보기 릴리스: 2024년 4월 24일, 프로덕션 릴리스: 2024년 5월 8일 주 시작**
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 라이선스 계약 페이지를 업데이트했습니다.
-
 
 
 ## Q2에 이루어진 인터페이스 업데이트
