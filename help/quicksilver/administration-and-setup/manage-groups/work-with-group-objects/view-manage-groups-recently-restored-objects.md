@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 최근에 복원된 그룹의 항목 보기 및 관리
-description: 그룹 영역에서 관리하는 그룹을 볼 때 최근에 복원된 작업 항목, 문서 및 템플릿을 보고, 필터링하고, 그룹화하고, 복원할 수 있습니다.
+description: 그룹 영역에서 관리하는 그룹을 볼 때 최근에 복원된 작업 항목, 문서 및 템플릿을 보고 필터링하고 그룹화하고 복원할 수 있습니다.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -79,19 +79,8 @@ ht-degree: 1%
 
    각 탭에는 현재 그룹 또는 해당 하위 그룹에 속하고 지난 30일 이내에 복원된 해당 객체 유형의 항목이 나열됩니다.
 
-1. 다음 작업 중 하나를 완료합니다.
+1. (선택 사항) 탭의 전체 개체 목록을 내보내려면 **내보내기** 아이콘을 클릭합니다. ![내보내기 아이콘](assets/export-icon.png).
+1. (선택 사항) 필터, 보기 또는 그룹화를 사용하여 목록의 정보 표시를 변경합니다.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"> <p>탭에서 전체 개체 목록 내보내기</p> </td> 
-      <td> <p><strong>내보내기</strong>를 클릭합니다.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>목록의 정보 표시 변경</p> </td> 
-      <td> <p>목록 위의 오른쪽 상단 모서리에서 <strong>필터</strong>를 사용하여 제공한 기준에 따라 표시되는 내용을 정의합니다. 열로 표시되는 필드를 정의하려면 <strong>보기</strong>를 사용하십시오. 항목을 범주로 그룹화하려면 <strong>그룹화</strong>을 사용하세요.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   자세한 내용은 [보고 요소 개요](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)를 참조하십시오.
+

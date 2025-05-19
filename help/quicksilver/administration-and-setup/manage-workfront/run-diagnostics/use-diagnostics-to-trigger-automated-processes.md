@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 9%
@@ -68,7 +68,7 @@ ht-degree: 9%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">지연 알림 보내기</td> 
+      <td role="rowheader">기한 경과 알림 보내기</td> 
       <td> <p>지연 작업 및 문제에 대한 자동 미리 알림 을 수동으로 보냅니다. </p> <p>자동 미리 알림 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">자동 미리 알림 설정</a>을 참조하세요.</p> </td> 
      </tr> 
      <tr> 
@@ -81,9 +81,7 @@ ht-degree: 9%
      </tr> 
      <tr> 
       <td role="rowheader">POP 계정 모두 확인</td> 
-      <td> <p>Workfront에 연결된 POP 계정으로 전송된 새 이메일을 확인합니다. </p> <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Workfront and POP account integrations, see and <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.</p>
-       --> </td> 
+      <td>Workfront에 연결된 POP 계정으로 전송된 새 이메일을 확인합니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">타임라인 다시 계산</td> 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2785'
 ht-degree: 6%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 6%
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>대시보드</p> <p>시스템의 모든 대시보드를 내보낼 수 있습니다. 단일 내보내기에서 최대 100개의 특정 대시보드를 선택할 수 있습니다.</p> </td> 
+      <td scope="col"> <p>대시보드</p> <p>시스템의 모든 공개 공유 대시보드는 내보낼 수 있습니다. 시스템 전체에서 공유되지 않은 대시보드는 내보낼 수 없습니다. 단일 내보내기에서 최대 100개의 특정 대시보드를 선택할 수 있습니다.</p> </td> 
       <td scope="col">ZIP 파일로 내보내기</td> 
       <td scope="col"> <p>매개변수</p> <p>설명 텍스트</p><p>매개변수 옵션</p> <p>매개변수 그룹</p> <p>범주 매개변수</p> <p>카테고리</p> <p>보고서</p> <p>포털 탭 섹션</p> <p>대시보드</p> <p>환경 설정</p> </td> 
      </tr> 
