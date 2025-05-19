@@ -3,18 +3,20 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
 title: 리소스 플래너에서 사용자 및 역할에 대한 시간 및 FTE 계산 개요
-description: 리소스 플래너에서 사용자 및 역할에 대한 시간 및 FTE 계산 개요
+description: 리소스 플래너에서 사용자 및 역할에 대한 시간 및 FTE 계산 개요.
 author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
 
 # 리소스 플래너에서 사용자 및 역할에 대한 시간 및 FTE 계산 개요
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina:KEEP THIS:***Linked to: Configuring My Settings, Editing User Accounts, Planning in the Resource Planner -- *** Some of this documentation is also duplicated in this article (Scheduling): https://support.workfront.com/hc/en-us/articles/360000557174)</p>
@@ -23,7 +25,7 @@ ht-degree: 0%
 시간, FTE 또는 비용별로 리소스 플래너에 리소스의 할당 및 가용성을 표시할 수 있습니다.\
 리소스 플래너에서 비용을 계산하는 방법에 대한 자세한 내용은 [리소스 플래너에서 비용 계산](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)을 참조하십시오.
 
-&quot;FTE&quot;는 Full Time Equivalent를 의미합니다. 사용자 또는 직무 역할에 대해 하루 또는 일주일 동안 실제 업무에 할애된 시간을 나타내는 시간 측정치입니다.
+FTE(Full Time Equivalent)는 사용자 또는 작업 역할에 대한 일별 또는 주별 실제 작업 시간을 나타내는 시간 측정값입니다.
 
 다음 리소스 정보 세트는 리소스 플래너에서 다르게 계산됩니다.
 
@@ -38,13 +40,9 @@ ht-degree: 0%
 
 ## 리소스 플래너에서 사용자 및 작업 역할에 대한 가용 시간 또는 FTE 계산 {#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner}
 
-* [리소스 플래너에서 사용자의 사용 가능한 시간 및 FTE 계산](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)
-* [리소스 플래너에서 작업 역할의 사용 가능한 시간과 FTE 계산](#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner)
-* [리소스 플래너에서 사용자의 가용 시간 및 FTE 계산(예)](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example)
-
 ### 리소스 플래너에서 사용자의 사용 가능한 시간 및 FTE 계산 {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner}
 
-Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나를 사용하도록 선택하여 사용자의 사용 가능 시간을 계산하는 방법을 결정합니다.
+Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나를 선택하여 사용자의 사용 가능 시간을 계산하는 방법을 결정합니다.
 
 * 시스템 및 사용자 FTE의 기본 일정입니다.
 * 사용자의 일정입니다.
@@ -59,7 +57,7 @@ Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나
 
 * **기본 일정**: 시스템의 기본 일정과 사용자 FTE를 사용하여 리소스 플래너에서 사용자의 사용 가능한 시간과 FTE 값을 결정합니다. 사용자의 일정이 무시됩니다. 이 경우:
 
-   * 리소스 플래너의 **사용 가능한 시간**&#x200B;은(는) 다음 수식을 사용하여 계산됩니다.
+   * 리소스 플래너의 사용 가능 시간은 다음 공식을 사용하여 계산됩니다.
 
      `User Available Hours = Default Schedule Hours * User FTE value`
 
@@ -67,17 +65,17 @@ Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나
 
      기본 일정을 포함하여 일정에 대한 자세한 내용은 [일정 만들기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
 
-   * 리소스 플래너의 사용자에 대한 **사용 가능한 FTE**&#x200B;이(가) 사용자 설정에 지정된 사용자 FTE와 동일합니다.
+   * 리소스 플래너의 사용자에 대해 사용 가능한 FTE는 사용자 설정에 지정된 사용자 FTE와 동일합니다.
 
      예를 들어 사용자 설정에서 사용자 FTE가 0.5이면 리소스 플래너에서 사용자의 사용 가능한 FTE는 0.5입니다. 사용자 설정에 표시되는 사용자 FTE의 값에 대한 자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
 
 * **사용자 일정**: 사용자 일정은 리소스 플래너에서 사용자의 사용 가능 여부를 확인하는 데 사용됩니다. 사용자 FTE의 값은 무시됩니다. 이 경우:
 
-   * 리소스 플래너의 **사용 가능한 시간**&#x200B;은(는) 사용자 예약의 시간과 동일합니다.
+   * 리소스 플래너의 사용 가능한 시간은 사용자 일정의 시간과 동일합니다.
 
-     예를 들어 사용자의 스케줄에 주 40시간을 작업에 사용할 수 있는 경우 사용자는 리소스 플래너에서 주 40시간 동안 작업할 수 있습니다.
+     예를 들어 사용자의 일정에 일주일에 40시간을 작업할 수 있는 경우 리소스 플래너에서 일주일에 40시간 동안 작업할 수 있습니다.
 
-   * 리소스 플래너의 **사용 가능한 FTE**&#x200B;은(는) 다음 수식으로 계산됩니다.
+   * 리소스 플래너의 사용 가능한 FTE는 다음 수식으로 계산됩니다.
 
      `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
@@ -93,18 +91,19 @@ Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나
 
 먼저 사용자 가용성을 계산한 다음 각 작업 역할의 가용성을 계산할 수 있습니다.
 
-리소스 플래너에서 작업 역할의 가용성은 사용자의 총 가용성과 사용자의 각 역할과 연결된 **FTE 가용성의 백분율**&#x200B;을 고려합니다.\
+리소스 플래너에서 작업 역할의 가용성은 사용자의 총 가용성과 사용자의 각 역할과 연관된 FTE 가용성의 백분율을 고려합니다.\
 ![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
 
-**FTE 가용성의 백분율** 값을 사용자의 작업 역할과 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
+사용자의 작업 역할과 FTE 가용성 비율 값을 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
 
-예를 들어, 사용자의 [사용 가능한 시간] 값이 40이고 해당 시간의 75% 동안 하나의 기본 역할과 해당 시간의 25% 동안 하나의 다른 역할을 수행할 수 있는 경우 리소스 플래너는 1주일 동안 기본 역할에 대한 **사용 가능한 시간** 값이 30시간이고 다른 역할에 대한 **사용 가능한 시간** 값이 10시간임을 표시합니다. 이 경우 기본 역할에 대한 FTE는 0.75이고 다른 역할에 대한 FTE는 0.25입니다.
+예를 들어, 사용자의 사용 가능 시간 값이 40이고 해당 시간의 75%에 대한 1차 역할 및 해당 시간의 25%에 대한 1개의 다른 역할을 수행할 수 있는 경우 리소스 플래너는 1주 동안 1차 역할에 대한 사용 가능 시간 값이 30시간이고 다른 역할에 대한 사용 가능 시간 값이 10시간임을 보여 줍니다. 이 경우 기본 역할에 대한 FTE는 0.75이고 다른 역할에 대한 FTE는 0.25입니다.
 
 >[!NOTE]
 >
 >사용자의 총 사용 가능 시간은 이 문서의 [리소스 플래너 섹션에서 사용자의 사용 가능한 시간 및 FTE 계산](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)에 설명된 두 가지 방법 중 하나를 사용하여 계산됩니다.
 
-역할 보기에서 리소스 플래너를 볼 때 한 작업 역할의 가용성은 해당 작업 역할을 수행할 수 있는 모든 사용자의 가용성의 합계입니다.\
+역할 보기에서 리소스 플래너를 볼 때 한 작업 역할의 가용성은 해당 작업 역할을 수행할 수 있는 모든 사용자의 가용성의 합계입니다.
+
 리소스 플래너의 리소스 가용성에 대한 자세한 내용은 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
 ### 리소스 플래너에서 사용자의 가용 시간 및 FTE 계산(예) {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example}
@@ -140,12 +139,12 @@ Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나
 * 예산 시간
 * 시간 차이
 * 순 시간\
-  이러한 값에 대한 자세한 내용은 [리소스 플래너의 프로젝트 및 역할 보기에서 시간, FTE 및 비용 정보 개요](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)를 참조하십시오.
+  자세한 내용은 리소스 플래너의 프로젝트 및 역할 보기에서 [시간, FTE 및 비용 정보 개요](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)를 참조하십시오.
 
 * 시간 차이\
-  이 값이 나타내는 값에 대한 자세한 내용은 [리소스 플래너의 프로젝트 및 역할 보기에서 시간, FTE 및 비용 정보 개요](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)를 참조하십시오.
+  자세한 내용은 리소스 플래너의 프로젝트 및 역할 보기에서 [시간, FTE 및 비용 정보 개요](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)를 참조하십시오.
 
-리소스 플래너에 FTE 또는 시간으로 동일한 정보를 표시할 수 있습니다.
+리소스 플래너에 FTE 또는 시간과 동일한 정보를 표시할 수 있습니다.
 
 Workfront은 다음 공식을 사용하여 리소스 플래너에 다른 모든 값을 FTE로 표시합니다.
 

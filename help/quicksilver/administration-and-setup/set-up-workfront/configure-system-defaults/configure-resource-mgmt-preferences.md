@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 리소스 관리] 환경 설정 구성
+
+<!-- Audited: 5/2025 -->
 
 <!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
@@ -34,19 +36,19 @@ Edit the first part, once they add more settings in the Res Management Preferenc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td><p>새로운 기능: [!UICONTROL Standard]</p>
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
    또는
-   <p>현재: [!UICONTROL Plan]</p>
+   <p>현재: 플랜</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!UICONTROL 시스템 관리자]</td>
+   <td>시스템 관리자</td>
   </tr> 
  </tbody> 
 </table>
@@ -59,11 +61,11 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
 사용자의 용량을 계산할 때 Workfront은 다음 정보를 고려합니다.
 
-* 사용자의 일정 또는 Workfront 시스템의 [!UICONTROL 기본 일정]에 정의된 예약 시간 수
-* [!UICONTROL 일정] [!UICONTROL 예외] (사용 중인 [!UICONTROL 일정]에 따라 사용자의 일정 또는 [!DNL Workfront] [!UICONTROL 기본 일정]과(와) 관련된 예외일 수 있음)
-* 사용자 휴무
+* 사용자의 일정 또는 Workfront 시스템의 기본 일정에 정의된 예약 시간 수입니다.
+* 일정 예외(사용되는 일정에 따라, 사용자 일정의 예외이거나 Workfront 기본 일정과 연관된 예외일 수 있음)
+* 사용자의 휴무.
 * 사용자의 FTE([!UICONTROL FTE]) 또는 [!DNL Workfront] 시스템의 FTE 값입니다. 사용자가 일정에 정의된 대로 전체 시간을 사용하는 경우 [!UICONTROL FTE]은(는) 1입니다.
-* 사용자의 [!UICONTROL 작업 시간] 값은 사용자가 프로젝트 관련 작업에 소요하는 시간을 나타냅니다. 여기에는 회의 및 훈련과 같은 오버헤드 시간은 포함되지 않습니다. [!UICONTROL 작업 시간]은(는) 사용자가 [!UICONTROL FTE] 또는 일정에 표시된 전체 시간 동안 작업에 사용할 수 있는 경우 1입니다. 즉, 모임 또는 교육과 같이 프로젝트와 관련되지 않은 작업에 시간을 사용하지 않습니다.
+* 사용자의 [!UICONTROL 작업 시간] 값(사용자가 프로젝트 관련 작업에 소요하는 시간을 나타냄). 여기에는 회의 및 훈련과 같은 오버헤드 시간은 포함되지 않습니다. [!UICONTROL 작업 시간]은(는) 사용자가 [!UICONTROL FTE] 또는 일정에 표시된 전체 시간 동안 작업에 사용할 수 있는 경우 1입니다. 즉, 모임 또는 교육과 같이 프로젝트와 관련되지 않은 작업에 시간을 사용하지 않습니다.
 
 
 [!DNL Workfront]의 리소스 계획 및 예약에 대한 자세한 내용은 [리소스 관리 시작](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)을 참조하세요.
@@ -82,11 +84,9 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
    * **기본 일정**: [!DNL Workfront]은(는) 시스템의 기본 일정과 사용자의 개별 FTE를 사용하여 리소스 관리 도구에서 사용자의 사용 가능한 시간을 계산합니다.
 
-     일정에 대한 자세한 내용은 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
+     자세한 내용은 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) 및 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
-     사용자의 [!UICONTROL FTE] 값을 찾는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
-
-     Workfront은 Workfront 관리자가 [!UICONTROL 기본 일정]을 선택하면 다음 공식을 사용하여 사용자의 사용 가능한 시간을 계산합니다.
+     이 옵션을 선택하면 Workfront은 다음 공식을 사용하여 사용자의 사용 가능한 시간을 계산합니다.
 
 
      `User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]`
@@ -94,7 +94,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
      >[!INFO]
      >
-     >예를 들어 기본 일정이 일주일에 40시간이고, 사용자 프로필의 FTE가 0.5이고, 사용자가 하루 1시간의 휴무를 사용하고, 사용자 프로필의 [!UICONTROL 작업 시간]이 0.5인 경우 사용자는 일주일에 9.5시간 동안 실제 프로젝트 작업에 사용할 수 있습니다.
+     >예를 들어, 기본 일정이 일주일에 40시간이고, 사용자 프로필의 FTE가 0.5이고, 1일 휴무가 1시간이고, 사용자 프로필의 [!UICONTROL 작업 시간]이 0.5이며, 사용자는 일주일에 9.5시간 동안 실제 프로젝트 작업에 사용할 수 있습니다.
      >
      >사용자에게 하루 1시간의 휴무가 있는 경우 사용 가능한 시간은 다음과 같이 계산됩니다.
      >
@@ -132,11 +132,9 @@ Edit the first part, once they add more settings in the Res Management Preferenc
       </div></li>      
       -->
 
-   * **사용자 일정**: [!DNL Workfront]은(는) 시스템의 [!UICONTROL 기본 일정]과 사용자 일정을 사용하여 리소스 관리 도구에서 사용자의 사용 가능한 [!UICONTROL FTE] 값을 계산합니다. 사용자의 일정에 따라서만 사용 가능한 시간이 계산됩니다. 사용자의 [!UICONTROL FTE] 값이 무시됩니다. 기본 설정입니다.
+   * **사용자 일정**: [!DNL Workfront]은(는) 시스템의 [!UICONTROL 기본 일정]과 사용자 일정을 사용하여 리소스 관리 도구에서 사용자의 사용 가능한 [!UICONTROL FTE] 값을 계산합니다. 사용 가능한 시간은 사용자의 일정에 따라서만 계산되며 사용자의 [!UICONTROL FTE] 값은 무시됩니다. 기본 설정입니다.
 
-     일정에 대한 자세한 내용은 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
-
-     사용자의 [!UICONTROL 일정]에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
+     자세한 내용은 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) 및 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
      >[!NOTE]
      >
@@ -156,7 +154,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
      >[!INFO]
      >
-     >예를 들어 [!UICONTROL 기본 일정]이 일주일에 40시간이고 사용자의 일정은 일주일에 30시간이며 사용자의 [!UICONTROL 작업 시간]은(는) 0.5이고 사용자의 [!UICONTROL FTE]은(는) 0.35입니다.
+     >예를 들어 [!UICONTROL 기본 일정]이 일주일에 40시간이고, 사용자의 일정이 일주일에 30시간이고, 사용자의 [!UICONTROL 작업 시간]이 0.5이고, 사용자의 [!UICONTROL FTE]이 0.35입니다.
      >
      >사용자에게 하루 휴무가 2시간인 경우 주별 사용 가능 시간 [!UICONTROL FTE]은(는) 다음과 같이 계산됩니다.
      >

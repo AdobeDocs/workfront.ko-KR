@@ -1,21 +1,23 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: APIModel INTERNAL이 필드 projectid(OpTask)를 지원하지 않는 경우 범주
-description: APIModel INTERNAL이 필드 projectid(OpTask)를 지원하지 않는 경우
+title: 카테고리
+description: Category 객체에 사용 가능한 필드 테이블로서, 설명 및 값 유형이 포함되어 있습니다.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 25%
+source-wordcount: '281'
+ht-degree: 27%
 
 ---
 
 
-# 범주
+# 카테고리
+
+<!-- Audited: 5/2025 -->
 
 Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
 메시지: &quot;APIModel INTERNAL이 필드 projectid(OpTask)를 지원하지 않음&quot;
@@ -90,7 +92,7 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong>extRefID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;External Reference ID&quot;}">외부 참조 ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">문자열</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">외부 오브젝트 링크에 사용하려는 사용자 편집 가능 필드</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">외부 오브젝트에 대한 링크를 사용하기 위한 사용자 편집 가능 필드</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">편집 가능</span> </p> </td> 
   </tr> 
@@ -139,23 +141,23 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
 
 ## 참조
 
-| 이름 | 레이블 | 유형 | 개체 코드 입력 | URL |
-|---|---|---|---|---|
-| 고객 | 고객 | 고객 | CUST | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 작성자 | 입력한 사람 | 사용자 | 사용자 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 그룹 | 그룹 | 그룹 | 그룹 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 마지막으로 업데이트한 사람 | lastUpdatedBy | 사용자 | 사용자 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| 이름 | 레이블 | 유형 | 개체 코드 입력 |
+|---|---|---|---|
+| 고객 | 고객 | 고객 | CUST |
+| 작성자 | 입력한 사람 | 사용자 | 사용자 |
+| 그룹 | 그룹 | 그룹 | 그룹 |
+| 마지막으로 업데이트한 사람 | lastUpdatedBy | 사용자 | 사용자 |
 
 
 ## 컬렉션
 
-| 이름 | 레이블 | 유형 | 개체 코드 입력 | URL |
-|---|---|---|---|---|
-| 액세스 규칙 | accessRules | 액세스 규칙 | ACSRUL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 범주 액세스 규칙 | 범주 액세스 규칙 | 범주 액세스 규칙 | 카타르 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 범주 캐스케이드 규칙 | categoryCascadeRules | 카탈로그 캐스케이드 규칙 | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 범주 매개변수 | 범주 매개변수 | 범주 매개변수 | CTGYA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 기타 그룹 | 기타 그룹 | 그룹 | 그룹 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| 이름 | 레이블 | 유형 | 개체 코드 입력 |
+|---|---|---|---|
+| 액세스 규칙 | accessRules | 액세스 규칙 | ACSRUL |
+| 범주 액세스 규칙 | 범주 액세스 규칙 | 범주 액세스 규칙 | 카타르 |
+| 범주 캐스케이드 규칙 | categoryCascadeRules | 카탈로그 캐스케이드 규칙 | CTCSRL |
+| 범주 매개변수 | 범주 매개변수 | 범주 매개변수 | CTGYA |
+| 기타 그룹 | 기타 그룹 | 그룹 | 그룹 |
 
 
 ## 액션

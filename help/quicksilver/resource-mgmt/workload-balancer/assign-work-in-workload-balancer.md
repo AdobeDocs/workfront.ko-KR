@@ -6,14 +6,16 @@ description: 리소스 관리자는 Adobe Workfront 업무 균형자 를 사용�
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1032'
 ht-degree: 1%
 
 ---
 
 # 업무 균형자에서 작업 할당 개요
+
+<!-- Audited: 5/2025 -->
 
 리소스 관리자는 Adobe Workfront 업무 균형자 를 사용하여 사용자에게 아직 할당되지 않은 작업 항목을 보고 사용자에게 할당할 수 있습니다.
 
@@ -28,9 +30,9 @@ Workfront의 다른 영역에서 작업 항목을 할당하는 방법에 대한 
 
 ## 업무 균형자에서 사용자 가용성
 
-사용자의 사용 가능한 시간과 일치하도록 업무 균형자에서 작업을 할당할 수 있습니다. 적절한 양의 작업을 할당하고 사용자를 과다 할당하지 않도록 하려면 사용자에게 할당된 작업 항목의 총 계획된 시간이 사용자에게 일별 또는 주별 할당과 일치해야 합니다.
+사용자의 사용 가능한 시간과 일치하도록 업무 균형자에서 작업을 할당할 수 있습니다. 적절한 양의 작업을 할당하고 사용자를 초과 할당하지 않도록 하려면 사용자에게 할당된 작업 항목의 계획된 시간 합계가 일별 또는 주별 할당과 일치해야 합니다.
 
-Workfront에서 사용자의 사용 가능한 시간을 계산하는 방법을 이해해야 합니다.
+Workfront에서 사용자의 사용 가능한 시간을 계산하는 방법을 이해하는 것이 중요합니다.
 
 Workfront은 다음 정보를 사용하여 업무 균형자에서 사용자의 용량을 계산합니다.
 
@@ -43,7 +45,7 @@ Workfront은 다음 정보를 사용하여 업무 균형자에서 사용자의 �
 
   자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하십시오.
 
-  일정에 대한 자세한 내용은 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
+  일정에 대한 자세한 내용은 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
 
 * 사용자의 휴무. 사용자가 이륙 예정일을 나타냅니다.
 
