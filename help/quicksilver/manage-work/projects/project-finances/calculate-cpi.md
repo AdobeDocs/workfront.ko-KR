@@ -7,14 +7,16 @@ description: 원가 성과 지수(CPI)는 프로젝트 또는 태스크 레벨�
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # 원가 성과 지수(CPI) 계산
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
@@ -61,9 +63,6 @@ ht-degree: 0%
 +++
 
 ## 원가 성과 지수(CPI) 개요
-
-* [CPI 값](#the-cpi-value)
-* [CPI 계산 방법](#how-cpi-is-calculated)
 
 ### CPI 값 {#the-cpi-value}
 
@@ -184,7 +183,7 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 * **프로젝트의 경우:**
 
   ```
-  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top-level tasks)
   ```
 
 
@@ -196,8 +195,6 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 1. CPI를 보려는 프로젝트 또는 작업으로 이동합니다.
 1. 프로젝트에 대한 CPI를 보고 있는지 아니면 작업에 대한 CPI를 보고 있는지에 따라 왼쪽 패널에서 **프로젝트 세부 정보** 또는 **작업 세부 정보**&#x200B;을 확장합니다.
 
-1. **재무**&#x200B;을 클릭합니다.
-
-   CPI가 **CPI/ SPI/ CSI** 필드에 표시됩니다.
+1. **재무**&#x200B;을 클릭합니다. CPI가 **CPI/ SPI/ CSI** 필드에 표시됩니다.
 
    프로젝트의 ![CPI](assets/cpi-on-project-nwe.png)

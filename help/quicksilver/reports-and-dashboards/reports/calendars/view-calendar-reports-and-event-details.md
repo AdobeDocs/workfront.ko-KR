@@ -6,9 +6,9 @@ description: Adobe Workfront에서 생성했거나 공유한 캘린더 보고서
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -82,31 +82,26 @@ Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤�
    * **[!UICONTROL 주]**: 달력의 1주일을 표시합니다.
    * **[!UICONTROL 간트]**: 캘린더의 연속 보기를 표시합니다.
 
-     아래로 스크롤하거나 옆으로 스크롤하여 [!UICONTROL 간트] 보기에서 더 많은 이벤트를 볼 수 있습니다. 보기의 데이터가 채워질 때 로딩 기호가 나타납니다.
+     아래로 스크롤하거나 옆으로 스크롤하여 **간트** 보기에서 더 많은 이벤트를 볼 수 있습니다. 보기의 데이터가 채워질 때 로딩 기호가 나타납니다.
 
    >[!NOTE]
    >
-   >[!UICONTROL 월] 및 [!UICONTROL 주] 보기에서 현재 또는 미래 이벤트(오늘 또는 미래 날짜가 포함된 경우 여러 날에 걸친 이벤트 포함)에는 프로젝트 또는 일정 그룹화의 색상에 해당하는 음영이 있습니다. 이전 이벤트에는 더 이상 최신 상태가 아님을 나타내는 더 밝은 음영이 표시되지만, 이러한 이벤트를 선택하여 볼 수 있습니다.
+   >**월** 및 **주** 보기에서 현재 또는 미래 이벤트(오늘 또는 미래 날짜가 포함된 경우 여러 날에 걸친 이벤트 포함)에는 프로젝트 또는 일정 그룹화의 색상에 해당하는 음영이 있습니다. 이전 이벤트에는 더 이상 최신 상태가 아님을 나타내는 더 밝은 음영이 표시되지만, 이러한 이벤트를 선택하여 볼 수 있습니다.
 
-1. (선택 사항) [!UICONTROL 월] 또는 [!UICONTROL 주] 보기에서 캘린더를 보는 경우 다음 옵션을 사용하여 캘린더 보기를 변경할 수 있습니다.
+1. (선택 사항) **월** 또는 **주** 보기에서 캘린더를 보는 경우 다음 옵션을 사용하여 캘린더 보기를 변경할 수 있습니다.
 
-<!--   * To include or exclude weekends:
-
+   <!--   * To include or exclude weekends:
       1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-* 표시된 일자를 빠르게 변경하려면
+   * 표시된 일자를 빠르게 변경하려면
 
-   1. **[!UICONTROL 달력]** 도구 모음에서 날짜 표시기의 왼쪽 화살표를 클릭하여 달력에서 뒤로 이동하거나 오른쪽 화살표를 클릭하여 앞으로 이동합니다.
+      1. **[!UICONTROL 달력]** 도구 모음에서 날짜 표시기의 왼쪽 화살표를 클릭하여 달력에서 뒤로 이동하거나 오른쪽 화살표를 클릭하여 앞으로 이동합니다.
 
-      날짜를 변경하려면 ![화살표를 클릭하세요](assets/click-arrows-to-change-dates-calendar-report.png)\
-      표시되는 날짜는 현재 달력 보기에 따라 간격에 따라 조정됩니다. 예를 들어, [!UICONTROL 주] 보기에서 달력을 보는 경우 선택한 화살표에 따라 달력은 1주일 앞으로 또는 1주일 뒤로 표시됩니다.
+         날짜를 변경하려면 ![화살표를 클릭하세요](assets/click-arrows-to-change-dates-calendar-report.png)
 
-   1. (선택 사항) 현재 날짜로 돌아가려면 [!UICONTROL **오늘**]&#x200B;을 클릭합니다.
+         표시되는 날짜는 현재 달력 보기에 따라 간격에 따라 조정됩니다. 예를 들어, **주** 보기에서 달력을 보는 경우 선택한 화살표에 따라 달력은 1주일 앞으로 또는 1주일 뒤로 표시됩니다.
 
-
-1. (선택 사항) 전체 화면으로 달력을 보려면 **[!UICONTROL 달력]** 도구 모음의 오른쪽에 있는 전체 화면 화살표를 클릭합니다.
-   날짜를 변경하려면 ![화살표를 클릭하세요](assets/click-arrows-to-change-dates-calendar-report.png)\
-   캘린더의 일반 보기로 돌아가려면 Esc 키를 누릅니다.
+      1. (선택 사항) 현재 날짜로 돌아가려면 [!UICONTROL **오늘**]&#x200B;을 클릭합니다.
 
 1. (선택 사항) 달력에 연결된 프로젝트 또는 달력 그룹화에 대한 이벤트를 숨기려면 프로젝트 목록에서 프로젝트 또는 달력 그룹화를 지웁니다.
    ![이벤트 숨기기](assets/hide-events-for-project-or-cal-grouping.png)

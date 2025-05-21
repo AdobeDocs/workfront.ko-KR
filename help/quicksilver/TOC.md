@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: 65ff6054842312a79fd0b254d2c68af0e367ec97
 workflow-type: tm+mt
-source-wordcount: '13210'
+source-wordcount: '13214'
 ht-degree: 2%
 
 ---
@@ -2133,7 +2133,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2146,7 +2146,7 @@ ht-degree: 2%
       * Illustrator 및 InDesign용 Workfront 확장 {#workfront-for-illustrator-indesign}
          * [Illustrator 및 InDesign용 Workfront 확장 사용](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Adobe Workfront for Jira {#workfront-for-jira}
-      * [Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
+      * [Adobe Workfront for Jira: 기사 색인](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
       * [Jira용 Adobe Workfront 설치](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
       * [Jira용 Adobe Workfront 구성](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
       * [Adobe Workfront과 Jira 간의 항목 연결](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
@@ -2169,7 +2169,7 @@ ht-degree: 2%
       * [이메일 콘텐츠를 사용하여 Google Workspace에서 Adobe Workfront 문제 만들기](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
       * [이메일 콘텐츠를 사용하여 G Suite에서 Adobe Workfront 항목 업데이트](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Outlook용 Adobe Workfront {#workfront-for-outlook}
-      * [Outlook용 Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
+      * [Outlook용 Adobe Workfront: 문서 색인](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [Outlook용 Adobe Workfront 설정](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
       * [Outlook용 Workfront에 대한 권한 수준](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [Outlook의 댓글에 회신](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)

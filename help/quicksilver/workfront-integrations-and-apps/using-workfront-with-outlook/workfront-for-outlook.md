@@ -2,20 +2,22 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Outlook용 Adobe Workfront
+title: 'Outlook용 Adobe Workfront: 문서 색인'
 description: Adobe Workfront Fusion은 Outlook과의 통합을 제공합니다. 이 문서는 이 통합을 설치 및 구성하기 위한 지침과 일상적인 작업에서 통합을 사용하는 방법에 대한 링크를 제공합니다.
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: c374416e-9680-4725-ab2d-256dff6f03b1
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront for Outlook]
+# [!DNL Adobe Workfront for Outlook: article index]
+
+<!-- Audited: 5/2025 -->
 
 이 섹션에는 다음 문서가 포함됩니다.
 
