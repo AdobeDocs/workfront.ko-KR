@@ -3,21 +3,23 @@ filename: document-webhooks-api
 content-type: api
 product-area: documents
 navigation-topic: workfront-api
-title: 문서 Webhooks API 개요
+title: 'Document Webhooks API: 문서 색인'
 description: 문서 웹후크 API 주제
 author: Becky
 feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
-# 문서 Webhooks API 개요
+# Document Webhooks API: 문서 색인
+
+<!-- Audited: 5/2025 -->
 
 이 섹션에는 다음 문서가 포함됩니다.
 

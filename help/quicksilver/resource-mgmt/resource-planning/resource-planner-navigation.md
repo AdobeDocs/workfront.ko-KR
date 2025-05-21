@@ -7,7 +7,7 @@ description: Adobe Workfront 리소스 플래너를 사용하면 리소스의 �
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
 source-wordcount: '2424'
 ht-degree: 2%
@@ -249,7 +249,6 @@ Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 �
 
    * 보조 작업 역할에 해당 사용자 프로필의 FTE 가용성 비율에 대한 유효한 숫자가 있는 경우.
    * 사용자가 해당 역할의 작업에 할당된 경우.
-
 작업 역할에 대한 FTE 사용 가능 비율에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 을 참조하십시오.
 
 ## 역할 및 사용자 섹션 없음
