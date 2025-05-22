@@ -3,15 +3,13 @@ title: Adobe App Builder을 사용하여 Workfront에 대한 맞춤형 애플리
 description: Adobe App Builder에서 제공하는 Workfront UI 확장을 사용하면 고객 및 파트너가 사용자 지정된 사용자 경험을 만들 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents
-hide: true
-hidefromtoc: true
-source-git-commit: 7c82dc70c5fde69c905b74f28a0ff9add663dbd9
+exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
+source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
 
 ---
-
 
 # Adobe App Builder을 사용하여 Workfront에 대한 맞춤형 애플리케이션 만들기
 
@@ -118,7 +116,7 @@ Adobe에서는 App Builder 애플리케이션을 만드는 데 사용할 수 있
    ![명령 결과](assets/1-command-result.png)
    ![프로젝트 선택](assets/2-select-a-project.png)
 
-1. 사용 가능한 모든 템플릿을 탐색하고 프로젝트의 **@adobe/workfront-ui-ext-tpl**&#x200B;을(를) 선택하십시오.
+1. 사용 가능한 모든 템플릿을 탐색하고 프로젝트의 **@adobe/workfront-ui-ext-tpl**을(를) 선택하십시오.
    ![템플릿 선택](assets/3-choose-template.png)
 1. Adobe Developer Console에서 만든 프로젝트 이름을 선택하고 입력합니다.
    ![프로젝트 이름 선택 및 입력](assets/4-select-and-enter-project-name.png)
@@ -155,13 +153,13 @@ Workfront 기본 메뉴에서 사용자 지정 응용 프로그램을 허용하�
 ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드는 템플릿에서 만들었습니다. 이 코드를 추가하여 추가 메뉴 항목을 만들 수 있습니다. ID 및 URL을 바꾸십시오.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    반환 &lbrack;
+    반환 [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -171,13 +169,13 @@ ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드�
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. 다음 코드 조각을 추가합니다.

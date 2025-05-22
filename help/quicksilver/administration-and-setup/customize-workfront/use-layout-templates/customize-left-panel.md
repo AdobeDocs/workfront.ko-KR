@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,8 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td><p>임의</p>
+   <p>메인 메뉴에 사용자 정의 응용 프로그램을 추가하는 것은 Adobe App Builder에 대해 라이선스가 부여된 조직에서만 가능합니다.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -89,27 +90,27 @@ ht-degree: 0%
      <tr> 
       <td>[!UICONTROL 프로젝트]</td> 
       <td>프로젝트 이름</td> 
-      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 기록], [!UICONTROL 비용], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!UICONTROL 사용자], [!UICONTROL 사용자] 사용률&rbrack;, [!UICONTROL 대기열 세부 정보], [!UICONTROL 라우팅 규칙], [!UICONTROL 대기열 주제], [!UICONTROL 주제 그룹], [!UICONTROL 지표], [!UICONTROL Planning]*</td> 
+      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 기록], [!UICONTROL 비용], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!UICONTROL 사용자], [!UICONTROL 사용자] 사용률], [!UICONTROL 대기열 세부 정보], [!UICONTROL 라우팅 규칙], [!UICONTROL 대기열 주제], [!UICONTROL 주제 그룹], [!UICONTROL 지표], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 작업]</td> 
       <td>작업 이름</td> 
-      <td> [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 작업 세부 사항], [!UICONTROL 하위 작업], [!UICONTROL 문제], [!UICONTROL 시간], [!UICONTROL 승인], [!UICONTROL 경비], [!UICONTROL 전임 작업]</td> 
+      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Task Details], [!UICONTROL Subtask], [!UICONTROL Issues], [!UICONTROL Hours], [!UICONTROL Approvals], [!UICONTROL Expenses], [!UICONTROL Predecessors], [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 문제]</td> 
       <td>문제의 이름</td> 
-      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issue Details], [!UICONTROL Hours], [!UICONTROL Approvals]</td> 
+      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issue Details], [!UICONTROL Hours], [!UICONTROL Approvals], [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>포트폴리오 이름</td> 
-      <td>[!UICONTROL 프로젝트], [!UICONTROL 프로그램], [!UICONTROL Portfolio 세부 사항], [!UICONTROL Portfolio] [!UICONTROL 최적화], [!UICONTROL 문서], [!UICONTROL 업데이트], [!UICONTROL 계획]*</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Programs], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL Optimization], [!UICONTROL Documents], [!UICONTROL Updates], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 프로그램]</td> 
       <td>프로그램 이름</td> 
-      <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Template]</td> 
@@ -201,6 +202,8 @@ ht-degree: 0%
 
    *이 영역을 프로젝트, 포트폴리오 및 프로그램의 왼쪽 패널에 추가하려면 귀사에서 Workfront Planning에 대해 추가 라이선스를 구입해야 합니다. 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
+   **사용자 정의 응용 프로그램은 별도로 만들어야 기본 메뉴 옵션으로 사용할 수 있습니다. 자세한 내용은 [Adobe App Builder을 사용하여 Workfront용 사용자 지정 응용 프로그램 만들기](/help/quicksilver/app-builder/app-builder.md)를 참조하십시오.
+
 
 1. **[!UICONTROL 왼쪽 패널]** 목록에서 다음 중 하나를 수행하여 선택한 [!DNL Workfront] 영역 또는 개체 유형에 대해 왼쪽 패널에 표시되는 사용자를 결정합니다.
 
@@ -221,7 +224,7 @@ ht-degree: 0%
    >* [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [레이아웃 템플릿을 사용하여 [!UICONTROL 요약 패널 사용자 지정]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [레이아웃 템플릿을 사용하여 홈 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* [브랜드 Adobe [!DNL Workfront] 레이아웃 템플릿 사용](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >* [Brand Adobe [!DNL Workfront] 레이아웃 템플릿 사용](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (선택 사항) 조직의 대시보드 중 하나에 연결되는 왼쪽 패널 항목을 추가하려면 **[!UICONTROL 사용자 지정 섹션 추가]**&#x200B;를 클릭하고 항목에 대한 **[!UICONTROL 사용자 지정 섹션 제목]**&#x200B;을 입력한 다음 대시보드를 추가하십시오.

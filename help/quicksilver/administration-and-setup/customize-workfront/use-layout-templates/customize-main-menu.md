@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '686'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 >
 >사용자가 볼 수 있는 메인 메뉴 옵션은 라이선스 유형과 액세스 수준에서 구성된 설정에 따라 다릅니다. 이 레이아웃 템플릿을 사용할 일부 사용자에게는 여기에서 선택한 일부 옵션이 표시되지 않을 수 있습니다. 자세한 내용은 [액세스 수준과 사용 권한이 함께 작동하는 방식](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) 및 [각 개체 유형에 대한 기능에 대한 구성 가능한 액세스](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)를 참조하십시오.
 >
->조직이 Adobe Workfront 통합 경험에 온보딩된 경우 메인 메뉴에 다른 옵션이 표시될 수 있습니다. 자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
+>조직이 Adobe Workfront 통합 경험에 온보딩된 경우 메인 메뉴에 다른 옵션이 표시될 수 있습니다. 자세한 내용은 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하십시오.
 
 레이아웃 템플릿 만들기에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
@@ -47,7 +47,9 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
-   <td>임의</td> 
+   <td><p>임의</p>
+
+<p>메인 메뉴에 사용자 정의 응용 프로그램을 추가하는 것은 Adobe App Builder에 대해 라이선스가 부여된 조직에서만 가능합니다.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
@@ -120,6 +122,12 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
      >[!NOTE]
      >
      >Planning에는 추가 라이센스가 필요합니다. Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오
+      * 사용자 정의 애플리케이션
+
+     >[!NOTE]
+     >
+     > 사용자 정의 응용 프로그램은 별도로 만들어야 기본 메뉴 옵션으로 사용할 수 있습니다. 자세한 내용은 [Adobe App Builder을 사용하여 Workfront용 사용자 지정 응용 프로그램 만들기](/help/quicksilver/app-builder/app-builder.md)를 참조하십시오.
+
 
 1. 다음 중 하나를 수행합니다.
 
