@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
+source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,23 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 타임라인 보기에서 압축 모드로 레코드를 분류할 때의 새로운 경험
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 5월 22일
+>* 프로덕션 빠른 릴리스: 2025년 6월 12일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
+
+타임라인 보기에서 레코드를 분류할 때 경험이 변경되었으며, 컴팩트 보기가 적용되었습니다.
+새 업데이트를 사용하면 컴팩트 모드로 타임라인을 표시하는 동안 분류 객체를 정의할 때 분류 조건 구성을 완료한 후 보기를 표준으로 전환하라는 메시지가 표시됩니다.
+
+이 개선 이전에는 타임라인 보기를 압축 모드로 표시할 때 분류 조건을 정의할 수 없었습니다.
+
+이 업그레이드의 경우 기본 선택 사항이 표준 옵션입니다. 이 이전에는 압축 모드가 기본값입니다.
+
+자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 
 ## 분류 옵션을 사용할 때 연결된 레코드 막대의 모양과 느낌을 정의하도록 타임라인 보기 설정을 업데이트합니다.
 
