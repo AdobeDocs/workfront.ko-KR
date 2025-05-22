@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3152'
 ht-degree: 0%
 
 ---
@@ -139,13 +139,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
       * 년
       * 분기
       * 월
-1. **표준 보기로 전환** 보기를 클릭하여 레코드를 별도의 줄로 표시합니다. <!--check to see if they updated the name of the setting here-->
-
-   또는
-
-   날짜가 같은 줄에 겹치지 않는 레코드를 표시하려면 **작게 보기로 전환**&#x200B;을 클릭합니다. <!--check to see if they updated the name of the setting here-->
-
-   레코드는 기본적으로 작게 보기에 표시됩니다.
+1. (선택 사항) 날짜가 같은 줄에 겹치지 않는 레코드를 표시하려면 **작게 보기로 전환**&#x200B;을 클릭합니다. <!--check to see if they updated the name of the setting here-->
+1. (조건부) 모드를 **작게**(으)로 변경한 경우 **표준 보기로 전환** 보기를 클릭하여 레코드를 별도의 줄로 표시합니다. <span class="preview">**표준** 옵션이 기본값입니다.</span>  <!--check to see if they updated the name of the setting here-->
 
 1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
 
@@ -353,7 +348,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    선택한 레코드 유형에 대해 색상으로 구분된 옵션이 있는 필드가 없는 경우 이 옵션은 흐리게 표시됩니다.
 
-   1. <span class="preview">(선택 사항) [분류] 옵션을 사용하는 경우 타임라인에 표시된 연결된 각 레코드에 대해 4단계부터 시작하는 단계를 반복합니다. </span>
+1. <span class="preview">(선택 사항) [분류] 옵션을 사용하는 경우 타임라인에 표시된 연결된 각 레코드에 대해 4단계부터 시작하는 단계를 반복합니다. </span>
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -389,7 +384,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 연결된 레코드 분류
 
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
-1. (조건부) 표준 모드에서 타임라인 보기를 보려면 **분류**&#x200B;를 클릭합니다.
+1. **Standard** 또는 <span class="preview">**Compact** 모드에서 타임라인 보기의 오른쪽 상단에 있는 **분류**</span>&#x200B;를 클릭합니다.
 1. **연결된 레코드 종류 선택** 상자를 확장하고 연결된 레코드 종류를 선택합니다. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![타임라인 보기의 분류 선택 및 단추](assets/breakdown-picker-and-button-on-timeline.png)
@@ -417,7 +412,15 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >두 제품 및 프로그램 모두 분류 선택 사항으로 표시할 캠페인에 연결되어 있어야 하며 순서에 관계없이 분류에 추가할 수 있습니다.
 
+1. <span class="preview">(조건부) 압축 모드에서 타임라인을 보고 있으면 **보기 전환**&#x200B;을 클릭합니다. **압축** 모드에서 분류가 표시되지 않습니다.</span>
 
+   >[!TIP]
+   >
+   >**표준 보기로 전환에서 <span class="preview">선택**&#x200B;다시 표시 안 함&#x200B;**** 상자, 보기를 전환하기 전 </span>
+   >
+   ><span class="preview">이 환경 설정은 현재 브라우저에만 기억됩니다. 브라우저나 컴퓨터를 변경하는 경우 이 환경 설정을 다시 선택해야 합니다.</span>
+   >
+   >뷰를 표준으로 전환하고 뷰에 연결된 레코드를 표시한 후에는 컴팩트 모드로 되돌릴 수 없습니다.
 1. (선택 사항) 연결된 레코드를 더 추가하려면 위의 단계를 반복합니다.
 
 

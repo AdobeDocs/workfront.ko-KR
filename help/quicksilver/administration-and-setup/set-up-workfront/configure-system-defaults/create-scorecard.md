@@ -4,28 +4,39 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 스코어카드 만들기
 description: 스코어카드는 프로젝트가 이전에 설정한 포트폴리오 기준에 얼마나 잘 부합하는지 측정합니다. 스코어카드는 종종 조직의 임무, 가치 및 전략적 목표를 반영합니다. Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정의하여 프로젝트 우선 순위 지정 및 선택 시 의미 있고 가치 있는 질문을 하도록 합니다.  [!DNL Adobe Workfront] 관리자가 포트폴리오 관리자의 권장 사항을 기반으로 스코어카드를 작성합니다.
-author: Lisa
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
 
 # 스코어카드 만들기
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오. </span>
+
 스코어카드는 프로젝트가 이전에 설정한 포트폴리오 기준에 얼마나 잘 부합하는지 측정합니다. 스코어카드는 종종 조직의 임무, 가치 및 전략적 목표를 반영합니다.
 
-Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정의하여 프로젝트 우선 순위 지정 및 선택 시 의미 있고 가치 있는 질문이 되도록 합니다. [!DNL Adobe Workfront] 관리자는 포트폴리오 관리자의 권장 사항을 기반으로 스코어카드를 만듭니다.
+포트폴리오 관리자는 스코어카드 질문과 답변을 정의하여 프로젝트 우선 순위 지정 및 선택 시 의미 있고 가치 있게 사용할 수 있습니다.
+
+[!DNL Adobe Workfront] 관리자는 포트폴리오 관리자의 권장 사항을 기반으로 스코어카드를 만들 수 있습니다.
 
 서로 다른 프로젝트를 비교할 수 있는 정렬 값을 제공하려면 스코어카드에 대해 선택한 질문과 답변을 수량화할 수 있어야 합니다.
+
+다음과 같은 방법으로 스코어카드를 만들 수 있습니다.
+
+* 처음부터
+* 기존 항목 복사
 
 ## 액세스 요구 사항
 
@@ -56,17 +67,15 @@ Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정�
 
 +++
 
-## 스코어카드 만들기
-
-스코어카드를 처음부터 만들거나 기존 스코어카드를 복사할 수 있습니다.
-
-스코어카드를 처음부터 만들려면:
+## 처음부터 스코어카드 만들기
 
 {{step-1-to-setup}}
 
-1. **[!UICONTROL 스코어카드]**&#x200B;를 클릭한 다음 **[!UICONTROL 새 스코어카드]**&#x200B;를 클릭합니다. **새 스코어카드** 상자가 열립니다.
+1. **[!UICONTROL 스코어카드]**&#x200B;를 클릭한 다음 **[!UICONTROL 새 스코어카드]**&#x200B;를 클릭합니다.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">새 스코어카드&#x200B;**상자가 열립니다.</span>**
+
+   <span class="preview">![새 스코어카드 상자](assets/new-scorecard-350x173.png)</span>
 
 1. **[!UICONTROL 스코어카드 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 지정하십시오.
 
@@ -104,7 +113,7 @@ Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정�
    >
    >질문을 올바른 순서로 끌어다 놓아 스코어카드의 질문을 재정렬할 수 있습니다.
 
-1. 모든 정보 입력을 마치면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    이렇게 하면 스코어카드가 만들어지고 프로젝트 관리자는 이제 스코어카드를 프로젝트 비즈니스 사례에 첨부할 수 있습니다.
 
@@ -116,16 +125,20 @@ Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정�
 
 1. 왼쪽 패널에서 **[!UICONTROL 스코어카드]**&#x200B;를 클릭합니다.
 1. 목록에서 스코어카드를 선택한 다음 스코어카드 목록 맨 위에 있는 **복사** 아이콘 ![스코어카드 복사 아이콘](assets/copy-scorecard-icon.png)을 클릭합니다.
-**스코어카드 복사** 상자가 열립니다.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">스코어카드 **복사** 상자가 열립니다.</span>
+
+   <span class="preview">![스코어카드 상자 복사](assets/copy-scorecard-box.png)</span>
+
 1. 다음 정보를 지정합니다.
 
-   * **스코어카드**: 스코어카드의 이름을 입력합니다.  기본적으로 이름은 다음 형식에 따라 자동으로 업데이트됩니다.
+   * **스코어카드**: 스코어카드의 이름을 업데이트합니다.  기본적으로 이름은 다음 형식에 따라 자동으로 업데이트됩니다.
 
      `Original scorecard name (Copy)`
    * **설명**: 스코어카드에 대한 추가 정보를 입력하십시오.
 1. **저장**&#x200B;을 클릭합니다.
+
+   이렇게 하면 원래 스코어카드와 동일한 정보를 가진 새 스코어카드가 만들어집니다. 이제 프로젝트 관리자는 이를 프로젝트 비즈니스 사례에 첨부할 수 있습니다.
 
 ## 프로젝트에 스코어카드 적용
 

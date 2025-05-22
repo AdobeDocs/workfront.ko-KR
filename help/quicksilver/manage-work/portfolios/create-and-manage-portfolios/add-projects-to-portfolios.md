@@ -6,16 +6,20 @@ description: 프로젝트를 시작할 때 포트폴리오에 프로젝트를 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
 # 포트폴리오에 프로젝트 추가
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오. </span>
 
 프로젝트를 시작할 때 포트폴리오에 프로젝트를 추가하는 것이 좋습니다. 그러나 라이프타임 동안 언제든지 포트폴리오에 추가할 수 있습니다.
 
@@ -40,7 +44,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
    <td><p>새로운 기능: 표준</p> 
-   <p>현재:[!UICONTROL 계획] </p> </td> 
+   <p>현재: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준</td> 
@@ -68,8 +72,6 @@ ht-degree: 0%
    >[!TIP]
    >
    >[!UICONTROL 마일스톤] 보기에서 프로젝트 목록을 볼 때는 프로젝트를 추가할 수 없습니다.
-
-   ![기존 프로젝트 추가](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
    다음 옵션 중에서 선택합니다.
 
@@ -102,7 +104,11 @@ ht-degree: 0%
 
    ![새 프로젝트 드롭다운](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (조건부) 기존 프로젝트를 추가하도록 선택한 경우 **[!UICONTROL 이 Portfolio에 프로젝트 추가]** 필드에 프로젝트 이름을 입력한 다음 목록에 나타나면 클릭합니다.
+1. (조건부) 기존 프로젝트를 추가하도록 선택하면 <span class="preview">**프로젝트 추가** 상자가 열립니다.</span> <!--check this after UI changes-->
+
+   <span class="preview">![기존 프로젝트 추가](assets/add-existing-projects-to-portfolios-box.png)</span> <!--check this after UI changes-->
+
+1. **[!UICONTROL 이 Portfolio에 프로젝트 추가]** 필드에 프로젝트 이름을 입력한 다음 목록에 나타나면 클릭합니다.  <!--check this after UI changes-->
 
    두 개 이상의 프로젝트를 추가할 수 있습니다.
 
@@ -110,6 +116,6 @@ ht-degree: 0%
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
-1. **[!UICONTROL 프로젝트 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 프로젝트 추가]**&#x200B;를 클릭합니다. <!--check this after UI changes-->
 
    선택한 프로젝트가 이제 포트폴리오와 연결됩니다.

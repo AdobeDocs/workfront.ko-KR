@@ -6,9 +6,9 @@ description: 프로젝트 프로세스 및 설정의 변경 사항을 반영하�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '4881'
+source-wordcount: '4870'
 ht-degree: 2%
 
 ---
@@ -1092,7 +1092,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 * 문서
 * 위험
 
-  위험 만들기에 대한 자세한 내용은 문서 [프로젝트 위험 만들기 및 편집](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)의 [프로젝트 위험 만들기 및 편집](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create) 섹션을 참조하십시오.
+  위험 만들기에 대한 자세한 내용은 [프로젝트에 대한 위험 만들기 및 편집](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)을 참조하세요.
 
 * 승인 프로세스
 
