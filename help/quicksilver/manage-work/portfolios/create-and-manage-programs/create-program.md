@@ -217,7 +217,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 활성 프로젝트 상태]</td> 
-   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 [!UICONTROL], 위험 상태 [!UICONTROL] 또는 문제 발생 [!UICONTROL]로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
+   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 , 위험 상태  또는 문제 발생 로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
   </tr> 
  </tbody> 
 </table>

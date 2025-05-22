@@ -416,7 +416,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   >**표준 보기로 전환에서 <span class="preview">선택**&#x200B;다시 표시 안 함&#x200B;**** 상자, 보기를 전환하기 전 </span>
+   >**표준 보기로 전환에서 <span class="preview">선택**&#x200B;다시 표시 안 함&#x200B;**&#x200B;** 상자, 보기를 전환하기 전 </span>
    >
    ><span class="preview">이 환경 설정은 현재 브라우저에만 기억됩니다. 브라우저나 컴퓨터를 변경하는 경우 이 환경 설정을 다시 선택해야 합니다.</span>
    >
