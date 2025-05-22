@@ -1,11 +1,11 @@
 ---
-title: 인터페이스 업데이트
+title: 인터페이스 현대화
 description: 이 페이지에는 사용자 경험을 개선하고 다른 Adobe 애플리케이션과 통합하기 위해 Adobe Workfront 전체에서 수행한 인터페이스 업데이트가 나열됩니다.
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
+source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
 workflow-type: tm+mt
 source-wordcount: '3938'
 ht-degree: 1%
