@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '992'
 ht-degree: 3%
 
 ---
@@ -116,6 +116,31 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 -->
 
+### 프로젝트 개선 사항
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>기능</strong>
+        </td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">프로젝트, 작업 및 문제에 대해 AI Assistant를 사용할 때 투명성 향상</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+            <p>AI Assistant가 Workfront 프로젝트, 작업 및 문제에 대한 질문에 대한 답변을 찾는 방법을 보다 명확하게 하기 위해 이 정보를 질문 응답에 추가했습니다. 이제 AI Assistant는 검색 정보를 출력에 포함합니다. 이 정보를 활용해 자신이 묻는 질문을 AI 어시스턴트가 정확히 식별했는지 확인하고, 답안의 맥락을 파악하는 방법으로 활용할 수 있다.</p>
+        </td>
+        <td>2025년 5월 19일 화요일</td>
+        <td>2025년 5월 19일 화요일</td>
+        <td>2025년 5월 19일 화요일</td>
+    </tr>     
+  </tbody>
+</table>
+
+
+
 ### 보고 개선 사항
 
 <table style="table-layout:auto">
@@ -180,6 +205,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI Assistant 사용 시 투명성 향상</a></p>
+                        <p>AI Assistant가 Workfront 프로젝트, 작업 및 문제에 대한 질문에 대한 답변을 찾는 방법을 보다 명확하게 하기 위해 이 정보를 질문 응답에 추가했습니다. 이제 AI Assistant는 검색 정보를 출력에 포함합니다. 이 정보를 활용해 자신이 묻는 질문을 AI 어시스턴트가 정확히 식별했는지 확인하고, 답안의 맥락을 파악하는 방법으로 활용할 수 있다. </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2025년 3분기 릴리스 일정 전체<br /></p>
+                            </li>
+                            <li>
+                                <p>프로덕션 릴리스: 미리보기에 릴리스한 후 최소 2주(달리 지정되지 않은 경우)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025년 3분기 릴리스 일정 동안의 룩앤필 업데이트</a></p>
                         <p>2025년 3분기 릴리스 기간 내에 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트가 이루어지고 있습니다. </p>
                     </td>
@@ -211,7 +262,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ### Workfront Planning 개선 사항
 
@@ -233,11 +284,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
 
 
 
