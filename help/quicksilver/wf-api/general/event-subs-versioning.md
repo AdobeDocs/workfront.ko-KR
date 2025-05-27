@@ -255,6 +255,6 @@ Workfront에는 두 가지 버전의 이벤트 구독이 있습니다. 이 문�
 
 Workfront Fusion은 이벤트 구독을 사용하여 Workfront의 변경 사항을 살펴보고 시나리오를 트리거합니다. Workfront > 이벤트 페이로드 버전 업데이트 모듈을 사용하여 Fusion이 시나리오에서 직접 사용하는 이벤트 구독 버전을 업데이트할 수 있습니다.
 
-이 모듈 사용에 대한 지침은 Workfront Fusion 설명서의 [Workfront 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)을 참조하십시오.
+이 모듈 사용에 대한 지침은 Workfront Fusion 설명서의 [Workfront 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)을 참조하십시오.
 
-웨비나 녹화를 포함하여 이벤트 구독 업그레이드 중에 Workfront Fusion 시나리오를 유지하는 방법에 대한 리소스는 [이벤트 구독 V2 업그레이드 중에 Fusion 시나리오 유지](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)를 참조하십시오.
+웨비나 녹화를 포함하여 이벤트 구독 업그레이드 중에 Workfront Fusion 시나리오를 유지하는 방법에 대한 리소스는 [이벤트 구독 V2 업그레이드 중에 Fusion 시나리오 유지](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=ko)를 참조하십시오.
