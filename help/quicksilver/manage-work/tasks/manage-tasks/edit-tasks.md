@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '3706'
+source-wordcount: '3721'
 ht-degree: 4%
 
 ---
@@ -622,12 +622,14 @@ ht-degree: 4%
 
 * 작업 이름
 * 완료율
+
+  자세한 내용은 [작업에 대한 완료율 보기 및 업데이트](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)를 참조하십시오.
 * 할당
 * 계획된 완료 일자 기준
 
   >[!CAUTION]
   >
-  >일부 작업 제한 사항 및 기타 종속성으로 인해 이 필드를 편집할 수 없습니다. 작업 제한에 대한 자세한 내용은 [작업 제한 개요](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)를 참조하십시오.
+  >일부 작업 제한 사항 및 기타 종속성으로 인해 작업의 계획된 완료 일자를 편집할 수 없습니다. 작업 제한에 대한 자세한 내용은 [작업 제한 개요](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)를 참조하십시오.
 
 * 상태
 * 현재 승인 프로세스에서 승인자로 설정된 경우 승인 결정을 내립니다

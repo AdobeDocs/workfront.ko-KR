@@ -7,9 +7,9 @@ description: Adobe Workfront에서 작업 항목에 로그온하는 시간은 �
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Workfront에서 작업 항목에 로그온하는 시간은 실제 시간�
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> 
    <p>새로운 기능: 표준<p>
    <p>또는</p>
@@ -49,7 +49,7 @@ Adobe Workfront에서 작업 항목에 로그온하는 시간은 실제 시간�
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>작업, 프로젝트 또는 문제에 대한 보기 이상의 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>작업, 프로젝트 또는 문제에 대한 보기 이상의 액세스 권한</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -58,7 +58,7 @@ Adobe Workfront에서 작업 항목에 로그온하는 시간은 실제 시간�
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -83,13 +83,6 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 ## 실제 근로시간 찾기
 
 항목에 대한 실제 시간 값을 찾는 것은 작업, 프로젝트 및 문제에 대해 동일합니다.
-
-작업에 대한 실제 근로시간 정보는 다음 위치에서 찾을 수 있습니다.
-
-* [세부 정보 섹션의 실제 근로시간](#actual-hours-in-the-details-section)
-* [시간 섹션의 실제 근로시간](#actual-hours-in-the-hours-section)
-* [보고서의 실제 근로시간](#actual-hours-in-reports)
-* [리소스 관리 도구의 실제 근로시간](#actual-hours-in-resource-management-tools)
 
 ### 세부 정보 섹션의 실제 시간 {#actual-hours-in-the-details-section}
 
@@ -139,6 +132,21 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 * 리소스 플래너.
 
   자세한 내용은 사용자 보기를 사용할 때 리소스 플래너에서 [사용 가능 시간, 계획된 시간 및 실제 시간 또는 FTE 보기](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)를 참조하십시오.
+
+
+### Workfront 데이터베이스, API 및 사용자 정의 데이터의 실제 시간
+
+<!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
+
+시간을 저장하는 대부분의 Workfront 필드는 Workfront 데이터베이스에 분 단위로 저장됩니다. 예를 들어 작업의 계획된 시간 필드 이름은 Workfront 데이터베이스에서 `workRequired`이고 분 단위로 저장됩니다.
+
+API 호출이나 계산된 사용자 지정 필드 또는 열의 이러한 필드에 액세스할 때 분 단위에서 시간 단으로의 전환을 고려해야 합니다.
+
+그러나 실제 시간은 Workfront 데이터베이스에 시간 단위로 저장됩니다.
+
+API 호출의 실제 시간 또는 Workfront의 계산된 사용자 지정 필드 또는 열에 대해 `actualWorkRequiredDouble` valuefield 이름을 사용해야 합니다.
+
+계산된 열 또는 필드에서 실제 시간을 사용하는 방법에 대한 자세한 내용은 [보고서 FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)를 참조하십시오.
 
 ## 로그 시간
 

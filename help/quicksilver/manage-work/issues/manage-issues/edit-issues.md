@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2566'
 ht-degree: 2%
 
 ---
@@ -392,6 +392,8 @@ ht-degree: 2%
 
 * 문제 이름
 * 완료율
+
+  자세한 내용은 [작업에 대한 완료율 보기 및 업데이트](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)를 참조하십시오.
 * 할당
 * 계획된 완료 일자 및 시간
 * 상태

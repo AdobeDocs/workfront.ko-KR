@@ -7,14 +7,16 @@ description: 보고서 FAQ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
 
 # 보고서 FAQ
+
+<!--Audited: 05/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)</p>
@@ -23,6 +25,8 @@ ht-degree: 0%
 다음은 보고서에 대한 FAQ입니다.
 
 ## 액세스 요구 사항
+
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -33,39 +37,51 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>계획, 작업</p> </td> 
+   <td><p>새로운 기능: 표준</p> 
+   <p>현재: 작업 시간 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 한 시간 차이에 대한 사용자 정의 계산이 열에 올바른 결과를 표시하지 않는 이유는 무엇입니까?
 
-프로젝트 보고서에는 계획된 시간 (4)에서 실제 시간 (2)을 뺀 계산이 있습니다. 내가 받는 결과는 2가 되어야 하는 120입니다.\
+<!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
+
+프로젝트 보고서에서 계획된 시간에서 실제 시간을 빼는 계산이 있습니다. 결과가 올바르지 않습니다.
+
+<!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
+
+
 내 계산은 다음과 같습니다.
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)</pre>
+
+`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
 
 ### 답변
 
-Workfront에서 시간을 사용하는 필드는 분 단위로 저장됩니다. 계산에서 필드를 사용할 때 결과는 분 단위입니다. 시간 단위로 결과를 얻으려면 계산 결과를 60으로 나누어야 한다.
+Workfront에서 시간을 사용하는 대부분의 필드는 분 단위로 저장됩니다. 계산에 이러한 필드를 사용할 때 결과는 대부분 분 단위입니다. 시간 단위로 결과를 얻으려면 계산 결과나 참조하는 필드를 60으로 나누어야 합니다.
+
+예를 들어 계획된 시간은 분 단위로 저장되는 반면 실제 시간은 시간 단위로 저장됩니다. 따라서 계획된 시간을 분에서 시간으로 변환해야 합니다.
 
 올바른 계산은 다음과 같습니다.
 
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)/60</pre>
+`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 ## 보고서에 있는 각 차트 요소의 값이 차트에 표시되지 않는 이유는 무엇입니까?
 
@@ -175,7 +191,7 @@ Workfront에서 시간을 사용하는 필드는 분 단위로 저장됩니다. 
 
 ### 답변
 
-보고서의 소유자는 **보고서의 액세스 권한** 필드에서 이 보고서 실행에 지정된 사용자이기도 합니다. **다음 사용자의 액세스 권한으로 이 보고서 실행:** 사용자가 비활성화된 경우 보고서를 공유한 사용자에게 보고서가 더 이상 표시되지 않습니다. 이 경우 **액세스 권한이 있는 이 보고서 실행:**&#x200B;을 비워 두거나 필드에 활성 사용자를 입력하여 보고서에 다시 액세스할 수 있습니다.
+보고서의 소유자는 **보고서의 액세스 권한** 필드에서 이 보고서 실행에 지정된 사용자이기도 합니다. **다음 사용자의 액세스 권한으로 이 보고서 실행:** 사용자가 비활성화된 경우 보고서를 공유한 사용자에게 보고서가 더 이상 표시되지 않습니다. 이 경우 **액세스 권한이 있는 이 보고서 실행:**&#x200B;을 비워 두거나 필드에 활성 사용자를 입력하여 보고서에 다시 액세스할 수 있습니다.
 
 **다음 액세스 권한으로 이 보고서 실행:** 필드에 대한 자세한 내용은 [다른 사용자의 액세스 권한으로 보고서 실행 및 전달](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md)을 참조하세요. 비활성화된 사용자가 소유한 모든 보고서를 식별하는 방법에 대한 자세한 내용은 [보고 활동에 대한 보고서 만들기](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)를 참조하십시오.
 

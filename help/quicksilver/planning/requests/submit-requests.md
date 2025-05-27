@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
 source-wordcount: '1914'
 ht-degree: 0%
@@ -220,13 +220,44 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
      >
      >이메일 확인 또는 승인 알림에 요청에 대한 링크가 있습니다.
 
-   1. (선택 사항) 확인 메시지에서 **요청 보기**&#x200B;를 클릭하여 요청을 열거나 **X** 아이콘을 클릭하여 확인을 닫습니다.
+1. (선택 사항) 확인 메시지에서 **요청 보기**&#x200B;를 클릭하여 요청을 열거나 **X** 아이콘을 클릭하여 확인을 닫습니다.
 
-1. (선택 사항) 요청을 보려면 요청 영역에서 **계획** 탭을 클릭한 다음 요청 이름을 클릭합니다.
+1. (선택 사항) **요청** 영역에서 **계획** 탭을 클릭하여 요청을 확인한 다음 요청 이름을 클릭합니다.
 
    요청 세부 정보 페이지가 열립니다.
 
    ![요청 세부 정보 페이지](assets/request-details-page.png)
+
+   <!--replace the step directly above with this when we release filters and columns: 
+      1. (Optional) Click the **Planning** tab in the **Requests** area to view your requests. 
+         All the requests you have access to view that were submitted to a Planning request form display in a list. 
+      1. (Optional) Do any of the following:
+         <div class="preview">
+         * Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
+                     ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
+            You can filter by any of the following fields:  
+            * **Workspace**: The workspace the request form is associated with.
+            * **Record type**: The record type the request form is associated with.
+            * **Entry date**: The date when the request was submitted.
+            * **Request form**: The name of the request form used to submit the request.
+            * **Status**: The status of the request.
+            * **Entered by**: The name of the user who added the request. If the request was added with someone outside of Workfront, the **Entered by** field shows `N/A`.
+            You can have multiple filters joined by either And or Or.  
+            The request list is filtered automatically, as you add the filter conditions. 
+         * Click **Columns** and hide, show, or rearrange the columns in the request list. 
+            >[!TIP]
+            >
+            >You cannot add any more columns. 
+            >
+            >You cannot display the **Subject** field.
+                     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+
+      1. Click the name of a request in the list. 
+   The request details page opens. 
+   ![Request details page](assets/request-details-page.png)             
+      </div>
+      -->
+
 
 1. (조건부) 요청 양식이 승인과 연결되어 있지 않거나 요청이 승인된 경우 요청 이름을 클릭한 다음 **레코드** 필드의 레코드 이름을 클릭합니다.
 

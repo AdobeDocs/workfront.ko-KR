@@ -2,26 +2,28 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: 작업에 대한 완료율 보기 및 업데이트
-description: 작업의 완료율을 업데이트하여 해당 작업의 완료 진행 상황을 나타낼 수 있습니다.
+description: 작업의 완료율을 업데이트하여 해당 작업의 완료 진행 상황을 나타낼 수 있습니다. 문제에 대한 완료율을 업데이트하는 것은 작업에 대한 완료율을 업데이트하는 것과 비슷합니다. 이 문서에서는 작업 완료율을 업데이트하는 방법에 대해 설명합니다.
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
 
 # 작업에 대한 완료율 보기 및 업데이트
 
-<!--Audited:01/2024-->
+<!--Audited: 05/2025-->
 
 작업의 완료율을 업데이트하여 해당 작업의 완료 진행 상황을 나타낼 수 있습니다.
 
+문제에 대한 완료율을 업데이트하는 것은 작업에 대한 완료율을 업데이트하는 것과 비슷합니다. 이 문서에서는 작업 완료율을 업데이트하는 방법에 대해 설명합니다.
+
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 작업을 수동으로 업데이트하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -59,23 +61,20 @@ ht-degree: 0%
 
 다음 영역 중 하나에서 작업에 대한 완료율을 갱신할 수 있습니다.
 
-* **작업 목록에서**: 완료율 열이 표시되면 작업의 완료율을 업데이트할 수 있습니다.\
+* **작업 목록에서**: 완료율 열이 표시되면 작업의 완료율을 업데이트할 수 있습니다.
+
   인라인 편집에 대한 자세한 내용은 [Adobe Workfront의 목록에서 인라인 편집 항목](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)을 참조하십시오.
 
-* **마일스톤 보기에서**: 프로젝트 목록 또는 프로젝트 보고서에서 마일스톤 보기를 사용할 때 작업의 완료율을 업데이트할 수 있습니다. 자세한 내용은 [마일스톤 보기 사용](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)을 참조하세요.
+* **마일스톤 보기에서**: 프로젝트 목록 또는 프로젝트 보고서에서 마일스톤 보기를 사용할 때 작업의 완료율을 업데이트할 수 있습니다.
 
-<!--only in legacy commenting: 
-* **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
-
-  >[!IMPORTANT]
+  >[!TIP]
   >
-  >This option displays only after you enable the Show Percent Complete option.  
-  >To enable the percent complete update bar for tasks, do the following:   
-  >
-  >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
+  >  마일스톤 보기에서 문제의 완료율을 업데이트할 수 없습니다.
 
-* **작업 헤더에서**: 작업 헤더에서 작업의 완료율을 업데이트할 수 있습니다. 자세한 내용은 [작업 편집](../../tasks/manage-tasks/edit-tasks.md)을 참조하세요.
+
+  자세한 내용은 [마일스톤 보기 사용](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)을 참조하세요.
+
+* **작업 헤더에서**: 작업 헤더에서 작업의 완료율을 업데이트할 수 있습니다.
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
@@ -95,39 +94,42 @@ ht-degree: 0%
 
 ## 작업 완료율 업데이트에 대한 고려 사항
 
-* 작업을 100% 완료로 표시하면 작업 상태가 완료로 업데이트됩니다.
-* 상위 작업에 대해 다음과 같은 시나리오가 있습니다.
+* 작업을 100% 완료로 표시하면 작업 상태가 완료로 업데이트됩니다. 문제의 상태가 [종료됨]으로 업데이트됩니다.
+* 작업을 완료하면 상위 및 프로젝트의 완료율도 업데이트됩니다.
+* 상위 작업 및 프로젝트에 대해 다음과 같은 시나리오가 있습니다.
    * 프로젝트의 요약 완료 모드가 자동으로 설정되어 있고 하위 작업이 완료되지 않은 경우 상위 작업의 완료율을 100%로 업데이트할 수 없습니다.
-   * 프로젝트의 요약 완료 모드가 수동으로 설정되고 하위 작업이 완료되거나 완료되지 않은 경우 상위 작업의 완료율을 100%로 업데이트할 수 있습니다.
+   * 프로젝트의 요약 완료 모드가 수동으로 설정되고 하위 작업이 완료되거나 완료되지 않은 경우 상위 작업 또는 프로젝트의 완료율을 100%로 업데이트할 수 있습니다.
 
   자세한 내용은 [프로젝트 편집](../manage-projects/edit-projects.md)을 참조하세요.
 
 ## 작업 완료율 업데이트
 
-1. Workfront에서 다음 영역 중 하나로 이동합니다.
+1. 작업의 완료율을 업데이트하려는 영역으로 이동합니다.
 
-   * 작업 목록
-   * 프로젝트 목록 및 마일스톤 보기 적용
-   * 작업 페이지 액세스를 통한 작업
+   자세한 내용은 이 문서에서 [작업 완료율을 업데이트할 수 있는 영역](#areas-where-you-can-update-the-percent-complete-of-a-task) 섹션을 참조하십시오.
+
 1. 완료율을 업데이트하려는 작업의 **완료율** 필드를 찾습니다.
 
    >[!TIP]
    >
-   >  완료율 필드는 항상 요약 패널의 맨 위에 표시됩니다.
-
+   >완료율 필드는 항상 요약 패널의 맨 위에 표시됩니다.
 
 1. **완료율** 필드 내부를 클릭하고 0에서 100 사이의 숫자를 입력하십시오
 
    또는
 
-   **완료율** 표시줄을 클릭하고 필요한 숫자로 드래그하여 사용 가능한 경우 완료한 작업의 양을 나타냅니다.
+   **완료율** 파란색 버블을 클릭하고 필요한 숫자로 드래그하여 사용 가능한 경우 완료한 작업의 양을 나타냅니다.
 
    >[!NOTE]
    >
-   >작업의 100%가 완료되었다고 표시하면 작업의 상태도 완료로 업데이트됩니다.
-
+   >    * 완료율 버블 내부를 클릭하면 십진수를 입력할 수 없습니다.
+   >    * 요약 패널에서 파란색 풍선을 끌어서 놓으면 완료율이 한 포인트 단위로 업데이트됩니다.
+   >
+   >    * 작업 헤더에 파란색 풍선을 끌어다 놓으면 완료율이 5포인트 단위로 업데이트됩니다.
 
 1. 키보드에서 Enter 키를 눌러 완료율을 저장합니다.
 
-프로젝트의 완료율도 자동으로 업데이트됩니다.
+   프로젝트 또는 상위 작업의 완료율도 자동으로 업데이트될 수 있습니다.
+
+   작업 또는 문제의 상태도 업데이트됩니다.
 

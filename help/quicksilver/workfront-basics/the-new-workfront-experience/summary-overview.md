@@ -5,9 +5,9 @@ description: 요약 패널을 사용하여 작업 문제 목록, 문서 또는 �
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '986'
 ht-degree: 2%
 
 ---
@@ -101,7 +101,7 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
 [!UICONTROL 업무 균형자]에서 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 [[!UICONTROL 요약]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)을(를) 사용하여 [!UICONTROL 업무 균형자]에서 작업 항목 업데이트를 참조하십시오.
 
-문서의 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 문서 개요[&#128279;](../../documents/managing-documents/summary-for-documents.md)의 [!UICONTROL 요약]을 참조하십시오.
+문서의 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 문서 개요](../../documents/managing-documents/summary-for-documents.md)의 [[!UICONTROL 요약]을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -167,7 +167,9 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
 ## [!UICONTROL 완료율]
 
-[!UICONTROL 요약] 맨 위에 있는 진행률 표시줄을 사용하여 선택한 작업 또는 문제에 대한 완료율을 업데이트하세요. 숫자를 입력하거나 막대를 올바른 백분율로 끕니다.
+[!UICONTROL 요약]의 맨 위에 있는 진행률 파란색 풍선을 사용하여 선택한 작업 또는 문제에 대한 완료율을 업데이트합니다. 숫자를 입력하거나 버블을 올바른 백분율로 드래그합니다.
+
+요약 패널에서 버블을 끌어서 놓으면 완료율이 한 포인트 단위로 업데이트됩니다. 십진수는 입력할 수 없습니다.
 
 요약 패널에서 ![완료율](assets/summary-overview-percent-complete.png)
 
