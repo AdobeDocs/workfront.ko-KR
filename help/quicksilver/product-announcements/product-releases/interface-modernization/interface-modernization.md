@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
+source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3990'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,14 @@ Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/hel
 
 
 ## 관리자 및 설정
+
+### 설정의 액세스 로그 탭에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 5월 21일, 프로덕션 릴리스: 2025년 5월 29일**
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 액세스 로그 탭을 업데이트했습니다.
+
+이 변경 사항을 보려면 화면 상단의 설정 > 다음으로 로그인 > 액세스 로그 선택으로 이동합니다.
 
 ### 스코어카드 새로 만들기 및 복사 상자의 새로운 모양 및 느낌
 
@@ -66,7 +74,7 @@ Workfront의 다른 영역 디자인에 맞게 설정 영역에서 진단 페이
 
 ### 외부 이메일 주소로 문서 공유
 
-**미리 보기 릴리스: 2025년 5월 15일, 프로덕션 릴리스: 발표 예정**
+**미리 보기 릴리스: 2025년 5월 15일, 프로덕션 릴리스: 2025년 5월 21일**
 
 사용자가 이메일 주소를 사용하여 외부 사용자와 문서를 공유할 수 있도록 공유 대화 상자를 업데이트했습니다. 이러한 기능은 인터페이스 현대화 작업으로 인해 일시적으로 사용할 수 없었다.
 
