@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1218'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ Adobe Workfront 구현을 시작할 때 수동으로 데이터를 입력하지 �
   <tr> 
    <td valign="top"> <p>Acme, Co</p> <p>Workfront</p> <p><em>회사</em> </p> <p>XYZ, Inc.</p> </td> 
    <td valign="top"> <p valign="top" rowspan="7">재무</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">마케팅 </p> <p valign="top" rowspan="7">세일즈</p> </td> 
-   <td valign="top"> <p valign="top">비즈니스 분석가</p> <p valign="top">컨트롤러 크리에이티브</p> <p valign="top">디자이너</p> <p valign="top">리소스 관리자</p> <p valign="top">스크럼 기본</p> <p valign="top">테크니컬 라이터</p> <p valign="top">웹 개발자</p> </td> 
+   <td valign="top"> <p valign="top">비즈니스 분석가</p> <p valign="top">컨트롤러 Creative</p> <p valign="top">디자이너</p> <p valign="top">리소스 관리자</p> <p valign="top">스크럼 기본</p> <p valign="top">테크니컬 라이터</p> <p valign="top">웹 개발자</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -309,3 +309,13 @@ Adobe Workfront 구현을 시작할 때 수동으로 데이터를 입력하지 �
 1. Excel 파일을 가져옵니다.
 
    [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)에 제공된 지침을 따르십시오.
+
+
+
+>[!NOTE]
+>
+>Workfront으로 가져온 사용자는 비활성화됨 및 승인 보류 중 상태로 만들어집니다.
+> 
+>조직이 Adobe Admin Console으로 마이그레이션되고 사용자가 몇 분 내에 비활성화됨 및 승인 보류 중 상태에서 벗어나지 않는 경우 사용자 일괄 처리를 Adobe Admin Console에 바로 추가할 수 있습니다.
+>
+>지침은 [여러 사용자 관리를 참조하십시오. | Adobe 설명서의 일괄 CSV 업로드](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
