@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2771'
 ht-degree: 4%
 
 ---
@@ -168,15 +168,6 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
 프로젝트의 상태를 보려면 프로젝트 **상태** 필드를 사용하여 동일한 정보를 표시하도록 보고서를 설정할 수도 있습니다.
 
 이 정보는 감사에 도움이 되고 사용자와 조직이 얼마나 계획을 잘 세우고 있는지를 나타내는 데 사용될 수 있습니다.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;for tip below: When analytics adds the status option, update this note to say "these entries (status or condition changes)")</p>
--->
-
->[!TIP]
->
->조건 변경 사항 간의 일 차이를 비교하려면 고급 분석을 사용할 수 있습니다.\
->향상된 분석에 대한 자세한 내용은 [향상된 분석 개요](../../../enhanced-analytics/enhanced-analytics-overview.md)를 참조하세요.
 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭한 다음 **저널 게시물**&#x200B;을 선택합니다.

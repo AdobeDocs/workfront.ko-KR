@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가 Workfront에 로그인할 때마다 보게 될 영역을 지정할 수 있습니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 5%
 
 ---
@@ -73,7 +73,6 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가
 
    다음 영역 중에서 선택하거나 사용자 지정 대시보드를 추가합니다.
 
-   * 분석
    * 캘린더
    * 대시보드
    * 문서

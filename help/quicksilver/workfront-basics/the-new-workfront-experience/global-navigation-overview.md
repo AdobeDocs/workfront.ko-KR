@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront] 의 화면 맨 위에 표시되는 위쪽 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
    <td> 
     <ul> 
      <li>[!UICONTROL Home]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">[!UICONTROL Home] 영역 사용</a></li> 
-     <li>[!UICONTROL Portfolio]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio 관리</a></li> 
+     <li>[!UICONTROL 포트폴리오]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio 관리</a></li> 
      <li>[!UICONTROL 프로그램]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">프로그램 만들기 및 관리 </a></li> 
      <li>[!UICONTROL 프로젝트]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">프로젝트: 문서 색인</a></li> 
      <li><a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">보고서</a></li> 
@@ -120,7 +120,6 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
      <li>[!UICONTROL 타임시트]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">타임시트: 문서 인덱스</a></li> 
      <li><a href="../../documents/documents-overview.md" class="MCXref xref">문서</a></li> 
      <li>[!UICONTROL 템플릿]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">프로젝트 템플릿 만들기 및 관리: 문서 인덱스</a></li> 
-     <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">향상된 분석 개요</a></li> 
      <li>[!UICONTROL 목표]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] 개요</a></li> 
      <li>[!UICONTROL 시나리오]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">시나리오 플래너 개요</a></li> 
      <li>[!UICONTROL 증명]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] 증명: 문서 인덱스</a></li> 
@@ -141,7 +140,7 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL 도움말]</p> </td> 
-   <td> <p><b>[!UICONTROL 도움말]</b>을 클릭하면 도움말 문서에 액세스하고, 교육을 찾고, 고객 지원 티켓을 제출하는 등의 작업을 수행할 수 있는 [!DNL Adobe Experience League] (으)로 이동합니다.</p> <p>[!DNL Experience League]이나 다른 도움말 방법에 대한 자세한 내용은 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Adobe Workfront에서 도움말을 찾는 빠른 안내</a>를 참조하세요.</p> </td> 
+   <td> <p><b>[!UICONTROL 도움말]</b>을 클릭하면 도움말 문서에 액세스하고, 교육을 찾고, 고객 지원 티켓을 제출하는 등의 작업을 수행할 수 있는 [!DNL Adobe Experience League](으)로 이동합니다.</p> <p>[!DNL Experience League]이나 다른 도움말 방법에 대한 자세한 내용은 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Adobe Workfront에서 도움말을 찾는 빠른 안내</a>를 참조하세요.</p> </td> 
   </tr>
 
 <tr> 

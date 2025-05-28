@@ -7,9 +7,9 @@ description: ' [!DNL Adobe Workfront] 관리자가 할당한 액세스 수준에
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,6 @@ ht-degree: 0%
 * **[!UICONTROL 문서]**: 여기에서 문서를 업로드하거나 나와 공유된 문서를 검토할 수 있습니다. 자세한 내용은 [문서](../../../documents/documents-overview.md)를 참조하십시오.
 
 * **[!UICONTROL 리소스 조달]**: 리소스 계획 도구에서 리소스 할당을 보고 여기에서 리소스 풀을 볼 수 있습니다. 자세한 내용은 [리소스 관리](../../../resource-mgmt/manage-resources.md)를 참조하세요.
-
-* **[!UICONTROL Analytics]**: 프로젝트 데이터를 보고 계획 및 완료와 함께 트렌드를 식별합니다. 이 영역에는 보기 액세스 권한이 있는 프로젝트에 대한 통찰력이 표시됩니다. 자세한 내용은 [향상된 분석 개요](../../../enhanced-analytics/enhanced-analytics-overview.md)를 참조하십시오.
 
 * **[!UICONTROL 보드]**: 수행할 작업을 반영하는 열과 카드가 포함된 공유 보드를 사용하여 팀 구성원과 융통성 있게 작업하고 공동 작업합니다. 자세한 내용은 [게시판 시작: 문서 색인](../../../agile/get-started-with-boards/get-started-with-boards.md)을 참조하세요.
 

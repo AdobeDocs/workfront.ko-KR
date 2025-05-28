@@ -1,19 +1,19 @@
 ---
-title: 20. 4가지 Analytics 개선 사항
-description: 20. 4가지 Analytics 개선 사항
+title: ​20. 4가지 Analytics 개선 사항
+description: ​20. 4가지 Analytics 개선 사항
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# 20. 4가지 Analytics 개선 사항
+# &#x200B;20. 4가지 Analytics 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 20.4 릴리스의 모든 분석 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 11월 9일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
@@ -28,5 +28,3 @@ ht-degree: 0%
 * 이제 각 차트에는 알파벳순, 계획된 시작 일자 또는 계획된 완료 일자별로 정렬할 수 있는 정렬 기준 메뉴가 있습니다.
 
 이전에는 향상된 분석 영역에서 볼 수 있는 프로젝트의 양을 50개로 제한했습니다.
-
-이 기능은 이제 Workfront One의 [향상된 Analytics, 1부 학습 경로](https://experienceleague.adobe.com/ko/docs/workfront/using/home)에 포함되어 있습니다.

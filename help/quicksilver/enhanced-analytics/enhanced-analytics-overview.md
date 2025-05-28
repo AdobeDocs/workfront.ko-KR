@@ -7,9 +7,9 @@ description: 향상된 Analytics는 계획 및 완료로 프로젝트 데이터�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->향상된 Analytics는 5월 26일이 있는 주에 Workfront에서 제거됩니다. Workfront Data Connect는 새로운 대체 솔루션이며 현재 사용하는 향상된 Analytics 시각화를 복제하는 데 사용할 수 있습니다. <br>자세한 내용은 [향상된 Analytics 사용 중단](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) 안내서를 참조하십시오.
+>향상된 Analytics가 5월 27일에 Workfront에서 제거되었습니다. Workfront Data Connect는 새로운 대체 솔루션이며 현재 사용하는 향상된 Analytics 시각화를 복제하는 데 사용할 수 있습니다. <br>자세한 내용은 [향상된 Analytics 사용 중단](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) 안내서를 참조하십시오.
 
 
 향상된 Analytics는 계획 및 완료로 프로젝트 데이터를 보고 트렌드를 식별할 수 있도록 해주는 미리 작성된 시각화가 있는 Adobe Workfront의 강력한 도구입니다. 프로젝트에 대한 이러한 통찰력을 통해 현재 작업을 관리하고 향후 작업을 보다 정확하게 계획할 수 있습니다.
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ![분석](assets/nwe-full-screen-analytics-350x222.png)
 
-사용 사례를 확인하거나 향상된 분석을 사용하여 현재 작업 관리 및 향후 작업 계획에 대해 자세히 알아보려면 [향상된 분석 학습 경로](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
+사용 사례를 확인하거나 향상된 분석을 사용하여 현재 작업 관리 및 향후 작업 계획에 대해 자세히 알아보려면 [향상된 분석 학습 경로](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
 
 ## 전제 조건
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 * Workfront 관리자가 레이아웃 템플릿에 향상된 분석을 추가하도록 합니다.
 
-  자세한 내용은 [향상된 분석: 레이아웃 템플릿에 분석 추가](https://experienceleague.adobe.com/ko/docs/workfront/using/home)를 참조하십시오.
+  자세한 내용은 [향상된 분석: 레이아웃 템플릿에 분석 추가](https://experienceleague.adobe.com/en/docs/workfront/using/home)를 참조하십시오.
 
 프로젝트 및 작업에 대한 정보를 보려면 다음을 수행해야 합니다.
 

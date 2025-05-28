@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
+source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '682'
 ht-degree: 3%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 3%
 <!--Audited: 01/2024-->
 
 Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 사용자가 Workfront에서 메인 메뉴를 열 때 표시되는 옵션을 구성할 수 있습니다.
-
-![주 메뉴 옵션](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
@@ -106,7 +104,6 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
    * 타임시트
    * 문서
    * 템플릿
-   * 분석
    * 교정
    * 목표
 
@@ -122,7 +119,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
      >[!NOTE]
      >
      >Planning에는 추가 라이센스가 필요합니다. Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오
-     > * 사용자 정의 애플리케이션
+      * 사용자 정의 애플리케이션
 
      >[!NOTE]
      >

@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 필터 개요
 description: Adobe Workfront에서 필터를 사용하여 목록, 보고서 또는 기타 영역의 화면에 표시되는 정보의 양을 줄일 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1811'
 ht-degree: 1%
 
 ---
@@ -90,10 +90,6 @@ Workfront의 다음 영역에서 기본 제공 필터를 사용하거나 사용�
 * 워크로드 밸런서
 
   자세한 내용은 [업무 균형자에서 정보 필터링](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)을 참조하십시오.
-
-* Analytics 영역
-
-  자세한 내용은 [향상된 분석에서 필터 적용](../../../enhanced-analytics/use-enhanced-analytics-filters.md)을 참조하십시오.
 
 * 블루프린트 영역
 
@@ -227,7 +223,7 @@ Workfront에는 각 필터 문을 연결하는 두 개의 필터 연산자가 �
 >[!INFO]
 >
 >**예:**
->완료율이 100%인 프로젝트를 필터링할 수 있습니다. 이 경우 다음 필터 문에서 &quot;equal&quot; 수정자를 사용할 수 있습니다.
+>>완료율이 100%인 프로젝트를 필터링할 수 있습니다. 이 경우 다음 필터 문에서 &quot;equal&quot; 수정자를 사용할 수 있습니다.
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 

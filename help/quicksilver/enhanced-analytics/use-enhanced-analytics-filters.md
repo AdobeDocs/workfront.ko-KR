@@ -6,9 +6,9 @@ description: Adobe Workfront의 향상된 분석 영역에 있는 필터를 사�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->향상된 Analytics는 5월 26일이 있는 주에 Workfront에서 제거됩니다. Workfront Data Connect는 새로운 대체 솔루션이며 현재 사용하는 향상된 Analytics 시각화를 복제하는 데 사용할 수 있습니다. <br>자세한 내용은 [향상된 Analytics 사용 중단](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) 안내서를 참조하십시오.
+>향상된 Analytics가 5월 27일에 Workfront에서 제거되었습니다. Workfront Data Connect는 새로운 대체 솔루션이며 현재 사용하는 향상된 Analytics 시각화를 복제하는 데 사용할 수 있습니다. <br>자세한 내용은 [향상된 Analytics 사용 중단](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) 안내서를 참조하십시오.
 
 
 <!-- Audited: 12/2023 -->
 
-Adobe Workfront의 향상된 분석 영역에 있는 필터를 사용하면 특정 프로젝트 또는 특정 유형의 데이터에 집중할 수 있습니다. 사용하는 필터 유형을 통해 다음 사항에 대한 통찰력을 얻을 수 있습니다.
+Adobe Workfront의 향상된 분석 영역에 있는 필터를 사용하면 특정 프로젝트 또는 특정 유형의 데이터에 집중할 수 있습니다. 사용하는 필터 유형은에서 insight에 제공할 수 있습니다.
 
 * 소유한 프로젝트
 * 특정 포트폴리오 또는 프로그램 보기

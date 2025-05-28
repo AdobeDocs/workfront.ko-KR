@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 관리자가 할당한 액세스 수준에
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ ht-degree: 0%
 
 * **[!UICONTROL 요청]**: 귀하 또는 회사의 다른 사용자가 이 영역에서 제출한 요청을 제출하고 검토할 수 있습니다.
 * **[!UICONTROL 문서]**: 여기에서 문서를 업로드하거나 나와 공유된 문서를 검토할 수 있습니다.
-* **[!UICONTROL Analytics]**: 프로젝트 데이터를 보고 계획 및 완료와 함께 트렌드를 식별합니다. 이 영역에는 보기 액세스 권한이 있는 프로젝트에 대한 통찰력이 표시됩니다. 자세한 내용은 [향상된 분석 개요](../../../enhanced-analytics/enhanced-analytics-overview.md)를 참조하십시오.
-
 * **[!UICONTROL 블루프린트]**: [!DNL Workfront] 관리자가 블루프린트에 대한 요청 큐를 구성한 경우 시스템에서 기존 블루프린트를 검토하고 설치할 블루프린트를 요청합니다. 자세한 내용은 [블루프린트 개요](../../../administration-and-setup/blueprints/blueprints-overview.md)를 참조하십시오.
 
 

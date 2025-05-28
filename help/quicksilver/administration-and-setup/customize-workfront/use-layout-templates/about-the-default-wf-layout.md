@@ -5,13 +5,13 @@ content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: 기본 레이아웃은 Adobe Workfront 관리자가 레이아웃 템플릿을 사용하여 변경하기 전에 기본 메뉴 , 왼쪽 패널 및 보기, 그룹화, 필터의 배열입니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '614'
 ht-degree: 9%
 
 ---
@@ -192,16 +192,6 @@ Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 �
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">분석</td>
-    <td class="tg-0lax">회사<br>사람</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
   </tr>
@@ -408,15 +398,6 @@ Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 �
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">분석</td>
-    <td class="tg-0pky">회사<br>사람</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
   </tr>

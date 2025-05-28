@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 레이아웃 템플릿에서 사용자가 Adobe Workfront의 맨 위에서 항상 사용할 수 있도록 하려는 페이지를 고정할 수 있습니다. 메인 메뉴 또는 대시보드를 통해 액세스하는 페이지일 수 있습니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 4%
 
 ---
@@ -77,7 +77,6 @@ ht-degree: 4%
 
    * 다음 영역 중에서 선택합니다.
 
-      * 분석
       * 캘린더
       * 대시보드
       * 문서
@@ -109,7 +108,7 @@ ht-degree: 4%
      >* Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
    * **대시보드 추가**&#x200B;를 클릭합니다
-      * &#x200B;<!--**Quick link name**-->**사용자 지정 이름** 필드에 수사적 이름을 입력하십시오.
+      * <!--**Quick link name**-->**사용자 지정 이름** 필드에 수사적 이름을 입력하십시오.
       * **대시보드 추가** 필드 <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->에서 대시보드를 선택하십시오.
       * **추가**&#x200B;를 클릭합니다.
 

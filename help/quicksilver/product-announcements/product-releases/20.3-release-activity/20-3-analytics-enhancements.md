@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -34,5 +34,4 @@ ht-degree: 0%
 
 얻을 수 있는 통찰력 외에도 상태 업데이트, 업데이트 요청, 누군가에게 작업 할당 등과 같은 작업에 대한 작업을 완료할 수 있습니다.- 고급 분석 영역에서 바로 액세스
 
-자세한 내용은 [향상된 분석 개요](../../../enhanced-analytics/enhanced-analytics-overview.md)를 참조하십시오.
 
