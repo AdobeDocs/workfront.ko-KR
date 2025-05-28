@@ -140,7 +140,7 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL 도움말]</p> </td> 
-   <td> <p><b>[!UICONTROL 도움말]</b>을 클릭하면 도움말 문서에 액세스하고, 교육을 찾고, 고객 지원 티켓을 제출하는 등의 작업을 수행할 수 있는 [!DNL Adobe Experience League](으)로 이동합니다.</p> <p>[!DNL Experience League]이나 다른 도움말 방법에 대한 자세한 내용은 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Adobe Workfront에서 도움말을 찾는 빠른 안내</a>를 참조하세요.</p> </td> 
+   <td> <p><b>[!UICONTROL 도움말]</b>을 클릭하면 도움말 문서에 액세스하고, 교육을 찾고, 고객 지원 티켓을 제출하는 등의 작업을 수행할 수 있는 [!DNL Adobe Experience League] (으)로 이동합니다.</p> <p>[!DNL Experience League]이나 다른 도움말 방법에 대한 자세한 내용은 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Adobe Workfront에서 도움말을 찾는 빠른 안내</a>를 참조하세요.</p> </td> 
   </tr>
 
 <tr> 
