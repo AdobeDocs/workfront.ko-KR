@@ -30,7 +30,7 @@ Adobe Workfront의 일부 개체를 사용하면 서식 있는 텍스트 형식�
 예: 리치 텍스트 사용자 정의 양식 필드로 필드의 값을 검색하기 위한 기본 GET 요청:
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 예: 이 요청은 리치 텍스트가 있는 parameterValue DE:Field에 저장된 JSON의 리치 텍스트가 있는 Field 값을 반환합니다
 
@@ -120,4 +120,4 @@ Workfront API를 사용하여 서식 있는 텍스트 필드의 다음 값을 �
 1. 위에 설명된 JSON에 문자열 메서드를 사용하여 PUT 요청을 수행하고 업데이트를 보냅니다.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
