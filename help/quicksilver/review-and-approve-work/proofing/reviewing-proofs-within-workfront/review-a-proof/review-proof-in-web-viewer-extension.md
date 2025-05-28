@@ -6,10 +6,10 @@ description: Adobe Workfront 검토 도구는 ZIP 파일 또는 URL로 인터랙
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
+source-git-commit: 5a8bfdeae7f5d23ecf835e652cf0ff5efd5aa410
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 1%
 
 ---
 
@@ -24,10 +24,9 @@ Adobe Workfront 검토 도구는 ZIP 파일 또는 URL로 인터랙티브한 콘
 * Edge
 * Safari
 
-검토해야 하는 컨텐츠가 웹 사이트에 있는 경우 Desktop Proofing Viewer를 사용하는 것이 좋습니다.
-
-* SSO 인증 필요
-* Figma와 같은 iFrame에서 사이트 열기 방지
+>[!IMPORTANT]
+>
+>이 확장은 GenStudio for Performance Marketing 및 Creative Cloud Express에서 콘텐츠를 검토하는 데 필요합니다. Assets이 웹 뷰어에서 자동으로 열립니다. 계정 설정을 업데이트할 필요가 없습니다.
 
 
 ## 확장 설치
@@ -37,12 +36,6 @@ Adobe Workfront 검토 도구는 ZIP 파일 또는 URL로 인터랙티브한 콘
 * Adobe Workfront 검토 도구를 사용하려면 기존 웹 뷰어 확장을 제거해야 합니다.
 
 ### 확장 설치
-
-<!--This extension is required to review conent in GS and Ex.
-
-You must install the extension to reiew content in GenS and Express.
-
-To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
 
 검토자와 승인자는 Adobe Workfront 검토 도구를 설치해야 합니다. 다음 브라우저 중 하나에서 다음을 수행합니다.
 
@@ -56,6 +49,15 @@ To review content in GS, Express, or Wou must install the extension if you are u
 Adobe Workfront 검토 도구에서 대화형 증명을 자동으로 열려면 Workfront 관리자가 아래 섹션에 설명된 대로 workfront에서 증명 설정을 업데이트해야 합니다.
 
 ## Workfront 증명 기본값 업데이트
+
+대화형 콘텐츠에 대한 기본 뷰어로 Workfront 검토 도구를 사용하려면 Workfront에서 증명 기본값을 업데이트해야 합니다.
+
+>[!NOTE]
+>
+>검토해야 하는 컨텐츠가 웹 사이트에 있는 경우 Desktop Proofing Viewer를 사용하는 것이 좋습니다.
+>
+>* SSO 인증 필요
+>* Figma와 같은 iFrame에서 사이트 열기 방지
 
 ### Adobe Workfront 검토 도구를 URL 및 ZIP 증명에 대한 기본 뷰어로 설정
 
@@ -84,6 +86,4 @@ ZIP 증명에만 웹 검토 도구를 사용하려면 Workfront 관리자가 대
 >[!NOTE]
 >
 >이 변경 사항은 Workfront 인스턴스의 모든 ZIP 증명에 적용됩니다. 프로덕션에서 활성화하기 전에 미리보기 환경에서 새 경험을 테스트하는 것이 좋습니다. **대화형 증명에 대한 데스크톱 증명 뷰어** 계정 설정을 **모든 대화형 증명에 대해 사용**(으)로 다시 변경하면 데스크톱 뷰어로 쉽게 다시 전환할 수 있습니다.
-
-
 
