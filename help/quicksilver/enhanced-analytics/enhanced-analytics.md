@@ -42,4 +42,4 @@ ht-degree: 3%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-향상된 분석에 대한 자세한 교육은 [향상된 분석 학습 경로](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
+향상된 분석에 대한 자세한 교육은 [향상된 분석 학습 경로](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
