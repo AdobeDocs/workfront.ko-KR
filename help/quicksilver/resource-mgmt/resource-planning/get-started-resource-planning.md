@@ -7,14 +7,16 @@ description: 리소스 계획 도구를 사용하여 작업 역할, 해당 가�
 author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # 리소스 계획 시작
+
+<!--Audited: 5/2025-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -23,7 +25,7 @@ ht-degree: 0%
 </div>
 -->
 
-Adobe Workfront 리소스 관리 도구를 사용하여 리소스 할당을 예측하여 프로젝트가 정시에 배달되는지 또는 예산으로 배달되는지를 정확하게 파악할 수 있습니다. Workfront의 리소스 관리에 대한 개요는 [리소스 관리 시작](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)을 참조하세요.
+Adobe Workfront 리소스 관리 도구를 사용하여 리소스 할당을 예측하여 프로젝트가 정시에 게재되는지 예산 내에서 게재되는지 정확하게 파악할 수 있습니다. Workfront의 리소스 관리에 대한 개요는 [리소스 관리 시작](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)을 참조하세요.
 
 리소스 계획 도구를 사용하여 작업 역할, 해당 가용성 및 이 가용성을 기반으로 프로젝트에 대한 일반 할당을 관리할 수 있습니다.
 
@@ -35,7 +37,7 @@ Adobe Workfront 리소스 관리 도구를 사용하여 리소스 할당을 예�
 
 자원을 할당하려는 프로젝트에 대한 자원의 시간을 책정하려면 다음 도구를 사용할 수 있습니다.
 
-* 시스템 레벨에서 여러 프로젝트에 대한 예산 배정을 수행하고 우선 순위를 지정하려면 시스템 레벨 리소스 플래너를 사용합니다.
+* 시스템 수준에서 여러 프로젝트에 대한 예산 배정을 수행하고 우선 순위를 지정하려면 시스템 수준 리소스 플래너를 사용하십시오.
 
   리소스 조달 영역의 플래너 섹션으로 이동하여 리소스 플래너에 액세스할 수 있습니다.
 

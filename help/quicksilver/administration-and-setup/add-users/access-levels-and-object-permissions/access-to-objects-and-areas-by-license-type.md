@@ -9,23 +9,29 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 20%
+source-wordcount: '456'
+ht-degree: 24%
 
 ---
 
 # 라이선스 유형별 오브젝트 및 영역에 대한 액세스
 
+<!-- Audited: 5/2025 -->
+
 아래 표는 각 Adobe Workfront 라이선스에서 Workfront의 개체 및 영역에 대해 허용하는 가장 높은 수준의 액세스(편집 또는 보기)를 보여 줍니다.
 
-* **보기**: 사용자가 항목을 검토하고 공유할 수 있습니다.
-* **편집**: 사용자가 항목을 만들고, 편집하고, 삭제하고, 공유할 수 있습니다.
+* 보기: 사용자가 항목을 검토하고 공유할 수 있습니다.
+* 편집: 사용자가 항목을 만들고, 편집하고, 삭제하고, 공유할 수 있습니다.
 
   >[!NOTE]
   >
-  >다른 사용자가 오브젝트를 공유할 때 공유자는 오브젝트를 편집하는 기능을 제한하는 권한을 지정할 수 있습니다. 자세한 내용은 [개체에 대한 공유 권한 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
+  >다른 사용자가 오브젝트를 공유할 때 공유자는 오브젝트를 편집하는 기능을 제한하는 권한을 지정할 수 있습니다. 새 라이선스 유형에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
+
+  >[!NOTE]
+  >
+  >이 문서에는 기존 라이선스 유형의 개체 액세스에 대한 정보가 포함되어 있습니다. 새 라이선스 유형에 대한 자세한 내용은 [새 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 및 [새 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)를 참조하십시오.
 
 |   | 플랜 | 작업 | 검토 | 요청 | 외부 |
 |---|---|---|---|---|---|
@@ -49,7 +55,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->검토 라이선스 또는 요청 라이선스가 있는 사용자의 공유 기능은 제한됩니다. 자세한 내용은 [Adobe Workfront 라이선스 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)를 참조하십시오.
+>검토 라이선스 또는 요청 라이선스가 있는 사용자의 공유 기능은 제한됩니다. 자세한 내용은 [라이선스 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)를 참조하십시오.
 >
 >외부 사용자가 Workfront에서 항목을 검색할 수 없습니다. 문서 및 캘린더와 특별히 공유되는 문서를 볼 수 있습니다. 또한 사용자와 항목을 공유하는 사용자를 볼 수 있습니다.
 

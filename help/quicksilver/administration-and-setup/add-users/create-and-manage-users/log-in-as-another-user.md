@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
 
 # 다른 사용자로 로그인
 
-<!--Audited: April, 2024-->
+<!--Audited: 5/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -25,9 +25,7 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
-Adobe Workfront 관리자는 경우에 따라 다른 사용자를 대신하여 Workfront에 액세스해야 할 수 있습니다.
-
-또는 그룹 관리자는 관리하는 그룹의 멤버인 사용자를 대신하여 Workfront에 액세스해야 할 수 있습니다.
+Adobe Workfront 관리자는 경우에 따라 다른 사용자를 대신하여 Workfront에 액세스해야 할 수 있습니다. 또는 그룹 관리자는 관리하는 그룹의 멤버인 사용자를 대신하여 Workfront에 액세스해야 할 수 있습니다.
 
 예를 들어 휴가 중인 사용자가 특정 작업을 수행할 때까지 작업을 진행할 수 없는 경우, 해당 사용자로 로그인하여 작업을 대신 수행할 수 있습니다.
 
@@ -68,8 +66,8 @@ Some users, such as executives, need to be able to control which administrators 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>시스템 관리자 액세스 수준을 사용하면 다른 사용자로 로그인할 수 있습니다.</p> <p>표준 또는 플래너 액세스 수준이 있는 경우, 액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되어 있고 <b>만들기</b>와 <b>설정 세부 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있는 경우 라이선스 수준이 낮은 사용자로 로그인할 수 있습니다. </p> 
-   <p><b>참고</b>: 이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p></td>
+   <td> <p>시스템 관리자 액세스 수준을 사용하면 다른 사용자로 로그인할 수 있습니다.</p> <p>표준 또는 플래너 액세스 수준이 있는 경우, 액세스 수준의 사용자 설정이 편집 액세스 권한으로 구성되어 있고 설정 세부 조정에서 만들기 및 두 사용자 관리 옵션 중 하나 이상이 활성화된 경우 라이선스 수준이 낮은 사용자로 로그인할 수 있습니다. <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p>참고: 이 두 옵션 중 사용자 관리(그룹 사용자)가 활성화된 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -96,15 +94,14 @@ Some users, such as executives, need to be able to control which administrators 
 
 1. 왼쪽 패널에서 **다음으로 로그인**&#x200B;을 클릭합니다.
 
-1. **다음으로 로그인** 탭의 **사용자** 상자에서 사용자 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
+1. **다음으로 로그인** 탭의 **이름 입력 시작...** 상자에서 사용자 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
 
-   사용자에게 Workfront에 정의된 액세스 수준이 있어야 합니다. 로그인 권한이 없는 사용자로 Workfront 시스템에 로그인할 수 없습니다.
 
    >[!NOTE]
-   >
-   >그룹 관리자는 자신이 관리하는 그룹의 구성원인 사용자로만 로그인할 수 있습니다. Workfront 관리자로 로그인할 수 없습니다.
+   >* 선택하는 사용자는 Workfront에 정의된 액세스 수준이 있어야 합니다. 로그인 권한이 없는 사용자로 Workfront 시스템에 로그인할 수 없습니다.
+   >* 그룹 관리자는 자신이 관리하는 그룹의 구성원인 사용자로만 로그인할 수 있습니다. Workfront 관리자로 로그인할 수 없습니다.
 
-1. **로그인**&#x200B;을 클릭합니다.
+1. **로그인**&#x200B;을 클릭합니다. 다른 사용자로 로그인되어 있고 화면 상단에 이를 나타내는 알림이 표시됩니다.
 
    <!--
    <p> Might come in a future story:</p>
@@ -131,15 +128,15 @@ Some users, such as executives, need to be able to control which administrators 
    </div>
    -->
 
-   다른 사용자로 로그인하면 화면 상단에 이를 나타내는 알림이 표시됩니다.
 
-1. 사용자로 필요한 작업을 수행한 후 **로그아웃**&#x200B;을 클릭합니다.
+
+1. 사용자로 필요한 작업을 수행한 후 화면 상단의 **로그아웃**&#x200B;을(를) 클릭합니다.
 
 ## 관리자가 다른 사용자로 로그인하는 동안의 활동 추적 및 감사
 
 Workfront은 관리자가 다른 사용자로 로그인하는 동안 발생하는 활동 추적 및 감사 메커니즘을 제공합니다.
 
-다른 사용자로 로그인하면 시스템 또는 그룹 관리자가 해당 사용자로 로그인하는 날짜까지 해당 사용자의 마지막 로그인 날짜가 수정됩니다.
+다른 사용자로 로그인하면 해당 사용자의 마지막 로그인 날짜가 시스템 또는 그룹 관리자가 해당 사용자로 로그인하는 날짜로 수정됩니다.
 
 * [항목에 대한 표시기 보기](#view-indicators-on-items)
 * [감사 정보 보기](#view-audit-information)
@@ -153,14 +150,17 @@ Workfront은 관리자가 다른 사용자로 로그인하는 동안 발생하�
 ### 감사 정보 보기 {#view-audit-information}
 
 1. Workfront에 Workfront 관리자 또는 그룹 관리자로 로그인합니다.
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **설정** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
+   {{step-1-to-setup}}
+   <!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
-1. **다음으로 로그인,**&#x200B;을 클릭한 다음 **액세스 로그** 탭을 클릭합니다.
+1. 왼쪽 패널에서 **다음으로 로그인**&#x200B;을 클릭한 다음 **액세스 로그** 탭을 클릭합니다.
 
-   시스템 또는 그룹 관리자가 Workfront에 다른 사용자로 로그인할 때마다 감사 추적에 이벤트가 기록됩니다. 또한 관리자가 다른 사용자로 로그인된 상태에서 발생하는 감사 가능한 작업은 감사 추적에 기록됩니다.
+   >[!NOTE]
+   >
+   >시스템 또는 그룹 관리자가 Workfront에 다른 사용자로 로그인할 때마다 감사 추적에 이벤트가 기록됩니다. 또한 관리자가 다른 사용자로 로그인된 상태에서 발생하는 감사 가능한 작업은 감사 추적에 기록됩니다.
 
 1. (선택 사항) 다음 방법으로 감사 추적에 표시되는 결과를 필터링할 수 있습니다.
 
    * 로그인한 사용자별
    * 다음으로 로그인한 사용자별
-   * 날짜별
+   * 날짜 및 시간별
