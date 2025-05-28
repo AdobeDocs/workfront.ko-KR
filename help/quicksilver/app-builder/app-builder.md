@@ -4,9 +4,9 @@ description: Adobe App Builder에서 제공하는 Workfront UI 확장을 사용�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
+source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Adobe App Builder에서 애플리케이션을 만든 후 Workfront 관리자가 
 
 * IMS 지원 Workfront 계정
 * 노드 v18 및 npm이 있는 개발 시스템
+* App Builder 라이선스
 
 ## Adobe App Builder 액세스
 
@@ -69,8 +70,6 @@ UI 확장을 만들려면 Adobe Developer Console에서 Adobe App Builder에 액
 ### App Builder 액세스 권한 얻기
 
 조직이 App Builder을 구매하려면 계정 관리자와 협력해야 합니다.
-
-AppBuilder 통합을 테스트하려면 https://developer.adobe.com/app-builder/trial/#에서 IMS 조직에 대한 무료 평가판을 요청하십시오.
 
 AppBuilder가 제대로 구성된 경우 새 프로젝트를 만드는 과정의 일부로 템플릿에서 프로젝트 만들기 가 표시됩니다.
 
@@ -116,7 +115,7 @@ Adobe에서는 App Builder 애플리케이션을 만드는 데 사용할 수 있
    ![명령 결과](assets/1-command-result.png)
    ![프로젝트 선택](assets/2-select-a-project.png)
 
-1. 사용 가능한 모든 템플릿을 탐색하고 프로젝트의 **@adobe/workfront-ui-ext-tpl**&#x200B;을(를) 선택하십시오.
+1. 사용 가능한 모든 템플릿을 탐색하고 프로젝트의 **@adobe/workfront-ui-ext-tpl**을(를) 선택하십시오.
    ![템플릿 선택](assets/3-choose-template.png)
 1. Adobe Developer Console에서 만든 프로젝트 이름을 선택하고 입력합니다.
    ![프로젝트 이름 선택 및 입력](assets/4-select-and-enter-project-name.png)
@@ -132,7 +131,7 @@ Adobe에서는 App Builder 애플리케이션을 만드는 데 사용할 수 있
 
 1. 완료 를 선택하여 완료를 확인합니다. 템플릿에서 코드 생성이 진행 중입니다.
    ![생성 진행 중](assets/6-generation-in-process.png)
-1. 앱 초기화가 완료되었다는 메시지가 표시될 때까지 기다립니다. 그런 다음 IDE에서 프로젝트를 열고(VSCode 권장) src 폴더에 액세스할 수 있습니다.
+1. 앱 초기화가 완료되었다는 메시지가 표시될 때까지 기다립니다. 그런 다음 IDE(Visual Studio Code 권장)에서 프로젝트를 열고 src 폴더에 액세스할 수 있습니다.
 
    프로젝트의 폴더 및 파일에 대한 자세한 내용은 [Adobe 개발자 사이트](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application)를 참조하십시오.
 
@@ -153,13 +152,13 @@ Workfront 기본 메뉴에서 사용자 지정 응용 프로그램을 허용하�
 ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드는 템플릿에서 만들었습니다. 이 코드를 추가하여 추가 메뉴 항목을 만들 수 있습니다. ID 및 URL을 바꾸십시오.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    반환 &lbrack;
+    반환 [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -169,13 +168,13 @@ ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드�
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. 다음 코드 조각을 추가합니다.
