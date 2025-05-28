@@ -7,9 +7,9 @@ description: Adobe Workfront에서 작업 항목에 로그온하는 시간은 �
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
   자세한 내용은 사용자 보기를 사용할 때 리소스 플래너에서 [사용 가능 시간, 계획된 시간 및 실제 시간 또는 FTE 보기](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)를 참조하십시오.
 
 
-### Workfront 데이터베이스, API 및 사용자 정의 데이터의 실제 시간
+### Workfront <!--database and the--> API <!--, and custom data-->의 실제 시간
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,9 +142,14 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 API 호출이나 계산된 사용자 지정 필드 또는 열의 이러한 필드에 액세스할 때 분 단위에서 시간 단으로의 전환을 고려해야 합니다.
 
-그러나 실제 시간은 Workfront 데이터베이스에 시간 단위로 저장됩니다.
+실제 시간에 액세스하는 방법에 따라 데이터베이스의 다음 필드 및 단위에 저장할 수 있습니다.
 
-API 호출의 실제 시간 또는 Workfront의 계산된 사용자 지정 필드 또는 열에 대해 `actualWorkRequiredDouble` valuefield 이름을 사용해야 합니다.
+* API에서 실제 시간에 대한 `valuefield`은(는) 시간 단위로 저장되는 `actualWorkRequiredDouble`입니다.
+* Workfront 인터페이스(계산된 사용자 지정 필드 및 열)에서: 실제 시간에 대한 `valuefield`은(는) 분 단위로 저장된 `actualWorkRequired`입니다.
+
+<!--Change the above with this when we fix this for the Workfront UI: 
+
+You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
 
 계산된 열 또는 필드에서 실제 시간을 사용하는 방법에 대한 자세한 내용은 [보고서 FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)를 참조하십시오.
 

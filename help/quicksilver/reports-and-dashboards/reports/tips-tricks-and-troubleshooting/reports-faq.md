@@ -7,9 +7,9 @@ description: 보고서 FAQ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -71,17 +71,27 @@ ht-degree: 0%
 
 내 계산은 다음과 같습니다.
 
-`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)`
 
 ### 답변
 
 Workfront에서 시간을 사용하는 대부분의 필드는 분 단위로 저장됩니다. 계산에 이러한 필드를 사용할 때 결과는 대부분 분 단위입니다. 시간 단위로 결과를 얻으려면 계산 결과나 참조하는 필드를 60으로 나누어야 합니다.
 
-예를 들어 계획된 시간은 분 단위로 저장되는 반면 실제 시간은 시간 단위로 저장됩니다. 따라서 계획된 시간을 분에서 시간으로 변환해야 합니다.
+<!--For example, Planned Hours are stored in minutes, while Actual Hours are stored in hours. As a result, you must convert Planned Hours from minutes to hours. -->
 
 올바른 계산은 다음과 같습니다.
 
-`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+>[!NOTE]
+>
+>API 호출의 실제 시간을 참조하는 경우 valuefield에 `actualWorkRequiredDouble`을(를) 사용하십시오. API의 실제 시간은 시간 단위로 저장됩니다. 계획된 시간은 분 단위로 저장됩니다.
+>
+>API 호출의 올바른 계산 방법은 다음과 같습니다.
+>>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+
+<!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
 
 ## 보고서에 있는 각 차트 요소의 값이 차트에 표시되지 않는 이유는 무엇입니까?
 
