@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 author: Courtney
 hide: true
 hidefromtoc: true
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Workfront에 대한 HIPAA 준비
 
-HIPAA에 정의된 대로 비즈니스 파트너가 Workfront을 제공하는 **비즈니스 연결** 및/또는 **적용 엔터티**&#x200B;인 Adobe Workfront 고객은 다음 지침을 사용하여 HIPAA에서 사용할 수 있도록 Workfront을 구성해야 합니다.
+HIPAA에 정의된 대로 비즈니스 연관 및/또는 비즈니스 연관이 Adobe Workfront을 대신하여 제공하는 적용 받는 엔티티인 Workfront 고객은 다음 지침을 사용하여 HIPAA 준비 사용을 위해 Workfront을 구성해야 합니다.
 
 
 ## 암호 요구 사항
@@ -35,7 +35,7 @@ HIPAA에 정의된 대로 비즈니스 파트너가 Workfront을 제공하는 **
 | **보안 설정** | **정의** | **요구 사항** |
 |----------------------|------------------|------------------|
 | 최대 로그인 실패 | 로그인에 몇 번 실패하면 사용자가 잠기게 됩니까? | 5분 기간 내에 5회 이하 시도, 30분 후 재시도 허용 |
-| 최대 SSO 확인 실패 | 몇 번이나 실패한 SSO 인증 시도로 인해 잠금이 발생합니까? | 5개 이하(SSO를 사용하는 고객에게만 적용) |
+| 최대 SSO 확인 실패 | 몇 번이나 SSO 확인에 실패하여 잠금이 발생합니까? | 5개 이하(SSO를 사용하는 고객에게만 적용) |
 
 
 ## 세션 요구 사항
