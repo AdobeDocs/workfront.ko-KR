@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
+source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
 workflow-type: tm+mt
-source-wordcount: '3995'
+source-wordcount: '4043'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,15 @@ Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/hel
 
 
 ## 관리자 및 설정
+
+<!--
+### Interface updates for the Import Data (Kick-Starts) page
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+
+For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
 
 ### 설정의 액세스 로그 탭에 대한 인터페이스 업데이트
 
@@ -100,6 +109,14 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 W
 
 ## 프로젝트
 
+### 문제 삭제 상자에 대한 업데이트를 봅니다.
+
+**미리 보기 릴리스: 2025년 5월 29일, 프로덕션 릴리스: 2025년 6월 5일**
+
+하나 이상의 문제를 삭제할 때 문제 삭제 상자의 모양과 느낌을 업데이트했습니다. 이제 문제 삭제 상자가 Workfront의 다른 영역과 일치합니다.
+
+자세한 내용은 [문제 삭제](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md)를 참조하십시오.
+
 ## 프로젝트 또는 템플릿에 대한 새로 만들기 및 편집 위험 상자에 대한 업데이트 확인
 
 **미리 보기 릴리스: 2025년 5월 22일, 프로덕션 릴리스: 2025년 5월 29일**
@@ -147,6 +164,17 @@ URL을 대체하여 지원되는 페이지로 이동하거나 대시보드에서
 
 
 ## 사용자
+
+<!--
+### Interface updates to the organizational chart
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
+
+To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
+
+For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).-->
 
 ### 새 사용자 등록 페이지에 대한 인터페이스 업데이트
 

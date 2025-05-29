@@ -4,11 +4,10 @@ description: 2025년 3분기 홈 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
+source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,12 @@ ht-degree: 0%
 
 ## 이제 승인 위젯이 기한별로 자동으로 정렬됩니다.
 
+>[!NOTE]
+>
+>* 미리 보기: 2025년 5월 29일
+>* 프로덕션 빠른 릴리스: 2025년 6월 12일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
+
 기본적으로 기한(내림차순)별로 정렬하도록 홈의 내 승인 위젯을 업데이트했습니다. 이렇게 하면 가장 긴급한 승인이 목록의 맨 위에 표시됩니다.
 
 이전에는 위젯이 시작 날짜별로 정렬되어 우선 순위를 결정하기 어려웠습니다.
-

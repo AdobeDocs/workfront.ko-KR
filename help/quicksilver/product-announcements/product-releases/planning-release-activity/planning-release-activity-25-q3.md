@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
+source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,30 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 요청 영역의 계획 탭에 추가된 필터, 열 및 추가 필드
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 5월 29일
+>* 프로덕션 빠른 릴리스: 2025년 6월 12일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
+
+요청 영역의 계획 탭에 있는 요청 목록에 다음 기능을 추가했습니다.
+
+* 요청을 추가한 사용자를 나타내기 위해 열에 의해 입력됨
+* 필터 - Planning 탭에서 보는 요청 수를 제한합니다. 다음 항목을 기준으로 목록을 필터링할 수 있습니다.
+
+   * 요청 양식의 출처 Workspace
+   * 요청 양식과 연결된 레코드 유형
+   * 요청 입력 일자
+   * 요청 양식 이름
+   * 요청 상태
+   * 요청을 입력한 사람의 이름입니다.
+
+* 열 컨트롤은 Planning 요청 목록에서 필드(또는 열)를 보거나 숨길 수 있습니다.
+
+자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
 ## 타임라인 보기에서 압축 모드로 레코드를 분류할 때의 새로운 경험
 
@@ -126,7 +150,7 @@ CSV 및 Excel 파일을 가져와서 레코드 형식과 기존 레코드 형식
 >[!NOTE]
 >
 >이 변경 사항은 시스템 관리자 및 표준 라이선스를 가진 모든 신규 및 기존 사용자에게 표시됩니다.
->레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
+>>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
 
 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 

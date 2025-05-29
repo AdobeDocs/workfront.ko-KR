@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
+source-git-commit: 655fc2407583ba65c1f3af7659274bca212eacca
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1087'
 ht-degree: 3%
 
 ---
@@ -89,32 +89,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--
-
-### Home enhancements
+### 홈 개선 사항
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Feature</strong>
+        <td><strong>기능</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
-            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">내 승인 위젯이 이제 기한 </a>을(를) 기준으로 자동으로 정렬됩니다.<p></p>
+            <p>기본적으로 기한(내림차순)별로 정렬하도록 홈의 내 승인 위젯을 업데이트했습니다. 이렇게 하면 가장 긴급한 승인이 목록의 맨 위에 표시됩니다. </p>
         </td>
-        <td>May 15, 2025</td>
-        <td>May 15, 2025</td>
-        <td>July 17, 2025</td>
+        <td>2025년 5월 29일 금요일</td>
+        <td>2025년 6월 12일 금요일</td>
+        <td>2025년 7월 17일 금요일</td>
     </tr>     
   </tbody>
-</table> 
-
--->
+</table>
 
 ### 프로젝트 개선 사항
 
@@ -127,6 +123,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">API 호출에 대한 실제 시간을 데이터베이스에 저장하는 방법 변경</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+            <p>이 업데이트에서는 프로젝트, 작업 및 문제의 실제 시간을 데이터베이스에 저장하는 방식이 변경되었습니다. 이 업데이트부터 실제 시간은 <code>actualWorkRequiredDouble</code>의 valuefield(시간 단위 값 포함)를 사용합니다.</p>
+        </td>
+        <td>2025년 5월 27일 수요일</td>
+        <td>2025년 5월 27일 수요일</td>
+        <td>2025년 5월 27일 수요일</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">작업 또는 문제 헤더에서 완료율 슬라이더를 사용하여 업데이트</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+            <p>작업 및 문제에 대해 완료율 슬라이더가 작동하는 방식을 업데이트했습니다. 작업 또는 문제의 헤더에 완료율 파란색 풍선을 놓으면 작업 또는 문제의 완료율이 이제 5포인트 단위로 업데이트됩니다. 이 업데이트 이전에는 파란색 완료율 버블을 사용하여 작업 또는 문제를 한 포인트 단위로 업데이트했습니다.</p>
+        </td>
+        <td>2025년 5월 27일 수요일</td>
+        <td>2025년 5월 27일 수요일</td>
+        <td>2025년 5월 27일 수요일</td>
+    </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">프로젝트, 작업 및 문제에 대해 AI Assistant를 사용할 때 투명성 향상</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
@@ -203,22 +217,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI Assistant 사용 시 투명성 향상</a></p>
-                        <p>AI Assistant가 Workfront 프로젝트, 작업 및 문제에 대한 질문에 대한 답변을 찾는 방법을 보다 명확하게 하기 위해 이 정보를 질문 응답에 추가했습니다. 이제 AI Assistant는 검색 정보를 출력에 포함합니다. 이 정보를 활용해 자신이 묻는 질문을 AI 어시스턴트가 정확히 식별했는지 확인하고, 답안의 맥락을 파악하는 방법으로 활용할 수 있다. </p>
-                    </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 2025년 3분기 릴리스 일정 전체<br /></p>
-                            </li>
-                            <li>
-                                <p>프로덕션 릴리스: 미리보기에 릴리스한 후 최소 2주(달리 지정되지 않은 경우)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                 <tr>
                     <td>
                         <p><span class="bold">기능</span>
@@ -262,7 +260,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ### Workfront Planning 개선 사항
 
@@ -284,11 +282,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
 
 
 

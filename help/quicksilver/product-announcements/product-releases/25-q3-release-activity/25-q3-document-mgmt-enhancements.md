@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: c8222e177d7e1ab9f62f5a520a2a941ca87cc27a
+source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Desktop Proofing Viewer가 버전 2.1.48로 업데이트되었습니다.
 
 >[!NOTE]
 >
->* 미리보기 릴리스: 2025년 5월 31일, 모든 고객을 위한 프로덕션 릴리스: 2025년 5월 31일
+>* 미리보기 릴리스: 2025년 6월 2일, 모든 고객을 위한 프로덕션 릴리스: 2025년 6월 2일
 
 Google은 Google Drive에 액세스하는 타사 응용 프로그램에 대해 [보안 제어를 강화](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps)하므로 응용 프로그램에서 사용자별 동의 모델을 채택해야 합니다. 따라서 개별 에셋이 Workfront에서 표시되도록 한 번에 하나씩 연결되어야 합니다. 자세한 내용은 [문서 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md)을 참조하십시오.
 

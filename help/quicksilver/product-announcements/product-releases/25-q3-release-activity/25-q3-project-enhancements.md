@@ -6,18 +6,55 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: ddd69533738865d09f35e290e545cfbae062c687
+exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
+source-git-commit: a5a61045bad5a97fb1413fac4a5a2666b753fa83
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-# 2025년 3분기 릴리스 일정 동안의 프로젝트 개선 사항
+# 2025년 3분기 프로젝트 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2025년 3분기 릴리스의 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
+
+## API 호출에 대한 실제 시간을 데이터베이스에 저장하는 방식 변경
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 5월 27일
+>* 프로덕션 빠른 릴리스: 2025년 5월 27일
+>* 모든 고객을 위한 프로덕션: 2025년 5월 27일
+
+이 업데이트에서는 프로젝트, 작업 및 문제의 실제 시간을 데이터베이스에 저장하는 방식이 변경되었습니다. 이 업데이트부터 실제 시간은 `actualWorkRequiredDouble`의 valuefield(시간 단위 값 포함)를 사용합니다.
+
+이 업데이트 이전에는 실제 시간이 값 필드 `actualWorkRequired`(분 단위 값 포함)로 저장되었습니다. 이 업데이트는 API 호출을 사용하여 실제 시간을 계산할 때 더 정확한 카운트를 제공합니다.
+
+이러한 변경 사항으로 인해 원래 값 필드를 참조하는 모든 API 호출을 업데이트해야 할 수 있습니다. API 호출에서 `actualWorkRequiredExpression`의 valuefield를 사용하는 경우 변경하지 마십시오.
+
+이 업데이트에서는 계산된 사용자 정의 필드 열의 프로젝트, 작업 및 문제에 대한 실제 시간 계산을 변경하지 않습니다.
+
+## 작업 또는 문제 헤더에서 완료율 슬라이더를 사용하여에서 업데이트
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 5월 27일
+>* 프로덕션 빠른 릴리스: 2025년 5월 27일
+>* 모든 고객을 위한 프로덕션: 2025년 5월 27일
+
+작업 및 문제에 대해 완료율 슬라이더가 작동하는 방식을 업데이트했습니다.
+
+이제 다음 기능을 사용할 수 있습니다.
+
+* 작업 또는 문제의 헤더에 완료율 파란색 풍선을 놓으면 작업 또는 문제의 완료율이 이제 5포인트 단위로 업데이트됩니다. 이 업데이트 이전에는 파란색 완료율 버블을 사용하여 작업 또는 문제를 한 포인트 단위로 업데이트했습니다.
+
+* 파란색 풍선을 두 번 클릭하고 슬라이더를 사용하지 않고 원하는 숫자로 수동으로 업데이트할 수 있습니다. 이 기능은 변경되지 않았습니다.
+
+Workfront의 다른 영역에서 작업 및 문제의 완료율을 업데이트하는 데 다른 변경 사항은 없습니다.
+
+자세한 내용은 [작업에 대한 완료율 보기 및 업데이트](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)를 참조하십시오.
 
 ## 프로젝트, 작업 및 문제에 대해 AI Assistant 사용 시 투명성 향상
 
@@ -32,4 +69,3 @@ AI Assistant가 Workfront 프로젝트, 작업 및 문제에 대한 질문에 �
 이전에는 AI 비서의 응답에서 이 정보를 사용할 수 없었습니다.
 
 AI Assistant를 사용하여 Workfront 항목에 대한 정보를 얻는 방법에 대한 자세한 내용은 [AI Assistant를 사용하여 프로젝트, 작업 및 문제 작업](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)을 참조하십시오.
-
