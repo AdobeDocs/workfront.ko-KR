@@ -6,9 +6,9 @@ description: 프로젝트를 시작할 때 포트폴리오에 프로젝트를 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오. </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 프로젝트를 시작할 때 포트폴리오에 프로젝트를 추가하는 것이 좋습니다. 그러나 라이프타임 동안 언제든지 포트폴리오에 추가할 수 있습니다.
 
@@ -104,9 +104,9 @@ ht-degree: 0%
 
    ![새 프로젝트 드롭다운](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (조건부) 기존 프로젝트를 추가하도록 선택하면 <span class="preview">**프로젝트 추가** 상자가 열립니다.</span> <!--check this after UI changes-->
+1. (조건부) 기존 프로젝트를 추가하도록 선택한 경우 **프로젝트 추가** 상자가 열립니다. <!--check this after UI changes-->
 
-   <span class="preview">![기존 프로젝트 추가](assets/add-existing-projects-to-portfolios-box.png)</span> <!--check this after UI changes-->
+   ![기존 프로젝트 추가](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
 1. **[!UICONTROL 이 Portfolio에 프로젝트 추가]** 필드에 프로젝트 이름을 입력한 다음 목록에 나타나면 클릭합니다.  <!--check this after UI changes-->
 

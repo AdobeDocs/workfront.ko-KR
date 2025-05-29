@@ -6,9 +6,9 @@ description: 재원은 프로젝트에 기록된 시간 또는 비용 및 수익
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
    <td>임의 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td>
    <p>새로운 기능: 표준</p>
    <p>또는</p>
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## Adobe Workfront의 재무 계산에 대한 고려 사항
 
-재정은 다음과 같은 방법으로 향상된 분석에서 계산됩니다.
+재원은 다음과 같은 방법으로 프로젝트에 대해 계산됩니다.
 
 * 프로젝트의 재무 다시 계산 옵션을 사용하여 프로젝트의 비용 및 수익을 수동으로 다시 계산할 수 있습니다.
 * 또한 일부 작업은 자동 재계산을 트리거합니다.

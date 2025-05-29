@@ -6,9 +6,9 @@ description: 포트폴리오 내의 프로그램에 프로젝트를 추가하여
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오. </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 포트폴리오 내의 프로그램에 프로젝트를 추가하여 구성할 수 있습니다. 하나의 프로그램 내에 여러 개의 프로젝트를 가질 수 있지만 하나의 프로그램만 프로젝트와 연결할 수 있습니다.
 
@@ -104,16 +104,16 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. (조건부) **[!UICONTROL 기존 프로젝트]**&#x200B;를 선택한 경우 <span class="preview">**프로젝트 추가** 상자</span>가 열립니다. <!--check at unshimming-->
+1. (조건부) **[!UICONTROL 기존 프로젝트]**&#x200B;를 선택한 경우 **프로젝트 추가** 상자가 열립니다. <!--check at unshimming-->
 
-   <span class="preview">![프로그램 상자에 기존 프로젝트 추가](assets/add-projects-to-programs-box.png)</span><!--check at unshimming-->
+   ![프로그램 상자에 기존 프로젝트 추가](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
 
 1. 다음을 수행합니다.
 
    1. **[!UICONTROL 프로젝트 추가]** 상자에서 **이 프로그램에 프로젝트 추가** 필드에 프로젝트 이름을 입력한 다음 목록에 표시될 때 선택합니다. <!--check casing on links and buttons-->
 
       두 개 이상의 프로젝트를 추가할 수 있습니다.
-   1. (선택 사항) 프로그램에 추가하지 않으려면 프로젝트 이름 옆에 있는 <span class="preview">**삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)</span>을 클릭합니다.
+   1. (선택 사항) 프로그램에 추가하지 않으려면 프로젝트 이름 옆에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭합니다.
 
    1. **[!UICONTROL 프로젝트 추가]**&#x200B;를 클릭합니다. <!--check at unshimming-->
 

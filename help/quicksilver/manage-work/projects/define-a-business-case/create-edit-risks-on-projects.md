@@ -6,10 +6,10 @@ description: 위험은 프로젝트가 정시 또는 예산 내에서 완료되�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 0%
+source-wordcount: '1080'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오. </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 위험은 프로젝트가 정시 또는 예산 내에서 완료되지 못하게 하는 가능한 이벤트 또는 요인입니다. 프로젝트의 비즈니스 사례를 만들 때 또는 위험 탭을 사용하여 위험을 기록할 수 있습니다.
 
@@ -117,9 +117,9 @@ Workfront 관리자 또는 그룹 관리자는 프로젝트 환경 설정 영역
 
    **새 위험**&#x200B;을 클릭하세요.
 
-   <span class="preview">새 위험&#x200B;**상자가 열립니다.</span>**
+   **새 위험** 상자가 열립니다.
 
-   <span class="preview">![새 위험 상자](assets/new-risk-box.png)</span>
+   ![새 위험 상자](assets/new-risk-box.png)
 
 1. (조건부) **새 위험** 상자에 위험을 추가하는 경우 다음 정보를 입력하십시오.
 
@@ -175,7 +175,7 @@ Workfront 관리자 또는 그룹 관리자는 프로젝트 환경 설정 영역
    * **실제 비용**: 위험이 발생한 경우 위험의 실제 비용을 나타냅니다.
    * **완화 계획**: 위험을 완화하기 위해 계획의 설명을 업데이트합니다.
 
-1. <span class="preview">**저장**&#x200B;을 클릭합니다.</span>
+1. **저장**&#x200B;을 클릭합니다.
 1. (선택 사항) 위험 목록에 대한 **표준** 보기를 적용할 때 **상태** 드롭다운 메뉴에서 위험에 대한 **상태**&#x200B;를 편집합니다.
 
    >[!NOTE]

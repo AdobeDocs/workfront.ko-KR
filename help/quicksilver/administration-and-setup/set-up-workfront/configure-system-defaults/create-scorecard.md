@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 1%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오. </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 스코어카드는 프로젝트가 이전에 설정한 포트폴리오 기준에 얼마나 잘 부합하는지 측정합니다. 스코어카드는 종종 조직의 임무, 가치 및 전략적 목표를 반영합니다.
 
@@ -73,9 +73,9 @@ ht-degree: 1%
 
 1. **[!UICONTROL 스코어카드]**&#x200B;를 클릭한 다음 **[!UICONTROL 새 스코어카드]**&#x200B;를 클릭합니다.
 
-   <span class="preview">새 스코어카드&#x200B;**상자가 열립니다.</span>**
+   **새 스코어카드** 상자가 열립니다.
 
-   <span class="preview">![새 스코어카드 상자](assets/new-scorecard-350x173.png)</span>
+   ![새 스코어카드 상자](assets/new-scorecard-350x173.png)
 
 1. **[!UICONTROL 스코어카드 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 지정하십시오.
 
@@ -126,9 +126,9 @@ ht-degree: 1%
 1. 왼쪽 패널에서 **[!UICONTROL 스코어카드]**&#x200B;를 클릭합니다.
 1. 목록에서 스코어카드를 선택한 다음 스코어카드 목록 맨 위에 있는 **복사** 아이콘 ![스코어카드 복사 아이콘](assets/copy-scorecard-icon.png)을 클릭합니다.
 
-   <span class="preview">스코어카드 **복사** 상자가 열립니다.</span>
+   **스코어카드 복사** 상자가 열립니다.
 
-   <span class="preview">![스코어카드 상자 복사](assets/copy-scorecard-box.png)</span>
+   ![스코어카드 상자 복사](assets/copy-scorecard-box.png)
 
 1. 다음 정보를 지정합니다.
 

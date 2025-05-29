@@ -6,9 +6,9 @@ description: 올바른 액세스 및 권한이 있는 경우 Adobe Workfront에�
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 05/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
+<span class="preview">자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).</span>를 참조하세요.
 
 올바른 액세스 및 권한이 있는 경우 Adobe Workfront에서 문제 또는 요청을 삭제할 수 있습니다.
 
@@ -116,7 +116,7 @@ Workfront 또는 그룹 관리자가 Workfront 인스턴스의 **타임시트 �
    선택한 프로젝트와 관련된 문제 목록이 오른쪽에 표시됩니다.
 1. 목록에서 하나 이상의 문제를 선택한 다음 목록 맨 위에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다.
 
-1. 삭제가 허용되는 경우 **예, 삭제**&#x200B;를 클릭하십시오. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. 삭제가 허용되는 경우 **<span class="preview">삭제</span>**&#x200B;를 클릭하십시오.
 
    Workfront 관리자는 시간이 기록되는 문제의 삭제를 허용하지 않을 수 있습니다.\
    문제를 삭제하는 데 필요한 액세스 및 권한에 대한 자세한 내용은 이 문서의 [문제 삭제 고려 사항](#considerations-for-deleting-issues) 섹션을 참조하십시오.
@@ -136,7 +136,7 @@ Workfront 또는 그룹 관리자가 Workfront 인스턴스의 **타임시트 �
    ![추가 문제 메뉴](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. **문제 삭제**&#x200B;를 클릭합니다.
-1. 삭제가 허용되는 경우 **예, 삭제**&#x200B;를 클릭하십시오. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. 삭제가 허용되는 경우 **<span class="preview">삭제</span>**&#x200B;를 클릭하십시오.
 
    Workfront 관리자는 시간이 기록되는 문제의 삭제를 허용하지 않을 수 있습니다.\
    문제를 삭제하는 데 필요한 액세스 및 권한에 대한 자세한 내용은 이 문서의 [문제 삭제 고려 사항](#considerations-for-deleting-issues) 섹션을 참조하십시오.

@@ -6,9 +6,9 @@ description: 포트폴리오에 기존 프로그램을 추가할 수 있습니�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오. </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 포트폴리오에 기존 프로그램을 추가할 수 있습니다. 프로그램은 서로 다른 두 포트폴리오에 존재할 수 없으므로 기존 프로그램을 추가하면 한 포트폴리오에서 다른 포트폴리오로 영구적으로 이동합니다.
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 1. **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 기존 프로그램]**&#x200B;을 클릭합니다.
 
-   <span class="preview">프로그램 추가&#x200B;**상자가 열립니다.</span>** <!--check screen shot - I logged changes for this casing-->
+   **프로그램 추가** 상자가 열립니다. <!--check screen shot - I logged changes for this casing-->
 
-   <span class="preview">![프로그램 추가](assets/add-programs-box.png)</span>
+   ![프로그램 추가](assets/add-programs-box.png)
 
    >[!IMPORTANT]
    >
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    두 개 이상의 프로그램을 추가할 수 있습니다.
 
-1. (선택 사항) 포트폴리오에 추가하지 않으려면 프로그램 이름 옆에 있는 <span class="preview">**삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)</span>을 클릭합니다.
+1. (선택 사항) 포트폴리오에 추가하지 않으려면 프로그램 이름 옆에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭합니다.
 
 1. **[!UICONTROL 프로그램 추가]**&#x200B;를 클릭합니다. <!--check this button in the UI after they implemented the changes??-->
 

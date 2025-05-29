@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '2095'
 ht-degree: 0%
 
 ---
@@ -222,41 +222,46 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
 1. (선택 사항) 확인 메시지에서 **요청 보기**&#x200B;를 클릭하여 요청을 열거나 **X** 아이콘을 클릭하여 확인을 닫습니다.
 
-1. (선택 사항) **요청** 영역에서 **계획** 탭을 클릭하여 요청을 확인한 다음 요청 이름을 클릭합니다.
+1. (선택 사항) 요청을 보려면 **요청** 영역에서 **계획** 탭을 클릭합니다.
+Planning 요청 양식에 제출된 보기 액세스 권한이 있는 모든 요청이 목록에 표시됩니다.
+1. (선택 사항) 다음 중 하나를 수행합니다.
+
+   <div class="preview">
+
+   * **필터**&#x200B;를 클릭하고 계획 탭에서 보려는 요청에 대한 조건을 추가하기 시작합니다.
+
+     ![계획 요청 탭에서 필터 편집](assets/filters-editing-box-in-requests-planning-tab.png)
+
+     다음 필드를 기준으로 필터링할 수 있습니다.
+
+      * **Workspace**: 요청 양식과 연결된 작업 영역입니다.
+      * **레코드 종류**: 요청 양식과 연결된 레코드 종류.
+      * **시작 날짜**: 요청이 제출된 날짜입니다.
+      * **요청 양식**: 요청을 제출하는 데 사용되는 요청 양식의 이름입니다.
+      * **상태**: 요청의 상태입니다.
+      * **입력한 사람**: 요청을 추가한 사용자의 이름입니다. Workfront 외부의 사용자와 함께 요청을 추가한 경우 **입력한 사람** 필드에 `N/A`이(가) 표시됩니다.
+
+        **And** 또는 **Or** 중 하나로 여러 필터를 연결할 수 있습니다.
+필터 조건을 추가하면 요청 목록이 자동으로 필터링됩니다.
+
+   * **열**&#x200B;을(를) 클릭하고 요청 목록에서 열을 숨기거나 표시하거나 다시 정렬하십시오.
+
+     >[!TIP]
+     >
+     >열을 더 이상 추가할 수 없습니다.
+     >
+     >**제목** 필드를 표시할 수 없습니다.
+
+     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+
+
+1. 목록에서 요청 이름을 클릭합니다.
 
    요청 세부 정보 페이지가 열립니다.
 
    ![요청 세부 정보 페이지](assets/request-details-page.png)
 
-   <!--replace the step directly above with this when we release filters and columns: 
-      1. (Optional) Click the **Planning** tab in the **Requests** area to view your requests. 
-         All the requests you have access to view that were submitted to a Planning request form display in a list. 
-      1. (Optional) Do any of the following:
-         <div class="preview">
-         * Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
-                     ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
-            You can filter by any of the following fields:  
-            * **Workspace**: The workspace the request form is associated with.
-            * **Record type**: The record type the request form is associated with.
-            * **Entry date**: The date when the request was submitted.
-            * **Request form**: The name of the request form used to submit the request.
-            * **Status**: The status of the request.
-            * **Entered by**: The name of the user who added the request. If the request was added with someone outside of Workfront, the **Entered by** field shows `N/A`.
-            You can have multiple filters joined by either And or Or.  
-            The request list is filtered automatically, as you add the filter conditions. 
-         * Click **Columns** and hide, show, or rearrange the columns in the request list. 
-            >[!TIP]
-            >
-            >You cannot add any more columns. 
-            >
-            >You cannot display the **Subject** field.
-                     ![](assets/columns-editing-box-in-requests-planning-tab.png)
-
-      1. Click the name of a request in the list. 
-   The request details page opens. 
-   ![Request details page](assets/request-details-page.png)             
-      </div>
-      -->
+   </div>
 
 
 1. (조건부) 요청 양식이 승인과 연결되어 있지 않거나 요청이 승인된 경우 요청 이름을 클릭한 다음 **레코드** 필드의 레코드 이름을 클릭합니다.
