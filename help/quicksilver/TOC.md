@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: ddd69533738865d09f35e290e545cfbae062c687
+source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
 workflow-type: tm+mt
-source-wordcount: '13216'
+source-wordcount: '13220'
 ht-degree: 2%
 
 ---
@@ -188,7 +188,7 @@ ht-degree: 2%
          * [21.2 프로젝트 개선 사항](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
          * [21.2 요청 개선 사항](product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md)
          * [21.2 향상된 리소스 관리 기능](product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md)
-         * [21. 2 보고 개선 사항](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
+         * [&#x200B;21. 2 보고 개선 사항](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
          * [21.2 증명 개선 사항](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
          * [21.2 통합 개선 사항](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [21.2 기타 개선 사항](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
@@ -254,7 +254,7 @@ ht-degree: 2%
          * 20.4 릴리스 {#release-20-4}
             * [20.4 릴리스 개요](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [20.4 향상된 프로젝트 관리 기능](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
-            * [20. 4가지 Analytics 개선 사항](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
+            * [&#x200B;20. 4가지 Analytics 개선 사항](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
             * [20.4 향상된 리소스 관리 기능](product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md)
             * [20.4 증명 개선 사항](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [20.4 모바일 및 통합 개선 사항](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
@@ -802,6 +802,7 @@ ht-degree: 2%
    * [Adobe Workfront 용어 목록](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Adobe Workfront 브라우저 요구 사항](workfront-basics/workfront-browser-requirements.md)
    * [Adobe Workfront에서 지원되는 언어](workfront-basics/supported-languages-in-workfront.md)
+   * [Workfront에 대한 HIPAA 준비](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
    * Adobe Workfront 탐색 {#navigate}
       * [Adobe Workfront 탐색: 문서 색인](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront 검색 {#search}
@@ -2134,7 +2135,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
