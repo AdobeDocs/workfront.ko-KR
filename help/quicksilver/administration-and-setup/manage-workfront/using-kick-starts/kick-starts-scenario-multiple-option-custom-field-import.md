@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
 
 # 킥스타트 시나리오: 여러 옵션 사용자 정의 필드를 Workfront에 가져오기
+
+{{highlighted-preview}}
 
 킥스타트 기능을 사용하여 Adobe Workfront에서 여러 옵션이 있는 사용자 정의 필드를 가져올 수 있습니다.
 
@@ -124,7 +126,7 @@ Workfront에서 기존 데이터를 내보내려면:
 
 1. **빈 킥스타트 스프레드시트 다운로드** 영역에서 **사용자 지정 데이터** 확인란을 선택하고 **다운로드**&#x200B;를 클릭합니다.
 
-   ![사용자 지정 데이터 선택](assets/kickstarts-select-existing-data.png)
+   ![사용자 지정 데이터 선택](assets/kickstarts-blank-spreadsheet-options.png)
 
    빈 킥스타트 파일이 컴퓨터로 다운로드됩니다.
 
@@ -223,7 +225,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
      >
      >각 필드에 대해 하나의 기본 옵션만 가질 수 있습니다.
 
-   * **`setParameterID`** = _Brand_ 사용자 지정 필드에 해당하는 옵션에는 **`setParameterID`**&#x200B;이(가) 1이고, _Media_&#x200B;에 해당하는 옵션에는 **`setParameterID`**&#x200B;이(가) 2입니다. `PARAM` 및 `POPT` 시트는 서로 상호 참조하여 사용자 지정 필드에 속하는 옵션을 나타냅니다.
+   * **`setParameterID`** = _Brand_ 사용자 지정 필드에 해당하는 옵션에는 **`setParameterID`**&#x200B;이(가) 1이고, _Media_&#x200B;에 해당하는 옵션에는 **`setParameterID`**이(가) 2입니다. `PARAM` 및 `POPT` 시트는 서로 상호 참조하여 사용자 지정 필드에 속하는 옵션을 나타냅니다.
    * **`setDisplayOrder`**= 표시 순서 열은 옵션이 사용자 지정 필드에 표시되는 순서를 나타냅니다. 1로 시작하여 해당 옵션이 속할 필드에 관계없이 모든 옵션에 대해 오름차순으로 계속할 수 있습니다. 여기서 중요한 것은 각 옵션에 대해 고유한 번호를 갖는 것입니다.
    * **`setLabel`** 및 `**setValue`** 열에는 일반적으로 동일한 정보가 포함되며 Workfront UI에서 원하는 이름을 반영해야 합니다. 옵션의 값은 보고서에 표시되는 이름인 반면 레이블은 오브젝트에 첨부할 때 사용자 정의 양식에 표시됩니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
    * **`setIsHidden`** = 옵션을 숨기려면 `TRUE`을(를) 입력합니다.
@@ -243,7 +245,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
       * 회사에 대한 **`CMPY`**
       * 작업용 **`TASK`**
       * 프로젝트용 **`PROJ`**
-      * Portfolio에 대한 **`PORT`**
+      * Portfolio용 **`PORT`**
       * 프로그램용 **`PRGM`**
       * 사용자용 **`USER`**
       * 문서에 대한 **`DOCU`**
@@ -263,7 +265,6 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
 1. 스프레드시트를 컴퓨터에 .xls 또는 .xlsx 파일로 저장합니다. Excel 스프레드시트가 작성되었으며 이제 Workfront으로 가져올 수 있습니다.
 
-
 ## Excel 스프레드시트를 Workfront에 업로드
 
 이전 섹션에서 설명한 단계를 수행한 후 다음을 계속 진행하여 새 필드와 양식을 Workfront에 업로드합니다.
@@ -274,14 +275,11 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
 1. **킥스타트 스프레드시트로 데이터 업로드** 섹션에서 **파일 선택**&#x200B;을 클릭합니다.
 
-1. 컴퓨터에서 준비한 Excel 스프레드시트를 검색하고 찾으면 선택합니다. Workfront이 파일을 인식하면 업로드 버튼이 파란색으로 바뀝니다.
-1. **업로드**&#x200B;를 클릭합니다.
+1. 컴퓨터에서 준비한 Excel 스프레드시트를 검색하고 찾으면 선택합니다.
 
-   ![선택한 파일 및 업로드 단추](assets/kick-start-file-selected-and-upload-blue-button.png)
+   <div class="preview">
 
-1. 가져오기가 성공했다는 알림이 표시됩니다. 가져오는 정보의 양에 따라 이 단계는 몇 초에서 1분이 소요될 수 있습니다.
-
-   ![킥스타트 성공](assets/kick-start-successful.png)
+   파일이 자동으로 업로드되고 가져오기에 성공했다는 알림이 표시됩니다. 가져오는 정보의 양에 따라 이 단계는 몇 초에서 1분이 소요될 수 있습니다.
 
    새로운 사용자 정의 필드 및 양식은 이제 Workfront 시스템에 있습니다. 설정의 사용자 지정 Forms 영역에서 찾을 수 있습니다.
 
@@ -289,12 +287,23 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
    >
    >가져온 새 양식과 필드가 아직 연결되지 않았습니다. 사용자 정의 필드 없이 양식을 가져옵니다. 필드를 새 사용자 정의 양식 또는 다른 기존 사용자 정의 양식에 수동으로 추가해야 합니다.
 
+   사용자 정의 양식에 필드를 추가하는 방법에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+
+   </div>
+
+1. (프로덕션 환경에서만) **업로드**&#x200B;를 클릭합니다.
+
+   가져오기가 성공했다는 알림이 표시됩니다. 가져오는 정보의 양에 따라 이 단계는 몇 초에서 1분이 소요될 수 있습니다.
+
+   새로운 사용자 정의 필드 및 양식은 이제 Workfront 시스템에 있습니다. 설정의 사용자 지정 Forms 영역에서 찾을 수 있습니다.
+
+   >[!NOTE]
+   >
+   >가져온 새 양식과 필드가 아직 연결되지 않았습니다. 사용자 정의 필드 없이 양식을 가져옵니다. 필드를 새 사용자 정의 양식 또는 다른 기존 사용자 정의 양식에 수동으로 추가해야 합니다.
 
    사용자 정의 양식에 필드를 추가하는 방법에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
-1. (조건부) 가져오기에 성공하지 못하면 문제가 무엇인지에 대한 오류 메시지가 표시됩니다. 문제가 발생한 필드, 시트 및 행 번호를 식별하고 Excel 파일의 정보를 수정한 다음 파일을 다시 가져오십시오.
-
-   ![킥스타트 오류](assets/kick-start-error.png)
+1. (조건부) 가져오기에 성공하지 못하면 문제가 무엇인지 알려주는 오류 메시지가 표시됩니다. 문제가 발생한 필드, 시트 및 행 번호를 식별하고 Excel 파일의 정보를 수정하십시오. 그런 다음 파일을 한 번 더 가져오십시오.
 
 1. (조건부) 오류 메시지에 설명된 대로 문제가 무엇인지에 따라 일부 정보를 이미 가져올 수 있습니다. 시트를 다시 가져오려면 먼저 다음 중 하나를 수행해야 합니다.
 

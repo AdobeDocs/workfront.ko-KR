@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
+source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
 workflow-type: tm+mt
-source-wordcount: '4043'
+source-wordcount: '4126'
 ht-degree: 1%
 
 ---
@@ -25,14 +25,13 @@ Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/hel
 
 ## 관리자 및 설정
 
-<!--
-### Interface updates for the Import Data (Kick-Starts) page
+### 데이터 가져오기(킥스타트) 페이지에 대한 인터페이스 업데이트
 
-**Preview release: May 29, 2025; Production release: June 5, 2025**
+**미리 보기 릴리스: 2025년 5월 29일, 프로덕션 릴리스: 2025년 6월 5일**
 
-We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 설정 영역의 데이터 가져오기(킥스타트) 페이지를 업데이트했습니다. 또한 킥스타트 가져오기 프로세스가 간소화되어 선택한 파일이 즉시 업로드됩니다. 파일을 선택한 후 가져오기를 완료하기 위해 더 이상 별도의 **업로드** 단추를 클릭할 필요가 없습니다.
 
-For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
+자세한 내용은 [킥스타트 템플릿을 사용하여 Workfront으로 데이터 가져오기](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)를 참조하십시오.
 
 ### 설정의 액세스 로그 탭에 대한 인터페이스 업데이트
 

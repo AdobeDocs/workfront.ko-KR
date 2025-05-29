@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2894'
 ht-degree: 6%
 
 ---
 
 # 킥스타트 템플릿을 사용하여 Workfront으로 데이터 가져오기
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -490,10 +492,17 @@ Excel 템플릿을 데이터로 채운 후 해당 데이터를 Workfront에 업�
 
 1. **킥스타트 스프레드시트로 데이터 업로드** 섹션에서 **파일 선택**&#x200B;을 클릭한 다음 채워진 스프레드시트로 이동하여 선택합니다.
 
-1. **업로드**&#x200B;를 클릭합니다.
+   <div class="preview">
 
-   Excel 파일을 Workfront에 업로드하는 데 5분 이상 걸리는 경우 애플리케이션 시간이 초과되어 Workfront에서 파일을 업로드할 수 없습니다.
+   미리보기 환경에서 파일이 자동으로 업로드되고 가져오기가 성공했다는 알림이 표시됩니다.
 
-   데이터를 더 작은 개체 배치로 가져오십시오.
+   Excel 파일을 Workfront에 업로드하는 데 5분 이상 걸리는 경우 애플리케이션 시간이 초과되어 Workfront에서 파일을 업로드할 수 없습니다. 데이터를 더 작은 개체 배치로 가져오십시오.
 
-1. (조건부) 이제 Workfront Fusion을 사용하는 경우 FLO 또는 시나리오를 설정할 수 있습니다.
+   </div>
+
+1. (프로덕션 환경에서만) **업로드**&#x200B;를 클릭합니다.
+
+   Excel 파일을 Workfront에 업로드하는 데 5분 이상 걸리는 경우 애플리케이션 시간이 초과되어 Workfront에서 파일을 업로드할 수 없습니다. 데이터를 더 작은 개체 배치로 가져오십시오.
+
+1. (조건부) 가져오기에 성공하지 못하면 문제가 무엇인지 알려주는 오류 메시지가 표시됩니다. 문제가 발생한 필드, 시트 및 행 번호를 식별하고 Excel 파일의 정보를 수정하십시오. 그런 다음 파일을 한 번 더 가져오십시오.
+1. (조건부) Workfront Fusion을 사용 중인 경우 이제 가져오기가 완료될 때 FLO 또는 시나리오를 설정할 수 있습니다.
