@@ -5,7 +5,7 @@ description: AI를 사용하여 요청 필드를 자동으로 채울 수 있습�
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: 977817157e016b7cbe591d8627031208d7bf3bb3
+source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 1%
@@ -162,3 +162,4 @@ AI가 요청 필드를 자동으로 채우는 데 도움이 됩니다. 이전 �
    또는
 
    모든 제안을 수락하거나 거부하려면 페이지 맨 위에서 **모두 수락** 또는 **모두 거부**&#x200B;를 선택하십시오.
+
