@@ -7,7 +7,7 @@ description: 요약을 사용하면 문서 목록에서 직접 중요한 정보�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 2%
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 ## 버전
 
-버전 섹션을 사용하여 특정 문서에 대해 작성된 버전 수를 볼 수 있습니다. 다음을 수행하려면 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭하십시오.
+버전 섹션을 사용하여 특정 문서에 대해 작성된 버전 수를 볼 수 있습니다. 자세히 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭하여 다음을 수행합니다.
 
 * 증명을 엽니다.
 * 증명 또는 문서를 다운로드합니다.
