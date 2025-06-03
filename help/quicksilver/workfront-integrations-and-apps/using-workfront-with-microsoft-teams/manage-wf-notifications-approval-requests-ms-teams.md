@@ -6,22 +6,20 @@ description: ' [!DNL Adobe Workfront] 에서 승인해야 하는 항목, 받은 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
+source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft Teams]에서 [!DNL Adobe Workfront]개의 알림 관리
 
-<!--
-
->[!NOTE]
+>[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>Microsoft이 새 팀 클라이언트로 전환됨에 따라 2025년 7월 1일 이후에는 클래식 팀 클라이언트를 더 이상 사용할 수 없습니다. 준비 중에, 원활한 전환을 위해 새 팀 클라이언트와 완전히 호환되고 7월 1일 전에 사용할 수 있는 Microsoft Teams 통합의 새 버전을 개발 중입니다.
+>
+>새 팀 클라이언트에서 통합을 다운로드하고 설치하는 방법에 대한 지침은 통합을 사용할 수 있으면 여기에 표시됩니다.
 
 [!DNL Adobe Workfront]에서 승인해야 하는 항목, 받은 할당 또는 연결된 항목에 대한 댓글 및 변경 사항에 대한 알림을 받을 수 있습니다.
 
@@ -403,7 +401,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">누군가가 지정 업데이트에 귀하의 팀을 포함시킵니다.</td> 
+   <td role="rowheader">누군가가 [!UICONTROL 지정 업데이트에 귀하의 팀을 포함시킵니다.</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

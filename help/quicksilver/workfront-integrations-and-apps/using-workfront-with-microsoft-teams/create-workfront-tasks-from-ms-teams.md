@@ -6,22 +6,20 @@ description: 팀 소유자가 귀하의 팀에 대해 Adobe을 설치 및 구성
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
+source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft Teams]에서 [!DNL Adobe Workfront]개 작업 만들기
 
-<!--
-
->[!NOTE]
+>[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>Microsoft이 새 팀 클라이언트로 전환됨에 따라 2025년 7월 1일 이후에는 클래식 팀 클라이언트를 더 이상 사용할 수 없습니다. 준비 중에, 원활한 전환을 위해 새 팀 클라이언트와 완전히 호환되고 7월 1일 전에 사용할 수 있는 Microsoft Teams 통합의 새 버전을 개발 중입니다.
+>
+>새 팀 클라이언트에서 통합을 다운로드하고 설치하는 방법에 대한 지침은 통합을 사용할 수 있으면 여기에 표시됩니다.
 
 ## 액세스 요구 사항
 
@@ -88,4 +86,4 @@ ht-degree: 0%
    참조 번호에 대한 자세한 내용은 [개체 이해 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 문서에서 [[!UICONTROL 개체의 참조 번호]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) 섹션을 참조하십시오.
 
 1. (선택 사항) 작업 정보를 추가로 편집하려면 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
-1. (선택 사항) [!DNL Workfront]의 새 탭에서 작업을 열고 추가로 작업을 편집하거나, 프로젝트로 이동하거나, 다른 사람에게 할당하려면 [!DNL Workfront]&#x200B;**의**&#x200B;보기를 클릭합니다.
+1. (선택 사항) [!DNL Workfront]의 새 탭에서 작업을 열고 추가로 작업을 편집하거나, 프로젝트로 이동하거나, 다른 사람에게 할당하려면 [!DNL Workfront]]**의**[!UICONTROL &#x200B;보기를 클릭합니다.
