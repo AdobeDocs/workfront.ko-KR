@@ -52,7 +52,7 @@ ht-degree: 1%
 
 ## [!UICONTROL 간트 차트] 내보내기
 
-1. [간트 차트 시작]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)에 설명된 대로 PDF으로 내보낼 [!UICONTROL 간트 차트]에 액세스합니다.[!UICONTROL 
+1. [간트 차트 시작](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)에 설명된 대로 PDF으로 내보낼 [!UICONTROL 간트 차트]에 액세스합니다.
 1. 내보낼 적절한 정보를 표시하도록 [!UICONTROL 간트 차트]를 구성합니다.
 
    >[!NOTE]
@@ -96,7 +96,7 @@ ht-degree: 1%
 
    * [!UICONTROL 간트 차트]에 표시되는 기간입니다. 내보내기 파일에 표시되는 방식은 이후 단계에서 **[!UICONTROL 표시되는 항목]** 또는 **[!UICONTROL 여러 페이지]**&#x200B;를 선택했는지 여부에 따라 달라집니다.
 
-     자세한 내용은 [간트 차트에서 정보 보기]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)를 참조하십시오.[!UICONTROL 
+     자세한 내용은 [간트 차트에서 정보 보기](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)를 참조하십시오.
 
 
 
