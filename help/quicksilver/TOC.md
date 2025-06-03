@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 4189ea6b6c61a97eaf15c92724ef1dbfeb8b8b82
+source-git-commit: 8aee2f81f97bba6851537115e7f588694bd53692
 workflow-type: tm+mt
-source-wordcount: '13222'
+source-wordcount: '13225'
 ht-degree: 2%
 
 ---
@@ -1414,7 +1414,7 @@ ht-degree: 2%
    * 포트폴리오 관리 {#portfolio-management}
       * [포트폴리오 관리](manage-work/portfolios/portfolio-management-overview.md)
       * Adobe Workfront의 Portfolio 개요 {#portfolio-overview-in-adobe-workfront}
-         * [포트폴리오](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
+         * [포트폴리오: 문서 색인](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [포트폴리오 내에서 탐색](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [Portfolio 관리 개요](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
          * [Adobe Workfront의 Portfolio 개요](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
@@ -1427,8 +1427,8 @@ ht-degree: 2%
          * [포트폴리오에서 프로젝트 제거](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [요청된 프로젝트 검토](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
       * 프로그램 제작 및 관리 {#create-and-manage-programs}
-         * [ [!DNL Adobe Workfront]의 프로그램 개요](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
-         * [프로그램 제작 및 관리](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+         * [프로그램 개요](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
+         * [프로그램 만들기 및 관리: 문서 색인](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [프로그램 만들기](manage-work/portfolios/create-and-manage-programs/create-program.md)
          * [프로그램 편집](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
          * [포트폴리오에 기존 프로그램 추가](manage-work/portfolios/create-and-manage-programs/move-program.md)
@@ -2135,7 +2135,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)

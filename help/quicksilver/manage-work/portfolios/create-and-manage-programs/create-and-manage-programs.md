@@ -2,23 +2,24 @@
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
-title: 프로그램 제작 및 관리
-description: 프로그램은 프로젝트 경계를 초월하는 공통 전략, 목표 또는 목표를 공유하는 프로젝트 컬렉션을 나타냅니다. 프로그램은 포트폴리오의 하위 구분이며 포트폴리오 외부에 존재할 수 없습니다.
+title: '프로그램 만들기 및 관리: 문서 색인'
+description: 프로그램은 일반적인 전략, 목표 또는 목표에 기여하는 프로젝트 모음입니다. 프로그램은 포트폴리오의 하위 영역이며 포트폴리오 외부에 존재할 수 없습니다.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# 프로그램 제작 및 관리
+# 프로그램 만들기 및 관리: 문서 색인
 
-프로그램은 프로젝트 경계를 초월하는 공통 전략, 목표 또는 목표를 공유하는 프로젝트 컬렉션을 나타냅니다.
-프로그램은 포트폴리오의 하위 구분이며 포트폴리오 외부에 존재할 수 없습니다.
+프로그램은 일반적인 전략, 목표 또는 목표에 기여하는 프로젝트 모음입니다.
+
+프로그램은 포트폴리오의 하위 영역이며 포트폴리오 외부에 존재할 수 없습니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

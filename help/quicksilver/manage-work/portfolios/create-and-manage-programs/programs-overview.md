@@ -2,22 +2,23 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: create and manage programs
-title: ' [!DNL Adobe Workfront]의 프로그램 개요'
+title: 프로그램 개요
 description: 프로그램(Program)은 통합 특성을 갖는 프로젝트의 모음입니다. 이러한 프로젝트는 일반적으로 동일한 리소스, 예산 또는 시간대에 대해 경쟁합니다. 프로그램은 포트폴리오의 하위 그룹입니다. 프로젝트를 포트폴리오에 추가하기 전에 프로그램과 연결할 수 있습니다.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront]의 프로그램 개요
+# 프로그램 개요
 
 <!-- Audited: 09/2024 -->
 
-Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트들의 집합체이다. 예를 들어, 동일한 예산, 리소스 또는 시간대에 대해 경쟁할 수 있습니다. 프로그램은 포트폴리오의 하위 그룹입니다.
+Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트들의 집합체이다. 예를 들어 동일한 예산, 리소스 또는 기간에 대해 경쟁할 수 있습니다. 프로그램은 포트폴리오의 하위 그룹입니다.
 
 이 문서에는 Workfront의 프로그램에 대한 일반적인 정보가 포함되어 있습니다.
 
@@ -32,18 +33,18 @@ Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
    <td> <p>새로 만들기: 모두</p>
    <p>현재: [!UICONTROL Business] 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
    <td> <p>새로운 기능: [!UICONTROL Standard]</p>
    <p>현재: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Portfolio 및 프로그램에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
+   <td> <p>포트폴리오 및 프로그램에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -56,7 +57,7 @@ Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 
 ## 프로그램 작업에 대한 고려 사항
@@ -93,7 +94,4 @@ Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트
 
 * 포트폴리오 최적화 도구 를 사용하여 포트폴리오 내의 모든 프로젝트의 성과를 분석할 수 있습니다. 동일한 프로그램에서만 여러 프로젝트의 성과를 비교할 수 없습니다. 포트폴리오 수준에서 프로젝트 성과를 분석해야 합니다.
 
-  자세한 내용은 [Portfolio 최적화 도구에서 프로젝트 최적화](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)를 참조하십시오.
-
-
-
+  자세한 내용은 [Portfolio Optimizer에서 프로젝트 최적화](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)를 참조하십시오.

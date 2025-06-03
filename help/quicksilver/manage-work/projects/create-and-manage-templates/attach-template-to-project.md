@@ -6,14 +6,16 @@ description: 프로젝트의 초기 생성 단계 또는 생성 후 프로젝트
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1151'
 ht-degree: 4%
 
 ---
 
 # 프로젝트에 템플릿 첨부
+
+<!-- Audited: 5/2025 -->
 
 프로젝트의 초기 생성 단계 또는 생성 후 프로젝트에 템플릿을 첨부할 수 있습니다.
 
@@ -21,23 +23,26 @@ ht-degree: 4%
 
 ## 액세스 요구 사항
 
-이 문서에 설명된 단계를 수행하려면 다음이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 플랜</p>
+    </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트에 대한 액세스 편집 </p> <p>프로젝트 액세스에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">프로젝트에 대한 액세스 권한 부여</a>를 참조하십시오.</p> <p>템플릿에 대한 액세스 보기</p> <p>템플릿 사용 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">템플릿 공유</a>를 참조하십시오. </p> <p>템플릿 액세스에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">템플릿에 액세스 권한 부여</a>를 참조하십시오.</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트에 대한 액세스 편집 </p> <p>프로젝트 액세스에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">프로젝트에 대한 액세스 권한 부여</a>를 참조하십시오.</p> <p>템플릿에 대한 액세스 보기</p> <p>템플릿 사용 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">템플릿 공유</a>를 참조하십시오. </p> <p>템플릿 액세스에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">템플릿에 액세스 권한 부여</a>를 참조하십시오.</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 및 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -46,7 +51,9 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,24 +82,26 @@ ht-degree: 4%
 
 ## 기존 프로젝트에 템플릿 첨부 {#attach-a-template-to-an-existing-project}
 
-프로젝트 페이지나 프로젝트 목록 또는 보고서에서 Workfront의 프로젝트에 템플릿을 첨부할 수 있습니다.
+프로젝트 페이지나 프로젝트 목록 또는 보고서에서 프로젝트에 템플릿을 첨부할 수 있습니다.
 
-1. 템플릿을 첨부할 프로젝트로 이동한 다음 프로젝트 이름 오른쪽에 있는 **자세히** 아이콘 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭합니다
+{{step1-to-projects}}
 
-   ![추가 드롭다운](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. **프로젝트** 페이지에서 템플릿을 첨부할 프로젝트를 선택합니다.
+
+1. 프로젝트 이름의 오른쪽에 있는 **자세히** 아이콘 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭합니다.
+
+   ![추가 드롭다운](assets/more-dropdown.png)
 
    또는
 
    프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭합니다.
 
-   ![메뉴가 더 확장됨](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![메뉴가 더 확장됨](assets/more-menu-expanded.png)
 
 
-1. **템플릿 첨부**&#x200B;를 클릭합니다.
+1. **템플릿 첨부**&#x200B;를 클릭합니다. **템플릿 첨부** 상자가 표시됩니다.
 
-   템플릿 첨부(Attach Template) 상자가 표시됩니다.
-
-1. **템플릿 검색** 필드에 첨부할 템플릿 이름을 입력한 다음 목록에 표시될 때 클릭합니다
+1. **템플릿 검색** 필드에 첨부할 템플릿 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
    또는
 
@@ -102,22 +111,18 @@ ht-degree: 4%
 
    * 기간
    * 소유자
-   * 최상위 작업 수(처음 세 개의 최상위 작업 목록 포함)
+   * 최상위 작업 수(처음 3개의 최상위 작업 목록 포함)
    * 총 작업 수
    * 첨부된 사용자 정의 양식의 이름
 
    ![템플릿 상자 첨부](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (선택 사항) 템플릿 이름 왼쪽의 **즐겨찾기** 아이콘 ![즐겨찾기 아이콘](assets/favorites-icon-small.png)을 클릭하여 즐겨찾기로 표시합니다. 즐겨찾기 목록의 템플릿이 이동합니다.
+1. (선택 사항) 템플릿 이름 오른쪽에 있는 **즐겨찾기** 아이콘 ![즐겨찾기 아이콘](assets/favorites-icon-small.png)을 클릭하여 즐겨찾기로 표시하고 **즐겨찾기** 목록으로 이동합니다.
 
-   템플릿 목록의 ![즐겨찾기 아이콘](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+1. (선택 사항) **즐겨찾기** 아이콘 ![즐겨찾기 아이콘](assets/favorites-icon-selected.png)을 다시 클릭하여 **즐겨찾기** 목록에서 제거하십시오.
+1. **사용자 지정 및 첨부**&#x200B;를 클릭합니다. **템플릿 첨부** 사이드 패널이 열립니다.
 
-1. (선택 사항) **즐겨찾기** 아이콘 ![즐겨찾기 아이콘](assets/favorites-icon-selected.png)을 다시 클릭하여 즐겨찾기 목록에서 제거합니다.
-1. **사용자 지정 및 첨부**&#x200B;를 클릭합니다.
-
-   ![템플릿 첨부](assets/attach-template-large-box-nwe-350x262.png)
-
-1. 템플릿을 첨부하기 전에 다음 섹션의 정보를 업데이트하십시오(또는 언제든지 **템플릿 첨부**&#x200B;를 클릭하십시오).
+1. (선택 사항) 다음 섹션에서 정보를 갱신합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +137,7 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">이 템플릿의 전임 작업으로 사용할 프로젝트 작업을 선택하십시오.</td> 
-      <td> <p>필드를 클릭하여 프로젝트 작업 목록을 표시합니다. 템플릿 작업을 시작하기 전에 완료하고자 하는 프로젝트 작업을 선택합니다. 또는 템플릿을 첨부한 후 이 단계를 건너뛰고 프로젝트 내에서 관계를 설정할 수 있습니다. </p> <p> <strong>종속성 유형</strong>, <strong>지연</strong> 정보를 선택하고 전임 작업을 <strong>적용</strong>할지 여부를 선택합니다. </p> </td> 
+      <td> <p>필드를 클릭하여 프로젝트 작업 목록을 표시한 다음 템플릿 작업을 시작하기 전에 완료해야 하는 작업을 선택합니다. 또는 템플릿을 첨부한 후 이 단계를 건너뛰고 프로젝트 내에서 관계를 설정할 수 있습니다. </p> <p> <strong>종속성 유형</strong>, <strong>지연 시간</strong> 정보를 선택하고 <strong>전임 작업 적용</strong> 확인란을 선택하여 전임 작업을 적용하려는 경우 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">이 템플릿의 상위 작업으로 사용할 프로젝트 작업을 선택하십시오.</td> 
@@ -143,7 +148,7 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">아래 선택된 항목이 프로젝트로 전송됩니다. 제외하려면 선택을 취소하십시오.</td> 
-      <td> <p>프로젝트에 첨부하기 전에 템플릿에서 지우려는 정보 옆의 확인란을 선택 취소합니다. 이 정보는 템플릿에서 프로젝트로 전송되지 않습니다. 각 필드에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">프로젝트에 템플릿을 첨부하는 개요</a>를 참조하십시오. </p> <p>중요: <strong>대기열 속성 및 문제 설정</strong> 상자를 선택하면 템플릿의 대기열 세부 정보가 프로젝트의 대기열 세부 정보를 덮어씁니다. 이 경우 템플릿의 라우팅 규칙, 대기열 주제 및 주제 그룹이 프로젝트의 그룹에 추가됩니다. <br>프로젝트가 요청 대기열로 설정되어 있고 프로젝트에 첨부한 템플릿이 요청 대기열로 설정되어 있지 않은 경우 <strong>대기열 속성 및 문제 설정</strong> 상자를 선택한 상태로 두면 프로젝트의 대기열 정보가 제거됩니다. <br><strong>대기열 속성 및 문제 설정</strong> 상자를 선택 취소하면 프로젝트의 모든 대기열 설정 설정이 유지되며 템플릿의 대기열 설정 설정은 첨부되지 않습니다. </p> </td> 
+      <td> <p>프로젝트에 첨부하기 전에 템플릿에서 제외할 정보에 대한 확인란의 선택을 취소합니다. 각 필드에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">프로젝트에 템플릿을 첨부하는 개요</a>를 참조하십시오. </p> <p>중요: <strong>대기열 속성 및 문제 설정</strong> 상자를 선택하면 템플릿의 대기열 세부 정보가 프로젝트의 대기열 세부 정보를 덮어씁니다. 이 경우 템플릿의 라우팅 규칙, 대기열 주제 및 주제 그룹이 프로젝트의 그룹에 추가됩니다. <br>프로젝트가 요청 대기열로 설정되어 있고 프로젝트에 첨부한 템플릿이 요청 대기열로 설정되어 있지 않은 경우 <strong>대기열 속성 및 문제 설정</strong> 상자를 선택한 상태로 두면 프로젝트의 대기열 정보가 제거됩니다. <br><strong>대기열 속성 및 문제 설정</strong> 상자를 선택 취소하면 프로젝트의 모든 대기열 설정 설정이 유지되며 템플릿의 대기열 설정 설정은 첨부되지 않습니다. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">사용자 지정 Forms 섹션</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -171,7 +176,7 @@ ht-degree: 4%
 
    템플릿을 첨부한 후에는 프로젝트를 편집하고 필요에 따라 작업, 정보 또는 설정을 조정할 수 있습니다.
 
-1. (선택 사항) **프로젝트 세부 정보**&#x200B;를 클릭한 다음 **개요**&#x200B;를 클릭하여 **프로젝트 관계** 영역에 첨부한 템플릿의 이름을 봅니다.
+1. (선택 사항) 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭한 다음 **개요**&#x200B;를 클릭하여 **프로젝트 관계** 영역에 첨부한 템플릿의 이름을 봅니다.
 
    >[!TIP]
    >
@@ -185,14 +190,18 @@ ht-degree: 4%
 
 >[!TIP]
 >
->프로젝트에 여러 템플릿을 첨부하면 먼저 첨부한 템플릿만 프로젝트 세부 정보 영역에 표시됩니다.
+>프로젝트에 여러 템플릿을 첨부할 때 먼저 첨부한 템플릿만 프로젝트 세부 정보 영역에 표시됩니다.
 
-프로젝트에 적용되는 템플릿을 이해하려면 다음 작업을 수행하십시오.
+프로젝트에 적용되는 템플릿을 보려면 다음과 같이 하십시오.
 
-1. 템플릿이 첨부된 프로젝트로 이동합니다.
+{{step1-to-projects}}
+
+1. **프로젝트** 페이지에서 서식 파일이 첨부된 프로젝트를 선택하십시오.
+
 1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭합니다.
+
 1. **프로젝트 관계** 아래 **개요** 섹션 아래쪽의 **템플릿** 필드에서 프로젝트에 첨부된 템플릿의 이름을 찾습니다.
 
-   ![프로젝트의 템플릿 정보](assets/nwe-template-info-on-project-350x356.png)
+   ![프로젝트에 대한 템플릿 정보](assets/nwe-template-info-on-project-350x356.png)
 
 

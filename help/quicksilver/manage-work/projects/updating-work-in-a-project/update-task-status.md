@@ -6,9 +6,9 @@ description: 작업 상태를 업데이트하여 작업의 위치와 전체 프�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-작업을 수동으로 업데이트하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -38,7 +36,7 @@ ht-degree: 1%
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>새로운 기능: 표준</p> 
    또는
    <p>현재: 작업 시간 이상</p>
@@ -55,7 +53,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -70,23 +68,23 @@ ht-degree: 1%
 
 ## 수동으로 작업 상태 업데이트
 
-Workfront의 다음 영역에서 작업 상태를 업데이트할 수 있습니다.
+다음 영역에서 작업 상태를 갱신할 수 있습니다.
 
 * 작업 페이지의 작업 헤더입니다.
 * 작업을 편집할 때 작업 편집 상자
 * 작업 페이지의 작업 세부 정보 섹션.
-* 작업 목록 또는 보고서에서 상태 필드가 보기에 표시될 때.
+* 상태 필드가 보기에 표시되는 경우 작업 목록 또는 보고서에서
 * 작업의 요약 패널에서 다음을 수행합니다.
 
 태스크 헤더에서 태스크 상태를 수동으로 갱신하려면
 
 1. 상태를 업데이트할 작업으로 이동합니다.
-1. 작업 헤더의 **상태** 필드를 클릭하고 새 상태를 선택합니다.
-1. 작업 완료에 대한 시각적 표시를 제공하려면 작업 헤더의 **완료율** 아래에 있는 버블을 끌거나 두 번 클릭합니다
+1. 작업 헤더에서 **상태** 필드를 클릭하고 새 상태를 선택합니다.
+1. 작업 완료를 시각적으로 나타내려면 작업 헤더의 **완료율** 아래에 있는 버블을 드래그합니다.
 
    또는
 
-   작업 헤더의 버블 내부를 클릭하여 백분율을 입력합니다.
+   **완료율** 버블 내부를 두 번 클릭하여 새 백분율을 수동으로 입력합니다.
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 
@@ -94,10 +92,10 @@ Workfront의 다음 영역에서 작업 상태를 업데이트할 수 있습니�
 
    * 업데이트에 대한 메모를 추가하려면 **업데이트** 섹션으로 이동하여 **새 댓글**&#x200B;을 클릭한 다음 메모를 입력하세요.
 
-     ![](assets/add-update-to-task.png)
+     ![작업에 업데이트 추가](assets/add-update-to-task.png)
 
    * 특정 사용자에게 업데이트에 대한 알림을 보내려면 댓글을 입력할 때 표시되는 **사람 또는 팀 태그 지정** 필드에 이름을 입력하세요. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
-   * 작업의 커밋 일자를 업데이트하려면 **작업 세부 정보**&#x200B;를 클릭한 다음 **커밋 일자** 필드를 편집합니다. 자세한 내용은 [작업 편집](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
+   * 작업의 커밋 날짜를 업데이트하려면 **작업 세부 정보**&#x200B;를 클릭한 다음 **커밋 일자** 필드를 편집하세요. 자세한 내용은 [작업 편집](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
 
 
    >[!IMPORTANT]
@@ -150,7 +148,7 @@ Workfront은 아래 표에 나열된 작업이 발생할 때 작업의 기존 �
   <tr data-mc-conditions=""> 
    <td><span>할당된 작업에 대한 작업을 수락하려면 [작업 시작] 단추를 클릭하세요</span> </td> 
    <td><span>새로 만들기</span> </td> 
-   <td> <p>홈 팀 설정의 작업 시작 단추와 연결된 모든 상태입니다.</p> <p>[처리 중] 단추를 [작업 시작] 단추로 바꾸는 방법에 대한 자세한 내용은 <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[처리 중 작업] 단추를 [시작] 단추로 바꾸기</a></span>를 참조하십시오.</p> <p>팁: <span>클릭</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">실행 취소 단추</span>작업 시작을 클릭한 후 상태를 [새로 만들기]로 되돌립니다. </p> </td> 
+   <td> <p>홈 팀 설정의 작업 시작 단추와 연결된 모든 상태입니다.</p> <p>[처리 중] 단추를 [작업 시작] 단추로 바꾸는 방법에 대한 자세한 내용은 <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[처리 중 작업] 단추를 [시작] 단추로 바꾸기</a></span>를 참조하십시오.</p> <p>팁: 작업 시작을 클릭한 후 <span>클릭</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">실행 취소 단추</span>를 클릭하면 상태가 새로 고침으로 되돌아갑니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

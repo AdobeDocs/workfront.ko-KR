@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '기간 유형 개요: 계산된 할당'
+title: '기간 유형 개요: 계산된 지정'
 description: 계산된 할당은 Adobe Workfront에서 작업에 대해 설정할 수 있는 기간 유형입니다. Workfront의 기간 유형에 대한 일반 정보는 작업 기간 및 기간 유형 개요를 참조하십시오.
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # 기간 유형 개요: 계산된 지정
+
+<!-- Audited: 5/2025 -->
 
 계산된 할당은 Adobe Workfront에서 작업에 대해 설정할 수 있는 기간 유형입니다. Workfront의 기간 유형에 대한 일반적인 정보는 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오.
 
