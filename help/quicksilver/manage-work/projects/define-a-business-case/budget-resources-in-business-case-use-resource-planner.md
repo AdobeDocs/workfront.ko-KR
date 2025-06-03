@@ -5,9 +5,9 @@ description: 리소스 계획의 일부로, 프로젝트 수준 리소스 플래
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
-
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
@@ -38,12 +36,14 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> <p>Prime 이상</p> </td> 
+   <td> <p>현재: Prime 이상</p>
+   <p>레거시: Pro 이상</p> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새로운 기능: 밝게 또는 높음</p>
-   <p>현재: 검토 이상</p>
+   <td> <p>전류: 라이트 이상</p>
+   <p>레거시: 검토 이상</p>
 
 <p><b>중요 사항:</b></p> 
    <p>신규: 리소스 예산 정보를 수정하려면 표준 라이센스가 있어야 합니다. </p> 
@@ -66,7 +66,7 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

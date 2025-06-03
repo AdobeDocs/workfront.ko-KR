@@ -5,9 +5,9 @@ description: 비즈니스 사례를 사용하여 프로젝트를 요청하고 �
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,22 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+ <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> <p>임의 </p> </td> 
+   <td> 
+   <p>현재: Prime 이상</p> 
+   <p>레거시: Pro 이상</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>계획 이상</p> </td> 
+   <td> 
+   <p>현재: 표준 </p> 
+   <p>레거시: 플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 

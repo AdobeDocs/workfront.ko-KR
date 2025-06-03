@@ -5,9 +5,9 @@ description: 비즈니스 사례를 만드는 과정의 일부로, 일련의 목
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -43,8 +43,6 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -53,14 +51,14 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> <p>Pro 이상</p> </td> 
+   <td> <p>현재: Prime 이상</p>
+   <p>레거시: Pro 이상</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td>
    <td> 
-   <p>새로운 기능: 표준</p> 
-   <p>또는</p>
-   <p>현재: 플랜 </p> 
+   <p>현재: 표준</p> 
+   <p>레거시: 플랜 </p> 
    </td> 
   </tr> 
   <tr> 
