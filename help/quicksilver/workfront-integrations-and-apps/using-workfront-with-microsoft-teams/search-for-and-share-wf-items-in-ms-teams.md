@@ -6,7 +6,7 @@ description: ' [!DNL Microsoft Teams] 의  [!DNL Adobe WorkfrontWorkfront] 채�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Microsoft이 새 팀 클라이언트로 전환됨에 따라 2025년 7월 1일 이후에는 클래식 팀 클라이언트를 더 이상 사용할 수 없습니다. 준비 중에, 원활한 전환을 위해 새 팀 클라이언트와 완전히 호환되고 7월 1일 전에 사용할 수 있는 Microsoft Teams 통합의 새 버전을 개발 중입니다.
 >
->새 팀 클라이언트에서 통합을 다운로드하고 설치하는 방법에 대한 지침은 통합을 사용할 수 있으면 여기에 표시됩니다.
+>새 팀 클라이언트에서 통합을 다운로드하고 설치하는 방법에 대한 지침은 통합이 릴리스된 후에 사용할 수 있습니다.
 
 [!DNL Microsoft Teams]의 [!DNL Adobe Workfront] 채널에서 [!DNL Workfront]개 항목을 검색하고 해당 항목을 팀의 구성원과 공유할 수 있습니다.
 

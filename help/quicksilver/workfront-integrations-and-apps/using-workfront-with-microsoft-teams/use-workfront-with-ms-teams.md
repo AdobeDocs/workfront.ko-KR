@@ -7,7 +7,7 @@ description: Adobe Workfront은 Microsoft Teams과의 통합을 제공합니다.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b8b9d216-b529-4ff0-9259-b37724675d6a
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Microsoft이 새 팀 클라이언트로 전환됨에 따라 2025년 7월 1일 이후에는 클래식 팀 클라이언트를 더 이상 사용할 수 없습니다. 준비 중에, 원활한 전환을 위해 새 팀 클라이언트와 완전히 호환되고 7월 1일 전에 사용할 수 있는 Microsoft Teams 통합의 새 버전을 개발 중입니다.
 >
->새 팀 클라이언트에서 통합을 다운로드하고 설치하는 방법에 대한 지침은 통합을 사용할 수 있으면 여기에 표시됩니다.
+>새 팀 클라이언트에서 통합을 다운로드하고 설치하는 방법에 대한 지침은 통합이 릴리스된 후에 사용할 수 있습니다.
 
 Adobe Workfront은 Microsoft Teams과의 통합을 제공합니다. 이 문서는 이 통합을 설치 및 구성하기 위한 지침과 일상적인 작업에서 이 통합을 사용하는 방법에 대한 링크를 제공합니다.
 
