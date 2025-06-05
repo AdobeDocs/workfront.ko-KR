@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
 
 # 킥스타트 시나리오: 여러 옵션 사용자 정의 필드를 Workfront에 가져오기
-
-{{highlighted-preview}}
 
 킥스타트 기능을 사용하여 Adobe Workfront에서 여러 옵션이 있는 사용자 정의 필드를 가져올 수 있습니다.
 
@@ -144,20 +142,17 @@ Excel 스프레드시트를 채우기 전에 위의 섹션에 설명된 대로 �
 
 Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채우려면 다음을 수행합니다.
 
-1. 이전 섹션에서 다운로드한 Excel 스프레드시트를 열고 많은 시트를 확인합니다. 각 시트는 애플리케이션의 객체를 나타냅니다.
+1. 이전 섹션에서 다운로드한 Excel 스프레드시트를 열고 시트를 검토합니다. 각 시트는 애플리케이션의 객체를 나타냅니다.
 
-   >[!INFO]
-   >
-   >예를들어 **Parameter**(사용자 지정 필드 참조), **Parameter 옵션**(사용자 지정 필드 옵션 참조), **Category**(사용자 지정 양식 참조)입니다.
-   >
-   >Workfront 데이터베이스에서 지원하는 형식으로 개체 이름과 특성을 작성해야 합니다.
-   >
-   >이러한 개체의 의미에 대한 자세한 내용은 [용어집 [!DNL Adobe Workfront] 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)를 참조하세요.
-   >
-   >Workfront 데이터베이스의 개체 이름에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-explorer.md)를 참조하십시오.
-   >
-   >![데이터 내보내기에 포함된 시트](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   예를들어 **Parameter**(사용자 지정 필드 참조), **Parameter 옵션**(사용자 지정 필드 옵션 참조), **Category**(사용자 지정 양식 참조)입니다.
 
+   Workfront 데이터베이스에서 지원하는 형식으로 개체 이름과 특성을 작성해야 합니다.
+
+   이러한 개체의 의미에 대한 자세한 내용은 [용어집 [!DNL Adobe Workfront] 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)를 참조하세요.
+
+   Workfront 데이터베이스의 개체 이름에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-explorer.md)를 참조하십시오.
+
+   ![데이터 내보내기에 포함된 시트](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 1. 다음 정보의 형식이 올바른지 확인합니다.
 
@@ -179,9 +174,11 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
    * **`ID`** = 새 필드를 나타내는 각 줄의 고유 숫자여야 합니다. 각 새 필드에 고유한 숫자가 있는 한 1로 시작하는 숫자를 사용할 수 있습니다.
    * **`setDataType`** = 새 필드를 나타내는 각 줄에 대해 필드가 지원하는 데이터 형식을 입력합니다. 데이터 유형은 데이터베이스에 나타나는 대로 입력해야 합니다. 다음 데이터 유형 중에서 선택합니다.
+
       * **`NMBR`**(숫자)
       * 통화에 대한 **`CURC`**
       * 텍스트용 **`TEXT`**
+
    * `**setDisplaySize**`= 여러 옵션 사용자 지정 필드의 표시 크기(&#39;**setDisplaySize**&#39;)는 항상 0입니다.
    * **`setDisplayType`** = 새 필드를 나타내는 각 줄에 대해 필드의 표시 유형을 입력합니다. 표시 유형은 데이터베이스에 나타나는 대로 입력해야 합니다.
 
@@ -225,13 +222,12 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
      >
      >각 필드에 대해 하나의 기본 옵션만 가질 수 있습니다.
 
-   * **`setParameterID`** = _Brand_ 사용자 지정 필드에 해당하는 옵션에는 **`setParameterID`**&#x200B;이(가) 1이고, _Media_&#x200B;에 해당하는 옵션에는 **`setParameterID`**&#x200B;이(가) 2입니다. `PARAM` 및 `POPT` 시트는 서로 상호 참조하여 사용자 지정 필드에 속하는 옵션을 나타냅니다.
+   * **`setParameterID`** = _Brand_ 사용자 지정 필드에 해당하는 옵션에는 **`setParameterID`**&#x200B;이(가) 1이고, _Media_&#x200B;에 해당하는 옵션에는 **`setParameterID`**이(가) 2입니다. `PARAM` 및 `POPT` 시트는 서로 상호 참조하여 사용자 지정 필드에 속하는 옵션을 나타냅니다.
    * **`setDisplayOrder`**= 표시 순서 열은 옵션이 사용자 지정 필드에 표시되는 순서를 나타냅니다. 1로 시작하여 해당 옵션이 속할 필드에 관계없이 모든 옵션에 대해 오름차순으로 계속할 수 있습니다. 여기서 중요한 것은 각 옵션에 대해 고유한 번호를 갖는 것입니다.
    * **`setLabel`** 및 `**setValue`** 열에는 일반적으로 동일한 정보가 포함되며 Workfront UI에서 원하는 이름을 반영해야 합니다. 옵션의 값은 보고서에 표시되는 이름인 반면 레이블은 오브젝트에 첨부할 때 사용자 정의 양식에 표시됩니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
    * **`setIsHidden`** = 옵션을 숨기려면 `TRUE`을(를) 입력합니다.
 
    ![매개 변수 시트를 채웠습니다](assets/parameter-option-sheet-filled-out-kick-starts.png)
-
 
 1. (선택 사항) 나중에 새 필드를 추가할 수 있는 사용자 정의 양식을 만들려면 **`CTGY Category`** 시트를 선택하고 사용자 정의 양식 정보에 필요한 다음 열을 업데이트하십시오.
 
@@ -277,23 +273,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
 1. 컴퓨터에서 준비한 Excel 스프레드시트를 검색하고 찾으면 선택합니다.
 
-   <div class="preview">
-
    파일이 자동으로 업로드되고 가져오기에 성공했다는 알림이 표시됩니다. 가져오는 정보의 양에 따라 이 단계는 몇 초에서 1분이 소요될 수 있습니다.
-
-   새로운 사용자 정의 필드 및 양식은 이제 Workfront 시스템에 있습니다. 설정의 사용자 지정 Forms 영역에서 찾을 수 있습니다.
-
-   >[!NOTE]
-   >
-   >가져온 새 양식과 필드가 아직 연결되지 않았습니다. 사용자 정의 필드 없이 양식을 가져옵니다. 필드를 새 사용자 정의 양식 또는 다른 기존 사용자 정의 양식에 수동으로 추가해야 합니다.
-
-   사용자 정의 양식에 필드를 추가하는 방법에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
-
-   </div>
-
-1. (프로덕션 환경에서만) **업로드**&#x200B;를 클릭합니다.
-
-   가져오기가 성공했다는 알림이 표시됩니다. 가져오는 정보의 양에 따라 이 단계는 몇 초에서 1분이 소요될 수 있습니다.
 
    새로운 사용자 정의 필드 및 양식은 이제 Workfront 시스템에 있습니다. 설정의 사용자 지정 Forms 영역에서 찾을 수 있습니다.
 

@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2894'
+source-wordcount: '2851'
 ht-degree: 6%
 
 ---
 
 # 킥스타트 템플릿을 사용하여 Workfront으로 데이터 가져오기
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -492,15 +490,7 @@ Excel 템플릿을 데이터로 채운 후 해당 데이터를 Workfront에 업�
 
 1. **킥스타트 스프레드시트로 데이터 업로드** 섹션에서 **파일 선택**&#x200B;을 클릭한 다음 채워진 스프레드시트로 이동하여 선택합니다.
 
-   <div class="preview">
-
-   미리보기 환경에서 파일이 자동으로 업로드되고 가져오기가 성공했다는 알림이 표시됩니다.
-
-   Excel 파일을 Workfront에 업로드하는 데 5분 이상 걸리는 경우 애플리케이션 시간이 초과되어 Workfront에서 파일을 업로드할 수 없습니다. 데이터를 더 작은 개체 배치로 가져오십시오.
-
-   </div>
-
-1. (프로덕션 환경에서만) **업로드**&#x200B;를 클릭합니다.
+   파일이 자동으로 업로드되고 가져오기에 성공했다는 알림이 표시됩니다.
 
    Excel 파일을 Workfront에 업로드하는 데 5분 이상 걸리는 경우 애플리케이션 시간이 초과되어 Workfront에서 파일을 업로드할 수 없습니다. 데이터를 더 작은 개체 배치로 가져오십시오.
 
