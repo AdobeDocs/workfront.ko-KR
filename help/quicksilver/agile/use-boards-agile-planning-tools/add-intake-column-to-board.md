@@ -7,9 +7,9 @@ description: 정의한 필터에 따라 Workfront에 작업 및 문제를 추가
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
@@ -84,16 +84,10 @@ ht-degree: 3%
 1. **게시판** 섹션을 선택하십시오. 새 필드가 나타납니다.
 1. **보드에 항목을 동적으로 접수**&#x200B;합니다. 빈 접수 열이 보드 왼쪽에 나타납니다.
 
-   ![Intake 열 단순 필터 옵션](assets/intake-column-simple-filters.png)
+   ![Intake 열 단순 필터 옵션](assets/board-section.png)
 
 1. (선택 사항) [!DNL Workfront]개의 [!UICONTROL **프로젝트**]&#x200B;를 검색하고 선택합니다.
 1. (선택 사항) 사용자 또는 팀 [!UICONTROL **할당**]&#x200B;을 검색하고 선택합니다.
-1. 접수 열에 완료 상태의 작업 및 문제를 표시하려면 [!UICONTROL **완료된 작업 포함**]&#x200B;을 선택하십시오.
-
-   >[!NOTE]
-   >
-   >이 옵션을 선택하지 않으면 다른 상태의 카드가 완료로 표시되면 보드에 표시되지 않습니다.
-
 1. **적용**&#x200B;을 클릭합니다. 개체는 보드 접수 열에 연결된 카드로 나타납니다.
 
    ![Intake 열](assets/intake-column-added3.png)

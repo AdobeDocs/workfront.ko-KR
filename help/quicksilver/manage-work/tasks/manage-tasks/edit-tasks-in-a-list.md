@@ -2,57 +2,63 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 목록에서 작업 편집
-description: 목록에 표시된 필드를 편집하여 작업 목록에서 작업 정보를 편집할 수 있습니다. 작업을 편집하는 다른 방법에 대한 자세한 내용은 작업 편집을 참조하십시오.
+description: 목록에 표시된 필드를 편집하여 작업 목록에서 작업 정보를 편집할 수 있습니다.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2756'
 ht-degree: 2%
 
 ---
 
 # 목록에서 작업 편집 {#edit-tasks-in-a-list}
 
+<!-- Audited: 5/2025 -->
+
 목록에 표시된 필드를 편집하여 작업 목록에서 작업 정보를 편집할 수 있습니다. 작업을 편집하는 다른 방법에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>작업 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>새로운 기능: 표준<p>
+   <p>현재: 작업 시간 이상</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>작업 및 프로젝트에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>작업 및 프로젝트에 대한 Contribute 이상의 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>작업 및 프로젝트에 대한 상위 권한 기여</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 목록에서 작업 편집에 대한 고려 사항 {#considerations-about-editing-tasks-in-a-list}
 
-목록에서 작업을 편집하면 변경 사항이 프로젝트 타임라인에 미치는 영향을 명확하게 볼 수 있으므로 여러 작업을 동시에 빠르게 변경할 수 있습니다.
+목록에서 작업을 편집하면 변경 사항이 프로젝트 타임라인에 미치는 영향을 명확하게 볼 수 있으며 여러 작업을 동시에 빠르게 변경할 수 있습니다.
 
 목록에서 작업을 편집할 때 다음 사항을 고려하십시오.
 
-* 편집 상자에서 작업을 편집할 때 작업에 대한 관리 권한이 필요한 것과 달리, 작업에 대한 Contribute 권한만 있으면 목록에서 작업을 편집할 수 있습니다. 이렇게 하면 작업에 대해 다음과 같은 제한된 정보를 편집할 수 있습니다.
+* 편집 상자에서 작업을 편집할 때 작업에 대한 관리 권한이 필요한 것과 달리, 작업에 대한 기여 권한만 있으면 목록에서 작업을 편집할 수 있습니다. 이렇게 하면 작업에 대해 다음과 같은 제한된 정보를 편집할 수 있습니다.
 
    * 설명
    * 상태
@@ -86,11 +92,11 @@ ht-degree: 2%
 
 ## 목록에서 작업을 편집할 때 저장 옵션 선택 {#select-a-save-option-when-editing-tasks-in-a-list}
 
-목록의 작업에 대해 수행한 변경 사항이 자동으로 저장되는 위치를 지정하거나 각 변경 사항을 수동으로 저장할 수 있습니다.
+목록의 작업에 대한 변경 사항이 발생할 때 자동으로 저장되는지 또는 각 변경 사항을 수동으로 저장할지 여부를 결정할 수 있습니다.
 
 >[!IMPORTANT]
 >
->작업을 자동으로 저장하는지 수동으로 저장하는지에 따라 목록에서 작업을 편집할 때 다른 사람의 정보를 덮어쓸 수 있습니다. 다른 사용자와 동시에 수행하는 작업의 변경 내용을 Workfront에서 저장하는 방법에 대한 자세한 내용은 [작업 목록 내에 동시 변경 내용을 저장하는 개요](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)를 참조하십시오.
+>작업을 자동으로 저장하는지 수동으로 저장하는지에 따라 목록에서 작업을 편집할 때 다른 사람의 정보를 덮어쓸 수 있습니다. 자세한 내용은 [작업 목록 내에 동시 변경 내용을 저장하는 개요](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)를 참조하십시오.
 
 업데이트 유형으로 자동 또는 자동 및 변경 시 가 선택된 프로젝트의 변경 사항을 목록에 저장하면 Workfront에서 프로젝트 내 및 프로젝트 간 종속성과 함께 프로젝트 타임라인을 업데이트합니다. 프로젝트가 크거나 종속성이 많은 경우 타임라인 계산에 시간이 오래 걸릴 수 있습니다. 변경 내용을 저장하기 위해 선택한 방법에 따라 작업 목록을 편집하는 방법 중 일부는 다른 방법보다 빠를 수 있습니다.
 
@@ -118,17 +124,19 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
 
 목록에서 작업을 편집하고 변경 사항을 자동으로 저장하려면 다음을 수행합니다.
 
-1. 프로젝트로 이동한 다음 **작업** 섹션을 클릭합니다.
-1. 목록 맨 위에 있는 **플랜 모드 메뉴** ![](assets/qs-list-mode-or-save-mode-icon-small.png)을(를) 클릭하고 **자동 저장** 옵션이 선택되어 있는지 확인하십시오.
+{{step1-to-projects}}
 
-   ![](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+1. **프로젝트** 페이지에서 프로젝트를 선택하십시오.
+1. 왼쪽 패널에서 **작업** 섹션을 클릭합니다.
+
+1. 목록 맨 위에 있는 **계획 모드** 아이콘 ![계획 모드 아이콘](assets/plan-mode-icon.png)을 클릭하고 **자동 저장** 옵션이 선택되어 있는지 확인하십시오.
+
+   ![자동 저장 설정 사용](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
 1. 수동으로 업데이트할 권한이 있는 필드를 편집합니다.
 
-   ![](assets/inline-editing-a-task-350x26.png)
-
 1. (선택 사항) 변경 내용을 취소하려면 **Esc**&#x200B;를 누르십시오.
-1. 작업 및 프로젝트 타임라인에 대한 변경 사항을 저장하려면 Enter 키를 누르십시오.
+1. 작업 및 프로젝트 타임라인에 대한 변경 내용을 저장하려면 키보드에서 **Enter**(Windows) 또는 **Return**(Mac)을 누르십시오.
 1. (선택 사항) 수정할 작업을 마우스 오른쪽 버튼으로 클릭합니다.
 
    또는
@@ -142,12 +150,20 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>새 탭에서 열기</strong></td> 
+      <td role="rowheader">새 탭에서 열기</td> 
       <td>새 브라우저 탭에서 작업을 엽니다. </td> 
      </tr> 
+          <tr> 
+      <td role="rowheader">위에 작업 삽입</td> 
+      <td>선택한 작업 위에 작업을 삽입합니다.</td> 
+     </tr> 
      <tr> 
-      <td role="rowheader"><strong>편집</strong></td> 
-      <td><p>작업을 편집할 수 있는 <strong>작업 편집</strong> 상자를 엽니다.</p><p>작업 편집에 대한 자세한 내용은 <a href="#edit-tasks-in-a-list" class="MCXref xref">목록에서 작업 편집</a>을 참조하십시오.</p></td> 
+      <td role="rowheader">아래에 작업 삽입</td> 
+      <td>선택한 작업 아래에 작업을 삽입합니다.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">편집</td> 
+      <td><p>작업을 편집할 수 있는 작업 편집 상자를 엽니다.</p><p>작업 편집에 대한 자세한 내용은 <a href="#edit-tasks-in-a-list" class="MCXref xref">목록에서 작업 편집</a>을 참조하십시오.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">삭제</td> 
@@ -160,31 +176,21 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
      <tr> 
       <td role="rowheader">수준 올리기</td> 
       <td><p>작업을 한 수준 내어씁니다. </p><p>이 옵션은 하위 작업에만 표시됩니다. </p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">위에 작업 삽입</td> 
-      <td>선택한 작업 위에 작업을 삽입합니다.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">아래에 작업 삽입</td> 
-      <td>선택한 작업 아래에 작업을 삽입합니다.</td> 
-     </tr> 
+     </tr>  
      <tr> 
       <td role="rowheader">복제</td> 
       <td><p>동일한 프로젝트 내에 작업의 중복 버전을 만듭니다. </p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">복사 위치:</td> 
+      <td role="rowheader">복사 위치...</td> 
       <td><p>작업을 다른 프로젝트에 복사합니다.</p><p>작업 복사 및 복제에 대한 자세한 내용은 <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">작업 복사 및 복제</a>를 참조하십시오.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">이동 위치:</td> 
+      <td role="rowheader">다음으로 이동...</td> 
       <td><p>작업을 다른 프로젝트로 이동합니다.</p><p>작업 이동에 대한 자세한 내용은 <a href="../../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref">작업 이동</a>을 참조하십시오.</p></td> 
      </tr> 
     </tbody> 
    </table>
-
-   변경 사항은 자동으로 저장되며 되돌릴 수 없습니다.
 
 ### 목록에서 작업 편집 및 수동으로 변경 내용 저장 {#edit-tasks-in-a-list-and-manually-save-changes}
 
@@ -209,7 +215,7 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
 * 작업을 일괄적으로 편집합니다. 여러 작업을 선택할 때는 편집 아이콘이 비활성화됩니다.
 * Workfront은 변경 사항을 저장한 후에만 작업에 수행한 변경 사항에 대한 알림을 트리거합니다.
 
-목록의 작업에 대한 변경 사항을 수동으로 저장하는 두 가지 방법이 있습니다. 이 두 가지 방법은 아래에 설명되어 있습니다.
+목록의 작업에 대한 변경 사항을 수동으로 저장하는 방법에는 두 가지가 있습니다.
 
 * [표준 수동 저장 옵션을 선택할 때 작업 목록에 변경 내용을 수동으로 저장](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option)
 * [수동 타임라인 계획 수립 저장 옵션을 선택할 때 작업 목록에 변경 사항을 수동으로 저장](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option)
@@ -218,31 +224,38 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
 
 >[!TIP]
 >
->프로젝트에 작업이 2000개 이상 있거나 종속 항목이 많은 경우 작업에 대한 변경 사항과 이러한 변경 사항이 모든 프로젝트 종속성에 미치는 영향을 시각적으로 식별하려면 시간이 걸릴 수 있습니다. 이 경우 프로젝트에 작업이 2000개를 초과하거나 의존성이 많은 경우 변경 사항을 저장하는 데 시간이 더 오래 걸릴 수 있습니다.
+>프로젝트에 작업이 2000개 이상 있거나 종속 항목이 많은 경우 작업에 대한 변경 사항과 이러한 변경 사항이 모든 프로젝트 종속성에 미치는 영향을 시각적으로 식별하려면 시간이 걸릴 수 있습니다. 이 경우 변경 사항을 저장하는 데 예상보다 시간이 오래 걸릴 수 있습니다.
 
 수동 표준 저장 옵션을 선택한 후 목록에서 작업을 업데이트할 때에는 다음 사항을 고려하십시오.
 
 * 작업 목록에 사용자 정의 보기를 적용하고 해당 보기에서 관리할 권한이 있는 작업 관련 필드를 편집할 수 있습니다.
-* 프로젝트 업데이트 유형이 자동 또는 자동이고 변경 시 Workfront은 저장 을 클릭한 후 프로젝트의 타임라인과 모든 프로젝트 내 및 프로젝트 간 종속성을 계산합니다. 프로젝트 업데이트 형식에 대한 자세한 내용은 [프로젝트 업데이트 형식 선택](../../../manage-work/projects/manage-projects/select-project-update-type.md)을 참조하세요.
+* 프로젝트 업데이트 유형이 자동 또는 자동이고 변경 시 Workfront은 저장을 클릭한 후 프로젝트의 타임라인과 모든 프로젝트 내 및 프로젝트 간 종속성을 계산합니다. 프로젝트 업데이트 형식에 대한 자세한 내용은 [프로젝트 업데이트 형식 선택](../../../manage-work/projects/manage-projects/select-project-update-type.md)을 참조하세요.
 
 수동 표준 저장 옵션을 선택할 때 목록에서 작업을 편집하려면 다음과 같이 하십시오.
 
-1. 프로젝트로 이동한 다음 **작업** 섹션을 클릭합니다 .
-1. 목록 맨 위에 있는 **플랜 모드** 메뉴 ![](assets/qs-list-mode-or-save-mode-icon-small.png)을(를) 클릭하고 **수동 저장**&#x200B;을 선택한 다음 **표준** > **적용**&#x200B;을 클릭합니다.
+{{step1-to-projects}}
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+1. **프로젝트** 페이지에서 프로젝트를 선택하십시오.
 
-   도구 모음 설정은 변경 내용을 실행 취소, 재실행 및 저장하는 옵션과 함께 표시됩니다.
+1. 왼쪽 패널에서 **작업** 섹션을 클릭합니다.
 
-   ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+1. 목록 맨 위에 있는 **계획 모드** 아이콘 ![계획 모드 아이콘](assets/plan-mode-icon.png)을 클릭합니다.
+
+1. **플랜 모드** 대화 상자에서 **수동 저장**&#x200B;을 선택한 다음 **표준**&#x200B;을 클릭합니다.
+
+   ![수동 저장 설정 사용](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+
+1. **적용**&#x200B;을 클릭합니다. 도구 모음 설정은 변경 내용을 실행 취소, 재실행 및 저장하는 옵션과 함께 표시됩니다.
+
+   ![수동 저장 도구 모음](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. 수동으로 업데이트할 권한이 있는 필드 내부를 클릭합니다. 필드는 편집 가능해지며 변경할 수 있습니다.
 
-   ![](assets/inline-editing-a-task-350x26.png)
+1. 키보드에서 **Enter**(Windows) 또는 **Return**(Mac)을 눌러 변경 내용을 임시로 저장합니다.
 
-1. Enter 키를 눌러 변경 사항을 임시로 저장합니다.
-1. (선택 사항) 변경 내용을 취소하고 필드를 원래 상태로 되돌리려면 **실행 취소 아이콘** ![](assets/undo-icon-on-task-list.png)을(를) 클릭합니다.
-1. (선택 사항 및 조건부) **다시 실행 아이콘** ![](assets/redo-icon-on-task-list.png)을 클릭하여 취소한 변경 내용을 복원합니다.
+1. (선택 사항) 변경 내용을 취소하고 필드를 원래 상태로 되돌리려면 **실행 취소** 아이콘 ![실행 취소 아이콘](assets/undo-icon-on-task-list.png)을 클릭합니다.
+
+1. (선택 사항 및 조건부) **다시 실행** 아이콘 ![다시 실행 아이콘](assets/redo-icon-on-task-list.png)을 클릭하여 취소한 변경 내용을 복원합니다.
 
 1. (선택 사항) 수정할 작업을 마우스 오른쪽 버튼으로 클릭합니다.
 
@@ -257,8 +270,16 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>새 탭에서 열기</strong> </td> 
+      <td role="rowheader">새 탭에서 열기</td> 
       <td>새 브라우저 탭에서 작업을 엽니다. </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">위에 작업 삽입</td> 
+      <td>선택한 작업 위에 작업을 삽입합니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">아래에 작업 삽입</td> 
+      <td>선택한 작업 아래에 작업을 삽입합니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">삭제</td> 
@@ -271,14 +292,6 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
      <tr> 
       <td role="rowheader">수준 올리기</td> 
       <td> <p>작업을 한 수준 내어씁니다. </p> <p>이 옵션은 하위 작업에만 표시됩니다. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">위에 작업 삽입</td> 
-      <td>선택한 작업 위에 작업을 삽입합니다.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">아래에 작업 삽입</td> 
-      <td>선택한 작업 아래에 작업을 삽입합니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">복제</td> 
@@ -307,18 +320,26 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
 
 수동 타임라인 계획 수립 저장 옵션을 사용할 때 목록에서 작업을 편집하려면 다음을 수행합니다.
 
-1. 프로젝트로 이동한 다음 **작업** 섹션을 클릭합니다.
-1. 목록 맨 위에 있는 **계획 모드** 메뉴 ![](assets/qs-list-mode-or-save-mode-icon-small.png)을(를) 클릭하고 **수동 저장**&#x200B;을 선택한 다음 **타임라인 계획 수립**> **적용**&#x200B;을 클릭합니다.
 
-   이 옵션은 작업이 2000개가 넘는 프로젝트의 경우 흐리게 표시됩니다.
+{{step1-to-projects}}
 
-   ![](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
+1. **프로젝트** 페이지에서 프로젝트를 선택하십시오.
+
+1. 왼쪽 패널에서 **작업** 섹션을 클릭합니다.
+
+1. 목록 맨 위에 있는 **계획 모드** 아이콘 ![계획 모드 아이콘](assets/plan-mode-icon.png)을 클릭합니다.
+
+1. **계획 모드** 대화 상자에서 **수동 저장**&#x200B;을 선택한 다음 **타임라인 계획 수립**&#x200B;을 클릭합니다.
+
+   ![타임라인 계획 설정 적용](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
 
    >[!TIP]
    >
-   >이 페이지에서 나가면 Workfront에서 자동 저장 옵션을 다시 활성화합니다.
+   >작업이 2000개가 넘는 프로젝트의 경우 **시간 계획** 옵션이 흐리게 표시됩니다.
 
-   목록에서 다음 변경 사항을 확인합니다.
+1. **적용**&#x200B;을 클릭합니다.
+
+   다음 변경 사항이 목록에서 발생합니다.
 
    * 보기, 그룹화 및 필터 드롭다운 메뉴가 제거되고 보기가 다음 필드로 바뀝니다.
 
@@ -326,7 +347,7 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
       * 작업 이름
       * 제한 유형
       * 기간
-      * 계획된 시작 일자 기준
+      * 계획된 시작 일자
       * 계획된 완료 일자 기준
       * 전임 작업
       * 할당
@@ -336,17 +357,15 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
    * 애자일 보기 아이콘이 제거됩니다.
    * 도구 모음 설정은 변경 내용을 실행 취소, 재실행 및 저장하는 옵션과 함께 표시됩니다.
 
-     ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![수동 저장 도구 모음](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. 수동으로 업데이트할 권한이 있는 필드를 편집합니다.
 
-   ![](assets/inline-editing-a-task-350x26.png)
+1. 키보드에서 **Enter**(Windows) 또는 **Return**(Mac)을 눌러 변경 내용을 임시로 저장합니다.
+1. (선택 사항) 변경 내용을 취소하고 필드를 원래 상태로 되돌리려면 **실행 취소** 아이콘 ![실행 취소 아이콘](assets/undo-icon-on-task-list.png)을 클릭합니다.
+1. (선택 사항 및 조건부) **다시 실행** 아이콘 ![다시 실행 아이콘](assets/redo-icon-on-task-list.png)을 클릭하여 취소한 변경 내용을 복원합니다.
 
-1. Enter 키를 눌러 변경 사항을 임시로 저장합니다.
-1. (선택 사항) 변경 내용을 취소하고 필드를 원래 상태로 되돌리려면 **실행 취소 아이콘** ![](assets/undo-icon-on-task-list.png)을(를) 클릭합니다.
-1. (선택 사항 및 조건부) **다시 실행 아이콘** ![](assets/redo-icon-on-task-list.png)을 클릭하여 취소한 변경 내용을 복원합니다.
-
-1. (선택 사항) 수정할 작업을 마우스 오른쪽 버튼으로 클릭합니다
+1. (선택 사항) 수정할 작업을 마우스 오른쪽 버튼으로 클릭합니다.
 
    또는
 
@@ -359,8 +378,16 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>새 탭에서 열기</strong> </td> 
+      <td role="rowheader">새 탭에서 열기</td> 
       <td>새 브라우저 탭에서 작업을 엽니다. </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">위에 작업 삽입</td> 
+      <td>선택한 작업 위에 작업을 삽입합니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">아래에 작업 삽입</td> 
+      <td>선택한 작업 아래에 작업을 삽입합니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">삭제</td> 
@@ -375,14 +402,6 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
       <td> <p>작업을 한 수준 내어씁니다. </p> <p>이 옵션은 하위 작업에만 표시됩니다. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">위에 작업 삽입</td> 
-      <td>선택한 작업 위에 작업을 삽입합니다.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">아래에 작업 삽입</td> 
-      <td>선택한 작업 아래에 작업을 삽입합니다.</td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">복제</td> 
       <td> <p>동일한 프로젝트 내에 작업의 중복 버전을 만듭니다. </p> <p>작업 복사 및 복제에 대한 자세한 내용은 <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">작업 복사 및 복제</a>를 참조하십시오.</p> </td> 
      </tr> 
@@ -394,55 +413,62 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
 
 ## 요약을 사용하여 목록에서 작업 편집
 
-1. 편집할 작업이 포함된 프로젝트로 이동합니다.
-1. 왼쪽 패널에서 **작업**&#x200B;을 클릭합니다.
+{{step1-to-projects}}
 
-   프로젝트의 작업 목록이 표시됩니다.
+1. **프로젝트** 페이지에서 프로젝트를 선택하십시오.
 
-1. 작업 이름 뒤에 있는 기타 메뉴 ![](assets/more-icon-task-list.png)을(를) 클릭한 다음 **요약 열기**&#x200B;를 클릭합니다. 편집할 작업을 선택한 다음 목록의 오른쪽 상단에 있는 **요약 열기 아이콘** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **작업** 섹션을 클릭합니다. 프로젝트의 작업 목록이 표시됩니다.
 
-   **요약**&#x200B;이 열립니다.
-
-   ![](assets/qs-task-right-panel-in-a-task-list-350x328.png)
-
-1. (선택 사항) 요약 오른쪽 상단의 **X 아이콘**&#x200B;을 클릭하여 패널을 닫고 작업 인라인을 편집합니다.
-
-   목록에서 작업을 편집하는 방법에 따라 작업을 인라인 편집합니다.
-
-   목록에서 작업을 편집하는 방법에 대한 자세한 내용은 이 문서의 [목록에서 작업을 편집하는 방법에 대한 고려 사항](#considerations-about-editing-tasks-in-a-list)을 참조하십시오.
+1. 편집할 작업을 선택한 다음 목록의 오른쪽 상단에 있는 **요약 열기** 아이콘 ![요약 열기 아이콘](assets/task-summary-icon.png)을 클릭합니다. **작업 요약** 패널이 열립니다.
 
 1. (선택 사항) **업데이트** 영역에 작업에 대한 업데이트를 입력합니다.
 1. 작업으로 이동하여 작업 수준에서 정보를 편집하려면 다음 아이콘 또는 영역을 클릭하십시오.
 
-   | 문서 | 작업에 문서를 추가하려면 **여기를 클릭하여**&#x200B;을(를) 클릭하십시오. |
-   |---|---|
-   | 세부 정보 | 을(를) 클릭하여 작업에 대한 정보를 업데이트합니다. |
-   | 사용자 정의 양식 | 양식에 사용자 지정 Forms을 추가 또는 제거하거나 정보를 업데이트하려면 클릭하십시오. |
-   | 시간 | 클릭하여 시간을 기록합니다. |
-   | 승인 | 작업 승인을 추가하려면 클릭하십시오. |
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">문서</td> 
+      <td>작업에 문서를 추가합니다. </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">사용자 정의 양식</td> 
+      <td>사용자 정의 양식을 추가 또는 제거하거나 양식에 대한 정보를 업데이트합니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">시간</td> 
+      <td>시간을 기록합니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">승인</td> 
+      <td>작업 승인을 추가합니다.</td> 
+     </tr> 
+     <tr> 
+    </tbody> 
+   </table>
 
-   {style="table-layout:auto"}
-
-1. 작업 업데이트를 마치면 브라우저의 뒤로 단추를 클릭하여 작업 목록으로 돌아갑니다.
+1. 패널의 오른쪽 위 모서리에 있는 **X**&#x200B;을(를) 클릭하여 닫습니다.
 
 ## 일괄 작업 편집
 
 여러 작업을 한 번에 편집할 수 있습니다. 작업을 편집할 수 있도록 관리 권한이 있는지 확인하십시오.
 
-1. 일괄 편집할 작업이 포함된 프로젝트로 이동합니다.
-1. 왼쪽 패널에서 **작업**&#x200B;을 클릭합니다.
-1. **자동 저장** 옵션이 선택되어 있는지 확인하십시오.
+{{step1-to-projects}}
+
+1. **프로젝트** 페이지에서 프로젝트를 선택하십시오.
+1. 왼쪽 패널에서 **작업** 섹션을 클릭합니다.
+
+1. 목록 맨 위에 있는 **계획 모드** 아이콘 ![계획 모드 아이콘](assets/plan-mode-icon.png)을 클릭하고 **자동 저장** 옵션이 선택되어 있는지 확인하십시오.
+
+   ![자동 저장 설정 사용](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
    >[!IMPORTANT]
    >
    >작업을 수동으로 저장할 때 작업을 일괄적으로 편집할 수 없습니다.
 
-   목록의 작업에 대한 변경 내용을 저장하는 방법에 대한 자세한 내용은 이 문서의 [목록의 작업 편집에 대한 고려 사항](#considerations-about-editing-tasks-in-a-list) 섹션을 참조하십시오.
-
-1. 작업 목록에서 여러 작업을 선택합니다.
-1. **편집 아이콘** ![](assets/qs-edit-icon.png)을 클릭합니다.
-
-   **작업 편집** 대화 상자가 열립니다.
+1. 작업 목록에서 작업을 두 개 이상 선택합니다.
+1. **편집** 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭합니다. **작업 편집** 대화 상자가 열립니다.
 
 1. 선택한 모든 작업에 대해 변경할 정보를 지정합니다.
 
@@ -461,8 +487,6 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
    선택한 모든 작업에 첨부되고 편집 권한이 있는 양식의 필드만 편집할 수 있습니다.
 
 1. (선택 사항) 사용자 지정 Forms 섹션에서 **사용자 지정 표현식 다시 계산** 옵션을 선택하여 선택한 작업에 첨부된 사용자 지정 양식에 있는 모든 계산된 사용자 지정 필드가 최신 상태가 되도록 합니다.
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
+1. **변경 내용 저장**&#x200B;을 클릭합니다. 이제 선택한 모든 작업에 변경 사항이 모두 표시됩니다.
 
-   이제 선택한 모든 작업에 변경 사항이 모두 표시됩니다.
-
-사용자 정의 양식을 대량으로 편집하는 방법에 대한 자세한 내용은 [개체에 첨부된 사용자 정의 양식 관리](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)에서 &quot;개체를 대량으로 편집할 때 여러 사용자 정의 Forms 편집&quot; 섹션을 참조하십시오.
+사용자 정의 양식을 대량으로 편집하는 방법에 대한 자세한 내용은 [개체에 첨부된 사용자 정의 양식 관리](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)를 참조하십시오.

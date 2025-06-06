@@ -7,14 +7,16 @@ description: 작업의 계획된 시작 일자는 작업 생성자가 작업에 
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '617'
 ht-degree: 2%
 
 ---
 
 # 작업 계획 시작 일자 개요
+
+<!-- Audited: 6/2025 -->
 
 작업의 계획된 시작 일자는 작업 생성자가 작업에 대한 작업을 시작해야 한다고 결정하는 일자입니다. 계획된 작업 일자는 프로젝트의 일자 및 타임라인에 영향을 줍니다. 프로젝트 계획 시작 날짜에 대한 자세한 내용은 [프로젝트 계획 시작 날짜의 개요](../../../manage-work/projects/planning-a-project/project-planned-start-date.md)를 참조하십시오.
 
@@ -29,7 +31,7 @@ ht-degree: 2%
 
 작업의 계획된 시작 일자 설정은 작업에 할당하는 작업 제한 유형에 따라 다릅니다. 
 
-[프로젝트에서 작업 만들기](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) 문서에 설명된 대로 작업을 만들 때 계획된 시작 날짜를 수동으로 설정할 수 있습니다.
+작업을 생성할 때 계획된 시작 일자를 수동으로 설정할 수 있습니다. 자세한 내용은 [프로젝트에서 작업 만들기](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)를 참조하십시오.
 
 다음 작업 제한조건 중 하나를 선택하면 계획된 시작 일자를 수동으로 지정할 수 있습니다. 
 
@@ -66,20 +68,20 @@ ht-degree: 2%
 
 * 작업 제한 사항
 
-  작업 제한에 대한 자세한 내용은 [작업 제한 개요](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) 문서를 참조하십시오.
+  작업 제한에 대한 자세한 내용은 [작업 제한 개요](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)를 참조하십시오.
 
 * 작업 전임 작업 관계
 
-  작업 전임 작업에 대한 자세한 내용은 [작업 전임 작업 개요](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) 문서를 참조하십시오.
+  작업 전임 작업에 대한 자세한 내용은 [작업 전임 작업 개요](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)를 참조하십시오.
 
 * 프로젝트 시작 일자(프로젝트가 시작 일자부터 예약된 경우).
 * 작업의 기본 피할당자의 휴무 일정입니다.
 
-  작업 기간 동안 기본 피할당자에게 휴무가 예약되어 있는 경우 **사용자 휴무** 필드에 대해 **작업 기간에서 사용자 휴무 고려** 설정을 선택하면 작업의 계획된 날짜가 그에 따라 조정됩니다. 새 프로젝트는 프로젝트 환경 설정 영역에서 이 설정을 상속하지만 프로젝트 수준에서 설정을 편집할 수 있습니다.
+  기본 피할당자가 작업 기간 동안 휴무가 예약된 경우 사용자 휴무 필드에 대해 작업 기간에서 사용자 휴무 고려 설정을 선택하면 작업의 계획된 일자가 적절하게 조정됩니다. 새 프로젝트는 프로젝트 환경 설정 영역에서 이 설정을 상속하지만 프로젝트 수준에서 설정을 편집할 수 있습니다.
 
   예를 들어, &#39;가능한 한 빨리&#39;라는 제한 사항이 있는 작업이 6월 1일에 시작하여 6월 3일에 완료되도록 예약되어 있고 기본 피할당자가 6월 1일에 휴무로 표시된 경우, 작업 계획 시작 일자는 6월 2일이 됩니다.
 
-  **사용자 휴가** 기본 설정에 대한 자세한 내용은 [시스템 전체 프로젝트 기본 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 또는 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md) 문서를 참조하십시오.
+  사용자 휴무 환경 설정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 또는 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하십시오.
 
 자동으로 설정되는 경우 계획된 시작 일자는 다음 계산에 따라 결정됩니다. 
 
@@ -91,5 +93,5 @@ Planned Start Date = Planned Completion Date - Task Duration
 
 >[!NOTE]
 >
-> 계획된 시간 및 기간을 자동으로 조정하려면 프로젝트의 업데이트 유형도 &#39;자동 및 변경 시&#39; 또는 &#39;자동&#39;으로 설정해야 합니다.\
->업데이트 유형에 대한 자세한 내용은 문서 [프로젝트 업데이트 유형 선택](../../../manage-work/projects/manage-projects/select-project-update-type.md)을 참조하십시오.
+> 계획된 시간 및 기간을 자동으로 조정하려면 프로젝트의 업데이트 유형도 자동 및 변경 시 또는 자동으로 설정되어야 합니다.\
+>업데이트 유형에 대한 자세한 내용은 [프로젝트 업데이트 유형 선택](../../../manage-work/projects/manage-projects/select-project-update-type.md)을 참조하십시오.
