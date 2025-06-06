@@ -102,7 +102,7 @@ ht-degree: 0%
 
    작업 또는 문제가 지정된 프로젝트에 추가됨
 
-1. (선택 사항) [!DNL Workfront]]**의**[!UICONTROL &#x200B;보기를 클릭하여 [!DNL Workfront] 응용 프로그램 내의 작업을 새 탭에 표시합니다.
+1. (선택 사항) [!DNL Workfront]&#x200B;**의**&#x200B;보기를 클릭하여 [!DNL Workfront] 응용 프로그램 내의 작업을 새 탭에 표시합니다.
 
 1. (선택 사항) [!DNL Outlook]&#x200B;(으)로 돌아가서 변환된 전자 메일을 선택합니다.
 
