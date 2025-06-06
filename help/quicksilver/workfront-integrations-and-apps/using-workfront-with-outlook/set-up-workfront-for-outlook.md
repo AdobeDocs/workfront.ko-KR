@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook] 추가 기능을 사용하�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,15 @@ ht-degree: 0%
 # [!DNL Adobe Workfront for Outlook] 설정
 
 <!-- Audited: 12/2023 -->
+
+>[!IMPORTANT]
+>
+>[Microsoft에서 기존 Exchange 온라인 토큰에 대한 지원을 사용하지 않도록 설정하는 중입니다](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens). 이 토큰은 현재 인증을 위해 Workfront Outlook 추가 기능에서 사용됩니다. Microsoft의 이러한 변경 사항은 이미 고객에게 영향을 주기 시작했으며 2025년 10월까지 단계적으로 계속 적용될 예정입니다.
+>
+>* **Microsoft에서 이 토큰을 완전히 비활성화하면 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
+>
+>이 변경의 일부로 Microsoft은 토큰이 다시 활성화되는 방식을 변경하기로 결정했습니다. **2025년 6월 30일** 이후에는 관리자가 더 이상 토큰을 직접 다시 활성화할 수 없습니다. Microsoft 지원에서만 예외를 허용할 수 있습니다. **2025년 10월 1일부터 모든 테넌트에 대해 레거시 토큰이 꺼집니다. 예외가 부여되지 않습니다.**
+
 
 [!DNL Adobe Workfront] [!DNL Outlook] 추가 기능을 사용하면 Outlook에서 직접 다음 주요 [!DNL Workfront] 작업을 수행할 수 있습니다.
 
@@ -80,8 +89,8 @@ Workfront은 다음 버전의 [!DNL Outlook]을(를) 지원합니다.
 
 * [!DNL Windows]의 [!DNL Outlook 2013] 이상
 * [!DNL Windows]의 [!DNL Outlook 2016] 이상
-* [!DNL Mac]의 [!DNL Outlook] ([!DNL Microsoft 365])
-* [!DNL Windows]의 [!DNL Outlook] ([!DNL Microsoft 365])
+* [!DNL Mac]의 [!DNL Outlook]&#x200B;([!DNL Microsoft 365])
+* [!DNL Windows]의 [!DNL Outlook]&#x200B;([!DNL Microsoft 365])
 * 웹에서 [!DNL Outlook]
 
 직접 연결을 사용하여 [!DNL Exchange Server] 또는 [!DNL Office 365]에 연결해야 합니다.
@@ -97,7 +106,7 @@ Workfront은 다음 버전의 [!DNL Outlook]을(를) 지원합니다.
 [!DNL Office 365] 또는 [!DNL Outlook.com]에 연결할 때 메일 서버 요구 사항이 기본적으로 충족됩니다. 그러나 [!DNL Exchange Server]의 On-Premise 설치에 연결된 경우 다음 요구 사항이 적용됩니다.
 
 * Workfront은 모든 [!DNL Exchange On-Premise] 서버를 지원합니다.
-* [!DNL Exchange Web Services] (EWS)을(를) 사용하도록 설정해야 하며 인터넷에 노출되어야 합니다.
+* [!DNL Exchange Web Services]&#x200B;(EWS)을(를) 사용하도록 설정해야 하며 인터넷에 노출되어야 합니다.
 * 서버가 유효한 ID 토큰을 발급하려면 서버에 유효한 인증 인증서가 있어야 합니다. [!DNL Exchange Server]의 새 설치에 기본 인증 인증서가 포함되어 있습니다.
 
   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->

@@ -6,14 +6,23 @@ description: ' [!DNL Workfront for Outlook] 추가 기능을 사용하려면 읽
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
-source-git-commit: 177bf9271dca0310653b73b9100607a82290c326
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
 # [!DNL Workfront for Outlook]에 대한 권한 수준
+
+>[!IMPORTANT]
+>
+>[Microsoft에서 기존 Exchange 온라인 토큰에 대한 지원을 사용하지 않도록 설정하는 중입니다](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens). 이 토큰은 현재 인증을 위해 Workfront Outlook 추가 기능에서 사용됩니다. Microsoft의 이러한 변경 사항은 이미 고객에게 영향을 주기 시작했으며 2025년 10월까지 단계적으로 계속 적용될 예정입니다.
+>
+>* **Microsoft에서 이 토큰을 완전히 비활성화하면 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
+>
+>이 변경의 일부로 Microsoft은 토큰이 다시 활성화되는 방식을 변경하기로 결정했습니다. **2025년 6월 30일** 이후에는 관리자가 더 이상 토큰을 직접 다시 활성화할 수 없습니다. Microsoft 지원에서만 예외를 허용할 수 있습니다. **2025년 10월 1일부터 모든 테넌트에 대해 레거시 토큰이 꺼집니다. 예외가 부여되지 않습니다.**
+
 
 [!DNL Workfront for Outlook]에는 [!DNL Outlook] 추가 기능에서 허용되는 네 가지 권한 수준 중 가장 높은 수준이 필요합니다.
 

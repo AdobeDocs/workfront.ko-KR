@@ -8,14 +8,23 @@ author: Lisa, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront for Outlook] 사용
+# [!DNL Adobe Workfront for Outlook] 활성화
+
+>[!IMPORTANT]
+>
+>[Microsoft에서 기존 Exchange 온라인 토큰에 대한 지원을 사용하지 않도록 설정하는 중입니다](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens). 이 토큰은 현재 인증을 위해 Workfront Outlook 추가 기능에서 사용됩니다. Microsoft의 이러한 변경 사항은 이미 고객에게 영향을 주기 시작했으며 2025년 10월까지 단계적으로 계속 적용될 예정입니다.
+>
+>* **Microsoft에서 이 토큰을 완전히 비활성화하면 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
+>
+>이 변경의 일부로 Microsoft은 토큰이 다시 활성화되는 방식을 변경하기로 결정했습니다. **2025년 6월 30일** 이후에는 관리자가 더 이상 토큰을 직접 다시 활성화할 수 없습니다. Microsoft 지원에서만 예외를 허용할 수 있습니다. **2025년 10월 1일부터 모든 테넌트에 대해 레거시 토큰이 꺼집니다. 예외가 부여되지 않습니다.**
+
 
 사용자가 [!DNL Adobe Workfront for Outlook] 사용을 시작하려면 먼저 시스템에 대해 활성화해야 합니다.
 

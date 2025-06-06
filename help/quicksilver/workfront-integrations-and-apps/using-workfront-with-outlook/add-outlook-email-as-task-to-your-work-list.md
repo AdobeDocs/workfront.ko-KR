@@ -6,14 +6,24 @@ description: ' [!DNL Outlook] 전자 메일을  [!DNL Adobe Workfront] 작업으
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
 # [!DNL Outlook] 전자 메일을 작업 목록에 작업으로 추가
+
+>[!IMPORTANT]
+>
+>[Microsoft에서 기존 Exchange 온라인 토큰에 대한 지원을 사용하지 않도록 설정하는 중입니다](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens). 이 토큰은 현재 인증을 위해 Workfront Outlook 추가 기능에서 사용됩니다. Microsoft의 이러한 변경 사항은 이미 고객에게 영향을 주기 시작했으며 2025년 10월까지 단계적으로 계속 적용될 예정입니다.
+>
+>* **Microsoft에서 이 토큰을 완전히 비활성화하면 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
+>
+>이 변경의 일부로 Microsoft은 토큰이 다시 활성화되는 방식을 변경하기로 결정했습니다. **2025년 6월 30일** 이후에는 관리자가 더 이상 토큰을 직접 다시 활성화할 수 없습니다. Microsoft 지원에서만 예외를 허용할 수 있습니다. **2025년 10월 1일부터 모든 테넌트에 대해 레거시 토큰이 꺼집니다. 예외가 부여되지 않습니다.**
+
+
 
 [!DNL Outlook]개의 전자 메일을 [!DNL Adobe Workfront]개의 작업으로 변환할 수 있습니다. 이메일이 전환되면 [!UICONTROL Home] 영역의 [!UICONTROL Work] 목록에서 작업을 사용할 수 있습니다.
 
@@ -65,5 +75,5 @@ ht-degree: 0%
 
 1. (선택 사항) **[!UICONTROL Workfront에서 보기]**&#x200B;를 클릭하여 [!DNL Workfront] 응용 프로그램 내의 작업을 새 탭에 표시합니다.
 
-1. (선택 사항) [!DNL Outlook] (으)로 돌아가서 원본 전자 메일을 선택합니다.\
+1. (선택 사항) [!DNL Outlook]&#x200B;(으)로 돌아가서 원본 전자 메일을 선택합니다.\
    [!DNL Workfront] 추가 기능 패널의 맨 위에서 링크로 이메일이 작업으로 Workfront에 추가되었다는 확인을 확인합니다. 링크에는 전환된 날짜가 포함됩니다.\
