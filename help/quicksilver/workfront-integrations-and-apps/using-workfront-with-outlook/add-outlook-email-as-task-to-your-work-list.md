@@ -6,7 +6,7 @@ description: ' [!DNL Outlook] 전자 메일을  [!DNL Adobe Workfront] 작업으
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -22,7 +22,6 @@ ht-degree: 0%
 >* **Microsoft에서 이 토큰을 완전히 비활성화하면 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
 >
 >이 변경의 일부로 Microsoft은 토큰이 다시 활성화되는 방식을 변경하기로 결정했습니다. **2025년 6월 30일** 이후에는 관리자가 더 이상 토큰을 직접 다시 활성화할 수 없습니다. Microsoft 지원에서만 예외를 허용할 수 있습니다. **2025년 10월 1일부터 모든 테넌트에 대해 레거시 토큰이 꺼집니다. 예외가 부여되지 않습니다.**
-
 
 
 [!DNL Outlook]개의 전자 메일을 [!DNL Adobe Workfront]개의 작업으로 변환할 수 있습니다. 이메일이 전환되면 [!UICONTROL Home] 영역의 [!UICONTROL Work] 목록에서 작업을 사용할 수 있습니다.
