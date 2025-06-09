@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
+source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
 workflow-type: tm+mt
 source-wordcount: '4126'
 ht-degree: 1%
@@ -239,7 +239,9 @@ Workfront의 다른 영역 디자인에 맞게 설정 영역에서 최근에 복
 
 이 변경 사항을 보려면 설정 > 휴지통 > 최근에 복원된 로 이동합니다.
 
-자세한 내용은 [복원된 항목 보기](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)를 참조하십시오.### 설치 프로그램의 리소스 관리 영역에 대한 인터페이스 업데이트
+자세한 내용은 [복원된 항목 보기](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)를 참조하십시오.
+
+### 설정의 리소스 관리 영역에 대한 인터페이스 업데이트
 
 **미리 보기 릴리스: 2025년 4월 17일, 2025년 4월 17일 주에 시작**
 
