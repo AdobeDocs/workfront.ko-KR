@@ -6,9 +6,9 @@ description: 문서의 승인자로 할당된 경우 여러 가지 방법으로 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
+source-git-commit: 1f7a17206ca77442b501f121f3333d4b60aa85f1
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,8 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >작업 역할 또는 그룹에 할당된 승인이 홈에 나열되지 않습니다. 팀에 할당된 승인은 작업 목록의 팀 요청 그룹에 표시됩니다.
+   >* 작업 역할 또는 그룹에 할당된 승인이 홈에 나열되지 않습니다.
+   >* 팀에 할당된 승인은 홈에서 각 개별 팀 멤버의 내 승인 위젯에 표시됩니다.
 
 1. 승인 결정을 내릴 목록에서 문서 승인 을 클릭합니다. 승인에 대한 정보가 페이지 오른쪽에 나타납니다.
 
