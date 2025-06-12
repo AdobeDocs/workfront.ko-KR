@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
+source-git-commit: 6fa00a88f6620936ed9af00faf60f61d48c2f825
 workflow-type: tm+mt
-source-wordcount: '4126'
+source-wordcount: '4390'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,17 @@ ht-degree: 1%
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
 
-## 관리자 및 설정
+## 관리 및 설정
+
+### 고객 정보 페이지에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 6월 12일, 프로덕션 릴리스: 2025년 6월 19일**
+
+고객 정보 페이지를 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 업데이트했습니다.
+
+이 변경 사항을 보려면 설정 > 시스템 > 고객 정보로 이동합니다.
+
+자세한 내용은 [시스템에 대한 기본 정보 구성](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)을 참조하십시오.
 
 ### 데이터 가져오기(킥스타트) 페이지에 대한 인터페이스 업데이트
 
@@ -108,6 +118,22 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 W
 
 ## 프로젝트
 
+### 프로젝트의 관련 프로젝트 섹션에 대한 인터페이스 업데이트(특정 고객만 사용 가능)
+
+**미리 보기 릴리스: 2025년 6월 12일, 프로덕션 릴리스: 2025년 6월 19일**
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 프로젝트의 관련 프로젝트 섹션을 업데이트했습니다.
+
+특정 고객은 왼쪽 패널의 프로젝트에 대한 관련 프로젝트 섹션으로 이동하여 이 변경 사항을 볼 수 있습니다.
+
+### 템플릿으로 저장 상자의 새로운 모양 및 느낌
+
+**미리 보기 릴리스: 2025년 6월 12일, 프로덕션 릴리스: 2025년 6월 19일**
+
+프로젝트를 템플릿으로 저장할 때 표시되는 &quot;템플릿으로 저장&quot; 상자의 모양을 업데이트했습니다. 새로운 디자인에는 간소화된 인터페이스가 포함되어 있으며, 모든 섹션이 왼쪽 패널의 링크를 사용하여 탐색할 수 있는 하나의 통합 형식으로 표시됩니다. 새 디자인은 응용 프로그램의 다른 영역 및 다른 오브젝트와 일치합니다.
+
+자세한 내용은 [프로젝트를 템플릿으로 저장](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)을 참조하십시오.
+
 ### 문제 삭제 상자에 대한 업데이트를 봅니다.
 
 **미리 보기 릴리스: 2025년 5월 29일, 프로덕션 릴리스: 2025년 6월 5일**
@@ -150,6 +176,21 @@ Workfront의 다른 영역 디자인에 맞게 템플릿 복사 상자의 모양
 
 
 ## 보고서와 대시보드
+
+### 새 스타일을 사용하여 보고서 업데이트됨
+
+**미리 보기 릴리스: 2025년 6월 12일, 프로덕션 릴리스: 2025년 6월 19일**
+
+Workfront의 다른 영역 디자인에 맞게 여러 보고서의 디자인을 업데이트했습니다. 변경된 기능이 없습니다.
+
+이 업데이트에는 다음 개체 유형에 대한 보고서의 목록 및 도구 모음에 대한 시각적 변경 사항이 포함되어 있습니다.
+
+* 위험
+* 기준선
+* 비율
+* 레이아웃 템플릿
+
+자세한 내용은 [사용자 지정 보고서 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
 
 ### Workfront 대시보드에서 /tile 또는 /qstile이 있는 URL이 더 이상 지원되지 않음
 

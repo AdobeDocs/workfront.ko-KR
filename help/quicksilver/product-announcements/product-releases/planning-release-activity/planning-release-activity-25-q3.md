@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
+source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1601'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,62 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## Workfront Planning 타임라인 보기의 사용자 정의 분기 가용성
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 6월 12일
+>* 프로덕션 빠른 릴리스: 2025년 7월 17일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
+
+이 업데이트를 통해 설정의 프로젝트 환경 설정 영역에서 사용자 정의 분기를 구성할 경우 Workfront Planning의 타임라인 보기에서 사용자 정의 분기를 사용할 수 있습니다.
+
+이 업데이트 이전에는 사용자 정의 분기를 Workfront의 보고 기능에만 사용할 수 있었습니다.
+
+이 개선 사항으로 Workfront Planning을 구매한 고객은 사용자 정의 분기를 정의하기 위한 업데이트된 경험을 보게 됩니다. 이 업데이트에는 다음과 같은 개선 사항이 포함됩니다.
+
+쿼터 간의 공백과 겹치는 부분은 더 이상 허용되지 않습니다.
+
+최대 100개의 사용자 정의 영역을 설정할 수 있습니다. 이 업데이트 이전에는 8개의 사용자 정의 분기만 설정할 수 있었습니다.
+
+Workfront Planning을 구매하지 않은 고객에 대한 사용자 정의 분기 경험에는 변경 사항이 없습니다.
+
+자세한 내용은 [프로젝트에 대한 사용자 지정 분기 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
+
+## 모든 종속 공식을 동시에 계산
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 6월 12일
+>* 프로덕션 빠른 릴리스: 2025년 6월 12일
+>* 모든 고객을 위한 프로덕션: 2025년 6월 12일
+
+참조된 필드를 수동으로 업데이트한 후 서로 종속된 모든 수식 필드를 동시에 업데이트하는 개선 사항이 도입되었습니다. 값이 수동으로 변경되고 서로 참조하는 필드와 2, 3 또는 4 떨어진 수식 필드는 이제 동시에 자동으로 업데이트됩니다.
+
+이 개선 이전에는 참조 필드의 값이 수동으로 업데이트될 때 직접 종속된 공식 필드만 업데이트되었습니다.
+
+자세한 내용은 [수식 필드 개요](/help/quicksilver/planning/fields/formula-fields.md)를 참조하세요.
+
+## 공식 필드에 새 표현식이 추가됨
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 6월 6일
+>* 프로덕션 빠른 릴리스: 2025년 6월 6일
+>* 모든 고객을 위한 프로덕션: 2025년 6월 6일
+
+공식 필드에 다음 표현식을 추가했습니다.
+
+* ARRAYCONTAINS
+
+* SORTASCARRAY
+
+* SORTDESCARRAY
+
+이 개선 이전에는 이러한 표현식이 Workfront 계산된 사용자 정의 필드에서만 지원되었습니다.
+
+자세한 내용은 [수식 필드 개요](/help/quicksilver/planning/fields/formula-fields.md)를 참조하세요.
 
 ## 요청 영역의 계획 탭에 추가된 필터, 열 및 추가 필드
 
@@ -150,7 +206,7 @@ CSV 및 Excel 파일을 가져와서 레코드 형식과 기존 레코드 형식
 >[!NOTE]
 >
 >이 변경 사항은 시스템 관리자 및 표준 라이선스를 가진 모든 신규 및 기존 사용자에게 표시됩니다.
->&#x200B;>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
+>>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
 
 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
@@ -184,7 +240,7 @@ CSV 및 Excel 파일을 가져와서 레코드 형식과 기존 레코드 형식
 >[!NOTE]
 >
 >* 미리 보기: 2025년 4월 17일
->* 프로덕션 빠른 릴리스: 2025년 6월 12일
+>* 프로덕션 빠른 릴리스: 2025년 7월 17일
 >* 모든 고객을 위한 프로덕션: 2025년 7월 17일
 
 각 레코드 유형의 레코드를 보거나 관리할 수 있는 사용자를 보다 잘 제어하고 승인된 사용자만 역할과 책임을 기반으로 각 레코드 유형의 정보를 관리할 수 있도록 레코드 유형 수준에서 권한을 도입했습니다.

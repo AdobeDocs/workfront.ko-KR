@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: a5a61045bad5a97fb1413fac4a5a2666b753fa83
+source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 미리 보기: 2025년 5월 27일
->* 프로덕션 빠른 릴리스: 2025년 5월 27일
->* 모든 고객을 위한 프로덕션: 2025년 5월 27일
+>* 미리보기: 2025년 후반부로 예정된 다음 API 버전 사용
+>* 프로덕션 빠른 릴리스: 2025년 말로 예정된 다음 API 버전 포함
+>* 모든 고객을 위한 프로덕션: 2025년 말로 예정된 다음 API 버전 사용
 
 이 업데이트에서는 프로젝트, 작업 및 문제의 실제 시간을 데이터베이스에 저장하는 방식이 변경되었습니다. 이 업데이트부터 실제 시간은 `actualWorkRequiredDouble`의 valuefield(시간 단위 값 포함)를 사용합니다.
 
