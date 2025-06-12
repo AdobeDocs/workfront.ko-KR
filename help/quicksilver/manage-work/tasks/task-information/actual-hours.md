@@ -7,9 +7,9 @@ description: Adobe Workfront에서 작업 항목에 로그온하는 시간은 �
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ API 호출이나 계산된 사용자 지정 필드 또는 열의 이러한 필�
 
 실제 시간에 액세스하는 방법에 따라 데이터베이스의 다음 필드 및 단위에 저장할 수 있습니다.
 
-* API에서 실제 시간에 대한 `valuefield`은(는) 시간 단위로 저장되는 `actualWorkRequiredDouble`입니다.
+* API: 다음 버전의 Workfront API가 2025년 말에 릴리스되도록 예약되어 있으므로, 실제 시간에 대한 `valuefield`은(는) 시간 단위로 저장되는 `actualWorkRequiredDouble`입니다. 현재 버전은 몇 분 안에 저장된 실제 시간을 `actualWorkRequired`(으)로 저장했습니다.
 * Workfront 인터페이스(계산된 사용자 지정 필드 및 열)에서: 실제 시간에 대한 `valuefield`은(는) 분 단위로 저장된 `actualWorkRequired`입니다.
 
 <!--Change the above with this when we fix this for the Workfront UI: 

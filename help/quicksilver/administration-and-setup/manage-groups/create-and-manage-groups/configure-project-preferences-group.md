@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2765'
 ht-degree: 2%
 
 ---
@@ -238,14 +238,14 @@ Workfront 관리자가 프로젝트 환경 설정을 잠금 해제하는 방법�
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>사용자 지정 분기</strong> </p> </td> 
-   <td> <p>프로젝트에서 작업할 사용자를 위해 사용자 정의 연간 분기를 구성하십시오. 사용자 정의 분기는 일반적으로 한 해 동안의 기존 분기 분류와 일치하지 않는 분기입니다. 여러 개의 사용자 정의 영역을 추가할 수 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">프로젝트에 대한 사용자 지정 분기 사용</a>을 참조하세요.</p> <p><b>참고</b>: Workfront 관리자는 사용자 지정 분기 환경 설정을 잠금 해제할 수 없습니다.</p> </td> 
+   <td> <p>프로젝트에서 작업할 사용자를 위해 사용자 정의 연간 분기를 구성하십시오. 사용자 정의 분기는 일반적으로 한 해 동안의 기존 분기 분류와 일치하지 않는 분기입니다. 여러 개의 사용자 정의 영역을 추가할 수 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">사용자 정의 영역 사용</a>을 참조하세요.</p> <p><b>참고</b>: Workfront 관리자는 사용자 지정 분기 환경 설정을 잠금 해제할 수 없습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 비즈니스 사례 {#business-cases}
 
-그룹과 관련하여 새로 생성된 프로젝트에 대한 비즈니스 사례를 만들어 프로젝트 요청을 제출할 수 있습니다. 환경 설정을 정의하여 **비즈니스 사례** 양식에 표시되는 영역을 결정할 수 있습니다. Portfolio 최적화 프로그램과 같은 다른 도구가 제대로 업데이트되도록 이러한 옵션을 활성화하는 것이 좋습니다. 각 필드에 표시되는 내용에 대한 자세한 내용은 [비즈니스 사례 정의: 문서 색인](../../../manage-work/projects/define-a-business-case/define-business-case.md)을 참조하세요.
+그룹과 관련하여 새로 생성된 프로젝트에 대한 비즈니스 사례를 만들어 프로젝트 요청을 제출할 수 있습니다. 환경 설정을 정의하여 **비즈니스 사례** 양식에 표시되는 영역을 결정할 수 있습니다. Portfolio Optimizer와 같은 다른 도구가 제대로 업데이트되도록 이러한 옵션을 활성화하는 것이 좋습니다. 각 필드에 표시되는 내용에 대한 자세한 내용은 [비즈니스 사례 정의: 문서 색인](../../../manage-work/projects/define-a-business-case/define-business-case.md)을 참조하세요.
 
 Workfront 관리자가 비즈니스 사례에 대한 섹션을 활성화하면 프로젝트 소유자가 프로젝트 수준에서 비즈니스 사례를 만들 수 있습니다. 비즈니스 사례 만들기에 대한 자세한 내용은 [프로젝트에 대한 비즈니스 사례 만들기](../../../manage-work/projects/define-a-business-case/create-business-case.md)를 참조하세요.
 

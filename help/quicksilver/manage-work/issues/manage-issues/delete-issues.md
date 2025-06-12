@@ -6,9 +6,9 @@ description: 올바른 액세스 및 권한이 있는 경우 Adobe Workfront에�
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---
@@ -132,10 +132,12 @@ Workfront 또는 그룹 관리자가 Workfront 인스턴스의 **타임시트 �
    ![추가 문제 메뉴](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. **문제 삭제**&#x200B;를 클릭합니다.
-1. 삭제가 허용되는 경우 **삭제**&#x200B;를 클릭하십시오.
+1. **삭제**&#x200B;를 클릭하여 삭제하십시오.
 
-   Workfront 관리자는 시간이 기록되는 문제의 삭제를 허용하지 않을 수 있습니다.\
-   문제를 삭제하는 데 필요한 액세스 및 권한에 대한 자세한 내용은 이 문서의 [문제 삭제 고려 사항](#considerations-for-deleting-issues) 섹션을 참조하십시오.
+   >[!NOTE]
+   >
+   >  Workfront 관리자는 시간이 기록되는 문제의 삭제를 허용하지 않을 수 있습니다.\
+   >  문제를 삭제하는 데 필요한 액세스 및 권한에 대한 자세한 내용은 이 문서의 [문제 삭제 고려 사항](#considerations-for-deleting-issues) 섹션을 참조하십시오.
 
 ## 삭제된 문제 복원
 

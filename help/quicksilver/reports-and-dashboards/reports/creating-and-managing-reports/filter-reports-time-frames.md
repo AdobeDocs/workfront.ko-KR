@@ -6,9 +6,9 @@ description: 오브젝트에 있는 날짜의 시간대별로 보고서를 필�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '963'
 ht-degree: 5%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 5%
 
 1. **필터 규칙 추가**&#x200B;를 클릭한 다음 **필드 선택**&#x200B;을 클릭합니다.
 
-1. **필드 선택** 대화 상자에서 **시간**&#x200B;을 선택한 다음 **시작 날짜**&#x200B;를 선택합니다.
+1. **필드 선택** 대화 상자에서 **시간**&#x200B;을 선택한 다음 **시작 날짜**를 선택합니다.
    ![시간대별 시간 보고서 필터링](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. 표시되는 드롭다운에서 다음 옵션 중 하나를 선택합니다.
@@ -186,7 +186,7 @@ Adobe Workfront에는 특정 날짜를 정의하지 않고 사용할 수 있는 
   </tr> 
   <tr> 
    <td role="rowheader">지난 분기</td> 
-   <td> <p>입력 일자가 현재 분기 이전 분기의 일자인 시간을 표시합니다. 여기서 분기는 위에 정의됩니다.</p> <p>참고: Workfront 관리자가 시스템에 대한 사용자 정의 분기를 활성화하고 정의한 경우 분기의 기본 제공 필터는 사용자 정의 분기 정보로 대체됩니다. 사용자 지정 분기 활성화에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">프로젝트에 대한 사용자 지정 분기 활성화</a>를 참조하십시오.</p> </td> 
+   <td> <p>입력 일자가 현재 분기 이전 분기의 일자인 시간을 표시합니다. 여기서 분기는 위에 정의됩니다.</p> <p>참고: Workfront 관리자가 시스템에 대한 사용자 정의 분기를 활성화하고 정의한 경우 분기의 기본 제공 필터는 사용자 정의 분기 정보로 대체됩니다. 사용자 정의 영역 활성화에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">사용자 정의 영역 활성화</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">올해</td> 

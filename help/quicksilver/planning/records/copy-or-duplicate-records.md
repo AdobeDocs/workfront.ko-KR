@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '676'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
@@ -97,7 +97,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 +++
 
 
-## &#x200B;<!--in a record type table (I don't think you can create them elsewhere right now)--> 레코드 복제
+## <!--in a record type table (I don't think you can create them elsewhere right now)--> 레코드 복제
 
 기존 레코드를 복제하여 레코드 유형 페이지의 표 보기에서 레코드를 만들 수 있습니다. 기존 레코드와 동일한 레코드가 생성되어 원본 레코드 아래에 추가됩니다.
 
@@ -139,5 +139,5 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 1. (선택 사항) 다음 키보드 단축키를 사용하여 표 보기에서 새 레코드 또는 해당 정보를 추가할 때 해당 추가 작업을 취소하거나 다시 실행합니다.
 
-   * CTRL+Z(Mac의 경우 ⌘+Z)
-   * 변경 내용을 재실행하려면 CTRL+Shift+Z(Mac의 경우 ⌘+Shift+Z)를 누릅니다.
+   * 변경 내용을 실행 취소하려면 CTRL + Z(⌘ + Z, Mac)
+   * Mac 변경 내용을 다시 실행하려면 CTRL + Shift + Z(⌘ + Shift + Z)를 누릅니다.

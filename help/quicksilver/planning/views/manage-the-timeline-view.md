@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: dae692617f447c446a421207143225b33b51debe
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3512'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
@@ -128,17 +128,51 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
    >
    >    타임라인에서 레코드 정렬이 약식 보기에 표시되지 않습니다.
 
+1. <span class="preview">(조건부) 관리자가 사용자 정의 분기를 활성화했지만 Workfront에서 사용자 정의 분기가 구성된 방법에서 문제를 감지하면 타임라인 보기를 열 때 경고가 표시될 수 있습니다. </span>
+
+   <div class="preview">
+
+   다음과 같은 시나리오가 있습니다.
+
+   * 분기 날짜 사이에 공백이나 겹침이 발견되면 사용자 정의 분기를 설정할 수 있고 편집해야 한다는 알림이 표시될 수 있습니다.
+
+     ![사용자 정의 영역 알림이 없거나 영역 간 간격이 있음](assets/custom-quarter-notification-missing-or-gaps.png)
+
+     >[!TIP]
+     >
+     >이 메시지는 조직이 구매하기 전에 Planning 및 사용자 정의 분기가 이미 활성화된 직후에만 표시되어야 합니다. 조직에 대해 Workfront Planning을 활성화한 후에는 분기 간 중복 및 간격이 허용되지 않습니다.
+
+   * 분기가 부분적으로 설정되어 있고 동일한 연도 내의 일부 월이 누락된 경우 스크롤하여 누락된 분기로 나머지 연도를 설정해야 한다는 누락된 분기를 표시할 때 알림을 받을 수 있습니다.
+
+   ![타임라인 보기에 사용자 지정 분기 원본 메시지가 없습니다](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+
+   이러한 경고 메시지는 각 사용자당 한 번씩 표시됩니다.
+
+   >[!NOTE]
+   >
+   >사용자 정의 분기가 제대로 저장되지 않은 경우 타임라인 보기에 클래식 분기가 표시됩니다.
+   >설정 영역에서 사용자 정의 분기를 설정하면 타임라인 보기에 클래식 분기 대신 사용자 정의 분기가 표시됩니다.
+   >자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
+
+   </div>
+
+1. <span class="preview">(조건부) Workfront 관리자인 경우 **설정으로 이동**&#x200B;을 클릭하여 분기를 설정하십시오. 그렇지 않은 경우 **확인**&#x200B;을 클릭하고 Workfront 관리자에게 사용자 지정 분기를 설정하도록 요청하십시오.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">[설정으로 이동] 단추는 Workfront 관리자에게만 표시됩니다.</span>
+
 1. (선택 사항 및 조건부) 레코드 이름이 잘리면 레코드 막대 위로 마우스를 가져가 레코드의 전체 이름 및 추가 정보를 표시합니다.
 
 1. 다음 중 하나를 수행하여 타임라인을 탐색합니다.
 
    * 왼쪽 및 오른쪽 아이콘을 클릭하거나 가로 스크롤을 사용하여 타임라인에서 앞뒤로 이동합니다. 페이지를 새로 고치면 선택한 시간대가 유지됩니다.
    * 타임라인을 오늘 날짜로 맞추려면 **오늘**&#x200B;을 클릭하세요.
-   * 시간 증분을 업데이트하려면 시간대 드롭다운 메뉴에서 다음 옵션 중 하나를 선택합니다.
+   * 시간 증분을 업데이트하고 보기를 업데이트하려면 시간대 드롭다운 메뉴에서 다음 옵션 중 하나를 선택합니다.
 
-      * 년
-      * 분기
-      * 월
+      * **연도**: 연도 표시가 있는 분기와 월을 표시합니다.
+      * **분기**: 분기가 표시된 월과 주를 표시합니다.
+      * **월**: 주 및 일을 표시합니다.
 1. (선택 사항) 날짜가 같은 줄에 겹치지 않는 레코드를 표시하려면 **작게 보기로 전환**&#x200B;을 클릭합니다. <!--check to see if they updated the name of the setting here-->
 1. (조건부) 모드를 **작게**(으)로 변경한 경우 **표준 보기로 전환** 보기를 클릭하여 레코드를 별도의 줄로 표시합니다. <span class="preview">**표준** 옵션이 기본값입니다.</span>  <!--check to see if they updated the name of the setting here-->
 
@@ -268,6 +302,16 @@ this is not possible right now; if this is the same functionality as the table v
    >* 시작 또는 종료 날짜에 대한 값이 없거나 시작 날짜가 종료 날짜보다 늦은 레코드는 타임라인 보기에 표시되지 않습니다.
    >
    >* 분류 옵션을 사용하여 추가 레코드를 표시하는 경우 시작 및 종료 날짜는 기본 레코드의 날짜가 됩니다. 이 영역에서 연결된 레코드에 대한 시작 및 종료 날짜를 선택할 수 없습니다.
+
+1. <span class="preview">(조건부 및 선택 사항) 사용자가 Workfront 관리자인 경우 **사용자 정의 영역 사용** 상자에서 **설정으로 이동**&#x200B;을 클릭하여 설정 영역으로 이동하여 사용자 정의 영역을 설정합니다. 사용자 정의 분기를 설정한 후 기본 분기 대신 타임라인 보기에 표시할 수 있습니다. Workfront 관리자가 아닌 경우 관리자에게 조직에 대해 사용자 정의 분기를 활성화하도록 요청할 수 있습니다. </span>
+
+   자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
+
+   ![타임라인 보기 설정 내에서 사용자 지정 분기 경고 사용](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+
+   >[!TIP]
+   >
+   ><span class="preview">[설정으로 이동] 단추는 Workfront 관리자에게만 표시됩니다.</span>
 
 1. 왼쪽 패널에서 **막대 스타일**&#x200B;을 클릭하여 레코드 막대에 표시할 정보를 표시합니다.
 
@@ -416,7 +460,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   >**표준 보기로 전환에서 <span class="preview">선택**&#x200B;다시 표시 안 함&#x200B;**&#x200B;** 상자, 보기를 전환하기 전 </span>
+   >**표준 보기로 전환에서 <span class="preview">선택**&#x200B;다시 표시 안 함&#x200B;**** 상자, 보기를 전환하기 전 </span>
    >
    ><span class="preview">이 환경 설정은 현재 브라우저에만 기억됩니다. 브라우저나 컴퓨터를 변경하는 경우 이 환경 설정을 다시 선택해야 합니다.</span>
    >

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">이 페이지 상의 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객이 미리 보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
@@ -43,7 +43,7 @@ Workfront Planning에서 자동화를 사용하여 다음 항목을 생성할 �
 
 * Workfront Planning 레코드
 * 하나 또는 여러 개의 프로젝트
-* A 그룹
+* 그룹
 * 프로그램
 * 포트폴리오
 * 프로젝트
@@ -66,10 +66,10 @@ Workfront Planning에서 자동화를 사용하여 다음 항목을 생성할 �
    <p> 제품</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Adobe Workfront 계획<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
    <td> 
 <p>다음 Workfront 플랜 중 하나:</p> 
 <ul><li>선택</li> 
@@ -86,28 +86,28 @@ Workfront Planning에서 자동화를 사용하여 다음 항목을 생성할 �
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 라이선스*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
    <td> 표준
-   <p>Workfront Planning은 기존 Workfront 라이선스에 사용할 수 없습니다</p> 
+   <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>Adobe Systems Workfront Planning에 대한 액세스 수준 컨트롤은 없습니다</p> 
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p> 
    <p>만들려는 객체 유형(프로젝트, 포트폴리오, 프로그램)의 Workfront에서 객체 만들기에 대한 액세스 권한을 가지고 액세스 권한을 편집합니다. </p>  
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>개체 사용 권한</p></td> 
-   <td> <p>작업 영역 <span class="preview">및 기존 자동화를 사용하여 개체를 만들려는 레코드 종류</span> 에 대한 Contribute 이상의 권한입니다. </p>  
-   <p>Workfront 개체(포트폴리오)에 대한 권한을 관리하여 하위 개체(프로그램 또는 프로젝트)를 추가할 수 있습니다.</p>
-   <p>시스템 관리자에게는 자신이 만들지 않은 작업 영역을 포함한 모든 작업 영역에 대한 관리 권한이 있습니다</p>
+   <td role="rowheader"><p>개체 권한</p></td> 
+   <td> <p>기존 자동화를 사용하여 개체를 만들려는 작업 영역 <span class="preview">과(와) 레코드 종류</span>에 대해 또는 그 이상의 권한을 제공하십시오. </p>  
+   <p>하위 개체(프로그램 또는 프로젝트)를 추가하기 위해 Workfront 개체(포트폴리오)에 대한 권한을 관리합니다.</p>
+   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 관리 권한을 가집니다</p>
    </td> 
   </tr> 
 <tr> 
@@ -126,27 +126,27 @@ Workfront Planning에서 자동화를 사용하여 다음 항목을 생성할 �
 
 * 자동화를 통해 작성된 객체 또는 레코드의 이름은 단일 객체를 작성할 때 작성한 레코드 이름과 동일합니다.
 
-* 여러 프로젝트를 만들면 다음 패턴에 따라 자동으로 이름이 지정됩니다.
+* 여러 프로젝트를 만들 때 다음 패턴에 따라 프로젝트 이름이 자동으로 지정됩니다.
 
   `[ Name of the record ] Name of the field choice`
 
-  자세한 내용은 이 문서의 Workfront Planning 자동화를 사용하여 개체 또는 레코드[&#128279;](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) 만들기 섹션을 참조하십시오.
+  자세한 내용은 이 문서에서 [개체 또는 레코드를 만드는 데 Workfront Planning 자동화 사용](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) 섹션을 참조하십시오.
 
-* 새로 만들기 대상체 또는 레코드는 동일한 필드에 있는 기존 대상체 또는 레코드를 덮어쓰지 않습니다. 동일한 레코드에 대해 동일한 자동화를 여러 번 트리거하면 이전에 생성된 것 외에 원래 레코드의 동일한 연결된 필드에 새 개체 또는 레코드가 추가됩니다.
+* 새 개체 또는 레코드는 동일한 필드의 기존 개체보다 우선하지 않습니다. 동일한 레코드에 대해 동일한 자동화를 여러 번 트리거하면 이전에 만든 레코드 외에 원본 레코드의 연결된 동일한 필드에 새 개체나 레코드가 추가됩니다.
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 
-## Workfront Planning 자동화를 사용하여 개체 또는 레코드 생성
+## Workfront Planning 자동화를 사용하여 객체 또는 레코드 생성
 
-1. Workfront Planning에서 레코드 또는 객체를 자동으로 생성하고 연결하는 데 사용할 자동화가 포함된 레코드 유형 페이지 페이지를 엽니다.
+1. Workfront Planning에서 레코드나 개체를 자동으로 만들고 연결하는 데 사용할 자동화가 포함된 레코드 유형 페이지를 엽니다.
 1. 테이블 뷰를 엽니다.
 1. 하나 이상의 레코드를 선택합니다.
 
    테이블 하단에 자동화 버튼을 비롯한 추가 버튼과 함께 파란색 막대가 표시됩니다.
 1. 파란색 막대에서 자동화 버튼을 클릭합니다.
 
-   ![자동화 버튼](assets/automation-custom-button.png)
+   ![자동화 단추](assets/automation-custom-button.png)
 
    다음과 같은 상황이 발생합니다.
 
@@ -216,7 +216,7 @@ You must have the following access to perform the steps in this article:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
