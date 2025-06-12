@@ -82,7 +82,7 @@ GenStudio for Performance Marketing의 검토 및 승인에 대한 자세한 내
 
 1. 왼쪽 상단의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 패널에서 **검토 및 승인** > **Adobe GenStudio**&#x200B;을 클릭합니다.
-1. **증명 승인 사용**을 사용하도록 설정합니다.
+1. **증명 승인 사용**&#x200B;을 사용하도록 설정합니다.
    ![GenStudio 설정에 대한 증명 사용](assets/enable-proofing-gs.png)
 
 ## Workfront 증명 템플릿을 사용하여 승인 워크플로 정의
