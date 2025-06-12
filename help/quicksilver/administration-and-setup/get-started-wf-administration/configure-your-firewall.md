@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
+source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 페이지에 설명된 절차는 아직 Admin Console에 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
+>이 페이지에 설명된 절차는 Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
 >
->조직에서 Adobe Admin Console에 온보딩한 경우 Adobe을 구성하려면 [허용 목록 앱 및 서비스에 사용할 수 있는 도메인](https://helpx.adobe.com/kr/enterprise/kb/network-endpoints.html)을 참조하십시오.
+>조직이 Adobe Admin Console에 온보딩된 경우 Adobe을 구성하려면 [허용 목록에 추가하다 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)을 참조하십시오.
 >
->조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -79,8 +79,8 @@ ht-degree: 0%
 >* Salesforce용 Workfront
 
 * [클러스터 1, 2, 3, 5, 7, 8 및 9를 허용하는 IP 주소](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* 클러스터 4[&#128279;](#ip-addresses-to-allow-for-cluster-4)에 대해 허용할 IP 주소
-* 클러스터 6[&#128279;](#ip-addresses-to-allow-for-cluster-6)을(를) 허용할 IP 주소
+* 클러스터 4](#ip-addresses-to-allow-for-cluster-4)에 대해 허용할 [IP 주소
+* 클러스터 6](#ip-addresses-to-allow-for-cluster-6)을(를) 허용할 [IP 주소
 * [클러스터 10을 허용할 IP 주소](#ip-addresses-to-allow-for-cluster-10)
 * 테스트 드라이브를 허용할 [IP 주소](#IP%20Addre2)
 * [이벤트 구독을 구현할 때 허용할 IP 주소](#ip-addresses-to-allow-when-implementing-event-subscriptions)
@@ -423,6 +423,7 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com
+* snippet.maze.co
 * *.aptrinsic.com
 * *.static.workfront.com
 
@@ -435,7 +436,7 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-조직이 통합 경험 Adobe에 있는 경우 다음 도메인을 사용합니다. 이러한 도메인은 `*.adobe.com`에 포함되어 있지만 필요한 경우 추가할 수 있습니다.
+조직이 Adobe 통합 경험을 사용하는 경우 다음 도메인을 사용합니다. 이러한 도메인은 `*.adobe.com`에 포함되어 있지만 필요한 경우 추가할 수 있습니다.
 
 * &lt;사용자 도메인>.my.workfront.adobe.com
 * &lt;사용자 도메인>.preview.workfront.adobe.com
@@ -445,12 +446,12 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
 
 Workfront Fusion의 경우 다음 도메인을 추가합니다.
 
-* Adobe 통합 환경에 없는 조직의 경우:
+* Adobe 통합 경험을 기반으로 하지 않는 조직의 경우:
    * app.workfrontfusion.com (미국 AWS)
    * app-eu.workfrontfusion.com (EU AWS)
    * app-az.workfrontfusion.com (미국 Azure)
 
-* 통합 경험 Adobe의 조직용
+* Adobe 통합 경험의 조직용
 (이러한 도메인은 `*.adobe.com`에 포함되어 있지만 필요한 경우 추가할 수 있습니다.)
 
    * fusion.adobe.com
