@@ -97,7 +97,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 +++
 
 
-## <!--in a record type table (I don't think you can create them elsewhere right now)--> 레코드 복제
+## &#x200B;<!--in a record type table (I don't think you can create them elsewhere right now)--> 레코드 복제
 
 기존 레코드를 복제하여 레코드 유형 페이지의 표 보기에서 레코드를 만들 수 있습니다. 기존 레코드와 동일한 레코드가 생성되어 원본 레코드 아래에 추가됩니다.
 
