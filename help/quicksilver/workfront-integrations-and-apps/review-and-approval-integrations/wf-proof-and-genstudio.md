@@ -102,7 +102,7 @@ Workfront에서 자동화된 워크플로우 및 템플릿을 만드는 방법�
 
 사용자가 GenStudio for Performance Marketing에서 검토를 시작할 때 필요한 템플릿을 선택하면 됩니다. 사용자는 언제든지 검토자와 단계를 추가하거나 제거하여 모든 증명 워크플로 템플릿을 쉽게 변경할 수 있습니다.
 
-자세한 내용은 [검토 및 승인 요청](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)을 참조하세요.
+자세한 내용은 [검토 및 승인 요청](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)을 참조하세요.
 
 ## Workfront 증명 뷰어에서 GenStudio for Performance Marketing 초안 콘텐츠 검토 및 승인
 
@@ -114,7 +114,7 @@ Workfront 증명 뷰어의 GenStudio for Performance Marketing에서 직접 초�
 * 초안을 마크업하여 변경해야 하는 항목 표시
 * 결정
 
-자세한 내용은 [콘텐츠 검토 및 편집](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)을 참조하세요.
+자세한 내용은 [콘텐츠 검토 및 편집](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)을 참조하세요.
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ Workfront 증명 뷰어의 GenStudio for Performance Marketing에서 직접 초�
 
 자산이 검토 및 승인 프로세스를 거치고 나면 검토 결정을 보고 GenStudio for Performance Marketing에서 직접 콘텐츠를 게시할 수 있습니다.
 
-자세한 내용은 [승인된 콘텐츠 게시](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)를 참조하십시오.
+자세한 내용은 [승인된 콘텐츠 게시](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)를 참조하십시오.

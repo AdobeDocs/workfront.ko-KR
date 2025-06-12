@@ -113,7 +113,7 @@ ht-degree: 0%
      <li>After Effects </li>
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
-     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> 
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -320,7 +320,7 @@ ht-degree: 0%
 
   [!DNL Adobe Workfront Fusion]은(는) 앱과 서비스 내에서 작업을 연결하여 데이터를 자동으로 전송하고 변환하는 시나리오를 만듭니다. 많은 앱에 대한 전용 커넥터를 보유하고 있지만 공개 API를 사용하여 모든 애플리케이션에 연결할 수 있습니다.
 
-  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan]&#x200B;([!DNL Workfront Fusion] 필요)
