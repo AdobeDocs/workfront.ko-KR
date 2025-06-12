@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5ed9ee77c14948d81ef132e1977b902f8927a620
+source-git-commit: 273db4b8e9b59930dc640a342dbeb276c22ccda3
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -84,21 +84,21 @@ ht-degree: 0%
   </tr> 
  </thead> 
  <tbody> 
- <!--<tr> 
+ <tr> 
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
     <ul> 
-     <li>Integrate the proofing experience with Genstudio for Performance Marketing. With this integration, you can 
+     <li>성능 마케팅을 위해 증명 환경을 Genstudio와 통합합니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다 
      <ul>
-     <li>Use Workfront approval templates to define approval workflows. </li>
-     <li>Review GenStudio draft content in the proofing viewer. </li>
-     <li>See review decisions in GenStudio for final approval and publishing. </li>
+     <li>Workfront 승인 템플릿을 사용하여 승인 워크플로를 정의합니다. </li>
+     <li>증명 뷰어에서 GenStudio 초안 콘텐츠를 검토합니다. </li>
+     <li>최종 승인 및 게시에 대해서는 GenStudio에서 결정 검토 를 참조하십시오. </li>
      </ul>
    </ul>
-     <p>For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>.</p> 
-     </td>  <td><ul><li>You must have licenses for both Workfront and GenStudio for Performance Marketing.</li><li>Your Workfront instance must be on the Adobe Unified Experience.</li><li>Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.</li></ul></td> 
-   <td>The integration can be toggled on in the Workfront Setup area once all the requirements are met. For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>. </td> 
-  </tr> -->
+     <p>자세한 내용은 <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">증명 및 GenStudio for Performance Marketing 통합 시작</a>을 참조하십시오.</p> 
+     </td>  <td><ul><li>Workfront과 GenStudio for Performance Marketing 모두에 대한 라이센스가 있어야 합니다.</li><li>Workfront 인스턴스는 Adobe 통합 환경에 있어야 합니다.</li><li>Workfront 및 GenStudio for Performance Marketing을 동일한 IMS 조직에 배포해야 합니다.</li></ul></td> 
+   <td>모든 요구 사항이 충족되면 Workfront 설정 영역에서 통합을 전환할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">증명 및 GenStudio for Performance Marketing 통합 시작</a>을 참조하십시오. </td> 
+  </tr>
   <tr> 
    <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
@@ -113,7 +113,7 @@ ht-degree: 0%
      <li>After Effects </li>
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
-     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> 
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -320,7 +320,7 @@ ht-degree: 0%
 
   [!DNL Adobe Workfront Fusion]은(는) 앱과 서비스 내에서 작업을 연결하여 데이터를 자동으로 전송하고 변환하는 시나리오를 만듭니다. 많은 앱에 대한 전용 커넥터를 보유하고 있지만 공개 API를 사용하여 모든 애플리케이션에 연결할 수 있습니다.
 
-  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan]&#x200B;([!DNL Workfront Fusion] 필요)
@@ -333,7 +333,7 @@ Workfront과 Experience Manager Assets 또는 Assets Essentials 간의 통합을
 
 Workfront에는 Workfront 환경을 향상시키는 많은 파트너 통합이 있습니다. 기존 파트너 오퍼링의 예로는 Claravine, RWS Group 과의 통합 등이 있습니다.
 
-이러한 파트너 통합 및 기타 파트너 통합에 대한 자세한 내용은 [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE)를 참조하십시오.
+이러한 파트너 통합 및 기타 파트너 통합에 대한 자세한 내용은 [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&partnerLevel=All&product=WRKFRNT&sort=RELEVANCE)를 참조하십시오.
 
 ## [!DNL Workfront] API
 

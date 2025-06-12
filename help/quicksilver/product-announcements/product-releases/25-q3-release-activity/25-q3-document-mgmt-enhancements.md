@@ -1,22 +1,42 @@
 ---
-title: 2025년 3분기 문서 관리 개선 사항
-description: 2025년 3분기 문서 관리 개선 사항
+title: 2025년 3분기 교정 및 문서 관리 개선 사항
+description: 2025년 3분기 교정 및 문서 관리 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
+source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# 2025년 3분기 문서 관리 개선 사항
+# 2025년 3분기 교정 및 문서 관리 개선 사항
 
 이 페이지에서는 미리보기 환경에 대한 2025년 3분기 릴리스의 모든 문서 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
+
+## 새로운 증명 및 GenStudio for Performance Marketing 통합
+
+>[!NOTE]
+>
+>* 모든 고객을 위한 프로덕션 릴리스: 2025년 6월 12일
+
+Proofing과 GenStudio for Performance Marketing 간의 새로운 통합을 소개하게 되어 기쁘게 생각합니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다
+
+* Workfront 승인 템플릿을 사용하여 승인 워크플로 정의
+
+* Workfront 증명 뷰어에서 초안 콘텐츠 검토
+
+* GenStudio for Performance Marketing에서의 최종 승인 및 게시를 위한 검토 결정 을 참조하십시오
+
+### 통합 요구 사항
+
+Workfront 및 GenStudio for Performance Marketing을 동일한 IMS 조직에 배포해야 합니다.
+
+자세한 내용은 [GenStudio for Performance Marketing 및 Workfront Proof 통합 시작](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)을 참조하십시오.
 
 ## Desktop Proofing 뷰어 업데이트
 
