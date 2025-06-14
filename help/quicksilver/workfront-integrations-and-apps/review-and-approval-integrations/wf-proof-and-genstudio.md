@@ -25,7 +25,7 @@ GenStudio for Performance Marketing과 Workfront Proof 간의 통합을 통해 �
 
 * 최종 승인 및 게시를 위한 GenStudio for Performance Marketing의 검토 결정 보기
 
-GenStudio for Performance Marketing의 검토 및 승인에 대한 자세한 내용은 [GenStudio for Performance Marketing과 Workfront Proof 통합](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)을 참조하십시오.
+GenStudio for Performance Marketing의 검토 및 승인에 대한 자세한 내용은 [GenStudio for Performance Marketing과 Workfront Proof 통합](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)을 참조하십시오.
 
 
 ## 액세스 요구 사항
