@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: ec018b8987a45cbf29c8a908f3adbdb8aade9d90
+source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2479'
 ht-degree: 3%
 
 ---
@@ -707,6 +707,33 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 }
 ```
 
+#### containsOnly
+
+이 필터를 사용하면 선택한 값의 전체 집합이 순서에 관계없이 필터의 fieldValue와 정확히 일치하는 경우에만 메시지를 전달할 수 있습니다. 추가 값이나 누락 값이 없어야 합니다.
+
+참고: 배열 유형(다중 선택) 필드에 사용됩니다. 아래 예제 구독에서는 `groups` 필드에 추가 또는 누락 값이 없고 순서에 관계없이 정확히 &quot;Choice 3&quot; 및 &quot;Choice 4&quot;가 포함된 경우에만 메시지를 보낼 수 있습니다.
+
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": [
+                "Choice 3",
+                "Choice 4"
+            ],
+            "state": "newState",
+            "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
 #### 변경
 
 이 필터를 사용하면 지정된 필드(`fieldName`)의 값이 이전 상태와 새 상태에서 다른 경우에만 메시지를 보낼 수 있습니다. 지정한 필드(`fieldName`) 이외의 다른 필드를 업데이트해도 해당 변경 내용이 반환되지 않습니다.
@@ -739,7 +766,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >지정된 필터가 있는 아래 구독은 `oldState`에서 작업 이름이 `again`인 메시지만 반환합니다. 이 메시지는 작업에 대한 업데이트가 이루어지기 전입니다.
->이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
+>>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
 
 ```
 {
