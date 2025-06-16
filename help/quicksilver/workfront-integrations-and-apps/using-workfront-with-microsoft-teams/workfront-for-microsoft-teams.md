@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Microsoft이 새 팀 클라이언트로 전환됨에 따라 2025년 7월 1일 이후에는 클래식 팀 클라이언트를 더 이상 사용할 수 없습니다. 준비 중에, 원활한 전환을 위해 새 팀 클라이언트와 완전히 호환되고 7월 1일 전에 사용할 수 있는 Microsoft Teams 통합의 새 버전을 개발 중입니다.
+>[Microsoft이 새 팀 클라이언트로 전환](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability)됨에 따라 클래식 팀 클라이언트는 2025년 7월 1일 이후에 더 이상 사용할 수 없습니다. Workfront과 같은 Microsoft Teams 및 통합 앱을 계속 사용하려면 이 날짜 이전에 고객이 New Teams 클라이언트로 전환해야 합니다.
 >
->새 팀 클라이언트에서 통합을 다운로드하고 설치하는 방법에 대한 지침은 통합이 릴리스된 후에 사용할 수 있습니다.
+>이제 업데이트된 Workfront 통합을 사용할 수 있으며 새 팀 경험과 완전히 호환됩니다. 대부분의 경우 사용자가 전환되면 Workfront이 자동으로 표시됩니다. 그렇지 않은 경우 Microsoft Teams App Store에서 수동으로 통합을 설치할 수 있습니다. 새 Teams 클라이언트에서 Workfront 통합을 설치하거나 확인하려면 [Microsoft Teams용 설치 [!DNL Adobe Workfront] 를 참조하십시오](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 [!DNL Microsoft Teams]에서 팀 소유자로서 팀에 대한 [!DNL Adobe Workfront for Microsoft Teams] 앱을 설치할 수 있습니다.
 

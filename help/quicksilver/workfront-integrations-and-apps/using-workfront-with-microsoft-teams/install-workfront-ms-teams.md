@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront for Microsoft Teams] 앱을 사용하면  [
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Microsoft이 새 팀 클라이언트로 전환됨에 따라 2025년 7월 1일 이후에는 클래식 팀 클라이언트를 더 이상 사용할 수 없습니다. 준비 중에, 원활한 전환을 위해 새 팀 클라이언트와 완전히 호환되고 7월 1일 전에 사용할 수 있는 Microsoft Teams 통합의 새 버전을 개발 중입니다.
+>[Microsoft이 새 팀 클라이언트로 전환](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability)됨에 따라 클래식 팀 클라이언트는 2025년 7월 1일 이후에 더 이상 사용할 수 없습니다. Workfront과 같은 Microsoft Teams 및 통합 앱을 계속 사용하려면 이 날짜 이전에 고객이 New Teams 클라이언트로 전환해야 합니다.
 >
->새 팀 클라이언트에서 통합을 다운로드하고 설치하는 방법에 대한 지침은 통합을 사용할 수 있으면 여기에 표시됩니다.
+>이제 업데이트된 Workfront 통합을 사용할 수 있으며 새 팀 경험과 완전히 호환됩니다. 대부분의 경우 사용자가 전환되면 Workfront이 자동으로 표시됩니다. 그렇지 않은 경우 Microsoft Teams App Store에서 수동으로 통합을 설치할 수 있습니다.
 
 
 [!DNL Adobe Workfront for Microsoft Teams] 앱을 사용하면 [!DNL Microsoft Teams] 채팅 채널을 떠나지 않고 [!DNL Workfront]에서 기본 작업을 수행할 수 있습니다.
