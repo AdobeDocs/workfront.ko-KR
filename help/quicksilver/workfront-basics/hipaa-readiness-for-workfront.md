@@ -5,19 +5,17 @@ title: Workfront에 대한 HIPAA 준비
 description: HIPAA에 정의된 대로 비즈니스 연결 및/또는 비즈니스 연결을 대신하여 Adobe Workfront을 제공하는 적용 받는 엔티티인 Workfront 고객은 다음 지침을 사용하여 HIPAA 준비 사용을 위해 Workfront을 구성해야 합니다.
 feature: Get Started with Workfront
 author: Courtney
-hide: true
-hidefromtoc: true
-source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
+exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
-
 # Workfront에 대한 HIPAA 준비
 
-HIPAA에 정의된 대로 비즈니스 연관 및/또는 비즈니스 연관이 Adobe Workfront을 대신하여 제공하는 적용 받는 엔티티인 Workfront 고객은 다음 지침을 사용하여 HIPAA 준비 사용을 위해 Workfront을 구성해야 합니다.
+HIPAA에 정의된 대로 비즈니스 연결 및/또는 비즈니스 연결을 대신하여 Adobe Workfront을 제공하는 적용 받는 엔티티인 Workfront 고객은 다음 지침을 사용하여 HIPAA 준비 사용을 위해 Workfront을 구성해야 합니다.
 
 
 ## 암호 요구 사항
@@ -66,5 +64,5 @@ HIPAA에 정의된 대로 비즈니스 연관 및/또는 비즈니스 연관이 
 * ePHI에 액세스할 수 있는 모든 Workfront 데이터베이스의 경우 **EAR(Encryption at Rest)**&#x200B;이(가) 활성화되어 있는지 확인하십시오.
    * EAR이 Workfront 구매에 포함되어 있는지 확인하려면 계정 관리자(AE)에게 문의하십시오.
    * 규정 준수 의무를 충족하도록 Workfront을 통해 액세스할 수 있는 시스템/데이터베이스를 구성합니다.
-* ePHI가 다른 Adobe 솔루션과 전송, 연결 또는 공유되지 않는지 확인합니다.
+* ePHI가 HIPAA가 아닌 다른 Adobe 솔루션과 전송, 연결 또는 공유되지 않도록 합니다.
 * Workfront을 통해 처리된 환자 사진이 안전하게 저장되고 공개적으로 액세스할 수 없도록 합니다.

@@ -8,10 +8,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 0c76cf9ebadaeabee55939969d59ea16d69ed328
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 61%
+source-wordcount: '209'
+ht-degree: 60%
 
 ---
 
@@ -26,6 +26,7 @@ Adobe Workfront의 기본적인 내용을 파악하고 홈이나 우선순위 �
 * [Adobe Workfront 용어 용어집](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [Adobe Workfront 브라우저 요구 사항](../workfront-basics/workfront-browser-requirements.md)
 * [Adobe Workfront에서 지원되는 언어](../workfront-basics/supported-languages-in-workfront.md)
+* [Workfront에 대한 HIPAA 준비](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
 * [Adobe Workfront 탐색: 문서 인덱스](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [우선 순위: 문서 색인](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [홈](../workfront-basics/using-home/home.md)
