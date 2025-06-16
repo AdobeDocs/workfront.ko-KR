@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 11fb8416c4432708b4847486d345ab7a9489f6fb
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 3분기 릴리스의 모든 문서 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
+
+## Desktop Proofing 뷰어 업데이트
+
+Desktop Proofing Viewer가 버전 2.1.50으로 업데이트되었습니다.
+
+이 업데이트에는 내부 도구 업데이트가 포함되어 있으며 최종 사용자 기능에는 영향을 주지 않습니다.
+
+이 업데이트는 Mac 및 Windows 모두에 해당됩니다.
 
 ## 새로운 증명 및 GenStudio for Performance Marketing 통합
 
