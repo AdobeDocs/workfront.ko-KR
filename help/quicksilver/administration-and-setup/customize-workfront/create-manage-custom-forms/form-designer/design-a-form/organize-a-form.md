@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -173,4 +173,9 @@ ht-degree: 0%
 1. [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 양식을 만들거나 편집하고 필드를 추가합니다.
 
 1. 오른쪽 상단의 **미리 보기**&#x200B;를 클릭하여 양식 사용 시 표시되는 모양을 확인한 다음 **미리 보기 종료**&#x200B;를 클릭하여 양식 편집으로 돌아갑니다.
+
+   >[!NOTE]
+   >
+   >고급 논리는 양식 디자이너 미리 보기 모드에서 지원되지 않습니다.
+
 
