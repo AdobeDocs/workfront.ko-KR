@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 5413ab5cfbb06a7e047a4ccab87e82af7c859cab
 workflow-type: tm+mt
-source-wordcount: '13256'
+source-wordcount: '13262'
 ht-degree: 2%
 
 ---
@@ -1730,9 +1730,9 @@ ht-degree: 2%
          * [Tableau Desktop에서 연결을 설정할 수 없음](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [Power BI 도구는 제공된 암호로 연결할 수 없습니다.](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * 리소스 관리 {#manage-resources}
-   * [리소스 관리](resource-mgmt/manage-resources.md)
+   * [리소스 관리: 문서 색인](resource-mgmt/manage-resources.md)
    * 리소스 관리 {#resource-management}
-      * [리소스 관리](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+      * [리소스 관리: 문서 색인](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [리소스 관리 시작](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Adobe Workfront의 리소스 계획 {#resource-planning-in-adobe-workfront}
       * [리소스 계획: 문서 색인](resource-mgmt/resource-planning/resource-planning-overview.md)
@@ -1762,7 +1762,7 @@ ht-degree: 2%
       * [리소스 플래너 예산 시간에 대한 보고서](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [리소스 플래너 표시 제한](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
    * 리소스 사용률 {#resource-utilization}
-      * [리소스 사용률](resource-mgmt/resource-utilization/resource-utilization.md)
+      * [리소스 사용률: 문서 색인](resource-mgmt/resource-utilization/resource-utilization.md)
       * [리소스 활용성 정보 보기](resource-mgmt/resource-utilization/view-utilization-information.md)
    * 업무 균형자 {#the-workload-balancer}
       * [업무 균형자: 문서 색인](resource-mgmt/workload-balancer/workload-balancer.md)
@@ -2139,7 +2139,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
