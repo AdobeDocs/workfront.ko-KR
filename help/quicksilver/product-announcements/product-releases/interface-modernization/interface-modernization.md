@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 95a8d56b82e6d28995f7adc9cf3e23cbb039c096
+source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
 workflow-type: tm+mt
-source-wordcount: '4589'
+source-wordcount: '4583'
 ht-degree: 1%
 
 ---
@@ -260,14 +260,14 @@ For information, see [Create a custom report](/help/quicksilver/reports-and-dash
 
 ### 새 스타일을 사용하여 보고서 업데이트됨
 
-**미리 보기 릴리스: 2025년 6월 12일, 프로덕션 릴리스: 발표 예정**
+**미리 보기 릴리스: 2025년 6월 12일, 프로덕션 릴리스: 6월 19일. 2025년**
 
 Workfront의 다른 영역 디자인에 맞게 여러 보고서의 디자인을 업데이트했습니다. 변경된 기능이 없습니다.
 
 이 업데이트에는 다음 개체 유형에 대한 보고서의 목록 및 도구 모음에 대한 시각적 변경 사항이 포함되어 있습니다.
 
 * 위험
-* 기준선(6월 19일 프로덕션에 릴리스됨) 2025)
+* 기준선
 * 비율
 * 레이아웃 템플릿
 
