@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '3818'
+source-wordcount: '4065'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,17 @@ ht-degree: 0%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
+<!--
+<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div>
+
+-->
+
 Adobe Workfront에서 작업 항목에 대한 시간을 기록하여 작업에 소비한 시간을 나타낼 수 있습니다. 휴가, 병가, 회의 등 업무와 관련 없는 시간도 기록할 수 있다. 기록한 시간이 타임시트에 표시됩니다.
 
 Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은 [시간 유형 관리](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)를 참조하십시오.
@@ -28,8 +39,6 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
 ## 액세스 요구 사항
 
 +++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
-이 문서의 단계를 수행하고 프로젝트별 시간을 기록하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -142,7 +151,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 1. (조건부) 한 번에 50개 이상의 항목을 추가하는 경우 타임시트에 추가된 항목 수를 표시하는 확인 메시지가 표시됩니다.
 
-   모든 항목을 추가하려면 **모두 추가**&#x200B;를 클릭하십시오.
+   모든 항목을 추가하려면 **모두 추가**를 클릭하십시오.
 또는
 선택한 항목의 추가를 중지하려면 **취소**&#x200B;를 클릭하고 항목 목록을 닫으려면 **취소**&#x200B;를 클릭하십시오.
 
@@ -344,11 +353,25 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 1. (선택 사항) 목록에서 작업, 문제 또는 요청을 선택한 다음 **처리**&#x200B;를 클릭합니다.
 1. 시간을 기록할 작업 또는 문제를 마우스로 가리킨 다음 작업 정보 오른쪽에 있는 **시간 기록** 아이콘 ![](assets/log-time-icon-in-new-home.png)을(를) 클릭합니다.
 
-   ![](assets/log-time-ui-for-task-from-new-home.png)
+   **로그 시간** 상자가 표시됩니다.
+
+   ![Log time box for task in Home](assets/log-time-ui-for-task-from-new-home.png)
+
+1. 다음 정보를 지정합니다.
+
+   * **시간 유형**: 기본적으로 표시되는 시간 유형과 다른 경우 드롭다운 메뉴에서 시간 유형을 선택합니다.
+
+     시스템에 구성된 시간 유형에 따라 여기 옵션이 다를 수 있습니다. 시간 유형 구성에 대한 자세한 내용은 [시간 유형 및 가용성 정의](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)를 참조하십시오.
+
+   * **작업 역할**: (조건부) Workfront 또는 그룹 관리자가 **시간 항목에 수동으로 작업 역할 할당** 설정을 활성화한 경우 드롭다운 메뉴에서 **작업 역할**&#x200B;을(를) 선택하십시오. 객체에 지정될 때 지정된 역할이 기본적으로 표시됩니다. 오브젝트에 역할이 할당되지 않은 경우 기본 역할이 기본값으로 표시됩니다. 이 설정에 대한 자세한 내용은 문서 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하십시오.
+
+   * 주별 달력에서 프로젝트, 작업 또는 문제의 시간 수를 입력합니다.
 
 1. **로그 시간**&#x200B;을 클릭합니다.
 
    기록된 시간이 오브젝트의 시간 섹션과 타임시트에 표시됩니다.
+
+   로그 시간 상자의 **총 시간** 필드에는 모든 사용자가 프로젝트, 작업 또는 문제에 대해 기록한 모든 시간이 표시됩니다.
 
 <!--#### Log time on a work item from the legacy Home area
 
@@ -395,7 +418,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >   
    >   일 입력 상자의 오른쪽 상단 모서리에는 하루에 몇 시간이 포함되는지 표시됩니다.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   ![업데이트 영역의 작업에 대한 로그 시간 상자](assets/log-time-box-in-updates-stream.png)
 
 1. 다음 정보를 지정합니다.
 
@@ -405,11 +428,13 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
    * **작업 역할**: (조건부) Workfront 또는 그룹 관리자가 **시간 항목에 수동으로 작업 역할 할당** 설정을 활성화한 경우 드롭다운 메뉴에서 **작업 역할**&#x200B;을(를) 선택하십시오. 객체에 지정될 때 지정된 역할이 기본적으로 표시됩니다. 오브젝트에 역할이 할당되지 않은 경우 기본 역할이 기본값으로 표시됩니다. 이 설정에 대한 자세한 내용은 문서 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하십시오.
 
-   * **시간**: 프로젝트, 작업 또는 문제의 시간 수를 입력합니다.
+   * 주별 달력에서 프로젝트, 작업 또는 문제의 시간 수를 입력합니다.
 
 1. **로그 시간**&#x200B;을 클릭합니다.
 
-   기록된 시간이 오브젝트의 시간 섹션 및 타임시트에 표시됩니다.
+   기록된 시간이 오브젝트의 시간 섹션과 타임시트에 표시됩니다.
+
+   로그 시간 상자의 **총 시간** 필드에는 모든 사용자가 프로젝트, 작업 또는 문제에 대해 기록한 모든 시간이 표시됩니다.
 
 #### 시간 섹션{#hours-section}
 
@@ -429,7 +454,13 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 1. 왼쪽 패널에서 **시간**&#x200B;을 클릭합니다.
 1. **로그 시간**&#x200B;을 클릭합니다.
 
-   로그 시간 대화 상자가 표시됩니다.
+   **로그 시간** 상자가 표시됩니다.
+
+   <!--<div class="preview">
+  
+   ![Log time in the Hours section of a task](assets/log-time-box-in-hours-section-on-task.png)
+
+   </div>-->
 
 1. 다음 정보를 지정합니다.
 
@@ -438,14 +469,19 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
    * **시간 유형**: 기본적으로 표시되는 시간 유형과 다른 경우 드롭다운 메뉴에서 시간 유형을 선택합니다.
 
-     시스템에 구성된 시간 유형에 따라 여기 옵션이 다를 수 있습니다. 시간 유형 구성에 대한 자세한 내용은 [시간 유형 및 가용성 정의](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)를 참조하십시오.
+     시스템에 구성된 시간 유형에 따라 여기 옵션이 다를 수 있습니다.
+
+     시간 유형 구성에 대한 자세한 내용은 [시간 유형 및 가용성 정의](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)를 참조하십시오.
 
    * **작업 역할**: (조건부) Workfront 또는 그룹 관리자가 **시간 항목에 수동으로 작업 역할 할당** 설정을 활성화한 경우 드롭다운 메뉴에서 **작업 역할**&#x200B;을(를) 선택하십시오. 객체에 지정될 때 지정된 역할이 기본적으로 표시됩니다. 오브젝트에 역할이 할당되지 않은 경우 기본 역할이 기본값으로 표시됩니다. 이 설정에 대한 자세한 내용은 문서 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하십시오.
-
-     ![](assets/log-time-box-in-hours-section-on-task.png)
-   * **시간**: 프로젝트, 작업 또는 문제의 시간 수를 입력합니다.
+   * **시간**: 프로젝트, 작업 또는 문제의 시간 수를 입력합니다. <!--<span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span>-->
+   * **참고**: 시간을 설명하는 메모를 추가합니다. **시간 메모** 또는 **시간 설명**(으)로 저장됩니다.
 
 1. **로그 시간**&#x200B;을 클릭합니다.
+
+   기록된 시간이 오브젝트의 시간 섹션과 타임시트에 표시됩니다.
+
+   로그 시간 상자의 **총 시간** 필드에는 모든 사용자가 프로젝트, 작업 또는 문제에 대해 기록한 모든 시간이 표시됩니다.
 
 ### 요약 패널
 

@@ -6,9 +6,9 @@ description: '[!UICONTROL 내 업데이트] 영역을 사용하여 결정을 기
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -74,15 +74,13 @@ ht-degree: 0%
 
 ## [!UICONTROL 내 업데이트] 영역에 액세스
 
-1. **[!UICONTROL 기본 메뉴]**&#x200B;에서 **[!UICONTROL 내 업데이트]**&#x200B;를 클릭합니다.
+{{step1-to-my-updates}}
 
-   ![주 메뉴의 내 업데이트](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+[!UICONTROL 내 업데이트] 영역이 열립니다.
 
-   [!UICONTROL 내 업데이트] 영역이 열립니다.
+귀하에게 할당된 액세스 승인 및 요청이 **내 업데이트** 아래 페이지 전반부에 나열됩니다.
 
-   귀하에게 할당된 액세스 승인 및 요청이 **내 업데이트** 아래 페이지 전반부에 나열됩니다.
-
-   ![검토자를 위한 내 업데이트 언급](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![검토자를 위한 내 업데이트 언급](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (선택 사항) [!UICONTROL **내 업데이트**] 영역의 아래쪽으로 스크롤하여 오른쪽 방향 화살표를 클릭하면 추가 페이지에 표시되는 승인이 더 많이 표시됩니다.
 

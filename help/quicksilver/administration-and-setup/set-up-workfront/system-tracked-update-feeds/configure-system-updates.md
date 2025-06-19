@@ -8,16 +8,24 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 52ba2457ac2870d23e325f64163b683756f88ad4
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '931'
 ht-degree: 8%
 
 ---
 
 # 시스템 업데이트 구성
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 6/2025 -->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 [!DNL Adobe Workfront]은(는) 다음 이벤트를 기록하기 위해 개체의 [!UICONTROL 업데이트] 영역에서 자동 시스템 업데이트를 생성합니다.
 
@@ -49,7 +57,7 @@ ht-degree: 8%
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
    <td><p>새로운 기능: [!UICONTROL Standard]</p>
    또는
    <p>현재: [!UICONTROL Plan]</p>
@@ -62,7 +70,7 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -77,10 +85,6 @@ ht-degree: 8%
 >
 
 
-
-* [ [!DNL Workfront] 추적할 필드 추가](#add-fields-you-want-workfront-to-track)
-* [추적하지 않을 필드 제거](#remove-fields-you-don-t-want-tracked)
-
 ### [!DNL Workfront]에서 추적할 필드 추가 {#add-fields-you-want-workfront-to-track}
 
 [!DNL Workfront] 인터페이스 전체에서 특정 개체 유형에 대해 [!DNL Workfront]이(가) 추적할 필드를 추가할 수 있습니다. 사용자가 해당 필드의 정보를 변경하면 [!DNL Workfront]은(는) 해당 개체에 대한 [!UICONTROL 업데이트] 영역에 시스템 업데이트로 변경 내용을 기록합니다.
@@ -92,18 +96,70 @@ ht-degree: 8%
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **[!UICONTROL 인터페이스]**&#x200B;를 클릭한 다음 **[!UICONTROL 피드 업데이트]**&#x200B;를 클릭합니다.
+1. (선택 사항) **추적된 필드** 탭에서 업데이트 피드에서 추적할 필드 유형에 따라 다음 하위 탭 중 하나를 클릭합니다.
 
-1. **[!UICONTROL &#x200B;필드 추가]**&#x200B;를 클릭한 다음 드롭다운에서 추적할 개체를 선택합니다.
+   * **기본 제공 필드**: 기본 제공 필드 목록을 표시합니다.
+   * **사용자 지정 필드**: 사용자 지정 필드 목록을 표시합니다. 목록에서 사용자 정의 필드를 사용하려면 먼저 사용자 정의 필드를 만들어야 합니다.
+   * **모든 필드**: 기본 제공 필드와 사용자 지정 필드 목록을 표시합니다.
 
-1. 표시되는 상자에서 객체에 대한 기본 제공(표준) 필드 또는 사용자 정의 필드를 입력한 다음 목록에 표시될 때 선택합니다.
+1. **[!UICONTROL 필드 추가]**&#x200B;를 클릭한 다음 드롭다운에서 추적할 개체를 선택합니다.
+
+   업데이트 영역이 있는 모든 객체에는 수동으로 필드를 선택할 수 없습니다.
+
+   다음 개체에 대한 필드에서 선택:
+
+   * 프로젝트
+   * 작업
+   * 문제
+   * 포트폴리오
+   * 프로그램
+   * 사용자
+
+   선택한 각 개체에 대해 **필드 추가** 상자가 열립니다.
+1. **필드 추가** 상자에서 개체에 대한 기본 제공(표준) 필드 또는 사용자 지정 필드를 입력한 다음 목록에 표시될 때 선택합니다.
 
    >[!NOTE]
    >
    >[!DNL Workfront]이(가) 이미 필드를 추적하는 중이면 목록에서 두 번 추가할 수 없습니다.
 
-1. [!DNL Workfront]에서 추적할 모든 필드를 추가한 후 **[!UICONTROL 필드 추가]**&#x200B;를 클릭합니다. 추가한 기본 제공 필드는 **[!UICONTROL 기본 제공 필드]** 하위 탭에 표시되고 사용자 지정 필드는 **[!UICONTROL 사용자 지정 필드]** 하위 탭에 표시됩니다.
+1. [!DNL Workfront]에서 추적할 모든 필드를 추가한 후 **[!UICONTROL 필드 추가]**를 클릭합니다.
+추가한 기본 제공 필드는 **[!UICONTROL 기본 제공 필드]** 하위 탭에 표시되고 사용자 지정 필드는 **[!UICONTROL 사용자 지정 필드]** 하위 탭에 표시됩니다.
+**[!UICONTROL 모든 필드]** 하위 탭에는 [!DNL Workfront]에서 추적하는 기본 제공 필드와 사용자 지정 필드가 모두 표시됩니다.
 
-   **[!UICONTROL 모든 필드]** 하위 탭에는 기본 제공 필드와 추적 중인 사용자 지정 필드가 모두 표시됩니다.
+<!-- replace the above when releasing to Preview: 
+
+1. In the panel on the left, click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
+1. (Optional) In the <span class="preview">**Tracked fields** tab</span>, click one of the following subtabs, depending on which types of fields you want to track in the update feed:
+
+   * <span class="preview">**Built-in fields**</span>: Displays a list of built-in fields.
+   * <span class="preview">**Custom fields**</span>: Displays a list of custom fields. You must create the custom fields before they are available in the list. 
+   * <span class="preview">**All fields**</span>: Displays a list of both built-in and custom fields. 
+
+1. Click <span class="preview">**[!UICONTROL Add fields]**,</span> then select the object that you want to be tracked from the drop-down. 
+
+   Manually selecting fields is not available for all the objects that have an Updates area.
+
+   Select from fields for the following objects:
+
+      * Project
+      * Task
+      * Issue
+      * Portfolio
+      * Program
+      * User
+
+   The <span class="preview">**Add fields** </span> box opens, for each object selected.
+1. In the <span class="preview">**Add fields** </span> box, start typing either a built-in (standard) field or a custom field for the object, then select it when it appears in the list.
+
+   >[!NOTE]
+   >
+   >If [!DNL Workfront] is already tracking the field, you can't add it a second time from the list.
+
+1. After adding all the fields you want [!DNL Workfront] to track, <span class="preview"> click **[!UICONTROL Add]**.
+   The built-in fields that you added show under the **[!UICONTROL Built-in fields]** subtab, and the custom fields show under the **[!UICONTROL Custom fields]** subtab.
+   The **[!UICONTROL All fields]** subtab shows both the built-in and the custom fields that [!DNL Workfront] tracks.</span>
+
+-->
 
 ### 추적하지 않을 필드 제거 {#remove-fields-you-don-t-want-tracked}
 
@@ -117,15 +173,28 @@ ht-degree: 8%
 
 1. 추적을 중지할 필드를 선택한 다음 **[!UICONTROL 제거]**&#x200B;를 클릭합니다.
 
+
+<!--replace above at Preview release with this:
+
+1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
+
+1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
+
+-->
+
 1. 표시되는 **[!UICONTROL 필드 제거]** 상자에서 **[!UICONTROL 예, 제거]**&#x200B;를 클릭하여 확인합니다.
 
-이전에 추적한 필드에 대한 모든 업데이트는 해당 필드가 기록된 [!UICONTROL 업데이트] 영역에서 유지됩니다.
+   이전에 추적한 필드에 대한 모든 업데이트는 해당 필드가 기록된 [!UICONTROL 업데이트] 영역에서 유지됩니다.
 
 ## 개체 유형에 대해 [!DNL Workfront]에서 추적하는 작업 확인
 
-[!DNL Workfront]에서 사용자가 [!DNL Workfront] 인터페이스 전체에서 개체에 대해 수행할 수 있는 다음 작업을 추적할 수 있습니다.
+사용자가 [!DNL Workfront] 인터페이스의 개체에 대해 수행하는 작업을 [!DNL Workfront]에서 추적할 수 있습니다.
 
-예를 들어 [!DNL Workfront]에서 사용자가 작업 또는 문제로 할당을 변경할 때마다 업데이트를 기록할 수 있습니다. 그러면 작업 또는 문제에 대한 [!UICONTROL 업데이트] 영역에 변경 내용이 시스템 업데이트로 나타납니다.
+예를 들어 [!DNL Workfront]에서 사용자가 작업 또는 문제로 할당을 변경할 때마다 업데이트를 기록할 수 있습니다.
+
+그러면 작업 또는 문제에 대한 [!UICONTROL 업데이트] 영역에 변경 내용이 시스템 업데이트로 나타납니다.
+
+다음 표에서는 [!DNL Workfront]의 개체에서 추적할 수 있는 작업을 설명합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -203,4 +272,4 @@ ht-degree: 8%
 1. 작업의 확인란을 선택하여 활성화하거나 선택 해제하여 비활성화합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-작업을 사용하지 않도록 설정하면 해당 작업에 대해 이전에 기록된 모든 업데이트가 기록된 [!UICONTROL 업데이트] 영역에 유지됩니다.
+   작업을 사용하지 않도록 설정하면 해당 작업에 대해 이전에 기록된 모든 업데이트가 기록된 [!UICONTROL 업데이트] 영역에 유지됩니다. [!DNL Workfront]이(가) 비활성화된 작업에 대한 새 업데이트 기록을 중지합니다.

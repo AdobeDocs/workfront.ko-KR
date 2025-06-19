@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: 시스템 추적 업데이트
+title: 시스템 추적 업데이트 개요
 description: Adobe Workfront은 개체의 [!UICONTROL 업데이트] 영역에 상태 정보를 기록하여 특정 개체에서 수행되는 활동을 캡처합니다.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 1%
+source-wordcount: '386'
+ht-degree: 0%
 
 ---
 
-# 시스템에서 추적하는 업데이트
+# 시스템 추적 업데이트 개요
 
-<!-- Audited: April, 2024-->
+<!-- Audited: 06/2025-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -75,7 +75,7 @@ ht-degree: 1%
    * [!UICONTROL 반복]
    * [!UICONTROL 목표]
 
-     [!UICONTROL 목표] 영역에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
+     모든 Workfront 패키지에 Workfront 목표가 포함된 것은 아닙니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
    * 게시판의 [!UICONTROL 카드]
 
      카드 업데이트에 대한 자세한 내용은 [보드에 연결된 카드 사용](../../../agile/get-started-with-boards/connected-cards.md)을 참조하세요.
