@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
+source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 3분기 릴리스의 모든 홈 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
+
+## 내 업데이트 영역의 언급 섹션에서 댓글 달기 환경이 업데이트되었습니다
+
+>[!NOTE]
+>
+>* 미리 보기: 2024년 12월 19일
+>* 프로덕션 빠른 릴리스: 2025년 6월 19일
+>* 모든 고객을 위한 프로덕션: 2025년 6월 19일
+
+내 업데이트 영역의 언급 섹션에서 댓글 달기 경험을 업데이트하고 있습니다. 이제 내 업데이트의 언급 섹션에서 대부분의 Workfront 오브젝트의 업데이트 영역에서도 동일한 경험을 사용할 수 있습니다.
+
+이 기능이 향상되기 전에는 이 영역에서 기존 댓글 달기 환경을 사용할 수 있었습니다.
+
+자세한 내용은 [내 업데이트 영역 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md)을 참조하세요.
 
 ## 이제 승인 위젯이 기한별로 자동으로 정렬됩니다.
 
