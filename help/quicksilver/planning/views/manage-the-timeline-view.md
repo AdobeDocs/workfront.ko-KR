@@ -225,7 +225,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 1. 타임라인 보기를 선택한 다음 표의 오른쪽 상단에 있는 **필터**&#x200B;를 클릭합니다.
 1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
-   * <!-- the tip below might change-->(으)로 필터링할 **필드 선택**
+   * &#x200B;<!-- the tip below might change-->(으)로 필터링할 **필드 선택**
 
    * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
 
@@ -547,7 +547,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   >**표준 보기로 전환에서 <span class="preview">선택**&#x200B;다시 표시 안 함&#x200B;**** 상자, 보기를 전환하기 전 </span>
+   >**표준 보기로 전환에서 <span class="preview">선택**&#x200B;다시 표시 안 함&#x200B;**&#x200B;** 상자, 보기를 전환하기 전 </span>
    >
    ><span class="preview">이 환경 설정은 현재 브라우저에만 기억됩니다. 브라우저나 컴퓨터를 변경하는 경우 이 환경 설정을 다시 선택해야 합니다.</span>
    >
