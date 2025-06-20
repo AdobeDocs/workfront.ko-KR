@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3676'
+source-wordcount: '3633'
 ht-degree: 2%
 
 ---
@@ -34,8 +34,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 ## 액세스 요구 사항
 
 +++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -260,8 +258,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 * 필터를 제거하면 사용자와 동일한 레코드 유형에 액세스하는 모든 사람에서 필터가 제거되며 사용하는 것과 동일한 보기를 사용합니다.
 
-* 테이블 보기에 필터를 추가하는 것은 타임라인 보기에 필터를 추가하는 것과 같습니다.
-
 * 연결된 레코드 필드 또는 조회 필드를 기준으로 필터링할 수 있습니다.
 
 * 여러 값을 표시하는 조회 필드를 기준으로 필터링할 수 있습니다.
@@ -274,7 +270,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 1. 표 보기를 선택한 다음 표의 오른쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다.
 1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
-   * &#x200B;<!-- the tip below might change-->(으)로 필터링할 **필드 선택**
+   * <!-- the tip below might change-->(으)로 필터링할 **필드 선택**
 
    * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
 
@@ -432,8 +428,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 보기에 그룹화를 적용할 때 유사한 정보별로 레코드를 그룹화할 수 있습니다.
 
-표 보기에서 그룹화를 추가하는 것은 타임라인 보기에 그룹화를 추가하는 것과 비슷합니다.
-
 다음 사항을 고려하십시오.
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
@@ -464,6 +458,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
    그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
 
+   <!--replace screen shot for Expand all-->
+
    ![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)
 
 1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
@@ -475,6 +471,26 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 1. **레코드 그룹화 기준** 상자 바깥쪽을 클릭하여 닫습니다.
 1. (선택 사항) 그룹화 끝에 있는 **+ 새 레코드**&#x200B;을 클릭하여 새 레코드를 추가한 다음 페이지를 새로 고쳐 새 레코드를 적절한 그룹화에 추가합니다. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
+<!--
+
+1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+
+    <div class="preview">
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.</div>
+-->
 
 <!-- this is not available yet: 
 

@@ -5,7 +5,7 @@ description: 리소스 계획의 일부로, 프로젝트 수준 리소스 플래
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 리소스 플래너를 사용한 비즈니스 사례의 예산 리소스
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 리소스 계획의 일부로, 프로젝트 수준 리소스 플래너를 사용하여 비즈니스 사례를 작성할 때 프로젝트에서 작업을 완료하는 데 필요한 작업 역할의 예산을 책정할 수 있습니다.
 
@@ -35,23 +35,23 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
    <td> <p>현재: Prime 이상</p>
    <p>레거시: Pro 이상</p> 
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
    <td> <p>전류: 라이트 이상</p>
    <p>레거시: 검토 이상</p>
 
 <p><b>중요 사항:</b></p> 
-   <p>신규: 리소스 예산 정보를 수정하려면 표준 라이센스가 있어야 합니다. </p> 
-   <p>현재: 자원 예산 책정 정보를 수정하려면 계획 라이센스가 있어야 합니다. </p>
+   <p>현재: 리소스 예산 정보를 수정하려면 Standard 라이센스가 있어야 합니다. </p> 
+   <p>레거시: 리소스 예산 정보를 수정하려면 플랜 라이선스가 있어야 합니다. </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
    <td> <p>다음에 대한 액세스 권한 편집: </p> 
     <ul> 
      <li> <p>프로젝트</p> </li> 
@@ -60,13 +60,13 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td role="rowheader"><p>개체 권한</p></td> 
    <td> <p>프로젝트에 대한 권한 관리</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

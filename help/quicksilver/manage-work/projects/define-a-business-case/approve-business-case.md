@@ -5,14 +5,16 @@ description: 프로젝트 요청에 대한 비즈니스 사례를 완료하고 �
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
 
 # 비즈니스 사례 승인
+
+<!--Audit: 6/2025-->
 
 프로젝트 요청에 대한 비즈니스 사례를 완료하고 제출한 후 비즈니스 사례를 승인해야 합니다. 이는 조직의 워크플로에 따라 다릅니다. 비즈니스 사례를 승인하지 않아도 프로젝트를 시작할 수 있지만, Adobe Workfront 관리자 및 프로젝트 소유자는 그렇게 하는 것이 이상적이라고 생각하지 않을 수 있습니다.
 
@@ -27,30 +29,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
    <td> 
-   <p>현재: Prime 이상</p> 
-   <p>레거시: Pro 이상</p> 
+   <p>현재: Prime 이상</p>
+   <p>또는</p>
+   <p>레거시: 비즈니스 이상</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> 
    <p>현재: 표준 </p> 
    <p>레거시: 플랜 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td role="rowheader"><p>개체 권한</p></td> 
+   <td> <p>프로젝트에 대한 권한 관리</p> <p>포트폴리오에 대한 권한 보기 이상</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

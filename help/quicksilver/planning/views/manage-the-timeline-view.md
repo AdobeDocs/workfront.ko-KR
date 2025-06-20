@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: dae692617f447c446a421207143225b33b51debe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3512'
-ht-degree: 0%
+source-wordcount: '3788'
+ht-degree: 2%
 
 ---
 
@@ -28,8 +28,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 ## 액세스 요구 사항
 
 +++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -146,7 +144,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
    ![타임라인 보기에 사용자 지정 분기 원본 메시지가 없습니다](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
-   이러한 경고 메시지는 각 사용자당 한 번씩 표시됩니다.
+   사용자 정의 분기에 대한 경고 메시지는 각 사용자당 한 번씩 표시됩니다.
 
    >[!NOTE]
    >
@@ -162,12 +160,12 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
    >
    ><span class="preview">[설정으로 이동] 단추는 Workfront 관리자에게만 표시됩니다.</span>
 
-1. (선택 사항 및 조건부) 레코드 이름이 잘리면 레코드 막대 위로 마우스를 가져가 레코드의 전체 이름 및 추가 정보를 표시합니다.
+1. (선택 사항 및 조건부) 레코드 이름이 잘리면 레코드 막대 위로 마우스를 가져가 레코드의 전체 이름 및 추가 정보를 표시합니다. 타임라인에서 레코드 막대 자르기 설정에 대한 자세한 내용은 이 문서의 [타임라인 보기 설정 편집](#edit-the-timeline-view-settings) 섹션을 참조하십시오.
 
 1. 다음 중 하나를 수행하여 타임라인을 탐색합니다.
 
-   * 왼쪽 및 오른쪽 아이콘을 클릭하거나 가로 스크롤을 사용하여 타임라인에서 앞뒤로 이동합니다. 페이지를 새로 고치면 선택한 시간대가 유지됩니다.
-   * 타임라인을 오늘 날짜로 맞추려면 **오늘**&#x200B;을 클릭하세요.
+   * 왼쪽 위 모서리에서 왼쪽 및 오른쪽 아이콘을 클릭하거나 가로 스크롤을 사용하여 타임라인에서 앞뒤로 이동합니다. 페이지를 새로 고치면 선택한 시간대가 유지됩니다.
+   * 타임라인을 오늘 날짜로 맞추려면 오른쪽 상단의 **오늘**&#x200B;을 클릭하세요.
    * 시간 증분을 업데이트하고 보기를 업데이트하려면 시간대 드롭다운 메뉴에서 다음 옵션 중 하나를 선택합니다.
 
       * **연도**: 연도 표시가 있는 분기와 월을 표시합니다.
@@ -218,12 +216,105 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
 * 필터를 제거하면 사용자와 동일한 레코드 종류에 액세스하고 사용자와 동일한 보기를 표시하는 모든 사용자에서 필터가 제거됩니다.
 
-* 타임라인 보기에서 필터를 추가하는 것은 테이블 보기에서 필터를 추가하는 것과 동일합니다.
-
-  자세한 내용은 문서 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)의 &quot;필터 추가&quot; 섹션을 참조하십시오.
-
 * 연결된 레코드 필드 또는 조회 필드를 기준으로 필터링할 수 있습니다.
 * 여러 값을 표시하는 조회 필드를 기준으로 필터링할 수 있습니다.
+
+타임라인 보기에 필터를 추가하려면 다음을 수행합니다.
+
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형 페이지에 대한 타임라인 보기를 만듭니다.
+1. 타임라인 보기를 선택한 다음 표의 오른쪽 상단에 있는 **필터**&#x200B;를 클릭합니다.
+1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
+
+   * <!-- the tip below might change-->(으)로 필터링할 **필드 선택**
+
+   * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
+
+     아래 표에는 각 필드 유형에 사용할 수 있는 수정자가 표시됩니다.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>필드 유형</b></th>
+            <th><b>수정자</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>한 줄, 단락, 공식 </td>
+            <td><p>다음 포함</p>
+            <p>다음을 포함하지 않음</p>
+            <p>다음과 같음</p>
+            <p>다음이 아님</p>
+            <p>비어 있음</p>
+            <p>비어 있지 않음</p></td>
+        </tr>
+        <tr><td>단일 선택</td>
+            <td><p>다음과 같음</p>
+            <p>다음이 아님</p>
+            <p>다음 중 하나</p>
+            <p>다음에 해당하지 않음</p>
+            <p>비어 있음</p>
+            <p>비어 있지 않음</p></td>
+        </tr>
+        <tr>
+            <td>다중 선택, 사람</td>
+            <td><p>다음 중 하나 포함</p>
+            <p>다음을 모두 포함</p>
+            <p>다음이 정확함</p>
+            <p>다음 중 어느 것도 포함하지 않음</p>
+            <p>비어 있음</p>
+            <p>비어 있지 않음</p></td>
+        </tr>
+        <tr>
+            <td>숫자, 백분율, 통화</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>비어 있음</p>
+            <p>비어 있지 않음</p></td>
+        </tr>
+        <tr>
+            <td>일자</td>
+            <td><p>다음과 같음</p>
+            <p>다음이 아님</p>
+            <p>다음 이후</p>
+            <p>다음 이전</p>
+            <p>다음 사이에 있음</p><p>다음 사이에 없음</p>
+            <p>비어 있음</p><p>비어 있지 않음</p></td>
+        </tr>
+
+     <tr>
+            <td>확인란</td>
+            <td><p>다음과 같음</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * 선택한 필드의 값을 선택합니다.
+
+   ![UI 테이블 보기 필터링](assets/filter-ui-table-view.png)
+
+   추가할 수 있는 필터링 조건 수에는 제한이 없습니다.
+
+1. (선택 사항) 다른 필터링 옵션을 추가하고 위의 단계를 반복하려면 **조건 추가**&#x200B;를 클릭하십시오. 적용된 필터 수는 **필터** 아이콘 왼쪽에 표시됩니다.
+1. 왼쪽에 있는 다음 연산자를 클릭하여 필터 조건을 결합하고 적용해야 하는 방법을 나타냅니다.
+
+   * **AND**: 지정한 조건을 모두 충족해야 합니다.
+   * **OR**: 지정한 조건을 모두 충족해야 합니다.
+기본 옵션입니다.
+
+   1. (선택 사항) 필터 그룹화를 추가하고 **AND** 또는 **OR** 연산자로 결합하십시오.
+
+      ![보기의 다중 계층 필터](assets/multi-tiered-filters-in-views.png)
+
+   레코드 목록은 필터 조건에 따라 자동으로 필터링됩니다.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (선택 사항) 필터 조건을 제거하려면 **x** 아이콘을 클릭하십시오.
+1. (선택 사항) **필터** 또는 페이지의 다른 위치를 클릭하여 필터 상자를 닫습니다. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 ### 그룹화 추가
@@ -231,8 +322,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 보기에 그룹화를 적용할 때 유사한 정보별로 레코드를 그룹화할 수 있습니다.
-
-타임라인 보기에서 그룹화를 추가하는 것은 테이블 보기에 그룹화를 추가하는 것과 비슷합니다.
 
 타임라인 보기에서 그룹화를 사용하여 작업할 때 다음 사항을 고려하십시오.
 
@@ -320,7 +409,7 @@ this is not possible right now; if this is the same functionality as the table v
    레코드의 테이블 보기에서 정의된 레코드의 기본 필드(또는 제목)는 기본적으로 선택됩니다.
    <!--adjust this when the primary field is released??-->
 
-1. (선택 사항 및 조건부) 레코드에 썸네일을 추가한 경우 썸네일 옵션을 선택하여 레코드와 연관된 이미지를 레코드 표시줄에 표시합니다.
+1. (선택 사항 및 조건부) 레코드에 썸네일을 추가한 경우 **썸네일** 옵션을 선택하여 레코드와 연결된 이미지를 레코드 표시줄에 표시합니다.
 
    >[!NOTE]
    >
@@ -340,13 +429,13 @@ this is not possible right now; if this is the same functionality as the table v
 
    미리 보기로 ![레코드 세부 정보 패널 타임라인 설정](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">(선택 사항 및 조건부) 표준 모드에서 타임라인을 표시하는 경우 **막대 세부 정보 자르기** 설정을 사용하도록 설정합니다. 활성화되면 레코드 막대에 대한 정보는 잘리고 막대를 마우스로 가리키면 완전히 표시됩니다. 이 설정은 기본적으로 비활성화되며 정보는 막대에 완전히 표시됩니다. </span>
+1. <span class="preview">(선택 사항 및 조건부) 표준 모드에서 타임라인을 표시하는 경우 **막대 세부 정보 자르기** 설정을 선택합니다. 선택하면 레코드 막대의 정보가 잘리며 막대를 마우스로 가리키면 완전히 표시됩니다. 이 설정은 기본적으로 선택 취소되며 레코드 정보가 막대에 완전히 표시됩니다. </span>
 
    ![타임라인 설정 상자에 설정된 잘라내기 설정이 강조 표시됨](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">축소 모드에서 타임라인 보기를 표시할 때는 막대 세부 정보 자르기 설정을 사용할 수 없으며 달력 보기에서는 사용할 수 없습니다.</span>
+   ><span class="preview">축소 모드에서 타임라인 보기를 표시할 때는 막대 세부 정보 자르기 설정을 사용할 수 없습니다.</span>
    >
 
 1. 타임라인에서 레코드와 그룹화의 색상을 사용자 지정하려면 왼쪽 패널에서 **색상**&#x200B;을 클릭합니다.
@@ -392,13 +481,11 @@ this is not possible right now; if this is the same functionality as the table v
 
    선택한 레코드 유형에 대해 색상으로 구분된 옵션이 있는 필드가 없는 경우 이 옵션은 흐리게 표시됩니다.
 
-1. <span class="preview">(선택 사항) [분류] 옵션을 사용하는 경우 타임라인에 표시된 연결된 각 레코드에 대해 4단계부터 시작하는 단계를 반복합니다. </span>
+1. <span class="preview">(선택 사항) **분류** 옵션을 사용하는 경우 타임라인에 표시된 연결된 각 레코드에 대해 4단계부터 시작하는 단계를 반복합니다. </span>
 
 1. **저장**&#x200B;을 클릭합니다.
 
    선택한 사양과 함께 레코드가 타임라인 보기에 표시됩니다.
-
-
 
 ### 타임라인 보기에서 연결된 레코드 분류
 
@@ -460,7 +547,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   >**표준 보기로 전환에서 <span class="preview">선택**&#x200B;다시 표시 안 함&#x200B;**&#x200B;** 상자, 보기를 전환하기 전 </span>
+   >**표준 보기로 전환에서 <span class="preview">선택**&#x200B;다시 표시 안 함&#x200B;**** 상자, 보기를 전환하기 전 </span>
    >
    ><span class="preview">이 환경 설정은 현재 브라우저에만 기억됩니다. 브라우저나 컴퓨터를 변경하는 경우 이 환경 설정을 다시 선택해야 합니다.</span>
    >

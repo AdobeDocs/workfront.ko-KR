@@ -6,16 +6,16 @@ description: 위험은 프로젝트가 정시 또는 예산 내에서 완료되�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
 
 # 프로젝트에 대한 위험 만들기 및 편집
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -44,27 +44,30 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> 
-   <p>임의</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
+   <td> <p>현재 플랜:</p>
+   <ul><li>프로젝트의 위험 영역에 위험을 추가하는 모든 계획</p></li>
+   <li><p>Prime 이상: 프로젝트의 비즈니스 사례에 위험 추가</p></li></ul>
+   <p>레거시 플랜: 모든 플랜</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 표준 </p>
-   <p>현재: 플랜 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
+   <td> <p>현재: 표준 </p>
+   <p>레거시: 플랜 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
    <td> <p>프로젝트 및 재무 데이터에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td role="rowheader"><p>개체 권한</p></td> 
    <td> <p> 위험을 만들거나 편집할 프로젝트에 대한 재무 관리를 포함하는 권한을 관리합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

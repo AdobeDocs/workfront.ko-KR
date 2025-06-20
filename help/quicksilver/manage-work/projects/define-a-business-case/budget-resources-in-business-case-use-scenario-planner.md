@@ -5,14 +5,16 @@ description: 리소스 계획의 일부로, Adobe Workfront 시나리오 플래�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
 # 시나리오 플래너를 사용하는 비즈니스 사례의 예산 리소스
+
+<!--Audited: 06/2025-->
 
 리소스 계획의 일부로, Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례를 작성할 때 프로젝트에서 작업을 완료하는 데 필요한 작업 역할의 예산을 책정할 수 있습니다.
 
@@ -33,7 +35,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,19 +44,22 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>비즈니스 이상</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
+   <td><p>현재: Ultimate</p> 
+   <p>레거시: 비즈니스 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>검토 이상</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
+   <td><p>전류: 라이트 이상 
+   <p>레거시: 검토 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">제품</td> 
-   <td> <p>이 문서에 설명된 기능에 액세스하려면 Adobe Workfront 시나리오 플래너에 대한 추가 라이선스를 구입해야 합니다.</p> <p>Workfront 시나리오 플래너를 얻는 방법에 대한 자세한 내용은 <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">시나리오 플래너를 사용하는 데 필요한 액세스</a>를 참조하십시오. </p> </td> 
+   <td role="rowheader"><p>제품</p></td> 
+   <td><p>시나리오 플래너는 현재 Ultimate Workfront 플랜에 포함되어 있습니다.</p> 
+   <p>기존 Workfront 플랜의 경우 이 문서에 설명된 기능에 액세스하려면 Workfront 라이선스 외에 Adobe Workfront Scenario Planner용 라이선스를 구입해야 합니다.</p> <p>Workfront 시나리오 플래너를 얻는 방법에 대한 자세한 내용은 <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">시나리오 플래너를 사용하는 데 필요한 액세스</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
    <td> <p>다음에 대한 액세스 권한 편집: </p> 
     <ul> 
      <li> <p>프로젝트</p> </li> 
@@ -63,13 +68,15 @@ ht-degree: 0%
     </ul> <p>리소스 예산에 필요한 액세스에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Adobe Workfront에서 리소스 예산에 필요한 액세스</a>도 참조하세요.</p> <p>참고: 여전히 액세스 권한이 없는 경우 Adobe Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td role="rowheader"><p>개체 권한</p></td> 
    <td> <p>프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
