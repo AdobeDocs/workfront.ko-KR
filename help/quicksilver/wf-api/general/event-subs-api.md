@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
+source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2632'
 ht-degree: 3%
 
 ---
@@ -711,7 +711,9 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 이 필터를 사용하면 선택한 값의 전체 집합이 순서에 관계없이 필터의 fieldValue와 정확히 일치하는 경우에만 메시지를 전달할 수 있습니다. 추가 값이나 누락 값이 없어야 합니다.
 
-참고: 배열 유형(다중 선택) 필드에 사용됩니다. 아래 예제 구독에서는 `groups` 필드에 추가 또는 누락 값이 없고 순서에 관계없이 정확히 &quot;Choice 3&quot; 및 &quot;Choice 4&quot;가 포함된 경우에만 메시지를 보낼 수 있습니다.
+>[!NOTE]
+>
+>배열 유형(다중 선택) 필드에 사용됩니다. 아래 예제 구독에서는 `groups` 필드에 추가 또는 누락 값이 없고 순서에 관계없이 정확히 &quot;Choice 3&quot; 및 &quot;Choice 4&quot;가 포함된 경우에만 메시지를 보낼 수 있습니다. 문자열 또는 정수가 배열이 아닌 `fieldValue`에 지정된 경우 구독에서는 `groups` 필드에 정확히 하나의 옵션이 포함되어 있고 해당 옵션이 `fieldValue`에 지정된 문자열 또는 정수와 정확히 일치하는 경우에만 메시지를 보낼 수 있습니다.&quot;
 
 
 ```
@@ -729,6 +731,31 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
             ],
             "state": "newState",
             "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
+#### notContains
+
+이 필터를 사용하면 지정된 필드(`fieldName`)에 지정된 값(`fieldValue`)이 포함되지 않은 경우에만 메시지를 보낼 수 있습니다.
+
+>[!NOTE]
+>
+>배열 유형(다중 선택) 또는 문자열 필드에 사용됩니다. 필드가 문자열이면 지정된 값이 문자열에 포함되지 않았는지(예: &quot;New&quot;는 &quot;Project - Updated&quot; 문자열에 없음) 확인합니다. 필드가 배열이고 지정된 필드 값이 문자열 또는 정수인 경우 배열에 지정된 값이 없는지 확인합니다(예: [&quot;Choice 2&quot;, &quot;Choice 3&quot;]에 없는 &quot;Choice 1&quot;). 아래 예제 구독에서는 `groups` 필드에 문자열 &quot;Group 2&quot;가 포함되지 않은 경우에만 메시지를 보낼 수 있습니다.
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": "Group 2",
+            "state": "newState",
+            "comparison": "notContains"
         }
     ]
 }
@@ -766,7 +793,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >지정된 필터가 있는 아래 구독은 `oldState`에서 작업 이름이 `again`인 메시지만 반환합니다. 이 메시지는 작업에 대한 업데이트가 이루어지기 전입니다.
->&#x200B;>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
+>>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
 
 ```
 {
