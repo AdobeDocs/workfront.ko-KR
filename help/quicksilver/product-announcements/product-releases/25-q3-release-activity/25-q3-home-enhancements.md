@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,7 @@ ht-degree: 0%
 
 기본적으로 기한(내림차순)별로 정렬하도록 홈의 내 승인 위젯을 업데이트했습니다. 이렇게 하면 가장 긴급한 승인이 목록의 맨 위에 표시됩니다.
 
+현재 내 승인 위젯에서는 증명 승인만 기한별로 정렬할 수 있습니다.
+
 이전에는 위젯이 시작 날짜별로 정렬되어 우선 순위를 결정하기 어려웠습니다.
+
