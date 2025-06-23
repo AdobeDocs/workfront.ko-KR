@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: d5b0043ed251bfdb6501d091cf10d77685bc497b
 workflow-type: tm+mt
-source-wordcount: '13266'
+source-wordcount: '13201'
 ht-degree: 2%
 
 ---
@@ -1699,17 +1699,6 @@ ht-degree: 2%
          * [대시보드 공유](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [대시보드에서 외부 페이지 제거](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [캔버스 대시보드 개요](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * 향상된 분석 {#enhanced-analytics}
-      * [향상된 분석](enhanced-analytics/enhanced-analytics.md)
-      * [향상된 분석 개요](enhanced-analytics/enhanced-analytics-overview.md)
-      * [향상된 분석에서 필터 적용](enhanced-analytics/use-enhanced-analytics-filters.md)
-      * [향상된 분석 KPI 이해](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-      * [향상된 분석에서 플라이트 플랜 시각화 보기](enhanced-analytics/flight-plan-overview.md)
-      * [향상된 분석에서 번다운 시각화 보기](enhanced-analytics/burndown-overview.md)
-      * [향상된 분석에서 진행 중인 작업 시각화 보기](enhanced-analytics/tasks-in-flight-overview.md)
-      * [향상된 분석에서 프로젝트 활동 시각화 보기](enhanced-analytics/project-activity-overview.md)
-      * [향상된 분석에서 프로젝트 트리맵 시각화 보기](enhanced-analytics/project-treemap-overview.md)
-      * [향상된 분석에서 팀별 활동 시각화 보기](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Workfront Data Connect 개요](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Snowflake에 대한 Reader 계정 또는 연결 만들기](reports-and-dashboards/data-lake/create-a-reader-account.md)
@@ -2139,7 +2128,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
