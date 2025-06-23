@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3804'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
    * 날짜 기록
    * 시스템 생성 필드 기록: 생성 날짜, 마지막 수정 날짜
-   * 연결된 레코드 또는 개체 유형에서 날짜를 조회합니다.
+   * 연결된 레코드 또는 개체 유형에서 날짜를 조회합니다(레코드 또는 개체 유형을 연결했을 때 집계자를 추가한 경우에만).
 * 레코드와 연결된 날짜에 따라 다음 시나리오에서 일부 레코드가 타임라인 보기에 표시되지 않을 수 있습니다.
 
    * 시작 및 종료 날짜에 값이 없는 경우
@@ -225,7 +225,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 1. 타임라인 보기를 선택한 다음 표의 오른쪽 상단에 있는 **필터**&#x200B;를 클릭합니다.
 1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
-   * &#x200B;<!-- the tip below might change-->(으)로 필터링할 **필드 선택**
+   * <!-- the tip below might change-->(으)로 필터링할 **필드 선택**
 
    * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
 
@@ -547,7 +547,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   >**표준 보기로 전환에서 <span class="preview">선택**&#x200B;다시 표시 안 함&#x200B;**&#x200B;** 상자, 보기를 전환하기 전 </span>
+   >**표준 보기로 전환에서 <span class="preview">선택**&#x200B;다시 표시 안 함&#x200B;**** 상자, 보기를 전환하기 전 </span>
    >
    ><span class="preview">이 환경 설정은 현재 브라우저에만 기억됩니다. 브라우저나 컴퓨터를 변경하는 경우 이 환경 설정을 다시 선택해야 합니다.</span>
    >
