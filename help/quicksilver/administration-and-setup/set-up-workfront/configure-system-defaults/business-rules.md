@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
+source-git-commit: 1cf16fd93de383aae66ba810ad85dd00806b8237
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1341'
 ht-degree: 2%
 
 ---
@@ -99,6 +99,8 @@ API 와일드카드는 비즈니스 규칙에서도 사용할 수 있습니다. 
   ```
   IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
   ```
+
+시스템은 트리거당 개체당 하나의 비즈니스 규칙을 허용합니다. 예를 들어 문제에 대해 하나의 편집 트리거 규칙이 허용됩니다. 그러나 중첩된 IF 문이 있는 수식에 여러 규칙을 포함할 수 있습니다.
 
 중첩된 IF 문이 있는 시나리오는 다음과 같습니다.
 
