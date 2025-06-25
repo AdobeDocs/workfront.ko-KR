@@ -7,9 +7,9 @@ description: 증명 역할을 사용하면 개별 증명에 대한 권한을 부
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
+source-git-commit: 93452926a27026f2b0e8a7a807381d562d7cbb01
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,6 @@ ht-degree: 1%
 ## 교정쇄 역할
 
 증명 역할은 사용자가 증명을 검토하도록 초대될 때 개별 증명에 대한 사용자에게 부여됩니다. Workfront Pro+ 플랜이 있는 경우 작업 또는 플랜 라이선스로 사용자에게 증명 역할을 부여할 수 있습니다. Workfront Premium 레거시 플랜이 있는 경우 지정된 증명 라이선스로 사용자에게 증명 역할을 부여할 수 있습니다. 자세한 내용은 [Workfront의 증명 기능에 액세스](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)를 참조하십시오.
-
->[!NOTE]
->
->새 Workfront 플랜의 사용자는 시스템의 모든 사용자에게 작성자 또는 중재자 역할을 부여할 수 있습니다. 기존 플랜의 사용자는 시스템에서 증명 라이선스가 있는 모든 사용자에게 작성자 또는 중재자 역할을 부여할 수 있습니다.
 
 증명 역할은 검토자가 해당 특정 증명과 관련하여 취할 수 있는 작업을 정의합니다.
 
@@ -68,7 +64,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p><strong>읽기 전용</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -77,90 +73,94 @@ ht-degree: 1%
    <td> </td> 
    <td> </td> 
    <td> <p> </p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>검토자</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
    <td></td> 
    <td> <p> </p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>승인자</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
    <td></td> 
    <td> <p> </p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>검토자 및 승인자</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
    <td></td> 
    <td> <p> </p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>작성자</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p><strong>작성자*</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>중재자</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ <strong>개</strong> </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> <p> </p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td> <p><strong>중재자*</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p><strong>✓</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> <p> </p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
+
+<p>* 새 Workfront 플랜의 사용자는 시스템의 모든 사용자에게 작성자 또는 중재자 역할을 부여할 수 있지만 Standard 라이선스를 가진 사용자만 해당 역할과 관련된 모든 기능을 사용할 수 있습니다.
+
+기존 플랜의 사용자는 시스템에서 증명 라이선스가 있는 모든 사용자에게 작성자 또는 중재자 역할을 부여할 수 있습니다.</p>
