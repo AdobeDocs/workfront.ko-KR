@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: e53f845a00245049ac78616848d243453b2d57eb
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 9%
+source-wordcount: '848'
+ht-degree: 10%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 9%
 데이터는 중첩 필터링을 사용하여 필터링할 수 있습니다. 자세한 내용은 문서 이벤트 구독 API에서 [중첩된 필터 사용](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters)을 참조하십시오.
 
 다음 표에는 이벤트 구독 리소스에 사용할 수 있는 필드가 나열되어 있습니다.
+
+>[!NOTE]
+>
+>일부 개체는 이벤트 구독 버전 2에서만 사용할 수 있습니다. 이 객체는 표에 표시됩니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,6 +38,200 @@ ht-degree: 9%
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td>승인<p>(이벤트 하위 v2)</p></td> 
+   <td>승인</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>상태</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>승인 단계<p>(이벤트 하위 v2)</p></td> 
+   <td>approval_stage</td> 
+   <td>승인 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 이름 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>상태</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>승인 단계 참가자<p>(이벤트 하위 v2)</p></td> 
+   <td>approval_stage_participant</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 결정 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 결정 날짜 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 결정 사용자 ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 참가자 ID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 참가자 메타데이터 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 참가자 역할 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 참가자 유형 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 실제 사용자 ID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> requesterID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> stageID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>상태</td> 
+  </tr> 
   <tr> 
    <td>할당</td> 
    <td>ASSIGN</td> 
@@ -806,7 +1004,7 @@ ht-degree: 9%
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>필드</td> 
+   <td>필드<p>(이벤트 하위 v2)</p></td> 
    <td>필드</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1876,7 +2074,7 @@ ht-degree: 9%
    <td><span>requesterID</span> </td> 
   </tr> 
   <tr> 
-   <td>레코드</td> 
+   <td>레코드<p><p>(이벤트 하위 v2)</p></td> 
    <td>기록</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1921,7 +2119,7 @@ ht-degree: 9%
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>레코드 유형 </td> 
+   <td>레코드 유형<p><p>(이벤트 하위 v2)</p> </td> 
    <td>RECORD_TYPE </td> 
    <td>색상</td> 
   </tr> 
@@ -2776,7 +2974,7 @@ ht-degree: 9%
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>작업 영역</td> 
+   <td>작업 영역<p><p>(이벤트 하위 v2)</p></td> 
    <td>WORKSPACE</td> 
    <td>색상</td> 
   </tr> 
