@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4f90ae347f2a9f9f92610eb4ef6e17452f011481
+source-git-commit: 24bb25ca99f4a9ad0ecf8573f8d173248efe2986
 workflow-type: tm+mt
-source-wordcount: '4930'
+source-wordcount: '4861'
 ht-degree: 1%
 
 ---
@@ -33,19 +33,19 @@ We have updated the look and feel of all the tabs and subtabs in the Update Feed
 For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
 
 
-### 설정 영역의 타임시트 및 시간 섹션에 있는 목록의 새로운 모양과 느낌입니다.
+<!--### New look and feel of the lists in the Timesheets & Hours section in the Setup area
 
-**미리 보기: 2025년 6월 26일, 모두를 위한 프로덕션: 2025년 7월 10일**
+**Preview: June 26, 2025; Production for everyone: July 10, 2025**   
 
-설정 영역의 타임시트 및 시간 섹션에서 다음 목록의 모양과 느낌을 업데이트했습니다.
+We have updated the look and feel of the following lists in the Timesheets & Hours section in the Setup area:  
 
-* 타임시트 프로필 목록
+* The list of Timesheet Profiles 
 
-* 시간 유형 목록
+* The list of Hour Types 
 
-이러한 목록은 이제 Workfront의 다른 영역과 일치합니다.
+These lists now match other areas of Workfront.  
 
-자세한 내용은 [타임시트 프로필 만들기, 편집 및 할당](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)을 참조하세요.
+ For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).-->
 
 
 <!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
