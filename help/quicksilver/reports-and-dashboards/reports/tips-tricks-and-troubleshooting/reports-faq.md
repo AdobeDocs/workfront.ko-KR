@@ -87,7 +87,7 @@ Workfront에서 시간을 사용하는 대부분의 필드는 분 단위로 저�
 >계산에 실제 시간을 사용하는 경우 valuefield에 `actualWorkRequiredDouble`을(를) 사용합니다. 실제 시간은 시간 단위로 저장됩니다. 계획된 시간은 분 단위로 저장됩니다.
 >
 >실제 근로시간에 대한 올바른 계산은 다음과 같습니다.
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 ## 보고서에 있는 각 차트 요소의 값이 차트에 표시되지 않는 이유는 무엇입니까?
