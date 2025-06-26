@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0da05d048d0dab1c2f06870e589c1349c48ccc58
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **주제 그룹**&#x200B;을 클릭합니다.
 1. **새 주제 그룹**&#x200B;을 클릭합니다.
 
-   ![](assets/new-topic-group-box-nwe-350x306.png)
+   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. 다음 정보를 지정합니다.
 
@@ -94,3 +94,4 @@ ht-degree: 0%
 1. **저장**&#x200B;을 클릭합니다.\
    이렇게 하면 요청 대기열에 새 주제 그룹이 만들어집니다. 이제 요청 대기열 아래의 첫 번째 드롭다운 메뉴에서 추가 범주를 선택할 수 있습니다.\
    요청 제출에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
+1. 기존 주제 그룹을 편집하려면 주제 그룹 목록에서 주제 그룹을 선택한 다음 열리는 창에서 세부 정보를 편집합니다. 변경 내용을 저장하려면 **저장**&#x200B;을 클릭하세요.
