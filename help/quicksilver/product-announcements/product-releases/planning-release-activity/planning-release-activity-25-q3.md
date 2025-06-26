@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+
+## 표 보기에서 모든 그룹화 펼치기 및 접기
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 6월 26일
+>* 모두를 위한 프로덕션: 2025년 7월 17일
+
+이제 다음 영역을 사용하여 표 보기에서 그룹화를 축소하고 확장할 수 있습니다.
+
+* 테이블 보기의 도구 모음에서 액세스할 수 있는 그룹화 상자
+
+* 마우스 오른쪽 단추로 클릭하여 그룹화된 헤더
+
+하나의 그룹화 또는 모든 그룹화를 동시에 축소하거나 확장할 수 있습니다.
+
+이 개선 이전에는 각 그룹화 헤더에서 한 번에 하나의 그룹화만 축소하거나 확장할 수 있었습니다.
+
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
+
+## 공식 필드에 대한 새로운 총괄 기능
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 6월 26일
+>* 모두를 위한 프로덕션: 2025년 6월 26일
+
+이제 레코드 유형을 연결하고 공식 필드를 조회로 가져올 때 공식 필드의 형식에 따라 집계 함수(SUM, AVERAGE, MIN, MAX 등)를 적용할 수 있습니다. 예를 들어 공식 필드가 숫자인 경우 SUM 또는 AVG와 같은 함수를 사용할 수 있습니다. 공식 필드의 형식이 텍스트로 지정된 경우 SUM과 같은 집계 함수는 적용되지 않습니다.
+
+이전에는 레코드 유형을 연결하고 연결된 레코드에서 조회 필드를 가져올 때 집계 함수를 일반 필드에만 적용할 수 있었지만 공식 필드에는 적용할 수 없었습니다.
+
+자세한 내용은 [수식 필드 개요](/help/quicksilver/planning/fields/formula-fields.md)를 참조하세요.
 
 ## Workfront Planning 타임라인 보기의 사용자 정의 분기 가용성
 
@@ -206,7 +239,7 @@ CSV 및 Excel 파일을 가져와서 레코드 형식과 기존 레코드 형식
 >[!NOTE]
 >
 >이 변경 사항은 시스템 관리자 및 표준 라이선스를 가진 모든 신규 및 기존 사용자에게 표시됩니다.
->&#x200B;>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
+>>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
 
 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 

@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
+source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 3분기 릴리스의 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
+
+## 기존 실제 시간 필드가 기존 실제 시간 및 새 실제 시간 필드로 대체되었습니다.
+
+>[!NOTE]
+>
+> 미리보기 및 프로덕션: 2025년 6월 24일 
+
+기존 실제 시간 필드의 이름이 기존 실제 시간으로 변경되었습니다. 이 필드에는 프로젝트, 작업 및 문제에 대해 기록된 시간이 분 단위로 저장됩니다. 이 필드는 actualWorkRequired로 Workfront 데이터베이스에 저장됩니다.
+
+프로젝트, 작업 및 문제에 대해 기록된 시간을 소수점 이하 자리수로 시간 단위로 저장하는 새 실제 시간 필드를 추가했습니다. 필드는 actualWorkRequiredDouble로 Workfront 데이터베이스에 저장됩니다.
+
+실제 근로시간 필드와 레거시 실제 근로시간 필드는 프로젝트, 작업 및 문제 보기 및 보고서에 모두 표시됩니다.
+
+프로젝트, 작업 및 문제 세부 정보 섹션에 표시되는 실제 시간 필드는 이전 실제 시간을 나타냅니다.
+
+
+>[!IMPORTANT]
+>
+>2021년 5월 이전에 기록된 시간은 기존 실제 시간 필드에 저장됩니다.  
+>>2021년 5월 이전에 시간이 기록된 프로젝트, 작업 및 문제의 실제 시간 필드 값은 0입니다. 
+>>2021년 5월 이후 기록된 시간은 실제 시간 필드와 기존 실제 시간 필드 모두에 저장됩니다.
+>> 새 필드를 반영하도록 보고서를 업데이트해야 할 수 있습니다.
+
+자세한 내용은 [실제 근로시간 보기](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)를 참조하십시오.
+
 
 ## API 호출에 대한 실제 시간을 데이터베이스에 저장하는 방식 변경
 

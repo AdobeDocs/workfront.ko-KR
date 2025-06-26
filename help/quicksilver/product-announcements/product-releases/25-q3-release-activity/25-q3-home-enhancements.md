@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
+source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -17,6 +17,12 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 3분기 릴리스의 모든 홈 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
+
+<!--## All Approvals widget renamed to Document approval metrics
+
+We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.
+
+This widget does not contain any information about proof approvals. -->
 
 ## 내 업데이트 영역의 언급 섹션에서 댓글 달기 환경이 업데이트되었습니다
 
