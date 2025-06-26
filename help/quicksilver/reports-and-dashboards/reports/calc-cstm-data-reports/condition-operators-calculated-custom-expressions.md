@@ -7,9 +7,9 @@ description: 텍스트 모드를 사용할 때 Adobe Workfront에서 계산된 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e10fd7a3237d38ece8a5213990306ce511bd2412
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -29,12 +29,15 @@ Workfront에서 &quot;IF&quot; 문을 사용하여 보고 및 사용자 지정 �
 * 보기
 * 그룹화
 * 계산된 사용자 정의 필드
+* 비즈니스 규칙
 
 &quot;IF&quot; 문 작성에 대한 자세한 내용은 [&quot;IF&quot; 문 개요](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)를 참조하십시오.
 
 이 안내서의 예는 계산된 사용자 정의 필드에서 조건 연산자를 사용하는 방법을 보여 줍니다. 보고서의 계산된 사용자 정의 필드에 대한 올바른 구문을 따를 때 계산된 사용자 정의 열 또는 그룹화에서도 사용할 수 있습니다.
 
 보고서의 계산된 사용자 지정 필드와 계산된 사용자 지정 데이터 간의 구문 차이에 대한 자세한 내용은 [계산된 사용자 지정 필드와 계산된 열](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)을 참조하십시오.
+
+비즈니스 규칙에 대한 자세한 내용은 [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)을 참조하세요.
 
 계산된 사용자 정의 표현식에서 참조할 필드를 찾으려면 API 탐색기 를 참조하십시오. API 탐색기에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-explorer.md)를 참조하십시오.
 
