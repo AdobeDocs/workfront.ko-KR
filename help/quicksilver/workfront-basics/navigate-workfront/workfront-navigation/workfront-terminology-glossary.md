@@ -2067,7 +2067,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL 시나리오] ([!DNL Workfront Fusion]) </td> 
-   <td> <p>시나리오는 앱/서비스 간에 데이터를 전송하고 변환하는 방법을 나타내는 일련의 단계(모듈)로 구성됩니다.</p> <p>[!DNL Workfront Fusion]의 시나리오에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] 시나리오 개요</a>를 참조하십시오.</p> </td> 
+   <td> <p>시나리오는 앱/서비스 간에 데이터를 전송하고 변환하는 방법을 나타내는 일련의 단계(모듈)로 구성됩니다.</p> <p>[!DNL Workfront Fusion]의 시나리오에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] 시나리오 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 시나리오] ([!DNL Workfront Scenario Planner]) </td> 
