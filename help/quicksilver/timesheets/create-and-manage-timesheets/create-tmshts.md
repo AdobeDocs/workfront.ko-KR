@@ -6,18 +6,22 @@ description: 반복되지 않는 타임시트를 원하는 경우 일회용 타�
 author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
 
 # 일회용 타임시트 만들기
 
+<!--Audited: 6/2025-->
+
 반복되지 않는 타임시트를 원하는 경우 일회용 타임시트를 수동으로 만들 수 있습니다. 타임시트의 종료 날짜에 도달하여 더 많은 타임시트가 필요한 경우 새 타임시트를 만들어야 합니다.
 
 사용자의 추가 개입 없이 사용자의 반복 타임시트를 생성하는 타임시트 프로필 만들기에 대한 자세한 내용은 [타임시트 프로필 만들기, 편집 및 할당](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)을 참조하십시오.
+
+타임시트 프로필과 연결된 시스템의 모든 사용자에 대해 타임시트를 수동으로 생성하는 방법에 대한 자세한 내용은 [타임시트 수동으로 생성](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -50,8 +54,8 @@ ht-degree: 0%
    <p>현재: 플랜 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>타임시트에 대한 관리 액세스 권한이 있어야 합니다. </p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">특정 영역에 대한 관리자 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준</td> 
+   <td> <p>타임시트에 대한 관리 액세스 권한이 있어야 합니다. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,11 +66,11 @@ ht-degree: 0%
 
 ## 일회용 타임시트 만들기
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step1-to-timesheets}}
 
-1. **타임시트**&#x200B;를 클릭합니다. 기본적으로 **모두** 필터가 선택되어 있습니다. 보기 액세스 권한이 있는 모든 타임시트가 표시됩니다.
+기본적으로 **모두** 필터가 선택되어 있습니다. 보기 액세스 권한이 있는 모든 타임시트가 표시됩니다.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+타임시트가 하나 선택된 ![타임시트 목록](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (선택 사항) 다음 중 하나를 수행하여 타임시트 목록의 필터를 업데이트합니다.
 
@@ -78,9 +82,9 @@ ht-degree: 0%
 
      내 타임시트 승인 또는 내 타임시트 필터가 타임시트 목록에 적용됩니다.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![타임시트 목록 페이지의 내 타임시트 필터 단추](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 필터 아이콘 ![](assets/filter-nwepng.png)을(를) 클릭하여 다른 필터를 적용하거나 새 필터를 만듭니다. 필터 만들기 또는 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
+   * **필터** 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭하여 다른 필터를 적용하거나 새 필터를 만드십시오. 필터 만들기 또는 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하세요.
 
    >[!NOTE]
    >
@@ -89,9 +93,9 @@ ht-degree: 0%
    >   * [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. (선택 사항) **검색** 아이콘 ![](assets/search-icon.png)을(를) 클릭하여 키워드를 입력하고 특정 타임시트를 검색합니다. 예를 들어 소유자 이름의 타임시트 시간대를 검색할 수 있습니다.
+1. (선택 사항) **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하여 키워드를 입력하고 특정 타임시트를 검색합니다. 예를 들어 소유자 이름의 타임시트 시간대를 검색할 수 있습니다.
 
-1. (선택 사항) **보기** ![](assets/view-icon.png) 또는 **그룹화** ![](assets/grouping.png) 아이콘을 클릭하여 다른 보기 또는 그룹화를 적용하거나 새 보기 또는 그룹화를 만듭니다.
+1. (선택 사항) **보기** ![보기 아이콘](assets/view-icon.png) 또는 **그룹화** ![그룹화 아이콘](assets/grouping.png) 아이콘을 클릭하여 다른 보기 또는 그룹화를 적용하거나 새 보기를 만듭니다.
 
    필터, 보기 또는 그룹화 만들기에 대한 자세한 내용은 다음 문서를 참조하십시오.
 

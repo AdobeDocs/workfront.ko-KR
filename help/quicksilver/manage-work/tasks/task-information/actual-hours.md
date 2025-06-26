@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: 실제 근로시간 보기
-description: Adobe Workfront에서 작업 항목에 로그온하는 시간은 실제 시간으로 간주됩니다.
+description: Adobe Workfront에서 작업 항목에 로그온하는 시간은 실제 시간으로 간주됩니다. 실제 근로시간은 작업, 문제 또는 프로젝트를 완료하는 데 걸린 실제 시간을 나타냅니다.
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,19 @@ Adobe Workfront에서 작업 항목에 로그온하는 시간은 실제 시간�
 *이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+## 실제 근로시간과 기존 실제 근로시간 비교
+
+실제 시간을 액세스하는 Workfront의 영역에 따라 다음 로그 시간 중 하나를 참조할 수 있습니다.
+
+* 프로젝트, 작업 및 문제 보고서와 목록:
+
+   * **실제 시간**: 2021년 5월 이후 프로젝트, 작업 또는 문제에 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
+   * **기존 실제 시간**: 2021년 5월 이전을 포함하여 언제든지 프로젝트, 작업 또는 문제에 기록된 시간입니다. 분 단위로 Workfront 데이터베이스에 저장되며 해당 valuefield는 `actualWorkRequired`입니다. <!--check below and see if you need to add this to the API section - asked on the tech doc task -->
+
+* 프로젝트, 작업 또는 문제 세부 정보 영역에서 다음을 수행합니다.
+
+   * **실제 시간**: 2021년 5월 이전을 포함하여 언제든지 프로젝트, 작업 또는 문제에 기록된 시간입니다. 보고서와 목록의 이전 실제 시간에 해당합니다. 분 단위로 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequired`입니다.
 
 ## 작업 및 문제의 실제 시간과 프로젝트의 실제 시간 비교
 
@@ -134,7 +147,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
   자세한 내용은 사용자 보기를 사용할 때 리소스 플래너에서 [사용 가능 시간, 계획된 시간 및 실제 시간 또는 FTE 보기](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)를 참조하십시오.
 
 
-### Workfront <!--database and the--> API <!--, and custom data-->의 실제 시간
+### Workfront API의 실제 시간
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,14 +155,13 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 API 호출이나 계산된 사용자 지정 필드 또는 열의 이러한 필드에 액세스할 때 분 단위에서 시간 단으로의 전환을 고려해야 합니다.
 
-실제 시간에 액세스하는 방법에 따라 데이터베이스의 다음 필드 및 단위에 저장할 수 있습니다.
+프로젝트, 작업 또는 문제에 대해 기록된 실제 시간이 현재 Workfront 데이터베이스에 분으로 저장되어 있으며 해당 valuefield는 `actualWorkRequired`입니다.
 
-* API: 다음 버전의 Workfront API가 2025년 말에 릴리스되도록 예약되어 있으므로, 실제 시간에 대한 `valuefield`은(는) 시간 단위로 저장되는 `actualWorkRequiredDouble`입니다. 현재 버전은 몇 분 안에 저장된 실제 시간을 `actualWorkRequired`(으)로 저장했습니다.
-* Workfront 인터페이스(계산된 사용자 지정 필드 및 열)에서: 실제 시간에 대한 `valuefield`은(는) 분 단위로 저장된 `actualWorkRequired`입니다.
+다음 버전의 Workfront API는 실제 시간에 액세스하는 방법에 따라 2025년 말에 릴리스될 예정이며, 데이터베이스의 다음 필드 및 단위에 저장할 수 있습니다.
 
-<!--Change the above with this when we fix this for the Workfront UI: 
+* **실제 시간**: 2021년 5월 이후 프로젝트, 작업 또는 문제에 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
 
-You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
+* **기존 실제 시간**: 2021년 5월 이전을 포함하여 언제든지 프로젝트, 작업 또는 문제에 기록된 시간입니다. 분 단위로 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequired`입니다.
 
 계산된 열 또는 필드에서 실제 시간을 사용하는 방법에 대한 자세한 내용은 [보고서 FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)를 참조하십시오.
 

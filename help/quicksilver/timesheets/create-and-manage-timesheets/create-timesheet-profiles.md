@@ -6,14 +6,24 @@ description: 사용자의 추가 개입 없이 사용자에 대해 반복 타임
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 0%
+source-wordcount: '1540'
+ht-degree: 1%
 
 ---
 
 # 타임시트 프로필 만들기, 편집 및 할당
+
+<!--Audited: 06/2025-->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 사용자의 추가 개입 없이 사용자에 대해 반복 타임시트를 생성하는 타임시트 프로필을 만들고, 편집하고, 할당할 수 있습니다. 이렇게 하면 시간이 절약되고 사용자 간에 다음 사항이 일관되도록 할 수 있습니다.
 
@@ -38,20 +48,20 @@ ht-degree: 0%
    <td> <p>임의</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>새로운 기능: 표준 </p>
  <p>또는</p> 
 <p>현재: 플랜 </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>타임시트에 대한 관리 액세스 권한이 있어야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -66,7 +76,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->현재 타임시트에서 타임시트 프로필 변경 사항을 활성화하려면 기존 타임시트를 삭제한 다음 새 타임시트를 생성해야 합니다. 지침은 [Adobe Workfront에서 타임시트 삭제](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) 및 [타임시트 수동으로 생성](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)을 참조하십시오.
+>현재 타임시트에서 타임시트 프로필 변경 사항을 활성화하려면 타임시트 프로필을 변경하기 전에 기존 타임시트를 삭제한 다음 새 타임시트를 생성해야 합니다. 지침은 [Adobe Workfront에서 타임시트 삭제](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) 및 [타임시트 수동으로 생성](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)을 참조하십시오.
 
 {{step-1-to-setup}}
 
@@ -77,7 +87,7 @@ ht-degree: 0%
    그룹에 대한 타임시트 프로필을 만들거나 편집하는 경우 **그룹**&#x200B;을 클릭한 다음 그룹 이름을 클릭합니다.
 
 1. **타임시트 프로필**&#x200B;을 클릭합니다.
-1. 새 타임시트 프로필을 만들려면 **새 프로필**&#x200B;을 클릭합니다.
+1. 타임시트 프로필을 만들려면 **새 프로필**&#x200B;을 클릭하세요.
 
    또는
 
@@ -86,13 +96,26 @@ ht-degree: 0%
    새 또는 기존 타임시트 프로필이 표시됩니다.
 
 
-1. **세부 정보 설정** 탭에서 타임시트 프로필에 **이름** 및 **설명**&#x200B;을 입력하고 다음 정보를 제공합니다.
+1. **세부 정보 설정** 탭을 클릭한 다음 다음 다음 정보를 업데이트합니다.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
+      <td role="rowheader"><strong>이름</strong> </td> 
+      <td> <p> 타임시트 프로필의 이름을 추가합니다. 직원들이 타임시트에 대해 동일한 시간대를 공유하는 팀 또는 그룹의 이름일 수 있습니다. </p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>설명</strong> </td> 
+      <td> <p> 타임시트 프로필에 대한 정보를 더 추가합니다.     
+      </p> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader"><strong>관리 액세스 권한이 있는 그룹</strong> </td> 
       <td> <p> 
       <ul> 
@@ -147,8 +170,14 @@ ht-degree: 0%
       <td role="rowheader"><strong>사용 가능한 시간 유형</strong> </td> 
       <td><p>이 설정은 일반 시간 유형만 참조하고 프로젝트별 시간 유형은 참조하지 않습니다. </p>
       <p>기본적으로 사용자는 타임시트에 모든 일반 시간을 볼 수 있습니다. 그러나 조직에서 특정 사용자 집합에 대해 특정 일반 시간만 표시하기를 원하는 경우 이 필드의 타임시트 프로필에서 일반 시간을 선택하여 타임시트에 표시해야 하는 일반 시간을 선택할 수 있습니다. 모든 일반 시간을 비활성화하려면 모든 시간 유형을 선택 해제하여 일반 시간에 대한 섹션 없이 타임시트를 생성합니다.</p></td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>미리 알림</strong> </td> 
+      <td> <p> 미리 알림을 추가합니다. Workfront은 사용자에게 타임시트를 완료하거나 승인하도록 요청하는 미리 알림을 보냅니다. 미리 알림을 타임시트 프로필과 연결하려면 먼저 미리 알림을 만들어야 합니다.  </p> </td> 
+     </tr>
+
+   <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">초과 작업 시간</span> </td> 
       <td>타임시트에서 초과 작업 시간 상자를 숨기도록 선택할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.</td> 
      </tr> 

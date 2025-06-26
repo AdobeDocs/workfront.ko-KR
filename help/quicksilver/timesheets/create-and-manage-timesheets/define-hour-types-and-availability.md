@@ -6,9 +6,9 @@ description: 시간 유형 은 시간 항목을 분류할 수 있는 레이블�
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Workfront에서 시간을 기록할 때 사용할 수 있는 프로젝트별 시
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>새로운 기능: 표준</p> 
    <p>현재: 플랜</p>
    </td> 
@@ -61,7 +61,7 @@ Workfront에서 시간을 기록할 때 사용할 수 있는 프로젝트별 시
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

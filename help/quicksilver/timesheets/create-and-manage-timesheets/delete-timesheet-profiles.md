@@ -2,26 +2,30 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 타임시트 프로필 삭제
-description: 타임시트 프로필을 삭제할 수 있습니다.
+description: 더 이상 관련이 없을 수 있는 타임시트 프로필을 삭제할 수 있습니다.
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
 
 # 타임시트 프로필 삭제
 
-타임시트 프로필을 삭제할 수 있습니다.
+<!--Audited:6/2025-->
+
+타임시트 프로필을 만들고 사용자에게 할당하면 Adobe Workfront에서 타임시트를 만드는 방식과 일관성이 유지됩니다.
+
+더 이상 관련이 없을 수 있는 타임시트 프로필을 삭제할 수 있습니다.
 
 타임시트 프로필에 대한 자세한 내용은 [타임시트 프로필 만들기, 편집 및 할당](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,17 +36,21 @@ ht-degree: 0%
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td> <p>새로운 기능: 표준</p>
+   또는
+   <p>현재: 플랜 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>타임시트에 대한 관리 액세스 권한이 있어야 합니다. </p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">특정 영역에 대한 관리자 액세스 권한 부여</a>를 참조하십시오.</p>  <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>타임시트에 대한 관리 액세스 권한이 있어야 합니다. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 타임시트 프로필 삭제
 
@@ -55,5 +63,10 @@ ht-degree: 0%
    그룹에 대한 타임시트 프로필을 삭제하는 경우 **그룹**&#x200B;을 클릭한 다음 그룹 이름을 클릭합니다.
 
 1. **타임시트 프로필**&#x200B;을 클릭합니다.
-1. 삭제할 타임시트 프로필을 하나 이상 선택한 다음 **자세히 > 삭제**&#x200B;를 클릭합니다.
-1. 표시되는 메시지 상자에서 **예, I** t 삭제를 클릭합니다.
+1. 삭제할 타임시트 프로필을 하나 이상 선택한 다음 **자세히** > **삭제**&#x200B;를 클릭합니다.
+1. (조건부) 타임시트 프로필이 이미 사용자에게 할당된 경우 **대체 타임시트 프로필** 상자가 표시됩니다. 다음을 수행합니다.
+   1. 드롭다운 목록에서 다른 타임시트 프로필을 선택합니다. 삭제하려는 타임시트 프로필은 할당된 모든 사용자에 대해 타임시트 프로필을 대체하는 타임시트 프로필로 대체됩니다. 타임시트는 다음 타임시트 생성 주기에 새로 할당된 프로필에 따라 생성됩니다.
+   1. **삭제**&#x200B;를 클릭하여 삭제를 확인합니다.
+1. (조건부) 타임시트 프로필이 사용자에게 할당되지 않은 경우 **타임시트 삭제** 상자가 표시됩니다.
+
+   **삭제**&#x200B;를 클릭하여 삭제를 확인합니다.

@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -20,16 +20,22 @@ ht-degree: 1%
 
 <!--Audited: 05/2025-->
 
-<!--Audited: 07/2024-->
-
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
+<div class="preview">
+
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+
+</div>
+
 시간 유형은 시간 항목을 정의하는 데 사용하는 레이블입니다. 시간 유형과 시간 항목을 연결할 수 있습니다.
 
-시간 유형에는 두 가지 세트가 있습니다.
+시간 유형에는 두 가지 범주가 있습니다.
 
-* 프로젝트별 시간 유형: 프로젝트, 작업 및 문제에 기록된 시간입니다. 프로젝트 특정 시간 유형은 프로젝트, 작업 및 문제에 시간을 기록할 수 있는 [!DNL Adobe Workfront]의 어디에서나 시간 항목과 연결할 수 있습니다.
+* **프로젝트별 시간 유형**: 프로젝트, 작업 및 문제에 로그온한 시간입니다. 프로젝트 특정 시간 유형은 프로젝트, 작업 및 문제에 시간을 기록할 수 있는 [!DNL Adobe Workfront]의 어디에서나 시간 항목과 연결할 수 있습니다.
 
   [!DNL Workfront]에서 시간을 기록할 때 사용할 수 있는 프로젝트별 시간 유형은 시스템, 프로젝트 및 사용자 수준에서 설정된 구성 옵션에 따라 다릅니다.
 
@@ -45,15 +51,13 @@ ht-degree: 1%
   >
   >[!DNL Workfront] 시스템에서 프로젝트별 시간 유형을 사용하는 경우 시스템의 각 프로젝트에서 프로젝트별 시간 유형을 하나 이상 사용해야 합니다. 시스템 수준에서 프로젝트별 시간 유형을 활성화할 수 없으며 프로젝트 수준에서 사용할 수 있는 프로젝트별 시간 유형이 없습니다.
 
-* 일반 시간 유형: 일반 시간은 프로젝트, 작업 또는 문제와 연결할 수 없으며 타임시트에 직접 로그인됩니다.
+* **일반 시간 유형**: 일반 시간은 프로젝트, 작업 또는 문제와 연결할 수 없으며 타임시트에 직접 로그인됩니다.
 
 시간을 기록하고 시간 유형과 연결하는 방법에 대한 자세한 내용은 [시간 기록](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,19 +68,19 @@ ht-degree: 1%
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>새로운 기능: 표준</p>
    <p>또는</p>
    <p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td role="rowheader">액세스 수준</td> 
    <td>시스템 관리자</td>
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -95,15 +99,19 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
 
 ## 시간 유형 만들기
 
-[!DNL Workfront] 관리자는 시스템 수준과 프로젝트 수준 모두에서 조직에 대한 새 시간 유형을 만들 수 있습니다. 이후 사용자는 특정 프로젝트 및 사용자에 사용할 수 있는 시간 유형을 정의할 수 있습니다. 자세한 내용은 [시간 유형 및 가용성 정의](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)를 참조하십시오.
+[!DNL Workfront] 관리자는 시스템 및 프로젝트 수준에서 조직에 대한 시간 유형을 만들 수 있습니다.
 
-새 시간 유형을 만들려면:
+시스템 수준에서 시간 유형을 정의한 후 사용자는 특정 프로젝트 또는 특정 사용자에 사용할 수 있는 시간 유형을 정의할 수 있습니다.
+
+자세한 내용은 [시간 유형 및 가용성 정의](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)를 참조하십시오.
+
+시간 유형을 생성하려면
 
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **타임시트 및 시간**&#x200B;을 클릭한 다음 **시간 유형**&#x200B;을 클릭합니다.
 
-1. **시간 유형** 섹션에서 **+ 새 시간 유형**&#x200B;을 클릭합니다.
+1. **시간 유형** 섹션에서 **새 시간 유형**&#x200B;을 클릭합니다.
 1. **새 시간 유형** 대화 상자에서 다음 정보를 지정합니다.
 
    <table style="table-layout:auto"> 
@@ -135,9 +143,18 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
 
 1. **[!UICONTROL 시간 유형 만들기].**&#x200B;를 클릭합니다.
 
+   시간 유형이 Workfront 시스템에 추가되고 기본적으로 활성화됩니다.
+
 ## 시간 유형 비활성화
 
 사용자가 자신의 시간을 근로자와 연결하지 않도록 하려면 시간 유형을 비활성화하면 됩니다. 시간 유형을 비활성화하면 시간 유형이 표시되는 [!DNL Workfront]의 어디에서든 시간 유형이 숨겨집니다.
+
+>[!NOTE]
+>
+>* 기본 제공 시간 유형은 비활성화할 수 없습니다.
+>* 프로젝트별 시간 유형을 비활성화하면 해당 유형에 대해 기록된 모든 시간이 자동으로 기본 제공 프로젝트별 시간 유형으로 설정됩니다. 예를 들어 프로젝트에 대해 기록된 시간은 기본적으로 프로젝트 시간 유형으로 설정되며 작업에 대해 기록된 시간은 기본적으로 작업 시간 유형으로 설정됩니다.
+>
+
 
 시간 유형을 비활성화하려면
 
@@ -147,6 +164,12 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
 
 1. 비활성화할 시간 유형을 선택합니다.
 
-1. **[!UICONTROL 비활성화]**&#x200B;를 클릭합니다.
 
-   ![비활성화 단추](assets/deactivate-button.png)
+1. <span class="preview">**자세히**&#x200B;를 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.</span>
+
+   <span class="preview">![시간 유형 링크 활성화 및 비활성화](assets/activate-and-deactivate-hour-type-links.png)</span>
+
+   <span class="preview">시간 유형이 비활성화되어 사용자가 시간을 기록할 때 더 이상 시간 유형을 찾을 수 없습니다.</span>
+
+1. <span class="preview">(선택 사항) 시간 유형을 다시 활성화하려면 **시간 유형** 목록에서 선택한 다음 **자세히** > **활성화**&#x200B;를 클릭합니다. </span>
+

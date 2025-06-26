@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: 사용자 업데이트에 대한 환경 설정 구성
 description: 사용자가 개체의 [!UICONTROL 업데이트] 영역에 댓글을 추가할 때 특정 기능에 액세스하는 환경 설정을 구성할 수 있습니다.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 3%
@@ -16,6 +16,8 @@ ht-degree: 3%
 ---
 
 # 사용자 업데이트에 대한 환경 설정 구성
+
+<!--Audited: 06/2025-->
 
 개체의 [!UICONTROL 업데이트] 영역에 주석을 추가할 때 사용자에게 특정 기능에 대한 액세스 권한을 제공하는 환경 설정을 구성할 수 있습니다.
 
@@ -34,7 +36,7 @@ ht-degree: 3%
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
    <td><p>새로운 기능: [!UICONTROL Standard]</p>
    또는
    <p>현재: [!UICONTROL Plan]</p>
@@ -47,7 +49,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

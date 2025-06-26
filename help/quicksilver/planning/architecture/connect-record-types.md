@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2556'
 ht-degree: 1%
 
 ---
@@ -199,14 +199,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * **조회 필드 선택**: 선택한 레코드 종류에서 필드를 추가하려면 이 옵션을 선택하십시오. 조회 필드는 연결 중인 레코드 또는 개체 유형과 관련된 필드입니다. 이 레코드들을 연결하면 연결하려는 레코드의 레코드나 개체에 있는 정보가 표시됩니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
-     >[!TIP]
-     >
-     > 다음 필드 유형을 조회 필드로 추가할 수 없습니다.
-     >
-     >    * 사용자
-     >    * 제작자
-     >    * 마지막 수정자
-     >    * Workfront 자동 완성 필드(프로젝트 소유자 또는 프로젝트 스폰서와 같은 필드 포함)
+   >[!TIP]
+   >
+   >Workfront 자동 완성 필드(프로젝트 소유자 또는 프로젝트 스폰서와 같은 필드 포함)를 조회 필드로 추가할 수 없습니다.
 
 1. (조건부 및 선택 사항) Workfront 개체에 연결하도록 선택한 경우 **이러한 기준과 일치하는 개체만 연결** 섹션에서 **사용자 지정 양식**&#x200B;을 선택합니다. 선택한 사용자 정의 양식이 첨부된 객체만 선택한 레코드 유형에 연결할 수 있습니다. 두 개 이상의 양식을 선택할 수 있습니다.
 
@@ -218,7 +213,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 1. (조건부) Experience Manager Assets 또는 Workfront Planning 레코드 유형에 연결하도록 선택한 경우 **기록 모양** 영역에서 다음 옵션 중 하나를 선택합니다.
 
@@ -256,10 +251,18 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >    작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 연결된 객체 유형의 응용 프로그램에서 자신의 권한 또는 액세스 수준에 관계없이 연결된 필드에서 정보를 볼 수 있습니다.
 
-
 1. (선택 사항) 연결된 레코드 또는 개체 형식에서 필드 추가를 건너뛰려면 **건너뛰기**&#x200B;를 클릭합니다. 연결된 레코드의 이름 또는 기본 필드는 사용자가 연결하는 레코드 유형의 테이블 보기에 표시되는 유일한 필드입니다.
 
-1. (선택 사항 및 조건부) 숫자, 통화, 백분율 또는 날짜 유형 필드를 연결하도록 선택하는 경우 여러 값을 요약할 집계 값도 선택합니다. 사용자가 연결된 레코드 필드에서 둘 이상의 연결된 레코드를 선택하면 연결된 필드의 값이 선택한 집계기에 따라 쉼표로 구분되거나 요약된 값으로 표시됩니다.
+1. 추가하는 조회 필드에 대한 집계자를 선택합니다.
+
+   >[!NOTE]
+   >
+   >다음 필드 유형에 대해 집계자를 추가할 수 없습니다.
+   >
+   >    * 단락
+   >    * 확인란
+
+   사용자가 연결된 레코드 필드에서 둘 이상의 연결된 레코드를 선택하면 연결된 필드의 값이 선택한 집계기에 따라 쉼표로 구분되거나 요약된 값으로 표시됩니다.
 
    조회 필드에 요약되지 않은 값이 여러 개 있는 경우 보기에서 정렬 또는 그룹화에 필드를 사용할 때 다음 사항을 고려하십시오.
 
@@ -271,7 +274,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!IMPORTANT]
    >
-   >    조회 날짜 필드를 추가할 때 타임라인 및 달력 보기의 시작 및 종료 날짜로 필드를 추가할 수 있게 하려면 집계 값을 선택해야 합니다. 예를 들어 조회 날짜 필드에 대한 MAX 또는 최소 집계를 선택할 수 있습니다.
+   > 조회 날짜 필드를 추가할 때 타임라인 및 달력 보기의 시작 및 종료 날짜로 필드를 추가할 수 있게 하려면 집계 값을 선택해야 합니다. 예를 들어 조회 날짜 필드에 대한 MAX 또는 최소 집계를 선택할 수 있습니다.
 
    연결된 숫자 필드에 대한 ![집계 드롭다운](assets/aggregator-drop-down-for-number-linked-field.png)
 

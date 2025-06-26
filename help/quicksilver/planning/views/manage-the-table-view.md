@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '3633'
+source-wordcount: '3720'
 ht-degree: 2%
 
 ---
@@ -270,7 +270,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 1. 표 보기를 선택한 다음 표의 오른쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다.
 1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
-   * &#x200B;<!-- the tip below might change-->(으)로 필터링할 **필드 선택**
+   * <!-- the tip below might change-->(으)로 필터링할 **필드 선택**
 
    * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
 
@@ -458,9 +458,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
    그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
 
-   <!--replace screen shot for Expand all-->
-
-   ![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)
+   <span class="preview">![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)</span>
 
 1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
 
@@ -471,26 +469,23 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 1. **레코드 그룹화 기준** 상자 바깥쪽을 클릭하여 닫습니다.
 1. (선택 사항) 그룹화 끝에 있는 **+ 새 레코드**&#x200B;을 클릭하여 새 레코드를 추가한 다음 페이지를 새로 고쳐 새 레코드를 적절한 그룹화에 추가합니다. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-<!--
+1. <span class="preview">그룹화를 확장하거나 축소하려면 다음 중 하나를 실행하십시오.</span>
 
-1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+   <div class="preview">
 
-    <div class="preview">
+   1. **그룹화** 아이콘을 클릭한 다음 **모두 확장** 또는 **모두 축소**&#x200B;을 클릭합니다. 이렇게 하면 테이블 보기의 모든 그룹화 및 하위 그룹화가 확장됩니다.
 
-    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+      ![그룹화 상자 테이블 보기의 모든 단추 확장 및 축소](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
-        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   1. 테이블 보기에서 그룹화 헤더를 마우스 오른쪽 단추로 클릭한 후 다음 옵션 중 하나를 클릭합니다.
+      * **그룹 확장**
+      * **그룹 축소**
+      * **모두 확장**
+      * **모두 축소**
+      * **하위 그룹 확장**
+      * **하위 그룹 축소**
 
-    1. Right-click any of the grouping headers in the table view, then click one of the following options:
-        * **Expand group**
-        * **Collapse group**
-        * **Expand all**
-        * **Collapse all**
-        * **Expand subgroups**
-        * **Collapse subgroups**
-
-        Depending on the number of groupings you apply to the view, some options might not be available.</div>
--->
+      보기에 적용되는 그룹화 수에 따라 일부 옵션을 사용할 수 없습니다.</div>
 
 <!-- this is not available yet: 
 

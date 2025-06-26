@@ -8,16 +8,16 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
 
 # 타임시트 및 시간 환경 설정 구성
 
-<!--Audited: 01/2024-->
+<!--Audited: 06/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -38,8 +38,6 @@ ht-degree: 0%
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +61,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -102,7 +100,7 @@ ht-degree: 0%
       <td> <p>사용자가 사용자 프로필에 할당되거나 객체에 할당된 작업 역할을 수동으로 선택할 수 있습니다.</p> <p><b>중요</b>:  
         <ul> 
          <li>작업 역할을 시간 항목에 할당한 후 이 설정을 사용하지 않으면 사용자는 프로젝트, 작업 또는 문제의 [!UICONTROL 시간] 탭에서 다양한 역할에 기록된 시간을 조정해야 합니다.</li> 
-         <li>사용자에게 프로필에 할당된 작업 역할이 없고 [!UICONTROL Advanced Assignments] 대화 상자에 [!UICONTROL Task Owner] (으)로 할당된 작업이 있는 경우 사용자가 작업에 시간을 기록할 때 해당 작업 역할이 표시됩니다.</li> 
+         <li>사용자에게 프로필에 할당된 작업 역할이 없고 [!UICONTROL Advanced Assignments] 대화 상자에 [!UICONTROL Task Owner](으)로 할당된 작업이 있는 경우 사용자가 작업에 시간을 기록할 때 해당 작업 역할이 표시됩니다.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -125,7 +123,7 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td>프로젝트에서 바로 </td>
+        <td>프로젝트에서 바로 [!UICONTROL]</td>
         <td>사용자가 프로젝트에 시간을 기록할 수 있습니다([!UICONTROL 업데이트] 탭과 타임시트 모두). 사용자가 프로젝트 수준에서 시간을 기록하지 않는 경우 이 옵션은 선택하지 않은 상태로 유지되어야 합니다.</td>
     </tr>
     <tr>

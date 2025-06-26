@@ -6,16 +6,14 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '795'
 ht-degree: 6%
 
 ---
 
 # 공식 필드 개요
-
-<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -104,6 +102,7 @@ ht-degree: 6%
 
 * 공식 필드는 동일한 레코드 유형에 속하는 필드를 참조합니다.
 * 다른 레코드 종류를 수식 필드를 만드는 레코드 종류에 연결하는 경우에만 다른 레코드 종류의 필드를 참조할 수 있습니다.
+* &lt;span class-&quot;preview&quot;>연결된 레코드 종류 또는 수식에서 해당 조회 필드를 참조하는 것은 연결된 레코드 종류에 대한 사용 권한에 따라 다릅니다. 레코드 종류를 볼 수 있는 권한이 없으면 수식에서 해당 필드를 참조할 수 없습니다. </span>
 * 수식 필드를 저장한 후에는 수식 필드의 필드 유형을 변경할 수 없습니다.
 * 배합표 필드를 저장한 후 배합표 필드의 계산을 갱신할 수 있으며, 계산 결과는 동일한 유형의 모든 레코드에 대해 자동으로 갱신됩니다.
 * 수식에서 참조하는 필드가 Workfront Planning 인터페이스에 표시되는 대로 추가해야 합니다.
