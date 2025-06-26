@@ -7,9 +7,9 @@ description: Adobe Workfront에서 작업 항목에 로그온하는 시간은 �
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Adobe Workfront에서 작업 항목에 로그온하는 시간은 실제 시간�
 
 * 프로젝트, 작업 또는 문제 세부 정보 영역에서 다음을 수행합니다.
 
-   * **실제 시간**: 2021년 5월 이전을 포함하여 언제든지 프로젝트, 작업 또는 문제에 기록된 시간입니다. 보고서와 목록의 이전 실제 시간에 해당합니다. 분 단위로 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequired`입니다.
+   * **실제 시간**: 2021년 5월 이전의 프로젝트, 작업 또는 문제에 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
 
 ## 작업 및 문제의 실제 시간과 프로젝트의 실제 시간 비교
 
@@ -157,11 +157,10 @@ API 호출이나 계산된 사용자 지정 필드 또는 열의 이러한 필�
 
 프로젝트, 작업 또는 문제에 대해 기록된 실제 시간이 현재 Workfront 데이터베이스에 분으로 저장되어 있으며 해당 valuefield는 `actualWorkRequired`입니다.
 
-다음 버전의 Workfront API는 실제 시간에 액세스하는 방법에 따라 2025년 말에 릴리스될 예정이며, 데이터베이스의 다음 필드 및 단위에 저장할 수 있습니다.
+다음 버전의 Workfront API는 2025년 말에 릴리스될 예정이며, 실제 시간은 데이터베이스의 다음 필드 및 단위에 저장됩니다.
 
 * **실제 시간**: 2021년 5월 이후 프로젝트, 작업 또는 문제에 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
-
-* **기존 실제 시간**: 2021년 5월 이전을 포함하여 언제든지 프로젝트, 작업 또는 문제에 기록된 시간입니다. 분 단위로 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequired`입니다.
+   * **기존 실제 시간**: 2021년 5월 이전을 포함하여 언제든지 프로젝트, 작업 또는 문제에 기록된 시간입니다. 분 단위로 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequired`입니다.
 
 계산된 열 또는 필드에서 실제 시간을 사용하는 방법에 대한 자세한 내용은 [보고서 FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)를 참조하십시오.
 

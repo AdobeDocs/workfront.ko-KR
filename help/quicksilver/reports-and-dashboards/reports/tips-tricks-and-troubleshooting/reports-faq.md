@@ -7,9 +7,9 @@ description: 보고서 FAQ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-프로젝트 보고서에는 계획된 시간에서 기존 실제 시간을 빼는 계산이 있습니다.
+프로젝트 보고서에 계획된 시간에서 실제 시간을 빼는 계산이 있습니다.
 
 내가 받는 결과가 올바르지 않습니다.
 
@@ -78,17 +78,19 @@ ht-degree: 0%
 
 Workfront에서 시간을 사용하는 대부분의 필드는 분 단위로 저장됩니다. 계산에 이러한 필드를 사용할 때 결과는 대부분 분 단위입니다. 시간 단위로 결과를 얻으려면 계산 결과나 참조하는 필드를 60으로 나누어야 합니다.
 
-올바른 계산은 다음과 같습니다.
+계획된 시간은 분 단위로 저장됩니다.
 
-`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+계산에 사용할 실제 시간 필드에 따라 올바른 공식은 다음과 같습니다.
 
->[!NOTE]
->
->계산에 실제 시간을 사용하는 경우 valuefield에 `actualWorkRequiredDouble`을(를) 사용합니다. 실제 시간은 시간 단위로 저장됩니다. 계획된 시간은 분 단위로 저장됩니다.
->
->실제 근로시간에 대한 올바른 계산은 다음과 같습니다.
->&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+* 분 단위로 저장된 이전 실제 시간:
 
+  `valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+* 시간 단위로 저장된 실제 시간의 경우:
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+자세한 내용은 [실제 근로시간 보기](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)를 참조하십시오.
 
 ## 보고서에 있는 각 차트 요소의 값이 차트에 표시되지 않는 이유는 무엇입니까?
 
