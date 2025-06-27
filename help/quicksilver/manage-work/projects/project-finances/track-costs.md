@@ -154,7 +154,7 @@ Workfront은 프로젝트의 각 개별 작업에 대한 계획된 비용과 실
 >[!NOTE]
 >
 >프로젝트의 실제 비용은 다음과 같이 계산됩니다.
->>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >이러한 비용은 실제 비용 계산에서 중복되지 않습니다. 예를 들어 고정 비용이 프로젝트의 실제 비용 비용의 일부인 경우 실제 비용에 별도로 추가되지 않습니다.
 

@@ -122,7 +122,7 @@ ht-degree: 8%
    >
    >[!DNL Workfront]이(가) 이미 필드를 추적하는 중이면 목록에서 두 번 추가할 수 없습니다.
 
-1. [!DNL Workfront]에서 추적할 모든 필드를 추가한 후 <span class="preview">에서 **[!UICONTROL 추가]**를 클릭합니다.
+1. [!DNL Workfront]에서 추적할 모든 필드를 추가한 후 <span class="preview">에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 추가한 기본 제공 필드는 **[!UICONTROL 기본 제공 필드]** 하위 탭에 표시되고 사용자 지정 필드는 **[!UICONTROL 사용자 지정 필드]** 하위 탭에 표시됩니다.
 **[!UICONTROL 모든 필드]** 하위 탭에는 [!DNL Workfront]에서 추적하는 기본 제공 필드와 사용자 지정 필드가 모두 표시됩니다.</span>
 
