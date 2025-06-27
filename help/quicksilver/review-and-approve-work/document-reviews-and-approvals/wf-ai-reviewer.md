@@ -55,8 +55,8 @@ Workfront AI 검토자는 콘텐츠를 검토할 때 Genstudio Foundations에 �
 
 브랜드 지침에 대한 자세한 내용은 다음을 참조하십시오.
 
-* [GenStudio for Performance Marketing 브랜드](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [지침 추가](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketing 브랜드](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [지침 추가](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## AI 검토자 만들기
