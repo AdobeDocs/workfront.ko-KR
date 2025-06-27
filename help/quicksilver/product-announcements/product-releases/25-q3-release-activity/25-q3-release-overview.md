@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
+source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 3%
 
 ---
@@ -172,8 +172,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">기존 실제 시간 필드가 기존 실제 시간 및 새 실제 시간 필드로 대체되었습니다</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
-            <p>기존 실제 시간 필드의 이름이 기존 실제 시간으로 변경되었습니다. 이 필드에는 프로젝트, 작업 및 문제에 대해 기록된 시간이 분 단위로 저장됩니다. 이 필드는 actualWorkRequired로 Workfront 데이터베이스에 저장됩니다. </p>
-            <p>프로젝트, 작업 및 문제에 대해 기록된 시간을 소수점 이하 자리수로 시간 단위로 저장하는 새 실제 시간 필드를 추가했습니다. 필드는 actualWorkRequiredDouble로 Workfront 데이터베이스에 저장됩니다.</p>
+            <p>기존 실제 시간 필드의 이름이 기존 실제 시간으로 변경되었습니다. 이 필드에는 프로젝트, 작업 및 문제에 대해 기록된 시간이 분 단위로 저장됩니다. 필드는 Workfront 데이터베이스에 <code>actualWorkRequired</code>(으)로 저장됩니다. </p>
+            <p>프로젝트, 작업 및 문제에 대해 기록된 시간을 소수점 이하 자리수로 시간 단위로 저장하는 새 실제 시간 필드를 추가했습니다. 필드는 Workfront 데이터베이스에 <code>actualWorkRequiredDouble</code>(으)로 저장됩니다.</p>
         </td>
         <td>2025년 6월 24일 수요일</td>
         <td>2025년 6월 24일 수요일</td>
@@ -316,7 +316,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ### Workfront Planning 개선 사항
 
@@ -354,11 +354,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
 
 
 
