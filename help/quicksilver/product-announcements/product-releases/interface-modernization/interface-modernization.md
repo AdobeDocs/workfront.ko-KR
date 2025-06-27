@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 24bb25ca99f4a9ad0ecf8573f8d173248efe2986
+source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
 workflow-type: tm+mt
-source-wordcount: '4861'
-ht-degree: 1%
+source-wordcount: '5088'
+ht-degree: 0%
 
 ---
 
@@ -24,38 +24,35 @@ Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/hel
 
 ## 관리자 및 설정
 
-<!--### Look and feel updates for the Update Feeds section of Setup 
+### 설정의 피드 업데이트 섹션을 보고 느낍니다
 
-**Preview: June 26, 2025; Production for everyone: July 10, 2025**  
+**미리 보기: 2025년 6월 27일, 모두를 위한 프로덕션: 2025년 7월 10일**
 
-We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
+설정의 피드 업데이트 섹션에서 모든 탭과 하위 탭의 모양과 느낌을 업데이트했습니다. 피드 업데이트 섹션은 설정의 인터페이스 영역 아래에 표시됩니다. 이제 피드 업데이트 섹션의 모든 탭이 Workfront의 다른 영역과 일치합니다.
 
-For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
+자세한 내용은 [시스템 업데이트 구성](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)을 참조하세요.
 
+### 설정의 피드 업데이트 섹션에서 필드 추가 상자에 대한 업데이트를 직접 봅니다
 
-<!--### New look and feel of the lists in the Timesheets & Hours section in the Setup area
+**미리 보기 릴리스: 2025년 6월 27일, 프로덕션 릴리스: 2025년 7월 10일**
 
-**Preview: June 26, 2025; Production for everyone: July 10, 2025**   
+설정의 피드 업데이트 섹션에서 필드 추가 상자의 모양과 느낌을 업데이트했습니다. 피드 업데이트 섹션은 설정의 인터페이스 영역 아래에 표시됩니다. 이제 추적된 필드 탭의 하위 탭에서 필드를 추가하면 필드 추가 상자에 새로운 모양과 느낌이 생기고 일부 인터페이스 요소가 업데이트되었습니다.
 
-We have updated the look and feel of the following lists in the Timesheets & Hours section in the Setup area:  
+자세한 내용은 [시스템 업데이트 구성](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)을 참조하십시오.
 
-* The list of Timesheet Profiles 
+### 설정 영역의 타임시트 및 시간 섹션에 있는 목록의 새로운 모양과 느낌입니다.
 
-* The list of Hour Types 
+**미리 보기: 2025년 6월 26일, 모두를 위한 프로덕션: 2025년 7월 10일**
 
-These lists now match other areas of Workfront.  
+설정 영역의 타임시트 및 시간 섹션에서 다음 목록의 모양과 느낌을 업데이트했습니다.
 
- For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).-->
+* 타임시트 프로필 목록
 
+* 시간 유형 목록
 
-<!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+이러한 목록은 이제 Workfront의 다른 영역과 일치합니다.
 
-**Preview release: June 26, 2025; Production release: July 10, 2025** 
-
-We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
-
-For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).-->
-
+자세한 내용은 [타임시트 프로필 만들기, 편집 및 할당](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)을 참조하세요.
 
 ### 회사 페이지에 대한 인터페이스 업데이트
 

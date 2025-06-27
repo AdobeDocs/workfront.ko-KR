@@ -7,9 +7,9 @@ description: Adobe Workfront에서 프로젝트, 작업 및 문제에 대한 비
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2499'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,11 @@ Workfront에서 작업 및 프로젝트에 대한 여러 유형의 비용을 추
     </tr> 
     <tr> 
      <td>실제 인건비</td> 
-     <td> <p>다음 공식을 사용하여 계산됩니다.</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
+     <td> <p>다음 공식을 사용하여 계산됩니다.</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
+     <p><strong>참고</strong>
+     <p>Workfront은 기존 실제 시간을 사용하여 실제 인건비를 계산합니다. 자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">실제 근로시간 보기</a>를 참조하십시오. </p>
+
+  </td> 
     </tr> 
    </tbody> 
   </table>
@@ -150,7 +154,7 @@ Workfront은 프로젝트의 각 개별 작업에 대한 계획된 비용과 실
 >[!NOTE]
 >
 >프로젝트의 실제 비용은 다음과 같이 계산됩니다.
->`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >이러한 비용은 실제 비용 계산에서 중복되지 않습니다. 예를 들어 고정 비용이 프로젝트의 실제 비용 비용의 일부인 경우 실제 비용에 별도로 추가되지 않습니다.
 
