@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1336'
 ht-degree: 2%
 
 ---
@@ -107,14 +107,13 @@ Workfront 관리자 이외의 역할의 사용자에 대한 API 키를 생성하
    1. **시스템**&#x200B;을 확장한 다음 **SSO(Single Sign-On)**&#x200B;을 클릭합니다.
    1. **유형** 필드에서 조직에서 사용하는 SSO 유형을 선택합니다.
    1. 유형을 선택한 상태에서 아래로 스크롤하여 **활성화** 확인란의 선택을 취소합니다.
-
       ![SSO 사용](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. **저장**&#x200B;을 클릭합니다.
 
 
 1. 브라우저의 주소 표시줄에 다음 API 호출을 입력합니다.
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;사용자 이름&#x200B;**&amp;password=**&#x200B;암호**&amp;method=PUT
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**사용자 이름**&amp;password=**암호**&amp;method=PUT
 
    `<domain>`을(를) Workfront 도메인 이름으로 바꾸고 사용자 이름 및 암호를 사용자의 Workfront 자격 증명으로 바꿉니다.
 
@@ -140,9 +139,9 @@ API 키가 시스템의 모든 사용자에 대해 만료되도록 구성할 수
 
    기본적으로 API 키는 매월 만료됩니다.
 
-1. 사용자의 암호가 만료될 때 만료되도록 API 키를 구성하려면 **사용자의 암호가 만료될 때 API 키 제거**&#x200B;를 선택합니다.
+1. 사용자의 암호가 만료되는 시점에 만료되도록 API 키를 구성하려면 **사용자의 암호가 만료될 때 API 키 제거**&#x200B;를 사용하도록 설정하십시오.
 
-   기본적으로 이 옵션은 선택되어 있지 않습니다.
+   기본적으로 이 옵션은 활성화되어 있지 않습니다.
 
    사용자 암호를 만료되도록 구성하는 방법에 대한 자세한 내용은 [시스템 보안 환경 설정 구성](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
 
@@ -166,15 +165,15 @@ Workfront 시스템과 관련된 특정 보안 침해가 우려되는 경우 모
 
 >[!IMPORTANT]
 >
->이 섹션에 설명된 절차는 Adobe 비즈니스 플랫폼에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Workfront Business Platform에 온보딩된 경우 Adobe API를 통해 Workfront에 로그인할 수 없습니다.
+>이 섹션에 설명된 절차는 Adobe 비즈니스 플랫폼에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Workfront Business Platform에 온보딩된 경우 Workfront API를 통해 Adobe에 로그인할 수 없습니다.
 >
->조직이 Adobe 비즈니스 플랫폼에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
-
-서드파티 애플리케이션은 API를 통해 Workfront과 통신할 수 있습니다. Workfront 사이트의 보안을 강화하기 위해 X.509 인증서를 Workfront에 업로드하여 API 로그인 요청을 제한하도록 Workfront을 구성할 수 있습니다. 활성화되면 API를 통한 모든 로그인 요청에 사용자 이름 및 암호 외에 클라이언트 인증서가 포함되어야 합니다.
+>조직이 Adobe Business Platform에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 >[!NOTE]
 >
 >조직의 Workfront 인스턴스가 Adobe IMS를 사용하여 활성화된 경우 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
+
+서드파티 애플리케이션은 API를 통해 Workfront과 통신할 수 있습니다. Workfront 사이트의 보안을 강화하기 위해 X.509 인증서를 Workfront에 업로드하여 API 로그인 요청을 제한하도록 Workfront을 구성할 수 있습니다. 활성화되면 API를 통한 모든 로그인 요청에 사용자 이름 및 암호 외에 클라이언트 인증서가 포함되어야 합니다.
 
 * [X.509 인증서 받기](#obtain-the-x-509-certificate)
 * [인증서를 Workfront에 업로드](#upload-the-certificate-to-workfront)
@@ -182,7 +181,7 @@ Workfront 시스템과 관련된 특정 보안 침해가 우려되는 경우 모
 
 ### X.509 인증서 받기 {#obtain-the-x-509-certificate}
 
-신뢰할 수 있는 인증 기관(예: Verisign)에서 유효한 X.509 인증서를 가져와 워크스테이션의 임시 위치에 배치합니다.
+신뢰할 수 있는 인증 기관(예: Verisign)에서 유효한 X.509 인증서를 가져와 워크스테이션의 임시 위치에 저장합니다.
 
 ### 인증서를 Workfront에 업로드 {#upload-the-certificate-to-workfront}
 
@@ -192,7 +191,8 @@ Workfront 시스템과 관련된 특정 보안 침해가 우려되는 경우 모
 
 1. **시스템**&#x200B;을 확장한 다음 **고객 정보**&#x200B;를 클릭합니다.
 
-1. **API 키 설정** 영역에서 **X.509 인증서 사용**&#x200B;을 선택합니다.
+1. **API 키 설정** 영역에서 **API 로그인에 X.509 인증서 필요**&#x200B;를 선택합니다.
+1. **인증서 변경**&#x200B;을 클릭합니다.
 1. 워크스테이션에서 이전에 다운로드한 X.509 인증서로 이동하여 선택합니다.
 1. (선택 사항) 인증서에 대한 다음 세부 정보를 보려면 인증서 이름 옆에 있는 **세부 정보 보기**&#x200B;를 클릭합니다.
 
