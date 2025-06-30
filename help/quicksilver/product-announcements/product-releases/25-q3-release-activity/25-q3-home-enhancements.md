@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
+source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 2025년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
 
-<!--## All Approvals widget renamed to Document approval metrics
+## 모든 승인 위젯이 문서 승인 지표로 이름이 변경됨
 
-We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.
+표시되는 정보를 보다 정확하게 반영하도록 모든 승인 위젯의 이름을 문서 승인 지표로 변경했습니다. 문서 승인 지표 위젯은 사용자가 소유한 프로젝트의 문서 승인에 대한 높은 수준의 통찰력을 제공합니다.
 
-This widget does not contain any information about proof approvals. -->
+이 위젯에는 증명 승인에 대한 정보가 포함되어 있지 않습니다.
 
 ## 내 업데이트 영역의 언급 섹션에서 댓글 달기 환경이 업데이트되었습니다
 

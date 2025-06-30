@@ -6,9 +6,9 @@ description: 이미 보류 중인 승인이 있는 문서에 승인자 또는 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '569'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 * 문서 승인 참여자는 증명 워크플로 탭이 아니라 문서 요약에 표시됩니다.
 * 통합 승인은 현재 보고 도구에서 지원되지 않습니다.
 
-  새 Canvas Dashboards Beta를 [검토 및 승인을 위한 보고서 대시보드를 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)에 참여하거나 새 홈에서 사용할 수 있는 모든 승인 위젯을 사용할 수 있으며 Canvas Dashboards는 통합 승인에 대한 다음 세부 정보를 제공합니다.
+  새 Canvas Dashboards Beta를 [검토 및 승인을 위한 보고서 대시보드를 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)에 참여하거나 새 홈에서 사용할 수 있는 문서 승인 지표 위젯을 사용할 수 있으며 Canvas Dashboards는 통합 승인에 대한 다음 세부 정보를 제공합니다.
 
    * 결정에 의한 승인
    * 평균 승인 시간
