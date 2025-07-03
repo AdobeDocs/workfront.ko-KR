@@ -12,7 +12,7 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ Workfront에서 AI 검토자를 설정하려면 시스템 관리자여야 합니
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="지원되지 않는 파일 유형"
->abstract="이 AI 검토자는 선택한 파일 유형을 지원하지 않습니다. 지원되는 파일 유형을 업로드하거나 AI 검토자를 제거하여 요청을 제출하십시오."
+>abstract="이 AI 검토자는 선택한 파일 형식을 지원하지 않습니다. 지원되는 파일 유형을 업로드하거나 AI 검토자를 제거하여 요청을 제출하십시오."
 
 AI 검토자는 다음 파일 유형을 검토할 수 있습니다.
 
@@ -55,8 +55,8 @@ Workfront AI 검토자는 콘텐츠를 검토할 때 Genstudio Foundations에 �
 
 브랜드 지침에 대한 자세한 내용은 다음을 참조하십시오.
 
-* [GenStudio for Performance Marketing 브랜드](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [지침 추가](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketing 브랜드](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [지침 추가](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## AI 검토자 만들기
