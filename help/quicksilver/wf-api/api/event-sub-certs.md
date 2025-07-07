@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: f409bc84360d92f1b952b594720d5e4aea1fc354
+source-git-commit: 0c9cbf094ec1b3d5f48a0e4b700b9554925199e1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 1%
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
@@ -31,10 +31,12 @@ Sandbox 2
 
 클라이언트 TLS를 사용하면 수신한 이벤트 구독 메시지가 실제로 Adobe Workfront에서 왔는지 확인할 수 있습니다. 이 기능을 사용하려면 Workfront의 x509 인증서를 요청하고 유효성을 검사하도록 서버를 구성해야 합니다.
 
+<!--
 >[!NOTE]
 >
->* Workfront은 현재 기본적으로 TLS 버전 1.2를 지원합니다.
->* 조직은 해당 Workfront 인스턴스에 대해 TLS 버전 1.3이 활성화되도록 요청할 수 있습니다.
+>* Workfront currently supports TLS version 1.2 by default.
+>* Organizations can request that TLS version 1.3 be enabled for their Workfront instance.
+-->
 
 
 ## Workfront의 클라이언트 인증서 확인
