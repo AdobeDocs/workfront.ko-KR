@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >조직이 Adobe Business Platform에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
-Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 시스템 관리자를 만들 수 있습니다. 콘솔은 조직 전체에서 Adobe 권한을 관리하기 위한 중앙 위치입니다. 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/enterprise/using/admin-console.html)를 참조하세요.
+Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 시스템 관리자를 만들 수 있습니다. 콘솔은 조직 전체에서 Adobe 권한을 관리하기 위한 중앙 위치입니다. 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)를 참조하세요.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
   >
   >제품 프로필 자체를 변경하지 마십시오.
 
-* Adobe Admin Console 관리자는 자동 할당 규칙을 설정하여 조직의 사용자에게 Adobe 제품을 할당하는 프로세스를 자동화할 수 있습니다. 이 기능을 사용하려면 조직을 Adobe 통합 경험으로 마이그레이션해야 합니다. 자세한 내용 및 지침은 Adobe 설명서에서 [자동 할당 규칙 관리](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html)를 참조하십시오.
+* Adobe Admin Console 관리자는 자동 할당 규칙을 설정하여 조직의 사용자에게 Adobe 제품을 할당하는 프로세스를 자동화할 수 있습니다. 이 기능을 사용하려면 조직을 Adobe 통합 경험으로 마이그레이션해야 합니다. 자세한 내용 및 지침은 Adobe 설명서에서 [자동 할당 규칙 관리](https://helpx.adobe.com/kr/enterprise/using/automatic-assignment-rules.html)를 참조하십시오.
 
   >[!NOTE]
   >
@@ -235,16 +235,16 @@ Adobe Admin Console에서 다음 사용자 세부 사항을 편집할 수 있습
 * 관리 권한
 * 국가
 
-Adobe Admin Console에서 단일 사용자를 편집하는 방법에 대한 자세한 내용은 Adobe 설명서의 개별 사용자 관리 문서에서 [사용자 세부 정보 편집](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details)을 참조하십시오.
+Adobe Admin Console에서 단일 사용자를 편집하는 방법에 대한 자세한 내용은 Adobe 설명서의 개별 사용자 관리 문서에서 [사용자 세부 정보 편집](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html#edit-user-details)을 참조하십시오.
 
 Adobe Admin Console에서 사용자를 일괄 편집하는 방법에 대한 자세한 내용은
-Adobe 설명서의 여러 사용자 관리 문서에서 [사용자 세부 정보 편집](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details).
+Adobe 설명서의 여러 사용자 관리 문서에서 [사용자 세부 정보 편집](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html#edit-user-details).
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/kr/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>
