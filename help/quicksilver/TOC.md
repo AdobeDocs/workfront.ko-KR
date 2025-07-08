@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 8d37762a2f6b01ff25845639c6436b2a39aa5449
+source-git-commit: cd5dcbd0f39754fb9ab1605c1eb65af37aa21996
 workflow-type: tm+mt
-source-wordcount: '13224'
+source-wordcount: '13227'
 ht-degree: 2%
 
 ---
@@ -2133,7 +2133,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2457,7 +2457,7 @@ ht-degree: 2%
       * [기본 API 버전 관리를 사용하는 통합 업데이트](wf-api/api/update-default-api-versioning.md)
       * [이벤트 구독 메시지 필터링](wf-api/api/filter-event-sub-messages.md)
       * [이벤트 구독 리소스 필드](wf-api/api/event-sub-resource-fields.md)
-      * [이벤트 구독 인증서](wf-api/api/event-sub-certs.md)
+      * [이벤트 구독에 대한 클라이언트 TLS 구성](wf-api/api/event-sub-certs.md)
       * [통합에서 API 버전 지정](wf-api/api/specify-api-version-integrations.md)
       * [핵심 API 변경 사항: 상태 검색 응답](wf-api/api/api-changes-search.md)
       * [API 버전 관리 및 지원 일정](wf-api/api/api-version-support-schedule.md)
