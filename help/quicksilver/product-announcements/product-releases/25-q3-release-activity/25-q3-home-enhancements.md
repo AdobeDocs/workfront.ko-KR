@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
+source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,12 @@ ht-degree: 0%
 2025년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
 
 ## 모든 승인 위젯이 문서 승인 지표로 이름이 변경됨
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 6월 30일
+>* 프로덕션 빠른 릴리스: 2025년 6월 30일
+>* 모든 고객을 위한 프로덕션: 2025년 6월 30일
 
 표시되는 정보를 보다 정확하게 반영하도록 모든 승인 위젯의 이름을 문서 승인 지표로 변경했습니다. 문서 승인 지표 위젯은 사용자가 소유한 프로젝트의 문서 승인에 대한 높은 수준의 통찰력을 제공합니다.
 
