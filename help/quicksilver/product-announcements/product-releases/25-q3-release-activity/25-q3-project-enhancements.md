@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
+source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,23 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 3분기 릴리스의 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
+
+## 요청 시 경험 업데이트
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 7월 9일
+>* 프로덕션 빠른 릴리스: 2025년 7월 17일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
+
+새 요청 경험에서 요청할 때 경험을 업데이트했습니다.
+
+* 사용 가능한 요청 양식 및 경로가 카드가 아닌 목록에 나타납니다. 가장 최근 항목이 상단 근처에 있는 섹션에 표시됩니다.
+* Workfront 및 Workfront Planning 요청 양식을 포함한 모든 요청 양식이 목록에 나타납니다. 이전에는 처음 50명만 등장했습니다.
+* 요청 경로 및 요청 양식은 최근 영역 및 아래의 더 큰 목록 모두에서 별도의 섹션에 나열됩니다.
+* 요청 대기열을 검색할 때 이 목록은 검색어를 포함하는 양식 및 경로만 표시하도록 필터링합니다. 표시된 각 요청 양식 또는 경로에서 검색어가 강조 표시됩니다.
+
+요청에 대한 자세한 내용은 [요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
 ## 기존 실제 시간 필드가 기존 실제 시간 및 새 실제 시간 필드로 대체되었습니다.
 
@@ -37,12 +54,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >시간이 기록된 시기에 따라 프로젝트, 작업 또는 문제에 대한 실제 시간과 레거시 실제 시간이 일치하지 않을 수 있습니다.<br>
->&#x200B;>다음과 같은 시나리오가 있습니다.
+>>다음과 같은 시나리오가 있습니다.
 >
 >* 실제 근로시간은 2021년 5월 이후 프로젝트, 작업 및 문제에 대해 기록된 시간을 나타냅니다.
 >* 기존 실제 시간은 프로젝트, 작업 또는 문제의 수명 동안 프로젝트, 작업 및 문제에 기록된 시간을 나타냅니다. 여기에는 2021년 5월 이전에 현재 시간까지 기록된 시간이 포함됩니다.
->  &#x200B;><br>새 필드 및 해당 값을 반영하도록 보고서를 업데이트해야 할 수 있습니다.
->  &#x200B;><br>Workfront은 기존 실제 시간을 사용하여 실제 인건비를 계산합니다.
+>  ><br>새 필드 및 해당 값을 반영하도록 보고서를 업데이트해야 할 수 있습니다.
+>  ><br>Workfront은 기존 실제 시간을 사용하여 실제 인건비를 계산합니다.
 
 자세한 내용은 [실제 근로시간 보기](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)를 참조하십시오.
 
@@ -96,3 +113,5 @@ AI Assistant가 Workfront 프로젝트, 작업 및 문제에 대한 질문에 �
 이전에는 AI 비서의 응답에서 이 정보를 사용할 수 없었습니다.
 
 AI Assistant를 사용하여 Workfront 항목에 대한 정보를 얻는 방법에 대한 자세한 내용은 [AI Assistant를 사용하여 프로젝트, 작업 및 문제 작업](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)을 참조하십시오.
+
+

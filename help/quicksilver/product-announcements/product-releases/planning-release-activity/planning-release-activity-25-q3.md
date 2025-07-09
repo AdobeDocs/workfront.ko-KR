@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
+source-git-commit: 6f79c2973324d7de34736810dafcbd08714b4738
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,63 @@ ht-degree: 0%
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
+<!--## Auto-populate fields based on applied groupings
+
+Preview: July 10, 2025 
+Production fast release: August 14, 2025 
+Production for everyone: October 16, 2025 
+
+Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
+
+If you have multiple groupings applied, the system auto-populates the fields associated with all groupings only when you add the record at the end of the list inside the last grouping criteria.  
+
+Prior to this enhancement, you had to manually update the fields associated with groupings.  
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
+
+## 보기 및 레코드 유형에 대한 일반 공유 단추
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 7월 9일
+>* 모두를 위한 프로덕션: 2025년 7월 17일
+
+이제 레코드 종류의 페이지에 있는 동일한 단추에서 보기와 레코드 종류를 공유할 수 있습니다. 이 개선 이전에는 레코드 유형 페이지의 공유 버튼과 보기의 탭에 있는 보기에서만 레코드 유형을 공유할 수 있었습니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* [보기 공유](/help/quicksilver/planning/access/share-views.md)
+
+* [레코드 유형 공유](/help/quicksilver/planning/access/share-record-types.md)
+
+
+<!--## Add teams as approvers on Planning request forms
+
+>[!NOTE]
+>
+>* Preview: July 9, 2025 
+>* Production for everyone: October 16, 20025 
+
+To make the approval process more flexible, we've added the ability to add teams as approvers on Planning request forms. Now, you can enter and select team names when setting approvers. Any of the team members can make a decision, which counts as the approval decision for the entire team.
+
+Previously, only individual users could be assigned as approvers. 
+
+For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
+
+## 요청 양식을 공유할 때 경험이 업데이트됨
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 7월 9일
+>* 모두를 위한 프로덕션: 2025년 7월 17일
+
+Workfront Planning에서 요청 양식을 공유할 때의 환경을 보다 안전하고 간단하게 만들기 위해 다음과 같이 변경했습니다.
+
+* 상속된 권한을 제거했습니다. 이제 요청 양식은 선택한 사용자만 공유됩니다.
+* 요청 양식을 공유한 사용자에 대한 관리 및 기여 옵션을 제거했습니다. 이제 추가된 사용자는 양식만 제출할 수 있습니다.
+* 이제 공개 공유 탭에 공개 링크 만들기 옵션이 활성화된 후에만 링크 및 만료 날짜 필드가 표시됩니다.
+
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
 
 ## 표 보기에서 모든 그룹화 펼치기 및 접기
 
@@ -239,7 +296,7 @@ CSV 및 Excel 파일을 가져와서 레코드 형식과 기존 레코드 형식
 >[!NOTE]
 >
 >이 변경 사항은 시스템 관리자 및 표준 라이선스를 가진 모든 신규 및 기존 사용자에게 표시됩니다.
->&#x200B;>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
+>>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
 
 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
