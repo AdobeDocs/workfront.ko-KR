@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 273db4b8e9b59930dc640a342dbeb276c22ccda3
+source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 0%
      <li>After Effects </li>
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
-     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> 
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Adobe Workfront]개 응용 프로그램용 [!DNL Creative Cloud] 플러그 인 설치</a>를 참조하십시오.</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -195,16 +195,16 @@ ht-degree: 0%
      <li>[!DNL Jira]이(가) 아닌 관리자는 [!DNL Jira] 관리자에게 액세스 권한을 요청해야 합니다.</li> 
     </ul> </td> 
   </tr> 
-  <tr> 
-   <td>[!DNL Microsoft] 캘린더([!DNL Office 365] / [!DNL Outlook Live])</td> 
+  <!--<tr> 
+   <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
-     <li> <p>클라우드 호스팅 [!DNL Office 365] 또는 [!DNL Outlook Live.]의 웹 기반 버전 [!DNL Outlook]과(와) 통합 </p> </li> 
-     <li> <p>[!DNL Outlook] 캘린더의 모든 이벤트와 선택한 관련 캘린더(예: 생일 및 휴일 캘린더)를 [!UICONTROL 홈 캘린더]에 표시합니다.</p> </li> 
-    </ul> <p><b>참고</b>: [!UICONTROL Outlook] 일정 구성은 [!DNL Outlook] 추가 기능([!DNL Outlook] 통합 또는 [!DNL Workfront for Outlook])과 완전히 별개입니다. 달력을 구성하는 데 필요한 설치가 없습니다.</p></td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
+     <li> <p>Integrate with a web-based version of [!DNL Outlook] in cloud-hosted [!DNL Office 365] or [!DNL Outlook Live.] </p> </li> 
+     <li> <p>Display all events from your [!DNL Outlook] calendar and any associated calendars you select, such as Birthdays and Holidays calendars, in your [!UICONTROL Home Calendar].</p> </li> 
+    </ul> <p><b>NOTE</b>: The [!UICONTROL Outlook] calendar configuration is completely separate from the [!DNL Outlook] Add-in ([!DNL Outlook] Integration or [!DNL Workfront for Outlook]). There's no installation required to configure the calendar.</p></td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> -->
   <tr> 
    <td> <p>[!DNL Microsoft OneDrive]</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -214,32 +214,32 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
   </tr> 
-  <tr> 
+  <!--<tr> 
    <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>이메일의 정보로 기존 프로젝트/작업/문제 업데이트 </li> 
-     <li>받은 편지함에서 바로 이메일을 Workfront 항목으로 변환 </li> 
-     <li>이메일에서 새 작업 만들기 </li> 
-     <li>[!DNL Workfront]개 항목에 대한 댓글 </li> 
-    </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref">[!DNL Adobe Workfront for Outlook]</a>을(를) 참조하십시오.</p> </td> 
+     <li>Update an existing project/task/issue with info from an email </li> 
+     <li>Convert emails into Workfront items right from your inbox </li> 
+     <li>Create new tasks from an email </li> 
+     <li>Comment on [!DNL Workfront] items </li> 
+    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref">[!DNL Adobe Workfront for Outlook]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Outlook] 2013년 또는 2016년: [!DNL Windows] 및 2016년: [!DNL Outlook] [!DNL Mac] </li> 
-     <li>[!DNL Outlook] 웹에서 [!DNL Exchange] 2016 및 [!DNL Office] 365에 대한 형식이어야 합니다. </li> 
-     <li>[!DNL Outlook Web Access] 은(는) 2013년 [!DNL Exchange]에 해당해야 합니다. </li> 
-     <li>[!DNL Exchange] 서버에 직접 연결 또는 [!DNL Office 365]</li> 
+     <li>[!DNL Outlook] 2013 or 2016 for [!DNL Windows] and [!DNL Outlook] 2016 for [!DNL Mac] </li> 
+     <li>[!DNL Outlook] on the web must be for [!DNL Exchange] 2016 and [!DNL Office] 365 </li> 
+     <li>[!DNL Outlook Web Access] must be for [!DNL Exchange] 2013 </li> 
+     <li>Direct connection to an [!DNL Exchange] Server or [!DNL Office 365]</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Workfront] 관리자 </li> 
-    </ul> </td> 
+     <li>[!DNL Workfront] administrator </li> 
+    </ul> </td>--> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Microsoft] 팀에서 [!DNL Workfront] 알림 받기 </li> 
+     <li>[!DNL Workfront] 팀에서 [!DNL Microsoft] 알림 받기 </li> 
      <li>승인 결정 </li> 
      <li>[!DNL Workfront]개의 프로젝트, 작업 및 문제 검색 </li> 
      <li>[!DNL Workfront]개의 개인 작업 만들기 </li> 
@@ -258,7 +258,7 @@ ht-degree: 0%
    <td> <p>[!DNL Salesforce]</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Salesforce]에서 새 [!DNL Workfront]개 요청 만들기 </li> 
+     <li>[!DNL Workfront]에서 새 [!DNL Salesforce]개 요청 만들기 </li> 
      <li>[!DNL Workfront]개 프로젝트 만들기 [!DNL Salesforce]</li> 
     </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>을(를) 참조하십시오.</p> </td> 
    <td> 
@@ -284,9 +284,9 @@ ht-degree: 0%
    <td> <p>[!DNL Slack]</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Slack]에서 [!DNL Workfront]개의 알림 수신 </li> 
+     <li>[!DNL Workfront]에서 [!DNL Slack]개의 알림 수신 </li> 
      <li>[!DNL Slack]에서 승인 관리 </li> 
-     <li>[!DNL Slack]에서 [!DNL Workfront]개의 작업 및 문제 만들기 </li> 
+     <li>[!DNL Workfront]에서 [!DNL Slack]개의 작업 및 문제 만들기 </li> 
      <li>의 프로젝트 또는 작업에 대한 댓글 게시 [!DNL Slack]</li> 
     </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>을(를) 참조하십시오.</p> </td> 
    <td> 
@@ -320,7 +320,7 @@ ht-degree: 0%
 
   [!DNL Adobe Workfront Fusion]은(는) 앱과 서비스 내에서 작업을 연결하여 데이터를 자동으로 전송하고 변환하는 시나리오를 만듭니다. 많은 앱에 대한 전용 커넥터를 보유하고 있지만 공개 API를 사용하여 모든 애플리케이션에 연결할 수 있습니다.
 
-  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan]&#x200B;([!DNL Workfront Fusion] 필요)
