@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 5f9f4d4f100557238d9ff8d7f571108de4341c75
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,10 @@ ht-degree: 0%
 테이블 보기에서 레코드를 편집할 때 레코드를 볼 때 다른 사용자가 편집하고 있는 필드가 표시됩니다.
 
 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하십시오.
+
+<span class="preview">그룹화 또는 하위 그룹화에서 마지막 레코드 뒤에 새 레코드를 추가하면 Workfront에서 새 레코드에 대한 그룹화에 포함된 필드를 자동으로 업데이트합니다. 필요한 경우 이러한 필드를 수동으로 편집할 수 있으며 그룹화에서 레코드가 제거될 수 있습니다. </span>
+
+자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
 {{step1-to-planning}}
 

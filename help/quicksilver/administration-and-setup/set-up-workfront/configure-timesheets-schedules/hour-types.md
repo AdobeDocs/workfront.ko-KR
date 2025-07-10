@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -23,13 +23,14 @@ ht-degree: 1%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<div class="preview">
+<!--<div class="preview">
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 시간 유형은 시간 항목을 정의하는 데 사용하는 레이블입니다. 시간 유형과 시간 항목을 연결할 수 있습니다.
 
@@ -165,11 +166,11 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
 1. 비활성화할 시간 유형을 선택합니다.
 
 
-1. <span class="preview">**자세히**&#x200B;를 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.</span>
+1. **자세히**&#x200B;를 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.
 
-   <span class="preview">![시간 유형 링크 활성화 및 비활성화](assets/activate-and-deactivate-hour-type-links.png)</span>
+   ![시간 유형 링크 활성화 및 비활성화](assets/activate-and-deactivate-hour-type-links.png)
 
-   <span class="preview">시간 유형이 비활성화되어 사용자가 시간을 기록할 때 더 이상 시간 유형을 찾을 수 없습니다.</span>
+   시간 유형이 비활성화되어 사용자가 시간을 기록할 때 더 이상 시간 유형을 찾을 수 없습니다.
 
-1. <span class="preview">(선택 사항) 시간 유형을 다시 활성화하려면 **시간 유형** 목록에서 선택한 다음 **자세히** > **활성화**&#x200B;를 클릭합니다. </span>
+1. (선택 사항) 시간 유형을 다시 활성화하려면 **시간 유형** 목록에서 선택한 다음 **자세히** > **활성화**&#x200B;를 클릭합니다.
 

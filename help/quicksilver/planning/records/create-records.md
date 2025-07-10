@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2468'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,11 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 1. (조건부) 테이블 보기에서 다음 중 하나를 수행합니다.
 
-   * 테이블의 마지막 행에서 **새 레코드**&#x200B;을(를) 클릭합니다.
+   * 테이블의 마지막 행이나 그룹화의 마지막 레코드 뒤에 있는 **새 레코드**&#x200B;을(를) 클릭합니다
+
+     >[!TIP]
+     >
+     ><span class="preview">그룹화 또는 하위 그룹화에서 마지막 레코드 뒤에 새 레코드를 추가하면 Workfront이 그룹화에 포함된 필드를 자동으로 채웁니다. 필요한 경우 이러한 필드를 수동으로 편집할 수 있으며 그룹화에서 레코드가 제거될 수 있습니다. </span>
 
    * 표의 열 또는 행에서 키보드에서 **Shift + Enter**&#x200B;를 클릭합니다. 이렇게 하면 시작한 레코드 아래에 빈 행이 추가됩니다.
    * 레코드의 기본 필드 위에 마우스를 가져다 대고 필드 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **위에 레코드 삽입** 또는 **아래에 레코드 삽입**&#x200B;을 클릭합니다.
@@ -205,18 +209,18 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 1. (조건부) 작업 영역 <!--<span class="preview">and record type</span>--> 권한에 따라 화면의 오른쪽 상단에 있는 다음 항목을 클릭합니다.
 
-   * 작업 영역 <!--<span class="preview">and record type</span>-->에 대한 Contribute 이상의 권한이 있는 경우 **새 레코드**&#x200B;을(를) 클릭합니다.
+   * 작업 영역 **에 대한 Contribute 이상의 권한이 있는 경우**&#x200B;새 레코드<!--<span class="preview">and record type</span>-->을(를) 클릭합니다.
 
      또는
 
-   * 작업 영역 <!--<span class="preview">and record type</span>-->에 대한 보기 권한이 있는 경우 **레코드 요청**&#x200B;을 클릭하세요.
+   * 작업 영역 **에 대한 보기 권한이 있는 경우**&#x200B;레코드 요청<!--<span class="preview">and record type</span>-->을 클릭하세요.
 
 1. (조건부) **새 레코드**&#x200B;을(를) 클릭한 경우 다음 작업을 수행하십시오.
 
    1. 다음 방법 중 하나를 클릭하여 레코드를 만든 다음 **계속**&#x200B;을 클릭합니다.
 
       * **수동으로 추가**. 레코드의 미리보기 상자가 열립니다.\
-        이 문서의 레코드 유형 테이블 보기[&#128279;](#create-records-by-adding-them-inline-from-the-record-type-table-view) 섹션에서 인라인으로 추가하여 레코드 만들기&lbrace;6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
+        이 문서의 레코드 유형 테이블 보기[ 섹션에서 인라인으로 추가하여 ](#create-records-by-adding-them-inline-from-the-record-type-table-view)레코드 만들기{6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
       * **파일에서 업로드**
 문서 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)에 설명된 대로 6단계부터 레코드를 추가합니다. <!--ensure this stays accurate-->
       * **요청 제출**

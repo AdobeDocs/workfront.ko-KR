@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 >[!IMPORTANT]
 >
 >작업 영역에 대한 액세스 권한이 있는 사용자는 작업 영역의 모든 레코드 유형에 대해 적어도 보기 권한을 자동으로 부여받습니다.
->&#x200B;>보기를 공유해도 사용자에게 레코드 유형에 대한 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 유형에 대한 권한을 부여할 수 있습니다.
+>>보기를 공유해도 사용자에게 레코드 유형에 대한 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 유형에 대한 권한을 부여할 수 있습니다.
 >
 >* Workfront Planning에서 개체 공유에 대한 일반적인 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 >* 자세한 내용은 이 문서의 [레코드 종류 공유 시 고려 사항](#considerations-when-sharing-record-types) 섹션을 참조하십시오.
@@ -151,10 +151,11 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
    그러면 레코드 유형 페이지가 열립니다.
 
 1. 보기의 탭에서 레코드 종류의 오른쪽 상단의 **공유**&#x200B;를 클릭합니다.
+1. <span class="preview">**레코드 종류 공유**&#x200B;를 클릭합니다.</span>
 
    **공유** 상자가 열립니다.
 
-   ![&#128279;](assets/permissions-for-record-types-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드 형식에 대한 사용 권한
+   ![에서 상속된 사용 권한을 가진 레코드 형식에 대한 ](assets/permissions-for-record-types-with-inherited-permissions-on.png)사용 권한
 
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 레코드 유형을 볼 수 있습니다.
 
@@ -206,6 +207,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 1. 공유를 중지할 레코드 종류가 있는 작업 영역을 연 다음 레코드 종류 카드를 클릭합니다. 그러면 레코드 유형 페이지가 열립니다.
 
 1. 보기의 탭에서 레코드 종류의 오른쪽 상단의 **공유**&#x200B;를 클릭합니다.
+1. <span class="preview">**레코드 종류 공유**&#x200B;를 클릭합니다.</span>
 
    **공유** 상자가 열립니다.
 1. 권한을 제거할 사용자, 그룹, 팀, 회사 또는 작업 역할을 찾은 다음 이름 오른쪽에 있는 권한 드롭다운 메뉴를 확장한 다음 **제거**&#x200B;를 클릭합니다. <!--check the screen shot below - the UI text for View might not be accurate-->

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '933'
 ht-degree: 8%
 
 ---
@@ -19,13 +19,15 @@ ht-degree: 8%
 
 <!-- Audited: 6/2025 -->
 
+<!--
+
 <div class="preview">
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div> -->
 
 [!DNL Adobe Workfront]은(는) 다음 이벤트를 기록하기 위해 개체의 [!UICONTROL 업데이트] 영역에서 자동 시스템 업데이트를 생성합니다.
 
@@ -96,13 +98,13 @@ ht-degree: 8%
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **[!UICONTROL 인터페이스]**&#x200B;를 클릭한 다음 **[!UICONTROL 피드 업데이트]**&#x200B;를 클릭합니다.
-1. (선택 사항) 업데이트 피드에서 추적할 필드 유형에 따라 <span class="preview">**추적된 필드** 탭</span>에서 다음 하위 탭 중 하나를 클릭합니다.
+1. (선택 사항) 업데이트 피드에서 추적할 필드 유형에 따라 **추적된 필드** 탭에서 다음 하위 탭 중 하나를 클릭합니다.
 
-   * <span class="preview">**기본 제공 필드**</span>: 기본 제공 필드 목록을 표시합니다.
-   * <span class="preview">**사용자 지정 필드**</span>: 사용자 지정 필드 목록을 표시합니다. 목록에서 사용자 정의 필드를 사용하려면 먼저 사용자 정의 필드를 만들어야 합니다.
-   * <span class="preview">**모든 필드**</span>: 기본 제공 필드와 사용자 지정 필드 목록을 표시합니다.
+   * **기본 제공 필드**: 기본 제공 필드 목록을 표시합니다.
+   * **사용자 지정 필드**: 사용자 지정 필드 목록을 표시합니다. 목록에서 사용자 정의 필드를 사용하려면 먼저 사용자 정의 필드를 만들어야 합니다.
+   * **모든 필드**: 기본 제공 필드와 사용자 지정 필드 목록을 표시합니다.
 
-1. <span class="preview">**[!UICONTROL 필드 추가&#x200B;]**,</span>를 클릭한 다음 드롭다운에서 추적할 개체를 선택합니다.
+1. **[!UICONTROL 필드 추가]**&#x200B;를 클릭한 다음 드롭다운에서 추적할 개체를 선택합니다.
 
    업데이트 영역이 있는 모든 객체에는 수동으로 필드를 선택할 수 없습니다.
 
@@ -115,16 +117,16 @@ ht-degree: 8%
    * 프로그램
    * 사용자
 
-   선택한 각 개체에 대해 <span class="preview">**필드 추가** </span> 상자가 열립니다.
-1. <span class="preview">**필드 추가** </span> 상자에서 개체에 대한 기본 제공(표준) 필드 또는 사용자 지정 필드를 입력한 다음 목록에 표시될 때 선택합니다.
+   선택한 각 개체에 대해 **필드 추가** 상자가 열립니다.
+1. **필드 추가** 상자에서 개체에 대한 기본 제공(표준) 필드 또는 사용자 지정 필드를 입력한 다음 목록에 표시될 때 선택합니다.
 
    >[!NOTE]
    >
    >[!DNL Workfront]이(가) 이미 필드를 추적하는 중이면 목록에서 두 번 추가할 수 없습니다.
 
-1. [!DNL Workfront]에서 추적할 모든 필드를 추가한 후 <span class="preview">에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. [!DNL Workfront]에서 추적할 모든 필드를 추가한 후 **[!UICONTROL 추가]**를 클릭합니다.
 추가한 기본 제공 필드는 **[!UICONTROL 기본 제공 필드]** 하위 탭에 표시되고 사용자 지정 필드는 **[!UICONTROL 사용자 지정 필드]** 하위 탭에 표시됩니다.
-**[!UICONTROL 모든 필드]** 하위 탭에는 [!DNL Workfront]에서 추적하는 기본 제공 필드와 사용자 지정 필드가 모두 표시됩니다.</span>
+**[!UICONTROL 모든 필드]** 하위 탭에는 [!DNL Workfront]에서 추적하는 기본 제공 필드와 사용자 지정 필드가 모두 표시됩니다.
 
 ### 추적하지 않을 필드 제거 {#remove-fields-you-don-t-want-tracked}
 
@@ -136,16 +138,7 @@ ht-degree: 8%
 
 1. **[!UICONTROL 추적된 필드]** 탭에서 **[!UICONTROL 모든 필드]** 하위 탭을 선택합니다. 현재 추적 중인 기본 제공 필드와 사용자 지정 필드가 모두 표시됩니다.
 
-1. 추적을 중지할 필드를 선택한 다음 **[!UICONTROL 제거]**&#x200B;를 클릭합니다.
-
-
-<!--replace above at Preview release with this:
-
-1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
-
-1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
-
--->
+1. 추적을 중지할 필드를 선택한 다음 **[!UICONTROL 제거]** 아이콘 ![제거 아이콘](assets/remove-icon.png)을 클릭합니다.
 
 1. 표시되는 **[!UICONTROL 필드 제거]** 상자에서 **[!UICONTROL 예, 제거]**&#x200B;를 클릭하여 확인합니다.
 
