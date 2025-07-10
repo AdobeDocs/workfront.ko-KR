@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
+source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2666'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 3%
 -->
 
 이벤트 구독이 지원하는 Adobe Workfront 개체에서 작업이 발생하면 원하는 끝점에 응답을 보내도록 Workfront을 구성할 수 있습니다. 즉, 서드파티 애플리케이션은 업데이트 발생 직후 Workfront API를 통해 Workfront 상호 작용에서 업데이트를 받을 수 있습니다. 일반적으로 기록되는 데이터 변경 사항에서 5초 이내에 웹후크 알림을 받을 수 있습니다. 평균적으로 고객은 기록되는 데이터 변경 사항에서 1초 이내에 웹후크 알림을 받습니다.
+
+이벤트 구독은 다른 서비스로 데이터를 보내기 때문에 Workfront 애플리케이션이 아닌 명령을 통해 관리됩니다.
 
 허용 목록에 추가하다 귀하의 방화벽을 통해 이벤트 구독 페이로드를 수신하려면 다음 IP 주소를 귀하의 방화벽에 추가해야 합니다.
 
@@ -84,7 +86,7 @@ ht-degree: 3%
 * 이벤트 구독을 사용하려면 &quot;시스템 관리자&quot;의 액세스 수준이 필요합니다.
 * 이벤트 구독 API를 사용하려면 `sessionID` 헤더가 필요합니다.
 
-  자세한 내용은 [API 기본 사항](api-basics.md)의 [인증](api-basics.md#authentication)을 참조하세요.
+  자세한 내용은 [API 기본 사항](api-basics.md#authentication)의 [인증](api-basics.md)을 참조하세요.
 
 ## 구독 리소스 구성
 
@@ -803,12 +805,12 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 #### 상태
 
 이 커넥터를 사용하면 필터가 생성 또는 업데이트된 객체의 새 상태 또는 이전 상태에 적용됩니다. 이 기능은 어떤 항목에서 다른 항목으로 변경된 위치를 알고 싶을 때 유용합니다.
-`eventTypes` 만들기에서 `oldState`을(를) 사용할 수 없습니다.
+`oldState` 만들기에서 `eventTypes`을(를) 사용할 수 없습니다.
 
 >[!NOTE]
 >
->지정된 필터가 있는 아래 구독은 `oldState`에서 작업 이름이 `again`인 메시지만 반환합니다. 이 메시지는 작업에 대한 업데이트가 이루어지기 전입니다.
->&#x200B;>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
+>지정된 필터가 있는 아래 구독은 `again`에서 작업 이름이 `oldState`인 메시지만 반환합니다. 이 메시지는 작업에 대한 업데이트가 이루어지기 전입니다.
+>>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
 
 ```
 {
