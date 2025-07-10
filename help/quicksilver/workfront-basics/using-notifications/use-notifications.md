@@ -1,15 +1,15 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: "알림 사용: 문서 색인"
+title: '알림 사용: 문서 색인'
 description: Adobe Workfront에서 알림을 사용하는 방법을 알아보려면 이 문서를 검토하십시오.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
+source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-basics/using-notifications/opt-out-of-email-notifications.md" class="MCXref xref" xrefformat="{para}">Opt out of email notifications</a> </li>
   -->
-
+* [이벤트 알림: 문서 색인](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
 * [알림: 조치 필요](../../workfront-basics/using-notifications/notifications-action-needed.md)
 * [알림: 승인 정보](../../workfront-basics/using-notifications/notifications-approval-information.md)
 * [알림: 커뮤니케이션](../../workfront-basics/using-notifications/notifications-communication.md)
