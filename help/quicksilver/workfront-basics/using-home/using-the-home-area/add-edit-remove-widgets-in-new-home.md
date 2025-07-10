@@ -6,9 +6,9 @@ description: 다양한 위젯 중에서 선택하여 홈 페이지에 표시되�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1098'
 ht-degree: 6%
 
 ---
@@ -121,8 +121,8 @@ ht-degree: 6%
    * **내 승인**\
        보류 중인 할당 또는 위임된 승인, 승인을 위임하는 버튼 및 위젯 내에서 직접 승인을 결정하는 버튼을 모두 표시합니다.
 
-   * **모든 승인**\
-           평균 승인 시간 및 의사 결정과 보류 중인 승인 및 기한 경과 승인의 목록 보기에 대한 정보가 포함된 2개의 차트를 표시합니다. <span style="color: #ff0000;">이 기능은 단계적 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span>
+   * **문서 승인 지표**\
+           평균 승인 시간 및 의사 결정과 보류 중인 승인 및 기한 경과 승인의 목록 보기에 대한 정보가 포함된 2개의 차트를 표시합니다. 이 위젯을 사용하려면 [통합 승인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)을 사용하도록 설정해야 합니다.
 
    * **언급**\
        내 업데이트 페이지와 유사하게 Workfront 전체에서 최근 댓글 스레드를 표시합니다. 회신 버튼을 사용하여 위젯 내에서 회신을 작성할 수 있습니다. 또한 이 위젯에는 지난 30일 동안 작업 또는 문제가 업데이트된 경우 할당한 작업 및 문제에 대한 댓글, 다른 사용자에게 할당한 댓글, 소유한 댓글, 기본 담당자인 댓글 또는 생성한 댓글이 표시됩니다.

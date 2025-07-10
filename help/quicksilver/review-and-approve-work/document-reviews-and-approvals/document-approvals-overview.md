@@ -6,9 +6,9 @@ description: 이미 보류 중인 승인이 있는 문서에 승인자 또는 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '576'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 >
 >이 문서의 내용은 특정 계정에만 사용할 수 있는 업데이트된 문서 승인 기능에 적용됩니다. 표준 승인 프로세스에 대한 자세한 내용은 [작업 승인](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)에 나열된 문서를 참조하십시오.
 
-통합 승인은 현재 Adobe Workfront용으로 개발 중인 기존 승인 프로세스를 전체적으로 재설계한 것입니다. 현재 제한된 릴리스에서 제공되고 있는 이 솔루션은 포괄적인 이해 관계자 참여 및 버전별 문서 승인이 필요한 비즈니스에 실용적이고 효과적인 솔루션이 되도록 설계되었습니다. 사려 깊은 디자인과 목적적인 새로운 기능을 통해 승인 프로세스에서 공동 작업, 역할 명확성 및 버전 제어를 용이하게 하여 효율성과 책임성을 높일 수 있습니다.
+이전에 새 문서 승인이라고 했던 통합 승인은 현재 Adobe Workfront에서 개발 중인 기존 승인 프로세스를 전체적으로 재설계한 것입니다. 현재 제한된 릴리스에서 제공되고 있는 이 솔루션은 포괄적인 이해 관계자 참여 및 버전별 문서 승인이 필요한 비즈니스에 실용적이고 효과적인 솔루션이 되도록 설계되었습니다. 사려 깊은 디자인과 목적적인 새로운 기능을 통해 승인 프로세스에서 공동 작업, 역할 명확성 및 버전 제어를 용이하게 하여 효율성과 책임성을 높일 수 있습니다.
 
 ## 증명 및 기존 문서 승인과의 주요 차이점
 
