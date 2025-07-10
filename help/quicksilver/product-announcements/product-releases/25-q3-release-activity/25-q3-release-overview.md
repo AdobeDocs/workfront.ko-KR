@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 7ef39340d19f2eadf3c2c8f66c9981c28308795a
+source-git-commit: 2eb858876a79acd9d6028f051fa8c8bc9bc5a34a
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1801'
 ht-degree: 3%
 
 ---
@@ -131,7 +131,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
        <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 승인 지표로 이름이 변경된 모든 승인 위젯</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
-            <p>표시되는 정보를 보다 정확하게 반영하도록 모든 승인 위젯의 이름을 문서 승인 지표로 변경했습니다. 문서 승인 지표 위젯은 사용자가 소유한 프로젝트의 문서 승인에 대한 높은 수준의 통찰력을 제공합니다.</p>
+            <p>표시되는 정보를 보다 정확하게 반영하도록 모든 승인 위젯의 이름을 문서 승인 지표로 변경했습니다. 문서 승인 지표 위젯은 사용자가 소유한 프로젝트의 문서 승인에 대한 높은 수준의 통찰력을 제공합니다. 이 위젯을 사용하려면 <a href="/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md"class="MCXref xref" xrefformat="{para}">통합 승인</a>을 사용하도록 설정해야 합니다.</p>
         </td>
         <td>2025년 6월 30일 화요일</td>
         <td>2025년 6월 30일 화요일</td>
@@ -332,7 +332,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ### Workfront Planning 개선 사항
 
@@ -370,11 +370,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
 
 
 

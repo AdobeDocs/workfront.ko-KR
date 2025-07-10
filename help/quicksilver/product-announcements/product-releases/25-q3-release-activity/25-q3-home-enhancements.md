@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
+source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,11 @@ ht-degree: 0%
 >* 프로덕션 빠른 릴리스: 2025년 6월 30일
 >* 모든 고객을 위한 프로덕션: 2025년 6월 30일
 
-표시되는 정보를 보다 정확하게 반영하도록 모든 승인 위젯의 이름을 문서 승인 지표로 변경했습니다. 문서 승인 지표 위젯은 사용자가 소유한 프로젝트의 문서 승인에 대한 높은 수준의 통찰력을 제공합니다.
+표시되는 정보를 보다 정확하게 반영하도록 모든 승인 위젯의 이름을 문서 승인 지표로 변경했습니다. 문서 승인 지표 위젯은 사용자가 소유한 프로젝트의 문서 승인에 대한 높은 수준의 통찰력을 제공합니다. 이 위젯을 사용하려면 [통합 승인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)을 사용하도록 설정해야 합니다.
 
 이 위젯에는 증명 승인에 대한 정보가 포함되어 있지 않습니다.
+
+자세한 내용은 [홈 시작](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)을 참조하세요.
 
 ## 내 업데이트 영역의 언급 섹션에서 댓글 달기 환경이 업데이트되었습니다
 
