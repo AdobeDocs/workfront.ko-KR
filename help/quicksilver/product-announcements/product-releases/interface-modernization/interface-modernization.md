@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
+source-git-commit: 0e519e9d5cb5bbc5052448d399b9cf54e4ed2766
 workflow-type: tm+mt
-source-wordcount: '5088'
+source-wordcount: '5164'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ ht-degree: 0%
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
 ## 관리자 및 설정
+
+### 하위 그룹 대화 상자에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 7월 10일, 프로덕션 릴리스: 2025년 7월 17일**
+
+애플리케이션의 다른 영역과 일치하도록 하위 그룹을 추가하고, 하위 그룹을 편집하고, 하위 그룹을 복사하는 대화 상자를 업데이트했습니다.
+
+이러한 변경 사항을 보려면 설정 > 그룹 > 그룹 선택 > 하위 그룹으로 이동합니다. ( 기본 그룹 목록에서 하위 그룹을 추가, 편집 및 복사하기 위한 대화 상자가 이미 업데이트되었습니다.)
+
+자세한 내용은 [하위 그룹 만들기](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) 및 [하위 그룹 관리](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)를 참조하십시오.
 
 ### 설정의 피드 업데이트 섹션을 보고 느낍니다
 

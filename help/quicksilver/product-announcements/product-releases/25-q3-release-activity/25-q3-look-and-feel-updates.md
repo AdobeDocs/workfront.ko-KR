@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 6d87be19693f8838458f6bbcf9edf681f19d677f
+source-git-commit: 20e4c8619bd59ec8686da74582dbc2f25b9a79c7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 2025년 3분기 릴리스에서 사용 가능한 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
 
-<!--## New look-and-feel for Announcement Center messages
+## Announcement Center 메시지의 새로운 모양
 
 >[!NOTE]
 >
->* Preview: July 10, 2025
->* Production fast release: July 17, 2025
->* Production for all customers:  July 17, 2025
+>* 미리 보기: 2025년 7월 10일
+>* 프로덕션 빠른 릴리스: 2025년 7월 17일
+>* 모든 고객을 위한 프로덕션: 2025년 7월 17일
 
-Announcement Center messages now match the style of Workfront email notifications.-->
+이제 공지 센터 메시지가 Workfront 이메일 알림의 스타일과 일치합니다.
 
 ## 인터페이스 현대화
 

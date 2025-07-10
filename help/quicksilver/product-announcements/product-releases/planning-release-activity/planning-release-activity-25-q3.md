@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: eaba54ebfef15c5f823c7086b809165b5cfb181b
+source-git-commit: ccd0f65f064b5e55b6b5b94b27e25facfe50502f
 workflow-type: tm+mt
-source-wordcount: '1908'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -22,35 +22,34 @@ ht-degree: 0%
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
-<!--## Auto-populate fields based on applied groupings
+## 적용된 그룹화를 기반으로 필드 자동 채우기
 
-Preview: July 10, 2025 
-Production fast release: August 14, 2025 
-Production for everyone: October 16, 2025 
+미리 보기: 2025년 7월 10일
+프로덕션 빠른 릴리스: 2025년 8월 14일
+모두를 위한 프로덕션: 2025년 10월 16일
 
-Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
+이제 테이블 보기에 그룹화가 적용되면 테이블에 레코드를 추가하면 레코드를 추가할 그룹화와 관련된 필드가 자동으로 채워집니다.
 
-If you have multiple groupings applied, the system auto-populates the fields associated with all groupings only when you add the record at the end of the list inside the last grouping criteria.  
+여러 개의 그룹화가 적용된 경우 마지막 그룹화 기준 내 목록 끝에 레코드를 추가할 때만 모든 그룹화와 연결된 필드가 자동으로 채워집니다.
 
-Prior to this enhancement, you had to manually update the fields associated with groupings.  
+이 기능이 향상되기 전에는 그룹화와 연결된 필드를 수동으로 업데이트해야 했습니다.
 
-For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
+자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
-<!--## Common sharing button for views and record types
+## 보기 및 레코드 유형에 대한 일반 공유 단추
 
 >[!NOTE]
 >
->* Preview: July 9, 2025 
->* Production for everyone: July 17, 2025 
+>* 미리 보기: 2025년 7월 9일
+>* 모두를 위한 프로덕션: 2025년 7월 17일
 
-You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
+이제 레코드 종류의 페이지에 있는 동일한 단추에서 보기와 레코드 종류를 공유할 수 있습니다. 이 개선 이전에는 레코드 유형 페이지의 공유 버튼과 보기의 탭에 있는 보기에서만 레코드 유형을 공유할 수 있었습니다.
 
-For more information, see the following articles: 
+자세한 내용은 다음 문서를 참조하십시오.
 
-* [Share views](/help/quicksilver/planning/access/share-views.md)  
+* [보기 공유](/help/quicksilver/planning/access/share-views.md)
 
-* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
--->
+* [레코드 유형 공유](/help/quicksilver/planning/access/share-record-types.md)
 
 <!--## Add teams as approvers on Planning request forms
 
@@ -78,7 +77,7 @@ Workfront Planning에서 요청 양식을 공유할 때의 환경을 보다 안�
 * 요청 양식을 공유한 사용자에 대한 관리 및 기여 옵션을 제거했습니다. 이제 추가된 사용자는 양식만 제출할 수 있습니다.
 * 이제 공개 공유 탭에 공개 링크 만들기 옵션이 활성화된 후에만 링크 및 만료 날짜 필드가 표시됩니다.
 
-자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
 
 ## 표 보기에서 모든 그룹화 펼치기 및 접기
 
@@ -296,7 +295,7 @@ CSV 및 Excel 파일을 가져와서 레코드 형식과 기존 레코드 형식
 >[!NOTE]
 >
 >이 변경 사항은 시스템 관리자 및 표준 라이선스를 가진 모든 신규 및 기존 사용자에게 표시됩니다.
->&#x200B;>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
+>>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
 
 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
