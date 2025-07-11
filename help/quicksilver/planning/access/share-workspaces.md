@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -147,6 +147,8 @@ This article describes how you can share a view with others. For information abo
 1. 복사한 링크를 다른 사용자와 공유합니다. 링크를 받은 사용자가 활성 사용자여야 하며 작업 영역에 액세스할 수 있도록 Workfront에 로그인해야 합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
+   사용자가 작업 영역을 공유한 사용자는 해당 작업 영역에 대한 권한 보유에 대한 인앱과 이메일 알림을 모두 수신하게 됩니다.
+
 ## 권한 요청에서 작업 영역에 대한 권한 부여
 
 권한이 없는 작업 영역 링크에 액세스하는 사용자는 작업 영역에 대한 권한을 요청할 수 있습니다. 작업 영역에 대한 관리 권한이 있는 모든 사용자는 권한 요청을 받고 권한을 부여하거나 거부할 수 있습니다.
@@ -154,10 +156,8 @@ This article describes how you can share a view with others. For information abo
 1. (조건부) 작업 공간의 관리자인 경우 다른 사용자로부터 다음 영역의 보기에 대한 액세스 요청을 받을 수 있습니다.
 
    * 인앱 알림
-
      ![액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request.png)
    * 이메일 알림
-
      ![액세스 요청에 대한 전자 메일 알림](assets/email-notification-for-access-request.png)
 1. (조건부) Workfront의 알림 영역에서 인앱 알림을 클릭합니다
 또는
