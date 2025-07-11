@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 >
 >  또한 Preview 샌드박스에 필요하지 않은 Custom Refresh 샌드박스를 얻는 추가 비용이 있습니다.
 >
->  미리 보기 샌드박스에 대한 자세한 내용은 [미리 보기 샌드박스 환경](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)을 참조하십시오. [!DNL Adobe Workfront] 
+>  미리 보기 샌드박스에 대한 자세한 내용은 [미리 보기 샌드박스 환경 [!DNL Adobe Workfront] 을 참조하십시오.](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
 
 ## 액세스 요구 사항
 
@@ -89,7 +89,7 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 사용자 지정 새로 고침 샌드박스에 액세스하려면:
 
-1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
+1. **[!UICONTROL 의 오른쪽 상단에 있는]**&#x200B;주 메뉴![ 아이콘 ](assets/main-menu-icon.png)주 메뉴 아이콘[!DNL Adobe Workfront]을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
 1. **[!UICONTROL 시스템]** >**[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
 
@@ -210,9 +210,12 @@ Workfront 관리자는 Workfront이 프로젝트 타임라인을 자동으로 �
 
 사용자 정의 샌드박스 새로 고침 환경의 경우 야간 다시 계산이 비활성화되고 프로젝트 타임라인이 자동으로 다시 계산되지 않습니다. 사용자 지정 새로 고침 샌드박스 환경에 대한 프로젝트 타임라인을 수동으로 다시 계산해야 합니다. 자세한 내용은 [프로젝트 타임라인 다시 계산](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)을 참조하십시오.
 
+
 ## 의도한 사용 및 가용성
 
 * [!DNL Workfront] 사용자 지정 새로 고침 샌드박스 환경은 성능 또는 로드 테스트용이 아닙니다. 대신 이러한 환경을 사용하여 조직의 기존 워크플로우로 기능 기능을 검증할 수 있습니다.
+
+* 문서와 관련된 워크플로우는 로드 테스트가 아닌 프로세스에 중점을 두어야 합니다. 샌드박스 환경에서는 큰 파일이 지원되지 않습니다.
 
 * [!DNL Workfront] 사용자 지정 새로 고침 샌드박스 환경은 항상 사용할 수 있도록 되어 있습니다. 정규 업무 시간 동안 Workfront 사용자 정의 새로 고침 샌드박스 환경의 중단은 프로덕션 문제가 해결된 후 즉시 최우선 순위가 됩니다(존재하는 경우). 주말(토요일 및 일요일)에 발생한 Workfront 사용자 정의 새로 고침 샌드박스 환경의 중단은 월요일 업무 시간 동안 환경이 실행되도록 처리됩니다.
 

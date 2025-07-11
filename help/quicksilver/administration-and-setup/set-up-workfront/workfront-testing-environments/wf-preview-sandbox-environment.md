@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * 사용자 정의 새로 고침 샌드박스
 
-  사용자 지정 새로 고침 샌드박스는 사용자가 수동으로 새로 고치는 별도의 테스트 환경입니다. 사용자 지정 새로 고침 샌드박스를 얻는 데 추가 비용이 있습니다. 이 환경에 대한 자세한 내용은 [사용자 지정 샌드박스 환경 새로 고침](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)을 참조하십시오. [!DNL Adobe Workfront] 
+  사용자 지정 새로 고침 샌드박스는 사용자가 수동으로 새로 고치는 별도의 테스트 환경입니다. 사용자 지정 새로 고침 샌드박스를 얻는 데 추가 비용이 있습니다. 이 환경에 대한 자세한 내용은 [사용자 지정 샌드박스 환경 새로 고침 [!DNL Adobe Workfront] 을 참조하십시오.](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,7 +129,7 @@ URL을 사용하여 미리보기 샌드박스에 로그인하려면 다음과 �
 
 1. 다음 URL로 이동: `https://companyname.preview.workfront.com/`.
 
-   [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login)(으)로 이동하여 미리 보기 샌드박스에 액세스할 수도 있습니다.
+   [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login)&#x200B;(으)로 이동하여 미리 보기 샌드박스에 액세스할 수도 있습니다.
 
 1. 미리보기 자격 증명을 사용하여 로그인합니다.
 
@@ -158,7 +158,7 @@ SSO(Single Sign-On)에 대한 자세한 내용은 [Adobe Workfront의 SSO 개요
 >
 >이 페이지에 설명된 절차는 [!DNL Adobe Admin Console]에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 [!DNL Adobe Admin Console]에 온보딩되었다면 별도의 작업이 필요하지 않습니다.
 >
->조직이 [!DNL Adobe Admin Console]에 온보딩되었는지 여부에 따라 다른 프로시저 목록을 보려면 [플랫폼 기반 관리 차이점([!UICONTROL Adobe Workfront]/[!UICONTROL 비즈니스 플랫폼 Adobe])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>조직이 [!DNL Adobe Admin Console]에 온보딩되었는지 여부에 따라 다른 프로시저 목록을 보려면 [플랫폼 기반 관리 차이점([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 
 SSO(Single Sign-On) 솔루션에서 작동하도록 미리보기 샌드박스를 구성하려면 프로덕션 환경에서 별도로 구성하여 이 작업을 수행할 수 있습니다. 미리보기 샌드박스의 SSO 구성은 프로덕션 환경의 SSO 구성과 독립적입니다.
@@ -179,12 +179,15 @@ Workfront 관리자는 Workfront이 프로젝트 타임라인을 자동으로 �
 
 미리보기 환경의 경우 야간 다시 계산이 비활성화되고 프로젝트 타임라인이 자동으로 다시 계산되지 않습니다. 미리보기 환경에 대한 프로젝트 타임라인을 수동으로 다시 계산해야 합니다. 자세한 내용은 [프로젝트 타임라인 다시 계산](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)을 참조하십시오.
 
+
 ## 환경 성능 및 가용성 미리보기
 
-[!DNL Workfront] 미리 보기 환경은 성능 또는 부하 테스트를 위한 것이 아닙니다. 대신 이러한 환경을 사용하여 조직의 기존 워크플로우로 기능 기능을 검증할 수 있습니다.
+* [!DNL Workfront] 미리 보기 환경은 성능 또는 부하 테스트를 위한 것이 아닙니다. 대신 이러한 환경을 사용하여 조직의 기존 워크플로우로 기능 기능을 검증할 수 있습니다.
 
-[!DNL Workfront] 미리 보기 환경은 항상 사용할 수 있습니다.
+* 문서와 관련된 워크플로우는 로드 테스트가 아닌 프로세스에 중점을 두어야 합니다. 샌드박스 환경에서는 큰 파일이 지원되지 않습니다.
 
-프로덕션 문제가 해결되면 정규 업무 시간 동안 [!DNL Workfront] 미리 보기 환경이 중단되는 것이 즉시 우선 순위가 됩니다.
+* [!DNL Workfront] 미리 보기 환경은 항상 사용할 수 있습니다.
 
-주말(토요일 및 일요일)에 [!DNL Workfront] 미리 보기 환경에 대한 중단은 월요일의 업무 시간 동안 환경이 실행되도록 처리됩니다.
+* 프로덕션 문제가 해결되면 정규 업무 시간 동안 [!DNL Workfront] 미리 보기 환경이 중단되는 것이 즉시 우선 순위가 됩니다.
+
+* 주말(토요일 및 일요일)에 [!DNL Workfront] 미리 보기 환경에 대한 중단은 월요일의 업무 시간 동안 환경이 실행되도록 처리됩니다.
