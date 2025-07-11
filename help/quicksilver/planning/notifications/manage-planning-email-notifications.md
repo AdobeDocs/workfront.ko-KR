@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '668'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 다음 시나리오가 있을 때 Workfront Planning에서 이메일 알림을 받을 수 있습니다.
 
-* 누군가가 기록 댓글에서 귀하를 태그합니다.
+* 누군가가 기록 댓글에서 귀하 또는 귀하의 팀에 태그를 지정합니다.
 
   레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
 * 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청합니다.
@@ -161,7 +161,7 @@ OLD:
 
 ## 다른 사용자가 귀하를 댓글에 태그 지정할 때 이메일 알림 관리
 
-1. (조건부 및 선택 사항) 다른 사용자가 레코드에 있는 댓글에 귀하를 태그하면 태그 및 댓글을 알려 주는 이메일 알림으로 이동합니다. 이메일 발신자는 Adobe Experience Cloud입니다.
+1. (조건부 및 선택 사항) 다른 사용자가 귀하 또는 귀하의 팀에 레코드에 대한 댓글에 태그를 지정한 후 태그 및 댓글을 알리는 이메일 알림으로 이동합니다. 이메일 발신자는 Adobe Experience Cloud입니다.
 
    ![전자 메일 알림 예](assets/email-notification-example.png)
 
@@ -180,7 +180,7 @@ Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe 
 
    Workfront에 레코드 세부 정보 페이지가 열립니다. 레코드를 업데이트하거나 댓글에 답글을 달 수 있습니다.
 
-1. (조건부) 사용 가능한 경우 **모든 알림 보기**&#x200B;를 클릭합니다.
+1. (조건부) 사용 가능한 경우 **모든 알림 보기**를 클릭합니다.
 **알림** 페이지가 Adobe Experience Cloud에서 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
 
 

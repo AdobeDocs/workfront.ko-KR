@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,7 @@ ht-degree: 0%
 
   예를 들어 Workfront의 프로젝트에 추가된 댓글은 Workfront Planning의 캠페인에 연결된 동일한 프로젝트에 표시되지 않으며, Workfront Planning 프로젝트에 추가된 댓글은 Workfront에 표시되지 않습니다.
 
-* 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 태그가 지정된 사용자가 인앱 알림이나 업데이트에 대한 이메일을 받지 않습니다. <!--this might change??-->
-
-* 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 태그가 지정된 사용자는 업데이트에 대한 인앱 알림 또는 이메일 알림을 받습니다.
+* 사용자 또는 팀에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 개별적으로 태그가 지정된 사용자와 태그가 지정된 팀의 사용자는 모두 인앱 알림과 업데이트에 대한 이메일을 받습니다.
 
   >[!NOTE]
   >
@@ -162,7 +160,7 @@ ht-degree: 0%
 1. (선택 사항) 변경을 실행 취소하거나 재실행하려면 다음 단축키를 사용합니다.
    * 변경 내용을 실행 취소하려면 CTRL + Z(⌘+z, Mac)
    * 변경 내용을 다시 실행하려면 CTRL+Y(⌘+Mac)
-1. (선택 사항 및 조건부) Workfront 인스턴스가 Adobe 통합 경험의 일부인 경우 **@**&#x200B;을(를) 추가한 다음 사용자 이름을 추가하여 업데이트에서 사용자를 태그 지정합니다. 자세한 내용은 이 문서의 [레코드 댓글에 대한 고려 사항](#considerations-about-commenting-on-a-record) 섹션을 참조하십시오.
+1. (선택 사항 및 조건부) Workfront 인스턴스가 Adobe 통합 경험의 일부인 경우 **@**&#x200B;을(를) 추가한 다음 사용자 또는 팀 이름을 추가하여 업데이트에서 태그를 지정합니다. 자세한 내용은 이 문서의 [레코드 댓글에 대한 고려 사항](#considerations-about-commenting-on-a-record) 섹션을 참조하십시오.
 
 1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하거나 이모지 또는 업데이트 링크를 추가하여 콘텐츠를 강화할 수 있습니다.
 

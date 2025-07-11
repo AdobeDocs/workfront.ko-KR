@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
@@ -121,7 +121,7 @@ Workfront Planning 알림에 대한 자세한 내용은 다음 문서를 참조�
    ![Workfront Planning용 Adobe Experience Cloud 알림 패널](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Workfront에 사용할 수 있는 알림은 다음과 같습니다.
 
-   * **언급**: 다른 사용자가 Workfront Planning에서 댓글에 태그를 지정하면 알림을 받습니다
+   * **언급**: 다른 사용자가 귀하 또는 귀하의 팀에 Workfront Planning 댓글에 태그를 지정하면 알림을 받습니다
    * **요청**: 누군가가 다음 중 하나를 완료하면 알림을 받습니다.
 
       * Workfront Planning 개체에 대한 권한을 요청하거나 부여합니다.
@@ -129,7 +129,7 @@ Workfront Planning 알림에 대한 자세한 내용은 다음 문서를 참조�
       * 변경 사항을 제출한 Workfront Planning 요청의 상태
       * Workfront Planning 요청에 대한 승인 요청, 부여 또는 거부
 
-   알림 관리에 대한 자세한 내용은 [계정 환경 설정 및 알림](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences)을 참조하세요.
+   알림 관리에 대한 자세한 내용은 [계정 환경 설정 및 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)을 참조하세요.
 
 <!--OLD: notifications are not available to non-IMS customers: 
 
@@ -139,7 +139,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

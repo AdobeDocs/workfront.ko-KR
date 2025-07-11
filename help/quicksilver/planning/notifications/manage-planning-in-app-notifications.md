@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 다음 시나리오가 있을 때 Workfront Planning에서 인앱 알림을 받을 수 있습니다.
 
-* 누군가가 기록 댓글에서 귀하를 태그합니다.
+* 누군가가 기록 댓글에서 귀하 또는 귀하의 팀에 태그를 지정합니다.
 
   레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
 * 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청합니다.
@@ -160,7 +160,7 @@ OLD:
 
 ## 다른 사용자가 귀하를 댓글에 태그 지정할 때 인앱 알림 관리
 
-1. (조건부) 다른 사용자가 레코드에 있는 댓글에 귀하를 태그 지정한 후 Adobe Experience Cloud의 인앱 **알림** 아이콘 ![Experience Cloud 알림 아이콘](assets/experience-cloud-notifications-icon.png)(으)로 이동합니다.
+1. (조건부) 누군가 귀하 또는 귀하의 팀에 레코드에 대한 댓글에 태그를 지정한 후 Adobe Experience Cloud의 인앱 **알림** 아이콘 ![Experience Cloud 알림 아이콘](assets/experience-cloud-notifications-icon.png)(으)로 이동합니다.
 
    ![인앱 알림 예](assets/in-app-notification-example.png)
 
