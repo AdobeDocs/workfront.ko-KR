@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '7388'
+source-wordcount: '7386'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,7 @@ Workfront Planning AI Assistant에 대한 자세한 내용은 [Adobe Workfront P
 
 미리보기 및 프로덕션: 2024년 8월 28일
 
-이제 Workfront Canvas Dashboard를 사용하여 보고서에서 Workfront Planning 정보를 볼 수 있습니다. 자세한 내용은 [캔버스 대시보드 시작](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)을 참조하세요.
+이제 Workfront Canvas Dashboard를 사용하여 보고서에서 Workfront Planning 정보를 볼 수 있습니다. 자세한 내용은 [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)를 참조하십시오.
 
 ## 2024년 8월 19일 주
 
@@ -800,7 +800,7 @@ Workfront의 계획 섹션에서 다음 작업을 사용할 수 있습니다.
 
 미리보기: 결정 취소
 
-Adobe Unified Experience 고객이고 다른 사용자가 레코드 페이지의 댓글에 사용자를 추가하면 댓글에 대한 인앱 및 이메일 알림이 전송됩니다. Adobe Experience Cloud 프로필의 환경 설정 영역에서 알림 환경 설정을 관리할 수 있습니다. 자세한 내용은 [계정 환경 설정 및 알림](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences)을 참조하세요.
+Adobe Unified Experience 고객이고 다른 사용자가 레코드 페이지의 댓글에 사용자를 추가하면 댓글에 대한 인앱 및 이메일 알림이 전송됩니다. Adobe Experience Cloud 프로필의 환경 설정 영역에서 알림 환경 설정을 관리할 수 있습니다. 자세한 내용은 [계정 환경 설정 및 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)을 참조하세요.
 
 Workfront Planning 알림에 대한 자세한 내용은 [Adobe Workfront Planning 알림: 기사 색인](/help/quicksilver/planning/notifications/notifications-information.md)을 참조하십시오.
 

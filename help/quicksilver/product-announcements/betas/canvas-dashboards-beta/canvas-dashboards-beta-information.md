@@ -7,23 +7,58 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
 
 # 캔버스 대시보드 베타 정보
 
-캔버스 대시보드 는 다양한 보고서 유형을 사용자 정의 가능한 캔버스에 추가하여 Adobe Workfront 데이터를 쉽게 시각화할 수 있는 현재 개발 중인 기능입니다. 베타 테스트 단계 동안 참여해 주신 데 대해 감사하지만, 일부 기능이 제대로 완료되지 않거나 제대로 작동하지 않을 수 있습니다. 아래 [피드백 제공](#provide-feedback) 섹션의 지침에 따라 경험에 대한 피드백을 제출하십시오.
-
-캔버스 대시보드 사용에 대한 기본 정보는 [캔버스 대시보드 시작](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)을 참조하십시오.
-모든 캔버스 대시보드 설명서의 목록은 [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)를 참조하십시오.
-
 >[!NOTE]
 >
 >Canvas Dashboards는 현재 비공개 베타 테스트 단계에 있으므로 자주 변경될 수 있습니다.
+
+캔버스 대시보드 는 다양한 보고서 유형을 사용자 지정 가능한 캔버스에 추가하여 Adobe Workfront 데이터를 쉽게 시각화할 수 있는 현재 개발 중인 기능입니다.
+
+베타 테스트 단계 동안 참여해 주신 데 대해 감사하지만, 일부 기능이 제대로 완료되지 않거나 제대로 작동하지 않을 수 있습니다. 아래 [피드백 제공](#provide-feedback) 섹션의 지침에 따라 경험에 대한 피드백을 제출하십시오.
+
+## 액세스 요구 사항
+
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront 플랜</p></td> 
+   <td> 
+<p>임의 </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
+   <td> 
+<p>현재: 플랜 </p> 
+<p>새로운 기능: 표준</p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td><p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p>
+  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
++++
+
 
 ## Beta 등록
 
@@ -49,29 +84,3 @@ ht-degree: 0%
 
 1. **제출**&#x200B;을 클릭합니다.
 
-## 계획된 기능
-
-다음은 베타에서 현재 지원되는 보고서 유형 목록과 베타 버전 이상에서 캔버스 대시보드에 추가할 다른 기능 목록입니다.
-
-### 지원되는 보고서 유형
-
-* 기존 보고서(현재 보고 도구를 사용하여 생성된 보고서)
-* 차트 보고서
-* KPI 보고서
-* 테이블 보고서
-* 보류 중인 승인 보고서
-
-### 개발 중인 기능
-
-* 필터에 대한 날짜 및 사용자 기반 와일드카드
-* Workfront 계획 보고서
-* 추가 Workfront 개체 유형
-* 게시판 보고서
-* 기타 유용성 개선 사항
-* 워크시트
-* 포함된 웹 콘텐츠
-
-### 향후 로드맵 기능
-
-* 대시보드 수준 프롬프트
-* 통화 지원
