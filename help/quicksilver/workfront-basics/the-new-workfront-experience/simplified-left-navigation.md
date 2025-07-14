@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 의 왼쪽 탐색 패널을 사용하면 시스�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1385'
 ht-degree: 1%
 
 ---
@@ -202,7 +202,7 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
 <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL 목표 목록]</strong></td>
-        <td>보려는 액세스 권한이 있는 모든 목표를 표시합니다. 자세한 내용은 [!DNL Adobe Workfront Goals]</a>의 [!UICONTROL 목표 목록]에서 <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">목표 관리를 참조하십시오.</td>
+        <td>보려는 액세스 권한이 있는 모든 목표를 표시합니다. 자세한 내용은 <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">의 [!UICONTROL 목표 목록]에서 [!DNL Adobe Workfront Goals]</a>목표 관리를 참조하십시오.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL 그래프]</strong></td>
@@ -210,7 +210,7 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
     </tr>
     <tr>
         <td><strong>[!UICONTROL 목표 정렬]</strong></td>
-        <td>계층에서 서로 목표를 정렬하여 표시합니다. 자세한 내용은 [!DNL Adobe Workfront Goals]</a>의 <a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">목표 정렬 개요를 참조하십시오.</td>
+        <td>계층에서 서로 목표를 정렬하여 표시합니다. 자세한 내용은 <a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">의 [!DNL Adobe Workfront Goals]</a>목표 정렬 개요를 참조하십시오.</td>
     </tr>
     </table>
 
@@ -265,9 +265,7 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
       >
       >대시보드가 목록에 나타나기 전에 먼저 빌드해야 합니다.
 
-   1. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-
-      왼쪽 패널 하단에 대시보드 링크가 나타납니다.
+1. (선택 사항) 대시보드 빠른 링크를 제거하려면 왼쪽 탐색 메뉴의 대시보드를 마우스로 가리킨 다음 표시되는 **제거** 아이콘 ![제거 아이콘](assets/remove-dashboard-from-left.png)을 클릭합니다.
 
 1. (선택 사항) 왼쪽 패널에서 섹션의 순서를 변경하려면 섹션의 오른쪽에 있는 **[!UICONTROL 끌기]** 아이콘 ![](assets/drag-icon.png)을(를) 클릭하고 위 또는 아래로 끕니다.
 
