@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -110,6 +110,8 @@ ht-degree: 1%
 
       * CSV 또는 Excel 파일을 사용하여 가져올 때.
 
+        자세한 내용은 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 형식 만들기](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)를 참조하십시오.
+
      >[!TIP]
      >
      >CSV 또는 Excel 파일에서 레코드 유형을 가져올 때 레코드와 필드도 가져올 수 있습니다.
@@ -119,6 +121,11 @@ ht-degree: 1%
       * 처음부터.
 
         이 문서에서는 처음부터 레코드 유형을 만드는 방법을 설명합니다.
+
+     <!--
+        * <span class="preview">By importing then from another workspace or adding cross-workspace record types</span>
+            <span class="preview">For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
+
 
 * 한 섹션 내에서 또는 작업 영역의 한 섹션에서 다른 섹션으로 레코드 유형을 이동할 수 있습니다. 한 작업 영역에서 다른 작업 영역으로 레코드 유형을 이동할 수 없습니다.
 
@@ -171,6 +178,18 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
       * **특정 작업 영역**: 작업 영역 관리자가 이 레코드 형식에 연결할 수 있는 작업 영역의 이름을 추가합니다.
 
    ![고급 설정 탭에서 레코드 형식 상자 만들기](assets/create-record-type-box-advanced-settings-tab.png)
+
+   <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
+    <div class="preview">
+    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
+        * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
+            You can designate specific users who can add this record type to other workspaces. 
+        * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+            You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+        For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
+        ******** replace screen shot below **********
+        ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
+    -->
 
 1. Click **Create**.
 
@@ -228,4 +247,16 @@ CSV 또는 Excel 파일에서 정보를 가져올 때 다음을 가져올 수 �
 
 자세한 내용은 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 형식 만들기](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)를 참조하십시오.
 
+<!--
 
+<div class="preview">
+
+## Create record types by importing them from another workspace 
+
+You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as cross-workspace record types. 
+
+For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+
+</div>
+
+-->

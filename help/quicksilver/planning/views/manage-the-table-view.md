@@ -1,14 +1,14 @@
 ---
 title: 표 보기 관리
-description: Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다. 이 문서에서는 표 보기 편집을 만들거나 편집하는 방법과 보기에 대한 실시간 현재 상태 표시기를 활성화하는 방법 또는 CSV 또는 Excel 파일로 내보내는 방법에 대해 설명합니다.
+description: Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다. 이 문서에서는 테이블 보기 편집을 생성 또는 편집하는 방법과 해당 보기에 대한 실시간 현재 상태 표시기를 활성화하는 방법에 대해 설명합니다.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '3758'
+source-wordcount: '3446'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 * [테이블 보기에서 열과 행 만들기 또는 편집](#manage-a-table-view)
 * [테이블 보기에 대한 실시간 현재 상태 표시기 활성화](#enable-the-real-time-presence-indicator)
-* <span class="preview">[CSV 또는 Excel 파일로 표 보기 내보내기](#export-the-table-view)</span>
+
+테이블 보기를 Excel 또는 CSV 파일로 내보내는 방법에 대한 자세한 내용은 [테이블 보기에서 레코드 내보내기](/help/quicksilver/planning/records/export-records-from-the-table-view.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -558,57 +559,5 @@ To sort grouped records:
 
 <div class="preview">
 
-## 테이블 보기 내보내기
 
-표 보기의 정보를 CSV 또는 Excel 파일로 내보낼 수 있습니다.
-
-테이블 뷰를 내보낼 때는 다음 사항을 고려하십시오.
-
-* Excel 파일로 내보낸 정보는 Workfront Planning의 테이블 보기에 적용된 필터, 그룹화 및 정렬을 유지합니다. 그룹화는 CSV 파일에 표시되지 않습니다.
-
-* 내보낸 파일에는 축소판 및 사용자 정의 행 색상이 지원되지 않습니다.
-
-* Workfront 인터페이스에 표시된 필드만 내보내집니다. 숨겨진 필드는 내보내지 않습니다.
-
-테이블 뷰 또는 레코드 유형에서 정보를 내보내려면 다음을 수행합니다.
-
-1. 레코드 유형 페이지로 이동하고 표 보기 탭을 클릭합니다.
-1. 다음 중 하나를 수행하십시오.
-
-   * 테이블 보기 탭의 이름을 마우스로 가리킨 다음 보기 이름의 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **내보내기**&#x200B;를 클릭합니다.
-
-   ![보기에 있는 기타 메뉴](assets/view-more-menu-with-duplicate-option.png)
-
-   * **공유** > **현재 보기 내보내기**&#x200B;를 클릭합니다. 이 옵션은 테이블 뷰를 표시하는 경우에만 사용할 수 있습니다.
-
-   ![레코드 종류 및 보기 공유 옵션이 있는 공유 단추](assets/share-button-with-record-type-and-view-sharing-options.png)
-
-1. 다음 형식 중 하나를 선택합니다.
-
-   * **Excel**
-   * **CSV**
-
-   >[!IMPORTANT]
-   >
-   >다른 보기를 화면에 표시할 때는 표 보기에서 정보를 내보낼 수 없습니다. 기타 메뉴의 내보내기 옵션에 액세스하려면 내보낼 테이블 뷰를 표시해야 합니다.
-
-   파일이 컴퓨터에 다운로드됩니다.
-
-1. (선택 사항) 컴퓨터의 다운로드 폴더로 이동하여 다운로드한 파일을 찾습니다.
-
-   내보낸 파일의 이름은 다음 형식을 따릅니다.
-
-   `Name of the view - name of the record type`
-
-   예를 들어 Campaigns 레코드 형식의 테이블 보기는 이름이 `Table view - Campaigns`인 파일을 생성합니다.
-
-   파일에는 다음 정보가 표시됩니다.
-
-   * 열 머리글은 Excel 파일에서 검은색으로 강조 표시됩니다
-   * Workfront 인터페이스에 표시되는 모든 필드를 동일한 기준으로 정렬 및 필터링합니다
-   * 그룹화는 Excel 파일에서 유지됩니다
-
-   이제 내보낸 파일을 다른 사용자와 공유하거나 모든 통신에 첨부할 수 있습니다.
-
-</div>
 

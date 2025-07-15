@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '164'
 ht-degree: 1%
 
 ---
@@ -44,3 +44,4 @@ Adobe Workfront Planning에서 레코드 유형을 만든 후 해당 유형의 �
 * [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)
 * [레코드의 세부 사항 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)
+* [테이블 보기에서 레코드 내보내기](/help/quicksilver/planning/records/export-records-from-the-table-view.md)
