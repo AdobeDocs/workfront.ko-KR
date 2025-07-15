@@ -6,9 +6,9 @@ description: Adobe Workfront 보고서 도구를 통해 만든 보고서를 캔�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Adobe Workfront 보고서 도구를 통해 만든 보고서를 캔버스 대시�
 {{step1-to-dashboards}}
 
 1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
+
+1. 오른쪽 상단의 **새 대시보드**&#x200B;를 클릭합니다.
 
 1. **대시보드 만들기** 상자에 대시보드의 **이름** 및 **설명**&#x200B;을 입력하십시오.
 
