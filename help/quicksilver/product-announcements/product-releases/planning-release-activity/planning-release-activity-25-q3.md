@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: 2572093857bb1ad27f869e1d7244549e531ba421
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,21 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 Workfront Planning에서 요청 양식을 공유할 때의 환경을 보다 안전하고 간단하게 만들기 위해 다음과 같이 변경했습니다.
 
-* 상속된 권한을 제거했습니다. 이제 요청 양식은 선택한 사용자만 공유됩니다.
-* 요청 양식을 공유한 사용자에 대한 관리 및 기여 옵션을 제거했습니다. 이제 추가된 사용자는 양식만 제출할 수 있습니다.
-* 이제 공개 공유 탭에 공개 링크 만들기 옵션이 활성화된 후에만 링크 및 만료 날짜 필드가 표시됩니다.
+* 공유 양식 대화 상자는 내부 공유(공유할 사용자 선택)와 공개 공유(공유 링크 만들기)로 분리되었습니다.
+* 이제 요청 양식을 다음과 공유할 수 있습니다.
 
-자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
+   * 사용자
+   * 팀
+   * 그룹
+   * 회사
+   * 작업 역할
+
+  이전에는 작업 영역 액세스 또는 링크를 공유해야만 공유할 수 있었습니다.
+* 요청 양식에 대해 상속된 권한을 제거했습니다. 이제 요청 양식은 선택한 사용자만 공유됩니다.
+* 요청 양식을 공유한 사용자에 대한 관리 및 기여 옵션을 제거했습니다. 이제 추가된 사용자는 양식만 제출할 수 있습니다.
+* 이제 공개 링크 만들기 옵션을 활성화하면 공개 공유 탭에 링크 및 만료 날짜 필드가 표시됩니다.
+
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
 
 ## 표 보기에서 모든 그룹화 펼치기 및 접기
 
@@ -304,7 +314,7 @@ CSV 및 Excel 파일을 가져와서 레코드 형식과 기존 레코드 형식
 >[!NOTE]
 >
 >이 변경 사항은 시스템 관리자 및 표준 라이선스를 가진 모든 신규 및 기존 사용자에게 표시됩니다.
->&#x200B;>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
+>>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
 
 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
