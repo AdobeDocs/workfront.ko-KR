@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3d24c7ac7c88aacd51c1c85c8ee20c69c627a014
+source-git-commit: e4f4c3502281ed46bb865faa401a0d2058a5e6cd
 workflow-type: tm+mt
-source-wordcount: '5168'
+source-wordcount: '5214'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ ht-degree: 0%
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
 ## 관리자 및 설정
+
+### 그룹의 포트폴리오 탭에 대한 인터페이스 업데이트
+
+**미리 보기: 2025년 7월 10일, 모두를 위한 프로덕션: 2025년 7월 17일**
+
+애플리케이션의 다른 영역과 일치하도록 그룹의 왼쪽 패널에서 Portfolio 페이지를 업데이트했습니다.
+
+이러한 변경 사항을 보려면 설정 > 그룹 > 그룹 선택 > 포트폴리오로 이동합니다.
 
 ### 하위 그룹 대화 상자에 대한 인터페이스 업데이트
 
