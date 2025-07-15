@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 레이아웃 템플릿을 사용하여 사용자가 Adobe Workfront에서 홈을 열 때 표시되는 내용을 구성할 수 있습니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 1%
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
 
-1. **사용자에게 표시되는 항목 사용자 지정**&#x200B;에서 아래쪽 화살표 ![아래쪽 화살표](assets/dropdown-arrow.png)를 클릭한 다음 **홈 Workspace**&#x200B;를 클릭합니다.
+1. ![사용자에게 표시되는 항목 사용자 지정](assets/dropdown-arrow.png)에서 아래쪽 화살표 **아래쪽 화살표**&#x200B;를 클릭한 다음 **홈 Workspace**&#x200B;를 클릭합니다.
 
 1. 오른쪽 탭에서 다음 중 하나를 클릭합니다.
 
@@ -99,7 +99,7 @@ ht-degree: 1%
       <p> 다음 중 하나를 수행합니다. </p>
       <ul><li><a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">홈에서 위젯 추가, 편집 또는 제거</a>에 설명된 단계에 따라 이 탭을 사용자 지정합니다. </li>
       <li>위젯을 선택하고 사용자에게 표시하려는 대로 작업 영역을 정렬합니다.</li>
-      <li>배경을 변경하려면 <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">홈 시작</a>에서 <b>백그라운드 사용자 지정</b>의 단계를 따르십시오.</li></p>
+      <li>배경을 변경하려면 <b>홈 시작</b>에서 <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">백그라운드 사용자 지정</a>의 단계를 따르십시오.</li></p>
       <p>
 
    >[!NOTE]

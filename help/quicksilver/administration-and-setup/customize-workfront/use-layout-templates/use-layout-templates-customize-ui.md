@@ -1,16 +1,16 @@
 ---
-title: "레이아웃 템플릿: 문서 색인"
+title: '레이아웃 템플릿: 문서 색인'
 user-type: administrator
 content-type: reference
 product-area: system-administration;templates
 navigation-topic: customize-workfront
 description: Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 만들고 수정하여 사용자를 위해 Workfront 인터페이스 요소를 사용자 정의할 수 있습니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%

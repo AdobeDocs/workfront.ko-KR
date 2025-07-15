@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Workfront 관리자는 작업, 문제, 문서, 프로그램 또는 포트폴리오를 보는 동안 사용자가 왼쪽 패널에서 세부 정보 섹션을 선택할 때 레이아웃 템플릿을 사용하여 표시되는 정보를 결정할 수 있습니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -100,7 +100,7 @@ or billing record
 ## 세부 정보 보기에 표시되는 사용자 지정
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
-1. **Portfolio에게 표시되는 내용을 사용자 지정**&#x200B;에서 아래쪽 화살표 ![아래쪽 화살표](assets/dropdown-arrow-12x12.png)를 클릭한 다음 **프로젝트**, **작업**, **문제**, **프로그램** 또는 **사용자를 클릭합니다.**
+1. ![사용자에게 표시되는 내용을 사용자 지정](assets/dropdown-arrow-12x12.png)에서 아래쪽 화살표 **아래쪽 화살표**&#x200B;를 클릭한 다음 **프로젝트**, **작업**, **문제**, **프로그램** 또는 **Portfolio을 클릭합니다.**
 <!--
 , or billing record
 -->

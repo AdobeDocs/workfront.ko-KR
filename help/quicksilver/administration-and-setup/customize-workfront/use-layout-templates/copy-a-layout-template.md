@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: 기존 레이아웃 템플릿을 복사할 수 있습니다. 이 기능은 조직에서 동일한 설정의 대부분을 공유하는 여러 레이아웃 템플릿이 필요한 경우 유용합니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%

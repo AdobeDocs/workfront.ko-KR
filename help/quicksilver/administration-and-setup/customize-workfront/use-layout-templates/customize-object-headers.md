@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Adobe Workfront 관리자 또는 그룹 관리자 는 레이아웃 템플릿을 사용하여 사용자가 오브젝트의 페이지를 열 때 오브젝트 헤더에 표시되는 필드를 구성할 수 있습니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%

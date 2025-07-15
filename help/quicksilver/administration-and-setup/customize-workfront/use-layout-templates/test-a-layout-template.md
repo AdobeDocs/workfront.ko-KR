@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: 사용자에게 할당하기 전에 새로 만들거나 레이아웃 템플릿을 테스트하는 것이 중요합니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8786648a-3630-4aa9-8e85-9df47a9e4609
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%

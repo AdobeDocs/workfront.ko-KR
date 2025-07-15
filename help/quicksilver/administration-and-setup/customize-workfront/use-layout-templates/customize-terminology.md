@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 조직에서 사용되는 용어와 일치하도록 Workfront 전체에 표시되는 일부 객체의 레이블을 변경할 수 있습니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 조직에서
 >[!NOTE]
 >
 >* Outlook 추가 기능 영역에는 사용자 지정된 레이블이 표시되지 않습니다.
->* 레이블을 사용자 지정할 때 문법 및 기타 문제가 발생할 수 있습니다. 예를 들어 &quot;문제&quot;를 &quot;요청&quot;으로 변경하면 UI에서 &quot;요청&quot;이라는 구문이 표시되는 위치가 있을 수 있습니다. 자세한 내용은 문서 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)에서 [개체 이름 사용자 지정의 의미](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)를 참조하십시오.
+>* 레이블을 사용자 지정할 때 문법 및 기타 문제가 발생할 수 있습니다. 예를 들어 &quot;문제&quot;를 &quot;요청&quot;으로 변경하면 UI에서 &quot;요청&quot;이라는 구문이 표시되는 위치가 있을 수 있습니다. 자세한 내용은 문서 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)에서 [개체 이름 사용자 지정의 의미](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)를 참조하십시오.
 >
 
 레이아웃 템플릿에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.

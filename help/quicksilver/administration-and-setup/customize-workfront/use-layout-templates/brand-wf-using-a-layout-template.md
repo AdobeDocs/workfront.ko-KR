@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 특정 그룹, 팀, 작업 역할 및 사용자에 대해 상단 탐색 영역 및 메인 메뉴의 로고를 사용자 정의할 수 있습니다. 이는 자체 브랜딩이 있는 대규모 조직의 그룹에 특히 유용합니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 ## 레이아웃 템플릿을 사용한 Adobe Workfront 브랜드
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
-1. **사용자에게 표시되는 항목 사용자 지정**&#x200B;에서 아래쪽 화살표 ![아래쪽 화살표](assets/dropdown-arrow.png)를 클릭한 다음 **브랜딩**&#x200B;을 클릭합니다.
+1. ![사용자에게 표시되는 항목 사용자 지정](assets/dropdown-arrow.png)에서 아래쪽 화살표 **아래쪽 화살표**&#x200B;를 클릭한 다음 **브랜딩**&#x200B;을 클릭합니다.
 1. 이 레이아웃 템플릿이 할당된 사용자를 위해 브랜딩 이미지로 Workfront을 사용자 정의하려면 다음 중 하나를 변경하십시오.
 
    <table style="table-layout:auto"> 

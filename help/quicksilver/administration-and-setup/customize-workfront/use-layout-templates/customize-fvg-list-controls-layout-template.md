@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Workfront 관리자는 레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 드롭다운 메뉴에 나타나는 목록 컨트롤을 지정할 수 있습니다. 이러한 메뉴는 프로젝트의 작업 목록과 같은 Workfront 전체의 목록 위에 표시됩니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -62,11 +62,11 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 필터, 보�
 ## 필터, 보기 및 그룹화 목록 컨트롤 사용자 지정:
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
-1. **사용자에게 표시되는 항목 사용자 지정**&#x200B;에서 아래쪽 화살표 ![아래쪽 화살표](assets/down-arrow-blue.png)를 클릭한 다음 표시되는 드롭다운 메뉴에서 **목록**&#x200B;을 클릭합니다.
+1. ![사용자에게 표시되는 항목 사용자 지정](assets/down-arrow-blue.png)에서 아래쪽 화살표 **아래쪽 화살표**&#x200B;를 클릭한 다음 표시되는 드롭다운 메뉴에서 **목록**&#x200B;을 클릭합니다.
 
    ![사용자에게 표시되는 항목 사용자 지정](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. **사용자 지정할 목록 선택** 아래의 아래쪽 화살표 ![아래쪽 화살표](assets/down-arrow-blue.png)를 클릭한 다음 필터, 보기 및 그룹화 목록 컨트롤을 사용자 지정할 Workfront 개체 유형을 선택합니다.
+1. ![사용자 지정할 목록 선택](assets/down-arrow-blue.png) 아래의 아래쪽 화살표 **아래쪽 화살표**&#x200B;를 클릭한 다음 필터, 보기 및 그룹화 목록 컨트롤을 사용자 지정할 Workfront 개체 유형을 선택합니다.
 
    ![사용자 지정할 목록 선택](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 

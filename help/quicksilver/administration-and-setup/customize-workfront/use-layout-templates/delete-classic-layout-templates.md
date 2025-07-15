@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 51%
+source-wordcount: '315'
+ht-degree: 52%
 
 ---
 
-# 레이아웃 템플릿에 대한 관리 액세스 권한 부여
+# 클래식 레이아웃 템플릿 삭제
 
 Classic Workfront 경험의 레이아웃 템플릿은 더 이상 Workfront 인터페이스에서 사용할 수 없지만 여전히 Workfront 데이터에 영향을 줄 수 있습니다. 이로 인해 보고서 또는 대시보드의 레이아웃 템플릿(예: 다음 사용자와 공유)의 영향을 받는 필드에 불일치가 발생할 수 있습니다.
 

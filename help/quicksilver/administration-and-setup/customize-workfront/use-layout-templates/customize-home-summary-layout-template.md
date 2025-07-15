@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 레이아웃 템플릿을 사용하여 사용자가 요약에서 작업 또는 문제를 클릭할 때 표시되는 내용을 구성할 수 있습니다. 아래 단계를 사용하여 수행하는 각 구성은 요약 패널에 영향을 줍니다. 이러한 사용자 지정은 문서 요약 패널에 적용되지 않습니다.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 2%
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
 
-1. **사용자에게 표시되는 항목 사용자 지정**&#x200B;에서 아래쪽 화살표 ![아래쪽 화살표](assets/dropdown-arrow.png)를 클릭한 다음 **요약 패널**&#x200B;을 클릭합니다.
+1. ![사용자에게 표시되는 항목 사용자 지정](assets/dropdown-arrow.png)에서 아래쪽 화살표 **아래쪽 화살표**&#x200B;를 클릭한 다음 **요약 패널**&#x200B;을 클릭합니다.
 
 1. 아래에 표시되는 목록에서 요약 패널을 사용자 지정할 객체 유형을 클릭합니다.
 
@@ -151,7 +151,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">작업 업데이트 보기</td> 
-      <td>요약 패널에서 선택한 작업 또는 문제에 대한 모든 업데이트를 표시합니다. 여기에는 시스템 업데이트와 사용자가 수행한 업데이트가 모두 포함됩니다. 사용자는 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">작업 업데이트</a>의 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">시스템 업데이트 사용 또는 사용 안 함</a>에 설명된 대로 시스템 업데이트를 계속 필터링할 수 있습니다.</td> 
+      <td>요약 패널에서 선택한 작업 또는 문제에 대한 모든 업데이트를 표시합니다. 여기에는 시스템 업데이트와 사용자가 수행한 업데이트가 모두 포함됩니다. 사용자는 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">작업 업데이트</a>의 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">시스템 업데이트 사용 또는 사용 안 함</a>에 설명된 대로 시스템 업데이트를 계속 필터링할 수 있습니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">작업에 대한 시간 기록</td> 
