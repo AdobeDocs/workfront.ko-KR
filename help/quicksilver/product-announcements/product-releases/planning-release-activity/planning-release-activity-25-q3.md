@@ -96,7 +96,7 @@ Workfront Planning에서 요청 양식을 공유할 때의 환경을 보다 안�
 * 요청 양식을 공유한 사용자에 대한 관리 및 기여 옵션을 제거했습니다. 이제 추가된 사용자는 양식만 제출할 수 있습니다.
 * 이제 공개 링크 만들기 옵션을 활성화하면 공개 공유 탭에 링크 및 만료 날짜 필드가 표시됩니다.
 
-자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
 
 ## 표 보기에서 모든 그룹화 펼치기 및 접기
 
