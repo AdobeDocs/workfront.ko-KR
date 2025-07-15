@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 0e519e9d5cb5bbc5052448d399b9cf54e4ed2766
+source-git-commit: 3d24c7ac7c88aacd51c1c85c8ee20c69c627a014
 workflow-type: tm+mt
-source-wordcount: '5164'
+source-wordcount: '5168'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ We have updated the look and feel of the Log time box when logging time for a pr
 For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 -->
 
-### 프로젝트의 새 주제 그룹 상자에 대한 모양 변경
+### 프로젝트의 새 주제 그룹 및 주제 그룹 편집 상자에 대한 모양 변경
 
 **미리 보기 릴리스: 2025년 6월 26일, 프로덕션 릴리스: 2025년 7월 10일**
 
