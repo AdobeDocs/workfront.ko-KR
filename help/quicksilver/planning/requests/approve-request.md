@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
@@ -35,15 +35,17 @@ ht-degree: 1%
 * [Adobe Workfront Planning 요청을 제출하여 레코드 생성](/help/quicksilver/planning/requests/submit-requests.md)
 * [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
-## 요청 및 요청 상태 승인에 대한 고려 사항
+## 요청 승인에 대한 고려 사항
 
-제출된 요청은 Workfront의 요청 영역에서 제출된 섹션의 계획 탭에 다음 요청 상태 중 하나로 표시됩니다.
+* 제출된 요청은 Workfront의 요청 영역에서 제출된 섹션의 계획 탭에 다음 요청 상태 중 하나로 표시됩니다.
 
-* **검토 보류 중**: 승인자가 요청 개체를 열지 않은 경우 이 상태가 표시됩니다.
-* **검토 중**: 하나 이상의 승인자가 요청 개체를 열면 **검토 보류 중** 상태가 **검토 중**(으)로 변경됩니다. 모든 승인자가 요청을 승인할 때까지 요청의 상태가 **검토 중** 상태로 유지됩니다.
-* **승인됨**: 승인자가 요청 개체를 승인하면 개별 상태는 **승인됨**&#x200B;이 되지만, 전체 요청 개체 상태는 모든 승인자가 결정을 내릴 때까지 **검토 중**&#x200B;으로 유지됩니다. 모든 승인자가 요청을 승인하면 요청 상태는 **승인됨**&#x200B;이 됩니다.
-* **완료**: 모든 승인자가 요청 개체를 승인하면 상태가 **완료**(으)로 변경되거나 요청에 승인이 필요하지 않은 경우.
-* **거부됨**: 승인자가 요청 개체를 거부하면 상태는 **거부됨**&#x200B;이 됩니다. 레코드가 만들어지지 않으며 레코드를 만들려면 새 요청을 제출해야 합니다.
+   * **검토 보류 중**: 승인자가 요청 개체를 열지 않은 경우 이 상태가 표시됩니다.
+   * **검토 중**: 하나 이상의 승인자가 요청 개체를 열면 **검토 보류 중** 상태가 **검토 중**(으)로 변경됩니다. 모든 승인자가 요청을 승인할 때까지 요청의 상태가 **검토 중** 상태로 유지됩니다.
+   * **승인됨**: 승인자가 요청 개체를 승인하면 개별 상태는 **승인됨**&#x200B;이 되지만, 전체 요청 개체 상태는 모든 승인자가 결정을 내릴 때까지 **검토 중**&#x200B;으로 유지됩니다. 모든 승인자가 요청을 승인하면 요청 상태는 **승인됨**&#x200B;이 됩니다.
+   * **완료**: 모든 승인자가 요청 개체를 승인하면 상태가 **완료**(으)로 변경되거나 요청에 승인이 필요하지 않은 경우.
+   * **거부됨**: 승인자가 요청 개체를 거부하면 상태는 **거부됨**&#x200B;이 됩니다. 레코드가 만들어지지 않으며 레코드를 만들려면 새 요청을 제출해야 합니다.
+
+<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
 
 ## 액세스 요구 사항
 

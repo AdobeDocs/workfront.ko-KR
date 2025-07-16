@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '2091'
 ht-degree: 0%
@@ -239,7 +239,7 @@ Planning 요청 양식에 제출된 보기 액세스 권한이 있는 모든 요
       * **시작 날짜**: 요청이 제출된 날짜입니다.
       * **요청 양식**: 요청을 제출하는 데 사용되는 요청 양식의 이름입니다.
       * **상태**: 요청의 상태입니다.
-      * **입력한 사람**: 요청을 추가한 사용자의 이름입니다. Workfront 외부의 사용자와 함께 요청을 추가한 경우 **입력한 사람** 필드에 `N/A`이(가) 표시됩니다.
+      * **입력한 사람**: 요청을 추가한 사용자의 이름입니다. Workfront 외부의 사용자가 요청을 추가한 경우 **입력한 사람** 필드에 `N/A`이(가) 표시됩니다.
 
         **And** 또는 **Or** 중 하나로 여러 필터를 연결할 수 있습니다.
 필터 조건을 추가하면 요청 목록이 자동으로 필터링됩니다.
@@ -312,6 +312,8 @@ Planning 요청 양식에 제출된 보기 액세스 권한이 있는 모든 요
      >[!NOTE]
      >
      >이메일 및 인앱 알림은 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩될 때만 표시됩니다.
+
+   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
 1. (선택 사항) Workfront에서 요청을 열려면 **요청 보기**&#x200B;를 클릭합니다.
 

@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '855'
 ht-degree: 1%
 
 ---
 
 # CSV 또는 Excel 파일에서 정보를 가져와서 레코드 유형 만들기
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -26,8 +26,6 @@ ht-degree: 1%
 ## 액세스 요구 사항
 
 +++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -81,12 +79,8 @@ ht-degree: 1%
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 영역</a>에 대한 권한 관리 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 Planning이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
-<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 Planning을 활성화합니다.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -109,16 +103,12 @@ ht-degree: 1%
 * 빈 시트는 지원되지 않습니다.
 * 다음 유형의 필드는 지원되지 않으며 가져오기 시트의 필드에 매핑할 수 없습니다.
 
-   * 사용 환경에 따라 연결 필드:
-
-      * 프로덕션 환경에서는 Planning 레코드 또는 Workfront 및 AEM Assets 개체에 대한 연결 필드를 매핑할 수 없습니다
-
-      * <span class="preview">미리 보기 환경에서 연결 필드를 Planning 레코드에 매핑하고 가져올 수 있습니다. Workfront 및 AEM Assets에 필드를 매핑할 수 없습니다.</span>
-
+   * Workfront 및 AEM Assets 개체 유형에 대한 연결 필드입니다.
    * 연결된 Planning 레코드 또는 Workfront 및 AEM Assets 개체의 조회 필드
    * 공식 필드
    * 만든 날짜, 만든 사람
    * 마지막 수정 날짜, 마지막 수정자
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * 사용자
 
 Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다음을 수행합니다.
@@ -155,21 +145,21 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다�
 
    선택을 취소한 시트는 회색 배경과 함께 표시됩니다.
 
-1. (선택 사항) 열 머리글 오른쪽의 아래쪽 방향 화살표를 클릭하여 **필드** 탭에서 <span class="preview"> 중 하나를 수행합니다</span>.
+1. (선택 사항) 열 머리글 오른쪽의 아래쪽 화살표를 클릭하여 **필드** 탭에서 다음 중 하나를 수행합니다.
 
-   레코드 종류 매핑 가져오기 상자의 <span class="preview">![필드 탭](assets/field-tab-on-record-type-import-mapping-box.png)</span>
+   레코드 종류 매핑 가져오기 상자의 ![필드 탭](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * 필드 중 하나의 이름을 변경합니다
    * **필드 형식** 변경
    * 필드 **설명** 업데이트
 
-1. <span class="preview">(선택 사항) 열의 정보를 다른 레코드 형식의 연결된 필드에 매핑하려면 **연결** 탭을 클릭합니다.</span>
+1. (선택 사항) 열의 정보를 다른 레코드 종류의 연결된 필드에 매핑하려면 **연결** 탭을 클릭합니다.
 
-   <span class="preview">![레코드 종류 가져오기 매핑 상자의 연결 탭](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+   ![레코드 종류 가져오기 매핑 상자의 연결 탭](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >
-   ><span class="preview">Workfront Planning 연결 레코드의 필드에만 매핑할 수 있습니다. Workfront 또는 AEM Assets 연결의 필드에 매핑할 수 없습니다. 자세한 내용은 이 문서의 [Excel 또는 CSV 파일을 사용하여 레코드 형식을 가져오는 데 대한 고려 사항](#considerations-about-importing-record-types-using-an-excel-or-csv-file) 섹션을 참조하십시오.</span>
+   >Workfront Planning 연결된 레코드의 필드에만 매핑할 수 있습니다. Workfront 또는 AEM Assets 연결의 필드에 매핑할 수 없습니다. 자세한 내용은 이 문서의 [Excel 또는 CSV 파일을 사용하여 레코드 형식을 가져오는 데 대한 고려 사항](#considerations-about-importing-record-types-using-an-excel-or-csv-file) 섹션을 참조하십시오.
 
 1. (조건부) 필드에 대한 정보를 업데이트한 후 **저장**&#x200B;을 클릭합니다.
 

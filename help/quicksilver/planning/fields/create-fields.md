@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '4717'
+source-wordcount: '4607'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ko ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 # 필드 만들기
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -100,13 +100,8 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역 <span class="preview"> 및 레코드 종류</span> </a>에 대한 권한을 관리합니다. </p>  
+   <td>   <p>작업 영역 및 레코드 종류</a>에 대한 권한을 관리합니다. </p>  
    <p>시스템 관리자에게는 작성하지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한이 있습니다.</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 Planning이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
-<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 Planning을 활성화합니다.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -191,7 +186,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    ![한 줄 텍스트 필드 형식](assets/single-line-text-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 형식의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **이름**: 테이블이나 레코드의 세부 정보 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블에 있는 필드의 열 헤더 위로 마우스를 가져갈 때 또는 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭할 때 필드에 대한 설명이 표시됩니다.
 1. Click **Create**.
 
@@ -217,7 +212,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 형식의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **이름**: 테이블이나 레코드의 세부 정보 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
 1. Click **Create**.
 
@@ -234,12 +229,12 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 형식의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **이름**: 테이블이나 레코드의 세부 정보 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
    * **선택 항목**: 이 필드를 업데이트할 때 사용자가 선택할 수 있는 옵션입니다. 각 선택 항목의 이름에 숫자와 문자를 모두 사용할 수 있습니다.
 1. 선택 항목을 추가하려면 **선택 항목 추가**&#x200B;를 클릭하십시오. 다중 선택 필드에 추가할 수 있는 선택 항목 수에는 제한이 없습니다.
 1. (선택 사항) 원하는 순서로 각 선택 사항을 수동으로 끌어다 놓거나
-   선택 항목을 알파벳순으로 자동으로 나열하려면 선택 항목 정렬 A-Z **옵션을 선택합니다. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->**
+   선택 항목을 알파벳순으로 자동으로 나열하려면 선택 항목 정렬 A-Z **옵션을 선택합니다.**<!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (선택 사항) 선택 사항을 제거하려면 그 오른쪽에 있는 **x** 아이콘을 클릭합니다.
 1. 선택 항목의 왼쪽에 있는 색상 견본을 클릭하여 색상 선택기를 확장하고 각 옵션의 색상을 사용자 지정합니다.
 
@@ -263,7 +258,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 형식의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **이름**: 테이블이나 레코드의 세부 정보 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
    * **선택 항목**: 필드가 저장된 후 드롭다운 메뉴에서 선택할 수 있는 옵션입니다. 각 선택 항목의 이름에 숫자와 문자를 모두 사용할 수 있습니다.
 
@@ -292,7 +287,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
    * **날짜 형식**: 이 필드에 표시할 날짜 형식의 형식입니다. <!--update this casing - submitted bug for it-->
 
@@ -322,7 +317,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 >숫자 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 숫자로 표시됩니다.
->&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **숫자** 필드 형식을 선택합니다.
@@ -330,7 +325,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    ![숫자 필드 형식](assets/number-field-type.png)
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
 
-   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다.
+   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다.
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
    * **전체 자릿수**: 필드에 기록할 소수 자릿수입니다. 최대 6개의 소수 자리를 표시할 수 있습니다.
    * **음수 허용**: 이 필드에 음수를 허용하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다.
@@ -352,7 +347,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 >백분율 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 백분율로 표시됩니다.
->&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **백분율** 필드 형식을 선택합니다.
@@ -360,7 +355,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    ![백분율 필드 형식](assets/percentage-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다.
+   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다.
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
    * **전체 자릿수**: 필드에 기록할 소수 자릿수입니다. 최대 6개의 소수 자리를 표시할 수 있습니다.
    * **음수 허용**: 이 필드에 음수 백분율 값을 허용하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다.
@@ -392,14 +387,14 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 >통화 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 통화로 표시됩니다.
->&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **통화** 필드 형식을 선택합니다.
 
    ![통화 필드 형식](assets/currency-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
    * **통화**: 이 필드에 표시할 통화 유형입니다. ISO(International Organization of Standardization)에 따른 통화 목록입니다.
    * **전체 자릿수**: 필드에 기록할 소수 자릿수입니다. 최대 6개의 소수를 표시할 수 있습니다.
@@ -422,7 +417,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    ![확인란 필드 유형](assets/checkbox-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
 1. Click **Create**.
 
@@ -513,7 +508,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    ![사람 필드 형식](assets/people-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다.
+   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다.
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
    * **여러 값 허용**: 사용자가 이 필드에 두 명 이상의 사용자를 추가할 수 있도록 하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다.
 
@@ -535,7 +530,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
 
-   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다. <!--this might change and they might prepopulate it with "Created by"-->
+   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--this might change and they might prepopulate it with "Created by"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
 
 1. Click **Create**.
@@ -555,7 +550,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
 
-   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다. <!--this might change and they might prepopulate it with "Created date"-->
+   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--this might change and they might prepopulate it with "Created date"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
    * **날짜 형식**: 다음 형식 중에서 선택하십시오.
 
@@ -586,7 +581,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
 
-   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다. <!--this might change and they might prepopulate it with "Created by"-->
+   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--this might change and they might prepopulate it with "Created by"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
 
 1. Click **Create**.
@@ -606,7 +601,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
 
-   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 형식의 이름입니다. <!--this might change and they might prepopulate it with "Created date"-->
+   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--this might change and they might prepopulate it with "Created date"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
    * **날짜 형식**: 다음 형식 중에서 선택하십시오.
 
@@ -626,6 +621,75 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 1. Click **Create**.
 
    새 마지막 수정 날짜 유형 필드가 레코드 유형에 열로 추가되고 해당 값은 레코드가 마지막으로 수정된 날짜(또는 날짜 및 시간)로 미리 채워집니다.
+
+<!--
+
+<div class="preview">
+
+### Approved date
+
+You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
+
+>[!TIP]
+>
+>The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
+>
+>If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
+ 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+ 
+   ![Approved date field type](assets/approved-date-field-type.png)
+
+   1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+     * **Date Format**: Select from the following formats:
+
+        * **Locale**: Matches the locale of your browser.
+        * **Standard**: 05/16/2023
+        * **Long**: May 16, 2023
+        * **European**: 16/05/2023
+        * **ISO**: 2023-05-16
+     
+     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
+    
+        Select from the following options:
+        
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM 
+    
+1. Click **Create**.
+
+    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
+
+### Approved by
+
+You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+
+>[!TIP]
+>
+>The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>
+>If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
+ 
+   ![Approved by field type](assets/approved-by-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+</div>
+-->
+
 
 <!--
 
@@ -664,7 +728,7 @@ Create an Object field:
 
 1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Name**: The name of the field, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
 
 1. Click **Create**.

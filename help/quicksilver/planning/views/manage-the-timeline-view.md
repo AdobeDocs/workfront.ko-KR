@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3708'
 ht-degree: 2%
 
 ---
 
 # 타임라인 보기 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,12 +81,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>보기에 대한 권한 관리</p>  
    <p>보기에 대한 권한을 보고 일시적으로 보기 설정을 변경하거나 복제합니다.</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 Planning이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
-<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 Planning을 활성화합니다.</span></p> </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -126,9 +121,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
    >
    >    타임라인에서 레코드 정렬이 약식 보기에 표시되지 않습니다.
 
-1. <span class="preview">(조건부) 관리자가 사용자 정의 분기를 활성화했지만 Workfront에서 사용자 정의 분기가 구성된 방법에서 문제를 감지하면 타임라인 보기를 열 때 경고가 표시될 수 있습니다. </span>
-
-   <div class="preview">
+1. (조건부) 관리자가 사용자 정의 분기를 활성화한 경우 Workfront에서 사용자 정의 분기가 구성되는 방식과 관련된 문제를 감지하면 타임라인 보기를 열 때 경고를 받을 수 있습니다.
 
    다음과 같은 시나리오가 있습니다.
 
@@ -152,13 +145,11 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
    >설정 영역에서 사용자 정의 분기를 설정하면 타임라인 보기에 클래식 분기 대신 사용자 정의 분기가 표시됩니다.
    >자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
 
-   </div>
-
-1. <span class="preview">(조건부) Workfront 관리자인 경우 **설정으로 이동**&#x200B;을 클릭하여 분기를 설정하십시오. 그렇지 않은 경우 **확인**&#x200B;을 클릭하고 Workfront 관리자에게 사용자 지정 분기를 설정하도록 요청하십시오.</span>
+1. (조건부) Workfront 관리자인 경우 **설정으로 이동**&#x200B;을 클릭하여 분기를 설정합니다. 그렇지 않은 경우 **확인**&#x200B;을 클릭하고 Workfront 관리자에게 사용자 지정 분기를 설정하도록 요청하십시오.
 
    >[!TIP]
    >
-   ><span class="preview">[설정으로 이동] 단추는 Workfront 관리자에게만 표시됩니다.</span>
+   >설정으로 이동 버튼은 Workfront 관리자에 대해서만 표시됩니다.
 
 1. (선택 사항 및 조건부) 레코드 이름이 잘리면 레코드 막대 위로 마우스를 가져가 레코드의 전체 이름 및 추가 정보를 표시합니다. 타임라인에서 레코드 막대 자르기 설정에 대한 자세한 내용은 이 문서의 [타임라인 보기 설정 편집](#edit-the-timeline-view-settings) 섹션을 참조하십시오.
 
@@ -172,7 +163,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
       * **분기**: 분기가 표시된 월과 주를 표시합니다.
       * **월**: 주 및 일을 표시합니다.
 1. (선택 사항) 날짜가 같은 줄에 겹치지 않는 레코드를 표시하려면 **작게 보기로 전환**&#x200B;을 클릭합니다. <!--check to see if they updated the name of the setting here-->
-1. (조건부) 모드를 **작게**(으)로 변경한 경우 **표준 보기로 전환** 보기를 클릭하여 레코드를 별도의 줄로 표시합니다. <span class="preview">**표준** 옵션이 기본값입니다.</span>  <!--check to see if they updated the name of the setting here-->
+1. (조건부) 모드를 **작게**(으)로 변경한 경우 **표준 보기로 전환** 보기를 클릭하여 레코드를 별도의 줄로 표시합니다. **표준** 옵션이 기본값입니다.  <!--check to see if they updated the name of the setting here-->
 
 1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
 
@@ -225,7 +216,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 1. 타임라인 보기를 선택한 다음 표의 오른쪽 상단에 있는 **필터**&#x200B;를 클릭합니다.
 1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
-   * &#x200B;<!-- the tip below might change-->(으)로 필터링할 **필드 선택**
+   * **(으)로 필터링할**&#x200B;필드 선택<!-- the tip below might change-->
 
    * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
 
@@ -392,7 +383,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* 분류 옵션을 사용하여 추가 레코드를 표시하는 경우 시작 및 종료 날짜는 기본 레코드의 날짜가 됩니다. 이 영역에서 연결된 레코드에 대한 시작 및 종료 날짜를 선택할 수 없습니다.
 
-1. <span class="preview">(조건부 및 선택 사항) 사용자가 Workfront 관리자인 경우 **사용자 정의 영역 사용** 상자에서 **설정으로 이동**&#x200B;을 클릭하여 설정 영역으로 이동하여 사용자 정의 영역을 설정합니다. 사용자 정의 분기를 설정한 후 기본 분기 대신 타임라인 보기에 표시할 수 있습니다. Workfront 관리자가 아닌 경우 관리자에게 조직에 대해 사용자 정의 분기를 활성화하도록 요청할 수 있습니다. </span>
+1. (조건부 및 선택 사항) 사용자가 Workfront 관리자인 경우 **사용자 정의 영역 사용** 상자에서 **설정으로 이동**&#x200B;을 클릭하여 설정 영역으로 이동하여 사용자 정의 영역을 설정합니다. 사용자 정의 분기를 설정한 후 기본 분기 대신 타임라인 보기에 표시할 수 있습니다. Workfront 관리자가 아닌 경우 관리자에게 조직에 대해 사용자 정의 분기를 활성화하도록 요청할 수 있습니다.
 
    자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
 
@@ -400,11 +391,11 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   ><span class="preview">[설정으로 이동] 단추는 Workfront 관리자에게만 표시됩니다.</span>
+   >설정으로 이동 버튼은 Workfront 관리자에 대해서만 표시됩니다.
 
 1. 왼쪽 패널에서 **막대 스타일**&#x200B;을 클릭하여 레코드 막대에 표시할 정보를 표시합니다.
 
-   표준 보기에서 분류 옵션을 사용할 때 기본 레코드 <span class="preview">뿐만 아니라 연결된 레코드</span>의 막대 스타일을 정의할 수 있습니다.
+   표준 보기에서 분류 옵션을 사용할 때 연결된 레코드뿐만 아니라 기본 레코드의 막대 스타일을 정의할 수 있습니다.
 
    레코드의 테이블 보기에서 정의된 레코드의 기본 필드(또는 제목)는 기본적으로 선택됩니다.
    <!--adjust this when the primary field is released??-->
@@ -429,20 +420,20 @@ this is not possible right now; if this is the same functionality as the table v
 
    미리 보기로 ![레코드 세부 정보 패널 타임라인 설정](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">(선택 사항 및 조건부) 표준 모드에서 타임라인을 표시하는 경우 **막대 세부 정보 자르기** 설정을 선택합니다. 선택하면 레코드 막대의 정보가 잘리며 막대를 마우스로 가리키면 완전히 표시됩니다. 이 설정은 기본적으로 선택 취소되며 레코드 정보가 막대에 완전히 표시됩니다. </span>
+1. (선택 사항 및 조건부) 표준 모드에서 타임라인을 표시하는 경우 **막대 세부 정보 자르기** 설정을 선택합니다. 선택하면 레코드 막대의 정보가 잘리며 막대를 마우스로 가리키면 완전히 표시됩니다. 이 설정은 기본적으로 선택 취소되며 레코드 정보가 막대에 완전히 표시됩니다.
 
    ![타임라인 설정 상자에 설정된 잘라내기 설정이 강조 표시됨](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">축소 모드에서 타임라인 보기를 표시할 때는 막대 세부 정보 자르기 설정을 사용할 수 없습니다.</span>
+   >축소 모드로 타임라인 보기를 표시할 때는 막대 세부 사항 자르기 설정을 사용할 수 없습니다.
    >
 
 1. 타임라인에서 레코드와 그룹화의 색상을 사용자 지정하려면 왼쪽 패널에서 **색상**&#x200B;을 클릭합니다.
 
    ![색상 탭 타임라인 보기](assets/color-tab-timeline-view.png)
 
-   표준 보기에서 분류 옵션을 사용할 때 기본 레코드 <span class="preview">뿐만 아니라 연결된 레코드</span>의 색상을 정의할 수 있습니다.
+   표준 보기에서 분류 옵션을 사용할 때 연결된 레코드뿐만 아니라 기본 레코드의 색상을 정의할 수 있습니다.
 
 1. (조건부 및 선택 사항) 타임라인 보기에 그룹화를 추가한 경우 **그룹화 색상 설정** 섹션에서 그룹화에 대한 색상을 설정하려면 다음 옵션 중 하나를 선택하십시오.
 
@@ -481,7 +472,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    선택한 레코드 유형에 대해 색상으로 구분된 옵션이 있는 필드가 없는 경우 이 옵션은 흐리게 표시됩니다.
 
-1. <span class="preview">(선택 사항) **분류** 옵션을 사용하는 경우 타임라인에 표시된 연결된 각 레코드에 대해 4단계부터 시작하는 단계를 반복합니다. </span>
+1. (선택 사항) **분류** 옵션을 사용하는 경우 타임라인에 표시된 연결된 각 레코드에 대해 4단계부터 시작하는 단계를 반복합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -515,7 +506,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 연결된 레코드 분류
 
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
-1. **Standard** 또는 <span class="preview">**Compact** 모드에서 타임라인 보기의 오른쪽 상단에 있는 **분류**</span>&#x200B;를 클릭합니다.
+1. **Standard** 또는 **Compact** 모드에서 타임라인 보기의 오른쪽 상단에 있는 **분류**&#x200B;를 클릭합니다.
 1. **연결된 레코드 종류 선택** 상자를 확장하고 연결된 레코드 종류를 선택합니다. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![타임라인 보기의 분류 선택 및 단추](assets/breakdown-picker-and-button-on-timeline.png)
@@ -543,13 +534,13 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >두 제품 및 프로그램 모두 분류 선택 사항으로 표시할 캠페인에 연결되어 있어야 하며 순서에 관계없이 분류에 추가할 수 있습니다.
 
-1. <span class="preview">(조건부) 압축 모드에서 타임라인을 보고 있으면 **보기 전환**&#x200B;을 클릭합니다. **압축** 모드에서 분류가 표시되지 않습니다.</span>
+1. (조건부) 압축 모드에서 타임라인을 보고 있으면 **보기 전환**&#x200B;을 클릭합니다. **압축** 모드에서 분류가 표시되지 않습니다.
 
    >[!TIP]
    >
-   >**표준 보기로 전환에서 <span class="preview">선택**&#x200B;다시 표시 안 함&#x200B;**&#x200B;** 상자, 보기를 전환하기 전 </span>
+   >**표준 보기로 전환에서**&#x200B;다시 표시 안 함&#x200B;**을(를) 선택하십시오.** 상자, 보기를 전환하기 전
    >
-   ><span class="preview">이 환경 설정은 현재 브라우저에만 기억됩니다. 브라우저나 컴퓨터를 변경하는 경우 이 환경 설정을 다시 선택해야 합니다.</span>
+   >이 환경 설정은 현재 브라우저에만 기억됩니다. 브라우저나 컴퓨터를 변경하는 경우 이 환경 설정을 다시 선택해야 합니다.
    >
    >뷰를 표준으로 전환하고 뷰에 연결된 레코드를 표시한 후에는 컴팩트 모드로 되돌릴 수 없습니다.
 1. (선택 사항) 연결된 레코드를 더 추가하려면 위의 단계를 반복합니다.

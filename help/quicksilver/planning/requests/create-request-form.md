@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 1%
@@ -124,8 +124,8 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
    * 다음 유형의 필드를 요청 양식에 추가할 수 없습니다.
 
-      * 작성자 및 마지막 수정자
-      * 생성 날짜 및 마지막 수정 날짜
+      * 만든 사람 및 마지막 수정자: <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
+      * 만든 날짜 및 마지막으로 수정한 날짜 <!--Created date, Last modified date, <span class="preview">Approved date</span>-->
       * 공식
       * Workfront 개체의 조회 필드
       * Workfront Planning 연결된 레코드의 조회 필드

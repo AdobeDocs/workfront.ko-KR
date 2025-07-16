@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3446'
+source-wordcount: '3346'
 ht-degree: 2%
 
 ---
 
 # 표 보기 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -87,12 +87,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>보기에 대한 권한 관리</p>  
-   <p>보기에 대한 사용 권한을 보고 보기 설정을 일시적으로 변경하거나, 복제하거나, <span class="preview">하거나, 내보내십시오</span></p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 계획 영역이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
-<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 계획 영역을 사용할 수 있습니다.</span></p></td> 
+   <p>보기에 대한 권한을 보고 일시적으로 보기 설정을 변경하거나 복제하거나 내보냅니다.</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,11 +108,9 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 테이블 뷰를 관리하려면 다음을 수행합니다.
 
-1. <span class="preview">문서 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)에 설명된 대로 테이블 보기를 만듭니다. </span>
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 테이블 보기를 만듭니다.
 
-   <span class="preview">![테이블 보기 예제](assets/table-view-example.png)
-
-   </span>
+   ![테이블 보기 예제](assets/table-view-example.png)
 
 1. (선택 사항) **행 높이**&#x200B;를 클릭한 후 다음 옵션 중에서 선택하여 테이블 행의 높이를 수정합니다.
    * 짧음
@@ -130,7 +123,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
    * [필터](#add-filters)
    * [정렬](#add-a-sort)
    * [그룹화](#add-groupings)
-   * <span class="preview">[행 색](#add-row-colors)</span>
+   * [행 색상](#add-row-colors)
    * [실시간 존재 표시기](#enable-the-real-time-presence-indicator)
 
 
@@ -459,7 +452,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
    그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
 
-   <span class="preview">![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)</span>
+   ![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)
 
 1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
 
@@ -470,9 +463,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 1. **레코드 그룹화 기준** 상자 바깥쪽을 클릭하여 닫습니다.
 1. (선택 사항) 그룹화 끝에 있는 **+ 새 레코드**&#x200B;을 클릭하여 새 레코드를 추가한 다음 페이지를 새로 고쳐 새 레코드를 적절한 그룹화에 추가합니다. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. <span class="preview">그룹화를 확장하거나 축소하려면 다음 중 하나를 실행하십시오.</span>
-
-   <div class="preview">
+1. 그룹화를 확장하거나 축소하려면 다음 중 하나를 수행합니다.
 
    1. **그룹화** 아이콘을 클릭한 다음 **모두 확장** 또는 **모두 축소**&#x200B;을 클릭합니다. 이렇게 하면 테이블 보기의 모든 그룹화 및 하위 그룹화가 확장됩니다.
 
@@ -486,7 +477,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
       * **하위 그룹 확장**
       * **하위 그룹 축소**
 
-      보기에 적용되는 그룹화 수에 따라 일부 옵션을 사용할 수 없습니다.</div>
+      보기에 적용되는 그룹화 수에 따라 일부 옵션을 사용할 수 없습니다.
 
 <!-- this is not available yet: 
 
@@ -496,8 +487,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### 행 색상 추가
 
@@ -533,8 +522,6 @@ To sort grouped records:
 
 1. **행 색** 상자 바깥쪽을 클릭하여 닫습니다. 색상이 자동으로 적용됩니다.
 
-</div>
-
 ### 실시간 현재 상태 표시기 활성화
 
 기본적으로 모든 레코드 보기의 오른쪽 위 모서리에 표시함과 동시에 레코드 정보를 편집하는 다른 사용자의 아바타입니다.
@@ -557,7 +544,7 @@ To sort grouped records:
    >
    >모든 보기에서 **공동 작업자 표시** 전환을 선택할 수 있습니다. 현재 다른 사용자가 편집한 필드는 테이블 보기에서만 윤곽선이 표시됩니다.
 
-<div class="preview">
+
 
 
 
