@@ -317,7 +317,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 >숫자 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 숫자로 표시됩니다.
->>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **숫자** 필드 형식을 선택합니다.
@@ -347,7 +347,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 >백분율 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 백분율로 표시됩니다.
->>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **백분율** 필드 형식을 선택합니다.
@@ -387,7 +387,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 >통화 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 통화로 표시됩니다.
->>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **통화** 필드 형식을 선택합니다.
 
