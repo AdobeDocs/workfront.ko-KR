@@ -8,14 +8,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: afef6ee186340ff65ed9838b60b5a7b02b22d61f
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 2%
+source-wordcount: '477'
+ht-degree: 1%
 
 ---
 
 # IP 주소로 Adobe Workfront에 대한 액세스 제한
+
+>[!IMPORTANT]
+>
+>이 기능은 현재 Adobe Admin Console에 온보딩된 조직에서는 사용할 수 없습니다. 향후 릴리스에서 Adobe Admin Console에서 사용할 수 있습니다.
 
 Adobe Workfront IP 주소 75로 Workfront 액세스를 제한하거나 지정한 IP 주소 범위로 액세스를 제한하는 허용 목록에 추가하다 IP 를 구성할 수 있습니다. 이렇게 하면 Workfront 애플리케이션에 추가 보안 계층을 제공할 수 있습니다.
 
