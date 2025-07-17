@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
@@ -51,9 +51,9 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 ## 사용자 정의 액세스 수준을 사용하여 필터, 보기 및 그룹화에 대한 사용자 액세스 구성
 
 1. [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에 설명된 대로 액세스 수준을 만들거나 편집하십시오.
-1. 필터 오른쪽의 **보기** 또는 **편집** 단추에서 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
+1. 필터 오른쪽의 ![](assets/gear-icon-settings.png)보기&#x200B;**또는**&#x200B;편집&#x200B;**단추에서 톱니바퀴 아이콘**&#x200B;을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
 
-   ![](assets/gear-icon-filters-dashboards-groupings.jpg)
+   ![](assets/gear-icon-filters-dashboards-groupings.png)
 
    기본적으로 플랜, 작업, 검토자 또는 요청 라이선스가 있는 사용자는 전체 보기 및 편집 권한이 있습니다. 외부 사용자 라이선스가 있는 사용자는 필터, 보기 및 그룹화에 액세스할 수 없습니다.
 
@@ -79,7 +79,7 @@ Drafting out this section for now because the table is redundant since all four 
 <col>
 <thead>
 <tr>
-<th> 개 액션 </th>
+<th> 액션 </th>
 <th> 플래너 </th>
 <th> 보조 </th>
 <th> 검토자 </th>
@@ -89,45 +89,45 @@ Drafting out this section for now because the table is redundant since all four 
 <tbody>
 <tr>
 <td>필터, 보기 및 그룹화 편집</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>필터, 보기 및 그룹화 만들기</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>필터, 보기 및 그룹화 보기</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>필터, 보기 및 그룹화 삭제</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>필터, 보기 및 그룹화 공유</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>필터, 보기 및 그룹화를 시스템 전체에서 공유</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
-<td>✓ 덧신</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 </tbody>
 </table>

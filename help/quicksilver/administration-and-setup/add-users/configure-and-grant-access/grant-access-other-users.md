@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -67,11 +67,13 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 1. [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에 설명된 대로 액세스 수준을 만들거나 편집하십시오.
 1. 플랜 또는 작업 라이선스가 있는 사용자가 다른 사용자의 프로필을 보는 기능을 변경하려면 다음을 수행하십시오.
 
-   1. **사용자** 오른쪽에 있는 **보기** 단추의 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+   1. ![](assets/gear-icon-settings.png)사용자&#x200B;**오른쪽에 있는**&#x200B;보기&#x200B;**단추의 톱니바퀴 아이콘**&#x200B;을(를) 클릭합니다.
 
    1. **연락처 정보 보기**&#x200B;를 사용하지 않도록 설정한 다음 X를 클릭하여 **설정 세부 조정** 상자를 닫습니다.
 
-1. 플랜 라이선스 액세스 권한이 있는 사용자가 다른 사용자를 편집할 수 있는 기능을 수정하려면 **사용자** 오른쪽에 있는 **편집** 단추의 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 클릭한 다음 부여할 기능을 선택하십시오.
+      ![사용자 설정 미세 조정](assets/fine-tune-users.png)
+
+1. 플랜 라이선스 액세스 권한이 있는 사용자가 다른 사용자를 편집할 수 있는 기능을 수정하려면 ![](assets/gear-icon-settings.png)사용자&#x200B;**오른쪽에 있는**&#x200B;편집&#x200B;**단추의 톱니바퀴 아이콘**&#x200B;을(를) 클릭한 다음 부여할 기능을 선택하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -80,12 +82,9 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
      <tr> 
       <td role="rowheader"><strong>만들기</strong> </td> 
       <td> <p>사용자가 사용자를 만들 수 있습니다.<br>이 옵션은 기본적으로 사용됩니다.</p> 
-      &lt;!—
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">이 2개의 노트를 언드래프팅하기 전에 변경 사항이 적용되었는지 확인하십시오. 3월 29일, req의 문서는 이것이 조사 결과에 달려있다고 말합니다.</p>
-
-       &lt;p>&lt;b>참고&lt;/b>: 조직이 Adobe Admin Console에 온보딩된 경우에는 이 기능을 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.&lt;/p>
-       —> &lt;/td>
-   </tr> 
+     <p><b>참고</b>: 조직에서 Adobe Admin Console에 온보딩한 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.</p>
+        </td>  
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>삭제</strong> </td> 
       <td> <p> 사용자가 직접 만든 사용자를 삭제할 수 있도록 허용합니다.<br>이 옵션은 기본적으로 사용됩니다.</p> <p><b>참고</b>: 조직에서 Adobe Admin Console에 온보딩한 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.</p> </td> 
@@ -120,4 +119,4 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
 ## 라이선스 유형별 사용자 액세스
 
-각 액세스 수준의 사용자가 사용자를 통해 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)의 [사용자](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) 섹션을 참조하십시오.
+각 액세스 수준의 사용자가 사용자를 통해 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users)의 [사용자](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) 섹션을 참조하십시오.

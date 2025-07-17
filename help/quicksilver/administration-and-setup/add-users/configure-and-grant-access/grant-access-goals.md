@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,6 @@ Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfr
 1. [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에 설명된 대로 액세스 수준을 만들거나 편집하십시오.
 1. 이 액세스 수준에 사용할 **목표** 오른쪽에 있는 옵션을 클릭합니다.
 
-   ![](assets/edit-access-level-goals.png)
 
    >[!NOTE]
    >
