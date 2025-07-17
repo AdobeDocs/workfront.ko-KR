@@ -6,9 +6,9 @@ description: 이미 보류 중인 승인이 있는 문서에 승인자 또는 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 1%
 * 전체 Workfront 팀을 검토자 또는 승인자로 지정
 * 검토 또는 승인 마감 설정
 * 승인 템플릿 만들기 및 재사용
-* 새 버전 활용
+* 새 버전 사용
 * Workfront 홈 위젯에서 승인에 대한 여러 주요 성능 지표 보기
 * 캔버스 대시보드를 사용하여 통합 승인에 대한 보고 세부 사항을 봅니다
 

@@ -6,7 +6,8 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c61d147d3f3a9851645f21ec1ee1d5ab9b445d8
+exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
+source-git-commit: 8300595f63fab4f4ef6f00c7b8ff8b06120db2cc
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -23,9 +24,12 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 ## 레코드 승인 정보를 표시하는 새 필드
 
-미리 보기: 2025년 7월 17일
-빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
-전체 프로덕션: 2025년 10월 16일
+>[!NOTE]
+>
+>미리 보기: 2025년 7월 17일
+>>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
+>>전체 프로덕션: 2025년 10월 16일
+
 
 승인과 함께 요청을 제출하여 생성된 레코드에 대한 승인 정보를 캡처하기 위해 다음 필드를 도입합니다.
 
@@ -37,9 +41,12 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 ## 적용된 그룹화를 기반으로 필드 자동 채우기
 
-미리 보기: 2025년 7월 10일
-프로덕션 빠른 릴리스: 2025년 8월 14일
-모두를 위한 프로덕션: 2025년 10월 16일
+>[!NOTE]
+>
+>미리 보기: 2025년 7월 10일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모두를 위한 프로덕션: 2025년 10월 16일
+
 
 이제 테이블 보기에 그룹화가 적용되면 테이블에 레코드를 추가하면 레코드를 추가할 그룹화와 관련된 필드가 자동으로 채워집니다.
 
@@ -61,4 +68,3 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
-

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,31 @@ Note: The integration must be enabled for your accounts by the Adobe Product Tea
 For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 -->
 
+## 통합 승인 단계별 롤아웃
+
+>[!NOTE]
+>
+>고객을 위한 프로덕션 릴리스: 2025년 7월 17일부터 단계적으로 롤아웃
+
+
+단계별 롤아웃에서 이전에 새 문서 승인이라고 했던 통합 승인을 활성화합니다. 이 기능은 향후 6개월 동안 Workfront 인스턴스에서 자동으로 활성화됩니다.
+
+통합 승인 은 기존 문서 승인을 대체하며 문서에서 직접 다음 기능을 제공합니다.
+
+* 전체 Workfront 팀을 검토자 또는 승인자로 지정
+* 검토 또는 승인 마감 설정
+* 승인 템플릿 만들기 및 재사용
+* 새 버전 사용
+* Workfront 홈 위젯에서 승인에 대한 여러 주요 성능 지표 보기
+* 캔버스 대시보드를 사용하여 통합 승인에 대한 보고 세부 사항을 봅니다
+
+자세한 내용은 [통합 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)를 참조하세요.
+
 ## Desktop Proofing 뷰어 업데이트
+
+>[!NOTE]
+>
+>* 모든 고객을 위한 프로덕션 릴리스: 2025년 6월 16일
 
 Desktop Proofing Viewer가 버전 2.1.50으로 업데이트되었습니다.
 
