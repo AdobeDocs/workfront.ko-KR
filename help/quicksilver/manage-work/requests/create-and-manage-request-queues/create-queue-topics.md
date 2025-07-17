@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 2%
@@ -154,18 +154,16 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>요청 유형</strong> </td> 
-      <td> <p>이 대기열 주제가 저장할 요청 종류를 선택합니다. 프로젝트의 <strong>큐 세부 정보</strong> 탭에서 표시되는 옵션이 설정됩니다. 필수 필드입니다. </p>
-
-   <p><b>참고</b>:
-
-   유형은 [대기열 세부 정보] 및 [대기열 주제] 페이지에서 [요청 유형]이 선택된 경우에만 [요청] 영역에 선택 항목으로 표시됩니다. 프로젝트의 대기열 세부 정보 영역 설정에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>를 참조하십시오. </p> <p>다음 유형 중에서 선택합니다.</p>
-   <ul>
-   <li>버그 신고</li>
-   <li>순서 변경</li>
-   <li>문제</li>
-   <li>요청</li>
-   </ul> <p>Workfront 관리자가 이러한 옵션 중 일부의 이름을 변경했을 수 있습니다. </p> </td>
-   </tr> 
+      <td> <p>이 대기열 주제가 저장할 요청 종류를 선택합니다. 프로젝트의 <strong>큐 세부 정보</strong> 탭에서 표시되는 옵션이 설정됩니다. 필수 필드입니다. </p> 
+       <p><b>참고</b>:</p>
+      <p>유형은 [대기열 세부 정보] 및 [대기열 주제] 페이지에서 [요청 유형]이 선택된 경우에만 [요청] 영역에 선택 항목으로 표시됩니다. 프로젝트의 대기열 세부 정보 영역 설정에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>를 참조하십시오. </p> <p>다음 유형 중에서 선택합니다.</p> 
+       <ul> 
+        <li>버그 신고</li> 
+        <li>순서 변경</li> 
+        <li>문제</li> 
+        <li>요청</li> 
+       </ul> <p>Workfront 관리자가 이러한 옵션 중 일부의 이름을 변경했을 수 있습니다. </p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
