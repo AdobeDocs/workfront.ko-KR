@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 2572093857bb1ad27f869e1d7244549e531ba421
+source-git-commit: eb3bace0298ea67deb3d4515da23b9301625bec7
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2273'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,19 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 레코드 유형을 만들고 편집할 때 고급 설정이 업데이트되었습니다.
+
+미리보기 및 프로덕션: 2025년 7월 10일
+
+레코드 유형을 만들거나 편집할 때 고급 설정 탭을 업데이트했습니다.
+
+다음 변경 사항이 이 업데이트의 일부로 도입되었습니다.
+
+* &quot;연결 범위&quot; 영역의 이름이 &quot;작업 영역 간 기능&quot;으로 변경되었습니다.
+* &quot;다른 작업 영역에서 연결&quot; 설정의 이름이 &quot;다른 작업 영역에서 이 레코드 유형에 연결할 수 있도록 허용&quot;으로 변경되었습니다.
+
+자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
 ## 팀이 레코드 댓글에 추가되면 팀 사용자에 대한 알림을 추가합니다.
 
@@ -96,7 +109,7 @@ Workfront Planning에서 요청 양식을 공유할 때의 환경을 보다 안�
 * 요청 양식을 공유한 사용자에 대한 관리 및 기여 옵션을 제거했습니다. 이제 추가된 사용자는 양식만 제출할 수 있습니다.
 * 이제 공개 링크 만들기 옵션을 활성화하면 공개 공유 탭에 링크 및 만료 날짜 필드가 표시됩니다.
 
-자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)를 참조하십시오.
 
 ## 표 보기에서 모든 그룹화 펼치기 및 접기
 
@@ -314,7 +327,7 @@ CSV 및 Excel 파일을 가져와서 레코드 형식과 기존 레코드 형식
 >[!NOTE]
 >
 >이 변경 사항은 시스템 관리자 및 표준 라이선스를 가진 모든 신규 및 기존 사용자에게 표시됩니다.
->&#x200B;>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
+>>레이아웃 템플릿에 할당된 기존 사용자는 레이아웃 템플릿에 정의된 설정에 따라 모든 항목을 계속 볼 수 있습니다.
 
 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 

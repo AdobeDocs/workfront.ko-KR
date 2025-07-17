@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 11fb8416c4432708b4847486d345ab7a9489f6fb
+source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -17,6 +17,27 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 3분기 릴리스의 모든 문서 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)를 참조하십시오.
+
+<!--## Adobe Express and Workfront Proof integration
+
+We are excited to announce a new integration between Adobe Express and Workfront Proof.
+
+With this integration, you can 
+
+* Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight  
+
+* Conduct for deep reviews using drawing markups, annotations, and commenting with the Workfront proofing viewer 
+
+* Meet enterprise compliance standards with electronic signatures and full audit logs 
+
+* Require approval on any remixed files from an Express branded template  
+
+* Map an Express template to a multi-stage review and approval workflow using advanced proof templates
+
+Note: The integration must be enabled for your accounts by the Adobe Product Team.
+
+For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+-->
 
 ## Desktop Proofing 뷰어 업데이트
 
