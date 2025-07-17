@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: a5b7683bffa6c63d7feb45e5c38404185d3f2b44
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Adobe Workfront Planning AI Assistant 개요
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -45,7 +45,7 @@ AI Assistant를 사용하여 현재 페이지 컨텍스트 및 레코드 구조�
 
 * 명령을 사용하여 작업을 취소할 수 있습니다. 예를 들어 &quot;마지막 변경 내용 실행 취소&quot;를 입력하여 변경 내용을 되돌릴 수 있습니다.
 
-* <span class="preview"> AI Assistant를 통해 개체를 만들거나 업데이트하거나 삭제할 때 AI Assistant는 의도한 작업을 표시하고 확인을 요청합니다. 그런 다음 작업을 확인하거나 취소할 수 있습니다. </span>
+* AI 어시스턴트를 통해 오브젝트를 생성, 업데이트, 삭제할 경우 AI 어시스턴트가 의도한 동작을 표시하고 확인을 요청한다. 그런 다음 작업을 확인하거나 취소할 수 있습니다.
 
 ## 현재 AI Assistant에서 사용할 수 있는 기능
 
