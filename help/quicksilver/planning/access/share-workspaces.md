@@ -152,8 +152,10 @@ This article describes how you can share a view with others. For information abo
 1. (조건부) 작업 공간의 관리자인 경우 다른 사용자로부터 다음 영역의 보기에 대한 액세스 요청을 받을 수 있습니다.
 
    * 인앱 알림
+
      ![액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request.png)
    * 이메일 알림
+
      ![액세스 요청에 대한 전자 메일 알림](assets/email-notification-for-access-request.png)
 1. (조건부) Workfront의 알림 영역에서 인앱 알림을 클릭합니다
 또는
