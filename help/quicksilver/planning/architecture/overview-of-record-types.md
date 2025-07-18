@@ -1,6 +1,6 @@
 ---
 title: 레코드 유형 개요
-description: 레코드 유형은 Adobe Systems Workfront Planning 작업 영역의 기본 구성단위입니다.
+description: 레코드 유형은 Adobe Workfront Planning 작업 영역의 기본 구성단위입니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -18,35 +18,35 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-개체 유형이 미리 정의되어 있는 Workfront와 달리 Adobe Systems Workfront Planning에서는 고유한 개체 유형을 만들 수 있습니다.
+객체 유형이 사전 정의된 Workfront과 달리 Adobe Workfront Planning에서는 고유한 객체 유형을 만들 수 있습니다.
 
-예를 들어, Workfront에서 Program, Portfolio, Project, Task 또는 Issue의 개체 유형이 이미 생성되어 있습니다.
+예를 들어 Workfront에서 프로그램, Portfolio, 프로젝트, 작업 또는 문제의 객체 유형이 이미 생성되었습니다.
 
-Workfront Planning 개체 유형을 &quot;레코드 유형&quot;이라고 하며 사용자가 생성할 때만 존재합니다.
+Workfront Planning 객체 유형을 &quot;레코드 유형&quot;이라고 하며 사용자가 만들 때만 존재합니다.
 
-레코드 유형은 Workfront Planning 작업 영역의 구성 요소이며, 작업 과정 및 기타 정보와 연결할 수 있으려면 레코드 유형을 모두 만들어야 합니다.
+레코드 유형은 Workfront Planning 작업 영역의 기본 구성 요소이며, 워크플로우 및 기타 정보와 연결할 수 있도록 모든 레코드 유형을 만들어야 합니다.
 
-레코드 종류는 작업 영역에서 구성됩니다.
+레코드 유형은 작업 영역에서 구성됩니다.
 
-작업 영역에 대한 자세한 내용은 작업 영역 만들기 섹션을 참조하세요[&#128279;](/help/quicksilver/planning/architecture/create-workspaces.md).
+작업 영역에 대한 자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
 ## 레코드 유형 개요
 
-Workfront Planning에서는 조직의 요구 사항을 충족하는 사용자 지정 레코드 유형을 생성할 수 있습니다.
+Workfront Planning에서 조직의 요구 사항에 맞는 사용자 정의 레코드 유형을 만들 수 있습니다.
 
-레코드 종류를 만드는 방법에 대한 자세한 내용은 레코드 종류[ 만들기 섹션을 참조하십시오](/help/quicksilver/planning/architecture/create-record-types.md).
+레코드 종류 만들기에 대한 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
-* 템플릿에서 작업 영역 만들 때 레코드 종류는 다음 작업 영역 섹션에 만들어집니다.
+* 템플릿에서 작업 공간을 만들면 다음 작업 공간 섹션에 레코드 유형이 생성됩니다.
 
-   * **운영 레코드 종류**: 전략적 계획, 이니셔티브 또는 계획된 작업을 나타내는 레코드 종류입니다. 예를 들어 Campaign, Activity, Tactic, Opportunity는 운영 레코드 유형입니다.
-   * **분류**: 작업 레코드 종류에 대한 속성을 캡처하는 레코드 종류입니다. 예를 들어 지역, 주소, 대상은 분류 체계입니다.
+   * **운영 레코드 종류**: 전략 계획, 이니셔티브 또는 계획된 작업을 나타내는 레코드 종류. 예를 들어 Campaign, Activity, Tactic, Opportunity 는 운영 레코드 유형입니다.
+   * **분류**: 작업 레코드 형식에 대한 특성을 캡처하는 레코드 형식입니다. 예를 들어 지역, 주소, 대상은 분류법입니다.
 
-  이러한 섹션은 이름을 바꾸거나 삭제할 수 있으며 더 만들 수도 있습니다.
+  이러한 섹션의 이름을 바꾸거나 삭제하거나 더 많이 만들 수 있습니다.
 
-* 처음부터 만든 작업 영역에 레코드 종류를 만들 때 작업 영역에서 만든 모든 섹션에 레코드 종류를 배치할 수 있습니다.
-* 레코드 종류를 만들 때 사용자와 작업 영역 액세스 권한을 부여한 사용자만 레코드 종류를 볼 수 있습니다.
-* 작업 영역에 대한 레코드 종류를 만들려면 먼저 작업 영역을 만들어야 합니다.
-* 하나의 작업 영역 또는 Workfront 인스턴스에 포함할 수 있는 레코드 유형 수에 대한 제한 사항은 Adobe Systems Workfront Planning 개체 제한 사항 개요를[ 참조하십시오](/help/quicksilver/planning/general/limitations-overview.md).
+* 처음부터 만든 작업공간에 레코드 유형을 만들면 작업공간에서 만든 모든 섹션에 레코드 유형을 배치할 수 있습니다.
+* 레코드 유형을 만들면 사용자와 작업 공간에 액세스할 수 있는 권한을 부여한 사용자만 레코드 유형을 볼 수 있습니다.
+* 작업 영역에 대한 레코드 유형을 만들려면 먼저 작업 영역을 만들어야 합니다.
+* 한 작업 영역 또는 Workfront 인스턴스에서 가질 수 있는 레코드 종류의 수에 대한 제한 사항은 [Adobe Workfront Planning 개체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md)를 참조하십시오.
 
 
 <!--

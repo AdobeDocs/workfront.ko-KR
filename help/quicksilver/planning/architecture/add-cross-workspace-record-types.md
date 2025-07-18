@@ -3,13 +3,13 @@ title: 작업 영역 간 레코드 유형 추가
 description: 레코드 유형은 Adobe Workfront Planning의 객체 유형입니다. Workfront Planning에서 다른 작업 영역에서 기존 레코드 유형을 가져올 수 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 2%
 
 ---
-
 
 <!-- add these to the metadata, when making this public: 
 

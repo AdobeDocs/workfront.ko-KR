@@ -1,6 +1,6 @@
 ---
-title: Workspaces 삭제
-description: 더 이상 관련이 없는 작업 공간을 삭제할 수 있습니다.
+title: 작업 영역 삭제
+description: 더 이상 관련이 없는 작업 공간은 삭제할 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -14,7 +14,7 @@ ht-degree: 1%
 ---
 
 
-# 작업 공간 삭제
+# 작업 영역 삭제
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Adobe Systems Workfront Planning에서 작업 영역은 팀이 작업을 계획할 수 있는 중앙 집중식 위치입니다. 자세한 내용은 작업 영역 만들기 섹션을 참조하세요[&#128279;](/help/quicksilver/planning/architecture/create-workspaces.md).
+Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 중앙 집중식 위치입니다. 자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
 더 이상 관련이 없는 작업 공간은 삭제할 수 있습니다.
 
@@ -49,7 +49,7 @@ Adobe Systems Workfront Planning에서 작업 영역은 팀이 작업을 계획�
    <li><p> Adobe Workfront 계획<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
    <td> 
 <p>다음 Workfront 플랜 중 하나:</p> 
 <ul><li>선택</li> 
@@ -66,13 +66,13 @@ Adobe Systems Workfront Planning에서 작업 영역은 팀이 작업을 계획�
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe Systems 통합 환경에 온보딩되어 있어야 합니다.</p> 
-<p>자세한 내용은 Adobe Systems Unified Experience for Workfront<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">를 참조하십시오</a>. </p> 
+<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 라이선스*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
    <td><p> 표준 </p>
    <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
   </td> 
@@ -94,10 +94,10 @@ Adobe Systems Workfront Planning에서 작업 영역은 팀이 작업을 계획�
 
 +++
 
-## 작업 공간 삭제에 대한 고려 사항
+## 작업 영역 삭제에 대한 고려 사항
 
-* 작업 영역을 삭제하면 모든 레코드 종류, 레코드, 해당 필드 및 보기도 삭제됩니다.
-* 삭제된 작업 공간 및 작업 공간에 포함된 정보는 복구할 수 없습니다.
+* 작업 공간을 삭제하면 모든 레코드 유형, 레코드, 해당 필드 및 보기도 삭제됩니다.
+* 삭제된 작업 영역과 여기에 포함된 정보는 복구할 수 없습니다.
 
 ## 작업 영역 삭제
 
@@ -112,10 +112,10 @@ Adobe Systems Workfront Planning에서 작업 영역은 팀이 작업을 계획�
    * 작업 영역 카드 위로 마우스를 가져간 다음 카드의 오른쪽 상단에 있는 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다
 또는
    * 작업 영역 카드를 클릭하여 작업 영역을 연 다음 작업 영역 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭합니다.
-1. 삭제&#x200B;**클릭합니다**.
+1. **삭제**&#x200B;를 클릭합니다.
 
-   ![영구적으로 삭제 작업 영역 확인](assets/permanently-delete-workspace-confirmation.png)
+   ![작업 영역 영구적으로 삭제 확인](assets/permanently-delete-workspace-confirmation.png)
 
-1. 제공된 공간에 &quot;delete&quot;**를 입력한 다음 영구 삭제**&#x200B;를 클릭합니다&#x200B;**.** 대/소문자 구분은 대소문자 구분이 아닙니다.
+1. 제공된 공간에 &quot;**delete**&quot;을(를) 입력한 다음 **영구적으로 삭제**&#x200B;을(를) 클릭합니다. 대/소문자를 구분하지 않습니다.
 
-   작업 영역 항목이 삭제되고 복구할 수 없습니다. 연결된 모든 레코드 종류, 레코드, 필드 및 보기도 삭제됩니다. <!--ensure this is right at or before GA-->
+   작업 영역이 삭제되며 복구할 수 없습니다. 모든 레코드 종류, 레코드, 필드 및 연결된 보기도 삭제됩니다. <!--ensure this is right at or before GA-->

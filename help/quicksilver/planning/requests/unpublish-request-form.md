@@ -1,6 +1,6 @@
 ---
-title: Adobe Systems Workfront Planning에서 요청 양식 게시 취소
-description: 더 이상 필요하지 않거나 관련이 없는 경우 요청 양식을 게시 취소할 수 있습니다. 게시를 취소하면 양식에 액세스할 수 있는 모든 사용자의 권한이 제거됩니다.
+title: Adobe Workfront Planning에서 요청 양식 게시 취소
+description: 더 이상 필요하지 않거나 관련이 없는 요청 양식은 게시를 취소할 수 있습니다. 게시를 취소하면 양식에 액세스할 수 있는 모든 사용자의 권한이 제거됩니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
@@ -13,20 +13,20 @@ ht-degree: 3%
 
 ---
 
-# Adobe Systems Workfront Planning에서 요청 양식 게시 취소
+# Adobe Workfront Planning에서 요청 양식 게시 취소
 
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">이 페이지 상의 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객이 미리 보기 환경에서만 사용할 수 있습니다. 프로덕션에 대한 월별 릴리스 후에는 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 조직에[ 대한 빠른 릴리스 활성화 또는 비활성화를 참조하세요](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
-더 이상 필요하지 않거나 관련이 없는 경우 요청 양식을 게시 취소할 수 있습니다. 게시를 취소하면 양식에 액세스할 수 있는 모든 사용자의 권한이 제거됩니다.
+더 이상 필요하지 않거나 관련이 없는 요청 양식은 게시를 취소할 수 있습니다. 게시를 취소하면 양식에 액세스할 수 있는 모든 사용자의 권한이 제거됩니다.
 
-또한 요청 양식을 공유하는 엔터티를 변경하여 더 적은 수의 그룹 사용자가 사용할 수 있도록 할 수도 있습니다.
+요청 양식을 더 작은 그룹의 사용자가 사용할 수 있도록 유지하려면 요청 양식과 공유한 엔터티를 변경할 수도 있습니다.
 
 ## 액세스 요구 사항
 
@@ -59,30 +59,30 @@ ht-degree: 3%
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Systems Workfront 계획 패키지*</p></td>
+   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td>
    <td>
-<p>어떤 </p>  
-<p>각 Workfront Planning 플랜에 포함된 항목에 대한 자세한 내용은 Workfront 계정 관리자 관리자에게 문의하십시오. </td>
+<p>임의 </p>  
+<p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Systems Workfront 플랫폼</p></td>
+   <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
    <td>
-<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe Systems 통합 환경에 온보딩되어 있어야 합니다.</p>
-<p>자세한 내용은 Adobe Systems Unified Experience for Workfront<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">를 참조하십시오</a>. </p>
+<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p>
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p>
    </td>
 
 </tr>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Systems Workfront 라이선스*</p></td>
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
    <p>표준</p>
-   <p>Workfront Planning은 기존 Workfront 라이선스에 사용할 수 없습니다</p>
+   <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p>
   </td>
   </tr>
   <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Adobe Systems Workfront Planning에 대한 액세스 수준 컨트롤은 없습니다</p>  
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 <tr>
@@ -99,33 +99,33 @@ ht-degree: 3%
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
    <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 Planning이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
-<p><span class="preview">미리 보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 계획을 사용하도록 설정되어 있습니다.</span></p>  
+<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 Planning을 활성화합니다.</span></p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서[의 액세스 요구 사항을 참조하십시오](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
-## 요청 양식의 공유 변경
+## 요청 양식 공유 변경
 
-조직 외부의 사용자를 포함한 모든 사용자와 공개적으로 요청을 공유하는 경우 양식이 연결된 작업 영역을 보거나 관리 하는 특정 사용자로 이 액세스 권한을 제한하는 것을 고려할 수 있습니다.
+에 대한 요청을 조직 외부의 사용자를 포함한 모든 사용자와 공개적으로 공유하는 경우, 양식이 연결된 작업 영역을 보거나 관리하는 특정 사용자에게 이 액세스를 제한하는 것이 좋습니다.
 
 요청 양식 공유를 변경하려면:
 
 {{step1-to-planning}}
 
-1. 레코드를 추가할 작업 영역 클릭
+1. 레코드를 추가할 작업 영역을 클릭합니다.
 
-   작업 영역 영역이 열리고 레코드 종류가 카드로 표시됩니다.
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
-1. 레코드 종류 카드 클릭 레코드 종류를 만드는 방법에 대한 자세한 내용은 레코드 종류[ 만들기 항목을 참조하십시오](/help/quicksilver/planning/architecture/create-record-types.md).
+1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
-   레코드 종류 페이지 가 마지막으로 액세스한 보기에서 열립니다. 기본적으로 레코드 종류 페이지 는 테이블 보기에서 열립니다.
+   마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 
-1. **페이지 머리글에서 레코드 종류 이름의 오른쪽에 있는 More menu(더 보기**) 메뉴를![ ](assets/more-menu.png)클릭한 다음 Manage request forms(요청 양식&#x200B;**관리)를 클릭합니다**.
+1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 관리**&#x200B;를 클릭합니다.
 
    레코드 유형과 연관된 모든 요청 양식이 테이블 보기에 표시됩니다.
 1. 요청 양식 이름 위로 마우스를 가져간 후 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **공유**&#x200B;를 클릭합니다.
@@ -135,35 +135,35 @@ ht-degree: 3%
    * 작업 영역에 대한 참여 이상의 액세스 권한이 있는 모든 사용자
    * 링크를 보유한 모든 사용자
 
-   자세한 내용은 Adobe Systems Workfront Planning[의 요청 양식 만들기 및 관리를 참조하십시오](/help/quicksilver/planning/requests/create-request-form.md).
-1. (선택 사항) 요청 양식의 공유를 변경한 후 새 링크 있는 사용자의 새 그룹 공유하려는 경우 링크&#x200B;**복사를 클릭합니다**.
+   자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+1. (선택 사항) 요청 양식 공유를 변경하고 새 링크가 있는 새 사용자 그룹에 공유하려면 **링크 복사**&#x200B;를 클릭합니다.
 
-## 레코드 종류에 대한 요청 양식 게시 취소
+## 레코드 유형에 대한 요청 양식 게시 취소
 
-요청 양식이 무의미해지고 다른 사람이 더 이상 액세스하지 못하도록 하려면 게시 취소할 수 있습니다.
+요청 양식이 무관해져서 더 이상 아무도 액세스할 수 없게 되면 게시를 취소할 수 있습니다.
 
 {{step1-to-planning}}
 
-1. 레코드를 추가할 작업 영역 클릭
+1. 레코드를 추가할 작업 영역을 클릭합니다.
 
-   작업 영역 영역이 열리고 레코드 종류가 카드로 표시됩니다.
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
-1. 레코드 종류 카드 클릭 레코드 종류를 만드는 방법에 대한 자세한 내용은 레코드 종류[ 만들기 항목을 참조하십시오](/help/quicksilver/planning/architecture/create-record-types.md).
+1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
-   레코드 종류 페이지 가 마지막으로 액세스한 보기에서 열립니다. 기본적으로 레코드 종류 페이지 는 테이블 보기에서 열립니다.
+   마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 
-1. **페이지 머리글에서 레코드 종류 이름의 오른쪽에 있는 More menu(더 보기**) 메뉴를![ ](assets/more-menu.png)클릭한 다음 Manage request forms(요청 양식&#x200B;**관리)를 클릭합니다**.
+1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 관리**&#x200B;를 클릭합니다.
 
-   레코드 종류와 관련된 모든 요청 양식이 테이블 보기에 표시됩니다.
-1. 요청 양식의 이름 위로 마우스를 가져간 다음, 이름 오른쪽에 있는 더 보기&#x200B;**메뉴**&#x200B;더 보기 메뉴를![ 클릭한 ](assets/more-menu.png)다음, 게시 취소를 클릭하십시오 **&#x200B;**
+   레코드 유형과 연관된 모든 요청 양식이 테이블 보기에 표시됩니다.
+1. 요청 양식 이름을 마우스로 가리킨 다음 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **게시 취소**&#x200B;를 클릭합니다
 
 또는
 
-요청 양식의 이름을 클릭하여 연 다음, 요청 양식의 오른쪽 상단 모서리에 있는 게시&#x200B;**취소를 클릭합니다**.
+요청 양식 이름을 클릭하여 연 다음 요청 양식의 오른쪽 상단 모서리에서 **게시 취소**&#x200B;를 클릭합니다.
 
-![강조 표시된 게시 취소 버튼](assets/unpublish-button-highlighted.png)
+![게시 취소 단추 강조 표시](assets/unpublish-button-highlighted.png)
 
-화면 하단에 양식이 게시 취소되었음을 알리는 확인 메시지가 표시됩니다.
+양식 게시가 취소되었음을 알리는 확인 메시지가 화면 하단에 표시됩니다.
 
 **게시 취소** 링크 또는 단추가 **게시**(으)로 변경됩니다.
 

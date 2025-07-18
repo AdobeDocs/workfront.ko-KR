@@ -1,6 +1,6 @@
 ---
-title: Adobe Systems Workfront Planning 레코드 자동화를 사용하여 개체 만들기
-description: Adobe Systems Workfront Planning에서 자동화를 구성하고 활성화한 후 이를 사용하여 Adobe Systems Workfront에서 개체를 만들거나 Adobe Systems Workfront Planning에서 레코드를 만들 수 있습니다. 이 문서에서는 기존 자동화를 사용하여 레코드 또는 개체를 만드는 방법을 설명합니다.
+title: Adobe Workfront Planning Record 자동화를 사용하여 객체 생성
+description: Adobe Workfront Planning에서 자동화를 구성하고 활성화한 후 이를 사용하여 Adobe Workfront의 객체 또는 Adobe Workfront Planning의 레코드를 생성할 수 있습니다. 이 문서에서는 기존 자동화를 사용하여 레코드 또는 개체를 만드는 방법에 대해 설명합니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Adobe Systems Workfront Planning 레코드 자동화를 사용하여 개체 만들기
+# Adobe Workfront Planning 레코드 자동화를 사용하여 객체 생성
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -27,17 +27,17 @@ ht-degree: 0%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-Adobe Systems Workfront Planning에서 자동화를 구성하고 활성화한 후 이를 사용하여 Adobe Systems Workfront에서 개체를 만들거나 Adobe Systems Workfront Planning에서 레코드를 만들 수 있습니다.
+Adobe Workfront Planning에서 자동화를 구성하고 활성화한 후 이를 사용하여 Adobe Workfront의 객체 또는 Adobe Workfront Planning의 레코드를 생성할 수 있습니다.
 
-예를 들어, Workfront Planning 캠페인을 사용하고 Workfront에서 프로젝트를 생성하여 해당 캠페인의 진행 상황을 추적하는 기존 자동화를 사용할 수 있습니다. 프로젝트는 캠페인의 연결된 프로젝트 필드에서 Workfront Planning 캠페인에 연결됩니다.
+예를 들어 Workfront Planning 캠페인을 가져와 Workfront에서 프로젝트를 생성하여 해당 캠페인의 진행 상황을 추적하는 기존 자동화를 사용할 수 있습니다. 프로젝트는 캠페인의 연결된 프로젝트 필드에서 Workfront 계획 캠페인에 연결됩니다.
 
-이 문서에서는 기존 자동화를 사용하여 Workfront Planning 레코드 또는 Workfront 객체를 생성하는 방법을 설명합니다.
+이 문서에서는 기존 자동화를 사용하여 Workfront Planning 레코드 또는 Workfront 개체를 만드는 방법에 대해 설명합니다.
 
-레코드 종류에 대한 자동화를 만드는 방법에 대한 자세한 내용은 레코드를[ 만들도록 Adobe Systems Workfront Planning 자동화 구성을 참조하십시오](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+레코드 종류의 자동 만들기에 대한 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 자동 구성](/help/quicksilver/planning/records/configure-automations-to-create-records.md)을 참조하십시오.
 
-자동화를 사용하여 레코드 또는 Workfront 객체를 생성하면 자동화를 실행 중인 레코드에 자동으로 연결됩니다.
+자동화를 사용하여 레코드나 Workfront 개체를 만들면 자동화를 실행 중인 레코드와 자동으로 연결됩니다.
 
-연결된 레코드에 대한 자세한 내용은 연결된 레코드 개요를[ 참조하세요](/help/quicksilver/planning/records/connected-records-overview.md).
+연결된 레코드에 대한 자세한 내용은 [연결된 레코드 개요](/help/quicksilver/planning/records/connected-records-overview.md)를 참조하십시오.
 
 Workfront Planning에서 자동화를 사용하여 다음 항목을 생성할 수 있습니다.
 
@@ -50,7 +50,7 @@ Workfront Planning에서 자동화를 사용하여 다음 항목을 생성할 �
 
 ## 액세스 요구 사항
 
-+++ 액세스 요구 사항을 보려면 확장합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -64,27 +64,27 @@ Workfront Planning에서 자동화를 사용하여 다음 항목을 생성할 �
    <p> 제품</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Adobe Workfront 계획<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
    <td> 
 <p>다음 Workfront 플랜 중 하나:</p> 
 <ul><li>선택</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다</p> 
+<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 계획 패키지*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td> 
    <td> 
-<p>어떤 </p> 
-<p>각 Workfront Planning 플랜에 포함된 항목에 대한 자세한 내용은 Workfront 계정 관리자 관리자에게 문의하십시오. </p> 
+<p>임의 </p> 
+<p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 플랫폼</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe Systems 통합 환경에 온보딩되어 있어야 합니다.</p> 
+<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
@@ -97,36 +97,36 @@ Workfront Planning에서 자동화를 사용하여 다음 항목을 생성할 �
   </tr> 
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>Adobe Systems Workfront Planning에 대한 액세스 수준 컨트롤은 없습니다</p> 
-   <p>생성하려는 개체 유형(프로젝트, 포트폴리오, 프로그램)에 대한 Workfront에서 개체 만들기 액세스 권한이 있는 편집 권한. </p>  
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p> 
+   <p>만들려는 객체 유형(프로젝트, 포트폴리오, 프로그램)의 Workfront에서 객체 만들기에 대한 액세스 권한을 가지고 액세스 권한을 편집합니다. </p>  
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>개체 사용 권한</p></td> 
-   <td> <p>작업 영역 및 기존 자동화를 사용하여 개체를 만들려는 레코드 종류에 대한 Contribute 이상의 권한입니다. </p>  
-   <p>Workfront 개체(포트폴리오)에 대한 권한을 관리하여 하위 개체(프로그램 또는 프로젝트)를 추가할 수 있습니다.</p>
-   <p>시스템 관리자에게는 자신이 만들지 않은 작업 영역을 포함한 모든 작업 영역에 대한 관리 권한이 있습니다</p>
+   <td role="rowheader"><p>개체 권한</p></td> 
+   <td> <p>기존 자동화를 사용하여 개체를 만들려는 작업공간 및 레코드 유형에 대해 또는 그 이상의 권한을 제공하십시오. </p>  
+   <p>하위 개체(프로그램 또는 프로젝트)를 추가하기 위해 Workfront 개체(포트폴리오)에 대한 권한을 관리합니다.</p>
+   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 관리 권한을 가집니다</p>
    </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서[의 액세스 요구 사항을 참조하십시오](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
-## 자동화를 사용하여 개체 및 레코드를 만드는 방법에 대한 고려 사항
+## 자동화를 사용하여 오브젝트 및 레코드 만들기에 대한 고려 사항
 
-* 자동화에 의해 생성된 개체 또는 레코드의 이름은 단일 개체를 생성할 때 해당 개체를 생성할 때 사용한 레코드 이름과 동일합니다.
+* 자동화를 통해 작성된 객체 또는 레코드의 이름은 단일 객체를 작성할 때 작성한 레코드 이름과 동일합니다.
 
-* 여러 프로젝트를 만들면 다음 패턴에 따라 자동으로 이름이 지정됩니다.
+* 여러 프로젝트를 만들 때 다음 패턴에 따라 프로젝트 이름이 자동으로 지정됩니다.
 
   `[ Name of the record ] Name of the field choice`
 
-  자세한 내용은 이 문서의 Workfront Planning 자동화를 사용하여 개체 또는 레코드[ 만들기 섹션을 참조하십시오](#use-a-workfront-planning-automation-to-create-an-object-or-a-record).
+  자세한 내용은 이 문서에서 [개체 또는 레코드를 만드는 데 Workfront Planning 자동화 사용](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) 섹션을 참조하십시오.
 
-* 새로 만들기 대상체 또는 레코드는 동일한 필드에 있는 기존 대상체 또는 레코드를 덮어쓰지 않습니다. 동일한 레코드에 대해 동일한 자동화를 여러 번 트리거하면 이전에 만든 레코드 외에 원본 레코드의 연결된 동일한 필드에 새 개체나 레코드가 추가됩니다.
+* 새 개체 또는 레코드는 동일한 필드의 기존 개체보다 우선하지 않습니다. 동일한 레코드에 대해 동일한 자동화를 여러 번 트리거하면 이전에 만든 레코드 외에 원본 레코드의 연결된 동일한 필드에 새 개체나 레코드가 추가됩니다.
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
@@ -137,22 +137,22 @@ Workfront Planning에서 자동화를 사용하여 다음 항목을 생성할 �
 1. 테이블 뷰를 엽니다.
 1. 하나 이상의 레코드를 선택합니다.
 
-   테이블 하단에 자동화 버튼을 비롯한 추가 버튼이 있는 파란색 막대가 표시됩니다.
-1. 파란색 막대에서 자동화 버튼 버튼을 클릭합니다.
+   테이블 하단에 자동화 버튼을 비롯한 추가 버튼과 함께 파란색 막대가 표시됩니다.
+1. 파란색 막대에서 자동화 버튼을 클릭합니다.
 
-   ![자동화 버튼](assets/automation-custom-button.png)
+   ![자동화 단추](assets/automation-custom-button.png)
 
    다음과 같은 상황이 발생합니다.
 
    * 자동화가 개체 또는 레코드를 성공적으로 만든 경우 화면 하단에 확인 메시지가 표시됩니다.
 
-   * 새 개체는 자동화 버튼 설정에 표시된 연결된 필드에 표시됩니다. 새 개체를 보기 전에 페이지 새로 고침이 필요할 수 있습니다. 새 개체의 이름은 원래 레코드와 동일합니다.
+   * 새 객체는 자동화 버튼 설정에 표시된 연결된 필드에 표시됩니다. 새 개체를 보기 전에 페이지를 새로 고쳐야 할 수도 있습니다. 새 개체의 이름은 원본 레코드와 같습니다.
 
-   * 다중 또는 단일 선택 필드의 선택에 따라 여러 프로젝트를 만든 경우 다음 패턴에 따라 프로젝트 이름이 자동으로 지정됩니다.
+   * 다중 또는 단일 선택 필드의 선택 사항을 기반으로 여러 프로젝트를 만든 경우 다음 패턴에 따라 프로젝트의 이름이 자동으로 지정됩니다.
 
      `[ Name of the record ] Name of the field choice`
 
-     예를 들어, 이름이 지정된 `Summer breeze` 캠페인이 필드 선택 `EMEA`항목에서 프로젝트를 생성한 경우 프로젝트 이름은 `[ Summer breeze ] EMEA`.
+     예를 들어 이름이 `Summer breeze`인 캠페인이 `EMEA`인 필드 선택에서 프로젝트를 생성한 경우 프로젝트의 이름은 `[ Summer breeze ] EMEA`입니다.
 
    * 자동화를 트리거하는 레코드가 새 레코드의 연결된 필드에 추가됩니다.
 
@@ -160,7 +160,7 @@ Workfront Planning에서 자동화를 사용하여 다음 항목을 생성할 �
    >
    >개체 또는 레코드가 예상대로 만들어지고 연결되었는지 확인하는 것이 좋습니다.
 
-1. (선택 사항) 연결된 필드에서 새 개체를 클릭합니다. 개체 페이지 가 열리고 새 개체를 추가로 변경할 수 있습니다.
+1. (선택 사항) 연결된 필드에서 새 개체를 클릭합니다. 객체 페이지가 열리고 새 객체를 추가로 변경할 수 있습니다.
 
 <!--ORIGINAL AUTOMATION FUNCTIONALITY - BEFORE FEB. 20, 2025
 

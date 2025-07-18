@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 액세스 요구 사항을 보려면 확장합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -42,19 +42,19 @@ ht-degree: 0%
    <p> 제품</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Adobe Workfront 계획<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
    <td> 
 <p>다음 Workfront 플랜 중 하나:</p> 
 <ul><li>선택</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다</p> 
+<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 계획 패키지*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td> 
    <td> 
 <p>임의 </p> 
 <p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
@@ -80,27 +80,27 @@ ht-degree: 0%
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>개체 사용 권한</p></td> 
-   <td> <p>레코드를 추가하려는 작업 영역 및 레코드 종류에 대한 Contribute 이상의 권한입니다. </p>  
-   <p>시스템 관리자는 자신이 생성하지 않은 작업 영역을 포함하여 모든 작업 공간에 대한 권한을 갖습니다</p>
-   <p>Workfront 개체(포트폴리오)에 대한 권한을 관리하여 하위 개체(프로젝트)를 추가합니다.</p>
+   <td role="rowheader"><p>개체 권한</p></td> 
+   <td> <p>레코드를 추가할 작업 영역 및 레코드 종류에 대한 또는 그 이상의 권한을 제공하십시오. </p>  
+   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
+   <p>하위 개체(프로젝트)를 추가하기 위해 Workfront 개체(포트폴리오)에 대한 권한을 관리합니다.</p>
    </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서[의 액세스 요구 사항을 참조하십시오](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 
-## Excel 또는 CSV 파일을 사용하여 레코드를 가져오는 방법에 대한 고려 사항
+## Excel 또는 CSV 파일을 사용하여 레코드 가져오기에 대한 고려 사항
 
 * 각 시트의 열 머리글은 레코드와 연결된 필드가 됩니다.
-* 각 시트의 각 행은 고유한 레코드가 연결됩니다.
-* Excel 파일에 둘 이상의 시트가 포함되어 있는 경우 가져오기 프로세스 중에 선택한 한 시트의 정보만 가져옵니다.
+* 각 시트의 각 행은 연결된 고유한 레코드가 됩니다.
+* Excel 파일에 둘 이상의 시트가 포함되어 있는 경우 가져오는 과정에서 선택한 한 시트의 정보만 가져옵니다.
 * 파일은 다음을 초과할 수 없습니다.
-   * 25,000개 행
+   * 25,000행
    * 500열
 * 파일은 5MB보다 크지 않아야 합니다.
 * 빈 시트는 지원되지 않습니다.
@@ -108,9 +108,9 @@ ht-degree: 0%
 
    * Workfront 및 AEM Assets 개체 유형에 대한 연결 필드입니다. 연결 필드만 Planning 레코드 유형에 매핑할 수 있습니다.
    * 연결된 Planning 레코드 또는 Workfront 및 AEM Assets 개체의 조회 필드
-   * 수식 필드
+   * 공식 필드
    * 만든 날짜, 만든 사람
-   * 마지막으로 수정한 날짜, 마지막 수정자
+   * 마지막 수정 날짜, 마지막 수정자
    * <span class="preview">승인 날짜, 승인자</span>
    * 사용자
    * 다중 또는 단일 선택 필드를 가져오고 Planning의 유사한 필드보다 더 많은 선택 사항이 있는 경우 가져오는 동안 추가 옵션이 생성됩니다. 작업 영역에 대한 관리 권한이 있는 사용자만 새 선택 사항을 가져올 수 있습니다.
@@ -119,11 +119,11 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-1. 레코드를 만들 작업 영역,
+1. 레코드를 만들 작업 영역을 클릭합니다.
 
    또는
 
-   작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 화살표를 확장하고, 작업 영역 검색한 다음, 목록에 표시되면 선택합니다.
+   작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
 1. 레코드를 가져올 레코드 유형의 카드를 클릭합니다.
 1. 화면 오른쪽 상단에서 **새 레코드**&#x200B;을(를) 클릭합니다.
 
@@ -138,18 +138,18 @@ ht-degree: 0%
 
    ![레코드를 가져올 때 Planning 필드를 열에 매핑](assets/map-planning-fields-to-columns-when-importing-records.png)
 
-   각 행은 새 레코드를 나타냅니다. 처음 10개의 레코드만 미리 보기 및 편집 상자에 표시됩니다.
+   각 행은 새 레코드를 나타냅니다. 처음 10개의 레코드만 [미리 보기 및 편집] 상자에 표시됩니다.
 
    >[!TIP]
    >
-   >모든 필드 유형이 지원되는 것은 아닙니다. 자세한 내용은 이 문서의 Excel 또는 CSV 파일을[ 사용하여 레코드를 가져오는 방법에 대한 고려 사항 섹션을 ](#considerations-about-importing-records-using-an-excel-or-csv-file)참조하세요.
+   >일부 필드 유형은 지원되지 않습니다. 자세한 내용은 이 문서의 [Excel 또는 CSV 파일을 사용하여 레코드 가져오기에 대한 고려 사항](#considerations-about-importing-records-using-an-excel-or-csv-file) 섹션을 참조하십시오.
 
 
-1. (선택 사항 및 조건부) 작업 영역 관리 권한이 있는 경우 화면 왼쪽 아래 모서리에서 누락된 만들기 옵션을&#x200B;**선택합니다**. 활성화되면 단일 및 다중 선택 필드의 누락된 선택 항목이 추가됩니다.
+1. (선택 사항 및 조건부) 작업 영역에 대한 관리 권한이 있는 경우 화면 왼쪽 하단의 **누락된 옵션 만들기**&#x200B;를 선택합니다. 활성화되면 단일 및 다중 선택 필드의 누락된 선택 사항이 추가됩니다.
 
    >[!NOTE]
    >
-   >예를 들어 선택한 레코드 종류에 새로 만들기, 진행 중 및 닫힘 선택 항목이 있는 단일 선택 상태 필드가 있고 파일에서 가져온 상태 필드에도 보류 상태 선택 항목이 있는 경우 보류 중 상태 선택 항목도 추가됩니다.
+   >예를 들어 선택한 레코드 유형에 새로 만들기, 진행 중 및 닫힘 선택 사항이 있는 단일 선택 상태 필드가 있고 파일에서 가져온 상태 필드에 보류 중 상태 선택 사항이 있는 경우 보류 중 상태 선택 사항도 추가됩니다.
    >
    >작업 공간에 대한 관리 권한이 없는 경우 레코드를 가져올 수 있지만, 추가 선택 항목이 만들어지지 않습니다. 대신 열 머리글 상자에 Planning 필드 매핑 상자의 오른쪽 상단 모서리에서 다음 메시지가 표시됩니다. **단일 또는 다중 선택 필드 연결에 없는 선택 사항은 추가되지 않습니다**.
 
@@ -157,8 +157,8 @@ ht-degree: 0%
 
    다음 정보는에서 Workfront Planning으로 가져옵니다.
 
-   * 선택한 레코드 종류의 테이블 뷰 하단에 표시되는 레코드를 새로 만들기
-   * 각 레코드와 연결된 기존 필드의 필드 값 새로 만들기.
+   * 선택한 레코드 종류의 표 보기 아래쪽에 표시되는 새 레코드입니다.
+   * 각 레코드와 연결된 기존 필드의 새 필드 값.
    * Planning에 존재하지 않았던 다중 선택 필드 또는 단일 선택 필드의 새 선택 사항입니다.  <!--when we add connected records - add those here too-->
 
    레코드 유형 페이지에서 필드 및 레코드 관리를 시작할 수 있습니다.

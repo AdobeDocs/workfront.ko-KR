@@ -800,7 +800,7 @@ Workfront의 계획 섹션에서 다음 작업을 사용할 수 있습니다.
 
 미리보기: 결정 취소
 
-Adobe Unified Experience 고객이고 다른 사용자가 레코드 페이지의 댓글에 사용자를 추가하면 댓글에 대한 인앱 및 이메일 알림이 전송됩니다. Adobe Experience Cloud 프로필의 환경 설정 영역에서 알림 환경 설정을 관리할 수 있습니다. 자세한 내용은 [계정 환경 설정 및 알림](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences)을 참조하세요.
+Adobe Unified Experience 고객이고 다른 사용자가 레코드 페이지의 댓글에 사용자를 추가하면 댓글에 대한 인앱 및 이메일 알림이 전송됩니다. Adobe Experience Cloud 프로필의 환경 설정 영역에서 알림 환경 설정을 관리할 수 있습니다. 자세한 내용은 [계정 환경 설정 및 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)을 참조하세요.
 
 Workfront Planning 알림에 대한 자세한 내용은 [Adobe Workfront Planning 알림: 기사 색인](/help/quicksilver/planning/notifications/notifications-information.md)을 참조하십시오.
 

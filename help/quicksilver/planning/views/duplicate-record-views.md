@@ -1,6 +1,6 @@
 ---
 title: 중복 레코드 보기
-description: 여러 버전의 보기를 유지하고 버전 간에 약간의 변경을 수행하려는 경우 Adobe Systems Workfront Planning에서 보기를 복제할 수 있습니다. 이 문서에서는 뷰를 복제하는 방법에 대해 설명합니다.
+description: 여러 버전의 보기를 유지하고 버전 간에 약간의 변경을 하려는 경우 Adobe Workfront Planning에서 보기를 복제할 수 있습니다. 이 문서에서는 보기를 복제하는 방법에 대해 설명합니다.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-여러 버전의 보기를 유지하고 버전 간에 약간의 변경을 수행하려는 경우 Adobe Systems Workfront Planning에서 보기를 복제할 수 있습니다.
+여러 버전의 보기를 유지하고 버전 간에 약간의 변경을 하려는 경우 Adobe Workfront Planning에서 보기를 복제할 수 있습니다.
 
 뷰를 복제하면 기존 뷰의 동일한 복사본이 만들어집니다.
 
@@ -49,7 +49,7 @@ ht-degree: 1%
    <li><p> Adobe Workfront 계획<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
    <td> 
 <p>다음 Workfront 플랜 중 하나:</p> 
 <ul><li>선택</li> 
@@ -67,12 +67,12 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
 <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 Adobe Systems Unified Experience for Workfront<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">를 참조하십시오</a>. </p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 라이선스*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
    <td><p> 표준 </p>
    <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
   </td> 
@@ -98,11 +98,11 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-1. 작업 영역 카드 클릭
+1. 작업 영역의 카드를 클릭합니다.
 
-   작업 영역 영역이 열리고 레코드 종류가 카드로 표시됩니다.
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
-1. 레코드 종류 카드 클릭
+1. 레코드 유형 카드를 클릭합니다.
 
    레코드 유형 페이지가 열립니다.
 기본적으로 선택된 유형의 모든 레코드가 테이블 뷰에 표시됩니다.

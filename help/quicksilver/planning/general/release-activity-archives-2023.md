@@ -76,7 +76,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >
 >Adobe Workfront Planning 기능을 사용하여 연결을 만들려면 조직에서 Adobe Workfront Fusion을 구매해야 합니다.
 >
->자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 이제 Adobe Workfront Fusion을 사용하여 계획 기능에 연결할 수 있습니다. 새 Fusion 연결을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -92,7 +92,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 * 계획 기능이 변경되면 시나리오를 트리거합니다.
 
-자세한 내용은 [Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)을 참조하세요.
+자세한 내용은 [Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)을 참조하세요.
 
 ## 2023년 12월 11일 주
 
@@ -132,9 +132,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!IMPORTANT]
 >
->Workfront 기능 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Adobe Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
+>Workfront 기능 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Adobe Workfront 인스턴스가 Adobe Business Platform 또는 Adobe Admin Console에 온보딩되어야 합니다.
 >
->Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [통합 경험 Adobe FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)를 참조하십시오.
+>Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [Adobe 통합 경험 FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)를 참조하십시오.
 
 이제 Adobe Workfront Planning 기능 레코드 유형과 Adobe Experience Manager Assets 간에 연결을 설정할 수 있습니다.
 

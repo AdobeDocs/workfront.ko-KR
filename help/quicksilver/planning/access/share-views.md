@@ -272,10 +272,8 @@ Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수
 1. (조건부) 사용자가 보기 관리자인 경우 다른 사용자로부터 다음 영역의 보기에 액세스하라는 요청을 받을 수 있습니다.
 
    * 인앱 알림
-
      ![보기에 대한 액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request-for-view.png)
    * 이메일 알림
-
      ![보기에 대한 액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request-for-view.png)
 1. (조건부) Workfront의 알림 영역에서 인앱 알림을 클릭합니다
 또는

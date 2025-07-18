@@ -48,12 +48,12 @@ ht-degree: 0%
 <ul><li>선택</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다</p> 
+<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 계획 패키지*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td> 
    <td> 
-<p>어떤 </p> 
+<p>임의 </p> 
 <p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
    </td> 
  <tr> 
@@ -78,13 +78,13 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 영역</a>에 대한 권한 관리 </p>  
-   <p>시스템 관리자는 자신이 생성하지 않은 작업 영역을 포함하여 모든 작업 공간에 대한 권한을 갖습니다</p>  </td> 
+   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서[의 액세스 요구 사항을 참조하십시오](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -93,12 +93,12 @@ ht-degree: 0%
 
 * Excel 파일의 각 시트는 레코드 유형이 됩니다. 시트의 이름은 레코드 유형의 이름이 됩니다.
 * 시트가 한 개만 있거나 CSV 파일을 가져오는 경우, 파일의 이름은 레코드 유형의 이름이 됩니다.
-* 각 시트의 열 머리글은 각 레코드 종류와 연결된 필드가 됩니다.
-* 필드는 해당 레코드 종류에 대해 고유합니다.
-* 각 시트의 각 행은 해당 레코드 종류와 연결된 고유한 레코드가 됩니다.
+* 각 시트의 열 머리글은 각 레코드 유형과 연결된 필드가 됩니다.
+* 필드는 해당 레코드 유형에 대해 고유합니다.
+* 각 시트의 각 행은 해당 레코드 유형과 연관된 고유한 레코드가 됩니다.
 * Excel 파일의 각 시트는 다음을 초과할 수 없습니다.
-   * 25,000개 행
-   * 500 열
+   * 25,000행
+   * 500열
 * 파일은 5MB보다 크지 않아야 합니다.
 * 빈 시트는 지원되지 않습니다.
 * 다음 유형의 필드는 지원되지 않으며 가져오기 시트의 필드에 매핑할 수 없습니다.
@@ -119,9 +119,9 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다�
 
    또는
 
-   작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 화살표를 확장하고, 작업 영역 검색한 다음, 목록에 표시되면 선택합니다.
-1. Add record type(레코드 종류&#x200B;**추가)을 클릭합니다**.
-1. 파일에서&#x200B;**업로드를 클릭합니다**.
+   작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
+1. **레코드 종류 추가**&#x200B;를 클릭합니다.
+1. **파일에서 업로드**&#x200B;를 클릭합니다.
 1. 이전에 컴퓨터에 저장한 Excel 또는 CSV 파일을 끌어서 놓거나 **CSV 또는 Excel 파일 선택**&#x200B;을 클릭하여 찾은 다음 선택합니다.
 1. **미리 보기 및 편집**&#x200B;을 클릭합니다.
 
@@ -141,25 +141,25 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다�
 
 1. (선택 사항) 왼쪽 패널에서 가져오지 않을 시트는 선택 취소합니다.
 
-   ![가져올 시트 선택 선택되지 않은 드롭 다운](assets/select-sheets-to-import-drop-down-with-unselected.png)
+   ![선택하지 않은 상태로 가져올 시트 선택](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
-   선택 취소한 시트는 회색 배경으로 표시됩니다.
+   선택을 취소한 시트는 회색 배경과 함께 표시됩니다.
 
-1. (선택 사항) 열 헤더의 오른쪽에 있는 아래쪽 화살표를 클릭하여 필드&#x200B;**탭에서 다음**&#x200B;중 하나를 수행합니다.
+1. (선택 사항) 열 머리글 오른쪽의 아래쪽 화살표를 클릭하여 **필드** 탭에서 다음 중 하나를 수행합니다.
 
    레코드 종류 매핑 가져오기 상자의 ![필드 탭](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * 필드 중 하나의 이름을 변경합니다
-   * **필드 유형 변경**
-   * 필드 **설명 업데이트**
+   * **필드 형식** 변경
+   * 필드 **설명** 업데이트
 
-1. (선택 사항) **연결** 탭 을 클릭하여 열의 정보를 다른 레코드 종류의 연결된 필드에 매핑합니다.
+1. (선택 사항) 열의 정보를 다른 레코드 종류의 연결된 필드에 매핑하려면 **연결** 탭을 클릭합니다.
 
    ![레코드 종류 가져오기 매핑 상자의 연결 탭](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >
-   >Workfront Planning 연결된 레코드의 필드에만 매핑할 수 있습니다. Workfront 또는 AEM Assets 연결의 필드에는 매핑할 수 없습니다. 자세한 내용은 이 문서의 Excel 또는 CSV 파일을[ 사용하여 레코드 종류를 가져오는 방법에 대한 고려 사항 섹션을 ](#considerations-about-importing-record-types-using-an-excel-or-csv-file)참조하세요.
+   >Workfront Planning 연결된 레코드의 필드에만 매핑할 수 있습니다. Workfront 또는 AEM Assets 연결의 필드에 매핑할 수 없습니다. 자세한 내용은 이 문서의 [Excel 또는 CSV 파일을 사용하여 레코드 형식을 가져오는 데 대한 고려 사항](#considerations-about-importing-record-types-using-an-excel-or-csv-file) 섹션을 참조하십시오.
 
 1. (조건부) 필드에 대한 정보를 업데이트한 후 **저장**&#x200B;을 클릭합니다.
 

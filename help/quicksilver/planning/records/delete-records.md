@@ -22,7 +22,7 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제할 수 있습니다. 삭제된 레코드는 삭제된 후 30일 동안 복구할 수 있습니다. 삭제된 레코드 복구에 대한 자세한 내용은 삭제된 레코드[ 복구를 참조하십시오](/help/quicksilver/planning/records/restore-deleted-records.md).
+Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제할 수 있습니다. 삭제된 레코드는 삭제된 후 30일 동안 복구할 수 있습니다. 삭제된 레코드 복구에 대한 자세한 내용은 [삭제된 레코드 복구](/help/quicksilver/planning/records/restore-deleted-records.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -52,15 +52,15 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 <p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 계획 패키지*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td> 
    <td> 
-<p>어떤 </p> 
-<p>각 Workfront Planning 플랜에 포함된 항목에 대한 자세한 내용은 Workfront 계정 관리자 관리자에게 문의하십시오. </p> 
+<p>임의 </p> 
+<p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Systems Workfront 플랫폼</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe Systems 통합 환경에 온보딩되어 있어야 합니다.</p> 
+<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
    </td> 
    </tr> 
@@ -68,12 +68,12 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
    <td><p> 표준</p>
-   <p>Workfront Planning은 기존 Workfront 라이선스에 사용할 수 없습니다</p> 
+   <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>Adobe Systems Workfront Planning에 대한 액세스 수준 컨트롤은 없습니다</p>   
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>   
 </td> 
   </tr> 
 <tr> 
@@ -99,26 +99,26 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 
 다음 영역에서 레코드를 삭제할 수 있습니다.
 
-* [레코드의 페이지](#delete-a-record-from-the-records-page)
+* [레코드 페이지에서](#delete-a-record-from-the-records-page)
 * [레코드 종류의 테이블 보기에서](#delete-a-record-from-the-record-type-table-view)
 
-### 레코드의 페이지에서 레코드 삭제
+### 레코드 페이지에서 레코드 삭제
 
 {{step1-to-planning}}
 
-1. 레코드를 삭제할 작업 영역 클릭
+1. 삭제할 레코드가 있는 작업 영역을 클릭합니다.
 
    작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
 1. 레코드 유형 카드를 클릭합니다.
 
-   레코드 종류 페이지 가 열립니다.
+   레코드 유형 페이지가 열립니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 표 보기에서 레코드의 이름을 클릭합니다.
-   * 테이블 보기에서 레코드 이름 위로 마우스를 가져간 다음 자세히&#x200B;**메뉴**&#x200B;더 보기 메뉴를![ 클릭한 ](assets/more-menu.png)다음 **보기**
+   * 테이블 보기에서 레코드 이름을 클릭합니다.
+   * 테이블 보기에서 레코드 이름 위로 마우스를 가져간 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **보기**&#x200B;를 클릭합니다
 
-     ![레코드 행에 대한 컨텍스트 메뉴](assets/contextual-menu-for-record-row.png)
+     ![레코드 행의 상황에 맞는 메뉴](assets/contextual-menu-for-record-row.png)
    * 타임라인 보기에서 레코드 모음을 클릭합니다.
 
    레코드 페이지가 열립니다.
@@ -129,26 +129,26 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 레코드가 삭제되었습니다.
 1. (선택 사항) 레코드 페이지의 테이블 보기로 이동한 다음, 보기의 오른쪽 상단에 있는 **실행 취소** 아이콘 ![실행 취소 아이콘](assets/undo-icon.png)을 클릭한 다음, **최근에 삭제됨**&#x200B;을 클릭하여 삭제된 레코드를 복구합니다.
 
-삭제된 레코드 복구에 대한 자세한 내용은 삭제된 레코드[ 복구를 참조하십시오](/help/quicksilver/planning/records/restore-deleted-records.md).
+삭제된 레코드 복구에 대한 자세한 내용은 [삭제된 레코드 복구](/help/quicksilver/planning/records/restore-deleted-records.md)를 참조하십시오.
 
-### 레코드 종류 테이블 보기에서 레코드 삭제
+### 레코드 유형 테이블 보기에서 레코드 삭제
 
 {{step1-to-planning}}
 
-1. 레코드를 삭제할 작업 영역 클릭
+1. 삭제할 레코드가 있는 작업 영역을 클릭합니다.
 
-   작업 영역 영역이 열리고 레코드 종류가 카드로 표시됩니다.
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
-1. 레코드 종류 카드 클릭
+1. 레코드 유형 카드를 클릭합니다.
 
-   레코드 종류 페이지 가 열립니다.
+   레코드 유형 페이지가 열립니다.
 1. (조건부) 표의 왼쪽 위 모서리에 있는 **보기** 드롭다운 메뉴에서 표 보기를 선택합니다. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.
 
    선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 행을 마우스 오른쪽 버튼으로 클릭한 다음, 삭제(Delete **)를 클릭합니다**.
-   * **레코드 이름 오른쪽에 있는 More menu(더 보기**) 메뉴를 ![](assets/more-menu.png) 클릭한 다음 Delete(삭제&#x200B;**)를 클릭합니다**.
+   * 레코드 행을 마우스 오른쪽 단추로 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+   * 레코드 이름 오른쪽의 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
      ![레코드 행의 상황에 맞는 메뉴](assets/contextual-menu-for-record-row.png)
 
