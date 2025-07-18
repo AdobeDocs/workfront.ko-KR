@@ -324,6 +324,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
      ![타임라인 보기에서 적용된 그룹화](assets/grouping-applied-in-timeline-view.png)
 
    * **일정 보기**: 날짜 유형 필드가 두 개 이상 있는 레코드를 일정 형식으로 표시합니다.
+
      ![달력 보기 예](assets/calendar-view-example.png)
 
 
