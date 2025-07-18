@@ -1,28 +1,28 @@
 ---
 title: 중복 레코드 보기
-description: 여러 버전의 보기를 유지하고 버전 간에 약간의 변경을 하려는 경우 Adobe Workfront Planning에서 보기를 복제할 수 있습니다. 이 문서에서는 보기를 복제하는 방법에 대해 설명합니다.
+description: 여러 버전의 보기를 유지하고 버전 간에 약간의 변경을 수행하려는 경우 Adobe Systems Workfront Planning에서 보기를 복제할 수 있습니다. 이 문서에서는 뷰를 복제하는 방법에 대해 설명합니다.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
 
 # 중복 레코드 보기
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
 
-여러 버전의 보기를 유지하고 버전 간에 약간의 변경을 하려는 경우 Adobe Workfront Planning에서 보기를 복제할 수 있습니다.
+여러 버전의 보기를 유지하고 버전 간에 약간의 변경을 수행하려는 경우 Adobe Systems Workfront Planning에서 보기를 복제할 수 있습니다.
 
 뷰를 복제하면 기존 뷰의 동일한 복사본이 만들어집니다.
 
@@ -33,8 +33,6 @@ ht-degree: 1%
 ## 액세스 요구 사항
 
 +++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -51,7 +49,7 @@ ht-degree: 1%
    <li><p> Adobe Workfront 계획<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Systems Workfront 플랜*</p></td> 
    <td> 
 <p>다음 Workfront 플랜 중 하나:</p> 
 <ul><li>선택</li> 
@@ -69,12 +67,12 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
 <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
+<p>자세한 내용은 Adobe Systems Unified Experience for Workfront<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">를 참조하십시오</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
+   <td role="rowheader"><p>Adobe Systems Workfront 라이선스*</p></td> 
    <td><p> 표준 </p>
    <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
   </td> 
@@ -89,11 +87,6 @@ ht-degree: 1%
    <td>   <p>보기에 대한 권한 관리</p>  
    <p>보기에 대한 권한을 보고 일시적으로 보기 설정을 변경하거나 복제합니다.</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 Planning이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
-<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 Planning을 활성화합니다.</span></p></td> 
-  </tr> 
 </tbody> 
 </table>
 
@@ -105,18 +98,18 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-1. 작업 영역의 카드를 클릭합니다.
+1. 작업 영역 카드 클릭
 
-   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
+   작업 영역 영역이 열리고 레코드 종류가 카드로 표시됩니다.
 
-1. 레코드 유형 카드를 클릭합니다.
+1. 레코드 종류 카드 클릭
 
    레코드 유형 페이지가 열립니다.
 기본적으로 선택된 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-1. <span class="preview">복제할 보기의 탭 위로 마우스를 가져간 후 보기 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **복제**&#x200B;를 클릭합니다. </span>
+1. 복제할 보기의 탭 위로 마우스를 가져간 후 보기 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **복제**&#x200B;를 클릭합니다.
 
-   <span class="preview">![레코드 보기에서 추가 메뉴 보기](assets/view-more-menu-with-duplicate-option.png)</span>
+   ![레코드 보기에서 추가 메뉴 보기](assets/view-more-menu-with-duplicate-option.png)
 
 
    보기가 복제되고 새 보기의 이름이 `Original view's name (Copy)` 패턴을 따릅니다. 새 보기 탭은 모든 보기 탭의 끝에 표시됩니다.

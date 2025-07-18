@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # 작업 공간 공유
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -90,12 +90,8 @@ This article describes how you can share a view with others. For information abo
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>  <p>작업 공간에 대한 권한 관리</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 계획 영역이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
-<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 계획 영역을 사용할 수 있습니다.</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -111,12 +107,7 @@ This article describes how you can share a view with others. For information abo
 * 조직 외부의 사용자와 작업 공간을 공유할 수 없습니다.
 * 작업 영역을 공유하면 작업 영역과 연관된 모든 레코드 유형, 레코드 및 필드도 공유됩니다.
 * 작업 영역을 공유하면 보기가 공유되지 않습니다. 별도로 보기를 공유해야 합니다.
-
-<div class="preview">
-
 * Workspace 권한은 레코드 유형에 상속된 권한으로 표시됩니다.
-
-</div>
 
 ## 작업 공간에 대한 권한 공유
 
@@ -156,10 +147,8 @@ This article describes how you can share a view with others. For information abo
 1. (조건부) 작업 공간의 관리자인 경우 다른 사용자로부터 다음 영역의 보기에 대한 액세스 요청을 받을 수 있습니다.
 
    * 인앱 알림
-
      ![액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request.png)
    * 이메일 알림
-
      ![액세스 요청에 대한 전자 메일 알림](assets/email-notification-for-access-request.png)
 1. (조건부) Workfront의 알림 영역에서 인앱 알림을 클릭합니다
 또는

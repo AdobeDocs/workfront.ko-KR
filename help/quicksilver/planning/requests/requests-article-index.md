@@ -3,10 +3,10 @@ title: 'Adobe Workfront Planning 요청: 문서 색인'
 description: 각 레코드 유형에 대한 요청 양식을 만들어 사용자와 공유할 수 있으며 양식을 작성 및 제출하여 새 레코드를 추가할 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%

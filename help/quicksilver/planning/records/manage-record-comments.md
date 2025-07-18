@@ -1,38 +1,36 @@
 ---
-title: 레코드 주석 관리
-description: 레코드의 오른쪽 패널에 댓글 또는 답글을 추가하여 Adobe Workfront Planning 레코드에 대한 공동 작업을 수행할 수 있습니다. 이 영역에서 레코드에 대해 수행된 다른 변경 사항 및 시스템에서 기록한 변경 사항을 볼 수도 있습니다.
+title: 레코드 댓글 관리
+description: 레코드의 오른쪽 패널에 댓글 또는 답글을 추가하여 Adobe Systems Workfront Planning 레코드에 대해 공동 작업을 수행할 수 있습니다. 이 영역에서 레코드에 대한 다른 변경 사항과 시스템에 의해 기록된 변경 사항도 볼 수 있습니다.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
 
-# 레코드 주석 관리
+# 레코드 댓글 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
-레코드의 오른쪽 패널에 댓글 또는 답글을 추가하여 Adobe Workfront Planning 레코드에 대한 공동 작업을 수행할 수 있습니다. 이 영역에서 레코드에 대해 수행된 다른 변경 사항 및 시스템에서 기록한 변경 사항을 볼 수도 있습니다.
+레코드의 오른쪽 패널에 댓글 또는 답글을 추가하여 Adobe Systems Workfront Planning 레코드에 대해 공동 작업을 수행할 수 있습니다. 이 영역에서 레코드에 대한 다른 변경 사항과 시스템에 의해 기록된 변경 사항도 볼 수 있습니다.
 
 레코드의 오른쪽 패널에는 다음 섹션이 표시됩니다.
 
-* **댓글**: 사용자가 레코드에 추가하는 댓글과 답글을 표시합니다.
-* **기록**: 사용자가 레코드 필드에 적용한 시스템 기록 변경 내용을 표시합니다. 자세한 내용은 [기록 섹션 개요](/help/quicksilver/planning/records/history-section-overview.md)를 참조하십시오.
+* **댓글**: 사용자가 레코드에 추가한 댓글 및 답글을 표시합니다.
+* **기록**: 사용자가 레코드 필드에 대해 수행하는 시스템 기록 변경 사항을 표시합니다. 자세한 내용은 기록 섹션 개요를[ 참조하세요](/help/quicksilver/planning/records/history-section-overview.md).
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 액세스 요구 사항을 보려면 확장합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -49,132 +47,129 @@ ht-degree: 0%
    <li><p> Adobe Workfront 계획<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Systems Workfront 플랜*</p></td> 
    <td> 
 <p>다음 Workfront 플랜 중 하나:</p> 
 <ul><li>선택</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
+<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td> 
+   <td role="rowheader"><p>Adobe Systems Workfront 계획 패키지*</p></td> 
    <td> 
-<p>임의 </p> 
-<p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
+<p>어떤 </p> 
+<p>각 Workfront Planning 플랜에 포함된 항목에 대한 자세한 내용은 Workfront 계정 관리자 관리자에게 문의하십시오. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
+   <td role="rowheader"><p>Adobe Systems Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
+<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe Systems 통합 환경에 온보딩되어 있어야 합니다.</p> 
+<p>자세한 내용은 Adobe Systems Unified Experience for Workfront<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">를 참조하십시오</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td><p> 기여자 또는 상위 라이선스</p>
-   <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
+   <td role="rowheader"><p>Adobe Systems Workfront 라이선스*</p></td> 
+   <td><p> Contributor 이상 라이선스</p>
+   <p>Workfront Planning은 기존 Workfront 라이선스에 사용할 수 없습니다</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>   
+   <td> <p>Adobe Systems Workfront Planning에 대한 액세스 수준 컨트롤은 없습니다</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역 <span class="preview"> 및 레코드 종류</span> </a>에 대한 권한 이상 보기 </p>  
-   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> </td> 
+   <td role="rowheader"><p>개체 사용 권한</p></td> 
+   <td>   <p>작업 영역 및 레코드 종류에 대한 보기 이상의 권한</a> </p>  
+   <p>시스템 관리자는 자신이 생성하지 않은 작업 영역을 포함하여 모든 작업 공간에 대한 권한을 갖습니다</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 계획 영역이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
-   <div class="preview">
-<p> 미리보기 환경에서 Light 또는 기여자 라이선스가 있는 사용자에게 Planning이 포함된 레이아웃 템플릿을 할당해야 합니다.</p>
+<tr>
+   <td role="rowheader"><p>레이아웃 템플릿</p></td>
+   <td> Light 또는 Contributor 라이센스가 있는 사용자에게는 Planning이 포함된 레이아웃 템플릿 정보가 지정되어야 합니다.
+   <p>표준 사용자 및 시스템 관리자는 기본적으로 계획 영역을 사용하도록 설정되어 있습니다.</p></div></li></ul>
 
-<p>표준 사용자 및 시스템 관리자에게는 기본적으로 Planning이 활성화되어 있습니다.</p></div>
-
-<p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">레이아웃 템플릿 만들기 및 관리</a>를 참조하십시오.</p> </td> 
-  </tr> 
+</td>
+  </tr>
 </tbody> 
 </table>
 
-*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서[의 액세스 요구 사항을 참조하십시오](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
 
-## 레코드에 댓글을 달 때 고려 사항
+## 레코드에 주석 달기에 대한 고려 사항
 
-* 레코드의 댓글 섹션에서 Workfront Planning의 레코드에 댓글 및 응답을 추가할 수 있습니다.
+* Workfront Planning의 레코드에 있는 [Comments] 섹션에서 레코드에 댓글 및 회신을 추가할 수 있습니다.
 
-* 연결된 레코드에 추가된 댓글은 연결하려는 레코드에 표시되지 않습니다. 예를 들어 캠페인 레코드에 연결된 Workfront Planning 제품 레코드에 댓글을 다는 경우 해당 댓글은 Workfront Planning의 제품 레코드에만 표시되고 연결된 캠페인 레코드에는 표시되지 않습니다.
+* 연결된 레코드에 추가된 설명은 연결하려는 원본 레코드에는 표시되지 않습니다. 예를 들어, Campaign 레코드에 연결된 Workfront Planning 제품 레코드에 주석을 추가하는 경우 해당 주석은 Workfront Planning의 제품 레코드에만 표시되고 연결 중인 Campaign 레코드에는 표시되지 않습니다.
 
-* 레코드와 다른 응용 프로그램의 개체 간의 연결로 생성된 Workfront Planning 레코드에 주석을 추가할 수 있습니다.
+* 레코드와 다른 애플리케이션의 개체 간의 연결의 결과로 생성된 Workfront Planning 레코드에 댓글 추가할 수 있습니다.
 
-  예를 들어 Workfront 프로젝트를 Workfront Planning 레코드와 연결한 후 프로젝트 Workfront Planning 레코드에 주석을 달 수 있습니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
+  예를 들어, Workfront 프로젝트를 Workfront Planning 레코드와 연결한 후 Project Workfront Planning 레코드에 주석을 달 수 있습니다. 자세한 내용은 레코드[ 연결을 참조하세요](/help/quicksilver/planning/records/connect-records.md).
 
-* 다른 응용 프로그램의 연결된 객체에 추가된 주석은 Workfront Planning에서 표시되지 않으며 Workfront Planning의 연결된 객체에 추가된 주석은 다른 응용 프로그램에서 표시되지 않습니다.
+* 다른 응용 프로그램에서 연결된 개체에 추가된 설명은 Workfront Planning에 표시되지 않으며 Workfront Planning에서 연결된 개체에 추가된 댓글은 다른 응용 프로그램에 표시되지 않습니다.
 
-  예를 들어 Workfront의 프로젝트에 추가된 댓글은 Workfront Planning의 캠페인에 연결된 동일한 프로젝트에 표시되지 않으며, Workfront Planning 프로젝트에 추가된 댓글은 Workfront에 표시되지 않습니다.
+  예를 들어, Workfront의 프로젝트에 추가된 댓글은 Workfront Planning의 캠페인에 연결된 동일한 프로젝트에 표시되지 않으며, 프로젝트 Workfront Planning 레코드에 추가된 댓글은 Workfront에 표시되지 않습니다.
 
-* 사용자 또는 팀에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 개별적으로 태그가 지정된 사용자와 태그가 지정된 팀의 사용자는 모두 인앱 알림과 업데이트에 대한 이메일을 받습니다.
+* 사용자 또는 팀이 업데이트에 주의를 기울이도록 태그 지정할 수 있습니다. 개별적으로 태그가 지정된 사용자와 태그 지정됨 팀의 사용자 모두 인앱 알림 및 업데이트에 대한 이메일을 받습니다.
 
   >[!NOTE]
   >
-  >   Adobe 통합 경험과 함께 온보딩한 고객의 사용자만 인앱 알림과 이메일 알림을 모두 받습니다. 회사에서 Adobe 통합 환경을 사용하는지 확인하려면 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하세요.
+  >   Adobe Systems 통합 경험으로 온보딩한 고객의 사용자만 인앱 알림과 이메일 알림을 모두 받습니다. 회사에서 Adobe Systems Unified Experience를 사용하고 있는지 확인하려면 Adobe Systems Unified Experience for Workfront[를 참조하십시오](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * 레코드에 업데이트를 추가하고 Workfront Planning의 다음 영역에서 변경 내역을 검토할 수 있습니다.
 
    * 레코드 세부 정보 페이지에서.
-   * 보기에서 레코드 세부 정보 상자의
+   * 보기에서 레코드 세부 정보 상자에서.
 
 ### 레코드에 대한 댓글 관리
 
 {{step1-to-planning}}
 
-1. 작업 영역의 카드를 클릭합니다.
+1. 작업 영역 카드 클릭
 
-   작업공간이 열리고 기록 유형이 카드에 표시됩니다.
+   작업 영역 영역이 열리고 레코드 종류가 카드에 표시됩니다.
 
-1. 레코드 유형 카드를 클릭합니다.
-레코드 유형 페이지가 열리고 해당 유형의 모든 레코드가 표시됩니다.
+1. 레코드 종류 카드 클릭
+레코드 유형 페이지 가 열리고 해당 유형의 모든 레코드가 표시됩니다.
 
-1. **보기** 드롭다운 메뉴에서 표 보기를 선택하십시오.
-1. 테이블 보기에서 레코드 이름을 클릭합니다.
+1. [보기&#x200B;**] 드롭다운 메뉴에서 테이블 보기를**&#x200B;선택합니다.
+1. 테이블 뷰에서 레코드의 이름을 클릭합니다.
 
-   레코드의 **세부 정보** 페이지가 열립니다. 주석(Comments) 영역은 기본적으로 오른쪽 패널에 열립니다.
+   레코드의 **세부 정보** 페이지 페이지가 열립니다. [주석] 영역은 기본적으로 오른쪽 패널에서 열립니다.
 
-1. (조건부) 기본적으로 오른쪽 패널이 열리지 않으면 오른쪽 상단의 **댓글 표시** ![댓글 표시 아이콘](assets/show-comments-icon.png) 아이콘을 클릭하여 [댓글] 섹션을 엽니다.
+1. (조건부) 오른쪽 패널이 기본적으로 열리지 않으면 오른쪽 상단 모서리에 있는 주석&#x200B;****&#x200B;보기 보기 댓글 표시 아이콘![ 아이콘을 클릭하여 ](assets/show-comments-icon.png)주석 섹션을 엽니다.
 
-1. **새 댓글** 상자에 댓글을 입력하세요.
+1. 시작 새로 만들기 설명&#x200B;**상자에 설명을**&#x200B;입력합니다.
 
-   ![레코드의 주석 상자 비우기](assets/empty-comment-box-on-record.png)
-
-   >[!TIP]
-   >
-   >댓글을 입력하고 제출하기 전에 댓글 섹션에서 다른 곳으로 이동하면 로그오프한 후 다시 로그온한 후에도 페이지에서 댓글이 초안 모드로 유지됩니다. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
-
-1. (선택 사항) 변경을 실행 취소하거나 재실행하려면 다음 단축키를 사용합니다.
-   * 변경 내용을 실행 취소하려면 CTRL + Z(⌘+z, Mac)
-   * 변경 내용을 다시 실행하려면 CTRL+Y(⌘+Mac)
-1. (선택 사항 및 조건부) Workfront 인스턴스가 Adobe 통합 경험의 일부인 경우 **@**&#x200B;을(를) 추가한 다음 사용자 또는 팀 이름을 추가하여 업데이트에서 태그를 지정합니다. 자세한 내용은 이 문서의 [레코드 댓글에 대한 고려 사항](#considerations-about-commenting-on-a-record) 섹션을 참조하십시오.
-
-1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하거나 이모지 또는 업데이트 링크를 추가하여 콘텐츠를 강화할 수 있습니다.
+   ![레코드의 빈 주석 상자](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
-   >레코드 주석에 이미지를 추가할 수 없습니다.
+   >주석 입력을 마치고 제출하기 전에 주석 섹션에서 벗어나면 로그오프했다가 다시 로그온한 후 페이지 주석이 초안 모드로 균일 유지됩니다. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
+
+1. (선택 사항) 변경을 실행 취소하거나 재실행하려면 다음 바로 가기 키를 사용합니다.
+   * CTRL + Z(⌘Mac의 경우 +z)를 사용하여 변경 사항을 실행 취소합니다.
+   * CTRL + Y(⌘Mac의 경우 +y)를 눌러 변경 사항을 다시 실행합니다.
+1. (선택 사항 및 조건부) Workfront 인스턴스가 Adobe Systems Unified Experience의 일부인 경우 @**다음에 사용자 또는 팀 이름을 추가하여**&#x200B;업데이트에서 태그 지정합니다. 자세한 내용은 이 문서의 레코드[에 주석을 달 때 고려 사항 섹션을 ](#considerations-about-commenting-on-a-record)참조하세요.
+
+1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트를 포맷하거나, 이모티콘을 추가하거나, 업데이트에 대한 링크를 추가하여 컨텐츠 향상시킬 수 있습니다.
+
+   >[!TIP]
+   >
+   >레코드 댓글에는 이미지를 추가할 수 없습니다.
 
 
-1. 레코드에 주석을 계속 추가합니다.
+1. 레코드에 댓글 추가 계속.
 
-   Workfront Planning 레코드를 포함하여 개체를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
+   Workfront Planning 레코드를 포함한 객체 업데이트에 대한 자세한 내용은 작업[ 업데이트 섹션을 참조하세요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (선택 사항) 댓글의 오른쪽 상단에 있는 **자세히** 아이콘 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭하여 댓글을 삭제합니다.
-1. (선택 사항) **댓글 숨기기** 아이콘 ![댓글 숨기기 아이콘](assets/hide-comments-icon.png)을 클릭하여 오른쪽 패널을 닫습니다.
+1. (선택 사항) **댓글의 오른쪽 상단 모서리에 있는 자세히** 아이콘 ![더 메뉴를](assets/more-menu.png) 클릭한 다음 삭제를&#x200B;**클릭하여**&#x200B;댓글을 삭제합니다.
+1. (선택 사항) **[댓글** 숨기기] 아이콘 ![[댓글 숨기기] 아이콘을](assets/hide-comments-icon.png) 클릭하여 오른쪽 패널을 닫습니다.
 
 <!--
       >[!TIP]
@@ -209,8 +204,8 @@ ht-degree: 0%
 
     For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
 
-## 내역 섹션 개요
+## 기록 섹션 개요
 
 레코드의 오른쪽 패널에 있는 [작업 내역] 섹션에서 레코드에 대한 변경 사항을 검토할 수 있습니다.
 
-자세한 내용은 [기록 섹션 개요](/help/quicksilver/planning/records/history-section-overview.md)를 참조하십시오.
+자세한 내용은 기록 섹션 개요를[ 참조하세요](/help/quicksilver/planning/records/history-section-overview.md).

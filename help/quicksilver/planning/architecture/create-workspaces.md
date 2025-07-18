@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 2%
+source-wordcount: '602'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 2%
 
 # 작업 공간 만들기
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -50,7 +50,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
    <li><p> Adobe Workfront 계획<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Systems Workfront 플랜*</p></td> 
    <td> 
 <p>다음 Workfront 플랜 중 하나:</p> 
 <ul><li>선택</li> 
@@ -87,11 +87,6 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작성한 작업 공간에 대한 관리 권한을 받습니다. </p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 Planning이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
-<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 Planning을 활성화합니다.</span></p></td> 
-  </tr> 
 </tbody> 
 </table>
 
@@ -101,13 +96,13 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 ## 작업 영역 만들기
 
-작업공간을 만들고 여기에 레코드 유형을 추가하여 Workfront Planning에서 객체를 구성할 수 있습니다. 작업 영역 편집에 대한 자세한 내용은 [작업 영역 편집](/help/quicksilver/planning/architecture/edit-workspaces.md)을 참조하십시오.
+작업 영역 을 생성하고 여기에 레코드 유형을 추가하여 Workfront Planning에서 개체를 구성할 수 있습니다. 작업 영역 편집에 대한 자세한 내용은 작업 영역[ 편집을 참조하십시오](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 {{step1-to-planning}}
 
-1. **작업 영역 만들기** 클릭
+1. 작업 영역 만들기 클릭 ****
 
-   작업 공간 만들기 상자가 표시됩니다. 작업공간을 처음부터 만들거나 사용 가능한 템플릿 중 하나를 사용하여 만들 수 있습니다.
+   만들기 작업 영역 상자가 표시됩니다. 작업공간을 처음부터 만들거나 사용 가능한 템플릿 중 하나를 사용하여 만들 수 있습니다.
 
 1. (선택 사항 및 조건부) 미리 정의된 다음 작업 영역 템플릿 내에서 **미리 보기**&#x200B;를 클릭합니다.
 
@@ -129,12 +124,12 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
    또는
 
-   **뒤로**&#x200B;를 클릭한 다음 **새 작업 영역**&#x200B;을 클릭하여 작업 영역을 처음부터 만듭니다.
+   뒤로&#x200B;**를 클릭한**&#x200B;다음 새로 만들기 작업 영역&#x200B;**을 클릭하여**&#x200B;작업 영역을 처음부터 만듭니다.
 
-   다음 유형의 작업 공간에 대한 하나가 만들어집니다.
+   다음 유형의 작업 공간에 대한 작업 공간이 생성됩니다.
 
-   * 처음부터 작업 영역을 만들 때 레코드 형식을 수동으로 추가할 수 있는 빈 작업 영역(**제목 없는 Workspace**)입니다.
-   * 선택한 템플릿 이름을 따라 이름이 지정되고 샘플 레코드 유형으로 채워진 작업 영역입니다. 레코드 유형 및 작업 영역을 추가로 사용자 지정할 수 있습니다.
+   * 작업 영역을 처음부터 만들 때 레코드 종류를 수동으로 추가할 수 있는 제목 없는 작업 영역&#x200B;**이라는 빈 작업 영역**&#x200B;입니다.
+   * 선택한 템플릿의 이름을 딴 작업 영역으로, 샘플 레코드 종류로 채워집니다. 레코드 유형 및 작업 영역을 추가로 사용자 지정할 수 있습니다.
 
    Workfront 관리자의 경우 새 작업 영역이 내가 있는 **작업 영역** 탭에 표시됩니다.
 

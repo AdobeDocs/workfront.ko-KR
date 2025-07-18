@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '694'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 작업 영역 편집
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -33,8 +33,6 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 ## 액세스 요구 사항
 
 +++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -51,7 +49,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
    <li><p> Adobe Workfront 계획<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Systems Workfront 플랜*</p></td> 
    <td> 
 <p>다음 Workfront 플랜 중 하나:</p> 
 <ul><li>선택</li> 
@@ -88,11 +86,6 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>  <p>작업 공간에 대한 권한 관리 </p>   </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 Planning이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
-<p><span class="preview">미리보기 환경에서 표준 사용자 및 시스템 관리자는 기본적으로 Planning을 활성화합니다.</span></p> </td> 
-  </tr> 
 </tbody> 
 </table>
 
@@ -105,13 +98,13 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 {{step1-to-planning}}
 
-1. (조건부) Workfront 관리자인 경우 **내가 속한 작업 영역**&#x200B;을 클릭하여 만든 작업 영역에 액세스하거나 **다른 작업 영역**&#x200B;을 클릭하여 나와 공유된 작업 영역에 액세스합니다.
+1. (조건부) Workfront 관리자인 경우 Workspaces I&#39;m on(켜기)**을 클릭하여 자신이 만든 작업 공간에 액세스하거나** Other workspaces(기타 작업 영역)를&#x200B;**클릭하여**&#x200B;다른 사용자가 공유한 작업 공간에 액세스할 수 있습니다.
 
 <!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
 
-1. (선택 사항) 추가 작업 영역을 표시하려면 **모두 표시**&#x200B;를 클릭합니다. 작업 영역 카드가 두 개 이상 있는 경우에만 **모두 표시** 링크가 표시됩니다.
-1. (선택 사항) 화면에 표시되는 작업 영역의 수를 제한하려면 **간단히 표시**&#x200B;를 클릭합니다.
-1. 작업 영역을 편집하려면 다음 중 하나를 수행합니다.
+1. (선택 사항) 추가 작업 공간을 표시하려면 모두 보기(Show all **)를 클릭합니다**. **모두** 보기 링크는 작업 영역 카드 행이 두 개 이상인 경우에만 표시됩니다.
+1. (선택 사항) ClicK **보기 더 적게** 표시: 화면에 표시되는 작업 영역의 수를 제한합니다.
+1. 작업 영역 영역을 편집하려면 다음 중 하나를 수행합니다.
 
    * 작업 영역 카드 위로 마우스를 가져간 다음 카드의 오른쪽 상단에 있는 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다
 또는
@@ -132,13 +125,13 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 1. (선택 사항) 새 작업 공간 섹션을 추가하려면 다음 중 하나를 수행합니다.
 
-   * 작업 영역의 맨 아래에 있는 **섹션 추가**&#x200B;를 클릭합니다.
-   * 섹션 이름 위에 마우스를 올려 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **위에 섹션 추가** 또는 **아래에 섹션 추가**&#x200B;를 클릭합니다.
+   * 작업 영역 아래쪽에 있는 섹션&#x200B;**추가를 클릭합니다**.
+   * 섹션 이름 위로 마우스를 가져간 다음 더 보기&#x200B;**메뉴 더 보기 메뉴를** 클릭한 ![다음 위의](assets/more-menu.png) 섹션 추가 또는 **아래의** 섹션 추가를 클릭합니다&#x200B;****.
 
-1. (선택 사항) 섹션의 위치를 변경하려면 다음 중 하나를 수행합니다.
+1. (선택 사항) 단면의 위치를 변경하려면 다음 중 하나를 수행합니다.
 
-   * 구역 이름을 마우스로 가리키고 **grab** 아이콘 ![Grab 아이콘](assets/grab-icon.png)을 클릭한 다음 올바른 위치에 끌어다 놓습니다.
-   * 구역 이름을 마우스로 가리키고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **위로 이동** 또는 **아래로 이동**&#x200B;을 클릭합니다. 섹션은 작업 영역 내에서 위나 아래로 이동합니다.
+   * 섹션 이름 위로 마우스를 가져간 다음 잡기&#x200B;**아이콘**&#x200B;잡기 아이콘을![ 클릭한 ](assets/grab-icon.png)다음 올바른 위치로 끌어다 놓습니다.
+   * 섹션 이름 위로 마우스를 가져간 다음 자세히&#x200B;**메뉴 더 보기 메뉴를** 클릭한 ![다음 위로](assets/more-menu.png) 이동 또는 **아래로** 이동을 클릭합니다&#x200B;****. 섹션이 작업 영역 내에서 위 또는 아래로 이동합니다.
 
 1. (선택 사항) 작업 영역 섹션을 삭제하려면 다음을 수행합니다.
 

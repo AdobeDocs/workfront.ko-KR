@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1528'
 ht-degree: 1%
 
 ---
 
 # 연결된 레코드 유형 개요
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
 
 개별 레코드 유형을 연결하여 서로 관련되거나 다른 응용 프로그램의 오브젝트와 관련됨을 나타낼 수 있습니다.
 
@@ -29,19 +29,19 @@ ht-degree: 1%
 
 Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
-1. 먼저 다른 응용 프로그램에서 두 레코드 형식 또는 레코드 형식과 개체 형식 간에 연결을 설정해야 합니다. 레코드 종류를 연결하는 방법에 대한 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
-1. 두 번째, 두 레코드 유형이 연결된 후 한 유형의 개별 레코드와 다른 유형의 레코드를 연결할 수 있습니다. 레코드 연결에 대한 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하십시오.
+1. 먼저 다른 응용 프로그램에서 두 레코드 형식 또는 레코드 형식과 개체 형식 간에 연결을 설정해야 합니다. 레코드 종류를 연결하는 방법에 대한 자세한 내용은 레코드 종류[ 연결을 참조하십시오](/help/quicksilver/planning/architecture/connect-record-types.md).
+1. 둘째, 두 레코드 종류가 연결된 후 한 종류의 개별 레코드를 다른 종류의 레코드와 연결할 수 있습니다. 레코드 연결에 대한 자세한 내용은 레코드[ 연결을 참조하세요](/help/quicksilver/planning/records/connect-records.md).
 
-레코드 유형 연결에 대해 다음 사항을 고려하십시오.
+레코드 종류 연결에 대해 다음 사항을 고려합니다.
 
-* Adobe Workfront Planning에서 다음 엔티티를 연결할 수 있습니다.
+* Adobe Systems Workfront Planning에서 다음 엔티티를 연결할 수 있습니다.
 
-   * 두 가지 레코드 유형.
+   * 두 가지 레코드 종류.
 
      기본적으로 동일한 작업 영역에서 두 개의 레코드 유형을 연결할 수 있습니다. 다른 작업 영역의 레코드 유형과 연결할 레코드 유형을 설정할 수도 있습니다. 자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
-   * 다른 응용 프로그램의 레코드 형식과 개체 형식입니다.
+   * 다른 애플리케이션 레코드 형식 및 개체 형식
 
-* 다음 응용 프로그램에서 Workfront Planning 레코드 유형과 다음 객체 유형을 연결할 수 있습니다.
+* Workfront Planning 레코드 유형을 다음 애플리케이션의 다음 객체 유형과 연결할 수 있습니다.
 
    * Adobe Workfront:
 
@@ -64,19 +64,19 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
 * 연결된 레코드 유형에 대한 레코드를 만든 후 연결된 레코드 필드를 통해 서로 연결할 수 있습니다.  자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
 
-* 레코드 유형을 다른 레코드 유형이나 다른 응용 프로그램의 개체 유형과 연결한 후에는 다음과 같은 시나리오가 있습니다.
+* 레코드 종류를 다른 레코드 종류나 다른 애플리케이션 개체의 개체 종류와 연결하면 다음과 같은 시나리오가 발생합니다.
 
-   * **두 Planning 레코드 형식을 연결할 때**: 연결 중인 레코드 형식에 연결된 레코드 필드가 만들어집니다. 연결하는 레코드 종류에 유사한 연결된 레코드 필드가 만들어집니다.
+   * **두 개의 Planning 레코드 종류**&#x200B;를 연결하는 경우: 연결하려는 레코드 종류에 연결된 레코드 필드가 만들어집니다. 연결하려는 레코드 종류에 유사한 연결된 레코드 필드가 만들어집니다.
 
-     예를 들어 &quot;Campaign&quot; 레코드 유형을 &quot;Product&quot; 레코드 유형과 연결하는 경우 이름을 &quot;Linked Product&quot;로 지정한 연결된 레코드 필드(연결 필드)가 캠페인 레코드 유형에 만들어집니다. 제품 레코드 유형에 자동으로 &quot;캠페인&quot;이라는 연결된 레코드 유형이 만들어집니다.
+     예를 들어 &quot;Campaign&quot; 레코드 종류를 &quot;Product&quot; 레코드 종류와 연결하면 &quot;Linked Product&quot;라는 이름의 연결된 레코드 필드(연결 필드)가 Campaign 레코드 종류에 만들어집니다. 자동으로 &quot;Campaign&quot;이라는 이름의 연결된 레코드 종류가 제품 레코드 종류에 만들어집니다.
 
-   * **다른 응용 프로그램의 개체 형식과 레코드 형식을 연결하는 경우**:
+   * **레코드 종류를 다른 애플리케이션** 개체 종류와 연결하는 경우:
 
-      * 연결하는 레코드 종류에 연결된 레코드 필드가 만들어집니다. 연결된 레코드 필드는 다른 응용 프로그램의 개체 유형에 자동으로 만들어지지 않습니다.
+      * 연결하려는 레코드 종류에 연결된 레코드 필드가 만들어집니다. 연결된 레코드 필드는 다른 응용 프로그램의 개체 유형에 자동으로 만들어지지 않습니다.
       * Workfront 오브젝트에서 Planning 레코드 필드에 액세스할 수 없습니다.
-      * 계획 레코드는 Workfront 오브젝트의 계획 탭에서 볼 수 있습니다. 자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
-      * <span class="preview">Planning 연결 사용자 정의 필드를 만들어 Workfront 개체의 사용자 정의 양식에 첨부할 수 있습니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오. </span>
-      * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+      * 계획 레코드는 Workfront 개체의 계획 탭 에서 볼 수 있습니다. 자세한 내용은 Workfront 객체[에서 레코드 연결 관리를 참조하세요](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+      * 연결 계획 사용자 정의 필드를 생성하여 Workfront 객체의 사용자 정의 양식에 첨부할 수 있습니다. 자세한 내용은 [사용자 지정 양식](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 만들기 참조하십시오.
+      * 계획 레코드 필드는 Workfront 관리자가 Workfront와 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Experience Manager 자산에서 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
    * **연결된 레코드 또는 개체에서 조회 필드를 추가할 때**: 연결된 레코드 필드를 만들 수 있을 뿐만 아니라 연결된 레코드 또는 개체 형식의 필드에 연결할 수도 있습니다. 이 필드를 조회 필드라고 합니다. 연결하려는 레코드의 정보가 있는 연결된(또는 조회 필드) 필드는 연결하려는 레코드에 표시됩니다.
@@ -87,28 +87,28 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
      수식, 필터 또는 그룹화에서 다른 레코드 또는 개체 형식의 조회 필드를 참조할 수 있습니다.
 
-     예를 들어 &quot;캠페인&quot; 레코드 유형을 Workfront 프로젝트와 연결하고 프로젝트의 계획된 완료 일자 필드를 Workfront 계획 레코드로 가져오도록 선택하면 캠페인에 대해 연결된 필드(프로젝트의 계획된 완료 일자)가 자동으로 생성됩니다. 연결된 이 필드는 수동으로 편집할 수 없습니다. 계획된 완료 일자(프로젝트 시작) 필드에는 연결된 프로젝트의 계획된 완료 일자가 표시됩니다.
+     예를 들어 &quot;캠페인&quot; 레코드 유형을 Workfront 프로젝트와 연결하고 프로젝트의 계획된 완료 일자 필드를 Workfront 계획 레코드로 가져오도록 선택하면 캠페인에 대해 연결된 필드(프로젝트의 계획된 완료 일자)가 자동으로 생성됩니다. 이 링크된 필드는 수동으로 편집할 수 없습니다. 계획된 완료 날짜(프로젝트에서) 필드에는 링크된 프로젝트의 계획된 완료 날짜가 표시됩니다.
 
      >[!IMPORTANT]
      >
-     >작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 링크된 객체 유형의 응용 프로그램에서 자신의 권한 또는 액세스 수준이나 다른 작업 영역에서 본인의 권한에 관계없이 조회 필드에서 정보를 볼 수 있습니다.
+     >작업 영역에 대한 보기 이상의 사용 권한이 있는 모든 사용자는 연결된 개체 유형의 애플리케이션 또는 다른 작업 영역에서의 사용 권한에 관계없이 조회 필드의 정보를 볼 수 있습니다.
 
-     연결된 레코드 필드 앞에는 관계 아이콘 ![관계 필드 아이콘](assets/relationship-field-icon.png)이(가) 있습니다.
+     연결된 레코드 필드 앞에는 관계 아이콘 ![관계 필드 아이콘](assets/relationship-field-icon.png)이 있습니다.
 
-     연결된 필드 앞에는 필드 유형을 식별하는 아이콘이 표시됩니다. 예를 들어 연결된(또는 조회) 필드 앞에는 필드가 숫자, 단락 또는 날짜임을 나타내는 아이콘이 표시됩니다.
+     링크된 필드 앞에는 필드 유형을 식별하는 아이콘이 표시됩니다. 예를 들어 연결된(또는 조회된) 필드 앞에는 필드가 숫자, 단락 또는 날짜임을 나타내는 아이콘이 있습니다.
 
      >[!TIP]
      >
      >Workfront 개체의 날짜 필드 정보는 Workfront에 표시되는 방식에 관계없이 Workfront Planning에서 24시간 형식으로 표시됩니다.
      >
-     >예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3시로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15시로 표시됩니다.
+     >예를 들어 Workfront에서 프로젝트의 계획된 시작 날짜가 오후 3:00 시로 표시되는 경우 가져온 조회 필드의 Workfront Planning에서는 15:00 로 표시됩니다.
 
 
 ## 연결 유형
 
-두 레코드 유형 간에 또는 다른 응용 프로그램의 레코드와 개체 유형 간에 연결을 설정한 후 연결된 레코드 필드에 레코드를 추가할 수 있습니다.
+두 레코드 종류 사이 또는 레코드와 다른 애플리케이션 오브젝트 종류 사이에 연결을 설정한 후 연결된 레코드 필드에 레코드를 추가할 수 있습니다.
 
-연결된 레코드 필드에 추가할 수 있는 레코드 수에 따라 레코드 유형을 연결할 때 선택할 수 있는 연결 유형은 다음과 같습니다.
+연결된 레코드 필드에 추가할 수 있는 레코드 수에 따라 레코드 종류를 연결할 때 선택할 수 있는 연결 종류는 다음과 같습니다.
 
 * [다대다](#many-to-many-connection-type)
 * [일대다](#one-to-many-connection-type)
@@ -131,20 +131,20 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
 예를 들어 캠페인과 프로젝트 간에 다대다 연결을 만드는 경우 각 캠페인에 대해 여러 프로젝트를 선택하고 각 프로젝트에 대해 여러 캠페인을 선택할 수 있습니다.
 
-다대다 관계 유형의 실제 사례는 영화와 배우의 관계이다. 각 영화에는 여러 명의 배우가 출연할 수 있으며, 각 배우는 여러 영화에서 연기할 수 있다.
+다대다 관계 유형의 실제 사례는 영화와 배우의 관계이다. 각 영화에는 여러 배우가 있을 수 있으며 각 배우는 여러 영화에서 연기할 수 있습니다.
 
-이 연결 유형을 선택하면 저장한 후 연결 유형을 변경할 수 없습니다.
+이 연결 유형을 선택하면 저장 후 연결 유형을 변경할 수 없습니다.
 
 ### 일대다 연결 유형
 
 ![일대다 연결 선택기](assets/one-to-many-connection-picker.png)
 
 
-레코드 유형 간에 일대다 연결을 만들 때 현재 레코드 유형의 연결 필드에서 여러 레코드를 선택할 수 있지만 연결하는 레코드 유형의 해당 연결 필드에서는 하나의 레코드만 선택할 수 있습니다. 두 번째 레코드 유형에서 자동으로 생성된 연결된 레코드 필드는 다대일 관계 유형으로 자동 설정됩니다.
+레코드 종류 간에 일대다 연결을 만들 때 현재 레코드 종류의 연결 필드에서 여러 레코드를 선택할 수 있지만 연결하는 레코드 종류의 해당 연결 필드에서는 하나의 레코드만 선택할 수 있습니다. 두 번째 레코드 종류에 자동으로 생성되는 연결된 레코드 필드는 다대일 관계 유형으로 자동 설정됩니다.
 
 예를 들어 캠페인과 프로젝트 간에 일대다 연결을 만드는 경우 각 캠페인에 대해 여러 프로젝트를 선택할 수 있지만 각 프로젝트는 하나의 캠페인에만 연결할 수 있습니다.
 
-일대다 관계 유형의 실제 예는 라이브러리와 책 간의 관계입니다. 라이브러리에는 인벤토리에 많은 책이 있지만 특정 시간에 한 개의 특정 책만 한 라이브러리에 있을 수 있습니다.
+일대다 관계 유형의 실제 예는 도서관과 책 사이의 관계입니다 : 도서관에는 인벤토리에 많은 책이 있습니다. 그러나 하나의 특정 책은 특정 시점에 하나의 라이브러리에만 있을 수 있습니다.
 
 이 연결 유형을 선택하면 나중에 다대다 연결 유형으로만 변경할 수 있습니다.
 
@@ -153,7 +153,7 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 ![다대일 연결 선택기](assets/many-to-one-connection-picker.png)
 
 
-레코드 유형 간에 다대일 연결을 만들면 현재 레코드 유형의 각 레코드를 연결된 레코드 유형의 레코드와 연결할 수 있습니다. 두 번째 레코드 유형에서 자동으로 생성된 연결된 레코드 필드는 일대다 관계 유형으로 자동 설정됩니다.
+레코드 종류 간에 다대일 연결을 만들면 현재 레코드 종류의 각 레코드를 연결된 레코드 종류에서 하나의 레코드와만 연결할 수 있습니다. 두 번째 레코드 유형에서 자동으로 생성된 연결된 레코드 필드는 일대다 관계 유형으로 자동 설정됩니다.
 
 예를 들어, 캠페인을 프로젝트와 연결하고 이 연결 유형을 선택하는 경우 캠페인에 프로젝트를 하나만 추가할 수 있습니다. 그러나 하나의 프로젝트에 여러 캠페인을 추가할 수 있습니다.
 

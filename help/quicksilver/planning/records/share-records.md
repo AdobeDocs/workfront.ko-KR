@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # 레코드 공유
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -34,25 +34,19 @@ ht-degree: 1%
 
 * 레코드 유형의 표 보기에서 레코드를 볼 때 레코드의 페이지에 대한 링크를 복사합니다.
 
-* 작업 영역 <span class="preview">과(와) 레코드 종류를 공유하여 작업 영역의 모든 레코드를 다른 사용자와 공유할 수 있습니다.</span>
+* 작업 영역과 레코드 유형을 공유하여 작업 영역의 모든 레코드를 다른 사용자와 공유할 수 있습니다.
 
   자세한 내용은 다음 문서를 참조하십시오.
 
    * [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)
 
-  <div class="preview">
-
    * [레코드 유형 공유](/help/quicksilver/planning/access/share-record-types.md)
-
-  </div>
 
 이 문서에서는 레코드 유형의 표 보기에서 레코드 페이지에 링크를 복사하는 방법에 대해 설명합니다.
 
 ## 액세스 요구 사항
 
 +++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -104,20 +98,16 @@ ht-degree: 1%
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>  <p>공유할 작업 영역 <span class="preview"> 및 레코드 종류</span>에 대한 이상의 권한 보기   링크를 사용하는 레코드 </p>
-   <p>작업 영역의 레코드를 공유할 수 있는 <span class="preview"> 작업 영역 및 </span> 레코드 유형에 대한 권한을 관리합니다. </p>
+   <td>  <p>작업 영역에 대한 또는 그 이상의 권한을 보고 공유할 유형을 기록합니다.   링크를 사용하는 레코드 </p>
+   <p>작업 공간에 대한 권한 및 레코드 유형을 관리하여 작업 공간에서 레코드를 공유합니다. </p>
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>레이아웃 템플릿</p></td> 
-   <td> <p>프로덕션 환경에서는 시스템 관리자를 포함한 모든 사용자를 계획 영역이 포함된 레이아웃 템플릿에 할당해야 합니다.</p>
-   <div class="preview">
-<p> 미리보기 환경에서 Light 또는 기여자 라이선스가 있는 사용자에게 Planning이 포함된 레이아웃 템플릿을 할당해야 합니다.</p>
-
-<p>표준 사용자 및 시스템 관리자에게는 기본적으로 Planning이 활성화되어 있습니다.</p></div>
-
-<p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">레이아웃 템플릿 만들기 및 관리</a>를 참조하십시오.</p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>레이아웃 템플릿</p></td>
+   <td> 라이트 또는 기여자 라이선스가 있는 사용자에게 Planning이 포함된 레이아웃 템플릿을 할당해야 합니다.
+   <p>표준 사용자 및 시스템 관리자에게는 기본적으로 계획 영역이 활성화되어 있습니다.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,18 +150,15 @@ ht-degree: 1%
 
 다른 사용자와 작업 영역을 공유할 때 작업 영역의 모든 레코드를 공유할 수 있습니다.
 
+레코드 종류 및 레코드는 작업 영역에서 동일한 권한을 상속합니다.
+
 작업 영역에 대한 관리 권한이 있는 사용자만 다른 사용자와 공유할 수 있습니다.
 
 자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
 
-
-<div class="preview">
-
 ## 레코드 유형을 공유하여 레코드 유형의 모든 레코드 공유
 
-프로덕션 환경에서 레코드는 작업 영역에서 권한을 상속합니다.
-
-미리보기 환경에서 레코드는 레코드 유형에서 권한을 상속합니다.
+레코드는 레코드 유형에서 권한을 상속합니다.
 
 기본적으로 레코드 유형은 작업 영역에서 권한을 상속합니다.
 
@@ -184,4 +171,3 @@ ht-degree: 1%
 
 자세한 내용은 [레코드 종류 공유](/help/quicksilver/planning/access/share-record-types.md)를 참조하세요.
 
-</div>

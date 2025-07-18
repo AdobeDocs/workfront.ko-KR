@@ -1,20 +1,20 @@
 ---
 title: 필드 만들기
-description: Adobe Workfront Planning에서 각 레코드 유형에 대한 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 Workfront Planning 레코드와 연결할 수 있습니다.
+description: Adobe Systems Workfront Planning에서는 각 종류의 레코드 종류에 대한 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 Workfront Planning 레코드와 연결할 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '4607'
+source-wordcount: '5201'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ko ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,31 +22,31 @@ ht-degree: 1%
 
 # 필드 만들기
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지 상의 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객이 미리 보기 환경에서만 사용할 수 있습니다. 프로덕션에 대한 월별 릴리스 후에는 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 조직에[ 대한 빠른 릴리스 활성화 또는 비활성화를 참조하세요](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning에서 레코드 유형에 대한 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 Workfront Planning 레코드와 연결하여 레코드 정보를 개선할 수 있습니다.
+Adobe Systems Workfront Planning에서 레코드 종류에 대한 사용자 지정 필드를 만들 수 있습니다. 그런 다음 필드를 Workfront Planning 레코드와 연결하여 레코드 정보를 향상시킬 수 있습니다.
 
-레코드 유형과 연결할 필드를 만들려면 먼저 레코드 유형을 만들어야 합니다. 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+연결할 필드를 만들려면 먼저 레코드 종류를 만들어야 합니다. 자세한 내용은 레코드 종류[ 만들기 섹션을 참조하세요](/help/quicksilver/planning/architecture/create-record-types.md).
 
-Workfront Planning에서 다음과 같은 방법으로 필드를 생성할 수 있습니다.
+Workfront Planning에서 다음과 같은 방법으로 필드를 만들 수 있습니다.
 
 * 처음부터
-* 레코드 유형 연결
-* 레코드 유형 만들기
-* 템플릿으로 작업 공간 만들기
+* 레코드 종류 연결
+* 레코드 종류 만들기
+* 템플릿에서 작업 영역 만들기
 * Excel 또는 CSV 파일을 사용하여 레코드 유형 가져오기
-* 기존 Workfront 필드의 사본 가져오기
+* 기존 Workfront 필드의 복사본 가져오기
 
-Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/quicksilver/planning/fields/fields-overview.md)를 참조하십시오.
+Workfront Planning 필드에 대한 자세한 내용은 필드 개요를[ 참조하십시오](/help/quicksilver/planning/fields/fields-overview.md).
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 액세스 요구 사항을 보려면 확장합니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -83,12 +83,12 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
 <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
+<p>자세한 내용은 Adobe Systems Unified Experience for Workfront<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">를 참조하십시오</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
+   <td role="rowheader"><p>Adobe Systems Workfront 라이선스*</p></td> 
    <td><p> 표준 </p>
    <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
   </td> 
@@ -106,7 +106,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 </tbody> 
 </table>
 
-*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서[의 액세스 요구 사항을 참조하십시오](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -118,13 +118,13 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 {{step1-to-planning}}
 
-1. 필드를 만들 레코드가 있는 작업 영역을 클릭합니다.
+1. 필드를 만들 레코드가 있는 작업 영역 클릭
 
-   작업공간이 열리고 레코드 유형이 표시됩니다.
+   작업 영역 영역이 열리고 레코드 종류가 표시됩니다.
 
-1. 기록 유형의 카드를 클릭합니다.
+1. 레코드 종류의 카드 클릭
 
-   레코드 유형과 연관된 모든 기존 레코드는 테이블 뷰의 행에 표시됩니다.
+   레코드 종류와 연관된 모든 기존 레코드가 테이블 뷰의 행에 표시됩니다.
 
    >[!TIP]
    >
@@ -140,14 +140,14 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
    또는
 
-   열 머리글 위로 마우스를 가져간 후 필드 이름 뒤에 있는 아래쪽 화살표를 클릭한 다음 **왼쪽 삽입** 또는 **오른쪽 삽입**&#x200B;을 클릭하여 새 필드를 추가합니다.
-1. **새 필드** 탭에서 **필드 형식** 상자에서 필드 형식을 검색하거나 다음 필드 형식 중에서 선택하십시오.
+   열의 머리글 위에 마우스를 올려 놓고 필드 이름 뒤에 있는 아래쪽 화살표를 클릭한 다음 왼쪽&#x200B;**에 삽입 또는**&#x200B;오른쪽&#x200B;**에 삽입을 클릭하여**&#x200B;새 필드를 추가합니다.
+1. **새로 만들기 필드** 탭의 필드 유형&#x200B;**상자에서 필드 유형을**&#x200B;검색하거나 다음 필드 유형 중에서 선택합니다.
 
-   **새 필드** 탭에서 관련 키워드를 사용하여 **필드 형식** 상자에서 필드 형식을 검색하거나 아래에 나열된 필드 형식 중에서 선택하십시오.
+   **새로 만들기 필드** 탭에서 관련 키워드 사용하여 필드 유형&#x200B;**상자에서 필드 유형을**&#x200B;검색하거나 아래 나열된 필드 유형 중에서 선택합니다.
 
    >[!TIP]
    >
-   >    &quot;Budget&quot;을 입력하면 숫자 및 통화의 필드 유형이 간단한 목록으로 표시됩니다.
+   >    &quot;예산&quot;을 입력하면 숫자 및 통화의 필드 유형이 짧은 목록에 표시됩니다.
 
 
 
@@ -156,7 +156,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    * [다중 선택](#multi-select)
    * [단일 선택](#single-select)
    * [일자](#date)
-   * [숫자](#number)
+   * [수](#number)
    * [백분율](#percentage)
    * [통화](#currency)
    * [확인란](#checkbox)
@@ -165,7 +165,9 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    * [제작자](#created-by)
    * [제작 일자](#created-date)
    * [마지막 수정자](#last-modified-by)
-   * [마지막으로 수정한 날짜](#last-modified-date)
+   * [마지막 수정일](#last-modified-date)
+   * <span class="preview">[승인 날짜](#approved-date)</span>
+   * <span class="preview">[승인자](#approved-by)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -175,13 +177,13 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
     * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
-1. 아래 섹션에 설명된 대로 각 필드를 계속 추가합니다.
+1. 아래 섹션에 설명된 대로 각 필드를 추가하여 계속.
 
 ### 한 줄 텍스트 {#single-line-text}
 
-한 줄 텍스트 필드는 제한된 영숫자 정보를 캡처합니다. 예를 들어 소유자, 관련자, 팀 또는 조직 단위 정보를 한 줄 텍스트 필드에 캡처할 수 있습니다. 한 줄 텍스트 필드의 내용은 최대 1,000자까지 사용할 수 있습니다. <!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
+단일 행 텍스트 필드는 제한된 영숫자 정보를 캡처합니다. 예를 들어 소유자, 관련자, 팀 또는 조직 구성 단위 정보를 한 줄 텍스트 필드로 캡처할 수 있습니다. 한 줄 텍스트 필드의 컨텐츠 길이는 최대 1,000자입니다. <!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
 
-1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **한 줄 텍스트** 필드 형식을 선택합니다.
+1. 시작 이 문서의 필드를 처음부터 만들기 섹션에 [설명된 대로 필드를 만든 다음, 한 줄 텍스트](#create-fields-from-scratch) 필드 유형을 선택합니다&#x200B;**.**
 
    ![한 줄 텍스트 필드 형식](assets/single-line-text-field-type.png)
 
@@ -206,13 +208,13 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 >
 
 
-1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **단락** 필드 형식을 선택합니다.
+1. 이 문서의 필드를 처음부터 만들기 섹션에 [설명된 대로 필드 만들기를 시작 한 다음, 단락](#create-fields-from-scratch) 필드 유형을 선택합니다&#x200B;**.**
 
-   ![단락 필드 형식](assets/paragraph-field-type.png)
+   ![단락 필드 유형](assets/paragraph-field-type.png)
 
 
-1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블이나 레코드의 세부 정보 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+1. 새로 만들기 필드&#x200B;**탭에**&#x200B;다음 정보를 추가합니다.
+   * **이름**: 테이블 또는 레코드의 세부 정보 페이지 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
 1. Click **Create**.
 
@@ -221,61 +223,61 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 ### 다중 선택 {#multi-select}
 
-다중 선택 필드를 사용하여 드롭다운 메뉴에서 두 개 이상의 옵션을 선택하여 모든 형식의 추가 정보를 캡처할 수 있습니다.
+다중 선택 필드를 사용하면 드롭다운 메뉴에서 두 개 이상의 옵션을 선택하여 모든 포맷 형식의 추가 정보를 캡처할 수 있습니다.
 
-1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **다중 선택** 필드 형식을 선택합니다.
+1. 이 문서의 처음부터[ 필드 만들기 섹션에 ](#create-fields-from-scratch)설명된 대로 필드 만들기를 시작 한 다음, 다중 선택&#x200B;**필드 유형을 선택합니다**.
 
    ![다중 선택 필드 형식](assets/multi-select-field-type.png)
 
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
    * **이름**: 테이블이나 레코드의 세부 정보 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
+   * **설명**: 필드에 대한 추가 정보입니다. 필드에 대한 설명은 테이블에서 필드의 열 위로 마우스를 가져가거나 레코드의 세부 정보 페이지 에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 표시됩니다.
    * **선택 항목**: 이 필드를 업데이트할 때 사용자가 선택할 수 있는 옵션입니다. 각 선택 항목의 이름에 숫자와 문자를 모두 사용할 수 있습니다.
 1. 선택 항목을 추가하려면 **선택 항목 추가**&#x200B;를 클릭하십시오. 다중 선택 필드에 추가할 수 있는 선택 항목 수에는 제한이 없습니다.
 1. (선택 사항) 원하는 순서로 각 선택 사항을 수동으로 끌어다 놓거나
    선택 항목을 알파벳순으로 자동으로 나열하려면 선택 항목 정렬 A-Z **옵션을 선택합니다.**<!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (선택 사항) 선택 사항을 제거하려면 그 오른쪽에 있는 **x** 아이콘을 클릭합니다.
-1. 선택 항목의 왼쪽에 있는 색상 견본을 클릭하여 색상 선택기를 확장하고 각 옵션의 색상을 사용자 지정합니다.
+1. 선택 항목 왼쪽에 있는 색상 견본을 클릭하여 색상 선택기를 확장하고 각 옵션의 색상을 사용자 지정합니다.
 
-1. 미리 정의된 색을 선택하려면 **색상 견본**&#x200B;을 클릭하세요.
+1. [색상 견본&#x200B;**]을 클릭하여**&#x200B;미리 정의된 색상을 선택합니다
 
    또는
 
-   색 선택기나 16진수 코드를 사용하여 사용자 지정 색을 선택하려면 **사용자 지정**&#x200B;을 클릭하세요.
-1. 색상 상자 외부를 클릭하여 닫습니다.
+   [사용자 지정&#x200B;**]을 클릭하여**&#x200B;색상 피커 또는 16진수 코드를 사용하여 사용자 지정 색상을 선택합니다.
+1. 색상 상자 바깥쪽을 클릭하여 닫습니다.
 1. Click **Create**.
 
-   새 다중 선택 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
+   새로운 다중 선택 필드가 레코드 종류에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
 ### 단일 선택 {#single-select}
 
-필드를 한 번 선택하면 드롭다운 메뉴에서 옵션 하나를 선택하여 원하는 형식으로 추가 정보를 캡처할 수 있습니다.
+단일 선택 필드는 드롭다운 메뉴에서 하나의 옵션을 선택하여 모든 포맷 형식의 추가 정보를 캡처합니다.
 
-1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **Single-select** 필드 형식을 선택합니다.
+1. 이 문서의 처음부터[ 필드 만들기 섹션에 ](#create-fields-from-scratch)설명된 대로 필드 만들기를 시작 한 다음, 단일 선택&#x200B;**필드 유형을 선택합니다**.
 
-   ![단일 선택 필드 형식](assets/single-select-field-type.png)
+   ![단일 선택 필드 유형](assets/single-select-field-type.png)
 
 
-1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블이나 레코드의 세부 정보 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
-   * **선택 항목**: 필드가 저장된 후 드롭다운 메뉴에서 선택할 수 있는 옵션입니다. 각 선택 항목의 이름에 숫자와 문자를 모두 사용할 수 있습니다.
+1. 새로 만들기 필드&#x200B;**탭에**&#x200B;다음 정보를 추가합니다.
+   * **이름**: 테이블 또는 레코드의 세부 정보 페이지 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **설명**: 필드에 대한 추가 정보입니다. 필드에 대한 설명은 테이블에서 필드의 열 위로 마우스를 가져가거나 레코드의 세부 정보 페이지 에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 표시됩니다.
+   * **선택** 사항: 필드가 저장된 후 드롭다운 메뉴에서 선택할 수 있는 옵션입니다. 각 선택 항목의 이름에 숫자와 문자를 모두 사용할 수 있습니다.
 
-1. 선택 항목을 추가하려면 **선택 항목 추가**&#x200B;를 클릭하십시오. 단일 선택 필드에 추가할 수 있는 선택 항목 수에는 제한이 없습니다.
-1. (선택 사항) 각 선택 사항을 원하는 순서로 수동으로 끌어다 놓거나, 선택 사항을 알파벳 순서로 자동으로 나열하려면 **선택 사항 정렬 A-Z** 옵션을 선택합니다. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. (선택 사항) 선택 사항을 제거하려면 그 오른쪽에 있는 **x** 아이콘을 클릭합니다.
+1. 선택&#x200B;**항목 추가를 클릭하여**&#x200B;선택 항목을 더 추가합니다. 단일 선택 필드에 추가할 수 있는 선택 항목 수에는 제한이 없습니다.
+1. (선택 사항) 각 선택 항목을 원하는 순서로 수동으로 끌어다 놓거나, 선택 항목이 알파벳 순서로 자동 나열되도록 하려면 선택 항목 A-Z **정렬 옵션을 선택합니다**.<!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. (선택 사항) 선택 항목을 제거하려면 오른쪽에 **있는 x** 아이콘을 클릭합니다.
 1. 선택 항목의 왼쪽에 있는 색상 견본을 클릭하여 색상 선택기를 확장하고 각 옵션의 색상을 사용자 지정합니다.
 1. 미리 정의된 색을 선택하려면 **색상 견본**&#x200B;을 클릭하세요.
 
    또는
 
-   색 선택기나 16진수 코드를 사용하여 사용자 지정 색을 선택하려면 **사용자 지정**&#x200B;을 클릭하세요.
+   [사용자 지정&#x200B;**]을 클릭하여**&#x200B;색상 피커 또는 16진수 코드를 사용하여 사용자 지정 색상을 선택합니다.
 
-1. 색상 상자 외부를 클릭하여 닫습니다.
+1. 색상 상자 바깥쪽을 클릭하여 닫습니다.
 1. Click **Create**.
 
-   새 단일 선택 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
+   새 단일 선택 필드가 레코드 종류에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
 ### 일자 {#date}
 
@@ -289,24 +291,24 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
    * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
-   * **날짜 형식**: 이 필드에 표시할 날짜 형식의 형식입니다. <!--update this casing - submitted bug for it-->
+   * **날짜 형식**: 이 필드에 표시할 날짜 포맷 유형입니다. <!--update this casing - submitted bug for it-->
 
      다음 형식 중에서 선택합니다.
       * **로케일**: 브라우저의 로케일과 일치합니다.
       * **표준**: 2023년 5월 16일
       * **길이**: 2023년 5월 16일
-      * **유럽어**: 2023/16/05
-      * **ISO**: 2023-05-16
-      * **시간 포함**: 타임스탬프를 포함하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다. 필드를 보호한 후 시간을 포함할 수 없습니다.
+      * **유럽**: 16/05/2023
+      * **ISO**: 2023-05-16년
+      * **시간** 포함: 타임스탬프를 포함하려면 이 옵션을 선택합니다. 이 옵션은 기본적으로 선택되어 있지 않습니다. 필드를 보호한 후의 시간은 포함할 수 없습니다.
 
      다음 옵션 중에서 선택합니다.
 
       * **24시간**: 예: 18:00
-      * **12시간**: 예: 오후 6:00
+      * **12시간**: 예: 오후 6:00 시
 
 1. Click **Create**.
 
-   새 날짜 필드는 레코드 유형에 열로 추가되고 해당 값은 레코드와 연결될 수 있습니다.
+   새 날짜 필드가 레코드 종류에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
 ### 숫자 {#number}
 
@@ -317,77 +319,77 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 >숫자 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 숫자로 표시됩니다.
->&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>>자세한 내용은 Adobe Systems Workfront Planning[의 요청 양식 만들기 및 관리를 참조하십시오](/help/quicksilver/planning/requests/create-request-form.md).
 
 
-1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **숫자** 필드 형식을 선택합니다.
+1. 이 문서의 처음부터[ 필드 만들기 섹션에 ](#create-fields-from-scratch)설명된 대로 필드 만들기를 시작 한 다음, 숫자&#x200B;**필드 유형을 선택합니다**.
 
-   ![숫자 필드 형식](assets/number-field-type.png)
+   ![숫자 필드 유형](assets/number-field-type.png)
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
 
    * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다.
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
    * **전체 자릿수**: 필드에 기록할 소수 자릿수입니다. 최대 6개의 소수 자리를 표시할 수 있습니다.
-   * **음수 허용**: 이 필드에 음수를 허용하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다.
+   * **음수** 허용: 이 필드에 음수를 허용하려면 이 옵션을 선택합니다. 이 옵션은 기본적으로 선택되어 있지 않습니다.
 
    >[!NOTE]
    >
-   >    음수 허용을 선택하고 음수 값이 필드가 첨부된 레코드에 저장되는 경우 향후 설정을 더 이상 선택 해제할 수 없습니다.
+   >    음수 허용을 선택하고 음수 값이 필드가 첨부된 레코드에 저장되면 나중에 더 이상 설정을 선택 취소할 수 없습니다.
 
 1. Click **Create**.
 
-   새 숫자 필드는 레코드 종류에 열로 추가되며 해당 값을 레코드와 연결할 수 있습니다.
+   새 숫자 필드가 레코드 종류에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
 ### 백분율 {#percentage}
 
-백분율 필드 유형은 숫자 형식 다음에 백분율 기호가 있는 정보를 캡처합니다.
+백분율 필드 유형은 숫자 포맷 뒤에 백분율 기호가 오는 정보를 캡처합니다.
 
 >[!TIP]
 >
->백분율 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
+>백분율 필드는 요청 양식 빌더에서 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
->그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 백분율로 표시됩니다.
->&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>그러나 필드 포맷은 유지되며 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에 백분율로 표시됩니다.
+>>자세한 내용은 Adobe Systems Workfront Planning[의 요청 양식 만들기 및 관리를 참조하십시오](/help/quicksilver/planning/requests/create-request-form.md).
 
 
-1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **백분율** 필드 형식을 선택합니다.
+1. 이 문서의 처음부터[ 필드 만들기 섹션에 ](#create-fields-from-scratch)설명된 대로 필드 만들기를 시작 한 다음, 백분율&#x200B;**필드 유형을 선택합니다**.
 
-   ![백분율 필드 형식](assets/percentage-field-type.png)
+   ![백분율 필드 유형](assets/percentage-field-type.png)
 
-1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다.
-   * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
-   * **전체 자릿수**: 필드에 기록할 소수 자릿수입니다. 최대 6개의 소수 자리를 표시할 수 있습니다.
-   * **음수 허용**: 이 필드에 음수 백분율 값을 허용하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다.
+1. 새로 만들기 필드&#x200B;**탭에**&#x200B;다음 정보를 추가합니다.
+   * **이름**: 테이블 또는 레코드 페이지 또는 레코드 페이지에 표시되는 필드의 이름입니다.
+   * **설명**: 필드에 대한 추가 정보입니다. 필드에 대한 설명은 테이블에서 필드의 열 위로 마우스를 가져가거나 레코드의 세부 정보 페이지 에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 표시됩니다.
+   * **정밀도**: 필드에 기록할 소수 자릿수입니다. 소수점 이하 최대 6자리까지 표시할 수 있습니다.
+   * **음수** 허용: 이 필드에 음수 백분율 값을 허용하려면 이 옵션을 선택합니다. 이 옵션은 기본적으로 선택되어 있지 않습니다.
 
      >[!NOTE]
      >
-     >음수 허용을 선택하고 음수 값이 필드가 첨부된 레코드에 저장되는 경우 향후 설정을 더 이상 선택 해제할 수 없습니다.
+     >음수 허용을 선택하고 음수 값이 필드가 첨부된 레코드에 저장되면 나중에 더 이상 설정을 선택 취소할 수 없습니다.
 
    * **다음으로 표시**: 드롭다운 메뉴에서 백분율 값을 테이블 보기에 표시할 방법을 선택합니다. 다음 옵션 중에서 선택합니다.
       * **숫자**: 백분율 값이 숫자와 백분율 기호로 표시됩니다.
-      * **막대**: 백분율 값이 백분율 숫자 옆에 막대로 표시됩니다. 막대의 채우기 색상은 백분율 값을 나타냅니다. 이것이 기본 선택입니다.
-      * **원**: 백분율 값이 백분율 숫자 옆에 원의 윤곽선으로 표시됩니다. 원 윤곽선의 채우기 색상은 백분율 값을 나타냅니다.
+      * **막대**: 백분율 값이 백분율 숫자 옆에 막대로 표시됩니다. 막대의 채우기 색상은 백분율 값을 나타냅니다. 기본 선택 사항입니다.
+      * **원**: 백분율 값은 백분율 숫자 옆에 원의 윤곽선으로 표시됩니다. 원 윤곽선의 채우기 색상은 백분율 값을 나타냅니다.
 
    >[!NOTE]
    >
-   >* 다음으로 표시 필드에서 선택한 사항은 테이블 뷰에 표시되는 백분율 값에만 적용됩니다. 필드의 퍼센트 값은 숫자로 표시되고 그 뒤에 Workfront Planning의 다른 모든 곳에서 퍼센트 기호가 표시됩니다. 이는 다른 레코드의 테이블 보기에서 조회 필드로 표시되는 경우 백분율 유형 필드에도 적용됩니다.
-   >* 나중에 필드를 편집할 때 선택 항목으로 표시를 변경할 수 있습니다.
+   >* [다음으로 보기] 필드에서 선택한 내용은 테이블 보기에 표시되는 백분율 값에만 적용됩니다. 필드의 백분율 값은 Workfront Planning의 다른 모든 곳에서 숫자 뒤에 백분율 기호로 표시됩니다. 이는 percentage-type 필드가 다른 레코드의 테이블 뷰에서 조회 필드로 표시될 때에도 적용됩니다.
+   >* 나중에 필드를 편집할 때 선택으로 보기 설정을 변경할 수 있습니다.
 
 1. Click **Create**.
 
-   새 백분율 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
+   새 백분율 필드가 레코드 종류에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
 ### 통화 {#currency}
 
-통화 필드 유형은 앞에 통화 기호가 있는 숫자 형식으로 정보를 캡처합니다.
+통화 필드 유형은 통화 기호가 앞에 오는 숫자 포맷 형식으로 정보를 캡처합니다.
 
 >[!TIP]
 >
->통화 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
+>통화 필드는 요청 양식 빌더에서 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
->그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 통화로 표시됩니다.
->&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>그러나 필드 포맷은 유지되며 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에 통화로 표시됩니다.
+>>자세한 내용은 Adobe Systems Workfront Planning[의 요청 양식 만들기 및 관리를 참조하십시오](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **통화** 필드 형식을 선택합니다.
 
@@ -395,18 +397,18 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
    * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
-   * **통화**: 이 필드에 표시할 통화 유형입니다. ISO(International Organization of Standardization)에 따른 통화 목록입니다.
-   * **전체 자릿수**: 필드에 기록할 소수 자릿수입니다. 최대 6개의 소수를 표시할 수 있습니다.
-   * **음수 허용**: 이 필드에 음수 통화 값을 허용하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다.
+   * **설명**: 필드에 대한 추가 정보입니다. 필드에 대한 설명은 테이블에서 필드의 열 위로 마우스를 가져가거나 레코드의 세부 정보 페이지 에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 표시됩니다.
+   * **통화**: 이 필드에 표시할 통화 유형입니다. 이것은 ISO(International Organizaton of Standardization)에 따른 통화 목록입니다.
+   * **정밀도**: 필드에 기록할 소수 자릿수입니다. 소수점 이하 최대 6자리까지 표시할 수 있습니다.
+   * **음수** 허용: 이 필드에 음수 통화 값을 허용하려면 이 옵션을 선택합니다. 이 옵션은 기본적으로 선택되어 있지 않습니다.
 
    >[!NOTE]
    >
-   >    음수 허용을 선택하고 음수 값이 필드가 첨부된 레코드에 저장되는 경우 향후 설정을 더 이상 선택 해제할 수 없습니다.
+   >    음수 허용을 선택하고 음수 값이 필드가 첨부된 레코드에 저장되면 나중에 더 이상 설정을 선택 취소할 수 없습니다.
 
 1. Click **Create**.
 
-   새 통화 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
+   새 통화 필드가 레코드 종류에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
 ### 확인란
 
@@ -417,7 +419,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    ![확인란 필드 유형](assets/checkbox-field-type.png)
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **이름**: 테이블 또는 레코드 페이지 또는 레코드 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
 1. Click **Create**.
 
@@ -427,45 +429,45 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 공식 필드는 레코드 유형의 다른 필드에 있는 기존 값과 기존 값을 계산하는 방법을 나타내는 함수를 사용하여 새 값을 생성합니다.
 
-자세한 내용은 [수식 필드 개요](/help/quicksilver/planning/fields/formula-fields.md)를 참조하세요.
+자세한 내용은 수식 필드 개요를[ 참조하십시오](/help/quicksilver/planning/fields/formula-fields.md).
 
-1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **수식** 필드 형식을 선택합니다.
+1. 이 문서의 필드를 처음부터 만들기 섹션에 [설명된 대로 필드 만들기를 시작 한 다음, 수식](#create-fields-from-scratch) 필드 유형을 선택합니다&#x200B;**.**
 
-   ![식 목록이 있는 새 수식 필드](assets/new-formula-field-with-list-of-expressions.png)
+   ![표현식 목록이 있는 새로 만들기 수식 필드](assets/new-formula-field-with-list-of-expressions.png)
 
-1. **새 필드** 탭에 다음 정보를 추가하십시오.
+1. 새로 만들기 필드&#x200B;**탭에**&#x200B;다음 정보를 추가합니다.
 
-   * **이름**: 새 필드의 이름을 입력하십시오.
-   * **설명**: 새 필드에 대한 정보를 추가합니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
-   * **수식**: 식에 액세스하기 위해 문자를 하나 이상 입력한 다음 목록에 표시되면 선택합니다.
+   * **이름**: 새 필드의 이름을 입력합니다.
+   * **설명**: 새 필드에 대한 정보를 추가합니다. 필드에 대한 설명은 테이블에서 필드의 열 위로 마우스를 가져가거나 레코드의 세부 정보 페이지 에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 표시됩니다.
+   * **공식**: 표현식에 접근하기 위해 최소 하나의 문자를 시작 입력한 다음, 목록에 표시될 때 선택하십시오.
 
-1. 선택한 표현식을 클릭하여 정의를 표시하고 형식을 확인합니다.
+1. 선택한 표현식을 클릭하여 정의를 표시하고 형식을 봅니다.
 
-   ![수식 설명](assets/description-of-formula-expression.png)
+   ![수식 표현식 설명](assets/description-of-formula-expression.png)
 
-   지원되는 식에 대한 자세한 내용은 [수식 필드 개요](/help/quicksilver/planning/fields/formula-fields.md)를 참조하세요.
+   지원되는 표현식에 대한 자세한 내용은 수식 필드 개요를[ 참조하십시오](/help/quicksilver/planning/fields/formula-fields.md).
 
 
    >[!TIP]
    >
-   >수식 필드를 편집하거나 만들 때 자체 또는 공유 필드에 순환 참조를 발생시킬 수 있는 경고 메시지가 표시됩니다. 자체 또는 해당 계산에서 참조되는 항목을 참조하는 공식 필드는 저장할 수 없습니다.
+   >수식 필드를 편집하거나 만들 때 자신 또는 공유 필드에 대한 순환 참조를 발생시킬 수 있는 경고 메시지가 표시됩니다. 자신을 참조하거나 계산에서 참조되는 항목을 참조하는 수식 필드는 저장할 수 없습니다.
 
 
-1. 필드 이름이 수식에서 참조되도록 Workfront Planning에 표시되는 대로 필드 이름을 추가합니다.
+1. Workfront Planning에 표시되는 필드 이름을 추가하여 수식에서 참조할 수 있습니다.
 
    >[!NOTE]
    >
    >* 수식에 다중 선택 유형 필드를 추가할 수 없습니다.
    >
    >
-   >* Workfront Planning에서 볼 수 있듯이 수식에 포함하는 필드의 철자를 입력해야 합니다. Workfront 텍스트 모드 구문 및 와일드카드는 Workfront Planning 공식에서 지원되지 않습니다.
+   >* 수식에 포함하는 필드 이름은 Workfront Planning에 표시되는 대로 철자를 입력해야 합니다. Workfront 텍스트 모드 구문 및 와일드카드는 Workfront Planning 공식에서 지원되지 않습니다.
    >
-   >* 현재 레코드 유형에서 최대 4개의 필드(및 개체)가 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형(1)에 대한 공식 필드를 생성하고 활동이 Workfront 프로젝트(3)에 연결된 캠페인 레코드 유형(2)에 연결된 경우, 활동 레코드 유형에 대해 생성 중인 공식에서 프로젝트의 예산 필드(4)를 참조할 수 있습니다.
+   >* 현재 레코드 종류에서 최대 4개의 필드(및 개체) 떨어져 있는 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 종류(1)에 대한 수식 필드를 만들고 활동이 Workfront 프로젝트(3)에 연결된 Campaign 레코드 종류(2)에 연결되어 있는 경우, 활동 레코드 종류에 대해 만드는 수식에서 프로젝트의 예산 필드(4)를 참조할 수 있습니다.
    >
-   >![공식 예제 프로젝트 예산 4개 필드 제거됨 ](assets/formula-example-project-budget-four-fields-removed.png)
+   >![공식 예: 프로젝트 예산 4개 필드가 제거됨 ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
-1. **형식** 필드에서 수식 유형 필드에 표시되는 결과의 형식을 식별하려면 다음 선택 항목 중에서 선택합니다.
+1. **형식** 필드에서 다음 선택 항목 중에서 선택하여 formula-type 필드에 표시되는 결과의 포맷 형식을 식별합니다.
 
    * **텍스트**: 수식 필드의 결과가 일반 텍스트로 표시됩니다.
    * **숫자**: 수식 필드의 결과가 숫자로 표시됩니다.
@@ -475,29 +477,29 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
      >[!TIP]
      >
-     >배열을 표시하는 필드에는 태그를 사용하는 것이 좋습니다. 이 경우 각 배열 멤버는 별도의 태그로 표시됩니다.
+     >배열을 표시하는 필드에 태그를 사용하는 것이 좋습니다. 이 경우 각 배열 멤버는 별도의 태그 형식으로 표시됩니다.
 
-     ![선택한 태그가 강조 표시된 수식 필드 형식 목록](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![태그 선택이 강조 표시된 수식 필드 서식 목록](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **날짜**: 수식 필드의 결과가 날짜로 표시됩니다.
 
-     결과의 표시 형식 미리 보기가 **형식** 필드 아래에 표시됩니다.
+     결과가 어떻게 표시될지 미리 보기가 형식&#x200B;**필드 아래에 좋아요 표시됩니다**.
 
      >[!WARNING]
      >
-     >공식의 결과가 선택한 형식과 일치하지 않으면 필드에 오류 메시지가 표시됩니다.
+     >수식의 결과가 선택한 포맷 형식과 일치하지 않으면 필드에 오류 메시지가 표시됩니다.
 
 1. Click **Create**.
 
-   새 수식 필드가 레코드 종류에 열로 추가되고 해당 값은 레코드와 연결될 수 있습니다.
+   새 수식 필드가 레코드 종류에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
 ### 사용자
 
-사람 필드 형식을 사용하여 <!--, job role, or team--> 사용자를 레코드에 추가할 수 있습니다. 이는 자동 완성 필드이며 Workfront 인스턴스에 이미 존재하는 사용자 <!--, roles, or teams-->만 추가할 수 있습니다.
+사람 필드 유형을 사용하여 레코드에 사용자 <!--, job role, or team--> 한 명을 추가할 수 있습니다. 이 필드는 자동 완성 필드이며 Workfront 인스턴스 내에 이미 있는 사용자<!--, roles, or teams--> 만 추가할 수 있습니다.
 
 >[!TIP]
 >
->* 인력 필드에 사용자 이름을 추가하면 해당 사용자 이름과 기본 작업 역할이 필드에 표시됩니다.
+>* 사람 필드에 사용자 이름을 추가하면 사용자 이름과 기본 작업 역할이 필드에 표시됩니다.
 >
 >* 사람 필드는 요청 양식 빌더에 참조(또는 연결) 필드 유형으로 표시됩니다.
 >
@@ -507,22 +509,22 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
    ![사람 필드 형식](assets/people-field-type.png)
 
-1. **새 필드** 탭에 다음 정보를 추가하십시오.
-   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다.
-   * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
-   * **여러 값 허용**: 사용자가 이 필드에 두 명 이상의 사용자를 추가할 수 있도록 하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다.
+1. 새로 만들기 필드&#x200B;**탭에**&#x200B;다음 정보를 추가합니다.
+   * **이름**: 테이블 또는 레코드 페이지 또는 레코드 페이지에 표시되는 필드의 이름입니다.
+   * **설명**: 필드에 대한 추가 정보입니다. 필드에 대한 설명은 테이블에서 필드의 열 위로 마우스를 가져가거나 레코드의 세부 정보 페이지 에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 표시됩니다.
+   * **여러 값** 허용: 사용자가 이 필드에 사용자 두 명 이상을 추가할 수 있도록 허용하려면 이 옵션을 선택합니다. 이 옵션은 기본적으로 선택되어 있지 않습니다.
 
    >[!NOTE]
    >
-   >    여러 값 허용을 선택하고 필드가 첨부된 레코드에 여러 사용자가 저장되는 경우 이 필드를 편집할 때 나중에 설정을 선택 해제할 수 없습니다.
+   >    여러 값 허용을 선택하고 필드가 첨부된 레코드에 여러 사용자가 저장되면 나중에 이 필드를 편집할 때 더 이상 설정을 선택 취소할 수 없습니다.
 
 1. Click **Create**.
 
-   새 사람 유형 필드가 레코드 유형에 열로 추가되고 해당 값이 레코드와 연결될 수 있습니다.
+   새 People-type 필드가 레코드 종류에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
 ### 제작자
 
-작성자 필드 유형을 사용하여 레코드를 만든 사용자를 레코드에 추가할 수 있습니다. 이 필드는 읽기 전용이며 레코드를 만들 때 로그인한 사용자의 이름으로 자동으로 채워집니다.
+만든 사람 필드 유형을 사용하여 레코드를 만든 사용자 를 레코드에 추가할 수 있습니다. 이 필드는 읽기 전용 필드이며 레코드가 생성될 때 로그인한 사용자 이름으로 자동으로 채워집니다.
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **작성자** 필드 형식을 선택합니다.
 
@@ -530,8 +532,8 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
 
-   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--this might change and they might prepopulate it with "Created by"-->
-   * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
+   * **이름**: 테이블 또는 레코드 페이지 또는 레코드 페이지에 표시되는 필드의 이름입니다. <!--this might change and they might prepopulate it with "Created by"-->
+   * **설명**: 필드에 대한 추가 정보입니다. 필드에 대한 설명은 테이블에서 필드의 열 위로 마우스를 가져가거나 레코드의 세부 정보 페이지 에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 표시됩니다.
 
 1. Click **Create**.
 
@@ -544,13 +546,13 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **만든 날짜** 필드 형식을 선택합니다.
 
-   ![만든 날짜 필드 형식](assets/created-date-field-type.png)
+   ![만든 날짜 필드 유형](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
-1. **새 필드** 탭에 다음 정보를 추가하십시오.
+1. 새로 만들기 필드&#x200B;**탭에**&#x200B;다음 정보를 추가합니다.
 
-   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--this might change and they might prepopulate it with "Created date"-->
+   * **이름**: 테이블 또는 레코드 페이지 또는 레코드 페이지에 표시되는 필드의 이름입니다. <!--this might change and they might prepopulate it with "Created date"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
    * **날짜 형식**: 다음 형식 중에서 선택하십시오.
 
@@ -564,11 +566,11 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
      다음 옵션 중에서 선택합니다.
 
       * **24시간**: 예: 18:00
-      * **12시간**: 예: 오후 6:00
+      * **12시간**: 예: 오후 6:00 시
 
 1. Click **Create**.
 
-   새로 만든 날짜 유형 필드가 레코드 유형에 열로 추가되고 해당 값은 레코드가 생성된 날짜(또는 날짜 및 시간)로 미리 채워집니다.
+   새로운 Created date-type 필드가 레코드 종류에 열로 추가되고 해당 값은 레코드가 생성된 날짜(또는 날짜 및 시간)로 미리 채워집니다.
 
 
 ### 마지막 수정자
@@ -582,36 +584,76 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
 
    * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--this might change and they might prepopulate it with "Created by"-->
-   * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
+   * **설명**: 필드에 대한 추가 정보입니다. 필드에 대한 설명은 테이블에서 필드의 열 위로 마우스를 가져가거나 레코드의 세부 정보 페이지 에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 표시됩니다.
 
 1. Click **Create**.
 
-   새 마지막 수정 기준 유형 필드가 레코드 유형에 열로 추가되고 해당 값은 각 레코드를 마지막으로 수정한 사용자의 이름으로 미리 채워집니다.
+   새로운 마지막 수정 by-type 필드가 레코드 종류에 열로 추가되고 해당 값은 각 레코드를 마지막으로 수정한 사용자 이름으로 미리 채워집니다.
 
 
 ### 마지막 수정일
 
-마지막으로 수정한 날짜 필드 유형을 사용하여 레코드를 마지막으로 수정한 날짜를 레코드에 추가할 수 있습니다. 이 필드는 읽기 전용이며 레코드를 마지막으로 수정한 날짜(및 시간 선택 사항)로 자동으로 채워집니다.
+마지막으로 수정한 날짜 필드 유형을 사용하여 레코드가 마지막으로 수정된 날짜를 레코드에 추가할 수 있습니다. 이 필드는 읽기 전용 필드이며 레코드가 마지막으로 수정된 날짜(및 선택적으로 시간)로 자동으로 채워집니다.
 
-1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **만든 날짜** 필드 형식을 선택합니다.
+1. 이 문서의 처음부터[ 필드 만들기 섹션에 ](#create-fields-from-scratch)설명된 대로 필드 만들기를 시작 한 다음, 만든 날짜&#x200B;**필드 유형을 선택합니다**.
 
-   ![마지막으로 수정한 날짜 필드 형식](assets/last-modified-date-field-type.png)
+   ![마지막으로 수정한 날짜 필드 유형](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
-1. **새 필드** 탭에 다음 정보를 추가하십시오.
+1. 새로 만들기 필드&#x200B;**탭에**&#x200B;다음 정보를 추가합니다.
 
-   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다. <!--this might change and they might prepopulate it with "Created date"-->
+   * **이름**: 테이블 또는 레코드 페이지 또는 레코드 페이지에 표시되는 필드의 이름입니다. <!--this might change and they might prepopulate it with "Created date"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
    * **날짜 형식**: 다음 형식 중에서 선택하십시오.
 
       * **로케일**: 브라우저의 로케일과 일치합니다.
       * **표준**: 2023년 5월 16일
       * **길이**: 2023년 5월 16일
-      * **유럽어**: 2023/16/05
+      * **유럽**: 16/05/2023
+      * **ISO**: 2023-05-16년
+
+   * **시간 필드** 포함: 타임스탬프를 포함하려면 이 옵션을 선택합니다. 이 옵션은 기본적으로 선택되어 있지 않습니다. <!--submitted a UI text change for this - check the UI-->
+
+     다음 옵션 중에서 선택합니다.
+
+      * **24시간**: 예: 18:00
+      * **12시간**: 예: 오후 6:00 시
+
+1. Click **Create**.
+
+   새로운 Last modified date-type 필드가 레코드 종류에 열로 추가되고 해당 값은 레코드가 마지막으로 수정된 날짜(또는 날짜 및 시간)로 미리 채워집니다.
+
+<div class="preview">
+
+### 승인 일자
+
+승인된 날짜 필드 유형을 사용하여 요청 승인 날짜를 추가할 수 있으며 이로 인해 레코드가 생성됩니다. 이 필드는 읽기 전용 필드이며 마지막 승인자가 요청 요청을 승인한 날짜(및 선택적으로 시간)로 자동으로 채워집니다. 이 경우 승인 일자는 레코드가 생성된 일자와 일치해야 합니다.
+
+>[!TIP]
+>
+>승인된 날짜 필드는 승인자와 연관된 요청 양식을 제출하여 생성된 레코드에 대한 정보로만 채워집니다.
+>
+>양식이 두 명 이상의 승인자와 연결된 경우 마지막 승인 결정의 날짜만 승인 날짜 필드에 기록됩니다.
+
+
+1. 이 문서의 처음부터[ 필드 만들기 섹션에 ](#create-fields-from-scratch)설명된 대로 필드 만들기를 시작 한 다음, 만든 날짜&#x200B;**필드 유형을 선택합니다**.
+
+   ![승인된 날짜 필드 유형](assets/approved-date-field-type.png)
+
+   1. 새로 만들기 필드&#x200B;**탭에**&#x200B;다음 정보를 추가합니다.
+
+   * **이름**: 테이블 또는 레코드 페이지 또는 레코드 페이지에 표시되는 필드의 이름입니다.
+   * **설명**: 필드에 대한 추가 정보입니다. 필드에 대한 설명은 테이블에서 필드의 열 위로 마우스를 가져가거나 레코드의 세부 정보 페이지 에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 표시됩니다.
+   * **날짜 형식**: 다음 형식 중에서 선택합니다.
+
+      * **로케일**: 브라우저 로케일과 일치합니다.
+      * **표준**: 05/16/2023
+      * **Long**: 2023년 5월 16일
+      * **유럽**: 16/05/2023
       * **ISO**: 2023-05-16
 
-   * **시간 필드 포함**: 타임스탬프를 포함하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다. <!--submitted a UI text change for this - check the UI-->
+   * **시간 필드 포함**: 타임스탬프를 포함하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되지 않습니다.
 
      다음 옵션 중에서 선택합니다.
 
@@ -620,76 +662,32 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 1. Click **Create**.
 
-   새 마지막 수정 날짜 유형 필드가 레코드 유형에 열로 추가되고 해당 값은 레코드가 마지막으로 수정된 날짜(또는 날짜 및 시간)로 미리 채워집니다.
+   새 Approved Date-type 필드가 레코드 유형에 열로 추가되고 레코드 요청이 승인된 날짜(또는 날짜 및 시간)로 값이 미리 채워집니다. 레코드(승인자와 연관된 요청을 제출하여 레코드가 생성된 경우)
 
-<!--
+### 승인자:
 
-<div class="preview">
-
-### Approved date
-
-You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
+승인자 필드 유형을 사용하여 레코드를 만들 요청을 마지막으로 승인한 사용자를 추가할 수 있습니다. 이 필드는 읽기 전용이며 레코드 만들기 요청을 승인한 사용자의 이름으로 자동으로 채워집니다.
 
 >[!TIP]
 >
->The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
+>승인자 필드는 승인자와 연관된 요청 양식을 제출하여 생성된 레코드에 대한 정보로만 채워집니다.
 >
->If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
- 
+>양식이 두 명 이상의 승인자와 연결된 경우 모든 승인자의 이름이 승인됨 날짜 필드에 쉼표로 구분되어 기록됩니다.
 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
- 
-   ![Approved date field type](assets/approved-date-field-type.png)
+1. 이 문서의 처음부터[ 필드 만들기 섹션에 ](#create-fields-from-scratch)설명된 대로 필드 만들기를 시작 한 다음, 승인자&#x200B;**필드 유형을 선택합니다**.
 
-   1. Add the following information in the **New field** tab:
+   ![필드 유형별로 승인](assets/approved-by-field-type.png)
 
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-     * **Date Format**: Select from the following formats:
+1. 새로 만들기 필드&#x200B;**탭에**&#x200B;다음 정보를 추가합니다.
 
-        * **Locale**: Matches the locale of your browser.
-        * **Standard**: 05/16/2023
-        * **Long**: May 16, 2023
-        * **European**: 16/05/2023
-        * **ISO**: 2023-05-16
-     
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
-    
-        Select from the following options:
-        
-        * **24hr**: For example: 18:00
-        * **12hr**: For example: 6:00 PM 
-    
+   * **이름**: 테이블이나 레코드 페이지에 표시되는 필드의 이름입니다.
+   * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열을 마우스로 가리키거나 레코드의 세부 정보 페이지에서 필드 이름 옆에 있는 정보 아이콘을 클릭하면 필드에 대한 설명이 표시됩니다.
+
 1. Click **Create**.
 
-    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
-
-### Approved by
-
-You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
-
->[!TIP]
->
->The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
->
->If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
- 
-   ![Approved by field type](assets/approved-by-field-type.png)
-
-1. Add the following information in the **New field** tab:
-
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-    
-1. Click **Create**.
-
-    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+   새 승인자 유형 필드가 레코드 유형에 열로 추가되고 해당 값은 각 레코드를 마지막으로 수정한 사용자의 이름으로 미리 채워집니다.
 
 </div>
--->
-
 
 <!--
 
@@ -739,33 +737,33 @@ Create an Object field:
 
 ## 레코드 유형을 연결하여 필드 만들기
 
-두 레코드 형식 또는 다른 응용 프로그램의 레코드 형식과 개체 형식 간에 새 연결을 추가할 때 연결된 레코드 필드를 만들 수 있습니다.
+두 레코드 종류 또는 다른 응용 프로그램의 레코드 종류와 개체 종류 간에 새 연결을 추가할 때 연결된 레코드 필드를 만들 수 있습니다.
 
-Workfront Planning 레코드 종류 연결에 대한 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하십시오.
+Workfront Planning 레코드 유형 연결에 대한 자세한 내용은 레코드 유형[ 연결을 참조하세요](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!--## Create fields by importing record types using an Excel or CSV file
 
 For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
-## 레코드 유형을 만들어 필드 만들기
+## 레코드 종류를 만들어 필드 만들기
 
-레코드 유형을 만들 때 새 레코드 유형과 연관된 여러 필드도 기본적으로 만들어집니다. 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+레코드 종류를 만들면 새 레코드 종류와 연결된 여러 필드도 기본적으로 만들어집니다. 자세한 내용은 레코드 종류[ 만들기 섹션을 참조하세요](/help/quicksilver/planning/architecture/create-record-types.md).
 
-## 템플릿으로 작업 공간을 만들어 필드 만들기
+## 템플릿에서 작업 영역을 만들어 필드 만들기
 
-템플릿에서 작업 영역을 만들 때 Adobe Workfront Planning은 레코드 유형에 대한 필드를 만듭니다.
+Adobe Systems Workfront Planning에서는 템플릿에서 작업 영역을 만들 때 레코드 종류에 대한 필드를 만듭니다.
 
-자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
+자세한 내용은 작업 영역 만들기 섹션을 참조하세요[](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 
 
-## CSV 또는 Excel 파일에서 레코드 유형을 가져올 때 필드 만들기
+## CSV 또는 Excel 파일에서 레코드 종류를 가져올 때 필드 만들기
 
 CSV 또는 Excel 파일을 사용하여 레코드 유형을 가져올 때 필드를 가져올 수 있습니다.
 
-자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+자세한 내용은 레코드 종류[ 만들기 섹션을 참조하세요](/help/quicksilver/planning/architecture/create-record-types.md).
 
-## Workfront에서 필드를 가져와 필드 만들기
+## Workfront에서 필드를 가져와서 만들기
 
 기존 Workfront 필드의 복사본을 가져올 수 있습니다.
 
