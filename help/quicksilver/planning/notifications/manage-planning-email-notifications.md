@@ -30,7 +30,7 @@ ht-degree: 1%
 * 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청합니다.
 * 누군가 보기 또는 작업 영역 <!--Isk confirmed that there is nno email for denying access but did not test-->에 대한 액세스 권한이 부여되었음을 확인합니다.
 * Workfront Planning 요청을 제출합니다. 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
-* 누군가가 귀하가 제출한 Workfront Planning 요청을 승인하거나 거부합니다. 자세한 내용은 Adobe Systems Workfront Planning에서 요청 승인을 참조하십시오 [](/help/quicksilver/planning/requests/approve-request.md)
+* 누군가가 귀하가 제출한 Workfront Planning 요청을 승인하거나 거부합니다. 자세한 내용은 Adobe Systems Workfront Planning에서 요청 승인을 참조하십시오 [&#128279;](/help/quicksilver/planning/requests/approve-request.md)
 * 상태가 제출한 Workfront Planning 요청으로 변경됩니다.
 
 ## 액세스 요구 사항
@@ -185,7 +185,7 @@ Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe 
    Workfront에서 레코드 세부 정보 페이지 가 열립니다. 레코드를 업데이트하거나 댓글에 답글을 달 수 있습니다.
 
 1. (조건부) 사용 가능한 경우 모든 알림 보기(View all notifications)를&#x200B;**클릭합니다**.
-**** 알림 페이지가 Adobe Experience Cloud에서 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
+**&#x200B;**&#x200B;알림 페이지가 Adobe Experience Cloud에서 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
 
 
 뷰 또는 작업 영역에 대한 사용 권한 요청, 부여 또는 거부에 대한 자세한 내용은 뷰 또는 작업 영역[에 대한 사용 권한 요청을 참조하세요](/help/quicksilver/planning/access/request-permissions.md).

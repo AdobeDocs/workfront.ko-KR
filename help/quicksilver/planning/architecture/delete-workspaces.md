@@ -22,7 +22,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Adobe Systems Workfront Planning에서 작업 영역은 팀이 작업을 계획할 수 있는 중앙 집중식 위치입니다. 자세한 내용은 작업 영역 만들기 섹션을 참조하세요[](/help/quicksilver/planning/architecture/create-workspaces.md).
+Adobe Systems Workfront Planning에서 작업 영역은 팀이 작업을 계획할 수 있는 중앙 집중식 위치입니다. 자세한 내용은 작업 영역 만들기 섹션을 참조하세요[&#128279;](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 더 이상 관련이 없는 작업 공간은 삭제할 수 있습니다.
 

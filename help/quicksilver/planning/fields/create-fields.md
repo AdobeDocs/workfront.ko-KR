@@ -319,7 +319,7 @@ Workfront Planning 필드에 대한 자세한 내용은 필드 개요를[ 참조
 >숫자 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 숫자로 표시됩니다.
->>자세한 내용은 Adobe Systems Workfront Planning[의 요청 양식 만들기 및 관리를 참조하십시오](/help/quicksilver/planning/requests/create-request-form.md).
+>&#x200B;>자세한 내용은 Adobe Systems Workfront Planning[의 요청 양식 만들기 및 관리를 참조하십시오](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. 이 문서의 처음부터[ 필드 만들기 섹션에 ](#create-fields-from-scratch)설명된 대로 필드 만들기를 시작 한 다음, 숫자&#x200B;**필드 유형을 선택합니다**.
@@ -349,7 +349,7 @@ Workfront Planning 필드에 대한 자세한 내용은 필드 개요를[ 참조
 >백분율 필드는 요청 양식 빌더에서 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 포맷은 유지되며 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에 백분율로 표시됩니다.
->>자세한 내용은 Adobe Systems Workfront Planning[의 요청 양식 만들기 및 관리를 참조하십시오](/help/quicksilver/planning/requests/create-request-form.md).
+>&#x200B;>자세한 내용은 Adobe Systems Workfront Planning[의 요청 양식 만들기 및 관리를 참조하십시오](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. 이 문서의 처음부터[ 필드 만들기 섹션에 ](#create-fields-from-scratch)설명된 대로 필드 만들기를 시작 한 다음, 백분율&#x200B;**필드 유형을 선택합니다**.
@@ -389,7 +389,7 @@ Workfront Planning 필드에 대한 자세한 내용은 필드 개요를[ 참조
 >통화 필드는 요청 양식 빌더에서 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 포맷은 유지되며 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에 통화로 표시됩니다.
->>자세한 내용은 Adobe Systems Workfront Planning[의 요청 양식 만들기 및 관리를 참조하십시오](/help/quicksilver/planning/requests/create-request-form.md).
+>&#x200B;>자세한 내용은 Adobe Systems Workfront Planning[의 요청 양식 만들기 및 관리를 참조하십시오](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **통화** 필드 형식을 선택합니다.
 
@@ -753,7 +753,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 Adobe Systems Workfront Planning에서는 템플릿에서 작업 영역을 만들 때 레코드 종류에 대한 필드를 만듭니다.
 
-자세한 내용은 작업 영역 만들기 섹션을 참조하세요[](/help/quicksilver/planning/architecture/create-workspaces.md).
+자세한 내용은 작업 영역 만들기 섹션을 참조하세요[&#128279;](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 
 

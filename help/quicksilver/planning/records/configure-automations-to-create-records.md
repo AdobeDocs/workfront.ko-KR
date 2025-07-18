@@ -35,7 +35,7 @@ Workfront Planning의 레코드 유형 페이지에서 자동화를 구성하고
 
 이 문서에서는 자동화를 편집, 비활성화, 삭제 및 트리거하여 개체 및 레코드를 만드는 방법을 포함하여 자동화를 관리 하는 방법을 설명합니다.
 
-기존 자동화를 사용하여 레코드 또는 개체를 만드는 방법에 대한 자세한 내용은 Adobe Systems Workfront Planning 레코드 자동화를 사용하여 개체 만들기 를 참조하십시오[](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+기존 자동화를 사용하여 레코드 또는 개체를 만드는 방법에 대한 자세한 내용은 Adobe Systems Workfront Planning 레코드 자동화를 사용하여 개체 만들기 를 참조하십시오[&#128279;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ## 액세스 요구 사항
 

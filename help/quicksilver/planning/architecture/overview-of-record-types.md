@@ -28,7 +28,7 @@ Workfront Planning 개체 유형을 &quot;레코드 유형&quot;이라고 하며
 
 레코드 종류는 작업 영역에서 구성됩니다.
 
-작업 영역에 대한 자세한 내용은 작업 영역 만들기 섹션을 참조하세요[](/help/quicksilver/planning/architecture/create-workspaces.md).
+작업 영역에 대한 자세한 내용은 작업 영역 만들기 섹션을 참조하세요[&#128279;](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 ## 레코드 유형 개요
 

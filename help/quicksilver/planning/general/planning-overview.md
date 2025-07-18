@@ -324,6 +324,7 @@ Workfront Planning의 프레임워크는 완전히 커스터마이징할 수 있
      ![타임라인 보기에 적용된 그룹화](assets/grouping-applied-in-timeline-view.png)
 
    * **달력 보기**: 달력 포맷 형식에 날짜 유형 필드가 두 개 이상 있는 레코드를 표시합니다.
+
      ![달력 보기 예](assets/calendar-view-example.png)
 
 
@@ -339,7 +340,7 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 
 {{step1-click-main-menu}}
 
-1. 계획&#x200B;****&#x200B;계획 아이콘을![ 클릭합니다](assets/planning-icon.png).
+1. 계획&#x200B;**&#x200B;**&#x200B;계획 아이콘을![ 클릭합니다](assets/planning-icon.png).
 
    Workfront Planning 기본 페이지가 열립니다.
 
@@ -357,7 +358,7 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 
 1. (선택 사항 및 권장) 다음 작업 중 일부를 계속하여 작업 구조를 빌드합니다.
 
-   1. 작업 영역을 처음부터 또는 템플릿을 사용하여 만들기 자세한 내용은 작업 영역 만들기 섹션을 참조하세요[](/help/quicksilver/planning/architecture/create-workspaces.md).
+   1. 작업 영역을 처음부터 또는 템플릿을 사용하여 만들기 자세한 내용은 작업 영역 만들기 섹션을 참조하세요[&#128279;](/help/quicksilver/planning/architecture/create-workspaces.md).
 
    1. 새 작업 영역 섹션에 섹션을 추가합니다. 자세한 내용은 작업 영역[ 편집을 참조하십시오](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. 새 작업 영역에서 기존 섹션의 이름을 바꿉니다.

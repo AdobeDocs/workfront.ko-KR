@@ -135,8 +135,10 @@ ht-degree: 1%
 
    보기 또는 작업 영역에 대한 관리 권한이 있는 모든 사용자는 액세스 요청에 대해 다음과 같은 알림을 받습니다.
    * 인앱 알림
+
      ![액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request.png)
    * 이메일 알림
+
      ![액세스 요청 위한 이메일 알림](assets/email-notification-for-access-request.png)
 
 1. (조건부) 보기 또는 작업 영역 관리자가 보기 또는 작업 영역에 대한 권한을 부여하면 권한 부여되었다는 확인 알림이메일과 인앱 알림 받게 됩니다. <!--check this - I was not able to test this, but Isk confirmed.-->

@@ -389,7 +389,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* 분류 옵션을 사용하여 추가 레코드를 표시하는 경우 시작 및 종료 날짜는 기본 레코드의 날짜입니다. 이 영역의 연결된 레코드에 대해 시작 및 종료 날짜를 선택할 수 없습니다.
 
-1. (조건부 및 선택 사항) Workfront 관리자인 경우 사용자 지정 분기&#x200B;**사용 상자에서 설정으로****이동을 클릭하여**&#x200B;설정 영역으로 이동하고 사용자 지정 분기를 설정합니다. 사용자 지정 분기를 설정한 후 클래식 분기 대신 타임라인 보기에 표시할 수 있습니다. Workfront 관리자가 아닌 경우 관리자에게 조직에 대해 사용자 지정 분기를 활성화하도록 요청 할 수 있습니다.
+1. (조건부 및 선택 사항) Workfront 관리자인 경우 사용자 지정 분기&#x200B;**사용 상자에서 설정으로**&#x200B;**이동을 클릭하여**&#x200B;설정 영역으로 이동하고 사용자 지정 분기를 설정합니다. 사용자 지정 분기를 설정한 후 클래식 분기 대신 타임라인 보기에 표시할 수 있습니다. Workfront 관리자가 아닌 경우 관리자에게 조직에 대해 사용자 지정 분기를 활성화하도록 요청 할 수 있습니다.
 
    자세한 내용은 사용자 지정 분기 활성화를[ 참조하세요](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
@@ -465,7 +465,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    * **레코드 종류**: 레코드 색이 선택한 레코드 종류의 색과 일치합니다. 기본 옵션입니다.
    * **필드 값**: 레코드의 색상은 지정한 필드의 색상과 일치합니다. 10단계로 계속. <!--ensure this stays accurate-->
-   * ****&#x200B;그룹화: 레코드의 색상은 그룹화에 대해 표시한 색상과 일치합니다. 이 옵션은 타임라인 보기에 그룹화가 적용되지 않은 경우 흐리게 표시됩니다.
+   * **&#x200B;**&#x200B;그룹화: 레코드의 색상은 그룹화에 대해 표시한 색상과 일치합니다. 이 옵션은 타임라인 보기에 그룹화가 적용되지 않은 경우 흐리게 표시됩니다.
    * **없음**: 흰색 막대에 레코드가 표시됩니다.
 
 1. (조건부) 레코드 색으로 **필드 값**&#x200B;을(를) 선택한 경우 **레코드 색과 일치** 드롭다운 메뉴에서 필드를 선택합니다.
@@ -512,7 +512,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 연결된 레코드 분류
 
 1. 레코드 보기[ 관리 문서에 설명된 대로 레코드 종류에 대한 타임라인 보기를 만들기 합니다](/help/quicksilver/planning/views/manage-record-views.md).
-1. [표준&#x200B;**] 또는**[압축&#x200B;**] 모드에서 타임라인 보기의 오른쪽 상단 모서리에 있는 [분류**]를 클릭합니다&#x200B;**.**
+1. [표준&#x200B;**] 또는**&#x200B;[압축&#x200B;**] 모드에서 타임라인 보기의 오른쪽 상단 모서리에 있는 [분류**]를 클릭합니다&#x200B;**.**
 1. 연결된 레코드 종류 선택 상자를 확장 **하고 연결된 레코드 종류** 를 선택합니다. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![타임라인 보기의 분류 선택기 및 버튼](assets/breakdown-picker-and-button-on-timeline.png)
