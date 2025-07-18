@@ -2,14 +2,14 @@
 content-type: release-notes
 title: 'Adobe Workfront Planning 릴리스 활동: 문서 색인'
 description: Adobe Workfront Planning 제품의 릴리스 활동입니다.
-author: Alina
+author: Alina, Courtney
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 3eaab5818e982914f807ce2c4e92dee1885ea8d9
+source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 0%
 
 2025년 4월 10일 프로덕션 릴리스 이전에 릴리스된 기능에 대한 정보는 다음 문서를 참조하십시오.
 
-* [Adobe Workfront Planning의 2025년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 * [Adobe Workfront Planning의 2025년 3분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 * [Adobe Workfront Planning의 2025년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Adobe Workfront Planning의 2025년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
