@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1871'
 ht-degree: 0%
 
 ---
@@ -157,9 +157,9 @@ This article describes how you can share a view with others. For information abo
 
    * **초대된 사람만 액세스할 수 있습니다**: 보기를 공유할 사용자, 그룹, 팀, 회사 또는 작업 역할을 지정해야 합니다. 기본 옵션입니다.
 
-     >[!NOTE]
-     >
-     >   팀, 그룹, 회사 및 작업 역할 외에도 Adobe Admin Console에 추가된 사용자와만 공유할 수 있습니다.
+   >[!NOTE]
+   >
+   >팀, 그룹, 회사 및 작업 역할 외에도 Adobe Admin Console에 추가된 사용자와만 공유할 수 있습니다. Workfront 전용 사용자는 추가할 수 없습니다. 자세한 내용은 [Adobe Admin Console에서 사용자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
 
 
    * **작업 영역의 모든 사용자가 볼 수 있습니다**: 작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자가 보기에 액세스할 수 있습니다.
@@ -272,10 +272,8 @@ Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수
 1. (조건부) 사용자가 보기 관리자인 경우 다른 사용자로부터 다음 영역의 보기에 액세스하라는 요청을 받을 수 있습니다.
 
    * 인앱 알림
-
      ![보기에 대한 액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request-for-view.png)
    * 이메일 알림
-
      ![보기에 대한 액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request-for-view.png)
 1. (조건부) Workfront의 알림 영역에서 인앱 알림을 클릭합니다
 또는

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '908'
 ht-degree: 1%
 
 ---
@@ -128,6 +128,11 @@ This article describes how you can share a view with others. For information abo
 
    ![그룹과 UI 공유](assets/sharing-ui-with-groups.png)
 
+   >[!NOTE]
+   >
+   >   팀, 그룹, 회사 및 작업 역할 외에도 Adobe Admin Console에 추가된 사용자와만 공유할 수 있습니다. Workfront 전용 사용자는 추가할 수 없습니다. 자세한 내용은 [Adobe Admin Console에서 사용자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
+
+
 1. 드롭다운 메뉴에서 다음 권한 수준 중 하나를 선택합니다.
    * 보기
    * 참여
@@ -147,10 +152,8 @@ This article describes how you can share a view with others. For information abo
 1. (조건부) 작업 공간의 관리자인 경우 다른 사용자로부터 다음 영역의 보기에 대한 액세스 요청을 받을 수 있습니다.
 
    * 인앱 알림
-
      ![액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request.png)
    * 이메일 알림
-
      ![액세스 요청에 대한 전자 메일 알림](assets/email-notification-for-access-request.png)
 1. (조건부) Workfront의 알림 영역에서 인앱 알림을 클릭합니다
 또는

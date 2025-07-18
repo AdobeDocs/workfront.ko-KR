@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -28,10 +28,9 @@ Workfront 사용자 정의 양식의 외부 조회 필드에서 계획 API를 �
 
 >[!NOTE]
 >
->API 호출에서 액세스할 수 있으려면 Adobe Admin Console에 사용자를 추가해야 합니다. Workfront 전용 사용자는 Adobe Planning API를 사용하여 액세스할 수 없습니다.
+>Planning API를 사용하는 경우 모든 사용자 관련 정보는 Workfront 사용자 ID가 아닌 Adobe Identity Management System(IMS) 사용자 ID를 사용하여 반환됩니다.
 >
->자세한 내용은 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하십시오.
-
+>자세한 내용은 [Adobe Admin Console에서 사용자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
 
 ## Workfront Planning API URL
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -269,6 +269,10 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    ![요청 양식에 대한 공유 상자](assets/share-box-for-request-form.png)
 
 1. (선택 사항) 엔터티의 이름 뒤에 있는 드롭다운 메뉴를 클릭한 다음 **제거**&#x200B;를 클릭하여 목록에서 해당 엔터티를 제거하고 해당 엔터티와의 양식 공유를 중지합니다.
+
+   >[!NOTE]
+   >
+   >팀, 그룹, 회사 및 작업 역할 외에도 Adobe Admin Console에 추가된 사용자와만 공유할 수 있습니다. Workfront 전용 사용자는 추가할 수 없습니다. 자세한 내용은 [Adobe Admin Console에서 사용자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
 
 1. **이 양식을 통해 요청을 제출할 수 있는 사용자** 섹션에서 다음 옵션 중 선택하여 이 양식에 액세스할 수 있는 사용자 유형을 표시합니다.
 
