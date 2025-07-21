@@ -4,9 +4,9 @@ description: 레코드 유형은 Adobe Workfront Planning의 객체 유형입니
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '591'
 ht-degree: 2%
 
 ---
@@ -36,8 +36,6 @@ recommendations: noDisplay, noCatalog
 ## 액세스 요구 사항
 
 +++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -108,6 +106,32 @@ recommendations: noDisplay, noCatalog
    * 레코드
    * 레코드 연결
 
-## 기존 글로벌 레코드 유형에서 레코드 유형 만들기
+* 필드를 포함한 레코드 유형은 원래 작업 공간에서만 편집할 수 있습니다. 추가된 작업공간에서는 편집할 수 없습니다.
 
-1. 문서 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)에 설명된 대로 레코드 종류 만들기를 시작한 다음 **글로벌 레코드 종류 사용**&#x200B;을 클릭합니다. <!--check this - the option might have been renamed in the UI-->
+## 기존 레코드 유형에서 레코드 유형 만들기
+
+1. 문서 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)에 설명된 대로 레코드 종류 만들기를 시작한 다음 **기존 항목 추가**&#x200B;를 클릭합니다. <!--check this - the option might have been renamed in the UI-->
+
+   ![다른 작업 영역에서 가져올 수 있는 옵션과 함께 레코드 종류를 추가하는 모달](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+
+1. **계속**&#x200B;을 클릭합니다.
+1. **레코드 종류 선택** 상자에서 기존 작업 영역에서 추가할 레코드 종류의 카드를 클릭한 다음 **추가**&#x200B;를 클릭합니다.
+
+   선택한 작업 영역에 레코드 유형이 추가되고 다음과 같은 상황이 발생합니다.
+
+   * **작업 영역 간 레코드 종류** 아이콘 ![작업 영역 간 연결 아이콘](assets/global-icon.png)이 가져온 레코드 종류의 카드에 추가됩니다.
+   * 가져온 레코드 형식에 읽기 전용 **Workspace** 필드가 추가되었습니다. 필드에는 각 레코드가 생성된 작업 공간이 표시됩니다.
+
+     >[!NOTE]
+     >
+     >* 가져온 레코드 종류 또는 해당 필드는 편집할 수 없습니다. 원래 작업 영역에서 레코드 유형 및 해당 필드를 편집할 수 있습니다.
+
+1. (선택 사항) 가져온 레코드 종류의 카드에서 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭하거나 페이지의 레코드 종류 이름 오른쪽에 있는 **삭제**&#x200B;를 클릭합니다.
+1. (조건부) 제공된 필드에 **delete**&#x200B;을(를) 입력한 다음 **영구적으로 삭제**&#x200B;을(를) 클릭합니다.
+
+   이렇게 하면 선택한 작업 영역에서 가져온 레코드 유형이 제거됩니다. 원래 레코드 유형 및 해당 필드는 원래 작업 영역에 유지됩니다.
+
+   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+
+
+
