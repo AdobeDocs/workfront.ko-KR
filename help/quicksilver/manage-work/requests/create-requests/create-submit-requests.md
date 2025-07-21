@@ -6,9 +6,9 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
+source-git-commit: 7c7697936da90d17599d90b69265f62221185569
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2803'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업으로 표시됩니다. 그러나 요청 형태로 계획되지 않은 작업이 언제든지 들어올 수 있는 환경에서 작업할 수 있습니다. Workfront은 요청 대기열 을 사용하여 이러한 유형의 환경을 수용하는 워크플로를 제공합니다.
 
@@ -150,12 +150,12 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
    ![계획 요청에 대한 통합 워크플로가 있는 새 요청 상자](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
    Workfront 요청 대기열 카드 중 하나를 클릭하거나 검색한 다음 목록에 표시될 때 클릭합니다.
-1. <span class="preview">(조건부) Workfront Planning을 포함하는 새 환경으로 전환했으며 미리 보기 환경에 있는 경우 **새 요청** 상자에 다음이 표시됩니다.</span>
+1. (조건부) Workfront Planning을 포함하는 새 경험으로 전환하고 미리 보기 환경에 있는 경우 **새 요청** 상자에 다음이 표시됩니다.
 
-   <ul><span class="preview"><li>가장 최근에 액세스한 6개의 Workfront 요청 대기열 및 Planning 요청 양식이 최근 섹션에 표시됩니다. </li></span>
-    <span class="preview"><li>모든 추가 Workfront 및 Planning 요청 양식 <b>모든 요청 양식</b> 섹션. 기본적으로 표시되지 않는 요청 양식을 검색할 수 있습니다. </li></span>
-    <span class="preview"><li>모든 추가 Workfront 및 Planning 요청 큐 경로는 <b>모든 요청 경로</b> 섹션에 표시됩니다. 기본적으로 표시되지 않는 요청 대기열을 검색할 수 있습니다.</li></span></ul>
-    <span class="preview">Workfront 요청 큐 경로 또는 양식 중 하나를 클릭하거나 검색한 다음 목록에 표시될 때 클릭합니다. </span>
+   <ul><li>가장 최근에 액세스한 6개의 Workfront 요청 대기열 및 Planning 요청 양식이 최근 섹션에 표시됩니다. </li>
+    <li>모든 추가 Workfront 및 Planning 요청 양식 <b>모든 요청 양식</b> 섹션. 기본적으로 표시되지 않는 요청 양식을 검색할 수 있습니다. </li>
+    <li>모든 추가 Workfront 및 Planning 요청 큐 경로는 <b>모든 요청 경로</b> 섹션에 표시됩니다. 기본적으로 표시되지 않는 요청 대기열을 검색할 수 있습니다.</li></ul>
+   Workfront 요청 대기열 경로 또는 양식 중 하나를 클릭하거나 경로 또는 양식을 검색한 다음 목록에 표시되면 클릭합니다.
 
 1. (조건부) Workfront Planning을 포함하는 새 경험으로 전환한 경우 주제 그룹 및 대기열 주제를 선택하고 양식을 계속 업데이트합니다.
 
