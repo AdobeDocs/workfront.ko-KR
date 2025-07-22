@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
+source-git-commit: 7f95df7acfb1afd0974c0138152a68326631d265
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '402'
 ht-degree: 4%
 
 ---
@@ -72,39 +72,21 @@ ht-degree: 4%
 
 1. **[!UICONTROL 경비 유형]**&#x200B;을 클릭하세요.
 1. **[!UICONTROL 새 경비 유형]**&#x200B;을 클릭하세요.
-1. **[!UICONTROL 새 경비 유형]** 대화 상자에서 다음 정보를 지정하십시오.
+1. **[!UICONTROL 새 경비 유형]** 대화 상자에 다음 정보를 입력하십시오.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 이름]</td> 
-      <td>경비의 이름을 지정하십시오.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 설명]</td> 
-      <td>비용에 대한 설명을 지정합니다.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Calculated Unit]</td> 
-      <td> <p>드롭다운 목록에서 경비 유형의 측정 단위를 선택합니다.</p> <p>다음 측정 단위를 사용할 수 있습니다.</p> 
-       <ul> 
-        <li>마일</li> 
-        <li>킬로미터</li> 
-        <li>킬로그램</li> 
-        <li>달러</li> 
-        <li>달러</li> 
-        <li>일</li> 
-        <li>기타 - 이 옵션을 선택하면 측정 단위의 이름을 지정하고 측정 단위를 조직에 친숙한 것으로 정의하라는 메시지가 표시됩니다.</li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">요금</td> 
-      <td> <p>단위당 가격을 지정합니다. 통화 형식의 필드이며 <strong>[!UICONTROL Calculated Unit]</strong> 필드에 설정된 각 단위의 비용을 나타냅니다. </p> <p>비율은 소수점 뒤에 최대 4개의 숫자가 있는 숫자 값을 포함할 수 있습니다. 예: 1.0375</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **이름** - 경비의 이름입니다.
+   * **설명** - 비용에 대한 설명입니다.
+   * **계산된 단위** - 드롭다운 목록에서 경비 유형의 측정 단위를 선택합니다. 다음 측정 단위를 사용할 수 있습니다.
+
+      * 마일
+      * 킬로미터
+      * 킬로그램
+      * 달러
+      * 시간
+      * 일
+      * 기타 - 이 옵션을 선택하면 측정 단위의 이름을 지정하고 측정 단위를 조직에 친숙한 것으로 정의하라는 메시지가 표시됩니다.
+
+   * **속도** - 단위당 가격. 통화 형식의 필드이며 **계산된 단위** 필드에 설정된 각 단위의 비용을 나타냅니다. 비율은 소수점 뒤에 최대 4개의 숫자가 있는 숫자 값을 포함할 수 있습니다. 예: 1.0375.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -115,7 +97,7 @@ ht-degree: 4%
 {{step-1-to-setup}}
 
 1. **[!UICONTROL 경비 유형]**&#x200B;을 클릭하세요.
-1. 수정할 경비 유형을 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+1. 수정할 경비 유형을 선택한 다음 **[!UICONTROL 편집]** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
    **[!UICONTROL 경비 유형 편집]** 대화 상자가 나타납니다.
 
