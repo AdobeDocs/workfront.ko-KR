@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '3750'
 ht-degree: 2%
@@ -114,6 +114,14 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
    * 시작 또는 종료 날짜에 값이 없는 경우
    * 시작 일자가 종료 일자 이후인 경우
 
+<!--
+<div class="preview">
+
+* You can create and edit records in the timeline view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
+
 타임라인 보기를 관리하려면 다음을 수행합니다.
 
 1. 타임라인을 보려는 레코드 유형 페이지로 이동합니다.
@@ -184,6 +192,10 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
    1. 키보드에서 Enter 키를 눌러 다음 찾은 필드로 이동합니다.
    1. (선택 사항) 일치 항목이 두 개 이상 있는 경우 검색 키워드 오른쪽에 있는 위쪽 및 아래쪽 화살표를 클릭하여 테이블에서 모든 일치 항목을 찾습니다.
    1. 검색 키워드를 지우려면 검색 상자에서 **x** 아이콘을 클릭합니다.
+
+   <!--
+    1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+—>
 
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [필터](#add-filters)

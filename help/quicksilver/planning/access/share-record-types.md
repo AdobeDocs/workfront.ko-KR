@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 >[!IMPORTANT]
 >
 >작업 영역에 대한 액세스 권한이 있는 사용자는 작업 영역의 모든 레코드 유형에 대해 적어도 보기 권한을 자동으로 부여받습니다.
->&#x200B;>보기를 공유해도 사용자에게 레코드 유형에 대한 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 유형에 대한 권한을 부여할 수 있습니다.
+>>보기를 공유해도 사용자에게 레코드 유형에 대한 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 유형에 대한 권한을 부여할 수 있습니다.
 >
 >* Workfront Planning에서 개체 공유에 대한 일반적인 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 >* 자세한 내용은 이 문서의 [레코드 종류 공유 시 고려 사항](#considerations-when-sharing-record-types) 섹션을 참조하십시오.
@@ -142,9 +142,21 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 
 {{step1-to-planning}}
 
-1. 레코드 유형을 공유할 작업 영역을 연 다음 레코드 유형 카드를 클릭합니다.
+1. 레코드 유형을 공유할 작업 영역을 엽니다.
 
-   그러면 레코드 유형 페이지가 열립니다.
+<!--when we release Share on the record type card, replace the next 3 steps with this: 
+
+1. Do one of the following: 
+
+   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
+   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
+
+   The **Share** box opens.
+-->
+
+1. 레코드 유형 카드를 클릭합니다.
+
+   레코드 유형 페이지가 열립니다.
 
 1. 보기의 탭에서 레코드 종류의 오른쪽 상단의 **공유**&#x200B;를 클릭합니다.
 1. **레코드 종류 공유**&#x200B;를 클릭합니다.
@@ -160,7 +172,6 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
    >[!TIP]
    >
    >상속된 권한 목록에서 개별 엔티티를 제거할 수 없습니다.
-
 
 1. (선택 사항 및 조건부) 특정 엔티티와 레코드 유형을 공유하고 작업 공간에 이미 있는 것과 다른 레코드 유형에 대한 액세스 권한을 부여하려면 다음을 수행합니다.
 

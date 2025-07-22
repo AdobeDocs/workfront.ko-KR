@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 0%
@@ -26,8 +26,12 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 다음 중 하나를 수행하여 레코드를 만들 수 있습니다.
 
-* [레코드 유형 테이블 보기에서 인라인으로 추가하여 레코드를 만듭니다.](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 * [레코드 유형 보기에서 새 레코드 또는 레코드 요청 버튼을 사용하여 레코드 만들기](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [레코드 유형 테이블 보기에서 인라인으로 추가하여 레코드를 만듭니다.](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+
+<!--
+* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+
 * [외부 목록에서 레코드 목록 복사 및 붙여넣기](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [테이블 보기에서 레코드 복제](#create-records-by-duplicating-them)
 * [다른 레코드와 연결할 때 레코드 만들기](#create-records-as-you-connect-them)
@@ -109,6 +113,92 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 +++
 
+## 레코드 유형 보기에서 새 레코드 또는 레코드 요청 버튼을 사용하여 레코드 만들기
+
+작업 공간 및 레코드 유형에 대한 보기 권한이 있는 사용자는 레코드 유형 페이지의 레코드 요청 버튼을 사용해야만 레코드를 만들 수 있습니다.
+
+작업 공간 및 레코드 유형에 대한 기여 및 관리 권한이 있는 사용자는 레코드 유형 페이지의 새 레코드 단추를 사용하여 레코드를 만들 수 있습니다.
+
+
+>[!IMPORTANT]
+>
+>작업 영역 관리자는 보기 권한이 있는 사용자가 요청 양식을 사용하여 레코드를 추가할 수 있도록 레코드 유형에 대한 요청 양식을 만들어야 합니다. 그렇지 않으면 보기 권한 사용자가 레코드를 만들 수 없습니다.
+
+{{step1-to-planning}}
+
+1. 레코드를 추가할 작업 영역을 클릭합니다.
+
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
+
+1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+
+   마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
+선택한 유형의 모든 레코드가 뷰에 표시됩니다.
+
+1. (조건부) 작업 공간 및 레코드 유형 권한에 따라 화면 오른쪽 상단의 다음 아이콘을 클릭합니다.
+
+   * 작업 영역 및 레코드 종류에 대한 Contribute 이상의 권한이 있는 경우 **새 레코드**&#x200B;을(를) 클릭합니다
+
+     또는
+
+   * 작업 영역 및 레코드 종류에 대한 보기 권한이 있는 경우 **레코드 요청**&#x200B;을 클릭합니다.
+
+1. (조건부) **새 레코드**&#x200B;을(를) 클릭한 경우 다음 작업을 수행하십시오.
+
+   1. 다음 방법 중 하나를 클릭하여 레코드를 만든 다음 **계속**&#x200B;을 클릭합니다.
+
+      * **수동으로 추가**. 레코드의 미리보기 상자가 열립니다.\
+        이 문서의 레코드 유형 테이블 보기[ 섹션에서 인라인으로 추가하여 ](#create-records-by-adding-them-inline-from-the-record-type-table-view)레코드 만들기{6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
+      * **파일에서 업로드**
+문서 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)에 설명된 대로 6단계부터 레코드를 추가합니다. <!--ensure this stays accurate-->
+      * **요청 제출**
+레코드 유형의 요청 양식이 열립니다.
+
+        작업 영역 관리자는 요청 양식을 사용하여 레코드를 추가할 수 있도록 요청 양식을 만들어야 합니다.
+
+        >[!TIP]
+        >
+        >일부 레코드 유형에는 여러 양식이 있을 수 있습니다. 열려면 하나를 클릭하십시오.
+
+        문서 [레코드 만들기에 대한 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)에 설명된 대로 레코드를 6단계부터 추가합니다. <!--ensure this stays accurate-->
+
+      ![레코드 선택 모달을 만드는 세 가지 방법](assets/three-ways-to-create-records-choice-modal.png)
+
+1. (조건부) **레코드 요청**&#x200B;을 클릭한 경우 다음을 수행하십시오.
+
+   1. (조건부) 레코드 종류에 요청 양식이 두 개 이상 있는 경우 하나를 클릭하여 선택합니다.
+   2. 문서 [레코드 만들기에 대한 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)에 설명된 대로, 6단계부터 양식에 정보를 계속 추가하여 레코드를 만듭니다. <!--ensure this stays accurate-->
+
+1. (조건부) 새 레코드를 검토합니다.
+
+   레코드를 추가하도록 선택한 방법에 따라 다음 중 일부가 발생할 수 있습니다.
+
+   * 승인 프로세스가 있는 요청 양식을 사용하여 추가하도록 선택하지 않은 경우 새 레코드가 레코드 유형에 추가됩니다. 레코드를 만들기 전에 모든 승인자가 승인을 받아야 합니다.
+   * CSV 또는 Excel 스프레드시트를 사용하여 레코드를 추가한 경우 레코드 유형에 여러 레코드가 추가됩니다.
+   * 요청 양식을 제출하여 요청을 추가한 경우 Workfront 요청 영역의 계획 탭에 새 요청이 추가됩니다.
+
+<!-- this is not possible anymore: 
+
+## Create records by connecting them from another application
+
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
+
+1. Create a record type, as described in the [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
+
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+
+    The following items are created in Workfront Planning:
+
+    * A read-only record type that refers to the other application's record type you linked to in the connected record field. 
+
+      For example, if you connect a Planning record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Planning records you're linking from. 
+   
+-->
+
 ## 레코드 유형 테이블 보기에서 인라인으로 추가하여 레코드를 만듭니다.
 
 레코드 유형 페이지의 테이블 보기에서 레코드를 만들면 인라인으로 추가할 수 있습니다.
@@ -180,91 +270,64 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
    * 변경 내용을 실행 취소하려면 CTRL + Z(⌘ + Z, Mac)
    * Mac 변경 내용을 다시 실행하려면 CTRL + Shift + Z(⌘ + Shift + Z)
 
-## 레코드 유형 보기에서 새 레코드 또는 레코드 요청 버튼을 사용하여 레코드 만들기
+<!--<div class="preview">
 
-작업 공간 및 레코드 유형에 대한 보기 권한이 있는 사용자는 레코드 유형 페이지의 레코드 요청 버튼을 사용해야만 레코드를 만들 수 있습니다.
+## Create records by adding them in the record type timeline view
 
-작업 공간 및 레코드 유형에 대한 기여 및 관리 권한이 있는 사용자는 레코드 유형 페이지의 새 레코드 단추를 사용하여 레코드를 만들 수 있습니다.
+You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
 
-
->[!IMPORTANT]
->
->작업 영역 관리자는 보기 권한이 있는 사용자가 요청 양식을 사용하여 레코드를 추가할 수 있도록 레코드 유형에 대한 요청 양식을 만들어야 합니다. 그렇지 않으면 보기 권한 사용자가 레코드를 만들 수 없습니다.
+For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 {{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
 
-1. 레코드를 추가할 작업 영역을 클릭합니다.
+    The workspace opens and the record types display as cards.
 
-   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
+1. Click a record type card. 
 
-1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+    The record type page opens in the view that you last accessed. 
 
-   마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
-선택한 유형의 모든 레코드가 뷰에 표시됩니다.
+1. Click to open a timeline view, or create a timeline view, first. 
 
-1. (조건부) 작업 공간 및 레코드 유형 권한에 따라 화면 오른쪽 상단의 다음 아이콘을 클릭합니다.
+    >[!NOTE]
+    >
+    >You can create a timeline view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere in the timeline. 
 
-   * 작업 영역 및 레코드 종류에 대한 Contribute 이상의 권한이 있는 경우 **새 레코드**&#x200B;을(를) 클릭합니다
+    A new record box opens. 
 
-     또는
+    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
+1. Update the following information:
 
-   * 작업 영역 및 레코드 종류에 대한 보기 권한이 있는 경우 **레코드 요청**&#x200B;을 클릭합니다.
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
 
-1. (조건부) **새 레코드**&#x200B;을(를) 클릭한 경우 다음 작업을 수행하십시오.
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
 
-   1. 다음 방법 중 하나를 클릭하여 레코드를 만든 다음 **계속**&#x200B;을 클릭합니다.
+        * By **Year**: The record start and end dates span a month.
+        * By **Quarter**: The record start and end dates span a week. 
+        * By **Month**: The record start and end dates span three days.
 
-      * **수동으로 추가**. 레코드의 미리보기 상자가 열립니다.\
-        이 문서의 레코드 유형 테이블 보기[ 섹션에서 인라인으로 추가하여 ](#create-records-by-adding-them-inline-from-the-record-type-table-view)레코드 만들기&lbrace;6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
-      * **파일에서 업로드**
-문서 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)에 설명된 대로 6단계부터 레코드를 추가합니다. <!--ensure this stays accurate-->
-      * **요청 제출**
-레코드 유형의 요청 양식이 열립니다.
+1. (Optional) Click one of the following icons: 
 
-        작업 영역 관리자는 요청 양식을 사용하여 레코드를 추가할 수 있도록 요청 양식을 만들어야 합니다.
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
 
-        >[!TIP]
-        >
-        >일부 레코드 유형에는 여러 양식이 있을 수 있습니다. 열려면 하나를 클릭하십시오.
+    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
 
-        문서 [레코드 만들기에 대한 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)에 설명된 대로 레코드를 6단계부터 추가합니다. <!--ensure this stays accurate-->
+1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
 
-      ![레코드 선택 모달을 만드는 세 가지 방법](assets/three-ways-to-create-records-choice-modal.png)
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
 
-1. (조건부) **레코드 요청**&#x200B;을 클릭한 경우 다음을 수행하십시오.
-
-   1. (조건부) 레코드 종류에 요청 양식이 두 개 이상 있는 경우 하나를 클릭하여 선택합니다.
-   2. 문서 [레코드 만들기에 대한 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)에 설명된 대로, 6단계부터 양식에 정보를 계속 추가하여 레코드를 만듭니다. <!--ensure this stays accurate-->
-
-1. (조건부) 새 레코드를 검토합니다.
-
-   레코드를 추가하도록 선택한 방법에 따라 다음 중 일부가 발생할 수 있습니다.
-
-   * 승인 프로세스가 있는 요청 양식을 사용하여 추가하도록 선택하지 않은 경우 새 레코드가 레코드 유형에 추가됩니다. 레코드를 만들기 전에 모든 승인자가 승인을 받아야 합니다.
-   * CSV 또는 Excel 스프레드시트를 사용하여 레코드를 추가한 경우 레코드 유형에 여러 레코드가 추가됩니다.
-   * 요청 양식을 제출하여 요청을 추가한 경우 Workfront 요청 영역의 계획 탭에 새 요청이 추가됩니다.
-
-<!-- this is not possible anymore: 
-
-## Create records by connecting them from another application
-
-You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
-
-1. Create a record type, as described in the [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
-
-1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
-
-1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-
-    The following items are created in Workfront Planning:
-
-    * A read-only record type that refers to the other application's record type you linked to in the connected record field. 
-
-      For example, if you connect a Planning record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Planning records you're linking from. 
-   
--->
+</div>-->
 
 ## 외부 목록에서 복사하여 붙여 넣어 레코드 만들기
 

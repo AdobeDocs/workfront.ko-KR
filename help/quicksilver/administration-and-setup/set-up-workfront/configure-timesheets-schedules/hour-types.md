@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 시간 유형 관리
-description: 시간 유형과 시간 항목을 연결할 수 있습니다. 시간 유형은 시간 항목을 정의하는 데 사용하는 레이블입니다.
+description: 시간 유형과 시간 항목을 연결할 수 있습니다. 시간 유형은 시간 항목을 정의하는 데 사용하는 레이블입니다. 시간 유형은 일반 시간 또는 프로젝트별 시간에 대한 것일 수 있습니다.
 author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,7 +129,7 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 범위]</td> 
-      <td> <p><strong>범위</strong> 드롭다운 메뉴에서 시간 유형이 일반 또는 프로젝트별 시간 유형인지 선택합니다.</p> <p>일반 시간 유형은 타임시트에서만 볼 수 있으며 프로젝트, 작업 또는 문제와 연결할 수 없습니다.</p> <p><b>중요</b>: 사용자 지정 시간 유형이 [!UICONTROL 프로젝트별]이고 이를 [!UICONTROL 일반]으로 변경하면 기존의 모든 작업, 문제 및 프로젝트 시간이 시스템 기본 유형으로 설정됩니다.</p> </td> 
+      <td> <p><strong>범위</strong> 드롭다운 메뉴에서 시간 유형이 일반 또는 프로젝트별 시간 유형인지 선택합니다.</p> <p>일반 시간 유형은 타임시트에서만 볼 수 있으며 프로젝트, 작업 또는 문제와 연결할 수 없습니다.</p> <p><b>중요 사항</b></p><p> 사용자 정의 시간 유형이 [!UICONTROL 프로젝트 특정]이고 [!UICONTROL 일반]으로 변경한 경우 기존의 모든 작업, 문제 및 프로젝트 시간이 해당 시스템 기본 유형으로 설정됩니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
@@ -142,9 +142,65 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
     </tbody> 
    </table>
 
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
 1. **[!UICONTROL 시간 유형 만들기].**&#x200B;를 클릭합니다.
 
+   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+
    시간 유형이 Workfront 시스템에 추가되고 기본적으로 활성화됩니다.
+
+
+## 시간 유형 편집
+
+[!DNL Workfront] 관리자는 시스템 및 프로젝트 수준에서 조직의 시간 유형을 편집할 수 있습니다.
+
+>[!NOTE]
+>
+>* 기본 제공 시간 유형은 편집할 수 없습니다.
+>* 시간 유형은 일괄적으로 편집할 수 없습니다.
+
+{{step-1-to-setup}}
+
+1. 왼쪽 패널에서 **타임시트 및 시간**&#x200B;을 클릭한 다음 **시간 유형**&#x200B;을 클릭합니다.
+
+1. 시간 유형 이름을 클릭하거나 시간 유형을 선택한 다음 목록 맨 위에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
+1. **시간 유형 편집** 대화 상자에서 다음 정보를 지정하십시오.
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 이름]</td> 
+      <td>시스템에서 쉽게 인식할 수 있는 시간 유형 이름을 입력합니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 설명]</td> 
+      <td>시간 유형에 대한 설명을 추가합니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 범위]</td> 
+      <td> <p><strong>범위</strong> 드롭다운 메뉴에서 시간 유형이 일반 또는 프로젝트별 시간 유형인지 선택합니다.</p> <p>일반 시간 유형은 타임시트에서만 볼 수 있으며 프로젝트, 작업 또는 문제와 연결할 수 없습니다.</p> <p><b>중요 사항</b></p> <p>사용자 정의 시간 유형이 [!UICONTROL 프로젝트 특정]이고 [!UICONTROL 일반]으로 변경한 경우 기존의 모든 작업, 문제 및 프로젝트 시간이 해당 시스템 기본 유형으로 설정됩니다.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td><p>이 시간 유형과 연관된 시간 항목이 수익 계산에 영향을 미치도록 하려면 이 옵션을 선택합니다.</p>
+      <p>병가 시간과 휴가 시간은 수익으로 계산할 수 없습니다.</p>
+      <p><b>메모</b></p>
+      <p>일반 시간 유형이 매출로 계산되는 경우 시간을 기록하는 사용자의 프로필과 연결된 비용률은 시간 비용과 연결됩니다.  
+      </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
+1. **[!UICONTROL 변경 내용 저장].** 클릭
+
+   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+
+   변경 사항이 저장되고 시간 유형이 편집됩니다.
 
 ## 시간 유형 비활성화
 
@@ -153,8 +209,10 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
 >[!NOTE]
 >
 >* 기본 제공 시간 유형은 비활성화할 수 없습니다.
+>* 시간 유형을 일괄적으로 비활성화할 수 있습니다.
 >* 프로젝트별 시간 유형을 비활성화하면 해당 유형에 대해 기록된 모든 시간이 자동으로 기본 제공 프로젝트별 시간 유형으로 설정됩니다. 예를 들어 프로젝트에 대해 기록된 시간은 기본적으로 프로젝트 시간 유형으로 설정되며 작업에 대해 기록된 시간은 기본적으로 작업 시간 유형으로 설정됩니다.
->
+>* 일반 시간 유형을 비활성화하면 기록된 시간이 타임시트에 남아 있지만 앞으로 해당 시간 유형에 대한 시간을 더 이상 기록할 수 없습니다.
+
 
 
 시간 유형을 비활성화하려면
@@ -163,8 +221,7 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
 
 1. 왼쪽 패널에서 **[!UICONTROL 타임시트 및 시간]**&#x200B;을 클릭한 다음 **[!UICONTROL 시간 유형]**&#x200B;을 클릭합니다.
 
-1. 비활성화할 시간 유형을 선택합니다.
-
+1. 비활성화할 시간 유형을 선택합니다. 여러 시간 유형을 선택할 수 있습니다.
 
 1. **자세히**&#x200B;를 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.
 
