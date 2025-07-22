@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '782'
 ht-degree: 1%
 
 ---
@@ -123,11 +123,11 @@ Workfront Planning에서 요청 양식을 만드는 방법에 대한 자세한 �
    **구성** 영역이 표시됩니다.
 
    ![구성 탭](assets/configuration-tab.png)
-1. **승인자** 필드에서 드롭다운 아이콘을 클릭하고 목록에서 하나 또는 여러 이름을 선택합니다
+1. **승인자** 필드에서 드롭다운 아이콘을 클릭하고 목록에서 한 명 이상의 사용자 <span class="preview">또는 팀</span>을(를) 선택합니다
 
    또는
 
-   승인자의 이름을 입력한 다음 목록에 표시될 때 선택합니다.
+   승인자로 설정할 사용자 <span class="preview">또는 팀</span>의 이름을 입력한 다음 목록에 표시될 때 선택하십시오.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -141,6 +141,8 @@ Workfront Planning에서 요청 양식을 만드는 방법에 대한 자세한 �
    >* 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다. 요청은 Workfront의 요청 영역에 있는 제출됨 섹션의 계획 탭에 남아 있습니다.
    >
    >* 요청이 승인 또는 거부되기 전에 모든 승인자는 결정을 내려야 합니다.
+   >
+   >* <span class="preview">팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.</span>
 
 
 1. (선택 사항) 요청 양식을 공유한 적이 없으면 **게시**&#x200B;를 클릭합니다

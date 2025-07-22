@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2299'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. (선택 사항) **미리 보기**&#x200B;를 클릭하여 다른 사용자가 새 레코드를 제출하는 데 사용할 양식을 표시할 방법을 확인합니다.
 
-1. (선택 사항) **구성** 탭을 클릭한 다음 **승인자** 필드에 사용자를 한 명 이상 추가하여 이 레코드 양식에 대한 새 요청을 승인합니다.
+1. (선택 사항) **구성** 탭을 클릭한 다음 <span class="preview">승인자</span> 필드에 하나 이상의 사용자 **또는 팀**&#x200B;을 추가하여 이 레코드 양식에 대한 새 요청을 승인합니다.
 
    ![구성 탭](assets/configuration-tab.png)
 
@@ -217,6 +217,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    * 한 명 또는 여러 명의 승인자를 요청 양식에 추가할 수 있습니다.
    * 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다.
    * 요청이 승인 또는 거부되기 전에 모든 승인자는 결정을 내려야 합니다.
+   * <span class="preview">팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.</span>
 
      요청 양식에 승인을 추가하는 방법에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
