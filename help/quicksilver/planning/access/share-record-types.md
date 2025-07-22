@@ -29,7 +29,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 >[!IMPORTANT]
 >
 >작업 영역에 대한 액세스 권한이 있는 사용자는 작업 영역의 모든 레코드 유형에 대해 적어도 보기 권한을 자동으로 부여받습니다.
->>보기를 공유해도 사용자에게 레코드 유형에 대한 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 유형에 대한 권한을 부여할 수 있습니다.
+>&#x200B;>보기를 공유해도 사용자에게 레코드 유형에 대한 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 유형에 대한 권한을 부여할 수 있습니다.
 >
 >* Workfront Planning에서 개체 공유에 대한 일반적인 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 >* 자세한 내용은 이 문서의 [레코드 종류 공유 시 고려 사항](#considerations-when-sharing-record-types) 섹션을 참조하십시오.
