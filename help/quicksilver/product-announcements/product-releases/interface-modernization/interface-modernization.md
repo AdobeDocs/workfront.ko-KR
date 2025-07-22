@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6b93cca4a434885e39cddcb4a01a8d753609b220
+source-git-commit: b2fdf8d54adacfa4ab2d665767f2265fdd23da4f
 workflow-type: tm+mt
-source-wordcount: '5280'
+source-wordcount: '5276'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 0%
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
 ## 관리자 및 설정
-
 
 ### 레이아웃 템플릿 페이지의 인터페이스 업데이트
 
@@ -248,7 +247,7 @@ Workfront의 다른 영역과 일치하도록 요청 대기열에 대한 주제 
 
 ### 프로젝트의 관련 프로젝트 섹션에 대한 인터페이스 업데이트(특정 고객만 사용 가능)
 
-**미리 보기 릴리스: 2025년 6월 12일, 프로덕션 릴리스: 발표 예정**
+**미리 보기 릴리스: 2025년 6월 12일, 프로덕션 릴리스: 2025년 6월 19일**
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 프로젝트의 관련 프로젝트 섹션을 업데이트했습니다.
 
@@ -256,7 +255,7 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 ### 템플릿으로 저장 상자의 새로운 모양 및 느낌
 
-**미리 보기 릴리스: 2025년 6월 12일, 프로덕션 릴리스: 발표 예정**
+**미리 보기 릴리스: 2025년 6월 12일, 프로덕션 릴리스: 2025년 6월 19일**
 
 프로젝트를 템플릿으로 저장할 때 표시되는 &quot;템플릿으로 저장&quot; 상자의 모양을 업데이트했습니다. 새로운 디자인에는 간소화된 인터페이스가 포함되어 있으며, 모든 섹션이 왼쪽 패널의 링크를 사용하여 탐색할 수 있는 하나의 통합 형식으로 표시됩니다. 새 디자인은 응용 프로그램의 다른 영역 및 다른 오브젝트와 일치합니다.
 
