@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
+source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2298'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,6 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
       * 작성자, 마지막 수정자, <span class="preview">승인자</span>
       * 만든 날짜, 마지막 수정 날짜, <span class="preview">승인 날짜</span>
-      * 공식
       * Workfront 개체의 조회 필드
       * Workfront Planning 연결된 레코드의 조회 필드
 
