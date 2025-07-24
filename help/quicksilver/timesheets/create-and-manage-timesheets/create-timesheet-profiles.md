@@ -6,9 +6,9 @@ description: 사용자의 추가 개입 없이 사용자에 대해 반복 타임
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1604'
 ht-degree: 1%
 
 ---
@@ -36,8 +36,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,9 +192,17 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >* 그룹을 추가하면 사용자 할당 탭에 그룹 이름만 표시되고 그룹 구성원 목록은 표시되지 않습니다. 여기에 나열된 그룹 구성원을 보려면 변경 사항 저장을 클릭한 다음 방금 만든 타임시트 프로필의 이름을 클릭합니다.
    >* 이 단계를 완료하면 타임시트 프로필은 현재 기간에 대한 타임시트가 없는 할당된 사용자 또는 그룹 멤버에 대해서만 타임시트를 생성합니다.
 
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
+1. **저장**&#x200B;을 클릭합니다.
 
-   타임시트 프로필에서 타임시트를 처음 만들 때 각 사용자에 대해 2개의 타임시트가 만들어집니다. 이후 새 타임시트를 생성할 때마다 사용자당 하나의 타임시트가 생성됩니다.
+1. 타임시트 프로필 목록의 맨 위에서 시스템 수준 타임시트 프로필의 경우 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png), 그룹 타임시트 프로필의 경우 **자세히**&#x200B;를 클릭한 다음 **타임시트 생성**&#x200B;을 클릭합니다.
+
+   타임시트가 성공적으로 생성되었다는 확인 메시지가 화면 맨 아래에 표시됩니다. 새 타임시트는 사용자가 만든 새 프로필을 기반으로 생성됩니다.
+
+   자세한 내용은 [수동으로 타임시트 생성](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)을 참조하십시오.
+
+   타임시트 프로필에서 타임시트를 처음 생성할 때 현재 시간을 포함하는 시간대와 다음 시간대에 대해 각 사용자에 대해 2개의 타임시트가 만들어집니다.
+
+   이후 새 타임시트를 생성할 때마다 사용자당 하나의 타임시트가 생성됩니다.
 
    <!--the content in the table above will need to match the content in the Create timesheets article-->
 

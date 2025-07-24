@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 0%
+source-wordcount: '1540'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # 레코드 유형 공유
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 >[!IMPORTANT]
 >
 >작업 영역에 대한 액세스 권한이 있는 사용자는 작업 영역의 모든 레코드 유형에 대해 적어도 보기 권한을 자동으로 부여받습니다.
->&#x200B;>보기를 공유해도 사용자에게 레코드 유형에 대한 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 유형에 대한 권한을 부여할 수 있습니다.
+>>보기를 공유해도 사용자에게 레코드 유형에 대한 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 유형에 대한 권한을 부여할 수 있습니다.
 >
 >* Workfront Planning에서 개체 공유에 대한 일반적인 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 >* 자세한 내용은 이 문서의 [레코드 종류 공유 시 고려 사항](#considerations-when-sharing-record-types) 섹션을 참조하십시오.
@@ -144,22 +144,10 @@ Adobe Workfront Planning에서 레코드 작업을 할 때 공동 작업을 보�
 
 1. 레코드 유형을 공유할 작업 영역을 엽니다.
 
-<!--when we release Share on the record type card, replace the next 3 steps with this: 
+1. 다음 중 하나를 수행하십시오.
 
-1. Do one of the following: 
-
-   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
-   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
-
-   The **Share** box opens.
--->
-
-1. 레코드 유형 카드를 클릭합니다.
-
-   레코드 유형 페이지가 열립니다.
-
-1. 보기의 탭에서 레코드 종류의 오른쪽 상단의 **공유**&#x200B;를 클릭합니다.
-1. **레코드 종류 공유**&#x200B;를 클릭합니다.
+   * <span class="preview">레코드 종류 카드에서 **자세히** 메뉴 > **공유**.</span>
+   * 레코드 종류 카드를 클릭하여 레코드 종류의 페이지를 연 다음, 모든 레코드 종류 보기에서 **공유** > **레코드 종류 공유**&#x200B;를 클릭합니다.
 
    **공유** 상자가 열립니다.
 

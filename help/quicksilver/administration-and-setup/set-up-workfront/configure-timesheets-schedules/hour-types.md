@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1189'
 ht-degree: 1%
 
 ---
@@ -23,14 +23,13 @@ ht-degree: 1%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
 
 </div>
--->
 
 시간 유형은 시간 항목을 정의하는 데 사용하는 레이블입니다. 시간 유형과 시간 항목을 연결할 수 있습니다.
 
@@ -132,7 +131,7 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
       <td> <p><strong>범위</strong> 드롭다운 메뉴에서 시간 유형이 일반 또는 프로젝트별 시간 유형인지 선택합니다.</p> <p>일반 시간 유형은 타임시트에서만 볼 수 있으며 프로젝트, 작업 또는 문제와 연결할 수 없습니다.</p> <p><b>중요 사항</b></p><p> 사용자 정의 시간 유형이 [!UICONTROL 프로젝트 특정]이고 [!UICONTROL 일반]으로 변경한 경우 기존의 모든 작업, 문제 및 프로젝트 시간이 해당 시스템 기본 유형으로 설정됩니다.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td role="rowheader"><span class="preview">[!UICONTROL Count as Revenue]</span></td> 
       <td><p>이 시간 유형과 연관된 시간 항목이 수익 계산에 영향을 미치도록 하려면 이 옵션을 선택합니다.</p>
       <p>병가 시간과 휴가 시간은 수익으로 계산할 수 없습니다.</p>
       <p><b>메모</b></p>
@@ -142,14 +141,9 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
     </tbody> 
    </table>
 
-   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
-
-1. **[!UICONTROL 시간 유형 만들기].**&#x200B;를 클릭합니다.
-
-   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+1. **[!UICONTROL 시간 유형 만들기]** <span class="preview"> 또는 **저장**&#x200B;을 클릭합니다. </span>
 
    시간 유형이 Workfront 시스템에 추가되고 기본적으로 활성화됩니다.
-
 
 ## 시간 유형 편집
 
@@ -184,7 +178,7 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
       <td> <p><strong>범위</strong> 드롭다운 메뉴에서 시간 유형이 일반 또는 프로젝트별 시간 유형인지 선택합니다.</p> <p>일반 시간 유형은 타임시트에서만 볼 수 있으며 프로젝트, 작업 또는 문제와 연결할 수 없습니다.</p> <p><b>중요 사항</b></p> <p>사용자 정의 시간 유형이 [!UICONTROL 프로젝트 특정]이고 [!UICONTROL 일반]으로 변경한 경우 기존의 모든 작업, 문제 및 프로젝트 시간이 해당 시스템 기본 유형으로 설정됩니다.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td role="rowheader"><span class="preview">[!UICONTROL Count as Revenue]</span></td> 
       <td><p>이 시간 유형과 연관된 시간 항목이 수익 계산에 영향을 미치도록 하려면 이 옵션을 선택합니다.</p>
       <p>병가 시간과 휴가 시간은 수익으로 계산할 수 없습니다.</p>
       <p><b>메모</b></p>
@@ -194,11 +188,8 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
     </tbody> 
    </table>
 
-   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
 
-1. **[!UICONTROL 변경 내용 저장].** 클릭
-
-   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+1. **[!UICONTROL 변경 내용 저장]** <span class="preview"> 또는 **저장**&#x200B;을 클릭합니다. </span>
 
    변경 사항이 저장되고 시간 유형이 편집됩니다.
 

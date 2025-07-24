@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 레코드 만들기
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -26,18 +26,21 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 다음 중 하나를 수행하여 레코드를 만들 수 있습니다.
 
-* [레코드 유형 보기에서 새 레코드 또는 레코드 요청 버튼을 사용하여 레코드 만들기](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
-* [레코드 유형 테이블 보기에서 인라인으로 추가하여 레코드를 만듭니다.](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* [레코드 유형 보기에서 새 레코드 또는 레코드 요청 단추 사용](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [레코드 유형 테이블 보기에서 인라인으로 추가합니다.](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 
-<!--
-* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+<div class="preview">
+
+* [레코드 유형 타임라인 보기에서 추가합니다.](#create-records-by-adding-them-in-the-record-type-timeline-view)
+
+</div>
 
 * [외부 목록에서 레코드 목록 복사 및 붙여넣기](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [테이블 보기에서 레코드 복제](#create-records-by-duplicating-them)
-* [다른 레코드와 연결할 때 레코드 만들기](#create-records-as-you-connect-them)
-* [요청 양식을 레코드 유형으로 제출하여 레코드 생성](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](#create-records-by-importing-records-from-a-csv-or-excel-file)
-* [자동화를 사용하여 레코드 만들기](#create-records-by-using-automations)
+* [다른 레코드와 연결](#create-records-as-you-connect-them)
+* [레코드 유형에 요청 양식 제출](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [CSV 또는 Excel 파일에서 정보 가져오기](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [자동화 사용](#create-records-by-using-automations)
 
 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -148,7 +151,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
    1. 다음 방법 중 하나를 클릭하여 레코드를 만든 다음 **계속**&#x200B;을 클릭합니다.
 
       * **수동으로 추가**. 레코드의 미리보기 상자가 열립니다.\
-        이 문서의 레코드 유형 테이블 보기[ 섹션에서 인라인으로 추가하여 ](#create-records-by-adding-them-inline-from-the-record-type-table-view)레코드 만들기&lbrace;6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
+        이 문서의 레코드 유형 테이블 보기[ 섹션에서 인라인으로 추가하여 ](#create-records-by-adding-them-inline-from-the-record-type-table-view)레코드 만들기{6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
       * **파일에서 업로드**
 문서 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)에 설명된 대로 6단계부터 레코드를 추가합니다. <!--ensure this stays accurate-->
       * **요청 제출**
@@ -270,64 +273,64 @@ You can import records from other applications by linking them to existing recor
    * 변경 내용을 실행 취소하려면 CTRL + Z(⌘ + Z, Mac)
    * Mac 변경 내용을 다시 실행하려면 CTRL + Shift + Z(⌘ + Shift + Z)
 
-<!--<div class="preview">
+<div class="preview">
 
-## Create records by adding them in the record type timeline view
+## 레코드 유형 타임라인 보기에서 레코드를 추가하여 레코드 만들기
 
-You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+레코드 유형 페이지의 타임라인 보기에서 타임라인을 두 번 클릭하여 레코드를 만들 수 있습니다.
 
-For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+타임라인 보기를 만드는 방법에 대한 자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. 레코드를 추가할 작업 영역을 클릭합니다.
 
-1. Click a record type card. 
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
-    The record type page opens in the view that you last accessed. 
+1. 레코드 유형 카드를 클릭합니다.
 
-1. Click to open a timeline view, or create a timeline view, first. 
+   마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다.
 
-    >[!NOTE]
-    >
-    >You can create a timeline view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere in the timeline. 
+1. 을 클릭하여 타임라인 보기를 열거나 먼저 타임라인 보기를 만듭니다.
 
-    A new record box opens. 
+   >[!NOTE]
+   >
+   >레코드 종류와 관련된 날짜 필드가 두 개 이상 있는 경우에만 타임라인 보기를 만들 수 있습니다.
+1. 타임라인의 아무 곳이나 두 번 클릭합니다.
 
-    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
-1. Update the following information:
+   새 레코드 상자가 열립니다. <!--might need a new screen shot for Production - might add a title etc-->
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+   ![이름이 지정되지 않은 레코드 표시줄이 있는 타임라인의 새 레코드 상자](assets/new-record-small-box-on-timeline.png)
+1. 다음 정보를 업데이트합니다.
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+   * **이름**: 레코드 이름을 입력하십시오. 비워 두면 Workfront은 기본적으로 이름을 **제목 없음**&#x200B;으로 지정합니다. 이 이름을 비워 두면 레코드 모음에 표시되지 않습니다.
+   * **레코드 날짜 필드**: 레코드 날짜를 업데이트합니다.
 
-        * By **Year**: The record start and end dates span a month.
-        * By **Quarter**: The record start and end dates span a week. 
-        * By **Month**: The record start and end dates span three days.
+     날짜 필드의 이름은 타임라인 보기를 만들 때 시작 및 종료 날짜에 대해 선택한 필드에 따라 사용자 지정됩니다.
 
-1. (Optional) Click one of the following icons: 
+     기본적으로 날짜 값은 타임라인 보기를 표시하는 방법에 따라 미리 선택됩니다. 다음과 같은 시나리오가 있습니다.
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+      * **년**&#x200B;까지: 기록 시작 날짜와 종료 날짜가 한 달에 걸쳐 있습니다.
+      * **분기**&#x200B;까지: 기록 시작 날짜와 종료 날짜가 한 주에 걸쳐 있습니다.
+      * **개월**&#x200B;까지: 기록 시작 날짜와 종료 날짜가 3일에 걸쳐 있습니다.
 
-    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+1. (선택 사항) 다음 아이콘 중 하나를 클릭합니다.
 
-1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+   * **확장** ![확장 아이콘](assets/expand-icon.png)을 클릭하여 미리 보기 창에서 레코드 세부 정보를 엽니다.
+   * 레코드를 삭제하려면 **삭제** ![삭제 아이콘](assets/delete-icon.png).
+   * **닫기** ![닫기 아이콘](assets/close-icon.png)을 클릭하여 새 레코드 상자를 닫습니다.
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+   **삭제** 아이콘을 클릭하지 않은 경우 레코드가 타임라인뿐만 아니라 테이블 및 달력 보기에 즉시 추가됩니다.
 
-</div>-->
+1. (선택 사항) 타임라인에서 레코드 막대를 눌러 레코드의 세부 정보 창을 열고 정보를 업데이트하거나 삭제하거나 설명을 추가합니다.
+
+   >[!TIP]
+   >
+   >기본적으로 Workfront은 레코드를 썸네일 및 표지 이미지와 연결합니다.
+   >
+   >축소판은 보기 설정에서 활성화된 경우에만 타임라인 보기에 표시됩니다.
+
+</div>
 
 ## 외부 목록에서 복사하여 붙여 넣어 레코드 만들기
 
