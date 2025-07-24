@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
+source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '957'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,15 @@ ht-degree: 2%
 
 <!-- Audited: 12/2023 -->
 
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
+
 대기열 항목은 라우팅 규칙과 함께 작동하여 들어오는 작업을 자동으로 사용자, 작업 역할, 팀에 할당하거나 프로젝트에 배치합니다. 대기열 항목은 라우팅 규칙을 구현하기 위해 존재해야 하는 조건을 정의합니다.
 
 주제 그룹 또는 프로젝트에 할당할 수 있는 대기열 주제 수에는 제한이 없습니다. 대기열 주제는 보고 가능한 객체 유형입니다.
 
-일단 생성되면 대기열 주제를 한 프로젝트에서 다른 프로젝트로 이동할 수 없습니다.
+개별 프로젝트 또는 프로젝트 템플릿에 대한 대기열 주제를 만들 수 있습니다.
+
+만든 후에는 프로젝트 또는 템플릿 간에 대기열 주제를 이동할 수 없습니다.
 
 ## 액세스 요구 사항
 
@@ -97,7 +101,7 @@ ht-degree: 2%
    * [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
-1. 도움말 요청 대기열로 사용하기 위해 선택한 프로젝트와 새 대기열 주제를 만들 위치로 이동합니다.\
+1. 도움말 요청 대기열로 사용하기 위해 선택한 프로젝트 또는 템플릿과 새 대기열 주제를 만들 위치로 이동합니다.\
    프로젝트를 도움말 요청 대기열로 지정하는 방법에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
    주제 그룹 아래에서 관련 대기열 주제를 구성할 수 있습니다. 이렇게 하면 요청을 할 때 요청자에게 일련의 드롭다운 메뉴를 제공합니다.
@@ -171,3 +175,13 @@ ht-degree: 2%
 
 1. **저장**&#x200B;을 클릭합니다.\
    이제 대기열 주제를 사용할 수 있으며, 요청 대기열 및 주제 그룹을 선택한 후에 Workfront의 요청 영역에 표시됩니다.
+
+## 대기열 주제 편집
+
+기존 대기열 주제를 편집하려면:
+
+1. 편집할 대기열 주제가 포함된 프로젝트 또는 템플릿으로 이동합니다.
+1. 왼쪽 패널에서 **주제 큐**&#x200B;를 클릭합니다.
+1. 프로덕션 환경에서 편집할 대기열 주제를 선택합니다. 화면에 표시되는 세부 정보 페이지에서 **대기열 주제 편집**&#x200B;을 클릭합니다.
+1. <span class="preview">미리 보기 환경에서 편집할 대기열 주제를 선택한 다음 편집 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.</span>
+
