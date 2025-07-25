@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
 source-wordcount: '5853'
 ht-degree: 0%
@@ -357,7 +357,7 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 ### 템플릿으로 저장 상자의 새로운 모양 및 느낌
 
-**미리보기 릴리스: 2025년 6월 12일, 프로덕션 릴리스: 2025년 6월 19일
+**미리 보기 릴리스: 2025년 6월 12일, 프로덕션 릴리스: 2025년 6월 19일**
 
 프로젝트를 템플릿으로 저장할 때 표시되는 &quot;템플릿으로 저장&quot; 상자의 모양을 업데이트했습니다. 새로운 디자인에는 간소화된 인터페이스가 포함되어 있으며, 모든 섹션이 왼쪽 패널의 링크를 사용하여 탐색할 수 있는 하나의 통합 형식으로 표시됩니다. 새 디자인은 응용 프로그램의 다른 영역 및 다른 오브젝트와 일치합니다.
 
@@ -515,7 +515,6 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 +++
 
-—>
 
 ## Q2에 이루어진 인터페이스 업데이트
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
-source-wordcount: '3721'
+source-wordcount: '3723'
 ht-degree: 4%
 
 ---
@@ -360,7 +360,7 @@ ht-degree: 4%
       <li> <p>작업에 할당된 리소스 수 </p> </li> 
       <li> <p>작업을 완료하는 데 필요한 총 작업입니다. </p> </li> 
       <li> <p> 작업의 총 기간입니다. </p> </li> 
-       </ul> <p>Workfront 관리자 또는 그룹 관리자는 시스템 또는 그룹의 작업에 대해 기본 기간 유형 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오. </p> <p>기간 유형을 사용하면 작업의 요구 사항에 따라 일관된 자원 할당을 설정할 수 있습니다. 작업의 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오. </p> <p>다음 옵션 중에서 선택합니다. </p> 
+       </ul> <p>Workfront 관리자 또는 그룹 관리자는 시스템 또는 그룹의 작업에 대해 기본 기간 유형 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">시스템 전체 작업 및 문제 환경 설정 구성</a>을 참조하십시오. </p> <p>기간 유형을 사용하면 작업의 요구 사항에 따라 일관된 자원 할당을 설정할 수 있습니다. 작업의 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오. </p> <p>다음 옵션 중에서 선택합니다. </p> 
        <ul> 
       <li> <p>계산된 할당 </p> </li> 
       <li> <p> 계산된 작업 </p> </li> 
