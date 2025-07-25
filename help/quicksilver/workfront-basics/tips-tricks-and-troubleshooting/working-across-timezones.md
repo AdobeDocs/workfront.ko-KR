@@ -5,9 +5,9 @@ title: 시간대 간 작업
 description: ' [!DNL Adobe Workfront] 이(가) 시간대를 사용하여 오브젝트와 이메일과 같은 다른 영역의 시간을 계산하는 방법을 이해하는 것이 도움이 될 수 있습니다.'
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -58,25 +58,36 @@ ht-degree: 0%
 
 ### 사용자 프로필 {#your-user-profile}
 
-사용자 프로필의 시간대는 사용자가 근무하는 위치에 맞게 구성해야 합니다. 이에 따라 다음이 결정됩니다.
+사용자 프로필의 시간대 필드는 보내는 이메일 메시지에 표시되는 시간을 제어합니다.
+
+시간대는 PTO 달력 보고서에 표시되는 내용에도 영향을 줍니다.
+
+사용자 프로필에서 표준 시간대를 구성하는 방법에 대한 자세한 내용은 [내 설정 구성](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)을 참조하십시오.
+
+[!DNL Workfront] 관리자(또는 사용자에 대해 [!UICONTROL 편집] 액세스 권한을 가진 사용자)가 사용자 프로필에서 시간대를 구성하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
+
+### 브라우저의 시간대
+
+브라우저에서 작업 중인 위치에 시간대를 구성해야 합니다. 이에 따라 다음이 결정됩니다.
 
 <!--
 * The time shown in your outgoing [!DNL Workfront] email messages
 [NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
 -->
-* 시작 및 종료 시간 등 작업 중인 오브젝트의 시간
+* 시작 및 종료 시간 등 작업 중인 오브젝트의 시간.
 
-  여러 시간대의 사용자가 개체에 할당된 경우 [!DNL Workfront]은(는) 각 사용자 프로필에 구성된 시간대를 사용하여 관련된 모든 사용자의 개체 시간을 변환합니다.
+  여러 시간대의 사용자가 개체에 할당된 경우 [!DNL Workfront]은(는) 각 사용자의 브라우저에 구성된 시간대를 사용하여 관련된 모든 사용자의 개체 시간을 변환합니다.
 
-  **예:** 작업하는 동부 표준시(EST) 영역에서 오후 4시에 시작하도록 작업을 설정하고 태평양 표준시(PST) 영역에서 작업하는 사용자에게 할당합니다. 해당 사용자의 경우 시작 시간은 오후 1시로 표시됩니다. 오후 4시로 표시하면 3시간 늦게 작업을 시작해요.
+  **예**
+작업하는 동부 표준시(EST) 영역에서는 오후 4:00에 시작하도록 작업을 설정하고 태평양 표준시(PST) 영역에서 근무하는 사용자에게 할당합니다. 해당 사용자의 경우 시작 시간은 오후 1:00로 표시됩니다. 오후 4:00시로 표시된다면 그들은 3시간 늦게 작업을 시작할 것입니다.
 
-  객체 작성자가 할당자의 시간대의 차이를 인지하지 못하고 객체 시간을 설정할 때 필요한 조정을 하지 않거나 할당자가 그러한 차이를 인지하지 못하는 경우 모든 사용자가 객체를 공동 작업하는 동안 타이밍을 올바르게 설정하기 어려울 수 있습니다.
+  객체 작성자가 할당자의 시간대의 차이를 알지 못하고 객체 시간을 설정할 때 필요한 조정을 하지 않거나 할당자가 그 차이를 알지 못하는 경우 모든 사람이 객체에 대해 공동 작업을 수행하는 동안 타이밍을 제대로 맞추기가 어려울 수 있습니다.
 
-  **예:** 작업에 있는 일부 사용자가 PST 영역에서 작업하는 것을 잊고 오전 9시에 시작하도록 하루 작업을 구성합니다. 시작 시간은 오전 6시입니다. 9시(시간 정오)까지는 작업을 시작하지 않으므로 작업이 시작되고 3시간 늦게 끝납니다.
+  **예**
 
-사용자 프로필에서 표준 시간대를 구성하는 방법에 대한 자세한 내용은 [내 설정 구성](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)을 참조하십시오.
+  작업에 있는 일부 사용자가 PST 영역에서 작업한다는 것을 잊고 오전 9:00(EST)에 시작하도록 1일 작업을 구성합니다. 해당 사용자의 경우 오전 6:00 시작 시간입니다. 9:00까지(시간 정오) 작업을 시작하지 않으므로 작업이 시작되고 3시간 늦게 끝납니다.
 
-[!DNL Workfront] 관리자(또는 사용자에 대해 [!UICONTROL 편집] 액세스 권한을 가진 사용자)가 사용자 프로필에서 시간대를 구성하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
+시간대 구성은 브라우저마다 다릅니다. 자세한 내용은 각 브라우저의 설명서나 도움말 정보를 참조하십시오.
 
 ## 사용자가 시간대 간에 보다 쉽게 작업할 수 있도록 하는 방법
 
@@ -110,7 +121,7 @@ ht-degree: 0%
 >[!BEGINSHADEBOX]
 
 **예:**
-EST 사용자는 EST 정오 시간인 오전 9시(PST)에 시작하기로 예정된 1일 작업에 할당됩니다. EST 사용자는 당일 근무시간이 2시간만 남아 있으므로 임무 완료 일자는 다음 근무일까지 약 6시간 연장됩니다.
+EST 사용자는 정오 EST인 오전 9:00시(PST)에 시작되도록 예약된 1일 작업에 할당됩니다. EST 사용자는 당일 근무시간이 2시간만 남아 있으므로 임무 완료 일자는 다음 근무일까지 약 6시간 연장됩니다.
 
 
 >[!ENDSHADEBOX]
@@ -126,7 +137,7 @@ EST 사용자는 EST 정오 시간인 오전 9시(PST)에 시작하기로 예정
 
 여러 도시의 시간을 표시하는 공항 시계 행과 같이, 사용자 정의 양식에서 일련의 계산된 사용자 정의 필드를 사용하여 조직의 사용자에 대한 현재 시간을 표시할 수 있습니다. 사용자가 근무하는 각 시간대에 대해 시간대의 시간을 계산하는 필드를 만들 수 있습니다.
 
-자세한 내용은 [계산된 데이터 표현식 개요](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) 문서의 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) 및 [날짜 및 시간 계산된 사용자 정의 필드](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) 섹션을 참조하십시오.
+자세한 내용은 [계산된 데이터 표현식 개요](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) 문서의 [양식에 계산된 필드 추가](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) 및 [날짜 및 시간 계산된 사용자 정의 필드](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) 섹션을 참조하십시오.
 
 ### 사용자 정의 양식의 날짜 필드 대신 텍스트 필드 사용 {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 

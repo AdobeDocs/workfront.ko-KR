@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td> <p>표준</p>
+   <td> <p>밝거나 높음</p>
    <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
   </td> 
   </tr> 

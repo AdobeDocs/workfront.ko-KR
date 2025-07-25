@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '312'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Adobe Workfront Planning에서 더 이상 사용하지 않는 레코드 보기�
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>보기에 대한 권한 관리</p>  
-   <p>보기에 대한 권한을 보고 일시적으로 보기 설정을 변경하거나 복제합니다.</p> </td> 
+   </td> 
   </tr> 
 </tbody> 
 </table>

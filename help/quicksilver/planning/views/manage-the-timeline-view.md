@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '3862'
+source-wordcount: '3872'
 ht-degree: 2%
 
 ---
@@ -340,6 +340,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 * 연결된 레코드 필드 또는 조회 필드를 기준으로 그룹화할 수 있습니다.
 * 집계자가 요약하지 않은 여러 값이 있는 조회 필드를 기준으로 그룹화하면, 레코드는 각 필드 값의 고유한 조합으로 그룹화됩니다.
 * 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형에 대한 그룹화를 만드는 중에 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우, 활동 레코드 유형에 대해 만들고 있는 그룹화에서 프로젝트의 상태를 참조할 수 있습니다.
+* 그룹화는 값의 알파벳 순서로 나열됩니다.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 

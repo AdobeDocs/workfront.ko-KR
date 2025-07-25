@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td><p> 표준 </p>
+   <td><p> 밝거나 높음 </p>
    <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
   </td> 
   </tr> 
@@ -77,8 +77,8 @@ ht-degree: 2%
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>보기에 대한 권한 관리</p>  
-   <p>보기에 대한 권한을 보고 보기 설정을 일시적으로 변경하거나 복제하거나 내보냅니다.</p> </td> 
+   <td>   <p>보기에 대한 보기 이상의 권한</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table>
