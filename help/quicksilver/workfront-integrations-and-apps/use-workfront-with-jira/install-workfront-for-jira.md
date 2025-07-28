@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >공통 워크플로우를 복제하고 구현을 가속화하는 데 도움이 되는 8개의 Jira용 Workfront 자동화 및 통합 템플릿을 8월까지 사용할 수 있습니다. 템플릿은 특정 비즈니스 요구 사항을 충족하도록 완전히 맞춤화할 수 있으며 요구 사항이 발전함에 따라 확장될 수 있습니다.
 > 
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Jira용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Jira 소프트웨어 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)을 참조하십시오.
+>Jira용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Jira 소프트웨어 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)을 참조하십시오.
 
 [!DNL Adobe Workfront for Jira]을(를) 사용하여 [!DNL Jira] 및 [!DNL Workfront] 시스템을 통합할 수 있습니다.
 

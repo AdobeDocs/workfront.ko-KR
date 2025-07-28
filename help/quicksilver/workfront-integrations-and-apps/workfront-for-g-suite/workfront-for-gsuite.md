@@ -28,9 +28,9 @@ ht-degree: 0%
 >
 >조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
+>Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
 
 [!DNL Adobe Workfront for Google Workspace]을(를) 통해 가장 중요한 작업에 연결할 수 있으며 [!DNL Gmail], [!DNL Google Calendar] 및 [!DNL Google Drive] 내에 있는 동안 다른 사용자와 공동 작업을 수행할 수 있습니다. 이러한 응용 프로그램을 종료하지 않고 전자 메일 요청이나 작업 업데이트를 캡처하여 [!DNL Workfront]에 추가할 수 있습니다. 받은 편지함에서 보내지 않고 기한, 우선 순위, 문서, 업데이트 및 추가 컨텍스트를 포함하여 [!DNL Workfront]에서 발생한 상황을 확인할 수 있습니다. 승인 결정을 내리거나, 댓글에 답글을 달거나, 새 작업 요청을 수락할 수 있습니다. 또한 이메일을 개인 프로젝트 작업으로 변환하거나 작업과 우선 순위를 다른 사람에게 할당할 수 있습니다.
 
