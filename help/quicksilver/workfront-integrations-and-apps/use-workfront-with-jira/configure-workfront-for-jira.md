@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront for Jira] 을(를) 사용하여  [!DNL Jira
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2508'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,27 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
+>[!IMPORTANT]
+>
+>보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환하고 있습니다. 이 전환 프로세스의 일부로 **2026년 2월 28일** 이후에는 Jira용 Workfront 통합을 사용할 수 없습니다.
+>
+>Jira와 조직의 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
+>
+>공통 워크플로우를 복제하고 구현을 가속화하는 데 도움이 되는 8개의 Jira용 Workfront 자동화 및 통합 템플릿을 8월까지 사용할 수 있습니다. 템플릿은 특정 비즈니스 요구 사항을 충족하도록 완전히 맞춤화할 수 있으며 요구 사항이 발전함에 따라 확장될 수 있습니다.
+> 
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>
+>Jira용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Jira 소프트웨어 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)을 참조하십시오.
+
 [!DNL Adobe Workfront for Jira]을(를) 사용하여 [!DNL Jira] 및 [!DNL Workfront] 시스템을 통합할 수 있습니다.
 
-추가 기능을 설치한 후 [!DNL Workfront]개의 작업 항목을 만들 때 [!DNL Jira]개의 문제를 자동으로 만드는 워크플로를 정의할 수 있습니다. 두 응용 프로그램의 항목이 연결되고 일부 정보는 두 시스템에서 자동으로 업데이트됩니다.
+추가 기능을 설치한 후 [!DNL Jira]개의 작업 항목을 만들 때 [!DNL Workfront]개의 문제를 자동으로 만드는 워크플로를 정의할 수 있습니다. 두 응용 프로그램의 항목이 연결되고 일부 정보는 두 시스템에서 자동으로 업데이트됩니다.
 
 [!DNL Workfront] 및 [!DNL Jira]의 모든 사용자가 이 통합을 통해 혜택을 받을 수 있습니다. 가장 많이 사용하는 시스템에 대한 라이선스만 있으면 되고 두 시스템 모두에 대한 라이선스는 필요하지 않습니다.
 
-이 추가 기능은 [!DNL Jira] 소프트웨어의 [!UICONTROL Server] 및 [!UICONTROL OnDemand] (또는 [!UICONTROL Cloud]) 버전 모두에서 사용할 수 있습니다.
+이 추가 기능은 [!UICONTROL  소프트웨어의 ]Server[!UICONTROL  및 ]OnDemand[!UICONTROL (또는 ]Cloud[!DNL Jira]) 버전 모두에서 사용할 수 있습니다.
 
-현재 [!DNL Workfront for Jira]에서 지원하는 [!DNL Jira] 버전 목록은 [!DNL Atlassian Marketplace]의 [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview)을(를) 참조하십시오.
+현재 [!DNL Jira]에서 지원하는 [!DNL Workfront for Jira] 버전 목록은 [[!DNL Workfront for Jira]의 ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)[!DNL Atlassian Marketplace]을(를) 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -77,19 +89,19 @@ ht-degree: 0%
 
 [!DNL Workfront for Jira]을(를) 구성하여 다음을 수행할 수 있습니다.
 
-* [!DNL Workfront]개 항목을 만들 때 [!DNL Jira]개 항목을 만들 트리거를 정의합니다.
+* [!DNL Jira]개 항목을 만들 때 [!DNL Workfront]개 항목을 만들 트리거를 정의합니다.
 * [!DNL Jira]과(와) [!DNL Workfront] 사이에 연결된 항목 간에 동기화할 필드를 지정하십시오.
 
 >[!NOTE]
 >
->* [!DNL Jira] 환경에서 [!DNL Workfront for Jira]을(를) 구성하면 모든 [!DNL Jira] 사용자에게 모든 [!DNL Jira] 항목에 대한 [!DNL Workfront] 오른쪽 패널이 표시됩니다. 패널에 [!DNL Workfront]에서 연결할 수 있는 항목에 대한 정보가 포함되어 있거나 [!DNL Workfront]개 항목이 [!DNL Jira]개 항목에 연결되어 있지 않도록 지정합니다.
+>* [!DNL Workfront for Jira] 환경에서 [!DNL Jira]을(를) 구성하면 모든 [!DNL Jira] 사용자에게 모든 [!DNL Workfront] 항목에 대한 [!DNL Jira] 오른쪽 패널이 표시됩니다. 패널에 [!DNL Workfront]에서 연결할 수 있는 항목에 대한 정보가 포함되어 있거나 [!DNL Workfront]개 항목이 [!DNL Jira]개 항목에 연결되어 있지 않도록 지정합니다.
 >* [!DNL Jira Server] 설치를 사용하는 경우 Workfront 통합에 대한 트리거로 식별된 프로젝트와 관련된 문제만 Workfront 패널에 표시됩니다. [!DNL Workfront to Jira] 워크플로의 트리거 설정에 대한 자세한 내용은 [자동 연결 트리거 구성 [!DNL Jira] 과(와) [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront)을(를) 참조하십시오.
 >
 
 [!DNL Workfront for Jira]을(를) 구성하려면:
 
 1. [!DNL Jira]에 [!DNL Jira] 관리자로 로그인합니다.
-1. 주 [!DNL Jira] 메뉴에서 **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
+1. 주 **[!UICONTROL 메뉴에서]**&#x200B;설정[!DNL Jira]을 클릭합니다.
 1. **[!UICONTROL 추가 기능]**&#x200B;을 클릭한 다음 **[!UICONTROL 추가 기능 관리]**&#x200B;를 클릭합니다.
 
 1. **[!DNL Workfront]** 추가 기능을 확장합니다.
@@ -98,7 +110,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >연결을 만들려면 [!UICONTROL Workfront]에 올바른 `apiKey`이(가) 있어야 합니다.
+   >연결을 만들려면 `apiKey`Workfront[!UICONTROL 에 올바른 ]이(가) 있어야 합니다.
 
    구성을 계속하려면 [!DNL Workfront]에 [!DNL Workfront] 관리자로 로그인해야 합니다.
 
@@ -108,11 +120,11 @@ ht-degree: 0%
    >* [!DNL Workfront] 계정의 도메인을 입력하라는 메시지가 표시되면 *yourCompany&#39;sDomain.my.workfront.com* 형식을 사용하여 입력하세요. 회사의 도메인은 일반적으로 회사의 이름입니다.
    >* 향상된 인증은 [!DNL Workfront] 관리자가 이 통합에 사용하도록 설정할 때까지 사용할 수 없습니다.
 
-1. Jira에서 **[!UICONTROL 트리거]** 탭을 선택하여 새 [!DNL Workfront]개 항목이 생성될 때 [!DNL Jira]개 항목의 자동 만들기를 구성하십시오.
+1. Jira에서 **[!UICONTROL 트리거]** 탭을 선택하여 새 [!DNL Jira]개 항목이 생성될 때 [!DNL Workfront]개 항목의 자동 만들기를 구성하십시오.
 
    [!DNL Jira] 워크플로우에 대한 Workfront의 트리거 설정에 대한 자세한 내용은 [자동 연결 트리거 구성 [!DNL Jira] 과(와) [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront)을(를) 참조하십시오.
 
-1. 연결된 [!DNL Jira]개 항목과 [!DNL Workfront]개 항목 간의 필드 동기화를 구성하려면 **[!UICONTROL 설정]** 탭을 선택하십시오.
+1. 연결된 **[!UICONTROL 개 항목과]**&#x200B;개 항목 간의 필드 동기화를 구성하려면 [!DNL Jira]설정[!DNL Workfront] 탭을 선택하십시오.
 
    [!DNL Jira]과(와) [!DNL Workfront] 사이의 필드 동기화를 설정하는 방법에 대한 자세한 내용은 [과(와) [!DNL Jira] 과(와) [!DNL Workfront] 항목](#configure-field-synchronization-between-jira-and-workfront-items) 사이의 필드 동기화 구성 을 참조하십시오.
 
@@ -126,13 +138,13 @@ ht-degree: 0%
 
 ## [!DNL Jira]과(와) [!DNL Workfront] 사이의 항목을 자동으로 연결하기 위한 트리거 구성
 
-[!DNL Jira] 시스템 관리자는 [!DNL Workfront]의 항목이 특정 기준을 만족할 때 [!DNL Jira]에서 자동으로 문제를 만드는 트리거를 정의할 수 있습니다.
+[!DNL Jira] 시스템 관리자는 [!DNL Jira]의 항목이 특정 기준을 만족할 때 [!DNL Workfront]에서 자동으로 문제를 만드는 트리거를 정의할 수 있습니다.
 
 >[!NOTE]
 >
 >통합에서 [!DNL Jira]에 새 문제를 만드는 데 최대 10분이 걸릴 수 있습니다.
 
-[!DNL Workfront]개 항목이 생성될 때 [!DNL Jira]개 항목 생성을 트리거하도록 구성할 때는 다음 사항을 고려하십시오.
+[!DNL Jira]개 항목이 생성될 때 [!DNL Workfront]개 항목 생성을 트리거하도록 구성할 때는 다음 사항을 고려하십시오.
 
 * 통합은 단방향입니다. [!DNL Workfront]에서 만든 항목만 [!DNL Jira]에서 자동으로 만들도록 트리거할 수 있습니다. [!DNL Jira]에서 만든 항목을 [!DNL Workfront]에서 자동으로 만들도록 트리거할 수 없습니다.
 * 가질 수 있는 트리거 수에 제한은 없습니다.
@@ -142,7 +154,7 @@ ht-degree: 0%
 [!DNL Jira]에서 항목을 자동으로 만들기 위한 트리거를 구성하려면 다음 작업을 수행하십시오.
 
 1. 시스템 관리자로 [!DNL Jira]에 로그인합니다.
-1. 주 [!DNL Jira] 메뉴에서 **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
+1. 주 **[!UICONTROL 메뉴에서]**&#x200B;설정[!DNL Jira]을 클릭합니다.
 1. **[!UICONTROL 추가 기능]**&#x200B;을 클릭한 다음 **[!UICONTROL 추가 기능 관리]**&#x200B;를 클릭합니다.
 1. **[!DNL Workfront]** 추가 기능을 확장합니다.
 1. **[!UICONTROL 구성]**&#x200B;을 클릭합니다.
@@ -178,7 +190,7 @@ ht-degree: 0%
 두 애플리케이션 간에 연결된 항목에 대해 자동으로 동기화할 필드를 정의하려면
 
 1. [!DNL Jira]에 Jira 관리자로 로그인합니다.
-1. 주 [!DNL Jira] 메뉴에서 **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
+1. 주 **[!UICONTROL 메뉴에서]**&#x200B;설정[!DNL Jira]을 클릭합니다.
 1. **[!UICONTROL 추가 기능]**&#x200B;을 클릭한 다음 **[!UICONTROL 추가 기능 관리]**&#x200B;를 클릭합니다.
 1. **[!DNL Workfront]** 추가 기능을 확장합니다.
 1. **[!UICONTROL 구성]**&#x200B;을 클릭합니다.
@@ -190,7 +202,7 @@ ht-degree: 0%
 
       <table style="table-layout:auto">
          <tr>
-              <td>만들 때 </td>
+              <td>만들 때 [!UICONTROL]</td>
               <td>지정한 필드는 Workfront에서 항목을 만들 때 연결된 Workfront과 [!DNL Jira]개 항목 간에 동기화됩니다.</td>
           </tr>
           <tr>
@@ -203,7 +215,7 @@ ht-degree: 0%
           </tr>
       </table>
 
-   1. [!DNL Workfront]에서 [!DNL Jira] (으)로 필드를 동기화하려면 다음 중 하나를 선택하십시오.
+   1. [!DNL Workfront]에서 [!DNL Jira]&#x200B;(으)로 필드를 동기화하려면 다음 중 하나를 선택하십시오.
 
       <table style="table-layout:auto">
        <col>
@@ -211,7 +223,7 @@ ht-degree: 0%
        <tbody>
         <tr>
          <td role="rowheader">[!UICONTROL 이름]</td>
-         <td><p>[!DNL Workfront]의 작업 또는 문제 이름이 [!DNL Jira]에서 연결된 문제의 이름이 됩니다.</p><p>참고: [!DNL Jira]에서 새 항목을 자동으로 만들면 [!DNL Workfront] 이름이 이 필드를 여기에서 사용할 수 있는지 여부에 관계없이 항상 [!DNL Jira] 항목에 업데이트됩니다. [!DNL Jira] 항목이 [!DNL Workfront] 항목에 수동으로 연결된 경우 <strong>항상</strong> 이 필드를 동기화하도록 선택하면 [!DNL Workfront] 항목의 이름이 [!DNL Jira]에서만 업데이트됩니다. 항목을 수동 또는 자동으로 연결하는 방법에 대한 자세한 내용은 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md" class="MCXref xref">[!DNL Adobe Workfront]과(와) [!DNL Jira]</a> 사이의 항목 연결을 참조하십시오.</p></td>
+         <td><p>[!DNL Workfront]의 작업 또는 문제 이름이 [!DNL Jira]에서 연결된 문제의 이름이 됩니다.</p><p>참고: [!DNL Jira]에서 새 항목을 자동으로 만들면 [!DNL Workfront] 이름이 이 필드를 여기에서 사용할 수 있는지 여부에 관계없이 항상 [!DNL Jira] 항목에 업데이트됩니다. [!DNL Jira] 항목이 [!DNL Workfront] 항목에 수동으로 연결된 경우 [!DNL Workfront]항상[!DNL Jira] 이 필드를 동기화하도록 선택하면 <strong> 항목의 이름이 </strong>에서만 업데이트됩니다. 항목을 수동 또는 자동으로 연결하는 방법에 대한 자세한 내용은 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md" class="MCXref xref">[!DNL Adobe Workfront]과(와) [!DNL Jira]</a> 사이의 항목 연결을 참조하십시오.</p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL 설명]</td>
@@ -219,7 +231,7 @@ ht-degree: 0%
         </tr>
         <tr>
          <td role="rowheader">문서</td>
-         <td><p>[!DNL Workfront]의 작업 또는 문제에 첨부된 문서도 Jira에서 연결된 문제에 첨부됩니다. [!DNL Workfront]의 새 문서 버전이 별도의 문서로 Jira에 추가되고 Workfront에서 번호가 매겨진 버전을 나타내기 위해 <i>_v&lt;version number&gt;</i>와(과) 함께 추가됩니다. </p><p>예를 들어 [!DNL Workfront]에 있는 문서 이름이 <strong>주 광고</strong>이고 [!DNL Workfront]에 새 버전을 추가하면 새 버전이 <strong>주 광고_v2</strong>라는 새 문서로 [!DNL Jira]에 전송됩니다.</p><p>중요 사항: <p>문서를 동기화할 때는 다음 사항을 고려하십시오.</p>
+         <td><p>[!DNL Workfront]의 작업 또는 문제에 첨부된 문서도 Jira에서 연결된 문제에 첨부됩니다. [!DNL Workfront]의 새 문서 버전이 별도의 문서로 Jira에 추가되고 Workfront에서 번호가 매겨진 버전을 나타내기 위해 <i>_v&lt;version number&gt;</i>와(과) 함께 추가됩니다. </p><p>예를 들어 [!DNL Workfront]에 있는 문서 이름이 <strong>주 광고</strong>이고 [!DNL Workfront]에 새 버전을 추가하면 새 버전이 [!DNL Jira]주 광고_v2<strong>라는 새 문서로 </strong>에 전송됩니다.</p><p>중요 사항: <p>문서를 동기화할 때는 다음 사항을 고려하십시오.</p>
            <ul>
             <li><p>5MB가 넘는 문서는 동기화되지 않습니다. 문서가 너무 커서 문서 동기화에 실패하면 오류가 활동 로그에 기록됩니다. </p><p>작업 로그에 대한 자세한 내용은 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">Jira 작업 로그 보기</a>를 참조하십시오.</p></li>
             <li><p>외부 서버의 작업 및 문제에 연결된 문서는 [!DNL Jira] 항목으로 전송되지 않습니다. [!DNL Workfront]의 작업 또는 문제에 직접 업로드된 문서만 [!DNL Jira]의 연결된 문제로 전송됩니다.</p></li>
@@ -228,12 +240,12 @@ ht-degree: 0%
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL 계획된 완료 일자]</td>
-         <td><p>[!DNL Workfront]에 있는 작업 또는 문제의 [!UICONTROL 계획된 완료 일자]가 [!DNL Jira]에 연결된 문제의 [!UICONTROL 기한]이 됩니다.</p><p>참고: 이 값을 동기화하려면 [!DNL Jira] 문제에 대해 <strong>[!UICONTROL 기한]</strong>을(를) 표시해야 합니다.</p></td>
+         <td><p>[!DNL Workfront]에 있는 작업 또는 문제의 [!UICONTROL 계획된 완료 일자]가 [!DNL Jira]에 연결된 문제의 [!UICONTROL 기한]이 됩니다.</p><p>참고: 이 값을 동기화하려면 <strong> 문제에 대해 </strong>[!UICONTROL 기한][!DNL Jira]을(를) 표시해야 합니다.</p></td>
         </tr>
        </tbody>
       </table>
 
-1. **[!UICONTROL [!DNL Jira]에서[!DNL Workfront]]**(으)로 동기화 섹션에서 [!DNL Jira]에 업데이트될 때 [!DNL Workfront]에서 업데이트할 필드를 선택합니다.
+1. **[!UICONTROL [!DNL Jira]에서[!DNL Workfront]]**(으)로 동기화 섹션에서 [!DNL Workfront]에 업데이트될 때 [!DNL Jira]에서 업데이트할 필드를 선택합니다.
 
    1. 필드가 동기화되는 다음 빈도 중 하나를 선택합니다.
 
@@ -243,16 +255,16 @@ ht-degree: 0%
        <tbody>
         <tr>
          <td role="rowheader">[!UICONTROL Always]</td>
-         <td>지정한 필드는 [!DNL Jira]에서 필드가 업데이트될 때 연결된 [!DNL Workfront] 항목과 [!DNL Jira] 항목 간에 항상 동기화됩니다. </td>
+         <td>지정한 필드는 [!DNL Workfront]에서 필드가 업데이트될 때 연결된 [!DNL Jira] 항목과 [!DNL Jira] 항목 간에 항상 동기화됩니다. </td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL 사용 안 함]</td>
-         <td><p>지정한 필드는 연결된 [!DNL Workfront]개 항목과 [!DNL Jira]개 항목 간에 동기화되지 않습니다. [!DNL Workfront]에 필드가 [!DNL Jira]에서 업데이트되었다는 표시가 없습니다. </p><p>참고: [안 함]을 선택하면 [!DNL Jira] 문제의 왼쪽 [!DNL Workfront] 패널에 있는 [!DNL Jira]에서 [!DNL Workfront] 필드를 수동으로 업데이트할 수 있습니다. 이러한 업데이트는 [!DNL Jira] 및 [!DNL Workfront]의 [!DNL Workfront]개 항목에만 표시되고 [!DNL Jira]개 항목에는 표시되지 않습니다.</p></td>
+         <td><p>지정한 필드는 연결된 [!DNL Workfront]개 항목과 [!DNL Jira]개 항목 간에 동기화되지 않습니다. [!DNL Workfront]에 필드가 [!DNL Jira]에서 업데이트되었다는 표시가 없습니다. </p><p>참고: [안 함]을 선택하면 [!DNL Workfront] 문제의 왼쪽 [!DNL Jira] 패널에 있는 [!DNL Workfront]에서 [!DNL Jira] 필드를 수동으로 업데이트할 수 있습니다. 이러한 업데이트는 [!DNL Workfront] 및 [!DNL Jira]의 [!DNL Workfront]개 항목에만 표시되고 [!DNL Jira]개 항목에는 표시되지 않습니다.</p></td>
         </tr>
        </tbody>
       </table>
 
-   1. [!DNL Jira]에서 [!DNL Workfront] (으)로 다음 필드 중 하나를 동기화하려면 선택하십시오.
+   1. [!DNL Jira]에서 [!DNL Workfront]&#x200B;(으)로 다음 필드 중 하나를 동기화하려면 선택하십시오.
 
       <table style="table-layout:auto">
        <col>
@@ -264,7 +276,7 @@ ht-degree: 0%
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL 담당자]</td>
-         <td><p>[!DNL Jira]에서 문제의 [!UICONTROL Assignee]이(가) [!DNL Workfront]에서 연결된 작업 또는 문제의 [!UICONTROL Assignee]이 됩니다.</p><p>중요: [!DNL Jira]의 항목을 [!DNL Workfront] 계정이 없는 사용자에게 할당하면 <strong>사용자에게 [!DNL Workfront] 계정이 없는 경우 [!DNL Workfront]에서 자동으로 사용자 만들기</strong>가 <strong>[!UICONTROL Always]</strong>(으)로 설정된 경우에만 통합에서 [!DNL Workfront]에서 새 활성 사용자를 만듭니다. [!DNL Jira] 이 사용자는 [!DNL Workfront] 라이선스를 사용하지 않습니다. 활성 사용자를 [!DNL Workfront]의 작업 항목에 할당할 수 있지만 업데이트에 포함할 수 없습니다. </p></td>
+         <td><p>[!DNL Jira]에서 문제의 [!UICONTROL Assignee]이(가) [!DNL Workfront]에서 연결된 작업 또는 문제의 [!UICONTROL Assignee]이 됩니다.</p><p>중요: [!DNL Jira]의 항목을 [!DNL Workfront] 계정이 없는 사용자에게 할당하면 [!DNL Workfront]사용자에게 <strong> 계정이 없는 경우 [!DNL Workfront]에서 자동으로 사용자 만들기[!DNL Jira]가 [!DNL Workfront][!UICONTROL Always]</strong>(으)로 설정된 경우에만 통합에서 <strong>에서 새 활성 사용자를 만듭니다. </strong> 이 사용자는 [!DNL Workfront] 라이선스를 사용하지 않습니다. 활성 사용자를 [!DNL Workfront]의 작업 항목에 할당할 수 있지만 업데이트에 포함할 수 없습니다. </p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL 첨부 파일]</td>
@@ -288,30 +300,30 @@ ht-degree: 0%
        <col>
        <tbody>
         <tr>
-         <td role="rowheader">[!UICONTROL [!DNL Jira]]의 오른쪽 패널에 [!DNL Workfront] 사용자 지정 데이터를 복사합니다.</td>
+         <td role="rowheader">[!UICONTROL [!DNL Workfront]]의 오른쪽 패널에 [!DNL Jira] 사용자 지정 데이터를 복사합니다.</td>
          <td><p>[!DNL Workfront] 오른쪽 패널에 항목의 [!DNL Workfront] 사용자 지정 데이터를 표시합니다.</p><p>참고: 사용자 정의 양식 섹션은 [!DNL Workfront] 시스템 관리자의 액세스 수준으로 [!DNL Workfront] 오른쪽 패널에 표시됩니다.</p></td>
         </tr>
         <tr>
-         <td role="rowheader">[!UICONTROL [!DNL Jira]]의 오른쪽 패널에 있는 [!DNL Workfront] 복사 우선 순위</td>
+         <td role="rowheader">[!UICONTROL [!DNL Workfront]]의 오른쪽 패널에 있는 [!DNL Jira] 복사 우선 순위</td>
          <td>[!DNL Workfront] 오른쪽 패널에 항목의 [!DNL Workfront] 우선 순위를 표시합니다.</td>
         </tr>
         <tr>
-         <td role="rowheader">[!UICONTROL [!DNL Jira]의 기한 변경에 대해 [!DNL Workfront] 업데이트 탭에 업데이트를 추가합니다.]</td>
-         <td>연결된 [!DNL Jira] 항목에서 [!UICONTROL 기한]이 변경되면 [!DNL Workfront] 항목의 [!UICONTROL 업데이트] 탭에 주석을 추가합니다.</td>
+         <td role="rowheader">[!UICONTROL [!DNL Workfront]의 기한 변경에 대해 [!DNL Jira] 업데이트 탭에 업데이트를 추가합니다.]</td>
+         <td>연결된 [!DNL Workfront] 항목에서 [!UICONTROL 기한]이 변경되면 [!DNL Jira] 항목의 [!UICONTROL 업데이트] 탭에 주석을 추가합니다.</td>
         </tr>
         <tr>
-         <td role="rowheader">[!UICONTROL [!DNL Jira] 사용자에게 [!DNL Workfront] 계정이 없는 경우 [!DNL Workfront]에서 사용자를 자동으로 만듭니다.]</td>
+         <td role="rowheader">[!UICONTROL [!DNL Workfront] 사용자에게 [!DNL Jira] 계정이 없는 경우 [!DNL Workfront]에서 사용자를 자동으로 만듭니다.]</td>
          <td><p>다음과 같은 시나리오가 있습니다.</p>
           <ul>
-           <li><strong>[!UICONTROL Always]</strong>을(를) 선택하면 [!DNL Workfront] 계정이 없는 [!DNL Jira] 사용자가 연결된 [!DNL Jira] 문제에 대해 다음 작업을 수행할 때마다 통합이 새 Workfront 사용자를 만들 수 있습니다.
+           <li><strong>[!UICONTROL Always]</strong>을(를) 선택하면 [!DNL Jira] 계정이 없는 [!DNL Workfront] 사용자가 연결된 [!DNL Jira] 문제에 대해 다음 작업을 수행할 때마다 통합이 새 Workfront 사용자를 만들 수 있습니다.
             <ul>
              <li>[!DNL Jira] 문제에 할당됨</li>
              <li><p>[!DNL Jira] 문제에 시간을 기록합니다.</p><p>이 새 사용자는 [!DNL Workfront] 라이선스를 사용하지 않습니다. 기본 설정은 항상 입니다. [!DNL Workfront]에서 이러한 방식으로 만든 사용자의 이름에 "[!UICONTROL Jira]"가 추가되었습니다.</p></li>
             </ul></li>
            <li><strong>[!UICONTROL 사용 안 함]</strong>을(를) 선택하면 다음 상황이 발생합니다.
             <ul>
-             <li>[!DNL Workfront] 항목에서 [!DNL Jira] 할당을 볼 수 없습니다. 이 경우 [!DNL Workfront]에서 수행된 할당만 [!DNL Workfront] 항목에 표시됩니다.</li>
-             <li>[!DNL Workfront] 계정이 없는 사용자가 연결된 [!DNL Jira] 문제에 기록된 시간이 연결된 [!DNL Workfront] 항목으로 자동으로 전송되지 않습니다. [!DNL Jira] 문제의 오른쪽 패널에 있는 [!DNL Workfront] 항목에 시간을 계속 기록할 수 있습니다.</li>
+             <li>[!DNL Jira] 항목에서 [!DNL Workfront] 할당을 볼 수 없습니다. 이 경우 [!DNL Workfront]에서 수행된 할당만 [!DNL Workfront] 항목에 표시됩니다.</li>
+             <li>[!DNL Jira] 계정이 없는 사용자가 연결된 [!DNL Workfront] 문제에 기록된 시간이 연결된 [!DNL Workfront] 항목으로 자동으로 전송되지 않습니다. [!DNL Workfront] 문제의 오른쪽 패널에 있는 [!DNL Jira] 항목에 시간을 계속 기록할 수 있습니다.</li>
             </ul></li>
           </ul></td>
         </tr>
@@ -324,7 +336,7 @@ ht-degree: 0%
 
 ## 문제 해결
 
-### &quot;[!UICONTROL 찾을 수 없음]&quot;으로 표시된 트리거 필드로 인해 [!DNL Jira]에서 항목을 만들 수 없습니다.
+### &quot;[!DNL Jira]찾을 수 없음[!UICONTROL &quot;으로 표시된 트리거 필드로 인해 ]에서 항목을 만들 수 없습니다.
 
 #### 문제
 
@@ -336,9 +348,9 @@ ht-degree: 0%
 
 이 동작의 가장 일반적인 원인은 오류 &quot;[!UICONTROL 필드 &#39;duedate&#39;를 설정할 수 없기 때문입니다. 적절한 화면이 아니거나 알 수 없습니다.]&quot;
 
-이 오류는 &quot;[!UICONTROL 계획된 완료 일자]&quot;을(를) [!DNL Workfront]에서 [!DNL Jira] (으)로 동기화하려고 시도하고 있음을 의미합니다. 이렇게 하려면 [!DNL Jira] 개체에 &quot;[!UICONTROL 기한]&quot;이라는 필드가 있는지 확인해야 합니다. 이 필드가 없으면 [!DNL Workfront]이(가) [!DNL Workfront]에서 계획된 완료 일자를 동기화할 수 없으며 트리거를 사용할 수 없게 됩니다.
+이 오류는 &quot;[!UICONTROL 계획된 완료 일자]&quot;을(를) [!DNL Workfront]에서 [!DNL Jira]&#x200B;(으)로 동기화하려고 시도하고 있음을 의미합니다. 이렇게 하려면 [!DNL Jira] 개체에 &quot;[!UICONTROL 기한]&quot;이라는 필드가 있는지 확인해야 합니다. 이 필드가 없으면 [!DNL Workfront]이(가) [!DNL Workfront]에서 계획된 완료 일자를 동기화할 수 없으며 트리거를 사용할 수 없게 됩니다.
 
 이 오류를 해결하려면 다음 중 하나를 시도해 보십시오.
 
 * [!DNL Jira] 관리자에게 해당 [!DNL Jira] 개체가 기한 필드가 있는지 업데이트하도록 요청하십시오.
-* Workfront [!UICONTROL 설치] 페이지에서 [!DNL Workfront]의 계획된 완료 날짜에 대한 동기화를 사용하지 않도록 설정하십시오.
+* Workfront [!DNL Workfront]설치[!UICONTROL  페이지에서 ]의 계획된 완료 날짜에 대한 동기화를 사용하지 않도록 설정하십시오.

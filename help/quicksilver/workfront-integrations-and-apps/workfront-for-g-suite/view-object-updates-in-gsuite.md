@@ -7,18 +7,28 @@ description: Google Workspace을 종료하지 않고  [!DNL Adobe Workfront] 개
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Workspace]에서 [!DNL Adobe Workfront] 개체 업데이트 보기
+# [!DNL Adobe Workfront]에서 [!DNL Google Workspace] 개체 업데이트 보기
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Google용 Adobe Workfront 플러그인의 최신 버전은 2023년 6월 26일에 릴리스되었습니다.
+>보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환하고 있습니다. 이 전환 프로세스의 일부로 다음 Google Workspace용 Workfront 기능은 **2026년 2월 28일** 이후에 사용할 수 없습니다.
+>
+>* Workfront 내에서 Google Workspace 기능 액세스
+>
+>* Gmail 또는 Google Calendar 사이트 패널에서 Workfront 작업 보기 및 관리
+>
+>조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
+>
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>
+>Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
 
 [!DNL Google Workspace]을(를) 종료하지 않고 [!DNL Adobe Workfront] 개체에서 업데이트와 업데이트에 대한 응답을 볼 수 있습니다.
 
@@ -52,7 +62,7 @@ ht-degree: 0%
 
 ## [!DNL Google Workspace]에서 개체 업데이트 보기
 
-1. [보기 및 관리 [!DNL Adobe Workfront] 개체 세부 정보 확인 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)에 설명된 대로 [!DNL Google Workspace]에서 개체를 봅니다.
+1. [!DNL Google Workspace]보기 및 관리[개체 세부 정보 확인 [!DNL Adobe Workfront] 에 설명된 대로  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)에서 개체를 봅니다.
 1. **[!UICONTROL 업데이트]** 탭을 클릭합니다.
 1. 표시되는 옵션은 객체에 이미 추가된 업데이트에 의해 결정됩니다.
 

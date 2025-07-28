@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. **기술 관리자 식별**
 
-   [!DNL Workfront]과(와) 통합할 응용 프로그램에 대한 조직의 기술 관리자를 지정하십시오. 예를 들어 [!DNL Jira]과(와) 통합하도록 선택한 경우 회사의 [!DNL Jira] 관리자에게 연결하여 플랫폼 내의 모든 구성 요구 사항에 이 관리자를 참여시켜야 합니다. [!DNL Workfront] 고객 지원 팀과의 대화에도 이 관리자를 참여시켜야 합니다.
+   [!DNL Workfront]과(와) 통합할 응용 프로그램에 대한 조직의 기술 관리자를 지정하십시오. 예를 들어 [!DNL Slack]과(와) 통합하도록 선택한 경우 회사의 [!DNL Slack] 관리자에게 연결하여 플랫폼 내의 모든 구성 요구 사항에 이 관리자를 참여시켜야 합니다. [!DNL Workfront] 고객 지원 팀과의 대화에도 이 관리자를 참여시켜야 합니다.
 
    관리자를 시작하려면 관리자에게 해당 통합에 대한 특정 지침을 제공해야 합니다. 이 지침에 대한 링크는 [추가 비용 없이 사용할 수 있는 통합](#integrations-available-at-no-additional-cost)을 참조하십시오.
 
@@ -113,7 +113,7 @@ ht-degree: 0%
      <li>After Effects </li>
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
-     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Adobe Workfront]개 응용 프로그램용 [!DNL Creative Cloud] 플러그 인 설치</a>를 참조하십시오.</p> 
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Adobe Workfront]개 응용 프로그램용 [!DNL Creative Cloud] 플러그 인 설치</a>를 참조하십시오.</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -148,27 +148,6 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Google Workspace]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>프로젝트 또는 작업에 [!DNL Google Workspace] 전자 메일 추가 </li> 
-     <li>다음 위치에서 [!DNL Workfront] 알림 보기 및 관리 [!DNL Gmail]</li> 
-     <li>[!DNL Gmail]을(를) 통해 요청 제출 </li> 
-    </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a>을(를) 참조하십시오.</p> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Google Workspace] 사용자에게 [!DNL Workfront] 라이선스가 있어야 합니다. </li> 
-     <li>[!DNL Workfront] 액세스 수준별로 보기 및 작업 공유 권한을 설정해야 합니다. </li> 
-     <li> 사용자에게 POP가 활성화된 이메일 계정이 있어야 합니다. </li> 
-     <li>[!DNL Workfront] 요청 설정에 POP 설정이 포함되어야 함 </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Google Workspace] 관리자</li> 
-     <li>[!DNL Workfront] 관리자 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td> <p>[!DNL Google Drive]</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
@@ -176,24 +155,6 @@ ht-degree: 0%
     </ul> <p>자세한 내용은 <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">문서 통합 구성</a>을 참조하십시오.</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Jira]</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>의 작업 및 문제를 기반으로 [!DNL Jira]에서 새 티켓 만들기 [!DNL Workfront]</li> 
-     <li>Workfront과 [!DNL Jira] 간 연결된 작업의 업데이트 및 상태 동기화 </li> 
-     <li>[!DNL Jira Server]과(와) [!DNL Jira Cloud]에서 모두 작동 </li> 
-    </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>을(를) 참조하십시오.</p> </td> 
-   <td> 
-    <ul> 
-     <li><p>새 Workfront 플랜: [!UICONTROL Select] [!DNL Workfront] 플랜 이상</p><p>현재 Workfront 플랜: [!UICONTROL Pro] [!DNL Workfront] 플랜 이상</p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li> [!DNL Jira] 관리자만 설치</li> 
-     <li>[!DNL Jira]이(가) 아닌 관리자는 [!DNL Jira] 관리자에게 액세스 권한을 요청해야 합니다.</li> 
-    </ul> </td> 
   </tr> 
   <!--<tr> 
    <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
@@ -255,23 +216,6 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Salesforce]</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Workfront]에서 새 [!DNL Salesforce]개 요청 만들기 </li> 
-     <li>[!DNL Workfront]개 프로젝트 만들기 [!DNL Salesforce]</li> 
-    </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>을(를) 참조하십시오.</p> </td> 
-   <td> 
-    <ul> 
-     <li><p>새 Workfront 플랜: [!UICONTROL Select] [!DNL Workfront] 플랜 이상</p><p>현재 Workfront 플랜: [!UICONTROL Pro] [!DNL Workfront] 플랜 이상</p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Salesforce] 관리자</li> 
-     <li>[!DNL Workfront] 관리자</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td> <p>[!DNL SharePoint]</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
    <td> 
     <ul> 
@@ -320,7 +264,7 @@ ht-degree: 0%
 
   [!DNL Adobe Workfront Fusion]은(는) 앱과 서비스 내에서 작업을 연결하여 데이터를 자동으로 전송하고 변환하는 시나리오를 만듭니다. 많은 앱에 대한 전용 커넥터를 보유하고 있지만 공개 API를 사용하여 모든 애플리케이션에 연결할 수 있습니다.
 
-  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan]&#x200B;([!DNL Workfront Fusion] 필요)

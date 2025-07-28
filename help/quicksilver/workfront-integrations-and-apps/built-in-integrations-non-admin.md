@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations
-keywords: adobe,box,dropbox,gsuite,google,jira,microsoft,salesforce,sharepoint,slack,webdam,zoom
+keywords: adobe,box,dropbox,microsoft,sharepoint,slack,webdam,확대/축소
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront 기본 제공 통합 개요
 description: ' [!DNL Adobe Workfront] 을(를) 타사 응용 프로그램과 통합할 수 있습니다. 이러한 통합을 통해  [!DNL Workfront] 의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어 마케팅 업계의 크리에이티브 작업자인 경우 Adobe Creative Cloud 추가 기능을 사용하여 자산을 Photoshop에서 Workfront으로 직접 내보낼 수 있습니다.'
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '433'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 3%
      <li>After Effects </li>
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
-     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Adobe Workfront]개 응용 프로그램용 [!DNL Creative Cloud] 플러그 인 설치</a>를 참조하십시오.</p> </td> 
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Adobe Workfront]개 응용 프로그램용 [!DNL Creative Cloud] 플러그 인 설치</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets 및 Assets Essentials </p>  </p> </td> 
@@ -72,27 +72,10 @@ ht-degree: 3%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>프로젝트 또는 작업에 Google Workspace 이메일 추가 </li> 
-     <li>Gmail에서 [!DNL Workfront] 알림 보기 및 관리</li> 
-     <li>Gmail을 통해 요청 제출 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader"> <p>Google 드라이브</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
      <li>문서 및 폴더 연결 대상 [!DNL Workfront]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Jira</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>의 작업 및 문제를 기반으로 [!DNL Jira]에서 새 티켓 만들기 [!DNL Workfront]</li> 
-     <li>[!DNL Workfront]과(와) [!DNL Jira] 간 연결된 작업의 업데이트 및 상태 동기화 </li> 
     </ul> </td> 
   </tr> 
   <!--<tr> 
@@ -128,21 +111,6 @@ ht-degree: 3%
      <li>[!DNL Workfront]개의 프로젝트, 작업 및 문제 검색 </li> 
      <li>[!DNL Workfront]개의 개인 작업 만들기 </li> 
      <li>[!DNL Workfront]개 요청 제출 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Workfront]에서 새 [!DNL Salesforce]개 요청 만들기 </li> 
-     <li>[!DNL Workfront]개 프로젝트 만들기 [!DNL Salesforce]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Sharepoint</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>문서 및 폴더 연결 대상 [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 

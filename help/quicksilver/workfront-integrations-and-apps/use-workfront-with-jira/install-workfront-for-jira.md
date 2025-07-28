@@ -1,29 +1,41 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
-title: ' [!DNL Jira]용  [!DNL Adobe Workfront] 설치'
+title: ' [!DNL Adobe Workfront] 용  [!DNL Jira]설치'
 description: ' [!DNL Adobe Workfront] for [!DNL Jira] 을 사용하여  [!DNL Jira] 및 [!DNL Workfront] 시스템을 통합할 수 있습니다.'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for Jira] 설치
 
+>[!IMPORTANT]
+>
+>보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환하고 있습니다. 이 전환 프로세스의 일부로 **2026년 2월 28일** 이후에는 Jira용 Workfront 통합을 사용할 수 없습니다.
+>
+>Jira와 조직의 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
+>
+>공통 워크플로우를 복제하고 구현을 가속화하는 데 도움이 되는 8개의 Jira용 Workfront 자동화 및 통합 템플릿을 8월까지 사용할 수 있습니다. 템플릿은 특정 비즈니스 요구 사항을 충족하도록 완전히 맞춤화할 수 있으며 요구 사항이 발전함에 따라 확장될 수 있습니다.
+> 
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>
+>Jira용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Jira 소프트웨어 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)을 참조하십시오.
+
 [!DNL Adobe Workfront for Jira]을(를) 사용하여 [!DNL Jira] 및 [!DNL Workfront] 시스템을 통합할 수 있습니다.
 
-추가 기능을 설치한 후 [!DNL Workfront]개의 작업 항목을 만들 때 [!DNL Jira]개의 문제를 자동으로 만드는 워크플로를 정의할 수 있습니다. 두 응용 프로그램의 항목이 연결되고, 두 시스템에서 일부 정보가 자동으로 업데이트됩니다.
+추가 기능을 설치한 후 [!DNL Jira]개의 작업 항목을 만들 때 [!DNL Workfront]개의 문제를 자동으로 만드는 워크플로를 정의할 수 있습니다. 두 응용 프로그램의 항목이 연결되고, 두 시스템에서 일부 정보가 자동으로 업데이트됩니다.
 
 [!DNL Workfront] 및 [!DNL Jira]의 모든 사용자가 이 통합을 통해 혜택을 받을 수 있습니다. 가장 많이 사용하는 시스템에 대한 라이선스만 있으면 되고 두 시스템 모두에 대한 라이선스는 필요하지 않습니다.
 
-이 추가 기능은 [!DNL Jira] 소프트웨어의 [!UICONTROL 서버] 및 [!UICONTROL OnDemand] (또는 [!UICONTROL 클라우드]) 버전에서 사용할 수 있습니다. [!DNL Jira] 소프트웨어의 [!DNL Data Center] 버전에서는 이 추가 기능을 사용할 수 없습니다.
+이 추가 기능은 [!UICONTROL  소프트웨어의 ]서버[!UICONTROL  및 ]OnDemand[!UICONTROL (또는 ]클라우드[!DNL Jira]) 버전에서 사용할 수 있습니다. [!DNL Data Center] 소프트웨어의 [!DNL Jira] 버전에서는 이 추가 기능을 사용할 수 없습니다.
 
-현재 [!DNL Workfront for Jira]에서 지원하는 [!DNL Jira] 버전 목록은 Atlassian Marketplace에서 [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview)을(를) 참조하십시오.
+현재 [!DNL Jira]에서 지원하는 [!DNL Workfront for Jira] 버전 목록은 Atlassian Marketplace에서 [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)을(를) 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -62,11 +74,11 @@ ht-degree: 0%
 
 +++
 
-## [!DNL Jira]에 대해 [!DNL Workfront] 설치
+## [!DNL Workfront]에 대해 [!DNL Jira] 설치
 
-[!DNL Jira] OnDemand에 대해 [!DNL Workfront]을(를) 설치하는 것은 [!DNL Jira] 서버 인스턴스에 설치하는 것과 동일합니다.
+[!DNL Workfront] OnDemand에 대해 [!DNL Jira]을(를) 설치하는 것은 [!DNL Jira] 서버 인스턴스에 설치하는 것과 동일합니다.
 
-[!DNL Workfront] 추가 기능을 설치하려면 [!DNL Jira] 관리자여야 합니다.
+[!DNL Jira] 추가 기능을 설치하려면 [!DNL Workfront] 관리자여야 합니다.
 
 [!DNL Jira] 관리자가 아닌 경우 [!DNL Workfront] 추가 기능을 찾아 설치를 요청할 수 있습니다. 승인 및 설치를 위해 요청을 [!DNL Jira] 관리자에게 보냅니다.
 
@@ -75,11 +87,11 @@ ht-degree: 0%
 [!DNL Workfront for Jira]을(를) 설치하려면
 
 1. [!DNL Jira]에 [!DNL Jira] 관리자로 로그인합니다.
-1. [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview)에서 **[!DNL Workfront for Jira]** 추가 기능을 찾으십시오.
+1. **[!DNL Workfront for Jira]**[[!DNL Atlassian Marketplace]&#x200B;에서 ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) 추가 기능을 찾으십시오.
 
 1. 설치하려면 **[!UICONTROL 지금 가져오기]**&#x200B;를 클릭하세요.
 
-   설치가 완료되면 [!DNL Jira]에서 [!DNL Workfront]에 로그인하여 통합을 구성할 수 있습니다.
+   설치가 완료되면 [!DNL Workfront]에서 [!DNL Jira]에 로그인하여 통합을 구성할 수 있습니다.
 
    자세한 내용은 [Jira용 Adobe Workfront 구성](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)을 참조하십시오.
 
@@ -87,9 +99,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이러한 요구 사항은 [!DNL Jira] 소프트웨어의 [!UICONTROL OnDemand] ([!UICONTROL Cloud]) 버전에는 적용되지 않습니다.
+>이러한 요구 사항은 [!UICONTROL  소프트웨어의 ]OnDemand[!UICONTROL (]Cloud[!DNL Jira]) 버전에는 적용되지 않습니다.
 
-두 [!DNL Jira] 환경에서 [!DNL Workfront] 추가 기능을 설치하는 것은 비슷하지만 [!DNL Jira Server] 설치를 사용하여 작업할 때는 다음 사항을 고려해야 합니다.
+두 [!DNL Workfront] 환경에서 [!DNL Jira] 추가 기능을 설치하는 것은 비슷하지만 [!DNL Jira Server] 설치를 사용하여 작업할 때는 다음 사항을 고려해야 합니다.
 
 * [!DNL Jira]에서 추가 기능을 구성할 때 **[!DNL JIRA Base URL]** 필드에 지정된 주소가 개인 서버에서 [!DNL Jira]에 액세스하는 데 사용하는 URL과 다를 수 있습니다. **[!DNL JIRA Base URL]**&#x200B;은(는) NAT 또는 역방향 프록시 프로토콜을 사용하여 개인 서버에 공개적으로 액세스할 수 있는 주소여야 합니다. [!DNL Workfront]이(가) 이 주소에 액세스하여 서버에 요청할 수 있습니다.
 

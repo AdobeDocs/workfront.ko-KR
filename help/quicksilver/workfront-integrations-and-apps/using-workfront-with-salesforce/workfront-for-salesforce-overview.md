@@ -7,9 +7,9 @@ description: Salesforce용  [!DNL Adobe Workfront] 을(를) 설치하여 Salesfo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,23 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
+>[!IMPORTANT]
+>
+>보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환하고 있습니다. 이 전환 프로세스의 일부로 **2026년 2월 28일** 이후에는 Salesforce용 Workfront 통합을 사용할 수 없습니다.
+>
+>조직의 Salesforce 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
+>
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>
+>Salesforce용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Salesforce 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)을 참조하십시오.
+
 [!DNL Adobe Workfront for Salesforce]을(를) 설치하여 [!DNL Salesforce] 사용자가 [!DNL Workfront]개의 요청을 제출하고 [!DNL Salesforce]을(를) 종료하지 않고 자동으로 프로젝트를 만들 수 있습니다.
 
 [!DNL Workfront] 관리자는 [!DNL Workfront for Salesforce]을(를) 다운로드하고 구성할 수 있습니다. 그러면 다른 [!DNL Salesforce] 사용자와 공유할 수 있습니다.
 
 [!DNL Workfront for Salesforce] 설치에 대한 자세한 내용은 [설치 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)를 참조하십시오.
 
-모든 사용자에 대해 [!DNL Salesforce]의 [!DNL Workfront] 섹션을 구성하는 방법에 대한 자세한 내용은 [사용자 [!DNL Salesforce] 에 대한  [!DNL Adobe Workfront] 섹션 구성](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)을 참조하십시오.
+모든 사용자에 대해 [!DNL Workfront]의 [!DNL Salesforce] 섹션을 구성하는 방법에 대한 자세한 내용은 [사용자 [!DNL Adobe Workfront] 에 대한  [!DNL Salesforce] 섹션 구성](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -64,25 +74,25 @@ ht-degree: 0%
 
 [!DNL Workfront for Salesforce]을(를) 사용할 때 다음 작업을 수행할 수 있습니다.
 
-* 영업 기회 또는 계정 내에서 [!DNL Salesforce]의 새 [!DNL Workfront] 요청을 수동으로 만드십시오.
+* 영업 기회 또는 계정 내에서 [!DNL Workfront]의 새 [!DNL Salesforce] 요청을 수동으로 만드십시오.
 
   자세한 내용은 [제출 [!DNL Adobe Workfront] 요청 출처 [!DNL Salesforce] 개체](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)를 참조하십시오.
 
-* [!DNL Salesforce]에서 특정 기준이 충족되면 [!DNL Workfront]에서 프로젝트 만들기를 자동으로 트리거합니다. [!DNL Salesforce] 시스템 관리자는 [!DNL Salesforce]에서 프로젝트를 만들기 위한 트리거를 구성해야 합니다.
+* [!DNL Workfront]에서 특정 기준이 충족되면 [!DNL Salesforce]에서 프로젝트 만들기를 자동으로 트리거합니다. [!DNL Salesforce] 시스템 관리자는 [!DNL Salesforce]에서 프로젝트를 만들기 위한 트리거를 구성해야 합니다.
 
-  [!DNL Salesforce]에서 [!DNL Workfront] 프로젝트를 만드는 방법에 대한 자세한 내용은 [만들기 [!DNL Adobe Workfront] 개체 [!DNL Salesforce] 에서 프로젝트](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)를 참조하십시오.
+  [!DNL Workfront]에서 [!DNL Salesforce] 프로젝트를 만드는 방법에 대한 자세한 내용은 [만들기 [!DNL Adobe Workfront] 개체 [!DNL Salesforce] 에서 프로젝트](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)를 참조하십시오.
 
-[!DNL Salesforce]에 대해 [!DNL Workfront]&#x200B;(으)로 작업할 때 다음 사항을 고려하십시오.
+[!DNL Workfront]에 대해 [!DNL Salesforce]&#x200B;(으)로 작업할 때 다음 사항을 고려하십시오.
 
 * [!DNL Salesforce Classic] 및 [!DNL Lightning Experience] 프레임워크를 모두 지원합니다.
 * 항목은 [!DNL Salesforce]에서 [!DNL Workfront]까지만 만들 수 있습니다.
-* [!DNL Salesforce]에서 [!DNL Workfront]개 항목에 대한 일부 정보를 볼 수 있습니다. 이 정보는 사용자 지정할 수 없습니다.
+* [!DNL Workfront]에서 [!DNL Salesforce]개 항목에 대한 일부 정보를 볼 수 있습니다. 이 정보는 사용자 지정할 수 없습니다.
 
-  [!DNL Salesforce]에서 볼 수 있는 [!DNL Workfront] 필드 목록에 대해서는 [제출 [!DNL Adobe Workfront] 개체](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)의 요청 [!DNL Salesforce] 및 [개체 [!DNL Salesforce] 에서  [!DNL Adobe Workfront] 프로젝트 만들기](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)를 참조하십시오.
+  [!DNL Workfront]에서 볼 수 있는 [!DNL Salesforce] 필드 목록에 대해서는 [제출 [!DNL Adobe Workfront] 개체 [!DNL Salesforce] 의 요청](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)및 [개체 [!DNL Adobe Workfront] 에서  [!DNL Salesforce] 프로젝트 만들기](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)를 참조하십시오.
 
-* Workfront에서 [!UICONTROL Salesforce으로 이동] 링크를 클릭하여 [!DNL Salesforce]에 연결된 항목에 직접 액세스할 수 있습니다.
+* Workfront에서 [!DNL Salesforce]Salesforce으로 이동[!UICONTROL  링크를 클릭하여 ]에 연결된 항목에 직접 액세스할 수 있습니다.
 
-  [!DNL Workfront]의 [!DNL Salesforce] 항목에 대한 정보를 볼 수 없지만 Workfront에서 검토할 수 있도록 Salesforce의 항목으로 이동하는 링크가 있습니다.
+  [!DNL Salesforce]의 [!DNL Workfront] 항목에 대한 정보를 볼 수 없지만 Workfront에서 검토할 수 있도록 Salesforce의 항목으로 이동하는 링크가 있습니다.
 
   [!UICONTROL Salesforce으로 이동] 링크가 다음 영역에 표시됩니다.
 
@@ -90,7 +100,7 @@ ht-degree: 0%
    * 프로젝트 또는 문제의 헤더.
 
      시스템 또는 그룹 관리자가 프로젝트 또는 문제 헤더에서 [!UICONTROL Salesforce으로 이동] 링크를 보려면 [!UICONTROL 통합] 필드를 레이아웃 템플릿에 추가해야 합니다.
-   * 목록의 도구 모음에서 [!UICONTROL 요약 열기] ![요약 패널 아이콘](assets/summary-panel-icon.png)을 클릭한 후 목록에서 문제를 선택할 때 문제가 발생하는 [!DNL Summary] 패널.
+   * 목록의 도구 모음에서 [!DNL Summary]요약 열기요약 패널 아이콘![을 클릭한 후 목록에서 문제를 선택할 때 문제가 발생하는 ](assets/summary-panel-icon.png) 패널.
 
      >[!NOTE]
      >

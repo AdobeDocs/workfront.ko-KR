@@ -7,7 +7,7 @@ description: 목표를 활성화하려면 목표에 결과, 활동 또는 정렬
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -67,10 +67,6 @@ ht-degree: 0%
 
 * 그들은 &quot;내 목표가 완성되었을 때 어떻게 알 수 있습니까?&quot;라는 질문에 답합니다.
 * 지표 표시기입니다. 다음 옵션 중에서 선택하여 결과에 대한 진행 상황을 나타낼 수 있습니다.
-
-  <!--
-  this might change (jira, Salesforce, etc))
-  -->
 
    * 통화
    * 숫자

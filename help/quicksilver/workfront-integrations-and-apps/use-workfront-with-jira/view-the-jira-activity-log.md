@@ -6,16 +6,28 @@ description: ' [!DNL Jira] 관리자는  [!DNL Adobe Workfront] 에서 [!DNL Jir
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL [!DNL Jira] 작업 로그 보기]
 
-[!DNL Jira] 관리자는 [!UICONTROL 활동 로그]에서 [!DNL Adobe Workfront]에서 [!DNL Jira] 사이의 티켓을 동기화하거나 만드는 동안 발생하는 예외와 오류를 볼 수 있습니다.
+>[!IMPORTANT]
+>
+>보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환하고 있습니다. 이 전환 프로세스의 일부로 **2026년 2월 28일** 이후에는 Jira용 Workfront 통합을 사용할 수 없습니다.
+>
+>Jira와 조직의 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
+>
+>공통 워크플로우를 복제하고 구현을 가속화하는 데 도움이 되는 8개의 Jira용 Workfront 자동화 및 통합 템플릿을 8월까지 사용할 수 있습니다. 템플릿은 특정 비즈니스 요구 사항을 충족하도록 완전히 맞춤화할 수 있으며 요구 사항이 발전함에 따라 확장될 수 있습니다.
+> 
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>
+>Jira용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Jira 소프트웨어 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)을 참조하십시오.
+
+[!DNL Jira] 관리자는 [!DNL Adobe Workfront]활동 로그[!DNL Jira]에서 [!UICONTROL 에서 ] 사이의 티켓을 동기화하거나 만드는 동안 발생하는 예외와 오류를 볼 수 있습니다.
 
 활동 로그에서 최대 500개의 항목을 볼 수 있으며 가장 최근 항목으로 시작하여 나열됩니다.
 
@@ -61,7 +73,7 @@ ht-degree: 0%
 ## [!UICONTROL [!DNL Jira] 작업 로그]에 액세스:
 
 1. 시스템 관리자로 Jira에 로그인합니다.
-1. 주 [!DNL Jira] 메뉴에서 **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
+1. 주 **[!UICONTROL 메뉴에서]**&#x200B;설정[!DNL Jira]을 클릭합니다.
 1. **[!UICONTROL 추가 기능]**&#x200B;을 클릭한 다음 **[!UICONTROL 추가 기능 관리]**&#x200B;를 클릭합니다.
 
 1. **[!DNL Workfront]** 추가 기능을 확장합니다.

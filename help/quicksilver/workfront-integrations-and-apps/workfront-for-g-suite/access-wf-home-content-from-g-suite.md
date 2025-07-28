@@ -7,18 +7,28 @@ description: Google Workspace을 종료하지 않고도 자신에게 할당된 �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Workspace]에서 [!DNL Adobe Workfront] [!UICONTROL Home] 콘텐츠에 액세스
+# [!DNL Adobe Workfront]에서 Home[!DNL Google Workspace] 콘텐츠에 액세스
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Google용 Adobe Workfront 플러그인의 최신 버전은 2023년 6월 26일에 릴리스되었습니다.
+>보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환하고 있습니다. 이 전환 프로세스의 일부로 다음 Google Workspace용 Workfront 기능은 **2026년 2월 28일** 이후에 사용할 수 없습니다.
+>
+>* Workfront 내에서 Google Workspace 기능 액세스
+>
+>* Gmail 또는 Google Calendar 사이트 패널에서 Workfront 작업 보기 및 관리
+>
+>조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
+>
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>
+>Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
 
 Google Workspace을 종료하지 않고도 자신에게 할당된 모든 작업, 문제, 승인 및 액세스 요청을 포함하여 [!DNL Adobe Workfront] [!UICONTROL Home] 콘텐츠에 액세스할 수 있습니다.
 
@@ -45,16 +55,16 @@ Google Workspace을 종료하지 않고도 자신에게 할당된 모든 작업,
 
 ## 전제 조건
 
-[!DNL Google Workspace]에서 [!UICONTROL Home] 콘텐츠에 액세스하려면 먼저 다음을 수행해야 합니다.
+[!UICONTROL 에서 ]Home[!DNL Google Workspace] 콘텐츠에 액세스하려면 먼저 다음을 수행해야 합니다.
 
 * [!DNL Workfront for Google Workspace] 설치\
    지침은 [설치 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)를 참조하십시오.
 
-## [!DNL Google Workspace]에서 [!DNL Workfront] [!UICONTROL Home] 액세스
+## [!DNL Workfront]에서 Home[!DNL Google Workspace] 액세스
 
 1. [!DNL Workfront]에 로그인했는지 확인하십시오.
-1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![Workfront 아이콘](assets/wf-lion-icon.png)을 클릭하십시오.
-1. [!DNL Google Workspace]에 대해 [!DNL Workfront]의 맨 위에 왼쪽 화살표가 표시되면 화살표를 클릭하여 [!UICONTROL Home] 영역으로 이동합니다.
+1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![ 아이콘 ](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
+1. [!DNL Workfront]에 대해 [!DNL Google Workspace]의 맨 위에 왼쪽 화살표가 표시되면 화살표를 클릭하여 [!UICONTROL Home] 영역으로 이동합니다.
 
 1. **[!UICONTROL 정렬 기준]** 영역에서 확장 화살표 ![확장 화살표](assets/dropdown-arrow.png)를 클릭한 다음 옵션을 클릭하여 원하는 항목을 찾을 수 있도록 작업 항목을 그룹화하는 방법을 지정합니다.
 

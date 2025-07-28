@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
    <td> 작업 결과로 영향을 받는 개체의 이름입니다. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">세부 정보</td> 
+   <td role="rowheader">세부 사항</td> 
    <td>작업에 대한 추가 세부 정보. 전체 메시지를 읽으려면 마우스를 텍스트 위로 가져갑니다.</td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 * 액세스 수준 변경:
 
    * 라이선스 유형 수정
-   * 프로젝트, 작업, 문제, Portfolio, 프로그램, 보고서, 문서, 사용자 또는 템플릿에 대한 권한을 변경합니다.
+   * 프로젝트, 작업, 문제, 포트폴리오, 프로그램, 보고서, 문서, 사용자 또는 템플릿에 대한 권한을 변경합니다.
 
      >[!NOTE]
      >
@@ -257,7 +257,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 사용자가 다음 작업 중 하나를 수행하면 시스템에서 로그인 시도 감사 로그 항목을 생성합니다.
 
 * Workfront(브라우저 및 모바일 앱)에서 로그인하거나 로그아웃하거나 로그인에 실패합니다.
-* Workfront 통합(예: Slack의 경우 Workfront, Salesforce의 경우 Workfront)에서 로그인하거나 로그아웃하거나 로그인하지 못합니다.
+* 모든 Workfront 통합(예: Slack용 Workfront)에서 로그인하거나 로그아웃하거나 로그인 시도에 실패합니다.
 * Workfront API에 로그인하거나 로그아웃합니다.
 
 Workfront 관리자가 다음으로 로그인 기능을 사용하는 경우 로그인 시도 로그가 기록되지 않습니다.
@@ -266,7 +266,7 @@ Workfront 관리자가 다음으로 로그인 기능을 사용하는 경우 로�
 >
 >조직이 Adobe Admin Console에 온보딩된 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
 
-### 우선 순위 {#priority}
+### 우선순위 {#priority}
 
 사용자가 다음 작업 중 하나를 수행하면 시스템에서 우선 순위 감사 로그 항목을 생성합니다.
 

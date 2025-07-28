@@ -7,24 +7,34 @@ description: ' [!DNL Adobe Workfront)] 이(가) 생성하지 않은 외부 전�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
-# 전자 메일 콘텐츠를 사용하여 [!DNL Google Workspace]에서 [!DNL Adobe Workfront] 문제 만들기
+# 전자 메일 콘텐츠를 사용하여 [!DNL Adobe Workfront]에서 [!DNL Google Workspace] 문제 만들기
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Google용 Adobe Workfront 플러그인의 최신 버전은 2023년 6월 26일에 릴리스되었습니다.
+>보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환하고 있습니다. 이 전환 프로세스의 일부로 다음 Google Workspace용 Workfront 기능은 **2026년 2월 28일** 이후에 사용할 수 없습니다.
+>
+>* Workfront 내에서 Google Workspace 기능 액세스
+>
+>* Gmail 또는 Google Calendar 사이트 패널에서 Workfront 작업 보기 및 관리
+>
+>조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
+>
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>
+>Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
 
 외부 전자 메일([!DNL Adobe Workfront]에서 생성되지 않음)을 [!DNL Workfront] 문제로 변환할 수 있습니다.
 
 외부 이메일을 기존 문제에 대한 업데이트로 변환할 수도 있습니다. 자세한 내용은 [항목 업데이트 [!DNL Adobe Workfront] 출처 [!DNL Google Workspace] 이메일 콘텐츠 사용](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)을 참조하세요.
 
-[!DNL Workfront]이(가) 보낸 알림 전자 메일로 작업하기 위해 [!DNL Google Workspace]을(를) 사용하는 방법에 대한 자세한 내용은 [관리 [!DNL Adobe Workfront] 알림 세부 정보 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)를 참조하세요.
+[!DNL Google Workspace]이(가) 보낸 알림 전자 메일로 작업하기 위해 [!DNL Workfront]을(를) 사용하는 방법에 대한 자세한 내용은 [관리 [!DNL Adobe Workfront] 알림 세부 정보 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)를 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -54,9 +64,9 @@ ht-degree: 0%
 * [!DNL Workfront for Google Workspace] 설치\
    지침은 [설치 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)를 참조하십시오.
 
-## 이메일 콘텐츠를 사용하여 [!DNL Google Workspace]에서 [!DNL Adobe Workfront] 문제 만들기
+## 이메일 콘텐츠를 사용하여 [!DNL Adobe Workfront]에서 [!DNL Google Workspace] 문제 만들기
 
-1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Workfront] 아이콘 ![Workfront 아이콘](assets/wf-lion-icon.png)을 클릭하십시오.
+1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![ 아이콘 ](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
 1. [!DNL Google Workspace]에 전자 메일 메시지를 연 상태에서 [!DNL Workfront for Google Workspace]의 옵션을 클릭하여 전자 메일을 새 [!DNL Workfront] 문제로 변환합니다.
 
    ![전자 메일 변환](assets/convert-email-task-issue-update.png)
@@ -86,7 +96,7 @@ ht-degree: 0%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 이메일 첨부 파일 포함]</td> 
-      <td> <p>이메일에 첨부 파일이 하나 이상 포함된 경우에만 사용할 수 있습니다. 이메일의 첨부 파일을 문제의 [!UICONTROL 문서] 영역에 저장하려면 이 옵션을 클릭합니다. </p> <p>첨부 파일을 저장하지 않으려면 이름 오른쪽에 있는 X를 클릭합니다. </p> <p>전자 메일에 [!DNL Google Drive]의 문서에 대한 링크가 포함되어 있으면 만들고 있는 문제의 [!UICONTROL 개요] 탭에 저장됩니다. </p> <p>중요: 이 기능이 작동하려면 [!DNL Workfront] 관리자가 문서 <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">문서 통합 구성</a>의 <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">문서를 관리하기 위한 통합 구성</a> 섹션에 설명된 대로 [!DNL Google Drive]에서 [!DNL Workfront]의 문서로 작업할 수 있도록 권한을 부여해야 합니다.</p> <p>이 옵션을 활성화하면 작업, 문제 및 업데이트로 변환하는 다른 이메일에 대해 활성화된 상태로 유지됩니다.</p> </td> 
+      <td> <p>이메일에 첨부 파일이 하나 이상 포함된 경우에만 사용할 수 있습니다. 이메일의 첨부 파일을 문제의 [!UICONTROL 문서] 영역에 저장하려면 이 옵션을 클릭합니다. </p> <p>첨부 파일을 저장하지 않으려면 이름 오른쪽에 있는 X를 클릭합니다. </p> <p>전자 메일에 [!DNL Google Drive]의 문서에 대한 링크가 포함되어 있으면 만들고 있는 문제의 [!UICONTROL 개요] 탭에 저장됩니다. </p> <p>중요: 이 기능이 작동하려면 [!DNL Workfront] 관리자가 문서 [!DNL Google Drive]문서 통합 구성[!DNL Workfront]의 <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">문서를 관리하기 위한 통합 구성</a> 섹션에 설명된 대로 <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">에서 </a>의 문서로 작업할 수 있도록 권한을 부여해야 합니다.</p> <p>이 옵션을 활성화하면 작업, 문제 및 업데이트로 변환하는 다른 이메일에 대해 활성화된 상태로 유지됩니다.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">이메일 파일 포함</td> 

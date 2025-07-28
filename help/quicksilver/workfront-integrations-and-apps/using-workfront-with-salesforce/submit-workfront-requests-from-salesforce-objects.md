@@ -1,21 +1,31 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
-title: ' [!DNL Salesforce] 개체에서  [!DNL Adobe Workfront] 요청 제출'
-description: ' [!DNL Salesforce] 기회 및 계정의  [!DNL Adobe Workfront] for [!DNL Salesforce], you can submit [!DNL Workfront] 요청을 설치한 후. 이 기능은 Classic 및 Lightning Experience 프레임워크 모두에 있습니다.'
+title: ' [!DNL Adobe Workfront] 개체에서  [!DNL Salesforce] 요청 제출'
+description: ' [!DNL Adobe Workfront] 기회 및 계정의  [!DNL Salesforce], you can submit [!DNL Workfront] for [!DNL Salesforce] 요청을 설치한 후. 이 기능은 Classic 및 Lightning Experience 프레임워크 모두에 있습니다.'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 1%
+source-wordcount: '632'
+ht-degree: 0%
 
 ---
 
-# [!DNL Salesforce] 개체에서 [!DNL Adobe Workfront] 요청 제출
+# [!DNL Adobe Workfront] 개체에서 [!DNL Salesforce] 요청 제출
 
-[!DNL Adobe Workfront for Salesforce]을(를) 설치한 후 [!DNL Salesforce]개의 영업 기회 및 계정에서 [!DNL Workfront]개의 요청을 제출할 수 있습니다. 이 기능은 [!DNL Classic] 및 [!DNL Lightning Experience] 프레임워크 모두에 있습니다.
+>[!IMPORTANT]
+>
+>보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환하고 있습니다. 이 전환 프로세스의 일부로 **2026년 2월 28일** 이후에는 Salesforce용 Workfront 통합을 사용할 수 없습니다.
+>
+>조직의 Salesforce 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
+>
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>
+>Salesforce용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Salesforce 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)을 참조하십시오.
+
+[!DNL Adobe Workfront for Salesforce]을(를) 설치한 후 [!DNL Workfront]개의 영업 기회 및 계정에서 [!DNL Salesforce]개의 요청을 제출할 수 있습니다. 이 기능은 [!DNL Classic] 및 [!DNL Lightning Experience] 프레임워크 모두에 있습니다.
 
 ## 액세스 요구 사항
 
@@ -40,18 +50,18 @@ ht-degree: 1%
 
 ## 전제 조건
 
-[!DNL Salesforce] 영업 기회 또는 계정에서 [!DNL Workfront] 요청을 제출하려면 환경에 다음 항목이 있는지 확인하십시오.
+[!DNL Workfront] 영업 기회 또는 계정에서 [!DNL Salesforce] 요청을 제출하려면 환경에 다음 항목이 있는지 확인하십시오.
 
 * [!DNL Workfront] 관리자가 [!DNL Workfront for Salesforce]을(를) 설치했습니다.\
    [!DNL Workfront for Salesforce] 설치에 대한 자세한 내용은 [설치 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)를 참조하십시오
 
-* [!DNL Workfront] 관리자가 [!UICONTROL 기회] 및 [!UICONTROL 계정] 페이지 레이아웃에 [!DNL Workfront] 섹션을 추가했습니다.\
+* [!DNL Workfront] 관리자가 [!DNL Workfront]기회[!UICONTROL  및 ]계정[!UICONTROL  페이지 레이아웃에 ] 섹션을 추가했습니다.\
    페이지 레이아웃에 [!DNL Workfront] 섹션을 추가하는 방법에 대한 자세한 내용은 [사용자를 위한  [!DNL Adobe Workfront] 섹션 구성 [!DNL Salesforce] 을 참조하십시오](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 * [!DNL Workfront] 계정이 있으며 Opportunity 또는 Account 내의 [!DNL Workfront] 섹션에서 로그인할 수 있습니다.\
    로그인하면 [!UICONTROL 새 요청] 탭이 표시되어 요청 입력을 시작할 수 있습니다.
 
-## [!DNL Salesforce]에서 [!DNL Workfront]개 요청 제출
+## [!DNL Workfront]에서 [!DNL Salesforce]개 요청 제출
 
 1. Salesforce의 Opportunity 또는 Account 로 이동합니다.
 1. [!DNL Workfront] 섹션으로 이동합니다.
@@ -65,7 +75,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >[!DNL Salesforce]에서 [!DNL Workfront] 플러그인을 사용하여 문서를 업로드할 수 없습니다.
+   >[!DNL Workfront]에서 [!DNL Salesforce] 플러그인을 사용하여 문서를 업로드할 수 없습니다.
 
    [만들기 및 제출 [!DNL Adobe Workfront] 요청](../../manage-work/requests/create-requests/create-submit-requests.md)에 설명된 단계를 계속 수행합니다.
 

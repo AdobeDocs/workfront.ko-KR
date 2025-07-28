@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 1%
+source-wordcount: '717'
+ht-degree: 0%
 
 ---
 
@@ -22,8 +22,8 @@ Adobe Workfront은 조직의 네트워크와 통신하므로 해당 통신을 �
 
 이는 본질적으로 방화벽을 통해 데이터를 전송하거나 수신할 수 있는 사이트의 &quot;목록&quot;인 허용 목록에 추가하다를 통해 수행됩니다. 사이트는 다음 두 가지 방법 중 하나로 식별할 수 있습니다.
 
-* **IP 주소**: 52.31.132.175와 같은 일련의 숫자
-* **도메인**: URL의 일부(예: `www.thisdomain.com`의 `thisdomain`).
+* **IP 주소**: 52.31.132.175과(와) 같은 일련의 숫자
+* **도메인**: URL의 일부(예: `thisdomain`의 `www.thisdomain.com`).
 
 Workfront은 웹 통신에 특정 IP 주소 및 도메인을 사용합니다. 조직에서 Workfront을 사용하려면 먼저 조직의 허용 목록에 추가하다에 추가해야 합니다.
 
@@ -75,11 +75,8 @@ Workfront에 대한 방화벽을 구성하려면 네트워크 관리자가 추�
    <td role="rowheader">Adobe Workfront 통합</td> 
    <td>다음 중 하나를 사용하는 경우 네트워크 관리자에게 알립니다.
     <ul>
-     <li><p>Jira용 Workfront</p></li>
-     <li><p>Google Workspace용 Workfront</p></li>
      <li><p>Microsoft Teams용 Workfront</p></li>
      <li><p>Outlook용 Workfront</p></li>
-     <li><p>Salesforce용 Workfront</p></li>
     </ul></td> 
   </tr> 
   <tr> 
