@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,8 +38,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront 개선 사항
 
-<!--* [Resource Management enhancements](#resource-management-enhancements)-->
+* [문서 및 증명 개선 사항](#document-and-proofing-enhancements)
+  <!--* [Resource Management enhancements](#resource-management-enhancements)-->
 * [기타 개선 사항](#other-enhancements)
+
+### 문서 및 교정 개선 사항
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Adobe Express에 대한 새 증명 통합</a><p></p>
+            <p>Adobe Express과 Workfront Proof 간의 새로운 통합을 발표하게 되어 매우 기쁘게 생각합니다.</p>
+            <ul>
+            <li>크리에이티브, 법률 및 규정 준수 팀 간의 협업을 간소화하여 게시 시간을 단축하고 감독 유지</li>
+            <li>드로잉 마크업, 주석 및 Workfront 증명 뷰어의 주석을 사용하여 심도 있는 검토를 수행합니다</li>
+            <li>전자 서명 및 전체 감사 로그를 통해 기업 규정 준수 표준 충족</li>
+            <li>Express 브랜드 템플릿의 모든 재혼합 파일에 대한 승인 필요</li>
+            <li>고급 증명 템플릿을 사용하여 Express 템플릿을 다단계 검토 및 승인 워크플로에 매핑</li>
+            </ul>
+        </td>
+        <td>2025년 7월 28일 화요일</td>
+        <td>2025년 7월 28일 화요일</td>
+        <td>2025년 7월 28일 화요일</td>
+    </tr>     
+  </tbody>
+</table>
 
 
 
@@ -109,7 +133,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ### Workfront Planning 개선 사항
 
@@ -146,11 +170,11 @@ Workfront Planning의 새로운 기능은 프로덕션에서 사용할 수 있�
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ### API 버전 20
 
-Workfront API 버전 20은 2024년 5월 4일에 릴리스되었습니다. API 버전 20의 경우 일부 리소스 및 끝점을 수정했습니다. 일부 변경 사항은 새로운 기능을 지원하며, 다른 변경 사항을 통해 API를 통해 사용 가능한 정보를 보다 쉽게 사용할 수 있습니다.
+Workfront API 버전 20은 2025년 5월 4일에 릴리스되었습니다. API 버전 20의 경우 일부 리소스 및 끝점을 수정했습니다. 일부 변경 사항은 새로운 기능을 지원하며, 다른 변경 사항을 통해 API를 통해 사용 가능한 정보를 보다 쉽게 사용할 수 있습니다.
 
 새로운 기능 및 업데이트 내용은 [API 버전 20의 새로운 기능](/help/quicksilver/wf-api/api/new-api-version-19.md)을 참조하세요.
 
@@ -158,8 +182,8 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

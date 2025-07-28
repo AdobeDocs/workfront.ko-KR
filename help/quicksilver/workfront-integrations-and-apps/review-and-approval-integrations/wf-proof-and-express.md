@@ -7,12 +7,10 @@ description: 증명 및 Creative Cloud Express 시작
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
+source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ Adobe Express과 함께 Workfront Proof을 사용하여
 
 ## Workfront에서 승인 워크플로 설정
 
-사용자가 빠른 템플릿에 승인 워크플로를 추가하려면 먼저 증명 관리자가 Workfront에서 승인 워크플로를 만들어야 합니다.
+사용자가 빠른 템플릿에 승인 워크플로를 추가하려면 먼저 표준 라이선스가 있는 증명 관리자가 Workfront에서 승인 워크플로를 만들어야 합니다.
 
 자세한 내용은 [자동화된 워크플로 템플릿 만들기 및 관리](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)를 참조하십시오.
 
@@ -90,7 +88,9 @@ Workfront에서 승인 워크플로 템플릿이 생성되면 Express Enterprise
 
 빠른 템플릿이 다시 혼합되면 게시하기 전에 승인이 필요합니다. 즉, 사전 구성된 승인 워크플로가 자동으로 트리거됩니다.
 
-공유 가능한 템플릿에 검토 및 승인 워크플로를 추가하는 방법에 대해 자세히 알아보십시오. <!--need link to help article-->
+Adobe Express에서 승인을 요청하려면 사용자에게 Standard Workfront 라이선스가 있어야 합니다.
+
+[디자인 승인을 받는 방법](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)을 알아보세요.
 
 
 ## 빠른 템플릿을 리믹스하여 검토 및 승인을 위해 전송
@@ -104,8 +104,8 @@ Adobe Express 사용자는 자신의 요구 사항에 맞게 Express 템플릿�
 * 댓글 읽기
 * 외
 
-디자인 승인을 받는 방법에 대해 알아봅니다.\
-<!--need link to help article-->
+<!--Learn how to get approval on designs.   
+need link to help article-->
 
 ## 재혼합된 Express 파일 검토 및 승인
 
@@ -113,8 +113,4 @@ Adobe Express 사용자는 자신의 요구 사항에 맞게 Express 템플릿�
 
 또한 컨텐츠를 게시할 수 있도록 승인하는 최종 결정을 내릴 책임이 있습니다.
 
-Workfront에서 디자인을 검토하고 승인하는 방법에 대해 자세히 알아보십시오.
-
-
-Workfront Collaborator 라이선스 - 이 작업하기 위한 방법 알아보기
-
+검토하고 결정하려면 사용자에게 최소 Collaborator Workfront 라이선스가 있어야 합니다.
