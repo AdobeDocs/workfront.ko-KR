@@ -25,7 +25,7 @@ ht-degree: 3%
 >
 >Salesforce용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Salesforce 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)을 참조하십시오.
 
-Salesforce용 [!DNL Adobe Workfront]을(를) 설치한 후 [!DNL Workfront] [!DNL Salesforce]기회[!UICONTROL  및 ]계정[!UICONTROL 에서 특정 기준이 충족되면 ] 프로젝트를 만드는 트리거를 정의할 수 있습니다.
+Salesforce용 [!DNL Adobe Workfront]을(를) 설치한 후 [!DNL Workfront] [!DNL Salesforce]기회[!UICONTROL &#x200B; 및 &#x200B;]계정[!UICONTROL 에서 특정 기준이 충족되면 &#x200B;] 프로젝트를 만드는 트리거를 정의할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -50,17 +50,17 @@ Salesforce용 [!DNL Adobe Workfront]을(를) 설치한 후 [!DNL Workfront] [!DN
 
 ## 전제 조건
 
-[!DNL Workfront] [!DNL Salesforce]기회[!UICONTROL  또는 계정에서 ] 요청을 제출하려면
+[!DNL Workfront] [!DNL Salesforce]기회[!UICONTROL &#x200B; 또는 계정에서 &#x200B;] 요청을 제출하려면
 환경에 다음 사항이 있는지 확인합니다.
 
 * [!DNL Workfront] 관리자가 [!DNL Workfront for Salesforce]을(를) 설치했습니다.\
    [!DNL Workfront for Salesforce] 설치에 대한 자세한 내용은 [설치 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)를 참조하십시오
 
-* [!DNL Workfront] 관리자가 [!DNL Workfront]영업 기회[!UICONTROL  및 계정에 ] 섹션을 추가했습니다.
+* [!DNL Workfront] 관리자가 [!DNL Workfront]영업 기회[!UICONTROL &#x200B; 및 계정에 &#x200B;] 섹션을 추가했습니다.
 페이지 레이아웃입니다.\
    페이지 레이아웃에 [!DNL Workfront] 섹션을 추가하는 방법에 대한 자세한 내용은 [사용자를 위한  [!DNL Adobe Workfront] 섹션 구성 [!DNL Salesforce] 을 참조하십시오](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-* [!DNL Workfront] 계정이 있으며 [!DNL Workfront]기회[!UICONTROL  또는 계정 내의 ] 섹션에서 로그인할 수 있습니다.
+* [!DNL Workfront] 계정이 있으며 [!DNL Workfront]기회[!UICONTROL &#x200B; 또는 계정 내의 &#x200B;] 섹션에서 로그인할 수 있습니다.
 .
 
 ## [!DNL Workfront]에서 [!DNL Salesforce] 프로젝트 만들기 구성
@@ -96,7 +96,7 @@ Salesforce용 [!DNL Adobe Workfront]을(를) 설치한 후 [!DNL Workfront] [!DN
 
 ### 트리거 구성 {#configuring-triggers}
 
-트리거를 구성하고 나면 [!DNL Workfront]Salesforce Classic[!UICONTROL  또는 ] 프레임워크 모두에서 [!DNL Lightning Experience] 프로젝트를 만드는 프로세스를 사용할 수 있습니다.
+트리거를 구성하고 나면 [!DNL Workfront]Salesforce Classic[!UICONTROL &#x200B; 또는 &#x200B;] 프레임워크 모두에서 [!DNL Lightning Experience] 프로젝트를 만드는 프로세스를 사용할 수 있습니다.
 
 [!UICONTROL Salesforce]에서 트리거를 구성하려면:
 
@@ -132,7 +132,7 @@ Salesforce용 [!DNL Adobe Workfront]을(를) 설치한 후 [!DNL Workfront] [!DN
 
    1. **[!UICONTROL Portfolio 또는 프로그램]** 필드에서 프로젝트를 [!DNL Workfront]에 배치할 Portfolio 또는 프로그램의 이름을 입력한 다음 목록에 표시될 때 선택합니다.\
 
-      Portfolio 또는 프로그램을 지정하지 않으면 새 프로젝트가 만들어지고 트리거를 구성할 때 [!UICONTROL 에 로그인한 사용자의 ]내가 소유한 프로젝트[!DNL Workfront] 목록에 추가됩니다. 이 사용자는 새 프로젝트의 프로젝트 소유자이기도 합니다.
+      Portfolio 또는 프로그램을 지정하지 않으면 새 프로젝트가 만들어지고 트리거를 구성할 때 [!UICONTROL 에 로그인한 사용자의 &#x200B;]내가 소유한 프로젝트[!DNL Workfront] 목록에 추가됩니다. 이 사용자는 새 프로젝트의 프로젝트 소유자이기도 합니다.
 
    1. 새 [!DNL Workfront] 프로젝트와 연결할 템플릿 이름을 입력한 다음 목록에 표시될 때 선택하십시오.\
 
@@ -168,7 +168,7 @@ Salesforce용 [!DNL Adobe Workfront]을(를) 설치한 후 [!DNL Workfront] [!DN
    1. **[!UICONTROL Type]** 드롭다운 메뉴에서 **[!UICONTROL Type]**&#x200B;을(를) 선택합니다.
 
       **계정
-**2}에 지정된 **[!UICONTROL Type]**(으)로 지정되었으며 [!DNL Salesforce]에 **[!UICONTROL Project]**&#x200B;이(가) 만들어집니다.[!DNL Workfront]
+**2&rbrace;에 지정된 &#x200B;** [!UICONTROL Type]&#x200B;**(으)로 지정되었으며 [!DNL Salesforce]에 &#x200B;** [!UICONTROL Project]**&#x200B;이(가) 만들어집니다.[!DNL Workfront]
 
       필수 필드입니다.
 
@@ -199,12 +199,12 @@ Salesforce용 [!DNL Adobe Workfront]을(를) 설치한 후 [!DNL Workfront] [!DN
 
 ## [!DNL Workfront]개 프로젝트 보기
 
-[!DNL Workfront] 관리자가 [!DNL Workfront]기회[!UICONTROL  또는 계정에 ] 섹션을 추가한 경우
+[!DNL Workfront] 관리자가 [!DNL Workfront]기회[!UICONTROL &#x200B; 또는 계정에 &#x200B;] 섹션을 추가한 경우
 페이지 레이아웃에서는 이 섹션의 [!UICONTROL 프로젝트] 탭에서 자동으로 만들어진 프로젝트를 볼 수 있습니다.\
-[!DNL Workfront]Opportunity[!UICONTROL  또는 계정의 페이지 레이아웃에 ] 섹션을 추가하는 방법에 대한 자세한 정보
+[!DNL Workfront]Opportunity[!UICONTROL &#x200B; 또는 계정의 페이지 레이아웃에 &#x200B;] 섹션을 추가하는 방법에 대한 자세한 정보
 , [사용자 [!DNL Adobe Workfront] 를 위한  [!DNL Salesforce] 섹션 구성](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)을 참조하십시오.
 
-[!DNL Workfront]프로젝트[!DNL Workfront] 탭을 보려면 [!UICONTROL  계정이 있어야 하며 ]에 로그인해야 합니다.
+[!DNL Workfront]프로젝트[!DNL Workfront] 탭을 보려면 [!UICONTROL &#x200B; 계정이 있어야 하며 &#x200B;]에 로그인해야 합니다.
 
 [!UICONTROL 영업 기회] 또는 계정에서 만든 프로젝트를 보려면
 :

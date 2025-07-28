@@ -99,7 +99,7 @@ ht-degree: 0%
 
    브라우저를 새로 고치면 [!DNL Workfront for Google Workspace] 패널 아래쪽에 링크가 있는 메시지가 표시되어 전자 메일을 업데이트로 전환했음을 확인합니다.
 
-   링크를 클릭하여 4단계에서 지정한 개체에 대한 [!UICONTROL 의 ]업데이트[!DNL Workfront] 탭으로 이동할 수 있습니다.
+   링크를 클릭하여 4단계에서 지정한 개체에 대한 [!UICONTROL 의 &#x200B;]업데이트[!DNL Workfront] 탭으로 이동할 수 있습니다.
 
    이 단계를 반복하여 업데이트, 작업 및 문제로 같은 전자 메일을 변환할 수 있습니다([Adobe Workfront 문제 만들기 [!DNL Google Workspace] 전자 메일 콘텐츠 사용](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md) 참조). 브라우저를 새로 고치거나 다른 시간에 전자 메일로 돌아가면 전자 메일에 대해 만든 모든 링크가 [!UICONTROL Google Workspace용 Workfront] 패널 하단에 나열됩니다.
 

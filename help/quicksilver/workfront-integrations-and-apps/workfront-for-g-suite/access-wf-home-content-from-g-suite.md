@@ -55,7 +55,7 @@ Google Workspace을 종료하지 않고도 자신에게 할당된 모든 작업,
 
 ## 전제 조건
 
-[!UICONTROL 에서 ]Home[!DNL Google Workspace] 콘텐츠에 액세스하려면 먼저 다음을 수행해야 합니다.
+[!UICONTROL 에서 &#x200B;]Home[!DNL Google Workspace] 콘텐츠에 액세스하려면 먼저 다음을 수행해야 합니다.
 
 * [!DNL Workfront for Google Workspace] 설치\
    지침은 [설치 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)를 참조하십시오.

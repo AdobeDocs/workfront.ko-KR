@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> [!DNL Workfront for Google Workspace]은(는) [!DNL Workfront]에서 받을 수 있는 거의 모든 유형의 전자 메일 알림을 지원합니다(약 120개의 다른 유형). [!UICONTROL 에서 보낸 ]일별 요약[!DNL Workfront] 전자 메일이 [!DNL Workfront for Google Workspace]에 표시되지 않습니다. [!DNL Workfront] 전자 메일 알림 유형에 대한 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
+> [!DNL Workfront for Google Workspace]은(는) [!DNL Workfront]에서 받을 수 있는 거의 모든 유형의 전자 메일 알림을 지원합니다(약 120개의 다른 유형). [!UICONTROL 에서 보낸 &#x200B;]일별 요약[!DNL Workfront] 전자 메일이 [!DNL Workfront for Google Workspace]에 표시되지 않습니다. [!DNL Workfront] 전자 메일 알림 유형에 대한 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
 ## 액세스 요구 사항
 

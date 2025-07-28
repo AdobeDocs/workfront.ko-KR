@@ -120,7 +120,7 @@ ht-degree: 1%
 
    [!DNL Workfront] 앱이 이제 [!DNL Salesforce] 인스턴스에 설치되고 **[!UICONTROL WorkfrontOpportunities]** 및 **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] 페이지가 환경에 만들어졌습니다.
 
-   [!DNL Salesforce]기회[!DNL Workfront] 또는 [!UICONTROL 계정] 페이지 레이아웃에 [!UICONTROL  섹션을 추가하면 ] 사용자가 앱을 사용할 수 있습니다.\
+   [!DNL Salesforce]기회[!DNL Workfront] 또는 [!UICONTROL 계정] 페이지 레이아웃에 [!UICONTROL &#x200B; 섹션을 추가하면 &#x200B;] 사용자가 앱을 사용할 수 있습니다.\
    사용자를 위한 Workfront 섹션 구성에 대한 자세한 내용은 [Salesforce 사용자를 위한 Adobe Workfront 섹션 구성](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)을 참조하십시오.
 
 ### [!DNL Workfront] 프레임워크에서 [!DNL Salesforce]에 대해 [!DNL Salesforce Classic]을(를) 설치하는 중
@@ -147,15 +147,15 @@ ht-degree: 1%
 1. **[!UICONTROL 설정>보안 컨트롤>원격 사이트 설정]**(으)로 이동합니다.
 1. (조건부) [!DNL Workfront]모든 원격 사이트&#x200B;**[!UICONTROL 목록에]** URL이 표시되지 않으면 **[!UICONTROL 새 원격 사이트]**&#x200B;를 클릭합니다.
 
-1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 이름]**을(를) 지정하십시오.
+1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 이름]**&#x200B;을(를) 지정하십시오.
 예: *[!DNL Workfront]*.
 
-1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 URL]**을(를) 지정하십시오.
+1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 URL]**&#x200B;을(를) 지정하십시오.
 예: *yourDomain.my.workfront.com*.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.\
    [!DNL Workfront] 앱이 이제 [!DNL Salesforce] 인스턴스에 설치되었습니다. **[!UICONTROL WorkfrontOpportunities]** 및 **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] 페이지가 환경에 만들어졌습니다.\
-   [!DNL Salesforce]기회[!DNL Workfront] 또는 [!UICONTROL 계정] 페이지 레이아웃에 [!UICONTROL  섹션을 추가할 때까지 ] 사용자가 아직 앱을 사용할 수 없습니다.\
+   [!DNL Salesforce]기회[!DNL Workfront] 또는 [!UICONTROL 계정] 페이지 레이아웃에 [!UICONTROL &#x200B; 섹션을 추가할 때까지 &#x200B;] 사용자가 아직 앱을 사용할 수 없습니다.\
    사용자의 [!DNL Workfront] 섹션 구성에 대한 자세한 내용은 [사용자 [!DNL Adobe Workfront] 의  [!DNL Salesforce] 섹션 구성](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)을 참조하십시오.
 
 ### [!DNL Workfront for Salesforce] 프레임워크에 [!DNL Salesforce Lightning Experience]을(를) 설치하는 중
@@ -191,17 +191,17 @@ ht-degree: 1%
 1. **[!UICONTROL 원격 사이트 설정]**&#x200B;을 클릭합니다.
 1. (조건부) [!DNL Workfront]모든 원격 사이트&#x200B;**[!UICONTROL 목록에]** URL이 표시되지 않으면 **[!UICONTROL 새 원격 사이트]**&#x200B;를 클릭합니다.
 
-1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 이름]**을(를) 지정하십시오.
+1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 이름]**&#x200B;을(를) 지정하십시오.
 예: *[!DNL Workfront]*.
 
-1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 URL]**을(를) 지정하십시오.
+1. (조건부) 사이트를 추가하는 경우 **[!UICONTROL 원격 사이트 URL]**&#x200B;을(를) 지정하십시오.
 예: *yourDomain.my.workfront.com*.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    이제 [!DNL Workfront] 앱이 [!DNL Salesforce] 인스턴스에 설치되고 **[!DNL Workfront]** 구성 요소가 환경에 추가됩니다.
 
-   [!UICONTROL 영업 기회] 또는 [!DNL Workfront]계정[!DNL Workfront] 페이지 레이아웃에 [!UICONTROL  섹션을 추가하면 ]Salesforce[!UICONTROL  사용자가 ] 앱을 사용할 수 있습니다.\
+   [!UICONTROL 영업 기회] 또는 [!DNL Workfront]계정[!DNL Workfront] 페이지 레이아웃에 [!UICONTROL &#x200B; 섹션을 추가하면 &#x200B;]Salesforce[!UICONTROL &#x200B; 사용자가 &#x200B;] 앱을 사용할 수 있습니다.\
    사용자의 [!DNL Workfront] 섹션 구성에 대한 자세한 내용은 [사용자 [!DNL Adobe Workfront] 의  [!DNL Salesforce] 섹션 구성](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)을 참조하십시오.
 
 ## Salesforce 통합을 위한 Workfront에 대한 권한 구성

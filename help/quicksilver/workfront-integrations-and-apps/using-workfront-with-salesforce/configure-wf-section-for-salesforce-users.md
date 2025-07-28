@@ -109,20 +109,20 @@ ht-degree: 1%
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 1. 레이아웃을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
-   이 레이아웃이 할당된 모든 사용자는 이제 [!DNL Workfront]기회[!UICONTROL  또는 ]계정[!UICONTROL  개체에서 ] 섹션을 볼 수 있습니다.
+   이 레이아웃이 할당된 모든 사용자는 이제 [!DNL Workfront]기회[!UICONTROL &#x200B; 또는 &#x200B;]계정[!UICONTROL &#x200B; 개체에서 &#x200B;] 섹션을 볼 수 있습니다.
 
    [!DNL Workfront] 섹션에 [!DNL Workfront] 로그인 화면이 표시됩니다. [!DNL Workfront] 계정이 없는 경우 섹션을 축소할 수 있지만 레이아웃에서 제거할 수는 없습니다.
 
 ## [!DNL Workfront] 프레임워크에서 [!DNL Salesforce Lightning Experience] 섹션 구성
 
-[!DNL Workfront] [!DNL Salesforce]기회[!UICONTROL  또는 계정의 레이아웃에 ] 섹션을 추가할 수 있습니다.
+[!DNL Workfront] [!DNL Salesforce]기회[!UICONTROL &#x200B; 또는 계정의 레이아웃에 &#x200B;] 섹션을 추가할 수 있습니다.
 [!DNL Salesforce Lightning Experience] 프레임워크에서 [!UICONTROL 설정] 영역에 액세스하거나 계정에서 액세스함
 또는 [!UICONTROL Opportunity] 개체입니다.
 
-* [ [!DNL Workfront] 설정[!UICONTROL  수준에서 ]섹션 구성](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
+* [ [!DNL Workfront] 설정[!UICONTROL &#x200B; 수준에서 &#x200B;]섹션 구성](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
 * [영업 기회 또는 계정 수준에서  [!DNL Workfront] 섹션 구성](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
 
-### [!DNL Workfront]설정[!UICONTROL  수준에서 ] 섹션 구성 {#configure-the-workfront-section-at-the-setup-level}
+### [!DNL Workfront]설정[!UICONTROL &#x200B; 수준에서 &#x200B;] 섹션 구성 {#configure-the-workfront-section-at-the-setup-level}
 
 1. 시스템 관리자로 [!DNL Salesforce]에 로그인합니다.
 1. **[!UICONTROL 설정]** 아이콘을 클릭한 다음 **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
@@ -152,14 +152,14 @@ ht-degree: 1%
 1. **[!UICONTROL 설정]** 아이콘을 클릭한 다음 **[!UICONTROL 페이지 편집]**&#x200B;을 클릭합니다.\
 
 1. **[!UICONTROL 사용자 지정 관리]** 섹션을 확장합니다.
-1. **[!DNL Workfront]**&#x200B;기회[!UICONTROL  또는 계정에 ] 구성 요소를 끌어다 놓습니다.
+1. **[!DNL Workfront]**&#x200B;기회[!UICONTROL &#x200B; 또는 계정에 &#x200B;] 구성 요소를 끌어다 놓습니다.
 페이지를 가리키도록 업데이트하는 중입니다.
 
    [!DNL Workfront] 섹션에 대해 레이아웃의 열 중 하나 대신 페이지의 전체 너비를 사용하는 것이 좋습니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   이 레이아웃이 할당된 모든 사용자는 이제 [!DNL Workfront]기회[!UICONTROL  또는 ]계정[!UICONTROL  개체에서 ] 섹션을 볼 수 있습니다.
+   이 레이아웃이 할당된 모든 사용자는 이제 [!DNL Workfront]기회[!UICONTROL &#x200B; 또는 &#x200B;]계정[!UICONTROL &#x200B; 개체에서 &#x200B;] 섹션을 볼 수 있습니다.
 
    >[!NOTE]
    >

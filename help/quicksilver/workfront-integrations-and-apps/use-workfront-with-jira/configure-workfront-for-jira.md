@@ -35,9 +35,9 @@ ht-degree: 0%
 
 [!DNL Workfront] 및 [!DNL Jira]의 모든 사용자가 이 통합을 통해 혜택을 받을 수 있습니다. 가장 많이 사용하는 시스템에 대한 라이선스만 있으면 되고 두 시스템 모두에 대한 라이선스는 필요하지 않습니다.
 
-이 추가 기능은 [!UICONTROL  소프트웨어의 ]Server[!UICONTROL  및 ]OnDemand[!UICONTROL (또는 ]Cloud[!DNL Jira]) 버전 모두에서 사용할 수 있습니다.
+이 추가 기능은 [!UICONTROL &#x200B; 소프트웨어의 &#x200B;]Server[!UICONTROL &#x200B; 및 &#x200B;]OnDemand[!UICONTROL (또는 &#x200B;]Cloud[!DNL Jira]) 버전 모두에서 사용할 수 있습니다.
 
-현재 [!DNL Jira]에서 지원하는 [!DNL Workfront for Jira] 버전 목록은 [[!DNL Workfront for Jira]의 ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)[!DNL Atlassian Marketplace]을(를) 참조하십시오.
+현재 [!DNL Jira]에서 지원하는 [!DNL Workfront for Jira] 버전 목록은 [[!DNL Workfront for Jira]의 ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) [!DNL Atlassian Marketplace]을(를) 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >연결을 만들려면 `apiKey`Workfront[!UICONTROL 에 올바른 ]이(가) 있어야 합니다.
+   >연결을 만들려면 `apiKey`Workfront[!UICONTROL 에 올바른 &#x200B;]이(가) 있어야 합니다.
 
    구성을 계속하려면 [!DNL Workfront]에 [!DNL Workfront] 관리자로 로그인해야 합니다.
 
@@ -202,7 +202,7 @@ ht-degree: 0%
 
       <table style="table-layout:auto">
          <tr>
-              <td>만들 때 [!UICONTROL]</td>
+              <td>만들 때 </td>
               <td>지정한 필드는 Workfront에서 항목을 만들 때 연결된 Workfront과 [!DNL Jira]개 항목 간에 동기화됩니다.</td>
           </tr>
           <tr>
@@ -336,7 +336,7 @@ ht-degree: 0%
 
 ## 문제 해결
 
-### &quot;[!DNL Jira]찾을 수 없음[!UICONTROL &quot;으로 표시된 트리거 필드로 인해 ]에서 항목을 만들 수 없습니다.
+### &quot;[!DNL Jira]찾을 수 없음[!UICONTROL &quot;으로 표시된 트리거 필드로 인해 &#x200B;]에서 항목을 만들 수 없습니다.
 
 #### 문제
 
@@ -353,4 +353,4 @@ ht-degree: 0%
 이 오류를 해결하려면 다음 중 하나를 시도해 보십시오.
 
 * [!DNL Jira] 관리자에게 해당 [!DNL Jira] 개체가 기한 필드가 있는지 업데이트하도록 요청하십시오.
-* Workfront [!DNL Workfront]설치[!UICONTROL  페이지에서 ]의 계획된 완료 날짜에 대한 동기화를 사용하지 않도록 설정하십시오.
+* Workfront [!DNL Workfront]설치[!UICONTROL &#x200B; 페이지에서 &#x200B;]의 계획된 완료 날짜에 대한 동기화를 사용하지 않도록 설정하십시오.

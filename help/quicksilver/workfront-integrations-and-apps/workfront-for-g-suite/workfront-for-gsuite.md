@@ -45,8 +45,8 @@ ht-degree: 0%
 * [ [!DNL Adobe Workfront] 에서  [!DNL Google Workspace]홈 콘텐츠 액세스](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
 * [ [!DNL Adobe Workfront] 에서  [!DNL Google Workspace]개체 업데이트](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
 * [ [!DNL Google Workspace]에서 문서 보기 및 관리](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
-* [ [!DNL Adobe Workfront] Google Workspace[!UICONTROL 에서 ]개체 세부 정보 보기 및 관리](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
-* [ [!DNL Adobe Workfront] Google Workspace[!UICONTROL 의 ]개체 업데이트 보기](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
+* [ [!DNL Adobe Workfront] Google Workspace[!UICONTROL 에서 &#x200B;]개체 세부 정보 보기 및 관리](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
+* [ [!DNL Adobe Workfront] Google Workspace[!UICONTROL 의 &#x200B;]개체 업데이트 보기](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
 
 [!DNL Workfront] 알림 전자 메일을 받을 때 작업 항목에 대한 세부 정보를 보고 응답하는 방법에 대해 설명합니다.
 

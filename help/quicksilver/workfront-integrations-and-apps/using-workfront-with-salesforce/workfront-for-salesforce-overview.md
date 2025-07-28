@@ -90,7 +90,7 @@ ht-degree: 0%
 
   [!DNL Workfront]에서 볼 수 있는 [!DNL Salesforce] 필드 목록에 대해서는 [제출 [!DNL Adobe Workfront] 개체 [!DNL Salesforce] 의 요청](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)및 [개체 [!DNL Adobe Workfront] 에서  [!DNL Salesforce] 프로젝트 만들기](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)를 참조하십시오.
 
-* Workfront에서 [!DNL Salesforce]Salesforce으로 이동[!UICONTROL  링크를 클릭하여 ]에 연결된 항목에 직접 액세스할 수 있습니다.
+* Workfront에서 [!DNL Salesforce]Salesforce으로 이동[!UICONTROL &#x200B; 링크를 클릭하여 &#x200B;]에 연결된 항목에 직접 액세스할 수 있습니다.
 
   [!DNL Salesforce]의 [!DNL Workfront] 항목에 대한 정보를 볼 수 없지만 Workfront에서 검토할 수 있도록 Salesforce의 항목으로 이동하는 링크가 있습니다.
 
