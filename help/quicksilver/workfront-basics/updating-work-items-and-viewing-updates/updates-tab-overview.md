@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 4%
 
 ---
@@ -322,7 +322,7 @@ The following objects don't record system updates:
 
    * 문서 추가, 제거 및 기타 문서 업데이트
    * 시간 추가, 제거, 대신 추가 및 기타 시간 항목 업데이트
-   * 참고, 사용자 정의 필드에 대한 업데이트
+   * 사용자 정의 필드 업데이트
    * 사용자 프로필 업데이트(사용자의 아바타, 모바일 번호, 필드, 제목에 대한 설명 업데이트)
    * 사용자 추가, 제거, 액세스 수준 변경, 기본 제공 사용자 필드 변경
    * 작업 및 프로젝트의 재무 정보.

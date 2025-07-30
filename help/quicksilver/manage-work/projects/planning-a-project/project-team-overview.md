@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: 프로젝트 팀 개요
-description: 일부 용량의 프로젝트와 연결된 사용자가 프로젝트 팀을 구성합니다. 프로젝트의 사람 영역 아래에 나열된 사용자는 프로젝트 팀을 구성하는 사용자입니다.
+description: 일부 용량의 프로젝트와 연결된 사용자가 프로젝트 팀을 구성합니다. 프로젝트 또는 템플릿의 사람 영역 아래에 나열된 사용자는 프로젝트 팀을 구성하는 사용자입니다.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 0%
+source-wordcount: '450'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 프로젝트 팀은 일부 용량에 프로젝트와 연결된 사용자로 구성됩니다. 프로젝트의 사람 영역 아래에 나열된 사용자가 프로젝트 팀을 구성합니다. 예를 들어 프로젝트에서 작업에 할당되거나 프로젝트 소유자는 프로젝트 팀의 일부입니다.
 
+템플릿을 사용하여 프로젝트를 만든 후 프로젝트 템플릿 작업과 연결되거나 템플릿 소유자 또는 스폰서인 사용자는 향후 프로젝트 팀의 일부입니다.
+
 ## 프로젝트 팀원
 
 사용자를 수동 또는 자동으로 프로젝트 팀에 할당할 수 있습니다. 자세한 내용은 문서 [프로젝트 팀 관리](../../../manage-work/projects/planning-a-project/manage-project-team.md)에서 프로젝트 팀에 사용자 추가 섹션을 참조하십시오.
@@ -28,7 +30,13 @@ ht-degree: 0%
 
 ## 프로젝트 팀원에게 알림
 
-Adobe Workfront 관리자가 활성화할 수 있는 이메일 알림에 따라 프로젝트 팀의 사용자에게 프로젝트에 대한 다양한 작업에 대한 알림이 표시됩니다. 전자 메일 알림을 사용하는 방법에 대한 자세한 내용은 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)을 참조하십시오.
+Adobe Workfront 관리자가 활성화할 수 있는 이메일 알림에 따라 프로젝트 팀의 사용자에게 프로젝트에 대한 다양한 작업에 대한 알림이 표시됩니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* [이벤트 알림 유형](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+
+* [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 
 >[!NOTE]
 >

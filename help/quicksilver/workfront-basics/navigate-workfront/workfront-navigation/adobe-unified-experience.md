@@ -3,10 +3,10 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: ' [!DNL Workfront]용 Adobe 통합 경험'
 description: Adobe Experience Cloud을 통해  [!DNL Workfront] 에 액세스하면 모든 Adobe 애플리케이션을 관리할 수 있는 원활하고 통합된 환경을 얻을 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: e292b54c4488ac12e1af5719117cf6c3cf3392a7
+source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Adobe Admin Console의 사용자 관리에 대한 자세한 내용은 문서 [Ad
 
 ## [!DNL Workfront] 탐색
 
-[!UICONTROL &#x200B; 탐색 모음 왼쪽의 &#x200B;]기본 메뉴![ 아이콘 ](assets/main-menu-icon-left-nav.png)기본 메뉴 아이콘[!DNL Workfront]을 사용하여 액세스 권한이 있는 페이지로 이동합니다. [!UICONTROL 주 메뉴]에서 사용할 수 있는 옵션은 다음에 따라 다릅니다.
+[!UICONTROL  탐색 모음 왼쪽의 ]기본 메뉴![ 아이콘 ](assets/main-menu-icon-left-nav.png)기본 메뉴 아이콘[!DNL Workfront]을 사용하여 액세스 권한이 있는 페이지로 이동합니다. [!UICONTROL 주 메뉴]에서 사용할 수 있는 옵션은 다음에 따라 다릅니다.
 
 * **레이아웃 템플릿 구성**: [!DNL Workfront] 관리자가 레이아웃 템플릿에서 [!UICONTROL 주 메뉴]를 수정하는 방법에 대해 알아보려면 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴] 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하세요.
 * **라이선스 유형**: 다른 라이선스 유형에 대한 기본 구성에 대해 알아보려면 [[!UICONTROL 검토] 라이선스 사용자의 탐색 이해](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) 또는 [[!UICONTROL 작업] 라이선스 사용자의 탐색 이해](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)를 참조하십시오.
@@ -125,7 +125,7 @@ Adobe Admin Console의 사용자 관리에 대한 자세한 내용은 문서 [Ad
 
 [!DNL Adobe]에서 암호를 관리하는 경우 Adobe 계정에서 암호를 변경할 수 있습니다.
 
-[Adobe 암호를 변경하려면 이 문서를 참조하십시오.](https://helpx.adobe.com/kr/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Adobe 암호를 변경하려면 이 문서를 참조하십시오.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 암호 변경에 대한 자세한 내용은 관리자에게 문의하십시오.
 

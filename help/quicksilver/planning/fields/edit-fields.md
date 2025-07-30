@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '668'
 ht-degree: 1%
 
 ---
@@ -146,7 +146,11 @@ Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 
 
    ![강조 표시된 테이블 헤더의 필드 이름 뒤 화살표 메뉴](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. 필드에 대한 정보를 업데이트하고 **저장**&#x200B;을 클릭합니다. <!--insert screen shot when finalized-->
+1. 필드에 대한 정보를 업데이트하고 **저장**&#x200B;을 클릭합니다.
+
+   자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
+
+   <!--insert screen shot when finalized-->
 
    >[!TIP]
    >

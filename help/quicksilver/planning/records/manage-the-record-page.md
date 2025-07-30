@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '2115'
+source-wordcount: '2133'
 ht-degree: 1%
 
 ---
@@ -182,7 +182,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -264,11 +264,11 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
 * 레코드 유형의 테이블 보기에서 레코드나 개체 유형을 레코드 유형에 연결한 후 연결된 레코드 페이지를 레코드에 추가할 수 있습니다.
 
-* 연결된 레코드 페이지를 레코드의 미리 보기 영역에 추가할 수 없습니다.
+* 연결된 레코드 페이지를 레코드의 미리 보기 영역에 추가할 수 없습니다. <!--take this out when we release connected record pages to the record preview area-->
 
 * 연결된 레코드 페이지는 테이블 보기에서 연결된 개체나 한 개체 또는 레코드 유형의 레코드만 표시합니다. 페이지에 테이블 보기에 해당 유형의 모든 레코드가 표시되지 않습니다.
 
-* 연결된 레코드 페이지를 레코드에 추가하면 레코드의 미리 보기 영역에 페이지 탭이 표시되지만 비어 있습니다. 연결된 레코드에 대한 테이블 보기를 보려면 전체 페이지로 이동해야 합니다. <!--this might have changed? check and take disclaimer out-->
+* 연결된 레코드 페이지를 레코드에 추가하면 레코드의 미리 보기 영역에 페이지 탭이 표시되지만 비어 있습니다. 연결된 레코드에 대한 테이블 보기를 보려면 전체 페이지로 이동해야 합니다. &lt;!—연결된 페이지가 미리보기 영역으로 릴리스되면 변경됩니다.— 확인 후 면책조항 적용—>
 
 * 다음과 같은 연결된 레코드 또는 객체 유형에 대해 연결된 레코드 페이지를 추가할 수 있습니다.
 
@@ -279,12 +279,20 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
   >
   >   연결된 AEM Assets 레코드에 대해 연결된 레코드 페이지를 추가할 수 없습니다.
 
-
 연결된 레코드 페이지를 추가하려면 다음을 수행하십시오.
+
+<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+
+1. Click the name of the record to open it. 
+1. Click **Add page** from one of the following areas: 
+
+   * The record's preview window
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
+
+-->
 
 1. 레코드 페이지 보기에서 레코드 이름을 클릭하여 연 다음 미리 보기 페이지의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭합니다.
 1. **페이지 추가**&#x200B;를 클릭합니다.
-
 
    **페이지 만들기** 상자가 열립니다.
 
