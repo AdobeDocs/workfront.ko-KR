@@ -7,25 +7,24 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1280'
 ht-degree: 1%
 
 ---
 
 # 프로젝트 팀 관리
 
-<!--
-<div class="preview"> 
+<!--take preview and production references out at production - August 7-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
 
-</div> 
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
 
--->
+</div>
 
 프로젝트 팀은 프로젝트와 연계된 사용자로 구성됩니다. 자세한 내용은 [프로젝트 팀 개요](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)를 참조하십시오.
 
@@ -243,7 +242,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    목록에서 사용자를 한 명 이상 선택한 다음 **업데이트**&#x200B;를 클릭합니다.
 
-   <!--update screen shot for unshim-->
+   <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
    ![템플릿의 사용자 상자로 업데이트 보내기](assets/send-update-to-user-on-template-box.png)
 
@@ -251,20 +250,23 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 다음을 수행합니다.
 
-   * 선택한 사용자에 대한 업데이트를 추가합니다.
-   * 인물 아이콘을 클릭하여 동일한 업데이트를 수신할 추가 사용자에 태그를 지정합니다.
-   * 잠금 아이콘을 클릭하여 회사 내 사용자에 대한 업데이트를 비공개로 만듭니다.
-   * **보내기**&#x200B;를 클릭합니다.
+   * 프로덕션 환경에서:
 
-   <!--replace list above with:
+      * 선택한 사용자에 대한 업데이트를 추가합니다.
+      * 인물 아이콘을 클릭하여 동일한 업데이트를 수신할 추가 사용자에 태그를 지정합니다.
+      * 잠금 아이콘을 클릭하여 회사 내 사용자에 대한 업데이트를 비공개로 만듭니다.
+      * **보내기**&#x200B;를 클릭합니다.
+
+   * <span class="preview">미리 보기 환경에서: </span>
+
    <div class="preview">
 
-   * Add an update for the selected users.
-   * Click **Tag people** to tag additional users to receive the same update. 
-   * Select the **Private to my company** option to to make the update private to the users in your company. 
-   * Click **Send**. 
+   * 선택한 사용자에 대한 업데이트를 추가합니다.
+   * 동일한 업데이트를 받을 추가 사용자를 태그 지정하려면 **사람 태그 지정**&#x200B;을 클릭하세요.
+   * 업데이트를 회사 사용자에게 비공개로 설정하려면 **내 회사에 비공개** 옵션을 선택하십시오.
+   * **보내기**&#x200B;를 클릭합니다.
+
    </div>
-   -->
 
    태그가 지정된 각 사용자 프로필의 **업데이트** 섹션에 업데이트가 추가됩니다.
 

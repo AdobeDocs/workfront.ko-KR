@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2241'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 레코드 페이지 레이아웃 관리
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -182,7 +182,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -264,11 +264,16 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
 * 레코드 유형의 테이블 보기에서 레코드나 개체 유형을 레코드 유형에 연결한 후 연결된 레코드 페이지를 레코드에 추가할 수 있습니다.
 
-* 연결된 레코드 페이지를 레코드의 미리 보기 영역에 추가할 수 없습니다. <!--take this out when we release connected record pages to the record preview area-->
+* 프로덕션 환경에서는 연결된 레코드 페이지를 레코드의 미리 보기 영역에 추가할 수 없습니다.
+
+  <span class="preview">미리 보기 환경에서 레코드의 미리 보기 영역에 연결된 레코드 페이지를 추가할 수 있습니다.</span>
 
 * 연결된 레코드 페이지는 테이블 보기에서 연결된 개체나 한 개체 또는 레코드 유형의 레코드만 표시합니다. 페이지에 테이블 보기에 해당 유형의 모든 레코드가 표시되지 않습니다.
 
-* 연결된 레코드 페이지를 레코드에 추가하면 레코드의 미리 보기 영역에 페이지 탭이 표시되지만 비어 있습니다. 연결된 레코드에 대한 테이블 보기를 보려면 전체 페이지로 이동해야 합니다. &lt;!—연결된 페이지가 미리보기 영역으로 릴리스되면 변경됩니다.— 확인 후 면책조항 적용—>
+* 사용하는 환경에 따라 다음을 확인할 수 있습니다.
+
+   * 프로덕션 환경에서는 연결된 레코드 페이지를 레코드에 추가한 후 레코드의 미리 보기 영역에 페이지 탭이 표시되지만 비어 있습니다. 연결된 레코드에 대한 테이블 보기를 보려면 전체 페이지로 이동해야 합니다.
+   * <span class="preview">미리 보기 환경에서 연결된 레코드 페이지가 레코드의 미리 보기 영역과 별도의 브라우저 탭에서 모두 표시됩니다.</span>
 
 * 다음과 같은 연결된 레코드 또는 객체 유형에 대해 연결된 레코드 페이지를 추가할 수 있습니다.
 
@@ -281,18 +286,11 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
 연결된 레코드 페이지를 추가하려면 다음을 수행하십시오.
 
-<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+1. 레코드 이름을 클릭하여 엽니다.
+1. 다음 영역 중 하나에서 **페이지 추가**&#x200B;를 클릭합니다.
 
-1. Click the name of the record to open it. 
-1. Click **Add page** from one of the following areas: 
-
-   * The record's preview window
-   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
-
--->
-
-1. 레코드 페이지 보기에서 레코드 이름을 클릭하여 연 다음 미리 보기 페이지의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭합니다.
-1. **페이지 추가**&#x200B;를 클릭합니다.
+   * <span class="preview">레코드의 미리 보기 창</span>
+   * 미리 보기 페이지의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭한 후 레코드의 세부 정보 페이지.
 
    **페이지 만들기** 상자가 열립니다.
 
@@ -306,8 +304,6 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 연결된 레코드의 모든 필드는 연결된 레코드 탭의 테이블 보기에 표시됩니다.
 
    연결된 레코드 테이블의 처음 5개 필드는 기본적으로 표시됩니다. 기본적으로 표시되는 조회 필드가 없습니다.
-
-   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![캠페인 세부 정보 아래의 대상자 연결 테이블 보기](assets/audience-connected-table-view-under-campaign-details-page.png)
 

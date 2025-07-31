@@ -3,18 +3,17 @@ title: Workfront 계획 및 GenStudio for Performance Marketing 통합 시작
 description: GenStudio for Performance Marketing 작업 영역은 회사에서 두 제품을 모두 구입한 경우 Adobe Workfront Planning에서 사용할 수 있습니다. 이 통합을 사용하여 워크플로우를 간소화하는 방법에 대한 몇 가지 기본 사항을 알아봅니다.
 hide: true
 hidefromtoc: true
-source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
+exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-
 # Workfront Planning 및 GenStudio for Performance Marketing 통합 시작
 
 <!--Better metadata, at publishing:
-
 ---
 title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
 description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
