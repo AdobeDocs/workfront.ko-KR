@@ -182,6 +182,6 @@ ht-degree: 2%
 
 1. 편집할 대기열 주제가 포함된 프로젝트 또는 템플릿으로 이동합니다.
 1. 왼쪽 패널에서 **주제 큐**&#x200B;를 클릭합니다.
-1. 프로덕션 환경에서 편집할 대기열 주제를 선택합니다. 화면에 표시되는 세부 정보 페이지에서 **대기열 주제 편집**을 클릭합니다.
+1. 프로덕션 환경에서 편집할 대기열 주제를 선택합니다. 화면에 표시되는 세부 정보 페이지에서 **대기열 주제 편집**&#x200B;을 클릭합니다.
    <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
 
