@@ -6,14 +6,16 @@ description: 작업 항목을 올바른 사용자에게 끌어다 놓아 Adobe W
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
 
 # 드래그 앤 드롭으로 업무 균형자에서 작업 할당
+
+{{preview-fast-release-general}}
 
 작업 항목을 올바른 사용자에게 끌어다 놓아 Adobe Workfront 업무 균형자를 사용하여 작업 항목을 할당할 수 있습니다.
 
@@ -70,11 +72,15 @@ ht-degree: 0%
 
    리소스 영역, 프로젝트 또는 팀 수준에서 업무 균형자 를 사용하여 사용자에게 작업을 할당할 수 있습니다. Workfront에서 업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)를 참조하십시오.
 
-1. (선택 사항) **할당 해제된 작업** 영역으로 이동하여 필터를 적용하여 사용자에게 할당되지 않은 작업 및 문제를 봅니다
+1. (선택 사항) **할당 해제된 작업** 영역으로 이동하여 필터를 적용하여 사용자에게 할당되지 않은 작업, 문제, <span class="preview">및 역할 할당</span>을 봅니다
 
    또는
 
    해당 항목을 다시 할당하려면 **할당된 작업** 영역으로 이동하여 할당된 작업 항목을 볼 사용자 이름을 확장하세요.
+
+   >[!NOTE]
+   >
+   ><span class="preview">역할 할당 표시 설정을 사용하면 할당 해제된 작업 영역의 작업 항목 아래에 역할 할당이 표시됩니다. 자세한 내용은 [업무 균형자 이동](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)에서 [보기 사용자 지정](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.</span>
 
 1. (조건부) 프로젝트의 업무 균형자에서 **모든 사용자 표시** 아이콘 ![모든 사용자 표시](assets/show-all-users-icon-project-workload-balancer.png)를 클릭하여 모든 Workfront 사용자를 표시합니다.
 
@@ -84,27 +90,30 @@ ht-degree: 0%
 
    프로젝트의 ![사용자](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
-
    >[!TIP]
    >
    >* 모든 사용자 표시 옵션은 프로젝트의 업무 균형자에서만 사용할 수 있습니다.
    >* 필터를 사용하여 자신에게 중요한 사용자만 표시합니다. 예를 들어 필터를 사용하여 팀이나 그룹의 사용자만 표시할 수 있습니다.
 
-
-
-1. 계획된 또는 예상 타임라인을 나타내는 작업 항목의 막대를 클릭하고 **할당됨** 영역에서 사용자 이름으로 끌어서 놓습니다.
+1. 계획된 또는 예상 타임라인을 나타내는 작업 항목 <span class="preview">또는 역할 할당</span>의 표시줄을 클릭하고 **할당됨** 영역에서 사용자 이름으로 끌어서 놓습니다.
 
    작업 항목을 놓기 위해 마우스를 가져다 대는 사용자가 강조 표시됩니다.
+
+   <span class="preview">역할 할당을 끌어다 놓을 때 현재 역할이 역할 할당과 일치하지 않으면 주황색으로 강조 표시됩니다. 역할이 일치하지 않아도 사용자에게 작업을 할당할 수 있습니다.</span>
 
    >[!TIP]
    >
    >마우스로 가리키고 있는 사용자의 계획된 시간은 작업 항목에서 매일 계획된 시간의 수로 실시간으로 업데이트되어, 전체 할당에 새 항목을 추가할 때 어떤 영향이 있을 수 있는지 나타냅니다.
 
-   ![할당할 항목 삭제](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+   ![사용자에게 할당할 항목 삭제](assets/wb-drag-drop-role-or-task-to-user.png)
 
-1. 준비가 되면 선택한 작업 항목을 할당된 영역의 사용자 이름과 동일한 줄에 놓습니다. 항목이 할당되고 할당된 계획 시간이 작업 항목의 새 시간과 함께 사용자에 대해 업데이트됩니다.
+   프로덕션 환경의 샘플 이미지:
+   ![사용자에게 할당할 항목 삭제](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
-   항목이 사용자가 이행할 수 없는 작업 역할에 할당된 경우 항목이 할당된 작업 영역의 사용자 이름 아래에 표시되고 미할당 작업 영역에도 남아 있어 연결된 작업 역할이 아직 사용자로 대체되지 않았음을 나타냅니다.
+1. 준비가 되면 선택한 작업 항목 <span class="preview">이나 역할 할당</span>을(를) 할당된 영역의 사용자 이름과 같은 줄에 놓습니다. 항목이 할당되고 할당된 계획 시간이 작업 항목의 새 시간과 함께 사용자에 대해 업데이트됩니다.
+
+   <span class="preview">역할 할당 표시 설정이 활성화되지 않은 경우</span> 작업 항목이 사용자가 이행할 수 없는 작업 역할에 할당되면 항목이 할당된 작업 영역의 사용자 이름 아래에 표시됩니다. 또한 미할당 작업 영역에 남아 있어 관련된 작업 역할이 아직 사용자에 의해 대체되지 않았음을 나타냅니다.
 
    >[!TIP]
    >
