@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '5961'
+source-wordcount: '6162'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,50 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 S
 
 ## 프로젝트
 
+## 템플릿의 대기열 세부 정보 섹션에 대한 새로운 모양 및 느낌
+
+**미리 보기 릴리스: 2025년 7월 31일, 프로덕션 릴리스: 2025년 8월 7일**
+
+템플릿의 대기열 세부 정보 섹션에 대한 디자인을 업데이트했습니다. 이제 대기열 세부 정보 섹션의 모양과 느낌이 Workfront의 다른 영역과 일치합니다.
+
+자세한 내용은 [요청 큐 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하세요.
+
+<!--## Interface updates when bulk editing templates
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+
+## 템플릿의 업데이트 보내기 사용자 상자에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 7월 31일, 프로덕션 릴리스: 2025년 8월 7일**
+
+템플릿의 인물 탭에서 액세스할 때 사용자에게 업데이트 보내기 상자의 모양과 느낌을 업데이트했습니다. 이제 업데이트를 한 명 또는 여러 사용자에게 보낼 때 Workfront의 다른 영역과 업데이트 보내기 상자가 일치합니다.
+
+자세한 내용은 [프로젝트 팀 관리](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)를 참조하십시오.
+
+<!--## Updated experience when editing a Queue Topic in a project or template
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+
+## 청구 기록에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 7월 31일, 프로덕션 릴리스: 2025년 8월 7일**
+
+애플리케이션의 다른 영역과 일치하도록 청구 기록의 청구 가능 시간, 청구 가능 경비 및 고정 수입 페이지의 디자인을 업데이트했습니다. 새 청구 가능 시간, 청구 가능 경비 및 고정 수익을 추가하는 대화 상자도 업데이트되었습니다.
+
+이러한 변경 사항을 보려면 프로젝트 > 청구 기록 > 청구 기록 > 청구 가능 시간, 청구 가능 경비 또는 고정 수익 > 새 청구 가능 시간, 청구 가능 경비 또는 고정 수익 추가로 이동합니다.
+
+자세한 내용은 [청구 기록 만들기](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md)를 참조하십시오.
+
 ## MS 프로젝트 파일 가져오기 상자의 인터페이스 업데이트
 
 **미리 보기 릴리스: 2025년 7월 24일, 프로덕션 릴리스: 발표 예정**
@@ -84,7 +128,7 @@ Workfront의 다른 영역 디자인과 일치하도록 MS Project에서 프로�
 
 템플릿에서 편집할 때 라우팅 규칙의 모양과 느낌을 업데이트했습니다. 이제 라우팅 규칙 편집 페이지가 Workfront의 다른 영역 디자인과 일치합니다.
 
-라우팅 규칙 목록에 약간의 기능 변경이 적용되었습니다. 라우팅 규칙을 편집하려면 목록에서 라우팅 규칙을 선택하고 편집 아이콘을 클릭합니다.
+라우팅 규칙을 편집하려면 목록에서 라우팅 규칙을 선택하고 편집 아이콘을 클릭합니다.
 
 자세한 내용은 [라우팅 규칙 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)를 참조하십시오.
 
@@ -98,7 +142,7 @@ Workfront의 다른 영역 디자인과 일치하도록 MS Project에서 프로�
 * 주제 그룹
 * 라우팅 규칙
 
-약간의 기능 변경 사항이 목록에 적용되었습니다. 이러한 목록 중 하나에서 항목을 편집하거나 삭제하려면 항목을 선택하고 해당 아이콘을 클릭합니다.
+이러한 목록 중 하나에서 항목을 편집하거나 삭제하려면 항목을 선택하고 해당 아이콘을 클릭합니다.
 
 자세한 내용은
 
@@ -398,6 +442,11 @@ Workfront의 다른 영역 디자인에 맞게 템플릿 복사 상자의 모양
 ### 프로그램 및 포트폴리오에 개체를 추가할 때 업데이트 확인
 
 **미리 보기 릴리스: 2025년 5월 22일, 프로덕션 릴리스: 2025년 5월 29일**
+
+>[!NOTE]
+>
+>미리보기 및 프로덕션에서 일시적으로 제거됨
+
 
 다음을 수행할 때 추가 상자에 대한 인터페이스를 업데이트했습니다.
 

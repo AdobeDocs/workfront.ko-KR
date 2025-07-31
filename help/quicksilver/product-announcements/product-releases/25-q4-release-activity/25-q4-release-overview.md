@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1190'
+ht-degree: 2%
 
 ---
 
@@ -38,9 +38,30 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront 개선 사항
 
-* [문서 및 증명 개선 사항](#document-and-proofing-enhancements)
-  <!--* [Resource Management enhancements](#resource-management-enhancements)-->
+* [관리자 개선 사항](#administrator-enhancements)
+* [문서 및 교정 개선 사항](#document-and-proofing-enhancements)
+<!--* [Home enhancements](#home-enhancements)
+* [Requests enhancements](#requests-enhancements)-->
+* [향상된 리소스 관리 기능](#resource-management-enhancements)
 * [기타 개선 사항](#other-enhancements)
+
+### 관리자 개선 사항
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">외부 API에서 사용자 정의 양식에 여러 값 옵션 추가</a><p></p>
+            <p>이제 사용자 정의 양식 디자이너에서 새 필드 유형인 다중 선택 외부 조회를 사용할 수 있습니다. 외부 시스템에 데이터가 저장된 경우 이 필드 유형을 사용하면 외부 API에서 옵션을 로드하고 사용자 정의 양식의 다른 필드 값을 기준으로 필터링할 수 있습니다. 이는 단일 선택 외부 조회와 동일합니다.</p>
+            <p>양식이 오브젝트에 추가되면 API에서 반환된 값이 드롭다운 필드에 나타나고 사용자는 여러 값을 선택할 수 있습니다.</p>
+        </td>
+        <td>2025년 7월 31일 금요일</td>
+        <td>2025년 8월 14일 금요일</td>
+        <td>2025년 10월 16일 금요일</td>
+    </tr>     
+  </tbody>
+</table>
+
 
 ### 문서 및 교정 개선 사항
 
@@ -65,24 +86,77 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-
-
-<!--### Resource Management enhancements
+<!--### Home enhancements
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
-            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
-            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
+            <p>To create a more seamless experience between Workfront and Workfront Planning, we've redesigned the My Requests widget in Home. The new widget features the following changes:
+            <ul>
+                <li>Improved layout and organization of request information</li>
+                <li>Enhanced filtering and sorting options</li>
+                <li>Integration with Workfront Planning for better visibility into resource allocation</li>
+            </ul>
+            </p>
         </td>
-        <td>July 24, 2025</td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
+            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <ul>
+                <li>View Workfront and Workfront Planning requests in a single list.</li>
+                <li>Filter submitted requests based on criteria you specify.</li>
+                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
+                <li>Hide and reorder columns in the submitted requests list.</li>
+            </ul>
+            </p>
+        </td>
+        <td>July 31, 2025</td>
         <td>August 14, 2025</td>
         <td>October 16, 2025</td>
     </tr>     
   </tbody>
 </table> -->
+
+### 향상된 리소스 관리 기능
+
+<table style="table-layout:auto">
+  <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">이제 사용자 프로필에서 업무 균형자를 사용할 수 있습니다</a><p></p>
+            <p>이제 모든 사용자는 액세스 수준에 관계없이 프로필에서 자신의 요구 사항 및 용량 데이터를 볼 수 있습니다. Workfront 사용자 프로필에 액세스하면 왼쪽 탐색 패널에 업무 균형자 가 표시됩니다.</p>
+            <p>사용자의 업무 균형자 데이터는 읽기 전용입니다. 사용자 수준에서 작업을 할당하거나, 작업을 할당 해제하거나, 할당을 조정할 수 없습니다.</p>
+        </td>
+        <td>2025년 7월 31일 금요일</td>
+        <td>2025년 8월 14일 금요일</td>
+        <td>2025년 10월 16일 금요일</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">역할 할당이 업무 균형자 </a>에 표시됨<p></p>
+            <p>이제 리소스 관리자는 업무 균형자에서 작업 역할 할당을 검토할 수 있습니다. 할당은 역할이 할당된 작업 또는 문제 아래의 미할당 작업 영역에 표시됩니다. 사용자에게 할당된 작업 항목만 할당된 작업 영역에 표시됩니다. </p>
+            <p>새 업무 균형자 설정인 역할 할당 표시에서 역할 할당이 표시되는지 여부를 결정합니다. 이 설정은 기본적으로 활성화되어 있습니다.</p>
+        </td>
+        <td>2025년 7월 31일 금요일</td>
+        <td>2025년 8월 14일 금요일</td>
+        <td>2025년 10월 16일 금요일</td>
+    </tr>     
+  </tbody>
+</table>
 
 ### 기타 개선 사항
 
@@ -133,7 +207,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
+Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)을 참조하십시오.
 
 ### Workfront Planning 개선 사항
 
@@ -144,6 +218,18 @@ Workfront Planning의 새로운 기능은 프로덕션에서 사용할 수 있�
 * 시나리오 플래너
 * 교정쇄
 * 목표
+
+## 데스크톱 증명 뷰어 업데이트
+
+### 버전 2.1.52
+
+**모든 고객을 위한 프로덕션 릴리스: 2025년 7월 31일**
+
+Desktop Proofing Viewer가 버전 2.1.52로 업데이트되어 버그 수정 사항을 해결합니다.
+
+2.1.51 업데이트에는 내부 도구 업데이트가 포함되었으며 최종 사용자 기능에는 영향을 주지 않았습니다.
+
+이 업데이트는 Mac 및 Windows 모두에 해당됩니다.
 
 ## 공지
 
@@ -170,7 +256,7 @@ Workfront Planning의 새로운 기능은 프로덕션에서 사용할 수 있�
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ### API 버전 20
 
@@ -182,8 +268,8 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
