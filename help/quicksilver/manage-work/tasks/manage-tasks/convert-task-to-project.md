@@ -6,9 +6,9 @@ description: 프로젝트의 작업을 완료하는 데 원래 계획보다 많�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1148'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 2%
 * 모든 하위 작업, 문제 및 메모가 새 프로젝트에 롤업됩니다.
 * 문서, 문서 버전 및 증명이 새 프로젝트로 이동됩니다.
 * 모든 하위 작업 및 문제의 상태 및 완료율이 유지됩니다.
-* 작업의 공유 사용자는 프로젝트에서 공유 사용자가 됩니다.
+* 작업 할당자와 작업을 프로젝트로 전환하는 사용자는 프로젝트에서 공유 사용자가 됩니다.
 * 프로젝트 시작 일자가 작업의 시작 일자로 설정됩니다.
 * 다음 표에는 프로젝트 정보 및 템플릿 전송 여부와 작업 전송 여부가 나열되어 있습니다.
 
@@ -78,7 +78,7 @@ ht-degree: 2%
   </td> 
     </tr> 
     <tr> 
-    <td>우선 순위</td> 
+    <td>우선순위</td> 
     <td>작업에서 프로젝트로 전송되거나 전환에 사용할 경우 템플릿에서 전송됩니다. </td> 
     </tr> 
     <tr> 
@@ -95,7 +95,7 @@ ht-degree: 2%
     </td> 
     </tr> 
     <tr> 
-    <td>일정 출처:</td> 
+    <td>일정 기준</td> 
     <td>템플릿에서 전송합니다.</td> 
     </tr> 
     <tr> 
@@ -107,7 +107,7 @@ ht-degree: 2%
       </ul> </td> 
     </tr> 
     <tr> 
-    <td>Portfolio</td> 
+    <td>포트폴리오</td> 
     <td>템플릿에서 전송합니다. 그렇지 않으면 이 필드는 비어 있습니다.</td> 
     </tr> 
     <tr> 
