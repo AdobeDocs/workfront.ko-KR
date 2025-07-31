@@ -3,12 +3,12 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: 캔버스 대시보드 공유
 description: 다른 Adobe Workfront 사용자가 보거나 편집할 수 있도록 캔버스 대시보드를 공유할 수 있습니다.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 페이지에서는 캔버스 대시보드 베타의 일부로 사용할 수 있는 기능에 대해 설명합니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하세요.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
 
 다른 Adobe Workfront 사용자가 보거나 편집할 수 있도록 캔버스 대시보드를 공유할 수 있습니다.
 
-## 액세스 요구 사항
-
 +++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -50,23 +47,52 @@ ht-degree: 0%
    <td><p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p>
   </td> 
   </tr>  
+    </tr>  
+        <tr> 
+   <td role="rowheader"><p>개체 권한</p></td> 
+   <td><p>대시보드에 대한 권한 관리</p>
+  </td> 
+  </tr>
 </tbody> 
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 +++
 
+## 대시보드 공유에 대한 고려 사항
+
+* 기본적으로 대시보드 작성자는 대시보드에 대한 관리 권한을 가집니다.
+
+* 만든 대시보드를 다른 개인, 팀, 그룹, 작업 역할 또는 회사와 공유할 수 있습니다. 다른 사용자가 만들고 이전에 공유한 대시보드를 공유할 수도 있습니다.
+
+* 기본적으로 대시보드를 공유할 때 공유하기 전에 권한이 업데이트되지 않으면 사용자는 대시보드의 모든 보고서 오브젝트에 대한 보기 권한을 상속합니다.
+
+* 대시보드에 대한 보기 권한이 있는 경우 대시보드를 계속 공유할 수는 있지만 수신자에게 보기 이상의 권한을 할당할 수는 없습니다.
+
 
 ## 캔버스 대시보드 공유
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **대시보드**&#x200B;를 클릭합니다.
 
-1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭한 다음 공유할 캔버스 대시보드의 이름을 클릭합니다.
+{{step1-to-dashboards}}
 
-1. 페이지의 오른쪽 상단에 있는 **공유** 단추를 클릭합니다.
+1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
 
-1. 표시되는 **대시보드 공유** 상자의 **액세스 권한 부여:** 필드에 캔버스 대시보드를 공유할 특정 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 아래 목록에 표시될 때 선택합니다.
+1. **캔버스 대시보드** 페이지에서 공유할 대시보드를 선택합니다.
 
-1. (선택 사항) 의도한 수신자 목록에 엔티티를 추가한 후 이 캔버스 대시보드에 대해 수신하는 액세스 유형을 편집할 수 있습니다. 기본적으로 **보기** 액세스만 받지만 엔터티 옆에 있는 **보기 >**&#x200B;을(를) 클릭한 다음 드롭다운 목록에서 **관리**&#x200B;를 선택하여 관리 액세스 권한을 부여할 수 있습니다. 일부 엔티티는 관리자와 같이 액세스 수준을 변경할 수 없습니다.
+1. 페이지의 오른쪽 상단 모서리에서 **공유** 단추를 클릭합니다. **대시보드 공유** 대화 상자가 나타납니다.
 
-1. 캔버스 대시보드를 공유할 모든 사람을 추가한 후 **공유** 단추를 클릭하세요.
+1. **액세스 권한 부여** 필드에서 캔버스 대시보드를 공유할 특정 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 선택합니다.
+
+1. (선택 사항) 대시보드에 대한 사용자 액세스를 편집하려면 이름 옆에 있는 **보기**&#x200B;를 클릭한 다음 나타나는 드롭다운 목록에서 **관리**&#x200B;를 선택합니다.
+
+   >[!NOTE]
+   >
+   >일부 사용자의 경우 액세스 수준을 변경할 수 없습니다(예: 관리자).
+
+1. 대시보드를 공유할 각 사용자에 대해 5~6단계를 반복합니다.
+
+1. **공유** 단추를 클릭합니다. 받는 사람은 대시보드가 사용자와 공유되었음을 알리는 전자 메일 알림을 받으며, 이제 **대시보드** > **캔버스 대시보드** > **공유 대시보드**&#x200B;에서 액세스할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >이메일 알림에 대한 개별 사용자 환경 설정 및 시스템 제외가 적용될 수 있습니다.
