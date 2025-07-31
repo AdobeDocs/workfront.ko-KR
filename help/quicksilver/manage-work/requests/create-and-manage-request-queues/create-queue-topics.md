@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
+source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '937'
 ht-degree: 2%
 
 ---
@@ -182,6 +182,6 @@ ht-degree: 2%
 
 1. 편집할 대기열 주제가 포함된 프로젝트 또는 템플릿으로 이동합니다.
 1. 왼쪽 패널에서 **주제 큐**&#x200B;를 클릭합니다.
-1. 프로덕션 환경에서 편집할 대기열 주제를 선택합니다. 화면에 표시되는 세부 정보 페이지에서 **대기열 주제 편집**&#x200B;을 클릭합니다.
-1. <span class="preview">미리 보기 환경에서 편집할 대기열 주제를 선택한 다음 편집 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.</span>
+1. 프로덕션 환경에서 편집할 대기열 주제를 선택합니다. 화면에 표시되는 세부 정보 페이지에서 **대기열 주제 편집**을 클릭합니다.
+   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
 
