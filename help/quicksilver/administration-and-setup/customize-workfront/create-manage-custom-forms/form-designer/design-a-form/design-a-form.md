@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
+source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
 workflow-type: tm+mt
-source-wordcount: '6589'
+source-wordcount: '6606'
 ht-degree: 5%
 
 ---
 
 # 사용자 정의 양식 만들기
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -133,7 +135,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 >[!NOTE]
 >
 >그렇게 할 수도 있지만 본인이나 다른 사용자가 Workfront에서 사용자 정의 양식을 사용하기 시작한 후에는 이 이름을 변경하지 않는 것이 좋습니다. 이 필드를 선택하면 이제 Workfront의 다른 영역에서 참조될 수 있는 사용자 지정 필드가 시스템에서 더 이상 인식되지 않습니다.
->&#x200B;>예를 들어 사용자 지정 필드를 보고서에 추가하고 나중에 이름을 변경하면 Workfront은 보고서에서 이를 인식하지 못하며 새 이름을 사용하여 보고서에 다시 추가하지 않으면 제대로 작동하지 않습니다.
+>>예를 들어 사용자 지정 필드를 보고서에 추가하고 나중에 이름을 변경하면 Workfront은 보고서에서 이를 인식하지 못하며 새 이름을 사용하여 보고서에 다시 추가하지 않으면 제대로 작동하지 않습니다.
 >
 >기본 제공 Workfront 필드에 이미 사용된 이름은 입력하지 않는 것이 좋습니다.
 >
@@ -572,7 +574,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 
 ### 외부 조회 필드 추가
 
-외부 조회 필드는 외부 API를 호출하고 드롭다운 필드에 값을 옵션으로 반환합니다. 사용자 정의 양식이 첨부된 오브젝트로 작업하는 사용자는 드롭다운에서 이러한 옵션 중 하나 이상을 선택할 수 있습니다. 외부 조회 필드는 목록 및 보고서에서도 사용할 수 있습니다.
+외부 조회 필드는 외부 API를 호출하고 드롭다운 필드에 값을 옵션으로 반환합니다. 사용자 정의 양식이 첨부된 오브젝트로 작업하는 사용자는 외부 조회 필드가 단일 필드인지 다중 선택 필드인지에 따라 드롭다운에서 이러한 옵션 중 하나 이상을 선택할 수 있습니다. 외부 조회 필드는 목록 및 보고서에서도 사용할 수 있습니다.
 
 외부 조회 필드를 사용하여 Workfront 또는 공개 API의 동일한 인스턴스를 호출하는 예제는 [사용자 지정 양식의 외부 조회 필드 예제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)를 참조하십시오.
 
@@ -583,7 +585,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 
 외부 조회를 추가하려면:
 
-1. 화면 왼쪽의 **새 필드** 탭에서 **외부 조회**&#x200B;를 찾아 캔버스의 섹션으로 끕니다.
+1. 화면 왼쪽의 **새 필드** 탭에서 **외부 조회** 또는 <span class="preview">**다중 선택 외부 조회**</span>&#x200B;를 찾아 캔버스의 섹션으로 끕니다.
 1. 화면 오른쪽에서 사용자 정의 필드에 대한 옵션을 구성합니다.
 
    <table style="table-layout:auto"> 
@@ -632,12 +634,12 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td role="rowheader">JSON 경로</td>
       <td><p>API에 대한 JSON 경로를 입력하거나 붙여넣습니다.</p> <p>이 옵션을 사용하면 API URL에서 반환되는 JSON에서 데이터를 추출할 수 있습니다. JSON 내에서 드롭다운 옵션에 표시할 값을 선택하는 데 사용됩니다.</p><p>예를 들어 API URL이 다음 형식으로 JSON을 반환하는 경우 "$.data[*].name"을 사용하여 미국과 캐나다를 드롭다운 옵션으로 선택할 수 있습니다.</br>
       <pre>
-      &lbrace;
-       데이터: &lbrace;
+      {
+       데이터: {
          { name: "미국"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>JSON 경로와 올바른 JSON 경로를 작성하는 방법에 대한 자세한 내용은 <a href="https://jsonpath.com/">https://jsonpath.com/</a>을(를) 참조하십시오.</p></td>
@@ -647,8 +649,8 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td><p><strong>헤더 추가</strong>를 클릭한 다음 API를 사용한 인증에 필요한 키-값 쌍을 입력하거나 붙여 넣습니다.</p><p><strong>참고:</strong> 머리글 필드는 자격 증명을 저장할 수 있는 안전한 위치가 아니므로 입력하고 저장하는 것에 주의해야 합니다.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">다중 선택 드롭다운</td>
-      <td><p>사용자가 드롭다운에서 두 개 이상의 값을 선택할 수 있도록 하려면 이 옵션을 선택합니다.</p></td>
+      <td role="rowheader"><span class="preview">다중 선택 드롭다운</span></td>
+      <td><p><span class="preview">사용자가 드롭다운에서 두 개 이상의 값을 선택할 수 있도록 하려면 이 옵션을 선택합니다.</span></p></td>
      </tr>
      </tr>
      <tr> 

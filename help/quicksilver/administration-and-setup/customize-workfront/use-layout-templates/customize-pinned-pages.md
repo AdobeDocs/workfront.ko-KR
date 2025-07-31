@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 0e7000597e2347bff0bc626d21aa9a6c9a839c0b
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # 레이아웃 템플릿을 사용하여 고정된 페이지 사용자 지정
 
-레이아웃 템플릿에서 사용자가 Adobe Workfront의 맨 위에서 항상 사용할 수 있도록 하려는 페이지를 고정할 수 있습니다. 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png) 또는 사용 가능한 경우 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 통해 액세스하는 페이지나 대시보드일 수 있습니다.
+레이아웃 템플릿에서 사용자가 Adobe Workfront의 맨 위에서 항상 사용할 수 있도록 하려는 페이지를 고정할 수 있습니다. 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png) 또는 사용 가능한 경우 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon-left-nav.png)을 통해 액세스하는 페이지나 대시보드일 수 있습니다.
 
 사용자가 직접 추가한 핀은 레이아웃 템플릿에 추가한 핀 오른쪽에 표시됩니다.
 
@@ -108,7 +108,7 @@ ht-degree: 4%
      >* Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
    * **대시보드 추가**&#x200B;를 클릭합니다
-      * &#x200B;<!--**Quick link name**-->**사용자 지정 이름** 필드에 수사적 이름을 입력하십시오.
+      * <!--**Quick link name**-->**사용자 지정 이름** 필드에 수사적 이름을 입력하십시오.
       * **대시보드 추가** 필드 <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->에서 대시보드를 선택하십시오.
       * **추가**&#x200B;를 클릭합니다.
 
