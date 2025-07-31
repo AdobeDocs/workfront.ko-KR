@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
 workflow-type: tm+mt
-source-wordcount: '6162'
+source-wordcount: '6262'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 자세한 내용은 [프로젝트 팀 관리](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)를 참조하십시오.
 
-<!--## Updated experience when editing a Queue Topic in a project or template
+## 프로젝트 또는 템플릿에서 대기열 주제를 편집할 때 경험이 업데이트됨
 
-**Preview release: July 31, 2025; Production release: August 7, 2025**
+**미리 보기 릴리스: 2025년 7월 31일, 프로덕션 릴리스: 2025년 7월 31일**
 
-We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+템플릿에서 대기열 주제를 편집할 때 대기열 주제의 모양과 느낌을 업데이트했습니다. 이제 대기열 주제 편집 페이지가 Workfront의 다른 영역 디자인과 일치합니다.
 
-A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+라우팅 규칙 목록에 약간의 기능 변경이 적용되었습니다. 대기열 주제를 편집하려면 목록에서 대기열 주제를 선택하고 편집 아이콘을 클릭합니다. 편집하기 전에 더 이상 대기열 주제 세부 정보 페이지로 이동하지 않습니다.
 
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+자세한 내용은 [대기열 주제 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)를 참조하십시오.
 
 ## 청구 기록에 대한 인터페이스 업데이트
 
