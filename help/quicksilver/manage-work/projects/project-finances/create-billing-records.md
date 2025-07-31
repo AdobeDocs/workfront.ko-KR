@@ -5,7 +5,7 @@ description: 수익 및 추적 경비를 설정하는 것 외에도 청구해야
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -145,9 +145,9 @@ ht-degree: 1%
      >[!NOTE]
      >
      >프로젝트 수준에서 작업 역할에 대한 청구 요율을 재정의할 수 있습니다.\
-     >자세한 내용은 문서 [프로젝트 작업 역할 청구 요금 개요](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)에서 프로젝트 수준의 작업 역할 청구 요금 오버라이드 섹션을 참조하십시오.
+     >자세한 내용은 문서 [프로젝트 작업 역할 청구 요금 개요](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)의 &quot;프로젝트 수준에서 작업 역할 청구 요금 오버라이드&quot; 섹션을 참조하십시오.
 
-* 프로젝트 설정에서 이 프로젝트에 대한 승인 필요 옵션을 선택한 경우 프로젝트 소유자는 기록된 시간을 승인해야 합니다.\
+* 프로젝트 설정에서 이 프로젝트에 대해 승인할 시간 필요 옵션을 선택한 경우 프로젝트 소유자는 기록된 시간을 승인해야 합니다.\
   자세한 내용은 [프로젝트 승인 시간 필요](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)를 참조하십시오.
 
 #### 청구 기록에 시간 추가 {#add-hours-to-a-billing-record}
@@ -192,7 +192,7 @@ ht-degree: 1%
 
 ### 청구 기록에 고정 수익 포함 {#include-fixed-revenues-in-a-billing-record}
 
-고정 수익을 사용할 수 있는 작업이 있는 경우 청구 기록에 고정 수익을 추가할 수 있습니다. 청구 기록에 추가할 수 있는 다른 유형의 작업 또는 프로젝트 수익이 없습니다. 수익 유형에 대한 자세한 내용은 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) 문서의 청구 및 수익 개요 섹션을 참조하십시오.
+고정 수익을 사용할 수 있는 작업이 있는 경우 청구 기록에 고정 수익을 추가할 수 있습니다. 청구 기록에 추가할 수 있는 다른 유형의 작업 또는 프로젝트 수익이 없습니다. 수익 유형에 대한 자세한 내용은 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) 문서의 &quot;청구 및 수익 개요 섹션&quot;을 참조하십시오.
 
 {{step1-to-projects}}
 
@@ -200,7 +200,7 @@ ht-degree: 1%
 1. 왼쪽 패널에서 **청구 기록**&#x200B;을 클릭합니다.
 1. 청구 기록의 **설명**&#x200B;을 클릭하여 **청구 기록 세부 정보** 탭을 엽니다.
 1. **고정 수입** 탭을 선택합니다.
-1. 고정 수입을 작업에 추가한 경우 **고정 수입 추가**&#x200B;를 클릭합니다.
+1. 작업에 고정 수입을 추가한 경우 **고정 수입 추가**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
