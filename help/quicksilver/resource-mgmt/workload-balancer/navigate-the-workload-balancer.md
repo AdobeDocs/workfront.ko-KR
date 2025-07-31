@@ -6,9 +6,9 @@ description: 업무 균형자 를 사용하여 리소스의 가용성을 이해�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '4271'
+source-wordcount: '4371'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 업무 균형자 는 Adobe Workfront의 여러 영역에서 사용할 수 있습니다. 탐색하는 것은 모든 영역에서 유사합니다.
 
-업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)를 참조하십시오.
+업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -109,8 +109,8 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 업무 균형자 를 사용한 리소스 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [업무 균형자에서 작업 할당 개요](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [업무 균형자에서 사용자 할당 관리](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [업무 균형자에서 작업 할당 개요](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [업무 균형자에서 사용자 할당 관리](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## 리소스 조달 영역에서 여러 프로젝트에 대한 업무 균형자 탐색
@@ -478,12 +478,37 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
    자세한 내용은 [프로젝트 및 이니셔티브 간 리소스 할당 조정 개요](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)를 참조하십시오.
 
-
    >[!NOTE]
    >
    >조직에서 Workfront 시나리오 플래너에 대한 라이선스를 구매하지 않은 경우 이니셔티브 작업 역할 정보를 볼 수 없습니다. 이 경우 프로젝트의 작업 역할과 연관된 계획된 시간만 볼 수 있습니다. 자세한 내용은 [시나리오 플래너를 사용하는 데 필요한 액세스](../../scenario-planner/access-needed-to-use-sp.md)를 참조하십시오.
 
 1. 이 문서의 [여러 프로젝트에 대한 업무 균형자 탐색](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 섹션에 설명된 대로 프로젝트의 업무 균형자를 계속 탐색합니다.
+
+<div class="preview">
+
+### 사용자의 업무 균형자 탐색
+
+사용자 프로필에서 업무 균형자에 액세스할 수 있습니다.
+
+{{step1-click-profile-pic}}
+
+1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
+
+   사용자의 업무 균형자 가 표시됩니다.
+
+   ![사용자용 업무 균형자](assets/workload-balancer-user.png)
+
+   사용자의 업무 균형자 는 기본적으로 다음 정보를 표시합니다.
+
+   * **할당된 작업**: 특정 사용자에게 할당된 작업 및 문제입니다.
+
+   >[!NOTE]
+   >
+   >사용자 프로필의 업무 균형자 는 읽기 전용이며 할당 및 할당을 변경할 수 없습니다.
+
+1. 이 문서의 [여러 프로젝트에 대한 업무 균형자 탐색](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 섹션에 설명된 대로 사용자의 업무 균형자 탐색을 계속합니다.
+
+</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 

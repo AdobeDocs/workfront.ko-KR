@@ -6,14 +6,16 @@ description: 올바른 액세스 또는 권한이 없으면 업무 균형자에�
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 # 업무 균형자에서 리소스를 관리하는 데 필요한 액세스
+
+{{preview-fast-release-general}}
 
 올바른 액세스 또는 권한이 없으면 업무 균형자에서 작업 할당을 보거나 관리하지 못할 수 있습니다.
 
@@ -81,6 +83,8 @@ Workfront에서 업무 균형자를 찾을 수 있는 위치에 대한 자세한
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
+<span class="preview">모든 사용자는 자신의 프로필에서 업무 균형자를 볼 수 있는 액세스 권한을 갖습니다. 이는 라이선스 또는 액세스 수준에 의해 제한되지 않습니다. 사용자 프로필의 업무 균형자 는 읽기 전용이며 할당 및 할당을 변경할 수 없습니다.</span>
 
 ## 업무 균형자에서 할당을 관리하는 데 필요한 액세스
 

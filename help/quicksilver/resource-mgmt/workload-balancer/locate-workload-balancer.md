@@ -3,18 +3,20 @@ product-area: resource-management
 keywords: 작업,팀,직원,리소스
 navigation-topic: the-workload-balancer
 title: 업무 균형자 찾기
-description: 업무 균형자 를 사용하여 작업에 대한 리소스를 예약하거나 해당 리소스의 가용성 및 현재 할당을 검토할 수 있습니다.
+description: 업무 균형자 는 리소스 조달 영역의 여러 프로젝트, 팀, 프로젝트 및 사용자에 사용할 수 있습니다.
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 0%
 
 ---
 
 # 업무 균형자 찾기
+
+{{preview-fast-release-general}}
 
 업무 균형자 를 사용하여 작업에 대한 리소스를 예약하거나 해당 리소스의 가용성 및 현재 할당을 검토할 수 있습니다.
 
@@ -55,7 +57,8 @@ ht-degree: 1%
    <td><p>새로운 기능: 표준</p>
        <p>또는</p>
        <p>현재: 리소스 조달 영역에서 업무 균형자 사용 시 계획;</br>
-       팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p></td>
+       팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p>
+       <p><span class="preview">참고: 모든 사용자는 라이선스 요구 사항 없이 자신의 사용자 프로필에서 업무 균형자에 액세스할 수 있습니다.</span></p></td>
   </tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 이상:</p> 
@@ -137,6 +140,27 @@ Workfront의 팀에 대한 자세한 내용은 [팀 개요](/help/quicksilver/pe
      >
      >모든 사용자 표시 옵션을 활성화하면 프로젝트(할당된 작업 영역)의 사용자만 표시하지 않고 시스템의 모든 사용자를 표시할 수 있습니다. 자세한 내용은 [업무 균형자 탐색](../workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
 
+<div class="preview">
+
+### 사용자의 업무 균형자 액세스
+
+모든 사용자는 자신의 프로필에서 업무 균형자를 볼 수 있는 액세스 권한을 갖습니다. 사용자의 업무 균형자 데이터는 읽기 전용입니다. 사용자 수준에서 작업을 할당하거나, 작업을 할당 해제하거나, 할당을 조정할 수 없습니다.
+
+모든 표시 설정은 사용자의 업무 균형자에 사용할 수 있습니다. 자세한 내용은 [업무 균형자 탐색](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
+
+{{step1-click-profile-pic}}
+
+1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
+
+   사용자의 업무 균형자 가 표시됩니다.
+
+   ![사용자용 업무 균형자](assets/workload-balancer-user.png)
+
+   사용자의 업무 균형자 는 기본적으로 다음 정보를 표시합니다.
+
+   * **할당된 작업**: 특정 사용자에게 할당된 작업 및 문제입니다.
+
+</div>
 
 ## 사용자 정의 섹션에 업무 균형자 추가
 
