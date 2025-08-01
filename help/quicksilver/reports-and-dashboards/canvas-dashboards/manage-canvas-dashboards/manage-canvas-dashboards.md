@@ -1,15 +1,15 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
-title: 캔버스 대시보드 관리
-description: 캔버스 대시보드 문서 인덱스 관리
-author: Nolan
+title: '캔버스 대시보드 관리: 문서 색인'
+description: 이 섹션의 문서를 봅니다.
+author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: d9b99257041a98eca7bb0e8c38861cbdf96594bd
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -23,3 +23,7 @@ ht-degree: 0%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [캔버스 대시보드 공유](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+* [캔버스 대시보드에서 보고서 정렬](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+* [캔버스 대시보드의 이름 또는 설명 변경](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+* [캔버스 대시보드 삭제](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+

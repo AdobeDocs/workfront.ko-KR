@@ -1,20 +1,20 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 대시보드 필터링
+title: 캔버스 대시보드 필터링
 description: 필터가 생성되면 캔버스 대시보드에 필터를 적용할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# 대시보드 필터링
+# 캔버스 대시보드 필터링
 
 >[!IMPORTANT]
 >

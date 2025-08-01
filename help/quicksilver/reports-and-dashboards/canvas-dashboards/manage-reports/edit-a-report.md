@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 보고서 편집
+title: 캔버스 대시보드에서 보고서 편집
 description: 캔버스 대시보드 보고서를 만든 후 편집할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# 보고서 편집
+# 캔버스 대시보드에서 보고서 편집
 
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
 
-보고서를 대시보드에 추가한 후 보고서의 정보를 편집하여 대시보드에 표시되는 데이터를 변경할 수 있습니다.
+보고서를 캔버스 대시보드에 추가한 후 보고서의 정보를 편집하여 대시보드에 표시되는 데이터를 변경할 수 있습니다.
 
 보고서에 대한 모든 변경 사항은 해당 보고서를 포함하는 대시보드에 대한 액세스 권한이 있는 모든 사용자에게 영향을 줍니다.
 

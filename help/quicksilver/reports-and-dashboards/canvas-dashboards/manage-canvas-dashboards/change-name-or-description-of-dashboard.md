@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 대시보드의 이름 또는 설명 변경
+title: 캔버스 대시보드의 이름 또는 설명 변경
 description: 캔버스 대시보드를 만든 후 캔버스 대시보드의 이름이나 설명을 편집할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
 
-# 대시보드의 이름 또는 설명 변경
+# 캔버스 대시보드의 이름 또는 설명 변경
 
 >[!IMPORTANT]
 >

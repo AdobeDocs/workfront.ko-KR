@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 보고서 삭제
+title: 캔버스 대시보드에서 보고서 삭제
 description: 캔버스 대시보드에서 보고서를 삭제할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# 보고서 삭제
+# 캔버스 대시보드에서 보고서 삭제
 
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
 
-대시보드를 만들고 대시보드에 보고서를 추가한 후에는 해당 특정 대시보드에 더 이상 적용할 수 없는 이전 보고서를 삭제할 수 있습니다.
+캔버스 대시보드를 만들고 보고서를 추가한 후에는 해당 특정 대시보드에 더 이상 적용할 수 없는 이전 보고서를 삭제할 수 있습니다.
 
 보고서 삭제는 영구적입니다. 보고서가 삭제된 후 다시 추가해야 하는 경우 보고서를 다시 만들어야 합니다.
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 대시보드 세부 정보 페이지에서 삭제할 보고서 위젯의 오른쪽 위 모서리에 있는 **자세히** ![자세히 아이콘](assets/more-icon.png) 아이콘을 클릭합니다.
 
-1. **제거**&#x200B;를 선택합니다.
+1. **제거**를 선택합니다.
    ![보고서 제거](assets/delete-a-report.png)
 
 1. **보고서 삭제** 대화 상자에서 **삭제**&#x200B;를 클릭합니다.

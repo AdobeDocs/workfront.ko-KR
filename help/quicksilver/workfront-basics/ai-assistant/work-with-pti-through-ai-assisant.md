@@ -5,10 +5,10 @@ description: 이 요약 기능을 사용하여 작업 항목과 문서를 빠르
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ AI Assistant를 통해 Workfront에서 프로젝트, 작업 및 문제를 찾을
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,13 +28,11 @@ AI Assistant를 통해 Workfront에서 프로젝트, 작업 및 문제를 찾을
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
    <td><p>새로 만들기: 모두</p>
-       <p>또는</p>
        <p>현재: 사용할 수 없음</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
        <p>현재: 사용할 수 없음</p></td>
   </tr> 
  </tbody> 
@@ -42,20 +40,23 @@ AI Assistant를 통해 Workfront에서 프로젝트, 작업 및 문제를 찾을
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-
++++
 
 ## 작업 항목 찾기
 
 1. 화면 오른쪽 상단 근처에 있는 **AI Assistant** 아이콘 ![AI Assistant 아이콘](assets/ai-assistant-icon.png)을 클릭합니다.
-1. 다음과 같은 프롬프트 입력
+1. 다음과 같은 프롬프트를 입력합니다.
 
-   * 이번 주 기한인 내 작업 찾기
-   * 프로젝트 &quot;봄 캠페인&quot;의 문제
-   * 현재 상태에서 프로젝트 찾기
+   * *이번 주에 마감되는 내 작업 찾기*
+   * *프로젝트 &quot;봄 캠페인&quot;의 문제*
+   * *현재 상태에서 프로젝트 찾기*
 
-   프롬프트의 크기 또는 복잡성과 검색해야 하는 레코드 수에 따라 AI 도우미가 정보를 찾는 데 몇 분 정도 걸릴 수 있습니다.
-1. AI 지원 패널에서 응답을 봅니다.
-1. (선택 사항) 작업 항목으로 이동하려면 AI Assistant 패널에서 링크를 클릭합니다.
+   >[!NOTE]
+   >
+   > AI 도우미는 프롬프트의 크기 또는 복잡도와 검색해야 하는 레코드 수에 따라 정보를 찾는 데 몇 분 정도 걸릴 수 있습니다.
+1. **AI Assistant** 패널에서 응답을 봅니다.
+1. (선택 사항) 작업 항목으로 이동하려면 **AI Assistant** 패널에서 링크를 클릭합니다.
+
 
 <!--
 

@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: '대시보드 만들기: 문서 색인'
+title: '캔버스 대시보드 만들기: 문서 인덱스'
 description: 이 섹션의 문서를 봅니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 9974e36905d35afa0f6c87e06ace3074d24707cf
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
-# 대시보드 만들기: 문서 색인
+# 캔버스 대시보드 만들기: 문서 인덱스
 
 >[!IMPORTANT]
 >

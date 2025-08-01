@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 대시보드에서 보고서 정렬
+title: 캔버스 대시보드에서 보고서 정렬
 description: 보고서가 캔버스 대시보드에 추가된 후 표시되는 방식을 정렬할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# 대시보드에서 보고서 정렬
+# 캔버스 대시보드에서 보고서 정렬
 
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
 
-보고서가 대시보드에 추가되면 대시보드에 보고서 위젯으로 표시되므로 데이터를 한 눈에 빠르게 시각화할 수 있습니다. 여러 보고서가 추가되면 대시보드 데이터를 보다 효율적으로 표시하기 위해 각 위젯의 크기와 순서를 재정렬하는 것이 좋습니다.
+보고서가 캔버스 대시보드에 추가되면 대시보드에 보고서 위젯으로 표시되므로 데이터를 한 눈에 빠르게 시각화할 수 있습니다. 여러 보고서가 추가되면 대시보드 데이터를 보다 효율적으로 표시하기 위해 각 위젯의 크기와 순서를 재정렬하는 것이 좋습니다.
 
 +++ 를 확장하여 액세스 요구 사항을 확인합니다.
 

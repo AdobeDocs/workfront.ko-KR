@@ -1,26 +1,26 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 보고서 필터 편집
+title: 캔버스 대시보드에서 보고서 필터 편집
 description: 보고서 필터가 캔버스 대시보드에 적용된 후 편집할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
 
-# 보고서 필터 편집
+# 캔버스 대시보드에서 보고서 필터 편집
 
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
 
-보고서 필터를 캔버스 대시보드에 적용한 후 편집하여 프로젝트 진행 시 표시되는 데이터를 업데이트할 수 있습니다.
+보고서 필터를 캔버스 대시보드에 적용하면 프로젝트 진행 시 표시되는 데이터를 업데이트할 수 있습니다.
 
 +++ 를 확장하여 액세스 요구 사항을 확인합니다.
 

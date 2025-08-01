@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 대시보드 삭제
+title: 캔버스 대시보드 삭제
 description: 보고서가 캔버스 대시보드에 추가된 후 표시되는 방식을 정렬할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
-# 대시보드 삭제
+# 캔버스 대시보드 삭제
 
 >[!IMPORTANT]
 >
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. **캔버스 대시보드** 페이지에서 삭제할 대시보드를 선택합니다.
 
-1. 오른쪽 상단 모서리에서 **자세히** ![추가 아이콘](assets/more-icon.png) 아이콘을 선택한 다음 **대시보드 삭제**&#x200B;를 선택합니다.
+1. 오른쪽 상단 모서리에서 **자세히** ![추가 아이콘](assets/more-icon.png) 아이콘을 선택한 다음 **대시보드 삭제**를 선택합니다.
    ![대시보드 삭제](assets/delete-dashboard.png)
 
 1. **대시보드 삭제** 대화 상자에서 **이 대시보드를 삭제할지 확인** 확인란을 선택합니다.

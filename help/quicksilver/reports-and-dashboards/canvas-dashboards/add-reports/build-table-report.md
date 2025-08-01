@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 테이블 보고서 작성
+title: 캔버스 대시보드에서 표 보고서 작성
 description: 테이블 형식으로 데이터를 시각화하기 위해 캔버스 대시보드에 테이블 보고서를 추가할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# 테이블 보고서 작성
+# 캔버스 대시보드에서 표 보고서 작성
 
 >[!IMPORTANT]
 >

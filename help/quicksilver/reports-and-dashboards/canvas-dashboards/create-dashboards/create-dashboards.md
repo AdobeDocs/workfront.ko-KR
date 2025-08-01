@@ -5,7 +5,7 @@ title: 캔버스 대시보드 만들기
 description: Canvas Dashboards를 사용하면 사용자 정의 가능한 대시보드에 보고서를 만들고 추가하여 계정 데이터를 빠르게 시각화할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Canvas Dashboards를 사용하면 사용자 정의 가능한 대시보드에 보
 
 ## 대시보드 만들기
 
-캔버스 대시보드는 대시보드를 작성할 때 사용할 수 있는 다양한 옵션과 구성을 제공합니다. 이 섹션에서는 대시보드를 만드는 일반적인 프로세스를 안내합니다.
+캔버스 대시보드 는 대시보드를 작성할 때 사용할 수 있는 다양한 옵션과 구성을 제공합니다. 이 섹션에서는 대시보드를 만드는 일반적인 프로세스를 안내합니다.
 
 {{step1-to-dashboards}}
 
