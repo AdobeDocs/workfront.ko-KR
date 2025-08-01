@@ -6,9 +6,9 @@ description: 타임라인을 다시 계산하면 관리자는 프로젝트와 �
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d846f2f90a8ca2a38c1b18897341cb50f4c5aef4
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,9 +39,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 표준 </p> 
-   또는
-   <p>현재: 플랜 </p>
+   <td> <p>표준 </p> 
+    <p>플랜 </p>
    </td> 
   </tr> 
   <tr> 
@@ -63,17 +62,21 @@ ht-degree: 0%
 
 기본적으로 프로젝트 타임라인은 프로젝트 범위가 변경될 때 매일 또는 매일 밤 자동으로 다시 계산됩니다. Workfront 관리자는 설정의 프로젝트 환경 설정 영역에서 타임라인 설정을 관리하여 매일 밤 또는 모든 범위 변경 시 타임라인을 자동으로 계산할지 여부를 결정합니다. 자세한 내용은 [프로젝트에 대한 타임라인 다시 계산 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)을 참조하십시오.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->프로젝트의 타임라인이 15년을 초과하는 경우 해당 프로젝트에 대해 자동 재계산이 비활성화되며 수동 업데이트 유형만 선택할 수 있습니다. 프로젝트의 날짜를 15년 미만으로 변경하는 경우 타임라인이 자동으로 계산되기 전에 한 번 수동으로 다시 계산해야 합니다.
+>* 프로젝트의 타임라인이 15년을 초과하는 경우 해당 프로젝트에 대해 자동 재계산이 비활성화되며 수동 업데이트 유형만 선택할 수 있습니다. 프로젝트의 날짜를 15년 미만으로 변경하는 경우 타임라인이 자동으로 계산되기 전에 한 번 수동으로 다시 계산해야 합니다.
+>* 미리보기 및 사용자 지정 새로 고침 샌드박스 환경의 경우 야간 다시 계산이 비활성화되고 프로젝트 타임라인이 자동으로 다시 계산되지 않습니다. 미리보기 및 사용자 지정 새로 고침 샌드박스 환경에 대한 프로젝트 타임라인을 수동으로 다시 계산해야 합니다.
+>* 프로젝트가 복잡한 경우 자동 타임라인 재계산이 수행되지 않을 수 있습니다.
+>  > 복잡한 프로젝트의 예로는 여러 종속성, 많은 작업 수, 여러 프로젝트 간 전임 작업 또는 여러 작업 들여쓰기가 있는 프로젝트가 있을 수 있습니다.
+>  > Workfront은 프로젝트 페이지의 프로젝트 이름 오른쪽에 프로젝트 타임라인을 수동으로 다시 계산해야 한다는 경고를 표시합니다. 프로젝트에 대한 관리 권한이 있는 사용자만 타임라인을 수동으로 다시 계산할 수 있습니다.
+>
+>   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>
 
 * [프로젝트 타임라인 자동 다시 계산](#automatic-recalculation-of-project-timelines)
 * [프로젝트 타임라인의 자동 재계산을 트리거하는 작업](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
 
->[!IMPORTANT]
->
->미리보기 및 사용자 지정 새로 고침 샌드박스 환경의 경우 야간 다시 계산이 비활성화되고 프로젝트 타임라인이 자동으로 다시 계산되지 않습니다. 미리보기 및 사용자 지정 새로 고침 샌드박스 환경에 대한 프로젝트 타임라인을 수동으로 다시 계산해야 합니다.
 
 ### 프로젝트 타임라인 자동 재계산 {#automatic-recalculation-of-project-timelines}
 
