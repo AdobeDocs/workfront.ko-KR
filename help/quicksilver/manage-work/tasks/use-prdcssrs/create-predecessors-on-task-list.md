@@ -6,9 +6,9 @@ description: 전임 작업(또는 전임 작업만 사용)을 사용하여 다�
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Adobe Workfront의 다음 영역에서 작업의 전임 작업을 볼 수 있습
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Adobe Workfront의 다음 영역에서 작업의 전임 작업을 볼 수 있습
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 표준 </p><p>현재: 플랜 </p> </td> 
+   <td> <p>표준 </p><p>플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -78,7 +78,7 @@ Adobe Workfront의 다음 영역에서 작업의 전임 작업을 볼 수 있습
    >
    >1. **플랜 모드** 아이콘을 클릭하고 **자동 저장**&#x200B;을 선택합니다.
    >
-   >1. 전임 작업 프로젝트의 참조 번호 뒤에 콜론과 작업 번호를 입력합니다. 예를 들어, *765021:12*&#x200B;을 입력하면 전임 작업 프로젝트의 참조 번호가 765021 전임 작업은 프로젝트에서 작업 번호 12임을 나타냅니다.
+   >1. 전임 작업 프로젝트의 참조 번호 뒤에 콜론과 작업 번호를 입력합니다. 예를 들어 *765021:12*&#x200B;을(를) 입력하면 전임 작업 프로젝트의 참조 번호가 765021 전임 작업은 프로젝트에서 작업 번호 12임을 나타냅니다.
    >
    >1. 이 전임 작업의 종속성 유형을 추가합니다. 자세한 내용은 [프로젝트 간 전임 작업 만들기](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)를 참조하십시오.
    >

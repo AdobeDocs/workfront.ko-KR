@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 1%
+source-wordcount: '1041'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,9 +60,9 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront 라이선스</p> </td> 
-   <td><p>현재: 작업 시간 이상</p> 
-   또는
-   <p>새로운 기능: 표준</p> </td> 
+   <td><p>표준</p> 
+   <p>작업 이상</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -70,7 +70,7 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>작업 이상을 추가할 수 있는 프로젝트에 대한 Contribute 권한</p> <p>작업을 만들 때 작업에 대한 관리 권한을 자동으로 받습니다</p> <p> 작업 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">작업 공유 </a>를 참조하십시오. </p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 권한 요청을 참조하십시오.</p> </td> 
+   <td> <p>작업 이상을 추가할 수 있는 권한으로 프로젝트에 참여</p> <p>작업을 만들 때 작업에 대한 관리 권한을 자동으로 받습니다</p> <p> 작업 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">작업 공유 </a>를 참조하십시오. </p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 권한 요청을 참조하십시오. </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,6 +80,10 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
 +++
 
 ## 프로젝트에서 작업 만들기
+
+프로젝트에서 작업을 만드는 것은 템플릿에 작업을 만드는 것과 비슷합니다. 템플릿에 템플릿 작업을 추가할 때 아래 설명된 단계를 따를 수 있습니다.
+
+프로젝트에서 작업을 생성하려면 다음을 수행하십시오.
 
 1. 작업을 만들 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **작업**&#x200B;을 클릭합니다.
@@ -113,7 +117,6 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
-       
 
       >[!NOTE]
       >
@@ -162,13 +165,15 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
 
          이렇게 하면 새 작업이 이전 작업의 하위 작업 또는 하위 작업이 됩니다.
 
-         하위 작업에 대한 자세한 내용은 [하위 작업 만들기](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)를 참조하세요.
+         하위 작업에 대한 자세한 내용은 문서 [하위 작업 만들기](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)의 &quot;작업 하위 작업 섹션에서 하위 작업 만들기&quot; 섹션을 참조하십시오.
 
       1. (조건부) **작업 추가**&#x200B;를 누른 후 **자동 저장** 옵션을 비활성화한 경우 다음을 수행할 수 있습니다.
 
          * 언제든지 **실행 취소**&#x200B;를 클릭하여 마지막 변경 내용을 취소하거나 **취소**&#x200B;를 클릭하여 작업 목록에 적용한 모든 변경 내용을 취소합니다.
          * 이전에 **실행 취소**&#x200B;를 클릭한 경우 **다시 실행**&#x200B;을 클릭하여 마지막으로 취소한 변경 내용을 다시 적용합니다.
          * 작업 목록에 변경 사항을 저장하려면 **저장**&#x200B;을 클릭하세요.
+   1. (선택 사항) 작업 목록에서 **전임 작업** 섹션을 클릭하여 작업에 전임 작업을 추가합니다. 자세한 내용은 [전임 작업 영역을 사용하여 전임 작업 관계 만들기](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)를 참조하십시오.
+   1. (선택 사항) 작업 목록에서 **하위 작업** 섹션을 클릭하여 하위 작업을 추가합니다. 자세한 내용은 [하위 작업 만들기](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)를 참조하십시오.
 
 ## 개인 작업을 프로젝트로 이동하여 작업 만들기
 

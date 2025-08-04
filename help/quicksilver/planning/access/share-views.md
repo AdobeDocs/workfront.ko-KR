@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1869'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,7 @@ Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수
 1. 보기의 탭에서 다음 중 하나를 수행합니다.
 
    * 공유할 보기의 탭 위로 마우스를 가져간 후 보기 이름의 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **보기 공유** 상자에서 **공유** > **링크 복사**&#x200B;를 클릭합니다.
-   * **보기 공유** 상자에서 **공유** > **보기 링크 복사** > **링크 복사**&#x200B;를 클릭합니다.
+   * 레코드 유형 페이지에서 **공유** > **보기 링크 복사**&#x200B;를 클릭합니다.
 
    보기에 대한 링크가 클립보드에 복사되며 화면 하단에 확인 메시지가 표시됩니다.
 
@@ -272,10 +272,8 @@ Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수
 1. (조건부) 사용자가 보기 관리자인 경우 다른 사용자로부터 다음 영역의 보기에 액세스하라는 요청을 받을 수 있습니다.
 
    * 인앱 알림
-
      ![보기에 대한 액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request-for-view.png)
    * 이메일 알림
-
      ![보기에 대한 액세스 요청에 대한 인앱 알림](assets/in-app-notification-for-access-request-for-view.png)
 1. (조건부) Workfront의 알림 영역에서 인앱 알림을 클릭합니다
 또는
