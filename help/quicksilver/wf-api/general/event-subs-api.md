@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
 source-wordcount: '2666'
 ht-degree: 3%
@@ -77,7 +77,9 @@ ht-degree: 3%
 * 사용자
 * 작업 영역
 
-이벤트 구독 개체에서 지원하는 필드 목록은 [이벤트 구독 리소스 필드](../../wf-api/api/event-sub-resource-fields.md)를 참조하십시오.
+>[!NOTE]
+>
+>이벤트 구독 개체에서 지원하는 필드 목록은 [이벤트 구독 리소스 필드](../../wf-api/api/event-sub-resource-fields.md)를 참조하십시오.
 
 ## 이벤트 구독 인증
 
@@ -810,7 +812,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >지정된 필터가 있는 아래 구독은 `again`에서 작업 이름이 `oldState`인 메시지만 반환합니다. 이 메시지는 작업에 대한 업데이트가 이루어지기 전입니다.
->&#x200B;>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
+>>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
 
 ```
 {

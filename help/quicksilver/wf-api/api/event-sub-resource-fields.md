@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 1e8b25a0e6ff5c402bb662ef4b1831056e08c58b
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 10%
+source-wordcount: '873'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,8 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->일부 개체는 이벤트 구독 버전 2에서만 사용할 수 있습니다. 이 객체는 표에 표시됩니다.
+>* 일부 개체는 이벤트 구독 버전 2에서만 사용할 수 있습니다. 이 객체는 표에 표시됩니다.
+>* 이 페이지에 나열된 필드는 해당 필드의 값이 null인 경우에도 전달된 이벤트에 항상 표시됩니다.
 
 <table style="table-layout:auto"> 
  <col> 
