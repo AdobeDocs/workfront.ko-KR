@@ -6,9 +6,9 @@ description: 이 문서에서는 프로젝트의 비즈니스 사례 영역에 �
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Workfront 관리자는 사용자 정의 경비 유형을 설정할 수 있습니
 
 비즈니스 사례에서 프로젝트의 리소스 예산 책정에 대한 자세한 내용은 [비즈니스 사례의 리소스 예산](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)을 참조하십시오.
 
-![비즈니스 사례 리소스 예산 책정](assets/business-case-sp-selected-with-choose-button-350x121.png)
+<!--![Business case resource budgeting](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
 비즈니스 사례의 리소스 예산 책정 섹션을 볼 때는 다음 사항을 고려하십시오.
 

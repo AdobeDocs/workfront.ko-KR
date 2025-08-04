@@ -5,7 +5,7 @@ description: 프로젝트 요청에 대한 비즈니스 사례를 완료하고 �
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -126,7 +126,7 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **비즈니스 사례**&#x200B;를 클릭합니다.
 1. 비즈니스 사례 요약 영역에서 **승인** 또는 **거부**&#x200B;를 클릭하여 비즈니스 사례를 승인하거나 거부합니다.
 
-   ![비즈니스 사례](assets/business-case-summary-with-rp-information--1-.png)
+   &lt;!—![비즈니스 사례](assets/business-case-summary-with-rp-information--1-.png)—>
 
    비즈니스 사례가 승인되면 프로젝트 상태가 **승인됨**(으)로 변경됩니다.
 

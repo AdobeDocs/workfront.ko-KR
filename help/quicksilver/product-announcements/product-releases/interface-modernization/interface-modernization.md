@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6319'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,16 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 S
 이 변경 사항을 보려면 설정 > 시스템 > SSO용 사용자 업데이트로 이동하십시오.
 
 ## 프로젝트
+
+## 프로젝트 비즈니스 사례에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 8월 4일, 프로덕션 릴리스: 발표 예정**
+
+애플리케이션의 다른 영역과 일치하도록 프로젝트의 비즈니스 사례의 모양과 느낌을 업데이트했습니다.
+
+이 변경 사항을 보려면 프로젝트 > 프로젝트 선택 > 비즈니스 사례로 이동합니다.
+
+자세한 내용은 [프로젝트에 대한 비즈니스 사례 만들기](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md)를 참조하세요.
 
 ## 템플릿의 대기열 세부 정보 섹션에 대한 새로운 모양 및 느낌
 

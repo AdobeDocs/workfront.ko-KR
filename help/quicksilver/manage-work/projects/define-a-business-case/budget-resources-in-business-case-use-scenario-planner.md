@@ -5,9 +5,9 @@ description: 리소스 계획의 일부로, Adobe Workfront 시나리오 플래�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    * 시나리오 플래너에서 정보를 게시한 경우 **리소스 예산 책정 영역의 프로젝트 예산 인건비를 계산하는 데 사용할 시간을 선택하십시오** 필드에서 시나리오 플래너를 선택한 다음 **선택**&#x200B;을 클릭합니다.
 
-     ![리소스 플래너의 비즈니스 사례(선택 단추 포함)](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     <!--![Business case in Resource Planner with Choose button](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
    * 이전에 리소스 플래너가 프로젝트 리소스 예산 책정에 선택된 경우 **변경** > **시나리오 플래너** > **선택**&#x200B;을 클릭합니다.
 

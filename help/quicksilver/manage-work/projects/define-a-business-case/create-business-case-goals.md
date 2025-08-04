@@ -5,9 +5,9 @@ description: 비즈니스 사례를 만드는 과정의 일부로, 일련의 목
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 1%
 1. 프로젝트 목록에서 비즈니스 사례 목표를 정의할 프로젝트를 선택합니다.
 1. 왼쪽 패널에서 **비즈니스 사례**&#x200B;를 클릭합니다. **비즈니스 사례** 섹션이 표시됩니다.
 
-   ![비즈니스 사례 정보](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   <!--![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)-->
 
 1. **목표** 섹션에서 **목표 편집**&#x200B;을 클릭합니다.
 
@@ -97,7 +97,7 @@ ht-degree: 1%
    * 낮음
    * 가장 낮음
 
-     ![중요도](assets/g1-350x76.png)
+     <!--![Importance](assets/g1-350x76.png)-->
 
      >[!NOTE]
      >

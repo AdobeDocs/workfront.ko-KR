@@ -5,9 +5,9 @@ description: 스코어카드를 사용하여 프로젝트가 이전에 설정한
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 1. 드롭다운 메뉴에서 스코어카드를 선택합니다.
 
-   ![새 스코어카드](assets/new-scorecard.png)
+   <!--![New scorecard](assets/new-scorecard.png)-->
 
 1. 스코어카드의 모든 질문에 대한 답변을 입력합니다.
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
    정렬 점수는 비즈니스 사례 요약의 **정렬됨** 값에 있습니다.
 
-   ![프로젝트의 정렬 점수](assets/alignment-score-on-a-project.png)
+   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
 
 ### Portfolio Optimizer에서 프로젝트 및 포트폴리오의 정렬 점수 보기
 
@@ -175,7 +175,7 @@ Portfolio Optimizer에 표시된 정보에 대한 자세한 내용은 [Portfolio
 * [Portfolio Optimizer에서 프로젝트의 정렬 점수를 찾습니다](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Portfolio Optimizer에서 포트폴리오의 정렬 점수 찾기](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Portfolio Optimizer의 정렬 점수](assets/alignment-score-in-portfolio-optimizer.png)
+  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
 
 #### Portfolio Optimizer에서 프로젝트의 정렬 점수 찾기 {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 

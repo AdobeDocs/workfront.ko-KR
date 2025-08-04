@@ -5,9 +5,9 @@ description: 리소스 계획의 일부로, 프로젝트 수준 리소스 플래
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -108,11 +108,11 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
 
    * **프로젝트의 예산 인건비를 계산하는 데 사용할 시간을 선택하십시오** 필드에서 리소스 플래너를 선택한 다음 **선택 > 리소스 예산 편집**&#x200B;을 클릭합니다.
 
-     ![리소스 플래너의 비즈니스 사례](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * 시나리오 플래너가 프로젝트의 리소스 예산 책정을 위해 선택된 경우 **변경** > **리소스 예산 편집**&#x200B;을 클릭합니다.
 
-     ![시나리오 플래너의 비즈니스 사례](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    프로젝트의 예산 시간을 사용하여 프로젝트의 예산 인건비를 계산합니다.
 
@@ -138,7 +138,7 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
 
    리소스 플래너에 대한 자세한 내용은 [리소스 플래너 개요](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
-   ![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)
+   <!--![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)-->
 
 1. (선택 사항 및 조건부) 작업 역할을 확장하여 연결된 사용자를 확인합니다.
 
