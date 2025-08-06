@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
 workflow-type: tm+mt
 source-wordcount: '6319'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 S
 
 ## 템플릿의 대기열 세부 정보 섹션에 대한 새로운 모양 및 느낌
 
-**미리 보기 릴리스: 2025년 7월 31일, 프로덕션 릴리스: 2025년 8월 7일**
+**미리 보기 릴리스: 2025년 7월 31일, 프로덕션 릴리스: 2025년 8월 14일**
 
 템플릿의 대기열 세부 정보 섹션에 대한 디자인을 업데이트했습니다. 이제 대기열 세부 정보 섹션의 모양과 느낌이 Workfront의 다른 영역과 일치합니다.
 
