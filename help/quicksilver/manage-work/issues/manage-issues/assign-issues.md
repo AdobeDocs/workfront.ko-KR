@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # 문제 할당
+
+{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -170,6 +172,10 @@ ht-degree: 0%
 
    * **할당** 필드 내부를 클릭하고 문제에 할당할 활성 사용자, 작업 역할 또는 활성 팀의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
+     <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+     ![할당 필드](assets/assignments-field-0825.png)
+
+     프로덕션 환경의 샘플 이미지:
      ![할당 필드](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
@@ -180,8 +186,7 @@ ht-degree: 0%
    >
    >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
 
-
-1. (조건부) 할당 필드에 표시되면 할당 상자의 오른쪽 위에 있는 **사람 아이콘** ![사람 아이콘](assets/teams.png)을 클릭하여 고급 할당 상자를 열고 고급 할당을 만듭니다. 자세한 내용은 [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)를 참조하십시오.
+1. (조건부) 할당 필드에서 <span class="preview">**고급**</span> 또는 할당 상자의 오른쪽 위에 있는 **사람 아이콘** ![사람 아이콘](assets/teams.png)을 클릭하여 고급 할당 상자를 열고 고급 할당을 만듭니다. 자세한 내용은 [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)를 참조하십시오.
 
    >[!TIP]
    >

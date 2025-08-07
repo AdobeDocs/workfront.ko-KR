@@ -6,9 +6,9 @@ description: 스마트 할당을 사용하여 작업을 완료하는 데 가장 
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 0%
 # 스마트 할당 만들기
 
 <!--Audited: 07/2024-->
-
-<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 미리 보기 환경에서만 사용할 수 있는 기능을 참조합니다.</span>
-
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 사용자를 식별할 수 있습니다.
 
@@ -90,7 +82,7 @@ ht-degree: 0%
    스마트 할당은 다음 섹션에 표시됩니다<!--, depending on which phase of the algorithm's calculation identified the assignments-->.
 
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
-   * **사용자 및 팀**, **작업 역할** 또는 <span class="preview">**카드 작업 역할 평가**</span>: <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
+   * **사용자 및 팀** 또는 **작업 역할** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
    ![작업 목록의 스마트 할당 예](assets/smart-assignments-task-list.png)
 
