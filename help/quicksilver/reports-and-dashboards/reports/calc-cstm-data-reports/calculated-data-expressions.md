@@ -7,7 +7,7 @@ description: 데이터 표현식을 사용하여 Adobe Workfront에서 계산된
 author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%
@@ -374,7 +374,7 @@ For example:
 
 다음 표현식을 사용하여 텍스트 형식의 값을 표시하는 계산된 사용자 지정 필드를 만들 수 있습니다.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto:fixed"> 
  <col> 
  <col> 
  <thead> 
@@ -555,7 +555,7 @@ For example:
    <td> <p>지정된 패턴의 일치 항목을 대체 문자열로 바꿉니다. </p> 
    <p>표현식의 형식은 다음과 같습니다.</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>예를 들어 REPLACEPATTERN("foo123bar", "\d+", "_")은 문자열 "foo_bar"를 생성합니다. 
+   <p>예를 들어 REPLACEPATTERN("foo123bar", "\d+", "_")은 문자열 "foo_bar"를 생성합니다.
    </td> 
   </tr> 
   <tr> 

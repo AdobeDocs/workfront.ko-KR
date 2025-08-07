@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketing 작업 영역은 회사가 제�
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ recommendations: noDisplay, noCatalog
 
 GenStudio for Performance Marketing 작업 영역은 회사가 제품을 모두 구매하고 Workfront 인스턴스가 회사의 GenStudio 인스턴스와 통합되는 경우 Adobe Workfront Planning에서 사용할 수 있습니다. Planning에서 GenStudio 작업 영역을 보고 두 시스템의 정보를 업데이트할 수 있습니다.
 
-GenStudio for Performance Marketing 사용에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
+GenStudio for Performance Marketing 사용에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -93,6 +93,17 @@ GenStudio for Performance Marketing 사용에 대한 자세한 내용은 [Adobe 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+## Workfront Planning에서 GenStudio 작업 공간 관리에 대한 고려 사항
+
+* Workfront Planning에서 Adobe GenStudio for Performance Marketing 작업 영역을 보려면 먼저 조직에서 GenStudio을 구매해야 합니다.
+
+  GenStudio에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
+
+  GenStudio 및 Workfront Planning 통합에 대한 자세한 내용은 [Workfront Planning 및 GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
+
+* Workfront 사용자가 Workfront Planning에서 GenStudio 작업 영역을 보려면 GenStudio에 액세스할 수 있어야 합니다.
+
 
 ## Workfront Planning에서 GenStudio 작업 공간 관리
 
