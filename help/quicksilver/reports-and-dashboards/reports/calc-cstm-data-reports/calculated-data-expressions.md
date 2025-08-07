@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 계산된 데이터 표현식 개요
 description: 데이터 표현식을 사용하여 Adobe Workfront에서 계산된 사용자 정의 데이터 필드를 정의할 수 있습니다. 계산된 표현식은 새 필드를 생성하는 문에서 기존 Workfront 필드를 연결합니다.
-author: Nolan
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2551'
 ht-degree: 2%
 
 ---
@@ -414,23 +414,8 @@ For example:
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
   </tr>
-  <tr> 
-   <td><strong>SORTASCARRAY</strong> </td> 
-   <td> <p>배열 요소의 순서를 오름차순으로 정렬하고 첫 번째 요소의 유형으로 변환합니다.</p>
-   <p>표현식의 형식은 다음과 같습니다.</p>
-   <p><code>SORTASCARRAY(array)</code></p>
-   <p>예를 들어 ["-12.6", -13.0]은 ["-12.6", "-13"]이 됩니다.</p>
-   <p>참고: 이 표현식은 Workfront Planning에서 지원되지 않습니다.</p></td> 
-  </tr>
-  <tr> 
-   <td><strong>SORTDESCARRAY</strong> </td> 
-   <td> <p>배열 요소의 순서를 내림차순으로 지정하고 첫 번째 요소의 유형으로 변환합니다.</p>
-   <p>표현식의 형식은 다음과 같습니다.</p>
-   <p><code>SORTDESCARRAY(array)</code></p>
-   <p>예를 들어 ["-12.6", -13.0]은 ["-13", "-12.6"]이 됩니다.</p>
-   <p>참고: 이 표현식은 Workfront Planning에서 지원되지 않습니다.</p></td> 
-  </tr>
-  <tr>   
+
+<tr>   
    <td><strong>사례</strong> </td> 
    <td> <p>색인 번호를 기반으로 목록에서 값을 선택하는 데 다른 표현식과 함께 사용됩니다. </p>
    <p>색인 번호는 숫자 값(일반적으로 알려진 범위)을 반환하는 필드 또는 함수입니다.</p> 
@@ -543,10 +528,35 @@ For example:
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
+   <td><strong>파스칼</strong> </td> 
+   <td> <p>각 단어의 첫 번째 문자를 대문자로 사용하고 모든 공백을 제거하여 입력 문자열을 PascalCase로 변환합니다. </p>
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>PASCAL(string) </code></p>
+   <p>예를 들어 "hello world"는 "HelloWorld"가 됩니다</p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>REMOVEACCENTS</strong> </td> 
+   <td> <p>입력 문자열의 모든 악센트 부호가 있는 문자에서 분음 부호를 제거합니다. </p> 
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>REMOVEACCENTS(string)</code></p> 
+   <p>예를 들어, "아캉스가 있는 헬로 월드"는 "악센트가 있는 헬로 월드"가 됩니다. </p>
+   </td> 
+  </tr>
+  <tr> 
    <td><strong>바꾸기</strong> </td> 
    <td> <p>string2의 모든 발생 횟수를 string1의 string3으로 바꿉니다.</p> <p>표현식의 형식은 다음과 같습니다.</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
+  </tr>
+
+<tr> 
+   <td><strong>REPLACEPATTERN</strong> </td> 
+   <td> <p>지정된 패턴의 일치 항목을 대체 문자열로 바꿉니다. </p> 
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
+   <p>예를 들어 REPLACEPATTERN("foo123bar", "\d+", "_")은 문자열 "foo_bar"를 생성합니다. 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>오른쪽</strong> </td> 
@@ -560,6 +570,22 @@ For example:
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>배열 요소의 순서를 오름차순으로 정렬하고 첫 번째 요소의 유형으로 변환합니다.</p>
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>예를 들어 ["-12.6", -13.0]은 ["-12.6", "-13"]이 됩니다.</p>
+   <p>참고: 이 표현식은 Workfront Planning에서 지원되지 않습니다.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>배열 요소의 순서를 내림차순으로 지정하고 첫 번째 요소의 유형으로 변환합니다.</p>
+   <p>표현식의 형식은 다음과 같습니다.</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>예를 들어 ["-12.6", -13.0]은 ["-13", "-12.6"]이 됩니다.</p>
+   <p>참고: 이 표현식은 Workfront Planning에서 지원되지 않습니다.</p></td> 
+  </tr>
   <tr> 
    <td><strong>문자열</strong> </td> 
    <td> <p>숫자를 문자열로 변환하고 형식을 다음과 같이 지정합니다.</p>
@@ -603,3 +629,4 @@ For example:
   </tr> 
  </tbody> 
 </table>
+
