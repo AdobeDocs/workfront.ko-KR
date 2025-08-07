@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
+source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
 workflow-type: tm+mt
-source-wordcount: '6617'
+source-wordcount: '6618'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 S
 
 ## 프로젝트
 
-### 시간 탭에서 프로젝트, 작업 또는 문제의 시간 기록을 위한 인터페이스 업데이트
+### 시간 섹션의 프로젝트, 작업 또는 문제에 대한 로깅 시간 관련 인터페이스 업데이트
 
 **미리 보기 릴리스: 2025년 8월 7일, 프로덕션 릴리스: 2025년 8월 14일**
 
-Workfront의 다른 영역 디자인과 일치하도록 시간 탭에서 프로젝트, 작업 또는 문제에 대한 시간을 기록할 때 로그 시간 상자의 모양과 느낌을 업데이트했습니다.
+Workfront의 다른 영역 디자인과 일치하도록 시간 섹션에서 프로젝트, 작업 또는 문제에 대한 시간을 기록할 때 로그 시간 상자의 모양과 느낌을 업데이트했습니다.
 
 자세한 내용은 [로그 시간](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)을 참조하세요.
 
@@ -114,7 +114,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 * 템플릿의 인물 섹션
 * 프로젝트의 사람 섹션
-* 회사의 사용자 목록
+* 회사의 회사 구성원 섹션
 * 사용자 영역의 사용자 목록
 
 이제 업데이트를 한 명 또는 여러 사용자에게 보낼 때 Workfront의 다른 영역과 업데이트 보내기 상자가 일치합니다.
