@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Workfront Data Connect 데이터 사전
 description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 내용에 대한 정보가 포함되어 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
+source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
 workflow-type: tm+mt
-source-wordcount: '8129'
+source-wordcount: '8114'
 ht-degree: 7%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 7%
 
 ## 테이블 유형
 
-Data Connect에서 최대한 통찰력을 제공하는 방식으로 Workfront 데이터를 보기 위해 활용할 수 있는 다양한 테이블 유형이 있습니다.
+가장 많은 insight을 제공하는 방식으로 Workfront 데이터를 보기 위해 Data Connect에서 활용할 수 있는 다양한 테이블 유형이 있습니다.
 
 * **현재 테이블**
 
@@ -54,8 +54,8 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
 
 특정 이벤트가 발생하는 시기에 대한 정보를 제공하는 다양한 날짜 개체가 있습니다.
 
-* `DL_LOAD_TIMESTAMP`: 이 날짜는 내부 참조에 사용되며 데이터가 Current, Event 또는 Daily History 테이블에 로드된 시기를 반영합니다. 이 날짜는 데이터 분석에 사용되어서는 안 되며 Workfront 데이터 레이크의 베타 단계 동안 제거될 계획입니다.
-* `CALENDAR_DATE`: 이 날짜는 [일별 기록] 테이블에만 있습니다. 이 테이블은 `CALENDAR_DATE`에 지정된 각 날짜에 대해 11:59 UTC에 데이터가 어떻게 보이는지에 대한 기록을 제공합니다.
+* `DL_LOAD_TIMESTAMP`: 이 날짜는 성공적인 데이터 새로 고침이 완료된 후에 업데이트되며 최신 버전의 레코드를 제공한 새로 고침 작업이 시작된 시간의 타임스탬프를 포함합니다.
+* `CALENDAR_DATE`: 이 날짜는 [일별 기록] 테이블에만 있습니다. 이 테이블은 :59에 지정된 각 날짜에 대해 11`CALENDAR_DATE` UTC에서 데이터의 모습에 대한 기록을 제공합니다.
 * `BEGIN_EFFECTIVE_TIMESTAMP`: 이 날짜는 이벤트 및 일별 기록 테이블 모두에 있으며 레코드가 현재 행에 있는 값을 _to_(으)로 변경한 시기를 정확하게 기록합니다.
 * `END_EFFECTIVE_TIMESTAMP`: 이 날짜는 이벤트 및 일일 기록 테이블 모두에 있으며 레코드가 현재 행의 값을 _부터_&#x200B;까지 다른 행의 값으로 변경한 정확한 시점을 기록합니다. `BEGIN_EFFECTIVE_TIMESTAMP`과(와) `END_EFFECTIVE_TIMESTAMP`의 쿼리 사이에 을(를) 허용하려면 새 값이 없어도 이 값은 null이 아닙니다. 레코드가 여전히 유효한 경우(즉, 값이 변경되지 않은 경우) `END_EFFECTIVE_TIMESTAMP`의 값은 2300-01-01입니다.
 
@@ -844,7 +844,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     </tbody>
 </table>
 
-### 청구 요금
+### 청구 요율
 
 <table>
     <thead>
@@ -858,10 +858,10 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
       </thead>
       <tbody>
         <tr>
-            <td>청구 요금</td>
+            <td>청구 요율</td>
             <td>비율 또는 재정의 비율</td>
             <td>비율</td>
-            <td>청구 요금</td>
+            <td>청구 요율</td>
             <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
         </tr>
       </tbody>
