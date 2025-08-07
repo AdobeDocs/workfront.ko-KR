@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
 workflow-type: tm+mt
-source-wordcount: '6584'
+source-wordcount: '6617'
 ht-degree: 0%
 
 ---
@@ -106,13 +106,24 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-### 템플릿의 업데이트 보내기 사용자 상자에 대한 인터페이스 업데이트
+### 여러 개체에서 Send update to user 상자에 대한 인터페이스 업데이트
 
-**미리 보기 릴리스: 2025년 7월 31일, 프로덕션 릴리스: TBD, 2025년**
+**미리 보기 릴리스: 2025년 7월 31일, 프로덕션 릴리스: 2025년 8월 7일**
 
-템플릿의 인물 탭에서 액세스할 때 사용자에게 업데이트 보내기 상자의 모양과 느낌을 업데이트했습니다. 이제 업데이트를 한 명 또는 여러 사용자에게 보낼 때 Workfront의 다른 영역과 업데이트 보내기 상자가 일치합니다.
+다음 영역에서 액세스할 때 사용자에게 업데이트 보내기 상자의 모양과 느낌을 업데이트했습니다.
 
-자세한 내용은 [프로젝트 팀 관리](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)를 참조하십시오.
+* 템플릿의 인물 섹션
+* 프로젝트의 사람 섹션
+* 회사의 사용자 목록
+* 사용자 영역의 사용자 목록
+
+이제 업데이트를 한 명 또는 여러 사용자에게 보낼 때 Workfront의 다른 영역과 업데이트 보내기 상자가 일치합니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* [다른 사용자에게 다이렉트 메시지 보내기](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [프로젝트 팀 관리](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [회사 멤버십 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### 프로젝트 또는 템플릿에서 대기열 주제를 편집할 때 경험이 업데이트됨
 
