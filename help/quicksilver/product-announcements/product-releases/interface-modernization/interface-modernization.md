@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 46cb91855937742ee681b3d2412941b2d3831086
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '6618'
+source-wordcount: '6622'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/hel
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 조건 페이지를 업데이트했습니다.
 
-인터페이스에서 향상된 기능을 보면 편집할 수 있는 조건 옆에 **편집** 단추가 나타나므로 더 이상 조건 위로 마우스를 가져가서 편집 아이콘을 찾을 필요가 없습니다.
+인터페이스에서 향상된 기능을 보면 편집할 수 있는 조건 옆에 **편집** 및 **삭제** 단추가 나타나므로 더 이상 편집 및 삭제 아이콘을 찾기 위해 조건을 마우스로 가리킬 필요가 없습니다.
 
 이러한 변경 사항을 보려면 설정 > 프로젝트 환경 설정 > 조건으로 이동합니다.
 

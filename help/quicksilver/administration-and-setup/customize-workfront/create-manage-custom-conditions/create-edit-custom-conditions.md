@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 2%
@@ -124,15 +124,15 @@ Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작
 
      ![프로젝트를 편집할 때 상태 변경](assets/change-condition-edit-project-0825.png)
 
-<!-- 
+   <!-- 
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)
--->
+   -->
 
-* 사용자가 목록 보기에서 작업 또는 문제에 대한 조건을 변경할 때:
+   * 사용자가 목록 보기에서 작업 또는 문제에 대한 조건을 변경할 때:
 
-  ![목록의 조건 변경](assets/change-conditions-list-dropdown-only.png)
+     ![목록의 조건 변경](assets/change-conditions-list-dropdown-only.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 

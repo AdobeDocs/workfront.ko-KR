@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -70,8 +70,5 @@ Workfront에서는 기본 제공 조건 원활하게 진행 중 을 작업의 �
 >
 >* 작업 또는 문제에 할당되거나 작업 또는 문제에 대한 관리 권한이 있는 사용자는 상태를 수동으로 변경할 수 있습니다. 자세한 내용은 [작업 및 문제에 대한 상태 업데이트](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)를 참조하십시오.
 >* Workfront에 수반되는 작업 및 문제에 대한 세 가지 기본 조건이 순조롭게 진행되고 있으며, 일부 우려사항 및 주요 장애물이 있습니다. 이러한 조건을 숨기거나 삭제할 수는 없지만 해당 이름과 색상을 변경할 수는 있습니다. 또는 [사용자 지정 조건 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)에 설명된 대로 대신 사용할 새 조건을 만들 수 있습니다.
->
 
 사용자 지정 조건을 프로젝트의 기본 조건으로 구성하는 방법에 대한 자세한 내용은 [사용자 지정 조건을 프로젝트의 기본값으로 설정](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)을 참조하십시오.
-
-사용자 지정 조건에 대한 자세한 내용은 [사용자 지정 조건](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)을 참조하세요.

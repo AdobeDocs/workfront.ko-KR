@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
 
 # 사용자 지정 조건 삭제
+
+{{highlighted-preview}}
 
 사용자 지정 조건이 더 이상 필요하지 않으면 삭제할 수 있습니다.
 
@@ -58,16 +60,11 @@ ht-degree: 0%
 
 1. **프로젝트 환경 설정** > **조건**&#x200B;을 클릭합니다.
 
-   <!--
-   <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
-   -->
-
 1. 삭제할 조건이 있는 개체 유형(**프로젝트**, **작업** 또는 **문제**)의 탭을 선택하십시오.
 
-1. 삭제할 조건을 마우스로 가리킨 다음 맨 오른쪽에 나타나는 **삭제** 아이콘 ![삭제](assets/delete.png)을 클릭합니다.
-1. 표시되는 확인 메시지에서 **조건 삭제**&#x200B;를 클릭합니다.
+1. 삭제할 조건 이름 옆의 <span class="preview">**삭제**&#x200B;를 클릭하거나</span> 조건을 마우스로 가리킨 다음 맨 오른쪽에 나타나는 **삭제** 아이콘 ![삭제](assets/delete.png)을 클릭합니다.
 
-1. 표시되는 **조건 삭제** 상자의 드롭다운 목록에서 삭제하려는 조건을 사용 중인 모든 프로젝트에 대해 새 조건을 선택합니다.
+1. 표시되는 **조건 삭제** 상자의 드롭다운 목록에서 삭제하려는 조건을 사용하고 있는 모든 프로젝트, 작업 또는 문제에 대한 새 조건을 선택합니다.
 
    사용자 지정 조건은 삭제하려는 조건과 동일한 기본 제공 조건과 동일한 경우에만 드롭다운 목록에서 사용할 수 있습니다. 예를 들어 위험 수준과 동일한 조건을 삭제하는 경우 위험 수준과 동일한 사용자 지정 조건만 선택할 수 있습니다.
 
@@ -76,5 +73,5 @@ ht-degree: 0%
 >[!NOTE]
 >
 >On Target, At Risk 및 In Trouble인 기본 제공 조건은 삭제할 수 없습니다. 그러나 이름과 색상을 변경할 수 있습니다.
-
-사용자 지정 조건에 대한 자세한 내용은 [사용자 지정 조건](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)을 참조하세요.
+>
+>사용자 지정 조건 편집에 대한 자세한 내용은 [사용자 지정 조건 만들기 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)을 참조하세요.
