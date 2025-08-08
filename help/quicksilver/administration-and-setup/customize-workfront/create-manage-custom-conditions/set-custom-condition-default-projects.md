@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: 183bdced08da75cfb15fe2cc0f0804dec7f07f23
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # 사용자 지정 조건을 프로젝트의 기본값으로 설정
-
-{{highlighted-preview}}
 
 프로젝트의 상태 유형이 [수동]이 아닌 [진행 상태]로 설정되어 있으면 [프로젝트 상태 및 상태 유형 개요](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)에 설명된 대로 Adobe Workfront은 진행할 때 프로젝트에 내장된 세 가지 기본 조건(대상, 위험 또는 문제 발생) 중 하나를 자동으로 표시합니다.
 
