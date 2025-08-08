@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
+source-git-commit: 705fc990f2d90ff2102233fc68947fdbe1eb6946
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 1%
@@ -127,9 +127,10 @@ ht-degree: 1%
       <td> 
        <ol> 
         <li value="1"> <p>사용자를 한 명 이상 선택한 다음 도구 모음에서 <b>사용자에게 업데이트 보내기</b>를 클릭합니다.</p> </li> 
-        <li value="2"> <p>사용자 및 해당 사용자 프로필의 [!UICONTROL 업데이트] 영역에 보낼 설명을 입력합니다.</p> </li> 
+        <li value="2"> <p>사용자 및 해당 사용자 프로필의 [!UICONTROL 업데이트] 영역에 보낼 설명을 입력합니다.</p>
+         <p>자세한 내용은 <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">다른 사용자에게 다이렉트 메시지 보내기</a>를 참조하십시오.</p></li> 
        </ol>
-       <p>자세한 내용은 <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">다른 사용자에게 다이렉트 메시지 보내기</a>를 참조하십시오.</p></td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">회사 구성원 목록 내보내기</td> 
