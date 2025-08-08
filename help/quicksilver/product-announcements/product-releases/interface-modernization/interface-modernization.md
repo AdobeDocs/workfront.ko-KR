@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
+source-git-commit: 46cb91855937742ee681b3d2412941b2d3831086
 workflow-type: tm+mt
 source-wordcount: '6618'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Workfront의 다른 영역 디자인과 일치하도록 시간 섹션에서 프�
 
 ### 프로젝트 비즈니스 사례에 대한 인터페이스 업데이트
 
-**미리 보기 릴리스: 2025년 8월 4일, 프로덕션 릴리스: Aufhost 18**
+**미리 보기 릴리스: 2025년 8월 4일, 프로덕션 릴리스: 8월 18일**
 
 애플리케이션의 다른 영역과 일치하도록 프로젝트의 비즈니스 사례의 모양과 느낌을 업데이트했습니다.
 

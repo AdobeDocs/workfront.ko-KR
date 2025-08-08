@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 웹 응용 프로그램에 표시되는 정보�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '680'
 ht-degree: 1%
 
 ---
@@ -26,17 +26,18 @@ ht-degree: 1%
 
 | **[!DNL Workfront]영역 또는 개체** | **기본 시스템 섹션** | **사용자 지정 섹션** |
 |---|---|---|
-| [!UICONTROL 프로젝트] 영역 | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 팀] | ✓ 덧신 |   |
-| [!UICONTROL 요청] 영역 | ✓ 덧신 |   |
-| [!UICONTROL 타임시트] 영역 | ✓ 덧신 |   |
-| [!UICONTROL Portfolio] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 프로그램] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 프로젝트] | ✓ 덧신 | ✓ 덧신 |
-| [!UICONTROL 작업] | ✓ 덧신 |  ✓ 덧신 |
-| [!UICONTROL 문제] |  ✓ 덧신 |  ✓ 덧신 |
-| [!UICONTROL 사용자] |  ✓ 덧신 |  ✓ 덧신 |
-| [!UICONTROL 문서] |  ✓ 덧신 |  ✓ 덧신 |
+| [!UICONTROL 프로젝트] 영역 | ✓ | ✓ |
+| [!UICONTROL 팀] | ✓ |   |
+| [!UICONTROL 요청] 영역 | ✓ |   |
+| [!UICONTROL 타임시트] 영역 | ✓ |   |
+| [!UICONTROL Portfolio] | ✓ | ✓ |
+| [!UICONTROL 프로그램] | ✓ | ✓ |
+| [!UICONTROL 프로젝트] | ✓ | ✓ |
+| [!UICONTROL 작업] | ✓ |  ✓ |
+| [!UICONTROL 문제] |  ✓ |  ✓ |
+| [!UICONTROL 사용자] |  ✓ |  ✓ |
+| [!UICONTROL 문서] |  ✓ |  ✓ |
+| [!UICONTROL 리소스 조달] 영역 | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -51,19 +52,19 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
    <td> <p>[!UICONTROL Review] 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
+   <td role="rowheader">액세스 수준 구성*</td> 
    <td>[!UICONTROL Reviewer] 이상</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
+   <td role="rowheader">개체 권한</td> 
    <td>객체 유형에 대한 액세스 보기</td> 
   </tr> 
  </tbody> 
@@ -108,7 +109,7 @@ ht-degree: 1%
 * 참고
 * 문서
 
-개체의 계층 구조 및 상호 종속성에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)에서 [개체의 상호 종속성 및 계층 구조](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) 섹션을 참조하십시오.
+개체의 계층 구조 및 상호 종속성에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)에서 [개체의 상호 종속성 및 계층 구조](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.
 
 ## 레이아웃 템플릿에서 왼쪽 패널 맞춤화
 

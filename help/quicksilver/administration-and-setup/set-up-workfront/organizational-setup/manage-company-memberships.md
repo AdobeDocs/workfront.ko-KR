@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: organization-setup
 title: 회사 멤버십 관리
 description: 설정의 [!UICONTROL 회사] 영역에서 회사 구성원을 추가하고 제거할 수 있습니다. 사용자 프로필을 편집하여  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront] 시스템에 등록하도록 상기할 수도 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '879'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,8 @@ ht-degree: 1%
 
 1. **[!UICONTROL 회사]**&#x200B;를 클릭합니다.
 1. 회사 이름을 클릭합니다.
-1. 왼쪽 패널에서 **[!UICONTROL 회사 구성원]** 섹션을 선택한 상태에서 다음 중 하나를 수행합니다.
+1. 왼쪽 패널에서 **[!UICONTROL 회사 구성원]**&#x200B;을 클릭합니다.
+1. 다음 중 하나를 수행합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -125,9 +126,10 @@ ht-degree: 1%
       <td role="rowheader">사용자 및 [!UICONTROL 업데이트] 영역에 주석 보내기</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>사용자를 한 명 이상 선택한 다음 도구 모음에서 [!UICONTROL 주석] 아이콘 <img src="assets/comment-icon.png">을(를) 클릭합니다.</p> </li> 
+        <li value="1"> <p>사용자를 한 명 이상 선택한 다음 도구 모음에서 <b>사용자에게 업데이트 보내기</b>를 클릭합니다.</p> </li> 
         <li value="2"> <p>사용자 및 해당 사용자 프로필의 [!UICONTROL 업데이트] 영역에 보낼 설명을 입력합니다.</p> </li> 
-       </ol> </td> 
+       </ol>
+       <p>자세한 내용은 <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">다른 사용자에게 다이렉트 메시지 보내기</a>를 참조하십시오.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">회사 구성원 목록 내보내기</td> 
