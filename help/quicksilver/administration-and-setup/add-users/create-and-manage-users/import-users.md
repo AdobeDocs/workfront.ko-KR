@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: 0239cad2d9173da20770934e6132b29301117cdf
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -56,7 +56,7 @@ ht-degree: 0%
    <td> <p>다음 중 하나가 있어야 합니다.</p> 
     <ul> 
      <li> <p>시스템 관리자 액세스 수준입니다. </li> 
-     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
+     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <b>에서 두 개의 </b>사용자 관리<img src="assets/gear-icon-in-access-levels.png"> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -100,9 +100,13 @@ ht-degree: 0%
 1. **사용자 가져오기** 상자에서 **파일 선택**&#x200B;을 클릭합니다.
 
 1. 저장한 파일로 이동하여 선택합니다.
-1. (선택 사항) **이 사용자에게 초대 전자 메일 보내기** 옵션을 선택하여 사용자에게 전자 메일 초대를 보내고 사용자에게 Workfront 계정이 생성되었음을 알리고 암호를 설정하도록 요청합니다.
 
-   사용자의 암호를 설정하려면 이 옵션을 선택 취소합니다.
+<!--
+1. (Optional) Select the **Send an invite email to this user** option to send an email invitation to the user, notifying them that a Workfront account has been created and prompting them to set their password.
+
+   Deselect this option if you want to set the password for the user.
+
+-->
 
 1. **가져오기**&#x200B;를 클릭합니다.
 
@@ -114,4 +118,4 @@ ht-degree: 0%
 > 
 >사용자가 몇 분 내에 비활성화됨 및 승인 보류 중 상태에서 이동하지 않고 화면 새로 고침으로 승인 보류 중 배지가 제거되지 않는 경우 사용자 배치를 Adobe Admin Console에 바로 추가할 수 있습니다.
 >
->지침은 [여러 사용자 관리를 참조하십시오. | Adobe 설명서의 일괄 CSV 업로드](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html).
+>지침은 [여러 사용자 관리를 참조하십시오. | Adobe 설명서의 일괄 CSV 업로드](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
