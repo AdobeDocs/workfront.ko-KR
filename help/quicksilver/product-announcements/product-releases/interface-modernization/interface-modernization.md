@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
 workflow-type: tm+mt
 source-wordcount: '6622'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/hel
 
 ## 관리자 및 설정
 
-## 설정의 조건 영역에 대한 인터페이스 업데이트
+### 설정의 조건 영역에 대한 인터페이스 업데이트
 
 **미리 보기 릴리스: 2025년 8월 7일, 프로덕션 릴리스: 2025년 8월 18일**
 
