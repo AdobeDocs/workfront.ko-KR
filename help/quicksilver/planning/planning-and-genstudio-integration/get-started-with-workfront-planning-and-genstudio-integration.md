@@ -4,10 +4,10 @@ description: GenStudio for Performance Marketing 작업 영역은 회사에서 �
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: 9df59ea9b44baaf38c8db8f709f6b2fef1dc7c52
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 1%
+source-wordcount: '1357'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 통�
 
 * Workfront 및 GenStudio for Performance Marketing은 동일한 조직에서 활성화되어야 합니다.
 
-  GenStudio에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
+  GenStudio에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
 
 * 회사에 여러 Workfront 인스턴스가 있으면 Workfront Planning에서 GenStudio을 사용할 수 없습니다. <!--this will change-->
 
@@ -73,26 +73,24 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 통�
    <p> 제품</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront 계획<p></li>
-   <p><li> Adobe GenStudio for Performance Marketing<p></li>
+   <li><p> Adobe GenStudio for Performance Marketing</p></li>
    </ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>다음 Workfront 플랜 중 하나:</p> 
-<ul><li>선택</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
-   </td> 
+<p>모든 Workfront 워크플로 패키지</p>  
+<p>모든 Workfront Planning 패키지</p>
+   </td> </tr>
+
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning 패키지</p></td> 
+   <td role="rowheader"><p>Adobe GenStudio 패키지</p></td> 
    <td> 
-<p>임의 </p> 
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
-   </td> 
- <tr> 
+<p>???</p>
+
+</td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
 <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
@@ -106,19 +104,35 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 통�
   </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe GenStudio 라이선스</p></td> 
+   <td><p> ???</p>
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>   
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
+   <p>GenStudio 구성: ???</p> 
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 공간 및 레코드 유형에 대한 또는 그 이상의 권한 기여  </p>  
-   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> </td> 
+   <td>  
+   <p>Workfront Planning에서: </p>
+   <ul>
+   <li><p>작업 공간 및 레코드 유형에 대한 또는 그 이상의 권한 기여  </p> </li> 
+   <li><p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p></li>
+   </ul>
+   <p>Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Adobe GenStudio for Performance Marketing의 모든 권한</p></li>
+   <li><p> Adobe GenStudio for Performance Marketing에서 항목을 만들 수 있는 권한 만들기</p></li></ul>
+   </td> 
   </tr> 
 </tbody> 
 </table>
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
 
 
 ## Workfront Planning 및 GenStudio 통합 개요
@@ -146,14 +160,16 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 통�
 ### 레코드 유형
 
 * Workfront Planning의 GenStudio에서 레코드 유형 정보(예: 모양)를 편집할 수 있습니다.
-* GenStudio 레코드 유형을 Planning의 다른 사용자와 공유할 수 있습니다.  <!--checking with Ani H.-->
-* GenStudio 작업 영역의 Planning에서 레코드 유형을 만들 수 있습니다. <!-- checking with Ani where these show up in GenS-->
-* GenStudio과 동기화된 레코드 유형에는 레코드 유형을 GenStudio에서 가져왔음을 분명히 하는 시각적 표시기가 표시됩니다.
+* GenStudio 레코드 유형을 Planning의 다른 사용자와 공유할 수 있습니다.
+* GenStudio 작업 영역의 Planning에서 레코드 유형을 만들 수 있습니다. 이러한 레코드 유형은 Planning에만 유지됩니다. GenStudio에는 표시되지 않습니다.
+* GenStudio과 동기화된 레코드 유형은 GenStudio에서 레코드 유형을 가져왔음을 분명히 하는 시각적 표시기를 Workfront Planning에 표시합니다.
 
 ### 레코드
 
 * GenStudio에서 레코드를 추가하거나 삭제할 수 있으며 Workfront Planning에서 표시되거나 제거됩니다.
-Workfront Planning에서 레코드를 추가하거나 삭제할 수 있으며 GenStudio에서 표시되거나 제거됩니다.
+* Workfront Planning에서 레코드를 추가하거나 삭제할 수 있으며 GenStudio에서 표시되거나 제거됩니다.
+* Workfront Planning 또는 GenStudio에서 레코드를 삭제하면 30일 동안 최근에 삭제된 BIN에 저장됩니다. GenStudio에 최근에 삭제된 저장소가 없습니다.
+* 최근에 삭제된 bin에서 레코드를 복원하면 Workfront Planning 및 GenStudio에 다시 배치됩니다.
 * 다음과 같은 방법으로 Workfront Planning에서 레코드를 추가할 수 있습니다.
 
    * 수동으로, 처음부터, 새 레코드 단추를 사용하여 모든 보기에서
@@ -172,7 +188,7 @@ Workfront Planning에서 레코드를 추가하거나 삭제할 수 있으며 Ge
 ### 필드
 
 * 레코드 필드는 GenStudio에서 가져옵니다. Workfront Planning에서 필드 설정을 편집할 수 있습니다.
-* Gen Studio에 관리 액세스 권한이 있는 경우 Workfront Planning에서 GenStudio 레코드 유형에 대해 더 많은 필드를 만들 수 있습니다.
+* Gen Studio에 관리 액세스 권한이 있는 경우 Workfront Planning에서 GenStudio 레코드 유형에 대한 필드를 만들 수 있습니다.
 * Planning에서 GenStudio 레코드 유형에 대한 필드를 만들면 다음 영역에서 볼 수 있습니다.
    * 계획 보기
    * 계획 레코드 세부 정보 페이지
@@ -182,14 +198,17 @@ Workfront Planning에서 레코드를 추가하거나 삭제할 수 있으며 Ge
   >
   >Workfront Planning에서 생성된 필드는 GenStudio 목록 보기에 표시되지 않습니다.
 
-* Planning에서 GenStudio 레코드 유형의 표 보기에서 필드를 숨길 수 있지만 Workfront Planning에서 필드를 삭제할 수는 없습니다.
+* Planning에서 GenStudio 레코드 유형의 표 보기에서 필드를 숨길 수 있습니다.
+* Workfront Planning에서 GenStudio에서 가져온 필드는 삭제할 수 없습니다.
+* Workfront Planning에서 GenStudio 레코드 유형에 대해 Workfront Planning에서 생성된 필드를 삭제할 수 있습니다.
 
 
-<!-- checking: 
-I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - only the newly added fiedsl can be changed or the reference fields. - from this: https://experience.adobe.com/?commentID=6848549f00000091e5f5a16636e381c0#/@adobeinternalworkfront/so:hub-Hub/workfront/project/67649bc00000545810daad1cd1fbb9cc/updates 
--->
+### 작성자 및 승인자 필드
 
-<!--document who shows up in the Created by and Updated by fields - not clear, asking-->
+* Workfront Planning에서 Workfront Planning의 GenStudio 레코드 유형에 대한 작성자 및 승인자 필드를 추가할 수 있습니다.
+* 채널 및 지역 레코드 유형에 표시되는 레코드는 사용자가 만든 것으로 &quot;시스템&quot;을 표시합니다. 이러한 레코드는 Workfront Planning에서 GenStudio 작업 영역을 만들 때 자동으로 만들어집니다.
+* Workfront Planning에서 작업 영역을 사용 가능하게 만든 후 GenStudio에서 만든 레코드는 GenStudio에서 레코드를 만든 사용자이고 Workfront 사용자가 아닌 경우에도 만든 사람 필드에 레코드를 만든 IMS 사용자의 이름을 표시합니다.
+* 승인자 필드에는 레코드 작성을 위해 요청 양식을 제출할 때 승인자의 이름이 표시됩니다.
 
 ### 보기
 
@@ -198,12 +217,26 @@ I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - onl
   자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하십시오.
 
 * Planning 레코드 유형에 대한 보기를 공유할 때 GenStudio 레코드 유형의 보기를 공유할 수 있습니다.
+* GenStudio에서는 여러 보기를 만들 수 없습니다.
 
 ### 연결
 
 * GenStudio 레코드 유형과 Workfront Planning의 다른 레코드 또는 개체 유형 간에 다음과 같은 연결을 만들 수 있습니다.
 
-   * 두 가지 GenStudio 레코드 유형 및
+   * 두 가지 GenStudio 레코드 유형
    * 동일한 작업 영역의 GenStudio 레코드 유형과 Planning 레코드 유형
    * 다른 작업 공간에서 연결하도록 레코드 유형이 구성된 경우 다른 작업 공간의 GenStudio 레코드 유형 및 Planning 레코드 유형입니다.
    * GenStudio 레코드 유형 및 Workfront 개체 유형(프로젝트, 포트폴리오, 프로그램, 회사, 그룹)
+   * GenStudio 레코드 유형 및 AEM Assets 개체 유형입니다.
+
+### 요청 양식 및 자동화
+
+* Workfront Planning에서 GenStudio 레코드 유형에 요청 양식 및 자동화를 추가할 수 있습니다.
+
+### 미리보기 환경
+
+* 프로덕션 환경에서 액세스할 수 있는 GenStudio 작업 영역도 미리보기 환경에 표시됩니다.
+* 미리보기 환경에서 Workfront Planning의 GenStudio 작업 영역에 대해 이 문서에 설명된 모든 활동을 수행할 수 있지만 이러한 변경 사항은 GenStudio으로 전송되지 않습니다.
+프로덕션 환경의 항목에 대한 변경 사항만 Workfront Planning과 GenStudio 간에 동기화됩니다.
+GenStudio에는 미리보기 환경이 없습니다.
+
