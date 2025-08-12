@@ -4,9 +4,10 @@ content-type: reference
 description: AI를 사용하여 프롬프트를 입력하거나 문서를 제공하여 요청 필드를 자동으로 채울 수 있습니다.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1093'
 ht-degree: 2%
 
 ---
@@ -62,6 +63,8 @@ AI는 사용자가 입력하는 프롬프트에 따라 요청 필드를 자동�
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
++++
+
 ## 전제 조건
 
 프롬프트 또는 문서를 사용하여 요청을 자동으로 채우려면 다음 중 **모두**&#x200B;을(를) 적용해야 합니다.
@@ -72,6 +75,9 @@ AI는 사용자가 입력하는 프롬프트에 따라 요청 필드를 자동�
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 
   계약 서명에 대한 자세한 내용은 AI Assistant 개요 문서의 [Adobe Gen AI 계약 서명](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)을 참조하십시오.
+* 조직의 시스템 설정에서 AI Assistant를 활성화해야 합니다. Workfront 관리자가 관리합니다.
+
+  시스템 설정에서 AI Assistant를 활성화하는 방법에 대한 자세한 내용은 [AI Assistant 활성화 또는 비활성화](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)를 참조하십시오.
 
 ## 텍스트 프롬프트에서 제안 받기
 
@@ -252,4 +258,3 @@ Workfront 필드 유형은 지정된 필드를 자동으로 채울 수 있는지
 
 * 이전 요청의 필드 값을 제안하려면 시스템에 최소 1개월 이상의 요청 데이터가 있어야 합니다.
 * 제안 사항을 가져오기 위해 문서를 업로드할 때 문서 업로드 가드레일을 따르지 않았을 수 있습니다. 자세한 내용은 이 문서에서 [문서 업로드 가드레일](#document-upload-guardrails)을(를) 참조하십시오.
-

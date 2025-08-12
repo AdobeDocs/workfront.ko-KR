@@ -4,7 +4,8 @@ content-type: reference
 description: AI를 사용하여 이전 요청의 데이터를 사용하여 요청 필드를 자동으로 채울 수 있습니다.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -59,6 +60,8 @@ AI를 통해 이전 요청을 기반으로 요청 필드를 자동으로 채울 
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 양식 작성 시 제안 받기
 
