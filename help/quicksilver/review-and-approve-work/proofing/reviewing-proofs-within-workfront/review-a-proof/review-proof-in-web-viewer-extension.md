@@ -6,28 +6,26 @@ description: Adobe Workfront 검토 도구는 ZIP 파일 또는 URL로 인터랙
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 5a8bfdeae7f5d23ecf835e652cf0ff5efd5aa410
+source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront 검토 도구를 사용하여 대화형 콘텐츠 검토
 
-<span class="preview">Adobe Workfront 검토 도구는 2024년 11월 7일에 사용할 수 있습니다. 이 확장은 현재 베타 버전입니다.</span>
 
-Adobe Workfront 검토 도구는 ZIP 파일 또는 URL로 인터랙티브한 콘텐츠를 증명 할 수 있는 웹 기반 브라우저 확장 기능입니다. Adobe Workfront 검토 도구는 다음 브라우저에서 사용할 수 있습니다.
+>[!IMPORTANT]
+>
+> SSO 인증이 필요하거나 Figma와 같이 iFrame에서 사이트를 열 수 없는 웹 사이트에서 호스팅되는 대화형 콘텐츠에는 데스크톱 증명 뷰어를 사용하는 것이 좋습니다.
+
+Adobe Workfront 검토 도구는 ZIP 파일 또는 URL로 대화형 컨텐츠를 마크업할 수 있는 웹 기반 브라우저 확장 프로그램입니다. Adobe Workfront 검토 도구는 다음 브라우저에서 사용할 수 있습니다.
 
 * Firefox
 * Chrome
 * Edge
 * Safari
-
->[!IMPORTANT]
->
->이 확장은 GenStudio for Performance Marketing 및 Creative Cloud Express에서 콘텐츠를 검토하는 데 필요합니다. Assets이 웹 뷰어에서 자동으로 열립니다. 계정 설정을 업데이트할 필요가 없습니다.
-
 
 ## 확장 설치
 
@@ -48,11 +46,16 @@ Adobe Workfront 검토 도구는 ZIP 파일 또는 URL로 인터랙티브한 콘
 
 Adobe Workfront 검토 도구에서 대화형 증명을 자동으로 열려면 Workfront 관리자가 아래 섹션에 설명된 대로 workfront에서 증명 설정을 업데이트해야 합니다.
 
+## GenStudio for Performance Marketing 및 Creative Cloud Express에서 Adobe Workfront 검토 도구 사용
+
+이 확장은 GenStudio for Performance Marketing 및 Creative Cloud Express에서 콘텐츠를 검토하는 데 필요합니다. Assets이 웹 뷰어에서 자동으로 열립니다. 계정 설정을 업데이트할 필요가 없습니다.
+
+
 ## Workfront 증명 기본값 업데이트
 
 대화형 콘텐츠에 대한 기본 뷰어로 Workfront 검토 도구를 사용하려면 Workfront에서 증명 기본값을 업데이트해야 합니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >검토해야 하는 컨텐츠가 웹 사이트에 있는 경우 Desktop Proofing Viewer를 사용하는 것이 좋습니다.
 >
