@@ -6,9 +6,9 @@ description: 문제가 제출된 후 문제를 완료하기 위해 추가 작업
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,10 @@ ht-degree: 0%
 </table>
 
 *보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
+## 고려 사항
+
+* 문제를 작업으로 전환할 때는 5분 처리 제한이 있습니다. 문제에 많은 문서가 첨부되어 있고 전환하지 못하는 경우, 일부 문서를 제거하고 다시 시도해야 할 수 있습니다.
 
 ## 문제를 작업으로 전환
 

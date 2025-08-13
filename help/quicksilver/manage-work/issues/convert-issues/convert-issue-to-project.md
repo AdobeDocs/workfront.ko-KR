@@ -6,9 +6,9 @@ description: Adobe Workfront에서 문제를 프로젝트로 전환
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2017'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,10 @@ ht-degree: 1%
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+## 고려 사항
+
+* 문제를 프로젝트로 전환할 때는 5분 처리 제한이 있습니다. 문제에 많은 문서가 첨부되어 있고 전환하지 못하는 경우, 일부 문서를 제거하고 다시 시도해야 할 수 있습니다.
 
 ## 문제를 프로젝트로 전환
 

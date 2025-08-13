@@ -7,9 +7,9 @@ description: Adobe Workfront에는 프로젝트와 연결할 수 있는 개체 �
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Adobe Workfront에는 프로젝트와 연결할 수 있는 개체 수에 대한 
   <tr> 
    <td role="rowheader"><p>타임라인 계산</p></td> 
    <td>Workfront은 6개월 동안 업데이트되지 않은 프로젝트에 대해 자동 타임라인 계산을 수행하지 않으며 업데이트가 이루어질 때까지 다시 시작하지 않습니다.<p>3개월 동안 업데이트되지 않은 프로젝트의 경우 Workfront은 매일 밤 대신 매주 타임라인 계산을 수행합니다.</p><p>프로젝트 타임라인 계산에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">프로젝트 타임라인 다시 계산</a>을 참조하십시오. </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"><p>개체 변환 </p></td> 
+   <td>Workfront의 경우 오브젝트 전환 시 5분 처리 제한이 있습니다. 오브젝트에 많은 문서가 첨부된 경우 5분 제한 내에 변환하지 못할 수 있습니다. 일부 문서를 제거하고 다시 시도해야 할 수 있습니다.</td> 
   </tr> 
  </tbody> 
 </table>
