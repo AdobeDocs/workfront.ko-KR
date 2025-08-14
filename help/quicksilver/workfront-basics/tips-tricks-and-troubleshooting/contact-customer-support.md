@@ -94,8 +94,8 @@ ht-degree: 0%
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
-1. 왼쪽 사이드바에서 **[!UICONTROL 티켓 열기]**를 클릭합니다.
-제품 이름([!UICONTROL , ] 등), 사례 제목 및 사례 설명을 입력할 수 있는 [!DNL Adobe Workfront]사례 만들기[!DNL Adobe Workfront Fusion] 페이지가 열립니다.
+1. 왼쪽 사이드바에서 **[!UICONTROL 티켓 열기]**&#x200B;를 클릭합니다.
+제품 이름([!UICONTROL , &#x200B;] 등), 사례 제목 및 사례 설명을 입력할 수 있는 [!DNL Adobe Workfront]사례 만들기[!DNL Adobe Workfront Fusion] 페이지가 열립니다.
 
    >[!TIP]
    >
