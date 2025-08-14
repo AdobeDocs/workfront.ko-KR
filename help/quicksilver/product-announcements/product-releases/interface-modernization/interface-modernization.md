@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
+source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6776'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ ht-degree: 0%
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
 ## 관리자 및 설정
+
+### 그룹의 사용자 업데이트 보내기 상자에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 8월 14일, 프로덕션 릴리스: 2025년 8월 14일**
+
+그룹 멤버 목록 및 하위 그룹 멤버 목록에서 액세스할 때 사용자로 업데이트 보내기 상자의 모양과 느낌을 업데이트했습니다.
+
+이제 업데이트를 한 명 또는 여러 사용자에게 보낼 때 Workfront의 다른 영역과 업데이트 보내기 상자가 일치합니다.
+
+자세한 내용은 [그룹 멤버십 보기 및 관리](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) 및 [하위 그룹 멤버 보기 및 관리](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)를 참조하십시오.
 
 ### 최근에 삭제된 항목에 대한 인터페이스 업데이트
 
@@ -85,6 +95,10 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 S
 ### 시간 섹션의 프로젝트, 작업 또는 문제에 대한 로깅 시간 관련 인터페이스 업데이트
 
 **미리 보기 릴리스: 2025년 8월 7일, 프로덕션 릴리스: 2025년 8월 14일**
+
+>[!NOTE]
+>
+>미리보기 및 프로덕션에서 일시적으로 제거됨
 
 Workfront의 다른 영역 디자인과 일치하도록 시간 섹션에서 프로젝트, 작업 또는 문제에 대한 시간을 기록할 때 로그 시간 상자의 모양과 느낌을 업데이트했습니다.
 
