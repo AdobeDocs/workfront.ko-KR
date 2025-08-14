@@ -30,7 +30,7 @@ Adobe GenStudio for Performance Marketing 작업 영역은 회사가 제품을 �
 
 Planning에서 GenStudio 작업 영역을 보고 두 시스템의 정보를 업데이트할 수 있습니다.
 
-GenStudio for Performance Marketing 사용에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
+GenStudio for Performance Marketing 사용에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
 
 GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
 
@@ -109,7 +109,7 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
 </table>
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
-*Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
+*Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
 +++   
 
 ## Workfront Planning에서 GenStudio 작업 공간 관리에 대한 고려 사항
