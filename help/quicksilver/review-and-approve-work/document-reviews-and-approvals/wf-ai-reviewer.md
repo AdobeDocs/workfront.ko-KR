@@ -6,19 +6,21 @@ description: Workfront AI 검토자
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+source-git-commit: cfa948baf31891d389ca38fc35d546b77e599c5e
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 5%
+source-wordcount: '620'
+ht-degree: 4%
 
 ---
 
 # Workfront AI 검토자 시작
 
-Workfront AI 검토자를 사용하면 검토 및 승인 작업 과정에서 콘텐츠 속도를 높이고 브랜드 준수를 최적화할 수 있습니다. Workfront에서 승인 템플릿 또는 개별 검토 및 승인 요청에 AI 검토자를 추가할 수 있습니다.
+>[!NOTE]
+>
+>이 기능은 현재 베타 버전입니다.
+
+Workfront AI 검토자를 사용하면 검토 및 승인 작업 과정에서 콘텐츠 속도를 높이고 브랜드 준수를 최적화할 수 있습니다. Workfront의 승인 템플릿 또는 개별 검토 및 승인 요청에 AI 검토자를 추가할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -51,17 +53,12 @@ AI 검토자는 다음 파일 유형을 검토할 수 있습니다.
 
 ## 브랜드 지침 설정
 
-Workfront AI 검토자는 콘텐츠를 검토할 때 Genstudio Foundations에 설정된 브랜드 지침을 사용합니다.
-
-브랜드 지침에 대한 자세한 내용은 다음을 참조하십시오.
-
-* [GenStudio for Performance Marketing 브랜드](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [지침 추가](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+Workfront AI 검토자는 콘텐츠를 검토할 때 성능 마케팅을 위해 Genstudio에 설정된 브랜드 지침을 사용합니다. 현재는 이미지에 대한 브랜드 가이드라인만 설정할 수 있습니다. 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
 
 
 ## AI 검토자 만들기
 
-GenStudio Foundations에 브랜드가 하나 이상 설정되면 Workfront 관리자는 설정 영역에서 AI 검토자 생성을 시작할 수 있습니다. 그런 다음 해당 AI 검토자를 승인 템플릿과 개별 검토 및 승인 요청에 할당할 수 있습니다.
+GenStudio Foundations에 브랜드가 하나 이상 설정되면 Workfront 관리자는 설정 영역에서 AI 검토자 생성을 시작할 수 있습니다. 그런 다음 해당 AI 검토자를 승인 템플릿과 개별 검토 및 승인 요청에 할당할 수 있습니다. 현재 AI 검토자는 이미지 브랜드 지침에 대해서만 검토할 수 있습니다.
 
 자세한 내용은 [AI 검토자 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)를 참조하십시오.
 
@@ -77,7 +74,7 @@ GenStudio Foundations에 브랜드가 하나 이상 설정되면 Workfront 관�
 
 승인 템플릿이 생성되면 프로젝트, 작업 또는 문제의 문서 영역에 있는 자산에 적용할 수 있습니다.
 
-자세한 내용은 [자산 및 문서에 대한 승인 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)를 참조하세요.
+자세한 내용은 [자산 및 문서에 대한 승인 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)를 참조하십시오.
 
 ![AI 검토자를 표시하는 템플릿 목록](assets/ai-review-templates.png)
 
@@ -98,7 +95,7 @@ AI 검토자의 검토 및 승인 요청이 제출된 후 몇 초 후에 문서 
 
 AI 검토자는 검토 및 승인 워크플로에서 의사 결정자가 되도록 설계되지 않았습니다. 지정된 브랜드 요구 사항에 맞게 에셋을 조정하기 위한 점수 및 권장 사항만 제공합니다.
 
-이미지가 브랜드 가이드라인을 오랫동안 충족하지 않는 경우 크리에이티브는 새 버전을 업로드하고 승인 소유자는 AI 검토자와 함께 두 번째 검토 및 승인 요청을 만들 수 있으므로 버전 간에 전환하고 피드백을 비교할 수 있습니다.
+이미지가 브랜드 지침을 오래 충족하지 않는 경우, 크리에이티브는 새 버전을 업로드할 수 있고 승인 소유자는 AI 검토자와 두 번째 검토 및 승인 요청을 만들 수 있으므로 버전 간에 전환하고 피드백을 비교할 수 있습니다.
 
 점수 및 피드백 보기에 대한 자세한 내용은 [AI 검토자 점수 및 피드백 보기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)를 참조하십시오.
 

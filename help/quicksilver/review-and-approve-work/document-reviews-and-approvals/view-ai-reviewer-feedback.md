@@ -6,17 +6,19 @@ description: 승인 요청을 제출한 후 몇 초 후에 문서 요약 패널�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
+source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-
 # AI 검토자 점수 및 피드백 보기
+
+>[!NOTE]
+>
+>이 기능은 현재 베타 버전입니다.
 
 검토 및 승인 요청을 제출한 후 몇 초 후에 문서 요약 패널에서 AI 검토자의 점수와 피드백을 볼 수 있습니다.
 
@@ -28,10 +30,10 @@ AI 검토자는 검토 및 승인 워크플로에서 의사 결정자가 되도�
 
 AI 검토자의 점수와 피드백은 문서 요약 패널 또는 문서 세부 정보 페이지의 승인 탭에서 확인할 수 있습니다.
 
-1. Workfront 알림 전자 메일에서 **검토로 이동**&#x200B;을 클릭합니다.
+1. Workfront 알림 전자 메일에서 **검토로 이동**을 클릭합니다.
 또는
 문서가 업로드된 문서 영역으로 이동하여 문서 요약 패널을 엽니다.
-1. **점수**&#x200B;를 클릭합니다.
+1. **점수**를 클릭합니다.
    ![문서 점수 보기](assets/view-score.png)
 
 점수 및 피드백 창에서 AI 리뷰어는 자산이 지정된 지침을 충족하지 못하는 방법에 대한 설명을 제공합니다.

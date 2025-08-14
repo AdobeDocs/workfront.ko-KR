@@ -6,17 +6,19 @@ description: GenStudio Foundations에 브랜드를 하나 이상 설정한 후�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+exl-id: 4673049e-119e-4315-95f0-f10d8b286856
+source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '250'
 ht-degree: 1%
 
 ---
 
-
 # AI 검토자 만들기
+
+>[!NOTE]
+>
+>이 기능은 현재 베타 버전입니다.
 
 GenStudio Foundations에 브랜드를 하나 이상 설정한 후에는 여러 AI 검토자를 만들어 승인 템플릿 및 개별 검토 및 승인 요청에 할당할 수 있습니다.
 
@@ -53,12 +55,9 @@ GenStudio Foundations에 브랜드를 하나 이상 설정한 후에는 여러 A
 
 ## 전제 조건
 
-시작하기 전에 GenStuido Foundations에 브랜드 지침을 설정해야 합니다.
+시작하기 전에 GenStudio Foundations에서 이미지 브랜드 지침을 설정해야 합니다.
 
-브랜드 지침에 대한 자세한 내용은 다음을 참조하십시오.
-
-* [GenStudio for Performance Marketing 브랜드](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [지침 추가](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+이미지 브랜드 지침에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
 
 ## AI 검토자 추가
 
@@ -77,4 +76,3 @@ GenStudio Foundations에 브랜드를 하나 이상 설정한 후에는 여러 A
 
    * [자산 및 문서에 대한 승인 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
    * [문서 검토 또는 승인 요청 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-
