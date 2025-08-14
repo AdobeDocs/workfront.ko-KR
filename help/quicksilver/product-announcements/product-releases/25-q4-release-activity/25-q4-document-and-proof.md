@@ -4,9 +4,10 @@ description: 2025년 4분기 문서 및 증명 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0babf2c4028ee0c45258ec3490bab336fd05a68b
+exl-id: f4615994-8a56-482c-b033-62e719be152e
+source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,27 @@ ht-degree: 0%
 
 2025년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록을 보려면 [2025년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)를 참조하십시오.
 
+## 새로운 Workfront AI 검토자
+
+>[!NOTE]
+>
+>모든 고객이 2025년 8월 14일에 사용 가능
+
+새로운 Workfront AI 검토자는 이미지 지침부터 시작하여 브랜드 지침에 맞게 콘텐츠를 자동으로 검토하여 이미지 브랜드 준수를 보장하는 데 도움이 됩니다. 승인 프로세스를 간소화할 수 있는 점수와 실행 가능한 피드백을 제공합니다.
+
+승인 템플릿 또는 개별 검토 및 승인 요청에 AI 검토자를 추가할 수 있어 브랜드 표준을 유지하면서 더 빠른 콘텐츠 제작이 가능합니다.
+
+자세한 내용은 [Workfront AI 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)을 참조하세요.
+
+이 기능은 현재 베타 버전입니다.
+
+
 ## Adobe Express에 대한 새로운 증명 통합
+
+>[!NOTE]
+>
+>모든 고객이 2025년 7월 28일에 사용 가능
+
 
 Adobe Express과 Workfront Proof 간의 새로운 통합을 발표하게 되어 매우 기쁘게 생각합니다.
 
