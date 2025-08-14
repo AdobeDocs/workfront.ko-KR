@@ -6,9 +6,9 @@ description: Adobe Workfront 고객은 전화나 온라인으로 티켓을 제�
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,9 +42,8 @@ ht-degree: 0%
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 플랜</p></td>
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -85,7 +82,7 @@ ht-degree: 0%
 >승인된 지원 담당자(또는 지원 권한이 있는 사용자)만 온라인 지원 티켓을 제출할 수 있습니다.
 
 
-1. [[!DNL Experience League]](https://experienceleague.adobe.com/ko) 웹 사이트에서 페이지 상단의 **[!UICONTROL 지원]**&#x200B;을 클릭합니다.
+1. [[!DNL Experience League]](https://experienceleague.adobe.com) 웹 사이트에서 페이지 상단의 **[!UICONTROL 지원]**&#x200B;을 클릭합니다.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -93,10 +90,12 @@ ht-degree: 0%
 
    [!UICONTROL 지원] 홈 페이지에서 진행 중인 지원 사례로 이동하거나, 새로운 사례를 기록하거나, 상위 [!UICONTROL 지원] 문서를 보거나, 추가 학습 소스에 액세스할 수 있습니다.
 
+   Workfront 학습에 대한 자세한 내용은 [도움말 센터](https://learning.adobe.com/resources/help-center.html)를 참조하세요.
+
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
-1. 왼쪽 사이드바에서 **[!UICONTROL 티켓 열기]**&#x200B;를 클릭합니다.
-제품 이름([!UICONTROL , &#x200B;] 등), 사례 제목 및 사례 설명을 입력할 수 있는 [!DNL Adobe Workfront]사례 만들기[!DNL Adobe Workfront Fusion] 페이지가 열립니다.
+1. 왼쪽 사이드바에서 **[!UICONTROL 티켓 열기]**를 클릭합니다.
+제품 이름([!UICONTROL , ] 등), 사례 제목 및 사례 설명을 입력할 수 있는 [!DNL Adobe Workfront]사례 만들기[!DNL Adobe Workfront Fusion] 페이지가 열립니다.
 
    >[!TIP]
    >
@@ -138,7 +137,7 @@ ht-degree: 0%
 1. (선택 사항) 서비스 케이스를 닫으려면 **[!UICONTROL 서비스 케이스 닫기]** 단추를 클릭합니다.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=ko)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

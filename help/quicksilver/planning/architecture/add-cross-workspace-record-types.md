@@ -4,9 +4,9 @@ description: 레코드 유형은 Adobe Workfront Planning의 객체 유형입니
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -27,15 +27,15 @@ recommendations: noDisplay, noCatalog
 
 작업 영역 관리자는 기존 레코드 유형을 다른 작업 영역으로 가져오거나 추가할 수 있습니다.
 
-작업 영역 관리자가 레코드 유형을 다른 작업 영역으로 가져오려면 먼저 레코드 유형의 작업 영역 간 기능을 정의해야 합니다.
+작업 영역 관리자가 레코드 유형을 다른 작업 영역으로 가져오려면 먼저 레코드 유형을 중앙 집중식으로 지정해야 합니다.
 
-레코드 유형을 만들거나 편집할 때 레코드 유형의 작업 영역 간 기능을 정의합니다.
+기록 유형을 만들거나 편집할 때 교차 작업 공간 설정을 정의할 때 중앙 집중식으로 지정할 수 있습니다.
 
 자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,9 +95,11 @@ recommendations: noDisplay, noCatalog
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++   
 
-## 다른 작업 영역에서 기존 레코드 유형을 추가할 때 고려 사항
+## 중앙 집중식 레코드 유형 개요
+
+다른 작업 영역에서 기존 레코드 유형을 추가할 때 고려 사항
 
 * 다른 작업 영역에 추가하도록 구성된 레코드 유형이 없는 경우 레코드 유형을 만들 때 다른 작업 영역에서 해당 레코드 유형을 가져오는 옵션이 표시되지 않습니다. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
 * 다른 작업 영역에서 레코드 유형을 추가하면 기존 레코드 유형에서 다음 정보도 추가됩니다.

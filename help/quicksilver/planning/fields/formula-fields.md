@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 7%
+source-wordcount: '736'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 7%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ ht-degree: 7%
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++   
 
 ## 공식 필드에 대한 고려 사항
 
@@ -112,6 +112,10 @@ ht-degree: 7%
 
   자세한 내용은 문서 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)의 &quot;수식&quot; 섹션을 참조하십시오.
 * 새 수식에서 수식 필드를 참조할 수 있습니다. 공식 필드에서 참조되는 필드에서 값이 업데이트되면 해당 필드를 참조하는 모든 후속 필드 또는 해당 필드가 포함된 공식 필드가 자동으로 업데이트됩니다.
+* 다음과 같은 경우 수식 필드가 `#ERROR!`(으)로 표시될 수 있습니다.
+   * 수식에 사용된 필드가 삭제되는 경우.
+   * 집계된 조회 필드에 사용된 필드가 `#ERROR!`(으)로 표시되는 경우.
+예를 들어 집계된 조회 수식 필드가 포함된 조회 필드를 표시하는 경우 참조된 수식 필드 중 하나가 `#ERROR!`(으)로 표시됩니다.
 
 ## 지원되는 공식
 

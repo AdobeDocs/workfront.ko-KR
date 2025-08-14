@@ -4,9 +4,9 @@ description: 레코드 유형을 다른 작업 공간에 추가하거나 다른 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1030'
 ht-degree: 1%
 
 ---
@@ -22,15 +22,37 @@ recommendations: noDisplay, noCatalog
 
 <!--*******************THIS TITLE MIGHT NEED TO CHANGE WHEN WE HAVE THE FINAL NAME FOR THE "GLOBAL" RECORD TYPE - NOT SURE IF WE ARE GOING TO USE "GLOBAL" OR "DYNAMIC", OR ???? ***************; also update TOC file, the miniTOC,  etc when this is finalized-->
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+
+
+<!--this article is linked to the UI - do not delete or change the URL-->
+<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this imported record type - this info is in the UI - this is what she sent in figma:
+
+Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
+
+So we'd have the "Allow adding this record type to other workspaces" setting in enabled or disabled state, and display an explanation text below it explaining the capability, as well as a link to help articles for more context. I'd like to include the following key points in the message:  
+
+Once enabled, this record type can be added in other workspaces by designated people 
+
+Members of those workspaces can create and manage records in scope of their workspace 
+
+Any records added by other workspace members will be rolled up to this workspace with view access so members of the current workspace can create views for cross-workspace records.  
+
+Then for the second setting for cross-workspace connections, we'll need a similar explanation text would highlight that the other workspaces can create connections and gain view access to the records in this record type, but will not see the record type in their workspace. (not sure what she means by this last bit, asking in figma also)
+
+-->
 
 # 레코드 유형에 대한 작업 영역 간 기능 구성
+
+<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
 
 <span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
-Adobe Workfront Planning에서 다른 작업 공간에 추가되거나 다른 작업 공간에서 연결될 레코드 유형을 지정할 수 있습니다.
+다음은 레코드 유형의 작업 영역 간 기능입니다.
+
+* 레코드 유형을 중앙 집중식으로 지정할 수 있습니다. 사용자는 자신이 관리할 수 있는 다른 작업 공간에 중앙 집중식 레코드 유형을 추가할 수 있습니다.
+* 레코드 종류를 연결 가능한 것으로 지정할 수 있습니다. 사용자는 다른 작업 영역에서 이 레코드 유형에 연결할 수 있습니다.
 
 작업 영역 관리자가 레코드 유형을 다른 작업 영역에서 연결하거나 다른 작업 영역으로 가져오려면 먼저 레코드 유형의 작업 영역 간 기능을 정의해야 합니다.
 
@@ -43,7 +65,7 @@ Adobe Workfront Planning에서 다른 작업 공간에 추가되거나 다른 �
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -103,7 +125,7 @@ Adobe Workfront Planning에서 다른 작업 공간에 추가되거나 다른 �
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++   
 
 ## 다른 작업 공간에 레코드 유형 추가 구성
 
@@ -171,7 +193,7 @@ Adobe Workfront Planning에서 다른 작업 공간에 추가되거나 다른 �
    작업 영역 페이지가 열리고 레코드 유형이 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다
+   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**을 클릭합니다
 또는
    * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 열고 레코드 유형 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 

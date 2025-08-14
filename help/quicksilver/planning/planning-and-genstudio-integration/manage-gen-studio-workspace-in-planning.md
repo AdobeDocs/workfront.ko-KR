@@ -4,10 +4,10 @@ description: GenStudio for Performance Marketing 작업 영역은 회사가 제�
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 2%
+source-wordcount: '688'
+ht-degree: 1%
 
 ---
 
@@ -24,13 +24,19 @@ recommendations: noDisplay, noCatalog
 ---
 -->
 
-GenStudio for Performance Marketing 작업 영역은 회사가 제품을 모두 구매하고 Workfront 인스턴스가 회사의 GenStudio 인스턴스와 통합되는 경우 Adobe Workfront Planning에서 사용할 수 있습니다. Planning에서 GenStudio 작업 영역을 보고 두 시스템의 정보를 업데이트할 수 있습니다.
+<!--MUST update the access requirements below - not complete!!!!!!!!!-->
 
-GenStudio for Performance Marketing 사용에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
+Adobe GenStudio for Performance Marketing 작업 영역은 회사가 제품을 모두 구매하고 Workfront 인스턴스가 회사의 GenStudio 인스턴스와 통합되는 경우 Adobe Workfront Planning에서 사용할 수 있습니다.
+
+Planning에서 GenStudio 작업 영역을 보고 두 시스템의 정보를 업데이트할 수 있습니다.
+
+GenStudio for Performance Marketing 사용에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
+
+GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -44,26 +50,24 @@ GenStudio for Performance Marketing 사용에 대한 자세한 내용은 [Adobe 
    <p> 제품</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront 계획<p></li>
-   <p><li> Adobe GenStudio for Performance Marketing<p></li>
+   <li><p> Adobe GenStudio for Performance Marketing</p></li>
    </ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>다음 Workfront 플랜 중 하나:</p> 
-<ul><li>선택</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
-   </td> 
+<p>모든 워크플로우 패키지</p>  
+<p>모든 Planning 패키지</p>
+   </td> </tr>
+
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning 패키지</p></td> 
+   <td role="rowheader"><p>Adobe GenStudio 패키지</p></td> 
    <td> 
-<p>임의 </p> 
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
-   </td> 
- <tr> 
+<p>???</p>
+
+</td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
 <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
@@ -72,35 +76,45 @@ GenStudio for Performance Marketing 사용에 대한 자세한 내용은 [Adobe 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td><p> 표준</p>
-   <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
+   <td><p> 시스템 관리자</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio 라이선스</p></td> 
+   <td><p> ???</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>   
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
+   <p>GenStudio 구성: ???</p> 
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 공간 및 레코드 유형에 대한 또는 그 이상의 권한 기여  </p>  
-   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> </td> 
+   <td>  
+   <p>Workfront Planning에서: </p>
+   <ul>
+   <li><p>작업 공간 및 레코드 유형에 대한 또는 그 이상의 권한 기여  </p> </li> 
+   <li><p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p></li>
+   </ul>
+   <p>Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Adobe GenStudio for Performance Marketing의 모든 권한</p></li>
+   <li><p> Adobe GenStudio for Performance Marketing에서 항목을 만들 수 있는 권한 만들기</p></li></ul>
+   </td> 
   </tr> 
 </tbody> 
 </table>
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
-
-+++
+*Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
++++   
 
 ## Workfront Planning에서 GenStudio 작업 공간 관리에 대한 고려 사항
 
 * Workfront Planning에서 Adobe GenStudio for Performance Marketing 작업 영역을 보려면 먼저 조직에서 GenStudio을 구매해야 합니다.
-
-  GenStudio에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)를 참조하십시오.
-
-  GenStudio 및 Workfront Planning 통합에 대한 자세한 내용은 [Workfront Planning 및 GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
 
 * Workfront 사용자가 Workfront Planning에서 GenStudio 작업 영역을 보려면 GenStudio에 액세스할 수 있어야 합니다.
 
@@ -112,7 +126,7 @@ GenStudio for Performance Marketing 사용에 대한 자세한 내용은 [Adobe 
 >GenStudio 작업 영역을 관리하기 전에 문서 [Workfront Planning 및 GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
 
 
-1. Workfront에 시스템 관리자로 로그인합니다.
+1. GenStudio에 액세스할 수 있는 사용자로 Workfront에 로그인합니다.
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 계획]**&#x200B;을 클릭합니다.
 
    Workfront Planning 랜딩 페이지가 열립니다.
