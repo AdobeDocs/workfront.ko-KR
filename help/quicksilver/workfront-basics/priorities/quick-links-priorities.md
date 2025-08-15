@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -61,26 +61,26 @@ ht-degree: 0%
 
 {{step1-to-priorities}}
 
-1. 작업 항목 이름을 클릭하여 개요 페이지를 엽니다.
+1. 작업 항목 이름을 클릭하여 **개요** 페이지를 엽니다.
 1. **빠른 링크** 섹션에서 **링크 추가**&#x200B;를 클릭합니다.
 1. **링크 추가** 상자에 URL을 붙여 넣습니다.
-1. **저장**&#x200B;을 클릭합니다.
+1. **저장**을 클릭합니다.
    ![링크 추가](assets/add-link.png)
 
 ## 클립보드에 빠른 링크 복사
 
 {{step1-to-priorities}}
 
-1. 작업 항목 이름을 클릭하여 개요 페이지를 엽니다.
+1. 작업 항목 이름을 클릭하여 **개요** 페이지를 엽니다.
 1. **빠른 링크** 섹션에서 복사할 링크를 찾습니다.
-1. 복사 아이콘 ![복사 아이콘](assets/copy-icon.png)을 클릭합니다.
+1. **복사**![&#x200B;복사 아이콘](assets/copy-icon.png) 아이콘을 클릭합니다.
    ![링크 복사](assets/copy-link.png)
 
 ## 빠른 링크 열기
 
 {{step1-to-priorities}}
 
-1. 작업 항목 이름을 클릭하여 개요 페이지를 엽니다.
+1. 작업 항목 이름을 클릭하여 **개요** 페이지를 엽니다.
 1. **빠른 링크** 섹션에서 열려는 링크를 찾습니다.
 1. 링크를 클릭합니다. 링크가 새 탭에서 열립니다.
    ![링크 열기](assets/open-link.png)
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 {{step1-to-priorities}}
 
-1. 작업 항목 이름을 클릭하여 개요 페이지를 엽니다.
-1. 화면 오른쪽 상단에서 **세부 정보 편집**&#x200B;을 클릭합니다.
+1. 작업 항목 이름을 클릭하여 **개요** 페이지를 엽니다.
+1. 화면 오른쪽 상단에서 **세부 정보 편집**을 클릭합니다.
    ![세부 정보 편집](assets/edit-details.png)
-1. 제거할 링크를 찾은 다음 삭제 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭합니다.
+1. 제거할 링크를 찾은 다음 **삭제** ![삭제 아이콘](assets/delete-icon.png) 아이콘을 클릭합니다.

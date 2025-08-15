@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '524'
 ht-degree: 4%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 4%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,28 +37,28 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
    <p>현재: 검토자 이상</p>
    <p>새로운 기능: 밝게 또는 높음</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>업데이트가 있는 오브젝트에 대한 보기 또는 편집 액세스 권한</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
+   <td role="rowheader">개체 권한</td> 
    <td> <p>오브젝트에 대한 액세스 보기</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -70,11 +68,11 @@ ht-degree: 4%
 
 {{step1-to-priorities}}
 
-1. 작업 목록 맨 위에 있는 달력 아이콘을 클릭합니다.
+1. 작업 목록 맨 위에 있는 **달력** 아이콘을 클릭합니다.
    ![달력 아이콘](assets/calendar-tab.png)
-1. 하나 또는 여러 필터를 선택하여 작업 항목 범위를 좁힙니다.
+1. 하나 이상의 필터를 선택하여 작업 항목 범위를 좁힙니다.
 
-   +++을 확장하여 사용 가능한 필터에 대한 자세한 정보 확인
+   +++를 확장하여 사용 가능한 필터에 대한 자세한 정보 보기
    <table>
     <tbody>
     <tr>
@@ -101,7 +99,7 @@ ht-degree: 4%
         <ul>
         <li>항목이 작업되지 않도록 하는 불완전한 전임 작업 또는 작업 제한</li>
         <p>또는</p>
-        <li>2주 이상 후의 계획된 시작 일자</li>
+        <li>계획된 시작 일자가 향후 2주 이상.</li>
         </ul>
         </td>
         </tr>
@@ -118,11 +116,11 @@ ht-degree: 4%
         </tr>
         <tr>
         <td>기한</td>
-        <td>계획된 완료 일자별 작업 표시</td>
+        <td>계획된 완료 일자별로 작업을 표시합니다.</td>
         </tr>
         <tr>
         <td>상태</td>
-        <td>작업 또는 문제를 신규, 진행 중 및 완료 상태로 표시</td>
+        <td>작업 또는 문제를 신규, 진행 중 및 완료 상태로 표시합니다.</td>
         </tr>
         <tr>
         <td>내 포커스</td>
@@ -135,14 +133,14 @@ ht-degree: 4%
 
 1. 달력에서 작업 항목 막대를 클릭하여 사이드 요약을 엽니다. 사이드 요약을 통해 다음 작업을 수행할 수 있습니다.
 
-* 프로젝트 및 작업 항목 세부 정보 보기 및 편집
-* 댓글 만들기 및 보기
-* 문서 보기 및 업로드
-* 증명 만들기
-* Workfront의 프로젝트 페이지로 이동
-* 우선 순위의 작업 항목 세부 정보 페이지로 이동합니다.
-* 로그 시간
-* 빠른 링크 추가
+   * 프로젝트 및 작업 항목 세부 정보 보기 및 편집
+   * 댓글 만들기 및 보기
+   * 문서 보기 및 업로드
+   * 증명 만들기
+   * Workfront의 프로젝트 페이지로 이동
+   * 우선 순위의 작업 항목 세부 정보 페이지로 이동합니다.
+   * 로그 시간
+   * 빠른 링크 추가
 
 1. (선택 사항) 캘린더에 새 작업 항목을 추가하려면 **새로 만들기**&#x200B;를 클릭합니다. 자세한 내용은 [우선 순위에서 새 작업 또는 문제 만들기](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)를 참조하십시오.
 
@@ -150,12 +148,12 @@ ht-degree: 4%
 
 {{step1-to-priorities}}
 
-1. 작업 목록 맨 위에 있는 달력 아이콘을 클릭합니다.
+1. 작업 목록 맨 위에 있는 **달력** 아이콘을 클릭합니다.
    ![달력 아이콘](assets/calendar-tab.png)
 1. 캘린더의 오른쪽 모서리에 있는 **설정** 아이콘을 클릭합니다.
 
 1. **표시줄 스타일** 탭에서 달력의 작업 항목 표시줄에 표시할 필드를 최대 5개까지 선택하십시오.
    ![샘플 막대](assets/sample-task-for-field-config.png)
 
-1. **색상** 탭에서 작업 항목을 표시할 방법을 선택합니다. 예를 들어 프로젝트를 선택하면 작업 목록에서 프로젝트에 할당된 색상에 따라 작업 항목이 표시됩니다.
+1. **색상** 탭에서 작업 항목을 표시할 방법을 선택합니다. 예를 들어 **프로젝트**을(를) 선택하면 작업 목록에서 프로젝트에 할당된 색상에 따라 작업 항목이 표시됩니다.
    ![샘플 색상 프로젝트](assets/sample-calendar-projects.png)

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: ab0e1bba3a91c07070620f65b480c09c2c1560ed
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '13427'
+source-wordcount: '13424'
 ht-degree: 2%
 
 ---
@@ -846,7 +846,6 @@ ht-degree: 2%
       * [Workfront의 프로젝트, 작업 및 문제 날짜 개요](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * 우선순위 {#priorities}
       * [우선 순위: 문서 색인](workfront-basics/priorities/priorities-toc.md)
-      * [우선 순위: 예정된 릴리스](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [우선 순위 시작](workfront-basics/priorities/get-started-with-priorities.md)
       * [우선 순위에서 프로젝트 및 작업 항목 세부 정보 보기](workfront-basics/priorities/view-task-project-details.md)
       * [우선 순위에서 작업 필터링 및 그룹화](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
@@ -2164,7 +2163,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)

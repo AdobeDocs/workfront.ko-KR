@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,18 @@ ht-degree: 2%
 {{step1-to-priorities}}
 
 1. 작업 목록에서 작업 이름을 마우스로 가리킨 다음 **요약** 아이콘 ![요약 열기 아이콘](assets/summary-icon.png)을 클릭합니다.
-1. 패널의 작업 또는 문제 탭에 있는지 확인합니다.
-1. 오른쪽 레일에서 문서 아이콘을 클릭합니다.
-1. 파일 업로드 아이콘을 클릭하고 파일을 선택합니다.
-1. (선택 사항) 다음 중 하나를 수행합니다.
-   1. 폴더를 선택합니다.
-   1. 댓글 달기
-   1. 파일을 더 추가합니다.
+1. 요약 패널의 **작업** 또는 **문제** 탭에 있는지 확인하세요.
+1. **파일 업로드** 아이콘 ![파일 업로드 아이콘](assets/upload-file-icon.png)을 클릭합니다.
+1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
+또는
+**파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
+   ![파일 추가](assets/add-files.png)
+1. (선택 사항) 댓글을 추가합니다.
+1. (선택 사항) 파일을 더 추가합니다.
+
+   >[!NOTE]
+   >
+   >추가 파일은 별도의 문서로 업로드됩니다.
 1. **업로드**&#x200B;를 클릭합니다.
 
 ### 작업 항목 세부 정보
@@ -86,12 +91,18 @@ ht-degree: 2%
 {{step1-to-priorities}}
 
 1. 작업 목록에서 작업 항목 이름을 클릭합니다.
-1. 화면 상단의 문서 탭을 클릭합니다.
-1. **문서 업로드** > **문서**&#x200B;를 클릭합니다.
-1. (선택 사항) 다음 중 하나를 수행합니다.
-   1. 폴더를 선택합니다.
-   1. 댓글 달기
-   1. 파일을 더 추가합니다.
+1. 화면 상단의 **문서** 탭을 클릭합니다.
+1. 오른쪽 상단의 **문서 업로드**&#x200B;를 클릭한 다음 **문서**&#x200B;를 선택합니다.
+1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
+또는
+**파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
+   ![파일 추가](assets/add-files.png)
+1. (선택 사항) 댓글을 추가합니다.
+1. (선택 사항) 파일을 더 추가합니다.
+
+   >[!NOTE]
+   >
+   >추가 파일은 별도의 문서로 업로드됩니다.
 1. **업로드**&#x200B;를 클릭합니다.
 
 
@@ -105,16 +116,17 @@ ht-degree: 2%
 {{step1-to-priorities}}
 
 1. 작업 목록에서 작업 이름을 마우스로 가리킨 다음 **요약** 아이콘 ![요약 열기 아이콘](assets/summary-icon.png)을 클릭합니다.
-1. 패널의 작업 또는 문제 탭에 있는지 확인합니다.
-1. 오른쪽 레일에서 **문서** 아이콘을 클릭합니다.
-1. **파일 업로드** 아이콘을 클릭한 다음 파일을 선택하십시오.
+1. 요약 패널의 **작업** 또는 **문제** 탭에 있는지 확인하세요.
+1. 오른쪽 레일에서 **문서** 아이콘 ![문서 아이콘](assets/show-document-icon.png)을 클릭합니다.
+1. **파일 업로드** 아이콘 ![파일 업로드 아이콘](assets/upload-file-icon.png)을 클릭한 다음 파일을 선택하십시오.
 
    >[!NOTE]
    >
    >증명을 만들려면 먼저 문서를 업로드해야 합니다.
 
 
-1. 파일이 업로드되면 **증명 만들기**&#x200B;를 클릭합니다.
+1. 파일이 업로드되면 **문서** 섹션에서 파일을 선택하십시오.
+1. 파일 세부 정보 상자의 오른쪽 상단 모서리에서 **증명 만들기**&#x200B;를 클릭합니다.
 1. 다음 중 하나를 선택합니다.
 
    <table style="table-layout:auto"> 
@@ -122,11 +134,11 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">단순 증명</td> 
+      <td role="rowheader"><b>단순 증명</b></td> 
       <td>이 옵션은 워크플로가 첨부되지 않은 증명을 만들고 기본 증명 설정을 적용합니다. 증명을 만든 후 기본 증명 설정을 업데이트하거나 워크플로우를 추가할 수 있습니다. 증명 설정에 대한 자세한 내용은 <a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">증명 설정 편집</a>을 참조하세요.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">고급 증명</td> 
+      <td role="rowheader"><b>고급 증명</b></td> 
       <td> <p>이 옵션을 사용하면 기본 또는 고급 워크플로를 구성하고 만든 증명에 대한 증명 설정을 수정할 수 있습니다. 자세한 내용은 </p> 
        <ul> 
         <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">기본 워크플로를 사용하여 고급 증명 만들기</a> </p> </li> 
@@ -143,7 +155,7 @@ ht-degree: 2%
 
 1. 작업 목록에서 작업 항목 이름을 클릭합니다.
 1. 화면 상단의 **문서** 탭을 클릭합니다.
-1. **문서 업로드** > **증명**&#x200B;을 클릭합니다.
+1. 오른쪽 상단의 **문서 업로드**&#x200B;를 클릭한 다음 **증명**&#x200B;을 선택합니다.
 1. 에 설명된 대로 증명을 만듭니다.
    [기본 워크플로를 사용하여 고급 증명 만들기](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [자동화된 워크플로로 고급 증명 만들기](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

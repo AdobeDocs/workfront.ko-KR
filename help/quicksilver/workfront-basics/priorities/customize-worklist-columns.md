@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ ht-degree: 0%
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,35 +55,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
-
-## 프로덕션의 우선 순위 작업 목록 열 사용자 정의
-
-### 열 활성화 또는 비활성화
-
-{{step1-to-priorities}}
-
-1. 화면 오른쪽에 있는 **열**&#x200B;을 클릭합니다.
-   ![열](assets/columns.png)
-1. 작업 목록에서 열을 활성화 또는 비활성화하려면 전환을 사용하십시오.
-
-### 열 순서 바꾸기
-
-{{step1-to-priorities}}
-
-1. 화면 오른쪽에 있는 **열**&#x200B;을 클릭합니다.
-1. **드래그** 아이콘을 클릭하고 열을 원하는 위치로 이동합니다. 작업 목록에서 열을 자동으로 이동합니다.
-   ![열 순서 바꾸기](assets/reorder-columns.png)
-
-### 열 너비 재설정
-
-{{step1-to-priorities}}
-
-1. 화면 오른쪽에 있는 **열**&#x200B;을 클릭합니다.
-1. **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭하고 **열 너비 다시 설정**&#x200B;을 선택하세요.
-   ![열](assets/columns.png)
 
 ## 우선 순위 작업 목록 열 사용자 정의
 
@@ -93,7 +65,7 @@ ht-degree: 0%
 
 {{step1-to-priorities}}
 
-1. 화면 왼쪽에서 **열**&#x200B;을 클릭합니다.
+1. 화면 왼쪽에서 **열**을 클릭합니다.
    ![열](assets/columns-new.png)
 1. 작업 목록에서 열을 활성화 또는 비활성화하려면 전환을 사용하십시오.
 
