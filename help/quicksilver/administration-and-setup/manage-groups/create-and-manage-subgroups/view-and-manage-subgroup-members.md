@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
    <td> <p>다음 중 하나가 있어야 합니다.</p> 
     <ul> 
      <li> <p>시스템 관리자 액세스 수준입니다. </li> 
-     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-settings.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
+     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <b>에서 두 개의 </b>사용자 관리<img src="assets/gear-icon-settings.png"> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
     </ul> </td> 
   </tr>  
  </tbody> 
@@ -77,9 +77,11 @@ ht-degree: 0%
 
      자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 또는 [사용자 프로필 일괄 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)을 참조하십시오.
 
-   * 목록에서 원하는 수의 구성원을 선택한 다음 ![댓글 아이콘 업데이트](assets/comment-icon.png)를 클릭하여 사용자 프로필에 댓글을 추가합니다.
+   * 목록에서 원하는 수의 하위 그룹 구성원을 선택한 다음 **사용자에게 업데이트 보내기**&#x200B;를 클릭하여 사용자 프로필에 댓글을 추가합니다.
 
      사용자 또는 사용자는 댓글이 포함된 이메일 알림과 인앱 알림을 받습니다. 댓글은 사용자 프로필의 업데이트 영역에 표시됩니다.
+
+     자세한 내용은 [다른 사용자에게 다이렉트 메시지 보내기](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)를 참조하십시오.
 
    * 목록에서 원하는 수의 구성원을 선택한 다음 ![사용자 비활성화](assets/deactivate-user.png) 또는 ![사용자 활성화](assets/activate-user.png) 활성화를 클릭합니다.
 

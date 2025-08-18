@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -116,8 +116,9 @@ Adobe Workfront 관리자는 관리하는 그룹의 구성원을 보고, 추가�
       <td role="rowheader">그룹 구성원에게 주석 보내기</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">사용자 이름을 하나 이상 선택한 다음 <strong>업데이트</strong> <img src="assets/comment-icon.png">를 클릭합니다.</li> 
-        <li value="2">주석을 입력합니다.</li> 
+        <li value="1">최소 한 명 이상의 그룹 구성원을 선택한 다음 도구 모음에서 <strong>사용자에게 업데이트 보내기</strong>를 클릭합니다.</li> 
+        <li value="2"><p>사용자 및 해당 사용자 프로필의 업데이트 영역에 보낼 주석을 입력합니다.</p>
+        <p>자세한 내용은 <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">다른 사용자에게 다이렉트 메시지 보내기</a>를 참조하십시오.</p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
