@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
+source-git-commit: c23b3967cf06aaff1bcd7465ce6c7a0c7b7fe9af
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '750'
+ht-degree: 0%
 
 ---
 
@@ -73,18 +73,18 @@ Adobe Workfront 관리자는 관리하는 그룹의 구성원을 보고, 추가�
      <tr> 
       <td role="rowheader">사용자를 그룹에 추가</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1"><strong>구성원 추가</strong> <img src="assets/add-icon-plus-in-circle.png">를 클릭하고 사용자 이름을 입력한 다음 표시될 때 선택합니다.</li> 
-        <li value="2"> <p>추가하려는 다른 사용자에 대해 이 작업을 반복합니다.</p> <p>해당 사용자를 추가하지 않기로 결정한 경우 이름 오른쪽에 있는 X를 클릭할 수 있습니다.</p> </li> 
-        <li value="3">완료되면 <strong>완료</strong>를 클릭하세요.</li> 
+       <ol> 
+        <li><strong>구성원 추가</strong> <img src="assets/add-icon-plus-in-circle.png">를 클릭하고 사용자 이름을 입력한 다음 표시될 때 선택합니다.</li>
+        <li> <p>추가하려는 다른 사용자에 대해 이 작업을 반복합니다.</p> <p>해당 사용자를 추가하지 않기로 결정한 경우 이름 오른쪽에 있는 X를 클릭할 수 있습니다.</p> </li>
+        <li>완료되면 <strong>완료</strong>를 클릭하세요.</li>
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">그룹에서 사용자 제거</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">사용자 이름을 하나 이상 선택한 다음 <strong>구성원 제거</strong><img src="assets/remove-icon---x-in-circle.png">를 클릭합니다.</li> 
-        <li value="2"> <p>표시되는 경고 메시지에서 <strong>제거</strong>를 클릭합니다.</p> <p><strong>목록에서 사용자 및 그룹 검색</strong>을 클릭하고 상자에 이름을 입력한 다음 표시될 때 이름을 클릭하여 목록에서 제거할 사용자를 찾을 수 있습니다.</p> <p><b>참고</b>:  
+       <ol> 
+        <li>사용자 이름을 하나 이상 선택한 다음 <strong>구성원 제거</strong><img src="assets/remove-icon---x-in-circle.png">를 클릭합니다.</li> 
+        <li> <p>표시되는 경고 메시지에서 <strong>제거</strong>를 클릭합니다.</p> <p><strong>목록에서 사용자 및 그룹 검색</strong>을 클릭하고 상자에 이름을 입력한 다음 표시될 때 이름을 클릭하여 목록에서 제거할 사용자를 찾을 수 있습니다.</p> <p><b>참고</b>:  
           <ul> 
            <li>이 그룹이 제거할 사용자의 홈 그룹인 경우 먼저 사용자 프로필에 다른 홈 그룹을 할당해야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">홈 그룹 개요</a> 및 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">사용자 프로필 편집</a>을 참조하세요.</li> 
            <li>그룹에 그룹 관리자가 한 명만 있고 그룹에서 제거해야 하는 경우 먼저 그룹에 다른 그룹 관리자를 할당해야 합니다.</li> 
@@ -95,17 +95,17 @@ Adobe Workfront 관리자는 관리하는 그룹의 구성원을 보고, 추가�
      <tr> 
       <td role="rowheader">사용자 프로필 정보 편집</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">사용자 이름을 하나 이상 선택한 다음 <strong>편집</strong> <img src="assets/edit-icon.png">을(를) 클릭합니다.</li> 
-        <li value="2"> <p>사용자의 프로필 정보를 변경합니다.</p> <p>변경 내용에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">사용자 프로필 편집</a>을 참조하십시오.</p> </li> 
+       <ol> 
+        <li>사용자 이름을 하나 이상 선택한 다음 <strong>편집</strong> <img src="assets/edit-icon.png">을(를) 클릭합니다.</li> 
+        <li> <p>사용자의 프로필 정보를 변경합니다.</p> <p>변경 내용에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">사용자 프로필 편집</a>을 참조하십시오.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">사용자 멤버십 데이터 내보내기</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">사용자 이름을 하나 이상 선택한 다음 <strong>내보내기</strong> <img src="assets/export.png">를 클릭합니다.</li> 
-        <li value="2"> <p>데이터를 PDF, Excel 또는 탭으로 구분된 파일로 내보냅니다.</p> <p>데이터 내보내기에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">데이터 내보내기</a>를 참조하십시오.</p> </li> 
+       <ol> 
+        <li>사용자 이름을 하나 이상 선택한 다음 <strong>내보내기</strong> <img src="assets/export.png">를 클릭합니다.</li> 
+        <li> <p>데이터를 PDF, Excel 또는 탭으로 구분된 파일로 내보냅니다.</p> <p>데이터 내보내기에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">데이터 내보내기</a>를 참조하십시오.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -115,9 +115,9 @@ Adobe Workfront 관리자는 관리하는 그룹의 구성원을 보고, 추가�
      <tr> 
       <td role="rowheader">그룹 구성원에게 주석 보내기</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">최소 한 명 이상의 그룹 구성원을 선택한 다음 도구 모음에서 <strong>사용자에게 업데이트 보내기</strong>를 클릭합니다.</li> 
-        <li value="2"><p>사용자 및 해당 사용자 프로필의 업데이트 영역에 보낼 주석을 입력합니다.</p>
+       <ol> 
+        <li>최소 한 명 이상의 그룹 구성원을 선택한 다음 도구 모음에서 <strong>사용자에게 업데이트 보내기</strong>를 클릭합니다.</li> 
+        <li><p>사용자 및 해당 사용자 프로필의 업데이트 영역에 보낼 주석을 입력합니다.</p>
         <p>자세한 내용은 <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">다른 사용자에게 다이렉트 메시지 보내기</a>를 참조하십시오.</p></li> 
        </ol> </td> 
      </tr> 
