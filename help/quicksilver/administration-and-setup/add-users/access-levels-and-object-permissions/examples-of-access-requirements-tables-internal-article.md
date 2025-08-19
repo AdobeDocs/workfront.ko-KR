@@ -213,12 +213,12 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Adobe Workfront 패키지 또는 Adobe Workfront Workflow 패키지</p> (***너무 많음****)
+<p>모든 Adobe Workfront 패키지 또는 Adobe Workfront Workflow 패키지</p> (***너무 많음**&#x200B;**)
 
 And
 <p>모든 Adobe Workfront Planning 패키지</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront platform(****이 문제를 해결하시겠습니까? 아니면 이 문제를 맨 아래에 연결된 문서의 일부로 만드시겠습니까???*****)</p></td> 
+<td role="rowheader"><p>Adobe Workfront platform(**&#x200B;**&#x200B;이 문제를 해결하시겠습니까? 아니면 이 문제를 맨 아래에 연결된 문서의 일부로 만드시겠습니까???**&#x200B;***)</p></td> 
    <td> 
 <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
