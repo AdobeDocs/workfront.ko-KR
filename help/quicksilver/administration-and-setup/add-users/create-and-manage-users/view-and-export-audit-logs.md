@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
    >
    >작업 유형 드롭다운 메뉴의 옵션은 선택한 감사 로그에 따라 달라집니다.
 
-   ![감사 로그](assets/audit-logs.jpg)
+   ![감사 로그](assets/audit-logs.png)
 
 1. **적용**&#x200B;을 클릭합니다.
 1. (선택 사항) 필터에 대한 변경 내용을 재설정하려면 **필터 지우기**&#x200B;를 클릭합니다.
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **시스템 > 감사 로그**&#x200B;를 클릭합니다.
+1. 왼쪽 패널에서 **시스템 > 변경 내용 추적 > 감사 로그**&#x200B;를 클릭합니다.
 
 1. **로그 유형** 드롭다운 메뉴에서 감사 로그를 선택합니다.
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
+source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
 workflow-type: tm+mt
-source-wordcount: '6894'
+source-wordcount: '6892'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 ### 설정의 감사 로그 페이지에 대한 인터페이스 업데이트
 
-**미리 보기 릴리스: 2025년 7월 22일, 프로덕션 릴리스: 발표 예정**
+**미리 보기 릴리스: 2025년 7월 22일, 프로덕션 릴리스: 2025년 7월 28일**
 
 애플리케이션의 다른 영역과 일치하도록 설정의 감사 로그 페이지를 업데이트했습니다.
 
