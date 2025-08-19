@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
 # 사용자 지정 조건 삭제
-
-{{highlighted-preview}}
 
 사용자 지정 조건이 더 이상 필요하지 않으면 삭제할 수 있습니다.
 
@@ -62,8 +60,7 @@ ht-degree: 0%
 
 1. 삭제할 조건이 있는 개체 유형(**프로젝트**, **작업** 또는 **문제**)의 탭을 선택하십시오.
 
-1. 삭제할 조건 이름 옆의 <span class="preview">**삭제**&#x200B;를 클릭하거나</span> 조건을 마우스로 가리킨 다음 맨 오른쪽에 나타나는 **삭제** 아이콘 ![삭제](assets/delete.png)을 클릭합니다.
-
+1. 삭제할 조건 이름 옆에 있는 **삭제**&#x200B;를 클릭합니다.
 1. 표시되는 **조건 삭제** 상자의 드롭다운 목록에서 삭제하려는 조건을 사용하고 있는 모든 프로젝트, 작업 또는 문제에 대한 새 조건을 선택합니다.
 
    사용자 지정 조건은 삭제하려는 조건과 동일한 기본 제공 조건과 동일한 경우에만 드롭다운 목록에서 사용할 수 있습니다. 예를 들어 위험 수준과 동일한 조건을 삭제하는 경우 위험 수준과 동일한 사용자 지정 조건만 선택할 수 있습니다.

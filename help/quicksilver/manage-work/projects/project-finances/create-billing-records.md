@@ -5,7 +5,7 @@ description: 수익 및 추적 경비를 설정하는 것 외에도 청구해야
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
+source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -76,7 +76,7 @@ ht-degree: 1%
 1. **프로젝트** 페이지에서 프로젝트를 선택하십시오.
 1. 왼쪽 패널에서 **청구 기록**&#x200B;을 클릭합니다.
 1. **새 청구 기록**&#x200B;을 클릭합니다.
-1. 표시되는 **새 청구 기록** 상자에서 다음 정보를 지정하십시오.
+1. 표시되는 **새 청구 기록** 상자에 다음 정보를 입력하십시오.
 
    <table style="table-layout:auto"> 
     <col> 

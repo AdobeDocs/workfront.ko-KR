@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
+source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
 workflow-type: tm+mt
-source-wordcount: '6776'
+source-wordcount: '6894'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,24 @@ ht-degree: 0%
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
 ## 관리자 및 설정
+
+### 설정 의 검토 및 승인 통지 페이지에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 8월 18일, 프로덕션 릴리스: 2025년 8월 18일**
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 검토 및 승인 알림 페이지를 업데이트했습니다.
+
+이러한 변경 사항을 보려면 설정 > 이메일 > 검토 및 승인으로 이동합니다.
+
+### 청구 기록 추가 및 편집 대화 상자에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 8월 14일, 프로덕션 릴리스: 2025년 8월 18일**
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 청구 기록을 추가 및 편집하기 위한 대화 상자를 업데이트했습니다.
+
+이러한 변경 사항을 보려면 프로젝트 > 프로젝트 선택 > 청구 기록 > 청구 기록 추가 또는 청구 기록 편집으로 이동합니다
+
+자세한 내용은 [청구 기록 만들기](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md)를 참조하십시오.
 
 ### 그룹의 사용자 업데이트 보내기 상자에 대한 인터페이스 업데이트
 
@@ -43,6 +61,7 @@ Workfront의 다른 영역 디자인에 맞게 설정 영역에서 최근에 삭
 이 변경 사항을 보려면 설정 > 휴지통 > 최근에 삭제됨으로 이동합니다.
 
 자세한 내용은 [삭제된 항목 복원](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)을 참조하세요.
+
 
 ### 설정의 조건 영역에 대한 인터페이스 업데이트
 
@@ -84,7 +103,7 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 ### 설정의 SSO 사용자 업데이트 페이지에 대한 인터페이스 업데이트
 
-**미리 보기 릴리스: 2025년 7월 22일, 프로덕션 릴리스: 2025년 7월 28일**
+**미리 보기 릴리스: 2025년 7월 22일, 프로덕션 릴리스: 2025년 8월 18일**
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 SSO를 위해 사용자 업데이트 페이지를 업데이트했습니다.
 
