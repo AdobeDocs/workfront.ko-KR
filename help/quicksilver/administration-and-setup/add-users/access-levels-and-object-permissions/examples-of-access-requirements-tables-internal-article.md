@@ -4,9 +4,9 @@ description: 액세스 요구 사항에 사용되는 테이블의 인벤토리�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 1d7b6c280586f03277f1cce6cea3f8e8110fc602
+source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '630'
 ht-degree: 2%
 
 ---
@@ -213,12 +213,9 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Adobe Workfront 패키지 또는 Adobe Workfront Workflow 패키지</p> (***너무 많음**&#x200B;**)
-
-And
-<p>모든 Adobe Workfront Planning 패키지</p> 
+<p>모든 Adobe Workfront Workflow 패키지 및 모든 Adobe Workfront Planning 패키지</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront platform(**&#x200B;**&#x200B;이 문제를 해결하시겠습니까? 아니면 이 문제를 맨 아래에 연결된 문서의 일부로 만드시겠습니까???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Adobe Workfront platform(****이 문제를 해결하시겠습니까? 아니면 이 문제를 맨 아래에 연결된 문서의 일부로 만드시겠습니까???*****)</p></td> 
    <td> 
 <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
@@ -262,12 +259,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
  <col> 
  <tbody>
 
-<tr> 
-   <td> <p>제품</p> </td> 
-   <td> <p>Adobe Workfront</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Adobe Workfront] 패키지</p> </td> 
+<td> <p>[!DNL Adobe Workfront] 패키지</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 

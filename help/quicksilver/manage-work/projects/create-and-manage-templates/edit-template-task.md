@@ -7,9 +7,9 @@ description: 템플릿을 만든 후 템플릿 작업에 대한 정보를 편집
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2491'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한 </td> 
-   <td> <p>템플릿에 대한 권한을 관리합니다. </p> <p>템플릿 작업에 대한 기여 이상의 권한.</p> </td> 
+   <td> <p>템플릿에 대한 권한을 관리합니다. </p> <p>템플릿 작업을 공유할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
