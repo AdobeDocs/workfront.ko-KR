@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ce611ec0c91b114f1a10977970e42fa753f62f22
 workflow-type: tm+mt
-source-wordcount: '2845'
+source-wordcount: '2868'
 ht-degree: 2%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 2%
 이 문서에서는 사용자가 요청을 제출할 수 있는 요청 대기열로 프로젝트를 구성하는 방법에 대해 설명합니다. 템플릿에 대한 대기열 세부 정보를 설정하는 것은 프로젝트에서 설정하는 것과 비슷합니다.
 
 요청 대기열에 새 요청을 제출하는 방법에 대한 자세한 내용은 [요청 복사 및 제출](../create-requests/copy-and-submit-requests.md)을 참조하십시오.
+
+Workfront Planning에서 요청 양식을 구성하는 방법에 대한 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -412,7 +414,7 @@ To create a Request Queue:
           </tr> 
           <tr> 
            <td> <p>미리 구성된 주제 그룹 드롭다운 목록을 표시하고 사용자가 변경할 수 있도록 허용</p> </td> 
-           <td> <p><code>src URL</code>에 <code>showPreSelectedOptions=true</code> 매개 변수를 추가하여 "path" 매개 변수를 사용하십시오.</p> </td> 
+           <td> <p><code>showPreSelectedOptions=true</code>에 <code>src URL</code> 매개 변수를 추가하여 "path" 매개 변수를 사용하십시오.</p> </td> 
           </tr> 
           <tr> 
            <td> <p>양식 제출 시기 감지</p> </td> 

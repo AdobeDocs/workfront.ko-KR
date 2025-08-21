@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
+source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2568'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-요청 양식을 만들어 Adobe Workfront Planning에서 레코드 유형과 연결할 수 있습니다. 그런 다음 양식을 다른 사용자와 공유하고 레코드를 만들도록 요청을 제출할 수 있습니다.
+요청 양식을 만들어 Adobe Workfront Planning에서 레코드 유형과 연결할 수 있습니다. 그런 다음 다른 사용자와 양식을 공유하고 해당 유형의 레코드를 만들도록 요청을 제출할 수 있습니다.
 
 이 문서에서는 작업 영역 관리자가 레코드 유형과 연결된 요청 양식을 만드는 방법에 대해 설명합니다.
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto">
  <col>
@@ -135,7 +135,11 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    * 통화 필드를 참조하는 공식 필드에는 환율을 계산하지 않고 값이 표시됩니다.
    * 단락 필드의 값은 요청 양식에 &quot;N/A&quot; 값을 표시하며, 요청 세부 정보 페이지의 서식 있는 텍스트 대신 html 태그를 표시합니다.
 
-## 레코드 유형에 대한 요청 양식 만들기
+## 요청 양식 만들기 시작
+
+<span class="preview"> 양식과 연결된 레코드 종류 또는 Workfront의 요청 영역에서 요청 양식을 만들 수 있습니다.</span>
+
+### 레코드 유형에서 요청 양식 만들기
 
 {{step1-to-planning}}
 
@@ -149,12 +153,51 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 이미 양식이 있고 추가 양식을 만들려면 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 만들기** 또는 **요청 양식 관리**&#x200B;를 클릭합니다.
 1. (조건부) 다른 양식을 추가하려면 **새 요청 양식**&#x200B;을 클릭하세요.
-1. 요청 양식 이름을 업데이트합니다. 기본적으로 양식 이름은 **제목 없는 양식**&#x200B;입니다. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+
+   요청 양식 만들기 상자가 열립니다.
+
+1. 요청 양식 만들기 상자에서 요청 양식의 이름을 업데이트합니다. 기본적으로 양식 이름은 **제목 없는 양식**&#x200B;입니다. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (선택 사항) 요청 양식에 대해 **설명**&#x200B;을(를) 추가합니다.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Click **Create**. 선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
+1. Click **Create**.
+
+   선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
+1. [양식을 구성](#configure-the-form)합니다.
+
+<div class="preview">
+
+### Workfront의 요청 영역에서 요청 양식 만들기
+
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **요청**&#x200B;을 클릭합니다.
+1. 화면 오른쪽 상단에서 **요청 양식**&#x200B;을 클릭합니다.
+1. (조건부) 기존 요청 양식을 편집하는 경우 목록에서 선택한 다음 [양식 구성](#confgure-the-form)을 계속합니다.
+1. 새 요청 양식을 만드는 경우 화면 오른쪽 상단에서 **새 요청 양식**&#x200B;을 클릭합니다.
+
+   요청 양식 만들기 상자가 열립니다
+
+1. 요청 양식 만들기 상자에서 요청 양식의 이름을 업데이트합니다. 기본적으로 양식 이름은 **제목 없는 양식**&#x200B;입니다.
+1. 객체 유형 필드에서 요청 양식과 연결할 레코드 유형을 선택합니다. 레코드 유형은 해당 레코드 유형이 있는 작업 공간으로 그룹화됩니다.
+1. (선택 사항) 요청 양식에 대해 **설명**&#x200B;을(를) 추가합니다.
+
+   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+
+1. Click **Create**.
+
+   선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
+1. [양식을 구성](#configure-the-form)합니다.
+
+</div>
+
+## 양식 구성
+
+1. 다음 섹션 중 하나에 설명된 대로 요청 양식을 만들거나 편집하기 시작합니다.
+
+   * [레코드 유형에서 요청 양식 만들기](#create-a-request-form-from-a-record-type)
+   * <span class="preview">[Workfront의 요청 영역에서 요청 양식을 만듭니다](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+
+   선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
 
    ![캠페인 요청 양식 편집 모드](assets/campaigns-request-form-edit-mode.png)
 
@@ -291,7 +334,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    >* 다음 필드 형식을 포함하는 양식은 공개적으로 공유할 수 없습니다.
    >
    >     * Workfront 또는 AEM Assets 연결
-   >     * 사용자
+   >     * 사람
    >
 
 1. **링크 만료 날짜**&#x200B;를 선택하세요.
