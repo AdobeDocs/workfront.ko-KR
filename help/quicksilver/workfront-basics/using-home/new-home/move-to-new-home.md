@@ -272,7 +272,7 @@ Workfront 관리자는 레이아웃 템플릿을 사용하여 새 홈에서 사�
 
 **교육**
 
-* [홈 자습서에서 위젯 제거, 추가 및 다시 정렬](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [홈 자습서에서 위젯 제거, 추가 및 다시 정렬](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * Adobe Workfront의 [작업자 기본 사항](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
