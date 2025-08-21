@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '694'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -92,7 +92,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++   
 
 ## 작업 영역 만들기
 
@@ -154,5 +154,15 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
    자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
    작업 영역의 레코드 형식을 편집하고 삭제하는 방법에 대한 자세한 내용은 [작업 영역 편집](/help/quicksilver/planning/architecture/edit-workspaces.md)을 참조하십시오.
+
+1. (선택 사항) 새 작업 공간 왼쪽에 있는 뒤로 화살표를 클릭하여 Planning 기본 페이지를 엽니다. **내가 있는 작업 영역** 탭에서 새 작업 영역에 대한 새 작업 영역 카드가 만들어집니다.
+
+   작업공간을 생성한 사용자의 이름은 작업공간 카드에 소유자로 저장됩니다.
+
+   >[!NOTE]
+   >
+   >현재 IMS(Adobe Identity Management System)로 전환 중인 사용자의 경우 IMS 사용자가 아닌 Workfront 전용 사용자가 만든 작업 영역은 **System**&#x200B;에서 만든 대로 표시됩니다.
+   >
+   >IMS에 대한 자세한 내용은 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하세요.
 
 

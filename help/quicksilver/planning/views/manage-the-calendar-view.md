@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
 source-wordcount: '1624'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -94,7 +94,7 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++   
 
 ## 달력 보기 관리 {#manage-a-calendar-view}
 
@@ -110,6 +110,14 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
    * 시작 날짜와 종료 날짜에 값이 없으면 레코드가 달력에 표시되지 않습니다
    * 시작 또는 종료 날짜에 값이 없으면 레코드가 1일 이벤트로 표시됩니다
    * 시작 날짜가 종료 날짜 이후인 경우 기록이 캘린더에 표시되지 않습니다.
+
+<!--
+<div class="preview">
+
+* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
 
 달력 보기를 관리하려면:
 
@@ -221,7 +229,7 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
             <p>비어 있지 않음</p></td>
         </tr>
         <tr>
-            <td>일자</td>
+            <td>Date</td>
             <td><p>다음과 같음</p>
             <p>다음이 아님</p>
             <p>다음 이후</p>

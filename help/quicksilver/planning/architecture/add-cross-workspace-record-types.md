@@ -1,13 +1,13 @@
 ---
-title: 작업 영역 간 레코드 유형 추가
+title: 기존 레코드 유형 추가
 description: 레코드 유형은 Adobe Workfront Planning의 객체 유형입니다. Workfront Planning에서 다른 작업 영역에서 기존 레코드 유형을 가져올 수 있습니다.
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# 교차 작업 영역 레코드 유형 추가
+# 기존 레코드 유형 추가
 
 <span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.  
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -109,6 +109,7 @@ recommendations: noDisplay, noCatalog
    * 레코드 연결
 
 * 필드를 포함한 레코드 유형은 원래 작업 공간에서만 편집할 수 있습니다. 추가된 작업공간에서는 편집할 수 없습니다.
+* 모든 작업 영역에서 추가된 레코드는 권한이 없는 작업 영역에서 생성된 경우에도 모든 작업 영역에서 액세스하는 모든 사용자에게 표시됩니다.
 
 ## 기존 레코드 유형에서 레코드 유형 만들기
 

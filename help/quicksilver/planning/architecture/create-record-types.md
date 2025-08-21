@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++   
 
 ## 레코드 유형 만들기에 대한 고려 사항
 
@@ -117,7 +117,7 @@ ht-degree: 1%
 
      <!--
         * <span class="preview">By importing them from another workspace or adding cross-workspace record types</span>
-            <span class="preview">For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
+            <span class="preview">For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
 
 
 * 한 섹션 내에서 또는 작업 영역의 한 섹션에서 다른 섹션으로 레코드 유형을 이동할 수 있습니다. 한 작업 영역에서 다른 작업 영역으로 레코드 유형을 이동할 수 없습니다.
@@ -257,9 +257,9 @@ CSV 또는 Excel 파일에서 정보를 가져올 때 다음을 가져올 수 �
 
 ## Create record types by importing them from another workspace 
 
-You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as cross-workspace record types. 
+You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as centralized record types. 
 
-For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
 </div>
 

@@ -4,9 +4,9 @@ description: 레코드 유형을 다른 작업 공간에 추가하거나 다른 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1021'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # 레코드 유형에 대한 작업 영역 간 기능 구성
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -127,7 +127,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 +++   
 
-## 다른 작업 공간에 레코드 유형 추가 구성
+## 중앙 집중식 레코드 유형 구성
+
+<!--this is a UI term; don't change the title of this section-->
 
 작업 영역 관리자는 레코드 유형을 작성하거나 편집할 때 다른 작업 영역에 추가할 레코드 유형을 구성할 수 있습니다.
 
@@ -180,7 +182,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
      이 필드는 읽기 전용이므로 삭제할 수 없습니다.
 
-## 다른 작업 영역에서 레코드 유형에 연결 구성
+## 연결 가능한 레코드 유형 구성
+
+<!--this is a UI term; don't change the title of this section-->
 
 레코드 유형을 작성하거나 편집할 때 다른 작업 영역에서 연결할 레코드 유형을 구성할 수 있습니다.
 
@@ -193,7 +197,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
    작업 영역 페이지가 열리고 레코드 유형이 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다
+   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**을 클릭합니다
 또는
    * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 열고 레코드 유형 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
