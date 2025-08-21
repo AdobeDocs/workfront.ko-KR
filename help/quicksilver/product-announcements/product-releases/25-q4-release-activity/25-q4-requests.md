@@ -3,10 +3,9 @@ title: 2025년 4분기 요청 개선 사항
 description: 2025년 4분기 요청 개선 사항
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -23,8 +22,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 미리 보기: 2025년 7월 31일
->* 프로덕션 빠른 릴리스: 2025년 8월 14일
+>* 미리 보기: 2025년 8월 21일
+>* 프로덕션 빠른 릴리스: 2025년 9월 11일
 >* 모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 Workfront 및 Workfront Planning에서 요청할 때 더 나은 사용자 경험을 만들기 위해 요청 경험을 업데이트했습니다. 이제 다음 작업을 수행할 수 있습니다.

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '6892'
+source-wordcount: '7094'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,17 @@ ht-degree: 0%
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
 ## 관리자 및 설정
+
+<!--
+### Interface updates when editing a Scorecard
+
+**Preview release: August 21, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+
+A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+
+-->
 
 ### 설정 의 검토 및 승인 통지 페이지에 대한 인터페이스 업데이트
 
@@ -110,6 +121,54 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 S
 이 변경 사항을 보려면 설정 > 시스템 > SSO용 사용자 업데이트로 이동하십시오.
 
 ## 프로젝트
+
+### 프로그램 및 포트폴리오에 개체를 추가할 때 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 5월 22일, 프로덕션 릴리스: 2025년 5월 29일**
+
+>[!NOTE]
+>
+>이 기능은 미리보기 및 프로덕션에서 일시적으로 제거되었다가 2025년 8월 21일에 다시 추가되었습니다.
+
+
+다음을 수행할 때 추가 상자에 대한 인터페이스를 업데이트했습니다.
+
+* 프로그램에 프로젝트 추가
+* 포트폴리오에 프로젝트 추가
+* 포트폴리오에 프로그램 추가
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* [포트폴리오에 기존 프로그램 추가](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [포트폴리오에 프로젝트 추가](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [프로그램에 프로젝트 추가](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+### 프로젝트 및 템플릿의 새 대기열 주제 상자에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 8월 21일, 프로덕션 릴리스: 2025년 8월 28일**
+
+Workfront의 다른 영역 디자인에 맞게 프로젝트 또는 템플릿에 새 대기열 주제를 추가할 때 새 대기열 주제 상자의 모양과 느낌을 업데이트했습니다.
+
+자세한 내용은 [대기열 주제 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)를 참조하십시오.
+
+### 프로젝트 또는 템플릿에서 대기열 주제를 편집할 때 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 8월 21일, 프로덕션 릴리스: 2025년 8월 28일**
+
+Workfront의 다른 영역과 일치하도록 프로젝트 및 템플릿에 대한 대기열 주제를 편집할 때의 환경을 업데이트했습니다.
+
+이 업데이트에는 작은 기능 변경 사항이 도입되었습니다. 이제 대기열 주제를 클릭하면 대기열 주제 세부 정보에 대한 페이지 대신 대기열 주제의 편집 페이지로 바로 이동합니다.
+
+자세한 내용은 [대기열 주제 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)를 참조하십시오.
+
+<!--### Interface update for the Edit Expense box of a project
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+-->
 
 ### 시간 섹션의 프로젝트, 작업 또는 문제에 대한 로깅 시간 관련 인터페이스 업데이트
 
@@ -204,6 +263,14 @@ Workfront의 다른 영역 디자인과 일치하도록 MS Project에서 프로�
 자세한 내용은 [프로젝트 경비 관리](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)를 참조하십시오.
 
 ## 템플릿
+
+### 템플릿의 인물 목록에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 8월 21일, 프로덕션 릴리스: 2025년 8월 28일**
+
+Workfront의 다른 영역 디자인에 맞게 템플릿에 있는 사람 목록의 모양과 느낌을 업데이트했습니다.
+
+템플릿에서 사람들과 함께 작업하는 것은 프로젝트에서 사람들과 함께 작업하는 것과 비슷합니다. 자세한 내용은 [프로젝트 팀 관리](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)를 참조하십시오.
 
 ### 템플릿의 전임 작업 목록에 대한 인터페이스 업데이트
 
@@ -542,26 +609,6 @@ Workfront의 다른 영역 디자인에 맞게 템플릿 복사 상자의 모양
 
 자세한 내용은 [프로젝트 템플릿 복사](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md)를 참조하십시오.
 
-### 프로그램 및 포트폴리오에 개체를 추가할 때 업데이트 확인
-
-**미리 보기 릴리스: 2025년 5월 22일, 프로덕션 릴리스: 2025년 5월 29일**
-
->[!NOTE]
->
->미리보기 및 프로덕션에서 일시적으로 제거됨
-
-
-다음을 수행할 때 추가 상자에 대한 인터페이스를 업데이트했습니다.
-
-* 프로그램에 프로젝트 추가
-* 포트폴리오에 프로젝트 추가
-* 포트폴리오에 프로그램 추가
-
-자세한 내용은 다음 문서를 참조하십시오.
-
-* [포트폴리오에 기존 프로그램 추가](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [포트폴리오에 프로젝트 추가](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [프로그램에 프로젝트 추가](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 
 +++
 

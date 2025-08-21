@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: ff0567aabcf885d3bee6c1808302a9cd9445ed04
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 3%
+source-wordcount: '1573'
+ht-degree: 4%
 
 ---
 
@@ -39,10 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront 개선 사항
 
 * [관리자 개선 사항](#administrator-enhancements)
-* [문서 및 증명 개선 사항](#document-and-proofing-enhancements)
-  <!--* [Home enhancements](#home-enhancements)-->
+* [문서 및 교정 개선 사항](#document-and-proofing-enhancements)
+* [홈 개선 사항](#home-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
-  <!--* [Requests enhancements](#requests-enhancements)-->
+* [요청 개선 사항](#requests-enhancements)
 * [향상된 리소스 관리 기능](#resource-management-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
@@ -112,64 +112,64 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--### Home enhancements
+### 홈 개선 사항
 
 <table style="table-layout:auto">
   <tbody>
    <tr>
-        <td><strong>Feature</strong>
+        <td><strong>기능</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
-            <p>To create a more seamless experience between Workfront and Workfront Planning, we've redesigned the My Requests widget in Home. The new widget features the following changes:
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">홈의 내 요청 위젯에 대한 업데이트</a><p></p>
+            <p>Workfront과 Workfront Planning 간에 보다 원활한 경험을 제공하기 위해 홈의 내 요청 위젯을 다시 설계했습니다. 새 위젯에는 다음과 같은 변경 사항이 포함되어 있습니다.
             <ul>
-                <li>Improved layout and organization of request information</li>
-                <li>Enhanced filtering and sorting options</li>
-                <li>Integration with Workfront Planning for better visibility into resource allocation</li>
+                <li>요청 정보 레이아웃 및 구성 개선</li>
+                <li>향상된 필터링 및 정렬 옵션</li>
+                <li>Workfront Planning과 통합하여 리소스 할당 가시성 향상</li>
             </ul>
             </p>
         </td>
-        <td>July 31, 2025</td>
-        <td>August 14, 2025</td>
-        <td>October 16, 2025</td>
+        <td>2025년 8월 21일 금요일</td>
+        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 10월 16일 금요일</td>
     </tr>     
   </tbody>
-</table> 
+</table>
 
-### Requests enhancements
+### 요청 개선 사항
 
 <table style="table-layout:auto">
   <tbody>
    <tr>
-        <td><strong>Feature</strong>
+        <td><strong>기능</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
-            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">요청 중인 경험에 대한 업데이트</a><p></p>
+            <p>Workfront 및 Workfront Planning에서 요청할 때 더 나은 사용자 경험을 만들기 위해 요청 경험을 업데이트했습니다. 이제 다음 작업을 수행할 수 있습니다.
             <ul>
-                <li>View Workfront and Workfront Planning requests in a single list.</li>
-                <li>Filter submitted requests based on criteria you specify.</li>
-                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
-                <li>Hide and reorder columns in the submitted requests list.</li>
+                <li>단일 목록에서 Workfront 및 Workfront Planning 요청을 봅니다.</li>
+                <li>지정한 조건을 기반으로 제출된 요청을 필터링합니다.</li>
+                <li>통합 경험에서 Workfront 요청 대기열 및 Workfront Planning 양식을 검색하고 선택합니다.</li>
+                <li>제출된 요청 목록에서 열을 숨기고 순서를 변경합니다.</li>
             </ul>
             </p>
         </td>
-        <td>July 31, 2025</td>
-        <td>August 14, 2025</td>
-        <td>October 16, 2025</td>
+        <td>2025년 8월 21일 금요일</td>
+        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 10월 16일 금요일</td>
     </tr>     
   </tbody>
-</table> -->
+</table>
 
 ### 프로젝트 개선 사항
 
@@ -182,6 +182,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
     </tr>
+      <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
+            <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
+        </td>
+        <td>August 21, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> -->
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Planning의 공식 필드 및 Workfront의 계산된 사용자 정의 필드에 새 표현식이 추가됨</a><p><p>[!BADGE 해제 일정]{type=Neutral}</p></p>
@@ -340,7 +349,7 @@ Desktop Proofing Viewer가 버전 2.1.52로 업데이트되어 버그 수정 사
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ### API 버전 20
 
@@ -352,8 +361,8 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

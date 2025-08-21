@@ -6,7 +6,8 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
+source-git-commit: 4b708e10e54a0a7ef9d305bbcfd8cf80a82d0376
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,6 +19,23 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 4분기 릴리스의 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록을 보려면 [2025년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)를 참조하십시오.
+
+<!--
+## Create project intake forms in Workfront
+
+>[!NOTE]
+>
+>* Preview: August 21, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.
+
+Previously, requests were entered into Workfront as issues, which had to be converted to projects.
+
+For information and instructions about project intake forms, see [Create project intake forms](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-project-intake-form.md).
+
+-->
 
 ## Workfront의 계산된 사용자 정의 필드에 새 표현식이 추가됨
 
@@ -48,4 +66,3 @@ Workfront Planning의 공식 필드 및 Workfront의 계산된 사용자 정의 
 이 변경 사항은 작업과 문제 할당 모두에 적용됩니다.
 
 자세한 내용은 [고급 할당 만들기](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md)를 참조하십시오.
-
