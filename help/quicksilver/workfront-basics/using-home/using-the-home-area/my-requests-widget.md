@@ -5,13 +5,13 @@ title: 내 요청 위젯 사용
 description: 내 요청 위젯에서 요청을 제출할 수 있습니다. 필터 및 열을 사용하여 위젯을 사용자 정의할 수도 있습니다.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 68379a6c41db1b694e2968d93de259cb7b0d8bc4
+exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
-
 
 # 내 요청 위젯 사용
 
@@ -19,11 +19,16 @@ ht-degree: 3%
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요.
 
+>[!IMPORTANT]
+>
+>이 문서에서는 새로운 내 요청 위젯에 대해 설명합니다. 새 위젯을 보려면 새 요청 환경을 활성화해야 합니다.
+>>요청 영역에서 새 요청 경험을 활성화할 수 있습니다.
+
 내 요청 위젯은 조직에 제출된 요청을 표시합니다. 요청을 필터링하거나 특정 요청을 검색하거나 열 순서 및 가시성을 조정할 수 있습니다. 내 요청 위젯에서 새 요청을 만들 수도 있습니다.
 
 >[!NOTE]
 >
->내 요청 위젯이 로드되면 최대 50개의 요청이 표시됩니다. 요청을 더 표시하려면 목록을 아래로 스크롤합니다.
+>* 내 요청 위젯이 로드되면 최대 50개의 요청이 표시됩니다. 요청을 더 표시하려면 목록을 아래로 스크롤합니다.
 
 ## 액세스 요구 사항
 
@@ -137,8 +142,3 @@ ht-degree: 3%
    용어가 포함된 요청은 주황색으로 강조 표시됩니다.
 
 1. (선택 사항) 강조 표시된 요청으로 이동하려면 검색 막대에서 위쪽 또는 아래쪽 화살표를 클릭합니다.
-
-
-
-
-

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -31,5 +31,7 @@ Workfront과 Workfront Planning 간에 보다 원활한 경험을 제공하기 �
 * Workfront 및 Workfront Planning 요청이 모두 위젯에 나타납니다.
 * 이제 필터를 더 사용자 지정할 수 있습니다. 이제 And 및 Or 규칙을 사용하여 특정 필드 값별로 필터링할 수 있습니다.
 * 위젯에서 열을 숨기거나 재배열할 수 있습니다.
+
+새 위젯을 보려면 새 요청 환경을 활성화해야 합니다. 요청 영역에서 새 요청 경험을 활성화할 수 있습니다.
 
 새 내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.
