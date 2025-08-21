@@ -6,9 +6,9 @@ description: '[!UICONTROL Home] 영역에서 작업 항목 및 프로젝트를 �
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
+source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '878'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -51,6 +51,10 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
    <td> <p>작업에 대한 [!UICONTROL 편집] 액세스 이상</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
+   <td> <ul><li>Adobe Workfront</li><li>Planning 요청 또는 요청 양식을 보려면 Adobe Workfront Planning이 있어야 합니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +91,7 @@ ht-degree: 2%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) 홈 화면에 **내 작업** 위젯을 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 작업**&#x200B;을 찾습니다.
-1. **내 작업** 위젯으로 이동한 다음 **새로 만들기**&#x200B;를 클릭합니다.
+1. **내 작업** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
    ![새 작업 만들기](assets/create-new-task.png)
 1. **새 작업** 대화 상자에서 작업 이름을 입력합니다.
 1. 프로젝트 이름을 입력한 다음 목록에서 이름을 선택합니다.
@@ -110,7 +114,7 @@ ht-degree: 2%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **내 문제** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 문제**&#x200B;를 찾습니다.
-1. **내 문제** 위젯으로 이동한 다음 **새로 만들기**&#x200B;를 클릭합니다.
+1. **내 문제** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
    ![새 문제 만들기](assets/create-new-issue.png)
 1. **새 문제 대화 상자** 상자에서 프로젝트 이름을 입력한 다음 목록에서 이름을 선택합니다.
 1. 문제 이름을 입력하십시오.
@@ -131,12 +135,12 @@ ht-degree: 2%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **내 요청** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 요청**&#x200B;을 찾습니다.
-1. **내 요청** 위젯으로 이동한 다음 **새로 만들기**&#x200B;를 클릭합니다.
-   ![새 요청 만들기](assets/create-new-request.png)
+1. **내 요청** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
+   ![새 요청 만들기](assets/create-new-request-new.png)
 
-1. **새 요청** 대화 상자에서 요청 큐의 이름을 입력하세요.
+1. **새 요청** 대화 상자에서 검색 창에 Workfront 요청 대기열 또는 Workfront Planning 요청 양식 이름을 입력한 다음 표시될 때 선택합니다.
 1. 관련 필드를 채웁니다.
-1. **제출**&#x200B;을 클릭합니다.
+1. **제출을 클릭합니다**.
 
 요청 제출에 대한 자세한 내용은 [요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
@@ -146,7 +150,7 @@ ht-degree: 2%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **내 프로젝트** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 프로젝트**&#x200B;를 찾습니다.
-1. **내 프로젝트** 위젯으로 이동한 다음 **새로 만들기**&#x200B;를 클릭합니다.
+1. **내 프로젝트** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
    ![새 프로젝트 만들기](assets/create-new-project.png)
 1. 다음 옵션 중 하나를 선택합니다.
 

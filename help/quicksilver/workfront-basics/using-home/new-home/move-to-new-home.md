@@ -7,13 +7,13 @@ author: Courtney
 hide: true
 hidefromtoc: true
 feature: Get Started with Workfront
-source-git-commit: 28bb652f371d3168ffe03c39fc33e29d710605db
+exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
+source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
-
 
 # 기존 홈에서 새 홈으로 이동
 
@@ -163,6 +163,8 @@ Workfront 관리자는 레이아웃 템플릿을 사용하여 새 홈에서 사�
 * **내 요청**\
     제출한 모든 요청, 열려 있는 요청만 표시하는 필터 및 요청에 대한 요약 패널을 여는 단추를 표시합니다.
 
+  <span class="preview">미리 보기 환경에서 이 위젯은 사용자가 제출한 모든 요청, 지정한 조건을 충족하는 요청만 표시하는 필터 및 위젯의 열을 다시 정렬할 수 있는 단추를 표시합니다.</span>
+
 * **팀 요청**\
     팀별로 정렬된 팀에 대해 보류 중인 모든 요청과 사용자에게 직접 요청을 할당하거나 직접 작업할 수 있는 버튼을 표시합니다.
 
@@ -270,7 +272,7 @@ Workfront 관리자는 레이아웃 템플릿을 사용하여 새 홈에서 사�
 
 **교육**
 
-* [홈 자습서에서 위젯 제거, 추가 및 다시 정렬](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [홈 자습서에서 위젯 제거, 추가 및 다시 정렬](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * Adobe Workfront의 [작업자 기본 사항](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

@@ -6,14 +6,18 @@ description: 다양한 위젯 중에서 선택하여 홈 페이지에 표시되�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 12%
+source-wordcount: '1092'
+ht-degree: 11%
 
 ---
 
 # 홈 위젯 필터 개요
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
 다음 위젯에서 필터를 사용하여 작업을 찾고 구성할 수 있습니다.
 
@@ -242,6 +246,8 @@ ht-degree: 12%
 
 ## 내 요청
 
+프로덕션 환경에서:
+
 <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -277,6 +283,16 @@ ht-degree: 12%
      </tr> 
     </tbody> 
    </table>
+
+<div class="preview">
+
+미리보기 환경에서:
+
+내 요청 위젯에는 사용자 정의 가능한 필터가 있어 위젯에 표시되는 요청을 제어할 수 있습니다. 다양한 필드 및 값에 대해 이 필터를 구성하고 AND 및 OR를 사용하여 조건을 스택할 수 있습니다.
+
+내 요청 위젯에서 필터를 구성하는 방법에 대한 지침은 내 요청 위젯 사용 문서에서 [필터 요청](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests)을 참조하십시오.
+
+</div>
 
 ## 내 작업
 
