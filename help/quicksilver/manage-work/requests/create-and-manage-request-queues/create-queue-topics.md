@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
+source-git-commit: 613904bd75aabe3062c5ab50f28cf44eb62919e8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -183,5 +183,16 @@ ht-degree: 2%
 1. 편집할 대기열 주제가 포함된 프로젝트 또는 템플릿으로 이동합니다.
 1. 왼쪽 패널에서 **주제 큐**&#x200B;를 클릭합니다.
 1. 프로덕션 환경에서 편집할 대기열 주제를 선택합니다. 화면에 표시되는 세부 정보 페이지에서 **대기열 주제 편집**&#x200B;을 클릭합니다.
-   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
+1. <span class="preview">미리 보기 환경에서 편집할 큐 주제를 클릭합니다.
+
+사용 가능한 편집 옵션에 대한 자세한 내용은 이 문서에서 [대기열 주제 만들기](#create-a-queue-topic)를 참조하십시오.
+
+## 대기열 주제 삭제
+
+하나 이상의 대기열 주제를 동시에 삭제할 수 있습니다.
+
+1. 삭제할 대기열 주제가 포함된 프로젝트 또는 템플릿으로 이동합니다.
+1. 왼쪽 패널에서 **주제 큐**&#x200B;를 클릭합니다.
+1. 삭제할 각 대기열 주제의 이름 옆에 있는 상자를 클릭합니다. 상자에 확인 표시가 나타납니다.
+1. 페이지 상단의 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭합니다.
 
