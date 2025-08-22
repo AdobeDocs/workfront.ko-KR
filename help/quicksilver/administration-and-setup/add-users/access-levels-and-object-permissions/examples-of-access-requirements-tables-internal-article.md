@@ -4,7 +4,7 @@ description: 액세스 요구 사항에 사용되는 테이블의 인벤토리�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 15eba2f627e31661c5fde60e989dfc68a9f4cd15
+source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항(패키지가 그대로 유지되며 라이센스 행을 업데이트하는 경우 예)
 
-을 확장하여 이 문서의 기능에 대한 액세스 요구 사항 보기
+을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-을 확장하여 이 문서의 기능에 대한 액세스 요구 사항 보기
+을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항(신규 고객에게만 제공)
 
-을 확장하여 이 문서의 기능에 대한 액세스 요구 사항 보기
+을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항(새로운 기능이 2023/2025 패키지에만 있는 예입니다.)
 
-을 확장하여 이 문서의 기능에 대한 액세스 요구 사항 보기
+을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table>
   <tr>
@@ -145,7 +145,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항(다른 제품이 필요한 예입니다.)
 
-을 확장하여 이 문서의 기능에 대한 액세스 요구 사항 보기
+을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table>
   <tr>
@@ -220,7 +220,7 @@ ht-degree: 2%
    <td> 
 <p>모든 Adobe Workfront Workflow 패키지 및 모든 Adobe Workfront Planning 패키지</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront platform(**&#x200B;**&#x200B;이 문제를 해결하시겠습니까? 아니면 이 문제를 맨 아래에 연결된 문서의 일부로 만드시겠습니까???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Adobe Workfront platform(****이 문제를 해결하시겠습니까? 아니면 이 문제를 맨 아래에 연결된 문서의 일부로 만드시겠습니까???*****)</p></td> 
    <td> 
 <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
