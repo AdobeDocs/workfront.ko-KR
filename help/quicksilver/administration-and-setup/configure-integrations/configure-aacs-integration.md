@@ -123,7 +123,7 @@ ht-degree: 0%
 
 메타데이터 필드를 구성하려면:
 
-1. [!DNL Experience Manager Assets]Adobe과(와) [ [!DNL Workfront]  간의 에셋 메타데이터 매핑 구성 [!DNL Experience Manager Assets]에 설명된 대로 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)에서 메타데이터 스키마를 구성합니다.
+1. [!DNL Experience Manager Assets]Adobe과(와) [ [!DNL Workfront]  간의 에셋 메타데이터 매핑 구성 [!DNL Experience Manager Assets]에 설명된 대로 ](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)에서 메타데이터 스키마를 구성합니다.
 
 
 1. Workfront에서 사용자 정의 양식 필드를 구성합니다. [!DNL Workfront]에 사용할 수 있는 기본 제공 사용자 지정 필드가 많습니다. 그러나 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 필드를 만들 수도 있습니다.
@@ -153,7 +153,7 @@ Workfront 지원 필드를 Experience Manager Assets의 태그에 매핑할 수 
 
 Experience Manager Assets에서 태그를 만들면 메타데이터 섹션의 태그 드롭다운 아래에 태그가 표시됩니다. 필드를 태그에 연결하려면 메타데이터 매핑 영역의 Experience Manager Assets 필드 드롭다운에서 `xcm:keywords`을(를) 선택합니다.
 
-태그를 만들고 관리하는 방법을 포함하여 Experience Manager Assets의 태그에 대한 자세한 내용은 [태그 관리](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)를 참조하십시오.
+태그를 만들고 관리하는 방법을 포함하여 Experience Manager Assets의 태그에 대한 자세한 내용은 [태그 관리](https://experienceleague.adobe.com/ko/docs/experience-manager-64/administering/contentmanagement/tags)를 참조하십시오.
 
 **Experience Manager Assets 사용자 지정 메타데이터 스키마 필드**
 
