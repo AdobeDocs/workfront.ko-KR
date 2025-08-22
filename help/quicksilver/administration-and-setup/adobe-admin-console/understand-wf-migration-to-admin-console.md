@@ -9,14 +9,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
 
 # Adobe Admin Console으로의 Workfront 마이그레이션 이해
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>이제 모든 Workfront 조직이 Adobe Admin Console에 온보딩되었습니다.
+>
+>이 문서는 가까운 시일 내에 제거됩니다.
 
 Adobe은 귀하와 귀하의 조직에 향상된 생산성을 제공하여 Adobe Workfront 사용자를 관리하는 방법을 변경하고 있습니다. 이 변경의 일부로 Adobe은 Workfront 인스턴스와 사용자를 Adobe Admin Console으로 마이그레이션하고 있습니다. 이는 필수 마이그레이션이며 보고, 승인 경로, 콘텐츠 또는 자산에는 영향을 주지 않습니다. 사용자 액세스를 관리하는 방법과 사용자가 로그인하는 방법에 영향을 줍니다.
 

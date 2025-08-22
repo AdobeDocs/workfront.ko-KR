@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
+source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -156,18 +156,28 @@ SSO(Single Sign-On)에 대한 자세한 내용은 [Adobe Workfront의 SSO 개요
 
 >[!IMPORTANT]
 >
->이 페이지에 설명된 절차는 [!DNL Adobe Admin Console]에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 [!DNL Adobe Admin Console]에 온보딩되었다면 별도의 작업이 필요하지 않습니다.
+>이 섹션에 설명된 절차는 Adobe Admin Console에 아직 온보딩되지 않은 조직에만 적용되므로 제거되었습니다.
 >
->조직이 [!DNL Adobe Admin Console]에 온보딩되었는지 여부에 따라 다른 프로시저 목록을 보려면 [플랫폼 기반 관리 차이점([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>이제 모든 Workfront 조직이 Adobe Admin Console에 온보딩되었습니다.
+
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--
+
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the [!DNL Adobe Admin Console]. If your organization has been onboarded to the [!DNL Adobe Admin Console], no action is necessary.
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Admin Console], see [Platform-based administration differences ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
-SSO(Single Sign-On) 솔루션에서 작동하도록 미리보기 샌드박스를 구성하려면 프로덕션 환경에서 별도로 구성하여 이 작업을 수행할 수 있습니다. 미리보기 샌드박스의 SSO 구성은 프로덕션 환경의 SSO 구성과 독립적입니다.
+If you want to configure your Preview Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Preview Sandbox is independent from your SSO configuration in the Production environment.
 
-미리보기 샌드박스를 새로 고칠 때(주말마다), SSO 정보는 프로덕션 환경에서 복사되어 미리보기 샌드박스 구성을 덮어쓰지 않습니다.
+When your Preview Sandbox refreshes (every weekend), the SSO information is not copied from your Production environment to overwrite the Preview Sandbox configuration.
 
-미리보기 샌드박스에서 SSO(Single Sign-On)를 구성하는 단계는 프로덕션 환경에서 구성하는 단계와 유사합니다.
+The steps for configuring single sign-on in the Preview Sandbox are similar to those for configuring it in the Production environment.
 
-SSO를 사용하여 [!DNL Workfront]을(를) 구성하는 방법에 대한 자세한 내용은 [Adobe Workfront의 Single Sign-On 개요](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)를 참조하십시오.
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).-->
 
 ## 프로젝트 타임라인 자동 재계산
 

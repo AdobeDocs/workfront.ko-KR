@@ -6,9 +6,9 @@ hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: bf8e6c2b8a45cf65840a2ac8b3c25d11266d49f9
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '13'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront이 사용자 및 암호의 시스템 관리를 변경하고 있습니다. 이러한 변경 사항은 **향상된 인증** 경험이라는 단계별 릴리스에서 롤아웃됩니다. 향상된 인증은 모든 Workfront 제품 및 서비스에서 보다 일관되고 안전한 로그인 환경을 사용자에게 제공합니다.
+<!--REMOVE ME MARCH 2026-->
 
-다음 표는 현재 및 향후 기능에 대한 세부 정보를 제공합니다.
+<!--Adobe Workfront is changing the system management of users and passwords. These changes will roll out in a phased release called **Enhanced Authentication** experience. Enhanced Authentication offers users a more consistent and secure sign-in experience across all Workfront products and services.
+
+The following table provides details about current and future functionality:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,85 +32,85 @@ Adobe Workfront이 사용자 및 암호의 시스템 관리를 변경하고 있�
  <col data-mc-conditions=""> 
  <thead> 
   <tr> 
-   <th> <p><strong>기능</strong> </p> </th> 
-   <th><strong>레거시 인증</strong> </th> 
-   <th><strong>향상된 인증 1.0</strong> </th> 
-   <th> <p>향상된 인증 2.0</p> </th> 
+   <th> <p><strong>Feature</strong> </p> </th> 
+   <th><strong>Legacy Authentication</strong> </th> 
+   <th><strong>Enhanced Authentication 1.0</strong> </th> 
+   <th> <p>Enhanced Authentication 2.0</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td colspan="3"> <p><strong>로그인 옵션</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Login options</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>교육, 지원 등을 포함하여 모든 Workfront 제품 및 서비스에 사용할 단일 사용자 이름을 활성화합니다</p> </td> 
-   <td>사용할 수 없음</td> 
-   <td> <p>사용할 수 없음</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>Enable a single username to be used for all Workfront products and services, including training, support, and others</p> </td> 
+   <td>Not available</td> 
+   <td> <p>Not available</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront 인스턴스에서 동일한 이메일 주소 사용 허용</p> </td> 
-   <td> <p>✓ 덧신</p> <p>2019.3 릴리스에서 사용 가능</p> </td> 
-   <td> <p>✓ 덧신</p> <p>2019.3 릴리스에서 사용 가능</p> </td> 
-   <td> <p>✓ 덧신</p> <p>2019.3 릴리스에서 사용 가능</p> </td> 
+   <td> <p>Allow using the same email address across Workfront instances</p> </td> 
+   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
+   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
+   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>이메일 주소는 대소문자를 구분하지 않습니다.</p> </td> 
-   <td> <p>✓ 덧신</p> <p>2019.3 릴리스에서 사용 가능</p> </td> 
-   <td> <p>✓ 덧신</p> <p>주소가 대/소문자만 다른 경우 여러 사용자가 동일한 이메일 주소를 가질 수 없습니다. </p> </td> 
-   <td> <p>✓ 덧신</p> <p>주소가 대/소문자만 다른 경우 여러 사용자가 동일한 이메일 주소를 가질 수 없습니다. </p> <p>Workfront 관리자는 2019년 말에 중복 이메일 주소 수정을 시작하라는 알림을 받게 됩니다.</p> </td> 
+   <td> <p>Email addresses are case-insensitive</p> </td> 
+   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
+   <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> </td> 
+   <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> <p>Workfront administrators will be notified toward the end of 2019 to begin fixing duplicate email addresses.</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>암호 관리 옵션</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Password management options</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront 관리자로서 사용자에 대한 암호 재설정 이메일 삽입</p> </td> 
-   <td> <p>사용할 수 없음 </p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>Instigate a password reset email for a user as the Workfront administrator</p> </td> 
+   <td> <p>Not available </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront 관리자로서 사용자에 대한 임시 암호 설정</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
-   <td> <p>계획되지 않음</p> <p>이 기능은 보안 모범 사례가 아닙니다.</p> </td> 
-   <td> <p>계획되지 않음</p> <p>이 기능은 보안 모범 사례가 아닙니다.</p> </td> 
+   <td> <p>Set a temporary password for a user as the Workfront administrator</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
+   <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>암호 정책 요구 사항</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Password policy requirements</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>일정 기간 후 사용자가 암호를 재설정해야 함</p> </td> 
-   <td>✓ 덧신</td> 
-   <td> <p>계획되지 않음</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>Require users to reset passwords after a certain timeframe</p> </td> 
+   <td>✓</td> 
+   <td> <p>Not planned</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>사용자가 이전 암호를 사용하지 못하도록 제한 </p> </td> 
-   <td>✓ 덧신</td> 
-   <td>계획되지 않음 </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>Restrict users from using a previous password </p> </td> 
+   <td>✓</td> 
+   <td>Not planned </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>잘못된 암호 입력 시도에 대한 보호 </p> </td> 
-   <td> <p>✓ 덧신 </p> <p>잘못된 암호 입력을 5회 시도하면 계정을 잠급니다. Workfront 관리자가 잠금 구성 후 필요한 대기 시간</p> </td> 
-   <td> <p>✓ 덧신</p> <p>업계 모범 사례를 기반으로 하는 각각의 연속적인 잘못된 암호 후에는 대기 시간이 기하급수적으로 증가합니다. 필요한 시간은 Workfront 관리자가 구성할 수 없습니다</p> </td> 
-   <td> <p>✓ 덧신</p> <p>다양한 의심스러운 행동을 사전에 차단하는 잠금 알고리즘을 사용합니다.</p> </td> 
+   <td> <p>Safeguard against incorrect password entry attempts </p> </td> 
+   <td> <p>✓ </p> <p>Locks the account after 5 incorrect password entry attempts. The wait time required after lockout is configured by the Workfront administrator</p> </td> 
+   <td> <p>✓</p> <p>Wait time is exponentially increased after each successive incorrect password based on industry best practices; the time required is not configurable by the Workfront administrator</p> </td> 
+   <td> <p>✓</p> <p>Uses a lock-out algorithm that proactively blocks a variety of suspicious behavior.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>소문자, 대문자, 숫자 및 특수 문자를 혼용해야 합니다.</p> </td> 
-   <td>✓ 덧신</td> 
-   <td> <p>✓ 덧신 </p> <p>특정 요구 사항 선택의 유연성 향상</p> </td> 
-   <td> <p>✓ 덧신</p> <p> 
+   <td> <p>Require a mix of lowercase, uppercase, numbers, and special characters</p> </td> 
+   <td>✓</td> 
+   <td> <p>✓ </p> <p>Enhanced flexibility in choosing specific requirements</p> </td> 
+   <td> <p>✓</p> <p> 
      </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>최소 암호 길이 설정 </p> </td> 
-   <td> 사용할 수 없음 </td> 
-   <td> ✓ 덧신 </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>Set a minimum password length </p> </td> 
+   <td> Not available </td> 
+   <td> ✓ </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -117,56 +119,56 @@ Adobe Workfront이 사용자 및 암호의 시스템 관리를 변경하고 있�
     <td>Not available</td> 
     <td> <p>✓</p> </td> 
    </tr>
-  --> 
-  <tr> 
-   <td colspan="3"> <p><strong>SSO(Single Sign-On) 프로토콜 지원</strong></p> </td> 
-   <td> </td> 
+  -->
+<!--<tr> 
+   <td colspan="3"> <p><strong>Single Sign-On Protocol support</strong></p> </td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>Active Directory 및 LDAP 프로토콜과 호환되는 SSO 통합 지원</p> </td> 
-   <td> ✓ 덧신 </td> 
-   <td> <p> 더 이상 사용되지 않음</p> <p>Active Directory, Azure 및 LDAP 시스템은 SAML 2.0을 사용해야 합니다.</p> </td> 
-   <td> <p>더 이상 사용되지 않음</p> <p>Active Directory, Azure 및 LDAP 시스템은 암호화된 SAML 2.0 또는 OpenID Connect로 구성할 수 있습니다.</p> </td> 
+   <td> <p>Supports SSO integrations that are compliant with Active Directory and LDAP protocols</p> </td> 
+   <td> ✓&nbsp;</td> 
+   <td> <p> Deprecated</p> <p>Active Directory, Azure, and LDAP systems should use SAML 2.0</p> </td> 
+   <td> <p>Deprecated</p> <p>Active Directory, Azure, and LDAP systems can be configured with encrypted SAML 2.0 or OpenID Connect.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>SAML 2.0과 호환되는 SSO 프로토콜 지원 </p> </td> 
-   <td>✓ 덧신</td> 
-   <td> ✓ 덧신 </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>Supports SSO protocols that are compliant with SAML 2.0&nbsp;</p> </td> 
+   <td>✓</td> 
+   <td> ✓&nbsp;</td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Open ID Connect 프로토콜 지원</p> </td> 
-   <td> <p>사용할 수 없음</p> </td> 
-   <td> <p>사용할 수 없음</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>Supports Open ID Connect protocols</p> </td> 
+   <td> <p>Not available</p> </td> 
+   <td> <p>Not available</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> 항상 ID 공급자 로그인 페이지로 리디렉션하도록 Workfront 로그인 페이지를 구성합니다 </p> </td> 
-   <td> 기본적으로 활성화되며 비활성화될 수 없음</td> 
-   <td> <p>✓ 덧신</p> <p>Workfront 관리자는 id 공급자 로그인 페이지로 리디렉션하도록 로그인 페이지를 구성하거나 로그인 단추 또는 단추를 구성할 수 있습니다.</p> </td> 
-   <td> <p>✓ 덧신</p> <p> Workfront 관리자는 id 공급자 로그인 페이지로 리디렉션하도록 로그인 페이지를 구성하거나 로그인 단추 또는 단추를 구성할 수 있습니다.</p> </td> 
+   <td> <p> Configure the Workfront login page to always redirect to the identity provider login page </p> </td> 
+   <td> Enabled by default and cannot be disabled</td> 
+   <td> <p>✓</p> <p>Workfront administrator can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
+   <td> <p>✓</p> <p> Workfront administrators can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>각 인스턴스가 여러 SSO 공급자를 사용하도록 허용</p> </td> 
-   <td> <p>해당 없음</p> </td> 
-   <td> <p>계획되지 않음</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>Allow each instance to enable multiple SSO providers</p> </td> 
+   <td> <p>N/A</p> </td> 
+   <td> <p>Not planned</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>환경 지원</strong> </p> </td> 
-   <td> </td> 
+   <td colspan="3"> <p><strong>Environment support</strong> </p> </td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>미리보기 환경을 위한 단일 사용자 이름 및 암호</p> </td> 
-   <td> <p>사용할 수 없음</p> </td> 
-   <td> <p>사용할 수 없음</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>A single username and password for Preview environments</p> </td> 
+   <td> <p>Not available</p> </td> 
+   <td> <p>Not available</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>샌드박스 환경을 위한 단일 사용자 이름 및 암호</p> </td> 
-   <td> <p>사용할 수 없음</p> </td> 
-   <td> <p>사용할 수 없음</p> </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td> <p>A single username and password for Sandbox environments</p> </td> 
+   <td> <p>Not available</p> </td> 
+   <td> <p>Not available</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <!--
    <tr> 
@@ -181,6 +183,5 @@ Adobe Workfront이 사용자 및 암호의 시스템 관리를 변경하고 있�
     <td> ✓</td> 
     <td> <p>✓</p> </td> 
    </tr>
-  --> 
- </tbody> 
-</table>
+   </tbody> 
+</table>-->

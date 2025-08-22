@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '687'
 ht-degree: 2%
 
 ---
@@ -96,17 +96,9 @@ ht-degree: 2%
 
 할당하거나 공유할 때 다른 모든 개체의 모든 유형 미리 보기 필드에 나타나려면 사용자가 활성 상태여야 합니다.
 
-사용자 페이지에서 또는 사용자를 편집할 때 사용자를 비활성화할 수 있습니다.
+[!UICONTROL Adobe Admin Console]을 통해 사용자를 비활성화해야 합니다.
 
-사용자 비활성화에 대한 자세한 내용은 [사용자 비활성화 또는 다시 활성화](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)를 참조하세요.
-
->[!IMPORTANT]
->
->조직이 [!DNL Adobe Business Platform]에 온보딩되었다면 [!UICONTROL Adobe Admin Console]를 통해 사용자를 비활성화해야 합니다.
->
->[!UICONTROL Adobe Admin Console]에서 사용자를 비활성화하는 방법에 대한 지침은 문서 [개별적으로 사용자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html)의 &quot;사용자 제거&quot; 섹션을 참조하거나 [!UICONTROL Adobe Admin Console] 관리자에게 문의하십시오.
->
->조직이 [!DNL Adobe Business Platform]에 온보딩되었는지 여부에 따라 다른 절차 목록을 보려면 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+[!UICONTROL Adobe Admin Console]에서 사용자를 비활성화하는 방법에 대한 지침은 문서 [개별적으로 사용자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html)의 &quot;사용자 제거&quot; 섹션을 참조하거나 [!UICONTROL Adobe Admin Console] 관리자에게 문의하십시오.
 
 ## 팀
 

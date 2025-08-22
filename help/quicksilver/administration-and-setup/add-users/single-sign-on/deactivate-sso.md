@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d661da6-dc7b-4dea-a56c-28e296acd980
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 1%
+source-wordcount: '19'
+ht-degree: 0%
 
 ---
 
@@ -19,41 +19,43 @@ ht-degree: 1%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront에서 SSO(Single Sign-On)를 비활성화한 후 사용자는 Workfront 자격 증명을 사용하여 로그인해야 합니다. 사용자가 처음 설정한 자격 증명입니다. (사용자 자격 증명을 변경해야 하는 경우 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.)
+<!--REMOVE ME MARCH 2026-->
+
+<!--After you deactivate single sign-on (SSO) in Adobe Workfront, users need to log in using their Workfront credentials. These are the credentials the user originally set up. (If you need to change user credentials, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).)
 
 
-## 액세스 요구 사항
+## Access requirements
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ Expand to view access requirements for the functionality in this article.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## SSO 비활성화
+## Deactivate SSO
 
 {{step-1-to-setup}}
 
-1. **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
+1. Click **System** > **Single Sign-On (SSO)**.
 
-1. 페이지 맨 아래로 스크롤하여 **활성화** 옵션을 비활성화합니다.
-1. **저장**&#x200B;을 클릭합니다.
+1. Scroll to the bottom of the page and disable the **Enable** option.
+1. Click **Save**.-->

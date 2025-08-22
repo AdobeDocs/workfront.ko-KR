@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
@@ -19,141 +19,143 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-다음 섹션에서는 ID 공급자로 ADFS(Active Directory Federation Services)를 사용할 때 SAML(Security Assertion Markup Language) 2.0 메타데이터를 업데이트하는 방법에 대해 설명합니다.
+<!--REMOVE ME MARCH 2026-->
 
-## 액세스 요구 사항
+<!--The following sections describe how to update your Security Assertion Markup Language (SAML) 2.0 metadata when using Active Directory Federation Services (ADFS) as your identity provider.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+## Access requirements
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## ADFS를 ID 공급자로 사용
+## Use ADFS as your identity provider
 
-Adobe Workfront이 SAML 2.0 인증서를 업데이트하기 전 또는 그 후에 ADFS 메타데이터를 업데이트할 수 있습니다. Workfront이 SAML 2.0 인증서를 업데이트하기 전에 ADFS 메타데이터를 업데이트하도록 선택하는 경우 추가 단계가 필요합니다.
+You can update your ADFS metadata prior to Adobe Workfront updating the SAML 2.0 certificate or after. If you choose to update the ADFS metadata prior to Workfront updating the SAML 2.0 certificate, additional steps are required.
 
-* [ADFS 메타데이터 업데이트](#update-your-adfs-metadata)
-* [ADFS 메타데이터 강제 업데이트](#force-your-adfs-metadata-to-update)
+* [Update your ADFS metadata](#update-your-adfs-metadata) 
+* [Force your ADFS metadata to update](#force-your-adfs-metadata-to-update)
 
-### ADFS 메타데이터 업데이트 {#update-your-adfs-metadata}
+### Update your ADFS metadata {#update-your-adfs-metadata}
 
-자동으로 업데이트되도록 ADFS 메타데이터를 설정하려면 이 섹션의 단계를 완료하십시오.
+To set your ADFS metadata to update automatically, complete the steps in this section.
 
-기본적으로 ADFS는 모든 신뢰 당사자 트러스트 메타데이터에 대한 업데이트를 자동으로 확인하도록 구성되지만 기본값은 24시간마다 폴링하도록 설정됩니다. powershell 명령을 사용하여 이 값을 변경할 수 있습니다.
+By default, ADFS is configured to automatically check for updates to all of its relying party trust metadata; however, the default is set to poll only every 24 hours. You can change this value with powershell commands.
 
-1. ADFS 서버에 로그인하고 ADFS 관리 콘솔을 엽니다.
-1. 왼쪽 패널에서 **ADFS 2.0,**&#x200B;을 확장한 다음 **트러스트 관계**&#x200B;를 확장합니다.
+1. Log in to the ADFS server and open the ADFS Management Console. 
+1. In the left-hand panel, expand **ADFS 2.0,** then expand **Trust Relationships.**
 
-1. **신뢰 당사자 트러스트** 폴더를 클릭합니다.
-1. 이전에 Workfront에서 사용하도록 구성한 신뢰 당사자 트러스트를 선택한 다음 오른쪽 패널에서 **페더레이션 메타데이터에서 업데이트**&#x200B;를 클릭합니다.
-1. (조건부) 이 옵션이 흐리게 표시되면(신뢰 당사자 트러스트가 이전에 메타데이터 파일을 사용하여 구성되었음을 의미함) 다음 단계를 완료합니다.
+1. Click the **Relying Party Trusts** folder.
+1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click**Update from Federation Metadata**.
+1. (Conditional) If this option is dimmed (which means that the relying party trust was previously configured using a metadata file), complete the following.
 
-   1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **설정** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
-
-   1. **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
-
-   1. **설정 편집**&#x200B;을 클릭합니다.
-   1. **구성 편집**&#x200B;을 클릭한 다음 **유형** 드롭다운 목록에서 **SAML 2.0**&#x200B;을(를) 선택합니다.
-
-   1. **메타데이터 URL**&#x200B;을(를) 복사합니다. 복사한 값은 다음과 유사해야 합니다.
+   1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
+   
+   1. Click **System** > **Single Sign On (SSO)**.
+   
+   1. Click **Edit Settings.** 
+   1. Click **Edit Configuration**, then select **SAML 2.0** in the **Type** drop-down list. 
+   
+   1. Copy the **Metadata URL**, which should be similar to the following:
 
       `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
+   
+   1. On the ADFS server, right-click on the relying party trust that you previously configured, then click **Properties.**
+   1. Click the **Monitoring** tab, then paste the URL that you copied from Workfront into the **Relying party's federation metadata URL** field.
+   
+   1. Check the options to **Monitor relying party** and **Automatically update relying party**.
+   
+   1. Click **OK.**
+   1. Select the relying party trust that you previously configured to be used with Workfront; then, in the right-hand panel, click **Update from Federation Metadata.**
 
-   1. ADFS 서버에서 이전에 구성한 신뢰 당사자 트러스트를 마우스 오른쪽 단추로 클릭한 다음 **속성**&#x200B;을 클릭합니다.
-   1. **모니터링** 탭을 클릭한 다음 Workfront에서 복사한 URL을 **신뢰 당사자의 페더레이션 메타데이터 URL** 필드에 붙여 넣습니다.
-
-   1. **신뢰 당사자 모니터링** 및 **신뢰 당사자 자동 업데이트**&#x200B;에 대한 옵션을 확인하십시오.
-
-   1. **확인**&#x200B;을 클릭합니다.
-   1. 이전에 Workfront에서 사용하도록 구성한 신뢰 당사자 트러스트를 선택한 다음 오른쪽 패널에서 **페더레이션 메타데이터에서 업데이트**&#x200B;를 클릭합니다.
-
-1. ADFS 2.0에서 지원하지 않는 페더레이션 메타데이터의 일부 콘텐츠에 대한 메시지를 무시하려면 **확인**&#x200B;을 클릭하십시오.
-1. **Windows Powershell 모듈을 엽니다.**
-1. 모든 모듈이 로드되면 powershell에서 다음 명령을 실행합니다.
+1. Click **OK** to ignore the message about some of the content in the federation metadata not being supported by ADFS 2.0.
+1. Open **Windows Powershell Modules.**
+1. After all the modules load, run the following command in powershell:
 
    `Get-ADFSProperties`
 
-1. **모니터링 간격 옆의 값을 찾습니다.**
+1. Look for the value next to **Monitoring Interval.**
 
-   투표 사이의 분 수를 나타내는 숫자가 될 것이다. 기본값은 1440(1440분 = 24시간)이어야 합니다.
+   It will be a number that represents the number of minutes between polls. The default should be 1440 (1440 minutes = 24 hours).
 
-1. powershell에서 다음 명령을 실행하여 새 값을 설정합니다.
+1. Set a new value by running the following command in powershell:
 
    `Set-ADFSProperties -MonitoringInterval 1`
+   
+   This changes the monitoring interval from every 24 hours to every minute. You can change the 1 to another larger value if you want it to poll less frequently.
 
-   그러면 모니터링 간격이 24시간에서 1분마다 변경됩니다. 폴링 빈도를 줄이려면 1을 다른 큰 값으로 변경할 수 있습니다.
+1. To verify that this is working correctly, use the **Event Viewer** to look for the following information in the ADFS2.0 logs:
 
-1. 이 기능이 올바르게 작동하는지 확인하려면 **이벤트 뷰어**&#x200B;를 사용하여 ADFS2.0 로그에서 다음 정보를 찾으십시오.
+   **Event ID 156 and 157**
 
-   **이벤트 ID 156 및 157**
+### Force your ADFS metadata to update {#force-your-adfs-metadata-to-update}
 
-### ADFS 메타데이터 강제 업데이트 {#force-your-adfs-metadata-to-update}
+To update your ADFS metadata complete the steps in the following section.
 
-ADFS 메타데이터를 업데이트하려면 다음 섹션의 단계를 완료하십시오.
-
-ADFS(Active Directory Federation Services)를 사용할 때 Workfront과 SAML 2.0 공급자 간에 메타데이터를 강제로 교환하려면 다음을 수행하십시오.
+To force metadata to be exchanged between Workfront and your SAML 2.0 provider when using Active Directory Federation Services (ADFS):
 
 >[!NOTE]
 >
->이러한 변경 사항 중 일부는 IT 부서에서 수행해야 할 수 있습니다.
+>Some of these changes might need to be done by your IT department.
 
-1. ADFS 서버에 로그인하고 **ADFS 관리 콘솔**&#x200B;을 엽니다.
-1. 왼쪽 패널에서 **ADFS 2.0**&#x200B;을 확장한 다음 **트러스트 관계**&#x200B;을 확장합니다.
+1. Log in to the ADFS server and open the **ADFS Management Console**.
+1. In the left-hand panel, expand **ADFS 2.0**, then expand **Trust Relationships**.
 
-1. **신뢰 당사자 트러스트** 폴더를 클릭합니다.
-1. 이전에 Workfront에서 사용하도록 구성한 신뢰 당사자 트러스트를 선택한 다음 오른쪽 패널에서 **페더레이션 메타데이터에서 업데이트**&#x200B;를 클릭합니다.
+1. Click the **Relying Party Trusts** folder.
+1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click **Update from Federation Metadata**.
 
-   이 옵션이 흐리게 표시되어 선택할 수 없는 경우 다음을 완료하십시오.
+   If this option is dimmed and cannot be selected, complete the following:
 
-   (신뢰 당사자 트러스트가 이전에 메타데이터 파일을 사용하여 구성된 경우에만 옵션이 흐리게 표시됩니다.)
+   (The option is dimmed only when the relying party trust was previously configured using a metadata file.)
 
-   1. Workfront의 설정 영역에서 Workfront Single Sign-On 설정 화면에서 **메타데이터 URL**&#x200B;을 복사합니다.
+   1. In Workfront, in the Setup area, copy the **Metadata URL** from your Workfront Single Sign-On setup screen.
 
-      **메타데이터 URL**&#x200B;에 대한 정보에 액세스하려면:
+      To access the information for the **Metadata URL**:
 
-      1. 전역 탐색 모음에서 Adobe Workfront 오른쪽 상단 근처에 있는 **설정**&#x200B;을 클릭합니다.
-      1. &#x200B;> **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
-      1. **설정 편집**&#x200B;을 클릭합니다.
-      1. **구성 편집**&#x200B;을 클릭한 다음 **유형** 드롭다운 목록에서 **SAML 2.0**&#x200B;을(를) 선택합니다.
-      1. **메타데이터 URL**&#x200B;을(를) 복사합니다. 복사한 값은 다음과 유사해야 합니다.
+      1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+      1. Click > **System** > **Single Sign On (SSO)**.
+      1. Click **Edit Settings.**
+      1. Click **Edit Configuration**, then select **SAML 2.0** in the **Type** drop-down list.
+      1. Copy the **Metadata URL**, which should be similar to the following:
 
          `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
 
-   1. ADFS 서버에서 이전에 구성한 신뢰 당사자 트러스트를 마우스 오른쪽 단추로 클릭한 다음 **속성**&#x200B;을 클릭합니다.
-   1. **모니터링** 탭을 클릭한 다음 Workfront에서 복사한 URL을 **신뢰 당사자의 페더레이션 메타데이터 URL** 필드에 붙여 넣습니다.
-   1. **신뢰 당사자 모니터링** 및 **신뢰 당사자 자동 업데이트**&#x200B;에 대한 옵션을 확인하십시오.
-   1. **확인**&#x200B;을 클릭합니다.
-   1. 이전에 Workfront에서 사용하도록 구성한 신뢰 당사자 트러스트를 선택한 다음 오른쪽 패널에서 **페더레이션 메타데이터에서 업데이트**&#x200B;를 클릭합니다.
+   1. On the ADFS server, right-click on the relying party trust that you previously configured, then click **Properties.**
+   1. Click the **Monitoring** tab, then paste the URL that you copied from Workfront into the **Relying party's federation metadata URL** field.
+   1. Check the options to **Monitor relying party** and **Automatically update relying party**.
+   1. Click **OK**.
+   1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click **Update from Federation Metadata.**
 
-1. ADFS 2.0에서 지원하지 않는 페더레이션 메타데이터의 일부 콘텐츠에 대한 메시지를 무시하려면 **확인**&#x200B;을 클릭하십시오.
-1. 페더레이션 메타데이터 업데이트를 완료하려면 **업데이트**&#x200B;를 클릭하십시오.
+1. Click **OK** to ignore the message about some of the content in the federation metadata not being supported by ADFS 2.0.
+1. Click **Update** to complete updating your federation metadata.
 
-Workfront 로그인 자격 증명을 사용하여 기본 로그인 화면을 통해 Workfront에 액세스할 수 있는 사용자(**액세스** 섹션의 각 사용자 프로필 페이지에서 구성할 수 있음)는 다음 URL로 이동하여 Workfront 사용자 이름과 암호를 사용하여 로그인할 수 있습니다. `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`.
+Users who are allowed to access Workfront via the native login screen using Workfront login credentials (this can be configured from each user's profile page in the **Access** section) can log in using their Workfront user name and password by navigating to the following URL: `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`.
 
-## 다른 ID 공급자 사용
+## Using other identity providers
 
-ADFS 이외의 ID 공급자(예: Ping, Okta 또는 Centrify)를 사용하는 경우 Workfront 메타데이터를 ID 공급자에게 다시 업로드해야 합니다.
+When using identity providers other than ADFS (such as Ping, Okta, or Centrify), you must re-upload the Workfront metadata to your identity provider.
 
-새 Workfront 메타데이터 URL을 얻는 방법에 대한 자세한 내용은 [ADFS 메타데이터 업데이트](#update-your-adfs-metadata)를 참조하십시오.
+For more information about how to obtain a new Workfront Metadata URL, see [Update your ADFS metadata](#update-your-adfs-metadata).
 
-Workfront에서 SAML 2.0과 함께 ADFS(Active Directory Federation Services)를 사용하는 방법에 대한 자세한 내용은 [ADFS를 사용하여 SAML 2.0과 함께 Adobe Workfront 구성](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)을 참조하십시오.
+For additional information about using Active Directory Federation Services (ADFS) with SAML 2.0 in Workfront, see [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).-->

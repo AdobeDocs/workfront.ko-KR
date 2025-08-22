@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1236'
 ht-degree: 1%
 
 ---
@@ -21,16 +21,14 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->* **조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 시스템 관리자를 만들어야 합니다.**
+>* **Adobe Admin Console을 통해 시스템 관리자를 만들어야 합니다.**
 >
 >   Adobe Admin Console에서 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Admin Console에서 사용자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
 >
->   Adobe Admin Console에 온보딩된 조직의 그룹 관리자는 이 절차를 사용하여 사용자를 생성하고 관리자 승인을 위해 사용자를 제출할 수 있습니다.
->
->   조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>   그룹 관리자는 이 절차를 사용하여 사용자를 만들고 관리자 승인을 위해 사용자를 제출할 수 있습니다.
 >
 >* **조직에서 SSO(Single Sign-On)를 사용하는 경우** 사용자를 만들어 Adobe Admin Console에서 Workfront에 할당하는 것이 좋습니다. Workfront에서 이러한 사용자를 만들 수 있지만, 조직의 Admin Console이 구성되는 방식에 따라 해당 정보를 Adobe Admin Console으로 전송하는 데 문제가 있을 수 있습니다.
->   Adobe Admin Console에서 사용자를 만든 후 Workfront에서 역할, 그룹, 팀 및 액세스 수준 할당과 같은 사용자 정보를 구성할 수 있습니다.
+>  >   Adobe Admin Console에서 사용자를 만든 후 Workfront에서 역할, 그룹, 팀 및 액세스 수준 할당과 같은 사용자 정보를 구성할 수 있습니다.
 >* **조직에서 SSO(Single Sign-On)를 사용하지 않는 경우** Workfront에서 시스템 관리자가 아닌 사용자를 직접 추가할 수 있습니다. Adobe Admin Console에서는 사용자를 추가할 수 있지만 Workfront에서 사용자를 추가하면 생성 중에 액세스 수준을 설정할 수 있으므로 시간을 절약할 수 있습니다.
 
 
@@ -38,11 +36,7 @@ ht-degree: 1%
 처음부터 개별 사용자를 만들거나 기존 사용자를 복사하여 Adobe Workfront에서 사용자를 추가할 수 있습니다.
 
 여러 사용자를 동시에 가져오는 방법에 대한 자세한 내용은 [사용자 가져오기](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)를 참조하십시오.
-
-<!--
-Replace this intro with something like the following when we switch to Admin Console:
-As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
--->
+—>
 
 ## 액세스 요구 사항
 
@@ -67,7 +61,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
    <td> <p>다음 중 하나가 있어야 합니다.</p> 
     <ul> 
      <li> <p>시스템 관리자 액세스 수준입니다. </li> 
-     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
+     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <b>에서 두 개의 </b>사용자 관리<img src="assets/gear-icon-in-access-levels.png"> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -128,7 +122,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
    >
    >* 조직이 Admin Console에 온보딩되고 Workfront을 통해 사용자를 추가하는 경우 이메일 초대를 보낼 수 있는 옵션이 없습니다.
    >
-   >기존 Adobe 사용자의 경우, 사용자는 사용 가능한 Workfront에 대한 이메일을 받을 수도 있고 받지 못할 수도 있습니다. 이는 제품에 대해 Adobe 관리자가 제어하는 기본 설정입니다.
+   >   기존 Adobe 사용자의 경우, 사용자는 사용 가능한 Workfront에 대한 이메일을 받을 수도 있고 받지 못할 수도 있습니다. 이는 제품에 대해 Adobe 관리자가 제어하는 기본 설정입니다.
 
 1. **이 사용자 추가**&#x200B;를 클릭합니다.
 
@@ -138,15 +132,15 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
    >[!NOTE]
    >
-   >* Adobe Admin Console에 온보딩된 조직에 사용자를 추가하는 그룹 관리자인 경우 이 단계의 옵션은 **관리자 승인을 위해 사용자 제출** 및 **승인을 위해 제출하고 다른 작업을 시작**&#x200B;입니다. 사용자는 비활성화됨 및 승인 보류 중 상태로 만들어집니다.
+   >* 사용자를 추가하는 그룹 관리자인 경우 이 단계의 옵션은 **관리자 승인을 위해 사용자 제출** 및 **승인을 위해 제출하고 다른 작업을 시작**&#x200B;입니다. 사용자는 비활성화됨 및 승인 보류 중 상태로 만들어집니다.
    > 
    >* 사용자가 몇 분 내에 비활성화됨 및 승인 보류 중 상태를 벗어나지 않고 화면 새로 고침으로 승인 보류 중 배지가 제거되지 않으면 사용자를 수동으로 승인할 수 있습니다.
    >
-   >1. 설정 > 사용자로 이동합니다.
-   >1. 사용자 목록에서 사용자를 선택합니다.
-   >1. 목록 헤더에서 점 3개 메뉴를 클릭합니다.
-   >1. **승인**&#x200B;을 선택합니다.
-   >1. 몇 분 후에 페이지를 새로 고칩니다.
+   >   1. 설정 > 사용자로 이동합니다.
+   >   1. 사용자 목록에서 사용자를 선택합니다.
+   >   1. 목록 헤더에서 점 3개 메뉴를 클릭합니다.
+   >   1. **승인**&#x200B;을 선택합니다.
+   >   1. 몇 분 후에 페이지를 새로 고칩니다.
 
 
 ## 사용자를 복사하여 새 사용자 만들기

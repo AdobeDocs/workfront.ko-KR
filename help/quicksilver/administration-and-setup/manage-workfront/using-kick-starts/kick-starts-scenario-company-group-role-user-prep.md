@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 59431354076a0909fb1878d68cf266f08d2114b3
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 3%
+source-wordcount: '1206'
+ht-degree: 4%
 
 ---
 
@@ -305,6 +305,6 @@ Adobe Workfront 구현을 시작할 때 수동으로 데이터를 입력하지 �
 >
 >Workfront으로 가져온 사용자는 비활성화됨 및 승인 보류 중 상태로 만들어집니다.
 > 
->조직이 Adobe Admin Console으로 마이그레이션되고 사용자가 몇 분 내에 비활성화됨 및 승인 보류 중 상태에서 벗어나지 않는 경우 사용자 일괄 처리를 Adobe Admin Console에 바로 추가할 수 있습니다.
+>사용자가 몇 분 내에 비활성화됨 및 승인 보류 중 상태에서 이동하지 않으면 사용자 배치를 Adobe Admin Console에 바로 추가할 수 있습니다.
 >
->지침은 [여러 사용자 관리를 참조하십시오. | Adobe 설명서의 일괄 CSV 업로드](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html).
+>지침은 [여러 사용자 관리를 참조하십시오. | Adobe 설명서의 일괄 CSV 업로드](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).

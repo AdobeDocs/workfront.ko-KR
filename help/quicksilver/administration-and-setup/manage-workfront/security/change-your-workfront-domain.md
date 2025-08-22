@@ -8,77 +8,82 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront 도메인 변경
 
+<!--DELETE ME MARCH 2026-->
+
 >[!IMPORTANT]
 >
->이 페이지에 설명된 절차는 아직 Admin Console에 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Workfront 도메인을 변경할 수 없습니다.
+>이 페이지에 설명된 절차는 Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다.
 >
->조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>이제 모든 Workfront 조직이 Adobe Admin Console에 온보딩되었습니다. 따라서 Workfront 도메인을 더 이상 변경할 수 없습니다.
 
-Adobe Workfront 관리자 및 인증된 Workfront 지원 담당자는 Workfront 지원 팀에 조직의 Workfront 도메인을 변경하는 데 도움을 요청할 수 있습니다.
+<!--
 
-## 액세스 요구 사항
+As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+## Access requirements
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## 도메인 변경 요청
+## Request a domain change
 
-1. Experience League 시 지원 티켓 만들기를 시작합니다.
-1. **설명** 상자에 원하는 새 도메인과 새 도메인을 실행하려는 기간을 포함하십시오.
-1. 지원 사례에 대한 상자 작성을 완료한 다음 **제출**&#x200B;을 클릭합니다.
+1. Begin creating a support ticket on Experience League.
+1. In the **Description** box, include the new new domain you want, as well as the timeframe when you want the new domain to go live.
+1. Finish filling out the boxes for the support case, then click **Submit**.
 
-Workfront 지원 센터에 문의하여 도메인 변경에 대한 도움을 받을 수도 있습니다.
+You can also call Workfront Support to get help changing your domain.
 
-## SSO 고객인 경우 새 도메인 업데이트
+## Update the new domain if you are an SSO customer
 
-회사에서 SSO를 활용하는 경우 Workfront 도메인을 변경한 후 다음 단계를 수행해야 합니다.
+If your company utilizes SSO, the following steps are required after you have your Workfront domain changed.
 
 >[!NOTE]
 >
->조직의 Workfront 인스턴스가 Adobe IMS를 사용하여 활성화된 경우 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 {{step-1-to-setup}}
 
-1. 왼쪽 사이드바에서 **시스템** > **고객 정보**&#x200B;를 클릭하고 고객 정보 페이지에서 도메인이 업데이트되었는지 확인하십시오.
+1. In the left sidebar, click **System** > **Customer Info** and make sure that your domain is updated on the Customer Info page.
 
-1. 왼쪽 사이드바에서 **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
+1. In the left sidebar, click **System** > **Single Sign-On (SSO)**.
 
-1. **SAML 2.0 메타데이터 다운로드**&#x200B;를 클릭합니다.
-1. 파일이 다운로드되면 열고 다음 사항을 확인합니다.
+1. Click **Download SAML 2.0 Metadata**.
+1. After the file is downloaded, open it and make sure of the following:
 
-   1. **entityID**&#x200B;이(가) 새 도메인을 가리키고 있습니다.
-   1. **`<md:AssertionConsumerService>`** 내의 모든 위치가 새 도메인을 가리킵니다.
+   1. **entityID** is pointing to the new domain.
+   1. All locations within **`<md:AssertionConsumerService>`** point to the new domain.
 
-1. 다운로드한 메타데이터 파일을 나중에 업데이트할 수 있도록 ID 공급자에게 제공합니다.
-1. 조직에서 사용하는 모든 Workfront 통합에 대해 도메인이 업데이트되었는지 확인합니다.
+1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
+1. Make sure the domain is updated for all Workfront integrations used by your organization.
+-->
