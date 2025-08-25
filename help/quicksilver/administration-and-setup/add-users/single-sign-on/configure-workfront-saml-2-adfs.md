@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -19,161 +19,159 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+Adobe Workfront 관리자는 ADFS(Active Directory Federation Services)를 사용하는 동안 단일 사인온을 위해 Workfront을 SAML(Security Assertion Markup Language) 2.0 솔루션과 통합할 수 있습니다.
 
-<!--As an Adobe Workfront administrator, you can integrate Workfront with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on while using Active Directory Federation Services (ADFS).
+이 안내서는 자동 프로비저닝 또는 속성 매핑 없이 ADFS를 설정하는 데 중점을 둡니다. 자동 프로비저닝을 설정하기 전에 설정을 완료하고 테스트하는 것이 좋습니다.
 
-This guide focuses on setting up ADFS without auto provisioning or attribute mappings. We recommend that you complete the setup and test it prior to setting up any auto provisioning.
+## 액세스 요구 사항
 
-## Access requirements
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article: 
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>플랜</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Enable authentication to Workfront with SAML 2.0
+## SAML 2.0으로 Workfront 인증 활성화
 
-To enable authentication to the Workfront web application and the Workfront mobile application with SAML 2.0, complete the following sections:
+SAML 2.0을 사용하여 Workfront 웹 애플리케이션 및 Workfront 모바일 애플리케이션에 대한 인증을 활성화하려면 다음 섹션을 완료하십시오.
 
-* [Retrieve the Workfront SSO metadata file](#retrieve-the-workfront-sso-metadata-file) 
-* [Configure Relying Party Trusts](#configure-relying-party-trusts) 
-* [Configure Claim Rules](#configure-claim-rules) 
-* [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection)
+* [Workfront SSO 메타데이터 파일 검색](#retrieve-the-workfront-sso-metadata-file)
+* [신뢰 당사자 트러스트 구성](#configure-relying-party-trusts)
+* [클레임 규칙 구성](#configure-claim-rules)
+* [메타데이터 파일 업로드 및 연결 테스트](#upload-the-metadata-file-and-test-the-connection)
 
-### Retrieve the Workfront SSO metadata file {#retrieve-the-workfront-sso-metadata-file}
+### Workfront SSO 메타데이터 파일 검색 {#retrieve-the-workfront-sso-metadata-file}
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **System** > **Single Sign-On (SSO)**.
-1. In the **Type** drop-down menu, click **SAML 2.0** to display additional information and options.  
-1. Copy the URL that displays after **Metadata URL**. 
-1. Continue to the following section, [Configure Relying Party Trusts](#configure-relying-party-trusts).
+1. 왼쪽 패널에서 **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
+1. **Type** 드롭다운 메뉴에서 **SAML 2.0**&#x200B;을(를) 클릭하여 추가 정보 및 옵션을 표시합니다.
+1. **메타데이터 URL** 뒤에 표시되는 URL을 복사합니다.
+1. [신뢰 당사자 트러스트 구성](#configure-relying-party-trusts) 섹션을 계속합니다.
 
-### Configure Relying Party Trusts {#configure-relying-party-trusts}
+### 신뢰 당사자 트러스트 구성 {#configure-relying-party-trusts}
 
-1. Open the **ADFS Manager** using the Windows server 2008 R2 (version may vary).
-1. Go to **Start.**
-1. Click **Administration Tools.**
-1. Click **ADFS 2.0 Management.**
-1. Select **ADFS** and expand **Trust Relationships**.
-1. Right-click **Relying Party Trusts**, then select **Add Relying Party Trust** to launch the Add Relying Party Trust Wizard.
-1. From the **Welcome Page**, select **Start**. 
-1. In the **Select Date Source** section, paste the metadata URL from Workfront.
-1. Click **Next**.
-1. Click **OK** to acknowledge the warning message.
-1. In the **Specify Display Name** section, add a **Display Name** and **Notes** to distinguish the Trust, then click **Next**.
-1. Select **Permit all user to access this relying party** (Or **None** if you want to configure this later).
-1. Click **Next**.
+1. Windows server 2008 R2를 사용하여 **ADFS 관리자**&#x200B;를 엽니다(버전은 다를 수 있음).
+1. **시작**(으)로 이동
+1. **관리 도구**&#x200B;를 클릭합니다.
+1. **ADFS 2.0 관리를 클릭합니다.**
+1. **ADFS**&#x200B;를 선택하고 **트러스트 관계**&#x200B;를 확장합니다.
+1. **신뢰 당사자 트러스트**&#x200B;를 마우스 오른쪽 단추로 클릭한 다음 **신뢰 당사자 트러스트 추가**&#x200B;를 선택하여 신뢰 당사자 트러스트 추가 마법사를 시작합니다.
+1. **시작 페이지**&#x200B;에서 **시작**&#x200B;을 선택합니다.
+1. **날짜 Source 선택** 섹션에서 Workfront의 메타데이터 URL을 붙여 넣습니다.
+1. **다음**&#x200B;을 클릭합니다.
+1. 경고 메시지를 확인하려면 **확인**&#x200B;을 클릭하세요.
+1. **표시 이름 지정** 섹션에서 **표시 이름** 및 **메모**&#x200B;를 추가하여 트러스트를 구분한 후 **다음**&#x200B;을 클릭합니다.
+1. **모든 사용자가 이 신뢰 당사자에 액세스할 수 있도록 허용**(또는 나중에 구성하려면 **없음**)을 선택합니다.
+1. **다음**&#x200B;을 클릭합니다.
 
-   This takes you to the **Ready to Add Trust** section.
+   **트러스트를 추가할 준비가 되었습니다** 섹션으로 이동합니다.
 
-1. Continue to the following section [Configure Claim Rules](#configure-claim-rules).
+1. [클레임 규칙 구성](#configure-claim-rules) 섹션을 계속합니다.
 
-### Configure Claim Rules {#configure-claim-rules}
+### 클레임 규칙 구성 {#configure-claim-rules}
 
-1. Click **Next** in the **Ready to Add Trust** section, then ensure that the **Open the Edit Claim Rules dialog box** option is selected.
-    
-    This will allow you to edit Claim Rules in a future step.
-    
+1. **트러스트를 추가할 준비가 되었습니다** 섹션에서 **다음**&#x200B;을(를) 클릭한 다음 **클레임 규칙 편집 대화 상자 열기** 옵션이 선택되어 있는지 확인하십시오.
+
+   이 경우 이후 단계에서 클레임 규칙을 편집할 수 있습니다.
+
 1. Click **Close**.
-1. Click **Add Rule.**
-1. Select **Send LDAP Attribute as Claims**.    
-1. Click **Next** to display the **Configure Claim Rule** step.  
-1. Specify the following minimum requirements to configure the claim rule: (This will go in the **Federation ID** on the user setup and is used to distinguish who is logging in.)
-    
+1. **규칙 추가**&#x200B;를 클릭합니다
+1. **LDAP 특성을 클레임으로 보내기**&#x200B;를 선택합니다.
+1. **다음**&#x200B;을 클릭하여 **클레임 규칙 구성** 단계를 표시합니다.
+1. 클레임 규칙을 구성하려면 다음 최소 요구 사항을 지정하십시오. (이 요구 사항은 사용자 설정의 **Federation ID**&#x200B;에서 시작되며 로그인하는 사용자를 구별하는 데 사용됩니다.)
+
 
    <table >                
       <tbody>
             <tr>
-               <td>Claim rule name
+               <td>클레임 규칙 이름
                </td>
-               <td>Specify a name for the claim rule. For example, "Workfront."</td>
+               <td>클레임 규칙의 이름을 지정합니다. 예를 들어 "Workfront"입니다.</td>
             </tr>
             <tr>
-               <td>Attribute store</td>
-               <td >Select <b>Active Directory</b> from the drop-down menu.</td>
+               <td>속성 저장소</td>
+               <td >드롭다운 메뉴에서 <b>Active Directory</b>을(를) 선택합니다.</td>
             </tr>
             <tr>
-               <td>LDAP Attribute</td>
-               <td>This can be any type of attribute. We recommend using <b>SAM-Account-Name</b> for this attribute.</td>
+               <td>LDAP 속성</td>
+               <td>모든 유형의 속성일 수 있습니다. 이 특성에는 <b>SAM-Account-Name</b>을 사용하는 것이 좋습니다.</td>
             </tr>
             <tr>
-               <td>Outgoing Claim Type</td>
-               <td>You must select <b>Name ID</b> as the outgoing claim type</td>
+               <td>나가는 클레임 유형</td>
+               <td><b>이름 ID</b>을(를) 보내는 클레임 유형으로 선택해야 합니다.</td>
             </tr>
       </tbody>
    </table>
 
-1. (Optional) In order to establish auto provisioning, add the following additional claims in both the LDAP Attribute and Outgoing Claim Type:
-    
-    * Given Name
-    * Surname
-    * E-Mail Address
+1. (선택 사항) 자동 프로비저닝을 설정하려면 LDAP 속성과 발신 클레임 유형 모두에 다음 추가 클레임을 추가합니다.
 
-1. Click **Finish**, then click **OK** on the next screen.
-1. Right-click the new **Relying Party Trust**, then select **Properties**.    
-1. Select the**Advanced Tab**. And under **Secure Hash Algorithm** select SHA-1 or SHA-256.
+   * 이름
+   * 성
+   * 이메일 주소
 
-   >[!NOTE]
-   >
-   >The option that you select under Secure Hash Algorithm must match the Secure Hash Algorithm field in Workfront under Setup > System > Single Sign-ON (SSO).
-
-1. Continue to the following section [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection).
-
-### Upload the metadata file and test the connection {#upload-the-metadata-file-and-test-the-connection}
-
-1. Open a browser and navigate to `https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml` .
-
-   This should download a Metadata file FederationMetadata.xml file.
-
-1. Click **Choose File** under **Populate fields from Identity Provider Metadata**, and select the **FederationMetadata.xml** file.
-
-1. (Optional) If the certificate information did not populate with the metadata file, you can upload a file separately. Select **Choose File** in the **Certificate** section.
-
-1. Click **Test Connection**. If set up correctly, you should see a page similar to the one shown below:
-
-   ![SAML 2 success message](assets/success-saml-2.png)
+1. **마침**&#x200B;을 클릭한 다음 다음 다음 화면에서 **확인**&#x200B;을 클릭합니다.
+1. 새 **신뢰 당사자 트러스트**&#x200B;를 마우스 오른쪽 단추로 클릭한 다음 **속성**&#x200B;을 선택합니다.
+1. **고급 탭**&#x200B;을 선택합니다. **보안 해시 알고리즘**&#x200B;에서 SHA-1 또는 SHA-256을 선택합니다.
 
    >[!NOTE]
    >
-   >If you want to set up attribute mapping, ensure that you copy the attributes from the Test Connection into the Directory Attribute. For more information, see Mapping User Attributes.
+   >보안 해시 알고리즘에서 선택하는 옵션은 설정 > 시스템 > SSO(Single Sign-On) 아래의 Workfront에 있는 보안 해시 알고리즘 필드와 일치해야 합니다.
 
-1. Select **Admin Exemption** to allow Workfront administrators to log in using Workfront credentials with the bypass url.
+1. 다음 섹션 [메타데이터 파일을 업로드하고 연결을 테스트합니다](#upload-the-metadata-file-and-test-the-connection).
 
-   Bookmarks pointing to `<yourdomain>`.my.workfront.com/login bypass the redirect.
+### 메타데이터 파일 업로드 및 연결 테스트 {#upload-the-metadata-file-and-test-the-connection}
 
-1. Select the **Enable** box to enable the configuration.
-1. Click **Save**.
+1. 브라우저를 열고 `https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml`(으)로 이동합니다.
 
-## About updating users for SSO
+   메타데이터 파일 FederationMetadata.xml 파일을 다운로드해야 합니다.
 
-Following this guide, the **SSO Username** will be their **Active Directory Username**.
+1. **ID 공급자 메타데이터에서 필드 채우기**&#x200B;에서 **파일 선택**&#x200B;을 클릭하고 **FederationMetadata.xml** 파일을 선택합니다.
 
-As a Workfront administrator, you can bulk update users for SSO. For more information about updating users for SSO, see [Update users for single sign-on](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+1. (선택 사항) 인증서 정보가 메타데이터 파일로 채워지지 않은 경우 파일을 별도로 업로드할 수 있습니다. **인증서** 섹션에서 **파일 선택**&#x200B;을 선택합니다.
 
-As a Workfront administrator, you can also manually assign a Federation ID editing the user's profile and completing the Federation ID field. For more information about editing a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+1. **연결 테스트**&#x200B;를 클릭합니다. 올바르게 설정되면 아래 표시된 페이지와 유사한 페이지가 표시됩니다.
+
+   ![SAML 2 성공 메시지](assets/success-saml-2.png)
+
+   >[!NOTE]
+   >
+   >속성 매핑을 설정하려면 연결 테스트의 속성을 디렉터리 속성으로 복사해야 합니다. 자세한 내용은 사용자 속성 매핑을 참조하십시오.
+
+1. Workfront 관리자가 우회 URL을 사용하여 Workfront 자격 증명을 사용하여 로그인할 수 있도록 하려면 **관리자 예외**&#x200B;을(를) 선택하십시오.
+
+   `<yourdomain>`.my.workfront.com/login을(를) 가리키는 책갈피는 리디렉션을 무시합니다.
+
+1. 구성을 사용하려면 **사용** 상자를 선택하십시오.
+1. **저장**&#x200B;을 클릭합니다.
+
+## SSO를 위해 사용자 업데이트 기본 정보
+
+이 안내서에 따라 **SSO 사용자 이름**&#x200B;은(는) **Active Directory 사용자 이름**&#x200B;이 됩니다.
+
+Workfront 관리자는 SSO를 위해 사용자를 일괄 업데이트할 수 있습니다. SSO용 사용자 업데이트에 대한 자세한 내용은 [SSO(Single Sign-On)용 사용자 업데이트](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)를 참조하십시오.
+
+Workfront 관리자는 사용자의 프로필을 편집하고 페더레이션 ID 필드를 완성하는 페더레이션 ID를 수동으로 할당할 수도 있습니다. 사용자 편집에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
 >[!NOTE]
 >
->When editing users' profiles to include a Federation ID, selecting **Only Allow SAML 2.0 Authentication** removes the ability to log in to Workfront using the bypass url (`<yourdomain>`.my.workfront.com/login).-->
+>Federation ID를 포함하도록 사용자 프로필을 편집할 때 **SAML 2.0 인증만 허용**&#x200B;을 선택하면 우회 URL(`<yourdomain>`.my.workfront.com/login)을 사용하여 Workfront에 로그인할 수 있는 기능이 제거됩니다.

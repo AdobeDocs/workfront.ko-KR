@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -79,17 +79,16 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
     <col> 
     <col> 
     <tbody> 
-    <!--DELETE THIS SECTION MARCH 2026-->
-     <!-- <tr> 
-     <td role="rowheader"><strong>Create</strong> </td> 
-      <td> <p>Allows users to create users.<br>This option is enabled by default.</p> 
-     <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p>
+     <tr> 
+      <td role="rowheader"><strong>만들기</strong> </td> 
+      <td> <p>사용자가 사용자를 만들 수 있습니다.<br>이 옵션은 기본적으로 사용됩니다.</p> 
+     <p><b>참고</b>: 조직에서 Adobe Admin Console에 온보딩한 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.</p>
         </td>  
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Delete</strong> </td> 
-      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p> </td> 
-     </tr> -->
+      <td role="rowheader"><strong>삭제</strong> </td> 
+      <td> <p> 사용자가 직접 만든 사용자를 삭제할 수 있도록 허용합니다.<br>이 옵션은 기본적으로 사용됩니다.</p> <p><b>참고</b>: 조직에서 Adobe Admin Console에 온보딩한 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.</p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>사용자 관리자(모든 사용자)</strong> </td> 
       <td> <p>사용자가 Workfront의 모든 사용자에 대해 다음 작업을 수행할 수 있습니다.</p> 

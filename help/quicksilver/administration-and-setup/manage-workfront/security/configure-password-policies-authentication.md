@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 33%
+source-wordcount: '705'
+ht-degree: 3%
 
 ---
 
@@ -19,108 +19,105 @@ ht-degree: 33%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+Adobe Workfront 관리자는 암호 정책 옵션을 구성하여 Workfront 시스템에 대한 인증 환경을 사용자 정의할 수 있습니다.
 
-<!--As an Adobe Workfront administrator, you can configure password policy options to customize the authentication experience to your Workfront system.
+Workfront 구현 중에 인증 환경 설정을 구성하고 이후에 가끔씩만 다시 방문하는 것이 좋습니다.
 
-We recommend that you configure authentication preferences during the Workfront implementation and only occasionally revisit them afterward.
+암호 관리 기능이 개선되어 곧 출시될 예정입니다. 이미 조직에서 사용할 수 있습니다. 조직에서 새 인증 환경에 액세스할 수 있는지 여부에 따라 다음 섹션 중 하나를 사용합니다.
 
-Improved password management capabilities are coming soon or might already be available for your organization. Use either of the following sections, depending on whether your organization has access to the new authentication experience.
+## 액세스 요구 사항
 
-## Access requirements
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article: 
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>플랜</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Configure authentication (available for all customers) {#configure-authentication-available-for-all-customers}
+## 인증 구성(모든 고객이 사용 가능) {#configure-authentication-available-for-all-customers}
 
-Authentication options are displayed for all customers. Improved password management capabilities are coming soon or might already be available for your organization, as described in the section [Configure enhanced authentication)](#configure-enhanced-authentication-coming-soon) in this article.
+모든 고객에 대해 인증 옵션이 표시됩니다. 이 문서의 [향상된 인증 구성)](#configure-enhanced-authentication-coming-soon) 섹션에 설명된 대로 암호 관리 기능이 개선되어 곧 출시되거나 조직에서 이미 사용할 수 있습니다.
 
-To configure authentication preferences:
+인증 기본 설정을 구성하려면 다음을 수행합니다.
 
 {{step-1-to-setup}}
 
-1. Click **System** > **Authentication**.
+1. **시스템** > **인증**&#x200B;을 클릭합니다.
 
-1. Select any of the following fields to establish the authentication settings for your organization:
+1. 다음 필드 중 하나를 선택하여 조직에 대한 인증 설정을 설정합니다.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Force users to reset their password every <em>&lt;value&gt;</em> days</td> 
-      <td>This establishes the time frame for users to reset their Workfront password. By default, this option is disabled. When you enable it, you can choose between 30, 60, 90, 120, 180 days. The default is 30 days.</td> 
+      <td role="rowheader">사용자가 <em>&lt;값&gt;</em>일마다 암호를 재설정하도록 강제 설정</td> 
+      <td>이렇게 하면 사용자가 Workfront 암호를 재설정할 수 있는 시간대가 설정됩니다. 기본적으로 이 옵션은 비활성화되어 있습니다. 활성화하면 30일, 60일, 90일, 120일, 180일 중에서 선택할 수 있습니다. 기본값은 30일입니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Don't allow users to set the same password as any of their previous <em>&lt;value&gt;</em> passwords</td> 
-      <td> <p>This field prohibits users from reusing passwords for a set number of resets. By default, this field is disabled. When you enable it, you can set this value to 5, 10, or 15 resets before a password can be reused.</p> <p>When this option is selected, users cannot reset their passwords more than one time in a given day</p> </td> 
+      <td role="rowheader">사용자가 이전 <em>&lt;값&gt;</em> 암호와 동일한 암호를 설정하지 못하도록 합니다.</td> 
+      <td> <p>이 필드에서는 사용자가 설정된 재설정 횟수에 대해 암호를 재사용할 수 없습니다. 기본적으로 이 필드는 비활성화되어 있습니다. 이 값을 활성화하면 암호를 재사용하기 전에 이 값을 5, 10 또는 15 재설정으로 설정할 수 있습니다.</p> <p>이 옵션을 선택하면 사용자는 하루에 두 번 이상 암호를 재설정할 수 없습니다</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">If an incorrect password is entered five consecutive times, lock the account for <em>&lt;value&gt;</em> minutes: </td> 
-      <td> <p>Select how long a user will be locked out of Workfront after entering an incorrect password five consecutive times. By default, this option is enabled, and the amount of wait time is 10 minutes. You can lock accounts for 10 minutes, 30 minutes, 1 hour, 8 hours, or 24 hours. </p> <p>Manually resetting the password for the user overrides this default wait value. <br>Users can reset their own passwords when they are locked out via the login screen. For more information about how they can reset their password, if they forgot it, see <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Reset your password</a>.</p> </td> 
+      <td role="rowheader">잘못된 암호를 연속 5회 입력하면 <em>&lt;값&gt;</em>분 동안 계정을 잠급니다. </td> 
+      <td> <p>잘못된 암호를 연속 5회 입력한 후 사용자가 Workfront에서 얼마나 오래 잠길지 선택합니다. 기본적으로 이 옵션이 활성화되어 있으며 대기 시간은 10분입니다. 계정을 10분, 30분, 1시간, 8시간 또는 24시간 동안 잠글 수 있습니다. </p> <p>사용자의 암호를 수동으로 재설정하면 이 기본 대기 값이 무시됩니다. <br>사용자가 로그인 화면을 통해 잠겨 있을 때 암호를 재설정할 수 있습니다. 암호를 잊어버린 경우 암호를 재설정하는 방법에 대한 자세한 내용은 <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">암호 재설정</a>을 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Passwords must contain at least <em>&lt;value&gt;</em> different types of characters:</td> 
-      <td> <p>Determines how strong user passwords are required to be by allowing you to select the number of different types of characters required in your passwords.</p> <p>A recognizable dictionary word cannot be used as a password.<br>By default, Workfront requires that at least 2 of the following are present in passwords (you can also require 3 of these characters to be present for a valid password): </p> 
+      <td role="rowheader">암호에는 <em>&lt;값&gt;</em>개 이상의 다른 문자 유형이 포함되어야 합니다.</td> 
+      <td> <p>암호에 필요한 여러 유형의 문자 수를 선택할 수 있도록 하여 사용자 암호가 얼마나 강력해야 하는지 결정합니다.</p> <p>인식할 수 있는 사전의 단어는 암호로 사용할 수 없습니다.<br>기본적으로 Workfront의 암호에는 다음 문자 중 최소 2개가 있어야 합니다(올바른 암호를 위해 이 문자 중 3개가 있어야 할 수도 있음). </p> 
        <ul> 
-        <li>Uppercase characters</li> 
-        <li>Lowercase characters</li> 
-        <li>Numbers</li> 
-        <li>Symbols</li> 
+        <li>대문자</li> 
+        <li>소문자</li> 
+        <li>숫자</li> 
+        <li>기호</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click **Save**.
+1. **저장**&#x200B;을 클릭합니다.
 
-## Configure enhanced authentication{#configure-enhanced-authentication-coming-soon}
+## 향상된 인증 구성{#configure-enhanced-authentication-coming-soon}
 
-This section describes the enhanced authentication experience, which might not yet be available for your organization. If your organization has not been migrated to the new authentication experience, you must configure the authentication settings, as described in [Configure authentication (available for all customers)](#configure-authentication-available-for-all-customers).
+이 섹션에서는 조직에서 아직 사용할 수 없는 향상된 인증 환경에 대해 설명합니다. 조직이 새 인증 환경으로 마이그레이션되지 않은 경우 [인증 구성(모든 고객이 사용 가능)](#configure-authentication-available-for-all-customers)에 설명된 대로 인증 설정을 구성해야 합니다.
 
-To configure enhanced authentication preferences:
+향상된 인증 기본 설정을 구성하려면 다음을 수행하십시오.
 
 {{step-1-to-setup}}
 
-1. Click **System** > **Enhanced Authentication**.
-1. In the **Password Length** box, enter the minimum number of characters required for a valid password.
+1. **시스템** > **향상된 인증**&#x200B;을 클릭합니다.
+1. **암호 길이** 상자에 올바른 암호에 필요한 최소 문자 수를 입력합니다.
 
-   Workfront requires at least 6 characters.
+   Workfront에는 최소 6자가 필요합니다.
 
-1. (Optional) In the **Password Requirements** section, select the types of characters required in user passwords.
+1. (선택 사항) **암호 요구 사항** 섹션에서 사용자 암호에 필요한 문자 유형을 선택합니다.
 
-   You can increase the strength of user passwords by requiring any or all the types of characters in the Password Requirement section. The following options are available:
+   [암호 요구 사항] 섹션에서 일부 또는 모든 유형의 문자를 요구하여 사용자 암호의 강도를 높일 수 있습니다. 다음 옵션을 사용할 수 있습니다.
 
-   | Lowercase Letters |Require at least one lowercase letter |
+   | 소문자 | 소문자가 하나 이상 필요함 |
    |---|---|
-   | Uppercase Letters |Require at least one uppercase letter |
-   | Numbers |Require at least one number |
-   | Special Characters |Require at least one special character |
+   | 대문자 | 대문자가 하나 이상 필요합니다. |
+   | 숫자 | 하나 이상의 숫자 필요 |
+   | 특수 문자 | 특수 문자가 하나 이상 필요합니다. |
 
    {style="table-layout:auto"}
 
-1. Click **Save**.
--->
+1. **저장**&#x200B;을 클릭합니다.

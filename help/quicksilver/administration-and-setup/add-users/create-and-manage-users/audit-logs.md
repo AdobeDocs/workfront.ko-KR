@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -252,24 +252,19 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 
 작업 역할 구성에 대한 자세한 내용은 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
 
-<!--DELETE THIS SECTION MARCH 2026-->
+### 로그인 시도 {#login-attempt}
 
-<!--
-### Login Attempt {#login-attempt}
+사용자가 다음 작업 중 하나를 수행하면 시스템에서 로그인 시도 감사 로그 항목을 생성합니다.
 
-The system generates a Login Attempt audit log entry when a user does one of the following actions:
+* Workfront(브라우저 및 모바일 앱)에서 로그인하거나 로그아웃하거나 로그인에 실패합니다.
+* 모든 Workfront 통합(예: Slack용 Workfront)에서 로그인하거나 로그아웃하거나 로그인 시도에 실패합니다.
+* Workfront API에 로그인하거나 로그아웃합니다.
 
-* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
-* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
-* Logs in or logs out of the Workfront API
-
-Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+Workfront 관리자가 다음으로 로그인 기능을 사용하는 경우 로그인 시도 로그가 기록되지 않습니다.
 
 >[!NOTE]
 >
->This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
-
--->
+>조직이 Adobe Admin Console에 온보딩된 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
 
 ### 우선순위 {#priority}
 
@@ -350,17 +345,21 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 
 ### 사용자 {#user}
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
-The system generates a User audit log entry when a user does one of the following actions:
+사용자가 다음 작업 중 하나를 수행하면 시스템이 사용자 감사 로그 항목을 생성합니다.
 
-* Creates a user
+* 사용자 만들기
+
+  <!--
+  DRAFTED IN FLARE:
+  Gevorg checking with Jonah on whether this note should be here:
+  
+  -->
 
   >[!NOTE]
   >
-  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+  >조직이 Adobe Admin Console에 온보딩된 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
 
-* Deletes a user
-* Changes a user's access level, company, team, or group
-* Activates a user
-* Deactivates a user-->
+* 사용자를 삭제합니다.
+* 사용자의 액세스 수준, 회사, 팀 또는 그룹 변경
+* 사용자 활성화
+* 사용자 비활성화

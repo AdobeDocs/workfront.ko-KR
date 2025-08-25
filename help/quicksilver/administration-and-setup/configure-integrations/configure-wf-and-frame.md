@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ Workfront 관리자는 설정 영역에서 기본 Frame.io 계정을 구성한 �
 
 ## 액세스 요구 사항
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
 >[!IMPORTANT]
 >
->This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].-->
+>이 기능은 [!DNL Adobe Admin Console]에 온보딩된 조직에서만 사용할 수 있습니다.
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
@@ -100,7 +98,7 @@ Frame.io 사용자를 활성화하려면:
 {{step-1-to-users}}
 
 1. 사용자를 한 명 이상 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
-1. 액세스 섹션에서 Frame.io의 프로젝트에 추가 확인란을 활성화한 다음 드롭다운 메뉴에서 **예**&#x200B;를 선택합니다.
+1. 액세스 섹션에서 Frame.io의 프로젝트에 추가 확인란을 활성화한 다음 드롭다운 메뉴에서 **예**를 선택합니다.
    ![프레임 프로젝트에 추가](assets/add-to-frame-project.png)
 
    >[!NOTE]
