@@ -55,15 +55,15 @@ ht-degree: 0%
 
 * [ [!DNL Adobe Admin Console] 준비](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
 * [플랫폼 기반 관리의 차이점([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-* [[!DNL Adobe Admin Console] 개요](https://helpx.adobe.com/enterprise/using/admin-console.html)
+* [[!DNL Adobe Admin Console] 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)
 
 ### 마이그레이션을 용이하게 하기 위해 고객에게 필요한 것은 무엇입니까?
 
 마이그레이션을 예약하려면 기존 고객에게 연락해야 합니다. 마이그레이션 팀 지원 동료는 고객에게 프로세스를 안내하고, [!DNL Admin Console] 설정에 대해 조언하며, 가능한 한 단순하고 간편한 이동에 필요한 설명서 링크를 제공합니다.
 
-* [[!DNL Adobe Workfront] 지원 개요](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] 정보](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] 및 [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] 지원 개요](https://experienceleague.adobe.com/ko/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] 정보](https://experienceleague.adobe.com/ko/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] 및 [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/ko/docs/customer-one/using/workfront/faq)
 
 ### SSO가 설정된 [!DNL Adobe Admin Console]과(와) 다른 Federated ID에 대해 이 기능이 이미 활성화되어 있는 회사의 [!DNL Workfront]을(를) 어떻게 처리하시겠습니까?
 
