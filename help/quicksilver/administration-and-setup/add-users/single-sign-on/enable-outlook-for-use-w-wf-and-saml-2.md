@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 9fa4f85c914121adddcba4189af1398021544776
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -25,16 +25,15 @@ ht-degree: 0%
 >
 >이 변경의 일부로 Microsoft은 토큰이 다시 활성화되는 방식을 변경하기로 결정했습니다. **2025년 6월 30일** 이후에는 관리자가 더 이상 토큰을 직접 다시 활성화할 수 없습니다. Microsoft 지원에서만 예외를 허용할 수 있습니다. **2025년 10월 1일부터 모든 테넌트에 대해 레거시 토큰이 꺼집니다. 예외가 부여되지 않습니다.**
 
-<!--DELETE ME MARCH 2026-->
-
 SAML 2.0 인증을 사용하도록 설정하고 사용자가 SAML 2.0 자격 증명을 사용하여 Microsoft Outlook에서 Workfront에 로그인할 수 있도록 하려면 Office 추가 기능에서 인증하도록 SAML 2.0을 사용하도록 설정해야 합니다.
 
 >[!NOTE]
 >
->조직의 Workfront 인스턴스가 사용자 정의 SSO 포털을 사용하는 경우에는 사용할 수 없습니다.
->&#x200B;>자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
-<!--
-or is enabled with Adobe IMS-->
+>조직의 Workfront 인스턴스가 사용자 정의 SSO 포털을 사용하는 경우에는 사용할 수 없습니다.>
+><!--
+>or is enabled with Adobe IMS>
+>-->
+>자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
 
 ## 액세스 요구 사항
 

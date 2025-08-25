@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 3%
+source-wordcount: '951'
+ht-degree: 5%
 
 ---
 
@@ -110,32 +110,32 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
      <tr> 
       <td role="rowheader">외부 사용자가 암호로 등록해야 함</td> 
       <td> <p>외부 사용자가 Workfront에서 항목을 볼 수 있으려면 먼저 등록해야 합니다. 기본적으로 이 옵션은 비활성화되어 있습니다. 이 옵션을 활성화하면 이메일 주소로 특정 업데이트에 포함된 Workfront 계정이 없는 사람에게 포함된 항목을 보기 전에 계정을 만들라는 메시지가 표시됩니다. 그러면 해당 사용자에 대한 외부 사용자 계정이 생성됩니다.</p> <p>이 옵션은 기본적으로 비활성화되어 있습니다.</p> </td> 
-     </tr>
-<!-- DELETE THIS SECTION MARCH 2026   <tr> 
-      <td role="rowheader">Automatically log users out after</td> 
-      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">다음 시간 후 자동으로 사용자 로그아웃</td> 
+      <td> 사용자가 비활성 기간 후 Workfront에서 로그아웃할 시기를 지정할 수 있습니다. 기본적으로 사용자는 8시간 동안 활동이 없으면 로그아웃됩니다. <p>이 옵션은 SSO(Single Sign-On) 솔루션을 사용하는 Workfront 고객에게도 영향을 줍니다.</p> <p>Adobe IMS로 마이그레이션한 조직에서는 이 설정을 사용할 수 없습니다.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">다음 시간 후 자동으로 모바일 사용자 로그아웃 </td> 
+      <td>사용자가 비활성 기간 후 Workfront 애플리케이션에서 로그아웃하는 시간을 지정할 수 있습니다. 기본적으로 사용자는 7일 동안 활동이 없으면 로그아웃됩니다. <p>이 옵션은 SSO(Single Sign-On) 솔루션을 사용하는 Workfront 고객에게도 영향을 줍니다.</p> <p>Adobe IMS로 마이그레이션한 조직에서는 이 설정을 사용할 수 없습니다.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">사용자 정의 도움말 URL</td> 
+      <td>메인 메뉴 도움말 아이콘이 이동할 내부 사용자 정의 도움말 사이트를 정의할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">사용자 지정 도움말 URL 구성</a>을 참조하십시오.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Automatically log mobile users out after </td> 
-      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
-     </tr>  -->
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;>사용자 정의 도움말 URL&lt;/td>
-    &lt;td>기본 메뉴 도움말 아이콘이 이동할 내부 사용자 정의 도움말 사이트를 정의할 수 있습니다. 자세한 내용은 &lt;a href=&quot;/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md&quot;>사용자 정의 도움말 URL 구성&lt;/a>을 참조하십시오.&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;>시스템의 사용자는 기본적으로 새 홈 환경을 볼 수 있습니다. &lt;/td>
-    &lt;td>기본적으로 새 홈 환경을 볼 것인지 여부를 지정할 수 있습니다. 활성화하면 기본적으로 새 홈 환경이 표시되지만, 개별적으로 새 홈을 활성화하거나 비활성화하도록 선택할 수 있습니다. 비활성화하면 새 홈으로 전환할 수 있는 배너가 표시되지 않지만 인스턴스 URL 끝에 &lt;code>/home/workspaces&lt;/code>를 수동으로 입력하여 새 홈 페이지로 이동할 수 있습니다. 이 설정은 기본적으로 활성화되어 있습니다.&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;>우선 순위 작업 목록 활성화 &lt;/td>
-    &lt;td>사용자를 위해 우선 순위 작업 목록 환경을 활성화하거나 비활성화하도록 선택할 수 있습니다. 사용자는 Workfront에 우선순위 아이콘을 계속 볼 수 있지만 기능에 액세스할 수는 없습니다. 우선 순위에 대한 자세한 내용은 &lt;a href=&quot;/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md&quot;>우선 순위 시작&lt;/a>을 참조하십시오.&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;>테스트 환경&lt;/td>
-    &lt;td>Workfront 테스트 환경에 액세스할 수 있습니다. 자세한 내용은 &lt;a href=&quot;/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md&quot;>Adobe Workfront 미리보기 샌드박스 환경&lt;/a>을 참조하십시오.&lt;/p>&lt;/td>
-    &lt;/tbody>
-</table>
+      <td role="rowheader">시스템의 사용자는 기본적으로 새 홈 환경을 볼 수 있습니다. </td> 
+      <td>기본적으로 사용자에게 새 홈 환경이 표시되는지 여부를 지정할 수 있습니다. 활성화하면 기본적으로 새 홈 환경이 표시되지만, 개별적으로 새 홈을 활성화하거나 비활성화하도록 선택할 수 있습니다. 비활성화하면 새 홈으로 전환할 수 있는 배너가 표시되지 않지만 인스턴스 URL 끝에 <code>/home/workspaces</code>을(를) 수동으로 입력하여 새 홈 페이지로 이동할 수 있습니다. 이 설정은 기본적으로 활성화되어 있습니다.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">우선 순위 작업 목록 활성화 </td> 
+      <td>사용자에 대해 우선 순위 작업 목록 환경을 활성화하거나 비활성화하도록 선택할 수 있습니다. 사용자는 Workfront에 우선순위 아이콘을 계속 볼 수 있지만 기능에 액세스할 수는 없습니다. 우선 순위에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">우선 순위 시작</a>을 참조하세요.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">테스트 환경</td> 
+      <td>Workfront 테스트 환경에 액세스할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Adobe Workfront 미리 보기 샌드박스 환경</a>을 참조하십시오.</p></td> 
+    </tbody> 
+   </table>
 
 1. **저장**&#x200B;을 클릭합니다.
 

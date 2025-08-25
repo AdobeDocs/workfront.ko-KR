@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 2%
+source-wordcount: '294'
+ht-degree: 3%
 
 ---
 
@@ -24,15 +24,13 @@ ht-degree: 2%
 
 ### 답변
 
-도메인 간 환경 프로모션은 현재 지원되지 않습니다. 동일한 도메인에 있는 환경 간에 프로모션해야 합니다.—>
+도메인 간 환경 프로모션은 현재 지원되지 않습니다. 동일한 도메인에 있는 환경 간에 프로모션해야 합니다.
 
-<!--DELETE THIS SECTION MARCH 2026-->
+## Adobe Business Platform/IMS가 환경 프로모션의 전제 조건입니까?
 
-<!--## Is the Adobe Business Platform / IMS a prerequisite for environment promotion?
+### 답변
 
-### Answer
-
-No. Environment Promotion is available for both IMS-enabled and non-IMS Workfront instances.-->
+아니요. 환경 프로모션은 IMS 지원 인스턴스와 IMS가 아닌 Workfront 인스턴스 둘 다에 사용할 수 있습니다.
 
 ## Workfront 인스턴스가 Prime 또는 Ultimate 라이선스에 있는지 어떻게 확인할 수 있습니까?
 
@@ -42,7 +40,7 @@ No. Environment Promotion is available for both IMS-enabled and non-IMS Workfron
 
    1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
    1. 왼쪽 패널에서 **시스템** 클릭
-   1. Workfront 플랜을 보려면 **라이선스**&#x200B;를 선택하세요.
+   1. Workfront 플랜을 보려면 **라이선스**를 선택하세요.
 플랜이 페이지의 오른쪽 상단 근처에 표시됩니다.
       ![계획 찾기](assets/locate-plan.png)
 

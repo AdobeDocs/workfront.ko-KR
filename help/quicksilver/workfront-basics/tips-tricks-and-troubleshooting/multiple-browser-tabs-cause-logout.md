@@ -5,14 +5,18 @@ title: 여러 브라우저 탭으로 인해 Workfront이 로그아웃됨
 description: 사용자가 여러 개의 브라우저 탭을 열어 놓은 경우 Workfront에서 자동으로 로그아웃될 수 있습니다.
 feature: Get Started with Workfront
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 32%
+source-wordcount: '178'
+ht-degree: 29%
 
 ---
 
 # 여러 브라우저 탭으로 인해 Workfront이 로그아웃됨
+
+>[!IMPORTANT]
+>
+>이 문제는 Adobe IMS에 온보딩된 조직에만 적용됩니다.
 
 ## 문제
 
