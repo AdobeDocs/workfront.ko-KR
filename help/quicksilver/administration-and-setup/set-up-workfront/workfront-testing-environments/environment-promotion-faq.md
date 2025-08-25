@@ -40,7 +40,7 @@ ht-degree: 3%
 
    1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
    1. 왼쪽 패널에서 **시스템** 클릭
-   1. Workfront 플랜을 보려면 **라이선스**를 선택하세요.
+   1. Workfront 플랜을 보려면 **라이선스**&#x200B;를 선택하세요.
 플랜이 페이지의 오른쪽 상단 근처에 표시됩니다.
       ![계획 찾기](assets/locate-plan.png)
 
