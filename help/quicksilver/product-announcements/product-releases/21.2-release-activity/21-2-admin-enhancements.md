@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 * 프로젝트 환경 설정을 변경하거나 사용자 정의 분기를 만들거나 삭제합니다.
 * 작업 및 문제 환경 설정 변경
 
-자세한 내용은 [감사 로그](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)를 참조하십시오.
+자세한 내용은 [감사 로그 개요](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)를 참조하십시오.
 
 이 기능은 이제 Workfront One의 [새 Workfront 환경을 위한 관리 기본 사항, 2부: 프로젝트 설정](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
 
@@ -137,7 +137,7 @@ Workfront의 현대화된 목록에 대한 자세한 내용은 [목록 표시 �
 
 자세한 내용은 [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)을 참조하십시오.
 
-이 기능은 이제 Workfront One의 새 Workfront 경험, 3부: 제어 및 인터페이스 경험[&#128279;](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)의 관리자 기본 사항에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 새 Workfront 경험, 3부: 제어 및 인터페이스 경험[의 ](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)관리자 기본 사항에 포함되어 있습니다.
 
 ## 관리자용 새로운 기능: 현재 사용자 정의 필드를 사용 중인 보고서를 쉽게 나열
 

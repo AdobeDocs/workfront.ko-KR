@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '791'
 ht-degree: 6%
 
 ---
@@ -105,17 +105,21 @@ ht-degree: 6%
 
    * 텍스트
    * 숫자
-   * 백분율
+   * 비율
    * 통화
    * 태그
-   * 일자
+   * Date
 
   자세한 내용은 문서 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)의 &quot;수식&quot; 섹션을 참조하십시오.
 * 새 수식에서 수식 필드를 참조할 수 있습니다. 공식 필드에서 참조되는 필드에서 값이 업데이트되면 해당 필드를 참조하는 모든 후속 필드 또는 해당 필드가 포함된 공식 필드가 자동으로 업데이트됩니다.
 * 다음과 같은 경우 수식 필드가 `#ERROR!`(으)로 표시될 수 있습니다.
    * 수식에 사용된 필드가 삭제되는 경우.
    * 집계된 조회 필드에 사용된 필드가 `#ERROR!`(으)로 표시되는 경우.
-예를 들어 집계된 조회 수식 필드가 포함된 조회 필드를 표시하는 경우 참조된 수식 필드 중 하나가 `#ERROR!`(으)로 표시됩니다.
+
+     예를 들어 집계된 조회 수식 필드가 포함된 조회 필드를 표시하는 경우 참조된 수식 필드 중 하나가 `#ERROR!`(으)로 표시됩니다.
+   * 수식 값을 선택한 형식으로 표시할 수 없는 경우입니다.
+
+     예를들어 수식 필드의 형식으로 [숫자]를 선택하고 수식에 사용된 필드가 숫자가 아닌 텍스트 값만 표시하는 텍스트 필드인 경우 텍스트를 숫자로 구문 분석할 수 없으므로 수식 결과는 `#ERROR!`으로 표시됩니다.
 
 ## 지원되는 공식
 

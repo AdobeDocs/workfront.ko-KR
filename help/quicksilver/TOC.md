@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: cfec7f1b3001b0fe78534c33c3a10c70f5f64c3f
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '13445'
+source-wordcount: '13449'
 ht-degree: 2%
 
 ---
@@ -489,7 +489,7 @@ ht-degree: 2%
          * [사용자 속성 매핑](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
          * [사용자 비활성화](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
          * [사용자 삭제](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-         * [감사 로그](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+         * [감사 로그 개요](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [감사 로그 보기 및 내보내기](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [사용자 로그인 정보 보기](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console에서 사용자 관리](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
@@ -2069,6 +2069,7 @@ ht-degree: 2%
       * [아키텍처: 문서 인덱스](planning/architecture/architecture-information.md)
       * [작업 공간 개요](planning/architecture/workspaces-overview.md)
       * [작업 공간 만들기](planning/architecture/create-workspaces.md)
+      * [작업 영역 계층 만들기](planning/architecture/create-workspace-hierarchies.md)
       * [레코드 유형 개요](planning/architecture/overview-of-record-types.md)
       * [레코드 유형 만들기](planning/architecture/create-record-types.md)
       * [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 유형 만들기](planning/architecture/import-file-to-create-record-types.md)
@@ -2168,7 +2169,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)

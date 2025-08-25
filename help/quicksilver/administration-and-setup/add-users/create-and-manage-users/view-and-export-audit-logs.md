@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 감사 로그에는 지난 90일 동안 시스템에서 트리거된 사용자 변경 사항이 나와 있습니다.
 
-모든 감사 로그 형식과 이를 생성하는 방법에 대한 자세한 내용은 [감사 로그](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)를 참조하십시오.
+모든 감사 로그 형식과 이를 생성하는 방법에 대한 자세한 내용은 [감사 로그 개요](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
    기본적으로 **모든 로그 유형**&#x200B;이 선택됩니다.
 
-   볼 수 있는 모든 감사 로그 형식 목록과 여기에 포함된 정보는 [감사 로그](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)를 참조하십시오.
+   볼 수 있는 모든 감사 로그 형식 목록과 여기에 포함된 정보는 [감사 로그 개요](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)를 참조하십시오.
 
 1. (선택 사항) 다음 필드에 사용할 수 있는 필터를 설정합니다.
 

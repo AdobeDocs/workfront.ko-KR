@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 * [사용자 특성 매핑 및 새 사용자 자동 프로비저닝](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
 * [사용자 비활성화 또는 다시 활성화](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [사용자 삭제](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-* [감사 로그](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* [감사 로그 개요](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [감사 로그 보기 및 내보내기](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [사용자 로그인 정보 보기](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Adobe Admin Console에서 사용자 관리](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
