@@ -4,18 +4,15 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 여러 브라우저 탭으로 인해 Workfront이 로그아웃됨
 description: 사용자가 여러 개의 브라우저 탭을 열어 놓은 경우 Workfront에서 자동으로 로그아웃될 수 있습니다.
 feature: Get Started with Workfront
-source-git-commit: ef85b267b3417dddd0c9cc4a2b916b83dc416e14
+exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 7%
+source-wordcount: '164'
+ht-degree: 32%
 
 ---
 
 # 여러 브라우저 탭으로 인해 Workfront이 로그아웃됨
-
->[!IMPORTANT]
->
->이 문제는 Adobe IMS에 온보딩된 조직에만 적용됩니다.
 
 ## 문제
 
@@ -34,6 +31,6 @@ This tab session has been halted due to inactivity. Refresh the tab to continue 
 
 해결 방법은 Workfront에 로그인한 다른 탭에서 활성화했는지 여부에 따라 다릅니다.
 
-* 활성 Workfront 탭이 열려 있는 경우 만료된 탭을 다시 로드합니다. 만료되기 전에 열었던 페이지로 돌아갑니다.
+* 열려 있는 활성 Workfront 탭이 있는 경우 만료된 탭을 다시 로드하십시오. 그러면 만료되기 전에 열었던 페이지로 돌아갑니다.
 
-* 활성 Workfront 탭이 열려 있지 않으면 Workfront에 다시 로그인하십시오.
+* 열려 있는 활성 Workfront 탭이 없는 경우 Workfront에 다시 로그인하십시오.

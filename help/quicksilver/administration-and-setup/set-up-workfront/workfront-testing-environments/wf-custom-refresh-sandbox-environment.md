@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1669'
 ht-degree: 0%
 
 ---
@@ -190,15 +190,22 @@ URL을 사용하여 사용자 지정 새로 고침 샌드박스에 액세스하�
 
 ## 사용자 지정 새로 고침 샌드박스에서 Single Sign-On 구성
 
-단일 사인온 솔루션에서 작동하도록 사용자 지정 새로 고침 샌드박스를 구성하려면 프로덕션 환경과 별도로 구성하여 이 작업을 수행할 수 있습니다. 사용자 정의 새로 고침 샌드박스의 SSO 구성은 프로덕션 환경의 SSO 구성과 독립적입니다.\
-사용자 정의 새로 고침 샌드박스를 새로 고칠 때 SSO 정보는 프로덕션 환경에서 복사되어 사용자 정의 새로 고침 샌드박스 구성을 덮어쓰지 않습니다.
+>[!IMPORTANT]
+>
+>이 섹션에 설명된 절차는 Adobe Admin Console에 아직 온보딩되지 않은 조직에만 적용되므로 제거되었습니다.
+>
+>이제 모든 Workfront 조직이 Adobe Admin Console에 온보딩되었습니다.
 
-사용자 지정 새로 고침 샌드박스에서 SSO(Single Sign-On)를 구성하는 단계는 프로덕션 환경에서 구성하는 단계와 유사합니다.\
-SSO를 사용하여 [!DNL Workfront]을(를) 구성하는 방법에 대한 자세한 내용은 [Adobe Workfront의 Single Sign-On 개요](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)를 참조하십시오.
+<!--If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
+When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
+
+The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->조직의 [!DNL Workfront] 인스턴스가 Adobe IMS에서 활성화된 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
+>This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+-->
 
 ## 프로젝트 타임라인 자동 재계산
 

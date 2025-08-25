@@ -5,9 +5,9 @@ description: AI를 사용하여 프롬프트를 입력하거나 문서를 제공
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1091'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ AI는 사용자가 입력하는 프롬프트에 따라 요청 필드를 자동�
 
 프롬프트 또는 문서를 사용하여 요청을 자동으로 채우려면 다음 중 **모두**&#x200B;을(를) 적용해야 합니다.
 
-* 조직이 Adobe IMS(Identity Management System)로 마이그레이션되었어야 합니다.
+* 조직은 Adobe IMS(Identity Management 시스템)를 사용해야 합니다.
 * Adobe 통합 경험을 활성화해야 합니다.
 * 조직에 Select, Prime 또는 Ultimate Workfront 플랜이 있어야 합니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
