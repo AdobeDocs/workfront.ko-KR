@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 619bc09a226c6023ff653557dc6e049b2d177722
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '609'
 ht-degree: 4%
 
 ---
@@ -55,7 +55,7 @@ AI 검토자는 다음 파일 유형을 검토할 수 있습니다.
 
 ## 브랜드 지침 설정
 
-Workfront AI 검토자는 콘텐츠를 검토할 때 성능 마케팅을 위해 Genstudio에 설정된 브랜드 지침을 사용합니다. 현재는 이미지에 대한 브랜드 가이드라인만 설정할 수 있습니다. 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
+Workfront AI 검토자는 콘텐츠를 검토할 때 Genstudio Foundations에 설정된 브랜드 지침을 사용합니다. 현재는 이미지에 대한 브랜드 가이드라인만 설정할 수 있습니다. 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
 
 
 ## AI 검토자 만들기
