@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 관리자가 새 사용자를 만들 때 새 사
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
 
 [!DNL Workfront] 관리자가 새 사용자를 만들 때 새 사용자는 다음과 같은 몇 가지 요인에 따라 초대 이메일을 받을 수 있습니다.
 
+* 사용자의 조직이 [!DNL Adobe Admin Console]에 온보딩되었는지 여부
 * 사용자가 [!DNL Workfront]에 추가되었는지 또는 [!DNL Admin Console]에 추가되었는지 여부
 * 사용자가 다른 [!DNL Adobe] 제품에 액세스할 수 있는지 아니면 새 [!DNL Adobe] 사용자인지 여부
 * 관리자가 사용자에게 전자 메일 초대를 보내도록 선택했는지 여부(아직 [!DNL Admin Console]에 없는 조직에만 적용됨)
@@ -56,7 +57,7 @@ Workfront 관리자가 [!DNL Adobe Workfront]에 새 사용자를 추가하는 �
 
 >[!NOTE]
 >
->전자 메일의 링크는 [!UICONTROL &#x200B; 관리자가 &#x200B;]초대[!UICONTROL &#x200B; 페이지의 &#x200B;]일반 옵션[!DNL Workfront] 영역에 지정한 일수만 유효합니다.
+>전자 메일의 링크는 [!UICONTROL  관리자가 ]초대[!UICONTROL  페이지의 ]일반 옵션[!DNL Workfront] 영역에 지정한 일수만 유효합니다.
 
 초대 전자 메일을 사용하여 [!DNL Workfront]의 암호를 만드는 방법:
 

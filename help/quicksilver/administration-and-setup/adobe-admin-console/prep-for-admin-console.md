@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,11 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-<!--DELETE ME MARCH 2026-->
-
->[!IMPORTANT]
->
->이제 모든 조직이 Adobe Admin Console으로 마이그레이션되었으므로 이 문서는 가까운 시일 내에 제거됩니다.
-
 Adobe Workfront은 Adobe 제품이므로 Adobe Admin Console을 통해 액세스할 수 있습니다. 이를 통해 Workfront을 다른 Adobe 계정 및 제품과 함께 중앙 위치에서 관리할 수 있습니다.
 
 모든 Workfront 고객은 결국 Adobe Admin Console으로 이동됩니다. 조직이 Adobe Admin Console으로 이동하면 Workfront 인증이 콘솔에서 관리됩니다. 이러한 조치를 보다 빨리 준비하고 이행하면 향후 보다 빠른 혁신을 위해 작업 관리의 효율성을 높이고 조직을 포지셔닝할 수 있는 토대가 마련됩니다
 
-Adobe Admin Console에 대한 개요는 [Admin Console 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)를 참조하십시오.
+Adobe Admin Console에 대한 개요는 [Admin Console 개요](https://helpx.adobe.com/enterprise/using/admin-console.html)를 참조하십시오.
 
 ## 마이그레이션 검사 목록
 
@@ -51,7 +45,7 @@ Adobe Admin Console에 대한 개요는 [Admin Console 개요](https://helpx.ado
    >
    >SSO(Single Sign-On) 또는 SSO 이외 인증 환경 설정과 같은 인증 환경 설정에 대해 Workfront 지원 센터 및 IT 팀과 논의할 준비를 하십시오.
 
-   자세한 내용은 Adobe Admin Console용 [배포 안내서](https://helpx.adobe.com/kr/enterprise/using/deployment-planning.html)의 Identity Management 섹션을 참조하십시오.
+   자세한 내용은 Adobe Admin Console용 [배포 안내서](https://helpx.adobe.com/enterprise/using/deployment-planning.html)의 Identity Management 섹션을 참조하십시오.
 
 1. (조건부) SSO(Single Sign-On)를 사용하는 경우, 새 Adobe Admin Console을 기존 SSO 공급자에 연결합니다.
 

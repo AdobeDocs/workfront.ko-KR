@@ -9,22 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront SAML 2.0 메타데이터 인증서 갱신
-
->[!IMPORTANT]
->
->이 페이지에 설명된 절차는 Adobe Admin Console에 아직 온보딩되지 않은 조직에만 적용되므로 제거되었습니다. Adobe Admin Console의 조직에는 이 절차가 필요하지 않습니다.
->
->이제 모든 Workfront 조직이 Adobe Admin Console에 온보딩되었으므로 이 문서는 가까운 시일 내에 제거됩니다.
-
-<!--DELETE ME MARCH 2026-->
 
 >[!IMPORTANT]
 >
