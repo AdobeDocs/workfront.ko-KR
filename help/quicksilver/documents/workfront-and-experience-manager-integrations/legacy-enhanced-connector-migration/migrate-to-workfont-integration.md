@@ -2,20 +2,20 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 기존 또는 향상된 커넥터에서 Adobe Experience Manager as a Cloud Service 통합을 위한 Workfront으로 마이그레이션
-description: 이 페이지의 정보에서는 Workfront for Experience Cloud 강화 또는 레거시 커넥터에서 Workfront 및 Adobe Experience Manager Assetsas a Cloud Service 를 연결하는 최신 기본 커넥터로 이동하는 모범 사례를 설명합니다.
+description: 이 페이지의 정보에서는 Workfront for Experience Cloud 강화 또는 레거시 커넥터에서 Workfront 및 Adobe Experience Manager Assets as a Cloud Service을 연결하는 최신 기본 통합으로 이동하는 모범 사례를 설명합니다.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: af14f408-df39-473c-9e18-bb88022c96ed
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
 # 기존 또는 향상된 커넥터에서 Adobe Experience Manager as a Cloud Service 통합을 위한 Workfront으로 마이그레이션
 
-이 페이지의 정보에서는 Workfront for Experience Cloud 강화 또는 레거시 커넥터에서 Workfront 및 Adobe Experience Manager Assetsas a Cloud Service 를 연결하는 최신 기본 커넥터로 이동하는 모범 사례를 설명합니다.
+이 페이지의 정보에서는 Workfront for Experience Cloud 강화 또는 레거시 커넥터에서 Workfront 및 Adobe Experience Manager Assets as a Cloud Service을 연결하는 최신 기본 통합으로 이동하는 모범 사례를 설명합니다.
 
 >[!IMPORTANT]
 >
@@ -23,18 +23,27 @@ ht-degree: 0%
 
 ## Workfront 인스턴스를 Admin Console으로 이동
 
-Workfront과 Adobe Experience Manager Assets as a Cloud Service 간의 새로운 기본 통합을 사용하려는 고객은 Workfront 환경을 Adobe Admin Console에 연결해야 합니다. 기존 Workfront 환경의 경우 연결된 Adobe Admin Console으로 환경을 마이그레이션해야 할 수 있습니다. 이 마이그레이션 및 관련 검사 목록에 대한 자세한 내용은 [Adobe Admin Console에 조직을 온보딩하기 위한 준비](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)를 참조하십시오.
+>[!IMPORTANT]
+>
+>모든 Workfront 조직이 Adobe Admin Console으로 마이그레이션되었으므로 이 섹션은 가까운 미래에 제거됩니다.
 
-Adobe은 이 마이그레이션을 수행하는 데 도움이 되어야 합니다. 도움말을 요청하려면 다음 중 하나를 수행하십시오.
+<!--DELETE THIS SECTION MARCH 2026-->
 
-* Workfront Hub 액세스 권한이 있는 경우 [Adobe Admin Console으로 Workfront 마이그레이션](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&amp;projectID=629674d500054a38133cf26e01d06a97&amp;path=)에 요청을 제출하십시오.
-* Workfront Hub 액세스 권한이 없는 경우 [Adobe Admin Console에서 Workfront 조기 마이그레이션 요청 큐](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi)로 요청을 제출할 수 있습니다.
+<!--
+Customers that intend to use the new native integration between Workfront and Adobe Experience Manager Assets as a Cloud Service must ensure their Workfront environment is tied to an Adobe Admin Console. For existing Workfront environments, this will likely require a migration of the environment to a connected Adobe Admin Console. For more details regarding this migration and the associated checklist, see [Prepare to onboard your organization to the Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md). 
 
-## Adobe Experience Manager as a Cloud Service 에셋용 새 Workfront 통합 구성
+ Adobe must help carry out this migration. To request help, do one of the following:
+
+* If you have Workfront Hub access, submit your request to the [Workfront Migration to Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=).
+* If you do not have Workfront Hub access, you can submit your request to the [Workfront to Adobe Admin Console Early Migration Request Queue](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
+
+-->
+
+## Adobe Experience Manager assets as a Cloud Service 통합을 위한 새 Workfront 구성
 
 Workfront 환경이 Adobe Admin Console으로 마이그레이션된 후 Workfront 관리자는 새로운 기본 통합을 구성할 수 있습니다. 구성 도움말은 [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)을 참조하십시오.
 
-## 기존 Workfront for Adobe Experience Manager as a Cloud Service assets 통합으로 이동
+## 기존 자산을 Adobe Experience Manager assets as a Cloud Service 통합용 Workfront으로 이동
 
 환경을 구성한 후 연결된 기존 에셋 및 폴더를 Adobe Experience Manager으로 이동할 수 있습니다. 선택적 단계이지만 레거시 또는 향상된 커넥터를 통해 이전에 연결된 폴더 및 자산에 연결된 커넥터를 제거한 후에도 계속 액세스할 수 있습니다.
 

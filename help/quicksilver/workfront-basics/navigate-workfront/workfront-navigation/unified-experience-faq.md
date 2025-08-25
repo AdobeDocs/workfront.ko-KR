@@ -6,22 +6,28 @@ description: ' [!DNL Workfront] 과(와) Adobe Experience Cloud 간에 몇 가�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: f59643eb3722c72fc8cbb5009223af143ac240d8
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Unified Experience] FAQ
 
-[!DNL Workfront]의 [!DNL Adobe Unified Experience]을(를) 사용하면 한 번의 로그인으로 모든 [!DNL Adobe] 응용 프로그램을 한 곳에서 관리할 수 있습니다. [!DNL Adobe] 탐색 영역이 [!DNL Workfront]과(와) 원활하게 통합됩니다. 몇 가지 기능이 서로 다르므로 [!DNL Workfront] 인스턴스가 통합 환경으로 마이그레이션됨에 따라 몇 가지 질문이 있을 수 있습니다.
+>[!IMPORTANT]
+>
+>이제 모든 Workfront 조직이 Adobe Admin Console으로 마이그레이션되었으므로 이 문서는 가까운 시일 내에 제거됩니다.
+
+<!--DELETE ME MARCH 2026-->
+
+[!DNL Adobe Unified Experience]의 [!DNL Workfront]을(를) 사용하면 한 번의 로그인으로 모든 [!DNL Adobe] 응용 프로그램을 한 곳에서 관리할 수 있습니다. [!DNL Adobe] 탐색 영역이 [!DNL Workfront]과(와) 원활하게 통합됩니다. 몇 가지 기능이 서로 다르므로 [!DNL Workfront] 인스턴스가 통합 환경으로 마이그레이션됨에 따라 몇 가지 질문이 있을 수 있습니다.
 
 [!DNL Adobe Unified Experience]에 로그인하는 방법에 대한 자세한 내용은 [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하세요.
 
 ## [!DNL Adobe Unified Experience] 및 [!DNL Workfront only] 경험 비교
 
-[!DNL Adobe Business Platform]/[!DNL Adobe Admin Console]을(를) 사용하는 고객만 [!DNL Adobe Unified Experience]에 액세스할 수 있습니다. 아직 마이그레이션하지 않은 고객은 [!DNL Adobe] 애플리케이션 간에 전환할 수 없는 [!DNL Workfront only] 환경을 보게 됩니다.
+[!DNL Adobe Business Platform]/[!DNL Adobe Admin Console]을(를) 사용하는 고객만 [!DNL Adobe Unified Experience]에 액세스할 수 있습니다. 아직 마이그레이션하지 않은 고객은 [!DNL Workfront only] 애플리케이션 간에 전환할 수 없는 [!DNL Adobe] 환경을 보게 됩니다.
 
 이 표에서는 두 경험 간에 차이점이 있는 몇 가지 기능에 대해 설명합니다.
 
@@ -30,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL [!DNL Workfront] 주 메뉴]은(는) 왼쪽 ![주 메뉴](assets/main-menu-icon-left-nav.png)에 있습니다. | [!UICONTROL [!DNL Workfront] 주 메뉴]은(는) 오른쪽 ![주 메뉴](assets/main-menu-icon.png)에 있습니다. |
 | 모든 [!DNL Adobe Experience Cloud] 응용 프로그램에서 단일 로그인 URL을 사용할 수 있습니다. | 사용자 지정 [!DNL Workfront] URL을 사용하여 [!DNL Workfront]에 로그인합니다. |
 | 조직 전환기를 사용하면 [!DNL Workfront]개의 조직과 환경 간에 이동할 수 있습니다. | 조직 전환기를 사용할 수 없습니다. |
-| 탐색에는 [!DNL Workfront] 탐색 모음 외에 [!DNL Adobe]개 제품, [!DNL Adobe]개 알림, 도움말 및 사용자 프로필에 대한 최상위 탐색 영역이 포함되어 있습니다. | 탐색에는 [!DNL Workfront] 탐색 모음만 포함됩니다. |
+| 탐색에는 [!DNL Adobe] 탐색 모음 외에 [!DNL Adobe]개 제품, [!DNL Workfront]개 알림, 도움말 및 사용자 프로필에 대한 최상위 탐색 영역이 포함되어 있습니다. | 탐색에는 [!DNL Workfront] 탐색 모음만 포함됩니다. |
 | [!UICONTROL 기본 메뉴] 및 위쪽 탐색 영역을 통해 도움말에 액세스할 수 있습니다. | [!UICONTROL 기본 메뉴] 및 [!DNL Workfront] 탐색 모음을 통해 도움말에 액세스할 수 있습니다. |
 | 증명 뷰어가 새 탭에서 열립니다 | 증명 뷰어가 Workfront 내에서 열립니다 |
 | Workfront에 액세스하는 데 사용된 URL은 `experience.adobe.com`입니다. | Workfront에 액세스하는 데 사용된 URL은 `(CompanyName).my.workfront.com`입니다. |
@@ -38,7 +44,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-## FAQ(자주 묻는 질문)
+## 자주 묻는 질문
 
 ### Adobe 통합 경험을 사용하는지 또는 Adobe Workfront을 사용하는지 어떻게 알 수 있습니까?
 
@@ -55,23 +61,23 @@ ht-degree: 0%
 
 * [ [!DNL Adobe Admin Console] 준비](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
 * [플랫폼 기반 관리의 차이점([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-* [[!DNL Adobe Admin Console] 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)
+* [[!DNL Adobe Admin Console] 개요](https://helpx.adobe.com/enterprise/using/admin-console.html)
 
 ### 마이그레이션을 용이하게 하기 위해 고객에게 필요한 것은 무엇입니까?
 
 마이그레이션을 예약하려면 기존 고객에게 연락해야 합니다. 마이그레이션 팀 지원 동료는 고객에게 프로세스를 안내하고, [!DNL Admin Console] 설정에 대해 조언하며, 가능한 한 단순하고 간편한 이동에 필요한 설명서 링크를 제공합니다.
 
-* [[!DNL Adobe Workfront] 지원 개요](https://experienceleague.adobe.com/ko/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] 정보](https://experienceleague.adobe.com/ko/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] 및 [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/ko/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] 지원 개요](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] 정보](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] 및 [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
-### SSO가 설정된 [!DNL Workfront]과(와) 다른 Federated ID에 대해 이 기능이 이미 활성화되어 있는 회사의 [!DNL Adobe Admin Console]을(를) 어떻게 처리하시겠습니까?
+### SSO가 설정된 [!DNL Adobe Admin Console]과(와) 다른 Federated ID에 대해 이 기능이 이미 활성화되어 있는 회사의 [!DNL Workfront]을(를) 어떻게 처리하시겠습니까?
 
-[!DNL Adobe Admin Console]에 [!DNL Workfront]을(를) 포함할 수 있는 옵션이 있습니다. SSO를 Adobe의 IMS(Identity Management System)로 바꿉니다. 모든 사용자 프로비저닝은 [!DNL Admin Console]에서 이루어지며, [!DNL Experience Cloud]에 액세스하기 위한 [!DNL Adobe] 로그인 화면이 표시됩니다. [!DNL Workfront]을(를) 옵션으로 볼 수 있습니다(액세스 권한이 부여된 경우).
+[!DNL Adobe Admin Console]에 [!DNL Workfront]을(를) 포함할 수 있는 옵션이 있습니다. SSO를 Adobe의 IMS(Identity Management System)로 바꿉니다. 모든 사용자 프로비저닝은 [!DNL Admin Console]에서 이루어지며, [!DNL Adobe]에 액세스하기 위한 [!DNL Experience Cloud] 로그인 화면이 표시됩니다. [!DNL Workfront]을(를) 옵션으로 볼 수 있습니다(액세스 권한이 부여된 경우).
 
 ### [!DNL Adobe Assets]에 대해 이미 AEM 관리 패널을 가지고 있지만 SSO가 [!DNL Workfront?]과(와) 다르게 구성된 고객에게 어떤 영향을 미칩니까?
 
-[!DNL Workfront]이(가) [!DNL Admin Console] 응용 프로그램으로 추가되면 [!DNL Adobe Assets]에 대한 기존 SSO 설정을 활용하려면 [!DNL Workfront]에서 다른 작업을 수행하지 않아도 됩니다.
+[!DNL Workfront]이(가) [!DNL Admin Console] 응용 프로그램으로 추가되면 [!DNL Workfront]에 대한 기존 SSO 설정을 활용하려면 [!DNL Adobe Assets]에서 다른 작업을 수행하지 않아도 됩니다.
 
 ### 이 경우 SSO를 통해 설정된 항목에 어떤 영향을 줍니까?
 
@@ -91,7 +97,7 @@ IMS는 SSO를 대체하는 것으로 기능은 대부분 동일합니다. [!DNL 
 
 ### 리디렉션이 비활성화되는 시간이 있습니까? 또는 항상 my.company.workfront.com에 입력할 수 있습니까?
 
-언제든지 사용자 지정 URL을 사용할 수 있습니다. 해당 링크를 클릭하면 [!DNL Workfront]&#x200B;(으)로 이동하며 다른 URL을 표시합니다. 그러나 experience.adobe.com에 로그인하고 [!DNL Experience Cloud] 내에서 링크를 책갈피로 지정하는 것이 더 좋습니다. [!DNL experience] 리디렉션을 줄이면 지연 시간/로드 시간이 줄어듭니다.
+언제든지 사용자 지정 URL을 사용할 수 있습니다. 해당 링크를 클릭하면 [!DNL Workfront]&#x200B;(으)로 이동하며 다른 URL을 표시합니다. 그러나 experience.adobe.com에 로그인하고 [!DNL experience] 내에서 링크를 책갈피로 지정하는 것이 더 좋습니다. [!DNL Experience Cloud] 리디렉션을 줄이면 지연 시간/로드 시간이 줄어듭니다.
 
 ### 요청 대기열로 연결되는 직접 링크가 끊어집니까?
 
@@ -109,17 +115,17 @@ IMS는 SSO를 대체하는 것으로 기능은 대부분 동일합니다. [!DNL 
 
 예. 이에 대한 프로세스가 있으며 조직이 IMS로 이동할 때 자세한 내용이 제공됩니다.
 
-### [!DNL Adobe] 계정이 없는 [!DNL Workfront] 사용자는 어떻게 됩니까?
+### [!DNL Workfront] 계정이 없는 [!DNL Adobe] 사용자는 어떻게 됩니까?
 
 [!DNL Adobe Admin Console]에서 [!DNL Workfront]에 대한 액세스 권한을 부여받지 못한 사용자는 로그인할 수 있도록 &quot;[!UICONTROL 개인 계정]&quot; 또는 [!DNL Adobe] ID 계정을 만들어야 합니다. 이를 통해 관리자에게 이메일을 보내 요청을 승인하거나 거부하고, 관리자가 해당 사용자가 보유한 액세스 유형을 구성할 수 있습니다. 로그인하면 experience.adobe.com으로 이동하여 메일 주소를 입력하고 [!UICONTROL 개인 계정]을 선택합니다. 여기에서 [!DNL Workfront]에 액세스할 수 있습니다.
 
-### [!DNL Workfront?] 이외의 [!DNL Adobe] 제품이 없는 경우 어떻게 합니까?
+### [!DNL Adobe] 이외의 [!DNL Workfront?] 제품이 없는 경우 어떻게 합니까?
 
 조직은 [!DNL Adobe Unified Experience]&#x200B;(으)로 마이그레이션하는 것이 좋습니다. 위에 나열된 혜택과 함께 [!DNL Adobe] ID를 받게 됩니다.
 
 ### [!DNL Workfront] 인스턴스에 외부 사용자가 포함되어 있습니다. [!DNL Adobe]에 포함된 다른 제품에 액세스하지 못하도록 할 수 있습니다. 콘솔 내에서 액세스를 어떻게 제한합니까?
 
-[!DNL Admin Console]은(는) 관리자에게 사용자가 액세스할 수 있는 권한과 액세스할 수 없는 권한을 다양하게 제공합니다. 외부 사용자가 액세스할 때마다 관리자에게 전자 메일을 보내는 [!DNL Adobe] ID를 만들어야 합니다. 그런 다음 관리자는 제품에 대한 액세스를 수락 또는 거부하고 해당 조직이 소유한 제품에 대해 액세스할 수 있거나 액세스할 수 없는 항목을 정의할 수 있습니다. 그런 다음 [!DNL Workfront] 시스템 관리자는 [!DNL Workfront]의 [!UICONTROL 사용자] 영역으로 이동하여 외부 사용자에 대해 더 세분화된 권한을 만들 수 있습니다.
+[!DNL Admin Console]은(는) 관리자에게 사용자가 액세스할 수 있는 권한과 액세스할 수 없는 권한을 다양하게 제공합니다. 외부 사용자가 액세스할 때마다 관리자에게 전자 메일을 보내는 [!DNL Adobe] ID를 만들어야 합니다. 그런 다음 관리자는 제품에 대한 액세스를 수락 또는 거부하고 해당 조직이 소유한 제품에 대해 액세스할 수 있거나 액세스할 수 없는 항목을 정의할 수 있습니다. 그런 다음 [!DNL Workfront] 시스템 관리자는 [!UICONTROL 의 ]사용자[!DNL Workfront] 영역으로 이동하여 외부 사용자에 대해 더 세분화된 권한을 만들 수 있습니다.
 
 ### 그룹 관리자는 [!DNL Workfront]에서 사람을 만드는 데 사용됩니다. [!DNL Experience Cloud]&#x200B;(으)로 이동하면 그룹 관리자가 여전히 사람을 만들 수 있습니까?
 
@@ -139,7 +145,7 @@ IMS는 SSO를 대체하는 것으로 기능은 대부분 동일합니다. [!DNL 
 
 ### [!DNL Creative Cloud]명의 사용자는 어떻습니까? 마이그레이션이 고객에게 어떤 영향을 미칩니까? 그들에게 이점이 있나요?
 
-[!DNL Adobe Unified Experience]&#x200B;(으)로 마이그레이션하는 경우 [!DNL Creative Cloud] 사용자에게 영향을 주지 않습니다.
+[!DNL Creative Cloud]&#x200B;(으)로 마이그레이션하는 경우 [!DNL Adobe Unified Experience] 사용자에게 영향을 주지 않습니다.
 
 ### [!DNL Workfront]명의 모바일 사용자에 대한 로그인이 변경됩니까?
 

@@ -6,7 +6,7 @@ description: 프로젝트 템플릿을 편집하여 향후 프로젝트의 프�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
 source-wordcount: '5045'
 ht-degree: 2%
@@ -147,7 +147,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
          <ul> 
          <li><p><strong>없음</strong></p></li> 
          <li><p><strong>낮음</strong></p></li> 
-         <li><p><strong>보통</strong></p></li> 
+         <li><p><strong>일반</strong></p></li> 
          <li><p><strong>높음</strong></p></li> 
          <li><p><strong>긴급</strong></p></li> 
          </ul><p><p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a>을 참조하십시오.</p></p></td> 
@@ -468,7 +468,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    | 작업 노력 수준 | 백분율 값 |
    |---|---|
    | 소형 | 25% |
-   | 중간 | 50% |
+   | 보통 | 50% |
    | 대형 | 75% |
 
    프로젝트에서 작업 노력을 관리하는 데 작업 노력을 사용하는 방법에 대한 자세한 내용은 [작업 노력 개요](../../../manage-work/tasks/task-information/work-effort.md)를 참조하십시오.
@@ -577,7 +577,6 @@ Linked folder functionality automatically creates folders in Adobe Experience Ma
 
 This section appears only if all of the following apply:
 
-* Your organization has been migrated to the Adobe Admin Console
 * Your organization has enabled and configured an integration with Adobe Experience Manager
 * The template has enabled and configured linked folders.
 
