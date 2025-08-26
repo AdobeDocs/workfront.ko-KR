@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 401d6a25cb23ebd28960ea866e7308142107a891
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1866'
+source-wordcount: '1879'
 ht-degree: 3%
 
 ---
@@ -160,7 +160,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">내 승인 위젯이 이제 기한 </a>을(를) 기준으로 자동으로 정렬됩니다.<p></p>
-            <p>기본적으로 기한(내림차순)별로 정렬하도록 홈의 내 승인 위젯을 업데이트했습니다. 이렇게 하면 가장 긴급한 승인이 목록의 맨 위에 표시됩니다. </p><p><b>참고:</b> 현재 [내 승인] 위젯에서는 [증명 승인]만 기한별로 정렬할 수 있습니다.</p>
+            <p>기본적으로 기한(오름차순)별로 정렬하도록 홈의 내 승인 위젯을 업데이트했습니다. 이렇게 하면 가장 긴급한 승인이 목록의 맨 위에 표시됩니다. 승인은 다음과 같이 순서가 지정됩니다.</p>
+            <ul>
+                <li>기한 초과</li>
+                <li>예정된 기한</li>
+                <li>기한이 없는 항목</li>
+            </ul>
+            <p><b>참고:</b> 현재 [내 승인] 위젯에서는 [증명 승인]만 기한별로 정렬할 수 있습니다.</p>
         </td>
         <td>2025년 5월 29일 금요일</td>
         <td>2025년 6월 12일 금요일</td>
@@ -381,11 +387,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
 
 
 

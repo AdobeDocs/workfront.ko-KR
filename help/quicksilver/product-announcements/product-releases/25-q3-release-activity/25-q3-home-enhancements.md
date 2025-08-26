@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,11 @@ ht-degree: 0%
 >* 프로덕션 빠른 릴리스: 2025년 6월 12일
 >* 모든 고객을 위한 프로덕션: 2025년 7월 17일
 
-기본적으로 기한(내림차순)별로 정렬하도록 홈의 내 승인 위젯을 업데이트했습니다. 이렇게 하면 가장 긴급한 승인이 목록의 맨 위에 표시됩니다.
+기본적으로 기한(오름차순)별로 정렬하도록 홈의 내 승인 위젯을 업데이트했습니다. 이렇게 하면 가장 긴급한 승인이 목록의 맨 위에 표시됩니다. 승인은 다음과 같이 순서가 지정됩니다.
+
+* 기한 초과
+* 예정된 기한
+* 기한이 없는 항목
 
 현재 내 승인 위젯에서는 증명 승인만 기한별로 정렬할 수 있습니다.
 
