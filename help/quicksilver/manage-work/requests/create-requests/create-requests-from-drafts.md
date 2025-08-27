@@ -6,10 +6,10 @@ description: 새 요청을 입력할 때 Workfront에서 제안하는 사용 가
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 1%
+source-wordcount: '599'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>문제에 대한 액세스 편집</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 제품</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Planning 요청 또는 요청 양식을 보려면 Adobe Workfront Planning이 있어야 합니다.</td> 
   </tr> 
  </tbody> 
 </table>

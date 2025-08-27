@@ -6,10 +6,10 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 1%
+source-wordcount: '1361'
+ht-degree: 2%
 
 ---
 
@@ -80,10 +80,14 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>문제에 대한 액세스 편집</p>  </td> 
   </tr> 
+  <tr>
    <td role="rowheader">개체 권한</td> 
    <td><p>요청 대기열에 요청을 추가하는 액세스 권한</p> <p>기존 요청에 대한 이상의 권한 보기</p> <p>요청 대기열 설정에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>를 참조하십시오. </p> </td> 
-  <tr>
   </tr>
+  <tr> 
+   <td role="rowheader"> 제품</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Planning 요청 또는 요청 양식을 보려면 Adobe Workfront Planning이 있어야 합니다.</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -191,7 +195,7 @@ You must have the following access to perform the steps in this article:
        <ul> 
         <li>없음</li> 
         <li>낮음</li> 
-        <li>보통</li> 
+        <li>일반</li> 
         <li>높음</li> 
         <li>긴급</li> 
        </ul> <p>Workfront 관리자는 우선 순위 이름을 수정할 수 있습니다.</p> </td> 
@@ -254,6 +258,6 @@ You must have the following access to perform the steps in this article:
    >* 원래 요청에 첨부된 모든 사용자 정의 양식과 사용자 정의 필드에 포함된 값은 복사된 요청으로 전송됩니다. 여기에는 논리가 포함된 필드가 포함됩니다.
    >* 복사된 요청에서 사용자 정의 양식을 제거할 수 없습니다.
 
-1. **제출**&#x200B;을 클릭합니다.
+1. **제출을 클릭합니다**.
 
    복사된 요청이 지정한 요청 대기열에 새 요청으로 제출됩니다.

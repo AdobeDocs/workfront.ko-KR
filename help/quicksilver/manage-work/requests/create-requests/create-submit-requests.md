@@ -6,9 +6,9 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2841'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,17 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
+<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
+<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
+</div>
+-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업으로 표시됩니다. 그러나 요청 형태로 계획되지 않은 작업이 언제든지 들어올 수 있는 환경에서 작업할 수 있습니다. Workfront은 요청 대기열 을 사용하여 이러한 유형의 환경을 수용하는 워크플로를 제공합니다.
 
@@ -50,6 +58,7 @@ Workfront Planning 요청을 처음부터 작성하여 다음과 같은 방법�
  <col> 
  <col> 
  <tbody> 
+ <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의 </p> </td> 
@@ -64,6 +73,10 @@ Workfront Planning 요청을 처음부터 작성하여 다음과 같은 방법�
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>문제에 대한 액세스 편집</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 제품</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Planning 요청 또는 요청 양식을 보려면 Adobe Workfront Planning이 있어야 합니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,18 +149,20 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 
 1. (조건부) Workfront Planning을 포함하는 새 환경으로 전환했으며 프로덕션 환경에 있는 경우 **새 요청** 상자에 다음이 표시됩니다.</span>
 
-   * 가장 최근에 액세스한 6개의 Workfront 요청 대기열 및 Planning 요청 양식이 최근 섹션에 표시됩니다.
-   * 50개의 추가 Workfront 요청 큐 및 Planning 요청 양식이 **모든 요청 양식** 섹션에 알파벳 순서로 표시됩니다. 기본적으로 표시되지 않는 요청 대기열을 검색할 수 있습니다.
-
-   ![계획 요청에 대한 통합 워크플로가 있는 새 요청 상자](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
-
-   Workfront 요청 대기열 카드 중 하나를 클릭하거나 검색한 다음 목록에 표시될 때 클릭합니다.
-1. (조건부) Workfront Planning을 포함하는 새 경험으로 전환하고 미리 보기 환경에 있는 경우 **새 요청** 상자에 다음이 표시됩니다.
-
    <ul><li>가장 최근에 액세스한 6개의 Workfront 요청 대기열 및 Planning 요청 양식이 최근 섹션에 표시됩니다. </li>
     <li>모든 추가 Workfront 및 Planning 요청 양식 <b>모든 요청 양식</b> 섹션. 기본적으로 표시되지 않는 요청 양식을 검색할 수 있습니다. </li>
     <li>모든 추가 Workfront 및 Planning 요청 큐 경로는 <b>모든 요청 경로</b> 섹션에 표시됩니다. 기본적으로 표시되지 않는 요청 대기열을 검색할 수 있습니다.</li></ul>
    Workfront 요청 대기열 경로 또는 양식 중 하나를 클릭하거나 경로 또는 양식을 검색한 다음 목록에 표시되면 클릭합니다.
+1. <span class="preview">(조건부) Workfront Planning을 포함하는 새 경험으로 전환한 경우 Workfront 요청 대기열 경로 또는 양식 중 하나를 선택하거나 검색 창을 클릭합니다. </span>
+
+   <span class="preview">검색 창을 클릭하면 가장 최근에 사용된 큐와 양식을 먼저 표시하는 드롭다운이 나타납니다. 목록에서 하나를 선택하거나 입력을 시작하고 대기열이나 목록이 나타나면 선택하십시오.</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">미리 보기에서 현재 사용할 수 있는 새 요청 경험에 대해 다음 사항을 고려하십시오.</span>
+   >* <span class="preview">목록에 Workfront 요청 대기열과 Workfront Planning 요청 양식이 모두 포함되어 있습니다.</span>
+   >* <span class="preview">개체 유형별로 목록을 필터링할 수 있습니다.</span>
+   >* <span class="preview">Workfront 요청 대기열만 표시하려면 `Issue` 개체 형식을 필터링하십시오.</span>
 
 1. (조건부) Workfront Planning을 포함하는 새 경험으로 전환한 경우 주제 그룹 및 대기열 주제를 선택하고 양식을 계속 업데이트합니다.
 
@@ -254,7 +269,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
        <ul> 
         <li>없음</li> 
         <li>낮음 </li> 
-        <li>보통</li> 
+        <li>일반</li> 
         <li>높음</li> 
         <li>긴급</li> 
        </ul> <p>시스템 관리자는 우선 순위 이름을 수정할 수 있습니다.</p> </td> 

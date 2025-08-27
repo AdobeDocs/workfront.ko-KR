@@ -6,10 +6,10 @@ description: 요청 초안을 만드는 동안 삭제할 수 있습니다.
 author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '271'
+ht-degree: 1%
 
 ---
 
@@ -48,6 +48,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>문제에 대한 액세스 편집</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 제품</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Planning 요청 또는 요청 양식을 보려면 Adobe Workfront Planning이 있어야 합니다.</td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,10 @@ ht-degree: 0%
 
 * Workfront의 요청 영역에서
 * 공유된 요청 양식에 대한 직접 링크에서.
-
-  이 문서에서는 Workfront의 요청 영역 또는 공유 링크에서 레코드 유형에 새 레코드를 추가하도록 요청을 제출하는 방법에 대해 설명합니다.
 * 레코드 유형 페이지에서 새 레코드를 추가하거나 요청할 때 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
+
+이 문서에서는 Workfront의 요청 영역 또는 공유 링크에서 레코드 유형에 새 레코드를 추가하도록 요청을 제출하는 방법에 대해 설명합니다.
+
 
 Workfront 사용자와 외부 사용자는 Planning 레코드 유형에 요청을 제출하고 레코드를 생성할 수 있습니다. <!--double check on the external users-->
 
@@ -160,7 +161,9 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
    >* 하나 이상의 작업 영역을 볼 수 있는 액세스 권한이 있습니다.
    >
 
-1. **새 요청**&#x200B;을 클릭합니다.
+<!--Production-->
+
+1. 프로덕션 환경에서 **새 요청**&#x200B;을 클릭합니다.
 
    <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
@@ -169,12 +172,15 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
    * 가장 최근에 액세스한 6개의 Workfront 요청 대기열 및 Planning 요청 양식이 최근 섹션에 표시됩니다.
    * 50개의 추가 Workfront 요청 큐 및 Planning 요청 양식이 **모든 요청 양식** 섹션에 알파벳 순서로 표시됩니다. 기본적으로 표시되지 않는 요청 대기열을 검색할 수 있습니다.
 
-1. 다음 중 하나를 수행하십시오.
+1. 프로덕션 환경에서 다음 중 하나를 수행합니다.
 
    * 최근 또는 모든 요청 양식 섹션에서 Planning 요청 양식 선택
    * 검색 상자에 Planning 요청 양식 이름을 입력한 다음 목록에 표시될 때 카드를 클릭합니다.
 
    요청 양식이 열립니다.
+
+<!-- Put preview section here-->
+1. <span class="preview">미리 보기 환경에서 최근에 액세스한 요청 양식 영역에서 요청 양식 또는 큐를 선택하거나 목록에 양식 또는 큐 이름을 입력한 다음 표시될 때 선택합니다.
 
 1. 요청 양식에서 사용할 수 있는 필드를 업데이트합니다. 빨간색 별표가 있는 필드는 필수입니다.
 1. **제출을 클릭합니다**.

@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 1%
+source-wordcount: '978'
+ht-degree: 2%
 
 ---
 
@@ -65,6 +65,10 @@ ht-degree: 1%
   <tr>
    <td role="rowheader">개체 권한</td> 
    <td><p>요청에 대한 권한 이상 보기</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 제품</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Planning 요청 또는 요청 양식을 보려면 Adobe Workfront Planning이 있어야 합니다.</td> 
   </tr> 
  </tbody> 
 </table>
