@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%
@@ -46,6 +46,11 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | 레코드 유형을 만들기 위해 가져올 수 있는 Excel 파일의 CSV 크기 | 5MB |
 | CSV 또는 Excel 파일로 가져와 레코드 유형을 만들 수 있는 행 수 | 25,000 |
 | CSV 또는 Excel 파일로 가져와 레코드 유형을 만들 수 있는 열 수 | 500 |
+
+<!--
+| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
+| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
+-->
 
 *작업 영역은 관리하기 어려워질 수 있으며 워크플로우가 너무 많이 조각날 수 있으므로 너무 많이 사용하지 않는 것이 좋습니다.
 
