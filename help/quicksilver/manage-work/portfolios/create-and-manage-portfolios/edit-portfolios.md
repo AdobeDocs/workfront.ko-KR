@@ -6,23 +6,22 @@ description: 생성한 포트폴리오나 다른 사용자가 생성한 포트�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
 
 # 포트폴리오 편집
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
 
-</div>-->
+</div>
 
 생성한 포트폴리오나 다른 사용자가 생성한 포트폴리오를 사용자와 공유한 경우 해당 포트폴리오에 대한 정보를 편집할 수 있습니다.
 
@@ -110,9 +109,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
-   **[!UICONTROL Portfolio 편집]** 대화 상자가 표시됩니다. <!--update screen shot at preview release-->
+   <span class="preview">Portfolio 편집&#x200B;**[!UICONTROL 상자가 표시됩니다.]**</span>
 
-   ![포트폴리오 상자 편집](assets/edit-portfolio-box-classic-350x224.png)
+   <span class="preview">![포트폴리오 상자 편집](assets/edit-portfolio-box-classic-350x224.png)</span>
 
    모든 포트폴리오 필드는 [!UICONTROL Portfolio 편집] 상자에서 사용할 수 있으며 왼쪽 패널에 나열된 영역별로 그룹화됩니다.
 
@@ -148,7 +147,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <p>두 개 이상의 포트폴리오를 선택하면 **이름** 필드를 사용할 수 없습니다. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **설명**]</td> 
+      <td role="rowheader">[!UICONTROL**설명**]</td> 
       <td> <p>Portfolio에 대한 고유한 사항을 나타내도록 설명에 정보를 입력합니다. </p> </td> 
      </tr> 
      <tr> 
@@ -160,27 +159,25 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td> <p>그룹이 포트폴리오와 연결되어 있거나 그룹 완료를 위한 권한이 있는 경우 단일 그룹의 이름을 추가합니다. </p> <p>팁:  <p>[!UICONTROL Portfolio Details] 페이지에서 [!UICONTROL Group] 필드에 액세스할 때 다음을 수행합니다. </p> <p>마우스로 가리키고 그 옆에 표시되는 [!UICONTROL 정보] 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>[!UICONTROL Portfolio 편집] 상자에서는 이 옵션을 사용할 수 없습니다. </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL **Alignment Scorecard**]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL**Alignment Scorecard**]</p> </td> 
       <td> <p>드롭다운 목록에서 사용할 정렬 스코어카드를 선택합니다. 스코어카드는 프로젝트가 Portfolio의 정해진 기준에 얼마나 잘 부합하는지 측정하는 데 사용되며, 이때 조직의 임무, 값 및 전략적 목표가 반영됩니다. 자세한 내용은 <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">프로젝트에 스코어카드 적용 및 맞춤 점수 생성</a> 및 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">스코어카드 만들기</a>를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **활성 상태임**]</td> 
+      <td role="rowheader">[!UICONTROL**활성 상태임**]</td> 
       <td> <p> 포트폴리오를 활성화하려면 이 확인란을 선택하십시오. 다른 사용자는 프로젝트를 만들거나 편집할 때 활성 포트폴리오를 찾아 프로젝트에 첨부할 수 있습니다. 비활성 포트폴리오를 프로젝트에 첨부할 수 없습니다. 이 기능은 기본적으로 활성화되어 있습니다.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭하거나 다음 섹션을 계속 편집하십시오.
-
-   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span> and continue editing the following sections.-->
+1. **[!UICONTROL 변경 내용 저장]** <span class="preview"> 또는 [!UICONTROL **저장**]</span>&#x200B;을 클릭하고 다음 섹션을 계속 편집하세요.
 
 ### 사용자 정의 양식
 
 1. 위에서 설명한 대로 포트폴리오 편집을 시작합니다.
 1. **[!UICONTROL Forms 추가]** 드롭다운 메뉴를 클릭하여 사용자 정의 양식을 선택하고 포트폴리오에 추가하십시오.
 
-   <!--Or 
-   <span class="preview">Start typing the name of a form in the [!UICONTROL **Add custom form**] field.</span>-->
+   또는
+   <span class="preview">[!UICONTROL **사용자 정의 양식 추가**] 필드에 양식 이름을 입력하세요.</span>
 
    포트폴리오 사용자 정의 양식을 추가하려면 먼저 만들어야 합니다.
 
@@ -188,20 +185,16 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >
    >[!DNL Workfront] 관리자가 사용자 정의 양식의 섹션에 대한 권한을 설정하는 방법에 따라 모든 사용자가 지정된 사용자 정의 양식의 동일한 필드를 보거나 편집할 수 있는 것은 아닙니다. 사용자 정의 양식의 섹션 내에서 필드를 편집할 수 있는 권한은 포트폴리오 자체에 대한 권한에 따라 다릅니다. 사용자 정의 양식의 섹션에 대한 사용 권한 설정에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
-1. 사용자 정의 양식의 모든 필드를 업데이트한 다음 **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭하거나 다음 섹션을 계속하십시오.
-
-   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span> and continue editing the following sections.-->
+1. **[!UICONTROL 변경 내용 저장]** <span class="preview"> 또는 [!UICONTROL **저장**]</span>&#x200B;을 클릭하고 다음 섹션을 계속 편집하세요.
 
 ### 댓글 {#comment}
 
 1. 위에서 설명한 대로 포트폴리오 편집을 시작합니다.
-1. **[!UICONTROL 댓글]**&#x200B;을 클릭합니다. <!--replace screen shot at preview-->
+1. **[!UICONTROL 댓글]**&#x200B;을 클릭하세요.
 
-   ![포트폴리오 댓글 편집 상자](assets/comment-box-edit-portfolio-classic-350x227.png)
+   <span class="preview">![포트폴리오 댓글 편집 상자](assets/comment-box-edit-portfolio-classic-350x227.png)</span>
 
-1. **[!UICONTROL 포트폴리오 업데이트 게시]** 필드에 댓글을 추가합니다.
+1. <span class="preview">댓글을 **[!UICONTROL 포트폴리오에 업데이트 추가]** 필드에 추가합니다.</span>
 1. (선택 사항) 댓글에 사용자 또는 팀을 추가하려면 **[!UICONTROL 사람]** 아이콘을 클릭합니다.
 1. (선택 사항) **[!UICONTROL 잠금]** 아이콘을 클릭하여 댓글을 잠근 후 회사의 사용자에게만 비공개로 설정합니다.
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
-
-   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span>.-->
+1. **[!UICONTROL 변경 내용 저장]** <span class="preview"> 또는 [!UICONTROL **저장**]</span>&#x200B;을 클릭합니다.

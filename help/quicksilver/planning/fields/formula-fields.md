@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 7%
+source-wordcount: '889'
+ht-degree: 5%
 
 ---
 
 # 공식 필드 개요
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -114,30 +114,26 @@ ht-degree: 7%
 * 새 수식에서 수식 필드를 참조할 수 있습니다. 공식 필드에서 참조되는 필드에서 값이 업데이트되면 해당 필드를 참조하는 모든 후속 필드 또는 해당 필드가 포함된 공식 필드가 자동으로 업데이트됩니다.
 
 
-<!--
-
 <div class="preview">
 
-## Limitations of formula fields
+## 공식 필드의 제한 사항
 
-* You can add a maximum of 20 formula fields for one record type. 
+* 하나의 레코드 유형에 최대 20개의 공식 필드를 추가할 수 있습니다.
 
-   Formula lookup fields added from connected record types do not count against this limit. 
+  연결된 레코드 유형에서 추가된 수식 조회 필드는 이 제한에 포함되지 않습니다.
 
-* The formula expression cannot exceed 50,000 characters. 
+* 공식 표현식은 50,000자를 초과할 수 없습니다.
 
-* Formula fields might display as `#ERROR!` in the following cases:
-   * When a field used in a formula is deleted.
-   * When a field used in an aggregated lookup field displays as `#ERROR!`. 
-   
-      For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
-   *  When a formula value cannot be displayed in the selected format. 
-   
-      For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
- 
- </div>
- 
- -->
+* 다음과 같은 경우 수식 필드가 `#ERROR!`(으)로 표시될 수 있습니다.
+   * 수식에 사용된 필드가 삭제되는 경우.
+   * 집계된 조회 필드에 사용된 필드가 `#ERROR!`(으)로 표시되는 경우.
+
+     예를 들어 집계된 조회 수식 필드가 포함된 조회 필드를 표시하는 경우 참조된 수식 필드 중 하나가 `#ERROR!`(으)로 표시됩니다.
+   * 수식 값을 선택한 형식으로 표시할 수 없는 경우입니다.
+
+     예를들어 수식 필드의 형식으로 [숫자]를 선택하고 수식에 사용된 필드가 숫자가 아닌 텍스트 값만 표시하는 텍스트 필드인 경우 텍스트를 숫자로 구문 분석할 수 없으므로 수식 결과는 `#ERROR!`으로 표시됩니다.
+
+</div>
 
 ## 지원되는 공식
 

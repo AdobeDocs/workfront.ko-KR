@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Adobe Workfront 관리자는 Workfront에서 승인 프로세스에 대한 전역 설정을 결정할 수 있습니다. 이 설정은 시스템의 모든 작업 항목 승인 프로세스에 영향을 줍니다.
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 2%
@@ -54,7 +54,7 @@ Adobe Workfront 관리자는 Workfront에서 승인 프로세스에 대한 전�
 
 1. **프로세스** > **승인**&#x200B;을 클릭합니다.
 
-1. **승인** 영역 이름 옆에 있는 **설정** 아이콘 ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
+1. **승인** 영역 이름 옆에 있는 ![설정](assets/gear-icon-settings.png) 아이콘 **톱니바퀴 설정 아이콘**&#x200B;을 클릭합니다.
 
 1. 표시되는 **승인 설정** 상자에서 다음 정보를 지정합니다.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Adobe Workfront Planning 객체 제한 사항 개요
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 프로덕션에 대한 월별 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -46,11 +46,9 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | 레코드 유형을 만들기 위해 가져올 수 있는 Excel 파일의 CSV 크기 | 5MB |
 | CSV 또는 Excel 파일로 가져와 레코드 유형을 만들 수 있는 행 수 | 25,000 |
 | CSV 또는 Excel 파일로 가져와 레코드 유형을 만들 수 있는 열 수 | 500 |
+| <span class="preview">한 레코드 종류의 수식 필드 수</span> | <span class="preview">20</span> |
+| <span class="preview">수식 필드 식의 문자 수</span> | <span class="preview">50,000</span> |
 
-<!--
-| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
-| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
--->
 
 *작업 영역은 관리하기 어려워질 수 있으며 워크플로우가 너무 많이 조각날 수 있으므로 너무 많이 사용하지 않는 것이 좋습니다.
 
