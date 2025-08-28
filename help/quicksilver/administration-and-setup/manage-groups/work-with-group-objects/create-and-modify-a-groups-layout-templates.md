@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 909236983b7eefa25ea7961a2f760d87cae23132
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -70,15 +70,15 @@ ht-degree: 0%
 
      또는
 
-     기존 템플릿을 기반으로 하는 그룹의 새 템플릿을 만들려면 기존 템플릿을 선택한 다음 **복사**&#x200B;를 클릭합니다.
+     기존 템플릿을 기반으로 하는 그룹의 새 템플릿을 만들려면 기존 템플릿을 선택한 다음 **복사** 아이콘 ![복사 아이콘](assets/copy-icon.png)을 클릭합니다.
 
      레이아웃 템플릿 만들기에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
      레이아웃 템플릿을 복사하여 새 템플릿을 만드는 방법에 대한 자세한 내용은 [레이아웃 템플릿 복사](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)를 참조하십시오.
 
-   * 기존 그룹 레이아웃 템플릿을 편집하려면 해당 템플릿을 선택한 다음 **편집**&#x200B;을 클릭합니다.
+   * 기존 그룹 레이아웃 템플릿을 편집하려면 해당 템플릿을 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
      레이아웃 템플릿 편집에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
-   * 하나 이상의 레이아웃 템플릿을 삭제하려면 해당 템플릿을 선택한 다음 **삭제**&#x200B;를 클릭합니다.
-   * 레이아웃 템플릿 목록을 **내보내기**.
+   * 하나 이상의 레이아웃 템플릿을 삭제하려면 해당 템플릿을 선택한 다음 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다.
+   * 레이아웃 템플릿 목록을 내보내려면 **내보내기** 아이콘 ![내보내기 아이콘](assets/export-icon.png)을 클릭하세요.
