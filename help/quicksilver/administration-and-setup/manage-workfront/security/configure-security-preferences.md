@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
+source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -132,16 +132,16 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
       <td>사용자에 대해 우선 순위 작업 목록 환경을 활성화하거나 비활성화하도록 선택할 수 있습니다. 사용자는 Workfront에 우선순위 아이콘을 계속 볼 수 있지만 기능에 액세스할 수는 없습니다. 우선 순위에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">우선 순위 시작</a>을 참조하세요.</td> 
      </tr>
      <tr> 
-      <td role="rowheader">AI 활성화 </td> 
-      <td>AI Assistant를 포함하여 AI를 활성화하도록 선택할 수 있습니다. <p><b>참고</b>: 조직에서 AI를 사용하려면 특정 요구 사항을 충족해야 합니다. 요구 사항을 포함하여 AI에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant 개요</a>를 참조하십시오.</p></td> 
+      <td role="rowheader"><span class="preview">AI 사용</span> </td> 
+      <td><span class="preview">AI Assistant를 포함하여 AI를 활성화하도록 선택할 수 있습니다. <p><b>참고</b>: 조직에서 AI를 사용하려면 특정 요구 사항을 충족해야 합니다. 요구 사항을 포함하여 AI에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant 개요</a>를 참조하십시오.</p></span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">양식 자동 완성 </td> 
-      <td>이전 요청 데이터를 기반으로 요청 양식을 자동 완성하는 기능을 활성화하도록 선택할 수 있습니다. 양식 자동 완성에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">이전 데이터의 요청 자동 채우기</a>를 참조하십시오.</td> 
+      <td role="rowheader"><span class="preview">양식 자동 완성 </span></td> 
+      <td><span class="preview">이전 요청 데이터를 기반으로 요청 양식을 자동 완성하는 기능을 활성화하도록 선택할 수 있습니다. 양식 자동 완성에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">이전 데이터의 요청 자동 채우기</a>를 참조하십시오.</span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">AI Beta 참여 </td> 
-      <td>현재 Beta에 있는 AI 기능을 활성화하도록 선택할 수 있습니다. 이 옵션을 활성화하면 활성화할 AI Beta 기능을 선택할 수 있습니다. 각 AI Beta 기능에 대한 자세한 내용을 보려면 해당 기능 옆에 있는 정보 아이콘을 클릭합니다.</td> 
+      <td role="rowheader"><span class="preview">AI Beta 참여 </span></td> 
+      <td><span class="preview">현재 Beta에 있는 AI 기능을 활성화하도록 선택할 수 있습니다. 이 옵션을 활성화하면 활성화할 AI Beta 기능을 선택할 수 있습니다. 각 AI Beta 기능에 대한 자세한 내용을 보려면 해당 기능 옆에 있는 정보 아이콘을 클릭합니다.</span></td> 
      </tr>
      <tr> 
       <td role="rowheader">테스트 환경</td> 
