@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '832'
 ht-degree: 5%
 
 ---
@@ -22,6 +22,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{important-admin-console-onboard}}
 
@@ -107,29 +111,37 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
         <li>캘린더</li>
        </ul><p>이 옵션은 기본적으로 활성화되어 있습니다.</p> <p><b>중요</b>: 이 옵션을 사용하지 않도록 설정한 경우 Workfront 인스턴스에서 외부 사용자 액세스 수준을 사용할 수 없습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">기본 제공 액세스 수준</a>을 참조하세요.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">외부 사용자가 암호로 등록해야 함</td> 
-      <td> <p>외부 사용자가 Workfront에서 항목을 볼 수 있으려면 먼저 등록해야 합니다. 기본적으로 이 옵션은 비활성화되어 있습니다. 이 옵션을 활성화하면 이메일 주소로 특정 업데이트에 포함된 Workfront 계정이 없는 사람에게 포함된 항목을 보기 전에 계정을 만들라는 메시지가 표시됩니다. 그러면 해당 사용자에 대한 외부 사용자 계정이 생성됩니다.</p> <p>이 옵션은 기본적으로 비활성화되어 있습니다.</p> </td> 
+     <!--<tr> 
+      <td role="rowheader">Require external users to register with a password</td> 
+      <td> <p>Requires external users to register before they are able to view items in Workfront. By default, this option is disabled. When you enable this option, people without a Workfront account who are included in certain updates by their email address, will be prompted to create an account before they can view the item they are included on. This creates an External User account for them.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">다음 시간 후 자동으로 사용자 로그아웃</td> 
-      <td> 사용자가 비활성 기간 후 Workfront에서 로그아웃할 시기를 지정할 수 있습니다. 기본적으로 사용자는 8시간 동안 활동이 없으면 로그아웃됩니다. <p>이 옵션은 SSO(Single Sign-On) 솔루션을 사용하는 Workfront 고객에게도 영향을 줍니다.</p> <p>Adobe IMS로 마이그레이션한 조직에서는 이 설정을 사용할 수 없습니다.</p></td> 
+      <td role="rowheader">Automatically log users out after</td> 
+      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">다음 시간 후 자동으로 모바일 사용자 로그아웃 </td> 
-      <td>사용자가 비활성 기간 후 Workfront 애플리케이션에서 로그아웃하는 시간을 지정할 수 있습니다. 기본적으로 사용자는 7일 동안 활동이 없으면 로그아웃됩니다. <p>이 옵션은 SSO(Single Sign-On) 솔루션을 사용하는 Workfront 고객에게도 영향을 줍니다.</p> <p>Adobe IMS로 마이그레이션한 조직에서는 이 설정을 사용할 수 없습니다.</p></td> 
-     </tr> 
+      <td role="rowheader">Automatically log mobile users out after </td> 
+      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr> -->
      <tr> 
       <td role="rowheader">사용자 정의 도움말 URL</td> 
       <td>메인 메뉴 도움말 아이콘이 이동할 내부 사용자 정의 도움말 사이트를 정의할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">사용자 지정 도움말 URL 구성</a>을 참조하십시오.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">시스템의 사용자는 기본적으로 새 홈 환경을 볼 수 있습니다. </td> 
-      <td>기본적으로 사용자에게 새 홈 환경이 표시되는지 여부를 지정할 수 있습니다. 활성화하면 기본적으로 새 홈 환경이 표시되지만, 개별적으로 새 홈을 활성화하거나 비활성화하도록 선택할 수 있습니다. 비활성화하면 새 홈으로 전환할 수 있는 배너가 표시되지 않지만 인스턴스 URL 끝에 <code>/home/workspaces</code>을(를) 수동으로 입력하여 새 홈 페이지로 이동할 수 있습니다. 이 설정은 기본적으로 활성화되어 있습니다.</td> 
-     </tr>
-     <tr> 
       <td role="rowheader">우선 순위 작업 목록 활성화 </td> 
       <td>사용자에 대해 우선 순위 작업 목록 환경을 활성화하거나 비활성화하도록 선택할 수 있습니다. 사용자는 Workfront에 우선순위 아이콘을 계속 볼 수 있지만 기능에 액세스할 수는 없습니다. 우선 순위에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">우선 순위 시작</a>을 참조하세요.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">AI 활성화 </td> 
+      <td>AI Assistant를 포함하여 AI를 활성화하도록 선택할 수 있습니다. <p><b>참고</b>: 조직에서 AI를 사용하려면 특정 요구 사항을 충족해야 합니다. 요구 사항을 포함하여 AI에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant 개요</a>를 참조하십시오.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">양식 자동 완성 </td> 
+      <td>이전 요청 데이터를 기반으로 요청 양식을 자동 완성하는 기능을 활성화하도록 선택할 수 있습니다. 양식 자동 완성에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">이전 데이터의 요청 자동 채우기</a>를 참조하십시오.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">AI Beta 참여 </td> 
+      <td>현재 Beta에 있는 AI 기능을 활성화하도록 선택할 수 있습니다. 이 옵션을 활성화하면 활성화할 AI Beta 기능을 선택할 수 있습니다. 각 AI Beta 기능에 대한 자세한 내용을 보려면 해당 기능 옆에 있는 정보 아이콘을 클릭합니다.</td> 
      </tr>
      <tr> 
       <td role="rowheader">테스트 환경</td> 
