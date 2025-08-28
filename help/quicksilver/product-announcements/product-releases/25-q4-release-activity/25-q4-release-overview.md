@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
+source-git-commit: a7f368f605851d01293715e67c165c36d4e2ec48
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1811'
 ht-degree: 3%
 
 ---
@@ -57,9 +57,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
     </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront 사용자 프로필에 대한 업데이트</a><p></p>
+            <p>Workfront 사용자 프로필의 모양과 느낌을 Workfront의 다른 영역과 일관된 최신 디자인으로 업데이트했습니다. 이러한 업데이트는 단일 프로필을 편집하거나 여러 프로필을 벌크 편집하는 관리자 또는 자체 프로필을 편집하는 사용자 모두에게 적용됩니다.</p>
+            <p>현재 사용자 프로필과 다음과 같은 몇 가지 기능 차이점이 있습니다.</p>
+            <ul>
+                <li>일부 확인란(예: 사용자를 활성으로 표시)이 전환 또는 버튼으로 변경되었습니다.</li>
+                <li>환경 설정 아래의 "자신에게 할당한 작업을 내 처리 중 탭으로 보내기" 옵션은 더 이상 사용되지 않는 기능을 참조하므로 제거되었습니다.</li>
+            </ul>
+        </td>
+        <td>2025년 8월 28일 금요일</td>
+        <td>2025년 9월 4일 금요일</td>
+        <td>2025년 9월 4일 금요일</td>
+    </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">외부 API에서 사용자 정의 양식에 여러 값 옵션 추가</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">외부 API에서 사용자 정의 양식에 여러 값 옵션 추가</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
             <p>이제 사용자 정의 양식 디자이너에서 새 필드 유형인 다중 선택 외부 조회를 사용할 수 있습니다. 외부 시스템에 데이터가 저장된 경우 이 필드 유형을 사용하면 외부 API에서 옵션을 로드하고 사용자 정의 양식의 다른 필드 값을 기준으로 필터링할 수 있습니다. 이는 단일 선택 외부 조회와 동일합니다.</p>
             <p>양식이 오브젝트에 추가되면 API에서 반환된 값이 드롭다운 필드에 나타나고 사용자는 여러 값을 선택할 수 있습니다.</p>
         </td>
@@ -266,30 +280,36 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table>
             <col style="width: 50%;" />
-            <col style="width: 50%;" />
+            <col style="width: 25%;" />
             <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">기능</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">릴리스 날짜</span>
-                        </p>
-                    </td>
-                </tr>
+               <tr>
+        <td><strong>기능</strong>
+        </td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">향상된 목록에 대한 업데이트</a><p></p>
+            <p>고급 목록 레이아웃을 사용하면 필터 및 그룹화를 사용하여 작업을 표시하고 더 잘 정리할 수 있습니다. 이제 다음 영역의 목록에 필터 또는 그룹화가 적용된 시기를 알려주는 파란색 점 표시기가 위젯 위에 나타납니다.</p>
+            <ul>
+                <li>설정 시 환율</li>
+                <li>내 요청 위젯</li>
+                <li>우선순위</li>
+            </ul>
+        </td>
+        <td>2025년 8월 28일 금요일</td>
+        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 10월 16일 금요일</td>
+    </tr>     
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025년 4분기 릴리스 일정 동안의 룩앤필 업데이트</a></p>
                         <p>2025년 4분기 릴리스 기간 내에 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트가 이루어지고 있습니다. </p>
                     </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 2025년 4분기 릴리스 일정 전체<br /></p>
-                            </li>
-                            <li>
-                                <p>프로덕션 릴리스: 미리보기에 릴리스한 후 최소 2주(달리 지정되지 않은 경우)</p>
+                    <td><p>2025년 4분기 릴리스 일정 내내<br /></p>
+                    <td colspan="2"><p>빠른 릴리스: 미리 보기로 릴리스한 후 최소 1주(달리 지정되지 않은 경우)</p>
                             </li>
                         </ul>
                     </td>
@@ -360,7 +380,7 @@ Desktop Proofing Viewer가 버전 2.1.52로 업데이트되어 버그 수정 사
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ### API 버전 20
 
@@ -372,8 +392,8 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

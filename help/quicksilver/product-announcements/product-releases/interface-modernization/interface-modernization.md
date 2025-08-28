@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
 workflow-type: tm+mt
-source-wordcount: '7094'
+source-wordcount: '7449'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,26 @@ Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/hel
 
 ## 관리자 및 설정
 
-<!--
-### Interface updates when editing a Scorecard
+### 그룹의 레이아웃 템플릿 목록에 대한 인터페이스 업데이트
 
-**Preview release: August 21, 2025; Production release: August 21, 2025**
+**미리 보기 릴리스: 2025년 8월 28일, 프로덕션 릴리스: 2025년 9월 4일**
 
-We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+애플리케이션의 다른 영역과 일치하도록 그룹의 왼쪽 패널에 있는 레이아웃 템플릿 목록의 모양과 느낌을 업데이트했습니다.
 
-A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+이러한 변경 사항을 보려면 설정 > 그룹 > 그룹 선택 > 레이아웃 템플릿으로 이동합니다.
 
--->
+자세한 내용은 [그룹의 레이아웃 템플릿 만들기 및 수정](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)을 참조하세요.
+
+
+### 스코어카드를 편집할 때 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 8월 28일, 프로덕션 릴리스: 2025년 8월 28일**
+
+애플리케이션의 다른 영역에 있는 디자인과 일치하도록 스코어카드를 편집할 때의 모양과 느낌을 업데이트했습니다. Workfront의 설정 영역에서 스코어카드를 편집할 때 업데이트된 디자인을 볼 수 있습니다.
+
+작은 기능 변경 사항이 스코어카드에 적용되었습니다. 스코어카드를 편집하려면 목록에서 스코어카드를 선택하고 편집 아이콘을 클릭합니다. 편집하기 전에 더 이상 스코어카드 세부 정보 페이지로 이동하지 않습니다.
+
+
 
 ### 설정 의 검토 및 승인 통지 페이지에 대한 인터페이스 업데이트
 
@@ -120,7 +130,30 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 S
 
 이 변경 사항을 보려면 설정 > 시스템 > SSO용 사용자 업데이트로 이동하십시오.
 
+## 포트폴리오
+
+### 포트폴리오 편집을 위한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 8월 28일, 프로덕션 릴리스: 2025년 9월 4일**
+
+Portfolio 편집 상자에서 포트폴리오를 편집할 때 인터페이스 업데이트를 도입했습니다. 이제 포트폴리오 편집 및 포트폴리오 편집 상자에 Workfront의 다른 영역과 일치하는 최신 디자인이 있습니다.
+
+>[!NOTE]
+>
+>포트폴리오를 대량 편집할 때 표현식 다시 계산 설정이 제거되었습니다. 목록에서 여러 포트폴리오를 선택하고 도구 모음의 기타 메뉴에서 표현식 다시 계산 옵션을 클릭하면 여전히 사용자 정의 표현식을 일괄적으로 다시 계산할 수 있습니다.
+
+
+자세한 내용은 [포트폴리오 편집](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)을 참조하세요.
+
 ## 프로젝트
+
+### 템플릿 없이 작업을 프로젝트로 전환 의 인터페이스 변경 사항
+
+**미리 보기 릴리스: 2025년 8월 28일, 프로덕션 릴리스: 2025년 9월 4일**
+
+템플릿 없이 작업을 프로젝트로 전환할 때 프로젝트로 전환 상자에 인터페이스 업데이트가 도입되었습니다. 이제 이 상자는 Workfront의 다른 영역 디자인과 일치합니다.
+
+자세한 내용은 [작업을 프로젝트로 변환](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)을 참조하십시오.
 
 ### 프로그램 및 포트폴리오에 개체를 추가할 때 인터페이스 업데이트
 
@@ -161,14 +194,14 @@ Workfront의 다른 영역과 일치하도록 프로젝트 및 템플릿에 대�
 
 자세한 내용은 [대기열 주제 만들기](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)를 참조하십시오.
 
-<!--### Interface update for the Edit Expense box of a project
+### 프로젝트의 경비 편집 상자에 대한 인터페이스 업데이트
 
-**Preview release: August 21, 2025; Production release: August 28, 2025**
+**미리 보기 릴리스: 2025년 8월 28일, 프로덕션 릴리스: 2025년 9월 4일**
 
-We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+애플리케이션의 다른 영역과 일치하도록 프로젝트 경비를 편집하는 대화 상자를 업데이트했습니다. 업데이트된 대화 상자는 프로젝트 또는 템플릿에서 경비를 편집할 때 사용할 수 있습니다.
 
-For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
--->
+자세한 내용은 [프로젝트 경비 관리](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)를 참조하십시오.
+
 
 ### 시간 섹션의 프로젝트, 작업 또는 문제에 대한 로깅 시간 관련 인터페이스 업데이트
 
