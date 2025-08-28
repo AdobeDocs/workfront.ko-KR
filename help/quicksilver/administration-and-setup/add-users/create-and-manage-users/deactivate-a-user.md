@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: b235945deb3254feaf671083fc992786851a3286
+source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1116'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 >title="사용자 비활성화"
 >abstract="사용자를 비활성화하면 Workfront와 Frame.io에서 해당 사용자가 제거됩니다. 비활성화된 사용자는 나중에 다시 활성화할 수 있습니다."
 
+{{highlighted-preview}}
+
 <!--Audited 5/2025-->
 
 <!--
@@ -30,7 +32,7 @@ ht-degree: 2%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -88,7 +90,7 @@ ht-degree: 2%
 
 Workfront 관리자 또는 Standard 또는 Plan 라이선스 사용자를 비활성화하려면 먼저 해당 개체 및 활동을 다른 사용자와 연결해야 합니다.
 
-자세한 내용은 이 문서에서 [Workfront 관리자 및 플랜 라이선스 사용자 비활성화 정보](#about-deactivating-workfront-administrators-and-plan-license-users)를 참조하십시오.
+자세한 내용은 이 문서에서 [Workfront 관리자 및 Standard 또는 Plan 라이선스 사용자 비활성화 정보](#about-deactivating-workfront-administrators-and-plan-license-users)를 참조하십시오.
 
 ## 사용자 비활성화
 
@@ -127,9 +129,9 @@ Workfront 관리자 및 플랜 라이선스 사용자는 사용자 프로필에�
 
 1. **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. **사용자 편집** 상자의 왼쪽 패널에서 **리소스 계획**&#x200B;을 클릭합니다.
-1. **비활성화 예약** 확인란을 선택하십시오.
+1. **비활성화 예약** 확인란, <span class="preview">을(를) 선택하거나 **비활성화 날짜 설정**</span>&#x200B;을(를) 클릭합니다.
 
-1. **예약된 비활성화 날짜**&#x200B;에 대한 날짜 및 시간을 선택하십시오.
+1. **예약된 비활성화 날짜** / <span class="preview">**비활성화 날짜**</span>&#x200B;의 날짜와 시간을 선택하십시오.
 
    >[!NOTE]
    >
@@ -137,7 +139,7 @@ Workfront 관리자 및 플랜 라이선스 사용자는 사용자 프로필에�
    >* 경과한 현재 날짜의 시간을 선택하면 Workfront은 오전 12:00에 다음 날짜의 비활성화를 예약합니다.
    >* 선택한 시간은 비활성화를 예약하는 사용자의 컴퓨터 시간대와 일치합니다.
 
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
+1. **변경 내용 저장** <span class="preview"> 또는 **저장**</span>&#x200B;을 클릭합니다.
 
 사용자는 선택한 날짜 이후에 비활성화됩니다. 여러 사용자를 일괄 비활성화하도록 선택한 경우 선택한 모든 사용자는 선택한 시간 이후에 선택한 날짜에 비활성화됩니다.
 
