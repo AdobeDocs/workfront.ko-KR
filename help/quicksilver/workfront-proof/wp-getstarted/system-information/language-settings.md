@@ -8,7 +8,7 @@ description: ' [!DNL Workfront Proof] 관리자는 계정의 모든 사용자에
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca585494-5cda-4c41-b9b2-908e24d210d6
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+source-git-commit: 3a938714a948ca7681dfd7deaf924af6453dee58
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 [!DNL Workfront Proof]은(는) 다음 언어로 제공됩니다.
 
 * 영어(미국/영국)
-* 브라질어(포르투갈어)
+* 포르투갈어(브라질)
 * 중국어
 * 네덜란드어
 * 프랑스어
@@ -42,11 +42,11 @@ ht-degree: 2%
 
 계정의 기본 언어를 변경하려면 아래 단계를 수행합니다.
 
-1. [!DNL Workfront Proof]의 **[!UICONTROL 계정 설정]**&#x200B;에서 **[!UICONTROL 세부 정보]** 탭으로 이동합니다.
+1. **[!UICONTROL 의]**&#x200B;계정 설정&#x200B;**[!UICONTROL 에서]**&#x200B;세부 정보[!DNL Workfront Proof] 탭으로 이동합니다.
 
 1. **[!UICONTROL 계정 세부 정보]** 섹션에서 **[!UICONTROL 기본 언어]** 설정에 대해 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
-1. 드롭다운 메뉴에서 기본 언어를 선택합니다.\
+1. 드롭다운 메뉴에서 기본 언어를 선택합니다.
    ![account_language_setting.png](assets/account-language-setting-350x230.png)
 
 1. **[!UICONTROL 저장].** 클릭
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 개별 [!DNL Workfront Proof] 사용자는 계정에서 기본적으로 사용되는 언어와 다른 언어를 지정할 수 있습니다. 개인 기본 언어를 변경하려면 아래 단계를 따르십시오.
 
-1. [!DNL Workfront Proof]의 **[!UICONTROL 개인 설정]**&#x200B;에서 **[!UICONTROL 개인 정보]** 탭으로 이동합니다.\
+1. **[!UICONTROL 의]**&#x200B;개인 설정&#x200B;**[!UICONTROL 에서]**&#x200B;개인 정보[!DNL Workfront Proof] 탭으로 이동합니다.\
    자세한 내용은 [관리 [!DNL Workfront Proof] 사용자](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)를 참조하십시오.
 
 1. **[!UICONTROL 언어]** 설정에 표시되는 언어를 클릭합니다.
