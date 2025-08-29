@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '650'
 ht-degree: 2%
 
 ---
@@ -89,6 +89,10 @@ Adobe Workfront 관리자는 Workfront에서 통화 환율을 설정할 수 있�
    * 통화 이름을 마우스로 가리킨 다음 표시되는 **자세히** 메뉴를 클릭합니다. **기본값으로 설정**&#x200B;을 선택합니다.
 
      새 기본 통화가 아이콘으로 업데이트됩니다.
+
+     >[!NOTE]
+     >
+     >기본 통화는 목록 정렬 방식에 관계없이 항상 목록에 먼저 표시됩니다.
 
 1. (선택 사항) 통화를 삭제하려면 통화 이름 옆에 있는 확인란을 선택하고 화면 하단의 작업 표시줄에서 **삭제**&#x200B;를 선택합니다. 기본 통화는 삭제할 수 없습니다.
 
