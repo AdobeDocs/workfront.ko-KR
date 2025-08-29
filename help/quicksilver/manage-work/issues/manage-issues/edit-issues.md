@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2618'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -163,11 +163,9 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader">설명</td> 
       <td> <p>문제에 대한 추가 정보를 추가합니다.</p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">기본 정보 섹션</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">상태</td> 
       <td> <p>문제의 상태를 선택합니다. 문제 상태에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">시스템 문제 상태 목록에 액세스</a>를 참조하십시오. </p> </td> 
      </tr> 
@@ -192,8 +190,24 @@ ht-degree: 2%
         <li> <p style="font-weight: bold;">해결 방법이 없는 버그</p> </li> 
         <li> <p style="font-weight: bold;">치명적인 오류</p> </li> 
        </ul> <p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 심각도 이름이 다를 수 있습니다. 심각도 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">문제 심각도 만들기 또는 사용자 지정</a>을 참조하세요.</p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">문제 조건</td> 
+   <td> <p>문제의 상태는 진행 상황을 나타내는 플래그입니다.</p> 
+   <p>작업 또는 문제의 상태를 자동 또는 수동으로 설정할 수 있습니다.</p>
+   <p>상태를 변경하려면 문제를 할당해야 합니다.</p>
+   <p>다음 옵션 중에서 선택합니다.</p> 
+      <ul> 
+   <li> <p style="font-weight: bold;">매끄럽게 진행 중</p> </li> 
+   <li> <p style="font-weight: bold;">일부 우려 사항</p> </li> 
+   <li> <p style="font-weight: bold;">주요 장애물</p> </li> 
+   </ul> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>문제에 대한 정보와 관련된 웹 링크를 입력합니다.</p> </td> 
      </tr> 
