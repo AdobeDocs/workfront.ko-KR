@@ -6,9 +6,9 @@ description: 데이터를 막대, 열, 선 또는 원형 차트로 시각화하�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
+>>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>
+>* Amazon Web Services에 대한 자체 키 가져오기
+>* Azure
+>* Google Cloud 플랫폼
 
 차트 보고서를 작성하고 캔버스 대시보드에 추가하여 데이터를 막대, 열, 선 또는 원형 차트로 시각화할 수 있습니다.
 
 ![차트 보고서](assets/chart-report-main.png)
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
+## 액세스 요구 사항
+
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +97,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >차트에 표시할 수 있는 최대 시리즈 수가 있습니다. 이 상자를 선택하면 제한을 초과하는 모든 계열은 차트에서 **기타** 그룹화로 통합됩니다.
+      >차트에 표시할 수 있는 최대 60개의 시리즈가 있습니다. 이 상자를 선택하면 제한을 초과하는 모든 계열은 차트에서 **기타** 그룹화로 통합됩니다.
 
 1. **차트 빌드** 섹션을 구성하려면 아래 단계를 따르십시오.
 
@@ -100,7 +107,7 @@ ht-degree: 0%
 
       * **막대**
       * **열**
-      * **줄**
+      * **Line**
       * **원형**
 
    1. **열 형식** 드롭다운에서 열 형식을 선택합니다.
@@ -204,6 +211,8 @@ ht-degree: 0%
 
    1. 평가기 필드에 *$$TODAY*&#x200B;을(를) 입력합니다.
 
+      와일드카드에 대한 자세한 내용은 [캔버스 대시보드의 보고서 필터 편집](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md) 문서에서 날짜 기반 와일드카드 필터 변수 섹션을 참조하십시오.
+
       ![평가기 필드](assets/add-condition.png)
 
 1. **드릴다운 열 설정** 섹션을 구성하려면 아래 단계를 따르십시오.
@@ -227,3 +236,35 @@ ht-degree: 0%
    1. **그룹화 추가** 단추를 클릭한 다음 **프로젝트** > **이름** 필드를 선택합니다.
 
 1. 보고서를 만들고 대시보드에 추가하려면 **저장**&#x200B;을 클릭하세요.
+
+## 차트 보고서 작성 시 고려 사항
+
+### 필드 선택기 활용
+
+**차트 작성** 섹션의 **섹션** 드롭다운은 테이블 보고서를 작성할 때 개체를 더 쉽게 찾을 수 있도록 필드 선택기에서 선택 항목의 범위를 좁히도록 설계되었습니다. 시작하려면 기본 엔티티 객체를 선택합니다.
+
+* **모든 섹션**: Workfront Workflow 및 Workfront Planning의 모든 개체 유형.
+* **Workfront 개체**: 기본 Workfront 워크플로 개체.
+* **계획 레코드 종류**: Workfront Planning에 정의된 사용자 지정 레코드 종류.
+
+![섹션 드롭다운](assets/sections-dropdown.png)
+
+기본 엔터티 개체를 선택하면 **섹션** 드롭다운이 업데이트되며 선택할 수 있는 필드 형식 옵션이 제공됩니다.
+
+* **모든 섹션**: 네이티브 필드, 사용자 지정 필드 및 관련 개체.
+* **모든 필드**: 기본 필드와 사용자 지정 필드 모두(관계 제외).
+* **사용자 정의 필드**: 사용자 정의 양식 또는 Planning 레코드의 고객 정의 필드.
+* **Workfront 필드**: 기본 필드만.
+* **관계**: 연결된 레코드입니다.
+
+![보고 가능한 개체 선택](assets/reportable-objects-selection.png)
+
+### 자식 개체 참조
+
+추가 열, 필터 옵션 및 그룹화 속성에 대해 사용할 수 있는 관계는 일반적으로 Workfront 개체 계층 구조의 상위 개체로 제한되거나 보고서의 기본 엔티티 개체를 한 번만 선택합니다. 여기에는 다음과 같은 몇 가지 예외가 있습니다.
+
+* 프로젝트 > 작업
+* 문서 승인 > 문서 승인 단계
+* 문서 승인 단계 > 문서 승인 단계 참가자
+
+위에 나열된 상위-하위 관계를 활용하는 경우 상위 객체에 연결된 각 하위 레코드에 대한 행이 테이블에 표시됩니다.

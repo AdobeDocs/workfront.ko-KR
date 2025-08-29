@@ -6,10 +6,10 @@ description: Adobe Workfront 보고서 도구를 통해 만든 보고서를 캔�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 1%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
+>>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>
+>* Amazon Web Services에 대한 자체 키 가져오기
+>* Azure
+>* Google Cloud 플랫폼
 
 Adobe Workfront 보고서 도구를 통해 만든 보고서를 캔버스 대시보드에 추가할 수 있습니다. 보고서 만들기에 대한 자세한 내용은 [보고서 시작](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)을 참조하세요.
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
+## 액세스 요구 사항
+
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,6 +63,7 @@ Adobe Workfront 보고서 도구를 통해 만든 보고서를 캔버스 대시�
 
 ## 캔버스 대시보드에 기존 보고서 추가
 
+
 {{step1-to-dashboards}}
 
 1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
@@ -76,9 +84,15 @@ Adobe Workfront 보고서 도구를 통해 만든 보고서를 캔버스 대시�
 
      >[!NOTE]
      >
-     > Beta 단계의 이 시점에서는 **모든 승인** 홈 위젯만 사용할 수 있습니다. 이 목록은 Beta 단계가 진행됨에 따라 확장됩니다.
+     > Beta 단계의 이 시점에서는 **문서 승인 지표** 홈 위젯만 사용할 수 있습니다. 이 목록은 Beta 단계가 진행됨에 따라 확장됩니다.
 
 1. (선택 사항) 대시보드에 추가하기 전에 보고서의 세부 정보를 보려면 원하는 보고서와 함께 인라인으로 **보기**&#x200B;를 클릭하십시오.
 
 1. 추가하려는 보고서와 함께 인라인으로 **추가**&#x200B;를 클릭합니다.
+
+   >[!NOTE]
+   >
+   > 기존 보고서를 만든 후 대시보드에 추가하려면 대시보드 세부 정보 페이지의 오른쪽 상단에 있는 **보고서 추가** 단추를 클릭한 다음 6~9단계를 반복합니다.
+
+
 

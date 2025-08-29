@@ -6,9 +6,9 @@ description: 현저하게 집계된 단일 KPI를 표시하는 KPI 보고서를 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
+>>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>
+>* Amazon Web Services에 대한 자체 키 가져오기
+>* Azure
+>* Google Cloud 플랫폼
 
 주요 성과 지표 데이터를 숫자로 시각적으로 나타내는 KPI 보고서를 작성하고 캔버스 대시보드에 추가하여 프로젝트 및 팀의 성과를 확인하는 데 사용할 수 있습니다.
 
 ![KPI 보고서 예](assets/kpi-example-main.png)
+
+## 액세스 요구 사항
 
 +++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
@@ -107,6 +114,8 @@ KPI 보고서를 작성하는 데 사용할 수 있는 구성 옵션은 여러 �
 
    1. (선택 사항) 다른 필터링 기준 집합을 추가하려면 **필터 그룹 추가**&#x200B;를 클릭합니다. 세트 사이의 기본 연산자는 AND입니다. 연산자를 클릭하여 OR로 변경합니다.
 
+      필터에 대한 자세한 내용은 [캔버스 대시보드에서 보고서 필터 편집](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)을 참조하십시오.
+
 1. **드릴다운 열 설정** 섹션을 구성하려면 아래 단계를 따르십시오.
 
    1. 왼쪽 패널에서 **드릴다운 열** ![드릴다운 열 아이콘](assets/drilldown-column.png) 아이콘을 클릭합니다. 차트의 필드는 오른쪽의 미리보기 섹션에 자동으로 열로 표시됩니다.
@@ -174,5 +183,37 @@ KPI 보고서 예제에 대한 자세한 내용은 [검토 및 승인을 위한 
    1. 연산자를 **Equal**(으)로 유지한 다음 텍스트 상자에 _검토 보류 중_을 입력하십시오.
       ![보류 중인 kpi 필터 예](assets/pending-kpi-filter.png)
 1. 화면 오른쪽 상단에서 **저장**&#x200B;을 클릭합니다.
+
+## KPI 보고서 작성 시 고려 사항
+
+### 필드 선택기 활용
+
+**KPI 작성** 섹션의 **섹션** 드롭다운은 테이블 보고서를 작성할 때 개체를 더 쉽게 찾을 수 있도록 필드 선택기의 선택 범위를 좁히도록 설계되었습니다. 시작하려면 기본 엔티티 객체를 선택합니다.
+
+* **모든 섹션**: Workfront Workflow 및 Workfront Planning의 모든 개체 유형.
+* **Workfront 개체**: 기본 Workfront 워크플로 개체.
+* **계획 레코드 종류**: Workfront Planning에 정의된 사용자 지정 레코드 종류.
+
+![섹션 드롭다운](assets/sections-dropdown.png)
+
+기본 엔터티 개체를 선택하면 **섹션** 드롭다운이 업데이트되며 선택할 수 있는 필드 형식 옵션이 제공됩니다.
+
+* **모든 섹션**: 네이티브 필드, 사용자 지정 필드 및 관련 개체.
+* **모든 필드**: 기본 필드와 사용자 지정 필드 모두(관계 제외).
+* **사용자 정의 필드**: 사용자 정의 양식 또는 Planning 레코드의 고객 정의 필드.
+* **Workfront 필드**: 기본 필드만.
+* **관계**: 연결된 레코드입니다.
+
+![보고 가능한 개체 선택](assets/reportable-objects-selection.png)
+
+### 자식 개체 참조
+
+추가 열, 필터 옵션 및 그룹화 속성에 대해 사용할 수 있는 관계는 일반적으로 Workfront 개체 계층 구조의 상위 개체로 제한되거나 보고서의 기본 엔티티 개체를 한 번만 선택합니다. 여기에는 다음과 같은 몇 가지 예외가 있습니다.
+
+* 프로젝트 > 작업
+* 문서 승인 > 문서 승인 단계
+* 문서 승인 단계 > 문서 승인 단계 참가자
+
+위에 나열된 상위-하위 관계를 활용하는 경우 상위 객체에 연결된 각 하위 레코드에 대한 행이 테이블에 표시됩니다.
 
 

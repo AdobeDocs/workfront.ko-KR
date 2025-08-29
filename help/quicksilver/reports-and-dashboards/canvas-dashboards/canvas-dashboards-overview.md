@@ -7,10 +7,10 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,12 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
+>>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>
+>* Amazon Web Services에 대한 자체 키 가져오기
+>* Azure
+>* Google Cloud 플랫폼
 
 캔버스 대시보드를 사용하면 크기 조정, 드래그 앤 드롭 등을 비롯한 다양한 유연한 레이아웃 옵션을 제공하는 캔버스에 보고서 유형을 추가하여 Adobe Workfront 데이터를 손쉽게 시각화할 수 있습니다.
 
@@ -32,6 +37,29 @@ Canvas Dashboards를 사용하면 문서 승인 결정 및 Workfront 계획을 �
 * Canvas 대시보드를 만들려면 플랜 라이선스(현재 라이선스) 또는 Standard 라이선스(새 라이선스)가 있어야 합니다. Workfront 라이선스 유형에 대한 자세한 내용은 [라이선스 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 또는 [새 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)를 참조하십시오.
 
 * Workfront 대시보드를 만들거나 편집하려면 Canvas 관리자가 액세스 수준의 대시보드에 대한 편집 액세스 권한을 부여해야 합니다. 편집 액세스 권한 부여에 대한 자세한 내용은 [보고서, 대시보드 및 일정에 대한 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)를 참조하십시오.
+
+## 캔버스 대시보드 문서
+
+* 캔버스 대시보드 베타
+   * [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+* 대시보드 만들기
+   * [캔버스 대시보드 만들기](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
+* 보고서 추가
+   * [캔버스 대시보드에 기존 보고서 추가](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+   * [캔버스 대시보드에서 KPI 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+   * [캔버스 대시보드에서 차트 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+   * [캔버스 대시보드에서 표 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+* 캔버스 대시보드 관리
+   * [캔버스 대시보드 공유](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+   * [캔버스 대시보드에서 보고서 정렬](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+   * [캔버스 대시보드 필터링](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
+   * [캔버스 대시보드의 이름 또는 설명 변경](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+   * [캔버스 대시보드 삭제](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+   * [레이아웃 템플릿에 캔버스 대시보드 추가](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
+* 보고서 관리
+   * [캔버스 대시보드에서 보고서 편집](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+   * [캔버스 대시보드에서 보고서 필터 편집](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+   * [캔버스 대시보드에서 보고서 삭제](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
 
 ## 현재 및 계획된 기능
 
@@ -67,6 +95,10 @@ Canvas Dashboards를 사용하면 문서 승인 결정 및 Workfront 계획을 �
 * 성능 최적화
 
 ### 향후 로드맵 기능
+
+>[!NOTE]
+>
+>아래 나열된 로드맵 우선 순위는 베타 기간 동안 받은 피드백을 기반으로 조정됩니다.
 
 * 포함된 웹 보기
 * 캘린더

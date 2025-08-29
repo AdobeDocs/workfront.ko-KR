@@ -5,10 +5,11 @@ title: 캔버스 대시보드의 이름 또는 설명 변경
 description: 캔버스 대시보드를 만든 후 캔버스 대시보드의 이름이나 설명을 편집할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 1%
+source-wordcount: '297'
+ht-degree: 2%
 
 ---
 
@@ -16,14 +17,21 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
+>>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>
+>* Amazon Web Services에 대한 자체 키 가져오기
+>* Azure
+>* Google Cloud 플랫폼
+
 
 캔버스 대시보드를 만든 후 캔버스 대시보드의 이름이나 설명을 편집할 수 있습니다.
 
 대시보드에 대한 모든 변경 사항은 해당 변경 사항에 액세스할 수 있는 모든 사용자에게 영향을 줍니다.
 
+## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,6 +78,10 @@ ht-degree: 1%
 
 ## 대시보드 이름 및 설명 변경
 
+>[!NOTE]
+>
+>와 Canvas 대시보드를 공유한 사용자는 Canvas 대시보드 인벤토리 목록 및 대시보드 세부 정보 섹션에서 이름과 설명을 볼 수 있습니다.
+
 {{step1-to-dashboards}}
 
 1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
@@ -83,4 +95,6 @@ ht-degree: 1%
 1. 새 **설명**&#x200B;을 입력하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
+
+
 

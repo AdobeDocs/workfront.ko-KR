@@ -5,10 +5,11 @@ title: 캔버스 대시보드에서 보고서 삭제
 description: 캔버스 대시보드에서 보고서를 삭제할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
+source-git-commit: 68a4a9d1c3980fd947b5fefef19cdfa09591e849
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 0%
+source-wordcount: '292'
+ht-degree: 1%
 
 ---
 
@@ -16,14 +17,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
+>>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>
+>* Amazon Web Services에 대한 자체 키 가져오기
+>* Azure
+>* Google Cloud 플랫폼
 
 캔버스 대시보드를 만들고 보고서를 추가한 후에는 해당 특정 대시보드에 더 이상 적용할 수 없는 이전 보고서를 삭제할 수 있습니다.
 
 보고서 삭제는 영구적입니다. 보고서가 삭제된 후 다시 추가해야 하는 경우 보고서를 다시 만들어야 합니다.
 
+## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -81,7 +88,7 @@ ht-degree: 0%
 
 1. 대시보드 세부 정보 페이지에서 삭제할 보고서 위젯의 오른쪽 위 모서리에 있는 **자세히** ![자세히 아이콘](assets/more-icon.png) 아이콘을 클릭합니다.
 
-1. **제거**&#x200B;를 선택합니다.
+1. **제거**를 선택합니다.
    ![보고서 제거](assets/delete-a-report.png)
 
 1. **보고서 삭제** 대화 상자에서 **삭제**&#x200B;를 클릭합니다.

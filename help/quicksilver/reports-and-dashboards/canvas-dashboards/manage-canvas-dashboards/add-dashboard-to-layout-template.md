@@ -5,10 +5,11 @@ title: 레이아웃 템플릿에 캔버스 대시보드 추가
 description: 레이아웃 템플릿에 캔버스 대시보드를 추가하여 홈 랜딩 페이지를 대체하거나, 오브젝트의 왼쪽 패널에 나타나거나, 상단 막대에 고정되도록 할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 1%
+source-wordcount: '547'
+ht-degree: 2%
 
 ---
 
@@ -16,11 +17,18 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
+>>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>
+>* Amazon Web Services에 대한 자체 키 가져오기
+>* Azure
+>* Google Cloud 플랫폼
 
 레이아웃 템플릿에 캔버스 대시보드를 추가하여 홈 랜딩 페이지를 대체하거나, 오브젝트의 왼쪽 패널에 나타나거나, Adobe Workfront 전체에서 맨 위 막대에 고정되도록 할 수 있습니다.
 
 ![왼쪽 패널](assets/left-panel.png)
+
+## 액세스 요구 사항
 
 +++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 

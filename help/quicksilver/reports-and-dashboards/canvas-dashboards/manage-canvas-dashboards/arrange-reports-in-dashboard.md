@@ -5,10 +5,11 @@ title: 캔버스 대시보드에서 보고서 정렬
 description: 보고서가 캔버스 대시보드에 추가된 후 표시되는 방식을 정렬할 수 있습니다.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 0%
+source-wordcount: '330'
+ht-degree: 1%
 
 ---
 
@@ -16,11 +17,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
+>>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>
+>* Amazon Web Services에 대한 자체 키 가져오기
+>* Azure
+>* Google Cloud 플랫폼
 
-보고서가 캔버스 대시보드에 추가되면 대시보드에 보고서 위젯으로 표시되므로 데이터를 한 눈에 빠르게 시각화할 수 있습니다. 여러 보고서가 추가되면 대시보드 데이터를 보다 효율적으로 표시하기 위해 각 위젯의 크기와 순서를 재정렬하는 것이 좋습니다.
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
+보고서가 캔버스 대시보드에 추가되면 대시보드에 보고서 위젯으로 표시되므로 데이터를 한 눈에 빠르게 시각화할 수 있습니다. 여러 보고서가 추가되면 대시보드 내에서 보고서 내용에 가장 잘 맞도록 각 위젯의 크기를 설정한 다음 각 위젯의 위치를 조정하여 데이터를 보다 효과적으로 표시할 수 있습니다.
+
+## 액세스 요구 사항
+
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
