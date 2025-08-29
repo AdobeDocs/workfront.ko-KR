@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 4분기 릴리스의 요청 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록을 보려면 [2025년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)를 참조하십시오.
+
+## 통합 요청 목록의 결합된 새 상태 열
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 8월 28일
+>* 프로덕션 빠른 릴리스: 2025년 9월 11일
+>* 모든 고객을 위한 프로덕션: 2025년 10월 16일
+
+이제 통합 요청 경험을 단순화하기 위해 상태 열에 요청 상태와 승인 상태 중 지정된 요청에 적용되는 상태가 모두 표시됩니다.
+
+요청 만들기에 대한 자세한 내용은 다음을 참조하십시오.
+
+* Workfront의 경우: [요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* Workfront Planning의 경우: [레코드를 만들 수 있도록 Adobe Workfront Planning 요청을 제출](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## 요청 경험 업데이트
 
