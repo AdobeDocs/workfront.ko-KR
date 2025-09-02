@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 조직은 계정 관리자와 협력하여 AppBuilder를 구매해야 합니다. POC를 위해서 이렇게 할 필요가 없었기 때문에 이에 대한 정확한 프로세스는 이해가 되지 않습니다.
 
 AppBuilder 통합을 테스트하려면 여기에서 IMS 조직에 대한 무료 평가판을 요청할 수 있습니다.
-[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/set-up#access-and-credentials)
 
 30일 무료 체험판인데도 그 시간이 지나면 실제로 체험판이 비활성화되지 않을 거라는 인상을 받고 있다.
 
@@ -89,7 +89,7 @@ AppBuilder가 제대로 구성된 경우 새 프로젝트 만들기의 일부로
 
 ## Adobe IO(aio) CLI
 
-Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 오픈 소스 CLI를 제공합니다. 설명서는 [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) 및 Adobe App Builder 지침 [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/)에서 찾을 수 있습니다.
+Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 오픈 소스 CLI를 제공합니다. 설명서는 [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) 및 Adobe App Builder 지침 [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)에서 찾을 수 있습니다.
 
 1. 설치
    1. 도구를 설치하려면(먼저 노드 v18에 있는지 확인) `npm install -g @adobe/aio-cli `을(를) 실행합니다.
@@ -107,7 +107,6 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
 
 1. 템플릿 선택 및 설정
    1. 사용 가능한 모든 템플릿을 탐색하고 프로젝트의 **@adobe/aem-cf-editor-ui-ext-tpl** 템플릿을 선택합니다.
-
       ![검색 템플릿](assets/search-template.png)
       ![템플릿 선택](assets/select-template.png)
 
@@ -115,8 +114,7 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
    1. 확장 이름을 지정합니다.
    1. 확장 기능에 대한 설명 요약을 제공합니다.
    1. 시작할 초기 버전 번호를 선택합니다.
-   1. **완료**&#x200B;를 선택하여 완료를 확인합니다.
-
+   1. **완료**를 선택하여 완료를 확인합니다.
       ![확장 정의](assets/define-extension.png)
 
 1. 프로젝트 폴더로 이동
@@ -130,7 +128,7 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
 
 1. Extension Registration 구성 요소 편집
    1. `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js` 열기
-   1. 메서드 섹션에서 비동기 함수 `getButtons`이(가) 포함된 함수 `secondaryNav`을(를) 추가합니다.
+   1. 메서드 섹션에서 비동기 함수 `secondaryNav`이(가) 포함된 함수 `getButtons`을(를) 추가합니다.
    1. `getButtons`은(는) 다음 구조의 개체를 받아야 합니다.
 
       ```
@@ -174,7 +172,7 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
       ```
 
 1. 문서 세부 정보 액세스
-   1. 응용 프로그램 내에서 제공된 함수 `document.getDocumentDetails`을(를) 구현하여 필수 문서 세부 정보를 가져옵니다. 이 함수는 `hostname`, `protocol` 및 인증 세부 정보가 있는 `sharedContext` 개체와 함께 `docId` 및 `docvId`을(를) 포함하는 개체를 검색합니다. 애플리케이션이 이 데이터를 적절히 처리하는지 확인합니다.
+   1. 응용 프로그램 내에서 제공된 함수 `document.getDocumentDetails`을(를) 구현하여 필수 문서 세부 정보를 가져옵니다. 이 함수는 `docId`, `docvId` 및 인증 세부 정보가 있는 `sharedContext` 개체와 함께 `hostname` 및 `protocol`을(를) 포함하는 개체를 검색합니다. 애플리케이션이 이 데이터를 적절히 처리하는지 확인합니다.
 
 1. 구성 요소에서 데이터 가져오기 통합
    1. 응용 프로그램의 구성 요소 폴더에 새 구성 요소를 추가합니다. 이 구성 요소 내에서 Workfront에 대한 연결을 설정하여 호스트 애플리케이션과 연결된 연결을 사용하여 문서 정보 및 인증 데이터를 검색합니다. 다음은 이러한 문제를 해결하기 위해 구성 요소를 구성하는 방법의 예입니다.
@@ -224,7 +222,7 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
 
 1. Extension Registration 구성 요소 수정
    1. 이름이 `ExtensionRegistration.js`인 파일을 찾아 엽니다.
-   1. 메서드 섹션에서 비동기 함수 `getButtons`이(가) 포함된 함수 `secondaryNav`을(를) 추가합니다.
+   1. 메서드 섹션에서 비동기 함수 `secondaryNav`이(가) 포함된 함수 `getButtons`을(를) 추가합니다.
    1. `getButtons`은(는) 다음 구조의 개체를 받아야 합니다.
 
       ```
@@ -268,7 +266,7 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
       ```
 
 1. 문서 세부 정보 액세스
-   1. 응용 프로그램 내에서 제공된 함수 `document.getDocumentDetails`을(를) 구현하여 필수 문서 세부 정보를 가져옵니다. 이 함수는 `hostname`, `protocol` 및 인증 세부 정보가 있는 `sharedContext` 개체와 함께 `docId` 및 `docvId`을(를) 포함하는 개체를 검색합니다. 애플리케이션이 이 데이터를 적절히 처리하는지 확인합니다.
+   1. 응용 프로그램 내에서 제공된 함수 `document.getDocumentDetails`을(를) 구현하여 필수 문서 세부 정보를 가져옵니다. 이 함수는 `docId`, `docvId` 및 인증 세부 정보가 있는 `sharedContext` 개체와 함께 `hostname` 및 `protocol`을(를) 포함하는 개체를 검색합니다. 애플리케이션이 이 데이터를 적절히 처리하는지 확인합니다.
 
 1. 구성 요소에서 데이터 가져오기 통합
    1. 응용 프로그램의 구성 요소 폴더에 새 구성 요소를 추가합니다. 이 구성 요소 내에서 Workfront에 대한 연결을 설정하여 호스트 애플리케이션과 연결된 연결을 사용하여 문서 정보 및 인증 데이터를 검색합니다. 다음은 이러한 문제를 해결하기 위해 구성 요소를 구성하는 방법의 예입니다.
@@ -343,7 +341,7 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
 
 1. 시스템 관리자의 경우 [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) 또는 [https://exchange.adobe.com/](https://exchange.adobe.com/)&#x200B;(으)로 이동합니다.
 
-1. **관리** > **Experience Cloud 응용 프로그램**&#x200B;을 클릭합니다. 제출된 앱에는 승인/거부 옵션이 표시됩니다.
+1. **관리** > **Experience Cloud 응용 프로그램**을 클릭합니다. 제출된 앱에는 승인/거부 옵션이 표시됩니다.
 승인되면 게시된 애플리케이션 확장은 Workfront 환경에 자동으로 로드됩니다.
 
    ![승인된 제출](assets/approve-submission.png)
@@ -354,7 +352,7 @@ Adobe에는 AppBuilder용 앱 빌드를 시작하고 배포하는 방법에 대�
 
 다음은 몇 가지 유용한 링크입니다.
 
-* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
+* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#bootstrap-the-new-app-using-the-cli)
 
 * [https://developer.adobe.com/uix/docs/guides/publication/](https://developer.adobe.com/uix/docs/guides/publication/)
 

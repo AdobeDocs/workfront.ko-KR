@@ -4,7 +4,7 @@ description: Adobe App Builder 기반의 Workfront UI 확장 기능을 사용하
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 1%
@@ -115,7 +115,7 @@ Adobe에서는 App Builder 애플리케이션을 만드는 데 사용할 수 있
    ![명령 결과](assets/1-command-result.png)
    ![프로젝트 선택](assets/2-select-a-project.png)
 
-1. 사용 가능한 모든 템플릿을 탐색하고 프로젝트의 **@adobe/workfront-ui-ext-tpl**&#x200B;을(를) 선택하십시오.
+1. 사용 가능한 모든 템플릿을 탐색하고 프로젝트의 **@adobe/workfront-ui-ext-tpl**을(를) 선택하십시오.
    ![템플릿 선택](assets/3-choose-template.png)
 1. Adobe Developer Console에서 만든 프로젝트 이름을 선택하고 입력합니다.
    ![프로젝트 이름 선택 및 입력](assets/4-select-and-enter-project-name.png)
@@ -133,7 +133,7 @@ Adobe에서는 App Builder 애플리케이션을 만드는 데 사용할 수 있
    ![생성 진행 중](assets/6-generation-in-process.png)
 1. 앱 초기화가 완료되었다는 메시지가 표시될 때까지 기다립니다. 그런 다음 IDE(Visual Studio Code 권장)에서 프로젝트를 열고 src 폴더에 액세스할 수 있습니다.
 
-   프로젝트의 폴더 및 파일에 대한 자세한 내용은 [Adobe 개발자 사이트](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application)를 참조하십시오.
+   프로젝트의 폴더 및 파일에 대한 자세한 내용은 [Adobe 개발자 사이트](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application)를 참조하십시오.
 
 ## VSCode에서 확장 빌드
 
@@ -152,13 +152,13 @@ Workfront 기본 메뉴에서 사용자 지정 응용 프로그램을 허용하�
 ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드는 템플릿에서 만들었습니다. 이 코드를 추가하여 추가 메뉴 항목을 만들 수 있습니다. ID 및 URL을 바꾸십시오.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    반환 &lbrack;
+    반환 [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -168,13 +168,13 @@ ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드�
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. 다음 코드 조각을 추가합니다.
@@ -237,7 +237,7 @@ Workfront 왼쪽 패널 탐색에서 사용자 정의 애플리케이션을 허�
    ![코드 예제](assets/9-app-file-step-1-from-sam.png)
 1. 작업 내용을 저장합니다.
 
-응용 프로그램 개발 및 실행에 대한 자세한 내용은 [Adobe 개발자 사이트](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#6developing-the-application)를 참조하십시오.
+응용 프로그램 개발 및 실행에 대한 자세한 내용은 [Adobe 개발자 사이트](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application)를 참조하십시오.
 
 ## 공유 컨텍스트
 
