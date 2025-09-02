@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2739'
 ht-degree: 3%
 
 ---
@@ -62,9 +62,9 @@ ht-degree: 3%
 * 문서
 * 경비
 * 필드
-* 시간
+* Hour
 * 문제
-* 참고
+* 메모
 * 포트폴리오
 * 프로그램
 * 프로젝트
@@ -89,6 +89,10 @@ ht-degree: 3%
 * 이벤트 구독 API를 사용하려면 `sessionID` 헤더가 필요합니다.
 
   자세한 내용은 [API 기본 사항](api-basics.md#authentication)의 [인증](api-basics.md)을 참조하세요.
+
+## 이벤트 구독 오버로드 방지
+
+이벤트 구독 서비스는 모든 사용자에게 이벤트를 안정적으로 전달하도록 설계되었습니다. 이를 위해 단일 사용자의 과도한 이벤트 생성으로 모든 사용자에게 잠재적인 서비스 품질 문제가 발생할 수 있는 것을 방지하기 위한 안전 장치를 마련했다. 따라서 짧은 시간 내에 너무 많은 이벤트를 높은 비율로 생성하는 사용자는 샌드박싱과 이벤트 전달 지연을 경험할 수 있습니다.
 
 ## 구독 리소스 구성
 
@@ -149,7 +153,7 @@ ht-degree: 3%
         <td scope="col"><p>필드</p></td> 
        </tr> 
       <tr> 
-        <td scope="col"><p>시간</p></td> 
+        <td scope="col"><p>Hour</p></td> 
         <td scope="col">시간</td> 
        </tr> 
        <tr> 
@@ -157,7 +161,7 @@ ht-degree: 3%
         <td scope="col"><p>OPTASK</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">참고</td> 
+        <td scope="col">메모</td> 
         <td scope="col">메모</td> 
        </tr> 
        <tr> 
@@ -299,7 +303,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 응답 헤더 | 예 |
 |---|---|
 | Content-Length | `→0` |
-| 일자 | `→Wed, 05 Apr 2017 21:23:33 GMT` |
+| Date | `→Wed, 05 Apr 2017 21:23:33 GMT` |
 | 위치 | `→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2` |
 | 서버 | `→Apache-Coyote/1.1` |
 
@@ -357,7 +361,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 응답 헤더 | 예 |
 |---|---|
 | Content-Type | `→application/json;charset=UTF-8` |
-| 일자 | `→Wed, 05 Apr 2017 21:29:32 GMT` |
+| Date | `→Wed, 05 Apr 2017 21:29:32 GMT` |
 | 서버 | `→Apache-Coyote/1.1` |
 | 전송 인코딩 | `→chunked` |
 
@@ -804,7 +808,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 }
 ```
 
-#### 상태
+#### state
 
 이 커넥터를 사용하면 필터가 생성 또는 업데이트된 객체의 새 상태 또는 이전 상태에 적용됩니다. 이 기능은 어떤 항목에서 다른 항목으로 변경된 위치를 알고 싶을 때 유용합니다.
 `oldState` 만들기에서 `eventTypes`을(를) 사용할 수 없습니다.
@@ -812,7 +816,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >지정된 필터가 있는 아래 구독은 `again`에서 작업 이름이 `oldState`인 메시지만 반환합니다. 이 메시지는 작업에 대한 업데이트가 이루어지기 전입니다.
->&#x200B;>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
+>>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
 
 ```
 {
@@ -967,7 +971,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 
 | 응답 헤더 | 예 |
 |---|---|
-| 일자 | `→Wed, 05 Apr 2017 21:33:41 GMT` |
+| Date | `→Wed, 05 Apr 2017 21:33:41 GMT` |
 | 서버 | `→Apache-Coyote/1.1` |
 
 

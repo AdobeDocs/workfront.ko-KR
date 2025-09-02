@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 0%
 
 요청에 추가 본문 필드를 포함하지 마십시오. 그렇게 하면 API에서 구독을 만들지 못합니다.
 
+## 이벤트 구독 오버로드 방지
+
+이벤트 구독 서비스는 모든 사용자에게 이벤트를 안정적으로 전달하도록 설계되었습니다. 이를 위해 단일 사용자의 과도한 이벤트 생성으로 모든 사용자에게 잠재적인 서비스 품질 문제가 발생할 수 있는 것을 방지하기 위한 안전 장치를 마련했다. 따라서 짧은 시간 내에 너무 많은 이벤트를 높은 비율로 생성하는 사용자는 샌드박싱과 이벤트 전달 지연을 경험할 수 있습니다.
+
 ## 유예 기간 내에 테스트 완료
 
 100개의 메시지 유예 기간 내에 모든 구독 테스트를 완료해 보십시오. 이 유예 기간에 대한 자세한 내용은 [FAQ - 이벤트 구독](../../wf-api/general/event-subs-faq.md)을 참조하세요.
@@ -46,9 +50,9 @@ ht-degree: 0%
 
 이벤트 구독을 생성, 쿼리 또는 삭제하려면 Workfront 사용자가 필요합니다.
 
-* **시스템 관리자**&#x200B;의 액세스 수준
+* **시스템 관리자**의 액세스 수준
 자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) 또는 [사용자에게 특정 영역에 대한 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
 
 * 이벤트 구독 API를 사용하려면 `sessionID` 헤더가 필요합니다.
 
-  자세한 내용은 [API 기본 사항](api-basics.md)의 [인증](api-basics.md#authentication)을 참조하세요.
+  자세한 내용은 [API 기본 사항](api-basics.md#authentication)의 [인증](api-basics.md)을 참조하세요.
