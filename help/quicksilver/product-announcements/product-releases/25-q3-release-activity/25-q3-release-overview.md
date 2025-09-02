@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+source-git-commit: e82c1a122f7a11fda2210de75c5f62c5fbaa35f0
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1875'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| 월별 릴리스 | 분기별 릴리스 |
 >|----|----|
->| <ul><li>25.5 (2025년 5월)</li><li>25.6 (2025년 6월)</li><li>25.7 (2025년 7월)</li></ul> | <ul><li>25.7 (2025년 7월)</li></ul> |
+>| <ul><li>25.5 (2025년 5월 15일)</li><li>25.6 (2025년 6월 12일)</li><li>25.7 (2025년 7월 17일)</li></ul> | <ul><li>25.7 (2025년 7월 17일)</li></ul> |
 >
 >각 분기의 최종 릴리스(이번 분기 25.7개)의 경우 빠른 릴리스 일정에 있는 사용자는 하루 일찍 릴리스를 받게 됩니다.
 >
@@ -387,11 +387,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
 
 
 
