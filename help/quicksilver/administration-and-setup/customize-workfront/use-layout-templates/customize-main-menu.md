@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 00ec13dfb082ecd9b087d79b385a4eea677cf55d
+source-git-commit: f9455b5aa57585a0e037f024807c19d48296d518
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '681'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,6 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
    * 타임시트
    * 문서
    * 템플릿
-   * 교정
    * 목표
 
      >[!NOTE]
