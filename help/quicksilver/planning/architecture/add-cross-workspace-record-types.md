@@ -4,9 +4,9 @@ description: 레코드 유형은 Adobe Workfront Planning의 객체 유형입니
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -44,48 +44,28 @@ recommendations: noDisplay, noCatalog
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> 제품</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront 패키지*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront 계획<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
-   <td> 
-<p>다음 Workfront 플랜 중 하나:</p> 
-<ul><li>선택</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td> 
-   <td> 
-<p>임의 </p> 
+<ul><li><p>모든 Workfront 패키지</p></li>
+And
+<li><p>Planning Plus 패키지</p></li></ul>
+또는:
+<ul><li><p>모든 워크플로우 패키지</p> </li>
+And
+<li><p>Prime 또는 Ultimate 패키지 계획</p></li></ul>
 <p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
-   <td> 
-<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td><p> 표준</p>
-   <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
+   <td><p>표준</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 영역</a>에 대한 권한 관리 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
@@ -105,8 +85,9 @@ recommendations: noDisplay, noCatalog
 * 다른 작업 영역에서 레코드 유형을 추가하면 기존 레코드 유형에서 다음 정보도 추가됩니다.
 
    * 필드
-   * 레코드
    * 레코드 연결
+
+* 다른 작업 영역에서 추가된 레코드는 해당 작업 영역에 대한 권한이 있는 경우에만 볼 수 있습니다.
 
 * 필드를 포함한 레코드 유형은 원래 작업 공간에서만 편집할 수 있습니다. 추가된 작업공간에서는 편집할 수 없습니다.
 * 모든 작업 영역에서 추가된 레코드는 권한이 없는 작업 영역에서 생성된 경우에도 모든 작업 영역에서 액세스하는 모든 사용자에게 표시됩니다.

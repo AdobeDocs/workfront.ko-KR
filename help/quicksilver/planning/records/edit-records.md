@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 0%
@@ -107,8 +107,8 @@ ht-degree: 0%
    * 레코드의 세부 정보 페이지
    * 테이블 보기에서 인라인입니다.
 <!--* You can edit a record's dates from the following areas:
-    * All areas listed above
-    * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * All areas listed above
+        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
 
 * 사용자가 보기에서 레코드를 편집하면 변경 내용이 모든 보기에서 즉시 표시되고 레코드 페이지가 다른 모든 사용자에게 표시됩니다.

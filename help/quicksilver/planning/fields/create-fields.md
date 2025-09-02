@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '5244'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ko ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -46,7 +46,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -108,7 +108,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++   
 
 ## 레코드 유형을 연결하여 필드 만들기
 
@@ -194,13 +194,13 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
    * [단락](#paragraph)
    * [다중 선택](#multi-select)
    * [단일 선택](#single-select)
-   * [일자](#date)
+   * [Date](#date)
    * [숫자](#number)
    * [백분율](#percentage)
    * [통화](#currency)
    * [확인란](#checkbox)
    * [공식](#formula)
-   * [사용자](#people)
+   * [사람](#people)
    * [제작자](#created-by)
    * [제작 일자](#created-date)
    * [마지막 수정자](#last-modified-by)
@@ -264,6 +264,14 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
 다중 선택 필드를 사용하여 드롭다운 메뉴에서 두 개 이상의 옵션을 선택하여 모든 형식의 추가 정보를 캡처할 수 있습니다.
 
+<!--
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's multi-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
+editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+-->
+
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **다중 선택** 필드 형식을 선택합니다.
 
    ![다중 선택 필드 형식](assets/multi-select-field-type.png)
@@ -293,6 +301,14 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
 필드를 한 번 선택하면 드롭다운 메뉴에서 옵션 하나를 선택하여 원하는 형식으로 추가 정보를 캡처할 수 있습니다.
 
+<!--
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's single-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
+editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+-->
+
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **Single-select** 필드 형식을 선택합니다.
 
    ![단일 선택 필드 형식](assets/single-select-field-type.png)
@@ -318,7 +334,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
    새 단일 선택 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
-### 일자 {#date}
+### Date {#date}
 
 날짜 필드를 사용하여 날짜 및 시간 형식으로 추가 정보를 캡처할 수 있습니다.
 
@@ -358,7 +374,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 >숫자 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 숫자로 표시됩니다.
->&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **숫자** 필드 형식을 선택합니다.
@@ -388,7 +404,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 >백분율 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 백분율로 표시됩니다.
->&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **백분율** 필드 형식을 선택합니다.
@@ -428,7 +444,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 >통화 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 통화로 표시됩니다.
->&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **통화** 필드 형식을 선택합니다.
 
@@ -537,7 +553,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
    새 수식 필드가 레코드 종류에 열로 추가되고 해당 값은 레코드와 연결될 수 있습니다.
 
-### 사용자
+### 사람
 
 사람 필드 형식을 사용하여 <!--, job role, or team--> 사용자를 레코드에 추가할 수 있습니다. 이는 자동 완성 필드이며 Workfront 인스턴스에 이미 존재하는 사용자 <!--, roles, or teams-->만 추가할 수 있습니다.
 

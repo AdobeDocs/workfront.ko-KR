@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '3872'
 ht-degree: 2%
@@ -27,7 +27,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -93,7 +93,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++     
 
 ## 타임라인 보기 관리 {#manage-a-timeline-view}
 
@@ -119,6 +119,12 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 * 타임라인 보기에서 레코드를 만들고 편집할 수 있습니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
 </div>
+
+<!--move this bullet under the same div as above OR add a span or another div tag?? ??
+
+* You can resize the records' bars in the timeline view. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+-->
 
 타임라인 보기를 관리하려면 다음을 수행합니다.
 
@@ -282,7 +288,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
             <p>비어 있지 않음</p></td>
         </tr>
         <tr>
-            <td>일자</td>
+            <td>Date</td>
             <td><p>다음과 같음</p>
             <p>다음이 아님</p>
             <p>다음 이후</p>

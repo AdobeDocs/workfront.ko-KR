@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1620'
 ht-degree: 5%
 
 ---
@@ -145,9 +145,11 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [필터](#add-filters)
+     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
    * [설정](#edit-the-calendar-view-settings)
-     <!--* [Grouping](#add-grouping)-->
-     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+   <!--* [Grouping](#add-grouping)-->
+   <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
 
 ### 필터 추가
 
@@ -174,7 +176,7 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 달력 보기에 필터를 추가하려면 다음 작업을 수행하십시오.
 
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형 페이지에 대한 일정 보기를 만듭니다.
-1. 달력 보기를 선택한 다음 표의 오른쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다.
+1. 달력 보기를 선택한 다음 달력의 도구 모음에서 **필터**&#x200B;를 클릭합니다.
 1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
    * **(으)로 필터링할**&#x200B;필드 선택<!-- the tip below might change-->
@@ -266,6 +268,76 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 
 1. (선택 사항) 필터 조건을 제거하려면 **x** 아이콘을 클릭하십시오.
 1. (선택 사항) 필터 상자를 닫으려면 **필터**&#x200B;를 클릭합니다. <!--right now you cannot "clear all" for filters, but this might come later-->
+
+<!--
+<span class="preview">
+
+### Modify row height
+
+You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+
+The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+
+1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Select a calendar view, then click **Row height** in the calendar's toolbar.    
+1. Choose from the following options: 
+
+<table>
+<thead>
+<tr>
+    <th><b>Row height option</b></th>
+    <th><b>Number of records</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>Short</td>
+    <td><p>Contains:</p>
+
+<ul><li>2 records displaying 1 field</li>
+<li>1 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr><td>Standard</td>
+    <td><p>Contains:</p>
+
+<ul><li>4 records displaying 1 field</li>
+<li>2 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr>
+    <td>Medium</td>
+    <td><p>Contains:</p>
+
+<ul><li>8 records displaying 1 field</li>
+<li>4 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr>
+    <td>Tall</td>
+    <td><p>Contains:</p>
+
+<ul><li>12 records displaying 1 field</li>
+<li>6 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr>
+    <td>Fit to content</td>
+    <td><p>All records are visible, up to 500 records</p></td>
+</tr>
+</tbody>
+</table> 
+
+1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
+
+    >[!TIP]
+    >
+    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
+
+
+</span>
+
+-->
 
 ### 달력 보기 설정 편집
 

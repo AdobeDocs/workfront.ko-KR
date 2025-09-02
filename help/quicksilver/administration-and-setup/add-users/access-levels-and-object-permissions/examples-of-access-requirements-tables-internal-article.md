@@ -4,9 +4,9 @@ description: 액세스 요구 사항에 사용되는 테이블의 인벤토리�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
+source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '752'
 ht-degree: 2%
 
 ---
@@ -208,36 +208,59 @@ ht-degree: 2%
 </col> 
 <tbody> 
 <tr> 
-<td> 
-   <p> 제품</p> </td> 
-   <td> 
-   <p> Adobe Workfront</p>
-   </td> 
-  </tr>
-
-<tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>모든 Adobe Workfront Workflow 패키지 및 모든 Adobe Workfront Planning 패키지</p> 
+<ul><li><p>모든 Workfront 패키지</p></li>
+And
+<li><p>모든 Planning 패키지</p></li></ul>
+또는
+<ul><li><p>모든 워크플로우 패키지</p></li>
+And
+<li><p>모든 Planning 패키지</p></li></ul>
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront platform(**&#x200B;**&#x200B;이 문제를 해결하시겠습니까? 아니면 이 문제를 맨 아래에 연결된 문서의 일부로 만드시겠습니까???**&#x200B;***)</p></td> 
-   <td> 
-<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
-   </td> 
-   </tr> 
-  </tr> 
+
+</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p> 표준</p> 
+   <td><p>표준</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>   
-</td> 
-  </tr> 
+   <td role="rowheader"><p>개체 권한</p></td> 
+   <td>   <p>작업 영역</a>에 대한 권한 관리 </p>  
+   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
+## Workfront Planning의 중앙 집중식 레코드 유형에 대한 액세스 요구 사항
+
+을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
+   <td>
+
+<ul><li><p>모든 Workfront 또는 워크플로우 패키지</p></li>
+And
+<li><p>Prime 또는 Ultimate Planning 패키지</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
+   <td><p>표준</p> 
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 영역</a>에 대한 권한 관리 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
@@ -248,14 +271,11 @@ ht-degree: 2%
 Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 
-
-
 ## 대부분의 시나리오 플래너에 대한 액세스 요구 사항
 
 >[!NOTE]
 >
 >이전에 귀사에서 Adobe Scenario Planner를 구입한 경우에는 계속 이 회사에 종속되어 있습니다. 시나리오 플래너를 더 이상 구입할 수 없습니다.
-
 
 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
@@ -264,24 +284,61 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
  <col> 
  <tbody>
 
-<td> <p>[!DNL Adobe Workfront] 패키지</p> </td> 
+<td> <p>Adobe Workfront 패키지</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 라이센스*</p> </td> 
+   <td> <p>Adobe Workfront 라이선스</p> </td> 
    <td> <p>밝거나 높음</p> 
    또는
-   <p>[!UICONTROL Review] 이상</p> </td> 
+   <p>검토 이상</p> </td> 
   </tr>
 
 <td><p>액세스 수준 구성</p> </td> 
-   <td> <p>다음에 대한 [!UICONTROL 편집] 액세스 권한: [!DNL Scenario Planner]</p> </td> 
+   <td> <p>시나리오 플래너에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>개체 권한 </p> </td> 
-   <td> <p>플랜에 대한 [!UICONTROL 관리] 권한</p>  </td> 
+   <td> <p>플랜에 대한 권한 관리</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
+## 대부분의 Workfront 목표에 대한 액세스 요구 사항
+
+>[!NOTE]
+>
+>이전에 귀사가 Adobe Workfront Goals를 인수한 적이 있다면 계속 유지되고 있습니다. Adobe Workfront 목표는 더 이상 구입할 수 없습니다.
+
+을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody>
+
+<td> <p>Adobe Workfront 패키지</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront 라이선스</p> </td> 
+   <td> <p>기여자 이상</p> 
+   또는
+   <p>요청자 이상</p> </td> 
+  </tr>
+
+<td><p>액세스 수준 구성</p> </td> 
+   <td> <p>목표에 대한 액세스 편집</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>개체 권한 </p> </td> 
+   <td> <p>목표에 대한 권한 관리</p>  </td> 
   </tr> 
  </tbody> 
 </table>

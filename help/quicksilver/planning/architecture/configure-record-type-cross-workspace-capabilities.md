@@ -4,9 +4,9 @@ description: 레코드 유형을 다른 작업 공간에 추가하거나 다른 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1052'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.  
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -74,52 +74,32 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> 제품</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront 패키지*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront 계획<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
-   <td> 
-<p>다음 Workfront 플랜 중 하나:</p> 
-<ul><li>선택</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td> 
-   <td> 
-<p>임의 </p> 
+<ul><li><p>모든 Workfront 패키지</p></li>
+And
+<li><p>Planning Plus 패키지</p></li></ul>
+또는:
+<ul><li><p>모든 워크플로우 패키지</p> </li>
+And
+<li><p>Prime 또는 Ultimate 패키지 계획</p></li></ul>
 <p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
-   <td> 
-<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td><p> 표준</p>
-   <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
+   <td><p>표준</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>작업 영역</a>에 대한 권한 관리 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -130,12 +110,15 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 ## 중앙 집중식 레코드 유형 구성
 
 <!--this is a UI term; don't change the title of this section-->
+<!--IMPORTANT: not sure if we can call these centralized yet - checking with Lilit as of Sept 2; you might need to revert this to what the screen shot shows below?????-->
 
-작업 영역 관리자는 레코드 유형을 작성하거나 편집할 때 다른 작업 영역에 추가할 레코드 유형을 구성할 수 있습니다.
+작업 영역 관리자는 레코드 유형을 중앙 집중식 레코드 유형으로 구성할 수 있습니다. 다른 작업 공간에 중앙 집중식 레코드 유형을 추가할 수 있습니다.
 
-다른 작업공간에 레코드 유형 추가를 구성할 때 작업공간 관리자는 해당 작업공간에서 관리하는 작업공간 중 하나로 레코드 유형 및 모든 정보를 가져올 수 있습니다.
+작업 영역 관리자는 관리하는 작업 영역에 중앙 집중식 레코드 유형을 추가할 수 있습니다. 레코드 유형의 원본 필드도 추가됩니다.
 
-레코드 유형을 편집할 때 다른 작업 공간에 레코드 유형 추가를 구성하려면 다음과 같이 하십시오.
+사용자는 액세스 권한이 있는 모든 작업 영역에서 중앙 집중식 레코드 유형에 레코드를 추가하여 주 작업 영역을 포함하여 해당 레코드 유형이 추가되는 위치에 기여할 수 있습니다. 보기 권한이 있는 작업 공간의 레코드만 볼 수 있습니다.
+
+레코드 유형 추가를 중앙 집중식 레코드 유형으로 구성하려면 다음을 수행합니다.
 
 {{step1-to-planning}}
 
@@ -181,6 +164,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
      Workspace 필드에는 각 레코드가 생성된 작업 영역이 표시됩니다.
 
      이 필드는 읽기 전용이므로 삭제할 수 없습니다.
+1. (선택 사항) 다른 작업 영역으로 이동하여 기존 레코드 유형을 사용하여 레코드 유형을 만듭니다. 위의 단계에서 활성화한 레코드 유형을 선택합니다.
+
+   자세한 내용은 [기존 레코드 종류 추가](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md)를 참조하십시오.
 
 ## 연결 가능한 레코드 유형 구성
 
@@ -197,7 +183,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
    작업 영역 페이지가 열리고 레코드 유형이 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다
+   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**을 클릭합니다
 또는
    * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 열고 레코드 유형 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
@@ -222,6 +208,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
    * 레코드 유형 카드에 작업 영역 간 연결 아이콘 ![작업 영역 간 연결 아이콘](assets/connect-from-other-workspaces-icon.png)이 표시되어 구성에 지정한 작업 영역에서 레코드 유형을 연결할 수 있음을 나타냅니다.
 
    지정된 작업 영역에서 레코드 유형을 연결할 수 있습니다.
+1. (선택 사항) 다른 작업 영역으로 이동하여 위의 단계에서 작업 영역 간 연결을 활성화한 레코드 유형에 연결을 추가합니다.
+
+   자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
 
 
