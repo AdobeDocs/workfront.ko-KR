@@ -4,10 +4,10 @@ description: 액세스 요구 사항에 사용되는 테이블의 인벤토리�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 7d9e5ac168d759e9b657beb6513c994d91ab0145
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 2%
+source-wordcount: '1028'
+ht-degree: 1%
 
 ---
 
@@ -349,7 +349,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-## 리소스 관리를 위한 액세스 요구 사항 예
+## 리소스 관리를 위한 액세스 요구 사항(가능한 여러 라이센스의 예, 모든 RM 패키지 사용 가능)
 
 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
@@ -378,4 +378,45 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 </table>
 
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
+<p>커넥터 기반(레거시): 작업 자동화 및 통합을 위한 Workfront Fusion </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">제품</td> 
+   <td>
+   <p>조직에 Workfront 자동화 및 통합이 포함되지 않은 Select 또는 Prime Workfront 패키지가 있는 경우 조직에서 Adobe Workfront Fusion을 구매해야 합니다.</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+이 표의 정보에 대한 자세한 내용은 설명서에서 [액세스 요구 사항](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)을 참조하십시오.
+
+Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
+
+## 고급 엔터프라이즈 제어 기능
+
+그룹 관리자에 대한 문서에서는 그룹 관리자가 Workfront에서 특정 기능을 사용하기 위해 고객이 사용해야 하는 패키지에 대해 설명합니다.
+
+[현재 문서에 대한 링크](/help/quicksilver/administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+
+### 표 아래의 세 번째 각주에 대한 텍스트가 업데이트되었습니다.
+
+&#42;&#42;&#42; 이 패키지에는 아래에 나열된 고급 엔터프라이즈 컨트롤 기능이 포함되어 있습니다.
+
+* 워크플로우 Prime 이상
+* Workfront Prime 이상
+
+패키지에 대한 자세한 내용은 [Adobe Workfront 가격 및 패키징 페이지](https://business.adobe.com/products/workfront/pricing.html)를 참조하세요.
+
+고급 엔터프라이즈 제어 기능:
+
+* 그룹 수준에서 프로젝트, 작업 및 문제 환경 설정 구성
+* 그룹 수준에서 타임시트 및 시간 환경 설정 구성
+* 그룹 수준에서 이벤트 알림 이메일 구성
+* 그룹별 승인 프로세스 만들기 및 관리
+* 홈 그룹별 라이선스 제한 할당 및 사용률 보기
+* 하위 그룹에 그룹 관리자 할당
+* 그룹 관리자가 하위 그룹을 만들 수 있도록 허용
 
