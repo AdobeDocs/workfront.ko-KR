@@ -4,9 +4,9 @@ description: 액세스 요구 사항에 사용되는 테이블의 인벤토리�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
+source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '822'
 ht-degree: 2%
 
 ---
@@ -344,4 +344,34 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 </table>
 
 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
+## 리소스 관리를 위한 액세스 요구 사항 예
+
+을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td>
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>하나의 프로젝트에 대해 가볍게 또는 높게, 여러 프로젝트에 대해 표준</p>
+       <p>하나의 프로젝트에 대해 검토 이상, 여러 프로젝트에 대한 계획</p></td>
+  </tr> 
+  <tr> 
+   <td>액세스 수준 구성</td> 
+   <td> <p>리소스 관리에 대한 액세스 이상 보기</p> </td> 
+  </tr> 
+  <tr> 
+   <td>개체 권한</td> 
+   <td> <p>프로젝트 및 사용자에 대한 권한 보기 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
