@@ -4,9 +4,9 @@ description: 액세스 요구 사항에 사용되는 테이블의 인벤토리�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 2%
 
 ---
@@ -249,9 +249,13 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td>
 
-<ul><li><p>모든 Workfront 또는 워크플로우 패키지</p></li>
-And
-<li><p>Prime 또는 Ultimate Planning 패키지</p></li></ul>
+<ul><li><p>모든 Workfront 패키지</p></li>
+  And
+  <li><p>Planning Plus 패키지</p></li></ul>
+  또는:
+  <ul><li><p>모든 워크플로우 패키지</p> </li>
+  And
+  <li><p>Prime 또는 Ultimate 패키지 계획</p></li></ul>
    </td> </tr>
 
 </tr> 

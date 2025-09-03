@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2332'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,16 @@ ht-degree: 0%
    * 테이블 보기에서 인라인입니다.
 <!--* You can edit a record's dates from the following areas:
         * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * <span class="preview">In a timeline view, by resizing the record bars</span>
+         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+<!-- when drag and drop is available replace the last 2 points with this:
+
+* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
+* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
+    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+-->
 
 * 사용자가 보기에서 레코드를 편집하면 변경 내용이 모든 보기에서 즉시 표시되고 레코드 페이지가 다른 모든 사용자에게 표시됩니다.
 
@@ -127,10 +135,16 @@ ht-degree: 0%
 
 다음 영역에서 레코드를 편집할 수 있습니다.
 
-* [레코드 유형의 표 보기](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [테이블 보기](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [타임라인 보기](#edit-a-record-in-the-timeline-view-of-a-record-type)
+* [달력 보기](#edit-a-record-in-the-calendar-view-of-a-record-type)
 * [보기의 레코드 미리보기](#edit-a-record-from-the-records-preview-in-a-view)
 * [레코드의 페이지](#edit-a-record-from-the-records-page)
 * [계획 섹션의 Workfront 개체](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+
+레코드의 날짜를 편집하려면 다음을 수행합니다.
+
+* [타임라인 및 일정 보기에서 레코드 막대 크기 조정]
 
 ### 레코드 유형의 표 보기에서 인라인 레코드 편집
 
@@ -221,6 +235,39 @@ ht-degree: 0%
    >    키보드 단축키를 한 번에 여러 번 사용하여 여러 변경 내용을 실행 취소할 수 있습니다.
 
 1. (선택 사항) 레코드에 썸네일을 추가합니다. 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
+
+
+### 레코드 유형의 타임라인 보기에서 레코드 편집
+
+<!--add another step about drag and drop here when that is available-->
+
+1. 타임라인 보기에서 레코드 유형 페이지를 엽니다. 자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
+<!--
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+-->
+
+1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
+
+   자세한 내용은 이 문서의 [보기에서 레코드 미리 보기에서 레코드 편집](#edit-a-record-from-the-records-preview-in-a-view) 섹션을 참조하십시오.
+
+### 레코드 유형의 달력 보기에서 레코드 편집
+
+<!--add another step about drag and drop here when that is available-->
+
+1. 달력 보기에서 레코드 유형 페이지를 엽니다. 자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
+<!--
+1. (Conditional) Select **Month** in the upper-right dropdown menu.
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+-->
+
+1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
+
+   자세한 내용은 이 문서의 [보기에서 레코드 미리 보기에서 레코드 편집](#edit-a-record-from-the-records-preview-in-a-view) 섹션을 참조하십시오.
 
 ### 보기의 레코드 미리 보기에서 레코드 편집
 
