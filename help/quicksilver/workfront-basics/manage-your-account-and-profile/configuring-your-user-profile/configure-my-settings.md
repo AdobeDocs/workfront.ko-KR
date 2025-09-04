@@ -6,16 +6,14 @@ description: ' [!DNL Adobe Workfront] 프로필에 사용자 자신에 대한 �
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: eda5a2b283d87bccbbff1edff6744556f25ac6e0
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3288'
+source-wordcount: '3317'
 ht-degree: 1%
 
 ---
 
 # 내 설정 구성
-
-{{highlighted-preview}}
 
 <!-- Audited: 01/2024 -->
 
@@ -248,7 +246,7 @@ ht-degree: 1%
    <td> 이메일 주소를 업데이트합니다. 필수 필드입니다. 전자 메일 주소도 [!DNL Workfront]의 사용자 이름입니다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 암호 재설정]</strong> / <span class="preview"><strong>암호 변경</strong></span></td> 
+   <td role="rowheader"><strong>[!UICONTROL 암호 변경]</strong></td> 
    <td>이 섹션에서 암호를 재설정합니다. 암호 재설정에 대한 자세한 내용은 <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">암호 재설정</a>을 참조하세요.</td> 
   </tr> 
   <tr> 
@@ -344,6 +342,9 @@ ht-degree: 1%
    <td><p>여기에서 원하는 언어를 지정하십시오. 발신 전자 메일 메시지에 사용되는 언어, 날짜 및 숫자 형식을 제어합니다.</p>
    <p><strong>참고:</strong> 조직에서 Adobe 통합 환경을 사용하는 경우 언어 환경 설정은 Adobe 프로필에 저장되고 전자 메일 로케일은 사용되지 않습니다. 자세한 내용은 문서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Experience Cloud에서 지원되는 언어</a>에서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Workfront 언어 변경</a>을 참조하십시오.</p></td> 
   </tr>
+  <tr><td><strong>[!UICONTROL 내가 자신에게 할당한 작업을 내 처리 중 탭으로 보내기]</strong> </td>
+  <td>자신에게 할당한 작업 상태를 새로 만들기 대신 진행 중으로 자동 설정하려면 이 옵션을 선택합니다.</td>
+  </tr>
   <tr> 
    <td role="rowheader"><strong>(조건부) 문서 업로드 시 증명을 자동으로 생성합니다</strong></td> 
    <td>문서가 [!DNL Workfront]에 로드된 후 바로 증명 생성을 시작하려면 이 필드를 선택하십시오. 이 필드는 기본적으로 비활성화되어 있으며 Workfront 관리자만 업데이트할 수 있습니다.<br>이 필드는 회사에서 Workfront용 Workfront Proof 구성 요소를 구입한 경우와 증명 사용자로 활성화된 경우에만 사용할 수 있습니다. Workfront Proof에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Adobe Workfront에서 증명 관리</a>를 참조하십시오.
@@ -369,7 +370,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 이 활성 상태입니다]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL이 활성 상태입니다]</strong> </td> 
    <td>이 필드는 [!DNL Workfront] 관리자이기도 한 사용자만 볼 수 있으며 기본적으로 활성화되어 있어야 합니다. 사용자가 활성 상태로에 로그인할 수 있음을 의미합니다. [!DNL Workfront]</td> 
   </tr> 
   <tr> 
@@ -456,8 +457,8 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 일정 비활성화]</strong> / <span class="preview"><strong>비활성화 날짜 설정</strong></span></td> 
-   <td><p>일정 시간이 지나면 계정을 비활성화하도록 예약하려면 이 확인란을 선택하거나 <span class="preview">이 단추를 클릭합니다</span>. 표시되는 <strong>[!UICONTROL 예약된 비활성화 날짜]</strong>에서 계정이 비활성화되는 다음 날짜를 지정합니다. 사용자 비활성화에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">사용자 비활성화 또는 다시 활성화</a>에서 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">비활성화 예약</a>을 참조하세요. </p><p>[!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스가 있거나 [!DNL Workfront] 관리자인 경우 계정의 비활성화 필드를 편집할 수 있습니다. </p></td> 
+   <td role="rowheader"><strong>[!UICONTROL 비활성화 날짜 설정]</strong></td>
+   <td><p>일정 시간이 지나면 계정을 비활성화하도록 예약하려면 이 단추를 클릭합니다. 표시되는 <strong>[!UICONTROL 예약된 비활성화 날짜]</strong>에서 계정이 비활성화되는 다음 날짜를 지정합니다. 사용자 비활성화에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">사용자 비활성화 또는 다시 활성화</a>에서 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">비활성화 예약</a>을 참조하세요. </p><p>[!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스가 있거나 [!DNL Workfront] 관리자인 경우 계정의 비활성화 필드를 편집할 수 있습니다. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 기본 역할]</strong></td> 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -75,7 +75,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
 
    사용자 편집 상자가 표시됩니다.
 
-1. **사용자 편집** 상자에서 모든 섹션의 정보를 변경한 다음 언제든지 **변경 내용 저장** <span class="preview"> 또는 **저장**</span>&#x200B;을 클릭합니다.
+1. **사용자 편집** 상자에서 모든 섹션의 정보를 변경하고 언제든지 **저장**&#x200B;을 클릭합니다.
 
 ### 개인적인 정보
 
@@ -94,7 +94,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
 
   조직이 Adobe Admin Console으로 마이그레이션된 경우 Workfront에서 사용자의 이메일 주소를 편집할 수 없습니다. 사용자의 이메일 주소는 Adobe Admin Console에서 설정됩니다.
 
-* **암호 재설정** / <span class="preview">**암호 변경**</span>: 사용자의 암호를 재설정하려면 이 링크를 클릭하십시오. 다른 사용자의 암호를 재설정하려면 먼저 자신의 암호를 입력해야 합니다.
+* **암호 변경**: 사용자의 암호를 재설정하려면 이 단추를 클릭하십시오. 다른 사용자의 암호를 재설정하려면 먼저 자신의 암호를 입력해야 합니다.
 
   다른 사용자의 암호를 재설정하려면 Workfront 관리자 또는 그룹 관리자여야 합니다.
 
@@ -121,7 +121,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
   >
   >그룹 관리자이고 액세스 수준에서 사용자 관리자(모든 사용자) 권한을 활성화한 경우 모든 사용자에 대한 &lt;SSO 구성> 필드를 편집할 수 있습니다.
 
-* **프로필 사진**: **사진 업로드** / <span class="preview">**새로 업로드**</span>&#x200B;를 클릭하여 사용자의 프로필 사진을 로드합니다. JPG, GIF 또는 PNG 파일을 업로드할 수 있습니다. 파일 크기 제한은 4MB입니다.
+* **프로필 사진**: **새로 업로드**&#x200B;를 클릭하여 사용자의 프로필 사진을 로드합니다. JPG, GIF 또는 PNG 파일을 업로드할 수 있습니다. 파일 크기 제한은 4MB입니다.
 
   프로필 사진이 사용자의 아바타가 되고 사용자의 이름이 표시되는 모든 곳에서 Workfront 시스템 전체에 표시됩니다.
 
@@ -148,7 +148,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
   >
   >이 옵션은 미리보기 및 샌드박스 환경에서만 사용할 수 있습니다. 이메일 알림은 기본적으로 프로덕션 환경에서 활성화됩니다.
 
-<!--* **Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **내가 자신에게 할당한 작업을 내 처리 중 탭으로 보내기**: 이 옵션을 선택하면 사용자가 직접 할당한 작업이 새로 만들기 대신 진행 중 상태로 자동 설정됩니다. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **문서를 업로드할 때 자동으로 증명 생성**: 사용자가 업로드하는 문서에서 즉시 증명을 생성하려면 이 옵션을 선택하십시오.
 
@@ -162,7 +162,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
 
 ### 액세스
 
-* **활성 상태입니다** / <span class="preview">**사용자가 활성 상태입니다**</span>: 사용자가 활성 상태임을 나타내려면 이 옵션을 활성화하십시오. 활성 사용자는 Workfront 라이선스를 사용합니다. 필드를 비활성화하면 사용자가 Workfront에 로그인할 수 없습니다.
+* **사용자가 활성 상태입니다**: 사용자가 활성 상태임을 나타내려면 이 옵션을 활성화하십시오. 활성 사용자는 Workfront 라이선스를 사용합니다. 필드를 비활성화하면 사용자가 Workfront에 로그인할 수 없습니다.
 
 * **액세스 수준**: 이 사용자에게 할당할 액세스 수준을 선택하십시오.
 
@@ -199,7 +199,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
 * **부하 직원**: 사용자를 위해 회사를 지정한 경우 사용자의 부하 직원도 지정할 수 있습니다. 사용자는 여러 부하 직원을 보유할 수 있습니다. 사용자가 회사와 먼저 연결되어 있지 않으면 이 필드가 표시되지 않습니다.
 * **홈 팀**: 사용자의 홈 팀을 지정합니다. 사용자는 홈 팀을 하나만 보유할 수 있습니다. 홈 팀은 레이아웃 템플릿을 할당할 때 또는 사용자에게 할당된 작업 및 문제에 대한 처리 중 단추를 정의할 때 중요합니다.
 * **다른 팀**: 사용자가 여러 팀에 속할 수 있습니다. 사용자는 홈 영역에서 팀에 할당된 작업 항목을 볼 수 있습니다.
-* **홈 그룹** / <span class="preview">**현재 홈 그룹**</span>: 사용자를 할당할 적절한 그룹을 선택하십시오. 이를 통해 사용자는 그룹과 공유되는 객체에 액세스할 수 있습니다. 사용자의 홈 그룹과 레이아웃 템플릿을 공유할 수도 있습니다.
+* **현재 홈 그룹**: 사용자를 할당할 적절한 그룹을 선택하십시오. 이를 통해 사용자는 그룹과 공유되는 객체에 액세스할 수 있습니다. 사용자의 홈 그룹과 레이아웃 템플릿을 공유할 수도 있습니다.
 
   필수 필드입니다. 모든 사용자는 홈 그룹과 연결되어 있어야 합니다. 홈 그룹을 선택하지 않으면 홈 그룹이 새 사용자의 홈 그룹으로 할당됩니다.
 
@@ -237,8 +237,8 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
   >
   >작업 시간 값을 1로 설정하면 사용자가 프로젝트 관련 작업에 전체 시간에 해당하는 전체 시간을 사용할 수 있음을 나타냅니다.
 
-* **비활성화 예약** / <span class="preview">**비활성화 날짜 설정**</span>: 이 사용자를 특정 날짜 및 특정 시간에 비활성화하도록 예약하려면 이 확인란을 선택 / <span class="preview">이 단추를 클릭</span>하십시오.
-* **예약된 비활성화 날짜** / <span class="preview">**비활성화 날짜**</span>: 사용자가 비활성화되는 날짜 및 시간입니다. 비활성화에 대한 사용자 예약에 대한 자세한 내용은 [사용자 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)에서 [비활성화에 대한 사용자 예약](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)을 참조하십시오.
+* **비활성화 날짜 설정**: 이 사용자를 특정 날짜와 특정 시간에 비활성화하도록 예약하려면 이 단추를 클릭하십시오.
+* **비활성화 날짜**: 사용자가 비활성화되는 날짜와 시간입니다. 비활성화에 대한 사용자 예약에 대한 자세한 내용은 [사용자 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)에서 [비활성화에 대한 사용자 예약](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)을 참조하십시오.
 * **기본 역할**: 사용자가 Workfront에서 수행할 수 있는 기본 작업 역할입니다. 사용자가 할당된 모든 작업 및 문제도 이 작업 역할에 할당됩니다. 작업 역할은 리소스 관리에서 필수적입니다. 관리자 액세스 권한이 있는 Standard 또는 Plan 라이선스가 있거나 Workfront 관리자인 경우에만 이 필드를 업데이트할 수 있습니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 [사용자에게 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
 
   활성 작업 역할만 목록에 표시됩니다.
@@ -256,11 +256,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
 
   다른 역할에 0% FTE 가용성이 있는 경우 사용자가 이러한 역할의 작업에 할당되지 않는 한 리소스 플래너에 표시되지 않습니다.
 
-  미리 보기의 <span class="preview">다음 중:</span>
   ![사용자 역할 및 FTE](assets/user-roles-fte-2025.png)
-
-  프로덕션:
-  ![사용자 역할 및 FTE](assets/user-settings-roles-and-dte-boxes-rp-story.png)
 
   모든 역할에 대한 모든 **FTE 가용성의 백분율**&#x200B;의 합은 100%여야 합니다. FTE 가용성의 각 비율은 리소스 플래너의 사용자당 각 역할에 대한 가용 시간을 계산합니다. 사용자당 각 역할에 대한 사용 가능한 시간은 사용자의 사용 가능한 시간에 따라 다릅니다.
 
@@ -328,11 +324,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
 
   일부 날짜는 자동으로 추가됩니다. 예를 들어 청구 요금 1에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 초를 추가하는 경우, 2023년 4월 30일인 종료 일자가 청구 요금 1에 추가되므로 간격이 없습니다.
 
-  미리 보기의 <span class="preview">다음 중:</span>
   ![사용자 비용 및 청구 요금](assets/user-cost-billing-rates-2025.png)
-
-  프로덕션:
-  ![사용자 비용 및 청구 요금](assets/edit-user-cost-billing-rate-2.png)
 
 ### 사용자 정의 양식
 

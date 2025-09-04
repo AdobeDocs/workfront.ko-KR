@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2610'
 ht-degree: 0%
 
 ---
 
 # 사용자 프로필 일괄 편집
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -77,7 +75,7 @@ ht-degree: 0%
 
 1. 사용자를 두 명 이상 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
-1. **사용자 편집** 상자에서 모든 섹션의 정보를 변경한 다음 언제든지 **변경 내용 저장** <span class="preview"> 또는 **저장**</span>&#x200B;을 클릭합니다.
+1. **사용자 편집** 상자에서 모든 섹션의 정보를 변경하고 언제든지 **저장**&#x200B;을 클릭합니다.
 
 ### 환경 설정
 
@@ -101,7 +99,7 @@ ht-degree: 0%
 
 ### 액세스
 
-* **활성 상태입니다** / <span class="preview">**사용자가 활성 상태입니다**</span>: 사용자가 활성 상태임을 나타내려면 이 옵션을 활성화하십시오. 활성 사용자는 Workfront 라이선스를 사용합니다. 필드를 비활성화하면 사용자가 Workfront에 로그인할 수 없습니다.
+* **사용자가 활성 상태입니다**: 사용자가 활성 상태임을 나타내려면 이 옵션을 활성화하십시오. 활성 사용자는 Workfront 라이선스를 사용합니다. 필드를 비활성화하면 사용자가 Workfront에 로그인할 수 없습니다.
 
 * **액세스 수준**: 이 사용자에게 할당할 액세스 수준을 선택하십시오. 선택한 모든 사용자의 액세스 수준은 동일합니다.
 
@@ -136,7 +134,7 @@ ht-degree: 0%
 * **회사**: 사용자의 회사입니다. 사용자는 한 회사에만 연결할 수 있습니다. 회사를 사용자와 연결하려면 먼저 회사를 만들어야 합니다. 활성 회사만 목록에 표시됩니다. 회사 만들기에 대한 자세한 내용은 [회사 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)을 참조하세요.
 * **홈 팀**: 사용자의 홈 팀을 지정합니다. 사용자는 홈 팀을 하나만 보유할 수 있습니다.
 * **다른 팀**: 사용자가 여러 팀에 속할 수 있습니다.
-* **홈 그룹** / <span class="preview">**현재 홈 그룹**</span>: 사용자를 할당할 적절한 그룹을 선택하십시오. 이를 통해 사용자는 그룹과 공유되는 오브젝트에 액세스할 수 있습니다. 홈 그룹과 레이아웃 템플릿을 공유할 수도 있습니다.
+* **현재 홈 그룹**: 사용자를 할당할 적절한 그룹을 선택하십시오. 이를 통해 사용자는 그룹과 공유되는 오브젝트에 액세스할 수 있습니다. 홈 그룹과 레이아웃 템플릿을 공유할 수도 있습니다.
 
   필수 필드입니다. 모든 사용자는 홈 그룹과 연결되어 있어야 합니다. 홈 그룹을 선택하지 않으면 홈 그룹이 홈 그룹으로 할당됩니다.
 
@@ -174,8 +172,8 @@ ht-degree: 0%
   >
   >작업 시간 값을 1로 설정하면 사용자가 프로젝트 관련 작업에 전체 시간에 해당하는 전체 시간을 사용할 수 있음을 나타냅니다.
 
-* **비활성화 예약** / <span class="preview">**비활성화 날짜 설정**</span>: 특정 날짜 및 특정 시간에 이러한 사용자를 비활성화하도록 예약하려면 이 확인란을 선택 / <span class="preview">이 단추를 클릭</span>하십시오.
-* **예약된 비활성화 날짜** / <span class="preview">**비활성화 날짜**</span>: 사용자가 비활성화되는 날짜 및 시간입니다. 비활성화에 대한 사용자 예약에 대한 자세한 내용은 [사용자 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)에서 [비활성화에 대한 사용자 예약](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)을 참조하십시오.
+* **비활성화 날짜 설정**: 이러한 사용자를 특정 날짜와 특정 시간에 비활성화하도록 예약하려면 이 단추를 클릭하십시오.
+* **비활성화 날짜**: 사용자가 비활성화되는 날짜와 시간입니다. 비활성화에 대한 사용자 예약에 대한 자세한 내용은 [사용자 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)에서 [비활성화에 대한 사용자 예약](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)을 참조하십시오.
 * **기본 역할**: 사용자가 Workfront에서 수행할 수 있는 기본 작업 역할입니다. 사용자가 할당된 모든 작업 및 문제도 이 작업 역할에 할당됩니다. 작업 역할은 리소스 관리에서 필수적입니다. 관리자 액세스 권한이 있는 Standard 또는 Plan 라이선스가 있거나 Workfront 관리자인 경우에만 이 필드를 업데이트할 수 있습니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 [사용자에게 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
 
   활성 작업 역할만 목록에 표시됩니다.
