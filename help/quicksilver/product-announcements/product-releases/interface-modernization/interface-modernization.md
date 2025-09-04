@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7542'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ ht-degree: 0%
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
 ## 관리자 및 설정
+
+### 새 스코어카드 및 스코어카드 복사 상자에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 9월 4일, 프로덕션 릴리스: 2025년 9월 11일**
+
+애플리케이션의 다른 영역에 있는 디자인과 일치하도록 스코어카드 새로 만들기 및 복사 상자의 모양과 느낌을 업데이트했습니다. Workfront의 설정 영역에서 스코어카드를 만들거나 복사할 때 업데이트된 디자인을 볼 수 있습니다.\
+자세한 내용은 [스코어카드 만들기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)를 참조하십시오.
 
 ### 그룹의 레이아웃 템플릿 목록에 대한 인터페이스 업데이트
 
@@ -217,7 +224,7 @@ Workfront의 다른 영역과 일치하도록 프로젝트 및 템플릿에 대�
 
 >[!NOTE]
 >
->미리보기 및 프로덕션에서 일시적으로 제거됨
+>미리보기에서 사용할 수 있으며 2025년 9월 4일부터 단계적으로 롤아웃하여 프로덕션에서 사용할 수 있습니다.
 
 Workfront의 다른 영역 디자인과 일치하도록 시간 섹션에서 프로젝트, 작업 또는 문제에 대한 시간을 기록할 때 로그 시간 상자의 모양과 느낌을 업데이트했습니다.
 
