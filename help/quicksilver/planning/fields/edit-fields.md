@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 1%
+source-wordcount: '960'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++   
 
 
 ## 필드 설정 편집에 대한 고려 사항
@@ -98,7 +98,7 @@ Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 
 필드의 구성을 변경하기 전에 다음 사항을 고려해야 합니다.
 
 * 레코드 유형 테이블에서만 필드 설정을 편집할 수 있습니다.
-* 레코드 페이지나 테이블 보기 외부의 다른 보기에서는 필드를 편집할 수 없습니다.
+* 레코드 페이지나 표 보기 외부의 다른 보기에서 필드의 설정을 편집할 수는 없습니다.
 * 필드를 저장한 후에는 필드 유형을 편집할 수 없습니다.
 * 이미 음수 값이 첨부된 레코드에 저장된 경우 숫자, 백분율 또는 통화 필드에 대해 이전에 선택한 음수 허용 설정을 선택 해제할 수 없습니다.
 * 필드를 저장한 후 다음 필드 요소의 구성을 편집할 수 있습니다.
@@ -116,6 +116,7 @@ Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 
   >필드 구성이 변경되었다는 알림이 다른 사용자에게 표시되지 않습니다.
 
 * 연결된 레코드에서 기존 조회 필드를 편집할 수 있습니다.
+* 이 문서의 [필드 설정 편집](#edit-field-settings-1) 섹션에 설명된 대로 필드를 편집할 수 있을 뿐만 아니라, <span class="preview">테이블 보기에서 레코드를 편집할 때 필드 값을 업데이트할 때 단일 또는 다중 선택 필드의 선택 항목을 편집할 수 있습니다. 자세한 내용은 이 문서의 표 보기에서 레코드를 편집할 때 [기존 선택 필드에 새 선택 항목 추가](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) 섹션을 참조하십시오.</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -163,3 +164,36 @@ Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 
 1. (조건부) 연결된 레코드 필드의 경우 **조회 필드 편집**&#x200B;을 클릭하고 연결된 레코드 형식에서 조회 필드를 추가하거나 제거합니다.
 
    자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+
+
+<div class="preview">
+
+## 테이블 보기에서 레코드를 편집할 때 기존 선택 필드에 새 선택 사항을 추가합니다.
+
+<!--some of this information is also available in Edit records article - update both when necessary-->
+
+테이블 보기에서 레코드를 편집할 때 기존 단일 또는 다중 선택 필드에 새 선택 항목을 추가할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>이 섹션에서 설명하는 기능은 표 보기에서만 사용할 수 있습니다. 단일 또는 다중 선택 필드가 표시되는 다른 영역에서는 사용할 수 없습니다.
+
+**예**
+
+Status 라는 단일 선택 필드에 New 및 Closed 라는 선택 사항이 있을 수 있으며 In 진행 중 상태에 대한 선택 사항을 추가할 수 있습니다. 다음 중 하나를 수행하여 선택 사항을 추가할 수 있습니다.
+
+* 필드 편집 중 자세한 내용은 이 문서의 [필드 설정 편집](#edit-field-settings-1) 섹션을 참조하십시오.
+* 아래 설명된 대로 표 보기에서 레코드를 편집하는 동안 새 옵션을 추가합니다.
+
+레코드를 편집할 때 기존 선택 필드에 새 선택을 추가하려면 다음을 수행합니다.
+
+1. 레코드 유형 페이지로 이동하여 테이블 보기를 엽니다.
+1. 선택 사항을 추가할 단일 또는 다중 선택 필드를 테이블 보기에 새 열로 추가합니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
+1. 필드의 셀을 두 번 클릭하여 인라인 필드 편집을 시작합니다.
+1. 추가할 선택 항목의 이름을 입력한 다음 **선택 항목 추가**&#x200B;를 클릭합니다.
+
+   ![테이블 보기의 단일 선택 필드에 선택 항목 추가](assets/add-choice-in-table-view-for-single-select-field.png)
+
+   새 선택 항목이 단일 선택 필드에 즉시 추가됩니다.
+
+</div>

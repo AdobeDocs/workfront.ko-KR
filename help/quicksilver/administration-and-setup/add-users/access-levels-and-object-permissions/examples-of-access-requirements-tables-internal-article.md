@@ -4,9 +4,9 @@ description: 액세스 요구 사항에 사용되는 테이블의 인벤토리�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 7d9e5ac168d759e9b657beb6513c994d91ab0145
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1063'
 ht-degree: 1%
 
 ---
@@ -195,6 +195,33 @@ ht-degree: 1%
 2025 계획 패키지
 라이선스: 기여자, 라이트, 표준
 패키지: planning select, planning prime, planning ultimate
+
+## Portfolio Optimizer 액세스 요구 사항
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>Workfront Prime 이상</p> 
+   <p>워크플로우 Prime 이상</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>표준</p>
+   <p>플랜</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>포트폴리오 및 프로젝트에 대한 액세스 편집</p>  </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>포트폴리오에 대한 권한 관리</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 ## 대부분의 Workfront Planning에 대한 액세스 요구 사항
@@ -391,9 +418,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 설명서에서 [액세스 요구 사항](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 설명서에서 [액세스 요구 사항](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)을 참조하십시오.
 
-Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
+Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
 
 ## 고급 엔터프라이즈 제어 기능
 

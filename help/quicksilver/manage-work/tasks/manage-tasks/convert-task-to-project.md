@@ -6,22 +6,22 @@ description: 프로젝트의 작업을 완료하는 데 원래 계획보다 많�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1190'
 ht-degree: 2%
 
 ---
 
 # 작업을 프로젝트로 전환
 
-<div class="preview">
+<!--<div class="preview"> 
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 프로젝트의 작업을 완료하는 데 원래 계획보다 많은 노력이 필요한 경우 프로젝트로 전환할 수 있습니다.
 
@@ -203,4 +203,4 @@ ht-degree: 2%
      >
      >변환에 템플릿을 사용하고 있고 템플릿에 첨부된 사용자 정의 양식에 작업에 첨부된 사용자 정의 양식에 사용자 정의 필드가 포함되어 있는 경우, 작업의 필드 값이 새 프로젝트에 사용됩니다. 하지만 작업에서 사용자 정의 필드가 비어 있으면 템플릿의 값이 사용됩니다.
 
-1. **변경 내용 저장** <span class="preview">또는 **프로젝트로 전환**&#x200B;을 클릭합니다.</span>
+1. **프로젝트로 전환**&#x200B;을 클릭합니다.

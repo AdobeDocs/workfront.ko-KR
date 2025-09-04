@@ -6,9 +6,9 @@ description: 프로젝트는 Adobe Workfront의 대규모 작업 단위입니다
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1263'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 프로젝트는 Adobe Workfront에서 수행해야 하는 많은 양의 작업을 나타냅니다.
 
@@ -116,16 +116,11 @@ ht-degree: 1%
 
 * Adobe Workfront 시나리오 플래너의 시나리오에서 이니셔티브를 게시합니다.
 
-  시나리오 플래너에는 다음 중 하나가 필요합니다.
+  Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
 
-   * 현재 Workfront 라이선스 구조에 대한 추가 라이선스.
-   * 새 Workfront 라이선스 구조에 대한 Ultimate 라이선스.
+  이니셔티브를 게시하여 프로젝트를 만드는 방법에 대한 자세한 내용은 [시나리오 플래너에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기](../../../scenario-planner/publish-scenarios-update-projects.md)를 참조하십시오.
 
-  Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하십시오. 이니셔티브를 게시하여 프로젝트를 만드는 방법에 대한 자세한 내용은 [시나리오 플래너에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기](../../../scenario-planner/publish-scenarios-update-projects.md)를 참조하십시오.
-
-* Workfront Planning의 레코드 유형에서 프로젝트를 연결할 때 프로젝트를 추가합니다. 프로덕션 환경에서는 Workfront Planning의 템플릿 없이 프로젝트만 만들 수 있습니다. <span class="preview">미리 보기 환경에서 템플릿을 사용하여 프로젝트를 만들 수 있습니다.</span>
-
-  Workfront Planning에 대한 새 Workfront 라이선스와 추가 Workfront Planning 라이선스가 있어야 합니다.
+* Workfront Planning의 레코드 유형에서 프로젝트를 연결할 때 프로젝트를 추가합니다.
 
   Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 

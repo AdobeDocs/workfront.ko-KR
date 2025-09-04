@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '3278'
 ht-degree: 0%
 
 ---
@@ -32,16 +32,9 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 <div class="preview">
 
 * [레코드 유형 타임라인 보기에서 추가합니다.](#create-records-by-adding-them-in-the-record-type-timeline-view)
+* [레코드 유형 달력 보기에 추가하십시오.](#create-records-by-adding-them-in-the-record-type-calendar-view)
 
 </div>
-
-<!--
-<div class="preview">
-
-* [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
-
-</div>
--->
 
 * [외부 목록에서 레코드 목록 복사 및 붙여넣기](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [테이블 보기에서 레코드 복제](#create-records-by-duplicating-them)
@@ -159,7 +152,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
    1. 다음 방법 중 하나를 클릭하여 레코드를 만든 다음 **계속**&#x200B;을 클릭합니다.
 
       * **수동으로 추가**. 레코드의 미리보기 상자가 열립니다.\
-        이 문서의 레코드 유형 테이블 보기[ 섹션에서 인라인으로 추가하여 ](#create-records-by-adding-them-inline-from-the-record-type-table-view)레코드 만들기&lbrace;6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
+        이 문서의 레코드 유형 테이블 보기[ 섹션에서 인라인으로 추가하여 ](#create-records-by-adding-them-inline-from-the-record-type-table-view)레코드 만들기{6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
       * **파일에서 업로드**
 문서 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)에 설명된 대로 6단계부터 레코드를 추가합니다. <!--ensure this stays accurate-->
       * **요청 제출**
@@ -307,7 +300,7 @@ You can import records from other applications by linking them to existing recor
    >레코드 종류와 관련된 날짜 필드가 두 개 이상 있는 경우에만 타임라인 보기를 만들 수 있습니다.
 1. 타임라인의 아무 곳이나 두 번 클릭합니다.
 
-   새 레코드 상자가 열립니다. <!--might need a new screen shot for Production - might add a title etc-->
+   **새 레코드** 상자가 열립니다. <!--might need a new screen shot for Production - might add a title etc-->
 
    ![이름이 지정되지 않은 레코드 표시줄이 있는 타임라인의 새 레코드 상자](assets/new-record-small-box-on-timeline.png)
 1. 다음 정보를 업데이트합니다.
@@ -335,8 +328,10 @@ You can import records from other applications by linking them to existing recor
    * **닫기** ![닫기 아이콘](assets/close-icon.png)을 클릭하여 새 레코드 상자를 닫습니다.
 
    **삭제** 아이콘을 클릭하지 않은 경우 레코드가 타임라인뿐만 아니라 테이블 및 달력 보기에 즉시 추가됩니다.
-   <!--1. (Optional) Hover over one of the record bar's margins in the timeline, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
-    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+1. (선택 사항) 타임라인에서 레코드 막대의 여백 중 하나를 마우스로 가리킨 다음 막대의 끝을 다른 날짜로 끌어서 놓습니다. 이렇게 하면 레코드의 시작 및 종료 날짜가 자동으로 변경됩니다.
+
+   자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
 1. (선택 사항) 타임라인에서 레코드 막대를 눌러 레코드의 세부 정보 창을 열고 정보를 업데이트하거나 삭제하거나 설명을 추가합니다.
 
@@ -348,75 +343,73 @@ You can import records from other applications by linking them to existing recor
 
 </div>
 
-<!--
-
 <div class="preview">
 
-## Create records by adding them in the record type calendar view
+## 레코드 유형 달력 보기에 추가하여 레코드 만들기
 
-You can create records in the calendar view of a record type page, by double-clicking anywhere on the calendar. 
+달력의 아무 곳이나 두 번 클릭하여 레코드 유형 페이지의 달력 보기에서 레코드를 만들 수 있습니다.
 
-For information about creating a calendar view, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+일정 보기를 만드는 방법에 대한 자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. 레코드를 추가할 작업 영역을 클릭합니다.
 
-1. Click a record type card. 
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
-    The record type page opens in the view that you last accessed. 
+1. 레코드 유형 카드를 클릭합니다.
 
-1. Click to open a calendar view, or create a calendar view.
+   마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다.
 
-    >[!NOTE]
-    >
-    >You can create a calendar view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere on the calendar. 
+1. 을 클릭하여 달력 보기를 열거나 달력 보기를 만듭니다.
 
-    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)
+   >[!NOTE]
+   >
+   >레코드 유형과 연결된 날짜 필드가 두 개 이상인 경우에만 달력 보기를 만들 수 있습니다.
+1. 캘린더의 아무 곳이나 두 번 클릭합니다.
 
-    ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
+   **새 레코드** 상자가 열립니다. <!--(********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)-->
 
-1. Update the following information:
+   ![이름이 지정되지 않은 레코드 표시줄이 있는 달력의 새 레코드 상자](assets/new-record-small-box-on-calendar.png)
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. 
-    
-        >[!TIP]
-        >
-        >If you display the Name of the record in the record bars according to the calendar settings, the name is not visible in the record bar if left empty. 
+1. 다음 정보를 업데이트합니다.
 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the calendar view was created.
+   * **이름**: 레코드 이름을 입력하십시오. 비워 두면 Workfront은 기본적으로 이름을 **제목 없음**&#x200B;으로 지정합니다.
 
-        By default, date values are preselected depending on how you display the calendar view. The following scenarios exist:
+     >[!TIP]
+     >
+     >달력 설정에 따라 레코드 이름을 레코드 표시줄에 표시하는 경우, 이 이름을 비워 두면 레코드 표시줄에 표시되지 않습니다.
 
-        * By **Month**: The record start and end dates span one day.
-        * By **Week**: The record start and end dates span two days.
+   * **레코드 날짜 필드**: 레코드 날짜를 업데이트합니다.
 
-1. (Optional) Click one of the following icons: 
+     날짜 필드의 이름은 달력 보기를 만들 때 시작 및 종료 날짜에 대해 선택한 필드에 따라 사용자 정의됩니다.
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+     기본적으로 날짜 값은 달력 보기를 표시하는 방식에 따라 미리 선택됩니다. 다음과 같은 시나리오가 있습니다.
 
-    The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
-1. (Optional and conditional) Choose **Month** from the upper-corner dropdown menu, hover over one of the record bar's margins in the calendar, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
+      * **개월**&#x200B;까지: 기록 시작 날짜와 종료 날짜가 하루 걸칩니다.
+      * **주**&#x200B;까지: 레코드 시작 날짜와 종료 날짜가 2일에 걸쳐 있습니다.
 
-    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
+1. (선택 사항) 다음 아이콘 중 하나를 클릭합니다.
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
+   * **확장** ![확장 아이콘](assets/expand-icon.png)을 클릭하여 미리 보기 창에서 레코드 세부 정보를 엽니다.
+   * 레코드를 삭제하려면 **삭제** ![삭제 아이콘](assets/delete-icon.png).
+   * **닫기** ![닫기 아이콘](assets/close-icon.png)을 클릭하여 새 레코드 상자를 닫습니다.
 
-    (*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)
+   **삭제** 아이콘을 클릭하지 않은 경우 레코드는 캘린더와 테이블 및 타임라인 보기에 즉시 추가됩니다.
+1. (선택 사항 및 조건부) 상단 모서리 드롭다운 메뉴에서 **월**&#x200B;을(를) 선택하고 달력에서 레코드 막대의 여백 중 하나를 마우스로 가리킨 다음 막대의 끝을 다른 날짜로 끌어서 놓습니다. 이렇게 하면 레코드의 시작 및 종료 날짜가 자동으로 변경됩니다.
 
-    </div> -->
+   자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
+1. (선택 사항) 달력에서 레코드 표시줄을 클릭하여 레코드의 세부 정보 창을 열고 정보를 업데이트하거나 삭제하거나 설명을 추가합니다.
+
+   >[!TIP]
+   >
+   >기본적으로 Workfront은 레코드를 썸네일 및 표지 이미지와 연결합니다.
+   >
+   >축소판은 보기의 설정에서 활성화된 경우에만 달력 보기에 표시됩니다.
+
+   <!--(*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)-->
+
+   </div>
 
 
 ## 외부 목록에서 복사하여 붙여 넣어 레코드 만들기

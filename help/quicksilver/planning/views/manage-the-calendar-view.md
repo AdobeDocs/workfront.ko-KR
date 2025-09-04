@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 5%
+source-wordcount: '1860'
+ht-degree: 4%
 
 ---
 
@@ -111,19 +111,12 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
    * 시작 또는 종료 날짜에 값이 없으면 레코드가 1일 이벤트로 표시됩니다
    * 시작 날짜가 종료 날짜 이후인 경우 기록이 캘린더에 표시되지 않습니다.
 
-<!--
 <div class="preview">
 
-* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+* 달력 보기에서 레코드를 만들고 편집할 수 있습니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
+* 을 클릭한 다음 새 위치에서 레코드 막대를 끌어서 놓는 방법으로 달력 월별 보기에서 레코드 막대의 크기를 조정할 수 있습니다. 레코드 막대의 크기를 조정하면 시작 및 종료 날짜가 즉시 업데이트됩니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
 </div>
--->
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 달력 보기를 관리하려면:
 
@@ -151,7 +144,7 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [필터](#add-filters)
-     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
+   * <span class="preview">[행 높이](#modify-row-height)</span>
    * [설정](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -275,80 +268,72 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 1. (선택 사항) 필터 조건을 제거하려면 **x** 아이콘을 클릭하십시오.
 1. (선택 사항) 필터 상자를 닫으려면 **필터**&#x200B;를 클릭합니다. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!--
 <span class="preview">
 
-### Modify row height
+### 행 높이 수정
 
-You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+달력 셀의 행 높이를 수정하여 각 셀에 표시되는 레코드 막대의 수를 늘리거나 줄일 수 있습니다.
 
-The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+달력에 표시되는 레코드 수는 레코드 모음에 표시하는 필드 수에 따라 달라집니다.
 
 >[!TIP]
 >
->This setting is available only when viewing the calendar by month. 
+>이 설정은 달력을 월별 볼 때만 사용할 수 있습니다.
 
 
-1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
-1. Choose from the following options: 
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형 페이지에 대한 일정 보기를 만듭니다.
+1. (조건부) 월별 달력 보기를 표시한 다음 달력의 도구 모음에서 **행 높이**&#x200B;를 클릭합니다.
+1. 다음 옵션 중에서 선택합니다.
 
-<table>
-<thead>
-<tr>
-    <th><b>Row height option</b></th>
-    <th><b>Number of records</b></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>Short</td>
-    <td><p>Contains:</p>
+   <table>
+    <thead>
+    <tr>
+        <th><b>행 높이 옵션</b></th>
+        <th><b>기본 최대 레코드 수</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>짧음</td>
+        <td><p>포함:</p>
 
-<ul><li>2 records displaying 1 field</li>
-<li>1 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr><td>Standard</td>
-    <td><p>Contains:</p>
+   <ul><li>1개의 필드를 표시하는 레코드 2개</li>
+    <li>1개 이상의 필드를 표시하는 레코드 1개</li></ul>
+        </td>
+    </tr>
+    <tr><td>표준</td>
+        <td><p>포함:</p>
 
-<ul><li>4 records displaying 1 field</li>
-<li>2 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Medium</td>
-    <td><p>Contains:</p>
+   <ul><li>1개의 필드를 표시하는 레코드 4개</li>
+    <li>1개 이상의 필드를 표시하는 레코드 2개</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>보통</td>
+        <td><p>포함:</p>
 
-<ul><li>8 records displaying 1 field</li>
-<li>4 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Tall</td>
-    <td><p>Contains:</p>
+   <ul><li>1개의 필드를 표시하는 레코드 8개</li>
+    <li>1개 이상의 필드를 표시하는 레코드 4개</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>높음</td>
+        <td><p>포함:</p>
 
-<ul><li>12 records displaying 1 field</li>
-<li>6 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Fit to content</td>
-    <td><p>All records are visible, up to 500 records</p></td>
-</tr>
-</tbody>
-</table> 
+   <ul><li>1개의 필드를 표시하는 12개의 레코드</li>
+    <li>1개 이상의 필드를 표시하는 레코드 6개</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>콘텐츠에 맞춤</td>
+        <td><p>최대 500개의 레코드까지 모든 레코드가 표시됩니다.</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
-
-    >[!TIP]
-    >
-    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
-
+1. (선택 사항) 캘린더에 표시되지 않는 레코드가 있으면 **자세히**&#x200B;을(를) 클릭합니다.
 
 </span>
-
--->
 
 ### 달력 보기 설정 편집
 

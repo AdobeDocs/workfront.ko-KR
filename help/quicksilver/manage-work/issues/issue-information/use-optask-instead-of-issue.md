@@ -6,20 +6,20 @@ description: 문제의 이름이 Adobe Workfront 데이터베이스에 opTask로
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
 # 문제를 참조할 때 &quot;opTask&quot; 및 &quot;issue&quot; 사용
 
-문제의 이름이 Adobe Workfront 데이터베이스에 `opTask`(으)로 나타납니다. 문제를 참조하는 데 `issue` 필드 이름을 사용해야 하는 경우가 있지만, 대부분의 경우 문제를 참조할 때 `issue` 대신 `opTask` 필드 이름을 사용해야 합니다.
+문제의 이름이 Adobe Workfront 데이터베이스에 `opTask`(으)로 나타납니다. 문제를 참조하는 데 `issue` 필드 이름을 사용해야 하는 경우가 있지만, 대부분의 경우 문제를 참조할 때 `opTask` 대신 `issue` 필드 이름을 사용해야 합니다.
 
 개체가 Workfront 데이터베이스에 나타나는 방식에 대한 자세한 내용은 [API 탐색기](https://developer.adobe.com/workfront/api-explorer/)를 참조하십시오.
 
-## `opTask` 파일 이름
+## `opTask` 필드 이름
 
 다음 컨텍스트에서 문제를 참조할 때 `opTask` 필드 이름을 사용하십시오.
 

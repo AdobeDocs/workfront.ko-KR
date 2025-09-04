@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '3872'
+source-wordcount: '3910'
 ht-degree: 2%
 
 ---
@@ -117,14 +117,9 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 <div class="preview">
 
 * 타임라인 보기에서 레코드를 만들고 편집할 수 있습니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
+* 을 클릭한 다음 새 위치에서 해당 레코드 막대를 끌어서 놓아 타임라인 보기에서 레코드 막대의 크기를 조정할 수 있습니다. 레코드 막대의 크기를 조정하면 시작 및 종료 날짜가 즉시 업데이트됩니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
 </div>
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the timeline view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 타임라인 보기를 관리하려면 다음을 수행합니다.
 

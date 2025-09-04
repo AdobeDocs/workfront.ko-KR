@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1399'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 작업에 할당된 사용자
 * 문제에 할당된 사용자(프로젝트에만 해당)
 
-프로젝트 팀의 사용자는 프로젝트에 대한 알림을 받습니다. 자세한 내용은 이벤트 알림 유형을[ 참조하세요](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+프로젝트 팀의 사용자는 프로젝트에 대한 알림을 받습니다. 자세한 내용은 [이벤트 알림 유형](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)을 참조하세요.
 
 프로젝트 및 템플릿의 팀에 사용자를 추가(프로젝트만 해당)하거나 제거하거나 업데이트를 전송하여 관리할 수 있습니다.
 
@@ -55,10 +55,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>어떤</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Systems Workfront 라이선스*</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>표준 </p>
     <p>플랜 </p>
     </td> 
@@ -107,41 +107,41 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
 
-## Add users to a Project Team
+## 프로젝트 팀에 사용자 추가
 
-When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+프로젝트 팀에 사용자를 추가하면 해당 사용자는 프로젝트와 프로젝트의 작업, 문제 및 문서에 대한 보기 권한을 갖게 됩니다. 자세한 내용은 문서 [프로젝트 팀 개요](../../../manage-work/projects/planning-a-project/project-team-overview.md)를 참조하십시오.
 
 >[!TIP]
 >
->Users on the Project Team are not automatically added to the resource management tools for the project.
+>프로젝트 팀의 사용자는 프로젝트의 리소스 관리 도구에 자동으로 추가되지 않습니다.
 
-You can add users to the project team in the following ways:
+다음과 같은 방법으로 프로젝트 팀에 사용자를 추가할 수 있습니다.
 
-* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
-* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
+* [사용자를 프로젝트 팀에 자동으로 추가](#automatically-add-users-to-a-project-team)
+* [수동으로 프로젝트 팀에 사용자 추가](#manually-add-users-to-a-project-team)
 
-### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
+### 프로젝트 팀에 사용자 자동 추가 {#automatically-add-users-to-a-project-team}
 
-The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
+프로젝트에서 다음 역할을 수행하는 사용자는 프로젝트 팀에 자동으로 추가되고 프로젝트를 만들 때 사람 섹션에 표시됩니다.
 
-* The creator of the project
-* The project owner
-* The project sponsor
+* 프로젝트 제작자
+* 프로젝트 소유자
+* 프로젝트 스폰서
 
-Users are also automatically added to the project team when they are assigned to the following:
+또한 사용자는 다음에 할당되면 프로젝트 팀에 자동으로 추가됩니다.
 
-* Tasks
-* Issues
+* 작업
+* 문제
 
-### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
+### 수동으로 프로젝트 팀에 사용자 추가 {#manually-add-users-to-a-project-team}
 
-If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
+프로젝트에서 어떤 역할도 수행하지 않는 사용자가 프로젝트 기간 동안 특정 업데이트 또는 변경 사항에 대한 알림을 받으려면 해당 사용자를 프로젝트 팀에 수동으로 추가할 수 있습니다.
 
- For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
+프로젝트 팀의 사용자에 대해 활성화할 수 있는 알림에 대한 자세한 내용은 [이벤트 알림 유형](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)을 참조하세요.
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -161,7 +161,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. **사용자 추가**&#x200B;를 클릭합니다.
 
-   **프로젝트 팀에** 사용자 추가 상자가 표시됩니다.
+   **프로젝트 팀에 사용자 추가** 상자가 표시됩니다.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
@@ -172,13 +172,13 @@ If users that don't fulfill any role on the project want to be notified about ce
    >[!TIP]
    >
    >* 팀, 그룹, 회사 또는 작업 역할을 추가하여 사용자를 추가할 수 없습니다.
-   >* 사용자를 추가할 때 아바타, 사용자의 기본 역할 및 이메일 주소에 따라 동일한 이름을 가진 사용자가 구별됩니다. 사용자를 추가할 때 보려면 하나 이상의 작업 역할과 연결되어 있어야 합니다.
+   >* 사용자를 추가할 때 아바타, 사용자의 기본 역할 및 이메일 주소에 따라 동일한 이름을 가진 사용자가 구별됩니다. 사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.
    >
-   >  사용자가 사용자의 이메일을 볼 수 있도록 액세스 수준에서 연락처 정보 보기 설정을 사용하도록 설정해야 합니다. 자세한 내용은 사용자에게[ 액세스 권한 부여를 참조하세요](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
 
 1. **추가를 클릭합니다**.
 
-   사용자는 프로젝트에 대한 보기 권한을 얻고 프로젝트 팀 중 일부로 프로젝트에 대한 알림을 받습니다.
+   사용자는 프로젝트에 대한 보기 권한을 얻고 프로젝트 팀의 일부로 프로젝트에 대한 알림을 받게 됩니다.
 
 1. (선택 사항) 작업 역할이 작업, 문제 또는 프로젝트 승인에 추가될 때 사용자에게 알림을 보내려면 사용자의 **작업 역할** 열 내부를 클릭하고 승인과 연결할 작업 역할을 선택하십시오.
 
@@ -192,8 +192,8 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    사용자가 미완료 작업 항목에서 제거되고 할당 해제됩니다.
 
-   자세한 내용은 이 문서의 프로젝트 팀[ 섹션에서 사용자를 제거하기 위한 고려 사항 섹션을 참조하세요](#considerations-for-removing-users-from-a-project-team).
-1. (선택 사항) 이 프로젝트에 대한 업데이트를 사용자에게 보내려면 모두&#x200B;**업데이트를 클릭하여**&#x200B;팀 구성원 모두에게 업데이트를 보냅니다
+   자세한 내용은 이 문서의 [프로젝트 팀에서 사용자를 제거할 때 고려할 사항](#considerations-for-removing-users-from-a-project-team) 섹션을 참조하십시오.
+1. (선택 사항) 이 프로젝트에 대한 업데이트를 사용자에게 보내려면 **모두 업데이트**&#x200B;를 클릭하여 팀의 모든 사용자에게 업데이트를 보냅니다
 
    또는
 
@@ -211,8 +211,8 @@ If users that don't fulfill any role on the project want to be notified about ce
 1. 다음 중 하나를 수행하십시오.
 
    * 선택한 사용자에 대한 업데이트를 추가합니다.
-   * 자물쇠 아이콘을 클릭하여 업데이트를 회사의 사용자에게 비공개로 설정합니다.
-   * 동일한 업데이트를 받도록 추가 사용자에게 태그를 지정합니다.
+   * 잠금 아이콘을 클릭하여 회사 내 사용자에 대한 업데이트를 비공개로 만듭니다.
+   * 추가 사용자에 태그를 지정하여 동일한 업데이트를 받습니다.
    * **보내기**&#x200B;를 클릭합니다.
 
    업데이트가 프로젝트의 **업데이트** 섹션에 추가되고 선택한 모든 사용자가 태그 지정된 사용자로 표시됩니다.
@@ -239,11 +239,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. **예, 선택한 사용자 제거**&#x200B;를 클릭하여 사용자를 확인하고 제거합니다.
 
-   사용자가 제거되고 템플릿 작업에서 할당이 취소됩니다.
+   템플릿 작업에서 사용자가 제거되며 할당이 해제됩니다.
 
-   자세한 내용은 이 문서의 프로젝트 팀[ 섹션에서 사용자를 제거하기 위한 고려 사항 섹션을 참조하세요](#considerations-for-removing-users-from-a-project-team).
+   자세한 내용은 이 문서의 [프로젝트 팀에서 사용자를 제거할 때 고려할 사항](#considerations-for-removing-users-from-a-project-team) 섹션을 참조하십시오.
 
-1. (선택 사항) 사용자에게 업데이트를 보내려면 모두&#x200B;**업데이트를 클릭하여**&#x200B;목록에 있는 모든 사용자에게 업데이트를 보냅니다
+1. (선택 사항) 업데이트를 사용자에게 보내려면 **모두 업데이트**&#x200B;를 클릭하여 목록의 모든 사용자에게 업데이트를 보냅니다
 
    또는
 
@@ -253,13 +253,13 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    ![템플릿의 사용자 상자로 업데이트 보내기](assets/send-update-to-user-on-template-box.png)
 
-   **사용자** 대상 업데이트 보내기 상자가 열립니다.
+   **사용자에게 업데이트 보내기** 상자가 열립니다.
 
 1. 다음을 수행합니다.
 
    * 선택한 사용자에 대한 업데이트를 추가합니다.
-   * 사용자&#x200B;**태그 지정을 클릭하여**&#x200B;동일한 업데이트를 받을 추가 사용자를 태그 지정합니다.
-   * **내 회사에** 비공개 옵션을 선택하여 업데이트를 회사의 사용자에게 비공개로 설정합니다.
+   * 동일한 업데이트를 받을 추가 사용자를 태그 지정하려면 **사람 태그 지정**&#x200B;을 클릭하세요.
+   * 업데이트를 회사 사용자에게 비공개로 설정하려면 **내 회사에 비공개** 옵션을 선택하십시오.
    * **보내기**&#x200B;를 클릭합니다.
 
    태그가 지정된 각 사용자 프로필의 **업데이트** 섹션에 업데이트가 추가됩니다.
@@ -280,9 +280,9 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 프로젝트 팀에서 사용자를 제거하고 사용자가 프로젝트의 작업 또는 문제에 할당되면 완료되지 않은 작업 및 문제에서 사용자가 할당 해제됩니다. 이 경우 작업과 문제는 업무 균형자의 미할당 작업 영역으로 돌아갑니다.
 
-완료된 작업 및 문제점에 배정된 사용자는 프로젝트 팀 내에서 제거한 후에도 작업 및 문제점에 배정된 상태로 균일 유지됩니다.
+완료된 작업 및 문제에 할당된 사용자는 프로젝트 팀에서 제거한 후에도 작업 및 문제에 할당된 상태로 유지됩니다.
 
-다음 사용자는 프로젝트 또는 템플릿 의 사람 섹션에서 제거할 때 프로젝트의 역할에서 제거됩니다.
+프로젝트 또는 템플릿의 사람 섹션에서 다음 사용자를 제거하면 해당 사용자가 프로젝트에 대한 역할에서 제거됩니다.
 
 * 미완료 작업에 할당된 사용자
 * 미완료 문제에 할당된 사용자

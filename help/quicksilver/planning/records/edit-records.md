@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2688'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 레코드 편집
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -242,12 +242,10 @@ ht-degree: 0%
 <!--add another step about drag and drop here when that is available-->
 
 1. 타임라인 보기에서 레코드 유형 페이지를 엽니다. 자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
-<!--
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
 
-    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+1. <span class="preview">레코드 표시줄의 끝을 마우스로 가리킨 다음 해당 여백을 다른 날짜로 끌어서 놓습니다. 레코드의 시작 또는 종료 날짜가 자동으로 업데이트됩니다.</span>
 
--->
+   <span class="preview">![크기를 조정할 타임라인 보기의 왼쪽 끝 막대](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
 1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
 
@@ -258,12 +256,10 @@ ht-degree: 0%
 <!--add another step about drag and drop here when that is available-->
 
 1. 달력 보기에서 레코드 유형 페이지를 엽니다. 자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
-<!--
-1. (Conditional) Select **Month** in the upper-right dropdown menu.
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+1. (조건부) 오른쪽 위 드롭다운 메뉴에서 **월**&#x200B;을(를) 선택합니다.
+1. <span class="preview">레코드 표시줄의 끝을 마우스로 가리킨 다음 해당 여백을 다른 날짜로 끌어서 놓습니다. 레코드의 시작 또는 종료 날짜가 자동으로 업데이트됩니다.</span>
 
-    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
--->
+   <span class="preview">![크기를 조정할 달력 보기의 왼쪽 끝 막대](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
 1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
 
@@ -389,39 +385,34 @@ ht-degree: 0%
 
 자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
 
-
-<!--
-
 <div class="preview">
 
-## Add new choices to an existing select field when editing records in the table view
+## 단일 또는 다중 선택 필드에 대한 정보 편집
 
-You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+<!--some of this information is also available in Edit fields article - update both when necessary-->
+
+단일 또는 다중 선택 필드에서 정보를 편집할 때 필드를 편집할 필요 없이 필드에 새로운 선택 사항을 추가할 수 있습니다.
 
 >[!IMPORTANT]
 >
->The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
+>이 섹션에서 설명하는 기능은 표 보기에서만 사용할 수 있습니다. 단일 또는 다중 선택 필드가 표시되는 다른 영역에서는 사용할 수 없습니다.
 
+**예**
 
-**EXAMPLE**
+Status 라는 단일 선택 필드에 New 및 Closed 라는 선택 사항이 있을 수 있으며 In 진행 중 상태에 대한 선택 사항을 추가할 수 있습니다. 다음 중 하나를 수행하여 선택 사항을 추가할 수 있습니다.
 
-You might have a single-select field called Status that has the choices New and Closed, and you want to add a choice for an In progress status. You can add the choice by doing one of the following things:
+* 필드 편집 중 자세한 내용은 [필드 편집](/help/quicksilver/planning/fields/edit-fields.md)을 참조하세요.
+* 아래 설명된 대로 표 보기에서 레코드를 편집하는 동안 새 옵션을 추가합니다.
 
-* Editing the field. For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
-* Adding a new option while editing the record in the table view, as described below. 
+레코드를 편집할 때 기존 선택 필드에 새 선택을 추가하려면 다음을 수행합니다.
 
+1. 레코드 유형 페이지로 이동하여 테이블 보기를 엽니다.
+1. 선택 사항을 추가할 단일 또는 다중 선택 필드를 테이블 보기에 새 열로 추가합니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
+1. 필드의 셀을 두 번 클릭하여 인라인 필드 편집을 시작합니다.
+1. 추가할 선택 항목의 이름을 입력한 다음 **선택 항목 추가**&#x200B;를 클릭합니다.
 
-To add a new choice to an existing select field when editing a record: 
+   ![테이블 보기의 단일 선택 필드에 선택 항목 추가](assets/add-choice-in-table-view-for-single-select-field.png)
 
-1. Go to a record type page and open the table view. 
-1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-1. Start editing the field inline by double-clicking the cell for the field. 
-1. Type the name of the choice you want to add, then click **Add choice**.
-
-    ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)
-
-    The new choice is added immediately to the single-select field. 
+   새 선택 항목이 단일 선택 필드에 즉시 추가됩니다.
 
 </div>
-
--->
