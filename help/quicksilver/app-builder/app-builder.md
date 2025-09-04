@@ -4,10 +4,10 @@ description: Adobe App Builder 기반의 Workfront UI 확장 기능을 사용하
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 1%
+source-wordcount: '2178'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ Adobe App Builder에서 제공하는 Workfront UI 확장을 사용하면 고객 
 Workfront UI 확장은 다음과 같은 몇 가지 주요 이점을 제공합니다.
 
 * 정확한 맞춤형 구성: 표준 소프트웨어 인터페이스는 대부분의 경우 모든 비즈니스 요구 사항을 충족하지 못합니다. UI 확장을 사용하면 개발자가 특정 비즈니스 요구 사항을 해결하기 위해 기본 사용자 인터페이스를 수정하고 확장할 수 있습니다.
-* 시스템 통합: UI 확장을 사용하면 다른 시스템을 쉽게 통합하여 원활한 워크플로우와 데이터 일관성을 보장할 수 있습니다.
+* 시스템 통합: UI 확장을 사용하면 다른 시스템의 통합을 용이하게 하여 원활한 워크플로우와 데이터 일관성을 보장할 수 있습니다.
 * 확장성: 비즈니스 성장에 따라 UI 확장을 개발하여 시스템을 완전히 정비하지 않고도 새로운 기능을 추가할 수 있습니다.
 * 개발 시간 단축: 사전 구축된 확장 지점 및 도구를 통해 사용자 정의 기능을 구현하는 데 필요한 시간과 노력을 크게 줄일 수 있습니다.
 * 향상된 사용자 채택: 최적화된 사용자 경험을 통해 소프트웨어 채택을 크게 향상시킬 수 있습니다. 사용자 환경 설정에 맞게 디자인된 사용자 정의 UI 요소를 통해 채택률과 전반적인 만족도를 향상시킬 수 있습니다.
 * Workfront UI 확장 기능을 활용하여 기업은 효율성, 통합 및 사용자 만족도를 높이는 맞춤형 사용자 경험을 만들 수 있습니다.
 
-Adobe App Builder에서 애플리케이션을 만든 후 Workfront 관리자가 레이아웃 템플릿을 사용하여 Workfront 메인 메뉴 및 왼쪽 탐색 패널에 추가할 수 있습니다. 레이아웃 템플릿을 사용하는 사용자가 애플리케이션을 클릭하면 Workfront에 포함된 애플리케이션이 별도로 열리는 대신 표시됩니다.
+Adobe App Builder에서 애플리케이션을 만든 후 Workfront 관리자가 레이아웃 템플릿을 사용하여 Workfront 메인 메뉴 및 왼쪽 탐색 패널에 추가할 수 있습니다. 애플리케이션을 클릭한 레이아웃 템플릿을 사용하는 사용자는 애플리케이션을 별도로 열지 않고도 Workfront에 임베드된 애플리케이션을 볼 수 있습니다.
 
 이 문서에서는 App Builder에 액세스하고 템플릿을 사용하여 애플리케이션을 만드는 방법을 설명합니다.
 
@@ -87,19 +87,19 @@ Adobe Developer Console을 사용하여 UI 확장을 빌드해야 합니다.
 
    >[!IMPORTANT]
    >
-   >템플릿에서 프로젝트를 만드는 옵션이 표시되지 않으면 Admin Console에서 잘못 구성되었으며 App Builder 카탈로그에 액세스할 수 없습니다. 이 옵션은 AppBuilder에 액세스할 수 있는 경우에만 표시됩니다.
+   >템플릿에서 프로젝트를 만드는 옵션이 표시되지 않으면 Admin Console에서 잘못 구성된 것이므로 App Builder 카탈로그에 액세스할 수 없습니다. 이 옵션은 AppBuilder에 액세스할 수 있는 경우에만 표시됩니다.
 
    ![템플릿에서 만들기](assets/create-from-template.png)
 
 1. **App Builder**&#x200B;을(를) 선택합니다.
 
-1. **프로젝트 제목** 및 **앱 이름**&#x200B;을 입력하십시오. 둘 다 기본값이 있지만 값을 사용자 지정하면 나중에 원하는 프로젝트를 더 쉽게 식별할 수 있습니다.
+1. **프로젝트 제목** 및 **앱 이름**&#x200B;을 입력하십시오. 두 가지 모두 기본값이 있지만 값을 사용자 지정하면 나중에 원하는 프로젝트를 더 쉽게 식별할 수 있습니다.
 
 1. **런타임 포함**&#x200B;을 선택한 상태로 둡니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
-## Adobe IO(aio) CLI 사용
+## Adobe Developer(aio) CLI 사용
 
 Adobe에서는 App Builder 애플리케이션을 만드는 데 사용할 수 있는 오픈 소스 CLI를 제공합니다.
 
@@ -115,7 +115,7 @@ Adobe에서는 App Builder 애플리케이션을 만드는 데 사용할 수 있
    ![명령 결과](assets/1-command-result.png)
    ![프로젝트 선택](assets/2-select-a-project.png)
 
-1. 사용 가능한 모든 템플릿을 탐색하고 프로젝트의 **@adobe/workfront-ui-ext-tpl**&#x200B;을(를) 선택하십시오.
+1. 사용 가능한 모든 템플릿을 탐색하고 프로젝트의 **@adobe/workfront-ui-ext-tpl**을(를) 선택하십시오.
    ![템플릿 선택](assets/3-choose-template.png)
 1. Adobe Developer Console에서 만든 프로젝트 이름을 선택하고 입력합니다.
    ![프로젝트 이름 선택 및 입력](assets/4-select-and-enter-project-name.png)
@@ -125,7 +125,7 @@ Adobe에서는 App Builder 애플리케이션을 만드는 데 사용할 수 있
    * 확장 이름을 지정합니다.
    * 확장 기능에 대한 설명 요약을 제공합니다.
    * 시작할 초기 버전 번호를 선택합니다.
-   * &quot;다음 단계 수행&quot; 메시지가 표시되면 &quot;메인 메뉴 항목에 사용자 지정 단추 추가&quot;를 선택하면 템플릿에서 기본 탐색 단추에 대한 코드를 생성합니다.
+   * &quot;다음 작업&quot; 메시지가 표시될 때 &quot;메인 메뉴 항목에 사용자 지정 단추 추가&quot;를 선택하면 템플릿에서 기본 탐색 단추에 대한 코드를 만듭니다.
 
    ![완료 선택](assets/5-select-done.png)
 
@@ -134,6 +134,8 @@ Adobe에서는 App Builder 애플리케이션을 만드는 데 사용할 수 있
 1. 앱 초기화가 완료되었다는 메시지가 표시될 때까지 기다립니다. 그런 다음 IDE(Visual Studio Code 권장)에서 프로젝트를 열고 src 폴더에 액세스할 수 있습니다.
 
    프로젝트의 폴더 및 파일에 대한 자세한 내용은 [Adobe 개발자 사이트](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application)를 참조하십시오.
+
+프로젝트의 폴더 및 파일에 대한 자세한 내용은 [Adobe Developer 사이트](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application)를 참조하세요.
 
 ## VSCode에서 확장 빌드
 
@@ -152,13 +154,13 @@ Workfront 기본 메뉴에서 사용자 지정 응용 프로그램을 허용하�
 ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드는 템플릿에서 만들었습니다. 이 코드를 추가하여 추가 메뉴 항목을 만들 수 있습니다. ID 및 URL을 바꾸십시오.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    반환 &lbrack;
+    반환 [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -168,13 +170,13 @@ ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드�
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. 다음 코드 조각을 추가합니다.
@@ -218,6 +220,165 @@ Workfront 왼쪽 패널 탐색에서 사용자 정의 애플리케이션을 허�
 
 1. 작업 내용을 저장합니다.
 
+### Workfront 사용자 정의 양식을 사용하여 앱 포함
+
+양식 위젯 확장 포인트는 Workfront 사용자 정의 양식 내에 임베드할 수 있는 사용자 정의 위젯을 만들 수 있는 Adobe Workfront의 UI 확장 기능입니다. 탐색 항목이나 메뉴 옵션을 추가하는 다른 확장 지점과 달리 위젯은 사용자 정의 양식 필드 내의 전용 패널에 사용자 정의 콘텐츠를 표시하는 방법을 제공합니다.
+
+위젯은 양식 필드로 Workfront 사용자 정의 양식에 추가할 수 있는 모듈식 UI 구성 요소입니다. 사용자 정의 기능, 데이터 시각화 또는 외부 콘텐츠를 사용자 정의 양식 인터페이스 내에 직접 표시하는 방법을 제공하므로 사용자가 양식을 작성하는 동안 사용자 정의 논리와 상호 작용할 수 있습니다.
+
+#### 위젯 확장 구성
+
+기본 메뉴 및 보조 탐색에 대한 UI 확장 포인트와 마찬가지로 &quot;위젯&quot; 확장 포인트는 일반적으로 `ExtensionRegistration` 필드에 있는 `ExtensionRegistration.js` 구성 요소의 메서드 개체 내에 구성됩니다. 즉, 양식 위젯을 사용하려면 app.js에서 올바른 경로를 사용하여 `extesionregistration`의 &quot;위젯&quot; 항목만 추가해야 합니다.
+
+```
+javascript 
+
+
+Apply to ExtensionReg... 
+
+widgets: { 
+
+  getItems() { 
+
+    return [ 
+
+      { 
+
+        id: "test2", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget with dimensions", 
+
+        dimensions: { 
+
+          height: 450, 
+
+          width: 300, 
+
+          maxHeight: 600, 
+
+          maxWidth: 400, 
+
+        }, 
+
+      }, 
+
+      { 
+
+        id: "test", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget without dimensions", 
+
+      }, 
+
+    ]; 
+
+  }, 
+
+}, 
+```
+
+#### 위젯 구성 속성
+
+**필수 속성**
+
+* id(문자열): 위젯에 대한 고유 식별자입니다. 확장의 모든 위젯에서 고유해야 합니다.
+
+* url(문자열): 위젯 콘텐츠의 URL 경로입니다. 위젯 구성 요소를 렌더링하는 확장의 경로를 가리켜야 합니다.
+
+* label(string): 사용자 정의 양식 필드 선택 인터페이스에 나타나는 위젯의 표시 이름입니다.
+
+**선택적 속성**
+
+* dimensions(object): 위젯의 표시 차원을 지정합니다. 모든 등록 정보는 선택 사항이며 가능한 유일한 차원입니다.
+
+* height (숫자): 위젯 높이(픽셀)
+
+* width (number): 위젯 너비(픽셀 단위)
+
+* maxHeight(숫자): 위젯의 최대 높이(픽셀)
+
+* maxWidth(숫자): 위젯의 최대 너비(픽셀)
+
+**Dimension 속성**
+
+차원 객체를 사용하여 위젯의 크기 및 레이아웃 제한을 제어할 수 있습니다.
+
+* 높이 및 너비: 위젯의 초기/기본 설정 크기 설정
+
+* maxHeight 및 maxWidth: 위젯이 너무 커지지 않도록 상한을 설정합니다.
+
+* 반응형 동작: 위젯은 이러한 제한 내에서 반응할 수 있습니다
+
+* 양식 통합: 차원을 통해 위젯이 양식 필드 레이아웃에 잘 맞습니다.
+
+#### Dimension 구성 예
+
+```
+// Fixed size widget 
+
+dimensions: { 
+
+  height: 300, 
+
+  width: 250, 
+
+} 
+
+// Flexible height with width constraint 
+
+dimensions: { 
+
+  width: 300, 
+
+  maxHeight: 500, 
+
+} 
+
+// Height constraint only 
+
+dimensions: { 
+
+  height: 400, 
+
+  maxWidth: 350, 
+
+} 
+
+// No dimensions - uses default sizing 
+
+{} 
+```
+
+#### 컨텍스트 데이터
+
+위젯은 다음을 포함하여 다른 확장 포인트와 동일한 공유 컨텍스트에 액세스할 수 있습니다.
+
+* auth: IMS 토큰을 포함한 인증 정보
+
+* objCode: 개체 유형 코드(TASK, PROJECT, ISSUE 등)
+
+* objID: 개체 식별자
+
+* 호스트 이름: Workfront 인스턴스 호스트 이름
+
+* 프로토콜: 연결 프로토콜
+
+* 사용자: 현재 사용자 정보
+
+* isLoginAs: 사용자가 다른 사용자로 로그인했는지 여부
+
+* isInBulkEditing: 양식이 현재 벌크 편집 모드에 있는 경우. 이 경우 컨텍스트에는 개체 ID에 대한 여러 값이 포함됩니다.
+
+#### Workfront 사용자 정의 양식에 위젯 추가
+
+앱은 &quot;UI 확장&quot; 필드 유형을 사용하여 Workfront 사용자 정의 양식에 임베드할 수 있습니다. 필드를 추가한 후에는 양식 위젯을 선택하십시오. 위젯 목록은 IMS 조직의 활성 앱 또는 `extensionoverride=TRUE` 시 로컬 활성 응용 프로그램을 기반으로 합니다.
+
+사용자 정의 양식의 ![UI 확장 필드](assets/ui-extensions-field.png)
+
 ### App.js 구성
 
 1. App.js로 이동합니다.
@@ -238,6 +399,7 @@ Workfront 왼쪽 패널 탐색에서 사용자 정의 애플리케이션을 허�
 1. 작업 내용을 저장합니다.
 
 응용 프로그램 개발 및 실행에 대한 자세한 내용은 [Adobe 개발자 사이트](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application)를 참조하십시오.
+
 
 ## 공유 컨텍스트
 
@@ -264,12 +426,12 @@ Workfront용 App Builder 애플리케이션을 개발하는 동안 앱을 게시
 
 App Builder 앱 내에서 로컬 개발을 위해 `aio app run`을(를) 시작할 수 있습니다. URL은 일반적으로 `https://localhost:9080`과(와) 같습니다. 또는 `aio app deploy`을(를) 실행하여 정적 Adobe 도메인을 가져올 수 있습니다. 나중에 사용할 수 있도록 이 URL을 메모해 두십시오.
 
-그런 다음 브라우저에서 개발할 특정 페이지로 이동합니다. 개발자 도구를 열고 workfront.com 또는 workfront.adobe.com용 로컬 저장소에 액세스합니다. 여기에서 항목을 추가해야 합니다. 키로 `extensionOverride`을(를) 사용하고 값으로 이전에 언급된 App Builder URL을 사용합니다.
+그런 다음 브라우저에서 개발할 특정 페이지로 이동합니다. 개발자 도구를 열고 workfront.com 또는 workfront.adobe.com용 로컬 저장소에 액세스합니다. 여기에서 항목을 추가해야 합니다. 키로 `extensionOverride`을(를) 사용하고 값으로 이전에 언급된 App Builder URL을 사용하십시오.
 
 구성이 올바르게 완료된 경우 Workfront에서 레이아웃 템플릿 페이지를 다시 로드하면 App Builder 애플리케이션의 버튼이 표시됩니다. 오브젝트의 기본 메뉴 및 왼쪽 패널에 앱 버튼을 추가하고 해당 영역에 앱 버튼이 올바르게 표시되는지 확인합니다.
 
-추가 지침은 Adobe 개발자 사이트에서 AEM의 예를 사용하여 확인할 수 있습니다. https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+추가 지침은 Adobe Developer 사이트에서 AEM의 예를 사용하여 확인할 수 있습니다. https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
 
 ## 애플리케이션 게시 및 제출 승인
 
-응용 프로그램을 게시하고 승인하려면 [Adobe 개발자 사이트](https://developer.adobe.com/uix/docs/guides/publication/)의 지침을 따르십시오.
+응용 프로그램을 게시하고 승인하려면 [Adobe Developer 사이트](https://developer.adobe.com/uix/docs/guides/publication/)의 지침을 따르십시오.
