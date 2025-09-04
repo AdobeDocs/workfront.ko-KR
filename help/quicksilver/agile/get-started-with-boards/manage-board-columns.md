@@ -6,9 +6,9 @@ description: 새 보드에는 기본적으로 3개의 열이 있습니다. 열�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -121,12 +121,6 @@ ht-degree: 0%
 
 카드 상태가 기존 열 정책에 설정된 상태와 일치하지 않으면 카드가 배치된 열에 남아 있습니다.
 
->[!NOTE]
->
->동적 보드는 열 정책의 활성화 여부에 관계없이 항상 해당 상태와 일치하는 열에 카드를 배치합니다. 카드를 새로 고치면 할당된 열로 돌아갑니다.
-> 
->또한 모든 보드 유형의 경우 한 열에서 동일한 상태의 다른 열로 카드를 이동하면 보드를 새로 고칠 때 카드가 원래 열로 돌아갑니다.
-
 1. 보드에 액세스합니다.
 1. 열에서 **[!UICONTROL 기타]** 메뉴 ![기타 메뉴](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
@@ -178,7 +172,7 @@ ht-degree: 0%
 
 1. 열에 추가할 수 있는 카드 수를 제한하려면 **[!UICONTROL 진행 중인 작업 제한]** 정책을 사용하도록 설정하십시오. **[!UICONTROL 제한 설정]** 필드에 제한 번호를 입력하십시오.
 
-   ![&#128279;](assets/boards-wip-limit-in-column.png) 열에 대한 WIP 제한
+   ![ 열에 대한 ](assets/boards-wip-limit-in-column.png)WIP 제한
 
    자세한 내용은 [게시판에서 WIP(Work In Progress) 한도 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)를 참조하십시오.
 

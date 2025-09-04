@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 420ddfa1f12f21332f460f9dc5fd1393cfc6e435
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -68,14 +68,18 @@ AI Assistant에 대한 자세한 내용은 [AI Assistant 개요](/help/quicksilv
 
 Project Health를 활용하려면 조직에서 AI Assistant를 활성화해야 합니다.
 
-조직에 대해 AI Assistant를 활성화하려면 다음 사항을 모두 적용해야 합니다.
+조직에 대해 AI Assistant 및 프로젝트 상태를 활성화하려면 다음 사항을 모두 적용해야 합니다.
 
 * 조직이 Adobe IMS(Identity Management System)로 마이그레이션되었어야 합니다.
+* 조직에 Select, Prime 또는 Ultimate Workfront 플랜이 있어야 합니다.
 * Adobe 통합 경험을 활성화해야 합니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 * Workfront 관리자는 조직의 사용자를 위해 AI Assistant를 활성화해야 합니다. AI Assistant는 액세스 수준을 통해 활성화됩니다.
+* 설정 > 환경 설정의 AI 환경 설정 섹션에서 AI 및 프로젝트 상태 활성화 옵션을 모두 선택해야 합니다.
 
-자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
+  ![AI 환경 설정 섹션](assets/ai-preferences.png)
+
+자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) 및 [시스템 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
 
 ## AI Assistant 프롬프트 목록
 
