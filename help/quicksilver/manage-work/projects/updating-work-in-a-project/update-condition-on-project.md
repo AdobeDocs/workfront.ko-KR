@@ -6,7 +6,7 @@ description: 프로젝트 상태 는 프로젝트와 관련된 작업이 원활�
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -61,9 +61,9 @@ ht-degree: 0%
 
 ## 자동으로 조건 설정
 
-프로젝트의 상태를 자동으로 설정하는 것은 프로젝트의 상태 유형에 의해 결정됩니다. Workfront이 프로젝트의 상태를 자동으로 설정하려면 상태 유형 을 진행 상태로 설정해야 합니다.
+프로젝트의 상태를 자동으로 설정하는 것은 프로젝트의 상태 유형에 의해 결정됩니다. Workfront이 프로젝트의 상태를 자동으로 설정하려면 상태 유형 을 진행 상태로 설정해야 합니다.
 
-Workfront 또는 그룹 관리자는 설정 영역에서 프로젝트 환경 설정을 지정할 때 시스템의 새 프로젝트에 대한 상태 유형 필드의 기본값을 결정합니다. 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
+Workfront 또는 그룹 관리자는 설정 영역에서 프로젝트 환경 설정을 지정할 때 시스템의 새 프로젝트에 대한 상태 유형 필드의 기본값을 결정합니다. 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 
 프로젝트를 만들 때 프로젝트의 상태가 해당 시점의 프로젝트 진행 상태와 일치하도록 자동으로 설정됩니다. 프로젝트의 진행 상태는 프로젝트에 대한 작업의 진행 상황을 기반으로 합니다.
 
@@ -78,7 +78,7 @@ Workfront 또는 그룹 관리자는 설정 영역에서 프로젝트 환경 설
 
 1. **조건 유형** 필드가 **수동**(으)로 설정되어 있는지 확인하십시오.
 
-   ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
+   ![](assets/project-details-overview-select-condition.png)
 
 1. **조건** 필드에서 연결된 작업이 원활하게 진행되는지 또는 지연되는지 여부에 대해 이해한 것과 일치하는 옵션을 선택합니다.
 

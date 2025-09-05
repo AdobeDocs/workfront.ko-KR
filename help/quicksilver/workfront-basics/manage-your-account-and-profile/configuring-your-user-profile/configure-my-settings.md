@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 프로필에 사용자 자신에 대한 �
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
+source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3149'
 ht-degree: 1%
 
 ---
@@ -249,16 +249,19 @@ ht-degree: 1%
    <td role="rowheader"><strong>[!UICONTROL 암호 변경]</strong></td> 
    <td>이 섹션에서 암호를 재설정합니다. 암호 재설정에 대한 자세한 내용은 <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">암호 재설정</a>을 참조하세요.</td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>(조건부) &lt;SSO 구성&gt; [!UICONTROL 사용자 이름]</strong></td> 
-   <td> [!DNL Workfront] 관리자가 [!DNL Workfront]과(와) SSO 통합을 사용하도록 설정한 경우 SSO 사용자 이름이 이 필드에 표시됩니다. [!DNL Workfront] 인스턴스에 대해 활성화된 SSO 구성 유형이 이 필드에 표시됩니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>(조건부) [!UICONTROL &lt;SSO 구성&gt; 인증만 허용]</strong></td> 
-   <td> <p> [!DNL Workfront] 관리자가 [!DNL Workfront]과(와) SSO 통합을 사용하도록 설정하고 SSO를 위해 사용자를 업데이트한 경우 기본적으로 이 필드가 선택됩니다. [!DNL Workfront] 인스턴스에 대해 활성화된 SSO 구성 유형이 이 필드에 표시됩니다.</p> <p>이 필드를 선택하면 SSO 자격 증명으로 [!DNL Workfront]에 로그인해야 합니다. 선택을 취소하면 [!DNL Workfront] 자격 증명으로 [!DNL Workfront]에 로그인할 수 있습니다.</p> <p>SSO 솔루션을 사용하여 [!DNL Workfront]을(를) 구성하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">[!DNL Workfront]의 Single Sign-On: 문서 인덱스</a>을(를) 참조하십시오. SSO용 사용자 업데이트에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">SSO(Single Sign-On)용 사용자 업데이트</a>를 참조하십시오.</p> </td> 
-  </tr> 
  </tbody> 
 </table>
+
+<!--
+  <tr> 
+   <td role="rowheader"><strong>(Conditional) &lt;SSO Configuration> [!UICONTROL Username]</strong></td> 
+   <td> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront], your SSO Username displays in this field. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>(Conditional) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
+   <td> <p> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront] and has updated users for SSO, this field is selected by default. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</p> <p>When this field is selected, you are required you to log into [!DNL Workfront] with your SSO credentials. Unchecking it will allow you to log in to [!DNL Workfront] with your [!DNL Workfront] credentials.</p> <p>For more information about configuring [!DNL Workfront] with an SSO solution, see <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single sign-on in [!DNL Workfront]: article index</a>. For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> </td> 
+  </tr>
+-->
 
 #### [!UICONTROL 작업 정보]
 
@@ -342,9 +345,6 @@ ht-degree: 1%
    <td><p>여기에서 원하는 언어를 지정하십시오. 발신 전자 메일 메시지에 사용되는 언어, 날짜 및 숫자 형식을 제어합니다.</p>
    <p><strong>참고:</strong> 조직에서 Adobe 통합 환경을 사용하는 경우 언어 환경 설정은 Adobe 프로필에 저장되고 전자 메일 로케일은 사용되지 않습니다. 자세한 내용은 문서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Experience Cloud에서 지원되는 언어</a>에서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Workfront 언어 변경</a>을 참조하십시오.</p></td> 
   </tr>
-  <tr><td><strong>[!UICONTROL 내가 자신에게 할당한 작업을 내 처리 중 탭으로 보내기]</strong> </td>
-  <td>자신에게 할당한 작업 상태를 새로 만들기 대신 진행 중으로 자동 설정하려면 이 옵션을 선택합니다.</td>
-  </tr>
   <tr> 
    <td role="rowheader"><strong>(조건부) 문서 업로드 시 증명을 자동으로 생성합니다</strong></td> 
    <td>문서가 [!DNL Workfront]에 로드된 후 바로 증명 생성을 시작하려면 이 필드를 선택하십시오. 이 필드는 기본적으로 비활성화되어 있으며 Workfront 관리자만 업데이트할 수 있습니다.<br>이 필드는 회사에서 Workfront용 Workfront Proof 구성 요소를 구입한 경우와 증명 사용자로 활성화된 경우에만 사용할 수 있습니다. Workfront Proof에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Adobe Workfront에서 증명 관리</a>를 참조하십시오.
@@ -352,6 +352,14 @@ ht-degree: 1%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+  <tr><td><strong>[!UICONTROL Send work I assign to myself to my Working On tab]</strong> </td>
+  <td>Select this option if you want the status of work you assign to yourself to automatically be set to In Progress instead of New.</td>
+
+  <strong>[!UICONTROLAutomatically set the task status to In Progress when tasks are self-assigned]</strong>: When this option is selected, work that you assign to yourself is automatically set to In Progress status instead of New.
+  </tr>
+-->
 
 ### [!UICONTROL 알림]
 
@@ -370,7 +378,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 이 활성 상태입니다]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL이 활성 상태입니다]</strong> </td> 
    <td>이 필드는 [!DNL Workfront] 관리자이기도 한 사용자만 볼 수 있으며 기본적으로 활성화되어 있어야 합니다. 사용자가 활성 상태로에 로그인할 수 있음을 의미합니다. [!DNL Workfront]</td> 
   </tr> 
   <tr> 

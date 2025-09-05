@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '647'
 ht-degree: 2%
 
 ---
@@ -118,18 +118,23 @@ Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작
 
      ![프로젝트를 편집할 때 상태 변경](assets/change-condition-edit-project-0825.png)
 
-   <!-- 
-   * When a user is changing the condition for a task or issue on the Updates tab:
-
-     ![Change condition when updating comment](assets/change-condition-update-comment.png)
-   -->
-
    * 사용자가 목록 보기에서 작업 또는 문제에 대한 조건을 변경할 때:
 
-     ![목록의 조건 변경](assets/change-conditions-list-dropdown-only.png)
+     ![목록의 조건 변경](assets/change-conditions-list-dropdown-0925.png)
+
+     >[!NOTE]
+     >
+     >기본 조건 보기에서 **조건** 필드는 인라인으로 편집할 수 없는 필드 유형입니다. 보기에 **조건** 필드를 별도로 추가하면 편집할 수 있습니다. 인라인 편집에 대한 자세한 내용은 [Adobe Workfront의 목록에서 인라인 편집 항목](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)을 참조하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
 
 사용자 지정 조건을 프로젝트 또는 작업 및 문제의 기본 조건으로 설정할 수 있습니다. 자세한 내용은 [프로젝트 기본값으로 사용자 지정 조건 설정](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) 및 [작업 및 문제에 대한 기본값으로 사용자 지정 조건 설정](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)을 참조하십시오.
 
 사용자 지정 조건에 대한 자세한 내용은 [사용자 지정 조건](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)을 참조하세요.
+
+
+<!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+   * When a user is changing the condition for a task or issue on the Updates tab:
+
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+   -->

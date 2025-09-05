@@ -6,9 +6,9 @@ description: 작업 또는 문제의 상태는 작업 또는 문제의 진행 �
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1060'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항 {#access-requirements}
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +59,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">개체 권한</td> 
    <td> <p>작업 및 문제에 대한 또는 그 이상의 권한을 보고 해당 조건 보기</p>
-   <p>조건 업데이트를 위한 작업 및 문제에 대한 Contribute 권한</p>
+   <p>조건을 업데이트할 작업 및 문제에 대한 기여 권한</p>
   </td> 
   </tr> 
  </tbody> 
@@ -134,8 +134,9 @@ Workfront의 다양한 영역에서 작업 및 문제의 상태를 수동으로 
    * 일부 우려 사항
    * 주요 장애물
 
-   ![](assets/condition-in-task-header.png)
-1. Enter 를 클릭하여 조건을 저장합니다.
+   ![](assets/condition-in-task-header-0925.png)
+
+<!--1. Click Enter to save the Condition.-->
 
 ### 작업 또는 문제 세부 정보 섹션에서 작업 또는 문제의 상태 업데이트
 
@@ -151,14 +152,17 @@ Workfront의 다양한 영역에서 작업 및 문제의 상태를 수동으로 
 
 1. 기존 조건을 두 번 클릭하고 드롭다운 메뉴에서 새 값을 선택하여 문제 또는 작업 인라인의 **조건**&#x200B;을(를) 업데이트합니다.
 
-   ![](assets/condition-drop-down-values-in-task-list.png)
+   ![](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >
    >사용자 환경에 맞게 조건을 사용자 정의할 수 있으므로 사용자 환경에서 조건에 대한 세 가지 이상의 옵션을 찾을 수 있습니다. 조건의 이름은 위에 나열된 조건과 다를 수 있습니다. Workfront에서 조건을 사용자 지정하는 방법에 대한 자세한 내용은 [사용자 지정 조건 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)을 참조하십시오.
 
-
 1. 키보드에서 **Enter**&#x200B;를 누르거나 Condition 필드 외부를 클릭하여 새 작업 또는 문제 Condition을 저장합니다.
+
+   >[!NOTE]
+   >
+   >기본 조건 보기에서 **조건** 필드는 인라인으로 편집할 수 없는 필드 유형입니다. 보기에 **조건** 필드를 별도로 추가하면 편집할 수 있습니다. 인라인 편집에 대한 자세한 내용은 [Adobe Workfront의 목록에서 인라인 편집 항목](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)을 참조하십시오.
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   

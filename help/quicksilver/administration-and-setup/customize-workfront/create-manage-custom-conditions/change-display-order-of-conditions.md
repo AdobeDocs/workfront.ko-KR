@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ ht-degree: 0%
 
 * 사용자가 작업 또는 문제에 대한 조건을 변경할 때
 
-  ![목록의 조건 변경](assets/change-conditions-list-dropdown-only.png)
+  ![목록의 조건 변경](assets/change-conditions-list-dropdown-0925.png)
+
+  >[!NOTE]
+  >
+  >기본 조건 보기에서 **조건** 필드는 인라인으로 편집할 수 없는 필드 유형입니다. 보기에 **조건** 필드를 별도로 추가하면 편집할 수 있습니다. 인라인 편집에 대한 자세한 내용은 [Adobe Workfront의 목록에서 인라인 편집 항목](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -68,7 +72,7 @@ ht-degree: 0%
 
 1. **프로젝트**, **작업** 또는 **문제** 탭을 선택하십시오.
 
-1. ![이동 아이콘](assets/move-icon---dots.png) 조건을 드래그하여 순서를 변경합니다.
+1. 순서를 변경하려면 ![이동 아이콘](assets/move-icon---dots.png)을 드래그하세요.
 
    새 주문이 자동으로 저장됩니다.
 
