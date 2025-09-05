@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '692'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 >
 >이 문서의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning을 참조합니다.
 >
->Workfront Planning이 해당 기능에 액세스하려면 귀사에서 추가 라이선스를 구입해야 합니다.
+>회사에서 Workfront Planning의 기능에 액세스하려면 추가 패키지를 구매해야 합니다.
 >
 >자세한 내용은 계정 관리자에게 문의하십시오
 >
@@ -51,44 +51,27 @@ Workfront Planning에 액세스하려면 다음 액세스 권한이 있어야 �
  </col>
  <tbody>
     <tr>
-<tr>
-<td>
-   <p> 제품</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront 계획<p></li></ul></td>
-  </tr>  
  <tr>
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td>
+   <td role="rowheader"><p>Adobe Workfront 패키지</p></td>
    <td>
-<p>다음 Workfront 플랜 중 하나:</p>
+<p>다음 Workfront 패키지 중 하나:</p>
 <ul><li>선택</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>
-<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront 계획 패키지*</p></td>
-   <td>
-<p>다음 Workfront 계획 중 하나.</p>
-<ul><li>계획 수립</li>
-<li>계획 플러스</li>
-</ul>
+<p>기존 Workfront 패키지에는 Workfront Planning을 사용할 수 없습니다.</p>
+<ul><li><p>모든 Planning 패키지</p></li></ul>
 <p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p>
    </td>
-
 <tr>
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
    <td>
 <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p>
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p>
    </td>
-
-</tr>
+  </tr>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
    <ul><li><p>Workfront Planning 정보를 보려면 표준, 라이트 또는 기여자</p></li>
    <li><p>표준, 작업 공간 및 뷰 생성</p></li></ul>
@@ -121,32 +104,32 @@ Workfront Planning에 액세스하려면 다음 액세스 권한이 있어야 �
 <p> 라이트 또는 기여자 라이선스가 있는 사용자에게 다음 영역의 계획 옵션이 포함된 레이아웃 템플릿을 할당해야 합니다.</p>
    <ul><li>메인 메뉴</li>
    <li>프로젝트, 포트폴리오 및 프로그램의 왼쪽 패널</li>
-   </ul>
-   <p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">레이아웃 템플릿 만들기 및 관리</a>를 참조하십시오.</p>
-
+   </ul>   
 </td>
   </tr>
  </tbody>
 </table>
 
-*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 
 ## 레이아웃 템플릿을 사용하여 계획 영역 공유
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-조직에서 추가 Workfront Planning 라이센스를 구입한 후 시스템 관리자가 사용자를 수정하여 레이아웃 템플릿에 할당하여 다음 영역에 Planning 옵션을 추가할 수 있습니다.
+표준 사용자 및 시스템 관리자는 기본적으로 다음 영역에서 계획 영역을 사용할 수 있습니다.
+
+* 메인 메뉴
+* 프로젝트, 포트폴리오 또는 프로그램의 왼쪽 패널
+
+다른 Workfront 라이센스가 있고 Workfront Planning 작업에 기여해야 하는 경우 시스템 관리자가 계획 영역을 추가해야 합니다.
+
+관리자는 사용자를 수정하여 레이아웃 템플릿에 할당함으로써 다음 영역에 Planning 옵션을 추가할 수 있습니다.
 
 * 메인 메뉴
 * 랜딩 페이지
 * 프로젝트, 포트폴리오 및 프로그램의 왼쪽 패널
 * 고정 항목
-
-표준 사용자 및 시스템 관리자는 기본적으로 다음 영역에서 계획 영역을 사용할 수 있습니다.
-
-* 메인 메뉴
-* 프로젝트, 포트폴리오 또는 프로그램의 왼쪽 패널
 
 Workfront 인스턴스 사용자로부터 Workfront Planning 영역을 추가하거나 제거하려면 다음을 수행합니다.
 
@@ -174,7 +157,11 @@ Workfront Planning에 대한 Workfront 액세스 제어가 없습니다.
 
 ## 권한 부여
 
-사용자에게 Workfront Planning 작업 공간 및 보기에 액세스할 수 있는 권한을 부여해야 합니다.
+Workfront Planning에서 다음 엔티티에 권한을 부여할 수 있습니다.
+
+* 작업 영역
+* 레코드 유형
+* 보기 횟수
 
 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 
