@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketing 작업 영역은 회사가 제�
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
 >[!IMPORTANT]
 >
 >이 문서에 설명된 단계는 관리 권한이 있을 때 Workfront Planning에서 GenStudio 작업 영역을 업데이트하는 방법을 보여 줍니다.
->&#x200B;> GenStudio 작업 영역에 대한 Contribute 권한이 있는 경우 일부 기능을 사용할 수 없습니다.
+>> GenStudio 작업 영역에 대한 Contribute 권한이 있는 경우 일부 기능을 사용할 수 없습니다.
 >
 >회사에 Workfront 인스턴스가 여러 개 있는 경우 모든 사용자는 Workfront Planning의 GenStudio 작업 영역에 대한 기여 권한을 받습니다.
 
@@ -79,7 +79,7 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>활성화 및 이벤트에 액세스할 수 있는 GenStudio System Manager</li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -88,9 +88,10 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
    <td>  
    <p>Workfront Planning에서: </p>
    <ul>
-   <li><p>GenStudio 작업 영역에 대한 권한을 관리하여 작업 영역의 아키텍처, 레코드 유형 및 필드를 변경합니다</p></li>
-   <li><p>GenStudio 기록 공간에서 레코드를 추가, 업데이트 또는 삭제할 수 있도록 GenStudio 작업 영역에 권한을 부여합니다</p> </li> 
+   <li><p>GenStudio 작업 영역에 새 필드 또는 레코드 유형을 추가할 수 있는 GenStudio 작업 영역에 대한 권한을 관리합니다.</p></li>
+   <li><p>GenStudio 작업 영역에서 레코드를 추가, 업데이트 또는 삭제할 수 있는 GenStudio 작업 영역 기여 권한</p> </li>  
    </ul>
+   <p>어떤 사용자도 Workfront Planning의 GenStudio 작업 영역에서 GenStudio for Performance Marketing 레코드 유형 또는 필드를 제거할 수 없습니다</p>
    <p>Adobe GenStudio for Performance Marketing: <p>
    <ul>
    <li><p> Adobe GenStudio for Performance Marketing의 모든 권한</p></li>
@@ -106,80 +107,9 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
 
 +++   
 
-<!--Old/ original table:
-
-<table style="table-layout:auto"> 
-<col> 
-</col> 
-<col> 
-</col> 
-<tbody> 
-    <tr> 
-    <td role="rowheader"><p>Adobe Workfront package</p></td> 
-   <td> 
-<p>Any Adobe Workfront Workflow package</p>
-<p>Any Adobe Workfront Planning package</p>  
-
-   </td> </tr>
-<tr> 
-   <td role="rowheader"><p>Adobe GenStudio package</p></td> 
-   <td> 
-<p>??? DOES GEN STUDIO HAVE A PACKAGE THAT SUPPORTS THIS???</p>  
-
-   </td> </tr>
- 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
-   <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard</p>
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe GenStudio license</p></td> 
-   <td><p> ??? DOES GEN STUDIO REQUIRE A SPECIFIC LICENSE THAT SUPPORTS THIS???</p>
-  </td> 
-  </tr> 
-  <tr> 
-<td> 
-   <p> Additional products</p> </td> 
-   <td> 
-   <p> Adobe GenStudio for Performance Marketing</p></td> 
-  </tr>   
-  <tr> 
-   <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
-   <p>Configuration for GenStudio: ???WHAT IS THE ACCESS LEVEL NEED FOR GENS???</p> 
-</td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Object permissions*</p></td> 
-   <td>  
-   <p>In Workfront Planning: </p>
-   <ul>
-   <li><p>Contribute or higher permissions to a workspace and record type  </p> </li> 
-   <li><p>System Administrators have permissions to all workspaces, including the ones they did not create</p></li>
-   </ul>
-   <p>In Adobe GenStudio for Performance Marketing: <p>
-   <ul>
-   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
-   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
-   </td> 
-  </tr> 
-</tbody> 
-</table> -->
-
 ## Workfront Planning에서 GenStudio 작업 공간 관리에 대한 고려 사항
 
 * Workfront Planning에서 Adobe GenStudio for Performance Marketing 작업 영역을 보려면 먼저 조직에서 GenStudio을 구매해야 합니다.
-
-* Workfront 사용자가 Workfront Planning에서 GenStudio 작업 영역을 보려면 GenStudio에 액세스할 수 있어야 합니다.
 
 * 조직에 있는 Workfront 인스턴스 수에 따라 Planning의 GenStudio 작업 영역에 대해 자동으로 다음 권한을 갖습니다.
 
@@ -194,18 +124,18 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
       <tr> 
       <td role="rowheader"><p>Workfront 인스턴스 1개</p></td> 
       <td> 
-   <p>Workfront Planning에는 GenStudio 작업 공간이 한 개 있습니다</p>
-   <p>GenStudio 및 Workfront Planning에 대한 액세스 권한이 있는 모든 사용자는 GenStudio 작업 영역에 대한 관리 권한이 있습니다</p> 
+   <p>GenStudio 작업 영역은 Workfront Planning 인스턴스에 표시됩니다</p>
+   <p>Workfront 관리자는 Planning의 GenStudio 작업 영역에 대한 관리 권한이 있습니다.</p>
+   <p>다른 모든 사용자는 Planning의 GenStudio 작업 영역에 대한 기여 액세스 권한을 가집니다</p>
    </td> </tr>
       <tr> 
    <td> 
       <p> Workfront의 여러 인스턴스</p> </td> 
       <td> 
-      <p>각 Workfront Planning 인스턴스에는 하나의 GenStudio 작업 공간이 있습니다</p>
-   <p>GenStudio 및 Workfront Planning에 대한 액세스 권한이 있는 모든 사용자는 각 인스턴스의 GenStudio 작업 영역에 대한 기여 권한이 있습니다</p> </td> 
+      <p>GenStudio 작업 영역은 모든 Workfront 인스턴스에서 볼 수 있습니다</p>
+   <p>GenStudio for Performance Marketing 및 Workfront Planning에 대한 액세스 권한이 있는 모든 사용자는 Planning의 GenStudio에 대한 기여자 권한을 가집니다</p> </td> 
    </tr>
-
-  </tbody> 
+      </tbody> 
    </table>
 
 * GenStudio 작업 영역에 대한 작업 영역 구성, 레코드 유형, 보기 및 필드를 업데이트하는 것은 Workfront Planning 작업 영역을 해당 요소로 업데이트하는 것과 동일합니다.
@@ -291,7 +221,7 @@ CAN YOU DO THIS??
 
      자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
-1. 보기 및 레코드 유형을 관리하려면 다음을 수행합니다.
+1. 보기 또는 레코드 유형을 공유하려면 다음을 수행하십시오.
 
    * 레코드 종류 페이지의 오른쪽 상단에서 **공유**&#x200B;를 클릭한 후 다음 중 하나를 클릭합니다.
       * **레코드 종류 공유**
@@ -328,6 +258,10 @@ CAN YOU DO THIS??
      자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
      레코드는 Workfront 및 GenStudio 모두에서 볼 수 있습니다.
+
+     >[!NOTE]
+     >
+     >활성화 레코드 유형에 대한 레코드를 추가할 수 없습니다.
 
 1. 레코드를 편집하려면 다음 중 하나를 수행하십시오.
 
