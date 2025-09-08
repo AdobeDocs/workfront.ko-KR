@@ -6,9 +6,9 @@ description: 인쇄하거나 보다 압축된 형식으로 이메일에 첨부�
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,12 @@ ht-degree: 0%
 
 ## 비즈니스 사례 내보내기
 
-1. 비즈니스 사례를 내보낼 프로젝트로 이동합니다.
+{{step1-to-projects}}
+
+1. **프로젝트** 페이지에서 비즈니스 사례를 내보낼 프로젝트를 선택합니다.
 1. 왼쪽 패널에서 **비즈니스 사례**&#x200B;를 클릭합니다.
-1. 오른쪽 위의 **비즈니스 사례 요약** 영역에서 **내보내기**&#x200B;를 클릭합니다.
+1. **비즈니스 사례 요약** 영역의 오른쪽 상단 모서리에서 **내보내기**&#x200B;를 클릭합니다. PDF 파일이 컴퓨터에 다운로드됩니다.
 
-   &lt;!—![비즈니스 사례 요약](assets/bc-summary--350x587.png)—>\
-   A PDF   파일이 컴퓨터에 다운로드됩니다. 파일에는 비즈니스 사례의 모든 영역이 읽기 쉬운 형식으로 포함되어 있습니다.
+   ![비즈니스 사례 요약](assets/bc-summary.png)
 
-   <!--![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)-->
 
-1. (선택 사항) PDF 파일을 이메일에 첨부하거나 인쇄하여 다른 사용자와 공유합니다.

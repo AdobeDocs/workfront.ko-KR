@@ -5,9 +5,9 @@ description: 사용자 지정 Forms은 기존 Adobe Workfront 필드에 표시�
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -70,19 +70,19 @@ ht-degree: 0%
 
 ## 비즈니스 사례에 사용자 정의 Forms 첨부
 
-에서 비즈니스 사례에 사용자 지정을 추가하려면 Workfront 관리자가 설정에서 이 옵션을 선택해야 합니다. 설정에서 사용자 정의 양식을 사용하는 방법에 대한 자세한 내용은 문서 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)의 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 섹션을 참조하십시오.
+에서 비즈니스 사례에 사용자 지정을 추가하려면 Workfront 관리자가 설정에서 이 옵션을 선택해야 합니다. 설정에서 사용자 정의 양식을 사용하는 방법에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 
 사용자 정의 양식을 첨부하려면
 
-1. 양식을 첨부할 프로젝트로 이동한 다음 왼쪽 패널에서 **비즈니스 사례**&#x200B;를 클릭합니다.
+1. 양식을 첨부할 프로젝트로 이동한 다음 왼쪽 패널에서 **비즈니스 사례**&#x200B;를 클릭합니다. 비즈니스 사례가 표시됩니다.
 
-   비즈니스 사례가 표시됩니다.
+1. **사용자 정의 양식** 섹션의 드롭다운 메뉴에서 첨부할 사용자 정의 양식을 선택합니다. 사용자 정의 양식은 아래의 **추가된 양식** 섹션에 표시됩니다.
 
-1. **사용자 정의 양식** 섹션의 드롭다운 메뉴에서 첨부할 사용자 정의 양식을 선택합니다.
+1. (선택 사항) 사용자 정의 양식 세부 사항을 확장하려면 사용자 정의 양식 이름 왼쪽의 화살표를 클릭합니다.
 
-   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
+   ![사용자 정의 양식 세부 정보 확장](assets/expand-custom-form-details.png)
 
-1. (선택 사항) **사용자 정의 양식 편집**&#x200B;을 선택합니다.\
-   <!--![Edit custom form](assets/acf1-350x122.png)-->
+<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+  ![Edit custom form](assets/acf1-350x122.png)
 
-1. (선택 사항) 사용자 정의 양식의 필드에 정보를 지정한 다음 **저장** 을 클릭합니다.
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->
