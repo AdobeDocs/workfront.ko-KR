@@ -4,9 +4,10 @@ description: 2025년 4분기 릴리스 기간 동안의 기타 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f7dcae5e6bcc8674ef37ef94282c50dc9ffe951d
+exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
+source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -25,9 +26,8 @@ ht-degree: 0%
 >* 프로덕션 빠른 릴리스: 2025년 9월 11일
 >* 모든 고객을 위한 프로덕션: 2025년 10월 16일
 
-고급 목록 레이아웃을 사용하면 필터 및 그룹화를 사용하여 작업을 표시하고 더 잘 정리할 수 있습니다. 이제 다음 영역의 목록에 필터 또는 그룹화가 적용된 시기를 알려주는 파란색 점 표시기가 위젯 위에 나타납니다.
+고급 목록 레이아웃을 사용하면 필터 및 그룹화를 사용하여 작업을 표시하고 더 잘 정리할 수 있습니다. 이제 다음 영역의 목록에 필터나 그룹화가 적용된 시기를 알려주는 파란색 점 표시기가 위젯 위에 나타납니다.
 
-* 설정 시 환율
 * 내 요청 위젯
 * 우선순위
 
