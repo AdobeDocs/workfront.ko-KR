@@ -5,9 +5,9 @@ description: AI를 사용하여 프롬프트를 입력하거나 문서를 제공
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
+source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1336'
 ht-degree: 2%
 
 ---
@@ -121,41 +121,54 @@ AI는 사용자가 입력하는 프롬프트에 따라 요청 필드를 자동�
 
 이러한 예제는 AI가 다른 프로젝트를 참조할 수 있는 다양한 방법에 대한 프롬프트를 보여 줍니다.
 
-* 지난 고객 캠페인 참조
+#### 지난 고객 캠페인 참조
 
-  ```
-  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
-  ```
+>[!BEGINSHADEBOX]
 
-* 기존 프로젝트를 기반으로 구축
+(고객사)의 2분기 출시와 유사한 캠페인 요청을 이번에는 자사의 자동차 사업부에 생성합니다. 동일한 결과물 세트와 대상자 프로필을 유지합니다.
 
-  ```
-  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
-  ```
+>[!ENDSHADEBOX]
 
-* 과거 결과물의 스타일 재사용
+#### 기존 프로젝트를 기반으로 구축
 
-  ```
-  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
-  ```
+>[!BEGINSHADEBOX]
 
-* 이전 캠페인 유형에서 확장
+지난 봄 (고객 회사) 프로젝트 킥오프와 동일한 설정을 사용합니다. 동일한 경영진 대상을 타겟팅하지만 이 분기의 날짜가 업데이트된 디지털 광고 캠페인을 실행하려고 합니다.
 
-  ```
-  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
-  ```
+>[!ENDSHADEBOX]
 
-* 다른 제품에 대한 요청 반복
+#### 과거 결과물의 스타일 재사용
 
-  ```
-  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
-  ```
+>[!BEGINSHADEBOX]
 
-* 암시적 참조가 포함된 서술 스타일
+작년에 실행한 (고객사) 여름 프로모션 캠페인과 유사한 요청을 준비합니다. 소셜 미디어 자산에 집중하고, 스페인어를 기본 언어로 유지하며, 예산을 75,000달러로 조정합니다.
 
-  ```
-  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
-  ```
+>[!ENDSHADEBOX]
+
+#### 이전 캠페인 유형에서 확장
+
+>[!BEGINSHADEBOX]
+
+Q1의 (고객사) 웨비나 시리즈 캠페인을 참조로 사용하십시오. 같은 등록 워크플로우와 자산을 원하지만 이번엔 주제가 &#39;금융기획의 AI&#39;이고 청중은 젊은 전문직 종사자들이다.
+
+>[!ENDSHADEBOX]
+
+#### 다른 제품에 대한 요청 반복
+
+>[!BEGINSHADEBOX]
+
+우리가 처리한 (클라이언트 회사) 리브랜딩 프로젝트처럼 캠페인 요청을 설정하되, 클라이언트로 (새 클라이언트 회사)로 대체합니다. 모든 결과물을 기업 브랜딩에 맞게 정렬합니다.
+
+>[!ENDSHADEBOX]
+
+#### 암시적 참조가 포함된 서술 스타일
+
+>[!BEGINSHADEBOX]
+
+우리는 작년에 했던 명절 소셜 광고와 비슷한 캠페인을 계획하고 있습니다. 예산은 약 50k여야 하며 목표는 리드 생성이고 결과물에는 Instagram 및 TikTok 자산이 포함되어야 합니다.
+
+>[!ENDSHADEBOX]
+
 
 ## 업로드한 문서에 따라 제안 받기
 
