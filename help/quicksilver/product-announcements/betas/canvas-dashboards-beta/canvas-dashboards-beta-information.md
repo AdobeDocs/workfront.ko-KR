@@ -7,9 +7,9 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
+source-git-commit: db08403c62cc85d6ccb705bb84c9c277e94f8635
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. 아래 [피드백 제공](#provide-feedback) 섹션의 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->&#x200B;>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
@@ -55,7 +55,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td><p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p>
+   <td><p>캔버스 대시보드를 활성화하는 시스템 관리자 액세스</p>
   </td> 
   </tr>  
 </tbody> 
@@ -73,9 +73,15 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > **캔버스 대시보드 가입** 단추는 조직이 Beta에 초대된 경우에만 사용할 수 있습니다.
+   > **캔버스 대시보드 가입** 단추는 시스템 관리자만 액세스할 수 있습니다. 다른 모든 사용자는 이 버튼이 비활성화된 상태로 표시됩니다.
 
 1. **Beta 계약** 상자에서 조건을 검토한 다음 **동의**&#x200B;를 클릭합니다. 이제 Beta에 등록되었습니다. Canvas 대시보드에서 Workfront 데이터에 완전히 액세스할 수 있게 되는 데 몇 분이 걸릴 수 있습니다.
+
+   >[!NOTE]
+   >
+   >Beta 용어가 수락되면 Workfront 환경의 모든 사용자에 대해 캔버스 대시보드 기능이 활성화됩니다. 대시보드에 대한 보기 및 관리 액세스 권한이 있는 모든 사용자는 액세스 수준에 따라 캔버스 대시보드를 보고 편집할 수 있습니다.<br>
+   >캔버스 대시보드 랜딩 페이지의 가시성은 사용자가 지정한 레이아웃 템플릿을 통해 제어됩니다. 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하세요.
+
 
 ## 피드백 제공
 
