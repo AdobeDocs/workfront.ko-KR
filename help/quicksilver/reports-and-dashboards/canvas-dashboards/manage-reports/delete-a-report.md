@@ -6,9 +6,9 @@ description: 캔버스 대시보드에서 보고서를 삭제할 수 있습니�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
-source-git-commit: 68a4a9d1c3980fd947b5fefef19cdfa09591e849
+source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->&#x200B;>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
+>>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
@@ -88,7 +89,7 @@ ht-degree: 1%
 
 1. 대시보드 세부 정보 페이지에서 삭제할 보고서 위젯의 오른쪽 위 모서리에 있는 **자세히** ![자세히 아이콘](assets/more-icon.png) 아이콘을 클릭합니다.
 
-1. **제거**&#x200B;를 선택합니다.
+1. **제거**를 선택합니다.
    ![보고서 제거](assets/delete-a-report.png)
 
 1. **보고서 삭제** 대화 상자에서 **삭제**&#x200B;를 클릭합니다.
