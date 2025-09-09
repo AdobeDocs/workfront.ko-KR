@@ -5,9 +5,9 @@ description: 조직에서 AI Assistant에 액세스할 수 있는 액세스 수�
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d5693657695b2c0e89a69afc8cf90b34d2036f3e
+source-git-commit: d929599ccdbfb90d731a3dfb9d83d3eb54d345ea
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '218'
 ht-degree: 1%
 
 ---
@@ -60,6 +60,3 @@ AI Assistant를 활성화하거나 비활성화하려면 다음 액세스 권한
 1. **저장**&#x200B;을 클릭합니다.
 1. AI Assistant를 활성화하려는 각 액세스 레벨에 대해 3~5단계를 반복합니다.
 
->[!NOTE]
->
->AI 기능이 Workfront에 추가되면서 일부 AI 기능은 Workfront 작동 방식의 기본이 됩니다. 모든 AI 기능을 비활성화하는 기능은 가까운 시일 내에 더 이상 사용되지 않을 수 있습니다.
