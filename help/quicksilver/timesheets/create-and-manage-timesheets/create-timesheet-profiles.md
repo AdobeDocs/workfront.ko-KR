@@ -3,19 +3,21 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: 타임시트 프로필 만들기, 편집 및 할당
 description: 사용자의 추가 개입 없이 사용자에 대해 반복 타임시트를 생성하는 타임시트 프로필을 만들고, 편집하고, 할당할 수 있습니다. 이렇게 하면 시간이 절약되고 사용자 간의 일관성이 보장됩니다.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 1%
+source-wordcount: '1610'
+ht-degree: 2%
 
 ---
 
 # 타임시트 프로필 만들기, 편집 및 할당
 
 <!--Audited: 06/2025-->
+
+<!--at the Prod release, remove the Production and Preview references from this article-->
 
 <!--<div class="preview">
 
@@ -91,10 +93,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    기존 타임시트 프로필을 편집하려면 편집할 타임시트 프로필을 선택한 다음 **편집**&#x200B;을 클릭합니다.
 
-   새 또는 기존 타임시트 프로필이 표시됩니다.
+   새 또는 기존 타임시트 프로필 페이지가 표시됩니다.
 
 
-1. **세부 정보 설정** 탭을 클릭한 다음 다음 다음 정보를 업데이트합니다.
+1. **세부 정보 설정** 탭을 클릭한 다음 <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI--> 정보를 업데이트합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,7 +104,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>이름</strong> </td> 
-      <td> <p> 타임시트 프로필의 이름을 추가합니다. 직원들이 타임시트에 대해 동일한 시간대를 공유하는 팀 또는 그룹의 이름일 수 있습니다. </p> </td> 
+      <td> <p> 타임시트 프로필의 이름을 추가합니다. 직원들이 타임시트에 대해 동일한 시간대를 공유하는 팀 또는 그룹의 이름일 수 있습니다. </p> <p>필수 필드입니다.</p> </td> 
      </tr>
 
    <tr> 
@@ -111,10 +113,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       </p> </td> 
      </tr>
 
-
-
    <tr> 
-      <td role="rowheader"><strong>관리 액세스 권한이 있는 그룹</strong> </td> 
+   <td role="rowheader"><strong>관리 액세스 권한이 있는 그룹</strong> </td> 
       <td> <p> 
       <ul> 
       <li> <p>시스템 수준 타임시트 프로필을 만드는 경우 이 필드를 비워 둡니다.</p> <p>사용자 계정을 편집할 수 있는 모든 사용자는 시스템 수준 타임시트를 다른 사용자에게 첨부할 수 있습니다.</p> <p>Workfront 관리자만 시스템 수준 타임시트 프로필을 편집할 수 있습니다.</p> </li> 
@@ -132,7 +132,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 
    <p><b>참고</b>: Workfront에서는 항상 한 번에 두 개의 타임시트를 만듭니다. 첫 번째 타임시트에는 항상 현재 날짜가 포함되고, 두 번째 타임시트는 첫 번째 타임시트의 일정이 끝날 때 시작됩니다.</p> </p> </td> 
-    </tr> 
+   </tr> 
      <tr> 
       <td role="rowheader"><p><strong>승인자</strong></p> </td> 
       <td> <p> <p>승인자는 타임시트와 연계된 사용자에 대해 타임시트를 승인하는 사용자입니다. 타임시트에서 승인자로 최대 7명의 사용자를 식별할 수 있습니다. 여러 사용자를 식별하면 누군가가 부재 중일 때 승인자가 사용 가능한지 확인하는 데 유용합니다. 사용자가 승인을 위해 타임시트를 제출하면 모든 승인자에게 알림이 전송됩니다. 타임시트를 승인하려면 한 명의 사용자만 타임시트를 승인해야 합니다.</p> <p>타임시트 관리 권한이 있는 사용자만 승인자로 설정할 수 있습니다. 타임시트 관리 권한에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">특정 영역에 대한 관리자 액세스 권한 부여</a>를 참조하십시오.</p> <p>드롭다운 메뉴를 사용하여 타임시트에 대한 승인자를 선택합니다(승인자가 필요한 경우). 다음 옵션 중에서 선택할 수 있습니다.</p> 
@@ -146,9 +146,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader"><strong>시간 </strong>을(를) 편집할 수 있음 </td> 
       <td> <p> <p>승인자가 타임시트의 시간을 편집할 수 있도록 하려면 이 옵션을 선택하십시오.
 
-   이 옵션은 설정 > 타임시트 및 시간 > 환경 설정 영역에서 **타임시트 편집을 소유자 및 관리자로 제한** 설정과 함께 작동합니다. 자세한 내용은 <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">타임시트 및 시간 환경 설정 구성</a>을 참조하십시오.
+   <p>이 옵션은 설정 &gt; 타임시트 및 시간 &gt; 환경 설정 영역에서 **타임시트 편집을 소유자 및 관리자로 제한** 설정과 함께 작동합니다. 자세한 내용은 <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">타임시트 및 시간 환경 설정 구성</a>을 참조하십시오.</p>
 
-   다음과 같은 시나리오가 있습니다.
+   <p>다음과 같은 시나리오가 있습니다. </p>
 
    <ul>
       <li><b>타임시트 편집을 소유자 및 관리자로 제한</b> 옵션이 활성화된 경우:</li>
@@ -182,7 +182,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     </tbody> 
     </table>
 
-1. 타임시트 프로필을 특정 사용자, 그룹 또는 팀(Workfront 관리자인 경우)과 연결하려면 **사람 할당** 탭을 클릭하십시오. 사용자, 그룹 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 클릭합니다.
+1. <!--In the Production environment, or when creating group-level timesheet profiles,--> 타임시트 프로필을 특정 사용자, 그룹 또는 팀(Workfront 관리자인 경우)과 연결하려면 **사람 할당** 탭을 클릭하십시오. <!--Keep the reference to the group upon release to Prod-->
+
+   <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
+
+   사용자, 그룹 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 클릭합니다.
 
    그룹 관리자인 경우 관리하는 그룹에 타임시트 프로필을 할당할 수 있지만 팀에는 할당할 수 없습니다. 자세한 내용은 이 문서에서 [그룹 관리자가 타임시트 프로필을 할당하는 제한](#limitations-for-a-group-administrator-assigning-a-timesheet-profile)을 참조하십시오.
 
@@ -229,4 +233,4 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 다양한 사용자 집합에 대한 고유 승인자
 * 다양한 사용자 집합에 대한 고유한 일반 시간 요구 사항
 
-한 번에 한 명의 사용자를 두 개 이상의 타임시트 프로필과 연결할 수 없습니다. 
+한 번에 한 명의 사용자를 두 개 이상의 타임시트 프로필과 연결할 수 없습니다.

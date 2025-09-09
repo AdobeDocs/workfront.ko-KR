@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 2%
@@ -258,13 +258,13 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
    * 단락
    * 다중 선택
    * 단일 선택
-   * 일자
+   * Date
    * 숫자
    * 백분율
    * 통화
    * 확인란
    * 공식
-   * 사용자
+   * 사람
    * 제작자
    * 제작 일자
    * 마지막 수정자
@@ -295,7 +295,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
   >
   > 연결된 레코드 또는 개체 형식에서 다음 필드 형식을 조회 필드로 추가할 수 없습니다.
   >
-  >* 사용자
+  >* 사람
   >* 제작자
   >* 마지막 수정자
   >* Workfront 자동 완성 필드(프로젝트 소유자 또는 프로젝트 스폰서와 같은 필드 포함)
@@ -324,7 +324,6 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
      ![타임라인 보기에서 적용된 그룹화](assets/grouping-applied-in-timeline-view.png)
 
    * **일정 보기**: 날짜 유형 필드가 두 개 이상 있는 레코드를 일정 형식으로 표시합니다.
-
      ![달력 보기 예](assets/calendar-view-example.png)
 
 
@@ -396,9 +395,18 @@ Workfront Planning에 대한 새로운 기능을 정기적으로 릴리스하고
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Workfront Fusion용 Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Adobe Workfront 계획 모듈을 사용하면 Workfront Planning에서 이벤트가 발생할 때 시나리오를 트리거할 수 있습니다. 레코드를 생성, 읽기, 업데이트 및 삭제하거나 Adobe Workfront Planning 계정에 대한 사용자 정의 API 호출을 수행할 수도 있습니다.
+* [Workfront Fusion용 Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Adobe Workfront 계획 모듈을 사용하면 Workfront Planning에서 이벤트가 발생할 때 시나리오를 트리거할 수 있습니다. 레코드를 생성, 읽기, 업데이트 및 삭제하거나 Adobe Workfront Planning 계정에 대한 사용자 정의 API 호출을 수행할 수도 있습니다.
 
 * [Adobe Workfront Planning API 기본 사항](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API의 목표는 HTTP를 통해 작동하는 REST 풀 아키텍처를 도입하여 Planning과의 통합 구축을 간소화하는 것입니다.
+
+<!--
+<div class="preview">
+
+* [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): You can manage records from GenStudio for Performance Marketing in the GenStudio workspace in Workfront Planning.
+
+</div>
+
+-->
 
 * **Workfront Planning 보고 기능**: 이제 Workfront 캔버스 대시보드를 사용하여 Workfront의 보고서에서 Workfront Planning 정보를 볼 수 있습니다. 자세한 내용은 [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)를 참조하십시오.
 

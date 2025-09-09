@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketing 작업 영역은 회사에서 �
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 사�
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>활성화 및 이벤트에 액세스할 수 있는 GenStudio System Manager</li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -146,15 +146,18 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
     <td role="rowheader"><p>Workfront 인스턴스 1개</p></td> 
    <td> 
 <p>GenStudio 작업 영역은 Workfront Planning 인스턴스에 표시됩니다</p>
-<p>Workfront 관리자는 Planning의 GenStudio 작업 영역에 대한 관리 권한이 있습니다.</p>
-<p>다른 모든 사용자는 Planning의 GenStudio 작업 영역에 대한 기여 액세스 권한을 가집니다</p>
+<p>Workfront 관리자를 포함한 모든 사용자는 기본적으로 Planning의 GenStudio 작업 영역에 대한 Contribute 액세스 권한이 있습니다</p>
+<p>Workfront 관리자는 GenStudio 작업 영역에서 수정 및 관리 권한을 누구에게나 부여할 수 있습니다</p>
 </td> </tr>
    <tr> 
 <td> 
    <p> Workfront의 여러 인스턴스</p> </td> 
    <td> 
    <p>GenStudio 작업 영역은 모든 Workfront 인스턴스에서 볼 수 있습니다</p>
-<p>GenStudio for Performance Marketing 및 Workfront Planning에 대한 액세스 권한이 있는 모든 사용자는 Planning의 GenStudio에 대한 기여자 권한을 가집니다</p> </td> 
+<p>GenStudio for Performance Marketing 및 Workfront Planning에 대한 액세스 권한이 있는 모든 사용자는 기본적으로 Planning의 GenStudio에 대한 기여 권한이 있습니다</p> 
+<p>Workfront 관리자는 GenStudio 작업 영역에 대한 관리 권한을 누구에게도 부여할 수 없습니다</p>
+
+</td> 
   </tr>
    </tbody> 
 </table>
@@ -199,6 +202,8 @@ Workfront Planning 권한에 대한 자세한 내용은 [Adobe Workfront Plannin
    * GenStudio 레코드 유형 정보(모양, 고급 설정)를 편집합니다.
    * 다른 사용자와 GenStudio 레코드 유형을 공유합니다.
    * 레코드 유형을 만듭니다. 이러한 레코드 유형은 Workfront Planning에만 유지됩니다. GenStudio에는 표시되지 않습니다.
+   * GenStudio 작업 영역의 레코드를 다른 작업 영역에서 연결할 수 있도록 합니다.
+   * GenStudio 작업 영역의 레코드를 다른 작업 영역에 추가할 수 있도록 합니다.
 * Planning에서 GenStudio 작업 영역에 대한 기여 권한이 있는 경우 Planning에서 GenStudio 레코드 유형을 수정할 수 없습니다.
 
 ### GenStudio 작업 영역의 레코드

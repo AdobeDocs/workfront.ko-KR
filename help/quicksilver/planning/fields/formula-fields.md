@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 5%
@@ -112,6 +112,18 @@ ht-degree: 5%
 
   자세한 내용은 문서 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)의 &quot;수식&quot; 섹션을 참조하십시오.
 * 새 수식에서 수식 필드를 참조할 수 있습니다. 공식 필드에서 참조되는 필드에서 값이 업데이트되면 해당 필드를 참조하는 모든 후속 필드 또는 해당 필드가 포함된 공식 필드가 자동으로 업데이트됩니다.
+
+<!--
+<div class="preview">
+
+* When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
+
+   * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
+
+   * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+
+</div>
+-->
 
 
 <div class="preview">

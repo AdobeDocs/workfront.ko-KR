@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -94,3 +94,5 @@ ht-degree: 2%
 * 필드 이름은 최대 250자입니다.
 
 * 레코드 종류 또는 작업 영역을 삭제하면 레코드 종류 또는 작업 영역과 관련된 모든 필드와 필드 값도 삭제되며 복구할 수 없습니다. <!-- this might change with a possible recycle bin solution?!-->
+* 공식 표현식의 일부인 필드를 삭제하면 공식 필드가 변경됩니다.
+* 공식 표현식을 변경하고 해당 공식 필드가 다른 공식 필드에서 참조되면 추가 공식도 영향을 받습니다.
