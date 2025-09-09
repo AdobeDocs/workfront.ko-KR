@@ -182,7 +182,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     </tbody> 
     </table>
 
-1. <!--In the Production environment, or when creating group-level timesheet profiles,--> 타임시트 프로필을 특정 사용자, 그룹 또는 팀(Workfront 관리자인 경우)과 연결하려면 **사람 할당** 탭을 클릭하십시오. <!--Keep the reference to the group upon release to Prod-->
+1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> 타임시트 프로필을 특정 사용자, 그룹 또는 팀(Workfront 관리자인 경우)과 연결하려면 **사람 할당** 탭을 클릭하십시오. <!--Keep the reference to the group upon release to Prod-->
 
    <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
 
