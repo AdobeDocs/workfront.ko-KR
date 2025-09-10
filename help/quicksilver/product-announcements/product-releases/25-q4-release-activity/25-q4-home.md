@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,8 @@ Workfront과 Workfront Planning 간에 보다 원활한 경험을 제공하기 �
 
 새 위젯을 보려면 새 요청 환경을 활성화해야 합니다. 요청 영역에서 새 요청 경험을 활성화할 수 있습니다.
 
+새 내 요청 위젯에는 새 요청 경험에서 생성된 요청만 표시됩니다.
+
 새 내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.
+
+새 요청 경험에 대한 릴리스 정보는 [요청 경험에 대한 업데이트](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience)를 참조하십시오.

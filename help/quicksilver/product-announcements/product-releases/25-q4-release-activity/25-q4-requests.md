@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ Workfront 및 Workfront Planning에서 요청할 때 더 나은 사용자 경험
 * 제출된 요청 목록에서 열을 숨기고 순서를 변경합니다.
 
 이 업데이트에는 페이지의 모양과 느낌에 대한 변경 사항도 포함되어 있습니다.
+
+새 요청 경험을 사용할 때는 다음 사항에 유의하십시오.
+
+* 이제 제출된 요청과 동일한 목록에서 초안을 찾을 수 있습니다.
+* 현재 새 경험에는 지난 1.5개월 동안 만들어진 요청만 표시됩니다. 이전 요청을 보려면 일시적으로 새 경험을 비활성화하고 이전 경험을 통해 이전 요청에 액세스할 수 있습니다.
 
 이전에는 Workfront 및 Workfront Planning 요청이 별도의 탭에 있었으며 필터를 사용자 지정할 수 없었습니다.
 
