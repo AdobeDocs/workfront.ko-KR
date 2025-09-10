@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront for Jira] 을(를) 사용하여  [!DNL Jira
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 064418302767ad20e176080ba9a12db548750f3c
 workflow-type: tm+mt
-source-wordcount: '2508'
+source-wordcount: '2470'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,32 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
+
 >[!IMPORTANT]
 >
 >보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환하고 있습니다. 이 전환 프로세스의 일부로 **2026년 2월 28일** 이후에는 Jira용 Workfront 통합을 사용할 수 없습니다.
 >
 >Jira와 조직의 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->공통 워크플로우를 복제하고 구현을 가속화하는 데 도움이 되는 8개의 Jira용 Workfront 자동화 및 통합 템플릿을 8월까지 사용할 수 있습니다. 템플릿은 특정 비즈니스 요구 사항을 충족하도록 완전히 맞춤화할 수 있으며 요구 사항이 발전함에 따라 확장될 수 있습니다.
-> 
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Jira용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Jira 소프트웨어 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)을 참조하십시오.
+>Jira용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Jira 소프트웨어 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)을 참조하십시오.
+
+<!--
+
+>[!IMPORTANT]
+>
+>To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Jira integration will not be available after **February 28, 2026**. 
+>
+>We recommend using Workfront Automation and Integration for your organization's integration needs with Jira. 
+>
+>Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
+> 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+
+-->
 
 [!DNL Adobe Workfront for Jira]을(를) 사용하여 [!DNL Jira] 및 [!DNL Workfront] 시스템을 통합할 수 있습니다.
 
@@ -35,9 +50,9 @@ ht-degree: 0%
 
 [!DNL Workfront] 및 [!DNL Jira]의 모든 사용자가 이 통합을 통해 혜택을 받을 수 있습니다. 가장 많이 사용하는 시스템에 대한 라이선스만 있으면 되고 두 시스템 모두에 대한 라이선스는 필요하지 않습니다.
 
-이 추가 기능은 [!UICONTROL &#x200B; 소프트웨어의 &#x200B;]Server[!UICONTROL &#x200B; 및 &#x200B;]OnDemand[!UICONTROL (또는 &#x200B;]Cloud[!DNL Jira]) 버전 모두에서 사용할 수 있습니다.
+이 추가 기능은 [!UICONTROL  소프트웨어의 ]Server[!UICONTROL  및 ]OnDemand[!UICONTROL (또는 ]Cloud[!DNL Jira]) 버전 모두에서 사용할 수 있습니다.
 
-현재 [!DNL Jira]에서 지원하는 [!DNL Workfront for Jira] 버전 목록은 [[!DNL Workfront for Jira]의 ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) [!DNL Atlassian Marketplace]을(를) 참조하십시오.
+현재 [!DNL Jira]에서 지원하는 [!DNL Workfront for Jira] 버전 목록은 [[!DNL Workfront for Jira]의 ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)[!DNL Atlassian Marketplace]을(를) 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -110,7 +125,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >연결을 만들려면 `apiKey`Workfront[!UICONTROL 에 올바른 &#x200B;]이(가) 있어야 합니다.
+   >연결을 만들려면 `apiKey`Workfront[!UICONTROL 에 올바른 ]이(가) 있어야 합니다.
 
    구성을 계속하려면 [!DNL Workfront]에 [!DNL Workfront] 관리자로 로그인해야 합니다.
 
@@ -202,7 +217,7 @@ ht-degree: 0%
 
       <table style="table-layout:auto">
          <tr>
-              <td>만들 때 </td>
+              <td>만들 때 [!UICONTROL]</td>
               <td>지정한 필드는 Workfront에서 항목을 만들 때 연결된 Workfront과 [!DNL Jira]개 항목 간에 동기화됩니다.</td>
           </tr>
           <tr>
@@ -336,7 +351,7 @@ ht-degree: 0%
 
 ## 문제 해결
 
-### &quot;[!DNL Jira]찾을 수 없음[!UICONTROL &quot;으로 표시된 트리거 필드로 인해 &#x200B;]에서 항목을 만들 수 없습니다.
+### &quot;[!DNL Jira]찾을 수 없음[!UICONTROL &quot;으로 표시된 트리거 필드로 인해 ]에서 항목을 만들 수 없습니다.
 
 #### 문제
 
@@ -353,4 +368,4 @@ ht-degree: 0%
 이 오류를 해결하려면 다음 중 하나를 시도해 보십시오.
 
 * [!DNL Jira] 관리자에게 해당 [!DNL Jira] 개체가 기한 필드가 있는지 업데이트하도록 요청하십시오.
-* Workfront [!DNL Workfront]설치[!UICONTROL &#x200B; 페이지에서 &#x200B;]의 계획된 완료 날짜에 대한 동기화를 사용하지 않도록 설정하십시오.
+* Workfront [!DNL Workfront]설치[!UICONTROL  페이지에서 ]의 계획된 완료 날짜에 대한 동기화를 사용하지 않도록 설정하십시오.
