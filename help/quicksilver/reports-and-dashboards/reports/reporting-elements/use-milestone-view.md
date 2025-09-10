@@ -240,7 +240,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. **보기** 드롭다운 메뉴를 클릭한 다음 **마일스톤**&#x200B;을 클릭합니다.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. <!--In the Production environment,--> 마일스톤 보기의 오른쪽 상단 모서리에서 **옵션**&#x200B;을 클릭합니다.
+1. &#x200B;<!--In the Production environment,--> 마일스톤 보기의 오른쪽 상단 모서리에서 **옵션**&#x200B;을 클릭합니다.
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. (조건부) 마일스톤 보기에 현재 완료율이 표시되지 않는 경우 이 문서의 [마일스톤 보기에 표시되는 정보 구성](#configure-what-information-displays-in-the-milestone-view)에 설명된 대로 작업 및 프로젝트의 완료율 보기를 활성화합니다.
 
-1. <!--In the Production environment,--> 작업 아래의 완료 백분율을 클릭하고 새 백분율을 지정한 다음 Enter 키를 누릅니다.
+1. &#x200B;<!--In the Production environment,--> 작업 아래의 완료 백분율을 클릭하고 새 백분율을 지정한 다음 Enter 키를 누릅니다.
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
