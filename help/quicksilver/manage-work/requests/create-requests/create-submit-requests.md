@@ -6,9 +6,9 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2856'
 ht-degree: 1%
 
 ---
@@ -163,6 +163,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
    >* <span class="preview">목록에 Workfront 요청 대기열과 Workfront Planning 요청 양식이 모두 포함되어 있습니다.</span>
    >* <span class="preview">개체 유형별로 목록을 필터링할 수 있습니다.</span>
    >* <span class="preview">Workfront 요청 대기열만 표시하려면 `Issue` 개체 형식을 필터링하십시오.</span>
+   >* <span class="preview">새 요청 환경에서 초안이 제출된 요청과 동일한 목록에 있습니다.</span>
 
 1. (조건부) Workfront Planning을 포함하는 새 경험으로 전환한 경우 주제 그룹 및 대기열 주제를 선택하고 양식을 계속 업데이트합니다.
 

@@ -6,14 +6,16 @@ description: 새 요청을 입력할 때 Workfront에서 제안하는 사용 가
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '687'
+ht-degree: 1%
 
 ---
 
 # 초안에서 요청 만들기
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
 새 요청을 입력할 때 Workfront에서 제안하는 사용 가능한 초안을 사용할 수 있을 뿐만 아니라 초안 섹션에서 초안 요청에 액세스하고 여기에서 제출을 완료할 수도 있습니다.
 
@@ -105,3 +107,9 @@ ht-degree: 2%
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      요청을 제출하면 초안이 삭제되고 복원할 수 없습니다.
+
+   >[!NOTE]
+   >
+   >* <span class="preview">새 요청 환경에서 초안이 제출된 요청과 동일한 목록에 있습니다.</span>
+   ><span class="preview">새 경험에서 요청을 만드는 방법에 대한 자세한 내용은 문서 요청 만들기 및 제출에서 [Workfront 웹 앱에서 요청 만들기 및 초안 생성](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app)을 참조하십시오.</span>
+
