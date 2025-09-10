@@ -3,7 +3,7 @@ title: 중앙 집중식 레코드 유형 개요
 description: 중앙 집중식 레코드 유형은 Adobe Workfront Planning의 중앙 또는 기본 작업 영역에서 여러 작업 영역에 추가할 수 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -96,7 +96,7 @@ recommendations: noDisplay, noCatalog
 
    * 편집
 
-     모양, 작업 영역 간 기능 또는 원본 작업 영역에서 가져온 필드는 편집할 수 없습니다.
+     모양, 작업 영역 간 기능 또는 원본 작업 영역에서 추가된 필드는 편집할 수 없습니다.
    * 요청 양식 만들기
    * 요청 양식 관리
 

@@ -6,7 +6,7 @@ description: 마일스톤 보기를 프로젝트 목록 또는 보고서에 적�
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 1%
@@ -106,7 +106,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 마일스톤 보기로 전환하는 방법에 대한 자세한 내용은 이 문서의 [마일스톤 보기로 전환](#switch-to-the-milestone-view) 섹션을 참조하십시오.
 
-<!--add new screen shot-->
+<!--add new screen shot for preview or prod release-->
 
 마일스톤 보기가 있는 ![프로젝트](assets/project-with-milestone-view-with-complete.png)
 
@@ -145,7 +145,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   이 문서의 [마일스톤 보기에서 작업에 대한 완료율 조정](#adjust-percent-complete-for-tasks-in-the-milestone-view) 섹션에 설명된 대로 마일스톤 보기에서 직접 완료율을 조정할 수 있습니다.
 
-* **작업 진행 상태 아이콘:** 마일스톤 보기에서 각 프로젝트 및 작업 옆에 상태 아이콘이 표시됩니다. <!--get new screen shots or hide them - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+* **작업 진행 상태 아이콘:** 마일스톤 보기에서 각 프로젝트 및 작업 옆에 상태 아이콘이 표시됩니다. <!--get new screen shots or hide them for preview or prod - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
    * On Time - green
@@ -200,7 +200,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    * 작업의 진행 상태가 위험 또는 지연이면 시작 및 완료 열에 색상 음영이 할당되지 않습니다.
 
-  <!--add new screen shot-->
+  <!--add new screen shot for preview or prod release-->
 
   ![음영이 있는 마일스톤 보기](assets/milestone-view-with-shading.png)
 
@@ -240,7 +240,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. **보기** 드롭다운 메뉴를 클릭한 다음 **마일스톤**&#x200B;을 클릭합니다.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. &#x200B;<!--In the Production environment,--> 마일스톤 보기의 오른쪽 상단 모서리에서 **옵션**&#x200B;을 클릭합니다.
+1. <!--In the Production environment,--> 마일스톤 보기의 오른쪽 상단 모서리에서 **옵션**&#x200B;을 클릭합니다.
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. (조건부) 마일스톤 보기에 현재 완료율이 표시되지 않는 경우 이 문서의 [마일스톤 보기에 표시되는 정보 구성](#configure-what-information-displays-in-the-milestone-view)에 설명된 대로 작업 및 프로젝트의 완료율 보기를 활성화합니다.
 
-1. &#x200B;<!--In the Production environment,--> 작업 아래의 완료 백분율을 클릭하고 새 백분율을 지정한 다음 Enter 키를 누릅니다.
+1. <!--In the Production environment,--> 작업 아래의 완료 백분율을 클릭하고 새 백분율을 지정한 다음 Enter 키를 누릅니다.
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->

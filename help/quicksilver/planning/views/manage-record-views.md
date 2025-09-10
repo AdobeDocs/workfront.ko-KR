@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 1%
+source-wordcount: '1216'
+ht-degree: 2%
 
 ---
 
@@ -52,7 +52,7 @@ Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -119,7 +119,7 @@ Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++   
 
 ## 레코드 보기 작업 시 고려 사항
 
@@ -146,7 +146,7 @@ Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| 기능 | 테이블 보기 | 타임라인 보기 | 달력 보기 |
+| 기능 | 테이블 보기 | 타임라인 보기 | 캘린더 보기 |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
 | 목록 또는 테이블에 레코드 표시 | ✓ |              | |
 | 기본적으로 모든 필드를 테이블에 열로 표시 | ✓ |              |    |
@@ -170,6 +170,7 @@ Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 
 | 주별 레코드 표시 |           |               | ✓ |
 | 보기에서 정보 내보내기 | ✓ |               |    |
 | <span class="preview">전체 화면으로 표시</span> | ✓ | ✓ | ✓ |
+| <span class="preview">보기에서 레코드 만들기</span> | ✓ | ✓ | ✓ |
 
 ## 보기 만들기 또는 편집 {#create-or-edit-views}
 
@@ -187,6 +188,12 @@ Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
 1. 새 보기를 추가하려면 **+ 보기**&#x200B;를 클릭하십시오.
+
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, click the **+View** tab. 
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
+
 1. 다음 유형의 뷰 중에서 선택합니다.
 
    * 테이블
@@ -206,6 +213,8 @@ Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 
 >
 >그렇지 않으면 [타임라인] 및 [달력] 옵션이 흐리게 표시됩니다.
 >
+
+<!-- replace screen shot at production??-->
 
 ![레코드 형식 목록의 보기 형식 드롭다운](assets/view-types-drop-down-from-record-type-list.png)
 

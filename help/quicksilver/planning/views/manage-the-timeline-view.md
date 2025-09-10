@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '3910'
+source-wordcount: '3920'
 ht-degree: 2%
 
 ---
@@ -114,13 +114,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
    * 시작 또는 종료 날짜에 값이 없는 경우
    * 시작 일자가 종료 일자 이후인 경우
 
-<div class="preview">
-
-* 타임라인 보기에서 레코드를 만들고 편집할 수 있습니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
-* 을 클릭한 다음 새 위치에서 해당 레코드 막대를 끌어서 놓아 타임라인 보기에서 레코드 막대의 크기를 조정할 수 있습니다. 레코드 막대의 크기를 조정하면 시작 및 종료 날짜가 즉시 업데이트됩니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
-
-</div>
-
 타임라인 보기를 관리하려면 다음을 수행합니다.
 
 1. 타임라인을 보려는 레코드 유형 페이지로 이동합니다.
@@ -203,6 +196,20 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 1. (선택 사항) 타임라인에 연결된 레코드를 표시하려면 **분류**&#x200B;를 클릭합니다.
 
    자세한 내용은 이 문서의 [분류 기능을 사용하여 타임라인 보기에서 연결된 레코드를 표시](#break-down-connected-records-in-the-timeline-view) 섹션을 참조하십시오.
+1. <span class="preview">타임라인 보기에서 레코드를 만들거나 해당 날짜를 편집하려면 다음 중 하나를 수행하십시오.</span>
+
+   * <span class="preview">타임라인에서 아무 곳이나 두 번 클릭하여 레코드를 만듭니다. </span>
+
+     <span class="preview">자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).</span>를 참조하세요.
+
+   * <span class="preview">레코드 표시줄의 끝을 클릭한 다음 새 위치에 끌어서 놓습니다. 레코드 막대의 크기를 조정하면 시작 및 종료 날짜가 즉시 업데이트됩니다. </span>
+
+     <span class="preview">자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).</span>을 참조하세요.
+
+   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
+
+
 
 ### 필터 추가
 

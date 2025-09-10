@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 0%
@@ -246,6 +246,8 @@ ht-degree: 0%
 1. <span class="preview">레코드 표시줄의 끝을 마우스로 가리킨 다음 해당 여백을 다른 날짜로 끌어서 놓습니다. 레코드의 시작 또는 종료 날짜가 자동으로 업데이트됩니다.</span>
 
    <span class="preview">![크기를 조정할 타임라인 보기의 왼쪽 끝 막대](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
 

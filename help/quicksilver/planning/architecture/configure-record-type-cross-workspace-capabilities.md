@@ -4,7 +4,7 @@ description: 레코드 유형을 다른 작업 공간에 추가하거나 다른 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 1%
@@ -25,7 +25,7 @@ recommendations: noDisplay, noCatalog
 
 
 <!--this article is linked to the UI - do not delete or change the URL-->
-<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this imported record type - this info is in the UI - this is what she sent in figma:
+<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
 
 Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
 
@@ -54,7 +54,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 * 레코드 유형을 중앙 집중식으로 지정할 수 있습니다. 사용자는 자신이 관리할 수 있는 다른 작업 공간에 중앙 집중식 레코드 유형을 추가할 수 있습니다.
 * 레코드 종류를 연결 가능한 것으로 지정할 수 있습니다. 사용자는 다른 작업 영역에서 이 레코드 유형에 연결할 수 있습니다.
 
-작업 영역 관리자가 레코드 유형을 다른 작업 영역에서 연결하거나 다른 작업 영역으로 가져오려면 먼저 레코드 유형의 작업 영역 간 기능을 정의해야 합니다.
+작업 영역 관리자가 레코드 유형을 다른 작업 영역에서 연결하거나 다른 작업 영역에 추가하기 전에 먼저 레코드 유형의 작업 영역 간 기능을 정의해야 합니다.
 
 레코드 유형을 만들거나 편집할 때 레코드 유형의 작업 영역 간 기능을 정의합니다.
 
@@ -196,7 +196,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    작업 영역 페이지가 열리고 레코드 유형이 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다
+   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**을 클릭합니다
 또는
    * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 열고 레코드 유형 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
