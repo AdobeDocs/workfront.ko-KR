@@ -47,7 +47,7 @@ ht-degree: 0%
 
 [!DNL Workfront] 및 [!DNL Jira]의 모든 사용자가 이 통합을 통해 혜택을 받을 수 있습니다. 가장 많이 사용하는 시스템에 대한 라이선스만 있으면 되고 두 시스템 모두에 대한 라이선스는 필요하지 않습니다.
 
-이 추가 기능은 [!UICONTROL  소프트웨어의 ]서버[!UICONTROL  및 ]OnDemand[!UICONTROL (또는 ]클라우드[!DNL Jira]) 버전에서 사용할 수 있습니다. [!DNL Data Center] 소프트웨어의 [!DNL Jira] 버전에서는 이 추가 기능을 사용할 수 없습니다.
+이 추가 기능은 [!UICONTROL &#x200B; 소프트웨어의 &#x200B;]서버[!UICONTROL &#x200B; 및 &#x200B;]OnDemand[!UICONTROL (또는 &#x200B;]클라우드[!DNL Jira]) 버전에서 사용할 수 있습니다. [!DNL Data Center] 소프트웨어의 [!DNL Jira] 버전에서는 이 추가 기능을 사용할 수 없습니다.
 
 현재 [!DNL Jira]에서 지원하는 [!DNL Workfront for Jira] 버전 목록은 Atlassian Marketplace에서 [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)을(를) 참조하십시오.
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 [!DNL Workfront for Jira]을(를) 설치하려면
 
 1. [!DNL Jira]에 [!DNL Jira] 관리자로 로그인합니다.
-1. **[!DNL Workfront for Jira]**[[!DNL Atlassian Marketplace]&#x200B;에서 ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) 추가 기능을 찾으십시오.
+1. **[!DNL Workfront for Jira]**&#x200B;[[!DNL Atlassian Marketplace]&#x200B;에서 ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) 추가 기능을 찾으십시오.
 
 1. 설치하려면 **[!UICONTROL 지금 가져오기]**&#x200B;를 클릭하세요.
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이러한 요구 사항은 [!UICONTROL  소프트웨어의 ]OnDemand[!UICONTROL (]Cloud[!DNL Jira]) 버전에는 적용되지 않습니다.
+>이러한 요구 사항은 [!UICONTROL &#x200B; 소프트웨어의 &#x200B;]OnDemand[!UICONTROL (]Cloud[!DNL Jira]) 버전에는 적용되지 않습니다.
 
 두 [!DNL Workfront] 환경에서 [!DNL Jira] 추가 기능을 설치하는 것은 비슷하지만 [!DNL Jira Server] 설치를 사용하여 작업할 때는 다음 사항을 고려해야 합니다.
 

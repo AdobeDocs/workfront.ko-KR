@@ -175,7 +175,7 @@ ht-degree: 0%
    <td>[!UICONTROL 문제 상태]</td> 
    <td> <p> [!UICONTROL 문제 또는 작업 상태]</p> <p>[!DNL Jira]의 문제 상태가 Workfront의 다음 상태 또는 다음 상태와 동일한 상태와 동기화됩니다.</p> 
     <ul> 
-     <li> <p>[!UICONTROL New]([!UICONTROL NEW])</p> </li> 
+     <li> <p>[!UICONTROL New] ([!UICONTROL NEW])</p> </li> 
      <li> <p>[!UICONTROL 진행 중] ([!UICONTROL INP])</p> </li> 
      <li> <p>[!UICONTROL Closed]/[!UICONTROL Complete] ([!UICONTROL CLS]/[!UICONTROL CPL])</p> </li> 
     </ul> <p>참고: [!DNL Jira] 상태는 적절한 상태와 일치하는 첫 번째 [!DNL Workfront] 상태와 동기화됩니다.</p> <p>[!DNL Workfront]에 있는 항목의 상태에 대한 자세한 내용은 <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">상태 만들기 또는 편집</a>을 참조하세요.</p> </td> 
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->시간이 [!DNL Jira] 작업에 연결된 [!DNL Workfront] 항목에 추가된 경우 [!UICONTROL 의 ]시간 유형[!DNL Workfront]은(는) [!UICONTROL 작업 시간]입니다. 시간이 [!DNL Jira] 문제와 연결된 [!DNL Workfront] 항목에 추가된 경우 [!UICONTROL 의 ]시간 유형[!DNL Workfront]은(는) [!UICONTROL 문제 시간]입니다.
+>시간이 [!DNL Jira] 작업에 연결된 [!DNL Workfront] 항목에 추가된 경우 [!UICONTROL 의 &#x200B;]시간 유형[!DNL Workfront]은(는) [!UICONTROL 작업 시간]입니다. 시간이 [!DNL Jira] 문제와 연결된 [!DNL Workfront] 항목에 추가된 경우 [!UICONTROL 의 &#x200B;]시간 유형[!DNL Workfront]은(는) [!UICONTROL 문제 시간]입니다.
 
 시간 로깅을 기록하려면 **[!DNL Workfront]**&#x200B;의 [!DNL Jira] 탭과 **[!UICONTROL 의 항목의]**&#x200B;업데이트[!DNL Workfront] 탭에 댓글이 추가됩니다.\
 시간은 **[!UICONTROL 항목의]**&#x200B;시간[!DNL Workfront] 탭에도 표시됩니다.
@@ -221,7 +221,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL Jira]의 시간을 기록하는 사용자가 [!DNL Workfront]에 없는 경우 **[!UICONTROL 사용자에게 [!DNL Workfront] [!DNL Jira] 계정이 없는 &#x200B; 경우 *자동으로 [!DNL Workfront]에 사용자를 만듭니다]**이(가)**[!UICONTROL  Always ]**(으)로 설정되어 있는 경우&#x200B; 통합에서 Workfront에 새 활성 사용자를 만듭니다. 이 사용자는 [!DNL Workfront] 라이선스를 사용하지 않습니다. [!DNL Workfront]의 작업 항목에 활성 사용자를 할당할 수 있지만 업데이트에 포함할 수 없습니다. [!DNL Workfront]에서 [!DNL Jira]명의 사용자를 자동으로 만드는 구성에 대한 자세한 내용은 [구성 [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)을 참조하십시오.
+>[!DNL Jira]의 시간을 기록하는 사용자가 [!DNL Workfront]에 없는 경우 **[!UICONTROL 사용자에게 [!DNL Workfront] [!DNL Jira] 계정이 없는 &#x200B; 경우 *자동으로 [!DNL Workfront]에 사용자를 만듭니다]**&#x200B;이(가)**[!UICONTROL &#x200B; Always &#x200B;]**(으)로 설정되어 있는 경우&#x200B; 통합에서 Workfront에 새 활성 사용자를 만듭니다. 이 사용자는 [!DNL Workfront] 라이선스를 사용하지 않습니다. [!DNL Workfront]의 작업 항목에 활성 사용자를 할당할 수 있지만 업데이트에 포함할 수 없습니다. [!DNL Workfront]에서 [!DNL Jira]명의 사용자를 자동으로 만드는 구성에 대한 자세한 내용은 [구성 [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)을 참조하십시오.
 
 [!DNL Jira]에 항목의 시간을 기록하여 [!DNL Jira] 및 [!DNL Workfront]에 모두 기록하려면 다음을 수행합니다.
 
@@ -256,7 +256,7 @@ ht-degree: 0%
 
    시간이 [!DNL Workfront] 항목에 추가됩니다.
 
-   이 시간은 [!UICONTROL  문제의 ]작업 로그[!DNL Jira] 탭에 추가되지 않습니다.
+   이 시간은 [!UICONTROL &#x200B; 문제의 &#x200B;]작업 로그[!DNL Jira] 탭에 추가되지 않습니다.
 
 ## 연결된 [!DNL Jira] 문제의 댓글 {#comment-from-a-linked-jira-issue}
 
