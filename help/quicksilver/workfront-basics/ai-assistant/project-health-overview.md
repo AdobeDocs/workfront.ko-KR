@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
+source-git-commit: 16e8213197e881d4d7b1a4b1bf8d3a43438ab938
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 0%
+source-wordcount: '1488'
+ht-degree: 2%
 
 ---
 
@@ -121,18 +121,47 @@ Project Health를 활용하려면 조직에서 AI Assistant를 활성화해야 �
     <tr>
         <td><b>프로젝트 상태</b></td>
         <td><b>프로젝트 진행 상태</b></td>
+        <td><b>프로젝트 상태 요소</b></td>
     </tr>
     <tr>
         <td>대상</td>
-        <td>프로젝트의 진행 상태가 정시에 도달하면 프로젝트 상태가 타겟에 있습니다.</td>
+        <td>이 분석은 다음 요인에 대한 평균 위험 수준이 정상 임계값 내에 있을 때 부여된다.
+        </td>
+        <td> 
+        <ul><li>범위 확장</li>
+        <li>필드 누락</li>
+        <li>일정 변경</li>
+        <li>과소 평가된 작업</li>
+        <li>프로젝트 진행</li>
+        <li>기한이 지난 작업</li>
+        <li>예산</li>
+        </ul></td>
     </tr>
     <tr>
         <td>위험 상태</td>
-        <td>프로젝트의 진행 상태가 지연되거나 위험 상태인 경우 프로젝트 상태가 위험 상태입니다.</td>
+        <td>이 분석은 다음 요인에 대한 평균 위험 수준이 정상 임계값 바로 아래로 떨어질 때 할당됩니다.</td>
+        <td>
+        <ul><li>범위 확장</li>
+        <li>필드 누락</li>
+        <li>일정 변경</li>
+        <li>과소 평가된 작업</li>
+        <li>프로젝트 진행</li>
+        <li>기한이 지난 작업</li>
+        <li>예산</li>
+        </ul></td>
     </tr>
     <tr>
         <td>문제 발생</td>
-        <td>프로젝트의 진행 상태가 지연되면 프로젝트 상태가 위험 상태입니다.</td>
+        <td>이 분석은 다음 요인에 대한 평균 위험 수준이 건강 역치 이하로 떨어질 때 부여된다.</td>
+        <td>
+        <ul><li>범위 확장</li>
+        <li>필드 누락</li>
+        <li>일정 변경</li>
+        <li>과소 평가된 작업</li>
+        <li>프로젝트 진행</li>
+        <li>기한이 지난 작업</li>
+        <li>예산</li>
+        </ul></td>
     </tr>
     </tr>
    </table>
@@ -264,57 +293,60 @@ Project Health를 활용하려면 조직에서 AI Assistant를 활성화해야 �
 
 1. 프로젝트의 상태 세부 정보를 검토한 후 AI Assistant의 오른쪽 위 모서리에 있는 **닫기** 아이콘 ![닫기 아이콘](assets/close-icon.png)을 클릭하여 닫습니다.
 
+<!--
 
-## 캔버스 대시보드에서 프로젝트 상태 테이블 보고서 작성
+## Build a Project Health table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하십시오.
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md). 
 
-프로젝트 상태 데이터를 테이블 형식으로 쉽게 시각화하기 위해 캔버스 대시보드에 테이블 보고서를 추가할 수 있습니다.
+You can add a table report to a Canvas Dashboard in order to easily visualize your Project Health data in a table format.  
 
-### 전제 조건
+### Prerequisites 
 
-테이블 보고서를 작성하려면 먼저 대시보드를 만들어야 합니다.
+You must create a dashboard before you can build a table report. 
 
-자세한 내용은 [캔버스 대시보드 만들기](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)를 참조하세요.
+For more, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-### 프로젝트 상태 테이블 보고서 작성
+### Build a Project Health table report 
 
-프로젝트 상태 테이블 보고서를 작성하는 데 사용할 수 있는 구성 옵션은 여러 가지가 있습니다. 이 섹션에서는 다음 열을 표시하는 열을 만드는 과정을 안내합니다.
+There are many configuration options available for building a Project Health table report. In this section, we'll walk you through the process of creating one that displays the following columns: 
 
-* **이름**: 프로젝트 이름을 포함합니다.
-* **프로젝트 상태 분석**: 프로젝트 상태 평가의 요약을 포함합니다.
-* **프로젝트 상태가**&#x200B;에 생성됨: 프로젝트 상태 평가가 마지막으로 생성된 날짜/시간을 포함합니다.
-* **프로젝트 상태 레이블**: 프로젝트의 레이블(예: On Target, At Risk 또는 In Trouble).
+* **Name**: Contains the project name. 
+* **Project Health Analysis**: Contains a summary of the Project Health assessment. 
+* **Project Health Created At**: Contains the date/time when the Project Health assessment was last generated. 
+* **Project Health Label**: Contains the project's label (e.g. On Target, At Risk, or In Trouble).
 
 {{step1-to-dashboards}}
 
-1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
-1. 오른쪽 상단 모서리에서 **새 대시보드**&#x200B;를 클릭합니다.
-1. **대시보드 만들기** 상자에 대시보드의 **이름** 및 **설명**&#x200B;을 입력하십시오.
-1. Click **Create**.
-1. **보고서 추가** 상자에서 **보고서 만들기**&#x200B;를 선택합니다.
-1. 왼쪽에서 **테이블**&#x200B;을 선택합니다.
-1. 오른쪽 상단 모서리에서 **보고서 만들기**&#x200B;를 클릭합니다.
-1. (선택 사항) 아래 단계에 따라 **세부 정보** ![세부 정보 아이콘](assets/details-icon.png) 섹션을 구성하십시오.
-   1. 보고서 **이름**&#x200B;을(를) 입력하십시오.
-   1. **설명** 보고서를 입력하십시오.
-1. **테이블 빌드** ![테이블 빌드 아이콘](assets/drilldown-column.png) 섹션을 구성하려면 아래 단계를 따르십시오.
-   1. 왼쪽 패널에서 **테이블 열** 아이콘을 클릭합니다.
-   1. **열 추가**&#x200B;를 클릭한 다음 **프로젝트** > **이름**&#x200B;을 선택합니다.
-   1. **열 추가**&#x200B;를 클릭한 다음 **프로젝트** > **프로젝트 상태** > **상태 분석**&#x200B;을 선택합니다.
-   1. **열 추가**&#x200B;를 클릭한 다음 **프로젝트** > **프로젝트 상태** > **만든 날짜**&#x200B;를 선택합니다.
-   1. **열 추가**&#x200B;를 클릭한 다음 **프로젝트** > **프로젝트 상태** > **상태 레이블**&#x200B;을 선택합니다.
+1. In the left panel, click **Canvas Dashboards**. 
+1. In the upper-right corner, click **New Dashboard**. 
+1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**. 
+1. Click **Create**. 
+1. In the **Add report** box, select **Create report**. 
+1. On the left side, select **Table**. 
+1. In the upper-right corner, click **Create report**. 
+1. (Optional) Follow the steps below to configure the **Details** ![Details icon](assets/details-icon.png) section: 
+    1. Enter a report **Name**. 
+    1. Enter a report **Description**. 
+1. Follow the steps below to configure the **Build table** ![Build table icon](assets/drilldown-column.png) section: 
+    1. In the left panel, click the **Table columns** icon. 
+    1. Click **Add column**, then select **Project** > **Name**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Analysis**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Created At**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Label**. 
 
-1. **필터** ![필터 아이콘](assets/filter-icon.png) 섹션을 구성하려면 아래 단계를 따르십시오.
-   1. 왼쪽 패널에서 **필터** 아이콘을 클릭합니다.
-   1. **필터 편집**&#x200B;을 선택합니다.
-   1. **조건 추가**&#x200B;를 클릭한 다음 필터링할 필드와 필드가 충족해야 하는 조건 종류를 정의하는 수정자를 지정합니다. 오른쪽 미리보기 섹션에 열이 나타납니다.
-   1. (선택 사항) 다른 필터링 기준 집합을 추가하려면 **필터 그룹 추가**&#x200B;를 클릭합니다. 세트 사이의 기본 연산자는 AND입니다. 연산자를 클릭하여 OR로 변경합니다.
+1. Follow the steps below to configure the **Filter** ![Filter icon](assets/filter-icon.png) section: 
+    1. In the left panel, click the **Filter** icon. 
+    1. Select **Edit filter**. 
+    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet. The column appears in the preview section on the right.
+    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
 
-1. **드릴다운 그룹 설정** ![그룹 설정](assets/drilldown-group-icon.png) 섹션을 구성하려면 아래 단계를 따르십시오.
-   1. 왼쪽 패널에서 **그룹 설정** 아이콘을 클릭합니다.
-   1. **그룹화 추가** 단추를 클릭한 다음 그룹화로 만들 필드를 선택합니다. 그룹화 열이 오른쪽의 미리보기 섹션에 나타납니다.
+1. Follow the steps below to configure the **Drilldown Group Settings** ![Group settings](assets/drilldown-group-icon.png) section: 
+    1. In the left panel, click the **Group Settings** icon. 
+    1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
-1. 보고서를 만들려면 **저장**&#x200B;을 클릭하십시오.
+1. Click **Save** to create the report.
+
+-->
