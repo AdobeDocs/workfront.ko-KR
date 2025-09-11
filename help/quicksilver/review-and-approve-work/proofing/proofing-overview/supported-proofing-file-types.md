@@ -7,9 +7,9 @@ description: '시스템에 설치된 파일(예: Photoshop 또는 Illustrator)�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
+source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 * MAC - MacPaint
 * MIF - 맵 정보 교환
 * MNG - 다중 네트워크 그래픽
-* MO:DCA - 혼합 개체: 문서 컨텐츠 아키텍처
+* MO:DCA - 혼합 개체: 문서 콘텐츠 아키텍처
 * MSP - Microsoft 페인트
 * MRC - LEAD 혼합 래스터 컨텐츠
 * MRC - T.44 혼합 래스터 컨텐츠
@@ -133,6 +133,12 @@ Workfront에는 다음과 같은 제한이 있습니다.
 * PNM - 휴대용 비트맵 유틸리티
 * PPM - 휴대용 비트맵 유틸리티
 * PPT - PowerPoint 프레젠테이션
+
+  >[!NOTE]
+  >
+  >현재 PowerPoint 프레젠테이션 파일이 업로드되지 않는 알려진 문제가 있습니다. 이 문제가 발생하는 경우 파일을 PDF으로 변환하고 PDF을 업로드하십시오. 자세한 내용은 [증명: PowerPoint 파일에서 증명을 생성할 수 없음](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)을 참조하십시오.
+
+
 * PPTX - PowerPoint 프레젠테이션 2007 PS - PostScript 파일
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
@@ -199,8 +205,8 @@ Workfront에는 다음과 같은 제한이 있습니다.
 
 ## 비디오 파일
 
-* &#x200B;-
-* &#x200B;-
+* -
+* -
 * H.263
 * H.264
 * H.265
