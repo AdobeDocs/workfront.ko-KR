@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
+source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
 workflow-type: tm+mt
-source-wordcount: '13489'
+source-wordcount: '13494'
 ht-degree: 2%
 
 ---
@@ -1027,6 +1027,7 @@ ht-degree: 2%
       * [보드에서 카드 삭제 또는 보관](agile/get-started-with-boards/delete-board-items.md)
       * [보드에서 필터링 및 검색](agile/get-started-with-boards/filter-search-in-board.md)
       * [태그 추가](agile/get-started-with-boards/add-tags.md)
+      * [보드 관리 보기 관리](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)
       * [게시판 이메일 알림 및 환경 설정](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
    * 보드에서 애자일 계획 도구 사용 {#agile-planning-boards}
       * [애자일 계획 도구 개요: 문서 색인](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
@@ -2174,7 +2175,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2471,8 +2472,8 @@ ht-degree: 2%
       * WORKFRONT PROOF API {#wf-proof-api}
          * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/wp-api.md)
          * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
-      * Box {#box}
-         * [Box](workfront-proof/wp-integrations/box/box.md)
+      * 확인란 {#box}
+         * [확인란](workfront-proof/wp-integrations/box/box.md)
          * [Workfront Proof 및 Box 통합 소개](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [Box 계정을 통해 증명 만들기](workfront-proof/wp-integrations/box/create-proof-box-account.md)
          * [상자 폴더를 Workfront Proof과 동기화](workfront-proof/wp-integrations/box/sycn-box-folder.md)
