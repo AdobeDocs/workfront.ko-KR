@@ -6,9 +6,9 @@ description: 사용자의 추가 개입 없이 사용자에 대해 반복 타임
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1695'
 ht-degree: 2%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 2%
 
 <!--at the Prod release, remove the Production and Preview references from this article-->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
 
-</div> -->
+</div>
 
 사용자의 추가 개입 없이 사용자에 대해 반복 타임시트를 생성하는 타임시트 프로필을 만들고, 편집하고, 할당할 수 있습니다. 이렇게 하면 시간이 절약되고 사용자 간에 다음 사항이 일관되도록 할 수 있습니다.
 
@@ -67,7 +67,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 타임시트 프로필 만들기 또는 편집
 
-<!--
+<!--Old info: 
 <div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
 <p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
@@ -182,9 +182,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     </tbody> 
     </table>
 
-1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> 타임시트 프로필을 특정 사용자, 그룹 또는 팀(Workfront 관리자인 경우)과 연결하려면 **사람 할당** 탭을 클릭하십시오. <!--Keep the reference to the group upon release to Prod-->
+1. 프로덕션 환경에서 또는 그룹 수준 타임시트 프로필을 만들 때 **사람 할당** 탭을 클릭하여 타임시트 프로필을 특정 사용자, 그룹 또는 (Workfront 관리자인 경우) 팀과 연결합니다. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
+   <span class="preview">미리 보기 환경에서 시스템에 대한 타임시트 프로필을 만들 때 페이지 아래쪽으로 스크롤하여 **사람 할당** 섹션을 찾습니다.</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    사용자, 그룹 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 클릭합니다.
 

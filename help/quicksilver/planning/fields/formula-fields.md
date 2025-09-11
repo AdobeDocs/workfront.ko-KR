@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 5%
+source-wordcount: '990'
+ht-degree: 4%
 
 ---
 
@@ -113,17 +113,16 @@ ht-degree: 5%
   자세한 내용은 문서 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)의 &quot;수식&quot; 섹션을 참조하십시오.
 * 새 수식에서 수식 필드를 참조할 수 있습니다. 공식 필드에서 참조되는 필드에서 값이 업데이트되면 해당 필드를 참조하는 모든 후속 필드 또는 해당 필드가 포함된 공식 필드가 자동으로 업데이트됩니다.
 
-<!--
 <div class="preview">
 
-* When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
+* 수식 필드 또는 수식 필드에 영향을 줄 수 있는 필드를 업데이트하면 경고가 변경 사항의 영향을 알려줍니다. 경고는 다음과 같은 경우에 표시됩니다.
 
-   * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
+   * 수식 필드를 업데이트할 때(이름 및 설명 변경 제외) 해당 필드에 종속 수식 또는 조회 필드가 있는 경우. 경고는 이러한 종속 필드를 나열하고 계속 진행할지 여부를 묻습니다.
 
-   * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+   * 공식 표현식에서 또는 조회 필드로 사용되는 필드를 삭제할 때. 경고는 종속 수식 및 조회 필드를 나열하고 삭제를 계속할 것인지 여부를 묻습니다.
 
 </div>
--->
+
 
 
 <div class="preview">
