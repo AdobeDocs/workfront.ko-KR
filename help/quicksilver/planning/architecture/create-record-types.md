@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 2%
@@ -117,7 +117,7 @@ ht-degree: 2%
 
      <!--
         * <span class="preview">By importing them from another workspace or adding cross-workspace record types</span>
-            <span class="preview">For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
+            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
 
 
 * 한 섹션 내에서 또는 작업 영역의 한 섹션에서 다른 섹션으로 레코드 유형을 이동할 수 있습니다. 한 작업 영역에서 다른 작업 영역으로 레코드 유형을 이동할 수 없습니다.
@@ -259,7 +259,7 @@ CSV 또는 Excel 파일에서 정보를 가져올 때 다음을 가져올 수 �
 
 You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as centralized record types. 
 
-For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 </div>
 

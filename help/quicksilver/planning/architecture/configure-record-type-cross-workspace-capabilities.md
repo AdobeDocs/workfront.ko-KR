@@ -4,9 +4,9 @@ description: 레코드 유형을 다른 작업 공간에 추가하거나 다른 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 사용자는 Contribute 권한이 있고 원래 작업 영역을 포함하여 중앙 집중식 레코드 유형이 추가된 작업 영역에서 중앙 집중식 레코드 유형에 레코드를 추가할 수 있습니다. 보기 권한만 있는 작업 영역에서 레코드를 볼 수 있습니다.
 
-자세한 내용은 [중앙 집중식 레코드 종류 개요](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)를 참조하세요.
+자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
 레코드 유형 추가를 중앙 집중식 레코드 유형으로 구성하려면 다음을 수행합니다.
 
@@ -179,7 +179,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
      이 필드는 읽기 전용이므로 삭제할 수 없습니다.
 1. (선택 사항) 다른 작업 영역으로 이동하여 기존 레코드 유형을 사용하여 레코드 유형을 만듭니다. 위의 단계에서 활성화한 레코드 유형을 선택합니다.
 
-   자세한 내용은 [기존 레코드 종류 추가](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md)를 참조하십시오.
+   자세한 내용은 [다른 작업 영역에서 기존 레코드 형식 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)를 참조하십시오.
 
 ## 연결 가능한 레코드 유형 구성
 
@@ -196,7 +196,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    작업 영역 페이지가 열리고 레코드 유형이 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다
+   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**을 클릭합니다
 또는
    * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 열고 레코드 유형 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 

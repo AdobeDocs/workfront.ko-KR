@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '13494'
+source-wordcount: '13497'
 ht-degree: 2%
 
 ---
@@ -2078,9 +2078,9 @@ ht-degree: 2%
       * [레코드 유형 개요](planning/architecture/overview-of-record-types.md)
       * [레코드 유형 만들기](planning/architecture/create-record-types.md)
       * [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 유형 만들기](planning/architecture/import-file-to-create-record-types.md)
-      * [중앙 집중식 레코드 유형 개요](planning/architecture/centralized-record-types-overview.md)
+      * [작업 영역 간 레코드 유형 개요](planning/architecture/cross-workspace-record-types-overview.md)
       * [레코드 유형에 대한 작업 영역 간 기능 구성](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-      * [기존 레코드 유형 추가](planning/architecture/add-cross-workspace-record-types.md)
+      * [다른 작업 영역에서 기존 레코드 유형 추가](planning/architecture/add-existing-record-types-from-another-workspace.md)
       * [레코드 유형 연결 개요](planning/architecture/connect-record-types-overview.md)
       * [레코드 유형 연결](planning/architecture/connect-record-types.md)
       * [레코드 유형 편집](planning/architecture/edit-record-types.md)
@@ -2175,7 +2175,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)

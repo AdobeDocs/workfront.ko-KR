@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '2688'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,6 @@ ht-degree: 0%
 
 +++   
 
-
 ## 레코드 편집에 대한 고려 사항
 
 * 작업 영역에 대한 권한이 부여된 경우 직접 만든 레코드나 다른 사용자가 만든 레코드를 편집할 수 있습니다.
@@ -106,18 +105,7 @@ ht-degree: 0%
    * 레코드 보기의 레코드 미리 보기
    * 레코드의 세부 정보 페이지
    * 테이블 보기에서 인라인입니다.
-<!--* You can edit a record's dates from the following areas:
-        * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars</span>
-         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
-        For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
-
-<!-- when drag and drop is available replace the last 2 points with this:
-
-* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
-* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
-    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
--->
+   * <span class="preview"> 레코드 <!--or dragging and dropping-->개의 크기를 조정할 때 일정 및 타임라인 보기입니다. 레코드의 날짜가 업데이트됩니다.</span>
 
 * 사용자가 보기에서 레코드를 편집하면 변경 내용이 모든 보기에서 즉시 표시되고 레코드 페이지가 다른 모든 사용자에게 표시됩니다.
 
@@ -258,10 +246,17 @@ ht-degree: 0%
 <!--add another step about drag and drop here when that is available-->
 
 1. 달력 보기에서 레코드 유형 페이지를 엽니다. 자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
-1. (조건부) 오른쪽 위 드롭다운 메뉴에서 **월**&#x200B;을(를) 선택합니다.
-1. <span class="preview">레코드 표시줄의 끝을 마우스로 가리킨 다음 해당 여백을 다른 날짜로 끌어서 놓습니다. 레코드의 시작 또는 종료 날짜가 자동으로 업데이트됩니다.</span>
+1. <span class="preview">(조건부) 달력 월별 보기에서 레코드 막대의 끝을 마우스로 가리킨 다음 해당 여백을 클릭하고 다른 날짜로 끌어서 놓습니다. 레코드의 시작 또는 종료 날짜가 자동으로 업데이트됩니다.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above-->
 
    <span class="preview">![크기를 조정할 달력 보기의 왼쪽 끝 막대](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+
+   <!--At preview release, add one of the following depending on which one is releasing: 
+    Scenario one: only drag and drop in the weekly view is releasing:
+    1. <span class="preview">Click a record bar in the calendar weekly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+    Scenario two: only drag and drop in the monthly view is releasing:
+    1. <span class="preview">Click a record bar in the calendar monthly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+    Scenario 3: both the weekly and monthly drag and drop are releasing at the same time:
+    1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
 

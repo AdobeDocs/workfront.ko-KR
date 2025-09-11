@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 2%
@@ -187,12 +187,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
    1. <span class="preview">(선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면에서 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 눌러 전체 화면을 종료합니다.  </span>
 
-1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
-   * [필터](#add-filters)
-   * [그룹화](#add-grouping)
-   * [설정](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
-
 1. (선택 사항) 타임라인에 연결된 레코드를 표시하려면 **분류**&#x200B;를 클릭합니다.
 
    자세한 내용은 이 문서의 [분류 기능을 사용하여 타임라인 보기에서 연결된 레코드를 표시](#break-down-connected-records-in-the-timeline-view) 섹션을 참조하십시오.
@@ -209,7 +203,11 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
    <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
         <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
-
+1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
+   * [필터](#add-filters)
+   * [그룹화](#add-grouping)
+   * [설정](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### 필터 추가
 
