@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
+source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
 workflow-type: tm+mt
-source-wordcount: '3185'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -106,22 +106,20 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
 
   Workfront 관리자의 암호를 재설정할 수 없습니다.
 
-<!--
-* **&lt;SSO Configuration&gt; Username**: If your Workfront administrator enabled an SSO integration with Workfront, the SSO Username displays in this field. The type of SSO configuration enabled for your Workfront instance is visible in this field.
-* **OnlyAllow &lt;SSO Configuration&gt; Authentication**: If your Workfront administrator enabled an SSO integration with Workfront and has updated all users for SSO, this field is selected by default. The type of SSO configuration enabled for your Workfront instance is visible in this field.
-  
-  When this field is selected, the user is required to log into Workfront with their SSO credentials. Unchecking it will allow them to log in to Workfront with their Workfront credentials.
+* **&lt;SSO 구성> 사용자 이름**: Workfront 관리자가 Workfront과의 SSO 통합을 사용하도록 설정한 경우 이 필드에 SSO 사용자 이름이 표시됩니다. Workfront 인스턴스에 대해 활성화된 SSO 구성 유형이 이 필드에 표시됩니다.
+* **&lt;SSO 구성> 인증만 허용**: Workfront 관리자가 Workfront과의 SSO 통합을 사용하도록 설정하고 모든 사용자를 SSO로 업데이트한 경우 이 필드가 기본적으로 선택됩니다. Workfront 인스턴스에 대해 활성화된 SSO 구성 유형이 이 필드에 표시됩니다.
 
-  For more information about configuring Workfront with an SSO solution, see [Overview of single sign-on in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+  이 필드를 선택하면 사용자는 SSO 자격 증명으로 Workfront에 로그인해야 합니다. 선택을 취소하면 Workfront 자격 증명으로 Workfront에 로그인할 수 있습니다.
 
-  For more information about updating users for SSO, see [Update users for single sign-on](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+  SSO 솔루션을 사용하여 Workfront을 구성하는 방법에 대한 자세한 내용은 [Adobe Workfront의 Single Sign-On 개요](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)를 참조하십시오.
+
+  SSO용 사용자 업데이트에 대한 자세한 내용은 [SSO(Single Sign-On)용 사용자 업데이트](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md)를 참조하십시오.
 
   >[!NOTE]
   >
-  >If you are a group administrator, you can edit the &lt;SSO Configuration&gt; fields only for users in the groups where you are designated as such. Also, the User Admin (Group Users) permission must be enabled in your access level.
+  >그룹 관리자인 경우 자신이 지정된 그룹의 사용자에 대해서만 &lt;SSO 구성> 필드를 편집할 수 있습니다. 또한 액세스 수준에서 사용자 관리(그룹 사용자) 권한을 활성화해야 합니다.
   >
-  >If you are a group administrator and you have the User Admin (All Users) permission enabled in your access level, you can edit the &lt;SSO Configuration&gt; fields for all users.
--->
+  >그룹 관리자이고 액세스 수준에서 사용자 관리자(모든 사용자) 권한을 활성화한 경우 모든 사용자에 대한 &lt;SSO 구성> 필드를 편집할 수 있습니다.
 
 * **프로필 사진**: **새로 업로드**&#x200B;를 클릭하여 사용자의 프로필 사진을 로드합니다. JPG, GIF 또는 PNG 파일을 업로드할 수 있습니다. 파일 크기 제한은 4MB입니다.
 
@@ -152,7 +150,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
 
 <!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
 
-<!--**Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **내가 자신에게 할당한 작업을 내 처리 중 탭으로 보내기**: 이 옵션을 선택하면 사용자가 직접 할당한 작업이 새로 만들기 대신 진행 중 상태로 자동 설정됩니다. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **문서를 업로드할 때 자동으로 증명 생성**: 사용자가 업로드하는 문서에서 즉시 증명을 생성하려면 이 옵션을 선택하십시오.
 
