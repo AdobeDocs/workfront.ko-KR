@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 4분기 릴리스의 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록을 보려면 [2025년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)를 참조하십시오.
+
+## 새 게시판 관리자 보기
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 9월 11일
+>* 프로덕션 빠른 릴리스: 2025년 10월 15일
+>* 모든 고객을 위한 프로덕션: 2025년 10월 16일
+
+보드 관리 보기에는 시스템 관리자가 마지막으로 업데이트된 시간, 각 보드에 있는 카드 수 등을 포함하여 전체 보드 세부 사항에 대한 빠른 스냅샷을 얻는 데 사용할 수 있는 계정의 모든 보드 목록이 포함되어 있습니다.
+
+자세한 내용은 [게시판 관리자 보기 관리](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)를 참조하십시오.
 
 ## 조직에 대한 AI Beta 기능 활성화
 

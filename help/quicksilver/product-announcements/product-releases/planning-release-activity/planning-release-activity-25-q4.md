@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: d0fbeb7b04d2bf632e04e1764a3ffff9abcfb231
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1796'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,45 @@ To make it easier to find the request form you're looking for in Workfront Plann
 Previously, request forms were located only on the object for which they were created.
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## 필드를 변경하거나 삭제할 때 새 정보 상자가 표시됨
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 9월 11일
+>* 프로덕션 빠른 릴리스: 2025년 10월 15일
+>* 프로덕션 모두: 2025년 10월 16일
+
+수식 필드 또는 수식 필드에 영향을 줄 수 있는 필드를 업데이트하면 경고가 변경 사항의 영향을 알려줍니다. 경고는 다음과 같은 경우에 표시됩니다.
+
+* 수식 필드를 업데이트할 때(이름 및 설명 변경 제외) 해당 필드에 종속 수식 또는 조회 필드가 있는 경우. 경고는 이러한 종속 필드를 나열하고 계속 진행할지 여부를 묻습니다.
+
+* 공식 표현식에서 또는 조회 필드로 사용되는 필드를 삭제할 때. 경고는 종속 수식 및 조회 필드를 나열하고 삭제를 계속할 것인지 여부를 묻습니다.
+
+자세한 내용은 [수식 필드 개요](/help/quicksilver/planning/fields/formula-fields.md)를 참조하세요.
+
+## Adobe Workfront Planning과 Adobe GenStudio for Performance Marketing 간의 통합
+
+>[!NOTE]
+>
+>미리 보기: 2025년 9월 11일
+>>모든 고객을 위한 프로덕션: 2025년 9월 11일
+>>[!BADGE 일정 해제]{type=Neutral}
+
+조직에서 Adobe Workfront Planning과 Adobe GenStudio for Performance Marketing을 모두 사용하는 경우 GenStudio에서 기본적으로 지원하는 것보다 캠페인, 제품 및 가상 사용자와 같은 마케팅 개념을 더 자세히 정의할 수 있습니다.
+
+GenStudio for Performance Marketing과 Workfront Planning 간의 새로운 기본 통합을 통해 이제 Workfront Planning에서 GenStudio for Performance Marketing에 사용되는 캠페인, 제품, 가상 사용자, 활성화, 채널 및 지역을 관리할 수 있습니다. 또한 이 통합을 통해 GenStudio for Performance Marketing Planning에서 기존 레코드 유형을 참조하도록 Workfront을 구성하여 보다 연관성 있고 일관된 마케팅 워크플로우를 만들 수 있습니다.
+
+이제 회사에서 두 제품을 모두 구매하면 Adobe Workfront Planning에서 GenStudio for Performance Marketing 작업 영역을 사용할 수 있습니다.
+Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
+
+* Workfront Planning에서 GenStudio 작업 영역을 봅니다.
+* GenStudio for Performance Marketing에서 캠페인, 제품, 가상 사용자 및 활성화를 수정하고 Workfront Planning에서 동일한 정보를 실시간으로 업데이트합니다.
+* Workfront Planning에서 캠페인, 제품, 가상 사용자 및 활성화를 수정하고 실시간 확인
+* 중복 데이터 항목을 방지합니다.
+* 계획 및 활성화 노력 간의 정렬을 유지합니다.
+
+자세한 내용은 [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
 
 ## 달력 월별 보기에서 레코드 크기 조정
 
@@ -184,8 +223,8 @@ For more information on request forms, see [Create and manage a request form in 
 >[!NOTE]
 >
 >미리 보기: 2025년 8월 7일
->&#x200B;>모든 고객을 위한 프로덕션:August, 2025
->&#x200B;>[!BADGE 일정 해제]{type=Neutral}
+>>모든 고객을 위한 프로덕션:August, 2025
+>>[!BADGE 일정 해제]{type=Neutral}
 
 Workfront Planning의 공식 필드 및 Workfront의 계산된 사용자 정의 필드에 다음 사용법을 사용하는 새 표현식을 추가했습니다.
 
@@ -200,8 +239,8 @@ Workfront Planning의 공식 필드 및 Workfront의 계산된 사용자 정의 
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 31일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 7월 31일
->&#x200B;>[!BADGE 일정 해제]{type=Neutral}
+>>모든 고객을 위한 프로덕션: 2025년 7월 31일
+>>[!BADGE 일정 해제]{type=Neutral}
 
 레코드 테이블 보기에서 필드를 만들거나 편집할 때 수식 필드를 확대하는 최대화 단추를 추가했습니다. 또한 필드 만들기 상자로 되돌리기 위해 확대된 새 창에 최소화 버튼을 추가했습니다.
 
@@ -250,8 +289,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 24일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 이제 타임라인의 아무 곳이나 두 번 클릭하여 레코드 유형의 타임라인 보기에서 레코드를 만들 수 있습니다.
 
@@ -266,8 +305,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 24일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 이제 작업 영역 페이지에 있는 레코드 유형 카드의 기타 메뉴에서 레코드 유형을 공유할 수 있습니다. 이 기능이 향상되기 전에는 레코드 유형 페이지 내에서만 공유 옵션을 사용할 수 있었습니다.
 
@@ -278,8 +317,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 24일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 이제 모든 Workfront Planning 보기(테이블, 타임라인 및 달력)를 전체 화면 모드로 표시할 수 있습니다. 보기 기능은 유지되며 전체 화면에서 보기를 변경할 수도 있습니다.
 
@@ -292,8 +331,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 22일
->&#x200B;>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 승인 프로세스를 보다 유연하게 진행하기 위해 Planning 요청 양식에 팀을 승인자로 추가하는 기능이 추가되었습니다. 이제 승인자를 설정할 때 팀 이름을 입력하고 선택할 수 있습니다. 팀 구성원 중 누구나 결정을 내릴 수 있으며, 이는 팀 전체에 대한 승인 결정으로 계산됩니다.
 
@@ -306,8 +345,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 17일
->&#x200B;>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 승인과 함께 요청을 제출하여 생성된 레코드에 대한 승인 정보를 캡처하기 위해 다음 필드를 도입합니다.
 
@@ -321,8 +360,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 10일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 
 이제 테이블 보기에 그룹화가 적용되면 테이블에 레코드를 추가하면 레코드를 추가할 그룹화와 관련된 필드가 자동으로 채워집니다.

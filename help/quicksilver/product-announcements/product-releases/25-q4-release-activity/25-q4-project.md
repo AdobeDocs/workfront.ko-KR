@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: 1dc8591dd0da3c3b6030bd643bf80dbe1ee97ea9
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 4분기 릴리스의 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록을 보려면 [2025년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)를 참조하십시오.
+
+## 새 프로젝트 상태 베타
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 9월 11일
+>* 모든 고객을 위한 프로덕션: 2025년 9월 11일
+
+새로운 프로젝트 상태 기능은 AI Assistant의 기능을 활용하여 프로젝트의 수행 방식과 주의가 필요한 영역에 대한 평가를 즉시 제공합니다.
+
+AI Assistant는 프로젝트, 프로그램 및 여러 프로젝트에 대한 프로젝트 상태 평가를 생성할 수 있습니다.
+
+자세한 내용은 [프로젝트 상태 개요](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)를 참조하세요.
+
+이 기능은 현재 베타 버전입니다.
 
 <!--
 ## Create project intake forms in Workfront

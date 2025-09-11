@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
 workflow-type: tm+mt
-source-wordcount: '7542'
+source-wordcount: '7673'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ ht-degree: 0%
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
 ## 관리자 및 설정
+
+### 설정 영역에서 타임시트 프로필을 추가하거나 편집할 때 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 9월 11일, 프로덕션 릴리스: 2025년 9월 18일**
+
+시스템 전체 타임시트 프로필을 편집하거나 추가할 때 타임시트 프로필 페이지의 디자인을 업데이트했습니다.
+
+이러한 변경 사항을 보려면 설정 > 타임시트 및 시간 > 타임시트 프로필로 이동하여 새 프로필을 추가하거나 기존 프로필을 편집하십시오.
+
+자세한 내용은 [타임시트 프로필 만들기, 편집 및 할당](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)을 참조하세요.
 
 ### 새 스코어카드 및 스코어카드 복사 상자에 대한 인터페이스 업데이트
 
@@ -153,6 +163,14 @@ Portfolio 편집 상자에서 포트폴리오를 편집할 때 인터페이스 �
 자세한 내용은 [포트폴리오 편집](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)을 참조하세요.
 
 ## 프로젝트
+
+### 마일스톤 보기를 적용할 때 프로젝트 목록 또는 보고서의 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 9월 11일, 프로덕션 릴리스: 2025년 9월 18일**
+
+마일스톤 보기를 적용할 때 프로젝트 목록 또는 보고서의 디자인을 업데이트했습니다.
+
+이제 프로젝트 목록 또는 보고서가 Workfront의 다른 영역 디자인과 일치합니다. 자세한 내용은 [마일스톤 보기 사용](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)을 참조하세요.
 
 ### 템플릿 없이 작업을 프로젝트로 전환 의 인터페이스 변경 사항
 
@@ -357,6 +375,18 @@ Workfront의 다른 영역 디자인에 맞게 템플릿에 대한 전임 작업
 * [라우팅 규칙을 만듭니다](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 ## 사용자
+
+<!--
+### Interface updates for the New User dialog
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+
+To view this change, go to Users > New User > New User.
+
+For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+-->
 
 ### 사용자 가져오기 대화 상자에 대한 인터페이스 업데이트
 

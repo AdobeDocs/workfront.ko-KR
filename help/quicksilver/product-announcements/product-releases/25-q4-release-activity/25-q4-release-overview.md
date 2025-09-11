@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2077'
 ht-degree: 4%
 
 ---
@@ -58,6 +58,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">새 게시판 관리자 보기</a><p></p>
+            <p>보드 관리 보기에는 시스템 관리자가 마지막으로 업데이트된 시간, 각 보드에 있는 카드 수 등을 포함하여 전체 보드 세부 사항에 대한 빠른 스냅샷을 얻는 데 사용할 수 있는 계정의 모든 보드 목록이 포함되어 있습니다.</p>
+        </td>
+        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 10월 15일 목요일</td>
+        <td>2025년 10월 16일 금요일</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">조직에 AI Beta 기능 사용</a><p></p>
@@ -219,6 +228,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
     </tr> -->
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">새 프로젝트 상태 베타</a>
+            <p>새로운 프로젝트 상태 기능은 AI Assistant의 기능을 활용하여 프로젝트의 수행 방식과 주의가 필요한 영역에 대한 평가를 즉시 제공합니다.</p>
+            <p>AI Assistant는 프로젝트, 프로그램 및 여러 프로젝트에 대한 프로젝트 상태 평가를 생성할 수 있습니다.</p>
+        </td>
+        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 9월 11일 금요일</td>
+    </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Planning의 공식 필드 및 Workfront의 계산된 사용자 정의 필드에 새 표현식이 추가됨</a><p><p>[!BADGE 해제 일정]{type=Neutral}</p></p>
@@ -421,7 +440,7 @@ Desktop Proofing Viewer가 버전 2.1.52로 업데이트되어 버그 수정 사
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ### API 버전 20
 
@@ -433,8 +452,8 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
