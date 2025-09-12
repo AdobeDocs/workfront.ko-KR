@@ -5,10 +5,10 @@ title: 보드 관리 보기 관리
 description: 보드 관리 보기에는 시스템 관리자가 전체 보드 세부 사항에 대한 빠른 스냅샷을 얻는 데 사용할 수 있는 계정의 모든 보드 목록이 포함되어 있습니다.
 author: Jenny
 feature: Agile
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 0%
+source-wordcount: '618'
+ht-degree: 1%
 
 ---
 
@@ -38,8 +38,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>기여자 이상 </p>
-        <p> 요청 이상 </p></td> 
+   <td> <p>표준</p>
+        <p> 플랜 </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>시스템 관리자 </p>
+        </td> 
   </tr> 
  </tbody> 
 </table>
