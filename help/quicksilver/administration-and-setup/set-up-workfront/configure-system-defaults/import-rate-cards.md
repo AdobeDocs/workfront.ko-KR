@@ -4,7 +4,7 @@ description: 템플릿 파일을 사용하여 Excel에서 요금 카드를 작�
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: b989a542602d6b7fd95b34f8b53d3f317e3f7644
+source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 0%
@@ -98,7 +98,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >* 최소한 각 요금 카드의 이름을 입력해야 합니다.
-   >* 각 비율 카드에는 행 위치에 따라 시퀀스 번호가 자동으로 지정됩니다. 예를 들어 정의하는 첫 번째 비율 카드(2행)는 시퀀스 1이고, 그 다음은 2입니다. 이러한 순번은 RATE_RTCRD 탭에서 비율을 첨부하는 데 사용됩니다.
+   >* 각 비율 카드에는 행 위치에 따라 시퀀스 번호가 자동으로 부여됩니다. 예를 들어 정의하는 첫 번째 비율 카드(2행)는 시퀀스 1이고, 그 다음은 2입니다. 이러한 순번은 RATE_RTCRD 탭에서 비율을 첨부하는 데 사용됩니다.
 
 ### RATE_RTCRD(Rates Setup) 탭을 입력합니다.
 
