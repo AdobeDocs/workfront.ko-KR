@@ -3,9 +3,9 @@ title: 작업 영역 간 레코드 유형 개요
 description: 중앙 집중식 레코드 유형은 Adobe Workfront Planning의 중앙 또는 기본 작업 영역에서 여러 작업 영역에 추가할 수 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,13 @@ Adobe Workfront Planning에서는 두 개 이상의 작업 영역에서 레코�
 다음은 레코드 유형의 작업 영역 간 기능입니다.
 
 * 레코드 유형을 중앙 집중식으로 지정할 수 있습니다. 사용자는 자신이 관리할 수 있는 다른 작업 공간에 중앙 집중식 레코드 유형을 추가할 수 있습니다.
+
+  >[!IMPORTANT]
+  >
+  >중앙 집중식 레코드 유형을 사용하려면 Workfront 패키지 외에 Workfront Planning Plus 패키지가 있어야 합니다.
+  >
+  >각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
+
 * 레코드 종류를 연결 가능한 것으로 지정할 수 있습니다. 사용자는 다른 작업 영역에서 이 레코드 유형에 연결할 수 있습니다.
 
 이 문서에서는 작업 영역 간 레코드 유형에 대한 개요를 제공합니다. 레코드 종류의 작업 영역 간 기능을 정의하는 방법에 대한 자세한 내용은 [레코드 종류에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.

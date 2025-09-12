@@ -4,9 +4,9 @@ description: 레코드 유형은 Adobe Workfront Planning의 객체 유형입니
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ recommendations: noDisplay, noCatalog
 <ul><li><p>모든 Workfront 패키지</p></li>
 And
 <li><p>Planning Plus 패키지</p></li></ul>
-또는:
-<ul><li><p>모든 워크플로우 패키지</p> </li>
+<!--Or:
+<ul><li><p>Any Workflow package</p> </li>
 And
-<li><p>Prime 또는 Ultimate 패키지 계획</p></li></ul>
-<p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
    </td>
 
 <tr> 
