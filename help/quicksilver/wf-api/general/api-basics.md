@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
+source-git-commit: 084f19973941b391d3d7e62c4901eee8ec975527
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4396'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Workfront 스키마에 익숙하면 통합 목적으로 Workfront에서 데이�
 
 프로덕션, 미리보기 및 테스트 드라이브 환경의 경우 최종 사용자 요청은 Workfront CDN(Akamai)을 통해 라우팅되므로 최대 URI 길이가 8892바이트입니다. 이 제한은 CDN을 통해 라우팅되는 URI에만 적용됩니다.
 
-### 면책조항
+### 면책 조항
 
 API의 모든 사용은 프로덕션 환경에서 실행하기 전에 Workfront Beta 환경에서 테스트해야 합니다. Workfront이 온디맨드 소프트웨어에 부담을 준다고 합리적으로 생각하는 프로세스에 고객이 API를 사용하는 경우(즉, 프로세스가 다른 고객을 위해 소프트웨어 성능에 심각한 부정적인 영향을 미치는 경우), Workfront은 고객에게 해당 프로세스를 중단하도록 요청할 권리를 보유합니다. 고객이 이를 준수하지 않고 문제가 지속되는 경우 Workfront은 프로세스를 종료할 수 있는 권한을 보유합니다.
 
@@ -68,7 +68,7 @@ Workfront API를 호출하는 데 사용할 URL에 대한 자세한 내용은 [A
 * **PUT** - 기존 개체를 편집합니다.
 * **DELETE** - 개체를 삭제합니다.
 
-클라이언트 결함이나 프로토콜 길이 제한을 해결하기 위해 메서드 매개 변수를 사용하여 HTTP 동작을 재정의할 수 있습니다. 예를 들어, GET 동작은 다음 URI를 게시함으로써 구현될 수 있다:
+클라이언트 결함이나 프로토콜 길이 제한을 해결하기 위해 메서드 매개 변수를 사용하여 HTTP 동작을 재정의할 수 있습니다. 예를 들어, 다음 URI를 게시하여 GET 작업을 구현할 수 있습니다.
 <pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78...54d0?method=get</pre>
 
 ### 응답
@@ -88,7 +88,7 @@ GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 >
 >브라우저의 주소 표시줄을 통해 GET 요청을 실행할 때 sessionID를 요청의 일부로 포함할 필요가 없습니다.
 
-PUT, POST 및 DELETE 요청에 대해 특수 보안이 추가되었습니다. 데이터베이스에 쓰거나 데이터베이스에서 삭제하는 요청은 **sessionID=abc123**&#x200B;이(가) URI에 포함된 경우에만 실행할 수 있습니다. 다음 예제는 DELETE 요청을 검색하는 방법을 보여 줍니다.
+PUT, POST 및 DELETE 요청 주위에 특수 보안이 추가되었습니다. 데이터베이스에 쓰거나 데이터베이스에서 삭제하는 요청은 **sessionID=abc123**&#x200B;이(가) URI에 포함된 경우에만 실행할 수 있습니다. 다음 예제는 DELETE 요청을 검색하는 방법을 보여 줍니다.
 <pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=delete&amp;sessionID=abc123<br>GET /attask/api/v15.0/project/4c78...54d0?method=delete&amp;sessionID=abc123</pre>
 
 ### 인증
@@ -133,9 +133,9 @@ API는 웹 UI에서 시스템에 사용하는 것과 동일한 쿠키 기반 인
 
 >[!NOTE]
 >
->이 섹션에 설명된 절차는 Adobe 비즈니스 플랫폼에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Workfront Business Platform에 온보딩된 경우 Adobe API를 통해 Workfront에 로그인할 수 없습니다.
+>이 섹션에 설명된 절차는 Adobe 비즈니스 플랫폼에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Workfront Business Platform에 온보딩된 경우 Workfront API를 통해 Adobe에 로그인할 수 없습니다.
 >
->조직이 Adobe 비즈니스 플랫폼에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>조직이 Adobe Business Platform에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 유효한 사용자 이름과 암호를 사용하여 다음 요청을 사용하여 세션 ID를 얻을 수 있습니다.
 
@@ -206,7 +206,7 @@ GET /attask/api/v15.0/logout?sessionID=abc1234
 1. URL을 **/attask/api/v15.0/project/search**(으)로 다시 변경합니다.
 1. 제공된 응답에 주목합니다.
 
-PUT, POST 및 DELETE 요청을 수행할 때는 로그인 후 제공된 sessionID를 항상 포함해야 합니다.
+PUT, POST 및 DELETE 요청을 수행할 때 로그인 후 제공된 sessionID를 항상 포함해야 합니다.
 
 ## GET 동작
 
@@ -331,7 +331,7 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 중첩된 객체를 검색할 수 있습니다. 기본적으로 중첩된 개체는 이름과 ID만 사용하여 반환됩니다. 예를 들어 소유자와 함께 모든 문제를 가져오려면 다음 요청을 사용하십시오.
 <pre>/attask/api/v15.0/issue/search?fields=owner</pre>추가 정보가 필요한 경우 콜론 구문을 사용하여 중첩된 필드를 요청할 수 있습니다. 예를 들어 다음 요청은 소유자 이름, ID, 제목 및 전화 번호와 함께 모든 문제를 검색합니다
 <pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>및 는 다음을 반환합니다. 
-<pre>&lbrace;<br>    "name": "중요한 문제",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "소유자": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br></pre>
+<pre>{<br>    "name": "중요한 문제",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "소유자": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br></pre>
 
 #### 중첩된 컬렉션 검색
 
@@ -367,8 +367,8 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 
 하나 이상의 그룹화를 사용하여 일부 필드의 집계만 원하는 보고서 요청을 수행할 수 있습니다. 다음 예에 표시된 대로 보고서 구문은 SOAP API의 구문과 동일합니다.
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>다음 결과를 반환합니다
-<pre>&lbrace;<br>    "첫 번째 프로젝트": { <br>        "sum_hours": 15 <br>    }, <br>     "두 번째 프로젝트": { <br>        "sum_hours": 30 <br>    } <br></pre>$$ROLLUP=true 매개 변수를 추가하면 각 그룹화 수준의 합계가 포함됩니다.
-<pre>&lbrace;<br>    "첫 번째 프로젝트": { <br>        "sum_hours": 15 <br>    }, <br>    "두 번째 프로젝트": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
+<pre>{<br>    "첫 번째 프로젝트": { <br>        "sum_hours": 15 <br>    }, <br>     "두 번째 프로젝트": { <br>        "sum_hours": 30 <br>    } <br></pre>$$ROLLUP=true 매개 변수를 추가하면 각 그룹화 수준의 합계가 포함됩니다.
+<pre>{<br>    "첫 번째 프로젝트": { <br>        "sum_hours": 15 <br>    }, <br>    "두 번째 프로젝트": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
 
 ### API에서 쿼리 결과 정렬
 
@@ -456,7 +456,7 @@ ID가 &quot;abc123&quot;인 사용자와만 공유되도록 프로젝트를 설�
 
 ## POST 동작
 
-POST이 새 개체를 삽입합니다. 구문은 PUT과 동일하지만 몇 가지 예외가 있습니다. 새 개체는 아직 존재하지 않으므로 ID를 가지고 있지 않습니다. 이러한 이유로 URI에는 ID가 포함되지 않습니다.
+POST는 새 개체를 삽입합니다. 이 구문은 PUT과 동일하지만 몇 가지 예외가 있습니다. 새 개체는 아직 존재하지 않으므로 ID를 가지고 있지 않습니다. 이러한 이유로 URI에는 ID가 포함되지 않습니다.
 
 ### 개체 만들기
 
@@ -476,7 +476,7 @@ POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 다음 API URL을 통해 문서를 업로드할 수 있습니다.
 <pre>POST /attask/api/v15.0/upload</pre>API에서는 콘텐츠 유형이 다중 부분/양식 데이터여야 합니다. 파일의 매개 변수 이름은 uploadedFile이어야 합니다. 서버가 다음 JSON 데이터를 반환합니다.
 <pre>{<br>    "handle": "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>Workfront 문서를 만들 때 핸들을 사용하여 다음 URL에 게시할 수 있습니다.
-<pre>POST /attask/api/v15.0/document?updates=&lbrace;<br>    이름: aFileName,<br>    핸들: abc...123, (파일 업로드의 핸들)<br>    docObjCode: PROJ, (또는 TASK, OPTASK 등)<br>    objID: abc...123,<br>    현재 버전:{version:v1.0,fileName:aFileName}<br></pre>
+<pre>POST /attask/api/v15.0/document?updates={<br>    이름: aFileName,<br>    핸들: abc...123, (파일 업로드의 핸들)<br>    docObjCode: PROJ, (또는 TASK, OPTASK 등)<br>    objID: abc...123,<br>    현재 버전:{version:v1.0,fileName:aFileName}<br></pre>
 
 ## PUT 동작
 
@@ -501,10 +501,10 @@ PUT에 대한 응답은 GET과 동일합니다. 두 경우 모두 업데이트 �
 
 >[!NOTE]
 >
->최상위 수준에 대한 업데이트는 스파스(sparse)이지만 컬렉션이나 중첩된 객체에 대한 업데이트는 기존 컬렉션을 완전히 대체합니다. 오브젝트에 영향을 주지 않고 작업에 대한 단일 할당을 편집하려면 작업이 아닌 할당에 대한 PUT을 사용합니다.
+>최상위 수준에 대한 업데이트는 스파스(sparse)이지만 컬렉션이나 중첩된 객체에 대한 업데이트는 기존 컬렉션을 완전히 대체합니다. 오브젝트에 영향을 주지 않고 작업에 대한 단일 할당을 편집하려면 작업이 아닌 할당에 PUT을 사용하십시오.
 
 다음 예제에서는 프로젝트를 공용 헬프 데스크 대기열로 만듭니다. 기존 대기열 속성이 대체됩니다.
-<pre>PUT /attask/api/v15.0/project/4c7...?업데이트= <br>&lbrace; <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?업데이트= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
 
 ### 작업 요청 매개 변수 사용
 
@@ -515,7 +515,7 @@ PUT에 대한 응답은 GET과 동일합니다. 두 경우 모두 업데이트 �
 
 다음은 한 프로젝트에서 다른 프로젝트로 작업을 이동하는 구문을 보여 줍니다.
 <pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>각 작업 유형에 대한 예는 여기에 제공됩니다(??).
-<pre>PUT /attask/api/v15.0/project/1234/approveApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/recallApproval<br><br>PUT /attask/v15.0/project/1234/reject5Approval&rbrace;PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed<br><br></pre>이동 작업만 수행하면 작업 항목을 이동할 프로젝트를 지정하는 추가 속성을 식별할 수 있습니다.
+<pre>PUT /attask/api/v15.0/project/1234/approveApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/recallApproval<br><br>PUT /attask/api/v15.0/project/134/rejectApproval<br><br>PUT}5 /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>이동 작업만 수행하면 작업 항목을 이동할 프로젝트를 지정하는 추가 속성을 식별할 수 있습니다.
 
 다음은 각 작업 유형의 예입니다. 
 <pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
@@ -523,22 +523,22 @@ PUT에 대한 응답은 GET과 동일합니다. 두 경우 모두 업데이트 �
 ### 개체 공유
 
 다음 예제에서는 팀과 프로젝트를 공유하는 구문을 보여 줍니다.
-<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>객체를 편집할 때 다음 예제와 유사한 PUT을 수행하고 업데이트를 전송하여 객체에 대한 모든 액세스 규칙을 바꿀 수 있습니다.
-<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',coreAction:'VIEW'}]}</pre>다음 예제는 한 프로젝트에서 다른 프로젝트로 작업을 이동하는 구문을 보여 줍니다.
+<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>객체를 편집할 때 다음 예와 유사한 업데이트를 전송하여 PUT을 수행하여 객체에 대한 모든 액세스 규칙을 바꿀 수 있습니다.
+<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',coreAction:'VIEW'}]}</pre>다음 예제는 한 프로젝트에서 다른 프로젝트로 작업을 이동하는 구문을 보여 줍니다.
 <pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>
 
 ## DELETE 동작
 
-DELETE은 객체를 제거합니다. 모든 경우에, URI는 서버가 지정된 데이터 및 그 의존자들을 제거하게 하는 매개 변수 force=true를 포함할 수 있다. 다음 예제에서는 URI에서 HTTP DELETE 메서드를 실행하여 작업이 삭제됩니다.
-<pre>DELETE /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0?force=true <br>DELETE /attask/api/v1.v15 0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0?force=true</pre>
+DELETE은 개체를 제거합니다. 모든 경우에, URI는 서버가 지정된 데이터 및 그 의존자들을 제거하게 하는 매개 변수 force=true를 포함할 수 있다. 다음 예제에서는 URI에서 HTTP DELETE 메서드를 실행하여 작업이 삭제됩니다.
+<pre>DELETE /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v15.0/task/4c788210000d6fa8d5e52f07a1d54d0?force=true <br>DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0?force=true</pre>
 
 ## 벌크 업데이트
 
 벌크 업데이트 문은 단일 API 호출 내에서 여러 개체를 동시에 업데이트합니다. 벌크 만들기 API 호출은 다음 예에 표시된 대로 일반 업데이트 호출과 유사하게 빌드됩니다.
-<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>그러면 다음과 유사한 결과가 발생합니다.
-<pre>데이터: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    이름: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    우선 순위: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    상태: "현재"<br>,<br>&lbrace;<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    이름: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    우선 순위: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    상태: "현재"<br>]</pre>다음과 유사한 대량 업데이트를 수행할 수도 있습니다.
-<pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>그러면 다음과 유사한 결과가 발생합니다.
-<pre>데이터: [ &lbrace;<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     이름: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     우선 순위: 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     상태: "현재"<br>,<br>&lbrace;<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    이름: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    우선 순위: 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    상태: "현재"<br>]</pre>모든 작업이 동일한 트랜잭션에서 발생하도록 하려면 일괄 처리 API 호출에 "atomic=true"를 요청 매개 변수로 추가하십시오. 이렇게 하면 작업 중 하나라도 실패하면 모든 작업이 롤백됩니다.
+<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>또는 <pre>푸시 /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>그러면 다음과 유사한 결과가 발생합니다.
+<pre>데이터: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    이름: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    우선 순위: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    상태: "현재"<br>,<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    이름: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    우선 순위: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    상태: "현재"<br>]</pre>다음과 유사한 대량 업데이트를 수행할 수도 있습니다.
+<pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>그러면 다음과 유사한 결과가 발생합니다.
+<pre>데이터: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     이름: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     우선 순위: 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     상태: "현재"<br>,<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    이름: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    우선 순위: 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    상태: "현재"<br>]</pre>모든 작업이 동일한 트랜잭션에서 발생하도록 하려면 일괄 처리 API 호출에 "atomic=true"를 요청 매개 변수로 추가하십시오. 이렇게 하면 작업 중 하나라도 실패하면 모든 작업이 롤백됩니다.
 
 >[!NOTE]
 >
