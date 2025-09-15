@@ -8,16 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
 
 # ID 공급자에서 SAML 2.0 메타데이터 업데이트
 
-{{important-admin-console-onboard}}
+>[!IMPORTANT]
+>
+>이 페이지에 설명된 절차는 Adobe Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다.
+>
+>Adobe Admin Console에 온보딩된 조직의 사용자 특성을 매핑하려면 사용자 특성 매핑 문서에서 [Adobe 통합 경험에서 사용자 특성 매핑](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)을 참조하십시오.
 
 다음 섹션에서는 ID 공급자로 ADFS(Active Directory Federation Services)를 사용할 때 SAML(Security Assertion Markup Language) 2.0 메타데이터를 업데이트하는 방법에 대해 설명합니다.
 
@@ -132,7 +136,7 @@ ADFS(Active Directory Federation Services)를 사용할 때 Workfront과 SAML 2.
       **메타데이터 URL**&#x200B;에 대한 정보에 액세스하려면:
 
       1. 전역 탐색 모음에서 Adobe Workfront 오른쪽 상단 근처에 있는 **설정**&#x200B;을 클릭합니다.
-      1. &#x200B;> **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
+      1. > **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
       1. **설정 편집**&#x200B;을 클릭합니다.
       1. **구성 편집**&#x200B;을 클릭한 다음 **유형** 드롭다운 목록에서 **SAML 2.0**&#x200B;을(를) 선택합니다.
       1. **메타데이터 URL**&#x200B;을(를) 복사합니다. 복사한 값은 다음과 유사해야 합니다.

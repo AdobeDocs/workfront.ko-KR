@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
+source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,11 @@ ht-degree: 0%
 >* 프로덕션 빠른 릴리스: 2025년 9월 11일
 >* 모든 고객을 위한 프로덕션: 2025년 10월 16일
 
-Workfront 및 Workfront Planning에서 요청할 때 더 나은 사용자 경험을 만들기 위해 요청 경험을 업데이트했습니다. 이제 다음 작업을 수행할 수 있습니다.
+Workfront 및 Workfront Planning에서 요청할 때 더 나은 사용자 경험을 만들기 위해 요청 경험을 업데이트했습니다.
+
+새 요청 경험을 사용하려면 요청 영역에서 화면 오른쪽 상단의 새 경험 사용 토글을 활성화하십시오.
+
+새 경험에서 다음을 수행할 수 있습니다.
 
 * 단일 목록에서 Workfront 및 Workfront Planning 요청을 봅니다.
 * 지정한 조건을 기반으로 제출된 요청을 필터링합니다.

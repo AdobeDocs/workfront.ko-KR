@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
-title: SAML 2.0으로 Adobe Workfront 구성
+title: SAML 2.0으로 Adobe Workfront 구성하기
 description: Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Assertion Markup Language) 2.0 솔루션과 통합되도록 Workfront 웹 및 모바일 애플리케이션을 구성할 수 있습니다.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1061'
 ht-degree: 7%
 
 ---
 
-# SAML 2.0으로 Adobe Workfront 구성
+# SAML 2.0으로 Adobe Workfront 구성하기
 
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.** </p>
@@ -23,7 +23,13 @@ ht-degree: 7%
 
 <!-- Audited: 12/2023 -->
 
-{{important-admin-console-onboard}}
+
+
+>[!IMPORTANT]
+>
+>이 페이지에 설명된 절차는 Adobe Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다.
+>
+>Adobe Admin Console에 온보딩된 조직의 사용자 특성을 매핑하려면 사용자 특성 매핑 문서에서 [Adobe 통합 경험에서 사용자 특성 매핑](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)을 참조하십시오.
 
 Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Assertion Markup Language) 2.0 솔루션과 통합되도록 Workfront 웹 및 모바일 애플리케이션을 구성할 수 있습니다.
 
@@ -136,11 +142,11 @@ Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Asserti
       <li> <p>주소</p> </li> 
       <li> <p>주소2</p> </li> 
       <li> <p>시간당 청구</p> </li> 
-      <li> <p>도시</p> </li> 
+      <li> <p>구/군/시</p> </li> 
       <li> <p>회사</p> </li> 
       <li> <p>시간당 비용</p> </li> 
       <li> <p>이메일 주소</p> </li> 
-      <li> <p>확장</p> </li> 
+      <li> <p>확장 기능</p> </li> 
       <li> <p>이름</p> </li> 
       <li> <p>홈 그룹</p> </li> 
       <li> <p>홈 팀</p> </li> 
@@ -152,7 +158,7 @@ Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Asserti
       <li> <p>전화 번호</p> </li> 
       <li> <p>우편번호</p> </li> 
       <li> <p>예약</p> </li> 
-      <li> <p>상태</p> </li> 
+      <li> <p>주/도</p> </li> 
       <li> <p>타임시트 프로필</p> </li> 
       <li> <p>제목</p> </li> 
       </ul>
