@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 3d5dc51c519c7880e7a159fd26420bbd5ec18b6b
+source-git-commit: 5b34ea50fbf4718512a604191202b4ae9521ba86
 workflow-type: tm+mt
-source-wordcount: '13503'
+source-wordcount: '13500'
 ht-degree: 2%
 
 ---
@@ -1804,7 +1804,6 @@ ht-degree: 2%
       * [요약을 사용하여 업무 균형자에서 작업 항목 업데이트](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * 작업 검토 및 승인 {#review-and-approve-work}
    * [작업 검토 및 승인](review-and-approve-work/review-and-approve-work.md)
-   * [Alpha 프로그램 - 문서 승인](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [비유료 사용자에 대한 제한된 문서 및 증명 결정 개요](review-and-approve-work/proof-doc-decision-limits.md)
    * 작업 승인 {#work-approvals}
       * [작업 승인](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1818,14 +1817,15 @@ ht-degree: 2%
       * [승인 요청 위임](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [신규 또는 기존 승인 프로세스를 작업과 연결](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [제출된 승인 회수](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * 자산 및 문서 검토 및 승인 {#document-reviews-and-approvals}
-      * [자산 및 문서 검토 및 승인: 문서 색인](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [자산 및 문서 검토 및 승인을 위해 사용 가능한 기능](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+   * 통합 승인 {#document-reviews-and-approvals}
+      * [통합 문서 승인: 문서 색인](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * [통합 승인을 위해 사용 가능한 기능](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [통합 승인 개요](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [문서 의사 결정 상태 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Workfront AI 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+      * [Adobe 엔터프라이즈 스토리지 관리 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * 자산 및 문서 승인 설정 및 관리 {#manage-asset-review-and-approval}
-         * [자산 및 문서 승인 설정 및 관리: 문서 색인](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+         * [통합 승인 설정 및 관리: 문서 색인](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [AI 검토자 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
          * [문서 검토 또는 승인 요청 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [에셋 또는 문서에 추가 검토자 또는 승인자 추가](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
@@ -1839,6 +1839,7 @@ ht-degree: 2%
          * [AI 검토자 점수 및 피드백 보기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [문서 승인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+         * [Frame.io 뷰어에서 문서 검토 및 승인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
    * 교정 {#proofing}
       * [증명: 문서 색인](review-and-approve-work/proofing/proofing.md)
       * 교정 개요 {#proofing-overview}
@@ -2176,7 +2177,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)

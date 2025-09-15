@@ -6,9 +6,9 @@ description: 새 문서 버전을 업로드하고 Adobe Workfront의 다른 사�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,9 @@ ht-degree: 0%
 
 최신 문서 버전을 삭제하면 이전 버전이 잠긴 상태로 유지됩니다. 이전 버전을 편집해야 하는 경우 수동으로 잠금을 해제해야 합니다.
 
-
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +34,16 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p> 임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>현재: 요청 이상</p>
-   또는
-   <p>새로운 기능: 기여자 이상</p> </td> 
+   <td> <p>요청 이상</p>
+   <p>기여자 이상</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>문서에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -57,7 +53,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -67,26 +63,36 @@ ht-degree: 0%
 >
 >드래그 앤 드롭은 Internet Explorer에서 작동하지 않습니다.
 
-1. 문서가 업로드된 문서 영역으로 이동합니다.
-1. 데스크탑 또는 별도의 브라우저 탭에서 Workfront의 기존 버전 위에 문서의 새 버전을 드래그합니다.
 
-   새 버전을 드래그할 때 Workfront 문서 폴더 위로 마우스를 가져가 열 수 있습니다. 그런 다음 파일을 화면의 위쪽이나 아래쪽으로 끌어 위아래로 스크롤할 수 있습니다.
+문서에 대한 또 다른 검토 및 승인이 필요한 경우 Workfront에서 새 문서 버전을 만들 수 있습니다.
 
-1. **문서** 탭의 기존 파일 위에 새 버전을 놓습니다.
+이전 참여자, 새 참여자 또는 두 가지 모두를 혼합하여 추가할 수 있습니다. 문서 세부 정보 페이지에서 이전 버전 및 참여자에 대한 정보를 볼 수 있습니다.
 
-1. 문서가 업로드되면 문서를 클릭하고 문서 요약 패널을 엽니다.
+새 버전을 추가하려면 다음을 수행하십시오.
 
-1. 문서 요약 창의 **승인** 섹션까지 아래로 스크롤한 다음 **추가**&#x200B;를 클릭합니다.
+1. Workfront의 문서로 이동합니다.
+1. 이전 문서 위에 새 파일을 끌어다 놓습니다. 이렇게 하면 새 버전이 자동으로 만들어집니다.
 
-![문서 요약에 승인자 추가](assets/doc-summary-add-approvers.png)
+1. 문서 업로드가 완료되면 문서를 선택한 다음 **문서 세부 정보**를 클릭합니다.
+   ![문서 세부 정보 페이지 열기](assets/open-doc-details.png)
+
+
+1. 왼쪽 패널에서 **승인**&#x200B;을 클릭한 다음 **추가**&#x200B;를 클릭합니다.
+
+1. 모든 이전 참가자를 추가하려면 **모두 추가**&#x200B;를 클릭하세요. 필요에 따라 새 참여자를 추가하거나 이전 참여자를 제거할 수도 있습니다.
+
+
+1. 기존 승인 템플릿을 추가하려면 템플릿 버튼을 클릭하고 템플릿 이름을 입력하십시오.
+
+   >[!TIP]
+   >
+   >   표준 라이선스가 있는 사용자는 설정 영역에서 재생성 가능한 승인 템플릿을 만들 수 있습니다. 자세한 내용은 [자산 및 문서에 대한 승인 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)를 참조하십시오.
+
 
 1. (선택 사항) 승인 기한을 설정합니다. 사용자와 팀은 지정된 기한 24시간 전에 이메일로 72시간 전에 알림을 받습니다.
 
-1. 이전 버전에서 검토자와 승인자를 빠르게 추가하려면 아래에 나열된 이름 옆에 있는 추가 단추를 클릭합니다.
-   <!--need screenshot when working-->
+1. 모든 검토자와 승인자를 추가했으면 **요청 제출**&#x200B;을 클릭합니다. 참가자에게는 이메일을 통해 알림이 전송됩니다.
 
-1. (선택 사항) 승인자/검토자에서 역할을 변경합니다.
+   ![승인을 위해 새 버전을 제출](assets/add-previous-participants.png)
 
-1. 새 승인자 및 검토자를 추가하려면 **검토자** 또는 **승인자**&#x200B;를 클릭하고 사용자 또는 팀을 입력하십시오.
 
-   ![승인자 및 기한 추가](assets/add-approver-and-deadline.png)

@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 자산 및 문서 검토 및 승인을 위해 사용 가능한 기능
+title: 통합 문서 승인에 사용 가능한 기능
 description: Workfront에서 검토 및 승인을 위해 사용할 수 있는 시스템의 개요입니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-# 자산 및 문서 검토 및 승인을 위해 사용 가능한 기능
+# 통합 문서 승인에 사용 가능한 기능
 
-현재 Workfront에서 에셋 및 문서 검토 및 승인을 위해 사용할 수 있는 시스템은 세 가지입니다.
+현재 Workfront에서 통합 문서 승인을 위해 사용할 수 있는 시스템은 3개입니다.
 
 * [레거시 문서 승인](#legacy-document-approvals)
 
@@ -61,6 +61,8 @@ ht-degree: 0%
 * 여러 단계 승인 만들기 [!BADGE 준비 중]{type=Informative}
 
 * 홈 영역의 내 승인 위젯에서 검토 및 승인 요청에 액세스
+
+* AI 검토자를 사용하여 브랜드 준수 검토를 자동화합니다. 자세한 내용은 [Workfront AI 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)을 참조하세요.
 
 
 ## 증명 승인

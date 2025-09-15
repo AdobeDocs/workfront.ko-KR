@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: "증명: 문서 색인"
+title: '증명: 문서 색인'
 description: 크리에이티브 팀이 작동하는 동일한 문서에서 검토하고 주석을 답니다. Workfront Proofing을 사용하면 댓글 및 버전에 대한 감사 추적을 유지하면서 피드백을 요청하고, 댓글을 확인하고, 보류 및 완료된 승인에 대한 알림을 받을 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: b8b01b0431390d5a8a53dd3e3b56bae980501955
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
-# 증명: 문서 색인
+# 증명 승인: 문서 색인
 
 <!-- Audited: 12/2023 -->
 

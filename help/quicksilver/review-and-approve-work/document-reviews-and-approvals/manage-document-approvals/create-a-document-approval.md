@@ -6,7 +6,7 @@ description: Adobe Workfront에서 문서에 대한 다른 사용자의 승인�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 3fc3b1421882261a58a1984c9df410896d596062
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -59,7 +59,6 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 
 1. 문서 위로 마우스를 가져간 다음 문서 세부 정보 를 클릭합니다.
    ![문서 세부 정보](assets/doc-details.png)
-
 
 1. 문서 이름 근처에서 버전 드롭다운에서 승인을 만들려는 문서 버전을 선택합니다. 기본적으로 최신 버전이 선택됩니다.
 

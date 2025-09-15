@@ -6,7 +6,7 @@ description: 검토자는 검토를 위해 제출한 문서를 미리 볼 수 �
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: da00226448e0969cec57bf9d525686129d53430e
+source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -109,3 +109,6 @@ Add once functionality is added
 
 1. 검토를 완료했음을 기록하려면 **검토 완료**&#x200B;를 클릭하십시오.
 
+<!--## Review a document from the Frame.io viewer
+
+To review a document from the Frame.io viewer, your Workfront instance must be integrated with Frame.io. For more information, see the [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->

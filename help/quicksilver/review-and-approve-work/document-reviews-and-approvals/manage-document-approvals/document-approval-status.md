@@ -6,9 +6,9 @@ description: 문서 결정 상태가 나열되고 설명됨
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '178'
 ht-degree: 5%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 5%
                                 <p>최소 한 명의 승인자가 "변경 사항과 함께 승인됨"을 결정했습니다.</p>
                                 <p>다른 승인자가 "승인됨"에 대한 결정을 내렸을 수 있습니다.
                             </li>
+                            <p>참고: 검토 및 승인을 위해 Frame.io 통합을 사용하는 경우에는 이 옵션을 사용할 수 없습니다.</p>
                         </ul>
                     </td>
                 </tr>
@@ -106,9 +107,9 @@ ht-degree: 5%
                     </td>
                     <td>
                         <ul>
-                            <li>
-                                <p>모든 승인 및 검토가 완료되었습니다.</p>
-                            </li>
+                           <!--<li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>-->
                             <li>
                                 <p>모든 승인자가 "승인됨"에 대한 결정을 내렸을 수 있습니다.
                             </li>

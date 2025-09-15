@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: '자산 및 문서 승인 설정 및 관리: 문서 색인'
-description: 이 섹션에는 Workfront에서의 에셋 및 문서 승인 관리에 대한 문서가 포함되어 있습니다.
+title: '통합 승인 설정 및 관리: 문서 색인'
+description: 이 섹션에는 Workfront에서의 통합 승인 관리에 대한 문서가 포함되어 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 9cdd3f9b46b36728a8825713fe50f3f2fe1ef90b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# 자산 및 문서 승인 설정 및 관리: 문서 색인
+# 통합 승인 설정 및 관리: 문서 색인
 
 이 섹션에는 다음 문서가 포함됩니다.
 
