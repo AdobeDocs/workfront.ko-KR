@@ -7,9 +7,9 @@ description: '시스템에 설치된 파일(예: Photoshop 또는 Illustrator)�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
+source-git-commit: e9fd96e32cabb1a99bb2170261577ec05c35ff6f
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,13 @@ Workfront에는 다음과 같은 제한이 있습니다.
 * PNM - 휴대용 비트맵 유틸리티
 * PPM - 휴대용 비트맵 유틸리티
 * PPT - PowerPoint 프레젠테이션
+* PPTX - PowerPoint 프레젠테이션 2007
 
   >[!NOTE]
   >
-  >현재 PowerPoint 프레젠테이션 파일이 업로드되지 않는 알려진 문제가 있습니다. 이 문제가 발생하는 경우 파일을 PDF으로 변환하고 PDF을 업로드하십시오. 자세한 내용은 [증명: PowerPoint 파일에서 증명을 생성할 수 없음](https://experienceleague.adobe.com/ko/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)을 참조하십시오.
+  >현재 PowerPoint 프레젠테이션 파일이 업로드되지 않는 알려진 문제가 있습니다. 이 문제가 발생하는 경우 파일을 PDF으로 변환하고 PDF을 업로드하십시오. 자세한 내용은 [증명: PowerPoint 파일에서 증명을 생성할 수 없음](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)을 참조하십시오.
 
-
-* PPTX - PowerPoint 프레젠테이션 2007 PS - PostScript 파일
+* PS - PostScript 파일
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - 프토카
@@ -205,8 +205,8 @@ Workfront에는 다음과 같은 제한이 있습니다.
 
 ## 비디오 파일
 
-* &#x200B;-
-* &#x200B;-
+* -
+* -
 * H.263
 * H.264
 * H.265
