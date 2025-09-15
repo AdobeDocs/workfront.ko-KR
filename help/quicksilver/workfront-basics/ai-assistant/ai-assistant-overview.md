@@ -1,18 +1,18 @@
 ---
-title: AI Assistant 개요
+title: Workfront의 AI 지원
 content-type: reference
-description: AI Assistant 개요
+description: Adobe Workfront의 AI Assistant에 대해 알아보기
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '831'
 ht-degree: 1%
 
 ---
 
-# AI Assistant 개요
+# Workfront의 AI 지원
 
 Workfront의 AI 어시스턴트는 자연어 대화에서 인앱 정보와 제안을 제공하여 작업을 완수하도록 도와줍니다. AI Assistant는 다음을 통해 더욱 원활한 작업 경험을 제공할 수 있습니다.
 
