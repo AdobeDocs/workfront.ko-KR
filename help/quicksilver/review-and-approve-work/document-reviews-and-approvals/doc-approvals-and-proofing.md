@@ -6,9 +6,9 @@ description: 증명이 포함된 통합 승인을 사용할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ Workfront의 통합 승인에는 문서를 검토하고 승인하는 데 도움�
 ## 증명 검토 및 결정
 
 지정된 모든 승인자가 &quot;승인됨&quot;을 선택할 때까지 문서가 승인됨 상태로 이동하지 않습니다.
-
-한 승인자가 &quot;작업 필요&quot;를 선택하면 문서의 상태가 즉시 작업 필요 상태로 변경됩니다. 문서를 수정하고 새 승인 워크플로가 있는 새 버전으로 업로드해야 합니다.
 
 문서를 검토하고 승인하려면 다음과 같이 하십시오.
 

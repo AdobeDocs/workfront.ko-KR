@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 701f3fc2c885363b5f61fb9d77049c7d4c41963d
+source-git-commit: c4e1961092883f523d04adaacd58129a0379783d
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 Workfront 및 Frame.io 통합을 통해 프로젝트 코디네이터는 Workfront에서 프로젝트를 관리하고 작업을 계획할 수 있으며 크리에이티브, 마케터 및 이해 당사자는 Frame.io에서 에셋을 검토하고 승인할 수 있습니다.
 
-## Adobe 엔터프라이즈 스토리지 관리를 기반으로 구축
+## Adobe 엔터프라이즈 스토리지 기반
 
-이 통합의 핵심은 Adobe ESM(Enterprise Storage Management)으로, Workfront 및 Frame.io를 포함하여 Adobe 엔터프라이즈 제품 전반에 걸쳐 자산의 중앙 저장소 역할을 하는 클라우드 기반 스토리지 솔루션입니다.
+이러한 통합의 핵심은 Adobe 엔터프라이즈 스토리지 - Workfront, Frame.io 및 Creative Cloud을 포함하여 Adobe 엔터프라이즈 제품 전반에 걸쳐 에셋의 중앙 저장소 역할을 하는 클라우드 기반 스토리지 솔루션입니다.
 
-Adobe 엔터프라이즈 스토리지 관리의 주요 이점은 다음과 같습니다.
+Adobe 엔터프라이즈 스토리지의 주요 이점은 다음과 같습니다.
 
 * 크리에이티브 및 작업 관리 자산을 위한 통합 스토리지 레이어
 * 보안 액세스 제어를 위해 Adobe IMS를 통해 중앙 집중식 권한
 * Workfront, Frame.io 및 Creative Cloud 앱 <!--coming soon?-->에서 전체 에셋 가시성
 * 엔터프라이즈 요구 사항에 맞는 확장 가능한 스토리지 및 할당량 관리
 
-자세한 내용은 [Adobe 엔터프라이즈 스토리지 관리 개요](help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
 ## 통합 검토 및 승인
 
@@ -58,9 +58,13 @@ Workfront 및 Frame.io 통합에서는 Workfront의 통합 승인 기능을 사�
 
 자세한 내용은 [Frame.io 통합 시작](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)을 참조하세요.
 
-#### 비디오 검토 제한 사항
+#### 비디오 검토 제한
 
-<!--need to confirm these-->
+조직의 총 유료 Workfront 사용자 라이선스(표준 및 라이트)의 10%로 설정된 비디오 증명 요청에 대한 연간 상한이 있습니다. 이 상한은 조직 수준에서 적용됩니다.
+
+Workfront 관리자는 사용량이 상한의 80% 및 100%에 도달하면 알림을 받습니다.
+
+이 제한은 Frame.io Enterprise 고객에게는 적용되지 않습니다.
 
 #### Frame.io 뷰어에서 지원되는 파일 형식
 
@@ -70,7 +74,7 @@ Frame.io 뷰어는 모든 일반적인 비디오, 이미지, 오디오, PDF 및 
 
 Frame.io 뷰어는 유료 라이선스가 있는 모든 Workfront 사용자가 사용할 수 있습니다. 이 통합에서 검토 및 승인을 위해 Frame.io 뷰어를 사용하는 데 추가 Frame.io 라이선스가 필요하지 않습니다.
 
-조직에서 Frame.io의 프로젝트에 직접 에셋을 업로드하는 것과 같이 추가 Frame.io 기능을 활용하려는 경우 Frame.io 엔터프라이즈 라이센스를 구입할 수 있습니다. <!--link to Frame.io enterprise license info or who to contacT?-->
+조직에서 Frame.io의 프로젝트에 직접 에셋을 업로드하는 것과 같이 추가 Frame.io 기능을 활용하려는 경우 Frame.io 엔터프라이즈 라이센스를 구입할 수 있습니다. 데모 일정을 예약하고 전체 Frame.io 솔루션의 이점을 살펴보려면 Adobe 계정 담당자에게 문의하십시오.
 
 이 통합에서는 Workfront 증명 기능을 사용할 수 없습니다.
 
@@ -78,7 +82,7 @@ Frame.io 뷰어는 유료 라이선스가 있는 모든 Workfront 사용자가 �
 
 Workfront 및 Frame.io 통합을 통해 프로젝트 코디네이터는 Workfront의 강력한 프로젝트 관리 기능을 활용하여 작업을 계획, 추적 및 관리할 수 있습니다.
 
-Workfront에서 프로젝트를 관리하는 방법에 대한 자세한 내용은 [프로젝트: 문서 색인](/help/quicksilver/manage-work/projects/projects-toc.md)을 참조하세요.
+Workfront에서 프로젝트를 관리하는 방법에 대한 자세한 내용은 [프로젝트: 문서 색인](/help/quicksilver/manage-work/projects/create-projects/create-project.md)을 참조하세요.
 
 ### 적용된 구조 및 이름 지정 규칙
 
@@ -106,21 +110,21 @@ Workfront에서 프로젝트를 관리하는 방법에 대한 자세한 내용�
 
 다음 기능은 이 통합에 포함되지 않습니다.
 
-* 외부 문서 공급자
+<!--* External document providers-->
 * 증명 액세스
 * Workfront의 문서 뷰어
-
-
-#### 임시 제한 사항
-
-현재 다음 기능은 사용할 수 없습니다.
-
 * 즐겨 찾는 문서
 * 요청 문서
-* Adobe Experience Manager Assets에 문서 보내기
-* 다단계 승인
-* Workfront의 댓글 또는 업데이트에 문서 업로드
-* Workfront의 작업 또는 문제에 문서 업로드
+
+
+<!--#### Temporary limitations
+
+For now, the following capabilities are not available:
+
+* Send documents to Adobe Experience Manager Assets
+* Multi-stage approvals
+* Upload documents to comments or updates in Workfront
+* Upload documents to tasks or issues in Workfront-->
 
 
 

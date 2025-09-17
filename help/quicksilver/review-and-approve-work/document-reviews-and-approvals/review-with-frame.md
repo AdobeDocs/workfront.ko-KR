@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Frame.io 뷰어로 Workfront 문서를 검토하면 댓글을 남기거나 문�
 
 검토자는 에셋에 주석을 추가하고 에셋에 표시할 수 있습니다. 완료되면 Workfront에서 검토 완료를 표시할 수 있습니다. 에셋이 승인 프로세스에서 앞으로 이동하기 위해서는 검토를 완료로 표시할 필요가 없습니다.
 
-1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**을 클릭합니다.
 또는
 Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
 
@@ -82,11 +82,9 @@ Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검
 
 지정된 모든 승인자가 &quot;승인됨&quot;을 선택할 때까지 문서가 승인됨 상태로 이동하지 않습니다.
 
-한 승인자가 &quot;작업 필요&quot;를 선택하면 문서의 상태가 즉시 작업 필요 상태로 변경됩니다. 문서를 수정하고 새 승인 워크플로가 있는 새 버전으로 업로드해야 합니다.
-
 문서에 대해 결정을 내리려면
 
-1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**을 클릭합니다.
 또는
 Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
 
