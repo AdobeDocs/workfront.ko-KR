@@ -157,7 +157,7 @@ ht-degree: 1%
       <td> <p>그룹이 프로그램과 연결되어 있거나 프로그램 완료를 위한 권한이 있는 경우 단일 그룹의 이름을 추가합니다. </p> <p>팁:  <p>[!UICONTROL 프로그램 세부 사항] 페이지에서 [!UICONTROL 그룹] 필드에 액세스할 때 다음을 수행합니다. </p> <p>마우스로 가리키고 그 옆에 표시되는 [!UICONTROL 정보] 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>[!UICONTROL 프로그램 편집] 상자에서는 이 옵션을 사용할 수 없습니다. </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL이 활성화됨]</td> 
+      <td role="rowheader">[!UICONTROL 이 활성화됨]</td> 
       <td> <p> 프로그램을 활성화하려면 이 확인란을 선택합니다. 다른 사용자는 활성 프로그램을 찾아 프로젝트에 첨부하거나 포트폴리오에 추가할 수 있습니다. 비활성 프로그램은 프로젝트 또는 포트폴리오에 연결할 수 없습니다. 이 기능은 기본적으로 활성화되어 있습니다.</p> </td> 
      </tr> 
     </tbody> 
