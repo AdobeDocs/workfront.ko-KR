@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 190481ed57485a5c93a0086cda207a270d05ac23
+source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
 workflow-type: tm+mt
-source-wordcount: '13502'
+source-wordcount: '13511'
 ht-degree: 2%
 
 ---
@@ -883,7 +883,7 @@ ht-degree: 2%
          * [내 요청 위젯 사용](workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
    * AI 어시스턴트 {#ai-assistant}
       * [AI 어시스턴트](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
-      * [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
+      * [AI 어시스턴트 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [AI Assistant를 사용하여 요약](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [AI Assistant에서 도움말 받기](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
       * [AI Assistant를 사용하여 계산된 필드 공식 개정](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
@@ -1741,6 +1741,7 @@ ht-degree: 2%
       * [데이터 사전 테스트](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
       * [Workfront Data Connect 쿼리 예제](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Workfront Data Connect 사용 지표 보기](reports-and-dashboards/data-lake/view-usage-metrics.md)
+      * [Data Connect에서 작업 내역 데이터 보기 사용](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
       * 향상된 Analytics 쿼리{#enhanced-analytics-queries}
          * [향상된 Analytics 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [KPI 쿼리](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
@@ -2178,7 +2179,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
