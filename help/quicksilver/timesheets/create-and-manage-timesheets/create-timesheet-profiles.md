@@ -6,9 +6,9 @@ description: 사용자의 추가 개입 없이 사용자에 대해 반복 타임
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1635'
 ht-degree: 2%
 
 ---
@@ -16,16 +16,6 @@ ht-degree: 2%
 # 타임시트 프로필 만들기, 편집 및 할당
 
 <!--Audited: 06/2025-->
-
-<!--at the Prod release, remove the Production and Preview references from this article-->
-
-<div class="preview">
-
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스부터 1주일 후에 모든 고객의 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
-
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
-
-</div>
 
 사용자의 추가 개입 없이 사용자에 대해 반복 타임시트를 생성하는 타임시트 프로필을 만들고, 편집하고, 할당할 수 있습니다. 이렇게 하면 시간이 절약되고 사용자 간에 다음 사항이 일관되도록 할 수 있습니다.
 
@@ -182,9 +172,9 @@ ht-degree: 2%
     </tbody> 
     </table>
 
-1. 프로덕션 환경에서 또는 그룹 수준 타임시트 프로필을 만들 때 **사람 할당** 탭을 클릭하여 타임시트 프로필을 특정 사용자, 그룹 또는 (Workfront 관리자인 경우) 팀과 연결합니다. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+1. 그룹 수준 타임시트 프로필을 만들 때 **사람 할당** 탭을 클릭하여 타임시트 프로필을 특정 사용자, 그룹 또는 (Workfront 관리자인 경우) 팀과 연결합니다. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <span class="preview">미리 보기 환경에서 시스템에 대한 타임시트 프로필을 만들 때 페이지 아래쪽으로 스크롤하여 **사람 할당** 섹션을 찾습니다.</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   시스템에 대한 타임시트 프로필을 만들 때 페이지 아래쪽으로 스크롤하여 **사람 할당** 섹션을 찾습니다. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    사용자, 그룹 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 클릭합니다.
 
