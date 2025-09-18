@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
 
 # 연결된 레코드 유형 개요
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
 개별 레코드 유형을 연결하여 서로 관련되거나 다른 응용 프로그램의 오브젝트와 관련됨을 나타낼 수 있습니다.
 
@@ -75,12 +75,12 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
      예를 들어 &quot;Campaign&quot; 레코드 유형을 &quot;Product&quot; 레코드 유형과 연결하는 경우 이름을 &quot;Linked Product&quot;로 지정한 연결된 레코드 필드(연결 필드)가 캠페인 레코드 유형에 만들어집니다. 제품 레코드 유형에 자동으로 &quot;캠페인&quot;이라는 연결된 레코드 유형이 만들어집니다.
 
-     <!--<div class="preview">
-        
-        For example, the following scenarios exist: 
-        * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
-        * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
-        </div>-->
+     <div class="preview">
+
+     예를 들어 다음과 같은 시나리오가 있습니다.
+      * 연결된 레코드 유형에 해당 필드 만들기 설정을 사용하도록 설정하고 &quot;캠페인&quot; 레코드 유형을 &quot;제품&quot; 레코드 유형과 연결하면 &quot;연결된 제품&quot;으로 지정한 연결된 레코드 필드(연결 필드)가 캠페인 레코드 유형에 만들어집니다. 제품 레코드 유형에 자동으로 &quot;캠페인&quot;이라는 연결된 레코드 유형이 만들어집니다.
+      * 연결된 레코드 종류 설정에서 해당 필드 만들기 설정을 비활성화하고 &quot;캠페인&quot; 레코드 종류를 &quot;제품&quot; 레코드 종류에 연결하면, &quot;연결된 제품&quot;이라고 지정한 연결된 레코드 필드(연결 필드)가 캠페인 레코드 종류에 만들어집니다. 자동으로 &quot;Campaign&quot;으로 이름이 지정된 연결된 레코드 종류는 제품 레코드 종류에 만들어지지 않습니다.
+     </div>
 
      자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
@@ -90,7 +90,7 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
       * Workfront 오브젝트에서 Planning 레코드 필드에 액세스할 수 없습니다.
       * 계획 레코드는 Workfront 오브젝트의 계획 탭에서 볼 수 있습니다. 자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
       * Planning 연결 사용자 정의 필드를 만들어 Workfront 객체의 사용자 정의 양식에 첨부할 수 있습니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
-      * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+      * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
    * **연결된 레코드 또는 개체에서 조회 필드를 추가할 때**: 연결된 레코드 필드를 만들 수 있을 뿐만 아니라 연결된 레코드 또는 개체 형식의 필드에 연결할 수도 있습니다. 이 필드를 조회 필드라고 합니다. 연결하려는 레코드의 정보가 있는 연결된(또는 조회 필드) 필드는 연결하려는 레코드에 표시됩니다.
@@ -132,66 +132,65 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
 한 번에 하나의 레코드를 여러 레코드에 연결할지 또는 한 번에 하나의 레코드를 서로 연결할지 선택할 수 있습니다.
 
-연결된 레코드 필드 <!--and the environment you use to create the connected fields-->에 추가할 수 있는 레코드 수에 따라 레코드 형식을 연결할 때 선택할 수 있는 연결 형식은 다음과 같습니다.
-
-<!--replace the list of 4 connection types at the bottom of this commented-out section with this entire section, whenw e release to preview: 
+연결된 레코드 필드에 추가할 수 있는 레코드 수와 연결된 필드를 만드는 데 사용하는 환경에 따라 레코드 유형을 연결할 때 선택할 수 있는 연결 유형은 다음과 같습니다.
 
 <div class="preview">
 
-* In the Preview environment: 
+* 미리보기 환경에서:
 
-    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
+   * 연결된 레코드 유형에 해당 필드 만들기 설정이 비활성화되어 있으면 다음 중에서 선택할 수 있습니다.
 
-        * [Multi-select](#multi-select-connection-type)
-        * [Single-select](#single-select-connection-type)
+      * [다중 선택](#multi-select-connection-type)
+      * [단일 선택](#single-select-connection-type)
 
 </div>
 
-* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+* <span class="preview">미리 보기 환경에서 연결된 레코드 종류 설정에 대해 해당 필드 만들기 설정이 활성화된 경우</span> 또는 프로덕션 환경에서 다음을 선택할 수 있습니다.
 
-    * [Many to many](#many-to-many-connection-type)
-    * [One to many](#one-to-many-connection-type)
-    * [Many to one](#many-to-one-connection-type)
-    * [One to one](#many-to-one-connection-type) 
+   * [다대다](#many-to-many-connection-type)
+   * [일대다](#one-to-many-connection-type)
+   * [다대일](#many-to-one-connection-type)
+   * [일대일](#many-to-one-connection-type)
 
 <div class="preview">
 
-### Multi-select connection type
+### 다중 선택 연결 유형
 
-![Multi-select connection type](assets/multi-select-connection-picker.png)
+![여러 연결 유형 선택](assets/multi-select-connection-picker.png)
 
-When you create a multi-select connection between record types, you can then select multiple connected records in the connection field from the original record type. 
+레코드 유형 간에 다중 선택 연결을 만들면 원래 레코드 유형의 연결 필드에서 연결된 여러 레코드를 선택할 수 있습니다.
 
-For example, if you create a multi-select connection between campaigns and projects, you can select multiple projects for one campaign. A Campaign connected record type is not created for the Project object type.
+예를 들어 캠페인과 프로젝트 간에 다중 선택 연결을 만드는 경우 하나의 캠페인에 대해 여러 프로젝트를 선택할 수 있습니다. 프로젝트 오브젝트 유형에 대해 Campaign 연결된 레코드 유형이 만들어지지 않습니다.
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following types:
+이 연결 유형을 선택한 후 다음 유형에 저장한 후에는 연결 유형을 변경할 수 없습니다.
 
-    * Single-select
-    * One to many
-    * Many to one
-    * One to one
+    * 단일 선택
+    * 일대다
+    * 다대일
+    * 일대일
 
-### Single-select connection type
+### 단일 선택 연결 유형
 
-![Single select connection type](assets/single-select-connection-picker.png)
+![단일 연결 유형 선택](assets/single-select-connection-picker.png)
 
-When you create a single-select connection between record types, you can then select one record in the connection field from the original record type. 
+레코드 유형 간에 단일 선택 연결을 만들면 원래 레코드 유형의 연결 필드에서 하나의 레코드를 선택할 수 있습니다.
 
-For example, if you create a single-select connection between campaigns and companies, you can select one company for one campaign. A Campaign connected record type is not created for the Company object type.
+예를 들어 캠페인과 회사 간에 단일 선택 연결을 만드는 경우 하나의 캠페인에 대해 하나의 회사를 선택할 수 있습니다. 회사 오브젝트 유형에 대해 캠페인 연결 레코드 유형이 생성되지 않습니다.
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following:
+이 연결 유형을 선택한 후 다음 중 하나에 저장한 후에는 연결 유형을 변경할 수 없습니다.
 
-    * One to many
-    * One to one
+* 일대다
+* 일대일
 
 </div>
 
+
+<!--
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 -->
-
-* [다대다](#many-to-many-connection-type)
-* [일대다](#one-to-many-connection-type)
-* [다대일](#many-to-one-connection-type)
-* [일대일](#many-to-one-connection-type)
 
 ### 다대다 연결 유형
 
