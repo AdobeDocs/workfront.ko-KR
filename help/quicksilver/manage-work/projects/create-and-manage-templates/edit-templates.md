@@ -6,14 +6,16 @@ description: 프로젝트 템플릿을 편집하여 향후 프로젝트의 프�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '5045'
+source-wordcount: '5161'
 ht-degree: 2%
 
 ---
 
 # 프로젝트 템플릿 편집
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -112,7 +114,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [댓글](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
-
 ### 템플릿 이름{#template-name}
 
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
@@ -134,33 +135,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 다음 필드를 업데이트합니다.
 
    <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>설명</strong></td> 
-         <td>템플릿에 대한 추가 정보를 추가합니다.</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>우선순위</strong></td> 
-         <td><p>이는 향후 프로젝트에 우선 순위를 지정할 수 있도록 해 주는 시각적 플래그일 뿐입니다. 다음 옵션 중에서 선택합니다.</p> 
-         <ul> 
-         <li><p><strong>없음</strong></p></li> 
-         <li><p><strong>낮음</strong></p></li> 
-         <li><p><strong>일반</strong></p></li> 
-         <li><p><strong>높음</strong></p></li> 
-         <li><p><strong>긴급</strong></p></li> 
-         </ul><p><p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a>을 참조하십시오.</p></p></td> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td role="rowheader"><strong>설명</strong></td> 
+      <td>템플릿에 대한 추가 정보를 추가합니다.</td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>우선순위</strong></td> 
+      <td><p>이는 향후 프로젝트에 우선 순위를 지정할 수 있도록 해 주는 시각적 플래그일 뿐입니다. 다음 옵션 중에서 선택합니다.</p> 
+      <ul> 
+      <li><p><strong>없음</strong></p></li> 
+      <li><p><strong>낮음</strong></p></li> 
+      <li><p><strong>일반</strong></p></li> 
+      <li><p><strong>높음</strong></p></li> 
+      <li><p><strong>긴급</strong></p></li> 
+      </ul><p><p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a>을 참조하십시오.</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
          <td>이 템플릿에 대한 정보와 관련된 웹 링크를 지정합니다.</td> 
        </tr>
-<tr> 
+   <tr> 
       <td role="rowheader"><strong>활성화됨</strong></td> 
       <td><p>템플릿을 활성화하려면 이 옵션을 설정합니다. 다른 사용자는 프로젝트를 만들 때 이 템플릿을 찾아 프로젝트에 첨부할 수 있습니다. 더 이상 사용되지 않는 템플릿을 비활성화하려면 옵션을 끕니다. 비활성화된 템플릿은 프로젝트에 첨부할 수 없습니다. 이 기능은 기본적으로 활성화되어 있습니다. </p><p><b>팁</b></p>
 
-<p>이 문서의 "템플릿 활성화 또는 비활성화" 섹션에 설명된 대로 템플릿 헤더에서 템플릿을 비활성화할 수 있습니다.</p></td> 
+   <p>이 문서의 "템플릿 활성화 또는 비활성화" 섹션에 설명된 대로 템플릿 헤더에서 템플릿을 비활성화할 수 있습니다.</p></td> 
      </tr>
 
 <tr> 
@@ -251,33 +252,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        <td><p>이 템플릿에서 생성된 프로젝트에 대한 예산을 지정합니다.</p></td> 
        </tr>  
        <tr> 
-         <td role="rowheader"><strong>성과 지수 방법</strong></td> 
-         <td><p>Workfront에서 향후 프로젝트의 획득가치 지표를 계산하는 방법을 선택합니다. 다음 중에서 선택하십시오.
-         <ul>
-         <li>시간 기반</li>
-         <li>비용 기반</li>
-         </ul>
+       <td role="rowheader"><strong>성과 지수 방법</strong></td> 
+       <td><p>Workfront에서 향후 프로젝트의 획득가치 지표를 계산하는 방법을 선택합니다. 다음 중에서 선택하십시오.
+       <ul>
+       <li>시간 기반</li>
+       <li>비용 기반</li>
+       </ul>
 
-   성능 인덱스 메서드에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">PIM(성능 인덱스 메서드) 설정</a>을 참조하십시오. </p></td>
-   </tr> 
-         <tr> 
-         <td role="rowheader"><strong>계획된 이익</strong></td> 
-         <td><p>이 템플릿에서 만든 프로젝트의 계획된 이점을 지정하십시오. 계획된 혜택은 프로젝트 및 Portfolio Optimizer의 비즈니스 사례에 사용됩니다. </p><p>프로젝트의 계획된 편익에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">프로젝트 계획된 편익 개요</a>를 참조하십시오. 프로젝트의 순 가치 계산 시 프로젝트의 계획된 이익이 고려됩니다. </p><p>Portfolio Optimizer 사용에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Portfolio Optimizer에서 프로젝트 관리</a>를 참조하세요. </p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>고정 비용</strong></td> 
-         <td><p>이 템플릿에서 만드는 프로젝트의 고정 비용을 지정합니다. 이는 프로젝트의 시간에 따라 발생하는 인건비와 프로젝트의 경비 금액에 따라 발생하는 경비가 다릅니다. 프로젝트의 고정 비용은 프로젝트의 순 가치를 계산할 때 고려되며 예산 비용의 일부입니다.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>고정 수입</strong></td> 
-       <td><p>이 템플릿에서 만드는 프로젝트의 고정 수익을 지정합니다.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>이 프로젝트를 승인할 시간 필요</strong></td> 
-       <td><p>이 템플릿에서 만든 향후 프로젝트의 프로젝트 소유자가 프로젝트에 로그온한 시간을 승인하도록 하려면 이 옵션을 선택하십시오. 청구 기록을 사용하고 이 옵션을 선택하는 경우 프로젝트의 승인된 시간만 청구 기록의 사용 가능한 청구 가능 시간으로 표시됩니다. 프로젝트 시간 승인은 타임시트 승인과 독립적입니다. 프로젝트 승인 시간 요구에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">프로젝트 승인 시간 필요</a>를 참조하십시오.</p></td> 
-       </tr> 
-       </tbody> 
-      </table>
+       성능 인덱스 메서드에 대한 자세한 내용은 &lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=&quot;MCXref xref&quot;>성능 인덱스 메서드(PIM) 설정&lt;/a>을 참조하십시오. &lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>계획된 이익&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>이 템플릿에서 만든 프로젝트의 계획된 혜택을 지정합니다. 계획된 혜택은 프로젝트 및 Portfolio Optimizer의 비즈니스 사례에 사용됩니다. &lt;/p>&lt;p>프로젝트의 계획된 편익에 대한 자세한 내용은 &lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=&quot;MCXref xref&quot;>프로젝트 계획 편익 개요&lt;/a>를 참조하십시오. 프로젝트의 순 가치 계산 시 프로젝트의 계획된 이익이 고려됩니다. &lt;/p>&lt;p>Portfolio Optimizer 사용에 대한 자세한 내용은 &lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=&quot;MCXref xref&quot;>Portfolio Optimizer에서 프로젝트 관리&lt;/a> &lt;/p>&lt;/td>
+를 참조하십시오.       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>고정 비용&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>이 템플릿에서 만든 프로젝트의 고정 비용을 지정합니다. 이는 프로젝트의 시간에 따라 발생하는 인건비와 프로젝트의 경비 금액에 따라 발생하는 경비가 다릅니다. 프로젝트의 고정 비용은 프로젝트의 순 가치를 계산할 때 고려되며 예산 비용의 일부입니다.&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>고정 수입&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>이 템플릿에서 만든 프로젝트의 고정 수익을 지정합니다.&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>이 프로젝트에 대한 승인 시간 필요&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>이 템플릿에서 만든 향후 프로젝트의 프로젝트 소유자가 프로젝트에 로그온한 시간을 승인하도록 하려면 이 옵션을 선택하십시오. 청구 기록을 사용하고 이 옵션을 선택하는 경우 프로젝트의 승인된 시간만 청구 기록의 사용 가능한 청구 가능 시간으로 표시됩니다. 프로젝트 시간 승인은 타임시트 승인과 독립적입니다. 프로젝트 승인 시간 요구에 대한 자세한 내용은 &lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=&quot;MCXref xref&quot;>프로젝트 승인 시간 필요&lt;/a>를 참조하십시오.&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;/tbody>
+   </table>
 
 1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
 
@@ -330,12 +331,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        <td> <p>템플릿에 대한 마일스톤 경로를 선택합니다. 활성 마일스톤 경로만 목록에 표시됩니다.<br>마일스톤 경로에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">마일스톤 경로 만들기</a>를 참조하세요.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>완료 모드</strong> </td> 
-         <td> <p>향후 프로젝트가 완료로 표시되는 방식을 제어합니다. <br>다음 옵션 중에서 선택합니다.</p> 
-         <ul> 
-         <li> <p><strong>자동</strong>: 모든 작업 및 문제가 완료되면 프로젝트가 완료됨으로 표시됩니다.</p> </li> 
-         <li> <p><strong>수동</strong>: 모든 작업 및 문제가 완료되면 프로젝트의 완료 상태를 수동으로 선택해야 합니다. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>완료 모드</strong> </td> 
+       <td> <p>향후 프로젝트가 완료로 표시되는 방식을 제어합니다. <br>다음 옵션 중에서 선택합니다.</p> 
+       <ul> 
+       <li> <p><strong>자동</strong>: 모든 작업 및 문제가 완료되면 프로젝트가 완료됨으로 표시됩니다.</p> </li> 
+       <li> <p><strong>수동</strong>: 모든 작업 및 문제가 완료되면 프로젝트의 완료 상태를 수동으로 선택해야 합니다. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>요약 완료 모드</strong> </td> 
@@ -346,72 +347,72 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>업데이트 형식</strong> </td> 
-         <td> <p>향후 프로젝트의 타임라인에 대한 변경 사항이 프로젝트에 저장되는 시점을 제어합니다. </p> 
-         <b>예 </b> 
-         <p>프로젝트에 대한 다음 변경 사항은 프로젝트의 타임라인에 대한 업데이트를 트리거합니다.</p> 
-         <ul> 
-         <li> <p>작업 날짜 업데이트</p> </li> 
-         <li> <p>전임 작업 관계 변경<br></p> </li> 
-         <li> <p>상위-하위 관계 변경</p> </li> 
-         <li> <p>작업 제한 또는 기간 유형을 변경하는 것 외에 할당을 추가하거나 제거합니다.</p> </li> 
-         </ul> 
-         </div> <p>다음 옵션 중에서 선택합니다.<br></p> 
-         <ul> 
-         <li> <p><strong>자동 및 변경 시</strong>(기본 설정): 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경(변경 시)이 발생할 때마다 향후 프로젝트 타임라인이 업데이트됩니다. 프로젝트 타임라인은 매일 밤 자동 업데이트됩니다.<br>이 설정은 프로젝트 타임라인이 항상 최신 상태이므로 이 필드에 권장되는 설정입니다.<br>타임라인 재계산을 트리거하는 작업 또는 프로젝트에 작업을 수행하면 사용 가능한 모든 날짜가 즉시 표시되어 작업을 계속할 수 있습니다. 작업이 100개를 초과하는 프로젝트의 경우 더 긴 재계산이 필요한 날짜가 물음표로 짧게 표시됩니다(1초에서 5초 사이 또는 큰 프로젝트의 경우 최대 1분). 이는 재계산이 아직 완료되지 않았으며, 날짜가 변경될 수 있음을 나타냅니다.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>변경 전용</strong>: 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경 사항이 발생할 때마다 프로젝트 타임라인이 업데이트됩니다. 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경 사항이 거의 발생하지 않는 경우 이 옵션을 선택할 수 있습니다.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>자동만</strong>: 프로젝트 타임라인은 매일 밤 업데이트되며 변경 후 바로 업데이트되지 않습니다.<br>프로젝트 또는 타임라인이 종속되어 있는 다른 프로젝트에서 매일 많은 변경 내용이 발생하는 경우 이 옵션을 선택할 수 있습니다. 그러나 프로젝트가 변경과 동시에 업데이트되지 않으므로 이 설정을 선택했다는 점에 유의하십시오.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>수동 전용</strong>: <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">프로젝트 타임라인 다시 계산</a>에 설명된 대로 타임라인을 다시 계산하는 옵션을 선택하는 경우에만 프로젝트 타임라인이 업데이트됩니다.<br></p> </li> 
-         </ul> <p>한 번에 프로젝트를 여러 번 변경하고, 각 개별 변경 내용이 아닌 모든 변경 내용이 적용된 후에 타임라인 재계산을 수행하려는 경우 이 옵션을 선택할 수 있습니다.</p> </td> 
+       <td role="rowheader"><strong>업데이트 형식</strong> </td> 
+       <td> <p>향후 프로젝트의 타임라인에 대한 변경 사항이 프로젝트에 저장되는 시점을 제어합니다. </p> 
+       <b>예 </b> 
+       <p>프로젝트에 대한 다음 변경 사항은 프로젝트의 타임라인에 대한 업데이트를 트리거합니다.</p> 
+       <ul> 
+       <li> <p>작업 날짜 업데이트</p> </li> 
+       <li> <p>전임 작업 관계 변경<br></p> </li> 
+       <li> <p>상위-하위 관계 변경</p> </li> 
+       <li> <p>작업 제한 또는 기간 유형을 변경하는 것 외에 할당을 추가하거나 제거합니다.</p> </li> 
+       </ul> 
+       </div> <p>다음 옵션 중에서 선택합니다.<br></p> 
+       <ul> 
+       <li> <p><strong>자동 및 변경 시</strong>(기본 설정): 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경(변경 시)이 발생할 때마다 향후 프로젝트 타임라인이 업데이트됩니다. 프로젝트 타임라인은 매일 밤 자동 업데이트됩니다.<br>이 설정은 프로젝트 타임라인이 항상 최신 상태이므로 이 필드에 권장되는 설정입니다.<br>타임라인 재계산을 트리거하는 작업 또는 프로젝트에 작업을 수행하면 사용 가능한 모든 날짜가 즉시 표시되어 작업을 계속할 수 있습니다. 작업이 100개를 초과하는 프로젝트의 경우 더 긴 재계산이 필요한 날짜가 물음표로 짧게 표시됩니다(1초에서 5초 사이 또는 큰 프로젝트의 경우 최대 1분). 이는 재계산이 아직 완료되지 않았으며, 날짜가 변경될 수 있음을 나타냅니다.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>변경 전용</strong>: 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경 사항이 발생할 때마다 프로젝트 타임라인이 업데이트됩니다. 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경 사항이 거의 발생하지 않는 경우 이 옵션을 선택할 수 있습니다.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>자동만</strong>: 프로젝트 타임라인은 매일 밤 업데이트되며 변경 후 바로 업데이트되지 않습니다.<br>프로젝트 또는 타임라인이 종속되어 있는 다른 프로젝트에서 매일 많은 변경 내용이 발생하는 경우 이 옵션을 선택할 수 있습니다. 그러나 프로젝트가 변경과 동시에 업데이트되지 않으므로 이 설정을 선택했다는 점에 유의하십시오.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>수동 전용</strong>: <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">프로젝트 타임라인 다시 계산</a>에 설명된 대로 타임라인을 다시 계산하는 옵션을 선택하는 경우에만 프로젝트 타임라인이 업데이트됩니다.<br></p> </li> 
+       </ul> <p>한 번에 프로젝트를 여러 번 변경하고, 각 개별 변경 내용이 아닌 모든 변경 내용이 적용된 후에 타임라인 재계산을 수행하려는 경우 이 옵션을 선택할 수 있습니다.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>예약</strong> </td> 
-         <td> <p>템플릿에 대한 일정을 선택합니다. 이 일정이 이 템플릿에서 만드는 프로젝트의 일정이 됩니다. 프로젝트에서 작업 중인 대부분의 사람에게 할당된 일정과 동일해야 합니다. 일정을 템플릿에 할당하려면 먼저 일정을 만들어야 합니다.<br>일정 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">일정 만들기</a>를 참조하세요. <br>시스템에서 사용자 지정 일정을 만들지 않은 경우 [기본 일정]이 선택됩니다. </p> </td> 
+       <td role="rowheader"><strong>예약</strong> </td> 
+       <td> <p>템플릿에 대한 일정을 선택합니다. 이 일정이 이 템플릿에서 만드는 프로젝트의 일정이 됩니다. 프로젝트에서 작업 중인 대부분의 사람에게 할당된 일정과 동일해야 합니다. 일정을 템플릿에 할당하려면 먼저 일정을 만들어야 합니다.<br>일정 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">일정 만들기</a>를 참조하세요. <br>시스템에서 사용자 지정 일정을 만들지 않은 경우 [기본 일정]이 선택됩니다. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>사용자 휴무</strong> </td> 
-         <td> <p>작업의 기본 피할당자의 휴무 시간이 작업 계획 날짜를 조정하는지 여부를 결정합니다. 기존 프로젝트에 템플릿을 첨부할 때 템플릿에 프로젝트와 다른 이 필드 설정이 있는 경우 프로젝트의 설정이 변경되지 않습니다. 새 템플릿에 대한 이 설정의 기본 옵션은 시스템 수준 프로젝트 환경 설정과 동일합니다. </p> <p>시스템 수준의 프로젝트 환경 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오. </p> <p>이 설정이 프로젝트의 작업 날짜에 미치는 영향에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">프로젝트 편집</a>을 참조하세요.<br>다음 옵션 중에서 선택합니다.<br></p> 
-         <ul> 
-         <li> <p><strong>작업 기간에서 사용자 휴무를 고려하십시오</strong>: 이 옵션을 선택할 때 작업 기간 동안 휴무가 발생할 경우 이 템플릿에서 만든 프로젝트의 작업의 계획된 날짜가 작업의 기본 피할당자의 휴무에 따라 조정됩니다. </p> </li> 
-         <li> <p><strong>작업 기간에서 사용자 휴무 무시</strong>: 이 옵션을 선택하면 작업의 기본 피할당자가 작업 기간 동안 휴무하더라도 이 템플릿에서 만든 프로젝트의 작업의 계획된 날짜가 원래 계획대로 유지됩니다. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>사용자 휴무</strong> </td> 
+       <td> <p>작업의 기본 피할당자의 휴무 시간이 작업 계획 날짜를 조정하는지 여부를 결정합니다. 기존 프로젝트에 템플릿을 첨부할 때 템플릿에 프로젝트와 다른 이 필드 설정이 있는 경우 프로젝트의 설정이 변경되지 않습니다. 새 템플릿에 대한 이 설정의 기본 옵션은 시스템 수준 프로젝트 환경 설정과 동일합니다. </p> <p>시스템 수준의 프로젝트 환경 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오. </p> <p>이 설정이 프로젝트의 작업 날짜에 미치는 영향에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">프로젝트 편집</a>을 참조하세요.<br>다음 옵션 중에서 선택합니다.<br></p> 
+       <ul> 
+       <li> <p><strong>작업 기간에서 사용자 휴무를 고려하십시오</strong>: 이 옵션을 선택할 때 작업 기간 동안 휴무가 발생할 경우 이 템플릿에서 만든 프로젝트의 작업의 계획된 날짜가 작업의 기본 피할당자의 휴무에 따라 조정됩니다. </p> </li> 
+       <li> <p><strong>작업 기간에서 사용자 휴무 무시</strong>: 이 옵션을 선택하면 작업의 기본 피할당자가 작업 기간 동안 휴무하더라도 이 템플릿에서 만든 프로젝트의 작업의 계획된 날짜가 원래 계획대로 유지됩니다. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>리소스 레벨링 모드</strong> </td> 
-         <td> <p>다음 옵션 중에서 선택합니다.<br></p> 
-         <ul> 
-         <li> <p><strong>수동</strong>: 이 템플릿으로 만든 프로젝트에서 리소스를 수동으로 레벨링해야 합니다(기본 설정임).</p> </li> 
-         <li> <p><strong>자동:</strong> Workfront은 향후 프로젝트에서 리소스를 레벨링합니다. <br>리소스 레벨링에 대한 자세한 내용은 간트 차트 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">에서 </a>리소스 레벨링을 참조하십시오. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>리소스 레벨링 모드</strong> </td> 
+       <td> <p>다음 옵션 중에서 선택합니다.<br></p> 
+       <ul> 
+       <li> <p><strong>수동</strong>: 이 템플릿으로 만든 프로젝트에서 리소스를 수동으로 레벨링해야 합니다(기본 설정임).</p> </li> 
+       <li> <p><strong>자동:</strong> Workfront은 향후 프로젝트에서 리소스를 레벨링합니다. <br>리소스 레벨링에 대한 자세한 내용은 간트 차트 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">에서 </a>리소스 레벨링을 참조하십시오. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>위험</strong> </td> 
-         <td> <p>이 템플릿으로 만든 프로젝트의 위험 수준을 정의합니다. 위험은 프로젝트가 얼마나 위험할 수 있는지를 나타내는 지표일 뿐이다. 위험 수준에 따라 프로젝트 실행의 우선 순위를 지정할 수 있습니다.<br>다음 위험 수준 중에서 선택하는 것이 좋습니다.<br></p> 
-         <ul> 
-         <li> <p><strong>매우 낮음</strong> </p> </li> 
-         <li> <p><strong>낮음</strong> </p> </li> 
-         <li> <p><strong>Medium</strong> </p> </li> 
-         <li> <p><strong>높음</strong> </p> </li> 
-         <li> <p><strong>매우 높음</strong> </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>위험</strong> </td> 
+       <td> <p>이 템플릿으로 만든 프로젝트의 위험 수준을 정의합니다. 위험은 프로젝트가 얼마나 위험할 수 있는지를 나타내는 지표일 뿐이다. 위험 수준에 따라 프로젝트 실행의 우선 순위를 지정할 수 있습니다.<br>다음 위험 수준 중에서 선택하는 것이 좋습니다.<br></p> 
+       <ul> 
+       <li> <p><strong>매우 낮음</strong> </p> </li> 
+       <li> <p><strong>낮음</strong> </p> </li> 
+       <li> <p><strong>Medium</strong> </p> </li> 
+       <li> <p><strong>높음</strong> </p> </li> 
+       <li> <p><strong>매우 높음</strong> </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>리소스 풀</strong> </td> 
-         <td> <p>템플릿과 연결된 리소스 풀을 지정합니다. 리소스 풀은 프로젝트 완료에 동시에 필요한 사용자 컬렉션입니다. 리소스 풀에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 리소스 풀 개요 </a>을(를) 참조하십시오.</p> <p> <p><b>메모</b>
+       <td role="rowheader"><strong>리소스 풀</strong> </td> 
+       <td> <p>템플릿과 연결된 리소스 풀을 지정합니다. 리소스 풀은 프로젝트 완료에 동시에 필요한 사용자 컬렉션입니다. 리소스 풀에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 리소스 풀 개요 </a>을(를) 참조하십시오.</p> <p> <p><b>메모</b>
 
-   템플릿을 일괄 편집할 때 선택한 모든 템플릿에 공통되는 리소스 풀만 이 필드에 나타납니다. 선택한 템플릿에 공유 리소스 풀이 없는 경우 이 필드는 비어 있습니다. 여기에서 지정한 리소스 풀은 템플릿의 개별 리소스 풀을 덮어씁니다.</p> </p> </td>
-   </tr>
-
+       템플릿을 일괄적으로 편집하면 선택한 모든 템플릿에 공통되는 리소스 풀만 이 필드에 나타납니다. 선택한 템플릿에 공유 리소스 풀이 없는 경우 이 필드는 비어 있습니다. 여기에서 지정한 리소스 풀은 템플릿의 개별 리소스 풀을 덮어씁니다.&lt;/p> &lt;/p> &lt;/td>
+       &lt;/tr>
+   
    <tr> 
       <td role="rowheader"><strong>이 프로젝트를 승인할 시간 필요</strong></td>
 
-<td><p>이 템플릿에서 만든 프로젝트의 미래 프로젝트 소유자가 프로젝트에 로그온한 시간을 승인하도록 하려면 이 옵션을 선택하십시오.</p> 
+   <td><p>이 템플릿에서 만든 프로젝트의 미래 프로젝트 소유자가 프로젝트에 로그온한 시간을 승인하도록 하려면 이 옵션을 선택하십시오.</p> 
    <p>청구 기록을 사용하고 이 옵션을 선택하는 경우 프로젝트의 승인된 시간만 청구 기록의 사용 가능한 청구 가능 시간으로 표시됩니다. </p>
    <p>프로젝트 시간 승인은 타임시트 승인과 독립적입니다. 프로젝트 승인 시간 요구에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">프로젝트 승인 시간 필요</a>를 참조하십시오.</p>
    </td> 
@@ -431,8 +432,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <li>활성 승인 프로세스만 목록에 표시됩니다. </li> 
    <li> <p>시스템 전체 및 그룹별 승인 프로세스가 목록에 표시됩니다. 템플릿 그룹 이외의 그룹과 연결된 승인 프로세스가 목록에 표시되지 않습니다.</p> <p><b>중요 사항</b>
 
-템플릿에 연결된 그룹이 변경되면 그룹별 승인 프로세스가 일회용 승인 프로세스가 됩니다. 프로젝트 그룹 변경 또는 승인 프로세스 변경 내용이 승인 설정에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">그룹 및 승인 프로세스 변경 내용이 할당된 승인 프로세스에 미치는 영향</a>을 참조하십시오. </p> </li>
-<li> <p>일회용 승인 프로세스를 추가한 경우 이 필드에 "사용자 지정"으로 표시됩니다. 자세한 내용은 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">새 승인 프로세스나 기존 승인 프로세스를 작업과 연결</a>을 참조하십시오. </p> 
+   템플릿에 연결된 그룹이 변경되면 그룹별 승인 프로세스가 일회용 승인 프로세스가 됩니다. 프로젝트 그룹 변경 또는 승인 프로세스 변경 내용이 승인 설정에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">그룹 및 승인 프로세스 변경 내용이 할당된 승인 프로세스에 미치는 영향</a>을 참조하십시오. </p> </li>
+   <li> <p>일회용 승인 프로세스를 추가한 경우 이 필드에 "사용자 지정"으로 표시됩니다. 자세한 내용은 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">새 승인 프로세스나 기존 승인 프로세스를 작업과 연결</a>을 참조하십시오. </p> 
       </li> 
       <li> <p>템플릿을 벌크 편집할 때 다음과 같은 시나리오가 있습니다.</p> 
       <ul> 
@@ -613,6 +614,10 @@ Editing templates in bulk differs depending on which environment you are using.
 
    **템플릿 편집** 대화 상자가 열립니다.
 
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+   ![템플릿 편집](assets/bulk-edit-templates-0925.png)
+
+   프로덕션 환경의 샘플 이미지:
    ![템플릿 편집](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 선택한 모든 템플릿을 편집하려면 왼쪽의 섹션을 클릭합니다.
@@ -631,7 +636,7 @@ Editing templates in bulk differs depending on which environment you are using.
    * 문제
    * 댓글
 
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
+1. <span class="preview">**저장**</span> 또는 **변경 내용 저장**&#x200B;을 클릭합니다.
 
    이제 선택한 모든 템플릿에 변경 사항이 모두 표시됩니다.
 
