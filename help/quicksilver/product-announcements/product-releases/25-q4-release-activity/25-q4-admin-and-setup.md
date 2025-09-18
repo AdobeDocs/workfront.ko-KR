@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
+source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 미리 보기: 2025년 8월 28일
->* 모든 고객을 위한 프로덕션: 2025년 9월 18일부터 단계적으로 롤아웃
+>* 모든 고객을 위한 프로덕션: 2025년 9월 25일부터 단계적으로 롤아웃
 
 Workfront 사용자 프로필의 모양과 느낌을 Workfront의 다른 영역과 일관된 최신 디자인으로 업데이트했습니다. 이러한 업데이트는 단일 프로필을 편집하거나 여러 프로필을 벌크 편집하는 관리자 또는 자체 프로필을 편집하는 사용자 모두에게 적용됩니다.
 
