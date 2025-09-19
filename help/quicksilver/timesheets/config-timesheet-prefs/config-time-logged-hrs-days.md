@@ -6,9 +6,9 @@ description: 플랜 라이선스가 있는 사용자는 Adobe Workfront에 시�
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b4ab350af22afa44774f06d82daf1c3fb266d2b9
+source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 1. 결과 대화 상자의 **리소스 계획** 섹션에서 **시간 기록** 옵션을 찾습니다.
 
-   ![](assets/new-timesheet-log-hours-350x249.png)
+   ![옵션에 시간 기록](assets/user-profile-log-time-options.png)
 
 1. (조건부) 여러 사용자를 동시에 편집하는 시스템 관리자인 경우 **시간 기록**&#x200B;을 선택하십시오.
 1. 로깅 시간에 대해 다음 옵션 중에서 선택합니다.
