@@ -6,7 +6,7 @@ description: Data Connect를 통해 Workfront 관리자는 작업 내역 보기�
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 작업 내역 보기에서 Workfront 관리자는 각 데이터 새로 고침 작업의 세부 기록에 액세스할 수 있습니다. 이러한 레코드는 데이터를 최신 상태로 유지하고 프로세스를 실행하고 비즈니스 시각화를 새로 고치는 시기에 이상적인 기간을 설정하는 데 도움이 되는 작업에 중요한 insight을 제공합니다.
 
-![작업 기록 보기](assets/job-history-tab.png)
+![작업 기록 보기](assets/job-history-overview.png)
 
 작업 내역 보기 열에는 다음 정보가 포함됩니다.
 
