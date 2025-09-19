@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 4%
@@ -55,12 +55,12 @@ AI 검토자는 다음 파일 유형을 검토할 수 있습니다.
 
 ## 브랜드 지침 설정
 
-Workfront AI 검토자는 콘텐츠를 검토할 때 Genstudio Foundations에 설정된 브랜드 지침을 사용합니다. 현재는 이미지에 대한 브랜드 가이드라인만 설정할 수 있습니다. 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
+Workfront AI 검토자는 콘텐츠를 검토할 때 Genstudio Foundation에 설정된 브랜드 지침을 사용합니다. 현재는 이미지에 대한 브랜드 가이드라인만 설정할 수 있습니다. 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
 
 
 ## AI 검토자 만들기
 
-GenStudio Foundations에 브랜드가 하나 이상 설정되면 Workfront 관리자는 설정 영역에서 AI 검토자 생성을 시작할 수 있습니다. 그런 다음 해당 AI 검토자를 승인 템플릿과 개별 검토 및 승인 요청에 할당할 수 있습니다. 현재 AI 검토자는 이미지 브랜드 지침에 대해서만 검토할 수 있습니다.
+GenStudio Foundation에 하나 이상의 브랜드가 설정되면 Workfront 관리자는 설정 영역에서 AI 검토자 생성을 시작할 수 있습니다. 그런 다음 해당 AI 검토자를 승인 템플릿과 개별 검토 및 승인 요청에 할당할 수 있습니다. 현재 AI 검토자는 이미지 브랜드 지침에 대해서만 검토할 수 있습니다.
 
 자세한 내용은 [AI 검토자 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)를 참조하십시오.
 

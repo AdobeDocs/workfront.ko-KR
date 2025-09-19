@@ -2,12 +2,12 @@
 product-area: documents
 navigation-topic: approvals
 title: AI 검토자 만들기
-description: GenStudio Foundations에 브랜드를 하나 이상 설정한 후에는 여러 AI 검토자를 만들어 승인 템플릿 및 개별 검토 및 승인 요청에 할당할 수 있습니다.
+description: GenStudio Foundation에 브랜드를 하나 이상 설정한 후에는 여러 AI 검토자를 만들어 승인 템플릿과 개별 검토 및 승인 요청에 할당할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >이 기능은 현재 베타 버전입니다.
 
-GenStudio Foundations에 브랜드를 하나 이상 설정한 후에는 여러 AI 검토자를 만들어 승인 템플릿 및 개별 검토 및 승인 요청에 할당할 수 있습니다.
+GenStudio Foundation에 브랜드를 하나 이상 설정한 후에는 여러 AI 검토자를 만들어 승인 템플릿과 개별 검토 및 승인 요청에 할당할 수 있습니다.
 
 >[!NOTE]
 >
@@ -55,9 +55,9 @@ GenStudio Foundations에 브랜드를 하나 이상 설정한 후에는 여러 A
 
 ## 전제 조건
 
-시작하기 전에 GenStudio Foundations에서 이미지 브랜드 지침을 설정해야 합니다.
+시작하기 전에 GenStudio Foundation에서 이미지 브랜드 지침을 설정해야 합니다.
 
-이미지 브랜드 지침에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
+이미지 브랜드 지침에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
 
 ## AI 검토자 추가
 
