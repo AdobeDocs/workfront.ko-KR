@@ -3,11 +3,11 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: 예산 비용 계산
-description: 활용성 보고서로 예산 CostTracking 프로젝트 진행 계산""
+description: 활용성 보고서를 사용한 예산 비용 추적 프로젝트 진행 계산
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 2%
@@ -71,7 +71,7 @@ ht-degree: 2%
     </tr> 
     <tr> 
      <td>비용</td> 
-     <td> <p>Portfolio 최적화 도구</p> <p>팁: 모든 프로젝트 예산 비용 값의 합계는 포트폴리오의 예산 비용입니다.</p> </td> 
+     <td> <p>Portfolio Optimizer</p> <p>팁: 모든 프로젝트 예산 비용 값의 합계는 포트폴리오의 예산 비용입니다.</p> </td> 
     </tr> 
     <tr> 
      <td>프로젝트 예산 비용</td> 

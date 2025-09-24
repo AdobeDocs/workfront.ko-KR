@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: 프로젝트를 템플릿으로 저장
-description: 프로젝트를 템플릿으로 저장Save as a template at project level(프로젝트 수준에서 템플릿으로 저장)을 참조하십시오. 이 문서에는 보다 심층적인(단계별) 링크가 있습니다. 이 기능은 프로젝트와 템플릿 영역 모두에서 유지되어야 합니다.)"
+description: 프로젝트를 프로젝트 수준에서 템플릿으로 저장하면 사용자가 UI에서 를 확인할 수 있습니다. 이 링크에는 보다 심층적인 (단계별) 다른 문서가 있습니다. 이 기능은 프로젝트와 템플릿 영역 모두에 있어야 합니다.)
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
