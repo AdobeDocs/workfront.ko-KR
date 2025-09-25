@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
+source-git-commit: 3a976c2d2254ba92c0bd28d7037ea2ced09098d8
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2204'
 ht-degree: 4%
 
 ---
@@ -58,6 +58,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
     </tr>
+    <tr>
+        <td>
+            개체에서 사용자 정의 양식을 제거할 때 <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> 확인</a><p></p>
+            <p>필요한 데이터에 대한 액세스 권한을 보유하는지 확인하기 위해 개체에서 사용자 정의 양식을 제거할 때 확인 대화 상자를 추가했습니다. 객체에서 사용자 정의 양식을 제거하면 해당 양식의 데이터가 객체에서 영구적으로 제거됩니다. 이제 이 대화 상자에서 이 데이터가 제거된다는 사실을 확인함으로써 필요한 데이터를 제거하지 않도록 할 수 있습니다. </p>
+        </td>
+        <td>2025년 9월 25일 금요일</td>
+        <td>2025년 10월 15일 목요일</td>
+        <td>2025년 10월 16일 금요일</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">새 게시판 관리자 보기</a><p></p>
@@ -447,7 +456,7 @@ Desktop Proofing Viewer가 버전 2.1.52로 업데이트되어 버그 수정 사
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ### API 버전 20
 
@@ -459,8 +468,8 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

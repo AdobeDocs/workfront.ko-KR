@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2025년 4분기 릴리스의 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2025년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록을 보려면 [2025년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)를 참조하십시오.
+
+## 오브젝트에서 사용자 정의 양식을 제거할 때 확인
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 9월 25일
+>* 프로덕션 빠른 릴리스: 2025년 10월 15일
+>* 모든 고객을 위한 프로덕션: 2025년 10월 16일
+
+필요한 데이터에 대한 액세스 권한을 보유하는지 확인하기 위해 개체에서 사용자 정의 양식을 제거할 때 확인 대화 상자를 추가했습니다. 객체에서 사용자 정의 양식을 제거하면 해당 양식의 데이터가 객체에서 영구적으로 제거됩니다. 이제 이 대화 상자에서 이 데이터가 제거된다는 사실을 확인함으로써 필요한 데이터를 제거하지 않도록 할 수 있습니다.
+
+이전에는 데이터 제거에 대한 유일한 경고가 제거 옵션 근처에 있는 텍스트였습니다.
+
+사용자 정의 양식 제거에 대한 자세한 내용은 개체에 첨부된 사용자 정의 양식 관리 문서에서 [개체에서 사용자 정의 양식 제거](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object)를 참조하십시오.
 
 ## Workfront 사용자 프로필 업데이트
 

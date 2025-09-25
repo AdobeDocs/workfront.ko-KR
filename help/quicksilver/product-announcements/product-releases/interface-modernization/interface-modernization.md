@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '7834'
+source-wordcount: '8092'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,40 @@ ht-degree: 0%
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
 ## 관리자 및 설정
+
+<!--### Interface updates when adding or editing group timesheet profiles
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+
+To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+
+For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+
+### 설정의 심각도 영역에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 9월 25일, 프로덕션 릴리스: 2025년 10월 2일**
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 심각도 페이지를 업데이트했습니다.
+
+인터페이스에서 볼 수 있는 변경 사항은 심각도를 기본값으로 설정하거나 심각도를 삭제하려면 심각도 이름 옆에 있는 확인란을 선택하고 화면 하단의 작업 표시줄에서 옵션을 선택해야 한다는 것입니다.
+
+이러한 변경 사항을 보려면 설정 > 프로젝트 환경 설정 > 심각도로 이동합니다.
+
+자세한 내용은 [문제 심각도 만들기 또는 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)을 참조하세요.
+
+### 설정의 우선 순위 영역에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 9월 25일, 프로덕션 릴리스: 2025년 10월 2일**
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 우선 순위 페이지를 업데이트했습니다.
+
+인터페이스에서 볼 수 있는 변경 사항은 우선 순위를 기본값으로 설정하거나 우선 순위를 삭제하려면 우선 순위 이름 옆에 있는 확인란을 선택하고 화면 하단의 작업 표시줄에서 옵션을 선택해야 한다는 것입니다.
+
+이러한 변경 사항을 보려면 설정 > 프로젝트 환경 설정 > 우선 순위로 이동합니다.
+
+자세한 내용은 [우선 순위 만들기 및 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)을 참조하십시오.
 
 ### 설정 영역에서 타임시트 프로필을 추가하거나 편집할 때 인터페이스 업데이트
 
@@ -392,7 +426,27 @@ Workfront의 다른 영역 디자인에 맞게 템플릿에 대한 전임 작업
 * [주제 그룹을 만듭니다](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [라우팅 규칙을 만듭니다](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+
+
 ## 사용자
+
+<!--### Interface updates for the User Details page
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the User Details page to match other areas of the application.
+
+You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+
+### 개인 휴무에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 9월 25일, 프로덕션 릴리스: 2025년 10월 2일**
+
+애플리케이션의 다른 영역과 일치하도록 승인을 위임하는 기능을 포함하여 개인 휴무 캘린더의 모양과 느낌을 업데이트했습니다.
+
+이러한 변경 사항을 보려면 사용자 프로필로 이동하여 왼쪽 패널에서 **휴무**&#x200B;를 클릭하십시오.
+
+자세한 내용은 [개인 휴무 구성](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) 및 [승인 요청 위임](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md)을 참조하십시오.
 
 ### 새 사용자 대화 상자에 대한 인터페이스 업데이트
 

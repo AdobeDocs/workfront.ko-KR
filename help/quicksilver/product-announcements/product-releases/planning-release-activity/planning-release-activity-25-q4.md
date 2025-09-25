@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: a7dc4a24163f6c161362744d2ecb302fb2506dc2
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,59 @@ Previously, request forms were located only on the object for which they were cr
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
 
+## Planning 보기 도구 모음 및 액세스 지점 재디자인
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 9월 25일
+>* 프로덕션 빠른 릴리스: 2025년 10월 15일
+>* 프로덕션 모두: 2025년 10월 16일
+
+레코드 유형 페이지에서 보기를 표시, 액세스 및 관리하는 방법을 다시 디자인했습니다.
+
+이 업데이트에는 다음과 같은 개선 사항이 포함되어 있습니다.
+
+* 보기 탭이 레코드 유형 페이지의 왼쪽 상단 모서리에 있는 드롭다운 메뉴로 대체되었습니다. 이제 메뉴에 모든 보기 목록이 표시됩니다.
+* 원하는 순서대로 뷰를 끌어다 놓아 뷰를 재정렬할 수 있습니다.
+* 전체 화면 모드를 제외한 대부분의 도구 모음 아이콘이 페이지의 오른쪽에서 왼쪽으로 이동했습니다.
+* 검색 상자가 도구 모음의 오른쪽으로 이동되었습니다.
+각 보기의 기능은 변경되지 않았습니다.
+
+자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하십시오.
+
+<!--## Enhancements to request forms in Workfront Planning
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+To make the request process simpler, we've made some enhancements to request forms. Now, when configuring a request form, you can configure the following:
+
+* Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
+* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
+
+For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## 달력 주별 보기에서 레코드 크기 조정
+
+>[!NOTE]
+>
+>* 미리 보기: 2025년 9월 25일
+>* 프로덕션 빠른 릴리스: 2025년 10월 15일
+>* 프로덕션 모두: 2025년 10월 16일
+
+이제 레코드 유형 페이지의 주별 달력 보기에서 레코드의 왼쪽 또는 오른쪽 여백을 클릭하여 기간을 수정할 수 있습니다.
+
+레코드의 여백을 이동하면 시작 및 종료 날짜도 즉시 수정됩니다.
+
+이벤트의 크기가 조정되기 전에 새 위치를 안내하는 아웃라인이 표시됩니다.
+
+이 기능은 달력 월별 보기에 이미 있습니다.
+
+자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
+
 ## 필드를 변경하거나 삭제할 때 새 정보 상자가 표시됩니다
 
 >[!NOTE]
@@ -57,8 +110,8 @@ For more information on request forms, see [Create and manage a request form in 
 >[!NOTE]
 >
 >미리 보기: 2025년 9월 11일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 9월 11일
->&#x200B;>[!BADGE 일정 해제]{type=Neutral}
+>>모든 고객을 위한 프로덕션: 2025년 9월 11일
+>>[!BADGE 일정 해제]{type=Neutral}
 
 조직에서 Adobe Workfront Planning과 Adobe GenStudio for Performance Marketing을 모두 사용하는 경우 GenStudio에서 기본적으로 지원하는 것보다 캠페인, 제품 및 가상 사용자와 같은 마케팅 개념을 더 자세히 정의할 수 있습니다.
 
@@ -223,8 +276,8 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 통�
 >[!NOTE]
 >
 >미리 보기: 2025년 8월 7일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 8월
->&#x200B;>[!BADGE 일정 해제]{type=Neutral}
+>>모든 고객을 위한 프로덕션: 2025년 8월
+>>[!BADGE 일정 해제]{type=Neutral}
 
 Workfront Planning의 공식 필드 및 Workfront의 계산된 사용자 정의 필드에 다음 사용법을 사용하는 새 표현식을 추가했습니다.
 
@@ -239,8 +292,8 @@ Workfront Planning의 공식 필드 및 Workfront의 계산된 사용자 정의 
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 31일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 7월 31일
->&#x200B;>[!BADGE 일정 해제]{type=Neutral}
+>>모든 고객을 위한 프로덕션: 2025년 7월 31일
+>>[!BADGE 일정 해제]{type=Neutral}
 
 레코드 테이블 보기에서 필드를 만들거나 편집할 때 수식 필드를 확대하는 최대화 단추를 추가했습니다. 또한 필드 만들기 상자로 되돌리기 위해 확대된 새 창에 최소화 버튼을 추가했습니다.
 
@@ -289,8 +342,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 24일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 이제 타임라인의 아무 곳이나 두 번 클릭하여 레코드 유형의 타임라인 보기에서 레코드를 만들 수 있습니다.
 
@@ -305,8 +358,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 24일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 이제 작업 영역 페이지에 있는 레코드 유형 카드의 기타 메뉴에서 레코드 유형을 공유할 수 있습니다. 이 기능이 향상되기 전에는 레코드 유형 페이지 내에서만 공유 옵션을 사용할 수 있었습니다.
 
@@ -317,8 +370,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 24일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 이제 모든 Workfront Planning 보기(테이블, 타임라인 및 달력)를 전체 화면 모드로 표시할 수 있습니다. 보기 기능은 유지되며 전체 화면에서 보기를 변경할 수도 있습니다.
 
@@ -331,8 +384,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 22일
->&#x200B;>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 승인 프로세스를 보다 유연하게 진행하기 위해 Planning 요청 양식에 팀을 승인자로 추가하는 기능이 추가되었습니다. 이제 승인자를 설정할 때 팀 이름을 입력하고 선택할 수 있습니다. 팀 구성원 중 누구나 결정을 내릴 수 있으며, 이는 팀 전체에 대한 승인 결정으로 계산됩니다.
 
@@ -345,8 +398,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 17일
->&#x200B;>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 승인과 함께 요청을 제출하여 생성된 레코드에 대한 승인 정보를 캡처하기 위해 다음 필드를 도입합니다.
 
@@ -360,8 +413,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 10일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 
 이제 테이블 보기에 그룹화가 적용되면 테이블에 레코드를 추가하면 레코드를 추가할 그룹화와 관련된 필드가 자동으로 채워집니다.
