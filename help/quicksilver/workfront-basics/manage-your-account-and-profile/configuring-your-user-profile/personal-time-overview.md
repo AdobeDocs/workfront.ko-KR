@@ -58,7 +58,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!UICONTROL Edit User] 액세스 권한이 있는 [!UICONTROL Manager](다른 사용자의 휴무 달력을 변경하기 위해)<br>
+   <td>[!UICONTROL Edit User] 액세스 권한이 있는 [!UICONTROL Manager] (다른 사용자의 휴무 달력을 변경하기 위해)<br>
    <strong>참고:</strong> 관리자가 다른 사용자의 개인 휴무 일정을 편집하면 모든 항목이 관리자의 표준 시간대가 아니라 사용자의 표준 시간대로 표시됩니다.</td> 
   </tr> 
  </tbody> 
