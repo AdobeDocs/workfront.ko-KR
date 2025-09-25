@@ -6,16 +6,14 @@ description: 프로젝트 템플릿을 편집하여 향후 프로젝트의 프�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
+source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
 workflow-type: tm+mt
-source-wordcount: '5161'
+source-wordcount: '5658'
 ht-degree: 2%
 
 ---
 
 # 프로젝트 템플릿 편집
-
-{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -135,23 +133,23 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 다음 필드를 업데이트합니다.
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-      <tr> 
-      <td role="rowheader"><strong>설명</strong></td> 
-      <td>템플릿에 대한 추가 정보를 추가합니다.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>우선순위</strong></td> 
-      <td><p>이는 향후 프로젝트에 우선 순위를 지정할 수 있도록 해 주는 시각적 플래그일 뿐입니다. 다음 옵션 중에서 선택합니다.</p> 
-      <ul> 
-      <li><p><strong>없음</strong></p></li> 
-      <li><p><strong>낮음</strong></p></li> 
-      <li><p><strong>일반</strong></p></li> 
-      <li><p><strong>높음</strong></p></li> 
-      <li><p><strong>긴급</strong></p></li> 
-      </ul><p><p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a>을 참조하십시오.</p></p></td> 
+       <col> 
+       <col> 
+       <tbody> 
+         <tr> 
+         <td role="rowheader"><strong>설명</strong></td> 
+         <td>템플릿에 대한 추가 정보를 추가합니다.</td> 
+       </tr> 
+         <tr> 
+         <td role="rowheader"><strong>우선순위</strong></td> 
+         <td><p>이는 향후 프로젝트에 우선 순위를 지정할 수 있도록 해 주는 시각적 플래그일 뿐입니다. 다음 옵션 중에서 선택합니다.</p> 
+         <ul> 
+         <li><p><strong>없음</strong></p></li> 
+         <li><p><strong>낮음</strong></p></li> 
+         <li><p><strong>일반</strong></p></li> 
+         <li><p><strong>높음</strong></p></li> 
+         <li><p><strong>긴급</strong></p></li> 
+         </ul><p><p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a>을 참조하십시오.</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
@@ -242,43 +240,92 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <table style="table-layout:auto"> 
        <col> 
        <col> 
-       <tbody>
+       <tbody> 
+         <tr> 
+         <td role="rowheader"><strong>설명</strong></td> 
+         <td>템플릿에 대한 추가 정보를 추가합니다.</td> 
+       </tr> 
+         <tr> 
+         <td role="rowheader"><strong>우선순위</strong></td> 
+         <td><p>이는 향후 프로젝트에 우선 순위를 지정할 수 있도록 해 주는 시각적 플래그일 뿐입니다. 다음 옵션 중에서 선택합니다.</p> 
+         <ul> 
+         <li><p><strong>없음</strong></p></li> 
+         <li><p><strong>낮음</strong></p></li> 
+         <li><p><strong>일반</strong></p></li> 
+         <li><p><strong>높음</strong></p></li> 
+         <li><p><strong>긴급</strong></p></li> 
+         </ul><p><p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a>을 참조하십시오.</p></p></td> 
+       </tr> 
        <tr> 
-         <td role="rowheader"><strong> 통화</strong></td> 
-         <td><p>향후 프로젝트의 통화가 시스템의 기본 통화와 다른 경우 통화를 지정합니다. 시스템에 기본 통화만 있는 경우에는 이 필드가 표시되지 않습니다.<br>통화에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">환율 설정</a>을 참조하세요.</p></td> 
+       <td role="rowheader"><strong>URL</strong></td> 
+         <td>이 템플릿에 대한 정보와 관련된 웹 링크를 지정합니다.</td> 
        </tr>
-       <tr> 
-       <td role="rowheader"><strong>예산</strong></td> 
-       <td><p>이 템플릿에서 생성된 프로젝트에 대한 예산을 지정합니다.</p></td> 
-       </tr>  
-       <tr> 
-       <td role="rowheader"><strong>성과 지수 방법</strong></td> 
-       <td><p>Workfront에서 향후 프로젝트의 획득가치 지표를 계산하는 방법을 선택합니다. 다음 중에서 선택하십시오.
-       <ul>
-       <li>시간 기반</li>
-       <li>비용 기반</li>
-       </ul>
+   <tr> 
+      <td role="rowheader"><strong>활성화됨</strong></td> 
+      <td><p>템플릿을 활성화하려면 이 옵션을 설정합니다. 다른 사용자는 프로젝트를 만들 때 이 템플릿을 찾아 프로젝트에 첨부할 수 있습니다. 더 이상 사용되지 않는 템플릿을 비활성화하려면 옵션을 끕니다. 비활성화된 템플릿은 프로젝트에 첨부할 수 없습니다. 이 기능은 기본적으로 활성화되어 있습니다. </p><p><b>팁</b></p>
 
-       성능 인덱스 메서드에 대한 자세한 내용은 &lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=&quot;MCXref xref&quot;>성능 인덱스 메서드(PIM) 설정&lt;/a>을 참조하십시오. &lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>계획된 이익&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>이 템플릿에서 만든 프로젝트의 계획된 혜택을 지정합니다. 계획된 혜택은 프로젝트 및 Portfolio Optimizer의 비즈니스 사례에 사용됩니다. &lt;/p>&lt;p>프로젝트의 계획된 편익에 대한 자세한 내용은 &lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=&quot;MCXref xref&quot;>프로젝트 계획 편익 개요&lt;/a>를 참조하십시오. 프로젝트의 순 가치 계산 시 프로젝트의 계획된 이익이 고려됩니다. &lt;/p>&lt;p>Portfolio Optimizer 사용에 대한 자세한 내용은 &lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=&quot;MCXref xref&quot;>Portfolio Optimizer에서 프로젝트 관리&lt;/a> &lt;/p>&lt;/td>
-를 참조하십시오.       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>고정 비용&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>이 템플릿에서 만든 프로젝트의 고정 비용을 지정합니다. 이는 프로젝트의 시간에 따라 발생하는 인건비와 프로젝트의 경비 금액에 따라 발생하는 경비가 다릅니다. 프로젝트의 고정 비용은 프로젝트의 순 가치를 계산할 때 고려되며 예산 비용의 일부입니다.&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>고정 수입&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>이 템플릿에서 만든 프로젝트의 고정 수익을 지정합니다.&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>이 프로젝트에 대한 승인 시간 필요&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>이 템플릿에서 만든 향후 프로젝트의 프로젝트 소유자가 프로젝트에 로그온한 시간을 승인하도록 하려면 이 옵션을 선택하십시오. 청구 기록을 사용하고 이 옵션을 선택하는 경우 프로젝트의 승인된 시간만 청구 기록의 사용 가능한 청구 가능 시간으로 표시됩니다. 프로젝트 시간 승인은 타임시트 승인과 독립적입니다. 프로젝트 승인 시간 요구에 대한 자세한 내용은 &lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=&quot;MCXref xref&quot;>프로젝트 승인 시간 필요&lt;/a>를 참조하십시오.&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;/tbody>
-   </table>
+   <p>이 문서의 "템플릿 활성화 또는 비활성화" 섹션에 설명된 대로 템플릿 헤더에서 템플릿을 비활성화할 수 있습니다.</p></td> 
+     </tr>
+
+<tr> 
+<td role="rowheader"><strong>상태 유형</strong></td> 
+   <td><p>다음 조건 유형 중에서 선택합니다.</p> 
+   <ul> 
+   <li><strong>수동:</strong> 프로젝트 소유자가 프로젝트의 상태를 수동으로 설정합니다. <strong></strong></li> 
+   <li><strong>진행 상태:</strong> Workfront은 중요 경로에 있는 작업의 진행 상태를 기반으로 향후 프로젝트의 상태를 자동으로 설정합니다. 진행 상태를 이해하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>를 참조하십시오.</li> 
+   </ul>
+   </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>일정 모드</strong></td> 
+   <td><p>이 템플릿을 사용하는 프로젝트를 <strong>시작 날짜</strong>부터 예약할지 또는 <strong>완료 날짜</strong>부터 예약할지 여부를 지정하십시오. 이 옵션을 선택하면 이 템플릿을 사용하여 프로젝트에 대한 향후 작업의 계획된 일자가 결정됩니다. </p><p>다음 중에서 선택합니다. </p> 
+   <ul> 
+   <li><p><strong>시작 날짜부터 예약</strong>: 템플릿의 시작 날짜가 실제로 시작 날짜입니다. 시작 날짜부터 템플릿을 예약하면 Adobe Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 완료 날짜를 계산합니다. 템플릿의 시작 날짜가 미래 프로젝트의 계획된 시작 날짜가 됩니다.</p></li> 
+   <li><p><strong>완료 날짜부터 일정</strong>: 템플릿의 완료 날짜는 실제로 완료 날짜입니다. 완료 날짜부터 템플릿을 예약하면 Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 시작 날짜를 계산합니다. 템플릿의 완료 일자가 미래 프로젝트의 계획된 완료 일자가 됩니다. </p></li> 
+   </ul><p>템플릿 작업의 시작 및 완료 일수에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">템플릿의 시작 및 완료 일수 개요</a>를 참조하십시오. </p><p>템플릿에 대한 일정 시작 설정은 프로젝트의 일정과 유사합니다. Workfront 관리자는 시스템의 프로젝트에 대해 기본 일정 출처 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오.</p></td> 
+   </tr>
+
+<tr> 
+   <td role="rowheader"><strong>포트폴리오</strong></td> 
+   <td><p>이 템플릿에서 만드는 프로젝트에 대한 Portfolio을 지정하십시오. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. </p><p>활성 포트폴리오만 목록에 표시됩니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>를 참조하십시오.</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>프로그램</strong></td> 
+   <td><p>템플릿에 대해 Portfolio을 선택한 경우 향후 프로젝트에 대해 <strong>프로그램</strong>을(를) 지정하십시오. 일부 포트폴리오에는 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 목록에 표시됩니다.</p><p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>를 참조하십시오.</p></td> 
+   </tr>  
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td role="rowheader"><strong>그룹</strong></td> 
+   <td><p>드롭다운 목록에서 템플릿에서 만든 프로젝트와 연결할 그룹을 선택합니다. 모든 수준의 그룹일 수 있습니다. </p><p>마우스로 가리키고 그 옆에 표시되는 정보 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하고 있는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>
+
+<ul> 
+   <li><p>그룹의 페이지에 있는 프로젝트 영역에서, 그룹이 선택되지 않은 템플릿을 사용하여 프로젝트를 만들 경우, 시스템은 현재 열려 있는 그룹을 프로젝트와 연결합니다.</p><p>이는 사용자가 그룹을 선택하지 않은 템플릿을 사용하여 프로젝트를 만들 때 사용자의 홈 그룹을 프로젝트와 연결하는 다른 영역과는 다릅니다.</p></li> 
+   <li><p>프로젝트를 생성하거나 작업 또는 문제를 프로젝트로 전환하는 동안 그룹이 선택된 템플릿을 선택하면 프로젝트에 대해 다른 그룹을 선택할 수 있습니다.</p></li> 
+   <li>이 필드는 새로운 Adobe Workfront 환경의 템플릿에서만 사용할 수 있지만, 목록과 보고서 모두에서 볼 수 있습니다(Adobe Workfront Classic). </li> 
+   </ul> </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>회사</strong></td> 
+   <td><p>템플릿에 연결할 회사를 지정합니다. 활성 회사만 목록에 표시됩니다.</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>템플릿 소유자</strong></td> 
+   <td><p>템플릿 소유자로 지정된 사용자는 Workfront 활성 사용자여야 합니다. </p><p>템플릿 소유자로 지정된 사용자에 대해 다음 사항을 고려하십시오. </p> 
+   <ul> 
+   <li>이 사용자에게는 템플릿에 대한 관리 권한이 자동으로 부여됩니다. </li> 
+   <li>프로젝트 팀에 추가되고 템플릿에서 만든 프로젝트에 대한 관리 권한이 자동으로 부여됩니다. </li> 
+   <li>이 템플릿에서 프로젝트를 만들 때 프로젝트 소유자가 됩니다. </li> 
+   <li> 템플릿 소유자로 지정된 사용자의 액세스 수준에서 템플릿 또는 프로젝트에 대한 액세스가 제한된 경우 템플릿 및 프로젝트에 대한 관리 권한이 제한됩니다. 예를 들어, 액세스 수준의 템플릿 또는 프로젝트에 대한 보기 액세스만 있는 경우 템플릿 소유자로 지정되면 템플릿 및 프로젝트에 대한 보기 권한을 자동으로 수신하게 됩니다.</li>
+   </ul></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>템플릿 스폰서</strong></td> 
+   <td><p>템플릿을 프로젝트에 추가하면 이 필드에 지정된 사용자가 프로젝트 스폰서가 됩니다. 이 사용자는 프로젝트 팀에 추가되고 프로젝트에 대한 보기 권한이 자동으로 부여됩니다. 템플릿 스폰서로 지정된 사용자는 Workfront 활성 사용자여야 합니다. </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>리소스 관리자</strong></td> 
+   <td><p>지정된 사용자에게는 향후 프로젝트에 대한 관리 권한이 자동으로 부여되고 프로젝트의 작업 및 문제에 리소스를 할당할 수 있습니다. 리소스 관리자를 두 개 이상 지정할 수 있습니다. </p></td> 
+   </tr> 
+</table>
 
 1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
 
@@ -614,11 +661,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
    **템플릿 편집** 대화 상자가 열립니다.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
    ![템플릿 편집](assets/bulk-edit-templates-0925.png)
-
-   프로덕션 환경의 샘플 이미지:
-   ![템플릿 편집](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 선택한 모든 템플릿을 편집하려면 왼쪽의 섹션을 클릭합니다.
 
@@ -636,7 +679,7 @@ Editing templates in bulk differs depending on which environment you are using.
    * 문제
    * 댓글
 
-1. <span class="preview">**저장**</span> 또는 **변경 내용 저장**&#x200B;을 클릭합니다.
+1. **저장**&#x200B;을 클릭합니다.
 
    이제 선택한 모든 템플릿에 변경 사항이 모두 표시됩니다.
 
