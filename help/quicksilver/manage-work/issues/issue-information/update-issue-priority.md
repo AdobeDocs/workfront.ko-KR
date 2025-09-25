@@ -6,7 +6,7 @@ description: 문제에 대한 우선 순위를 정의하여 문제의 중요성�
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 3%
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # 문제 우선 순위 업데이트
 
-문제에 대한 우선 순위를 정의할 수 있습니다  이 문제가 얼마나 중요한지 나타냅니다.
+문제에 대한 우선 순위를 정의하여 문제의 중요성을 나타낼 수 있습니다.
 
-문제의 우선 순위를 수정하려면 문제에 대한 관리 권한이 있어야 합니다.  [문제의 우선 순위를 업데이트하십시오](#update-the-priority-of-an-issue).
+문제의 우선 순위를 수정하려면 문제에 대한 관리 권한이 있어야 합니다. [문제의 우선 순위를 업데이트하십시오](#update-the-priority-of-an-issue).
 
 ## 액세스 요구 사항
 
@@ -80,7 +80,7 @@ Adobe Workfront 관리자는 Workfront 내에서 우선 순위 레이블을 수�
    <td> 1 </td> 
   </tr> 
   <tr> 
-   <td> 보통 </td> 
+   <td> 일반 </td> 
    <td> 2 </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Adobe Workfront 관리자는 Workfront 내에서 우선 순위 레이블을 수�
 
 1. **기본 정보** 영역의 **우선 순위** 필드를 클릭합니다.
 
-   ![문제 우선 순위](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![문제 우선 순위](assets/issue-priority-field.png)
 
 1. **우선 순위** 필드의 값을 선택하십시오.
 

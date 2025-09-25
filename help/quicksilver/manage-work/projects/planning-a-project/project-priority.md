@@ -7,9 +7,9 @@ description: 프로젝트에 우선 순위를 사용하는 여러 가지 방법�
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '668'
 ht-degree: 1%
 
 ---
@@ -125,14 +125,14 @@ Workfront에서 우선 순위를 프로젝트와 연결할 수 있습니다. 프
 
    * 없음
    * 낮음
-   * 보통
+   * 일반
 
      기본 우선 순위입니다.
 
    * 높음
    * 긴급
 
-   ![](assets/project-priority-picker-list-on-project-details-nwe-350x192.png)
+   ![프로젝트의 우선 순위 목록](assets/project-priority-picker-list.png)
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
