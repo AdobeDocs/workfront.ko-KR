@@ -4,17 +4,19 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: 개인 휴무 구성
 description: 승인된 휴무는 일정에 영향을 주고 할당된 작업의 계획된 완료 일자에 영향을 주기 때문에 Adobe Workfront에 시간을 표시하는 것이 중요합니다.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
 # 개인 휴무 구성
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -56,7 +58,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!UICONTROL Edit User] 액세스 권한이 있는 [!UICONTROL Manager] (다른 사용자의 휴무 달력을 변경하기 위해)<br>
+   <td>[!UICONTROL Edit User] 액세스 권한이 있는 [!UICONTROL Manager](다른 사용자의 휴무 달력을 변경하기 위해)<br>
    <strong>참고:</strong> 관리자가 다른 사용자의 개인 휴무 일정을 편집하면 모든 항목이 관리자의 표준 시간대가 아니라 사용자의 표준 시간대로 표시됩니다.</td> 
   </tr> 
  </tbody> 
@@ -70,14 +72,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->통합 경험 Adobe을 사용하는 경우 상단 탐색 영역에서 Adobe 계정 메뉴(프로필 사진)를 클릭한 다음 Workfront 프로필을 선택하여 Workfront 프로필에 액세스할 수 있습니다.
+>Adobe 통합 경험을 사용하는 경우 상단 탐색 영역에서 Workfront 계정 메뉴(프로필 사진)를 클릭한 다음 Workfront 프로필을 선택하여 Adobe 프로필에 액세스할 수 있습니다.
 >
 >![workfront 프로필](assets/aue-profile.png)
-
 
 1. 왼쪽 패널에서 **[!UICONTROL 휴무]**&#x200B;를 클릭합니다.
 1. 개인 휴무에 대해 원하는 날짜를 선택합니다.
 
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+   ![개인 휴무 일정](assets/personal-time-off-calendar-0925.png)
+
+   프로덕션 환경의 샘플 이미지:
    ![개인 휴무 일정](assets/personal-time-off-calendar.png)
 
 1. 하루 종일 쉬려면 **[!UICONTROL 하루 종일]**&#x200B;을 선택하세요.
