@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
@@ -246,7 +246,7 @@ ht-degree: 0%
 <!--add another step about drag and drop here when that is available-->
 
 1. 달력 보기에서 레코드 유형 페이지를 엽니다. 자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
-1. <span class="preview">(조건부) 달력 월별 보기에서 레코드 막대의 끝을 마우스로 가리킨 다음 해당 여백을 클릭하고 다른 날짜로 끌어서 놓습니다. 레코드의 시작 또는 종료 날짜가 자동으로 업데이트됩니다.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release-->
+1. <span class="preview">(조건부) 달력 보기에서 레코드 막대의 끝을 마우스로 가리킨 다음 해당 여백을 클릭하고 다른 날짜로 끌어서 놓습니다. 레코드의 시작 또는 종료 날짜가 자동으로 업데이트됩니다.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release DONE Sep 25 2025-->
 
    <span class="preview">![크기를 조정할 달력 보기의 왼쪽 끝 막대](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 

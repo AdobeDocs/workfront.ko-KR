@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 2%
+source-wordcount: '1260'
+ht-degree: 1%
 
 ---
 
@@ -187,13 +187,12 @@ Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-1. 새 보기를 추가하려면 **+ 보기**&#x200B;를 클릭하십시오.
+1. 사용하는 환경에 따라 다음을 수행합니다.
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-   <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
+   * 프로덕션 환경에서 **+보기** 탭을 클릭합니다.
+   * <span class="preview">미리 보기 환경에서 현재 보기 이름 옆에 있는 드롭다운 아이콘 ![드롭다운 아이콘](assets/drop-down-icon.png)을 클릭한 다음 **+새 보기**&#x200B;를 클릭합니다.</span>
+
+1. <span class="preview">보기 드롭다운 메뉴에서 원하는 순서대로 보기를 끌어서 놓습니다.</span>
 1. 다음 유형의 뷰 중에서 선택합니다.
 
    * 테이블
