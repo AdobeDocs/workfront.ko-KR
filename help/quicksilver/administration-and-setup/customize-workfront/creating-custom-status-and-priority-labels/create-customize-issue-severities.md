@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 5%
+source-wordcount: '665'
+ht-degree: 3%
 
 ---
 
 # 문제 심각도 만들기 또는 사용자 정의
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -72,7 +74,7 @@ Workfront에는 5개의 내장된 문제 심각도가 있습니다.
 * 해결 방법이 없는 버그
 * 치명적인 오류
 
-<p>이러한 심각도에 대해 다음을 편집할 수 있습니다.</p>
+이러한 심각도에 대해 다음을 편집할 수 있습니다.
 
 * 이름
 * 색상
@@ -82,10 +84,11 @@ Workfront에는 5개의 내장된 문제 심각도가 있습니다.
 * 기본 심각도는 무엇입니까?
 
   기본 심각도에 대한 자세한 내용은 이 문서에서 [문제 심각도 만들기 또는 편집](#create-or-edit-an-issue-severity)을 참조하십시오.
+
 * 설명
 * Workfront에 심각도가 숨겨져 있는지 여부
 
-  심각도 숨기기에 대한 자세한 내용은 [문제 심각도 만들기 또는 편집](#create-or-edit-an-issue-severity")을 참조하세요.
+  심각도 숨기기에 대한 자세한 내용은 이 문서에서 [문제 심각도 만들기 또는 편집](#create-or-edit-an-issue-severity)을 참조하십시오.
 
 * 심각도 삭제
 
@@ -99,44 +102,45 @@ Workfront 관리자는 사용자의 요구 사항에 맞게 문제 심각도를 
 
 1. 왼쪽 패널에서 **프로젝트 환경 설정** > **심각도**&#x200B;를 클릭합니다.
 
-1. 새 심각도를 만드는 경우 **새 심각도 추가**&#x200B;를 클릭합니다.
+1. 새 심각도를 만드는 경우 테이블 하단에 있는 <span class="preview">**새 행**&#x200B;을 클릭하거나</span>, **새 심각도를 추가**&#x200B;하세요.
 1. 새 심각도에 대해 다음 옵션을 구성하거나 기존 심각도를 편집합니다.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">심각도 이름</td> 
-      <td>심각도 이름 입력</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">중요도 점수</td> 
-      <td>심각도에 대해 원래 Workfront에서 할당한 심각도 수준을 높이거나 낮춥니다.
-      <p>각 심각도의 중요도 번호는 고유해야 합니다. 가장 높은 숫자는 가장 높은 수준의 심각도에 해당합니다.</p> <p>심각도를 저장한 후에는 이 숫자를 편집할 수 없습니다.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">색상</td> 
-      <td> <p>심각도의 색상을 선택합니다.</p> 
-      <p>심각도의 색상은 문제 심각도별로 결과를 그룹화할 때 차트 보고서에 사용됩니다. 차트 보고서에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">보고서에 차트 추가</a>를 참조하십시오.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">기본 심각도</td> 
-      <td>새로 생성된 모든 문제를 Workfront에서 자동으로 선택할 심각도를 선택합니다.</p>
-      <p>코스메틱은 Workfront 문제에 대한 기본 심각도입니다.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">설명</td> 
-      <td>심각도에 대한 설명을 입력하여 해당 기능을 설명합니다.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">숨기기</td> 
-      <td> 더 이상 필요하지 않은 심각도를 숨깁니다. 
-      <p>숨겨진 심각도는 Workfront의 어디에도 표시되지 않으므로 사용자가 문제에 대해 심각도를 선택할 수 없습니다.</p> 
-      <p><b>중요</b>: 더 이상 사용하지 않을 심각도를 삭제하지 말고 숨기는 것이 좋습니다. 이렇게 하면 심각도가 이미 완료된 객체에 대한 모든 내역 데이터를 유지하면서 나중에 사람들이 심각도를 사용하지 못하도록 할 수 있습니다.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **심각도 이름**: 심각도의 이름을 입력하십시오.
+   * **중요도**: 심각도에 대해 원래 Workfront에서 할당한 심각도의 수준을 높이거나 낮춥니다.
+
+     각 심각도의 중요도 번호는 고유해야 합니다. 가장 높은 숫자는 가장 높은 수준의 심각도에 해당합니다.
+
+     심각도를 저장한 후에는 이 숫자를 편집할 수 없습니다.
+
+   * **색상**: 심각도의 색상을 선택하십시오.
+
+     심각도의 색상은 문제 심각도별로 결과를 그룹화할 때 차트 보고서에 사용됩니다. 차트 보고서에 대한 자세한 내용은 [보고서에 차트 추가](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)를 참조하십시오.
+
+   * **기본 심각도**: 새로 만든 모든 문제에 Workfront을 자동으로 적용할 심각도를 선택하십시오.
+
+     **Cosmetic**&#x200B;은(는) Workfront 문제에 대한 기본 심각도입니다.
+
+     숨겨진 심각도를 기본값으로 설정할 수 없습니다.
+
+     <div class="preview">
+
+     기본 심각도는 ![기본 심각도 아이콘](assets/default-icon.png) 아이콘으로 표시됩니다. 새 기본값을 선택하려면 다음 중 하나를 수행합니다.
+
+      * 심각도 이름 옆에 있는 확인란을 선택하고 화면 하단의 작업 표시줄에서 **기본값으로 설정**&#x200B;을 선택합니다.
+      * 심각도 이름 위로 마우스를 가져간 후 표시되는 **자세히** 메뉴를 클릭합니다. **기본값으로 설정**&#x200B;을 선택합니다.
+
+        새 기본 심각도는 아이콘으로 레이블이 지정됩니다.
+
+     </div>
+
+   * **설명**: 기능을 설명하기 위해 심각도에 대한 설명을 입력하십시오.
+   * <span class="preview">**선택 항목 숨기기**</span> 또는 **숨기기**: <span class="preview">더 이상 필요하지 않은 심각도를 숨기려면 **예**</span>&#x200B;를 선택하거나 확인란을 선택하십시오.
+
+     숨겨진 심각도는 Workfront의 어디에도 표시되지 않으므로 사용자가 문제에 대해 심각도를 선택할 수 없습니다.
+
+     >[!IMPORTANT]
+     >
+     >더 이상 사용하지 않을 심각도를 삭제하는 대신 숨기는 것이 좋습니다. 이렇게 하면 심각도가 이미 완료된 객체에 대한 모든 내역 데이터를 유지하면서 나중에 사람들이 심각도를 사용하지 못하도록 할 수 있습니다.
 
 1. (선택 사항) 심각도를 원하는 순서로 드래그 앤 드롭하여 목록 순서를 변경합니다.
 

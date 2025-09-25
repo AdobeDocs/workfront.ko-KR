@@ -6,7 +6,7 @@ description: Adobe Workfront에서 심각도를 문제와 연결할 수 있습�
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Workfront의 다음 영역에서 문제의 심각도를 업데이트할 수 있�
 
 1. **기본 정보** 영역의 **심각도** 필드를 클릭합니다.
 
-   ![문제 심각도](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
+   ![문제 심각도](assets/issue-severity-field.png)
 
 1. 드롭다운 메뉴에서 적절한 **심각도**&#x200B;을(를) 선택합니다.
 
