@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
+source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
 workflow-type: tm+mt
-source-wordcount: '8092'
+source-wordcount: '8031'
 ht-degree: 0%
 
 ---
@@ -216,13 +216,13 @@ Workfront의 다른 영역 디자인에 맞게 프로그램 편집 상자의 모
 
 자세한 내용은 [프로젝트 템플릿 편집](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)을 참조하십시오.
 
-### 마일스톤 보기를 적용할 때 프로젝트 목록 또는 보고서의 인터페이스 업데이트
+<!--### Interface updates for a project list or report when applying the Milestone view
 
-**미리 보기 릴리스: 2025년 9월 11일, 프로덕션 릴리스: 2025년 9월 18일**
+**Preview release: September 11, 2025; Production release: September 18, 2025**
 
-마일스톤 보기를 적용할 때 프로젝트 목록 또는 보고서의 디자인을 업데이트했습니다.
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-이제 프로젝트 목록 또는 보고서가 Workfront의 다른 영역 디자인과 일치합니다. 자세한 내용은 [마일스톤 보기 사용](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)을 참조하세요.
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### 템플릿 없이 작업을 프로젝트로 전환 의 인터페이스 변경 사항
 
