@@ -5,9 +5,9 @@ author: Lisa
 hide: true
 hidefromtoc: true
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: e94cbfd9c503936539dbe011e787533222896202
+source-git-commit: 1342574cb5f410d92ad4bce369c9804d3129e656
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 모든 작업 역할과 비율을 수동으로 추가하는 대신 템플릿 파일을 사용하여 비율 카드를 Excel에서 작성하고 Adobe Workfront으로 가져올 수 있습니다.
 
-이 문서에 설명된 예제 속도 카드를 보려면 [샘플 파일](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/import-rate-cards/assets/rate-cards-sample.zip)을 다운로드하십시오.
+이 문서에 설명된 예제 속도 카드를 보려면 [샘플 파일](assets/rate-cards-sample.zip)을 다운로드하십시오.
 
 ## 템플릿 파일 작업에 대한 중요한 규칙
 
