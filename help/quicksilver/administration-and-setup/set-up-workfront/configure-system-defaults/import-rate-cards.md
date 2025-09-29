@@ -4,17 +4,19 @@ description: 템플릿 파일을 사용하여 Excel에서 요금 카드를 작�
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
+exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
+source-git-commit: e94cbfd9c503936539dbe011e787533222896202
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
 
-
 # 템플릿에서 비율 카드 가져오기
 
 모든 작업 역할과 비율을 수동으로 추가하는 대신 템플릿 파일을 사용하여 비율 카드를 Excel에서 작성하고 Adobe Workfront으로 가져올 수 있습니다.
+
+이 문서에 설명된 예제 속도 카드를 보려면 [샘플 파일](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/import-rate-cards/assets/rate-cards-sample.zip)을 다운로드하십시오.
 
 ## 템플릿 파일 작업에 대한 중요한 규칙
 
@@ -179,6 +181,3 @@ ht-degree: 0%
 1. 파일에 문제가 있는 경우 오류 메시지가 나타납니다. **문제 보기**&#x200B;를 클릭하여 별도의 화면에서 문제를 봅니다.
 
    Workfront에 요금 카드가 존재하기 전에 Excel 파일의 문제를 수정하고 다시 가져와야 합니다.
-
-
-
