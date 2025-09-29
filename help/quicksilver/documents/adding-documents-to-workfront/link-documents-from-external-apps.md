@@ -6,9 +6,9 @@ description: 외부 소스에서 문서 및 폴더를 Adobe Workfront에 연결�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2568'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
    <td role="rowheader">기존 타사 클라우드 문서 공급자</td> 
    <td>여기에는 다음이 포함됩니다. 
     <ul> 
-     <li>Box</li> 
+     <li>확인란</li> 
      <li>Dropbox</li> 
      <li>Dropbox Business</li> 
      <li>WebDAM</li> 
@@ -39,19 +39,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>원래 Workfront Proof 내에서 만들어진 증명을 Workfront 내에서 사용할 수 있도록 만들 수 있습니다. 현재 라이선스의 경우 이 기능을 사용하려면 Pro Workfront 플랜 이상이 필요합니다. 새 라이센스의 경우 모든 플랜에 이 기능이 포함됩니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront 플랜</a>을 참조하십시오.</td> 
+   <td>원래 Workfront Proof 내에서 만들어진 증명을 Workfront 내에서 사용할 수 있도록 만들 수 있습니다.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>Experience Manager Assets Essentials에서 문서를 Workfront에 연결할 수 있습니다. 자세한 내용은 Experience Manager Assets Essentials용 Adobe Workfront <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref">을(를) 참조하십시오</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM </td> 
-   <td>이를 위해서는 추가 구매가 필요합니다. </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader">기타 문서 공급자(사용자 지정 문서 통합을 통해)</td> 
-   <td> <p class="workfront_plans">현재 라이선스의 경우 이 기능을 사용하려면 Pro Workfront 플랜 이상이 필요합니다. 새 라이센스의 경우 모든 플랜에 이 기능이 포함됩니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront 플랜</a>을 참조하십시오.</p> </td>
+   <td> <p class="workfront_plans">이러한 통합은 설정 영역에서 구성할 수 있습니다.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,6 +96,13 @@ Workfront에 직접 업로드한 문서를 사용하는 것과 동일한 방식�
 
 * 문서 서비스에서 제공하는 경우 썸네일 및 미리보기 이미지가 Workfront 서버에 저장될 수 있습니다.
 * Workfront에서 증명을 사용하는 경우 문서가 복사되고 증명 서버에 추가됩니다.
+
+## 파일 크기 제한
+
+타사 클라우드 공급자:
+
+* 단일 파일: 5GB 이하
+* 여러 파일: 1GB 이하(전체 파일)
 
 ## 외부 애플리케이션의 문서를 Workfront에 연결
 
@@ -194,7 +198,7 @@ Google 및 Microsoft OneDrive와 같은 외부 애플리케이션에서 Workfron
    >
    >Box에 연결된 문서의 경우 페이지를 새로 고칠 때까지 Box에 있는 문서에 대한 링크가 표시되지 않습니다.
 
-파일 시스템에서 Workfront에 업로드한 새 버전의 문서를 추가하는 방법에 대한 자세한 내용은 [파일 시스템에서 Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)에서 [Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront)를 참조하십시오.
+파일 시스템에서 Workfront에 업로드한 새 버전의 문서를 추가하는 방법에 대한 자세한 내용은 [파일 시스템에서 Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront)에서 [Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)를 참조하십시오.
 
 ### Workfront Proof 문서 연결 {#link-workfront-proof-documents}
 
