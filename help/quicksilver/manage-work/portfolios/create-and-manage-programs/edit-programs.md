@@ -6,9 +6,9 @@ description: 사용자가 만든 프로그램이나 다른 사용자가 사용�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b47c87a1a3d7516f7b1fed6e1abf84a84c453609
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '988'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 1%
    >
    >프로그램에 대한 모든 정보를 편집하려면 4단계로 이동하십시오.
 
-   ![사용자 정의 양식 섹션을 사용한 프로그램 세부 정보](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![사용자 정의 양식 섹션이 있는 프로그램 세부 정보](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -99,14 +99,14 @@ ht-degree: 1%
 
 1. 하나 이상의 프로그램에 대한 모든 정보를 편집하려면 다음 중 하나를 수행하십시오.
 
-   * 프로그램 이름 옆에 있는 **[!UICONTROL 자세히]** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 {&#x200B;4}편집&#x200B;**[!UICONTROL .]**
+   * 프로그램 이름 옆에 있는 **[!UICONTROL 자세히]** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL 편집].**&#x200B;을 클릭합니다.
    * 프로그램 목록으로 이동하여 편집할 프로그램을 하나 이상 선택한 다음 목록 맨 위에 있는 **[!UICONTROL 편집]** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
-   **[!UICONTROL 프로그램 편집]** 대화 상자가 표시됩니다.
+     **[!UICONTROL 프로그램 편집]** 상자가 표시됩니다.
 
-   ![프로그램 상자 편집](assets/edit-program-0925.png)
+     ![프로그램 상자 편집](assets/edit-program-0925.png)
 
-   모든 프로그램 필드는 [!UICONTROL 프로그램 편집] 상자에서 사용할 수 있으며 왼쪽 패널에 나열된 영역별로 그룹화됩니다.
+     모든 프로그램 필드는 [!UICONTROL 프로그램 편집] 상자에서 사용할 수 있으며 왼쪽 패널에 나열된 영역별로 그룹화됩니다.
 
 1. 다음 섹션 중 하나에서 정보를 지정하는 것이 좋습니다.
 
@@ -136,26 +136,29 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL 이름]</td> 
-      <td> <p>프로그램 이름을 업데이트합니다. </p> <p>팁: 두 개 이상의 프로그램을 선택한 경우에는 사용할 수 없습니다. </p> </td> 
+      <td> <p>프로그램 이름을 업데이트합니다. </p> <p><b>팁</b></p><p>두 개 이상의 프로그램을 선택한 경우에는 사용할 수 없습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 설명]</td> 
-      <td> <p>Portfolio에 대한 고유한 사항을 나타내도록 설명에 정보를 입력합니다. </p> </td> 
+      <td> <p>포트폴리오에 대한 고유한 사항을 나타내도록 포트폴리오에 대한 설명을 입력합니다. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 프로그램 관리자]</td> 
-      <td> <p>프로그램 관리자로 표시할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 프로그램의 프로젝트에 정의된 작업을 감독할 수 있는 사람입니다. </p> <p>중요: 프로그램 관리자로 지정하면 프로그램 및 프로그램의 프로젝트에 대한 [!UICONTROL 관리] 권한이 자동으로 부여됩니다. </p> <p>팁: 프로그램 헤더에서 프로그램 관리자를 빠르게 업데이트할 수 있습니다. </p> </td> 
+      <td> <p>프로그램 관리자로 표시할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 프로그램의 프로젝트에 정의된 작업을 감독할 수 있는 사람입니다. </p> <p><b><p>중요 사항</b></p> <p>사용자를 프로그램 관리자로 지정하면 프로그램 및 프로그램의 프로젝트에 대한 [!UICONTROL 관리] 권한이 자동으로 부여됩니다. </p> <p><b>팁</b></p> <p>프로그램 헤더에서 프로그램 관리자를 빠르게 업데이트할 수 있습니다. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>그룹이 프로그램과 연결되어 있거나 프로그램 완료를 위한 권한이 있는 경우 단일 그룹의 이름을 추가합니다. </p> <p>팁:  <p>[!UICONTROL 프로그램 세부 사항] 페이지에서 [!UICONTROL 그룹] 필드에 액세스할 때 다음을 수행합니다. </p> <p>마우스로 가리키고 그 옆에 표시되는 [!UICONTROL 정보] 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>[!UICONTROL 프로그램 편집] 상자에서는 이 옵션을 사용할 수 없습니다. </p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 이 활성화됨]</td> 
-      <td> <p> 프로그램을 활성화하려면 이 확인란을 선택합니다. 다른 사용자는 활성 프로그램을 찾아 프로젝트에 첨부하거나 포트폴리오에 추가할 수 있습니다. 비활성 프로그램은 프로젝트 또는 포트폴리오에 연결할 수 없습니다. 이 기능은 기본적으로 활성화되어 있습니다.</p> </td> 
+      <td> <p>그룹이 프로그램과 연결되어 있거나 프로그램 완료를 위한 권한이 있는 경우 단일 그룹의 이름을 추가합니다. </p> <p><b>팁</b></p>  <p>[!UICONTROL 프로그램 세부 정보] 페이지에서 [!UICONTROL 그룹] 필드에 액세스할 때 다음 작업을 수행하여 올바른 그룹을 선택했는지 확인합니다. </p> <p>그룹 이름을 마우스로 가리킨 다음 그 옆에 있는 [!UICONTROL 정보] 아이콘 <img src="assets/info-icon.png">을(를) 클릭합니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>[!UICONTROL 프로그램 편집] 상자에서는 이 옵션을 사용할 수 없습니다. </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
+
+   <!--this was removed from the unshimmed version - asking on the epic:
+   <tr> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
+      <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
+     </tr> -->
+
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하거나 다음 섹션을 계속 편집하십시오.
 
@@ -184,4 +187,5 @@ ht-degree: 1%
 1. (선택 사항) [!UICONTROL **내 회사에 비공개**]&#x200B;를 선택하여 댓글을 잠그고 회사의 사용자에게만 비공개로 설정합니다.
 
    변경 내용을 저장하면 추가한 댓글이 프로그램의 [!UICONTROL 업데이트] 탭에 표시되고 이에 포함된 사용자에게 전자 메일을 보냅니다.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다
 

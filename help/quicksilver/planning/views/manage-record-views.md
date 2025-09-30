@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1287'
 ht-degree: 1%
 
 ---
 
 
 # 레코드 보기 관리
+
+<!-- take preview and production references out at production-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -192,30 +194,32 @@ Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 
    * 프로덕션 환경에서 **+보기** 탭을 클릭합니다.
    * <span class="preview">미리 보기 환경에서 현재 보기 이름 옆에 있는 드롭다운 아이콘 ![드롭다운 아이콘](assets/drop-down-icon.png)을 클릭한 다음 **+새 보기**&#x200B;를 클릭합니다.</span>
 
-1. <span class="preview">보기 드롭다운 메뉴에서 원하는 순서대로 보기를 끌어서 놓습니다.</span>
 1. 다음 유형의 뷰 중에서 선택합니다.
 
    * 테이블
    * 타임라인
    * 캘린더
 
-   선택한 보기로 새 탭이 만들어집니다.
+   프로덕션 환경에서는 선택한 뷰로 새 탭이 만들어집니다.
 
    화면의 너비에 따라 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)에 추가 보기가 표시될 수 있습니다.
 
+   >[!TIP]
+   >
+   >레코드 유형을 만들면 기본적으로 테이블 뷰도 만들어집니다.
+   >
+   >타임라인 또는 달력 보기를 만들려면 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다.
+   >
+   >그렇지 않으면 [타임라인] 및 [달력] 옵션이 흐리게 표시됩니다.
+   >
 
->[!TIP]
->
->레코드 유형을 만들면 기본적으로 테이블 뷰도 만들어집니다.
->
->타임라인 또는 달력 보기를 만들려면 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다.
->
->그렇지 않으면 [타임라인] 및 [달력] 옵션이 흐리게 표시됩니다.
->
+   <span class="preview">미리 보기 환경에서 보기 유형을 선택한 다음 **만들기**&#x200B;를 클릭합니다. 드롭다운 메뉴에 새 보기가 추가됩니다. </span>
 
-<!-- replace screen shot at production??-->
+   <span class="preview">![보기 상자 만들기](assets/create-view-box.png)</span>
 
-![레코드 형식 목록의 보기 형식 드롭다운](assets/view-types-drop-down-from-record-type-list.png)
+1. <span class="preview">보기 드롭다운 메뉴에서 원하는 순서대로 보기를 끌어서 놓습니다.</span>
+
+   <span class="preview">![레코드 형식 목록의 보기 형식 드롭다운](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. (조건부) 타임라인 또는 달력 보기를 만들 때 **다음**&#x200B;을 클릭합니다.
 

@@ -6,14 +6,16 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3935'
 ht-degree: 2%
 
 ---
 
 # 타임라인 보기 관리
+
+<!--remove preview and production references at production-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -117,9 +119,9 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 타임라인 보기를 관리하려면 다음을 수행합니다.
 
 1. 타임라인을 보려는 레코드 유형 페이지로 이동합니다.
-1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 타임라인 보기를 만듭니다.
+1. <span class="preview">문서 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)에 설명된 대로 타임라인 보기를 만듭니다. </span>
 
-   ![타임라인 보기 예](assets/timeline-view-example.png)
+   <span class="preview">![타임라인 보기 예](assets/timeline-view-example.png)</span>
 
    선택한 레코드 유형과 연관된 레코드는 타임라인에 막대로 표시되며 기본적으로 시작 날짜의 시간순으로 정렬됩니다.
 
@@ -173,9 +175,9 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
 1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
 
-   1. **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 수가 표시되고 올바른 일치 항목이 있는 레코드가 강조 표시됩니다.
+   1. <span class="preview">**검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 수가 표시되고 올바른 일치 항목이 있는 레코드가 강조 표시됩니다. </span>
 
-      ![검색 상자 및 결과 타임라인 보기](assets/search-box-and-results-timeline-view.png)
+      <span class="preview">![검색 상자 및 결과 타임라인 보기](assets/search-box-and-results-timeline-view.png)</span>
 
       화면에 표시되는 모든 단어 또는 특수 문자를 사용할 수 있습니다.
 
@@ -353,23 +355,21 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 타임라인 보기에서 그룹화를 추가하려면 다음을 수행합니다.
 
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
-1. 타임라인 보기의 오른쪽 상단 모서리에서 **그룹화**&#x200B;을(를) 클릭합니다.
+1. <span class="preview">타임라인 보기의 오른쪽 상단 모서리에서 **그룹화**&#x200B;를 클릭합니다.</span>
 
-   ![연결된 필드가 있는 UI 타임라인 보기 그룹화](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![연결된 필드가 있는 UI 타임라인 보기 그룹화](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;을 클릭하고 다른 필드를 검색한 다음 목록에 표시될 때 해당 필드를 클릭합니다.
 
    그룹화는 타임라인에 자동으로 적용되며 그룹화 상자 내에 레코드가 표시됩니다.
 
-   <!-- add a step that you can rearrange the groupings here, when this will be possible-->
-
 1. (선택 사항) 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
 
-   그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
+   <span class="preview">그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.</span>
 
-   <!-- update screen shot with view redesign-->
+   <span class="preview">![타임라인 보기에서 적용된 그룹화](assets/grouping-applied-in-timeline-view.png)</span>
 
-   ![그룹화가 타임라인 보기에 적용됩니다](assets/grouping-applied-in-timeline-view.png)
+1. **레코드 그룹화 기준** 상자에서 그룹화를 올바른 순서로 끌어서 놓습니다.
 
 1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
 
@@ -530,7 +530,11 @@ this is not possible right now; if this is the same functionality as the table v
 1. **Standard** 또는 **Compact** 모드에서 타임라인 보기의 오른쪽 상단에 있는 **분류**&#x200B;를 클릭합니다.
 1. **연결된 레코드 종류 선택** 상자를 확장하고 연결된 레코드 종류를 선택합니다. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
+   <div class="preview">
+
    ![타임라인 보기의 분류 선택 및 단추](assets/breakdown-picker-and-button-on-timeline.png)
+
+   </div>
 
    >[!TIP]
    >
@@ -543,7 +547,7 @@ this is not possible right now; if this is the same functionality as the table v
    >    시작 및 종료 날짜는 순차적이어야 합니다. 종료 날짜가 시작 날짜 이전이면 타임라인에 레코드가 표시되지 않습니다.
 
    다른 레코드와 연결된 경우 타임라인에서 선택한 레코드의 막대에 오른쪽 방향 화살표가 표시됩니다.
-1. 레코드 유형을 확장하고 해당 연결을 표시하려면 오른쪽 화살표를 클릭합니다.
+1. 레코드 유형을 확장하고 해당 연결을 표시하려면 오른쪽 화살표를 클릭합니다. <!--update screen shot at production-->
 
    ![타임라인 보기의 프로그램별로 분류된 캠페인](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 

@@ -6,9 +6,9 @@ description: 한 오브젝트에 첨부된 사용자 정의 양식의 표시 순
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
+source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -28,25 +28,25 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>요청 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식을 관리하는 객체에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>사용자 정의 양식을 관리하는 객체에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>사용자 정의 양식을 관리하는 오브젝트에 권한 이상 부여</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>사용자 정의 양식을 관리하는 오브젝트에 권한 이상 부여</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
@@ -73,18 +73,13 @@ ht-degree: 0%
 >
 >객체에서 사용자 정의 양식을 제거하면 양식의 사용자 정의 필드에 캡처된 모든 정보가 손실되어 복구할 수 없습니다.
 
-1. 사용자 정의 양식을 제거할 객체로 이동한 다음 객체 편집을 시작합니다.
+1. 사용자 정의 양식을 제거할 개체로 이동한 다음, 개체의 왼쪽 패널에서 **세부 정보** 섹션을 클릭합니다.
 
-   예를 들어 프로젝트로 이동하여 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집** 을 클릭합니다.
+   예를 들어 프로젝트로 이동하여 **프로젝트 세부 정보** 섹션을 클릭합니다.
 
-1. **사용자 지정 Forms**&#x200B;을 클릭합니다.
-1. 프로젝트, 작업 및 문제 사용자 정의 양식의 경우 양식의 오른쪽에 있는 **X** 아이콘을 클릭하여 개체에서 제거합니다.
-
-   다른 모든 개체의 경우 **Forms 관리**&#x200B;를 클릭한 다음 양식 오른쪽에 있는 **X** 아이콘을 클릭하여 개체에서 제거합니다.
-
-1. <span class="preview">열린 대화 상자에서 **제거**.</span>를 클릭합니다.
-
-1. **저장** 을 클릭합니다.
+1. 개체 페이지의 오른쪽 상단에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 **모두 편집**&#x200B;을 클릭합니다.
+1. 사용자 정의 양식 이름의 오른쪽에 있는 **삭제** 아이콘 ![](assets/delete-icon.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭하여 양식을 확인하고 개체에서 제거하거나 **취소**&#x200B;를 클릭하여 제거하지 마십시오.
+1. **변경 내용 저장** 을 클릭합니다.
 
 ## 동일한 사용자 정의 필드를 포함하는 여러 사용자 정의 양식 관리
 

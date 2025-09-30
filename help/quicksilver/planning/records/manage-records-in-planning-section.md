@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1878'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Workfront 개체에서 레코드 연결 관리
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
 {{planning-important-intro}}
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto">
  <col>
@@ -127,6 +127,9 @@ Workfront 객체의 계획 섹션에서 Workfront Planning 레코드를 볼 때�
    * [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [기록 연결](/help/quicksilver/planning/records/connect-records.md)
 * Workfront 객체와 연관된 레코드가 없는 경우에도 Workfront 객체에서 계획 섹션을 볼 수 있습니다.
+* <span class="preview">두 레코드 형식 간에 연결을 만들 때 연결된 레코드 형식 설정에서 해당 필드 만들기를 사용하도록 설정한 경우에만 레코드 형식이 Workfront 개체의 계획 영역에만 표시됩니다.</span>
+
+  자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
 ### 계획 섹션에서 레코드 연결 관리
 
@@ -165,7 +168,7 @@ Workfront 객체의 계획 섹션에서 Workfront Planning 레코드를 볼 때�
 1. 레코드에 대한 자세한 내용을 표시하려면 레코드 카드를 클릭합니다. 레코드 미리 보기 상자가 표시됩니다.
 1. (선택 사항) 레코드의 미리 보기 상자에서 필드 수정을 시작합니다. 변경 사항은 자동으로 저장됩니다.
 1. (선택 사항) 미리 보기 상자의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭하여 레코드의 세부 정보 페이지를 엽니다. 레코드의 세부 사항 페이지가 Workfront Planning에 열립니다.
-1. (선택 사항) 레코드 카드 위로 마우스를 가져간 다음 레코드 연결 끊기 아이콘 **-**&#x200B;을 클릭한 다음 **연결 끊기**&#x200B;를 클릭합니다.
+1. (선택 사항) 레코드 카드 위로 마우스를 가져간 다음 레코드 연결 끊기 아이콘 **-**&#x200B;을 클릭한 다음 **연결 끊기**를 클릭합니다.
 다음과 같은 상황이 발생합니다.
    * 레코드가 더 이상 Workfront 개체에 연결되어 있지 않습니다.
    * Workfront 개체는 Workfront Planning에서 레코드의 연결된 필드에서도 제거됩니다.
@@ -214,6 +217,9 @@ Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를
 
   예를 들어 Planning 연결 필드가 있는 사용자 정의 양식을 작업에 첨부할 수 있지만 Workfront Planning 객체를 작업에 연결할 수는 없습니다.
 * Workfront 오브젝트를 일괄적으로 편집할 때는 Planning 연결 필드를 편집할 수 없습니다.
+* <span class="preview">두 레코드 형식 간에 연결을 만들 때 연결된 레코드 형식 설정에서 해당 필드 만들기를 사용하도록 설정한 경우에만 레코드 형식이 Workfront 개체의 Planning 연결 사용자 지정 필드에만 표시됩니다.</span>
+
+  자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
 ### Planning 연결 필드 유형에서 레코드 연결 관리
 

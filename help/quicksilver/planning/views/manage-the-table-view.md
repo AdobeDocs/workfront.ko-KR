@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '3494'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -100,7 +100,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++   
 
 ## 표 보기를 사용하여 레코드 편집
 
@@ -114,13 +114,13 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 테이블 뷰를 관리하려면 다음을 수행합니다.
 
-1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 테이블 보기를 만듭니다.
+1. <span class="preview">문서 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)에 설명된 대로 테이블 보기를 만듭니다.</span>
 
-   ![테이블 보기 예제](assets/table-view-example.png)
+   <span class="preview">![테이블 보기 예제](assets/table-view-example.png)</span>
 
 1. (선택 사항) **행 높이**&#x200B;를 클릭한 후 다음 옵션 중에서 선택하여 테이블 행의 높이를 수정합니다.
    * 짧음
-   * 중간
+   * 보통
    * 높음
 
 1. <span class="preview">(선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면에서 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 눌러 전체 화면을 종료합니다.  </span>
@@ -159,7 +159,11 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
    * 표의 도구 모음에서 **필드**&#x200B;를 클릭한 다음 원하는 순서로 필드를 끌어다 놓은 다음 **필드 표시 및 순서** 상자 외부를 클릭하여 닫습니다.
 
+     <div class="preview">
+
      ![필드 설정 테이블 보기 도구 모음 확장](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     </div>
 
 
      >[!TIP]
@@ -203,9 +207,9 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
 
-   1. **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 항목 수가 표시되고 올바른 일치 항목이 있는 필드가 강조 표시됩니다.
+   1. <span class="preview">**검색** 상자에서 ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오.</span> 검색 항목 옆에 올바른 일치 항목 수가 표시되고 올바른 일치 항목이 있는 필드가 강조 표시됩니다.
 
-      ![테이블 보기에서 결과가 파란색으로 표시된 검색 상자](assets/search-box-with-results-blue-outline-table-view.png)
+      <span class="preview">![테이블 보기에서 결과가 파란색으로 표시된 검색 상자](assets/search-box-with-results-blue-outline-table-view.png)</span>
 
       화면에 표시되는 모든 단어 또는 특수 문자를 사용할 수 있습니다.
 
@@ -324,7 +328,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
             <p>비어 있지 않음</p></td>
         </tr>
         <tr>
-            <td>일자</td>
+            <td>Date</td>
             <td><p>다음과 같음</p>
             <p>다음이 아님</p>
             <p>다음 이후</p>
@@ -459,9 +463,13 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 1. (선택 사항) **조건 추가**&#x200B;를 클릭하고 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
 
+   <div class="preview">
+
    그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
 
    ![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)
+
+   </div>
 
 1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
 
