@@ -6,16 +6,16 @@ description: 한 오브젝트에 첨부된 사용자 정의 양식의 표시 순
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
 
 # 오브젝트에 첨부된 사용자 정의 양식 관리
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 일부 고객 그룹에서 사용할 수 있습니다.</span>
 
 한 오브젝트에 첨부된 사용자 정의 양식의 표시 순서를 업데이트하거나 제거하거나 여러 오브젝트에 사용자 정의 양식이 표시되는 방식을 벌크 편집할 수 있습니다.
 
@@ -41,7 +41,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>사용자 정의 양식을 관리하는 오브젝트에 대한 Contribute 권한 이상</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>사용자 정의 양식을 관리하는 오브젝트에 권한 이상 부여</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,6 +81,8 @@ ht-degree: 0%
 1. 프로젝트, 작업 및 문제 사용자 정의 양식의 경우 양식의 오른쪽에 있는 **X** 아이콘을 클릭하여 개체에서 제거합니다.
 
    다른 모든 개체의 경우 **Forms 관리**&#x200B;를 클릭한 다음 양식 오른쪽에 있는 **X** 아이콘을 클릭하여 개체에서 제거합니다.
+
+1. <span class="preview">열린 대화 상자에서 **제거**.</span>를 클릭합니다.
 
 1. **저장** 을 클릭합니다.
 
