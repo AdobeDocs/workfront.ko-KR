@@ -5,21 +5,14 @@ description: AI를 사용하여 이전 요청의 데이터를 사용하여 요�
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
+source-git-commit: 21039f9ab14529b56935d65e0261dc1ce068918c
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # 이전 요청의 데이터를 사용하여 요청 자동 완성
-
->[!NOTE]
->
->* 이 기능은 다음 일정에 따라 공개 베타로 사용할 수 있습니다.
->
->   * 월별 릴리스: 2025년 9월 11일
->   * 분기별 릴리스: 2025년 10월 16일
 
 AI를 통해 이전 요청을 기반으로 요청 필드를 자동 완성할 수 있습니다. 요청을 제출하기 전에 이러한 제안을 승인하거나 거부할 수 있습니다.
 
