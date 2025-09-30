@@ -6,14 +6,16 @@ description: 사용자의 추가 개입 없이 사용자에 대해 반복 타임
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
+source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1641'
 ht-degree: 2%
 
 ---
 
 # 타임시트 프로필 만들기, 편집 및 할당
+
+{{highlighted-preview}}
 
 <!--Audited: 06/2025-->
 
@@ -85,8 +87,7 @@ ht-degree: 2%
 
    새 또는 기존 타임시트 프로필 페이지가 표시됩니다.
 
-
-1. **세부 정보 설정** 탭을 클릭한 다음 <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI--> 정보를 업데이트합니다.
+1. 다음 정보를 업데이트합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -155,6 +156,10 @@ ht-degree: 2%
    <b>참고</b>: 승인을 위해 타임시트를 제출하면 더 이상 시간을 편집할 수 없습니다. 제출된 타임시트를 편집 가능한 상태로 되돌리려면 타임시트를 불러오거나 승인자가 타임시트를 거부하도록 하십시오. 자세한 내용은 <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">승인을 위한 타임시트 제출</a> 및<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">타임시트 승인</a>을 참조하세요.</p> </p> </td>
    </tr> 
      <tr> 
+      <td role="rowheader"><strong>초과 작업 시간</strong> </td> 
+      <td>타임시트에서 초과 작업 시간 상자를 숨기도록 선택할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>사용 가능한 시간 유형</strong> </td> 
       <td><p>이 설정은 일반 시간 유형만 참조하고 프로젝트별 시간 유형은 참조하지 않습니다. </p>
       <p>기본적으로 사용자는 타임시트에 모든 일반 시간을 볼 수 있습니다. 그러나 조직에서 특정 사용자 집합에 대해 특정 일반 시간만 표시하기를 원하는 경우 이 필드의 타임시트 프로필에서 일반 시간을 선택하여 타임시트에 표시해야 하는 일반 시간을 선택할 수 있습니다. 모든 일반 시간을 비활성화하려면 모든 시간 유형을 선택 해제하여 일반 시간에 대한 섹션 없이 타임시트를 생성합니다.</p></td> 
@@ -165,14 +170,9 @@ ht-degree: 2%
       <td> <p> 미리 알림을 추가합니다. Workfront은 사용자에게 타임시트를 완료하거나 승인하도록 요청하는 미리 알림을 보냅니다. 미리 알림을 타임시트 프로필과 연결하려면 먼저 미리 알림을 만들어야 합니다.  </p> </td> 
      </tr>
 
-   <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">초과 작업 시간</span> </td> 
-      <td>타임시트에서 초과 작업 시간 상자를 숨기도록 선택할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. 프로덕션에서 그룹 수준 타임시트 프로필을 만들 때 **사람 할당** 탭을 클릭하여 타임시트 프로필을 특정 사용자, 그룹 또는 (Workfront 관리자인 경우) 팀과 연결합니다. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. 그룹 수준 타임시트 프로필을 만들 때 **사람 할당** 탭을 클릭하여 타임시트 프로필을 특정 사용자, 그룹 또는 (Workfront 관리자인 경우) 팀과 연결합니다. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+   <span class="preview">미리 보기에서 그룹 수준 타임시트 프로필을 만들 때 페이지 아래쪽으로 스크롤하여 **사람 할당** 섹션을 찾습니다.</span>
 
    시스템에 대한 타임시트 프로필을 만들 때 페이지 아래쪽으로 스크롤하여 **사람 할당** 섹션을 찾습니다. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
@@ -188,13 +188,13 @@ ht-degree: 2%
 
 1. **저장**&#x200B;을 클릭합니다.
 
-1. 타임시트 프로필 목록의 맨 위에서 시스템 수준 타임시트 프로필의 경우 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png), 그룹 타임시트 프로필의 경우 **자세히**&#x200B;를 클릭한 다음 **타임시트 생성**&#x200B;을 클릭합니다.
+1. 타임시트 프로필 목록의 맨 위에서 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **타임시트 생성**&#x200B;을 클릭합니다.
 
    타임시트가 성공적으로 생성되었다는 확인 메시지가 화면 맨 아래에 표시됩니다. 새 타임시트는 사용자가 만든 새 프로필을 기반으로 생성됩니다.
 
    자세한 내용은 [수동으로 타임시트 생성](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)을 참조하십시오.
 
-   타임시트 프로필에서 타임시트를 처음 생성할 때 현재 시간을 포함하는 시간대와 다음 시간대에 대해 각 사용자에 대해 2개의 타임시트가 만들어집니다.
+   타임시트 프로필에서 타임시트를 처음 생성할 때 현재 시간을 포함하는 시간대와 다음 시간대에 대해 각 사용자에 대해 두 개의 타임시트가 만들어집니다.
 
    이후 새 타임시트를 생성할 때마다 사용자당 하나의 타임시트가 생성됩니다.
 
