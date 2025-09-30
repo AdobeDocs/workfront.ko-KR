@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: '3426'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -148,9 +148,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
   >
   >이 옵션은 미리보기 및 샌드박스 환경에서만 사용할 수 있습니다. 이메일 알림은 기본적으로 프로덕션 환경에서 활성화됩니다.
 
-<!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
-
-* **내가 자신에게 할당한 작업을 내 처리 중 탭으로 보내기**: 이 옵션을 선택하면 사용자가 직접 할당한 작업이 새로 만들기 대신 진행 중 상태로 자동 설정됩니다. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **작업이 자동으로 할당되면 작업 상태를 진행 중으로 자동 설정**: 이 옵션을 선택하면 사용자가 자동으로 할당한 작업이 새로 만들기 대신 진행 중으로 자동 설정됩니다.
 
 * **문서를 업로드할 때 자동으로 증명 생성**: 사용자가 업로드하는 문서에서 즉시 증명을 생성하려면 이 옵션을 선택하십시오.
 

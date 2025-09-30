@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Workfront 사용자 프로필의 모양과 느낌을 Workfront의 다른 영역�
 현재 사용자 프로필과 다음과 같은 몇 가지 기능 차이가 있습니다.
 
 * 일부 확인란(예: 사용자를 활성으로 표시)이 전환 또는 버튼으로 변경되었습니다.
-* 환경 설정 아래의 &quot;자신에게 할당한 작업을 내 처리 중 탭으로 보내기&quot; 옵션은 더 이상 사용되지 않는 기능을 참조하므로 제거되었습니다.
+* 환경 설정 아래의 &quot;자신에게 할당한 작업을 내 처리 중 탭으로 보내기&quot; 옵션의 이름이 해당 목적을 반영하도록 &quot;작업이 자동으로 할당되면 작업 상태를 진행 중으로 자동 설정&quot;으로 변경되었습니다.
 
 자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
