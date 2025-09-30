@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 미리 보기: 2025년 9월 25일
->* 프로덕션 빠른 릴리스: 2025년 10월 15일
->* 모든 고객을 위한 프로덕션: 2025년 10월 16일
+>* 미리 보기: 2025년 9월 24일
+>* 모든 고객을 위한 프로덕션: 2025년 9월 25일
 
 필요한 데이터에 대한 액세스 권한을 보유하는지 확인하기 위해 개체에서 사용자 정의 양식을 제거할 때 확인 대화 상자를 추가했습니다. 객체에서 사용자 정의 양식을 제거하면 해당 양식의 데이터가 객체에서 영구적으로 제거됩니다. 이제 이 대화 상자에서 이 데이터가 제거된다는 사실을 확인함으로써 필요한 데이터를 제거하지 않도록 할 수 있습니다.
 
