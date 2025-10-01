@@ -6,12 +6,10 @@ description: Frame.io 통합을 시작합니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -42,7 +40,7 @@ Adobe Enterprise Storage 또는 Frame.io의 프로젝트에 대한 자세한 내
 프로젝트 설정에 대한 자세한 내용은
 
 * [프로젝트 만들기](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-  <!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
+* [Frame.io 통합 개요](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Workfront에서 공식 검토 및 승인 시작
 
@@ -72,7 +70,7 @@ Adobe Enterprise Storage 또는 Frame.io의 프로젝트에 대한 자세한 내
 
 Workfront에서 검토 및 승인 워크플로가 시작되면 검토자와 승인자는 Frame.io 뷰어에 액세스하여 주석을 추가하고 에셋을 표시한 다음 결정을 내릴 수 있습니다.
 
-<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
+자세한 내용은 [Frame.io 뷰어로 검토 및 승인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)을 참조하세요.
 
 #### Frame.io 뷰어 액세스
 
@@ -83,7 +81,7 @@ Workfront에서 검토 및 승인 워크플로가 시작되면 검토자와 승�
 
 >[!NOTE]
 >
->외부 Workfront 사용자는 이메일을 통해 알림을 받으며 에셋을 검토하고 승인하기 위해 Frame.io 로그인을 만들라는 요청을 받게 됩니다. <!--is this still accurate?-->
+>외부 Workfront 사용자는 이메일을 통해 알림을 받으며 에셋을 검토하고 승인하기 위해 Frame.io 로그인을 만들라는 요청을 받게 됩니다.
 
 ![홈에서 프레임 뷰어를 엽니다](assets/open-fio-viewwer.png)
 

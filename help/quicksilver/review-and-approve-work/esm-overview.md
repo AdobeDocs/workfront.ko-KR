@@ -5,16 +5,14 @@ title: Adobe 엔터프라이즈 스토리지 개요
 description: Adobe 엔터프라이즈 스토리지 개요
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d24773df7eede3140eeecdea7f1c33b8466e887a
+exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
+source-git-commit: e908d0ffd1a3397dead5909942b2b0bedb91ae1c
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
-
 
 # Adobe 엔터프라이즈 스토리지 개요
 
@@ -40,4 +38,4 @@ Adobe 엔터프라이즈 스토리지는 Adobe 엔터프라이즈 제품 전반�
 
 Workfront 및 Frame.io 통합은 Adobe 엔터프라이즈 스토리지를 활용하여 통합된 검토 및 승인 환경을 제공합니다. 이 통합을 통해 프로젝트 코디네이터는 Workfront에서 프로젝트를 관리하고 작업을 계획할 수 있으며 크리에이티브, 마케터 및 이해 당사자는 Frame.io에서 에셋을 검토하고 승인할 수 있습니다. 이렇게 하면 모든 관련자가 최신 버전의 자산에 액세스할 수 있으며 피드백이 한 곳에서 중앙 집중화됩니다.
 
-<!--For more information about the Workfront and Frame.io integration, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Workfront 및 Frame.io 통합에 대한 자세한 내용은 [Frame.io 통합 개요](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)를 참조하십시오.
