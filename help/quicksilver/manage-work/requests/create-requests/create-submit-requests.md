@@ -6,9 +6,9 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
+source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
 workflow-type: tm+mt
-source-wordcount: '2856'
+source-wordcount: '2840'
 ht-degree: 1%
 
 ---
@@ -147,13 +147,13 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 
    **새 요청** 상자가 열립니다.
 
-1. (조건부) Workfront Planning을 포함하는 새 환경으로 전환했으며 프로덕션 환경에 있는 경우 **새 요청** 상자에 다음이 표시됩니다.</span>
+1. (조건부) 새 경험으로 전환했으며 프로덕션 환경에 있는 경우 **새 요청** 상자에 다음이 표시됩니다.</span>
 
    <ul><li>가장 최근에 액세스한 6개의 Workfront 요청 대기열 및 Planning 요청 양식이 최근 섹션에 표시됩니다. </li>
     <li>모든 추가 Workfront 및 Planning 요청 양식 <b>모든 요청 양식</b> 섹션. 기본적으로 표시되지 않는 요청 양식을 검색할 수 있습니다. </li>
     <li>모든 추가 Workfront 및 Planning 요청 큐 경로는 <b>모든 요청 경로</b> 섹션에 표시됩니다. 기본적으로 표시되지 않는 요청 대기열을 검색할 수 있습니다.</li></ul>
    Workfront 요청 대기열 경로 또는 양식 중 하나를 클릭하거나 경로 또는 양식을 검색한 다음 목록에 표시되면 클릭합니다.
-1. <span class="preview">(조건부) Workfront Planning을 포함하는 새 경험으로 전환한 경우 Workfront 요청 대기열 경로 또는 양식 중 하나를 선택하거나 검색 창을 클릭합니다. </span>
+1. <span class="preview">(조건부) 새 경험으로 전환한 경우 Workfront 요청 큐 경로 또는 양식 중 하나를 선택하거나 검색 창을 클릭합니다. </span>
 
    <span class="preview">검색 창을 클릭하면 가장 최근에 사용된 큐와 양식을 먼저 표시하는 드롭다운이 나타납니다. 목록에서 하나를 선택하거나 입력을 시작하고 대기열이나 목록이 나타나면 선택하십시오.</span>
 
@@ -165,7 +165,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
    >* <span class="preview">Workfront 요청 대기열만 표시하려면 `Issue` 개체 형식을 필터링하십시오.</span>
    >* <span class="preview">새 요청 환경에서 초안이 제출된 요청과 동일한 목록에 있습니다.</span>
 
-1. (조건부) Workfront Planning을 포함하는 새 경험으로 전환한 경우 주제 그룹 및 대기열 주제를 선택하고 양식을 계속 업데이트합니다.
+1. (조건부) 새 경험으로 전환한 경우 주제 그룹 및 대기열 주제를 선택하고 양식을 계속 업데이트합니다.
 
    그렇지 않으면 **요청 유형** 필드 내부를 클릭하고 다음 중 하나를 수행합니다.
 
@@ -348,7 +348,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 
    요청을 제출하면 초안이 자동으로 삭제되고 복원할 수 없습니다.
 
-   제출된 요청은 요청 영역의 **제출됨** 섹션에 나열됩니다. Workfront Planning을 포함하는 새 환경을 사용하는 경우 Workfront 제출 요청이 요청 영역의 **Workfront** 탭에 표시됩니다.
+   제출된 요청은 요청 영역의 **제출됨** 섹션에 나열됩니다. 새 환경을 사용하는 경우 Workfront 제출 요청이 요청 영역의 **Workfront** 탭에 표시됩니다.
 
    수신 요청 처리에 대한 자세한 내용은 [작업 및 팀 요청 관리](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) 문서를 참조하십시오.
 
