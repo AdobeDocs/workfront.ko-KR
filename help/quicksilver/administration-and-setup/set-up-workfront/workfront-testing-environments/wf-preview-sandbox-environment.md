@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -191,3 +191,5 @@ Workfront 관리자는 Workfront이 프로젝트 타임라인을 자동으로 �
 * 프로덕션 문제가 해결되면 정규 업무 시간 동안 [!DNL Workfront] 미리 보기 환경이 중단되는 것이 즉시 우선 순위가 됩니다.
 
 * 주말(토요일 및 일요일)에 [!DNL Workfront] 미리 보기 환경에 대한 중단은 월요일의 업무 시간 동안 환경이 실행되도록 처리됩니다.
+
+* 미리보기 환경에서는 증명을 사용할 수 없습니다.
