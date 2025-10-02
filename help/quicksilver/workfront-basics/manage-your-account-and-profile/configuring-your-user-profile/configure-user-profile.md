@@ -20,4 +20,4 @@ ht-degree: 0%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [[!UICONTROL 내 설정] 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-* [ [!DNL Adobe Workfront]에서 개인 휴무 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+* [&#x200B; [!DNL Adobe Workfront]에서 개인 휴무 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
