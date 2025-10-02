@@ -6,14 +6,16 @@ description: 프로젝트 관리자는 특정 프로젝트의 작업 역할에 �
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # 프로젝트 수준에서 작업 역할 청구 요금 재정의
+
+{{highlighted-preview}}
 
 프로젝트 관리자는 특정 프로젝트의 작업 역할에 대한 청구 요금을 지정할 수 있습니다. 이 프로젝트 수준의 청구 요율은 이 작업 역할에 대한 시스템 수준의 청구 요율을 무시합니다. Workfront은 시스템 수준 청구 요금을 사용하는 대신 작업 역할의 프로젝트 수준 청구 요금을 사용하여 수익을 계산합니다.
 
@@ -89,8 +91,6 @@ ht-degree: 0%
 
 1. **작업 역할** 필드에서 청구 요금을 변경할 작업 역할을 선택합니다.
 
-   ![프로젝트에 대한 청구 요금 재정의](assets/override-billing-rate-on-project-nwe-350x310.png)
-
    **기본 청구 요금** 필드에 이 작업 역할에 대한 시스템 수준 요금이 표시됩니다.
 
 1. **청구 요금 1** 필드에 일회성 청구 요금 재정의를 입력한 다음 **저장**&#x200B;을 클릭하여 청구 요금을 한 번 재정의합니다
@@ -105,7 +105,11 @@ ht-degree: 0%
    * **시작 날짜**: 기본 요금이 끝나는 날짜입니다.
    * **종료 날짜**: 새 청구 요금 재정의가 종료되는 날짜입니다.
 
-   ![new_billing_rate_with_adjustment_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+   ![재정의 날짜가 포함된 청구 요금](assets/billing-rates-093025.png)
+
+   프로덕션 환경의 샘플 이미지:
+   ![재정의 날짜가 포함된 청구 요금](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
 1. 선택한 날짜에 대한 시간대가 새 청구 요금 상자 하단에 표시됩니다. 설정의 고객 정보 영역에 표시된 대로 Workfront 인스턴스와 연결된 시간대입니다. 자세한 내용은 [시스템에 대한 기본 정보 구성](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)을 참조하십시오.
 1. Workfront은 프로젝트의 매출을 계산할 때 지정된 기간 동안 발생하는 시간에 재정의 작업 역할 비율을 적용합니다.
