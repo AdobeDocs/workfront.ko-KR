@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '8031'
+source-wordcount: '8402'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,39 @@ Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/hel
 
 ## 관리자 및 설정
 
-<!--### Interface updates when adding or editing group timesheet profiles
+### 새 마일스톤 경로 및 편집 상자에 대한 새 인터페이스 및 기능
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**미리 보기 릴리스: 2025년 10월 2일, 프로덕션 릴리스: 2025년 10월 9일 주에 시작**
 
-We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+이제 새 마일스톤 경로 및 편집 상자에 새 인터페이스가 있습니다. 마일스톤 경로 목록에는 새로운 모양과 느낌이 있으며 이 영역의 일부 기능이 변경되었을 수 있습니다.
 
-To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+자세한 내용은 [마일스톤 경로 만들기](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)를 참조하세요.
 
-For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+### 그룹 타임시트 프로필을 추가하거나 편집할 때 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 9월 30일, 프로덕션 릴리스: 2025년 10월 2일 주에 시작**
+
+그룹 타임시트 프로필을 편집하거나 추가할 때 타임시트 프로필 페이지의 디자인을 업데이트했습니다.
+
+이러한 변경 사항을 보려면 설정 > 그룹 > 그룹 이름 선택 > 타임시트 프로필로 이동하여 새 프로필을 추가하거나 기존 프로필을 편집합니다.
+
+자세한 내용은 [타임시트 프로필 만들기, 편집 및 할당](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)을 참조하세요.
+
+
+### 상태 목록에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 10월 2일, 프로덕션 릴리스: 2025년 10월 9일**
+
+애플리케이션의 다른 영역에 있는 디자인과 일치하도록 상태 목록의 모양과 느낌을 업데이트했습니다.
+
+이 업데이트는 다음 항목에 영향을 줍니다.
+
+* 설정 > 프로젝트 환경 설정 아래의 상태 영역
+* 그룹을 볼 때의 상태는 다음과 같습니다
 
 ### 설정의 심각도 영역에 대한 인터페이스 업데이트
 
-**미리 보기 릴리스: 2025년 9월 25일, 프로덕션 릴리스: 2025년 10월 2일**
+**미리 보기 릴리스: 2025년 9월 25일, 프로덕션 릴리스: 2025년 10월 9일**
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 심각도 페이지를 업데이트했습니다.
 
@@ -48,7 +68,7 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 ### 설정의 우선 순위 영역에 대한 인터페이스 업데이트
 
-**미리 보기 릴리스: 2025년 9월 25일, 프로덕션 릴리스: 2025년 10월 2일**
+**미리 보기 릴리스: 2025년 9월 25일, 프로덕션 릴리스: 2025년 10월 9일**
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 우선 순위 페이지를 업데이트했습니다.
 
@@ -208,6 +228,38 @@ Workfront의 다른 영역 디자인에 맞게 프로그램 편집 상자의 모
 
 ## 프로젝트
 
+### 청구 요금에 대한 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 10월 2일, 프로덕션 릴리스: 2025년 10월 9일 주에 시작**
+
+애플리케이션의 다른 영역과 일치하도록 프로젝트의 청구 요금 페이지의 디자인을 업데이트했습니다. 청구 요금 추가 및 편집 대화 상자도 업데이트되었습니다.
+
+이 변경 사항을 보려면 프로젝트 > 청구 요율로 이동합니다.
+
+자세한 내용은 [프로젝트 수준에서 작업 역할 청구 요금 재정의](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)를 참조하십시오.
+
+### 마일스톤 보기를 적용할 때 프로젝트 목록 또는 보고서의 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 10월 2일, 프로덕션 릴리스: 2025년 10월 9일 주에 시작**
+
+마일스톤 보기를 적용할 때 프로젝트 목록 또는 보고서의 디자인을 업데이트했습니다.
+
+이제 프로젝트 목록 또는 보고서가 Workfront의 다른 영역 디자인과 일치합니다. 자세한 내용은 [마일스톤 보기 사용](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)을 참조하세요.
+
+<!--### Interface updates for the Edit Tasks box
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+ We have updated the look and feel of the Edit Tasks box when editing tasks in bulk. The Edit Tasks box now matches the design of a single-task Edit box.   
+
+The following changes are included in this update: 
+
+*There is a new experience for assigning resources to tasks, when editing a single task and when editing tasks in bulk.  
+
+*The Resource Scope field has been removed from the Edit task box.  
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
 ### 템플릿을 벌크 편집할 때 인터페이스 업데이트
 
 **미리 보기 릴리스: 2025년 9월 18일, 프로덕션 릴리스: 2025년 9월 25일**
@@ -215,14 +267,6 @@ Workfront의 다른 영역 디자인에 맞게 프로그램 편집 상자의 모
 템플릿 목록에서 템플릿을 일괄적으로 편집할 때 템플릿 편집 상자의 모양과 느낌을 업데이트했습니다. 이제 템플릿 편집 상자에 대한 정보 구성이 단일 템플릿 편집 상자와 일치합니다.
 
 자세한 내용은 [프로젝트 템플릿 편집](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)을 참조하십시오.
-
-<!--### Interface updates for a project list or report when applying the Milestone view
-
-**Preview release: September 11, 2025; Production release: September 18, 2025**
-
-We have updated the look and feel of a project list or report when you apply the Milestone view to them.
-
-The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### 템플릿 없이 작업을 프로젝트로 전환 의 인터페이스 변경 사항
 
@@ -427,16 +471,15 @@ Workfront의 다른 영역 디자인에 맞게 템플릿에 대한 전임 작업
 * [라우팅 규칙을 만듭니다](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 
-
 ## 사용자
 
-<!--### Interface updates for the User Details page
+### 사용자 세부 정보 페이지에 대한 인터페이스 업데이트
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**미리 보기 릴리스: 2025년 10월 2일, 프로덕션 릴리스: 2025년 10월 9일**
 
-We have updated the look and feel of the User Details page to match other areas of the application.
+애플리케이션의 다른 영역과 일치하도록 사용자 세부 정보 페이지의 디자인을 업데이트했습니다.
 
-You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+사용자로 이동하고, 사용자를 선택한 다음 왼쪽 패널에서 세부 사항 을 클릭하여 업데이트된 디자인을 볼 수 있습니다.
 
 ### 개인 휴무에 대한 인터페이스 업데이트
 
@@ -791,7 +834,7 @@ Workfront의 다른 영역 디자인에 맞게 여러 보고서의 디자인을 
 
 ### Workfront 대시보드에서 /tile 또는 /qstile이 있는 URL이 더 이상 지원되지 않음
 
-**미리 보기 릴리스: 5월 13일, 프로덕션 릴리스: 발표 예정**
+**미리 보기 릴리스: 5월 13일, 프로덕션 릴리스: 2025년 5월 20일 시작**
 
 대시보드에 `/tile` 또는 `/qstile`을(를) 포함하는 Workfront URL이 있는 외부 페이지가 있으면 해당 페이지가 더 이상 로드되지 않습니다.
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,34 @@ ht-degree: 0%
 
 2025년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록을 보려면 [2025년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)를 참조하십시오.
 
-## 통합 요청 목록의 결합된 새 상태 열
+## 요청 영역에서 보기 생성 및 저장
 
 >[!NOTE]
 >
->* 미리 보기: 2025년 8월 28일
->* 프로덕션 빠른 릴리스: 2025년 9월 11일
->* 모든 고객을 위한 프로덕션: 2025년 10월 16일
+>미리 보기: 2025년 10월 2일
+>>프로덕션 빠른 릴리스: 2025년 10월 15일
+>>모두를 위한 프로덕션: 2025년 10월 16일
 
-이제 통합 요청 경험을 단순화하기 위해 상태 열에 요청 상태와 승인 상태 중 지정된 요청에 적용되는 상태가 모두 표시됩니다.
+필요한 정보를 더 쉽게 볼 수 있도록 요청 영역에 보기를 만들고 저장하는 기능을 추가했습니다. 이제 필터 및 열 구성을 포함하여 보기를 저장하고 보기 간에 전환할 수 있습니다. Workfront 관리자는 레이아웃 템플릿에 새 보기를 추가할 수 있습니다.
 
-요청 만들기에 대한 자세한 내용은 다음을 참조하십시오.
+이전에는 필터 및 열 구성을 저장할 수 없었습니다.
 
-* Workfront의 경우: [요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* Workfront Planning의 경우: [레코드를 만들 수 있도록 Adobe Workfront Planning 요청을 제출](/help/quicksilver/planning/requests/submit-requests.md)
+자세한 내용 및 지침은 [요청 영역에서 보기 만들기](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)를 참조하십시오.
+
+<!--## New combined Status column in unified Request list 
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.
+
+For more information on creating requests see:
+
+* For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
 
 ## 요청 경험 업데이트
 

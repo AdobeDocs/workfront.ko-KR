@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 4146dd1d11b54155ad5510625c761d66dd649245
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2508'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,110 @@ ht-degree: 0%
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
-## 레코드의 연결된 레코드 페이지에서 Workfront 연결 인라인 편집
+<!--## Centralized record types
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+When implementing Workfront Planning for a multi-team organization with common workflows, you might need to define a cohesive structure and metadata for key record types (like Campaigns or Deliverables) that can be added to each team's workspaces to capture and manage their work.  
+
+ Also, you might need each team's work to roll up to a central level.  
+
+ In such a workflow, you can ensure that teams capture their work consistently while unlocking cross-team visibility, without the need to add everything to one workspace, or everyone in the organization to every workspace. You can use centralized record types to achieve this. 
+
+You can now enable record types to be centralized and use them across multiple workspaces. Users can use the same field structure and connections that are already configured in a central workspace.  
+
+For more information, see the following articles:  
+
+* [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) 
+
+* [Configure record type cross-workspace capabilities](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) 
+
+* [Add existing record types from another workspace](help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+
+## New limit for connection fields for one record type
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+We have introduced a limit of 30 connection fields for each record type.  
+
+If your organization currently has more than 30 connection fields for one record type, the additional connections will be inherited going forward. However, you cannot add more connection fields. For new record types, the new limit of 30 connection fields will be enforced.  
+
+For more information, see [Connected Record Types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+
+## Workfront Planning의 요청 양식 개선 사항
+
+>[!NOTE]
+>
+>미리 보기: 2025년 10월 2일
+>>프로덕션 빠른 릴리스: 2025년 10월 15일
+>>모두를 위한 프로덕션: 2025년 10월 16일
+
+요청 프로세스를 간소화하기 위해 요청 양식에 몇 가지 개선 사항을 적용했습니다. 이제 요청 양식을 구성할 때 다음을 구성할 수 있습니다.
+
+* 요청에 여러 승인자가 있을 때 하나의 결정만 허용하는 옵션을 활성화합니다.
+* 양식에서 만든 요청이 자동으로 완료로 표시되는 시기를 구성합니다. 요청된 개체를 만들 때 또는 지정한 조건에 따라 요청된 개체가 완료된 경우 요청이 완료로 표시되도록 설정할 수 있습니다.
+* 양식에서 요청을 제출할 때 트리거되는 자동화를 설정합니다. 현재, 요청이 제출되면 레코드를 자동으로 만들 수 있습니다.
+
+요청 양식을 만들고 이러한 옵션을 구성하는 방법에 대한 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+
+## 타임라인 및 달력 보기에서 기능을 끌어서 놓습니다.
+
+>[!NOTE]
+>
+>미리 보기: 2025년 10월 2일
+>>프로덕션 빠른 릴리스: 2025년 10월 15일
+>>모두를 위한 프로덕션: 2025년 10월 16일
+
+
+이제 타임라인 및 달력 보기에서 레코드를 끌어서 놓을 수 있습니다. 다른 시간대에서 레코드를 드래그하면 시작 및 종료 날짜가 자동으로 업데이트됩니다.
+
+자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
+
+## Workfront Planning의 요청에 대한 주석
+
+>[!NOTE]
+>
+>미리 보기: 2025년 10월 2일
+>>프로덕션 빠른 릴리스: 2025년 10월 15일
+>>모두를 위한 프로덕션: 2025년 10월 16일
+
+Workfront Planning에서 수행된 요청에 대해 보다 쉽게 통신할 수 있도록 요청 세부 정보 페이지에 주석 영역을 추가했습니다. 이 기능은 요청이 할당된 사람에게 요청을 만든 사람에 대한 질문이 있는 경우 등에 유용합니다.
+
+이전에는 Workfront Planning에서 요청에 대한 댓글을 달 수 없었습니다.
+
+댓글을 포함하여 요청을 하는 방법에 대한 자세한 내용은 [레코드를 만들 수 있도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
+
+<!--## Approve a Workfront Planning request in the My Approvals widget
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make it easier to approve Workfront Planning requests, we've added them to the My Approvals widget in Home. Now, you can approve or reject these requests directly from the widget, allowing you to manage these approvals without leaving Home.
+
+Previously, Workfront approvals could be managed only within Workfront Planning.
+
+For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).-->
+
+## 레코드의 연결된 레코드 페이지에서 Workfront 프로젝트를 인라인 편집합니다.
 
 >[!NOTE]
 >
 >미리 보기: 2025년 9월 25일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 10월 15일
->&#x200B;>프로덕션 모두: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 10월 15일
+>>프로덕션 모두: 2025년 10월 16일
 
-이제 연결된 레코드 페이지에서 Workfront 연결된 개체를 인라인 편집할 수 있습니다. 연결된 객체의 순서를 변경하고 행 및 표 보기의 다른 함수를 복사하여 붙여넣을 수도 있습니다.
+이제 연결된 레코드 페이지에서 Workfront 연결된 프로젝트를 인라인 편집할 수 있습니다. 연결된 레코드 페이지에서 템플릿 없이 프로젝트를 만들 수도 있습니다.
 
 자세한 내용은 [레코드 페이지 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
 
@@ -146,8 +241,8 @@ For more information on creating a request form and configuring these options, s
 >[!NOTE]
 >
 >미리 보기: 2025년 9월 11일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 9월 11일
->&#x200B;>[!BADGE 일정 해제]{type=Neutral}
+>>모든 고객을 위한 프로덕션: 2025년 9월 11일
+>>[!BADGE 일정 해제]{type=Neutral}
 
 조직에서 Adobe Workfront Planning과 Adobe GenStudio for Performance Marketing을 모두 사용하는 경우 GenStudio에서 기본적으로 지원하는 것보다 캠페인, 제품 및 가상 사용자와 같은 마케팅 개념을 더 자세히 정의할 수 있습니다.
 
@@ -312,8 +407,8 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 통�
 >[!NOTE]
 >
 >미리 보기: 2025년 8월 7일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 8월
->&#x200B;>[!BADGE 일정 해제]{type=Neutral}
+>>모든 고객을 위한 프로덕션: 2025년 8월
+>>[!BADGE 일정 해제]{type=Neutral}
 
 Workfront Planning의 공식 필드 및 Workfront의 계산된 사용자 정의 필드에 다음 사용법을 사용하는 새 표현식을 추가했습니다.
 
@@ -328,8 +423,8 @@ Workfront Planning의 공식 필드 및 Workfront의 계산된 사용자 정의 
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 31일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 7월 31일
->&#x200B;>[!BADGE 일정 해제]{type=Neutral}
+>>모든 고객을 위한 프로덕션: 2025년 7월 31일
+>>[!BADGE 일정 해제]{type=Neutral}
 
 레코드 테이블 보기에서 필드를 만들거나 편집할 때 수식 필드를 확대하는 최대화 단추를 추가했습니다. 또한 필드 만들기 상자로 되돌리기 위해 확대된 새 창에 최소화 버튼을 추가했습니다.
 
@@ -378,8 +473,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 24일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 이제 타임라인의 아무 곳이나 두 번 클릭하여 레코드 유형의 타임라인 보기에서 레코드를 만들 수 있습니다.
 
@@ -394,8 +489,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 24일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 이제 작업 영역 페이지에 있는 레코드 유형 카드의 기타 메뉴에서 레코드 유형을 공유할 수 있습니다. 이 기능이 향상되기 전에는 레코드 유형 페이지 내에서만 공유 옵션을 사용할 수 있었습니다.
 
@@ -406,8 +501,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 24일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 이제 모든 Workfront Planning 보기(테이블, 타임라인 및 달력)를 전체 화면 모드로 표시할 수 있습니다. 보기 기능은 유지되며 전체 화면에서 보기를 변경할 수도 있습니다.
 
@@ -420,8 +515,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 22일
->&#x200B;>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 승인 프로세스를 보다 유연하게 진행하기 위해 Planning 요청 양식에 팀을 승인자로 추가하는 기능이 추가되었습니다. 이제 승인자를 설정할 때 팀 이름을 입력하고 선택할 수 있습니다. 팀 구성원 중 누구나 결정을 내릴 수 있으며, 이는 팀 전체에 대한 승인 결정으로 계산됩니다.
 
@@ -434,8 +529,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 17일
->&#x200B;>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>빠른 릴리스를 위한 프로덕션: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 승인과 함께 요청을 제출하여 생성된 레코드에 대한 승인 정보를 캡처하기 위해 다음 필드를 도입합니다.
 
@@ -449,8 +544,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >미리 보기: 2025년 7월 10일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 8월 14일
->&#x200B;>모든 고객을 위한 프로덕션: 2025년 10월 16일
+>>프로덕션 빠른 릴리스: 2025년 8월 14일
+>>모든 고객을 위한 프로덕션: 2025년 10월 16일
 
 
 이제 테이블 보기에 그룹화가 적용되면 테이블에 레코드를 추가하면 레코드를 추가할 그룹화와 관련된 필드가 자동으로 채워집니다.

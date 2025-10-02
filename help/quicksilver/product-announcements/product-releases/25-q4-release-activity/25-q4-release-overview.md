@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '2219'
+source-wordcount: '2245'
 ht-degree: 4%
 
 ---
@@ -317,15 +317,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
     </tr>
-    <tr>
+     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">통합 요청 목록의 결합된 새 상태 열</a><p></p>
-            <p>이제 통합 요청 경험을 단순화하기 위해 상태 열에 요청 상태와 승인 상태 중 지정된 요청에 적용되는 상태가 모두 표시됩니다.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">요청 영역에서 보기 만들기 및 저장</a><p></p>
+            <p>필요한 정보를 더 쉽게 볼 수 있도록 요청 영역에 보기를 만들고 저장하는 기능을 추가했습니다. 이제 필터 및 열 구성을 포함하여 보기를 저장하고 보기 간에 전환할 수 있습니다. Workfront 관리자는 레이아웃 템플릿에 새 보기를 추가할 수 있습니다.</p>
         </td>
-        <td>2025년 8월 28일 금요일</td>
-        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 10월 2일 금요일</td>
+        <td>2025년 10월 15일 목요일</td>
         <td>2025년 10월 16일 금요일</td>
-    </tr>     
+    </tr> 
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">New combined Status column in unified Request list</a><p></p>
+            <p>To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.</p>
+        </td>
+        <td>August 28, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>  -->   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">요청 중인 경험에 대한 업데이트</a><p></p>
@@ -456,7 +465,7 @@ Desktop Proofing Viewer가 버전 2.1.52로 업데이트되어 버그 수정 사
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ### API 버전 20
 
@@ -468,8 +477,8 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
