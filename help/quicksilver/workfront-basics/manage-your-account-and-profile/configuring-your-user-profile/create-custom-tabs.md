@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: 사용자 정의 섹션 만들기
 description: ' [!DNL Workfront] 웹 응용 프로그램에 표시되는 정보는 기본적으로 왼쪽 패널의 섹션에 표시되는 경우가 많습니다. 각 섹션에는  [!DNL Workfront] 영역 또는 개체에 대한 다른 정보가 포함되어 있습니다.'
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
+source-git-commit: ccaf637601c53e5d92dd3357fb07e84b5fd69166
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 1%
@@ -87,7 +87,7 @@ ht-degree: 1%
 1. 왼쪽 패널에서 **[!UICONTROL 대시보드 추가]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 빠른 링크 이름]** 필드에 대시보드 이름을 입력하십시오. 이 은(는) 귀하에게만 표시됩니다.
 1. **[!UICONTROL 대시보드 선택]** 필드에 기존 대시보드 또는 외부 페이지의 이름을 입력한 다음 목록에 표시될 때 대시보드를 선택합니다.
-1. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 추가를 클릭합니다]**.
 1. (선택 사항) 표시할 순서대로 섹션을 끌어다 놓습니다.
 
    상단 섹션은 페이지의 기본 섹션입니다.
@@ -106,7 +106,7 @@ ht-degree: 1%
 * 작업
 * 문제
 * 승인 진행
-* 참고
+* 메모
 * 문서
 
 개체의 계층 구조 및 상호 종속성에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)에서 [개체의 상호 종속성 및 계층 구조](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.

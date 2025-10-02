@@ -3,10 +3,10 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: 내 설정 구성
 description: ' [!DNL Adobe Workfront] 프로필에 사용자 자신에 대한 정보(예: 이름, 전자 메일 주소, 주소, 전화 번호, 직함 등)가 포함되어 있습니다.  [!DNL Workfront]  및 회사의 다른 사용자와의 상호 작용에 대한 정보도 포함되어 있습니다.'
-author: Lisa, Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: 00162e3d20ab541f3233afd5d0c5d90b4c4d6309
 workflow-type: tm+mt
 source-wordcount: '3318'
 ht-degree: 1%
@@ -370,7 +370,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 이 활성 상태입니다]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL이 활성 상태입니다]</strong> </td> 
    <td>이 필드는 [!DNL Workfront] 관리자이기도 한 사용자만 볼 수 있으며 기본적으로 활성화되어 있어야 합니다. 사용자가 활성 상태로에 로그인할 수 있음을 의미합니다. [!DNL Workfront]</td> 
   </tr> 
   <tr> 
