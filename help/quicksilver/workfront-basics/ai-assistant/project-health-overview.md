@@ -5,9 +5,9 @@ description: 프로젝트 상태 기능은 AI Assistant의 기능을 사용하�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 1b0d47178085b6d971342a6a77d3341776ef62e6
+source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1487'
 ht-degree: 2%
 
 ---
@@ -178,7 +178,7 @@ Project Health를 활용하려면 조직에서 AI Assistant를 활성화해야 �
 
 1. 페이지의 오른쪽 상단 모서리에서 **새 구성**&#x200B;을 선택합니다.
 
-1. (선택 사항) 구성 세부 정보 페이지에서 *제목 없는 구성*&#x200B;을 새 구성 **이름**(으)로 바꾸십시오.
+1. (선택 사항) 구성 세부 정보 페이지에서 *제목 없는 구성*&#x200B;을(를) 새 구성 **이름**(으)로 바꿉니다.
 
 1. **프로젝트 상태에 포함할 요소** 섹션에서 프로젝트 상태 조건을 결정할 때 포함하지 않을 요소를 선택 취소하십시오.
    * **범위 크립**: 시작된 이후 프로젝트 범위가 얼마나 확장되었는지 표시합니다.
