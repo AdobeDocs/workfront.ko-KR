@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,14 @@ Planning 요청 양식에 제출된 보기 액세스 권한이 있는 모든 요
 
    ![요청 세부 정보 페이지](assets/request-details-page.png)
 
+   <div class="preview">
+      미리 보기에서:
 
+   ![댓글이 있는 요청 페이지](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">(선택 사항) 댓글 영역에 댓글을 입력합니다.
 1. (조건부) 요청 양식이 승인과 연결되어 있지 않거나 요청이 승인된 경우 요청 이름을 클릭한 다음 **레코드** 필드의 레코드 이름을 클릭합니다.
 
    레코드의 페이지가 Workfront Planning에 열립니다.
@@ -315,6 +322,14 @@ Planning 요청 양식에 제출된 보기 액세스 권한이 있는 모든 요
 
    ![요청 세부 정보 페이지](assets/request-details-page.png)
 
+   <div class="preview">
+   미리 보기에서:
+
+   ![댓글이 있는 요청 페이지](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">(선택 사항) 댓글 영역에 댓글을 입력합니다.
 1. (조건부) 요청 양식이 승인과 연결되어 있지 않거나 요청이 승인된 경우 요청 이름을 클릭한 다음 **레코드** 필드의 레코드 이름을 클릭합니다.
 
    레코드의 페이지가 Workfront Planning에 열립니다.
