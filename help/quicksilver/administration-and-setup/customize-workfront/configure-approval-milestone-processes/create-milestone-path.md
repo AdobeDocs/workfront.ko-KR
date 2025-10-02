@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '889'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+<div class="preview">
+
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+
+</div>
 
 Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 있는 마일스톤 경로를 만들 수 있습니다. 이 영역의 마일스톤 경로에 대한 변경 사항은 전체 Workfront 시스템에 영향을 줍니다.
 
@@ -45,14 +53,18 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td><p>표준</p>
+   <p>플랜</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>Workfront 관리자여야 합니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -72,7 +84,18 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
 
 1. **프로세스** > **마일스톤 경로**&#x200B;를 클릭합니다.
 1. **새 마일스톤 경로**&#x200B;를 클릭합니다.
-1. **기본 정보** 영역에서 다음 정보를 지정하십시오.
+
+   <div class="preview">
+
+   새 마일스톤 경로(New Milestone Path) 상자가 열립니다.
+
+   ![새 마일스톤 경로 상자](assets/new-milestone-path-box.png)
+
+   </div>
+
+1. 왼쪽 패널에서 **기본 정보**&#x200B;를 클릭합니다.
+
+   다음 정보를 업데이트합니다.
 
    <table style="table-layout:auto">
     <tr>
@@ -93,7 +116,10 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
     </tr>
    </table>
 
-1. **마일스톤** 영역에서 다음 정보를 지정하십시오.
+1. 왼쪽 패널에서 **마일스톤**을 클릭합니다.
+1. 프로덕션 환경에서 **마일스톤 추가**를 클릭하여 경로에 마일스톤을 추가합니다.
+   <span class="preview">미리 보기 환경에서 **새 행**&#x200B;을 클릭하여 경로에 마일스톤을 추가합니다.</span>
+1. 다음 정보를 업데이트합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,15 +140,14 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
     </tbody> 
    </table>
 
-1. **마일스톤 추가**&#x200B;를 클릭하고 경로가 완료될 때까지 필요에 따라 마일스톤을 계속 추가합니다.
-
+1. (선택 사항) 각 이정표를 드래그하여 놓아 순서를 변경합니다.
 1. 변경 내용을 저장하려면 **마일스톤 경로 만들기**&#x200B;를 클릭하세요.
 
    마일스톤 경로를 프로젝트와 연결할 준비가 되었습니다.
 
    마일스톤 경로를 프로젝트에 연결하고 마일스톤을 작업에 연결하는 방법에 대한 자세한 내용은 [마일스톤과 작업 연결](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)을 참조하세요.
 
-
+1. (선택 사항) 마일스톤 경로 목록에서 마일스톤 하나를 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭하여 마일스톤 경로를 열고 정보를 편집합니다.
 1. (선택 사항) **Export** 아이콘 ![Export 아이콘](assets/export-icon.png)을 클릭하고 다음 형식 중 선택하여 마일스톤 경로 목록을 파일로 내보냅니다.
 
    * PDF
@@ -130,10 +155,12 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
    * Excel(xlsx)
    * 탭으로 구분됨
 
-1. (선택 사항) 마일스톤 목록에서 마일스톤을 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭하여 마일스톤 정보를 편집합니다.
-1. (선택 사항) 마일스톤 목록에서 마일스톤을 선택한 다음 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭하여 삭제합니다.
+1. (선택 사항) 마일스톤 목록에서 하나 또는 여러 마일스톤을 선택한 다음 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭하여 삭제합니다.
 1. **예, 삭제**&#x200B;를 클릭합니다.
-마일스톤이 삭제되어 복구할 수 없습니다. 이정표와 연관된 프로젝트 정보와 이정표 경로와 연관된 작업 정보도 모두 삭제됩니다.
+
+   마일스톤이 삭제되어 복구할 수 없습니다. 마일스톤 경로는 이전에 연결된 모든 프로젝트에서 제거되며 모든 마일스톤은 연결된 작업에서 제거됩니다.
+
+   삭제된 마일스톤은 복구할 수 없습니다.
 
 
 ## 프로젝트 보고서에서 마일스톤 경로 세부 정보 보기

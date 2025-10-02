@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1895'
 ht-degree: 4%
 
 ---
@@ -141,18 +141,11 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 
      <span class="preview">자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).</span>를 참조하세요.
 
-   * <span class="preview">달력 월별 보기에서 레코드 막대의 끝을 클릭한 다음 새 위치에 끌어다 놓습니다. 레코드 막대의 크기를 조정하면 시작 및 종료 날짜가 즉시 업데이트됩니다. </span> <!--when resizing in the calendar weekly view is released, modify the sentence above to take out 'monthly', since it will be available in both-->
+   * <span class="preview">레코드 표시줄의 왼쪽 또는 오른쪽 여백을 클릭한 다음 새 위치에 끌어서 놓습니다. 레코드 막대의 크기를 조정하면 시작 또는 종료 날짜가 즉시 업데이트됩니다. </span>
+
+   * <span class="preview">레코드 표시줄을 끌어서 놓아 위치 및 날짜를 업데이트합니다. 레코드 표시줄을 이동하면 시작 날짜와 종료 날짜가 즉시 업데이트됩니다.</span>
 
      <span class="preview">자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).</span>을 참조하세요.
-
-   <!--ADD ONE OF THE FOLLOWING DEPENDING ON WHAT RELEASES: 
-    Scenario 1: drag and drop in the calendar weekly view: 
-    * <span class="preview">In the weekly calendar view, drag and drop records to update their position and dates in the timeline.</span>
-    Scenario 2: drag and drop in the calendar monthly view: 
-    * <span class="preview">In the monthly calendar view, drag and drop records to update their position and dates in the timeline.</span>
-    Scenario 3: drag and drop in the calendar view (both weekly and monthly are supported): 
-    * <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [필터](#add-filters)

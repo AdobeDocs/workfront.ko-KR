@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2434'
 ht-degree: 1%
 
 ---
@@ -182,7 +182,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -332,7 +332,22 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
      표 보기에서 레코드를 편집하는 방법에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하십시오.
 
-   * 연결된 레코드 페이지의 표에 있는 모든 레코드를 인라인 편집합니다. 프로덕션 환경에서는 모든 Workfront 개체가 읽기 전용 테이블 보기에 표시되며 편집할 수 없습니다. <span class="preview">미리 보기 환경에서 Workfront 프로젝트를 인라인 편집할 수 있습니다.</span>
+   * 연결된 레코드 페이지의 표에 있는 모든 레코드를 인라인 편집합니다.
+
+     프로덕션 환경에서는 모든 Workfront 개체가 읽기 전용 테이블 보기에 표시되며 편집할 수 없습니다.
+
+     <span class="preview">미리 보기 환경에서 연결된 레코드 페이지에서 프로젝트를 인라인 편집할 수 있습니다.</span>
+
+1. <span class="preview">(조건부) 연결된 프로젝트 목록을 볼 때 다음 중 하나를 수행하십시오.</span>
+
+   * <span class="preview">연결된 레코드 페이지의 오른쪽 상단에서 **레코드 연결**&#x200B;을 클릭하여 기존 프로젝트를 연결합니다.</span>
+   * <span class="preview">테이블의 프로젝트 정보를 인라인 편집합니다.</span>
+   * <span class="preview">템플릿 없이 프로젝트를 만들려면 **새 행**&#x200B;을 클릭하세요.</span>
+
+     자세한 내용은 [레코드에 연결할 때 Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)를 참조하십시오.
+   * <span class="preview">프로젝트 위로 마우스를 가져간 후 **자세히** 메뉴 [추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 중 하나를 클릭하십시오.</span>
+      * 프로젝트를 삭제하려면 <span class="preview">**삭제**&#x200B;하십시오. 프로젝트를 삭제하면 레코드에서 연결이 끊기고 Workfront 휴지통으로 이동합니다. </span>
+      * 레코드에서 프로젝트의 연결을 끊으려면 <span class="preview">**연결을 끊습니다**. 프로젝트 연결 끊기</span>
 
 1. (선택 사항) 연결된 레코드 페이지 탭의 이름을 두 번 클릭합니다
 
@@ -356,7 +371,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 1. (조건부) 더 많은 레코드나 개체를 연결하려면 다음 중 하나를 수행합니다.
 
    * 테이블 하단의 **연결**&#x200B;을 클릭하여 레코드 또는 프로젝트를 제외한 모든 Workfront 개체 <span class="preview">를 추가하거나 제거합니다.</span>
-   * <span class="preview">미리 보기 환경에서 연결된 레코드 페이지의 오른쪽 상단에 있는 **레코드 연결**&#x200B;을 클릭하거나 테이블 하단에 있는 **새 행**&#x200B;을 클릭하여 프로젝트를 추가하거나 제거합니다.</span>
+   * <span class="preview">미리 보기 환경에서 연결된 레코드 페이지의 오른쪽 위 모서리에 있는 **레코드 연결**&#x200B;을 클릭하여 기존 프로젝트를 연결하거나 테이블 하단에 있는 **새 행**&#x200B;을 클릭하여 프로젝트를 만들고 현재 레코드에 자동으로 연결합니다.</span>
 
    자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
 1. (선택 사항) 연결된 레코드 페이지 탭의 이름을 마우스로 가리키고 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭하여 탭으로 제거합니다.

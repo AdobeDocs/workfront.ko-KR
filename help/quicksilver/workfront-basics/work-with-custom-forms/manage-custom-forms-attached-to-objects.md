@@ -6,16 +6,16 @@ description: 한 오브젝트에 첨부된 사용자 정의 양식의 표시 순
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
 
 # 오브젝트에 첨부된 사용자 정의 양식 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 일부 고객 그룹에서 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 한 오브젝트에 첨부된 사용자 정의 양식의 표시 순서를 업데이트하거나 제거하거나 여러 오브젝트에 사용자 정의 양식이 표시되는 방식을 벌크 편집할 수 있습니다.
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2764'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,12 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 이 문서에서는 두 개의 Workfront Planning 레코드 유형 또는 Workfront Planning 레코드 유형을 다른 응용 프로그램의 객체와 연결하는 방법에 대해 설명합니다.
 
-레코드나 개체 유형 간에 연결을 설정한 후 개별 레코드를 서로 연결하고 Workfront Planning 레코드에 연결된 레코드나 개체 유형의 필드를 표시할 수 있습니다.
+레코드 또는 개체 유형 간에 연결을 설정하면 연결 필드가 Planning 레코드 유형에 추가됩니다. 연결 필드에서 개별 레코드를 서로 연결하고 Workfront Planning 레코드에 연결된 레코드 또는 개체 유형의 필드를 표시할 수 있습니다.
+
+<!--
+>[!CAUTION]
+>
+><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 연결 유형에 대한 일반적인 정보는 [연결된 레코드 유형 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
 
@@ -126,19 +131,18 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
 1. 테이블 보기의 오른쪽 위 모서리에 있는 **+** 아이콘을 클릭한 다음 **새 연결** 탭을 클릭합니다.
 
-   ![Workfront AEM 옵션이 있는 새 연결 탭](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Workfront AEM 옵션이 있는 새 연결 탭](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-1. **레코드 종류** 필드에서 레코드 종류를 검색하거나 다음 중 하나를 선택하십시오.
+1. 레코드 유형을 검색하거나 다음 중 하나를 선택합니다.
 
-   * 현재 작업 공간의 다른 레코드 유형
+   * <span class="preview">현재 작업 영역의 레코드 종류</span>
 
-     ![다대다 연결 선택기](assets/many-to-many-connection-picker.png)
+     <span class="preview">![동일 작업 영역 레코드 형식에 대한 다중 선택 연결 선택기](assets/multi-select-connection-picker-record-type.png)</span>
 
      >[!TIP]
      >
      > 
      >선택한 작업 영역에 다른 레코드 유형이 없는 경우 작업 영역 섹션이 표시되지 않습니다.
-
 
    * 다른 작업 영역에서 연결하도록 구성된 다른 작업 영역의 레코드 유형입니다.
 
@@ -149,13 +153,13 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
 
-     ![여러 레코드를 허용하는 새 연결](assets/new-connection-allow-multiple-records-box.png)
+     ![여러 레코드를 허용하는 새 연결](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-   * **Workfront 개체 유형** 섹션의 **프로젝트, Portfolio, 프로그램, 회사** 또는 **그룹**.
+   * <span class="preview">**Workfront 개체 형식** 섹션의 **프로젝트, Portfolio, 프로그램, 회사** 또는 **그룹**&#x200B;입니다.</span>
 
-     ![Workfront 프로젝트 연결 선택](assets/workfront-project-connection-selection.png)
+     <span class="preview">![Workfront 프로젝트 연결 선택](assets/multi-select-connection-picker-project.png)</span>
 
-   * **Experience Manager Assets 응용 프로그램** 섹션의 **Adobe**.
+   * **Experience Manager Assets 응용 프로그램** 섹션의 **Adobe**. <!--update screen shot??-->
 
      ![AEM Assets 연결 선택](assets/aem-assets-connection-selection.png)
 
@@ -170,7 +174,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 1. 연결된 레코드 필드에 대한 정보를 추가하여 **설명** 필드를 업데이트합니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
 1. (조건부) 다른 두 작업 영역의 레코드 종류 또는 레코드와 Adobe Experience Manager 자산 개체를 연결할 때 **여러 레코드 허용**&#x200B;을 선택합니다. 이 옵션을 선택하면 원본 레코드에 연결된 레코드 유형 필드가 표시될 때 사용자가 여러 레코드를 추가할 수 있음을 나타냅니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
-   ![여러 레코드를 허용하는 새 연결](assets/new-connection-allow-multiple-records-box.png)
+   ![다른 작업 영역의 레코드 형식에 대한 새 연결](assets/new-connection-allow-multiple-records-box.png)
 
 1. (조건부) 동일한 작업 공간의 레코드 유형 또는 Planning 레코드 유형과 Workfront 객체 유형을 연결하는 경우 사용 중인 환경에 따라 다음 중 하나를 수행합니다.
 
@@ -197,6 +201,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
          >
          >하나의 레코드 종류에는 500개의 필드로 제한됩니다. 특히 분류학적 레코드 유형의 경우 이 제한에 도달하지 않도록 이 설정을 해제하는 것이 좋습니다.
 
+         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
+
       3. (조건부) **연결된 레코드 종류에 해당 필드 만들기**&#x200B;를 사용하도록 설정한 경우 사용자가 연결할 수 있는 레코드 수를 나타내려면 다음 옵션 중에서 선택하십시오.
 
          * 다대다
@@ -222,7 +228,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
 1. (조건부) Experience Manager Assets 또는 Workfront Planning 레코드 유형에 연결하도록 선택한 경우 **레코드 모양** 영역에서 다음 옵션 중 하나를 선택합니다.

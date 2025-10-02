@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '3371'
+source-wordcount: '3397'
 ht-degree: 1%
 
 ---
@@ -337,7 +337,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
 >[!NOTE]
 >
->Workfront 관리자가 Experience Manager Assets과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront에서 Planning 레코드 및 해당 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+>Workfront 관리자가 Experience Manager Assets과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront에서 Planning 레코드 및 해당 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 레코드를 Experience Manager 에셋과 연결하려면 다음 작업을 수행하십시오.
 
@@ -467,11 +467,12 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
    연결된 레코드 유형 페이지가 테이블 뷰에 표시됩니다.
 
    한 유형의 연결된 모든 레코드가 테이블에 표시됩니다.
-1. **연결**, <span class="preview">**레코드 연결** 또는 **새 행**</span>&#x200B;을 클릭하여 레코드를 추가하거나 제거합니다.
+1. 기존 레코드를 추가하거나 제거하려면 프로젝트 목록에서 **연결** 또는 <span class="preview">**레코드 연결**&#x200B;을 클릭합니다</span>.
 
    ![연결된 레코드 세부 정보 탭에서 강조 표시된 연결 단추](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 
    자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
+1. 프로젝트를 만들려면 프로젝트 목록에서 <span class="preview">**새 행**&#x200B;을 클릭합니다. 새 프로젝트는 현재 레코드에 자동으로 연결됩니다. </span>
 1. (선택 사항) 연결된 레코드를 찾을 수 없는 경우 **+ 추가**&#x200B;를 클릭하여 레코드를 만들고 연결합니다.
 
 ## Workfront 개체에서 레코드 연결

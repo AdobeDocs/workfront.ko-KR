@@ -4,9 +4,9 @@ description: 레코드 유형을 다른 작업 공간에 추가하거나 다른 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1143'
 ht-degree: 1%
 
 ---
@@ -49,6 +49,8 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
+여러 작업 영역에서 작동하도록 레코드 유형을 구성할 수 있습니다.
+
 다음은 레코드 유형의 작업 영역 간 기능입니다.
 
 * 레코드 유형을 중앙 집중식으로 지정할 수 있습니다. 사용자는 자신이 관리할 수 있는 다른 작업 공간에 중앙 집중식 레코드 유형을 추가할 수 있습니다.
@@ -81,8 +83,10 @@ Then for the second setting for cross-workspace connections, we'll need a simila
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <ul><li><p>모든 Workfront 패키지</p></li>
-And
-<li><p>Planning Plus 패키지</p></li></ul>
+<p>And</p>
+<li><p>연결 가능한 레코드 유형을 만들기 위한 모든 Planning 패키지</p></li>
+<li><p>중앙 집중식 레코드 유형을 만드는 Planning Plus 패키지</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -120,17 +124,16 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
-레코드 유형 추가를 중앙 집중식 레코드 유형으로 구성하려면 다음을 수행합니다.
+레코드 유형을 중앙 집중식으로 구성하려면 다음을 수행합니다.
 
 {{step1-to-planning}}
 
-1. 레코드 유형을 편집할 작업공간을 클릭합니다.
+1. 레코드 유형을 중앙 집중식으로 구성할 작업 영역을 클릭합니다.
 
    작업 영역 페이지가 열리고 레코드 유형이 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
    * 레코드 종류 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다.
-또는
    * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 연 다음 레코드 유형 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭합니다.
 1. **편집**&#x200B;을 클릭합니다.
 
@@ -140,7 +143,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >
    >레코드 유형이 이미 중앙 집중식 레코드 유형으로 지정되어 있고 다른 작업 공간에 추가된 경우 편집 옵션이 흐리게 표시됩니다.
 
-1. **레코드 종류 편집** 상자에서 **고급 설정** 탭을 선택합니다.
+1. **레코드 종류 편집** 상자에서 **고급 설정** 탭을 클릭합니다.
 1. **다른 작업 영역에 이 레코드 형식을 추가할 수 있도록 허용** 설정을 사용합니다.
 
    ![다른 작업 영역에 추가를 사용하여 고급 설정 편집](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
@@ -197,12 +200,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. 다음 중 하나를 수행하십시오.
 
    * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다
-또는
    * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 열고 레코드 유형 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
    ![레코드 종류 카드의 추가 메뉴 옵션](assets/more-menu-options-from-record-type-card.png)
 
-1. **레코드 종류 편집** 상자에서 **고급 설정** 탭을 선택합니다.
+1. **레코드 종류 편집** 상자에서 **고급 설정** 탭을 클릭합니다.
 1. **다른 작업 영역에서 이 레코드 형식에 연결 허용** 설정을 사용합니다. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![다른 작업 공간에서 연결을 사용하도록 설정한 고급 설정 탭](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)

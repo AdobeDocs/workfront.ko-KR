@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '3723'
+source-wordcount: '3810'
 ht-degree: 4%
 
 ---
@@ -26,12 +26,22 @@ ht-degree: 4%
 </div>
 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 
 직접 만들었거나 Contribute 또는 Manage 권한이 있는 작업에 대한 정보를 편집할 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +53,8 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새로운 기능: 표준</p>
-   <p>현재: 작업 시간 이상</p> </td> 
+   <td> <p>표준</p>
+   <p>작업 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준</td> 
@@ -183,6 +193,7 @@ ht-degree: 4%
    * [사용자 정의 양식](#Custom%C2%A0F)
    * [재무](#finance)
    * [설정](#settings)
+   * [댓글](#comment)
 
    >[!NOTE]
    >
@@ -234,7 +245,7 @@ ht-degree: 4%
        <ul> 
       <li> <p> 없음</p> </li> 
       <li> <p> 낮음 </p> </li> 
-      <li> <p>보통 </p> </li> 
+      <li> <p>일반 </p> </li> 
       <li> <p>높음 </p> </li> 
       <li> <p> 긴급 </p> </li> 
        </ul> <p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 작업 우선 순위에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">작업 우선 순위 업데이트</a>를 참조하십시오. </p> </td> 
@@ -605,9 +616,23 @@ ht-degree: 4%
    </table>
     </li>
 
-1. **저장**&#x200B;을 클릭합니다.
+1. **저장**&#x200B;을 클릭하거나 다음 섹션을 계속합니다.
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### 댓글
+
+1. 이 문서의 [작업 편집](#Edit2) 섹션에 설명된 대로 작업 편집을 시작합니다.
+1. 왼쪽 패널에서 **댓글**&#x200B;을 클릭합니다.
+
+   작업 상자 편집에 대한 ![댓글 섹션](assets/comment-section-on-edit-task-box.png)
+
+1. 제공된 공간에 업데이트를 추가합니다.
+1. (선택 사항) 다음 중 하나를 업데이트에 추가합니다.
+
+   * **인물 태그** 영역에서 업데이트에 사용자 또는 팀을 추가하거나 @을 사용하여 업데이트에 포함하십시오.
+   * 회사 내 사용자에 대한 업데이트를 비공개로 유지하려면 **내 회사에 비공개** 확인란을 선택하십시오.
+1. **저장**&#x200B;을 클릭합니다.
 
 ## 작업 헤더에서 작업 편집(제한적)
 

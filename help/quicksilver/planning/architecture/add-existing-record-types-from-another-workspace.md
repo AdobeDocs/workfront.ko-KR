@@ -4,9 +4,9 @@ description: 레코드 유형은 Adobe Workfront Planning의 객체 유형입니
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,18 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
-작업 영역 관리자는 Adobe Workfront Planning에서 관리하는 작업 영역에 작업 영역에 있는 레코드 유형을 추가할 수 있습니다.
+작업 영역 관리자는 다른 작업 영역에 있는 레코드 유형을 Adobe Workfront Planning에서 관리하는 작업 영역에 추가할 수 있습니다.
 
-작업 영역 관리자가 다른 작업 영역에 레코드 유형을 기존 레코드 유형으로 추가하려면 먼저 레코드 유형을 중앙 집중식으로 지정해야 합니다.
+이 문서에서는 기존 레코드 유형에서 레코드 유형을 추가하는 방법과 더 이상 필요하지 않은 경우 삭제하는 방법에 대해 설명합니다.
 
-기록 유형을 만들거나 편집할 때 교차 작업 공간 설정을 정의할 때 중앙 집중식으로 지정할 수 있습니다.
+기존 레코드 유형으로 관리하는 작업 영역에 레코드 유형을 추가하려면 먼저 작업 영역 관리자가 레코드 유형을 중앙 집중식으로 지정해야 합니다.
+
+고급 설정을 정의할 때 레코드 유형을 만들거나 편집할 때 중앙 집중식으로 지정할 수 있습니다.
 
 자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.
 
-중앙화된 레코드 형식에서 작업 영역에 레코드를 추가하기 전에 문서 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
+중앙 집중식 레코드 형식에서 작업 영역에 레코드를 추가하기 전에 문서 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
+
 
 ## 액세스 요구 사항
 
@@ -53,8 +56,10 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <ul><li><p>모든 Workfront 패키지</p></li>
-And
-<li><p>Planning Plus 패키지</p></li></ul>
+<p>And</p>
+<li><p>연결 가능한 레코드 유형을 만들기 위한 모든 Planning 패키지</p></li>
+<li><p>중앙 집중식 레코드 유형을 만드는 Planning Plus 패키지</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -92,7 +97,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!TIP]
    >
-   >다른 작업 영역에 추가하도록 구성된 레코드 유형이 없는 경우 레코드 유형을 작성할 때 다른 작업 영역에서 해당 레코드 유형을 추가하는 옵션이 표시되지 않습니다.
+   >다른 작업 영역에 추가하도록 구성된 레코드 유형이 없는 경우 다른 작업 영역에서 해당 레코드 유형을 추가하는 옵션이 표시되지 않습니다.
 
    다음과 같은 상황이 발생합니다.
 
@@ -100,19 +105,27 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
       * 모든 원본 필드
       * 모든 레코드 연결
-   * 다른 작업 영역에 대해 적어도 보기 권한이 있는 경우에만 해당 작업 영역에서 추가된 레코드를 볼 수 있습니다.
+   * 해당 작업 영역에 대해 적어도 보기 권한이 있는 경우에만 동일한 중앙 집중식 레코드 유형을 사용하는 다른 작업 영역에서 추가된 레코드를 볼 수 있습니다.
    * **중앙 집중식 레코드 종류** 아이콘 ![중앙 집중식 레코드 종류 아이콘](assets/global-icon.png)이(가) 새 레코드 종류의 카드에 추가되었습니다.
    * 읽기 전용 **Workspace** 필드가 새 레코드 형식 테이블 보기에 추가되었습니다. 필드에는 각 레코드가 생성된 작업 공간이 표시됩니다.
 
      >[!NOTE]
      >
-     >* 새 레코드 종류의 모양, 고급 설정 또는 원본 필드는 편집할 수 없습니다. 원본 작업공간에서만 레코드 종류 및 원본 필드와 설정을 편집할 수 있습니다.
+     >새 레코드 종류의 모양, 고급 설정 또는 원본 필드는 편집할 수 없습니다. 원본 작업공간에서만 레코드 종류 및 원본 필드와 설정을 편집할 수 있습니다.
 
 1. (선택 사항) 을 클릭한 다음, 새로 추가된 레코드 유형을 작업 공간 내의 임의의 섹션으로 끌어다 놓습니다.
 
 <!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
-1. (선택 사항) 새 레코드 종류의 카드에서 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png) 또는 해당 페이지의 레코드 종류 이름 오른쪽에서 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+## 보조 작업 영역에서 중앙 집중식 레코드 유형 삭제
+
+더 이상 필요하지 않은 경우 다른 작업 영역에서 추가한 레코드 유형을 삭제할 수 있습니다. 삭제하면 보조 작업 영역에서만 삭제되고 해당 작업 영역에서 추가된 레코드도 삭제됩니다. 원래 레코드 유형은 원래 작업 영역 및 원래 작업 영역이 추가된 다른 작업 영역에 남아 있습니다.
+
+보조 작업 영역에서 중앙 집중식 레코드 유형을 삭제하려면 다음을 수행합니다.
+
+1. 보조 작업 공간의 중앙 집중식 레코드 유형으로 이동합니다.
+
+1. (선택 사항) 레코드 종류의 카드에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png) 또는 해당 페이지의 레코드 종류 이름 오른쪽에 있는 **삭제**&#x200B;를 클릭합니다.
 1. (조건부) 제공된 필드에 **delete**&#x200B;을(를) 입력한 다음 **영구적으로 삭제**&#x200B;을(를) 클릭합니다.
 
    다음과 같은 상황이 발생합니다.
