@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
+source-git-commit: a3edfadc447a763c638cc926b386272890697f81
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,18 @@ ht-degree: 0%
 Workfront과 Frame.io 통합을 통해 크리에이티브, 마케터 및 이해 당사자를 원활한 워크플로우로 연결할 수 있습니다. 시작 전에 실시간 업데이트에 액세스하고, 중복 작업을 방지하고, 자산이 승인되도록 합니다.
 
 Frame.io에 대한 자세한 내용은 [Frame.io 시작하기](https://support.frame.io/en/collections/49298-getting-started)를 참조하십시오.
+
+Workfront 인스턴스에 Workfront 및 Frame.io 통합이 설정되어 있어야 합니다. 자세한 내용은 [Frame.io 통합 개요](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements)를 참조하십시오.
+
+<!--## Integration requirements
+
+* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+
+* Users can belong to only one Workfront instance within the IMS organization.
+
+* The Workfront instance must be enabled on the Adobe Unified Experience.
+
+* The integration is configured by Adobe Professional Services. -->
 
 ## Workfront의 작업 시작 및 계획
 

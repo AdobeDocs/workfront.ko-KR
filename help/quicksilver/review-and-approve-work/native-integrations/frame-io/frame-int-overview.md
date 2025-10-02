@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
+source-git-commit: f8d81996846f7b719bf3e5e8aaa2ad9ba1805cff
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 # Frame.io 통합 개요
 
 Workfront 및 Frame.io 통합을 통해 프로젝트 코디네이터는 Workfront에서 프로젝트를 관리하고 작업을 계획할 수 있으며 크리에이티브, 마케터 및 이해 당사자는 Frame.io에서 에셋을 검토하고 승인할 수 있습니다.
+
+## 통합 요구 사항
+
+Adobe Professional Services에서 Workfront 및 Frame.io 통합을 활성화해야 합니다.
+
+<!--
+* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+
+* Users can belong to only one Workfront instance within the IMS organization.
+
+* The Workfront instance must be enabled on the Adobe Unified Experience.
+
+* The integration is configured by Adobe Professional Services. 
+-->
 
 ## Adobe 엔터프라이즈 스토리지 기반
 

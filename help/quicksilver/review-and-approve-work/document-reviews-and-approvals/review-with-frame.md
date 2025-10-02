@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
+source-git-commit: a3edfadc447a763c638cc926b386272890697f81
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,15 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++ -->
 
+## 전제 조건
+
+* Workfront 인스턴스에 Workfront 및 Frame.io 통합이 설정되어 있어야 합니다. 자세한 내용은 [Frame.io 통합 개요](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements)를 참조하십시오.
+
 ## 문서 검토
 
 검토자는 에셋에 주석을 추가하고 에셋에 표시할 수 있습니다. 완료되면 Workfront에서 검토 완료를 표시할 수 있습니다. 에셋이 승인 프로세스에서 앞으로 이동하기 위해서는 검토를 완료로 표시할 필요가 없습니다.
 
-1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**을 클릭합니다.
 또는
 Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
 
@@ -83,7 +87,7 @@ Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검
 
 문서에 대해 결정을 내리려면
 
-1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**을 클릭합니다.
 또는
 Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
 
