@@ -6,7 +6,7 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
+source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
 workflow-type: tm+mt
 source-wordcount: '2840'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
    Workfront 요청 대기열 경로 또는 양식 중 하나를 클릭하거나 경로 또는 양식을 검색한 다음 목록에 표시되면 클릭합니다.
 1. <span class="preview">(조건부) 새 경험으로 전환한 경우 Workfront 요청 큐 경로 또는 양식 중 하나를 선택하거나 검색 창을 클릭합니다. </span>
 
-   <span class="preview">검색 창을 클릭하면 가장 최근에 사용된 큐와 양식을 먼저 표시하는 드롭다운이 나타납니다. 목록에서 하나를 선택하거나 입력을 시작하고 대기열이나 목록이 나타나면 선택하십시오.</span>
+   <span class="preview">검색 창을 클릭하면 가장 최근에 사용된 큐와 양식을 먼저 표시하는 드롭다운이 나타납니다. 목록에서 하나를 선택하거나 입력을 시작하고 대기열이나 양식이 나타나면 선택하십시오.</span>
 
    >[!NOTE]
    >

@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 7eb5b40c92ed743a665f6c38ce6d09db7d9a2ddb
+source-git-commit: 8c5f98bc48b644d8d15c320b2a6ca709eda775b7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -40,3 +40,4 @@ Workfront에 요청을 만들거나 제출하거나 이메일로 보내는 방�
 * [요청 초안 삭제](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [이전 데이터의 요청 자동 채우기](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
 * [프롬프트 또는 문서를 사용하여 요청 자동 채우기](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [요청 영역에서 보기 만들기](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
