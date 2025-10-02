@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2764'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ ht-degree: 0%
 
    <span class="preview">![크기를 조정할 타임라인 보기의 왼쪽 끝 막대](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-1. <span class="preview">레코드 표시줄을 클릭한 다음 다른 위치에 끌어다 놓아 타임라인과 날짜를 업데이트합니다. 레코드의 시작 및 종료 날짜가 자동으로 업데이트됩니다.</span>
+1. <span class="preview">레코드 표시줄을 클릭하고 다른 위치에 끌어다 놓아 타임라인과 날짜를 업데이트합니다. 레코드의 시작 및 종료 날짜가 자동으로 업데이트됩니다.</span>
 
 1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
 
@@ -250,7 +250,7 @@ ht-degree: 0%
 
    <span class="preview">![크기를 조정할 달력 보기의 왼쪽 끝 막대](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-1. <span class="preview">레코드 표시줄을 클릭한 다음 다른 위치에 끌어다 놓아 타임라인과 날짜를 업데이트합니다. 레코드의 시작 및 종료 날짜가 자동으로 업데이트됩니다.</span>
+1. <span class="preview">레코드 표시줄을 클릭하고 다른 위치에 끌어다 놓아 타임라인과 날짜를 업데이트합니다. 레코드의 시작 및 종료 날짜가 자동으로 업데이트됩니다.</span>
 
 1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
 
@@ -378,11 +378,11 @@ ht-degree: 0%
 
 <div class="preview">
 
-## 단일 또는 다중 선택 필드에 대한 정보 편집
+## 값을 업데이트할 때 단일 또는 다중 선택 필드 설정 편집
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
 
-단일 또는 다중 선택 필드에서 정보를 편집할 때 필드를 편집할 필요 없이 필드에 새로운 선택 사항을 추가할 수 있습니다.
+단일 또는 다중 선택 필드의 정보를 업데이트할 때 필드를 편집하지 않고도 필드에 새로운 선택 사항을 추가할 수 있습니다.
 
 >[!IMPORTANT]
 >

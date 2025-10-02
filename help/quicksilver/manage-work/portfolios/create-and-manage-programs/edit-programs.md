@@ -6,9 +6,9 @@ description: 사용자가 만든 프로그램이나 다른 사용자가 사용�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1070'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 사용자가 만든 프로그램이나 다른 사용자가 사용자와 공유한 경우 만든 프로그램에 대한 정보를 편집할 수 있습니다.
 
-프로그램 페이지에서 프로그램을 편집하거나 목록에서 프로그램을 편집할 수 있습니다.
+프로그램 페이지에서 프로그램을 편집하거나 목록에서 하나 이상의 프로그램을 일괄적으로 편집할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -36,7 +36,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard] </p><p>또는 </p><p>현재: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL 계획]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준</td> 
@@ -188,4 +189,21 @@ ht-degree: 1%
 
    변경 내용을 저장하면 추가한 댓글이 프로그램의 [!UICONTROL 업데이트] 탭에 표시되고 이에 포함된 사용자에게 전자 메일을 보냅니다.
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다
+
+
+## 프로그램 일괄 편집
+
+프로그램을 일괄 편집할 때 업데이트한 모든 정보가 각 프로그램의 원래 정보보다 우선하여 선택한 모든 프로그램에 적용됩니다.
+
+1. 프로그램 목록으로 이동한 후 여러 프로그램을 선택합니다.
+1. 목록 맨 위에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
+
+   **프로그램 편집** 상자가 열립니다.
+1. 다음 섹션의 정보를 업데이트합니다.
+
+   * 개요
+   * 사용자 정의 양식
+   * 댓글
+
+   자세한 내용은 이 문서에서 4단계부터 [프로그램 편집](#edit-programs-1) 섹션을 참조하십시오. <!--ensure this stays accurate-->
 

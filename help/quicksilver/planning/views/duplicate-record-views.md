@@ -6,18 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '454'
 ht-degree: 1%
 
 ---
 
 # 중복 레코드 보기
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--remove preview and production references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 
 {{planning-important-intro}}
@@ -107,12 +109,11 @@ ht-degree: 1%
    레코드 유형 페이지가 열립니다.
 기본적으로 선택된 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-1. 복제할 보기의 탭 위로 마우스를 가져간 후 보기 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **복제**&#x200B;를 클릭합니다.
+1. 사용하는 환경에 따라 다음을 수행합니다.
 
-   ![레코드 보기에서 추가 메뉴 보기](assets/view-more-menu-with-duplicate-option.png)
+   * 프로덕션 환경에서 보기 탭의 보기 이름 중 하나를 마우스로 가리킨 다음 보기 이름 왼쪽의 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **복제**&#x200B;를 클릭합니다.
+   * <span class="preview">미리 보기 환경에서 현재 보기 이름 옆에 있는 드롭다운 아이콘 ![드롭다운 아이콘](assets/drop-down-icon.png)을 클릭하고 보기 이름을 마우스로 가리킨 다음 **자세히**&#x200B;를 클릭한 다음 **복제**&#x200B;을 클릭합니다.</span>
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Duplicate**. 
-    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Duplicate**.</span>-->
-   보기가 복제되고 새 보기의 이름이 `Original view's name (Copy)` 패턴을 따릅니다. 새 보기 탭은 모든 보기 탭의 끝에 표시됩니다.
+     ![옵션이 있는 보기의 추가 메뉴](assets/more-menu-for-views-expanded-with-delete-option.png)
+
+     보기가 복제되고 새 보기의 이름이 `Original view's name (Copy)` 패턴을 따릅니다. 새 보기 탭은 모든 보기 탭의 끝에 표시됩니다.

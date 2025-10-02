@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
 source-wordcount: '1895'
 ht-degree: 4%
@@ -116,9 +116,13 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 1. 달력을 보려는 레코드 유형 페이지로 이동합니다.
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 일정 보기를 만듭니다.
 
+   <div class="preview">
+
    ![달력 보기 예](assets/calendar-view-example.png)
 
    선택한 레코드 유형과 연관된 레코드가 달력에 막대로 표시됩니다. 기본적으로 막대의 색상은 레코드 아이콘의 색상과 일치합니다.
+
+   </div>
 
 1. 다음 중 하나를 수행하여 달력을 탐색합니다.
 

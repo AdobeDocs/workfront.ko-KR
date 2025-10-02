@@ -6,9 +6,9 @@ description: 프로젝트 템플릿을 편집하여 향후 프로젝트의 프�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '5658'
+source-wordcount: '5655'
 ht-degree: 2%
 
 ---
@@ -652,8 +652,6 @@ Editing templates in bulk differs depending on which environment you are using.
 
 *****************and hide the first line below************ -->
 
-템플릿을 일괄적으로 편집하려면 다음을 수행합니다.
-
 {{step1-to-templates}}
 
 1. 목록에서 템플릿을 여러 개 선택합니다.
@@ -671,12 +669,11 @@ Editing templates in bulk differs depending on which environment you are using.
 
    * 개요
    * 재무
-   * 포트폴리오
-   * 설정
-   * 액세스
    * 사용자 정의 양식
-   * 작업
-   * 문제
+   * 템플릿 설정
+   * 작업 설정
+   * 문제 설정
+   * 액세스
    * 댓글
 
 1. **저장**&#x200B;을 클릭합니다.
