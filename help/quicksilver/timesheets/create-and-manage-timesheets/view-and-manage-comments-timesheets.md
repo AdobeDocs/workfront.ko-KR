@@ -6,9 +6,9 @@ description: 타임시트, 타임시트에 포함된 작업 항목 및 사용자
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 **타임시트** 영역이 열립니다.
 
 1. 주석을 표시할 타임시트를 엽니다.
-1. 타임시트의 오른쪽 상단에서 **댓글 표시**&#x200B;를 클릭합니다.
+1. 타임시트의 오른쪽 상단에서 **댓글 표시**를 클릭합니다.
 시간 항목과 댓글이 기록된 항목 아래에 댓글이 표시됩니다.
 
    ![다시 디자인된 타임시트 작업에서 확장된 주석](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
@@ -96,6 +96,10 @@ ht-degree: 0%
 1. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)에 설명된 대로 새 댓글을 추가하거나 기존 댓글에 회신합니다.
 1. (선택 사항) **사람 또는 팀에 태그 지정** 필드에 사람 또는 팀을 추가하여 업데이트에 다른 사람을 포함하십시오. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
 1. (선택 사항) 회사 직원만 업데이트를 보려면 **내 회사에 비공개** 옵션을 선택하십시오.
+
+   >[!TIP]
+   >
+   >**회사에 비공개** 설정은 Workfront 프로필이 회사와 연결되어 있을 때만 사용할 수 있습니다.
 1. 댓글을 입력한 다음 **제출**&#x200B;을 클릭합니다.
 
    댓글은 타임시트의 [!UICONTROL 업데이트] 섹션에 댓글 탭에 표시됩니다.

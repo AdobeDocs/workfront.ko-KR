@@ -6,9 +6,9 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -122,8 +122,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >* 이 옵션은 사용자가 회사와 연결되어 있을 때만 표시됩니다.
-   >* 회사 외부의 태그 지정된 사용자는 업데이트 탭에 개인 댓글이 표시되지 않더라도 인앱 알림이나 이메일을 계속 받을 수 있습니다. 외부 사용자와 정보를 공유하지 않으려면 업데이트에 외부 사용자에게 태그를 지정하지 않는 것이 좋습니다.
+   >회사 외부의 태그 지정된 사용자는 업데이트 탭에 개인 댓글이 표시되지 않더라도 인앱 알림이나 이메일을 계속 받을 수 있습니다. 외부 사용자와 정보를 공유하지 않으려면 업데이트에 외부 사용자에게 태그를 지정하지 않는 것이 좋습니다.
 
 1. (선택 사항) 여러 사용자와 팀을 추가하려면 2단계를 반복합니다. <!--insure this stays accurate-->
 
@@ -131,7 +130,7 @@ ht-degree: 0%
    >
    >&quot;직원 또는 팀 태그&quot; 필드에 나열된 모든 사용자 및 팀 구성원은 업데이트에 대한 인앱 알림을 받으며 이메일 알림 설정의 구성에 따라 이메일을 받을 수 있습니다. 댓글 또는 회신에 태그를 지정한 사용자는 해당 댓글 또는 회신에 대한 알림을 받고, 나머지 스레드 동안 스레드 멤버로 이름이 나열된 상태로 볼 수 있지만 자신을 다시 태그 지정하지 않는 한 다른 알림을 받지 않습니다. 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 및 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)을 참조하십시오.
 
-1. **제출**&#x200B;을 클릭합니다.\
+1. **제출을 클릭합니다**.\
    업데이트에 포함된 사용자에게는 객체에 대한 보기 권한이 자동으로 부여되고 객체에 대한 업데이트를 보고 응답할 수 있습니다.
 
    태그가 지정된 엔티티의 이름이 해당 아바타 옆에 최대 2개의 엔티티로 표시됩니다. 두 개 이상의 엔티티에 태그가 지정되어 있으면 태그가 지정된 추가 엔티티 수와 함께 첫 번째 엔티티의 이름이 표시됩니다.

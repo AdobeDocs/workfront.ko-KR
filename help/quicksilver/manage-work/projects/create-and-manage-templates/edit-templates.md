@@ -6,9 +6,9 @@ description: 프로젝트 템플릿을 편집하여 향후 프로젝트의 프�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5674'
 ht-degree: 2%
 
 ---
@@ -640,6 +640,10 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 
    ![템플릿 상자 설명 편집 섹션](assets/edit-template-box-comment-section.png)
 1. 만들고 있는 업데이트에 대한 댓글을 추가하거나, 추가 사용자에 태그를 지정하거나, **내 회사에 비공개** 상자를 선택하여 회사 내 사용자에 대한 업데이트를 비공개로 유지한 다음 **저장**&#x200B;을 클릭합니다.
+
+   >[!TIP]
+   >
+   >**회사에 비공개** 설정은 Workfront 프로필이 회사와 연결되어 있을 때만 사용할 수 있습니다.
 
 ## 일괄 템플릿 편집
 

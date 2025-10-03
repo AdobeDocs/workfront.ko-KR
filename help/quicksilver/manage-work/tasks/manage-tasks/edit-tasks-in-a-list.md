@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 목록에서 작업 편집
-description: 목록에 표시된 필드를 편집하여 작업 목록에서 작업 정보를 편집할 수 있습니다.
+description: 목록에 표시된 필드를 편집하여 작업 목록에서 작업 정보를 편집할 수 있습니다. 변경 사항을 Workfront에 저장하는 방법을 나타내려면 작업 목록에 계획 모드를 정의해야 합니다. 변경 사항을 수동 또는 자동으로 저장할 수 있습니다.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2822'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++ 
 
 ## 목록에서 작업 편집에 대한 고려 사항 {#considerations-about-editing-tasks-in-a-list}
 
@@ -84,15 +84,20 @@ ht-degree: 2%
      >
      >기본적으로 Workfront은 작업에 대한 변경 사항을 하위 작업 섹션 또는 작업 보고서에 자동으로 저장합니다.
 
-* Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기를 제어할 수 있습니다. 변경 사항은 자동으로 저장하거나 수동으로 저장할 수 있습니다.
+* 작업 편집을 시작하기 전에 계획 모드를 정의하여 Workfront에서 작업에 수행한 변경 사항을 목록에 저장하는 시기를 제어할 수 있습니다.
 
-  Workfront에서 변경한 내용을 목록에 저장하는 시기를 구성하는 방법에 대한 자세한 내용은 이 문서의 [목록에서 작업을 편집할 때 저장 옵션 선택](#select-a-save-option-when-editing-tasks-in-a-list) 섹션을 참조하십시오.
+  다음 방법으로 변경 사항을 저장하는 Workfront 사이에서 결정할 수 있습니다.
+
+      * 모든 변경 후 자동으로
+     * 저장을 클릭한 후에만 수동으로.
+  
+  Workfront에서 변경한 내용을 목록에 저장하는 시기를 구성하는 방법에 대한 자세한 내용은 이 문서의 [목록에서 작업을 편집하기 전에 계획 모드 수정](#modify-plan-mode-before-editing-tasks-in-a-list) 섹션을 참조하십시오.
 
 * 다른 사용자는 작업에 대한 업데이트를 보려면 페이지를 새로 고쳐야 합니다.
 
-## 목록에서 작업을 편집할 때 저장 옵션 선택 {#select-a-save-option-when-editing-tasks-in-a-list}
+## 목록에서 작업을 편집하기 전에 계획 모드 수정
 
-목록의 작업에 대한 변경 사항이 발생할 때 자동으로 저장되는지 또는 각 변경 사항을 수동으로 저장할지 여부를 결정할 수 있습니다.
+목록의 작업에 대한 변경 사항이 발생할 때 자동으로 저장되는지 또는 각 변경 사항을 수동으로 저장할지 여부를 결정할 수 있습니다. 이렇게 하려면 작업을 편집하기 전에 작업 목록에서 계획 모드를 수정해야 합니다.
 
 >[!IMPORTANT]
 >
@@ -100,17 +105,17 @@ ht-degree: 2%
 
 업데이트 유형으로 자동 또는 자동 및 변경 시 가 선택된 프로젝트의 변경 사항을 목록에 저장하면 Workfront에서 프로젝트 내 및 프로젝트 간 종속성과 함께 프로젝트 타임라인을 업데이트합니다. 프로젝트가 크거나 종속성이 많은 경우 타임라인 계산에 시간이 오래 걸릴 수 있습니다. 변경 내용을 저장하기 위해 선택한 방법에 따라 작업 목록을 편집하는 방법 중 일부는 다른 방법보다 빠를 수 있습니다.
 
-Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기를 제어할 수 있습니다. 다음과 같은 시나리오가 있습니다. 
+Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기를 제어할 수 있습니다. 다음과 같은 시나리오가 있습니다.
 
 * 각 업데이트 후에 Workfront에서 변경 사항을 자동으로 저장하도록 할 수 있습니다.
 
-  자세한 내용은 이 문서에서 [목록의 작업 편집 및 변경 내용 자동 저장](#edit-tasks-in-a-list-and-automatically-save-changes) 섹션을 참조하십시오.
+  자세한 내용은 이 문서에서 [변경 내용을 자동으로 저장하도록 플랜 모드 설정](#set-the-plan-mode-to-automatically-save-changes) 섹션을 참조하십시오.
 
 * 저장 버튼을 사용하여 한 번에 여러 변경 사항을 적용하는 시기를 수동으로 제어할 수 있습니다.
 
-  자세한 내용은 이 문서의 [목록에서 작업 편집 및 변경 내용 수동 저장](#edit-tasks-in-a-list-and-manually-save-changes) 섹션을 참조하십시오.
+  자세한 내용은 이 문서에서 [변경 내용을 수동으로 저장하려면 플랜 모드 설정](#set-the-plan-mode-to-manually-save-changes) 섹션을 참조하십시오.
 
-### 목록에서 작업 편집 및 변경 내용 자동 저장 {#edit-tasks-in-a-list-and-automatically-save-changes}
+### 변경 사항을 자동으로 저장하도록 계획 모드 설정
 
 >[!TIP]
 >
@@ -192,7 +197,7 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
     </tbody> 
    </table>
 
-### 목록에서 작업 편집 및 수동으로 변경 내용 저장 {#edit-tasks-in-a-list-and-manually-save-changes}
+### 변경 사항을 수동으로 저장하려면 계획 모드 설정 {#edit-tasks-in-a-list-and-manually-save-changes}
 
 작업에 대한 변경 사항을 목록에 수동으로 저장할 수 있습니다. 이러한 방식으로 변경 사항을 저장하면 저장하기 전에 변경 사항을 유연하게 되돌릴 수 있습니다.
 

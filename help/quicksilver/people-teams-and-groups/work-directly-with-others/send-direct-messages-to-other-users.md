@@ -7,9 +7,9 @@ description: Adobe Workfront을 사용하면 작업 항목과 관련이 없는 �
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: d16495a0686ae5e54d16b108c69645f8666b46bd
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,11 @@ ht-degree: 0%
 
 1. (선택 사항) 이 메시지가 회사의 다른 사용자에게만 표시되도록 하려면 **[!UICONTROL 내 회사에 비공개]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 업데이트]를 클릭합니다.**
+   >[!TIP]
+   >
+   >[!UICONTROL **회사에 비공개**] 설정은 Workfront 프로필이 회사와 연결되어 있을 때만 사용할 수 있습니다.
+
+1. **[!UICONTROL 업데이트를 클릭합니다].**
 사용자 프로필 페이지의 **[!UICONTROL 업데이트]** 탭에 있는 메시지 목록 맨 위에 메시지가 게시됩니다.
 
 ## 사용자 목록에서 한 명 이상의 사용자에게 메시지 보내기
@@ -89,5 +93,9 @@ ht-degree: 0%
 
 1. (선택 사항) **인물 태그 지정**&#x200B;을 클릭하여 메시지에 추가 사용자를 태그 지정합니다. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
 1. (선택 사항) 이 메시지가 회사의 다른 사용자에게만 표시되도록 하려면 **[!UICONTROL 내 회사에 비공개]**&#x200B;를 선택합니다.
+
+   >[!TIP]
+   >
+   >[!UICONTROL **회사에 비공개**] 설정은 Workfront 프로필이 회사와 연결되어 있을 때만 사용할 수 있습니다.
 1. [!UICONTROL **보내기**]를 클릭합니다.
 태그가 지정된 각 사용자의 프로필 페이지에서 **[!UICONTROL 업데이트]** 탭의 메시지 목록 맨 위에 메시지가 게시됩니다.

@@ -6,9 +6,9 @@ description: 사용자가 만든 프로그램이나 다른 사용자가 사용�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -186,6 +186,11 @@ ht-degree: 1%
 1. **[!UICONTROL 각 프로그램에 업데이트를 추가]** 필드에 댓글을 추가합니다.
 1. (선택 사항) 댓글에 사용자 또는 팀을 추가하려면 **[!UICONTROL 사람]** 아이콘을 클릭합니다.
 1. (선택 사항) [!UICONTROL **내 회사에 비공개**]&#x200B;를 선택하여 댓글을 잠그고 회사의 사용자에게만 비공개로 설정합니다.
+
+   >[!TIP]
+   >
+   >**회사에 비공개** 설정은 Workfront 프로필이 회사와 연결되어 있을 때만 사용할 수 있습니다.
+
 
    변경 내용을 저장하면 추가한 댓글이 프로그램의 [!UICONTROL 업데이트] 탭에 표시되고 이에 포함된 사용자에게 전자 메일을 보냅니다.
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다

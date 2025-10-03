@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 2%
+source-wordcount: '1418'
+ht-degree: 1%
 
 ---
 
@@ -261,6 +261,10 @@ You must have the following access to perform the steps in this article:
    * 동일한 업데이트를 받을 추가 사용자를 태그 지정하려면 **사람 태그 지정**&#x200B;을 클릭하세요.
    * 업데이트를 회사 사용자에게 비공개로 설정하려면 **내 회사에 비공개** 옵션을 선택하십시오.
    * **보내기**&#x200B;를 클릭합니다.
+
+     >[!TIP]
+     >
+     >**회사에 비공개** 설정은 Workfront 프로필이 회사와 연결되어 있을 때만 사용할 수 있습니다.
 
    태그가 지정된 각 사용자 프로필의 **업데이트** 섹션에 업데이트가 추가됩니다.
 

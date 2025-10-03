@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '3810'
+source-wordcount: '3829'
 ht-degree: 4%
 
 ---
@@ -632,6 +632,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    * **인물 태그** 영역에서 업데이트에 사용자 또는 팀을 추가하거나 @을 사용하여 업데이트에 포함하십시오.
    * 회사 내 사용자에 대한 업데이트를 비공개로 유지하려면 **내 회사에 비공개** 확인란을 선택하십시오.
+
+     >[!TIP]
+     >
+     >**회사에 비공개** 설정은 Workfront 프로필이 회사와 연결되어 있을 때만 사용할 수 있습니다.
 1. **저장**&#x200B;을 클릭합니다.
 
 ## 작업 헤더에서 작업 편집(제한적)
