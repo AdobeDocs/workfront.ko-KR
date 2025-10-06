@@ -7,10 +7,10 @@ description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
+source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
 workflow-type: tm+mt
-source-wordcount: '8114'
-ht-degree: 7%
+source-wordcount: '8733'
+ht-degree: 9%
 
 ---
 
@@ -22,23 +22,23 @@ ht-degree: 7%
 >
 >Data Connect의 데이터는 4시간마다 새로 고침되므로 최근 변경 사항이 즉시 반영되지 않을 수 있습니다.
 
-## 테이블 유형
+## 보기 유형
 
-가장 많은 insight을 제공하는 방식으로 Workfront 데이터를 보기 위해 Data Connect에서 활용할 수 있는 다양한 테이블 유형이 있습니다.
+Data Connect에서 다양한 보기 유형을 사용하여 가장 많은 insight을 제공하는 방식으로 Workfront 데이터를 볼 수 있습니다.
 
-* **현재 테이블**
+* **현재 보기**
 
-  현재 테이블은 모든 개체 및 현재 상태의 Workfront에 존재하는 것과 유사하게 데이터를 반영합니다. 하지만 Workfront 내에서보다 훨씬 짧은 지연 시간으로 탐색할 수 있습니다.
+  현재 보기는 모든 개체 및 현재 상태의 Workfront에 존재하는 것과 유사하게 데이터를 반영합니다. 하지만 Workfront 내에서보다 훨씬 짧은 지연 시간으로 탐색할 수 있습니다.
 
-* **이벤트 테이블**
+* **이벤트 보기**
 
-  이벤트 테이블은 Workfront의 모든 변경 레코드를 추적합니다. 즉, 객체가 상태를 변경할 때마다 변경 발생 시간, 변경한 사람 및 변경된 내용을 표시하는 레코드가 만들어집니다. 따라서 이 표는 시점 비교에 유용합니다. 이 표에는 지난 3년간의 기록만 포함되어 있습니다.
+  이벤트 보기는 Workfront의 모든 변경 레코드를 추적합니다. 즉, 오브젝트가 상태를 변경할 때마다 변경 사항이 발생한 시간, 변경한 사람 및 변경된 내용을 보여 주는 레코드가 만들어집니다. 따라서 이 뷰는 시점 비교에 유용합니다. 이 보기에는 지난 3년간의 기록만 포함됩니다.
 
-* **일별 기록 테이블**
+* **일별 기록 보기**
 
-  일별 내역 테이블은 각 개별 이벤트가 발생한 시점이 아니라 매일 각 객체의 상태를 표시한다는 점에서 이벤트 테이블의 축약된 버전을 제공합니다. 따라서 이 표는 추세 분석에 유용합니다.
+  일별 내역 보기는 각 개별 이벤트가 발생한 시점이 아니라 매일 각 객체의 상태를 표시한다는 점에서 이벤트 보기의 약식 버전을 제공합니다. 따라서 이 보기는 추세 분석에 유용합니다.
 
-<!-- Custom table -->
+<!-- Custom view -->
 
 ## 엔티티 관계 다이어그램
 
@@ -48,20 +48,25 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
 
 >[!IMPORTANT]
 >
->엔티티 관계 다이어그램은 진행 중인 작업입니다. 따라서 참조용으로만 사용되며 변경될 수 있습니다.
+>엔티티 관계 다이어그램이 진행 중인 작업입니다. 따라서 이는 참조용일 뿐이며 변경될 수 있습니다.
 
 ## 날짜 유형
 
 특정 이벤트가 발생하는 시기에 대한 정보를 제공하는 다양한 날짜 개체가 있습니다.
 
 * `DL_LOAD_TIMESTAMP`: 이 날짜는 성공적인 데이터 새로 고침이 완료된 후에 업데이트되며 최신 버전의 레코드를 제공한 새로 고침 작업이 시작된 시간의 타임스탬프를 포함합니다.
-* `CALENDAR_DATE`: 이 날짜는 [일별 기록] 테이블에만 있습니다. 이 테이블은 :59에 지정된 각 날짜에 대해 11`CALENDAR_DATE` UTC에서 데이터의 모습에 대한 기록을 제공합니다.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: 이 날짜는 이벤트 및 일별 기록 테이블 모두에 있으며 레코드가 현재 행에 있는 값을 _to_(으)로 변경한 시기를 정확하게 기록합니다.
-* `END_EFFECTIVE_TIMESTAMP`: 이 날짜는 이벤트 및 일일 기록 테이블 모두에 있으며 레코드가 현재 행의 값을 _부터_&#x200B;까지 다른 행의 값으로 변경한 정확한 시점을 기록합니다. `BEGIN_EFFECTIVE_TIMESTAMP`과(와) `END_EFFECTIVE_TIMESTAMP`의 쿼리 사이에 을(를) 허용하려면 새 값이 없어도 이 값은 null이 아닙니다. 레코드가 여전히 유효한 경우(즉, 값이 변경되지 않은 경우) `END_EFFECTIVE_TIMESTAMP`의 값은 2300-01-01입니다.
+* `CALENDAR_DATE`: 이 날짜는 [일별 내역] 보기에만 표시됩니다. 일별 기록 보기는 :59에 지정된 각 날짜에 대해 11`CALENDAR_DATE` UTC로 데이터가 어떻게 보였는지에 대한 기록을 제공합니다.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: 이 날짜는 이벤트 및 일일 기록 보기에 모두 있으며 레코드가 애플리케이션의 현재 값이 되는 시간을 나타냅니다.
+* `END_EFFECTIVE_TIMESTAMP`: 이 날짜는 이벤트 및 일일 기록 보기에 모두 있으며 레코드가 현재 행의 값을 _부터_&#x200B;까지 다른 행의 값으로 변경한 때를 정확히 기록합니다. `BEGIN_EFFECTIVE_TIMESTAMP`과(와) `END_EFFECTIVE_TIMESTAMP`의 쿼리 사이에 을(를) 허용하려면 새 값이 없어도 이 값은 null이 아닙니다. 레코드가 여전히 유효한 경우(즉, 값이 변경되지 않은 경우) `END_EFFECTIVE_TIMESTAMP`의 값은 2300-01-01입니다.
 
 ## 용어 표
 
-다음 표는 Workfront의 개체 이름(인터페이스 및 API의 이름)과 Data Connect의 해당 이름을 상호 연결합니다.
+다음 표는 Workfront의 개체 이름(인터페이스 및 API의 이름)과 Data Connect의 해당 이름을 연결하며, 다른 Workfront 개체에 대한 각 개체의 참조 필드를 포함합니다.
+
+>[!NOTE]
+>
+>Workfront 애플리케이션의 진화하는 데이터 요구 사항을 지원하기 위해 사전 공지 없이 새 필드를 오브젝트 보기에 추가할 수 있습니다. 다운스트림 데이터 받는 사람이 추가할 때 추가 열을 처리할 준비가 되지 않은 경우 &quot;SELECT&quot; 쿼리를 사용하지 않도록 주의합니다.<br>
+>>이름을 바꾸거나 열을 제거해야 하는 경우 이러한 변경 사항을 미리 알려드리겠습니다.
 
 ### 액세스 수준
 
@@ -553,6 +558,12 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>FK</td>
              <td>CLASSIFIER_CURRENT</td>
              <td>분류자</td>
+        </tr>
+      <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
         </tr>
         <tr>
              <td>OPTASKID</td>
@@ -1912,8 +1923,8 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <tr>
             <td>문서 승인</td>
             <td>승인</td>
-            <td>해당 사항 없음</td>
-            <td>해당 사항 없음</td>
+            <td>N/A</td>
+            <td>N/A</td>
             <td>APPROVAL_CURRENT<br>APPROVAL_DAILY_HISTORY<br>APPROVAL_EVENT</td>
         </tr>
       </tbody>
@@ -1983,8 +1994,8 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <tr>
             <td>문서 승인 단계</td>
             <td>승인 단계</td>
-            <td>해당 사항 없음</td>
-            <td>해당 사항 없음</td>
+            <td>N/A</td>
+            <td>N/A</td>
             <td>APPROVAL_STAGE_CURRENT<br>APPROVAL_STAGE_DAILY_HISTORY<br>APPROVAL_STAGE_EVENT</td>
         </tr>
       </tbody>
@@ -2044,8 +2055,8 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <tr>
             <td>문서 승인 단계 참가자</td>
             <td>승인 결정</td>
-            <td>해당 사항 없음</td>
-            <td>해당 사항 없음</td>
+            <td>N/A</td>
+            <td>N/A</td>
             <td>APPROVAL_STAGE_PARTICIPANT_CURRENT<br>APPROVAL_STAGE_PARTICIPANT_DAILY_HISTORY<br>APPROVAL_STAGE_PARTICIPANT_EVENT</td>
         </tr>
       </tbody>
@@ -2808,7 +2819,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     </tbody>
 </table>
 
-### 시간
+### Hour
 
 <table>
     <thead>
@@ -2822,10 +2833,10 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
       </thead>
       <tbody>
         <tr>
+            <td>Hour</td>
+            <td>Hour</td>
             <td>시간</td>
-            <td>시간</td>
-            <td>시간</td>
-            <td>시간</td>
+            <td>Hour</td>
             <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
         </tr>
       </tbody>
@@ -3668,7 +3679,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     </tbody>
 </table>
 
-### 참고
+### 메모
 
 <table>
     <thead>
@@ -3682,10 +3693,10 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
       </thead>
       <tbody>
         <tr>
-            <td>참고</td>
-            <td>참고</td>
             <td>메모</td>
-            <td>참고</td>
+            <td>메모</td>
+            <td>메모</td>
+            <td>메모</td>
             <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
         </tr>
       </tbody>
@@ -3882,7 +3893,6 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         </tr>
 
 
-    &lt;/tbody>
 </table>
 
 ### 오브젝트 통합
@@ -3941,7 +3951,6 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### 오브젝트 범주
@@ -5303,7 +5312,6 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### 보고서 폴더
@@ -6003,6 +6011,178 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>-</td>
              <td colspan="2">관계가 아닙니다. 내부 응용 프로그램 용도로 사용됩니다.</td>
         </tr>
+    </tbody>
+</table>
+
+### 직원 채용 플랜
+
+제한된 고객 가용성
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>직원 채용 플랜</td>
+            <td>직원 채용 플랜</td>
+            <td>직원</td>
+            <td>직원 채용 플랜</td>
+            <td>STAFFING_PLAN_CURRENT<br>STAFFING_PLAN_DAILY_HISTORY<br>STAFFING_PLAN_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHEDATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT </td>
+             <td>범주 ID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>        
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>        
+        <tr>
+             <td>소유자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>       
+         <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID
+</td>
+        </tr>        
+        <tr>
+             <td>예약 ID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>예약 ID
+</td>
+        </tr>        
+        <tr>
+             <td>STAFINGPLANID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 직원 채용 플랜 리소스
+
+제한된 고객 가용성
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>직원 채용 플랜 리소스</td>
+            <td>직원 채용 플랜 리소스</td>
+            <td>직원</td>
+            <td>직원 채용 플랜 리소스</td>
+            <td>STAFFING_PLAN_RESOURCE_CURRENT<br>STAFFING_PLAN_RESOURCE_DAILY_HISTORY<br>STAFFING_PLAN_RESOURCE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+        <tr>
+             <td>범주 ID</td>
+             <td>FK</td>
+             <td>CATEGORS_CURRENT</td>
+             <td>범주 ID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>        
+        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>        
+        <tr>
+             <td>STAFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFINGPLANID</td>
+        </tr>       
+         <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>        
     </tbody>
 </table>
 
@@ -6956,6 +7136,146 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     </tbody>
 </table>
 
+### 시간 단계별 KPI 결합
+
+제한된 고객 가용성
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>시간 단계별 KPI 결합</td>
+            <td>시간별 KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_COMBINED_CURRENT<br>TIMEPHASED_COMBINED_DAILY_HISTORY<br>TIMEPHASED_COMBINED_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+                <tr>
+             <td>EVENT_ID    </td>
+             <td>PK</td>
+             <td>이는 시간 단계별 KPI 입력에 대한 자연스러운 키입니다</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+                        <tr>
+             <td>위치 ID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>분류자</td>
+        </tr>
+                        <tr>
+             <td>메타베이스</td>
+             <td>FK</td>
+             <td>METADATA 테이블이 제공되지 않았습니다.</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+                        <tr>
+             <td>포트폴리오</td>
+             <td>FK</td>
+             <td>포트폴리오_현재</td>
+             <td>포트폴리오</td>
+        </tr>
+                        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+                        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+                        <tr>
+             <td>참조 ID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID
+</td>
+        </tr>
+                        <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+                        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>SCHEMA 테이블은 제공되지 않습니다. 이 테이블의 값은 SCHEMANAME 열에 제공됩니다. SCHEMANAME은 레코드가 연결된 KPI(예: plannedHours, estimatedHours 및 actualHours)를 식별합니다.</td>
+             <td>-</td>
+        </tr>
+                                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>STAFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFINGPLANID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### 시간 단계별 KPI 통화
 
 제한된 고객 가용성
@@ -7008,6 +7328,12 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>CLASSIFIER_CURRENT</td>
              <td>분류자</td>
         </tr>
+                <tr>
+             <td>메타베이스</td>
+             <td>FK</td>
+             <td>METADATA 테이블이 제공되지 않았습니다.</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7047,7 +7373,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>곧 추가될 예정입니다.</td>
+             <td>SCHEMA 테이블은 제공되지 않습니다. 이 테이블의 값은 SCHEMANAME 열에 제공됩니다. SCHEMANAME은 레코드가 연결된 KPI(예: plannedRevenueRate, plannedCostRate, actualRevenue 등)를 식별합니다.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7055,6 +7381,18 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>FK</td>
              <td>TASKS_CURRENT</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFINGPLANID</td>
+        </tr>
+          <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7134,6 +7472,12 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>CLASSIFIER_CURRENT</td>
              <td>분류자</td>
         </tr>
+                <tr>
+             <td>메타베이스</td>
+             <td>FK</td>
+             <td>METADATA 테이블이 제공되지 않았습니다.</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7173,7 +7517,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>곧 추가될 예정입니다.</td>
+             <td>SCHEMA 테이블은 제공되지 않습니다. 이 테이블의 값은 SCHEMANAME 열에 제공됩니다. SCHEMANAME은 레코드가 연결된 KPI(예: plannedHours, estimatedHours 및 actualHours)를 식별합니다.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7181,6 +7525,18 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>FK</td>
              <td>TASKS_CURRENT</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFINGPLANID </td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFINGPLANID</td>
+        </tr>
+           <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7200,6 +7556,151 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
              <td>-</td>
         </tr>
         <tr>
+             <td>사용자 ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>사용자 ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 시간 단계별 KPI 번호
+
+제한된 고객 가용성
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront 엔티티 이름</th>
+            <th>인터페이스 참조</th>
+            <th>API 참조</th>
+            <th>API 레이블</th>
+            <th>데이터 레이크 보기</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>시간 단계별 KPI 번호</td>
+            <td>시간별 KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_NUMBERS_CURRENT<br>TIMEPHASED_NUMBERS_DAILY_HISTORY<br>TIMEPHASED_NUMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>기본/외래 키</th>
+            <th>유형</th>
+            <th>관련 테이블</th>
+            <th>관련 필드</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>EVENT_ID</td>
+             <td>PK</td>
+             <td>이는 시간 단계별 KPI 입력에 대한 자연스러운 키입니다</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>위치 ID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>분류자</td>
+        </tr>
+        <tr>
+             <td>메타베이스</td>
+             <td>FK</td>
+             <td>METADATA 테이블이 제공되지 않았습니다.</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>포트폴리오</td>
+             <td>FK</td>
+             <td>포트폴리오_현재</td>
+             <td>포트폴리오</td>
+        </tr>
+                <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+                <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+                <tr>
+             <td>참조 ID</td>
+             <td>FK</td>
+             <td>변수, OBJCODE 기반</td>
+             <td>OBJCODE 필드에서 식별된 객체의 기본 키/ID</td>
+        </tr>
+                <tr>
+             <td>장미모양-</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>장미모양-</td>
+        </tr>
+                <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>SCHEMA 테이블은 제공되지 않습니다. 이 테이블의 값은 SCHEMANAME 열에 제공됩니다. SCHEMANAME은 레코드가 연결된 KPI(예: plannedHours, estimatedHours 및 actualHours)를 식별합니다.</td>
+             <td>-</td>
+        </tr>
+                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFINGPLANID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>TIMEPHASEDNUMBERSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+                <tr>
              <td>사용자 ID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
