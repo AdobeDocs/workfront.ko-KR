@@ -6,10 +6,10 @@ description: Outlook용 Workfront을 사용할 때 outlookIdentityToken 오류�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4a911760-e3fe-4e77-b7aa-b08f9ea59d6a
-source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
+source-git-commit: 3f779985292a2f89eb3a0ffad9378bd55f31d130
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 43%
+source-wordcount: '86'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +21,3 @@ ht-degree: 43%
 >
 >**Microsoft에서 이러한 토큰을 비활성화했으므로 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
 
-Outlook용 Workfront을 사용하는 경우 다음 오류가 표시될 수 있습니다.
-
-```
-Unexpected error
-Unable to get the outlookIdentityToken
-```
-
-이 오류를 해결하려면 조직에 대해 Microsoft 365 레거시 토큰을 활성화해야 합니다. 이 작업은 Microsoft 365에서 수행되어야 하므로 Workfront는 조직에 대해 이들 토큰을 활성화할 수 없습니다.
-
-Microsoft 365 레거시 토큰을 활성화하는 방법에 대한 자세한 내용은 Microsoft 설명서의 [레거시 Exchange Online 토큰 켜기 또는 끄기](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/turn-exchange-tokens-on-off)를 참조하십시오.
-
-레거시 토큰에 대한 자세한 내용은 Microsoft 설명서의 [Exchange Online 레거시 토큰을 다시 켤 수 있나요?](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens#can-i-turn-exchange-online-legacy-tokens-back-on)를 참조하십시오.
