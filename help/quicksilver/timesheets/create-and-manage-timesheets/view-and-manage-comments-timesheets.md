@@ -6,7 +6,7 @@ description: 타임시트, 타임시트에 포함된 작업 항목 및 사용자
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 **타임시트** 영역이 열립니다.
 
 1. 주석을 표시할 타임시트를 엽니다.
-1. 타임시트의 오른쪽 상단에서 **댓글 표시**&#x200B;를 클릭합니다.
+1. 타임시트의 오른쪽 상단에서 **댓글 표시**를 클릭합니다.
 시간 항목과 댓글이 기록된 항목 아래에 댓글이 표시됩니다.
 
    ![다시 디자인된 타임시트 작업에서 확장된 주석](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
@@ -100,6 +100,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >**회사에 비공개** 설정은 Workfront 프로필이 회사와 연결되어 있을 때만 사용할 수 있습니다.
+
 1. 댓글을 입력한 다음 **제출**&#x200B;을 클릭합니다.
 
    댓글은 타임시트의 [!UICONTROL 업데이트] 섹션에 댓글 탭에 표시됩니다.

@@ -6,7 +6,7 @@ description: 프로젝트 템플릿을 편집하여 향후 프로젝트의 프�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '5674'
 ht-degree: 2%
@@ -162,65 +162,65 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <p>이 문서의 "템플릿 활성화 또는 비활성화" 섹션에 설명된 대로 템플릿 헤더에서 템플릿을 비활성화할 수 있습니다.</p></td> 
      </tr>
 
-<tr> 
-<td role="rowheader"><strong>상태 유형</strong></td> 
-   <td><p>다음 조건 유형 중에서 선택합니다.</p> 
-   <ul> 
-   <li><strong>수동:</strong> 프로젝트 소유자가 프로젝트의 상태를 수동으로 설정합니다. <strong></strong></li> 
-   <li><strong>진행 상태:</strong> Workfront은 중요 경로에 있는 작업의 진행 상태를 기반으로 향후 프로젝트의 상태를 자동으로 설정합니다. 진행 상태를 이해하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>를 참조하십시오.</li> 
-   </ul>
-   </td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>일정 모드</strong></td> 
-   <td><p>이 템플릿을 사용하는 프로젝트를 <strong>시작 날짜</strong>부터 예약할지 또는 <strong>완료 날짜</strong>부터 예약할지 여부를 지정하십시오. 이 옵션을 선택하면 이 템플릿을 사용하여 프로젝트에 대한 향후 작업의 계획된 일자가 결정됩니다. </p><p>다음 중에서 선택합니다. </p> 
-   <ul> 
-   <li><p><strong>시작 날짜부터 예약</strong>: 템플릿의 시작 날짜가 실제로 시작 날짜입니다. 시작 날짜부터 템플릿을 예약하면 Adobe Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 완료 날짜를 계산합니다. 템플릿의 시작 날짜가 미래 프로젝트의 계획된 시작 날짜가 됩니다.</p></li> 
-   <li><p><strong>완료 날짜부터 일정</strong>: 템플릿의 완료 날짜는 실제로 완료 날짜입니다. 완료 날짜부터 템플릿을 예약하면 Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 시작 날짜를 계산합니다. 템플릿의 완료 일자가 미래 프로젝트의 계획된 완료 일자가 됩니다. </p></li> 
-   </ul><p>템플릿 작업의 시작 및 완료 일수에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">템플릿의 시작 및 완료 일수 개요</a>를 참조하십시오. </p><p>템플릿에 대한 일정 시작 설정은 프로젝트의 일정과 유사합니다. Workfront 관리자는 시스템의 프로젝트에 대해 기본 일정 출처 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오.</p></td> 
-   </tr>
+   <td role="rowheader"><strong>상태 유형</strong></td> 
+      <td><p>다음 조건 유형 중에서 선택합니다.</p> 
+      <ul> 
+      <li><strong>수동:</strong> 프로젝트 소유자가 프로젝트의 상태를 수동으로 설정합니다. <strong></strong></li> 
+      <li><strong>진행 상태:</strong> Workfront은 중요 경로에 있는 작업의 진행 상태를 기반으로 향후 프로젝트의 상태를 자동으로 설정합니다. 진행 상태를 이해하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>를 참조하십시오.</li> 
+      </ul>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>일정 모드</strong></td> 
+      <td><p>이 템플릿을 사용하는 프로젝트를 <strong>시작 날짜</strong>부터 예약할지 또는 <strong>완료 날짜</strong>부터 예약할지 여부를 지정하십시오. 이 옵션을 선택하면 이 템플릿을 사용하여 프로젝트에 대한 향후 작업의 계획된 일자가 결정됩니다. </p><p>다음 중에서 선택합니다. </p> 
+      <ul> 
+      <li><p><strong>시작 날짜부터 예약</strong>: 템플릿의 시작 날짜가 실제로 시작 날짜입니다. 시작 날짜부터 템플릿을 예약하면 Adobe Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 완료 날짜를 계산합니다. 템플릿의 시작 날짜가 미래 프로젝트의 계획된 시작 날짜가 됩니다.</p></li> 
+      <li><p><strong>완료 날짜부터 일정</strong>: 템플릿의 완료 날짜는 실제로 완료 날짜입니다. 완료 날짜부터 템플릿을 예약하면 Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 시작 날짜를 계산합니다. 템플릿의 완료 일자가 미래 프로젝트의 계획된 완료 일자가 됩니다. </p></li> 
+      </ul><p>템플릿 작업의 시작 및 완료 일수에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">템플릿의 시작 및 완료 일수 개요</a>를 참조하십시오. </p><p>템플릿에 대한 일정 시작 설정은 프로젝트의 일정과 유사합니다. Workfront 관리자는 시스템의 프로젝트에 대해 기본 일정 출처 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오.</p></td> 
+      </tr>
 
-<tr> 
-   <td role="rowheader"><strong>포트폴리오</strong></td> 
-   <td><p>이 템플릿에서 만드는 프로젝트에 대한 Portfolio을 지정하십시오. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. </p><p>활성 포트폴리오만 목록에 표시됩니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>를 참조하십시오.</p></td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>프로그램</strong></td> 
-   <td><p>템플릿에 대해 Portfolio을 선택한 경우 향후 프로젝트에 대해 <strong>프로그램</strong>을(를) 지정하십시오. 일부 포트폴리오에는 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 목록에 표시됩니다.</p><p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>를 참조하십시오.</p></td> 
-   </tr>  
-   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td role="rowheader"><strong>그룹</strong></td> 
-   <td><p>드롭다운 목록에서 템플릿에서 만든 프로젝트와 연결할 그룹을 선택합니다. 모든 수준의 그룹일 수 있습니다. </p><p>마우스로 가리키고 그 옆에 표시되는 정보 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하고 있는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>
+      <td role="rowheader"><strong>포트폴리오</strong></td> 
+      <td><p>이 템플릿에서 만드는 프로젝트에 대한 Portfolio을 지정하십시오. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. </p><p>활성 포트폴리오만 목록에 표시됩니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>를 참조하십시오.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>프로그램</strong></td> 
+      <td><p>템플릿에 대해 Portfolio을 선택한 경우 향후 프로젝트에 대해 <strong>프로그램</strong>을(를) 지정하십시오. 일부 포트폴리오에는 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 목록에 표시됩니다.</p><p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>를 참조하십시오.</p></td> 
+      </tr>  
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader"><strong>그룹</strong></td> 
+      <td><p>드롭다운 목록에서 템플릿에서 만든 프로젝트와 연결할 그룹을 선택합니다. 모든 수준의 그룹일 수 있습니다. </p><p>마우스로 가리키고 그 옆에 표시되는 정보 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하고 있는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>
 
-<ul> 
-   <li><p>그룹의 페이지에 있는 프로젝트 영역에서, 그룹이 선택되지 않은 템플릿을 사용하여 프로젝트를 만들 경우, 시스템은 현재 열려 있는 그룹을 프로젝트와 연결합니다.</p><p>이는 사용자가 그룹을 선택하지 않은 템플릿을 사용하여 프로젝트를 만들 때 사용자의 홈 그룹을 프로젝트와 연결하는 다른 영역과는 다릅니다.</p></li> 
-   <li><p>프로젝트를 생성하거나 작업 또는 문제를 프로젝트로 전환하는 동안 그룹이 선택된 템플릿을 선택하면 프로젝트에 대해 다른 그룹을 선택할 수 있습니다.</p></li> 
-   <li>이 필드는 새로운 Adobe Workfront 환경의 템플릿에서만 사용할 수 있지만, 목록과 보고서 모두에서 볼 수 있습니다(Adobe Workfront Classic). </li> 
-   </ul> </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>회사</strong></td> 
-   <td><p>템플릿에 연결할 회사를 지정합니다. 활성 회사만 목록에 표시됩니다.</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>템플릿 소유자</strong></td> 
-   <td><p>템플릿 소유자로 지정된 사용자는 Workfront 활성 사용자여야 합니다. </p><p>템플릿 소유자로 지정된 사용자에 대해 다음 사항을 고려하십시오. </p> 
    <ul> 
-   <li>이 사용자에게는 템플릿에 대한 관리 권한이 자동으로 부여됩니다. </li> 
-   <li>프로젝트 팀에 추가되고 템플릿에서 만든 프로젝트에 대한 관리 권한이 자동으로 부여됩니다. </li> 
-   <li>이 템플릿에서 프로젝트를 만들 때 프로젝트 소유자가 됩니다. </li> 
-   <li> 템플릿 소유자로 지정된 사용자의 액세스 수준에서 템플릿 또는 프로젝트에 대한 액세스가 제한된 경우 템플릿 및 프로젝트에 대한 관리 권한이 제한됩니다. 예를 들어, 액세스 수준의 템플릿 또는 프로젝트에 대한 보기 액세스만 있는 경우 템플릿 소유자로 지정되면 템플릿 및 프로젝트에 대한 보기 권한을 자동으로 수신하게 됩니다.</li>
-   </ul></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>템플릿 스폰서</strong></td> 
-   <td><p>템플릿을 프로젝트에 추가하면 이 필드에 지정된 사용자가 프로젝트 스폰서가 됩니다. 이 사용자는 프로젝트 팀에 추가되고 프로젝트에 대한 보기 권한이 자동으로 부여됩니다. 템플릿 스폰서로 지정된 사용자는 Workfront 활성 사용자여야 합니다. </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>리소스 관리자</strong></td> 
-   <td><p>지정된 사용자에게는 향후 프로젝트에 대한 관리 권한이 자동으로 부여되고 프로젝트의 작업 및 문제에 리소스를 할당할 수 있습니다. 리소스 관리자를 두 개 이상 지정할 수 있습니다. </p></td> 
-   </tr> 
-</table>
+      <li><p>그룹의 페이지에 있는 프로젝트 영역에서, 그룹이 선택되지 않은 템플릿을 사용하여 프로젝트를 만들 경우, 시스템은 현재 열려 있는 그룹을 프로젝트와 연결합니다.</p><p>이는 사용자가 그룹을 선택하지 않은 템플릿을 사용하여 프로젝트를 만들 때 사용자의 홈 그룹을 프로젝트와 연결하는 다른 영역과는 다릅니다.</p></li> 
+      <li><p>프로젝트를 생성하거나 작업 또는 문제를 프로젝트로 전환하는 동안 그룹이 선택된 템플릿을 선택하면 프로젝트에 대해 다른 그룹을 선택할 수 있습니다.</p></li> 
+      <li>이 필드는 새로운 Adobe Workfront 환경의 템플릿에서만 사용할 수 있지만, 목록과 보고서 모두에서 볼 수 있습니다(Adobe Workfront Classic). </li> 
+      </ul> </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>회사</strong></td> 
+      <td><p>템플릿에 연결할 회사를 지정합니다. 활성 회사만 목록에 표시됩니다.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>템플릿 소유자</strong></td> 
+      <td><p>템플릿 소유자로 지정된 사용자는 Workfront 활성 사용자여야 합니다. </p><p>템플릿 소유자로 지정된 사용자에 대해 다음 사항을 고려하십시오. </p> 
+      <ul> 
+      <li>이 사용자에게는 템플릿에 대한 관리 권한이 자동으로 부여됩니다. </li> 
+      <li>프로젝트 팀에 추가되고 템플릿에서 만든 프로젝트에 대한 관리 권한이 자동으로 부여됩니다. </li> 
+      <li>이 템플릿에서 프로젝트를 만들 때 프로젝트 소유자가 됩니다. </li> 
+      <li> 템플릿 소유자로 지정된 사용자의 액세스 수준에서 템플릿 또는 프로젝트에 대한 액세스가 제한된 경우 템플릿 및 프로젝트에 대한 관리 권한이 제한됩니다. 예를 들어, 액세스 수준의 템플릿 또는 프로젝트에 대한 보기 액세스만 있는 경우 템플릿 소유자로 지정되면 템플릿 및 프로젝트에 대한 보기 권한을 자동으로 수신하게 됩니다.</li>
+      </ul></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>템플릿 스폰서</strong></td> 
+      <td><p>템플릿을 프로젝트에 추가하면 이 필드에 지정된 사용자가 프로젝트 스폰서가 됩니다. 이 사용자는 프로젝트 팀에 추가되고 프로젝트에 대한 보기 권한이 자동으로 부여됩니다. 템플릿 스폰서로 지정된 사용자는 Workfront 활성 사용자여야 합니다. </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>리소스 관리자</strong></td> 
+      <td><p>지정된 사용자에게는 향후 프로젝트에 대한 관리 권한이 자동으로 부여되고 프로젝트의 작업 및 문제에 리소스를 할당할 수 있습니다. 리소스 관리자를 두 개 이상 지정할 수 있습니다. </p></td> 
+      </tr> 
+      </table>
 
 1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
 
@@ -260,72 +260,72 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        <td role="rowheader"><strong>URL</strong></td> 
          <td>이 템플릿에 대한 정보와 관련된 웹 링크를 지정합니다.</td> 
        </tr>
-   <tr> 
+      <tr> 
       <td role="rowheader"><strong>활성화됨</strong></td> 
       <td><p>템플릿을 활성화하려면 이 옵션을 설정합니다. 다른 사용자는 프로젝트를 만들 때 이 템플릿을 찾아 프로젝트에 첨부할 수 있습니다. 더 이상 사용되지 않는 템플릿을 비활성화하려면 옵션을 끕니다. 비활성화된 템플릿은 프로젝트에 첨부할 수 없습니다. 이 기능은 기본적으로 활성화되어 있습니다. </p><p><b>팁</b></p>
 
    <p>이 문서의 "템플릿 활성화 또는 비활성화" 섹션에 설명된 대로 템플릿 헤더에서 템플릿을 비활성화할 수 있습니다.</p></td> 
      </tr>
 
-<tr> 
-<td role="rowheader"><strong>상태 유형</strong></td> 
-   <td><p>다음 조건 유형 중에서 선택합니다.</p> 
-   <ul> 
-   <li><strong>수동:</strong> 프로젝트 소유자가 프로젝트의 상태를 수동으로 설정합니다. <strong></strong></li> 
-   <li><strong>진행 상태:</strong> Workfront은 중요 경로에 있는 작업의 진행 상태를 기반으로 향후 프로젝트의 상태를 자동으로 설정합니다. 진행 상태를 이해하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>를 참조하십시오.</li> 
-   </ul>
-   </td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>일정 모드</strong></td> 
-   <td><p>이 템플릿을 사용하는 프로젝트를 <strong>시작 날짜</strong>부터 예약할지 또는 <strong>완료 날짜</strong>부터 예약할지 여부를 지정하십시오. 이 옵션을 선택하면 이 템플릿을 사용하여 프로젝트에 대한 향후 작업의 계획된 일자가 결정됩니다. </p><p>다음 중에서 선택합니다. </p> 
-   <ul> 
-   <li><p><strong>시작 날짜부터 예약</strong>: 템플릿의 시작 날짜가 실제로 시작 날짜입니다. 시작 날짜부터 템플릿을 예약하면 Adobe Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 완료 날짜를 계산합니다. 템플릿의 시작 날짜가 미래 프로젝트의 계획된 시작 날짜가 됩니다.</p></li> 
-   <li><p><strong>완료 날짜부터 일정</strong>: 템플릿의 완료 날짜는 실제로 완료 날짜입니다. 완료 날짜부터 템플릿을 예약하면 Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 시작 날짜를 계산합니다. 템플릿의 완료 일자가 미래 프로젝트의 계획된 완료 일자가 됩니다. </p></li> 
-   </ul><p>템플릿 작업의 시작 및 완료 일수에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">템플릿의 시작 및 완료 일수 개요</a>를 참조하십시오. </p><p>템플릿에 대한 일정 시작 설정은 프로젝트의 일정과 유사합니다. Workfront 관리자는 시스템의 프로젝트에 대해 기본 일정 출처 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오.</p></td> 
-   </tr>
+      <td role="rowheader"><strong>상태 유형</strong></td> 
+      <td><p>다음 조건 유형 중에서 선택합니다.</p> 
+      <ul> 
+      <li><strong>수동:</strong> 프로젝트 소유자가 프로젝트의 상태를 수동으로 설정합니다. <strong></strong></li> 
+      <li><strong>진행 상태:</strong> Workfront은 중요 경로에 있는 작업의 진행 상태를 기반으로 향후 프로젝트의 상태를 자동으로 설정합니다. 진행 상태를 이해하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>를 참조하십시오.</li> 
+      </ul>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>일정 모드</strong></td> 
+      <td><p>이 템플릿을 사용하는 프로젝트를 <strong>시작 날짜</strong>부터 예약할지 또는 <strong>완료 날짜</strong>부터 예약할지 여부를 지정하십시오. 이 옵션을 선택하면 이 템플릿을 사용하여 프로젝트에 대한 향후 작업의 계획된 일자가 결정됩니다. </p><p>다음 중에서 선택합니다. </p> 
+      <ul> 
+      <li><p><strong>시작 날짜부터 예약</strong>: 템플릿의 시작 날짜가 실제로 시작 날짜입니다. 시작 날짜부터 템플릿을 예약하면 Adobe Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 완료 날짜를 계산합니다. 템플릿의 시작 날짜가 미래 프로젝트의 계획된 시작 날짜가 됩니다.</p></li> 
+      <li><p><strong>완료 날짜부터 일정</strong>: 템플릿의 완료 날짜는 실제로 완료 날짜입니다. 완료 날짜부터 템플릿을 예약하면 Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 시작 날짜를 계산합니다. 템플릿의 완료 일자가 미래 프로젝트의 계획된 완료 일자가 됩니다. </p></li> 
+      </ul><p>템플릿 작업의 시작 및 완료 일수에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">템플릿의 시작 및 완료 일수 개요</a>를 참조하십시오. </p><p>템플릿에 대한 일정 시작 설정은 프로젝트의 일정과 유사합니다. Workfront 관리자는 시스템의 프로젝트에 대해 기본 일정 출처 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오.</p></td> 
+      </tr>
 
-<tr> 
-   <td role="rowheader"><strong>포트폴리오</strong></td> 
-   <td><p>이 템플릿에서 만드는 프로젝트에 대한 Portfolio을 지정하십시오. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. </p><p>활성 포트폴리오만 목록에 표시됩니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>를 참조하십시오.</p></td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>프로그램</strong></td> 
-   <td><p>템플릿에 대해 Portfolio을 선택한 경우 향후 프로젝트에 대해 <strong>프로그램</strong>을(를) 지정하십시오. 일부 포트폴리오에는 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 목록에 표시됩니다.</p><p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>를 참조하십시오.</p></td> 
-   </tr>  
-   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td role="rowheader"><strong>그룹</strong></td> 
-   <td><p>드롭다운 목록에서 템플릿에서 만든 프로젝트와 연결할 그룹을 선택합니다. 모든 수준의 그룹일 수 있습니다. </p><p>마우스로 가리키고 그 옆에 표시되는 정보 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하고 있는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>
+      <td role="rowheader"><strong>포트폴리오</strong></td> 
+      <td><p>이 템플릿에서 만드는 프로젝트에 대한 Portfolio을 지정하십시오. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. </p><p>활성 포트폴리오만 목록에 표시됩니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>를 참조하십시오.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>프로그램</strong></td> 
+      <td><p>템플릿에 대해 Portfolio을 선택한 경우 향후 프로젝트에 대해 <strong>프로그램</strong>을(를) 지정하십시오. 일부 포트폴리오에는 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 목록에 표시됩니다.</p><p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>를 참조하십시오.</p></td> 
+      </tr>  
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader"><strong>그룹</strong></td> 
+      <td><p>드롭다운 목록에서 템플릿에서 만든 프로젝트와 연결할 그룹을 선택합니다. 모든 수준의 그룹일 수 있습니다. </p><p>마우스로 가리키고 그 옆에 표시되는 정보 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하고 있는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>
 
-<ul> 
-   <li><p>그룹의 페이지에 있는 프로젝트 영역에서, 그룹이 선택되지 않은 템플릿을 사용하여 프로젝트를 만들 경우, 시스템은 현재 열려 있는 그룹을 프로젝트와 연결합니다.</p><p>이는 사용자가 그룹을 선택하지 않은 템플릿을 사용하여 프로젝트를 만들 때 사용자의 홈 그룹을 프로젝트와 연결하는 다른 영역과는 다릅니다.</p></li> 
-   <li><p>프로젝트를 생성하거나 작업 또는 문제를 프로젝트로 전환하는 동안 그룹이 선택된 템플릿을 선택하면 프로젝트에 대해 다른 그룹을 선택할 수 있습니다.</p></li> 
-   <li>이 필드는 새로운 Adobe Workfront 환경의 템플릿에서만 사용할 수 있지만, 목록과 보고서 모두에서 볼 수 있습니다(Adobe Workfront Classic). </li> 
-   </ul> </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>회사</strong></td> 
-   <td><p>템플릿에 연결할 회사를 지정합니다. 활성 회사만 목록에 표시됩니다.</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>템플릿 소유자</strong></td> 
-   <td><p>템플릿 소유자로 지정된 사용자는 Workfront 활성 사용자여야 합니다. </p><p>템플릿 소유자로 지정된 사용자에 대해 다음 사항을 고려하십시오. </p> 
    <ul> 
-   <li>이 사용자에게는 템플릿에 대한 관리 권한이 자동으로 부여됩니다. </li> 
-   <li>프로젝트 팀에 추가되고 템플릿에서 만든 프로젝트에 대한 관리 권한이 자동으로 부여됩니다. </li> 
-   <li>이 템플릿에서 프로젝트를 만들 때 프로젝트 소유자가 됩니다. </li> 
-   <li> 템플릿 소유자로 지정된 사용자의 액세스 수준에서 템플릿 또는 프로젝트에 대한 액세스가 제한된 경우 템플릿 및 프로젝트에 대한 관리 권한이 제한됩니다. 예를 들어, 액세스 수준의 템플릿 또는 프로젝트에 대한 보기 액세스만 있는 경우 템플릿 소유자로 지정되면 템플릿 및 프로젝트에 대한 보기 권한을 자동으로 수신하게 됩니다.</li>
-   </ul></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>템플릿 스폰서</strong></td> 
-   <td><p>템플릿을 프로젝트에 추가하면 이 필드에 지정된 사용자가 프로젝트 스폰서가 됩니다. 이 사용자는 프로젝트 팀에 추가되고 프로젝트에 대한 보기 권한이 자동으로 부여됩니다. 템플릿 스폰서로 지정된 사용자는 Workfront 활성 사용자여야 합니다. </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>리소스 관리자</strong></td> 
-   <td><p>지정된 사용자에게는 향후 프로젝트에 대한 관리 권한이 자동으로 부여되고 프로젝트의 작업 및 문제에 리소스를 할당할 수 있습니다. 리소스 관리자를 두 개 이상 지정할 수 있습니다. </p></td> 
-   </tr> 
-</table>
+      <li><p>그룹의 페이지에 있는 프로젝트 영역에서, 그룹이 선택되지 않은 템플릿을 사용하여 프로젝트를 만들 경우, 시스템은 현재 열려 있는 그룹을 프로젝트와 연결합니다.</p><p>이는 사용자가 그룹을 선택하지 않은 템플릿을 사용하여 프로젝트를 만들 때 사용자의 홈 그룹을 프로젝트와 연결하는 다른 영역과는 다릅니다.</p></li> 
+      <li><p>프로젝트를 생성하거나 작업 또는 문제를 프로젝트로 전환하는 동안 그룹이 선택된 템플릿을 선택하면 프로젝트에 대해 다른 그룹을 선택할 수 있습니다.</p></li> 
+      <li>이 필드는 새로운 Adobe Workfront 환경의 템플릿에서만 사용할 수 있지만, 목록과 보고서 모두에서 볼 수 있습니다(Adobe Workfront Classic). </li> 
+      </ul> </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>회사</strong></td> 
+      <td><p>템플릿에 연결할 회사를 지정합니다. 활성 회사만 목록에 표시됩니다.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>템플릿 소유자</strong></td> 
+      <td><p>템플릿 소유자로 지정된 사용자는 Workfront 활성 사용자여야 합니다. </p><p>템플릿 소유자로 지정된 사용자에 대해 다음 사항을 고려하십시오. </p> 
+      <ul> 
+      <li>이 사용자에게는 템플릿에 대한 관리 권한이 자동으로 부여됩니다. </li> 
+      <li>프로젝트 팀에 추가되고 템플릿에서 만든 프로젝트에 대한 관리 권한이 자동으로 부여됩니다. </li> 
+      <li>이 템플릿에서 프로젝트를 만들 때 프로젝트 소유자가 됩니다. </li> 
+      <li> 템플릿 소유자로 지정된 사용자의 액세스 수준에서 템플릿 또는 프로젝트에 대한 액세스가 제한된 경우 템플릿 및 프로젝트에 대한 관리 권한이 제한됩니다. 예를 들어, 액세스 수준의 템플릿 또는 프로젝트에 대한 보기 액세스만 있는 경우 템플릿 소유자로 지정되면 템플릿 및 프로젝트에 대한 보기 권한을 자동으로 수신하게 됩니다.</li>
+      </ul></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>템플릿 스폰서</strong></td> 
+      <td><p>템플릿을 프로젝트에 추가하면 이 필드에 지정된 사용자가 프로젝트 스폰서가 됩니다. 이 사용자는 프로젝트 팀에 추가되고 프로젝트에 대한 보기 권한이 자동으로 부여됩니다. 템플릿 스폰서로 지정된 사용자는 Workfront 활성 사용자여야 합니다. </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>리소스 관리자</strong></td> 
+      <td><p>지정된 사용자에게는 향후 프로젝트에 대한 관리 권한이 자동으로 부여되고 프로젝트의 작업 및 문제에 리소스를 할당할 수 있습니다. 리소스 관리자를 두 개 이상 지정할 수 있습니다. </p></td> 
+      </tr> 
+      </table>
 
 1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
 
@@ -460,24 +460,24 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader"><strong>이 프로젝트를 승인할 시간 필요</strong></td>
 
    <td><p>이 템플릿에서 만든 프로젝트의 미래 프로젝트 소유자가 프로젝트에 로그온한 시간을 승인하도록 하려면 이 옵션을 선택하십시오.</p> 
-   <p>청구 기록을 사용하고 이 옵션을 선택하는 경우 프로젝트의 승인된 시간만 청구 기록의 사용 가능한 청구 가능 시간으로 표시됩니다. </p>
-   <p>프로젝트 시간 승인은 타임시트 승인과 독립적입니다. 프로젝트 승인 시간 요구에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">프로젝트 승인 시간 필요</a>를 참조하십시오.</p>
-   </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>시간 유형 필터링</strong> </td> 
-   <td> <p>다음 사항을 고려하십시오.</p> <p>향후 프로젝트에서 모든 프로젝트별 시간 유형을 사용할 수 있도록 하려면 <strong>아니요</strong>를 선택하십시오. (기본 선택 사항입니다.)</p> <p>또는</p> <p><strong>예</strong>를 선택하여 향후 프로젝트에서 프로젝트별 시간 형식의 하위 집합만 사용할 수 있도록 한 다음 사용할 시간 형식을 선택하십시오. (Shift 키를 누른 상태로 여러 시간 유형을 선택합니다.)</p> <p>이 옵션을 선택하면 프로젝트(또는 프로젝트 내의 작업 및 문제)에 시간을 기록할 때 선택한 시간 유형만 선택할 수 있습니다. 최소 1개의 시간 유형을 선택해야 합니다. 이 옵션을 선택하고 시간 유형을 선택하지 않으면 프로젝트에서 모든 시간 유형을 사용할 수 있습니다.</p> <p>사용자가 프로젝트에서 이러한 시간 유형 옵션을 보려면 개별 사용자 수준에서 동일한 시간 유형을 선택해야 합니다. </p> <p>사용자 수준에서 시간 유형을 정의하는 방법에 대한 자세한 내용은 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">로그 시간</a>의 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">로그 시간</a> 섹션을 참조하십시오.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>미리 알림</strong> </td> 
-   <td>향후 프로젝트와 연계해야 하는 미리 알림 을 선택합니다. 템플릿을 편집하는 동안 이 필드에 대한 프로젝트가 표시되도록 미리 알림을 구성해야 합니다. <br>미리 알림 구성에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">미리 알림 설정</a>을 참조하세요.</td> 
-   </tr>
-   <tr> 
-   <td role="rowheader"><strong>승인 프로세스</strong> </td> 
-   <td> <p>템플릿에 연결할 승인 프로세스를 선택합니다. Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 권한이 있는 사용자는 시스템 수준 또는 그룹 수준 프로젝트 승인 프로세스를 정의해야 템플릿과 연결할 수 있습니다. 승인 프로세스 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">작업 항목에 대한 승인 프로세스 만들기</a>를 참조하십시오.</p> <p>승인 프로세스를 추가할 때는 다음 사항을 고려하십시오. </p> 
-   <ul> 
-   <li>활성 승인 프로세스만 목록에 표시됩니다. </li> 
-   <li> <p>시스템 전체 및 그룹별 승인 프로세스가 목록에 표시됩니다. 템플릿 그룹 이외의 그룹과 연결된 승인 프로세스가 목록에 표시되지 않습니다.</p> <p><b>중요 사항</b>
+      <p>청구 기록을 사용하고 이 옵션을 선택하는 경우 프로젝트의 승인된 시간만 청구 기록의 사용 가능한 청구 가능 시간으로 표시됩니다. </p>
+      <p>프로젝트 시간 승인은 타임시트 승인과 독립적입니다. 프로젝트 승인 시간 요구에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">프로젝트 승인 시간 필요</a>를 참조하십시오.</p>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>시간 유형 필터링</strong> </td> 
+      <td> <p>다음 사항을 고려하십시오.</p> <p>향후 프로젝트에서 모든 프로젝트별 시간 유형을 사용할 수 있도록 하려면 <strong>아니요</strong>를 선택하십시오. (기본 선택 사항입니다.)</p> <p>또는</p> <p><strong>예</strong>를 선택하여 향후 프로젝트에서 프로젝트별 시간 형식의 하위 집합만 사용할 수 있도록 한 다음 사용할 시간 형식을 선택하십시오. (Shift 키를 누른 상태로 여러 시간 유형을 선택합니다.)</p> <p>이 옵션을 선택하면 프로젝트(또는 프로젝트 내의 작업 및 문제)에 시간을 기록할 때 선택한 시간 유형만 선택할 수 있습니다. 최소 1개의 시간 유형을 선택해야 합니다. 이 옵션을 선택하고 시간 유형을 선택하지 않으면 프로젝트에서 모든 시간 유형을 사용할 수 있습니다.</p> <p>사용자가 프로젝트에서 이러한 시간 유형 옵션을 보려면 개별 사용자 수준에서 동일한 시간 유형을 선택해야 합니다. </p> <p>사용자 수준에서 시간 유형을 정의하는 방법에 대한 자세한 내용은 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">로그 시간</a>의 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">로그 시간</a> 섹션을 참조하십시오.</p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>미리 알림</strong> </td> 
+      <td>향후 프로젝트와 연계해야 하는 미리 알림 을 선택합니다. 템플릿을 편집하는 동안 이 필드에 대한 프로젝트가 표시되도록 미리 알림을 구성해야 합니다. <br>미리 알림 구성에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">미리 알림 설정</a>을 참조하세요.</td> 
+      </tr>
+      <tr> 
+      <td role="rowheader"><strong>승인 프로세스</strong> </td> 
+      <td> <p>템플릿에 연결할 승인 프로세스를 선택합니다. Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 권한이 있는 사용자는 시스템 수준 또는 그룹 수준 프로젝트 승인 프로세스를 정의해야 템플릿과 연결할 수 있습니다. 승인 프로세스 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">작업 항목에 대한 승인 프로세스 만들기</a>를 참조하십시오.</p> <p>승인 프로세스를 추가할 때는 다음 사항을 고려하십시오. </p> 
+      <ul> 
+      <li>활성 승인 프로세스만 목록에 표시됩니다. </li> 
+      <li> <p>시스템 전체 및 그룹별 승인 프로세스가 목록에 표시됩니다. 템플릿 그룹 이외의 그룹과 연결된 승인 프로세스가 목록에 표시되지 않습니다.</p> <p><b>중요 사항</b>
 
    템플릿에 연결된 그룹이 변경되면 그룹별 승인 프로세스가 일회용 승인 프로세스가 됩니다. 프로젝트 그룹 변경 또는 승인 프로세스 변경 내용이 승인 설정에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">그룹 및 승인 프로세스 변경 내용이 할당된 승인 프로세스에 미치는 영향</a>을 참조하십시오. </p> </li>
    <li> <p>일회용 승인 프로세스를 추가한 경우 이 필드에 "사용자 지정"으로 표시됩니다. 자세한 내용은 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">새 승인 프로세스나 기존 승인 프로세스를 작업과 연결</a>을 참조하십시오. </p> 
