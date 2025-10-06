@@ -6,9 +6,9 @@ description: ' [!DNL Workfront for Outlook] 추가 기능을 사용하려면 읽
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -17,18 +17,16 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[Microsoft에서 기존 Exchange 온라인 토큰에 대한 지원을 사용하지 않도록 설정하는 중입니다](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens). 이 토큰은 현재 인증을 위해 Workfront Outlook 추가 기능에서 사용됩니다. Microsoft의 이러한 변경 사항은 이미 고객에게 영향을 주기 시작했으며 2025년 10월까지 단계적으로 계속 적용될 예정입니다.
+>[Microsoft에서 기존 Exchange 온라인 토큰에 대한 지원을 비활성화했습니다](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens). 이 토큰은 인증을 위해 Workfront Outlook 추가 기능에서 사용되었습니다. Microsoft의 이러한 변경 사항은 단계적으로 롤아웃되었으며 2025년 10월 1일부로 완료됩니다.
 >
->* **Microsoft에서 이 토큰을 완전히 비활성화하면 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
->
->이 변경의 일부로 Microsoft은 토큰이 다시 활성화되는 방식을 변경하기로 결정했습니다. **2025년 6월 30일** 이후에는 관리자가 더 이상 토큰을 직접 다시 활성화할 수 없습니다. Microsoft 지원에서만 예외를 허용할 수 있습니다. **2025년 10월 1일부터 모든 테넌트에 대해 레거시 토큰이 꺼집니다. 예외가 부여되지 않습니다.**
+>**Microsoft에서 이러한 토큰을 비활성화했으므로 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
 
 [!DNL Workfront for Outlook]에는 [!DNL Outlook] 추가 기능에서 허용되는 네 가지 권한 수준 중 가장 높은 수준이 필요합니다.
 
-[!DNL Outlook] 추가 기능의 사용 권한에 대한 자세한 내용은 [!DNL Microsoft] 설명서의 [추가 기능에 대한 개인 정보, 사용 권한 및 보안 [!DNL Outlook] 을 참조하십시오.](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)
+[!DNL Outlook] 추가 기능의 사용 권한에 대한 자세한 내용은 [ 설명서의  [!DNL Outlook] 추가 기능에 대한 개인 정보, 사용 권한 및 보안](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)을 참조하십시오.[!DNL Microsoft]
 
 [!DNL Workfront for Outlook] 추가 기능을 사용하려면 가장 높은 권한 범위인 읽기/쓰기 사서함 액세스(`ReadWriteMailbox`)가 필요합니다.
-[!DNL Workfront for Outlook] 통합은 사용자가 첨부 파일이 있는 전자 메일에서 요청을 제출할 때 [!DNL Outlook] exchange 서버에서 전자 메일 첨부 파일을 다운로드하여 [!DNL Workfront]에 업로드할 수 있으므로 최상위 수준의 권한이 필요합니다. 이 기능을 사용하려면 [!DNL Workfront for Outlook]이(가) [!DNL Office] 추가 기능 JavaScript API의 `mailbox.getCallbackTokenAsync()` 함수를 사용하여 토큰을 얻고 이를 사용하여 Exchange Server에서 전자 메일 첨부 파일을 다운로드합니다. 해당 함수를 사용할 수 있는 유일한 권한은 `ReadWriteMailbox`입니다. 자세한 내용은 Microsoft 설명서에서 [Outlook 추가 기능에 대한 개인 정보, 권한 및 보안](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)을 참조하세요.
+[!DNL Workfront for Outlook] 통합은 사용자가 첨부 파일이 있는 전자 메일에서 요청을 제출할 때 [!DNL Outlook] exchange 서버에서 전자 메일 첨부 파일을 다운로드하여 [!DNL Workfront]에 업로드할 수 있으므로 최상위 수준의 권한이 필요합니다. 이 기능을 사용하려면 [!DNL Workfront for Outlook]이(가) `mailbox.getCallbackTokenAsync()` 추가 기능 JavaScript API의 [!DNL Office] 함수를 사용하여 토큰을 얻고 이를 사용하여 Exchange Server에서 전자 메일 첨부 파일을 다운로드합니다. 해당 함수를 사용할 수 있는 유일한 권한은 `ReadWriteMailbox`입니다. 자세한 내용은 Microsoft 설명서에서 [Outlook 추가 기능에 대한 개인 정보, 권한 및 보안](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)을 참조하세요.
 
 [!DNL Workfront for Outlook] 추가 기능에는 전자 메일 본문을 읽고 전자 메일 메타데이터를 읽기/업데이트하는 데 사용되는 `ReadWriteItem` 권한(`ReadWriteMailbox`에 포함됨)도 필요합니다.
 

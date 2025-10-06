@@ -6,9 +6,9 @@ description: ' [!DNL Outlook] 전자 메일을  [!DNL Adobe Workfront] 작업으
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[Microsoft에서 기존 Exchange 온라인 토큰에 대한 지원을 사용하지 않도록 설정하는 중입니다](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens). 이 토큰은 현재 인증을 위해 Workfront Outlook 추가 기능에서 사용됩니다. Microsoft의 이러한 변경 사항은 이미 고객에게 영향을 주기 시작했으며 2025년 10월까지 단계적으로 계속 적용될 예정입니다.
+>[Microsoft에서 기존 Exchange 온라인 토큰에 대한 지원을 비활성화했습니다](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens). 이 토큰은 인증을 위해 Workfront Outlook 추가 기능에서 사용되었습니다. Microsoft의 이러한 변경 사항은 단계적으로 롤아웃되었으며 2025년 10월 1일부로 완료됩니다.
 >
->* **Microsoft에서 이 토큰을 완전히 비활성화하면 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
->
->이 변경의 일부로 Microsoft은 토큰이 다시 활성화되는 방식을 변경하기로 결정했습니다. **2025년 6월 30일** 이후에는 관리자가 더 이상 토큰을 직접 다시 활성화할 수 없습니다. Microsoft 지원에서만 예외를 허용할 수 있습니다. **2025년 10월 1일부터 모든 테넌트에 대해 레거시 토큰이 꺼집니다. 예외가 부여되지 않습니다.**
-
+>**Microsoft에서 이러한 토큰을 비활성화했으므로 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
 
 [!DNL Outlook]개의 전자 메일을 [!DNL Adobe Workfront]개의 작업으로 변환할 수 있습니다. 이메일이 전환되면 [!UICONTROL Home] 영역의 [!UICONTROL Work] 목록에서 작업을 사용할 수 있습니다.
 
@@ -49,7 +46,7 @@ ht-degree: 0%
 
 ## 전제 조건
 
-이 통합을 사용하려면 [!DNL Workfront] 관리자가 [!DNL Workfront]에서 [!DNL Outlook for Office]을(를) 사용하도록 설정해야 합니다.
+이 통합을 사용하려면 [!DNL Workfront] 관리자가 [!DNL Outlook for Office]에서 [!DNL Workfront]을(를) 사용하도록 설정해야 합니다.
 
 ## [!DNL Outlook] 전자 메일을 작업 목록에 작업으로 추가
 
@@ -69,7 +66,7 @@ ht-degree: 0%
    * **[!UICONTROL 설명]:** 기본적으로 설명은 전자 메일 본문과 동일합니다. 원하는 대로 설명을 수정할 수 있습니다.
    * **[!UICONTROL 첨부 파일]:** 전자 메일 첨부 파일은 작업의 [!UICONTROL 문서] 영역에 저장됩니다. 전자 메일을 작업으로 저장하기 전에 모든 첨부 파일을 삭제할 수 있습니다.
 
-1. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.\
+1. **[!UICONTROL 추가를 클릭합니다]**.\
    작업이 커밋 날짜가 없는 홈 영역의 [!UICONTROL 작업 목록]에 추가됩니다.
 
 1. (선택 사항) **[!UICONTROL Workfront에서 보기]**&#x200B;를 클릭하여 [!DNL Workfront] 응용 프로그램 내의 작업을 새 탭에 표시합니다.

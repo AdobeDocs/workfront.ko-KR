@@ -6,22 +6,22 @@ description: Outlook에서 전자 메일에서  [!DNL Adobe Workfront] 요청을
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Outlook] 전자 메일에서 [!DNL Adobe Workfront] 요청 만들기
+# [!DNL Adobe Workfront]Outlook[!UICONTROL  전자 메일에서 ] 요청 만들기
+
+
 
 >[!IMPORTANT]
 >
->[Microsoft에서 기존 Exchange 온라인 토큰에 대한 지원을 사용하지 않도록 설정하는 중입니다](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens). 이 토큰은 현재 인증을 위해 Workfront Outlook 추가 기능에서 사용됩니다. Microsoft의 이러한 변경 사항은 이미 고객에게 영향을 주기 시작했으며 2025년 10월까지 단계적으로 계속 적용될 예정입니다.
+>[Microsoft에서 기존 Exchange 온라인 토큰에 대한 지원을 비활성화했습니다](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens). 이 토큰은 인증을 위해 Workfront Outlook 추가 기능에서 사용되었습니다. Microsoft의 이러한 변경 사항은 단계적으로 롤아웃되었으며 2025년 10월 1일부로 완료됩니다.
 >
->* **Microsoft에서 이 토큰을 완전히 비활성화하면 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
->
->이 변경의 일부로 Microsoft은 토큰이 다시 활성화되는 방식을 변경하기로 결정했습니다. **2025년 6월 30일** 이후에는 관리자가 더 이상 토큰을 직접 다시 활성화할 수 없습니다. Microsoft 지원에서만 예외를 허용할 수 있습니다. **2025년 10월 1일부터 모든 테넌트에 대해 레거시 토큰이 꺼집니다. 예외가 부여되지 않습니다.**
+>**Microsoft에서 이러한 토큰을 비활성화했으므로 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
 
 Outlook의 전자 메일에서 [!DNL Adobe Workfront] 요청을 만들 수 있습니다.
 
@@ -29,7 +29,7 @@ Outlook의 전자 메일에서 [!DNL Adobe Workfront] 요청을 만들 수 있�
 
 >[!NOTE]
 >
->공유 [!UICONTROL Outlook] 사서함에서 [!DNL Workfront] 요청을 만들 수 없습니다.
+>공유 [!DNL Workfront]Outlook[!UICONTROL  사서함에서 ] 요청을 만들 수 없습니다.
 
 ## 액세스 요구 사항
 
@@ -54,11 +54,11 @@ Outlook의 전자 메일에서 [!DNL Adobe Workfront] 요청을 만들 수 있�
 
 ## 전제 조건
 
-이 통합을 사용하려면 [!DNL Workfront] 관리자가 [!DNL Workfront]에서 [!DNL Outlook for Office]을(를) 사용하도록 설정해야 합니다.
+이 통합을 사용하려면 [!DNL Workfront] 관리자가 [!DNL Outlook for Office]에서 [!DNL Workfront]을(를) 사용하도록 설정해야 합니다.
 
 ## [!DNL Outlook] 이메일에서 요청 만들기
 
-[!DNL Outlook]에서 [!DNL Workfront] 요청을 만들려면:
+[!DNL Workfront]에서 [!DNL Outlook] 요청을 만들려면:
 
 1. [!DNL Workfront] 요청에 포함할 정보가 포함된 이메일을 선택하십시오.
 1. 이메일 메시지의 오른쪽 상단에 있는 **[!DNL Workfront]** 아이콘을 클릭하여 Workfront 추가 기능을 표시합니다.\

@@ -6,22 +6,22 @@ description: ' [!DNL Adobe Workfront] 시스템이 SAML 2.0과 통합된 경우 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 72ffceb3-50f0-486e-92b5-0bea4c9a99c8
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] 및 SAML 2.0에서 사용할 [!DNL Outlook for Office] 사용
+# [!DNL Outlook for Office] 및 SAML 2.0에서 사용할 [!DNL Adobe Workfront] 사용
+
+
 
 >[!IMPORTANT]
 >
->[Microsoft에서 기존 Exchange 온라인 토큰에 대한 지원을 사용하지 않도록 설정하는 중입니다](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens). 이 토큰은 현재 인증을 위해 Workfront Outlook 추가 기능에서 사용됩니다. Microsoft의 이러한 변경 사항은 이미 고객에게 영향을 주기 시작했으며 2025년 10월까지 단계적으로 계속 적용될 예정입니다.
+>[Microsoft에서 기존 Exchange 온라인 토큰에 대한 지원을 비활성화했습니다](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens). 이 토큰은 인증을 위해 Workfront Outlook 추가 기능에서 사용되었습니다. Microsoft의 이러한 변경 사항은 단계적으로 롤아웃되었으며 2025년 10월 1일부로 완료됩니다.
 >
->* **Microsoft에서 이 토큰을 완전히 비활성화하면 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
->
->이 변경의 일부로 Microsoft은 토큰이 다시 활성화되는 방식을 변경하기로 결정했습니다. **2025년 6월 30일** 이후에는 관리자가 더 이상 토큰을 직접 다시 활성화할 수 없습니다. Microsoft 지원에서만 예외를 허용할 수 있습니다. **2025년 10월 1일부터 모든 테넌트에 대해 레거시 토큰이 꺼집니다. 예외가 부여되지 않습니다.**
+>**Microsoft에서 이러한 토큰을 비활성화했으므로 Microsoft Outlook용 Workfront 통합이 더 이상 작동하지 않습니다.**
 
 [!DNL Adobe Workfront] 시스템이 SAML 2.0과 통합된 경우 사용자가 SAML 2.0 자격 증명을 사용하여 인증할 수 있도록 [!DNL Office] 추가 기능에 대해 SAML 2.0 인증을 사용하도록 설정해야 합니다.
 
