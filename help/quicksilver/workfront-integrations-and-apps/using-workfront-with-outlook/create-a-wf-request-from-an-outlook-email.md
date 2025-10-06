@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront]Outlook[!UICONTROL  전자 메일에서 ] 요청 만들기
+# [!DNL Adobe Workfront]Outlook[!UICONTROL &#x200B; 전자 메일에서 &#x200B;] 요청 만들기
 
 
 
