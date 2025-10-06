@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 2d7022eae32d3266966ef6f424b1cff176622f86
 workflow-type: tm+mt
 source-wordcount: '8402'
 ht-degree: 0%
@@ -240,7 +240,7 @@ Workfront의 다른 영역 디자인에 맞게 프로그램 편집 상자의 모
 
 ### 마일스톤 보기를 적용할 때 프로젝트 목록 또는 보고서의 인터페이스 업데이트
 
-**미리 보기 릴리스: 2025년 10월 2일, 프로덕션 릴리스: 2025년 10월 9일 주에 시작**
+**미리 보기 릴리스: 2025년 10월 2일, 프로덕션 릴리스: 2025년 10월 6일 주에 시작**
 
 마일스톤 보기를 적용할 때 프로젝트 목록 또는 보고서의 디자인을 업데이트했습니다.
 
