@@ -23,7 +23,7 @@ ht-degree: 0%
 
 [!DNL Workfront for Outlook]에는 [!DNL Outlook] 추가 기능에서 허용되는 네 가지 권한 수준 중 가장 높은 수준이 필요합니다.
 
-[!DNL Outlook] 추가 기능의 사용 권한에 대한 자세한 내용은 [ 설명서의  [!DNL Outlook] 추가 기능에 대한 개인 정보, 사용 권한 및 보안](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)을 참조하십시오.[!DNL Microsoft]
+[!DNL Outlook] 추가 기능의 사용 권한에 대한 자세한 내용은 [&#x200B; 설명서의  [!DNL Outlook] 추가 기능에 대한 개인 정보, 사용 권한 및 보안](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)을 참조하십시오.[!DNL Microsoft]
 
 [!DNL Workfront for Outlook] 추가 기능을 사용하려면 가장 높은 권한 범위인 읽기/쓰기 사서함 액세스(`ReadWriteMailbox`)가 필요합니다.
 [!DNL Workfront for Outlook] 통합은 사용자가 첨부 파일이 있는 전자 메일에서 요청을 제출할 때 [!DNL Outlook] exchange 서버에서 전자 메일 첨부 파일을 다운로드하여 [!DNL Workfront]에 업로드할 수 있으므로 최상위 수준의 권한이 필요합니다. 이 기능을 사용하려면 [!DNL Workfront for Outlook]이(가) `mailbox.getCallbackTokenAsync()` 추가 기능 JavaScript API의 [!DNL Office] 함수를 사용하여 토큰을 얻고 이를 사용하여 Exchange Server에서 전자 메일 첨부 파일을 다운로드합니다. 해당 함수를 사용할 수 있는 유일한 권한은 `ReadWriteMailbox`입니다. 자세한 내용은 Microsoft 설명서에서 [Outlook 추가 기능에 대한 개인 정보, 권한 및 보안](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security)을 참조하세요.

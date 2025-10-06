@@ -108,7 +108,7 @@ Workfront은 다음 버전의 [!DNL Outlook]을(를) 지원합니다.
 
   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
-* [!DNL Workfront]Store[[!DNL Office] 에서 ](https://store.office.com/) 추가 기능에 액세스하려면 클라이언트 액세스 서버가 [https://store.office.com](https://store.office.com/)과(와) 통신할 수 있어야 합니다.
+* [!DNL Workfront]Store[[!DNL Office] 에서 &#x200B;](https://store.office.com/) 추가 기능에 액세스하려면 클라이언트 액세스 서버가 [https://store.office.com](https://store.office.com/)과(와) 통신할 수 있어야 합니다.
 
 지원되는 환경에 대한 자세한 내용은 [[!DNL Microsoft Office 365] 홈 페이지](https://products.office.com/en-us/office-365-home)를 참조하세요.
 
@@ -135,7 +135,7 @@ Workfront은 다음 버전의 [!DNL Outlook]을(를) 지원합니다.
 
 1. 목록에 나타나면 **추가**&#x200B;를 클릭합니다.
 
-### [!DNL Workfront for Outlook]Windows[!UICONTROL  또는 ]의 [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
+### [!DNL Workfront for Outlook]Windows[!UICONTROL &#x200B; 또는 &#x200B;]의 [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
 
 1. 리본에서 **[!UICONTROL 홈]** > **[!UICONTROL 스토어]**&#x200B;를 클릭합니다.
 

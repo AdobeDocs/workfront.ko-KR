@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront]Outlook[!UICONTROL  전자 메일에서 ] 요청 만들기
+# [!DNL Adobe Workfront]Outlook[!UICONTROL &#x200B; 전자 메일에서 &#x200B;] 요청 만들기
 
 
 
@@ -29,7 +29,7 @@ Outlook의 전자 메일에서 [!DNL Adobe Workfront] 요청을 만들 수 있�
 
 >[!NOTE]
 >
->공유 [!DNL Workfront]Outlook[!UICONTROL  사서함에서 ] 요청을 만들 수 없습니다.
+>공유 [!DNL Workfront]Outlook[!UICONTROL &#x200B; 사서함에서 &#x200B;] 요청을 만들 수 없습니다.
 
 ## 액세스 요구 사항
 
