@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 레이아웃 템플릿이 적용될 때 Workfront이 내 작업 영역에 새 캘린더를 표시하도록 구성하려면, 작업 및 문제에 대한 계획된 완료 일자를 표시하도록 레이아웃 템플릿을 구성한 다음 해당 레이아웃 템플릿을 적절한 사용자에게 할당합니다.
 
-레이아웃 템플릿 구성에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에서 [레이아웃 템플릿 만들기 및 관리](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work)를 참조하십시오.
+레이아웃 템플릿 구성에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work)에서 [레이아웃 템플릿 만들기 및 관리](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
 ## Outlook 365 Beta
 
@@ -67,7 +67,6 @@ ht-degree: 0%
 
 다음 섹션에 설명된 대로 Outlook for Office 365에서 Workfront을 사용할 수 있습니다.
 
-* [Outlook용 Adobe Workfront 설정](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * &quot;Outlook 365를 사용하여 이메일에서 기존 항목 업데이트&quot;
 
 ## 드래그하여 놓기로 목록의 열 순서 바꾸기

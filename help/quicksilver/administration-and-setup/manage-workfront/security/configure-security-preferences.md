@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '818'
 ht-degree: 4%
 
 ---
@@ -99,7 +99,7 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
      </tr> 
      <tr> 
       <td role="rowheader">사람들이 Workfront의 모바일 애플리케이션과 Workfront Outlook 추가 기능을 사용할 수 있도록 허용</td> 
-      <td> <p>사용자가 모바일 앱(iPad 및 휴대폰 앱용 Workfront 보기) 및 Workfront Outlook 앱에 액세스할 수 있습니다.</p> <p>이 옵션은 기본적으로 활성화되어 있습니다. </p> <p>Workfront 보기에 대한 자세한 내용은 <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Adobe Workfront 보기 사용</a>을 참조하세요. 모바일 앱에 대한 자세한 내용은 <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Adobe Workfront 모바일 앱 사용: 문서 색인</a>을 참조하십시오.</p> <p>Outlook 플러그인에 대한 자세한 내용은 <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Outlook용 Adobe Workfront 설정</a>을 참조하십시오.</p> </td> 
+      <td> <p>사용자가 모바일 앱(iPad 및 휴대폰 앱용 Workfront 보기) 및 Workfront Outlook 앱에 액세스할 수 있습니다.</p> <p>이 옵션은 기본적으로 활성화되어 있습니다. </p> <p>Workfront 보기에 대한 자세한 내용은 <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Adobe Workfront 보기 사용</a>을 참조하세요. 모바일 앱에 대한 자세한 내용은 <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Adobe Workfront 모바일 앱 사용: 문서 색인</a>을 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>이메일 주소를 사용하여 Workfront 계정이 없는 사람들과 공동 작업</p> </td> 

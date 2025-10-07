@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
+source-git-commit: f5b9f7eac2dd5bdc1f9634777b91737a8cc7fc53
 workflow-type: tm+mt
-source-wordcount: '13526'
+source-wordcount: '13436'
 ht-degree: 2%
 
 ---
@@ -962,7 +962,7 @@ ht-degree: 2%
          * [Adobe Workfront에서 로그아웃](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
          * [향상된 인증을 통해 사용자 암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
          * [이메일 초대 수신 및 Adobe Workfront 암호 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-         * [&#x200B; [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
+         * [ [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * 모바일 앱 {#mobile-apps}
       * [모바일 앱](workfront-basics/mobile-apps/mobile-apps.md)
@@ -2182,7 +2182,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2190,8 +2190,8 @@ ht-degree: 2%
          * [XD 아트보드를 Workfront에 문서로 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [&#x200B; [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [&#x200B; [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [ [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator 및 InDesign용 Workfront 확장 {#workfront-for-illustrator-indesign}
          * [Illustrator 및 InDesign용 Workfront 확장 사용](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Adobe Workfront for Jira {#workfront-for-jira}
@@ -2219,16 +2219,6 @@ ht-degree: 2%
       * [이메일 콘텐츠를 사용하여 G Suite에서 Adobe Workfront 항목 업데이트](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Outlook용 Adobe Workfront {#workfront-for-outlook}
       * [Outlook용 Adobe Workfront: 문서 색인](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
-      * [Outlook용 Adobe Workfront 설정](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [Outlook용 Workfront에 대한 권한 수준](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
-      * [Outlook의 댓글에 회신](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
-      * [Outlook 이메일에서 기존 개체 업데이트](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
-      * [프로젝트에 Outlook 이메일을 작업 또는 문제로 추가](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
-      * [Outlook 이메일에서 Adobe Workfront 요청 만들기](workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)
-      * [작업 목록에 작업으로 Outlook 전자 메일 추가](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
-      * [Outlook용 Adobe Workfront에 대한 추가 정보 보기 및 로그아웃](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
-      * [Adobe Workfront 및 SAML 2.0에서 사용할 Office용 Outlook 활성화](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
-      * [문제 해결: Outlook용 Workfront을 사용할 때 outlookIdentityToken 오류 발생](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
    * Microsoft Teams용 Adobe Workfront {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: 문서 인덱스](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Microsoft Teams용 Adobe Workfront 개요](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)

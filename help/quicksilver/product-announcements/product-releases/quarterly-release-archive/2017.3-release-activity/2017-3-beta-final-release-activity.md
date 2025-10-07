@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '3821'
+source-wordcount: '3791'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2017.3 Beta 최종 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1&rbrace;**
+관리자용 **1}**
 
 * [승인 설정 영역에서 요청 회수를 위한 새 구성](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [기본 증명 역할 구성](#configure-default-proof-roles)
@@ -106,11 +106,11 @@ Workfront의 스크럼 및 칸반 애자일 방법론은 다음과 같은 점에
 
 * 다른 항목이 완료와 동일한 상태로 이동될 때 백로그에 있는 항목이 자동으로 Kanban 애자일 스토리 보드에 추가되도록 구성합니다.
 
-  자세한 내용은 [Kanban 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)의 [백로그에서 자동으로 추가할 스토리 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)을 참조하십시오.
+  자세한 내용은 [Kanban 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)의 [백로그에서 자동으로 추가할 스토리 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)을 참조하십시오.
 
 * Kanban 애자일 스토리 보드에 표시할 WIP(Work In Progress) 한도를 구성합니다.
 
-  자세한 내용은 [Kanban 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)에서 [WIP(작업 진행 중) 제한 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)을 참조하십시오.
+  자세한 내용은 [Kanban 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)에서 [WIP(작업 진행 중) 제한 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)을 참조하십시오.
 
 **Workfront에서 스크럼 사용의 이점**
 
@@ -118,14 +118,14 @@ Workfront의 스크럼 및 칸반 애자일 방법론은 다음과 같은 점에
 * 스크럼 스토리 보드에 문제를 포함합니다.
 * 애자일 팀의 백로그에 문제를 포함합니다.
 
-  자세한 내용은 [스크럼 구성](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)에서 [반복에 작업 항목을 추가할 때 날짜가 적용되는 방법 구성](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)을 참조하십시오.
+  자세한 내용은 [스크럼 구성](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)에서 [반복에 작업 항목을 추가할 때 날짜가 적용되는 방법 구성](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)을 참조하십시오.
 
 * 하위 작업은 스크럼 스토리 보드에 표시될 수 있습니다.
 * 번다운 차트를 보고 반복 중 스토리에 대한 진행률을 확인합니다.
 
   자세한 내용은 [애자일 번다운 차트 개요](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)를 참조하세요.
 
-애자일 팀을 위해 Kanban을 사용 및 구성하는 방법에 대한 자세한 내용은 [애자일 팀 만들기](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에서 [애자일 방식 결정](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)을 참조하십시오.
+애자일 팀을 위해 Kanban을 사용 및 구성하는 방법에 대한 자세한 내용은 [애자일 팀 만들기](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)에서 [애자일 방식 결정](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)을 참조하십시오.
 
 ## 애자일 팀의 스크럼 백로그에 문제를 포함합니다. {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -141,7 +141,7 @@ Workfront의 스크럼 및 칸반 애자일 방법론은 다음과 같은 점에
 
 백로그에서 문제를 사용하는 방법에 대한 자세한 내용은  [애자일 백로그를 관리합니다](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-애자일 스크럼 팀의 백로그에서 사용할 수 있는 문제를 활성화하는 방법에 대한 자세한 내용은  [스크럼 구성](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)에서 [작업 항목을 반복에 추가할 때 날짜가 적용되는 방식을 구성합니다](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5).
+애자일 스크럼 팀의 백로그에서 사용할 수 있는 문제를 활성화하는 방법에 대한 자세한 내용은  [스크럼 구성](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)에서 [작업 항목을 반복에 추가할 때 날짜가 적용되는 방식을 구성합니다](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## 스크럼 애자일 스토리 보드에 문제 포함 {#include-issues-on-the-scrum-agile-story-board}
 
@@ -151,7 +151,7 @@ Workfront의 스크럼 및 칸반 애자일 방법론은 다음과 같은 점에
 
 이제 스크럼 애자일 방법론을 사용할 때 스토리 보드에 문제를 포함할 수 있습니다.
 
-자세한 내용은 [스크럼 구성](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)에서 [애자일 스토리 보드에서 상태 열 구성](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2)을(를) 참조하십시오.
+자세한 내용은 [스크럼 구성](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2)에서 [애자일 스토리 보드에서 상태 열 구성](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)을(를) 참조하십시오.
 
 ## 애자일 팀의 백로그에 그룹화 및 필터 적용 {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -272,13 +272,13 @@ Workfront의 스크럼 및 칸반 애자일 방법론은 다음과 같은 점에
 
 ### HTML5 비디오 증명 뷰어에서 다시 시작 및 건너뛰기(키보드 단축키) {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
 
-이제 비디오용 HTML5 증명 뷰어 내에 키보드 단축키를 사용하여 비디오를 처음부터 다시 시작하고 비디오 끝으로 건너뛸 수 있습니다.
+이제 비디오용 HTML5 증명 뷰어 내에 비디오를 처음부터 다시 시작하고 비디오 끝으로 건너뛸 수 있는 키보드 단축키가 있습니다.
 
 사용 가능한 키보드 단축키에 대한 자세한 내용은 [Workfront Proof 증명 뷰어의 키보드 단축키](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)를 참조하십시오.
 
 ### HTML5 증명 뷰어 업데이트 {#html5-proofing-viewer-updates}
 
-이제 HTML 5 뷰어가 정적 증명을 지원합니다.
+이제 HTML5 뷰어가 정적 증명을 지원합니다.
 
 이 변경 이전에는 HTML5 뷰어에서 비디오 증명만 지원했습니다. 
 
@@ -297,7 +297,7 @@ HTML 뷰어에는 정적 콘텐츠의 교정을 수행할 때 다음과 같은 �
 * 측정 도구에서 사용자 정의 값 지정
 * Workfront Proof의 증명 뷰어에서 증명 내의 텍스트에 주석을 달 때 텍스트를 굵게, 기울임꼴 및 밑줄로 표시해야 함을 나타내는 옵션을 포함할 수 있습니다.
 
-HTML 5 뷰어는 현재 기존 Flash 뷰어에서 사용할 수 있는 모든 기능을 아직 지원하지 않습니다. 다음 기능은 현재 사용할 수 없지만 향후 릴리스에 포함될 예정입니다.
+HTML5 뷰어는 현재 기존 Flash 뷰어에서 사용 가능한 모든 기능을 지원하지는 않습니다. 다음 기능은 현재 사용할 수 없지만 향후 릴리스에 포함될 예정입니다.
 
 * 리치 미디어 파일 지원
 * 비교 모드(비디오 및 정적)
@@ -307,7 +307,7 @@ HTML 5 뷰어는 현재 기존 Flash 뷰어에서 사용할 수 있는 모든 �
 * 현재 증명에서 작업 중인 사용자를 표시하는 현재 상태 표시기
 * 증명 공유
 
-HTML5 뷰어에서 정적 증명 교정에 대한 자세한 내용은 를 참조하십시오.
+HTML5 뷰어의 증명 정적 증명에 대한 자세한 내용은 를 참조하십시오.
 
 Workfront Proof의 Workfront 관리자는 조직의 사용자가 비디오 증명에 대한 새 HTML5 증명 뷰어에 액세스할 수 있는지 여부를 결정할 수 있습니다.
 
@@ -431,9 +431,9 @@ Workfront 모바일 앱을 업데이트할 때 이 기능을 설치할 수 있�
 
 >[!NOTE]
 >
->현재 Slack 통합을 사용할 수 없습니다. 프로덕션 환경에서는 2017년 11월에 사용할 수 있습니다.
+>Slack 통합은 현재 사용할 수 없습니다. 프로덕션 환경에서는 2017년 11월에 사용할 수 있습니다.
 
-Workfront과 Slack 간의 새로운 통합을 시작합니다. 조직이 이미 커뮤니케이션에 Slack을 사용하고 있다면, 이제 이를 Workfront과 통합하고 Slack에서 커뮤니케이션 채널을 종료하지 않고 일반적인 Workfront 작업을 수행할 수 있습니다. 이제 Slack 계정에서 다음 작업을 수행할 수 있습니다.
+Workfront과 Slack 간의 새로운 통합을 시작합니다. 조직에서 커뮤니케이션에 Slack을 이미 사용하고 있는 경우, 이제 Workfront과 통합하고 Slack의 커뮤니케이션 채널을 종료하지 않고 일반적인 Workfront 작업을 수행할 수 있습니다. 이제 Slack 계정에서 다음 작업을 수행할 수 있습니다.
 
 * Workfront에서 항목 검색
 * 작업 및 승인 목록 액세스
@@ -452,8 +452,6 @@ Slack에서 Workfront에 액세스하는 방법에 대한 자세한 내용은 [S
 
 * Workfront의 프로젝트에 작업 또는 문제 추가: 이제 Outlook 365 추가 기능을 사용하여 Workfront에서 이메일을 작업 또는 문제로 변환할 수 있습니다. 이 프로세스에서는 작업 또는 문제를 추가할 프로젝트, 할당자 및 기한을 지정할 수 있습니다. 이 개선 전에는 요청 대기열에만 요청을 제출하거나 Outlook 365에서 작업 중 목록에 개인 작업을 추가할 수 있었습니다. 
 * 작업, 문제 또는 요청으로 전환된 원본 전자 메일에서 Workfront 개체에 대한 링크 유지: Outlook 365에서 작업, 문제 또는 요청으로 전자 메일을 변환할 때 Outlook 365에서는 원본 전자 메일 내에서 해당 전자 메일에서 전환된 작업 또는 문제에 대한 링크를 유지합니다. 이 변경 이전에는 Outlook에서 이메일이 작업으로 변환되었는지 또는 요청으로 제출되었는지 여부가 표시되지 않았습니다. 
-
-  Outlook 365에서 전자 메일을 작업 또는 문제로 변환하는 방법에 대한 자세한 내용은 [Outlook 전자 메일을 작업 또는 문제로 프로젝트에 추가](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)를 참조하십시오.
 
 ## API 변경 사항 {#api-changes}
 

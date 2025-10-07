@@ -6,9 +6,9 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '2840'
+source-wordcount: '2790'
 ht-degree: 1%
 
 ---
@@ -369,12 +369,6 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 >요청이 Workfront을 입력하면 HTML 서식이 제거되지만 서명 및 기존 회신 스레드 컨텐츠는 제거되지 않고 요청 설명에 표시됩니다.
 
 요청 대기열에서 전자 메일을 통해 요청을 받는 방법에 대한 자세한 내용은 [사용자가 문제를 요청 대기열 프로젝트에 전자 메일로 보낼 수 있도록 설정](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)을 참조하십시오.
-
-## Outlook 클라이언트를 사용하여 요청 만들기
-
-Outlook 클라이언트를 사용하여 요청을 제출할 수 있습니다. 새 요청을 만들거나 이메일을 요청으로 변환할 수 있습니다.
-
-Outlook 클라이언트를 사용하여 요청을 제출하는 방법에 대한 자세한 내용은 문서 [Outlook 전자 메일에서 Adobe Workfront 요청 만들기](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)를 참조하십시오.
 
 ## Workfront 모바일 앱을 사용하여 요청 만들기
 
