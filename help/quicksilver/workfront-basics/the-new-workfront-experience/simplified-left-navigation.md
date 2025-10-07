@@ -3,12 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: ' [!DNL Adobe Workfront]의 왼쪽 탐색'
 description: ' [!DNL Workfront] 의 왼쪽 탐색 패널을 사용하면 시스템을 쉽게 탐색할 수 있습니다.'
-author: Courtney
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1375'
 ht-degree: 1%
 
 ---
@@ -74,8 +74,8 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
 
 >[!IMPORTANT]
 >
->왼쪽 패널에 기본적으로 하나 이상의 섹션(예: **[!UICONTROL 프로젝트]** 영역의 **[!UICONTROL 모든 프로젝트]**)만 표시되는 경우 [!DNL Workfront] 관리자는 레이아웃 템플릿을 작성할 때 이 영역에 하나 이상의 사용자 정의 섹션을 추가하고 왼쪽 패널이 해당 영역에 표시되기 전에 해당 템플릿에 할당해야 합니다.\
->[!DNL Workfront] 관리자가 레이아웃 템플릿에서 왼쪽 패널을 사용자 지정하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)을 참조하십시오.
+>왼쪽 패널에 기본적으로 한 개의 섹션만 표시되는 경우(예: **[!UICONTROL 프로젝트]** 영역의 **[!UICONTROL 모든 프로젝트]**) [!DNL Workfront] 관리자는 레이아웃 템플릿을 작성할 때 이 영역에 대시보드를 하나 이상 추가하고 왼쪽 패널이 해당 영역에 표시되기 전에 해당 템플릿에 사용자를 할당해야 합니다.
+>>[!DNL Workfront] 관리자가 레이아웃 템플릿에서 왼쪽 패널을 사용자 지정하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)을 참조하십시오.
 
 왼쪽 패널은 다음 영역에 사용할 수 있습니다.
 
@@ -163,8 +163,8 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
         <td>볼 수 있는 액세스 권한이 있는 모든 프로젝트를 표시합니다. 보려는 프로젝트를 변경하려면 [!UICONTROL 필터] 드롭다운 메뉴를 사용합니다</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 사용자 정의 섹션]</strong></td>
-        <td>[!DNL Workfront] 관리자가 레이아웃 템플릿의 [!UICONTROL 프로젝트] 영역에 대한 왼쪽 패널에 추가한 모든 사용자 정의 섹션을 볼 수 있습니다. 사용자 정의 섹션에는 사용자 환경에 맞게 사용자 정의된 이름이 있습니다.</td>
+        <td><strong>[!UICONTROL 대시보드]</strong></td>
+        <td>[!DNL Workfront] 관리자가 레이아웃 템플릿의 [!UICONTROL 프로젝트] 영역에 대한 왼쪽 패널에 추가한 모든 대시보드를 볼 수 있습니다. 이러한 대시보드에는 환경에 맞게 사용자 지정된 이름이 있습니다.</td>
     </tr>
 </table>
 
@@ -239,14 +239,16 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
 
 특정 영역에 사용할 수 있는 섹션을 알아보려면 왼쪽 탐색 패널에서 [[!UICONTROL 기본 섹션]을 참조하십시오](#default-sections-in-the-left-navigation-panel).
 
-1. **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon-16x12.png)을(를) 클릭한 다음 개체 이름을 클릭하여 액세스하십시오.
+{{step1-click-main-menu}}
+
+1. 액세스할 객체의 이름을 클릭합니다.
 
    객체 페이지가 표시됩니다.
 
 1. (조건부) 개체 목록이 포함된 영역(예: **[!UICONTROL 프로젝트]** 또는 **[!UICONTROL 포트폴리오]**)을 선택한 경우 왼쪽 패널 탐색에 액세스하려면 다음을 수행해야 합니다.
 
    1. 목록에서 개체를 클릭합니다.
-   1. (선택 사항) 왼쪽 패널 탐색에서 프로젝트 내의 **[!UICONTROL 작업]** 또는 **[!UICONTROL 문제]**&#x200B;와 같은 다른 개체를 선택하여 개체 목록에 액세스한 다음 특정 개체의 이름을 클릭합니다.\
+   1. (선택 사항) 왼쪽 패널 탐색에서 프로젝트 내의 **[!UICONTROL 작업]** 또는 **[!UICONTROL 문제]**&#x200B;와 같은 다른 개체를 선택하여 개체 목록에 액세스한 다음 특정 개체의 이름을 클릭할 수 있습니다.
 
       객체 페이지가 표시됩니다.
 
@@ -254,9 +256,9 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
 
    정보를 편집하려면 먼저 개체를 편집할 권한이 있어야 합니다.
 
-   ![왼쪽 패널 섹션](assets/NWE-left-navigation-panel.png)
+   ![왼쪽 패널 섹션](assets/left-navigation-panel.png)
 
-1. (선택 사항) 대시보드 빠른 링크를 추가하려면 왼쪽 패널 하단의 **[!UICONTROL 대시보드 추가]**&#x200B;를 클릭한 후 다음을 수행합니다.
+1. (선택 사항) 대시보드 빠른 링크를 추가하려면 왼쪽 패널 하단에 있는 **[!UICONTROL 대시보드 추가]**&#x200B;를 클릭한 후 다음을 수행합니다.
 
    1. **[!UICONTROL 빠른 링크 이름]** 필드에 대시보드 이름을 입력하십시오.
    1. **[!UICONTROL 대시보드 선택]** 필드에 기존 대시보드 이름을 입력한 다음 목록에 표시될 때 대시보드를 클릭합니다.
@@ -267,9 +269,9 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
 
 1. (선택 사항) 대시보드 빠른 링크를 제거하려면 왼쪽 탐색 메뉴의 대시보드를 마우스로 가리킨 다음 표시되는 **제거** 아이콘 ![제거 아이콘](assets/remove-dashboard-from-left.png)을 클릭합니다.
 
-1. (선택 사항) 왼쪽 패널에서 섹션의 순서를 변경하려면 섹션의 오른쪽에 있는 **[!UICONTROL 끌기]** 아이콘 ![](assets/drag-icon.png)을(를) 클릭하고 위 또는 아래로 끕니다.
+1. (선택 사항) 왼쪽 패널에서 섹션의 순서를 변경하려면 섹션 옆에 있는 **[!UICONTROL 끌기]** 아이콘 ![](assets/drag-icon.png)을(를) 클릭하고 위 또는 아래로 끕니다.
 
-   ![섹션 드래그](assets/drag-section-right.png)
+   ![섹션 드래그](assets/drag-section.png)
 
 1. (선택 사항) 왼쪽 패널을 닫으려면 **[!UICONTROL 축소]** 아이콘 ![](assets/left-panel-collapse-icon.png)을 클릭합니다.
 

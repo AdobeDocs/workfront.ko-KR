@@ -1,30 +1,31 @@
 ---
 product-area: user-management
 navigation-topic: configure-your-user-profile
-title: 사용자 정의 섹션 만들기
+title: Workfront 개체 또는 영역의 왼쪽 패널에 대시보드 추가
 description: ' [!DNL Workfront] 웹 응용 프로그램에 표시되는 정보는 기본적으로 왼쪽 패널의 섹션에 표시되는 경우가 많습니다. 각 섹션에는  [!DNL Workfront] 영역 또는 개체에 대한 다른 정보가 포함되어 있습니다.'
-author: Becky
+author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: ccaf637601c53e5d92dd3357fb07e84b5fd69166
+source-git-commit: 0efbc6051443d8e0ed96512b72d0949b288f7c2d
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '646'
 ht-degree: 1%
 
 ---
 
-# 사용자 정의 섹션 만들기
+# Workfront 개체 또는 영역의 왼쪽 패널에 대시보드 추가
 
 ## [!DNL Adobe Workfront]개 섹션
 
-[!DNL Workfront] 웹 응용 프로그램에 표시되는 정보는 기본적으로 왼쪽 패널 섹션에 표시되는 경우가 많습니다. 각 섹션에는 [!DNL Workfront] 영역 또는 개체에 대한 다른 정보가 포함되어 있습니다.\
+[!DNL Workfront] 웹 응용 프로그램에 표시되는 정보는 기본적으로 왼쪽 패널 섹션에 표시되는 경우가 많습니다. 각 섹션에는 [!DNL Workfront] 영역 또는 개체에 대한 다른 정보가 포함되어 있습니다.
+
 [!DNL Workfront]의 기본 영역에 대한 자세한 내용은 문서 [기본 정보 [!DNL Adobe Workfront] 레이아웃](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)을 참조하세요.
 
 기본적으로 [!DNL Workfront]과(와) 함께 제공되는 섹션 외에 워크플로우와 관련된 정보를 표시할 수 있는 대시보드를 추가할 수 있습니다. 모든 영역 및 개체에 대시보드를 추가할 수는 없습니다.
 
-다음 표에는 왼쪽 패널의 섹션이 포함된 모든 [!DNL Workfront] 영역 및 개체와 그 중 사용자 지정할 수 있는 영역이 나열되어 있습니다.
+다음 표에는 왼쪽 패널의 섹션이 포함된 모든 [!DNL Workfront] 영역과 개체가 나열되어 있으며 이들 중 대시보드를 사용하여 사용자 지정할 수 있는 영역이 나열되어 있습니다.
 
-| **[!DNL Workfront]영역 또는 개체** | **기본 시스템 섹션** | **사용자 지정 섹션** |
+| **[!DNL Workfront]영역 또는 개체** | **기본 시스템 섹션** | **대시보드** |
 |---|---|---|
 | [!UICONTROL 프로젝트] 영역 | ✓ | ✓ |
 | [!UICONTROL 팀] | ✓ |   |
@@ -74,16 +75,18 @@ ht-degree: 1%
 
 ## [!DNL Workfront] 개체 또는 영역의 왼쪽 패널에 대시보드 추가
 
-대시보드를 추가하려면 먼저 표시할 모든 정보를 사용하여 대시보드를 빌드해야 합니다. 외부 페이지를 작성할 수도 있습니다.\
-대시보드 빌드에 대한 자세한 내용은 문서 [대시보드 만들기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)를 참조하세요.\
+대시보드를 추가하려면 먼저 표시할 모든 정보를 사용하여 대시보드를 빌드해야 합니다. 외부 페이지를 작성할 수도 있습니다.
+
+대시보드 빌드에 대한 자세한 내용은 문서 [대시보드 만들기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)를 참조하세요.
+
 외부 페이지 빌드에 대한 자세한 내용은 문서 [대시보드에 외부 웹 페이지 포함](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)을 참조하십시오.
 
 대시보드 또는 외부 페이지를 작성한 후 왼쪽 패널에 추가할 수 있습니다.
 
-1. 왼쪽 패널에서 사용자 지정 섹션을 추가할 수 있는 [!DNL Workfront] 영역 또는 개체 중 하나로 이동합니다.\
-   또는
-1. 왼쪽 패널에서 [!UICONTROL 대시보드]를 추가할 수 있는 개체로 이동합니다.\
-   사용자 지정 섹션을 추가할 수 있는 영역 및 개체에 대한 자세한 내용은 [[!DNL Adobe Workfront] 섹션](#adobe-workfront-sections)을 참조하세요.
+1. 왼쪽 패널에서 대시보드를 추가할 수 있는 [!DNL Workfront] 영역 또는 개체 중 하나로 이동합니다.
+
+   대시보드를 추가할 수 있는 영역 및 개체에 대한 자세한 내용은 [[!DNL Adobe Workfront] 섹션](#adobe-workfront-sections)을 참조하세요.
+
 1. 왼쪽 패널에서 **[!UICONTROL 대시보드 추가]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 빠른 링크 이름]** 필드에 대시보드 이름을 입력하십시오. 이 은(는) 귀하에게만 표시됩니다.
 1. **[!UICONTROL 대시보드 선택]** 필드에 기존 대시보드 또는 외부 페이지의 이름을 입력한 다음 목록에 표시될 때 대시보드를 선택합니다.
@@ -92,13 +95,13 @@ ht-degree: 1%
 
    상단 섹션은 페이지의 기본 섹션입니다.
 
-   개별 객체에 대해 생성한 섹션은 동일한 유형의 모든 객체에 액세스할 때 표시되며 해당 사용자만 사용할 수 있습니다.
+   추가한 대시보드는 사용자만 사용할 수 있습니다.
 
 ## 오브젝트의 왼쪽 패널에 대시보드 표시
 
 개체 아래에 대시보드를 추가하는 방법에 대한 자세한 내용은 이 문서의 Workfront 개체 또는 영역 왼쪽 패널의 [[!UICONTROL 대시보드 추가] 섹션을 참조하십시오](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area).
 
-오브젝트 아래의 사용자 정의 섹션에 대시보드를 추가하면 오브젝트가 대시보드에 대한 필터 역할을 합니다. 예를 들어 대시보드에 작업 보고서를 추가하고 대시보드를 프로젝트에 추가하는 경우 프로젝트의 대시보드를 포함하는 사용자 정의 섹션에 보고 있는 프로젝트의 작업만 표시됩니다.
+오브젝트의 왼쪽 패널에 대시보드를 추가하면 오브젝트가 대시보드에 대한 필터 역할을 합니다. 예를 들어 대시보드에 작업 보고서를 추가하고 대시보드를 프로젝트에 추가하면 대시보드에는 보고 있는 프로젝트의 작업만 표시됩니다.
 
 다음 객체는 객체가 표시되는 객체보다 계층 구조가 높은 경우 해당 객체에 대해 필터링됩니다.
 
@@ -115,4 +118,4 @@ ht-degree: 1%
 
 [!DNL Workfront] 인스턴스에 대시보드를 추가하면 해당 대시보드는 사용자에게만 표시됩니다.
 
-[!DNL Workfront]의 섹션을 사용자 지정하고 레이아웃 템플릿에서 여러 사용자와 새 레이아웃을 공유할 수 있습니다. 시스템 또는 그룹 관리자만 레이아웃 템플릿에서 다른 사용자와 공유할 수 있습니다. 레이아웃 템플릿으로 왼쪽 패널 사용자 지정에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)을 참조하십시오.
+시스템 또는 그룹 관리자만 레이아웃 템플릿에서 다른 사용자와 대시보드를 공유할 수 있습니다. 레이아웃 템플릿으로 왼쪽 패널 사용자 지정에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)을 참조하십시오.

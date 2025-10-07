@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 레이아웃 템플릿에서 [!DNL Adobe Workfront] 전체에서 왼쪽 패널 영역에 표시되는 내용을 사용자 지정할 수 있습니다.
 
-예를 들어 작업을 볼 때 사용자가 왼쪽 패널에 표시되는 항목 중 하나를 결정할 수 있습니다.
+예를 들어 사용자가 프로젝트를 볼 때 왼쪽 패널에 표시되는 항목 중 하나를 결정할 수 있습니다.
 
-![브랜딩 왼쪽 패널](assets/left-panel-adobe-branding.png)
+![프로젝트의 왼쪽 패널](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -90,7 +90,7 @@ ht-degree: 0%
      <tr> 
       <td>[!UICONTROL 프로젝트]</td> 
       <td>프로젝트 이름</td> 
-      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 기록], [!UICONTROL 비용], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!UICONTROL 사용자], [!UICONTROL 사용자] 사용률&rbrack;, [!UICONTROL 대기열 세부 정보], [!UICONTROL 라우팅 규칙], [!UICONTROL 대기열 주제], [!UICONTROL 주제 그룹], [!UICONTROL 지표], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
+      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 기록], [!UICONTROL 비용], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!UICONTROL 사용자], [!UICONTROL 사용자] 사용률], [!UICONTROL 대기열 세부 정보], [!UICONTROL 라우팅 규칙], [!UICONTROL 대기열 주제], [!UICONTROL 주제 그룹], [!UICONTROL 지표], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 작업]</td> 
@@ -147,7 +147,7 @@ ht-degree: 0%
      <tr> 
       <td>[!UICONTROL 대시보드]</td> 
       <td>대시보드 이름</td> 
-      <td>[!UICONTROL 내 대시보드], [!UICONTROL 공유 대시보드], [!UICONTROL 모든 대시보드]<p><b>참고</b>: [!DNL Adobe Workfront Classic]에서 레이아웃 템플릿을 사용하여 [!UICONTROL 보고서] 영역에 대한 사용자 지정 탭을 만든 경우 이 탭의 맨 아래에 표시됩니다. 사용자의 경우 [!UICONTROL 대시보드] 영역의 왼쪽 패널 하단에 표시됩니다.</p> </td> 
+      <td>[!UICONTROL 내 대시보드], [!UICONTROL 공유 대시보드], [!UICONTROL 모든 대시보드]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 스크럼 팀]</td> 
@@ -227,13 +227,15 @@ ht-degree: 0%
    >* [Brand Adobe [!DNL Workfront] 레이아웃 템플릿 사용](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (선택 사항) 조직의 대시보드 중 하나에 연결되는 왼쪽 패널 항목을 추가하려면 **[!UICONTROL 사용자 지정 섹션 추가]**&#x200B;를 클릭하고 항목에 대한 **[!UICONTROL 사용자 지정 섹션 제목]**&#x200B;을 입력한 다음 대시보드를 추가하십시오.
+1. (선택 사항) 조직의 대시보드 중 하나에 연결되는 왼쪽 패널 항목을 추가하려면 **[!UICONTROL 대시보드 추가]**&#x200B;를 클릭하고 항목에 대한 **[!UICONTROL 빠른 링크 이름]**&#x200B;을 입력한 다음 대시보드를 선택합니다.
 
-   대시보드 항목은 왼쪽 패널 하단에 나타납니다. 사용자가 왼쪽 패널에서 대시보드 항목 위로 마우스를 가져가면 해당 대시보드 항목 옆에 입력한 사용자 정의 섹션 제목이 표시됩니다.
+   대시보드가 목록에 나타나기 전에 먼저 빌드해야 합니다.
+
+   대시보드 항목은 왼쪽 패널 하단에 나타납니다.
 
    >[!NOTE]
    >
-   >사용자는 사용자 정의 대시보드 항목을 자신의 왼쪽 패널에 추가할 수 있습니다. 레이아웃 템플릿에 사용자 정의 대시보드 항목을 추가하면 항목이 추가한 항목 외에도 덮어쓰거나 재설정하지 않고 표시됩니다. 이는 사용자 지정 대시보드 항목이 있는 새 레이아웃 템플릿에 사용자를 할당하는 경우에도 마찬가지입니다. 사용자가 왼쪽 패널을 사용자 지정하는 방법에 대한 자세한 내용은 [사용자 지정 탭 또는 섹션 만들기](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)를 참조하십시오.
+   >사용자는 사용자 정의 대시보드 항목을 자신의 왼쪽 패널에 추가할 수 있습니다. 레이아웃 템플릿에 사용자 정의 대시보드 항목을 추가하면 항목이 추가한 항목 외에도 덮어쓰거나 재설정하지 않고 표시됩니다. 이는 사용자 지정 대시보드 항목이 있는 새 레이아웃 템플릿에 사용자를 할당하는 경우에도 마찬가지입니다. 사용자가 왼쪽 패널을 사용자 지정하는 방법에 대한 자세한 내용은 [Workfront 개체 또는 영역의 왼쪽 패널에 대시보드 추가](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)를 참조하십시오.
    >
    >대시보드에 대한 자세한 내용은 [대시보드](../../../reports-and-dashboards/dashboards/dashboards-overview.md)를 참조하십시오.
 

@@ -7,9 +7,9 @@ description: 업무 균형자 는 리소스 조달 영역의 여러 프로젝트
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 다음과 같은 방법으로 업무 균형자에 액세스할 수 있습니다.
 
 * Adobe Workfront에서 사전 정의한 여러 영역
-* 사용자 정의 섹션에 추가
+* 왼쪽 패널에 대시보드로 추가
 
 이 문서에서는 업무 균형자에 액세스할 수 있는 영역에 대해 설명합니다.
 
@@ -162,11 +162,11 @@ Workfront의 팀에 대한 자세한 내용은 [팀 개요](/help/quicksilver/pe
 
 </div>
 
-## 사용자 정의 섹션에 업무 균형자 추가
+## 왼쪽 패널에 업무 균형자 를 대시보드로 추가
 
-업무 균형자 를 모든 사용자 정의 섹션에 추가할 수 있습니다.
+사용자 지정을 허용하는 오브젝트의 왼쪽 패널에 업무 균형자 를 대시보드로 추가할 수 있습니다.
 
-업무 균형자에 이미 적용한 대부분의 사용자 지정은 사용자 지정 섹션에 추가할 때 유지됩니다.
+이미 업무 균형자에 적용한 대부분의 사용자 지정은 왼쪽 패널에 추가할 때 유지됩니다.
 
 1. 다음 영역으로 이동하여 업무 균형자에 액세스합니다.
 
@@ -181,15 +181,15 @@ Workfront의 팀에 대한 자세한 내용은 [팀 개요](/help/quicksilver/pe
       (NOTE: ensure this stays correct)
       -->
 
-1. [사용자 지정 탭 또는 섹션 만들기](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)에 설명된 대로 사용자 지정 섹션을 만들어 대시보드를 사용자 지정 탭에 배치합니다.
+1. [Workfront 개체 또는 영역의 왼쪽 패널에 대시보드 추가](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)에 설명된 대로 개체의 왼쪽 탐색 패널에 대시보드를 추가하여 대시보드를 사용자 지정 탭에 배치합니다.
 
-   사용자 정의 섹션에서 업무 균형자에 액세스할 때 1단계에 나열된 원래 영역 중 하나에서 직접 액세스하는 것처럼 볼 수 있습니다.
+   대시보드에서 업무 균형자에 액세스할 때 1단계에 나열된 원래 영역 중 하나에서 직접 액세스하는 것처럼 볼 수 있습니다.
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
-1. (선택 사항) [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)에 설명된 대로 레이아웃 템플릿에서 사용자 지정 탭을 공유합니다.
+1. (선택 사항) [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)에 설명된 대로 레이아웃 템플릿에서 대시보드를 공유합니다.
 
 
 <!--

@@ -7,9 +7,9 @@ description: 대시보드의 목적은 정보에 대한 빠른 액세스를 제�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ Adobe Workfront에서 최대 25개의 다음 항목으로 대시보드를 채울
 * 개별적으로 공유.\
   대시보드 공유에 대한 자세한 내용은 [보고서, 대시보드 및 캘린더 공유](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) 및 [대시보드 공유](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)를 참조하십시오.
 
-* 사용자 정의 섹션을 사용하여 Workfront의 모든 영역 또는 개체에 대시보드를 추가합니다.\
-  사용자 지정 섹션 만들기에 대한 자세한 내용은 [Adobe Workfront에서 왼쪽 탐색](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)을 참조하세요.
+* 왼쪽 패널에서 Workfront의 모든 영역 또는 개체에 대시보드를 추가합니다.\
+  왼쪽 패널에 대시보드를 추가하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 왼쪽 탐색](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)을 참조하십시오.
 
 * 사용자와 공유할 수 있는 레이아웃 템플릿에 대시보드를 배치합니다.\
   레이아웃 템플릿을 통해 대시보드를 공유하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)을 참조하십시오.
@@ -108,8 +108,8 @@ Adobe Workfront에서 최대 25개의 다음 항목으로 대시보드를 채울
 
 다음과 같은 방법으로 대시보드를 표시할 수 있습니다.
 
-* 대시보드가 위치한 사용자 정의 섹션에 액세스합니다.\
-  사용자 지정 섹션에 대시보드를 배치하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 왼쪽 탐색](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)을 참조하십시오.
+* 오브젝트의 왼쪽 패널을 통해 대시보드에 액세스합니다.
+왼쪽 패널에 대시보드를 배치하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 왼쪽 탐색](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)을 참조하십시오.
 
 * 대시보드를 검색하고 수동으로 액세스합니다.
 

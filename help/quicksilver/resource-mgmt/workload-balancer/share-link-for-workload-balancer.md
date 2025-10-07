@@ -6,7 +6,7 @@ description: 리소스 조달 영역을 사용할 수 없는 다른 사용자와
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%
@@ -130,10 +130,10 @@ ht-degree: 1%
 1. 다음 중 하나를 수행하여 다른 사용자와 링크를 공유합니다.
 
    * 전자 메일, 채팅 메시지 또는 다른 애플리케이션에 붙여 넣고 다른 사용자와 공유합니다.
-   * 사용자 정의 섹션에 외부 페이지로 추가하고, 사용자 정의 섹션을 사용자 프로필 또는 레이아웃 템플릿에 추가한 다음, 사용자, 팀, 작업 역할 또는 그룹과 레이아웃 템플릿을 공유합니다.
+   * 대시보드에 외부 페이지로 추가하고, 대시보드를 사용자의 프로필 또는 레이아웃 템플릿에 추가한 다음, 사용자, 팀, 작업 역할 또는 그룹과 레이아웃 템플릿을 공유합니다.
 
-     외부 페이지 만들기에 대한 자세한 내용은 [외부 웹 페이지를 대시보드에 포함](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)을 참조하십시오. 레이아웃 템플릿에 사용자 지정 섹션을 추가하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)을 참조하십시오.
+     외부 페이지 만들기에 대한 자세한 내용은 [외부 웹 페이지를 대시보드에 포함](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)을 참조하십시오. 레이아웃 템플릿에 대시보드를 추가하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)을 참조하십시오.
 
      >[!IMPORTANT]
      >
-     >업무 균형자 를 객체의 사용자 정의 섹션에 추가할 때 업무 균형자에 있는 정보가 객체에 의해 필터링되지 않습니다. 업무 균형자에 원래 적용된 필터로 필터링된 정보가 표시됩니다.
+     >오브젝트의 왼쪽 패널에 업무 균형자 를 대시보드로 추가하면 업무 균형자에 있는 정보가 오브젝트에 의해 필터링되지 않습니다. 업무 균형자에 원래 적용된 필터로 필터링된 정보가 표시됩니다.
