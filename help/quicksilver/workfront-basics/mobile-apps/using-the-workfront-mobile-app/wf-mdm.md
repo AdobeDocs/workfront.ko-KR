@@ -3,41 +3,35 @@ content-type: reference
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 모바일 장치 관리용 Adobe Workfront(MDM)
-description: Adobe [!DNL Workfront] 은(는) 조직의 보다 안전하고 통제된 모바일 환경을 제공하기 위해 몇 가지 MDM(모바일 장치 관리) 플랫폼과 파트너 관계를 맺었습니다.
+description: Adobe [!DNL Workfront] 은(는) 조직의 보다 안전하고 통제된 모바일 환경을 제공하기 위해 몇 개의 MDM(모바일 장치 관리) 플랫폼과 파트너 관계를 맺었습니다.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0b76f99627b154b216fc4ed6fb36e6a07805126e
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 0%
+source-wordcount: '120'
+ht-degree: 3%
 
 ---
 
-# [!DNL Mobile Device Management]에 대한 [!DNL Adobe Workfront] (MDM)
+# [!DNL Adobe Workfront]에 대한 [!DNL Mobile Device Management]&#x200B;(MDM)
 
-Adobe [!DNL Workfront]이(가) 몇 개의 [!DNL Mobile Device Management] (MDM) 플랫폼과 파트너 관계를 맺어 조직에 보다 안전하고 통제된 모바일 환경을 제공합니다. [!DNL Workfront] 모바일 앱은 다음 모바일 장치 관리 플랫폼에서 사용할 수 있습니다.
+Adobe [!DNL Workfront]은(는) 몇 개의 [!DNL Mobile Device Management]&#x200B;(MDM) 플랫폼과 파트너 관계를 맺어 조직에 보다 안전하고 통제된 모바일 환경을 제공합니다. [!DNL Workfront] 모바일 앱은 다음 모바일 장치 관리 플랫폼에서 사용할 수 있습니다.
 
 ## MobileIron
 
-해당 플랫폼에서 [!DNL Workfront] 모바일 앱을 설치하려면 [!DNL MobileIron]의 도움말 설명서를 참조하십시오.
+해당 플랫폼에서 [!DNL MobileIron] 모바일 앱을 설치하려면 [!DNL Workfront]의 도움말 설명서를 참조하십시오.
 
 * iOS
 * Android
 
-[!DNL MobileIron]에 대해 [!DNL Workfront]을(를) 구성하는 방법에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)을 참조하십시오.
+[!DNL Workfront]에 대해 [!DNL MobileIron]을(를) 구성하는 방법에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)을 참조하십시오.
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Blackberry Dynamics</h2>
--->
+## Intune
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">See Blackberry Dynamics' help documentation to install the Workfront mobile app from their platform:</p>
--->
+이제 [!DNL Microsoft Intune] 앱스토어에서 Workfront 모바일 앱을 사용할 수 있습니다. Workfront 관리자는 Intune을 통해 앱을 장치에 할당할 수 있습니다.
 
-<!--
-<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li>iOS</li>
-<li>Android</li>
-</ul>
--->
+* iOS
+* Android
+
+Workfront 인스턴스는 Adobe Identity Management System(IMS)에 있어야 합니다.
