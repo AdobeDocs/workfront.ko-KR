@@ -6,9 +6,9 @@ description: 오브젝트의 업데이트에는 AI Assistant를 사용하여 업
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
+source-git-commit: 440d9af6915184b7e91ca257e02be4a234fb91e0
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
