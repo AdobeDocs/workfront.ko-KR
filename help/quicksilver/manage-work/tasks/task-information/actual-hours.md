@@ -7,9 +7,9 @@ description: Adobe Workfront에서 작업 항목에 로그온하는 시간은 �
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d577fb1f84c2a91c7b4a37be271235ffa338c9fd
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,14 @@ Adobe Workfront에서 작업 항목에 로그온하는 시간은 실제 시간�
      >
      >프로젝트의 실제 비용은 기존 실제 시간을 사용하여 계산됩니다.
 
+* 프로젝트, 작업 또는 문제 세부 정보 영역에서 실제 시간이 다음 필드에 표시될 수 있습니다.
 
-* 프로젝트, 작업 또는 문제 세부 정보 영역에서 다음을 수행합니다.
+   * **실제 시간**: 세부 정보 탭에서 2021년 5월 이후의 프로젝트, 작업 또는 문제에 대해 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
+   * **실제 시간**: 프로젝트, 작업 또는 문제 사용자 정의 양식에서 실제 시간 네이티브 필드를 참조하는 네이티브 필드 참조 사용자 정의 필드를 사용하여 액세스한 경우. 2021년 5월 이후 프로젝트, 작업 또는 문제에 대해 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
 
-   * **실제 시간**: 2021년 5월 이후 프로젝트, 작업 또는 문제에 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
-   * **실제 시간**: 프로젝트, 작업 또는 문제 사용자 정의 양식의 기본 필드 참조 사용자 정의 필드를 사용하여 액세스되는 경우.
+>[!NOTE]
+>
+>기존의 실제 시간 필드는 증분이 반올림되는 방식으로 인해 부정확한 시간이 표시될 수 있으므로 가능할 때마다 실제 시간 필드를 사용하는 것이 좋습니다.
 
 ## 작업 및 문제의 실제 시간과 프로젝트의 실제 시간 비교
 
