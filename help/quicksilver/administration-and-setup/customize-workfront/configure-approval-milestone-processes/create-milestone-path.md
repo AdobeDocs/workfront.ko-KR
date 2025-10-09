@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '820'
 ht-degree: 3%
 
 ---
@@ -27,13 +27,13 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 있는 마일스톤 경로를 만들 수 있습니다. 이 영역의 마일스톤 경로에 대한 변경 사항은 전체 Workfront 시스템에 영향을 줍니다.
 
@@ -85,13 +85,9 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
 1. **프로세스** > **마일스톤 경로**&#x200B;를 클릭합니다.
 1. **새 마일스톤 경로**&#x200B;를 클릭합니다.
 
-   <div class="preview">
-
    새 마일스톤 경로(New Milestone Path) 상자가 열립니다.
 
    ![새 마일스톤 경로 상자](assets/new-milestone-path-box.png)
-
-   </div>
 
 1. 왼쪽 패널에서 **기본 정보**&#x200B;를 클릭합니다.
 
@@ -118,8 +114,7 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
 
 1. 왼쪽 패널에서 **마일스톤**&#x200B;을 클릭합니다.
 
-1. 프로덕션 환경에서 **마일스톤 추가**&#x200B;를 클릭하여 경로에 마일스톤을 추가합니다.
-   <span class="preview">미리 보기 환경에서 **새 행**&#x200B;을 클릭하여 경로에 마일스톤을 추가합니다.</span>
+1. 경로에 마일스톤을 추가하려면 **새 행**&#x200B;을 클릭하세요.
 1. 다음 정보를 업데이트합니다.
 
    <table style="table-layout:auto"> 

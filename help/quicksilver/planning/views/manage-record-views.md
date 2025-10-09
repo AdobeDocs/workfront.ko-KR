@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -217,6 +217,7 @@ Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 
 
    <span class="preview">![보기 상자 만들기](assets/create-view-box.png)</span>
 
+1. <span class="preview">기존 보기를 편집하려면 **검색** 필드에 보기 이름을 입력하고 키보드에서 Enter 키를 누르십시오.</span>
 1. <span class="preview">보기 드롭다운 메뉴에서 원하는 순서대로 보기를 끌어서 놓습니다.</span>
 
    <span class="preview">![레코드 형식 목록의 보기 형식 드롭다운](assets/view-types-drop-down-from-record-type-list.png)</span>

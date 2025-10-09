@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '3962'
+source-wordcount: '3985'
 ht-degree: 2%
 
 ---
@@ -198,10 +198,19 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
      <span class="preview">자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).</span>를 참조하세요.
 
+   <!--Andrea verifying>[!TIP]
+    >
+    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
+
    * <span class="preview">레코드 표시줄의 왼쪽 또는 오른쪽 여백을 클릭한 다음 새 위치에 끌어서 놓습니다. 레코드 막대의 크기를 조정하면 시작 또는 종료 날짜가 즉시 업데이트됩니다. </span>
 
    * <span class="preview">레코드를 끌어서 놓아 타임라인에서 위치 및 날짜를 업데이트합니다. 레코드 표시줄을 이동하면 시작 날짜와 종료 날짜가 즉시 업데이트됩니다.</span>
      <span class="preview">자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).</span>을 참조하세요.
+
+   >[!TIP]
+   >
+   ><span class="preview"> 분류에 표시된 Workfront 및 AEM Assets 개체 유형에 대해 타임라인에서 레코드 크기를 조정하고 드래그 앤 드롭할 수 없습니다.</span>
+
 
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [필터](#add-filters)

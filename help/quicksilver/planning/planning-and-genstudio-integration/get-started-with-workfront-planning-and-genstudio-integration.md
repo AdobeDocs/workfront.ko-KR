@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 사�
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -154,15 +154,22 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
    <tr> 
 <td> 
    <p> Workfront의 여러 인스턴스</p> </td> 
-   <td> 
-   <p>GenStudio 작업 영역은 모든 Workfront 인스턴스에서 볼 수 있습니다</p>
+   <td>
+
+<p>GenStudio 작업 영역은 모든 Workfront 인스턴스에서 볼 수 있습니다</p>
 <p>GenStudio for Performance Marketing 및 Workfront Planning에 대한 액세스 권한이 있는 모든 사용자는 기본적으로 Planning의 GenStudio에 대한 기여 권한이 있습니다</p> 
 <p>Workfront 관리자는 GenStudio 작업 영역에 대한 관리 권한을 누구에게도 부여할 수 없습니다</p>
-
 </td> 
   </tr>
    </tbody> 
 </table>
+
+<!--If Iskuhi confirms, add this or a corrected version to the second row of the table above:
+<p>The following are the scenarios for when your organization has more than one instance of Workfront with Workfront Planning:</p>
+   <ul><li>If your company has multiple instances of Workfront at the moment when they purchase Adobe GenStudio for Performance Marketing, the GenStudio workspace is visible from all Workfront instances.</li>
+   <li>If your company adds more Workfront instances after their original instance has already been integrated with Adobe GenStudio for Performance Marketing, the GenStudio workspace is visible only from the original Workfront instance. For information about connecting additional instance of Workfront to Adobe GenStudio, contact your account representative. </li></ul>  
+   
+   -->
 
 Workfront Planning 권한에 대한 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 
