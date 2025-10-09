@@ -6,9 +6,9 @@ description: 홈은 작업을 관리하는 데 도움이 됩니다. 이 유연�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1106'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 
 * **내 요청**\
     제출한 모든 요청, 열려 있는 요청만 표시하는 필터 및 요청에 대한 요약 패널을 여는 단추를 표시합니다.
 
-  <span class="preview">미리 보기 환경에서 이 위젯은 사용자가 제출한 모든 요청, 지정한 조건을 충족하는 요청만 표시하는 필터 및 위젯의 열을 다시 정렬할 수 있는 단추를 표시합니다.</span>
+  <span class="preview">미리 보기 환경에서 이 위젯은 사용자가 제출한 모든 요청, 지정한 조건을 충족하는 요청만 표시하는 필터 및 위젯의 열을 다시 정렬할 수 있는 단추를 표시합니다. Workfront Planning에 대한 액세스 권한이 있는 경우 Planning 요청도 여기에 표시됩니다.</span>
 
 
 * **팀 요청**\
