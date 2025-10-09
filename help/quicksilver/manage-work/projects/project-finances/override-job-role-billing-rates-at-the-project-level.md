@@ -6,16 +6,16 @@ description: 프로젝트 관리자는 특정 프로젝트의 작업 역할에 �
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
+source-git-commit: 4b2bf1205951de13cb09d31f54f890a74bdf7d98
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
 
 # 프로젝트 수준에서 작업 역할 청구 요금 재정의
 
-{{highlighted-preview}}
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있으며 프로덕션에 단계적으로 롤아웃할 때 릴리스됩니다.</span>
 
 프로젝트 관리자는 특정 프로젝트의 작업 역할에 대한 청구 요금을 지정할 수 있습니다. 이 프로젝트 수준의 청구 요율은 이 작업 역할에 대한 시스템 수준의 청구 요율을 무시합니다. Workfront은 시스템 수준 청구 요금을 사용하는 대신 작업 역할의 프로젝트 수준 청구 요금을 사용하여 수익을 계산합니다.
 
