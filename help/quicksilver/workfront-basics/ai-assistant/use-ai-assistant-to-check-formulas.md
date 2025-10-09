@@ -5,76 +5,82 @@ description: AI Assistant를 사용하여 계산된 필드에서 잘못된 사�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: 46fdc768adade4872d636014c0e215c5f129d1de
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
 
 # AI Assistant를 사용하여 계산된 필드 공식 생성 또는 개정
 
-AI Assistant를 사용하여 제공한 프롬프트에 따라 공식을 생성할 수 있습니다. 계산된 필드에서 잘못된 사용자 정의 표현식의 오류를 해결할 수도 있습니다.
+>[!IMPORTANT]
+>
+>AI Assistant를 사용하여 공식을 생성하는 기능이 Adobe Workfront에서 제거되었습니다.
 
-## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+<!-- You can use AI Assistant to generate formulas based on a prompt you provide. You can also resolve errors in your invalid custom expressions in calculated fields.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>새로운 기능: Prime 또는 Ultimate</p>
-       <p>또는</p>
-       <p>현재: 사용할 수 없음</p></td>
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Prime or Ultimate</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 사용할 수 없음</p></td>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 전제 조건
+## Prerequisites
 
-* Workfront 관리자가 조직에 대해 AI Assistant를 활성화해야 합니다.
+* Your Workfront administrator must have enabled AI Assistant for your organization.
 
-  자세한 내용은 AI Assistant 개요 문서의 [AI Assistant에 대한 필수 구성 요소](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)를 참조하십시오.
-* Workfront 관리자가 귀하의 액세스 수준에 대해 AI Assistant를 활성화해야 합니다.
+    For more information, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in the article AI Assistant overview.
+* Your Workfront administrator must have enabled AI Assistant for your access level.
 
-  자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
+   For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 <!--## Generate a calculated field expression-->
 
-## 계산된 필드 표현식 수정
+<!-- ## Revise a calculated field expression
 
-사용자 정의 양식 빌더에서 계산된 필드를 만들 때 공식이 잘못된 경우 필드 아래에 오류 메시지가 표시됩니다.
+When you are creating the calculated field in the custom form builder, an error message appears under the field if the formula is invalid.
 
-![잘못된 식 오류](assets/invalid-expression.png)
+![Invalid expression error](assets/invalid-expression.png)
 
-AI 도우미는 공식을 유효한 계산된 필드 표현식으로 수정하는 데 도움이 될 수 있습니다.
+AI Assistant can help you revise your formula into a valid calculated field expression.
 
-잘못된 계산된 필드 표현식을 수정하려면 다음을 수행합니다.
+To revise an invalid calculated field expression:
 
-1. 화면 오른쪽 상단 근처에 있는 **AI Assistant** 아이콘 ![AI Assistant 아이콘](assets/ai-assistant-icon.png)을 클릭합니다.
-1. ai Assistant 패널 하단 근처에 있는 프롬프트 영역에서 다음과 같은 프롬프트를 입력합니다.
-   `Rewrite this formula to remove the invalid expression error`
-1. 사용자 정의 양식 빌더에서 잘못된 표현식을 복사하여 프롬프트 영역에 붙여넣습니다.
-1. **Enter**&#x200B;를 누릅니다.
+1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
+1. in the prompt area near the bottom of the AI Assistant panel, enter a prompt such as:
+`Rewrite this formula to remove the invalid expression error`
+1. Copy the invalid expression from the custom form builder, and paste it into the prompt area.
+1. Press **Enter**.
 
-   공식의 크기나 복잡성에 따라 AI 도우미가 수정된 공식을 생성하는 데 약간의 시간이 걸릴 수 있습니다.
-1. AI 지원 패널에서 수정된 공식을 확인합니다.
-1. (선택 사항) AI 지원 패널에서 수정된 공식을 복사하여 사용자 정의 양식 빌더의 계산된 필드에 붙여넣습니다.
+   AI Assistant may take a few moments to generate the revised formula, depending on how large or complex the formula is.
+1. View the revised formula in the AI Assistant panel.
+1. (Optional) Copy the revised formula from the AI Assistant panel, and paste it into the calculated field in the custom form builder.
 
 >[!NOTE]
 >
->예상 결과를 검색하는지 확인하려면 계산된 필드를 테스트하는 것이 좋습니다.
+>We recommend testing the calculated field to ensure that it retrieves the expected result.
 
-Workfront의 계산된 필드에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
+For more information on calculated fields in Workfront, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
+-->
