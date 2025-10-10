@@ -5,9 +5,9 @@ description: 프로젝트 상태 기능은 AI Assistant의 기능을 사용하�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
+source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Project Health를 활용하려면 조직에서 AI Assistant를 활성화해야 �
 * Adobe 통합 경험을 활성화해야 합니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 * Workfront 관리자는 조직의 사용자를 위해 AI Assistant를 활성화해야 합니다. AI Assistant는 액세스 수준을 통해 활성화됩니다.
-* 설정 > 환경 설정의 AI 환경 설정 섹션에서 AI 및 프로젝트 상태 활성화 옵션을 모두 선택해야 합니다.
+* 설정 > 시스템 > 환경 설정의 AI 환경 설정 섹션에서 AI 및 프로젝트 상태 활성화 옵션을 모두 선택해야 합니다.
 
   ![AI 환경 설정 섹션](assets/ai-preferences.png)
 
