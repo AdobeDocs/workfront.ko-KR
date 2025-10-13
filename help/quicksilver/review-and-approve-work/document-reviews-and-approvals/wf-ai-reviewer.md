@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 0e6b43d0d9ca416fdd67907457e3b0afec66db63
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '657'
 ht-degree: 4%
 
 ---
@@ -36,6 +36,10 @@ Workfront에서 AI 검토자를 설정하려면 시스템 관리자여야 합니
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 계약 서명에 대한 자세한 내용은 [Adobe Gen AI 계약 서명](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)을 참조하십시오.
 
+## Beta 가입
+
+Beta에 참여하려면 **설정** > **검토 및 승인** > **AI 검토자**&#x200B;로 이동한 다음 **약관 동의**&#x200B;를 클릭합니다.
+
 
 ## 지원되는 파일 유형 {#supported-file-types-ai-reviewer}
 
@@ -55,7 +59,7 @@ AI 검토자는 다음 파일 유형을 검토할 수 있습니다.
 
 ## 브랜드 지침 설정
 
-Workfront AI 검토자는 콘텐츠를 검토할 때 Genstudio Foundation에 설정된 브랜드 지침을 사용합니다. 현재는 이미지에 대한 브랜드 가이드라인만 설정할 수 있습니다. 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
+Workfront AI 검토자는 콘텐츠를 검토할 때 Genstudio Foundation에 설정된 브랜드 지침을 사용합니다. 현재는 이미지에 대한 브랜드 가이드라인만 설정할 수 있습니다. 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
 
 
 ## AI 검토자 만들기
