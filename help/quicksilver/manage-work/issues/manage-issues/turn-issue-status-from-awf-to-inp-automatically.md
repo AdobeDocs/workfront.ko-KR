@@ -6,26 +6,30 @@ description: 문제의 기본 담당자가 필드(사용자 정의 필드 포함
 author: Alina
 feature: Work Management
 exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # 문제 상태를 피드백 대기에서 진행 중으로 자동 업데이트
 
+<!--Audited: 109/2025-->
+
 문제의 기본 담당자가 필드(사용자 정의 필드 포함)를 업데이트하거나 댓글을 추가하여 문제를 업데이트하면 문제 상태가 자동으로 진행 중으로 업데이트됩니다.
 
 이 자동 상태 변경이 발생하려면 다음 조건을 충족해야 합니다.
 
-* 문제는 요청 대기열을 통해 입력해야 합니다.
+* 이 문제는 요청 대기열을 사용하여 추가해야 합니다.
 
-  요청 큐 만들기에 대한 자세한 내용은 [요청 큐 만들기 및 관리](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) 섹션을 참조하십시오. 요청 만들기에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
+  요청 큐 만들기에 대한 자세한 내용은 [요청 큐 만들기 및 관리](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) 섹션을 참조하십시오.
+
+  요청 대기열에 요청을 제출하는 방법에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
 * 요청 대기열의 대기열 세부 정보에 다음 설정이 있어야 합니다.
-   * **다른 사람이 요청할 때 자동으로 부여**&#x200B;이(가) **Contribute 액세스**(으)로 설정됩니다.
-   * 고급 설정에서 **상태 변경**&#x200B;을(를) 선택했습니다.
+   * **다른 사람이 요청을 하면 자동으로 부여**&#x200B;가 **액세스 권한 제공**(으)로 설정됩니다.
+   * **상태 변경**&#x200B;이 선택됨
 
   ![큐 세부 정보에서 Contribute 액세스 및 상태 변경을 선택할 수 있습니다.](assets/queuedetails-contributeaccess-changestatus.png)
 

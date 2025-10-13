@@ -6,14 +6,16 @@ description: 프로젝트, 작업 또는 반복과 관련된 문제를 볼 수 �
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # 문제 보기
+
+<!--Audited: 10/2025-->
 
 프로젝트, 작업 또는 반복과 관련된 문제를 볼 수 있습니다.
 
@@ -134,15 +136,18 @@ ht-degree: 0%
 * **시간**: 문제에 대한 시간 항목 목록을 표시합니다.
 * **승인:** 문제와 관련된 승인 경로를 표시합니다.
 
-  문제와 승인을 연결하는 방법에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)의 [작업 항목과 승인 프로세스 연결](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object) 섹션을 참조하십시오.
+  문제와 승인을 연결하는 방법에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object)의 [작업 항목과 승인 프로세스 연결](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) 섹션을 참조하십시오.
 
 ## 문제가 있는 프로젝트 및 작업 보기
 
-프로젝트, 작업 보고서 또는 목록 보기에 아이콘을 추가하여 문제를 첨부했는지 여부를 표시할 수 있습니다. 보고서 또는 목록 보기에 아이콘을 추가하는 것은 프로젝트 및 작업의 경우와 유사합니다.
+프로젝트, 작업 보고서 또는 목록 보기에 아이콘을 추가하여 문제를 첨부했는지 여부를 표시할 수 있습니다.
+
+보고서 또는 목록 보기에 아이콘을 추가하는 것은 프로젝트 및 작업의 경우와 유사합니다.
 
 프로젝트에 프로젝트 보고서의 문제가 있는지 여부를 표시하는 아이콘을 추가하려면 다음 작업을 수행하십시오.
 
-1. Adobe Workfront 오른쪽 위 모서리에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
+{{step1-click-main-menu}}
+
 1. **보고** > **새 보고서** > **프로젝트 보고서**&#x200B;를 클릭합니다.
 1. **이 열에 표시** 필드에 **상태 아이콘**&#x200B;을 입력한 다음 목록에 표시될 때 선택합니다.
 
@@ -150,4 +155,4 @@ ht-degree: 0%
 
    문제 아이콘은 **상태 아이콘** 열에 문제가 있는 프로젝트에 표시됩니다.
 
-   ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x132.png)
+   ![문제 아이콘이 있는 프로젝트 목록](assets/project-list-with-issue-icon-350x132.png)

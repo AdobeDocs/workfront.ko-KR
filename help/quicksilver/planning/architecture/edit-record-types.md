@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -88,18 +88,18 @@ ht-degree: 2%
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
++++   
 
 ## 레코드 유형 편집
 
 {{step1-to-planning}}
 
-1. 레코드 유형을 편집할 작업 영역을 클릭합니다.
+1. 레코드 유형을 편집할 작업공간을 클릭합니다.
 
    작업 영역 페이지가 열리고 레코드 유형이 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다
+   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**을 클릭합니다
 또는
    * <span class="preview">레코드 종류 카드를 클릭하여 레코드 종류 페이지를 열고 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다. </span>
 
@@ -127,7 +127,7 @@ ht-degree: 2%
          * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
 
-1. (선택 사항 및 조건부) 시스템 관리자인 경우 **고급 설정**&#x200B;을 클릭하고 **작업 영역 간 기능** 섹션에서 다음 정보를 업데이트하십시오. <!--the info here is duplicated in the Create record types article-->
+1. (선택 사항 및 조건부) 시스템 관리자인 경우 **고급 설정**&#x200B;을 클릭하고 **작업 영역 간 기능** 섹션에서 다음 정보를 업데이트하십시오. <!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
    * **다른 작업 영역에서 이 레코드 형식에 연결 허용** 설정을 사용합니다. 작업 영역 관리자가 다른 작업 영역에서 이 레코드 형식에 연결할 수 있습니다.\
      이 레코드 유형을 연결할 수 있는 작업 공간을 지정할 수 있습니다. 모든 작업공간에서 사용할 수 있도록 설정하거나 가져올 수 있는 특정 작업공간을 지정할 수 있습니다.
 자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.
