@@ -6,9 +6,9 @@ description: 사용자의 추가 개입 없이 사용자에 대해 반복 타임
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
+source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1597'
 ht-degree: 2%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 2%
 # 타임시트 프로필 만들기, 편집 및 할당
 
 <!--Audited: 06/2025-->
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있으며 프로덕션에 단계적으로 롤아웃할 때 릴리스됩니다.</span>
 
 사용자의 추가 개입 없이 사용자에 대해 반복 타임시트를 생성하는 타임시트 프로필을 만들고, 편집하고, 할당할 수 있습니다. 이렇게 하면 시간이 절약되고 사용자 간에 다음 사항이 일관되도록 할 수 있습니다.
 
@@ -151,13 +149,11 @@ ht-degree: 2%
 
    * **미리 알림**: 미리 알림을 추가합니다. Workfront은 사용자에게 타임시트를 완료하거나 승인하도록 요청하는 미리 알림을 보냅니다. 미리 알림을 타임시트 프로필과 연결하려면 먼저 미리 알림을 만들어야 합니다.
 
-1. 프로덕션에서 그룹 수준 타임시트 프로필을 만들 때 **사람 할당** 탭을 클릭하여 타임시트 프로필을 특정 사용자, 그룹 또는 (Workfront 관리자인 경우) 팀과 연결합니다. <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
-
-   <span class="preview">미리 보기에서 그룹 수준 타임시트 프로필을 만들 때 페이지 아래쪽으로 스크롤하여 **사람 할당** 섹션을 찾습니다.</span>
-
-   시스템에 대한 타임시트 프로필을 만들 때 페이지 아래쪽으로 스크롤하여 **사람 할당** 섹션을 찾습니다.
+1. 타임시트 프로필을 특정 사용자, 그룹 또는 팀(Workfront 관리자인 경우)과 연결하려면 페이지 아래쪽으로 스크롤하여 **사람 할당** 섹션을 찾습니다.
 
    사용자, 그룹 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 클릭합니다.
+
+   <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
    그룹 관리자인 경우 관리하는 그룹에 타임시트 프로필을 할당할 수 있지만 팀에는 할당할 수 없습니다. 자세한 내용은 이 문서에서 [그룹 관리자가 타임시트 프로필을 할당하는 제한](#limitations-for-a-group-administrator-assigning-a-timesheet-profile)을 참조하십시오.
 
