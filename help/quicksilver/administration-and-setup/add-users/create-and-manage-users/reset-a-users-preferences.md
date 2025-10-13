@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 2%
@@ -18,6 +18,8 @@ ht-degree: 2%
 # 사용자 환경 설정 재설정
 
 <!-- Audited: 12/2023 -->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 사용자 환경 설정을 재설정하거나 제거할 수 있습니다.
 
@@ -69,7 +71,7 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
  </thead> 
  <tbody> 
   <tr> 
-   <td>보기</td> 
+   <td>보기 횟수</td> 
    <td> <p> 시스템 기본값으로 되돌림</p> <p>기존 보기는 삭제되지 않습니다. 다시 선택할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
@@ -103,6 +105,17 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
  </tbody> 
 </table>
 
+<!-- Display this table and hide the HTML table above, when the unshim is released.
+| Preference | Status after the reset |
+| --- | --- |
+| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
+| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
+| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
+| Recent items list | Cleared |
+| Favorites list | Unaffected |
+| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+-->
+
 ## 사용자 환경 설정 재설정
 
 {{step-1-to-setup}}
@@ -112,7 +125,7 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
 1. **로그인**&#x200B;을 선택합니다.
 1. 조직이 Adobe 통합 경험에 온보딩되지 않은 경우 다음 단계를 따르십시오.
 
-   * 웹 브라우저 상단의 URL 필드에서 `workfront.com` 뒤에 `/resetUser`을(를) 추가합니다.
+   * 웹 브라우저 상단의 URL 필드에서 `/resetUser` 뒤에 `workfront.com`을(를) 추가합니다.
 
      >[!NOTE]
      >
@@ -122,7 +135,7 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
 
 1. 조직이 Adobe 통합 경험에 온보딩된 경우 이 단계를 따르십시오.
 
-   * 웹 브라우저 상단의 URL 필드에서 `workfront` 뒤에 `/resetUser`을(를) 추가합니다.
+   * 웹 브라우저 상단의 URL 필드에서 `/resetUser` 뒤에 `workfront`을(를) 추가합니다.
 
      >[!NOTE]
      >
@@ -133,6 +146,7 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
 1. **Enter**&#x200B;를 누릅니다.
 1. 모든 사용자 환경 설정을 재설정하려면 **재설정**&#x200B;을 선택하세요.
 
-   또는
+<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
+또는
 
-   사용자 지정 탭만 재설정하려면 **탭 재설정**&#x200B;을 선택하세요.
+사용자 지정 탭만 재설정하려면 **탭 재설정**&#x200B;을 선택하세요.
