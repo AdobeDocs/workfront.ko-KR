@@ -1,12 +1,12 @@
 ---
 title: 레코드 유형에 대한 교차 작업 영역 기능 구성
-description: 레코드 유형을 다른 작업 공간에 추가하거나 다른 작업 공간에서 연결할 수 있습니다.
+description: Adobe Workfront Planning에서 다른 작업 공간에 추가되거나 다른 작업 공간에서 연결될 수 있도록 레코드 유형을 활성화할 수 있습니다.
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -20,28 +20,18 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTILE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
+<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
 
 
 <!--this article is linked to the UI - do not delete or change the URL-->
 
-<!--THIS MIGHT ALREADY BE ADDED TO THE "OVERVIEW" ARTICLE, BUT CHECK: add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
-
-Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
-
-So we'd have the "Allow adding this record type to other workspaces" setting in enabled or disabled state, and display an explanation text below it explaining the capability, as well as a link to help articles for more context. I'd like to include the following key points in the message:  
-
-Once enabled, this record type can be added in other workspaces by designated people 
-
-Members of those workspaces can create and manage records in scope of their workspace 
-
-Any records added by other workspace members will be rolled up to this workspace with view access so members of the current workspace can create views for cross-workspace records.  
-
-Then for the second setting for cross-workspace connections, we'll need a similar explanation text would highlight that the other workspaces can create connections and gain view access to the records in this record type, but will not see the record type in their workspace. (not sure what she means by this last bit, asking in figma also)
+<!--THIS MIGHT ALREADY BE ADDED TO THE "OVERVIEW" ARTICLE, BUT CHECK: add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type.
 
 -->
 
 # 레코드 유형에 대한 작업 영역 간 기능 구성
+
+{{planning-important-intro}}
 
 <!--this is linked to the UI in the info icon when you enable a record to be either global or connectable-->
 
@@ -49,14 +39,14 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
-여러 작업 영역에서 작동하도록 레코드 유형을 구성할 수 있습니다.
+Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코드 유형을 구성할 수 있습니다.
 
-다음은 레코드 유형의 작업 영역 간 기능입니다.
+레코드 유형을 다음 중 하나로 지정할 수 있습니다.
 
-* 레코드 유형을 전역으로 지정할 수 있습니다. 사용자는 자신이 관리할 수 있는 다른 작업 영역에 글로벌 레코드 유형을 추가할 수 있습니다.
-* 레코드 종류를 연결 가능한 것으로 지정할 수 있습니다. 사용자는 다른 작업 영역에서 이 레코드 유형에 연결할 수 있습니다.
+* **글로벌 레코드 종류**: 사용자가 관리할 수 있는 다른 작업 영역에 글로벌 레코드 종류를 추가할 수 있습니다.
+* **연결 가능한 레코드 종류**: 사용자는 다른 작업 영역에서 이 레코드 종류에 연결할 수 있습니다.
 
-작업 영역 관리자가 레코드 유형을 다른 작업 영역에서 연결하거나 다른 작업 영역에 추가하기 전에 먼저 레코드 유형의 작업 영역 간 기능을 정의해야 합니다.
+작업 영역 관리자가 레코드 유형을 다른 작업 영역에 추가하거나 다른 작업 영역에서 연결하기 전에 먼저 레코드 유형의 작업 영역 간 기능을 정의해야 합니다.
 
 레코드 유형을 만들거나 편집할 때 레코드 유형의 작업 영역 간 기능을 정의합니다.
 
@@ -87,21 +77,20 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 <li><p>연결 가능한 레코드 유형을 만들기 위한 모든 Planning 패키지</p></li>
 <li><p>글로벌 레코드 유형을 만드는 Planning Plus 패키지</p></li>
 </ul>
-<!--Or:
-<ul><li><p>Any Workflow package</p> </li>
+또는:
+<ul><li><p>워크플로우 Prime 또는 Ultimate 패키지</p> </li>
 And
-<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<li><p>Planning Prime 또는 Ultimate 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
-   </td>
-
-<tr> 
+   </td> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>표준</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역</a>에 대한 권한 관리 </p>  
+   <td>   <p>작업 영역 및 레코드 종류</a>에 대한 권한을 관리합니다. </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
   </tr>  
 </tbody> 
@@ -117,9 +106,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 작업 영역 관리자는 레코드 유형을 글로벌 레코드 유형으로 구성할 수 있습니다. 글로벌 레코드 유형은 다른 작업 공간에 추가할 수 있습니다.
 
-작업 영역 관리자는 전역 레코드 유형을 자신이 관리하는 작업 영역에 추가할 수 있습니다. 레코드 유형의 원본 필드도 추가됩니다.
+작업 영역 관리자는 전역 레코드 유형을 자신이 관리하는 작업 영역에 추가할 수 있습니다. 레코드 유형의 원본 필드도 보조 작업 영역에 추가됩니다.
 
-사용자는 Contribute 권한이 있고 원래 작업 영역을 포함하여 글로벌 레코드 유형이 추가된 작업 영역에서 글로벌 레코드 유형에 레코드를 추가할 수 있습니다. 보기 권한만 있는 작업 영역에서 레코드를 볼 수 있습니다.
+사용자는 Contribute 권한이 있고 원래 작업 영역을 포함하여 글로벌 레코드 유형이 추가된 작업 영역에서 글로벌 레코드 유형에 레코드를 추가할 수 있습니다. 보기 권한만 있는 작업 공간에서 레코드를 볼 수 있습니다.
 
 자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
@@ -145,7 +134,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. (조건부) **편집**&#x200B;을 클릭한 경우 **레코드 종류 편집** 상자에서 **작업 영역 간 설정** 탭을 클릭합니다
 
-   또는 **설정**&#x200B;을 클릭한 경우 왼쪽 패널의 **작업 영역 간 설정** 섹션으로 이동하십시오.
+   또는 **설정**&#x200B;을 클릭한 경우 왼쪽 패널의 **작업 영역 간 설정** 섹션을 클릭합니다.
 1. **다른 작업 영역에 이 레코드 형식을 추가할 수 있도록 허용** 설정을 사용합니다.
 
    ![다른 작업 영역에 추가를 사용하도록 설정한 상태에서 작업 영역 간 설정 편집](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
@@ -158,7 +147,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    필드에 이름이 자동으로 추가됩니다.
 
-   이 레코드 유형을 자신이 관리하는 작업 공간에 추가하도록 허용할 개인 사용자, 그룹, 팀, 작업 역할 또는 회사를 추가할 수 있습니다.
+   이 레코드 유형을 자신이 관리하는 작업 공간에 추가하도록 허용할 개별 사용자, 그룹, 팀, 작업 역할 또는 회사를 추가할 수 있습니다.
 
    레코드 유형을 저장한 후 이 필드를 편집할 수 있습니다.
 
@@ -167,7 +156,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >[!TIP]
    >
    >이 설정을 활성화할 수 있는 엔터티(사용자, 팀, 그룹, 역할 또는 회사)를 하나 이상 지정해야 합니다.
-
 
 1. (조건부) **레코드 종류 편집** 상자에서 **저장**&#x200B;을 클릭하거나 페이지 헤더의 **설정** 왼쪽에 있는 뒤로 화살표를 클릭하여 변경 내용을 저장합니다.
 
@@ -179,7 +167,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >
    >레코드 유형의 모양 및 설정과 원본 필드는 원본 작업 공간에서만 편집할 수 있습니다.
 
-   * 레코드 유형 카드에 글로벌 아이콘 ![글로벌 레코드 유형 아이콘](assets/global-icon.png)이 표시되어 다른 작업 영역에 레코드 유형을 추가할 수 있음을 나타냅니다.
+   * 레코드 유형 카드에 **글로벌 레코드 유형** 아이콘 ![글로벌 레코드 유형 아이콘](assets/global-icon.png)이 표시되어 다른 작업 영역에 레코드 유형을 추가할 수 있음을 나타냅니다.
    * 시스템 생성 **Workspace** 필드가 레코드 종류 및 해당 레코드의 세부 정보에 대한 테이블 보기에 추가됩니다.
 
      Workspace 필드에는 각 레코드가 생성되는 작업 영역이 표시됩니다.
@@ -188,6 +176,13 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. (선택 사항) 다른 작업 영역으로 이동하여 기존 레코드 유형을 사용하여 레코드 유형을 만듭니다. 위의 단계에서 활성화한 레코드 유형을 선택합니다.
 
    자세한 내용은 [다른 작업 영역에서 기존 레코드 형식 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)를 참조하십시오.
+
+   보조 작업 영역의 글로벌 레코드 유형에서 추가된 레코드 유형은 **글로벌 레코드 유형** 아이콘 ![글로벌 레코드 유형 아이콘](assets/global-icon.png)도 표시합니다.
+1. (선택 사항) 글로벌 레코드 유형을 만든 원래 작업 영역으로 돌아가서 <!--ensure this stays accurate--> 위의 1-4단계를 수행하여 레코드 유형을 편집합니다
+1. (선택 사항) **이 레코드 형식이 사용되는 작업 영역 섹션**&#x200B;에서 전역 레코드가 추가된 작업 영역 목록을 검토하십시오.
+
+   ![이 레코드 형식이 사용되는 작업 영역](assets/workspaces-where-this-record-type-is-used.png)
+
 
 ## 연결 가능한 레코드 유형 구성
 
@@ -213,9 +208,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. (조건부) **편집**&#x200B;을 클릭한 경우 **레코드 종류 편집** 상자에서 **작업 영역 간 설정** 탭을 클릭합니다
 
-   또는 **설정**&#x200B;을 클릭한 경우 왼쪽 패널의 **작업 영역 간 설정** 섹션으로 이동하십시오.
+   또는 **설정**&#x200B;을 클릭한 경우 왼쪽 패널의 **작업 영역 간 설정** 섹션을 클릭합니다.
 
 1. **다른 작업 영역에서 이 레코드 형식에 연결 허용** 설정을 사용합니다. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
+
+   <!-- add new screen shot with new tab name-->
 
    ![다른 작업 공간에서 연결을 사용하도록 설정한 상태에서 작업 공간 간 설정 탭 편집](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
@@ -223,16 +220,17 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. 레코드 종류에 액세스할 수 있는 작업 공간을 선택합니다. 다음 옵션 중에서 선택합니다.
 
-   * **시스템 전체**: 사용자는 관리 권한이 있는 모든 작업 영역에서 이 레코드 형식에 연결할 수 있습니다.
-   * **특정 작업 영역**: 작업 영역 관리자가 이 레코드 형식에 연결할 수 있는 작업 영역의 이름을 추가합니다.
+   <!--check names of the setting: System wide?? OR All workspaces??-->
+
+   * **모든 작업 영역**: 사용자는 관리 권한이 있는 모든 작업 영역에서 이 레코드 형식에 연결할 수 있습니다.
+   * **특정 작업 영역**: 드롭다운 메뉴에서 작업 영역 관리자가 이 레코드 종류에 연결할 수 있는 작업 영역의 이름을 추가합니다.
 1. (조건부) **레코드 종류 편집** 상자에서 **저장**&#x200B;을 클릭하거나 페이지 헤더의 **설정** 왼쪽에 있는 뒤로 화살표를 클릭하여 변경 내용을 저장합니다.
 
    다음과 같은 상황이 발생합니다.
 
    * 이제 지정한 작업 영역에서 레코드 유형 및 해당 필드에 연결할 수 있습니다.
-   * 레코드 유형 카드는 구성에 지정한 모든 작업 영역에서 레코드 유형을 연결할 수 있음을 나타내는 작업 영역 간 연결 아이콘 ![작업 영역 간 연결 아이콘](assets/connect-from-other-workspaces-icon.png)을 표시합니다.
+   * 레코드 유형 카드에 연결 가능한 레코드 유형 아이콘 ![연결 가능한 레코드 유형 아이콘](assets/connect-from-other-workspaces-icon.png)이 표시되어 구성에 지정한 모든 작업 영역에서 레코드 유형을 연결할 수 있음을 나타냅니다.
 
-   지정된 작업공간에서에 연결할 수 있는 레코드 유형이 제공됩니다.
 1. (선택 사항) 다른 작업 영역으로 이동하여 위의 단계에서 작업 영역 간 연결을 활성화한 레코드 유형에 연결을 추가합니다.
 
    자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
