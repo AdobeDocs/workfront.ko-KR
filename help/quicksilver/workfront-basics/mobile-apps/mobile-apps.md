@@ -19,6 +19,6 @@ ht-degree: 0%
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
-* [ [!DNL Adobe Workfront] 모바일 앱 사용](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
-* [ [!DNL Adobe Workfront View] 사용](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
-* [ [!DNL Adobe Workfront] 모바일 앱에 대한 팁, 요령 및 문제 해결](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
+* [&#x200B; [!DNL Adobe Workfront] 모바일 앱 사용](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
+* [&#x200B; [!DNL Adobe Workfront View] 사용](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
+* [&#x200B; [!DNL Adobe Workfront] 모바일 앱에 대한 팁, 요령 및 문제 해결](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)

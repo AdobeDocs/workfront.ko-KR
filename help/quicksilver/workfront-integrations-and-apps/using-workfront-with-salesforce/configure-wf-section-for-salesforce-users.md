@@ -119,7 +119,7 @@ ht-degree: 1%
 [!DNL Salesforce Lightning Experience] 프레임워크에서 [!UICONTROL 설정] 영역에 액세스하거나 계정에서 액세스함
 또는 [!UICONTROL Opportunity] 개체입니다.
 
-* [ [!DNL Workfront] 설정[!UICONTROL &#x200B; 수준에서 &#x200B;]섹션 구성](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
+* [&#x200B; [!DNL Workfront] 설정[!UICONTROL &#x200B; 수준에서 &#x200B;]섹션 구성](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
 * [영업 기회 또는 계정 수준에서  [!DNL Workfront] 섹션 구성](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
 
 ### [!DNL Workfront]설정[!UICONTROL &#x200B; 수준에서 &#x200B;] 섹션 구성 {#configure-the-workfront-section-at-the-setup-level}

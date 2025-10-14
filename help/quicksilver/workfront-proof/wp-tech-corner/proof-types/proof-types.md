@@ -24,4 +24,4 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]을(를) 사용하여 정적 웹 사이트 증명 만들기](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
+* [&#x200B; [!DNL Workfront Proof]을(를) 사용하여 정적 웹 사이트 증명 만들기](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)

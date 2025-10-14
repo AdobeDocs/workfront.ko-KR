@@ -23,7 +23,7 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]의 대시보드](../../../workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
-* [ [!DNL Workfront Proof]의 보기 탭에 있는 페이지 레이아웃](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
-* [ [!DNL Workfront Proof] 검색 중](../../../workfront-proof/wp-work-proofsfiles/basic-features/search.md)
-* [ [!DNL Workfront Proof] 활동 감사 추적 이해](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+* [&#x200B; [!DNL Workfront Proof]의 대시보드](../../../workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
+* [&#x200B; [!DNL Workfront Proof]의 보기 탭에 있는 페이지 레이아웃](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
+* [&#x200B; [!DNL Workfront Proof] 검색 중](../../../workfront-proof/wp-work-proofsfiles/basic-features/search.md)
+* [&#x200B; [!DNL Workfront Proof] 활동 감사 추적 이해](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

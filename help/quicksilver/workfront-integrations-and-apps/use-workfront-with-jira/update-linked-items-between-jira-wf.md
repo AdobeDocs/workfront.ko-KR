@@ -213,7 +213,7 @@ ht-degree: 0%
 시간은 **[!UICONTROL 항목의]**&#x200B;시간[!DNL Workfront] 탭에도 표시됩니다.
 
 * [연결된 항목 [!DNL Jira] 및 [!DNL Workfront] 항목에 대한 로그 시간](#log-time-for-linked-jira-and-workfront-items)
-* [ [!DNL Jira] 부터  [!DNL Workfront] 항목까지 시간 기록](#log-time-from-jira-to-a-workfront-item)
+* [&#x200B; [!DNL Jira] 부터  [!DNL Workfront] 항목까지 시간 기록](#log-time-from-jira-to-a-workfront-item)
 
 ### 연결된 [!DNL Jira] 및 [!DNL Workfront]개 항목에 대한 로그 시간
 

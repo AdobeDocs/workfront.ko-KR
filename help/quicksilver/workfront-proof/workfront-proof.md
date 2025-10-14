@@ -32,6 +32,6 @@ ht-degree: 0%
 * [[!DNL Workfront Proof] 청구 설정](../workfront-proof/wp-billingsettings/wp-billing-settings.md)
 * [증명 알림 및 미리 알림](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
 * [전자 메일 경고](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
-* [ [!DNL Workfront Proof]에서 사용자 및 연락처 관리](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
+* [&#x200B; [!DNL Workfront Proof]에서 사용자 및 연락처 관리](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
 * [[!DNL Workfront Proof] 기술 코너](../workfront-proof/wp-tech-corner/tech-corner.md)
 * [[!DNL Workfront Proof] 통합](../workfront-proof/wp-integrations/wp-integrations.md)

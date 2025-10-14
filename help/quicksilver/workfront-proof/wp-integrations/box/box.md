@@ -24,7 +24,7 @@ ht-degree: 4%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof] and [!DNL Box] 통합 소개](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [ [!DNL Box] 계정을 통해 증명 만들기](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
-* [ [!DNL Workfront Proof]과(와)  [!DNL Box] 폴더 동기화](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
-* [ [!DNL Box]에서 증명의 원본 파일 보기](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+* [&#x200B; [!DNL Workfront Proof] and [!DNL Box] 통합 소개](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [&#x200B; [!DNL Box] 계정을 통해 증명 만들기](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [&#x200B; [!DNL Workfront Proof]과(와)  [!DNL Box] 폴더 동기화](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
+* [&#x200B; [!DNL Box]에서 증명의 원본 파일 보기](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

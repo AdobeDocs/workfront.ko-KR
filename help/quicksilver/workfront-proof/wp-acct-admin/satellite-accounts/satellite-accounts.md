@@ -24,6 +24,6 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]의 위성 계정](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
-* [ [!DNL Workfront Proof]에서 위성 계정 구성](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
-* [ [!DNL Workfront Proof]에서 위성 계정 관리](../../../workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
+* [&#x200B; [!DNL Workfront Proof]의 위성 계정](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
+* [&#x200B; [!DNL Workfront Proof]에서 위성 계정 구성](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
+* [&#x200B; [!DNL Workfront Proof]에서 위성 계정 관리](../../../workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)

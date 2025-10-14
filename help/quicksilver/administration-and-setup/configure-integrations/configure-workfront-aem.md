@@ -116,7 +116,7 @@ ht-degree: 0%
 커넥터 설치에 대한 자세한 내용은 [커넥터 패키지 설치 [!DNL Workfront for AEM Assets] 를 참조하십시오](#install-the-workfront-for-aem-assets-connector-package).
 
 * [전제 조건](#prerequisites)
-* [ [!DNL Workfront]과(와) AEM 통합](#integrate-aem-with-workfront)
+* [&#x200B; [!DNL Workfront]과(와) AEM 통합](#integrate-aem-with-workfront)
 * [[!UICONTROL AEM 외부화 구성]](#configure-the-aem-externalizer)
 
 ### 전제 조건 {#prerequisites}
@@ -284,7 +284,7 @@ ht-degree: 0%
 
 [!DNL Workfront] 권한에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
-* [ [!DNL AEM assets]에서 사용자 설정](#set-up-users-in-aem-assets)
+* [&#x200B; [!DNL AEM assets]에서 사용자 설정](#set-up-users-in-aem-assets)
 
 ### [!DNL AEM assets]에서 사용자 설정 {#set-up-users-in-aem-assets}
 

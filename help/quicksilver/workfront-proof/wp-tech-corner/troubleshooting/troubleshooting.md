@@ -26,5 +26,5 @@ ht-degree: 0%
 
 * [문제 해결 - Mac의 proofing viewer에서 인터페이스 글꼴이 손상되었습니다.](../../../workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
 * [캐시와 쿠키가  [!DNL Workfront Proof]에 미치는 영향 이해](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
-* [ [!DNL Workfront Proof]의 속도 문제](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
+* [&#x200B; [!DNL Workfront Proof]의 속도 문제](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
 * [문제 해결 - [!DNL Workfront Proof] 증명 뷰어](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)

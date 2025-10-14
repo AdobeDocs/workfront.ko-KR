@@ -75,7 +75,7 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
 
 [!DNL Adobe Exchange]에서 직접 [!DNL Adobe Workfront for XD] 플러그인을 설치할 수 있습니다.
 
-1. Adobe Exchange의 [XD용 Adobe Workfront 설치 페이지](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share)(으)로 이동합니다.
+1. Adobe Exchange의 [XD용 Adobe Workfront 설치 페이지](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share)(으)로 이동합니다.
 1. 표시되는 대화 상자에서 **데스크톱 앱 [!DNL Adobe Creative Cloud] 열기**&#x200B;를 클릭합니다.
 1. [!DNL Adobe XD] 플러그 인 관리자가 열리면 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. 대화 상자에서 정보를 읽은 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.

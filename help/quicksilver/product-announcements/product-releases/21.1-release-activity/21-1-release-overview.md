@@ -392,7 +392,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 ### 21.1 릴리스 웨비나 {#21-1-release-webinar}
 
-Workfront 21.1 릴리스 웨비나는 2월 3일 오전 11시(EDT) / 오후 4시(BST)에 제공됩니다. 웨비나 [여기](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=ac&amp;eventid=2934272&amp;sessionid=1&amp;key=5C231B3385686D1E224A49EBE0BF0E37&amp;regTag=&amp;V2=false&amp;sourcepage=register)에 등록하십시오.
+Workfront 21.1 릴리스 웨비나는 2월 3일 오전 11시(EDT) / 오후 4시(BST)에 제공됩니다. 웨비나 [여기](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register)에 등록하십시오.
 
 ### 미리보기 릴리스 케이던스 변경 {#change-in-preview-release-cadence}
 

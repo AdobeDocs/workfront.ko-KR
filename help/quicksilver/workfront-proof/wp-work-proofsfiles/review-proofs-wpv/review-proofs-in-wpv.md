@@ -24,7 +24,7 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]에서 증명 열기](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
+* [&#x200B; [!DNL Workfront Proof]에서 증명 열기](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
 * [증명 뷰어에서 워크플로우 검토](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
 * [여러 검토자와 동시에 증명 검토](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
 * [증명 뷰어의 증명에 대한 활동 보기](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
@@ -32,5 +32,5 @@ ht-degree: 0%
 * [증명 뷰어에서 증명 비교](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
 * [웹 증명 뷰어에서 이전 증명 버전 보기](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
 * [증명 뷰어에서 증명 다운로드](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-* [ [!DNL Workfront Proof] 증명 뷰어의 키보드 단축키](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+* [&#x200B; [!DNL Workfront Proof] 증명 뷰어의 키보드 단축키](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
 * [기존 증명 뷰어가 제거됨](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)

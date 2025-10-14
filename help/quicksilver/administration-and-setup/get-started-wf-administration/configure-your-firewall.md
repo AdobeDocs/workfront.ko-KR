@@ -77,8 +77,8 @@ ht-degree: 0%
 >* Outlook용 Workfront
 
 * [클러스터 1, 2, 3, 5, 7, 8 및 9를 허용하는 IP 주소](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* 클러스터 4[에 대해 허용할 ](#ip-addresses-to-allow-for-cluster-4)IP 주소
-* 클러스터 6[을(를) 허용할 ](#ip-addresses-to-allow-for-cluster-6)IP 주소
+* 클러스터 4[에 대해 허용할 &#x200B;](#ip-addresses-to-allow-for-cluster-4)IP 주소
+* 클러스터 6[을(를) 허용할 &#x200B;](#ip-addresses-to-allow-for-cluster-6)IP 주소
 * [클러스터 10을 허용할 IP 주소](#ip-addresses-to-allow-for-cluster-10)
 * 테스트 드라이브를 허용할 [IP 주소](#IP%20Addre2)
 * [이벤트 구독을 구현할 때 허용할 IP 주소](#ip-addresses-to-allow-when-implementing-event-subscriptions)

@@ -24,6 +24,6 @@ ht-degree: 4%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]에 게스트 추가](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
-* [ [!DNL Workfront Proof]에서 연락처 관리](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
-* [ [!DNL Workfront Proof]의 사용자, 구성원 및 게스트 이해](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
+* [&#x200B; [!DNL Workfront Proof]에 게스트 추가](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
+* [&#x200B; [!DNL Workfront Proof]에서 연락처 관리](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
+* [&#x200B; [!DNL Workfront Proof]의 사용자, 구성원 및 게스트 이해](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)

@@ -53,7 +53,7 @@ ht-degree: 0%
 
 [!DNL Admin Console]에 대한 자세한 내용은 다음 문서를 검토하십시오.
 
-* [ [!DNL Adobe Admin Console] 준비](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+* [&#x200B; [!DNL Adobe Admin Console] 준비](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
 * [플랫폼 기반 관리의 차이점([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
 * [[!DNL Adobe Admin Console] 개요](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)
 

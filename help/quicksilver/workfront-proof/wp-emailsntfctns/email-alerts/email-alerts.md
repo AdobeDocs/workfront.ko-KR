@@ -24,5 +24,5 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]에서 전자 메일 알림 설정 구성](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
-* [ [!DNL Workfront Proof]에서 증명에 대한 전자 메일 경고 설정 변경](../../../workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
+* [&#x200B; [!DNL Workfront Proof]에서 전자 메일 알림 설정 구성](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
+* [&#x200B; [!DNL Workfront Proof]에서 증명에 대한 전자 메일 경고 설정 변경](../../../workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)

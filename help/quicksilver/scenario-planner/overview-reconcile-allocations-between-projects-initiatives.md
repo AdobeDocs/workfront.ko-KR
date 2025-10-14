@@ -46,7 +46,7 @@ ht-degree: 0%
 
 * 프로젝트에 대한 Publish 이니셔티브
 
-  자세한 내용은 [ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기 를 참조하십시오.
+  자세한 내용은 [&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기 를 참조하십시오.
 
 두 프로세스는 프로젝트와 해당 이니셔티브 간에 연결을 만듭니다. 연결한 후 리소스 할당을 비교하고 일치하는지 확인하여 관리할 수 있습니다.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    * 프로젝트의 [!UICONTROL 프로젝트 세부 정보] 영역에 있는 [!DNL Scenario Planner] 섹션. 자세한 내용은 다음 문서를 참조하십시오.
 
-      * [ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기
+      * [&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기
       * [프로젝트 [!UICONTROL 개요] 영역의 정보 관리](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
      >[!TIP]

@@ -60,8 +60,8 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 
 자세한 내용은 다음 문서를 참조하십시오.
 
-* [ [!DNL XD] 아트 게시판을 문서로  [!DNL Workfront]에 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-* [ [!DNL XD] 아트 게시판을 증명으로  [!DNL Workfront]에 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [&#x200B; [!DNL XD] 아트 게시판을 문서로  [!DNL Workfront]에 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [&#x200B; [!DNL XD] 아트 게시판을 증명으로  [!DNL Workfront]에 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
 
 ## 완전히 새로운 고객은 통합 경험 Adobe에 온보딩됩니다
 

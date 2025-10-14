@@ -27,6 +27,6 @@ ht-degree: 0%
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
 * [워크플로 예](../../workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
-* [ [!DNL Workfront Proof]의 개인 설정](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
-* [ [!DNL Workfront Proof]의 시스템 정보](../../workfront-proof/wp-getstarted/system-information/system-information.md)
+* [&#x200B; [!DNL Workfront Proof]의 개인 설정](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
+* [&#x200B; [!DNL Workfront Proof]의 시스템 정보](../../workfront-proof/wp-getstarted/system-information/system-information.md)
 * [[!DNL Workfront Proof] - 자주 묻는 질문](../../workfront-proof/wp-getstarted/faqs/faqs.md)

@@ -24,5 +24,5 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof] 사이트 브랜딩 - 고급](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
-* [ [!DNL Workfront Proof] 사이트 브랜딩](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
+* [&#x200B; [!DNL Workfront Proof] 사이트 브랜딩 - 고급](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
+* [&#x200B; [!DNL Workfront Proof] 사이트 브랜딩](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)

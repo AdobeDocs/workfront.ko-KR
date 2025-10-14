@@ -20,4 +20,4 @@ ht-degree: 0%
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
 * [사용자 프로필 구성](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
-* [ [!DNL Adobe Workfront] 계정 관리](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
+* [&#x200B; [!DNL Adobe Workfront] 계정 관리](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)

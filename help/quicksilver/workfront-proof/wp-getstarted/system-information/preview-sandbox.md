@@ -36,7 +36,7 @@ ht-degree: 0%
 기본적으로 시스템 관리자는 샌드박스 미리보기 환경에 액세스할 수 있습니다. 이 섹션에 설명된 대로 샌드박스 미리보기 환경에 액세스할 수 없는 경우 [!DNL Workfront] 관리자 또는 지원 팀에 문의하십시오.
 
 * [독립 실행형 샌드박스 미리 보기 액세스 [!DNL Workfront Proof] 고객](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
-* [ [!DNL Workfront]+[!DNL Workfront Proof] 고객으로 샌드박스 미리 보기 액세스](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
+* [&#x200B; [!DNL Workfront]+[!DNL Workfront Proof] 고객으로 샌드박스 미리 보기 액세스](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
 
 ### 독립 실행형 [!DNL Workfront Proof] 고객으로 미리 보기 샌드박스에 액세스
 

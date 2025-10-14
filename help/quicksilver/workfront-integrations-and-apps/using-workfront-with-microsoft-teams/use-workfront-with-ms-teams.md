@@ -25,9 +25,9 @@ ht-degree: 0%
 Adobe Workfront은 Microsoft Teams과의 통합을 제공합니다. 이 문서는 이 통합을 설치 및 구성하기 위한 지침과 일상적인 작업에서 이 통합을 사용하는 방법에 대한 링크를 제공합니다.
 
 * [Microsoft Teams 개요에 대한 [!DNL Adobe Workfront]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
-* [ [!DNL Adobe Workfront for Microsoft Teams] 설치](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
-* [ [!DNL Microsoft Teams]에서  [!DNL Adobe Workfront] 액세스](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
-* [ [!DNL Microsoft Teams]에서  [!DNL Adobe Workfront] 개 항목 검색 및 공유](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
-* [ [!DNL Microsoft Teams]에서  [!DNL Adobe Workfront] 작업 만들기](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
-* [ [!DNL Microsoft Teams]의  [!DNL Adobe Workfront] 요청 제출](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
-* [ [!DNL Microsoft Teams]의  [!DNL Adobe Workfront] 알림 관리](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
+* [&#x200B; [!DNL Adobe Workfront for Microsoft Teams] 설치](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
+* [&#x200B; [!DNL Microsoft Teams]에서  [!DNL Adobe Workfront] 액세스](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
+* [&#x200B; [!DNL Microsoft Teams]에서  [!DNL Adobe Workfront] 개 항목 검색 및 공유](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
+* [&#x200B; [!DNL Microsoft Teams]에서  [!DNL Adobe Workfront] 작업 만들기](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
+* [&#x200B; [!DNL Microsoft Teams]의  [!DNL Adobe Workfront] 요청 제출](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
+* [&#x200B; [!DNL Microsoft Teams]의  [!DNL Adobe Workfront] 알림 관리](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)

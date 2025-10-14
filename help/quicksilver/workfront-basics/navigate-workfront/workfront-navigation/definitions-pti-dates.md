@@ -25,7 +25,7 @@ ht-degree: 3%
 
 보고서 및 목록에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [ [!DNL Adobe Workfront]의 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
+* [&#x200B; [!DNL Adobe Workfront]의 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [보고서 시작](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
 프로젝트, 작업 및 문제 필드에 대한 자세한 내용은 [용어집 [!DNL Adobe Workfront] 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)을 참조하세요.

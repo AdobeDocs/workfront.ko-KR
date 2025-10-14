@@ -24,8 +24,8 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof] 청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+* [&#x200B; [!DNL Workfront Proof] 청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 <!--* [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) -->
-* [ [!DNL Workfront Proof]에서 결제 방법 선택](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-* [ [!DNL Workfront Proof] 인보이스 다운로드 중](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-* [ [!DNL Workfront Proof] 계정 닫기](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+* [&#x200B; [!DNL Workfront Proof]에서 결제 방법 선택](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
+* [&#x200B; [!DNL Workfront Proof] 인보이스 다운로드 중](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+* [&#x200B; [!DNL Workfront Proof] 계정 닫기](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)

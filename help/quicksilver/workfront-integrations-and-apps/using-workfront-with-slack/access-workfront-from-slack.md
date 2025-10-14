@@ -74,7 +74,7 @@ Slack의 메시지 필드에 명령을 입력하면 먼저 [!DNL Workfront]에 �
 ## [!DNL Slack]에서 [!DNL Workfront] 액세스
 
 * [슬래시 명령 정보](#about-slash-commands-about-slash-commands)
-* [ [!DNL Slack]의 공유 링크에서  [!DNL Workfront] 액세스](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
+* [&#x200B; [!DNL Slack]의 공유 링크에서  [!DNL Workfront] 액세스](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
 
 ## [!DNL Slack]의 슬래시 명령에서 [!DNL Workfront]에 액세스 {#access-workfront-from-a-slash-command-in-slack}
 

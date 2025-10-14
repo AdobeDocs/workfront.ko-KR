@@ -103,7 +103,7 @@ ht-degree: 1%
 * [증명 링크 공유 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
 * [공개 URL 공유 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
 * [다음에서 증명 구독 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
-* [ [!DNL Workfront Proof]에서 미니 증명 만들기](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
+* [&#x200B; [!DNL Workfront Proof]에서 미니 증명 만들기](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
 
 ## 증명을 검토하려면 사용자가 되어야 합니까?
 

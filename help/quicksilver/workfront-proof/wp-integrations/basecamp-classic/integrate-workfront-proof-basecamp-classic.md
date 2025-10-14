@@ -82,7 +82,7 @@ ht-degree: 0%
 >
 >[!DNL Basecamp] 세션이 한 브라우저 창에서 열려 있고 [!DNL Workfront Proof] 세션이 다른 창에서 열려 있는 경우 이 단계를 완료하는 것이 가장 쉽습니다.
 
-* [ [!DNL Basecamp] API 토큰 검색 중](#retrieving-your-basecamp-api-token)
+* [&#x200B; [!DNL Basecamp] API 토큰 검색 중](#retrieving-your-basecamp-api-token)
 * [개인 설정에  [!DNL Basecamp] API 토큰 추가](#adding-your-basecamp-api-token-to-your-personal-settings)
 
 ### [!DNL Basecamp] API 토큰 검색 중

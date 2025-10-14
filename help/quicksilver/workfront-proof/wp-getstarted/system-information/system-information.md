@@ -25,5 +25,5 @@ ht-degree: 0%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [샌드박스 테스트 환경 미리 보기- [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
-* [ [!DNL Workfront Proof]의 언어 설정](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
-* [ [!DNL Workfront Proof]의 코덱](../../../workfront-proof/wp-getstarted/system-information/codecs.md)
+* [&#x200B; [!DNL Workfront Proof]의 언어 설정](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
+* [&#x200B; [!DNL Workfront Proof]의 코덱](../../../workfront-proof/wp-getstarted/system-information/codecs.md)

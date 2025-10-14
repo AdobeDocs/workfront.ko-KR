@@ -74,7 +74,7 @@ ht-degree: 1%
 1. (조건부) 다음 문서에 설명된 방법 중 하나를 사용하여 프로젝트와 이니셔티브를 연결합니다.
 
    * [프로젝트를  [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md)의 플랜으로 가져옵니다.
-   * [ [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md)에서 이니셔티브를 게시하여 프로젝트를 업데이트하거나 만듭니다.
+   * [&#x200B; [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md)에서 이니셔티브를 게시하여 프로젝트를 업데이트하거나 만듭니다.
 
    >[!IMPORTANT]
    >

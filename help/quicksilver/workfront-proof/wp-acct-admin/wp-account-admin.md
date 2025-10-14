@@ -24,9 +24,9 @@ ht-degree: 0%
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
-* [ [!DNL Workfront Proof]의 계정 설정](../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)
+* [&#x200B; [!DNL Workfront Proof]의 계정 설정](../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)
 * [브랜딩 [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/branding/branding.md)
 * [보안 관리](../../workfront-proof/wp-acct-admin/managing-security/manage-security.md)
-* [ [!DNL Workfront Proof]의 파트너 계정](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
-* [ [!DNL Workfront Proof]의 위성 계정](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
-* [ [!DNL Workfront Proof] 계정 관리에 대한 팁, 요령 및 문제 해결](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
+* [&#x200B; [!DNL Workfront Proof]의 파트너 계정](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
+* [&#x200B; [!DNL Workfront Proof]의 위성 계정](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
+* [&#x200B; [!DNL Workfront Proof] 계정 관리에 대한 팁, 요령 및 문제 해결](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)

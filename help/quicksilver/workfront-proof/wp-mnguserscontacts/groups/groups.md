@@ -25,6 +25,6 @@ ht-degree: 2%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [증명에 그룹 추가](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
-* [ [!DNL Workfront Proof]을(를) 사용하여 증명 그룹 만들기](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
-* [ [!DNL Workfront Proof]을(를) 사용하여 그룹을 비공개로 설정](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
-* [ [!DNL Workfront Proof]을(를) 사용하여 그룹 관리](../../../workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
+* [&#x200B; [!DNL Workfront Proof]을(를) 사용하여 증명 그룹 만들기](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
+* [&#x200B; [!DNL Workfront Proof]을(를) 사용하여 그룹을 비공개로 설정](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+* [&#x200B; [!DNL Workfront Proof]을(를) 사용하여 그룹 관리](../../../workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)

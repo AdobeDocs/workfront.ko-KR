@@ -31,8 +31,8 @@ ht-degree: 1%
 
 [!DNL Workfront for Salesforce]을(를) 설치하여 예상할 수 있는 사항에 대한 일반적인 이해는 [[!DNL Adobe Workfront for Salesforce] 개요](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)를 참조하십시오.
 
-* [ [!DNL Workfront for Salesforce]을(를) 설치 및 사용하기 위한 필수 구성 요소](#prerequisites-for-installing-and-using-workfront-for-salesforce)
-* [ [!DNL Workfront for Salesforce] 설치 중](#installing-workfrontfor-salesforce)
+* [&#x200B; [!DNL Workfront for Salesforce]을(를) 설치 및 사용하기 위한 필수 구성 요소](#prerequisites-for-installing-and-using-workfront-for-salesforce)
+* [&#x200B; [!DNL Workfront for Salesforce] 설치 중](#installing-workfrontfor-salesforce)
 
 ## 액세스 요구 사항
 
@@ -73,9 +73,9 @@ ht-degree: 1%
 
 다음 하위 섹션에서는 [!DNL Workfront] 프로덕션 환경에 [!DNL Salesforce]을(를) 설치하는 방법을 설명합니다. 동일한 단계에 따라 [!DNL Workfront] 샌드박스 환경에 [!DNL Salesforce]을(를) 설치할 수 있습니다.
 
-* [ [!DNL Workfront for Salesforce] 마켓플레이스에서 사용할 수 있게 되기 전에  [!DNL AppExchange] 설치](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
-* [ [!DNL Workfront for Salesforce] 프레임워크에  [!DNL Salesforce Classic] 을(를) 설치하는 중](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
-* [ [!DNL Workfront for Salesforce] 프레임워크에  [!DNL Salesforce Lightning Experience] 을(를) 설치하는 중](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
+* [&#x200B; [!DNL Workfront for Salesforce] 마켓플레이스에서 사용할 수 있게 되기 전에  [!DNL AppExchange] 설치](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
+* [&#x200B; [!DNL Workfront for Salesforce] 프레임워크에  [!DNL Salesforce Classic] 을(를) 설치하는 중](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
+* [&#x200B; [!DNL Workfront for Salesforce] 프레임워크에  [!DNL Salesforce Lightning Experience] 을(를) 설치하는 중](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
 
 ### [!DNL Workfront for Salesforce] 마켓플레이스에서 [!DNL AppExchange]을(를) 사용하려면 먼저 설치 {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 

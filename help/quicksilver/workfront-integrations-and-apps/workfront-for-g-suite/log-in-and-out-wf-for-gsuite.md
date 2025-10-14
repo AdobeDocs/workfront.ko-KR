@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## [!DNL Adobe Workfront for Google Workspace]에 로그인
 
-1. [!DNL Workfront], ![ 또는 ](assets/wf-lion-icon.png)의 맨 오른쪽에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Gmail] 아이콘 [!DNL Google Calendar]Workfront 아이콘[!DNL Google Drive]을 클릭합니다.
+1. [!DNL Workfront], ![&#x200B; 또는 &#x200B;](assets/wf-lion-icon.png)의 맨 오른쪽에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 [!DNL Gmail] 아이콘 [!DNL Google Calendar]Workfront 아이콘[!DNL Google Drive]을 클릭합니다.
 
    [!DNL Workfront for Google Workspace] 추가 기능을 방금 설치했는데 이 아이콘이 표시되지 않으면 브라우저 페이지를 새로 고쳐 보십시오.
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## [!DNL Workfront for Google Workspace]에서 로그아웃
 
-1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![ 아이콘 ](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
+1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![&#x200B; 아이콘 &#x200B;](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
 1. **[!UICONTROL 패널 위쪽에 있는]**&#x200B;추가 작업[!DNL Workfront for Google Workspace] 아이콘을 클릭합니다.
 
 1. 표시되는 메뉴에서 **[!UICONTROL 로그아웃]**&#x200B;을 클릭합니다.

@@ -19,4 +19,4 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof] 모바일 앱에 로그인할 수 없습니다.](../../../workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
+* [&#x200B; [!DNL Workfront Proof] 모바일 앱에 로그인할 수 없습니다.](../../../workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)

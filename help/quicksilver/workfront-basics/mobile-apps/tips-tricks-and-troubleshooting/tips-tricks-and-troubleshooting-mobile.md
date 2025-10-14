@@ -19,4 +19,4 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Adobe Workfront] 모바일 앱: &quot;[!UICONTROL 계정이 API를 사용할 수 없습니다.]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+* [&#x200B; [!DNL Adobe Workfront] 모바일 앱: &quot;[!UICONTROL 계정이 API를 사용할 수 없습니다.]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)

@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront with Anaplan] 통합 FAQ
 
-* [ [!DNL Adobe Workfront Fusion?]을(를) 사용해야 합니까?](#do-i-have-to-use-adobe-workfront-fusion)
-* [ [!DNL Anaplan] 이외의 다른 재무 도구와 동일한 종류의 통합을 수행할 수 있습니까?](#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan)
-* [ [!DNL Workfront-Anaplan] 통합을 활용할 수 있는 라이선스 계층은 무엇입니까?](#what-license-tiers-can-take-advantage-of-the-workfront-anaplan-integration)
+* [&#x200B; [!DNL Adobe Workfront Fusion?]을(를) 사용해야 합니까?](#do-i-have-to-use-adobe-workfront-fusion)
+* [&#x200B; [!DNL Anaplan] 이외의 다른 재무 도구와 동일한 종류의 통합을 수행할 수 있습니까?](#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan)
+* [&#x200B; [!DNL Workfront-Anaplan] 통합을 활용할 수 있는 라이선스 계층은 무엇입니까?](#what-license-tiers-can-take-advantage-of-the-workfront-anaplan-integration)
 * [이 통합에는 구현 서비스가 필요합니까?](#will-this-integration-require-implementation-services)
 * [이를 위해  [!DNL Workfront] 을(를) 구성해야 하는 특별한 방법이 있습니까?](#is-there-a-specific-way-that-i-have-to-configure-workfront-for-this-to-work)
 * [이를 위해  [!DNL Anaplan] 을(를) 구성해야 하는 특별한 방법이 있습니까?](#is-there-a-specific-way-that-i-have-to-configure-anaplan-for-this-to-work)
-* [ [!DNL Workfront professional services] 내 [!DNL Anaplan] 작업 영역을 구성하는 데 도움이 됩니까?](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
+* [&#x200B; [!DNL Workfront professional services] 내 [!DNL Anaplan] 작업 영역을 구성하는 데 도움이 됩니까?](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
 
 ## [!DNL Adobe Workfront Fusion?]을(를) 사용해야 합니까? {#do-i-have-to-use-adobe-workfront-fusion}
 

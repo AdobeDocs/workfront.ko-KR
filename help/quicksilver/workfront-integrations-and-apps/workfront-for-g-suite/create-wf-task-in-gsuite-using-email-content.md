@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## 전자 메일 콘텐츠를 사용하여 [!DNL Adobe Workfront]에서 [!DNL Google Workspace] 작업 만들기
 
-1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![ 아이콘 ](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
+1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![&#x200B; 아이콘 &#x200B;](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
 1. [!DNL Google Workspace]에 전자 메일 메시지를 연 상태에서 [!DNL Workfront for Google Workspace]의 옵션을 클릭하여 전자 메일을 새 [!DNL Workfront] 작업으로 전환합니다.
 
 1. **[!UICONTROL 새로 만들기]** 옵션을 선택하여 작업이 프로젝트의 일부가 될지 아니면 프로젝트와 독립적인 개인 작업이 될지 여부를 나타냅니다.

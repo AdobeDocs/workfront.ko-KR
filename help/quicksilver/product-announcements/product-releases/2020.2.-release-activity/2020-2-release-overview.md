@@ -248,7 +248,7 @@ To download this page in PDF&nbsp;format, go
 
 2020.1 릴리스와 함께 릴리스된 API 버전 11. 새로운 기능 및 업데이트 내용은 [API 버전 11의 새로운 기능](../../../wf-api/api/new-api-version-11.md) [API 버전 11의 새로운 기능](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145)을 참조하세요.
 
-API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../../wf-api/api/api-version-support-schedule.md) [API 버전 릴리스 및 지원 일정](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)을 참조하십시오.
+API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../../wf-api/api/api-version-support-schedule.md) [API 버전 릴리스 및 지원 일정](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)을 참조하십시오.
 
 ## Workfront 유지 관리 업데이트
 
@@ -276,7 +276,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 * event.split.io
 * sdk.split.io
 
-허용 목록에 추가하다 허용 목록에 추가하다 자세한 내용은 [&#128279;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)방화벽 구성[ 섹션의 방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#urls) 섹션을 참조하십시오.
+허용 목록에 추가하다 허용 목록에 추가하다 자세한 내용은 [&#128279;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)방화벽 구성[&#x200B; 섹션의 방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#urls) 섹션을 참조하십시오.
 
 ### Workfront 원 {#workfront-one}
 

@@ -48,7 +48,7 @@ ht-degree: 0%
 예정된 릴리스에 대해 조직을 준비하는 데 도움이 되는 다음 작업 중 일부 또는 모두를 고려하는 것이 좋습니다.
 
 * [릴리스 정보를 최신 상태로 유지](#stay-up-to-date-with-release-notes)
-* [ [!DNL Workfront] 알림 센터 보기](#watch-the-workfront-announcement-center)
+* [&#x200B; [!DNL Workfront] 알림 센터 보기](#watch-the-workfront-announcement-center)
 * [[!UICONTROL 샌드박스 미리 보기] 환경 탐색](#explore-the-preview-sandbox-environment)
 * [릴리스 웨비나 참석](#attend-the-release-webinar)
 * [Workfront에 대한 오퍼 피드백](#offer-feedback-to-workfront)

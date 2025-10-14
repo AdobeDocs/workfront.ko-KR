@@ -73,7 +73,7 @@ ht-degree: 1%
 
 [!DNL Adobe Exchange]에서 직접 [!DNL Adobe Workfront for Photoshop] 플러그인을 설치할 수 있습니다.
 
-1. Adobe Exchange에서 [Photoshop용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share)(으)로 이동합니다.
+1. Adobe Exchange에서 [Photoshop용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share)(으)로 이동합니다.
 1. 표시되는 대화 상자에서 **데스크톱 앱 [!DNL Adobe Creative Cloud] 열기**&#x200B;를 클릭합니다.
 1. [!DNL Adobe Photoshop] 플러그 인 관리자가 열리면 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. 대화 상자에서 정보를 읽은 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.

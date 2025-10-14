@@ -24,5 +24,5 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]에서 임시 증명 소유자 지정](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
+* [&#x200B; [!DNL Workfront Proof]에서 임시 증명 소유자 지정](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
 * [통합 - 사용자 설정](../../../workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)

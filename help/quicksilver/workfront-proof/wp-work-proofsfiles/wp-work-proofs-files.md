@@ -24,8 +24,8 @@ ht-degree: 0%
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
-* [ [!DNL Workfront Proof]의 자동화된 워크플로](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-* [ [!DNL Workfront Proof]의 기본 기능](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+* [&#x200B; [!DNL Workfront Proof]의 자동화된 워크플로](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+* [&#x200B; [!DNL Workfront Proof]의 기본 기능](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
 * [증명 및 파일 만들기](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
 * [작업 관리](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
 * [작업 구성](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)

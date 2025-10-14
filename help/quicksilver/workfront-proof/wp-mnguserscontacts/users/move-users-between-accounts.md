@@ -33,7 +33,7 @@ ht-degree: 0%
 1. 연결된 계정 목록에서 대상 계정을 선택합니다(2).
 1. 이 사용자가 새 계정에 보유해야 하는 프로필 권한 (3)을 할당합니다.
 1. 이동하지 않을 항목의 소유권을 가져갈 사용자(4)를 선택합니다.
-여기에는 이전 계정에 남기기로 결정한 항목과 이동할 수 없는 항목이 포함됩니다(아래의 [이동할 수 없는 항목](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) 참조).
+여기에는 이전 계정에 남기기로 결정한 항목과 이동할 수 없는 항목이 포함됩니다(아래의 [이동할 수 없는 항목](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) 참조).
 
 1. 증명(5)과 파일(6)을 사용자와 함께 이동하려면 확인란을 선택합니다.
 1. 이동한 모든 항목이 새 계정에 배치될 폴더(7)의 이름을 만듭니다.

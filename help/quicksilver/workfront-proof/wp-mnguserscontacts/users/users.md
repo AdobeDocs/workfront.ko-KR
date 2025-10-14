@@ -23,7 +23,7 @@ ht-degree: 4%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]을(를) 사용하여 사용자 만들기](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)
-* [ [!DNL Workfront Proof]을(를) 사용하여 사용자 정보 구성](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
-* [ [!DNL Workfront Proof]을(를) 사용하여 사용자 지정 프로필 만들기 및 관리](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
-* [ [!DNL Workfront Proof]을(를) 사용하여 계정 간에 사용자 이동](../../../workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
+* [&#x200B; [!DNL Workfront Proof]을(를) 사용하여 사용자 만들기](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)
+* [&#x200B; [!DNL Workfront Proof]을(를) 사용하여 사용자 정보 구성](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
+* [&#x200B; [!DNL Workfront Proof]을(를) 사용하여 사용자 지정 프로필 만들기 및 관리](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
+* [&#x200B; [!DNL Workfront Proof]을(를) 사용하여 계정 간에 사용자 이동](../../../workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)

@@ -25,20 +25,20 @@ Adobe [!DNL Workfront Fusion]을(를) 통해 [!DNL Workfront]을(를) [!DNL Anap
 
 ### 지출 최적화 워크플로우
 
-* [ [!DNL Anaplan] 목록 항목에  [!DNL Adobe Workfront] 프로젝트 업데이트 보내기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
-* [ [!DNL Anaplan] 목록 항목으로  [!DNL Adobe Workfront] 경비 보내기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [ [!DNL Anaplan] 목록 항목에  [!DNL Adobe Workfront] 실제 시간 업데이트 보내기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [&#x200B; [!DNL Anaplan] 목록 항목에  [!DNL Adobe Workfront] 프로젝트 업데이트 보내기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [&#x200B; [!DNL Anaplan] 목록 항목으로  [!DNL Adobe Workfront] 경비 보내기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [&#x200B; [!DNL Anaplan] 목록 항목에  [!DNL Adobe Workfront] 실제 시간 업데이트 보내기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 ### 예산 요청 연결을 위한 워크플로
 
-* [ [!DNL Adobe Workfront] 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [ [!DNL Adobe Workfront] 프로젝트에  [!DNL Anaplan] 예산 할당 적용](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [&#x200B; [!DNL Adobe Workfront] 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [&#x200B; [!DNL Adobe Workfront] 프로젝트에  [!DNL Anaplan] 예산 할당 적용](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### 캠페인 요청 연결을 위한 워크플로우
 
-* [ [!DNL Adobe Workfront] campaign 요청에서  [!DNL Anaplan] 목록 항목 만들기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [ [!DNL Adobe Workfront] 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [&#x200B; [!DNL Adobe Workfront] campaign 요청에서  [!DNL Anaplan] 목록 항목 만들기](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [&#x200B; [!DNL Adobe Workfront] 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 ## [!DNL Anaplan]개의 FAQ가 있는 Adobe Workfront
 
-* [ [!DNL Anaplan] 통합 FAQ가 있는 [!DNL Adobe] Workfront](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)
+* [&#x200B; [!DNL Anaplan] 통합 FAQ가 있는 [!DNL Adobe] Workfront](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)

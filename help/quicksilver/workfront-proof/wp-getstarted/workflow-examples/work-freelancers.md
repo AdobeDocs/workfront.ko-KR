@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->사용자로 계정에 추가된 프리랜서는 계정을 볼 수 있고 사용자 프로필에 따라 클라이언트 세부 정보도 볼 수 있습니다. 이 방법은 원하는 방법이 아닐 수 있으므로, 프리랜서용 위성 계정을 설정하는 것이 더 적합한 옵션일 수 있습니다. 아래 [프리랜서용 위성 계정 설정](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers)을 참조하십시오.
+>사용자로 계정에 추가된 프리랜서는 계정을 볼 수 있고 사용자 프로필에 따라 클라이언트 세부 정보도 볼 수 있습니다. 이 방법은 원하는 방법이 아닐 수 있으므로, 프리랜서용 위성 계정을 설정하는 것이 더 적합한 옵션일 수 있습니다. 아래 [프리랜서용 위성 계정 설정](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers)을 참조하십시오.
 
 ## 프리랜서를 위한 위성 계정 설정
 

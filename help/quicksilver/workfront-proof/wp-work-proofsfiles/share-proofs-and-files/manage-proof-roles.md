@@ -48,7 +48,7 @@ ht-degree: 0%
 자세한 내용은 다음 문서를 참조하십시오.
 
 * [증명 댓글에 작업 사용](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
-* [ [!DNL Workfront Proof]에서 증명 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
+* [&#x200B; [!DNL Workfront Proof]에서 증명 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
 
 ### 읽기 전용
 

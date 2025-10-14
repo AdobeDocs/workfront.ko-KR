@@ -50,7 +50,7 @@ ht-degree: 0%
 
 [!DNL Workfront]을(를) [!DNL Basecamp] 또는 [!DNL Basecamp Classic] 중 하나와 통합할 수 있습니다. [!DNL Basecamp]의 각 버전은 서로 다른 API를 사용하므로 서로 다른 구성 절차가 필요합니다.
 
-[!DNL Basecamp Classic] 구성에 대한 자세한 내용은 [통합 [!DNL Workfront Proof] 과(와) [!DNL Basecamp Classic].](https://support.workfront.com/knowledge/articles/115004234707/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004234707)을(를) 참조하십시오.
+[!DNL Basecamp Classic] 구성에 대한 자세한 내용은 [통합 [!DNL Workfront Proof] 과(와) [!DNL Basecamp Classic].](https://support.workfront.com/knowledge/articles/115004234707/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004234707)을(를) 참조하십시오.
 
 ## [!DNL Workfront Proof]과(와) [!DNL Basecamp] 통합 사용
 

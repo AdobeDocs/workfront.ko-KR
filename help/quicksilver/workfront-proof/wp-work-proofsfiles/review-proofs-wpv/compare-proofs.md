@@ -45,8 +45,8 @@ ht-degree: 0%
 
 두 개의 개별 증명을 비교할 수 있습니다.
 
-* [ [!DNL Workfront]에서 개별 증명 비교](#compare-separate-proofs-in-workfront)
-* [ [!DNL Workfront Proof]에서 개별 증명 비교](#compare-separate-proofs-in-workfront-proof)
+* [&#x200B; [!DNL Workfront]에서 개별 증명 비교](#compare-separate-proofs-in-workfront)
+* [&#x200B; [!DNL Workfront Proof]에서 개별 증명 비교](#compare-separate-proofs-in-workfront-proof)
 
 ### [!DNL Workfront]에서 개별 증명 비교 {#compare-separate-proofs-in-workfront}
 

@@ -36,26 +36,26 @@ ht-degree: 0%
 
 다음 도움말 문서를 통해 [!DNL Workfront for Google Workspace] 사용을 시작할 수 있습니다.
 
-* [ [!DNL Adobe Workfront for Google Workspace] 설치](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+* [&#x200B; [!DNL Adobe Workfront for Google Workspace] 설치](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
 * [Google Workspace용 Workfront의 개인 정보 및 권한](../../workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
-* [ [!DNL Adobe Workfront for Google Workspace]에서 로그인 및 로그아웃](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
+* [&#x200B; [!DNL Adobe Workfront for Google Workspace]에서 로그인 및 로그아웃](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
 
 다음은 [!DNL Workfront]을(를) 종료하지 않고 [!DNL Google Workspace] 개체를 관리하는 방법을 설명합니다.
 
-* [ [!DNL Adobe Workfront] 에서  [!DNL Google Workspace]홈 콘텐츠 액세스](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
-* [ [!DNL Adobe Workfront] 에서  [!DNL Google Workspace]개체 업데이트](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-* [ [!DNL Google Workspace]에서 문서 보기 및 관리](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
-* [ [!DNL Adobe Workfront] Google Workspace[!UICONTROL 에서 &#x200B;]개체 세부 정보 보기 및 관리](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
-* [ [!DNL Adobe Workfront] Google Workspace[!UICONTROL 의 &#x200B;]개체 업데이트 보기](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
+* [&#x200B; [!DNL Adobe Workfront] 에서  [!DNL Google Workspace]홈 콘텐츠 액세스](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
+* [&#x200B; [!DNL Adobe Workfront] 에서  [!DNL Google Workspace]개체 업데이트](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
+* [&#x200B; [!DNL Google Workspace]에서 문서 보기 및 관리](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
+* [&#x200B; [!DNL Adobe Workfront] Google Workspace[!UICONTROL 에서 &#x200B;]개체 세부 정보 보기 및 관리](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
+* [&#x200B; [!DNL Adobe Workfront] Google Workspace[!UICONTROL 의 &#x200B;]개체 업데이트 보기](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
 
 [!DNL Workfront] 알림 전자 메일을 받을 때 작업 항목에 대한 세부 정보를 보고 응답하는 방법에 대해 설명합니다.
 
-* [ [!DNL Adobe Workfront] 의  [!DNL Google Workspace]알림 세부 정보 관리](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
-* [ [!DNL Adobe Workfront] 의  [!DNL Google Workspace]업데이트 알림에 회신](../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
+* [&#x200B; [!DNL Adobe Workfront] 의  [!DNL Google Workspace]알림 세부 정보 관리](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
+* [&#x200B; [!DNL Adobe Workfront] 의  [!DNL Google Workspace]업데이트 알림에 회신](../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
 
 [!DNL Workfront]개가 아닌 전자 메일의 콘텐츠를 사용하여 [!DNL Workfront]개의 개체 및 업데이트를 만드는 방법을 설명합니다.
 
-* [ [!DNL Google Workspace] 이메일을  [!DNL Adobe Workfront] 개체 및 업데이트로 변환](../../workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
+* [&#x200B; [!DNL Google Workspace] 이메일을  [!DNL Adobe Workfront] 개체 및 업데이트로 변환](../../workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
 * [전자 메일 콘텐츠를 사용하여  [!DNL Adobe Workfront] 에서  [!DNL Google Workspace] 작업 만들기](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
 * [이메일 콘텐츠를 사용하여  [!DNL Adobe Workfront] 에서  [!DNL Google Workspace] 문제 만들기](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
 * [이메일 콘텐츠를 사용하여  [!DNL Adobe Workfront] 에서  [!DNL Google Workspace] 항목 업데이트](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)

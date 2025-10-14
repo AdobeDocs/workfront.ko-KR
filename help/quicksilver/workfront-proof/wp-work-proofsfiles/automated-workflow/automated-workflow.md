@@ -24,5 +24,5 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]에서 자동화된 워크플로를 사용하여 증명 설정](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
-* [ [!DNL Workfront Proof]에서 자동화된 워크플로로 구성된 증명 관리](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
+* [&#x200B; [!DNL Workfront Proof]에서 자동화된 워크플로를 사용하여 증명 설정](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
+* [&#x200B; [!DNL Workfront Proof]에서 자동화된 워크플로로 구성된 증명 관리](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)

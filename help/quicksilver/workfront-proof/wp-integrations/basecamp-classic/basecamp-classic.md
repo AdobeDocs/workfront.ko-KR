@@ -24,6 +24,6 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Basecamp Classic] 프로젝트에 증명 추가](../../../workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
-* [ [!DNL Basecamp Classic]과(와)  [!DNL Workfront Proof]  통합](../../../workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
-* [ [!DNL Basecamp Classic]에서 증명 검토](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
+* [&#x200B; [!DNL Basecamp Classic] 프로젝트에 증명 추가](../../../workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
+* [&#x200B; [!DNL Basecamp Classic]과(와)  [!DNL Workfront Proof]  통합](../../../workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
+* [&#x200B; [!DNL Basecamp Classic]에서 증명 검토](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)

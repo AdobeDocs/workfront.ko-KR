@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## [!DNL Workfront]의 전자 메일 콘텐츠를 사용하여 [!DNL Google Workspace] 항목 업데이트
 
-1. [!UICONTROL Google Workspace용 Workfront] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 ![ 추가 기능 사이드바에서 Workfront 아이콘 ](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
+1. [!UICONTROL Google Workspace용 Workfront] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 ![&#x200B; 추가 기능 사이드바에서 Workfront 아이콘 &#x200B;](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
 1. [!DNL Google Workspace]에 전자 메일 메시지를 연 상태에서 **[!UICONTROL 패널에서]**&#x200B;새 업데이트로 게시[!DNL Google Workspace]를 클릭합니다.
 1. **[!UICONTROL Type]**&#x200B;에서 드롭다운 화살표를 클릭한 다음 업데이트를 추가할 개체 형식을 클릭합니다.
 1. **[!UICONTROL 검색]** 옵션을 클릭하고 업데이트를 추가할 개체 이름을 입력한 다음 아래 목록에 나타나는 항목을 선택합니다.

@@ -24,12 +24,12 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]에서 증명 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
-* [ [!DNL Workfront Proof]에서 증명 링크 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
-* [ [!DNL Workfront Proof]에서 공개 URL 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
-* [ [!DNL Workfront Proof]에서 파일 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)
+* [&#x200B; [!DNL Workfront Proof]에서 증명 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
+* [&#x200B; [!DNL Workfront Proof]에서 증명 링크 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
+* [&#x200B; [!DNL Workfront Proof]에서 공개 URL 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
+* [&#x200B; [!DNL Workfront Proof]에서 파일 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)
 * [나와 공유된 증명 액세스](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md)
-* [ [!DNL Workfront Proof]에서 증명 구독](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
-* [ [!DNL Workfront Proof]에서 미니 증명 만들기](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
+* [&#x200B; [!DNL Workfront Proof]에서 증명 구독](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
+* [&#x200B; [!DNL Workfront Proof]에서 미니 증명 만들기](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
 * [미니 증명 포함](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
-* [ [!DNL Workfront Proof]에서 증명 역할 관리](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+* [&#x200B; [!DNL Workfront Proof]에서 증명 역할 관리](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)

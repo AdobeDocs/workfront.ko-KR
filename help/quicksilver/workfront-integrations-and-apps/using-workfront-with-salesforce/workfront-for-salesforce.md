@@ -28,7 +28,7 @@ ht-degree: 0%
 [!DNL Adobe Workfront]에 대해 [!DNL Salesforce]을(를) 사용하여 [!DNL Salesforce] 및 [!DNL Workfront] 시스템을 통합할 수 있습니다. 이 섹션의 문서에서는 Salesforce용 [!DNL Workfront]을(를) 설치, 구성 및 사용하는 방법에 대해 설명합니다.
 
 * [[!DNL Adobe Workfront for Salesforce] 개요](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
-* [ [!DNL Adobe Workfront for Salesforce] 설치](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
-* [ [!DNL Adobe Workfront] 사용자를 위한  [!DNL Salesforce] 섹션 구성](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
-* [ [!DNL Adobe Workfront] 개체에서  [!DNL Salesforce] 요청 제출](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
-* [ [!DNL Adobe Workfront] 개체에서  [!DNL Salesforce] 프로젝트 만들기](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
+* [&#x200B; [!DNL Adobe Workfront for Salesforce] 설치](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+* [&#x200B; [!DNL Adobe Workfront] 사용자를 위한  [!DNL Salesforce] 섹션 구성](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
+* [&#x200B; [!DNL Adobe Workfront] 개체에서  [!DNL Salesforce] 요청 제출](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
+* [&#x200B; [!DNL Adobe Workfront] 개체에서  [!DNL Salesforce] 프로젝트 만들기](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)

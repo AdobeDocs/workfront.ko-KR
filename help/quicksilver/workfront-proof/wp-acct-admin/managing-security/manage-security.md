@@ -24,6 +24,6 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]의 증명 보안](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
-* [ [!DNL Workfront Proof]의 단일 사인온](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
-* [ [!DNL Workfront Proof]의 전자 서명 이해](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
+* [&#x200B; [!DNL Workfront Proof]의 증명 보안](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
+* [&#x200B; [!DNL Workfront Proof]의 단일 사인온](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
+* [&#x200B; [!DNL Workfront Proof]의 전자 서명 이해](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)

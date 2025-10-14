@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * [증명 뷰어](#the-proof-viewer)
 * [증명 세부 정보 페이지](#the-proof-details-page)
-* [ [!DNL Proof] 작업 메뉴](#the-proof-actions-menu)
+* [&#x200B; [!DNL Proof] 작업 메뉴](#the-proof-actions-menu)
 
 ### 증명 뷰어 {#the-proof-viewer}
 

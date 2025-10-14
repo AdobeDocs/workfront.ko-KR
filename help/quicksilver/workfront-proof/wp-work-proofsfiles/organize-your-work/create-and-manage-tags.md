@@ -76,7 +76,7 @@ ht-degree: 0%
 1. 목록 보기 또는 대시보드에서 태그를 만들거나 관리할 항목을 선택합니다.
 1. 목록 바로 위에 있는 **[!UICONTROL 태그]** > **[!UICONTROL 태그 관리]**&#x200B;를 클릭합니다.
 
-1. 표시되는 [!UICONTROL 태그] 탭에서 [탭 만들기, 편집 또는 삭제에 설명된 대로 태그를 관리하십시오.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
+1. 표시되는 [!UICONTROL 태그] 탭에서 [탭 만들기, 편집 또는 삭제에 설명된 대로 태그를 관리하십시오.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
    태그 옆의 확인란이 진한 회색이면 선택한 모든 항목에 태그가 적용됩니다. 밝은 회색이면 선택한 배치에 있는 일부 항목에만 태그가 지정됩니다. 선택한 모든 항목에서 태그를 제거하려면 태그 옆에 있는 틱 박스가 비어 있는지 확인합니다.\
    ![Tags_menu_-_Dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 

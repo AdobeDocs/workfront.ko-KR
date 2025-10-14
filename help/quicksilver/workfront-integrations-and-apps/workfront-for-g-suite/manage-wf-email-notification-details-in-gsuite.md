@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## [!DNL Adobe Workfront]에서 [!DNL Google Workspace] 알림 세부 정보 관리
 
-1. [!DNL Workfront for Google Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![ 아이콘 ](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
+1. [!DNL Workfront for Google Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![&#x200B; 아이콘 &#x200B;](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
 1. [!DNL Google Workspace]에서 [!DNL Workfront] 알림 전자 메일을 엽니다.
 1. 패널 상단 근처에 표시되면 **[!UICONTROL 모든 업데이트 보기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 세부 정보]**&#x200B;를 클릭합니다.

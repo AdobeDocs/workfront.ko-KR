@@ -23,7 +23,7 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]의 기본 증명 프로세스](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
-* [ [!DNL Workfront Proof]의 내부 검토 및 외부 검토](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
-* [ [!DNL Workfront Proof]에서 디자이너 및 프로젝트 관리자 작업](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
-* [ [!DNL Workfront Proof]에서 프리랜서와 함께 작업](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
+* [&#x200B; [!DNL Workfront Proof]의 기본 증명 프로세스](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
+* [&#x200B; [!DNL Workfront Proof]의 내부 검토 및 외부 검토](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
+* [&#x200B; [!DNL Workfront Proof]에서 디자이너 및 프로젝트 관리자 작업](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
+* [&#x200B; [!DNL Workfront Proof]에서 프리랜서와 함께 작업](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)

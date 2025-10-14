@@ -18,5 +18,5 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Adobe Workfront] 검색](../../../workfront-basics/navigate-workfront/search/search-workfront.md)
+* [&#x200B; [!DNL Adobe Workfront] 검색](../../../workfront-basics/navigate-workfront/search/search-workfront.md)
 * [참조 개체 수 사용](../../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md)

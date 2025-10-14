@@ -100,7 +100,7 @@ ht-degree: 0%
    * 프로젝트 또는 문제의 헤더.
 
      시스템 또는 그룹 관리자가 프로젝트 또는 문제 헤더에서 [!UICONTROL Salesforce으로 이동] 링크를 보려면 [!UICONTROL 통합] 필드를 레이아웃 템플릿에 추가해야 합니다.
-   * 목록의 도구 모음에서 [!DNL Summary]요약 열기요약 패널 아이콘![을 클릭한 후 목록에서 문제를 선택할 때 문제가 발생하는 ](assets/summary-panel-icon.png) 패널.
+   * 목록의 도구 모음에서 [!DNL Summary]요약 열기요약 패널 아이콘![을 클릭한 후 목록에서 문제를 선택할 때 문제가 발생하는 &#x200B;](assets/summary-panel-icon.png) 패널.
 
      >[!NOTE]
      >

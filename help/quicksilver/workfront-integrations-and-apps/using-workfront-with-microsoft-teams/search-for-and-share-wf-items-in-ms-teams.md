@@ -23,8 +23,8 @@ ht-degree: 0%
 
 [!DNL Microsoft Teams]의 [!DNL Adobe Workfront] 채널에서 [!DNL Workfront]개 항목을 검색하고 해당 항목을 팀의 구성원과 공유할 수 있습니다.
 
-* [ [!DNL Microsoft Teams]의  [!DNL Workfront] 항목 공유를 위한 필수 구성 요소](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
-* [ [!DNL Microsoft Teams]에서  [!DNL Workfront] 개 항목 검색 및 공유](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
+* [&#x200B; [!DNL Microsoft Teams]의  [!DNL Workfront] 항목 공유를 위한 필수 구성 요소](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
+* [&#x200B; [!DNL Microsoft Teams]에서  [!DNL Workfront] 개 항목 검색 및 공유](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
 
 ## 액세스 요구 사항
 

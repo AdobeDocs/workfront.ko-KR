@@ -28,7 +28,7 @@ ht-degree: 0%
 새 증명 또는 증명의 새 버전을 만들거나, 증명에 새 사용자를 추가하거나, 증명에 워크플로를 추가할 때 다음 문서에 설명된 대로 검토자에게 이메일을 전송할지 여부를 결정할 수 있습니다.
 
 * [자동화된 워크플로를 사용하여 고급 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-* [ [!DNL Workfront Proof]에서 증명 생성](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+* [&#x200B; [!DNL Workfront Proof]에서 증명 생성](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 받는 사람이 받는 전자 메일을 [!UICONTROL 새 증명] 전자 메일이라고 합니다. 증명 생성자 및 증명에 검토자를 추가할 권한이 있는 사용자만 이 이메일을 제어할 수 있습니다. 수신자는 비활성화할 수 없습니다.
 

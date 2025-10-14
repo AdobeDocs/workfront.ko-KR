@@ -24,8 +24,8 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Workfront Proof]에 파일 및 웹 콘텐츠 업로드](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
-* [ [!DNL Workfront Proof]에서 증명 생성](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
-* [ [!DNL Workfront Proof]에서 증명 복사 중](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
+* [&#x200B; [!DNL Workfront Proof]에 파일 및 웹 콘텐츠 업로드](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
+* [&#x200B; [!DNL Workfront Proof]에서 증명 생성](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+* [&#x200B; [!DNL Workfront Proof]에서 증명 복사 중](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
 * [드롭 영역](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
 * [여러 페이지로 된 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)

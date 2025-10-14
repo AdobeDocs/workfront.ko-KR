@@ -52,7 +52,7 @@ ht-degree: 0%
 
 이 추가 기능은 [!UICONTROL &#x200B; 소프트웨어의 &#x200B;]Server[!UICONTROL &#x200B; 및 &#x200B;]OnDemand[!UICONTROL (또는 &#x200B;]Cloud[!DNL Jira]) 버전 모두에서 사용할 수 있습니다.
 
-현재 [!DNL Jira]에서 지원하는 [!DNL Workfront for Jira] 버전 목록은 [[!DNL Workfront for Jira]의 ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) [!DNL Atlassian Marketplace]을(를) 참조하십시오.
+현재 [!DNL Jira]에서 지원하는 [!DNL Workfront for Jira] 버전 목록은 [[!DNL Workfront for Jira]의 &#x200B;](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) [!DNL Atlassian Marketplace]을(를) 참조하십시오.
 
 ## 액세스 요구 사항
 

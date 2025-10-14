@@ -112,7 +112,7 @@ ht-degree: 2%
 
 ### 피드백을 받고 싶습니다!
 
-이 공개 Beta 사용자에게는 피드백 버튼을 클릭하여 필터 경험을 작업하는 팀에 직접 피드백을 제출할 수 있는 기회가 제공됩니다. 공개 Beta의 새로운 필터 경험에 대해 귀하와 귀하의 사용자로부터 답변을 기다리겠습니다. 귀하의 팀이 추가 피드백을 제공하기 위해 제품을 직접 만나고 싶은 경우, https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25에서 언제든지 회의를 예약하십시오.
+이 공개 Beta 사용자에게는 피드백 버튼을 클릭하여 필터 경험을 작업하는 팀에 직접 피드백을 제출할 수 있는 기회가 제공됩니다. 공개 Beta의 새로운 필터 경험에 대해 귀하와 귀하의 사용자로부터 답변을 기다리겠습니다. 귀하의 팀이 추가 피드백을 제공하기 위해 제품을 직접 만나고 싶은 경우, https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25에서 언제든지 회의를 예약하십시오.
 
 ### 다음은 무엇입니까?
 

@@ -26,4 +26,4 @@ ht-degree: 6%
 * [사용자](../../workfront-proof/wp-mnguserscontacts/users/users.md)
 * [그룹](../../workfront-proof/wp-mnguserscontacts/groups/groups.md)
 * [연락처](../../workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
-* [ [!DNL Workfront Proof] 사용자 및 연락처에 대한 팁, 요령 및 문제 해결](../../workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
+* [&#x200B; [!DNL Workfront Proof] 사용자 및 연락처에 대한 팁, 요령 및 문제 해결](../../workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
