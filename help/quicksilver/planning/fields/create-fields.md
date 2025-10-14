@@ -407,7 +407,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 >숫자 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 숫자로 표시됩니다.
->>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **숫자** 필드 형식을 선택합니다.
@@ -437,7 +437,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 >백분율 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 백분율로 표시됩니다.
->>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **백분율** 필드 형식을 선택합니다.
@@ -477,7 +477,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 >통화 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 통화로 표시됩니다.
->>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **통화** 필드 형식을 선택합니다.
 
@@ -552,7 +552,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
    >
    >* 현재 레코드 유형에서 최대 4개의 필드(및 개체)가 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형(1)에 대한 공식 필드를 생성하고 활동이 Workfront 프로젝트(3)에 연결된 캠페인 레코드 유형(2)에 연결된 경우, 활동 레코드 유형에 대해 생성 중인 공식에서 프로젝트의 예산 필드(4)를 참조할 수 있습니다.
    >
-   >![공식 예제 프로젝트 예산 4개 필드 제거됨 ](assets/formula-example-project-budget-four-fields-removed.png)
+   >![공식 예제 프로젝트 예산 4개 필드 제거됨 &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (선택 사항) **최대화**&#x200B;를 클릭하여 더 넓은 영역에서 수식 상자를 엽니다.
