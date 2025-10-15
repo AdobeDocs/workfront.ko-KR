@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
+source-git-commit: 21293cdd7a1c8f76149ee2e224fa8701e25e970e
 workflow-type: tm+mt
-source-wordcount: '8483'
+source-wordcount: '8497'
 ht-degree: 0%
 
 ---
@@ -334,6 +334,10 @@ Workfront의 다른 영역과 일치하도록 프로젝트 및 템플릿에 대�
 ### 프로젝트의 경비 편집 상자에 대한 인터페이스 업데이트
 
 **미리 보기 릴리스: 2025년 8월 28일, 프로덕션 릴리스: 2025년 9월 4일**
+
+>[!NOTE]
+>
+>이 기능은 2025년 10월 15일에 미리보기 및 프로덕션 환경에서 일시적으로 제거되었습니다.
 
 애플리케이션의 다른 영역과 일치하도록 프로젝트 경비를 편집하는 대화 상자를 업데이트했습니다. 업데이트된 대화 상자는 프로젝트 또는 템플릿에서 경비를 편집할 때 사용할 수 있습니다.
 
