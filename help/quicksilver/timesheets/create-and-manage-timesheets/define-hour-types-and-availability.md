@@ -3,12 +3,12 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: 시간 유형 및 가용성 정의
 description: 시간 유형 은 시간 항목을 분류할 수 있는 레이블입니다. 몇 시간 동안 조직의 보고 요구 사항에 따라 이것은 로깅 시간의 중요한 부분이 될 수 있습니다.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -36,32 +36,30 @@ Workfront에서 시간을 기록할 때 사용할 수 있는 프로젝트별 시
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td>Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새로운 기능: 표준</p> 
-   <p>현재: 플랜</p>
+   <td>Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p> 
+   <p>플랜</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td> <p>시스템 전체 시간 유형을 정의하고 모든 사용자를 편집할 수 있는 시스템 관리자 액세스 권한</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td>개체 권한</td> 
    <td>프로젝트에 대한 액세스 권한을 관리하여 프로젝트의 시간 유형을 정의합니다.</td> 
   </tr> 
  </tbody> 
 </table>
 
-*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -124,10 +122,10 @@ Workfront에서 시간을 기록할 때 사용할 수 있는 프로젝트별 시
 1. **리소스 계획** 섹션의 **사용 가능한 시간 유형** 드롭다운 메뉴에서 프로젝트, 작업 또는 문제에 시간을 기록할 때 사용할 수 있는 시간 유형에 따라 다음 중 하나를 수행합니다.
 
    * **사용자가 모든 시간 유형을 사용할 수 있도록 설정하려면:** 모든 시간 유형을 선택합니다.\
-     모든 시간 유형을 선택 해제한 상태로 두면 모든 시간 유형을 선택하는 것과 기술적으로 동일합니다. 그러나 이 경우 [프로젝트 수준에서 가용성 정의](#define-availability-at-the-project-level)에 설명된 대로 프로젝트를 편집할 때 **시간 유형 필터링** 옵션에서 **아니요**&#x200B;가 선택된 프로젝트, 작업 및 문제에서만 모든 시간 유형을 사용할 수 있습니다.
+     모든 시간 유형을 선택 해제한 상태로 두면 모든 시간 유형을 선택하는 것과 기술적으로 동일합니다. 그러나 이 경우 **프로젝트 수준에서 가용성 정의**&#x200B;에 설명된 대로 프로젝트를 편집할 때 **시간 유형 필터링** 옵션에서 [아니요](#define-availability-at-the-project-level)가 선택된 프로젝트, 작업 및 문제에서만 모든 시간 유형을 사용할 수 있습니다.
    * **시간 형식의 하위 집합만 사용할 수 있도록 하려면:** 사용할 시간 형식만 선택하십시오.
 
-     사용자 수준에서 선택한 시간 유형을 프로젝트, 작업 및 문제에서 사용할 수 있도록 하려면 프로젝트를 편집할 때 [프로젝트 수준에서 가용성 정의](#define-availability-at-the-project-level)에 설명된 대로 **시간 유형 필터링** 옵션에서도 동일한 시간 유형을 선택해야 합니다.
+     사용자 수준에서 선택한 시간 유형을 프로젝트, 작업 및 문제에서 사용할 수 있도록 하려면 프로젝트를 편집할 때 **프로젝트 수준에서 가용성 정의**&#x200B;에 설명된 대로 [시간 유형 필터링](#define-availability-at-the-project-level) 옵션에서도 동일한 시간 유형을 선택해야 합니다.
 
 1. (선택 사항) **기본 시간 유형** 드롭다운 메뉴에서 1개의 시간 유형을 선택합니다. 사용자 기본 시간 유형과 프로젝트 필터링된 시간 유형이 일치하는 경우 시간을 기록할 때 기본적으로 해당 시간 유형이 선택됩니다.
 

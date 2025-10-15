@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: 프로젝트의 비즈니스 사례 내보내기
 description: 인쇄하거나 보다 압축된 형식으로 이메일에 첨부해야 하는 경우 비즈니스 사례를 PDF 파일로 내보낼 수 있습니다.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
-   <td> <p>현재: Prime 이상 </p> <p>레거시: Pro 이상 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
+   <td> <p>Prime 이상 </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td> 
-   <p>전류: 라이트 이상</p>
-   <p>레거시: 검토 이상</p> </td> 
+   <p>밝거나 높음</p>
+   <p>검토 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -46,7 +46,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

@@ -6,9 +6,9 @@ description: 공유에 액세스할 수 있는 개체에 대한 다른 사용자
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -19,35 +19,25 @@ ht-degree: 0%
 
 공유에 액세스할 수 있는 개체에 대한 다른 사용자의 권한을 제거할 수 있습니다. 객체에서 권한을 제거하는 것은 공유할 수 있는 모든 객체에 대해 동일합니다.
 
-객체 공유에 대한 고려 사항과 유사한 사항은 객체에서 권한을 제거하는 데 적용됩니다. 자세한 내용은 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) 문서의 [개체 공유에 대한 고려 사항](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) 섹션을 참조하십시오.
+객체 공유에 대한 고려 사항과 유사한 사항은 객체에서 권한을 제거하는 데 적용됩니다. 자세한 내용은 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) 문서의 [개체 공유에 대한 고려 사항](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) 섹션을 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-
-객체를 공유하려면 다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront 라이센스*</td> 
-   <td> <p>새 라이선스: 기여자 이상</p>
-   또는  
-   <p>현재 라이선스: 요청 이상</p>
-   <p><b>메모</b></p>
-
-<p>일부 오브젝트는 요청보다 높은 액세스 권한이 필요합니다. </p>
-
-<p>예를 들어 새 라이선스의 경우 기여자 는 문제를 공유할 수 있지만 표준 라이선스 사용자만 프로젝트를 공유할 수 있습니다.</p>
-
-<p>현재 라이선스의 경우 요청자는 문제를 공유할 수 있지만 작업자 또는 플래너만 프로젝트를 공유할 수 있습니다.</p> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>기여자 이상</p> 
+   <p>요청 이상</p>
+   <p><strong>참고</strong>: 일부 개체는 요청보다 높은 액세스 권한을 요구합니다.</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,11 +47,11 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">개체 권한</td> 
    <td> <p>공유할 개체에 대한 권한 이상 보기</p> <p>개체에 대해 상속된 권한을 제거하는 권한 관리</p>  </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -83,7 +73,7 @@ ht-degree: 0%
 
       ![권한 제거](assets/remove-permissions-on-portfolio.png)
 
-   1. 이&#x200B;**드롭다운 메뉴에서**&#x200B;[&#x200B;사용자 이름]의 Workfront 액세스가 제거됩니다. 선택한 개체에서만 액세스 권한을 제거할지 또는 해당 개체와 연결된 모든 자식 개체에서 액세스 권한을 제거할지를 선택하십시오.
+   1. 이&#x200B;**[드롭다운 메뉴에서 ]사용자 이름**&#x200B;의 Workfront 액세스가 제거됩니다. 선택한 개체에서만 액세스 권한을 제거할지 또는 해당 개체와 연결된 모든 자식 개체에서 액세스 권한을 제거할지를 선택하십시오.
 
 1. (조건부) 프로젝트, 작업 및 문제의 경우 다음을 수행합니다.
 
@@ -91,7 +81,7 @@ ht-degree: 0%
 
       ![공유](assets/new-share-button.png)
    1. 객체에서 제거할 사용자, 역할, 팀, 그룹 또는 회사를 찾습니다.
-   1. **제거**&#x200B;를 클릭합니다.
+   1. **제거**를 클릭합니다.
 **제거 &lt; 사용자 이름 > from** 드롭다운 메뉴에서 선택한 개체에서만 액세스 권한을 제거할지 또는 해당 개체와 연결된 모든 자식 개체에서 액세스 권한을 제거할지를 선택합니다.
 
       ![제거](assets/remove-permissions-on-project-nwe-350x479.png)

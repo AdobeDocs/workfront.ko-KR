@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '그룹화: 시간 동안 프로젝트 스폰서'
+title: '그룹화: 시간의 프로젝트 스폰서'
 description: 이 시간 그룹화는 시간이 기록된 프로젝트의 스폰서에 의해 시간을 구성합니다. 시간 그룹화에 대한 표준 Report Builder 인터페이스는 프로젝트 스폰서 필드에 대한 매핑을 제공하지 않습니다. 이 필드에 액세스하려면 텍스트 모드 인터페이스를 사용해야 합니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: bc99e303047b989b972974b398420a9180e40874
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -24,28 +24,21 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-    <p>신규:</p>
-   <ul><li><p>필터를 수정하는 기여자 </p></li>
-   <li><p>보고서를 수정하는 표준</p></li> </ul>
-
-<p>현재:</p>
-   <ul><li><p>필터 수정 요청 </p></li>
-   <li><p>보고서 수정 계획</p></li> </ul></td> 
+   <p>필터 수정을 위한 기여자 또는 요청 </p>
+   <p>표준 또는 보고서 수정 계획</p>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -58,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

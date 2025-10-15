@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 감사 로그 개요
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 지난 90일 동안 시스템에서 트리거된 사용자 변경 사항을 추적할 수 있습니다.
 

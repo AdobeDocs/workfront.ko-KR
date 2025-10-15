@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '2251'
+source-wordcount: '2228'
 ht-degree: 0%
 
 ---
@@ -36,30 +36,27 @@ Linked to Converting Issues.-->
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td>임의</td> 
+   <td>[!DNL Adobe Workfront] 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td><p>새로운 기능: [!UICONTROL Standard]</p>
-   또는
-   <p>현재: [!UICONTROL Plan]</p></td> 
+   <td>[!DNL Adobe Workfront] 라이센스</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL 계획]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!UICONTROL 시스템 관리자]</td>
+   <td>액세스 수준 구성</td> 
+   <td>[!UICONTROL 시스템 관리자]</td> 
   </tr> 
  </tbody> 
 </table>
 
-*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -124,7 +121,7 @@ Linked to Converting Issues.-->
     <td role="rowheader">[!UICONTROL 문제를 작업으로 전환할 때]</td> 
     <td> <p>이 섹션의 설정은 문제에서 작업으로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
       <ul> 
-      <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 작업에 연결]</strong>: 문제를 전환할 때 작업이 완료될 때까지 문제로 계속 표시됩니다. 작업이 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed] (으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다.</p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
+      <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 작업에 연결]</strong>: 문제를 전환할 때 작업이 완료될 때까지 문제로 계속 표시됩니다. 작업이 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다.</p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
         <ul> 
           <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a> </p> </li> 
           <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a> </p> </li> 
@@ -137,7 +134,7 @@ Linked to Converting Issues.-->
     <td role="rowheader">[!UICONTROL 문제를 프로젝트로 전환할 때]</td> 
     <td> <p>이 섹션의 설정은 문제에서 프로젝트로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
       <ul> 
-      <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 프로젝트에 연결]</strong>: 문제를 전환할 때 프로젝트가 완료될 때까지 문제로 계속 표시됩니다. 프로젝트가 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed] (으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다. </p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
+      <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 프로젝트에 연결]</strong>: 문제를 전환할 때 프로젝트가 완료될 때까지 문제로 계속 표시됩니다. 프로젝트가 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다. </p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
         <ul> 
           <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a> </p> </li> 
           <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a> </p> </li> 
@@ -180,15 +177,15 @@ Linked to Converting Issues.-->
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[!UICONTROL 작업 또는 문제가 "신규"에서 "진행 중"으로 변경되면 실제 시작 일자를] (으)로 설정합니다.</td> 
-    <td> <p>작업 또는 문제가 <strong>[!UICONTROL New]</strong>에서 <strong>[!UICONTROL In Progress]</strong>(으)로 이동할 때 실제 시작 날짜가 [!DNL Workfront]에 기록되는 경우 다음 옵션 중 하나를 선택하십시오.</p> 
+    <td role="rowheader">[!UICONTROL 작업 또는 문제가 "신규"에서 "진행 중"으로 변경되면 실제 시작 일자를](으)로 설정합니다.</td> 
+    <td> <p>작업 또는 문제가 [!DNL Workfront][!UICONTROL New]<strong>에서 </strong>[!UICONTROL In Progress]<strong>(으)로 이동할 때 실제 시작 날짜가 </strong>에 기록되는 경우 다음 옵션 중 하나를 선택하십시오.</p> 
       <ul> 
       <li><strong>[!UICONTROL Now]:</strong> 실제 시작 날짜가 현재 날짜로 설정되어 있습니다.</li> 
       <li><strong>[!UICONTROL 계획된 시작 일자]:</strong> 실제 시작 일자가 작업 또는 문제의 계획된 시작 일자로 설정됩니다.</li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL 작업 또는 문제가 완료되면 실제 완료 일자를] (으)로 설정하십시오.</td> 
+    <td role="rowheader">[!UICONTROL 작업 또는 문제가 완료되면 실제 완료 일자를](으)로 설정하십시오.</td> 
     <td> <p>작업 또는 문제가 완료될 때 실제 완료 날짜가 [!DNL Workfront]에 기록되는 경우 다음 옵션 중 하나를 선택하십시오.</p> 
       <ul> 
       <li><strong>[!UICONTROL Now]:</strong> 실제 완료 날짜가 현재 날짜로 설정되어 있습니다.</li> 
@@ -204,7 +201,7 @@ Linked to Converting Issues.-->
 
 이 설정을 사용하면 사용자에게 다음이 표시됩니다.
 
-* [!UICONTROL 홈] 영역의 [!UICONTROL 내 작업], [!UICONTROL 내 작업] 또는 [!UICONTROL 내 문제] 위젯에 있는 [!UICONTROL **대리인**] 링크입니다. 여기에서 작업 및 문제 할당을 위임할 수 있습니다.
+* [!UICONTROL **홈**] 영역의 [!UICONTROL 내 작업], [!UICONTROL 내 작업] 또는 [!UICONTROL 내 문제] 위젯에 있는 [!UICONTROL 대리인] 링크입니다. 여기에서 작업 및 문제 할당을 위임할 수 있습니다.
 
   >[!NOTE]
   >

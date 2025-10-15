@@ -6,9 +6,9 @@ description: 작업에 사용자 또는 역할을 할당할 때 작업을 완료
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -25,33 +25,33 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td>Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 표준 </p>
-   <p>현재: 작업 시간 이상</p> </td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p>
+   <p>작업 이상</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>작업에 대한 액세스 편집</p> </td> 
+   <td>액세스 수준 구성</td> 
+   <td>작업에 대한 액세스 편집</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
-   <td> <p>작업에 대한 또는 더 높은 권한 부여</p> <p>작업 편집 상자에서 할당 시간을 업데이트할 권한 편집</p> </td> 
-  </tr> 
- </tbody> 
+   <td>개체 권한</td>
+   <td><p>작업에 대한 또는 더 높은 권한 부여</p>
+   <p>작업 편집 상자에서 할당 시간을 업데이트할 권한 편집</p></td>
+  </tr>
+ </tbody>
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->작업에 대한 각 할당에 대한 할당을 수동으로 수정하면 작업의 계획된 시간이 그에 따라 업데이트될 수 있습니다. 자세한 내용은 문서 [계획된 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md)에서 [사용자 할당을 관리할 때 작업 계획된 시간 업데이트](../../../manage-work/tasks/task-information/planned-hours.md#update) 섹션을 참조하십시오.
+>작업에 대한 각 할당에 대한 할당을 수동으로 수정하면 작업의 계획된 시간이 그에 따라 업데이트될 수 있습니다. 자세한 내용은 문서 [계획된 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md#update)에서 [사용자 할당을 관리할 때 작업 계획된 시간 업데이트](../../../manage-work/tasks/task-information/planned-hours.md) 섹션을 참조하십시오.
 
 * 작업에 할당된 개별 리소스에 할당된 총 시간은 작업의 계획된 시간을 나타냅니다.
 * 작업에 한 명의 사용자 또는 역할이 할당된 경우 해당 사용자 또는 역할에 할당된 시간이 작업의 계획된 시간과 일치합니다.

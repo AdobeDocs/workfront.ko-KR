@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '보기: 작업 또는 프로젝트 보고서의 해결 가능한 개체'
+title: '보기: 작업 또는 프로젝트 보고서의 해결 가능한 객체'
 description: 프로젝트, 작업 보기 또는 보고서에 모든 해결 가능한 객체 목록을 표시할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -30,44 +30,33 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p> 현재: 
-   <ul>
-   <li>보기 수정 요청</li> 
-   <li>보고서 수정 계획</li>
-   </ul>
-     </p>
-     <p> 신규: 
-   <ul>
-   <li>보기를 수정하는 기여자</li> 
-   <li>보고서를 수정하는 표준</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>보기를 수정하기 위한 기여자 또는 요청 </p>
+   <p>표준 또는 보고서 수정 계획</p>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 보기 수정</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
 
 +++
 

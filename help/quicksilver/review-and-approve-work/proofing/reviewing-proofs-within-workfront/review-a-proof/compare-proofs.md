@@ -7,9 +7,9 @@ description: 증명 뷰어를 사용하여 두 개의 서로 다른 증명 또�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -22,32 +22,34 @@ ht-degree: 2%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>를 참조하십시오.</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>현재 계획: 검토</p> <p>레거시 플랜: 검토</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>임의</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">증명 역할 </td> 
+   <td>검토자, 검토자 및 승인자, 작성자, 중재자</td> 
   </tr> 
   <tr> 
    <td role="rowheader">교정쇄 권한 프로필 </td> 
    <td>관리자 이상</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문서에 대한 액세스 편집</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>문서에 대한 액세스 편집</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -76,8 +78,8 @@ ht-degree: 2%
 
    ![증명 이동 경로 비교](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
-   두 증명을 비교하는 데 사용할 수 있는 도구에 대한 자세한 내용은  [증명 뷰어에서 증명 비교](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)에서 [비교 도구를 사용](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)합니다.
+   두 증명을 비교하는 데 사용할 수 있는 도구에 대한 자세한 내용은  [증명 뷰어에서 증명 비교](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)에서 [비교 도구를 사용](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)합니다.
 
 ## 동일한 증명의 두 버전 비교
 
-동일한 증명의 두 버전을 비교하는 방법에 대한 자세한 내용은 [증명 뷰어에서 증명 비교](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)의 [증명 버전 비교](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions)를 참조하십시오.
+동일한 증명의 두 버전을 비교하는 방법에 대한 자세한 내용은 [증명 뷰어에서 증명 비교](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions)의 [증명 버전 비교](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)를 참조하십시오.

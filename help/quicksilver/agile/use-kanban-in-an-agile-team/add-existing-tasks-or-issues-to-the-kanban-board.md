@@ -6,10 +6,10 @@ description: 프로젝트에 대한 관리 액세스 권한이 있는 경우 Kan
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: bf79bc8fd3e25ff1bae404700ca27973a8b2307d
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 0%
+source-wordcount: '480'
+ht-degree: 1%
 
 ---
 
@@ -26,8 +26,6 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -35,14 +33,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard]</p> 
-   또는
-   <p>현재: [!UICONTROL Work] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p> 
+   <p>작업 이상</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -66,7 +63,7 @@ ht-degree: 0%
    >
    >여러 팀이 작업 또는 문제에 할당된 경우 작업 항목이 한 팀의 [!DNL kanban] 보드에만 표시될 수 있습니다.
 
-1. **추가**&#x200B;를 클릭합니다.
+1. **추가를 클릭합니다**.
 
 
 ## 보고서에서 기존 작업 또는 문제 추가
@@ -84,7 +81,7 @@ ht-degree: 0%
    >
    >여러 팀이 작업 또는 문제에 할당된 경우 작업 항목이 한 팀의 [!DNL kanban] 보드에만 표시될 수 있습니다.
 
-1. **추가**&#x200B;를 클릭합니다.
+1. **추가를 클릭합니다**.
 
 
 
@@ -103,4 +100,4 @@ ht-degree: 0%
    >
    >여러 팀이 작업 또는 문제에 할당된 경우 작업 항목이 한 팀의 [!DNL kanban] 보드에만 표시될 수 있습니다.
 
-1. **추가**&#x200B;를 클릭합니다.
+1. **추가를 클릭합니다**.

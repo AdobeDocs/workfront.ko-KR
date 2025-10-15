@@ -6,16 +6,16 @@ description: 완료 버튼을 사용하면 작업 또는 문제의 상태를 자
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 1%
+source-wordcount: '759'
+ht-degree: 2%
 
 ---
 
 # 작업에 대한 [!UICONTROL 완료] 단추 구성
 
-[!UICONTROL 완료] 단추를 사용하면 작업 또는 문제의 상태를 자동으로 설정할 수 있습니다. 기본적으로 [!UICONTROL Adobe Workfront]은(는) 피할당자가 작업 항목에서 완료 표시를 클릭하면 작업을 [!UICONTROL 완료됨] (으)로 표시합니다.
+[!UICONTROL 완료] 단추를 사용하면 작업 또는 문제의 상태를 자동으로 설정할 수 있습니다. 기본적으로 [!UICONTROL Adobe Workfront]은(는) 피할당자가 작업 항목에서 완료 표시를 클릭하면 작업을 [!UICONTROL 완료됨]&#x200B;(으)로 표시합니다.
 
 >[!NOTE]
 >
@@ -33,23 +33,20 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 패키지</p> </td> 
    <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td>
-   <p>새로운 기능: 표준</p>
-   <p>또는</p>
-   <p>현재: 플랜</p></td>
-  </tr> 
+   <p>표준</p>
+   <p>플랜</p></td>
+  </tr>  
  </tbody> 
 </table>
 
@@ -78,7 +75,7 @@ ht-degree: 1%
    >* 항목에 할당된 사용자가 항목을 [!UICONTROL 완료] 단추와 연결된 상태로 두면 선택한 상태가 [!UICONTROL 완료] 또는 [!UICONTROL 마감됨] 상태이거나 작업 상태인지에 관계없이 해당 사용자에 대해 항목이 [!UICONTROL 완료]로 표시됩니다.
    >   
    >   
-   >  예를 들어 [!UICONTROL 완료] 단추를 [!UICONTROL 진행 중]과 연결하면 [!UICONTROL 새로 만들기]에서 [!UICONTROL 진행 중] (으)로 상태를 변경하는 사용자의 작업 항목이 [!UICONTROL 완료]로 표시됩니다.
+   >  예를 들어 [!UICONTROL 완료] 단추를 [!UICONTROL 진행 중]과 연결하면 [!UICONTROL 새로 만들기]에서 [!UICONTROL 진행 중]&#x200B;(으)로 상태를 변경하는 사용자의 작업 항목이 [!UICONTROL 완료]로 표시됩니다.
    >   
    >* 문제 유형은 사용자 정의할 수 있으며 사용자 환경에 아래에 나열된 것과 다른 이름을 가질 수 있습니다.\
    >  다음은 기본 작업 및 문제 유형입니다.
@@ -99,7 +96,7 @@ ht-degree: 1%
 
 사용자를 홈 팀과 연결하려면 다음 작업을 수행하십시오.
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+1. **[!UICONTROL 의 오른쪽 위 모서리에 있는]**&#x200B;주 메뉴![](assets/main-menu-icon.png) 아이콘 [!DNL Adobe Workfront]을(를) 클릭합니다.
 
 1. **[!UICONTROL 사용자]**&#x200B;를 클릭한 다음 홈 팀에 연결할 사용자를 선택하십시오.
 1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.\

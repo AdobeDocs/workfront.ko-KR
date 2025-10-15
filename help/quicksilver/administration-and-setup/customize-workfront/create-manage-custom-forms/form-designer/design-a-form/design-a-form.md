@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '6606'
+source-wordcount: '6583'
 ht-degree: 5%
 
 ---
@@ -31,31 +31,27 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
-   <td>임의</td> 
+  <tr> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>
-   <p>새로운 기능: 표준</p>
-   <p>또는</p>
-   <p>현재: 플랜</p></td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준 구성</td> 
+  <tr> 
+   <td>액세스 수준 구성</td> 
    <td> <p>사용자 정의 양식에 대한 관리 액세스</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -135,7 +131,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 >[!NOTE]
 >
 >그렇게 할 수도 있지만 본인이나 다른 사용자가 Workfront에서 사용자 정의 양식을 사용하기 시작한 후에는 이 이름을 변경하지 않는 것이 좋습니다. 이 필드를 선택하면 이제 Workfront의 다른 영역에서 참조될 수 있는 사용자 지정 필드가 시스템에서 더 이상 인식되지 않습니다.
->&#x200B;>예를 들어 사용자 지정 필드를 보고서에 추가하고 나중에 이름을 변경하면 Workfront은 보고서에서 이를 인식하지 못하며 새 이름을 사용하여 보고서에 다시 추가하지 않으면 제대로 작동하지 않습니다.
+>>예를 들어 사용자 지정 필드를 보고서에 추가하고 나중에 이름을 변경하면 Workfront은 보고서에서 이를 인식하지 못하며 새 이름을 사용하여 보고서에 다시 추가하지 않으면 제대로 작동하지 않습니다.
 >
 >기본 제공 Workfront 필드에 이미 사용된 이름은 입력하지 않는 것이 좋습니다.
 >
@@ -468,7 +464,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 1. 화면 왼쪽의 **새 필드** 탭에서 다음 필드 중 하나를 찾아 캔버스의 섹션으로 끌어서 놓습니다.
 
    * 타이프 어헤드
-   * 일자
+   * Date
 
    ![필드를 섹션으로 드래그](assets/drag-field-to-section.png)
 
@@ -486,7 +482,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td> <p>(필수) 사용자 정의 필드 위에 표시할 설명 레이블을 입력합니다. 언제든지 레이블을 변경할 수 있습니다.</p> <p><b>중요</b>: 보고서에 특수 문자가 올바르게 표시되지 않으므로 이 레이블에 특수 문자를 사용하지 마십시오. 자세한 내용은 <a href="design-a-form.md#notes-on-field-names-and-labels">필드 이름 및 레이블에 대한 참고</a>을 참조하세요.</p> </td> 
        <td><ul>
     <li>타이프 어헤드</li>
-    <li>일자</li>
+    <li>날짜</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -495,7 +491,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <p>자세한 내용은 <a href="design-a-form.md#notes-on-field-names-and-labels">필드 이름 및 레이블에 대한 참고</a>을 참조하세요.</p> </td>
     <td><ul>
     <li>타이프 어헤드</li>
-    <li>일자</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -505,14 +501,14 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       </td> 
          <td><ul>
     <li>타이프 어헤드</li>
-    <li>일자</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">시간 표시(하루 기준)</td> 
       <td>필드에 날짜와 함께 시간을 표시하려면 이 옵션을 선택합니다.</td> 
          <td><ul>
-    <li>일자</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -552,7 +548,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td>사용자가 사용자 정의 양식을 작성하기 위해 필드를 요구하려면 이 옵션을 선택합니다. </td> 
        <td><ul>
     <li>타이프 어헤드</li>
-    <li>일자</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -634,12 +630,12 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td role="rowheader">JSON 경로</td>
       <td><p>API에 대한 JSON 경로를 입력하거나 붙여넣습니다.</p> <p>이 옵션을 사용하면 API URL에서 반환되는 JSON에서 데이터를 추출할 수 있습니다. JSON 내에서 드롭다운 옵션에 표시할 값을 선택하는 데 사용됩니다.</p><p>예를 들어 API URL이 다음 형식으로 JSON을 반환하는 경우 "$.data[*].name"을 사용하여 미국과 캐나다를 드롭다운 옵션으로 선택할 수 있습니다.</br>
       <pre>
-      &lbrace;
-       데이터: &lbrace;
+      {
+       데이터: {
          { name: "미국"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>JSON 경로와 올바른 JSON 경로를 작성하는 방법에 대한 자세한 내용은 <a href="https://jsonpath.com/">https://jsonpath.com/</a>을(를) 참조하십시오.</p></td>
@@ -791,7 +787,7 @@ The Workfront Mobile app -->
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
 | 실제 완료 일자 기준 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 실제 기간 | ✓ |   |   |   |   |   |   |   |
-| 실제 근로시간 | ✓ |   | ✓ |   |   |   |   |   |
+| 실제 시간 | ✓ |   | ✓ |   |   |   |   |   |
 | 실제 시작 일자 기준 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 회사 | ✓ |   |   | ✓ |   |   |   |   |
 | 조건 | ✓ | ✓ | ✓ |   |   |   |   |   |

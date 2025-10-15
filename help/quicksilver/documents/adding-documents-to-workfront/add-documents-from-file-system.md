@@ -6,9 +6,9 @@ description: Adobe Workfront의 여러 영역에서 프로젝트, 작업 또는 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '715'
 ht-degree: 1%
 
 ---
@@ -31,28 +31,28 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p> 임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>요청 이상</p> </td> 
+   <td> 
+   <p>기여자 이상</p> 
+   <p>요청 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문서에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>문서에 대한 액세스 편집</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -85,7 +85,7 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
        <ol> 
         <li value="1"><strong>새로 추가</strong> 드롭다운 메뉴에서 <strong>문서</strong>를 선택합니다.</li> 
         <li value="2"> <p>워크스테이션의 파일 시스템에서 추가할 문서를 찾아 선택합니다.<br></p> <p>추가 파일을 선택할 때 Shift 키를 누르면 여러 문서를 선택할 수 있습니다.</p> </li> 
-        <li value="3"><strong>열기</strong>를 클릭합니다.</li> 
+        <li value="3"><strong>열기를 클릭합니다</strong>.</li> 
        </ol> 
        <p><b>참고</b>: 파일 관리자에서 문서 목록으로 직접 파일을 끌어다 놓을 수도 있습니다.</td> 
      </tr> 

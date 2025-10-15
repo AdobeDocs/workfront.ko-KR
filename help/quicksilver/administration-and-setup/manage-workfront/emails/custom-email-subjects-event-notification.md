@@ -6,10 +6,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 4%
+source-wordcount: '575'
+ht-degree: 5%
 
 ---
 
@@ -35,8 +35,6 @@ ht-degree: 4%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -44,21 +42,24 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>
+   <p>표준</p>
+   <p>플랜</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>미리 알림에 대한 관리 액세스 권한이 있는 플래너 이상</p> <p>플랜 사용자 관리 액세스 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">특정 영역에 대한 사용자 관리 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>미리 알림에 대한 관리 액세스 권한이 있는 플래너 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -86,7 +87,7 @@ ht-degree: 4%
 
 사용자가 작업, 문제, 템플릿 작업 또는 문서에 대한 대화에 포함되어 있으면 이메일이 첫 번째 제목 줄로 생성됩니다. 제목 줄에는 &quot;referenceObject:name&quot;이 포함되며 시스템이 개체를 정의하고 제목 필드에 적절한 이름을 표시합니다. 이메일 제목 줄은 &quot;Project ABC의 작업 123에 대한 댓글&quot;과 유사합니다.
 
-프로젝트 대화에 추가되면 두 번째 주체가 포함된 이메일이 생성됩니다. 여기에 제목 줄에는 &quot;topReferenceObject:name&quot;이 포함되며, 다시 Workfront은 참조된 개체를 식별하고 제목의 &quot;topReferenceObject:name&quot; 대신 해당 개체 이름을 반환합니다. 이메일 제목 줄은 &quot;Project ABC에 대한 댓글&quot;과 유사합니다.
+프로젝트 대화에 추가되면 두 번째 주체가 포함된 이메일이 생성됩니다. 여기서 제목 줄에는 &quot;topReferenceObject:name&quot;이(가) 포함되어 있으며 Workfront은 참조된 개체를 식별하고 제목의 &quot;topReferenceObject:name&quot; 대신 해당 개체 이름을 반환합니다. 이메일 제목 줄은 &quot;Project ABC에 대한 댓글&quot;과 유사합니다.
 
 전자 메일 제목 줄을 편집하고 제목 줄에 필드를 추가하려면 이 문서의 [이벤트 알림에 대한 전자 메일 제목 줄 사용자 지정](#customize-email-subject-lines-for-event-notifications)을 참조하세요.
 

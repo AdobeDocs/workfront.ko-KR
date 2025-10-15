@@ -7,10 +7,10 @@ description: Google Workspace에서 Adobe [!DNL Workfront] 이(가) 보낸 알�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 0%
+source-wordcount: '572'
+ht-degree: 1%
 
 ---
 
@@ -26,36 +26,38 @@ ht-degree: 0%
 >
 >조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
+>Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
 
 [!DNL Google Workspace]에서 [!DNL Adobe Workfront]이(가) 보낸 알림 전자 메일을 열면 연결된 작업 항목 세부 정보를 보고 [!UICONTROL 받은 편지함]에서 나가지 않고 응답할 수 있습니다. 요청 승인과 같은 작업을 사용할 수 있는 경우 [!DNL Workfront for Google Workspace]에서 직접 수행할 수 있습니다.
 
 >[!NOTE]
 >
-> [!DNL Workfront for Google Workspace]은(는) [!DNL Workfront]에서 받을 수 있는 거의 모든 유형의 전자 메일 알림을 지원합니다(약 120개의 다른 유형). [!UICONTROL 에서 보낸 &#x200B;]일별 요약[!DNL Workfront] 전자 메일이 [!DNL Workfront for Google Workspace]에 표시되지 않습니다. [!DNL Workfront] 전자 메일 알림 유형에 대한 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
+> [!DNL Workfront for Google Workspace]은(는) [!DNL Workfront]에서 받을 수 있는 거의 모든 유형의 전자 메일 알림을 지원합니다(약 120개의 다른 유형). [!UICONTROL 에서 보낸 ]일별 요약[!DNL Workfront] 전자 메일이 [!DNL Workfront for Google Workspace]에 표시되지 않습니다. [!DNL Workfront] 전자 메일 알림 유형에 대한 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p><p>작업 이상</p>
   </tr> 
-  </tbody> 
+ </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -66,7 +68,7 @@ ht-degree: 0%
 
 ## [!DNL Adobe Workfront]에서 [!DNL Google Workspace] 알림 세부 정보 관리
 
-1. [!DNL Workfront for Google Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![&#x200B; 아이콘 &#x200B;](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
+1. [!DNL Workfront for Google Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![ 아이콘 ](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
 1. [!DNL Google Workspace]에서 [!DNL Workfront] 알림 전자 메일을 엽니다.
 1. 패널 상단 근처에 표시되면 **[!UICONTROL 모든 업데이트 보기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 세부 정보]**&#x200B;를 클릭합니다.

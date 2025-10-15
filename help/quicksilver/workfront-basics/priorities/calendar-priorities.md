@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '522'
 ht-degree: 4%
 
 ---
@@ -37,14 +37,14 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>현재: 검토자 이상</p>
-   <p>새로운 기능: 밝게 또는 높음</p> 
+   <p>검토자 이상</p>
+   <p>밝거나 높음</p> 
    </td> 
   </tr> 
   <tr> 
@@ -155,5 +155,5 @@ ht-degree: 4%
 1. **표시줄 스타일** 탭에서 달력의 작업 항목 표시줄에 표시할 필드를 최대 5개까지 선택하십시오.
    ![샘플 막대](assets/sample-task-for-field-config.png)
 
-1. **색상** 탭에서 작업 항목을 표시할 방법을 선택합니다. 예를 들어 **프로젝트**&#x200B;을(를) 선택하면 작업 목록에서 프로젝트에 할당된 색상에 따라 작업 항목이 표시됩니다.
+1. **색상** 탭에서 작업 항목을 표시할 방법을 선택합니다. 예를 들어 **프로젝트**을(를) 선택하면 작업 목록에서 프로젝트에 할당된 색상에 따라 작업 항목이 표시됩니다.
    ![샘플 색상 프로젝트](assets/sample-calendar-projects.png)

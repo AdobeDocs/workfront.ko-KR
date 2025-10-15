@@ -7,9 +7,9 @@ description: 성과 지표인 EAC(완료 시 추정 비용)는 프로젝트 또�
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -28,35 +28,32 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td>Adobe Workfront 패키지</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>Adobe Workfront 라이선스</td> 
    <td>
-   <p>새로운 기능: 밝게 또는 높음</p>
-   <p>또는</p>
-   <p>현재: 검토 이상</p></td>  
+   <p>밝거나 높음</p>
+   <p>검토 이상</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td>프로젝트 및 재무 데이터에 대한 액세스 보기</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td>개체 권한</td> 
    <td>재무 보기 권한이 있는 프로젝트에 대한 보기 이상의 권한</td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

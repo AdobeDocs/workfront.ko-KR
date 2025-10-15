@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -43,32 +43,27 @@ GUID 사용자 이름은 사용하기 어려울 수 있으므로 먼저 사용�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 플랜</p></td>
-  </tr> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!UICONTROL 시스템 관리자]</td>
+   <td>액세스 수준 구성</td> 
+   <td>시스템 관리자</td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

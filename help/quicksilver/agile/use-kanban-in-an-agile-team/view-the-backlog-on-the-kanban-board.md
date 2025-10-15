@@ -2,26 +2,24 @@
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Kanban 보드에 백로그 추가
-description: Kanban 보드에 [!UICONTROL 백로그] 열을 직접 표시할 수 있습니다.  [!DNL Kanban] 보드의 [!UICONTROL 백로그] 열에는  [!DNL Kanban] 보드의 백로그에서 처음 20개 항목이 포함되어 있습니다. 작업 및 문제가 백로그에 표시되려면 상태가 현재와 동일한 프로젝트에 속해 있어야 합니다.
+description: Kanban 보드에 [!UICONTROL 백로그] 열을 직접 표시할 수 있습니다. [!UICONTROL 보드의 ]백로그 [!DNL Kanban]  열에는  [!DNL Kanban] 보드의 백로그에서 처음 20개 항목이 포함되어 있습니다. 작업 및 문제가 백로그에 표시되려면 상태가 현재와 동일한 프로젝트에 속해 있어야 합니다.
 author: Lisa
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Kanban] 보드에 백로그 추가
 
-Kanban 보드에 [!UICONTROL 백로그] 열을 직접 표시할 수 있습니다. [!DNL Kanban] 보드의 [!UICONTROL 백로그] 열에는 [!DNL Kanban] 보드의 백로그에서 처음 20개 항목이 포함되어 있습니다. 작업 및 문제가 백로그에 표시되려면 상태가 [!UICONTROL 현재]와(과) 동일한 프로젝트에 속해야 합니다.
+Kanban 보드에 [!UICONTROL 백로그] 열을 직접 표시할 수 있습니다. [!UICONTROL  보드의 ]백로그[!DNL Kanban] 열에는 [!DNL Kanban] 보드의 백로그에서 처음 20개 항목이 포함되어 있습니다. 작업 및 문제가 백로그에 표시되려면 상태가 [!UICONTROL 현재]와(과) 동일한 프로젝트에 속해야 합니다.
 
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +28,13 @@ Kanban 보드에 [!UICONTROL 백로그] 열을 직접 표시할 수 있습니다
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard]</p> 
-   또는
-   <p>현재: [!UICONTROL Work] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p> 
+   <p>작업 이상</p> </td> 
   </tr>
  </tbody> 
 </table>

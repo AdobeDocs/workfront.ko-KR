@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
+source-wordcount: '406'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,33 @@ Adobe Workfront에는 새로운 기능과 업데이트를 릴리스하기 위한
 >
 >* 23.3 릴리스(2023년 7월) 이후 Workfront을 구입한 고객은 기본적으로 빠른 릴리스 프로세스가 활성화되며 옵트아웃할 수 있습니다.
 >* 23.3 릴리스 이전에 Workfront을 구매한 고객은 기본적으로 빠른 릴리스 프로세스가 비활성화되어 있으며 옵트인할 수 있습니다.
+
+## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront 패키지</td> 
+   <td><p>임의</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>표준</p> <p>플랜</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td>Workfront 관리자여야 합니다. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 빠른 릴리스 프로세스를 활성화 또는 비활성화할 때 고려 사항
 

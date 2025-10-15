@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '174'
 ht-degree: 4%
 
 ---
@@ -23,23 +23,19 @@ Workfront의 AI Assistant를 통해 제공되는 Catch me up에는 업데이트,
 
 ## 액세스 요구 사항
 
-+++이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다. 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>새로 만들기: 모두</p>
-       <p>또는</p>
-       <p>현재: 사용할 수 없음</p></td>
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td>임의</td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 사용할 수 없음</p></td>
+   <td><p>표준</td>
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +49,7 @@ Workfront의 AI Assistant를 통해 제공되는 Catch me up에는 업데이트,
 
 {{step1-to-priorities}}
 
-1. 페이지 맨 위에서 **다시 걸기**&#x200B;를 클릭합니다.
+1. 페이지 맨 위에서 **다시 걸기**를 클릭합니다.
    ![따라오기 단추](assets/catch-me-up-button.png)
 1. 원하는 기간을 선택합니다.
    * **지난 24시간 요약**

@@ -6,9 +6,9 @@ description: Adobe Workfront에서 생성했거나 공유한 캘린더 보고서
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,22 +28,21 @@ Adobe Workfront에서 생성했거나 공유한 캘린더 보고서 및 이벤�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td><p>새로운 기능: 기여자</p>
-       <p>또는</p>
-       <p>현재: 요청</p></td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>기여자</p>
+       <p>요청</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>[!UICONTROL 보고서], [!UICONTROL 대시보드] 및 [!UICONTROL 달력]에 대한 [!UICONTROL 보기] 이상 액세스</p></td> 
+   <td> <p>보고서, 대시보드 및 캘린더에 대한 보기 또는 상위 액세스 권한</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>달력 보고서에 대한 [!UICONTROL 보기] 이상의 권한</td> 
+   <td>달력 보고서에 대한 이상의 권한 보기</td> 
   </tr> 
  </tbody> 
 </table>

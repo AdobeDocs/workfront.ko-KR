@@ -6,9 +6,9 @@ description: Portfolio 또는 Project PPM(Portfolio Management)은 특정 비즈
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Portfolio 또는 Project PPM(Portfolio Management)은 특정 비즈니스 목표를 달성하기 위해 프로젝트 목록을 우선 순위 지정하고 관리하는 프로세스입니다.
 
-이 문서에서는 포트폴리오 관리에 대한 일반적인 개념을 설명합니다. Adobe Workfront의 포트폴리오 관리에 대한 일반적인 정보는 [Adobe Workfront의 Portfolio 개요](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md)를 참조하십시오.
+이 문서에서는 포트폴리오 관리에 대한 일반적인 개념을 설명합니다. Adobe Workfront의 포트폴리오 관리에 대한 일반적인 정보는 [포트폴리오 방법 이해](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md)를 참조하십시오.
 
 포트폴리오는 일반적인 비즈니스 목표를 가진 프로젝트 모음입니다. 효과적인 PPM 방법론의 결과로 경영진은 다음과 같은 이점을 얻을 수 있습니다.
 
@@ -63,7 +63,7 @@ Portfolio 또는 Project PPM(Portfolio Management)은 특정 비즈니스 목표
 
 프로젝트 요청을 제출하면 Portfolio 관리자 또는 경영진 팀이 이를 검토하고 프로젝트 승인 여부를 결정합니다. 사용자가 프로젝트를 승인하면 프로젝트가 회사 프로젝트 Portfolio에 대해 선택됩니다.
 
-포트폴리오에 대한 자세한 내용은 [Portfolio 개요 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)를 참조하십시오. 비즈니스 사례 승인에 대한 자세한 내용은 [비즈니스 사례 승인](../../../manage-work/projects/define-a-business-case/approve-business-case.md)을 참조하세요.
+포트폴리오에 대한 자세한 내용은 [포트폴리오 방법 이해](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)를 참조하십시오. 비즈니스 사례 승인에 대한 자세한 내용은 [비즈니스 사례 승인](../../../manage-work/projects/define-a-business-case/approve-business-case.md)을 참조하세요.
 
 ### 포트폴리오 최적화 {#portfolio-optimization}
 

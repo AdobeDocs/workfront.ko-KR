@@ -7,9 +7,9 @@ description: 요청은 보류 중인 작업 또는 문제 할당을 나타냅니
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -26,27 +26,23 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td>
    <p>요청을 할당하거나 작업하려면 다음을 수행합니다.
-   <p>새로운 기능: 밝게 또는 높음</br>
-    또는</br>
-   현재: 검토 이상</p>
+   <p>밝거나 높음</p>
+  <p>검토 이상</p>
    <p>요청을 재할당하려면
-   <p>새로운 기능: 표준</br>
-    또는</br>
-   현재: 작업 시간 이상</p></td>
+   <p>표준</p>
+   <p>작업 이상</p></td>
   </tr> 
  </tbody> 
 </table>

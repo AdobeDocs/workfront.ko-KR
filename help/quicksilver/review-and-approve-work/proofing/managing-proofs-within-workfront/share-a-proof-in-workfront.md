@@ -6,9 +6,9 @@ description: 문서를 공유하거나 증명에 사용자를 추가하여 Adobe
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
@@ -27,19 +27,19 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>를 참조하십시오.</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>현재 계획: 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> 
+   <p>표준</p>
+   <p>작업 또는 계획</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">교정쇄 권한 프로필 </td> 
@@ -50,13 +50,13 @@ ht-degree: 0%
    <td>작성자 또는 중재자</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문서에 대한 액세스 편집</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>문서에 대한 액세스 편집</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 웹 증명 뷰어와 데스크탑 증명 뷰어에서 증명을 검토하는 동안 증명에 사용자를 추가할 수 있습니다.
 
-자세한 내용은 문서 [증명 뷰어에서 증명 공유](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)에서 [사용자를 추가하여 증명 공유](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)를 참조하십시오.
+자세한 내용은 문서 [증명 뷰어에서 증명 공유](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)에서 [사용자를 추가하여 증명 공유](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)를 참조하십시오.
 
 ## 증명 승인에 대한 보고서
 
@@ -168,10 +168,10 @@ Workfront 내에서 공유된 증명 승인에 대해 보고하는 보고서를 
 
 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)에 설명된 대로 개체를 기반으로 보고서를 만들 때 이 승인에 액세스합니다.
 
-증명 승인 개체 보고서에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 [개체에 대한 보고서](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) 섹션을 참조하십시오.
+증명 승인 개체 보고서에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)의 [개체에 대한 보고서](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.
 
 ## 공유 증명 승인
 
 사용자가 증명에 귀하를 추가하고 자동화된 워크플로를 사용하여 승인자 역할 또는 검토자 및 승인자 역할을 부여하면 홈 영역의 내 승인 위젯에 승인 요청이 표시됩니다. 그런 다음 증명을 보고 Workfront에서 직접 증명에 대한 승인 결정을 내릴 수 있습니다.
 
-내 승인 위젯에서 승인 결정을 내리는 방법에 대한 자세한 내용은 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md)에서 [홈 영역에서 작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) 또는 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)을 참조하십시오.
+내 승인 위젯에서 승인 결정을 내리는 방법에 대한 자세한 내용은 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)에서 [홈 영역에서 작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) 또는 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md)을 참조하십시오.

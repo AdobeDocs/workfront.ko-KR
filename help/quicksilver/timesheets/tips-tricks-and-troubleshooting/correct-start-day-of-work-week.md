@@ -2,12 +2,12 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: Correct the Start Day of the Work Week for Timesheets
-description: The start day of the week on my timesheet does not match my expected weekly start day.
-author: Alina
+title: 타임시트의 작업 주 시작일 수정
+description: 내 타임시트의 그 주의 시작 일자가 내 예상 주간 시작 일자와 일치하지 않습니다.
+author: Lisa
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 ## 문제
 
-The start day of the week on my timesheet does not match my expected weekly start day.
+내 타임시트의 그 주의 시작 일자가 내 예상 주간 시작 일자와 일치하지 않습니다.
 
-This typically occurs when you are not assigned to a Timesheet Profile and your timesheet was manually created.
+일반적으로 이 문제는 타임시트 프로필에 할당되지 않고 타임시트가 수동으로 생성된 경우에 발생합니다.
 
 
 ## 솔루션
 
-Your Workfront administrator should create timesheet profiles and assign everyone to a profile, as described in [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). Your Workfront administrator might define the start date of a timesheet on a day other than your expected weekly start date. Check with them to find out what the start date of a timesheet profile is for your timesheet.
+[타임시트 프로필 만들기, 편집 및 할당](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)에 설명된 대로 Workfront 관리자는 타임시트 프로필을 만들고 모든 사람을 프로필에 할당해야 합니다. Workfront 관리자는 타임시트의 시작 날짜를 예상 주별 시작 날짜가 아닌 다른 날로 정의할 수 있습니다. 타임시트에 대한 타임시트 프로필의 시작 날짜를 확인하려면 해당 파트너와 상의하십시오.
 
-If your timesheet was manually created, the start day of the week in the timesheet uses the Email Locale settings in your user&#39;s profile, as described in the article [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+타임시트를 수동으로 만든 경우 타임시트의 시작 요일은 문서 [내 설정 구성](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)에 설명된 대로 사용자 프로필의 전자 메일 로케일 설정을 사용합니다.
 
-For example, with the Email Locale set to English (United States), the week in the timesheet starts on Sunday. Alternatively, with the Email Locale set to English (United Kingdom), the week in the timesheet starts on a Monday.
+예를 들어 이메일 로케일이 영어(미국)로 설정되면 타임시트의 주가 일요일에 시작됩니다. 또는 이메일 로케일이 영어(영국)로 설정되어 있으면 타임시트의 주가 월요일에 시작됩니다.
 
 
 <!--This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 

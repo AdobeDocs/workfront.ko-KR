@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: 원래 작업 기간 및 원래 계획된 시간 개요
+title: 작업 원래 기간 및 원래 계획된 시간 개요
 description: 프로젝트 계획의 일부로, 프로젝트에 있는 모든 작업의 계획된 시간 및 기간(또는 계획된 기간)에 대한 값을 결정해야 합니다.
 author: Alina
 feature: Work Management
 exl-id: 96d77d9f-3d5f-457e-a4ad-10edc371a991
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 1%

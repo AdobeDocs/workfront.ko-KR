@@ -6,9 +6,9 @@ description: 작업 상태를 업데이트하여 작업의 위치와 전체 프�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -25,21 +25,20 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 표준</p> 
-   또는
-   <p>현재: 작업 시간 이상</p>
+   <td> <p>표준</p> 
+   <p>작업 이상</p>
    </td> 
   </tr> 
   <tr> 
@@ -53,9 +52,37 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard</p> 
+   Or
+   <p>Current: Work or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the task</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 작업 상태 업데이트에 대한 고려 사항
 
@@ -147,7 +174,7 @@ Workfront은 아래 표에 나열된 작업이 발생할 때 작업의 기존 �
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>할당된 작업에 대한 작업을 수락하려면 [작업 시작] 단추를 클릭하세요</span> </td> 
-   <td><span>새로 만들기</span> </td> 
+   <td><span>신규</span> </td> 
    <td> <p>홈 팀 설정의 작업 시작 단추와 연결된 모든 상태입니다.</p> <p>[처리 중] 단추를 [작업 시작] 단추로 바꾸는 방법에 대한 자세한 내용은 <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[처리 중 작업] 단추를 [시작] 단추로 바꾸기</a></span>를 참조하십시오.</p> <p>팁: 작업 시작을 클릭한 후 <span>클릭</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">실행 취소 단추</span>를 클릭하면 상태가 새로 고침으로 되돌아갑니다. </p> </td> 
   </tr> 
  </tbody> 

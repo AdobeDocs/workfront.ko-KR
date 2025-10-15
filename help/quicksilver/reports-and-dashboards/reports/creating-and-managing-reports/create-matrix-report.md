@@ -6,9 +6,9 @@ description: 매트릭스 보고서는 요약 정보를 집계된 테이블 형�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -34,43 +34,35 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-      <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>표준</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>플랜</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> 
+      <p>표준</p>
+      <p>플랜</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td><p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p></td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p></td> 
+ <td> <p>보고서에 대한 권한 관리</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -134,8 +126,9 @@ ht-degree: 0%
      >   * 숫자 및 통화 값에 대한 사용자 정의 데이터 필드는 상위, 1차 하위 구성요소, 1차 상위 구성요소 및 독립 실행형 작업과 같은 모든 작업을 집계합니다. **값** 열에 계획된 시간 또는 실제 시간을 표시하는 매트릭스 보고서를 만든 경우 상위 개체(예: 상위 작업)에 대한 시간 또는 비용 정보가 매트릭스 보고서에 표시되지 않습니다. 상위 개체에 대한 시간을 보려면 **세부 정보** 탭을 확인해야 합니다.
      >   
      >   
-     >**조건부 규칙:** 집계되는 값에 대한 서식 규칙을 설정합니다.\
+     >
 
+   **조건부 규칙:** 집계되는 값에 대한 서식 규칙을 설정합니다.\
    규칙을 추가한 후 해당 규칙과 일치하는 필드가 표시되는 방식에 대한 필드 및 텍스트 스타일을 정의할 수 있습니다. 규칙 정의를 마친 후 **규칙 추가**&#x200B;를 클릭한 다음 **완료**&#x200B;를 클릭하여 규칙을 저장합니다.
 
 1. 보고서에 표시할 정보를 정의하려면 **필터** 탭을 클릭하십시오.

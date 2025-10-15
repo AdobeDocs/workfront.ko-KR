@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2139'
 ht-degree: 0%
 
 ---
@@ -42,31 +42,27 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>
-   <p> 새로운 기능: 표준</p>
-   또는
-   <p>현재: 플랜</p></td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!UICONTROL 시스템 관리자]</td> 
+   <td>액세스 수준 구성</td> 
+   <td>시스템 관리자</td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -222,7 +218,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
      >
      >각 필드에 대해 하나의 기본 옵션만 가질 수 있습니다.
 
-   * **`setParameterID`** = _Brand_ 사용자 지정 필드에 해당하는 옵션에는 **`setParameterID`**&#x200B;이(가) 1이고, _Media_&#x200B;에 해당하는 옵션에는 **`setParameterID`**&#x200B;이(가) 2입니다. `PARAM` 및 `POPT` 시트는 서로 상호 참조하여 사용자 지정 필드에 속하는 옵션을 나타냅니다.
+   * **`setParameterID`** = _Brand_ 사용자 지정 필드에 해당하는 옵션에는 **`setParameterID`**&#x200B;이(가) 1이고, _Media_&#x200B;에 해당하는 옵션에는 **`setParameterID`**이(가) 2입니다. `PARAM` 및 `POPT` 시트는 서로 상호 참조하여 사용자 지정 필드에 속하는 옵션을 나타냅니다.
    * **`setDisplayOrder`**= 표시 순서 열은 옵션이 사용자 지정 필드에 표시되는 순서를 나타냅니다. 1로 시작하여 해당 옵션이 속할 필드에 관계없이 모든 옵션에 대해 오름차순으로 계속할 수 있습니다. 여기서 중요한 것은 각 옵션에 대해 고유한 번호를 갖는 것입니다.
    * **`setLabel`** 및 `**setValue`** 열에는 일반적으로 동일한 정보가 포함되며 Workfront UI에서 원하는 이름을 반영해야 합니다. 옵션의 값은 보고서에 표시되는 이름인 반면 레이블은 오브젝트에 첨부할 때 사용자 정의 양식에 표시됩니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
    * **`setIsHidden`** = 옵션을 숨기려면 `TRUE`을(를) 입력합니다.
@@ -289,4 +285,4 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
    * 사용자 지정 Forms 영역에서 Workfront에서 성공적으로 가져온 정보를 삭제한 다음 오류 메시지가 표시하는 대로 수정합니다.
    * 필드 또는 양식을 이미 가져온 해당 필드 또는 양식에 대해 시스템에 이미 있음을 표시한 다음 수정합니다.
-필드나 사용자 정의 양식이 이미 Workfront에 있음을 나타내려면 킥스타트 가져오기 시트의 양식(`CTGY`) 또는 필드(`PARAM`)에 대한 정보가 포함된 시트에서 `inNew` 필드가 `FALSE`(으)로 표시되어야 합니다.
+필드나 사용자 정의 양식이 이미 Workfront에 있음을 나타내려면 킥스타트 가져오기 시트의 양식(`inNew`) 또는 필드(`FALSE`)에 대한 정보가 포함된 시트에서 `CTGY` 필드가 `PARAM`(으)로 표시되어야 합니다.

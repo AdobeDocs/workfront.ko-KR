@@ -6,9 +6,9 @@ description: 증명은 연속 60일 동안 열리지 않으면 자동으로 보�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,28 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>를 참조하십시오.</p> </td> 
-  </tr>
-
-<tr> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"> <p>Adobe Workfront 라이선스</p> </td> 
+   <td> 
+   <p>임의</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">증명 액세스 </td> 
    <td>게스트 이상</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 플랜 또는 증명 액세스 권한이 있는지 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

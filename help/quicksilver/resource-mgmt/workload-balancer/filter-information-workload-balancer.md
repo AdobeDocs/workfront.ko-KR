@@ -6,9 +6,9 @@ description: 작업 항목을 효율적으로 찾고 관리하는 사용자 또�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2437'
 ht-degree: 0%
 
 ---
@@ -36,27 +36,21 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> <p>임의</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>현재: 계획(리소스 조달 영역에서 업무 균형자 를 사용할 때)</p>
-       <p>또는</p>
-       <p>작업(팀 또는 프로젝트의 업무 균형자 사용 시)</p></td>
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>리소스 영역 내 업무 균형자 사용 시 계획, 팀 또는 프로젝트의 업무 균형자 사용 시 작업</p></td>
+  </tr>
+  <tr> 
+   <td>액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 이상:</p> 
     <ul> 
      <li>리소스 관리</li> 
@@ -68,7 +62,7 @@ ht-degree: 0%
     <p>필터를 작성하거나 편집할 때 필터, 보기 및 그룹화에 대한 액세스 편집 </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td>개체 권한</td> 
    <td> <p>프로젝트, 작업, 문제에 대한 이상의 권한 보기</p>
    <p>편집하거나 삭제할 필터에 대한 권한 관리</p>
    </td> 
@@ -76,7 +70,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -239,7 +233,7 @@ ht-degree: 0%
 
    저장된 필터를 적용하는 방법에 대한 자세한 내용은 이 문서의 [업무 균형자에서 저장된 필터 삭제](#delete-a-saved-filter-in-the-workload-balancer) 섹션을 참조하십시오.
 
-1. (조건부) **할당 해제된 작업** 또는 **할당된 작업** 영역의 오른쪽 위 모서리에 있는 **필터** 아이콘 ![필터 아이콘](assets/filter-icon.png) 위로 마우스를 가져가면 현재 적용된 필터 이름이나 개수의 도구 설명이 표시됩니다.
+1. (조건부) **할당 해제된 작업** 또는 ![할당된 작업](assets/filter-icon.png) 영역의 오른쪽 위 모서리에 있는 **필터** 아이콘 **필터 아이콘** 위로 마우스를 가져가면 현재 적용된 필터 이름이나 개수의 도구 설명이 표시됩니다.
 
    ![필터 이름의 필터 아이콘](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
@@ -258,7 +252,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   > 필터를 편집하는 동안 **필터 편집** 상자의 왼쪽 아래 모서리에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu-edit-filter.png)를 클릭한 다음 **복제**&#x200B;를 클릭할 수 있습니다.
+   > 필터를 편집하는 동안 **필터 편집** 상자의 왼쪽 아래 모서리에 있는 ![기타](assets/more-menu-edit-filter.png) 메뉴 **기타 메뉴**&#x200B;를 클릭한 다음 **복제**&#x200B;를 클릭할 수 있습니다.
 
 1. 복제된 필터에 대한 다음 정보를 편집합니다.
 
@@ -320,7 +314,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >필터를 편집하는 동안 **필터 편집** 상자의 왼쪽 아래 모서리에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu-edit-filter.png)를 클릭한 다음 **삭제**&#x200B;를 클릭할 수 있습니다.
+   >필터를 편집하는 동안 **필터 편집** 상자의 왼쪽 아래 모서리에 있는 ![기타](assets/more-menu-edit-filter.png) 메뉴 **기타 메뉴**&#x200B;를 클릭한 다음 **삭제**&#x200B;를 클릭할 수 있습니다.
 
 1. (선택 사항) 삭제를 취소하고 필터 목록으로 돌아가려면 **취소**&#x200B;를 클릭합니다.
 1. **삭제**&#x200B;를 클릭하여 삭제를 확인합니다. 사용자 및 이 필터에 대한 권한이 있는 모든 사용자에 대해 필터가 삭제됩니다.
@@ -349,7 +343,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   > 필터를 편집하는 동안 **필터 편집** 상자의 왼쪽 아래 모서리에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu-edit-filter.png)를 클릭한 다음 **공유**&#x200B;를 클릭할 수 있습니다.
+   > 필터를 편집하는 동안 **필터 편집** 상자의 왼쪽 아래 모서리에 있는 ![기타](assets/more-menu-edit-filter.png) 메뉴 **기타 메뉴**&#x200B;를 클릭한 다음 **공유**&#x200B;를 클릭할 수 있습니다.
 
 1. **액세스 권한 부여** 필드에 필터를 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 표시될 때 선택합니다.
 

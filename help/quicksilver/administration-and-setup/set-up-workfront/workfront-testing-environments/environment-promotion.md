@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2088'
 ht-degree: 2%
 
 ---
@@ -32,26 +32,26 @@ Workfront 애플리케이션을 사용하여 환경 간에 객체를 이동하�
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 계획</strong>
+   <td>Adobe Workfront 패키지
    </td>
-   <td> Prime 또는 Ultimate(신규 계획만 해당)
+   <td> <p>Prime 또는 Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]개 라이선스</strong>
+   <td><strong>Workfront 라이선스</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>표준</p>&gt;
    </td>
   </tr>
    <tr>
    <td>액세스 수준 구성
    </td>
-   <td>[!DNL Workfront] 관리자여야 합니다.
+   <td><p>Workfront 관리자여야 합니다.</p>
    </td>
   </tr>
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
@@ -61,7 +61,7 @@ Workfront 애플리케이션을 사용하여 환경 간에 객체를 이동하�
 
 환경 프로모션 기능은 구성 관련 객체를 한 환경에서 다른 환경으로 이동할 수 있는 기능을 제공하기 위한 것입니다. 트랜잭션 개체를 이동하는 기능은 지원하지 않습니다(제한된 예외 사항 포함).
 
-승격 가능한 개체 및 포함된 승격 가능한 하위 개체 목록은 [Workfront 환경 간 개체 이동 개요](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md) 문서의 [환경 승격에 대해 지원되는 개체](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)를 참조하십시오.
+승격 가능한 개체 및 포함된 승격 가능한 하위 개체 목록은 [Workfront 환경 간 개체 이동 개요](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) 문서의 [환경 승격에 대해 지원되는 개체](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)를 참조하십시오.
 
 ## 인증
 
@@ -107,7 +107,7 @@ SessionID: abc1234
 
 첫 번째 단계는 &quot;ASSEMBLING&quot; 상태의 빈 프로모션 패키지를 만드는 결과를 초래합니다.
 
-두 번째 단계에서는 POST 본문에 제공된 `objectCollections` 배열을 사용하여 Workfront에서 요청된 레코드를 조합합니다. 요청한 레코드 수와 Workfront 구성에 따라 이 단계를 완료하는 데 몇 분이 걸릴 수 있습니다. 이 프로세스가 끝나면 빈 프로모션 패키지가 `packageEntities`(으)로 업데이트되고 상태가 자동으로 &quot;초안&quot;으로 설정됩니다.
+두 번째 단계에서는 POST 본문에 제공된 `objectCollections` 배열을 사용하여 Workfront에서 요청된 레코드를 취합합니다. 요청한 레코드 수와 Workfront 구성에 따라 이 단계를 완료하는 데 몇 분이 걸릴 수 있습니다. 이 프로세스가 끝나면 빈 프로모션 패키지가 `packageEntities`(으)로 업데이트되고 상태가 자동으로 &quot;초안&quot;으로 설정됩니다.
 
 
 >[!NOTE]
@@ -372,7 +372,7 @@ _비어 있음_
 1. 설명(문자열)
 1. 상태(값 유효성 검사가 포함된 문자열)
 
-사용 가능한 상태에 대한 자세한 설명은 문서 [Workfront 환경 간 개체 이동 개요](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)의 [환경 프로모션 상태](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)를 참조하십시오.
+사용 가능한 상태에 대한 자세한 설명은 문서 [Workfront 환경 간 개체 이동 개요](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)의 [환경 프로모션 상태](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)를 참조하십시오.
 
 
 #### URL
@@ -523,11 +523,11 @@ Deleted
  <tbody> 
   <tr> 
    <td>만들기</td> 
-   <td><p>대상 환경에서 해당 레코드를 찾을 수 없는 경우 작업이 CREATE로 설정됩니다.</p><p>이 작업이 <code>/install</code> 끝점에 제공된 <code>translationmap</code>에서 설정되면 설치 서비스가 레코드를 만듭니다.</p></td> 
+   <td><p>대상 환경에서 해당 레코드를 찾을 수 없는 경우 작업이 CREATE로 설정됩니다.</p><p>이 작업이 <code>translationmap</code> 끝점에 제공된 <code>/install</code>에서 설정되면 설치 서비스가 레코드를 만듭니다.</p></td> 
   </tr> 
   <tr> 
    <td>USEEXISTING</td> 
-   <td><p>대상 환경에서 해당 레코드가 발견되면 작업이 USEEXISTING으로 설정되고 <code>targetId</code>도 <code>translationmap</code>에서 캡처됩니다.</p><p>이 작업이 <code>/install</code> 끝점에 제공된 <code>translationmap</code>에서 설정되면 설치 서비스가 레코드를 만들지 않습니다. 그러나 이 레코드를 참조할 수 있는 다른 개체에 대해 맵 항목에 포함된 <code>targetId</code>을(를) 사용합니다.</p><p>예를 들어 패키지를 배포하는 대상 환경에서 "기본 그룹"을 찾을 수 있습니다. 두 개의 "기본 그룹" 레코드를 가질 수 없으므로 설치 서비스는 프로젝트, 양식 또는 이 그룹과 관련된 다른 엔티티와 같은 "기본 그룹"에 대한 참조를 포함하는 다른 개체 만들기 작업에서 기존 그룹에 대한 GUID를 사용합니다.</p><p><b>참고:</b> <ul><li><p>USEEXISTING 작업이 지정되면 대상 환경의 기존 레코드는 수정되지 않습니다. </p><p>예를 들어 패키지를 빌드한 샌드박스에서 "기본 그룹"에 대한 설명이 변경되었으며 설명 값이 대상 환경에서 다른 경우 이 <code>translationmap</code>을(를) 사용하여 설치한 후에도 값이 변경되지 않습니다.</li></ul></td> 
+   <td><p>대상 환경에서 해당 레코드가 발견되면 작업이 USEEXISTING으로 설정되고 <code>targetId</code>도 <code>translationmap</code>에서 캡처됩니다.</p><p>이 작업이 <code>translationmap</code> 끝점에 제공된 <code>/install</code>에서 설정되면 설치 서비스가 레코드를 만들지 않습니다. 그러나 이 레코드를 참조할 수 있는 다른 개체에 대해 맵 항목에 포함된 <code>targetId</code>을(를) 사용합니다.</p><p>예를 들어 패키지를 배포하는 대상 환경에서 "기본 그룹"을 찾을 수 있습니다. 두 개의 "기본 그룹" 레코드를 가질 수 없으므로 설치 서비스는 프로젝트, 양식 또는 이 그룹과 관련된 다른 엔티티와 같은 "기본 그룹"에 대한 참조를 포함하는 다른 개체 만들기 작업에서 기존 그룹에 대한 GUID를 사용합니다.</p><p><b>참고:</b> <ul><li><p>USEEXISTING 작업이 지정되면 대상 환경의 기존 레코드는 수정되지 않습니다. </p><p>예를 들어 패키지를 빌드한 샌드박스에서 "기본 그룹"에 대한 설명이 변경되었으며 설명 값이 대상 환경에서 다른 경우 이 <code>translationmap</code>을(를) 사용하여 설치한 후에도 값이 변경되지 않습니다.</li></ul></td> 
   </tr> 
   <tr> 
    <td>덮어쓰기</td> 

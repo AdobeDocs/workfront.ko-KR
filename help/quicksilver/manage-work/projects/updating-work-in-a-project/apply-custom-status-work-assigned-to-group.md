@@ -6,9 +6,9 @@ description: 프로젝트가 그룹과 연결된 경우 시스템 수준 상태�
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,37 @@ Alina, I moved this out of an admin article about statuses (Create and customize
 
 ## 액세스 요구 사항
 
-<!--drafted for P&P:
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p>
+   <p>플랜</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트에 대한 액세스 편집</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>프로젝트에 대한 권한 관리</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -39,10 +68,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> 
-   </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,37 +81,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>임의</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트에 대한 액세스 편집</p> <p><b>메모</b>
-
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+</table>-->
 
 ## 프로젝트 그룹 및 상태 업데이트
 
@@ -103,7 +99,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    >**그룹** 드롭다운 메뉴에서 다른 그룹을 선택하면 **상태** 메뉴의 사용자 지정 상태가 자동으로 변경되어 새 그룹과의 상관 관계를 만듭니다.
    >
    >
-   >![프로젝트에 대한 사용자 지정 상태로 상태 드롭다운이 확장됨](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![프로젝트에 대한 사용자 지정 상태로 상태 드롭다운이 확장됨](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)
    >
 
 1. 프로젝트의 상태를 선택합니다. 해당 그룹에 작성 및 적용한 사용자 정의 상태가 목록에 표시됩니다.

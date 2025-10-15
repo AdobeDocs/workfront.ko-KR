@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1535'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Workfront을 새로운 Workfront 환경과 일관되게 사용하기 위해 문�
 * 대상 프로젝트의 작업 설정 영역에 정의된 기본 사용자 정의 양식이 새 작업에 추가되었습니다.
 
 
-자세한 내용은 [문제를 Adobe Workfront의 작업으로 변환](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md)을 참조하십시오.
+자세한 내용은 [문제를 작업으로 변환](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md)을 참조하십시오.
 
 ## 템플릿 없이 문제를 프로젝트로 전환할 때의 새로운 경험
 

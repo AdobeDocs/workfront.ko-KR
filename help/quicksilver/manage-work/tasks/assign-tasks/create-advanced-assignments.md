@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -49,33 +49,32 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td>Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 표준</p>
-    <p>현재: 작업 시간 이상</p> </td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p>
+   <p>작업 이상</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td role>액세스 수준 구성</td> 
    <td> <p>작업 및 문제에 대한 액세스 편집</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
-   <td> <p>작업 또는 문제에 대한 상위 권한 기여</p>  </td> 
+   <td>개체 권한</td> 
+   <td> <p>작업 또는 문제에 대한 기여 또는 더 높은 권한</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -86,7 +85,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >작업 또는 문제 목록에서 직접 고급 할당을 수행할 수 있습니다. 작업 또는 문제와 같은 줄의 **할당** 필드 내부를 클릭한 다음 <span class="preview">**고급**</span> 또는 **사람 아이콘**&#x200B;을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.
+   >작업 또는 문제 목록에서 직접 고급 할당을 수행할 수 있습니다. 작업 또는 문제와 같은 줄의 **할당** 필드 내부를 클릭한 다음 <span class="preview">**고급**</span> 또는 **사람 아이콘**을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.
    ><span class="preview">미리 보기 환경의 샘플 이미지:</span>
    >![고급 또는 인물 아이콘을 클릭합니다](assets/access-aa-from-lists.png)
    >프로덕션 환경의 샘플 이미지:

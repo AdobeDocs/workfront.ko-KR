@@ -7,9 +7,9 @@ description: Adobe Workfront이 아닌 이메일의 정보로 기존 프로젝�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,34 @@ ht-degree: 0%
 >
 >조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
+>Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
 
 [!DNL Adobe Workfront]이(가) 아닌 전자 메일의 정보로 기존 프로젝트, 작업 또는 문제를 업데이트할 수 있습니다.
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p><p>작업 이상</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -62,7 +64,7 @@ ht-degree: 0%
 
 ## [!DNL Workfront]의 전자 메일 콘텐츠를 사용하여 [!DNL Google Workspace] 항목 업데이트
 
-1. [!UICONTROL Google Workspace용 Workfront] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 ![&#x200B; 추가 기능 사이드바에서 Workfront 아이콘 &#x200B;](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
+1. [!UICONTROL Google Workspace용 Workfront] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 ![ 추가 기능 사이드바에서 Workfront 아이콘 ](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
 1. [!DNL Google Workspace]에 전자 메일 메시지를 연 상태에서 **[!UICONTROL 패널에서]**&#x200B;새 업데이트로 게시[!DNL Google Workspace]를 클릭합니다.
 1. **[!UICONTROL Type]**&#x200B;에서 드롭다운 화살표를 클릭한 다음 업데이트를 추가할 개체 형식을 클릭합니다.
 1. **[!UICONTROL 검색]** 옵션을 클릭하고 업데이트를 추가할 개체 이름을 입력한 다음 아래 목록에 나타나는 항목을 선택합니다.
@@ -95,11 +97,11 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. **[!UICONTROL 업데이트]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 업데이트를 클릭합니다]**.
 
    브라우저를 새로 고치면 [!DNL Workfront for Google Workspace] 패널 아래쪽에 링크가 있는 메시지가 표시되어 전자 메일을 업데이트로 전환했음을 확인합니다.
 
-   링크를 클릭하여 4단계에서 지정한 개체에 대한 [!UICONTROL 의 &#x200B;]업데이트[!DNL Workfront] 탭으로 이동할 수 있습니다.
+   링크를 클릭하여 4단계에서 지정한 개체에 대한 [!UICONTROL 의 ]업데이트[!DNL Workfront] 탭으로 이동할 수 있습니다.
 
    이 단계를 반복하여 업데이트, 작업 및 문제로 같은 전자 메일을 변환할 수 있습니다([Adobe Workfront 문제 만들기 [!DNL Google Workspace] 전자 메일 콘텐츠 사용](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md) 참조). 브라우저를 새로 고치거나 다른 시간에 전자 메일로 돌아가면 전자 메일에 대해 만든 모든 링크가 [!UICONTROL Google Workspace용 Workfront] 패널 하단에 나열됩니다.
 

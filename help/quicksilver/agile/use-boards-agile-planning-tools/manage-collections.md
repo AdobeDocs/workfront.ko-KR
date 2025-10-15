@@ -7,9 +7,9 @@ description: 작업 스트림은 작업에 대해 공동 작업하기 위해 구
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '934'
 ht-degree: 1%
 
 ---
@@ -30,22 +30,19 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
-   <p>또는</p>
-   <p>현재: [!UICONTROL Request] 이상</p>
+   <p>기여자 이상</p> 
+   <p>요청 이상</p>
    </td> 
   </tr> 
  </tbody> 
@@ -59,7 +56,7 @@ ht-degree: 1%
 
 {{step1-to-boards}}
 
-1. 대시보드의 [!UICONTROL 작업 스트림] 영역에서 **[!UICONTROL 작업 스트림 추가]**&#x200B;를 클릭합니다.
+1. 대시보드의 **[!UICONTROL 작업 스트림]** 영역에서 [!UICONTROL 작업 스트림 추가]를 클릭합니다.
 1. **[!UICONTROL 제목 없는 작업 스트림]**&#x200B;을 바꿀 이름을 입력하고 Enter 키를 누르십시오.
 
    워크스트림에 보드를 추가하거나 [!UICONTROL **모든 보드**]&#x200B;를 클릭하여 대시보드로 돌아갈 수 있습니다.
@@ -67,7 +64,7 @@ ht-degree: 1%
 ## 워크스트림에 새 보드 만들기
 
 1. 아직 작업 스트림에 있지 않은 경우 대시보드에서 [!UICONTROL **작업 스트림 보기**]&#x200B;를 클릭하여 기존 작업 스트림을 엽니다.
-1. 작업 스트림의 [!UICONTROL 보드] 탭에서 **[!UICONTROL 보드 추가]**&#x200B;를 클릭합니다.
+1. 작업 스트림의 **[!UICONTROL 보드]** 탭에서 [!UICONTROL 보드 추가]를 클릭합니다.
 1. 보드에 사용할 템플릿을 선택합니다.
 
 | 템플릿 | 설명 |

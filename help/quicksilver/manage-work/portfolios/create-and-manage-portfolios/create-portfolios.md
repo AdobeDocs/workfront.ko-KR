@@ -1,21 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: 포트폴리오 만들기
+title: Portfolio 만들기
 description: Portfolio은 동일한 리소스, 예산 및 일정에 대해 경쟁하는 프로젝트의 컬렉션입니다. Portfolio의 프로젝트는 동일한 리소스 풀을 사용하고 동일한 스코어카드에 대해 측정될 만큼 유사합니다.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '667'
 ht-degree: 1%
 
 ---
 
 # 포트폴리오 만들기
 
-<!--Audited: 7/2024-->
+<!--Audited: 08/2025-->
 
 Portfolio은 동일한 리소스, 예산 및 일정에 대해 경쟁하는 프로젝트의 컬렉션입니다. Portfolio의 프로젝트는 동일한 리소스 풀을 사용하고 동일한 스코어카드에 대해 측정될 만큼 유사합니다.
 
@@ -23,20 +23,20 @@ Portfolio은 동일한 리소스, 예산 및 일정에 대해 경쟁하는 프�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
    <td> <p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard]</p>
-   <p>현재:[!UICONTROL 계획] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL 계획] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -44,7 +44,7 @@ Portfolio은 동일한 리소스, 예산 및 일정에 대해 경쟁하는 프�
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>포트폴리오를 만들면 기본적으로 이에 대한 관리 권한이 있습니다</p>  </td> 
+   <td> <p>포트폴리오를 만들면 이에 대한 관리 권한이 있습니다</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +52,34 @@ Portfolio은 동일한 리소스, 예산 및 일정에 대해 경쟁하는 프�
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current:[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>After you create a portfolio, you have Manage permissions to it, by default</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## 포트폴리오를 만드는 방법
 
@@ -112,7 +140,7 @@ Portfolio은 동일한 리소스, 예산 및 일정에 대해 경쟁하는 프�
     </tbody> 
    </table>
 
-1. (선택 사항) [!UICONTROL Portfolio 세부 정보] 페이지의 오른쪽 위 모서리에 있는 **[!UICONTROL 사용자 정의 양식 추가]** 상자 내부를 클릭하여 포트폴리오에 대한 사용자 정의 양식을 선택하고 사용자 정의 필드를 업데이트합니다.
+1. (선택 사항) **[!UICONTROL Portfolio 세부 정보]** 페이지의 오른쪽 위 모서리에 있는 [!UICONTROL 사용자 정의 양식 추가] 상자 내부를 클릭하여 포트폴리오에 대한 사용자 정의 양식을 선택하고 사용자 정의 필드를 업데이트합니다.
 
    >[!TIP]
    >

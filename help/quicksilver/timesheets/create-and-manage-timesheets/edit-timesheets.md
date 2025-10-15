@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 타임시트 정보 편집
 description: 타임시트에 대한 관리 액세스 권한이 있는 사용자는 Adobe Workfront에서 기존 타임시트에 대한 정보를 편집할 수 있습니다. 예를 들어 타임시트의 소유자, 승인자 또는 시간대를 편집할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -23,33 +23,34 @@ ht-degree: 1%
 >
 >사용자가 타임시트 프로필과 연결되어 있고 타임시트가 자동으로 생성되는 경우, 기존 타임시트에 대한 변경 사항은 이후 날짜에 대해 생성될 타임시트에 반영되지 않습니다. 자동으로 생성된 모든 타임시트에는 타임시트 프로필에 설정된 설정이 있습니다. 자세한 내용은 [타임시트 프로필 만들기](../create-and-manage-timesheets/create-timesheet-profiles.md)를 참조하세요.
 
-
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> <p>임의</p> </td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>플랜 </p> </td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td>
+   <p>표준</p>
+   <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>타임시트에 대한 관리 액세스 권한이 있어야 합니다. </p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">특정 영역에 대한 관리자 액세스 권한 부여</a>를 참조하십시오.</p> <p><b>메모</b>
-
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
-</tr> 
+   <td>액세스 수준 구성</td> 
+   <td><p>타임시트에 대한 관리 액세스</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 타임시트 편집
 

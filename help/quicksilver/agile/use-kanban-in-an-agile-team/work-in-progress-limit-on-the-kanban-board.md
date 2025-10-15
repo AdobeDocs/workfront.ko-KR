@@ -6,24 +6,22 @@ description: Kanban 보드의 각 열에 대해 WIP(Work In Progress) 한도를 
 author: Lisa
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
 
-# 칸반 보드에서 [!UICONTROL 진행 중인 작업] (WIP) 제한 관리
+# 칸반 보드에서 [!UICONTROL 진행 중인 작업]&#x200B;(WIP) 제한 관리
 
-[Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 문서에 설명된 대로 [!UICONTROL Kanban] 보드의 각 열에 대해 [!UICONTROL 진행 중인 작업] (WIP) 제한을 구성할 수 있습니다.
+[!UICONTROL Kanban 구성] 문서에 설명된 대로 [!UICONTROL Kanban] 보드의 각 열에 대해 [진행 중인 작업](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)(WIP) 제한을 구성할 수 있습니다.
 
 WIP 제한은 단순히 시각적 경고일 뿐 팀이 각 상태 열에 사용자가 설정한 제한보다 더 많은 항목을 보유하는 것을 제한하지 않습니다.
 
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,14 +30,13 @@ WIP 제한은 단순히 시각적 경고일 뿐 팀이 각 상태 열에 사용�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard]</p> 
-   또는
-   <p>현재: [!UICONTROL Work] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p> 
+   <p>작업 이상</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -48,14 +45,14 @@ WIP 제한은 단순히 시각적 경고일 뿐 팀이 각 상태 열에 사용�
 
 +++
 
-## [!UICONTROL Kanban] 보드에서 [!UICONTROL 진행 중인 작업] (WIP) 제한 보기
+## [!UICONTROL Kanban] 보드에서 [!UICONTROL 진행 중인 작업]&#x200B;(WIP) 제한 보기
 
 애자일 팀에 대해 WIP 제한이 구성된 경우 Kanban 보드의 각 열 오른쪽 상단 모서리에 표시됩니다([!UICONTROL 완료] 열 제외).
 
 [!UICONTROL Kanban] 보드의 열에 대한 제한을 초과할 때마다 제한이 빨간색으로 강조 표시되고 메시지가 표시됩니다.
 ![WIP 제한](assets/kanban-wip.png)
 
-## [!UICONTROL Kanban] 보드에서 [!UICONTROL 진행 중인 작업] (WIP) 제한 업데이트
+## [!UICONTROL Kanban] 보드에서 [!UICONTROL 진행 중인 작업]&#x200B;(WIP) 제한 업데이트
 
 [!UICONTROL 편집] 권한이 있는 팀원은 [!UICONTROL Kanban] 보드에서 직접 각 상태 열에 대한 WIP 제한을 업데이트할 수 있습니다. 또는 문서 [Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)에 설명된 대로 WIP 제한을 업데이트할 수 있습니다.
 

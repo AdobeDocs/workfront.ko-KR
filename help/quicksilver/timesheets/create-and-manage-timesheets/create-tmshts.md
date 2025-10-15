@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 일회용 타임시트 만들기
 description: 반복되지 않는 타임시트를 원하는 경우 일회용 타임시트를 수동으로 만들 수 있습니다. 타임시트의 종료 날짜에 도달하여 더 많은 타임시트가 필요한 경우 새 타임시트를 만들어야 합니다.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -38,29 +38,28 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> <p>임의</p> </td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새로운 기능: 표준 </p>
-   <p>현재: 플랜 </p> </td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td>
+   <p>표준</p>
+   <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준</td> 
-   <td> <p>타임시트에 대한 관리 액세스 권한이 있어야 합니다. </p>  </td> 
+   <td>액세스 수준 구성</td> 
+   <td><p>타임시트에 대한 관리 액세스</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

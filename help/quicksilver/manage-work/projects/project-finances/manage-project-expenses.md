@@ -6,9 +6,9 @@ description: 비용을 생성하고 관리하는 프로세스는 프로젝트 �
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e1884aa7975018a737538d909954319e6feee318
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -30,27 +30,27 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td>Adobe Workfront 패키지</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>Adobe Workfront 라이선스</td> 
    <td>
-   <p>새로운 기능: 표준</p>
-   <p>현재: 작업 시간 이상</p></td> 
+   <p>표준</p>
+   <p>작업 이상</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td>프로젝트 및 재무 데이터에 대한 액세스 편집</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
-   <td>재무 보기 또는 관리 권한이 있는 프로젝트에 대한 상위 권한 기여</td> 
+   <td>개체 권한</td> 
+   <td>재무 보기 또는 관리 권한으로 프로젝트에 참여하거나 더 높은 권한을 부여합니다.</td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

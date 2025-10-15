@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 시스템 추적 업데이트 개요
 
-<!-- Audited: 06/2025-->
+<!-- Audited: 08/2025-->
 
 [!DNL Adobe Workfront]은(는) 개체의 [!UICONTROL 업데이트] 섹션에 상태 정보를 기록하여 특정 개체에서 수행되는 활동을 캡처합니다.
 

@@ -3,10 +3,10 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: 작업 및 문제 위임
 description: 부재 중 할당된 작업을 임시로 위임할 수 있습니다. 이 문서에서는 작업 및 문제 할당을 위임하는 방법에 대해 설명합니다.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '1547'
 ht-degree: 0%
@@ -55,12 +55,12 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>새로운 기능: 기여자 이상</p><p>또는</p><p>현재: 검토 이상</p>
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>기여자 이상</p><p>검토 이상</p>
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -92,7 +92,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 이 문서에 설명된 활동을 수행하기 전에 다음을 확인해야 합니다.
 
-* [!DNL Workfront] 또는 그룹 관리자가 [!DNL Workfront] 인스턴스의 [!UICONTROL 설정] 영역에 있는 [!UICONTROL 작업 및 문제 환경 설정] 섹션에서 [!UICONTROL **사용자가 작업 및 문제를 위임하도록 허용**] 설정을 사용하도록 설정했습니다.
+* [!DNL Workfront] 또는 그룹 관리자가 [!UICONTROL **인스턴스의**]&#x200B;설정[!UICONTROL  영역에 있는 ]작업 및 문제 환경 설정[!UICONTROL  섹션에서 ]사용자가 작업 및 문제를 위임하도록 허용[!DNL Workfront] 설정을 사용하도록 설정했습니다.
 
   자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
@@ -151,7 +151,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
    * 작업 및 문제가 다른 사용자에게 위임되었다는 표시는 [!DNL Workfront]에서 할당을 볼 수 있는 대부분의 영역에 표시됩니다. 대리자 이름이 포함되지 않은 영역에 대한 자세한 내용은 [위임 작업 개요](delegate-work-overview.md)를 참조하십시오.
 
-   * 위임이 있음을 나타내기 위해 [!UICONTROL **Home**] 영역의 [!UICONTROL **Delegate**] 단추가 [!UICONTROL **위임 편집**] (으)로 변경됩니다.
+   * 위임이 있음을 나타내기 위해 [!UICONTROL **Home**] 영역의 [!UICONTROL **Delegate**] 단추가 [!UICONTROL **위임 편집**](으)로 변경됩니다.
      <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
       (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
@@ -170,7 +170,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 종료 날짜를 선택하거나 수동으로 위임을 중지할 수 있습니다. 위임 날짜가 변경된 경우 위임 시간대를 수정할 수도 있습니다.
 
-1. [!UICONTROL **홈**] 영역으로 이동한 다음 **내 작업**, **내 작업** 또는 **내 문제** 위젯에서 [!UICONTROL **위임 편집**]&#x200B;을 클릭합니다.
+1. [!UICONTROL **홈**] 영역으로 이동한 다음 [!UICONTROL **내 작업**], **내 작업** 또는 **내 문제** 위젯에서 **위임 편집**&#x200B;을 클릭합니다.
 1. [!UICONTROL 작업 및 문제 위임 중지] 상자에서 다음 중 하나를 수행합니다.
    * [!UICONTROL **시작 날짜**] 또는 [!UICONTROL **종료 날짜**]&#x200B;를 수정하세요.
    * [!UICONTROL **위임 중지**] 클릭
@@ -211,7 +211,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 * 작업 또는 문제 헤더
 
-  작업 또는 문제 헤더의 [!UICONTROL 할당] 필드가 [!UICONTROL 할당 및 위임] (으)로 변경됩니다.
+  작업 또는 문제 헤더의 [!UICONTROL 할당] 필드가 [!UICONTROL 할당 및 위임]&#x200B;(으)로 변경됩니다.
 
   ![작업 헤더의 할당 및 대리자 패널](assets/assignments-and-delegates-panel-in-task-header.png)
 

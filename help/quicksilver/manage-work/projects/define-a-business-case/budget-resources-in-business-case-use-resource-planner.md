@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: 리소스 플래너를 사용한 비즈니스 사례의 예산 리소스
 description: 리소스 계획의 일부로, 프로젝트 수준 리소스 플래너를 사용하여 비즈니스 사례를 작성할 때 프로젝트에서 작업을 완료하는 데 필요한 작업 역할의 예산을 책정할 수 있습니다.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,17 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
-   <td> <p>현재: Prime 이상</p>
-   <p>레거시: Pro 이상</p> 
+   <td role="rowheader"><p>Adobe Workfront 플랜</p></td> 
+   <td> <p>Prime 이상</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td> <p>전류: 라이트 이상</p>
-   <p>레거시: 검토 이상</p>
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
+   <td> <p>밝거나 높음</p>
+   <p>검토 이상</p>
 
 <p><b>중요 사항:</b></p> 
-   <p>현재: 리소스 예산 정보를 수정하려면 Standard 라이센스가 있어야 합니다. </p> 
-   <p>레거시: 리소스 예산 정보를 수정하려면 플랜 라이선스가 있어야 합니다. </p>
+   <p>리소스 예산 정보를 수정하려면 Standard 또는 Plan 라이선스가 있어야 합니다. </p> 
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

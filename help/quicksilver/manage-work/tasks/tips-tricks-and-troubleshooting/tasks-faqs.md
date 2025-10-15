@@ -3,13 +3,13 @@ content-type: faq
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: 작업 FAQ
-description: 기본적으로 작업 요청자/할당자는 다른 사용자에게 할당된 작업의 변경 사항에 대한 이메일 알림을 받지 않습니다. 이러한 작업에 대한 알림의 양은 많은 작업을 일상적으로 할당하는 사용자에게 매우 많을 것입니다.
+description: 이 문서에서는 Adobe Workfront의 작업에 대해 가장 자주 묻는 질문 목록을 제공합니다.
 author: Alina
 feature: Work Management
 exl-id: 6463efdd-02e0-42e1-8fe6-18a88f74db7b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---

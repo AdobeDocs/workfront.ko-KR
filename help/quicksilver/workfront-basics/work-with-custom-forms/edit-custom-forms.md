@@ -7,50 +7,84 @@ description: 양식을 오브젝트에 첨부한 후 사용자 정의 양식에 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # 사용자 정의 양식 필드의 정보 편집
 
+<!--Audited: 10/2025-->
+
 양식을 오브젝트에 첨부한 후 사용자 정의 양식에 대한 정보를 편집할 수 있습니다. 개체에 사용자 정의 양식을 추가하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>팀 이상</td> 
+   <td role="rowheader"> <p>Adobe Workfront 패키지</p> </td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront 라이센스*</p> </td> 
-   <td> <p>요청 이상</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 라이선스</p> </td> 
+   <td> <p>기여자 이상</p> 
+   <p>요청 이상</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준*</td> 
-   <td> <p>사용자 정의 양식을 편집할 객체에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>사용자 정의 양식을 편집할 객체에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>개체 권한</p> </td> 
    <td> 
     <ul> 
-     <li> <p>사용자 정의 양식을 편집할 객체에 대한 Contribute 이상의 권한</p> </li> 
-     <li>편집할 필드에 대한 권한을 봅니다. 사용자 정의 필드에 대한 공유 권한에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">사용자 정의 필드 및 위젯에 대한 공유 구성</a>을 참조하십시오.</li> 
-     <li> <p>편집할 필드가 있는 양식의 섹션에 대한 권한 편집</p> </li> 
-    </ul> <p>개체에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>을(를) 참조하십시오.</p> </td> 
+     <li> <p>사용자 정의 양식을 편집할 오브젝트에 대한 기여 이상의 권한</p> </li> 
+     <li><p>편집할 필드에 대한 권한을 봅니다.</p></li> 
+     <li><p>편집할 필드가 있는 양식의 섹션에 대한 권한 편집</p></li> 
+    </ul></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Team or higher</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront licenses*</p> </td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>Edit access to the object for which you want to edit the custom form</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute or higher permissions on the object for which you want to edit the custom form</p> </li> 
+     <li>View permissions on the fields you want to edit. For information about sharing permissions for custom fields, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</li> 
+     <li> <p>Edit permissions for the sections on the form where the fields you want to edit are located</p> </li> 
+    </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 전제 조건
 
@@ -132,9 +166,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->프로젝트의 복잡성에 따라 최적의 성능을 보장하기 위해 계산된 사용자 정의 필드를 일괄로 다시 계산할 때 많은 수의 프로젝트를 선택하지 않는 것이 좋습니다. 프로젝트를 너무 복잡하게 만들 수 있는 몇 가지 사항은 여러 종속성 또는 할당이거나 사용자 정의 필드의 수가 많을 수 있습니다.
->
->프로젝트 목록에서 사용자 정의 표현식을 일괄적으로 재계산하려면
+>개체 목록에서 사용자 정의 표현식을 다시 계산할 수도 있습니다. 예를 들어 프로젝트 목록에서 사용자 정의 표현식을 일괄적으로 다시 계산하려면 다음을 수행합니다.
 >
 >1. 프로젝트 목록 또는 보고서로 이동하고 하나 또는 여러 프로젝트를 선택합니다.
 >1. **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **사용자 지정 표현식 다시 계산**&#x200B;을 클릭합니다.
@@ -142,3 +174,7 @@ ht-degree: 0%
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >Workfront은 선택한 모든 프로젝트에 대해 모든 사용자 지정 필드를 계산합니다.
+>>모든 객체 목록에 이 기능이 있는 것은 아닙니다.
+>
+>프로젝트의 복잡성에 따라 최적의 성능을 보장하기 위해 계산된 사용자 정의 필드를 일괄로 다시 계산할 때 많은 수의 프로젝트를 선택하지 않는 것이 좋습니다. 프로젝트를 너무 복잡하게 만들 수 있는 몇 가지 사항은 여러 종속성 또는 할당이거나 사용자 정의 필드의 수가 많을 수 있습니다.
+

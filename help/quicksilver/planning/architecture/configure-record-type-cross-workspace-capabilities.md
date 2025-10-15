@@ -4,9 +4,9 @@ description: Adobe Workfront Planning에서 다른 작업 공간에 추가되거
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 92748bab4eee807d9529a61a9d97ac1c1df9c8cf
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,24 @@ Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul><li><p>모든 Workfront 패키지</p></li>
-<p>And</p>
-<li><p>연결 가능한 레코드 유형을 만들기 위한 모든 Planning 패키지</p></li>
-<li><p>글로벌 레코드 유형을 만드는 Planning Plus 패키지</p></li>
-</ul>
-또는:
-<ul><li><p>워크플로우 Prime 또는 Ultimate 패키지</p> </li>
-And
-<li><p>Planning Prime 또는 Ultimate 패키지</p></li></ul>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
+<p>연결 가능한 레코드 유형을 구성하려면: </p>
+<ul> 
+<li><p>모든 Workfront 패키지 및 모든 Planning 패키지</p></li>
+또는
+<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</li></ul>
+
+<p>글로벌 레코드 유형을 구성하려면 다음을 수행합니다.</p>
+
+<ul> 
+<li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
+또는
+<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</li></ul>
+<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
@@ -90,7 +92,7 @@ And
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역 및 레코드 종류</a>에 대한 권한을 관리합니다. </p>  
+   <td>   <p>작업 공간에 대한 권한 관리</p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
   </tr>  
 </tbody> 
@@ -100,7 +102,46 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 +++   
 
-## 글로벌 레코드 유형 구성
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Workflow Prime or Ultimate package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> -- >
+
+## Configure global record types
 
 <!--this is a UI term; don't change the title of this section-->
 

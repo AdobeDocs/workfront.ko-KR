@@ -6,10 +6,10 @@ description: 예기치 않은 결과를 포함하여 내가 진행 중인 프로
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
@@ -17,26 +17,34 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜</strong></td> 
-   <td> <p>임의</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] 라이선스</strong></td> 
-   <td> <p>[!UICONTROL 계획] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
-   <td> <p>[!UICONTROL 시스템 관리자]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront 패키지
+   </td>
+   <td> <p>Prime 또는 Ultimate</p>
+    <p>워크플로 얼티밋</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront 라이선스
+   </td>
+   <td><p>표준</p>
+   <p>플랜</p>
+   </td>
+  </tr>
+   <tr>
+   <td>액세스 수준 구성
+   </td>
+   <td>[!DNL Workfront] 관리자여야 합니다.
+   </td>
+  </tr>
 </table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
+
 
 ## 문제
 

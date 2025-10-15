@@ -7,10 +7,10 @@ description: 기본적으로  [!DNL Adobe Workfront] 보기에 표시된 프로�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 0%
+source-wordcount: '360'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 [!DNL Workfront]에서 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,17 +29,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Review] 이상</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
+   <td> 
+   <p>기여자 이상</p>
+   <p>검토 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 프로젝트 목록에서 그룹화 변경
 
@@ -66,13 +70,13 @@ ht-degree: 0%
 1. [!DNL Workfront] 보기의 홈 페이지에서 목록의 프로젝트를 탭하여 프로젝트 세부 정보를 봅니다.\
    화면에서 사용할 수 있는 위젯에 프로젝트 정보가 표시됩니다.\
    한 번에 최대 4개의 위젯이 표시될 수 있으며 위젯을 제거하고 각 프로젝트에 추가하여 프로젝트에 대한 다양한 정보를 볼 수 있습니다.\
-   [!UICONTROL 프로젝트 세부 정보] 보기에 위젯을 추가하는 방법에 대한 자세한 내용은 [!UICONTROL 프로젝트 세부 정보] 보기에서 [위젯 업데이트](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)를 참조하십시오.
+   [!UICONTROL 프로젝트 세부 정보] 보기에 위젯을 추가하는 방법에 대한 자세한 내용은 [프로젝트 세부 정보[!UICONTROL  보기에서 ]위젯 업데이트](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)를 참조하십시오.
 
 ## [!DNL Workfront View]에서 프로젝트 탐색
 
 1. [!DNL Workfront View] 앱의 프로젝트 목록에서 프로젝트 이름을 탭합니다.\
    프로젝트에 대한 정보는 화면에 업로드된 위젯에 표시됩니다.\
-   [!UICONTROL 프로젝트 세부 정보] 보기에 위젯을 추가하는 방법에 대한 자세한 내용은 [!UICONTROL 프로젝트 세부 정보] 보기에서 [위젯 업데이트](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)를 참조하십시오.
+   [!UICONTROL 프로젝트 세부 정보] 보기에 위젯을 추가하는 방법에 대한 자세한 내용은 [프로젝트 세부 정보[!UICONTROL  보기에서 ]위젯 업데이트](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)를 참조하십시오.
 
 1. 목록에서 다음 프로젝트를 표시하려면 오른쪽에서 왼쪽으로 밉니다.\
    스크롤할 때 각 프로젝트에 대해 동일한 위젯이 표시됩니다.\

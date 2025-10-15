@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1193'
 ht-degree: 4%
 
 ---
@@ -24,31 +24,27 @@ Adobe Workfront 구현을 시작할 때 수동으로 데이터를 입력하지 �
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>
-   <p> 새로운 기능: 표준</p>
-   또는
-   <p>현재: 플랜</p></td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!UICONTROL 시스템 관리자]</td> 
+   <td>액세스 수준 구성</td> 
+   <td>시스템 관리자</td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -307,4 +303,4 @@ Adobe Workfront 구현을 시작할 때 수동으로 데이터를 입력하지 �
 > 
 >조직이 Adobe Admin Console으로 마이그레이션되고 사용자가 몇 분 내에 비활성화됨 및 승인 보류 중 상태에서 벗어나지 않는 경우 사용자 일괄 처리를 Adobe Admin Console에 바로 추가할 수 있습니다.
 >
->지침은 [여러 사용자 관리를 참조하십시오. | Adobe 설명서의 일괄 CSV 업로드](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html).
+>지침은 [여러 사용자 관리를 참조하십시오. | Adobe 설명서의 일괄 CSV 업로드](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).

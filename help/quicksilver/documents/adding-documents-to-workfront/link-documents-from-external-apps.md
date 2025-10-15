@@ -6,9 +6,9 @@ description: 외부 소스에서 문서 및 폴더를 Adobe Workfront에 연결�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2545'
 ht-degree: 0%
 
 ---
@@ -61,21 +61,18 @@ Workfront에 직접 업로드한 문서를 사용하는 것과 동일한 방식�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td>
+   <td role="rowheader">Adobe Workfront 패키지</td>
    <td> <p> 임의</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td>
-   <td><p>새로운 기능: 기여자 이상</p>
-    <p>또는</p>
-    <p>현재: 요청 이상</p> </td>
+   <td><p>기여자 이상</p>
+    <p>요청 이상</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -84,7 +81,7 @@ Workfront에 직접 업로드한 문서를 사용하는 것과 동일한 방식�
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

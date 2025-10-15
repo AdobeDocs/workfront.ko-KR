@@ -6,9 +6,9 @@ description: 아래 설명된 대로 증명을 열 수 없는 경우 Adobe Workf
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 4311e93964c7161b7de5d5aa680e3a822c67012a
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '217'
 ht-degree: 5%
 
 ---
@@ -21,30 +21,34 @@ ht-degree: 5%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>를 참조하십시오.</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>현재 계획: 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">증명 역할</td> 
-   <td>임의</td> 
+   <td role="rowheader">증명 역할 </td> 
+   <td>검토자, 승인자, 검토자 및 승인자, 작성자, 중재자</td> 
   </tr> 
   <tr> 
    <td role="rowheader">교정쇄 권한 프로필 </td> 
    <td>관리자 이상</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>문서에 대한 액세스 편집</p> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -52,11 +56,11 @@ ht-degree: 5%
 
 ## 전제 조건
 
-* 바탕 화면 증명 뷰어를 설치해야 합니다. 자세한 내용은 [데스크탑 증명 뷰어 설치](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)를 참조하십시오.
+* 바탕 화면 증명 뷰어를 설치해야 합니다. 자세한 내용은 [데스크탑 교정쇄 뷰어 설치](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)를 참조하십시오.
 
 ## Desktop Proofing Viewer에서 증명 열기
 
-Desktop Proofing Viewer에서 대화형 콘텐츠를 정기적으로 검토하는 경우, Workfront 관리자는 Desktop Proofing Viewer를 기본 뷰어로 설정할 수 있습니다. 자세한 내용은 [데스크톱 증명 뷰어 이해](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)에서 [데스크톱 증명 뷰어에서 비대화형 증명을 여는 사용자 설정](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs)을 참조하십시오.
+Desktop Proofing Viewer에서 대화형 콘텐츠를 정기적으로 검토하는 경우, Workfront 관리자는 Desktop Proofing Viewer를 기본 뷰어로 설정할 수 있습니다. 자세한 내용은 [데스크톱 증명 뷰어 이해](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs)에서 [데스크톱 증명 뷰어에서 비대화형 증명을 여는 사용자 설정](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)을 참조하십시오.
 
 1. 데스크톱 증명 뷰어에서 **증명 URL**&#x200B;을(를) 입력하십시오.
 

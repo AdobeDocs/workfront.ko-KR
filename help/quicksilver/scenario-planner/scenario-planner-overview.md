@@ -7,10 +7,10 @@ description: 시나리오 플래너에는 Adobe Workfront 라이선스 외에 �
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 5%
+source-wordcount: '514'
+ht-degree: 6%
 
 ---
 
@@ -19,13 +19,6 @@ ht-degree: 5%
 <!-- Audited: 1/2024 -->
 
 [!DNL Workfront Scenario Planner]의 목적은 조직 수준 계획의 실행 속도를 높이며, 예측 가능한 원하는 비즈니스 결과를 도출하는 중요한 결정을 내리는 것입니다.
-
-[!DNL Workfront Scenario Planner]에 액세스하려면 다음 [!DNL Workfront] 계획이 있어야 합니다.
-
-* 새 Workfront 플랜: [!UICONTROL Ultimate] 플랜.
-* 현재 [!DNL Workfront] 플랜의 경우: [!DNL Scenario Planner] 라이선스를 구입하는 것 외에 비즈니스 또는 그 이상의 플랜이 있어야 합니다.
-
-[!DNL Workfront Scenario Planner]을(를) 사용하는 데 필요한 액세스에 대한 자세한 내용은 [을(를) 사용하는 데 필요한 액세스 [!DNL Scenario Planner]](access-needed-to-use-sp.md)을(를) 참조하십시오.
 
 ## [!DNL Scenario Planner] 개요
 
@@ -75,7 +68,7 @@ ht-degree: 5%
 
   프로젝트를 계획으로 가져오는 방법에 대한 자세한 내용은 [계획으로 프로젝트 가져오기 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)를 참조하십시오.
 
-* Publish 시나리오의 이니셔티브에 연결된 프로젝트를 만들거나 업데이트하는 시나리오입니다
+* 시나리오를 게시하여 시나리오의 이니셔티브에 연결된 프로젝트를 만들거나 업데이트합니다.
 
   시나리오 게시에 대한 자세한 내용은 [이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)를 참조하십시오.
 

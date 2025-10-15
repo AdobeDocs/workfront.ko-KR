@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: 계산 예 - EAC를 작업에서 롤업으로 계산
-description: PIM = 시간 기반
-author: Alina
+title: 계산 예 - 작업에서 EAC를 롤업으로 계산
+description: 이 문서에서는 Adobe Workfront에 있는 프로젝트의 모든 작업에서 롤업으로서 프로젝트의 EAC(완료 시 추정 비용)를 계산하는 예를 제공합니다.
+author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 0%
+source-wordcount: '1134'
+ht-degree: 2%
 
 ---
 
@@ -429,64 +429,64 @@ EAC 방법 = 작업/하위 작업에서 롤업
 </table>
 
 1. 프로젝트 작업에서 재무 재계산을 실행합니다.
-1. 작업 1에 대한 **CPI**&#x200B;**1&rbrace; = .14 다음과 같이 계산됨:**\
-   작업 1에 대한 **CPI**&#x200B;**1&rbrace;  = *IF* 실제 인건비 + UsedActualExpenseCost  &lt;> 0 *THEN***
+1. 작업 1에 대한 **CPI****1} = .14 다음과 같이 계산됨:**\
+   작업 1에 대한 **CPI****1}  =** IF *실제 인건비 + UsedActualExpenseCost  &lt;> 0* THEN **
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   작업 1에 대한 **CPI**&#x200B;**1&rbrace;  = (100+300) / (2500+400)**\
-   작업 1에 대한 **CPI**&#x200B;**1&rbrace;  = 400 / 2900**\
-   작업 1에 대한 **CPI**&#x200B;**1&rbrace;  = .14**
+   작업 1에 대한 **CPI****1}  = (100+300) / (2500+400)**\
+   작업 1에 대한 **CPI****1}  = 400 / 2900**\
+   작업 1에 대한 **CPI****1}  = .14**
 
-1. **작업 1**&#x200B;**1에 대한 EAC** = $13,400.00\
-   **작업에 대한 CPI 인건비**&#x200B;**1&rbrace; = 실제 인건비 &lt;> 0 다음**
+1. **작업 1****1에 대한 EAC** = $13,400.00\
+   **작업에 대한 CPI 인건비****1} = 실제 인건비 &lt;> 0 다음**
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
       ELSE CPI_Labor = 1\
-   **작업 &#x200B;**&#x200B;**에 대한 CPI 인건비** = 100/2500\
-   **작업 &#x200B;**&#x200B;**에 대한 CPI 부하 분산** = .04
+   **작업 ****에 대한 CPI 인건비** = 100/2500\
+   **작업 ****에 대한 CPI 부하 분산** = .04
 
-   **작업 1**&#x200B;**에 대한 EAC Labor** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **작업 1****에 대한 EAC Labor** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    *   ELSE* EAC  노무 = 계획 노무비 + 실제 노무비\
-   **작업 &#x200B;**&#x200B;**에 대한 EAC 인건비** = 500.00/.04\
-   **작업 &#x200B;**&#x200B;**에 대한 EAC 인건비** = $12,500.00
+   **작업 ****에 대한 EAC 인건비** = 500.00/.04\
+   **작업 ****에 대한 EAC 인건비** = $12,500.00
 
-   **EAC 경비**&#x200B;**작업 1&rbrace; = UsedActualExpenseCost + NotUsedPlannedExpense**\
-   **작업 &#x200B;**&#x200B;**에 대한 EAC 경비** = $400.00 + $500.00\
-   **작업 &#x200B;**&#x200B;**에 대한 EAC 경비** = $900.00
+   **EAC 경비****작업 1} = UsedActualExpenseCost + NotUsedPlannedExpense**\
+   **작업 ****에 대한 EAC 경비** = $400.00 + $500.00\
+   **작업 ****에 대한 EAC 경비** = $900.00
 
-   **EAC**&#x200B;**for Task 1** = EAC 인건비 + EAC 경비\
-   **작업 &#x200B;**&#x200B;**에 대한 EAC**  = $12,500.00 + $900.00\
-   **작업 &#x200B;**&#x200B;**에 대한 EAC**  = $13,400.00
+   **EAC****for Task 1** = EAC 인건비 + EAC 경비\
+   **작업 ****에 대한 EAC**  = $12,500.00 + $900.00\
+   **작업 ****에 대한 EAC**  = $13,400.00
 
 1. 다음은 작업 2 및 작업 3에 대한 CPI/EAC 값입니다.\
    작업 2 = .19 / $8,433.33\
-   작업 3 = .44 / $6,950.00&#x200B;**&#x200B;**
+   작업 3 = .44 / $6,950.00****
 
 1. 프로젝트의 CPI = .32\
-   **프로젝트의 CPI**&#x200B;**1&rbrace; = *IF* 실제 인건비 + UsedActualExpenseCost  &lt;> 0 *THEN***
+   **프로젝트의 CPI****1} =** IF *실제 인건비 + UsedActualExpenseCost  &lt;> 0* THEN **
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   **프로젝트용 CPI**&#x200B;**1&rbrace; = (1000 + 2300) / (7500 + 2700)**\
-   **프로젝트용 CPI**&#x200B;**1&rbrace; = 3300 / 10200**\
-   **프로젝트용 CPI**&#x200B;**1&rbrace; = .32**
+   **프로젝트용 CPI****1} = (1000 + 2300) / (7500 + 2700)**\
+   **프로젝트용 CPI****1} = 3300 / 10200**\
+   **프로젝트용 CPI****1} = .32**
 
 1. 프로젝트의 EAC는 $28,783.33입니다.\
-   **프로젝트용 EAC**&#x200B;**1&rbrace; = EAC 작업 1 + EAC 작업 2 + EAC 작업 3**\
-   **프로젝트용 EAC**&#x200B;**1&rbrace; = $13,400.00 + $8,433.33 + $6,950.00**\
-   **프로젝트용 EAC**&#x200B;**1&rbrace; = $28,783.33**
+   **프로젝트용 EAC****1} = EAC 작업 1 + EAC 작업 2 + EAC 작업 3**\
+   **프로젝트용 EAC****1} = $13,400.00 + $8,433.33 + $6,950.00**\
+   **프로젝트용 EAC****1} = $28,783.33**

@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 30b99255a2178f972f9a9f3f7eda5f2929a24978
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
 source-wordcount: '13446'
 ht-degree: 2%
@@ -450,7 +450,7 @@ ht-degree: 2%
          * [일정 만들기](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
       * 조직 설정 {#organization-setup}
          * [조직 설정](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
-         * [회사 관리](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
+         * [회사 만들기 및 편집](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
          * [회사 멤버십 관리](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [회사 비활성화 또는 재활성화](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [작업 역할](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
@@ -962,7 +962,7 @@ ht-degree: 2%
          * [Adobe Workfront에서 로그아웃](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
          * [향상된 인증을 통해 사용자 암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
          * [이메일 초대 수신 및 Adobe Workfront 암호 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-         * [&#x200B; [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
+         * [ [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * 모바일 앱 {#mobile-apps}
       * [모바일 앱](workfront-basics/mobile-apps/mobile-apps.md)
@@ -1226,7 +1226,7 @@ ht-degree: 2%
          * [프로젝트에 대한 리소스 예약](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [프로젝트 팀원과 소통](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
          * [애자일 보기에서 프로젝트 관리](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
-         * [프로젝트 지표 개요](manage-work/projects/manage-projects/project-metrics.md)
+         * [프로젝트 지표 이해](manage-work/projects/manage-projects/project-metrics.md)
          * [프로젝트 제한 개요](manage-work/projects/manage-projects/project-maximums.md)
          * [AI Assistant를 사용하여 업데이트 요약](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * 프로젝트 템플릿 만들기 및 관리 {#create-and-manage-project-templates}
@@ -1375,7 +1375,7 @@ ht-degree: 2%
          * [간단한 기간 유형으로 작업의 계획된 시간 및 기간 업데이트](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
          * [Adobe Workfront 및 Microsoft 프로젝트의 기간 유형](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
       * 작업 전임 작업 사용 {#use-task-predecessors}
-         * [작업 전임 작업 사용](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+         * [작업 전임 작업 사용: 문서 색인](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
          * [작업 전임 작업 개요](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
          * [작업 목록에 전임 작업 관계 만들기](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
          * [전임 작업 영역을 사용하여 전임 작업 관계 만들기](manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
@@ -1390,24 +1390,24 @@ ht-degree: 2%
          * [작업 FAQ](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
          * [예상 기간이 계획된 기간과 일치하지 않음](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
    * 문제 {#issues}
-      * [문제](manage-work/issues/issues-overview.md)
+      * [문제: 문서 색인](manage-work/issues/issues-overview.md)
       * 문제 전환 {#convert-issues}
-         * [문제 전환](manage-work/issues/convert-issues/convert-issues-overview.md)
+         * [문제 전환: 문서 색인](manage-work/issues/convert-issues/convert-issues-overview.md)
          * [Adobe Workfront의 문제 전환 개요](manage-work/issues/convert-issues/convert-issues.md)
-         * [Adobe Workfront에서 문제를 프로젝트로 전환](manage-work/issues/convert-issues/convert-issue-to-project.md)
-         * [Adobe Workfront에서 문제를 작업으로 전환](manage-work/issues/convert-issues/convert-issue-to-task.md)
+         * [문제를 프로젝트로 전환](manage-work/issues/convert-issues/convert-issue-to-project.md)
+         * [문제를 작업으로 전환](manage-work/issues/convert-issues/convert-issue-to-task.md)
          * [해결 및 해결 가능한 객체 개요](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
          * [해결 오브젝트에서 문제 연결 해제](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
          * [문제 해결을 다른 문제, 작업 또는 프로젝트에 수동으로 연결](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
       * 문제 정보 {#issue-information}
-         * [문제 정보](manage-work/issues/issue-information/issue-info-overview.md)
+         * [문제 정보: 문서 색인](manage-work/issues/issue-information/issue-info-overview.md)
          * [문제 기간 개요](manage-work/issues/issue-information/issue-duration.md)
          * [문제 우선 순위 업데이트](manage-work/issues/issue-information/update-issue-priority.md)
          * [문제 심각도 업데이트](manage-work/issues/issue-information/update-issue-severity.md)
          * [문제 계획된 완료 일자 개요](manage-work/issues/issue-information/issue-planned-completion-date.md)
          * [문제를 참조할 때 &quot;opTask&quot; 및 &quot;issue&quot; 사용](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
       * 문제 관리 {#manage-issues}
-         * [문제 관리](manage-work/issues/manage-issues/manage-issues-overview.md)
+         * [문제 관리: 문서 색인](manage-work/issues/manage-issues/manage-issues-overview.md)
          * [문제 만들기](manage-work/issues/manage-issues/create-issues.md)
          * [문제 할당](manage-work/issues/manage-issues/assign-issues.md)
          * [문제 보기](manage-work/issues/manage-issues/view-issues.md)
@@ -1436,9 +1436,9 @@ ht-degree: 2%
          * [포트폴리오: 문서 색인](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [포트폴리오 내에서 탐색](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [Portfolio 관리 개요](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-         * [Adobe Workfront의 Portfolio 개요](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+         * [포트폴리오 방법론 이해](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * 포트폴리오 만들기 및 관리 {#create-and-manage-portfolios}
-         * [포트폴리오 만들기 및 관리](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
+         * [포트폴리오 만들기 및 관리: 문서 색인](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [포트폴리오 만들기](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [포트폴리오 삭제 및 비활성화](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
          * [포트폴리오 편집](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
@@ -1455,7 +1455,7 @@ ht-degree: 2%
          * [프로그램에서 프로젝트 제거](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
          * [프로그램 삭제 및 비활성화](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
       * Portfolio Optimizer에서 프로젝트 관리 {#manage-projects-in-portfolio-optimizer}
-         * [Portfolio Optimizer에서 프로젝트 관리](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+         * [Portfolio Optimizer에서 프로젝트 관리: 문서 색인](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Portfolio Optimizer 개요](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
          * [Portfolio Optimizer 찾기](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
          * [Portfolio Optimizer 점수 개요](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
@@ -1507,7 +1507,7 @@ ht-degree: 2%
       * [조직도 보기](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
    * 그룹 및 팀과 작업 {#work-with-groups-teams}
       * [그룹 및 팀과 작업](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
-      * [Adobe Workfront의 그룹과 팀 비교](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+      * [Workfront의 그룹과 팀 비교](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
    * 팀 요청 작업 {#work-with-team-requests}
       * [팀 요청 작업](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
       * [팀 요청 개요](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
@@ -1999,7 +1999,7 @@ ht-degree: 2%
       * [Adobe Workfront API를 사용하여 시간 레코드 추적](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
       * [미래 날짜에 대한 시간을 기록할 수 없음](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
 * Adobe Workfront 시나리오 플래너 {#scenario-planner}
-   * [Adobe Workfront 시나리오 플래너](scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]: 문서 인덱스](scenario-planner/scenario-planning.md)
    * [시나리오 플래너 시작](scenario-planner/get-started-with-scenario-planning.md)
    * [시나리오 플래너 개요](scenario-planner/scenario-planner-overview.md)
    * [시나리오 플래너를 사용하는 데 필요한 액세스](scenario-planner/access-needed-to-use-sp.md)
@@ -2182,7 +2182,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2190,8 +2190,8 @@ ht-degree: 2%
          * [XD 아트보드를 Workfront에 문서로 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [&#x200B; [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [&#x200B; [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [ [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator 및 InDesign용 Workfront 확장 {#workfront-for-illustrator-indesign}
          * [Illustrator 및 InDesign용 Workfront 확장 사용](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Adobe Workfront for Jira {#workfront-for-jira}
@@ -2491,7 +2491,6 @@ ht-degree: 2%
    * API 참고 사항 {#api-notes}
       * [API 참고 사항](wf-api/api/api.md)
       * [API를 통해 파일 업로드](wf-api/api/uploading-files-api.md)
-      * [JSONP에 대한 지원 종료](wf-api/api/ending-support-jsonp.md)
       * [사용자 사용 가능한 시간 가져오기](wf-api/api/api-user-available-time.md)
       * [기본 API 버전 관리를 사용하는 통합 업데이트](wf-api/api/update-default-api-versioning.md)
       * [이벤트 구독 메시지 필터링](wf-api/api/filter-event-sub-messages.md)

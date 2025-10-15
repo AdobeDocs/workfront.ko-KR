@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: 비즈니스 사례 목표 만들기
 description: 비즈니스 사례를 만드는 과정의 일부로, 일련의 목표를 생성하여 프로젝트의 목표를 정의할 수 있습니다. 비즈니스 사례 목표는 프로젝트 완료를 위해 Portfolio 관리자 또는 프로젝트 스폰서와 통신하는 데 사용됩니다.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 1%
+source-wordcount: '431'
+ht-degree: 2%
 
 ---
 
@@ -50,15 +50,14 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
-   <td> <p>현재: Prime 이상</p>
-   <p>레거시: Pro 이상</p>  </td> 
+   <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
+   <td> <p>Prime 이상</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td> 
-   <p>현재: 표준</p> 
-   <p>레거시: 플랜 </p> 
+   <p>표준</p> 
+   <p>플랜 </p> 
    </td> 
   </tr> 
   <tr> 
@@ -72,7 +71,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

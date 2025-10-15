@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: 문제 상태를 피드백 대기에서 진행 중으로 자동 업데이트
+title: 문제 상태를 피드백 대기 상태에서 진행 중으로 자동 업데이트
 description: 문제의 기본 담당자가 필드(사용자 정의 필드 포함)를 업데이트하거나 댓글을 추가하여 문제를 업데이트하면 문제 상태가 자동으로 진행 중으로 업데이트됩니다.
 author: Alina
 feature: Work Management
 exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%

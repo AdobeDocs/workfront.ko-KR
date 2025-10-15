@@ -6,9 +6,9 @@ description: Adobe Workfront 보드에서 연결된 카드에 문서를 추가�
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -25,27 +25,24 @@ Adobe Workfront 보드에서 연결된 카드에 문서를 추가할 수 있습�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
-   <p>또는</p>
-   <p>현재: [!UICONTROL Request] 이상</p>
+   <p>기여자 이상</p> 
+   <p>요청 이상</p>
    </td> 
   </tr> 
    <tr>
    <td role="rowheader">액세스 수준 구성</td>
-   <td>문서에 대한 [!UICONTROL 편집] 액세스 권한</td>
+   <td>문서에 대한 액세스 편집</td>
   </tr>
  </tbody> 
 </table>
@@ -72,4 +69,4 @@ Adobe Workfront 보드에서 연결된 카드에 문서를 추가할 수 있습�
 
    >[!NOTE]
    >
-   >PDF은 썸네일 이미지를 표시하지 않습니다.
+   >PDF에는 썸네일 이미지가 표시되지 않습니다.

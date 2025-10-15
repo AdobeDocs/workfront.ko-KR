@@ -6,9 +6,9 @@ description: 할당된 작업 또는 문제의 커밋 일자를 수동으로 업
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -30,25 +30,24 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   신규:
    <ul>
    <li><p>작업 표준</p> </li>
    <li><p>문제에 대한 기여자 이상</p></li>
    </ul>
-   현재:
+   <p>또는</p>
 <ul>
    <li><p>작업 이상</p></li> 
    <li><p>문제에 대한 요청 이상</p></li>
@@ -69,9 +68,47 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-* 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   New:
+   <ul>
+   <li><p>Standard for tasks</p> </li>
+   <li><p>Contributor or higher for issues</p></li>
+   </ul>
+   Current:
+<ul>
+   <li><p>Work or higher for tasks</p></li> 
+   <li><p>Request or higher for issues</p></li>
+</ul>
+
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on the task or issue</p>
+   <p> You must be assigned to the task or issue to update the commit date </p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 전제 조건
 
@@ -102,7 +139,7 @@ Workfront의 다음 영역에서 작업 또는 문제의 커밋 일자를 업데
 
 1. **소유자**(으)로 할당된 작업 또는 문제로 이동합니다.
 
-   문제 또는 작업에 대한 작업 소유자를 찾는 방법에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md) 문서의 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 섹션을 참조하십시오.
+   문제 또는 작업에 대한 작업 소유자를 찾는 방법에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 문서의 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md) 섹션을 참조하십시오.
 
 1. (조건부 및 선택 사항) Workfront 또는 그룹 관리자가 작업 또는 문제 헤더에 커밋 날짜를 추가한 경우 헤더의 **커밋 날짜** 필드를 클릭한 다음 달력에서 날짜를 선택합니다. 커밋 일자 가 헤더에 없으면 다음 단계를 진행하십시오.
 

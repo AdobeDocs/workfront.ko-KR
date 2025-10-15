@@ -7,7 +7,7 @@ description: 프로젝트의 업데이트 유형은 Adobe Workfront이 프로젝
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -49,5 +49,5 @@ Workfront에서 프로젝트 타임라인을 다시 계산하려는 시기에 �
   >
   >프로젝트가 Planning 상태인 경우 매일 밤 자동으로 다시 계산되지 않습니다. 변경 시에만 다시 계산됩니다.
 
-* **수동 전용:** 문서 [프로젝트 타임라인 다시 계산](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)의 &quot;수동 다시 계산&quot; 섹션에 설명된 대로 **타임라인 다시 계산**&#x200B;에 대한 옵션을 선택한 경우에만 프로젝트 타임라인이 업데이트됩니다.\
+* **수동 전용:** 문서 **프로젝트 타임라인 다시 계산**&#x200B;의 &quot;수동 다시 계산&quot; 섹션에 설명된 대로 [타임라인 다시 계산](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)에 대한 옵션을 선택한 경우에만 프로젝트 타임라인이 업데이트됩니다.\
   한 번에 프로젝트를 여러 번 변경하고, 각 개별 변경 내용이 아닌 모든 변경 내용이 적용된 후에 타임라인 재계산을 수행하려는 경우 이 옵션을 선택할 수 있습니다.

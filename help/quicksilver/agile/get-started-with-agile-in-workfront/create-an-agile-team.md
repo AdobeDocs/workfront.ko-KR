@@ -6,9 +6,9 @@ description: Adobe Workfront을 사용하면 애자일 팀이 점진적이고 �
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '990'
 ht-degree: 1%
 
 ---
@@ -31,8 +31,6 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,15 +38,14 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: 표준</p>
-   현재: 
-   <ul><li><p>새 애자일 팀을 만들려면 [!UICONTROL Plan]</p></li> 
-   <li><p>팀을 애자일 팀으로 전환하려면 [!UICONTROL Work] 이상</p></li></ul> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p>
+   <p>새 애자일 팀 만들기 계획</p>
+  <p>팀 또는 그 이상을 작업하여 팀을 애자일 팀으로 전환</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +64,7 @@ ht-degree: 1%
 
 ### [!DNL Workfront]에서 Kanban을 사용할 때의 이점
 
-[!DNL Workfront]의 [!DNL Kanban] 애자일 방법론을 사용하면 진행 중인 작업의 양을 제한하면서 애자일 스토리 보드에서 스토리를 보다 쉽게 이동할 수 있습니다. [!DNL Kanban] 애자일 방법론을 사용할 때 시작 및 종료 날짜가 없습니다.
+[!DNL Kanban]의 [!DNL Workfront] 애자일 방법론을 사용하면 진행 중인 작업의 양을 제한하면서 애자일 스토리 보드에서 스토리를 보다 쉽게 이동할 수 있습니다. [!DNL Kanban] 애자일 방법론을 사용할 때 시작 및 종료 날짜가 없습니다.
 
 다음 기능은 이 방법을 지원합니다.
 
@@ -75,7 +72,7 @@ ht-degree: 1%
 자세한 내용은 [백로그를 [!UICONTROL Kanban] 보드에 추가](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)를 참조하십시오.
 
 * 다른 항목이 완료와 동일한 상태로 이동될 때 백로그에 있는 항목이 [!UICONTROL Kanban] 애자일 스토리 보드에 자동으로 추가되도록 구성하십시오.
-자세한 내용은 문서 [Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)의 [백로그에서 자동으로 추가할 스토리 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) 섹션을 참조하십시오.
+자세한 내용은 문서 [Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)의 [백로그에서 자동으로 추가할 스토리 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 섹션을 참조하십시오.
 
 * [!UICONTROL Kanban] 애자일 스토리 보드에 표시할 WIP(Work In Progress) 한도를 구성합니다.
 자세한 내용은 [Kanban 보드에서 WIP(작업 진행 중) 제한 관리](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)를 참조하십시오.
@@ -118,7 +115,7 @@ ht-degree: 1%
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 이 활성 상태입니다]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL이 활성 상태입니다]</strong> </td> 
       <td>이 팀을 활성화하려면 이 옵션을 선택하십시오. 비활성 팀은 작업에 할당할 다른 사용자에게 표시되지 않습니다. </td> 
      </tr>
 

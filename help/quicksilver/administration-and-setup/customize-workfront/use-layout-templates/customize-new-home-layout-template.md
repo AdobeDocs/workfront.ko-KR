@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '828'
 ht-degree: 1%
 
 ---
@@ -43,31 +43,29 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td><p>새로운 기능: 표준</p>
-  <p> 현재: 플랜</p>
-   </td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>시스템 수준에서 이러한 단계를 수행하려면 시스템 관리자 액세스 수준이 필요합니다.
-그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> </td> 
+   <td>액세스 수준 구성</td> 
+   <td> <p>시스템 수준에서 이러한 단계를 수행하려면 시스템 관리자 액세스 수준이 필요합니다.</p>
+        <p>그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -136,11 +134,11 @@ ht-degree: 1%
    >
    >* 필터, 열 및 그룹 옵션은 레이아웃 템플릿의 목록 사용자 지정 옵션에 연결됩니다. 여기에서 변경한 사항은 해당 설정에도 적용됩니다.
    >* 관리자 열 구성을 홈 페이지에 올바르게 적용하려면 사용자에게 보기에 대해 적어도 만들기 액세스 권한이 있어야 합니다.
-   ></p>
-   >   <li><p>옵션 위로 마우스를 이동하고 <b>기본값으로 설정</b>을 클릭하여 위젯에 대한 기본 필터 또는 그룹을 설정합니다. 현재 기본값은 오른쪽에 파란색 <b>기본</b> 배지를 표시합니다.</p></li>
-   >   <li><p>각 목록 맨 아래에 있는 더하기 기호 버튼을 클릭하여 해당 목록에 옵션을 추가하여 사용 가능한 옵션 목록에 기존 필터, 열 또는 그룹을 추가합니다. 기존 필터, 필드(열의 경우) 또는 그룹만 이 방법으로 추가할 수 있습니다.</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>옵션 위로 마우스를 이동하고 <b>기본값으로 설정</b>을 클릭하여 위젯에 대한 기본 필터 또는 그룹을 설정합니다. 현재 기본값은 오른쪽에 파란색 <b>기본</b> 배지를 표시합니다.</p></li>
+      <li><p>각 목록 맨 아래에 있는 더하기 기호 버튼을 클릭하여 해당 목록에 옵션을 추가하여 사용 가능한 옵션 목록에 기존 필터, 열 또는 그룹을 추가합니다. 기존 필터, 필드(열의 경우) 또는 그룹만 이 방법으로 추가할 수 있습니다.</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >

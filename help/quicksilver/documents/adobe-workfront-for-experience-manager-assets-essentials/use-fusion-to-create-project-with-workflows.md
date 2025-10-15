@@ -6,9 +6,9 @@ description: Workfront Fusion을 통해 프로젝트를 생성하고 프로젝�
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 6a21465ab8c92888c83344f33574302c5cc446e8
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -19,23 +19,21 @@ Workfront Fusion을 통해 프로젝트를 생성하고 프로젝트에 Adobe Ex
 
 >[!NOTE]
 >
->워크플로우는 Adobe Experience Manager as a Cloud Service 통합에서만 사용할 수 있습니다. Adobe Experience Manager Assets Essentials과의 통합에서는 사용할 수 없습니다.
+>워크플로우는 Adobe Experience Manager as a Cloud Service 통합에서만 사용할 수 있습니다. Adobe Experience Manager Assets Essentials와의 통합에서는 사용할 수 없습니다.
 
 
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
-
 <table>
   <tr>
-    <td><strong>Adobe Workfront 플랜*</strong></td>
-    <td>임의</td>
+    <td><strong>Adobe Workfront 패키지</strong></td>
+   <td> <p>모든 Adobe Workfront 워크플로 패키지 및 모든 Adobe Workfront 자동화 및 통합 패키지</p><p>Workfront Ultimate</p><p>Workfront Prime 및 Select 패키지 및 Workfront Fusion 추가 구매.</p> </td> 
   </tr>
   <tr>
-   <td><strong>Adobe Workfront 라이센스*</strong></td>
-   <td>요청 이상</td>
+   <td><strong>Adobe Workfront 라이선스</strong></td>
+   <td><p>기여자 이상</p><p>요청 이상</p></td>
   </tr>
   <tr>
    <td><strong>제품</strong></td>
@@ -43,33 +41,24 @@ Workfront Fusion을 통해 프로젝트를 생성하고 프로젝트에 Adobe Ex
      <p><b>Adobe Experience Manager:</b></p>
      <ul>
        <li>
-         <p>Experience Manager Assets as a Cloud Service 또는 Assets Essentials이 있어야 하며 Admin Console에서 사용자로 제품에 추가되어야 합니다.</p>
+         <p>Experience Manager Assets as a Cloud Service 또는 Assets Essentials가 있어야 하며 Admin Console에서 사용자로 제품에 추가되어야 합니다.</p>
        </li>
        <li>
         <p>Adobe Experience Manager의 저장소에 대한 쓰기 액세스 권한이 있어야 합니다.</p>
        </li>
      </ul>
      <p><b>Workfront Fusion:</b></p>
-     <p>신규:</p>
      <ul>
        <li>
-         <p>또는 Prime Workfront 플랜 선택: 귀사는 Adobe Workfront Fusion을 구매해야 합니다.</p>
-       </li>
-       <li> 
-         <p>Ultimate Workfront 플랜: Workfront Fusion이 포함됩니다.</p>
+        <p>조직에 Workfront 자동화 및 통합이 포함되지 않은 Select 또는 Prime Workfront 패키지가 있는 경우 조직에서 Adobe Workfront Fusion을 구매해야 합니다.</li></ul>
        </li>
      </ul>
-     <p>또는</p>
-     <p>현재: 조직은 Adobe Workfront Fusion을 구매해야 합니다.</p>
    </td>
   </tr>
   <tr>
-   <td><strong>액세스 수준 구성*</strong>
+   <td><strong>액세스 수준 구성</strong>
    </td>
-   <td>문서에 대한 액세스 편집
-     <p>
-       <strong>참고: </strong>아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <strong>사용자 지정 액세스 수준 만들기 또는 수정</strong>을 참조하십시오.
-     </p>
+   <td><p>문서에 대한 액세스 편집</p>
    </td>
   </tr>
 </table>
@@ -93,7 +82,7 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 1. 시나리오에 **Workfront** > **기타 작업** 모듈을 추가합니다.
 1. **연결** 필드에서 이 모듈에서 사용할 계정에 연결하는 Workfront 연결을 선택합니다.
 
-   연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.
+   연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.
 
    클라이언트 ID 및 클라이언트 암호를 만드는 방법에 대한 지침은 이 문서에서 [OAuth 응용 프로그램 만들기](#create-an-oauth-application)를 참조하십시오.
 
@@ -157,13 +146,13 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 
    ![폴더 ID 찾기](assets/finding-folder-id-2.png)
 
-   **Workfront** > **기타 작업** Fusion 모듈의 **프로젝트(고급 컬렉션)** 필드에 입력할 `aemNativeFolderTreeIDs` 값입니다.
+   `aemNativeFolderTreeIDs`Workfront **>**&#x200B;기타 작업&#x200B;**Fusion 모듈의**&#x200B;프로젝트(고급 컬렉션)**필드에 입력할** 값입니다.
 
 ## OAuth 애플리케이션 만들기
 
 이 모듈의 연결을 위해 Workfront에서 OAuth 애플리케이션을 설정해야 합니다. Fusion에서 제공된 Workfront 연결에 대해 이 작업을 한 번만 수행하면 됩니다.
 
-1. [!DNL Workfront] 통합을 위한 OAuth2 애플리케이션 만들기 문서의 [사용자 자격 증명(인증 코드 흐름)을 사용하여 OAuth2 애플리케이션 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow)에 설명된 대로 Workfront에서 OAuth 애플리케이션 만들기를 시작합니다.
+1. [ 통합을 위한 OAuth2 애플리케이션 만들기 문서의 ](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow)사용자 자격 증명(인증 코드 흐름)을 사용하여 OAuth2 애플리케이션 만들기[!DNL Workfront]에 설명된 대로 Workfront에서 OAuth 애플리케이션 만들기를 시작합니다.
 1. 클라이언트 ID 및 클라이언트 암호를 안전한 위치에 복사합니다.
 1. **리디렉션 URI** 필드에 다음을 입력하십시오.
 
@@ -175,4 +164,4 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 
 Fusion에서 모듈의 연결을 구성할 때 이 클라이언트 ID와 클라이언트 암호를 사용합니다.
 
-연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.
+연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.

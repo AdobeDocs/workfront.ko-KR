@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: 사용자가 요청 대기열 프로젝트에 문제를 이메일로 보내기 활성화
 description: 사용자가 이메일을 통해 프로젝트에 문제를 추가할 수 있도록 프로젝트를 구성할 수 있습니다.
-author: Alina, Courtney
+author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,18 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 기여자 이상</p>
-   또는
-   <p>현재: 요청 이상</p>
+   <td> <p>기여자 이상</p>
+   <p>요청 이상</p>
     </td> 
   </tr> 
   <tr> 
@@ -55,7 +52,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -79,7 +76,7 @@ ht-degree: 0%
 >* Workfront에서는 모든 클러스터에서 요청 대기열당 하나의 고유한 이메일을 허용합니다. 요청 대기열을 비활성화하도록 선택하면 만든 이메일 주소가 수신 이메일 주소 상자에 있는 한 유지됩니다. 수신 이메일 사용을 중단하기로 선택한 경우 나중에 사용할 수 있도록 수신 이메일 필드에서 해당 수신 이메일을 삭제해야 합니다.
 >
 >* 요청 대기열에 여러 개의 대기열 주제 또는 주제 그룹이 있는 경우 Workfront은 이메일 요청이 전달될 대기열 주제를 임의로 선택하여 이메일 요청을 관리하기 어렵게 합니다.
->  &#x200B;>이메일을 통해 요청을 수신하도록 설정한 프로젝트에는 대기열 주제가 두 개 이상 있어서는 안 됩니다. 제출된 요청이 다른 리소스 또는 프로젝트를 위한 경우 제출된 후 수동으로 라우팅하거나 이동해야 합니다.
+>  >이메일을 통해 요청을 수신하도록 설정한 프로젝트에는 대기열 주제가 두 개 이상 있어서는 안 됩니다. 제출된 요청이 다른 리소스 또는 프로젝트를 위한 경우 제출된 후 수동으로 라우팅하거나 이동해야 합니다.
 
 1. 이메일을 통해 문제를 수신할 수 있도록 활성화할 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **큐 세부 정보**&#x200B;를 클릭합니다.

@@ -6,9 +6,9 @@ description: 홈 작업 목록에 액세스하고, 작업 및 문제에 대한 �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -17,28 +17,34 @@ ht-degree: 1%
 
 [!DNL Adobe Workfront for Slack]을(를) 설치한 후 다음을 수행할 수 있습니다.
 
-* [!DNL Slack]에서 [!UICONTROL 홈] 항목의 액세스 목록
+* [!UICONTROL 에서 ]홈[!DNL Slack] 항목의 액세스 목록
 * [!DNL Slack]의 작업 및 문제를 검토하고 수락합니다.
 * [!DNL Slack]의 승인 검토 및 결정
 
-[!DNL Slack]을(를) 사용하여 [!DNL Workfront]을(를) 구성하는 방법에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을(를) 참조하십시오.
+[!DNL Workfront]을(를) 사용하여 [!DNL Slack]을(를) 구성하는 방법에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을(를) 참조하십시오.
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/kr/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront] 계획</a>*</td> 
-   <td> <p>[!UICONTROL Pro] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>임의</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -49,8 +55,8 @@ ht-degree: 1%
 
 ## [!DNL Slack]에서 작업 관리
 
-1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
-   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.\
+   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]Access[!DNL Slack]from[의 &quot; [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
 
 1. 모든 채널에서 메시지 필드에 다음 명령을 입력합니다.
 
@@ -59,7 +65,7 @@ ht-degree: 1%
    >[!NOTE]
    >
    >* 명령은 대/소문자를 구분합니다.
-   >* `/workfront` 대신 `/wf`(으)로 명령을 시작할 수 있습니다.
+   >* `/wf` 대신 `/workfront`(으)로 명령을 시작할 수 있습니다.
 
    작업, 문제 및 승인 목록에 액세스할 수 있는 버튼이 표시됩니다. 단추 중 하나를 클릭하면 [!DNL Slack]에서 각 목록의 처음 20개 항목이 표시됩니다.
 
@@ -76,8 +82,8 @@ ht-degree: 1%
 
 ## [!DNL Slack]에서 작업 관리 {#manage-your-tasks-from-slack}
 
-1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
-   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.\
+   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]Access[!DNL Slack]from[의 &quot; [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
 
 1. 채널에서 메시지 필드에 다음 명령 중 하나를 입력하십시오.
 
@@ -90,7 +96,7 @@ ht-degree: 1%
    >[!NOTE]
    >
    >* 명령은 대/소문자를 구분합니다.
-   >* `/workfront` 대신 `/wf`(으)로 명령을 시작할 수 있습니다.
+   >* `/wf` 대신 `/workfront`(으)로 명령을 시작할 수 있습니다.
 
    목록의 처음 20개 작업이 표시됩니다.
 
@@ -119,8 +125,8 @@ ht-degree: 1%
 
 ## [!DNL Slack]에서 문제 관리 {#manage-your-issues-from-slack}
 
-1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
-   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [다음에 로그인 [!DNL Workfront] 부터 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access [!DNL Adobe Workfront] 부터 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)을 참조하십시오.
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.\
+   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [다음에 로그인 [!DNL Workfront] 부터 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access [!DNL Adobe Workfront] 부터 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)을 참조하십시오.
 
 1. 채널에서 메시지 필드에 다음 명령 중 하나를 입력하십시오.
 
@@ -133,7 +139,7 @@ ht-degree: 1%
    >[!NOTE]
    >
    >* 명령은 대/소문자를 구분합니다.
-   >* `/workfront` 대신 `/wf`(으)로 명령을 시작할 수 있습니다.
+   >* `/wf` 대신 `/workfront`(으)로 명령을 시작할 수 있습니다.
 
    목록의 처음 20개 문제가 표시됩니다.
 
@@ -152,8 +158,8 @@ ht-degree: 1%
 
 ## [!DNL Slack]에서 승인 관리 {#manage-your-approvals-from-slack}
 
-1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
-   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.\
+   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]Access[!DNL Slack]from[의 &quot; [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
 
 1. 채널에서 메시지 필드에 다음 명령 중 하나를 입력하십시오.
 
@@ -166,7 +172,7 @@ ht-degree: 1%
    >[!NOTE]
    >
    >* 명령은 대/소문자를 구분합니다.
-   >* `/workfront` 대신 `/wf`(으)로 명령을 시작할 수 있습니다.
+   >* `/wf` 대신 `/workfront`(으)로 명령을 시작할 수 있습니다.
 
    **[!UICONTROL 승인]** 목록의 처음 20개 항목이 표시됩니다. 항목을 요청한 사용자의 이름이나 항목이 속한 프로젝트의 이름과 같은 항목에 대한 추가 정보도 표시됩니다.
 

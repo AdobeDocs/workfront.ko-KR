@@ -6,9 +6,9 @@ description: Workfront 확장 프로그램을 사용하여 Adobe Illustrator 및
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: '3069'
 ht-degree: 0%
 
 ---
@@ -37,26 +37,24 @@ Workfront 확장은 다음 애플리케이션에서 Adobe Creative Cloud 2017 �
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>현재: Pro 이상</p>
-   또는
-   <p>신규: 모든 플랜</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p>
+ </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>현재: 작업 시간 이상</p>
-   또는
-   <p>새로운 기능: 표준</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> 
+      <p>표준</p> 
+   <p>작업 이상</p>
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">제품</td> 
+   <td role="rowheader">추가 제품</td> 
    <td>Workfront 라이선스 외에 Adobe Creative Cloud 라이선스가 있어야 합니다.</td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ Workfront 확장은 다음 애플리케이션에서 Adobe Creative Cloud 2017 �
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -233,7 +231,7 @@ Adobe 애플리케이션 내에서 Workfront 문서에 직접 주석을 추가�
 
 1. (선택 사항) 댓글에 다른 Workfront 사용자 또는 팀을 포함하려면 **사람 또는 팀에 알림** 상자에 사용자 또는 팀의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
 1. (선택 사항) 문서에 대한 승인을 요청하려면 **승인 요청 만들기**&#x200B;를 선택합니다.
-1. **업데이트**&#x200B;를 클릭합니다.
+1. **업데이트를 클릭합니다**.
 
    문서의 업데이트 탭에 업데이트가 게시됩니다. 댓글에 포함하는 Workfront 사용자는 인앱 알림을 받으며, Workfront이 구성되는 방식에 따라 이메일 알림을 받을 수도 있습니다.
 
@@ -289,7 +287,7 @@ Adobe 애플리케이션에서 문서에 대한 승인을 요청하려면
 
 ## Illustrator 또는 InDesign에서 증명 생성 {#generate-a-proof-from-illustrator-or-indesign}
 
-조직에서 자동화된 워크플로 템플릿을 사용하는 경우 애플리케이션을 종료하지 않고 Adobe 애플리케이션에서 만든 문서에 대한 증명을 생성할 수 있습니다. 증명 만들기에 대한 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)를 참조하십시오. 자동화된 워크플로 템플릿에 대한 자세한 내용은 [자동화된 워크플로 개요](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)에서 [자동화된 워크플로 템플릿](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)을 참조하십시오.
+조직에서 자동화된 워크플로 템플릿을 사용하는 경우 애플리케이션을 종료하지 않고 Adobe 애플리케이션에서 만든 문서에 대한 증명을 생성할 수 있습니다. 증명 만들기에 대한 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)를 참조하십시오. 자동화된 워크플로 템플릿에 대한 자세한 내용은 [자동화된 워크플로 개요](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)에서 [자동화된 워크플로 템플릿](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)을 참조하십시오.
 
 1. 지원되는 Adobe 애플리케이션 중 하나를 엽니다.
 1. Workfront 확장이 표시되지 않으면 **창** > **확장** > Workfront을 클릭합니다.

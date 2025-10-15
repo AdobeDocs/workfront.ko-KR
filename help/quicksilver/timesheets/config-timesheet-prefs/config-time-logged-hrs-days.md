@@ -3,19 +3,19 @@ product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
 title: 시간이 시간 단위로 기록되는지 또는 일 단위로 기록되는지 구성
 description: 플랜 라이선스가 있는 사용자는 Adobe Workfront에 시간을 몇 시간 또는 며칠 단위로 기록할지 여부를 구성할 수 있습니다. 시스템 관리자는 개별 사용자 또는 조직의 여러 사용자에 대해 이 설정을 구성할 수 있습니다. 기본적으로 사용자는 시간을 시간 단위로 기록합니다.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
+source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
 
 # 시간이 시간 단위로 기록되는지 또는 일 단위로 기록되는지 구성
 
-플래너 라이선스를 가진 사용자는 Adobe Workfront에 시간을 몇 시간 단위로 기록할지 또는 며칠 단위로 기록할지 구성할 수 있습니다. 시스템 관리자는 개별 사용자 또는 조직의 여러 사용자에 대해 이 설정을 구성할 수 있습니다. 기본적으로 사용자는 시간을 시간 단위로 기록합니다. Workfront에서 시간을 기록하는 방법에 대한 자세한 내용은 [시간 기록](../../timesheets/create-and-manage-timesheets/log-time.md)을 참조하세요.
+Standard 또는 Plan 라이선스를 가진 사용자는 Adobe Workfront에서 시간을 몇 시간 또는 며칠 단위로 기록할지 구성할 수 있습니다. 시스템 관리자는 개별 사용자 또는 조직의 여러 사용자에 대해 이 설정을 구성할 수 있습니다. 기본적으로 사용자는 시간을 시간 단위로 기록합니다. Workfront에서 시간을 기록하는 방법에 대한 자세한 내용은 [시간 기록](../../timesheets/create-and-manage-timesheets/log-time.md)을 참조하세요.
 
 >[!NOTE]
 >
@@ -23,34 +23,36 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>임의</p> </td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td>
+   <p>표준</p>
+   <p>플랜</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>플래너는 스스로 시간을 구성할 수 있습니다. Workfront 관리자만 다른 사용자의 시간을 구성할 수 있습니다.</p> </td> 
+  <tr> 
+   <td>액세스 수준 구성</td> 
+   <td><p>표준 및 플랜 사용자는 자신을 위한 시간을 구성할 수 있습니다. Workfront 관리자만 다른 사용자의 시간을 구성할 수 있습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 1. 목표와 시스템의 액세스 수준에 따라 다음 중 하나를 수행합니다.
 
-   * **플래너 사용자 스스로 시간 로깅 구성:** Adobe Workfront 오른쪽 상단에 있는 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 프로필 사진 옆에 있는 사용자 이름을 클릭합니다. 그런 다음 이름 옆에 있는 **자세히** 아이콘을 클릭하고 **편집**&#x200B;을 선택합니다.
+   * **표준 또는 플랜 사용자가 스스로 시간 기록을 구성합니다.** Adobe Workfront 오른쪽 상단의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)를 클릭한 다음 프로필 사진 옆에 있는 사용자 이름을 클릭합니다. 또는(가능한 경우) 위쪽 탐색 영역에서 프로필 사진을 클릭한 다음 **[!UICONTROL Workfront 프로필]**&#x200B;을 클릭합니다. 그런 다음 이름 옆에 있는 **자세히** 아이콘을 클릭하고 **편집**&#x200B;을 선택합니다.
 
    * **시스템 관리자가 다른 사용자에 대한 시간 로깅을 구성하는 중:** [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)에 설명된 대로 하나 이상의 사용자 계정을 편집하기 시작합니다.
 
@@ -58,7 +60,6 @@ ht-degree: 1%
 
    ![옵션에 시간 기록](assets/user-profile-log-time-options.png)
 
-1. (조건부) 여러 사용자를 동시에 편집하는 시스템 관리자인 경우 **시간 기록**&#x200B;을 선택하십시오.
 1. 로깅 시간에 대해 다음 옵션 중에서 선택합니다.
 
    | 옵션 | 설명 |

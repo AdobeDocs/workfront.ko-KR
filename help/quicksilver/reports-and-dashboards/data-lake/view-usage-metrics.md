@@ -7,10 +7,10 @@ description: Workfront Data Connect 지표 탭을 사용하여 월별 컴퓨팅 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 0%
+source-wordcount: '309'
+ht-degree: 1%
 
 ---
 
@@ -20,31 +20,23 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>다음 플랜에 포함됩니다.</p>
-    <ul>
-        <li>Ultimate</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect는 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
-   </td> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td><p>Ultimate</p>
+    <p>워크플로 얼티밋</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>플랜</p></td> 
+   <td>
+   <p>표준</p>
+   <p>플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 

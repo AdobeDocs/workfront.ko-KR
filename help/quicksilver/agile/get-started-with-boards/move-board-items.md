@@ -6,9 +6,9 @@ description: 카드를 보드의 임의의 열로 이동하거나 카드를 복�
 author: Lisa
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -27,22 +27,19 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
-   <p>또는</p>
-   <p>현재: [!UICONTROL Request] 이상</p>
+   <p>기여자 이상</p> 
+   <p>요청 이상</p>
    </td> 
   </tr> 
  </tbody> 

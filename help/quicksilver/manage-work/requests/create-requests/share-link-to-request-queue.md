@@ -1,13 +1,13 @@
 ---
 title: 요청 대기열에 대한 링크 공유
 description: 요청을 제출할 때 요청 대기열, 주제 그룹 또는 대기열 주제에 대한 링크를 공유할 수 있습니다.
-author: Alina
+author: Becky
 draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '288'
 ht-degree: 4%
 
 ---
@@ -24,21 +24,18 @@ ht-degree: 4%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 기여자 이상</p>
-   또는
-   <p>현재: 요청 이상</p>
+   <td> <p>기여자 이상</p>
+   <p>요청 이상</p>
     </td> 
   </tr> 
   <tr> 
@@ -52,7 +49,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

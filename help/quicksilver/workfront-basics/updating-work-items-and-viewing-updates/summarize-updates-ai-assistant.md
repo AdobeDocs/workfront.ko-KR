@@ -6,9 +6,9 @@ description: 오브젝트의 업데이트에는 AI Assistant를 사용하여 업
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: 440d9af6915184b7e91ca257e02be4a234fb91e0
+source-git-commit: cf3d5daa739fa6ab413ee82a9f465441ef61ae6d
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -27,42 +27,70 @@ Workfront의 AI 도우미는 업데이트 스트림의 콘텐츠를 요약할 �
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>새로 만들기: 모두</p>
-       <p>또는</p>
-       <p>현재: 사용할 수 없음</p></td>
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td><p>모든 워크플로우 패키지</p>
+      </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 사용할 수 없음</p></td>
-  </tr> 
- </tbody> 
+   <td><p>표준</p>
+   </td>
+  </tr>
+
+<tr> 
+   <td role="rowheader">개체 권한</td> 
+   <td><p>업데이트를 보려는 오브젝트에 대한 이상의 권한 보기</p>
+   </td>
+  </tr>
+
+</tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 전제 조건
 
-* Workfront 관리자가 조직에 대해 AI Assistant를 활성화해야 합니다.
+* Workfront 관리자는 조직에 대해 AI Assistant를 활성화해야 합니다.
 
   자세한 내용은 AI Assistant 개요 문서의 [AI Assistant에 대한 필수 구성 요소](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)를 참조하십시오.
-* Workfront 관리자가 귀하의 액세스 수준에 대해 AI Assistant를 활성화해야 합니다.
+* Workfront 관리자는 귀하의 액세스 수준에 대해 AI Assistant를 활성화해야 합니다.
 
   자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
 
-## 콘텐츠 요약 버튼을 사용하여 요약
+## 설명 요약 버튼을 사용하여 요약
 
-1. 요약할 업데이트 스트림으로 이동합니다.
-1. **콘텐츠 요약** 단추를 클릭합니다.
+1. 요약할 업데이트가 있는 개체로 이동합니다.
+1. 왼쪽 패널에서 **업데이트**&#x200B;를 클릭합니다.
+1. **업데이트** 영역 상단의 **댓글 요약** 단추를 클릭합니다.
 
    AI Assistant가 열리고 업데이트 스트림에 대한 최근 7일 동안의 주석을 요약하라는 메시지가 표시됩니다.
 

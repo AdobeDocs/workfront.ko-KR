@@ -6,7 +6,7 @@ description: 텍스트 모드를 사용하여 목록 또는 보고서에서 필�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 1%
@@ -19,34 +19,26 @@ ht-degree: 1%
 
 텍스트 모드를 사용하여 목록 또는 보고서에서 필터를 편집하여 표준 인터페이스에서 사용할 수 없는 필드에 액세스하고 보다 복잡한 필터를 만들 수 있습니다.
 
-필터를 만들 때의 텍스트 모드 예에 대한 자세한 내용은 문서 [사용자 지정 보기, 필터 및 그룹화 샘플: 문서 인덱스](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)의 [사용자 지정 필터 샘플](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) 섹션을 참조하십시오.
+필터를 만들 때의 텍스트 모드 예에 대한 자세한 내용은 문서 [사용자 지정 보기, 필터 및 그룹화 샘플: 문서 인덱스](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters)의 [사용자 지정 필터 샘플](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md) 섹션을 참조하십시오.
 
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>표준</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>플랜</p></li>
-         </ul>
-   </td>
+     <p>표준</p>
+     <p>플랜</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -59,7 +51,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -67,7 +59,7 @@ ht-degree: 1%
 
 보고서나 목록에서 텍스트 모드 사용을 시작하기 전에 항상 Workfront 텍스트 모드 구문을 잘 알고 있는지 확인하십시오.
 
-자세한 내용은 다음을 참조하십시오.
+자세한 내용은 다음 문서를 참조하십시오.
 
 * [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [텍스트 모드 구문 개요](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)

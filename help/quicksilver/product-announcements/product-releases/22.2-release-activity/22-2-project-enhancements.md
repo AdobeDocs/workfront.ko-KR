@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ Workfront을 새로운 Adobe Workfront 환경과 일관되게 사용하기 위�
 
 사용자는 문제를 프로젝트의 페이지로 리디렉션되지 않고 프로젝트로 전환한 후 목록, 보고서 또는 대시보드에 남아 있습니다. 필요한 경우 프로젝트로 쉽게 이동할 수 있도록 전환이 완료된 후 프로젝트에 대한 링크가 있는 성공 알림이 표시됩니다.
 
-자세한 내용은 [문제를 Adobe Workfront의 프로젝트로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)을 참조하십시오.
+자세한 내용은 [문제를 프로젝트로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)을 참조하십시오.
 
 ## 할당을 변경할 때 할당 시간이 더 이상 제거되지 않음
 

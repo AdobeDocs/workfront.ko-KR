@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront] 의 정확한 위치를 기억하지 못�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1570'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 [!DNL Adobe Workfront]의 정확한 위치를 기억하지 못할 때 해당 항목을 검색하여 쉽게 찾을 수 있습니다.
 
-[!DNL Workfront] 내 페이지의 오른쪽 위 모서리에 [!UICONTROL 검색] 상자가 표시됩니다.
+[!UICONTROL  내 페이지의 오른쪽 위 모서리에 ]검색[!DNL Workfront] 상자가 표시됩니다.
 
 탐색 막대의 ![검색 아이콘](assets/search-globalnavigationbar-350x62.png)
 
@@ -33,17 +33,14 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: 기여자 이상<p>
-   <p>또는</p>
-   <p>현재: 요청 이상 </p>
-
-
-</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>기여자 이상<p>
+   <p>요청 이상 </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -77,7 +74,7 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 * 프로그램
 * 대시보드
 * 회사
-* 메모
+* 참고
 
 ### 검색할 수 있는 필드
 
@@ -103,7 +100,7 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 
 ## [!DNL Workfront] 검색 제한 사항 이해
 
-[!DNL Workfront]에서 [!UICONTROL Search]을(를) 사용할 때 다음 제한을 고려하십시오.
+[!UICONTROL 에서 ]Search[!DNL Workfront]을(를) 사용할 때 다음 제한을 고려하십시오.
 
 * 검색은 대/소문자를 구분하지 않습니다.
 * [!DNL Workfront]이(가) 오타를 수정하거나 이해하지 못합니다.

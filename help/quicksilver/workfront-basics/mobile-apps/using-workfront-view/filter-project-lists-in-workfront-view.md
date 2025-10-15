@@ -4,25 +4,25 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: ' [!DNL Adobe Workfront] 보기에서 프로젝트 목록 필터링'
 feature: Get Started with Workfront
-description: 기본적으로  [!DNL Adobe Workfront] 보기는  [!DNL Workfront]에 [!UICONTROL 모든 프로젝트] 목록을 표시하므로 보기 액세스 권한이 있는 모든 프로젝트가 상태와 관계없이 나열됩니다.
+description: 기본적으로  [!DNL Adobe Workfront] 보기는 [!UICONTROL 에 ]모든 프로젝트 [!DNL Workfront] 목록을 표시하므로 보기 액세스 권한이 있는 모든 프로젝트가 상태와 관계없이 나열됩니다.
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront View]의 프로젝트 목록 필터링
 
-기본적으로 [!DNL Adobe Workfront View]은(는) [!DNL Workfront]에 [!UICONTROL 모든 프로젝트] 목록을 표시하므로 보기 액세스 권한이 있는 모든 프로젝트가 상태와 관계없이 나열됩니다.
+기본적으로 [!DNL Adobe Workfront View]은(는) [!UICONTROL 에 ]모든 프로젝트[!DNL Workfront] 목록을 표시하므로 보기 액세스 권한이 있는 모든 프로젝트가 상태와 관계없이 나열됩니다.
 
 [!DNL Workfront View]의 프로젝트 목록을 필터링하여 자신과 관련된 프로젝트만 표시할 수 있습니다. 필터를 적용하면 다음에 로그인할 때까지 또는 변경될 때까지 프로젝트 목록이 필터링된 상태로 유지됩니다.
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 [!DNL Workfront]에서 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,17 +31,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong>/td&gt; 
+   <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Review] 이상</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
+   <td> 
+   <p>기여자 이상</p>
+   <p>검토 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## [!UICONTROL Workfront 보기]에서 [!UICONTROL 프로젝트] 목록 필터링
 
@@ -52,7 +56,7 @@ ht-degree: 0%
 
 1. 다음 필터 중에서 선택합니다.
 
-   * [!UICONTROL Portfolio]: 프로젝트를 표시할 특정 포트폴리오를 선택하십시오.
+   * [!UICONTROL 포트폴리오]: 프로젝트를 표시할 특정 포트폴리오를 선택하십시오.
    * [!UICONTROL 조건]: 특정 [!UICONTROL 조건]이 있는 프로젝트만 표시하려면 선택하십시오.
    * [!UICONTROL 진행 상태]: 특정 [!UICONTROL 진행 상태]의 프로젝트만 표시하려면 선택하십시오.
    * 상태: 특정 [!UICONTROL 상태]의 프로젝트만 표시하려면 선택하십시오.

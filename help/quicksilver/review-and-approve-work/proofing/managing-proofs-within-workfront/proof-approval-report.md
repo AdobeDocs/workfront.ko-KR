@@ -6,10 +6,10 @@ description: 증명 승인 보고서를 사용하여 환경에서 증명에 대�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 1%
+source-wordcount: '249'
+ht-degree: 2%
 
 ---
 
@@ -21,32 +21,33 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Workfront 플랜*</p> </td> 
+   <td role="rowheader"> <p>Workfront 패키지</p> </td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront 라이선스 개요*</p> </td> 
-   <td> <p>플랜</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 라이선스</p> </td> 
+   <td> 
+   <p>표준</p>
+   <p>플랜</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>액세스 수준*</strong> </td> 
+   <td role="rowheader"><strong>액세스 수준 구성</strong> </td> 
    <td> <p>액세스 권한 편집 대상:</p> 
     <ul> 
      <li> <p>보고서, 대시보드 및 캘린더 만들기</p> </li> 
      <li> <p>필터, 보기 및 그룹화 만들기</p> </li> 
-    </ul> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

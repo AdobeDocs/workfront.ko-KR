@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
    <td> 
-   <p>현재: 문제에 대해 요청 이상, 작업에 대해 작업 이상</p>
-   <p>새로운 기능: 기여자 이상 또는 문제, 가볍게 또는 작업 이상</p> 
+   <p>문제에 대해 요청 이상, 작업에 대해 작업 이상</p>
+   <p>참여자 이상 또는 문제, 가볍게 또는 작업 이상</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -64,7 +62,7 @@ ht-degree: 0%
 1. 작업 항목 이름을 클릭하여 **개요** 페이지를 엽니다.
 1. **빠른 링크** 섹션에서 **링크 추가**&#x200B;를 클릭합니다.
 1. **링크 추가** 상자에 URL을 붙여 넣습니다.
-1. **저장**&#x200B;을 클릭합니다.
+1. **저장**을 클릭합니다.
    ![링크 추가](assets/add-link.png)
 
 ## 클립보드에 빠른 링크 복사
@@ -90,6 +88,6 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 작업 항목 이름을 클릭하여 **개요** 페이지를 엽니다.
-1. 화면 오른쪽 상단에서 **세부 정보 편집**&#x200B;을 클릭합니다.
+1. 화면 오른쪽 상단에서 **세부 정보 편집**을 클릭합니다.
    ![세부 정보 편집](assets/edit-details.png)
 1. 제거할 링크를 찾은 다음 **삭제** ![삭제 아이콘](assets/delete-icon.png) 아이콘을 클릭합니다.

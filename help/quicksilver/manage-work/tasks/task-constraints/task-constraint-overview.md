@@ -7,7 +7,7 @@ description: 작업 제한 사항은 프로젝트에서 작업이 시작 및 종
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 6%
@@ -123,7 +123,7 @@ Workfront은 두 개의 변수를 사용하여 새 작업에 대해 기본적으
 
 * **설정**&#x200B;의 **작업 및 문제** 영역에서 Workfront 또는 그룹 관리자가 구성한 **시작 날짜** 환경 설정입니다.
 
-  작업 및 문제 환경 설정에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)의 [새 작업 기본값](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) 섹션을 참조하십시오.
+  작업 및 문제 환경 설정에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults)의 [새 작업 기본값](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) 섹션을 참조하십시오.
 
 다음 표에서는 프로젝트 및 새 작업에 대해 서로 다른 변수를 선택할 때의 기본 작업 제한 사항을 보여 줍니다.
 

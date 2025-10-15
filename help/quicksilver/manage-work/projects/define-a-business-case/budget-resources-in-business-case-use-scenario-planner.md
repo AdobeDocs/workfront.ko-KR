@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: 시나리오 플래너를 사용하는 비즈니스 사례의 예산 리소스
 description: 리소스 계획의 일부로, Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례를 작성할 때 프로젝트에서 작업을 완료하는 데 필요한 작업 역할의 예산을 책정할 수 있습니다.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 0%
+source-wordcount: '959'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,13 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
-   <td><p>현재: Ultimate</p> 
-   <p>레거시: 비즈니스 이상</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
+   <td><p>Prime 이상</p> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td><p>전류: 라이트 이상 
-   <p>레거시: 검토 이상</p> </td> 
+   <td><p>밝거나 높음 
+   <p>검토 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>제품</p></td> 

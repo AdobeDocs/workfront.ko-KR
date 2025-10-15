@@ -6,10 +6,10 @@ description: Adobe Workfront의 [!UICONTROL Home] 영역 내에서 작업 항목
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 6%
+source-wordcount: '837'
+ht-degree: 7%
 
 ---
 
@@ -21,13 +21,11 @@ ht-degree: 6%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-[!DNL Adobe Workfront]의 [!UICONTROL Home] 영역 내에서 작업 항목에 대한 업데이트를 보고 추가할 수 있습니다. 작업 항목 편집 액세스 권한이 있는 경우 작업 항목과 관련된 다른 데이터를 편집할 수도 있습니다.
+[!UICONTROL 의 ]Home[!DNL Adobe Workfront] 영역 내에서 작업 항목에 대한 업데이트를 보고 추가할 수 있습니다. 작업 항목 편집 액세스 권한이 있는 경우 작업 항목과 관련된 다른 데이터를 편집할 수도 있습니다.
 
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,15 +34,13 @@ ht-degree: 6%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>새로운 기능: 표준</p>
-   또는
-
-<p>현재: [!UICONTROL Work] 이상</p> </td> 
+   <td> <p>표준</p>
+   <p>작업 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
@@ -57,7 +53,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

@@ -7,7 +7,7 @@ description: 시나리오 플래너는 새 Adobe Workfront 경험에서만 사�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -45,11 +45,6 @@ ht-degree: 0%
 * 플랜에 여러 개의 이니셔티브를 생성할 수 있습니다. 각 이니셔티브를 사용하여 부서에서 작업을 완수하기 위한 높은 수준의 전략을 간략히 설명할 수 있습니다.
 * 계획 내에서 이니셔티브의 우선 순위를 지정하여 가장 중요한 이니셔티브가 가장 많은 예산과 리소스를 받도록 할 수 있습니다.
 * 계획 내에서 이니셔티브를 생성하면 해당 계획을 보는 모든 사람이 계획 내의 모든 이니셔티브를 볼 수도 있습니다.
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change when we add to the access levels granularity)</p>
-  -->
-
 * 이니셔티브를 게시하여 프로젝트를 만들거나 연결된 프로젝트를 업데이트할 수 있습니다. 이니셔티브 게시에 대한 자세한 내용은 [이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)를 참조하십시오.
 
 ## 이니셔티브에 대한 재무 정보

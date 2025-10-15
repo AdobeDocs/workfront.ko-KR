@@ -6,9 +6,9 @@ description: 이 문서에서는 이미 반복에 있는 경우 새로운 애자
 author: Lisa
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -21,23 +21,20 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard]</p> 
-   또는
-   <p>현재: [!UICONTROL Work] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p> 
+   <p>작업 이상</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>스토리가 있는 프로젝트에 대한 [!UICONTROL 관리] 액세스 권한 </td> 
+   <td>스토리가 있는 프로젝트에 대한 액세스 관리 </td> 
   </tr>
  </tbody> 
 </table>
@@ -78,7 +75,7 @@ ht-degree: 0%
       <td>스토리를 반복에 추가할 준비가 되면 이 옵션을 선택합니다. 이 옵션을 선택하면 백로그의 스토리를 반복에 추가할 준비가 되었음을 사용자에게 표시합니다.<br>스토리가 <strong>[!UICONTROL 준비]로 표시되었는지 여부에 관계없이 반복에 추가할 수 있습니다.</strong></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Estimate] (포인트)</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Estimate](포인트)</strong></td>
       <td>스토리의 예상 값을 지정합니다. 애자일 팀이 스토리를 포인트 단위로 추정하도록 구성된 경우 기본적으로 1포인트는 8시간입니다. 예상 시간이 스토리에 [!UICONTROL 계획된 시간]으로 추가됩니다.<br>예를 들어 스토리를 3포인트로 예상하면 기본적으로 스토리에 계획된 시간 24시간이 추가됩니다.<br>스토리에 하위 작업이 포함된 경우 모든 하위 작업에 대한 전체 예상 값이 상위 스토리의 예상 값을 결정합니다. 자세한 내용은 <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md" class="MCXref xref">[!UICONTROL 스크럼] 보드에서 기존 스토리에 하위 작업 추가</a>를 참조하십시오.</td>
      </tr>
      <tr>

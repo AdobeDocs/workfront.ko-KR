@@ -6,9 +6,9 @@ description: Experience Manager Assets Essentials 통합에서 워크플로우 �
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -21,51 +21,47 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->워크플로우는 Adobe Experience Manager as a Cloud Service 통합에서만 사용할 수 있습니다. Adobe Experience Manager Assets Essentials과의 통합에서는 사용할 수 없습니다.
+>워크플로우는 Adobe Experience Manager as a Cloud Service 통합에서만 사용할 수 있습니다. Adobe Experience Manager Assets Essentials와의 통합에서는 사용할 수 없습니다.
 
 
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
-
-<table>
-  <tr>
-   <td><strong>Adobe Workfront 플랜*</strong>
-   </td>
-   <td>임의
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Adobe Workfront 라이선스*</strong>
-   </td>
-   <td>요청 이상
-   </td>
-  </tr>
-  <tr>
-   <td><strong>제품</strong>
-   </td>
-   <td><p>Experience Manager Assets as a Cloud Service 또는 Assets Essentials이 있어야 하며 Admin Console에서 사용자로 제품에 추가되어야 합니다.</p><p>Adobe Experience Manager의 저장소에 대한 쓰기 액세스 권한이 있어야 합니다.</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>액세스 수준 구성*</strong>
-   </td>
-   <td>문서에 대한 액세스 편집
-<p>
-<strong>참고: </strong>아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <strong>사용자 지정 액세스 수준 만들기 또는 수정</strong>을 참조하십시오.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>개체 권한</strong>
-   </td>
-   <td>프로젝트에서 액세스 권한 이상 관리 
-<p>
-추가 액세스 요청에 대한 자세한 내용은 <strong>개체 </strong>에 대한 액세스 요청 을 참조하십시오.
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p> 임의</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> 
+   <p>기여자 이상</p> 
+   <p>요청 이상</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">추가 제품</td> 
+   <td>Experience Manager as a Cloud Service 또는 Assets Essentials가 있어야 하며 Admin Console에서 사용자로 제품에 추가되어야 합니다.</td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">Experience Manager 권한</td> 
+    <td>폴더에 대한 쓰기 액세스 권한이 있어야 합니다.</td> 
+   </tr>
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>문서에 대한 액세스 편집</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>액세스 권한 이상 보기</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -154,7 +150,7 @@ ht-degree: 0%
 
 1. 원하는 대로 **[!UICONTROL 연결된 폴더 만들기]**&#x200B;를 켜거나 끕니다. 이 기능을 켜면 연결된 폴더 구성을 편집할 수 있습니다.
 
-   연결된 폴더 구성에 대한 자세한 내용은 문서 [Adobe Experience Manager 연결 폴더 구성[[!UICONTROL Experience Manager Assets4&rbrace; 통합 구성]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)에서 [as a Cloud Service 연결 폴더 만들기](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)를 참조하십시오.]
+   연결된 폴더 구성에 대한 자세한 내용은 문서 [Adobe Experience Manager 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)에서 [Experience Manager Assets 연결된 폴더 만들기[!UICONTROL 를 참조하십시오. ]as a Cloud Service 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 
 1. (선택 사항) 프로젝트에 첨부된 사용자 정의 양식에 특정 값이 있는 경우에만 폴더 트리를 작성하려면 해당 폴더 트리의 **필터 적용**&#x200B;을 클릭한 다음, 필드, 필드 값을 포함하는 사용자 정의 양식을 선택하십시오. 새 프로젝트에 첨부된 사용자 정의 양식의 필드에 선택한 값이 포함되어 있으면 폴더 트리가 만들어집니다.
 1. (선택 사항) 폴더 이름을 구성할 때 다음 옵션 중에서 선택할 수 있습니다.
@@ -176,6 +172,6 @@ ht-degree: 0%
 
 자산 게시를 위한 워크플로우를 편집하려면:
 
-1. 원하는 대로 **Publish 자산을 자동으로** 켜거나 끕니다.
+1. 원하는 대로 **자산을 자동으로 게시**&#x200B;하거나 해제합니다.
 1. (조건부) 게시를 활성화하는 경우 게시 서비스에 게시할지, Brand Portal에 게시할지 또는 둘 다에 게시할지 선택합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

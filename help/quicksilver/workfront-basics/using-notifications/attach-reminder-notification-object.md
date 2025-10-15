@@ -7,9 +7,9 @@ description: 미리 알림 을 프로젝트, 작업, 문제, 타임시트, 템�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '229'
 ht-degree: 1%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 1%
 
 미리 알림 을 프로젝트, 작업, 문제, 타임시트, 템플릿, 템플릿 작업 및 반복 타임시트 프로필과 같은 여러 오브젝트 유형과 연결할 수 있습니다.
 
-미리 알림을 개체에 첨부하려면 [미리 알림 설정](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)에 설명된 대로 [!DNL Adobe Workfront] 관리자가 알림을 만들어야 합니다.
+미리 알림을 개체에 첨부하려면 [!DNL Adobe Workfront]미리 알림 설정[에 설명된 대로 ](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md) 관리자가 알림을 만들어야 합니다.
 
 미리 알림을 첨부하는 단계는 첨부하는 객체 유형에 관계없이 동일합니다.
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,25 +33,25 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront package]</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Work] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> 
+   <p>표준</p>
+   <p>작업 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 이상</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>오브젝트에 대한 액세스 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>오브젝트에 대한 액세스 관리</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 객체에 미리 알림 첨부
 

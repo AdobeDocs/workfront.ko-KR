@@ -6,9 +6,9 @@ description: 업무 균형자 를 사용하여 리소스의 가용성을 이해�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '4371'
+source-wordcount: '4348'
 ht-degree: 0%
 
 ---
@@ -23,31 +23,27 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 업무 균형자 는 Adobe Workfront의 여러 영역에서 사용할 수 있습니다. 탐색하는 것은 모든 영역에서 유사합니다.
 
-업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)를 참조하십시오.
+업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)를 참조하십시오.
 
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> <p>임의 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 리소스 조달 영역에서 업무 균형자 사용 시 계획;</br>
-       팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p></td>
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>리소스 영역 내 업무 균형자 사용 시 계획, 팀 또는 프로젝트의 업무 균형자 사용 시 작업</p></td>
+  </tr>
+  <tr> 
+   <td>액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 이상:</p> 
     <ul> 
      <li>리소스 관리</li> 
@@ -58,13 +54,13 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td>개체 권한</td> 
    <td>프로젝트, 작업 및 문제에 대한 이상의 권한 보기</td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -109,8 +105,8 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 업무 균형자 를 사용한 리소스 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [업무 균형자에서 작업 할당 개요](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [업무 균형자에서 사용자 할당 관리](https://experienceleague.adobe.com/ko/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [업무 균형자에서 작업 할당 개요](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [업무 균형자에서 사용자 할당 관리](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## 리소스 조달 영역에서 여러 프로젝트에 대한 업무 균형자 탐색

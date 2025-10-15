@@ -6,14 +6,14 @@ description: 이 문서를 읽고 Workfront에 로그인하는 방법을 알아�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront]에 로그인
+# [!DNL Adobe Workfront]에 로그인합니다.
 
 <!--Audited: 2024-->
 
@@ -37,28 +37,24 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜</strong></td> 
+   <td>Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
+   <td>Adobe Workfront 라이선스</td> 
    <td> 
-   <p>새로운 기능: [!UICONTROL Contributor] 이상</p>
-   <p>현재: [!UICONTROL Request] 이상</p> </td> 
+   <p>기여자 이상</p>
+   <p>요청 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -143,7 +139,7 @@ SSO 사용자 이름과 암호를 사용하여 [!DNL Workfront]에 로그인하�
 
    이 자습서는 앱에 처음 액세스할 때만 표시됩니다. [!DNL Workfront] 모바일 앱을 제거하고 다시 설치하거나 다른 사용자로 로그인하는 경우에만 다시 표시됩니다. 튜토리얼을 닫은 후 표시되는 영역이 표시하도록 선택한 영역입니다
 
-## [!DNL Adobe] ID를 사용하여 [!DNL Workfront] 모바일 앱에 로그인합니다
+## [!DNL Workfront] ID를 사용하여 [!DNL Adobe] 모바일 앱에 로그인합니다
 
 1. [!DNL Workfront] 모바일 앱을 시작한 다음 **[!DNL Adobe] ID로 로그인**&#x200B;을 클릭합니다.
 
@@ -153,7 +149,7 @@ SSO 사용자 이름과 암호를 사용하여 [!DNL Workfront]에 로그인하�
 
 1. 전자 메일을 입력한 다음 **계속**&#x200B;을 클릭합니다.
 
-1. (조건부) 로그인에 사용할 계정을 선택합니다. 일반적으로 [!DNL Adobe] ID가 조직과 연결되어 있으면 **회사 또는 학교 계정**&#x200B;이 됩니다.
+1. (조건부) 로그인에 사용할 계정을 선택합니다. 일반적으로 **ID가 조직과 연결되어 있으면**&#x200B;회사 또는 학교 계정[!DNL Adobe]이 됩니다.
 
 1. (조건부) 계정이 둘 이상의 조직과 연결되어 있는 경우 사용할 프로필을 선택합니다.
 

@@ -6,9 +6,9 @@ description: 보안상의 이유로  [!DNL Adobe Workfront] 에서 정기적으�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -35,28 +35,30 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td>Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td> 
+   <p>기여자 이상</p>
+   <p>요청 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜 또는 라이선스 유형을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## [!DNL Workfront] 계정에서 로그아웃
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 로그아웃]** ![로그아웃 아이콘](assets/logout-icon.png)을 클릭합니다.
+1. **[!UICONTROL 의 오른쪽 위 모서리에 있는]**&#x200B;기본 메뉴![ 아이콘 ](assets/main-menu-icon.png)기본 메뉴 아이콘[!DNL Adobe Workfront]을 클릭한 다음 **[!UICONTROL 로그아웃]** ![로그아웃 아이콘](assets/logout-icon.png)을 클릭합니다.
 1. 그러면 사용자 이름과 암호를 다시 입력할 수 있는 로그인 페이지로 돌아갑니다.

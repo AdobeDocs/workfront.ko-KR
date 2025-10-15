@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2763'
 ht-degree: 4%
 
 ---
@@ -35,28 +35,20 @@ ht-degree: 4%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-      <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>표준</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>플랜</p></li>
-         </ul>
-   </td> 
+   <td> 
+      <p>표준</p>
+      <p>플랜</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -69,7 +61,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -111,7 +103,7 @@ Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe 
    <td><strong>유형 변경</strong> </td> 
    <td> <p>영향을 받는 필드의 변경 유형입니다. 설정한 필터 규칙 및 사용자가 수행한 작업에 따라 이 필드에 다음과 같은 항목이 나타날 수 있습니다.</p> 
     <ul> 
-     <li> <p>추가</p> </li> 
+     <li> <p>이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에</p> </li> 
      <li> <p>감사</p> </li> 
      <li> <p>삭제</p> </li> 
      <li> <p>다이제스트</p> </li> 

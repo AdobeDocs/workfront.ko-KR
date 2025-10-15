@@ -4,10 +4,10 @@ content-type: overview
 navigation-topic: delegate-work
 title: 작업 위임 개요
 description: 단기간 동안 부재 중일 경우 일시적으로 다른 사용자에게 작업을 위임하여 부재 상태가 작업을 완료하는 데 장애가 되지 않도록 할 수 있습니다.
-author: Lisa
+author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 1%

@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: 작업 Slack 날짜 개요
-description: 작업이 프로젝트 완료 날짜에 영향을 주지 않고 늦게 시작되거나 완료되는 경우가 있습니다.
+description: 작업이 프로젝트 완료 날짜에 영향을 주지 않고 늦게 시작되거나 완료되는 경우가 있습니다. Slack 날짜에는 작업이 프로젝트의 완료 날짜에 영향을 줄 수 있는 정확한 날짜가 표시됩니다.
 author: Alina
 feature: Work Management
 exl-id: ccdaa27d-e212-45dc-afca-08539f2b4001
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 작업이 프로젝트 완료 날짜에 영향을 주지 않고 늦게 시작되거나 완료되는 경우가 있습니다.
 
-Slack 날짜 는 작업이 프로젝트의 완료 날짜에 영향을 줄 수 있는 정확한 날짜를 표시합니다.
+Slack 날짜에는 작업이 프로젝트의 완료 날짜에 영향을 줄 수 있는 정확한 날짜가 표시됩니다.
 
 ## Slack 날짜 개요
 
@@ -32,7 +32,7 @@ Slack 날짜 는 작업이 프로젝트의 완료 날짜에 영향을 줄 수 �
 
   작업의 진행 상태에 대한 자세한 내용은 [작업 진행 상태 개요](../../../manage-work/tasks/task-information/task-progress-status.md)를 참조하세요.
 
-* 중요 경로에 없는 작업의 경우 Slack 시간은 작업이 예약되기 전에 증가합니다. 이러한 작업의 경우 작업이 너무 늦어져 프로젝트의 완료 날짜에 영향을 줄 때까지 Slack 날짜가 미래로 유지됩니다.
+* 중요 경로에 없는 작업의 경우 Slack 시간은 작업이 예약되기 전에 증가합니다. 이러한 작업의 경우 작업이 너무 늦어져 프로젝트 완료 날짜에 영향을 줄 때까지 Slack 날짜가 미래로 유지됩니다.
 
 ## 작업의 Slack 날짜 찾기
 

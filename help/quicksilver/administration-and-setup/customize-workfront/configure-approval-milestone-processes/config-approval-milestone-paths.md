@@ -1,5 +1,5 @@
 ---
-title: 승인 프로세스 및 마일스톤 경로
+title: '승인 프로세스 및 마일스톤 경로: 문서 색인'
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
@@ -10,14 +10,16 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 87a64e84c36d99cbafde4f40725467219db8e79b
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
-# 승인 프로세스 및 마일스톤 경로
+# 승인 프로세스 및 마일스톤 경로: 문서 인덱스
+
+<!--Audited: 08/2025-->
 
 이 섹션에는 다음 문서가 포함됩니다.
 

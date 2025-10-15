@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 >    
 >    문서 연결에 대한 지침은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
-[!DNL Workfront]을(를) [!DNL SharePoint Online]과(와) 통합하여 사용자에게 Workfront 내에서 [!DNL SharePoint]개의 문서로 이동하고, 연결하고, 추가할 수 있는 기능을 제공할 수 있습니다. 제공된 기능은 [!DNL Google Drive], [!DNL Box] 및 [!DNL Dropbox]과(와) 같은 다른 [!DNL Workfront] 통합의 기능과 유사합니다.
+[!DNL Workfront]을(를) [!DNL SharePoint Online]과(와) 통합하여 사용자에게 Workfront 내에서 [!DNL SharePoint]개의 문서로 이동하고, 연결하고, 추가할 수 있는 기능을 제공할 수 있습니다. 제공된 기능은 [!DNL Workfront], [!DNL Google Drive] 및 [!DNL Box]과(와) 같은 다른 [!DNL Dropbox] 통합의 기능과 유사합니다.
 
 이 통합은 [!DNL SharePoint Online]과만 호환됩니다. [!DNL SharePoint]의 온-프레미스 인스턴스는 지원되지 않습니다.
 
@@ -47,28 +47,26 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td>임의</td> 
+   <td role="rowheader">Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td>새로운 기능: 표준 <p>또는</p><p>현재: 플랜</p></td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>표준</p> <p>플랜</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td>[!DNL Workfront] 관리자여야 합니다. </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td>Workfront 관리자여야 합니다. </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -123,7 +121,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 ### 액세스 및 권한
 
-사용자가 [!DNL SharePoint]에서 [!DNL Workfront]에 문서를 처음 추가하면 해당 사용자는 SharePoint 통합에 대한 권한을 부여할 수 있는 권한 요청 페이지로 이동됩니다.
+사용자가 [!DNL Workfront]에서 [!DNL SharePoint]에 문서를 처음 추가하면 해당 사용자는 SharePoint 통합에 대한 권한을 부여할 수 있는 권한 요청 페이지로 이동됩니다.
 
 >[!NOTE]
 >
@@ -142,7 +140,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 * 이 액세스 권한은 사용자가 통합을 처음 사용할 때 부여되며 언제든지 취소할 수 있습니다.
 * 이 통합에 대해 요청된 권한은 **위임됨** 권한입니다.
 * [!DNL Workfront]이(가) 통합에서 작업을 수행하는 데 필요한 최소 액세스 권한을 요청합니다.
-* [!DNL SharePoint]에 연결된 [!DNL Adobe Workfront] 문서를 보거나 편집하거나 삭제할 수 있는 액세스는 [!DNL Workfront]에서 사용자의 액세스 권한을 기반으로 합니다. 그러나 [!DNL SharePoint] 파일 또는 폴더를 탐색하거나 다운로드하거나 편집하려면 [!DNL SharePoint]에 액세스해야 하며 이러한 작업에 대한 액세스는 [!DNL SharePoint]에 의해 제어됩니다.
+* [!DNL Adobe Workfront]에 연결된 [!DNL SharePoint] 문서를 보거나 편집하거나 삭제할 수 있는 액세스는 [!DNL Workfront]에서 사용자의 액세스 권한을 기반으로 합니다. 그러나 [!DNL SharePoint] 파일 또는 폴더를 탐색하거나 다운로드하거나 편집하려면 [!DNL SharePoint]에 액세스해야 하며 이러한 작업에 대한 액세스는 [!DNL SharePoint]에 의해 제어됩니다.
 * 사용자는 [!DNL SharePoint]에 로그인하지 않고도 [!DNL SharePoint]에서 가져온 썸네일을 보고 이미지를 미리 볼 수 있으며 [!DNL SharePoint]에서 파일 및 폴더 이름을 볼 수 있습니다.
 * 사용자의 액세스 토큰은 사용자가 오프라인 상태이고 다른 사용자가 [!DNL Workfront]에 연결된 폴더의 콘텐츠를 볼 때만 사용됩니다. 액세스 토큰은 폴더의 문서가 추가, 제거 또는 편집되었는지 확인하는 데 사용됩니다.
 
@@ -172,7 +170,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL 클라우드 공급자]**&#x200B;를 선택하십시오.
-1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint] (Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
+1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint](Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL [!DNL SharePoint]통합]**&#x200B;을 선택합니다.
 1. 기존의 모든 통합에 대해 목록의 왼쪽에 있는 확인 표시를 선택한 다음 **[!UICONTROL 사용 안 함]**&#x200B;을 선택합니다.
@@ -185,7 +183,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 >[!IMPORTANT]
 >
-> [!DNL SharePoint] 클라이언트 암호는 [!DNL Microsoft]에서 처리되므로 [!DNL Microsoft]에서 수행한 [!DNL SharePoint] 업데이트에 따라 클라이언트 암호 기능 및 절차가 변경될 수 있습니다. [!DNL SharePoint]의 절차 및 기능에 대한 최신 정보는 항상 [!DNL Microsoft] 설명서를 확인하십시오.
+> [!DNL SharePoint] 클라이언트 암호는 [!DNL Microsoft]에서 처리되므로 [!DNL SharePoint]에서 수행한 [!DNL Microsoft] 업데이트에 따라 클라이언트 암호 기능 및 절차가 변경될 수 있습니다. [!DNL Microsoft]의 절차 및 기능에 대한 최신 정보는 항상 [!DNL SharePoint] 설명서를 확인하십시오.
 
 <!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
@@ -414,7 +412,7 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 ## 문제 해결
 
 * [문제:  [!DNL SharePoint] 통합을 사용할 때 사용자에게 인증 기반 오류가 발생합니다.](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [문제: [!DNL Workfront]의  [!DNL SharePoint] 파일을 검색하려고 할 때 내 사이트 컬렉션이 일부 또는 모두 표시되지 않습니다.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
+* [문제: [!DNL SharePoint] 의  [!DNL Workfront]파일을 검색하려고 할 때 내 사이트 컬렉션이 일부 또는 모두 표시되지 않습니다.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [문제:  [!DNL SharePoint]에서 이전에 연결된 폴더 및 문서에 액세스할 수 없습니다.](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
 ### 문제: [!DNL SharePoint] 통합을 사용할 때 사용자에게 인증 기반 오류가 발생합니다. {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
@@ -464,7 +462,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 -->
 
-### 문제: [!DNL Workfront]에서 [!DNL SharePoint]개의 파일을 검색하려고 할 때 내 사이트 컬렉션이 일부 또는 모두 표시되지 않습니다. {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
+### 문제: [!DNL SharePoint]에서 [!DNL Workfront]개의 파일을 검색하려고 할 때 내 사이트 컬렉션이 일부 또는 모두 표시되지 않습니다. {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
 솔루션:
 

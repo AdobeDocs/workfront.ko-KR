@@ -6,10 +6,10 @@ description: 텍스트 모드를 사용하여 목록 또는 보고서에서 그�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,30 +25,22 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>표준</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>플랜</p></li>
-         </ul>
-   </td>
+     <p>표준</p>
+     <p>플랜</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -57,11 +49,11 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">개체 권한</td> 
    <td> <p>보고서에 대한 권한을 관리하여 보고서의 그룹화를 편집합니다.</p> <p>편집할 그룹화에 대한 권한 관리</p></td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -69,7 +61,7 @@ ht-degree: 0%
 
 보고서나 목록에서 텍스트 모드 사용을 시작하기 전에 항상 Workfront 텍스트 모드 구문을 잘 알고 있는지 확인하십시오.
 
-자세한 내용은 다음을 참조하십시오.
+자세한 내용은 다음 문서를 참조하십시오.
 
 * [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [텍스트 모드 구문 개요](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
@@ -195,15 +187,15 @@ ht-degree: 0%
         <li value="1"> <p> 표시되는 필드 이름이 단일 명사가 아닌 구문인 경우 <code>valuefield</code>에 대해 카멜 대/소문자 구문을 사용해야 합니다. 예를 들어 작업의 계획된 시작 일자의 경우 코드는 다음과 같습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>사용자 지정 필드를 표시하려면 <code>valuefield</code> 값이 인터페이스에 표시된 실제 필드 이름입니다. 예를 들어 "추가 정보"라는 사용자 정의 필드의 경우 코드는 다음과 같습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
         <li value="3"> <p>코드의 <code>valuefield</code> 줄을 사용하여 다른 개체와 관련된 개체별로 그룹화하려면 개체 이름과 특성이 콜론으로 구분됩니다.</p> <p>예를 들어 작업 목록에 대해 Portfolio 이름별로 그룹화할 경우 valuefield 행에 대해 다음 값이 있습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>이는 보고서(작업) 객체에서 다음 관련 객체(프로젝트)에 액세스할 수 있음을 나타냅니다. 여기에서 프로젝트(포트폴리오)에서 다음 관련 객체에 액세스한 다음 포트폴리오 이름(이름)에 액세스할 수 있습니다.</p> </li> 
-       </ol> <p>개체가 서로 연결되는 방법에 대한 자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront의 개체 이해</a>의 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">개체의 상호 종속성 및 계층 구조</a> 섹션을 참조하십시오.</p> <p>주: 표준 인터페이스에서 유효하지 않은 텍스트 모드의 필드를 선택하고 표준 인터페이스로 전환하면 그룹화가 삭제됩니다.</p> </td> 
+       </ol> <p>개체가 서로 연결되는 방법에 대한 자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Adobe Workfront의 개체 이해</a>의 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">개체의 상호 종속성 및 계층 구조</a> 섹션을 참조하십시오.</p> <p>주: 표준 인터페이스에서 유효하지 않은 텍스트 모드의 필드를 선택하고 표준 인터페이스로 전환하면 그룹화가 삭제됩니다.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>valueformat=</strong> </td> 
-      <td> <p>이 줄은 <code>valuefield</code>을(를) 표시하는 데 사용되는 형식을 나타냅니다. <code>valueformat</code>은(는) 개체 또는 필드가 텍스트, 숫자, 백분율 또는 날짜로 표시되는지 여부를 식별합니다.</p> <p>특히 정보를 가장 정확하게 표시하려면 <code>valueexpression</code>을(를) 사용할 때는 <code>valueformat</code>에 <code>HTML</code>을(를) 사용하는 것이 좋습니다.</p> <p>이 줄의 추가 값에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">텍스트 모드에서 조건부 서식 사용</a>을 참조하십시오.</p> </td> 
+      <td> <p>이 줄은 <code>valuefield</code>을(를) 표시하는 데 사용되는 형식을 나타냅니다. <code>valueformat</code>은(는) 개체 또는 필드가 텍스트, 숫자, 백분율 또는 날짜로 표시되는지 여부를 식별합니다.</p> <p>특히 정보를 가장 정확하게 표시하려면 <code>HTML</code>을(를) 사용할 때는 <code>valueformat</code>에 <code>valueexpression</code>을(를) 사용하는 것이 좋습니다.</p> <p>이 줄의 추가 값에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">텍스트 모드에서 조건부 서식 사용</a>을 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>valueexpression=</strong> </p> </td> 
-      <td> <p>여러 필드 간의 계산으로 목록을 그룹화하려면 <code>valuefield</code>을(를) 바꾸기 위해 이 줄을 추가할 수 있습니다.</p> <p><code>valueexpression</code>에서 개체를 사용할 때마다 개체의 <code>valuefield</code>을(를) 중괄호로 묶어야 합니다.</p> <p>다음과 같은 시나리오가 있습니다.</p> 
+      <td> <p>여러 필드 간의 계산으로 목록을 그룹화하려면 <code>valuefield</code>을(를) 바꾸기 위해 이 줄을 추가할 수 있습니다.</p> <p><code>valuefield</code>에서 개체를 사용할 때마다 개체의 <code>valueexpression</code>을(를) 중괄호로 묶어야 합니다.</p> <p>다음과 같은 시나리오가 있습니다.</p> 
        <ol> 
         <li value="1"> <p>대문자로 그룹화의 이름을 표시하려면 다음을 사용합니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>개체의 <code>valuefield</code>이(가) API 탐색기에 나타나는 대로 맞춤법이 지정됩니다.</p> </li> 
         <li value="2">여러 <code>valuefields</code>을(를) <code>valueexpression </code>행에 함께 묶어 추가하려면 마침표로 구분해야 합니다.<p>예를 들어 작업 목록에서 포트폴리오의 이름을 대문자로 표시하려면 <code>valueexpression</code> 줄에서 다음 코드를 사용합니다.</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p><code>valueexpression</code> 줄에서 사용자 지정 필드를 사용하려면 필드 이름 앞에 <code>DE:</code>을(를) 입력하여 사용자 지정 필드임을 표시해야 합니다. 필드 이름의 철자는 인터페이스에 나타나는 대로 입력됩니다.</p><p>중요: <span>일부 사용자에 대한 권한이 제한된 사용자 정의 양식 섹션에 있는 사용자 정의 필드를 사용하는 경우 해당 사용자가 보고서에서 이 계산을 볼 때 <code>valueexpression </code>의 계산이 비어 있습니다. 사용자 정의 양식 섹션에서 권한을 조정하는 방법에 대한 자세한 내용은 </span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">사용자 정의 양식 만들기</a></span>를 참조하십시오.</p><p>예를 들어 사용자 정의 필드에 "개발자 이름"이라는 레이블이 있고 이 필드로 그룹화하여 대문자로 표시하려는 경우 다음 <code>valueexpression</code>을(를) 사용하여 이를 나타낼 수 있습니다.</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>타이프 어헤드 유형 사용자 정의 필드를 참조할 때 다음 표현식을 사용하여 "개발자 이름"이라는 레이블이 지정된 필드에서 선택한 개체의 이름을 참조합니다.</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 

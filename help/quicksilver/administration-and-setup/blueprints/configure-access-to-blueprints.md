@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 시스템 관리자는 다음 작업을 수행할 수 있습니다.
 
-* 레이아웃 템플릿의 기본 메뉴에 [!UICONTROL 블루프린트]를 추가하고 사용자 또는 그룹에 레이아웃 템플릿을 할당하십시오. 자세한 내용은 [&#128279;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴 사용자 지정] 및 [레이아웃 템플릿에 사용자 할당](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
+* 레이아웃 템플릿의 기본 메뉴에 [!UICONTROL 블루프린트]를 추가하고 사용자 또는 그룹에 레이아웃 템플릿을 할당하십시오. 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴 사용자 지정] 및 ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)레이아웃 템플릿에 사용자 할당[을 참조하십시오.](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
   >[!NOTE]
   >
@@ -36,26 +36,23 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td>
-   <p>새로운 기능: 표준</p>
-   <p>또는</p>
-   <p>현재: 플랜</p></td> 
+   <p>표준</p>
+   <p>플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!DNL Workfront] 관리자여야 합니다. </td> 
+   <td>Workfront 관리자 </td> 
   </tr> 
  </tbody> 
 </table>

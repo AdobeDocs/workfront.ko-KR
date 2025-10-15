@@ -6,9 +6,9 @@ description: 즐겨찾기 메뉴를 사용하면 항목에 빠르게 액세스�
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,15 +30,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>
-      <p>새로운 기능: 기여자 이상<p>
-      <p>또는</p>
-      <p>현재: 요청 이상</p> </td> 
+      <p>기여자 이상<p>
+      <p>요청 이상</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +50,7 @@ ht-degree: 0%
 
 이전에 즐겨찾기로 추가한 항목을 보려면 다음과 같이 하십시오.
 
-1. [!DNL Adobe Workfront] 페이지의 오른쪽 위 모서리에 있는 **[!UICONTROL 즐겨찾기]** 아이콘 ![즐겨찾기 아이콘](assets/favorites-icon.png)을 클릭합니다.
+1. **[!UICONTROL 페이지의 오른쪽 위 모서리에 있는]**&#x200B;즐겨찾기![ 아이콘 ](assets/favorites-icon.png)즐겨찾기 아이콘[!DNL Adobe Workfront]을 클릭합니다.
 
 1. **즐겨찾기** 목록에서 보려는 항목을 클릭합니다.
 
@@ -66,7 +63,7 @@ ht-degree: 0%
 
 ### 최근 항목을 즐겨찾기로 추가
 
-1. 새 [!DNL Adobe Workfront] 경험에서 페이지의 오른쪽 위 모서리에 있는 **[!UICONTROL 최근 항목]** 아이콘 ![최근 항목 아이콘](assets/recents-icon-40x43.png)을 클릭합니다.
+1. 새 **[!UICONTROL 경험에서 페이지의 오른쪽 위 모서리에 있는]**&#x200B;최근 항목![ 아이콘 ](assets/recents-icon-40x43.png)최근 항목 아이콘[!DNL Adobe Workfront]을 클릭합니다.
 1. 즐겨찾기로 저장할 항목과 함께 별 인라인을 클릭합니다. 최근 항목이 **즐겨찾기** 메뉴에 표시됩니다.
 
    ![최근 항목 즐겨찾기](assets/recents-section.png)
@@ -85,7 +82,7 @@ ht-degree: 0%
 
 ## [!UICONTROL 즐겨찾기] 메뉴에서 항목 제거
 
-1. [!DNL Workfront] 페이지의 오른쪽 위 모서리에 있는 **[!UICONTROL 즐겨찾기]** 아이콘 ![즐겨찾기 아이콘](assets/favorites-icon.png)을 클릭합니다.
+1. **[!UICONTROL 페이지의 오른쪽 위 모서리에 있는]**&#x200B;즐겨찾기![ 아이콘 ](assets/favorites-icon.png)즐겨찾기 아이콘[!DNL Workfront]을 클릭합니다.
 
 1. 즐겨찾기로 제거할 항목을 마우스로 가리킨 다음, 항목 옆에 있는 **X**&#x200B;을(를) 클릭합니다.
 

@@ -2,12 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '작업 제한 개요: 다음까지 완료'
+title: '작업 제한 개요: 다음 일자에 완료되어야 함'
 description: MFO(완료 시 필수) 작업 제한 사항을 사용하여 특정 날짜에 작업이 종료되도록 예약할 수 있습니다.
 author: Alina
 feature: Work Management
 exl-id: 9e546a0f-7f7a-4f1c-9d9d-aa3cea377fdf
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%

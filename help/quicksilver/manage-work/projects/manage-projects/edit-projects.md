@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '7643'
+source-wordcount: '7642'
 ht-degree: 1%
 
 ---
@@ -47,14 +47,13 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td><p>새로운 기능: 표준 </p> 
-   또는
-   <p>현재: 플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>표준</p> 
+   <p>플랜</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -63,7 +62,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
   <tr> 
    <td role="rowheader">개체 권한</td> 
    <td> 
-     <p>프로젝트에 대한 권한 관리 </p> 
+     <p>프로젝트에 대한 권한 관리</p> 
      </td> 
   </tr> 
  </tbody> 
@@ -72,6 +71,37 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 *이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard </p> 
+   Or
+   <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+     <p>Manage permissions to a project </p> 
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## 프로젝트 편집 제한 사항
 
@@ -403,7 +433,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
      </tr> 
      <tr> 
       <td role="rowheader"><strong>계획된 혜택</strong> </td> 
-      <td> <p>프로젝트의 계획된 이익을 예측합니다. 프로젝트 및 Portfolio Optimizer의 비즈니스 사례에 사용됩니다. 프로젝트의 계획된 편익에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">프로젝트 계획된 편익 개요</a>를 참조하십시오. 프로젝트의 순 가치 계산 시 프로젝트의 계획된 이익이 고려됩니다. </p> <p>자세한 내용은 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Portfolio Optimizer에서 프로젝트 관리</a> 를 참조하십시오.<br></p> </td> 
+      <td> <p>프로젝트의 계획된 이익을 예측합니다. 프로젝트 및 Portfolio Optimizer의 비즈니스 사례에 사용됩니다. 프로젝트의 계획된 편익에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">프로젝트 계획된 편익 개요</a>를 참조하십시오. 프로젝트의 순 가치 계산 시 프로젝트의 계획된 이익이 고려됩니다. </p> <p>자세한 내용은 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Portfolio Optimizer에서 프로젝트 관리: 문서 색인</a> 을 참조하십시오.<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>실제 이익</strong> </td> 
@@ -488,7 +518,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
       </tr> 
       <tr> 
        <td role="rowheader"><strong>리소스 레벨링 모드</strong> </td> 
-       <td> <p> <p>다음 옵션 중에서 선택합니다.</p> <p>- <strong>수동</strong>: 리소스를 수동으로 레벨링해야 합니다(기본 설정임).</p> <p>- <strong>자동</strong>: Workfront에서 리소스를 레벨링합니다.</p> <p>리소스 레벨링에 대한 자세한 내용은 간트 차트 </a>에서 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">리소스 레벨링을 참조하십시오.</p> </p> </td> 
+       <td> <p> <p>다음 옵션 중에서 선택합니다.</p> <p>- <strong>수동</strong>: 리소스를 수동으로 레벨링해야 합니다(기본 설정임).</p> <p>- <strong>자동</strong>: Workfront에서 리소스를 레벨링합니다.</p> <p>리소스 레벨링에 대한 자세한 내용은 간트 차트 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">에서 </a>리소스 레벨링을 참조하십시오.</p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>위험</strong> </td> 
@@ -550,7 +580,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 기본값을 정의할 수 있습니다.
 
-이러한 설정이 새 작업 만들기에 미치는 영향에 대한 자세한 내용은 [작업 만들기 개요](../../../manage-work/tasks/create-tasks/create-tasks-overview.md) 문서의 [프로젝트에 작업을 추가할 때 작업 기본값](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa) 섹션을 참조하십시오.
+이러한 설정이 새 작업 만들기에 미치는 영향에 대한 자세한 내용은 [작업 만들기 개요](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa) 문서의 [프로젝트에 작업을 추가할 때 작업 기본값](../../../manage-work/tasks/create-tasks/create-tasks-overview.md) 섹션을 참조하십시오.
 
 1. 위에 설명된 대로 프로젝트 편집을 시작합니다.
 1. 왼쪽 패널에서 **작업 설정**&#x200B;을 클릭합니다.
@@ -576,7 +606,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
    | 크기 | 백분율 |
    |---|---|
    | 소형 | 25% |
-   | 중간 | 50% |
+   | 보통 | 50% |
    | 대형 | 75% |
 
    >[!TIP]
@@ -792,15 +822,15 @@ Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정�
 
    사용자 정의 양식 편집에 대한 자세한 내용은 이 문서의 [사용자 정의 Forms](#custom-forms) 섹션을 참조하십시오.
 
-1. 선택한 모든 프로젝트에 대한 재무 정보를 편집하려면 **재무**&#x200B;을(를) 클릭하십시오.
+1. 선택한 모든 프로젝트에 대한 재무 정보를 편집하려면 **재무**을(를) 클릭하십시오.
 재무 영역 편집에 대한 자세한 내용은 이 문서의 [재무](#finance) 섹션을 참조하십시오.
-1. 선택한 모든 프로젝트에 대한 설정을 편집하려면 **프로젝트 설정**&#x200B;을 클릭하세요.
+1. 선택한 모든 프로젝트에 대한 설정을 편집하려면 **프로젝트 설정**을 클릭하세요.
 프로젝트 설정 영역 편집에 대한 자세한 내용은 이 문서의 [프로젝트 설정](#project-settings) 섹션을 참조하십시오.
-1. 선택한 모든 프로젝트에 대한 작업 설정을 편집하려면 **작업 설정**&#x200B;을 클릭하세요.
+1. 선택한 모든 프로젝트에 대한 작업 설정을 편집하려면 **작업 설정**을 클릭하세요.
 작업 설정 영역 편집에 대한 자세한 내용은 이 문서의 [작업 설정](#task-settings) 섹션을 참조하십시오.
-1. 선택한 모든 프로젝트에 대한 문제 설정을 편집하려면 **문제 설정**&#x200B;을 클릭하세요.
+1. 선택한 모든 프로젝트에 대한 문제 설정을 편집하려면 **문제 설정**을 클릭하세요.
 문제 설정 영역 편집에 대한 자세한 내용은 이 문서의 [문제 설정](#issue-settings) 섹션을 참조하십시오.
-1. 선택한 모든 프로젝트에 대한 액세스 설정을 편집하려면 **액세스**&#x200B;를 클릭하십시오.
+1. 선택한 모든 프로젝트에 대한 액세스 설정을 편집하려면 **액세스**를 클릭하십시오.
 액세스 영역 편집에 대한 자세한 내용은 이 문서의 [액세스](#access) 섹션을 참조하십시오.
 1. **댓글**&#x200B;을 클릭한 다음 제공된 공간에 댓글을 추가합니다. Workfront은 각 프로젝트의 **업데이트** 영역에 설명을 추가합니다. 작업 업데이트에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 1. (선택 사항) [프로젝트 편집] 상자에 추가한 정보를 제거하려면 편집된 필드를 마우스로 가리킨 다음 필드의 오른쪽 상단에 있는 **x** 무시 아이콘을 클릭합니다.

@@ -6,9 +6,9 @@ description: 다양한 방법으로 반복에 대한 애자일 스토리를 만�
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,6 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,18 +32,17 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard]</p> 
-   또는
-   <p>현재: [!UICONTROL Work] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p> 
+   <p>작업 이상</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>스토리가 있는 프로젝트에 대한 [!UICONTROL 관리] 액세스 권한 </td> 
+   <td>스토리가 있는 프로젝트에 대한 액세스 관리 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +84,7 @@ ht-degree: 0%
       <td>스토리를 반복에 추가할 준비가 되면 이 옵션을 선택합니다. 이 옵션을 선택하면 백로그의 스토리를 반복에 추가할 준비가 되었음을 사용자에게 표시합니다.<br>스토리가 <strong>[!UICONTROL 준비]로 표시되었는지 여부에 관계없이 반복에 추가할 수 있습니다.</strong></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Estimate] (포인트)</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Estimate](포인트)</strong></td>
       <td>스토리의 예상 값을 지정합니다. 애자일 팀이 스토리를 포인트 단위로 추정하도록 구성된 경우 기본적으로 1포인트는 8시간입니다. 예상 시간이 스토리에 [!UICONTROL 계획된 시간]으로 추가됩니다.<br>예를 들어 스토리를 3점으로 예상하면 기본적으로 스토리에 24개의 [!UICONTROL 계획된 시간]을 추가합니다.<br>스토리에 하위 작업이 포함된 경우 모든 하위 작업에 대한 전체 예상 값이 상위 스토리의 예상 값을 결정합니다. 자세한 내용은 <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">기존 반복에 스토리 추가</a>를 참조하십시오.</td>
      </tr>
      <tr>
@@ -109,7 +106,7 @@ ht-degree: 0%
 
 ## 백로그에 애자일 스토리 만들기
 
-애자일 백로그 관리&rbrack; 문서 &lbrack;[[!UICONTROL 관리]](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)의 [백로그에 새 스토리 만들기](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) 섹션에 설명된 대로 애자일 백로그에서 애자일 스토리를 만들 수 있습니다.
+애자일 백로그 관리[ 문서 ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories)관리[[!UICONTROL 의 ]백로그에 새 스토리 만들기](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 섹션에 설명된 대로 애자일 백로그에서 애자일 스토리를 만들 수 있습니다.
 
 ## 작업 또는 문제를 애자일 스토리로 추가
 
@@ -119,6 +116,6 @@ ht-degree: 0%
 
 다음 방법 중 하나를 사용하여 애자일 스토리에 대한 하위 작업을 만들 수 있습니다.
 
-* [하위 작업 만들기](../../manage-work/tasks/create-tasks/create-subtasks.md)의 [하위 작업 만들기](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks)에 설명된 대로 **[!UICONTROL 하위 작업]** 탭을 사용합니다.
+* **[!UICONTROL 하위 작업 만들기]**&#x200B;의 [하위 작업 만들기](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks)에 설명된 대로 [하위 작업](../../manage-work/tasks/create-tasks/create-subtasks.md) 탭을 사용합니다.
 
 * [반복 만들기](../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)에 설명된 대로 스토리 보드에서 직접 가져옵니다.

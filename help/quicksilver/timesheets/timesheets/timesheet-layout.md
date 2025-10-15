@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: 타임시트 레이아웃 개요
 description: 이 문서에서는 Adobe Workfront의 타임시트 레이아웃에 대해 설명하므로 타임시트를 사용자 정의하고 활용하여 시간을 기록하는 방법을 더 잘 이해할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -46,7 +46,7 @@ ht-degree: 1%
 * [시간대 및 시간 입력 영역](#time-frame-and-hour-entry-area)
 * [시간 입력 주석](#hour-entry-comments)
 * [시간](#hours)
-* [합계](#totals)
+* [총계](#totals)
 
 ## 타임시트 헤더
 
@@ -170,7 +170,7 @@ You can resize the columns that display different weeks, the time frame, or the 
 
 타임시트는 각 작업 항목과 타임시트 범위의 일에 대한 입력 필드를 제공하여 항목에서 작업하는 데 걸린 시간을 기록합니다. 시간을 기록할 때 시간을 기록하는 항목은 연한 파란색으로 강조 표시되고 시간 상자는 진한 파란색으로 표시됩니다.
 
-## 합계
+## 총계
 
 ![타임시트 합계](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
 

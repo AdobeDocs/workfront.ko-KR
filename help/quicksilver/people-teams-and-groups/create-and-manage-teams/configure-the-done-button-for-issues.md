@@ -6,16 +6,16 @@ description: 완료 버튼을 사용하면 작업 또는 문제의 상태를 자
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1167'
 ht-degree: 1%
 
 ---
 
 # 문제에 대한 [!UICONTROL 완료] 단추 구성
 
-[!UICONTROL 완료] 단추를 사용하면 작업 또는 문제의 상태를 자동으로 설정할 수 있습니다. 기본적으로 [!DNL Adobe Workfront]은(는) 피할당자가 작업 항목에서 [!UICONTROL 완료]를 클릭할 때 문제를 [!UICONTROL 해결됨] (으)로 표시합니다.
+[!UICONTROL 완료] 단추를 사용하면 작업 또는 문제의 상태를 자동으로 설정할 수 있습니다. 기본적으로 [!DNL Adobe Workfront]은(는) 피할당자가 작업 항목에서 [!UICONTROL 완료]를 클릭할 때 문제를 [!UICONTROL 해결됨]&#x200B;(으)로 표시합니다.
 
 >[!NOTE]
 >
@@ -23,33 +23,30 @@ ht-degree: 1%
 
 ## 개요
 
-특정 권한이 있는 사용자는 시스템의 특정 상태를 반영하도록 [!UICONTROL 완료] 단추를 구성할 수 있습니다. [!DNL Workfront]의 문제에 대해 [!UICONTROL 완료] 단추가 작동하는 방법에는 세 가지가 있습니다.
+특정 권한이 있는 사용자는 시스템의 특정 상태를 반영하도록 [!UICONTROL 완료] 단추를 구성할 수 있습니다. [!UICONTROL 의 문제에 대해 ]완료[!DNL Workfront] 단추가 작동하는 방법에는 세 가지가 있습니다.
 
 * 사용자에게 할당된 [!UICONTROL 홈 팀]이 있는 경우 [!DNL Workfront] 관리자나 [!UICONTROL 계획] 라이선스가 있는 사용자는 팀원의 특정 상태를 반영하도록 [!UICONTROL 완료] 단추를 구성할 수 있습니다. 이 문서에서 [팀에 대한 [!UICONTROL 완료] 단추 구성](#configure-the-uicontrol-done-button-for-a-team)을(를) 참조하십시오.
 * 사용자에게 [!UICONTROL 홈 팀]이 없지만 프로필에 [!UICONTROL 다른 팀]이 있는 경우 Workfront은 사용자와 연결된 모든 팀에서 [!UICONTROL 완료] 단추 설정을 검색합니다. 선택은 임의이며 팀과 연결된 상태가 문제에 사용됩니다.
 * 사용자에게 할당된 [!UICONTROL 홈 팀]이 없는 경우 문제에 대한 [!UICONTROL 완료] 단추가 세 문자 코드 [!UICONTROL RLV]을(를) 가진 시스템 생성 [!UICONTROL 해결됨] 상태와 연결되어 있습니다. 이 시나리오에는 사용 가능한 구성 옵션이 없습니다. [!UICONTROL 완료] 단추의 기본값은 자동으로 이 상태입니다.
-* [!UICONTROL 해결됨] ([!UICONTROL RLV]) 상태가 삭제되고 문제를 [!UICONTROL 완료] (으)로 표시하는 사용자에게 [!UICONTROL 홈 팀]이 없는 경우 기본 문제 상태는 문제가 속한 프로젝트에 할당된 그룹의 [!UICONTROL 마감됨]에 기본값으로 설정된 모든 항목에 연결됩니다. Workfront 관리자는 그룹에 대한 시스템 전체 기본 설정을 구성할 수 있습니다. 이 문서에서 [!UICONTROL 해결됨] 상태가 삭제되면 [구성[!UICONTROL 완료] 단추를 참조하십시오](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted).
+* [!UICONTROL 해결됨]&#x200B;([!UICONTROL RLV]) 상태가 삭제되고 문제를 [!UICONTROL 완료]&#x200B;(으)로 표시하는 사용자에게 [!UICONTROL 홈 팀]이 없는 경우 기본 문제 상태는 문제가 속한 프로젝트에 할당된 그룹의 [!UICONTROL 마감됨]에 기본값으로 설정된 모든 항목에 연결됩니다. Workfront 관리자는 그룹에 대한 시스템 전체 기본 설정을 구성할 수 있습니다. 이 문서에서 [해결됨[!UICONTROL  상태가 삭제되면 ]구성[!UICONTROL 완료] 단추를 참조하십시오](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted).
 
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 패키지</p> </td> 
    <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td>
-   <p>새로운 기능: 표준</p>
-   <p>또는</p>
-   <p>현재: 플랜</p></td>
+   <p>표준</p>
+   <p>플랜</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -104,7 +101,7 @@ ht-degree: 1%
 
 사용자를 홈 팀과 연결하려면 다음 작업을 수행하십시오.
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+1. **[!UICONTROL 의 오른쪽 위 모서리에 있는]**&#x200B;주 메뉴![](assets/main-menu-icon.png) 아이콘 [!DNL Adobe Workfront]을(를) 클릭합니다.
 
 1. **[!UICONTROL 사용자]**&#x200B;를 클릭한 다음 홈 팀에 연결할 사용자를 선택하십시오.
 1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.\
@@ -118,7 +115,7 @@ ht-degree: 1%
 
 ## [!UICONTROL 해결됨] 상태가 삭제되면 [!UICONTROL 완료] 단추를 구성하십시오.
 
-사용자에게 홈 팀이 없고 [!UICONTROL 해결됨] ([!UICONTROL RLV])에 대한 시스템 전체 기본값이 삭제된 경우 [!DNL Workfront] 관리자는 프로젝트에 있는 그룹의 [!UICONTROL 닫힘] 상태를 구성할 수 있습니다. [!DNL Workfront]은(는) 사용자가 [!DNL Done] 단추를 클릭할 때 종료된 문제에 대해 이 상태를 선택합니다.
+사용자에게 홈 팀이 없고 [!UICONTROL 해결됨]&#x200B;([!UICONTROL RLV])에 대한 시스템 전체 기본값이 삭제된 경우 [!DNL Workfront] 관리자는 프로젝트에 있는 그룹의 [!UICONTROL 닫힘] 상태를 구성할 수 있습니다. [!DNL Workfront]은(는) 사용자가 [!DNL Done] 단추를 클릭할 때 종료된 문제에 대해 이 상태를 선택합니다.
 
 ### 프로젝트와 연계된 그룹 찾기
 

@@ -6,9 +6,9 @@ description: 리소스 관리자는 사용자에게 작업을 할당하고 업�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -23,25 +23,21 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> <p>임의 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 리소스 조달 영역에서 업무 균형자 사용 시 계획;</br>
-       팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p></td>
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>리소스 영역 내 업무 균형자 사용 시 계획, 팀 또는 프로젝트의 업무 균형자 사용 시 작업</p></td>
+  </tr>
+  <tr> 
+   <td>액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 편집:</p> 
     <ul> 
      <li>리소스 관리</li> 
@@ -52,13 +48,13 @@ ht-degree: 0%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td>개체 권한</td> 
    <td> <p>할당을 관리할 작업 및 문제에 할당 만들기를 포함하는 이상의 Contribute 권한 </p> <p>또는 </p> <p>할당 업데이트 외에 계획된 시간을 업데이트할 작업에 대한 권한을 관리합니다. 업무 균형자에서 계획된 시간을 업데이트하는 방법에 대한 자세한 내용은 이 문서의 <a href="#update-task-planned-hours-when-managing-user-allocations">사용자 할당 관리 시 계획된 시간 업데이트</a> 섹션을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -94,7 +90,7 @@ ht-degree: 0%
 
   >[!INFO]
   >
-  > 예를 들어, 작업의 기간 이 2일과 2시간이고, 사용자가 있는 기간의 첫 날에 계획된 시작 시간이 오후 12시이고, 프로젝트 일정이 오후 5시에 끝나는 경우입니다. 사용자의 첫 번째 날 수용 시간은 5시간입니다. 둘째 날 사용자의 용량은 8시간입니다(일정이 오전 9시에 시작하는 경우).
+  > 예를 들어, 작업의 기간 은 2일이고 계획된 시간은 2시간일 수 있으며 사용자가 있는 기간의 첫 번째 날에 오후 12:00의 계획된 시작 시간과 오후 5시에 끝나는 프로젝트 일정이 있을 수 있습니다. 사용자의 첫 번째 날 수용 시간은 5시간입니다. 둘째 날 사용자의 용량은 8시간입니다(일정이 오전 9시에 시작하는 경우).
   >
   >Workfront은 다음 공식을 사용하여 기간 2일에 대한 2시간의 할당을 계산합니다.
   >

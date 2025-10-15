@@ -9,10 +9,10 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 1%
 
 ---
 
@@ -36,22 +36,19 @@ ADFS 로그아웃 URL(https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0)�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] 패키지</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] 라이선스</td> 
-   <td> 
-   <p>새로운 기능: 표준</p>
-   또는
-   <p>현재: 플랜</p></td> 
+   <td>
+   <p>표준</p>
+   <p>플랜</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -60,7 +57,7 @@ ADFS 로그아웃 URL(https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0)�
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

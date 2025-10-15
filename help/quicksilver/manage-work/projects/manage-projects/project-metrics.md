@@ -3,38 +3,38 @@ content-type: overview;how-to-procedural
 product-area: projects
 keywords: analytics,지표,프로젝트,작업,할당자,완료,상태,기한 초과,예정
 navigation-topic: manage-projects
-title: 프로젝트 지표 개요
+title: 프로젝트 지표 이해
 description: 프로젝트 지표는 프로젝트에서 발생하는 작업을 시각화하므로 프로젝트의 요구 사항과 상태를 신속하게 평가할 수 있습니다. 프로젝트의 왼쪽 패널에서 지표 영역을 해석하는 방법을 알아봅니다.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
 
-# 프로젝트 지표 개요
+# 프로젝트 지표 이해
 
 프로젝트 지표는 프로젝트의 수행 방식에 대한 일반적인 보기를 차트 형식으로 제공합니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront 라이센스*</td> 
-   <td> <p>새로운 기능: 밝게 또는 높음 </p>
-   <p>현재: 검토 이상 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>밝거나 높음</p>
+   <p>검토 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -50,6 +50,32 @@ ht-degree: 0%
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 전제 조건
 
@@ -92,7 +118,7 @@ ht-degree: 0%
 | 완료된 작업 | **완료된 작업**&#x200B;은(는) 완료 상태의 작업 수를 표시합니다. 이 숫자에는 완료 와 동일한 사용자 지정 상태를 갖는 작업도 포함됩니다. |
 |---|---|
 | 미완료 작업 | **미완료 작업**&#x200B;은(는) 완료 또는 닫힘 상태 또는 완료와 같은 상태가 아닌 작업 수를 표시합니다. |
-| 기한 초과 작업 | **기한 초과 작업**&#x200B;은(는) 계획된 완료 일자가 지났고 완료 또는 마감 상태이거나 완료 또는 마감과 동일한 상태가 아닌 작업 수를 표시합니다. |
+| 기한이 지난 작업 | **기한 초과 작업**&#x200B;은(는) 계획된 완료 일자가 지났고 완료 또는 마감 상태이거나 완료 또는 마감과 동일한 상태가 아닌 작업 수를 표시합니다. |
 | 총 작업 | **총 작업**&#x200B;은(는) 프로젝트의 총 작업 수를 표시합니다. |
 
 >[!TIP]

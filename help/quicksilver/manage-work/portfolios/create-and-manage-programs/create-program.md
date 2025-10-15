@@ -6,9 +6,9 @@ description: 프로그램은 프로젝트 경계를 초월하는 공통 전략, 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -32,20 +32,19 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td>
 
 <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard] </p><p>또는 </p><p>현재: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL 계획]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -61,6 +60,32 @@ ht-degree: 0%
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard] </p><p>Or </p><p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs </p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default.</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 프로그램을 만드는 방법
 
@@ -98,7 +123,7 @@ ht-degree: 0%
       1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
    * [!UICONTROL 포트폴리오] 영역에서 프로그램을 만듭니다.
 
-      1. [!UICONTROL 기본 메뉴]에서 **[!UICONTROL 포트폴리오]**&#x200B;를 클릭한 다음 포트폴리오를 엽니다.
+      1. **[!UICONTROL 기본 메뉴]**&#x200B;에서 [!UICONTROL 포트폴리오]를 클릭한 다음 포트폴리오를 엽니다.
       1. 왼쪽 패널에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
       1. **[!UICONTROL 새 프로그램]** 드롭다운 메뉴를 클릭한 다음 **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
 
@@ -175,7 +200,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">헤더 정보</td> 
-   <td> <strong>메모</strong> </td> 
+   <td> <strong>참고</strong> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">포트폴리오 이름이 포함된 탐색 표시</td> 
@@ -217,7 +242,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 활성 프로젝트 상태]</td> 
-   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 , 위험 상태  또는 문제 발생 로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
+   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 [!UICONTROL], 위험 상태 [!UICONTROL] 또는 문제 발생 [!UICONTROL]로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
   </tr> 
  </tbody> 
 </table>

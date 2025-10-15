@@ -6,9 +6,9 @@ description: 작업을 시작하기 전에 승인할 프로젝트를 요청할 �
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '570'
 ht-degree: 2%
 
 ---
@@ -34,37 +34,68 @@ Adobe Workfront의 다음 영역에서 새 프로젝트를 추가할 때 프로�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront 라이센스*</p> </td> 
-   <td> <p>새로운 기능: 표준 </p>
-   또는
-   <p>현재: 플랜 </p>
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront 라이선스</p> </td> 
+   <td> <p>표준</p>
+   <p>플랜</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준</td> 
-   <td> <p>프로젝트에 대한 액세스 편집</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트에 대한 액세스 편집</p>
+   <p>포트폴리오 또는 프로그램에서 프로젝트를 요청하는 경우 포트폴리오 및 프로그램에 대한 편집 액세스 권한이 있어야 합니다</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트 요청을 만들 때 프로젝트에 대한 관리 권한을 자동으로 받습니다 </p> </td> 
+   <td> <p>프로젝트 요청을 만들 때 프로젝트에 대한 관리 권한을 자동으로 받습니다 </p> 
+   <p>포트폴리오 또는 프로그램에서 프로젝트를 요청하는 경우 포트폴리오 및 프로그램에 대한 관리 권한이 있어야 합니다.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>New: Standard </p>
+   Or
+   <p>Current: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 프로젝트 요청
 

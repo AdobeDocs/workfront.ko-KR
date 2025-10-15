@@ -6,9 +6,9 @@ description: '알림: 목표'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '388'
 ht-degree: 2%
 
 ---
@@ -23,48 +23,43 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>[!UICONTROL Pro] 이상</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
+   <td>
+   <p>기여자 이상</p>
+    <p>요청 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>제품</strong></td> 
+   <td role="rowheader"><strong>추가 제품</strong></td> 
    <td>[!DNL Workfront Goals] <p>[!DNL Workfront Goals]에 대한 자세한 내용은 <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>[!DNL Goals] 이상에 대한 [!UICONTROL 보기] 액세스</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed]</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> 
+   <td> <p>[!DNL Goals] 이상에 대한 [!UICONTROL 보기] 액세스</p></td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 ## 전제 조건
 
-* 업데이트하려는 [!DNL Goals] 알림의 사용자에게는 [!UICONTROL 기본 메뉴]의 [!DNL Goals] 영역을 포함하는 레이아웃 템플릿이 있어야 합니다.
+* 업데이트하려는 [!DNL Goals] 알림의 사용자에게는 [!DNL Goals]기본 메뉴[!UICONTROL 의 ] 영역을 포함하는 레이아웃 템플릿이 있어야 합니다.
 
 
-## [!UICONTROL 사용자 프로필] 영역의 [!DNL Goals]개 알림
+## [!DNL Goals]사용자 프로필[!UICONTROL  영역의 ]개 알림
 
 다음 표에 나열된 알림은 [!DNL Workfront Goals]에서 발생하는 이벤트(예: 누군가 사용자에게 목표, 결과 또는 활동을 할당하거나 사용자가 소유한 목표, 결과 또는 활동을 업데이트하는 사람)에 대해 알려줍니다. 받는 알림을 구성하는 방법에 대한 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 

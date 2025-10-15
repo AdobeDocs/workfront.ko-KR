@@ -6,9 +6,9 @@ description: 프로젝트와 이니셔티브를 연결한 후 리소스 할당�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -25,47 +25,79 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
-   <td> <ul></li>
-   <li><p>새로운 기능: Ultimate </p></li>
-   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
-   <li><p>현재: [!UICONTROL Business] 이상</p></ul>
+   <td> <p>[!DNL Adobe Workfront] 패키지</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>메모</b></p>
+<p>다른 Workfront 패키지가 있는 경우 Workfront 담당자에게 문의하십시오.</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 라이센스*</p> </td> 
-   <td> <p>새로운 기능: 밝게 또는 높음</p> 
-   <p>현재: [!UICONTROL Review] 이상</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 라이센스</p> </td> 
+   <td> <p>[!UICONTROL Light] 이상</p> 
+   <p>[!UICONTROL Review] 이상</p> </td> 
+  </tr> 
+    <tr> 
+   <td>액세스 수준 구성</td> 
+   <td> <p>프로젝트에 대한 보기 이상의 액세스 권한.</p></td> 
   </tr> 
   <tr> 
-   <td>제품* </td> 
-   <td> <ul><li><p>새로운 Workfront 플랜의 경우:</p><p> Adobe Workfront</li></p>
-   <li><p>현재 Workfront 플랜의 경우: </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront 시나리오 플래너</p></li></ul>
-
-<p>자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>액세스 수준 </td> 
-   <td> <p>프로젝트에 대한 보기 이상의 액세스 권한.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>개체 권한 </p> </td> 
-   <td> <p> 프로젝트에 대한 보기 이상의 권한.</p> </td> 
+   <td> <p> 프로젝트에 대한 보기 이상의 권한.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+시나리오 플래너에 액세스하는 방법에 대한 자세한 내용은 [을(를) 사용하는 데 필요한 액세스 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)를 참조하십시오.
+
+Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>View or higher access to Projects.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p> View or higher permission to a project.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 작업 목록에 프로젝트 및 이니셔티브에 대한 역할 할당 표시
 
@@ -87,7 +119,7 @@ ht-degree: 0%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays 5 to match the mention of it in the section below)</p>
    -->
 
-1. [!UICONTROL 역할 할당] 패널의 **[!UICONTROL 프로젝트 합계]** 영역에서 다음 정보를 검토하십시오.
+1. **[!UICONTROL 역할 할당]** 패널의 [!UICONTROL 프로젝트 합계] 영역에서 다음 정보를 검토하십시오.
 
    <table style="table-layout:auto"> 
     <col> 

@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: '계산된 사용자 정의 필드 예: 사용자 정의 양식에 상태 타임스탬프 표시'
 description: 다음 계산된 필드에는 오브젝트 상태가 진행 중(INP)으로 표시된 날짜가 표시됩니다. 문제, 작업 또는 프로젝트에 대해 계산된 사용자 정의 필드에 동일한 정보를 사용할 수 있습니다.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -24,35 +24,36 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>임의</td> 
+   <td> <p>Adobe Workfront 패키지</p> </td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront 라이센스*</p> </td> 
-   <td> <p>플랜 </p> </td> 
+   <td> <p>Adobe Workfront 라이선스</p> </td> 
+   <td>
+      <p>표준</p>
+      <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td><strong>액세스 수준 구성*</strong> </td> 
-   <td> <p>액세스 편집: 보고서, 대시보드 및 캘린더 만들기</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td><p>액세스 수준 구성</p></td> 
+   <td> <p>액세스 편집: 보고서, 대시보드 및 캘린더 만들기</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>개체 권한</strong> </p> </td> 
-   <td> <p>양식이 첨부된 개체에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.<br>대시보드 사용 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">보고서, 대시보드 및 일정 공유 </a>를 참조하십시오.</p> </td> 
+   <td> <p>개체 권한</p> </td> 
+   <td> <p>양식이 첨부된 개체에 대한 권한 관리</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -62,7 +63,7 @@ ht-degree: 0%
 
 1. 필드를 추가할 사용자 정의 양식으로 이동합니다.
 1. 양식에 계산된 사용자 지정 필드를 추가하려면 **계산됨**&#x200B;을(를) 클릭하십시오.
-1. 사용자 지정 필드에 **Label**&#x200B;을(를) 입력하십시오. 예를 들어 &quot;상태 타임스탬프 사용자 정의 필드&quot;입니다.
+1. 사용자 지정 필드에 **Label**&#x200B;을(를) 입력하십시오. (예: &quot;상태 타임스탬프 사용자 정의 필드&quot;)
 1. **저장+닫기**&#x200B;를 클릭합니다.
 1. 사용자 정의 양식을 다시 연 다음 양식의 새 **상태 타임스탬프 사용자 정의 필드**&#x200B;을(를) 선택하십시오.
 1. **계산** 상자에서 사용자 지정 필드에 대해 다음 계산을 복사하여 붙여 넣습니다.

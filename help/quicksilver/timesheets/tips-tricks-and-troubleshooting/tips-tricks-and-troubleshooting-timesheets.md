@@ -2,13 +2,13 @@
 content-type: tips-tricks-troubleshooting;reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "타임시트에 대한 팁, 요령 및 문제 해결: 문서 색인"
+title: '타임시트에 대한 팁, 요령 및 문제 해결: 문서 색인'
 description: 다음 문서에서 일반적인 타임시트 동작 또는 타임시트와 관련된 잠재적 문제를 해결하는 방법에 대해 자세히 알아보십시오.
-author: Alina
+author: Lisa
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: cf5f93d1-e517-421e-8740-1b80af2ed127
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%

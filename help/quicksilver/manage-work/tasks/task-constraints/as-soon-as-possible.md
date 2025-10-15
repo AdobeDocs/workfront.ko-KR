@@ -7,7 +7,7 @@ description: 가능한 한 빨리 는 작업 시작 시간을 프로젝트 시�
 author: Alina
 feature: Work Management
 exl-id: 9cb232fe-bc74-4433-afac-88be69514c88
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%

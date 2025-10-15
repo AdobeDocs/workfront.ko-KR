@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1719'
 ht-degree: 0%
 
 ---
@@ -42,21 +42,24 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] 플랜</td> 
-   <td> <p>[!UICONTROL Business] 이상</p> </td> 
+   <td role="rowheader">Workfront 패키지</td> 
+   <td> <p>Prime 또는 Ultimate</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] 라이센스</p> </td> 
-   <td> <p>[!UICONTROL 계획] </p> <p>[!DNL Workfront] 관리자여야 합니다. [!DNL Workfront] 관리자에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리자 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
+   <td role="rowheader"> Workfront 라이선스</td> 
+   <td> <p>표준</p><p>플랜</p>  </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">지원 패키지</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred] 또는 [!UICONTROL Enterprise]</p> <p>표준 지원 패키지는 사용자 정의 새로 고침 샌드박스에 액세스할 수 없지만 미리보기 샌드박스에 액세스할 수 있습니다.</p> </td> 
-  </tr> 
+  </tr>
+   <tr>
+   <td>액세스 수준 구성
+   </td>
+   <td><p>Workfront 관리자여야 합니다.</p>
+   </td>
+  </tr>
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -89,7 +92,7 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 사용자 지정 새로 고침 샌드박스에 액세스하려면:
 
-1. **[!UICONTROL 의 오른쪽 상단에 있는]**&#x200B;주 메뉴![&#x200B; 아이콘 &#x200B;](assets/main-menu-icon.png)주 메뉴 아이콘[!DNL Adobe Workfront]을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
+1. **[!UICONTROL 의 오른쪽 상단에 있는]**&#x200B;주 메뉴![ 아이콘 ](assets/main-menu-icon.png)주 메뉴 아이콘[!DNL Adobe Workfront]을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
 1. **[!UICONTROL 시스템]** >**[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
 

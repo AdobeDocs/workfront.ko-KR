@@ -7,7 +7,7 @@ description: 비즈니스 관리자는 Adobe Workfront Scenario Planner를 사�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: 3f53cb49bbe8de21c42ec557fd367490f8ae8956
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 각 높은 수준의 조직 결과를 식별하고 [!DNL Workfront Scenario Planner]에 플랜으로 추가할 수 있습니다. 플랜은 [!DNL Scenario Planner]에서 가장 큰 작업 항목입니다. 계획을 더 쉽게 달성할 수 있도록 여러 이니셔티브로 나누어 개별 조직 단위가 해당 완료를 위해 수행해야 하는 단계를 나타낼 수 있습니다.
 
-그런 다음 이니셔티브를 실제 프로젝트와 연결하여 실제 작업 요소가 계획을 실제로 완료하는 방법을 나타낼 수 있습니다. 이 문서에서는 플랜에 대한 일반적인 정보를 제공합니다. 이니셔티브에 대한 자세한 내용은  [!DNL Scenario Planner][&#128279;](../scenario-planner/initiatives-overview.md)에서 이니셔티브 개요 를 참조하십시오.
+그런 다음 이니셔티브를 실제 프로젝트와 연결하여 실제 작업 요소가 계획을 실제로 완료하는 방법을 나타낼 수 있습니다. 이 문서에서는 플랜에 대한 일반적인 정보를 제공합니다. 이니셔티브에 대한 자세한 내용은 [에서  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)이니셔티브 개요 를 참조하십시오.
 
 계획에서 식별된 작업을 완료하는 데 필요한 인건비 및 재무 자원을 정의할 수 있습니다. 또한 계획에서 이니셔티브가 완료할 수 있도록 이니셔티브에 필요한 인건비 및 재무 자원을 볼 수 있습니다.
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 |---|---|
 | FTE/시간 표시기 | &quot;[!UICONTROL 작업 역할]&quot; 제목 옆에 있는 ([!UICONTROL FTE]) 또는 ([!UICONTROL 시간]) 표시기는 계획이 FTE를 사용하도록 설정되었는지 또는 만들 때 시간을 사용하도록 설정되었는지 여부를 나타냅니다. 계획, 모든 시나리오 및 이니셔티브는 이 단위를 사용합니다. |
 | [!UICONTROL 사용 가능] | 현재 시나리오에 사용할 수 있는 작업 역할 FTE 수 또는 시간입니다. |
-| 필수 | 현재 시나리오의 모든 이니셔티브가 완료할 수 있도록 필요한 작업 역할 FTE 수 또는 시간입니다. |
+| 필수 여부 | 현재 시나리오의 모든 이니셔티브가 완료할 수 있도록 필요한 작업 역할 FTE 수 또는 시간입니다. |
 
 플랜에 액세스하고 작업 역할에 대한 자세한 정보를 보는 방법에 대한 자세한 내용은 [다음에서 플랜 만들기 및 편집 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)을 참조하십시오.
 
@@ -100,7 +100,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!UICONTROL Summary] 상자의 [!UICONTROL Net Value] 영역 <span></span></p> <p role="rowheader"> </p> </td> 
-   <td> <p>이는 플랜에 있는 모든 이니셔티브의 모든 순 가치(Net Value)를 계산한 것입니다. </p> <p>Workfront은 다음 공식을 사용하여 플랜에 대한 순 값을 계산합니다. </p> <p><code>Plan Net Value = SUM(Initiative Planned Benefit - People Costs)</code> </p> <p>또는</p> <p><code>Plan Net Value = SUM(Initiative Net Value)</code> </p> <p>이니셔티브 순 값에 대한 자세한 내용은 [!DNL Scenario Planner]</a>의 <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">이니셔티브 개요 문서를 참조하십시오.</p> </td> 
+   <td> <p>이는 플랜에 있는 모든 이니셔티브의 모든 순 가치(Net Value)를 계산한 것입니다. </p> <p>Workfront은 다음 공식을 사용하여 플랜에 대한 순 값을 계산합니다. </p> <p><code>Plan Net Value = SUM(Initiative Planned Benefit - People Costs)</code> </p> <p>또는</p> <p><code>Plan Net Value = SUM(Initiative Net Value)</code> </p> <p>이니셔티브 순 값에 대한 자세한 내용은 <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">의 [!DNL Scenario Planner]</a>이니셔티브 개요 문서를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>

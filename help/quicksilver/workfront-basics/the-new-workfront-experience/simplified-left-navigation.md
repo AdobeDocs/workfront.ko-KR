@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 의 왼쪽 탐색 패널을 사용하면 시스�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 0fbbf7fccee0158cc0630703ed1b663cf42725dd
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1370'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ WF의 대부분의 영역과 오브젝트는 화면 왼쪽에 있는 간단한 �
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,17 +39,22 @@ WF의 대부분의 영역과 오브젝트는 화면 왼쪽에 있는 간단한 �
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 패키지</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
+   <td>
+   <p>기여자 이상</p>
+   <p>요청 이상</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜 또는 라이선스 유형을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 왼쪽 탐색 패널의 기본 섹션
 
@@ -75,7 +80,7 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
 >[!IMPORTANT]
 >
 >왼쪽 패널에 기본적으로 한 개의 섹션만 표시되는 경우(예: **[!UICONTROL 프로젝트]** 영역의 **[!UICONTROL 모든 프로젝트]**) [!DNL Workfront] 관리자는 레이아웃 템플릿을 작성할 때 이 영역에 대시보드를 하나 이상 추가하고 왼쪽 패널이 해당 영역에 표시되기 전에 해당 템플릿에 사용자를 할당해야 합니다.
->&#x200B;>[!DNL Workfront] 관리자가 레이아웃 템플릿에서 왼쪽 패널을 사용자 지정하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)을 참조하십시오.
+>>[!DNL Workfront] 관리자가 레이아웃 템플릿에서 왼쪽 패널을 사용자 지정하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)을 참조하십시오.
 
 왼쪽 패널은 다음 영역에 사용할 수 있습니다.
 
@@ -84,7 +89,7 @@ Adobe Workfront의 다양한 오브젝트 또는 영역에 대한 왼쪽 패널�
 * [[!UICONTROL 리소스 조달] 영역의 기본 섹션](#default-sections-in-the-resourcing-area)
 * [[!UICONTROL 프로젝트] 영역의 기본 섹션](#default-sections-in-the-projects-area)
 * [[!UICONTROL 타임시트] 영역의 기본 섹션](#default-sections-in-the-timesheets-area)
-* [&#x200B; [!DNL Goals] 영역의 기본 섹션](#default-sections-in-the-goals-area)
+* [ [!DNL Goals] 영역의 기본 섹션](#default-sections-in-the-goals-area)
 
 ### [!UICONTROL 대시보드] 영역의 기본 섹션
 

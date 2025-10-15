@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ Adobe Workfront 관리자인 경우 그룹 관리자가 관리하는 최상위 �
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td>
+   <p>표준</p>
+   <p>플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -53,6 +53,8 @@ Adobe Workfront 관리자인 경우 그룹 관리자가 관리하는 최상위 �
   </tr> 
  </tbody> 
 </table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -77,4 +79,4 @@ Adobe Workfront 관리자인 경우 그룹 관리자가 관리하는 최상위 �
 1. (선택 사항) 이 작업을 그룹 관리자에게 맡기는 대신 최상위 그룹에 대한 이벤트 알림을 구성하려면 다음 중 하나를 수행할 수 있습니다.
 
    * 알림 목록 위의 검색 상자에서 **시스템 이벤트 알림**&#x200B;을 삭제하고, 알림을 나열할 최상위 그룹의 이름을 검색하여 선택한 다음 표시되는 목록에서 잠금 해제된 알림을 활성화하거나 비활성화합니다.
-   * 왼쪽 메뉴에서 **그룹**&#x200B;을 클릭한 다음 최상위 그룹의 이름을 클릭합니다. [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)에 설명된 대로 왼쪽 패널에서 **이벤트 알림**&#x200B;을 클릭한 다음 잠금 해제된 이벤트 알림을 구성하십시오.
+   * 왼쪽 메뉴에서 **그룹**&#x200B;을 클릭한 다음 최상위 그룹의 이름을 클릭합니다. **그룹에 대한 이벤트 알림 보기 및 구성**&#x200B;에 설명된 대로 왼쪽 패널에서 [이벤트 알림](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)을 클릭한 다음 잠금 해제된 이벤트 알림을 구성하십시오.

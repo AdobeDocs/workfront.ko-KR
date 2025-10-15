@@ -7,34 +7,41 @@ description: 목표 정렬을 사용하면 조직의 모든 구성원이 서로 
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '750'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront 목표의 목표 정렬 개요
 
-<!--Audited P&P only: 4/2025-->
+<!--Audited: 10/2025-->
 
 >[!IMPORTANT]
 >
->이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
+>이전에 이 패키지를 구입한 경우 귀사에서 Adobe Workfront 목표를 계속 사용하도록 선택할 수 있습니다. 자세한 내용은 계정 담당자에게 문의하십시오.
 >
->* 새 플랜 및 라이선스 구조의 경우:
->
->   * Ultimate Workfront 플랜
->    
->* 현재 플랜 및 라이선스 구조의 경우:
->
->   * Pro 이상의 Workfront 플랜
->   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
->
->Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
+>Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 > 
 >Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
+
+<!--Old:
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
+> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).-->
 
 목표 정렬은 목표 관리의 중요한 부분입니다. 조직의 모든 구성원이 서로의 목표를 팀, 그룹 및 회사의 조직 목표에 맞춰 전략을 추진하려면 달성해야 하는 목표를 동일한 페이지에 있도록 할 수 있습니다.
 
@@ -95,7 +102,7 @@ ht-degree: 1%
 -->
 다음 영역에서 하위 및 상위 목표를 볼 수 있습니다.
 
-* 목표 페이지의 유형:목표 그룹화 아래에 있는 진행 표시기 섹션입니다.
+* :Goal 유형 그룹화 아래 목표의 페이지에 있는 진행 표시기 섹션입니다.
 * 목표 페이지의 목표 정렬 섹션.
 
 

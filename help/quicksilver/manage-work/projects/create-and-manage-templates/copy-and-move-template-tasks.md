@@ -6,9 +6,9 @@ description: 템플릿 작업을 동일한 템플릿 또는 다른 템플릿으�
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2090'
 ht-degree: 3%
 
 ---
@@ -19,22 +19,23 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p>
+   <p>플랜</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>템플릿에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
@@ -44,7 +45,34 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a template.</p> <p>You cannot share a template task.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 템플릿 작업 복사 또는 이동에 대한 고려 사항
 
@@ -85,7 +113,7 @@ ht-degree: 3%
 1. 다음 중 하나를 수행하십시오.
    * 템플릿 작업의 이름을 클릭하여 엽니다.
    * 목록에서 하나 또는 여러 템플릿 작업을 선택합니다.
-1. (조건부) 작업을 연 경우 템플릿 작업 목록 맨 위나 템플릿 작업 이름 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 복사 옵션에 액세스하는 위치에 따라 **복사 위치** 또는 **복사 위치**&#x200B;를 클릭합니다.
+1. (조건부) 작업을 연 경우 템플릿 작업 목록 맨 위나 템플릿 작업 이름 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 복사 옵션에 액세스하는 위치에 따라 **복사 위치** 또는 **복사 위치**를 클릭합니다.
 템플릿 복사 임무(Copy Template Task) 상자가 열립니다.
    ![템플릿 작업 상자 복사](assets/copy-template-task-box-unshimmed.png)
 1. (선택 사항) **템플릿 작업 이름** 필드에서 템플릿 작업의 이름을 변경합니다.
@@ -208,7 +236,7 @@ ht-degree: 3%
 1. 다음 중 하나를 수행하십시오.
    * 템플릿 작업의 이름을 클릭하여 엽니다.
    * 목록에서 하나 또는 여러 템플릿 작업을 선택합니다.
-1. (조건부) 작업을 연 경우 템플릿 작업 목록 맨 위나 템플릿 작업 이름 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 이동 옵션에 액세스하는 위치에 따라 **이동** 또는 **이동**&#x200B;을 클릭합니다.
+1. (조건부) 작업을 연 경우 템플릿 작업 목록 맨 위나 템플릿 작업 이름 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 이동 옵션에 액세스하는 위치에 따라 **이동** 또는 **이동**을 클릭합니다.
 템플릿 이동 임무(Move Template Task) 상자가 열립니다.
    ![템플릿 작업 상자 이동](assets/move-template-task-box-unshimmed.png)
 

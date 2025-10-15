@@ -6,9 +6,9 @@ description: 새 문서 버전을 업로드하고 Adobe Workfront의 다른 사�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
+source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -38,17 +38,19 @@ ht-degree: 0%
    <td> <p> 임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>요청 이상</p>
-   <p>기여자 이상</p> </td> 
+   <p>기여자 이상</p>
+   <p>Frame.io 통합을 사용하는 경우 승인 워크플로를 만들려면 표준 라이선스가 있어야 합니다.</p>
+    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>문서에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>문서에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문서와 연관된 객체에 대한 액세스 편집</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>문서와 연관된 객체에 대한 액세스 편집</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +75,7 @@ ht-degree: 0%
 1. Workfront의 문서로 이동합니다.
 1. 이전 문서 위에 새 파일을 끌어다 놓습니다. 이렇게 하면 새 버전이 자동으로 만들어집니다.
 
-1. 문서 업로드가 완료되면 문서를 선택한 다음 **문서 세부 정보**&#x200B;를 클릭합니다.
+1. 문서 업로드가 완료되면 문서를 선택한 다음 **문서 세부 정보**를 클릭합니다.
    ![문서 세부 정보 페이지 열기](assets/open-doc-details.png)
 
 

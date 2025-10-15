@@ -7,9 +7,9 @@ description: Google Workspace에서 나가지 않고도 작업 항목의 세부 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,34 @@ ht-degree: 0%
 >
 >조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
+>Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
 
 [!DNL Google Workspace]에서 나가지 않고 작업 항목의 세부 정보를 보고 관리할 수 있습니다. 예를 들어 [!DNL Adobe Workfront for Google Workspace] 내에서 작업의 설명을 읽고, 상위 개체를 보고, 상태를 변경하고, 완료로 표시할 수 있습니다.
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p><p>작업 이상</p>
   </tr> 
-</tbody> 
+ </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -62,8 +64,8 @@ ht-degree: 0%
 
 ## [!DNL Google Workspace]에서 작업 항목 세부 정보 보기 및 관리
 
-1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![&#x200B; 아이콘 &#x200B;](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
-1. [!DNL Workfront]의 [!DNL Google Workspace]Access[Home [!DNL Adobe Workfront] [!UICONTROL &#x200B; 콘텐츠에 설명된 대로 &#x200B;] 내의  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) 작업 또는 문제로 이동합니다.
+1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![ 아이콘 ](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
+1. [!DNL Workfront]의 [!DNL Google Workspace]Access[Home [!DNL Adobe Workfront] [!UICONTROL  콘텐츠에 설명된 대로 ] 내의  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) 작업 또는 문제로 이동합니다.
 
    작업 또는 문제를 선택하면 **[!UICONTROL 세부 정보]** 탭이 열립니다. **[!UICONTROL 세부 정보]** 탭 위의 영역에는 상위 개체의 이름, 작업 또는 문제의 이름, [!UICONTROL 기한]&#x200B;(작업인 경우) 또는 [!UICONTROL 우선 순위 날짜]&#x200B;(문제인 경우)가 표시됩니다.
 
@@ -91,5 +93,5 @@ ht-degree: 0%
 
 1. (선택 사항) **[!UICONTROL 의 현재 작업 항목으로 이동하려면[!DNL Workfront]]**&#x200B;의 [!DNL Workfront]보기를 클릭합니다.
 
-* [!UICONTROL 에서 &#x200B;]업데이트[!DNL Workfront for Google Workspace] 탭을 사용하는 방법에 대한 자세한 내용은 [개체 업데이트 [!DNL Adobe Workfront] 를 참조하십시오. [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-* [!UICONTROL 에서 &#x200B;]문서[!DNL Workfront for Google Workspace] 탭을 사용하는 방법에 대한 자세한 내용은 [[!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)에서 문서 보기 및 관리를 참조하십시오.
+* [!UICONTROL 에서 ]업데이트[!DNL Workfront for Google Workspace] 탭을 사용하는 방법에 대한 자세한 내용은 [개체 업데이트 [!DNL Adobe Workfront] 를 참조하십시오. [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
+* [!UICONTROL 에서 ]문서[!DNL Workfront for Google Workspace] 탭을 사용하는 방법에 대한 자세한 내용은 [[!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)에서 문서 보기 및 관리를 참조하십시오.

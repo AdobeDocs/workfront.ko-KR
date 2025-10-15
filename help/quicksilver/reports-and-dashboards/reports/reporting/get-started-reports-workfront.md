@@ -7,10 +7,10 @@ description: 보고서는 사용자 및 작업에 발생한 상황을 파악할 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '3293'
-ht-degree: 0%
+source-wordcount: '3292'
+ht-degree: 1%
 
 ---
 
@@ -88,7 +88,7 @@ Workfront에서 제공하는 시스템 보고서 외에도 조직의 요구 사�
 
 ### 보고서를 만들기 위한 사전 요구 사항 {#prerequisites-for-creating-reports}
 
-* 보고서를 만들려면 플랜 라이선스(현재 라이선스) 또는 표준 라이선스(새 라이선스)가 있어야 합니다.
+* 보고서를 만들려면 Standard 또는 Plan 라이선스가 있어야 합니다.
 
   Workfront 라이선스 유형에 대한 자세한 내용은 현재 라이선스의 경우 [라이선스 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)를, 새 라이선스의 경우 [새 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)를 참조하십시오.
 
@@ -118,7 +118,7 @@ Workfront에서 보고서를 만들면 보고서의 기본 소유자가 되어 �
 먼저 보고서 작성 인터페이스를 사용하여 새 보고서를 작성하는 것이 좋습니다. 인터페이스는 원하는 보고서를 만들기 위해 요소를 함께 배치하는 과정을 안내하는 간소화된 도구 세트를 제공합니다. 목록에서 선택하고 모든 보고 요소에 추가할 수 있는 오브젝트 및 필드가 있습니다.\
 보고서 작성 인터페이스에서 보고서를 만드는 방법에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 
-보고할 수 있는 개체 목록은 문서 [Adobe Workfront 개체 개요](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 [개체 보고](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects) 섹션을 참조하십시오.
+보고할 수 있는 개체 목록은 문서 [Adobe Workfront 개체 개요](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)의 [개체 보고](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.
 
 보고서에 표시할 수 있는 필드에 대한 자세한 내용은 [Adobe Workfront 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)를 참조하십시오.
 
@@ -177,7 +177,7 @@ Workfront 텍스트 모드 인터페이스를 사용하려면 특정 구문을 �
 >[!IMPORTANT]
 >
 >세부 정보 탭의 정보는 시간대에 따라 차트 탭과 다르게 표시될 수 있습니다.\
->예를 들어 캘리포니아에 있는 사용자가 2월 12일 오후 9시 30분 PST에 작업을 완료했습니다. 뉴욕의 사용자가 이 작업 완료를 포함하는 보고서를 볼 때, 2월 13일 오전 12시 30분에 완료되었으므로 세부 정보 탭과 차트 세부 정보 모두에 실제 완료 일자가 2월 13일로 표시됩니다. 하지만 차트에서는 차트 요소를 확장할 때까지 2월 12일 그룹화에 포함됩니다.
+>예를 들어 캘리포니아에 있는 사용자가 2월 12일 오후 9시(PST) 9분에 작업을 완료했습니다. :30 뉴욕의 사용자가 이 작업 완료를 포함하는 보고서를 볼 때, 실제 완료 일자가 2월 13일 오전 12시:30에 완료되었기 때문에 세부 정보 탭과 차트 세부 정보 모두에 2월 13일로 표시됩니다. 하지만 차트에서는 차트 요소를 확장할 때까지 2월 12일 그룹화에 포함됩니다.
 
 ### 요약 탭 {#summary-tab}
 
@@ -206,7 +206,7 @@ Workfront 텍스트 모드 인터페이스를 사용하려면 특정 구문을 �
 >[!IMPORTANT]
 >
 >차트 요소를 클릭하면 확장된 정보가 시간대에 따라 차트와 다르게 표시될 수 있습니다.\
->예를 들어 캘리포니아에 있는 사용자가 2월 12일 오후 9시 30분 PST에 작업을 완료했습니다. 뉴욕의 사용자가 이 작업 완료를 포함하는 보고서를 볼 때, 2월 13일 오전 12시 30분에 완료되었으므로 세부 정보 탭과 차트 세부 정보 모두에 실제 완료 일자가 2월 13일로 표시됩니다. 하지만 차트에서는 차트 요소를 확장할 때까지 2월 12일 그룹화에 포함됩니다.
+>예를 들어 캘리포니아에 있는 사용자가 2월 12일 오후 9시(PST) 9분에 작업을 완료했습니다. :30 뉴욕의 사용자가 이 작업 완료를 포함하는 보고서를 볼 때, 실제 완료 일자가 2월 13일 오전 12시:30에 완료되었기 때문에 세부 정보 탭과 차트 세부 정보 모두에 2월 13일로 표시됩니다. 하지만 차트에서는 차트 요소를 확장할 때까지 2월 12일 그룹화에 포함됩니다.
 
 차트로 보고서를 작성하는 방법에 대한 자세한 내용은 문서 [보고서에 차트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)를 참조하세요.
 
@@ -316,7 +316,7 @@ Workfront 보고서와 관련하여 다음과 같은 용어가 사용됩니다.
     </ul> <p>보고서에 차트를 추가하는 방법에 대한 자세한 내용은 문서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">보고서에 차트 추가</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
-   <td>세부 정보</td> 
+   <td>세부 사항</td> 
    <td>보고서를 저장한 후 보고서 탭 중 하나입니다. 선택한 보기 및 그룹화에 표시되는 보고서의 결과를 표시합니다.</td> 
   </tr> 
   <tr> 
@@ -325,7 +325,7 @@ Workfront 보고서와 관련하여 다음과 같은 용어가 사용됩니다.
   </tr> 
   <tr> 
    <td>필드</td> 
-   <td> <p>는 객체의 속성을 나타냅니다. 예를 들어 "상태"는 프로젝트, 작업 또는 문제에 대한 필드입니다. "Portfolio 관리자"는 Portfolio 개체에 대한 필드입니다.</p> <p>직접 만들고 사용자 정의 양식에 추가하는 사용자 정의 필드도 가질 수 있습니다.<br>사용자 정의 양식 만들기에 대한 자세한 내용은 문서 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">사용자 정의 양식 만들기</a>를 참조하십시오.</p> </td> 
+   <td> <p>는 객체의 속성을 나타냅니다. 예를 들어 "상태"는 프로젝트, 작업 또는 문제에 대한 필드입니다. "Portfolio Manager"는 Portfolio 개체에 대한 필드입니다.</p> <p>직접 만들고 사용자 정의 양식에 추가하는 사용자 정의 필드도 가질 수 있습니다.<br>사용자 정의 양식 만들기에 대한 자세한 내용은 문서 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">사용자 정의 양식 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>필드 이름 </td> 

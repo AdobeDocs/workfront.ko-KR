@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 1%
+source-wordcount: '838'
+ht-degree: 2%
 
 ---
 
@@ -47,24 +47,24 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다. 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>표준 </p>
-    <p>플랜 </p>
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p>
+    <p>플랜</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>프로젝트 및 템플릿에 대한 액세스 편집</p> <p>사용자에 대한 보기 또는 상위 액세스 권한</p> </td> 
   </tr> 
   <tr> 
@@ -74,13 +74,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 <!--Old access: 
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,121 +90,123 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Standard </p>
+    <p>Plan </p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>View or higher access to Users</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects and Templates</p> <p>View or higher access to Users</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions to a project or to a template</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 프로젝트 팀에 사용자 추가
 
-프로젝트 팀에 사용자를 추가하면 해당 사용자는 프로젝트와 프로젝트의 작업, 문제 및 문서에 대한 보기 권한을 갖게 됩니다. 자세한 내용은 문서 [프로젝트 팀 개요](../../../manage-work/projects/planning-a-project/project-team-overview.md)를 참조하십시오.
+
+## Add users to a Project Team
+
+When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
->프로젝트 팀의 사용자는 프로젝트의 리소스 관리 도구에 자동으로 추가되지 않습니다.
+>Users on the Project Team are not automatically added to the resource management tools for the project.
 
-다음과 같은 방법으로 프로젝트 팀에 사용자를 추가할 수 있습니다.
+You can add users to the project team in the following ways:
 
-* [사용자를 프로젝트 팀에 자동으로 추가](#automatically-add-users-to-a-project-team)
-* [수동으로 프로젝트 팀에 사용자 추가](#manually-add-users-to-a-project-team)
+* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
+* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
 
-### 프로젝트 팀에 사용자 자동 추가 {#automatically-add-users-to-a-project-team}
+### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
 
-프로젝트에서 다음 역할을 수행하는 사용자는 프로젝트 팀에 자동으로 추가되고 프로젝트를 만들 때 사람 섹션에 표시됩니다.
+The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
 
-* 프로젝트 제작자
-* 프로젝트 소유자
-* 프로젝트 스폰서
+* The creator of the project
+* The project owner
+* The project sponsor
 
-또한 사용자는 다음에 할당되면 프로젝트 팀에 자동으로 추가됩니다.
+Users are also automatically added to the project team when they are assigned to the following:
 
-* 작업
-* 문제
+* Tasks
+* Issues
 
-### 수동으로 프로젝트 팀에 사용자 추가 {#manually-add-users-to-a-project-team}
+### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
 
-프로젝트에서 어떤 역할도 수행하지 않는 사용자가 프로젝트 기간 동안 특정 업데이트 또는 변경 사항에 대한 알림을 받으려면 해당 사용자를 프로젝트 팀에 수동으로 추가할 수 있습니다.
+If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
 
-프로젝트 팀의 사용자에 대해 활성화할 수 있는 알림에 대한 자세한 내용은 [이벤트 알림 유형](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)을 참조하세요.
+ For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
-<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+ <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
 >You can add to the Project Team only users that belong to the Group associated with the project. You cannot add users that belong to the Subgroups of the project's group. 
 
--->
 
-## 프로젝트에서 사람 관리
 
-1. 프로젝트 팀을 관리할 프로젝트로 이동합니다.
+## Manage people on a project
+
+1. Go to the project you want to manage the project team for.
 
    >[!TIP]
    >
-   >작업, 문제에 할당되거나 프로젝트의 관련자로 할당된 사용자가 있어야 사람 섹션에 표시할 수 있습니다.
+   >You must have users assigned to tasks, issues or as stakeholders on the project to have them display in the People section.
 
-1. 왼쪽 패널에서 **사람**&#x200B;을 클릭합니다.
+1. Click **People** in the left panel. 
 
-1. **사용자 추가**&#x200B;를 클릭합니다.
+1. Click **Add users**. 
 
-   **프로젝트 팀에 사용자 추가** 상자가 표시됩니다.
+   The **Add users to Project Team** box displays.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. **사용자 추가** 상자에서 프로젝트 팀에 추가할 활성 Workfront 사용자의 이름을 입력한 다음 목록에 표시될 때 이름을 클릭합니다.
+1. In the **Add users** box, begin typing the name of an active Workfront user that you want to add to the project team, then click the name when it appears in the list.
 
-   이 단계를 반복하여 프로젝트 팀에 여러 사용자를 추가합니다. 사용자는 프로젝트와 연계된 그룹에 속해야 합니다.
+   Repeat this step to add multiple users to the project team. The users must belong to the group associated with the project. 
 
    >[!TIP]
    >
-   >* 팀, 그룹, 회사 또는 작업 역할을 추가하여 사용자를 추가할 수 없습니다.
-   >* 사용자를 추가할 때 아바타, 사용자의 기본 역할 및 이메일 주소에 따라 동일한 이름을 가진 사용자가 구별됩니다. 사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.
+   >* You cannot add users by adding their teams, groups, companies, or job roles.
+   >* As you add the users, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
    >
-   >  사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
+   >  You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. **추가를 클릭합니다**.
+1. Click **Add**.
 
-   사용자는 프로젝트에 대한 보기 권한을 얻고 프로젝트 팀의 일부로 프로젝트에 대한 알림을 받게 됩니다.
+   The users gain View permissions to the project and receive notifications about the project as part of the project team.
 
-1. (선택 사항) 작업 역할이 작업, 문제 또는 프로젝트 승인에 추가될 때 사용자에게 알림을 보내려면 사용자의 **작업 역할** 열 내부를 클릭하고 승인과 연결할 작업 역할을 선택하십시오.
+1. (Optional) If you want a user to receive a  notification when their job role is added to a task, issue, or project approval, click inside the **Job Role** column for the user, and select a job role that will be associated with the approval. 
 
-   사용자는 선택한 작업 역할에 할당된 승인과 관련된 알림을 받게 됩니다.
+   The users will receive notifications related to the approvals assigned to the selected job role. 
 
-   자세한 내용은 문서 [프로젝트 팀 개요](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)의 &quot;역할 기반 승인&quot; 섹션을 참조하십시오.
+   For more information see the "Role-based approvals" section in the article [Project Team overview](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
-1. 목록에서 사용자를 한 명 또는 여러 명 선택한 다음 **제거** 아이콘 ![제거 아이콘](assets/remove-icon.png)을 클릭하여 팀에서 제거합니다.
+1. Select one or several users in the list, then click the **Remove** icon ![Remove icon](assets/remove-icon.png) to remove them from the team. 
+ 
+1. Click **Yes, Remove Selected Users** to confirm and remove the users.
 
-1. **예, 선택한 사용자 제거**&#x200B;를 클릭하여 사용자를 확인하고 제거합니다.
+   Users are removed and unassigned from incomplete work items.
 
-   사용자가 미완료 작업 항목에서 제거되고 할당 해제됩니다.
+   For more information, see the [Considerations for removing users from a project team](#considerations-for-removing-users-from-a-project-team) section in this article.
+1. (Optional) To send an update for this project to users, click **Update All** to send the update to everyone on the team
 
-   자세한 내용은 이 문서의 [프로젝트 팀에서 사용자를 제거할 때 고려할 사항](#considerations-for-removing-users-from-a-project-team) 섹션을 참조하십시오.
-1. (선택 사항) 이 프로젝트에 대한 업데이트를 사용자에게 보내려면 **모두 업데이트**&#x200B;를 클릭하여 팀의 모든 사용자에게 업데이트를 보냅니다
+   Or 
 
-   또는
-
-   목록에서 사용자를 한 명 이상 선택한 다음 **사용자에게 업데이트 보내기**&#x200B;를 클릭합니다.
+   Select one or multiple users in the list, then click **Send Update to User**.
 
    <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
 
-   ![프로젝트의 사용자 상자로 업데이트 보내기](assets/send-update-to-user-on-project-box-2025.png)
+![프로젝트의 사용자 상자로 업데이트 보내기](assets/send-update-to-user-on-project-box-2025.png)
 
-   <!--Old UI for projects but the text above the comment box is right and matches the functionality):
+<!--Old UI for projects but the text above the comment box is right and matches the functionality):
    ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
 
-   **사용자에게 업데이트 보내기** 상자가 열립니다.
+**사용자에게 업데이트 보내기** 상자가 열립니다.
 
 1. 다음 중 하나를 수행하십시오.
 

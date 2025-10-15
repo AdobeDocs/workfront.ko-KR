@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 타임시트 승인
 description: 타임시트 승인 프로세스를 통해 관리자는 직접 보고서의 작업 시간을 볼 수 있습니다. 승인자는 기록된 모든 시간이 올바른 영역에 할당되었고 해당 기간에 충분한 시간이 기록되었는지 확인할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -27,33 +27,28 @@ Adobe Workfront은 이 영역에서 지원할 타임시트 승인을 구성하�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜</p></td> 
-   <td> <p>임의</p> </td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td> <p>새로운 기능: 표준</p>
-   <p>현재: 플랜 </p> 
-   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>타임시트 및 시간에 대한 관리 액세스 </p> </td> 
-  </tr>
-
-</td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td>
+   <p>표준</p>
+   <p>플랜</p></td>
+  </tr> 
+  <tr> 
+   <td>액세스 수준 구성</td> 
+   <td><p>타임시트 및 시간에 대한 관리 액세스</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -63,7 +58,7 @@ Adobe Workfront은 이 영역에서 지원할 타임시트 승인을 구성하�
 
 타임시트 승인자는 타임시트 프로필을 만들 때 정의됩니다. 승인자로 지정되려면 플랜 라이선스가 있어야 합니다.
 
-타임시트 승인자 지정에 대한 자세한 내용은 문서 [타임시트 프로필 만들기, 편집 및 할당](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)의 [타임시트 프로필 만들기 또는 편집](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) 섹션을 참조하십시오.
+타임시트 승인자 지정에 대한 자세한 내용은 문서 [타임시트 프로필 만들기, 편집 및 할당](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create)의 [타임시트 프로필 만들기 또는 편집](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) 섹션을 참조하십시오.
 
 ## 타임시트 승인
 

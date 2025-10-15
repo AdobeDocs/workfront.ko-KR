@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront] 에서 개체 목록을 보고 해당 개�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '2290'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -31,28 +31,22 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-    <p>신규:</p>
-   <ul><li><p>기여자 이상 </p></li>
-   </ul>
-
-<p>현재:</p>
-   <ul><li><p>요청 이상</p></li>
-    </ul></td> 
+   <p>기여자 이상</p>
+   <p>요청 이상</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -65,7 +59,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -114,7 +108,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <col> 
  <thead> 
   <tr> 
-   <th><strong>[!DNL Workfront] 목록</strong></th> 
+   <th><strong>[!DNL Workfront] list</strong></th> 
    <th><strong>개체 목록의 위치</strong></th> 
   </tr> 
  </thead> 
@@ -320,11 +314,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL 보기]</strong></td> 
-   <td> <p>보기는 화면에 표시할 필드(열)를 정의합니다.</p> <p>자세한 내용은 [!DNL Adobe Workfront]</a>의 <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">보기 개요를 참조하십시오.</p> </td> 
+   <td> <p>보기는 화면에 표시할 필드(열)를 정의합니다.</p> <p>자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">의 [!DNL Adobe Workfront]</a>보기 개요를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL 그룹화]</strong></td> 
-   <td> <p>그룹화는 사용자가 지정하는 기준에 따라 영역의 목록에 있는 객체를 구분합니다.</p> <p>예를 들어 목록의 문제는 상태 또는 우선 순위별로 섹션에 표시될 수 있습니다.</p> <p>표준 그룹화에는 최대 3개의 그룹화 레이어를 사용할 수 있으며, 텍스트 모드에서 그룹화를 구성하는 경우 네 번째 레이어를 추가할 수 있습니다.</p> <p>그룹화에 대한 자세한 내용은 [!DNL Adobe Workfront]</a>의 <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">그룹화 개요를 참조하십시오.</p> <p>텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">텍스트 모드 개요</a>를 참조하십시오.</p> </td> 
+   <td> <p>그룹화는 사용자가 지정하는 기준에 따라 영역의 목록에 있는 객체를 구분합니다.</p> <p>예를 들어 목록의 문제는 상태 또는 우선 순위별로 섹션에 표시될 수 있습니다.</p> <p>표준 그룹화에는 최대 3개의 그룹화 레이어를 사용할 수 있으며, 텍스트 모드에서 그룹화를 구성하는 경우 네 번째 레이어를 추가할 수 있습니다.</p> <p>그룹화에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">의 [!DNL Adobe Workfront]</a>그룹화 개요를 참조하십시오.</p> <p>텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">텍스트 모드 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -358,7 +352,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <tbody> 
   <tr> 
    <td><strong>인라인 편집</strong> </td> 
-   <td> <p>개체 및 해당 정보를 목록에서 직접 편집합니다.</p> <p>자세한 내용은 [!DNL Adobe Workfront]</a>의 목록에서 <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">인라인 편집 항목을 참조하십시오.</p> 
+   <td> <p>개체 및 해당 정보를 목록에서 직접 편집합니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">의 목록에서 [!DNL Adobe Workfront]</a>인라인 편집 항목을 참조하십시오.</p> 
    <p><b>참고:</b></p>
    <p>그룹화에서는 인라인 편집을 할 수 없습니다.</p>
 

@@ -6,9 +6,9 @@ description: 리소스 플래너에서 리소스의 가용성과 프로젝트에
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1199'
 ht-degree: 4%
 
 ---
@@ -21,26 +21,21 @@ ht-degree: 4%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>새로 만들기: 모두</p>
-       <p>또는</p>
-       <p>현재: Pro 이상</p> </td> 
+  <tr>
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 밝게 또는 높음</p>
-       <p>또는</p>
-       <p>현재: 검토 이상</p></td>
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>밝거나 높음</p>
+       <p>검토 이상</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 이상:</p> 
     <ul> 
      <li> <p>리소스 관리</p> </li> 
@@ -50,13 +45,13 @@ ht-degree: 4%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td>개체 권한</td> 
    <td> <p>리소스 플래너에서 보려는 프로젝트에 대한 이상의 권한 보기</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -167,7 +162,7 @@ ht-degree: 4%
    | 순 |   | ✔ | ✔ |
    | 실제 | ✔ |   |   |
    | 차이 | ✔ |   |   |
-   | 백분율 | ✔ |   |   |
+   | 비율 | ✔ |   |   |
 
 1. 프로젝트 및 역할 보기에서 순 값을 계산할 때 예산 정보 대신 계획된 값을 사용하려면 **NET 계산에서 계획된(PLN) 값 사용**&#x200B;을 선택하십시오.
 
@@ -199,7 +194,7 @@ ht-degree: 4%
 
 1. 리소스 플래너로 이동합니다.
 
-   리소스 플래너에 액세스하는 방법에 대한 자세한 내용은 문서 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md)에서 [리소스 플래너 찾기](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner) 섹션을 참조하십시오.
+   리소스 플래너에 액세스하는 방법에 대한 자세한 내용은 문서 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)에서 [리소스 플래너 찾기](../../resource-mgmt/resource-planning/get-started-resource-planner.md) 섹션을 참조하십시오.
 
 1. **사용자별 보기**&#x200B;를 선택합니다.
 

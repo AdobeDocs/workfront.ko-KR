@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] for [!DNL Jira] 을 사용하여  [!DNL Ji
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: 064418302767ad20e176080ba9a12db548750f3c
+source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >Jira와 조직의 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Jira용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Jira 소프트웨어 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)을 참조하십시오.
+>Jira용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Jira 소프트웨어 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)을 참조하십시오.
 
 <!--
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 [!DNL Workfront] 및 [!DNL Jira]의 모든 사용자가 이 통합을 통해 혜택을 받을 수 있습니다. 가장 많이 사용하는 시스템에 대한 라이선스만 있으면 되고 두 시스템 모두에 대한 라이선스는 필요하지 않습니다.
 
-이 추가 기능은 [!UICONTROL &#x200B; 소프트웨어의 &#x200B;]서버[!UICONTROL &#x200B; 및 &#x200B;]OnDemand[!UICONTROL (또는 &#x200B;]클라우드[!DNL Jira]) 버전에서 사용할 수 있습니다. [!DNL Data Center] 소프트웨어의 [!DNL Jira] 버전에서는 이 추가 기능을 사용할 수 없습니다.
+이 추가 기능은 [!UICONTROL  소프트웨어의 ]서버[!UICONTROL  및 ]OnDemand[!UICONTROL (또는 ]클라우드[!DNL Jira]) 버전에서 사용할 수 있습니다. [!DNL Data Center] 소프트웨어의 [!DNL Jira] 버전에서는 이 추가 기능을 사용할 수 없습니다.
 
 현재 [!DNL Jira]에서 지원하는 [!DNL Workfront for Jira] 버전 목록은 Atlassian Marketplace에서 [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)을(를) 참조하십시오.
 
@@ -55,40 +55,35 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td> 
-   <p>새로 만들기: 모두</p>
-   <p>현재: [!UICONTROL Pro] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td><p>임의</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] 라이선스 개요</td> 
-   <td> 
-   <p>새로운 기능: 표준</p>
-   <p>현재: [!UICONTROL Plan]</p></td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>표준 </p>
+       <p>플랜 </p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Jira] 액세스</td> 
-   <td> <p>시스템 관리자 액세스</p> <p>중요: 사용자에게 첨부할 수 있는 기존 계정을 사용하는 대신 [!DNL Jira] 및 [!DNL Workfront]에서 별도의 시스템 관리자 계정을 만들어 이 통합 전용을 사용하는 것이 좋습니다.</p> </td> 
+   <td role="rowheader">Jira 액세스</td> 
+   <td> <p>시스템 관리자 액세스</p> <p>중요: 사용자에게 첨부할 수 있는 기존 계정을 사용하는 대신 Jira 및 Workfront에서 별도의 시스템 관리자 계정을 만들어 이 통합 전용을 하는 것이 좋습니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td><p>[!DNL Workfront] 관리자여야 합니다.</p></td> 
+   <td> <p>Workfront 관리자여야 합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++
-
-## [!DNL Workfront]에 대해 [!DNL Jira] 설치
++++## [!DNL Workfront]용 [!DNL Jira] 설치
 
 [!DNL Workfront] OnDemand에 대해 [!DNL Jira]을(를) 설치하는 것은 [!DNL Jira] 서버 인스턴스에 설치하는 것과 동일합니다.
 
@@ -101,7 +96,7 @@ ht-degree: 0%
 [!DNL Workfront for Jira]을(를) 설치하려면
 
 1. [!DNL Jira]에 [!DNL Jira] 관리자로 로그인합니다.
-1. **[!DNL Workfront for Jira]**&#x200B;[[!DNL Atlassian Marketplace]&#x200B;에서 &#x200B;](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) 추가 기능을 찾으십시오.
+1. **[!DNL Workfront for Jira]**[[!DNL Atlassian Marketplace]&#x200B;에서 ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) 추가 기능을 찾으십시오.
 
 1. 설치하려면 **[!UICONTROL 지금 가져오기]**&#x200B;를 클릭하세요.
 
@@ -113,7 +108,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이러한 요구 사항은 [!UICONTROL &#x200B; 소프트웨어의 &#x200B;]OnDemand[!UICONTROL (]Cloud[!DNL Jira]) 버전에는 적용되지 않습니다.
+>이러한 요구 사항은 [!UICONTROL  소프트웨어의 ]OnDemand[!UICONTROL (]Cloud[!DNL Jira]) 버전에는 적용되지 않습니다.
 
 두 [!DNL Workfront] 환경에서 [!DNL Jira] 추가 기능을 설치하는 것은 비슷하지만 [!DNL Jira Server] 설치를 사용하여 작업할 때는 다음 사항을 고려해야 합니다.
 

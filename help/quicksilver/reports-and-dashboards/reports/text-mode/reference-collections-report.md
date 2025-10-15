@@ -6,7 +6,7 @@ description: 보고서에서 컬렉션 참조
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 0%
@@ -25,28 +25,20 @@ Workfront에서 보고서를 작성하는 방법에 대한 자세한 내용은 [
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>표준</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>플랜</p></li>
-         </ul>
-   </td>
+     <p>표준</p>
+     <p>플랜</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -59,7 +51,7 @@ Workfront에서 보고서를 작성하는 방법에 대한 자세한 내용은 [
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -112,23 +104,23 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
    >
    >컬렉션 보고서에서는 이 탭에 나열된 필드만 참조하거나 이 탭에 나열된 객체와 연결된 필드만 참조할 수 있습니다.
 
-## 보고서의 참조 컬렉션
+## 보고서에서 컬렉션 참조
 
-다음 보고 요소에 있는 컬렉션 개체의 개체를 참조할 수 있습니다.
+다음 보고 요소에 있는 컬렉션의 개체를 참조할 수 있습니다.
 
-* 보기
+* 보기 횟수
 * 필터
 * 프롬프트
 
-다음 보고 요소에 있는 컬렉션 개체의 개체는 참조할 수 없습니다.
+다음 보고 요소에서는 컬렉션의 개체를 참조할 수 없습니다.
 
 * 그룹화
 * 차트
 
-예를 들어 프로젝트 보고서에서 작업 또는 문제점 컬렉션을 참조하여 프로젝트 수준에서 작업 또는 문제점 정보를 표시할 수 있습니다.
+예를 들어 프로젝트 보고서에서 작업 또는 문제 컬렉션을 참조하여 프로젝트 수준에서 작업 또는 문제 정보를 표시할 수 있습니다.
 
-* [보고서 보기에서 컬렉션 참조](#reference-a-collection-in-the-view-of-a-report)
-* [보고서의 필터링에서 컬렉션 참조](#reference-a-collection-in-the-filter-of-a-report)
+* [보고서 보기에서 컬렉션을 참조합니다](#reference-a-collection-in-the-view-of-a-report)
+* [보고서의 필터에서 컬렉션을 참조합니다](#reference-a-collection-in-the-filter-of-a-report)
 * [보고서의 사용자 지정 프롬프트에서 컬렉션 참조](#reference-a-collection-in-the-custom-prompt-of-a-report)
 
 ### 보고서 보기에서 컬렉션 참조 {#reference-a-collection-in-the-view-of-a-report}
@@ -182,9 +174,9 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
    ```
 
 1. **열 이름**&#x200B;을(를) `displayname` 줄의 열 이름으로 바꾸십시오.
-1. [API 탐색기](../../../wf-api/general/api-explorer.md)에 나타나는 대로 **컬렉션 개체 이름**&#x200B;을(를) `listmethod` 줄의 컬렉션 개체 이름으로 바꿉니다.
+1. **API 탐색기**&#x200B;에 나타나는 대로 `listmethod`컬렉션 개체 이름[을(를) ](../../../wf-api/general/api-explorer.md) 줄의 컬렉션 개체 이름으로 바꿉니다.
 
-1. [API 탐색기](../../../wf-api/general/api-explorer.md)에 나타나는 대로 **컬렉션 개체 필드**&#x200B;을(를) `valuefield` 줄의 컬렉션 개체 필드 이름으로 바꾸십시오.
+1. **API 탐색기**&#x200B;에 나타나는 대로 `valuefield`컬렉션 개체 필드[을(를) ](../../../wf-api/general/api-explorer.md) 줄의 컬렉션 개체 필드 이름으로 바꾸십시오.
 
    보기에서 사용자 지정 식을 만들려면 **valuefield**&#x200B;을(를) **valueexpression**(으)로 바꿀 수 있습니다.
 
@@ -266,7 +258,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
   </tr> 
   <tr> 
    <td><code>textmode=true</code> </td> 
-   <td> <p>이 줄은 열이 텍스트 모드를 사용하여 구성되었음을 나타냅니다. 이 줄을 제거하면 Workfront에서 기본적으로 다시 추가합니다.</p> </td> 
+   <td> <p>이 줄은 텍스트 모드를 사용하여 열을 구성했음을 나타냅니다. 이 줄을 제거하면 기본적으로 Workfront이 다시 추가합니다.</p> </td> 
   </tr> 
   <tr> 
    <td><code>type=iterate</code> </td> 
@@ -274,7 +266,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>목록의 값을 구분하는 데 사용되는 구분 기호입니다.<br>값 사이에 줄 바꿈을 추가하는 <code>&lt;p&gt;</code>을(를) 사용하는 것이 좋습니다.</p> <p>다음을 사용할 수도 있습니다.</p> <p><code>&zwj;</code> (너비가 0인 조이너). 컬렉션의 값에는 이러한 값 사이에 구분이 없습니다.<br><strong>,</strong> =쉼표 구분 기호입니다.컬렉션 값은 쉼표와 공백 없이 구분됩니다.<br><strong>/</strong> = 슬래시 구분 기호입니다.컬렉션 값은 슬래시로 구분됩니다.<br><strong>-</strong> = 대시 구분 기호. 컬렉션 값은 대시로 구분됩니다.<br>이 줄을 비워 두면 기본적으로 쉼표가 추가되고 그 뒤에 컬렉션 값 사이에 공백이 추가됩니다.</p> </td> 
+   <td> <p>목록의 값을 구분하는 데 사용되는 구분 기호입니다.<br>값 사이에 줄 바꿈을 추가하는 <code>&lt;p&gt;</code>을(를) 사용하는 것이 좋습니다.</p> <p>다음을 사용할 수도 있습니다.</p> <p><code>&amp;zwj;</code> (폭 없는 결합자). 컬렉션의 값에는 이러한 값 사이에 구분이 없습니다.<br><strong>,</strong> =쉼표 구분 기호. 컬렉션 값은 쉼표 다음에 공백이 없는 쉼표로 구분됩니다.<br><strong>/</strong> = 슬래시 구분 기호. 컬렉션의 값은 슬래시로 구분됩니다.<br><strong>-</strong> = 대시 구분 기호. 컬렉션의 값은 대시로 구분됩니다.<br>이 줄을 비워 두면 기본적으로 쉼표 다음에 컬렉션의 값 사이에 공백이 추가됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>열 이름</em> </td> 
@@ -282,7 +274,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
   </tr> 
   <tr> 
    <td><code>listmethod=nested(collection object name).list</code> </td> 
-   <td> <p> 이 줄은 참조하는 컬렉션을 정의합니다.</p> <p><a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API 탐색기</a>에 나타나는 대로 <strong>컬렉션 개체 이름</strong>을 컬렉션에서 참조하는 개체의 이름으로 바꾸십시오. 이 값은 일반적으로 컬렉션 개체 이름의 복수 형식입니다.</p> </td> 
+   <td> <p> 이 줄은 참조하는 컬렉션을 정의합니다.</p> <p><strong>API 탐색기</strong>에 나타나는 대로 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">컬렉션 개체 이름</a>을 컬렉션에서 참조하는 개체의 이름으로 바꾸십시오. 이 값은 일반적으로 컬렉션 개체 이름의 복수 형식입니다.</p> </td> 
   </tr> 
   <tr> 
    <td><code>valuefield=collection object field</code> </td> 
@@ -342,7 +334,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
    collection object name:collection object field_Mod=value of the modifier
    ```
 
-1. [API 탐색기](../../../wf-api/general/api-explorer.md)에 나타나는 대로 **컬렉션 개체 이름**&#x200B;을(를) 컬렉션 개체의 이름으로 바꾸십시오. 이 값은 일반적으로 컬렉션 개체 이름의 복수 형식입니다.
+1. **API 탐색기**&#x200B;에 나타나는 대로 [컬렉션 개체 이름](../../../wf-api/general/api-explorer.md)을(를) 컬렉션 개체의 이름으로 바꾸십시오. 이 값은 일반적으로 컬렉션 개체 이름의 복수 형식입니다.
 
 1. **컬렉션 개체 필드**&#x200B;을(를) [API 탐색기](../../../wf-api/general/api-explorer.md)에 나타나는 컬렉션 개체의 필드 이름으로 바꾸십시오.
 
@@ -370,7 +362,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
    >[!TIP]
    >
-   >API 탐색기에서 문제가 나타나는 방식인 `optask` 대신 컬렉션 개체 이름에 `issues`을(를) 사용해야 합니다.
+   >API 탐색기에서 문제가 나타나는 방식인 `issues` 대신 컬렉션 개체 이름에 `optask`을(를) 사용해야 합니다.
 
 1. **완료**&#x200B;를 클릭합니다.
 1. (선택 사항) 보고서를 계속 편집합니다.
@@ -381,9 +373,9 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
 ### 보고서의 사용자 지정 프롬프트에서 컬렉션 참조 {#reference-a-collection-in-the-custom-prompt-of-a-report}
 
-보고서의 사용자 정의 프롬프트에서 개체 컬렉션 참조를 사용하여 보고서 개체와 연관된 개체 속성에 대한 보고서 결과를 필터링할 수 있습니다.
+보고서의 사용자 지정 프롬프트에서 개체 컬렉션을 참조하여 보고서의 개체와 관련된 개체의 속성에 대해 보고서 결과를 필터링할 수 있습니다.
 
-예를 들어 보고서의 사용자 지정 프롬프트에서 프로젝트의 작업 특성에 대한 참조를 사용하여 프로젝트 보고서에서 작업 정보를 묻는 메시지를 표시할 수 있습니다.
+예를 들어, 보고서의 사용자 지정 프롬프트에서 프로젝트에 대한 작업 속성에 대한 참조를 사용하여 프로젝트 보고서에서 작업 정보를 요구할 수 있습니다.
 
 >[!NOTE]
 >
@@ -391,19 +383,19 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
 사용자 지정 프롬프트는 명령문이 앰퍼샌드 기호로 연결되는 사용자 지정 필터입니다. 먼저 필터에서 명령문을 작성한 다음 명령문의 줄을 앰퍼샌드로 연결하는 것이 좋습니다.
 
-컬렉션 참조를 사용하여 필터 문을 작성하는 방법에 대한 자세한 내용은 이 문서의 보고서[&#128279;](#reference-a-collection-in-the-filter-of-a-report) 필터링에서 컬렉션 참조 섹션을 참조하세요.
+컬렉션 참조를 사용하여 필터 문을 작성하는 방법에 대한 자세한 내용은 이 문서의 [보고서의 필터에서 컬렉션 참조](#reference-a-collection-in-the-filter-of-a-report) 섹션을 참조하십시오.
 
-보고서의 사용자 지정 프롬프트에서 컬렉션 참조를 추가하려면:
+보고서의 사용자 지정 프롬프트에서 컬렉션에 대한 참조를 추가하려면 다음을 수행하십시오.
 
-1. Main menu(기본&#x200B;**메뉴) Main Menu(기본 메뉴![)**&#x200B;아이콘을](assets/main-menu-icon.png) 클릭한 다음 Reports(보고서&#x200B;**)를 클릭합니다**.
-1. 새로 만들기 보고서를&#x200B;**클릭합니다**.
-1. 보고서 개체를 선택합니다.
+1. **주** 메뉴 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. **새 보고서**&#x200B;를 클릭합니다.
+1. 보고서의 개체를 선택합니다.
 1. 이 문서의 [보고서의 필터에서 컬렉션 참조](#reference-a-collection-in-the-filter-of-a-report) 섹션에 설명된 대로 컬렉션 참조를 사용하여 필터를 빌드합니다.
 1. **보고서 설정**&#x200B;을 클릭합니다.
 1. **보고서 프롬프트**&#x200B;를 클릭합니다.
 1. **프롬프트 추가**&#x200B;를 클릭합니다.
 1. **사용자 지정 프롬프트**&#x200B;를 클릭합니다.
-1. **필드**&#x200B;**이름** 필드에 프롬프트 이름을 지정하십시오.
+1. **필드****이름** 필드에 프롬프트 이름을 지정하십시오.
 
 1. **드롭다운 항목 레이블**&#x200B;을(를) 지정하십시오.
 1. **조건** 필드에 다음을 지정하십시오.
@@ -413,7 +405,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
    ```
 
 1. (선택 사항) 이 선택 사항이 기본적으로 프롬프트에 표시되는지 여부를 지정합니다.
-1. [API 탐색기](../../../wf-api/general/api-explorer.md)에 나타나는 대로 **컬렉션 개체 이름**&#x200B;을(를) 컬렉션 개체의 이름으로 바꾸십시오. 이 값은 일반적으로 컬렉션 개체 이름의 복수 형식입니다.
+1. **API 탐색기**&#x200B;에 나타나는 대로 [컬렉션 개체 이름](../../../wf-api/general/api-explorer.md)을(를) 컬렉션 개체의 이름으로 바꾸십시오. 이 값은 일반적으로 컬렉션 개체 이름의 복수 형식입니다.
 1. **컬렉션 개체 필드**&#x200B;을(를) [API 탐색기](../../../wf-api/general/api-explorer.md)에 나타나는 컬렉션 개체의 필드 이름으로 바꾸십시오.
 1. **컬렉션 개체 값**&#x200B;을(를) Workfront에 나타나는 컬렉션 개체의 값으로 바꾸십시오.
 

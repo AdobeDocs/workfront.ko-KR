@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
@@ -23,33 +23,31 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td> <p>임의 </p> </td> 
+   <td>[!DNL Adobe Workfront] 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td>
-   <p>새로운 기능: [!UICONTROL Standard]</p>
-   <p>또는</p>
-   <p>현재: [!UICONTROL Plan]</p></td> 
+   <td>[!DNL Adobe Workfront] 라이센스</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL 계획]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td>작업 역할에 대한 관리 액세스</td> 
+   <td>액세스 수준 구성</td> 
+   <td>작업 역할에 대한 관리 액세스</td>
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -70,7 +68,7 @@ ht-degree: 1%
 * [!UICONTROL 리소스 풀]의 [!UICONTROL 풀 구성원] 필드
 * 사용자가 프로젝트에 대한 청구 요금을 오버라이드할 때 [!UICONTROL 청구 요금] 편집 화면의 [!UICONTROL 작업 역할] 필드
 * 프로젝트의 [!UICONTROL Kanban 보드에 할당 추가] 대화 상자
-* 누군가 [!DNL Adobe Workfront Scenario Planner]을(를) 사용하고 있을 때 계획 또는 이니셔티브의 [!UICONTROL 작업 역할] 필드.
+* 누군가 [!UICONTROL 을(를) 사용하고 있을 때 계획 또는 이니셔티브의 ]작업 역할[!DNL Adobe Workfront Scenario Planner] 필드.
 
   [!DNL Scenario Planner]은(는) 새 [!DNL Adobe Workfront] 경험에서만 사용할 수 있으며 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 [개요 [!DNL Scenario Planner] 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하세요.
 

@@ -6,7 +6,7 @@ description: 프로젝트와 이니셔티브 간 리소스 할당 조정 개요
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -44,9 +44,9 @@ ht-degree: 0%
 
   자세한 내용은 [플랜에 프로젝트 가져오기 [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)를 참조하십시오.
 
-* 프로젝트에 대한 Publish 이니셔티브
+* 프로젝트에 이니셔티브 게시
 
-  자세한 내용은 [&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기 를 참조하십시오.
+  자세한 내용은 [ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기 를 참조하십시오.
 
 두 프로세스는 프로젝트와 해당 이니셔티브 간에 연결을 만듭니다. 연결한 후 리소스 할당을 비교하고 일치하는지 확인하여 관리할 수 있습니다.
 
@@ -64,14 +64,14 @@ ht-degree: 0%
 
 * 프로젝트의 다음 영역에서 연결된 프로젝트에 대한 이니셔티브 작업 역할 할당을 볼 수 있습니다.
 
-   * 프로젝트의 [!UICONTROL 프로젝트 세부 정보] 영역에 있는 [!DNL Scenario Planner] 섹션. 자세한 내용은 다음 문서를 참조하십시오.
+   * 프로젝트의 [!DNL Scenario Planner]프로젝트 세부 정보[!UICONTROL  영역에 있는 ] 섹션. 자세한 내용은 다음 문서를 참조하십시오.
 
-      * [&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기
+      * [ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기
       * [프로젝트 [!UICONTROL 개요] 영역의 정보 관리](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
      >[!TIP]
      >
-     >[!UICONTROL 프로젝트 세부 정보]의 [!DNL Scenario Planner] 섹션에서 프로젝트 및 이니셔티브의 작업 역할 정보를 나란히 볼 수 없습니다.
+     >[!DNL Scenario Planner]프로젝트 세부 정보[!UICONTROL 의 ] 섹션에서 프로젝트 및 이니셔티브의 작업 역할 정보를 나란히 볼 수 없습니다.
 
    * 다음 영역의 [!UICONTROL 역할 할당] 패널:
 

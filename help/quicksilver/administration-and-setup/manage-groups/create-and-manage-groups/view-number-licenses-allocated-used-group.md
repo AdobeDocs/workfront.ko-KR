@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,27 @@ Adobe Workfront 관리자는 그룹 및 해당 하위 그룹에 현재 사용된
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 플랜</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td>그룹의 그룹 관리자 또는 시스템 관리자여야 합니다.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -68,7 +63,7 @@ Adobe Workfront 관리자는 그룹 및 해당 하위 그룹에 현재 사용된
 
    ![할당된 라이선스](assets/licenses-used-allocated.png)
 
-   Workfront 관리자가 그룹에 할당된 최대 라이선스 수를 정의하는 방법에 대한 자세한 내용은 문서 [시스템에서 사용 가능한 라이선스 관리](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)의 [홈 그룹에 대한 최대 라이선스 수 설정](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) 섹션을 참조하십시오.
+   Workfront 관리자가 그룹에 할당된 최대 라이선스 수를 정의하는 방법에 대한 자세한 내용은 문서 [시스템에서 사용 가능한 라이선스 관리](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set)의 [홈 그룹에 대한 최대 라이선스 수 설정](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md) 섹션을 참조하십시오.
 
    >[!NOTE]
    >

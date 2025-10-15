@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 4%
+source-wordcount: '712'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 >* 문제
 >* 결제 요율
 >* 청구 기록
->* 메모
+>* 참고
 >* 시간
 >* 프로젝트 간 전임 작업
 >* 예산 시간
@@ -52,36 +52,6 @@ ht-degree: 4%
 
 ## 액세스 요구 사항
 
-<!-- drafted for P&P:
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -90,23 +60,20 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront 플랜</p> </td> 
+   <td> <p>Adobe Workfront 패키지</p> </td>  
    <td>임의</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront 라이선스</p> </td> 
-   <td> <p>새로운 기능: 표준 </p> 
-   <p>또는</p>
-   <p>현재: 플랜 </p>
+   <td> <p>표준</p> 
+   <p>플랜</p>
+      </td> 
+  </tr> 
+     <td>액세스 수준 구성 </td> 
+   <td> <p>프로젝트를 생성 및 복사하는 기능을 가진 프로젝트에 대한 액세스 편집</p> </td> 
+  </tr>
 
-</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>액세스 수준 구성 </td> 
-   <td> <p><span>개의 프로젝트를 만들고</span>개 복사하는 기능을 가진 프로젝트에 대한 액세스 편집</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p>개체 권한 </p> </td> 
+<td> <p>개체 권한 </p> </td> 
    <td> <p>프로젝트에 대한 권한 이상 보기</p>  </td> 
   </tr> 
  </tbody> 
@@ -115,6 +82,35 @@ ht-degree: 4%
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>New: Standard </p> 
+   <p>Or</p>
+   <p>Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level configurations </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View permissions or higher to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 단일 프로젝트 복사
 

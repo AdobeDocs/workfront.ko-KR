@@ -7,7 +7,7 @@ description: 계산된 작업은 Adobe Workfront에서 작업에 설정할 수 �
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 계산된 작업 시간에 따라 작업을 완료하는 데 필요한 작업량(계획된 시간)이 결정됩니다. 작업에 할당된 리소스를 작업의 전체 기간에 할당할 때 계산된 작업 기간 유형을 사용하는 것이 좋습니다.
 
-Workfront 또는 그룹 관리자는 시스템 또는 그룹의 기본 기간 유형을 계산된 작업으로 설정할 수 있습니다. 이 경우 모든 새 작업은 이 기간 유형으로 만들어집니다. 시스템 수준 또는 그룹 수준 프로젝트 환경 설정의 일부로 작업 및 문제 환경 설정을 변경하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
+Workfront 또는 그룹 관리자는 시스템 또는 그룹의 기본 기간 유형을 계산된 작업으로 설정할 수 있습니다. 이 경우 모든 새 작업은 이 기간 유형으로 만들어집니다. 시스템 수준 또는 그룹 수준 프로젝트 환경 설정의 일부로 작업 및 문제 환경 설정을 변경하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
 자원이 작업에 추가되면 프로젝트 관리자는 계획된 작업량 증가를 예상할 수 있습니다. 예를 들어, 세 개의 리소스로 구성된 1시간 계획 회의는 세 개의 총 필수 작업 시간을 나타내고, 10개의 리소스로 구성된 1시간 계획 회의는 10개의 필수 작업 시간을 나타냅니다. 각 자원이 100% 할당된 작업에 할당된다고 가정한다.
 

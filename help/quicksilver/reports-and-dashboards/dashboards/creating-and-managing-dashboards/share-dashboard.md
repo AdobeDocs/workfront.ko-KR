@@ -6,9 +6,9 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -31,41 +31,33 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 대�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-객체를 공유하려면 다음 항목이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
-   <td> <p>임의 </p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
     <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>밝거나 높음</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>검토 이상</p></li>
-         </ul>
+   <p>밝거나 높음</p>
+   <p>검토 이상</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한 이상 보기</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>대시보드 이상의 권한 보기</p> </td> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>대시보드에 대한 권한 이상 보기</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

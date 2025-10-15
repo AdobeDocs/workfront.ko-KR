@@ -7,20 +7,21 @@ description: 프로그램(Program)은 통합 특성을 갖는 프로젝트의 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
 
 # 프로그램 개요
 
-<!-- Audited: 09/2024 -->
+<!-- Audited: 08/2025 -->
 
 Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트들의 집합체이다. 예를 들어 동일한 예산, 리소스 또는 기간에 대해 경쟁할 수 있습니다. 프로그램은 포트폴리오의 하위 그룹입니다.
 
 이 문서에는 Workfront의 프로그램에 대한 일반적인 정보가 포함되어 있습니다.
+
 
 ## 프로그램을 만드는 데 필요한 액세스 권한
 
@@ -33,18 +34,18 @@ Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td> <p>새로 만들기: 모두</p>
-   <p>현재: [!UICONTROL Business] 이상</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
+   <td> <p>임의</p>
+   <p>[!UICONTROL Business] 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard]</p>
-   <p>현재: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL 계획]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>포트폴리오 및 프로그램에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
+   <td> <p>[!UICONTROL 포트폴리오] 및 [!UICONTROL 프로그램]에 대한 [!UICONTROL 편집] 액세스 권한</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -58,6 +59,36 @@ Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트
 </table>
 
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>New: Any</p>
+   <p>Current: [!UICONTROL Business] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to edit a program or add projects to it</p>
+   <p>Manage permissions to the portfolio that the program belongs to </p>
+   <p>View permissions to a program to view it</p>
+   <p>After you create a program, you have Manage permissions to it, by default</p> 
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 
 ## 프로그램 작업에 대한 고려 사항

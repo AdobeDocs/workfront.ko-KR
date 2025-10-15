@@ -6,9 +6,9 @@ description: 아트보드를 교정으로 Adobe Workfront에 직접 업로드하
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -21,23 +21,21 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>현재 플랜: [!UICONTROL Pro] 이상</p> <p>또는</p> <p>레거시 플랜: [!UICONTROL Premium]</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 을 참조하십시오.</p> </td> 
+ <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
+   <td>임의 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>현재 계획: [!UICONTROL Work] 또는 [!UICONTROL Proof]</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>표준</p> <p>작업 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">제품</td> 
-   <td>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</td> 
+   <td role="rowheader">추가 제품</td> 
+   <td>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">교정쇄 권한 프로필 </td> 
@@ -50,13 +48,14 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;플랜, 역할 또는 증명 권한 프로필이 있는지 확인하려면 [!DNL Workfront] 또는 [!DNL Workfront Proof] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
 
 +++
 
 ## 전제 조건
 
-* [!DNL Adobe XD]에서 증명을 업로드하려면 먼저 [!DNL Adobe Workfront for XD] 플러그인을 설치해야 합니다.
+* [!DNL Adobe Workfront for XD]에서 증명을 업로드하려면 먼저 [!DNL Adobe XD] 플러그인을 설치해야 합니다.
 
   지침은 [설치 [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)를 참조하십시오.
 
@@ -113,7 +112,7 @@ ht-degree: 0%
 1. **[!UICONTROL 자산 유형]** 드롭다운 메뉴에서 내보내기 형식을 선택합니다.
 
 
-1. (선택 사항) PDF을 에셋 유형으로 선택하고 둘 이상의 아트보드를 선택한 경우, 아트보드를 **[!UICONTROL 단일 PDF 파일]s** 또는 **M[!UICONTROL 여러 PDF 파일]**(으)로 내보내시겠습니까?
+1. (선택 사항) 자산 유형으로 PDF을 선택하고 둘 이상의 대지를 선택한 경우 대지를 **[!UICONTROL 단일 PDF 파일]s** 또는 **M[!UICONTROL 여러 PDF 파일]**(으)로 내보내시겠습니까?
 
 1. (선택 사항) PDF 이름을 지정합니다.
 
@@ -187,7 +186,7 @@ ht-degree: 0%
    ![XD에서 증명 승인](assets/proof-approvals-xd-350x396.png)
 
 1. **[!UICONTROL 자산 유형]** 드롭다운 메뉴에서 **공유 링크** 탭에서 방금 만든 링크를 선택합니다. 자세한 내용은 [아트보드용 대화형 링크 만들기](#create-an-interactive-link-for-your-artboard)를 참조하십시오.\
-   ![XD에서 공유된 링크](assets/shared-links-xd-350x870.png)
+   ![XDS의 공유 링크](assets/shared-links-xd-350x870.png)
 
 1. **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
 
@@ -195,7 +194,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >대화형 증명을 검토하고 승인하려면 사용자가 [!UICONTROL 데스크톱 증명 뷰어]에 액세스할 수 있어야 합니다. 자세한 내용은 [Desktop Proofing Viewer 설치](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)를 참조하십시오.
+   >대화형 증명을 검토하고 승인하려면 사용자가 [!UICONTROL 데스크톱 증명 뷰어]에 액세스할 수 있어야 합니다. 자세한 내용은 [Desktop Proofing Viewer 설치[!UICONTROL 를 참조하십시오.]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
 
 ## 새 증명 버전 업로드
 
@@ -249,7 +248,7 @@ ht-degree: 0%
 
    ![XD에서 증명 승인](assets/proof-approvals-xd-350x396.png)
 
-1. (선택 사항) PDF을 에셋 유형으로 선택하고 둘 이상의 아트보드를 선택한 경우, 아트보드를 **[!UICONTROL 단일 PDF 파일]s** 또는 **M[!UICONTROL 여러 PDF 파일]**(으)로 내보내시겠습니까?
+1. (선택 사항) 자산 유형으로 PDF을 선택하고 둘 이상의 대지를 선택한 경우 대지를 **[!UICONTROL 단일 PDF 파일]s** 또는 **M[!UICONTROL 여러 PDF 파일]**(으)로 내보내시겠습니까?
 
 1. (선택 사항) PDF 이름을 지정합니다.
 

@@ -8,20 +8,22 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1497'
 ht-degree: 2%
 
 ---
 
 # Adobe Workfront의 문제 전환 개요
 
+<!--Audited: 08/2025-->
+
 문제가 제출된 후 문제를 완료하기 위해 추가 작업을 수행해야 하는 경우 문제를 프로젝트 또는 작업으로 변환할 수 있습니다.
 
-문제를 작업으로 변환하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 문제를 작업으로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)을 참조하십시오.
+문제를 작업으로 변환하는 방법에 대한 자세한 내용은 [문제를 작업으로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)을 참조하십시오.
 
-문제를 프로젝트로 변환하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 문제를 프로젝트로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)을 참조하십시오.
+문제를 프로젝트로 변환하는 방법에 대한 자세한 내용은 [문제를 프로젝트로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)을 참조하십시오.
 
 ## 문제 전환 시 고려 사항
 
@@ -62,7 +64,7 @@ ht-degree: 2%
 
 문제를 프로젝트로 전환할 때 빈 프로젝트로 전환하거나 템플릿을 사용할 수 있습니다.
 
-자세한 내용은 [문제를 Adobe Workfront의 프로젝트로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)을 참조하십시오.
+자세한 내용은 [문제를 프로젝트로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)을 참조하십시오.
 
 템플릿을 사용할 때 템플릿에서 채워지는 일부 필드는 전환된 문제에서 생성된 프로젝트로 전송됩니다. 다른 필드는 전환된 문제에서 프로젝트로 전송됩니다.
 

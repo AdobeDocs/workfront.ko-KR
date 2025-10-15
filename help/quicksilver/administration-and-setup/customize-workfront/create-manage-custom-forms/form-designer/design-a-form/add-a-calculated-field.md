@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2412'
 ht-degree: 0%
 
 ---
@@ -47,31 +47,27 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
-   <td>임의</td> 
+  <tr> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>
-   <p>새로운 기능: 표준</p>
-   <p>또는</p>
-   <p>현재: 플랜</p></td>
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준 구성</td> 
+  <tr> 
+   <td>액세스 수준 구성</td> 
    <td> <p>사용자 정의 양식에 대한 관리 액세스</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -182,7 +178,7 @@ ht-degree: 0%
 
       각 필드는 중괄호로 묶어야 합니다. 필드 이름을 입력할 때 시스템에서 제안을 하며 이를 선택하여 계산에 삽입할 수 있습니다.
 
-+++ **계산된 사용자 지정 필드에 필요한 구문을 보려면 확장**
+      +++ **계산된 사용자 지정 필드에 필요한 구문을 보려면 확장**
 
       각 필드는 각 필드 이름 주위에 중괄호를 사용하여 아래에 설명된 구문을 사용해야 합니다. 필드 이름을 입력할 때 시스템에서 제안을 하며 이를 선택하여 계산에 삽입할 수 있습니다. 계산에 데이터를 잘못 입력하면 경고 메시지가 표시됩니다. 유효한 필드와 유효한 계산된 표현식을 포함하도록 계산을 편집하지 않으면 양식을 저장할 수 없습니다.
 
@@ -282,7 +278,7 @@ ht-degree: 0%
            >
            ><div>오브젝트에 첨부된 사용자 정의 양식에서 계산된 사용자 정의 필드의 날짜 및 시간 문은 조직의 인스턴스 및 사용자 프로필에 대해 설정된 시간대 구성이 아니라 UTC(협정 세계시)에 의해 계산되고 저장됩니다. 사용자 정의 양식의 계산은 각 사용자의 개별 시간대를 기반으로 하여 생성됩니다.</div>
 
-+++
+        +++
 
    1. 큰 텍스트 상자를 클릭한 다음 계산에 추가할 수 있는 **식** 및 **필드**&#x200B;를 클릭합니다.
 
@@ -292,13 +288,13 @@ ht-degree: 0%
 
       여는 괄호를 입력하면 닫는 괄호가 자동으로 추가됩니다.
 
-+++ **유용한 팁을 보려면 확장**
+      +++ **유용한 팁을 보려면 확장**
 
       >[!TIP]
       >
       >다음 중 원하는 작업을 수행하여 계산에 도움을 받을 수 있습니다.
       > 
-      >* 계산에서 식 위로 마우스를 가져가면 설명, 사용 방법을 보여 주는 예제 및 문서 [계산된 데이터 식의 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)에서 자세한 정보로 연결되는 **자세히 알아보기** 링크를 볼 수 있습니다.
+      >* 계산에서 식 위로 마우스를 가져가면 설명, 사용 방법을 보여 주는 예제 및 문서 **계산된 데이터 식의 개요**&#x200B;에서 자세한 정보로 연결되는 [자세히 알아보기](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) 링크를 볼 수 있습니다.
       >  ![식 도움말 텍스트](assets/hover-expression-help-text.jpg)
       >* 색상 코딩을 사용하여 추가한 구성 요소를 식별합니다. 표현식은 파란색으로 표시되고 필드는 녹색으로 표시됩니다.
       >  ![필드 식의 색](assets/colors-fields-expressions.jpg)
@@ -309,7 +305,7 @@ ht-degree: 0%
       >  ![계산 미리 보기](assets/preview-calc.jpg)
       >* 왼쪽에 표시되는 줄 번호를 사용하여 긴 계산에서 참조 표현식입니다.
 
-+++
+      +++
    1. 계산된 사용자 지정 필드에 대한 계산 만들기를 마치면 **최소화**&#x200B;를 클릭합니다.
 
    1. (선택 사항) 다음 옵션 중 하나를 사용하여 계산된 사용자 정의 필드를 추가로 구성합니다.

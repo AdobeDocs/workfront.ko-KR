@@ -7,9 +7,9 @@ description: 작업 노력 개요
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -61,22 +61,19 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>현재: 플랜 </p>
-   또는
-   <p>새로운 기능: 표준 </p>
-    </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p>
+   <p>플랜</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -89,9 +86,37 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current: Plan </p>
+   Or
+   <p>New: Standard </p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a project and its tasks</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 작업 노력 사용 시 고려 사항
 
@@ -155,7 +180,7 @@ Workfront 관리자는 설정의 프로젝트 환경 설정 영역에서 근무�
    <td>작업 완료를 위한 작은 작업 수준은 근무일당 일반 시간의 25%로 설정됩니다. 즉, 이 수준의 작업 노력이 할당된 작업이 하루에 완료하는 데 최대 2시간이 소요됩니다. <code>(0.25*8=2)</code></td> 
   </tr> 
   <tr> 
-   <td>중간</td> 
+   <td>보통</td> 
    <td> <p>작업 완료를 위한 Medium 작업 수준은 근무일당 일반 시간의 50%로 설정됩니다. 즉, 이 수준의 작업 노력이 할당된 작업이 하루에 완료하는 데 2시간 이상 6시간 미만이 소요됩니다. <code>(0.50*80=4)</code> </p> <p>주: 프로젝트에서 작업 노력을 사용하여 작업 계획 시간 자동 계산 설정이 활성화된 경우, 이 설정이 활성화되기 전에 작업에 계획된 시간이 0일 경우 작업의 기본 설정입니다. 이렇게 하면 작업 계획 시간이 4시간으로 업데이트됩니다. </p> </td> 
   </tr> 
   <tr> 

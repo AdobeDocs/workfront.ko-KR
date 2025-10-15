@@ -6,14 +6,16 @@ description: 개별 문제를 편집하거나 문제 목록 또는 보고서에�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
 
 # 목록에서 문제 편집
+
+<!--Audited: 08/2025-->
 
 개별 문제를 편집하거나 문제 목록 또는 보고서에서 문제를 편집할 수 있습니다. 이 문서에서는 목록에서 문제를 편집하는 방법에 대해 설명합니다.
 
@@ -21,19 +23,26 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-이 문서의 작업을 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>요청 이상</p> <p>프로젝트의 문제 섹션에서 문제를 편집하려면 상위 라이선스를 검토하십시오.</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>
+
+<ul><li><p>기여자 이상</p> </li>
+   <li><p>프로젝트의 문제 섹션에서 문제를 편집할 수 있는 라이트 또는 상위 라이선스</p></li></ul> 
+    또는
+   <ul><li><p>요청자 이상</p> </li>
+   <li><p>프로젝트의 문제 섹션에서 문제를 편집할 수 있는 검토자 이상의 라이선스</p></li></ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -46,7 +55,34 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 인라인 편집 문제
 
@@ -76,17 +112,16 @@ ht-degree: 1%
 1. 프로젝트 또는 작업의 문제 목록으로 이동합니다.
 1. 다음 중 하나를 수행합니다
 
-   * 목록에서 문제를 선택한 다음 도구 모음에서 편집 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭합니다.
-   * 문제 이름 오른쪽에 있는 **추가 메뉴** ![추가 메뉴](assets/more-icon-task-list.png)를 클릭한 다음 **새 탭에서 열기**&#x200B;를 클릭합니다. 새 탭에서 문제 페이지가 열립니다. 문제 페이지에서 **자세히** > **편집**&#x200B;을 클릭합니다.
-   * 문제 이름 오른쪽에 있는 **추가 메뉴** ![추가 메뉴](assets/more-icon-task-list.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+   * 목록에서 문제를 선택한 다음 도구 모음에서 **편집** 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭합니다.
+   * 문제의 이름을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
-     이러한 작업을 수행하면 문제 편집 상자가 열립니다.
+     이러한 작업을 수행하면 **문제 편집** 상자가 열립니다.
 
-     문제 편집 상자에서 문제를 편집하는 방법에 대한 자세한 내용은 [문제 편집](../../../manage-work/issues/manage-issues/edit-issues.md)을 참조하십시오.
+     **문제 편집** 상자에서 문제를 편집하는 방법에 대한 자세한 내용은 [문제 편집](../../../manage-work/issues/manage-issues/edit-issues.md)을 참조하십시오.
 
 ## 요약을 사용하여 문제 편집
 
-요약을 사용하여 목록에서 문제를 편집할 수 있습니다.
+요약 패널을 사용하여 목록에서 문제를 편집할 수 있습니다.
 
 1. 문제를 편집할 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **문제**&#x200B;를 클릭합니다.
@@ -100,11 +135,12 @@ ht-degree: 1%
 1. (선택 사항) **업데이트** 영역에서 문제에 대한 업데이트를 입력하십시오.
 1. 다음 아이콘 또는 영역을 클릭하여 문제로 이동하고 문제 수준에서 정보를 편집합니다.
 
-   | 문서 | 문제에 문서를 추가하려면 **여기를 클릭**&#x200B;하세요. |
+   | 아이콘 | 액션 |
    |---|---|
-   | 세부 사항 | 을(를) 클릭하여 문제에 대한 정보를 업데이트합니다. |
-   | 시간 | 클릭하여 시간을 기록합니다. |
-   | 승인 | 문제 승인을 추가하려면 클릭하십시오. |
+   | 문서 ![문서 아이콘](assets/documents-icon-in-summary.png) | 문제에 문서를 추가하려면 **여기를 클릭**&#x200B;하세요. |
+   | 세부 정보 ![세부 정보 아이콘](assets/details-icon-in-summary.png) | 을(를) 클릭하여 문제에 대한 정보를 업데이트합니다. |
+   | 시간 ![로그 시간](assets/log-time-icon-in-summary.png) | 클릭하여 시간을 기록합니다. |
+   | 승인 ![승인 아이콘](assets/approvals-icon-in-summary.png) | 문제 승인을 추가하려면 클릭하십시오. |
 
 1. (선택 사항) **요약 열기** 아이콘을 다시 클릭하거나 요약 오른쪽 상단의 **X 아이콘**&#x200B;을 클릭하여 패널을 닫고 문제를 인라인으로 편집합니다.
 

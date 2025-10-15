@@ -6,9 +6,9 @@ description: Ad Hoc 카드를 보드에 빠르게 추가하고 보드에 있는 
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,19 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
-   <p>또는</p>
-   <p>현재: [!UICONTROL Request] 이상</p>
+   <p>기여자 이상</p> 
+   <p>요청 이상</p>
    </td> 
   </tr> 
  </tbody> 
@@ -63,7 +60,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >이름 필드 외부를 클릭하면 Ad Hoc 카드가 맨 왼쪽 열 하단에 자동으로 &quot;제목 없음&quot;으로 저장됩니다. 카드를 저장하지 않고 종료하려면 [!UICONTROL 카드 세부 정보] 상자의 아무 곳이나 클릭하지 않고 [!UICONTROL **취소**]&#x200B;를 클릭해야 합니다.
+   >이름 필드 외부를 클릭하면 Ad Hoc 카드가 맨 왼쪽 열 하단에 자동으로 &quot;제목 없음&quot;으로 저장됩니다. 카드를 저장하지 않고 종료하려면 [!UICONTROL **카드 세부 정보**] 상자의 아무 곳이나 클릭하지 않고 [!UICONTROL 취소]를 클릭해야 합니다.
 
 1. **[!UICONTROL 카드 세부 정보]** 상자에 다음 정보를 추가하십시오.
 
@@ -85,7 +82,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 상태]</strong> </td> 
-      <td>카드 상태를 선택합니다. 카드 상단에서 <strong>[!UICONTROL Mark Complete]</strong>을(를) 클릭하면 상태가 자동으로 [!UICONTROL Complete] (으)로 변경됩니다.</td> 
+      <td>카드 상태를 선택합니다. 카드 상단에서 <strong>[!UICONTROL Mark Complete]</strong>을(를) 클릭하면 상태가 자동으로 [!UICONTROL Complete](으)로 변경됩니다.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 기한]</strong></td> 

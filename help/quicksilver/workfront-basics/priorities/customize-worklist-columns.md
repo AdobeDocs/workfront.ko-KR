@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
    <td> 
-   <p>현재: 검토자 이상</p>
-   <p>새로운 기능: 밝게 또는 높음</p> 
+   <p>검토자 이상</p>
+   <p>밝거나 높음</p> 
    </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 {{step1-to-priorities}}
 
-1. 화면 왼쪽에서 **열**&#x200B;을 클릭합니다.
+1. 화면 왼쪽에서 **열**을 클릭합니다.
    ![열](assets/columns-new.png)
 1. 작업 목록에서 열을 활성화 또는 비활성화하려면 전환을 사용하십시오.
 

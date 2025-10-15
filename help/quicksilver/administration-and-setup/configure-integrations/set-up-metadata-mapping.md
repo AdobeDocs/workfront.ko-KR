@@ -3,48 +3,50 @@ title: 메타데이터 매핑 설정
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: 메타데이터는 문서와 관련된 설명 정보입니다.  [!DNL Workfront] 응용 프로그램으로 보낸 문서에 메타데이터를 포함하도록  [!DNL Adobe Workfront] 을(를) 설정할 수 있습니다.
+description: 메타데이터는 문서와 관련된 설명 정보입니다.  [!DNL Adobe Workfront] 응용 프로그램으로 보낸 문서에 메타데이터를 포함하도록  [!DNL Workfront] 을(를) 설정할 수 있습니다.
 author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: '558'
+ht-degree: 1%
 
 ---
 
 # 메타데이터 매핑 설정
 
-메타데이터는 문서와 관련된 설명 정보입니다. [!DNL Workfront] 응용 프로그램으로 보낸 문서에 메타데이터를 포함하도록 [!DNL Adobe Workfront]을(를) 설정할 수 있습니다.
+메타데이터는 문서와 관련된 설명 정보입니다. [!DNL Adobe Workfront] 응용 프로그램으로 보낸 문서에 메타데이터를 포함하도록 [!DNL Workfront]을(를) 설정할 수 있습니다.
 
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td>임의</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td>[!UICONTROL 계획]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>[!DNL Workfront] 관리자여야 합니다. 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront 패키지
+   </td>
+   <td> <p>Prime 또는 Ultimate</p>
+    <p>워크플로 얼티밋</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront 라이선스
+   </td>
+   <td><p>표준</p>
+   <p>플랜</p>
+   </td>
+  </tr>
+   <tr>
+   <td>액세스 수준 구성
+   </td>
+   <td>[!DNL Workfront] 관리자여야 합니다.
+   </td>
+  </tr>
 </table>
 
-+++
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## [!DNL Workfront]개 메타데이터 정보
 
@@ -58,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->메타데이터는 [!DNL Workfront]에서 [!DNL Workfront DAM] 방향으로만 매핑할 수 있습니다. [!DNL Workfront DAM]에서 [!DNL Workfront]에 연결된 문서의 메타데이터를 Workfront으로 전송할 수 없습니다.
+>메타데이터는 [!DNL Workfront]에서 [!DNL Workfront DAM] 방향으로만 매핑할 수 있습니다. [!DNL Workfront]에서 [!DNL Workfront DAM]에 연결된 문서의 메타데이터를 Workfront으로 전송할 수 없습니다.
 
 동일한 [!DNL Workfront] 필드를 [!DNL Workfront DAM]의 다양한 메타데이터 필드에 매핑할 수 있지만 여러 [!DNL Workfront] 메타데이터 필드에 대해 이들 응용 프로그램에서 메타데이터 필드를 사용할 수는 없습니다.
 
@@ -94,6 +96,6 @@ ht-degree: 0%
 1. 매핑된 필드 목록에서 메타데이터 매핑에서 제거할 필드를 선택합니다.
 1. **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
-   지정된 필드가 더 이상 매핑되지 않습니다. 이제 사용자가 [!DNL Workfront]에서 [!DNL Workfront DAM] (으)로 문서를 보낼 때 삭제된 필드에 포함된 메타데이터는 문서와 함께 전송되지 않습니다.
+   지정된 필드가 더 이상 매핑되지 않습니다. 이제 사용자가 [!DNL Workfront]에서 [!DNL Workfront DAM]&#x200B;(으)로 문서를 보낼 때 삭제된 필드에 포함된 메타데이터는 문서와 함께 전송되지 않습니다.
 
    매핑된 필드를 삭제하기 전에 전송된 문서에는 삭제된 필드의 메타데이터를 포함하여 함께 전송된 원본 메타데이터가 유지됩니다.

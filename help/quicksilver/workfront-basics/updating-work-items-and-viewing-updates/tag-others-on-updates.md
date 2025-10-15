@@ -6,9 +6,9 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -57,35 +57,65 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
-   <td> <p>새로운 기능: 문제 및 문서에 대한 기여자 이상, 기타 모든 오브젝트에 대한 라이트 이상</p>
-   <p>현재: 문제 및 문서에 대해 요청 이상, 다른 모든 객체에 대해 검토 이상</p> </td> 
-  </tr> 
-  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
+   <td> <p>문제 및 문서의 경우:</p>
+
+<ul><li><p>기여자 이상</p></li>
+   <li><p>요청 이상</p></li></ul>
+
+<p>기타 모든 객체의 경우:</p>
+   <ul><li><p>밝거나 높음</p></li>
+   <li><p>검토 이상</p></li></ul>
+
+</td>  
+  </tr>
    <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
-   <td> <p>답글을 게시하려는 오브젝트에 대한 보기 이상의 액세스 권한</p> </td> 
+   <td> <p>사용자를 태그 지정할 객체에 대한 보기 이상의 액세스 권한</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>답글을 게시하려는 오브젝트에 대한 이상의 권한 보기</p> </td> 
+   <td> <p>사용자를 태깅할 오브젝트에 대한 보기 이상의 권한</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or higher access to the objects where you want to post the reply</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permission</strong></td> 
+   <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 업데이트에 다른 사용자 태그 지정
 
@@ -118,7 +148,9 @@ ht-degree: 0%
 
    ![사용자 태그 지정](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. (선택 사항) 업데이트를 비공개로 설정하려면 업데이트 상자의 오른쪽 아래 모서리에서 내 회사에 대해 **Private**&#x200B;을(를) 사용하도록 설정하십시오. 이렇게 하면 회사의 사용자에게만 업데이트가 표시됩니다. **내 회사에 비공개** 옵션은 회사가 Workfront 프로필에 지정된 경우에만 사용할 수 있습니다.
+1. (선택 사항) 업데이트를 비공개로 설정하려면 업데이트 상자의 오른쪽 아래 모서리에서 내 회사에 대해 **Private**&#x200B;을(를) 사용하도록 설정하십시오. 이렇게 하면 회사의 사용자에게만 업데이트가 표시됩니다.
+
+   **내 회사에 비공개** 옵션은 회사가 Workfront 프로필에 지정된 경우에만 사용할 수 있습니다.
 
    >[!NOTE]
    >

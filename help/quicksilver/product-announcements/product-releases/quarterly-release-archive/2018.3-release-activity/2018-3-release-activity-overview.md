@@ -2,14 +2,14 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.3 릴리스 활동 개요
-description: "참고: 2018.3 릴리스는 다음 날짜에 프로덕션 환경에서 사용할 수 있습니다(자세한 날짜 및 시간은 trust.workfront.com 참조)."
+description: '참고: 2018.3 릴리스는 다음 날짜에 프로덕션 환경에서 사용할 수 있습니다(자세한 날짜 및 시간은 trust.workfront.com 참조)'
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -108,9 +108,9 @@ ht-degree: 0%
 ### 기타 개선 사항
 
 * [Microsoft OneDrive 문서 통합](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#document-integration-with-microsoft-onedrive) 
-* [Microsoft Teams 통합을 위한 Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
+* [Microsoft Teams 통합용 Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
 * [Adobe Creative Cloud 통합을 위해 Workfront 업데이트됨](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#updated-workfront-for-adobe-cc-integration) 
-* [보고서, 캘린더 및 문서 공유에 대한 Flash 제거](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#flash-removal-for-report-calendar-and-document-sharing)
+* [보고서, 캘린더 및 문서 공유를 위한 Flash 제거](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#flash-removal-for-report-calendar-and-document-sharing)
 
 ## 공지 {#announcements}
 
@@ -138,13 +138,13 @@ API 버전 3에 대한 지원은 2018년 11월에 종료됩니다. Workfront API
 
 ### JSONP 지원 종료 중 {#jsonp-support-is-ending}
 
-JSONP(Javascript with Padding)는 알려진 보안 취약성을 가진 이전 표준이므로 Workfront은 2018년 11월부터 더 이상 JSONP를 지원하지 않습니다. 자세한 내용은 [JSONP 지원 종료](../../../../wf-api/api/ending-support-jsonp.md)를 참조하십시오.
+JSONP(Javascript with Padding)는 알려진 보안 취약성을 가진 이전 표준이므로 Workfront은 2018년 11월부터 더 이상 JSONP를 지원하지 않습니다.
 
 ### Flash 응용 프로그램 제거 {#flash-application-removal}
 
-Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfront에서 제거될 예정이며, 새로운 솔루션으로 대체되었습니다.
+Flash 기술에 의존하는 모든 기능은 2018.3 릴리스에서 Workfront에서 제거될 예정이며, 새로운 솔루션으로 대체되었습니다.
 
-기존 Flash 도구 및 대체 요소에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
+기존 Flash 도구 및 대체 도구에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
 
 ### 제거할 다양한 Single Sign-On 옵션 {#various-single-sign-on-options-to-be-removed}
 

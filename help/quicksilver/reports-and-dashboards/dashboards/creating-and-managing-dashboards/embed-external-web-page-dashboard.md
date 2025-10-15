@@ -6,9 +6,9 @@ description: 외부 웹 페이지를 대시보드에 포함하여 Adobe Workfron
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1017'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >
 >* 대시보드 페이지는 더 이상 대시보드에 임베드된 외부 페이지로 지원되지 않습니다. 이러한 외부 페이지를 제거하기 위해 기존 대시보드가 자동으로 수정되지 않지만, 이러한 참조를 포함하는 대시보드에 대한 수정 사항은 참조를 제거하거나 변경할 때까지 저장할 수 없습니다.
-> 특히 다음 Workfront.com 하위 도메인은 더 이상 지원되지 않습니다.
+>  > 특히 다음 Workfront.com 하위 도메인은 더 이상 지원되지 않습니다.
 >
 >     * /&#x200B;dashboards
 >     * /dashboard/:ID&#x200B;
@@ -53,41 +53,34 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>표준</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>플랜</p></li>
-         </ul>
-   </td>
+      <p>표준</p>
+      <p>플랜</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
-   <td> <p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p> </td> 
-  </tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
+   <td role="rowheader">개체 권한</td> 
    <td> <p>대시보드에 대한 액세스 편집</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
 
 +++
 
@@ -111,7 +104,7 @@ ht-degree: 1%
 
 {{step1-to-dashboards}}
 
-1. 기존 대시보드를 편집하려면 웹 사이트 페이지를 포함할 대시보드를 선택한 다음 **대시보드 작업**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다
+1. 기존 대시보드를 편집하려면 웹 사이트 페이지를 포함할 대시보드를 선택한 다음 **대시보드 작업**&#x200B;을 클릭한 다음 **편집**을 클릭합니다
 또는\
    새 대시보드를 만들려면 **새 대시보드**&#x200B;를 클릭하세요.\
    대시보드를 만드는 방법에 대한 자세한 내용은 [대시보드 만들기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)를 참조하세요.

@@ -6,9 +6,9 @@ description: 조직도 기능을 사용하면 특정 Adobe Workfront 사용자�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
+source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -21,27 +21,24 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
-   <td>임의</td> 
+  <tr> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>Adobe Workfront 라이선스</td> 
    <td>
-   <p>새로운 기능: 밝게 또는 높음</p>
-   <p>또는</p>
-   <p>현재: 검토 이상</p></td>
+   <p>밝거나 높음</p>
+   <p>검토 이상</p></td>
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -49,5 +46,7 @@ ht-degree: 0%
 
 {{step1-click-profile-pic}}
 
-1. 왼쪽 패널에서 **[!UICONTROL 조직 차트]**&#x200B;를 클릭합니다.
+1. 왼쪽 패널에서 **[!UICONTROL 조직 차트]**를 클릭합니다.
    ![조직도](assets/org-chart-2025.png)
+
+   조직도가 표시됩니다.

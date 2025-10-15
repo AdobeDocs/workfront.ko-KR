@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: business-case-and-scorecards
 title: 비즈니스 사례 재무 필드 개요
 description: 비즈니스 사례 하위 탭에는 프로젝트의 재무 필드가 포함됩니다. 일부 재무 필드가 값을 가지려면 비즈니스 사례의 해당 영역을 완료해야 합니다.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 2%

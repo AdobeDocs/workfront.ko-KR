@@ -7,16 +7,16 @@ description: 보드의 각 열에 대해 WIP(Work In Progress) 한도를 구성�
 author: Lisa
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
-# 게시판에서 [!UICONTROL 진행 중인 작업] (WIP) 제한 관리
+# 게시판에서 [!UICONTROL 진행 중인 작업]&#x200B;(WIP) 제한 관리
 
-게시판의 각 열에 대해 [!UICONTROL 진행 중인 작업] (WIP) 제한을 구성할 수 있습니다.
+게시판의 각 열에 대해 [!UICONTROL 진행 중인 작업]&#x200B;(WIP) 제한을 구성할 수 있습니다.
 
 WIP 제한은 단순히 시각적 경고일 뿐 각 열에 사용자가 설정한 제한보다 더 많은 항목을 포함하는 것을 제한하지 않습니다.
 
@@ -24,22 +24,19 @@ WIP 제한은 단순히 시각적 경고일 뿐 각 열에 사용자가 설정�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
-   <p>또는</p>
-   <p>현재: [!UICONTROL Request] 이상</p>
+   <p>기여자 이상</p> 
+   <p>요청 이상</p>
    </td> 
   </tr> 
  </tbody> 
@@ -62,7 +59,7 @@ WIP 제한은 단순히 시각적 경고일 뿐 각 열에 사용자가 설정�
 1. [!UICONTROL 열 정책]에서 **[!UICONTROL 진행 중인 작업] 제한** 정책을 사용하여 열에 추가할 수 있는 카드 수를 제한하십시오.
 1. **[!UICONTROL 제한 설정]** 필드에 제한 번호를 입력하십시오.
 
-   ![&#128279;](assets/boards-wip-limit-in-column.png) 열에 대한 WIP 제한
+   ![ 열에 대한 ](assets/boards-wip-limit-in-column.png)WIP 제한
 
    카드 수와 제한 수가 열 맨 위에 표시됩니다. 열에 제한보다 많은 카드가 들어 있으면 카운터가 빨간색으로 바뀝니다.
 

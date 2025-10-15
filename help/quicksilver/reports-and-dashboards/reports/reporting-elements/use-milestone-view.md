@@ -6,9 +6,9 @@ description: 마일스톤 보기를 프로젝트 목록 또는 보고서에 적�
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1623'
 ht-degree: 1%
 
 ---
@@ -41,38 +41,30 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
+   <td role="rowheader">Adobe Workfront 라이선스</strong></td> 
    <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>표준</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>작업 이상</p></li>
-         </ul>
+    <p>표준</p>
+    <p>작업 이상</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 보기 또는 상위 액세스 권한</p></td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 보기 또는 상위 액세스 권한</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>마일스톤 보기를 보고서에 적용하려면 프로젝트 보고서에 대한 권한을 봅니다.</p> </td> 
+   <td role="rowheader">개체 권한</td> 
+    <td> <p>마일스톤 보기를 보고서에 적용하려면 프로젝트 보고서에 대한 권한을 봅니다.</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,14 +1,14 @@
 ---
-title: "프로젝트에 대한 팁, 요령 및 문제 해결: 문서 색인"
-description: 프로젝트에 대한 팁, 요령 및 문제 해결
+title: '프로젝트에 대한 팁, 요령 및 문제 해결: 문서 색인'
+description: 이 문서에서는 Adobe Workfront에서 프로젝트 작업 시 발생하는 일반적인 문제를 해결하는 방법에 대한 팁을 제공합니다.
 author: Alina
 draft: Probably
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: dd849f4e-aa48-4e27-80b7-af321f730708
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---

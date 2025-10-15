@@ -6,16 +6,16 @@ description: 포트폴리오는 Adobe Workfront에 있는 프로젝트 또는 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
 
 # 포트폴리오 삭제 및 비활성화
 
-<!--Audited: 2/2024-->
+<!--Audited: 08/2025-->
 
 포트폴리오는 [!DNL Adobe Workfront]에 있는 프로젝트 또는 프로그램의 컬렉션입니다. 시스템과 관련이 없는 포트폴리오를 삭제하거나 비활성화할 수 있습니다.
 
@@ -23,15 +23,15 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 봅니다.를 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td> <p>임의 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
@@ -52,6 +52,35 @@ ht-degree: 1%
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions on the portfolio </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## 포트폴리오 삭제 및 비활성화 개요
 
@@ -92,7 +121,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 포트폴리오]** 를 클릭합니다.
 1. 포트폴리오의 이름을 클릭합니다.
-1. 포트폴리오 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL Portfolio 비활성화]**&#x200B;를 클릭합니다.
+1. 포트폴리오 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL Portfolio 비활성화]**를 클릭합니다.
 포트폴리오가 즉시 비활성화됩니다.
 1. (선택 사항) 포트폴리오 이름의 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL Portfolio 활성화]**&#x200B;를 클릭하여 다시 활성화합니다.
 

@@ -1,55 +1,84 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: '[!UICONTROL 간트 차트]에서 정보 보기'
-description: 작업 목록 간트 차트 및 프로젝트 목록 간트 차트 에는 프로젝트 및 작업에 대한 정보가 표시됩니다.
+description: Adobe Workfront 작업 및 프로젝트 [!UICONTROL 간트 차트]에는 작업 및 프로젝트에 대한 정보가 표시됩니다.
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 간트 차트]에서 정보 보기
 
-작업 목록 [!UICONTROL 간트 차트] 및 프로젝트 목록 [!UICONTROL 간트 차트]에 프로젝트 및 작업에 대한 정보가 표시됩니다.
+<!--Audited: 08/2025-->
+
+Adobe Workfront 작업 및 프로젝트 [!UICONTROL 간트 차트]에는 작업 및 프로젝트에 대한 정보가 표시됩니다.
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 따르려면 다음 사항이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>임의 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스 개요*</td> 
-   <td> <p>[!UICONTROL Review] 이상</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td><p>[!UICONTROL Light] 이상</p>
+    <p>[!UICONTROL Review] 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트 및 작업에 대한 [!UICONTROL 보기] 이상 액세스</p> <p><b>메모</b>
-
-아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트 및 작업에 대한 [!UICONTROL 보기] 이상 액세스</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 [!UICONTROL 보기] 이상 액세스 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>프로젝트 및 작업에 대한 [!UICONTROL 보기] 이상 액세스 권한</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenses overview*</td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## [!UICONTROL 간트 차트] 찾기
 
-Workfront 내의 여러 영역에서 작업 목록 간트 차트 및 프로젝트 목록 [!UICONTROL 간트 차트]를 모두 찾을 수 있습니다. 자세한 내용은 [간트 차트 시작](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)을 참조하세요.
+Workfront 내의 여러 영역에서 작업 목록 간트 차트 및 프로젝트 목록 [!UICONTROL 간트 차트]를 모두 찾을 수 있습니다. 자세한 내용은 [간트 차트 시작[!UICONTROL 을 참조하세요.]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
 
 ## [!UICONTROL 중요 경로]에서 작업 보기
 
@@ -75,17 +104,13 @@ Workfront 내의 여러 영역에서 작업 목록 간트 차트 및 프로젝�
 
 1. 위에서 언급한 영역 중 하나로 이동합니다.
 
-   예를들어 [!UICONTROL 기본 메뉴]에서 **[!UICONTROL 프로젝트]**&#x200B;를 클릭합니다.
+   예를 들어 Workfront의 [!UICONTROL **기본 메뉴**] ![기본 메뉴 아이콘](assets/lines-main-menu.png)에서 **[!UICONTROL 프로젝트]**&#x200B;를 클릭합니다.
 
    프로젝트 목록이 표시됩니다.
 
 1. 화면 오른쪽 상단의 **[!UICONTROL 간트 차트]** 아이콘 ![간트 아이콘](assets/gantt-icon-nwe.png)을 클릭합니다.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
-   -->
-
-1. **[!UICONTROL 작업 목록 표시]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 작업 목록 표시]** ![작업 목록 표시 아이콘](assets/show-task-list-icon.png) 아이콘을 클릭합니다.
 
 1. 왼쪽의 프로젝트 목록에서 프로젝트 이름 옆에 있는 드롭다운 화살표를 클릭하여 해당 프로젝트 아래에 작업을 표시합니다.\
    [!UICONTROL 간트 차트]에 작업 정보가 표시됩니다.\
@@ -132,7 +157,7 @@ Workfront 내의 여러 영역에서 작업 목록 간트 차트 및 프로젝�
    >
    >타임라인 스냅샷은 가로 스크롤 막대를 클릭한 후에만 표시됩니다.
 
-   ![stretchy_gantt_minimap_with_outline__1_.png](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![타임라인 스냅숏 미니 맵](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. (선택 사항) 타임라인 스냅샷 내부의 아무 곳이나 클릭하여 프로젝트 수명의 특정 지점으로 이동합니다.\
    또는\

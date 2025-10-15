@@ -2,22 +2,24 @@
 product-area: projects
 navigation-topic: manage-issues
 title: 문제 삭제
-description: 올바른 액세스 및 권한이 있는 경우 Adobe Workfront에서 문제 또는 요청을 삭제할 수 있습니다.
+description: 올바른 액세스 및 권한이 있고 더 이상 필요하지 않은 경우 Adobe Workfront에서 문제 또는 요청을 삭제할 수 있습니다. 프로젝트의 정확도를 유지할 수 있도록 삭제하는 대신 닫는 것이 좋습니다.
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
 
 # 문제 삭제
 
-<!--Audited: 05/2025-->
+<!--Audited: 08/2025-->
 
-올바른 액세스 및 권한이 있는 경우 Adobe Workfront에서 문제 또는 요청을 삭제할 수 있습니다.
+올바른 액세스 및 권한이 있고 더 이상 필요하지 않은 경우 Adobe Workfront에서 문제 또는 요청을 삭제할 수 있습니다. 프로젝트의 정확도를 유지할 수 있도록 삭제하는 대신 닫는 것이 좋습니다.
+
+Workfront 관리자는 삭제된 문제를 복원할 수 있습니다.
 
 >[!TIP]
 >
@@ -25,22 +27,20 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새로운 기능: 기여자 이상</p>
-   <p>현재: 요청 이상</p>
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>기여자 이상</p>
+   <p>요청 이상</p>
  </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
   체크 아웃된 문서가 첨부된 문제는 삭제할 수 없습니다. 문서 체크 아웃에 대한 자세한 내용은 [문서 체크 아웃](../../../documents/managing-documents/check-out-documents.md)을 참조하십시오.
 
-* 메모
+* 참고
 * 승인
 
 Workfront 또는 그룹 관리자가 Workfront 인스턴스의 **타임시트 및 시간 환경 설정**&#x200B;에서 프로젝트, 작업 또는 문제 삭제 환경 설정을 구성하는 방법에 따라, 문제를 삭제할 때 문제에 기록된 시간이 다음 중 한 방법으로 처리됩니다.

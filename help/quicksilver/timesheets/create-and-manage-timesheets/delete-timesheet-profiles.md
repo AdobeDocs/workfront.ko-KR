@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 타임시트 프로필 삭제
 description: 더 이상 관련이 없을 수 있는 타임시트 프로필을 삭제할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: a94f358e7d4b8a23ff37d1adc0644f4e3ee6f013
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -25,30 +25,30 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다. 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> <p>임의</p> </td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새로운 기능: 표준</p>
-   또는
-   <p>현재: 플랜 </p> </td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td>
+   <p>표준</p>
+   <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>타임시트에 대한 관리 액세스 권한이 있어야 합니다. </p>  </td> 
+   <td>액세스 수준 구성</td> 
+   <td><p>타임시트에 대한 관리 액세스</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 1. 삭제할 타임시트 프로필을 하나 이상 선택한 다음 시스템 전체 타임시트 프로필에 대한 **자세히** 아이콘 ![](assets/more-icon.png) > **삭제**&#x200B;를 클릭합니다
 
 1. **타임시트 프로필**&#x200B;을 클릭합니다.
-1. 삭제할 타임시트 프로필을 하나 이상 선택한 다음 기타 아이콘 ![기타 아이콘](assets/more-icon.png) > **삭제**&#x200B;를 클릭합니다.
+1. 삭제할 타임시트 프로필을 하나 이상 선택한 다음 기타 아이콘 ![기타 아이콘](assets/more-icon.png) > **삭제**를 클릭합니다.
 또는
 그룹 수준 타임시트 프로필에 대해 **자세히** > **삭제**&#x200B;를 클릭합니다.
 1. (조건부) 타임시트 프로필이 이미 사용자에게 할당된 경우 **대체 타임시트 프로필** 상자가 표시됩니다. 다음을 수행합니다.

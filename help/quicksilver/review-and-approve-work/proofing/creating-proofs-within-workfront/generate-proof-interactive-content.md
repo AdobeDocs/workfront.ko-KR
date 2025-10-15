@@ -2,51 +2,52 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: ZIP 파일에 대화형 컨텐츠에 대한 증명 만들기
-description: ZIP 파일에 저장된 비 웹 사이트 대화형 컨텐츠에 대한 증명을 생성할 수 있습니다. 이러한 유형의 웹 콘텐츠의 예로는 스트리밍 비디오 또는 오디오, HTML 애니메이션, 대화형 배너 등이 있습니다.
+description: ZIP 파일에 저장된 비 웹 사이트 대화형 컨텐츠에 대한 증명을 생성할 수 있습니다. 이러한 유형의 웹 콘텐츠의 예에는 스트리밍 비디오 또는 오디오가 있는 광고, HTML 애니메이션 및 대화형 배너가 포함됩니다.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '386'
 ht-degree: 1%
 
 ---
 
 # ZIP 파일에 대화형 컨텐츠에 대한 증명 만들기
 
-ZIP 파일에 저장된 비 웹 사이트 대화형 컨텐츠에 대한 증명을 생성할 수 있습니다. 이러한 유형의 웹 콘텐츠의 예로는 스트리밍 비디오 또는 오디오, HTML 애니메이션, 대화형 배너 등이 있습니다.
+ZIP 파일에 저장된 비 웹 사이트 대화형 컨텐츠에 대한 증명을 생성할 수 있습니다. 이러한 유형의 웹 콘텐츠의 예에는 스트리밍 비디오 또는 오디오가 있는 광고, HTML 애니메이션 및 대화형 배너가 포함됩니다.
 
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>레거시 플랜: Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>를 참조하십시오.</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>현재 계획: 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> 
+   <p>표준</p>
+   <p>작업 또는 계획</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">교정쇄 권한 프로필 </td> 
    <td>관리자 이상</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문서에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>문서에 대한 액세스 편집</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

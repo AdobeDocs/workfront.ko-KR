@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
-source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 1%
+source-wordcount: '384'
+ht-degree: 0%
 
 ---
 
@@ -31,26 +31,26 @@ ht-degree: 1%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 계획</strong>
+   <td>Adobe Workfront 패키지
    </td>
-   <td> <p>새로운 기능: Prime 또는 Ultimate</p><p>또는</p><p>현재: 사용할 수 없음</p>
+   <td> <p>Prime 또는 Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]개 라이선스</strong>
+   <td><strong>Workfront 라이선스</strong>
    </td>
-   <td> <p>[!UICONTROL Standard]</p><p>또는</p><p>현재: 사용할 수 없음</p>
+   <td> <p>표준</p>&gt;
    </td>
   </tr>
    <tr>
    <td>액세스 수준 구성
    </td>
-   <td>[!DNL Workfront] 관리자여야 합니다.
+   <td><p>Workfront 관리자여야 합니다.</p>
    </td>
   </tr>
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 

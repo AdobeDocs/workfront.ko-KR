@@ -6,9 +6,9 @@ description: Slack용  [!DNL Adobe Workfront] 을(를) 설치 및 구성한 후�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront for Slack]을(를) 설치 및 구성한 후 [!DNL Slack]에서 작업 및 문제를 만들고 [!DNL Workfront]의 프로젝트와 연결할 수 있습니다.
 
-[!DNL Slack]을(를) 사용하여 [!DNL Workfront]을(를) 구성하는 방법에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을(를) 참조하십시오.
+[!DNL Workfront]을(를) 사용하여 [!DNL Slack]을(를) 구성하는 방법에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을(를) 참조하십시오.
 
 액세스 수준에서 작업 및 문제를 만들 수 있는 액세스 권한이 있어야 하며 연결 중인 프로젝트에 대해 [!UICONTROL 기여] 권한이 있어야 합니다.
 
@@ -25,22 +25,26 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/kr/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] 계획]</a>*</td> 
-   <td> <p>[!UICONTROL Pro] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>임의</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.\
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -51,8 +55,8 @@ ht-degree: 0%
 
 ## [!DNL Slack]에서 작업 만들기
 
-1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
-   [!DNL Slack]에서 Workfront에 로그인하는 방법에 대한 자세한 내용은 [액세스 [!DNL Adobe Workfront] 시작 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.\
+   [!DNL Slack]에서 Workfront에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]액세스[!DNL Slack]시작[의 &quot; [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
 
 1. 모든 채널에서 메시지 필드에 다음 명령을 입력합니다.
 
@@ -60,7 +64,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >명령은 대/소문자를 구분합니다. `/workfront` 대신 `/wf`(으)로 명령을 시작할 수 있습니다.
+   >명령은 대/소문자를 구분합니다. `/wf` 대신 `/workfront`(으)로 명령을 시작할 수 있습니다.
    >  
    >작업 이름은 [!DNL Workfront] 인터페이스에 나타나는 대로 대괄호 또는 따옴표 없이 입력해야 합니다.
 
@@ -70,8 +74,8 @@ ht-degree: 0%
 
 ## [!DNL Slack]에서 문제 만들기
 
-1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
-   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.\
+   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]Access[!DNL Slack]from[의 &quot; [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
 
 1. 모든 채널에서 메시지 필드에 다음 명령을 입력합니다.
 

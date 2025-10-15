@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -53,11 +53,11 @@ Workfront에 대한 방화벽을 구성하려면 네트워크 관리자가 추�
   </tr> 
   <tr> 
    <td role="rowheader">내 클러스터</td> 
-   <td>조직의 클러스터를 찾으려면 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">조직의 클러스터 및 Workfront 계획 보기</a>를 참조하십시오.</td> 
+   <td>조직의 클러스터를 찾으려면 <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">조직의 클러스터 및 Workfront 패키지 보기</a>를 참조하십시오.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront 플랜</td> 
-   <td> <p>조직의 계획을 찾으려면 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">조직의 클러스터 및 Workfront 계획 보기</a>를 참조하십시오.</p> </td> 
+   <td role="rowheader">Workfront 패키지</td> 
+   <td> <p>조직의 패키지를 찾으려면 <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">조직의 클러스터 및 Workfront 패키지 보기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">내 도메인</td> 
@@ -93,7 +93,7 @@ Workfront에 대한 방화벽을 구성하려면 네트워크 관리자가 추�
 >
 >이러한 제품, 통합 또는 기능을 나중에 추가하는 경우 네트워크 관리자에게 문의하여 허용 목록을 조정해야 합니다.
 
-### 조직의 클러스터 및 Workfront 계획 보기 {#view-your-organization-s-cluster-and-workfront-plan}
+### 조직의 클러스터 및 Workfront 패키지 보기 {#view-your-organization-s-cluster-and-workfront-package}
 
 {{step-1-to-setup}}
 
@@ -104,8 +104,8 @@ Workfront에 대한 방화벽을 구성하려면 네트워크 관리자가 추�
 
    ![클러스터 찾기](assets/locate-cluster.png)
 
-1. Workfront 플랜을 보려면 **라이선스**&#x200B;를 선택하세요.
+1. Workfront 패키지를 보려면 **라이선스**&#x200B;를 선택하십시오.
 
-   플랜이 페이지의 오른쪽 상단 근처에 표시됩니다.
+   패키지는 페이지의 오른쪽 상단 근처에 표시됩니다.
 
    ![계획 찾기](assets/locate-plan.png)

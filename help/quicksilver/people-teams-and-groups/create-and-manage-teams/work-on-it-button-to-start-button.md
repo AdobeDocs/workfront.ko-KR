@@ -6,9 +6,9 @@ description: Adobe Workfront의 기본 구성에는 할당된 항목에 대해 �
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -21,28 +21,25 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!UICONTROL 시작] 단추를 클릭하면 항목의 상태와 [!UICONTROL 실제 시작 날짜]가 변경됩니다. 다른 사용자가 작업 또는 문제에 대한 작업을 시작한 경우(상태를 [!UICONTROL 진행 중] (으)로 변경하고 [!UICONTROL 실제 시작 일자]를 채운 경우), 사용자가 속한 팀이 [!UICONTROL 시작] 단추로 단추를 교체한 경우에도 항목의 단추가 [!UICONTROL 처리 중]으로 표시됩니다.
+>[!UICONTROL 시작] 단추를 클릭하면 항목의 상태와 [!UICONTROL 실제 시작 날짜]가 변경됩니다. 다른 사용자가 작업 또는 문제에 대한 작업을 시작한 경우(상태를 [!UICONTROL 진행 중]&#x200B;(으)로 변경하고 [!UICONTROL 실제 시작 일자]를 채운 경우), 사용자가 속한 팀이 [!UICONTROL 시작] 단추로 단추를 교체한 경우에도 항목의 단추가 [!UICONTROL 처리 중]으로 표시됩니다.
 
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 패키지</p> </td> 
    <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td>
-   <p>새로운 기능: 표준</p>
-   <p>또는</p>
-   <p>현재: 플랜</p></td>
+   <p>표준</p>
+   <p>플랜</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -79,7 +76,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 자세히]** 아이콘 ![](assets/more-icon.png)을 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
-1. [!UICONTROL 팀 편집] 페이지 아래쪽에서 **[!UICONTROL 작업]** 단추 섹션을 찾습니다.
+1. **[!UICONTROL 팀 편집]** 페이지 아래쪽에서 [!UICONTROL 작업] 단추 섹션을 찾습니다.
 1. **[!UICONTROL 처리 중 단추를 시작 단추로 변경하여 항목의 상태를 자동으로 업데이트]** 확인란을 선택하십시오.
 1. 각 작업 항목 유형에 대해 하나 이상의 상태를 선택합니다. 두 개 이상의 상태를 선택하면 [!UICONTROL 시작]을 클릭하면 원하는 상태를 선택할 수 있는 드롭다운 메뉴가 나타납니다.
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다. 이제 사용자에게 작업 항목이 할당되면 [!UICONTROL 작업 시작] 또는 [!UICONTROL 처리 중] 단추 대신 [!UICONTROL 문제 시작] 단추가 표시됩니다.

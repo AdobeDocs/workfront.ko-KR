@@ -7,9 +7,9 @@ description: 현재 승인 보류 중인 특정 상태의 항목만 표시할 �
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -28,28 +28,21 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-    <p>신규:</p>
-   <ul><li><p>필터를 수정하는 기여자 </p></li>
-   <li><p>보고서를 수정하는 표준</p></li> </ul>
-
-<p>현재:</p>
-   <ul><li><p>필터 수정 요청 </p></li>
-   <li><p>보고서 수정 계획</p></li> </ul></td> 
+   <p>필터 수정을 위한 기여자 또는 요청 </p>
+   <p>표준 또는 보고서 수정 계획</p>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -62,7 +55,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -74,7 +67,7 @@ ht-degree: 1%
 
    예를 들어, **계획 - 승인 보류 중** 상태인 프로젝트만 표시하려면 프로젝트 보고서에 **Status Equal Planning**&#x200B;을(를) 추가하십시오.
 1. **텍스트 모드**&#x200B;를 클릭합니다.
-1. 상태의 3자리 키에 **:A**&#x200B;을(를) 추가하여 `status` 줄을 수정합니다.
+1. 상태의 3자리 키에 `status`을(를) 추가하여 **:A** 줄을 수정합니다.
    <pre>status=PLN:A<br>status_Mod=in</pre>
 
 1. **적용** > **새 이름으로 저장**&#x200B;을 클릭합니다.

@@ -6,10 +6,10 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f8feca57e039e34c320f2b967c58c5fc0862f665
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 0%
+source-wordcount: '1430'
+ht-degree: 1%
 
 ---
 
@@ -40,21 +40,18 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td>
-   <p>새로운 기능: 기여자 이상</p>
-   <p>또는</p>
-   <p>현재: 요청 이상</p>
- </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> 
+   <p>기여자 이상</p> 
+   <p>요청 이상</p>
+   </td> 
   </tr> 
   <tr>
    <td role="rowheader">액세스 수준 구성</td>
@@ -63,7 +60,7 @@ ht-degree: 0%
   <tr>
    <td role="rowheader">개체 권한</td>
    <td><p>Workfront 작업 또는 문제에 대한 이상의 권한 보기</p>
-   <p><strong>참고:</strong> 작업 또는 문제에 대한 보기 권한이 있는 사용자는 연결된 카드에 대해 카드를 보드의 다른 열로 이동하는 등의 작업을 수행할 수 없습니다. 사용자 보기는 카드를 열어 해당 속성을 확인하고 연결된 작업 또는 문제를 열 수만 있습니다. 추가 액세스를 요청하려면 작업 또는 문제를 열고 액세스를 요청하십시오.</td>
+</td>
   </tr>
  </tbody> 
 </table>
@@ -87,7 +84,7 @@ ht-degree: 0%
    >* 사용 권한이 있는 개체만 검색 결과에서 사용할 수 있습니다. 항목이 흐리게 표시되면 보드에 이미 추가된 것입니다.
    >* **[!UICONTROL 내가 소유한 프로젝트]** 또는 **[!UICONTROL 내가 진행 중인 프로젝트]**&#x200B;별로 필터링하면 완료, 중단 또는 거부된 상태와 같은 프로젝트는 포함되지 않습니다. **[!UICONTROL 모두]** 필터를 사용하여 해당 프로젝트를 계속 검색할 수 있습니다.
 
-1. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 추가를 클릭합니다]**.
 
    ![연결할 작업 또는 문제 검색](assets/boards-tasksissues-350x94.png)
 
@@ -181,7 +178,7 @@ ht-degree: 0%
 
    왼쪽 탐색 패널을 사용하여 카드 세부 정보에서 필드의 섹션 사이를 이동합니다.
 
-1. **[!UICONTROL 닫기]**&#x200B;를 클릭하여 게시판으로 돌아갑니다.
+1. **[!UICONTROL 닫기]**를 클릭하여 게시판으로 돌아갑니다.
 카드에 연결된 객체, 담당자, 태그, 기한, 체크리스트 카운터, 예상 시간, 상태 등이 표시됩니다.
 
    ![보드에 카드 추가됨](assets/boards-connected-card-details-110922.png)
@@ -229,7 +226,7 @@ Ad Hoc 카드를 만든 후 연결된 카드로 변환할 수 있습니다. Ad H
 
 연결된 작업 또는 문제에 시간을 기록하려면 올바른 권한이 있어야 합니다.
 
-시간 로깅 필드는 기본적으로 연결된 카드에 표시되지 않습니다. [!UICONTROL 카드] 아래의 [!UICONTROL 구성] 영역에서 [!UICONTROL **시간**]&#x200B;을(를) 사용하도록 설정해야 합니다. 자세한 내용은 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)을 참조하십시오.
+시간 로깅 필드는 기본적으로 연결된 카드에 표시되지 않습니다. [!UICONTROL **카드**] 아래의 [!UICONTROL 구성] 영역에서 [!UICONTROL 시간]을(를) 사용하도록 설정해야 합니다. 자세한 내용은 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)을 참조하십시오.
 
 1. 작업 또는 문제의 시간 수를 입력합니다.
 1. 기본값과 다른 경우 드롭다운 메뉴에서 [!UICONTROL 시간 유형]을(를) 선택하십시오.

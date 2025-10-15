@@ -6,9 +6,9 @@ description: Workfront에서 열 너비 지침 및 열 너비와 순서를 변�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
@@ -38,43 +38,37 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜*</strong></td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
+   <td role="rowheader">Adobe Workfront 라이선스</strong></td> 
    <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>기여자 이상</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>요청 이상</p></li>
-         </ul>
+    <p>기여자 이상</p>
+    <p>요청 이상</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에서 보기 편집</p></td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에서 보기 편집</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>보고서에서 보기를 편집하려면 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p></td> 
+   <td role="rowheader">개체 권한</td> 
+    <td> <p>보고서에서 보기를 편집하려면 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -142,7 +136,7 @@ Workfront 목록에 대한 자세한 내용은 문서 [Adobe Workfront 목록 �
 
 ### 열 너비와 순서를 영구적으로 수정 {#modify-width-and-order-of-columns-permanently}
 
-열의 순서를 영구적으로 조정하려면 문서 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)에서 [표준 보기 만들기 또는 사용자 지정](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) 섹션을 참조하십시오.
+열의 순서를 영구적으로 조정하려면 문서 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view)에서 [표준 보기 만들기 또는 사용자 지정](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 섹션을 참조하십시오.
 
 텍스트 모드를 사용해야만 열의 너비를 영구적으로 수정할 수 있습니다.
 

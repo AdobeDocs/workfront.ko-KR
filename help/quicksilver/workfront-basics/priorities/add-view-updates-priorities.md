@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,14 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
    <td> 
-   <p>현재: 문제 <!--and documents-->에 대한 요청 이상; 다른 모든 개체에 대해 검토 이상</p>
-   <p>새로운 기능: 문제에 대한 기여자 이상 <!--and documents-->: 다른 모든 개체에 대해 가볍게 이상</p> 
+   <p>문제 및 문서에 대해 요청 이상, 기타 모든 오브젝트에 대해 검토 이상</p>
+   <p>문제 및 문서에 대한 기여자 이상: 기타 모든 오브젝트에 대해 라이트 이상</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -65,7 +63,7 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 업데이트할 작업 항목을 찾습니다.
-1. 이름을 마우스로 가리킨 다음 **새 업데이트 추가**&#x200B;를 클릭합니다.
+1. 이름을 마우스로 가리킨 다음 **새 업데이트 추가**를 클릭합니다.
    ![새 업데이트 추가](assets/add-update.png)
    <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. 댓글을 입력하세요.
@@ -89,7 +87,7 @@ ht-degree: 0%
 1. 화면 오른쪽 아래 모서리에서 **업데이트** 영역을 찾습니다.
 1. (선택 사항) **댓글** 탭을 사용하여 다른 사람이 작업 항목에 대해 수행한 업데이트를 봅니다.
 1. (선택 사항) **시스템 활동** 탭을 사용하여 작업 항목과 관련된 시스템 활동을 봅니다.
-1. (선택 사항) 댓글을 추가하려면 **댓글** 탭으로 이동하여 **새 댓글** 상자에 입력을 시작합니다. 완료되면 **제출**&#x200B;을 클릭하세요.
+1. (선택 사항) 댓글을 추가하려면 **댓글** 탭으로 이동하여 **새 댓글** 상자에 입력을 시작합니다. 완료되면 **제출**을 클릭하세요.
    ![영역 업데이트](assets/updates-area-in-overview.png)
 
 ## 댓글에 회신

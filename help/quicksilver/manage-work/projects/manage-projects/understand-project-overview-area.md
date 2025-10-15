@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-title: 프로젝트 개요 영역에서 정보 관리
-description: 프로젝트 개요 영역에서 정보 관리
+title: 프로젝트 개요 영역의 정보 관리
+description: 프로젝트 세부 정보 섹션의 개요 영역에 액세스하여 프로젝트 정보를 보거나 편집할 수 있습니다. 이 영역에서 보거나 편집할 수 있는 필드의 수는 제한되어 있습니다.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1404'
 ht-degree: 3%
 
 ---
@@ -25,35 +25,64 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront 라이센스*</p> </td> 
-   <td> <p>검토 이상</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront 라이선스</p> </td> 
+   <td><p>밝거나 높음</p> 
+   <p>검토 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트에 대한 액세스 권한 이상 보기 </p>
-
-<p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트에 대한 액세스 권한 이상 보기</p>
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 제한된 정보를 보려면 프로젝트에 대한 액세스 권한 보기</p> 
-   <p>프로젝트에 대한 정보를 편집하려면 프로젝트에 대한 액세스 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access or higher to Projects </p>
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View access to the project to view limited information about the project</p> 
+   <p>Manage access to the project to edit information about the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 개요 섹션에 액세스
 
@@ -173,7 +202,7 @@ ht-degree: 3%
    | 예상 시작 일자 기준 | 완료된 작업과 남은 작업을 기준으로 작업이 시작되는 &#39;실시간&#39; 날짜입니다. |
    | 예상 완료 일자 기준 | 완료된 작업의 진행 상황과 새로 만들기 또는 진행 중 상태인 작업의 진행 상황 업데이트를 기반으로 프로젝트를 완료하는 &#39;실시간&#39; 날짜입니다. |
    | 계획된 시간 | 프로젝트에 계획된 시간. 이 시간은 각 작업에 대한 총 계획된 시간입니다. |
-   | 실제 근로시간 | 프로젝트에 기록된 시간입니다. 이 시간은 프로젝트, 작업 또는 프로젝트의 문제에 기록된 총 시간입니다. |
+   | 실제 시간 | 프로젝트에 기록된 시간입니다. 이 시간은 프로젝트, 작업 또는 프로젝트의 문제에 기록된 총 시간입니다. |
    | 계획된 기간 | 작업의 가장 빠른 계획 시작 일자와 프로젝트에서 작업의 가장 최근 계획 완료 일자 사이의 시간대를 기준으로 프로젝트가 진행되는 시간입니다. |
    | 실제 기간 | 작업의 가장 빠른 실제 시작 일자와 프로젝트에서 작업의 가장 최근 실제 완료 일자 사이의 시간대를 기준으로 프로젝트가 실제로 진행되는 시간입니다. |
    | 입력 일자 | 프로젝트를 만든 날짜 및 시간입니다. |

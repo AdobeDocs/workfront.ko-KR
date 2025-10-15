@@ -7,9 +7,9 @@ description: Workfront에 있는 동안 Experience Manager Assets 또는 Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,23 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials와
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
-
 <table>
   <tr>
-   <td><strong>Adobe Workfront 플랜*</strong>
+   <td><strong>Adobe Workfront 패키지</strong>
    </td>
    <td>임의
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront 라이선스*</strong>
+   <td><strong>Adobe Workfront 라이선스</strong>
    </td>
-   <td>플랜
+   <td>
+   <p>표준</p>
+   <p>플랜</p>
    </td>
   </tr>
   <tr>
-   <td><strong>제품</strong>
+   <td><strong>추가 제품</strong>
    </td>
    <td>Experience Manager Assets as a Cloud Service 또는 Assets Essentials가 있어야 하며 제품에 사용자로 추가되어야 합니다.
    </td>
@@ -59,8 +59,7 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials와
   </tr>
 </table>
 
-
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -91,5 +90,5 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials와
    >
    >Workfront 관리자는 이 통합에 사용할 이름을 선택할 수 있으므로 Experience Manager Assets 또는 Assets Essentials에 대해 특별히 언급하지 않을 수 있습니다.
 
-1. **연결된 폴더 만들기**&#x200B;를 선택합니다. 시스템은 통합 설정 시 지정된 위치를 기반으로 Experience Manager에 폴더를 자동으로 생성합니다.
+1. **연결된 폴더 만들기**를 선택합니다. 시스템은 통합 설정 시 지정된 위치를 기반으로 Experience Manager에 폴더를 자동으로 생성합니다.
    ![연결된 폴더 만들기](assets/linked-folder.png)

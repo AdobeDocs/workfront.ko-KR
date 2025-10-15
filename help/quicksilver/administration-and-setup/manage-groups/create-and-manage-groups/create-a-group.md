@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1633'
 ht-degree: 3%
 
 ---
@@ -32,32 +32,27 @@ Adobe Workfront 관리자는 사용자 및 프로젝트를 구성하고 Workfron
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 플랜</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td>그룹의 그룹 관리자 또는 시스템 관리자여야 합니다.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -109,7 +104,7 @@ Adobe Workfront 관리자는 사용자 및 프로젝트를 구성하고 Workfron
       <td> <p>관리하는 그룹에 대해 한 명의 사용자를 비즈니스 리더로 할당할 수 있습니다. 비즈니스 리더는 그룹을 위해 비즈니스 결정을 내리는 사람입니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">비즈니스 리더 개요</a><span>.</span>를 참조하세요.</p> <p>아직 그룹의 구성원이 아닌 경우 이 필드에 이름을 추가하면 그룹에도 추가됩니다.</p> <p><b>참고</b>:  
         <ul> 
          <li>그룹에서 비즈니스 리더를 제거하려면 먼저 비즈니스 리더 필드에서 비즈니스 리더의 이름을 제거해야 합니다.</li> 
-         <li>비즈니스 리더 필드에서 이름을 제거할 경우, 해당 사용자에서 이름을 제거하지 않는 한 해당 사용자는 그룹의 멤버로 유지됩니다. 그룹에서 사용자를 제거하는 방법에 대한 지침은 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">그룹 관리</a> 문서의 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">그룹 구성원 관리</a> 섹션을 참조하십시오.</li> 
+         <li>비즈니스 리더 필드에서 이름을 제거할 경우, 해당 사용자에서 이름을 제거하지 않는 한 해당 사용자는 그룹의 멤버로 유지됩니다. 그룹에서 사용자를 제거하는 방법에 대한 지침은 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">그룹 관리</a> 문서의 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">그룹 구성원 관리</a> 섹션을 참조하십시오.</li> 
         </ul> </p> <p>자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">비즈니스 리더 개요</a>를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
@@ -179,7 +174,7 @@ Workfront 관리자는 기존 그룹 또는 하위 그룹을 복사하여 새 �
       <td> <p>관리하는 그룹에 대해 한 명의 사용자를 비즈니스 리더로 할당할 수 있습니다. 비즈니스 리더는 그룹을 위해 비즈니스 결정을 내리는 사람입니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">비즈니스 리더 개요</a><span>.</span>를 참조하세요.</p> <p>아직 그룹의 구성원이 아닌 경우 이 필드에 이름을 추가하면 그룹에도 추가됩니다.</p> <p><b>참고</b>:  
         <ul> 
          <li>그룹에서 비즈니스 리더를 제거하려면 먼저 비즈니스 리더 필드에서 비즈니스 리더의 이름을 제거해야 합니다.</li> 
-         <li>비즈니스 리더 필드에서 이름을 제거할 경우, 해당 사용자에서 이름을 제거하지 않는 한 해당 사용자는 그룹의 멤버로 유지됩니다. 그룹에서 사용자를 제거하는 방법에 대한 지침은 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">그룹 관리</a> 문서의 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">그룹 구성원 관리</a> 섹션을 참조하십시오.</li> 
+         <li>비즈니스 리더 필드에서 이름을 제거할 경우, 해당 사용자에서 이름을 제거하지 않는 한 해당 사용자는 그룹의 멤버로 유지됩니다. 그룹에서 사용자를 제거하는 방법에 대한 지침은 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">그룹 관리</a> 문서의 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">그룹 구성원 관리</a> 섹션을 참조하십시오.</li> 
         </ul> </p> <p>자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">비즈니스 리더 개요</a>를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 

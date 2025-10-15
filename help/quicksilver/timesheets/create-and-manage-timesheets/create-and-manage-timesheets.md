@@ -3,11 +3,11 @@ product-area: timesheets
 navigation-topic: configure-timesheet-preferences
 title: '타임시트 만들기 및 관리: 문서 인덱스'
 description: Adobe Workfront에서 타임시트를 만들고 작업 완료에 걸린 시간을 추적할 수 있습니다. 타임시트 만들기, 편집 및 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
-author: Alina
+author: Lisa
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%

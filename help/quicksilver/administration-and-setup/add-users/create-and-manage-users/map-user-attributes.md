@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
@@ -26,28 +26,26 @@ SSO(Single Sign-On)를 사용하여 ID 공급자의 Active Directory에서 Adobe
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p><p>또는</p><p>현재: 플랜</p></td> 
+   <td><p>표준</p><p>플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!UICONTROL 시스템 관리자]</td>
+   <td><p>Workfront 관리자여야 합니다.</p></td>
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -70,7 +68,7 @@ SSO(Single Sign-On)를 사용하여 ID 공급자의 Active Directory에서 Adobe
 | URL | Adobe 경험 |
 |---|---|
 | (CompanyName).my.workfront.com | 클래식 경험 |
-| experience.adobe.com | 통합 경험 Adobe |
+| experience.adobe.com | Adobe 통합 경험 |
 
 * [클래식 경험에서 사용자 속성 매핑](#map-user-attributes-in-the-classic-experience)
 * [Adobe 통합 경험의 사용자 속성 매핑](#map-user-attributes-in-the-adobe-unified-experience)
@@ -91,7 +89,7 @@ SSO(Single Sign-On)를 사용하여 ID 공급자의 Active Directory에서 Adobe
 
    주소, 관리자, 작업 역할, 홈 그룹 등의 속성을 매핑할 수 있습니다.
 
-   속성 매핑은 1:1 비율로 작동합니다. 예를 들어 사용자가 속한 모든 그룹을 설정할 수 없으며 사용자당 하나만 설정할 수 있습니다.
+   특성 매핑은 1:1 비율로 작동합니다. 예를 들어 사용자가 속한 모든 그룹을 설정할 수 없으며 사용자당 하나만 설정할 수 있습니다.
 
    >[!IMPORTANT]
    >

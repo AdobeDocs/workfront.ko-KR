@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2828'
 ht-degree: 6%
 
 ---
@@ -34,31 +34,27 @@ ht-degree: 6%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>
-   <p> 새로운 기능: 표준</p>
-   또는
-   <p>현재: 플랜</p></td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!UICONTROL 시스템 관리자]</td> 
+   <td>액세스 수준 구성</td> 
+   <td>시스템 관리자</td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -189,9 +185,9 @@ ht-degree: 6%
       <td> <p> 그룹화</p> <p>환경 설정 </p> </td> 
      </tr> 
      <tr> 
-      <td>시간</td> 
+      <td>Hour</td> 
       <td>Excel 파일로 내보내기</td> 
-      <td> <p> 시간</p> <p>환경 설정 </p> </td> 
+      <td> <p> Hour</p> <p>환경 설정 </p> </td> 
      </tr> 
      <tr> 
       <td>문제</td> 
@@ -211,9 +207,9 @@ ht-degree: 6%
      </tr>
 
    <tr> 
-      <td>참고</td> 
+      <td>메모</td> 
       <td>Excel 파일로 내보내기</td> 
-      <td> <p> 참고</p> <p>환경 설정 </p> </td> 
+      <td> <p> 메모</p> <p>환경 설정 </p> </td> 
      </tr> 
      <tr> 
       <td>포트폴리오</td> 
@@ -360,7 +356,7 @@ ht-degree: 6%
    * **setCategoryID** 열에 이 사용자 지정 필드가 있는 기존 사용자 지정 양식의 GUID를 입력하십시오. 사용자 정의 데이터를 가져올 때 이 필드가 필요합니다.
    * 사용자 지정 필드(예: 라디오 단추, 확인란 또는 목록)에 여러 데이터 값을 추가해야 하는 경우 환경 설정 탭에 나열된 세로 막대 사용자 지정 데이터 구분 기호 &quot;|&quot;를 사용하여 값을 구분하십시오.
 
-     **예:** DE:Departments 열 아래에 A|D를 입력하여 사용자 정의 양식의 부서 A 및 부서 D를 채웁니다.
+     **예:** DE:Departments 열 아래에 A|D를 입력하여 사용자 정의 양식의 부서 A와 부서 D를 채웁니다.
 
      >[!NOTE]
      >
@@ -382,7 +378,7 @@ Workfront은 시간 값도 날짜의 일부로 허용합니다.
 
 날짜에서 시간을 생략할 경우 Workfront은 다음 중 하나를 수행합니다.
 
-* 이 시간은 오전 12:00이라고 가정합니다. 예상 날짜 결과를 보려면 시스템 시간대가 사용자의 시간대와 일치해야 합니다.
+* 시간은 오전 12:00이라고 가정합니다. 예상 날짜 결과를 보려면 시스템 시간대가 사용자의 시간대와 일치해야 합니다.
 * 일정과 연관된 객체에 있는 경우 시간은 일정이 허용하는 가장 빠른 시간으로 지연됩니다.
 
 >[!NOTE]
@@ -401,7 +397,7 @@ Workfront은 시간 값도 날짜의 일부로 허용합니다.
  <thead> 
   <tr> 
    <th> <p><strong>와일드카드</strong> </p> </th> 
-   <th> <p><strong>동작</strong> </p> </th> 
+   <th> <p><strong>비헤이비어</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

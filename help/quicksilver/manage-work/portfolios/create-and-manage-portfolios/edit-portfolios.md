@@ -6,9 +6,9 @@ description: 생성한 포트폴리오나 다른 사용자가 생성한 포트�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: cfbd38d9ab8f1976f891164a2572bb929339477d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1048'
 ht-degree: 1%
 
 ---
@@ -36,22 +36,22 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
    <td> <p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] 라이선스*</td> 
-   <td> <p>새로운 기능: 표준</p>
-   <p>현재: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe [!DNL Workfront] 라이선스</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL 계획]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준</td> 
-   <td> <p>포트폴리오에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
+   <td> <p>[!UICONTROL 포트폴리오]에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
    <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p>
-   <p> 포트폴리오의 프로젝트에 대한 권한을 관리하여 포트폴리오에서 추가하거나 제거합니다.</p>  </td> 
+   <p>포트폴리오에서 프로젝트를 추가하거나 제거할 수 있는 포트폴리오의 프로젝트에 대한 [!UICONTROL 관리] 권한</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,6 +59,35 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++ 
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenses*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to a portfolio</p>
+   <p> Manage permissions to the projects in the portfolio to add or remove them from the portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## 포트폴리오 편집
 
@@ -147,7 +176,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <p>두 개 이상의 포트폴리오를 선택하면 **이름** 필드를 사용할 수 없습니다. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **설명**]</td> 
+      <td role="rowheader">[!UICONTROL**설명**]</td> 
       <td> <p>Portfolio에 대한 고유한 사항을 나타내도록 설명에 정보를 입력합니다. </p> </td> 
      </tr> 
      <tr> 
@@ -159,11 +188,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td> <p>그룹이 포트폴리오와 연결되어 있거나 그룹 완료를 위한 권한이 있는 경우 단일 그룹의 이름을 추가합니다. </p> <p>팁:  <p>[!UICONTROL Portfolio Details] 페이지에서 [!UICONTROL Group] 필드에 액세스할 때 다음을 수행합니다. </p> <p>마우스로 가리키고 그 옆에 표시되는 [!UICONTROL 정보] 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>[!UICONTROL Portfolio 편집] 상자에서는 이 옵션을 사용할 수 없습니다. </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL **Alignment Scorecard**]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL**Alignment Scorecard**]</p> </td> 
       <td> <p>드롭다운 목록에서 사용할 정렬 스코어카드를 선택합니다. 스코어카드는 프로젝트가 Portfolio의 정해진 기준에 얼마나 잘 부합하는지 측정하는 데 사용되며, 이때 조직의 임무, 값 및 전략적 목표가 반영됩니다. 자세한 내용은 <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">프로젝트에 스코어카드 적용 및 맞춤 점수 생성</a> 및 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">스코어카드 만들기</a>를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **활성 상태임**]</td> 
+      <td role="rowheader">[!UICONTROL**활성 상태임**]</td> 
       <td> <p> 포트폴리오를 활성화하려면 이 확인란을 선택하십시오. 다른 사용자는 프로젝트를 만들거나 편집할 때 활성 포트폴리오를 찾아 프로젝트에 첨부할 수 있습니다. 비활성 포트폴리오를 프로젝트에 첨부할 수 없습니다. 이 기능은 기본적으로 활성화되어 있습니다.</p> </td> 
      </tr> 
     </tbody> 

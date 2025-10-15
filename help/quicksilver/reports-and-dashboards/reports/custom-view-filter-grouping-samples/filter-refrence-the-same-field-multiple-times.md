@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "필터: 동일한 필드('AND' 문)를 참조하는 필터 규칙을 여러 개 만듭니다."
+title: '필터: 동일한 필드(''AND'' 문)를 참조하는 여러 필터 규칙을 만듭니다.'
 description: 표준 모드 인터페이스에서 동일한 필드를 참조하는 여러 필터를 만들려고 할 때(AND 한정자 사용) 보고서를 저장하고 Report Builder를 종료하면 필터 중 하나가 삭제됩니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -29,28 +29,21 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-    <p>신규:</p>
-   <ul><li><p>필터를 수정하는 기여자 </p></li>
-   <li><p>보고서를 수정하는 표준</p></li> </ul>
-
-<p>현재:</p>
-   <ul><li><p>필터 수정 요청 </p></li>
-   <li><p>보고서 수정 계획</p></li> </ul></td> 
+   <p>필터 수정을 위한 기여자 또는 요청 </p>
+   <p>표준 또는 보고서 수정 계획</p>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -63,7 +56,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

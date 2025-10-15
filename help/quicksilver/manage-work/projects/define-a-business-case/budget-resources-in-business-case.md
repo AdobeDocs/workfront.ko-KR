@@ -2,10 +2,10 @@
 navigation-topic: business-case-and-scorecards
 title: 비즈니스 사례의 예산 리소스
 description: 리소스 계획의 일부로, 비즈니스 사례를 작성할 때 프로젝트에서 작업을 완료하는 데 필요한 작업 역할의 예산을 책정할 수 있습니다. 비즈니스 사례 만들기에 대한 자세한 내용은 프로젝트에 대한 비즈니스 사례 만들기 를 참조하십시오.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

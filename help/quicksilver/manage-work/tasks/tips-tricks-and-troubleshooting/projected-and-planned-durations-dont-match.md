@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: 예상 기간이 계획된 기간과 일치하지 않음
-description: '"다음 오류 메시지가 표시됩니다. "작업/문제의 예상 기간이 0으로 변경되었으며 계획된 기간과 일치하지 않습니다."'
+description: 이 문서에서는 '작업/문제의 예상 기간이 0으로 변경되었으며 계획된 기간과 일치하지 않습니다.'라는 메시지가 표시될 수 있는 경우 Adobe Workfront에서 발생하는 문제 해결에 대해 설명합니다.
 author: Alina
 feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---

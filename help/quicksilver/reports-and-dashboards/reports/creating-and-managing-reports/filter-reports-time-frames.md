@@ -6,9 +6,9 @@ description: 오브젝트에 있는 날짜의 시간대별로 보고서를 필�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '947'
 ht-degree: 5%
 
 ---
@@ -23,25 +23,21 @@ ht-degree: 5%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-      <td> 
-      <p>새로운 기능: 표준</p>
-       <p> 또는</p>
-      <p>현재: 플랜</p>
+   <td> 
+      <p>표준</p>
+      <p>플랜</p>
    </td>
-
-</tr> 
+  </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p></td> 
@@ -73,7 +69,7 @@ ht-degree: 5%
 
 1. **필터 규칙 추가**&#x200B;를 클릭한 다음 **필드 선택**&#x200B;을 클릭합니다.
 
-1. **필드 선택** 대화 상자에서 **시간**&#x200B;을 선택한 다음 **시작 날짜**&#x200B;를 선택합니다.
+1. **필드 선택** 대화 상자에서 **시간**&#x200B;을 선택한 다음 **시작 날짜**를 선택합니다.
    ![시간대별 시간 보고서 필터링](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. 표시되는 드롭다운에서 다음 옵션 중 하나를 선택합니다.

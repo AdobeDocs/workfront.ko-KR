@@ -6,9 +6,9 @@ description: 프로젝트 및 역할 보기를 사용하여 Adobe Workfront 리�
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -35,36 +35,31 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-    <td><p>새로 만들기: 모두</p>
-       <p>또는</p>
-       <p>현재: Pro 이상</p> </td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 플랜</p></td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td> <p>리소스 플래너에서 우선순위 및 예산 시간 편집에 대한 액세스 권한이 포함된 리소스 관리에 대한 액세스 편집</p> <p>재무 데이터에 대한 액세스 권한을 편집하여 원가별 예산 리소스</p> <p>프로젝트 및 사용자에 대한 액세스 편집</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td>개체 권한</td> 
    <td> <p>정보의 예산을 책정할 프로젝트에 대한 권한 관리</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -109,7 +104,7 @@ ht-degree: 0%
 
    * 프로젝트에 대한 **자세히** 메뉴를 클릭한 다음 **예산에 따라 역할 계획된 시간 설정**&#x200B;을 클릭합니다.\
      각 역할에 대한 예산 시간은 다음 공식을 사용하여 계산됩니다.\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -158,7 +153,7 @@ ht-degree: 0%
 
 리소스 예산 책정에 필요한 액세스에 대한 자세한 내용은 문서 [Adobe Workfront의 리소스 예산 책정에 필요한 액세스](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)를 참조하십시오.
 
-역할 보기의 리소스 플래너에서 할당 예산&#x200B;**&#x200B;** 책정하려면
+역할 보기의 리소스 플래너에서 할당 예산**** 책정하려면
 
 1. Adobe Workfront 오른쪽 위 모서리에 있는 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
 
@@ -179,8 +174,8 @@ ht-degree: 0%
    * **BDG** 열에서 작업 역할에 대한 예산 시간, FTE 또는 비용을 수동으로 지정하십시오.\
      이렇게 하면 관리 액세스 권한이 있는 프로젝트에 대한 역할 예산 시간이 프로젝트 예산 시간으로 분산됩니다.
 
-   * 작업 역할에 대한 **자세히** 메뉴를 클릭한 다음 **예산에 따른 프로젝트 계획 시간 설정&rbrack;을 클릭합니다.**&#x200B;역할 예산 시간은 다음 공식을 사용하여 계산됩니다.\
-     &#x200B;*
+   * 작업 역할에 대한 **자세히** 메뉴를 클릭한 다음 **예산에 따른 프로젝트 계획 시간 설정]을 클릭합니다.**역할 예산 시간은 다음 공식을 사용하여 계산됩니다.\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

@@ -7,9 +7,9 @@ description: 기존 이니셔티브에서 프로젝트를 만들고, Adobe Workf
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -23,50 +23,87 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
-   <td> <ul></li>
-   <li><p>새로운 기능: Ultimate </p></li>
-   <p>시나리오 플래너는 새 Workfront Select 또는 Workfront Prime 플랜에 사용할 수 없습니다. </p>
-   <li><p>현재: [!UICONTROL Business] 이상</p></ul>
+   <td> <p>[!DNL Adobe Workfront] 패키지</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>메모</b></p>
+<p>다른 Workfront 패키지가 있는 경우 Workfront 담당자에게 문의하십시오.</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 라이센스*</p> </td> 
-   <td> <p>새로운 기능: 밝게 또는 높음</p> 
-   <p>현재: [!UICONTROL Review] 이상</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 라이센스</p> </td> 
+   <td> <p>[!UICONTROL Light] 이상</p> 
+   <p>[!UICONTROL Review] 이상</p> </td> 
   </tr> 
-  <tr> 
-   <td>제품* </td> 
-   <td> <ul><li><p>새로운 Workfront 플랜의 경우:</p><p> Adobe Workfront</li></p>
-   <li><p>현재 Workfront 플랜의 경우: </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront 시나리오 플래너</p></li></ul>
-
-<p>자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>액세스 수준 </td> 
+    <tr> 
+   <td>액세스 수준 구성</td> 
    <td> <p>[!DNL Scenario Planner] 및 [!UICONTROL 프로젝트]에 대한 [!UICONTROL 편집] 액세스 권한</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>개체 권한 </p> </td> 
-   <td>  <ul> 
+   <td> <ul> 
      <li>플랜에 대한 [!UICONTROL 관리] 권한 </li> 
      <li>게시된 프로젝트에 대한 [!UICONTROL 관리] 권한</li> 
-    </ul> <p>플랜에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">플랜에 대한 액세스 요청 [!DNL Scenario Planner]</a>을(를) 참조하십시오.</p> </td> 
+    </ul>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+시나리오 플래너에 액세스하는 방법에 대한 자세한 내용은 [을(를) 사용하는 데 필요한 액세스 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)를 참조하십시오.
+
+Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access for the [!DNL Scenario Planner] and [!UICONTROL Projects]</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td>  <ul> 
+     <li>[!UICONTROL Manage] permissions for the plan </li> 
+     <li>[!UICONTROL Manage] permissions for published projects</li> 
+    </ul> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 
 ## 전제 조건
 
@@ -201,11 +238,11 @@ ht-degree: 0%
 
      ![게시의 스트림 확인 업데이트](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
-   * **[!UICONTROL 프로젝트 세부 정보] 섹션**&#x200B;의 [!UICONTROL 개요] 영역: 이 영역에 연결된 이니셔티브의 정보를 포함하는 새 [!DNL Scenario Planner] 섹션이 만들어집니다.
+   * **[!UICONTROL 프로젝트 세부 정보] 섹션[!UICONTROL 의 ]개요** 영역: 이 영역에 연결된 이니셔티브의 정보를 포함하는 새 [!DNL Scenario Planner] 섹션이 만들어집니다.
 
      ![프로젝트 세부 정보에 대한 시나리오 플래너](assets/scenario-planner-on-project-details-350x135.png)
 
-     다음 이니셔티브 정보가 [!UICONTROL 프로젝트 세부 정보] 섹션의 [!DNL Scenario Planner] 영역에 게시되었습니다.
+     다음 이니셔티브 정보가 [!DNL Scenario Planner]프로젝트 세부 정보[!UICONTROL  섹션의 ] 영역에 게시되었습니다.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -229,7 +266,7 @@ ht-degree: 0%
        </tr> 
        <tr> 
         <td role="rowheader">FTE 및 시간의 <span>[!UICONTROL 이니셔티브 작업 역할]</span> </td> 
-        <td> <p>이니셔티브에 연결된 작업 역할 및 시간 할당에 대한 정보입니다. 여기에는 다음이 포함됩니다.</p> 
+        <td> <p>이니셔티브에 연결된 작업 역할 및 시간 할당에 대한 정보입니다. 여기에는 다음 항목이 포함되어 있습니다.</p> 
          <ul> 
           <li>작업 역할 이름</li> 
           <li>FTE 수</li> 
@@ -244,12 +281,12 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >프로젝트에 대한 [!UICONTROL 보기] 액세스 권한이 있는 모든 사용자는 [!UICONTROL 개요] 영역에서 [!DNL Scenario Planner] 섹션을 볼 수 있습니다. 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에 이 영역을 표시할지 여부를 제어할 수 있습니다. 사용자에게 연결된 레이아웃 템플릿이 없는 경우 기본적으로 이 영역이 표시됩니다.
+     >프로젝트에 대한 [!UICONTROL 보기] 액세스 권한이 있는 모든 사용자는 [!DNL Scenario Planner]개요[!UICONTROL  영역에서 ] 섹션을 볼 수 있습니다. 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에 이 영역을 표시할지 여부를 제어할 수 있습니다. 사용자에게 연결된 레이아웃 템플릿이 없는 경우 기본적으로 이 영역이 표시됩니다.
      >
      >   
      >   
      >   * 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에서 영역을 추가하거나 제거하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 보기 사용자 지정](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오.
-     >   * [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL 개요] 영역에서 정보를 보는 방법에 대한 자세한 내용은 프로젝트 [!UICONTROL 개요] 영역[&#128279;](../manage-work/projects/manage-projects/understand-project-overview-area.md)에서 [!UICONTROL 관리] 정보를 참조하십시오.
+     >   * [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL 개요] 영역에서 정보를 보는 방법에 대한 자세한 내용은 프로젝트 [[!UICONTROL 개요] 영역[!UICONTROL 에서 ]관리](../manage-work/projects/manage-projects/understand-project-overview-area.md) 정보를 참조하십시오.
      >   
      >
 
@@ -263,7 +300,7 @@ ht-degree: 0%
 
    * **프로젝트의 [!UICONTROL 비즈니스 사례]에 있는 [!UICONTROL 리소스 예산 편성] 영역**: [!DNL Scenario Planner] 정보를 사용하여 프로젝트 리소스를 관리하는 새로운 옵션이 프로젝트의 [!UICONTROL 비즈니스 사례]에 있는 [!UICONTROL 리소스 예산 편성] 영역에 추가되었습니다.
 
-     자세한 내용은  [!DNL Scenario Planner][&#128279;](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)을(를) 사용하여 [!UICONTROL 비즈니스 사례]의 예산 리소스를 참조하십시오.
+     자세한 내용은 [을(를) 사용하여 [!UICONTROL 비즈니스 사례]의  [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)예산 리소스를 참조하십시오.
 
      ![비즈니스 사례의 시나리오 플래너](assets/sp-in-business-case-selected-350x110.png)
 

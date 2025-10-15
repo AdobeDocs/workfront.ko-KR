@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -28,30 +28,30 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 계획</strong>
+   <td>Adobe Workfront 패키지
    </td>
-   <td> Prime 또는 Ultimate(새 계획만 해당)
+   <td> <p>Prime 또는 Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]개 라이선스</strong>
+   <td><strong>Workfront 라이선스</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>표준</p>&gt;
    </td>
   </tr>
    <tr>
    <td>액세스 수준 구성
    </td>
-   <td>[!DNL Workfront] 관리자여야 합니다.
+   <td><p>Workfront 관리자여야 합니다.</p>
    </td>
   </tr>
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
-환경 간에 개체를 비교하려면 조직이 Adobe 비즈니스 플랫폼에 있어야 합니다.
+환경 간에 개체를 비교하려면 조직이 Adobe Business Platform에 있어야 합니다.
 
 ## 개체 비교 생성
 

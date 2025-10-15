@@ -6,9 +6,9 @@ description: 업무 균형자에서 요약 패널을 열어 할당된 작업 영
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
@@ -23,26 +23,22 @@ ht-degree: 2%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> <p>임의 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 리소스 조달 영역에서 업무 균형자 사용 시 계획;</br>
-       팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p></td>
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>다음에 대한 액세스 권한 편집:</p> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>리소스 영역 내 업무 균형자 사용 시 계획, 팀 또는 프로젝트의 업무 균형자 사용 시 작업</p></td>
+  </tr>
+  <tr> 
+   <td>액세스 수준 구성</td> 
+   <td> <p>다음에 대한 액세스 권한 이상:</p> 
     <ul> 
      <li>리소스 관리</li> 
      <li>프로젝트</li> 
@@ -52,13 +48,13 @@ ht-degree: 2%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
-   <td>프로젝트, 작업 및 문제에 대한 권한 이상 기여</td> 
+   <td>개체 권한</td> 
+   <td>프로젝트, 작업 및 문제에 대한 또는 더 높은 권한 기여</td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

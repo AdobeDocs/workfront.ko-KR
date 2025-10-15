@@ -5,13 +5,13 @@ product-area: system-administration;setup
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Microsoft Exchange에서 POP 구성
 description: ' [!DNL Microsoft Exchange] 의 POP 전자 메일 계정을 사용할 수 없습니다.'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -26,39 +26,31 @@ ht-degree: 0%
 
 문제 해결에 시간을 보내기 전에 사용자의 POP 계정이 제대로 구성되어 있는지 확인하십시오. POP 계정이 올바르게 구성되어 있는지 확인한 후에도 문제가 계속 발생하면 [!DNL Microsoft] 지원 팀이나 파트너 중 한 명에게 추가 지원을 요청하십시오.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions on integrating a POP account in Adobe Workfront, see .</p>
--->
-
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td>임의</td> 
+   <td>[!DNL Adobe Workfront] 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td>
-   <p>새로운 기능: 표준</p>
-   <p>또는</p>
-   <p>현재: 플랜</p></td> 
+   <td>[!DNL Adobe Workfront] 라이센스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td>[!UICONTROL 시스템 관리자]</td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -66,7 +58,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->다음 단계는 프로덕션 [!DNL Workfront] 시스템에 대해 [!DNL Microsoft Exchange]에서 POP를 구성하기 위한 일반 안내서로 사용할 수 있습니다. 단계는 Exchange 버전이나 Microsoft에서 수행한 코드 변경 사항에 따라 크게 다를 수 있습니다.
+>다음 단계는 프로덕션 [!DNL Microsoft Exchange] 시스템에 대해 [!DNL Workfront]에서 POP를 구성하기 위한 일반 안내서로 사용할 수 있습니다. 단계는 Exchange 버전이나 Microsoft에서 수행한 코드 변경 사항에 따라 크게 다를 수 있습니다.
 
 1. Exchange 2010 서버에서 POP3 서비스를 시작하고 활성화합니다.
 
@@ -79,7 +71,7 @@ ht-degree: 0%
 
    1. **[!DNL Microsoft Exchange]POP3**&#x200B;을(를) 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 속성]**&#x200B;을 클릭합니다.
 
-   1. (조건부) POP 서비스가 자동으로 시작되도록 하려면 **[!UICONTROL 일반]** 탭에서 **[!UICONTROL 시작]** 유형을 [!UICONTROL 자동] (으)로 설정합니다.
+   1. (조건부) POP 서비스가 자동으로 시작되도록 하려면 **[!UICONTROL 일반]** 탭에서 **[!UICONTROL 시작]** 유형을 [!UICONTROL 자동]&#x200B;(으)로 설정합니다.
 
 1. 서버용 POP3를 구성합니다.
 

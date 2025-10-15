@@ -7,9 +7,9 @@ description: ' [!DNL Adobe Workfront] 보기 앱에서 검토 중인 프로젝�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 [!DNL Workfront]에서 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,25 +31,29 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Review] 이상</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
+   <td> 
+   <p>기여자 이상</p>
+   <p>검토 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## [!DNL Workfront View]의 프로젝트에 업데이트 추가
 
 1. [!UICONTROL Workfront 보기]의 홈 페이지에서 프로젝트를 탭하여 액세스하십시오.
 1. (선택 사항) 보기에 **[!UICONTROL 업데이트]** 위젯을 추가합니다.\
-   프로젝트 보기에 위젯을 추가하는 방법에 대한 자세한 내용은 [프로젝트 세부 정보] 보기에서 위젯 업데이트(../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)를 참조하십시오.
+   프로젝트 보기에 위젯을 추가하는 방법에 대한 자세한 내용은 [프로젝트 세부 정보[!UICONTROL  보기에서 위젯 업데이트]를 참조하십시오.](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
 
-1. **[!UICONTROL 업데이트]** 위젯에서 업데이트에 대한 **[!UICONTROL 업데이트]** 아이콘(오른쪽 아래) 또는 **[+]** 아이콘(조건부)을 탭합니다.\
+1. **[!UICONTROL 업데이트]** 위젯에서 업데이트에 대한 **[업데이트]** 아이콘(오른쪽 아래) 또는 **[!UICONTROL +]** 아이콘(조건부)을 탭합니다.\
    ![[!DNL workfront_view_updates_icon].png](assets/workfront-view-updates-icon-315x196.png)
 
 1. 업데이트를 입력합니다.

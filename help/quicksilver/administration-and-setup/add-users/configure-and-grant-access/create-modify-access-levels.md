@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1505'
 ht-degree: 6%
 
 ---
@@ -34,21 +34,18 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>새로운 기능: 표준
-   <p>또는</p>
-   <p>현재: 플랜</p></td> 
+   <td><p>표준</p>
+   <p>플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -66,7 +63,7 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **액세스 수준**&#x200B;을 클릭합니다.
-1. &#x200B;
+1. 
    * 프로덕션 환경에서:
 복사하고 사용자 지정할 액세스 수준을 선택한 다음 **복사**&#x200B;를 클릭합니다.
 
@@ -178,7 +175,7 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
     <tbody> 
      <tr> 
       <td role="rowheader">작업 또는 문제를 할당할 때 전체 프로젝트에 대한 액세스 권한을 부여하지 마십시오.</td> 
-      <td> 작업 또는 문제에 할당된 사용자가 상위 프로젝트에 대한 권한을 획득하지 못하도록 합니다(프로젝트 권한에서 허용하는 경우에도 마찬가지임).<p>프로젝트에 대한 권한을 구성하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">프로젝트 편집</a> 문서의 <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> 섹션을 참조하십시오.</p></td> 
+      <td> 작업 또는 문제에 할당된 사용자가 상위 프로젝트에 대한 권한을 획득하지 못하도록 합니다(프로젝트 권한에서 허용하는 경우에도 마찬가지임).<p>프로젝트에 대한 권한을 구성하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a>프로젝트 편집<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref"> 문서의 </a> 섹션을 참조하십시오.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">프로젝트, 작업, 문제 등에서 문서 액세스 권한을 상속하지 마십시오.</td> 

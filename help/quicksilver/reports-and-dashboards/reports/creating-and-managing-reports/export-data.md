@@ -6,9 +6,9 @@ description: 목록, 보고서, 대시보드 및 검색에서 Adobe Workfront �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ ht-degree: 0%
 
 데이터를 내보내는 이유 중 일부는 다음과 같습니다.
 
-* Workfront 외부의 누군가에게 데이터의 하드 카피를 제공하려고 합니다.
-* 보고서 결과를 외부 사용자 사용자에게 첨부 파일로 보내려고 합니다.
+* Workfront 외부의 사용자에게 데이터의 하드 복사본을 제공하려고 합니다.
+* 보고서 결과를 외부 사용자에게 첨부 파일로 보내려고 합니다.
 * Workfront 데이터의 외부 백업을 만들려고 합니다.
-* Workfront 웹 애플리케이션 내에서 한 페이지에 2,000개의 결과만 표시하는 제한은 있습니다. 보고서가 2,000개를 초과하는 경우 보고서를 사용 가능한 형식 중 하나로 내보내고 보고서의 모든 결과를 하나의 목록으로 볼 수 있습니다.
+* Workfront 웹 애플리케이션 내의 한 페이지에 2,000개의 결과만 표시하는 데는 제한이 있습니다. 보고서가 2,000개를 초과하는 경우 보고서를 사용 가능한 형식 중 하나로 내보내고 보고서의 모든 결과를 하나의 목록으로 볼 수 있습니다.
 
 Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고서 게재를 예약할 수 있으며 해당 보고서는 나중에 전송됩니다. 배달된 보고서 예약에 대한 자세한 내용은 [보고서 배달 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)를 참조하세요.
 
@@ -46,29 +46,20 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>
-    <p>신규:</p>
-      <ul>
-      <li>밝거나 높음</li>
-      </ul>
-    <p>현재:</p>
-      <ul>
-      <li>검토 이상</li>
-    </td> 
+   <td> 
+      <p>라이트</p>
+      <p>검토</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -81,15 +72,15 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
  </tbody> 
 </table>
 
-*자세한 내용은 Workfront 설명서[&#128279;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)에서 액세스 요구 사항을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 ## 전제 조건
 
-데이터를 내보내기 전에 보고서를 만들어야 합니다.
+데이터를 내보내려면 먼저 보고서를 만들어야 합니다.
 
-보고서 만들기에 대한 자세한 내용은 사용자 지정 보고서[&#128279;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 만들기 또는 [보고서](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) 복사본 만들기를 참조하십시오.
+보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 또는 [보고서 복사본 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)를 참조하세요.
 
 ## 내보내기 형식 및 제한
 
@@ -119,11 +110,11 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
    * Excel 파일의 경우 이 제한은 **65,000행**&#x200B;입니다.
    * Excel(.xlsx) 파일의 경우 이 제한은 **100,000개 행**&#x200B;입니다.
-   * 이러한 제한으로 인해 보고서에서 열 제목과 그룹 행은 제외됩니다. 인스턴스 예제의 경우 보고서에 6개의 그룹이 있고 50,000개의 데이터 행이 있는 경우 내보낸 파일에는 50,000개의 행이 있습니다.
+   * 이러한 제한은 열 머리글과 보고서에서 그룹화를 위한 행을 제외합니다. 예를 들어 보고서에 6개의 그룹화가 있고 50,000개의 데이터 행이 있는 경우 내보낸 파일의 행은 50,000개가 됩니다.
 
   >[!IMPORTANT]
   >
-  >열 내에 컬렉션 참조가 포함된 보고서를 내보내면 오류가 발생할 수 있으며, 보고서가 나열된 내보내기 제한 내에 있는 경우 균일 오류가 발생할 수 있습니다. 참조된 컬렉션이 너무 크면 내보내기 프로세스가 시간 초과되어 오류가 발생합니다.
+  >열 내에 컬렉션 참조가 포함된 보고서를 내보내면 나열된 내보내기 제한 내에 보고서가 있더라도 오류가 발생할 수 있습니다. 참조된 컬렉션이 너무 크면 내보내기 프로세스가 시간 초과되어 오류가 발생합니다.
   >
   >이 오류를 방지하려면 내보내기 전에 큰 컬렉션을 참조하는 열을 제외하거나 참조된 컬렉션의 크기를 줄이십시오.
 
@@ -142,13 +133,13 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
    * API 통합을 통한 내보내기.
    * 킥스타트를 통해 내보낸 데이터.
 
-     킥 스타트를 통한 데이터 내보내기에 대한 자세한 내용은 킥 스타트를 통해 Adobe Systems Workfront에서 데이터 내보내기를[&#128279;](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md) 참조하십시오.
+     킥스타트를 통해 데이터를 내보내는 방법에 대한 자세한 내용은 [킥스타트를 통해 Adobe Workfront에서 데이터 내보내기](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)를 참조하십시오.
 
      >[!NOTE]
      >
-     >데이터를 Excel 포맷 파일로만 내보낼 수 있지만 킥 스타트 파일에서 50,000개의 행을 내보낼 수 있습니다.
+     >Excel 형식 파일로만 데이터를 내보낼 수 있지만 킥스타트 파일에서 50,000개의 행을 내보낼 수 있습니다.
 
-   * 프로젝트에 대한 사용률 정보를 내보냅니다.
+   * 프로젝트에 대한 활용성 정보를 내보내는 중입니다.
 
      프로젝트의 사용률 정보를 내보내는 방법에 대한 자세한 내용은 [리소스 사용률 보고서 개요](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project)를 참조하십시오.
 
@@ -199,11 +190,11 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
    PDF 내보내기에 사용할 수 있는 옵션은 Workfront 사용자 설정의 이메일 로케일 설정에 따라 다릅니다.
 
-   * 북미 - Letter - 가로, Letter - 세로, 기타 크기
+   * 북미 - 편지 - 가로, 편지 - 세로, 기타 크기
 
-   * 북미 이외 지역의 모든 위치 - A4 - 가로, A4 - 세로, 기타 크기
+   * 북미 이외의 모든 위치 - A4 - 가로, A4 - 세로, 기타 크기
 
-1. (조건부) 사용하는 운영 체제에 따라 파일을 열거나 저장하는 옵션이 있을 수 있습니다. 연결된 애플리케이션 파일을 열거나 하드 드라이브 에 저장하십시오.
+1. (조건부) 사용하는 운영 체제에 따라 파일을 열거나 저장하는 옵션이 있을 수 있습니다. 연결된 응용 프로그램과 함께 파일을 열거나 하드 드라이브에 저장하십시오.
 1. 내보낸 파일에 정보가 표시되는 방식을 이해하려면 이 문서의 [내보낸 문서 사용](#use-the-exported-document) 섹션을 계속 읽으십시오.
 
 ### 대시보드에서 데이터 내보내기 {#export-data-from-a-dashboard}
@@ -225,11 +216,11 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
 ### 파일 이름 {#file-names}
 
-개체 목록을 내보내든 보고서를 내보내든 내보낸 파일에는 파일 이름과 제목이 있습니다. 파일 이름을 참조하여 컴퓨터에서 내보낸 파일을 찾을 수 있습니다. 보고서 제목을 통해 내보낸 파일을 공유할 때 내보낸 파일이 무엇을 나타내는지 알 수 있습니다.
+객체 목록을 내보내든 보고서를 내보내든 내보낸 파일에는 파일 이름과 제목이 있습니다. 파일 이름을 참조하여 컴퓨터에서 내보낸 파일을 찾을 수 있습니다. 보고서의 제목은 내보낸 파일을 사용자와 공유할 때 사용자가 나타내는 내용을 보여줍니다.
 
 #### 내보낸 목록의 파일 이름 {#file-names-for-exported-lists}
 
-개체 목록을 내보내면 내보낸 파일의 파일 이름과 목록 제목에 개체 유형이 표시됩니다.
+객체 목록을 내보내면 객체 유형이 내보낸 파일에 파일 이름과 목록 제목으로 표시됩니다.
 
 작업 또는 문제 목록을 내보낼 때 **파일 이름**&#x200B;은(는) 다음 중 하나가 될 수 있습니다.
 
@@ -291,7 +282,7 @@ PDF 파일로 내보낸 보고서에는 제목이 있습니다.
 
 타임스탬프에는 다음이 포함됩니다.
 
-* 일자
+* Date
 * 시간
 * 항목을 내보낼 시간대
 
@@ -341,4 +332,4 @@ Workfront 관리자가 전역 탐색 막대에 대한 Workfront 인스턴스에 
 
 다른 형식으로 내보낸 데이터는 로고로 개인화할 수 없습니다.
 
-Workfront 인스턴스 및 전역 탐색 막대 브랜딩에 대한 자세한 내용은 Adobe Systems Workfront 인스턴스[&#128279;](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md) 브랜딩을 참조하십시오.
+Workfront 인스턴스 및 전역 탐색 표시줄을 브랜딩하는 방법에 대한 자세한 내용은 [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)을 참조하십시오.

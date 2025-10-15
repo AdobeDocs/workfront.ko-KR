@@ -6,10 +6,11 @@ title: 템플릿 작업 삭제
 description: 템플릿 작업이 더 이상 필요하지 않으면 삭제할 수 있습니다. 삭제된 템플릿 작업은 복구할 수 없습니다. 템플릿 작업에서 생성된 프로젝트 작업은 삭제되거나 수정되지 않습니다.
 author: Alina
 feature: Work Management
-source-git-commit: bbf2d987bf3267117ab61b123141dd2cb2f82fc3
+exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 3%
+source-wordcount: '275'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다. 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +36,12 @@ ht-degree: 3%
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td> <p>표준 </p>
-   <p>플랜 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
+   <td> <p>표준</p>
+   <p>플랜</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>액세스 수준</p></td> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
    <td> <p>템플릿에 대한 액세스 편집</p>  </td> 
   </tr> 
   <tr> 
@@ -50,9 +51,35 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level</p></td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p> </td> 
+   <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 템플릿 작업 삭제
 
@@ -76,7 +103,3 @@ ht-degree: 3%
 >템플릿 작업의 왼쪽 패널에서 전임 작업 또는 하위 작업 섹션을 클릭하여 전임 작업 또는 하위 작업을 삭제할 수 있습니다.
 >
 >템플릿 작업 전임 작업 또는 하위 작업을 삭제하려면 위의 단계를 반복합니다.
-
-
-
-

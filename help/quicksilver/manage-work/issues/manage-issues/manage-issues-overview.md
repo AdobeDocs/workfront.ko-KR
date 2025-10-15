@@ -2,20 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: 문제 관리
-description: 다음 문서에는 문제 관리에 대한 정보가 포함되어 있습니다.
+title: '문제 관리: 문서 색인'
+description: 프로젝트를 작업하는 동안 예기치 않은 이벤트가 발생할 수 있습니다. 이러한 예기치 않은 이벤트를 특정 프로젝트 또는 작업에 대한 문제로 기록할 수 있습니다. 다음 문서에는 문제 관리에 대한 정보가 포함되어 있습니다.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-# 문제 관리
+# 문제 관리: 문서 색인
+
+<!--Audited: 08/2025-->
+
+프로젝트를 작업하는 동안 예기치 않은 이벤트가 발생할 수 있습니다. 이러한 예기치 않은 이벤트를 특정 프로젝트 또는 작업에 대한 문제로 기록할 수 있습니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

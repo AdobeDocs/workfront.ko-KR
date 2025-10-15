@@ -6,9 +6,9 @@ description: '[!UICONTROL 내 업데이트] 영역을 사용하여 결정을 기
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -33,21 +33,18 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>새로운 기능: 기여자 이상</p>
-   또는   
-   <p>현재: [!UICONTROL Request] 이상</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
+   <td> <p>기여자 이상</p>
+   <p>요청 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
@@ -60,7 +57,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -68,7 +65,7 @@ ht-degree: 0%
 
 시작하기 전에 다음을 수행해야 합니다.
 
-* [!UICONTROL 검토] 이외의 [!DNL Workfront] 라이선스가 있는 경우 [!DNL Workfront] 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 [!UICONTROL 내 업데이트] 영역을 [!UICONTROL 메인 메뉴]에 추가하고 해당 템플릿에 사용자를 할당해야 합니다.
+* [!DNL Workfront]검토[!UICONTROL  이외의 ] 라이선스가 있는 경우 [!DNL Workfront] 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 [!UICONTROL 내 업데이트] 영역을 [!UICONTROL 메인 메뉴]에 추가하고 해당 템플릿에 사용자를 할당해야 합니다.
 
 * Review-license 사용자는 기본적으로 [!UICONTROL 기본 메뉴]에서 [!UICONTROL 내 업데이트] 영역을 볼 수 있습니다.
 
@@ -90,7 +87,7 @@ ht-degree: 0%
 
    ![내 업데이트에 대한 페이지 매김](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (선택 사항) **[!UICONTROL 내 업데이트]** 섹션의 오른쪽 위 모서리에 있는 **[!UICONTROL 필터]** 드롭다운 메뉴 ![필터 아이콘](assets/filter-nwepng.png)을 확장하고 다음 중에서 선택합니다.
+1. (선택 사항) **[!UICONTROL 내 업데이트]** 섹션의 오른쪽 위 모서리에 있는 ![필터](assets/filter-nwepng.png) 드롭다운 메뉴 **[!UICONTROL 필터 아이콘]**&#x200B;을 확장하고 다음 중에서 선택합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +112,7 @@ ht-degree: 0%
 
 1. 승인하기 전에 항목을 승인 또는 거부하거나 문서에 대한 변경 사항을 제안하려면 다음을 수행합니다.
 
-   1. (선택 사항) 승인 결정(**[!UICONTROL 승인]**, **[!UICONTROL 변경]**,**[!UICONTROL 거부]**) 옆의 **드롭다운** 아이콘 ![드롭다운 아이콘](assets/down-arrow-blue.png)을 클릭하고 댓글을 추가한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+   1. (선택 사항) 승인 결정(**승인**, ![변경](assets/down-arrow-blue.png),**[!UICONTROL 거부]**) 옆의 **[!UICONTROL 드롭다운]** 아이콘 **[!UICONTROL 드롭다운 아이콘]**&#x200B;을 클릭하고 댓글을 추가한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
       또는
 

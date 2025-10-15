@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront] 기회 및 계정의  [!DNL Salesforce], y
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 0%
+source-wordcount: '624'
+ht-degree: 1%
 
 ---
 
@@ -21,32 +21,35 @@ ht-degree: 0%
 >
 >조직의 Salesforce 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Salesforce용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Salesforce 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)을 참조하십시오.
+>Salesforce용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Salesforce 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)을 참조하십시오.
 
 [!DNL Adobe Workfront for Salesforce]을(를) 설치한 후 [!DNL Workfront]개의 영업 기회 및 계정에서 [!DNL Salesforce]개의 요청을 제출할 수 있습니다. 이 기능은 [!DNL Classic] 및 [!DNL Lightning Experience] 프레임워크 모두에 있습니다.
 
 ## 액세스 요구 사항
 
-이 문서에 설명된 기능을 사용하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>[!DNL Adobe Workfront] 플랜*</p></td> 
-   <td> <p>[!UICONTROL Pro] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>[!DNL Adobe Workfront] 라이센스*</p></td> 
-   <td> <p>[!UICONTROL 계획]</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p>
+   <p>플랜</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -55,7 +58,7 @@ ht-degree: 0%
 * [!DNL Workfront] 관리자가 [!DNL Workfront for Salesforce]을(를) 설치했습니다.\
    [!DNL Workfront for Salesforce] 설치에 대한 자세한 내용은 [설치 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)를 참조하십시오
 
-* [!DNL Workfront] 관리자가 [!DNL Workfront]기회[!UICONTROL &#x200B; 및 &#x200B;]계정[!UICONTROL &#x200B; 페이지 레이아웃에 &#x200B;] 섹션을 추가했습니다.\
+* [!DNL Workfront] 관리자가 [!DNL Workfront]기회[!UICONTROL  및 ]계정[!UICONTROL  페이지 레이아웃에 ] 섹션을 추가했습니다.\
    페이지 레이아웃에 [!DNL Workfront] 섹션을 추가하는 방법에 대한 자세한 내용은 [사용자를 위한  [!DNL Adobe Workfront] 섹션 구성 [!DNL Salesforce] 을 참조하십시오](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 * [!DNL Workfront] 계정이 있으며 Opportunity 또는 Account 내의 [!DNL Workfront] 섹션에서 로그인할 수 있습니다.\
@@ -79,7 +82,7 @@ ht-degree: 0%
 
    [만들기 및 제출 [!DNL Adobe Workfront] 요청](../../manage-work/requests/create-requests/create-submit-requests.md)에 설명된 단계를 계속 수행합니다.
 
-1. **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 제출을 클릭합니다]**.
 
 ## [!DNL Workfront]개 요청 보기
 

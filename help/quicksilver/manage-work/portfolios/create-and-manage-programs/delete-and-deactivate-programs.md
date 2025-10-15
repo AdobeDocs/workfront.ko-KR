@@ -5,7 +5,7 @@ title: 프로그램 삭제 및 비활성화
 description: 프로그램은 프로젝트 경계를 초월하는 공통 전략, 목표 또는 목표를 공유하는 프로젝트 컬렉션을 나타냅니다. 프로그램은 포트폴리오의 하위 구분이며 포트폴리오 외부에 존재할 수 없습니다. 일반적으로 프로그램은 동일한 포트폴리오 내의 다른 프로그램과 동일한 리소스를 공유합니다. 프로그램이 관련이 없게 되면 삭제하거나 비활성화할 수 있습니다.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td>
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td>
 
 <td> <p>임의</p> </td> 
   </tr> 

@@ -2,15 +2,15 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "프로젝트 관리: 문서 색인"
+title: '프로젝트 관리: 문서 색인'
 description: 다음 문서에서 프로젝트 관리에 대한 정보를 알아보십시오.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 1%
 
 ---
@@ -38,5 +38,5 @@ ht-degree: 1%
 * [프로젝트 팀원과 통신](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
 * [애자일 보기에서 프로젝트 관리](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [프로젝트 제한 개요](../../../manage-work/projects/manage-projects/project-maximums.md)
-* [프로젝트 지표 개요](../../../manage-work/projects/manage-projects/project-metrics.md)
+* [프로젝트 지표 이해](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [AI Assistant를 사용하여 업데이트 요약](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

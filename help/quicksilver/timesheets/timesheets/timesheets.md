@@ -2,13 +2,13 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "타임시트 세부 정보: 문서 인덱스"
+title: '타임시트 세부 정보: 문서 색인'
 description: 다음 문서에서 타임시트 및 해당 레이아웃에 대해 자세히 알아보십시오.
-author: Alina
+author: Lisa
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 59ddd607-5e99-43b4-aea5-c6cb0d6aa13d
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '30'
 ht-degree: 6%

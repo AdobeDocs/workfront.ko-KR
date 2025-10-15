@@ -1,19 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: portfolios-overview
-title: 포트폴리오 내에서 탐색
+title: Portfolio 내에서 탐색
 description: 포트폴리오 내에서 탐색
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
 # 포트폴리오 내에서 탐색
+
+<!--Audited: 08/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article will need to be further revised and maybe merged into Understanding Portfolios?! (other?!).)</p>
@@ -21,31 +23,29 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront]에서 포트폴리오는 동일한 리소스, 예산, 일정 및 우선 순위에 대해 경쟁하는 프로젝트 컬렉션을 나타냅니다. 포트폴리오의 주요 목적은 경영진과 프로젝트 관리자가 조직에 가장 많은 혜택을 제공하는 프로젝트를 선택하도록 지원하는 것입니다.
 
-포트폴리오에 대한 자세한 내용은 [Portfolio 개요 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)를 참조하십시오.
+포트폴리오에 대한 자세한 내용은 [포트폴리오 방법 이해](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td> <p>임의 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard] </p>
-   <p>현재: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>[!UICONTROL Standard] </p>
+   <p>[!UICONTROL 계획] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>프로젝트 및 포트폴리오에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
+   <td> <p>[!UICONTROL 프로젝트] 및 [!UICONTROL 포트폴리오]에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -58,14 +58,42 @@ ht-degree: 0%
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>View or higher permissions to the projects</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+
 ## 포트폴리오 내에서 탐색
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭합니다.
+1. **[!UICONTROL 의 오른쪽 위 모서리에 있는]**&#x200B;주 메뉴![ 아이콘 ](assets/main-menu-icon.png)주 메뉴[!DNL Adobe Workfront]을 클릭합니다.
 
 1. [!UICONTROL 포트폴리오]를 클릭합니다.
 1. **[!UICONTROL 필터]** 드롭다운 메뉴에서 다음을 선택합니다.
 
-   * **[!UICONTROL 내가 소유한 포트폴리오]**: [!UICONTROL Portfolio 관리자] (으)로 지정된 포트폴리오 목록을 포함합니다.
+   * **[!UICONTROL 내가 소유한 포트폴리오]**: [!UICONTROL Portfolio 관리자]&#x200B;(으)로 지정된 포트폴리오 목록을 포함합니다.
    * **[!UICONTROL 모두]**: 적어도 볼 수 있는 액세스 권한이 있는 모든 포트폴리오를 포함합니다.
 
      포트폴리오 액세스에 대한 자세한 내용은 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하세요.
@@ -78,7 +106,7 @@ ht-degree: 0%
 
    * 포트폴리오가 [!UICONTROL 정시]인지 여부
    * 포트폴리오가 [!UICONTROL 예산에 있음]인지 여부
-   * [!UICONTROL 투자 수익률] (ROI)
+   * [!UICONTROL 투자 수익률]&#x200B;(ROI)
    * 포트폴리오 [!UICONTROL 정렬]
    * 포트폴리오 [!UICONTROL 순 가치]
 
@@ -102,7 +130,7 @@ ht-degree: 0%
      필터 만들기에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
 
-1. 왼쪽 패널의 **[!UICONTROL 프로그램]**&#x200B;을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
+1. 왼쪽 패널의 **[!UICONTROL 프로그램]**을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
 프로그램에 대한 자세한 내용은 [프로그램 만들기 및 관리](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) 섹션을 참조하십시오.
 
 1. (선택 사항) 왼쪽 패널에서 **[!UICONTROL Portfolio 세부 정보]** 영역을 확장한 다음 **[!UICONTROL 개요]** 또는 **[!UICONTROL 사용자 지정 Forms]**&#x200B;를 클릭하여 포트폴리오에 대한 정보를 편집합니다.
@@ -113,9 +141,12 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL Portfolio Optimizer]에 액세스하려면 회사에 [!UICONTROL 비즈니스] 또는 [!DNL Workfront] 이상의 플랜이 있어야 합니다.
+   >[!UICONTROL Portfolio Optimizer]에 액세스하려면 회사에 다음 패키지가 있어야 합니다.
+   >
+   >[!UICONTROL Prime] 이상 [!DNL Workfront]\
+   >[!UICONTROL 비즈니스] 이상 [!DNL Workfront]
 
-   Portfolio Optimizer 사용에 대한 자세한 내용은 [Portfolio Optimizer에서 프로젝트 관리](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) 섹션을 참조하십시오.
+   Portfolio Optimizer 사용에 대한 자세한 내용은 [Portfolio Optimizer에서 프로젝트 관리: 문서 색인](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) 섹션을 참조하십시오.
 
 1. (선택 사항) 포트폴리오에 문서를 첨부하려면 왼쪽 패널에서 **문서**&#x200B;를 클릭합니다.
 1. (선택 사항) 포트폴리오의 업데이트 스트림에 설명을 추가하려면 왼쪽 패널에서 **[!UICONTROL 업데이트]**&#x200B;를 클릭합니다. 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.

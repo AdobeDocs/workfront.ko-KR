@@ -2,13 +2,13 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: "작업 기간 및 기간 유형: 문서 색인"
+title: '작업 기간 및 기간 유형: 문서 색인'
 description: 작업의 기간 유형은 작업에 할당된 리소스 수, 총 작업량 및 작업의 총 기간 간의 관계를 식별합니다. 다음 문서에서 작업 기간 및 기간 유형에 대해 알아봅니다.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%

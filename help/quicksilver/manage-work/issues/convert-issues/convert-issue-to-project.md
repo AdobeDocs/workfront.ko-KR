@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Adobe Workfront에서 문제를 프로젝트로 전환
-description: Adobe Workfront에서 문제를 프로젝트로 전환
+title: 문제를 프로젝트로 전환
+description: 문제가 제출된 후 문제를 완료하기 위해 추가 작업을 수행해야 하는 경우, Adobe Workfront에서 문제를 프로젝트로 전환할 수 있습니다.
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2009'
 ht-degree: 1%
 
 ---
 
-# Adobe Workfront에서 문제를 프로젝트로 전환
+# 문제를 프로젝트로 전환
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 문제가 제출된 후 문제를 완료하기 위해 추가 작업을 수행해야 하는 경우 문제를 프로젝트로 전환할 수 있습니다.
 
-문제를 새 프로젝트로 전환하거나 템플릿을 사용하여 프로젝트로 전환할 수 있습니다. 이 문서에서는 문제를 프로젝트로 변환하는 두 가지 방법에 대해 설명합니다.
+프로젝트 템플릿을 사용하지 않고 를 사용하여 문제를 프로젝트로 전환할 수 있습니다. 이 문서에서는 문제를 프로젝트로 변환하는 두 가지 방법에 대해 설명합니다.
 
 >[!IMPORTANT]
 >
@@ -31,29 +31,27 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td>
-   <p>새로운 기능: 표준 </p> 
-    <p>현재: 플랜 </p> </td> 
+   <p>표준</p> 
+    <p>플랜</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>문제, 작업 및 프로젝트에 대한 액세스 편집</p> <p>재무 데이터에 대한 액세스를 편집하여 문제에서 전환된 예상 재무 정보를 업데이트합니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제에 대한 권한 보기</p> <p>문제가 전환된 후 프로젝트에 대한 관리 권한을 받습니다.</p> </td> 
+   <td> <p>문제에 대한 권한 보기</p> <p>문제를 전환하면 프로젝트에 대한 관리 권한을 받습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,6 +59,34 @@ ht-degree: 1%
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard </p> 
+    <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues, Tasks, and Projects</p> <p>Edit access to Financial Data to update financial information for a projected converted from the issue</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> <p>You obtain Manage permissions to the project after the issue is converted</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## 고려 사항
 

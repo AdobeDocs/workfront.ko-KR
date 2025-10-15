@@ -6,9 +6,9 @@ description: 작업 및 문제는 팀이 사용 중인 애자일 방법론에 �
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,18 +37,17 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard]</p> 
-   또는
-   <p>현재: [!UICONTROL Work] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p> 
+   <p>작업 이상</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>스토리가 있는 프로젝트에 대한 [!UICONTROL 관리] 액세스 권한 </td> 
+   <td>스토리가 있는 프로젝트에 대한 액세스 관리 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +91,7 @@ ht-degree: 0%
 스토리를 분류하려면:
 
 1. 분류할 스토리가 포함된 백로그로 이동합니다.
-1. 분류할 스토리를 선택한 다음 **[!UICONTROL 스토리 분류]**&#x200B;를 클릭합니다.
+1. 분류할 스토리를 선택한 다음 **[!UICONTROL 스토리 분류]**를 클릭합니다.
 [!UICONTROL 분석 스토리] 대화 상자가 표시됩니다.
    ![분석 스토리 대화 상자](assets/backlog-breakdown-dialog.png)
 
@@ -104,7 +101,7 @@ ht-degree: 0%
 
 ### 스토리 편집 {#edit-stories}
 
-[작업 편집](../../manage-work/tasks/manage-tasks/edit-tasks.md) 및 [문제 편집](../../manage-work/issues/manage-issues/edit-issues.md)의 [일괄 작업 편집](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) 및 일괄 작업 편집에 설명된 대로 프로젝트 내의 모든 작업 또는 문제를 일괄적으로 편집할 수 있으므로 백로그의 [!UICONTROL 스토리] 또는 [!UICONTROL 문제] 탭에서 직접 스토리를 편집할 수 있습니다.
+[!UICONTROL 작업 편집] 및 [!UICONTROL 문제 편집]의 [일괄 작업 편집](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) 및 일괄 작업 편집에 설명된 대로 프로젝트 내의 모든 작업 또는 문제를 일괄적으로 편집할 수 있으므로 백로그의 [스토리](../../manage-work/tasks/manage-tasks/edit-tasks.md) 또는 [문제](../../manage-work/issues/manage-issues/edit-issues.md) 탭에서 직접 스토리를 편집할 수 있습니다.
 
 ## 백로그에 새 스토리 만들기 {#create-new-stories-on-the-backlog}
 
@@ -184,7 +181,7 @@ ht-degree: 0%
 1. (선택 사항) 기존 피할당자를 삭제합니다.
 1. **[!UICONTROL 피할당자 추가]**&#x200B;를 클릭합니다.
 1. 작업 또는 문제에 할당할 애자일 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 팀 이름을 클릭합니다.
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
 이제 작업 또는 문제를 팀 백로그에서 사용할 수 있습니다.
 
 ## 백로그 내부 또는 외부로 스토리 이동
@@ -196,7 +193,7 @@ ht-degree: 0%
 ### 백로그에서 반복 또는 보드로 스토리 이동
 
 1. 애자일 팀의 백로그로 이동합니다.
-1. 반복 또는 칸반 보드로 이동할 스토리를 선택한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 다음으로 이동]**&#x200B;을 클릭합니다.
+1. 반복 또는 칸반 보드로 이동할 스토리를 선택한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 다음으로 이동]**을 클릭합니다.
 스토리를 [!UICONTROL Kanban] 보드로 이동하면 [!UICONTROL Kanban] 보드로 스토리 이동 보드가 표시됩니다.
 스토리를 반복으로 이동하면 [!UICONTROL 스토리를 반복으로 이동] 대화 상자가 표시됩니다.
    ![스토리 이동 대화 상자](assets/agile-backlog-addtoiteration.png)
@@ -219,4 +216,4 @@ ht-degree: 0%
 
 백로그에서 직접 하나 이상의 스토리(작업 및 문제 포함)를 내보낼 수 있습니다.
 
-[데이터 내보내기](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)에 설명된 대로 [!DNL Workfront]의 다른 데이터를 내보내는 것과 같은 방식으로 백로그에서 스토리를 내보냅니다.
+[!DNL Workfront]데이터 내보내기[에 설명된 대로 ](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)의 다른 데이터를 내보내는 것과 같은 방식으로 백로그에서 스토리를 내보냅니다.

@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: 비즈니스 사례 승인
 description: 프로젝트 요청에 대한 비즈니스 사례를 완료하고 제출한 후 비즈니스 사례를 승인해야 합니다. 이는 조직의 워크플로에 따라 다릅니다. 비즈니스 사례를 승인하지 않아도 프로젝트를 시작할 수 있지만, Adobe Workfront 관리자 및 프로젝트 소유자는 그렇게 하는 것이 이상적이라고 생각하지 않을 수 있습니다.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-   <p>현재: Prime 이상</p>
-   <p>또는</p>
-   <p>레거시: 비즈니스 이상</p> 
+   <p>Prime 이상</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>현재: 표준 </p> 
-   <p>레거시: 플랜 </p> </td> 
+   <p>표준 </p> 
+   <p>플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -53,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

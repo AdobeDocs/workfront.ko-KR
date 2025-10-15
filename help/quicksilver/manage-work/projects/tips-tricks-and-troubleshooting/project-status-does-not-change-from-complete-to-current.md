@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: 프로젝트 상태가 완료에서 현재로 변경되지 않음
-description: (FAQ로 추가할 수 있지만 검색 기능을 위해 이 문서를 자체 문서로 남겼습니다.)
+description: 이 문서에서는 프로젝트 상태를 완료에서 현재로 업데이트할 수 없는 시나리오에 대해 설명합니다.
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---

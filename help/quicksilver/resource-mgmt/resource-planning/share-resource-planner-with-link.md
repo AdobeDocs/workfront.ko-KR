@@ -6,10 +6,10 @@ description: Adobe Workfront은 대시보드에 외부 페이지로 포함할 �
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 1%
 
 ---
 
@@ -23,36 +23,32 @@ Adobe Workfront은 대시보드에 외부 페이지로 포함할 수 있는 리�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-    <td><p>새로 만들기: 모두</p>
-       <p>또는</p>
-       <p>현재: Pro 이상</p> </td> 
+  <tr> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 플랜</p></td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td> <p>리소스 관리, 프로젝트 및 사용자에 대한 보기 이상의 액세스 권한</p> <p>재무 데이터에 대한 액세스를 보고 비용 정보를 봅니다.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td>개체 권한</td> 
    <td> <p>리소스 플래너에 표시할 프로젝트에 대한 이상의 권한 보기</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -75,7 +71,7 @@ Adobe Workfront은 대시보드에 외부 페이지로 포함할 수 있는 리�
 1. (선택 사항) 리소스 플래너에서 정보를 확인할 기간을 선택합니다. 다음 중에서 선택합니다.
 
    * 주
-   * 월
+   * Month
    * 분기
 
 1. (선택 사항) **FTE** 또는 **시간**&#x200B;을(를) 기준으로 정보를 볼지 여부를 선택합니다.\

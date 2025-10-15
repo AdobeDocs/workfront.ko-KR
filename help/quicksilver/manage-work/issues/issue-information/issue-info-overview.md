@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: 문제 정보
+title: '문제 정보: 문서 색인'
 description: 문제는 프로젝트에 대한 예기치 않은 또는 계획되지 않은 작업을 나타내는 작업 항목입니다. 다음 문서에는 문제에 대한 정보가 포함되어 있습니다.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 95ea93d7-6cc3-4aaa-a8f7-8a59dda6b5f1
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
-# 문제 정보
+# 문제 정보: 문서 색인
+
+<!--Audited: 08/2025-->
 
 프로젝트를 작업하는 동안 예기치 않은 이벤트가 발생할 수 있습니다. 이러한 예기치 않은 이벤트를 특정 프로젝트 또는 작업에 대한 문제로 기록할 수 있습니다.
 

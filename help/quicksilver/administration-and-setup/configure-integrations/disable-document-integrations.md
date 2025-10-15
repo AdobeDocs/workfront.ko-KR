@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 1%
+source-wordcount: '276'
+ht-degree: 2%
 
 ---
 
@@ -25,30 +25,30 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td>임의</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td>[!UICONTROL 계획]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>[!DNL Workfront] 관리자여야 합니다. [!DNL Workfront] 관리자에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리자 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront 패키지
+   </td>
+   <td> <p>Prime 또는 Ultimate</p>
+    <p>워크플로 얼티밋</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront 라이선스
+   </td>
+   <td><p>표준</p>
+   <p>플랜</p>
+   </td>
+  </tr>
+   <tr>
+   <td>액세스 수준 구성
+   </td>
+   <td>[!DNL Workfront] 관리자여야 합니다.
+   </td>
+  </tr>
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
-
-+++
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 클라우드 공급자 통합 비활성화
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 1. **[!UICONTROL 문서]**&#x200B;를 확장한 다음 **[!UICONTROL [!DNL SharePoint]통합]**&#x200B;을 클릭합니다.
 1. 비활성화할 [!DNL SharePoint] 통합을 선택하십시오.
 1. **[!UICONTROL 사용 안 함]**&#x200B;을 클릭합니다.\
-   사용자가 사용하지 않도록 설정한 [!DNL SharePoint] 사이트에 연결할 수 없으며 [!DNL SharePoint]에서 [!DNL Workfront] (으)로 문서를 더 이상 연결할 수 없습니다.
+   사용자가 사용하지 않도록 설정한 [!DNL SharePoint] 사이트에 연결할 수 없으며 [!DNL SharePoint]에서 [!DNL Workfront]&#x200B;(으)로 문서를 더 이상 연결할 수 없습니다.
 
 ## 사용자 정의 통합 비활성화
 

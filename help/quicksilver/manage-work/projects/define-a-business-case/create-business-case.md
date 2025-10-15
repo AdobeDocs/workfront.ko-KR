@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: 프로젝트에 대한 비즈니스 사례 만들기
 description: 비즈니스 사례를 사용하여 프로젝트를 요청하고 프로젝트의 목적, 예산 및 잠재적 혜택을 정의할 수 있습니다. Portfolio 관리자 또는 프로젝트 스폰서는 비즈니스 사례의 정보를 사용하여 프로젝트를 승인하기 전에 분석하고 우선 순위를 지정합니다.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 플랜</p></td> 
    <td> 
-   <p>현재: Prime 이상</p> 
-   <p>레거시: Pro 이상</p> 
+   <p>Prime 이상</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td> 
-   <p>현재: 표준 </p> 
-   <p>레거시: 플랜 </p> </td> 
+   <p>표준 </p> 
+   <p>플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
@@ -50,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -88,15 +87,15 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **비즈니스 사례**&#x200B;를 클릭합니다.
 1. (선택 사항) **프로젝트 정보** 섹션을 편집하려면 **프로젝트 정보 편집**&#x200B;을 클릭합니다. 
 
-   **프로젝트 정보** 섹션 필드 편집에 대한 자세한 내용은 [비즈니스 사례 영역 개요](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) 문서의 [프로젝트 정보](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) 섹션을 참조하십시오.
+   **프로젝트 정보** 섹션 필드 편집에 대한 자세한 내용은 [비즈니스 사례 영역 개요](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) 문서의 [프로젝트 정보](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) 섹션을 참조하십시오.
 
 1. (선택 사항) **목표** 섹션을 편집하려면 **목표 편집**&#x200B;을 클릭하세요.
 
-   비즈니스 사례의 **목표** 섹션 편집에 대한 자세한 내용은 [비즈니스 사례 영역 개요](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) 문서의 [목표](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) 섹션을 참조하십시오.
+   비즈니스 사례의 **목표** 섹션 편집에 대한 자세한 내용은 [비즈니스 사례 영역 개요](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) 문서의 [목표](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) 섹션을 참조하십시오.
 
 1. (선택 사항) **경비** 섹션을 편집하려면 **경비 편집**&#x200B;을 클릭하세요.
 
-   비즈니스 사례의 **경비** 섹션 편집에 대한 자세한 내용은 [비즈니스 사례 영역 개요](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) 문서의 [경비](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) 섹션을 참조하십시오.
+   비즈니스 사례의 **경비** 섹션 편집에 대한 자세한 내용은 [비즈니스 사례 영역 개요](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) 문서의 [경비](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) 섹션을 참조하십시오.
 
 1. (선택 사항) **리소스 예산 편성 편집**&#x200B;을 클릭하여 리소스의 예산을 책정하고 프로젝트의 작업 역할과 관련된 예산 인건비를 구합니다. 자세한 내용은 [비즈니스 사례의 리소스 예산](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)을 참조하세요.
 
@@ -104,7 +103,7 @@ ht-degree: 0%
    >
    >여기에 표시되는 정보는 시스템 레벨 리소스 예산 책정 도구에 표시되는 정보와 동일합니다.
 
-1. (선택 사항) **위험 편집**&#x200B;을 클릭하여 이 프로젝트에 잠재적인 위험을 추가합니다. 비즈니스 사례에 위험을 추가하는 방법에 대한 자세한 내용은 문서 [비즈니스 사례 영역 개요](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)의 [위험](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks) 섹션을 참조하십시오.
+1. (선택 사항) **위험 편집**&#x200B;을 클릭하여 이 프로젝트에 잠재적인 위험을 추가합니다. 비즈니스 사례에 위험을 추가하는 방법에 대한 자세한 내용은 문서 [비즈니스 사례 영역 개요](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)의 [위험](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) 섹션을 참조하십시오.
 1. (선택 사항) **이 프로젝트에 스코어카드 추가** 드롭다운 메뉴에서 **스코어카드**&#x200B;를 선택합니다.
 
    스코어카드를 프로젝트에 첨부하려면 먼저 만들어야 합니다.

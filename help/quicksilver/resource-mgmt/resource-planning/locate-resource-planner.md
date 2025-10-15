@@ -6,9 +6,9 @@ description: 리소스 플래너를 사용하여 프로젝트에 대한 리소�
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -25,38 +25,31 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>새로 만들기: 모두</p>
-       <p>또는</p>
-       <p>현재: Pro 이상</p> </td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 밝게 또는 높게;</br>
-          표준 - 메인 메뉴에서 리소스 플래너를 찾습니다.</p>
-       <p>또는</p>
-       <p>현재: 검토 이상;</br>
-       메인 메뉴에서 리소스 플래너 찾기 계획</p></td>
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>하나의 프로젝트에 대해 가볍게 또는 높게, 여러 프로젝트에 대해 표준</p>
+       <p>하나의 프로젝트에 대해 검토 이상, 여러 프로젝트에 대한 계획</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td> <p>리소스 관리에 대한 액세스 이상 보기</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td>개체 권한</td> 
    <td> <p>프로젝트 및 사용자에 대한 권한 보기 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -67,10 +60,6 @@ ht-degree: 0%
 리소스 플래너 필수 구성 요소에 대한 자세한 내용은 [리소스 계획 시작](../../resource-mgmt/resource-planning/get-started-resource-planning.md)을 참조하세요.
 
 ## 리소스 플래너 찾기
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this was moved from the get-started-resource-planner article)</p>
--->
 
 여러 프로젝트에 대한 리소스 예산을 책정할 것인지 아니면 하나의 프로젝트에 대한 리소스 예산을 책정할 것인지에 따라 Workfront의 두 영역에서 리소스 플래너를 찾을 수 있습니다.
 
@@ -89,7 +78,7 @@ ht-degree: 0%
 
 ![기본값으로 리소스 플래너](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
-1. 왼쪽 패널에서 **리소스 풀**&#x200B;을 클릭합니다.
+1. 왼쪽 패널에서 **리소스 풀**을 클릭합니다.
 리소스 풀 만들기에 대한 자세한 내용은 [리소스 풀 만들기](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)를 참조하십시오.
 
 ### 한 프로젝트에 리소스 플래너 사용 {#use-the-resource-planner-for-one-project}

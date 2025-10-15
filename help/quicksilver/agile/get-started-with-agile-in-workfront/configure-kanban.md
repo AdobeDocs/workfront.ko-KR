@@ -6,9 +6,9 @@ description: 팀이 만들어지는 동안 또는 만들어진 후에 Kanban 애
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-[애자일 팀 만들기](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에 설명된 대로 [!DNL Adobe Workfront]에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
+[!DNL Adobe Workfront]애자일 팀 만들기[에 설명된 대로 ](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
 
 * 스크럼
 * 칸반
@@ -37,8 +37,6 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,15 +44,14 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard]</p> 
-   또는
-   <p>현재: [!UICONTROL Work] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p> 
+   <p>작업 이상</p> </td> 
   </tr>
 
 <tr> 
@@ -164,7 +161,7 @@ ht-degree: 1%
 
 칸반 팀의 WIP 제한을 정의할 때 [!UICONTROL Kanban] 보드의 [!UICONTROL 새로 만들기] 또는 [!UICONTROL 진행 중] 열에 나타날 수 있는 작업 수를 제한하여 팀이 현재 작업 중인 항목 수를 제어할 수 있습니다.
 
-Kanban 팀에 대한 WIP 제한을 구성한 후 [!UICONTROL Kanban] 보드의 [WIP(Work In Progress) 제한 관리](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)에 설명된 대로 WIP 제한을 보고 [!UICONTROL Kanban] 애자일 스토리 보드에서 업데이트할 수 있습니다.
+Kanban 팀에 대한 WIP 제한을 구성한 후 [!UICONTROL Kanban] 보드의 [WIP(Work In Progress) 제한 관리[!UICONTROL 에 설명된 대로 WIP 제한을 보고 ]Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md) 애자일 스토리 보드에서 업데이트할 수 있습니다.
 
 Kanban 팀의 WIP를 제한하려면
 
@@ -204,7 +201,7 @@ WIP 제한은 단순히 시각적 경고일 뿐 팀이 단일 열에 설정한 �
 
 1. **[!UICONTROL 백로그에서 다음 스토리를 자동으로 추가]**&#x200B;를 선택하여 **[!UICONTROL 진행 중]** 열에서 항목을 이동할 때 백로그에서 다음 항목이 **[!UICONTROL 새로 만들기]** 열에 자동으로 추가되도록 구성하십시오.
 
-   이 기능을 적용하려면 사용자는 [!UICONTROL Kanban] 보드에서 **백로그 표시** 설정을 활성화해야 합니다. 사용자가 [!UICONTROL Kanban 보드]에서 [!UICONTROL 백로그 표시] 설정을 사용하면 다음 기능이 수행됩니다.
+   이 기능을 적용하려면 사용자는 **Kanban** 보드에서 [!UICONTROL 백로그 표시] 설정을 활성화해야 합니다. 사용자가 [!UICONTROL Kanban 보드]에서 [!UICONTROL 백로그 표시] 설정을 사용하면 다음 기능이 수행됩니다.
 
    스토리가 [!UICONTROL 진행 중] 열에서 [!UICONTROL 완료] 상태(또는 [!UICONTROL 완료]와 같은 상태)를 나타내는 스토리 보드의 열로 이동될 때마다 백로그 열의 스토리는 [!UICONTROL Kanban 보드]의 [!UICONTROL 새로 만들기] 열로 자동 이동합니다.
 백로그에서 추가되면 우선 순위가 가장 높은 스토리가 스토리 보드에 추가됩니다.

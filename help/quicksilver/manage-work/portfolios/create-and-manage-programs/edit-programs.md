@@ -6,9 +6,9 @@ description: 사용자가 만든 프로그램이나 다른 사용자가 사용�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -23,15 +23,12 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
@@ -40,7 +37,7 @@ ht-degree: 1%
    <p>[!UICONTROL 계획]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>프로그램에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
   </tr> 
   <tr> 

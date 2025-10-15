@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: 비즈니스 사례에 사용자 정의 양식 첨부
 description: 사용자 지정 Forms은 기존 Adobe Workfront 필드에 표시되지 않는 정보를 수집하는 데 사용됩니다.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
-   <td> <p>현재: Prime 이상</p>
-   <p>레거시: Pro 이상</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
+   <td> <p>Prime 이상</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스/p&gt;</td> 
    <td> 
-   <p>현재: 표준 </p> 
-   <p>레거시: 플랜 </p> </td> 
+   <p>표준 </p> 
+   <p>플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -50,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

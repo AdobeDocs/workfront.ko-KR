@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '2193'
-ht-degree: 1%
+source-wordcount: '2213'
+ht-degree: 2%
 
 ---
 
 # 작업 항목을 위한 승인 프로세스 만들기
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 08/2025-->
 
 <!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
@@ -44,35 +44,65 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 패키지*</td> 
+   <td><p>시스템 수준 또는 단일 사용 승인 프로세스의 경우:</p><ul><li><p>모든 패키지</p></li></ul>
+   <p>그룹 수준 승인 프로세스의 경우:</p>
+   <ul><li><p>워크플로우 Prime 또는 Ultimate</p></li>
+   <li><p>Workfront Prime 또는 Ultimate</p></li></ul>
+   </td>
+
+</tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p>
+ <p>플랜</p> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>시스템 관리자이거나 승인 프로세스에 대한 관리 액세스 권한이 있는 경우 특정 그룹에 대해 시스템 레벨 승인 프로세스나 그룹 레벨 승인 프로세스를 생성할 수 있습니다.</p> 
+   <p>그룹 관리자이고 승인 프로세스에 대한 관리 액세스 권한이 있는 경우 관리하는 그룹에 대해 그룹 수준의 승인 프로세스를 만들 수 있습니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>시스템 수준 또는 단일 사용 승인 프로세스: 모두</p>
-   <p>그룹 수준 승인 프로세스: Prime 또는 Ultimate</p></td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>System-level or single-use approval process: Any</p>
+   <p>Group-level approval process: Prime or Ultimate</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 표준 </p>
- <p>또는</p> 
-<p>현재: 플랜 </p> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p>
+ <p>or</p> 
+<p>Current: Plan </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>시스템 관리자이거나 승인 프로세스에 대한 관리 액세스 권한이 있는 경우 특정 그룹에 대해 시스템 레벨 승인 프로세스나 그룹 레벨 승인 프로세스를 생성할 수 있습니다.</p> 
-   <p>그룹 관리자인 경우 관리하는 그룹에 대해 그룹 수준 승인 프로세스를 만들 수 있습니다.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>If you are a system administrator or you have administrative access to approval processes, you can create a system-level approval process, or a group-level approval process for a particular group.</p> 
+   <p>If you are a group administrator, you can create group-level approval processes for groups that you manage.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## 작업 항목에 대한 시스템 수준 또는 그룹 수준의 글로벌 승인 프로세스 만들기
 
@@ -99,7 +129,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">승인 프로세스 이름</td> 
-      <td><p>승인 프로세스에 대한 수사적 이름을 입력합니다. <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결</a>에 설명된 대로 사용자에게 승인 프로세스를 오브젝트에 적용할 때 이 이름이 표시됩니다.</p></td> 
+      <td><p>승인 프로세스에 대한 수사적 이름을 입력합니다. <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결</a>에 설명된 대로 사용자에게 승인 프로세스를 오브젝트에 적용할 때 이 이름이 표시됩니다.</p> <p> 필수 필드입니다. </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">설명</td> 
@@ -116,8 +146,9 @@ ht-degree: 1%
        <li>시스템 관리자이거나 승인 프로세스에 대한 관리 액세스 권한이 있는 경우 이름을 입력하면 시스템에서 그룹을 볼 수 있습니다. 기본적으로 <b>모든 그룹</b>이 선택됩니다. </li> 
        <li>승인 프로세스에 대한 관리 액세스 권한이 없는 그룹 관리자인 경우 그룹 이름을 입력할 때 관리하는 그룹에 승인 프로세스를 지정할 수 있습니다. <b>모든 그룹</b> 옵션을 사용할 수 없습니다.</li> 
        </ul> 
+       <p>필수 필드입니다.</p>
        <p>이 옵션은 일회용 승인 프로세스에는 사용할 수 없습니다.</p> 
-       <p><b>경고</b>: 그룹별 승인 프로세스를 변경할 때 이미 작업 항목과 연결된 기존 승인 프로세스가 변경될 수 있습니다. 이러한 변경 사항에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">그룹 및 승인 프로세스 변경 사항이 할당된 승인 프로세스에 미치는 영향</a>을 참조하십시오.</p> 
+       <p><b>경고</b></p> <p> 그룹별 승인 프로세스를 변경할 때 이미 작업 항목과 연관된 기존 승인 프로세스가 변경될 수 있습니다. 이러한 변경 사항에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">그룹 및 승인 프로세스 변경 사항이 할당된 승인 프로세스에 미치는 영향</a>을 참조하십시오.</p> 
        <p>그룹 페이지에서 그룹 승인 프로세스를 나열하고 관리하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">그룹 수준 승인 프로세스</a>를 참조하십시오. </p> 
        <p>승인 프로세스에 대한 관리 액세스 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">특정 영역에 대한 사용자 관리 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
      </tr> 
@@ -134,11 +165,13 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">상태가 설정되면 승인 프로세스 시작</p> </td> 
-      <td> <p>작업 항목에 대한 승인 프로세스를 트리거할 상태를 선택합니다. 누군가가 작업 항목을 이 상태로 업데이트하면 승인 프로세스가 시작됩니다. </p> <p>여러 승인 프로세스 경로에 대해 동일한 상태를 선택할 수 없습니다.</p> <p>사용 가능한 상태는 옵션 <b>에서 선택한 항목을 기반으로 합니다. 이 승인은 </b>에서 사용할 수 있습니다(위 표에 설명).</p> 
+      <td> <p>작업 항목에 대한 승인 프로세스를 트리거할 상태를 선택합니다. 누군가가 작업 항목을 이 상태로 업데이트하면 승인 프로세스가 시작됩니다. </p> 
+      <p>필수 필드입니다. </p>
+      <p>여러 승인 프로세스 경로에 대해 동일한 상태를 선택할 수 없습니다.</p> <p>사용 가능한 상태는 옵션 <b>에서 선택한 항목을 기반으로 합니다. 이 승인은 </b>에서 사용할 수 있습니다(위 표에 설명).</p> 
        <ul> 
        <li> <b>모든 그룹</b>을(를) 선택하면 시스템 전체 상태만 사용할 수 있습니다.
        <li> <p>특정 그룹을 선택하면 해당 그룹에 사용 가능한 상태만 사용할 수 있습니다</p> </li> 
-       </ul> <p>승인 프로세스가 상태로 작동하는 방법에 대한 자세한 내용은 문서 <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">승인 프로세스 개요</a>에서 <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">승인 프로세스가 상태를 사용하는 방법</a> 섹션을 참조하십시오.</p> </td> 
+       </ul> <p>승인 프로세스가 상태로 작동하는 방법에 대한 자세한 내용은 문서 <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">승인 프로세스 개요</a>에서 <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">승인 프로세스가 상태를 사용하는 방법</a> 섹션을 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">단계 이름</td> 
@@ -146,18 +179,19 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">승인자</td> 
-      <td> <p>이 단계의 승인자로 지정할 사용자, 팀 또는 작업 역할의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다. 활성 사용자, <span>작업 역할</span> 및 팀만 추가할 수 있습니다. </p>
+      <td> <p>이 단계의 승인자로 지정할 사용자, 팀 또는 작업 역할의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다. 활성 사용자, <span>작업 역할</span> 및 팀만 추가할 수 있습니다. </p> 
+      <p>필수 필드입니다.</p>
 
-   <p><b>팁</b>:</p>
+   <p><b>팁</b></p>
 
    <p>사용자를 승인자로 추가할 때 아바타, 사용자의 기본 역할 또는 이메일 주소에 동일한 이름을 가진 사용자를 구별하는지 확인하십시오. 사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.</p>
       <p>사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">사용자에게 액세스 권한 부여</a>를 참조하십시오. </p>
 
-   <p><b>참고</b>:
+   <p><b>메모</b>
 
    사용자, 팀 또는 역할을 승인자로 추가해도 해당 승인과 연관된 오브젝트에 대한 권한이 자동으로 부여되지 않습니다. 이 사용자는 승인 단계가 트리거될 때 오브젝트에 대한 권한을 받습니다. 그렇지 않으면 승인 결정을 내리기 전에 객체를 공유해야 합니다. </p> <p>개인의 역할을 지정하여 개인을 승인자로 지정할 수도 있습니다. 예를 들어 프로젝트 소유자, 프로젝트 스폰서, Portfolio 소유자, 프로그램 소유자 또는 관리자를 승인자로 지정할 수 있습니다. 이러한 옵션은 입력을 시작할 때 자동으로 나타납니다.</p>
 
-   <p><b>중요</b>:  
+   <p><b>중요</b>  
        <ul> 
        <li> <p>프로젝트 스폰서에게 승인을 할당하고 아무도 프로젝트의 스폰서로 지정되지 않으면 승인은 프로젝트 소유자에게 재지정됩니다. 아무도 프로젝트의 소유자로 지정되지 않은 경우 승인이 Workfront 관리자에게 할당됩니다. </p> </li> 
       </ul> 
@@ -166,7 +200,7 @@ ht-degree: 1%
        </ul> 
        <ul> 
        <li> <p>프로젝트 소유자에게 승인을 할당하고 아무도 프로젝트 소유자로 지정되지 않으면, 승인 권한은 설정 영역의 고객 정보 섹션에 표시된 대로 기본 Workfront 관리자에게 재할당됩니다. 자세한 내용은 <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">시스템에 대한 기본 정보 구성</a>을 참조하십시오.  </p> </li> 
-       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>이 프로세스를 반복하여 단계에 여러 승인자를 추가할 수 있습니다. 단일 단계에는 승인자로 사용자, 팀 및 작업 역할의 조합이 포함될 수 있습니다. 단계에 추가할 수 있는 승인자 수에는 제한이 없습니다.</p> <p><b>중요</b>:  <p>승인자로 작업 역할을 할당하면 프로젝트 팀에 있는 해당 작업 역할과 연결된 모든 사용자가 승인에 대해 의사 결정을 내릴 수 있습니다. </p> <p>팀을 승인자로 할당하면 해당 팀의 모든 사용자가 승인에 대한 결정을 내릴 수 있습니다. </p> <p>프로젝트 팀에 대한 자세한 내용은 <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">프로젝트 팀 개요</a>를 참조하십시오. 작업 승인에 대한 자세한 내용은 <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">작업 승인 </a>을(를) 참조하십시오.</p> </p> </td> 
+       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>이 프로세스를 반복하여 단계에 여러 승인자를 추가할 수 있습니다. 단일 단계에는 승인자로 사용자, 팀 및 작업 역할의 조합이 포함될 수 있습니다. 단계에 추가할 수 있는 승인자 수에는 제한이 없습니다.</p> <p><b>중요 사항</b></p> <p>승인자로 작업 역할을 할당하면 프로젝트 팀에 있는 해당 작업 역할과 연결된 모든 사용자가 승인에 대해 의사 결정을 내릴 수 있습니다. </p> <p>팀을 승인자로 할당하면 해당 팀의 모든 사용자가 승인에 대한 결정을 내릴 수 있습니다. </p> <p>프로젝트 팀에 대한 자세한 내용은 <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">프로젝트 팀 개요</a>를 참조하십시오. 작업 승인에 대한 자세한 내용은 <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">작업 승인 </a>을(를) 참조하십시오.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br> <br> 결정은 하나만 필요합니다. 여러 승인자를 단계에 추가하는 경우에만 표시됩니다. </td> 
@@ -221,6 +255,6 @@ ht-degree: 1%
 
 ## 사용자가 단일 작업 항목에 대한 글로벌 승인 프로세스를 수정할 수 있도록 설정
 
-기본적으로 프로젝트, 작업 및 문제에 대한 관리 권한이 있는 사용자는 프로젝트, 작업 및 문제에 대한 일회용 승인 프로세스를 만들 수 있습니다. 단일 사용 승인 프로세스를 프로젝트, 작업 및 문제에 추가하는 방법에 대한 자세한 내용은 문서 [새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)의 [단일 사용 승인 프로세스를 프로젝트, 작업, 문제, 템플릿 또는 템플릿 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) 섹션을 참조하십시오.
+기본적으로 프로젝트, 작업 및 문제에 대한 관리 권한이 있는 사용자는 프로젝트, 작업 및 문제에 대한 일회용 승인 프로세스를 만들 수 있습니다. 단일 사용 승인 프로세스를 프로젝트, 작업 및 문제에 추가하는 방법에 대한 자세한 내용은 문서 [새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process)의 [단일 사용 승인 프로세스를 프로젝트, 작업, 문제, 템플릿 또는 템플릿 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) 섹션을 참조하십시오.
 
-작업 항목과 연결된 글로벌 승인 프로세스에 대한 설정을 변경할 수도 있습니다. 이러한 변경 사항은 시스템 수준 승인 프로세스와 연결된 프로젝트, 작업 또는 문제에만 영향을 줍니다. 자세한 내용은 문서 [새 승인 프로세스나 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md))의 [특정 개체에서 사용할 전역 승인 프로세스 수정](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#modifying-a-global-approval-process) 섹션을 참조하십시오.
+작업 항목과 연결된 글로벌 승인 프로세스에 대한 설정을 변경할 수도 있습니다. 이러한 변경 사항은 시스템 수준 승인 프로세스와 연결된 프로젝트, 작업 또는 문제에만 영향을 줍니다. 자세한 내용은 문서 [새 승인 프로세스나 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)의 &quot;특정 개체에서 사용할 전역 승인 프로세스 수정&quot; 섹션을 참조하십시오.

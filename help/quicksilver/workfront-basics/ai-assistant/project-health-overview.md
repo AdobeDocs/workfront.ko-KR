@@ -5,9 +5,9 @@ description: 프로젝트 상태 기능은 AI Assistant의 기능을 사용하�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
+source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1508'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,8 @@ AI Assistant는 다음 객체에 대한 프로젝트 상태 평가를 생성할 
 
 AI Assistant에 대한 자세한 내용은 [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)를 참조하십시오.
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다. 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -36,9 +37,10 @@ AI Assistant에 대한 자세한 내용은 [AI Assistant 개요](/help/quicksilv
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>Select, Prime 또는 Ultimate </p> 
+<p>선택 이상 </p> 
+<p>워크플로우 선택 이상</p>
    </td> 
 <tr> 
  <tr> 
@@ -50,9 +52,9 @@ AI Assistant에 대한 자세한 내용은 [AI Assistant 개요](/help/quicksilv
   </tr> 
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td><p>프로젝트 상태 구성을 관리할 관리자 </p>
-   <p>프로젝트 상태 구성을 적용하려면 편집 </p>
-     <p>프로젝트 상태 구성을 보려면 보기 </p>
+   <td><p>프로젝트 상태 구성을 관리하려면 시스템 관리자여야 합니다. </p>
+   <p>프로젝트에 대한 액세스 권한을 편집하여 프로젝트 상태 구성 적용 </p>
+     <p>프로젝트 상태 구성을 보기 위한 프로젝트 액세스 권한 보기 </p>
   </td> 
   </tr>  
     </tr>  

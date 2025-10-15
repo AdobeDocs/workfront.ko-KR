@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 계산된 사용자 정의 필드와 계산된 열 비교
 description: Adobe Workfront의 여러 필드를 집계하여 해당 집계 값을 새 필드에 표시하려면 사용자 정의 양식에서 계산된 사용자 정의 필드를 만들거나 보기에서 계산된 열을 만들 수 있습니다.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Adobe Workfront의 여러 필드를 집계하고 해당 집계 값을 새 필드
   사용자 지정 양식에 계산된 사용자 지정 필드를 추가하는 방법에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
 
 * 보기의 계산된 열\
-  보기에서 계산을 사용하는 방법에 대한 자세한 내용은 문서 [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)의 [보기에서 텍스트 모드 사용](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) 섹션을 참조하십시오.
+  보기에서 계산을 사용하는 방법에 대한 자세한 내용은 문서 [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views)의 [보기에서 텍스트 모드 사용](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) 섹션을 참조하십시오.
 
 텍스트 모드를 사용하여 계산된 필드와 계산된 열을 모두 작성하지만 작성하기 위한 구문은 다릅니다. 계산된 필드 및 계산된 열을 작성하는 방법에 대해 알아보려면 위에 나열된 문서를 참조하십시오. 계산된 사용자 지정 필드 및 열과 같은 계산된 데이터 식에 사용되는 다른 구문에 대한 자세한 내용은 이 문서의 [계산된 사용자 지정 필드와 계산된 사용자 지정 열의 구문](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) 섹션을 참조하십시오.
 

@@ -7,7 +7,7 @@ description: 작업의 정확한 시작 날짜와 종료 날짜를 알려면 고
 author: Alina
 feature: Work Management
 exl-id: 084f54a6-e757-405c-b388-5d5f61608e71
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%

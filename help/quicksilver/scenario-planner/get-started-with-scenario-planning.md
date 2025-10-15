@@ -5,20 +5,19 @@ author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
 # [!DNL Scenario Planner] 시작
 
-[!DNL Scenario Planner]에는 [!DNL Adobe Workfront] 라이선스에 대한 추가 라이선스가 필요합니다. Workfront [!DNL Scenario Planner]에 대한 자세한 내용은 [개요 [!DNL Scenario Planner] 개요](../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
-
 [!DNL Adobe Workfront Scenario Planner]을(를) 사용하여 회사의 전반적인 전략적 결과를 요약하는 엔터프라이즈 수준 계획을 세울 수 있습니다. 계획에 대한 여러 이니셔티브를 정의하고 다양한 시나리오에 배치하여 계획을 실행하기 위한 최적의 솔루션을 찾을 수 있습니다.
 
 [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 [개요 [!DNL Scenario Planner] 개요](../scenario-planner/scenario-planner-overview.md)를 참조하세요.
+
 
 ## [!DNL Workfront Scenario Planner] 사용 방법
 

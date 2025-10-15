@@ -9,22 +9,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 9%
+ht-degree: 25%
 
 ---
 
 # 기본 Adobe Workfront 레이아웃 정보
 
-기본 레이아웃은 레이아웃 템플릿을 사용하여 Adobe Workfront 관리자가 변경하기 전 왼쪽 패널과 보기, 그룹화 및 필터의 배열입니다(가능한 경우). 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png) 또는 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png) 배열,
+기본 레이아웃은 레이아웃 템플릿을 사용하여 Adobe Workfront 관리자가 변경하기 전 왼쪽 패널과 보기, 그룹화 및 필터의 배열입니다(가능한 경우). 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png) 또는 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon-left-nav.png) 배열,
 
 Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 사용자의 기본 레이아웃을 수정하는 방법에 대한 자세한 내용은 [사용자를 레이아웃 템플릿에 할당](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
 
 >[!NOTE]
 >
->사용자는 사용자 프로필 환경 설정을 편집하여 자신의 레이아웃을 변경할 수 있습니다. 자세한 내용은 [내 설정 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)의 [환경 설정](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) 섹션을 참조하십시오.
+>사용자는 사용자 프로필 환경 설정을 편집하여 자신의 레이아웃을 변경할 수 있습니다. 자세한 내용은 [내 설정 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences)의 [환경 설정](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) 섹션을 참조하십시오.
 
 ## 각 라이선스 유형에 대한 기본 메인 메뉴 항목
 

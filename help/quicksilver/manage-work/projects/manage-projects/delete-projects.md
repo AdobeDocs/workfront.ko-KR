@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -28,36 +28,59 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront 패키지</p> </td> 
+   <td>임의</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront 라이선스</p> </td> 
+   <td> <p>표준</p>
+   <p>플랜</p> 
+   </td> 
+  </tr> 
+    <td>액세스 수준 구성</td> 
+   <td> <p>프로젝트를 생성 및 삭제할 수 있는 프로젝트 액세스 편집</p> </td> 
+  </tr> 
+    <td> <p>개체 권한</p> </td> 
+   <td> <p>프로젝트, 작업 및 문제 삭제 기능으로 프로젝트, 작업 및 문제에 대한 액세스 편집</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront 플랜</p> </td> 
-   <td>임의</td> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront 라이센스*</p> </td> 
-   <td> <p>새 라이선스: Standard </p>
-   <p>현재 라이선스: 플랜 </p> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>New license: Standard </p>
+   <p>Current license: Plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>액세스 수준 구성</td> 
-   <td> <p>프로젝트를 생성 및 삭제할 수 있는 프로젝트 액세스 편집</p> </td> 
+   <td>Access level configuration</td> 
+   <td> <p>Edit access to Projects with ability to Create and Delete projects</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>개체 권한 </p> </td> 
-   <td> <p>프로젝트, 작업 및 문제 삭제 기능으로 프로젝트, 작업 및 문제에 대한 액세스 편집</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
-
-+++
+</table>-->
 
 ## 프로젝트 삭제 프로세스 이해
 
@@ -98,7 +121,7 @@ ht-degree: 1%
    * 기준선
    * 비즈니스 사례 정보
    * 대기열 세부 정보
-   * 청구 요금
+   * 결제 요율
    * 청구 기록
 
      청구됨 상태의 청구 기록이 있는 프로젝트는 삭제할 수 없습니다. 자세한 내용은 [청구 기록 만들기](../../projects/project-finances/create-billing-records.md)를 참조하십시오.

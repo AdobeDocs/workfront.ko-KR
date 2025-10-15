@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: 타임시트 개요
 description: 타임시트를 사용하여 Adobe Workfront 내부 및 외부에서 작업에 소비하는 시간을 추적할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%

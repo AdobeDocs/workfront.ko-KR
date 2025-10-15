@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: 프로젝트에 대한 위험 만들기 및 편집
 description: 위험은 프로젝트가 정시 또는 예산 내에서 완료되지 못하게 하는 가능한 이벤트 또는 요인입니다. 프로젝트의 비즈니스 사례를 만들 때 또는 위험 탭을 사용하여 프로젝트 위험을 기록할 수 있습니다. 프로젝트 및 템플릿에 위험을 추가할 수 있습니다. 위험을 작업 또는 문제와 연결할 수 없습니다.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,6 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
@@ -44,17 +42,15 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
-   <td> <p>현재 플랜:</p>
+   <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <ul><li>프로젝트의 위험 영역에 위험을 추가하는 모든 계획</p></li>
    <li><p>Prime 이상: 프로젝트의 비즈니스 사례에 위험 추가</p></li></ul>
-   <p>레거시 플랜: 모든 플랜</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td> <p>현재: 표준 </p>
-   <p>레거시: 플랜 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
+   <td> <p>표준 </p>
+   <p>플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
@@ -67,7 +63,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
 
 +++
 

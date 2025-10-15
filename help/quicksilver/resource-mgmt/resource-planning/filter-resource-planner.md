@@ -6,9 +6,9 @@ description: 필터를 사용하면 시스템에 저장된 모든 정보에서 �
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2361'
 ht-degree: 0%
 
 ---
@@ -25,36 +25,32 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>새로 만들기: 모두</p>
-       <p>또는</p>
-       <p>현재: Pro 이상</p> </td> 
+  <tr> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 밝게 또는 높음</p>
-       <p>또는</p>
-       <p>현재: 검토 이상</p></td>
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>밝거나 높음</p>
+       <p>검토 이상</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>프로젝트, 사용자 및 리소스 관리에 대한 액세스 권한 이상 보기</p> </td> 
+   <td>액세스 수준 구성</td> 
+   <td> <p>프로젝트, 사용자 및 리소스 관리에 대한 액세스 권한 이상 보기</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 권한 이상 보기</p> </td> 
+   <td>개체 권한</td> 
+   <td> <p>프로젝트에 대한 권한 보기 이상</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -128,7 +124,7 @@ ht-degree: 0%
 1. 의 왼쪽 상단 모서리에서 **필터** 아이콘을 클릭합니다.
    ![filter_icon.png](assets/filter-icon.png)
 또는
-**필터** 드롭다운 메뉴를 확장하고 **새 필터 추가**&#x200B;를 클릭합니다.
+**필터** 드롭다운 메뉴를 확장하고 **새 필터 추가**를 클릭합니다.
    ![필터 드롭다운](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 기본 제공 기준을 사용하여 필터를 빌드하려면 다음 필드 중 하나를 지정합니다.

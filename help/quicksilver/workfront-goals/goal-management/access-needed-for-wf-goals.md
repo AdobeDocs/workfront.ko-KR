@@ -7,9 +7,9 @@ description: Adobe Workfront 관리자는 Adobe Workfront 목표에 액세스하
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: dacfd8ef7475b197ac6ce5dd598c99df97037479
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -20,21 +20,28 @@ ht-degree: 0%
 
 Adobe Workfront 목표에 액세스하려면 Adobe Workfront 관리자가 다음 조건을 모두 충족하는지 확인해야 합니다.
 
-* 조직은 Workfront 목표에 대한 올바른 라이선스를 구입해야 합니다. 자세한 내용은 이 문서의 [Workfront 목표 조직 액세스 권한 얻기](#obtain-workfront-goals-organization-access) 섹션을 참조하십시오.
+* 조직은 과거에 Adobe Workfront 목표 패키지를 구매했습니다. Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
+
+  자세한 내용은 이 문서의 [Workfront 목표 조직 액세스 권한 얻기](#obtain-workfront-goals-organization-access) 섹션을 참조하십시오.
 
 * 올바른 유형의 Workfront 라이선스를 할당하십시오. 라이선스 유형 및 액세스 수준 할당에 대한 자세한 내용은 이 문서의 [라이선스 유형 및 액세스 수준 설정 업데이트](#update-license-types-and-access-level-settings) 섹션을 참조하십시오.
 
->[!NOTE]
->
->외부 라이선스 유형의 사용자는 Workfront 목표에 액세스할 수 없습니다.
+  >[!NOTE]
+  >
+  >외부 라이선스 유형의 사용자는 Workfront 목표에 액세스할 수 없습니다.
 
 * 액세스 수준의 목표에 대한 액세스 권한을 부여합니다. 자세한 내용은 [Adobe Workfront 목표에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)를 참조하십시오.
+
+  >[!NOTE]
+  >
+  >기본적으로 사용자는 자신의 액세스 수준에서 목표에 대한 액세스 권한 없음을 얻을 수 있습니다.
+
 
 * 메인 메뉴에 목표 영역을 포함하는 레이아웃 템플릿을 지정합니다.
 
   >[!NOTE]
   >
-  >Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 목표 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다.
+  >시스템 관리자를 포함한 모든 사용자에게는 기본 메뉴의 목표 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다.
 
   자세한 내용은 이 문서의 [레이아웃 템플릿에 Workfront 목표 추가](#add-workfront-goals-to-a-layout-template) 섹션을 참조하십시오.
 
@@ -44,35 +51,50 @@ Adobe Workfront 목표에 액세스하려면 Adobe Workfront 관리자가 다음
 
 ## Workfront 목표 조직 액세스 권한 얻기 {#obtain-workfront-goals-organization-access}
 
+Workfront 목표를 포함한 마지막 Adobe Workfront 패키지는 Adobe Workfront Ultimate입니다.
+Workfront 목표는 더 이상 최신 패키지를 구입할 수 없습니다.
+Workfront 목표에 대해 문의하려면 계정 담당자에게 문의하십시오.
 
-귀사가 현재 계획 중인 Workfront에 따라 다음과 같은 시나리오가 존재합니다.
+<!--Old: >
+Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
-* **새 Workfront 플랜**: Ultimate Workfront 플랜이 있어야 합니다. Workfront 목표는 이 계획에만 포함됩니다.
+* **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
 
-* **현재 Workfront 플랜**: 조직에서 Workfront 라이선스 외에 추가 라이선스를 구입해야 합니다.
+* **A current Workfront plan**: Your organization must purchase an additional license, in addition to the Workfront license.
 
-  조직에서 추가 라이선스를 구매하면 Workfront에서 계정에 대해 Workfront 목표를 활성화합니다. Workfront Goals에 대한 라이선스 구매에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
+  After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 
-Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## 라이선스 유형 및 액세스 수준 설정 업데이트  {#update-license-types-and-access-level-settings}
 
-귀사가 현재 계획 중인 Workfront에 따라 다음과 같은 시나리오가 존재합니다.
+귀사에서 이전 구매의 Workfront 목표에 액세스할 수 있는 권한이 있는 경우 Workfront 관리자는 귀하에게 Workfront 목표에 액세스하려면 다음을 부여해야 합니다.
 
-* **새 액세스 수준 모델**: Workfront 관리자가 Workfront 목표에 액세스하려면 다음 Workfront 라이선스 유형 중 하나를 부여해야 합니다.
+1. 다음 라이선스 중 하나:
 
-   * 기여자
-   * 라이트
-   * 표준
+   * 기여자 이상
+   * 요청 이상
 
-* **현재 액세스 수준 모델**: Workfront 관리자가 Workfront 목표에 액세스하려면 다음 Workfront 라이선스 유형 중 하나를 부여해야 합니다.
+<!--Old: 
+* **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
 
-   * 플랜
-   * 작업
-   * 검토
-   * 요청
+  * Contributor
+  * Light
+  * Standard
 
-Workfront 관리자가 이러한 라이선스 유형 중 하나를 부여하면 액세스 수준에서 목표에 대한 액세스 권한도 부여해야 합니다. 목표에 액세스하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)를 참조하십시오.
+* **The current access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals:
+
+  * Plan
+  * Work 
+  * Review
+  * Request
+-->
+
+1. 다음 액세스 수준:
+
+   * 액세스 수준에서 목표에 대한 보기 또는 상위 액세스 권한.
+
+   목표에 액세스하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)를 참조하십시오.
 
 Workfront 관리자는 시스템에 있는 Workfront Goals 라이선스 수를 검토하고 현재 활성화된 라이선스 수를 파악할 수 있습니다. 자세한 내용은 [시스템에서 사용 가능한 라이선스 관리](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)를 참조하십시오.
 

@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '808'
 ht-degree: 3%
 
 ---
@@ -32,21 +32,18 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td><p>새로운 기능: 표준</p>
-   또는
-   <p>현재: 플랜</p>
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+   <p>플랜</p>
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
  </tbody> 
 </table>
 
-*액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -102,7 +99,7 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
      </tr> 
      <tr> 
       <td role="rowheader">본문 </td> 
-      <td> <p>이메일 메시지 내용에 대한 텍스트를 추가합니다.</p> <p>이 문서의 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">전자 메일 템플릿에 HTML 형식 추가</a> 섹션에 설명된 대로 전자 메일 콘텐츠에 HTML 형식을 사용할 수 있습니다.</p> </td> 
+      <td> <p>이메일 메시지 내용에 대한 텍스트를 추가합니다.</p> <p>이 문서의 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">전자 메일 템플릿에 HTML 서식 추가</a> 섹션에 설명된 대로 전자 메일 콘텐츠에 HTML 서식을 사용할 수 있습니다.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -114,10 +111,10 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
 이메일 템플릿에 HTML 태그를 추가하여 사용자 지정 알림을 생성할 수 있습니다.\
 [새 전자 메일 템플릿 만들기](#create-a-new-email-template)에 설명된 대로 전자 메일 템플릿 만들기를 시작합니다.
 
-HTML 서식을 지정하면 다음 섹션에 표시된 대로 이메일 템플릿을 보강할 수 있습니다.
+HTML 서식은 다음 섹션에 표시된 대로 이메일 템플릿을 보강할 수 있습니다.
 
 * [Workfront 개체에 연결](#link-to-workfront-objects)
-* [HTML이 있는 사용자 지정 필드에 연결](#link-to-custom-fields-with-html)
+* [HTML을 사용하여 사용자 지정 필드에 연결](#link-to-custom-fields-with-html)
 * [HTML 이메일 예](#html-email-examples)
 
 ### Workfront 오브젝트에 대한 링크 {#link-to-workfront-objects}

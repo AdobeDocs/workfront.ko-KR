@@ -7,10 +7,10 @@ description: Workfront Data Connect를 사용하면 비즈니스 인텔리전스
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 1%
+source-wordcount: '570'
+ht-degree: 2%
 
 ---
 
@@ -43,31 +43,23 @@ Data Connect 데이터 레이크를 외부 제품과 연결하려면 먼저 [Sno
 
 ## 액세스 요구 사항
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>다음 플랜에 포함됩니다.</p>
-    <ul>
-        <li><p>Ultimate</p></li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect는 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
-   </td> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td><p>Ultimate</p>
+    <p>워크플로 얼티밋</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>플랜</p></td> 
+   <td>
+   <p>표준</p>
+   <p>플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -115,5 +107,5 @@ Data Connect 데이터 레이크를 외부 제품과 연결하려면 먼저 [Sno
 
 아래에 여러 개의 공통 데이터 웨어하우스가 나와 있습니다. 데이터 레이크 연결에 대한 자세한 내용은 해당 문서 사이트를 참조하십시오.
 
-* 데이터 블록
+* Databricks
 * AWS Redshift

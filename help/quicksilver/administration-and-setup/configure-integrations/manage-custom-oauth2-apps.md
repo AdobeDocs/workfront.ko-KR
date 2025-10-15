@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -33,30 +33,26 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>[!DNL Pro] 이상</p> </td> 
+   <td role="rowheader">Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL Plan] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>표준</p> <p>플랜</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> [!DNL Workfront] 관리자여야 합니다. </p>
-    <p>[!DNL Workfront] 관리자에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리자 액세스 권한 부여</a>를 참조하십시오.</p>
-     </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td>Workfront 관리자여야 합니다. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -102,7 +98,7 @@ ht-degree: 0%
 >클라이언트 암호 자체를 볼 수 없습니다. 클라이언트 암호를 잃어버린 경우 클라이언트 암호를 삭제하고 새 클라이언트 암호를 만들어야 합니다.
 >
 >* 클라이언트 암호를 삭제하려면 이 문서에서 [클라이언트 암호 삭제](#delete-client-secret)를 참조하십시오.
->* 새 클라이언트 암호를 만들려면 [통합을 위한 OAuth2 응용 프로그램 만들기 [!DNL Workfront] 통합](../../administration-and-setup/configure-integrations/create-oauth-application.md)에서 [OAuth2 응용 프로그램 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)를 참조하십시오.
+>* 새 클라이언트 암호를 만들려면 [통합을 위한 OAuth2 응용 프로그램 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)통합[에서  [!DNL Workfront] OAuth2 응용 프로그램 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
 >
 
 {{step-1-to-setup}}
@@ -113,7 +109,7 @@ ht-degree: 0%
 
    * 제작 일자
    * 마지막으로 사용한 날짜
-   * 메모
+   * 참고
 
      클라이언트 암호에 메모를 추가하려면 [클라이언트 암호에 대한 메모 추가 또는 편집](#add-or-edit-notes-for-client-secret)을 참조하십시오.
 

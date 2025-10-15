@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: IF 문 개요
 description: 일반 프로그래밍 언어에서 "IF" 문을 사용할 수 있습니다. Adobe Workfront에서 "IF" 문을 사용하면 보고 및 사용자 지정 데이터 목적 모두에 대해 데이터 필드를 비교하고, 형식을 지정하며, 함께 문자열을 지정할 수 있습니다. 또한, "IF" 문장에 대해 수학적으로 생각하는 것은 표현에 대한 변수들이 일반적으로 사용되기 때문에 더 나은 개념 이해로 이어진다.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 일반 프로그래밍 언어에서 &quot;IF&quot; 문을 사용할 수 있습니다. Adobe Workfront에서 &quot;IF&quot; 문을 사용하면 보고 및 사용자 지정 데이터 목적 모두에 대해 데이터 필드를 비교하고, 형식을 지정하며, 함께 문자열을 지정할 수 있습니다. 또한, &quot;IF&quot; 문장에 대해 수학적으로 생각하는 것은 표현에 대한 변수들이 일반적으로 사용되기 때문에 더 나은 개념 이해로 이어진다.
 
-## Recommendations for &quot;IF&quot; 문
+## &quot;IF&quot; 문에 대한 권장 사항
 
 &quot;IF&quot; 문을 생성하기 전에 다음 사항을 고려하십시오.
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * 다음 Workfront 요소에 대해 &quot;IF&quot; 문을 작성할 수 있습니다.
 
-   * 보기
+   * 보기 횟수
    * 그룹화
    * 계산된 사용자 정의 필드
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * **조건 연산자** = &quot;IF&quot; 문의 조건을 만드는 데 도움이 되는 연산자입니다. 예를 들어 &quot;다음과 같음&quot; 또는 &quot;다음보다 큼&quot;은 조건 연산자입니다. 문에서 사용할 수 있는 조건 연산자 목록을 보려면 [계산된 사용자 지정 식의 조건 연산자](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)를 참조하십시오.
 
-* **True**&#x200B;**식** = 조건 기준이 충족되면 표시할 지표(true 지표)를 방정식에 알려 주는 &quot;True&quot; 변수입니다.
+* **True****식** = 조건 기준이 충족되면 표시할 지표(true 지표)를 방정식에 알려 주는 &quot;True&quot; 변수입니다.
 
 * **False 식** = 조건 기준이 충족되지 않을 때 표시할 표시기(false 표시기)를 방정식에 알려 주는 &quot;False&quot; 변수입니다.
 

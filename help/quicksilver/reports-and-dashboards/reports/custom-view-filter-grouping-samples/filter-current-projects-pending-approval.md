@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '필터: 승인 보류 중인 현재 프로젝트 표시'
-description: 다음 프로젝트 필터는 현재 - 승인 보류 중 상태의 프로젝트를 표시합니다. 여기서 로그인한 사용자는 프로젝트 스폰서이거나 Portfolio 관리자입니다.
+description: 다음 프로젝트 필터는 현재 - 승인 보류 중 상태의 프로젝트를 표시합니다. 여기서 로그인한 사용자는 프로젝트 스폰서 또는 Portfolio 관리자입니다.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -18,32 +18,25 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-다음 프로젝트 필터는 현재 - 승인 보류 중 상태의 프로젝트를 표시합니다. 여기서 로그인한 사용자는 프로젝트 스폰서이거나 Portfolio 관리자입니다.
+다음 프로젝트 필터는 현재 - 승인 보류 중 상태의 프로젝트를 표시합니다. 여기서 로그인한 사용자는 프로젝트 스폰서 또는 Portfolio 관리자입니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-    <p>신규:</p>
-   <ul><li><p>필터를 수정하는 기여자 </p></li>
-   <li><p>보고서를 수정하는 표준</p></li> </ul>
-
-<p>현재:</p>
-   <ul><li><p>필터 수정 요청 </p></li>
-   <li><p>보고서 수정 계획</p></li> </ul></td> 
+   <p>필터 수정을 위한 기여자 또는 요청 </p>
+   <p>표준 또는 보고서 수정 계획</p>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -56,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

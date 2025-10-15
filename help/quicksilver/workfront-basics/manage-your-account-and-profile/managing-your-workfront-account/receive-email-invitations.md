@@ -2,43 +2,18 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 전자 메일 초대를 받고  [!DNL Adobe Workfront]의 암호를 만드세요.
-description: ' [!DNL Workfront] 관리자가 새 사용자를 만들 때 새 사용자는 몇 가지 요인에 따라 초대 이메일을 받을 수 있습니다.'
+description: ' [!DNL Workfront] 관리자가 새 사용자를 만들 때 새 사용자는 암호를 만들도록 초대하는 초대 이메일을 받을 수 있습니다.'
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
 # 전자 메일 초대를 받고 [!DNL Adobe Workfront]의 암호를 만드세요.
-
-## 액세스 요구 사항
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>임의</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-보유 중인 플랜 또는 라이선스 유형을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
-
-## 이메일 초대 수신
 
 [!DNL Workfront] 관리자가 새 사용자를 만들 때 새 사용자는 다음과 같은 몇 가지 요인에 따라 초대 이메일을 받을 수 있습니다.
 
@@ -51,13 +26,38 @@ ht-degree: 0%
 
 Workfront 관리자가 [!DNL Adobe Workfront]에 새 사용자를 추가하는 방법에 대한 자세한 내용은 [사용자 추가](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
 
+## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col>
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td> 
+   <p>기여자 이상</p>
+   <p>요청 이상</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
 ## [!DNL Workfront]에 대한 암호 만들기
 
 새 사용자는 초대 전자 메일을 받은 후 전자 메일 초대의 링크를 따라 암호를 선택하여 [!DNL Workfront] 계정 만들기를 완료할 수 있습니다.
 
 >[!NOTE]
 >
->전자 메일의 링크는 [!UICONTROL &#x200B; 관리자가 &#x200B;]초대[!UICONTROL &#x200B; 페이지의 &#x200B;]일반 옵션[!DNL Workfront] 영역에 지정한 일수만 유효합니다.
+>전자 메일의 링크는 [!UICONTROL  관리자가 ]초대[!UICONTROL  페이지의 ]일반 옵션[!DNL Workfront] 영역에 지정한 일수만 유효합니다.
 
 초대 전자 메일을 사용하여 [!DNL Workfront]의 암호를 만드는 방법:
 

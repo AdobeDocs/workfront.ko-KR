@@ -5,9 +5,9 @@ description: 이 요약 기능을 사용하여 작업 항목과 문서를 빠르
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,11 @@ AI Assistant를 통해 Workfront에서 프로젝트, 작업 및 문제를 찾을
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>새로 만들기: 모두</p>
-       <p>현재: 사용할 수 없음</p></td>
+   <td><p>임의</p>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>현재: 사용할 수 없음</p></td>
+   <td><p>표준</p>
   </tr> 
  </tbody> 
 </table>

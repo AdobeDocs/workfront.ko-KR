@@ -7,9 +7,9 @@ description: 작업 항목, 사용자, 작업 역할 및 팀에 대한 특정 �
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,20 @@ ht-degree: 0%
 
 Workfront에서 예산 도구를 사용하기 위한 필수 구성 요소에 대한 자세한 내용은 [리소스 계획 시작](../../resource-mgmt/resource-planning/get-started-resource-planning.md)을 참조하세요.
 
-리소스 예산을 책정하거나 리소스 풀을 관리하고 리소스 계획 도구에서 비용 정보를 보려면 귀사와 다음을 액세스할 수 있어야 합니다. 
+리소스 예산을 책정하거나 리소스 풀을 관리하고 리소스 계획 도구에서 비용 정보를 보려면 귀사와 다음을 액세스할 수 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>새로 만들기: 모두</p>
-       <p>또는</p>
-       <p>현재: Pro 이상</p> </td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 플랜</p></td>
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr>  
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -66,11 +63,9 @@ Workfront에서 예산 도구를 사용하기 위한 필수 구성 요소에 대
    <td role="rowheader">개체 권한</td> 
    <td> <p>재무 관리 권한이 포함된 프로젝트에 대한 권한을 관리합니다.</p> <p>프로젝트 권한에 대한 자세한 내용은 문서 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>를 참조하십시오.</p> <p>프로젝트의 재무 권한에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">개체에 대한 재무 권한 공유</a></a> 문서를 참조하십시오.</p>
 
-<p><b>메모</b>
-
-역할 보기에서 리소스 예산을 책정할 때 역할 아래에 나열된 하나 이상의 프로젝트에 대해 관리 권한보다 적은 수의 권한이 있는 경우 역할에 대한 시간, FTE 또는 비용의 예산을 책정할 수 없습니다. 관리 권한이 있는 프로젝트만 예산을 책정할 수 있습니다.</p> </td>
-</tr> 
+<p><b>참고:</b> 역할 보기에서 리소스 예산을 책정할 때 역할 아래에 나열된 하나 이상의 프로젝트에 대해 [관리] 권한 미만이 있으면 역할에 대한 시간, FTE 또는 비용을 책정할 수 없습니다. 관리 권한이 있는 프로젝트만 예산을 책정할 수 있습니다.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.

@@ -1,48 +1,50 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: ' [!DNL Slack]의 공유 링크에서  [!DNL Adobe Workfront] 개체에 액세스'
-description: ' [!DNL Adobe Workfront] 개체에 대한 링크가 Slack 채널에서 사용자와 공유되는 경우,  [!DNL Workfront] Slack을 위해 설치 및 구성한 후 Slack에서 개체에 대한 추가 정보를 볼 수 있습니다.'
+title: ' [!DNL Adobe Workfront] 의 공유 링크에서  [!DNL Slack]개체에 액세스'
+description: ' [!DNL Adobe Workfront] 개체에 대한 링크가 Slack 채널에서 사용자와 공유되는 경우, Slack에 대해  [!DNL Workfront] 을(를) 설치 및 구성한 후 Slack에서 개체에 대한 추가 정보를 볼 수 있습니다.'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
 
-# [!DNL Slack]의 공유 링크에서 [!DNL Adobe Workfront]개 개체에 액세스
+# [!DNL Adobe Workfront]의 공유 링크에서 [!DNL Slack]개 개체에 액세스
 
-[!DNL Slack] 채널에서 [!DNL Adobe Workfront] 개체에 대한 링크를 공유하면 [!DNL Workfront for Slack]을(를) 설치 및 구성한 후 [!DNL Slack]에서 해당 개체에 대한 추가 정보를 볼 수 있습니다.
+[!DNL Adobe Workfront] 채널에서 [!DNL Slack] 개체에 대한 링크를 공유하면 [!DNL Slack]을(를) 설치 및 구성한 후 [!DNL Workfront for Slack]에서 해당 개체에 대한 추가 정보를 볼 수 있습니다.
 
 [!DNL Workfront for Slack] 구성에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을 참조하십시오.
 
-링크를 열거나 [!DNL Slack]의 해당 개체에 대해 추가 작업을 수행하려면 별도의 브라우저 탭에서 [!DNL Workfront]에 로그인해야 합니다.
+링크를 열거나 [!DNL Workfront]의 해당 개체에 대해 추가 작업을 수행하려면 별도의 브라우저 탭에서 [!DNL Slack]에 로그인해야 합니다.
 
-사용자가 [!DNL Workfront]의 개체에 대한 링크를 귀하와 공유할 때 개체에 대한 추가 정보가 링크와 함께 표시될 수 있습니다. [!DNL Slack]에 추가 정보를 표시하려면 링크를 보내는 사용자에게 개체에 대한 [!UICONTROL 보기] 이상의 권한이 있어야 합니다.
+사용자가 [!DNL Workfront]의 개체에 대한 링크를 귀하와 공유할 때 개체에 대한 추가 정보가 링크와 함께 표시될 수 있습니다. [!UICONTROL 에 추가 정보를 표시하려면 링크를 보내는 사용자에게 개체에 대한 ]보기[!DNL Slack] 이상의 권한이 있어야 합니다.
 
 ## 액세스 요구 사항
 
-이 문서에 설명된 기능을 사용하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>[!UICONTROL Pro] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL 계획]</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>임의</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -55,7 +57,7 @@ ht-degree: 0%
 
 1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront from Slack.]에 로그인합니다
 
-   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [액세스 [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Workfront from Slack]에 로그인&quot; 섹션을 참조하십시오.
+   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront from Slack]액세스[의 &quot; [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
 
 1. [!DNL Workfront] 프로젝트에 대한 링크가 포함된 메시지로 이동합니다.
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 계획된 완료 일자]**: 계획된 완료 일자에 대한 자세한 내용은 [프로젝트 계획된 완료 일자 설정](../../manage-work/projects/planning-a-project/project-planned-completion-date.md)을 참조하십시오.
 
-   * **[!UICONTROL Portfolio]** 이름: 포트폴리오에 대한 자세한 내용은 Adobe Workfront의 [Portfolio 개요](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)를 참조하십시오.
+   * **[!UICONTROL Portfolio]** 이름: 포트폴리오에 대한 자세한 내용은 [포트폴리오 방법 이해](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)를 참조하십시오.
 
    * **[!UICONTROL 조건]**: 프로젝트 조건에 대한 자세한 내용은 [프로젝트 조건 및 조건 형식 개요](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)를 참조하십시오.
 
@@ -86,7 +88,7 @@ ht-degree: 0%
 
 1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront from Slack]에 로그인합니다.
 
-   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [액세스 [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
+   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]액세스[!DNL Slack]의 &quot;[에서  [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
 
 1. [!DNL Workfront] 작업에 대한 링크가 포함된 메시지로 이동합니다.
 
@@ -120,9 +122,9 @@ ht-degree: 0%
 
 ## [!DNL Slack]의 액세스 문제
 
-1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.
 
-   [!DNL Slack]에서 Workfront에 로그인하는 방법에 대한 자세한 내용은 [액세스 [!DNL Adobe Workfront] 시작 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
+   [!DNL Slack]에서 Workfront에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]액세스[!DNL Slack]시작[의 &quot; [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
 
 1. [!DNL Workfront] 문제에 대한 링크가 포함된 메시지로 이동합니다.
 
@@ -151,9 +153,9 @@ ht-degree: 0%
 
 ## [!DNL Slack]에서 포트폴리오 액세스
 
-1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.
 
-   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
+   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]Access[!DNL Slack]from[의 &quot; [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
 
 1. [!DNL Workfront] 포트폴리오에 대한 링크가 포함된 메시지로 이동합니다.
 
@@ -172,13 +174,13 @@ ht-degree: 0%
    * **[!UICONTROL 예산 중]**
    * **[!UICONTROL 정렬됨]**
 
-     [!UICONTROL ROI], [!UICONTROL 순 가치], [!UICONTROL 정렬], [!UICONTROL 정시] 및 [!UICONTROL 예산] 값을 포함한 포트폴리오 지표에 대한 자세한 내용은 [Portfolio 최적화 도구 이해](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
+     [!UICONTROL ROI], [!UICONTROL 순 가치], [!UICONTROL 정렬], [!UICONTROL 정시] 및 [!UICONTROL 예산] 값을 포함한 포트폴리오 지표에 대한 자세한 내용은 [[!UICONTROL Portfolio 최적화 도구 이해]](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
 
 ## [!DNL Slack]에서 프로그램에 액세스
 
-1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.
 
-   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
+   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]Access[!DNL Slack]from[의 &quot; [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
 
 1. [!DNL Workfront] 프로그램에 대한 링크가 포함된 메시지로 이동합니다.
 
@@ -197,9 +199,9 @@ ht-degree: 0%
 
 ## [!DNL Slack]에서 보고서 액세스
 
-1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.
 
-   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
+   [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]Access[!DNL Slack]from[의 &quot; [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.
 
 1. [!DNL Workfront] 보고서에 대한 링크가 포함된 메시지로 이동합니다.
 

@@ -1,20 +1,24 @@
 ---
 content-type: overview
 navigation-topic: gantt-chart
-title: 간트 차트 개요
-description: 다음 문서에서 [!UICONTROL Gantt] 차트에 대한 정보를 찾으십시오.
+title: '간트 차트: 문서 색인'
+description: Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목록의 타임라인을 시각적으로 보여 줍니다. 다음 문서에서 [!UICONTROL Gantt] 차트에 대한 정보를 찾으십시오.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: b4dc991e-d89c-4167-ac9c-54bda23d08d8
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL 간트 차트] 개요
+# [!UICONTROL 간트 차트]: 문서 색인
+
+<!--Audited: 08/2025-->
+
+Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목록의 타임라인을 시각적으로 보여 줍니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

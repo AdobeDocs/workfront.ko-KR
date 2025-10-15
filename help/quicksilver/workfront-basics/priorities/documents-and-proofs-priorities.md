@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
@@ -23,28 +23,21 @@ ht-degree: 2%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> 
-   <p>새로 만들기: 모두 </p>
-   <p>현재: Pro 이상</p>
+   <p>임의</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-      <p><strong>문서 업로드</strong></p>
-   <p>새로운 기능: 기여자</p>
-   <p>현재: 요청</p>
-      <p><strong>증명 만들기</strong></p>
-        <p>새로운 기능: 표준</p>
-     <p>현재: 작업 또는 계획</p>
+   <p>참여자 이상(문서 업로드 시), 표준(증명 생성 시)</p>
+   <p>문서 업로드를 위한 요청 이상; 증명을 만들려면 작업 이상</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,7 +45,7 @@ ht-degree: 2%
    <td>관리자 이상</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>문서에 대한 액세스 편집</p> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +69,7 @@ ht-degree: 2%
 1. **파일 업로드** 아이콘 ![파일 업로드 아이콘](assets/upload-file-icon.png)을 클릭합니다.
 1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
 또는
-**파일 추가**&#x200B;를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
+**파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
    ![파일 추가](assets/add-files.png)
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.
@@ -95,7 +88,7 @@ ht-degree: 2%
 1. 오른쪽 상단의 **문서 업로드**&#x200B;를 클릭한 다음 **문서**&#x200B;를 선택합니다.
 1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
 또는
-**파일 추가**&#x200B;를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
+**파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
    ![파일 추가](assets/add-files.png)
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.

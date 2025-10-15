@@ -6,9 +6,9 @@ description: '[!UICONTROL Home] 영역에서 작업 항목 및 프로젝트를 �
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '816'
 ht-degree: 2%
 
 ---
@@ -27,39 +27,36 @@ ht-degree: 2%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
    <td>
-    <p>새로운 기능: [!UICONTROL Standard]</p> 
-    <p>현재: [!UICONTROL Work] 이상</p> </td> 
+    <p>표준</p> 
+    <p>작업 이상</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p><b>메모</b></p> 
-   <p>아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+    <tr> 
+   <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
+   <td> <p>업데이트가 있는 오브젝트에 대한 보기 또는 편집 액세스 권한</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"><strong>추가 제품</strong></td> 
+   <td>Planning 요청 또는 요청 양식을 보려면 Adobe Workfront Planning이 있어야 합니다.</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>작업에 대한 [!UICONTROL 편집] 액세스 이상</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
-   <td> <ul><li>Adobe Workfront</li><li>Planning 요청 또는 요청 양식을 보려면 Adobe Workfront Planning이 있어야 합니다.</td> 
+   <td> <p>작업에 대한 [!UICONTROL 편집] 액세스 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -91,7 +88,7 @@ ht-degree: 2%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) 홈 화면에 **내 작업** 위젯을 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 작업**&#x200B;을 찾습니다.
-1. **내 작업** 위젯으로 이동한 다음 **새로 만들기**&#x200B;를 클릭합니다.
+1. **내 작업** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
    ![새 작업 만들기](assets/create-new-task.png)
 1. **새 작업** 대화 상자에서 작업 이름을 입력합니다.
 1. 프로젝트 이름을 입력한 다음 목록에서 이름을 선택합니다.
@@ -114,7 +111,7 @@ ht-degree: 2%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **내 문제** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 문제**&#x200B;를 찾습니다.
-1. **내 문제** 위젯으로 이동한 다음 **새로 만들기**&#x200B;를 클릭합니다.
+1. **내 문제** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
    ![새 문제 만들기](assets/create-new-issue.png)
 1. **새 문제 대화 상자** 상자에서 프로젝트 이름을 입력한 다음 목록에서 이름을 선택합니다.
 1. 문제 이름을 입력하십시오.
@@ -135,7 +132,7 @@ ht-degree: 2%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **내 요청** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 요청**&#x200B;을 찾습니다.
-1. **내 요청** 위젯으로 이동한 다음 **새로 만들기**&#x200B;를 클릭합니다.
+1. **내 요청** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
    ![새 요청 만들기](assets/create-new-request-new.png)
 
 1. **새 요청** 대화 상자에서 검색 창에 Workfront 요청 대기열 또는 Workfront Planning 요청 양식 이름을 입력한 다음 표시될 때 선택합니다.
@@ -150,7 +147,7 @@ ht-degree: 2%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **내 프로젝트** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 프로젝트**&#x200B;를 찾습니다.
-1. **내 프로젝트** 위젯으로 이동한 다음 **새로 만들기**&#x200B;를 클릭합니다.
+1. **내 프로젝트** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
    ![새 프로젝트 만들기](assets/create-new-project.png)
 1. 다음 옵션 중 하나를 선택합니다.
 

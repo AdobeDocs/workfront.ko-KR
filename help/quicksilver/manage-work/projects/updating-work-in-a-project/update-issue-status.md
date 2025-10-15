@@ -6,9 +6,9 @@ description: 문제 상태를 업데이트하여 문제의 위치와 진행 방�
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -21,23 +21,20 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새로운 기능: 기여자 이상</p>
-   또는
-   <p>현재: 요청 이상</p>
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>기여자 이상</p>
+   <p>요청 이상</p>
    </td> 
   </tr> 
   <tr> 
@@ -54,6 +51,34 @@ ht-degree: 3%
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Contributor or higher</p>
+   Or
+   <p>Current: Request or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 문제 상태
 
@@ -165,11 +190,11 @@ Workfront은 아래 표에 나열된 작업이 발생하면 문제의 기존 상
   <tr> 
    <td>문제에 연결된 해결 중 오브젝트의 상태 업데이트</td> 
    <td>다양한 상태</td> 
-   <td> <p>다양한 상태</p> <p>해결 중인 개체와 문제 상태에 영향을 주는 방법에 대한 자세한 내용은 해결 및 해결 가능한 개체 개요 </a> 문서의 "해결 가능한 개체의 상태와 해결 중인 개체의 상태 동기화" 섹션을 참조하십시오.<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref"></p> </td> 
+   <td> <p>다양한 상태</p> <p>해결 중인 개체와 문제 상태에 영향을 주는 방법에 대한 자세한 내용은 해결 및 해결 가능한 개체 개요 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref"> 문서의 "해결 가능한 개체의 상태와 해결 중인 개체의 상태 동기화" 섹션을 참조하십시오.</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>문제 시작 단추를 클릭하여 할당된 문제에 대한 작업을 수락합니다</span> </td> 
-   <td><span>새로 만들기</span> </td> 
+   <td><span>신규</span> </td> 
    <td> <p>홈 팀 설정의 문제 시작 단추와 연결된 모든 상태입니다. </p> <p>[처리 중] 단추를 [시작 문제] 단추로 바꾸는 방법에 대한 자세한 내용은 <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[처리 중 작업] 단추를 [시작] 단추로 바꾸기</a></span><span>.</span>를 참조하십시오. </p> <p>팁: [문제 시작]을 클릭한 후 <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">실행 취소 단추</span>를 클릭하면 상태가 [새로 만들기]로 되돌아갑니다. </p> </td> 
   </tr> 
  </tbody> 

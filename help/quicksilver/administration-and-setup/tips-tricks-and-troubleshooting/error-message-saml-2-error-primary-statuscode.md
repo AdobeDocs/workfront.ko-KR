@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
@@ -32,31 +32,27 @@ ADFS에 성공적으로 연결할 수 없습니다.
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td>임의</td> 
+   <td>[!DNL Adobe Workfront] 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td>
-   <p>새로운 기능: 표준</p>
-   <p>또는</p>
-   <p>현재: 플랜</p></td> 
+   <td>[!DNL Adobe Workfront] 라이센스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td>[!UICONTROL 시스템 관리자]</td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -70,7 +66,7 @@ ADFS에 성공적으로 연결할 수 없습니다.
 1. 왼쪽 창에서 **[!UICONTROL 트러스트 관계]** > **[!UICONTROL 신뢰 당사자 트러스트]**&#x200B;를 선택합니다.
 
 1. [!DNL Adobe Workfront]과(와) 관련된 신뢰 당사자 트러스트를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 속성]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 고급]** 탭을 클릭한 다음 **[!UICONTROL 보안 해시 알고리즘]** 드롭다운 메뉴에서 **[!UICONTROL SHA-1]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 고급]** 탭을 클릭한 다음 **[!UICONTROL 보안 해시 알고리즘]** 드롭다운 메뉴에서 **[!UICONTROL SHA-1]**을(를) 선택합니다.
    ![SHA-1](assets/1-350x287.png)
 
 ## 원인 2: ADFS 서명 인증서가 곧 만료되며 날짜가 겹치는 새 인증서로 대체되었습니다.

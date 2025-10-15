@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 승인을 위해 타임시트 제출
 description: 승인을 위해 타임시트를 제출하면 관리자가 작업 시간을 파악할 수 있습니다. 승인자는 기록된 모든 시간이 올바른 영역에 할당되었고 해당 기간에 충분한 시간이 기록되었는지 확인할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,31 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td>Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새로운 기능: 밝게 또는 높음 </p>
-   <p>현재: 검토 이상 </p>
+   <td>Adobe Workfront 라이선스</td> 
+   <td> <p>밝거나 높음 </p>
+   <p>검토 이상 </p>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td> <p>작업 및 문제에 대한 보기 또는 상위 액세스 권한 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td>개체 권한</td> 
    <td> <p>타임시트에 대한 이상의 권한 보기</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -60,7 +58,7 @@ ht-degree: 0%
 
 ### 승인을 위해 타임시트 제출
 
-타임시트 승인자가 설정되면([타임시트 승인](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) 문서의 [타임시트 승인자 지정](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) 섹션에 설명된 대로) 타임시트 하단의 **닫기** 단추가 **승인을 위해 제출** 단추로 변경됩니다.
+타임시트 승인자가 설정되면([타임시트 승인](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) 문서의 [타임시트 승인자 지정](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) 섹션에 설명된 대로) 타임시트 하단의 **닫기** 단추가 **승인을 위해 제출** 단추로 변경됩니다.
 
 승인을 위해 타임시트를 제출하려면 다음을 수행하십시오.
 
@@ -158,7 +156,7 @@ Workfront 관리자가 사용자에 대한 타임시트 승인 및 사용자 이
 1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
 
 1. **타임시트**&#x200B;를 클릭합니다.
-1. 화면 오른쪽 상단의 **내 타임시트**&#x200B;를 클릭하거나 **필터** ![](assets/filter-nwepng.png) 드롭다운 메뉴에서 **내 타임시트**&#x200B;을(를) 선택합니다.
+1. 화면 오른쪽 상단의 **내 타임시트**&#x200B;를 클릭하거나 **필터** **드롭다운 메뉴에서**&#x200B;내 타임시트![](assets/filter-nwepng.png)을(를) 선택합니다.
 1. 상태가 **제출됨**&#x200B;인 타임시트의 시간대를 클릭합니다.
 1. **회수**&#x200B;를 클릭합니다.
 

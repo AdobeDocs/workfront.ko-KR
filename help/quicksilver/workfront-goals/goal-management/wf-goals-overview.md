@@ -7,9 +7,9 @@ description: Workfront 목표는 전략을 작업 실행 및 전달에 연결하
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,34 @@ ht-degree: 0%
 
 <!--Audited: 4/2025-->
 
+>[!NOTE]
+>
+>이전에 이 패키지를 구입한 경우 귀사에서 Adobe Workfront 목표를 계속 사용하도록 선택할 수 있습니다. 자세한 내용은 계정 담당자에게 문의하십시오.
+>
+>Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
+>
+>Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
+
+<!--Old: 
+
 >[!IMPORTANT]
 >
->이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
+>Your organization must have the following to use the functionality described in this article:
 >
->* 새 플랜 및 라이선스 구조의 경우:
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront 플랜
+>   * The Ultimate Workfront plan 
 >    
->* 현재 플랜 및 라이선스 구조의 경우:
+>* For the current plan and license structure: 
 >
->   * Pro 이상의 Workfront 플랜
->   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+
+-->
 
 Workfront 목표는 전략을 작업 실행 및 전달에 연결하여 전략을 정의하고, 전달하고, 전략적 결과를 달성하는 데 도움이 됩니다. 모든 사람의 노력을 중요시하는 일에 집중하고, 성과를 측정 가능하며, 팀이 놀라운 결과를 달성할 수 있도록 할 수 있습니다. 자신의 기여가 의미 있는 영향을 미친다는 것을 알고 최선을 다할 수 있다.
 
@@ -43,7 +55,9 @@ Workfront 목표 사용을 위한 모범 사례에 대한 자세한 내용은 [A
 
 >[!IMPORTANT]
 >
->Workfront 목표를 사용하여 관리하는 전략적 목표를 프로젝트의 비즈니스 사례에 속하는 프로젝트 수준 목표와 혼동해서는 안 됩니다. 프로젝트 수준 목표에 대한 자세한 내용은 [비즈니스 사례 목표 만들기](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)를 참조하십시오.
+>Workfront 목표를 사용하여 관리하는 전략적 목표와 프로젝트의 비즈니스 사례에 속하는 프로젝트 수준 목표를 혼동해서는 안 됩니다.
+>
+>프로젝트 수준 목표에 대한 자세한 내용은 [비즈니스 사례 목표 만들기](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)를 참조하십시오.
 
 ## Workfront 목표 기능
 

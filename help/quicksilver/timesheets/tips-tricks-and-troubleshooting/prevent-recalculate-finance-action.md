@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: 재무 다시 계산 작업이 요금이 변경될 때 기록 시간에 영향을 주지 않도록 합니다.
 description: 상승이나 다른 상황으로 인해 사용자 또는 작업 역할에 대한 시간당 비용을 업데이트해야 하지만, 이 변경 사항이 이전에 프로젝트에 로그온한 시간에 영향을 주지 않거나 과거 시간의 일부에만 영향을 주지는 않으려고 합니다.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 29d3124b-cf7a-4a47-95c4-cd5379489810
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%

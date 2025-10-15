@@ -2,13 +2,13 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "프로젝트 만들기: 문서 색인"
+title: '프로젝트 만들기: 문서 색인'
 description: 다음 문서에서 프로젝트 만들기에 대한 정보를 알아봅니다.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a49c9157-05d8-41a6-93c3-068d835b52e3
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%

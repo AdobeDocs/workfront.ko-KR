@@ -6,9 +6,9 @@ description: Adobe Workfront에는 사용할 준비가 된 광범위한 기본 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2978'
 ht-degree: 10%
 
 ---
@@ -23,31 +23,23 @@ Workfront 관리자는 사용자가 액세스할 수 없도록 기본 제공 보
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>기여자 이상</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>요청 이상</p></li>
-         </ul>
+      <p>기여자 이상</p>
+      <p>요청 이상</p>
    </td>
-  </tr> 
+  </tr>
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 보기 또는 상위 액세스 권한</p> </td> 
@@ -59,13 +51,13 @@ Workfront 관리자는 사용자가 액세스할 수 없도록 기본 제공 보
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 ## 기본 제공 보고서 개요 {#overview-of-built-in-reports}
 
-기본 제공 보고서의 복사본을 만들고 새 보고서로 저장할 수 있습니다. 기본 제공 보고서의 복사본을 만드는 방법에 대한 자세한 내용은 문서 [보고서 복사본 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)에서 [보고서의 새 버전 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)를 참조하십시오.
+기본 제공 보고서의 복사본을 만들고 새 보고서로 저장할 수 있습니다. 기본 제공 보고서의 복사본을 만드는 방법에 대한 자세한 내용은 문서 [보고서 복사본 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)에서 [보고서의 새 버전 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)를 참조하십시오.
 
 다음 보고서는 Workfront 패키지와 함께 제공됩니다. 보고서는 액세스 수준에 기본 제공 보고서에 대해 적어도 보기 권한이 있는 모든 사용자가 사용할 수 있습니다.
 

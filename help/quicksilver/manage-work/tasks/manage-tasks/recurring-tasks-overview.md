@@ -9,9 +9,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '677'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ Workfront에서 반복 작업을 만들 때 다음 사항을 고려하십시오.
 | 할당 | ✔ |
 | 이름 | ✔ |
 | 설명 | ✔ |
-| 우선 순위 | ✔ |
+| 우선순위 | ✔ |
 | 기간 | ✔ |
 | 계획된 시간 | ✔ |
 | 비용 유형 | ✔ |

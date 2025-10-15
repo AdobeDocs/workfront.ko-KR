@@ -6,10 +6,10 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 0%
 
 ---
 
@@ -34,9 +34,13 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+>[!NOTE]
+>
+>이전에 이 패키지를 구입한 경우 귀사에서 Adobe Workfront 목표를 계속 사용하도록 선택할 수 있습니다. 자세한 내용은 계정 담당자에게 문의하십시오.
+>
+>Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-이 문서에 설명된 작업을 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto">
 <col>
@@ -44,45 +48,32 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+ <tr>
+  <td> <p>Adobe Workfront 패키지</p> </td> 
    <td> 
-   <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>Ultimate 플랜 </li></ul>
-   </p>
-<p>현재 플랜 및 라이선스 구조의 경우: 
-<ul><li> Pro 이상 </li>
-  <li>Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.</li></ul></p>
+   <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront 라이선스</td>
  <td>
- <p>임의</td>
+ <p>임의</p></td>
  </tr>
- <tr>
- <td role="rowheader">제품*</td>
- <td>
- <p> 새 제품 요구 사항: Workfront</p>
- 또는
- <p>현재 제품 요구 사항: Workfront 라이선스 외에도 Adobe Workfront Goals에 대한 라이선스를 구입해야 합니다. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
- </tr>
- <tr>
+  <tr>
  <td role="rowheader">액세스 수준 구성</td>
- <td> <p>목표에 대한 보기 또는 상위 액세스</p> </td>
+ <td> <p>목표에 대한 보기 또는 상위 액세스</p> 
+ </td>
  </tr>
- <tr data-mc-conditions="">
+ <tr>
  <td role="rowheader">개체 권한</td>
  <td>
   <div>
   <p>목표에 대한 권한 보기 이상</p>
-  <p>기본적으로 사용자는 목표에 대한 액세스 권한이 없습니다 </p>
- <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 목표 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p>  
+   <td> <p>시스템 관리자를 포함한 모든 사용자에게는 기본 메뉴의 목표 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p>  
 </td>
   </tr>
 </tbody>
@@ -92,11 +83,62 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 
 +++
 
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license</td>
+ <td>
+ <p>Any</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+ <p> New product requirement: Workfront</p>
+ Or
+ <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level configuration</td>
+ <td> <p>View or higher access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal</p>
+  <p>By default, users get No Access to goals </p>
+ <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
+
 ## 목표 댓글 관리
 
 목표 페이지의 업데이트 섹션에서 목표에 주석을 추가할 수 있습니다.
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭하거나 왼쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 줄](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **목표**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭하거나 왼쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 줄](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **목표**를 클릭합니다.
 이렇게 하면 목표 목록이 열립니다.
 1. 주석을 추가할 목표를 찾은 다음 해당 이름을 클릭하여 목표 페이지를 엽니다.
 1. 왼쪽 패널에서 **업데이트**&#x200B;를 클릭합니다.

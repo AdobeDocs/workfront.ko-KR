@@ -6,9 +6,9 @@ description: Experience Manager Assets Essentials의 콘텐츠와 작업을 연�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -29,37 +29,37 @@ Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] 플랜
+   <td><strong>Adobe Workfront 패키지</strong>
    </td>
    <td>임의
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] 라이센스
+   <td><strong>Adobe Workfront 라이선스</strong>
    </td>
-   <td><p>현재: [!UICONTROL Plan]</p>
-   <p>새로운 기능: [!UICONTROL Standard]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] 라이센스
-   </td>
-   <td>[!UICONTROL Standard]
+   <td>
+   <p>표준</p>
+   <p>플랜</p>
    </td>
   </tr>
   <tr>
-   <td>제품
+   <td><strong>추가 제품</strong>
    </td>
-   <td>Experience Manager Assets Essentials가 있어야 하며 Admin Console에서 사용자로 제품에 추가되어야 합니다.
+   <td>Experience Manager Assets as a Cloud Service 또는 Assets Essentials가 있어야 하며 제품에 사용자로 추가되어야 합니다.
    </td>
   </tr>
   <tr>
-   <td>액세스 수준 구성
+   <td><strong>Experience Manager 권한</strong>
    </td>
-   <td>[!DNL Workfront] 관리자여야 합니다.
+   <td>Experience Manager 통합에서 대상 폴더에 대한 쓰기 액세스 권한이 있어야 합니다.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>액세스 수준 구성</strong>
+   </td>
+   <td>Experience Manager 통합을 구성하려면 Workfront 관리자여야 합니다. 구성된 후 플랜 라이선스가 있는 사용자는 개별 프로젝트에 연결된 폴더를 설정할 수 있습니다.
    </td>
   </tr>
 </table>
@@ -111,7 +111,7 @@ Workfront 개체 데이터를 Experience Manager Assets의 에셋 미디어 필�
 
 시작하기 전에 다음을 수행해야 합니다
 
-* [Experience Manager Assets과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)에 설명된 대로 Adobe Workfront Essentials에서 메타데이터 스키마를 구성합니다.
+* [Experience Manager Assets과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)에 설명된 대로 Adobe Workfront Essentials에서 메타데이터 스키마를 구성합니다.
 * (선택 사항) Workfront에서 사용자 정의 양식 필드를 구성합니다. Workfront에는 사용할 수 있는 많은 내장 사용자 정의 필드가 있습니다. 하지만 자신만의 사용자 지정 필드를 만들 수도 있습니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## 지원되는 Workfront 및 Experience Manager Assets 필드
@@ -126,7 +126,7 @@ Workfront 지원 필드를 Experience Manager Assets Essentials의 키워드에 
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=ko).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 

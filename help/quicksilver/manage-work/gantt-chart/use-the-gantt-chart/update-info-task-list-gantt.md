@@ -2,22 +2,24 @@
 product-area: projects
 navigation-topic: use-the-gantt-chart
 title: 작업 목록 간트 차트에서 정보 업데이트
-description: 작업 목록 간트 차트는 프로젝트 또는 템플릿에 있는 작업에 대한 세부 정보를 보여 줍니다.
+description: Adobe Workfront 작업 목록의 간트 차트는 프로젝트 또는 템플릿에 있는 작업에 대한 세부 정보를 보여 줍니다.
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 0%
+source-wordcount: '1006'
+ht-degree: 1%
 
 ---
 
 # 작업 목록 [!UICONTROL 간트 차트]의 정보 업데이트
 
-작업 목록 [!UICONTROL 간트 차트]에는 프로젝트 또는 템플릿에 있는 작업에 대한 세부 정보가 표시됩니다.
+<!--Audited: 08/2025-->
 
-템플릿의 작업 목록 [!UICONTROL 간트 차트]는 작업 수준에서 템플릿의 작업 목록에 수행된 업데이트를 반영합니다. 템플릿에 연결된 [!UICONTROL 간트 차트]을(를) 편집할 수 없습니다.
+Adobe Workfront 작업 목록의 [!UICONTROL 간트 차트]에는 프로젝트 또는 템플릿에 있는 작업에 대한 세부 정보가 표시됩니다.
+
+템플릿의 작업 목록 [!UICONTROL 간트 차트]에는 템플릿 작업 수준에서 템플릿의 작업 목록에 수행된 업데이트가 반영됩니다. 템플릿에 연결된 [!UICONTROL 간트 차트]을(를) 편집할 수 없습니다.
 
 프로젝트에서 작업 목록 [!UICONTROL 간트 차트]에서 직접 작업 정보를 업데이트할 수 있습니다.
 
@@ -31,32 +33,60 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 따르려면 다음 사항이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>임의 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL 계획] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL 계획]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트 및 작업에 대한 [!UICONTROL 편집] 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트 및 작업에 대한 [!UICONTROL 편집] 액세스 권한</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트 및 작업에 대한 [!UICONTROL 관리] 액세스 권한 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>프로젝트 및 작업에 대한 [!UICONTROL 관리] 액세스 권한</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++ 
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project and tasks </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 작업 기간 수정
 
@@ -90,7 +120,7 @@ ht-degree: 0%
    >   
    >
 
-1. [!UICONTROL 간트 차트]의 오른쪽 상단 모서리에서 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 간트 차트]**&#x200B;의 오른쪽 상단 모서리에서 [!UICONTROL 저장]을 클릭합니다.
 
 ## 전임 작업 관계 만들기 또는 제거
 
@@ -109,7 +139,7 @@ ht-degree: 0%
 1. 전임 작업 관계를 삭제하려면 두 작업을 연결하는 전임 작업 줄을 클릭하여 선택한 다음 키보드에서 **[!UICONTROL 삭제]**&#x200B;를 누르십시오.\
    ![Delete_predecesser.png](assets/delete-predecessor-350x152.png)
 
-1. (선택 사항 및 조건부) 변경 내용을 수동으로 저장하도록 선택한 경우 변경 내용을 취소하거나 복제하려면 **[!UICONTROL 실행 취소]** 또는 {&#x200B;2}다시 실행&#x200B;**아이콘을 클릭합니다.**
+1. (선택 사항 및 조건부) 변경 내용을 수동으로 저장하도록 선택한 경우 변경 내용을 취소하거나 복제하려면 **[!UICONTROL 실행 취소]** 또는 {&#x200B;2}다시 실행&#x200B;**[!UICONTROL 아이콘을 클릭합니다.]**
 
    >[!TIP]
    >
@@ -193,7 +223,7 @@ ht-degree: 0%
    >![update_percent_complete.png](assets/update-percent-complete-350x175.png)   >
    >
 
-1. (선택 사항 및 조건부) 변경 내용을 수동으로 저장하도록 선택한 경우 변경 내용을 취소하거나 복제하려면 **[!UICONTROL 실행 취소]** 또는 {&#x200B;2}다시 실행&#x200B;**아이콘을 클릭합니다.**
+1. (선택 사항 및 조건부) 변경 내용을 수동으로 저장하도록 선택한 경우 변경 내용을 취소하거나 복제하려면 **[!UICONTROL 실행 취소]** 또는 {&#x200B;2}다시 실행&#x200B;**[!UICONTROL 아이콘을 클릭합니다.]**
 
    >[!TIP]
    >
@@ -206,7 +236,7 @@ ht-degree: 0%
    >   
    >
 
-1. [!UICONTROL 간트 차트]의 오른쪽 상단 모서리에서 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 간트 차트]**&#x200B;의 오른쪽 상단 모서리에서 [!UICONTROL 저장]을 클릭합니다.
 
 ## 프로젝트 리소스 레벨링
 

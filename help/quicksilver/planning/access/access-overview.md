@@ -6,10 +6,10 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 2%
+source-wordcount: '703'
+ht-degree: 1%
 
 ---
 
@@ -54,31 +54,26 @@ Workfront Planning에 액세스하려면 다음 액세스 권한이 있어야 �
  <tr>
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td>
    <td>
-<p>다음 Workfront 패키지 중 하나:</p>
-<ul><li>선택</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>기존 Workfront 패키지에는 Workfront Planning을 사용할 수 없습니다.</p>
-<p>다음 Planning 패키지 중 하나:</p>
-<ul><li><p>Workfront Planning</p></li>
-<li><p>Workfront Planning Plus</p></li></ul>
-<p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p>
-   </td>
+   <p>모든 Workfront 및 Planning 패키지</p>
+   또는
+   <p>모든 워크플로우 및 계획 패키지</p>
+ </td>
 <tr>
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
    <td>
-<p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p>
-<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p>
+   <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p>
+   <p><b>중요 사항</b></p>
+   <p>IMS(Adobe Identity Management System)에 추가된 사용자만 권한을 부여받고 Planning 필드에 추가할 수 있습니다.</p>
+   <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p>
    </td>
   </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
-   <ul><li><p>Workfront Planning 정보를 보려면 표준, 라이트 또는 기여자</p></li>
+   <ul><li><p>임의, Workfront Planning 정보를 보려면</p></li>
    <li><p>표준, 작업 공간 및 뷰 생성</p></li></ul>
-   <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p>
-  </td>
+    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
@@ -112,7 +107,7 @@ Workfront Planning에 액세스하려면 다음 액세스 권한이 있어야 �
  </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 
 ## 레이아웃 템플릿을 사용하여 계획 영역 공유
@@ -149,9 +144,15 @@ Workfront 인스턴스 사용자로부터 Workfront Planning 영역을 추가하
 
    사용자는 작업 공간, 레코드 유형, 레코드 및 필드를 만들 수 있습니다.
 
-## 액세스 권한 부여
+## 사용자에게 라이선스 할당
 
-Workfront Planning에 대한 Workfront 액세스 제어가 없습니다.
+사용자들을 편집하거나 만드는 동안 액세스 수준을 구성할 때 사용자에게 라이선스를 할당할 수 있습니다.
+
+자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
+
+## 액세스 수준 구성
+
+Workfront Planning에 대한 Workfront 액세스 수준 제어가 없습니다.
 
 모든 유형의 Workfront 라이선스가 있는 사용자는 Workfront Planning에 액세스할 수 있습니다.
 

@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-이 섹션에는 다음 문서가 포함됩니다.
+작업은 Adobe Workfront에서 프로젝트 완료에 기여하는 작업 항목입니다. 다음 문서에서 작업 정보에 대해 알아보십시오.
 
 * [작업 개요](../../../manage-work/tasks/task-information/tasks-overview.md)
 * [실제 근로시간 보기](../../../manage-work/tasks/task-information/actual-hours.md)

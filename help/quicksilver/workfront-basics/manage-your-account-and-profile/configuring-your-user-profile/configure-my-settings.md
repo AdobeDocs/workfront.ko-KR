@@ -6,7 +6,7 @@ description: ' [!DNL Adobe Workfront] 프로필에 사용자 자신에 대한 �
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 00162e3d20ab541f3233afd5d0c5d90b4c4d6309
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
 source-wordcount: '3318'
 ht-degree: 1%
@@ -370,7 +370,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 이 활성 상태입니다]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL이 활성 상태입니다]</strong> </td> 
    <td>이 필드는 [!DNL Workfront] 관리자이기도 한 사용자만 볼 수 있으며 기본적으로 활성화되어 있어야 합니다. 사용자가 활성 상태로에 로그인할 수 있음을 의미합니다. [!DNL Workfront]</td> 
   </tr> 
   <tr> 
@@ -392,13 +392,13 @@ ht-degree: 1%
   --> 
   <tr> 
    <td role="rowheader"><strong>(조건부) [!UICONTROL 사용자가 증명을 생성할 수 있음(... 증명 라이선스 중... 남아 있음)]</strong></td> 
-   <td>이 필드는 회사에서 레거시 [!DNL Workfront] 플랜을 사용하고 [!DNL Workfront Proof] 구성 요소를 구입한 경우에만 사용할 수 있습니다. 이 옵션을 선택하면 증명 사용자로 활성화됩니다. 구매한 총 증명 라이선스 수 중 시스템에 사용된 증명 라이선스 수도 표시됩니다. 이 필드는 [!DNL Workfront]명의 관리자이기도 한 사용자만 볼 수 있고 편집할 수 있습니다. [!DNL Workfront]에서 증명을 위한 플랜 옵션에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">증명 기능에 대한 액세스([!DNL Workfront]</a>)를 참조하십시오.</td>
+   <td>이 필드는 회사에서 레거시 [!DNL Workfront] 패키지를 사용하고 [!DNL Workfront Proof] 구성 요소를 구입한 경우에만 사용할 수 있습니다. 이 옵션을 선택하면 증명 사용자로 활성화됩니다. 구매한 총 증명 라이선스 수 중 시스템에 사용된 증명 라이선스 수도 표시됩니다. 이 필드는 [!DNL Workfront]명의 관리자이기도 한 사용자만 볼 수 있고 편집할 수 있습니다. [!DNL Workfront]에서 증명을 위한 플랜 옵션에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">증명 기능에 대한 액세스([!DNL Workfront]</a>)를 참조하십시오.</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(조건부) [!UICONTROL 권한 프로필]</strong></td> 
    <td> <p>이 필드에는 [!DNL Workfront Proof]의 액세스 수준이 표시됩니다. 다음 경우에만 사용할 수 있습니다.</p> 
     <ul> 
-     <li>회사에서 레거시 [!DNL Workfront] 플랜을 사용하고 [!DNL Workfront Proof] 구성 요소를 구매했거나 새로운 [!DNL Workfront] 플랜에 [!UICONTROL Standard], [!UICONTROL Work] 또는 [!UICONTROL Plan] 라이선스를 보유하고 있습니다.</li> 
+     <li>회사에서 레거시 [!DNL Workfront] 패키지를 사용하고 [!DNL Workfront Proof] 구성 요소를 구매했거나 최신 [!DNL Workfront] 패키지에 [!UICONTROL Standard], [!UICONTROL Work] 또는 [!UICONTROL Plan] 라이센스가 있습니다.</li> 
      <li>증명 사용자로 활성화되었습니다.</li> 
     </ul> <p>[!DNL Workfront] 관리자는 자신을 제외한 모든 사용자에 대한 필드를 편집할 수 있으므로 모든 사용자는 자신의 프로필에서 필드를 보기 전용으로 볼 수 있습니다. 권한 프로필에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">증명 권한 프로필 개요</a>를 참조하십시오.</p> </td> 
   </tr> 

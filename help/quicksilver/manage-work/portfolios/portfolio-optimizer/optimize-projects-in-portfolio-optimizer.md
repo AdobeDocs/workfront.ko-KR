@@ -6,9 +6,9 @@ description: '[!UICONTROL Portfolio 최적화 도구]를 사용하여 점수 및
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -28,23 +28,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td> 임의</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
+   <td> <p>Workfront Prime 이상</p>
+      <p>워크플로우 Prime 이상</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard] </p>
-   <p>현재: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL 계획]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트 및 포트폴리오에 대한 [!UICONTROL 편집] 액세스</p> </td> 
-  </tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>[!UICONTROL Portfolios] 및 [!UICONTROL Projects]에 대한 [!UICONTROL 편집] 액세스</p>  </td>
+</tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p> <p>프로젝트에 대한 또는 더 높은 권한 기여</p> 
-   <p><b>프로젝트 우선 순위 설정</b>을 사용하려면 목록에 있는 모든 프로젝트에 대한 관리 권한이 있어야 합니다.</p>
-    </td> 
+   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +52,33 @@ ht-degree: 0%
 *자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> 
+   <p>You must have Manage permissions to all the projects in the list to be able to use <b>Set project priority</b>.</p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Portfolio Optimizer에서 프로젝트 최적화
 
@@ -75,7 +102,7 @@ ht-degree: 0%
 
 1. 최적화 범주를 닫으려면 **x 아이콘**&#x200B;을 클릭하십시오.
 
-   **[!UICONTROL 점수]** 열의 각 프로젝트에 대한 [!UICONTROL 점수] 값을 업데이트합니다.
+   [!UICONTROL 점수] 열의 각 프로젝트에 대한 **[!UICONTROL 점수]** 값을 업데이트합니다.
 
    [!UICONTROL Portfolio 최적화 도구] 점수에 대한 자세한 내용은 [[!UICONTROL Portfolio 최적화 도구 개요] 점수](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)를 참조하십시오.
 

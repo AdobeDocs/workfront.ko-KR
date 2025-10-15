@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: "계산된 사용자 정의 필드 예: 문제 사용자 정의 양식에 문제 작성자의 관리자 표시"
+title: '계산된 사용자 정의 필드 예: 문제 사용자 정의 양식에 문제 작성자의 관리자 표시'
 description: 계산된 사용자 정의 필드를 사용하면 문제에 첨부된 사용자 정의 양식에 문제 작성자의 관리자 이름을 표시할 수 있습니다. 동일한 명령문을 사용하여 프로젝트, 문제 및 기타 개체에 대해 유사한 계산된 필드를 작성할 수 있습니다.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,36 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>임의</td> 
+   <td> <p>Adobe Workfront 패키지</p> </td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront 라이센스*</p> </td> 
-   <td> <p>플랜 </p> </td> 
+   <td> <p>Adobe Workfront 라이선스</p> </td> 
+   <td>
+      <p>표준</p>
+      <p>플랜</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td>액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스<br>액세스 수준에서 관리 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">특정 영역에 대한 사용자 관리 액세스 권한 부여</a>를 참조하십시오.</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+  <tr> 
+   <td><p>액세스 수준 구성</p></td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>개체 권한</p> </td> 
-   <td> <p>사용자 정의 양식 편집에 대한 액세스 권한이 있는 양식이 첨부된 오브젝트에 대한 Contribute 액세스 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>사용자 정의 양식 편집에 대한 액세스 권한을 가지고 양식이 첨부된 오브젝트에 대한 액세스 기여</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 문제 사용자 정의 양식에 문제 작성자의 관리자 표시
 

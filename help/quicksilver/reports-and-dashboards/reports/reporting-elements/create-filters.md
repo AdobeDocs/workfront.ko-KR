@@ -6,9 +6,9 @@ description: 필터를 사용하여 항목 목록의 화면에 표시되는 정�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2375'
 ht-degree: 1%
 
 ---
@@ -35,48 +35,35 @@ Adobe Workfront에서 다음 유형의 필터를 적용할 수 있습니다.
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜*</strong></td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
+   <td role="rowheader">Adobe Workfront 라이선스</strong></td> 
    <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>필터를 수정하는 기여자</p></li>
-         <li><p>보고서에서 필터를 수정하는 표준</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>필터 수정 요청</p></li>
-         <li><p>보고서의 필터 수정 계획</p></li>
-         </ul>
+    <p>필터 수정을 위한 기여자 또는 요청</p>
+    <p>보고서에서 필터를 수정하는 표준 또는 계획</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <ul><li><p>필터, 보기 및 그룹화에 대한 액세스 편집</p></li></ul>
-
-보고서에서 필터를 편집하려면 필터, 보기 및 그룹화에 대한 편집 액세스 권한 외에도 다음 액세스 수준 구성이 있어야 합니다.
-
-<ul><li><p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p></li></ul>   
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>개체 권한*</strong></td> 
-   <td> <p>필터에 대한 권한 관리</p></td> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>필터에 대한 권한 관리</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -131,7 +118,7 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해
 서로 다른 인터페이스를 사용하여 필터를 만들 때는 다음 사항을 고려하십시오.
 
 * 위의 표에 나열된 영역에 대한 이전 필터 인터페이스를 찾는 동일한 위치에서 표준 빌더를 찾을 수 있습니다.
-* 표준 빌더는 사용할 수 있는 모든 영역에 대한 기본 경험입니다. 기존 필터 빌더로 전환하려면 [!UICONTROL **필터**] 옆의 **자세히** 메뉴를 클릭하고 [!UICONTROL **기존 필터로 돌아가기**]&#x200B;를 선택합니다.
+* 표준 빌더는 사용할 수 있는 모든 영역에 대한 기본 경험입니다. 기존 필터 빌더로 전환하려면 **필터** 옆의 [!UICONTROL **자세히**] 메뉴를 클릭하고 [!UICONTROL **기존 필터로 돌아가기**]&#x200B;를 선택합니다.
 
   ![기존 필터로 돌아가기](assets/use-legacy-filters.png)
 

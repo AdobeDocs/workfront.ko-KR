@@ -6,9 +6,9 @@ description: 각 위젯에는 고유한 작업 목록이 포함되어 있습니�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '994'
 ht-degree: 4%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 4%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,13 +35,13 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
-   <td> <p>신규:</p><ul><li>승인용 [!UICONTROL Contributor]</li> <li>다른 모든 개체의 [!UICONTROL Standard] 이상</li> <p>또는</p> 
-  </ul><p>현재:</p><ul><li>승인용 [!UICONTROL Review]</li> <li>다른 모든 개체에 대해 [!UICONTROL Work] 이상</li> </td> 
+   <td><ul><li>승인용 [!UICONTROL Contributor]</li> <li>다른 모든 개체의 [!UICONTROL Standard] 이상</li> <p>또는</p> 
+  </ul><ul><li>승인용 [!UICONTROL Review]</li> <li>다른 모든 개체에 대해 [!UICONTROL Work] 이상</li> </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
@@ -56,7 +54,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

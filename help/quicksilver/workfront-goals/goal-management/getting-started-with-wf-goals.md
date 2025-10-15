@@ -4,33 +4,44 @@ description: Workfront 목표는 전략을 작업 실행 및 전달에 연결하
 author: Alina
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1349'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront 목표 시작
 
-<!--Audited for P&P only: 4/2025-->
+<!--Audited for P&P only: 10/2025-->
 
+
+>[!NOTE]
+>
+>이전에 이 패키지를 구입한 경우 귀사에서 Adobe Workfront 목표를 계속 사용하도록 선택할 수 있습니다. 자세한 내용은 계정 담당자에게 문의하십시오.
+>
+>Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
+>
+>Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
+
+<!--Old:
 >[!IMPORTANT]
 >
->이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
+>Your organization must have the following to use the functionality described in this article:
 >
->* 새 플랜 및 라이선스 구조의 경우:
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront 플랜
+>   * The Ultimate Workfront plan 
 >    
->* 현재 플랜 및 라이선스 구조의 경우:
+>* For the current plan and license structure: 
 >
->   * Pro 이상의 Workfront 플랜
->   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+-->
 
 모든 조직은 팀이 생산적이고 집중적이며 참여할 수 있도록 명확한 목표를 설정하고 전달해야 합니다. 일이 전략과 어떻게 연계되어 있는지를 진정으로 아는 것이 성공의 핵심이다. 그러나 전략과 목표를 조직 내 작업과 연결하는 기록 시스템이 없다면 정렬을 달성하는 것은 매우 어려울 수 있습니다.
 

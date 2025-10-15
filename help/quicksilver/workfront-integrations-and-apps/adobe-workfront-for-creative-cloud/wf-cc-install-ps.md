@@ -6,16 +6,16 @@ description: Adobe 마켓플레이스에서 Photoshop용 Adobe Workfront 플러�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 1%
+source-wordcount: '493'
+ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Workfront for Photoshop] 설치 및 열기
 
-[!DNL Adobe Marketplace]에서 [!DNL Adobe Workfront for Photoshop] 플러그인을 설치할 수 있습니다. 플러그인은 다음 언어를 지원합니다.
+[!DNL Adobe Workfront for Photoshop]에서 [!DNL Adobe Marketplace] 플러그인을 설치할 수 있습니다. 플러그인은 다음 언어를 지원합니다.
 
 * 영어
 * 프랑스어
@@ -32,34 +32,34 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <!--<tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td>Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">제품</td> 
-   <td><p>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/kr/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud 지원 정책</a>을 참조하세요.</p></td> 
+   <td role="rowheader">추가 제품</td> 
+   <td><p>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 ## 전제 조건
 
-* [!DNL Workfront] 플러그인을 설치하기 전에 [!DNL Adobe Photoshop] 앱을 설치해야 합니다.
+* [!DNL Adobe Photoshop] 플러그인을 설치하기 전에 [!DNL Workfront] 앱을 설치해야 합니다.
 
 ## 조직에 대한 [!DNL Adobe Workfront for Photoshop] 플러그 인 설치
 
@@ -67,13 +67,13 @@ ht-degree: 1%
 
 [비디오 튜토리얼은 여기에서 봅니다](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console][&#128279;](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
+[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은 [에서 사용자의  [!DNL Adobe Workfront] [!UICONTROL [!DNL Creative Cloud]] for [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)패키지 만들기를 참조하십시오.
 
 ## 개별적으로 [!DNL Adobe Workfront for Photoshop] 플러그 인을 설치하십시오.
 
-[!DNL Adobe Exchange]에서 직접 [!DNL Adobe Workfront for Photoshop] 플러그인을 설치할 수 있습니다.
+[!DNL Adobe Workfront for Photoshop]에서 직접 [!DNL Adobe Exchange] 플러그인을 설치할 수 있습니다.
 
-1. Adobe Exchange에서 [Photoshop용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share)(으)로 이동합니다.
+1. Adobe Exchange의 [Photoshop용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share)&#x200B;(으)로 이동합니다.
 1. 표시되는 대화 상자에서 **데스크톱 앱 [!DNL Adobe Creative Cloud] 열기**&#x200B;를 클릭합니다.
 1. [!DNL Adobe Photoshop] 플러그 인 관리자가 열리면 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. 대화 상자에서 정보를 읽은 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
@@ -101,7 +101,7 @@ ht-degree: 1%
 ## [!DNL Adobe Workfront for Photoshop]에 로그인
 
 1. 화면 상단의 **[!UICONTROL 플러그인]** 메뉴에서 **[!UICONTROL 플러그인 패널]**&#x200B;을 선택합니다.
-1. **[!DNL Adobe Workfront for Photoshop]**&#x200B;을(를) 선택합니다.
+1. **[!DNL Adobe Workfront for Photoshop]**&#x200B;를 선택합니다.
 1. 도메인을 입력한 다음 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다. 브라우저 페이지가 열립니다. 브라우저를 열려면 Photoshop 권한을 부여해야 할 수 있습니다.
 
    >[!TIP]
@@ -122,7 +122,7 @@ ht-degree: 1%
    >[!NOTE]
    >
    >* [!DNL Workfront]은(는) 사용자의 인증 및 권한 부여를 위해 대부분의 웹 기반 통합에서 사용하는 보안 표준인 OAuth 2.0을 사용하여 [!DNL Adobe Creative Cloud]에 연결합니다.
-   >* [!DNL Workfront] 계정의 [도메인 또는 호스트]를 입력하라는 메시지가 표시되면 *yourCompany&#39;sDomain.my.workfront.com* 형식을 사용하여 입력하세요. 회사의 도메인은 일반적으로 회사의 이름입니다.
+   >* [ 계정의 ]도메인 또는 호스트[!DNL Workfront]를 입력하라는 메시지가 표시되면 *yourCompany&#39;sDomain.my.workfront.com* 형식을 사용하여 입력하세요. 회사의 도메인은 일반적으로 회사의 이름입니다.
 
 1. 로그인을 완료하려면 **[!UICONTROL 액세스 허용]**&#x200B;을 클릭하세요.
-1. 작업을 보려면 [!UICONTROL Adobe Photoshop] (으)로 돌아가십시오.
+1. 작업을 보려면 [!UICONTROL Adobe Photoshop]&#x200B;(으)로 돌아가십시오.

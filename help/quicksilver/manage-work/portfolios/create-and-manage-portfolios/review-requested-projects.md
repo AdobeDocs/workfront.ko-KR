@@ -6,16 +6,16 @@ description: 프로젝트 요청은 Adobe Workfront에서 [!UICONTROL 요청됨]
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # 요청된 프로젝트 검토
 
-검토를 위해 여러 개의 프로젝트 요청이 제출되면 프로젝트 관리 사무소나 포트폴리오 위원회는 제출된 요청을 검토하고 프로젝트 요청 승인을 결정할 수 있습니다. 프로젝트 요청은 [!DNL Adobe Workfront]에서 [!UICONTROL 요청됨] 상태의 프로젝트로 표시됩니다.
+검토를 위해 여러 개의 프로젝트 요청이 제출되면 프로젝트 관리 사무소나 포트폴리오 위원회는 제출된 요청을 검토하고 프로젝트 요청 승인을 결정할 수 있습니다. 프로젝트 요청은 [!UICONTROL 에서 ]요청됨[!DNL Adobe Workfront] 상태의 프로젝트로 표시됩니다.
 
 다음 중 하나를 수행하여 검토를 위해 프로젝트 요청을 제출할 수 있습니다.
 
@@ -30,21 +30,20 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
    <td><p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL 계획] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>[!UICONTROL Standard] </p> 
+   <p>[!UICONTROL 계획]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -61,11 +60,36 @@ ht-degree: 0%
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td><p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] access or higher to Portfolios</p> <p>[!UICONTROL Edit] access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] permissions or higher on the portfolio</p> <p>[!UICONTROL Manage] permissions on the projects to update their status</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## 프로젝트 보고서에서 요청된 프로젝트 검토
 
 프로젝트에 대한 보고서를 작성하여 상태가 [!UICONTROL 요청됨]인 프로젝트를 확인할 수 있습니다.
 
-프로젝트 보고서를 작성하여 프로젝트 요청을 승인하는 방법에 대한 자세한 내용은 [비즈니스 사례 승인](../../../manage-work/projects/define-a-business-case/approve-business-case.md)의 [[!UICONTROL 프로젝트 보고서를 작성하여 비즈니스 사례 승인]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) 섹션을 참조하십시오. 
+프로젝트 보고서를 작성하여 프로젝트 요청을 승인하는 방법에 대한 자세한 내용은 [[!UICONTROL 비즈니스 사례 승인]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)의 [프로젝트 보고서를 작성하여 비즈니스 사례 승인](../../../manage-work/projects/define-a-business-case/approve-business-case.md) 섹션을 참조하십시오. 
 
 ## 포트폴리오 내에서 요청된 프로젝트 검토
 
@@ -83,7 +107,7 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **[!UICONTROL 프로젝트 세부 정보]**&#x200B;를 클릭합니다.
 1. 다음 중 하나를 수행합니다.
 
-   * **[!UICONTROL 비즈니스 사례]**&#x200B;를 클릭한 다음 [!UICONTROL 비즈니스 사례 요약] 영역에서 **[!UICONTROL 승인]** 또는 **[!UICONTROL 거부]**&#x200B;를 클릭하여 비즈니스 사례를 승인하거나 거부합니다.
+   * **[!UICONTROL 비즈니스 사례]**&#x200B;를 클릭한 다음 **[!UICONTROL 비즈니스 사례 요약]** 영역에서 **[!UICONTROL 승인]** 또는 [!UICONTROL 거부]를 클릭하여 비즈니스 사례를 승인하거나 거부합니다.
 
      ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 

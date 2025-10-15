@@ -2,12 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '작업 제한 개요: 최신 사용 가능한 시간'
+title: '작업 제한 개요: 사용 가능한 최신 시간'
 description: 최근 사용 가능한 시간(LAT)은 Adobe Workfront의 작업 제한 유형입니다.
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
-source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%

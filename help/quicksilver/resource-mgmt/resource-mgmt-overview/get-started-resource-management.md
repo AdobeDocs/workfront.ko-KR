@@ -7,9 +7,9 @@ description: 자원 관리를 사용하면 자원 가용성에 따라 자원의 
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Workfront에서 리소스를 관리하는 프로세스에는 다음 단계가 �
   리소스 계획 및 할당 작업에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
    * [리소스 계획: 문서 색인](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [Adobe Workfront 시나리오 플래너](../../scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]: 문서 인덱스](../../scenario-planner/scenario-planning.md)
    * [업무 균형자: 문서 색인](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
@@ -147,7 +147,7 @@ Workfront에서 리소스를 관리하는 프로세스에는 다음 단계가 �
    * 재무 데이터에 대한 액세스 권한을 편집하여 리소스 플래너에 비용 정보 표시
    * 재무 데이터에 대한 액세스를 조회하여 활용성 보고서에서 비용 및 수익 정보를 조회합니다(계획 라이센스가 있는 사용자만).
 
-* 리소스를 관리할 프로젝트에 대해 할당 만들기를 포함하는 Contribute 이상의 권한.
+* 리소스를 관리할 프로젝트에 대한 할당 만들기를 포함하는 기여 또는 상위 권한
 
 <!--
 * Designated as a Resource Manager for projects to use the Scheduling tool (the Scheduling tool is deprecated).
@@ -167,8 +167,8 @@ Workfront에서 리소스 관리 도구를 효율적으로 사용하려면 먼�
 
 Workfront의 각 리소스 관리 도구에 대한 요구 사항 정보는 다음을 참조하십시오.
 
-* 문서 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md)의 섹션 [리소스 플래너에서 작업하기 위한 필수 구성 요소](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner).
-* [업무 균형자 개요](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 문서의 [업무 균형자 사용 모범 사례](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) 섹션.
+* 문서 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner)의 섹션 [리소스 플래너에서 작업하기 위한 필수 구성 요소](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* [업무 균형자 개요](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) 문서의 [업무 균형자 사용 모범 사례](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 섹션.
 * [Adobe Workfront에서 리소스 예산을 책정하는 데 필요한 액세스](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [업무 균형자에서 리소스를 관리하는 데 액세스](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)해야 합니다.
 

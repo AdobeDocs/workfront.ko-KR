@@ -6,10 +6,10 @@ description: 카드에 태그를 추가하여 비슷하다는 것을 시각적�
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 1%
+source-wordcount: '543'
+ht-degree: 3%
 
 ---
 
@@ -25,22 +25,19 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
-   <p>또는</p>
-   <p>현재: [!UICONTROL Request] 이상</p>
+   <p>기여자 이상</p> 
+   <p>요청 이상</p>
    </td> 
   </tr> 
  </tbody> 
@@ -59,7 +56,7 @@ ht-degree: 1%
 
    ![태그 관리자 선택](assets/boards-tagmanager-350x189.png)
 
-1. [!UICONTROL 태그 관리자] 대화 상자의 [!UICONTROL 보드 태그] 섹션에서 [!UICONTROL **태그 추가**]&#x200B;를 선택합니다.
+1. [!UICONTROL 태그 관리자] 대화 상자의 [!UICONTROL **보드 태그**] 섹션에서 [!UICONTROL 태그 추가]를 선택합니다.
 1. 강조 표시된 상자에 태그 이름을 입력한 다음 드롭다운 메뉴에서 이 태그의 색상을 선택합니다. 태그는 자동으로 저장됩니다.
 1. (조건부) 추가 태그를 만들려면 4-5단계를 반복합니다.
 1. 상자의 오른쪽 상단 모서리에서 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.

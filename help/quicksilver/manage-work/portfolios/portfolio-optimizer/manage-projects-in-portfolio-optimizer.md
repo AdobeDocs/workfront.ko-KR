@@ -2,20 +2,20 @@
 content-type: reference
 product-area: portfolios;projects
 navigation-topic: portfolios-navigation-topic
-title: '[!UICONTROL Portfolio 최적화 도구]에서 프로젝트 관리'
+title: '[!UICONTROL Portfolio Optimizer]에서 프로젝트 관리: 문서 색인'
 description: '[!UICONTROL Portfolio 최적화 도구]는 프로젝트 평가 및 비교에 사용되는 도구입니다. 포트폴리오에 할당된 프로젝트의 비즈니스 사례 값을 검토하고 비교하는 프로세스는 포트폴리오 관리자가 프로젝트의 우선 순위를 지정하고 조직에 가장 많은 가치를 생성할 수 있는 방법입니다.'
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 662d4975-3af5-4de6-befa-abadeedf2b0d
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Portfolio 최적화 도구]에서 프로젝트 관리
+# [!UICONTROL Portfolio Optimizer]에서 프로젝트 관리: 문서 인덱스
 
 [!UICONTROL Portfolio 최적화 도구]는 프로젝트 평가 및 비교에 사용되는 도구입니다. 포트폴리오에 할당된 프로젝트의 비즈니스 사례 값을 검토하고 비교하는 프로세스는 포트폴리오 관리자가 프로젝트의 우선 순위를 지정하고 조직에 가장 많은 가치를 생성할 수 있는 방법입니다.
 

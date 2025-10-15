@@ -6,9 +6,9 @@ description: 목록이나 보고서에 표시될 때 오브젝트를 인라인�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -31,34 +31,28 @@ ht-degree: 0%
   예를 들어 작업 보고서에서 작업의 상태를 편집할 수 있지만 동일한 보고서에서 작업이 연결된 프로젝트의 이름을 편집할 수는 없습니다. 프로젝트 보고서에서만 프로젝트의 이름을 편집할 수 있습니다.
 * 목록에 대한 보기에 기본 통화가 표시되지 않으면 필드를 인라인 편집할 수 없습니다.
 
-  기본 통화 표시에 대한 자세한 내용은 문서 [환율을 고유하게 사용하는 재무 데이터 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)의 [고유 통화를 사용하는 보고서 편집](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) 섹션을 참조하십시오.
+  기본 통화 표시에 대한 자세한 내용은 문서 [환율을 고유하게 사용하는 재무 데이터 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies)의 [고유 통화를 사용하는 보고서 편집](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md) 섹션을 참조하십시오.
 * 목록에 표시되는 플래그 및 아이콘은 편집할 수 없습니다.
 * 다른 보고서에서 가져온 보고서 필드는 인라인 편집할 수 없습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-    <p>신규:</p>
-   <ul><li><p>기여자 이상 </p></li>
-   </ul>
-
-<p>현재:</p>
-   <ul><li><p>요청 이상</p></li>
-    </ul></td> 
+   <p>기여자 이상 </p>
+   <p>요청 이상</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -71,7 +65,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

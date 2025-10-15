@@ -6,9 +6,9 @@ description: 보고서를 만들어 Adobe Workfront에서 조직에 필요한 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1816'
 ht-degree: 1%
 
 ---
@@ -30,34 +30,33 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 표준 </p>
-   또는
-   <p>현재: 플랜 </p> </td> 
+   <td> 
+      <p>표준</p>
+      <p>플랜</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p></td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>작성한 보고서에 대한 관리 권한을 받습니다.</p></td> 
+   <td> <p>작성한 보고서에 대한 관리 권한을 받습니다</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -69,7 +68,7 @@ ht-degree: 1%
 
    Report Builder가 로드됩니다.
 
-   사용 가능한 개체 보고서에 대한 자세한 내용은 문서 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 [개체 보고서](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) 섹션을 참조하십시오.
+   사용 가능한 개체 보고서에 대한 자세한 내용은 문서 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)의 [개체 보고서](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.
 
    ![새 보고서 선택](assets/nwe-select-new-report-350x666.png)
 
@@ -127,7 +126,7 @@ ht-degree: 1%
 
    또는
 
-   기존 열을 변경하려면 열을 클릭하고 Report Builder의 왼쪽 위 모서리에 있는 **이 열 필드에 표시** 영역에서 현재 필드 오른쪽에 있는 **제거** 아이콘 ![열 제거 아이콘](assets/remove-column-icon.png)을 클릭한 다음 새 필드를 입력한 다음 목록에 표시될 때 클릭합니다.
+   기존 열을 변경하려면 열을 클릭하고 Report Builder의 왼쪽 위 모서리에 있는 **이 열 필드에 표시** 영역에서 현재 필드 오른쪽에 있는 ![제거](assets/remove-column-icon.png) 아이콘 **열 제거 아이콘**&#x200B;을 클릭한 다음 새 필드를 입력한 다음 목록에 표시될 때 클릭합니다.
 
    열에 표시되는 필드에 대한 자세한 내용은 [Adobe Workfront 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)를 참조하십시오.
 

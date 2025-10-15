@@ -6,9 +6,9 @@ description: ' [!DNL Jira] 문제를  [!DNL Adobe Workfront] 작업 또는 문�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: 064418302767ad20e176080ba9a12db548750f3c
+source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >Jira와 조직의 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Jira용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Jira 소프트웨어 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)을 참조하십시오.
+>Jira용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Jira 소프트웨어 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)을 참조하십시오.
 
 <!--
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -51,38 +51,37 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td><p>새로 만들기: 모두</p>
-       <p>또는</p>
-       <p>현재: [!UICONTROL Pro] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td><p>임의</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td><p>새로운 기능: [!UICONTROL Standard]</p>
-       <p>또는</p>
-       <p>현재: [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>표준 </p>
+       <p>플랜 </p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Jira] 액세스</td> 
-   <td> <p>시스템 관리자 액세스</p> <p>중요: 사용자에게 첨부할 수 있는 기존 계정을 사용하는 대신 [!DNL Jira] 및 [!DNL Workfront]에서 별도의 시스템 관리자 계정을 만들어 이 통합 전용을 사용하는 것이 좋습니다.</p> </td> 
+   <td role="rowheader">Jira 액세스</td> 
+   <td> <p>시스템 관리자 액세스</p> <p>중요: 사용자에게 첨부할 수 있는 기존 계정을 사용하는 대신 Jira 및 Workfront에서 별도의 시스템 관리자 계정을 만들어 이 통합 전용을 하는 것이 좋습니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>[!DNL Workfront] 관리자여야 합니다.</p> </td> 
+   <td> <p>Workfront 관리자여야 합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -175,7 +174,7 @@ ht-degree: 0%
    <td>[!UICONTROL 문제 상태]</td> 
    <td> <p> [!UICONTROL 문제 또는 작업 상태]</p> <p>[!DNL Jira]의 문제 상태가 Workfront의 다음 상태 또는 다음 상태와 동일한 상태와 동기화됩니다.</p> 
     <ul> 
-     <li> <p>[!UICONTROL New] ([!UICONTROL NEW])</p> </li> 
+     <li> <p>[!UICONTROL New]([!UICONTROL NEW])</p> </li> 
      <li> <p>[!UICONTROL 진행 중] ([!UICONTROL INP])</p> </li> 
      <li> <p>[!UICONTROL Closed]/[!UICONTROL Complete] ([!UICONTROL CLS]/[!UICONTROL CPL])</p> </li> 
     </ul> <p>참고: [!DNL Jira] 상태는 적절한 상태와 일치하는 첫 번째 [!DNL Workfront] 상태와 동기화됩니다.</p> <p>[!DNL Workfront]에 있는 항목의 상태에 대한 자세한 내용은 <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">상태 만들기 또는 편집</a>을 참조하세요.</p> </td> 
@@ -207,13 +206,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->시간이 [!DNL Jira] 작업에 연결된 [!DNL Workfront] 항목에 추가된 경우 [!UICONTROL 의 &#x200B;]시간 유형[!DNL Workfront]은(는) [!UICONTROL 작업 시간]입니다. 시간이 [!DNL Jira] 문제와 연결된 [!DNL Workfront] 항목에 추가된 경우 [!UICONTROL 의 &#x200B;]시간 유형[!DNL Workfront]은(는) [!UICONTROL 문제 시간]입니다.
+>시간이 [!DNL Jira] 작업에 연결된 [!DNL Workfront] 항목에 추가된 경우 [!UICONTROL 의 ]시간 유형[!DNL Workfront]은(는) [!UICONTROL 작업 시간]입니다. 시간이 [!DNL Jira] 문제와 연결된 [!DNL Workfront] 항목에 추가된 경우 [!UICONTROL 의 ]시간 유형[!DNL Workfront]은(는) [!UICONTROL 문제 시간]입니다.
 
 시간 로깅을 기록하려면 **[!DNL Workfront]**&#x200B;의 [!DNL Jira] 탭과 **[!UICONTROL 의 항목의]**&#x200B;업데이트[!DNL Workfront] 탭에 댓글이 추가됩니다.\
 시간은 **[!UICONTROL 항목의]**&#x200B;시간[!DNL Workfront] 탭에도 표시됩니다.
 
 * [연결된 항목 [!DNL Jira] 및 [!DNL Workfront] 항목에 대한 로그 시간](#log-time-for-linked-jira-and-workfront-items)
-* [&#x200B; [!DNL Jira] 부터  [!DNL Workfront] 항목까지 시간 기록](#log-time-from-jira-to-a-workfront-item)
+* [ [!DNL Jira] 부터  [!DNL Workfront] 항목까지 시간 기록](#log-time-from-jira-to-a-workfront-item)
 
 ### 연결된 [!DNL Jira] 및 [!DNL Workfront]개 항목에 대한 로그 시간
 
@@ -221,7 +220,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL Jira]의 시간을 기록하는 사용자가 [!DNL Workfront]에 없는 경우 **[!UICONTROL 사용자에게 [!DNL Workfront] [!DNL Jira] 계정이 없는 &#x200B; 경우 *자동으로 [!DNL Workfront]에 사용자를 만듭니다]**&#x200B;이(가)**[!UICONTROL &#x200B; Always &#x200B;]**(으)로 설정되어 있는 경우&#x200B; 통합에서 Workfront에 새 활성 사용자를 만듭니다. 이 사용자는 [!DNL Workfront] 라이선스를 사용하지 않습니다. [!DNL Workfront]의 작업 항목에 활성 사용자를 할당할 수 있지만 업데이트에 포함할 수 없습니다. [!DNL Workfront]에서 [!DNL Jira]명의 사용자를 자동으로 만드는 구성에 대한 자세한 내용은 [구성 [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)을 참조하십시오.
+>[!DNL Jira]의 시간을 기록하는 사용자가 [!DNL Workfront]에 없는 경우 **[!UICONTROL 사용자에게 [!DNL Workfront] [!DNL Jira] 계정이 없는 &#x200B; 경우 *자동으로 [!DNL Workfront]에 사용자를 만듭니다]**이(가)**[!UICONTROL  Always ]**(으)로 설정되어 있는 경우&#x200B; 통합에서 Workfront에 새 활성 사용자를 만듭니다. 이 사용자는 [!DNL Workfront] 라이선스를 사용하지 않습니다. [!DNL Workfront]의 작업 항목에 활성 사용자를 할당할 수 있지만 업데이트에 포함할 수 없습니다. [!DNL Workfront]에서 [!DNL Jira]명의 사용자를 자동으로 만드는 구성에 대한 자세한 내용은 [구성 [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)을 참조하십시오.
 
 [!DNL Jira]에 항목의 시간을 기록하여 [!DNL Jira] 및 [!DNL Workfront]에 모두 기록하려면 다음을 수행합니다.
 
@@ -256,7 +255,7 @@ ht-degree: 0%
 
    시간이 [!DNL Workfront] 항목에 추가됩니다.
 
-   이 시간은 [!UICONTROL &#x200B; 문제의 &#x200B;]작업 로그[!DNL Jira] 탭에 추가되지 않습니다.
+   이 시간은 [!UICONTROL  문제의 ]작업 로그[!DNL Jira] 탭에 추가되지 않습니다.
 
 ## 연결된 [!DNL Jira] 문제의 댓글 {#comment-from-a-linked-jira-issue}
 

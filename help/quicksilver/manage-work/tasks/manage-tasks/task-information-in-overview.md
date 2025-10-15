@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 작업 세부 정보 개요 영역에서 작업 정보 관리
-description: 작업 세부 정보 개요 영역에서 작업 정보 관리
+description: 작업 세부 정보 섹션의 개요 영역에 액세스하여 작업 정보를 보거나 편집할 수 있습니다. 작업 세부 정보 섹션에서 보거나 편집할 수 있는 필드는 제한되어 있습니다.
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2102'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-작업 세부 정보 섹션의 개요 영역에 액세스하여 작업 정보를 보거나 편집할 수 있습니다. 이 영역에서 보거나 편집할 수 있는 필드의 수는 제한되어 있습니다. 작업의 모든 정보를 편집하는 방법에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
+작업 세부 정보 섹션의 개요 영역에 액세스하여 작업 정보를 보거나 편집할 수 있습니다. 작업 세부 정보 섹션에서 보거나 편집할 수 있는 필드는 제한되어 있습니다.
+
+작업의 모든 정보를 편집하는 방법에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
 
 이 문서에서는 작업 세부 정보의 개요 영역에서 정보를 보거나 편집하는 방법에 대해 설명합니다. 작업 세부 사항 의 다른 영역 업데이트에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -29,31 +31,29 @@ ht-degree: 4%
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-   *보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 
- </caption> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront<b> 계획*</b> </p> </td> 
+   <td> <p>Adobe Workfront 패키지</p> </td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront<b> 라이선스*</b> </p> </td> 
-   <td> <p>작업 이상</p> </td> 
+   <td> <p>Adobe Workfront 라이선스 </p> </td> 
+   <td><p>표준</p> 
+   <p>작업 이상</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>액세스 수준 구성*</strong> </td> 
-   <td> <p>프로젝트 및 작업에 대한 보기 또는 상위 액세스 권한</p> <p>액세스 수준은 올바르지만 작업의 세부 정보 섹션을 편집할 수 없는 경우 Adobe Workfront에 액세스 수준에서 추가 제한을 설정했는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td>액세스 수준 구성</td> 
+   <td> <p>프로젝트 및 작업에 대한 보기 또는 상위 액세스 권한</p> <p>액세스 수준은 올바르지만 작업의 세부 정보 섹션을 편집할 수 없는 경우 Adobe Workfront에 액세스 수준에서 추가 제한을 설정했는지 문의하십시오. </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>개체 권한</strong> </p> </td> 
-   <td> <p>프로젝트에 대한 Contribute 이상 권한</p> <p>작업에 대한 권한 보기 를 참조하십시오. </p> 
-   <p>작업에 대한 Contribute 권한으로 세부 정보 섹션에서 다음 정보를 업데이트할 수 있습니다.</p>
+   <td> <p>개체 권한</p> </td> 
+   <td> <p>프로젝트에 대한 기여 또는 더 높은 권한</p> <p>작업에 대한 권한 보기 를 참조하십시오. </p> 
+   <p>세부 정보 섹션에서 다음 정보를 업데이트할 작업에 대한 기여 권한:</p>
 
 <ul>
    <li>설명</li>
@@ -64,6 +64,42 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information  in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 작업 세부 정보 개요 섹션에서 작업 정보 편집
 
@@ -109,12 +145,12 @@ ht-degree: 4%
       <td> <p>작업의 개발 단계를 나타내는 작업 상태를 선택합니다.</p> <p>팁: 태스크 헤더에서 태스크 상태를 갱신할 수 있습니다. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">우선 순위</td> 
+      <td role="rowheader">우선순위</td> 
       <td> <p>작업의 우선 순위를 지정할 수 있는 시각적 플래그입니다. </p> <p>다음 옵션 중에서 선택합니다. </p> 
        <ul> 
         <li> <p> 없음</p> </li> 
         <li> <p> 낮음 </p> </li> 
-        <li> <p>기본 </p> </li> 
+        <li> <p>일반 </p> </li> 
         <li> <p>높음 </p> </li> 
         <li> <p> 긴급 </p> </li> 
        </ul> <p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 작업 우선 순위에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">작업 우선 순위 업데이트</a>를 참조하십시오. </p> </td> 
@@ -216,7 +252,7 @@ ht-degree: 4%
       <td> <p>작업에 대한 계획된 시간(시간)을 지정합니다. 작업의 할당자가 작업을 완료하는 데 걸리는 실제 시간입니다. [기간 유형]이 [계산된 할당]으로 설정된 경우에만 작업에 대한 계획된 시간을 지정할 수 있습니다. 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">실제 근로시간</td> 
+      <td role="rowheader">실제 시간</td> 
       <td>작업에 사용자가 기록한 시간. </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -260,7 +296,7 @@ ht-degree: 4%
        </ul> <p>작업 제한에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">작업 제한 개요</a>를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">계획된 시작 일자 기준</td> 
+      <td role="rowheader">계획된 시작 일자</td> 
       <td> <p>작업이 시작될 예정인 시간. 작업의 계획된 시작 일자가 설정되며 여러 요인에 의해 영향을 받습니다.</p> 
        <ul> 
         <li>작업 계획 시작 날짜에 대한 시스템 전체 기본 설정에 따라 프로젝트의 새 작업 시작 날짜는 기본적으로 오늘 또는 프로젝트 시작 날짜일 수 있습니다. <span>프로젝트와 연결된 그룹의 그룹 관리자가 그룹에 대한 이 환경 설정을 지정할 수도 있습니다.</span> 시스템 수준 또는 그룹 수준 작업 환경 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">시스템 전체 작업 및 문제 환경 설정 구성</a>을 참조하십시오.</li> 

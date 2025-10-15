@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -46,22 +46,24 @@ Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [Adob
 * 사용자는 레코드 유형이 속한 작업 영역에 대해 가지고 있는 권한보다 레코드 유형에 대해 더 큰 권한을 가질 수 없습니다.
 * 레코드 유형에 대한 사용자의 권한을 제거해도 작업 공간에 대한 사용자의 권한이 제거되지는 않으므로 작업 공간의 모든 레코드 유형에 대한 보기 액세스 권한은 제거되지 않습니다.
 
-| Adobe Workfront 라이선스 유형* | Adobe Workfront Planning에서 허용되는 가장 높은 권한 |
+| Adobe Workfront 라이선스 유형 | Adobe Workfront Planning에서 허용되는 가장 높은 권한 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 표준 | <p>사용자는 작업 공간, 레코드 유형 및 보기를 관리할 수 있습니다. 작업 공간, 레코드 유형, 레코드, 필드 및 보기를 생성, 편집 또는 삭제할 수 있습니다.</p> <br> <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 관리 권한을 가집니다.</p> |
 | 라이트 또는 기여자 | <p>사용자는 공유된 작업 공간과 해당 작업 공간의 레코드 유형, 레코드 및 필드를 볼 수 있습니다.</p> <br> <p>사용자는 공유된 보기를 볼 수 있지만 자신의 보기를 만들 수는 없습니다. </p><br> <p>사용자는 작업 공간, 레코드 유형, 레코드 또는 필드를 작성, 편집 또는 삭제할 수 없습니다.</p> |
 
-*Workfront Planning은 기존 Workfront 라이선스에 사용할 수 없습니다.
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+<!--Old: 
+*Workfront Planning is not available for legacy Workfront licenses. 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 
 ### 작업 공간 및 레코드 유형에 대한 라이선스 유형 및 권한
 
 표준 라이선스가 있는 사용자만 작업 공간 및 레코드 유형에 대한 Contribute 또는 Manage 권한을 가질 수 있습니다. 작업 공간 및 레코드 유형에 대한 기여 및 관리 권한도 레코드 및 필드로 전송됩니다.
 
+시스템 관리자는 작성하지 않은 작업 영역을 포함하여 시스템의 모든 작업 영역을 볼 수 있습니다.
+
 다른 모든 라이선스 유형을 가진 사용자는 해당 레코드 및 필드뿐만 아니라 작업 공간 및 공유 레코드 유형에 대한 보기 권한을 가질 수 있습니다.
 
-시스템 관리자는 작성하지 않은 작업 영역을 포함하여 시스템의 모든 작업 영역을 볼 수 있습니다.
 
 >[!INFO]
 >
@@ -76,7 +78,11 @@ Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [Adob
 
 ### 라이선스 유형 및 보기에 대한 권한
 
-Standard 라이선스를 가진 사용자만 보기에 대한 관리 권한을 가질 수 있습니다. 다른 모든 라이선스 유형을 가진 사용자는 공유된 보기에 대한 보기 권한을 가질 수 있습니다.
+Standard 라이선스를 가진 사용자만 보기에 대한 관리 권한을 가질 수 있습니다.
+
+시스템 관리자는 자신이 만들지 않은 보기에 액세스할 수 없습니다. 이러한 파일은 다른 사용자와 공유되어야 합니다.
+
+다른 모든 라이선스 유형을 가진 사용자는 공유된 보기에 대한 보기 권한을 가질 수 있습니다.
 
 >[!INFO]
 >

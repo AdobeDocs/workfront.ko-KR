@@ -5,35 +5,35 @@ description: 간트 차트를 PDF으로 내보낼 수 있습니다. 이후에 �
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # PDF으로 [!UICONTROL 간트 차트] 내보내기
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 [!UICONTROL 간트 차트]를 PDF으로 내보낼 수 있습니다. 이후에 인쇄하거나 이메일에 첨부하여 다른 사용자와 공유할 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront] 플랜</td> 
-   <td> <p>임의 </p> </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront] 라이선스</td> 
-   <td> <p>새로 만들기:[!UICONTROL Light] 이상</p>
-   <p>현재:[!UICONTROL Review] 이상</p> </td> 
+   <td> <p>[!UICONTROL Light] 이상</p>
+   <p>[!UICONTROL Review] 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -41,7 +41,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 [!UICONTROL 보기] 이상 액세스 권한</p> </td> 
+   <td> <p>프로젝트 및 작업에 대한 [!UICONTROL 보기] 이상 액세스 권한</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,9 +50,37 @@ ht-degree: 1%
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] license</td> 
+   <td> <p>New:[!UICONTROL Light] or higher</p>
+   <p>Current:[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
+
 ## [!UICONTROL 간트 차트] 내보내기
 
-1. [간트 차트 시작](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)에 설명된 대로 PDF으로 내보낼 [!UICONTROL 간트 차트]에 액세스합니다.
+1. [!UICONTROL 간트 차트 시작]에 설명된 대로 PDF으로 내보낼 [간트 차트[!UICONTROL 에 액세스합니다.]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
 1. 내보낼 적절한 정보를 표시하도록 [!UICONTROL 간트 차트]를 구성합니다.
 
    >[!NOTE]
@@ -61,7 +89,7 @@ ht-degree: 1%
 
    다음 정보 중 하나를 구성합니다.
 
-   * [!UICONTROL 간트 차트] 위에 있는 **필터**, **보기** 및 **그룹화** 아이콘을 클릭하고 [!UICONTROL 간트 차트]의 항목 목록에 적용된 기존 필터, 보기 또는 그룹화를 추가하거나 편집합니다.
+   * **간트 차트** 위에 있는 **필터**, **보기** 및 [!UICONTROL 그룹화] 아이콘을 클릭하고 [!UICONTROL 간트 차트]의 항목 목록에 적용된 기존 필터, 보기 또는 그룹화를 추가하거나 편집합니다.
 
      목록 보기에서 선택한 모든 필터 및 그룹화는 [!UICONTROL 간트 차트]를 볼 때 유지됩니다. 보기는 첫 페이지의 [!UICONTROL 간트 차트] 옆에 표시되는 목록 내에서만 내보낸 [!UICONTROL 간트 차트]에 반영됩니다. [!UICONTROL 간트 차트] 자체에는 보기가 표시되지 않습니다.
 
@@ -96,7 +124,7 @@ ht-degree: 1%
 
    * [!UICONTROL 간트 차트]에 표시되는 기간입니다. 내보내기 파일에 표시되는 방식은 이후 단계에서 **[!UICONTROL 표시되는 항목]** 또는 **[!UICONTROL 여러 페이지]**&#x200B;를 선택했는지 여부에 따라 달라집니다.
 
-     자세한 내용은 [간트 차트에서 정보 보기](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)를 참조하십시오.
+     자세한 내용은 [간트 차트에서 정보 보기[!UICONTROL 를 참조하십시오.]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)
 
 
 
@@ -117,7 +145,7 @@ ht-degree: 1%
 
      >[!TIP]
      >
-     >[간트 차트에서 정보 보기[!UICONTROL 간트 차트]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)에 설명된 대로 확대/축소 또는 슬라이더 도구를 사용하여 [!UICONTROL 간트 차트]의 일부만 표시할 수 있습니다. 내보낼 페이지를 더 많이 표시하려면 더 세분화된 옵션을 선택하고, 내보낼 페이지를 더 적게 표시하려면 더 세분화된 옵션을 선택합니다.
+     >[!UICONTROL 간트 차트에서 정보 보기]간트 차트[에 설명된 대로 확대/축소 또는 슬라이더 도구를 사용하여 [!UICONTROL 간트 차트]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)의 일부만 표시할 수 있습니다. 내보낼 페이지를 더 많이 표시하려면 더 세분화된 옵션을 선택하고, 내보낼 페이지를 더 적게 표시하려면 더 세분화된 옵션을 선택합니다.
 
 
    * **[!UICONTROL 여러 페이지]:** 현재 화면에 표시되지 않는 항목을 포함하여 전체 [!UICONTROL 간트 차트]&#x200B;(최대 500개 항목)를 내보냅니다.

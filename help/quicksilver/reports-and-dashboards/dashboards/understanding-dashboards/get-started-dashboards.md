@@ -7,9 +7,9 @@ description: 대시보드의 목적은 정보에 대한 빠른 액세스를 제�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -24,43 +24,34 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront 플랜</strong></p> </td> 
-   <td>임의</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront 라이선스</strong></p> </td> 
-      <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>기여자 이상</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>검토 이상</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> 
+      <p>기여자 이상</p>
+      <p>검토 이상</p>
    </td> 
   </tr> 
   <tr> 
-   <td><strong>액세스 수준</strong> </td> 
-   <td> <p>보고서, 대시보드 및 캘린더에 대한 보기 또는 상위 액세스 권한</p> </td> 
-  </tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드 및 캘린더에 대한 액세스 보기</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>개체 권한</strong> </p> </td> 
-   <td> <p>대시보드에 대한 권한 보기</p>  </td> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>대시보드에 대한 권한 보기</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 1%
+source-wordcount: '881'
+ht-degree: 2%
 
 ---
 
@@ -59,32 +59,27 @@ Workfront 관리자는 다음 위치에 로고가 있는 Workfront을 브랜딩�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 플랜</p></td>
-  </tr> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!UICONTROL 시스템 관리자]</td>
+   <td>액세스 수준 구성</td> 
+   <td>시스템 관리자</td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -120,7 +115,7 @@ Workfront 관리자는 다음 위치에 로고가 있는 Workfront을 브랜딩�
       <td role="rowheader">로그인 화면 배경 이미지 <span style="font-weight: normal;">(사용자가 로그인 자격 증명을 입력하는 상자 뒤에 표시됨)</span>에 브랜딩합니다.</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1"> <p> <strong>로그인 화면</strong> 영역의 <strong>배경 이미지</strong> 아래에서 상자를 클릭한 다음 JPG 또는 PNG 이미지(최대 20개)를 찾아 선택합니다. </p> <p>여러 배경 이미지가 무작위 순서로 표시되므로 사용자가 로그인 페이지를 새로 고칠 때마다 변경됩니다. 이미지는 2MB 이하인 것이 좋습니다.</p> </li> 
+        <li value="1"> <p> <strong>로그인 화면</strong> 영역의 <strong>배경 이미지</strong> 아래에서 상자를 클릭한 다음 JPG 또는 PNG 이미지 또는 이미지(최대 20개)를 찾아 선택합니다. </p> <p>여러 배경 이미지가 무작위 순서로 표시되므로 사용자가 로그인 페이지를 새로 고칠 때마다 변경됩니다. 이미지는 2MB 이하인 것이 좋습니다.</p> </li> 
         <li value="2"> <p>업로드한 각 배경 이미지 위로 마우스를 가져간 후 설정(톱니바퀴) 아이콘을 클릭하고 다음 옵션 중 하나를 사용하여 로그인 화면 배경에 이미지가 표시될 위치와 방법을 지정합니다.</p> 
          <ul> 
           <li> <p><strong>화면 채우기</strong>: 이미지를 로그인 화면 배경에 맞추면 이미지가 커질 수 있습니다. 최상의 결과를 얻으려면 고해상도 이미지(최대 2MB)를 사용하십시오.</p> <p>이 옵션을 사용하면 사용자 지정할 수 없는 Workfront 배너가 이미지의 일부를 가립니다.</p> </li> 

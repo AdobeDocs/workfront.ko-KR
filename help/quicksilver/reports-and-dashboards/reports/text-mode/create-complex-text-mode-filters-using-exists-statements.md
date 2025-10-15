@@ -6,7 +6,7 @@ description: EXISTS 문을 사용하여 복잡한 텍스트 모드 필터를 만
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Workfront에 있는 개체, 개체의 계층 구조 및 상호 종속성에 대�
 
 예를 들어 문제 필터에서 Portfolio ID를 참조하여 표준 인터페이스를 사용하여 특정 포트폴리오와 연결된 프로젝트의 문제만 표시할 수 있습니다. 이 경우 포트폴리오는 이슈와 2단계 떨어져 있습니다.
 
-하지만 표준 인터페이스를 사용하여 문제 필터에서 Portfolio 소유자를 참조하여 소유자가 특정 사용자인 포트폴리오와 연결된 프로젝트의 문제만 표시할 수는 없습니다. 텍스트 모드를 사용하여 Portfolio 소유자 이름 필드에 액세스해야 합니다. 이 필드는 문제에서 세 단계 떨어져 있습니다.
+하지만 표준 인터페이스를 사용하여 문제 필터에서 Portfolio 소유자를 참조하여 소유자가 특정 사용자인 포트폴리오와 연결된 프로젝트의 문제만 표시할 수는 없습니다. 텍스트 모드를 사용하여 문제에서 3 단계 떨어진 Portfolio 소유자 이름 필드에 액세스해야 합니다.
 
 ![포트폴리오 소유자 아이콘에 문제](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
@@ -92,27 +92,19 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-      <p>신규:</p>
-         <ul>
-         <li><p>표준</p></li>
-         </ul>
-      <p>현재:</p>
-         <ul>
-         <li><p>플랜</p></li>
-         </ul>
+     <p>표준</p>
+     <p>플랜</p>
    </td> 
   </tr> 
   <tr> 
@@ -121,12 +113,12 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에서 필터를 편집할 보고서에 대한 권한 관리</p> <p>편집할 필터에 대한 권한 관리</p></td> 
+   <td><p>보고서에서 필터를 편집할 보고서에 대한 권한 관리</p> <p>편집할 필터에 대한 권한 관리</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -152,7 +144,7 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
 
 1. (조건부) 원본 개체(Issue)와 대상 필드(ownerID)가 직접 연결되어 있지 않으면 세 번째 개체인 원본 개체와 대상 필드 사이를 연결하는 연결 개체(Project)를 찾아야 합니다. 연결 객체에는 원본 객체의 필드 또는 참조 탭(원본 객체에 표시된 연결 필드)에서 참조하는 하나 이상의 필드가 있어야 하며 대상 객체로의 연결 필드도 있어야 합니다. 연결 개체에 표시되는 대상 개체로의 연결 필드(또는 연결 개체에 표시되는 연결 필드)는 대상 필드와 일치해야 합니다.
 
-   예를 들어, (프로젝트) ID(원래 오브젝트에 표시된 연결 필드)는 문제(원래 오브젝트)에서 참조됩니다. (Portfolio) ownerID(대상 오브젝트에 대한 필드 연결)가 프로젝트(연결 오브젝트)의 필드 탭에 표시됩니다. Portfolio ownerID 는 타겟 오브젝트 (Portfolio)의 필드이기도 합니다. 연결 개체의 연결 필드는 대상 필드와 일치합니다.\
+   예를 들어, (프로젝트) ID(원래 오브젝트에 표시된 연결 필드)는 문제(원래 오브젝트)에서 참조됩니다. (Portfolio) ownerID(대상 오브젝트에 대한 필드 연결)가 프로젝트(연결 오브젝트)의 필드 탭에 표시됩니다. Portfolio ownerID 는 Target 개체 (Portfolio)의 필드입니다. 연결 개체의 연결 필드는 대상 필드와 일치합니다.\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
 1. API 탐색기를 사용하여 연결 개체(프로젝트)의 **개체 코드**&#x200B;를 식별합니다.\
@@ -232,7 +224,7 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
 
 텍스트 모드 인터페이스를 사용하여 문제 목록에 대한 필터를 빌드하여 소유자가 특정 사용자인 포트폴리오와 연결된 프로젝트에 있는 문제만 표시할 수 있습니다.
 
-Portfolio 소유자 이름별로 문제를 필터링하려면:
+Portfolio 소유자 이름별로 문제를 필터링하려면 다음을 수행하십시오.
 
 1. 문제 필터를 만듭니다.\
    필터 만들기에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
@@ -257,7 +249,7 @@ Portfolio 소유자 이름별로 문제를 필터링하려면:
    >[!NOTE]
    >
    >* 원래 개체는 보고서의 개체입니다. 문제
-   >* Target 개체가 Portfolio 상태입니다.
+   >* 대상 개체는 Portfolio입니다.
    >* 연결 개체는 프로젝트입니다.
    >* 대상 필드 및 대상 객체에 대한 연결 필드는 연결 객체에서 참조되는 ownerID입니다.
    >* 여기에서 연결 개체의 개체 코드는 PROJ입니다.
@@ -358,7 +350,7 @@ Portfolio 소유자 이름별로 문제를 필터링하려면:
 * 소유자가 특정 사용자인 포트폴리오와 연결된 프로젝트에 있습니다.
 * 특정 정렬 스코어카드와 프로젝트가 연결되지 않은 포트폴리오와 연결된 프로젝트에 있습니다.
 
-Portfolio 소유자 이름 및 Portfolio 정렬 스코어카드 ID별로 작업을 필터링하려면 다음을 수행합니다.
+Portfolio 소유자 이름 및 Portfolio 정렬 스코어카드 ID로 작업을 필터링하려면 다음을 수행하십시오.
 
 1. 작업 필터를 만듭니다.\
    필터 만들기에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
@@ -379,12 +371,12 @@ Portfolio 소유자 이름 및 Portfolio 정렬 스코어카드 ID별로 작업�
    >[!NOTE]
    >
    >* 원래 개체는 필터의 개체입니다. 작업.
-   >* Target 개체가 Portfolio 상태입니다.
+   >* 대상 개체는 Portfolio입니다.
    >* 첫 번째 대상 필드는 ownerID입니다.
    >* 두 번째 대상 필드는 정렬 스코어카드 ID입니다.
    >* 연결 개체는 프로젝트입니다.
    >* 연결 개체의 개체 코드는 PROJ입니다.
-   >* 대상 객체에 대한 연결 필드는 Portfolio의 ID입니다.
+   >* 대상 오브젝트에 대한 연결 필드는 Portfolio의 ID입니다.
    >* 원래 오브젝트에 표시되는 연결 필드는 projectID입니다.
    >* ownerID를 환경의 사용자 ID로 바꿉니다.
 

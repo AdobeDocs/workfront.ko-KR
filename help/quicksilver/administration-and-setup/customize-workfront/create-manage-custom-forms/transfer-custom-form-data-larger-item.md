@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -30,31 +30,27 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
-   <td>임의</td> 
+  <tr> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>
-   <p>새로운 기능: 표준</p>
-   <p>또는</p>
-   <p>현재: 플랜</p></td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준 구성</td> 
+  <tr> 
+   <td>액세스 수준 구성</td> 
    <td> <p>사용자 정의 양식에 대한 관리 액세스</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -79,8 +75,8 @@ ht-degree: 0%
 1. 변환 중인 문제 또는 작업에 대한 사용자 정의 양식에 개체를 추가합니다. 자세한 내용은 [먼저 이 문서의 사용자 정의 양식에 개체를 추가](#first-add-additonal-objects-to-the-custom-form)합니다.
 1. 표시되는 상자에서 **사용자 지정 Forms** 옵션을 사용하여 문제 또는 작업을 전환하여 필요한 사용자 지정 양식을 선택하십시오. 자세한 내용은 다음 문서를 참조하십시오.
 
-   * [Adobe Workfront에서 문제를 프로젝트로 전환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-   * [Adobe Workfront에서 문제를 작업으로 전환](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+   * [문제를 프로젝트로 전환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [문제를 작업으로 전환](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [작업을 프로젝트로 전환](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
 1. 표시되는 **변환 대상(개체 유형)** 대화 상자에서 **Forms 추가** 드롭다운 메뉴를 클릭하고 이전 섹션에서 복사한 양식을 선택합니다.

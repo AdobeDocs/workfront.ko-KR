@@ -9,10 +9,10 @@ feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: b57dd3a93b84fb78fb697e1fb18352809f0987f8
+source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 0%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [API를 통해 파일 업로드](../../wf-api/api/uploading-files-api.md)
-* [JSONP에 대한 지원을 종료합니다](../../wf-api/api/ending-support-jsonp.md)
 * [이벤트 구독 메시지 필터링](../../wf-api/api/filter-event-sub-messages.md)
 * [이벤트 구독 다시 시도](../../wf-api/api/event-sub-retries.md)
 * [이벤트 구독 인증서](../../wf-api/api/event-sub-certs.md)

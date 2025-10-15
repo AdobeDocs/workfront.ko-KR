@@ -6,16 +6,16 @@ description: Adobe 마켓플레이스에서  [!DNL Adobe Workfront for design an
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 1%
+source-wordcount: '616'
+ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Workfront for design and video] 설치 및 열기
 
-[!DNL Adobe Marketplace]에서 [!DNL Adobe Workfront for design and video]을(를) 설치할 수 있습니다. 이 플러그인은 다음 Creative Cloud 애플리케이션을 지원합니다.
+[!DNL Adobe Workfront for design and video]에서 [!DNL Adobe Marketplace]을(를) 설치할 수 있습니다. 이 플러그인은 다음 Creative Cloud 애플리케이션을 지원합니다.
 
 {{cc-plugin-app-list}}
 
@@ -41,28 +41,30 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
  <!-- <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package/td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td>
+   <p>Standard</p>
+    <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">제품</td> 
-   <td><p>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/kr/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud 지원 정책</a>을 참조하세요.</p></td> 
+   <td role="rowheader">추가 제품</td> 
+   <td><p>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -72,17 +74,17 @@ ht-degree: 1%
 
 ## 조직에 대해 [!DNL Workfront for design and video] 설치
 
-[!DNL Adobe Admin Console] 관리자인 경우 [!DNL Creative Cloud]개의 배포 패키지에 [!DNL Adobe Workfront for design and video]을(를) 포함할 수 있습니다. 자세한 내용은 [패키지에 플러그인 포함](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)을 참조하십시오.
+[!DNL Adobe Admin Console] 관리자인 경우 [!DNL Adobe Workfront for design and video]개의 배포 패키지에 [!DNL Creative Cloud]을(를) 포함할 수 있습니다. 자세한 내용은 [패키지에 플러그인 포함](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)을 참조하십시오.
 
 [비디오 튜토리얼은 여기에서 봅니다](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console][&#128279;](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
+[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은 [에서 사용자의  [!DNL Adobe Workfront] [!UICONTROL [!DNL Creative Cloud]] for [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)패키지 만들기를 참조하십시오.
 
 ## 개별적으로 [!DNL Workfront for design and video] 설치
 
-[!DNL Adobe Exchange]에서 직접 [!DNL Adobe Workfront for design and video]을(를) 설치할 수 있습니다.
+[!DNL Adobe Workfront for design and video]에서 직접 [!DNL Adobe Exchange]을(를) 설치할 수 있습니다.
 
-1. Adobe Exchange에서 [디자인 및 비디오용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share)(으)로 이동합니다.
+1. Adobe Exchange에서 [디자인 및 비디오용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share)&#x200B;(으)로 이동합니다.
 1. 표시되는 대화 상자에서 **데스크톱 앱 [!DNL Adobe Creative Cloud] 열기**&#x200B;를 클릭합니다.
 1. [!DNL Adobe Creative Cloud] 플러그 인 관리자가 열리면 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. 대화 상자에서 정보를 읽은 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
@@ -115,7 +117,7 @@ ht-degree: 1%
 ## [!DNL Adobe Workfront for design and video]에 로그인
 
 1. 화면 상단의 **[!UICONTROL 플러그인]** 메뉴에서 **[!UICONTROL 플러그인 패널]**&#x200B;을 선택합니다.
-1. **[!DNL Adobe Workfront for design and video]**&#x200B;을(를) 선택합니다.
+1. **[!DNL Adobe Workfront for design and video]**&#x200B;를 선택합니다.
 1. 도메인을 입력한 다음 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다. 브라우저 페이지가 열립니다.
 
    >[!TIP]
@@ -136,10 +138,10 @@ ht-degree: 1%
    >[!NOTE]
    >
    >* [!DNL Workfront]은(는) 사용자의 인증 및 권한 부여를 위해 대부분의 웹 기반 통합에서 사용하는 보안 표준인 OAuth 2.0을 사용하여 [!DNL Adobe Creative Cloud]에 연결합니다.
-   >* [!DNL Workfront] 계정의 [도메인 또는 호스트]를 입력하라는 메시지가 표시되면 *yourCompany&#39;sDomain.my.workfront.com* 형식을 사용하여 입력하세요. 회사의 도메인은 일반적으로 회사의 이름입니다.
+   >* [ 계정의 ]도메인 또는 호스트[!DNL Workfront]를 입력하라는 메시지가 표시되면 *yourCompany&#39;sDomain.my.workfront.com* 형식을 사용하여 입력하세요. 회사의 도메인은 일반적으로 회사의 이름입니다.
 
 1. 로그인을 완료하려면 **[!UICONTROL 액세스 허용]**&#x200B;을 클릭하세요.
-1. 작업을 보려면 [!DNL Adobe Photoshop] (으)로 돌아가십시오.
+1. 작업을 보려면 [!DNL Adobe Photoshop]&#x200B;(으)로 돌아가십시오.
 
 ### 로그인 오류 문제 해결
 
@@ -160,6 +162,6 @@ ht-degree: 1%
    >Mac에서 Finder로 이동하여 **Command+Shift+를 누릅니다.** 숨겨진 폴더를 표시하려면 **/Users//Library/Application Support**(으)로 이동한 다음 **Workfront** 폴더를 삭제하십시오.
 
 
-1. 플러그인으로 돌아가 Workfront 도메인을 입력합니다. 도메인은 `experience.adobe.com`이(가) 아닌 `company-name.my.workfront.com`이어야 합니다.
+1. 플러그인으로 돌아가 Workfront 도메인을 입력합니다. 도메인은 `company-name.my.workfront.com`이(가) 아닌 `experience.adobe.com`이어야 합니다.
 
    Adobe 통합 환경을 사용하는 경우 [Workfront 도메인을 찾으려면](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) [설정], [고객 정보]로 이동하십시오.

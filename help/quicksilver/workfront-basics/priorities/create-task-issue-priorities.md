@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '247'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 4%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +29,14 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
    <td> 
-   <p>현재: 요청의 경우 요청 이상, 문제의 경우 검토 이상, 작업의 경우 작업 이상</p>
-   <p>새로운 기능: 요청에 대한 기여자 이상, 문제 및 문서에 대한 가볍게 이상: 표준 이상 작업</p> 
+   <p>요청의 경우 요청 이상, 문제의 경우 검토 이상, 작업의 경우 작업 이상</p>
+   <p>요청에는 기여자 이상, 문제 및 문서에는 가볍게 이상: 표준 이상의 작업</p> 
    </td> 
   </tr> 
   <tr> 
@@ -67,7 +66,7 @@ ht-degree: 4%
 
 {{step1-to-priorities}}
 
-1. 오른쪽 상단의 **새로 만들기**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **새로 만들기**를 클릭합니다.
    ![새로 만들기(프로덕션)](assets/create-new--.png)
 1. 다음 정보를 지정합니다.
 

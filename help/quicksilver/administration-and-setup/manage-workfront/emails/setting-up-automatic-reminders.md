@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 3%
 
 ---
@@ -37,19 +37,19 @@ Adobe Workfront 관리자는 모든 작업 또는 문제가 기한이 지났거�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td>
+   <p>표준</p>
+   <p>플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -57,6 +57,8 @@ Adobe Workfront 관리자는 모든 작업 또는 문제가 기한이 지났거�
   </tr> 
  </tbody> 
 </table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -109,7 +111,7 @@ Adobe Workfront 관리자는 모든 작업 또는 문제가 기한이 지났거�
 
 기한이 지났더라도 특정 종속성 유형이 있는 작업은 지정된 시작 날짜 이후에 게재될 수 있습니다. 예를 들어 작업에 fs(완료-시작) 종속성이 있는 전임 작업이 있는 경우 전임 작업이 완료될 때까지 작업을 시작할 수 없으므로 지정된 시작 날짜가 지나도 작업이 이메일에 포함되지 않습니다.
 
-자동 미리 알림 전자 메일 수신에 대한 자세한 내용은 [Adobe Workfront 알림](../../../workfront-basics/using-notifications/wf-notifications.md)의 [자동 미리 알림](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) 섹션을 참조하십시오.
+자동 미리 알림 전자 메일 수신에 대한 자세한 내용은 [Adobe Workfront 알림](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)의 [자동 미리 알림](../../../workfront-basics/using-notifications/wf-notifications.md) 섹션을 참조하십시오.
 
 ## 자동 미리 알림 보내기
 

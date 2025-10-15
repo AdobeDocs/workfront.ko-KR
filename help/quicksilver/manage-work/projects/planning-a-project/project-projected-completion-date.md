@@ -7,9 +7,9 @@ description: 예상 완료 일자는 프로젝트, 작업 또는 문제가 완�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 
 <table style="table-layout:auto"> 
@@ -32,23 +32,21 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>신규: 
    <ul><li><p>기여자 이상: 보고서에서 예상 완료 일자 보기</p></li> <li><p>보고서를 만들 수 있는 표준 라이선스</p></li> </ul>
-
-<p>현재: 
+   또는
    <ul><li><p>보고서에서 예상 완료 일자를 보려면 이상 검토</p></li> 
    <li><p>보고서 작성을 위한 플랜 라이선스</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준</td> 
-   <td> <p>프로젝트에 대한 보기 또는 상위 액세스 권한</p> <p>보고서를 만들려면 보고서, 대시보드, 캘린더에 대해 편집 액세스 권한이 있어야 합니다.</p> <p>보고서를 만들거나 목록 보기를 수정하려면 필터, 보기, 그룹화에 대한 편집 액세스 권한이 있어야 합니다</p>  </td> 
+   <td> <p>프로젝트에 대한 보기 또는 상위 액세스 권한</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 만들기</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 보고서를 만들거나 목록 보기를 수정하십시오</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -57,7 +55,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

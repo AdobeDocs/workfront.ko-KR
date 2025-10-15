@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -47,26 +47,21 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>새로운 기능: Ultimate</p>
-   <p>현재: [!UICONTROL Business] 이상</p> 
-   </td> 
+   <td role="rowheader">Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td><p>새로운 기능: [!UICONTROL Standard]</p>
-   <p>현재: [!UICONTROL Plan]</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>표준</p> <p>플랜</p></td> 
   </tr> 
-   <tr> 
-   <td role="rowheader"><p>액세스 수준</p></td> 
-   <td><p>시스템 관리자</p>
-   </td> 
-  </tr>
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td>Workfront 관리자여야 합니다. </td> 
+  </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -145,7 +140,7 @@ ht-degree: 1%
 
 ## 프로젝트에 스코어카드 적용
 
-[!UICONTROL &#x200B; 관리자가 스코어카드를 만든 후에는 프로젝트에 대한 &#x200B;]관리[!DNL Workfront] 권한이 있는 사용자가 스코어카드를 프로젝트에 적용할 수 있습니다.
+[!UICONTROL  관리자가 스코어카드를 만든 후에는 프로젝트에 대한 ]관리[!DNL Workfront] 권한이 있는 사용자가 스코어카드를 프로젝트에 적용할 수 있습니다.
 
 프로젝트에 대한 비즈니스 사례를 만드는 과정의 일부로 스코어카드가 프로젝트에 추가됩니다. 프로젝트에 스코어카드를 추가하는 방법에 대한 자세한 내용은 [프로젝트에 스코어카드 적용 및 정렬 점수 생성](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)을 참조하십시오.
 

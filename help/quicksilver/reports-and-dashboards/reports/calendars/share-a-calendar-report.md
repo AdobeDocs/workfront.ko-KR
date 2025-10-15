@@ -6,10 +6,10 @@ description: 다른 사용자와 캘린더를 공유할 수 있으며 공개적�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 0606dab832753543ceef4b5b505413967176aec4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 1%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -31,22 +29,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td><p>새로운 기능: 밝게</p>
-       <p>또는</p>
-       <p>현재: 검토</p></td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>라이트</p>
+       <p>검토</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>[!UICONTROL 보고서], [!UICONTROL 대시보드] 및 [!UICONTROL 달력]에 대한 [!UICONTROL 보기] 이상 액세스</p></td> 
+   <td> <p> 보고서, 대시보드 및 캘린더에 대한 보기 또는 상위 액세스 권한</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>공유 액세스 권한이 있는 캘린더 보고서에 대한 [!UICONTROL 보기] 이상 권한</td> 
+   <td>캘린더 보고서에 대한 보기 이상의 권한과 공유 액세스 권한</td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +61,7 @@ ht-degree: 0%
 [!DNL Workfront] 내의 일정을 공유하려면:
 
 1. 공유할 캘린더로 이동합니다.
-1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **공유**&#x200B;를 클릭합니다.
+1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **공유**를 클릭합니다.
    ![일정 추가 메뉴](assets/more-menu-calendar.png)
 1. **[!UICONTROL 일정 액세스 권한 부여]** 필드에서 일정을 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.\
    권한 설정에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하세요.
@@ -109,7 +106,7 @@ ht-degree: 0%
 [!DNL Workfront]명의 사용자와 개인 캘린더 링크를 공유할 수 있습니다. 사용자가 링크를 사용할 때 캘린더를 보려면 로그인해야 합니다.
 
 1. 공유할 캘린더로 이동합니다.
-1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **[!UICONTROL 공유 가능한 링크 가져오기]**&#x200B;를 클릭합니다.
+1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **[!UICONTROL 공유 가능한 링크 가져오기]**를 클릭합니다.
    ![일정 추가 메뉴](assets/more-menu-calendar.png)
 
    >[!NOTE]

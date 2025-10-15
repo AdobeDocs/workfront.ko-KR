@@ -7,9 +7,9 @@ description: Salesforce용  [!DNL Adobe Workfront] 을(를) 설치하여 Salesfo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 0%
 >
 >조직의 Salesforce 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Salesforce용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Salesforce 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)을 참조하십시오.
+>Salesforce용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Salesforce 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)을 참조하십시오.
 
 [!DNL Adobe Workfront for Salesforce]을(를) 설치하여 [!DNL Salesforce] 사용자가 [!DNL Workfront]개의 요청을 제출하고 [!DNL Salesforce]을(를) 종료하지 않고 자동으로 프로젝트를 만들 수 있습니다.
 
@@ -36,13 +36,7 @@ ht-degree: 0%
 
 모든 사용자에 대해 [!DNL Workfront]의 [!DNL Salesforce] 섹션을 구성하는 방법에 대한 자세한 내용은 [사용자 [!DNL Adobe Workfront] 에 대한  [!DNL Salesforce] 섹션 구성](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)을 참조하십시오.
 
->[!NOTE]
->
->이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://business.adobe.com/kr/products/workfront/pricing.html)을 참조하세요.
-
 ## 액세스 요구 사항
-
-이 문서에 설명된 기능을 사용하려면 다음 액세스 권한이 있어야 합니다.
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
@@ -51,22 +45,18 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td> <p>[!UICONTROL Pro] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: 표준<p>
-   <p>또는</p>
-   <p>현재: 플랜</p>
-
-
-</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p>
+   <p>플랜</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -90,7 +80,7 @@ ht-degree: 0%
 
   [!DNL Workfront]에서 볼 수 있는 [!DNL Salesforce] 필드 목록에 대해서는 [제출 [!DNL Adobe Workfront] 개체 [!DNL Salesforce] 의 요청](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)및 [개체 [!DNL Adobe Workfront] 에서  [!DNL Salesforce] 프로젝트 만들기](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)를 참조하십시오.
 
-* Workfront에서 [!DNL Salesforce]Salesforce으로 이동[!UICONTROL &#x200B; 링크를 클릭하여 &#x200B;]에 연결된 항목에 직접 액세스할 수 있습니다.
+* Workfront에서 [!DNL Salesforce]Salesforce으로 이동[!UICONTROL  링크를 클릭하여 ]에 연결된 항목에 직접 액세스할 수 있습니다.
 
   [!DNL Salesforce]의 [!DNL Workfront] 항목에 대한 정보를 볼 수 없지만 Workfront에서 검토할 수 있도록 Salesforce의 항목으로 이동하는 링크가 있습니다.
 
@@ -100,7 +90,7 @@ ht-degree: 0%
    * 프로젝트 또는 문제의 헤더.
 
      시스템 또는 그룹 관리자가 프로젝트 또는 문제 헤더에서 [!UICONTROL Salesforce으로 이동] 링크를 보려면 [!UICONTROL 통합] 필드를 레이아웃 템플릿에 추가해야 합니다.
-   * 목록의 도구 모음에서 [!DNL Summary]요약 열기요약 패널 아이콘![을 클릭한 후 목록에서 문제를 선택할 때 문제가 발생하는 &#x200B;](assets/summary-panel-icon.png) 패널.
+   * 목록의 도구 모음에서 [!DNL Summary]요약 열기요약 패널 아이콘![을 클릭한 후 목록에서 문제를 선택할 때 문제가 발생하는 ](assets/summary-panel-icon.png) 패널.
 
      >[!NOTE]
      >

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -27,31 +27,27 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td> <p>임의 </p> </td> 
+   <td>[!DNL Adobe Workfront] 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td>
-   <p>새로운 기능: [!UICONTROL Standard]</p>
-   <p>또는</p>
-   <p>현재: [!UICONTROL Plan]</p></td> 
+   <td>[!DNL Adobe Workfront] 라이센스</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL 계획]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td>작업 역할에 대한 관리 액세스</td> 
+   <td>액세스 수준 구성</td> 
+   <td>작업 역할에 대한 관리 액세스</td>
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -78,10 +74,10 @@ ht-degree: 0%
       <td>역할에 대한 고유한 사항을 나타내는 역할에 대한 설명을 입력합니다. </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL 이 활성 상태입니다]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL이 활성 상태입니다]</span> </td> 
       <td> 
        <ul> 
-        <li> <p>역할을 활성화하여 [!DNL Workfront]의 모든 곳에서 사용할 수 있도록 하여 사용자, 작업 항목 등과 연결하려면 <b>[!UICONTROL 예]</b>를 선택하십시오. </p> </li> 
+        <li> <p>역할을 활성화하여 <b>의 모든 곳에서 사용할 수 있도록 하여 사용자, 작업 항목 등과 연결하려면 </b>[!UICONTROL 예][!DNL Workfront]를 선택하십시오. </p> </li> 
         <li> <p>역할을 비활성화하고 사용자, 작업 항목 등에 할당할 수 없도록 하려면 <b>[!UICONTROL No]</b>을(를) 선택하십시오. </p> </li> 
        </ul> <p><span>작업 역할 비활성화에 대한 자세한 내용은 </span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">작업 역할 비활성화</a>를 참조하십시오. </p> </td> 
      </tr>

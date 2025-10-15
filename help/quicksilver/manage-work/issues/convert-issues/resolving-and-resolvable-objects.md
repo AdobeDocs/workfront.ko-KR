@@ -7,16 +7,16 @@ description: 해결 가능한 오브젝트는 해결 방법이 해결 중인 오
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1760'
 ht-degree: 1%
 
 ---
 
 # 해결 및 해결 가능한 객체 개요
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 08/2025 -->
 
 해결 가능한 오브젝트는 해결 방법이 해결 중인 오브젝트와 연결되어 있는 문제입니다. 해결 중 오브젝트는 프로젝트, 작업 또는 다른 문제입니다.
 

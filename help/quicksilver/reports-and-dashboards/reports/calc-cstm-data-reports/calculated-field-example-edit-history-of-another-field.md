@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting
 keywords: 감사,추적,사용자 정의,필드
 navigation-topic: calculate-custom-data-reports
-title: "계산된 사용자 정의 필드 예: 필드의 편집 내역 표시"
+title: '계산된 사용자 정의 필드 예: 필드의 편집 내역 표시'
 description: 사용자가 사용자 정의 필드를 정기적으로 업데이트하며 필드에 대한 모든 변경 사항의 로그와 변경 사항이 발생한 날짜를 캡처하려는 경우 계산된 사용자 정의 필드에서 이 정보를 캡처할 수 있습니다.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -35,35 +35,38 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
+## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>임의</td> 
+   <td> <p>Adobe Workfront 패키지</p> </td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront 라이센스*</p> </td> 
-   <td> <p>플랜 </p> </td> 
+   <td> <p>Adobe Workfront 라이선스</p> </td> 
+   <td>
+      <p>표준</p>
+      <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td><strong>액세스 수준 구성*</strong> </td> 
-   <td> <p>사용자 지정 Forms에 대한 관리 액세스</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td><p>액세스 수준 구성</p></td> 
+   <td> <p>사용자 지정 Forms에 대한 관리 액세스</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>개체 권한</strong> </p> </td> 
-   <td> <p>사용자 정의 양식에 대한 권한 관리 </p> <p>자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">사용자 정의 양식 공유</a>를 참조하십시오.<br></p> </td> 
+   <td> <p>개체 권한</p> </td> 
+   <td> <p>사용자 정의 양식에 대한 권한 관리</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 

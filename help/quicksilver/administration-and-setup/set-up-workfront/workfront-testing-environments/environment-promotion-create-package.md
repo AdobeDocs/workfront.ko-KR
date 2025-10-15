@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -30,26 +30,26 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 계획</strong>
+   <td>Adobe Workfront 패키지
    </td>
-   <td> Prime 또는 Ultimate(새 계획만 해당)
+   <td> <p>Prime 또는 Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]개 라이선스</strong>
+   <td><strong>Workfront 라이선스</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>표준</p>&gt;
    </td>
   </tr>
    <tr>
    <td>액세스 수준 구성
    </td>
-   <td>[!DNL Workfront] 관리자여야 합니다.
+   <td><p>Workfront 관리자여야 합니다.</p>
    </td>
   </tr>
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 패키지 만들기
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 1. (조건부) 비활성화된 패키지를 보려면 **중단된 패키지 표시** 옵션을 활성화하십시오.
 1. (선택 사항) 모든 개체와 하위 개체를 포함한 내용을 보려면 **내용** 섹션에서 개체 형식 옆에 있는 드롭다운 화살표를 클릭합니다.
 1. (선택 사항) 이 패키지의 이전 설치 및 설치 시도를 보려면 **배포**&#x200B;를 클릭하십시오.
-1. (선택 사항) 패키지를 편집하려면 화면 오른쪽 상단의 **패키지 편집**&#x200B;을 클릭합니다.
+1. (선택 사항) 패키지를 편집하려면 화면 오른쪽 상단의 **패키지 편집**을 클릭합니다.
 패키지를 편집하려면 `DRAFT` 상태여야 합니다. 패키지를 `DRAFT` 상태로 이동하려면 **상태** 필드에서 `Draft`을(를) 선택합니다. 그런 다음 패키지 편집을 계속할 수 있습니다.
 1. 패키지를 설치하려면 화면 오른쪽 상단의 **설치**&#x200B;를 클릭합니다.
 

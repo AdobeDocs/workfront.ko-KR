@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -25,31 +25,27 @@ Adobe Workfront 관리자는 조직에 대해 구매한 라이선스 수와 현�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td role="rowheader">Workfront 패키지</td> 
+   <td><p>임의</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>
-    <p>새로운 기능: 표준</p>
-    <p>또는</p>
-    <p>현재: 플랜</p></td> 
+   <td><p>표준</p> <p>플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>시스템 관리자 또는 그룹 관리자여야 합니다. 그룹 관리자의 라이선스 정보 보기는 제한됩니다.</p> </td> 
+   <td>Workfront 관리자여야 합니다. </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
 
 >[!NOTE]
 >
@@ -85,7 +81,7 @@ Workfront에 추가하는 사용자에게 액세스 수준을 할당하면 사�
    >
    >증명 라이선스는 Workfront 라이선스 외에 유료 Workfront Proof 추가 기능을 구입한 고객에게만 제공됩니다. 이 추가 기능에 대한 자세한 내용은 [Workfront Proof: 문서 색인](../../workfront-proof/workfront-proof.md)을 참조하세요.
 
-1. (조건부) 메시지 **최대값을 설정하려면 이 문서의 [라이선스 페이지에 홈 그룹 추가 또는 제거](#add-or-remove-a-home-group-to-the-licenses-page) 섹션에 설명된 대로 시스템에 홈 그룹을 추가**&#x200B;해야 합니다.
+1. (조건부) 메시지 **최대값을 설정하려면 이 문서의**&#x200B;라이선스 페이지에 홈 그룹 추가 또는 제거[ 섹션에 설명된 대로 시스템에 홈 그룹을 추가](#add-or-remove-a-home-group-to-the-licenses-page)해야 합니다.
 
    >[!NOTE]
    >

@@ -6,7 +6,7 @@ description: 문제의 이름이 Adobe Workfront 데이터베이스에 opTask로
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 문제를 참조할 때 &quot;opTask&quot; 및 &quot;issue&quot; 사용
+
+<!--Audited: 08/2025-->
 
 문제의 이름이 Adobe Workfront 데이터베이스에 `opTask`(으)로 나타납니다. 문제를 참조하는 데 `issue` 필드 이름을 사용해야 하는 경우가 있지만, 대부분의 경우 문제를 참조할 때 `opTask` 대신 `issue` 필드 이름을 사용해야 합니다.
 

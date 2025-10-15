@@ -1,19 +1,19 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: ' [!DNL Microsoft] 팀에서  [!DNL Adobe Workfront] 요청 제출'
+title: ' [!DNL Adobe Workfront] 팀에서  [!DNL Microsoft] 요청 제출'
 description: 팀 소유자가 Microsoft Teams용 Adobe Workfront을 설치한 후 Microsoft Teams 계정에서 Workfront 요청을 제출할 수 있습니다. 이렇게 하려면 요청을 제출할 수 있는 액세스 권한이 있는 Workfront 계정이 있어야 합니다. Microsoft Teams용 Workfront 설치에 대한 자세한 내용은 Microsoft Teams용 Workfront 설치 를 참조하십시오.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 0%
+source-wordcount: '598'
+ht-degree: 1%
 
 ---
 
-# [!DNL Microsoft]개 팀에서 [!DNL Adobe Workfront]개 요청 제출
+# [!DNL Adobe Workfront]개 팀에서 [!DNL Microsoft]개 요청 제출
 
 >[!IMPORTANT]
 >
@@ -21,41 +21,46 @@ ht-degree: 0%
 >
 >이제 업데이트된 Workfront 통합을 사용할 수 있으며 새 팀 경험과 완전히 호환됩니다. 대부분의 경우 사용자가 전환되면 Workfront이 자동으로 표시됩니다. 그렇지 않은 경우 Microsoft Teams App Store에서 수동으로 통합을 설치할 수 있습니다. 새 Teams 클라이언트에서 Workfront 통합을 설치하거나 확인하려면 [Microsoft Teams용 설치 [!DNL Adobe Workfront] 를 참조하십시오](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-팀 소유자가 [!DNL Adobe Workfront for Microsoft Teams]을(를) 설치한 후 [!DNL Microsoft Teams] 계정에서 [!DNL Workfront]개의 요청을 제출할 수 있습니다. 이렇게 하려면 요청을 제출할 수 있는 액세스 권한이 있는 Workfront 계정이 있어야 합니다. [!DNL Workfront for Microsoft Teams] 설치에 대한 자세한 내용은 [설치 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
+팀 소유자가 [!DNL Adobe Workfront for Microsoft Teams]을(를) 설치한 후 [!DNL Workfront] 계정에서 [!DNL Microsoft Teams]개의 요청을 제출할 수 있습니다. 이렇게 하려면 요청을 제출할 수 있는 액세스 권한이 있는 Workfront 계정이 있어야 합니다. [!DNL Workfront for Microsoft Teams] 설치에 대한 자세한 내용은 [설치 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
 
 >[!NOTE]
 >
 >[!DNL Microsoft Teams]은(는) 더 이상 [!DNL Internet Explorer]을(를) 지원하지 않습니다. [!DNL Adobe Workfront for Microsoft Teams integration]을(를) 사용하려면 [!DNL Internet Explorer] 이외의 웹 브라우저를 사용해야 합니다.
 
 
+
+
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>작업, 계획, 검토, 요청</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>기여자 이상</p>
+   <p>요청자 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
-[!DNL Microsoft Teams] 팀 소유자는 [!DNL Microsoft Teams]에 대해 [!DNL Workfront]을(를) 설치해야 사용할 수 있습니다.
+[!DNL Microsoft Teams] 팀 소유자는 [!DNL Workfront]에 대해 [!DNL Microsoft Teams]을(를) 설치해야 사용할 수 있습니다.
 
-## [!DNL Microsoft Teams]에서 [!DNL Workfront]개 요청 제출
+## [!DNL Workfront]에서 [!DNL Microsoft Teams]개 요청 제출
 
-1. [!DNL Microsoft Teams]의 왼쪽 탐색 막대에 있는 **[!UICONTROL 추가된 앱 추가]**(점 3개) 아이콘을 클릭합니다.
+1. **[!UICONTROL 의 왼쪽 탐색 막대에 있는]**&#x200B;추가된 앱 추가[!DNL Microsoft Teams]&#x200B;(점 3개) 아이콘을 클릭합니다.
 
 1. 표시되는 목록에서 **[!DNL Workfront]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL 요청]** 탭을 클릭합니다.
@@ -87,13 +92,13 @@ ht-degree: 0%
 
 1. (선택 사항) [!DNL Workfront] 관리자가 사용자 정의 양식을 요청 큐에 첨부한 경우 사용자 정의 양식에서 사용할 수 있는 필드에 정보를 제공합니다.
 1. 사용자 정의 양식이 새 요청 하단에 표시됩니다.
-1. **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 제출을 클릭합니다]**.
 
    지정된 요청 큐의 [!DNL Workfront]에 요청이 나타납니다. 요청이 성공적으로 제출되었다는 확인 메시지가 표시됩니다.
 
-## [!DNL Microsoft Teams]에서 제출한 [!DNL Workfront]개 요청 보기
+## [!DNL Workfront]에서 제출한 [!DNL Microsoft Teams]개 요청 보기
 
-1. [!DNL Microsoft Teams]의 왼쪽 탐색 막대에 있는 **[!UICONTROL 추가된 앱 추가]**(점 3개) 아이콘을 클릭합니다.
+1. **[!UICONTROL 의 왼쪽 탐색 막대에 있는]**&#x200B;추가된 앱 추가[!DNL Microsoft Teams]&#x200B;(점 3개) 아이콘을 클릭합니다.
 
 1. 표시되는 목록에서 **[!DNL Workfront]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL 요청]** 탭을 클릭합니다.

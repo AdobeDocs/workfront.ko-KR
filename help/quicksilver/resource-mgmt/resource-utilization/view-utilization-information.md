@@ -6,9 +6,9 @@ description: 활용률 보고서에서 자원의 활용률을 조회할 수 있�
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '7285'
+source-wordcount: '7259'
 ht-degree: 1%
 
 ---
@@ -46,26 +46,22 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-활용률 보고서에 액세스하려면 다음 항목이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>새로 만들기: 모두</p>
-       <p>또는</p>
-       <p>현재: Pro 이상</p> </td> 
+  <tr> 
+   <td>Adobe Workfront 패키지</td> 
+   <td><p>임의</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 플랜</p> </td> 
+   <td>Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+       <p>플랜</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td>액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 이상:</p> 
     <ul> 
      <li> <p>리소스 관리 </p> </li> 
@@ -76,13 +72,13 @@ ht-degree: 1%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개체 권한</td> 
+   <td>개체 권한</td> 
    <td> <p>프로젝트, 포트폴리오 및 프로그램에 대한 액세스를 보고 리소스 조달 영역의 활용률 섹션에 액세스합니다</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>프로젝트에 대한 액세스 권한을 관리하여 프로젝트의 사용률 섹션에 액세스합니다.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -151,7 +147,7 @@ ht-degree: 1%
     </ul> 
     <ul> 
      <li> <p><strong>미할당 시간</strong>: 예산 시간이 작업 또는 문제와 연결되어 있고 작업 또는 문제에 할당된 사용자 또는 역할이 없는 경우 미할당 시간 섹션의 활용성 보고서에 예산 시간이 표시됩니다.<br>이 섹션은 프로젝트에 이 설명과 일치하는 시간이 있고 프로젝트별 또는 프로젝트별 사용률 보고서를 볼 때만 나타납니다. </p> <p>이 섹션은 프로젝트에 이 설명과 일치하는 시간이 있는 경우와 프로젝트별 또는 프로젝트별 활용성 보고서를 볼 때만 나타납니다. </p> </li> 
-    </ul> <p>예산 시간에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">프로젝트 예산 인건비 및 예산 시간 이해</a>에서 <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">프로젝트 예산 시간 찾기</a>를 참조하십시오.</p> </td> 
+    </ul> <p>예산 시간에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">프로젝트 예산 인건비 및 예산 시간 이해</a>에서 <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">프로젝트 예산 시간 찾기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>계획된 시간</strong> </td> 
@@ -247,7 +243,7 @@ ht-degree: 1%
 
 예산 비용 및 계획된 비용이 실제 비용과 어떻게 비교되는지 확인하여 비용을 추적할 수 있습니다.
 
-프로젝트, 프로그램 또는 포트폴리오의 비용을 추적할 때 활용성 보고서의 정보는 작업에서 가져옵니다. 작업의 비용 정보는 항상 활용률 보고서에서 사용할 수 있습니다. 작업의 비용은 작업의 비용 유형을 기반으로 계산됩니다. 작업의 비용 유형에 대한 자세한 내용은 [비용 추적](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)에서 [Workfront에서 작업의 비용 유형을 계산하는 방법](/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-cost-types-for-tasks)을 참조하십시오.
+프로젝트, 프로그램 또는 포트폴리오의 비용을 추적할 때 활용성 보고서의 정보는 작업에서 가져옵니다. 작업의 비용 정보는 항상 활용률 보고서에서 사용할 수 있습니다. 작업의 비용은 작업의 비용 유형을 기반으로 계산됩니다. 작업의 비용 유형에 대한 자세한 내용은 [비용 추적](/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-cost-types-for-tasks)에서 [Workfront에서 작업의 비용 유형을 계산하는 방법](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)을 참조하십시오.
 
 다음과 같은 방법으로 활용률 보고서에 원가 정보를 표시할 수 있습니다.
 
@@ -274,11 +270,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td scope="col"><strong>계획된 비용</strong> </td> 
-   <td scope="col"> <p>포함된 프로젝트의 총 계획된 비용. 포함된 프로젝트의 전체 수명에 대한 총 계획된 비용을 보거나 지정된 날짜 범위에 대한 총 계획된 비용만 볼 수 있습니다(개별 주 또는 월을 지정할 수 있음).</p> <p>주, 월 및 분기별 보기의 경우, 계획된 비용은 작업 역할 또는 사용자의 비용 비율이 유효 일자일 때 선택된 기간의 평균으로 계산됩니다.</p><p>프로젝트의 계획된 비용이 계산되는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">비용 추적</a>에서 <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Workfront에서 계획된 비용, 예산 비용 및 실제 비용을 계산하는 방법</a>을 참조하십시오.</p> </td>
+   <td scope="col"> <p>포함된 프로젝트의 총 계획된 비용. 포함된 프로젝트의 전체 수명에 대한 총 계획된 비용을 보거나 지정된 날짜 범위에 대한 총 계획된 비용만 볼 수 있습니다(개별 주 또는 월을 지정할 수 있음).</p> <p>주, 월 및 분기별 보기의 경우, 계획된 비용은 작업 역할 또는 사용자의 비용 비율이 유효 일자일 때 선택된 기간의 평균으로 계산됩니다.</p><p>프로젝트의 계획된 비용이 계산되는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">비용 추적</a>에서 <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Workfront에서 계획된 비용, 예산 비용 및 실제 비용을 계산하는 방법</a>을 참조하십시오.</p> </td>
   </tr> 
   <tr> 
    <td scope="col"><strong>실제 비용</strong> </td> 
-   <td scope="col"> <p>포함된 프로젝트의 총 실제 비용. 포함된 프로젝트의 전체 수명에 대한 총 실제 비용을 보거나 지정된 날짜 범위에 대한 총 실제 비용만 볼 수 있습니다(개별 주 또는 월을 지정할 수 있음).</p> <p>프로젝트의 실제 비용을 계산하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">비용 추적</a>에서 <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Workfront에서 계획된 비용, 예산 비용 및 실제 비용을 계산하는 방법</a>을 참조하십시오.</p> </td>
+   <td scope="col"> <p>포함된 프로젝트의 총 실제 비용. 포함된 프로젝트의 전체 수명에 대한 총 실제 비용을 보거나 지정된 날짜 범위에 대한 총 실제 비용만 볼 수 있습니다(개별 주 또는 월을 지정할 수 있음).</p> <p>프로젝트의 실제 비용을 계산하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">비용 추적</a>에서 <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Workfront에서 계획된 비용, 예산 비용 및 실제 비용을 계산하는 방법</a>을 참조하십시오.</p> </td>
   </tr> 
   <tr> 
    <td><strong>예산 차이(비용)</strong> </td> 
@@ -342,7 +338,7 @@ Workfront의 다른 영역과는 달리 계획된 수익이 상한을 초과하�
 </tr> 
   <tr> 
    <td><strong>실제 수익</strong> </td>
-   <td> <p>실제 수익 은 작업 및 프로젝트의 실제 시간과 관련된 수익입니다. 실제 매출에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">청구 및 매출 개요</a>의 <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">매출 금액 추적</a>을 참조하십시오.</p>
+   <td> <p>실제 수익 은 작업 및 프로젝트의 실제 시간과 관련된 수익입니다. 실제 매출에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">청구 및 매출 개요</a>의 <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">매출 금액 추적</a>을 참조하십시오.</p>
 
 <p>활용성 보고서에서 포함된 프로젝트에 대한 실제 수익을 계산하는 방법은 다음과 같이 작업에 설정된 수익 유형에 따라 다릅니다.</p> <p><strong>고정 수입:</strong> 작업 할당에 관계없이 작업의 수입은 항상 작업에 지정된 고정 금액을 사용하여 계산됩니다.</p> <p><b>중요 사항</b>
 
@@ -463,7 +459,7 @@ Workfront의 다른 영역과는 달리 계획된 수익이 상한을 초과하�
 
      {{step1-to-utilization-report}}
 
-      1. 사용률 보고서에 필터를 적용한 다음 **실행**&#x200B;을 클릭합니다.
+      1. 사용률 보고서에 필터를 적용한 다음 **실행**을 클릭합니다.
 활용률 보고서를 실행하기 전에 필터에서 하나 이상의 프로젝트를 지정해야 합니다. 사용률 보고서를 필터링하는 방법에 대한 자세한 내용은 이 문서에서 [사용률 정보 필터링](#filter-utilization-information)을 참조하십시오.\
          개별 역할 및 프로젝트(역할은 연관된 프로젝트 내에서 그룹화됨)에 대한 활용률 정보가 표시됩니다.
 
@@ -558,8 +554,8 @@ Workfront의 다른 영역과는 달리 계획된 수익이 상한을 초과하�
 
 1. 새 필터를 만들려면 **필터 저장**&#x200B;을 클릭합니다.\
    또는\
-   기존 필터를 수정하려면 **필터 저장** 단추 옆에 있는 화살표를 클릭한 다음 **새 필터 저장**&#x200B;을 클릭합니다.
-**필터 이름** 필드에 필터 이름을 입력하고 **저장**&#x200B;을 클릭합니다.
+   기존 필터를 수정하려면 **필터 저장** 단추 옆에 있는 화살표를 클릭한 다음 **새 필터 저장**을 클릭합니다.
+**필터 이름** 필드에 필터 이름을 입력하고 **저장**을 클릭합니다.
 사용률 영역은 필터에 포함한 정보로 필터링됩니다.
 
 ### 저장된 필터 적용 {#apply-a-saved-filter}

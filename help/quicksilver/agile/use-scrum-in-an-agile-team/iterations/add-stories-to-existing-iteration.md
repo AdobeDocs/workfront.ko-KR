@@ -6,9 +6,9 @@ description: 다양한 방법으로 반복에 스토리를 추가할 수 있습�
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 다음 방법 중 하나로 반복에 스토리를 추가할 수 있습니다.
 
-* [애자일 백로그 관리](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)의 [백로그에서 반복 또는 [!UICONTROL Kanban] 보드로 스토리 이동](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) 섹션에 설명된 대로 반복이 만들어진 후 백로그에서
+* [애자일 백로그 관리[!UICONTROL 의 ]백로그에서 반복 또는 ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)Kanban[ 보드로 스토리 이동](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 섹션에 설명된 대로 반복이 만들어진 후 백로그에서
 
 * 개별 작업 또는 문제의 [!UICONTROL 세부 정보] 페이지에서
 * 작업 또는 문제 목록에서
@@ -28,23 +28,20 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard]</p> 
-   또는
-   <p>현재: [!UICONTROL Work] 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p> 
+   <p>작업 이상</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>스토리가 있는 프로젝트에 대한 [!UICONTROL 관리] 액세스 권한 </td> 
+   <td>스토리가 있는 프로젝트에 대한 액세스 관리 </td> 
   </tr>
  </tbody> 
 </table>
@@ -79,7 +76,7 @@ ht-degree: 0%
 
    * 프로젝트의 [!UICONTROL 계획된 시작 일자]는 반복의 시작 일자 *이후*&#x200B;이고 프로젝트의 [!UICONTROL 계획된 완료 일자]는 반복의 종료 일자 *이후*&#x200B;입니다.
 
-개별 스크럼 팀이 반복 날짜가 아닌 프로젝트 날짜를 기본적으로 사용하도록 구성할 수 있습니다. 자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 문서의 [반복에 작업 항목을 추가할 때 날짜가 적용되는 방법 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) 섹션을 참조하십시오.
+개별 스크럼 팀이 반복 날짜가 아닌 프로젝트 날짜를 기본적으로 사용하도록 구성할 수 있습니다. 자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) 문서의 [반복에 작업 항목을 추가할 때 날짜가 적용되는 방법 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 섹션을 참조하십시오.
 
 ## 기존 반복에 스토리 추가
 
@@ -98,7 +95,7 @@ ht-degree: 0%
 또는
 반복에 추가할 작업 또는 문제가 포함된 프로젝트, 보고서 또는 대시보드로 이동합니다. 그런 다음 작업 또는 문제를 하나 이상 선택합니다.
 
-1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png) > **[!UICONTROL 반복에 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png) > **[!UICONTROL 반복에 추가]**를 클릭합니다.
 애자일이 아닌 팀에 할당된 작업 또는 문제를 할당할 수 없습니다.
 
 1. **[!UICONTROL 다음에 추가]** 상자에서 반복 이름을 입력하고 목록에 나타나면 선택합니다.
@@ -107,4 +104,4 @@ ht-degree: 0%
    >
    >기존 반복에서 새 반복으로 스토리를 이동할 수 있습니다.
 
-1. **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 추가를 클릭합니다]**.

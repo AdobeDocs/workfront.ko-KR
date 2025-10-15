@@ -6,9 +6,9 @@ description: 작업 또는 문제 피할당자인 경우 작업 또는 문제를
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,25 +34,27 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Work] 이상</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
+   <td> 
+   <p>표준</p>
+   <p>작업 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>작업 및 문제에 대한 [!UICONTROL 편집] 액세스</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
+   <td> <p>작업 및 문제에 대한 [!UICONTROL 편집] 액세스</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>작업해야 하는 작업 및 문제에 권한 이상 부여</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>작업해야 하는 작업 및 문제에 권한 이상 부여</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -60,7 +62,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 작업** 위젯을 추가합니다.
-1. 작업 항목을 찾은 다음 작업 항목에서 **[!UICONTROL 완료로 표시]**&#x200B;를 클릭합니다.
+1. 작업 항목을 찾은 다음 작업 항목에서 **[!UICONTROL 완료로 표시]**를 클릭합니다.
 이 단추가 표시되는 방법에 대한 자세한 내용은 [[!UICONTROL 완료] 단추의 옵션 이해](#understand-the-options-of-the-done-button)를 참조하십시오.
    ![내 작업 표시 완료](assets/my-work-done.png)
 
@@ -94,9 +96,9 @@ ht-degree: 0%
 
 ![완료 단추](assets/done-button-status.png)
 
-[!UICONTROL 완료] 단추와 관련된 상태를 이해하려면 [팀 설정 편집](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)에 설명된 대로 홈 팀의 [!UICONTROL 팀 설정]에서 [!UICONTROL 완료 단추] 섹션을 확인하십시오.
+[!UICONTROL 완료] 단추와 관련된 상태를 이해하려면 [!UICONTROL 팀 설정 편집]에 설명된 대로 홈 팀의 [!UICONTROL 팀 설정]에서 [완료 단추](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md) 섹션을 확인하십시오.
 
-홈 팀에 할당되지 않은 경우 [완료] 단추의 옵션 이해(#understand-the-options-of-the-done-button)에서 설명한 대로 [!UICONTROL 완료]를 클릭하면 기본 상태가 선택됩니다.
+홈 팀에 할당되지 않은 경우 [!UICONTROL 완료] 단추의 옵션 이해[에서 설명한 대로 [!UICONTROL 완료]를 클릭하면 기본 상태가 선택됩니다.](#understand-the-options-of-the-done-button)
 
 ### 여러 상태와 연결된 [!UICONTROL 완료] 단추
 
