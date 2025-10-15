@@ -38,7 +38,7 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials로 문서를 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront 플랜</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/kr/products/workfront/pricing.html" target="_blank">Adobe Workfront 플랜</a>*</td> 
    <td> <p> 임의</p> </td> 
   </tr> 
   <tr> 

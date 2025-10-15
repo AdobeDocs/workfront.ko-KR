@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하세요.
+>이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://business.adobe.com/kr/products/workfront/pricing.html)을 참조하세요.
 
 ## 액세스 요구 사항
 

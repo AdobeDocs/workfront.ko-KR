@@ -52,7 +52,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-Workfront 플랜에 대한 자세한 내용은 [플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하세요.
+Workfront 플랜에 대한 자세한 내용은 [플랜](https://business.adobe.com/kr/products/workfront/pricing.html)을 참조하세요.
 
 Workfront에서 업무 균형자를 찾을 수 있는 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)를 참조하십시오.
 

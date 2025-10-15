@@ -94,7 +94,7 @@ Single Sign-On은 Select 및 Premium 기능이므로 Select 및 Premium 플랜�
 여기에서는 두 가지 구성 방법 (5)이 있습니다.
 
 1. **상속됨:** 허브 계정에서 구성을 사용하는 SSO.
-사용자가 **기본 로그인 페이지**([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html))를 통해 [!DNL Workfront Proof]에 액세스하면 **두 수준의 권한 부여가 있습니다**: 먼저 사용자에게 [!DNL Workfront Proof] 액세스 데이터(전자 메일 및 암호)를 사용하여 로그인하도록 요청 받은 다음 SSO 창을 통해 SSO 로그인 페이지로 사용자가 전송됩니다.
+사용자가 **기본 로그인 페이지**([https://business.adobe.com/kr/products/workfront/proofing-approvals.html](https://business.adobe.com/kr/products/workfront/proofing-approvals.html))를 통해 [!DNL Workfront Proof]에 액세스하면 **두 수준의 권한 부여가 있습니다**: 먼저 사용자에게 [!DNL Workfront Proof] 액세스 데이터(전자 메일 및 암호)를 사용하여 로그인하도록 요청 받은 다음 SSO 창을 통해 SSO 로그인 페이지로 사용자가 전송됩니다.
 따라서 SSO 서비스를 사용하도록 설정한 상태에서 고유한 [!DNL Workfront Proof] 하위 도메인/도메인을 통해 로그인하는 것이 좋습니다.
 
    >[!NOTE]
@@ -143,7 +143,7 @@ Hub 계정에서 설정을 상속하도록 선택하면 이제 모든 필드가 
 SSO(Single Sign-On)가 활성화되면 하위 도메인 로그인 URL(예: yourcompany.proofhq.com/login)에 SSO 로그인 페이지로 바로 이동하는 전송 화면(2)이 표시됩니다.
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. 사용자가 **기본 로그인 페이지**([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html))를 통해 [!DNL Workfront Proof]에 액세스하면 **두 수준의 권한 부여가**&#x200B;됩니다. 먼저 사용자에게 [!DNL Workfront Proof] 액세스 데이터(전자 메일 및 암호)를 사용하여 로그인하라는 메시지가 표시됩니다. 그런 다음, 사용자는 SSO 창(2)을 통해 SSO 로그인 페이지로 전송됩니다.\
+1. 사용자가 **기본 로그인 페이지**([https://business.adobe.com/kr/products/workfront/proofing-approvals.html](https://business.adobe.com/kr/products/workfront/proofing-approvals.html))를 통해 [!DNL Workfront Proof]에 액세스하면 **두 수준의 권한 부여가**&#x200B;됩니다. 먼저 사용자에게 [!DNL Workfront Proof] 액세스 데이터(전자 메일 및 암호)를 사용하여 로그인하라는 메시지가 표시됩니다. 그런 다음, 사용자는 SSO 창(2)을 통해 SSO 로그인 페이지로 전송됩니다.\
    따라서 SSO 서비스를 사용하도록 설정한 상태에서 고유한 [!DNL Workfront Proof] 하위 도메인/도메인을 통해 로그인하는 것이 좋습니다.
 
 1. 현재 Workfront Proof 계정에서 SSO(Single Sign-On)가 활성화되면 해당 자격 증명으로 iPhone 앱에 로그인할 수 없습니다.

@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 새 [!DNL Workfront Proof] 계정을 여는 방법
 
-새 계정을 열려면 [평가판 등록 페이지](https://business.adobe.com/products/workfront/proofing-approvals.html)&#x200B;(으)로 이동하여 평가판 계정을 여십시오. 그러면 팀원이 [!DNL Workfront Proof]을(를) 시작하는 데 도움을 주기 위해 연락하게 됩니다.
+새 계정을 열려면 [평가판 등록 페이지](https://business.adobe.com/kr/products/workfront/proofing-approvals.html)&#x200B;(으)로 이동하여 평가판 계정을 여십시오. 그러면 팀원이 [!DNL Workfront Proof]을(를) 시작하는 데 도움을 주기 위해 연락하게 됩니다.
 
 시스템을 이미 알고 있고 유료 요금제에 등록하려면 *[!UICONTROL 설정]* *>* *[!UICONTROL 청구]*(으)로 이동하여 계정을 유료 요금제 중 하나로 업그레이드하세요.
 

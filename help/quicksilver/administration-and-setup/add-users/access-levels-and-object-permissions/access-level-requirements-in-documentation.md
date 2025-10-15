@@ -38,7 +38,7 @@ Workfront 설명서 방법 문서에는 해당 절차에 필요한 액세스 및
    <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> Adobe Workfront 플랜은 조직이 구매한 기능 세트를 참조합니다. 대부분의 Workfront 기능은 모든 계획에서 사용할 수 있으며 몇 가지 예외를 제외하고 대부분 전략 계획 및 엔터프라이즈 제어와 관련되어 있습니다. 
    <ul><li>조직이 새 패키징 모델이나 현재 패키징 모델에 있는지 여부를 포함하여 조직이 사용하는 Adobe Workfront 계획을 알아보려면 Workfront 관리자에게 문의하십시오.</li>
-   <li>Workfront 관리자가 조직의 Workfront 계획을 찾는 방법에 대한 지침은 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">조직의 클러스터 및 Workfront 계획 보기</a>를 참조하십시오.</li><li>새로운 Workfront 플랜에 대한 자세한 내용은 <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront 가격 및 패키징</a>을 참조하십시오.</li></ul> </td> 
+   <li>Workfront 관리자가 조직의 Workfront 계획을 찾는 방법에 대한 지침은 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">조직의 클러스터 및 Workfront 계획 보기</a>를 참조하십시오.</li><li>새로운 Workfront 플랜에 대한 자세한 내용은 <a href="https://business.adobe.com/kr/products/workfront/pricing.html">Adobe Workfront 가격 및 패키징</a>을 참조하십시오.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

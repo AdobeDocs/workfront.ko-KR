@@ -81,11 +81,11 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td>고객을 강조 표시하는 리소스 <a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront]개</a> </td> 
+   <td>고객을 강조 표시하는 리소스 <a href="https://business.adobe.com/kr/resources/main.html?Products=Workfront">[!DNL Workfront]개</a> </td> 
    <td>웨비나, 전자책, 백서, 비디오 및 보고서에 대한 출발점입니다.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">사례 연구 </a></td> 
+   <td><a href="https://business.adobe.com/kr/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">사례 연구 </a></td> 
    <td>고객의 당면 과제와 [!DNL Workfront] 솔루션 및 이점을 강조하는 60개 이상의 사례 연구 모음을 읽어 보십시오.</td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ ht-degree: 1%
 
 | [[!DNL Adobe Workfront] 통합](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | [!DNL Workfront]을(를) 타사 응용 프로그램과 통합할 수 있습니다. 통합은 [!DNL Workfront]의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 이 기술 자료 문서에서는 통합 옵션을 다루고 다음 방향을 안내합니다. |
 |---|---|
-| [[!DNL Workfront] 기본 제공 통합](https://business.adobe.com/products/workfront/integrations.html) | Workfront의 무료 기본 제공 통합을 사용하면 사용자와 팀이 동일한 워크플로 및 프로세스를 유지하면서 Workfront 플랫폼으로 원활하게 전환할 수 있습니다. |
+| [[!DNL Workfront] 기본 제공 통합](https://business.adobe.com/kr/products/workfront/integrations.html) | Workfront의 무료 기본 제공 통합을 사용하면 사용자와 팀이 동일한 워크플로 및 프로세스를 유지하면서 Workfront 플랫폼으로 원활하게 전환할 수 있습니다. |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/home) | [!DNL Workfront]을(를) 100개 이상의 응용 프로그램에 연결하여 코드 없이 비즈니스 크리티컬 프로세스를 쉽게 자동화할 수 있습니다. |
 
 {style="table-layout:auto"}

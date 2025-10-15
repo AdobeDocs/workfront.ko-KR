@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
-이 기능을 사용하려면 [!UICONTROL Enterprise] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하십시오.
+이 기능을 사용하려면 [!UICONTROL Enterprise] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://business.adobe.com/kr/products/workfront/pricing.html)을 참조하십시오.
 
 SSO(Single Sign-On)를 통해 사용자는 조직의 기존 사용자 이름과 암호를 사용하여 [!DNL Workfront Proof]에 로그인할 수 있습니다.
 

@@ -28,7 +28,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront 플랜</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/kr/products/workfront/pricing.html" target="_blank">Workfront 플랜</a>*</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 

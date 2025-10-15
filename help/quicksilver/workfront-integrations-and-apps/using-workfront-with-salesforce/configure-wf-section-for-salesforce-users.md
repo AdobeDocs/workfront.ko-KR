@@ -25,7 +25,7 @@ ht-degree: 1%
 >
 >Salesforce용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Salesforce 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)을 참조하십시오.
 
-이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하세요.
+이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 플랜](https://business.adobe.com/kr/products/workfront/pricing.html)을 참조하세요.
 
 [!DNL Adobe Workfront] 관리자로서 [!DNL Salesforce]용 [!DNL Workfront]을(를) 설치한 후 새 섹션에서 [!UICONTROL 기회] 및 [!UICONTROL 계정]에 추가하여 사용자가 사용할 수 있도록 설정할 수 있습니다.
 [!UICONTROL Salesforce]의 페이지 레이아웃.

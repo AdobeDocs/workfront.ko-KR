@@ -230,7 +230,7 @@ ht-degree: 3%
 
 &#42;&#42; 그룹 관리자의 액세스 수준에서 이 작업에 대한 액세스를 사용하도록 설정해야 합니다. 자세한 내용은 [특정 영역에 대한 관리자 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
 
-&#42;&#42;&#42; 다음 활동은 고급 엔터프라이즈 컨트롤의 일부이며 Select 플랜에 사용할 수 없습니다. Prime 또는 Ultimate 플랜을 구입한 조직만 이러한 기능에 액세스할 수 있습니다.  플랜에 대한 자세한 내용은 [Adobe Workfront 가격 및 패키징 페이지](https://business.adobe.com/products/workfront/pricing.html)를 참조하십시오. (기존 플랜을 사용하는 조직의 경우 위의 표에는 그룹 및 하위 그룹 관리자에 대한 활동이 표시됩니다.)
+&#42;&#42;&#42; 다음 활동은 고급 엔터프라이즈 컨트롤의 일부이며 Select 플랜에 사용할 수 없습니다. Prime 또는 Ultimate 플랜을 구입한 조직만 이러한 기능에 액세스할 수 있습니다.  플랜에 대한 자세한 내용은 [Adobe Workfront 가격 및 패키징 페이지](https://business.adobe.com/kr/products/workfront/pricing.html)를 참조하십시오. (기존 플랜을 사용하는 조직의 경우 위의 표에는 그룹 및 하위 그룹 관리자에 대한 활동이 표시됩니다.)
 
 * 그룹 수준에서 프로젝트, 작업 및 문제 환경 설정 구성
 * 그룹 수준에서 타임시트 및 시간 환경 설정 구성

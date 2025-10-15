@@ -54,5 +54,5 @@ Workfront for Experience Manager 강화 커넥터를 사용하면 통합 워크�
 
 ## 다음과 같음
 
-* [Adobe Experience Manager용 Workfront](https://business.adobe.com/products/workfront/aem-integration.html) 개요
+* [Adobe Experience Manager용 Workfront](https://business.adobe.com/kr/products/workfront/aem-integration.html) 개요
 * [Experience Manager Assets Essentials용 Adobe Workfront](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
