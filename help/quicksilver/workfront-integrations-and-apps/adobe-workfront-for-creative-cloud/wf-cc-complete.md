@@ -68,14 +68,14 @@ ht-degree: 0%
    ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. **[!UICONTROL 작업 목록]**&#x200B;에서 완료로 표시할 작업 또는 문제를 선택하십시오.
-1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.  이 작업 또는 문제에 할당된 유일한 사용자인 경우 [!UICONTROL 에서 항목 ]완료[!UICONTROL  또는 ]해결됨[!DNL Workfront]을(를) 표시합니다.
+1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.  이 작업 또는 문제에 할당된 유일한 사용자인 경우 [!UICONTROL 에서 항목 &#x200B;]완료[!UICONTROL &#x200B; 또는 &#x200B;]해결됨[!DNL Workfront]을(를) 표시합니다.
 1. (조건부) 이 작업 또는 문제에 여러 사용자가 할당된 경우 [!UICONTROL 완료]를 클릭하면 드롭다운이 열립니다. 그런 다음 다음을 수행할 수 있습니다.
 
    작업 또는 문제를 완료하기 위해 다른 사용자도 작업을 수행해야 하는 경우 **[!UICONTROL 내 파트 완료]**&#x200B;를 클릭합니다.
 
    또는
 
-   작업 또는 문제에 대해 추가 작업을 수행할 필요가 없는 경우 **[!UICONTROL 완료]**(작업) 또는 **[!UICONTROL 해결됨]**(문제)을 클릭합니다. [!UICONTROL 에서 항목 ]완료[!UICONTROL  또는 ]확인됨[!DNL Workfront]을(를) 표시합니다.
+   작업 또는 문제에 대해 추가 작업을 수행할 필요가 없는 경우 **[!UICONTROL 완료]**(작업) 또는 **[!UICONTROL 해결됨]**(문제)을 클릭합니다. [!UICONTROL 에서 항목 &#x200B;]완료[!UICONTROL &#x200B; 또는 &#x200B;]확인됨[!DNL Workfront]을(를) 표시합니다.
 
    >[!NOTE]
    >

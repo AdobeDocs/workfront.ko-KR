@@ -140,7 +140,7 @@ ht-degree: 1%
 
 ## 프로젝트에 스코어카드 적용
 
-[!UICONTROL  관리자가 스코어카드를 만든 후에는 프로젝트에 대한 ]관리[!DNL Workfront] 권한이 있는 사용자가 스코어카드를 프로젝트에 적용할 수 있습니다.
+[!UICONTROL &#x200B; 관리자가 스코어카드를 만든 후에는 프로젝트에 대한 &#x200B;]관리[!DNL Workfront] 권한이 있는 사용자가 스코어카드를 프로젝트에 적용할 수 있습니다.
 
 프로젝트에 대한 비즈니스 사례를 만드는 과정의 일부로 스코어카드가 프로젝트에 추가됩니다. 프로젝트에 스코어카드를 추가하는 방법에 대한 자세한 내용은 [프로젝트에 스코어카드 적용 및 정렬 점수 생성](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)을 참조하십시오.
 

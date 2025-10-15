@@ -180,7 +180,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >하위 그룹이 있는 그룹을 비활성화하면 해당 하위 그룹도 비활성화됩니다. 이들 중 하나를 활성화하려면 다음 지침을 사용하여 상위 그룹에서 제거한 다음 다시 활성화할 수 있습니다.
->>그룹 비활성화 및 다시 활성화에 대한 지침은 [그룹 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)를 참조하십시오.
+>&#x200B;>그룹 비활성화 및 다시 활성화에 대한 지침은 [그룹 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)를 참조하십시오.
 
 {{step-1-to-setup}}
 

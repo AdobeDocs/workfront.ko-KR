@@ -81,6 +81,6 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >작업 항목 [!UICONTROL 계획된 시작 일자] 및 [!UICONTROL 계획된 완료 일자]가 [!UICONTROL 팀 편집] 페이지의 설정에 영향을 받습니다. 자세한 내용은 문서 [[!UICONTROL 스크럼 구성]에서 ](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)구성[, 작업 항목을 반복에 추가할 때 날짜가 적용되는 방법](../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 섹션을 참조하십시오.
+   >작업 항목 [!UICONTROL 계획된 시작 일자] 및 [!UICONTROL 계획된 완료 일자]가 [!UICONTROL 팀 편집] 페이지의 설정에 영향을 받습니다. 자세한 내용은 문서 [[!UICONTROL 스크럼 구성]에서 &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)구성[, 작업 항목을 반복에 추가할 때 날짜가 적용되는 방법](../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 섹션을 참조하십시오.
 
 1. **[!UICONTROL 이동]**&#x200B;을 클릭합니다.

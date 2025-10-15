@@ -60,5 +60,5 @@ ht-degree: 0%
 
 ## [!DNL Workfront] 계정에서 로그아웃
 
-1. **[!UICONTROL 의 오른쪽 위 모서리에 있는]**&#x200B;기본 메뉴![ 아이콘 ](assets/main-menu-icon.png)기본 메뉴 아이콘[!DNL Adobe Workfront]을 클릭한 다음 **[!UICONTROL 로그아웃]** ![로그아웃 아이콘](assets/logout-icon.png)을 클릭합니다.
+1. **[!UICONTROL 의 오른쪽 위 모서리에 있는]**&#x200B;기본 메뉴![&#x200B; 아이콘 &#x200B;](assets/main-menu-icon.png)기본 메뉴 아이콘[!DNL Adobe Workfront]을 클릭한 다음 **[!UICONTROL 로그아웃]** ![로그아웃 아이콘](assets/logout-icon.png)을 클릭합니다.
 1. 그러면 사용자 이름과 암호를 다시 입력할 수 있는 로그인 페이지로 돌아갑니다.

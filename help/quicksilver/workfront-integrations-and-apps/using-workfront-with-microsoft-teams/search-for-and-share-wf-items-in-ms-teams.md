@@ -23,8 +23,8 @@ ht-degree: 0%
 
 [!DNL Workfront]의 [!DNL Adobe Workfront] 채널에서 [!DNL Microsoft Teams]개 항목을 검색하고 해당 항목을 팀의 구성원과 공유할 수 있습니다.
 
-* [ [!DNL Workfront] 의  [!DNL Microsoft Teams]항목 공유를 위한 필수 구성 요소](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
-* [ [!DNL Workfront] 에서  [!DNL Microsoft Teams]개 항목 검색 및 공유](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
+* [&#x200B; [!DNL Workfront] 의  [!DNL Microsoft Teams]항목 공유를 위한 필수 구성 요소](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
+* [&#x200B; [!DNL Workfront] 에서  [!DNL Microsoft Teams]개 항목 검색 및 공유](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
 
 
 
@@ -57,9 +57,9 @@ ht-degree: 0%
 다음 조건이 충족되는 경우 [!DNL Workfront]에서 [!DNL Microsoft Teams]개 항목을 검색하고 공유할 수 있습니다.
 
 * 팀 소유자가 귀하의 팀에 대해 [!DNL Workfront for Microsoft Teams]을(를) 설치하고 구성했습니다.
-* [!DNL Workfront]Microsoft Teams[!UICONTROL 에서 ]에 로그인했습니다.
+* [!DNL Workfront]Microsoft Teams[!UICONTROL 에서 &#x200B;]에 로그인했습니다.
 
-[!UICONTROL Microsoft Teams용 Workfront]을 설치하고 [!UICONTROL 에서 ]Workfront[!DNL Microsoft Teams]에 로그인하는 방법에 대한 자세한 내용은 [Microsoft Teams용 Adobe Workfront 설치](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
+[!UICONTROL Microsoft Teams용 Workfront]을 설치하고 [!UICONTROL 에서 &#x200B;]Workfront[!DNL Microsoft Teams]에 로그인하는 방법에 대한 자세한 내용은 [Microsoft Teams용 Adobe Workfront 설치](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
 
 >[!NOTE]
 >

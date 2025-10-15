@@ -201,7 +201,7 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> ****
+  <tr> **&#x200B;**
    <td>시작 값과 끝 값 사이에 이를 달성할 수 있는 정도를 보여주는 값의 범위를 제공합니다. 종료 값에 가까우면 목표에 대한 진행률 값이 계산됩니다. </td> 
    <td>✔</td> 
    <td>✔</td> 

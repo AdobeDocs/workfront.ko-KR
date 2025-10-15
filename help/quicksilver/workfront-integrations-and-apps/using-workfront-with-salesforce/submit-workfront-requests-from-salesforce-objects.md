@@ -58,7 +58,7 @@ ht-degree: 1%
 * [!DNL Workfront] 관리자가 [!DNL Workfront for Salesforce]을(를) 설치했습니다.\
    [!DNL Workfront for Salesforce] 설치에 대한 자세한 내용은 [설치 [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)를 참조하십시오
 
-* [!DNL Workfront] 관리자가 [!DNL Workfront]기회[!UICONTROL  및 ]계정[!UICONTROL  페이지 레이아웃에 ] 섹션을 추가했습니다.\
+* [!DNL Workfront] 관리자가 [!DNL Workfront]기회[!UICONTROL &#x200B; 및 &#x200B;]계정[!UICONTROL &#x200B; 페이지 레이아웃에 &#x200B;] 섹션을 추가했습니다.\
    페이지 레이아웃에 [!DNL Workfront] 섹션을 추가하는 방법에 대한 자세한 내용은 [사용자를 위한  [!DNL Adobe Workfront] 섹션 구성 [!DNL Salesforce] 을 참조하십시오](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 * [!DNL Workfront] 계정이 있으며 Opportunity 또는 Account 내의 [!DNL Workfront] 섹션에서 로그인할 수 있습니다.\

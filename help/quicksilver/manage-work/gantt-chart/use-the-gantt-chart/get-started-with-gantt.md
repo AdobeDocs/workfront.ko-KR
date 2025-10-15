@@ -41,7 +41,7 @@ Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목록의 타임�
 
 ## [!UICONTROL 간트 차트 액세스]
 
-[!UICONTROL 의 ]간트[!DNL Workfront] 차트는 작업 또는 프로젝트 목록을 시각적으로 표시합니다.
+[!UICONTROL 의 &#x200B;]간트[!DNL Workfront] 차트는 작업 또는 프로젝트 목록을 시각적으로 표시합니다.
 
 프로젝트의 작업 목록 또는 작업 보고서에서 작업 목록 [!UICONTROL 간트 차트]를 바로 볼 수 있습니다.
 

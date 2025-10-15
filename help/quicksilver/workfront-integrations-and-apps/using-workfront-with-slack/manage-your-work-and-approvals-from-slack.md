@@ -17,7 +17,7 @@ ht-degree: 1%
 
 [!DNL Adobe Workfront for Slack]을(를) 설치한 후 다음을 수행할 수 있습니다.
 
-* [!UICONTROL 에서 ]홈[!DNL Slack] 항목의 액세스 목록
+* [!UICONTROL 에서 &#x200B;]홈[!DNL Slack] 항목의 액세스 목록
 * [!DNL Slack]의 작업 및 문제를 검토하고 수락합니다.
 * [!DNL Slack]의 승인 검토 및 결정
 

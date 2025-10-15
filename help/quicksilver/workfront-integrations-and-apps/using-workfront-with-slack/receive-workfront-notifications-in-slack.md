@@ -22,7 +22,7 @@ ht-degree: 1%
 [!DNL Adobe Workfront for Slack]을(를) 설치한 후에는 [!DNL Workfront]에서 [!DNL Slack]개의 알림을 받을 수 있습니다.\
 [!DNL Workfront for Slack] 설치에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을 참조하십시오.
 
-[!UICONTROL  인터페이스의 알림 버블에 표시되는 ]알림[!DNL Workfront]의 선택 개수를 [!DNL Slack]에서도 전달할 수 있습니다.
+[!UICONTROL &#x200B; 인터페이스의 알림 버블에 표시되는 &#x200B;]알림[!DNL Workfront]의 선택 개수를 [!DNL Slack]에서도 전달할 수 있습니다.
 
 전자 메일 알림은 [!DNL Workfront] 인터페이스 알림과 독립적으로 작동합니다. 사용자 또는 [!DNL Workfront] 관리자는 전자 메일 알림을 비활성화할 수 있지만 [!DNL Workfront]에서는 인터페이스 알림을 비활성화할 수 없습니다.\
 그러나 [!DNL Workfront] 인터페이스 내에서만 해당 알림에 집중하려면 [!DNL Slack]에서 받을 수 있는 [!DNL Workfront] 알림을 비활성화할 수 있습니다.

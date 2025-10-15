@@ -65,8 +65,8 @@ ht-degree: 0%
 
 다음과 같은 방법으로 앱을 설치할 수 있습니다.
 
-* [ [!DNL Workfront] 외부 앱 설치 [!DNL Slack]](#install-the-workfront-app-outside-slack-install-the-workfront-app-outside-slack)
-* [ [!DNL Workfront]  내에  [!DNL Slack]앱 설치](#install-the-workfront-app-within-slack-install-the-workfront-app-within-slack)
+* [&#x200B; [!DNL Workfront] 외부 앱 설치 [!DNL Slack]](#install-the-workfront-app-outside-slack-install-the-workfront-app-outside-slack)
+* [&#x200B; [!DNL Workfront]  내에  [!DNL Slack]앱 설치](#install-the-workfront-app-within-slack-install-the-workfront-app-within-slack)
 
 ### [!DNL Workfront] 외부에 [!DNL Slack] 앱 설치 {#install-the-workfront-app-outside-slack}
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 >
 >Slack용 [!DNL Workfront]의 새 버전이 출시되면 앱을 계속 사용하려면 앱을 다시 승인해야 합니다.
 
-1. [!DNL Adobe Workfront]스토어[[!DNL Slack] 에서 ](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info) 추가 기능을 찾습니다.
+1. [!DNL Adobe Workfront]스토어[[!DNL Slack] 에서 &#x200B;](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info) 추가 기능을 찾습니다.
 
 1. **[!UICONTROL 에서[!DNL Slack]]**&#x200B;열기를 클릭합니다.
 
@@ -108,4 +108,4 @@ ht-degree: 0%
 1. **[!UICONTROL 앱 사이트 방문]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL [!DNL Slack]]**&#x200B;에 추가를 클릭합니다.
 1. 다음 단계에 따라 설치를 완료합니다.
-1. 설치가 완료되면 [!DNL Workfront][!UICONTROL 액세스[!DNL Slack]from[from [!DNL Workfront] 에 설명된 대로  [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 액세스할 수 있습니다.
+1. 설치가 완료되면 [!DNL Workfront][[!UICONTROL 액세스[!DNL Slack]from[from [!DNL Workfront] 에 설명된 대로  [!DNL Slack]]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 액세스할 수 있습니다.

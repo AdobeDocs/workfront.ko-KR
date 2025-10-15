@@ -49,7 +49,7 @@ ht-degree: 0%
 * [!DNL Workfront for Slack] 구성\
    [!DNL Workfront for Slack] 구성에 대한 지침은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을 참조하십시오.
 
-## [!UICONTROL 에서 ]즐겨찾기[!DNL Slack] 목록에 액세스
+## [!UICONTROL 에서 &#x200B;]즐겨찾기[!DNL Slack] 목록에 액세스
 
 1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Workfront]에서 [!DNL Slack]에 로그인합니다.\
    [!DNL Workfront]에서 [!DNL Slack]에 로그인하는 방법에 대한 자세한 내용은 [!DNL Workfront]Access[!DNL Slack]from[의 &quot; [!DNL Adobe Workfront] 에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 로그인&quot; 섹션을 참조하십시오.

@@ -30,7 +30,7 @@ Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 시스템
 >
 >* **Workfront 관리자는 Adobe Admin Console에서 구성해야 합니다.** 자세한 내용 및 지침은 이 문서의 [Adobe Admin Console을 사용하여 Workfront에서 시스템 관리자 만들기](#create-system-administrators-in-workfront-with-the-adobe-admin-console)를 참조하십시오.
 >* **조직에서 SSO(Single Sign-On)를 사용하는 경우** 사용자를 만들어 Adobe Admin Console에서 Workfront에 할당하는 것이 좋습니다. Workfront에서 이러한 사용자를 만들 수 있지만, 조직의 Admin Console이 구성되는 방식에 따라 해당 정보를 Adobe Admin Console으로 전송하는 데 문제가 있을 수 있습니다.
->  >   Adobe Admin Console에서 사용자를 만든 후 Workfront에서 역할, 그룹, 팀 및 액세스 수준 할당과 같은 사용자 정보를 구성할 수 있습니다.
+>  &#x200B;>   Adobe Admin Console에서 사용자를 만든 후 Workfront에서 역할, 그룹, 팀 및 액세스 수준 할당과 같은 사용자 정보를 구성할 수 있습니다.
 >* **조직에서 SSO(Single Sign-On)를 사용하지 않는 경우** Workfront에서 시스템 관리자가 아닌 사용자를 직접 추가할 수 있습니다. Adobe Admin Console에서는 사용자를 추가할 수 있지만 Workfront에서 사용자를 추가하면 생성 중에 액세스 수준을 설정할 수 있으므로 시간을 절약할 수 있습니다.
 
 Admin Console에서 사용자 프로필을 변경하면 Workfront에서 사용자의 시스템 활동 탭에 업데이트가 추가됩니다. 업데이트는 &quot;시스템&quot;에서 수행한 대로 표시됩니다. 이 용어는 Adobe Admin Console 관리자를 참조하며 Workfront 기본 관리자를 참조하지 않습니다.

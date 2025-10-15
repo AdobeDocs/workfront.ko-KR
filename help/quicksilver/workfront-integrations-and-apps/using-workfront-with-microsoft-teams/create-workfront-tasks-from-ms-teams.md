@@ -58,7 +58,7 @@ ht-degree: 0%
 >
 >[!DNL Microsoft Teams]은(는) 더 이상 [!DNL Internet Explorer]을(를) 지원하지 않습니다. [!DNL Adobe Workfront for Microsoft Teams] 통합을 사용하려면 [!DNL Internet Explorer] 이외의 웹 브라우저를 사용해야 합니다.
 
-[!DNL Workfront for Microsoft Teams]을(를) 설치하고 [!UICONTROL 에서 ]Workfront[!DNL Microsoft Teams]에 로그인하는 방법에 대한 자세한 내용은 [설치 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
+[!DNL Workfront for Microsoft Teams]을(를) 설치하고 [!UICONTROL 에서 &#x200B;]Workfront[!DNL Microsoft Teams]에 로그인하는 방법에 대한 자세한 내용은 [설치 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)를 참조하십시오.
 
 ## [!DNL Microsoft Teams]에서 개인 작업 만들기
 
@@ -71,7 +71,7 @@ ht-degree: 0%
    * [!DNL Workfront] 봇 채팅 채널에 있는 경우 **[!UICONTROL 대화]** 필드에 [!UICONTROL 새 작업]을 입력하여 새 작업을 만드십시오.
    * [!DNL Workfront] 보트 채팅 채널 이외의 채팅 채널에 있는 경우:
 
-      * **[!DNL @workfront]**&#x200B;대화[!UICONTROL  필드에 ]을(를) 입력한 다음 원하는 [!DNL Workfront] 봇 채널을 선택하십시오.
+      * **[!DNL @workfront]**&#x200B;대화[!UICONTROL &#x200B; 필드에 &#x200B;]을(를) 입력한 다음 원하는 [!DNL Workfront] 봇 채널을 선택하십시오.
       * **[!UICONTROL 대화]** 필드에 [!UICONTROL 새 작업]을(를) 계속 입력하여 새 작업을 만듭니다.
 
         [!UICONTROL 새 작업] 카드가 [!DNL Workfront] 봇 채널에 표시됩니다.
@@ -88,7 +88,7 @@ ht-degree: 0%
 
    새 개인 작업이 [!DNL Workfront]에 만들어졌습니다. [!UICONTROL 참조 번호]이(가) 할당되어 [!UICONTROL 새 작업] 카드에 표시됩니다.
 
-   참조 번호에 대한 자세한 내용은 [[!UICONTROL 개체 이해] 문서에서 ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects)개체의 참조 번호[ [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.
+   참조 번호에 대한 자세한 내용은 [[!UICONTROL 개체 이해] 문서에서 &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects)개체의 참조 번호[&#x200B; [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.
 
 1. (선택 사항) 작업 정보를 추가로 편집하려면 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 1. (선택 사항) **[!UICONTROL 의 새 탭에서 작업을 열고 추가로 작업을 편집하거나, 프로젝트로 이동하거나, 다른 사람에게 할당하려면[!DNL Workfront]]**&#x200B;의 [!DNL Workfront]보기를 클릭합니다.

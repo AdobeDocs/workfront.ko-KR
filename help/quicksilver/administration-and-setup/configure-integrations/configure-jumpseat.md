@@ -90,7 +90,7 @@ ht-degree: 6%
 
 https://{mycompanyname}.jumpseat.io
 
->>
+&#x200B;>>
 
 >[!ENDSHADEBOX]
 
@@ -111,4 +111,4 @@ https://{mycompanyname}.jumpseat.io
 
 >[!TIP]
 >
->[!DNL JumpSeat] 통합 구성에 대한 자세한 내용은 [!DNL JumpSeat]JumpSeat+Workfront[에 대한 ](https://jumpseat.io/landing-page/jumpseat-workfront/) 설명서를 참조하십시오.
+>[!DNL JumpSeat] 통합 구성에 대한 자세한 내용은 [!DNL JumpSeat]JumpSeat+Workfront[에 대한 &#x200B;](https://jumpseat.io/landing-page/jumpseat-workfront/) 설명서를 참조하십시오.

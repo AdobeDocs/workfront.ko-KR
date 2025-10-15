@@ -61,7 +61,7 @@ ht-degree: 1%
 ## [!DNL Workfront]에서 [!DNL Slack]에 로그인 {#log-in-to-workfront-from-slack}
 
 Slack의 메시지 필드에 명령을 입력하면 먼저 [!DNL Workfront]에 로그인하라는 메시지가 표시됩니다.\
-[!DNL Workfront]의 [!DNL Slack] 명령에 대한 전체 목록을 보려면 이 문서의 [ 섹션에 있는  [!DNL Workfront] 슬래시 명령에서  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack)액세스를 참조하십시오.
+[!DNL Workfront]의 [!DNL Slack] 명령에 대한 전체 목록을 보려면 이 문서의 [&#x200B; 섹션에 있는  [!DNL Workfront] 슬래시 명령에서  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack)액세스를 참조하십시오.
 
 [!DNL Workfront]에서 [!DNL Slack]에 로그인하려면:
 
@@ -97,7 +97,7 @@ Slack의 메시지 필드에 명령을 입력하면 먼저 [!DNL Workfront]에 �
 ## [!DNL Workfront]에서 [!DNL Slack] 액세스
 
 * [슬래시 명령 정보](#about-slash-commands-about-slash-commands)
-* [ [!DNL Workfront] 의 공유 링크에서  [!DNL Slack]액세스](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
+* [&#x200B; [!DNL Workfront] 의 공유 링크에서  [!DNL Slack]액세스](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
 
 ## [!DNL Workfront]의 슬래시 명령에서 [!DNL Slack]에 액세스 {#access-workfront-from-a-slash-command-in-slack}
 
@@ -140,7 +140,7 @@ Slack의 메시지 필드에 명령을 입력하면 먼저 [!DNL Workfront]에 �
 
      [!DNL Workfront] 즐겨찾기 목록을 표시합니다.
 
-     [!DNL Slack]에서 즐겨찾기에 액세스하는 방법에 대한 자세한 내용은 [즐겨찾기 및 최근 항목 액세스[!UICONTROL  문서의 ]다음 위치에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites)즐겨찾기[ 목록 액세스 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) 섹션을 참조하십시오.
+     [!DNL Slack]에서 즐겨찾기에 액세스하는 방법에 대한 자세한 내용은 [즐겨찾기 및 최근 항목 액세스[!UICONTROL &#x200B; 문서의 &#x200B;]다음 위치에서  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites)즐겨찾기[&#x200B; 목록 액세스 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) 섹션을 참조하십시오.
 
    * `/wf recent`
 
@@ -201,7 +201,7 @@ Slack의 메시지 필드에 명령을 입력하면 먼저 [!DNL Workfront]에 �
 [!DNL Workfront]에 대한 전체 명령 목록을 표시합니다.
 
 
-   * `Visit Workfront Help`: 새 브라우저 탭에서 [!UICONTROL  도움말 사이트의 ]Slack[!DNL Workfront] 섹션을 엽니다.
+   * `Visit Workfront Help`: 새 브라우저 탭에서 [!UICONTROL &#x200B; 도움말 사이트의 &#x200B;]Slack[!DNL Workfront] 섹션을 엽니다.
 
 
 1. (선택 사항) 명령의 메시지를 삭제하려면 해당 명령이 포함된 Slack 메시지의 오른쪽 상단 모서리로 마우스를 가져간 후 {&#x200B;0}메시지 동작 표시&#x200B;**[!UICONTROL 를 클릭한 다음]**&#x200B;메시지 삭제&#x200B;**[!UICONTROL 를 클릭합니다.]**

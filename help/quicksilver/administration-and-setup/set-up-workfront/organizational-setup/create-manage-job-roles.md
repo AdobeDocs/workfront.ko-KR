@@ -74,7 +74,7 @@ ht-degree: 0%
       <td>역할에 대한 고유한 사항을 나타내는 역할에 대한 설명을 입력합니다. </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL이 활성 상태입니다]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL 이 활성 상태입니다]</span> </td> 
       <td> 
        <ul> 
         <li> <p>역할을 활성화하여 <b>의 모든 곳에서 사용할 수 있도록 하여 사용자, 작업 항목 등과 연결하려면 </b>[!UICONTROL 예][!DNL Workfront]를 선택하십시오. </p> </li> 

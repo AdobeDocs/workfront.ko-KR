@@ -41,7 +41,7 @@ ht-degree: 0%
 
 -->
 
-[!DNL Jira] 관리자는 [!DNL Adobe Workfront]활동 로그[!DNL Jira]에서 [!UICONTROL 에서 ] 사이의 티켓을 동기화하거나 만드는 동안 발생하는 예외와 오류를 볼 수 있습니다.
+[!DNL Jira] 관리자는 [!DNL Adobe Workfront]활동 로그[!DNL Jira]에서 [!UICONTROL 에서 &#x200B;] 사이의 티켓을 동기화하거나 만드는 동안 발생하는 예외와 오류를 볼 수 있습니다.
 
 활동 로그에서 최대 500개의 항목을 볼 수 있으며 가장 최근 항목으로 시작하여 나열됩니다.
 

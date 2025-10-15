@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## [!DNL Google Workspace]의 업데이트 알림에 회신
 
-1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![ 아이콘 ](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
+1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![&#x200B; 아이콘 &#x200B;](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
 1. 업데이트가 포함된 [!DNL Workfront] 전자 메일 알림을 엽니다.
 1. [!UICONTROL Google용 Workfront Workspace] 패널 아래쪽에서 **[!UICONTROL 댓글 게시]**&#x200B;를 클릭한 다음 답글을 입력하세요.
 1. (선택 사항) 회신에 대해 특정 사용자에게 알리려면 **[!DNL Notify people and teams]**&#x200B;을(를) 클릭하고 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.

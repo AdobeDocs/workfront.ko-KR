@@ -50,7 +50,7 @@ ht-degree: 0%
 
 이전에 즐겨찾기로 추가한 항목을 보려면 다음과 같이 하십시오.
 
-1. **[!UICONTROL 페이지의 오른쪽 위 모서리에 있는]**&#x200B;즐겨찾기![ 아이콘 ](assets/favorites-icon.png)즐겨찾기 아이콘[!DNL Adobe Workfront]을 클릭합니다.
+1. **[!UICONTROL 페이지의 오른쪽 위 모서리에 있는]**&#x200B;즐겨찾기![&#x200B; 아이콘 &#x200B;](assets/favorites-icon.png)즐겨찾기 아이콘[!DNL Adobe Workfront]을 클릭합니다.
 
 1. **즐겨찾기** 목록에서 보려는 항목을 클릭합니다.
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ### 최근 항목을 즐겨찾기로 추가
 
-1. 새 **[!UICONTROL 경험에서 페이지의 오른쪽 위 모서리에 있는]**&#x200B;최근 항목![ 아이콘 ](assets/recents-icon-40x43.png)최근 항목 아이콘[!DNL Adobe Workfront]을 클릭합니다.
+1. 새 **[!UICONTROL 경험에서 페이지의 오른쪽 위 모서리에 있는]**&#x200B;최근 항목![&#x200B; 아이콘 &#x200B;](assets/recents-icon-40x43.png)최근 항목 아이콘[!DNL Adobe Workfront]을 클릭합니다.
 1. 즐겨찾기로 저장할 항목과 함께 별 인라인을 클릭합니다. 최근 항목이 **즐겨찾기** 메뉴에 표시됩니다.
 
    ![최근 항목 즐겨찾기](assets/recents-section.png)
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ## [!UICONTROL 즐겨찾기] 메뉴에서 항목 제거
 
-1. **[!UICONTROL 페이지의 오른쪽 위 모서리에 있는]**&#x200B;즐겨찾기![ 아이콘 ](assets/favorites-icon.png)즐겨찾기 아이콘[!DNL Workfront]을 클릭합니다.
+1. **[!UICONTROL 페이지의 오른쪽 위 모서리에 있는]**&#x200B;즐겨찾기![&#x200B; 아이콘 &#x200B;](assets/favorites-icon.png)즐겨찾기 아이콘[!DNL Workfront]을 클릭합니다.
 
 1. 즐겨찾기로 제거할 항목을 마우스로 가리킨 다음, 항목 옆에 있는 **X**&#x200B;을(를) 클릭합니다.
 

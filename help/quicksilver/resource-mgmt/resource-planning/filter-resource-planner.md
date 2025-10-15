@@ -124,7 +124,7 @@ ht-degree: 0%
 1. 의 왼쪽 상단 모서리에서 **필터** 아이콘을 클릭합니다.
    ![filter_icon.png](assets/filter-icon.png)
 또는
-**필터** 드롭다운 메뉴를 확장하고 **새 필터 추가**를 클릭합니다.
+**필터** 드롭다운 메뉴를 확장하고 **새 필터 추가**&#x200B;를 클릭합니다.
    ![필터 드롭다운](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 기본 제공 기준을 사용하여 필터를 빌드하려면 다음 필드 중 하나를 지정합니다.

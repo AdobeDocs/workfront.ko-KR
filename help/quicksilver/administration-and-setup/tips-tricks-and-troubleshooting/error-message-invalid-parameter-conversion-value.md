@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: '오류 메시지: 잘못된 매개변수: 전환 값'
-description: '기존 사용자 정의 양식에서 사용자 정의 필드의 형식을 변경하려고 하면 ''잘못된 매개변수: 전환 값 `&lt;...&gt;`'' 오류 메시지가 표시됩니다.'
+description: '기존 사용자 정의 양식에서 사용자 정의 필드의 형식을 변경하려고 하면 ''잘못된 매개변수: 전환 값 &grave;&lt;...&gt;&grave;'' 오류 메시지가 표시됩니다.'
 author: Lisa
 feature: System Setup and Administration
 role: Admin

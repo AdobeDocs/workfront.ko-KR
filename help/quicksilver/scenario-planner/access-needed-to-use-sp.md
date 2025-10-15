@@ -24,7 +24,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-올바른 액세스 또는 권한이 없으면 [!UICONTROL 의 ]시나리오[!DNL  Adobe Workfront] 영역을 보거나 조직의 계획 또는 이니셔티브를 관리하지 못할 수 있습니다. 계획 및 이니셔티브의 관리에는 계획 및 이니셔티브 생성, 편집 및 삭제가 포함됩니다.
+올바른 액세스 또는 권한이 없으면 [!UICONTROL 의 &#x200B;]시나리오[!DNL &#x200B; Adobe Workfront] 영역을 보거나 조직의 계획 또는 이니셔티브를 관리하지 못할 수 있습니다. 계획 및 이니셔티브의 관리에는 계획 및 이니셔티브 생성, 편집 및 삭제가 포함됩니다.
 
 ## [!DNL Adobe Workfront Scenario Planner]을(를) 보고 사용하는 데 필요한 액세스 권한
 
@@ -63,7 +63,7 @@ might need to add information about the permissions to plans/ initiatives if tho
       >
       >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner. -->
 
-1. [!DNL Workfront] 관리자가 액세스 수준의 [!UICONTROL 에 대한 ]보기[!UICONTROL  또는 ]편집[!DNL Scenario Planner] 액세스 권한을 부여해야 합니다.
+1. [!DNL Workfront] 관리자가 액세스 수준의 [!UICONTROL 에 대한 &#x200B;]보기[!UICONTROL &#x200B; 또는 &#x200B;]편집[!DNL Scenario Planner] 액세스 권한을 부여해야 합니다.
 
    [!DNL Workfront Scenario Planner]에 대한 액세스 권한 부여에 대한 자세한 내용은 [액세스 권한 부여 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)를 참조하십시오.
 

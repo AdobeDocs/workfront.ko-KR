@@ -123,4 +123,4 @@ Workfront API를 사용하여 서식 있는 텍스트 필드의 다음 값을 �
 1. 위에 설명된 JSON에 문자열 메서드를 사용하여 PUT 요청을 수행하고 업데이트를 보냅니다.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

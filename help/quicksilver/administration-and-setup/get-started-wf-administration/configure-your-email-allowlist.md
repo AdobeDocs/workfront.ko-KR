@@ -31,7 +31,7 @@ ht-degree: 0%
 >성공적인 이메일 전달을 높이고 이메일 스푸핑을 방지하기 위해 Workfront의 모든 이메일이 해당 주소에서 전송됩니다. 여기에는 자동화된 경고와 사용자 간 통신이 모두 포함됩니다.
 >
 >예를 들어 Joan Harris라는 사용자로부터 받은 Workfront 이메일의 보낸 사람 라인은 다음과 같습니다.
->>`Joan Harris <notifications@my.workfront.com>`
+>&#x200B;>`Joan Harris <notifications@my.workfront.com>`
 
 사용자 환경과 Adobe Workfront 허용 목록에 추가하다 서버 간 통신을 열 수 있도록 조직의 방화벽을 구성하는 방법에 대한 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
 

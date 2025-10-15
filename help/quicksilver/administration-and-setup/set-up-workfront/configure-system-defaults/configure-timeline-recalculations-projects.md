@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] 관리자는 시스템의 모든 프로젝트에 대한 타임라인을 수동으로 다시 계산할 수 있습니다. 프로젝트 소유자는 개별 프로젝트에 대한 타임라인을 수동으로 다시 계산할 수도 있습니다. 자세한 내용은 [프로젝트 타임라인 다시 계산](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)을 참조하십시오.
 
-이 문서에서는 [!DNL Workfront] 관리자로서 [!DNL Workfront]설정[!UICONTROL  영역에서 프로젝트 환경 설정을 구성하여 ]이(가) 프로젝트 타임라인을 자동으로 계산하는 방법과 시기를 확인하는 방법에 대해 설명합니다.
+이 문서에서는 [!DNL Workfront] 관리자로서 [!DNL Workfront]설정[!UICONTROL &#x200B; 영역에서 프로젝트 환경 설정을 구성하여 &#x200B;]이(가) 프로젝트 타임라인을 자동으로 계산하는 방법과 시기를 확인하는 방법에 대해 설명합니다.
 
 ## 액세스 요구 사항
 

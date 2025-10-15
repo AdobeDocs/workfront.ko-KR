@@ -4,7 +4,7 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: ' [!DNL Adobe Workfront] 보기에서 프로젝트 목록 필터링'
 feature: Get Started with Workfront
-description: 기본적으로  [!DNL Adobe Workfront] 보기는 [!UICONTROL 에 ]모든 프로젝트 [!DNL Workfront] 목록을 표시하므로 보기 액세스 권한이 있는 모든 프로젝트가 상태와 관계없이 나열됩니다.
+description: 기본적으로  [!DNL Adobe Workfront] 보기는 [!UICONTROL 에 &#x200B;]모든 프로젝트 [!DNL Workfront] 목록을 표시하므로 보기 액세스 권한이 있는 모든 프로젝트가 상태와 관계없이 나열됩니다.
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
 source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront View]의 프로젝트 목록 필터링
 
-기본적으로 [!DNL Adobe Workfront View]은(는) [!UICONTROL 에 ]모든 프로젝트[!DNL Workfront] 목록을 표시하므로 보기 액세스 권한이 있는 모든 프로젝트가 상태와 관계없이 나열됩니다.
+기본적으로 [!DNL Adobe Workfront View]은(는) [!UICONTROL 에 &#x200B;]모든 프로젝트[!DNL Workfront] 목록을 표시하므로 보기 액세스 권한이 있는 모든 프로젝트가 상태와 관계없이 나열됩니다.
 
 [!DNL Workfront View]의 프로젝트 목록을 필터링하여 자신과 관련된 프로젝트만 표시할 수 있습니다. 필터를 적용하면 다음에 로그인할 때까지 또는 변경될 때까지 프로젝트 목록이 필터링된 상태로 유지됩니다.
 

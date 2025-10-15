@@ -241,7 +241,7 @@ ht-degree: 1%
 
    작업이 목록에 표시됩니다.
 
-   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. 상위 항목을 찾으면 해당 라디오 단추를 선택합니다.
 
@@ -251,7 +251,7 @@ ht-degree: 1%
 
    또는
 
-   목록에서 작업을 여러 개 선택하면 **작업 복사**를 클릭합니다.
+   목록에서 작업을 여러 개 선택하면 **작업 복사**&#x200B;를 클릭합니다.
 복사된 작업이 이제 지정된 프로젝트에 있으며 선택한 상위 작업의 하위 작업 또는 프로젝트의 마지막 작업입니다.
 
 ## 작업 복제

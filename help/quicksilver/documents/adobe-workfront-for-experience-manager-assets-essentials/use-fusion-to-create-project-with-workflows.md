@@ -152,7 +152,7 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 
 이 모듈의 연결을 위해 Workfront에서 OAuth 애플리케이션을 설정해야 합니다. Fusion에서 제공된 Workfront 연결에 대해 이 작업을 한 번만 수행하면 됩니다.
 
-1. [ 통합을 위한 OAuth2 애플리케이션 만들기 문서의 ](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow)사용자 자격 증명(인증 코드 흐름)을 사용하여 OAuth2 애플리케이션 만들기[!DNL Workfront]에 설명된 대로 Workfront에서 OAuth 애플리케이션 만들기를 시작합니다.
+1. [&#x200B; 통합을 위한 OAuth2 애플리케이션 만들기 문서의 &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow)사용자 자격 증명(인증 코드 흐름)을 사용하여 OAuth2 애플리케이션 만들기[!DNL Workfront]에 설명된 대로 Workfront에서 OAuth 애플리케이션 만들기를 시작합니다.
 1. 클라이언트 ID 및 클라이언트 암호를 안전한 위치에 복사합니다.
 1. **리디렉션 URI** 필드에 다음을 입력하십시오.
 

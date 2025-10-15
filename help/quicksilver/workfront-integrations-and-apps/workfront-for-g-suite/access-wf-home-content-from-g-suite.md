@@ -57,7 +57,7 @@ Google Workspace을 종료하지 않고도 자신에게 할당된 모든 작업,
 
 ## 전제 조건
 
-[!UICONTROL 에서 ]Home[!DNL Google Workspace] 콘텐츠에 액세스하려면 먼저 다음을 수행해야 합니다.
+[!UICONTROL 에서 &#x200B;]Home[!DNL Google Workspace] 콘텐츠에 액세스하려면 먼저 다음을 수행해야 합니다.
 
 * [!DNL Workfront for Google Workspace] 설치\
    지침은 [설치 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)를 참조하십시오.
@@ -65,7 +65,7 @@ Google Workspace을 종료하지 않고도 자신에게 할당된 모든 작업,
 ## [!DNL Workfront]에서 Home[!DNL Google Workspace] 액세스
 
 1. [!DNL Workfront]에 로그인했는지 확인하십시오.
-1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![ 아이콘 ](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
+1. [!UICONTROL Google용 Workfront Workspace] 패널이 표시되지 않으면 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에서 ![&#x200B; 아이콘 &#x200B;](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]을 클릭하십시오.
 1. [!DNL Workfront]에 대해 [!DNL Google Workspace]의 맨 위에 왼쪽 화살표가 표시되면 화살표를 클릭하여 [!UICONTROL Home] 영역으로 이동합니다.
 
 1. **[!UICONTROL 정렬 기준]** 영역에서 확장 화살표 ![확장 화살표](assets/dropdown-arrow.png)를 클릭한 다음 옵션을 클릭하여 원하는 항목을 찾을 수 있도록 작업 항목을 그룹화하는 방법을 지정합니다.

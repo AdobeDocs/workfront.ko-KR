@@ -68,7 +68,7 @@ ht-degree: 1%
 * [!UICONTROL 리소스 풀]의 [!UICONTROL 풀 구성원] 필드
 * 사용자가 프로젝트에 대한 청구 요금을 오버라이드할 때 [!UICONTROL 청구 요금] 편집 화면의 [!UICONTROL 작업 역할] 필드
 * 프로젝트의 [!UICONTROL Kanban 보드에 할당 추가] 대화 상자
-* 누군가 [!UICONTROL 을(를) 사용하고 있을 때 계획 또는 이니셔티브의 ]작업 역할[!DNL Adobe Workfront Scenario Planner] 필드.
+* 누군가 [!UICONTROL 을(를) 사용하고 있을 때 계획 또는 이니셔티브의 &#x200B;]작업 역할[!DNL Adobe Workfront Scenario Planner] 필드.
 
   [!DNL Scenario Planner]은(는) 새 [!DNL Adobe Workfront] 경험에서만 사용할 수 있으며 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 [개요 [!DNL Scenario Planner] 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하세요.
 

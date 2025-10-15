@@ -98,7 +98,7 @@ ht-degree: 0%
       <td> <p>사용자가 사용자 프로필에 할당되거나 객체에 할당된 작업 역할을 수동으로 선택할 수 있습니다.</p> <p><b>중요</b>:  
         <ul> 
          <li>작업 역할을 시간 항목에 할당한 후 이 설정을 사용하지 않으면 사용자는 프로젝트, 작업 또는 문제의 [!UICONTROL 시간] 탭에서 다양한 역할에 기록된 시간을 조정해야 합니다.</li> 
-         <li>사용자에게 프로필에 할당된 작업 역할이 없고 [!UICONTROL Advanced Assignments] 대화 상자에 [!UICONTROL Task Owner](으)로 할당된 작업이 있는 경우 사용자가 작업에 시간을 기록할 때 해당 작업 역할이 표시됩니다.</li> 
+         <li>사용자에게 프로필에 할당된 작업 역할이 없고 [!UICONTROL Advanced Assignments] 대화 상자에 [!UICONTROL Task Owner] (으)로 할당된 작업이 있는 경우 사용자가 작업에 시간을 기록할 때 해당 작업 역할이 표시됩니다.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td>프로젝트에서 바로 [!UICONTROL]</td>
+        <td>프로젝트에서 바로 </td>
         <td>사용자가 프로젝트에 시간을 기록할 수 있습니다([!UICONTROL 업데이트] 탭과 타임시트 모두). 사용자가 프로젝트 수준에서 시간을 기록하지 않는 경우 이 옵션은 선택하지 않은 상태로 유지되어야 합니다.</td>
     </tr>
     <tr>

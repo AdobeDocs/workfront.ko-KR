@@ -46,7 +46,7 @@ ht-degree: 0%
 
 {{step1-click-profile-pic}}
 
-1. 왼쪽 패널에서 **[!UICONTROL 조직 차트]**를 클릭합니다.
+1. 왼쪽 패널에서 **[!UICONTROL 조직 차트]**&#x200B;를 클릭합니다.
    ![조직도](assets/org-chart-2025.png)
 
    조직도가 표시됩니다.

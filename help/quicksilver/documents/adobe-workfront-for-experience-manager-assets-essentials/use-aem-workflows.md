@@ -150,7 +150,7 @@ ht-degree: 0%
 
 1. 원하는 대로 **[!UICONTROL 연결된 폴더 만들기]**&#x200B;를 켜거나 끕니다. 이 기능을 켜면 연결된 폴더 구성을 편집할 수 있습니다.
 
-   연결된 폴더 구성에 대한 자세한 내용은 문서 [Adobe Experience Manager 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)에서 [Experience Manager Assets 연결된 폴더 만들기[!UICONTROL 를 참조하십시오. ]as a Cloud Service 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+   연결된 폴더 구성에 대한 자세한 내용은 문서 [Adobe Experience Manager 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)에서 [Experience Manager Assets 연결된 폴더 만들기[!UICONTROL 를 참조하십시오. &#x200B;]as a Cloud Service 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 
 1. (선택 사항) 프로젝트에 첨부된 사용자 정의 양식에 특정 값이 있는 경우에만 폴더 트리를 작성하려면 해당 폴더 트리의 **필터 적용**&#x200B;을 클릭한 다음, 필드, 필드 값을 포함하는 사용자 정의 양식을 선택하십시오. 새 프로젝트에 첨부된 사용자 정의 양식의 필드에 선택한 값이 포함되어 있으면 폴더 트리가 만들어집니다.
 1. (선택 사항) 폴더 이름을 구성할 때 다음 옵션 중에서 선택할 수 있습니다.

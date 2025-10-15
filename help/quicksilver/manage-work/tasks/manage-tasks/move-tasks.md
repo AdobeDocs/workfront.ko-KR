@@ -265,7 +265,7 @@ Adobe Workfront에서 다음 개체 간에 작업을 이동할 수 있습니다.
 
    작업이 목록에 표시됩니다.
 
-   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >

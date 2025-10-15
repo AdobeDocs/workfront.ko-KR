@@ -25,7 +25,7 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Adobe Workfront]의 프로그램 개요](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/programs-overview.md)
+* [&#x200B; [!DNL Adobe Workfront]의 프로그램 개요](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/programs-overview.md)
 * [프로그램 만들기](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [프로그램 편집](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
 * [포트폴리오에 기존 프로그램 추가](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)

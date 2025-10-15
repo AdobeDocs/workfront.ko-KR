@@ -21,7 +21,7 @@ ht-degree: 0%
 
 시스템 관리자는 다음 작업을 수행할 수 있습니다.
 
-* 레이아웃 템플릿의 기본 메뉴에 [!UICONTROL 블루프린트]를 추가하고 사용자 또는 그룹에 레이아웃 템플릿을 할당하십시오. 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴 사용자 지정] 및 ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)레이아웃 템플릿에 사용자 할당[을 참조하십시오.](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
+* 레이아웃 템플릿의 기본 메뉴에 [!UICONTROL 블루프린트]를 추가하고 사용자 또는 그룹에 레이아웃 템플릿을 할당하십시오. 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴 사용자 지정] 및 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)레이아웃 템플릿에 사용자 할당[을 참조하십시오.](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
   >[!NOTE]
   >

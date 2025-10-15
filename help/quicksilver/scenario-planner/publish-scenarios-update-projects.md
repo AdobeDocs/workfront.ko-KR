@@ -238,11 +238,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설�
 
      ![게시의 스트림 확인 업데이트](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
-   * **[!UICONTROL 프로젝트 세부 정보] 섹션[!UICONTROL 의 ]개요** 영역: 이 영역에 연결된 이니셔티브의 정보를 포함하는 새 [!DNL Scenario Planner] 섹션이 만들어집니다.
+   * **[!UICONTROL 프로젝트 세부 정보] 섹션[!UICONTROL 의 &#x200B;]개요** 영역: 이 영역에 연결된 이니셔티브의 정보를 포함하는 새 [!DNL Scenario Planner] 섹션이 만들어집니다.
 
      ![프로젝트 세부 정보에 대한 시나리오 플래너](assets/scenario-planner-on-project-details-350x135.png)
 
-     다음 이니셔티브 정보가 [!DNL Scenario Planner]프로젝트 세부 정보[!UICONTROL  섹션의 ] 영역에 게시되었습니다.
+     다음 이니셔티브 정보가 [!DNL Scenario Planner]프로젝트 세부 정보[!UICONTROL &#x200B; 섹션의 &#x200B;] 영역에 게시되었습니다.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -281,12 +281,12 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설�
 
      >[!NOTE]
      >
-     >프로젝트에 대한 [!UICONTROL 보기] 액세스 권한이 있는 모든 사용자는 [!DNL Scenario Planner]개요[!UICONTROL  영역에서 ] 섹션을 볼 수 있습니다. 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에 이 영역을 표시할지 여부를 제어할 수 있습니다. 사용자에게 연결된 레이아웃 템플릿이 없는 경우 기본적으로 이 영역이 표시됩니다.
+     >프로젝트에 대한 [!UICONTROL 보기] 액세스 권한이 있는 모든 사용자는 [!DNL Scenario Planner]개요[!UICONTROL &#x200B; 영역에서 &#x200B;] 섹션을 볼 수 있습니다. 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에 이 영역을 표시할지 여부를 제어할 수 있습니다. 사용자에게 연결된 레이아웃 템플릿이 없는 경우 기본적으로 이 영역이 표시됩니다.
      >
      >   
      >   
      >   * 레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 섹션에서 영역을 추가하거나 제거하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 세부 정보] 보기 사용자 지정](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오.
-     >   * [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL 개요] 영역에서 정보를 보는 방법에 대한 자세한 내용은 프로젝트 [[!UICONTROL 개요] 영역[!UICONTROL 에서 ]관리](../manage-work/projects/manage-projects/understand-project-overview-area.md) 정보를 참조하십시오.
+     >   * [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL 개요] 영역에서 정보를 보는 방법에 대한 자세한 내용은 프로젝트 [[!UICONTROL 개요] 영역[!UICONTROL 에서 &#x200B;]관리](../manage-work/projects/manage-projects/understand-project-overview-area.md) 정보를 참조하십시오.
      >   
      >
 

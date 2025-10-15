@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * **조건 연산자** = &quot;IF&quot; 문의 조건을 만드는 데 도움이 되는 연산자입니다. 예를 들어 &quot;다음과 같음&quot; 또는 &quot;다음보다 큼&quot;은 조건 연산자입니다. 문에서 사용할 수 있는 조건 연산자 목록을 보려면 [계산된 사용자 지정 식의 조건 연산자](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)를 참조하십시오.
 
-* **True****식** = 조건 기준이 충족되면 표시할 지표(true 지표)를 방정식에 알려 주는 &quot;True&quot; 변수입니다.
+* **True**&#x200B;**식** = 조건 기준이 충족되면 표시할 지표(true 지표)를 방정식에 알려 주는 &quot;True&quot; 변수입니다.
 
 * **False 식** = 조건 기준이 충족되지 않을 때 표시할 표시기(false 표시기)를 방정식에 알려 주는 &quot;False&quot; 변수입니다.
 

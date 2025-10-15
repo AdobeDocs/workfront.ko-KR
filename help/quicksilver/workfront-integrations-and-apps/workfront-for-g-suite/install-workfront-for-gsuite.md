@@ -64,6 +64,6 @@ ht-degree: 0%
    [!DNL Google Workspace] 앱의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 더하기 기호 아이콘([!DNL Gmail], [!DNL Google Calendar] 또는 [!DNL Google Drive])을 클릭합니다. *[!DNL Workfront for Google Workspace]*&#x200B;을(를) 검색한 다음 표시되는 [!DNL Workfront for Google Workspace] 앱 항목을 클릭합니다.
 
 1. **[!UICONTROL 설치]**&#x200B;를 클릭한 다음 나타나는 메시지를 따릅니다.
-1. (조건부) [!DNL Google Workspace] 앱에서 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에 ![ 아이콘 ](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]이 표시되지 않으면 페이지를 새로 고치십시오.
+1. (조건부) [!DNL Google Workspace] 앱에서 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에 ![&#x200B; 아이콘 &#x200B;](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]이 표시되지 않으면 페이지를 새로 고치십시오.
 
 로그인에 대한 자세한 내용은 [로그인 및 로그아웃 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)을 참조하세요.

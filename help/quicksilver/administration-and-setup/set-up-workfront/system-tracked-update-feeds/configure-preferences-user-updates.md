@@ -85,7 +85,7 @@ ht-degree: 3%
 >* 이미지는 개체의 [!UICONTROL 업데이트] 탭을 통해 액세스할 수 있으며 [!UICONTROL 기본 메뉴]의 [!UICONTROL 문서] 영역에서도 사용할 수 있습니다.
 >
 
-1. **[!UICONTROL 의 오른쪽 상단에 있는]**&#x200B;주 메뉴![ 아이콘 ](assets/main-menu-icon.png)주 메뉴 아이콘[!DNL Adobe Workfront]을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
+1. **[!UICONTROL 의 오른쪽 상단에 있는]**&#x200B;주 메뉴![&#x200B; 아이콘 &#x200B;](assets/main-menu-icon.png)주 메뉴 아이콘[!DNL Adobe Workfront]을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 1. 왼쪽 패널에서 **[!UICONTROL 인터페이스]** > **[!UICONTROL 피드 업데이트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 환경 설정]** 탭을 선택합니다.
 

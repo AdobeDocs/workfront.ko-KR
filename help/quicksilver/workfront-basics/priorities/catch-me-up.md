@@ -49,7 +49,7 @@ Workfront의 AI Assistant를 통해 제공되는 Catch me up에는 업데이트,
 
 {{step1-to-priorities}}
 
-1. 페이지 맨 위에서 **다시 걸기**를 클릭합니다.
+1. 페이지 맨 위에서 **다시 걸기**&#x200B;를 클릭합니다.
    ![따라오기 단추](assets/catch-me-up-button.png)
 1. 원하는 기간을 선택합니다.
    * **지난 24시간 요약**

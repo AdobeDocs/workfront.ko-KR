@@ -106,7 +106,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설�
 1. (조건부) 다음 문서에 설명된 방법 중 하나를 사용하여 프로젝트와 이니셔티브를 연결합니다.
 
    * [프로젝트를  [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md)의 플랜으로 가져옵니다.
-   * [ [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md)에서 이니셔티브를 게시하여 프로젝트를 업데이트하거나 만듭니다.
+   * [&#x200B; [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md)에서 이니셔티브를 게시하여 프로젝트를 업데이트하거나 만듭니다.
 
    >[!IMPORTANT]
    >
@@ -128,7 +128,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설�
 
    >[!CAUTION]
    >
-   >조직에서 [!UICONTROL  라이선스를 구매하지 않았더라도 ]역할 할당[!DNL Workfront Scenario Planner] 패널을 볼 수 있지만 이니셔티브의 작업 역할에 대한 정보는 볼 수 없습니다.
+   >조직에서 [!UICONTROL &#x200B; 라이선스를 구매하지 않았더라도 &#x200B;]역할 할당[!DNL Workfront Scenario Planner] 패널을 볼 수 있지만 이니셔티브의 작업 역할에 대한 정보는 볼 수 없습니다.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays 5 to match the mention of it in the section below)</p>

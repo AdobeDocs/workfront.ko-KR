@@ -23,7 +23,7 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-[!DNL Adobe Workfront] 관리자는 [!UICONTROL Workfront]에서 문서를 관리하도록 문서 통합을 구성할 수 있습니다. 문서가 문서 서비스 응용 프로그램에만 저장되고 [!UICONTROL Workfront] 자체에는 저장되지 않도록 [!UICONTROL Workfront]을(를) 구성할 수도 있습니다. 자세한 내용은 [외부 애플리케이션에서 문서 연결[!UICONTROL 에서 ]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider)Workfront[에서 외부 클라우드 공급자로 문서 업데이트 및 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
+[!DNL Adobe Workfront] 관리자는 [!UICONTROL Workfront]에서 문서를 관리하도록 문서 통합을 구성할 수 있습니다. 문서가 문서 서비스 응용 프로그램에만 저장되고 [!UICONTROL Workfront] 자체에는 저장되지 않도록 [!UICONTROL Workfront]을(를) 구성할 수도 있습니다. 자세한 내용은 [외부 애플리케이션에서 문서 연결[!UICONTROL 에서 &#x200B;]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider)Workfront[에서 외부 클라우드 공급자로 문서 업데이트 및 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >[!DNL Workfront]사용자 지정 통합[!UICONTROL  페이지 하단에 표시되는 ] 리디렉션 URI에는 외부 문서 공급자에 이 통합을 등록하는 데 사용된 URI가 나열됩니다.
+   >[!DNL Workfront]사용자 지정 통합[!UICONTROL &#x200B; 페이지 하단에 표시되는 &#x200B;] 리디렉션 URI에는 외부 문서 공급자에 이 통합을 등록하는 데 사용된 URI가 나열됩니다.
 
 1. (조건부) **[!UICONTROL 인증 유형]**&#x200B;에 대해 **[!UICONTROL ApiKey]** 인증을 선택한 경우 사용자 지정 문서 공급자가 발급한 API 키를 입력하십시오.
 
@@ -201,7 +201,7 @@ ht-degree: 2%
 
 사용자가 서드파티 문서 통합을 구성한 후 이를 사용할 수 있는 방법에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
-### [!DNL Workfront] DAM[!UICONTROL [!DNL Workfront]&#x200B;(으)로 메타데이터를 보내도록 ] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
+### [!DNL Workfront] DAM[!UICONTROL [!DNL Workfront]&#x200B;(으)로 메타데이터를 보내도록 &#x200B;] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>

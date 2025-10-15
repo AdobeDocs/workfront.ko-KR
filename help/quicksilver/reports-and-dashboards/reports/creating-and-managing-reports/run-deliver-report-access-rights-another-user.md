@@ -109,7 +109,7 @@ ht-degree: 1%
 1. **보고서 보내기**&#x200B;를 클릭합니다.
 
 1. **액세스 권한이 있는 이 보고서 배달:** 필드에서 보고서가 전자 메일에 배달될 때 표시할 사용자의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 기본값은 보고서를 작성하는 사용자의 이름입니다.\
-   ![액세스 권한이 ](assets/unshimmed-send-report-access-rights-of.png)인 보고서를 보냈습니다.
+   ![액세스 권한이 &#x200B;](assets/unshimmed-send-report-access-rights-of.png)인 보고서를 보냈습니다.
 
    >[!NOTE]
    >

@@ -121,7 +121,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. **[!UICONTROL 포트폴리오]** 를 클릭합니다.
 1. 포트폴리오의 이름을 클릭합니다.
-1. 포트폴리오 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL Portfolio 비활성화]**를 클릭합니다.
+1. 포트폴리오 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL Portfolio 비활성화]**&#x200B;를 클릭합니다.
 포트폴리오가 즉시 비활성화됩니다.
 1. (선택 사항) 포트폴리오 이름의 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL Portfolio 활성화]**&#x200B;를 클릭하여 다시 활성화합니다.
 

@@ -114,7 +114,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설�
    * [!UICONTROL 보기]
    * [!UICONTROL 관리]
 
-   [!DNL Scenario Planner]에 대한 액세스 수준보다 높은 권한을 요청할 수 없습니다. 예를 들어 [!UICONTROL 에 대한 보기 액세스 권한이 있는 경우 ]관리[!DNL Scenario Planner] 권한을 요청할 수 없습니다.
+   [!DNL Scenario Planner]에 대한 액세스 수준보다 높은 권한을 요청할 수 없습니다. 예를 들어 [!UICONTROL 에 대한 보기 액세스 권한이 있는 경우 &#x200B;]관리[!DNL Scenario Planner] 권한을 요청할 수 없습니다.
 
    다른 수준의 권한에 대한 자세한 내용은 [다음에서 플랜 공유 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)를 참조하십시오.
 

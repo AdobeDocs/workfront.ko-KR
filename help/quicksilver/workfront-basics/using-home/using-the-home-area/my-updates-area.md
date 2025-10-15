@@ -65,7 +65,7 @@ ht-degree: 0%
 
 시작하기 전에 다음을 수행해야 합니다.
 
-* [!DNL Workfront]검토[!UICONTROL  이외의 ] 라이선스가 있는 경우 [!DNL Workfront] 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 [!UICONTROL 내 업데이트] 영역을 [!UICONTROL 메인 메뉴]에 추가하고 해당 템플릿에 사용자를 할당해야 합니다.
+* [!DNL Workfront]검토[!UICONTROL &#x200B; 이외의 &#x200B;] 라이선스가 있는 경우 [!DNL Workfront] 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 [!UICONTROL 내 업데이트] 영역을 [!UICONTROL 메인 메뉴]에 추가하고 해당 템플릿에 사용자를 할당해야 합니다.
 
 * Review-license 사용자는 기본적으로 [!UICONTROL 기본 메뉴]에서 [!UICONTROL 내 업데이트] 영역을 볼 수 있습니다.
 
