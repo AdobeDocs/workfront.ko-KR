@@ -420,10 +420,10 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 설명서에서 [액세스 요구 사항](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 설명서에서 [액세스 요구 사항](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)을 참조하십시오.
 
 
-Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
+Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
 
 ## 고급 엔터프라이즈 제어 기능
 
@@ -438,7 +438,7 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 * 워크플로우 Prime 이상
 * Workfront Prime 이상
 
-패키지에 대한 자세한 내용은 [Adobe Workfront 가격 및 패키징 페이지](https://business.adobe.com/products/workfront/pricing.html)를 참조하세요.
+패키지에 대한 자세한 내용은 [Adobe Workfront 가격 및 패키징 페이지](https://business.adobe.com/kr/products/workfront/pricing.html)를 참조하세요.
 
 고급 엔터프라이즈 제어 기능:
 
@@ -483,9 +483,9 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 설명서에서 [액세스 요구 사항](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 설명서에서 [액세스 요구 사항](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)을 참조하십시오.
 
-Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
+Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)를 참조하십시오.
 <td> <p>임의</p> </td> 
   </tr> 
   <tr> 

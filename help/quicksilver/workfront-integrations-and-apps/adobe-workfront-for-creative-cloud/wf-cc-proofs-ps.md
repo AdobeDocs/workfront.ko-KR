@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->파일은 [Photoshop의 템플릿 및 사전 설정](https://helpx.adobe.com/photoshop/using/create-documents.html)에 설명된 대로 사진 문서 사전 설정이어야 합니다.
+>파일은 [Photoshop의 템플릿 및 사전 설정](https://helpx.adobe.com/kr/photoshop/using/create-documents.html)에 설명된 대로 사진 문서 사전 설정이어야 합니다.
 
 
 

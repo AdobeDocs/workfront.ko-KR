@@ -82,7 +82,7 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 1. 시나리오에 **Workfront** > **기타 작업** 모듈을 추가합니다.
 1. **연결** 필드에서 이 모듈에서 사용할 계정에 연결하는 Workfront 연결을 선택합니다.
 
-   연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.
+   연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.
 
    클라이언트 ID 및 클라이언트 암호를 만드는 방법에 대한 지침은 이 문서에서 [OAuth 응용 프로그램 만들기](#create-an-oauth-application)를 참조하십시오.
 
@@ -164,4 +164,4 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 
 Fusion에서 모듈의 연결을 구성할 때 이 클라이언트 ID와 클라이언트 암호를 사용합니다.
 
-연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.
+연결 만들기에 대한 지침은 Workfront 모듈 문서에서 [연결 [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)을 참조하십시오.

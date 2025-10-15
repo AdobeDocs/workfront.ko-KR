@@ -24,8 +24,8 @@ ht-degree: 2%
 
 * Workfront 자습서: 자세한 내용은 [[!DNL Workfront] 자습서](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)를 참조하십시오.
 
-* [!UICONTROL 혁신 랩]: 자세한 내용은 [혁신 랩[!UICONTROL 4&rbrace;]을 참조하십시오.](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas)
-* [!UICONTROL [!DNL Workfront] 커뮤니티]: 자세한 내용은 [[!UICONTROL [!DNL Adobe Workfront] 커뮤니티]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)를 참조하십시오.
+* [!UICONTROL 혁신 랩]: 자세한 내용은 [혁신 랩[!UICONTROL 4&rbrace;]을 참조하십시오.](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=ko)
+* [!UICONTROL [!DNL Workfront] 커뮤니티]: 자세한 내용은 [[!UICONTROL [!DNL Adobe Workfront] 커뮤니티]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ko)를 참조하십시오.
 
 ## [!DNL Workfront] 내부의 도움말에 액세스
 

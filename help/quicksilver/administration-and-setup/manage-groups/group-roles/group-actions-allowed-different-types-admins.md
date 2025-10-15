@@ -235,7 +235,7 @@ ht-degree: 3%
 * 워크플로우 Prime 이상
 * Workfront Prime 이상
 
-패키지에 대한 자세한 내용은 [Adobe Workfront 가격 및 패키징 페이지](https://business.adobe.com/products/workfront/pricing.html)를 참조하세요.
+패키지에 대한 자세한 내용은 [Adobe Workfront 가격 및 패키징 페이지](https://business.adobe.com/kr/products/workfront/pricing.html)를 참조하세요.
 
 고급 엔터프라이즈 제어 기능:
 

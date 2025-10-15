@@ -57,7 +57,7 @@ GenStudio Foundation에 브랜드를 하나 이상 설정한 후에는 여러 AI
 
 시작하기 전에 GenStudio Foundation에서 이미지 브랜드 지침을 설정해야 합니다.
 
-이미지 브랜드 지침에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
+이미지 브랜드 지침에 대한 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
 
 ## AI 검토자 추가
 

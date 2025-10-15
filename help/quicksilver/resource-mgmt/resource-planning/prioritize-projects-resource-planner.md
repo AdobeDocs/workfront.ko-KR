@@ -107,7 +107,7 @@ ht-degree: 1%
 >
 >Portfolio Optimizer에서 프로젝트의 우선 순위를 지정하려면 귀사에 비즈니스 이상의 Workfront 계획이 있어야 합니다.
 >
->Workfront 플랜에 대한 자세한 내용은 [플랜](https://business.adobe.com/products/workfront/pricing.html)을 참조하세요.
+>Workfront 플랜에 대한 자세한 내용은 [플랜](https://business.adobe.com/kr/products/workfront/pricing.html)을 참조하세요.
 >
 >Portfolio Optimizer에서 프로젝트 우선 순위를 지정하는 방법에 대한 자세한 내용은 [Portfolio Optimizer에서 프로젝트 우선 순위 지정](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)을 참조하십시오.
 
