@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 ## 요청 양식에 승인을 추가하는 것에 대한 고려 사항
 
 * 한 명 이상의 승인자를 요청 양식에 추가할 수 있습니다. 사용자만 승인자로 추가할 수 있습니다.
-* <span class="preview">승인자 및 승인 날짜 필드에 요청 양식을 제출하여 만든 레코드에 승인 정보를 표시할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).</span>를 참조하세요.
+* 승인자 및 승인 일자 필드에 요청 양식을 실행하여 생성된 레코드에 승인 정보를 표시할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 * 요청 양식에 여러 승인자를 추가할 때, Workfront Planning에서 레코드가 생성되기 전에 모든 승인자가 요청을 수락해야 합니다.
 * 모든 승인자가 요청을 승인하면 요청 양식과 연결된 레코드 종류에 대한 레코드가 만들어집니다.
 * 최소 한 명 이상의 승인자가 요청을 거부하고 다른 모든 승인자가 요청을 승인하면 Workfront의 요청 영역에 대해 요청이 만들어지지만 요청 양식과 연결된 레코드 유형에 대해서는 레코드가 만들어지지 않습니다.

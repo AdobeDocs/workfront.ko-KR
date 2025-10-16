@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,7 @@ Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul> 
-<li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
+<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -150,7 +147,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
   >필드 구성이 변경되었다는 알림이 다른 사용자에게 표시되지 않습니다.
 
 * 연결된 레코드에서 기존 조회 필드를 편집할 수 있습니다.
-* 이 문서의 [필드 설정 편집](#edit-field-settings-1) 섹션에 설명된 대로 필드를 편집할 수 있을 뿐만 아니라, <span class="preview">테이블 보기에서 레코드를 편집할 때 필드 값을 업데이트할 때 단일 또는 다중 선택 필드의 선택 항목을 편집할 수 있습니다. 자세한 내용은 이 문서의 표 보기에서 레코드를 편집할 때 [기존 선택 필드에 새 선택 항목 추가](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) 섹션을 참조하십시오.</span>
+* 이 문서의 [필드 설정 편집](#edit-field-settings-1) 섹션에 설명된 대로 필드를 편집할 수 있을 뿐만 아니라, 필드 값을 업데이트할 때 테이블 보기에서 레코드를 편집할 때 단일 또는 다중 선택 필드의 선택 항목을 편집할 수 있습니다. 자세한 내용은 이 문서의 표 보기에서 레코드를 편집할 때 [기존 선택 필드에 새 선택 항목 추가](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) 섹션을 참조하십시오.
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 

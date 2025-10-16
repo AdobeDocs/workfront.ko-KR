@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -49,10 +49,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul> 
-<li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
+<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -169,7 +166,7 @@ Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe 
 
    Workfront에 레코드 세부 정보 페이지가 열립니다. 레코드를 업데이트하거나 댓글에 답글을 달 수 있습니다.
 
-1. (조건부) 사용 가능한 경우 **모든 알림 보기**&#x200B;를 클릭합니다.
+1. (조건부) 사용 가능한 경우 **모든 알림 보기**를 클릭합니다.
 **알림** 페이지가 Adobe Experience Cloud에서 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
 
 

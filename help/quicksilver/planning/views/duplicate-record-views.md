@@ -6,20 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # 중복 레코드 보기
 
-<!--remove preview and production references-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -48,10 +46,9 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul> 
-<li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
+<p>모든 Workfront 및 모든 Planning 패키지</p>
+
+<p>모든 워크플로우 및 모든 Planning 패키지</p>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -141,11 +138,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    레코드 유형 페이지가 열립니다.
 기본적으로 선택된 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-1. 사용하는 환경에 따라 다음을 수행합니다.
+1. 현재 보기 이름 옆에 있는 드롭다운 아이콘 ![드롭다운 아이콘](assets/drop-down-icon.png)을 클릭하고 보기 이름을 마우스로 가리킨 다음 **자세히**&#x200B;을 클릭한 다음 **복제**&#x200B;를 클릭합니다.
 
-   * 프로덕션 환경에서 보기 탭의 보기 이름 중 하나를 마우스로 가리킨 다음 보기 이름 왼쪽의 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **복제**&#x200B;를 클릭합니다.
-   * <span class="preview">미리 보기 환경에서 현재 보기 이름 옆에 있는 드롭다운 아이콘 ![드롭다운 아이콘](assets/drop-down-icon.png)을 클릭하고 보기 이름을 마우스로 가리킨 다음 **자세히**&#x200B;를 클릭한 다음 **복제**&#x200B;을 클릭합니다.</span>
+   ![옵션이 있는 보기의 추가 메뉴](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-     ![옵션이 있는 보기의 추가 메뉴](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-     보기가 복제되고 새 보기의 이름이 `Original view's name (Copy)` 패턴을 따릅니다. 새 보기 탭은 모든 보기 탭의 끝에 표시됩니다.
+   보기가 복제되고 새 보기의 이름이 `Original view's name (Copy)` 패턴을 따릅니다. 새 보기 탭은 모든 보기 탭의 끝에 표시됩니다.

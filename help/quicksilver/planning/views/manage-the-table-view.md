@@ -6,18 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '3431'
+source-wordcount: '3370'
 ht-degree: 2%
 
 ---
 
 # 표 보기 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 {{planning-important-intro}}
 
@@ -48,10 +50,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul> 
-<li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
+<p>모든 Workfront 및 모든 Planning 패키지</p>
+<p>모든 워크플로우 및 모든 Planning 패키지</p>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -153,16 +153,16 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 테이블 뷰를 관리하려면 다음을 수행합니다.
 
-1. <span class="preview">문서 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)에 설명된 대로 테이블 보기를 만듭니다.</span>
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 테이블 보기를 만듭니다.
 
-   <span class="preview">![테이블 보기 예제](assets/table-view-example.png)</span>
+   ![테이블 보기 예제](assets/table-view-example.png)
 
 1. (선택 사항) **행 높이**&#x200B;를 클릭한 후 다음 옵션 중에서 선택하여 테이블 행의 높이를 수정합니다.
    * 짧음
    * 보통
    * 높음
 
-1. <span class="preview">(선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면에서 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 눌러 전체 화면을 종료합니다.  </span>
+1. (선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면으로 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 사용하여 전체 화면을 종료합니다.
 
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [열(또는 필드)](#add-columns-or-fields)
@@ -198,12 +198,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    * 표의 도구 모음에서 **필드**&#x200B;를 클릭한 다음 원하는 순서로 필드를 끌어다 놓은 다음 **필드 표시 및 순서** 상자 외부를 클릭하여 닫습니다.
 
-     <div class="preview">
-
      ![필드 설정 테이블 보기 도구 모음 확장](assets/fields-setting-table-view-toolbar-expanded.png)
-
-     </div>
-
 
      >[!TIP]
      >
@@ -246,9 +241,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
 
-   1. <span class="preview">**검색** 상자에서 ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오.</span> 검색 항목 옆에 올바른 일치 항목 수가 표시되고 올바른 일치 항목이 있는 필드가 강조 표시됩니다.
+   1. **검색** 상자에서 ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 항목 수가 표시되고 올바른 일치 항목이 있는 필드가 강조 표시됩니다.
 
-      <span class="preview">![테이블 보기에서 결과가 파란색으로 표시된 검색 상자](assets/search-box-with-results-blue-outline-table-view.png)</span>
+      ![테이블 보기에서 결과가 파란색으로 표시된 검색 상자](assets/search-box-with-results-blue-outline-table-view.png)
 
       화면에 표시되는 모든 단어 또는 특수 문자를 사용할 수 있습니다.
 
@@ -502,13 +497,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. (선택 사항) **조건 추가**&#x200B;를 클릭하고 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
 
-   <div class="preview">
-
    그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
 
    ![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)
 
-   </div>
+
 
 1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
 

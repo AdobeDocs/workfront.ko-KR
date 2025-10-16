@@ -6,18 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 4%
+source-wordcount: '779'
+ht-degree: 5%
 
 ---
 
 # 공식 필드 개요
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -27,9 +29,11 @@ ht-degree: 4%
 
 자세한 내용은 문서 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)의 &quot;수식&quot; 섹션을 참조하십시오.
 
-## 액세스 요구 사항
+<!--do we need these for an overview article?
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
+## Access requirements
+
++++ Expand to view the access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -41,30 +45,30 @@ ht-degree: 4%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 공간에 대한 권한 관리</p>  
-   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table>
+</table> 
 
-Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+-->
 
 <!--Old:
 
@@ -146,19 +150,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
   자세한 내용은 문서 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)의 &quot;수식&quot; 섹션을 참조하십시오.
 * 새 수식에서 수식 필드를 참조할 수 있습니다. 공식 필드에서 참조되는 필드에서 값이 업데이트되면 해당 필드를 참조하는 모든 후속 필드 또는 해당 필드가 포함된 공식 필드가 자동으로 업데이트됩니다.
 
-<div class="preview">
-
 * 수식 필드 또는 수식 필드에 영향을 줄 수 있는 필드를 업데이트하면 경고가 변경 사항의 영향을 알려줍니다. 경고는 다음과 같은 경우에 표시됩니다.
 
    * 수식 필드를 업데이트할 때(이름 및 설명 변경 제외) 해당 필드에 종속 수식 또는 조회 필드가 있는 경우. 경고는 이러한 종속 필드를 나열하고 계속 진행할지 여부를 묻습니다.
 
    * 공식 표현식에서 또는 조회 필드로 사용되는 필드를 삭제할 때. 경고는 종속 수식 및 조회 필드를 나열하고 삭제를 계속할 것인지 여부를 묻습니다.
-
-</div>
-
-
-
-<div class="preview">
 
 ## 공식 필드의 제한 사항
 
@@ -177,7 +173,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      예를들어 수식 필드의 형식으로 [숫자]를 선택하고 수식에 사용된 필드가 숫자가 아닌 텍스트 값만 표시하는 텍스트 필드인 경우 텍스트를 숫자로 구문 분석할 수 없으므로 수식 결과는 `#ERROR!`으로 표시됩니다.
 
-</div>
 
 ## 지원되는 공식
 

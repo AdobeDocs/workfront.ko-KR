@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
 workflow-type: tm+mt
 source-wordcount: '2686'
 ht-degree: 1%
@@ -82,8 +82,8 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
    * 다음 유형의 필드를 요청 양식에 추가할 수 없습니다.
 
-      * 작성자, 마지막 수정자, <span class="preview">승인자</span>
-      * 만든 날짜, 마지막 수정 날짜, <span class="preview">승인 날짜</span>
+      * 작성자, 마지막 수정자, 승인자
+      * 생성 날짜, 마지막 수정 날짜, 승인 날짜
       * Workfront 개체의 조회 필드
       * Workfront Planning 연결된 레코드의 조회 필드
 
@@ -256,7 +256,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
 
 <!--
  

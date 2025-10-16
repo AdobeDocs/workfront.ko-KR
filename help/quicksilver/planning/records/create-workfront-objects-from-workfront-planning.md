@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1316'
 ht-degree: 1%
 
 ---
@@ -17,12 +17,11 @@ ht-degree: 1%
 
 # 레코드에 연결할 때 Workfront Planning에서 Workfront 개체 만들기
 
-<!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -61,7 +60,7 @@ Workfront Planning 레코드에 Workfront 객체를 연결하고 생성할 때 �
 
    * 레코드 유형의 표 보기
    * 연결 필드의 레코드 세부 정보 영역
-   * <span class="preview">세부 정보 영역에 있는 레코드의 연결된 레코드 페이지</span>
+   * 세부 정보 영역에 있는 레코드의 연결된 레코드 페이지
 
 * Workfront Planning의 다음 영역에서 포트폴리오와 프로그램을 만들 수 있습니다.
 
@@ -86,10 +85,7 @@ Planning 레코드를 Workfront 개체와 연결하는 방법에 대한 자세�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul> 
-<li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
+<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
 <tr> 
@@ -203,7 +199,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 Workfront Planning의 다음 영역에서 Workfront Planning의 레코드와 프로젝트를 연결할 때 프로젝트를 만들 수 있습니다.
 
 * 연결 필드에 있는 레코드의 세부 정보 영역 또는 레코드 종류의 표 보기
-* <span class="preview"></span> 레코드의 세부 정보 영역에 있는 레코드의 연결된 레코드 페이지
+* 레코드의 세부 정보 영역에 있는 레코드의 연결된 레코드 페이지
 
 ### 레코드의 세부 정보 영역 또는 레코드 유형의 테이블 보기에서 프로젝트 만들기
 
@@ -211,7 +207,7 @@ Workfront Planning의 다음 영역에서 Workfront Planning의 레코드와 프
 
 1. [레코드 연결](/help/quicksilver/planning/records/connect-records.md) 문서에 설명된 대로 레코드의 세부 정보 페이지 또는 레코드 유형의 테이블로 이동하여 Workfront Planning 레코드와 Workfront 프로젝트 연결을 시작합니다.
 
-1. (조건부) **프로젝트 추가**&#x200B;를 클릭합니다
+1. (조건부) **프로젝트 추가**를 클릭합니다
 또는
 프로젝트 이름을 입력한 다음 찾을 수 없는 경우 **프로젝트 추가**&#x200B;를 클릭합니다. [추가] 단추 다음에 입력한 프로젝트 이름이 옵니다.
 
@@ -227,8 +223,6 @@ Workfront Planning의 다음 영역에서 Workfront Planning의 레코드와 프
    새 프로젝트가 만들어지고 선택한 레코드의 연결된 필드에 추가됩니다.
 
 1. (선택 사항) Workfront Planning에서 새 프로젝트의 이름을 클릭하여 Workfront에서 프로젝트 페이지를 열고 프로젝트를 추가로 업데이트합니다.
-
-<div class="preview">
 
 ### 레코드의 연결된 레코드 페이지에서 프로젝트 만들기
 
@@ -250,8 +244,6 @@ Workfront Planning의 다음 영역에서 Workfront Planning의 레코드와 프
 
    이 영역에는 빈 프로젝트만 추가할 수 있습니다. 템플릿을 사용하여 프로젝트를 추가할 수 없습니다.
 1. (선택 사항) 테이블 보기에서 프로젝트 이름을 클릭하여 Workfront에서 프로젝트를 열고 추가 정보를 추가합니다.
-
-</div>
 
 ## Workfront Planning의 레코드와 연결할 때 포트폴리오 만들기
 

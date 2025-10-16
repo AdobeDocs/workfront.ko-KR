@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -93,7 +93,7 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
       * Workfront 오브젝트에서 Planning 레코드 필드에 액세스할 수 없습니다.
       * 계획 레코드는 Workfront 오브젝트의 계획 탭에서 볼 수 있습니다. 자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
       * Planning 연결 사용자 정의 필드를 만들어 Workfront 객체의 사용자 정의 양식에 첨부할 수 있습니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
-      * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+      * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
    * **연결된 레코드 또는 개체에서 조회 필드를 추가할 때**: 연결된 레코드 필드를 만들 수 있을 뿐만 아니라 연결된 레코드 또는 개체 형식의 필드에 연결할 수도 있습니다. 이 필드를 조회 필드라고 합니다. 연결하려는 레코드의 정보가 있는 연결된(또는 조회 필드) 필드는 연결하려는 레코드에 표시됩니다.
@@ -159,10 +159,10 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
 이 연결 유형을 선택한 후 다음 유형에 저장한 후에는 연결 유형을 변경할 수 없습니다.
 
-    * 단일 선택
-    * 일대다
-    * 다대일
-    * 일대일
+* 단일 선택
+* 일대다
+* 다대일
+* 일대일
 
 ### 단일 선택 연결 유형
 

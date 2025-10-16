@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
 >[!IMPORTANT]
 >
 >이 문서에 설명된 단계는 관리 권한이 있을 때 Workfront Planning에서 GenStudio 작업 영역을 업데이트하는 방법을 보여 줍니다.
->&#x200B;> GenStudio 작업 영역에 대한 Contribute 권한이 있는 경우 일부 기능을 사용할 수 없습니다.
+>> GenStudio 작업 영역에 대한 Contribute 권한이 있는 경우 일부 기능을 사용할 수 없습니다.
 >
 >회사에 Workfront 인스턴스가 여러 개 있는 경우 모든 사용자는 Workfront Planning의 GenStudio 작업 영역에 대한 기여 권한을 받습니다.
 
@@ -64,10 +64,8 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul> 
-<li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
+<p>모든 Workfront 및 모든 Planning 패키지</p>
+<p>모든 워크플로우 및 모든 Planning 패키지</p>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
    <tr> 
@@ -85,7 +83,7 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -143,7 +141,7 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -41,10 +41,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul> 
-<li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
+<p>모든 Workfront 및 모든 Planning 패키지</p> <p>모든 워크플로우 및 모든 Planning 패키지</p>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -123,7 +120,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 </table> -->
 
 
-## &#x200B;<!--in a record type table (I don't think you can create them elsewhere right now)--> 레코드 복제
+## <!--in a record type table (I don't think you can create them elsewhere right now)--> 레코드 복제
 
 기존 레코드를 복제하여 레코드 유형 페이지의 표 보기에서 레코드를 만들 수 있습니다. 기존 레코드와 동일한 레코드가 생성되어 원본 레코드 아래에 추가됩니다.
 
