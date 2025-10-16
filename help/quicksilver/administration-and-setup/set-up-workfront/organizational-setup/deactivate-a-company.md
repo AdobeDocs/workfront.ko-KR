@@ -70,7 +70,7 @@ ht-degree: 1%
 
 1. 비활성화하거나 다시 활성화할 회사를 하나 이상 선택하십시오.
 1. **[!UICONTROL 편집]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>--> 클릭
-1. <!--In the Production environment, -->단일 회사의 경우 **[!UICONTROL 활성 상태임]** 옵션을 비활성화하여 비활성화하거나 옵션을 활성화하여 활성화하십시오.
+1. &#x200B;<!--In the Production environment, -->단일 회사의 경우 **[!UICONTROL 활성 상태임]** 옵션을 비활성화하여 비활성화하거나 옵션을 활성화하여 활성화하십시오.
 
    또는
 
