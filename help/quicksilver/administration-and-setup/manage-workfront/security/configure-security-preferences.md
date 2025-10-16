@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '735'
 ht-degree: 5%
 
 ---
@@ -22,10 +22,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{important-admin-console-onboard}}
 
@@ -128,16 +124,16 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
       <td>사용자에 대해 우선 순위 작업 목록 환경을 활성화하거나 비활성화하도록 선택할 수 있습니다. 사용자는 Workfront에 우선순위 아이콘을 계속 볼 수 있지만 기능에 액세스할 수는 없습니다. 우선 순위에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">우선 순위 시작</a>을 참조하세요.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">AI 사용</span> </td> 
-      <td><span class="preview">AI Assistant를 포함하여 AI를 활성화하도록 선택할 수 있습니다. <p><b>참고</b>: 조직에서 AI를 사용하려면 특정 요구 사항을 충족해야 합니다. 요구 사항을 포함하여 AI에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant 개요</a>를 참조하십시오.</p></span></td> 
+      <td role="rowheader">AI 활성화 </td> 
+      <td>AI Assistant를 포함하여 AI를 활성화하도록 선택할 수 있습니다. <p><b>참고</b>: 조직에서 AI를 사용하려면 특정 요구 사항을 충족해야 합니다. 요구 사항을 포함하여 AI에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant 개요</a>를 참조하십시오.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">양식 자동 완성 </span></td> 
-      <td><span class="preview">이전 요청 데이터를 기반으로 요청 양식을 자동 완성하는 기능을 활성화하도록 선택할 수 있습니다. 양식 자동 완성에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">이전 데이터의 요청 자동 채우기</a>를 참조하십시오.</span></td> 
+      <td role="rowheader">양식 자동 완성 </td> 
+      <td>이전 요청 데이터를 기반으로 요청 양식을 자동 완성하는 기능을 활성화하도록 선택할 수 있습니다. 양식 자동 완성에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">이전 데이터의 요청 자동 채우기</a>를 참조하십시오.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">AI Beta 참여 </span></td> 
-      <td><span class="preview">현재 Beta에 있는 AI 기능을 활성화하도록 선택할 수 있습니다. 이 옵션을 활성화하면 활성화할 AI Beta 기능을 선택할 수 있습니다. 각 AI Beta 기능에 대한 자세한 내용을 보려면 해당 기능 옆에 있는 정보 아이콘을 클릭합니다.</span></td> 
+      <td role="rowheader">AI Beta 참여 </td> 
+      <td>&gt;현재 Beta에 있는 AI 기능을 활성화하도록 선택할 수 있습니다. 이 옵션을 활성화하면 활성화할 AI Beta 기능을 선택할 수 있습니다. 각 AI Beta 기능에 대한 자세한 내용을 보려면 해당 기능 옆에 있는 정보 아이콘을 클릭합니다.</td> 
      </tr>
      <tr> 
       <td role="rowheader">테스트 환경</td> 

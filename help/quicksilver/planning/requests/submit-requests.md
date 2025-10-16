@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -144,15 +144,7 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
    * 가장 최근에 액세스한 6개의 Workfront 요청 대기열 및 Planning 요청 양식이 최근 섹션에 표시됩니다.
    * 50개의 추가 Workfront 요청 큐 및 Planning 요청 양식이 **모든 요청 양식** 섹션에 알파벳 순서로 표시됩니다. 기본적으로 표시되지 않는 요청 대기열을 검색할 수 있습니다.
 
-1. 프로덕션 환경에서 다음 중 하나를 수행합니다.
-
-   * 최근 또는 모든 요청 양식 섹션에서 Planning 요청 양식 선택
-   * 검색 상자에 Planning 요청 양식 이름을 입력한 다음 목록에 표시될 때 카드를 클릭합니다.
-
-   요청 양식이 열립니다.
-
-<!-- Put preview section here-->
-1. <span class="preview">미리 보기 환경에서 최근에 액세스한 요청 양식 영역에서 요청 양식 또는 큐를 선택하거나 목록에 양식 또는 큐 이름을 입력한 다음 표시될 때 선택합니다.
+1. 최근에 액세스한 요청 양식 영역에서 요청 양식 또는 대기열을 선택하거나, 목록에 양식 또는 대기열 이름을 입력한 다음 표시될 때 선택합니다.
 
 1. 요청 양식에서 사용할 수 있는 필드를 업데이트합니다. 빨간색 별표가 있는 필드는 필수입니다.
 1. **제출을 클릭합니다**.
@@ -221,16 +213,9 @@ Planning 요청 양식에 제출된 보기 액세스 권한이 있는 모든 요
 
    요청 세부 정보 페이지가 열립니다.
 
-   ![요청 세부 정보 페이지](assets/request-details-page.png)
-
-   <div class="preview">
-      미리 보기에서:
-
    ![댓글이 있는 요청 페이지](assets/new-request-page-with-comment.png)
 
-   </div>
-
-1. <span class="preview">(선택 사항) 댓글 영역에 댓글을 입력합니다.
+1. (선택 사항) [주석] 영역에 주석을 입력합니다.
 1. (조건부) 요청 양식이 승인과 연결되어 있지 않거나 요청이 승인된 경우 요청 이름을 클릭한 다음 **레코드** 필드의 레코드 이름을 클릭합니다.
 
    레코드의 페이지가 Workfront Planning에 열립니다.
@@ -292,16 +277,11 @@ Planning 요청 양식에 제출된 보기 액세스 권한이 있는 모든 요
 
    요청 세부 정보 페이지가 열립니다.
 
-   ![요청 세부 정보 페이지](assets/request-details-page.png)
-
-   <div class="preview">
-   미리 보기에서:
-
    ![댓글이 있는 요청 페이지](assets/new-request-page-with-comment.png)
 
-   </div>
 
-1. <span class="preview">(선택 사항) 댓글 영역에 댓글을 입력합니다.
+
+1. (선택 사항) [주석] 영역에 주석을 입력합니다.
 1. (조건부) 요청 양식이 승인과 연결되어 있지 않거나 요청이 승인된 경우 요청 이름을 클릭한 다음 **레코드** 필드의 레코드 이름을 클릭합니다.
 
    레코드의 페이지가 Workfront Planning에 열립니다.

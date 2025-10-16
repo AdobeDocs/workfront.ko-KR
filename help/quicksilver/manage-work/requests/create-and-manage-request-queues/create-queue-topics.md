@@ -7,9 +7,9 @@ author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '964'
 ht-degree: 2%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 2%
 # 대기열 주제 만들기
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 대기열 항목은 라우팅 규칙과 함께 작동하여 들어오는 작업을 자동으로 사용자, 작업 역할, 팀에 할당하거나 프로젝트에 배치합니다. 대기열 항목은 라우팅 규칙을 구현하기 위해 존재해야 하는 조건을 정의합니다.
 
@@ -179,8 +177,7 @@ ht-degree: 2%
 
 1. 편집할 대기열 주제가 포함된 프로젝트 또는 템플릿으로 이동합니다.
 1. 왼쪽 패널에서 **주제 큐**&#x200B;를 클릭합니다.
-1. 프로덕션 환경에서 편집할 대기열 주제를 선택합니다. 화면에 표시되는 세부 정보 페이지에서 **대기열 주제 편집**&#x200B;을 클릭합니다.
-1. <span class="preview">미리 보기 환경에서 편집할 큐 주제를 클릭합니다.
+1. 편집할 대기열 주제를 클릭합니다.
 
 사용 가능한 편집 옵션에 대한 자세한 내용은 이 문서에서 [대기열 주제 만들기](#create-a-queue-topic)를 참조하십시오.
 

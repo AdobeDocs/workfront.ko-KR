@@ -6,23 +6,20 @@ description: 내 요청 위젯에서 요청을 제출할 수 있습니다. 필�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '734'
 ht-degree: 3%
 
 ---
 
 # 내 요청 위젯 사용
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요.
 
 >[!IMPORTANT]
 >
 >이 문서에서는 새로운 내 요청 위젯에 대해 설명합니다. 새 위젯을 보려면 새 요청 환경을 활성화해야 합니다.
->&#x200B;>요청 영역에서 새 요청 경험을 활성화할 수 있습니다.
+>>요청 영역에서 새 요청 경험을 활성화할 수 있습니다.
 
 내 요청 위젯은 조직에 제출된 요청을 표시합니다. 요청을 필터링하거나 특정 요청을 검색하거나 열 순서 및 가시성을 조정할 수 있습니다. 내 요청 위젯에서 새 요청을 만들 수도 있습니다.
 

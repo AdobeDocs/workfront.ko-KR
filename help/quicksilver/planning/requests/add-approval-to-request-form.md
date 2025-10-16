@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e69209f449ba1643667135c3a0137b93c6171ef8
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -90,11 +90,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    **구성** 영역이 표시됩니다.
 
    ![구성 탭](assets/configuration-tab.png)
-1. **승인자** 필드에서 드롭다운 아이콘을 클릭하고 목록에서 한 명 이상의 사용자 <span class="preview">또는 팀</span>을(를) 선택합니다
+1. **승인자** 필드에서 드롭다운 아이콘을 클릭하고 목록에서 하나 또는 여러 명의 사용자 또는 팀을 선택합니다
 
    또는
 
-   승인자로 설정할 사용자 <span class="preview">또는 팀</span>의 이름을 입력한 다음 목록에 표시될 때 선택하십시오.
+   승인자로 설정할 사용자 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -109,7 +109,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >
    >* 요청이 승인 또는 거부되기 전에 모든 승인자는 결정을 내려야 합니다.
    >
-   >* <span class="preview">팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.</span>
+   >* 팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.
 
 
 1. (선택 사항) 요청 양식을 공유한 적이 없으면 **게시**&#x200B;를 클릭합니다

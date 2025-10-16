@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '2686'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 ### 요청 양식 만들기 시작
 
-<span class="preview"> 양식과 연결된 레코드 종류 또는 Workfront의 요청 영역에서 요청 양식을 만들 수 있습니다.</span>
+<!--span class="preview">, or from the Requests area of Workfront.</span>--> 양식과 연결된 레코드 형식에서 요청 양식을 만들 수 있습니다.
 
 #### 레코드 유형에서 요청 양식 만들기
 
@@ -136,37 +136,41 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
 1. [양식을 구성](#configure-the-form)합니다.
 
+<!--
+
 <div class="preview">
 
-#### Workfront의 요청 영역에서 요청 양식 만들기
+#### Create a request form from the Requests area of Workfront
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **요청**&#x200B;을 클릭합니다.
-1. 화면 오른쪽 상단에서 **요청 양식**&#x200B;을 클릭합니다.
-1. (조건부) 기존 요청 양식을 편집하는 경우 목록에서 선택한 다음 [양식 구성](#confgure-the-form)을 계속합니다.
-1. 새 요청 양식을 만드는 경우 화면 오른쪽 상단에서 **새 요청 양식**&#x200B;을 클릭합니다.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**.
+1. In the upper-right corner of the screen, click **Request forms**.
+1. (Conditional) If you are editing an existing request form, select it from the list, then continue to [Configure the form](#confgure-the-form).
+1. If you are creating a new request form, in the upper-right corner of the screen, click **New request form**.
 
-   요청 양식 만들기 상자가 열립니다
+   The Create request form box opens
 
-1. 요청 양식 만들기 상자에서 요청 양식의 이름을 업데이트합니다. 기본적으로 양식 이름은 **제목 없는 양식**&#x200B;입니다.
-1. 객체 유형 필드에서 요청 양식과 연결할 레코드 유형을 선택합니다. 레코드 유형은 해당 레코드 유형이 있는 작업 공간으로 그룹화됩니다.
-1. (선택 사항) 요청 양식에 대해 **설명**&#x200B;을(를) 추가합니다.
+1. In the Create request form box, update the name of the request form. By default, the name of the form is **Untitled form**. 
+1. In the Object types field, select the record type that the request form will be associated with. Record types are grouped into the workspace that they exist within.
+1. (Optional) Add a **Description** for the request form. 
 
-   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+1. Click **Create**. 
 
-1. Click **Create**.
+   The request form for the selected record type opens in the Form tab.
+1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
 
-   선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
-1. [요청 양식에 대한 세부 정보 설정](#set-up-details-for-the-request-form)을 계속합니다.
+
 
 </div>
+
+-->
 
 ### 요청 양식에 대한 세부 정보 설정
 
 양식 세부 사항은 탭으로 나뉩니다.
 
 * **양식** 탭에서 필드 및 콘텐츠 요소를 양식에 추가할 수 있습니다.
-* **구성** 탭에서 양식 <span class="preview">에 대한 승인 프로세스를 설정하고 요청 완료 옵션을 설정</span>할 수 있습니다.
-* <span class="preview">**자동화** 탭을 사용하면 양식에서 만든 요청의 기능에 따라 발생할 작업을 자동화할 수 있습니다.</span>
+* **구성** 탭에서 양식의 승인 프로세스를 설정하고 요청 완료 옵션을 설정할 수 있습니다.&lt;
+  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 양식 세부 정보 설정
 
@@ -227,14 +231,14 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 #### 구성 세부 정보 설정
 
-구성 탭에서 승인 프로세스 <span class="preview">을(를) 설정하고 이 양식에서 만든 요청이 완료됨으로 표시되는 시기</span>를 구성할 수 있습니다.
+구성 탭에서 승인 프로세스를 설정하고 이 양식에서 만든 요청이 완료됨으로 표시되는 시기를 구성할 수 있습니다.
 
 1. [요청 양식 만들기 시작](#begin-creating-a-request-form) 섹션에 설명된 대로 요청 양식을 만들거나 편집하십시오.
 
    선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
 1. (선택 사항) [양식 세부 정보 설정](#set-up-form-details)에 설명된 대로 양식 세부 정보를 설정합니다.
 
-1. (선택 사항) **구성** 탭을 클릭한 다음 <span class="preview">승인자</span> 필드에 하나 이상의 사용자 **또는 팀**&#x200B;을 추가하여 이 레코드 양식에 대한 새 요청을 승인합니다.
+1. (선택 사항) **구성** 탭을 클릭한 다음, 하나 이상의 사용자 또는 팀을 **승인자** 필드에 추가하여 이 레코드 양식에 대한 새 요청을 승인합니다.
 
    ![구성 탭](assets/configuration-tab.png)
 
@@ -244,39 +248,44 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    * 한 명 또는 여러 명의 승인자를 요청 양식에 추가할 수 있습니다.
    * 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다.
    * 요청이 승인 또는 거부되기 전에 모든 승인자는 결정을 내려야 합니다.
-   * <span class="preview">팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.</span>
+   * 팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.
 
      요청 양식에 승인을 추가하는 방법에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
-1. <span class="preview">(조건부) 승인자 중 한 명이 레코드를 승인한 후 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 선택하십시오.</span>
+1. (조건부) 승인자 중 한 명이 레코드를 승인한 후 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 선택합니다.
 
-1. <span class="preview">요청한 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청한 개체가 완료될 때 완료됨으로 표시할지를 선택합니다.</span>
-1. <span class="preview">(조건부) 요청한 개체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 개체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 개체의 상태가 완료로 설정되어 있으면 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.</span>
-1. 양식에 대한 자세한 내용을 구성하려면 [자동화 세부 정보 설정](#set-up-configuration-details)을 계속하거나 [요청 양식 작성 완료](#complete-request-form-creation)(으)로 이동하십시오.
+1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
+1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
 
+<!--
+ 
 <div class="preview">
 
-#### 자동화 설정
+#### Set up Automations
 
-활성화된 경우 Planning 레코드에서 트리거될 때 Adobe Workfront Planning의 객체 또는 Workfront Planning의 레코드를 생성하도록 Workfront Planning에서 자동화를 구성할 수 있습니다.
+You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. 
 
-Workfront Planning의 다른 영역에서 자동화를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront Planning 자동화 구성](/help/quicksilver/planning/records/configure-automations-to-create-records.md)을 참조하십시오.
+For information on creating automations in other areas of Workfront Planning, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-1. 자동화의 세부 정보 페이지에서 **트리거** 섹션의 다음 필드를 업데이트하십시오.
+1. On the automation's details page, update the following fields in the **Triggers** section: 
 
-   * **트리거**: 자동화를 트리거할 작업을 선택하십시오. 현재 요청 양식 자동화에 사용할 수 있는 트리거는 `When request object status equals pending creation`뿐입니다.
+   * **Trigger**: Select the action that will trigger the automation. Currently, the only available trigger for request form automation is `When request object status equals pending creation`.
 
-1. **작업** 섹션에서 다음 필드를 업데이트합니다. <!--submitted bugs for these fields - see if they need changing here-->
-   * **작업**: 자동화를 트리거할 때 Workfront에서 수행할 작업을 선택합니다. 필수 필드입니다.
-현재 요청 양식 자동화에 사용 가능한 유일한 작업은 `Create record`입니다.
+1. Update the following fields in the **Actions** section: 
+
+   * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
+   Currently, the only available Action for request form automation is `Create record`.
 
      >[!TIP]
      >
-     >자동화를 저장한 후에는 이 필드에서 선택한 작업을 더 이상 변경할 수 없습니다.
-1. [요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+     >After you saved the automation, you can no longer change the action selected in this field.
+1. Continue to  [Complete request form creation](#complete-request-form-creation).
 
 
 </div>
+
+-->
 
 ### 요청 양식 작성 완료
 

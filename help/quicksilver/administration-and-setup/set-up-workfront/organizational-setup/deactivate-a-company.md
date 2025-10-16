@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
+source-git-commit: 8fb17d1008b00bc0701ce6e2f06c59d020510e90
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -44,7 +44,7 @@ ht-degree: 1%
     <ul> 
      <li> <p>시스템에서 회사를 편집할 수 있는 [!UICONTROL 시스템 관리자] 액세스 수준입니다.</p> </li> 
      <li> <p>회사 관리에 대한 관리 액세스 권한으로, 시스템에서 모든 회사를 편집할 수 있습니다.</p> </li> 
-    </ul> <p><b>참고</b>:  
+    </ul> <p><b>참고</b>:
      <ul> 
       <li> <p>그룹 관리자로 할당된 모든 그룹과 연결된 회사를 관리할 수도 있습니다.</p> </li> 
       <li> <p>[!DNL Workfront] 시스템에서 사용자를 추가하고 제거하려면 다음 중 하나가 있어야 합니다.</p> 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 1. 비활성화하거나 다시 활성화할 회사를 하나 이상 선택하십시오.
 1. **[!UICONTROL 편집]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>--> 클릭
-1. &#x200B;<!--In the Production environment, -->단일 회사의 경우 **[!UICONTROL 활성 상태임]** 옵션을 비활성화하여 비활성화하거나 옵션을 활성화하여 활성화하십시오.
+1. 단일 회사의 경우 **[!UICONTROL 활성 상태임]** 옵션을 비활성화하여 비활성화하거나 옵션을 활성화하여 활성화하십시오. <!--ADD TO THE FRONT OF THIS SENTENCE In the Production environment, -->
 
    또는
 
