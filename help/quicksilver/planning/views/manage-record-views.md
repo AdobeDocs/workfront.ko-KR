@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
@@ -16,12 +16,14 @@ ht-degree: 1%
 
 # 레코드 보기 관리
 
-<!-- take preview and production references out at production-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -71,7 +73,7 @@ Workfront Planning 레코드 보기 관리에 대한 자세한 내용은 다음 
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</li></ul>
+<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -211,8 +213,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 | 월별 레코드 표시 |           | ✓ | ✓ |
 | 주별 레코드 표시 |           |               | ✓ |
 | 보기에서 정보 내보내기 | ✓ |               |    |
-| <span class="preview">전체 화면으로 표시</span> | ✓ | ✓ | ✓ |
-| <span class="preview">보기에서 레코드 만들기</span> | ✓ | ✓ | ✓ |
+| 전체 화면으로 표시 | ✓ | ✓ | ✓ |
+| 보기에서 레코드 만들기 | ✓ | ✓ | ✓ |
 
 ## 보기 만들기 또는 편집 {#create-or-edit-views}
 
@@ -229,10 +231,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-1. 사용하는 환경에 따라 다음을 수행합니다.
-
-   * 프로덕션 환경에서 **+보기** 탭을 클릭합니다.
-   * <span class="preview">미리 보기 환경에서 현재 보기 이름 옆에 있는 드롭다운 아이콘 ![드롭다운 아이콘](assets/drop-down-icon.png)을 클릭한 다음 **+새 보기**&#x200B;를 클릭합니다.</span>
+1. 현재 보기 이름 옆에 있는 드롭다운 아이콘 ![드롭다운 아이콘](assets/drop-down-icon.png)을 클릭한 다음 **+새 보기**&#x200B;를 클릭합니다.
 
 1. 다음 유형의 뷰 중에서 선택합니다.
 
@@ -240,9 +239,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * 타임라인
    * 캘린더
 
-   프로덕션 환경에서는 선택한 뷰로 새 탭이 만들어집니다.
-
-   화면의 너비에 따라 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)에 추가 보기가 표시될 수 있습니다.
+1. 보기 유형을 선택한 다음 **만들기**&#x200B;를 클릭합니다. 드롭다운 메뉴에 새 보기가 추가됩니다.
 
    >[!TIP]
    >
@@ -251,16 +248,14 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >타임라인 또는 달력 보기를 만들려면 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다.
    >
    >그렇지 않으면 [타임라인] 및 [달력] 옵션이 흐리게 표시됩니다.
-   >
+   >  
 
-   <span class="preview">미리 보기 환경에서 보기 유형을 선택한 다음 **만들기**&#x200B;를 클릭합니다. 드롭다운 메뉴에 새 보기가 추가됩니다. </span>
+   ![보기 상자 만들기](assets/create-view-box.png)
 
-   <span class="preview">![보기 상자 만들기](assets/create-view-box.png)</span>
+1. (선택 사항) 기존 보기를 편집하려면 현재 보기 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 **검색** 필드에 보기 이름을 입력하고 키보드에서 Enter 키를 누릅니다.
+1. (선택 사항) 보기 드롭다운 메뉴에서 원하는 순서로 보기를 드래그하여 놓습니다.
 
-1. <span class="preview">기존 보기를 편집하려면 **검색** 필드에 보기 이름을 입력하고 키보드에서 Enter 키를 누르십시오.</span>
-1. <span class="preview">보기 드롭다운 메뉴에서 원하는 순서대로 보기를 끌어서 놓습니다.</span>
-
-   <span class="preview">![레코드 형식 목록의 보기 형식 드롭다운](assets/view-types-drop-down-from-record-type-list.png)</span>
+   ![레코드 형식 목록의 보기 형식 드롭다운](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (조건부) 타임라인 또는 달력 보기를 만들 때 **다음**&#x200B;을 클릭합니다.
 
@@ -294,7 +289,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    보기 이름을 두 번 클릭하고 새 이름을 입력하십시오.  <!--ensure there is not another saving step here?!-->
 
-1. <span class="preview">(선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면에서 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 눌러 전체 화면을 종료합니다.  </span>
+1. (선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면에서 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 눌러 전체 화면을 종료합니다.
 
 1. (선택 사항) 특정 유형의 보기를 관리하려면 다음 문서를 참조하십시오.
 

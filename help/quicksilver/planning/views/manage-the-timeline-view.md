@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3922'
+source-wordcount: '3876'
 ht-degree: 2%
 
 ---
@@ -17,9 +17,12 @@ ht-degree: 2%
 
 <!--remove preview and production references at production-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -46,7 +49,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</li></ul>
+<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -158,9 +161,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 타임라인 보기를 관리하려면 다음을 수행합니다.
 
 1. 타임라인을 보려는 레코드 유형 페이지로 이동합니다.
-1. <span class="preview">문서 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)에 설명된 대로 타임라인 보기를 만듭니다. </span>
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 타임라인 보기를 만듭니다.
 
-   <span class="preview">![타임라인 보기 예](assets/timeline-view-example.png)</span>
+   ![타임라인 보기 예](assets/timeline-view-example.png)
 
    선택한 레코드 유형과 연관된 레코드는 타임라인에 막대로 표시되며 기본적으로 시작 날짜의 시간순으로 정렬됩니다.
 
@@ -214,9 +217,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
 
-   1. <span class="preview">**검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 수가 표시되고 올바른 일치 항목이 있는 레코드가 강조 표시됩니다. </span>
+   1. **검색** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 수가 표시되고 올바른 일치 항목이 있는 레코드가 강조 표시됩니다.
 
-      <span class="preview">![검색 상자 및 결과 타임라인 보기](assets/search-box-and-results-timeline-view.png)</span>
+      ![검색 상자 및 결과 타임라인 보기](assets/search-box-and-results-timeline-view.png)
 
       화면에 표시되는 모든 단어 또는 특수 문자를 사용할 수 있습니다.
 
@@ -226,30 +229,30 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    1. (선택 사항) 일치 항목이 두 개 이상 있는 경우 검색 키워드 오른쪽에 있는 위쪽 및 아래쪽 화살표를 클릭하여 테이블에서 모든 일치 항목을 찾습니다.
    1. 검색 키워드를 지우려면 검색 상자에서 **x** 아이콘을 클릭합니다.
 
-   1. <span class="preview">(선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면에서 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 눌러 전체 화면을 종료합니다.  </span>
+   1. (선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면으로 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 사용하여 전체 화면을 종료합니다.
 
 1. (선택 사항) 타임라인에 연결된 레코드를 표시하려면 **분류**&#x200B;를 클릭합니다.
 
    자세한 내용은 이 문서의 [분류 기능을 사용하여 타임라인 보기에서 연결된 레코드를 표시](#break-down-connected-records-in-the-timeline-view) 섹션을 참조하십시오.
-1. <span class="preview">타임라인 보기에서 레코드를 만들거나 해당 날짜를 편집하려면 다음 중 하나를 수행하십시오.</span>
+1. 타임라인 보기에서 레코드를 만들거나 해당 날짜를 편집하려면 다음 중 하나를 수행하십시오.
 
-   * <span class="preview">타임라인에서 아무 곳이나 두 번 클릭하여 레코드를 만듭니다. </span>
+   * 타임라인의 아무 곳이나 두 번 클릭하여 레코드를 만듭니다.
 
-     <span class="preview">자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).</span>를 참조하세요.
-
-   <!--Andrea verifying>[!TIP]
-    >
-    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
-
-   * <span class="preview">레코드 표시줄의 왼쪽 또는 오른쪽 여백을 클릭한 다음 새 위치에 끌어서 놓습니다. 레코드 막대의 크기를 조정하면 시작 또는 종료 날짜가 즉시 업데이트됩니다. </span>
-
-   * <span class="preview">레코드를 끌어서 놓아 타임라인에서 위치 및 날짜를 업데이트합니다. 레코드 표시줄을 이동하면 시작 날짜와 종료 날짜가 즉시 업데이트됩니다.</span>
-     <span class="preview">자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).</span>을 참조하세요.
+     자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
    >[!TIP]
    >
-   ><span class="preview"> 분류에 표시된 Workfront 및 AEM Assets 개체 유형에 대해 타임라인에서 레코드 크기를 조정하고 드래그 앤 드롭할 수 없습니다.</span>
+   >타임라인에서 레코드를 만들기 위해 두 번 클릭하는 것은 그룹화 내부에서 불가능합니다.
 
+   * 레코드 막대의 왼쪽 또는 오른쪽 여백을 클릭한 다음 새 위치에 끌어다 놓습니다. 레코드 막대의 크기를 조정하면 시작 또는 종료 날짜가 즉시 업데이트됩니다.
+
+   * 타임라인에서 위치 및 날짜를 업데이트하려면 레코드를 드래그 앤 드롭하십시오. 레코드 표시줄을 이동하면 시작 및 종료 날짜가 즉시 업데이트됩니다.
+
+     자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
+
+   >[!TIP]
+   >
+   >분류에 표시된 Workfront 및 AEM Assets 오브젝트 유형에 대한 타임라인에서는 레코드 크기를 조정하고 드래그 앤 드롭할 수 없습니다.
 
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [필터](#add-filters)
@@ -401,9 +404,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 타임라인 보기에서 그룹화를 추가하려면 다음을 수행합니다.
 
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
-1. <span class="preview">타임라인 보기의 오른쪽 상단 모서리에서 **그룹화**&#x200B;를 클릭합니다.</span>
+1. 타임라인 보기의 오른쪽 상단 모서리에서 **그룹화**&#x200B;을(를) 클릭합니다.
 
-   <span class="preview">![연결된 필드가 있는 UI 타임라인 보기 그룹화](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![연결된 필드가 있는 UI 타임라인 보기 그룹화](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;을 클릭하고 다른 필드를 검색한 다음 목록에 표시될 때 해당 필드를 클릭합니다.
 
@@ -411,9 +414,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. (선택 사항) 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
 
-   <span class="preview">그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.</span>
+   그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
 
-   <span class="preview">![타임라인 보기에서 적용된 그룹화](assets/grouping-applied-in-timeline-view.png)</span>
+   ![타임라인 보기에서 적용된 그룹화](assets/grouping-applied-in-timeline-view.png)
 
 1. **레코드 그룹화 기준** 상자에서 그룹화를 올바른 순서로 끌어서 놓습니다.
 
@@ -576,11 +579,7 @@ this is not possible right now; if this is the same functionality as the table v
 1. **Standard** 또는 **Compact** 모드에서 타임라인 보기의 오른쪽 상단에 있는 **분류**&#x200B;를 클릭합니다.
 1. **연결된 레코드 종류 선택** 상자를 확장하고 연결된 레코드 종류를 선택합니다. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   <div class="preview">
-
    ![타임라인 보기의 분류 선택 및 단추](assets/breakdown-picker-and-button-on-timeline.png)
-
-   </div>
 
    >[!TIP]
    >

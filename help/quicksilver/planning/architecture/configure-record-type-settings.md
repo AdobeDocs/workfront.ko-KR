@@ -1,11 +1,11 @@
 ---
-title: 레코드 유형 설정 구성
+title: 레코드 종류의 설정 영역 구성
 description: 레코드 유형을 설정 페이지에 저장한 후 편집할 수 있습니다.
 hide: true
 hidefromtoc: true
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-# 레코드 유형 설정 구성
+# 레코드 종류의 설정 영역 구성
 
 <span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
@@ -66,10 +66,8 @@ recommendations: noDisplay, noCatalog
 <li><p>연결 가능한 레코드 유형을 만들기 위한 모든 Planning 패키지</p></li>
 <li><p>중앙 집중식 레코드 유형을 만드는 Planning Plus 패키지</p></li>
 </ul>
-또는:
-<ul><li><p>모든 워크플로우 패키지</p> </li>
-And
-<li><p>Prime 또는 Ultimate 패키지 계획</p></li></ul>
+<p>또는:</p>
+<ul><li><p>워크플로우 및 계획 Prime 또는 Ultimate 패키지</p> </li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
    </td>
 
@@ -165,7 +163,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    작업 영역 페이지가 열리고 레코드 유형이 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **설정**&#x200B;을 클릭합니다
+   * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **설정**을 클릭합니다
 또는
    * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 열고 레코드 유형 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **설정**&#x200B;을 클릭합니다.
 

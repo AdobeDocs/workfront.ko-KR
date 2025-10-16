@@ -6,18 +6,21 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1832'
+source-wordcount: '1772'
 ht-degree: 4%
 
 ---
 
 # 달력 보기 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -44,7 +47,7 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</li></ul>
+<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -155,13 +158,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. 달력을 보려는 레코드 유형 페이지로 이동합니다.
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 일정 보기를 만듭니다.
 
-   <div class="preview">
-
    ![달력 보기 예](assets/calendar-view-example.png)
 
    선택한 레코드 유형과 연관된 레코드가 달력에 막대로 표시됩니다. 기본적으로 막대의 색상은 레코드 아이콘의 색상과 일치합니다.
-
-   </div>
 
 1. 다음 중 하나를 수행하여 달력을 탐색합니다.
 
@@ -176,23 +175,23 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
          * 여러 날에 걸친 레코드가 달력 맨 위에 표시됩니다.
          * 하루나 그 이하로 지속되는 레코드는 달력 보기의 하반기에 표시됩니다. 시작 및 종료 일자의 시간을 표시하도록 선택한 경우 레코드가 발생한 날짜 내의 적절한 시간에 표시됩니다.
 
-1. <span class="preview">(선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면에서 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 눌러 전체 화면을 종료합니다.  </span>
+1. (선택 사항) **전체 화면** 아이콘 ![전체 화면 열기 아이콘](assets/open-full-screen-icon.png)을 클릭하여 전체 화면으로 보기를 연 다음 **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen-icon.png) 또는 키보드에서 Esc 키를 사용하여 전체 화면을 종료합니다.
 
-1. <span class="preview">일정 보기에서 레코드를 만들거나 날짜를 편집하려면 다음 중 하나를 수행하십시오.</span>
+1. 달력 보기에서 레코드를 만들거나 날짜를 편집하려면 다음 중 하나를 수행하십시오.
 
-   * <span class="preview">달력의 아무 곳이나 두 번 클릭하여 레코드를 만듭니다. </span>
+   * 달력의 아무 곳이나 두 번 클릭하여 레코드를 만듭니다.
 
-     <span class="preview">자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).</span>를 참조하세요.
+     자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
-   * <span class="preview">레코드 표시줄의 왼쪽 또는 오른쪽 여백을 클릭한 다음 새 위치에 끌어서 놓습니다. 레코드 막대의 크기를 조정하면 시작 또는 종료 날짜가 즉시 업데이트됩니다. </span>
+   * 레코드 막대의 왼쪽 또는 오른쪽 여백을 클릭한 다음 새 위치에 끌어다 놓습니다. 레코드 막대의 크기를 조정하면 시작 또는 종료 날짜가 즉시 업데이트됩니다.
 
-   * <span class="preview">레코드 표시줄을 끌어서 놓아 위치 및 날짜를 업데이트합니다. 레코드 표시줄을 이동하면 시작 날짜와 종료 날짜가 즉시 업데이트됩니다.</span>
+   * 레코드 막대를 드래그 앤 드롭하여 위치 및 날짜를 업데이트합니다. 레코드 표시줄을 이동하면 시작 및 종료 날짜가 즉시 업데이트됩니다.
 
-     <span class="preview">자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).</span>을 참조하세요.
+     자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [필터](#add-filters)
-   * <span class="preview">[행 높이](#modify-row-height)</span>
+   * [행 높이](#modify-row-height)
    * [설정](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -316,7 +315,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. (선택 사항) 필터 조건을 제거하려면 **x** 아이콘을 클릭하십시오.
 1. (선택 사항) 필터 상자를 닫으려면 **필터**&#x200B;를 클릭합니다. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<span class="preview">
 
 ### 행 높이 수정
 

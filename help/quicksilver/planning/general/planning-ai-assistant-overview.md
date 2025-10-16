@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: a24180f95c89c76605eaa735467a791102254645
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,8 @@ AI Assistant를 사용하여 현재 페이지 컨텍스트 및 레코드 구조�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul><li><p>모든 Workfront 패키지</p></li>
-And
-<li><p>모든 Planning 패키지</p></li></ul>
-또는
-<ul><li><p>모든 워크플로우 패키지</p></li>
-And
-<li><p>모든 Planning 패키지</p></li></ul>
+<p>모든 Workfront 및 Planning 패키지</p>
+<p>모든 워크플로우 및 계획 패키지</p>
    </td> </tr>
 
 </tr> 

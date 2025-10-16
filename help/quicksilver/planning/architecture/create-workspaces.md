@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</li></ul>
+<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 

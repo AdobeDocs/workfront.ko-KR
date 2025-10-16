@@ -4,9 +4,9 @@ description: 레코드 유형은 Adobe Workfront Planning의 객체 유형입니
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 92748bab4eee807d9529a61a9d97ac1c1df9c8cf
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ recommendations: noDisplay, noCatalog
 
 자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.
 
-이 문서에서는 기존 레코드 유형에서 레코드 유형을 추가하는 방법과 더 이상 필요하지 않은 경우 삭제하는 방법에 대해 설명합니다.
+이 문서에서는 기존 레코드 유형에서 레코드 유형을 추가하는 방법에 대해 설명합니다.
 
 전역 레코드 형식에서 작업 영역에 레코드를 추가하기 전에 문서 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
@@ -55,8 +55,8 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <ul><li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
-또는
-<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</li></ul>
+<p>또는</p>
+<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</p></p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -148,6 +148,9 @@ And
      >새 레코드 종류의 모양, 추가 설정 또는 원본 필드는 편집할 수 없습니다. 원본 작업공간에서만 레코드 종류 및 원본 필드와 설정을 편집할 수 있습니다.
 
 1. (선택 사항) 을 클릭한 다음, 새로 추가된 레코드 유형을 작업 공간 내의 임의의 섹션으로 끌어다 놓습니다.
+1. (선택 사항) 새 레코드 종류의 카드 또는 해당 페이지의 레코드 종류 이름 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+
+   자세한 내용은 문서 [레코드 종류 삭제](/help/quicksilver/planning/architecture/delete-record-types.md)의 &quot;전역 레코드 종류 삭제&quot; 섹션을 참조하십시오.
 
 <!--This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
@@ -156,34 +159,7 @@ And
 
 &lt;!—Lilit를 사용하여 자동화 또는 요청 양식을 보조 글로벌 RT에 추가할 수 있는지 확인??—/ yes인 경우 해당 문서에 대한 링크가 있는 단계 추가—>
 
-## 보조 작업 영역에서 글로벌 레코드 유형 삭제
 
-더 이상 필요하지 않은 경우 다른 작업 영역에서 추가한 레코드 유형을 삭제할 수 있습니다. 삭제하면 보조 작업 영역에서만 제거됩니다.
-
-보조 작업 영역에서 글로벌 레코드 유형을 삭제하면 다음 항목도 삭제됩니다.
-
-* 보조 작업 영역에서 추가된 레코드입니다.
-* 보조 작업 영역에서 추가된 필드입니다.
-
-보조 작업 영역에서 삭제된 글로벌 레코드 유형은 복구할 수 없습니다.
-
-원래 레코드 유형은 원래 작업 영역뿐만 아니라 원래 작업 영역이 추가된 다른 작업 영역에도 유지됩니다.
-
-보조 작업 영역에서 글로벌 레코드 유형을 삭제하려면 다음을 수행합니다.
-
-1. 보조 작업 공간의 글로벌 레코드 유형으로 이동합니다.
-
-1. (선택 사항) 레코드 종류의 카드에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png) 또는 해당 페이지의 레코드 종류 이름 오른쪽에 있는 **삭제**&#x200B;를 클릭합니다.
-1. (조건부) 제공된 필드에 **delete**&#x200B;을(를) 입력한 다음 **영구적으로 삭제**&#x200B;을(를) 클릭합니다.
-
-   ![보조 글로벌 레코드 유형 삭제 확인 상자](assets/delete-secondary-global-record-type.png)
-
-   다음과 같은 상황이 발생합니다.
-
-   * 글로벌 레코드 유형에서 만든 레코드 유형이 선택한 작업 영역에서 제거됩니다.
-   * 원래 레코드 유형 및 해당 필드는 원래 작업 영역에 유지됩니다.
-   * 레코드 유형은 추가된 다른 모든 작업 영역에 남아 있습니다.
-   * 현재 작업 영역에서 레코드 유형에 추가된 레코드 및 필드가 삭제됩니다. 글로벌 레코드 유형이 추가된 추가 작업 영역에서 추가된 다른 모든 레코드는 보존됩니다. 필드는 해당 필드가 추가된 작업 영역에서 유지됩니다.
 
 
 

@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 
 
 # Adobe Workfront Planning 액세스 개요
+
+<!--leave the global record type reference in yellow till Jan 2026-->
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
@@ -42,7 +44,7 @@ Adobe Workfront Planning을 사용하려면 라이선스 및 공유 권한 제�
 
 <!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
-Workfront Planning에 액세스하려면 다음 액세스 권한이 있어야 합니다.
+Workfront Planning을 사용하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto">
  <col>
@@ -55,9 +57,13 @@ Workfront Planning에 액세스하려면 다음 액세스 권한이 있어야 �
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td>
    <td>
    <p>모든 Workfront 및 Planning 패키지</p>
-   또는
+   <p>또는</p>
    <p>모든 워크플로우 및 계획 패키지</p>
- </td>
+   <!--<p><b>NOTE</b></p>
+<p><span class="preview">For access to global record types:</span></p>
+<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
+<p>Or</p>
+<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>--> </td>
 <tr>
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
    <td>

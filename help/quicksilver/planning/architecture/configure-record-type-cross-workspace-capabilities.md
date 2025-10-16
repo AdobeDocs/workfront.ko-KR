@@ -4,9 +4,9 @@ description: Adobe Workfront Planning에서 다른 작업 공간에 추가되거
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 92748bab4eee807d9529a61a9d97ac1c1df9c8cf
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -74,15 +74,15 @@ Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코
 <p>연결 가능한 레코드 유형을 구성하려면: </p>
 <ul> 
 <li><p>모든 Workfront 패키지 및 모든 Planning 패키지</p></li>
-또는
-<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</li></ul>
+<p>또는</p>
+<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</p></li></ul>
 
 <p>글로벌 레코드 유형을 구성하려면 다음을 수행합니다.</p>
 
 <ul> 
 <li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
-또는
-<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</li></ul>
+<p>또는</p>
+<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -162,7 +162,7 @@ And
    작업 영역 페이지가 열리고 레코드 유형이 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 종류 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다.
+   * 레코드 종류 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다. <!--add new screen shot without Share for now-->
 
      ![레코드 종류 카드의 추가 메뉴 옵션](assets/more-menu-options-from-record-type-card.png)
 
@@ -220,7 +220,7 @@ And
 
    보조 작업 영역의 글로벌 레코드 유형에서 추가된 레코드 유형은 **글로벌 레코드 유형** 아이콘 ![글로벌 레코드 유형 아이콘](assets/global-icon.png)도 표시합니다.
 1. (선택 사항) 글로벌 레코드 유형을 만든 원래 작업 영역으로 돌아가서 <!--ensure this stays accurate--> 위의 1-4단계를 수행하여 레코드 유형을 편집합니다
-1. (선택 사항) **이 레코드 형식이 사용되는 작업 영역 섹션**&#x200B;에서 전역 레코드가 추가된 작업 영역 목록을 검토하십시오.
+1. (선택 사항) **이 레코드 형식이 사용되는 작업 영역 섹션**&#x200B;에서 전역 레코드가 추가된 작업 영역 목록을 검토하십시오. 작업공간 이름 옆에는 작업공간 소유자도 나열됩니다.
 
    ![이 레코드 형식이 사용되는 작업 영역](assets/workspaces-where-this-record-type-is-used.png)
 
@@ -242,7 +242,7 @@ And
 
    * 레코드 종류 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다.
 
-     ![레코드 종류 카드의 추가 메뉴 옵션](assets/more-menu-options-from-record-type-card.png)
+     ![레코드 종류 카드의 추가 메뉴 옵션](assets/more-menu-options-from-record-type-card.png) <!--add new screen shot without Share for now-->
 
    * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 연 다음 레코드 유형 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭합니다.
 1. **편집** 또는 **설정**&#x200B;을 클릭합니다.

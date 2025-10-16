@@ -4,7 +4,7 @@ description: 작업 영역의 레코드 유형 간에 여러 작업 영역 계�
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 1%
@@ -34,6 +34,8 @@ hidefromtoc: yes
 
 <!--check the access to see if you oversimplified???-->
 
+<!--Update the TOC for this to publish-->
+
 +++ 을 확장하여 액세스 요구 사항을 보고 이 문서의 단계를 수행하십시오.  
 
 <table style="table-layout:auto"> 
@@ -50,8 +52,8 @@ hidefromtoc: yes
    <td> 
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</li></ul>
+<p>또는</p>
+<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 

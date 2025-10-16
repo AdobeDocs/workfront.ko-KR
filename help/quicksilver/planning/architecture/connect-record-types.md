@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 92748bab4eee807d9529a61a9d97ac1c1df9c8cf
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
 source-wordcount: '2782'
 ht-degree: 1%
@@ -73,15 +73,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <p>동일한 작업 영역에서 레코드 유형을 연결하려면 다음을 수행합니다. </p>
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-또는
+<p>또는</p>
 <li><p>모든 워크플로우 및 계획 패키지</li></ul>
 
 <p>다른 작업 공간의 레코드 유형을 연결하려면 다음을 수행합니다.</p>
 
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-또는
-<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</li></ul>
+<p>또는</p>
+<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
 <tr> 
@@ -291,7 +291,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!NOTE]
    >
-   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
 1. (조건부) Experience Manager Assets 또는 Workfront Planning 레코드 유형에 연결하도록 선택한 경우 **레코드 모양** 영역에서 다음 옵션 중 하나를 선택합니다.

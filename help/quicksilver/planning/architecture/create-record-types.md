@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 92748bab4eee807d9529a61a9d97ac1c1df9c8cf
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 1%
@@ -49,15 +49,15 @@ ht-degree: 1%
 <p>연결 가능한 레코드 유형을 활성화하려면: </p>
 <ul> 
 <li><p>모든 Workfront 패키지 및 모든 Planning 패키지</p></li>
-또는
-<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</li></ul>
+<p>또는</p>
+<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</p></li></ul>
 
 <p>글로벌 레코드 유형을 사용하려면</p>
 
 <ul> 
 <li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
-또는
-<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</li></ul>
+<p>또는</p>
+<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 

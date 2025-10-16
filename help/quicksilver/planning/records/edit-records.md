@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 92748bab4eee807d9529a61a9d97ac1c1df9c8cf
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,12 @@ ht-degree: 0%
 
 <!--keep the choice values information in yellow till Jan 2026-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -53,7 +56,7 @@ ht-degree: 0%
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 모든 Planning 패키지</li></ul>
+<li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -136,7 +139,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * 레코드 보기의 레코드 미리 보기
    * 레코드의 세부 정보 페이지
    * 테이블 보기에서 인라인입니다.
-   * <span class="preview"> 레코드 <!--or dragging and dropping-->개의 크기를 조정할 때 일정 및 타임라인 보기입니다. 레코드의 날짜가 업데이트됩니다.</span>
+   * 레코드 크기 조정 또는 드래그 앤 드롭 시 표시되는 달력 및 타임라인 보기입니다. 레코드의 날짜가 업데이트됩니다.
 
 * 사용자가 보기에서 레코드를 편집하면 변경 내용이 모든 보기에서 즉시 표시되고 레코드 페이지가 다른 모든 사용자에게 표시됩니다.
 
@@ -262,11 +265,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. 타임라인 보기에서 레코드 유형 페이지를 엽니다. 자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 
-1. <span class="preview">레코드 표시줄의 끝을 마우스로 가리킨 다음 해당 여백을 다른 날짜로 끌어서 놓습니다. 레코드의 시작 또는 종료 날짜가 자동으로 업데이트됩니다.</span>
+1. 레코드 막대의 끝을 마우스로 가리키고, 클릭하여 여백을 다른 날짜로 끌어서 놓습니다. 이렇게 하면 레코드의 시작 또는 종료 날짜가 자동으로 업데이트됩니다.
 
-   <span class="preview">![크기를 조정할 타임라인 보기의 왼쪽 끝 막대](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+   ![크기를 조정할 타임라인 보기의 왼쪽 끝 막대](assets/left-end-bar-handle-to-resize-timeline-view.png)
 
-1. <span class="preview">레코드 표시줄을 클릭하고 다른 위치에 끌어다 놓아 타임라인과 날짜를 업데이트합니다. 레코드의 시작 및 종료 날짜가 자동으로 업데이트됩니다.</span>
+1. 레코드 막대를 클릭하고 누른 채 다른 위치에 끌어다 놓아 타임라인 및 날짜를 업데이트합니다. 레코드의 시작 및 종료 날짜는 자동으로 업데이트됩니다.
 
 1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
 
@@ -277,11 +280,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 <!--add another step about drag and drop here when that is available-->
 
 1. 달력 보기에서 레코드 유형 페이지를 엽니다. 자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
-1. <span class="preview">(조건부) 달력 보기에서 레코드 막대의 끝을 마우스로 가리킨 다음 해당 여백을 클릭하고 다른 날짜로 끌어서 놓습니다. 레코드의 시작 또는 종료 날짜가 자동으로 업데이트됩니다.</span>
+1. (조건부) 달력 보기에서 레코드 막대의 끝을 마우스로 가리킨 다음 그 여백을 클릭하고 다른 날짜로 끌어서 놓습니다. 이렇게 하면 레코드의 시작 또는 종료 날짜가 자동으로 업데이트됩니다.
 
-   <span class="preview">![크기를 조정할 달력 보기의 왼쪽 끝 막대](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+   ![크기를 조정할 달력 보기의 왼쪽 끝 막대](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
-1. <span class="preview">레코드 표시줄을 클릭하고 다른 위치에 끌어다 놓아 타임라인과 날짜를 업데이트합니다. 레코드의 시작 및 종료 날짜가 자동으로 업데이트됩니다.</span>
+1. 레코드 막대를 클릭하고 누른 채 다른 위치에 끌어다 놓아 타임라인 및 날짜를 업데이트합니다. 레코드의 시작 및 종료 날짜는 자동으로 업데이트됩니다.
 
 1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
 
@@ -407,8 +410,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
 
-<div class="preview">
-
 ## 값을 업데이트할 때 단일 또는 다중 선택 필드 설정 편집
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
@@ -439,4 +440,3 @@ Status 라는 단일 선택 필드에 New 및 Closed 라는 선택 사항이 있
 
    <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
 
-</div>
