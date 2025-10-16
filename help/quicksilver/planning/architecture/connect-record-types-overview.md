@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1973'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
 레코드 유형 연결에 대해 다음 사항을 고려하십시오.
 
-<!--* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>-->
+* <span class="preview">Workfront Planning에서 하나의 레코드 유형에 대해 최대 30개의 연결된 필드를 사용할 수 있습니다.</span>
 
 * Adobe Workfront Planning에서 다음 엔티티를 연결할 수 있습니다.
 
@@ -76,16 +76,14 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
 * 레코드 유형을 다른 레코드 유형이나 다른 응용 프로그램의 개체 유형과 연결한 후에는 다음과 같은 시나리오가 있습니다.
 
-   * **두 Planning 레코드 형식을 연결할 때**: 연결 중인 레코드 형식에 연결된 레코드 필드가 만들어집니다. <!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>-->에 연결하는 레코드 형식에 유사한 연결된 레코드 필드가 만들어집니다.
+   * **두 Planning 레코드 형식을 연결할 때**: 연결 중인 레코드 형식에 연결된 레코드 필드가 만들어집니다. 새 연결 탭에서 연결된 레코드 유형에 해당 필드 만들기 설정을 사용하도록 설정한 경우에만 연결 중인 레코드 유형에 유사한 연결된 레코드 필드가 만들어집니다.
 
      예를 들어 &quot;Campaign&quot; 레코드 유형을 &quot;Product&quot; 레코드 유형과 연결하는 경우 이름을 &quot;Linked Product&quot;로 지정한 연결된 레코드 필드(연결 필드)가 캠페인 레코드 유형에 만들어집니다. 제품 레코드 유형에 자동으로 &quot;캠페인&quot;이라는 연결된 레코드 유형이 만들어집니다.
 
-     <div class="preview">
-
      예를 들어 다음과 같은 시나리오가 있습니다.
+
       * 연결된 레코드 유형에 해당 필드 만들기 설정을 사용하도록 설정하고 &quot;캠페인&quot; 레코드 유형을 &quot;제품&quot; 레코드 유형과 연결하면 &quot;연결된 제품&quot;으로 지정한 연결된 레코드 필드(연결 필드)가 캠페인 레코드 유형에 만들어집니다. 제품 레코드 유형에 자동으로 &quot;캠페인&quot;이라는 연결된 레코드 유형이 만들어집니다.
       * 연결된 레코드 종류 설정에서 해당 필드 만들기 설정을 비활성화하고 &quot;캠페인&quot; 레코드 종류를 &quot;제품&quot; 레코드 종류에 연결하면, &quot;연결된 제품&quot;이라고 지정한 연결된 레코드 필드(연결 필드)가 캠페인 레코드 종류에 만들어집니다. 자동으로 &quot;Campaign&quot;으로 이름이 지정된 연결된 레코드 종류는 제품 레코드 종류에 만들어지지 않습니다.
-     </div>
 
      자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
@@ -95,7 +93,7 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
       * Workfront 오브젝트에서 Planning 레코드 필드에 액세스할 수 없습니다.
       * 계획 레코드는 Workfront 오브젝트의 계획 탭에서 볼 수 있습니다. 자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
       * Planning 연결 사용자 정의 필드를 만들어 Workfront 객체의 사용자 정의 양식에 첨부할 수 있습니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
-      * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+      * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
    * **연결된 레코드 또는 개체에서 조회 필드를 추가할 때**: 연결된 레코드 필드를 만들 수 있을 뿐만 아니라 연결된 레코드 또는 개체 형식의 필드에 연결할 수도 있습니다. 이 필드를 조회 필드라고 합니다. 연결하려는 레코드의 정보가 있는 연결된(또는 조회 필드) 필드는 연결하려는 레코드에 표시됩니다.
@@ -137,27 +135,19 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
 한 번에 하나의 레코드를 여러 레코드에 연결할지 또는 한 번에 하나의 레코드를 서로 연결할지 선택할 수 있습니다.
 
-연결된 레코드 필드에 추가할 수 있는 레코드 수와 연결된 필드를 만드는 데 사용하는 환경에 따라 레코드 유형을 연결할 때 선택할 수 있는 연결 유형은 다음과 같습니다.
+다음은 레코드 유형을 연결할 때 선택할 수 있는 연결 유형입니다.
 
-<div class="preview">
+* **연결된 레코드 종류에 해당 필드 만들기** 설정을 사용하지 않도록 설정한 경우 다음 중에서 선택할 수 있습니다.
 
-* 미리보기 환경에서:
+   * [다중 선택](#multi-select-connection-type)
+   * [단일 선택](#single-select-connection-type)
 
-   * 연결된 레코드 유형에 해당 필드 만들기 설정이 비활성화되어 있으면 다음 중에서 선택할 수 있습니다.
-
-      * [다중 선택](#multi-select-connection-type)
-      * [단일 선택](#single-select-connection-type)
-
-</div>
-
-* <span class="preview">미리 보기 환경에서 연결된 레코드 종류 설정에 대해 해당 필드 만들기 설정이 활성화된 경우</span> 또는 프로덕션 환경에서 다음을 선택할 수 있습니다.
+* **연결된 레코드 종류에 해당 필드 만들기** 설정을 사용하면 다음 중에서 선택할 수 있습니다.
 
    * [다대다](#many-to-many-connection-type)
    * [일대다](#one-to-many-connection-type)
    * [다대일](#many-to-one-connection-type)
    * [일대일](#many-to-one-connection-type)
-
-<div class="preview">
 
 ### 다중 선택 연결 유형
 

@@ -1,23 +1,18 @@
 ---
 title: 다른 Workspace에서 기존 레코드 유형 추가
 description: 레코드 유형은 Adobe Workfront Planning의 객체 유형입니다. Workfront Planning에서 다른 작업 영역에서 생성된 기존 레코드 유형을 추가할 수 있습니다.
-hidefromtoc: true
-hide: true
-exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 0%
+
+---
+
 
 # 다른 작업 영역에서 기존 레코드 유형 추가
 
@@ -56,7 +51,7 @@ recommendations: noDisplay, noCatalog
    <td> 
 <ul><li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
 <p>또는</p>
-<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</p></p></li></ul>
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -120,6 +115,8 @@ And
 >[!NOTE]
 >
 >하나 이상의 다른 작업 영역에 전역으로 지정된 레코드 유형이 하나 이상 있는지 확인합니다.
+>
+>자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.
 
 1. 문서 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)에 설명된 대로 레코드 종류 만들기를 시작한 다음 **기존 항목 추가**&#x200B;를 클릭합니다. <!--check this - the option might have been renamed in the UI-->
 

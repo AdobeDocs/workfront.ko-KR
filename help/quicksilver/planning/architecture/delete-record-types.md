@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '1062'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # 레코드 유형 삭제
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -52,10 +52,12 @@ ht-degree: 1%
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
 <p>또는</p>
 <li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
-<!--<p>To delete global record types:</p>
-<ul><li><p>Any Workfront package and a Planning Plus package</p></li>
-<p>Or</p>
-<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>-->
+<div class="preview">
+<p>글로벌 레코드 유형을 삭제하려면</p>
+<ul><li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
+<p>또는</p>
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
+</div>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
   <tr> 
@@ -71,7 +73,7 @@ ht-degree: 1%
 </tbody> 
 </table>
 
-*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++   
 
@@ -148,14 +150,13 @@ ht-degree: 1%
 * 삭제된 레코드 종류 또는 해당 정보는 복구할 수 없습니다.
 * 삭제하기 전에 다른 레코드 유형에서 삭제하려는 레코드 유형과 연관된 레코드 및 필드를 다시 만드는 것이 좋습니다.
 
-<!--
 <div class="preview">
 
-* You cannot delete a global record type that has been added to other workspaces. 
+* 다른 작업 영역에 추가된 글로벌 레코드 유형은 삭제할 수 없습니다.
 
-   For more information, see the section [Delete global record types](#delete-global-record-types) in this article. 
+  자세한 내용은 이 문서의 [글로벌 레코드 종류 삭제](#delete-global-record-types) 섹션을 참조하십시오.
 
-</div>-->
+</div>
 
 ## 레코드 유형 삭제
 
@@ -180,71 +181,68 @@ ht-degree: 1%
 
    선택한 레코드 종류 및 해당 필드, 관련 레코드 및 보기는 삭제되며 복구할 수 없습니다.
 
-<!--
-
 <div class="preview">
 
-## Delete global record types
+## 글로벌 레코드 유형 삭제
 
-The following scenarios exist when deleting global record types:
+글로벌 레코드 유형을 삭제할 때 다음과 같은 시나리오가 있습니다.
 
-* If a record type configured as global has not yet been added to another workspace, you can delete it from its original workspace. 
+* 글로벌로 구성된 레코드 유형이 아직 다른 작업 공간에 추가되지 않은 경우 원래 작업 공간에서 삭제할 수 있습니다.
 
-* If a record type configured as a global record type has been added to at least one other workspace, you cannot delete it from its original workspace. You must first remove (by deleting) global record types from the secondary workspaces where they were added and then you can permanently delete the global record type from its original workspace. 
+* 글로벌 레코드 유형으로 구성된 레코드 유형이 하나 이상의 다른 작업 영역에 추가된 경우 원래 작업 영역에서 삭제할 수 없습니다. 글로벌 레코드 유형이 추가된 보조 작업 영역에서 글로벌 레코드 유형을 먼저 삭제(삭제)해야 원래 작업 영역에서 글로벌 레코드 유형을 영구적으로 삭제할 수 있습니다.
 
-### Delete a global record type from the original workspace
+### 원래 작업 영역에서 글로벌 레코드 유형 삭제
 
-You can delete a record type from its original workspace if it's no longer relevant. 
+더 이상 관련이 없는 경우 원래 작업 영역에서 레코드 유형을 삭제할 수 있습니다.
 
-1. Go to the global record type in its original workspace. 
+1. 원래 작업 영역의 글로벌 레코드 유형으로 이동합니다.
 
-1. (Conditional) Do one of the following, depending on whether the global record type has been added to secondary workspaces: 
+1. (조건부) 글로벌 레코드 유형이 보조 작업 공간에 추가되었는지 여부에 따라 다음 중 하나를 수행합니다.
 
-   * If the record type was not added to a secondary workspace, click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**. 
-   * If the record type was added to at least one other secondary workspace, first, go to the secondary workspace and delete the global record from that space. 
+   * 레코드 종류가 보조 작업 영역에 추가되지 않은 경우 레코드 종류의 카드에서 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭하거나 해당 페이지에서 레코드 종류 이름의 오른쪽에 있는 **삭제**&#x200B;를 클릭하십시오.
+   * 레코드 유형이 다른 하나 이상의 보조 작업 영역에 추가된 경우 먼저 보조 작업 영역으로 이동하여 해당 공간에서 글로벌 레코드를 삭제합니다.
 
-      For information, see the section [Delete a global record type from a secondary workspace](#delete-a-global-record-type-from-a-secondary-workspace) in this article. 
-   
-1. (Conditional) Continue deleting the record type, as described in the section [Delete record types](#delete-record-types-1) in this article.
+     자세한 내용은 이 문서의 [보조 작업 영역에서 글로벌 레코드 종류 삭제](#delete-a-global-record-type-from-a-secondary-workspace) 섹션을 참조하십시오.
 
-   The following things occur: 
+1. (조건부) 이 문서의 [레코드 종류 삭제](#delete-record-types-1) 섹션에 설명된 대로 레코드 종류를 계속 삭제합니다.
 
-   * The global record type is removed from the original workspace and the record type, its records and fields cannot be recovered.
-   * All global record types from the secondary workspaces and their records are also removed.
+   다음과 같은 상황이 발생합니다.
 
-### Delete a global record type from a secondary workspace
+   * 글로벌 레코드 유형이 원래 작업 영역에서 제거되고 레코드 유형, 해당 레코드 및 필드는 복구할 수 없습니다.
+   * 보조 작업 영역의 모든 글로벌 레코드 유형과 해당 레코드도 제거됩니다.
 
-You can delete a record type you added from another workspace if no longer needed. 
+### 보조 작업 영역에서 글로벌 레코드 유형 삭제
 
-Consider the following:
+더 이상 필요하지 않은 경우 다른 작업 영역에서 추가한 레코드 유형을 삭제할 수 있습니다.
 
-* Deleting a global record type from a secondary workspace will only remove it from the secondary workspace. The record type remains in the original workspace. 
+다음 사항을 고려하십시오.
 
-* When you delete a global record type from a secondary workspace, the following are also deleted:
+* 보조 작업 영역에서 글로벌 레코드 유형을 삭제하면 보조 작업 영역에서만 제거됩니다. 레코드 유형은 원본 작업 공간에 남아 있습니다.
 
-   * The records added from the secondary workspace.
+* 보조 작업 영역에서 글로벌 레코드 유형을 삭제하면 다음 항목도 삭제됩니다.
 
-   ***************Not yet there, coming soon:* The fields added from the secondary workspace.*********
+   * 보조 작업 영역에서 추가된 레코드입니다.
 
-* Global record types deleted from their secondary workspaces cannot be recovered. 
+  <!--Coming later: * The fields added from the secondary workspace.-->
 
-* The original record type remains in its original workspace as well as in other workspaces where it's been added. 
+* 보조 작업 영역에서 삭제된 글로벌 레코드 유형은 복구할 수 없습니다.
 
-To delete a global record type from a secondary workspace: 
+* 원래 레코드 유형은 원래 작업 영역뿐만 아니라 원래 작업 영역이 추가된 다른 작업 영역에도 유지됩니다.
 
-1. Go to the global record type in its secondary workspace. 
+보조 작업 영역에서 글로벌 레코드 유형을 삭제하려면 다음을 수행합니다.
 
-1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**.
-1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
+1. 보조 작업 공간의 글로벌 레코드 유형으로 이동합니다.
 
-   ![Delete secondary global record type confirmation box](assets/delete-secondary-global-record-type.png)
+1. (선택 사항) 레코드 종류의 카드에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png) 또는 해당 페이지의 레코드 종류 이름 오른쪽에 있는 **삭제**&#x200B;를 클릭합니다.
+1. (조건부) 제공된 필드에 **delete**&#x200B;을(를) 입력한 다음 **영구적으로 삭제**&#x200B;을(를) 클릭합니다.
 
-   The following things occur: 
+   ![보조 글로벌 레코드 유형 삭제 확인 상자](assets/delete-secondary-global-record-type.png)
 
-   * The record type created from a global record type is removed from the selected workspace. 
-   * The original record type with its fields remain in their original workspace. 
-   * The record type remains in all other workspaces where it's been added.
-   * The records *******and fields****** added to the record type from the current workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved in their respective workspaces and in the original workspace. <!--Fields are preserved in the workspaces where they were added.
-   
-</div>   
-   -->
+   다음과 같은 상황이 발생합니다.
+
+   * 글로벌 레코드 유형에서 만든 레코드 유형이 선택한 작업 영역에서 제거됩니다.
+   * 필드가 있는 원래 레코드 유형은 원래 작업 영역에 유지됩니다.
+   * 레코드 유형은 추가된 다른 모든 작업 영역에 남아 있습니다.
+   * 현재 작업 영역에서 레코드 형식에 추가된 <!--and fields--> 레코드가 삭제됩니다. 글로벌 레코드 유형이 추가된 추가 작업 영역에서 추가된 다른 모든 레코드는 해당 작업 영역과 원래 작업 영역에서 보존됩니다. &lt;!- 필드가 추가된 작업공간에 보존됩니다.
+
+</div>

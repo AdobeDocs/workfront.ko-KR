@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '5253'
+source-wordcount: '5463'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ko ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -238,8 +238,8 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
    * [제작 일자](#created-date)
    * [마지막 수정자](#last-modified-by)
    * [마지막 수정일](#last-modified-date)
-   * <span class="preview">[승인 날짜](#approved-date)</span>
-   * <span class="preview">[승인자](#approved-by)</span>
+   * [승인 일자](#approved-date)
+   * [승인자](#approved-by)
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -299,7 +299,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
 >[!NOTE]
 >
-><span class="preview">테이블 보기에서 레코드의 다중 선택 필드 값 인라인을 편집할 때 이 섹션에 설명된 기능 외에 새로운 선택 항목을 추가할 수 있습니다. 자세한 내용은 문서 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)의 &quot;단일 또는 다중 선택 필드에 대한 정보 편집&quot; 섹션을 참조하십시오.</span>
+>이 섹션에서 설명하는 기능 외에도 테이블 보기에서 레코드의 다중 선택 필드 값 인라인을 편집할 때 새 선택 사항을 추가할 수 있습니다. 자세한 내용은 문서 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)의 &quot;단일 또는 다중 선택 필드에 대한 정보 편집&quot; 섹션을 참조하십시오.
 >
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **다중 선택** 필드 형식을 선택합니다.
@@ -327,23 +327,20 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
    새 다중 선택 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
-<!--
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+1. <span class="preview">(선택 사항) 테이블 보기의 필드 이름 위로 마우스를 가져간 후 필드 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 **필드 편집**&#x200B;을 클릭합니다.</span>
+1. <span class="preview">선택한 각 값을 표시하려면 **값 표시** 설정을 켭니다. 값은 Workfront 데이터베이스에 나타나는 각 선택 항목의 이름입니다. </span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront은 각 선택 항목에 대해 고유한 값을 할당합니다. </span>
+   >
+   >* <span class="preview">값이 소문자 형식의 선택 이름과 일치합니다. 여러 단어는 밑줄로 구분됩니다. </span>
+   >
+   >* <span class="preview">값이 여러 필드 간에 반복될 수 있지만 한 필드에 대해 고유해야 합니다.</span>
+   >
+   ><span class="preview"> ![값 표시 전환](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span> 
-
--->
+1. <span class="preview">(선택 사항) API 호출 및 기타 통합에서 선택 값을 사용합니다. </span>
 
 ### 단일 선택 {#single-select}
 
@@ -351,13 +348,12 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
 >[!NOTE]
 >
-><span class="preview">테이블 보기에서 레코드의 단일 선택 필드 값 인라인을 편집할 때 이 섹션에서 설명한 기능 외에 새로운 선택 항목을 추가할 수 있습니다. 자세한 내용은 문서 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)의 &quot;단일 또는 다중 선택 필드에 대한 정보 편집&quot; 섹션을 참조하십시오.</span>
+>이 섹션에 설명된 기능 외에도 테이블 보기에서 레코드의 단일 선택 필드 값을 인라인으로 편집할 때 새 선택 사항을 추가할 수 있습니다. 자세한 내용은 문서 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)의 &quot;단일 또는 다중 선택 필드에 대한 정보 편집&quot; 섹션을 참조하십시오.
 >
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **Single-select** 필드 형식을 선택합니다.
 
    ![단일 선택 필드 형식](assets/single-select-field-type.png)
-
 
 1. **새 필드** 탭에 다음 정보를 추가하십시오.
    * **이름**: 테이블이나 레코드의 세부 정보 페이지에 표시되는 필드의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -379,24 +375,20 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
    새 단일 선택 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
-<!--
+1. <span class="preview">(선택 사항) 테이블 보기의 필드 이름 위로 마우스를 가져간 후 필드 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 **필드 편집**&#x200B;을 클릭합니다.</span>
+1. <span class="preview">선택한 각 값을 표시하려면 **값 표시** 설정을 켭니다. 값은 Workfront 데이터베이스에 나타나는 각 선택 항목의 이름입니다. </span>
 
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront은 각 선택 항목에 대해 고유한 값을 할당합니다. </span>
+   >
+   >* <span class="preview">값이 소문자 형식의 선택 이름과 일치합니다. 여러 단어는 밑줄로 구분됩니다. </span>
+   >
+   >* <span class="preview">값이 여러 필드 간에 반복될 수 있지만 한 필드에 대해 고유해야 합니다.</span>
+   >
+   ><span class="preview"> ![값 표시 전환](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
-
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span>
-
--->
+1. <span class="preview">(선택 사항) API 호출 및 기타 통합에서 선택 값을 사용합니다. </span>
 
 ### Date {#date}
 
@@ -438,7 +430,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 >숫자 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 숫자로 표시됩니다.
->&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **숫자** 필드 형식을 선택합니다.
@@ -468,7 +460,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 >백분율 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 백분율로 표시됩니다.
->&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **백분율** 필드 형식을 선택합니다.
@@ -508,7 +500,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 >통화 필드는 요청 양식 빌더에 한 줄 텍스트 필드 유형으로 표시됩니다.
 >
 >그러나 필드 형식은 유지되고 이러한 필드의 값은 요청이 제출된 후 레코드 유형 및 요청 세부 정보 페이지에서 통화로 표시됩니다.
->&#x200B;>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+>>자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **통화** 필드 형식을 선택합니다.
 
@@ -583,7 +575,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
    >
    >* 현재 레코드 유형에서 최대 4개의 필드(및 개체)가 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형(1)에 대한 공식 필드를 생성하고 활동이 Workfront 프로젝트(3)에 연결된 캠페인 레코드 유형(2)에 연결된 경우, 활동 레코드 유형에 대해 생성 중인 공식에서 프로젝트의 예산 필드(4)를 참조할 수 있습니다.
    >
-   >![공식 예제 프로젝트 예산 4개 필드 제거됨 &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![공식 예제 프로젝트 예산 4개 필드 제거됨 ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (선택 사항) **최대화**&#x200B;를 클릭하여 더 넓은 영역에서 수식 상자를 엽니다.
@@ -696,7 +688,6 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
    새로 만든 날짜 유형 필드가 레코드 유형에 열로 추가되고 해당 값은 레코드가 생성된 날짜(또는 날짜 및 시간)로 미리 채워집니다.
 
-
 ### 마지막 수정자
 
 마지막 수정자 필드 유형을 사용하여 레코드를 마지막으로 수정한 사용자를 레코드에 추가할 수 있습니다. 이 필드는 읽기 전용이며 레코드를 마지막으로 업데이트할 때 로그인한 사용자의 이름으로 자동으로 채워집니다.
@@ -713,7 +704,6 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 1. Click **Create**.
 
    새 마지막 수정 기준 유형 필드가 레코드 유형에 열로 추가되고 해당 값은 각 레코드를 마지막으로 수정한 사용자의 이름으로 미리 채워집니다.
-
 
 ### 마지막 수정일
 
@@ -748,8 +738,6 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
    새 마지막 수정 날짜 유형 필드가 레코드 유형에 열로 추가되고 해당 값은 레코드가 마지막으로 수정된 날짜(또는 날짜 및 시간)로 미리 채워집니다.
 
-<div class="preview">
-
 ### 승인 일자
 
 승인된 날짜 필드 유형을 사용하여 요청이 승인되고 레코드가 생성된 날짜를 추가할 수 있습니다. 이 필드는 읽기 전용이며 마지막 승인자가 요청을 승인한 날짜(및 선택 사항 시간)로 자동으로 채워집니다. 이 경우 승인 일자는 레코드가 생성된 일자와 일치해야 합니다.
@@ -759,7 +747,6 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 >승인된 날짜 필드는 승인자와 연관된 요청 양식을 제출하여 생성된 레코드에 대한 정보로만 채워집니다.
 >
 >양식이 두 명 이상의 승인자와 연결된 경우 마지막 승인 결정의 날짜만 승인 날짜 필드에 기록됩니다.
-
 
 1. 이 문서의 [처음부터 필드 만들기](#create-fields-from-scratch) 섹션에 설명된 대로 필드 만들기를 시작한 다음 **만든 날짜** 필드 형식을 선택합니다.
 
@@ -810,8 +797,6 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 1. Click **Create**.
 
    새 승인자 유형 필드가 레코드 유형에 열로 추가되고 해당 값은 각 레코드를 마지막으로 수정한 사용자의 이름으로 미리 채워집니다.
-
-</div>
 
 <!--
 

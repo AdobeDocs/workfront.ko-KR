@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '450'
 ht-degree: 1%
 
 ---
@@ -48,15 +48,11 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | 레코드 유형을 만들기 위해 가져올 수 있는 Excel 파일의 CSV 크기 | 5MB |
 | CSV 또는 Excel 파일로 가져와 레코드 유형을 만들 수 있는 행 수 | 25,000 |
 | CSV 또는 Excel 파일로 가져와 레코드 유형을 만들 수 있는 열 수 | 500 |
-| <span class="preview">한 레코드 종류의 수식 필드 수</span> | <span class="preview">20</span> |
-| <span class="preview">수식 필드 식의 문자 수</span> | <span class="preview">50,000</span> |
+| 하나의 레코드 유형에 대한 공식 필드 수 | 20 |
+| <span class="preview">하나의 레코드 형식에 대한 연결 필드 수</span> | <span class="preview">30</span> |
+| 공식 필드 표현식의 문자 수 | 50,000 |
 
-
-<!-- Add this after the formula fields limit above:
-
-| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |-->
-
-*작업 영역은 관리하기 어려워질 수 있으며 워크플로우가 너무 많이 조각날 수 있으므로 너무 많이 사용하지 않는 것이 좋습니다.
+*작업 영역은 관리하기 어려워질 수 있고 워크플로가 너무 많이 조각날 수 있으므로 너무 많이 사용하지 않는 것이 좋습니다.
 
 Workfront Planning 가격 및 패키징에 대한 자세한 내용은 계정 관리자에게 문의하십시오.
 

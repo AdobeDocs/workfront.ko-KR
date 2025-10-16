@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '2782'
-ht-degree: 1%
+source-wordcount: '2766'
+ht-degree: 0%
 
 ---
 
@@ -36,10 +36,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 연결 필드가 만들어지면 두 레코드 또는 개체 유형 간에 개별 레코드를 연결할 수 있습니다.
 
-<!--
 >[!NOTE]
 >
-><span class="preview">You can have up to 30 connection fields for one record type.</span>-->
+><span class="preview">하나의 레코드 형식에 대해 최대 30개의 연결 필드를 사용할 수 있습니다.</span>
 
 이 문서에서는 두 개의 Workfront Planning 레코드 유형 또는 Workfront Planning 레코드 유형을 다른 응용 프로그램의 객체와 연결하는 방법에 대해 설명합니다.
 
@@ -74,14 +73,14 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
 <p>또는</p>
-<li><p>모든 워크플로우 및 계획 패키지</li></ul>
+<li><p>모든 워크플로우 및 모든 Planning 패키지</li></ul>
 
 <p>다른 작업 공간의 레코드 유형을 연결하려면 다음을 수행합니다.</p>
 
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
 <p>또는</p>
-<li><p>워크플로우 및 계획 Prime 및 Ultimate 패키지</p></li></ul>
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
 <tr> 
@@ -191,9 +190,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. 레코드 유형을 검색하거나 다음 중 하나를 선택합니다.
 
-   * <span class="preview">현재 작업 영역의 레코드 종류</span>
+   * 현재 작업 영역의 레코드 유형
 
-     <span class="preview">![동일 작업 영역 레코드 형식에 대한 다중 선택 연결 선택기](assets/multi-select-connection-picker-record-type.png)</span>
+     ![동일 작업 영역 레코드 형식에 대한 다중 선택 연결 선택기](assets/multi-select-connection-picker-record-type.png)
 
      >[!TIP]
      >
@@ -202,27 +201,27 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    * 다른 작업 영역에서 연결하도록 구성된 다른 작업 영역의 레코드 유형입니다.
 
-     <!--replace the tip below with this at the preview release for global RTs and replace screen shot in the tip:
-        >[!TIP]
-        >
-        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the <span class="preview">**Cross-workspace settings**</span> tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
-        >
-        >For information, see [Configure cross-workspace capabilities for record type](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).-->
-
      >[!TIP]
      >
-     >다른 작업 영역에서 레코드 형식에 액세스할 수 있도록 하려면 **레코드 형식 편집** 상자의 **고급 설정** 탭에 있는 레코드 형식에 대해 **다른 작업 영역에서 이 레코드 형식에 연결 허용** 설정을 사용해야 합니다. 다른 작업공간에서 연결하도록 구성된 레코드 유형이 없는 경우 작업공간 섹션이 표시되지 않습니다.
-     > ![레코드 종류 상자 고급 설정 탭](assets/edit-record-type-box-advanced-settings-tab.png)
+     >다른 작업 영역에서 레코드 형식에 액세스할 수 있으려면 **다른 작업 영역에서 이 레코드 형식에 연결 허용** 설정이 **고급 설정** <span class="preview">의 레코드 형식 또는 **레코드 형식 편집**</span> 상자의 **작업 영역 간 설정** 탭에 대해 사용하도록 설정되어 있어야 합니다. 다른 작업공간에서 연결하도록 구성된 레코드 유형이 없는 경우 작업공간 섹션이 표시되지 않습니다.
+     >
+     >자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오. <!--update screen shot at production-->
+     >
+     >![레코드 종류 상자 고급 설정 탭](assets/edit-record-type-box-advanced-settings-tab.png)
 
-     자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
+     <!--Old:
+        [!TIP]
+        The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+        ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+        -->
 
-     ![여러 레코드를 허용하는 새 연결](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+   자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
 
-   * <span class="preview">**Workfront 개체 형식** 섹션의 **프로젝트, Portfolio, 프로그램, 회사** 또는 **그룹**&#x200B;입니다.</span>
+   * **Workfront 개체 유형** 섹션의 **프로젝트, Portfolio, 프로그램, 회사** 또는 **그룹**.
 
-     <span class="preview">![Workfront 프로젝트 연결 선택](assets/multi-select-connection-picker-project.png)</span>
+     ![Workfront 프로젝트 연결 선택](assets/multi-select-connection-picker-project.png)
 
-   * **Experience Manager Assets 응용 프로그램** 섹션의 **Adobe**. <!--update screen shot??-->
+   * **Experience Manager Assets 응용 프로그램** 섹션의 **Adobe**.
 
      ![AEM Assets 연결 선택](assets/aem-assets-connection-selection.png)
 
@@ -239,47 +238,30 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    ![다른 작업 영역의 레코드 형식에 대한 새 연결](assets/new-connection-allow-multiple-records-box.png)
 
-1. (조건부) 동일한 작업 공간의 레코드 유형 또는 Planning 레코드 유형과 Workfront 객체 유형을 연결하는 경우 사용 중인 환경에 따라 다음 중 하나를 수행합니다.
+1. (조건부) 동일한 작업 공간의 레코드 유형 또는 Planning 레코드 유형과 Workfront 객체 유형을 연결하는 경우 다음 중 하나를 선택합니다.
 
-   * 프로덕션 환경에서 다음 **연결 유형** 옵션 중 하나를 선택하여 사용자가 연결할 수 있는 레코드 수를 나타냅니다.
+   * **다중 선택**: 현재 레코드 종류의 한 레코드를 연결 레코드 종류의 여러 레코드와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
+   * **단일 선택**: 현재 레코드 종류의 레코드 한 개를 연결 레코드 종류의 레코드 한 개와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
 
-      * 다대다
-      * 일대다
-      * 다대일
-      * 일대일
+1. **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 선택하십시오. 선택하면 현재 레코드 유형에 추가된 연결 필드 외에 연결된 레코드 유형에도 연결 필드가 만들어집니다. 이 기능은 기본적으로 비활성화되어 있습니다.
 
-     ![다대다 연결 선택기](assets/many-to-many-connection-picker.png)
+   >[!TIP]
+   >
+   ><span class="preview">하나의 레코드 형식에 대해 30개의 연결 필드 제한</span> 외에 하나의 레코드 형식에 대해 500개의 필드 제한이 있습니다. 특히 분류학적 레코드 유형의 경우 이 제한에 도달하지 않도록 이 설정을 해제하는 것이 좋습니다.
+   >
 
-   <div class="preview">
+1. (조건부) **연결된 레코드 종류에 해당 필드 만들기**&#x200B;를 사용하도록 설정한 경우 사용자가 연결할 수 있는 레코드 수를 나타내려면 다음 옵션 중에서 선택하십시오.
 
-   * 미리보기 환경에서 다음을 수행합니다.
-      1. 다음 중 하나를 선택합니다.
+   * 다대다
+   * 일대다
+   * 다대일
+   * 일대일
 
-         * **다중 선택**: 현재 레코드 종류의 한 레코드를 연결 레코드 종류의 여러 레코드와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
-         * **단일 선택**: 현재 레코드 종류의 레코드 한 개를 연결 레코드 종류의 레코드 한 개와 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
+   연결 유형에 대한 자세한 내용은 [연결된 레코드 유형 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
 
-      2. **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 사용하도록 설정합니다. 활성화하면 현재 레코드 유형에 추가된 연결 필드 외에 연결된 레코드 유형에도 연결 필드가 만들어집니다. 이 기능은 기본적으로 비활성화되어 있습니다.
-
-         >[!TIP]
-         >
-         >하나의 레코드 종류에는 500개의 필드로 제한됩니다. 특히 분류학적 레코드 유형의 경우 이 제한에 도달하지 않도록 이 설정을 해제하는 것이 좋습니다.
-
-         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
-
-      3. (조건부) **연결된 레코드 종류에 해당 필드 만들기**&#x200B;를 사용하도록 설정한 경우 사용자가 연결할 수 있는 레코드 수를 나타내려면 다음 옵션 중에서 선택하십시오.
-
-         * 다대다
-         * 일대다
-         * 다대일
-         * 일대일
-
-     </div>
-
-     연결 유형에 대한 자세한 내용은 [연결된 레코드 유형 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
-
-     >[!NOTE]
-     >
-     >연결 유형에 대해 일대다 또는 일대일을 선택한 다음 다른 곳에 이미 연결되어 있는 레코드나 개체를 나중에 연결하려는 경우 해당 레코드나 개체를 다시 연결하면 원래 연결에서 제거된다는 경고가 표시됩니다. 제거를 허용하거나 다른 레코드를 선택할 수 있습니다.
+   >[!NOTE]
+   >
+   >연결 유형에 대해 일대다 또는 일대일을 선택한 다음 다른 곳에 이미 연결되어 있는 레코드나 개체를 나중에 연결하려는 경우 해당 레코드나 개체를 다시 연결하면 원래 연결에서 제거된다는 경고가 표시됩니다. 제거를 허용하거나 다른 레코드를 선택할 수 있습니다.
 
 1. (조건부 및 선택 사항) Workfront 개체에 연결하도록 선택하면 **이러한 기준과 일치하는 개체만 연결** 섹션에서 **사용자 지정 양식**&#x200B;을 선택합니다. 선택한 사용자 정의 양식이 첨부된 객체만 선택한 레코드 유형에 연결할 수 있습니다. 두 개 이상의 양식을 선택할 수 있습니다.
 
@@ -291,7 +273,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!NOTE]
    >
-   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
 1. (조건부) Experience Manager Assets 또는 Workfront Planning 레코드 유형에 연결하도록 선택한 경우 **레코드 모양** 영역에서 다음 옵션 중 하나를 선택합니다.
@@ -409,13 +391,14 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      예를 들어 캠페인 레코드 유형을 프로그램 레코드 유형과 연결하고 프로그램 연결 레코드 필드의 이름을 &quot;프로그램 정보&quot;로 지정한 다음, Campaign의 테이블 보기에서 프로그램 예산 필드도 표시하도록 선택한 경우, 연결된 필드의 이름이 캠페인의 테이블 보기에서 자동으로 `Budget (from Program information)`(으)로 지정됩니다.
 
-   * 레코드 종류를 서로 연결하면 연결된 레코드 종류에도 연결된 레코드 필드가 추가됩니다. 연결된 레코드 종류의 해당 필드 만들기 설정을 사용하도록 설정한 경우에만 <span class="preview">됩니다.</span> 연결된 레코드 종류의 연결된 레코드 필드 이름이 연결된 레코드 종류의 이름입니다.
+   * 레코드 종류를 서로 연결하면 연결된 레코드 종류에도 연결된 레코드 필드가 추가됩니다. 이는 **연결된 레코드 종류의 해당 필드 만들기** 설정을 사용하도록 설정하는 경우에만 해당됩니다. 연결된 레코드 유형의 연결된 레코드 필드 이름은 연결된 레코드 유형의 이름입니다.
 
      예를 들어 &quot;캠페인&quot; 레코드 유형에서 &quot;제품&quot; 레코드 유형을 연결하고 캠페인의 연결된 필드를 &quot;연결된 제품&quot;으로 지정한 경우 제품 레코드 유형에 대해 &quot;캠페인&quot; 연결된 레코드 필드가 만들어집니다.
 
      >[!TIP]
      >
-     > 연결된 레코드 필드는 해당 응용 프로그램의 다른 응용 프로그램 객체에 대해서는 생성되지 않습니다. <span class="preview">모든 레코드 형식에 대해 500개의 필드 <!--<span class="preview">and a limit of 30 connected fields</span>-->이(가) 제한되므로 분류법 레코드 형식에 링크를 만들지 않는 것이 좋습니다.</span>
+     > 연결된 레코드 필드는 해당 응용 프로그램의 다른 응용 프로그램 객체에 대해서는 생성되지 않습니다.
+     >모든 레코드 유형에 대해 연결된 30개 필드 제한<span class="preview">과 함께 500개 필드 제한 </span>이 있으므로 분류법 레코드 유형에 대한 링크를 만들지 않는 것이 좋습니다.
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

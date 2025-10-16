@@ -1,26 +1,17 @@
 ---
 title: 레코드 종류의 설정 영역 구성
-description: 레코드 유형을 설정 페이지에 저장한 후 편집할 수 있습니다.
-hide: true
-hidefromtoc: true
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 1%
-
----
-
-
-<!--add better metadata at release:
-
-title: Configure Record Type Settings
-description: You can edit record types after they have been saved in the Settings page. 
+description: 레코드 유형 편집 상자에서 레코드 유형을 편집하는 것 외에도 설정 페이지에서 레코드 유형을 편집할 수도 있습니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-recommendations: noDisplay, noCatalog 
+recommendations: noDisplay, noCatalog
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 2%
 
--->
+---
+
 
 # 레코드 종류의 설정 영역 구성
 
@@ -32,7 +23,7 @@ recommendations: noDisplay, noCatalog
 
 레코드 유형이 Adobe Workfront Planning에 저장된 후 레코드 유형에 대한 추가 설정을 구성할 수 있습니다.
 
-레코드 유형에 대해 정의하려는 기능에 따라 다음 중 하나를 수행하여 레코드 유형에 대한 추가 설정을 구성할 수 있습니다.
+레코드 유형에 대해 정의하려는 기능에 따라 다음 중 하나를 수행하여 추가 설정을 구성할 수 있습니다.
 
 <!--the above will need to be reworded when we add automations and manage request forms to this area-->
 
@@ -46,7 +37,7 @@ recommendations: noDisplay, noCatalog
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,30 +46,36 @@ recommendations: noDisplay, noCatalog
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul><li><p>모든 Workfront 패키지</p></li>
-<p>And</p>
-<li><p>연결 가능한 레코드 유형을 만들기 위한 모든 Planning 패키지</p></li>
-<li><p>중앙 집중식 레코드 유형을 만드는 Planning Plus 패키지</p></li>
-</ul>
-<p>또는:</p>
-<ul><li><p>워크플로우 및 계획 Prime 또는 Ultimate 패키지</p> </li></ul>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
-   </td>
+<p>모든 Workfront 및 Planning 패키지</p>
+<p>모든 Workfront 및 Planning 패키지</p>
+<p><b>메모</b></p>
+<p>연결 가능한 레코드 유형을 구성하려면: </p>
+<ul> 
+<li><p>모든 Workfront 패키지 및 모든 Planning 패키지</p></li>
+<p>또는</p>
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
 
-<tr> 
+<p>글로벌 레코드 유형을 구성하려면 다음을 수행합니다.</p>
+
+<ul> 
+<li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
+<p>또는</p>
+<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
+<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p>
+   </td> </tr>
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>표준</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역</a>에 대한 권한 관리 </p>  
+   <td>   <p>작업 공간에 대한 권한 관리</p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>  </td> 
   </tr>  
 </tbody> 
@@ -86,7 +83,7 @@ recommendations: noDisplay, noCatalog
 
 Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-+++   
++++    
 
 <!--Old:
 
@@ -164,12 +161,16 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. 다음 중 하나를 수행하십시오.
 
    * 레코드 종류의 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에서 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **설정**&#x200B;을 클릭합니다
-또는
+
+     ![레코드 종류 카드의 추가 메뉴 옵션](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+
+     또는
+
    * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 열고 레코드 유형 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **설정**&#x200B;을 클릭합니다.
 
-   <!--update screen shot at release-->
+   <!--update screen shot at prod??-->
 
-   ![레코드 종류 카드의 추가 메뉴 옵션](assets/more-menu-options-from-record-type-card.png)
+   ![설정 페이지의 작업 영역 간 설정](assets/settings-page-cross-workspace-settings.png)
 
 1. **작업 영역 간 설정** 섹션이 기본적으로 선택됩니다.
 1. 다음 설정 중 하나를 켜거나 끕니다.

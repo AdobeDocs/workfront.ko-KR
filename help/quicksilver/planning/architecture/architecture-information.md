@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -40,14 +40,14 @@ Workfront Planning을 사용하면 조직에서 사용하는 개체 유형(또�
 * [작업 영역 편집](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [레코드 유형 삭제](/help/quicksilver/planning/architecture/delete-record-types.md)
 
-<!--*[Configure the Settings area of a record type](/help/quicksilver/planning/architecture/configure-record-type-settings.md)-->
+<div class="preview">
 
-<!--* <span class="preview">[Configure cross-workspace capabilities for record types](help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)</span>
+* [작업 영역 간 레코드 유형 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [레코드 유형에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [다른 작업 영역에서 기존 레코드 유형 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+* [레코드 종류의 설정 영역 구성](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 
-* <span class="preview">[Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)</span>
--->
-
-<!--* <span class="preview">[Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)</span>-->
+</div>
 
 <!--* [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)-->
 

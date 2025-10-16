@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -200,8 +200,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
 
-<div class="preview">
-
 ## 테이블 보기에서 레코드를 편집할 때 기존 선택 필드에 새 선택 사항을 추가합니다.
 
 <!--some of this information is also available in Edit records article - update both when necessary-->
@@ -230,6 +228,5 @@ Status 라는 단일 선택 필드에 New 및 Closed 라는 선택 사항이 있
 
    새 선택 항목이 단일 선택 필드에 즉시 추가됩니다.
 
-   <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
+   <span class="preview">각 선택 항목에 새 값도 추가됩니다. API 호출 또는 기타 통합에서 선택 값을 사용할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).</span>를 참조하세요.
 
-</div>

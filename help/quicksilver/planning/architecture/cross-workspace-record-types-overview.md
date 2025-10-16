@@ -1,25 +1,24 @@
 ---
 title: Cross-workspace 레코드 유형 개요
-description: 글로벌 레코드 유형은 Adobe Workfront Planning의 중앙 또는 기본 작업 영역에서 여러 작업 영역에 추가할 수 있습니다.
-hidefromtoc: true
-hide: true
-exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
-workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
+description: 레코드 종류를 전역 또는 연결할 수 있도록 설정할 수 있습니다. 글로벌 레코드 유형은 Adobe Workfront Planning의 중앙 또는 기본 작업 영역에서 여러 작업 영역에 추가할 수 있지만 연결 가능한 레코드 유형은 자체 작업 영역이 아닌 다른 작업 영역에서 연결할 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '1534'
+ht-degree: 0%
+
+---
+
 
 # 작업 영역 간 레코드 유형 개요
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
 {{planning-important-intro}}
 
@@ -32,11 +31,13 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
 
 다음은 레코드 유형의 작업 영역 간 기능입니다.
 
-* **글로벌 레코드 종류**: 사용자가 관리하는 다른 작업 영역에 글로벌 레코드 종류를 추가할 수 있습니다.
+* <span class="preview">**글로벌 레코드 종류**: 사용자가 관리하는 다른 작업 영역에 글로벌 레코드 종류를 추가할 수 있습니다.</span>
 
 * **연결 가능한 레코드 종류**: 사용자는 다른 작업 영역에서 이 레코드 종류에 연결할 수 있습니다.
 
 이 문서에서는 작업 영역 간 레코드 유형에 대한 개요를 제공합니다. 레코드 종류의 작업 영역 간 기능을 정의하는 방법에 대한 자세한 내용은 [레코드 종류에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.
+
+<div class="preview">
 
 ## 글로벌 레코드 유형 개요
 
@@ -118,11 +119,12 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
     * Add request forms to it
     * Add automations to it-->
 
-* 보조 작업 영역의 글로벌 레코드 유형에서 추가된 레코드 유형에 대해 다음 작업을 수행할 수 없습니다.
+* 보조 작업 영역의 글로벌 레코드 유형에 대해 다음 작업을 수행할 수 있는 사용자는 없습니다.
 
    * 편집
 
      모양, 작업 영역 간 기능 또는 원본 작업 영역에서 추가된 필드는 편집할 수 없습니다.
+   * 공유
    * 요청 양식 만들기 및 관리
    * 자동화 제작 및 관리
 
@@ -151,6 +153,8 @@ Workfront Planning API를 사용하여 보조 작업 공간에서 글로벌 레�
 * 사용자에게 액세스 권한이 있는 경우 글로벌 레코드 유형의 원래 작업 영역에 레코드가 생성됩니다.
 
 * 사용자에게 액세스 권한이 없는 경우 글로벌 레코드 유형의 원래 작업 영역에 액세스할 수 없고 레코드를 만들 수 있는 작업 영역 ID를 제공해야 한다는 오류가 표시됩니다.
+
+</div>
 
 ## 연결 가능한 레코드 유형 개요
 
