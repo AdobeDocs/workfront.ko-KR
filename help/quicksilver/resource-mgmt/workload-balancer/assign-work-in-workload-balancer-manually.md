@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # 업무 균형자 를 사용하여 수동으로 작업 할당
-
-{{preview-fast-release-general}}
 
 Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목을 수동으로 할당할 수 있습니다.
 
@@ -69,7 +67,7 @@ Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목�
 
    리소스 영역, 프로젝트 또는 팀 수준에서 업무 균형자 를 사용하여 사용자에게 작업을 할당할 수 있습니다. Workfront에서 업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)를 참조하십시오.
 
-1. (선택 사항) **할당 해제된 작업** 영역으로 이동하여 필터를 적용하여 작업, 문제, <span class="preview">또는 역할 할당</span>을 봅니다.
+1. (선택 사항) **할당 해제된 작업** 영역으로 이동하여 필터를 적용하여 작업, 문제 또는 역할 할당을 봅니다.
 
    또는
 
@@ -77,9 +75,9 @@ Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목�
 
    >[!NOTE]
    >
-   ><span class="preview">역할 할당 표시 설정을 사용하면 할당 해제된 작업 영역의 작업 항목 아래에 역할 할당이 표시됩니다. 자세한 내용은 [업무 균형자 이동](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)에서 [보기 사용자 지정](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.</span>
+   >역할 할당 표시 설정이 활성화된 경우 역할 할당은 미할당 작업 영역의 작업 항목 아래에 표시됩니다. 자세한 내용은 [업무 균형자 이동](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)에서 [보기 사용자 지정](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
 
-1. 작업 항목 이름 **또는 역할 할당** 왼쪽에 있는 ![추가 메뉴](assets/qs-more-menu.png) <span class="preview">추가 메뉴</span>을 클릭한 다음 **할당 대상**&#x200B;을 클릭합니다.
+1. 작업 항목 이름 또는 역할 할당 왼쪽의 **추가 메뉴** ![추가 메뉴](assets/qs-more-menu.png)를 클릭한 다음 **할당 대상**&#x200B;을 클릭합니다.
 
    ![할당 대상](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

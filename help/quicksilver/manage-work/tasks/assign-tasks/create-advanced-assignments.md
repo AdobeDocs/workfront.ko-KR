@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
 
 # 고급 할당 만들기
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -85,11 +83,8 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >작업 또는 문제 목록에서 직접 고급 할당을 수행할 수 있습니다. 작업 또는 문제와 같은 줄의 **할당** 필드 내부를 클릭한 다음 <span class="preview">**고급**</span> 또는 **사람 아이콘**&#x200B;을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.
-   ><span class="preview">미리 보기 환경의 샘플 이미지:</span>
+   >작업 또는 문제 목록에서 직접 고급 할당을 수행할 수 있습니다. 작업 또는 문제와 같은 줄에 있는 **할당** 필드 내부를 클릭한 다음, 목록의 맨 아래에 있는 **고급** 또는 할당 상자의 오른쪽 위 모서리에 있는 **사람 아이콘**을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.
    >![고급 또는 인물 아이콘을 클릭합니다](assets/access-aa-from-lists.png)
-   >프로덕션 환경의 샘플 이미지:
-   >![사람 아이콘 클릭](assets/nwe-advanced-assignments-350x55.png)
 
 1. 작업 또는 문제의 헤더에 있는 **할당** 필드에서 **할당 대상**&#x200B;을 클릭합니다
 

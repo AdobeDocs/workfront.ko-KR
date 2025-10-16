@@ -6,7 +6,7 @@ description: 리소스 관리자는 Adobe Workfront 업무 균형자 를 사용�
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # 업무 균형자에서 작업 할당 개요
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -146,7 +144,7 @@ Workfront은 다음 정보를 사용하여 업무 균형자에서 사용자의 �
  </tbody> 
 </table>
 
-&#42;작업 항목이 사용자 및 역할에 할당되면 역할이 기본 피할당자인 경우에만 미할당 작업 영역에 표시됩니다. <span class="preview">역할 할당 표시&#x200B;**설정을 사용하면**&#x200B;역할 할당이 할당 해제된 작업 영역의 작업 항목 아래에 표시됩니다.</span>
+&#42;작업 항목이 사용자 및 역할에 할당되면 역할이 기본 피할당자인 경우에만 미할당 작업 영역에 표시됩니다. **역할 할당 표시** 설정을 사용하면 역할 할당이 할당 해제된 작업 영역의 작업 항목 아래에 표시됩니다.
 
 &#42;&#42;작업 항목이 사용자 및 다른 엔터티에 할당되면 사용자가 기본 피할당자인 경우에만 할당된 작업 영역에 표시됩니다.
 

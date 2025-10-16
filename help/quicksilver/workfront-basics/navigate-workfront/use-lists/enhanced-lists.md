@@ -5,7 +5,7 @@ description: 고급 목록은 목록 항목을 표시하기 위해 표 형식을
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # 향상된 목록 사용
-
-{{preview-fast-release-general}}
 
 고급 목록은 Adobe Workfront의 일부 영역에서 사용할 수 있습니다. 이러한 목록은 목록 항목을 표시하기 위해 표 형식을 사용하며 표준 목록과는 다른 모양과 느낌을 가집니다. 필터링, 그룹화, 열 관리 및 검색을 포함한 보기 관리도 향상되었습니다.
 
@@ -126,7 +124,7 @@ ht-degree: 1%
    >
    >필드 이름 옆의 아이콘에는 텍스트 또는 날짜 필드와 같은 필드 유형이 표시됩니다.
 
-   <span class="preview">열을 숨길 때 **열** 단추에 표시기가 나타납니다. 열 순서를 변경할 때 표시기가 나타나지 않습니다.</span>
+   열을 숨길 때 **열** 단추에 표시기가 나타납니다. 열 순서를 변경할 때 표시기가 나타나지 않습니다.
 
    ![숨겨진 열에 대한 표시기](assets/glist-columns-hidden-indicator.png)
 
@@ -149,7 +147,7 @@ ht-degree: 1%
 1. 필터에 다른 조건을 OR 문으로 추가하려면 **조건 추가**&#x200B;를 클릭하십시오.
 1. 필터가 적용되면 **필터** 옵션을 다시 열어 필터 옵션을 변경하거나 모든 필터를 지울 수 있습니다.
 
-   <span class="preview">목록에 필터를 적용하면 **필터** 단추에 표시기가 나타납니다.</span>
+   목록에 필터를 적용하면 **필터** 단추에 표시기가 나타납니다.
 
    ![적용된 표시기 필터링](assets/glist-filter-applied-indicator.png)
 
@@ -164,7 +162,7 @@ ht-degree: 1%
 
    ![고급 목록의 그룹화](assets/glist-group-by-due-date-priorities.png)
 
-   <span class="preview">그룹화가 목록에 적용되면 **그룹** 단추에 표시기가 나타납니다.</span>
+   목록에 그룹화를 적용하면 **그룹** 단추에 표시기가 나타납니다.
 
    ![그룹화 적용 표시기](assets/glist-grouping-applied-indicator.png)
 
