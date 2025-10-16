@@ -39,7 +39,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>에서 [!DNL Workfront][!DNL Adobe Experience League]</strong> 체크 아웃 </td> 
+   <td><strong>에서 [!DNL Workfront]&#x200B;[!DNL Adobe Experience League]</strong> 체크 아웃 </td> 
    <td> <p><a href="https://experienceleague.adobe.com/ko/docs/workfront">https://experienceleague.adobe.com/ko/docs/workfront</a>의 맨 위에 있는 검색 창을 사용하여 특정 문서, 토론 또는 교육을 찾을 수 있습니다. 모든 항목 [!DNL Workfront]에 대한 검색 엔진으로 생각하십시오.</p> <p>여기에서 다음 리소스를 찾을 수도 있습니다.</p> 
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home">설명서</a> </p> </li> 
@@ -108,7 +108,7 @@ ht-degree: 1%
    <td> <p>이러한 리소스를 통해 Workfront에 어떤 업데이트가 출시되는지 계속 확인할 수 있습니다.</p> 
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/ko/docs/workfront/using/product-announcements/product-releases/product-releases">제품 공지</a>: Workfront의 제품 로드맵 업데이트를 찾고 계십니까? 제품 공지 페이지에서 릴리스 업데이트 및 로드맵 프레젠테이션을 찾을 수 있습니다.</p> </li> 
-     <li> <p><strong>알림 센터</strong>: 알림을 검토하고 [!DNL Workfront] 제품 팀으로부터 모든 고객에 대한 정보에 대한 중요 업데이트를 받습니다. 위쪽 탐색에서 <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">의 </a>[!UICONTROL "Notifications"][!DNL Workfront] 섹션을 방문하십시오.</p> </li> 
+     <li> <p><strong>알림 센터</strong>: 알림을 검토하고 [!DNL Workfront] 제품 팀으로부터 모든 고객에 대한 정보에 대한 중요 업데이트를 받습니다. 위쪽 탐색에서 <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">의 </a>[!UICONTROL "Notifications"]&#x200B;[!DNL Workfront] 섹션을 방문하십시오.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -178,7 +178,7 @@ Linked to Converting Issues.-->
   <tbody> 
     <tr> 
     <td role="rowheader">[!UICONTROL 작업 또는 문제가 "신규"에서 "진행 중"으로 변경되면 실제 시작 일자를] (으)로 설정합니다.</td> 
-    <td> <p>작업 또는 문제가 [!DNL Workfront][!UICONTROL New]<strong>에서 </strong>[!UICONTROL In Progress]<strong>(으)로 이동할 때 실제 시작 날짜가 </strong>에 기록되는 경우 다음 옵션 중 하나를 선택하십시오.</p> 
+    <td> <p>작업 또는 문제가 [!DNL Workfront]&#x200B;[!UICONTROL New]<strong>에서 </strong>[!UICONTROL In Progress]<strong>(으)로 이동할 때 실제 시작 날짜가 </strong>에 기록되는 경우 다음 옵션 중 하나를 선택하십시오.</p> 
       <ul> 
       <li><strong>[!UICONTROL Now]:</strong> 실제 시작 날짜가 현재 날짜로 설정되어 있습니다.</li> 
       <li><strong>[!UICONTROL 계획된 시작 일자]:</strong> 실제 시작 일자가 작업 또는 문제의 계획된 시작 일자로 설정됩니다.</li> 

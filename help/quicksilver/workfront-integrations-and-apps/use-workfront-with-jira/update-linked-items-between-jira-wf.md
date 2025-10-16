@@ -131,7 +131,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 계획된 완료 일자]</td> 
-   <td> <p>[!UICONTROL 기한]</p> <p>변경된 [!UICONTROL 기한]에 대한 댓글이 [!DNL Workfront] 문제의 [!DNL Jira] 탭에 추가됩니다. </p> <p>참고: [!UICONTROL Jira]에서 업데이트된 이 필드를 보려면 <strong> 문제에 대해 </strong>[!UICONTROL 기한][!DNL Jira]을(를) 활성화해야 합니다. </p> </td> 
+   <td> <p>[!UICONTROL 기한]</p> <p>변경된 [!UICONTROL 기한]에 대한 댓글이 [!DNL Workfront] 문제의 [!DNL Jira] 탭에 추가됩니다. </p> <p>참고: [!UICONTROL Jira]에서 업데이트된 이 필드를 보려면 <strong> 문제에 대해 </strong>[!UICONTROL 기한]&#x200B;[!DNL Jira]을(를) 활성화해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td>사용자 지정 Forms 및 사용자 지정 필드</td> 
@@ -139,15 +139,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 문제 또는 작업 우선 순위]</td> 
-   <td>[!DNL Workfront] 문제의 [!DNL Jira] 오른쪽 패널에 표시됩니다. <br>문제 <strong>의 </strong>[!UICONTROL 우선 순위][!DNL Jira] 필드를 업데이트하지 않습니다. </td> 
+   <td>[!DNL Workfront] 문제의 [!DNL Jira] 오른쪽 패널에 표시됩니다. <br>문제 <strong>의 </strong>[!UICONTROL 우선 순위]&#x200B;[!DNL Jira] 필드를 업데이트하지 않습니다. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Log Time] </td> 
-   <td> <p>기록된 시간에 대한 댓글이 <strong>[!DNL Workfront]</strong> 문제의 [!DNL Jira] 탭에 추가됩니다. 여기에는 시간을 기록한 사용자의 이름과 시간이 다른 경우 기록된 사용자가 포함됩니다. <strong>의 </strong>[!UICONTROL 작업 로그][!DNL Jira] 탭에 기록된 시간이 없습니다.<br></p> </td> 
+   <td> <p>기록된 시간에 대한 댓글이 <strong>[!DNL Workfront]</strong> 문제의 [!DNL Jira] 탭에 추가됩니다. 여기에는 시간을 기록한 사용자의 이름과 시간이 다른 경우 기록된 사용자가 포함됩니다. <strong>의 </strong>[!UICONTROL 작업 로그]&#x200B;[!DNL Jira] 탭에 기록된 시간이 없습니다.<br></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Comments]</td> 
-   <td> <p>댓글이 <strong>[!DNL Workfront]</strong> 문제의 [!DNL Jira] 탭에 추가됩니다. <strong> 문제의 </strong>[!UICONTROL Comments][!DNL Jira] 탭에 추가되지 않았습니다.</p> <p>참고: 두 개의 기존 항목을 수동으로 연결할 때 [!DNL Workfront]에 연결하기 전에 [!DNL Jira] 항목에 추가된 댓글은 [!DNL Jira] 문제와 동기화되지 않습니다. </p> <p>Jira 주석은 Workfront과 동기화됩니다.</td> 
+   <td> <p>댓글이 <strong>[!DNL Workfront]</strong> 문제의 [!DNL Jira] 탭에 추가됩니다. <strong> 문제의 </strong>[!UICONTROL Comments]&#x200B;[!DNL Jira] 탭에 추가되지 않았습니다.</p> <p>참고: 두 개의 기존 항목을 수동으로 연결할 때 [!DNL Workfront]에 연결하기 전에 [!DNL Jira] 항목에 추가된 댓글은 [!DNL Jira] 문제와 동기화되지 않습니다. </p> <p>Jira 주석은 Workfront과 동기화됩니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -193,7 +193,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 댓글 <br><br></td> 
-   <td> <p>[!UICONTROL Setup] 탭의 [!UICONTROL SYNCHRONIZE FROM JIRA TO WORKFRONT] 섹션에서 [!DNL Workfront][!UICONTROL Comments]<strong> 설정이 </strong>[!UICONTROL Always]<strong>인 경우 </strong> 문제 또는 작업의 [!UICONTROL Updates] 탭에 댓글이 추가됩니다.</p> <p>[!DNL Jira]에서 Workfront 설정을 구성하는 방법에 대한 자세한 내용은 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">구성 [!DNL Workfront for Jira]</a>을(를) 참조하십시오.</p> <p>연결된 [!DNL Jira] 문제의 항목에 대한 댓글에 대한 자세한 내용은 <a href="#comment-from-a-linked-jira-issue" class="MCXref xref">연결된 [!DNL Jira] 문제의 댓글</a>을 참조하세요.</p> </td> 
+   <td> <p>[!UICONTROL Setup] 탭의 [!UICONTROL SYNCHRONIZE FROM JIRA TO WORKFRONT] 섹션에서 [!DNL Workfront]&#x200B;[!UICONTROL Comments]<strong> 설정이 </strong>[!UICONTROL Always]<strong>인 경우 </strong> 문제 또는 작업의 [!UICONTROL Updates] 탭에 댓글이 추가됩니다.</p> <p>[!DNL Jira]에서 Workfront 설정을 구성하는 방법에 대한 자세한 내용은 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">구성 [!DNL Workfront for Jira]</a>을(를) 참조하십시오.</p> <p>연결된 [!DNL Jira] 문제의 항목에 대한 댓글에 대한 자세한 내용은 <a href="#comment-from-a-linked-jira-issue" class="MCXref xref">연결된 [!DNL Jira] 문제의 댓글</a>을 참조하세요.</p> </td> 
   </tr> 
  </tbody> 
 </table>

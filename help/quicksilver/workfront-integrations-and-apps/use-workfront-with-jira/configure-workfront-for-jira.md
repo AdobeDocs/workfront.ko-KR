@@ -250,7 +250,7 @@ ht-degree: 0%
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL 계획된 완료 일자]</td>
-         <td><p>[!DNL Workfront]에 있는 작업 또는 문제의 [!UICONTROL 계획된 완료 일자]가 [!DNL Jira]에 연결된 문제의 [!UICONTROL 기한]이 됩니다.</p><p>참고: 이 값을 동기화하려면 <strong> 문제에 대해 </strong>[!UICONTROL 기한][!DNL Jira]을(를) 표시해야 합니다.</p></td>
+         <td><p>[!DNL Workfront]에 있는 작업 또는 문제의 [!UICONTROL 계획된 완료 일자]가 [!DNL Jira]에 연결된 문제의 [!UICONTROL 기한]이 됩니다.</p><p>참고: 이 값을 동기화하려면 <strong> 문제에 대해 </strong>[!UICONTROL 기한]&#x200B;[!DNL Jira]을(를) 표시해야 합니다.</p></td>
         </tr>
        </tbody>
       </table>
@@ -286,7 +286,7 @@ ht-degree: 0%
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL 담당자]</td>
-         <td><p>[!DNL Jira]에서 문제의 [!UICONTROL Assignee]이(가) [!DNL Workfront]에서 연결된 작업 또는 문제의 [!UICONTROL Assignee]이 됩니다.</p><p>중요: [!DNL Jira]의 항목을 [!DNL Workfront] 계정이 없는 사용자에게 할당하면 [!DNL Workfront]사용자에게 <strong> 계정이 없는 경우 [!DNL Workfront]에서 자동으로 사용자 만들기[!DNL Jira]가 [!DNL Workfront][!UICONTROL Always]</strong>(으)로 설정된 경우에만 통합에서 <strong>에서 새 활성 사용자를 만듭니다. </strong> 이 사용자는 [!DNL Workfront] 라이선스를 사용하지 않습니다. 활성 사용자를 [!DNL Workfront]의 작업 항목에 할당할 수 있지만 업데이트에 포함할 수 없습니다. </p></td>
+         <td><p>[!DNL Jira]에서 문제의 [!UICONTROL Assignee]이(가) [!DNL Workfront]에서 연결된 작업 또는 문제의 [!UICONTROL Assignee]이 됩니다.</p><p>중요: [!DNL Jira]의 항목을 [!DNL Workfront] 계정이 없는 사용자에게 할당하면 [!DNL Workfront]사용자에게 <strong> 계정이 없는 경우 [!DNL Workfront]에서 자동으로 사용자 만들기[!DNL Jira]가 [!DNL Workfront]&#x200B;[!UICONTROL Always]</strong>(으)로 설정된 경우에만 통합에서 <strong>에서 새 활성 사용자를 만듭니다. </strong> 이 사용자는 [!DNL Workfront] 라이선스를 사용하지 않습니다. 활성 사용자를 [!DNL Workfront]의 작업 항목에 할당할 수 있지만 업데이트에 포함할 수 없습니다. </p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL 첨부 파일]</td>

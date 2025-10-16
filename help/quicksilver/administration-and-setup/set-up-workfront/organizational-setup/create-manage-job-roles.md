@@ -77,7 +77,7 @@ ht-degree: 0%
       <td role="rowheader"><span>[!UICONTROL 이 활성 상태입니다]</span> </td> 
       <td> 
        <ul> 
-        <li> <p>역할을 활성화하여 <b>의 모든 곳에서 사용할 수 있도록 하여 사용자, 작업 항목 등과 연결하려면 </b>[!UICONTROL 예][!DNL Workfront]를 선택하십시오. </p> </li> 
+        <li> <p>역할을 활성화하여 <b>의 모든 곳에서 사용할 수 있도록 하여 사용자, 작업 항목 등과 연결하려면 </b>[!UICONTROL 예]&#x200B;[!DNL Workfront]를 선택하십시오. </p> </li> 
         <li> <p>역할을 비활성화하고 사용자, 작업 항목 등에 할당할 수 없도록 하려면 <b>[!UICONTROL No]</b>을(를) 선택하십시오. </p> </li> 
        </ul> <p><span>작업 역할 비활성화에 대한 자세한 내용은 </span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">작업 역할 비활성화</a>를 참조하십시오. </p> </td> 
      </tr>
