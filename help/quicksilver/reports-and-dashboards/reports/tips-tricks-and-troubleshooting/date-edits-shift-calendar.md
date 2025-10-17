@@ -4,13 +4,13 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 인라인 편집 일자 교대 달력 표시 외부적
 description: 개체 목록에서 날짜를 인라인 편집할 때 달력에 필요한 것보다 많은 날짜가 표시됩니다. 이렇게 하면 날짜가 달력 상자 외부에 표시됩니다.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 애자일 개요
 description: 애자일은 팀이 일관적인 케이던스로 작고 관리하기 쉬운 양의 작업을 완료할 수 있도록 하는 작업 방법론입니다. 애자일에서 팀은 백로그 또는 스토리 보드의 스토리를 관리하며 프로젝트의 작업은 관리하지 않습니다. [!DNL Adobe Workfront] 팀이 애자일 방식으로 작업할 수 있도록 도와주는 도구를 제공합니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 [!DNL Workfront] 보드는 팀 공동 작업을 위한 간단하면서도 유연한 도구입니다. 보드에 대한 자세한 내용은 [보드 개요](../agile/boards-overview.md)를 참조하십시오.
 
-추가적인 고급 애자일 팀 도구는 Kanban 또는 Scrum을 사용합니다. Kanban 및 Scrum 방법에 대한 자세한 내용은 문서 [애자일 팀 만들기](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)의 [애자일 방법 결정](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) 섹션을 참조하십시오.
+추가적인 고급 애자일 팀 도구는 Kanban 또는 Scrum을 사용합니다. Kanban 및 Scrum 방법에 대한 자세한 내용은 문서 [애자일 팀 만들기](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)의 [애자일 방법 결정](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) 섹션을 참조하십시오.
 
 Workfront에서 고급 애자일 사용을 시작하려면 다음을 수행하십시오.
 
 1. 애자일 팀을 만듭니다.
 
-   자세한 내용은 문서 [애자일 팀 만들기](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에서 [애자일 팀 만들기](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1) 또는 [기존 팀을 애자일 팀으로 변환](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) 섹션을 참조하십시오.
+   자세한 내용은 문서 [애자일 팀 만들기](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1)에서 [애자일 팀 만들기](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) 또는 [기존 팀을 애자일 팀으로 변환](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) 섹션을 참조하십시오.
 
 1. Kanban 또는 Scrum을 사용하도록 애자일 팀을 구성합니다.
 

@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: 반복 완료 상태 개요
 description: 이 문서에 설명된 완료 정보는 번다운 차트 위에 표시됩니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%

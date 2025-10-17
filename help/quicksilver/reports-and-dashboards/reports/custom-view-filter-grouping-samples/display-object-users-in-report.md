@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '보고서 또는 목록: 객체와 연관된 사용자를 표시합니다.'
 description: 보고서나 목록의 오브젝트와 연관된 사용자, 작업 역할 및 팀을 표시할 수 있으며, 필터에서 참조할 수 있습니다. 오브젝트와 연계된 사용자, 작업 역할 또는 팀별로 그룹화할 수 없습니다.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 2%

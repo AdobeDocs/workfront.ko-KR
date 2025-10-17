@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: 문제에 대한 완료 버튼 구성
 description: 완료 버튼을 사용하면 작업 또는 문제의 상태를 자동으로 설정할 수 있습니다. 기본적으로 Adobe Workfront은 할당자가 작업 항목에서 완료 를 클릭하면 문제를 해결됨으로 표시합니다.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 1%
@@ -23,12 +23,12 @@ ht-degree: 1%
 
 ## 개요
 
-특정 권한이 있는 사용자는 시스템의 특정 상태를 반영하도록 [!UICONTROL 완료] 단추를 구성할 수 있습니다. [!UICONTROL 의 문제에 대해 &#x200B;]완료[!DNL Workfront] 단추가 작동하는 방법에는 세 가지가 있습니다.
+특정 권한이 있는 사용자는 시스템의 특정 상태를 반영하도록 [!UICONTROL 완료] 단추를 구성할 수 있습니다. [!UICONTROL 의 문제에 대해 ]완료[!DNL Workfront] 단추가 작동하는 방법에는 세 가지가 있습니다.
 
 * 사용자에게 할당된 [!UICONTROL 홈 팀]이 있는 경우 [!DNL Workfront] 관리자나 [!UICONTROL 계획] 라이선스가 있는 사용자는 팀원의 특정 상태를 반영하도록 [!UICONTROL 완료] 단추를 구성할 수 있습니다. 이 문서에서 [팀에 대한 [!UICONTROL 완료] 단추 구성](#configure-the-uicontrol-done-button-for-a-team)을(를) 참조하십시오.
 * 사용자에게 [!UICONTROL 홈 팀]이 없지만 프로필에 [!UICONTROL 다른 팀]이 있는 경우 Workfront은 사용자와 연결된 모든 팀에서 [!UICONTROL 완료] 단추 설정을 검색합니다. 선택은 임의이며 팀과 연결된 상태가 문제에 사용됩니다.
 * 사용자에게 할당된 [!UICONTROL 홈 팀]이 없는 경우 문제에 대한 [!UICONTROL 완료] 단추가 세 문자 코드 [!UICONTROL RLV]을(를) 가진 시스템 생성 [!UICONTROL 해결됨] 상태와 연결되어 있습니다. 이 시나리오에는 사용 가능한 구성 옵션이 없습니다. [!UICONTROL 완료] 단추의 기본값은 자동으로 이 상태입니다.
-* [!UICONTROL 해결됨]&#x200B;([!UICONTROL RLV]) 상태가 삭제되고 문제를 [!UICONTROL 완료]&#x200B;(으)로 표시하는 사용자에게 [!UICONTROL 홈 팀]이 없는 경우 기본 문제 상태는 문제가 속한 프로젝트에 할당된 그룹의 [!UICONTROL 마감됨]에 기본값으로 설정된 모든 항목에 연결됩니다. Workfront 관리자는 그룹에 대한 시스템 전체 기본 설정을 구성할 수 있습니다. 이 문서에서 [해결됨[!UICONTROL &#x200B; 상태가 삭제되면 &#x200B;]구성[!UICONTROL 완료] 단추를 참조하십시오](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted).
+* [!UICONTROL 해결됨]&#x200B;([!UICONTROL RLV]) 상태가 삭제되고 문제를 [!UICONTROL 완료]&#x200B;(으)로 표시하는 사용자에게 [!UICONTROL 홈 팀]이 없는 경우 기본 문제 상태는 문제가 속한 프로젝트에 할당된 그룹의 [!UICONTROL 마감됨]에 기본값으로 설정된 모든 항목에 연결됩니다. Workfront 관리자는 그룹에 대한 시스템 전체 기본 설정을 구성할 수 있습니다. 이 문서에서 [해결됨[!UICONTROL  상태가 삭제되면 ]구성[!UICONTROL 완료] 단추를 참조하십시오](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted).
 
 ## 액세스 요구 사항
 

@@ -5,11 +5,11 @@ keywords: 추가,사용자,그룹,추가,다른,할당,관리자,제거,사용�
 navigation-topic: create-and-manage-groups
 title: 그룹의 멤버십 보기 및 관리
 description: Adobe Workfront 관리자는 관리하는 그룹의 구성원을 보고, 추가하고, 제거하고, 내보내고, 활성화하고, 비활성화할 수 있습니다. 또한 프로필을 편집하고, 프로필에 업데이트를 추가하고, 해당 프로필을 그룹의 추가 그룹 관리자로 지정할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%

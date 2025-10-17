@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: people-teams-and-groups
 title: 다른 사용자에게 다이렉트 메시지 보내기
 description: Adobe Workfront을 사용하면 작업 항목과 관련이 없는 메시지를 다른 Workfront 사용자에게 직접 빠르고 쉽게 보낼 수 있습니다.
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%

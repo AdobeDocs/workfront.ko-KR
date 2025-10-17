@@ -1,11 +1,11 @@
 ---
 title: 우선 순위 만들기 및 사용자 지정
 description: Workfront의 설정 영역에서 프로젝트, 작업 및 문제의 우선 순위를 제어할 수 있습니다. 우선 순위는 Adobe Workfront의 프로젝트, 작업 또는 문제를 중요시합니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 2%

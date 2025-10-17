@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: 사용자가 Outlook용  [!DNL Adobe Workfront] 을(를) 사용하려면 먼저 시스템에 사용하도록 설정해야 합니다.
-author: Lisa, Becky
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 1%

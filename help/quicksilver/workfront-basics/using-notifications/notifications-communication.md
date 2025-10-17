@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '알림: 통신'
+title: '알림: 커뮤니케이션'
 description: 다음 알림은 관련된 작업 항목에서 발생하는 업데이트 댓글 등의 통신에 대해 경고합니다. 수신하는 알림을 구성하는 방법에 대한 자세한 내용은 이메일 알림 수정 을 참조하십시오.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>누군가가 지시된 업데이트에 나를 포함시킵니다.</strong> </p> <p><a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">[!UICONTROL Tag others on] updates</a>에 설명된 대로 사용자가 업데이트에 다른 사용자를 특별히 포함하는 것이 지시된 업데이트입니다.</p> <p>이 경우, 지시된 업데이트에 포함된 사용자는 업데이트에 대한 이메일 알림을 수신한다.</p> <p>사용자에게 오브젝트에 대한 액세스 권한이 있는 경우에만 이메일 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;업데이트에 귀하를 포함한 사용자 이름&gt; [!UICONTROL 이 귀하가 알기를 원했습니다]</em></p> <p>일별 요약 알림의 주제는 <em>[!UICONTROL Digest of Communication] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
+   <td> <p><strong>누군가가 지시된 업데이트에 나를 포함시킵니다.</strong> </p> <p><a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">[!UICONTROL Tag others on] updates</a>에 설명된 대로 사용자가 업데이트에 다른 사용자를 특별히 포함하는 것이 지시된 업데이트입니다.</p> <p>이 경우, 지시된 업데이트에 포함된 사용자는 업데이트에 대한 이메일 알림을 수신한다.</p> <p>사용자에게 오브젝트에 대한 액세스 권한이 있는 경우에만 이메일 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;업데이트에 귀하를 포함한 사용자 이름&gt; [!UICONTROL이 귀하가 알기를 원했습니다]</em></p> <p>일별 요약 알림의 주제는 <em>[!UICONTROL Digest of Communication] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
    <td> 업데이트가 이루어진 개체 이름<br>상위 개체 이름<br>개체 참조 번호<br>지정 업데이트에 포함된 모든 사용자 및 팀의 이름<br>업데이트가 이루어진 날짜 및 시간<br>지정 업데이트의 텍스트<br><strong>[!UICONTROL 댓글]</strong> 단추<br>*받은 총 댓글 수<br>*각 개체에 대해 받은 댓글 수<br>*<strong>[!UICONTROL 모든 알림 보기]</strong> 단추<br>*일별 다이제스트 날짜<br></td> 
    <td> <p><strong>즉시</strong> </p> <p><strong>및 매일</strong> </p> </td> 
   </tr> 
@@ -80,7 +80,7 @@ ht-degree: 0%
    <td><strong>일별</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>댓글이 사용자에 추가되었을 때</strong> </p> <p>사용자 개체의 [!UICONTROL 업데이트] 탭에서 사용자에 대한 댓글을 달 수 있습니다. 사용자의 설정을 편집할 때 사용자에 대한 댓글을 달 수도 있습니다. 댓글이 작성되는 사용자는 이 댓글을 알리는 이메일을 받게 됩니다. </p> <p>사용자의 [!UICONTROL 업데이트] 탭에 업데이트를 입력하려면 적어도 [!UICONTROL 보기]에 대한 권한이 있어야 합니다. 사용자 설정을 편집하려면 사용자에 대한 [!UICONTROL 편집] 권한이 있어야 합니다. </p> <p>업데이트 탭에서 사용자에 대한 댓글을 작성하는 방법에 대한 자세한 내용은 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">작업 업데이트</a>를 참조하십시오.</p> <p>사용자의 설정을 편집할 때 사용자에 대한 댓글을 입력하는 방법에 대한 자세한 내용은 <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">내 설정 구성</a>을 참조하십시오.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;사용자 이름&gt; [!UICONTROL 이 알기를 원했습니다]</em></p> <p>일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Communication] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
+   <td> <p><strong>댓글이 사용자에 추가되었을 때</strong> </p> <p>사용자 개체의 [!UICONTROL 업데이트] 탭에서 사용자에 대한 댓글을 달 수 있습니다. 사용자의 설정을 편집할 때 사용자에 대한 댓글을 달 수도 있습니다. 댓글이 작성되는 사용자는 이 댓글을 알리는 이메일을 받게 됩니다. </p> <p>사용자의 [!UICONTROL 업데이트] 탭에 업데이트를 입력하려면 적어도 [!UICONTROL 보기]에 대한 권한이 있어야 합니다. 사용자 설정을 편집하려면 사용자에 대한 [!UICONTROL 편집] 권한이 있어야 합니다. </p> <p>업데이트 탭에서 사용자에 대한 댓글을 작성하는 방법에 대한 자세한 내용은 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">작업 업데이트</a>를 참조하십시오.</p> <p>사용자의 설정을 편집할 때 사용자에 대한 댓글을 입력하는 방법에 대한 자세한 내용은 <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">내 설정 구성</a>을 참조하십시오.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;사용자 이름&gt; [!UICONTROL이 알기를 원했습니다]</em></p> <p>일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Communication] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
    <td> 사용자 이름<br>댓글을 추가한 사용자의 이름<br>댓글이 작성된 날짜와 시간<br>댓글이 작성된 날짜와 시간<br>*받은 총 댓글 수<br>*각 개체에 대해 받은 댓글 수<br>*<strong>[!UICONTROL 모든 알림 보기]</strong> 단추<br>*일별 다이제스트 날짜 </td> 
    <td> <p><strong>즉시</strong> </p> <p><strong>및 매일</strong> </p> </td> 
   </tr> 

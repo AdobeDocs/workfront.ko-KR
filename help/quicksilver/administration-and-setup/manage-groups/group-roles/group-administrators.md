@@ -5,14 +5,14 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: 많은 부서가 있는 대규모 조직의 Adobe Workfront 관리자는 해당 부서 내에서 조직의 모든 부서 및 그룹을 관리하고 싶지 않을 수 있습니다. 대신 그룹 관리자가 관리하는 각 부서 및 해당 그룹 내의 하위 그룹에 대한 그룹을 만들 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -66,7 +66,7 @@ Workfront 관리자인 경우 사용자를 그룹 관리자로 지정하기 전�
 >[!IMPORTANT]
 >
 >그룹 관리자는 자신이 관리하는 사용자보다 높은 액세스 권한을 가져야 합니다. 그렇지 않으면 낮은 액세스 수준을 보거나 수정할 수 없습니다.
->이 액세스 권한을 부여하는 방법에 대한 지침은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
+>>이 액세스 권한을 부여하는 방법에 대한 지침은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
 그룹 및 하위 그룹의 사용자에게 타임시트 프로필을 할당해야 하는 그룹 관리자의 경우 타임시트 및 시간에 대한 관리 액세스도 권장합니다. 이 액세스 권한을 부여하는 방법에 대한 지침은 [특정 영역에 대한 관리자 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
 
@@ -76,7 +76,7 @@ Workfront 관리자인 경우 사용자를 그룹 관리자로 지정하기 전�
 
 >[!NOTE]
 >
->새로운 가격 및 패키징 모델에서는 다음을 수행하기 위해 Prime 계획 이상이 있어야 합니다.
+>새 가격 및 패키징 모델에서 다음을 수행하려면 Prime 계획 이상이 있어야 합니다.
 >
 > * 그룹 이벤트 알림 만들기
 > * 그룹 프로젝트 환경 설정 구성

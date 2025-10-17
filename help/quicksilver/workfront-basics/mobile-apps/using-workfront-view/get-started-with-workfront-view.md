@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: Adobe Workfront 보기 시작
 description: 이동 중에  [!DNL Adobe Workfront] 모바일 앱 보기를 사용하여 프로젝트의 진행 상황을 추적할 수 있습니다.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 2%

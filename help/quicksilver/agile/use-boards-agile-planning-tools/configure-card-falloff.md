@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: 카드 폴오프 구성
 description: 카드가 일정에 따라 보관되거나 보드에서 떨어지도록 보드를 구성할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%

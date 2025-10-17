@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 달력 보고서에서 계획된 일자 사용
 description: 달력 보고서는 작업의 시각적 표현을 제공하는 동적 보고서입니다. 작업, 문제 및 프로젝트에 대해 달력 보고서의 계획된 일자 필드를 사용할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 2%
@@ -105,7 +105,7 @@ ht-degree: 2%
        <ul>
         <li><strong>[!UICONTROL 시작 날짜만]</strong>: 캘린더에 개체가 단일 날짜에 표시됩니다.</li>
         <li><strong>[!UICONTROL 종료 날짜만]</strong>: 캘린더에 개체가 단일 날짜에 표시됩니다.</li>
-        <li><strong>[!UICONTROL Duration] (시작~끝)</strong>: 일정에서 일 범위에 걸쳐 개체를 표시합니다.</li>
+        <li><strong>[!UICONTROL Duration](시작~끝)</strong>: 일정에서 일 범위에 걸쳐 개체를 표시합니다.</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">

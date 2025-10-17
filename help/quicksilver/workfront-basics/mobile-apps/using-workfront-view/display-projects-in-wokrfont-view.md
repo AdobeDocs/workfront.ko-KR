@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: Adobe Workfront 보기에서 프로젝트 표시
 description: 기본적으로  [!DNL Adobe Workfront] 보기에 표시된 프로젝트 목록에는 가장 최근 100개의 활성 프로젝트가 표시됩니다. 프로젝트 목록은 기준별로 그룹화되지 않습니다.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -70,13 +70,13 @@ ht-degree: 1%
 1. [!DNL Workfront] 보기의 홈 페이지에서 목록의 프로젝트를 탭하여 프로젝트 세부 정보를 봅니다.\
    화면에서 사용할 수 있는 위젯에 프로젝트 정보가 표시됩니다.\
    한 번에 최대 4개의 위젯이 표시될 수 있으며 위젯을 제거하고 각 프로젝트에 추가하여 프로젝트에 대한 다양한 정보를 볼 수 있습니다.\
-   [!UICONTROL 프로젝트 세부 정보] 보기에 위젯을 추가하는 방법에 대한 자세한 내용은 [프로젝트 세부 정보[!UICONTROL &#x200B; 보기에서 &#x200B;]위젯 업데이트](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)를 참조하십시오.
+   [!UICONTROL 프로젝트 세부 정보] 보기에 위젯을 추가하는 방법에 대한 자세한 내용은 [프로젝트 세부 정보[!UICONTROL  보기에서 ]위젯 업데이트](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)를 참조하십시오.
 
 ## [!DNL Workfront View]에서 프로젝트 탐색
 
 1. [!DNL Workfront View] 앱의 프로젝트 목록에서 프로젝트 이름을 탭합니다.\
    프로젝트에 대한 정보는 화면에 업로드된 위젯에 표시됩니다.\
-   [!UICONTROL 프로젝트 세부 정보] 보기에 위젯을 추가하는 방법에 대한 자세한 내용은 [프로젝트 세부 정보[!UICONTROL &#x200B; 보기에서 &#x200B;]위젯 업데이트](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)를 참조하십시오.
+   [!UICONTROL 프로젝트 세부 정보] 보기에 위젯을 추가하는 방법에 대한 자세한 내용은 [프로젝트 세부 정보[!UICONTROL  보기에서 ]위젯 업데이트](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)를 참조하십시오.
 
 1. 목록에서 다음 프로젝트를 표시하려면 오른쪽에서 왼쪽으로 밉니다.\
    스크롤할 때 각 프로젝트에 대해 동일한 위젯이 표시됩니다.\

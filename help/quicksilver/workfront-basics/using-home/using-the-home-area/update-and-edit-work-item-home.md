@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: 홈 영역에서 작업 항목 업데이트 또는 편집
 description: Adobe Workfront의 [!UICONTROL Home] 영역 내에서 작업 항목에 대한 업데이트를 보고 추가할 수 있습니다. 작업 항목 편집 액세스 권한이 있는 경우 작업 항목과 관련된 다른 데이터를 편집할 수도 있습니다.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 7%
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-[!UICONTROL 의 &#x200B;]Home[!DNL Adobe Workfront] 영역 내에서 작업 항목에 대한 업데이트를 보고 추가할 수 있습니다. 작업 항목 편집 액세스 권한이 있는 경우 작업 항목과 관련된 다른 데이터를 편집할 수도 있습니다.
+[!UICONTROL 의 ]Home[!DNL Adobe Workfront] 영역 내에서 작업 항목에 대한 업데이트를 보고 추가할 수 있습니다. 작업 항목 편집 액세스 권한이 있는 경우 작업 항목과 관련된 다른 데이터를 편집할 수도 있습니다.
 
 ## 액세스 요구 사항
 

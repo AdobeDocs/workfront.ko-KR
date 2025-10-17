@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 description: 그룹 관리자인 경우 Adobe Workfront 관리자가 시스템의 모든 그룹에 대한 프로젝트 기본 설정의 잠금을 해제하면 그룹에서 만드는 모든 후속 프로젝트에 영향을 주도록 해당 그룹에 대한 기본 설정을 구성할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '2742'
 ht-degree: 2%

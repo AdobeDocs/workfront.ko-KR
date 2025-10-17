@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 칸반 보드의 기존 스토리에 하위 작업 추가
 description: 이 문서를 검토하여 Kanban 보드에서 기존 스토리에 대한 하위 작업을 만드는 방법을 알아보십시오.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
@@ -61,4 +61,4 @@ ht-degree: 0%
 
 1. 하위 작업을 추가할 스토리가 포함된 [!UICONTROL Kanban] 보드로 이동합니다.
 1. [!UICONTROL Kanban] 보드의 스토리 타일에서 작업 이름을 클릭합니다.
-1. [!DNL Workfront]하위 작업 만들기[에 설명된 대로 &#x200B;](../../manage-work/tasks/create-tasks/create-subtasks.md) 내의 다른 작업 목록에서처럼 작업에 하위 작업을 추가하십시오.
+1. [!DNL Workfront]하위 작업 만들기[에 설명된 대로 ](../../manage-work/tasks/create-tasks/create-subtasks.md) 내의 다른 작업 목록에서처럼 작업에 하위 작업을 추가하십시오.

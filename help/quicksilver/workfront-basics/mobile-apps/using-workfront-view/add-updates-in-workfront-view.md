@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: Adobe Workfront 보기에서 업데이트 추가
 description: ' [!DNL Adobe Workfront] 보기 앱에서 검토 중인 프로젝트의 업데이트를 검토하고 추가할 수 있습니다.'
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. [!UICONTROL Workfront 보기]의 홈 페이지에서 프로젝트를 탭하여 액세스하십시오.
 1. (선택 사항) 보기에 **[!UICONTROL 업데이트]** 위젯을 추가합니다.\
-   프로젝트 보기에 위젯을 추가하는 방법에 대한 자세한 내용은 [프로젝트 세부 정보[!UICONTROL &#x200B; 보기에서 위젯 업데이트]를 참조하십시오.](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
+   프로젝트 보기에 위젯을 추가하는 방법에 대한 자세한 내용은 [프로젝트 세부 정보[!UICONTROL  보기에서 위젯 업데이트]를 참조하십시오.](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
 
 1. **[!UICONTROL 업데이트]** 위젯에서 업데이트에 대한 **[업데이트]** 아이콘(오른쪽 아래) 또는 **[!UICONTROL +]** 아이콘(조건부)을 탭합니다.\
    ![[!DNL workfront_view_updates_icon].png](assets/workfront-view-updates-icon-315x196.png)

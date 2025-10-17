@@ -5,11 +5,11 @@ keywords: 관리, 그룹, 편집,
 navigation-topic: create-and-manage-groups
 title: 그룹 관리
 description: 그룹 관리자는 설정의 그룹 영역에서 관리하는 그룹을 관리할 수 있습니다. 관리하는 그룹 위에 그룹이 있는 경우 해당 관리자는 해당 그룹에 대해 이 작업을 수행할 수도 있습니다. Workfront 관리자(모든 그룹)의 경우도 마찬가지입니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    * **편집**: [그룹 세부 정보 보기 및 관리](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **복사**: [문서 &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)그룹 만들기[에서 기존 그룹 또는 하위 그룹을 복사하여 최상위 그룹을 만듭니다](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+   * **복사**: [문서 ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)그룹 만들기[에서 기존 그룹 또는 하위 그룹을 복사하여 최상위 그룹을 만듭니다](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
 
    * **삭제**: [그룹 삭제](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 

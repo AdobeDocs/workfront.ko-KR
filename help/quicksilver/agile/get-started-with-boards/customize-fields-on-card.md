@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
 title: 카드에 표시되는 필드 사용자 지정
 description: 전체 카드나 압축된 보기로 표시되지 않도록 필드를 비활성화하거나 압축된 카드 보기에서 필드를 숨겨서 카드에 표시되는 필드를 사용자 정의할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%

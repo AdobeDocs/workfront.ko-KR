@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: 작업 스트림 관리
 description: 작업 스트림은 작업에 대해 공동 작업하기 위해 구성 가능한 보드 및 카드 그룹입니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 1%

@@ -3,13 +3,13 @@ content-type: overview
 navigation-topic: notifications
 title: 인앱 알림 개요
 description: 이 문서에는 수신할 수 있는 인앱 알림이 나열되어 있습니다. 인앱 알림은 공지 알림과 작업 항목 알림의 두 가지 정보 유형에 대해 계속 알려줍니다. 웹 애플리케이션과 모바일 애플리케이션 모두에서 사용할 수 있습니다.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 0%
 
 공지는 다음 두 가지 방법 중 하나로 제공됩니다.
 
-* [!DNL Workfront]이(가) 조직 관리자 [!DNL Workfront]명의 [!UICONTROL 공지] 페이지에 메시지를 보냅니다.
+* [!DNL Workfront]이(가) 조직 관리자 [!UICONTROL 명의 ]공지[!DNL Workfront] 페이지에 메시지를 보냅니다.
 * [!DNL Workfront] 관리자가 [!UICONTROL 공지] 페이지에서 사용자에게 메시지를 보냅니다.
 
-두 경우 모두 관리자 또는 사용자가 [!DNL Workfront]의 오른쪽 상단 모서리에 있는 번호가 매겨진 아이콘 ![알림 아이콘](assets/notifications-icon-jewel.jpg)을 클릭하여 알림 목록을 열면 메시지의 제목 줄에 메가폰 아이콘 ![알림 아이콘](assets/announcement.png)과 단어 &quot;[!UICONTROL 알림]&quot;이 표시됩니다.
+두 경우 모두 관리자 또는 사용자가 ![의 오른쪽 상단 모서리에 있는 번호가 매겨진 아이콘 ](assets/notifications-icon-jewel.jpg)알림 아이콘[!DNL Workfront]을 클릭하여 알림 목록을 열면 메시지의 제목 줄에 메가폰 아이콘 ![알림 아이콘](assets/announcement.png)과 단어 &quot;[!UICONTROL 알림]&quot;이 표시됩니다.
 
 ![[!UICONTROL 공지] 알림](assets/notification-list-announcement-350x271.png)
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## [!UICONTROL 작업 항목] 알림
 
-[!DNL Workfront]의 오른쪽 위 모서리에 있는 번호 매기기 아이콘 ![알림 아이콘](assets/notifications-icon-jewel.jpg)을 클릭하여 알림 목록을 열면 작업 항목 메시지의 제목 줄에 아이콘과 간략한 설명이 표시되어 알림 내용을 알 수 있습니다. 아래에 아이콘 및 설명 유형이 나와 있습니다.
+![의 오른쪽 위 모서리에 있는 번호 매기기 아이콘 ](assets/notifications-icon-jewel.jpg)알림 아이콘[!DNL Workfront]을 클릭하여 알림 목록을 열면 작업 항목 메시지의 제목 줄에 아이콘과 간략한 설명이 표시되어 알림 내용을 알 수 있습니다. 아래에 아이콘 및 설명 유형이 나와 있습니다.
 
 ![작업 항목 알림](assets/notification-list-work-items-350x247.png)
 

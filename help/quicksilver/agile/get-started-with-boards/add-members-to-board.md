@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 보드에서 구성원 추가 또는 제거
 description: 보드를 보고 카드에 할당하려면 먼저 사람을 구성원으로 보드에 추가해야 합니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%

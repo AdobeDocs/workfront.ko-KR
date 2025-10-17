@@ -5,11 +5,11 @@ keywords: 그룹,레이아웃,템플릿
 navigation-topic: work-with-a-groups-objects
 title: 그룹의 레이아웃 템플릿 만들기 및 수정
 description: 그룹 영역에서 관리하는 그룹을 볼 때 그룹의 관리자 또는 해당 하위 그룹 중 하나에 관리 액세스 권한이 있는 레이아웃 템플릿을 보고 작업할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%

@@ -1,11 +1,11 @@
 ---
 title: 그룹에 할당되어 사용되는 라이선스 수 보기
 description: Adobe Workfront 관리자는 그룹 및 해당 하위 그룹에 현재 사용된 개별 라이선스 유형의 개수를 볼 수 있습니다. 이 기능은 라이선스를 재배포할지 여부를 평가해야 할 때 유용합니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

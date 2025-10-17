@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '필터: 두 필드를 비교하여 목록의 항목 제거'
 description: 두 필드를 비교하여 목록에서 항목을 필터링할 수 있습니다. 예를 들어 작업의 실제 완료 일자가 계획된 완료 일자보다 큰 작업만 표시할 수 있습니다.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 칸반 보드에서 스토리 상태 업데이트
 description: 스토리가 진행되는 방식을 반영하기 위해 칸반 보드에서 직접 스토리의 상태를 변경할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%

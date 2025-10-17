@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 보드 대시보드 사용
 description: '[!UICONTROL 보드] 대시보드에는 사용자가 만든 보드와 사용자가 추가한 보드를 포함하여 사용자가 액세스할 수 있는 보드 목록이 표시됩니다.'
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%

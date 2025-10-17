@@ -4,12 +4,12 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
 title: 블루프린트
 description: 이 문서를 검토하여 Adobe Workfront에서 블루프린트를 사용하는 방법을 알아보십시오.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 03a23bb6-f30d-4f4d-9e17-069e37ec474a
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 4%

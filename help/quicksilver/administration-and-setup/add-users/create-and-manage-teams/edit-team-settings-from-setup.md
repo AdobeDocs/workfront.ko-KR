@@ -1,14 +1,14 @@
 ---
 title: 설정 영역에서 팀 설정 편집
 description: Adobe Workfront 관리자는 설정 영역에서 팀 설정을 편집할 수 있습니다. 팀에 사용자를 추가하고, 팀의 레이아웃 템플릿을 설정하고, 팀이 작업 항목을 완료할 때 상태를 기록하는 방법을 설정할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -108,7 +108,7 @@ Adobe Workfront 관리자는 설정 영역에서 팀 설정을 편집할 수 있
      </tr> 
      <tr> 
       <td role="rowheader">완료 버튼</td> 
-      <td> <p>완료 단추를 사용자 지정합니다. 자세한 내용은 다음을 참조하십시오.</p> 
+      <td> <p>완료 단추를 사용자 지정합니다. 자세한 내용은 다음 문서를 참조하십시오.</p> 
        <ul> 
         <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">작업에 대한 완료 단추 구성</a> </li> 
         <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">문제에 대한 완료 단추 구성</a> </li> 

@@ -4,10 +4,10 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: 팀 요청 개요
 description: 팀 요청은 메인 메뉴의 팀 영역에 있습니다.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 [!UICONTROL 시작 준비] 옵션은 다음 조건을 모두 충족하는 작업 및 문제만 표시합니다.
 
 * 모든 전임 작업은 전임 작업 종속성 유형에 대한 조건을 충족했습니다.\
-  예를 들어 전임 작업 관계의 유형이 [!UICONTROL 마침-시작]인 경우(전임 작업은 종속 작업을 시작하기 전에 완료해야 함) 전임 작업을 [!UICONTROL 완료] (으)로 표시해야 합니다. 전임 작업 종속성 유형에 대한 자세한 내용은 [작업 종속성 유형 개요](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)를 참조하십시오.
+  예를 들어 전임 작업 관계의 유형이 [!UICONTROL 마침-시작]인 경우(전임 작업은 종속 작업을 시작하기 전에 완료해야 함) 전임 작업을 [!UICONTROL 완료]&#x200B;(으)로 표시해야 합니다. 전임 작업 종속성 유형에 대한 자세한 내용은 [작업 종속성 유형 개요](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)를 참조하십시오.
 
 * 로그인한 사용자는 이러한 작업 및 문제(작업 요청의 경우)에 할당된 사용자이거나 선택한 팀이 이러한 작업 및 문제(팀 요청의 경우)에 할당된 팀입니다.
 * 프로젝트 상태가 [!UICONTROL 현재]입니다.

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 팀 설정 편집
 description: Workfront 관리자 및 플랜 또는 작업 라이선스가 있는 사용자는 팀 설정을 편집할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%

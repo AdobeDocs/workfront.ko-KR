@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 개인 작업 만들기
 description: 개인 작업은 사용자가 홈 영역에서 직접 생성하는 사용자, 자신 또는 할 일 항목에 보내는 임시 작업 요청입니다. Workfront은 임시 작업 요청을 저장하고 항목을 개인 작업으로 수행합니다.
-author: Lisa
+author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Adobe Workfront은 임시 작업 요청을 저장하고 Windows가 각 사용자
    >Workfront 관리자는 사용자가 액세스 수준을 구성할 때 특정 사용자가 표시되지 않도록 할 수 있습니다.
 
 1. 헤더의 사용자 이름 오른쪽에 있는 **추가 메뉴** ![](assets/more-menu.png)을(를) 클릭합니다.
-1. **작업 요청 보내기**&#x200B;를 클릭합니다.
+1. **작업 요청 보내기**를 클릭합니다.
 **사용자에게 작업 요청 보내기** 상자가 표시됩니다.
 
    ![](assets/personal-task-box.png)

@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 캘린더 보고서 삭제
 description: 자신이 소유하거나 다른 사람이 나와 공유한 캘린더를 삭제할 수 있습니다. 캘린더를 삭제하면 캘린더를 공유한 사용자가 캘린더에 액세스할 수 없게 됩니다.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 2%

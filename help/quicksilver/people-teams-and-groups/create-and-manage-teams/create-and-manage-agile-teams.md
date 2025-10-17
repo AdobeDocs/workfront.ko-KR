@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 애자일 팀 만들기 및 관리
 description: 애자일 팀을 만들고 관리하는 방법에 대한 자세한 내용은 애자일 팀 만들기 를 참조하십시오.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 86d115cf-0931-453f-aa0f-c96b31eb61d5
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 0%

@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 잠금 및 잠금 해제된 그룹 상태
 description: 그룹의 사용자 정의 상태를 잠그는 것은 그룹 및 해당 하위 그룹의 사람들이 작업 흐름에서 동일한 프로세스를 사용하도록 하는 방법입니다. 그룹 상태가 잠겨 있으면 그룹 및 하위 그룹의 모든 사용자가 사용할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%

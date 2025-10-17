@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 카드의 체크리스트 항목 관리
 description: 카드에서 체크리스트를 사용하면 작업을 더 작은 단위로 분류하거나 카드에 메모를 추가할 수 있습니다. 체크리스트 항목은 애드혹 카드와 연결된 카드 모두에서 사용할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%

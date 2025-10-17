@@ -5,11 +5,11 @@ keywords: 만들기,그룹,하위 그룹,새로 만들기
 navigation-topic: create-and-manage-groups
 title: 그룹 만들기
 description: Adobe Workfront 관리자는 사용자 및 프로젝트를 구성하고 Workfront 내에 액세스 권한을 할당하기 위한 그룹을 만들 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 3%

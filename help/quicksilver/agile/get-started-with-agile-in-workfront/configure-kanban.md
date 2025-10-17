@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: 칸반 구성
 description: 팀이 만들어지는 동안 또는 만들어진 후에 Kanban 애자일 팀에 대해 다음 옵션을 구성할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-[!DNL Adobe Workfront]애자일 팀 만들기[에 설명된 대로 &#x200B;](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
+[!DNL Adobe Workfront]애자일 팀 만들기[에 설명된 대로 ](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
 
 * 스크럼
 * 칸반
@@ -161,7 +161,7 @@ ht-degree: 1%
 
 칸반 팀의 WIP 제한을 정의할 때 [!UICONTROL Kanban] 보드의 [!UICONTROL 새로 만들기] 또는 [!UICONTROL 진행 중] 열에 나타날 수 있는 작업 수를 제한하여 팀이 현재 작업 중인 항목 수를 제어할 수 있습니다.
 
-Kanban 팀에 대한 WIP 제한을 구성한 후 [!UICONTROL Kanban] 보드의 [WIP(Work In Progress) 제한 관리[!UICONTROL 에 설명된 대로 WIP 제한을 보고 &#x200B;]Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md) 애자일 스토리 보드에서 업데이트할 수 있습니다.
+Kanban 팀에 대한 WIP 제한을 구성한 후 [!UICONTROL Kanban] 보드의 [WIP(Work In Progress) 제한 관리[!UICONTROL 에 설명된 대로 WIP 제한을 보고 ]Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md) 애자일 스토리 보드에서 업데이트할 수 있습니다.
 
 Kanban 팀의 WIP를 제한하려면
 

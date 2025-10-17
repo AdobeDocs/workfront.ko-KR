@@ -4,11 +4,11 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 작업 및 완료 버튼 개요
 description: 작업 또는 문제에 할당되면 작업 항목에 대한 참여에 따라 이름과 기능이 변경되는 상황별 버튼을 사용할 수 있습니다.
-author: Lisa and Alina
+author: Becky and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 1%

@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: 사용자가 해당 작업에 대한 작업을 클릭하거나 할당된 새 작업에 업데이트 설명을 추가하면(작업에 대한 조건을 수동으로 설정하지 않음) Adobe Workfront에 설정에 구성된 작업의 기본 조건이 표시됩니다. 문제에 대해서도 마찬가지입니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%

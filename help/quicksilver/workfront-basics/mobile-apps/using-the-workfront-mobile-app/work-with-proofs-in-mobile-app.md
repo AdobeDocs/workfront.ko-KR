@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: ' [!DNL Adobe Workfront] 모바일 앱에서 증명을 검토하고 결정합니다.'
 description: 승인이 필요한 증명이 할당되면 모바일 앱의 승인 목록에 표시됩니다. 앱에서 직접 증명을 검토하고 이에 대한 결정을 내릴 수 있습니다.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
      ![내 작업 승인 섹션](assets/mobile-mywork-approvals-338x482.png)\
       또는
 
-   * [!UICONTROL 내 작업]의 [!UICONTROL 승인] 영역에서 **[!UICONTROL 모든 승인 표시]**&#x200B;를 선택합니다. 그런 다음 모든 승인 목록에서 증명 승인 작업을 선택합니다.
+   * **[!UICONTROL 내 작업]**&#x200B;의 [!UICONTROL 승인] 영역에서 [!UICONTROL 모든 승인 표시]를 선택합니다. 그런 다음 모든 승인 목록에서 증명 승인 작업을 선택합니다.
 
      모바일 앱의 [!UICONTROL 내 작업]에 대한 자세한 내용은 모바일 앱의 [[!UICONTROL 내 작업] 섹션](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)을 참조하세요.
 

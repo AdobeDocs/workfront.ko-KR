@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: 모바일용 Adobe Workfront 보드
 description: ' [!DNL Workfront] 모바일 앱에서는  [!DNL Workfront]의 데스크탑 버전에서 만들었거나 추가한 모든 보드를 볼 수 있습니다.'
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 보드 목록 보기 및 필터링
 
-1. [!DNL Workfront]의 데스크톱 버전에서 만들었거나 추가한 모든 보드 목록을 보려면 홈 페이지에서 [!UICONTROL **보드**]&#x200B;를 선택하십시오.
+1. [!UICONTROL **의 데스크톱 버전에서 만들었거나 추가한 모든 보드 목록을 보려면 홈 페이지에서**]&#x200B;보드[!DNL Workfront]를 선택하십시오.
 
    ![게시판 목록](assets/mobile-all-boards-displayed.png)
 

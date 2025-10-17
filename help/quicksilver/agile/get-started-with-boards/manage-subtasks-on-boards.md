@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 보드에서 하위 작업 관리
 description: 카드에 하위 작업을 사용하면 작업 간에 상위-하위 관계를 설정하고 작업 계층을 만들 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: 칸반 보드에서 스토리 및 문제 추가
 description: Kanban 보드에서 직접 새 스토리 또는 문제를 신속하게 만들 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%

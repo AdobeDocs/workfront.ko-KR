@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: "그룹: 문서 색인"
+title: '그룹: 문서 색인'
 description: 그룹은 팀 및 회사와 유사하지만 다릅니다. Workfront 관리자는 그룹에게 작업과 통신이 필요한 Workfront 영역에 대한 액세스 권한을 부여합니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: afbbdda2-095b-429d-a672-2f53c541273c
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

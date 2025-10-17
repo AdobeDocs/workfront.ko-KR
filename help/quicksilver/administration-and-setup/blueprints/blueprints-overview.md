@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 블루프린트 개요
 description: 블루프린트는 Workfront의 일반적인 사용 사례를 처리하는 Workfront 개체 세트입니다. 블루프린트를 다운로드하여 설치한 다음 특정 사용 사례에 맞게 개체를 구성할 수 있습니다.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 0%
@@ -94,6 +94,6 @@ Workfront 관리자는 모든 환경(프로덕션, 미리보기 또는 샌드박
 
 블루프린트는 [!DNL Adobe Workfront]에서 프로젝트 템플릿 기능을 대체하지 않습니다. 블루프린트는 새 템플릿을 더 빨리 만들어 [!DNL Workfront]에서 더 많은 작업을 구성할 수 있는 방법입니다.
 
-블루프린트는 복사하거나 편집할 수 없습니다. 그러나 블루프린트에서 솔루션을 설치한 후에는 일반적으로 [!DNL Workfront] 인터페이스에서 해당 레코드를 업데이트하는 것과 같은 방법으로 블루프린트에서 만든 프로젝트 템플릿, 작업 역할 또는 팀을 수정할 수 있습니다. 또한 블루프린트를 설치할 때 템플릿은 [!DNL Workfront]의 [!UICONTROL 템플릿] 영역에 저장되고 원본 블루프린트는 [!UICONTROL 블루프린트] 영역에 유지됩니다. 필요에 맞게 맞춤화하기 전에 템플릿 복사본을 만들 필요가 없습니다.
+블루프린트는 복사하거나 편집할 수 없습니다. 그러나 블루프린트에서 솔루션을 설치한 후에는 일반적으로 [!DNL Workfront] 인터페이스에서 해당 레코드를 업데이트하는 것과 같은 방법으로 블루프린트에서 만든 프로젝트 템플릿, 작업 역할 또는 팀을 수정할 수 있습니다. 또한 블루프린트를 설치할 때 템플릿은 [!UICONTROL 의 ]템플릿[!DNL Workfront] 영역에 저장되고 원본 블루프린트는 [!UICONTROL 블루프린트] 영역에 유지됩니다. 필요에 맞게 맞춤화하기 전에 템플릿 복사본을 만들 필요가 없습니다.
 
 블루프린트는 환경에 구성된 것을 제거하거나 대체하지 않습니다. 새 템플릿을 만드는 블루프린트를 설치하여 기존 템플릿을 바꾸려면 템플릿에서 프로젝트를 빌드하는 플래너 사이에 혼동을 피하기 위해 이전 버전을 비활성화하는 것이 좋습니다.

@@ -5,11 +5,11 @@ keywords: 그룹,환경 설정,작업,그룹,문제,잠금 해제
 navigation-topic: create-and-manage-groups
 title: 그룹에 대한 타임시트 및 시간 환경 설정 구성
 description: 시스템 수준에서 Adobe Workfront 관리자는 타임시트 및 시간 환경 설정 섹션의 잠금을 해제할 수 있습니다. 일반 환경 설정 및 타임시트 미리 채우기 이를 통해 그룹 관리자는 해당 섹션의 옵션을 자체 그룹에 대해 독립적으로 구성할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 1%

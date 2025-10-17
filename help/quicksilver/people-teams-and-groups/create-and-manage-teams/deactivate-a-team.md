@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 팀 비활성화 또는 삭제
 description: 연결된 내역 데이터를 유지하면서 더 이상 사용하지 않는 팀을 비활성화할 수 있습니다. Adobe Workfront 관리자는 설정의 팀 영역에서 언제든지 팀을 다시 활성화할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%

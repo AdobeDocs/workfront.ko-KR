@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 이동 또는 삭제된 그룹의 사용자 지정 상태
 description: 이 문서에서는 그룹을 이동하거나 삭제할 때 그룹 사용자 정의 상태가 어떻게 되는지에 대해 설명합니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%

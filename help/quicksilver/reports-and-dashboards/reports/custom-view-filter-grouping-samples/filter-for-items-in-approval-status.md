@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '필터: 승인 상태의 항목만 표시'
 description: 현재 승인 보류 중인 특정 상태의 항목만 표시할 수 있습니다. 승인 상태가 있는 다른 모든 오브젝트에 대해서도 동일하게 작동합니다.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%

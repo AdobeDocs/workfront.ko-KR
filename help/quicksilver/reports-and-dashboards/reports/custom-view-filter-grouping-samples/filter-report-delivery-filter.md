@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '필터: 배달 예약된 보고서 표시'
 description: 이 보고서 필터는 Adobe Workfront에서 자동으로 배달되도록 예약된 모든 보고서를 표시합니다. 표준 보기와 함께 사용하는 것이 가장 좋습니다.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 1%

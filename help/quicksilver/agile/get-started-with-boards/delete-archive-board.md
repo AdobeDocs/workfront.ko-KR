@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 보드 삭제 또는 보관
 description: Workfront에서 보드를 삭제하거나 보관할 수 있습니다. 보드를 삭제하면 Workfront에서 영구적으로 제거되지만, 보드를 보관하면 모든 카드가 유지되므로 나중에 복원할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%

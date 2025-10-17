@@ -3,11 +3,11 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: '알림 사용: 문서 색인'
 description: Adobe Workfront에서 알림을 사용하는 방법을 알아보려면 이 문서를 검토하십시오.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [[!DNL Adobe Workfront]개 알림](../../workfront-basics/using-notifications/wf-notifications.md)
+* [[!DNL Adobe Workfront] 알림](../../workfront-basics/using-notifications/wf-notifications.md)
 * [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
-* [&#x200B; [!DNL Adobe Workfront]의 항목 구독](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+* [ [!DNL Adobe Workfront]의 항목 구독](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 * [인앱 알림 개요](../../workfront-basics/using-notifications/in-app-notifications-overview.md)
 * [인앱 알림 보기 및 관리](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * [미리보기 샌드박스 환경에서 이메일 게재 활성화](../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)

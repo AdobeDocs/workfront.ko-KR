@@ -3,9 +3,9 @@ navigation-topic: search
 title: ' [!DNL Adobe Workfront] 검색'
 description: ' [!DNL Adobe Workfront] 의 정확한 위치를 기억하지 못할 때 해당 항목을 검색하여 쉽게 찾을 수 있습니다.'
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 [!DNL Adobe Workfront]의 정확한 위치를 기억하지 못할 때 해당 항목을 검색하여 쉽게 찾을 수 있습니다.
 
-[!UICONTROL &#x200B; 내 페이지의 오른쪽 위 모서리에 &#x200B;]검색[!DNL Workfront] 상자가 표시됩니다.
+[!UICONTROL  내 페이지의 오른쪽 위 모서리에 ]검색[!DNL Workfront] 상자가 표시됩니다.
 
 탐색 막대의 ![검색 아이콘](assets/search-globalnavigationbar-350x62.png)
 
@@ -100,7 +100,7 @@ Workfront에서 다음 개체를 검색할 수 있습니다.
 
 ## [!DNL Workfront] 검색 제한 사항 이해
 
-[!UICONTROL 에서 &#x200B;]Search[!DNL Workfront]을(를) 사용할 때 다음 제한을 고려하십시오.
+[!UICONTROL 에서 ]Search[!DNL Workfront]을(를) 사용할 때 다음 제한을 고려하십시오.
 
 * 검색은 대/소문자를 구분하지 않습니다.
 * [!DNL Workfront]이(가) 오타를 수정하거나 이해하지 못합니다.

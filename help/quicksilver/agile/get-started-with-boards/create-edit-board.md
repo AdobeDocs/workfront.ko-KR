@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 보드 만들기 또는 편집
 description: '[!UICONTROL 보드] 대시보드에서 새 보드를 만들거나 기존 보드를 편집할 수 있습니다.'
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 1%

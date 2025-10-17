@@ -4,10 +4,10 @@ product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
 title: Workfront의 그룹과 팀 비교
 description: 그룹 및 팀은 Adobe Workfront의 사용자 컬렉션입니다. 그룹과 팀 간의 차이점과 유사성에 대해 알아봅니다.
-author: Lisa
+author: Jenny and Becky
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%

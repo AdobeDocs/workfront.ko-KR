@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 블루프린트 구성
 description: 블루프린트를 설치하기 전에 프로젝트 템플릿 또는 조직 구조의 세부 사항을 구성할 수 있습니다.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1841'
 ht-degree: 0%

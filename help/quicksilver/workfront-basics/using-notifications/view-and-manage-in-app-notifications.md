@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: 인앱 알림 보기 및 관리
 description: 인앱 알림은 공지 알림과 작업 항목 알림의 두 가지 정보 유형에 대해 계속 알려줍니다. 웹 애플리케이션과 모바일 애플리케이션 모두에서 사용할 수 있습니다.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 >
 >웹 애플리케이션과 모바일 애플리케이션 모두에서 모든 인앱 알림을 볼 수 있습니다. 이러한 알림 중 일부만 모바일 애플리케이션에서 푸시 알림으로 전송됩니다. 모바일 앱의 알림에 대한 자세한 내용은 [[!DNL Adobe Workfront] iOS의 경우](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) 또는 [[!DNL Adobe Workfront] Android의 경우](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)을 참조하십시오.
 
-1. 알림 목록을 열려면 ![의 오른쪽 상단 모서리에 있는 번호 매기기 아이콘 &#x200B;](assets/notifications-icon-jewel.jpg)알림 아이콘[!DNL Workfront]을 클릭하세요.
+1. 알림 목록을 열려면 ![의 오른쪽 상단 모서리에 있는 번호 매기기 아이콘 ](assets/notifications-icon-jewel.jpg)알림 아이콘[!DNL Workfront]을 클릭하세요.
 
    최근에 읽지 않은 알림은 번호 매기기 아이콘 아래에 표시되며 가장 최근 알림은 맨 위에 표시됩니다.
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 통지를 승인하고 통지 목록에서 지우려면
 
-1. 알림 목록을 열려면 ![의 오른쪽 상단 모서리에 있는 번호 매기기 아이콘 &#x200B;](assets/notifications-icon-jewel.jpg)알림 아이콘[!DNL Workfront]을 클릭하세요.
+1. 알림 목록을 열려면 ![의 오른쪽 상단 모서리에 있는 번호 매기기 아이콘 ](assets/notifications-icon-jewel.jpg)알림 아이콘[!DNL Workfront]을 클릭하세요.
 1. 다음 중 하나를 수행하십시오.
 
    * 알림의 왼쪽 위 모서리에 있는 파란색 점을 클릭합니다.
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 이미 확인한 통지를 조회하려면
 
-1. 알림 목록을 열려면 ![의 오른쪽 상단 모서리에 있는 번호 매기기 아이콘 &#x200B;](assets/notifications-icon-jewel.jpg)알림 아이콘[!DNL Workfront]을 클릭하세요.
+1. 알림 목록을 열려면 ![의 오른쪽 상단 모서리에 있는 번호 매기기 아이콘 ](assets/notifications-icon-jewel.jpg)알림 아이콘[!DNL Workfront]을 클릭하세요.
 1. 알림 목록의 오른쪽 아래 모서리에서 **[!UICONTROL 모든 알림]**&#x200B;을 클릭합니다.
 1. 표시되는 **[!UICONTROL 알림]** 페이지에서 아래로 스크롤하여 이전 알림을 봅니다.
 1. (선택 사항) 승인된 알림을 알림 목록으로 되돌리려면 알림 옆에 있는 파란색 원을 클릭합니다.
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 ### 공지 삭제
 
-1. 알림 목록을 열려면 ![의 오른쪽 상단 모서리에 있는 번호 매기기 아이콘 &#x200B;](assets/notifications-icon-jewel.jpg)알림 아이콘[!DNL Workfront]을 클릭하세요.
+1. 알림 목록을 열려면 ![의 오른쪽 상단 모서리에 있는 번호 매기기 아이콘 ](assets/notifications-icon-jewel.jpg)알림 아이콘[!DNL Workfront]을 클릭하세요.
 1. **[!UICONTROL 공지]** 또는 **[!UICONTROL 모든 공지 보기]**&#x200B;를 클릭합니다.
 
 1. 표시되는 **[!DNL Announcements]** 페이지에서 왼쪽 목록에 있는 삭제할 공지를 클릭한 다음 페이지의 오른쪽 상단에 있는 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 지난 30일 이내에 삭제한 알림에 액세스할 수 있습니다.
 
-1. 알림 목록을 열려면 ![의 오른쪽 상단 모서리에 있는 번호 매기기 아이콘 &#x200B;](assets/notifications-icon-jewel.jpg)알림 아이콘[!DNL Workfront]을 클릭하세요.
+1. 알림 목록을 열려면 ![의 오른쪽 상단 모서리에 있는 번호 매기기 아이콘 ](assets/notifications-icon-jewel.jpg)알림 아이콘[!DNL Workfront]을 클릭하세요.
 1. **[!UICONTROL 공지]** 또는 **[!UICONTROL 모든 공지 보기]**&#x200B;를 클릭합니다.
 
 1. 표시되는 **[!UICONTROL 공지]** 페이지에서 **[!UICONTROL 삭제]**&#x200B;을(를) 클릭합니다.

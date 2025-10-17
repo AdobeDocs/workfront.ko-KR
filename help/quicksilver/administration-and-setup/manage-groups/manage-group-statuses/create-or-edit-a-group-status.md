@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 그룹 상태 만들기 또는 편집
 description: 그룹 관리자는 관리하는 그룹에 대해 사용자 정의 상태를 만들 수 있습니다. 이렇게 하면 수십 개의 회사 전체 사용자 정의 상태가 필요하지 않고 그룹 계층에서 더 많은 자율성을 가질 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 1%

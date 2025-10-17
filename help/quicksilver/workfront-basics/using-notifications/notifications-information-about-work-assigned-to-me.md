@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: '알림: 나에게 할당된 작업 정보'
 description: 다음 알림은 사용자에게 할당된 작업 항목에서 발생하는 활동에 대해 알려줍니다.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '2088'
 ht-degree: 1%
@@ -100,7 +100,7 @@ ht-degree: 1%
    <td><strong>일별</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>문서를 업로드하거나 내가 할당된 요청에 따라 변경합니다</strong> </p> <p>문제 피할당자는 추가한 문제에 대한 문서가 업로드되거나 문서 세부 정보가 변경되면 이메일 알림을 받습니다.</p> <p>문제를 트리거한 사용자가 문제 피할당자인 경우 이메일 알림이 전송되지 않습니다.</p> <p>프로젝트 상태가 [!UICONTROL Current]이고 프로젝트가 도움말 요청 큐(<a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 큐 만들기</a>에 설명된 대로)로 설정된 경우에만 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>문서가 &lt;요청 이름&gt;</em></p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Work Assigned or You] &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
+   <td> <p><strong>문서를 업로드하거나 내가 할당된 요청에 따라 변경합니다</strong> </p> <p>문제 피할당자는 추가한 문제에 대한 문서가 업로드되거나 문서 세부 정보가 변경되면 이메일 알림을 받습니다.</p> <p>문제를 트리거한 사용자가 문제 피할당자인 경우 이메일 알림이 전송되지 않습니다.</p> <p>프로젝트 상태가 [!UICONTROL Current]이고 프로젝트가 도움말 요청 큐(<a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 큐 만들기</a>에 설명된 대로)로 설정된 경우에만 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL 문서가 &lt;요청 이름&gt;</em></p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Work Assigned or You] &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
    <td> <p>요청 이름<br>프로젝트 이름(요청 큐 이름)<br>문서 참조 번호 <br>문서를 업로드한 사용자의 이름<br>문서 이름 <br>날짜에 추가됨<br>문서 세부 정보(형식, 크기, 버전 번호)<br>문서 축소판<br><strong>[!UICONTROL 미리 보기]</strong> 및 <strong>[!UICONTROL 다운로드]</strong> 단추<br>*프로젝트 이름<br>*프로젝트 참조 번호<br>*업로드되거나 변경된 총 문서 수<br>*문서 이름<br>*개체 이름<br>*문서를 업로드한 사용자의 이름<br>*일별 다이제스트</p> </td> 
    <td><strong>일별</strong> </td> 
   </tr> 
@@ -121,7 +121,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p><strong>내 작업 항목 중 하나의 상태 변경</strong> </p> <p>직접 상태를 변경하지 않는 한, 할당된 문제에 대한 상태가 변경되면 이메일 알림을 받습니다. </p> <p>프로젝트 상태가 [!UICONTROL Current]인 경우에만 알림이 전송됩니다.</p> <p>[!UICONTROL Review] 또는 [!UICONTROL Requestor] 라이센스가 있는 사용자가 알림을 받지 않습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;문제 이름&gt; 보낸 사람: &lt;프로젝트 이름&gt; &lt;새 상태&gt;</em></p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Work Assigned or You] &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
-   <td> 문제 이름<br>프로젝트 이름<br>문제 참조 번호<br>상태를 변경한 사용자 이름<br>새 상태<br>이전 문제 상태<br><strong>자세한 정보</strong> 단추<br>*프로젝트 이름<br>*프로젝트 참조 번호<br>*상태가 변경된 총 문제 수<br>*작업 이름<br>*이전 문제 상태<br>*새 문제 상태<br>*상태를 변경한 사용자 이름<br>*일별 다이제스트 날짜<br> </td> 
+   <td> 문제 이름<br>프로젝트 이름<br>문제 참조 번호<br>상태를 변경한 사용자 이름<br>새 상태<br>이전 문제 상태<br>자세한 정보<br><strong> 단추</strong>*프로젝트 이름<br>*프로젝트 참조 번호<br>*상태가 변경된 총 문제 수<br>*작업 이름<br>*이전 문제 상태<br>*새 문제 상태<br>*상태를 변경한 사용자 이름<br>*일별 다이제스트 날짜<br> </td> 
    <td><strong>일별</strong> </td> 
   </tr> 
  </tbody> 

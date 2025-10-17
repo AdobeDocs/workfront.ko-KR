@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: 번다운 차트 크기 조정 및 축소
 description: 번다운 차트의 크기를 조정하거나 축소하여 스토리 보드에서 차지하는 공간의 크기를 조정할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%

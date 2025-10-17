@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 보드에 접수 열 추가
 description: 정의한 필터에 따라 Workfront에 작업 및 문제를 추가할 때 연결된 카드로 자동으로 가져오는 접수 열을 보드에 추가할 수도 있습니다.
-author: Courtney
+author: Jenny
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 3%

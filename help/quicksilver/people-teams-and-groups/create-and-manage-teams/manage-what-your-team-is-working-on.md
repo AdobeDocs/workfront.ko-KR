@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 팀이 작업 중인 항목 관리
 description: 현재 팀에서 작업 중인 작업 및 문제에 대한 달력 보기를 볼 수 있습니다. 미지정 항목 지정, 현재 지정 조정, 현재 지정 조정 등을 수행할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%

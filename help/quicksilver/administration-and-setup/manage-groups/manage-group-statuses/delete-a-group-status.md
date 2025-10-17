@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 그룹 상태 삭제
 description: 그룹 관리자는 관리한 그룹의 상태를 시스템 수준에서 필수 또는 잠긴 상태로 구성되지 않았거나 계층의 상위 그룹에 대해 삭제할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%

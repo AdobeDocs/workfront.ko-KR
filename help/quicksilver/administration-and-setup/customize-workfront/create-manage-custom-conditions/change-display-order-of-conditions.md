@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: 사용자가 프로젝트를 편집하거나 작업 또는 문제에 대한 조건을 변경할 때 조건이 표시되는 순서를 변경할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: e50afb39f151ae8663ca2903454b475b21aa6f83
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 2%

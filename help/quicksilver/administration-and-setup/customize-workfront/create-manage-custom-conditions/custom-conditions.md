@@ -5,19 +5,19 @@ content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: 조건은 프로젝트, 작업 또는 문제의 진행 상황을 시각적으로 나타낸 것입니다. Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 사용하기 위해 Workfront에서 만든 조건을 사용하거나 조직의 요구 사항에 보다 근접하게 맞춤형 조건을 만들 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: bbe6f0a0-18bf-4229-a50a-aa7286b82626
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 1%
 
 ---
 
-# 사용자 정의 상태
+# 사용자 정의 조건
 
 조건은 프로젝트, 작업 또는 문제의 진행 상황을 시각적으로 나타낸 것입니다. Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 사용하기 위해 Workfront에서 만든 조건을 사용하거나 조직의 요구 사항에 보다 근접하게 맞춤형 조건을 만들 수 있습니다.
 

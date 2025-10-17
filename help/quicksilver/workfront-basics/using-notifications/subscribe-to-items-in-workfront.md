@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: Adobe Workfront에서 항목 구독
 description: Adobe Workfront은 귀하에게 할당되거나 귀하가 소유한 항목에 대한 알림을 보냅니다. 귀하에게 할당되지 않았지만 작업에 영향을 줄 수 있는 항목에 대한 커뮤니케이션을 따르려면 해당 항목에 가입할 수 있습니다.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%

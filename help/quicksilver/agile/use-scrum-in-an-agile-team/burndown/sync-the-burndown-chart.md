@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: 번다운 차트에서 데이터 동기화
 description: 번다운 차트는 프로젝트 또는 반복의 데이터와 자동으로 동기화됩니다. 번다운 차트가 프로젝트 또는 반복의 데이터와 동기화되지 않는 경우 수동으로 동기화할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%

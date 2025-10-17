@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 캘린더 보고서 복사
 description: 달력을 만든 경우 해당 달력을 복사하여 새 달력의 시작점으로 사용할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: 스크럼 보드에서 스토리에 사용자 할당
 description: 이 문서를 검토하여 스크럼 보드의 스토리에 사용자를 할당하는 방법을 알아보십시오.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%

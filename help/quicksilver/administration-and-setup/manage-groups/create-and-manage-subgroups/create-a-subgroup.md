@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
 title: 하위 그룹 만들기
 description: 관리하는 그룹 아래에 하위 그룹을 만들어 사용자와 프로젝트를 구성하고 Adobe Workfront 내에 액세스 권한을 할당할 수 있습니다. 일반적으로 그룹 관리자는 그룹 및 하위 그룹을 관리합니다. 그룹 페이지를 사용하여 그룹과 하위 그룹을 한 곳에서 관리할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 0%

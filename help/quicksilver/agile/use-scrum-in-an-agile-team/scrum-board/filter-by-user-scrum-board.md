@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: 스크럼 보드에서 사용자별로 필터링
 description: 스크럼 보드의 필터를 사용하여 다른 사용자와 연결된 작업 항목과 할당되지 않은 작업 항목을 확인할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: ccb1dc6e-b6c0-4897-9278-7410f10d40ae
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%

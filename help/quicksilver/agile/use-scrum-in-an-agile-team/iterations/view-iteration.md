@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: 반복 보기
 description: 주어진 팀에 대한 모든 이터레이션을 보거나 개별 이터레이션을 볼 수 있습니다. 반복에는 반복에 포함된 스토리, 문제 및 문서에 대한 데이터가 표시됩니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

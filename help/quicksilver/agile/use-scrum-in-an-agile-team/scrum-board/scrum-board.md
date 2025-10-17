@@ -4,11 +4,11 @@ product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: 스크럼 보드
 description: Workfront에서 스크럼 보드 사용에 대해 알려면 이 섹션의 문서를 검토하십시오.
-author: Lisa
+author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: ce032f98-4716-4ed7-99f3-c7ebf0a16a70
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%

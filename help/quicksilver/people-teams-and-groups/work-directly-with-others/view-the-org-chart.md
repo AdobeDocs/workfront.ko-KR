@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: collaboration
 title: 조직도 보기
 description: 조직도 기능을 사용하면 특정 Adobe Workfront 사용자와 연결된 조직도를 볼 수 있습니다. 조직도는 특정 부서의 구조를 시각화하는 좋은 방법이다.
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 {{step1-click-profile-pic}}
 
-1. 왼쪽 패널에서 **[!UICONTROL 조직 차트]**&#x200B;를 클릭합니다.
+1. 왼쪽 패널에서 **[!UICONTROL 조직 차트]**를 클릭합니다.
    ![조직도](assets/org-chart-2025.png)
 
    조직도가 표시됩니다.

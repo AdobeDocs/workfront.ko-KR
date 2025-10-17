@@ -3,11 +3,11 @@ content-type: reference
 navigation-topic: home-navigation-topic
 title: '홈 영역 사용: 기사 색인'
 description: Adobe Workfront에서 홈 영역을 사용하는 방법을 알아보려면 이 문서를 검토하십시오.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: f112e1f2778f28ec23cdd56c6b6dae3ac46f3eec
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%

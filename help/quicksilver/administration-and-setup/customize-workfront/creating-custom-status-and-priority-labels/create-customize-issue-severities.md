@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: 사용자는 심각도를 사용하여 문제의 심각도를 정의할 수 있습니다. Adobe Workfront에 있는 5개의 기본 심각도를 사용자 정의하거나 사용자에 대한 새 심각도를 만들 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 4%

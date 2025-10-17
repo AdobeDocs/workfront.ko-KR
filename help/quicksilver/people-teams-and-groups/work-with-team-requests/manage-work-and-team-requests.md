@@ -4,10 +4,10 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: 작업 및 팀 요청 관리
 description: 요청은 보류 중인 작업 또는 문제 할당을 나타냅니다. 개인에게 작업 요청이 이루어지고, 팀에게 팀 요청이 이루어진다.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%

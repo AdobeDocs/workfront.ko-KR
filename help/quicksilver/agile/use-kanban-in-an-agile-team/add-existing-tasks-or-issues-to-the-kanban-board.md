@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 칸반 보드에 기존 작업 또는 문제 추가
 description: 프로젝트에 대한 관리 액세스 권한이 있는 경우 Kanban 보드에 작업 또는 문제를 추가할 수 있습니다.
-author: Courtney
+author: Jenny
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 1%

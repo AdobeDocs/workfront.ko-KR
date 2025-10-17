@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 사용자 지정 상태를 그룹의 기본 상태로 사용
 description: 그룹 관리자는 사용자 지정 상태를 관리하는 그룹 또는 하위 그룹의 기본 상태로 구성할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 1%

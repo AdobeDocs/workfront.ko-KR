@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: 스크럼 보드에서 스토리 정보 보기 및 편집
 description: Kanban 보드에서 스토리 타일을 볼 때 특정 정보는 스토리 타일에서 직접 인라인으로 편집할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%

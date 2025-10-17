@@ -5,11 +5,11 @@ keywords: 관리,하위 그룹,편집
 navigation-topic: create-and-manage-subgroups
 title: 하위 그룹 관리
 description: 하위 그룹의 그룹 관리자는 하위 그룹을 생성, 이동, 보기, 편집, 복사, 이름 변경, 내보내기 및 삭제할 수 있습니다. 상위 그룹에서 하위 그룹을 제거하여 최상위 그룹으로 만들 수도 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 0%
@@ -180,7 +180,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >하위 그룹이 있는 그룹을 비활성화하면 해당 하위 그룹도 비활성화됩니다. 이들 중 하나를 활성화하려면 다음 지침을 사용하여 상위 그룹에서 제거한 다음 다시 활성화할 수 있습니다.
->&#x200B;>그룹 비활성화 및 다시 활성화에 대한 지침은 [그룹 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)를 참조하십시오.
+>>그룹 비활성화 및 다시 활성화에 대한 지침은 [그룹 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)를 참조하십시오.
 
 {{step-1-to-setup}}
 

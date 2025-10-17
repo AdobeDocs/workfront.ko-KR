@@ -5,11 +5,11 @@ keywords: 그룹,프로젝트
 navigation-topic: work-with-a-groups-objects
 title: 그룹의 프로젝트 만들기 및 수정
 description: 그룹 영역에서 관리하는 그룹을 볼 때 그룹의 프로젝트를 작성, 편집, 내보내기, 복사 및 삭제할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%

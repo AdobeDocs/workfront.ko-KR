@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: 프로젝트 세부 정보 보기에서 위젯 업데이트
 description: '[!UICONTROL 프로젝트 세부 정보] 화면에 위젯을 추가하여 프로젝트 목록에서 [!UICONTROL 프로젝트]에 액세스한 후에 해당 프로젝트에 대한 추가 정보를 볼 수 있습니다. 각 사용자는 자신의 위젯을 사용자 정의할 수 있습니다.'
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 1%

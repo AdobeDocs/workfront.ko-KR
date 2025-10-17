@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: 애자일 번다운 차트 개요
 description: 번다운 차트는 스토리가 반복 또는 프로젝트 를 통해 진행되는 방식을 시각적으로 보여 줍니다. 실제 번다운 비율은 반복 또는 프로젝트 타임라인에 대한 이상적인 번다운 비율에 대해 측정됩니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -63,7 +63,7 @@ ht-degree: 0%
        <li> <p>수동으로 변경됨</p> </li> 
        <li> <p>스토리의 포인트 또는 시간이 업데이트됩니다.</p> </li> 
       </ul></li>  
-     <li>스토리의 상태가 [!UICONTROL Complete] (으)로 변경되었습니다.</li> 
+     <li>스토리의 상태가 [!UICONTROL Complete](으)로 변경되었습니다.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

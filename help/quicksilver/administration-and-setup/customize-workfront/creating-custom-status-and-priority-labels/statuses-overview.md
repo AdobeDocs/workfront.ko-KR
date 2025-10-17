@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 상태 개요
 description: 프로젝트, 작업 또는 문제에 대한 현재 개발 상태를 확인하려면 사용자가 해당 상태를 볼 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 프로젝트, 작업 또는 문제의 상태를 수동으로 변경하려면 다음과 같은 액세스 및 권한이 있어야 합니다.
 
 * 프로젝트, 작업 및 문제에 대한 액세스 수준에서 액세스 편집
-* 작업 또는 문제에 대한 Contribute 이상 권한
+* 작업 또는 문제에 대한 기여 또는 더 높은 권한
 * 프로젝트에 대한 권한을 관리합니다.
 
 일반적으로 프로젝트, 작업 또는 문제의 상태를 변경하는 것은 수동 프로세스입니다. 그러나 시스템에서 발생하는 다른 요인에 따라 문제의 상태가 자동으로 변경되는 경우가 있습니다.

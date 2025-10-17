@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 시스템 프로젝트 상태 개요
 description: Workfront에는 9개의 내장 시스템 프로젝트 상태가 있습니다. 아래 표의 첫 번째 3은 필수입니다. 즉, 잠금을 해제하고, 이름을 바꾸고, 순서를 변경할 수 있지만 숨기거나 삭제할 수는 없습니다. 프로젝트 상태를 변경하는 것은 일반적으로 수동 프로세스입니다. 그러나 시스템에서 발생하는 다른 활동에 따라 프로젝트 상태가 자동으로 변경되는 경우가 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%

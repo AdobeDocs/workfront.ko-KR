@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: 특정 상태를 사용하여 승인 보류 중인 객체 나열
 description: 상태를 삭제하려고 하면 시스템의 오브젝트에서 승인 보류 중인 프로세스에서 사용되고 있으므로 삭제할 수 없다는 오류 메시지가 표시될 수 있습니다. 이러한 객체를 찾아 검토하여 수행할 작업을 결정하려는 경우 해당 객체를 나열하는 보고서를 실행할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%

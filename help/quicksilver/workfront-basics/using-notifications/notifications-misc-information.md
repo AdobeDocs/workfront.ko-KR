@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: '알림: 기타 정보'
 description: 다음 알림은 후원 중인 프로젝트에서 발생하는 활동에 대해 경고합니다.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
    <td><strong>즉시</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>문서 업로드 요청을 받은 후 요청이 취소되었습니다</strong> </p> <p>문서 요청이 취소되면 문서 요청자는 이메일 알림을 받습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 <em>&lt;요청을 취소한 사용자 이름&gt;입니다. </em></p> <p>이메일 알림의 본문에는 다음 텍스트가 포함되어 있습니다.</p> <p><em>[!UICONTROL Hi] &lt;사용자 이름&gt;, <br><br>&lt;요청을 취소한 사용자의 이름&gt;[!UICONTROL 에는 이전에 받은 요청과 관련하여 더 이상 업로드가 필요하지 않습니다. 귀하에게 알려드리고자 합니다.]</em> </p> </td> 
+   <td> <p><strong>문서 업로드 요청을 받은 후 요청이 취소되었습니다</strong> </p> <p>문서 요청이 취소되면 문서 요청자는 이메일 알림을 받습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 <em>&lt;요청을 취소한 사용자 이름&gt;입니다. </em></p> <p>이메일 알림의 본문에는 다음 텍스트가 포함되어 있습니다.</p> <p><em>[!UICONTROL Hi] &lt;사용자 이름&gt;, <br><br>&lt;요청을 취소한 사용자의 이름&gt;[!UICONTROL에는 이전에 받은 요청과 관련하여 더 이상 업로드가 필요하지 않습니다. 귀하에게 알려드리고자 합니다.]</em> </p> </td> 
    <td>요청을 취소한 사용자의 이름<br>원본 문서 업로드 요청의 텍스트<br>원본 문서 요청의 "[!UICONTROL CANCELLED]" 배너<br>원본 문서 요청의 날짜 및 시간<br></td> 
    <td><strong>즉시</strong> </td> 
   </tr> 
@@ -64,11 +64,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p><strong>내 직원 중 한 명이 프로젝트에 추가됨</strong> </p> <p>관리자는 사용자 중 한 명이 프로젝트에 추가되면 이메일 알림을 받습니다. 이 알림은 프로젝트의 상태에 관계없이 전송됩니다. </p> <p>[!UICONTROL Review] 라이센스가 있는 사용자는 알림을 받지 못합니다.</p> <p>이메일 제목은 <em>프로젝트 할당: &lt;사용자 이름&gt;[&lt;프로젝트 GUID&gt;_ &lt;사용자 GUID&gt;]</em>입니다.</p> </td> 
-   <td> <p>프로젝트 이름<br>Portfolio 이름<br>프로젝트 참조 번호<br>프로젝트에 사용자를 추가한 사용자의 이름<br>프로젝트에 추가된 사용자의 이름<br>프로젝트 [!UICONTROL 계획된 시작 날짜]<br>프로젝트 [!UICONTROL 계획된 완료 날짜]<br>프로젝트 완료율<br>프로젝트에 있는 다른 사용자의 이름<br>프로젝트 상태<br>프로젝트 소유자<br><strong>[!UICONTROL 자세히 보기]</strong> 단추<br><br><br></p> </td> 
+   <td> <p>프로젝트 이름<br>Portfolio 이름<br>프로젝트 참조 번호<br>프로젝트에 사용자를 추가한 사용자의 이름<br>프로젝트에 추가된 사용자의 이름<br>프로젝트 [!UICONTROL 계획된 시작 일자]<br>프로젝트 [!UICONTROL 계획된 완료 일자]<br>프로젝트 완료율<br>프로젝트에 있는 다른 사용자의 이름<br>프로젝트 상태<br>프로젝트 소유자<br><strong>[!UICONTROL 자세한 내용 보기]</strong> 단추<br><br><br></p> </td> 
    <td><strong>즉시</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>내가 소유한 포트폴리오 또는 프로그램에 누군가가 프로젝트를 추가합니다</strong> </p> <p>새 프로젝트가 포트폴리오 또는 프로그램에 추가되면 포트폴리오 및/또는 프로그램 소유자는 알림을 받습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>프로젝트가 &lt;Portfolio 이름&gt;[프로젝트 GUID]</em></p> </td> 
+   <td> <p><strong>내가 소유한 포트폴리오 또는 프로그램에 누군가가 프로젝트를 추가합니다</strong> </p> <p>새 프로젝트가 포트폴리오 또는 프로그램에 추가되면 포트폴리오 및/또는 프로그램 소유자는 알림을 받습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL 프로젝트가 &lt;Portfolio 이름&gt;[프로젝트 GUID]</em></p> </td> 
    <td> Portfolio 이름<br>프로젝트 참조 번호<br>포트폴리오/프로그램에 프로젝트를 추가한 사용자의 이름<br><br></td> 
    <td><strong>즉시</strong> </td> 
   </tr> 
@@ -83,7 +83,7 @@ ht-degree: 0%
    <td><strong>즉시</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>내가 구독 중인 작업, 문제 또는 프로젝트에 업데이트가 이루어짐</strong> </p> <p>누군가가 내가 구독 중인 항목에 댓글을 다는 경우 이메일 알림을 받습니다.</p> <p>구독 전자 메일의 제목: <em>구독하는 &lt;개체 유형&gt;이(가) 업데이트되었습니다. &lt;개체 이름&gt;</em></p> </td> 
+   <td> <p><strong>내가 구독 중인 작업, 문제 또는 프로젝트에 업데이트가 이루어짐</strong> </p> <p>누군가가 내가 구독 중인 항목에 댓글을 다는 경우 이메일 알림을 받습니다.</p> <p>구독 전자 메일의 제목: <em>[!UICONTROL 구독하는 &lt;개체 유형&gt;이(가) 업데이트되었습니다. &lt;개체 이름&gt;</em></p> </td> 
    <td> 개체 이름<br> 개체 참조 번호<br> 구독한 항목에 댓글을 단 사용자의 이름<br> 날짜 댓글이 작성됨<br> 댓글이 구독한 항목에 추가됨  </td> 
    <td><strong>즉시</strong> </td> 
   </tr> 

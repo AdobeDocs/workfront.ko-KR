@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '필터: 상위 작업 표시'
 description: 아래 작업 필터를 적용하여 작업 작업을 표시할 수 있습니다. 작업 작업은 독립적으로 작업할 수 있는 작업이며 다른 작업의 상위 작업이 아닙니다. 한 예에서 필터는 상위 자신일 수 있는 하위 작업을 식별합니다. 이 경우 작업이 아닙니다.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 1%

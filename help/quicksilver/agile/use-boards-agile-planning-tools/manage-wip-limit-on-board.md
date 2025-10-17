@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 보드에서 WIP(Work In Progress) 한도 관리
 description: 보드의 각 열에 대해 WIP(Work In Progress) 한도를 구성할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -59,7 +59,7 @@ WIP 제한은 단순히 시각적 경고일 뿐 각 열에 사용자가 설정�
 1. [!UICONTROL 열 정책]에서 **[!UICONTROL 진행 중인 작업] 제한** 정책을 사용하여 열에 추가할 수 있는 카드 수를 제한하십시오.
 1. **[!UICONTROL 제한 설정]** 필드에 제한 번호를 입력하십시오.
 
-   ![&#x200B; 열에 대한 &#x200B;](assets/boards-wip-limit-in-column.png)WIP 제한
+   ![ 열에 대한 ](assets/boards-wip-limit-in-column.png)WIP 제한
 
    카드 수와 제한 수가 열 맨 위에 표시됩니다. 열에 제한보다 많은 카드가 들어 있으면 카운터가 빨간색으로 바뀝니다.
 

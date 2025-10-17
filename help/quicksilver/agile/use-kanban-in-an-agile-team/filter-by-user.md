@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: 칸반 보드에서 사용자별로 필터링
 description: Kanban 보드의 필터를 사용하여 다른 사용자와 연관된 작업 항목과 할당되지 않은 작업 항목을 확인할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%

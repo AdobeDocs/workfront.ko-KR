@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: 스크럼 보드의 기존 스토리에 하위 작업 추가
 description: 기존 스토리의 하위 작업을 만들 때는 스토리가 업데이트되는 방식에 영향을 주므로 프로젝트의 완료 모드 설정을 염두에 두십시오.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 **프로젝트의 [!UICONTROL 완료 모드] 설정이 [!UICONTROL 수동]:**(으)로 설정된 경우
 
-* 하위 작업이 있는 상위 스토리를 [!UICONTROL 완료] (으)로 이동하면 상위 스토리가 100%로 업데이트되고 [!UICONTROL 상태]이 [!UICONTROL 완료] (으)로 업데이트됩니다. 하위 작업은 업데이트되지 않습니다.
+* 하위 작업이 있는 상위 스토리를 [!UICONTROL 완료]&#x200B;(으)로 이동하면 상위 스토리가 100%로 업데이트되고 [!UICONTROL 상태]이 [!UICONTROL 완료]&#x200B;(으)로 업데이트됩니다. 하위 작업은 업데이트되지 않습니다.
 * 스토리에 대한 [!UICONTROL 완료율]을 업데이트하려면 개체의 [!UICONTROL 스토리] 탭 또는 [!UICONTROL 세부 정보] 페이지에서 업데이트해야 합니다.
 
 **프로젝트에 대한 [!UICONTROL 완료 모드] 설정이 [!UICONTROL 자동]**(으)로 설정된 경우:
 
-* 하위 작업이 있는 상위 스토리를 [!UICONTROL 완료] (으)로 이동하면 상위 스토리가 100%로 업데이트되고 [!UICONTROL 상태]이 [!UICONTROL 완료] (으)로 업데이트됩니다. 하위 작업도 100%로 업데이트되고 [!UICONTROL 상태]가 [!UICONTROL 완료] (으)로 업데이트됩니다.
+* 하위 작업이 있는 상위 스토리를 [!UICONTROL 완료]&#x200B;(으)로 이동하면 상위 스토리가 100%로 업데이트되고 [!UICONTROL 상태]이 [!UICONTROL 완료]&#x200B;(으)로 업데이트됩니다. 하위 작업도 100%로 업데이트되고 [!UICONTROL 상태]가 [!UICONTROL 완료]&#x200B;(으)로 업데이트됩니다.
 * 스토리에 대한 [!UICONTROL 완료율]을 업데이트하려면 하위 작업에 대해 [!UICONTROL 완료율]을 업데이트해야 합니다. 스토리에 대한 [!UICONTROL 완료율]은(는) 모든 하위 작업의 [!UICONTROL 완료율]을(를) 기반으로 계산됩니다.
 
 ## 액세스 요구 사항
@@ -47,7 +47,7 @@ ht-degree: 0%
   </tr>
    <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>하위 작업이 있는 작업에 대한 [!UICONTROL Contribute] 또는 [!UICONTROL 관리] 액세스 권한 </td> 
+   <td>하위 작업이 있는 작업에 대한 [!UICONTROL 기여] 또는 [!UICONTROL 관리] 액세스 권한 </td> 
   </tr>
  </tbody> 
 </table>

@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: 프로젝트의 상태 유형이 수동 대신 진행 상태로 설정되어 있는 경우 프로젝트 상태 및 상태 유형 개요에 설명된 대로 Adobe Workfront은 프로젝트 진행 시 프로젝트에 내장된 세 가지 기본 상태(목표 달성, 위험 또는 문제 발생) 중 하나를 자동으로 표시합니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 2%

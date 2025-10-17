@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 보드에서 카드 삭제 또는 보관
 description: 보드에서 카드를 삭제하면 영구적으로 삭제되며 복원할 수 없습니다. 카드를 보관하면 아카이브로 전송되고 나중에 보드에 복원할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 1%

@@ -4,11 +4,11 @@ product-area: calendars
 navigation-topic: reports
 title: '캘린더: 기사 색인'
 description: 달력 보고서는 작업의 시각적 표현을 제공하는 동적 보고서입니다. 프로젝트, 작업 및 문제에 대한 캘린더 보고서에 날짜 정보를 표시할 수 있습니다. Adobe Workfront의 달력 보고서를 이해하려면 이 문서를 검토하십시오.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: 스크럼 구성
 description: 팀이 만들어지는 동안 또는 만들어진 후에 스크럼 애자일 팀에 대해 다음 옵션을 구성할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # [!UICONTROL 스크럼] 구성
 
-[!DNL Adobe Workfront]애자일 팀 만들기[에 설명된 대로 &#x200B;](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
+[!DNL Adobe Workfront]애자일 팀 만들기[에 설명된 대로 ](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
 
 * 스크럼
 * 칸반
@@ -135,7 +135,7 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
 ### 프로젝트에 대한 상태 열 구성 {#configure-status-columns-for-projects}
 
-프로젝트의 상태 열을 구성하는 방법에 대한 자세한 내용은 문서 [다음 위치에서 보기 만들기 또는 편집[!UICONTROL 에서 &#x200B;]애자일](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) 보기 만들기 또는 사용자 지정[&#x200B; 섹션을 참조하십시오. [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+프로젝트의 상태 열을 구성하는 방법에 대한 자세한 내용은 문서 [다음 위치에서 보기 만들기 또는 편집[!UICONTROL 에서 ]애자일](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) 보기 만들기 또는 사용자 지정[ 섹션을 참조하십시오. [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
 
 ## 애자일 스토리 보드에서 스토리 카드에 표시할 추가 필드를 구성합니다.
 
@@ -164,7 +164,7 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 1. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
 
 1. 관리할 애자일 팀을 선택합니다.
-1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**을 선택합니다.
 [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
 
    ![팀 편집](assets/edit-team-settings-350x205.png)
@@ -194,7 +194,7 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
    ![팀 편집](assets/edit-team-settings-350x205.png)
 
-1. [!UICONTROL 애자일] 섹션의 [!UICONTROL 카드 색상을 &#x200B;]에 연결 영역에서 다음 옵션 중 하나를 선택하십시오.
+1. [!UICONTROL 애자일] 섹션의 [!UICONTROL 카드 색상을 ]에 연결 영역에서 다음 옵션 중 하나를 선택하십시오.
 
    * **[!UICONTROL 프로젝트]**: 스토리가 연결된 프로젝트와 색상이 연결되어 있습니다. 스토리가 만들어지면 [애자일 스토리 만들기](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md)에 설명된 대로 프로젝트와 연결되어야 합니다. 동일한 프로젝트의 모든 작업이 동일한 색상으로 표시됩니다.
    * **[!UICONTROL 자유 형식]**: 스크럼 보드의 [[!UICONTROL 색상별 스토리 분류]에 설명된 대로 사용자가 색상을 수동으로 변경할 때까지 기본적으로 모든 카드가 파란색으로 표시됩니다](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
@@ -217,7 +217,7 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 {{step1-to-team}}
 
 1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 스크럼 팀을 선택하거나 검색 창에서 팀을 검색합니다.
-1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**을 선택합니다.
 [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
 1. [!UICONTROL 애자일] 섹션의 [!UICONTROL 작업 항목이 반복에 추가되면] 영역에서 다음 옵션 중 하나를 선택하십시오.
 

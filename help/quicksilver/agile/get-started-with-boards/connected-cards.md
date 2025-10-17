@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 보드에서 연결된 카드 사용
 description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드에 추가할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 1%
@@ -178,7 +178,7 @@ ht-degree: 1%
 
    왼쪽 탐색 패널을 사용하여 카드 세부 정보에서 필드의 섹션 사이를 이동합니다.
 
-1. **[!UICONTROL 닫기]**&#x200B;를 클릭하여 게시판으로 돌아갑니다.
+1. **[!UICONTROL 닫기]**를 클릭하여 게시판으로 돌아갑니다.
 카드에 연결된 객체, 담당자, 태그, 기한, 체크리스트 카운터, 예상 시간, 상태 등이 표시됩니다.
 
    ![보드에 카드 추가됨](assets/boards-connected-card-details-110922.png)

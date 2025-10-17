@@ -4,10 +4,10 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: '캘린더에 오류 메시지: ''이 캘린더에는 비활성화된 사용자의 보기 권한이 있습니다.'''
 description: '''이 캘린더에는 비활성화된 사용자의 보기 권한이 있습니다.'' 오류 메시지에 대해 알아봅니다.'
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%

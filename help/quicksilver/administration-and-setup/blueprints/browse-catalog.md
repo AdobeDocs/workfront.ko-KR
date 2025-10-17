@@ -4,10 +4,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: 블루프린트 카탈로그 찾아보기 및 블루프린트 설치 요청
 description: 블루프린트는 사용자와 함께 성장하는 작업 관리 시스템을 만드는 데 도움이 되는 기본 구성 요소를 제공합니다. 모든 [!DNL Adobe Workfront] 사용자는 블루프린트 카탈로그를 검색할 수 있습니다. 관리자가 블루프린트 요청을 활성화한 경우  [!DNL Workfront] 관리자가 특정 블루프린트를 설치하도록 요청할 수도 있습니다.
-author: Becky, Lisa
+author: Jenny
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 모바일 앱의 내 작업 섹션
 description: '[!UICONTROL Home] 영역의 [!UICONTROL 내 작업] 섹션에는 작업, 문제, 프로젝트, 승인, 요청 및 타임시트가 표시됩니다.'
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 1%

@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: 요청 유형 구성
 description: 프로젝트를 작업하는 동안 예기치 않은 이벤트가 발생할 수 있습니다. 이러한 예기치 않은 이벤트를 특정 프로젝트 또는 작업에 대한 문제로 기록할 수 있습니다. 요청 대기열로 지정된 프로젝트의 문제로 기록되는 요청을 제출할 수도 있습니다. 문제 및 요청은 Adobe Workfront에서 상호 교환 가능한 것으로 간주됩니다.
-author: Lisa
+author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%

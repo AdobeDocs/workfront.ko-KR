@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: iOS의 증명에 대한 댓글
 description: 증명에 대한 기존 주석을 검토 및 해결하고, 증명 문서에 새 주석 및 주석을 추가할 수 있습니다.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->증명 소유자가 증명을 잠근 경우 댓글을 달 수 없습니다. 자세한 내용은 [&#128279;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)모바일 앱에서 증명 검토 및 결정 [!DNL Adobe Workfront] 문서에서 [증명 잠금 및 잠금 해제](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)를 참조하십시오.
+>증명 소유자가 증명을 잠근 경우 댓글을 달 수 없습니다. 자세한 내용은 [모바일 앱에서 증명 검토 및 결정](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)문서에서 [증명 잠금 및 잠금 해제 [!DNL Adobe Workfront] 를 참조하십시오](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## 증명의 기존 댓글 검토
 
 증명 문서에 작성된 댓글을 검토할 수 있습니다. 주석에는 종종 주석이 참조하는 문서 영역을 호출하는 연관된 드로잉이 있습니다. 드로잉에는 화살표, 선, 사각형, 강조표시 및 자유 드로잉이 포함될 수 있습니다.
 
-1. 문서 증명을 엽니다. 자세한 내용은 [모바일 앱에서 증명 검토 및 결정](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)을 참조하세요. [!DNL Adobe Workfront] 
+1. 문서 증명을 엽니다. 자세한 내용은 [모바일 앱에서 증명 검토 및 결정 [!DNL Adobe Workfront] 을 참조하세요.](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
 1. 문서 페이지 ![문서의 주석 아이콘](assets/mobile-comment-icon-on-proofdoc-30x34.png)에서 주석 아이콘을 선택하여 주석 및 관련 도면과 첨부 파일을 엽니다.
 
    댓글에 답글이 두 개 이상 있는 경우 **[!UICONTROL 답글 보기]**&#x200B;를 선택하여 모든 답글을 표시하거나 댓글 시트를 위아래로 살짝 밀어 더 많은 콘텐츠를 표시할 수 있습니다.
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 증명 주석을 문서의 특정 영역에 연결할 수 있습니다. 그리기 도구를 사용하여 주석을 달 영역을 선택합니다.
 
-1. 문서 증명을 엽니다. 자세한 내용은 [모바일 앱에서 증명 검토 및 결정](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)을 참조하세요. [!DNL Adobe Workfront] 
+1. 문서 증명을 엽니다. 자세한 내용은 [모바일 앱에서 증명 검토 및 결정 [!DNL Adobe Workfront] 을 참조하세요.](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
 1. 증명 화면 하단의 도구 모음에서 그리기 도구를 선택합니다.
 
    ![증명 댓글 도구 모음](assets/android-proof-comment-toolbar-350x102.png)

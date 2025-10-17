@@ -4,11 +4,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 사용자 지정 상태를 기본 상태로 사용
 description: 사용자 지정 상태를 기본 상태로 설정하면 시스템 전체에서 다양한 방식으로 새 기본 상태가 사용됩니다. 기본 시스템 수준 상태로 설정되는지 또는 기본 그룹 수준 상태로 설정되는지에 따라 사용 방법이 달라집니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%

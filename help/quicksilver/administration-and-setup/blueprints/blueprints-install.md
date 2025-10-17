@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 블루프린트 설치
 description: 프로덕션 환경 또는 샌드박스 환경에 블루프린트를 설치할 수 있습니다.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 1%
@@ -87,7 +87,7 @@ ht-degree: 1%
 1. (선택 사항) 블루프린트의 작동 방식을 알아보려면 **[!UICONTROL 세부 정보]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. 프로덕션 환경 또는 샌드박스 환경에 설치하도록 선택합니다.\
-   자세한 내용은 [블루프린트는 어디에서 설치할 수 있습니까?이 문서의 &#x200B;](#where-should-i-install-a-blueprint) 섹션.
+   자세한 내용은 [블루프린트는 어디에서 설치할 수 있습니까?이 문서의 ](#where-should-i-install-a-blueprint) 섹션.
 1. **구성** 페이지에서 다음 중 하나를 수행하도록 선택할 수 있습니다.
 
    * 블루프린트를 그대로 설치합니다. 구성이 필요하지 않은 블루프린트 유형의 경우 이 옵션만 제공됩니다. 구성이 필요한 블루프린트 유형의 경우 선택적으로 지금 블루프린트를 설치하고 나중에 구성할 수 있습니다. **[!UICONTROL 다음으로 설치]**&#x200B;를 클릭합니다.

@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: ' [!DNL Workfront] 보드에 대한 초기 기능 옵트인'
 description: 이 문서를 읽고  [!DNL Workfront Boards] 초기 기능 옵트인에 대해 알아보십시오.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
@@ -218,7 +218,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->사용자가 URL을 사용하여 보드에 액세스하는 것은 중지되지 않습니다. [!UICONTROL 기본 메뉴]에서 [!DNL Boards] 옵션을 볼 수 없도록 합니다.
+>사용자가 URL을 사용하여 보드에 액세스하는 것은 중지되지 않습니다. [!DNL Boards]기본 메뉴[!UICONTROL 에서 ] 옵션을 볼 수 없도록 합니다.
 
 ### 가입한 후 초기 기능을 옵트아웃할 수 있습니까?
 

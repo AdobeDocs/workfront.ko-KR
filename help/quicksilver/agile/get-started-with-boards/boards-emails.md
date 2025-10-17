@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: 게시판 이메일 알림 및 환경 설정
 description: Adobe Workfront 보드는 보드에 추가되거나 카드에 할당되면 이메일을 보냅니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%

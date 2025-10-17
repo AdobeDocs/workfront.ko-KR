@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: 애자일 스토리 이동
 description: 애자일 스토리를 다른 반복(스크럼 팀의 경우)이나 백로그(Kanban 및 스크럼 팀의 경우)로 이동할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -81,6 +81,6 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >작업 항목 [!UICONTROL 계획된 시작 일자] 및 [!UICONTROL 계획된 완료 일자]가 [!UICONTROL 팀 편집] 페이지의 설정에 영향을 받습니다. 자세한 내용은 문서 [[!UICONTROL 스크럼 구성]에서 &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)구성[, 작업 항목을 반복에 추가할 때 날짜가 적용되는 방법](../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 섹션을 참조하십시오.
+   >작업 항목 [!UICONTROL 계획된 시작 일자] 및 [!UICONTROL 계획된 완료 일자]가 [!UICONTROL 팀 편집] 페이지의 설정에 영향을 받습니다. 자세한 내용은 문서 [[!UICONTROL 스크럼 구성]에서 ](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)구성[, 작업 항목을 반복에 추가할 때 날짜가 적용되는 방법](../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 섹션을 참조하십시오.
 
 1. **[!UICONTROL 이동]**&#x200B;을 클릭합니다.

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: 처리 중 단추를 시작 단추로 바꾸기
 description: Adobe Workfront의 기본 구성에는 할당된 항목에 대해 표시되는 작업 및 문제에 대한 처리 중 버튼이 포함되어 있습니다.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%

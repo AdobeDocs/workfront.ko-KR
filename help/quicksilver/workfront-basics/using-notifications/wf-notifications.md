@@ -3,10 +3,10 @@ content-type: overview;reference
 navigation-topic: notifications
 title: 알림 개요
 description: Adobe Workfront은 모바일 디바이스에서 이메일 알림, 인앱 알림 및 알림을 보냅니다.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 1%
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 일별 요약 알림을 받을 때 알아야 할 몇 가지 사항이 있습니다.
 
-* **[!UICONTROL 내 설정]** 패널의 각 [!UICONTROL 알림] 섹션에서 매일 다이제스트 전자 메일을 만듭니다. 일별 다이제스트 전자 메일에 대해 활성화된 알림 설정만큼 일별 다이제스트 전자 메일을 매일 가질 수 있습니다.\
+* [!UICONTROL 내 설정] 패널의 각 **[!UICONTROL 알림]** 섹션에서 매일 다이제스트 전자 메일을 만듭니다. 일별 다이제스트 전자 메일에 대해 활성화된 알림 설정만큼 일별 다이제스트 전자 메일을 매일 가질 수 있습니다.\
    예를 들어, **[!UICONTROL 내가 소유한 프로젝트에 대한 정보]에서 여러 작업에 대한 일일 요약 이메일을 수신하도록 선택한 경우** 이 영역에 대해 충족된 모든 이벤트를 나열하는 하나의 이메일 알림을 받게 됩니다.
 
 * 일별 다이제스트 이메일의 알림은 다양한 기준으로 그룹화됩니다. 예를 들어 **[!UICONTROL 내가 소유한 프로젝트에 대한 정보]**&#x200B;의 경우 이벤트는 프로젝트 이름별로 그룹화됩니다.
@@ -101,7 +101,7 @@ Workfront에서 댓글에 답글을 달거나 댓글을 보려면 다음 작업�
 
    댓글에 회신하는 데 사용할 수 있는 회신 상자가 열려 있습니다.
 
-일별 요약 알림을 포함하여 전자 메일 알림을 구성하는 방법에 대한 자세한 내용은 [전자 메일 알림 설정 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)에서 [전자 메일 알림 설정 보기 및 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings)을 참조하세요.
+일별 요약 알림을 포함하여 전자 메일 알림을 구성하는 방법에 대한 자세한 내용은 [전자 메일 알림 설정 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings)에서 [전자 메일 알림 설정 보기 및 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
 ### 자동 미리 알림
 

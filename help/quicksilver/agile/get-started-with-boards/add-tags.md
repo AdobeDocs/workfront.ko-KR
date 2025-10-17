@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 태그 추가
 description: 카드에 태그를 추가하여 비슷하다는 것을 시각적으로 표시할 수 있습니다. 그런 다음 해당 태그로 필터링하여 관련 카드를 표시할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 3%

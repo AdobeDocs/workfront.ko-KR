@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: 칸반 보드에서 WIP(Work In Progress) 한도 관리
 description: Kanban 보드의 각 열에 대해 WIP(Work In Progress) 한도를 구성할 수 있습니다. WIP 제한은 단순히 시각적 경고일 뿐 팀이 각 상태 열에 사용자가 설정한 제한보다 더 많은 항목을 보유하는 것을 제한하지 않습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%

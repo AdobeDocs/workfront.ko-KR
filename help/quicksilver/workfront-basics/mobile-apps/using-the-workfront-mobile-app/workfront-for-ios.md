@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: iOS용 Adobe Workfront
 description: ' [!DNL Adobe Workfront] 앱을 사용하면 모든 iOS 장치에서 작업에 액세스할 수 있습니다. iOS 10 이상을 실행하는 휴대폰 및 태블릿에  [!DNL Workfront] 모바일 앱을 설치하고 사용할 수 있습니다. iPhone과 iPad 모두에서 전용 [!DNL Workfront] 모바일 앱을 사용할 수 있습니다.'
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 [!DNL Adobe Workfront] 앱을 사용하면 [!DNL iOS] 장치에서 작업에 액세스할 수 있습니다. iOS 10 이상을 실행하는 휴대폰 및 태블릿에 [!DNL Workfront] 모바일 앱을 설치하고 사용할 수 있습니다. 전용 [!DNL Workfront] 모바일 앱은 [!DNL iPhone]과(와) [!DNL iPad] 모두에서 사용할 수 있습니다.
 
-모바일 앱에 로그인하는 방법에 대한 자세한 내용은 문서 [로그인 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)의 [[!UICONTROL Workfront] 모바일 앱에 로그인](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) 섹션을 참조하십시오.
+모바일 앱에 로그인하는 방법에 대한 자세한 내용은 문서 [로그인[!UICONTROL 의 ]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)Workfront[ 모바일 앱에 로그인 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) 섹션을 참조하십시오.
 
 ## [!UICONTROL 홈]
 
@@ -39,7 +39,7 @@ ht-degree: 2%
    <td> 
     <ul> 
      <li>작업 및 문제 상태 업데이트</li> 
-     <li>업데이트 영역의 Post</li> 
+     <li>업데이트 영역에 게시</li> 
      <li>문서 보기</li> 
      <li>사진 첨부</li> 
      <li> <p>요청 또는 빠른 작업 만들기</p> <p>참고: 프로젝트를 할당하도록 선택하지 않은 경우 홈에서 생성된 빠른 작업은 개인 작업입니다.</p> </li> 
@@ -73,7 +73,7 @@ ht-degree: 2%
     <ul> 
      <li>프로젝트 상태 업데이트</li> 
      <li>중요한 프로젝트 세부 정보 보기</li> 
-     <li>[!UICONTROL Updates] 영역의 Post</li> 
+     <li>[!UICONTROL Updates] 영역에 게시</li> 
      <li>작업, 문제 및 요청을 프로젝트로 전환</li> 
     </ul> </td> 
    <td> 
@@ -102,7 +102,7 @@ ht-degree: 2%
     <ul>
      <li>작업(작업 및 문제)</li>
      <li>문서</li>
-     <li>증명 </li>
+     <li>교정쇄 </li>
     </ul> </td>
    <td>
     <ul>
@@ -115,7 +115,7 @@ ht-degree: 2%
 
 승인에 대한 자세한 내용은 [모바일 앱에서 승인 [!DNL Adobe Workfront] 을 참조하십시오](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-증명 검토 및 승인에 대한 자세한 내용은 [모바일 앱에서 증명 검토 및 결정](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)을 참조하세요. [!DNL Adobe Workfront] 
+증명 검토 및 승인에 대한 자세한 내용은 [모바일 앱에서 증명 검토 및 결정 [!DNL Adobe Workfront] 을 참조하세요.](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
 
 ![모바일 앱의 승인 목록](assets/mobile-approvals-adobe-350x574.png)
 
@@ -145,7 +145,7 @@ ht-degree: 2%
     </ul> </td>
    <td>
     <ul>
-     <li>[!UICONTROL Updates] 영역의 Post</li>
+     <li>[!UICONTROL Updates] 영역에 게시</li>
      <li>문서 보기</li>
      <li>사진 첨부</li>
      <li>초안으로 요청 저장</li>
@@ -160,7 +160,7 @@ ht-degree: 2%
 
 [!UICONTROL 타임시트] 영역에서 타임시트에 대한 세부 정보를 볼 수 있습니다. 앱의 [!UICONTROL 타임시트] 영역에서 다음을 수행할 수 있습니다.
 
-* [!UICONTROL 업데이트] 영역의 Post
+* [!UICONTROL 업데이트] 영역에 게시
 * 시간 유형 조정
 * 기록한 시간 변경
 * 타임시트에 댓글 입력

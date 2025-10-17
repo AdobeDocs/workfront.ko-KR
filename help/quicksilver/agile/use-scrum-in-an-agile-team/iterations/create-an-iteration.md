@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: 반복 만들기
 description: 반복은 작업 용량 계획에서 스크럼 애자일 팀의 주요 구성 요소입니다. [!DNL Adobe Workfront] 스크럼 애자일 팀이 팀 요구 사항에 맞게 여러 반복을 만들어 작업을 관리할 수 있도록 허용합니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 0%

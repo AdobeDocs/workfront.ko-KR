@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Workfront 보드에 기존 작업 또는 문제 추가
 description: 목록 또는 보고서 보기에서 Adobe Workfront의 보드에 작업 또는 문제를 추가할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%

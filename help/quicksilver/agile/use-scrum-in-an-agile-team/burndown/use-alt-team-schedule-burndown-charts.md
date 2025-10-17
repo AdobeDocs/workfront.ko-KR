@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: 번다운 차트에 대체 팀 일정 사용
 description: ' [!DNL Adobe Workfront] 에 정의된 일정은 번다운 시 휴무(주말 및 공휴일)를 제외하여 번다운 차트에 영향을 줍니다.'
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 1%
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## 번다운 차트에 대체 팀 일정 사용
 
-1. [!DNL Workfront]일정 만들기[에 설명된 대로 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) 관리자가 이미 대체 일정을 만들었는지 확인하십시오.
+1. [!DNL Workfront]일정 만들기[에 설명된 대로 ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) 관리자가 이미 대체 일정을 만들었는지 확인하십시오.
 
 {{step1-to-team}}
 

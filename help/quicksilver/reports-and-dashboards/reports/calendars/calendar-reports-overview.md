@@ -4,10 +4,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 달력 보고서 개요
 description: 달력 보고서는 작업의 시각적 표현을 제공하는 동적 보고서입니다. 작업, 문제 및 프로젝트에 대한 날짜 정보를 달력 보고서에 표시할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 4%

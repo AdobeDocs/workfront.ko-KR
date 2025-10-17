@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: 스크럼 보드에서 스토리 순서 변경
 description: 스토리 보드에 스토리가 표시되는 순서는 우선 순위를 나타내지 않습니다. 다만, 이야기를 더 잘 보이게 함으로써 인지된 우선순위에 영향을 줄 수 있다. 기본적으로 스토리는 스토리 보드의 각 [!UICONTROL 상태] 열 내에서 알파벳 순서로 표시됩니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: 4dc2d81cd6dc4249f96925b6339fb837c4f67254
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 애자일 반복과 달리 애자일 보기에서 프로젝트를 볼 때는 스토리 순서를 변경할 수 없습니다. 프로젝트의 스토리 순서를 수정하려면 표준 보기에서 프로젝트를 봐야 합니다.
 
-프로젝트 보기를 변경하는 방법에 대한 자세한 내용은 [!UICONTROL 애자일] 보기에서 [[!UICONTROL 프로젝트 관리]를 참조하십시오](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). 애자일 보기를 선택하는 대신 표준 보기를 선택합니다.
+프로젝트 보기를 변경하는 방법에 대한 자세한 내용은 [[!UICONTROL 애자일] 보기에서 [!UICONTROL 프로젝트 관리]를 참조하십시오](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). 애자일 보기를 선택하는 대신 표준 보기를 선택합니다.

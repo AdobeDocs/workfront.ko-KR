@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: ' [!DNL Adobe Workfront] 모바일 앱에서 증명 공유 및 다운로드'
 description: 모바일 앱에서 직접 내부 및 외부 수신자와 증명 문서를 공유할 수 있습니다. 모바일 장치에 증명 문서를 다운로드할 수도 있습니다.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    다른 수신자를 추가하려면 이 단계를 반복하십시오.
 
-1. 받는 사람이 [!DNL Workfront Proof]에서 증명 문서를 열 수 있도록 하려면 **[!UICONTROL 공개 링크 보내기]**&#x200B;를 선택하세요.
+1. 받는 사람이 **[!UICONTROL 에서 증명 문서를 열 수 있도록 하려면]**&#x200B;공개 링크 보내기[!DNL Workfront Proof]를 선택하세요.
 1. 받는 사람이 증명 문서를 다운로드할 수 있도록 하려면 **[!UICONTROL 다운로드 가능한 링크 보내기]**&#x200B;를 선택하십시오.
 
    ![[!UICONTROL 공개 URL로 공유]](assets/mobile-sharepublicurl-proof-350x296.png)

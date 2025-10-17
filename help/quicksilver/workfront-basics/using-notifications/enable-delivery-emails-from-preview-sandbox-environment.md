@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: 미리보기 샌드박스 환경에서 이메일 게재 활성화
 description: 미리보기 샌드박스 환경에서 이메일 알림을 수신하려면 미리보기에 로그인하는 동안 사용자 설정에서 이 기능을 활성화해야 합니다.
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%

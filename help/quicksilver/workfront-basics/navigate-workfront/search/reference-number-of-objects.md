@@ -4,9 +4,9 @@ navigation-topic: search
 title: 참조 개체 수 사용
 description: ' [!DNL Adobe Workfront]에서 항목은 개체로 식별됩니다. 개체는 데이터베이스와 일치하며 데이터와 항목의 상관 관계를 지정하는 데 사용됩니다. 참조 번호는 다른 유사한 두 객체(예: 동일한 이름을 가진 작업)를 구별하는 데 유용합니다. 참조 번호를 검색하여 보고서에 포함할 수 있습니다.'
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%

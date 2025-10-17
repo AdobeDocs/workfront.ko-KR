@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: 반복 삭제
 description: 더 이상 필요하지 않은 경우 애자일 팀에 대한 반복을 삭제할 수 있습니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%

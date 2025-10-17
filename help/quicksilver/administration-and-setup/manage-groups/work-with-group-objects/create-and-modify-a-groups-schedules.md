@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 그룹의 일정 만들기 및 수정
 description: 그룹 영역에서 관리하는 그룹을 볼 때 그룹의 관리자 또는 하위 그룹 중 하나에 관리 액세스 권한이 있는 일정을 보고 작업할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%

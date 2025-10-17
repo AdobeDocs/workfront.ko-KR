@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: 보드에서 그룹 사용
 description: 보드에 있는 카드를 할당자나 태그로 그룹화할 수 있습니다. 그룹화 기준 옵션을 선택하면 카드가 스윔레인 형식으로 나타납니다.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%

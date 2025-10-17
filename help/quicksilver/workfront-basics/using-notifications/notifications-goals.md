@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: '알림: 목표'
 description: '알림: 목표'
-author: Lisa
+author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 2%
@@ -56,10 +56,10 @@ ht-degree: 2%
 
 ## 전제 조건
 
-* 업데이트하려는 [!DNL Goals] 알림의 사용자에게는 [!DNL Goals]기본 메뉴[!UICONTROL 의 &#x200B;] 영역을 포함하는 레이아웃 템플릿이 있어야 합니다.
+* 업데이트하려는 [!DNL Goals] 알림의 사용자에게는 [!DNL Goals]기본 메뉴[!UICONTROL 의 ] 영역을 포함하는 레이아웃 템플릿이 있어야 합니다.
 
 
-## [!DNL Goals]사용자 프로필[!UICONTROL &#x200B; 영역의 &#x200B;]개 알림
+## [!DNL Goals]사용자 프로필[!UICONTROL  영역의 ]개 알림
 
 다음 표에 나열된 알림은 [!DNL Workfront Goals]에서 발생하는 이벤트(예: 누군가 사용자에게 목표, 결과 또는 활동을 할당하거나 사용자가 소유한 목표, 결과 또는 활동을 업데이트하는 사람)에 대해 알려줍니다. 받는 알림을 구성하는 방법에 대한 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 

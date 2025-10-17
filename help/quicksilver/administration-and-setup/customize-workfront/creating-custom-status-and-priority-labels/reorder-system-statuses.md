@@ -4,11 +4,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 시스템 수준 및 그룹 상태 순서 바꾸기
 description: Workfront 관리자는 시스템의 모든 사용자 또는 단일 그룹에 대해 프로젝트, 작업 및 문제 상태의 순서를 변경할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 7%

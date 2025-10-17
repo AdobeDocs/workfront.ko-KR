@@ -5,11 +5,11 @@ keywords: 보기,그룹,이벤트,알림,구성,활성화,비활성화
 navigation-topic: create-and-manage-groups
 title: 그룹에 대한 이벤트 알림 보기 및 구성
 description: 그룹 관리자는 관리하는 그룹에 대해 활성화된 이벤트 알림을 볼 수 있습니다. 또한 Adobe Workfront 관리자가 이벤트 알림의 잠금을 해제하는 경우 관리하는 최상위 그룹에 대해 이벤트 알림을 구성할 수 있습니다. 이벤트 알림의 구성은 활성화 또는 비활성화로 구성됩니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%

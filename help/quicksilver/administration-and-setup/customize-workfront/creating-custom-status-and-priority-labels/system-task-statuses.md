@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 시스템 작업 상태
 description: Workfront에 내장된 세 가지 시스템 작업 상태가 필요합니다. 즉, 잠금을 해제하고 이름을 바꾸고 순서를 변경할 수 있지만 숨기거나 삭제할 수는 없습니다. 조직의 요구 사항에 맞게 새 시스템 작업 상태를 추가할 수도 있습니다. 작업 상태 변경은 일반적으로 수동 프로세스이지만 시스템에서 발생하는 다른 요인에 따라 작업 상태가 자동으로 변경되는 경우가 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%

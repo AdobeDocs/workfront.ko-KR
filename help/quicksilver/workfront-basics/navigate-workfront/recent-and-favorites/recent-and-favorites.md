@@ -5,10 +5,10 @@ navigation-topic: navigate-workfront
 title: ' [!DNL Adobe Workfront]의 최근 항목 및 즐겨찾기'
 description: Workfront에서 즐겨찾기 및 최근 항목 사용에 대해 알아보려면 다음 문서를 검토하십시오.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 43052270-0b2d-46af-9521-30f0d48d5ddc
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 0%

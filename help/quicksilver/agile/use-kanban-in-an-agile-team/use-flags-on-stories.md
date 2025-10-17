@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 칸반 보드의 스토리에 플래그 사용
 description: ' [!DNL Kanban] 보드에서 플래그는 스토리가 다음 상태로 이동할 준비가 되었을 때를 시각적으로 표시합니다. 이를 통해 Kanban 팀은 상태 간에 스토리를 이동할 때 "푸시" 접근 방식이 아닌 "풀" 접근 방식을 사용할 수 있습니다.'
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%

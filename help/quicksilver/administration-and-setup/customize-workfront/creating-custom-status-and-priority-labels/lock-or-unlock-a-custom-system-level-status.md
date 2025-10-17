@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: 잠김 및 잠금 해제된 시스템 수준 상태
 description: 사용자 정의 상태를 잠그는 것은 조직 전체의 사람들이 작업 흐름에서 동일한 프로세스를 사용하도록 하는 방법입니다. 상태가 잠겨 있으면 시스템의 모든 사용자가 사용할 수 있습니다. 편집하거나 삭제할 수는 있지만 그룹 관리자는 해당 그룹에 대해 이를 수행할 수 없습니다. 반대로 사용자 지정 상태 잠금을 해제하면 그룹 관리자가 그룹에서 사용되는 고유한 워크플로를 보다 유연하게 관리할 수 있습니다. 잠금 해제된 상태의 속성을 변경하거나 해당 그룹에 대해 삭제할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

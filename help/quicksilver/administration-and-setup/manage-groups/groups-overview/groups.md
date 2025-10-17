@@ -5,11 +5,11 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: groups-overview
 description: Workfront 관리자는 부서 구조와 일치하는 사용자 그룹을 만들 수 있습니다. 그룹은 팀 및 회사와 유사하지만 다릅니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%
@@ -78,6 +78,6 @@ Workfront 관리자 또는 그룹 관리자는 사용자를 그룹 및 하위 �
 
 * **일정**: 그룹의 관리자에게 일정을 수정할 수 있는 권한을 부여할 수 있습니다. 자세한 내용은 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
 * **팀**: 그룹 및 해당 하위 그룹의 관리자가 그룹 영역에서 해당 팀을 보고 작업할 수 있도록 그룹을 팀과 연결할 수 있습니다. 자세한 내용은 [팀 만들기](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) 또는 [팀 설정 편집](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)을 참조하세요.
-* **템플릿**: 그룹을 프로젝트 템플릿에 할당할 수 있습니다. 이를 통해 프로젝트 생성 프로세스를 간소화하고 어떤 그룹이 어떤 프로젝트 템플릿을 소유하는지 보다 쉽게 식별하고 보고할 수 있습니다. 자세한 내용은 [프로젝트 템플릿 편집](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) 문서의 [개요](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#overview) 섹션을 참조하십시오.
+* **템플릿**: 그룹을 프로젝트 템플릿에 할당할 수 있습니다. 이를 통해 프로젝트 생성 프로세스를 간소화하고 어떤 그룹이 어떤 프로젝트 템플릿을 소유하는지 보다 쉽게 식별하고 보고할 수 있습니다. 자세한 내용은 [프로젝트 템플릿 편집](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#overview) 문서의 [개요](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) 섹션을 참조하십시오.
 
 * **최근에 삭제되고 복원된 항목**: 최근에 삭제된 항목 그룹을 보고 관리할 수 있습니다. 자세한 내용은 [최근 삭제된 그룹 항목 보기 및 관리](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) 및 [최근 복원된 그룹 항목 보기 및 관리](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)를 참조하십시오.
