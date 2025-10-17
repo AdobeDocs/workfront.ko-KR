@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+source-git-commit: 559044c44ca8d32d010188445403b4fc1e524002
 workflow-type: tm+mt
-source-wordcount: '6583'
+source-wordcount: '6642'
 ht-degree: 5%
 
 ---
@@ -129,7 +129,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 >[!NOTE]
 >
 >그렇게 할 수도 있지만 본인이나 다른 사용자가 Workfront에서 사용자 정의 양식을 사용하기 시작한 후에는 이 이름을 변경하지 않는 것이 좋습니다. 이 필드를 선택하면 이제 Workfront의 다른 영역에서 참조될 수 있는 사용자 지정 필드가 시스템에서 더 이상 인식되지 않습니다.
->&#x200B;>예를 들어 사용자 지정 필드를 보고서에 추가하고 나중에 이름을 변경하면 Workfront은 보고서에서 이를 인식하지 못하며 새 이름을 사용하여 보고서에 다시 추가하지 않으면 제대로 작동하지 않습니다.
+>>예를 들어 사용자 지정 필드를 보고서에 추가하고 나중에 이름을 변경하면 Workfront은 보고서에서 이를 인식하지 못하며 새 이름을 사용하여 보고서에 다시 추가하지 않으면 제대로 작동하지 않습니다.
 >
 >기본 제공 Workfront 필드에 이미 사용된 이름은 입력하지 않는 것이 좋습니다.
 >
@@ -628,12 +628,12 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td role="rowheader">JSON 경로</td>
       <td><p>API에 대한 JSON 경로를 입력하거나 붙여넣습니다.</p> <p>이 옵션을 사용하면 API URL에서 반환되는 JSON에서 데이터를 추출할 수 있습니다. JSON 내에서 드롭다운 옵션에 표시할 값을 선택하는 데 사용됩니다.</p><p>예를 들어 API URL이 다음 형식으로 JSON을 반환하는 경우 "$.data[*].name"을 사용하여 미국과 캐나다를 드롭다운 옵션으로 선택할 수 있습니다.</br>
       <pre>
-      &lbrace;
-       데이터: &lbrace;
+      {
+       데이터: {
          { name: "미국"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>JSON 경로와 올바른 JSON 경로를 작성하는 방법에 대한 자세한 내용은 <a href="https://jsonpath.com/">https://jsonpath.com/</a>을(를) 참조하십시오.</p></td>
@@ -1041,6 +1041,10 @@ Planning 연결 필드를 추가하려면
    * Workfront 개체에서 레코드를 연결하거나 연결을 끊습니다.
 
    자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
+
+### UI 확장 추가
+
+UI 확장 필드 유형을 사용하여 Workfront 사용자 정의 양식에 앱을 포함할 수 있습니다. UI 확장을 만들려면 Adobe Developer Console에서 Adobe App Builder에 액세스할 수 있어야 합니다. 자세한 내용은 문서 [Workfront App Builder을 사용하여 Workfront에 대한 사용자 지정 응용 프로그램 만들기](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form)에서 [Adobe 사용자 지정 양식을 사용하여 앱 포함](/help/quicksilver/app-builder/app-builder.md)을 참조하십시오.
 
 ## 양식 디자이너를 사용하여 양식 구성 및 미리 보기
 
