@@ -7,9 +7,9 @@ description: Adobe Workfront에서 작업 항목에 로그온하는 시간은 �
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 055228fd15d670a214039575dc076ab36f6e99eb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -202,11 +202,13 @@ API 호출이나 계산된 사용자 지정 필드 또는 열의 이러한 필�
 * **실제 시간**: 2021년 5월 이후 프로젝트, 작업 또는 문제에 기록된 시간입니다. 이 매개 변수는 몇 시간 후에 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequiredDouble`입니다.
 * **기존 실제 시간**: 2021년 5월 이전을 포함하여 언제든지 프로젝트, 작업 또는 문제에 기록된 시간입니다. 분 단위로 Workfront 데이터베이스에 저장되며 해당 value 필드는 `actualWorkRequired`입니다.
 
-  >[!IMPORTANT]
-  >
-  >프로젝트의 실제 비용은 기존 실제 시간을 사용하여 계산됩니다.
+API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/help/quicksilver/wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
-  계산된 열 또는 필드에서 실제 시간을 사용하는 방법에 대한 자세한 내용은 [보고서 FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)를 참조하십시오.
+>[!IMPORTANT]
+>
+>프로젝트의 실제 비용은 기존 실제 시간을 사용하여 계산됩니다.
+
+계산된 열 또는 필드에서 실제 시간을 사용하는 방법에 대한 자세한 내용은 [보고서 FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)를 참조하십시오.
 
 ## 로그 시간
 

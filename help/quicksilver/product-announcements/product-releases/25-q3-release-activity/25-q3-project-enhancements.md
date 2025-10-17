@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -54,12 +54,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >시간이 기록된 시기에 따라 프로젝트, 작업 또는 문제에 대한 실제 시간과 레거시 실제 시간이 일치하지 않을 수 있습니다.<br>
->&#x200B;>다음과 같은 시나리오가 있습니다.
+>>다음과 같은 시나리오가 있습니다.
 >
 >* 실제 근로시간은 2021년 5월 이후 프로젝트, 작업 및 문제에 대해 기록된 시간을 나타냅니다.
 >* 기존 실제 시간은 프로젝트, 작업 또는 문제의 수명 동안 프로젝트, 작업 및 문제에 기록된 시간을 나타냅니다. 여기에는 2021년 5월 이전에 현재 시간까지 기록된 시간이 포함됩니다.
->  &#x200B;><br>새 필드 및 해당 값을 반영하도록 보고서를 업데이트해야 할 수 있습니다.
->  &#x200B;><br>Workfront은 기존 실제 시간을 사용하여 실제 인건비를 계산합니다.
+>  ><br>새 필드 및 해당 값을 반영하도록 보고서를 업데이트해야 할 수 있습니다.
+>  ><br>Workfront은 기존 실제 시간을 사용하여 실제 인건비를 계산합니다.
 
 자세한 내용은 [실제 근로시간 보기](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)를 참조하십시오.
 
@@ -71,6 +71,8 @@ ht-degree: 0%
 >* 미리보기: 2025년 후반부로 예정된 다음 API 버전 사용
 >* 프로덕션 빠른 릴리스: 2025년 말로 예정된 다음 API 버전 포함
 >* 모든 고객을 위한 프로덕션: 2025년 말로 예정된 다음 API 버전 사용
+>
+>API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/help/quicksilver/wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
 이 업데이트에서는 프로젝트, 작업 및 문제의 실제 시간을 데이터베이스에 저장하는 방식이 변경되었습니다. 이 업데이트부터 실제 시간은 `actualWorkRequiredDouble`의 valuefield(시간 단위 값 포함)를 사용합니다.
 

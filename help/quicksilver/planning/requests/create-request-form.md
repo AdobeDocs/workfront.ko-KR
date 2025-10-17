@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2643'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -45,13 +45,10 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul><li><p>모든 Workfront 패키지</p></li>
-And
-<li><p>모든 Planning 패키지</p></li></ul>
+<p>모든 Workfront 패키지 및 모든 Planning 패키지</p>
 또는
-<ul><li><p>모든 워크플로우 패키지</p></li>
-And
-<li><p>모든 Planning 패키지</p></li></ul>
+<p>모든 워크플로우 패키지 및 모든 Planning 패키지</p>
+<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오.</p>
    </td> </tr>
 
 </tr> 
@@ -256,7 +253,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
 
 <!--
  

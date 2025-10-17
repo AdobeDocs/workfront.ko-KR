@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '3875'
+source-wordcount: '3874'
 ht-degree: 2%
 
 ---
@@ -250,7 +250,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!TIP]
    >
-   >분류에 표시된 Workfront 및 AEM Assets 오브젝트 유형에 대한 타임라인에서는 레코드 크기를 조정하고 드래그 앤 드롭할 수 없습니다.
+   >분류에 표시된 Workfront 및 AEM Assets 개체 유형에 대한 타임라인에서는 레코드 크기를 조정하고 드래그 앤 드롭할 수 없습니다.
 
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [필터](#add-filters)

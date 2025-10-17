@@ -1,5 +1,5 @@
 ---
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 1%
@@ -291,7 +291,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 >
 >Workfront Planning에 액세스하기 위한 요구 사항 목록은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 > 
->Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
+>Workfront Planning에 대한 일반적인 정보는 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
 <!--Old - before Oct. 15, 2025:
 >[!IMPORTANT]
@@ -462,7 +462,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 1. **[!UICONTROL 조직]** 섹션에서 **[!UICONTROL 홈 팀]** 필드를 선택합니다. 설정을 사용자와 연결할 팀의 이름을 입력하십시오. 목록에 팀의 이름이 표시되면 클릭합니다.
 
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
 선택한 사용자가 이제 홈 팀과 연결되었습니다.
 완료 버튼과 연관된 상태를 포함하여 모든 팀 설정이 이제 이러한 사용자에게 표시됩니다.
 

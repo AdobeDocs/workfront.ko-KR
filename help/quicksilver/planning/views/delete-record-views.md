@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 Adobe Workfront Planning에서 더 이상 사용하지 않는 레코드 보기를 삭제할 수 있습니다.
 
 보기에 액세스할 수 있는 권한이 있는 모든 사용자에 대해 보기가 삭제됩니다. 삭제된 보기는 복구할 수 없습니다.
+
+레코드 종류의 원본 테이블 보기는 삭제할 수 없습니다.
 
 ## 액세스 요구 사항
 

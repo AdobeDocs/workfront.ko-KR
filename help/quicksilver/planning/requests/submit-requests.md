@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,10 @@ Workfront 사용자와 외부 사용자는 Planning 레코드 유형에 요청�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul><li><p>모든 Workfront 패키지</p></li>
-And
-<li><p>모든 Planning 패키지</p></li></ul>
+<p>모든 Workfront 패키지 및 모든 Planning 패키지</p>
 또는
-<ul><li><p>모든 워크플로우 패키지</p></li>
-And
-<li><p>모든 Planning 패키지</p></li></ul>
+<p>모든 워크플로우 패키지 및 모든 Planning 패키지</p>
+<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오.</p>
    </td> </tr>
 
 </tr> 

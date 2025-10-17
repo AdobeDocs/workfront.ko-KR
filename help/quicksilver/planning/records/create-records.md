@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '3130'
+source-wordcount: '3147'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    1. 다음 방법 중 하나를 클릭하여 레코드를 만든 다음 **계속**&#x200B;을 클릭합니다.
 
       * **수동으로 추가**. 레코드의 미리보기 상자가 열립니다.\
-        이 문서의 레코드 유형 테이블 보기[&#x200B; 섹션에서 인라인으로 추가하여 &#x200B;](#create-records-by-adding-them-inline-from-the-record-type-table-view)레코드 만들기&lbrace;6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
+        이 문서의 레코드 유형 테이블 보기[ 섹션에서 인라인으로 추가하여 ](#create-records-by-adding-them-inline-from-the-record-type-table-view)레코드 만들기{6단계부터 시작하여 에 설명된 대로 레코드에 대한 정보를 추가합니다. <!--insure this stays accurate-->
       * **파일에서 업로드**
 문서 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)에 설명된 대로 6단계부터 레코드를 추가합니다. <!--ensure this stays accurate-->
       * **요청 제출**
@@ -330,7 +330,12 @@ You can import records from other applications by linking them to existing recor
    **새 레코드** 상자가 열립니다. <!--might need a new screen shot for Production - might add a title etc-->
 
    ![이름이 지정되지 않은 레코드 표시줄이 있는 타임라인의 새 레코드 상자](assets/new-record-small-box-on-timeline.png)
+
+   >[!NOTE]
+   >
+   >레코드 막대가 명명된 그룹화에 표시되면 타임라인 보기에서 레코드를 만들 수 없습니다.
 1. 다음 정보를 업데이트합니다.
+
 
    * **이름**: 레코드 이름을 입력하십시오. 비워 두면 Workfront은 기본적으로 이름을 **제목 없음**&#x200B;으로 지정합니다.
 

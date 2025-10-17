@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 1%
+source-wordcount: '813'
+ht-degree: 0%
 
 ---
 
@@ -60,13 +60,10 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<ul><li><p>모든 Workfront 패키지</p></li>
-And
-<li><p>모든 Planning 패키지</p></li></ul>
+<p>모든 Workfront 패키지 및 모든 Planning 패키지</p>
 또는
-<ul><li><p>모든 워크플로우 패키지</p></li>
-And
-<li><p>모든 Planning 패키지</p></li></ul>
+<p>모든 워크플로우 패키지 및 모든 Planning 패키지</p>
+<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오.</p>
    </td> </tr>
 
 </tr> 
