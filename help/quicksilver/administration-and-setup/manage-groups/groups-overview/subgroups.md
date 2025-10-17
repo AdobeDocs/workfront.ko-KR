@@ -54,7 +54,7 @@ ht-degree: 0%
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-하위 그룹을 만들거나 편집할 때 하위 그룹 구성원을 그룹 관리자로 하위 그룹에 할당할 수 있습니다. 자세한 내용은 문서 [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)그룹 만들기[의 ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)을(를) 참조하십시오.
+하위 그룹을 만들거나 편집할 때 하위 그룹 구성원을 그룹 관리자로 하위 그룹에 할당할 수 있습니다. 자세한 내용은 문서 [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)그룹 만들기[의 &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)을(를) 참조하십시오.
 
 또는 하위 그룹의 관리를 상위 그룹에 할당된 그룹 관리자에게 위임할 수 있습니다. 하위 그룹을 만들면 상위 그룹의 그룹 관리자가 하위 그룹을 관리할 수 있는 자동 액세스 권한을 갖게 됩니다.
 

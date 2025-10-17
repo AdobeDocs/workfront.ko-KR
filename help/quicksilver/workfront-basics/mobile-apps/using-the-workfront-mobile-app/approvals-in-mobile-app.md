@@ -2,7 +2,7 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: ' [!DNL Adobe Workfront] 모바일 앱의 승인'
-description: '[!UICONTROL 모바일 앱의 ]승인 [!DNL Adobe Workfront]  영역에서 할당되거나 위임된 승인을 관리할 수 있습니다.'
+description: '[!UICONTROL 모바일 앱의 &#x200B;]승인 [!DNL Adobe Workfront]  영역에서 할당되거나 위임된 승인을 관리할 수 있습니다.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # [!DNL Adobe Workfront] 모바일 앱의 승인
 
-[!UICONTROL  모바일 앱의 ]승인[!DNL Adobe Workfront] 영역에서 할당되거나 위임된 승인을 관리할 수 있습니다. [!UICONTROL 승인] 영역에서 다음을 승인할 수 있습니다.
+[!UICONTROL &#x200B; 모바일 앱의 &#x200B;]승인[!DNL Adobe Workfront] 영역에서 할당되거나 위임된 승인을 관리할 수 있습니다. [!UICONTROL 승인] 영역에서 다음을 승인할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 

@@ -19,8 +19,8 @@ ht-degree: 7%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Adobe Workfront View] 시작 ](../../../workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
-* [ [!DNL Adobe Workfront View]에 프로젝트 표시](../../../workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
-* [ [!DNL Adobe Workfront View]의 프로젝트 목록 필터링](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
+* [&#x200B; [!DNL Adobe Workfront View] 시작 &#x200B;](../../../workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
+* [&#x200B; [!DNL Adobe Workfront View]에 프로젝트 표시](../../../workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
+* [&#x200B; [!DNL Adobe Workfront View]의 프로젝트 목록 필터링](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
 * [[!UICONTROL 프로젝트 세부 정보] 보기에서 위젯 업데이트](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
-* [ [!DNL Adobe Workfront View]에 업데이트 추가](../../../workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
+* [&#x200B; [!DNL Adobe Workfront View]에 업데이트 추가](../../../workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)

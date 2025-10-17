@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## 번다운 차트에 대체 팀 일정 사용
 
-1. [!DNL Workfront]일정 만들기[에 설명된 대로 ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) 관리자가 이미 대체 일정을 만들었는지 확인하십시오.
+1. [!DNL Workfront]일정 만들기[에 설명된 대로 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) 관리자가 이미 대체 일정을 만들었는지 확인하십시오.
 
 {{step1-to-team}}
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # [!UICONTROL 검토] 라이선스 사용자의 탐색 이해
 
-[!UICONTROL  관리자가 귀하에게 할당한 액세스 수준에 따라 ]주 메뉴[!DNL Adobe Workfront]가 변경됩니다. 기본적으로 액세스 수준에서 허용하는 기능을 포함하는 영역에만 액세스할 수 있습니다. 각 액세스 수준의 기본 레이아웃의 구성 요소를 이해하려면 [기본 정보 [!DNL Adobe Workfront] 레이아웃](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)을 참조하세요.
+[!UICONTROL &#x200B; 관리자가 귀하에게 할당한 액세스 수준에 따라 &#x200B;]주 메뉴[!DNL Adobe Workfront]가 변경됩니다. 기본적으로 액세스 수준에서 허용하는 기능을 포함하는 영역에만 액세스할 수 있습니다. 각 액세스 수준의 기본 레이아웃의 구성 요소를 이해하려면 [기본 정보 [!DNL Adobe Workfront] 레이아웃](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)을 참조하세요.
 
 ## [!UICONTROL 검토자]의 기본 [!UICONTROL 기본 메뉴]를 이해합니다.
 

@@ -18,7 +18,7 @@ ht-degree: 1%
 
 미리 알림 을 프로젝트, 작업, 문제, 타임시트, 템플릿, 템플릿 작업 및 반복 타임시트 프로필과 같은 여러 오브젝트 유형과 연결할 수 있습니다.
 
-미리 알림을 개체에 첨부하려면 [!DNL Adobe Workfront]미리 알림 설정[에 설명된 대로 ](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md) 관리자가 알림을 만들어야 합니다.
+미리 알림을 개체에 첨부하려면 [!DNL Adobe Workfront]미리 알림 설정[에 설명된 대로 &#x200B;](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md) 관리자가 알림을 만들어야 합니다.
 
 미리 알림을 첨부하는 단계는 첨부하는 객체 유형에 관계없이 동일합니다.
 

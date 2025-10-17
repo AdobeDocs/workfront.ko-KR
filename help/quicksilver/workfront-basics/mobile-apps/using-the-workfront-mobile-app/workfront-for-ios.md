@@ -18,7 +18,7 @@ ht-degree: 2%
 
 [!DNL Adobe Workfront] 앱을 사용하면 [!DNL iOS] 장치에서 작업에 액세스할 수 있습니다. iOS 10 이상을 실행하는 휴대폰 및 태블릿에 [!DNL Workfront] 모바일 앱을 설치하고 사용할 수 있습니다. 전용 [!DNL Workfront] 모바일 앱은 [!DNL iPhone]과(와) [!DNL iPad] 모두에서 사용할 수 있습니다.
 
-모바일 앱에 로그인하는 방법에 대한 자세한 내용은 문서 [로그인[!UICONTROL 의 ]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)Workfront[ 모바일 앱에 로그인 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) 섹션을 참조하십시오.
+모바일 앱에 로그인하는 방법에 대한 자세한 내용은 문서 [로그인[!UICONTROL 의 &#x200B;]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)Workfront[&#x200B; 모바일 앱에 로그인 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) 섹션을 참조하십시오.
 
 ## [!UICONTROL 홈]
 

@@ -87,7 +87,7 @@ ht-degree: 1%
      >[!NOTE]
      >
      >사용자를 비활성화하고 사용자와 연결된 보고서나 대시보드를 더 이상 볼 수 없는 경우 **액세스 권한** 필드로 이 보고서 실행을 업데이트해야 할 수 있습니다.\
-     >자세한 내용은 [비활성화된 사용자가 소유한 보고서에 액세스할 수 없는 이유는 무엇입니까?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)보고서 FAQ[ 문서의 ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 섹션.
+     >자세한 내용은 [비활성화된 사용자가 소유한 보고서에 액세스할 수 없는 이유는 무엇입니까?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)보고서 FAQ[&#x200B; 문서의 &#x200B;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 섹션.
 
    * 문서
    * 업데이트

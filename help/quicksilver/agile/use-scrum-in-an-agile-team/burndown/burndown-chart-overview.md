@@ -63,7 +63,7 @@ ht-degree: 0%
        <li> <p>수동으로 변경됨</p> </li> 
        <li> <p>스토리의 포인트 또는 시간이 업데이트됩니다.</p> </li> 
       </ul></li>  
-     <li>스토리의 상태가 [!UICONTROL Complete](으)로 변경되었습니다.</li> 
+     <li>스토리의 상태가 [!UICONTROL Complete] (으)로 변경되었습니다.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

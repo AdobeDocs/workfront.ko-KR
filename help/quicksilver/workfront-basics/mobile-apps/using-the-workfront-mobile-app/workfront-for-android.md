@@ -18,7 +18,7 @@ ht-degree: 3%
 
 [!DNL Adobe Workfront] 앱을 사용하면 [!DNL Android] 장치에서 작업에 액세스할 수 있습니다. [!DNL Workfront] 5.0 이상을 실행하는 휴대폰 및 태블릿에 [!DNL Android] 모바일 앱을 설치하고 사용할 수 있습니다.
 
-모바일 앱에 로그인하는 방법에 대한 자세한 내용은 문서 [로그인 [!DNL Workfront] 의 ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)모바일 앱에 로그인[모바일 앱 로그인 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) 섹션을 참조하십시오.
+모바일 앱에 로그인하는 방법에 대한 자세한 내용은 문서 [로그인 [!DNL Workfront] 의 &#x200B;](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)모바일 앱에 로그인[모바일 앱 로그인 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) 섹션을 참조하십시오.
 
 ## [!UICONTROL 홈]
 

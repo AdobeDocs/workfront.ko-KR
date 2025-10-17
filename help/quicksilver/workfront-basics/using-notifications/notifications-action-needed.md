@@ -37,7 +37,7 @@ ht-degree: 0%
    <td><strong>즉시 및</strong> <strong>매일</strong></td> 
   </tr> 
   <tr> 
-   <td> <p><strong>문서를 승인해야 합니다</strong> </p> <p>문서의 승인자가 승인자로 나열되면 알림을 받습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;승인을 제출한 사용자 이름&gt; [!UICONTROL이(가) [!DNL Adobe Workfront]에서 문서를 승인하도록 요청했습니다.]</em></p> <p>일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Action Needed] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
+   <td> <p><strong>문서를 승인해야 합니다</strong> </p> <p>문서의 승인자가 승인자로 나열되면 알림을 받습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;승인을 제출한 사용자 이름&gt; [!UICONTROL 이(가) [!DNL Adobe Workfront]에서 문서를 승인하도록 요청했습니다.]</em></p> <p>일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Action Needed] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
    <td> 프로젝트 이름<br>Portfolio 이름<br>승인을 제출한 사용자의 이름<br>문서 이름<br>문서 참조 번호<br>승인 요청한 날짜 및 시간<br>문서 세부 정보(형식, 크기, 버전 번호)<br><strong>[!UICONTROL 승인 결정]</strong> 단추<br>*보류 중인 문서 승인의 총 수<br>*<strong>[!UICONTROL 문서 승인 참조</strong>*<strong>모든 승인 참조]</strong> 단추<br>*일별 다이제스트 날짜<br></td> 
    <td><strong>즉시 및 매일</strong> </td> 
   </tr> 
@@ -58,7 +58,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p><strong>문제를 승인해야 합니다</strong> </p> <p>작업 역할 승인의 경우 이 이벤트에 대한 전자 메일 알림을 받는 사용자는 '[!UICONTROL 승인자가 프로젝트 팀에 있지 않아도 됩니다(역할을 포함하는 승인 프로세스의 경우)]' 설정이 활성화되었는지 여부(<a href="../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">[!UICONTROL 전역 승인 구성] 설정</a>에 설명된 대로)에 따라 달라집니다. </p> <p><strong>이 옵션을 사용하도록 설정하면</strong> 승인과 관련된 작업 역할이 있는 시스템의 모든 사용자에게 전자 메일 알림이 전송됩니다. </p> <p><strong>이 옵션이 비활성화되어 있으면</strong> 승인 프로세스와 연결된 작업 역할이 있는 프로젝트 팀원만 전자 메일 알림을 받습니다.</p> <p>승인이 사용자와 연관되어 있으면 해당 사용자가 알림을 받습니다. </p> <p>프로젝트 상태가 [!UICONTROL Current]인 경우에만 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 <em>[!UICONTROL 문제 승인 보류 중]: &lt;문제 이름&gt;</em>입니다.</p> <p> 일별 요약 알림의 제목은 <em> [!UICONTROL Digest of Action Needed] &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
-   <td> 문제 이름<br>프로젝트 이름<br>문제 참조 번호<br>승인을 위해 문제를 제출한 사용자의 이름<br>승인 보류 중 상태<br>승인 요청한 날짜 및 시간<br>문제 우선 순위<br>승인 단계<br>승인자의 이름<br>[!UICONTROL 문제 계획된 완료 날짜]<br>[!UICONTROL 기본 담당자]<br><strong>[!UICONTROL 승인 결정]</strong> 단추<br>*보류 중인 총 문제 승인 수<br>*<strong>[!UICONTROL 문제 승인]</strong><br><strong>[ UICONTROL *모든 승인 보기]</strong> 단추<br>*일별 요약 날짜 </td> 
+   <td> 문제 이름<br>프로젝트 이름<br>문제 참조 번호<br>승인을 위해 문제를 제출한 사용자의 이름<br>승인 보류 중 상태<br>승인 요청한 날짜 및 시간<br>문제 우선 순위<br>승인 단계<br>승인자의 이름<br>[!UICONTROL 문제 계획된 완료 날짜]<br>[!UICONTROL 기본 담당자]<br><strong>[!UICONTROL 승인 결정]</strong> 단추<br>*보류 중인 총 문제 승인 수<br>*<strong>[!UICONTROL 문제 승인]</strong><br><strong>[!UICONTROL *모든 승인 보기]</strong> 단추<br>*일별 요약 날짜 </td> 
    <td><strong>즉시 및</strong> <strong>매일</strong></td> 
   </tr> 
   <tr> 
@@ -67,12 +67,12 @@ ht-degree: 0%
    <td><strong>즉시 및 매일</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>위임된 작업 승인을 검토해야 합니다</strong> </p> <p>작업 승인이 귀하에게 위임되었으며 이를 검토해야 합니다.</p> <p>인스턴트 알림 전자 메일의 제목은 <em>[!UICONTROL 위임된 작업 승인 - ]&lt;작업 이름&gt;</em>입니다.</p> <p>일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Action Needed] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
+   <td> <p><strong>위임된 작업 승인을 검토해야 합니다</strong> </p> <p>작업 승인이 귀하에게 위임되었으며 이를 검토해야 합니다.</p> <p>인스턴트 알림 전자 메일의 제목은 <em>[!UICONTROL 위임된 작업 승인 - &#x200B;]&lt;작업 이름&gt;</em>입니다.</p> <p>일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Action Needed] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
    <td> 작업 이름<br>프로젝트 이름<br>작업 참조 번호<br>승인을 요청한 사용자의 이름<br>작업을 대신 승인하는 사용자의 이름<br>승인 보류 중 상태<br>승인 요청한 날짜 및 시간<br>작업 우선 순위<br>승인 단계<br>승인자의 이름<br>[!UICONTROL 작업 계획 완료 날짜]<br><strong>[!UICONTROL 승인 결정]</strong> 단추 <br>*총 보류 중인 작업 승인 수<br>*연결 대상 <strong>[!UICONTROL 작업 승인 *모든 승인 보기]</strong> 단추<br> 일별 요약 날짜 </td> 
    <td><strong>즉시 및 매일</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>위임된 문제 승인을 검토해야 합니다</strong> </p> <p>문제 승인이 귀하에게 위임되었으며 이를 검토해야 합니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL 위임된 문제 승인 - [문제 이름]&lt;1}</em></p> <p>일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Action Needed] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
+   <td> <p><strong>위임된 문제 승인을 검토해야 합니다</strong> </p> <p>문제 승인이 귀하에게 위임되었으며 이를 검토해야 합니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>위임된 문제 승인 - [문제 이름]&lt;1&rbrace;</em></p> <p>일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Action Needed] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
    <td> 문제 이름<br>프로젝트 이름<br>문제 참조 번호<br>승인을 요청한 사용자의 이름<br>문제를 승인하고 있는 사용자의 이름<br>승인 보류 중 상태<br>승인 요청한 날짜 및 시간<br>문제 우선 순위<br>승인 단계<br>승인자의 이름<br>문제 계획 완료 날짜<br>기본 담당자<br><strong>[!UICONTROL 승인 결정]</strong> 단추<br>*보류 중인 총 문제 승인 수<br>*<strong>[!UICONTROL 문제 승인]</strong><br><strong>[!UICONTROL 모든 승인 보기]</strong> 단추<br>*일별 요약 날짜<br></td> 
    <td><strong>즉시 및 매일</strong> </td> 
   </tr> 
@@ -102,12 +102,12 @@ ht-degree: 0%
    <td><strong>즉시</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>누군가 액세스 권한을 요청했습니다</strong> </p> <p>나한테 뭘 좀 해달라고 하니까, 켜봐.</p> <p>프로젝트를 만드는 사람이 해당 프로젝트에 액세스할 수 있습니다.</p> <p>누군가가 액세스를 요청할 때 사용자가 알림을 받게 되는 이유입니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;액세스 권한을 요청한 사용자 이름&gt; [!UICONTROL은(는) &lt;개체 이름&gt;</em>에 액세스해야 합니다.</p> <p>일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Action Needed] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
+   <td> <p><strong>누군가 액세스 권한을 요청했습니다</strong> </p> <p>나한테 뭘 좀 해달라고 하니까, 켜봐.</p> <p>프로젝트를 만드는 사람이 해당 프로젝트에 액세스할 수 있습니다.</p> <p>누군가가 액세스를 요청할 때 사용자가 알림을 받게 되는 이유입니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;액세스 권한을 요청한 사용자 이름&gt; 은(는) &lt;개체 이름&gt;</em>에 액세스해야 합니다.</p> <p>일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Action Needed] &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
    <td> <p>개체 이름<br>상위 개체 이름<br>개체 참조 번호<br>액세스를 요청한 사용자의 이름<br>사용자가 요청하는 액세스 유형입니다<br><strong>[!UICONTROL 부여] &lt;액세스 요청된 액세스 이름&gt; </strong> 및 <strong>[!UICONTROL 다른 액세스 권한 부여]</strong> 단추<br>*보류 중인 액세스 요청 승인의 총 수<br>*<strong>[!UICONTROL 액세스 요청]</strong> 승인에 대한 링크<br>*일별 다이제스트 날짜</p> </td> 
    <td><strong>즉시 및 매일</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>누군가 문서 업로드를 요청했습니다</strong> </p> <p>문서 요청자는 사용자가 문서를 업로드하라는 요청을 받으면 이메일 알림을 받습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;문서를 요청하는 사용자의 이름&gt; [!UICONTROL에는 [!DNL Workfront]에 사용자의 문서가 필요합니다.]</em></p> <p> <p>참고: 일별 요약 이메일에 대해 이 알림을 구성할 수 없습니다.</p> </p> </td> 
+   <td> <p><strong>누군가 문서 업로드를 요청했습니다</strong> </p> <p>문서 요청자는 사용자가 문서를 업로드하라는 요청을 받으면 이메일 알림을 받습니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;문서를 요청하는 사용자의 이름&gt; [!UICONTROL 에는 [!DNL Workfront]에 사용자의 문서가 필요합니다.]</em></p> <p> <p>참고: 일별 요약 이메일에 대해 이 알림을 구성할 수 없습니다.</p> </p> </td> 
    <td> 문서를 요청하는 사용자의 이름<br>문서를 업로드해야 하는 개체의 이름<br><strong>[!UICONTROL 여기에 첨부]</strong> 링크 </td> 
    <td><strong>즉시</strong> </td> 
   </tr> 

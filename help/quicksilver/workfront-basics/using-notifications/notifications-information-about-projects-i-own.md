@@ -32,7 +32,7 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>내가 소유한 프로젝트에 문서가 추가됨</strong> </p> <p>문서를 추가한 사용자가 프로젝트 소유자도 아닌 경우 프로젝트 소유자는 문서가 프로젝트에 추가될 때 이메일 알림을 받습니다.</p> <p>프로젝트 상태가 [!UICONTROL Current]이고 문서가 비공개인 경우에만 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL 문서가 &lt;프로젝트 이름&gt;</em></p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Projects You Own] &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
+   <td> <p><strong>내가 소유한 프로젝트에 문서가 추가됨</strong> </p> <p>문서를 추가한 사용자가 프로젝트 소유자도 아닌 경우 프로젝트 소유자는 문서가 프로젝트에 추가될 때 이메일 알림을 받습니다.</p> <p>프로젝트 상태가 [!UICONTROL Current]이고 문서가 비공개인 경우에만 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>문서가 &lt;프로젝트 이름&gt;</em></p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Projects You Own] &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
    <td> 프로젝트 이름<br>Portfolio 이름<br>프로젝트 참조 번호<br>문서를 추가한 사용자의 이름<br>문서 이름<br>날짜에 추가됨<br>문서 세부 정보(형식, 크기, 버전 번호)<br><strong>[!UICONTROL 미리 보기]</strong> 및 <strong>[!UICONTROL 다운로드]</strong> 단추<br>*프로젝트 이름<br>*프로젝트 참조 번호<br>*추가된 총 문서 수<br>*문서 이름<br>*문서를 추가한 사용자의 이름<br>*일별 다이제스트 날짜<br></td> 
    <td><strong>일별</strong> </td> 
   </tr> 
@@ -47,7 +47,7 @@ ht-degree: 1%
    <td><strong>일별</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>내가 소유한 프로젝트에 문제가 추가됨</strong> </p> <p>문제가 프로젝트에 추가되면 프로젝트 소유자에게 이메일 알림이 전송됩니다.</p> <p>프로젝트 상태가 [!UICONTROL Current] 또는 [!UICONTROL Planning]인 경우에만 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL 문제가 &lt;프로젝트 이름&gt;</em></p> <p> </p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Projects You Own] &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
+   <td> <p><strong>내가 소유한 프로젝트에 문제가 추가됨</strong> </p> <p>문제가 프로젝트에 추가되면 프로젝트 소유자에게 이메일 알림이 전송됩니다.</p> <p>프로젝트 상태가 [!UICONTROL Current] 또는 [!UICONTROL Planning]인 경우에만 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>문제가 &lt;프로젝트 이름&gt;</em></p> <p> </p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Projects You Own] &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
    <td> <p>프로젝트 이름<br>Portfolio 이름<br>문제 참조 번호<br>문제를 추가한 사용자의 이름<br>문제 이름<br>문제 유형<br>날짜 입력<br>문제 우선 순위<br>이름 <br>문제 상태<br>기본 담당자<br>*프로젝트 이름<br>*프로젝트 참조 번호<br>*프로젝트에 추가된 총 문제 수<br>*문제 이름<br>*문제를 추가한 사용자의 이름<br>*일일 다이제스트 날짜</p> </td> 
    <td> <p><strong>즉시</strong> </p> <p><strong>및 매일</strong> </p> </td> 
   </tr> 
@@ -67,12 +67,12 @@ ht-degree: 1%
    <td><strong>일별</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>할당 해제된 문제가 내가 소유한 프로젝트에 추가됨</strong> </p> <p>미할당 문제가 프로젝트에 추가되면 프로젝트 소유자에게 이메일 알림이 전송됩니다.</p> <p>프로젝트 상태가 [!UICONTROL Current] 또는 [!UICONTROL Planning]인 경우에만 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL [&lt;프로젝트 이름&gt;]에서 이 새로운 문제를 누구에게 할당하시겠습니까?</em></p> <p> </p> <p> 일별 요약 알림의 제목은 <em> 소유한 프로젝트의 요약 &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
+   <td> <p><strong>할당 해제된 문제가 내가 소유한 프로젝트에 추가됨</strong> </p> <p>미할당 문제가 프로젝트에 추가되면 프로젝트 소유자에게 이메일 알림이 전송됩니다.</p> <p>프로젝트 상태가 [!UICONTROL Current] 또는 [!UICONTROL Planning]인 경우에만 알림이 전송됩니다.</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[&lt;프로젝트 이름&gt;]에서 이 새로운 문제를 누구에게 할당하시겠습니까?</em></p> <p> </p> <p> 일별 요약 알림의 제목은 <em> 소유한 프로젝트의 요약 &lt;일별 요약 날짜&gt; </em>입니다.</p> </td> 
    <td> <p>프로젝트 이름<br>Portfolio 이름<br>문제 참조 번호<br>문제를 추가한 사용자의 이름<br>문제 이름<br>문제 유형<br>날짜 입력<br>문제 우선 순위<br>이름 할당(빈)<br>문제 상태<br>기본 담당자<br>*프로젝트 이름<br>*프로젝트 참조 번호<br>*추가된 총 문제 수<br>*문제 이름<br>*문제를 추가한 사용자의 이름<br>*일일 다이제스트 날짜<br></p> </td> 
    <td> <p><strong>즉시</strong> </p> <p><strong>및 매일</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>새 프로젝트의 소유자로 설정되었습니다.</strong> </p> <p>사용자가 프로젝트 소유자로 할당되면 해당 사용자는 이메일 알림을 받습니다.</p> <p>프로젝트 소유자가 할당한 사용자와 동일한 경우 이메일 알림이 전송되지 않습니다.</p> <p>[!UICONTROL Review] 라이센스가 있는 사용자는 알림을 받지 못합니다.</p> <p>할당된 항목이 있으므로 이 항목을 켜십시오. </p> <p> 할당, 공유, 액세스 권한 부여</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL You are the project owner of] &lt;프로젝트 이름&gt;</em></p> <p>이메일 알림의 본문에는 다음 텍스트가 포함되어 있습니다.<em><br></em></p> <p><em>[!UICONTROL 높음] &lt;사용자 이름&gt;,<br></em><em>&lt;사용자를 프로젝트 소유자로 할당한 사용자 이름&gt; [!UICONTROL]이(가) 사용자를] &lt;프로젝트 이름&gt;의 소유자로 만들었습니다. [!UICONTROL 프로젝트 소유자는 프로젝트 활동에 대한 추가 이메일 알림을 받거나, 프로젝트 시간을 승인해야 하거나, 프로젝트와 관련된 작업 승인에 참여할 수 있습니다. 모두 본인 것입니다.]</em> </p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Projects You Own] &lt;일별 요약 날짜&gt; </em>입니다.</p> <p> </p> </td> 
+   <td> <p><strong>새 프로젝트의 소유자로 설정되었습니다.</strong> </p> <p>사용자가 프로젝트 소유자로 할당되면 해당 사용자는 이메일 알림을 받습니다.</p> <p>프로젝트 소유자가 할당한 사용자와 동일한 경우 이메일 알림이 전송되지 않습니다.</p> <p>[!UICONTROL Review] 라이센스가 있는 사용자는 알림을 받지 못합니다.</p> <p>할당된 항목이 있으므로 이 항목을 켜십시오. </p> <p> 할당, 공유, 액세스 권한 부여</p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>[!UICONTROL You are the project owner of] &lt;프로젝트 이름&gt;</em></p> <p>이메일 알림의 본문에는 다음 텍스트가 포함되어 있습니다.<em><br></em></p> <p><em>[!UICONTROL 높음] &lt;사용자 이름&gt;,<br></em><em>&lt;사용자를 프로젝트 소유자로 할당한 사용자 이름&gt; 이(가) 사용자를&rbrack; &lt;프로젝트 이름&gt;의 소유자로 만들었습니다. [!UICONTROL 프로젝트 소유자는 프로젝트 활동에 대한 추가 이메일 알림을 받거나, 프로젝트 시간을 승인해야 하거나, 프로젝트와 관련된 작업 승인에 참여할 수 있습니다. 모두 본인 것입니다.]</em> </p> <p> 일별 요약 알림의 주제는 <em> [!UICONTROL Digest of Projects You Own] &lt;일별 요약 날짜&gt; </em>입니다.</p> <p> </p> </td> 
    <td> <p>프로젝트 이름<br>Portfolio 이름<br>프로젝트 참조 번호<br>프로젝트 완료 일자<br>*프로젝트 이름<br>*프로젝트 참조 번호<br>*일별 다이제스트 날짜</p> </td> 
    <td><strong>즉시</strong> </td> 
   </tr> 

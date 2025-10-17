@@ -90,7 +90,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    * **편집**: [그룹 세부 정보 보기 및 관리](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **복사**: [문서 ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)그룹 만들기[에서 기존 그룹 또는 하위 그룹을 복사하여 최상위 그룹을 만듭니다](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+   * **복사**: [문서 &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)그룹 만들기[에서 기존 그룹 또는 하위 그룹을 복사하여 최상위 그룹을 만듭니다](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
 
    * **삭제**: [그룹 삭제](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 

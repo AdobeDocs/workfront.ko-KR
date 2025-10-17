@@ -2,7 +2,7 @@
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Kanban 보드에 백로그 추가
-description: Kanban 보드에 [!UICONTROL 백로그] 열을 직접 표시할 수 있습니다. [!UICONTROL 보드의 ]백로그 [!DNL Kanban]  열에는  [!DNL Kanban] 보드의 백로그에서 처음 20개 항목이 포함되어 있습니다. 작업 및 문제가 백로그에 표시되려면 상태가 현재와 동일한 프로젝트에 속해 있어야 합니다.
+description: Kanban 보드에 [!UICONTROL 백로그] 열을 직접 표시할 수 있습니다. [!UICONTROL 보드의 &#x200B;]백로그 [!DNL Kanban]  열에는  [!DNL Kanban] 보드의 백로그에서 처음 20개 항목이 포함되어 있습니다. 작업 및 문제가 백로그에 표시되려면 상태가 현재와 동일한 프로젝트에 속해 있어야 합니다.
 author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # [!UICONTROL Kanban] 보드에 백로그 추가
 
-Kanban 보드에 [!UICONTROL 백로그] 열을 직접 표시할 수 있습니다. [!UICONTROL  보드의 ]백로그[!DNL Kanban] 열에는 [!DNL Kanban] 보드의 백로그에서 처음 20개 항목이 포함되어 있습니다. 작업 및 문제가 백로그에 표시되려면 상태가 [!UICONTROL 현재]와(과) 동일한 프로젝트에 속해야 합니다.
+Kanban 보드에 [!UICONTROL 백로그] 열을 직접 표시할 수 있습니다. [!UICONTROL &#x200B; 보드의 &#x200B;]백로그[!DNL Kanban] 열에는 [!DNL Kanban] 보드의 백로그에서 처음 20개 항목이 포함되어 있습니다. 작업 및 문제가 백로그에 표시되려면 상태가 [!UICONTROL 현재]와(과) 동일한 프로젝트에 속해야 합니다.
 
 ## 액세스 요구 사항
 

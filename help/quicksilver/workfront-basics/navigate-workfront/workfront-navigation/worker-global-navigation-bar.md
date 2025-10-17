@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # [!UICONTROL 작업] 라이선스 사용자의 탐색 이해
 
-[!UICONTROL  관리자가 귀하에게 할당한 액세스 수준에 따라 ]주 메뉴[!DNL Adobe Workfront]가 변경됩니다. 기본적으로 액세스 수준에서 허용하는 기능을 포함하는 영역에만 액세스할 수 있습니다. 각 액세스 수준의 기본 레이아웃의 구성 요소를 이해하려면 [기본 정보 [!DNL Adobe Workfront] 레이아웃](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)을 참조하세요.
+[!UICONTROL &#x200B; 관리자가 귀하에게 할당한 액세스 수준에 따라 &#x200B;]주 메뉴[!DNL Adobe Workfront]가 변경됩니다. 기본적으로 액세스 수준에서 허용하는 기능을 포함하는 영역에만 액세스할 수 있습니다. 각 액세스 수준의 기본 레이아웃의 구성 요소를 이해하려면 [기본 정보 [!DNL Adobe Workfront] 레이아웃](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)을 참조하세요.
 
 ## 작업자의 기본 [!UICONTROL 기본 메뉴] 이해
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 캘린더]**: 나와 공유된 캘린더가 여기에 표시됩니다. 자세한 내용은 [캘린더: 기사 색인](../../../reports-and-dashboards/reports/calendars/calendars.md)을 참조하세요.
 
-* **[!UICONTROL 팀]**: 팀에 할당된 작업 및 문제가 이 영역에 표시됩니다. 작업자는 기본적으로 [!DNL Workfront]팀[!UICONTROL  영역을 보는 유일한 ] 사용자입니다.
+* **[!UICONTROL 팀]**: 팀에 할당된 작업 및 문제가 이 영역에 표시됩니다. 작업자는 기본적으로 [!DNL Workfront]팀[!UICONTROL &#x200B; 영역을 보는 유일한 &#x200B;] 사용자입니다.
 
   자세한 내용은 [팀 만들기 및 관리](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)를 참조하십시오.
 
