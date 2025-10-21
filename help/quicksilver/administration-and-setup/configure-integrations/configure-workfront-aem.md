@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## [!DNL AEM Assets] 커넥터를 설치하기 위한 필수 구성 요소
 
-[!DNL Workfront]AEM Assets[!UICONTROL 용 ] 커넥터를 설치하려면 먼저 다음 필수 구성 요소를 충족하는지 확인하십시오.
+[!DNL Workfront]AEM Assets[!UICONTROL 용 &#x200B;] 커넥터를 설치하려면 먼저 다음 필수 구성 요소를 충족하는지 확인하십시오.
 
 * [!UICONTROL AEM Assets]이(가) 설치 및 구성되었습니다. 버전 6.5 이상 [!UICONTROL AEM Assets] 설치에 대한 자세한 내용은 [[!DNL Adobe Experience Manager] 설명서](https://experienceleague.adobe.com/en/docs/experience-manager)를 참조하세요.
 * (조건부) 방화벽 규칙이 예상대로 트래픽을 허용하지 않는 경우 클러스터의 IP 주소 및/또는 도메인을 허용 목록에 추가하다에 추가하십시오. 허용 목록에 추가하다 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->다음 지침은 [!DNL Workfront with AEM Assets]향상된 커넥터[[!DNL Workfront for Experience Manager] 로 대체된 ](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) 레거시 커넥터에 대한 것입니다. 자세한 내용은 계정 담당자에게 문의하십시오.
+>다음 지침은 [!DNL Workfront with AEM Assets]향상된 커넥터[[!DNL Workfront for Experience Manager] 로 대체된 &#x200B;](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) 레거시 커넥터에 대한 것입니다. 자세한 내용은 계정 담당자에게 문의하십시오.
 
 [!DNL Workfront for AEM Assets] 커넥터를 설치하려면 [!UICONTROL CRX 패키지 관리자]를 사용하여 커넥터를 패키지로 AEM에 가져와야 합니다.
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 커넥터 설치에 대한 자세한 내용은 [커넥터 패키지 설치 [!DNL Workfront for AEM Assets] 를 참조하십시오](#install-the-workfront-for-aem-assets-connector-package).
 
 * [전제 조건](#prerequisites)
-* [ [!DNL Workfront]과(와) AEM 통합](#integrate-aem-with-workfront)
+* [&#x200B; [!DNL Workfront]과(와) AEM 통합](#integrate-aem-with-workfront)
 * [[!UICONTROL AEM 외부화 구성]](#configure-the-aem-externalizer)
 
 ### 전제 조건 {#prerequisites}
@@ -123,7 +123,7 @@ ht-degree: 0%
 1. AEM에서 **[!UICONTROL 도구]** > **[!UICONTROL 보안]** > **[!UICONTROL 권한]**(으)로 이동합니다.
 1. 왼쪽 상단 모서리에서 &#x200B; 드롭다운 메뉴에서 **[!UICONTROL 사용자]**&#x200B;를 선택하고 *[!UICONTROL 검색]* 필드에 **[!UICONTROL workfront-service]**&#x200B;을(를) &#x200B; 입력합니다. [!UICONTROL workfront-service] 사용자를 선택하십시오.
 1. 화면 오른쪽에서 **[!UICONTROL ACE 추가]**&#x200B;를 선택하여 새 항목을 만듭니다.
-1. {&#x200B;0}새 항목 추가{1&#x200B;} 창에서 **[!UICONTROL 경로]** 필드&#x200B;의 확인란 아이콘을 선택하고 다음 폴더를 선택합니다. **[!UICONTROL /conf]****
+1. {&#x200B;0}새 항목 추가{1&#x200B;} 창에서 **[!UICONTROL 경로]** 필드&#x200B;의 확인란 아이콘을 선택하고 다음 폴더를 선택합니다. **[!UICONTROL /conf]**&#x200B;**
 1. **권한** 필드에 다음을 입력하십시오. *jcr:read*
 1. 오른쪽 상단 모서리에서 **추가**&#x200B;를 선택합니다.
 1. (선택 사항) 더 많은 항목을 만들려면 위의 단계를 반복합니다.
@@ -241,7 +241,7 @@ ht-degree: 0%
 
 ## [!DNL Workfront]과(와) 통합하도록 [!DNL AEM assets] 구성 {#configure-workfront-to-integrate-with-aem-assets}
 
-[!UICONTROL AEM Assets용 ]Workfront 설치[ 커넥터 패키지 설치[!UICONTROL 에 설명된 대로 ]AEM Assets용 Workfront](#install-the-workfront-for-aem-assets-connector-package) 커넥터를 설치하고 [!UICONTROL AEM Assets]을(를) 구성([와 통합하도록 [!UICONTROL AEM Assets 구성] 구성 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)에 설명된 대로)한 후에는 [!DNL Workfront]과(와) [!DNL Workfront] 사이에 문서를 연결하도록 [!DNL AEM Assets]을(를) 구성해야 합니다.
+[!UICONTROL AEM Assets용 &#x200B;]Workfront 설치[&#x200B; 커넥터 패키지 설치[!UICONTROL 에 설명된 대로 &#x200B;]AEM Assets용 Workfront](#install-the-workfront-for-aem-assets-connector-package) 커넥터를 설치하고 [!UICONTROL AEM Assets]을(를) 구성([와 통합하도록 [!UICONTROL AEM Assets 구성] 구성 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)에 설명된 대로)한 후에는 [!DNL Workfront]과(와) [!DNL Workfront] 사이에 문서를 연결하도록 [!DNL AEM Assets]을(를) 구성해야 합니다.
 
 1. 관리자로 Workfront에 로그인합니다.
 
@@ -277,16 +277,16 @@ ht-degree: 0%
 
 ## 커넥터를 사용할 사용자 설정 {#set-up-users-to-use-the-connector}
 
-사용자가 커넥터에 액세스하려면 AEM에 사용자 프로필이 있어야 하며 [!DNL Workfront]만들기[!UICONTROL  및 ]삭제[!UICONTROL  권한을 포함하는 액세스 수준이 있는 ] 그룹에 속해 있어야 합니다.
+사용자가 커넥터에 액세스하려면 AEM에 사용자 프로필이 있어야 하며 [!DNL Workfront]만들기[!UICONTROL &#x200B; 및 &#x200B;]삭제[!UICONTROL &#x200B; 권한을 포함하는 액세스 수준이 있는 &#x200B;] 그룹에 속해 있어야 합니다.
 
 [!DNL Workfront] 권한에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
-* [ [!DNL AEM assets]에서 사용자 설정](#set-up-users-in-aem-assets)
+* [&#x200B; [!DNL AEM assets]에서 사용자 설정](#set-up-users-in-aem-assets)
 
 ### [!DNL AEM assets]에서 사용자 설정 {#set-up-users-in-aem-assets}
 
 1. [!DNL AEM Assets]에 Workfront 관리자로 로그인합니다.
-1. **[!UICONTROL 도구]** > **{&#x200B;3}{4&#x200B;}보안** > **[!UICONTROL 사용자]**&#x200B;를 클릭합니다.****
+1. **[!UICONTROL 도구]** > **{&#x200B;3}{4&#x200B;}보안** > **[!UICONTROL 사용자]**&#x200B;를 클릭합니다.**&#x200B;**
 
 1. (조건부) 사용자에게 AEM에 사용자 프로필이 없는 경우 AEM 사용자 프로필을 만듭니다.
 
