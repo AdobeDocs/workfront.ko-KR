@@ -7,9 +7,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: e05b15bbb9e9148cc6f2940ae33f7ea9f98b7444
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Adobe Workfront에서 홈 영역을 사용하는 방법을 알아보려면 이 �
 * [[!UICONTROL 내 업데이트] 영역 사용](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [[!UICONTROL Home] 영역의 [!UICONTROL 작업 목록]에 항목 표시](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [홈 위젯 필터 개요](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+* [내 승인 위젯을 사용하여 승인 관리](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
 * [[!UICONTROL Home] 영역에서 작업 및 팀 요청 관리](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [[!UICONTROL Home] 영역에서 작업 항목 업데이트 또는 편집](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [[!UICONTROL Home] 영역에서 작업 항목 및 프로젝트 만들기](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
