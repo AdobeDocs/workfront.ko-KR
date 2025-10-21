@@ -1,5 +1,5 @@
 ---
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 1%
@@ -170,6 +170,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 ## 전제 조건 {#cc-install-prereq}
 
 사용 중인 Adobe Creative Cloud 애플리케이션에 맞는 플러그인을 설치해야 합니다.
+
 * Photoshop의 경우 [Photoshop용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)를 참조하십시오.
 * XD의 경우 [XD용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)를 참조하십시오.
 * InDesign, Illustrator, Premiere Pro 및 After Effects의 경우 [디자인 및 비디오용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)를 참조하십시오.
@@ -369,6 +370,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 ## 최신 DPV 버전 {#latest-version}
 
 **최신 버전**:
+
 * Mac: 2025년 7월 31일 현재 2.1.52
 * Windows: 2025/7/31.52
 
@@ -462,7 +464,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 1. **[!UICONTROL 조직]** 섹션에서 **[!UICONTROL 홈 팀]** 필드를 선택합니다. 설정을 사용자와 연결할 팀의 이름을 입력하십시오. 목록에 팀의 이름이 표시되면 클릭합니다.
 
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
 선택한 사용자가 이제 홈 팀과 연결되었습니다.
 완료 버튼과 연관된 상태를 포함하여 모든 팀 설정이 이제 이러한 사용자에게 표시됩니다.
 

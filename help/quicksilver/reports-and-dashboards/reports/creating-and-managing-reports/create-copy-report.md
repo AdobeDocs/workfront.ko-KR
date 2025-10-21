@@ -7,7 +7,7 @@ description: 액세스 권한이 있는 보고서의 복사본을 만들 수 있
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    ![보고서 복사](assets/unshimmed-report-actions-copy.png)
 
-   원본 보고서의 복사본이 _[원본 보고서의 이름] (복사본)_&#x200B;이라는 기본 이름으로 만들어집니다. 예를 들어 보고서 &quot;Q4 완료된 작업&quot;의 사본의 이름은 &quot;Q4 완료된 작업(복사본)&quot;으로 지정됩니다.
+   원본 보고서의 복사본이 _[원본 보고서의 이름]_ _(복사)_&#x200B;의 기본 이름으로 만들어집니다. 예를 들어 보고서 &quot;Q4 완료된 작업&quot;의 사본의 이름은 &quot;Q4 완료된 작업(복사본)&quot;으로 지정됩니다.
 
 1. (선택 사항) 보고서 이름을 바꾸려면 **보고서 동작**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다. 왼쪽 상단 모서리의 텍스트 상자에 새 이름을 입력한 다음 완료되면 **저장 + 닫기**&#x200B;를 클릭하십시오.
 
