@@ -358,7 +358,7 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
 
 1. 시스템 관리자의 경우 [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) 또는 [https://exchange.adobe.com/](https://exchange.adobe.com/)&#x200B;(으)로 이동합니다.
 
-1. **관리** > **Experience Cloud 응용 프로그램**을 클릭합니다. 제출된 앱에는 승인/거부 옵션이 표시됩니다.
+1. **관리** > **Experience Cloud 응용 프로그램**&#x200B;을 클릭합니다. 제출된 앱에는 승인/거부 옵션이 표시됩니다.
 승인되면 게시된 애플리케이션 확장은 Workfront 환경에 자동으로 로드됩니다.
 
    ![승인된 제출](assets/approve-submission.png)
