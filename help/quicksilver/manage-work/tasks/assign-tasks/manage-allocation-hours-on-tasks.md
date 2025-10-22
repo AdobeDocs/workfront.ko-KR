@@ -6,7 +6,7 @@ description: 작업에 사용자 또는 역할을 할당할 때 작업을 완료
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -14,6 +14,16 @@ ht-degree: 0%
 ---
 
 # 작업에 대한 사용자 및 역할 할당 시간 관리
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 할당 시간은 할당된 자원이 작업에 대해 작업할 계획인 총 시간을 나타냅니다. 시간은 작업 기간 동안 주어진 일 또는 평일, 주 또는 월에 사용자가 할당된 시간을 나타냅니다.
 
@@ -54,6 +64,13 @@ ht-degree: 0%
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--
+Change this sentence in the table:
+<p>Edit permissions to update allocation hours in the Edit Task box</p>
+To this:
+<p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation hours in the Edit task box in the Preview environment.</span></p>
+-->
 
 ## 작업 할당 시간을 수정하기 위한 고려 사항
 

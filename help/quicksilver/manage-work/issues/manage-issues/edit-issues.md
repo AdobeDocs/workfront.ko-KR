@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2578'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 3%
 # 문제 편집
 
 <!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 사용자가 귀하와 문제를 공유한 경우 귀하가 만든 문제 또는 다른 사용자가 만든 문제에 대한 정보를 편집할 수 있습니다.
 
@@ -238,8 +248,6 @@ ht-degree: 3%
    </ul> </td> 
      </tr>
 
-
-
    <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>문제에 대한 정보와 관련된 웹 링크를 입력합니다.</p> </td> 
@@ -262,7 +270,6 @@ ht-degree: 3%
 
    <p>기본 담당자 사용자를 추가할 때 아바타, 사용자의 기본 역할 및 이메일 주소에 따라 이름이 동일한 사용자를 구별할 수 있습니다. 사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.</p>
       <p> 사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">사용자에게 액세스 권한 부여</a>를 참조하십시오.</p>
-
 
    </td> 
      </tr> 
@@ -323,7 +330,7 @@ ht-degree: 3%
 
    ![문제 할당 섹션](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. **사람, 역할 및 팀 검색**&#x200B;을 클릭하고 작업에 할당할 사용자, 역할 또는 팀의 이름을 입력한 다음 해당 작업을 클릭하거나 목록에 표시될 때 Enter 키를 누릅니다.
+1. **사람, 역할 및 팀 검색**&#x200B;을 클릭하고 문제에 할당할 사용자, 역할 또는 팀의 이름을 입력한 다음 해당 이름을 클릭하거나 목록에 표시될 때 Enter 키를 누릅니다.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -333,9 +340,9 @@ ht-degree: 3%
    >
    >사용자 이름에 특수 문자가 포함되어 있으면 검색 필드에 특수 문자를 포함해야 합니다.
 
+   여러 사용자, 작업 역할 또는 팀을 할당할 수 있습니다. 활성 사용자, 작업 역할 및 팀만 할당할 수 있습니다.
+
    >[!TIP]
-   >
-   >여러 사용자, 작업 역할 또는 팀을 할당할 수 있습니다. 활성 사용자, 작업 역할 및 팀만 할당할 수 있습니다.
    >
    >
    >비활성화되기 전에 사용자, 작업 역할 또는 팀이 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
@@ -343,7 +350,10 @@ ht-degree: 3%
    >* 작업 항목을 활성 리소스에 재할당합니다.
    >* 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
 
-1. (선택 사항) 피할당자의 이름 위로 마우스를 이동하고 **기본 피할당자로 설정**&#x200B;을 클릭하여 피할당자가 문제에 대한 기본 피할당자인지 여부를 나타냅니다. 팀은 문제의 기본 피할당자가 될 수 없습니다.
+   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
+
+   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+
 1. 다음 필드를 업데이트합니다.
 
    <table style="table-layout:auto"> 
@@ -354,7 +364,7 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader">계획된 시간</td> 
-      <td> <p>문제의 할당자가 완료하는 데 걸리는 실제 시간입니다. 문제에 대한 계획된 시간 수를 입력합니다.<br></p> <p>참고: 문제의 계획된 시간을 변경해도 문제 계획된 완료 일자는 변경되지 않습니다. </p> </td> 
+      <td> <p>문제의 할당자가 완료하는 데 걸리는 실제 시간입니다. 문제에 대한 계획된 시간 수를 입력합니다.<br></p> <p><b>메모</b></p>  <p>문제의 계획된 시간을 변경해도 문제 계획된 완료 일자는 변경되지 않습니다. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">할당자의 역할</td> 
@@ -364,6 +374,15 @@ ht-degree: 3%
    </tr> 
     </tbody> 
    </table>
+
+   <!--
+   <div class="preview">
+   1. (Conditional) In the Preview environment, update the **Planned Hours** field
+      Or 
+      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   </div> -->
+
+1. 모든 문제에서 할당을 제거하려면 [문제 할당](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)을 참조하세요.
 
 1. **저장**&#x200B;을 클릭하거나 다음 섹션을 계속 편집하십시오.
 

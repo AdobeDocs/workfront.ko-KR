@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. **기본 정보** 섹션에서 다음 정보를 업데이트하십시오.
 
-   * **회사 이름**<!--<span class="preview">or **Name**</span>-->: 회사의 이름을 입력하십시오.
+   * **회사 이름**<!--<span class="preview"> or **Name**</span>-->: 회사의 이름을 입력하십시오.
    * **활성 상태임**: 이 옵션을 활성화하면 사용자가 회사를 찾아 만들고 편집한 프로젝트에 첨부할 수 있습니다. 비활성 회사는 프로젝트에 연결할 수 없습니다. 이 옵션은 기본적으로 활성화되어 있습니다.
    * **기본 회사입니다**<!--<span class="preview">or **Is Primary**</span>-->: 회사를 조직의 기본 회사로 할당합니다. 기본 회사는 일반적으로 대부분의 사용자가 근무하는 Workfront 계정을 나타냅니다.
 

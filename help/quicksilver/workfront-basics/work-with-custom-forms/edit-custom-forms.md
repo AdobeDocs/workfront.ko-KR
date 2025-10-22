@@ -7,9 +7,9 @@ description: 양식을 오브젝트에 첨부한 후 사용자 정의 양식에 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,11 @@ ht-degree: 0%
 
 ## 오브젝트에 대해 계산된 모든 사용자 정의 필드 다시 계산  {#recalculate-all-calculated-custom-fields-for-an-object}
 
+>[!IMPORTANT]
+>
+>이 섹션의 단계를 따르려면 계산된 필드가 오브젝트에 첨부된 사용자 정의 양식이 있어야 합니다.
+
+
 1. 사용자 정의 필드를 다시 계산하려는 오브젝트의 기본 페이지로 이동합니다.
 1. 개체 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **표현식 다시 계산**&#x200B;을 클릭합니다.
 
@@ -154,7 +159,12 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
 -->
 
-목록 또는 보고서에서 여러 객체의 사용자 정의 필드를 일괄적으로 편집하여 수동으로 다시 계산할 수 있습니다.
+사용자 정의 표현식을 다시 계산하려는 객체에 따라 다음 영역에서 다시 계산할 수 있습니다.
+
+* 개체 목록의 맨 위에 있는 기타 메뉴에서
+* 편집 상자에서 여러 객체를 일괄적으로 선택하고 편집할 때
+
+목록 또는 보고서에서 여러 객체의 사용자 정의 필드를 일괄적으로 편집하여 수동으로 다시 계산하려면 다음을 수행합니다.
 
 1. 계산된 필드가 있는 사용자 정의 양식이 포함된 개체 목록으로 이동합니다.
 1. 계산된 사용자 정의 필드를 업데이트할 오브젝트를 선택합니다.
@@ -164,17 +174,17 @@ ht-degree: 0%
 
    Workfront은 선택한 모든 객체에 대한 모든 사용자 정의 필드를 계산합니다.
 
->[!TIP]
->
->개체 목록에서 사용자 정의 표현식을 다시 계산할 수도 있습니다. 예를 들어 프로젝트 목록에서 사용자 정의 표현식을 일괄적으로 다시 계산하려면 다음을 수행합니다.
->
->1. 프로젝트 목록 또는 보고서로 이동하고 하나 또는 여러 프로젝트를 선택합니다.
->1. **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **사용자 지정 표현식 다시 계산**&#x200B;을 클릭합니다.
->
->![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
->
->Workfront은 선택한 모든 프로젝트에 대해 모든 사용자 지정 필드를 계산합니다.
->&#x200B;>모든 객체 목록에 이 기능이 있는 것은 아닙니다.
+객체 목록에서 사용자 정의 표현식을 다시 계산하려면 다음과 같이 하십시오.
+
+1. 프로젝트 목록 또는 보고서로 이동하고 하나 또는 여러 프로젝트를 선택합니다.
+1. **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **사용자 지정 표현식 다시 계산**&#x200B;을 클릭합니다.
+
+![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+Workfront은 선택한 모든 프로젝트에 대해 모든 사용자 정의 필드를 즉시 계산합니다.
+모든 객체 목록에 이 기능이 있는 것은 아닙니다.
+
+>[!NOTE]
 >
 >프로젝트의 복잡성에 따라 최적의 성능을 보장하기 위해 계산된 사용자 정의 필드를 일괄로 다시 계산할 때 많은 수의 프로젝트를 선택하지 않는 것이 좋습니다. 프로젝트를 너무 복잡하게 만들 수 있는 몇 가지 사항은 여러 종속성 또는 할당이거나 사용자 정의 필드의 수가 많을 수 있습니다.
 

@@ -6,7 +6,7 @@ description: 개별 문제를 편집하거나 문제 목록 또는 보고서에�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 1%
@@ -16,6 +16,18 @@ ht-degree: 1%
 # 목록에서 문제 편집
 
 <!--Audited: 08/2025-->
+
+<!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 개별 문제를 편집하거나 문제 목록 또는 보고서에서 문제를 편집할 수 있습니다. 이 문서에서는 목록에서 문제를 편집하는 방법에 대해 설명합니다.
 
@@ -180,7 +192,16 @@ ht-degree: 1%
 
    선택한 모든 문제에 첨부되고 편집 권한이 있는 양식의 필드만 편집할 수 있습니다.
 
+   <!--1. (Optional and conditional) Depending what environment you use to edit the issues, do one of the following to recalculate custom expressions for all issues:
+   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+
 1. (선택 사항) **사용자 지정 Forms** 영역에서 **사용자 지정 표현식 다시 계산** 옵션을 선택하여 선택한 문제에 첨부된 사용자 지정 Forms에 있는 모든 계산된 사용자 지정 필드가 최신 상태인지 확인합니다.
+
+   <!--  
+   <div class="preview">
+
+   1. In the Preview environment, with all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.
+   -->
 
    >[!IMPORTANT]
    >

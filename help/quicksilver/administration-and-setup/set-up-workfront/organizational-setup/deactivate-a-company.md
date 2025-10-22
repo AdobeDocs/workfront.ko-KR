@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 8fb17d1008b00bc0701ce6e2f06c59d020510e90
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -69,7 +69,7 @@ ht-degree: 1%
 1. 왼쪽 패널에서 **[!UICONTROL 회사]** ![회사 아이콘](assets/companies-icon-left-panel.png)을 클릭합니다.
 
 1. 비활성화하거나 다시 활성화할 회사를 하나 이상 선택하십시오.
-1. **[!UICONTROL 편집]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>--> 클릭
+1. **[!UICONTROL 편집]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">(Conditional) In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>--> 클릭
 1. 단일 회사의 경우 **[!UICONTROL 활성 상태임]** 옵션을 비활성화하여 비활성화하거나 옵션을 활성화하여 활성화하십시오. <!--ADD TO THE FRONT OF THIS SENTENCE In the Production environment, -->
 
    또는
