@@ -182,10 +182,10 @@ FROM
 >[!NOTE]
 >
 >PowerBI 또는 Tableau에서 이 쿼리를 자체 &quot;보기&quot;로 사용하는 것이 좋습니다.  `<object>_event view`에서 다른 필드를 가져오려면 이 쿼리의 출력을 `<object>_event view`(으)로 다시 조인합니다.  조인 필드는 다음과 같습니다. <br>
->>projects_event의 경우 
->>`From projects_event p`
->>`Join <above query> c on c.projectid = p.projectid  `
->>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>&#x200B;>projects_event의 경우 
+>&#x200B;>`From projects_event p`
+>&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
+>&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 
