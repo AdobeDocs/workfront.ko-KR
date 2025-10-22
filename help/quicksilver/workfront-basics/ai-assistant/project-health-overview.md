@@ -5,7 +5,7 @@ description: 프로젝트 상태 기능은 AI Assistant의 기능을 사용하�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
+source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 2%
@@ -257,7 +257,7 @@ Project Health를 활용하려면 조직에서 AI Assistant를 활성화해야 �
    >Workfront의 다른 페이지에서 AI Assistant에 액세스하는 경우 *프로젝트 상태 [프로젝트 이름]을(를) 입력할 수 있습니다.* 또는 *프로그램 [프로그램 이름]의 상태는 어떻습니까?* <br>
    >입력할 수 있는 현재 프롬프트의 전체 목록을 보려면 이 문서의 다음 섹션을 참조하십시오. [AI Assistant 프롬프트 목록](#ai-assistant-prompts-list).
 
-1. **보내기** 아이콘 ![보내기 아이콘](assets/send-icon.png)을 누르십시오. 프로젝트 상태 평가 가 생성되어 패널에 표시됩니다. 각 프로젝트 상태 평가의 맨 위에 프로젝트의 현재 상태를 반영하는 배지가 나타납니다.
+1. **보내기** 아이콘 ![보내기 아이콘](assets/send-icon.png)을 클릭합니다. 프로젝트 상태 평가 가 생성되어 패널에 표시됩니다. 각 프로젝트 상태 평가의 맨 위에 프로젝트의 현재 상태를 반영하는 배지가 나타납니다.
 
    ![프로젝트 상태 평가](assets/health-assessment.png)
 
@@ -283,7 +283,7 @@ Project Health를 활용하려면 조직에서 AI Assistant를 활성화해야 �
 
    입력할 수 있는 현재 프롬프트의 전체 목록을 보려면 이 문서의 다음 섹션을 참조하십시오. [AI Assistant 프롬프트 목록](#ai-assistant-prompts-list).
 
-1. **보내기** 아이콘 ![보내기 아이콘](assets/send-icon.png)을 누르십시오. 프로젝트 상태 평가 가 생성되어 패널에 표시됩니다.
+1. **보내기** 아이콘 ![보내기 아이콘](assets/send-icon.png)을 클릭합니다. 프로젝트 상태 평가 가 생성되어 패널에 표시됩니다.
 
    ![여러 프로젝트 평가](assets/multiple-projects-assessment.png)
 
