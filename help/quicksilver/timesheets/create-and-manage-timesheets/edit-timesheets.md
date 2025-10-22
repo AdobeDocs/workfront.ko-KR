@@ -6,7 +6,7 @@ description: 타임시트에 대한 관리 액세스 권한이 있는 사용자�
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 1%
@@ -112,8 +112,8 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader"><strong>종료 날짜</strong> </td> 
       <td> 타임시트의 종료 날짜입니다.</td> 
-     </tr>
-<tr> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>상태</strong> </td> 
       <td> 타임시트의 상태입니다.
       다음은 가능한 타임시트 상태 옵션입니다. 
@@ -121,7 +121,7 @@ ht-degree: 1%
       <li><b>제출됨</b>: 지정된 승인자에게 승인을 위해 타임시트가 제출됩니다.</li>
       <li><b>거부됨</b>: 타임시트가 승인자에 의해 승인되지 않았으므로 사용자가 시간 항목을 편집할 수 있도록 다시 사용할 수 있습니다.</li>
       <li><b>닫힘</b>: 타임시트가 사용자에 의해 닫히거나 승인자에 의해 승인되어 현재 닫힙니다. 종료된 타임시트에 시간을 추가할 수 없습니다.</li>
-   </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>승인자</strong> </td> 

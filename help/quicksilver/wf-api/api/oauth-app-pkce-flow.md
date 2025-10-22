@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -118,11 +118,8 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
   지침은 Workfront 통합을 위한 OAuth2 애플리케이션 만들기에서 PKCE를 사용하여 OAuth2 단일 페이지 웹 애플리케이션 만들기 를 참조하십시오.
 
 * 응용 프로그램에서 인증 코드 부여 형식을 사용하므로 `response_type`은(는) `code`입니다.
-
 * `redirect_uri`은(는) 사용자 에이전트가 `code`과(와) 함께 보내는 콜백 위치입니다. OAuth2 애플리케이션을 만들 때 지정한 리디렉션 URL 중 하나와 일치해야 합니다.
-
 * `code_challenge_method`은(는) 챌린지를 생성하는 데 사용되는 해시 메서드입니다. PKCE를 사용하는 Workfront Oauth2 응용 프로그램에는 항상 `S256`입니다.
-
 * `code_challenge`은(는) PKCE에 사용되는 코드 챌린지입니다.
 
 

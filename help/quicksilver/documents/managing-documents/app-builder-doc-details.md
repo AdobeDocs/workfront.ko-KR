@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -92,41 +92,56 @@ AppBuilder가 제대로 구성된 경우 새 프로젝트 만들기의 일부로
 Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 오픈 소스 CLI를 제공합니다. 설명서는 [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) 및 Adobe App Builder 지침 [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)에서 찾을 수 있습니다.
 
 1. 설치
-   1. 도구를 설치하려면(먼저 노드 v18에 있는지 확인) `npm install -g @adobe/aio-cli `을(를) 실행합니다.
+
+   1. 도구를 설치하려면(먼저 노드 v18에 있는지 확인) `npm install -g @adobe/aio-cli`을(를) 실행합니다.
 
 1. 터미널에서 인증
+
    1. 터미널을 시작하고 `aio login` 명령을 사용하여 AIO에 로그인합니다.
 
 1. 응용 프로그램 초기화
+
    1. `aio app init example-app`을(를) 실행하여 앱 설정을 시작합니다.
 
 1. 구성 선택
-   1. 제공된 옵션에서 조직 및 프로젝트를 계속 선택합니다.\
+
+   1. 제공된 옵션에서 조직 및 프로젝트를 계속 선택합니다.
+
       ![조직 선택](assets/select-org.png)
+
       ![프로젝트 선택](assets/select-project.png)
 
 1. 템플릿 선택 및 설정
+
    1. 사용 가능한 모든 템플릿을 탐색하고 프로젝트의 **@adobe/aem-cf-editor-ui-ext-tpl** 템플릿을 선택합니다.
+
       ![검색 템플릿](assets/search-template.png)
+
       ![템플릿 선택](assets/select-template.png)
 
 1. 확장 정의
+
    1. 확장 이름을 지정합니다.
    1. 확장 기능에 대한 설명 요약을 제공합니다.
    1. 시작할 초기 버전 번호를 선택합니다.
    1. **완료**&#x200B;를 선택하여 완료를 확인합니다.
-      ![확장 정의](assets/define-extension.png)
+
+   ![확장 정의](assets/define-extension.png)
 
 1. 프로젝트 폴더로 이동
+
    1. src 폴더에 액세스
+
    1. `aem-cf-editor-1` 폴더의 이름을 `workfront-doc-details-1`(으)로 바꾸십시오.
 
 1. 구성 파일 수정
+
    1. app.config.yaml 열기
    1. 줄을 `aem/cf-editor/1`에서 `workfront/doc-details/1`(으)로 업데이트합니다.
    1. 포함 경로를 `src/aem-cf-editor-1/ext.config.yaml`에서 `src/workfront-doc-details-1/ext.config.yaml`(으)로 조정합니다.
 
 1. Extension Registration 구성 요소 편집
+
    1. `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js` 열기
    1. 메서드 섹션에서 비동기 함수 `secondaryNav`이(가) 포함된 함수 `getButtons`을(를) 추가합니다.
    1. `getButtons`은(는) 다음 구조의 개체를 받아야 합니다.
@@ -317,20 +332,22 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
 게스트 애플리케이션을 Workfront 내에 로드하려면 애플리케이션을 프로덕션 작업 영역으로 푸시하고 승인을 위해 제출해야 합니다.
 
 1. 프로덕션 작업 영역에 애플리케이션 배포
-   1. `aio app use -w Production `
-   1. `aio app deploy `
+
+   1. `aio app use -w Production`
+   1. `aio app deploy`
 
 1. [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) 또는 [https://developer.adobe.com/](https://developer.adobe.com/)&#x200B;(으)로 이동합니다.
+
    1. 오른쪽 상단의 **콘솔**&#x200B;을 클릭합니다.
 
 1. AppBuilder 애플리케이션을 만드는 데 사용한 프로젝트를 찾습니다.
-
 1. 프로덕션 Workspace을 선택합니다.
+
    ![프로덕션 작업 영역 선택](assets/find-application.png)
 
 1. 비공개 검토를 위해 애플리케이션을 제출하십시오. 앱 교환 마켓플레이스에 게시하지 않는다는 경고가 표시되며, 이는 적절합니다.
-
 1. 양식(제목, 설명, 아이콘 및 검토자 참고 사항)을 채웁니다.
+
    ![개인 검토용 양식 작성](assets/submission-details.png)
 
 >[!IMPORTANT]
@@ -341,7 +358,7 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
 
 1. 시스템 관리자의 경우 [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) 또는 [https://exchange.adobe.com/](https://exchange.adobe.com/)&#x200B;(으)로 이동합니다.
 
-1. **관리** > **Experience Cloud 응용 프로그램**&#x200B;을 클릭합니다. 제출된 앱에는 승인/거부 옵션이 표시됩니다.
+1. **관리** > **Experience Cloud 응용 프로그램**을 클릭합니다. 제출된 앱에는 승인/거부 옵션이 표시됩니다.
 승인되면 게시된 애플리케이션 확장은 Workfront 환경에 자동으로 로드됩니다.
 
    ![승인된 제출](assets/approve-submission.png)

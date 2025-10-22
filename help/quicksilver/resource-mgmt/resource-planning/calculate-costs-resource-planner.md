@@ -6,7 +6,7 @@ description: 시간 또는 FTE 값 대신 비용 값을 사용하여 Adobe Workf
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 사용자, 역할 및 프로젝트에 대한 계획된 비용을 계산할 때 다음과 같은 시나리오가 있습니다.
 
-* **비용 유형**&#x200B;이(가) **사용자 시간별**&#x200B;이고 작업에 **할당이 없음**&#x200B;인 경우:
+* **비용 유형**&#x200B;이(가) **시간별 사용자**&#x200B;이고 작업에 **할당이 없음**&#x200B;인 경우:
 
    * **역할 및 사용자 계획 비용**:
 

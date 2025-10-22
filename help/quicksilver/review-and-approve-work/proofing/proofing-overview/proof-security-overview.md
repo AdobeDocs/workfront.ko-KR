@@ -7,7 +7,7 @@ description: 증명에 추가 보안 조치를 추가할 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -32,10 +32,10 @@ ht-degree: 0%
 
 >[!TIP]
 >
->로그인 프로세스를 간소화하려면 Workfront 및 Workfront 증명에서 SSO를 설정하는 것이 좋습니다. SSO 활성화에 대한 자세한 내용은 >
+>로그인 프로세스를 간소화하려면 Workfront 및 Workfront 증명에서 SSO를 설정하는 것이 좋습니다. SSO 활성화에 대한 자세한 내용은 을 참조하십시오.
+>
 >* [Workfront의 SSO(Single Sign-On): 문서 인덱스](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [Workfront Proof 사용자에 대한 SSO(Single Sign-On) 구성](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
->
 
 ## 전자 서명
 
@@ -47,6 +47,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->SSO 자격 증명으로 증명에 전자 방식으로 서명하려면 Workfront Proof에서 SSO를 설정해야 합니다. SSO 활성화에 대한 자세한 내용은 >
->* [Workfront Proof 사용자에 대한 SSO(Single Sign-On) 구성](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>SSO 자격 증명으로 증명에 전자 방식으로 서명하려면 Workfront Proof에서 SSO를 설정해야 합니다. SSO 활성화에 대한 자세한 내용은 을 참조하십시오.
 >
+>* [Workfront Proof 사용자에 대한 SSO(Single Sign-On) 구성](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)

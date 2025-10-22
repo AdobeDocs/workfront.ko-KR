@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
@@ -20,8 +20,8 @@ ht-degree: 0%
 >
 > 프로덕션 환경에서는 다음 날짜에 2018.3 릴리스를 사용할 수 있습니다(자세한 날짜 및 시간은 trust.workfront.com 참조).
 
-* *Workfront Proof 프로덕션 환경 - 11월 6일 *
-* *클러스터 2 및 4를 위한 Workfront 프로덕션 환경 *
+* *Workfront Proof 프로덕션 환경 - 11월 6일*
+* *클러스터 2 및 4용 Workfront 프로덕션 환경*
 * *클러스터 1, 3 및 5용 Workfront 프로덕션 환경*
 
 2018.3 릴리스에는 Workfront 관리자 및 기타 사용자를 위한 개선 사항이 포함되어 있습니다.

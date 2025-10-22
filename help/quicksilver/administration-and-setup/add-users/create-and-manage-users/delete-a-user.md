@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -87,7 +87,7 @@ ht-degree: 1%
      >[!NOTE]
      >
      >사용자를 비활성화하고 사용자와 연결된 보고서나 대시보드를 더 이상 볼 수 없는 경우 **액세스 권한** 필드로 이 보고서 실행을 업데이트해야 할 수 있습니다.\
-     >자세한 내용은 [비활성화된 사용자가 소유한 보고서에 액세스할 수 없는 이유는 무엇입니까?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)보고서 FAQ[&#x200B; 문서의 &#x200B;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 섹션.
+     >자세한 내용은 [비활성화된 사용자가 소유한 보고서에 액세스할 수 없는 이유는 무엇입니까?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)보고서 FAQ[ 문서의 ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 섹션.
 
    * 문서
    * 업데이트
@@ -107,19 +107,19 @@ ht-degree: 1%
    * 작업, 문제, 프로젝트, 포트폴리오
    * 대시보드
 
-<!--
+     <!--
      >[!NOTE]
      >
      >You also lose access to custom sections that contained dashboards associated to the deleted user.  
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
--->
+     -->
 
-* 업데이트
-* 시간
+   * 업데이트
+   * 시간
 
-  >[!NOTE]
-  >
-  >이러한 오브젝트는 Workfront에 남아 있지만 오브젝트 소유자는 비어 있습니다.
+     >[!NOTE]
+     >
+     >이러한 오브젝트는 Workfront에 남아 있지만 오브젝트 소유자는 비어 있습니다.
 
 * 사용자가 전역 탐색 막대의 문서 영역 아래에 있는 문서를 업로드한 경우 해당 문서도 삭제됩니다.
 * 사용자가 소유한 문서를 체크아웃하고 기본 메뉴에서 액세스할 수 있는 기본 문서 영역에 문서를 업로드하면 문서가 사용자와 함께 삭제됩니다. 문서 체크 아웃에 대한 자세한 내용은 [문서 체크 아웃](../../../documents/managing-documents/check-out-documents.md)을 참조하십시오.

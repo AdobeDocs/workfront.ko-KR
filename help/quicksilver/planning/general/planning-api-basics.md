@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -349,7 +349,7 @@ API 호출에서는 $and&quot; 및 &quot;$or&quot; 문으로 결합된 여러 �
 
 예를 들어 결과 2001-4000을 반환하려는 경우 다음 요청을 사용할 수 있습니다. 이 예에서는 2001번째 결과부터 활성 상태인 2000개의 레코드를 반환합니다.
 
-`POST /v1/records/search `
+`POST /v1/records/search`
 
 
 

@@ -6,7 +6,7 @@ description: 텍스트
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -15,14 +15,16 @@ ht-degree: 0%
 
 # Adobe Experience Manager 레거시 커넥터를 사용하여 Workfront 제거
 
-Workfront과 Adobe Experience Manager Assetsas a Cloud Service 를 연결하는 최신 기본 통합에 Workfront Adobe Experience Manager 레거시 커넥터를 제거해야 합니다.
+Workfront과 Adobe Experience Manager as a Cloud Service을 연결하는 최신 기본 통합에 대한 Workfront with Adobe Experience Manager Assets 레거시 커넥터를 제거해야 합니다.
 
 ## Workfront 구독 취소
 
 1. Adobe Experience Manager를 엽니다.
-1. Experience Manager에서 **도구** > **Cloud Service** > **Workfront 통합 구성**&#x200B;으로 이동합니다.
+1. Experience Manager에서 **도구** > **클라우드 서비스** > **Workfront 통합 구성**&#x200B;으로 이동합니다.
 1. 구성(기본적으로 global-workfront)을 선택하고 **속성**&#x200B;을 클릭합니다.
+
    ![workfront에서 구독 취소](assets/unsubscribe-from-workfront.png)
+
 1. 문서, 댓글 및 메타데이터 동기화를 비활성화합니다. 레이블은 비활성화로 설정되어야 합니다.
 이렇게 하면 Workfront의 구독이 제거되고 사용자는 Day CQ 링크 외부화에 정의된 동일한 URL을 사용하여 새 구독을 만들 수 있습니다.
 
@@ -31,6 +33,7 @@ Workfront과 Adobe Experience Manager Assetsas a Cloud Service 를 연결하는 
 구독을 제거한 후에는 이제 Workfront 통합 구성을 삭제해도 안전합니다.
 
 1. 구성을 열고 **삭제**&#x200B;를 선택합니다.
+
    ![구성 삭제](assets/delete-wf-configuration.png)
 
 ## 매핑 제거
@@ -53,7 +56,7 @@ Workfront에서 AEM Dam에 액세스하는 모든 사용자에게 `/content/dam`
 
 ## 일별 CQ 링크 외부화
 
-Day CQ 링크 외부화가 필요하지 않은 경우 `/system/console/configMgr`(으)로 이동하여 &#39;Day CQ 링크 외부화&#39;를 찾으면 이를 `localhost:4502`(으)로 되돌릴 수 있습니다.
+Day CQ 링크 외부화가 필요하지 않은 경우 `localhost:4502`(으)로 이동하여 &#39;Day CQ 링크 외부화&#39;를 찾으면 이를 `/system/console/configMgr`(으)로 되돌릴 수 있습니다.
 
 >[!NOTE]
 >

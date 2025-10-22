@@ -5,7 +5,7 @@ description: 리소스 계획의 일부로, Adobe Workfront 시나리오 플래�
 author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 1%
@@ -109,11 +109,12 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >15년 동안 리소스의 예산을 책정할 수 있습니다. 15년을 초과하는 기간 동안 프로젝트에 대한 리소스의 예산을 책정하는 경우 예산 책정 정보가 정확하지 않을 수 있습니다.
-><!--
+
+<!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >(is this still accurate for the Scenario Planner?)>
 ></MadCap:conditionalText>>
->-->
+-->
 
 1. 리소스 예산을 책정할 프로젝트로 이동합니다.
 

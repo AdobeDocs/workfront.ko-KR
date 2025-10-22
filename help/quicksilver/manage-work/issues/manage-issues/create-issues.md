@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 0%
@@ -149,7 +149,7 @@ ht-degree: 0%
 
    프로젝트 문제 목록이 표시됩니다
 
-1. 문제 목록의 맨 위에 있는 **새 문제**&#x200B;를 클릭합니다.
+1. 문제 목록의 맨 위에 있는 **새 문제**를 클릭합니다.
 새 문제 상자가 표시됩니다.
 
    ![새 문제 상자](assets/new-issue-box-matches-new-request-ui.png)
@@ -173,8 +173,9 @@ ht-degree: 0%
    >[!TIP]
    >
    >요청 유형은 대기열 세부 정보 및 대기열 주제를 만들 때뿐만 아니라 새 문제 양식에 선택 항목으로 표시할 때에도 활성화되어야 합니다. 자세한 내용은 다음 문서를 참조하십시오.
+   >
    >* [요청 큐 만들기](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [대기열 주제 만들기](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >* [대기열 주제 만들기](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 1. **새 문제** 양식에서 사용할 수 있는 필드를 계속 지정하십시오. 새 문제를 입력할 때 사용할 수 있는 필드에 대한 자세한 내용은 [문제 편집](../../../manage-work/issues/manage-issues/edit-issues.md)을 참조하세요.
 

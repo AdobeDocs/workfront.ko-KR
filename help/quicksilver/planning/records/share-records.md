@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -157,12 +157,15 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 {{step1-to-planning}}
 
 마지막으로 액세스한 작업 영역이 열립니다.
+
 1. 레코드 유형 카드를 클릭합니다.
 
    레코드 유형 페이지가 열립니다.
+
 1. (조건부) 표의 오른쪽 위 모서리에 있는 **보기** 드롭다운 메뉴에서 표 보기를 선택합니다. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.
 
    선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
+
 1. 레코드 행을 마우스 오른쪽 단추로 클릭
 
    또는

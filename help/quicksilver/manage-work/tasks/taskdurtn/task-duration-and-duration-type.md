@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1653'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 >[!BEGINSHADEBOX]
 
 **예**
-오전 9시에 시작하여 오후 12시에 끝나는 일정과 오후 2시에 시작하여 오후 4시에 끝나도록 예정된 작업이 있는 경우 작업의 기간은 0입니다.
+오전 9:00에 시작하여 오후 12:00에 끝나는 일정과 오후 2:00에 시작하여 오후 4:00에 끝나도록 예약된 작업이 있는 경우 작업의 기간은 0입니다.
 
 
 >[!ENDSHADEBOX]

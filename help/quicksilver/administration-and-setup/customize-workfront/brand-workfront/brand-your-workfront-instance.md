@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 2%
@@ -48,10 +48,8 @@ Workfront 관리자는 다음 위치에 로고가 있는 Workfront을 브랜딩�
 >[!NOTE]
 >
 >* 조직의 Workfront 인스턴스가 사용자 정의 SSO 포털을 사용하는 경우 로그인 배경 이미지 및 색상을 변경할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
-><!--
->or is enabled with Adobe IMS  >
->  >
->-->
+>
+><!-- or is enabled with Adobe IMS -->
 >
 >* Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 특정 그룹 및 사용자에 대한 Workfront을 브랜딩할 수도 있습니다. 레이아웃 템플릿의 브랜딩은 이 문서에 설명된 시스템 수준 브랜딩을 무시합니다. 레이아웃 템플릿의 브랜딩에 대한 지침은 [레이아웃 템플릿을 사용하여 Adobe Workfront 브랜딩](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)을 참조하십시오.
 
@@ -134,10 +132,8 @@ Workfront 관리자는 다음 위치에 로고가 있는 Workfront을 브랜딩�
    >[!NOTE]
    >
    >조직의 Workfront 인스턴스가 사용자 정의 SSO 포털을 사용하는 경우에는 사용할 수 없습니다.
-   ><!--   >
-   >or is enabled with Adobe IMS   >
-   >   >
-   >-->
+   >
+   ><!--  or is enabled with Adobe IMS -->
    >
    >자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
 

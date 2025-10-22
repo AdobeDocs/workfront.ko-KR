@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 517c080ed4e6096ac0a2028125d62d33b2db2359
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -31,11 +31,11 @@ in January 2022
 
 >[!NOTE]
 >
->2021년 7월 6일 이전에 생성된 통합 증명을 사용하여 EMEA 고객에게 릴리스되었습니다. 이 기능은 다음 고객을 위해 1월 13일에 시작하여 1월 17일에 종료되는 단계별 롤아웃에서 미리보기로 제공됩니다. >
+>2021년 7월 6일 이전에 생성된 통합 증명을 사용하여 EMEA 고객에게 릴리스되었습니다. 이 기능은 다음 고객을 위해 1월 13일에 시작하여 1월 17일에 종료되는 단계별 롤아웃에서 미리보기로 제공됩니다.
+>
 >* 통합 및 독립 실행형 증명 기능을 모두 갖춘 EMEA 고객
 >* 2021년 7월 6일 이후에 생성된 통합 증명 기능을 갖춘 EMEA 고객
 >* 모든 미국 고객
->
 
 Workfront과 Proof 간의 통합 경험을 제공하기 위해 검토자 및 요청자를 위한 증명 기능과 관련하여 몇 가지 사항이 개선되었습니다.
 

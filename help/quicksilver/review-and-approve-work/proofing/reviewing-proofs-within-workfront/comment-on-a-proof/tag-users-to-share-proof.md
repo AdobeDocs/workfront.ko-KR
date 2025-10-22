@@ -6,7 +6,7 @@ description: 증명 뷰어에서 증명에 댓글을 달 때 다른 사용자를
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 0%
@@ -64,10 +64,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->다음 중 하나가 참인 경우에만 이메일 주소를 사용하여 외부 공동 작업자에 태그를 지정할 수 있습니다.>
+>다음 중 하나가 참인 경우에만 이메일 주소를 사용하여 외부 공동 작업자에 태그를 지정할 수 있습니다.
+>
 >* 조직의 Workfront 계정의 사용자가 이전에 증명에 공동 작업자의 이메일 주소를 추가했습니다.
 >* 공동 작업자는 이전에 이메일 주소를 사용하여 조직의 Workfront 계정에서 증명을 구독했습니다.
->
 
 다른 사람에게 태그를 지정하고 댓글에서 증명을 공유하려면 다음을 수행하십시오.
 

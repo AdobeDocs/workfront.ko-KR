@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 1%
@@ -30,9 +30,7 @@ SAML 2.0 인증을 사용하도록 설정하고 사용자가 SAML 2.0 자격 증
 >[!NOTE]
 >
 >조직의 Workfront 인스턴스가 사용자 정의 SSO 포털을 사용하는 경우에는 사용할 수 없습니다.>
-><!--
->or is enabled with Adobe IMS>
->-->
+>
 >자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
 
 ## 액세스 요구 사항

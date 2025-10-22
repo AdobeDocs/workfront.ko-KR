@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -30,10 +30,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->홈 그룹을 조직 단위로 재구성해야 하는 경우 다음을 수행해야 합니다.
+>홈 그룹을 조직 단위로 재구성해야 하는 경우에는 다음을 수행해야 합니다
+>
 >1. [그룹 만들기](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)에 설명된 대로 새 그룹을 만듭니다.
 >1. [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)에 설명된 대로 새 그룹을 사용자의 홈 그룹으로 재할당합니다.
->
 
 ## 레이아웃 템플릿 관리
 

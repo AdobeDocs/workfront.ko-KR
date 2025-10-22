@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -26,11 +26,8 @@ ht-degree: 0%
 ## Adobe Workfront 개선 사항
 
 * [프로젝트 및 리소스 관리 개선 사항](#project-and-resource-management-enhancements)
-
 * [애자일 개선 사항](#agile-enhancements)
-
 * [모바일 개선 사항](#mobile-enhancements)
-
 * [기타 개선 사항](#other-enhancements)
 
 ### 프로젝트 및 리소스 관리 개선 사항
@@ -524,7 +521,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/ko/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
+22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ### 교육 업데이트
 
@@ -556,6 +553,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 Illustrator 및 InDesign용 [Workfront 확장](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)을(를) 업데이트된 Creative Cloud 플러그인으로 바꾸는 중입니다. 2022년 말부터 이 확장 프로그램은 Adobe Exchange에서 더 이상 설치할 수 없습니다.
 
 몇 가지 향상된 기능과 함께 이 확장 기능의 기능은 업데이트된 Creative Cloud 플러그인용 Adobe Workfront에서 사용할 수 있습니다.
+
 * [Photoshop용 Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [XD용 Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [디자인 및 비디오용 Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

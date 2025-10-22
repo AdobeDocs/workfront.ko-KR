@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -36,10 +36,10 @@ ht-degree: 0%
 이 업데이트의 결과로, Workfront은 리소스 관리 환경 설정 영역에서 선택한 항목에 따라 아래 공식을 사용하여 사용자의 가용성을 계산합니다.
 
 * 기본 일정:
-* 사용자 수용작업량 = [(일정 시간 - 일정 예외) * FTE - 휴무] * 작업 시간
+* 사용자 수용작업량 = [(일정 시간 - 일정 예외) `*` FTE - 휴무] `*` 작업 시간
 * 사용자 일정:
-* 사용자 능력 = (스케줄 시간 - 스케줄 예외 - 휴무) * 작업 시간.
+* 사용자 수용작업량 = (일정 시간 - 일정 예외 - 휴무) `*` 작업 시간.
 
-자세한 내용은 [리소스 관리 구성]기본 설정(/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하세요.
+자세한 내용은 [리소스 관리 구성[!UICONTROL 기본 설정]을 참조하세요.](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 
 [이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3415608/){target=_blank}

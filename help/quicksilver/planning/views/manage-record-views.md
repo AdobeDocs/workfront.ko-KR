@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 1%
@@ -199,11 +199,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 | 타임라인에 레코드 표시 |            | ✓ |             |
 | 레코드 필터링 | ✓ | ✓ | ✓ |
 | 달력에 레코드 표시 |           |              | ✓ |
-| 그룹 레코드 | ✓ | ✓ |
-| 레코드 정렬 | ✓ |              |
+| 그룹 레코드 | ✓ | ✓ |  |
+| 레코드 정렬 | ✓ |              |  |
 | 색상 코드 레코드 | ✓ | ✓ | ✓ |
-| 색상 코드 그룹화 |           | ✓ |
-| 특정 레코드 검색 | ✓ | ✓ |
+| 색상 코드 그룹화 |           | ✓ |  |
+| 특정 레코드 검색 | ✓ | ✓ |  |
 | 다른 사용자와 보기 공유 | ✓ | ✓ | ✓ |
 | 보기에서 레코드의 페이지를 엽니다. | ✓ | ✓ |    |
 | 연도 및 분기별 레코드 표시 |           | ✓ |    |

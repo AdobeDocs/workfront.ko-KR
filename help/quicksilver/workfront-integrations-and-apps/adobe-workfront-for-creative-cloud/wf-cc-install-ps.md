@@ -6,7 +6,7 @@ description: Adobe 마켓플레이스에서 Photoshop용 Adobe Workfront 플러�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 2%
@@ -36,16 +36,6 @@ ht-degree: 2%
  <col> 
  <col> 
  <tbody> 
-  <!--<tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
-   <td>Any</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> 
-   <p>Standard</p>
-   <p>Work or higher</p> </td> 
-  </tr> -->
   <tr> 
    <td role="rowheader">추가 제품</td> 
    <td><p>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</p></td> 
@@ -109,7 +99,7 @@ ht-degree: 2%
    >* 도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스로 이동한 다음 URL의 첫 부분을 복사합니다.\
    >![도메인 찾기](assets/domain-350x50.png)
    >
-   > * Workfront 인스턴스가 Experience Cloud과 통합된 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하도록 요청하십시오.
+   >* Workfront 인스턴스가 Experience Cloud과 통합된 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하도록 요청하십시오.
 
 1. 브라우저에서 [!DNL Workfront] 자격 증명을 입력한 다음 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다. 회사에서 SSO(Single Sign-On)를 사용하는 경우, 로그인할 SSO 공급자의 페이지로 이동합니다.
 

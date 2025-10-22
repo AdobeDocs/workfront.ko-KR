@@ -6,7 +6,7 @@ description: 기본 제공 상태 아이콘 필드를 보기의 열로 추가하
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 3%
@@ -105,7 +105,7 @@ ht-degree: 3%
 
    * *상태 아이콘*
    * *플래그*
-   * *보기 아이콘 *(문서 보기에만 해당).
+   * *보기 아이콘*(문서 보기에서만).
 
    기본 제공 아이콘은 다음 이름 아래에 나열됩니다.\
    템플릿 보기에는 **상태 아이콘** 및 **플래그** 필드가 모두 있습니다. 이 경우 두 열에는 동일한 아이콘이 포함됩니다.\
@@ -143,7 +143,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> <img src="assets/condition-update-icon-on-target-29x34.png" alt="condition_update_icon_on_target.png" style="width: 29;height: 34;">또는 <img src="assets/screen-shot-2018-08-17-at-9.49.36-am-29x37.png" alt="Screen_Shot_2018-08-17_at_9.49.36_AM.png" style="width: 29;height: 37;"><br><img src="assets/condition-update-icon--in-trouble-29x26.png" alt="condition_update_icon__in_trouble.png" style="width: 29;height: 26;"> 또는 <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-29x26.png" style="width: 29;height: 26;"><br><img src="assets/condition-update-at-risk-27x28.png" alt="condition_update_at_risk.png" style="width: 27;height: 28;"> 또는 <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-33x34.png" alt="Screen_Shot_2018-08-17_at_9.49.23_AM.png" style="width: 33;height: 34;"></td> 
-   <td>프로젝트의 상태가 [대상] (녹색), [문제 발생] (빨간색) 또는 [위험 발생] (노란색)임을 나타냅니다.<br>프로젝트 상태에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">프로젝트 상태 및 상태 형식 개요</a>를 참조하십시오.</td> 
+   <td>프로젝트의 상태가 [대상](녹색), [문제 발생](빨간색) 또는 [위험 발생](노란색)임을 나타냅니다.<br>프로젝트 상태에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">프로젝트 상태 및 상태 형식 개요</a>를 참조하십시오.</td> 
    <td>프로젝트</td> 
    <td>을(를) 클릭하여 프로젝트의 작업 목록을 엽니다. </td> 
    <td> </td> 

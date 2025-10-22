@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -53,12 +53,12 @@ ht-degree: 0%
 {{step1-to-priorities}}
 
 1. 이름을 마우스로 가리킨 다음 **자세히** ![추가 아이콘](assets/more-icon.png) 아이콘을 클릭합니다.
-1. **업로드**&#x200B;를 클릭합니다.
+1. **업로드**를 클릭합니다.
    ![업데이트, 로그 시간 및 업로드](assets/update-log-upload.png)
 1. (선택 사항) **파일 업로드** 상자에서 폴더를 선택합니다.
 1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
 또는
-**파일 추가**&#x200B;를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
+**파일 추가**를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
    ![파일 추가](assets/add-files.png)
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.
@@ -75,14 +75,19 @@ ht-degree: 0%
 1. 작업 항목 이름을 클릭하여 **개요** 페이지를 엽니다.
 1. **빠른 작업** 섹션에서 **업로드**&#x200B;를 클릭한 다음 **문서**&#x200B;를 선택합니다.
 1. (선택 사항) **파일 업로드** 상자에서 폴더를 선택합니다.
-1. 클립보드에서 붙여넣을 파일 또는 Cmd/Ctrl + V를 드래그 앤 드롭합니다.
-또는
-**파일 추가**&#x200B;를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
+1. 파일을 드래그 앤 드롭하거나 Cmd/Ctrl + V를 눌러 클립보드에서 붙여넣기
+
+   또는
+
+   **파일 추가**&#x200B;를 클릭하여 파일을 찾아보거나 Document Cloud 공급자에서 파일을 가져옵니다.
+
    ![파일 추가](assets/add-files.png)
+
 1. (선택 사항) 댓글을 추가합니다.
 1. (선택 사항) 파일을 더 추가합니다.
 
    >[!NOTE]
    >
    >추가 파일은 별도의 문서로 업로드됩니다.
+
 1. **업로드**&#x200B;를 클릭합니다.

@@ -7,7 +7,7 @@ description: 성과 값이라고도 하는 BCWP(수행된 작업의 예산 비�
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 2%
@@ -85,7 +85,7 @@ Adobe Workfront은 프로젝트 및 작업 모두에 대해 BCWP(수행된 작�
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
-프로젝트의 작업에 대한 BCWP는 시간 또는 비용을 사용하여 계산됩니다.
+   프로젝트의 작업에 대한 BCWP는 시간 또는 비용을 사용하여 계산됩니다.
 
 ## BCWP 계산
 

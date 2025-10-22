@@ -7,7 +7,7 @@ description: Adobe Workfront 관리자가 Adobe Workfront 목표에 대한 올�
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -241,9 +241,10 @@ Editing activities differs depending on which environment you use.
    ![활동 상자 편집](assets/edit-activity-box-unshimmed.png)
 
 1. 다음 정보를 편집합니다.
+
    * **활동 이름**: 활동의 이름입니다. 목표가 완료되었음을 나타내기 위해 수행해야 하는 활동을 설명하는 수사적 이름을 사용합니다.
-   * **활동 소유자:** 활동의 소유자입니다. 소유자는 활성 Workfront 사용자여야 합니다.\
-     활동 필드에 대한 자세한 내용은 [목표에 활동 추가](../results-and-activities/add-activities-to-goals.md)를 참조하십시오.
+   * **활동 소유자:** 활동의 소유자입니다. 소유자는 활성 Workfront 사용자여야 합니다.
+
+   활동 필드에 대한 자세한 내용은 [목표에 활동 추가](../results-and-activities/add-activities-to-goals.md)를 참조하십시오.
+
 1. **저장**&#x200B;을 클릭합니다.
-
-

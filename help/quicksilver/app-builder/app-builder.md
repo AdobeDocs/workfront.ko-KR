@@ -4,7 +4,7 @@ description: Adobe App Builder 기반의 Workfront UI 확장 기능을 사용하
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 0%
@@ -112,12 +112,16 @@ Adobe에서는 App Builder 애플리케이션을 만드는 데 사용할 수 있
 1. 터미널을 시작하고 `aio login` 명령을 사용하여 AIO에 로그인합니다. 올바른 IMS 조직에 로그인하는 데 문제가 있는 경우 `aio login -f`을(를) 시도하여 로그인 프롬프트를 강제로 표시하십시오. 올바른 IMS 조직에 로그인한 조직을 보려면 `aio where`을(를) 사용하십시오. 자세한 내용은 `aio config`을(를) 사용하십시오.
 1. `aio app init example-app`을(를) 실행하여 앱 설정을 시작하려면 &quot;example-app&quot;을 앱 이름으로 바꾸십시오. 앱 이름을 잘 모를 경우 `aio console project list` 명령을 사용하여 앱 이름 목록을 볼 수 있습니다.
 1. 제공된 옵션에서 조직 및 프로젝트를 선택합니다.
+
    ![명령 결과](assets/1-command-result.png)
    ![프로젝트 선택](assets/2-select-a-project.png)
 
 1. 사용 가능한 모든 템플릿을 탐색하고 프로젝트의 **@adobe/workfront-ui-ext-tpl**&#x200B;을(를) 선택하십시오.
+
    ![템플릿 선택](assets/3-choose-template.png)
+
 1. Adobe Developer Console에서 만든 프로젝트 이름을 선택하고 입력합니다.
+
    ![프로젝트 이름 선택 및 입력](assets/4-select-and-enter-project-name.png)
 
 1. 응용 프로그램에 대한 프롬프트에 응답합니다.
@@ -130,7 +134,9 @@ Adobe에서는 App Builder 애플리케이션을 만드는 데 사용할 수 있
    ![완료 선택](assets/5-select-done.png)
 
 1. 완료 를 선택하여 완료를 확인합니다. 템플릿에서 코드 생성이 진행 중입니다.
+
    ![생성 진행 중](assets/6-generation-in-process.png)
+
 1. 앱 초기화가 완료되었다는 메시지가 표시될 때까지 기다립니다. 그런 다음 IDE(Visual Studio Code 권장)에서 프로젝트를 열고 src 폴더에 액세스할 수 있습니다.
 
    프로젝트의 폴더 및 파일에 대한 자세한 내용은 [Adobe 개발자 사이트](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application)를 참조하십시오.
@@ -154,13 +160,13 @@ Workfront 기본 메뉴에서 사용자 지정 응용 프로그램을 허용하�
 ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드는 템플릿에서 만들었습니다. 이 코드를 추가하여 추가 메뉴 항목을 만들 수 있습니다. ID 및 URL을 바꾸십시오.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    반환 &lbrack;
+    반환 [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -170,18 +176,20 @@ ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드�
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. 다음 코드 조각을 추가합니다.
-   ![코드 조각 &#x200B;](assets/7-extension-registration-step1-from-sam.png)
-이 예에서는 메인 메뉴 항목을 보여 줍니다. ID, 레이블, 아이콘 및 URL을 애플리케이션에 적합한 이름으로 업데이트해야 합니다. 여러 항목을 추가할 때 ID가 고유한지 확인합니다.
+
+   ![코드 조각 ](assets/7-extension-registration-step1-from-sam.png)
+
+   이 예에서는 메인 메뉴 항목을 보여 줍니다. ID, 레이블, 아이콘 및 URL을 애플리케이션에 적합한 이름으로 업데이트해야 합니다. 여러 항목을 추가할 때 ID가 고유한지 확인합니다.
 
 1. 작업 내용을 저장합니다.
 
@@ -193,7 +201,7 @@ Workfront 왼쪽 패널 탐색에서 사용자 정의 애플리케이션을 허�
 1. ExtensionRegistration 함수에서 다음 코드 조각을 추가합니다.
 
    ```
-   secondaryNav: {  
+   secondaryNav: {
    
    TASK: {  
    
@@ -215,7 +223,6 @@ Workfront 왼쪽 패널 탐색에서 사용자 정의 애플리케이션을 허�
    ![확장 등록](assets/8-extension-registration-file-step2.png)
 
    * 이 예에서는 내 작업이라는 왼쪽 패널 탐색 항목을 보여 줍니다. ID, 레이블, 아이콘 및 URL을 애플리케이션에 적합한 이름으로 업데이트해야 합니다.
-
    * 이 예제에서는 프로젝트 객체 유형에 대한 왼쪽 패널 탐색 항목을 보여 줍니다. Workfront에서 이러한 항목이 지원되는 각 개체에 대해 별도로 만들어야 합니다. 프로젝트, 작업, 문제, 포트폴리오 및 프로그램 등의 개체를 사용할 수 있습니다.
 
 1. 작업 내용을 저장합니다.
@@ -410,7 +417,7 @@ dimensions: {
 
 Workfront의 UI 확장 기능은 사용자 데이터를 공유합니다. 공유 컨텍스트를 통해 사용할 수 있는 사용자 개체에는 Workfront 사용자 ID와 사용자의 이메일 주소가 포함됩니다.
 
-`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email `
+`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email`
 
 ### 애플리케이션 컨텍스트
 
@@ -418,7 +425,7 @@ Workfront의 UI 확장 기능은 사용자 데이터를 공유합니다. 공유 
 
 다음은 문서에 대한 응용 프로그램 컨텍스트를 가져오는 예제입니다.
 
-`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails); `
+`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails);`
 
 ## Workfront에서 앱 테스트
 

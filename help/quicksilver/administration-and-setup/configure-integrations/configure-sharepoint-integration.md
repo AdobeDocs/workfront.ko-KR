@@ -5,10 +5,10 @@ product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 description: ' [!DNL Workfront] 을(를)  [!DNL SharePoint] 온라인과 통합하여 사용자에게 Workfront 내에서  [!DNL SharePoint] 문서로 이동하고, 연결하고, 추가할 수 있는 기능을 제공할 수 있습니다. 제공된 기능은 다른  [!DNL Workfront] 문서 통합의 기능과 유사합니다.'
 author: Becky
-feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
+feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -170,7 +170,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL 클라우드 공급자]**&#x200B;를 선택하십시오.
-1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint] (Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
+1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint](Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL [!DNL SharePoint]통합]**&#x200B;을 선택합니다.
 1. 기존의 모든 통합에 대해 목록의 왼쪽에 있는 확인 표시를 선택한 다음 **[!UICONTROL 사용 안 함]**&#x200B;을 선택합니다.

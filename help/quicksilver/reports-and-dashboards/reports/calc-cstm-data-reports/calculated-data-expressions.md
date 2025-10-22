@@ -7,7 +7,7 @@ description: 데이터 표현식을 사용하여 Adobe Workfront에서 계산된
 author: Jenny, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%
@@ -59,7 +59,7 @@ For example:
 * 사용자 정의 필드의 작업에 대한 사용자 정의 양식에서 다음을 사용하여 사용자 정의 양식이 첨부된 작업의 상위 프로젝트 이름을 생성합니다.
 
 
-  ` {project}.{name}`
+  `{project}.{name}`
 
 
 * 보고서의 사용자 정의 열에서 다음을 사용하여 작업 보고서에 프로젝트 이름 사용자 정의 열을 추가합니다.

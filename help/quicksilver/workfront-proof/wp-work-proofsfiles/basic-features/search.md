@@ -8,7 +8,7 @@ description: Workfront Proof 사이트에서 콘텐츠를 검색할 수 있습�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%
@@ -46,11 +46,14 @@ ht-degree: 1%
 
 1. (선택 사항) 표시되는 검색 결과에서 열 상단의 헤더를 클릭하여 열별로 정렬합니다. (선택 사항) 머리글 행 끝에 있는 [!UICONTROL 검색] 아이콘을 클릭하여 결과 결과에 필터링을 추가합니다. ![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png)
 
-드롭다운 메뉴를 추가하여 필터를 선택하여 검색 범위를 좁힐 수 있습니다.
-1. ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+   드롭다운 메뉴를 추가하여 필터를 선택하여 검색 범위를 좁힐 수 있습니다.
 
-1. (선택 사항) [!UICONTROL 태그] 탭을 열고 왼쪽의 탐색 사이드바에서 태그를 클릭하여 검색 범위를 좁힙니다. 해당 태그와 연관된 항목이 검색 결과에 나타납니다.\
-   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)\
+   ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+
+1. (선택 사항) [!UICONTROL 태그] 탭을 열고 왼쪽의 탐색 사이드바에서 태그를 클릭하여 검색 범위를 좁힙니다. 해당 태그와 연관된 항목이 검색 결과에 나타납니다.
+
+   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)
+
    태그 이름은 Workfront Proof의 오른쪽 위 모서리에 있는 검색 필드에 나타납니다. 추가 태그를 선택하거나 검색 필드에 추가 키워드를 입력하여 검색을 구체화할 수 있습니다. 태그 이름 옆에 있는 x 아이콘을 클릭하여 검색 필드에서 태그를 제거할 수 있습니다.
 
 증명 콘텐츠에서 텍스트를 검색하는 방법에 대한 자세한 내용은 [증명 내 콘텐츠 검색](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)을 참조하십시오.

@@ -5,7 +5,7 @@ description: Adobe Workfront의 AI Assistant에 대해 알아보기
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 1%
@@ -149,7 +149,7 @@ Adobe Gen AI 계약을 요청하려면
 | 키워드 | 효과 |
 |---|---|
 | `workfront` | Workfront과 상호 작용합니다. |
-| `planning ` | Workfront Planning과 상호 작용합니다. |
+| `planning` | Workfront Planning과 상호 작용합니다. |
 | `help` | Experience League 설명서에서 정보를 반환합니다. |
 | `formula` | Planning, Setup 또는 사용자 정의 양식에서 사용할 공식을 확인하고 반환합니다. |
 | `health` | 프로젝트 상태 관리자를 사용하여 프로젝트 상태를 확인합니다. |

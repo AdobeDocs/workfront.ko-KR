@@ -6,7 +6,7 @@ description: 문제가 제출된 후 문제를 완료하기 위해 추가 작업
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 1%
@@ -171,8 +171,8 @@ ht-degree: 1%
 | 문제 필드 | 프로젝트 또는 작업 필드 | 프로젝트 목록 또는 보고서 | 프로젝트 세부 정보 영역 | 작업 목록 또는 보고서 | 작업 세부 정보 영역 |
 |---|---|---|---|---|---|
 | [!UICONTROL 문제 이름] | [!UICONTROL 전환된 문제 이름] | ✔ | ✔ | ✔ | ✔ |
-| [!UICONTROL 기본 연락처] | [!UICONTROL 전환된 문제 작성자 이름] | ✔ | ✔ | ✔ |
-| [!UICONTROL 시작 날짜] | [!UICONTROL 전환된 문제 입력 일자] | ✔ |  | ✔ |
+| [!UICONTROL 기본 연락처] | [!UICONTROL 전환된 문제 작성자 이름] | ✔ | ✔ | ✔ |  |
+| [!UICONTROL 시작 날짜] | [!UICONTROL 전환된 문제 입력 일자] | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]
