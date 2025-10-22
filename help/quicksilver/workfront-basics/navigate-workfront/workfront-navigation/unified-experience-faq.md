@@ -53,7 +53,7 @@ ht-degree: 0%
 
 [!DNL Admin Console]에 대한 자세한 내용은 다음 문서를 검토하십시오.
 
-* [ [!DNL Adobe Admin Console] 준비](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+* [&#x200B; [!DNL Adobe Admin Console] 준비](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
 * [플랫폼 기반 관리의 차이점([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
 * [[!DNL Adobe Admin Console] 개요](https://helpx.adobe.com/enterprise/using/admin-console.html)
 
@@ -119,7 +119,7 @@ IMS는 SSO를 대체하는 것으로 기능은 대부분 동일합니다. [!DNL 
 
 ### [!DNL Workfront] 인스턴스에 외부 사용자가 포함되어 있습니다. [!DNL Adobe]에 포함된 다른 제품에 액세스하지 못하도록 할 수 있습니다. 콘솔 내에서 액세스를 어떻게 제한합니까?
 
-[!DNL Admin Console]은(는) 관리자에게 사용자가 액세스할 수 있는 권한과 액세스할 수 없는 권한을 다양하게 제공합니다. 외부 사용자가 액세스할 때마다 관리자에게 전자 메일을 보내는 [!DNL Adobe] ID를 만들어야 합니다. 그런 다음 관리자는 제품에 대한 액세스를 수락 또는 거부하고 해당 조직이 소유한 제품에 대해 액세스할 수 있거나 액세스할 수 없는 항목을 정의할 수 있습니다. 그런 다음 [!DNL Workfront] 시스템 관리자는 [!UICONTROL 의 ]사용자[!DNL Workfront] 영역으로 이동하여 외부 사용자에 대해 더 세분화된 권한을 만들 수 있습니다.
+[!DNL Admin Console]은(는) 관리자에게 사용자가 액세스할 수 있는 권한과 액세스할 수 없는 권한을 다양하게 제공합니다. 외부 사용자가 액세스할 때마다 관리자에게 전자 메일을 보내는 [!DNL Adobe] ID를 만들어야 합니다. 그런 다음 관리자는 제품에 대한 액세스를 수락 또는 거부하고 해당 조직이 소유한 제품에 대해 액세스할 수 있거나 액세스할 수 없는 항목을 정의할 수 있습니다. 그런 다음 [!DNL Workfront] 시스템 관리자는 [!UICONTROL 의 &#x200B;]사용자[!DNL Workfront] 영역으로 이동하여 외부 사용자에 대해 더 세분화된 권한을 만들 수 있습니다.
 
 ### 그룹 관리자는 [!DNL Workfront]에서 사람을 만드는 데 사용됩니다. [!DNL Experience Cloud]&#x200B;(으)로 이동하면 그룹 관리자가 여전히 사람을 만들 수 있습니까?
 
