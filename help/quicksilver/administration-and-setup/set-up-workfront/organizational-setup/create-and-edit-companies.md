@@ -141,11 +141,11 @@ ht-degree: 0%
 
    사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
-1. (조건부) 회사를 만드는 경우 **[!UICONTROL 회사 만들기]**<span class="preview"> 또는**&#x200B;저장&#x200B;**을 클릭합니다.</span>
+1. (조건부) 회사를 만드는 경우 **[!UICONTROL 회사 만들기]**<span class="preview"> 또는&#x200B;**&#x200B;저장&#x200B;**&#x200B;을 클릭합니다.</span>
 
    또는
 
-   기존 회사를 편집하는 경우 **[!UICONTROL 변경 내용 저장]**<span class="preview">이나**&#x200B;저장&#x200B;**을 클릭합니다.</span>
+   기존 회사를 편집하는 경우 **[!UICONTROL 변경 내용 저장]**<span class="preview">이나&#x200B;**&#x200B;저장&#x200B;**&#x200B;을 클릭합니다.</span>
 
 ## 회사 멤버십 관리
 
