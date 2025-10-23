@@ -7,9 +7,9 @@ description: 승인된 휴무는 일정에 영향을 주고 할당된 작업의 
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 95cc394c3e1aa0ee5713e981030a96e27dd1f183
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있으며 프로덕션에 단계적으로 롤아웃할 때 릴리스됩니다.</span>
 
 [!DNL Adobe Workfront]은(는) 개인 휴무를 관리, 계산 및 추적하기 위해 기존 시스템을 복제하거나 대체하도록 설계되지 않았습니다.
 
@@ -79,10 +79,10 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **[!UICONTROL 휴무]**&#x200B;를 클릭합니다.
 1. 개인 휴무에 대해 원하는 날짜를 선택합니다.
 
-   <!--<span class="preview">Sample image in the Preview environment:</span>
-   ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)-->
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+   ![개인 휴무 일정](assets/personal-time-off-calendar-0925.png)
 
-   <!--Sample image in the Production environment:-->
+   프로덕션 환경의 샘플 이미지:
    ![개인 휴무 일정](assets/personal-time-off-calendar.png)
 
 1. 하루 종일 쉬려면 **[!UICONTROL 하루 종일]**&#x200B;을 선택하세요.

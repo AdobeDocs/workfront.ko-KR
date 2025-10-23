@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있으며 프로덕션에 단계적으로 롤아웃할 때 릴리스됩니다.</span>
 
 Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 사용자 환경 설정을 재설정하거나 제거할 수 있습니다.
 
@@ -57,61 +57,67 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
 
 사용자 환경 설정을 재설정하면 일부 환경 설정은 시스템 기본값으로 되돌려지고 다른 환경 설정은 지워지거나 제거됩니다.
 
+<!--
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>환경 설정</strong> </th> 
-   <th><strong>재설정 후 상태</strong> </th> 
+   <th><strong>Preference</strong> </th> 
+   <th><strong>Status after the reset</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>보기 횟수</td> 
-   <td> <p> 시스템 기본값으로 되돌림</p> <p>기존 보기는 삭제되지 않습니다. 다시 선택할 수 있습니다.</p> </td> 
+   <td>Views</td> 
+   <td> <p> Reverted to the system default</p> <p>Existing views are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>필터</td> 
-   <td> <p>시스템 기본값으로 되돌림</p> <p>기존 필터는 삭제되지 않습니다. 다시 선택할 수 있습니다.</p> </td> 
+   <td>Filters</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing filters are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>그룹화</td> 
-   <td> <p>시스템 기본값으로 되돌림</p> <p>기존 그룹화는 삭제되지 않습니다. 다시 선택할 수 있습니다.</p> </td> 
+   <td>Groupings</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing groupings are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>최근 항목 목록</td> 
-   <td>지워짐</td> 
+   <td>Recent Items list</td> 
+   <td>Cleared</td> 
   </tr> 
   <tr> 
-   <td>즐겨찾기 목록</td> 
-   <td>영향을 받지 않음</td> 
+   <td>Favorites list</td> 
+   <td>Unaffected</td> 
   </tr> 
   <tr> 
-   <td>사용자 환경 설정</td> 
-   <td> <p>시스템 기본값으로 되돌림</p> <p>이메일 알림은 시스템 기본값으로 되돌아갑니다. 기본 알림은 Adobe Workfront에서 사용할 수 있는 <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">이벤트 알림</a>에 나열됩니다.</p> </td> 
+   <td>User Preferences</td> 
+   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults. The default notifications are listed in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Event notifications available in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>사용자 정의 탭</td> 
-   <td>제거됨</td> 
+   <td>User-Defined Custom Tabs</td> 
+   <td>Removed</td> 
   </tr> 
   <tr> 
-   <td>사용자 정의 전역 탐색 옵션</td> 
-   <td>레이아웃 템플릿 정의 또는 레이아웃 템플릿이 할당되지 않은 경우 시스템 기본값으로 다시 설정합니다.</td> 
+   <td>User-Defined Global Navigation Options</td> 
+   <td>Set back to layout template definition, or system default if no layout template is assigned.</td> 
   </tr> 
  </tbody> 
 </table>
-
-<!-- Display this table and hide the HTML table above, when the unshim is released.
-| Preference | Status after the reset |
-| --- | --- |
-| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
-| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
-| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
-| Recent items list | Cleared |
-| Favorites list | Unaffected |
-| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
 -->
+
+<!--Display this table and hide the HTML table above, when the unshim is released.-->
+
+<div class="preview">
+
+| 환경 설정 | 재설정 후 상태 |
+| --- | --- |
+| 보기 횟수 | 시스템 기본값으로 되돌림 <p>기존 보기는 삭제되지 않습니다. 다시 선택할 수 있습니다.</p> |
+| 필터 | 시스템 기본값으로 되돌림 <p>기존 필터는 삭제되지 않습니다. 다시 선택할 수 있습니다.</p> |
+| 그룹화 | 시스템 기본값으로 되돌림 <p>기존 그룹화는 삭제되지 않습니다. 다시 선택할 수 있습니다.</p> |
+| 최근 항목 목록 | 지워짐 |
+| 즐겨찾기 목록 | 영향을 받지 않음 |
+| 사용자 환경 설정 | 시스템 기본값으로 되돌림 <p>이메일 알림은 시스템 기본값으로 되돌아갑니다. 기본 알림은 Adobe Workfront에서 사용할 수 있는 [이벤트 알림](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)에 나열됩니다.</p> |
+
+</div>
 
 ## 사용자 환경 설정 재설정
 
@@ -141,9 +147,13 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
      >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. **Enter**&#x200B;를 누릅니다.
-1. 모든 사용자 환경 설정을 재설정하려면 **재설정**&#x200B;을 선택하세요.
 
-   <!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
-또는
+<div class="preview">
 
-   사용자 지정 탭만 재설정하려면 **탭 재설정**&#x200B;을 선택하세요.
+1. 모든 사용자 환경 설정을 다시 설정하려면 **다시 설정**&#x200B;을 클릭하세요.
+
+   또는
+
+   사용자 지정 탭만 다시 설정하려면 **왼쪽 탐색 다시 설정**&#x200B;을 클릭하세요.
+
+</div>

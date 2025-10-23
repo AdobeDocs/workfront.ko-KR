@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있으며 프로덕션에 단계적으로 롤아웃할 때 릴리스됩니다.</span>
 
 회사는 조직, 조직 내 부서 또는 함께 일하는 클라이언트를 나타낼 수 있는 [!DNL Adobe Workfront]의 조직 단위입니다. [!DNL Workfront]에 회사를 추가하여 재무 계획, 보고 목적으로 사용하고 개체에 대한 사용 권한을 정의하며 정보를 기밀로 유지할 수 있습니다.
 
@@ -105,9 +105,9 @@ ht-degree: 0%
 
 1. **기본 정보** 섹션에서 다음 정보를 업데이트하십시오.
 
-   * **회사 이름**<!--<span class="preview"> or **Name**</span>-->: 회사의 이름을 입력하십시오.
+   * **회사 이름**<span class="preview"> 또는 **이름**</span>: 회사의 이름을 입력하십시오.
    * **활성 상태임**: 이 옵션을 활성화하면 사용자가 회사를 찾아 만들고 편집한 프로젝트에 첨부할 수 있습니다. 비활성 회사는 프로젝트에 연결할 수 없습니다. 이 옵션은 기본적으로 활성화되어 있습니다.
-   * **기본 회사입니다**<!--<span class="preview">or **Is Primary**</span>-->: 회사를 조직의 기본 회사로 할당합니다. 기본 회사는 일반적으로 대부분의 사용자가 근무하는 Workfront 계정을 나타냅니다.
+   * **기본 회사입니다**<span class="preview">&#x200B;또는 **기본 회사입니다**</span>: 회사를 조직의 기본 회사로 할당합니다. 기본 회사는 일반적으로 대부분의 사용자가 근무하는 Workfront 계정을 나타냅니다.
 
      1차 회사로 지정된 회사가 한 개 있거나 한 개도 없을 수 있지만, 여러 개의 회사를 1차 회사로 지정할 수는 없습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
 
@@ -141,11 +141,11 @@ ht-degree: 0%
 
    사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
-1. (조건부) 회사를 만드는 경우 **[!UICONTROL 회사 만들기]**<!--<span class="preview">or **Save**</span>-->를 클릭합니다.
+1. (조건부) 회사를 만드는 경우 **[!UICONTROL 회사 만들기]**<span class="preview"> 또는**&#x200B;저장&#x200B;**을 클릭합니다.</span>
 
    또는
 
-   기존 회사를 편집하는 경우 **[!UICONTROL 변경 내용 저장]**<!--<span class="preview">or **Save**</span>-->을 클릭하세요.
+   기존 회사를 편집하는 경우 **[!UICONTROL 변경 내용 저장]**<span class="preview">이나**&#x200B;저장&#x200B;**을 클릭합니다.</span>
 
 ## 회사 멤버십 관리
 
