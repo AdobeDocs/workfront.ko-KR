@@ -7,9 +7,9 @@ description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
+source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
 workflow-type: tm+mt
-source-wordcount: '8733'
+source-wordcount: '8788'
 ht-degree: 9%
 
 ---
@@ -48,7 +48,8 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
 
 >[!IMPORTANT]
 >
->엔티티 관계 다이어그램이 진행 중인 작업입니다. 따라서 이는 참조용일 뿐이며 변경될 수 있습니다.
+>응용 프로그램 내의 많은 관계로 인해 전체 ERD를 읽을 수 없으므로 제공된 ERD(엔터티 관계 다이어그램)가 의도적으로 불완전합니다.<br>
+>>이 다이어그램은 아래 [용어 표](#terminology-table) 섹션의 프로젝트 테이블에 문서화된 관계를 사용하여 프로젝트 데이터 보기에서 인접 개체로 데이터를 조인하는 방법에 대한 예를 제공합니다. 프로젝트 개체 관계에 대해 이 패턴을 이해하면 완전한 ERD는 필요하지 않습니다
 
 ## 날짜 유형
 
@@ -66,7 +67,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
 >[!NOTE]
 >
 >Workfront 애플리케이션의 진화하는 데이터 요구 사항을 지원하기 위해 사전 공지 없이 새 필드를 오브젝트 보기에 추가할 수 있습니다. 다운스트림 데이터 받는 사람이 추가할 때 추가 열을 처리할 준비가 되지 않은 경우 &quot;SELECT&quot; 쿼리를 사용하지 않도록 주의합니다.<br>
->&#x200B;>이름을 바꾸거나 열을 제거해야 하는 경우 이러한 변경 사항을 미리 알려드리겠습니다.
+>>이름을 바꾸거나 열을 제거해야 하는 경우 이러한 변경 사항을 미리 알려드리겠습니다.
 
 ### 액세스 수준
 
