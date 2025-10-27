@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '397'
 ht-degree: 3%
 
 ---
@@ -148,12 +148,8 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
 
 1. **Enter**&#x200B;를 누릅니다.
 
-<div class="preview">
+1. <span class="preview">모든 사용자 환경 설정을 다시 설정하려면 **다시 설정**.</span>을 클릭하세요.
 
-1. 모든 사용자 환경 설정을 다시 설정하려면 **다시 설정**&#x200B;을 클릭하세요.
+   <span class="preview">또는</span>
 
-   또는
-
-   사용자 지정 탭만 다시 설정하려면 **왼쪽 탐색 다시 설정**&#x200B;을 클릭하세요.
-
-</div>
+   <span class="preview">사용자의 왼쪽 탐색을 원래 레이아웃 템플릿 구성으로 다시 설정하려면 **왼쪽 탐색 다시 설정**&#x200B;을 클릭하세요.</span>
