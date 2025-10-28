@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 987eea4d0ad7f8e30b944418836280728ee63812
+source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
 workflow-type: tm+mt
-source-wordcount: '3054'
+source-wordcount: '3031'
 ht-degree: 3%
 
 ---
@@ -816,7 +816,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >지정된 필터가 있는 아래 구독은 `again`에서 작업 이름이 `oldState`인 메시지만 반환합니다. 이 메시지는 작업에 대한 업데이트가 이루어지기 전입니다.
->&#x200B;>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
+>>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
 
 ```
 {
@@ -962,12 +962,14 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 1. 최상위 필터(그룹 외부):
 
-   * { &quot;fieldName&quot;: &quot;percentComplete&quot;, &quot;fieldValue&quot;: &quot;100&quot;, &quot;comparison&quot;: &quot;lt&quot; }
+   * `{ "fieldName": "percentComplete", "fieldValue": "100", "comparison": "lt" }`
    * 이 필터는 업데이트된 작업의 percentComplete 필드가 100보다 작은지 확인합니다.
 
 1. 필터 그룹(OR이 있는 중첩된 필터):
-   * { &quot;type&quot;: &quot;group&quot;, &quot;connector&quot;: &quot;OR&quot;, &quot;filters&quot;: [{ &quot;fieldName&quot;: &quot;status&quot;, &quot;fieldValue&quot;: &quot;CUR&quot;, &quot;comparison&quot;: &quot;eq&quot; }, { &quot;fieldName&quot;: &quot;priority&quot;, &quot;fieldValue&quot;: &quot;1&quot;, &quot;comparison&quot;: &quot;eq&quot; }] }
+
+   * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * 이 그룹은 두 개의 내부 필터를 평가합니다.
+
       * 먼저 작업 상태가 &quot;현재&quot;(현재)와 같은지 확인합니다.
       * 두 번째는 우선 순위가 &quot;1&quot;(높은 우선 순위)인지 확인합니다.
    * 커넥터가 &quot;OR&quot;이므로 두 조건 중 하나가 true이면 이 그룹이 전달됩니다.
@@ -981,7 +983,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 >[!NOTE]
 >
->필터 그룹을 사용할 때 일관적인 시스템 성능을 보장하기 위한 제한이 있습니다. 필터 그룹은 다음과 같습니다. <br>
+>필터 그룹을 사용할 때 일관된 시스템 성능을 보장하기 위해 다음 항목을 포함하는 한계가 있습니다.
+>
 >* 각 구독은 최대 10개의 필터 그룹을 지원합니다(각 그룹에는 여러 필터가 포함됨).
 >* 각 필터 그룹은 이벤트 처리 중 잠재적인 성능 저하를 방지하기 위해 최대 5개의 필터를 포함할 수 있습니다.
 >* 최대 10개의 필터 그룹(각각 5개의 필터 포함)이 지원되지만 복잡한 필터 논리를 사용하는 활성 구독이 많으면 이벤트 평가 중에 지연이 발생할 수 있습니다.
