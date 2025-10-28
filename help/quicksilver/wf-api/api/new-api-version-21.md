@@ -6,14 +6,14 @@ description: Adobe Workfront은 2025년 10월 23일에 API 버전 21을 출시�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: d72c5b4337ea04dbfef4622908824a0bd138b551
+source-git-commit: 50edbfa342ed7f51d1fe2b9654b55b579bb3f5af
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 4%
 
 ---
 
-# API 버전 20의 새로운 기능
+# API 버전 21의 새로운 기능
 
 Adobe Workfront은 2025년 10월 23일에 API 버전 21을 출시했습니다. API 버전 21에는 버전 20의 다음 변경 사항이 포함되어 있습니다.
 
