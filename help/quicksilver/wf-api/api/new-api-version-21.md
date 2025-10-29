@@ -6,10 +6,10 @@ description: Adobe Workfront은 2025년 10월 23일에 API 버전 21을 출시�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 50edbfa342ed7f51d1fe2b9654b55b579bb3f5af
+source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 4%
+source-wordcount: '833'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Workfront은 2025년 10월 23일에 API 버전 21을 출시했습니다. A
 
 ## 추가된 리소스
 
-### SPTMPL(StaffingPlanTemplate)
+### OriginalRequest (ORGREQ)
 
 <table>
   <col/>
@@ -29,8 +29,10 @@ Adobe Workfront은 2025년 10월 23일에 API 버전 21을 출시했습니다. A
       <td role="rowheader">직접 필드</td>
       <td>
         <ul>
+          <li>entryDate</li>
           <li>ID</li>
-          <li>이름</li>
+          <li>requestID</li>
+          <li>requestName</li>
         </ul>
       </td>
     </tr>
@@ -39,27 +41,57 @@ Adobe Workfront은 2025년 10월 23일에 API 버전 21을 출시했습니다. A
       <td>
         <ul>
           <li>ID</li>
-          <li>이름</li>
+          <li>objCode</li>
+        </ul>
+      </td>
+ </tbody>
+</table>
+
+<!--
+
+### StaffingPlanTemplate (SPTMPL)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
+          <li>name</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
+          <li>name</li>
           <li>objCode</li>
         </ul>
       </td>
    <tr>
-      <td role="rowheader">작업</td>
+      <td role="rowheader">Operations</td>
       <td>
         <ul>
-          <li>추가</li>
-          <li>수</li>
+          <li>ADD</li>
+          <li>COUNT</li>
           <li>DELETE</li>
-          <li>편집</li>
+          <li>EDIT</li>
           <li>GET</li>
-          <li>보고서</li>
-          <li>검색</li>
+          <li>REPORT</li>
+          <li>SEARCH</li>
         </ul>
       </td>
     </tr>
     </tr>
  </tbody>
 </table>
+
+-->
 
 ## 제거된 리소스
 
@@ -710,30 +742,32 @@ ScoreCardQuestion 객체는 스코어카드에 추가된 질문을 나타냅니�
  </tbody>
 </table>
 
-### 스태핑 플랜
+<!--
+
+### StaffingPlan
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">직접 필드</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>추가됨</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>추가됨</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>추가됨</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -742,30 +776,34 @@ ScoreCardQuestion 객체는 스코어카드에 추가된 질문을 나타냅니�
   </tbody>
 </table>
 
-### 스태핑 계획 리소스
+-->
+
+<!--
+
+### StaffingPlanResource
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">직접 필드</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>추가됨</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>추가됨</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>추가됨</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -773,6 +811,8 @@ ScoreCardQuestion 객체는 스코어카드에 추가된 질문을 나타냅니�
     </tr>
   </tbody>
 </table>
+
+-->
 
 ### 작업(작업)
 
