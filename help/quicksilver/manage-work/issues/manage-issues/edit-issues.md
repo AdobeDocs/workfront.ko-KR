@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
 source-wordcount: '2578'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 문제 편집
 
-<!--Audited: 03/2025-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -333,7 +333,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. **사람, 역할 및 팀 검색**&#x200B;을 클릭하고 문제에 할당할 사용자, 역할 또는 팀의 이름을 입력한 다음 해당 이름을 클릭하거나 목록에 표시될 때 Enter 키를 누릅니다.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
+   (NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)
    -->
 
    >[!NOTE]
@@ -351,7 +351,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >* 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
 
    <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
-
    1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
 
 1. 다음 필드를 업데이트합니다.
@@ -377,16 +376,21 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    <!--
    <div class="preview">
-   1. (Conditional) In the Preview environment, update the **Planned Hours** field
-      Or 
-      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   1. (Conditional) In the Preview environment, do one of the following:
+         * Click **Assign to me** to assign the issue to yourself
+      * Update the **Planned Hours** field.
+         The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
+         >[!NOTE]
+         >
+         >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
    </div> -->
+
 
 1. 모든 문제에서 할당을 제거하려면 [문제 할당](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)을 참조하세요.
 
 1. **저장**&#x200B;을 클릭하거나 다음 섹션을 계속 편집하십시오.
 
-### 사용자 지정 Forms
+### 사용자 정의 양식
 
 1. 위에 설명된 대로 문제 편집을 시작합니다.
 1. **사용자 지정 Forms**&#x200B;을 클릭합니다.

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -171,8 +171,13 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 * 일부 보기 요소는 동일한 레코드에 대한 여러 보기에 적용할 수 있지만 각 레코드 보기에 대해 고유합니다.
 
    * 필터
+   * 정렬(표 보기)
+   * 행 색상(표 보기용)
+   * 필드(테이블 보기용)
+   * 분류 (타임라인 보기의 경우)
    * 그룹화(테이블 및 타임라인 보기)
    * 막대 모양(타임라인 및 달력 보기의 경우)
+   * 행 높이(표 및 월별 달력 보기의 경우)
 
   예를 들어, 테이블 보기에서 필터를 만들 때 선택한 보기(테이블 보기)에서만 필터 결과가 표시되고 레코드 유형과 연관된 모든 보기에서는 표시되지 않습니다.
 
@@ -212,6 +217,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 | 보기에서 정보 내보내기 | ✓ |               |    |
 | 전체 화면으로 표시 | ✓ | ✓ | ✓ |
 | 보기에서 레코드 만들기 | ✓ | ✓ | ✓ |
+| 연결별로 레코드 분류 |          | ✓ |    |
 
 ## 보기 만들기 또는 편집 {#create-or-edit-views}
 

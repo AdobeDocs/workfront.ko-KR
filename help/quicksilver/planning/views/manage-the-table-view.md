@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '3370'
+source-wordcount: '3401'
 ht-degree: 2%
 
 ---
@@ -192,6 +192,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    추가하는 열은 레코드 유형에 액세스하고 레코드 페이지에서 새 필드로 추가되는 모든 사용자에게 표시됩니다.
 
+1. (선택 사항) 도구 모음에서 **필드** 아이콘 ![필드 아이콘](assets/fields-icon.png)을 클릭하고 <!--or <span class="preview"> search for a field</span>,--> 목록에서 필드를 찾은 다음 필드 이름의 오른쪽에 있는 토글을 선택 취소하여 필드를 숨깁니다.
+
 1. 다음 중 하나를 수행하여 테이블의 열 순서를 변경합니다.
 
    * 열 머리글을 잡고 원하는 위치에 끌어서 놓습니다. 테이블을 다시 조정할 때까지 이동한 열이 파란색 배경에 잠시 표시됩니다.
@@ -311,6 +313,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
    * **(으)로 필터링할**&#x200B;필드 선택<!-- the tip below might change-->
+
+     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
 
    * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
 
@@ -542,6 +546,8 @@ To sort grouped records:
 1. (선택 사항) **행 색**&#x200B;을 클릭하여 조건을 정의하고 표 행에 다른 색 구성을 선택합니다.
 
 1. **색상 추가**&#x200B;를 클릭한 다음 **값을 지정할 필드 선택**&#x200B;을 클릭합니다.
+
+   <!--replace the text for this step above with this at preview release: Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.-->
 
    예를 들어 상태가 활성인 캠페인을 녹색으로 표시하려면 **상태**&#x200B;를 선택한 다음 필드에 대한 수정자와 값을 선택합니다.
 

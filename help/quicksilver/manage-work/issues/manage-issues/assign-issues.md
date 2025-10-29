@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
 
 # 문제 할당
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2024-->
 
 <!--
 <div class="preview"> 
@@ -116,7 +116,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-## 단일 문제 할당
+## 문제 헤더에서 단일 문제 할당
 
 1. 할당할 문제로 이동합니다.
 1. 문제 헤더의 오른쪽 위, **할당** 영역에서 **할당 대상**&#x200B;을 클릭합니다
@@ -155,9 +155,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 문제 할당을 완료하려면 **저장**&#x200B;을 클릭하세요.
 1. (선택 사항) 문제 헤더의 할당 영역에서 할당 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭하여 할당을 제거합니다.
 
-## 목록에서 문제 할당
+## 목록에서 문제를 인라인 편집하여 할당
 
-지정 필드가 목록 보기에 표시되면 목록이나 보고서에서 문제를 할당할 수 있습니다. 문제를 더 빠르게 할당하는 방법입니다.
+지정 필드가 목록 보기에 표시되면 목록이나 보고서에서 문제를 할당할 수 있습니다. 문제를 더 빠르게 할당할 수 있는 방법입니다.
 
 보기에 표시되는 필드에 따라 다음 엔티티를 문제에 할당할 수 있습니다.
 
@@ -195,6 +195,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >할당 대상 또는 할당 대상 필드에서 고급 할당을 수행할 수 없습니다.
 
 1. 문제에 피할당자를 추가한 후 Enter 키를 누르거나 페이지의 아무 곳이나 클릭하여 변경 사항을 저장합니다.
+
+## 문제 편집 상자에서 문제 할당
+
+편집 시 문제 편집 상자에서 문제를 할당할 수 있습니다.
+
+자세한 내용은 문서 [문제 편집](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)의 &quot;할당&quot; 섹션을 참조하십시오.
 
 ## 일괄 문제 할당
 
