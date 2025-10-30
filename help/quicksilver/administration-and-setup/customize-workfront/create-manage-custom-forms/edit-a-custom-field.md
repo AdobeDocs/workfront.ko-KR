@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
 
 # 사용자 정의 필드, 섹션 구분 또는 위젯 추가 또는 편집
 
+{{preview-fast-release-general}}
+
 사용자 정의 양식을 열어 필드를 만들지 않고도 Workfront의 필드 영역에서 직접 새 사용자 정의 필드 또는 위젯을 추가할 수 있습니다.
 
 사용자 정의 양식에 사용되는 사용자 정의 필드, 섹션 구분 또는 위젯의 속성을 편집할 수도 있습니다. 여기에는 항목의 레이블, 이름, 지침 등이 포함됩니다.
+
+<span class="preview">사용자 지정 필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 지정 양식 필드 라이브러리에서 필드를 더 이상 사용할 수 없습니다. 모든 새 필드는 기본적으로 활성으로 설정됩니다. </span>
 
 사용자 정의 양식에서 사용자 정의 필드를 제거해도 추가된 다른 모든 양식에는 여전히 있으므로 양식이나 필드 영역에서 편집할 수 있습니다. 필드 삭제에 대한 자세한 내용은 [시스템에서 사용자 지정 필드 또는 위젯 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)를 참조하십시오.
 

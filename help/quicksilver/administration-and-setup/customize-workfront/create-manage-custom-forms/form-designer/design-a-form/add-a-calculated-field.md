@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2446'
 ht-degree: 0%
 
 ---
 
 # 양식에 계산된 필드 추가
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -169,6 +171,10 @@ ht-degree: 0%
       <p><b>중요</b>: 형식을 선택하기 전에 새 필드에 대한 올바른 형식을 고려하십시오. 사용자 정의 양식을 저장한 후에는 형식 필드를 편집할 수 없습니다. 그리고 잘못된 포맷을 선택하면 보고서와 목록 그룹화의 향후 계산 및 집계 값에 영향을 줄 수 있습니다.</p>
       <p><strong>참고</strong>: <strong>통화</strong> 형식의 계산 필드에는 따옴표를 사용할 수 없습니다. (예를 들어, "800.00"이 아닌 800.00을 사용합니다.) 따옴표를 사용하면 통화 유형의 언어 서식과 관련된 뉘앙스로 인해 예기치 않은 결과가 발생할 수 있습니다.</p></td>
      </tr> 
+     <tr>
+      <td><span class="preview">활성</span></td>
+      <td><span class="preview"><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -278,7 +284,7 @@ ht-degree: 0%
            >
            ><div>오브젝트에 첨부된 사용자 정의 양식에서 계산된 사용자 정의 필드의 날짜 및 시간 문은 조직의 인스턴스 및 사용자 프로필에 대해 설정된 시간대 구성이 아니라 UTC(협정 세계시)에 의해 계산되고 저장됩니다. 사용자 정의 양식의 계산은 각 사용자의 개별 시간대를 기반으로 하여 생성됩니다.</div>
 
-      +++
+        +++
 
    1. 큰 텍스트 상자를 클릭한 다음 계산에 추가할 수 있는 **식** 및 **필드**&#x200B;를 클릭합니다.
 

@@ -8,20 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 559044c44ca8d32d010188445403b4fc1e524002
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '6642'
+source-wordcount: '6933'
 ht-degree: 5%
 
 ---
 
 # 사용자 정의 양식 만들기
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 6/2025 -->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
@@ -129,7 +127,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 >[!NOTE]
 >
 >그렇게 할 수도 있지만 본인이나 다른 사용자가 Workfront에서 사용자 정의 양식을 사용하기 시작한 후에는 이 이름을 변경하지 않는 것이 좋습니다. 이 필드를 선택하면 이제 Workfront의 다른 영역에서 참조될 수 있는 사용자 지정 필드가 시스템에서 더 이상 인식되지 않습니다.
->&#x200B;>예를 들어 사용자 지정 필드를 보고서에 추가하고 나중에 이름을 변경하면 Workfront은 보고서에서 이를 인식하지 못하며 새 이름을 사용하여 보고서에 다시 추가하지 않으면 제대로 작동하지 않습니다.
+>>예를 들어 사용자 지정 필드를 보고서에 추가하고 나중에 이름을 변경하면 Workfront은 보고서에서 이를 인식하지 못하며 새 이름을 사용하여 보고서에 다시 추가하지 않으면 제대로 작동하지 않습니다.
 >
 >기본 제공 Workfront 필드에 이미 사용된 이름은 입력하지 않는 것이 좋습니다.
 >
@@ -259,6 +257,15 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
     <td>하이퍼링크</td>
     <td> 입력한 설명 텍스트에 하이퍼링크를 적용하려면 여기에 하이퍼링크를 추가합니다. 설명 텍스트는 양식이 첨부된 개체에 대한 링크로 표시됩니다.</td>
     <td><ul><li>설명 텍스트</li></ul></td>
+    </tr>
+    <tr>
+     <td><span class="preview">활성</span></td>
+     <td><span class="preview"><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></span></td>
+     <td><ul><span class="preview">
+     <li>한 줄 텍스트</li>
+     <li>단락</li>
+     <li>서식 포함 텍스트</li>
+     <li>설명 텍스트</li></span></ul></td>
     </tr>
     <tr> 
       <td role="rowheader">필수 필드 만들기</td>
@@ -408,8 +415,17 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
     <li>다중 선택 드롭다운</li>
     </ul>
     </td>
-     </tr> 
-          <tr> 
+     </tr>
+    <tr>
+     <td><span class="preview">활성</span></td>
+     <td><span class="preview"><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></span></td>
+     <td><ul><span class="preview">
+     <li>라디오 버튼</li>
+     <li>확인란 그룹</li>
+     <li>단일 선택 드롭다운</li>
+     <li>다중 선택 드롭다운</li></span></ul></td>
+    </tr>
+    <tr> 
     <td role="rowheader">필수 필드 만들기</td> 
     <td>사용자가 사용자 정의 양식을 작성하기 위해 필드를 요구하려면 이 옵션을 선택합니다. </td> 
     <td><ul>
@@ -541,6 +557,13 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
        </ul>
       </td>
      </tr>
+     <tr>
+      <td><span class="preview">활성</span></td>
+      <td><span class="preview"><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></span></td>
+      <td><ul><span class="preview">
+      <li>타이프 어헤드</li>
+      <li>Date</li></span></ul></td>
+     </tr>
      <tr> 
       <td role="rowheader">필수 필드 만들기</td> 
       <td>사용자가 사용자 정의 양식을 작성하기 위해 필드를 요구하려면 이 옵션을 선택합니다. </td> 
@@ -628,12 +651,12 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td role="rowheader">JSON 경로</td>
       <td><p>API에 대한 JSON 경로를 입력하거나 붙여넣습니다.</p> <p>이 옵션을 사용하면 API URL에서 반환되는 JSON에서 데이터를 추출할 수 있습니다. JSON 내에서 드롭다운 옵션에 표시할 값을 선택하는 데 사용됩니다.</p><p>예를 들어 API URL이 다음 형식으로 JSON을 반환하는 경우 "$.data[*].name"을 사용하여 미국과 캐나다를 드롭다운 옵션으로 선택할 수 있습니다.</br>
       <pre>
-      &lbrace;
-       데이터: &lbrace;
+      {
+       데이터: {
          { name: "미국"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>JSON 경로와 올바른 JSON 경로를 작성하는 방법에 대한 자세한 내용은 <a href="https://jsonpath.com/">https://jsonpath.com/</a>을(를) 참조하십시오.</p></td>
@@ -646,6 +669,9 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td role="rowheader">다중 선택 드롭다운</td>
       <td><p>사용자가 드롭다운에서 두 개 이상의 값을 선택할 수 있도록 하려면 이 옵션을 선택합니다.</p></td>
      </tr>
+     <tr>
+      <td><span class="preview">활성</span></td>
+      <td><span class="preview"><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">필수 필드 만들기</td>
@@ -736,6 +762,10 @@ The Workfront Mobile app -->
       <td role="rowheader">지침</td> 
       <td> <p>위젯에 대한 추가 정보를 입력합니다. 사용자가 사용자 정의 양식을 작성할 때 물음표 아이콘 위로 마우스를 가져가 여기에 입력하는 정보가 포함된 도구 설명을 볼 수 있습니다.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">활성</span></td>
+      <td><span class="preview"><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -869,6 +899,10 @@ The Workfront Mobile app -->
         </ul></p></td> 
       <td>
      </tr>
+     <tr>
+      <td><span class="preview">활성</span></td>
+      <td><span class="preview"><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></span></td>
+     </tr>
      <tr> 
       <td role="rowheader">필수 필드 만들기</td>
       <td><p>사용자가 사용자 정의 양식을 작성하기 위해 필드를 요구하려면 이 옵션을 선택합니다.</p></td>
@@ -921,7 +955,11 @@ Adobe XD 파일을 추가하려면:
       <td role="rowheader">지침</td> 
       <td> <p>위젯에 대한 추가 정보를 입력합니다. 사용자가 사용자 정의 양식을 작성할 때 물음표 아이콘 위로 마우스를 가져가 여기에 입력하는 정보가 포함된 도구 설명을 볼 수 있습니다.
     <img src="assets/instructions-form-designer.png"></p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td><span class="preview">활성</span></td>
+      <td><span class="preview"><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -1017,6 +1055,10 @@ Planning 연결 필드를 추가하려면
       <td role="rowheader">레코드 유형 필드</td> 
       <td><p>(선택 사항) 연결된 레코드 유형에서 최대 7개의 조회 필드를 선택하여 사용자 정의 양식에 표시합니다. 기본 필드는 기본적으로 선택되어 있으며 편집할 수 없습니다. </p> <p> 선택한 연결된 레코드의 필드가 사용자 정의 양식의 표 보기에 표시됩니다. 양식이 Workfront 개체에 첨부된 경우 테이블 보기는 읽기 전용입니다. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td><span class="preview">활성</span></td>
+      <td><span class="preview"><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></span></td>
      </tr>
       </tbody> 
    </table>
