@@ -6,7 +6,7 @@ description: 프로젝트의 초기 생성 단계 또는 생성 후 프로젝트
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 5%
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 프로젝트에 템플릿 첨부
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
 
 프로젝트의 초기 생성 단계 또는 생성 후 프로젝트에 템플릿을 첨부할 수 있습니다.
 
@@ -115,16 +115,15 @@ ht-degree: 5%
 
 1. **프로젝트** 페이지에서 템플릿을 첨부할 프로젝트를 선택합니다.
 
-1. 프로젝트 이름의 오른쪽에 있는 **자세히** 아이콘 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭합니다.
+1. 프로젝트 이름의 오른쪽에 있는 **자세히** 아이콘 ![추가 드롭다운](assets/more-dropdown.png)을 클릭합니다.
 
-   ![추가 드롭다운](assets/more-dropdown.png)
+   ![기타 아이콘](assets/qs-more-icon-on-an-object.png)
 
    또는
 
-   프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭합니다.
+   프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![추가 드롭다운](assets/more-dropdown.png)을 클릭합니다.
 
    ![메뉴가 더 확장됨](assets/more-menu-expanded.png)
-
 
 1. **템플릿 첨부**&#x200B;를 클릭합니다. **템플릿 첨부** 상자가 표시됩니다.
 

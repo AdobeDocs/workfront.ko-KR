@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,13 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
 
-</div> 
--->
+</div>
 
 사용자, 역할 및 팀에 문제를 할당하여 문제 완료에 대한 책임 주체를 나타낼 수 있습니다. 문제 할당에 대한 일반적인 정보는 [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)를 참조하십시오.
 
@@ -204,10 +202,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 일괄 문제 할당
 
-<!--
-Assigning issues in bulk is different depending on what environment you choose to do this. 
+일괄 할당 문제는 이 작업을 위해 선택한 환경에 따라 다릅니다.
 
-### Assign issues in bulk in the Production environment -->
+### 프로덕션 환경에서 문제를 일괄적으로 할당
 
 1. 일괄 할당할 문제 목록으로 이동합니다.
 1. 목록에서 몇 가지 문제를 선택하십시오.
@@ -232,33 +229,32 @@ Assigning issues in bulk is different depending on what environment you choose t
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 1. (선택 사항 및 조건부) 할당 대상 또는 할당 필드가 문제 목록에 표시되면 문제에 대해 이러한 열 중 하나를 클릭한 다음 피할당자 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭하여 문제에서 제거합니다.
 
-<!--
 <div class="preview">
 
-### Assign issues in bulk in the Preview environment
+### 미리보기 환경에서 일괄적으로 문제 할당
 
-1. Go to a list of issues that you want to assign in bulk. 
-1. Select several issues in the list. 
-1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
+1. 일괄 할당할 문제 목록으로 이동합니다.
+1. 목록에서 몇 가지 문제를 선택하십시오.
+1. **편집 아이콘** ![편집 아이콘](assets/qs-edit-icon.png)을 클릭합니다.
 
-   The **Edit Issues** dialog box opens.
+   **문제 편집** 대화 상자가 열립니다.
 
-1. Click **Assignments** in the left panel, and in the **Assignments** area, start typing the name of a user, role, or team in the **Search people, roles, or teams** field, then click it when it displays in the list
+1. 왼쪽 패널에서 **할당**&#x200B;을 클릭하고 **할당** 영역에서 **사람, 역할 또는 팀 검색** 필드에 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 클릭합니다
 
-   Or
+   또는
 
-   Click **Assign to me** to assign the issues to yourself.
+   문제를 자신에게 할당하려면 **나에게 할당**&#x200B;을 클릭하세요.
 
    >[!IMPORTANT]
    >
-   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
-   
-1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
+   >문제가 이미 할당된 경우 문제에 대한 기존 리소스를 대체하는 대신 여기에 표시하는 리소스가 문제에 추가됩니다.
 
-1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+1. (선택 사항) 모든 문제에서 기존 피할당자를 제거하려면 해당 이름 옆에 있는 **x**&#x200B;을(를) 클릭합니다.
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+1. (선택 사항) 계획된 시간 필드를 업데이트합니다. 자세한 내용은 [문제 편집](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)을 참조하세요.
+
+1. **저장**&#x200B;을 클릭합니다.
+1. (선택 사항 및 조건부) 할당 대상 또는 할당 필드가 문제 목록에 표시되면 문제에 대해 이러한 열 중 하나를 클릭한 다음 피할당자 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭하여 문제에서 제거합니다.
 
 </div>
--->
+
