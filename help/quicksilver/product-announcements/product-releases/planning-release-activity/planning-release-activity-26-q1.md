@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ac079ad7cb4b696cb54ff5ad8ff34940d0d62913
+source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -22,13 +22,28 @@ ht-degree: 0%
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
 
+<!--## New field search box in the Filters, Fields, and Row colors icons in Planning views
+
+>[!NOTE]
+>
+>Preview: October 30, 2025 
+>Production fast release: November 13, 2025 
+>Production for everyone:  January 15, 2026 
+
+
+You can now search for a specific field when building a view element in record type view. The new search boxes have been added when you build a filter, sort, grouping, or when you configure your fields or row colors. Prior to this enhancement, you could simply scroll through the list of available fields.
+This improvement is available in all views.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).-->
+
+
 ## 글로벌 레코드 유형 및 이를 다른 작업 공간에 기존 레코드 유형으로 추가하는 기능
 
 >[!NOTE]
 >
 >미리 보기: 2025년 10월 16일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 11월 13일
->&#x200B;>모두를 위한 프로덕션: 2026년 1월 15일
+>>프로덕션 빠른 릴리스: 2025년 11월 13일
+>>모두를 위한 프로덕션: 2026년 1월 15일
 
 일반적인 워크플로우를 사용하여 여러 팀 조직을 위한 Workfront Planning을 구현할 때 각 팀의 작업 영역에 추가하여 작업을 캡처 및 관리할 수 있는 주요 레코드 유형(예: 캠페인 또는 결과물)에 대한 일관된 구조와 메타데이터를 정의해야 할 수 있습니다.
 
@@ -51,8 +66,8 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >[!NOTE]
 >
 >미리 보기: 2025년 10월 16일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 11월 13일
->&#x200B;>모두를 위한 프로덕션: 2026년 1월 15일
+>>프로덕션 빠른 릴리스: 2025년 11월 13일
+>>모두를 위한 프로덕션: 2026년 1월 15일
 
 각 레코드 유형에 대해 30개의 연결 필드 제한을 도입했습니다.
 
@@ -65,8 +80,8 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >[!NOTE]
 >
 >미리 보기: 2025년 10월 16일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 11월 13일
->&#x200B;>모두를 위한 프로덕션: 2026년 1월 15일
+>>프로덕션 빠른 릴리스: 2025년 11월 13일
+>>모두를 위한 프로덕션: 2026년 1월 15일
 
 단일 또는 다중 선택 필드에 필드 선택 사항을 추가하면 Workfront은 이제 각 선택 사항에 사용자에게 친숙한 고유한 값을 할당합니다. 이 개선 전에 Workfront에서는 API 호출 및 기타 통합에서 이해하고 사용하기 어려운 영숫자 ID를 생성했습니다.
 

@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 1분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: faaea3fef9be0fb03c2ed4991bad575f23b08559
+source-git-commit: 1c4f81babf6cdc6579fa633c1a776c151219a6bf
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '1268'
 ht-degree: 3%
 
 ---
@@ -37,6 +37,88 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront 개선 사항
 
+* [관리자 개선 사항](#administrator-enhancements)
+* [문서 및 승인 개선 사항](#documents-and-approvals-enhancements)
+* [기타 개선 사항](#other-enhancements)
+
+### 관리자 개선 사항
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>기능</strong>
+        </td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿을 편집할 때 단추 이름을 업데이트합니다</a>
+            <p>사용자 정의 양식 디자이너와 같은 다른 설정 영역과 일관성을 유지하기 위해 레이아웃 템플릿을 편집할 때 표시되는 단추가 적용, 저장 및 닫기 및 취소로 변경되었습니다. 새 옵션인 적용을 사용하면 변경 사항을 레이아웃 템플릿에 저장하고 편집을 계속할 수 있습니다. 이전에는 저장 및 취소 옵션을 사용할 수 있었습니다. </p>
+        </td>
+        <td>2025년 10월 30일 금요일</td>
+        <td>2025년 11월 13일 금요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> 사용자 지정 필드의 활성 플래그를 사용하여 필드 관리를 개선했습니다</a>
+            <p>시스템에 사용자 정의 필드가 많을 경우 사용자 정의 양식 및 보고서에서 해당 필드를 관리하기가 어려울 수 있습니다. 이제 사용자 지정 필드를 새 <b>활성</b> 플래그로 비활성 상태로 표시할 수 있습니다. 이 플래그는 사용자 정의 양식의 필드로 작업하거나 필드 목록에서 필드를 추가 또는 편집할 때 사용할 수 있습니다. </p>
+        </td>
+        <td>2025년 10월 30일 금요일</td>
+        <td>2025년 11월 13일 금요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr>   
+  </tbody>
+</table>
+
+### 문서 및 승인 개선 사항
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>기능</strong>
+        </td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
+    </tr>
+     <tr>
+        <td>
+            이제 Frame.io 통합에서 <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager을 사용할 수 있습니다. <p>[!BADGE 해제 일정]{type=Neutral}</p> </a>
+            <p>이제 Experience Manager Assets을 사용하여 검토 및 승인 주기​을 거친 디지털 에셋을 관리하고 저장할 수 있습니다. 이 통합을 통해 Adobe Experience Manager, Frame.io 및 Workfront의 기능을 활용하여 컨텐츠 관리 및 공동 작업 프로세스를 간소화할 수 있습니다. </p>
+        </td>
+        <td>2025년 10월 30일 금요일</td>
+        <td>2025년 10월 30일 금요일</td>
+        <td>2025년 10월 30일 금요일</td>
+    </tr>   
+  </tbody>
+</table>
+
+### 통합 개선 사항
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>기능</strong>
+        </td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">새로운 버전의 Salesforce 통합을 사용할 수 있음 </a>
+            <p>Workfront API에 대한 최근 변경 사항을 최신 상태로 유지하기 위해 새로운 Salesforce 통합을 만들었습니다. 새 통합은 이전 버전과 동일한 기능을 제공하며 API에서 더 이상 사용되지 않는 기능이 손실되지 않도록 업데이트되었습니다.</p>
+        </td>
+        <td>2025년 10월 30일 금요일</td>
+        <td>2025년 10월 30일 금요일</td>
+        <td>2025년 10월 30일 금요일</td>
+    </tr>   
+  </tbody>
+</table>
+
 ### 기타 개선 사항
 
 <table>
@@ -52,7 +134,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025년 4분기 릴리스 일정 동안의 룩앤필 업데이트</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">2025년 4분기 릴리스 일정 동안의 룩앤필 업데이트</a>
                         <p>2025년 4분기 릴리스 기간 내에 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트가 이루어지고 있습니다. </p>
                     </td>
                     <td><p>2025년 4분기 릴리스 일정 내내<br /></p>
@@ -61,14 +143,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                 <td>
+                다중 선택 필드에 대한 <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}"> 선택 제한</a>
+              <p>확인란 및 다중 선택 드롭다운과 같이 여러 항목을 선택할 수 있는 필드는 이제 사용자가 양식을 채울 때 5000개까지 선택할 수 있습니다.</p>
+             </td>
+        <td>2025년 10월 30일 금요일</td>
+        <td>2025년 11월 13일 금요일</td>
+        <td>2026년 1월 15일 금요일</td>
+             </tr>   
             </tbody>
         </table>
 
-<!--
-### Functionality soon to be removed from Workfront
 
-* 
--->
+### Workfront에서 곧 제거될 기능
+
+#### 25.11 릴리스에서 작업 역할의 재정의 통화 사용 중단
+
+재무 모델 단순화의 일부로, 10월 30일 미리보기 및 25.11 릴리스를 사용하는 모든 고객을 위한 프로덕션에서 작업 역할의 통화 재정의를 더 이상 사용하지 않을 예정입니다. 이 변경 사항은 [설정] 영역의 작업 역할에서 통화 및 요금이 구성되는 방식에 영향을 줍니다.
+
+* 작업 역할의 **통화 재정의** 필드를 더 이상 사용할 수 없습니다.
+* 각 작업 역할에는 관련 비용 및 청구 요금이 포함된 단일 통화가 있습니다.
+* 기존의 모든 대체 통화 및 해당 환율 값은 자동으로 이전되어 해당 작업 역할의 유일한 통화 및 환율이 됩니다.
 
 ## 인터페이스 현대화
 
@@ -135,13 +231,13 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

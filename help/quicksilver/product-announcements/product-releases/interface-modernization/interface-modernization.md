@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bf4764cc1e20bf87fb1069ca432ee6303096313c
+source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8978'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,54 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 자세한 내용은 [회사 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)을 참조하세요.
 
 ## 프로젝트
+
+### 템플릿을 사용하여 작업을 프로젝트로 전환할 때 인터페이스 업데이트
+
+**미리 보기 릴리스: 2025년 10월 30일, 프로덕션 릴리스: 2025년 11월 6일에 시작**
+
+템플릿을 사용하여 작업을 프로젝트로 전환할 때 프로젝트로 전환 상자를 업데이트했습니다. 이제 상자의 디자인이 프로젝트 편집 상자와 일치합니다.
+
+자세한 내용은 [작업을 프로젝트로 변환](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)을 참조하십시오.
+
+<!--### New experience when bulk editing and single- or bulk-assigning tasks
+
+**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
+
+We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
+
+* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
+
+* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
+
+* Allocations
+* Owner or Task Owner
+* Assignee's Role
+
+You can still find the removed fields when making advanced assignments on tasks.
+
+You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
+### 벌크 편집 및 단일 또는 일괄 할당 문제를 수행할 때의 새로운 경험
+
+**미리 보기 릴리스: 2025년 10월 30일, 프로덕션 릴리스: 2025년 11월 6일에 시작**
+
+단일 문제를 편집하거나 일괄 편집할 때 문제 편집 상자를 업데이트했습니다.
+
+다음 변경 사항이 이 업데이트에 포함되어 있습니다.
+
+* 문제를 일괄적으로 업데이트할 때 사용자 정의 표현식 다시 계산 옵션이 제거되었습니다. 여러 문제를 선택한 후 문제 목록의 기타 메뉴에 옵션이 추가되었습니다.
+
+* 문제에 리소스를 할당하는 새로운 경험이 있습니다. 이제 하나의 문제를 편집하거나 여러 문제를 일괄적으로 편집할 때 모두 사용할 수 있습니다. 문제 편집 상자에서 다음 필드가 제거되었습니다.
+
+* 할당
+* 소유자 또는 문제 소유자
+* 할당자의 역할
+
+문제에 대한 고급 할당을 수행할 때 제거된 필드를 업데이트할 수 있습니다.
+
+자세한 내용은 [문제 편집](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)을 참조하세요.
 
 ### 프로젝트의 사용자 정의 대시보드에 있는 새로 만들기 및 위험 편집 상자에 대한 인터페이스 업데이트
 
