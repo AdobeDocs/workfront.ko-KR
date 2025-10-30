@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1829'
 ht-degree: 1%
 
 ---
 
 # 작업 할당
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -175,7 +175,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. **저장**&#x200B;을 클릭합니다.
 1. (선택 사항 및 조건부) **고급**&#x200B;을 클릭한 경우 할당을 제거하려면 작업의 오른쪽 패널에서 할당 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭합니다.
 
-## 목록에서 작업 할당
+## 인라인 편집할 때 목록에 작업 할당
 
 목록 보기에 할당 필드가 표시되면 목록이나 보고서에서 작업을 할당할 수 있습니다. 작업을 더 빠르게 할당할 수 있는 방법입니다. 이 문서에서는 목록의 한 작업에 대한 할당을 수정하는 방법에 대해 설명합니다. 목록의 여러 작업에 대한 여러 할당을 수정하는 방법에 대한 자세한 내용은 [작업 목록의 여러 사용자 할당 수정](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)을 참조하십시오.
 
@@ -224,7 +224,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. 자동 저장을 선택한 경우 작업에 피할당자를 추가한 후 Enter 키를 누르거나 페이지의 아무 곳이나 클릭하여 변경 사항을 저장합니다. 그렇지 않으면 **저장**&#x200B;을 클릭하세요.
 
-## 사용자에게 여러 작업 할당
+## 목록에서 사용자에게 여러 작업 일괄 할당
 
 <!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
 
