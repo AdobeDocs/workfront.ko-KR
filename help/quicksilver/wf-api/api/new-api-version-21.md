@@ -6,14 +6,16 @@ description: Adobe Workfront은 2025년 10월 23일에 API 버전 21을 출시�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
+source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '893'
 ht-degree: 3%
 
 ---
 
 # API 버전 21의 새로운 기능
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 Adobe Workfront은 2025년 10월 23일에 API 버전 21을 출시했습니다. API 버전 21에는 버전 20의 다음 변경 사항이 포함되어 있습니다.
 
@@ -673,6 +675,42 @@ QueueDef 개체는 사용자가 문제를 제출할 수 있도록 헬프 데스�
     </tr>
   </tbody>
 </table>
+
+### 역할(역할)
+
+역할 객체(작업 역할)는 Designer 또는 제품 관리자와 같이 사용자가 채울 수 있는 기능 역량 또는 스킬 세트를 나타냅니다.
+
+<div class="preview">
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">직접 필드</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>통화 재정의</b>
+            </p>
+            <p>제거됨</p>
+              </li>
+          <li>
+            <p><b>비용 비율 재정의</b>
+            </p>
+            <p>제거됨</p>
+              </li>
+          <li>
+            <p><b>청구 요금 재정의</b>
+            </p>
+            <p>제거됨</p>
+              </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ### 예약된 보고서(SCHREP)
 
