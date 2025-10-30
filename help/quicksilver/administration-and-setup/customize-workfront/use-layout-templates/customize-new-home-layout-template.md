@@ -4,20 +4,22 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: 레이아웃 템플릿을 사용하여 사용자가 Adobe Workfront에서 홈을 열 때 표시되는 내용을 구성할 수 있습니다.
-author: Lisa
+author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 홈 맞춤화
 
-레이아웃 템플릿 을 사용하여 사용자가 홈을 처음 열 때 표시되는 내용을 구성할 수 있습니다.
+{{preview-fast-release-general}}
+
+레이아웃 템플릿을 사용하여 사용자가 홈을 처음 열 때 표시되는 내용을 구성할 수 있습니다.
 
 다음을 구성할 수 있습니다.
 
@@ -134,11 +136,11 @@ ht-degree: 1%
    >
    >* 필터, 열 및 그룹 옵션은 레이아웃 템플릿의 목록 사용자 지정 옵션에 연결됩니다. 여기에서 변경한 사항은 해당 설정에도 적용됩니다.
    >* 관리자 열 구성을 홈 페이지에 올바르게 적용하려면 사용자에게 보기에 대해 적어도 만들기 액세스 권한이 있어야 합니다.
-   ></p>
-   >   <li><p>옵션 위로 마우스를 이동하고 <b>기본값으로 설정</b>을 클릭하여 위젯에 대한 기본 필터 또는 그룹을 설정합니다. 현재 기본값은 오른쪽에 파란색 <b>기본</b> 배지를 표시합니다.</p></li>
-   >   <li><p>각 목록 맨 아래에 있는 더하기 기호 버튼을 클릭하여 해당 목록에 옵션을 추가하여 사용 가능한 옵션 목록에 기존 필터, 열 또는 그룹을 추가합니다. 기존 필터, 필드(열의 경우) 또는 그룹만 이 방법으로 추가할 수 있습니다.</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>옵션 위로 마우스를 이동하고 <b>기본값으로 설정</b>을 클릭하여 위젯에 대한 기본 필터 또는 그룹을 설정합니다. 현재 기본값은 오른쪽에 파란색 <b>기본</b> 배지를 표시합니다.</p></li>
+      <li><p>각 목록 맨 아래에 있는 더하기 기호 버튼을 클릭하여 해당 목록에 옵션을 추가하여 사용 가능한 옵션 목록에 기존 필터, 열 또는 그룹을 추가합니다. 기존 필터, 필드(열의 경우) 또는 그룹만 이 방법으로 추가할 수 있습니다.</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >
@@ -150,7 +152,13 @@ ht-degree: 1%
       </tbody> 
       </table>
 
-1. 레이아웃 템플릿을 계속 사용자 지정합니다.
+1. <span class="preview">미리 보기 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.</span>
+
+   <span class="preview">또는</span>
+
+   <span class="preview">사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.</span>
+
+1. 프로덕션 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다.
 
    또는
 

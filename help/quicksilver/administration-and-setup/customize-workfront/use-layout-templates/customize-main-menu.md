@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 39b3ecde744625c070a5c4378938e297f50feeaa
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '695'
 ht-degree: 4%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의
+
+{{preview-fast-release-general}}
 
 <!--Audited: 01/2024-->
 
@@ -131,7 +133,13 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
    변경 내용을 취소하려면 언제든지 **취소**&#x200B;를 클릭할 수도 있습니다.
 
-1. 레이아웃 템플릿을 계속 사용자 지정합니다.
+1. <span class="preview">미리 보기 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.</span>
+
+   <span class="preview">또는</span>
+
+   <span class="preview">사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.</span>
+
+1. 프로덕션 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다.
 
    또는
 

@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
 
 # 레이아웃 템플릿에 사용자 할당
+
+{{preview-fast-release-general}}
 
 만든 레이아웃 템플릿을 사용해야 하는 사용자, 작업 역할, 팀 또는 그룹에 할당할 수 있습니다.
 
@@ -78,7 +80,7 @@ ht-degree: 0%
 
    한 번에 최대 100명의 사용자를 할당할 수 있습니다.
 
-1. **완료**&#x200B;를 클릭한 다음 왼쪽 하단의 **저장**&#x200B;을 클릭합니다.
+1. **완료**&#x200B;를 클릭한 다음 왼쪽 하단의 **저장** 또는 <span class="preview">**저장 후 닫기**</span>&#x200B;를 클릭합니다.
 
    이 단계에서는 레이아웃 템플릿을 만들고 할당하는 프로세스를 완료합니다.
 

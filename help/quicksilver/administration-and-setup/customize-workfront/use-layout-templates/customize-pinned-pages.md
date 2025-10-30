@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '572'
 ht-degree: 4%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 고정된 페이지 사용자 지정
+
+{{preview-fast-release-general}}
 
 레이아웃 템플릿에서 사용자가 Adobe Workfront의 맨 위에서 항상 사용할 수 있도록 하려는 페이지를 고정할 수 있습니다. 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon.png) 또는 사용 가능한 경우 기본 메뉴 ![기본 메뉴 아이콘](assets/main-menu-icon-left-nav.png)을 통해 액세스하는 페이지나 대시보드일 수 있습니다.
 
@@ -99,7 +101,7 @@ ht-degree: 4%
      >* Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
    * **대시보드 추가**&#x200B;를 클릭합니다
-      * &#x200B;<!--**Quick link name**-->**사용자 지정 이름** 필드에 수사적 이름을 입력하십시오.
+      * <!--**Quick link name**-->**사용자 지정 이름** 필드에 수사적 이름을 입력하십시오.
       * **대시보드 추가** 필드 <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->에서 대시보드를 선택하십시오.
       * **추가를 클릭합니다**.
 
@@ -111,7 +113,13 @@ ht-degree: 4%
 
 1. (선택 사항) 핀을 삭제하려면 핀 위로 마우스를 가져간 후 핀 이름 옆에 있는 기타 메뉴 아이콘 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **핀 제거**&#x200B;를 클릭합니다.
 
-1. 레이아웃 템플릿을 계속 사용자 지정합니다.
+1. <span class="preview">미리 보기 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.</span>
+
+   <span class="preview">또는</span>
+
+   <span class="preview">사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.</span>
+
+1. 프로덕션 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다.
 
    또는
 

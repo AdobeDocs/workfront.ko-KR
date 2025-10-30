@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '432'
 ht-degree: 5%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 랜딩 페이지 사용자 지정
+
+{{preview-fast-release-general}}
 
 Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가 Workfront에 로그인할 때마다 볼 영역을 지정할 수 있습니다.
 
@@ -101,7 +103,13 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가
    >
    >* Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
-1. 레이아웃 템플릿을 계속 사용자 지정합니다.
+1. <span class="preview">미리 보기 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.</span>
+
+   <span class="preview">또는</span>
+
+   <span class="preview">사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.</span>
+
+1. 프로덕션 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다.
 
    또는
 
@@ -109,4 +117,4 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가
 
    >[!TIP]
    >
-   >언제든지 저장 을 클릭하여 진행 상황을 저장한 다음 나중에 템플릿을 계속 수정할 수 있습니다.
+   >언제든지 **저장**&#x200B;을 클릭하여 진행 상황을 저장한 다음 나중에 템플릿을 계속 수정할 수 있습니다.

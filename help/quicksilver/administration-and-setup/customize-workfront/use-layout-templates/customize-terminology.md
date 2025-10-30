@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '659'
 ht-degree: 3%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 사용자 인터페이스 용어 맞춤화
+
+{{preview-fast-release-general}}
 
 Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 조직에서 사용되는 용어와 일치하도록 Workfront 전체에 표시되는 일부 객체의 레이블을 변경할 수 있습니다.
 
@@ -137,7 +139,13 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 조직에서
    >
    >완료를 클릭한 후(그리고 레이아웃 템플릿을 저장한 후에도) 항상 용어 설정 설정으로 돌아가서 사용자 정의 용어 옆에 있는 재설정 을 클릭하여 기본 상태로 되돌릴 수 있습니다.
 
-1. 레이아웃 템플릿을 계속 사용자 지정합니다.
+1. <span class="preview">미리 보기 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.</span>
+
+   <span class="preview">또는</span>
+
+   <span class="preview">사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.</span>
+
+1. 프로덕션 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다.
 
    또는
 
