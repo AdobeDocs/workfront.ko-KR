@@ -5,16 +5,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 2%
 
 ---
 
 # 우선 순위 만들기 및 사용자 정의
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있으며 프로덕션에 단계적으로 롤아웃할 때 릴리스됩니다.</span>
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -99,7 +97,7 @@ Workfront에서 제공하는 기본 우선 순위 외에도 조직의 요구 사
 1. 왼쪽 패널에서 **프로젝트 환경 설정** > **우선 순위**&#x200B;를 클릭합니다.
 
 1. 우선 순위를 만들려는 개체 유형의 탭을 클릭합니다(**프로젝트**, **작업** 또는 **문제**).
-1. 표 맨 아래에 있는 <span class="preview">**새 행**&#x200B;을 클릭하거나</span>, **새 우선 순위 추가**&#x200B;를 클릭합니다.
+1. 표 맨 아래에 있는 **새 행**&#x200B;을 클릭합니다.
 1. 우선 순위에 대해 다음 옵션을 구성합니다.
 
    * **우선 순위 이름**: 우선 순위 이름을 입력하십시오.
@@ -119,8 +117,6 @@ Workfront에서 제공하는 기본 우선 순위 외에도 조직의 요구 사
 
      숨겨진 우선 순위를 기본값으로 설정할 수 없습니다.
 
-     <div class="preview">
-
      기본 우선 순위는 ![기본 우선 순위 아이콘](assets/default-icon.png) 아이콘으로 표시됩니다. 새 기본값을 선택하려면 다음 중 하나를 수행합니다.
 
       * 우선 순위 이름 옆의 확인란을 선택하고 화면 하단의 작업 표시줄에서 **기본값으로 설정**&#x200B;을 선택합니다.
@@ -128,10 +124,8 @@ Workfront에서 제공하는 기본 우선 순위 외에도 조직의 요구 사
 
         새 기본 우선 순위에는 아이콘으로 레이블이 지정됩니다.
 
-     </div>
-
    * **설명**: 우선 순위에 대한 설명을 입력하여 해당 함수를 설명하십시오.
-   * <span class="preview">**선택 항목 숨기기**</span> 또는 **숨기기**: <span class="preview">더 이상 필요하지 않은 우선 순위를 숨기려면 **예**</span>&#x200B;를 선택하거나 확인란을 선택하십시오.
+   * **선택 항목 숨기기**: 더 이상 필요하지 않은 우선 순위를 숨기려면 **예**&#x200B;를 선택합니다.
 
      숨겨진 우선 순위는 Workfront의 어디에도 표시되지 않으므로 사용자가 프로젝트, 작업 또는 문제에 대해 우선 순위를 선택할 수 없습니다.
 

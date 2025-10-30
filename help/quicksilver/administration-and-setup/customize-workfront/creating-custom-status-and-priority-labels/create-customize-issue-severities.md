@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 3%
+source-wordcount: '629'
+ht-degree: 4%
 
 ---
 
 # 문제 심각도 만들기 또는 사용자 정의
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있으며 프로덕션에 대한 단계별 롤아웃 상태에서 릴리스되고 있습니다.
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -97,7 +95,7 @@ Workfront 관리자는 사용자의 요구 사항에 맞게 문제 심각도를 
 
 1. 왼쪽 패널에서 **프로젝트 환경 설정** > **심각도**&#x200B;를 클릭합니다.
 
-1. 새 심각도를 만드는 경우 테이블 하단에 있는 <span class="preview">**새 행**&#x200B;을 클릭하거나</span>, **새 심각도를 추가**&#x200B;하세요.
+1. 새 심각도를 만드는 경우 표 하단의 **새 행**&#x200B;을 클릭합니다.
 1. 새 심각도에 대해 다음 옵션을 구성하거나 기존 심각도를 편집합니다.
 
    * **심각도 이름**: 심각도의 이름을 입력하십시오.
@@ -117,8 +115,6 @@ Workfront 관리자는 사용자의 요구 사항에 맞게 문제 심각도를 
 
      숨겨진 심각도를 기본값으로 설정할 수 없습니다.
 
-     <div class="preview">
-
      기본 심각도는 ![기본 심각도 아이콘](assets/default-icon.png) 아이콘으로 표시됩니다. 새 기본값을 선택하려면 다음 중 하나를 수행합니다.
 
       * 심각도 이름 옆에 있는 확인란을 선택하고 화면 하단의 작업 표시줄에서 **기본값으로 설정**&#x200B;을 선택합니다.
@@ -126,10 +122,8 @@ Workfront 관리자는 사용자의 요구 사항에 맞게 문제 심각도를 
 
         새 기본 심각도는 아이콘으로 레이블이 지정됩니다.
 
-     </div>
-
    * **설명**: 기능을 설명하기 위해 심각도에 대한 설명을 입력하십시오.
-   * <span class="preview">**선택 항목 숨기기**</span> 또는 **숨기기**: <span class="preview">더 이상 필요하지 않은 심각도를 숨기려면 **예**</span>&#x200B;를 선택하거나 확인란을 선택하십시오.
+   * **선택 항목 숨기기**: 더 이상 필요하지 않은 심각도를 숨기려면 **예**&#x200B;를 선택합니다.
 
      숨겨진 심각도는 Workfront의 어디에도 표시되지 않으므로 사용자가 문제에 대해 심각도를 선택할 수 없습니다.
 
