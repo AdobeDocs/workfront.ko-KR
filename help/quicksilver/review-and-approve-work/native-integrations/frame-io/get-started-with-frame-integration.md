@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 79851c46848b7897056e9953dc5a5bc004170a02
+source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -122,3 +122,9 @@ Workfront의 의사 결정에 대한 자세한 내용은 [문서 의사 결정 �
 * **사용자 지정 대시보드**: [캔버스 대시보드] 영역에 보고서 대시보드를 만들어 통합 승인 기능을 사용한 검토 및 승인에 대한 고급 정보와 자세한 정보를 모두 표시합니다. 시작하는 방법에 대한 자세한 내용은 [검토 및 승인을 위한 보고서 대시보드 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)를 참조하세요.
 * **문서 승인 지표 홈 위젯**: 평균 승인 시간 및 결정과 보류 중인 승인 및 기한이 지난 승인의 목록 보기에 대한 정보가 포함된 2개의 차트를 표시합니다.
   ![모든 승인](assets/all-approvals.png)
+
+## 완료된 에셋을 Adobe Experience Manager으로 보내기
+
+[!DNL Experience Manager Assets]을(를) &#x200B; 사용하여 검토 및 승인 주기를 거친 디지털 에셋을 관리하고 저장할 수 있습니다&#x200B;. 이 통합을 통해 Adobe Experience Manager, Frame.io 및 Workfront의 기능을 활용하여 컨텐츠 관리 및 공동 작업 프로세스를 간소화할 수 있습니다.
+
+자세한 내용은 [Frame.io 통합에 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)을 참조하십시오.
