@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: 2a30a58f4206d5a4455ed5939c9f3fb54cce6d29
+source-git-commit: cf5a1ab848caae947829806e601662a31ce3a081
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -31,12 +31,12 @@ Postman과 같은 API 도구 또는 간단한 cURL 명령을 사용하여 Workfr
 * 후속 호출을 수행하려면 JSON 페이로드의 objID에 대한 핸들 값, 개체 유형 및 GUID 값을 사용하십시오. 다음 예제와 같이 파일에 대한 개체를 만들기 위한 것입니다.
 
 ```
-}
+{
 "name": "TestPDF",
 "handle": "7af257e64aba4a22c33ccdfc40bbb87",
 "docObjCode": "PROJ",
 "objID": "0398450f8345980843445534354",
-"currentVersion": {"version": "v1.0", "fileName" : "TestPDF"},
+"currentVersion": {"version": "1", "fileName" : "TestPDF"},
 }
 ```
 
