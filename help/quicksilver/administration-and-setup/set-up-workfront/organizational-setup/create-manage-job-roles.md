@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: d342df9949eb1434acbb53c29b7e329dd91c9b28
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
@@ -126,7 +126,7 @@ ht-degree: 0%
 
    * **통화 대체 청구 요금**: 선택한 통화 재정의를 사용하는 작업 역할의 시간당 청구 요금입니다. Workfront은 이 값을 사용하여 작업 역할과 관련된 작업 및 문제의 계획 및 실제 매출을 계산합니다.
 
-     위에 지정된 통화 재정의 환율을 입력합니다. 또한 기준 통화를 사용할 때 이 작업 역할에 대한 청구 요금이 업데이트됩니다.
+     위에 지정된 통화 재정의 환율을 입력합니다. 또한 기본 통화를 사용할 때 이 작업 역할에 대한 청구 요금이 업데이트됩니다.
 
      Workfront이 매출을 계산하는 방법에 대한 자세한 내용은 [청구 및 매출 개요](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)를 참조하십시오.
 

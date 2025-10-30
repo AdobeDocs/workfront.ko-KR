@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: c17a50542553db5b836ff82f3d0c6ed93ae3c3ad
 workflow-type: tm+mt
-source-wordcount: '8978'
+source-wordcount: '8980'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/hel
 
 ### 회사 추가 및 편집 대화 상자에 대한 인터페이스 업데이트
 
-**미리 보기 릴리스: 2025년 10월 23일, 프로덕션 릴리스: 2025년 10월 30일에 시작**
+**미리 보기 릴리스: 2025년 10월 23일, 프로덕션 릴리스: 2025년 11월 6일 주에 시작**
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 회사를 추가하고 편집하기 위한 대화 상자를 업데이트했습니다.
 

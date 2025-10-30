@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -98,11 +98,7 @@ or billing record
 ## 세부 정보 보기에 표시되는 사용자 지정
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
-1. ![사용자에게 표시되는 내용을 사용자 지정](assets/dropdown-arrow-12x12.png)에서 아래쪽 화살표 **아래쪽 화살표**&#x200B;를 클릭한 다음 **프로젝트**, **작업**, **문제**, **프로그램** 또는 **Portfolio을 클릭합니다.**
-<!--
-, or billing record
--->
-
+1. ![사용자에게 표시되는 내용을 사용자 지정](assets/dropdown-arrow-12x12.png)에서 아래쪽 화살표 **아래쪽 화살표**&#x200B;를 클릭한 다음 **프로젝트**, **작업**, **문제**, **프로그램** 또는 **Portfolio을 클릭합니다.**<!--, or billing record-->
 1. **세부 정보** 섹션에서 다음 중 하나를 수행하여 사용자가 세부 정보 보기에서 보는 내용을 사용자 지정합니다.
 
    * 순서를 변경하려면 섹션 머리글 ![이동 아이콘](assets/move-icon---dots.png)을 끕니다.
@@ -112,6 +108,10 @@ or billing record
 
      모든 필드는 기본적으로 활성화되어 있습니다. 영역의 **모두 선택** 확인란을 선택하거나 선택 취소하여 해당 영역의 모든 필드를 표시하거나 숨길 수 있습니다.
 
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+   ![레이아웃 템플릿의 세부 정보 보기](assets/layout-template-details-view-updated-save-buttons.png)
+
+   프로덕션 환경의 샘플 이미지:
    ![레이아웃 템플릿의 세부 정보 보기](assets/layout-template-details-view.png)
 
 1. <span class="preview">미리 보기 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.</span>
