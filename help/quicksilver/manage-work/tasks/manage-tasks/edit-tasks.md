@@ -384,7 +384,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    &lt;!-릴리스 시 글머리 기호를 한 번 더 들여써서 Prod를 표시한 다음 [미리보기]를 위한 다른 새 글머리 기호를 표시합니다.
    1. (조건부) 작업에 액세스하는 환경에 따라 다음 작업을 수행합니다.
-   1. <!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
+   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
 
 1. **사람, 역할 및 팀 검색**&#x200B;을 클릭하고 작업에 할당할 사용자, 역할 또는 팀의 이름을 입력한 다음 해당 작업을 클릭하거나 목록에 표시될 때 Enter 키를 누릅니다.
 
