@@ -6,7 +6,7 @@ description: 시간이 지남에 따라 프로젝트에 대한 기록 정보를 
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -95,6 +95,6 @@ ht-degree: 0%
 
    또는
 
-   템플릿 이름을 클릭하여 액세스한 다음 **자세히** 메뉴 ![추가 아이콘](assets/qs-more-icon-on-an-object.png) 및 **템플릿 삭제 > 예, 삭제**&#x200B;를 클릭합니다.
+   템플릿 이름을 클릭하여 액세스한 다음 **자세히** 메뉴 ![추가 아이콘](assets/more-icon.png), **템플릿 삭제 > 예, 삭제**&#x200B;를 클릭합니다.
 
    템플릿을 더 이상 프로젝트와 연결할 수 없습니다.

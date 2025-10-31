@@ -6,16 +6,16 @@ description: 템플릿을 프레임워크로 사용하여 Adobe Workfront에서 
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
 
 # 템플릿을 사용하여 프로젝트 만들기
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 10/2025 -->
 
 템플릿을 프레임워크로 사용하여 Adobe Workfront에서 프로젝트를 만들 수 있습니다. 자주 반복되는 프로젝트가 있는 경우 새 프로젝트의 일반 타임라인에 템플릿을 사용하면 동일한 프로젝트를 반복적으로 작성할 필요가 없습니다.
 
@@ -120,7 +120,7 @@ ht-degree: 1%
 
 1. 다음 중 하나를 수행하십시오.
 
-   * Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다. **프로젝트**&#x200B;를 클릭한 다음 **새 프로젝트**&#x200B;를 확장합니다.
+   * 사용 가능한 경우 왼쪽 위의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 또는 Adobe Workfront 오른쪽 위의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을(를) 클릭한 다음 **프로젝트**&#x200B;를 클릭하고 **새 프로젝트**&#x200B;를 확장합니다.
    * 포트폴리오로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
 
      >[!TIP]
@@ -153,7 +153,7 @@ ht-degree: 1%
 
    다음을 수행합니다.
 
-   1. **템플릿의 새 프로젝트**&#x200B;를 선택하십시오.
+   1. **템플릿의 새 프로젝트**&#x200B;를 클릭합니다.
    1. **템플릿 검색** 필드에서 템플릿 이름을 입력하고 목록에 표시될 때 클릭합니다.
    1. 오른쪽의 템플릿 세부 사항을 검토합니다.
 
@@ -179,19 +179,25 @@ ht-degree: 1%
 
       ![템플릿 세부 정보](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
+      <!--no longer available, after unshimming - Oct 2025:
       >[!NOTE]
       >
-      >마일스톤 보기가 프로젝트 목록에 적용된 경우 **템플릿의 새로 만들기**&#x200B;에서 템플릿 이름을 클릭합니다.
+      >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**.
       >
       >
-      >![템플릿에서 프로젝트를 만드는 마일스톤 보기](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![Milestone view of creating a project from a template](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
+      -->
 
    **새 프로젝트** 상자가 열립니다.
 
    ![새 프로젝트 상자](assets/new-project-from-template-box.png)
 
-1. 템플릿에 필드가 이미 채워져 있으면 **새 프로젝트** 상자에서 필드가 미리 채워집니다. 프로젝트와 더 잘 일치하도록 미리 채워진 값을 편집할 수 있습니다. 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
+1. (조건부) 템플릿에 필드가 이미 채워져 있으면 **새 프로젝트** 상자에 필드가 미리 채워집니다.
+
+   프로젝트와 더 잘 일치하도록 미리 채워진 값을 편집합니다.
+
+   자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 1. **프로젝트 만들기**&#x200B;를 클릭합니다.
 
    이전 단계에서 변경하지 않은 경우 템플릿에 정의된 모든 세부 정보가 새로 생성된 프로젝트와 자동으로 연결됩니다.
@@ -203,17 +209,21 @@ ht-degree: 1%
 {{step1-to-templates}}
 
 1. 사용할 템플릿의 이름을 클릭합니다.
-1. **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **프로젝트 만들기**&#x200B;를 클릭합니다.
+1. 헤더의 템플릿 이름 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **프로젝트 만들기**&#x200B;를 클릭합니다.
 
    ![템플릿에서 프로젝트 만들기](assets/project-sharing-on-template.png)
 
    **새 프로젝트** 상자가 열립니다.
 
-1. 프로젝트의 이름을 입력한 다음 각 섹션을 검토하고 필요에 따라 변경합니다.
+1. 프로젝트의 이름을 입력합니다. Workfront은 템플릿 이름을 사용하여 새 프로젝트의 이름을 지정합니다.
+
+1. **새 프로젝트** 상자에서 각 섹션을 검토하고 필요에 따라 변경합니다.
 
    ![새 프로젝트 상자](assets/new-project-from-template-box.png)
 
-   템플릿에 필드가 이미 채워져 있으면 **새 프로젝트** 상자에서 필드가 미리 채워집니다. 프로젝트와 더 잘 일치하도록 미리 채워진 값을 편집할 수 있습니다. 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
+   템플릿에 필드가 이미 채워져 있으면 **새 프로젝트** 상자에서 필드가 미리 채워집니다. 프로젝트와 더 잘 일치하도록 미리 채워진 값을 편집할 수 있습니다.
+
+   자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
 1. **프로젝트 만들기**&#x200B;를 클릭합니다.
 

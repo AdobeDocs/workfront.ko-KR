@@ -6,7 +6,7 @@ description: Microsoft Project에서 Adobe Workfront으로 프로젝트를 가�
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Microsoft 프로젝트에서 프로젝트 가져오기
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 10/2025 -->
 
 Microsoft Project에서 Adobe Workfront으로 프로젝트를 가져오고 하나의 애플리케이션에서 모든 프로젝트를 관리할 수 있습니다. Microsoft 프로젝트에서 프로젝트를 가져올 때마다 Workfront에 새 프로젝트가 만들어집니다.
 
@@ -103,14 +103,16 @@ Microsoft Project에서 Adobe Workfront으로 프로젝트를 가져오고 하�
 1. Workfront에 로그인.
 1. 다음 중 하나를 수행하십시오.
 
-   * Workfront의 오른쪽 위 모서리에 있는 **기본 메뉴** ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭하거나 왼쪽 위 모서리에 있는 **기본 메뉴** ![기본 메뉴 줄](assets/lines-main-menu.png)을 클릭합니다(가능한 경우). **프로젝트**&#x200B;를 클릭한 다음 **새 프로젝트**&#x200B;를 확장합니다.
+   * 사용 가능한 경우 왼쪽 위의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 또는 Adobe Workfront 오른쪽 위의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을(를) 클릭한 다음 **프로젝트**&#x200B;를 클릭하고 **새 프로젝트**&#x200B;를 확장합니다.
    * 포트폴리오로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 프로그램으로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 그룹 관리자인 경우 관리하는 그룹의 **프로젝트** 섹션에서 프로젝트를 만들 수 있습니다. 자세한 내용은 [그룹의 프로젝트 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)을 참조하세요.
 
-1. **MS 프로젝트 가져오기**&#x200B;를 클릭합니다. **MS 파일 가져오기** 대화 상자가 나타납니다.
+1. **MS 프로젝트 가져오기**&#x200B;를 클릭합니다.
 
    ![새 프로젝트 드롭다운](assets/import-ms-project-option.png)
+
+   **MS 파일 가져오기** 상자가 열립니다.
 
 1. **파일 선택**&#x200B;을 클릭한 다음 Microsoft 프로젝트에서 내보낸 .xml 파일을 컴퓨터에서 찾습니다.
 1. 선택한 파일을 가져옵니다. Workfront은 가져오기 프로세스를 시작하고 Microsoft 프로젝트에서 내보낸 파일을 기반으로 새 프로젝트를 만듭니다.

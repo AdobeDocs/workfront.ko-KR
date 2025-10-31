@@ -6,9 +6,9 @@ description: 프로젝트는 Adobe Workfront의 대규모 작업 단위입니다
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--remove Preview and Production references-->
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 110/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -169,7 +169,7 @@ ht-degree: 1%
 
 1. 다음 중 하나를 수행하십시오.
 
-   * Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다. **프로젝트**&#x200B;를 클릭한 다음 **새 프로젝트**&#x200B;를 확장합니다.
+   * 사용 가능한 경우 왼쪽 위의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 또는 Adobe Workfront 오른쪽 위의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을(를) 클릭한 다음 **프로젝트**&#x200B;를 클릭하고 **새 프로젝트**&#x200B;를 확장합니다.
    * 포트폴리오로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 프로그램으로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 그룹 관리자는 관리하는 그룹의 프로젝트 섹션에서 프로젝트를 만들 수도 있습니다. 자세한 내용은 [그룹의 프로젝트 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)을 참조하세요.
@@ -191,13 +191,21 @@ ht-degree: 1%
 
    프로젝트에 작업을 추가하는 방법에 대한 자세한 내용은 [프로젝트에서 작업 만들기](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)를 참조하십시오.
 
-1. 프로젝트 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **편집** ![편집 아이콘](assets/qs-edit-icon.png)을 클릭하여 프로젝트 세부 정보를 편집합니다.
+1. 프로젝트 이름의 오른쪽에 있는 **자세히** 메뉴를 클릭하여 헤더에서 프로젝트 이름 옆에 있는 **편집** ![편집 아이콘](assets/qs-edit-icon.png)을 클릭하여 프로젝트 세부 정보를 편집합니다.
 
-   **프로젝트 편집** 대화 상자가 열립니다.
+   **프로젝트 편집** 상자가 열립니다.
+
+1. 프로젝트에 대한 정보를 추가합니다.
 
    프로젝트 편집에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
-1. (선택 사항) 프로젝트 설정을 구성하고 작업을 추가한 후 프로젝트의 상태를 **현재**(으)로 변경할 수 있습니다.
+   >[!TIP]
+   >
+   >프로젝트의 상태는 계획 또는 현재 상태가 아닌 다른 상태여야 합니다. 이를 통해 프로젝트 참여자에게 알림을 생성하지 않고도 프로젝트를 변경할 수 있습니다.
+
+1. 변경 내용을 저장하려면 **저장**&#x200B;을 클릭하세요.
+
+1. (선택 사항) 프로젝트 설정을 구성하고 작업을 추가한 후 프로젝트 헤더에서 프로젝트의 상태를 **현재**(으)로 변경할 수 있습니다.
 
    이는 이제 프로젝트를 시작할 준비가 되었으며 작업에 할당된 사용자가 이제 해당 작업을 시작할 수 있음을 나타냅니다.
 

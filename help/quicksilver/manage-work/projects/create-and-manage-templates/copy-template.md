@@ -6,7 +6,7 @@ description: 처음부터 프로젝트 템플릿을 작성할 수 있을 뿐만 
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 3%
@@ -102,7 +102,7 @@ ht-degree: 3%
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. 복사할 템플릿으로 이동합니다.
-1. 헤더의 템플릿 이름 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭한 다음 **복사**&#x200B;를 클릭합니다.
+1. 헤더의 템플릿 이름 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **복사**&#x200B;를 클릭합니다.
 
    **템플릿 복사** 상자가 열립니다.
 

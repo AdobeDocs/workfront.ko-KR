@@ -6,7 +6,7 @@ description: 프로젝트 템플릿을 편집하여 향후 프로젝트의 프�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '5672'
 ht-degree: 2%
@@ -126,7 +126,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >
    >세부 정보 영역에 표시되는 모든 필드에 대한 자세한 내용은 아래의 템플릿 편집 상자를 사용하여 모든 필드 편집을 계속하십시오.
 
-1. (조건부) 템플릿에 대한 모든 정보를 편집하려면 템플릿 이름 옆에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+1. (조건부) 템플릿에 대한 모든 정보를 편집하려면 템플릿 이름 옆에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
    **템플릿 편집** 상자가 열립니다. 이 상자의 섹션에는 템플릿 세부 정보 섹션에서 사용할 수 있는 필드와 추가 필드가 포함되어 있습니다.
 
@@ -820,12 +820,12 @@ To edit templates in bulk:
 
 템플릿을 비활성화하려면 다음 작업을 수행하십시오.
 
-1. 활성 템플릿으로 이동한 다음 템플릿 이름 옆에 있는 **자세히** ![추가 아이콘](assets/qs-more-icon-on-an-object.png) 메뉴를 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.
+1. 활성 템플릿으로 이동한 다음 템플릿 이름 옆에 있는 **자세히** ![추가 아이콘](assets/more-icon.png) 메뉴를 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.
 
    ![템플릿 비활성화](assets/deactivate-template-link-in-more-menu.png)
 
    템플릿이 더 이상 활성 상태가 아니며 사용자는 더 이상 템플릿을 찾아 템플릿에서 프로젝트를 만들 수 없습니다.
-1. (선택 사항) 템플릿을 활성화하려면 템플릿 이름 옆에 있는 **자세히** ![추가 아이콘](assets/qs-more-icon-on-an-object.png) 메뉴를 클릭한 다음 **활성화**&#x200B;를 클릭합니다.
+1. (선택 사항) 템플릿을 활성화하려면 템플릿 이름 옆에 있는 **자세히** ![추가 아이콘](assets/more-icon.png) 메뉴를 클릭한 다음 **활성화**&#x200B;를 클릭합니다.
 
    이제 템플릿이 활성화되었으며 프로젝트에 첨부하거나 프로젝트를 만드는 데 사용할 수 있습니다.
 
@@ -850,7 +850,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/more-icon.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 

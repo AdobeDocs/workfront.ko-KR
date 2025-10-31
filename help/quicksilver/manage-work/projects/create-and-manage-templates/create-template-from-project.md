@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
 
 # 프로젝트에서 템플릿 만들기
+
+<!--Audited: 10/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
@@ -89,7 +91,7 @@ ht-degree: 1%
 ## 프로젝트에서 템플릿 만들기
 
 1. 템플릿으로 저장할 프로젝트로 이동합니다.
-1. **자세히** 메뉴 ![자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭한 다음 **템플릿으로 저장**&#x200B;을 클릭합니다.
+1. **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **템플릿으로 저장**&#x200B;을 클릭합니다.
 1. 템플릿에 대해 다음 정보를 지정합니다.
 
    <table style="table-layout:auto"> 
@@ -97,7 +99,7 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">이름</td> 
+      <td role="rowheader">템플릿 이름</td> 
       <td>템플릿 이름을 지정합니다.</td> 
      </tr> 
      <tr> 
@@ -112,29 +114,32 @@ ht-degree: 1%
         <li><strong>아니요</strong>: 다른 사용자가 템플릿을 찾을 수 없어 프로젝트에 첨부할 수 없습니다.</li> 
        </ul> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">사용자 정의 양식</td> 
-      <td>드롭다운 목록을 사용하여 템플릿에 첨부할 사용자 정의 양식을 선택합니다. 사용자 정의 양식이 이미 프로젝트와 연결된 경우 해당 사용자 정의 양식의 모든 데이터 필드가 표시됩니다.<br>한 서식 파일에 최대 10개의 사용자 정의 양식을 포함할 수 있습니다.</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. 양식을 제거하거나 순서를 변경하려면 **Forms 관리**&#x200B;를 클릭하십시오. 템플릿에서 사용자 정의 양식을 제거하고 순서를 변경하는 방법에 대한 자세한 내용은 [사용자 정의 양식](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)을 참조하십시오.
+1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
+1. **사용자 정의 양식 추가** 필드를 클릭하고 사용자 정의 프로젝트 이름을 입력하거나 목록에서 선택하십시오.
 
-   ![템플릿으로 저장 첫 단계](assets/save-as-template-first-step-350x159.png)
+   사용자 정의 양식이 이미 프로젝트와 연결된 경우 해당 사용자 정의 양식의 기존 필드 모든 정보가 양식에 표시됩니다.
 
-1. **다음 단계를 클릭합니다.**
-1. **옵션** 섹션에서 템플릿에서 지우려는 정보 옆의 확인란을 선택합니다.
+   단일 템플릿에 최대 10개의 사용자 정의 양식을 포함할 수 있습니다.
 
-   ![템플릿으로 저장 옵션](assets/save-as-template-options-step-350x109.png)
+1. 마우스를 양식 이름 위로 가져간 다음 클릭하여 새 위치에 끌어다 놓습니다.
 
-1. **다음 단계를 클릭합니다.**
-1. **제외** 섹션에서 프로젝트에서 제외할 작업을 선택합니다.
+   ![프로젝트를 서식 파일로 저장](assets/save-project-as-template-top-of-the-form.png)
 
-   ![템플릿으로 저장 제외](assets/save-as-template-exclude-350x205.png)
+1. 왼쪽 패널에서 **옵션**&#x200B;을 클릭한 다음 템플릿으로 전송할 필드 또는 항목을 선택합니다.
+
+   기본적으로 모든 항목이 선택되어 있습니다. 선택 취소된 항목은 템플릿으로 전송되지 않습니다.
+
+   ![템플릿으로 저장 옵션](assets/save-project-as-template-options-area.png)
+
+1. 왼쪽 패널에서 **제외**&#x200B;를 클릭한 다음 프로젝트에서 제외할 작업을 선택하십시오.
+
+   ![템플릿으로 저장 제외](assets/save-project-as-template-exclude-area.png)
 
 1. **템플릿 완료 및 저장**&#x200B;을 클릭합니다.
 
-   이제 템플릿이 사용 가능한 템플릿 목록에 표시되며 기존 프로젝트에 첨부하거나 새 템플릿을 만드는 데 사용할 수 있습니다.
+   이제 사용 가능한 템플릿 목록에 템플릿이 표시됩니다. 사용자는 기존 프로젝트에 새 템플릿을 첨부하거나 이를 사용하여 프로젝트를 만들 수 있습니다.
 
- 
+
