@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: cccef57d9a83fa138282200d85c2851570a4b9b1
+source-git-commit: 62177a9cedcaf3155f95e91fc4ee506d7f6a04aa
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 19%
+source-wordcount: '481'
+ht-degree: 18%
 
 ---
 
@@ -23,6 +23,10 @@ Adobe Workfront은 일반적으로 1년에 두 번 새로운 API 버전을 정�
 API 버전 식별 및 사용에 대한 자세한 내용은 [통합에서 API 버전 지정](/help/quicksilver/wf-api/api/specify-api-version-integrations.md)을 참조하십시오.
 
 다음 표는 Workfront API에 대한 릴리스 및 지원 일정을 보여 줍니다.
+
+>[!NOTE]
+>
+>기존 Workfront 커넥터는 Workfront API 버전 20을 사용하며, 이 버전은 28.4 릴리스(2028년 4월)에서 더 이상 사용되지 않을 예정입니다. 레거시 커넥터의 모듈은 해당 시간까지 계속 작동합니다.
 
 <table style="table-layout:auto"> 
  <col> 
