@@ -6,9 +6,9 @@ description: Adobe Workfront은 2025년 10월 23일에 API 버전 21을 출시�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
+source-git-commit: 155323314712e020a638619d9bf10d678078645e
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '891'
 ht-degree: 3%
 
 ---
@@ -343,9 +343,6 @@ Category 객체는 사용자 정의 양식입니다.
             <p>다음과 같은 가능한 값이 추가되었습니다.</p>
              <ul>
               <li>
-                <p><code>SPTMPL</code> (enum.categorytypeenum.staffingplantemplate)</p>
-              </li>
-              <li>
                 <p><code>TEAMOB</code> (팀)</p>
               </li>
             </ul>
@@ -355,9 +352,6 @@ Category 객체는 사용자 정의 양식입니다.
             </p>
             <p>다음과 같은 가능한 값이 추가되었습니다.</p>
              <ul>
-              <li>
-                <p><code>SPTMPL</code> (enum.categorytypeenum.staffingplantemplate)</p>
-              </li>
               <li>
                 <p><code>TEAMOB</code> (팀)</p>
               </li>
