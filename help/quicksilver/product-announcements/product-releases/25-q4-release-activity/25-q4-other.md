@@ -69,7 +69,7 @@ Workfront 관리자는 조직이 Adobe 통합 경험으로 이동하는 날짜�
 
 자세한 내용은 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하십시오.
 
-[이 기능에 대한 비디오 데모를 봅니다.향상된 목록에 대한 ](https://video.tv.adobe.com/v/3412388/){target=_blank}## 업데이트
+[이 기능에 대한 비디오 데모를 봅니다.향상된 목록에 대한 &#x200B;](https://video.tv.adobe.com/v/3412388/){target=_blank}## 업데이트
 
 >[!NOTE]
 >
