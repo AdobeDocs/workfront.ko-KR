@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
 workflow-type: tm+mt
-source-wordcount: '3862'
-ht-degree: 3%
+source-wordcount: '3828'
+ht-degree: 4%
 
 ---
 
@@ -380,161 +380,14 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 위에서 설명한 대로 작업 편집을 시작합니다.
 1. 왼쪽 패널에서 **할당**&#x200B;을 클릭합니다.
 
-   ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   <!--<span class="preview">The Assignments area opens in the new experience.</span>-->
 
-   &lt;!-릴리스 시 글머리 기호를 한 번 더 들여써서 Prod를 표시한 다음 [미리보기]를 위한 다른 새 글머리 기호를 표시합니다.
-   1. (조건부) 작업에 액세스하는 환경에 따라 다음 작업을 수행합니다.
-   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
-
-1. **사람, 역할 및 팀 검색**&#x200B;을 클릭하고 작업에 할당할 사용자, 역할 또는 팀의 이름을 입력한 다음 해당 작업을 클릭하거나 목록에 표시될 때 Enter 키를 누릅니다.
-
-   >[!NOTE]
-   >
-   >사용자 이름에 특수 문자가 포함되어 있으면 검색 필드에 특수 문자를 포함해야 합니다.
-
-   >[!TIP]
-   >
-   >여러 사용자, 작업 역할 또는 팀을 할당할 수 있습니다. 활성 사용자, 작업 역할 및 팀만 할당할 수 있습니다.
-   >
-   >비활성화되기 전에 사용자, 작업 역할 또는 팀이 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
-   >
-   >* 작업 항목을 활성 리소스에 재할당합니다.
-   >* 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
-
-1. (선택 사항) 피할당자의 이름 옆에 있는 **소유자** 라디오 단추를 선택하여 피할당자가 작업의 기본 피할당자인지 여부를 나타냅니다. 팀은 작업의 기본 피할당자가 될 수 없습니다.
-1. (조건부 및 선택 사항) 다음 필드를 업데이트합니다.
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">기간 유형</td> 
-      <td> <p>이는 다음 간의 관계를 식별합니다. </p> 
-       <ul> 
-      <li> <p>작업에 할당된 리소스 수 </p> </li> 
-      <li> <p>작업을 완료하는 데 필요한 총 작업입니다. </p> </li> 
-      <li> <p> 작업의 총 기간입니다. </p> </li> 
-       </ul> <p>Workfront 관리자 또는 그룹 관리자는 시스템 또는 그룹의 작업에 대해 기본 기간 유형 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">시스템 전체 작업 및 문제 환경 설정 구성</a>을 참조하십시오. </p> <p>기간 유형을 사용하면 작업의 요구 사항에 따라 일관된 자원 할당을 설정할 수 있습니다. 작업의 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오. </p> <p>다음 옵션 중에서 선택합니다. </p> 
-       <ul> 
-      <li> <p>계산된 할당 </p> </li> 
-      <li> <p> 계산된 작업 </p> </li> 
-      <li> <p>작업량 고정 </p> </li> 
-      <li> <p>단순</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">발생 횟수 당 기간</td> 
-      <td> <p>자동연장 작업의 상위 항목에만 표시됩니다. 작업을 만들 때 정의된 대로 각 반복 작업의 기간이 표시됩니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>를 참조하십시오. </p> <p> <b>참고</b>
-
-   개별 반복 작업에서 수정된 기간은 이 필드에 표시된 값을 표시하지 않습니다. </p> </td>
-   </tr> 
-     <tr> 
-      <td role="rowheader">기간</td> 
-      <td> 
-      <div> 
-      <div> 
-      <p>작업이 완료되기 전에 작업을 열어 두도록 허용하는 시간입니다. </p> 
-      <p><b>중요 사항</b>
-
-   작업 기간은 일반적으로 계획된 시작 일자와 계획된 완료 일자 사이의 시간이기 때문에 프로젝트의 타임라인에 영향을 줍니다.</p>
-
-   <p>작업 기간 및 시간 단위를 표시하려면 다음을 수행합니다.</p> 
-      <ul> 
-      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">시간 길이를 입력하고 드롭다운 메뉴에서 사용 가능한 시간 단위 중에서 선택합니다.</p> <p><b>팁</b></p>
-      작업 목록에서 작업 기간을 업데이트할 때 시간 단위의 약어를 사용할 수 있습니다. </p> </li> 
-      </ul> 
-      <p> 다음 표의 정규 시간 또는 경과 시간 옵션 중에서 선택할 수 있습니다. </p> 
-      <table style="table-layout:auto"> 
-      <col> 
-      <col data-mc-conditions=""> 
-      <tbody> 
-      <tr> 
-      <td>시간 단위</td> 
-      <td>약어</td> 
-      </tr> 
-      <tr> 
-      <td>분</td> 
-      <td>M</td> 
-      </tr> 
-      <tr> 
-      <td>시간</td> 
-      <td>H</td> 
-      </tr> 
-      <tr> 
-      <td>일. 이것이 기본값입니다. </td> 
-      <td>D</td> 
-      </tr> 
-      <tr> 
-      <td>주</td> 
-      <td>주</td> 
-      </tr> 
-      <tr> 
-      <td>개월</td> 
-      <td>T</td> 
-      </tr> 
-      <tr> 
-      <td>경과 시간(분)</td> 
-      <td>EM</td> 
-      </tr> 
-      <tr> 
-      <td>경과 시간</td> 
-      <td>EH</td> 
-      </tr> 
-      <tr> 
-      <td>경과 일수</td> 
-      <td>에드</td> 
-      </tr> 
-      <tr> 
-      <td>경과 주수</td> 
-      <td>EW</td> 
-      </tr> 
-      <tr> 
-      <td>경과 기간(월)</td> 
-      <td>ET</td> 
-      </tr> 
-      </tbody> 
-   </table>
-
-   <p><b>메모</b>
-
-   <p>경과 시간은 작업 기간에 대한 시간 단위입니다. 휴일, 주말 및 휴무를 포함하는 작업의 계획된 시작 일자와 계획된 완료 일자 사이의 시간입니다. 즉, 경과 시간은 역일이 경과된 때이다.
-
-   정규 시간은 공휴일, 주말 및 휴무를 고려하여 작업 기간에서 제외합니다. 작업 기간에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오. </p>
-   </div> 
-      </div> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">계획된 시간</td> 
-      <td> <p>작업에 대한 계획된 시간(시간)을 지정합니다. 작업 할당자가 완료하는 데 걸리는 실제 시간입니다. [기간 유형]이 [계산된 할당]으로 설정된 경우 작업의 계획된 시간 수만 지정할 수 있습니다. 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오.</p> 
-      <b>참고</b>
-      <p>
-      반복 작업을 만들 때 계획된 시간은 각 발생에 해당하는 시간입니다. 상위 작업의 계획된 시간은 모든 발생 항목에서 모든 계획된 시간의 합계입니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>를 참조하십시오.
-      </p>
-
-   </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">할당</td> 
-      <td> <p>작업 제한 사항이 계산된 작업량 또는 작업량 기준인 경우 각 할당자에 대해 <strong>할당 %</strong>(할당 백분율)을 지정하십시오. 피할당자의 일정에서 이 작업에 소비할 수 있는 시간입니다. 피할당자에 대한 할당 백분율을 변경하면 작업의 계획된 시간이 변경됩니다. </p> <p>작업 제한 사항이 단순하면 다음을 지정할 수 있습니다.</p> 
-         <ul> 
-         <li> <p>각 할당자의 할당 시간.</p> </li> 
-         <li> <p>작업의 계획된 시간</p> </li> 
-         <li> <p>작업 기간</p> </li> 
-         </ul> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">할당자의 역할</td> 
-      <td> <p>사용자를 피할당자로 선택한 경우 <strong>피할당자의 역할</strong> 드롭다운 메뉴에서 역할을 선택합니다. 피할당자가 이 작업에서 수행할 수 있는 역할입니다. </p> <p><b>팁</b>
-
-   프로필의 각 피할당자와 연결된 작업 역할만 드롭다운 메뉴에 나타납니다.</p> </td>
-   </tr>
-   </tbody>
-   </table>
+   <!--indent the bullets below to show new experience functionality:
+      1. (Conditional) Using the new experience, do the following:-->
 
    <!--Indent this according to what you did above: 
 
-      1. <span class="preview">In the Preview environment, start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
+      1. <span class="preview">Start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
 
       Or
 
@@ -667,10 +520,159 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <tr> 
       <td role="rowheader">Assignee's Role</td> 
       <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this task. </p> <p><b>TIP</b>
-            Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+         Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr>
          </tbody> 
          </table>************)-->
+   <!--1. <span class="preview">(Optional) Click Switch to old experience at the bottom of the **Edit Task** box. </span>
+      <span class="preview">The Assignments area opens in the old experience. </span>
+      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)-->
+
+1. **사람, 역할 또는 팀 검색**&#x200B;을 클릭하고 작업에 할당할 사용자, 역할 또는 팀의 이름을 입력한 다음 해당 작업을 클릭하거나 목록에 표시될 때 Enter 키를 누릅니다.
+
+   >[!NOTE]
+   >
+   >사용자 이름에 특수 문자가 포함되어 있으면 검색 필드에 특수 문자를 포함해야 합니다.
+
+   >[!TIP]
+   >
+   >여러 사용자, 작업 역할 또는 팀을 할당할 수 있습니다. 활성 사용자, 작업 역할 및 팀만 할당할 수 있습니다.
+   >
+   >비활성화되기 전에 사용자, 작업 역할 또는 팀이 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
+   >
+   >* 작업 항목을 활성 리소스에 재할당합니다.
+   >* 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
+
+1. (선택 사항) 피할당자의 이름 옆에 있는 **소유자** 라디오 단추를 선택하여 피할당자가 작업의 기본 피할당자인지 여부를 나타냅니다. 팀은 작업의 기본 피할당자가 될 수 없습니다.
+1. (선택 사항) 다음 필드를 업데이트합니다.
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">기간 유형</td> 
+      <td> <p>이는 다음 간의 관계를 식별합니다. </p> 
+       <ul> 
+      <li> <p>작업에 할당된 리소스 수 </p> </li> 
+      <li> <p>작업을 완료하는 데 필요한 총 작업입니다. </p> </li> 
+      <li> <p> 작업의 총 기간입니다. </p> </li> 
+       </ul> <p>Workfront 관리자 또는 그룹 관리자는 시스템 또는 그룹의 작업에 대해 기본 기간 유형 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">시스템 전체 작업 및 문제 환경 설정 구성</a>을 참조하십시오. </p> <p>기간 유형을 사용하면 작업의 요구 사항에 따라 일관된 자원 할당을 설정할 수 있습니다. 작업의 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오. </p> <p>다음 옵션 중에서 선택합니다. </p> 
+       <ul> 
+      <li> <p>계산된 할당 </p> </li> 
+      <li> <p> 계산된 작업 </p> </li> 
+      <li> <p>작업량 고정 </p> </li> 
+      <li> <p>단순</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader">발생 횟수 당 기간</td> 
+      <td> <p>자동연장 작업의 상위 항목에만 표시됩니다. 작업을 만들 때 정의된 대로 각 반복 작업의 기간이 표시됩니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>를 참조하십시오. </p> <p> <b>참고</b>
+
+   개별 반복 작업에서 수정된 기간은 이 필드에 표시된 값을 표시하지 않습니다. </p> </td>
+   </tr> 
+     <tr> 
+      <td role="rowheader">기간</td> 
+      <td> 
+      <div> 
+      <div> 
+      <p>작업이 완료되기 전에 작업을 열어 두도록 허용하는 시간입니다. </p> 
+      <p><b>중요 사항</b>
+
+   작업 기간은 일반적으로 계획된 시작 일자와 계획된 완료 일자 사이의 시간이기 때문에 프로젝트의 타임라인에 영향을 줍니다.</p>
+
+   <p>작업 기간 및 시간 단위를 표시하려면 다음을 수행합니다.</p> 
+      <ul> 
+      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">시간 길이를 입력하고 드롭다운 메뉴에서 사용 가능한 시간 단위 중에서 선택합니다.</p> <p><b>팁</b></p>
+      작업 목록에서 작업 기간을 업데이트할 때 시간 단위의 약어를 사용할 수 있습니다. </p> </li> 
+      </ul> 
+      <p> 다음 표의 정규 시간 또는 경과 시간 옵션 중에서 선택할 수 있습니다. </p> 
+      <table style="table-layout:auto"> 
+      <col> 
+      <col data-mc-conditions=""> 
+      <tbody> 
+      <tr> 
+      <td>시간 단위</td> 
+      <td>약어</td> 
+      </tr> 
+      <tr> 
+      <td>분</td> 
+      <td>M</td> 
+      </tr> 
+      <tr> 
+      <td>시간</td> 
+      <td>H</td> 
+      </tr> 
+      <tr> 
+      <td>일. 이것이 기본값입니다. </td> 
+      <td>D</td> 
+      </tr> 
+      <tr> 
+      <td>주</td> 
+      <td>주</td> 
+      </tr> 
+      <tr> 
+      <td>개월</td> 
+      <td>T</td> 
+      </tr> 
+      <tr> 
+      <td>경과 시간(분)</td> 
+      <td>EM</td> 
+      </tr> 
+      <tr> 
+      <td>경과 시간</td> 
+      <td>EH</td> 
+      </tr> 
+      <tr> 
+      <td>경과 일수</td> 
+      <td>에드</td> 
+      </tr> 
+      <tr> 
+      <td>경과 주수</td> 
+      <td>EW</td> 
+      </tr> 
+      <tr> 
+      <td>경과 기간(월)</td> 
+      <td>ET</td> 
+      </tr> 
+      </tbody> 
+   </table>
+
+   <p><b>메모</b>
+
+   <p>경과 시간은 작업 기간에 대한 시간 단위입니다. 휴일, 주말 및 휴무를 포함하는 작업의 계획된 시작 일자와 계획된 완료 일자 사이의 시간입니다. 즉, 경과 시간은 역일이 경과된 때이다.
+
+   정규 시간은 공휴일, 주말 및 휴무를 고려하여 작업 기간에서 제외합니다. 작업 기간에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오. </p>
+   </div> 
+      </div> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">계획된 시간</td> 
+      <td> <p>작업에 대한 계획된 시간(시간)을 지정합니다. 작업 할당자가 완료하는 데 걸리는 실제 시간입니다. [기간 유형]이 [계산된 할당]으로 설정된 경우 작업의 계획된 시간 수만 지정할 수 있습니다. 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오.</p> 
+      <b>참고</b>
+      <p>
+      반복 작업을 만들 때 계획된 시간은 각 발생에 해당하는 시간입니다. 상위 작업의 계획된 시간은 모든 발생 항목에서 모든 계획된 시간의 합계입니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>를 참조하십시오.
+      </p>
+
+   </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">할당</td> 
+      <td> <p>작업 제한 사항이 계산된 작업량 또는 작업량 기준인 경우 각 할당자에 대해 <strong>할당 %</strong>(할당 백분율)을 지정하십시오. 피할당자의 일정에서 이 작업에 소비할 수 있는 시간입니다. 피할당자에 대한 할당 백분율을 변경하면 작업의 계획된 시간이 변경됩니다. </p> <p>작업 제한 사항이 단순하면 다음을 지정할 수 있습니다.</p> 
+         <ul> 
+         <li> <p>각 할당자의 할당 시간.</p> </li> 
+         <li> <p>작업의 계획된 시간</p> </li> 
+         <li> <p>작업 기간</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">할당자의 역할</td> 
+      <td> <p>사용자를 피할당자로 선택한 경우 <strong>피할당자의 역할</strong> 드롭다운 메뉴에서 역할을 선택합니다. 피할당자가 이 작업에서 수행할 수 있는 역할입니다. </p> <p><b>팁</b>
+
+   프로필의 각 피할당자와 연결된 작업 역할만 드롭다운 메뉴에 나타납니다.</p> </td>
+   </tr>
+   </tbody>
+   </table>
 
 1. **변경 내용 저장** <!--<span class="preview"> or **Save** </span> -->을 클릭하거나 다음 섹션을 계속합니다.
 

@@ -6,9 +6,9 @@ description: 작업의 추적 모드에 따라 Adobe Workfront에서 작업 진�
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '194'
 ht-degree: 6%
 
 ---
@@ -85,8 +85,6 @@ ht-degree: 6%
 -->
 
 ## 작업에 대한 추적 모드 설정
-
-추적 모드를 설정하려면:
 
 1. 추적 모드를 설정할 작업으로 이동합니다.
 1. 작업 이름 옆에 있는 **자세히** 아이콘 ![](assets/qs-more-icon-on-an-object.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
