@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17a50542553db5b836ff82f3d0c6ed93ae3c3ad
+source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
 workflow-type: tm+mt
-source-wordcount: '8980'
+source-wordcount: '8992'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,11 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 **미리 보기 릴리스: 2025년 10월 23일, 모든 고객의 프로덕션 릴리스: 2025년 10월 30일 주부터**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. -->
+<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
+
+>[!NOTE]
+>
+>이 기능은 2025년 11월 4일에 프로덕션 환경에서 일시적으로 제거되었습니다.
 
 애플리케이션의 다른 영역과 일치하도록 승인을 위임하는 기능을 포함하여 개인 휴무 캘린더의 모양과 느낌을 업데이트했습니다.
 
@@ -1409,7 +1413,7 @@ Workfront의 다른 영역 디자인에 맞게 여러 보고서의 디자인을 
 * 경비 유형
 * 그룹
 * 시간 유형
-* 저널 항목
+* 분개 기입
 * 비인적 자원(특정 고객에게만 제공)
 * 비인적 자원 범주(특정 고객에게만 제공)
 * 대기열 주제
