@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -50,9 +50,7 @@ ht-degree: 0%
 
 이벤트 구독을 생성, 쿼리 또는 삭제하려면 Workfront 사용자가 필요합니다.
 
-* **시스템 관리자**&#x200B;의 액세스 수준
+* **시스템 관리자**의 액세스 수준
 자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) 또는 [사용자에게 특정 영역에 대한 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
 
-* 이벤트 구독 API를 사용하려면 `sessionID` 헤더가 필요합니다.
-
-  자세한 내용은 [API 기본 사항](api-basics.md#authentication)의 [인증](api-basics.md)을 참조하세요.
+* 조직에서 Adobe IMS(Identity Management System)를 사용하는 경우 `X-User-Token` 헤더에 전달된 IMS 사용자 토큰을 포함합니다.

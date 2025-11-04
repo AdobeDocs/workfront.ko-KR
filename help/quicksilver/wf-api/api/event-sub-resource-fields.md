@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '1043'
 ht-degree: 9%
 
 ---
@@ -527,12 +527,32 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>checkedOutByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>현재 버전 ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>customer:ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>customer:isAdvancedDocMgmtEnabled</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customer:name</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customer:objCode</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -633,6 +653,16 @@ ht-degree: 9%
    <td> </td> 
    <td> </td> 
    <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>project:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>프로젝트: 포트폴리오 ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -762,6 +792,11 @@ ht-degree: 9%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
+   <td><span>parameterValues</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
    <td><span>proofApprovalStatusID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -812,11 +847,16 @@ ht-degree: 9%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>버전</span> </td> 
+   <td><span>version</span> </td> 
   </tr> 
   <tr> 
    <td>경비</td> 
    <td>확장</td> 
+   <td>접근자 ID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> 실제 금액 </td> 
   </tr> 
   <tr> 
@@ -1095,7 +1135,7 @@ ht-degree: 9%
    <td> userOptions </td> 
   </tr> 
   <tr> 
-   <td>시간</td> 
+   <td>Hour</td> 
    <td>시간</td> 
    <td>접근자 ID</td> 
   </tr> 
@@ -1117,7 +1157,22 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>assignedApproverID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>billingRecordID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>범주 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>분류자 ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1212,6 +1267,11 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>rejectedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>roleID</td> 
   </tr> 
   <tr> 
@@ -1223,6 +1283,11 @@ ht-degree: 9%
    <td> </td> 
    <td> </td> 
    <td>상태</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>submittedByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1450,7 +1515,7 @@ ht-degree: 9%
    <td>workflowAutomationid</td> 
   </tr> 
   <tr> 
-   <td>참고</td> 
+   <td>메모</td> 
    <td>메모</td> 
    <td>접근자 ID</td> 
   </tr> 
@@ -1573,6 +1638,16 @@ ht-degree: 9%
    <td> </td> 
    <td> </td> 
    <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>project:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>프로젝트: 포트폴리오 ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1797,6 +1872,11 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>aemNativeFolderTreesRefID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>정렬 점수 카드 ID</td> 
   </tr> 
   <tr> 
@@ -1808,6 +1888,11 @@ ht-degree: 9%
    <td> </td> 
    <td> </td> 
    <td>attachedRateCardID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachedRateCard:소스 ID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1952,12 +2037,22 @@ ht-degree: 9%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>포트폴리오 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>preserveBilling</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
    <td>우선 순위</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>privateRateCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2128,6 +2223,11 @@ ht-degree: 9%
    <td> </td> 
    <td> </td> 
    <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>업데이트한 사람</td> 
   </tr> 
   <tr> 
    <td>레코드 유형<p><p>(이벤트 하위 v2)</p> </td> 
@@ -2340,6 +2440,413 @@ ht-degree: 9%
    <td>viewID</td> 
   </tr> 
   <tr> 
+   <td>직원 채용 플랜<p>(이벤트 하위 v2)</p></td> 
+   <td>직원</td> 
+   <td>접근자 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachedRateCardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>범주 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> companyID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 통화 </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> customerID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>설명</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>endDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>입력자 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>entryDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>groupID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>마지막 업데이트 날짜</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>이름</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>소유자 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>매개 변수 값</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>privateRateCardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>referenceNumber</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>startDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedCost</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedHours</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedRevenue</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>url</td> 
+  </tr> 
+  <tr> 
+   <td>스태핑 계획 매개변수 값 <p>(이벤트 하위 v2)</p></td> 
+   <td>SPVAL</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>dateVal</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> numberVal </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterName</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>리치 텍스트 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>textVal</td> 
+  </tr> 
+  <tr> 
+   <td>직원 채용 플랜 리소스 <p>(이벤트 하위 v2)</p></td> 
+   <td>직원</td> 
+   <td>접근자 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>assignedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>assignedToID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 범주 ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> customerID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> entryDate </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>마지막 업데이트 날짜</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>olv</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>매개 변수 값</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>roleID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>staffingPlanID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedCost</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedHours</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedRevenue</td> 
+  </tr> 
+  <tr> 
+   <td>스태핑 계획 자원 속성 값<p>(이벤트 하위 v2)</p></td> 
+   <td>공간</td> 
+   <td>attributeAttachableID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attributeValueSetId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> rateAttributeID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>참조 분류자 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>참조 회사 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>참조 그룹 ID</td> 
+  </tr> 
+  <tr> 
+   <td>스태핑 계획 자원 속성 값 세트 <p>(이벤트 하위 v2)</p></td> 
+   <td>저장</td> 
+   <td>attributeAttachableID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> systemGenerated </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td>스태핑 계획 자원 매개변수 값 <p>(이벤트 하위 v2)</p></td> 
+   <td>SRPVAL</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>dateVal</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> numberVal </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objID</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterName</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>리치 텍스트 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>textVal</td> 
+  </tr> 
+  <tr> 
    <td>작업</td> 
    <td>작업</td> 
    <td>접근자 ID</td> 
@@ -2488,6 +2995,16 @@ ht-degree: 9%
    <td> </td> 
    <td> </td> 
    <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>project:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>프로젝트: 포트폴리오 ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2978,6 +3495,11 @@ ht-degree: 9%
    <td> </td> 
    <td> </td> 
    <td>uumUserID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>userRoles <p>참고: 이 필드에는 변경된 비교 연산자만 사용할 수 있습니다.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 

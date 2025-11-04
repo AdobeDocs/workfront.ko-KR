@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
-source-wordcount: '3031'
+source-wordcount: '3060'
 ht-degree: 3%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 3%
 * 회사
 * 대시보드
 * 문서
+* 문서 버전
 * 경비
 * 필드
 * Hour
@@ -68,9 +69,16 @@ ht-degree: 3%
 * 포트폴리오
 * 프로그램
 * 프로젝트
+* 교정쇄 승인
 * 레코드
 * 레코드 유형
 * 보고서
+* 직원 채용 플랜
+* 스태핑 계획 매개변수 값
+* 직원 채용 플랜 리소스
+* 스태핑 계획 자원 속성 값
+* 스태핑 계획 자원 속성 값 세트
+* 스태핑 계획 자원 매개변수 값
 * 작업
 * 템플릿
 * 타임시트
@@ -816,7 +824,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >지정된 필터가 있는 아래 구독은 `again`에서 작업 이름이 `oldState`인 메시지만 반환합니다. 이 메시지는 작업에 대한 업데이트가 이루어지기 전입니다.
->&#x200B;>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
+>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
 
 ```
 {
