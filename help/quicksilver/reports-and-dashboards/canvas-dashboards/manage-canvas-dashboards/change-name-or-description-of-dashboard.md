@@ -6,9 +6,9 @@ description: 캔버스 대시보드를 만든 후 캔버스 대시보드의 이�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->&#x200B;>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
->&#x200B;>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
+>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
@@ -91,9 +91,7 @@ ht-degree: 2%
 
 1. 화면 상단의 대시보드 이름 오른쪽에 있는 **세부 정보** ![세부 정보 아이콘](assets/details-icon.png) 아이콘을 클릭합니다.
 
-1. 새 **이름**&#x200B;을(를) 입력하십시오.
-
-1. 새 **설명**&#x200B;을 입력하십시오.
+1. 새 **이름** 및 **설명**&#x200B;을 입력하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
 

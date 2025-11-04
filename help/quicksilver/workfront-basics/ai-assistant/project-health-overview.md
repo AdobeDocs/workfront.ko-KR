@@ -5,9 +5,9 @@ description: 프로젝트 상태 기능은 AI Assistant의 기능을 사용하�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1965'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ AI Assistant는 사용 가능한 프로젝트 상태 중 하나를 할당하여 
 * 위험 상태
 * 문제 발생
 
-이 상태는 프로젝트 진행 상황, 과소 평가된 작업 등과 같은 프로젝트 및 프로그램 구성 요소를 사용하여 계산됩니다. 프로젝트 상태를 측정하는 데 사용되는 구성 요소의 전체 목록은 [프로젝트 및 프로그램 상태 목록](#project-and-program-states-list) 섹션을 참조하십시오.
+이 상태는 프로젝트 진행 상황, 과소 평가된 작업 등과 같은 프로젝트 구성 요소를 사용하여 계산됩니다. 프로젝트 상태를 측정하는 데 사용되는 구성 요소의 전체 목록은 [프로젝트 및 프로그램 상태 목록](#project-and-program-states-list) 섹션을 참조하십시오.
 
 각 프로젝트 구성 요소에는 (0-100)에서 시작하는 숫자 위험 점수가 지정됩니다. 그런 다음 평균을 계산하여 전체 프로젝트 상태를 만듭니다.
 

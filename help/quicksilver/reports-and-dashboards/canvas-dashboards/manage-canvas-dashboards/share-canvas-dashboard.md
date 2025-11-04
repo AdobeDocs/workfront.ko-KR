@@ -6,9 +6,9 @@ description: 다른 Adobe Workfront 사용자가 보거나 편집할 수 있도�
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->&#x200B;>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
->&#x200B;>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
+>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
@@ -93,6 +93,8 @@ ht-degree: 0%
 1. **캔버스 대시보드** 페이지에서 공유할 대시보드를 선택합니다.
 
 1. 페이지의 오른쪽 상단 모서리에서 **공유** 단추를 클릭합니다. **대시보드 공유** 대화 상자가 나타납니다.
+
+   ![공유 단추](assets/share-button.png)
 
 1. **액세스 권한 부여** 필드에서 캔버스 대시보드를 공유할 특정 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 선택합니다.
 
