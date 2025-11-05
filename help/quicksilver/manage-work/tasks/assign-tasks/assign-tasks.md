@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1826'
 ht-degree: 1%
 
 ---
@@ -224,11 +224,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. 자동 저장을 선택한 경우 작업에 피할당자를 추가한 후 Enter 키를 누르거나 페이지의 아무 곳이나 클릭하여 변경 사항을 저장합니다. 그렇지 않으면 **저장**&#x200B;을 클릭하세요.
 
-## 목록에서 사용자에게 여러 작업 일괄 할당
-
-<!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
-
-### Assign multiple tasks to a user in the Production environment-->
+## 목록에서 여러 작업을 일괄적으로 할당
 
 1. 일괄 할당할 작업 목록으로 이동합니다.
 1. (조건부) 프로젝트 아래 작업 목록에 있는 경우 **자동 저장** 옵션이 선택되어 있는지 확인하십시오.
@@ -240,7 +236,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 작업 목록에서 여러 작업을 선택합니다.
 1. **편집**&#x200B;을 클릭합니다.
 
-   **작업 편집** 대화 상자가 열립니다.
+   **작업 편집** 대화 상자가 <!--<span class="preview">in the new experience</span>--> 열립니다.
+
+   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
 
 1. **할당** 영역에서 **할당자** 상자를 선택한 다음 모든 작업에 할당할 사용자, 작업 역할 또는 팀의 이름을 입력하세요.
 
@@ -274,7 +274,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 <!--
 <div class="preview">
 
-### Assign multiple tasks to a user in the Preview environment
+### Assign multiple tasks in bulk from a list in the new experience
 
 1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.

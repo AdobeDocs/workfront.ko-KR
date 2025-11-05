@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2421'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Workfront은 2020년 11월 12일에 API 버전 12를 출시했습니다. API 버
 
 ### 빵 부스러기 {#breadcrumb}
 
-BreadCrumb 개체는 Adobe Workfront 작업 항목의 상위/하위 계층에 있는 요소를 나타냅니다. 이동 경로는 작업 항목이 더 큰 구조의 Portfolio, 프로젝트, 프로젝트 및 작업에 어떻게 적합한지 나타냅니다.
+BreadCrumb 개체는 Adobe Workfront 작업 항목의 상위/하위 계층에 있는 요소를 나타냅니다. 이동 경로는 작업 항목이 포트폴리오, 프로젝트, 프로젝트 및 작업의 구조에 어떻게 적합한지 나타냅니다.
 
 Workfront의 이동 경로에 대한 자세한 내용은 새 Adobe Workfront 환경의 [이동 경로 개요](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)를 참조하십시오.
 
@@ -38,7 +38,7 @@ Workfront의 이동 경로에 대한 자세한 내용은 새 Adobe Workfront 환
  --> 
  <tbody> 
   <tr> 
-   <td>개 액션</td> 
+   <td>액션</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;">getObjectHierarchy</li> 
@@ -244,7 +244,7 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
    <td>직접 필드</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">작업</p> <p>다음 possibleValues가 추가되었습니다.</p> 
+     <li> <p style="font-weight: bold;">액션</p> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 업무 균형자에서 계획된 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당을 관리할 때 작업 계획 시간 업데이트</a>(<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">업무 균형자에서 사용자 할당 관리</a>)를 참조하십시오.</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>을 참조하세요.</p> </li> 
@@ -560,7 +560,7 @@ Group 객체는 사용자 및 팀 집합을 나타냅니다. 그룹은 종종 �
 
 ### LinkedFolder {#linkedfolder}
 
-LinkedFolder 개체는 Google 드라이브 또는 Dropbox과 같은 외부 문서 공급자로부터 연결된 폴더를 나타냅니다.
+LinkedFolder 개체는 Google Drive 또는 Dropbox과 같은 외부 문서 공급자로부터 연결된 폴더를 나타냅니다.
 
 연결된 폴더에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하세요.
 
@@ -656,7 +656,7 @@ Parameter 개체는 사용자 지정 필드입니다.
  </tbody> 
 </table>
 
-### Portfolio {#portfolio}
+### 포트폴리오 {#portfolio}
 
 Portfolio 객체는 동일한 리소스(일반적으로 돈 또는 완료하는 사람)에 대해 경쟁하는 프로젝트의 컬렉션입니다.
 

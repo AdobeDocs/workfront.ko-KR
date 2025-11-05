@@ -6,9 +6,9 @@ description: Adobe Workfront에서 작업은 상위-하위 관계를 가질 수 
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 01/2025 -->
 
-Adobe Workfront에서 작업은 상위-하위 관계를 가질 수 있습니다. 하위 작업을 하위 작업이라고 합니다. 주 작업을 하위 작업으로 만들어 작업 목록에서 하위 작업을 만들 수 있습니다. 하위 작업을 주 작업으로 만들 수도 있습니다.
+Adobe Workfront에서 작업은 상위-하위 관계를 가질 수 있습니다. 하위 작업을 하위 작업이라고 합니다. 주 작업을 다른 작업의 하위 작업으로 만들어 작업 목록에 하위 작업을 만들 수 있습니다. 하위 작업을 주 작업으로 만들 수도 있습니다.
 
 ## 액세스 요구 사항
 
@@ -84,6 +84,11 @@ Adobe Workfront에서 작업은 상위-하위 관계를 가질 수 있습니다.
 
 작업 목록 또는 작업 하위 작업 섹션에서 하위 작업을 생성할 수 있습니다.
 
+>[!TIP]
+>
+>프로젝트에 대한 하위 작업을 만드는 것은 템플릿의 템플릿 작업에 템플릿 하위 작업을 만드는 것과 비슷합니다.
+
+
 ### 작업 목록에서 하위 작업 만들기 {#create-subtasks-from-the-task-list}
 
 1. 하위 작업을 만들 프로젝트로 이동합니다.
@@ -113,12 +118,14 @@ Adobe Workfront에서 작업은 상위-하위 관계를 가질 수 있습니다.
 1. 하위 작업을 만들 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **작업** 섹션을 클릭합니다.
 1. 하위 작업을 만들 작업의 이름을 클릭합니다.
-1. 왼쪽 패널의 **하위 작업** 섹션을 클릭합니다(있는 경우).
+1. 사용 가능한 경우 왼쪽 패널의 **하위 작업** 섹션을 클릭합니다.
 1. **새 작업을 클릭합니다.**
 
-   다음 문서의 단계에 따라 하위 작업을 계속 만듭니다. [프로젝트에서 작업 만들기](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   작업 만들기에 대한 자세한 내용은 [프로젝트에서 작업 만들기](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)를 참조하십시오.
 
 1. **작업 만들기**&#x200B;를 클릭합니다.
+
+   새 작업은 3단계에서 선택한 작업의 하위 작업으로 만들어집니다. <!--ensure this is accurate-->
 
 ## 하위 작업을 주 작업으로 만들기
 

@@ -6,10 +6,10 @@ description: 목록에 표시된 필드를 편집하여 작업 목록에서 작�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2764'
-ht-degree: 2%
+source-wordcount: '2762'
+ht-degree: 3%
 
 ---
 
@@ -509,33 +509,44 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
    >작업을 수동으로 저장할 때 작업을 일괄적으로 편집할 수 없습니다.
 
 1. 작업 목록에서 작업을 두 개 이상 선택합니다.
-1. **편집** 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭합니다. **작업 편집** 대화 상자가 열립니다.
+   <!--1. <span class="preview">(Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.</span> -->
+1. **편집** 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭합니다. **작업 편집** 대화 상자가 <!--<span class="preview">in the new experience</span>--> 열립니다.
 
-1. 선택한 모든 작업에 대해 변경할 정보를 지정합니다.
+   모든 작업에 대한 정보를 편집하는 것은 한 작업에 대한 정보를 편집하는 것과 동일합니다.
+작업 편집에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
 
-   모든 작업에 대한 정보를 편집하는 것은 한 작업에 대한 정보를 편집하는 것과 동일합니다. 작업 기간을 편집하려면 선택한 작업에 동일한 작업 제한이 있어야 합니다. 그렇지 않으면 **기간** 필드가 채워지지 않습니다.
+   <!--<span class="preview">1. In the new experience, do the following:</span> (******keep the below indented******)
+      1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+      <div class="preview">
+      * Overview
+      * Assignments
+      * Custom Forms
+      * Finance
+      * Settings
+      * Settings
+      * Comment
+      </div>-->
+   <!--<span class="preview">1. Click **Save**.</span>
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
+1. <!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> 다음 영역 중 하나에서 선택한 모든 작업에 대해 변경할 정보를 지정합니다.
 
-   작업 편집에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
+   * 개요
+   * 설정
+   * 할당
+   * 사용자 정의 양식
+   * 댓글
 
-   >[!NOTE]
-   >
-   >선택한 모든 작업에 대해 변경 중인 정보는 **할당** 필드를 제외한 개별 작업에 대한 기존 정보를 재정의합니다. 일괄 편집에서 새 피할당자를 추가하면 해당 피할당자가 선택한 모든 작업에 추가됩니다. 다른 할당자가 선택한 작업에 할당되면 일괄 편집을 통해 추가된 할당자와 함께 할당된 상태로 유지됩니다.
+     <!-- at release, move the below tip under the first set of bullet points, for the new experience-->
 
-1. 선택한 모든 작업에 첨부된 사용자 정의 양식을 편집하려면 **사용자 정의 Forms**&#x200B;을(를) 클릭하십시오. 활성 사용자 정의 양식만 목록에 표시됩니다.
+     >[!NOTE]
+     >
+     >* 선택한 모든 작업에 대해 변경 중인 정보는 **할당** 필드를 제외한 개별 작업에 대한 기존 정보를 재정의합니다. 일괄 편집에서 새 피할당자를 추가하면 해당 피할당자가 선택한 모든 작업에 추가됩니다. 다른 할당자가 선택한 작업에 할당되면 일괄 편집을 통해 추가된 할당자와 함께 할당된 상태로 유지됩니다.
+     >* 작업 기간을 편집하려면 선택한 작업의 작업 제한 사항이 동일해야 합니다. 그렇지 않으면 **기간** 필드가 채워지지 않습니다.
+     >
+     >* 활성 사용자 정의 양식만 목록에 표시됩니다. 선택한 작업에 일반적인 사용자 정의 양식이 없는 경우 이 섹션에 양식이 나열되지 않습니다.
+     >* 선택한 모든 작업에 첨부되고 편집 권한이 있는 양식의 필드만 편집할 수 있습니다.  사용자 정의 양식을 대량으로 편집하는 방법에 대한 자세한 내용은 [개체에 첨부된 사용자 정의 양식 관리](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)를 참조하십시오.
 
-   선택한 작업에 일반적인 사용자 정의 양식이 없는 경우 이 섹션에 양식이 나열되지 않습니다.
 
-   선택한 모든 작업에 첨부되고 편집 권한이 있는 양식의 필드만 편집할 수 있습니다.
-
-   <!--1. (Optional and conditional) Depending what environment you use to edit the tasks, do one of the following to recalculate custom expressions for all tasks:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
-
-1. (선택 사항) 사용자 지정 Forms 섹션에서 **사용자 지정 표현식 다시 계산** 옵션을 선택하여 선택한 작업에 첨부된 사용자 지정 양식에 있는 모든 계산된 사용자 지정 필드가 최신 상태가 되도록 합니다.
-
-   <!--
-   1. <span class="preview">In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. </span>
-
-   -->
+1. (선택 사항) **사용자 지정 Forms** 섹션에서 **사용자 지정 표현식 다시 계산** 옵션을 선택하여 선택한 작업에 첨부된 사용자 지정 양식에 있는 모든 계산된 사용자 지정 필드가 최신 상태가 되도록 합니다.
 1. **변경 내용 저장**&#x200B;을 클릭합니다. 이제 선택한 모든 작업에 변경 사항이 모두 표시됩니다.
 
-사용자 정의 양식을 대량으로 편집하는 방법에 대한 자세한 내용은 [개체에 첨부된 사용자 정의 양식 관리](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)를 참조하십시오.

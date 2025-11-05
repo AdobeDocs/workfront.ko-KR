@@ -7,20 +7,28 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
 
 # 작업 목록에서 여러 사용자 할당 수정
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2025-->
 
 <!--
-<p>There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3</p>
+this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
+
+<!--<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 작업 할당을 관리할 때 작업 목록의 일괄 편집 기능을 사용하여 한 번에 여러 작업에 대해 동시에 수정할 수 있습니다.
 
@@ -117,14 +125,17 @@ When assigning users to work, their availability according to their schedules af
 
 1. 할당을 수정할 작업을 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
 
-   작업 편집 페이지가 표시됩니다. 편집하는 항목이 페이지의 왼쪽 위 모서리에 표시됩니다.
+   **작업 편집** 상자가 <!--<span class="preview">in the new experience</span>--> 열립니다.
+
+   <!--1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.</span> 
+   <span class="preview">The **Edit Tasks** box opens in the old experience.</span>-->
 
 1. **할당** 섹션으로 이동합니다.
-1. 다음 중 하나를 수행하여 피할당자를 추가하거나 제거합니다.
 
    >[!IMPORTANT]
    >
    >피할당자를 제거하면 작업 시간 및 할당 비율에 영향을 줄 수 있습니다. 자세한 내용은 이 문서의 섹션 [피할당자 제거가 작업 시간 및 할당 비율에 미치는 방식](#how-removing-assignees-affects-task-hours-and-allocation-percentages)을 참조하십시오.
+1. 다음 중 하나를 수행하여 피할당자를 추가하거나 제거합니다.
 
    * 새 피할당자를 추가하려면:
 
@@ -180,3 +191,17 @@ When assigning users to work, their availability according to their schedules af
    * **피할당자의 역할**: 드롭다운 목록에서 역할을 선택합니다. 선택하지 않으면 Adobe Workfront이 자동으로 사용자의 기본 역할을 선택합니다.
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
+
+<!--
+1. <span class="preview"> (Optional) Click **Try new experience** in the upper-right corner of the **Edit Tasks** box. The Edit Tasks box opens in the new experience. Do one of the following:</span>
+
+   <div class="preview">
+
+   * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
+   * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
+   * Click Assign to me to assign the selected tasks to yourself.
+
+   </div>
+1. <span class="preview">(Conditional) When using the new experience, click **Save**.</span>
+
+-->
