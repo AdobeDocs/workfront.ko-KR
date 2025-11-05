@@ -528,7 +528,7 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
       </div>-->
    <!--<span class="preview">1. Click **Save**.</span>
    <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
-1. <!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> 다음 영역 중 하나에서 선택한 모든 작업에 대해 변경할 정보를 지정합니다.
+1. &#x200B;<!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> 다음 영역 중 하나에서 선택한 모든 작업에 대해 변경할 정보를 지정합니다.
 
    * 개요
    * 설정
