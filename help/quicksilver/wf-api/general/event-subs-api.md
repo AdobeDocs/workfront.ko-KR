@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3097'
 ht-degree: 3%
 
 ---
@@ -153,6 +153,10 @@ ht-degree: 3%
         <td scope="col">도쿠 </td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>문서 버전</p></td> 
+        <td scope="col">DOCV </td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>경비</p></td> 
         <td scope="col">확장</td> 
        </tr> 
@@ -185,6 +189,10 @@ ht-degree: 3%
         <td scope="col"><p>프로젝트</p></td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>교정쇄 승인</p></td> 
+        <td scope="col"><p>PRFAPL</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>레코드</p></td> 
         <td scope="col"><p>기록</p></td> 
        </tr> 
@@ -195,6 +203,30 @@ ht-degree: 3%
        <tr> 
         <td scope="col"><p>보고서</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>직원 채용 플랜</p></td> 
+        <td scope="col"><p>직원</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>스태핑 계획 매개변수 값</p></td> 
+        <td scope="col"><p>SPVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>직원 채용 플랜 리소스</p></td> 
+        <td scope="col"><p>직원</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>스태핑 계획 자원 속성 값</p></td> 
+        <td scope="col"><p>공간</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>스태핑 계획 자원 속성 값 세트</p></td> 
+        <td scope="col"><p>저장</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>스태핑 계획 자원 매개변수 값</p></td> 
+        <td scope="col"><p>SRPVAL</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>작업</p></td> 
