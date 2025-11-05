@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 5e81e18ef667af3e4d08f4fc8987f7a3b6617971
+source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -141,11 +141,11 @@ ht-degree: 0%
 
    사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
-1. (조건부) 회사를 만드는 경우 **[!UICONTROL 회사 만들기]**<span class="preview"> 또는&#x200B;**&#x200B;저장&#x200B;**&#x200B;을 클릭합니다.</span>
+1. (조건부) 회사를 만드는 경우 **[!UICONTROL 회사 만들기]** <span class="preview">또는 **저장**&#x200B;을 클릭합니다.</span>
 
    또는
 
-   기존 회사를 편집하는 경우 **[!UICONTROL 변경 내용 저장]**<span class="preview">이나&#x200B;**&#x200B;저장&#x200B;**&#x200B;을 클릭합니다.</span>
+   기존 회사를 편집하는 경우 **[!UICONTROL 변경 내용 저장]** <span class="preview"> 또는 **저장**&#x200B;을 클릭합니다.</span>
 
 ## 회사 멤버십 관리
 
@@ -167,9 +167,13 @@ ht-degree: 0%
 
 [!DNL Workfront] 관리자가 회사에 그룹을 할당하면 그룹의 그룹 관리자는 [!UICONTROL 설정]에서 회사에 대한 [!UICONTROL 관리] 액세스 권한을 갖게 됩니다. 여기에는 [!UICONTROL 설정]의 [!UICONTROL 회사] 페이지에 대한 액세스 권한이 포함되어 있습니다. 이 페이지에서 해당 그룹과 연결된 회사를 확인하고 관리할 수 있습니다.
 
-[!UICONTROL 회사] 페이지에 대한 이 액세스 권한으로 그룹 관리자는 회사에 그룹을 할당할 수 있지만 그룹 관리자가 만든 회사여야 합니다. 그룹 관리자의 액세스 수준이 회사에 대한 관리 액세스 권한으로 구성되지 않은 경우 그룹 관리자가 회사를 만들 때 [!UICONTROL 그룹] 필드가 필요합니다. 굵게 표시된 제목은 다음과 같습니다.
+[!UICONTROL 회사] 페이지에 대한 이 액세스 권한으로 그룹 관리자는 회사에 그룹을 할당할 수 있지만 그룹 관리자가 만든 회사여야 합니다. 그룹 관리자의 액세스 수준이 회사에 대한 관리 액세스 권한으로 구성되지 않은 경우 그룹 관리자가 회사를 만들 때 [!UICONTROL 그룹] 필드가 필요합니다. 해당 <span class="preview">별표</span> 또는 굵은 제목은 다음을 나타냅니다.
 
-![회사 편집](assets/group-admin-add-company.png)
+<span class="preview">미리 보기 환경의 샘플 이미지:</span>
+![그룹이 필요한 새 회사 대화 상자](assets/group-admin-add-company-group-required.png)
+
+프로덕션 환경의 샘플 이미지:
+![회사에는 그룹이 필요합니다](assets/group-admin-add-company.png)
 
 사용자가 액세스 수준의 회사에 대한 관리 액세스 권한을 얻는 방법에 대한 자세한 내용은 [특정 영역에 대한 사용자 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
 
