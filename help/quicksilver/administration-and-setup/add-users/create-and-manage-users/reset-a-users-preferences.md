@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '365'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 3%
 # 사용자 환경 설정 재설정
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있으며 프로덕션에 단계적으로 롤아웃할 때 릴리스됩니다.</span>
 
 Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 사용자 환경 설정을 재설정하거나 제거할 수 있습니다.
 
@@ -106,8 +104,6 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
 
 <!--Display this table and hide the HTML table above, when the unshim is released.-->
 
-<div class="preview">
-
 | 환경 설정 | 재설정 후 상태 |
 | --- | --- |
 | 보기 횟수 | 시스템 기본값으로 되돌림 <p>기존 보기는 삭제되지 않습니다. 다시 선택할 수 있습니다.</p> |
@@ -116,8 +112,6 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
 | 최근 항목 목록 | 지워짐 |
 | 즐겨찾기 목록 | 영향을 받지 않음 |
 | 사용자 환경 설정 | 시스템 기본값으로 되돌림 <p>이메일 알림은 시스템 기본값으로 되돌아갑니다. 기본 알림은 Adobe Workfront에서 사용할 수 있는 [이벤트 알림](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)에 나열됩니다.</p> |
-
-</div>
 
 ## 사용자 환경 설정 재설정
 
@@ -148,8 +142,8 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
 
 1. **Enter**&#x200B;를 누릅니다.
 
-1. <span class="preview">모든 사용자 환경 설정을 다시 설정하려면 **다시 설정**.</span>을 클릭하세요.
+1. 모든 사용자 환경 설정을 다시 설정하려면 **다시 설정**&#x200B;을 클릭하세요.
 
-   <span class="preview">또는</span>
+   또는
 
-   <span class="preview">사용자의 왼쪽 탐색을 원래 레이아웃 템플릿 구성으로 다시 설정하려면 **왼쪽 탐색 다시 설정**&#x200B;을 클릭하세요.</span>
+   사용자의 왼쪽 탐색을 원래 레이아웃 템플릿 구성으로 재설정하려면 **왼쪽 탐색 재설정**&#x200B;을 클릭하세요.
