@@ -7,7 +7,7 @@ description: 템플릿을 만든 후 템플릿 작업에 대한 정보를 편집
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '4716'
 ht-degree: 4%
@@ -576,35 +576,35 @@ ht-degree: 4%
    템플릿 작업을 본인에게 할당하려면 **나에게 할당**&#x200B;을 클릭하세요.
 1. 다음 정보를 업데이트하는 것이 좋습니다.
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody>
 
-<tr> 
-      <td role="rowheader"><strong>기간 유형</strong> </td> 
-      <td> <p>이 템플릿에서 만드는 향후 작업은 이 기간 유형을 갖게 됩니다. <br>기간 유형은 다음 간의 관계를 식별합니다.</p> 
-      <ul>
-      <li><p>작업에 할당된 리소스 수</p> </li>
-      <li><p>작업을 완료하는 데 필요한 총 작업입니다.</p></li> 
-      <li><p>작업의 총 기간 </p></li></ul> <p>기간 유형을 사용하면 작업의 요구 사항에 따라 일관된 자원 할당을 설정할 수 있습니다. 작업의 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오.</p> <p>다음 옵션 중에서 선택합니다.</p> 
-       <ul> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">계산된 할당</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">계산된 작업</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">작업량 고정</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">단순</span> <br> </p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>기간</strong> </td> 
-      <td> <p>이후 작업의 기간(분, 시간, 일, 주 또는 개월)을 지정합니다. 이 템플릿에서 만드는 향후 작업은 여기에 지정된 기간을 갖습니다.</p> <p>기본적으로 Workfront은 기간(일)을 측정합니다. 작업을 완료하기 전에 작업이 완료되지 않은 상태로 남아 있도록 허용하는 시간입니다. 작업의 <strong>기간 유형</strong>이(가) <strong>단순</strong>이거나 <strong>작업 제한 조건</strong>이(가) <strong>고정 날짜</strong>인 경우 작업의 기간을 지정할 수 없습니다.</p> <p><b>중요 사항</b></p> <p>기간은 일반적으로 템플릿 작업의 계획된 시작 일자와 계획된 완료 일자 사이의 시간이며 이러한 이유로 템플릿의 타임라인에 영향을 줍니다. 이를 통해 템플릿으로 만드는 향후 프로젝트의 타임라인이 결정됩니다. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>계획된 시간</strong> </td> 
-      <td> <p>이 템플릿으로 만든 프로젝트에 대한 향후 작업의 계획된 시간 수를 지정합니다. 작업의 할당자가 작업을 완료하는 데 걸리는 실제 시간입니다. <strong>기간 유형</strong>이 <strong>계산된 할당</strong>(으)로 설정된 경우 작업의 계획된 시간 수만 지정할 수 있습니다. </p> </td> 
-     </tr> 
-  </tbody> 
-   </table>
+   <tr> 
+         <td role="rowheader"><strong>기간 유형</strong> </td> 
+         <td> <p>이 템플릿에서 만드는 향후 작업은 이 기간 유형을 갖게 됩니다. <br>기간 유형은 다음 간의 관계를 식별합니다.</p> 
+         <ul>
+         <li><p>작업에 할당된 리소스 수</p> </li>
+         <li><p>작업을 완료하는 데 필요한 총 작업입니다.</p></li> 
+         <li><p>작업의 총 기간 </p></li></ul> <p>기간 유형을 사용하면 작업의 요구 사항에 따라 일관된 자원 할당을 설정할 수 있습니다. 작업의 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오.</p> <p>다음 옵션 중에서 선택합니다.</p> 
+         <ul> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">계산된 할당</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">계산된 작업</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">작업량 고정</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">단순</span> <br> </p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>기간</strong> </td> 
+         <td> <p>이후 작업의 기간(분, 시간, 일, 주 또는 개월)을 지정합니다. 이 템플릿에서 만드는 향후 작업은 여기에 지정된 기간을 갖습니다.</p> <p>기본적으로 Workfront은 기간(일)을 측정합니다. 작업을 완료하기 전에 작업이 완료되지 않은 상태로 남아 있도록 허용하는 시간입니다. 작업의 <strong>기간 유형</strong>이(가) <strong>단순</strong>이거나 <strong>작업 제한 조건</strong>이(가) <strong>고정 날짜</strong>인 경우 작업의 기간을 지정할 수 없습니다.</p> <p><b>중요 사항</b></p> <p>기간은 일반적으로 템플릿 작업의 계획된 시작 일자와 계획된 완료 일자 사이의 시간이며 이러한 이유로 템플릿의 타임라인에 영향을 줍니다. 이를 통해 템플릿으로 만드는 향후 프로젝트의 타임라인이 결정됩니다. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>계획된 시간</strong> </td> 
+         <td> <p>이 템플릿으로 만든 프로젝트에 대한 향후 작업의 계획된 시간 수를 지정합니다. 작업의 할당자가 작업을 완료하는 데 걸리는 실제 시간입니다. <strong>기간 유형</strong>이 <strong>계산된 할당</strong>(으)로 설정된 경우 작업의 계획된 시간 수만 지정할 수 있습니다. </p> </td> 
+      </tr> 
+   </tbody> 
+      </table>
 
 1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
 

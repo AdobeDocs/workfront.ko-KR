@@ -6,26 +6,29 @@ description: 할당 백분율은 할당된 자원이 하루 동안 작업에 대
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '509'
 ht-degree: 1%
 
 ---
 
 # 작업에 대한 사용자 또는 역할 할당 백분율 관리
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
 
-</div> 
--->
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+
+</div>
+
 
 할당 백분율은 할당된 자원이 하루 동안 작업에 대해 작업할 계획인 시간을 나타냅니다. 작업 기간 동안 자원이 할당되는 근무일(사용자 또는 프로젝트 일정에 따라)의 백분율입니다.
+
+작업에 대한 고급 할당을 수행할 때 할당 백분율을 수정할 수 있습니다.
 
 >[!NOTE]
 >
@@ -56,7 +59,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>개체 권한</td>
    <td><p>작업에 대한 또는 더 높은 권한 부여</p>
-   <p>작업 편집 상자에서 할당 비율을 업데이트하는 권한 편집</p></td>
+   <p><span class="preview">이(가) 이전 환경을 사용하여 작업을 편집할 때 작업 편집 상자에서 할당 비율을 업데이트하도록 권한을 편집합니다. 새 경험에서 작업을 편집할 때 작업 편집 상자에서 할당 비율을 더 이상 관리할 수 없습니다.</span></p> <p>자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">작업 편집</a>을 참조하세요.</p>.</td>
   </tr>
  </tbody>
 </table>
@@ -66,9 +69,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 +++
 
 <!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation percentage in the Edit Task box</p>
-To this:
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
 <p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
 -->
 
@@ -85,11 +87,7 @@ To this:
 ## 작업에 대한 사용자 또는 역할 비율 할당 수정
 
 1. 퍼센트 할당을 변경할 자원에 대한 작업으로 이동합니다.
-1. 작업 이름 옆에 있는 **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
-
-   또는
-
-   작업 헤더의 **할당** 영역을 클릭한 다음 **고급**&#x200B;을 클릭합니다.
+1. 작업 헤더의 **할당** 영역을 클릭한 다음 **고급**&#x200B;을 클릭합니다.
 
 1. 작업의 **기간 유형**&#x200B;이(가) 다음 중 하나인지 확인하십시오.
 
@@ -101,7 +99,7 @@ To this:
    >* 계산된 할당 기간 유형의 경우 Workfront에서는 다음 수식을 사용하여 각 할당자의 할당 백분율을 계산합니다. `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* 단순 기간 유형의 경우 할당 퍼센트가 아니라 각 자원에 할당된 시간을 예상할 수 있습니다.
 
-1. **할당**&#x200B;을 클릭한 다음 각 작업 할당자에 대해 **할당**&#x200B;을 수정합니다.
+1. 각 작업 할당자에 대한 **할당** 필드를 수정합니다.
 
    사용자 및 작업 역할 할당에 대한 할당 퍼센트만 수정할 수 있습니다.
 

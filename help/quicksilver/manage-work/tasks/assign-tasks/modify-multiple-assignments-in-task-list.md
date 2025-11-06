@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 0%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
 
-</div> -->
+</div>
 
 작업 할당을 관리할 때 작업 목록의 일괄 편집 기능을 사용하여 한 번에 여러 작업에 대해 동시에 수정할 수 있습니다.
 
@@ -125,83 +125,88 @@ When assigning users to work, their availability according to their schedules af
 
 1. 할당을 수정할 작업을 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
 
-   **작업 편집** 상자가 <!--<span class="preview">in the new experience</span>--> 열립니다.
-
-   <!--1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.</span> 
-   <span class="preview">The **Edit Tasks** box opens in the old experience.</span>-->
-
-1. **할당** 섹션으로 이동합니다.
-
-   >[!IMPORTANT]
-   >
-   >피할당자를 제거하면 작업 시간 및 할당 비율에 영향을 줄 수 있습니다. 자세한 내용은 이 문서의 섹션 [피할당자 제거가 작업 시간 및 할당 비율에 미치는 방식](#how-removing-assignees-affects-task-hours-and-allocation-percentages)을 참조하십시오.
-1. 다음 중 하나를 수행하여 피할당자를 추가하거나 제거합니다.
-
-   * 새 피할당자를 추가하려면:
-
-      1. **할당** 섹션에서 **피할당자**&#x200B;를 선택합니다.
-
-         선택한 모든 작업에서 공통되는 정보가 표시됩니다. 예를 들어, 동일한 사용자가 모든 작업에 할당되면 해당 사용자는 **피할당자** 열에 표시됩니다. 선택한 작업에서 정보가 공통되지 않으면 정보가 표시되지 않습니다.
-
-      1. 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 할당이 추가되고 선택한 작업에 대한 현재 할당이 대체되지 않습니다.
-
-
-     >[!TIP]
-     >
-     > * 여러 사용자, 작업 역할 또는 팀을 할당할 수 있습니다. 활성 사용자, 작업 역할 및 팀만 할당할 수 있습니다.
-     >   
-     > * 사용자 할당을 추가할 때 아바타, 사용자의 기본 역할 또는 이메일 주소에 따라 이름이 동일한 사용자가 구분되는지 확인합니다. 사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다. 사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
-     > 
-     >   비활성화되기 전에 사용자, 작업 역할 또는 팀이 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
-     >   
-     >     * 작업 항목을 활성 리소스에 재할당합니다.
-     >     * 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
-
-
-   * 개별 피할당자를 제거하려면 다음 작업을 수행하십시오.
-
-      1. 피할당자가 할당 목록에 표시되면 제거할 피할당자의 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭합니다.
-
-         또는
-
-         (조건부) 선택한 작업 중 일부에만 할당되어 제거할 할당자가 할당 섹션에 표시되지 않는 경우 **할당자 제거**&#x200B;를 클릭하고 제거할 할당자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
-
-   * 기존 피할당자를 모두 제거하려면 다음 작업을 수행하십시오.
-
-      1. **기존 피할당자 모두 제거**&#x200B;를 클릭한 다음 **예, 모든 피할당자 삭제**&#x200B;를 클릭합니다.
-
-         이렇게 하면 공통 할당자(편집 대화 상자에 표시된 할당자)뿐만 아니라 선택한 모든 작업의 모든 할당자가 제거됩니다.
-
-     작업에서 사용자를 제거하면 작업 시간 및 할당 비율에 영향을 줄 수 있습니다.
-
-     자세한 내용은 [작업 할당 수정 개요](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)를 참조하십시오.
-
-1. (선택 사항) 피할당자에 대해 다음 옵션 중 하나를 수정합니다.
-
-   * (조건부) **할당 % 또는 시간**: 새 할당 백분율 또는 시간을 지정하십시오.
-
-     >[!NOTE]
-     >
-     >편집 중인 모든 작업에서 기간 유형이 동일한 경우에만 이 옵션을 수정할 수 있습니다. 기간 유형이 계산된 작업량 또는 작업량 고정 유형인 경우 할당 %를 갱신할 수 있습니다. 기간 유형이 단순하면 시간을 업데이트할 수 있습니다. 기간 유형에 대한 자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오.
-     >
-     >
-     >필드가 비어 있으면 작업 간에 값이 다르지만 수정할 수 있습니다.
-
-   * **작업 소유자**: 피할당자를 편집 중인 모든 작업에 대한 작업의 소유자로 설정하려면 이 옵션을 선택하십시오.
-   * **피할당자의 역할**: 드롭다운 목록에서 역할을 선택합니다. 선택하지 않으면 Adobe Workfront이 자동으로 사용자의 기본 역할을 선택합니다.
-
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
-
-<!--
-1. <span class="preview"> (Optional) Click **Try new experience** in the upper-right corner of the **Edit Tasks** box. The Edit Tasks box opens in the new experience. Do one of the following:</span>
+   **작업 편집** 상자가 새 환경에서 <span class="preview">열립니다. 다음 중 하나를 실행하십시오.</span>
 
    <div class="preview">
 
-   * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
-   * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
-   * Click Assign to me to assign the selected tasks to yourself.
+   * 피할당자를 추가하려면 **사람, 역할 또는 팀 검색** 필드에 피할당자의 이름을 입력한 다음 목록에 표시될 때 선택하십시오.
+   * 피할당자를 제거하려면 이름 오른쪽에 있는 **x** 아이콘을 클릭하십시오. 모든 작업에 공통되는 할당자만 목록에 표시됩니다.
+   * 나에게 할당 을 클릭하여 선택한 작업을 자신에게 할당합니다.
 
    </div>
-1. <span class="preview">(Conditional) When using the new experience, click **Save**.</span>
 
--->
+1. <span class="preview">(조건부) 새 환경을 사용할 때는 **저장**.</span>을 클릭하세요.
+
+1. <span class="preview">(선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**&#x200B;을 클릭합니다.</span>
+
+   <span class="preview">이전 환경에서 **작업 편집** 상자가 열립니다.</span>
+
+   >[!TIP]
+   >
+   >이전 경험은 기본적으로 프로덕션 환경에서 사용할 수 있습니다.
+
+1. (조건부) 이전 경험에서 다음을 수행하여 피할당자를 수정합니다.
+
+   1. **할당** 섹션으로 이동합니다.
+
+      >[!IMPORTANT]
+      >
+      >피할당자를 제거하면 작업 시간 및 할당 비율에 영향을 줄 수 있습니다. 자세한 내용은 이 문서의 섹션 [피할당자 제거가 작업 시간 및 할당 비율에 미치는 방식](#how-removing-assignees-affects-task-hours-and-allocation-percentages)을 참조하십시오.
+
+   1. 다음 중 하나를 수행하여 피할당자를 추가하거나 제거합니다.
+
+      * 새 피할당자를 추가하려면:
+
+         1. **할당** 섹션에서 **피할당자**&#x200B;를 선택합니다.
+
+            선택한 모든 작업에서 공통되는 정보가 표시됩니다. 예를 들어, 동일한 사용자가 모든 작업에 할당되면 해당 사용자는 **피할당자** 열에 표시됩니다. 선택한 작업에서 정보가 공통되지 않으면 정보가 표시되지 않습니다.
+
+         1. 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 할당이 추가되고 선택한 작업에 대한 현재 할당이 대체되지 않습니다.
+
+
+        >[!TIP]
+        >
+        > * 여러 사용자, 작업 역할 또는 팀을 할당할 수 있습니다. 활성 사용자, 작업 역할 및 팀만 할당할 수 있습니다.
+        >   
+        > * 사용자 할당을 추가할 때 아바타, 사용자의 기본 역할 또는 이메일 주소에 따라 이름이 동일한 사용자가 구분되는지 확인합니다. 사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다. 사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
+        > 
+        >   비활성화되기 전에 사용자, 작업 역할 또는 팀이 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
+        >   
+        >     * 작업 항목을 활성 리소스에 재할당합니다.
+        >     * 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
+
+
+      * 개별 피할당자를 제거하려면 다음 작업을 수행하십시오.
+
+         1. 피할당자가 할당 목록에 표시되면 제거할 피할당자의 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭합니다.
+
+            또는
+
+            (조건부) 선택한 작업 중 일부에만 할당되어 제거할 할당자가 할당 섹션에 표시되지 않는 경우 **할당자 제거**&#x200B;를 클릭하고 제거할 할당자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
+
+      * 기존 피할당자를 모두 제거하려면 다음 작업을 수행하십시오.
+
+         1. **기존 피할당자 모두 제거**&#x200B;를 클릭한 다음 **예, 모든 피할당자 삭제**&#x200B;를 클릭합니다.
+
+            이렇게 하면 공통 할당자(편집 대화 상자에 표시된 할당자)뿐만 아니라 선택한 모든 작업의 모든 할당자가 제거됩니다.
+
+        작업에서 사용자를 제거하면 작업 시간 및 할당 비율에 영향을 줄 수 있습니다.
+
+        자세한 내용은 [작업 할당 수정 개요](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)를 참조하십시오.
+
+   1. (선택 사항) 피할당자에 대해 다음 옵션 중 하나를 수정합니다.
+
+      * (조건부) **할당 % 또는 시간**: 새 할당 백분율 또는 시간을 지정하십시오.
+
+      >[!NOTE]
+      >
+      >편집 중인 모든 작업에서 기간 유형이 동일한 경우에만 이 옵션을 수정할 수 있습니다. 기간 유형이 계산된 작업량 또는 작업량 고정 유형인 경우 할당 %를 갱신할 수 있습니다. 기간 유형이 단순하면 시간을 업데이트할 수 있습니다. 기간 유형에 대한 자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오.
+      >
+      >
+      >필드가 비어 있으면 작업 간에 값이 다르지만 수정할 수 있습니다.
+
+      * **작업 소유자**: 피할당자를 편집 중인 모든 작업에 대한 작업의 소유자로 설정하려면 이 옵션을 선택하십시오.
+      * **피할당자의 역할**: 드롭다운 목록에서 역할을 선택합니다. 선택하지 않으면 Adobe Workfront이 자동으로 사용자의 기본 역할을 선택합니다.
+
+   1. **변경 내용 저장**&#x200B;을 클릭합니다.
+

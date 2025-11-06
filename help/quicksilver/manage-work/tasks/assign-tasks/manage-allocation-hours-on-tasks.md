@@ -6,9 +6,9 @@ description: 작업에 사용자 또는 역할을 할당할 때 작업을 완료
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,20 @@ ht-degree: 0%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+<div class="preview">
 
-</div> 
--->
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+
+</div>
 
 할당 시간은 할당된 자원이 작업에 대해 작업할 계획인 총 시간을 나타냅니다. 시간은 작업 기간 동안 주어진 일 또는 평일, 주 또는 월에 사용자가 할당된 시간을 나타냅니다.
+
+작업에 대한 고급 할당을 수행할 때 할당 시간을 수정할 수 있습니다.
 
 >[!NOTE]
 >
@@ -58,7 +61,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>개체 권한</td>
    <td><p>작업에 대한 또는 더 높은 권한 부여</p>
-   <p>작업 편집 상자에서 할당 시간을 업데이트할 권한 편집</p></td>
+   <p>이전 환경을 사용하여 작업 <span class="preview">을(를) 편집할 때 작업 편집 상자에서 할당 시간을 업데이트할 수 있는 권한을 편집합니다. 새 경험에서 작업을 편집할 때 작업 편집 상자에서 할당 시간을 더 이상 관리할 수 없습니다.</span></p> <p>자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">작업 편집</a>을 참조하세요.</p>.</td>
   </tr>
  </tbody>
 </table>
@@ -67,12 +70,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-<!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation hours in the Edit Task box</p>
-To this:
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
+<!--Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
+<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.-->
+
 
 ## 작업 할당 시간을 수정하기 위한 고려 사항
 
@@ -95,14 +96,9 @@ To this:
 ## 작업에 대한 사용자 또는 역할 할당 시간 수정
 
 1. 할당 시간을 변경할 할당에 대한 작업으로 이동합니다.
-1. 작업 이름 옆에 있는 **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **편집**, **할당**&#x200B;을 클릭합니다.
-
-   또는
-
-   작업 헤더의 **할당** 영역을 클릭한 다음 **고급**&#x200B;을 클릭합니다.
-
+1. 작업 헤더의 **할당** 영역을 클릭한 다음 **고급**&#x200B;을 클릭합니다.
 1. 작업의 **기간 유형**&#x200B;이(가) **단순**&#x200B;인지 확인하십시오.
-1. 각 작업 할당자에 대한 **할당**&#x200B;을(를) 수정합니다. 작업의 전체 기간 동안 이 작업에 대한 각 할당에 대한 전체 할당입니다. 작업의 전체 계획된 시간도 업데이트할 수 있습니다.
+1. 각 작업 할당자에 대한 **할당** 필드를 수정합니다. 작업의 전체 기간 동안 이 작업에 대한 각 할당에 대한 전체 할당입니다. 작업의 전체 **계획된 시간**&#x200B;도 업데이트할 수 있습니다.
 
    ![할당 수정](assets/advanced-assignments-duration-type-allocations.png)
 

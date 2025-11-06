@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '2212'
 ht-degree: 1%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 1%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove production/ preview and old/ new experience references at prod-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
 
-</div> 
--->
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+
+</div>
 
 작업을 사용자, 작업 역할 또는 팀에 할당하여 작업 완료를 담당하는 사람을 표시할 수 있습니다. 한 번에 두 개 이상의 리소스에 작업을 할당할 수 있습니다.
 
@@ -236,13 +236,20 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 작업 목록에서 여러 작업을 선택합니다.
 1. **편집**&#x200B;을 클릭합니다.
 
-   **작업 편집** 대화 상자가 <!--<span class="preview">in the new experience</span>--> 열립니다.
+   **작업 편집** 대화 상자가 새 환경에서 <span class="preview">열립니다.</span>
 
-   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+1. 새 환경을 사용하여 <span class="preview">작업을 계속 할당합니다.</span>
 
-   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
+   <span class="preview">자세한 내용은 이 문서에서 [새 경험의 목록에서 여러 작업을 일괄적으로 할당](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) 섹션을 참조하십시오.</span>
 
-1. **할당** 영역에서 **할당자** 상자를 선택한 다음 모든 작업에 할당할 사용자, 작업 역할 또는 팀의 이름을 입력하세요.
+1. <span class="preview">(선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 다시 전환**&#x200B;을 클릭하여 이전 경험을 엽니다.</span>
+
+   >[!TIP]
+   >
+   >프로덕션 환경에서 작업을 할당하는 것은 이전 경험에만 사용할 수 있습니다.
+
+
+1. (조건부) 이전 환경을 사용하여 **할당** 영역에서 **할당자** 상자를 선택한 다음 모든 작업에 할당할 사용자, 작업 역할 또는 팀의 이름을 입력하세요.
 
    >[!IMPORTANT]
    >
@@ -271,53 +278,51 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 1. (선택 사항 및 조건부) 할당 대상 또는 할당 필드가 작업 목록에 표시되면 작업에 대해 이러한 열 중 하나를 클릭한 다음 할당자의 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭하여 작업에서 제거합니다.
 
-<!--
+
 <div class="preview">
 
-### Assign multiple tasks in bulk from a list in the new experience
+### 새 경험의 목록에서 여러 작업을 일괄적으로 할당
 
-1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
-1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
-
-   >[!IMPORTANT]
-   >
-   >You cannot edit tasks in bulk when saving tasks manually on a project.
-
-1. Select several tasks in the tasks list. 
-1. Click **Edit**.
-
-   The **Edit Tasks** dialog box opens.
-
-1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
-
-   Or 
-
-   Click **Assign to me** to assign it to yourself.
+1. 미리보기 환경에서 일괄 할당할 작업 목록으로 이동합니다.
+1. (조건부) 프로젝트 아래 작업 목록에 있는 경우 **자동 저장** 옵션이 선택되어 있는지 확인하십시오.
 
    >[!IMPORTANT]
    >
-   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+   >프로젝트에 작업을 수동으로 저장할 때 작업을 일괄적으로 편집할 수 없습니다.
 
-1. Click inside the **Duration Type** field and choose a Duration Type. 
+1. 작업 목록에서 여러 작업을 선택합니다.
+1. **편집**&#x200B;을 클릭합니다.
 
-   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   **작업 편집** 대화 상자가 열립니다.
 
-1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+1. **할당** 영역에서 제공된 **사람, 역할 또는 팀 검색** 필드에 사용자, 팀 또는 역할 이름을 입력한 다음 목록에 표시될 때 클릭합니다
 
-   * Duration
-   * Planned Hours
+   또는
 
-      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+   본인에게 할당하려면 **나에게 할당**&#x200B;을 클릭하세요.
 
-1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+   >[!IMPORTANT]
+   >
+   >작업이 이미 할당된 경우 여기에 표시하는 리소스는 작업에 있는 기존 리소스를 대체하는 대신 작업에 추가됩니다.
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+1. **기간 유형** 필드 내부를 클릭하고 기간 유형을 선택합니다.
+
+   작업의 기간 유형에 대한 자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오.
+
+1. (조건부) 선택한 **기간 유형**&#x200B;에 따라 다음 필드를 업데이트합니다.
+
+   * 기간
+   * 계획된 시간
+
+     자세한 내용은 [작업 편집](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
+
+1. (선택 사항) 모든 작업에서 기존 피할당자를 제거하려면 **사람, 역할 또는 팀 검색** 필드에서 이름 옆에 있는 **x**&#x200B;을 클릭합니다.
+
+1. **저장**&#x200B;을 클릭합니다.
+1. (선택 사항 및 조건부) **할당 대상** 또는 **할당** 필드가 작업 목록에 표시되면 작업에 대해 이러한 열 중 하나를 클릭한 다음 피할당자 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭하여 작업에서 제거합니다.
 
 
 </div>
--->
-
 
 
 <!--
