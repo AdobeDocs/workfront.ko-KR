@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 3ba6468327ca390ddc75ff1c18440283daa6eee4
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,19 @@ ht-degree: 0%
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
 
-<!--## New field search box in the Filters, Fields, and Row colors icons in Planning views
+## Planning 보기의 필터, 필드 및 행 색상 아이콘에서 새 필드 검색 상자
 
 >[!NOTE]
 >
->Preview: October 30, 2025 
->Production fast release: November 13, 2025 
->Production for everyone:  January 15, 2026 
+>미리 보기: 2025년 11월 6일
+>프로덕션 빠른 릴리스: 2025년 12월 11일
+>모두를 위한 프로덕션: 2026년 1월 15일
 
+이제 레코드 유형 보기에서 보기 요소를 작성할 때 특정 필드를 검색할 수 있습니다. 필터, 정렬, 그룹화하거나 필드 또는 행 색상을 구성할 때 검색 상자를 추가했습니다. 이 기능이 향상되기 전에는 사용 가능한 필드 목록을 스크롤하기만 하면 됩니다.
 
-You can now search for a specific field when building a view element in record type view. The new search boxes have been added when you build a filter, sort, grouping, or when you configure your fields or row colors. Prior to this enhancement, you could simply scroll through the list of available fields.
-This improvement is available in all views.
+이 개선 사항은 모든 레코드 유형 보기에서 사용할 수 있습니다.
 
-For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).-->
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
 
 ## 글로벌 레코드 유형 및 이를 다른 작업 공간에 기존 레코드 유형으로 추가하는 기능
@@ -42,8 +42,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >미리 보기: 2025년 10월 16일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 11월 13일
->&#x200B;>모두를 위한 프로덕션: 2026년 1월 15일
+>프로덕션 빠른 릴리스: 2025년 11월 13일
+>모두를 위한 프로덕션: 2026년 1월 15일
 
 일반적인 워크플로우를 사용하여 여러 팀 조직을 위한 Workfront Planning을 구현할 때 각 팀의 작업 영역에 추가하여 작업을 캡처 및 관리할 수 있는 주요 레코드 유형(예: 캠페인 또는 결과물)에 대한 일관된 구조와 메타데이터를 정의해야 할 수 있습니다.
 
@@ -66,8 +66,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >미리 보기: 2025년 10월 16일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 11월 13일
->&#x200B;>모두를 위한 프로덕션: 2026년 1월 15일
+>프로덕션 빠른 릴리스: 2025년 11월 13일
+>모두를 위한 프로덕션: 2026년 1월 15일
 
 각 레코드 유형에 대해 30개의 연결 필드 제한을 도입했습니다.
 
@@ -80,8 +80,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >미리 보기: 2025년 10월 16일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 11월 13일
->&#x200B;>모두를 위한 프로덕션: 2026년 1월 15일
+>프로덕션 빠른 릴리스: 2025년 11월 13일
+>모두를 위한 프로덕션: 2026년 1월 15일
 
 단일 또는 다중 선택 필드에 필드 선택 사항을 추가하면 Workfront은 이제 각 선택 사항에 사용자에게 친숙한 고유한 값을 할당합니다. 이 개선 전에 Workfront에서는 API 호출 및 기타 통합에서 이해하고 사용하기 어려운 영숫자 ID를 생성했습니다.
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
+source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
 workflow-type: tm+mt
-source-wordcount: '8992'
+source-wordcount: '9336'
 ht-degree: 0%
 
 ---
@@ -34,33 +34,68 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 ## 프로젝트
 
+### 템플릿 작업으로 작업할 때의 새로운 경험
+
+**미리 보기 릴리스: 2025년 11월 6일, 프로덕션 릴리스: 2025년 11월 13일 주에 시작**
+
+템플릿 작업 시 경험을 업데이트했습니다.
+
+>[!NOTE]
+>
+>제한된 시간 동안 템플릿 작업을 추가하거나 편집하는 이전 경험과 새 경험 사이를 전환할 수 있습니다.
+
+다음 변경 사항이 이 업데이트에 포함되어 있습니다.
+
+* 이제 템플릿 작업의 하위 작업 섹션에 있는 템플릿 작업 목록이 Workfront의 대부분의 목록과 일치합니다
+
+* 새로 만들기 및 템플릿 작업 편집 상자에는 새로운 모양과 느낌이 있습니다
+
+* 이제 템플릿 작업을 편집할 때 외부 조회 사용자 정의 필드를 업데이트할 수 있습니다
+
+* 템플릿 작업에 리소스를 할당하는 새로운 경험이 있습니다. 이제 하나의 작업을 편집하거나 여러 작업을 일괄적으로 편집할 때 새 경험을 사용할 수 있습니다. 작업 편집 상자에서 다음 필드가 제거되었습니다.
+
+* 할당
+   * 소유자 또는 작업 소유자
+   * 할당자의 역할
+
+템플릿 작업에 대한 고급 할당을 수행할 때 제거된 필드를 계속 찾을 수 있습니다.
+
+자세한 내용은 [템플릿 작업 편집](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)을 참조하십시오.
+
+
+### 일괄 편집 및 단일 또는 일괄 할당 작업을 수행할 때의 새로운 경험
+
+**미리 보기 릴리스: 2025년 11월 6일, 프로덕션 릴리스: 2025년 11월 13일 주에 시작**
+
+단일 작업을 편집하거나 일괄 편집할 때 작업 편집 상자를 업데이트했습니다.
+
+>[!NOTE]
+>
+>제한된 시간 동안 작업 편집을 위해 이전 경험과 새 경험 사이를 전환할 수 있습니다.
+
+다음 변경 사항이 이 업데이트에 포함되어 있습니다.
+
+* 작업을 일괄 업데이트할 때 사용자 정의 표현식 다시 계산 옵션이 제거되었으며, 여러 작업을 선택한 후 작업 목록의 기타 메뉴에 추가되었습니다.
+
+* 이제 외부 조회 사용자 정의 필드를 업데이트할 수 있습니다
+
+* 작업에 리소스를 할당하는 새로운 경험이 있습니다. 이제 하나의 작업을 편집하거나 여러 작업을 일괄적으로 편집할 때 모두 사용할 수 있습니다. 작업 편집 상자에서 다음 필드가 제거되었습니다.
+
+   * 할당
+   * 소유자 또는 작업 소유자
+   * 할당자의 역할
+
+작업에 대한 고급 할당을 수행할 때 제거된 필드를 계속 찾을 수 있습니다.
+
+자세한 내용은 [작업 편집](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
+
 ### 템플릿을 사용하여 작업을 프로젝트로 전환할 때 인터페이스 업데이트
 
-**미리 보기 릴리스: 2025년 10월 30일, 프로덕션 릴리스: 2025년 11월 6일에 시작**
+**미리 보기 릴리스: 2025년 10월 30일, 프로덕션 릴리스: 2025년 11월 6일 주에 시작**
 
 템플릿을 사용하여 작업을 프로젝트로 전환할 때 프로젝트로 전환 상자를 업데이트했습니다. 이제 상자의 디자인이 프로젝트 편집 상자와 일치합니다.
 
 자세한 내용은 [작업을 프로젝트로 변환](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)을 참조하십시오.
-
-<!--### New experience when bulk editing and single- or bulk-assigning tasks
-
-**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
-
-We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
-
-* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
-
-* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
-
-* Allocations
-* Owner or Task Owner
-* Assignee's Role
-
-You can still find the removed fields when making advanced assignments on tasks.
-
-You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
-
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
 ### 벌크 편집 및 단일 또는 일괄 할당 문제를 수행할 때의 새로운 경험
 
@@ -72,11 +107,13 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 * 문제를 일괄적으로 업데이트할 때 사용자 정의 표현식 다시 계산 옵션이 제거되었습니다. 여러 문제를 선택한 후 문제 목록의 기타 메뉴에 옵션이 추가되었습니다.
 
+* 이제 문제를 편집할 때 외부 조회 사용자 정의 필드를 업데이트할 수 있습니다.
+
 * 문제에 리소스를 할당하는 새로운 경험이 있습니다. 이제 하나의 문제를 편집하거나 여러 문제를 일괄적으로 편집할 때 모두 사용할 수 있습니다. 문제 편집 상자에서 다음 필드가 제거되었습니다.
 
-* 할당
-* 소유자 또는 문제 소유자
-* 할당자의 역할
+   * 할당
+   * 소유자 또는 문제 소유자
+   * 할당자의 역할
 
 문제에 대한 고급 할당을 수행할 때 제거된 필드를 업데이트할 수 있습니다.
 
