@@ -6,9 +6,9 @@ description: 목록의 여러 문제에 대한 사용자 할당 수정
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 사용자 할당을 여러 문제로 동시에 수정할 수 있습니다. 문제를 편집하거나 한 번에 하나씩 할당하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -107,76 +107,59 @@ ht-degree: 1%
 
    **문제 편집**&#x200B;이 표시됩니다. 선택한 항목의 수가 페이지의 왼쪽 위 모서리에 표시됩니다.
 
-1. (조건부) 프로덕션 환경에서 다음을 수행합니다.
+1. 왼쪽 패널에서 **할당**&#x200B;을 클릭한 다음 제거할 할당자 옆에 있는 **x** 아이콘을 클릭합니다.
 
-   1. **할당** 섹션으로 이동한 다음 **피할당자**&#x200B;를 선택합니다.
+   >[!TIP]
+   >
+   >선택한 모든 문제에 할당된 할당자만 **할당** 영역에 표시됩니다.
 
-      ![할당 영역](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![일괄 편집 문제의 할당 영역](assets/assignments-area-on-bulk-edit-issues.png)
 
-   1. 다음 중 하나를 수행하십시오.
+1. 선택한 모든 문제에 피할당자를 추가하려면 사용자, 역할 또는 팀의 이름을 입력하십시오.
 
-      1. 새 피할당자를 추가하려면:
+   >[!TIP]
+   >
+   >여러 사용자, 작업 역할 또는 팀을 할당할 수 있습니다. 활성 사용자, 작업 역할 및 팀만 할당할 수 있습니다.
+   >
+   >비활성화되기 전에 사용자, 작업 역할 또는 팀이 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
+   >
+   >* 작업 항목을 활성 리소스에 재할당합니다.
+   >* 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
 
-         1. 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 할당이 추가되고 선택한 문제에 대한 현재 할당이 대체되지 않습니다.
+   추가된 할당자는 기존 할당자에 추가됩니다. 선택한 각 문제에 대해 기존 항목을 대체하지 않습니다.
 
+1. (선택 사항) 모든 문제를 자신에게 할당하려면 **나에게 할당**&#x200B;을 클릭합니다.
+1. **저장**&#x200B;을 클릭합니다.
+
+
+   <!--Old functionality for assignments for issues - before November 2025:
+   1. (Conditional) In the Production environment, do the following: 
+   1. Go to the **Assignments** section, then select **Assignee**.
+      ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   1. Do one of the following:
+      1. To add a new assignee:
+         1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected issues.
          >[!TIP]
          >
-         >여러 사용자, 작업 역할 또는 팀을 할당할 수 있습니다. 활성 사용자, 작업 역할 및 팀만 할당할 수 있습니다.
+         >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
          >
-         >비활성화되기 전에 사용자, 작업 역할 또는 팀이 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
+         >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
          >
-         >* 작업 항목을 활성 리소스에 재할당합니다.
-         >* 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
-
-         선택한 모든 문제에서 공통되는 정보가 표시됩니다. 예를 들어, 모든 문제에 동일한 사용자가 할당되면 해당 사용자는 **피할당자** 열에 표시됩니다. 선택한 문제에서 정보가 일반적이지 않으면 정보가 표시되지 않습니다.
-
-      1. 개별 피할당자를 제거하려면 다음 작업을 수행하십시오.
-
-         1. 피할당자가 할당 목록에 표시되면 제거할 피할당자의 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭합니다.
-
-            또는
-
-            선택한 문제 중 일부에만 할당되어 제거하려는 할당자가 할당 섹션에 표시되지 않는 경우 **할당자 제거**&#x200B;를 클릭하고 제거할 할당자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
-
-         1. 제거할 다른 피할당자를 추가하려면 **피할당자 제거**&#x200B;를 다시 클릭하십시오.
-
-      1. 기존 피할당자를 모두 제거하려면 다음 작업을 수행하십시오.
-
-         1. **기존 피할당자 모두 제거**&#x200B;를 클릭한 다음 **예, 모든 피할당자 삭제**&#x200B;를 클릭합니다.
-
-            이렇게 하면 공통 할당자(편집 대화 상자에 표시된 할당자)뿐만 아니라 선택한 모든 문제에 대한 모든 할당자가 제거됩니다.
-
-         1. (선택 사항) 문제와 연관시키기 위해 선택한 피할당자에 대해 다음 옵션 중 하나를 수정합니다.
-
-            * **문제 소유자:** 라디오 단추를 선택하여 문제 소유자로 지정된 피할당자를 나타냅니다. 선택하지 않은 경우 Adobe Workfront은 첫 번째 할당자를 문제 소유자로 지정합니다. 팀 할당에는 사용할 수 없습니다.
-            * **피할당자의 역할**: 드롭다운 목록에서 역할을 선택합니다. 선택하지 않으면 Workfront이 자동으로 사용자의 기본 역할을 선택합니다.
-
-      1. **변경 내용 저장**&#x200B;을 클릭합니다.
-
-1. <span class="preview">미리 보기 환경에서 다음을 수행합니다.</span>
-
-   1. <span class="preview">왼쪽 패널에서 **할당**&#x200B;을 클릭한 다음 제거할 피할당자 옆에 있는 **x** 아이콘을 클릭합니다. </span>
-
-      >[!TIP]
-      >
-      ><span class="preview">선택한 모든 문제에 할당된 피할당자만 **할당** 영역에 표시됩니다. </span>
-
-      ![일괄 편집 문제의 할당 영역](assets/assignments-area-on-bulk-edit-issues.png)
-
-   1. <span class="preview">선택한 모든 문제에 피할당자를 추가하려면 사용자, 역할 또는 팀의 이름을 입력하세요. </span>
-
-      >[!TIP]
-      >
-      >여러 사용자, 작업 역할 또는 팀을 할당할 수 있습니다. 활성 사용자, 작업 역할 및 팀만 할당할 수 있습니다.
-      >
-      >비활성화되기 전에 사용자, 작업 역할 또는 팀이 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
-      >
-      >* 작업 항목을 활성 리소스에 재할당합니다.
-      >* 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
-
-      <span class="preview">추가된 피할당자가 기존 피할당자에 추가됩니다. 선택한 각 문제에 대해 기존 항목을 대체하지 않습니다. </span>
-   1. <span class="preview">(선택 사항) 모든 문제를 자신에게 할당하려면 **나에게 할당**&#x200B;을 클릭하세요.</span>
-   1. <span class="preview">**저장**&#x200B;을 클릭합니다. </span>
+         >* Reassign the work item to active resources.
+         >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+          Information that is common across all issues selected displays. For example, if the same user is assigned to all issues, that user displays in the **Assignee**  column. If information is not common across the issues selected, no information displays.
+      1. To remove individual assignees:
+         1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+            Or
+            If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the issues that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+         1. Click  **Remove Assignee** again to add another assignee to remove.
+      1. To remove all existing assignees:
+         1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
+            This removes not only common assignees (assignees that are displayed in the edit  dialog box), but also all assignees on all the selected issues.
+         1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
+          * **Issue Owner:**  Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
+            * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
+      1. Click **Save Changes**.-->
 
 
 

@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '2741'
-ht-degree: 2%
+source-wordcount: '2532'
+ht-degree: 3%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 2%
 
 <!--Audited: 10/2025-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 사용자가 귀하와 문제를 공유한 경우 귀하가 만든 문제 또는 다른 사용자가 만든 문제에 대한 정보를 편집할 수 있습니다.
 
@@ -348,14 +348,9 @@ ht-degree: 2%
    >* 작업 항목을 활성 리소스에 재할당합니다.
    >* 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
 
-1. (조건부) 문제를 편집 중인 환경에 따라 다음 중 하나를 수행합니다.
-
-   1. 프로덕션 환경에서:
-
-      1. 피할당자의 이름 위로 마우스를 이동하고 **기본 피할당자로 설정**&#x200B;을 클릭하여 피할당자가 문제에 대한 기본 피할당자인지 여부를 나타냅니다. 팀은 문제의 기본 피할당자가 될 수 없습니다.
-
-      1. 다음 필드를 업데이트합니다.
-
+   <!--1. In the Production environment:
+         1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
+         1. Update the following fields: 
          <table style="table-layout:auto"> 
          <col> 
          </col> 
@@ -363,30 +358,27 @@ ht-degree: 2%
          </col> 
          <tbody> 
          <tr> 
-            <td role="rowheader">계획된 시간</td> 
-            <td> <p>문제의 할당자가 완료하는 데 걸리는 실제 시간입니다. 문제에 대한 계획된 시간 수를 입력합니다.<br></p> <p><b>메모</b></p>  <p>문제의 계획된 시간을 변경해도 문제 계획된 완료 일자는 변경되지 않습니다. </p> </td> 
+            <td role="rowheader">Planned Hours</td> 
+            <td> <p>This is the amount of actual time it would take the assignees of the issue to complete it. Type the number of Planned Hours for the issue.<br></p> <p><b>NOTE</b></p>  <p>Changing the Planned Hours of the issue will not change the issue Planned Completion Date. </p> </td> 
          </tr> 
          <tr data-mc-conditions=""> 
-            <td role="rowheader">할당자의 역할</td> 
-            <td> <p>사용자를 피할당자로 선택한 경우 <strong>피할당자의 역할</strong> 드롭다운 메뉴에서 역할을 선택합니다. 이 문제에 대해 피할당자가 수행할 수 있는 역할입니다. </p> <p><b>팁</b>
-
-         프로필의 각 피할당자와 연결된 작업 역할만 드롭다운 메뉴에 나타납니다.</p> </td>
+            <td role="rowheader">Assignee's Role</td> 
+            <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p><b>TIP</b>
+            
+            Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>
+         </table>-->
 
 
+1. (선택 사항) 문제를 자신에게 할당하려면 **나에게 할당**&#x200B;을 클릭합니다.
+1. (선택 사항) **계획된 시간** 필드를 업데이트합니다.
 
-   1. <span class="preview">(조건부) 미리 보기 환경에서 다음 중 하나를 수행합니다.</span>
+   **계획된 시간**&#x200B;은(는) 문제 할당자가 완료하는 데 소요되는 시간입니다.
 
-      * <span class="preview">자신에게 문제를 할당하려면 **내게 할당**&#x200B;을 클릭하세요. </span>
-      * <span class="preview">**계획된 시간** 필드를 업데이트합니다.</span>
-
-        **계획된 시간**&#x200B;은(는) 문제 할당자가 완료하는 데 소요되는 시간입니다.
-
-        >[!NOTE]
-        >
-        >문제의 계획된 시간을 변경해도 문제 계획된 완료 일자는 변경되지 않습니다.
+   >[!NOTE]
+   >
+   >문제의 계획된 시간을 변경해도 문제 계획된 완료 일자는 변경되지 않습니다.
 
 1. 모든 문제에서 할당을 제거하려면 [문제 할당](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)을 참조하세요.
 

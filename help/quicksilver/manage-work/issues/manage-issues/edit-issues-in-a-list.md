@@ -6,9 +6,9 @@ description: 개별 문제를 편집하거나 문제 목록 또는 보고서에�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 1%
 <!--Audited: 10/2025-->
 
 
-<div class="preview">
+<!--<div class="preview"> 
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 개별 문제를 편집하거나 문제 목록 또는 보고서에서 문제를 편집할 수 있습니다. 이 문서에서는 목록에서 문제를 편집하는 방법에 대해 설명합니다.
 
@@ -172,15 +172,11 @@ ht-degree: 1%
 
    모든 문제에 대한 정보를 편집하는 것은 다음 영역을 편집할 때 한 문제에 대한 정보를 편집하는 것과 동일합니다.
 
-   <div class="preview">
-
    * 개요
    * 할당
    * 사용자 정의 양식
    * 설정
    * 댓글
-
-   </div>
 
    문제 편집에 대한 자세한 내용은 [문제 편집](../../../manage-work/issues/manage-issues/edit-issues.md)을 참조하세요.
 
@@ -194,16 +190,16 @@ ht-degree: 1%
 
    선택한 모든 문제에 첨부되고 편집 권한이 있는 양식의 필드만 편집할 수 있습니다.
 
-1. (선택 사항 및 조건부) 문제를 편집하는 데 사용하는 환경에 따라 다음 중 하나를 수행하여 모든 문제에 대한 사용자 정의 표현식을 다시 계산합니다.
+   <!--1. In the Production environment, in the **Custom Forms** area, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.-->
 
-   1. 프로덕션 환경의 **사용자 지정 Forms** 영역에서 **사용자 지정 표현식 다시 계산** 옵션을 선택하여 선택한 문제에 첨부된 사용자 지정 Forms에 있는 모든 계산된 사용자 지정 필드가 최신 상태인지 확인합니다.
+1. **저장**&#x200B;을 클릭합니다.
 
-   1. <span class="preview">미리보기 환경에서 목록에서 모든 문제를 선택한 상태에서 문제 목록의 맨 위에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭한 다음 **표현식 다시 계산**&#x200B;을 클릭합니다. </span>
+   이제 선택한 모든 문제에서 변경한 사항이 모두 표시됩니다.
+
+1. (선택 사항) 목록에서 모든 문제를 선택한 상태에서 문제 목록의 맨 위에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭한 다음 **표현식 다시 계산**&#x200B;을 클릭합니다.
 
    >[!IMPORTANT]
    >
    >사용자 정의 표현식을 다시 계산할 때 한 번에 500개 이상의 문제를 선택하지 않는 것이 좋습니다.
 
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
-   이제 선택한 모든 문제에서 변경한 사항이 모두 표시됩니다.

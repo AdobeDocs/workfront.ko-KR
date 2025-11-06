@@ -6,16 +6,24 @@ description: 템플릿 영역에서 템플릿을 만들고 삭제할 수 있습�
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 5%
+source-wordcount: '779'
+ht-degree: 6%
 
 ---
 
 # 프로젝트 템플릿 만들기
 
 <!-- Audited: 10/2025 -->
+
+<div class="preview">
+
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+
+</div>
 
 템플릿 영역에서 템플릿을 만들고 삭제할 수 있습니다. 새 템플릿을 작성할 때 모든 작업 및 향후 프로젝트 설정에 대한 정보를 입력할 수 있습니다. 그런 다음 이 정보는 템플릿에서 만드는 모든 프로젝트로 전송됩니다.
 
@@ -112,23 +120,32 @@ ht-degree: 5%
 
    ![새 템플릿 작업 상자](assets/new-template-task-box.png)
 
-   <!--<span class="preview">The Create Template Task opens in the new experience.</span>-->
+   <span class="preview">템플릿 작업 **만들기** 상자가 새 환경에서 열립니다.</span>
 
-   <!--
-   1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+1. <span class="preview">(조건부) 새 환경을 사용하여 **템플릿 작업 만들기** 상자에서 다음 영역의 정보를 업데이트합니다.</span>
+
    <div class="preview">
-   * Template Task Name
-   * Overview
-   * Assignments
-   * Finance
-   * Custom Forms
-   * Documents
-   * Settings 
+
+   * 템플릿 작업 이름
+   * 개요
+   * 할당
+   * 재무
+   * 사용자 정의 양식
+   * 문서
+   * 설정
+
    </div>
-   1. Click **Save**
-   Or (*******remove the 1. from the step below and continue with those steps here*********)
-   1. (Optional) Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
-   The **New Template Task** opens. (************add screen shot***********)-->
+
+1. **템플릿 작업 만들기** 클릭
+
+   또는
+
+   <span class="preview">**템플릿 작업 만들기** 상자 아래쪽에 있는 **이전 경험으로 다시 전환**&#x200B;을 클릭합니다.</span>
+   <span class="preview">**새 템플릿 작업**&#x200B;이 이전 환경에서 열립니다.</span>
+
+   >[!TIP]
+   >
+   >프로덕션에서 기본적으로 이전 경험이 열립니다.
 
 1. **새 템플릿 작업** 상자에서 다음 영역의 정보를 업데이트합니다.
 
@@ -148,7 +165,7 @@ ht-degree: 5%
 1. 다음 중 하나를 클릭합니다.
 
    * 현재 템플릿 작업을 저장하고 새 템플릿 작업 상자를 닫으려면 **템플릿 작업 저장**.
-   * **템플릿 작업을 저장하고 다른 작업을 시작하려면**&#x200B;현재 템플릿 작업을 저장하고 다른 새 템플릿 작업 상자를 열어 다른 작업을 추가합니다.
+   * **템플릿 작업을 저장하고 다른 작업을 시작하려면** **새 템플릿 작업** 상자를 열어 다른 작업을 추가합니다.
    * 템플릿 작업을 저장하지 않고 상자를 닫으려면 **취소**.
 1. (선택 사항) 템플릿 작업을 추가한 후 템플릿 작업 섹션에서 작업 목록 오른쪽 위의 **간트 차트** 아이콘을 클릭하여 템플릿의 작업 목록을 시각적으로 표시합니다.
 
