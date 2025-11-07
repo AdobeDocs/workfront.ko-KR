@@ -58,7 +58,7 @@ ht-degree: 1%
 
 ## 홈 영역의 객체에 대한 액세스 권한 부여
 
-1. 화면 오른쪽 상단의 **주 메뉴** ![](assets/dots-main-menu.png)를 클릭하거나 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **홈**을 클릭합니다
+1. 화면 오른쪽 상단의 **주 메뉴** ![](assets/dots-main-menu.png)를 클릭하거나 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **홈**&#x200B;을 클릭합니다
 또는
 Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
 

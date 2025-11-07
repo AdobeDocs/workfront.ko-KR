@@ -41,7 +41,7 @@ ht-degree: 0%
 이미 구독한 후 상태 사이트에 가입하거나 구독을 관리하려면 다음을 수행하십시오.
 
 1. [status.adobe.com](https://status.adobe.com/)&#x200B;(으)로 이동합니다.
-1. 상태 표시줄에서 **[!UICONTROL 구독 관리]**를 선택합니다.
+1. 상태 표시줄에서 **[!UICONTROL 구독 관리]**&#x200B;를 선택합니다.
    ![](assets/manage-subs.png)
 1. 기존 계정이 있는 경우 계정에 로그인하고, 없는 경우 새 계정을 만듭니다.
 1. **[!UICONTROL 구독 만들기]** 단추를 클릭합니다.

@@ -25,7 +25,7 @@ ht-degree: 0%
 
 아이디어를 투표하려면:
 
-1. URL: [!DNL Adobe Workfront]커뮤니티[!DNL Adobe Experience League]에서 [[!DNL Adobe Workfront]  사이트의 ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) 커뮤니티에 로그인합니다.
+1. URL: [!DNL Adobe Workfront]커뮤니티[!DNL Adobe Experience League]에서 [[!DNL Adobe Workfront]  사이트의 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) 커뮤니티에 로그인합니다.
 
 1. **[!UICONTROL 아이디어]** 탭을 클릭합니다.
 
