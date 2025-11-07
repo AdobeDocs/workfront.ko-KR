@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 여러 브라우저 탭으로 인해 Workfront이 로그아웃됨
 description: 사용자가 여러 개의 브라우저 탭을 열어 놓은 경우 Workfront에서 자동으로 로그아웃될 수 있습니다.
 feature: Get Started with Workfront
+author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 29%

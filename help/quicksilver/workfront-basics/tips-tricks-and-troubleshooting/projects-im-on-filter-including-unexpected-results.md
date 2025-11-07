@@ -4,9 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 예기치 않은 결과를 포함하여 내가 진행 중인 프로젝트
 description: 예기치 않은 결과를 포함하여 내가 진행 중인 프로젝트 문제를 해결하려면 이 문서를 참조하십시오.
 feature: Get Started with Workfront
-author: Nolan
+author: Alina
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 3%
@@ -44,6 +44,7 @@ ht-degree: 3%
 
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
++++
 
 
 ## 문제

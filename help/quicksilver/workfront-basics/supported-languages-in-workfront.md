@@ -4,9 +4,9 @@ navigation-topic: get-started-with-workfront
 title: Adobe Workfront에서 지원되는 언어
 description: 브라우저의 언어 환경 설정과 Workfront 내의 기본 이메일 로케일을 조정하여 Adobe Workfront 및 Workfront에서 오는 이메일을 표시하는 언어를 변경할 수 있습니다.
 feature: Get Started with Workfront
-author: Nolan
+author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 1%
@@ -92,7 +92,7 @@ Workfront Proof에서 지원되는 언어에 대한 자세한 내용은 [Workfro
 * Workfront Fusion에서는 사용자가 입력한 필드에 영어가 아닌 텍스트 문자를 사용할 수 없습니다.
 
 Workfront Fusion에 액세스하려면 귀사에서 Workfront Fusion 라이센스를 구매해야 합니다.\
-Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ## 언어 변경
 

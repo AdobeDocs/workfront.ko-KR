@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: ' [!DNL Adobe Workfront] 커뮤니티'
 description: Adobe [!DNL Workfront] 커뮤니티는 10,000 [!DNL Workfront] 명 이상의 사용자가 모인 온라인 그룹입니다. 커뮤니티를 통해 제품 릴리스를 최신 상태로 유지하고, 고객 이벤트에 대해 알아보고,  [!DNL Workfront] 제품 및 서비스에 대해 다른 사용자와 대화할 수 있습니다. 질문에 대한 답변을 찾아 다른 [!DNL Workfront] 명의 고객과 연결을 설정할 수 있습니다.
 feature: Get Started with Workfront
+author: Becky
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -53,7 +54,7 @@ ASC(Authorized Support Contact)인 경우 [!UICONTROL 헬프 데스크] 및 [!UI
 
 ### [!DNL Workfront] 커뮤니티의 URL은 무엇입니까?
 
-[!DNL Workfront] 커뮤니티는 다음 URL의 [!DNL Adobe Experience League] 웹 사이트에서 사용할 수 있습니다. [[!DNL Workfront] 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ko).
+[!DNL Workfront] 커뮤니티는 다음 URL의 [!DNL Adobe Experience League] 웹 사이트에서 사용할 수 있습니다. [[!DNL Workfront] 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### 내 하위 도메인은 무엇입니까? {#what-s-my-subdomain}
 

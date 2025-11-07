@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: grant-and-request-access-to-objects
 title: 오브젝트에 대한 공유 권한 개요
 description: 만든 개체 또는 사용자와 공유된 개체에 대한 권한을 공유하거나 제거할 수 있습니다.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
 
 * **템플릿**: 자세한 내용은 [프로젝트 템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md)를 참조하십시오.
 
-* **Portfolio**: 자세한 내용은 [포트폴리오 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)를 참조하세요.
+* **포트폴리오**: 자세한 내용은 [포트폴리오 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)를 참조하십시오.
 
 * **프로그램**: 자세한 내용은 [프로그램 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) 를 참조하십시오.
 
@@ -72,7 +72,7 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
 
 * 개체에 대해 가지고 있는 동일한 수준 또는 더 낮은 수준의 권한만 공유할 수 있습니다.
 
-  예를 들어 개체에 대한 Contribute 권한이 있는 경우 다른 사용자에게 해당 개체에 대한 관리 권한을 부여할 수 없습니다.
+  예를 들어, 객체에 대한 Contribute 권한이 있는 경우 다른 사용자에게 해당 객체에 대한 관리 권한을 부여할 수 없습니다.
 
 * 사용자의 액세스 수준보다 높은 권한 수준의 오브젝트는 공유할 수 없습니다.
 
@@ -117,7 +117,7 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
      <li><p>오브젝트에 문서 추가</p></li> 
      <li><p>오브젝트에 문제 추가(작업 또는 프로젝트인 경우)</p></li> 
      <li><p>객체에 대한 재무 정보 보기</p></li> 
-     <li> <p>개체 공유<br></p> <p>객체를 공유할 때 다른 사용자에게 상위 레벨이 아니라 해당 객체에 대해서만 가지고 있는 동일한 권한 레벨을 부여할 수 있습니다.</p> </li> 
+     <li> <p>오브젝트 공유<br></p> <p>객체를 공유할 때 다른 사용자에게 상위 레벨이 아니라 해당 객체에 대해서만 가지고 있는 동일한 권한 레벨을 부여할 수 있습니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -136,7 +136,7 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
    <td role="rowheader"><strong>관리</strong></td> 
    <td> <p>객체에 대해 다음 작업을 수행할 수 있습니다.</p> 
     <ul> 
-     <li>보기 및 Contribute 권한에 포함된 모든 작업</li> 
+     <li>보기 및 기여 권한에 포함된 모든 작업</li> 
      <li>삭제</li> 
      <li>재무 정보 관리</li> 
     </ul> </td> 
@@ -158,11 +158,11 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
 
 Workfront의 권한은 계층적으로 상속됩니다. 즉, 상위 객체에 대한 사용자에게 권한을 부여하는 경우 해당 사용자에게는 기본적으로 연관된 하위 객체에 대한 동일한 권한이 부여됩니다.
 
-예를 들어 사용자에게 프로젝트에 대한 Contribute 권한을 부여하는 경우 해당 프로젝트와 연관된 모든 작업 및 문제(하위 개체)에 대해 Contribute 권한이 사용자에게 부여됩니다.
+예를 들어 사용자에게 프로젝트에 대한 Contribute 권한을 부여하는 경우 해당 프로젝트와 관련된 모든 작업 및 문제(하위 개체)에 대한 Contribute 권한이 사용자에게 있습니다.
 
-위의 예를 계속 진행하여 하위 개체에 대한 권한을 제한할 수 없습니다. 사용자가 프로젝트와 연결된 하위 개체에 대해 Contribute 권한을 보유하지 않도록 하려면 개체에서 상속된 권한을 수동으로 제거한 다음 고급 설정을 포함하여 개별 사용자에 대한 권한을 조정해야 합니다. 
+위의 예를 계속 진행하여 하위 개체에 대한 권한을 제한할 수 없습니다. 사용자가 프로젝트와 연결된 하위 개체에 대한 기여 권한을 보유하지 않도록 하려면 개체에서 상속된 권한을 수동으로 제거한 다음 고급 설정을 포함하여 개별 사용자에 대한 권한을 조정해야 합니다. 
 
-Workfront에 있는 개체의 계층 구조 및 상호 종속성에 대한 자세한 내용은 문서 [Adobe Workfront 개체 개요](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 [개체의 상호 종속성 및 계층 구조](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) 섹션을 참조하십시오.
+Workfront에 있는 개체의 계층 구조 및 상호 종속성에 대한 자세한 내용은 문서 [Adobe Workfront 개체 개요](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects)의 [개체의 상호 종속성 및 계층 구조](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.
 
 >[!NOTE]
 >

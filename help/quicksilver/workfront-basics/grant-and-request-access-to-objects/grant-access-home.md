@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 title: 홈 영역의 객체에 대한 액세스 권한 부여
 description: 사용자는 Adobe Workfront 내의 오브젝트에 대한 액세스를 요청할 수 있습니다. 액세스 요청에 대한 자세한 내용은 객체에 대한 액세스 요청 을 참조하십시오.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 1%
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 ## 홈 영역의 객체에 대한 액세스 권한 부여
 
-1. 화면 오른쪽 상단의 **주 메뉴** ![](assets/dots-main-menu.png)를 클릭하거나 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **홈**&#x200B;을 클릭합니다
+1. 화면 오른쪽 상단의 **주 메뉴** ![](assets/dots-main-menu.png)를 클릭하거나 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **홈**을 클릭합니다
 또는
 Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
 

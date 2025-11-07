@@ -6,7 +6,7 @@ description: 작업에 사용자 또는 역할을 할당할 때 작업을 완료
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
   <tr> 
    <td>개체 권한</td>
    <td><p>작업에 대한 또는 더 높은 권한 부여</p>
-   <p>이전 환경을 사용하여 작업 <span class="preview">을(를) 편집할 때 작업 편집 상자에서 할당 시간을 업데이트할 수 있는 권한을 편집합니다. 새 경험에서 작업을 편집할 때 작업 편집 상자에서 할당 시간을 더 이상 관리할 수 없습니다.</span></p> <p>자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">작업 편집</a>을 참조하세요.</p>.</td>
+   <p>이전 환경을 사용하여 작업 <span class="preview">을(를) 편집할 때 작업 편집 상자에서 할당 시간을 업데이트할 수 있는 권한을 편집합니다. 새 경험에서 작업을 편집할 때 작업 편집 상자에서 할당 시간을 더 이상 관리할 수 없습니다.</span></p> <p>자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">작업 편집</a>을 참조하세요.</p></td>
   </tr>
  </tbody>
 </table>

@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: 오브젝트에 대한 액세스 요청
 description: Adobe Workfront에서 개체에 대한 가시성은 해당 개체 유형에 대한 액세스 권한과 개별 개체에 대한 사용 권한에 따라 다릅니다.
-author: Becky
+author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%

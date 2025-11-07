@@ -4,10 +4,10 @@ content-type: reference
 product-area: user-management;reports;dashboards;calendars
 navigation-topic: grant-and-request-access-to-objects
 description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보고서, 대시보드 및 달력을 보거나 편집할 수 있는 액세스 권한을 사용자에게 부여합니다. 보고서, 대시보드 및 캘린더에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 보고서, 대시보드 및 캘린더에 대한 액세스 권한 부여를 참조하십시오.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보�
 
 권한은 Workfront의 한 항목에 한정되며, 해당 항목에 대해 수행할 수 있는 작업을 정의합니다.
 
-각 액세스 수준의 사용자가 문제에 대해 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)의 [보고서](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#reports) 섹션을 참조하십시오.
+각 액세스 수준의 사용자가 문제에 대해 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#reports)의 [보고서](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) 섹션을 참조하십시오.
 
 ## 보고서, 대시보드 또는 캘린더 공유에 대한 고려 사항
 
@@ -59,7 +59,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보�
 * 대시보드를 공유할 때 대시보드의 모든 보고서, 달력 및 외부 페이지에 대한 보기 권한은 기본적으로 사용자에게 있습니다.
 * 요청 라이선스가 있는 사용자는 시스템 전체 보고서를 볼 수 없습니다. 보고서를 조회해야 하는 경우 요청자와 개별적으로 공유해야 합니다.
 * 보고서에 프롬프트가 있고 공개적으로 공유하는 경우 보고서에 액세스하는 사용자가 Workfront에 로그인해야 프롬프트를 사용하여 보고서를 실행할 수 있습니다. Workfront에 로그인할 수 없는 경우 보고서에 적용하라는 메시지가 표시되지 않습니다.\
-  프롬프트와 보고서를 공유하는 제한 사항에 대한 자세한 내용은 문서 [보고서에 프롬프트 추가](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)의 [프롬프트 보고서 공유 제한](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) 섹션을 참조하십시오.
+  프롬프트와 보고서를 공유하는 제한 사항에 대한 자세한 내용은 문서 [보고서에 프롬프트 추가](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)의 [프롬프트 보고서 공유 제한](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) 섹션을 참조하십시오.
 
 * 보고서 또는 달력에서 상속된 권한을 제거할 수 있습니다.
 

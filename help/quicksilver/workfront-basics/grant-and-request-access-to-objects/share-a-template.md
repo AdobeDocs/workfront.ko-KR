@@ -2,20 +2,20 @@
 title: 템플릿 공유
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
-description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 템플릿을 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 템플릿 편집에 액세스하려면 사용자에게 플랜 라이선스가 있어야 합니다.
-author: Alina
+description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 템플릿을 보거나 편집할 수 있는 권한을 사용자에게 부여할 수 있습니다. 사용자가 템플릿 편집에 액세스하려면 플랜 라이선스가 있어야 합니다.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
 # 템플릿 공유
 
-Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 템플릿을 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 템플릿 편집에 액세스하려면 사용자에게 플랜 라이선스가 있어야 합니다.
+Adobe Workfront 관리자는 액세스 수준을 할당할 때 템플릿을 보거나 편집할 수 있는 권한을 사용자에게 부여할 수 있습니다. 사용자가 템플릿 편집에 액세스하려면 플랜 라이선스가 있어야 합니다.
 
 템플릿에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [템플릿에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)를 참조하십시오.
 
@@ -52,7 +52,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 �
 
 * 템플릿을 공유할 때는 별도로 지정하지 않는 한 템플릿에서 만드는 향후 프로젝트의 문제뿐 아니라 모든 템플릿 작업 및 문서는 동일한 권한을 상속합니다.
 
-  프로젝트에 대한 사용자의 권한에 따라 프로젝트의 템플릿 작업 및 문제에 대한 액세스 권한을 관리하는 방법에 대한 자세한 내용은 문서 [프로젝트 템플릿 편집](../../manage-work/projects/create-and-manage-templates/edit-templates.md)의 [액세스](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) 섹션을 참조하십시오.
+  프로젝트에 대한 사용자의 권한에 따라 프로젝트의 템플릿 작업 및 문제에 대한 액세스 권한을 관리하는 방법에 대한 자세한 내용은 문서 [프로젝트 템플릿 편집](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)의 [액세스](../../manage-work/projects/create-and-manage-templates/edit-templates.md) 섹션을 참조하십시오.
 
 * Workfront 관리자는 문서가 사용자 액세스 수준의 상위 개체에서 권한을 상속해야 하는지 여부를 지정할 수 있습니다. 문서에 대해 상속된 사용 권한을 제한하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
@@ -103,7 +103,7 @@ You can share an object only with active users, teams,
 
 ## 템플릿 공유를 위한 고급 설정
 
-다음 표에는 사용자에게 템플릿을 보거나 관리할 수 있도록 허용할 때 부여할 수 있는 권한이 표시됩니다. 템플릿 공유에 대한 지침은 [프로젝트 템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md) 문서의 [템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share) 섹션을 참조하십시오.
+다음 표에는 사용자에게 템플릿을 보거나 관리할 수 있도록 허용할 때 부여할 수 있는 권한이 표시됩니다. 템플릿 공유에 대한 지침은 [프로젝트 템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share) 문서의 [템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md) 섹션을 참조하십시오.
 
 <table style="table-layout:auto"> 
  <col> 

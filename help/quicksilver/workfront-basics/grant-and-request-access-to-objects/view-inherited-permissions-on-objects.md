@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: 오브젝트에 대한 상속된 권한 보기
 description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 객체를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 자세한 내용은 프로젝트에 대한 액세스 권한 부여를 참조하십시오.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%

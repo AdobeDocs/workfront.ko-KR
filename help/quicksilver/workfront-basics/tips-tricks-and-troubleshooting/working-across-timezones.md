@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 시간대 간 작업
 description: ' [!DNL Adobe Workfront] 이(가) 시간대를 사용하여 오브젝트와 이메일과 같은 다른 영역의 시간을 계산하는 방법을 이해하는 것이 도움이 될 수 있습니다.'
 feature: Get Started with Workfront
+author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%

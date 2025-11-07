@@ -4,9 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 필터 단추가 페이지 헤더에 표시되지 않음
 description: 페이지 헤더에 표시되지 않는 필터 단추 문제를 해결하려면 이 문서를 참조하십시오.
 feature: Get Started with Workfront
-author: Nolan and Alina
+author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -43,6 +43,8 @@ ht-degree: 3%
 </table>
 
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 문제
 

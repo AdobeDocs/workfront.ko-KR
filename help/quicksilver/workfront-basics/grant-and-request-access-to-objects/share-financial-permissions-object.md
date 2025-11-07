@@ -3,10 +3,10 @@ title: 개체에 대한 재무 권한 공유
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 자세한 내용은 재무 데이터에 대한 액세스 권한 부여를 참조하십시오.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
