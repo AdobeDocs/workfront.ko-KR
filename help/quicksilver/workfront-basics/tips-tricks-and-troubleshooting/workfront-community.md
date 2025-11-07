@@ -54,7 +54,7 @@ ASC(Authorized Support Contact)인 경우 [!UICONTROL 헬프 데스크] 및 [!UI
 
 ### [!DNL Workfront] 커뮤니티의 URL은 무엇입니까?
 
-[!DNL Workfront] 커뮤니티는 다음 URL의 [!DNL Adobe Experience League] 웹 사이트에서 사용할 수 있습니다. [[!DNL Workfront] 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+[!DNL Workfront] 커뮤니티는 다음 URL의 [!DNL Adobe Experience League] 웹 사이트에서 사용할 수 있습니다. [[!DNL Workfront] 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ko).
 
 ### 내 하위 도메인은 무엇입니까? {#what-s-my-subdomain}
 

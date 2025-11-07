@@ -25,7 +25,7 @@ ht-degree: 0%
 
 아이디어를 투표하려면:
 
-1. URL: [!DNL Adobe Workfront]커뮤니티[!DNL Adobe Experience League]에서 [[!DNL Adobe Workfront]  사이트의 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) 커뮤니티에 로그인합니다.
+1. URL: [!DNL Adobe Workfront]커뮤니티[!DNL Adobe Experience League]에서 [[!DNL Adobe Workfront]  사이트의 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ko) 커뮤니티에 로그인합니다.
 
 1. **[!UICONTROL 아이디어]** 탭을 클릭합니다.
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 * **[!UICONTROL 배달됨]:** 솔루션을 만들고 배달했습니다. 더 이상 업데이트가 제공되지 않으며 댓글이 비활성화됩니다.
 * **[!UICONTROL 보관됨]**: 18개월 표시(제출 날짜부터)에 도달하고 300포인트 미만인 아이디어가 보관됩니다.
 
-시작하거나 자세히 알아보려면 [혁신 랩](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)에 로그인하십시오.
+시작하거나 자세히 알아보려면 [혁신 랩](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ko)에 로그인하십시오.
