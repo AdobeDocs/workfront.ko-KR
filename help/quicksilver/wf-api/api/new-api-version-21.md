@@ -6,9 +6,9 @@ description: Adobe Workfront은 2025년 10월 23일에 API 버전 21을 출시�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 155323314712e020a638619d9bf10d678078645e
+source-git-commit: 040e714c2f81ba764c7895be430446add1250a83
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '954'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 3%
 # API 버전 21의 새로운 기능
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
+
+>[!IMPORTANT]
+>
+>이 API 버전 변경은 기존 API 호출에 영향을 줄 수 있는 획기적인 변경 기능을 제공합니다. 이는 API 버전 21이 이벤트 구독 버전 2를 사용한다는 사실에 기인합니다.
+>
+> 다중 선택 필드의 경우, 이벤트 구독 버전 2는 항상 배열로 전송합니다. 두 개 이상의 값을 선택한 경우 버전 1에서 배열을 전송했습니다. 값을 하나만 선택한 경우 문자열을 보냈습니다.
 
 Adobe Workfront은 2025년 10월 23일에 API 버전 21을 출시했습니다. API 버전 21에는 버전 20의 다음 변경 사항이 포함되어 있습니다.
 
