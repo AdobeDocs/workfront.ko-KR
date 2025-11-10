@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 3838e355c16275b9e10fb92497f1698ac99c4fa4
+source-git-commit: c6adce09acf993ae00b080ac5177dabd953d69a1
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 외부 조회를 사용하여 Workfront 인스턴스의 데이터를 사용자 정의 양식으로 가져올 수 있습니다.
 
-<!--When someone accesses the field in the custom form, they will only see in the list of options what they have permissions to see in Workfront. For example, if you are showing a list of projects, the user would only see projects that are shared with them.-->
+누군가 사용자 정의 양식의 필드에 액세스하면 옵션 목록에 Workfront에서 볼 수 있는 권한이 있는 항목만 표시됩니다. 예를 들어 프로젝트 목록을 표시하는 경우 사용자는 공유된 프로젝트만 볼 수 있습니다.
 
 ### 외부 조회에서 기본 Workfront 필드 값 사용
 
