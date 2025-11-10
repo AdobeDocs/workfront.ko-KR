@@ -6,9 +6,9 @@ description: Adobe 마켓플레이스에서 XD용 Adobe Workfront 플러그인�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---
@@ -105,20 +105,19 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
    >* 도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스로 이동한 다음 URL의 첫 부분을 복사합니다.\
    >![도메인 찾기](assets/domain-350x50.png)
    >
-   >* Workfront 인스턴스가 Experience Cloud과 통합된 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하도록 요청하십시오.
+   >* Workfront 인스턴스가 Experience Cloud과 통합되고 도메인이 `experience.adobe.com`(으)로 시작하는 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하도록 요청하십시오.
 
-1. 브라우저에서 [!DNL Workfront] 자격 증명을 입력한 다음 **[!DNL Log in]**&#x200B;을(를) 클릭합니다. 회사에서 SSO(Single Sign-On)를 사용하는 경우, 로그인할 SSO 공급자의 페이지로 이동합니다.
+1. 브라우저에서 [!DNL Adobe] 자격 증명을 입력한 다음 **[!DNL Log in]**&#x200B;을(를) 클릭합니다. 회사에서 SSO(Single Sign-On)를 사용하는 경우, 로그인할 SSO 공급자의 페이지로 이동합니다.
 
    >[!NOTE]
    >
    >최근에 로그인한 경우 [!DNL Workfront] 자격 증명을 입력하라는 메시지가 표시되지 않을 수 있습니다.
 
-   메시지에 따라 [!DNL Workfront]에 로그인합니다.
+1. 메시지에 따라 [!DNL Workfront]에 로그인합니다.
 
    >[!NOTE]
    >
    >* [!DNL Workfront]은(는) 사용자의 인증 및 권한 부여를 위해 대부분의 웹 기반 통합에서 사용하는 보안 표준인 OAuth 2.0을 사용하여 [!DNL Adobe Creative Cloud]에 연결합니다.
-   >* [ 계정의 ]도메인 또는 호스트[!DNL Workfront]를 입력하라는 메시지가 표시되면 *yourCompany&#39;sDomain.my.workfront.com* 형식을 사용하여 입력하세요. 회사의 도메인은 일반적으로 회사의 이름입니다.
 
 1. 로그인을 완료하려면 **[!UICONTROL 액세스 허용]**&#x200B;을 클릭하고 작업을 보려면 [!DNL Adobe XD]&#x200B;(으)로 돌아가세요.
 
