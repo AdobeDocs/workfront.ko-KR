@@ -6,10 +6,10 @@ description: 마일스톤 보기를 프로젝트 목록 또는 보고서에 적�
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 1%
+source-wordcount: '1370'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 1%
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 마일스톤 보기를 프로젝트 목록 또는 보고서에 적용할 수 있습니다. 마일스톤 보기를 사용하여 보고 있는 프로젝트 내에서 작업과 관련된 모든 마일스톤을 볼 수 있습니다.
 
@@ -85,13 +85,9 @@ ht-degree: 1%
 
 ## 마일스톤 보기 개요 {#milestone-view-overview}
 
-<div class="preview">
-
 마일스톤 보기는 프로젝트 목록 및 프로젝트 보고서에서 사용할 수 있습니다. 보고 있는 프로젝트 내의 작업과 관련된 모든 이정표를 빠르게 볼 수 있습니다.
 
 마일스톤 보기가 있는 ![프로젝트](assets/project-with-milestone-view-with-complete.png)
-
-</div>
 
 >[!NOTE]
 >
@@ -137,34 +133,23 @@ ht-degree: 1%
 
   이 문서의 [마일스톤 보기에서 작업에 대한 완료율 조정](#adjust-percent-complete-for-tasks-in-the-milestone-view) 섹션에 설명된 대로 마일스톤 보기에서 직접 완료율을 조정할 수 있습니다.
 
-* **작업 진행 상태 아이콘:** 마일스톤 보기를 보는 데 사용하는 환경에 따라 작업의 진행 상태를 나타내는 아이콘은 다음과 같습니다.
+* **작업 진행 상태 아이콘:** 작업의 진행 상태를 나타내는 아이콘은 다음과 같습니다.
 
-   * 프로덕션 환경에서는 마일스톤 보기의 각 프로젝트 및 작업 옆에 다음 상태 아이콘이 표시됩니다.
+   * 설정 시간 - 녹색
+   * 뒤에 - 노란색
+   * 위험 상태 - 파란색
+   * 지연 - 빨간색
 
-      * 정시\
-        ![시간 아이콘](assets/gantt-ontime.png)
-
-      * 지연됨\
-        ![뒤로 아이콘](assets/gantt-behind.png)
-
-      * 위험 상태\
-        ![위험 상태 아이콘](assets/gantt-atrisk.png)
-
-      * 지연\
-        ![지연 아이콘](assets/gantt-late.png)
-
-     <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
-
-  <div class="preview">
-
-   * 미리 보기 환경에서는 마일스톤 보기에서 각 프로젝트 및 작업 옆에 다음 색상이 있는 원이 표시됩니다.
-
-      * 설정 시간 - 녹색
-      * 뒤에 - 노란색
-      * 위험 상태 - 파란색
-      * 지연 - 빨간색
-
-  </div>
+  <!--* In the Production environment, the following status icons display next to each project and task in the Milestone view: 
+      * On Time  
+      ![On time icon](assets/gantt-ontime.png)
+      * Behind  
+      ![Behind icon](assets/gantt-behind.png)
+      * At Risk  
+      ![At risk icon](assets/gantt-atrisk.png)
+      * Late  
+      ![Late icon](assets/gantt-late.png)
+      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   이 문서의 [마일스톤 보기에 표시되는 정보 구성](#configure-what-information-displays-in-the-milestone-view) 섹션에 설명된 대로 이러한 상태 아이콘이 표시되지 않도록 할 수 있습니다.
 
@@ -205,23 +190,16 @@ ht-degree: 1%
   ![음영이 있는 마일스톤 보기](assets/milestone-view-with-shading.png)
 
 * **프로젝트 이름**: 프로젝트 이름이 프로젝트에 대한 링크와 함께 표시됩니다.
-* **프로젝트 상태 아이콘**: 다음 표시기에서 마일스톤 보기에 액세스하는 환경에 따라 프로젝트 상태가 표시됩니다.
+* **프로젝트 상태 아이콘**: 다음 지표는 프로젝트 상태를 보여 줍니다.
 
-   * 프로덕션 환경에서는 프로젝트 이름 옆에 프로젝트의 상태를 나타내는 아이콘이 표시됩니다. 프로젝트의 상태는 다음 중 하나일 수 있습니다.
+   * 대상 - 녹색
+   * 위험 상태 - 노란색
+   * 문제 발생 - 빨간색
 
-      * 대상
-      * 위험 상태
-      * 문제 발생
-
-  <div class="preview">
-
-   * 미리보기 환경에서 색상이 지정된 원 모양의 조건 아이콘이 각 프로젝트 옆에 표시됩니다. 가능한 프로젝트 조건 및 원 색상은 다음과 같습니다.
-
-      * 대상 - 녹색
-      * 위험 상태 - 노란색
-      * 문제 발생 - 빨간색
-
-     </div>
+  <!--* In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
+      * On Target
+      * At Risk
+      * In Trouble -->
 
 
 ## 마일스톤 보기에 표시되는 정보 구성 {#configure-what-information-displays-in-the-milestone-view}
@@ -241,15 +219,6 @@ ht-degree: 1%
 
 1. **보기** 드롭다운 메뉴를 클릭한 다음 **마일스톤**&#x200B;을 클릭합니다.
 
-1. 프로덕션 환경에서 마일스톤 보기의 오른쪽 상단 모서리에서 **옵션**&#x200B;을 클릭한 다음, 다음 단계의 옵션에서 선택하십시오.
-
-   ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
-
-   <div class="preview">미리보기 환경의 마일스톤 보기의 오른쪽 위 모서리에 있는 다음 단계의 옵션에서 를 선택합니다.</div>
-
-   <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
-
-
 1. 다음 옵션 중에서 선택합니다.
 
    <table style="table-layout:auto"> 
@@ -267,6 +236,8 @@ ht-degree: 1%
     </tbody> 
    </table>
 
+   ![마일스톤 보기 옵션](assets/milestone-view-options-350x141.png)
+
 ## 마일스톤 보기에서 작업의 완료율 조정 {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
 마일스톤 보기에서 작업에 대한 완료율을 조정할 수 있습니다. 상위 작업(하위 작업이 포함된 작업) 또는 프로젝트에 대해서는 완료율을 조정할 수 없습니다.
@@ -279,6 +250,6 @@ ht-degree: 1%
 
 1. (조건부) 마일스톤 보기에 현재 완료율이 표시되지 않는 경우 이 문서의 [마일스톤 보기에 표시되는 정보 구성](#configure-what-information-displays-in-the-milestone-view)에 설명된 대로 작업 및 프로젝트의 완료율 보기를 활성화합니다.
 
-1. 프로덕션 환경에서 작업 아래의 완료 백분율을 클릭하고 새 백분율을 지정한 다음 Enter 키를 누릅니다.
+1. **완료율 슬라이드**&#x200B;를 새 완료율로 이동하여 업데이트하십시오.
 
-   <div class="preview">미리보기 환경에서 완료율 슬라이드를 새 완료율로 이동하여 업데이트합니다. </div>
+   <!--In the Production environment, click the completion percentage below a task, specify a new percentage, then press Enter.-->

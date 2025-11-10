@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2261'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -362,10 +362,10 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      표 보기에서 레코드를 편집하는 방법에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하십시오.
 
-         >[!TIP]
-         >
-         >둘 이상의 레코드 또는 개체를 선택하여 삭제할 수 있습니다.
-     
+     >[!TIP]
+     >
+     >둘 이상의 레코드 또는 개체를 선택하여 삭제할 수 있습니다.
+
    * 연결된 레코드 페이지의 표에 있는 모든 Planning 레코드를 인라인 편집합니다.
 
      다른 모든 Workfront 객체는 읽기 전용 테이블 뷰에 표시되므로 편집할 수 없습니다.
