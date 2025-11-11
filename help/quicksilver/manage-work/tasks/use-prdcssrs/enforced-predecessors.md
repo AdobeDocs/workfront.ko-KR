@@ -6,16 +6,16 @@ description: 전임 작업은 다른 작업이 완료에 종속되는 작업입�
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
 
 # 전임 작업 시행
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 전임 작업은 다른 작업이 완료에 종속되는 작업입니다. 전임 작업 관계는 작업의 시작 및 완료 날짜에 영향을 주며 최종적으로 프로젝트의 타임라인에 영향을 줍니다.
 
@@ -119,4 +119,6 @@ ht-degree: 1%
 1. **전임 작업** 열에서 전임 작업의 수를 입력하고 그 뒤에 &quot;e&quot;를 입력합니다. 예를 들어 작업 번호 1을 선택한 작업에 전임 작업으로 추가하려면 &quot;1e&quot;를 입력합니다.
 1. Enter 를 클릭하여 작업에 대한 전임 작업 정보를 저장합니다.
 
-   ![전임 작업_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![전임 작업 적용 목록](assets/predecessor-enforced-in-list-350x308.png)
+
+   강제 실행 중인 전임 작업 정보가 즉시 저장됩니다.

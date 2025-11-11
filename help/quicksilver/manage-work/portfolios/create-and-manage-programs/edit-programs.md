@@ -6,9 +6,9 @@ description: 사용자가 만든 프로그램이나 다른 사용자가 사용�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1109'
 ht-degree: 1%
 
 ---
@@ -111,6 +111,11 @@ ht-degree: 1%
    * [[!UICONTROL 개요]](#overview)
    * [[!UICONTROL 사용자 정의 양식]](#Custom%C2%A0F)
    * [[!UICONTROL 댓글]](#comment)
+
+
+   >[!TIP]
+   >
+   >한 번에 여러 프로그램에 대한 사용자 정의 필드를 다시 계산하려면 목록에서 여러 프로그램을 선택하고 목록 맨 위에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **식을 다시 계산**&#x200B;합니다.
 
 ### [!UICONTROL 개요] {#overview}
 

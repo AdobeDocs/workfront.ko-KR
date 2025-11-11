@@ -6,7 +6,7 @@ description: Adobe Workfront에서 개체에 대한 가시성은 해당 개체 �
 author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Adobe Workfront에서 개체에 대한 가시성은 해당 개체 유형에 대�
 >
 >이 문서에서는 다음을 제외한 모든 개체에 대한 권한을 요청하는 방법에 대해 설명합니다.
 >
->* 시나리오 플래너는 Adobe Workfront 시나리오 플래너에서 계획합니다. 자세한 내용은 [시나리오 플래너의 플랜에 대한 액세스 요청](../../scenario-planner/request-access-to-plan.md)을 참조하십시오. 이를 위해서는 추가 라이센스가 필요합니다.
+>* 시나리오 플래너는 Adobe Workfront 시나리오 플래너에서 계획합니다. 자세한 내용은 [시나리오 플래너의 플랜에 대한 권한 요청](../../scenario-planner/request-access-to-plan.md)을 참조하십시오. 이를 위해서는 추가 라이센스가 필요합니다.
 >
 >* Workfront Planning의 보기 및 작업 공간 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오. 이를 위해서는 추가 라이센스가 필요합니다.
 

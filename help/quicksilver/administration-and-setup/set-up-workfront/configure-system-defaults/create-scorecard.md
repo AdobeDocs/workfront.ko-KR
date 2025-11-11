@@ -8,16 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '721'
 ht-degree: 1%
 
 ---
 
 # 스코어카드 만들기
 
-<!--Audited: 05/2025-->
+<!--Audited: 11/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -48,7 +48,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Workfront 또는 Workflow Prime 이상</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -140,7 +140,7 @@ ht-degree: 1%
 
 ## 프로젝트에 스코어카드 적용
 
-[!UICONTROL &#x200B; 관리자가 스코어카드를 만든 후에는 프로젝트에 대한 &#x200B;]관리[!DNL Workfront] 권한이 있는 사용자가 스코어카드를 프로젝트에 적용할 수 있습니다.
+[!UICONTROL  관리자가 스코어카드를 만든 후에는 프로젝트에 대한 ]관리[!DNL Workfront] 권한이 있는 사용자가 스코어카드를 프로젝트에 적용할 수 있습니다.
 
 프로젝트에 대한 비즈니스 사례를 만드는 과정의 일부로 스코어카드가 프로젝트에 추가됩니다. 프로젝트에 스코어카드를 추가하는 방법에 대한 자세한 내용은 [프로젝트에 스코어카드 적용 및 정렬 점수 생성](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)을 참조하십시오.
 

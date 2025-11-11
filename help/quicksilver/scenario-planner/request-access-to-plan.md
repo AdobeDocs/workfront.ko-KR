@@ -2,21 +2,23 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: 계획,권한,공유,이니셔티브,시나리오,시나리오
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: 시나리오 플래너에서 플랜에 대한 액세스 권한 요청
+title: 시나리오 플래너의 플랜에 대한 권한 요청
 description: 플랜에 대한 링크가 사용자와 공유될 때 Adobe Workfront 시나리오 플래너에서 플랜에 대한 액세스를 요청할 수 있습니다.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
-# [!DNL Scenario Planner]의 플랜에 대한 액세스 요청
+# [!DNL Scenario Planner]의 플랜에 대한 권한 요청
 
-플랜에 대한 링크가 사용자와 공유되면 [!DNL Adobe Workfront Scenario Planner]에서 플랜에 대한 액세스를 요청할 수 있습니다.
+<!--Audited: 11/2025-->
+
+플랜에 대한 링크가 사용자와 공유되면 [!DNL Adobe Workfront Scenario Planner]에서 플랜에 대한 권한을 요청할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -95,7 +97,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설�
 >
 >[!DNL Scenario Planner]에 대한 액세스 수준 권한이 없고 링크에서 플랜에 액세스하려고 하면 플랜에 대한 액세스를 요청할 수 없습니다. 대신 [!DNL Workfront] 관리자에게 문의하라는 화면이 표시됩니다.
 
-## [!DNL Workfront Scenario Planner]의 플랜에 대한 액세스 요청
+## [!DNL Workfront Scenario Planner]의 플랜에 대한 권한 요청
 
 플랜에 대한 권한이 없고 사용자와 공유된 링크에서 플랜으로 이동하면 플랜을 볼 권한이 없다는 화면이 표시됩니다. 계획 작성자에게 권한을 요청하라는 메시지가 표시됩니다.
 
@@ -107,14 +109,14 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설�
 
 1. 플랜에 대한 링크를 누릅니다.
 
-   ![플랜 액세스 요청](assets/request-access-to-plan-350x277.png)
+   ![플랜에 대한 권한 요청](assets/request-access-to-plan-350x277.png)
 
 1. **[!UICONTROL 액세스 권한 요청]** 드롭다운 메뉴에서 부여할 권한 수준을 지정합니다. 다음 중에서 선택합니다.
 
    * [!UICONTROL 보기]
    * [!UICONTROL 관리]
 
-   [!DNL Scenario Planner]에 대한 액세스 수준보다 높은 권한을 요청할 수 없습니다. 예를 들어 [!UICONTROL 에 대한 보기 액세스 권한이 있는 경우 &#x200B;]관리[!DNL Scenario Planner] 권한을 요청할 수 없습니다.
+   [!DNL Scenario Planner]에 대한 액세스 수준보다 높은 권한을 요청할 수 없습니다. 예를 들어 [!UICONTROL 에 대한 보기 액세스 권한이 있는 경우 ]관리[!DNL Scenario Planner] 권한을 요청할 수 없습니다.
 
    다른 수준의 권한에 대한 자세한 내용은 [다음에서 플랜 공유 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)를 참조하십시오.
 

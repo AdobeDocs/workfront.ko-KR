@@ -7,16 +7,16 @@ description: 예상 완료 일자는 프로젝트, 작업 또는 문제가 완�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
 # 프로젝트, 작업 및 문제의 예상 완료 일자 개요
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2025 -->
 
 예상 완료 일자는 프로젝트, 작업 또는 문제가 완료되는 시기를 실시간으로 나타내는 계산된 지표입니다. 프로젝트, 작업 또는 문제가 완료됨으로 표시되면 예상 완료 일자가 실제 완료 일자의 일자로 변경됩니다.
 
@@ -122,6 +122,9 @@ ht-degree: 0%
 1. **문제** 개체 아래의 목록에 나타나면 선택하십시오.
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
+   ![보고서 열의 예상 완료 일자](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+
+
    보고서의 **예상 완료 날짜** 열이 채워집니다.
 
-   ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+

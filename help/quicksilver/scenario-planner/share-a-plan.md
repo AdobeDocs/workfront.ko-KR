@@ -7,7 +7,7 @@ description: Adobe Workfront 시나리오 플래너에서 만든 플랜을 다�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설�
 * 본인이 만들지 않았거나 본인과 공유하지 않은 플랜은 볼 수 없습니다.
 * 플랜은 다른 사용자와만 공유할 수 있습니다. 그룹, 팀 또는 회사와 플랜을 공유할 수 없습니다.
 * 플랜을 공유하려면 먼저 저장해야 합니다.
-* 플랜에 대한 URL을 다른 사용자와 공유할 수 있습니다. 사용자에게 플랜을 볼 수 있는 권한이 없는 경우 URL을 수신할 때 다른 사용자에게 플랜에 대한 액세스를 요청할 수 있습니다. 플랜에 대한 액세스 요청에 대한 자세한 내용은 [의 플랜에 대한 액세스 요청 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)을 참조하십시오.
+* 플랜에 대한 URL을 다른 사용자와 공유할 수 있습니다. 사용자에게 플랜을 볼 수 있는 권한이 없는 경우 URL을 수신할 때 다른 사용자에게 플랜에 대한 액세스를 요청할 수 있습니다. 플랜에 대한 액세스 요청에 대한 자세한 내용은 [의 플랜에 대한 권한 요청 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)을 참조하십시오.
 * 다른 사용자와 이미 공유된 여러 플랜을 공유할 때 공유하는 사용자는 바꾸지 않고 선택한 각 플랜의 기존 사용자에 추가됩니다.
 
 ## 플랜 권한 옵션

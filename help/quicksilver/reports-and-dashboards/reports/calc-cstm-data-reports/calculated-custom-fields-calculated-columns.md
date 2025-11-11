@@ -7,9 +7,9 @@ description: Adobe Workfront의 여러 필드를 집계하여 해당 집계 값�
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -87,8 +87,9 @@ For example:
 
 * 개체의 기본 페이지에서 기타 아이콘 ![기타 아이콘](assets/more-icon.png)을 클릭한 다음 **표현식 다시 계산**&#x200B;을 클릭합니다.
 
-* **사용자 지정 식 다시 계산**&#x200B;을 사용하도록 설정할 때 여러 개체를 일괄 편집하는 중
-* 계산된 사용자 정의 필드에 대해 **이전 계산 업데이트**&#x200B;를 사용할 수 있는 경우 사용자 정의 양식 편집
+* **사용자 지정 식 다시 계산**&#x200B;을 사용하도록 설정한 경우 여러 개체를 일괄 편집하고 있습니다.
+* 개체 목록의 기타 메뉴에서 **식 다시 계산**&#x200B;을 클릭할 때 여러 개체를 일괄 편집하는 중입니다.
+* 계산된 사용자 정의 필드에 대해 **이전 계산 업데이트**&#x200B;를 사용할 수 있는 경우 사용자 정의 양식을 편집합니다.
 
 ## 보기에서 계산된 열을 사용해야 하는 경우
 

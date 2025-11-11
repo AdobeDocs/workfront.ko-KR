@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 다중 선택 사용자 정의 필드로 보고서 차트 작성
 description: 다중 선택 사용자 지정 필드에서 선택한 선택 사항을 캡처하는 추가 계산된 필드를 생성한 후에만 다중 선택 사용자 지정 필드로 보고서를 차트로 작성할 수 있습니다.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 0%
