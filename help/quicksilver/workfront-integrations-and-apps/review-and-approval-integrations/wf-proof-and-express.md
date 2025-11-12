@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,7 @@ Adobe Express과 함께 Workfront Proof을 사용하여
 
 ## 통합 요구 사항
 
-* Workfront 및 Adobe Express을 동일한 IMS 조직에 배포해야 합니다.
-
-* Adobe 제품 팀에서 계정에 대해 통합을 활성화해야 합니다.
-
-  >[!IMPORTANT]
-  >
-  >Adobe Express 및 Workfront Proof 통합은 Workfront 및 Adobe Express이 Adobe Admin Console의 동일한 조직 ID와 연결된 계정부터 시작하여 IMS 조직 간에 작업하는 사용자가 있는 고객까지 여러 릴리스 과정을 통해 사용자가 사용할 수 있습니다. 통합을 활성화하려면 고객 성공 또는 전략 계정 관리자에게 문의하십시오.
+* Workfront Standard 라이선스가 있는 Adobe Express 및 하나 이상의 Workfront 환경에 액세스할 수 있는 권한이 있어야 합니다.
 
 * 사용자는 Adobe Workfront에서 초안 검토를 시작하려면 먼저 [Adobe Express 검토 도구를 사용하여 대화형 콘텐츠 검토](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)를 설치해야 합니다.
 
@@ -89,7 +83,7 @@ Workfront에서 승인 워크플로 템플릿이 생성되면 Express Enterprise
 
 Adobe Express에서 승인을 요청하려면 사용자에게 Standard Workfront 라이선스가 있어야 합니다.
 
-[디자인 승인을 받는 방법](https://helpx.adobe.com/kr/express/web/share-and-publish/share-and-collaborate/request-approval.html)을 알아보세요.
+[디자인 승인을 받는 방법](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)을 알아보세요.
 
 
 ## 빠른 템플릿을 리믹스하여 검토 및 승인을 위해 전송
