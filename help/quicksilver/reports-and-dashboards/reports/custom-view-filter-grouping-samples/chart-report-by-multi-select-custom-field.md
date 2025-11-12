@@ -7,9 +7,9 @@ description: 다중 선택 사용자 지정 필드에서 선택한 선택 사항
 author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -131,13 +131,15 @@ ht-degree: 0%
 
 ### 계산된 사용자 정의 필드를 참조하는 차트 작성 {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. (선택 사항) 차트로 작성할 모든 계산된 필드가 값으로 채워지도록 하려면 보고서의 세부 정보 탭에서 다중 선택 사용자 지정 필드와 계산된 사용자 지정 필드가 모두 있는 사용자 지정 양식을 포함하는 모든 개체를 선택한 다음 **편집**&#x200B;을 클릭합니다.
-1. (선택 사항 및 조건부) **사용자 지정 표현식 다시 계산** 필드를 선택한 다음 **변경 내용 저장**&#x200B;을 클릭합니다.\
-   ![사용자 지정 표현식 다시 계산](assets/recalculate-custom-expressions-350x259.png)
+1. (선택 사항) 차트로 작성하려는 모든 계산된 필드가 값으로 채워지도록 하려면 보고서의 모든 오브젝트에서 사용자 정의 표현식을 다시 계산해야 합니다.
+표현식 다시 계산에 대한 자세한 내용은 [사용자 지정 필드의 정보 편집](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md)을 참조하십시오.
 
+   <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
+   1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
+   ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
    >[!NOTE]
    >
-   >이 옵션은 프로젝트 일괄 편집에서 제거되었습니다.  프로젝트 목록 맨 위에 있는 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon-45x33.png)을 클릭한 다음 **식을 다시 계산**&#x200B;하여 프로젝트에 대한 식을 일괄적으로 다시 계산할 수 있습니다.
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. -->
 
 1. 다중 선택 사용자 정의 필드를 참조하는 계산된 필드에 대한 차트를 추가하려는 보고서로 이동합니다.
 1. **보고서 동작**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다.

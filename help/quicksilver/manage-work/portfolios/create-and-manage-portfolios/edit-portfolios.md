@@ -6,7 +6,7 @@ description: 생성한 포트폴리오나 다른 사용자가 생성한 포트�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 1%
@@ -177,28 +177,28 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Name**]</td> 
+      <td role="rowheader">[!UICONTROL 이름]</td> 
       <td> <p>포트폴리오의 이름을 업데이트합니다. </p> <p><b>팁</b></p> 
-      <p>두 개 이상의 포트폴리오를 선택하면 **이름** 필드를 사용할 수 없습니다. </p> </td> 
+      <p>두 개 이상의 포트폴리오를 선택하면 이름 필드를 사용할 수 없습니다. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **설명**]</td> 
+      <td role="rowheader">[!UICONTROL 설명]</td> 
       <td> <p>Portfolio에 대한 고유한 사항을 나타내도록 설명에 정보를 입력합니다. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Portfolio 관리자**]</td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
       <td> <p>포트폴리오 관리자로 지정할 사용자의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 이는 [!UICONTROL Portfolio Owner]와 동일합니다. 포트폴리오의 프로젝트에 정의된 작업을 감독하고 비즈니스 사례를 승인할 수 있는 사람입니다.</p> <p>중요: 사용자를 Portfolio 관리자로 지정하면 포트폴리오, 프로그램 및 포트폴리오의 프로젝트에 대한 [!UICONTROL 관리] 권한이 자동으로 부여됩니다. </p> <p>팁: 포트폴리오 헤더에서 포트폴리오 관리자를 빠르게 업데이트할 수 있습니다. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Group**]</td> 
+      <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>그룹이 포트폴리오와 연결되어 있거나 그룹 완료를 위한 권한이 있는 경우 단일 그룹의 이름을 추가합니다. </p> <p>팁:  <p>[!UICONTROL Portfolio Details] 페이지에서 [!UICONTROL Group] 필드에 액세스할 때 다음을 수행합니다. </p> <p>마우스로 가리키고 그 옆에 표시되는 [!UICONTROL 정보] 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>[!UICONTROL Portfolio 편집] 상자에서는 이 옵션을 사용할 수 없습니다. </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL **Alignment Scorecard**]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL Alignment Scorecard]</p> </td> 
       <td> <p>드롭다운 목록에서 사용할 정렬 스코어카드를 선택합니다. 스코어카드는 프로젝트가 Portfolio의 정해진 기준에 얼마나 잘 부합하는지 측정하는 데 사용되며, 이때 조직의 임무, 값 및 전략적 목표가 반영됩니다. 자세한 내용은 <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">프로젝트에 스코어카드 적용 및 맞춤 점수 생성</a> 및 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">스코어카드 만들기</a>를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **활성 상태임**]</td> 
+      <td role="rowheader">[!UICONTROL이 활성화됨]</td> 
       <td> <p> 포트폴리오를 활성화하려면 이 확인란을 선택하십시오. 다른 사용자는 프로젝트를 만들거나 편집할 때 활성 포트폴리오를 찾아 프로젝트에 첨부할 수 있습니다. 비활성 포트폴리오를 프로젝트에 첨부할 수 없습니다. 이 기능은 기본적으로 활성화되어 있습니다.</p> </td> 
      </tr> 
     </tbody> 
