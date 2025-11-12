@@ -198,7 +198,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td> <p>드롭다운 목록에서 사용할 정렬 스코어카드를 선택합니다. 스코어카드는 프로젝트가 Portfolio의 정해진 기준에 얼마나 잘 부합하는지 측정하는 데 사용되며, 이때 조직의 임무, 값 및 전략적 목표가 반영됩니다. 자세한 내용은 <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">프로젝트에 스코어카드 적용 및 맞춤 점수 생성</a> 및 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">스코어카드 만들기</a>를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL이 활성화됨]</td> 
+      <td role="rowheader">[!UICONTROL 이 활성화됨]</td> 
       <td> <p> 포트폴리오를 활성화하려면 이 확인란을 선택하십시오. 다른 사용자는 프로젝트를 만들거나 편집할 때 활성 포트폴리오를 찾아 프로젝트에 첨부할 수 있습니다. 비활성 포트폴리오를 프로젝트에 첨부할 수 없습니다. 이 기능은 기본적으로 활성화되어 있습니다.</p> </td> 
      </tr> 
     </tbody> 
