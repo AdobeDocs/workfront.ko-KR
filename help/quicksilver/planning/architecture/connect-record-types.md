@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,11 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <td> 
    <p> 추가 제품</p> </td> 
    <td> 
-   <p> AEM 에셋을 Planning 레코드 유형과 연결하려면 Adobe Workfront 외에 Adobe Experience Manager Assets 라이선스와 AEM Assets 및 Workfront 간의 통합이 있어야 합니다.<p>
-    자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p>
+   <p> Adobe Workfront 외에도 다음 응용 프로그램의 오브젝트와 레코드 유형을 연결하려면 다음이 있어야 합니다.</p>
+   <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
+   <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
+   <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -225,6 +228,10 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      선택한 레코드 또는 개체 유형에 대한 새 연결 탭이 열립니다.
 
+   * Adobe GenStudio for Performance Marketing의 **Adobe GenStudio** 섹션에 있는 **Brand**
+
+     ![GenStudio 브랜드 연결 선택](assets/brand-genstudio-connection-selection.png)
+
 1. **이름** 필드가 원래 레코드 형식의 테이블 보기나 레코드 페이지에 나타나므로 연결된 새 필드의 이름으로 업데이트하십시오. 이렇게 하면 원본 레코드 종류의 표 보기에서 연결된 레코드 열(또는 필드)이 만들어집니다. 기본적으로 필드의 이름은 연결하는 레코드 또는 개체의 이름입니다.
 
    >[!TIP]
@@ -232,7 +239,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >동일한 레코드나 개체 유형에 여러 연결을 가질 수 있습니다. 연결된 필드 이름을 편집하지 않으면 Workfront은 연결된 레코드 이름 뒤에 숫자를 추가하여 동일한 이름으로 연결된 레코드 유형의 수를 나타냅니다.
 
 1. 연결된 레코드 필드에 대한 정보를 추가하여 **설명** 필드를 업데이트합니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
-1. (조건부) 다른 두 작업 영역의 레코드 종류 또는 레코드와 Adobe Experience Manager 자산 개체를 연결할 때 **여러 레코드 허용**&#x200B;을 선택합니다. 이 옵션을 선택하면 원본 레코드에 연결된 레코드 유형 필드가 표시될 때 사용자가 여러 레코드를 추가할 수 있음을 나타냅니다. 이 옵션은 기본적으로 선택되어 있습니다.
+1. (조건부) 레코드 종류 및 Adobe Experience Manager 에셋 개체 또는 레코드 종류 및 GenStudio Brand의 두 작업 영역에서 레코드 종류를 연결할 때 **여러 레코드 허용**&#x200B;을 선택합니다. 이 옵션을 선택하면 원본 레코드에 연결된 레코드 유형 필드가 표시될 때 사용자가 여러 레코드를 추가할 수 있음을 나타냅니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
    ![다른 작업 영역의 레코드 형식에 대한 새 연결](assets/new-connection-allow-multiple-records-box.png)
 
@@ -271,10 +278,10 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!NOTE]
    >
-   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
-1. (조건부) Experience Manager Assets 또는 Workfront Planning 레코드 유형에 연결하도록 선택한 경우 **레코드 모양** 영역에서 다음 옵션 중 하나를 선택합니다.
+1. (조건부) Experience Manager Assets, Workfront Planning 레코드 유형 또는 GenStudio Brand에 연결하도록 선택하는 경우 **모양 기록** 영역에서 다음 옵션 중 하나를 선택합니다.
 
    * **이름 및 이미지**: 연결된 레코드의 이름과 축소판 그림 또는 아이콘이 모두 연결된 레코드 필드에 표시됩니다. 기본 옵션입니다.
    * **이름**: 연결된 레코드의 이름만 연결된 레코드 필드에 표시됩니다.
@@ -349,7 +356,10 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!NOTE]
    >
-   > 기록 유형을 Experience Manager Assets에 연결할 때 집계자를 사용할 수 없습니다.
+   > 레코드 유형을 다음에 연결할 때 집계자를 사용할 수 없습니다.
+   >* Experience Manager Assets
+   >* GenStudio 브랜드.
+   >
 
    다음 중에서 선택합니다.
 

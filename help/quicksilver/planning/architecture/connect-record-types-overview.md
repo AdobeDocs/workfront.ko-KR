@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '2020'
 ht-degree: 1%
 
 ---
@@ -64,11 +64,17 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
       * 이미지
       * 폴더
 
+   * Adobe GenStudio for Performance Marketing
+
+      * 브랜드
+
      >[!IMPORTANT]
      >
-     >Adobe Experience Manager Assets 라이선스가 있어야 하며, Workfront Planning 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
-     >
-     >Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [Adobe 통합 경험 FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)를 참조하십시오.
+     >Adobe Experience Manager Assets 및 GenStudio 브랜드와 연결하려면 다음 항목이 있어야 합니다.
+     >* Adobe Experience Manager Assets 라이선스
+     >* Adobe GenStudio for Performance Marketing 라이선스
+     >* 조직의 Workfront 인스턴스를 Adobe Business Platform 또는 Adobe Admin Console에 온보딩하여 Workfront Planning 레코드를 Adobe Experience Manager Assets에 연결해야 합니다.
+     >Adobe Admin Console에 대한 자세한 내용은 [Adobe 통합 경험 FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)를 참조하십시오.
 
 * 레코드 유형에 대한 레코드를 만든 후 연결된 레코드 필드를 통해 서로 연결할 수 있습니다.
 
@@ -93,7 +99,8 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
       * Workfront 오브젝트에서 Planning 레코드 필드에 액세스할 수 없습니다.
       * 계획 레코드는 Workfront 오브젝트의 계획 탭에서 볼 수 있습니다. 자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
       * Planning 연결 사용자 정의 필드를 만들어 Workfront 객체의 사용자 정의 양식에 첨부할 수 있습니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
-      * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+      * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+      * GenStudio for Performance Marketing의 브랜드에서는 계획 레코드 필드에 액세스할 수 없습니다.
 
 
    * **연결된 레코드 또는 개체에서 조회 필드를 추가할 때**: 연결된 레코드 필드를 만들 수 있을 뿐만 아니라 연결된 레코드 또는 개체 형식의 필드에 연결할 수도 있습니다. 이 필드를 조회 필드라고 합니다. 연결하려는 레코드의 정보가 있는 연결된(또는 조회 필드) 필드는 연결하려는 레코드에 표시됩니다.
@@ -127,11 +134,13 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
 >[!WARNING]
 >
->다음 연결 시 이러한 옵션을 사용할 수 없습니다.
+>이 섹션에서 설명하는 옵션은 다음을 연결할 때 사용할 수 없습니다.
 >
 >* 다른 작업 공간의 두 개 레코드
 >
 >* 레코드 유형 및 Experience Manager 에셋
+>
+>* 레코드 유형 및 Adobe GenStudio 브랜드
 
 한 번에 하나의 레코드를 여러 레코드에 연결할지 또는 한 번에 하나의 레코드를 서로 연결할지 선택할 수 있습니다.
 
