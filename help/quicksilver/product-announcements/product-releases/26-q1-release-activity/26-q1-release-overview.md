@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 1분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b0fb8f0ca72800c2befe4f1f8194be17c4f75c95
+source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1680'
 ht-degree: 3%
 
 ---
@@ -39,6 +39,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [관리자 개선 사항](#administrator-enhancements)
 * [문서 및 승인 개선 사항](#documents-and-approvals-enhancements)
+* [통합 개선 사항](#integration-enhancements)
+* [보고 개선 사항](#reporting-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
 ### 관리자 개선 사항
@@ -133,6 +135,69 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>2025년 10월 30일 금요일</td>
         <td>2025년 10월 30일 금요일</td>
         <td>2025년 10월 30일 금요일</td>
+    </tr>   
+  </tbody>
+</table>
+
+### 보고 개선 사항
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>기능</strong>
+        </td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드에 보고서 복제</a><p>![배지 해제 일정]{type=Neutral}</p>
+            <p>이제 KPI, 테이블 또는 차트 보고서를 만든 후 캔버스 대시보드에서 복제할 수 있습니다. 복제되면 저장하기 전에 필요에 따라 보고서를 편집할 수 있습니다.</p>
+        </td>
+        <td>2025년 10월 23일 금요일</td>
+        <td>2025년 10월 23일 금요일</td>
+        <td>2025년 10월 23일 금요일</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">보고서 필터에서 필드 옵션 제거</a>
+            <p>보고서에 필터를 적용할 때 이전에 사용할 수 있었던 다음 필드 옵션을 제거했습니다.
+            <ul>
+            <li>기타 그룹 ID</li>
+            <li>기타 역할 ID</li>
+            <li>기타 팀 ID</li>
+            </ul>
+            </p>
+        </td>
+        <td>2025년 11월 6일 금요일</td>
+        <td>2025년 11월 13일 금요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 그룹화 수 표시 개선</a>
+            <p>이제 테이블 보고서에 여러 개의 결과 페이지가 있고 테이블이 그룹화로 구성된 경우 테이블에는 현재 페이지에 대한 레코드 양과 모든 페이지에 대한 전체 레코드 수가 모두 표시됩니다. 예를 들어 표 보고서에 7개의 그룹화가 있고 첫 번째 페이지에 3이 표시되면 표에 7중 3이 표시됩니다.</p>
+        </td>
+       <td>2025년 11월 6일 금요일</td>
+        <td>2025년 11월 13일 금요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 로드 시간을 개선하는 새 보호 기능</a>
+            <p>Canvas Dashboards에서 로드 시간 지연을 방지하고 전체 성능을 개선하기 위해 대시보드에 추가할 수 있는 대시보드 구성 요소의 수에 대한 제한을 적용했습니다.
+            <ul>
+            <li>대시보드당 보고서: 25 제한</li>
+            <li>테이블 보기의 그룹화: 5개 제한</li>
+            <li>보고서의 기본 개체로부터의 거리: 10 제한</li>
+            <li>테이블 보기의 열: 25개 제한</li>
+            <li>대시보드 수준 필터 프롬프트: 10개 제한</li>
+            </ul></p>
+        </td>
+       <td>2025년 11월 6일 금요일</td>
+        <td>2025년 11월 13일 금요일</td>
+        <td>2026년 1월 15일 금요일</td>
     </tr>   
   </tbody>
 </table>
@@ -255,13 +320,13 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
