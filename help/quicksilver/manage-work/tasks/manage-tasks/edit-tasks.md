@@ -517,7 +517,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
          </tbody> 
          </table>-->
 
-   1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**을 클릭합니다.
+   1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**&#x200B;을 클릭합니다.
 지정(Assignments) 영역이 이전 경험에 열립니다.
       ![작업 편집 상자의 할당 섹션](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
