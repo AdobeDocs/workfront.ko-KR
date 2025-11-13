@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: b6731b9877237916259a862863b30c8ef65ad343
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1318'
 ht-degree: 2%
 
 ---
@@ -136,18 +136,14 @@ IF(
    * 문서
    * 프로그램
    * 경비
-   * 사용자
    * 회사
    * 반복
    * 청구 기록
    * 그룹
+   * 비노동 리소스
    * 위험
+   * 요율 카드
    * 할당
-   * 작업 역할
-   * 리소스 풀
-   * 휴무
-   * Hour
-   * 템플릿
 
 1. 규칙 빌더 대화 상자에서 비즈니스 규칙의 **이름**&#x200B;을(를) 입력하십시오.
 1. **활성 상태임** 필드에서 규칙을 저장할 때 규칙을 활성화해야 하는지 여부를 선택합니다.
