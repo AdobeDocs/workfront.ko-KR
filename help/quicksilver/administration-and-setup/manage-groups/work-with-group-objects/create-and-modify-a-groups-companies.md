@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,10 @@ ht-degree: 0%
    >액세스 수준의 회사에 대한 관리 액세스 권한이 있는 경우 목록 하단의 더 많은 회사 추가를 클릭할 수도 있습니다. 이렇게 하면 새 회사를 빠르게 구성할 수 있는 행이 추가됩니다.
 
 1. (선택 사항) 회사를 편집하거나 삭제하려면 하나 이상의 회사를 선택한 다음 도구 모음 단추를 사용하여 ![편집 아이콘](assets/edit-icon.png)을 편집하거나 ![삭제 아이콘](assets/delete.png)을(를) 삭제합니다.
+
+   >[!NOTE]
+   >
+   >회사를 삭제할 때 회사가 기본 회사로 설정되어 있거나 다른 오브젝트에서 사용 중인 경우 삭제할 회사를 대체할 다른 회사를 선택하라는 메시지가 표시됩니다. 선택한 회사가 기본 회사가 되거나 회사가 지정된 오브젝트에서 삭제된 회사를 바꿉니다.
 
    회사 편집에 대한 자세한 내용은 문서 [회사 만들기 및 편집](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)에서 [Workfront에서 회사 만들기 또는 편집](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) 섹션을 참조하십시오.
 

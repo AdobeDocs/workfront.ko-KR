@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,18 @@ ht-degree: 0%
    또는
 
    기존 회사를 편집하는 경우 **[!UICONTROL 변경 내용 저장]** <span class="preview"> 또는 **저장**&#x200B;을 클릭합니다.</span>
+
+## 회사 삭제
+
+{{step-1-to-setup}}
+
+1. **[!UICONTROL 회사]**&#x200B;를 클릭합니다.
+
+   회사 목록이 표시됩니다.
+
+1. 삭제할 회사 옆에 있는 확인란을 클릭한 다음 페이지 상단 근처에 있는 삭제 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭합니다.
+1. 기본 회사로 설정되어 있거나 다른 오브젝트에서 사용 중인 회사를 삭제하는 경우 삭제할 회사를 바꿀 회사를 선택합니다. 선택한 회사가 기본 회사가 되거나 회사가 지정된 오브젝트에서 삭제된 회사를 바꿉니다.
+1. **삭제**&#x200B;를 클릭합니다.
 
 ## 회사 멤버십 관리
 
