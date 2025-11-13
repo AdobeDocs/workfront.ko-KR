@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ba6468327ca390ddc75ff1c18440283daa6eee4
+source-git-commit: 21cab3964ffd79b4b58835fcb992f59eefee78ee
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,18 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## GenStudio for Performance Marketing 브랜드와 Workfront Planning 레코드 유형 연결
+
+>[!NOTE]
+>
+>미리 보기: 2025년 11월 13일
+>프로덕션 빠른 릴리스: 2025년 11월 13일
+>모두를 위한 프로덕션: 2026년 11월 13일
+
+이제 Workfront Planning 레코드 유형을 Adobe GenStudio for Performance Marketing의 브랜드와 연결할 수 있습니다. 조직에 Workfront Planning과 Adobe GenStudio for Performance Marketing이 모두 있어야 합니다.
+
+자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
 
 ## Planning 보기의 필터, 필드 및 행 색상 아이콘에서 새 필드 검색 상자

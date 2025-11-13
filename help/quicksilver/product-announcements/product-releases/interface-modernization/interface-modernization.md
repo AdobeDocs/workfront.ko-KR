@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
+source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
 workflow-type: tm+mt
-source-wordcount: '9336'
+source-wordcount: '9416'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,23 @@ ht-degree: 0%
 Adobe Workfront에 대한 다른 모든 변경 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
 ## 관리자 및 설정
+
+### 사용 중인 항목을 삭제할 때 대화 상자가 업데이트됨
+
+**미리 보기 릴리스: 2025년 11월 13일, 프로덕션 릴리스: 2025년 11월 20일**
+
+사용 중인 항목을 삭제할 때 다음 개체에 업데이트된 대화 상자가 표시됩니다.
+
+* 액세스 수준
+* 회사
+* 경비 유형
+* 그룹/타임시트 프로필
+* 시간 유형
+* 위험 유형
+* 예약
+* 타임시트 프로필
+
+이제 새 대화 상자가 Workfront의 다른 영역과 일치합니다. 기능에는 변경 사항이 없습니다.
 
 ### 회사 추가 및 편집 대화 상자에 대한 인터페이스 업데이트
 
@@ -131,9 +148,8 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 ### 개인 휴무에 대한 인터페이스 업데이트
 
-**미리 보기 릴리스: 2025년 10월 23일, 모든 고객의 프로덕션 릴리스: 2025년 10월 30일 주부터**
+**미리 보기 릴리스: 2025년 10월 23일, 모든 고객을 위한 프로덕션 릴리스: 2025년 11월 13일 주부터**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
 
 >[!NOTE]
 >
@@ -476,7 +492,7 @@ Workfront의 다른 영역과 일치하도록 프로젝트 및 템플릿에 대�
 
 >[!NOTE]
 >
->이 기능은 2025년 10월 15일에 미리보기 및 프로덕션 환경에서 일시적으로 제거되었습니다.
+>이 기능은 10월 15일에 미리보기 및 프로덕션에서 일시적으로 제거되었습니다. 미리보기에서 사용할 수 있으며 2025년 11월 13일부터 단계적으로 롤아웃하여 프로덕션에서 사용할 수 있습니다.
 
 애플리케이션의 다른 영역과 일치하도록 프로젝트 경비를 편집하는 대화 상자를 업데이트했습니다. 업데이트된 대화 상자는 프로젝트 또는 템플릿에서 경비를 편집할 때 사용할 수 있습니다.
 
