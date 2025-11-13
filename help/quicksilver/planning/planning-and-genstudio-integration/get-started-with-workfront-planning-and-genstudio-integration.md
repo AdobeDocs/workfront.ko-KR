@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 통�
 * Workfront Planning에서 캠페인, 제품, 가상 사용자 및 활성화를 수정하고 GenStudio for Performance Marketing에서 동일한 정보를 실시간으로 업데이트합니다.
 * 중복 데이터 항목을 방지합니다.
 * 계획 및 활성화 노력 간의 정렬을 유지합니다.
+* GenStudio 브랜드 및 해당 정보를 Workfront Planning 레코드에 연결합니다.
 
 ## 통합 요구 사항
 
@@ -108,7 +109,7 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 사�
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -163,7 +164,7 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -184,7 +185,6 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
   </tr> 
 </tbody> 
 </table> -->
-
 
 ## Workfront Planning 및 GenStudio for Performance Marketing 통합 기능 개요
 
@@ -290,13 +290,14 @@ Workfront Planning 권한에 대한 자세한 내용은 [Adobe Workfront Plannin
 
 ### GenStudio 작업 영역의 레코드 유형 필드
 
-* 레코드 유형 필드는 기본적으로 GenStudio for Performance Marketing에서 Workfront Planning으로 가져옵니다.
-* GenStudio for Performance Marketing에서 레코드 유형에 필드를 추가할 수 없습니다.
-<!--Iskuhi said this is not possible but I can add fields: * You cannot create or delete Activation records' fields from the GenStudio workspace in Workfront Planning. -->
+레코드 유형 필드는 기본적으로 GenStudio for Performance Marketing에서 Workfront Planning으로 가져옵니다.
+
+GenStudio 레코드 유형 필드에 대해 다음 사항을 고려하십시오.
+
 * Planning에서 GenStudio 작업 영역에 대한 관리 권한이 있는 경우 Workfront Planning에서 다음을 수행할 수 있습니다.
 
    * GenStudio 필드 설정을 편집합니다.
-   * Gen Studio 작업 영역에서 관리 액세스 권한이 있는 경우 GenStudio 레코드 유형에 대한 필드를 만듭니다.
+   * GenStudio 레코드 유형에 대한 필드를 만듭니다.
 
      Planning에서 GenStudio 레코드 유형에 대한 필드를 만들면 다음 영역에서 볼 수 있습니다.
 
@@ -306,7 +307,7 @@ Workfront Planning 권한에 대한 자세한 내용은 [Adobe Workfront Plannin
 
      >[!TIP]
      >
-     >Workfront Planning에서 생성된 필드는 GenStudio 목록 보기에 표시되지 않습니다.
+     >Workfront Planning에서 생성된 필드는 GenStudio에 표시되지 않습니다.
 
    * Workfront Planning에서 GenStudio 레코드 유형의 표 보기에서 필드를 숨깁니다.
 &lt;!—* Workfront Planning에서 GenStudio 레코드 유형에 대해 Workfront Planning에 생성된 필드를 삭제합니다. — 이는 Iskuhi에 따라 가능하지 않습니다. 링크가 있지만 오류가 발생합니다—>
@@ -374,6 +375,12 @@ GenStudio 레코드 유형과 Workfront Planning의 다른 레코드 또는 개�
 * Workfront Planning에서 GenStudio 레코드 유형에 대한 자동화를 구성할 수 있습니다.
 
   자세한 내용은 [Adobe Workfront Planning 자동화 구성](/help/quicksilver/planning/records/configure-automations-to-create-records.md)을 참조하십시오.
+
+### Workfront Planning 작업 공간에서 GenStudio 브랜드에 대한 연결
+
+조직의 Workfront Planning과 Adobe GenStudio이 통합되면 Workfront Planning의 모든 작업 영역에 있는 모든 레코드 유형에서 Planning 레코드 유형을 GenStudio 브랜드에 연결할 수 있습니다.
+
+브랜드는 GenStudio 작업 영역에서 레코드 유형 카드로 표시되지 않습니다. 브랜드는 GenStudio 작업 영역의 연결을 포함하여 모든 Workfront Planning 레코드 유형에서 새 연결을 만들 수 있습니다.
 
 ## 미리보기 환경
 

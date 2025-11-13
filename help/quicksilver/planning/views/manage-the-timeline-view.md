@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '3951'
+source-wordcount: '3968'
 ht-degree: 2%
 
 ---
@@ -563,6 +563,8 @@ this is not possible right now; if this is the same functionality as the table v
   예를 들어 작업은 Workfront의 프로젝트에 연결됩니다. 분류 기능을 사용하면 Planning의 캠페인에 연결되어 있지만 Workfront의 프로젝트에 연결된 작업은 아닌 프로젝트를 표시할 수 있습니다.
 
   Workfront Planning 레코드 유형의 타임라인 보기에 포트폴리오와 프로젝트를 모두 표시하려면 포트폴리오와 프로젝트가 모두 Planning 레코드나 관리하는 Planning 레코드의 타임라인 보기에 연결된 레코드에 연결되어 있어야 합니다.
+* Planning 레코드 유형에 연결된 Adobe GenStudio 브랜드를 표시할 수 없습니다.
+자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 * 두 개 이상의 날짜 필드와 연결된 레코드 유형만 표시할 수 있습니다.
 * 타임라인 보기에 표시할 레코드 종류의 날짜 필드는 선택한 레코드 종류의 표 보기에서 조회 필드로 표시되어야 합니다.
 * 타임라인 보기에 표시할 레코드 유형의 시작 날짜와 종료 날짜는 시간 순서대로 표시되어야 합니다. 예를 들어 레코드에 시작 날짜가 1월 31일이고 종료 날짜가 1월 1일인 경우 타임라인 보기에 표시되지 않습니다. 자세한 내용은 이 문서의 [타임라인 보기 관리](#manage-a-timeline-view) 섹션을 참조하십시오.

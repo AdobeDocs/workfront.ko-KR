@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
 다음 영역에서 다른 레코드 또는 다른 응용 프로그램의 개체에 레코드를 연결할 수 있습니다.
 
-* Workfront Planning의 레코드를 Planning 레코드의 다음 영역에서 Workfront 객체 또는 Experience Manager Assets 객체에 연결할 수 있습니다.
+* Workfront Planning의 레코드를 Planning 레코드의 다음 영역에서 Workfront 개체, Experience Manager Assets 개체 또는 GenStudio 브랜드에 연결할 수 있습니다.
 
    * Planning에 있는 레코드 유형의 테이블 뷰에 있는 연결된 레코드 필드.
-   * 세부 정보 탭의 연결된 레코드 필드에 있는 레코드의 미리 보기 또는 페이지입니다.
-   * 연결 탭의 레코드 미리 보기 또는 페이지입니다.
+   * 세부 정보 탭의 연결된 레코드 필드에 있는 레코드의 미리 보기 또는 세부 정보 페이지입니다.
+   * 연결 탭의 레코드 미리 보기 또는 세부 정보 페이지입니다.
    * 연결된 레코드의 연결된 레코드 페이지 탭에 있는 레코드의 페이지
 
 * Workfront의 다음 영역에서 Workfront 개체를 Workfront Planning 레코드에 연결할 수 있습니다.

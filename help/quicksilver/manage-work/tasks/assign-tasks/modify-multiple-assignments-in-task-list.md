@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,19 @@ ht-degree: 0%
 
 <!--Audited: 11/2025-->
 
+<!--remove the old/new experience references when the toggles are removed-->
+
 <!--
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 작업 할당을 관리할 때 작업 목록의 일괄 편집 기능을 사용하여 한 번에 여러 작업에 대해 동시에 수정할 수 있습니다.
 
@@ -125,25 +127,22 @@ When assigning users to work, their availability according to their schedules af
 
 1. 할당을 수정할 작업을 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
 
-   **작업 편집** 상자가 새 환경에서 <span class="preview">열립니다. 다음 중 하나를 실행하십시오.</span>
-
-   <div class="preview">
+   **작업 편집** 상자가 새 환경에서 열립니다. 다음 중 하나를 수행하십시오.
 
    * 피할당자를 추가하려면 **사람, 역할 또는 팀 검색** 필드에 피할당자의 이름을 입력한 다음 목록에 표시될 때 선택하십시오.
    * 피할당자를 제거하려면 이름 오른쪽에 있는 **x** 아이콘을 클릭하십시오. 모든 작업에 공통되는 할당자만 목록에 표시됩니다.
    * 나에게 할당 을 클릭하여 선택한 작업을 자신에게 할당합니다.
 
-   </div>
+1. (조건부) 새 환경을 사용할 때는 **저장**&#x200B;을 클릭하세요.
 
-1. <span class="preview">(조건부) 새 환경을 사용할 때는 **저장**.</span>을 클릭하세요.
+1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**&#x200B;을 클릭합니다.
 
-1. <span class="preview">(선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**&#x200B;을 클릭합니다.</span>
+   **작업 편집** 상자가 이전 환경에서 열립니다.
 
-   <span class="preview">이전 환경에서 **작업 편집** 상자가 열립니다.</span>
-
+   <!--
    >[!TIP]
    >
-   >이전 경험은 기본적으로 프로덕션 환경에서 사용할 수 있습니다.
+   >The old experience is available by default in the Production environment.-->
 
 1. (조건부) 이전 경험에서 다음을 수행하여 피할당자를 수정합니다.
 

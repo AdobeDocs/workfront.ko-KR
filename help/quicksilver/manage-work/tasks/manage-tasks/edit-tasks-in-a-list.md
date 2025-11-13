@@ -6,9 +6,9 @@ description: 목록에 표시된 필드를 편집하여 작업 목록에서 작�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2851'
 ht-degree: 3%
 
 ---
@@ -17,13 +17,15 @@ ht-degree: 3%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+<div class="preview"> 
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 목록에 표시된 필드를 편집하여 작업 목록에서 작업 정보를 편집할 수 있습니다. 작업을 편집하는 다른 방법에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
 
@@ -507,18 +509,16 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
    >작업을 수동으로 저장할 때 작업을 일괄적으로 편집할 수 없습니다.
 
 1. 작업 목록에서 작업을 두 개 이상 선택합니다.
-1. <span class="preview">(선택 사항) 작업 목록 맨 위에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **식을 다시 계산**&#x200B;하여 계산된 사용자 지정 필드의 모든 정보를 업데이트하십시오.</span>
-1. **편집** 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭합니다. **작업 편집** 대화 상자가 새 환경에서 <span class="preview">열립니다</span>.
+1. (선택 사항) 작업 목록 맨 위에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **식을 다시 계산**&#x200B;하여 계산된 사용자 지정 필드의 모든 정보를 업데이트합니다.
+1. **편집** 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭합니다. **작업 편집** 대화 상자가 새 환경에서 열립니다.
 
    모든 작업에 대한 정보를 편집하는 것은 한 작업에 대한 정보를 편집하는 것과 동일합니다.
 
    작업 편집에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
 
-1. <span class="preview">(조건부) 새 경험에서 다음을 수행합니다.</span>
+1. (조건부) 새 경험에서 다음을 수행합니다.
 
    1. 다음 영역 중 하나에서 선택한 모든 작업에 대해 변경할 정보를 지정합니다.
-
-      <div class="preview">
 
       * 개요
       * 할당
@@ -528,9 +528,6 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
       * 설정
       * 댓글
 
-      </div>
-
-
       >[!NOTE]
       >
       >* 선택한 모든 작업에 대해 변경 중인 정보는 **할당** 필드를 제외한 개별 작업에 대한 기존 정보를 재정의합니다. 일괄 편집에서 새 피할당자를 추가하면 해당 피할당자가 선택한 모든 작업에 추가됩니다. 다른 할당자가 선택한 작업에 할당되면 일괄 편집을 통해 추가된 할당자와 함께 할당된 상태로 유지됩니다.
@@ -539,10 +536,10 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
       >* 활성 사용자 정의 양식만 목록에 표시됩니다. 선택한 작업에 일반적인 사용자 정의 양식이 없는 경우 이 섹션에 양식이 나열되지 않습니다.
       >* 선택한 모든 작업에 첨부되고 편집 권한이 있는 양식의 필드만 편집할 수 있습니다.  사용자 정의 양식을 대량으로 편집하는 방법에 대한 자세한 내용은 [개체에 첨부된 사용자 정의 양식 관리](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)를 참조하십시오.
 
-   1. <span class="preview">**저장**&#x200B;을 클릭합니다.</span>
-   1. <span class="preview">(선택 사항) 작업 편집 상자 아래쪽에 있는 **이전 경험으로 다시 전환**&#x200B;을 클릭합니다.</span>
+   1. **저장**&#x200B;을 클릭합니다.
+   1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 다시 전환**&#x200B;을 클릭합니다.
 
-1. <span class="preview">(조건부) 이전 경험에서는 다음을 수행합니다.</span>
+1. (조건부) 이전 경험에서 다음 작업을 수행합니다.
 
    1. 다음 영역 중 하나에서 선택한 모든 작업에 대해 변경할 정보를 지정합니다.
 

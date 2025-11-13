@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4416'
 ht-degree: 4%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 4%
 </div>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 직접 만들었거나 Contribute 또는 Manage 권한이 있는 작업에 대한 정보를 편집할 수 있습니다.
 
@@ -377,19 +377,17 @@ ht-degree: 4%
 1. 위에서 설명한 대로 작업 편집을 시작합니다.
 1. 왼쪽 패널에서 **할당**&#x200B;을 클릭합니다.
 
-   <span class="preview">할당 영역이 새 경험에 열립니다.</span>
+   할당 영역이 새 경험에 열립니다.
 
 1. (조건부) 새 경험을 사용하여 다음 작업을 수행합니다.
 
-   1. <span class="preview">사용자, 역할 또는 팀 검색&#x200B;**필드에 사용자, 작업 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다**</span>
+   1. **사람, 역할 또는 팀 검색** 필드에 사용자, 작업 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다
 
       또는
 
-      <span class="preview">작업을 자신에게 할당하려면 **나에게 할당**&#x200B;을 클릭하세요. </span>
+      작업을 본인에게 할당하려면 **나에게 할당**&#x200B;을 클릭하세요.
 
-   1. <span class="preview">다음 정보를 업데이트하십시오.</span>
-
-      <div class="preview">
+   1. 다음 정보를 업데이트합니다.
 
       <table style="table-layout:auto"> 
          <col> 
@@ -501,7 +499,6 @@ ht-degree: 4%
          </tbody> 
          </table>
 
-      </div>
 
       <!--<tr> 
       <td role="rowheader">Allocation</td> 
@@ -520,9 +517,9 @@ ht-degree: 4%
          </tbody> 
          </table>-->
 
-   1. <span class="preview">(선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**&#x200B;을 클릭합니다. </span>
-      <span class="preview">이전 경험에서 할당 영역이 열립니다. </span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**을 클릭합니다.
+지정(Assignments) 영역이 이전 경험에 열립니다.
+      ![작업 편집 상자의 할당 섹션](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. **사람, 역할 또는 팀 검색**&#x200B;을 클릭하고 작업에 할당할 사용자, 역할 또는 팀의 이름을 입력한 다음 해당 작업을 클릭하거나 목록에 표시될 때 Enter 키를 누릅니다.
 
@@ -670,7 +667,7 @@ ht-degree: 4%
    </tbody>
    </table>
 
-1. **변경 내용 저장** <span class="preview"> 또는 **저장** </span>을 클릭하거나 다음 섹션을 계속하십시오.
+1. **저장**&#x200B;을 클릭하거나 다음 섹션을 계속합니다.
 
 ### 사용자 정의 양식
 

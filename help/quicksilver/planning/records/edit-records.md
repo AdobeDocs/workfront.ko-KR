@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
 source-wordcount: '2731'
 ht-degree: 0%
@@ -197,7 +197,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. (선택 사항 및 조건부) 단락 유형 필드를 편집할 때 다음 **서식 있는 텍스트** 서식 옵션을 사용합니다.
 
-   * 볼드체
+   * 굵게
    * 이탤릭체
    * 밑줄
    * 링크 추가
@@ -226,7 +226,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
       * Workfront Planning 연결 필드.
       * 사람 필드. 값이 한 개인 필드만 지원됩니다.
 
-     외부 소스에서 정보를 복사하여 Workfront 또는 AEM Assets 연결 필드를 포함한 다른 필드 유형에 붙여넣을 수 없습니다.
+     외부 소스에서 정보를 복사하여 Workfront 또는 다른 애플리케이션의 연결 필드를 포함한 다른 필드 유형에 붙여넣을 수 없습니다.
 
    >[!NOTE]
    >

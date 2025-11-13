@@ -7,9 +7,9 @@ description: 템플릿을 만든 후 템플릿 작업에 대한 정보를 편집
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4633'
 ht-degree: 4%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 4%
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 템플릿을 만든 후 템플릿 작업의 정보를 편집할 수 있습니다. 템플릿을 사용하여 프로젝트를 만들거나 템플릿을 프로젝트에 첨부한 후에는 템플릿 작업에 대해 업데이트하는 정보가 프로젝트 작업과 연결됩니다.
 
@@ -138,15 +138,21 @@ ht-degree: 4%
 1. (선택 사항) 여러 템플릿 작업을 일괄적으로 편집하려면 여러 템플릿 작업을 선택한 다음 템플릿 목록 맨 위에서 **편집**&#x200B;을 클릭합니다.
 1. (조건부) 템플릿 작업 또는 여러 작업에 대한 모든 정보를 동시에 편집하려면 목록에서 클릭하여 선택한 다음 목록 맨 위에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
-   **템플릿 작업 편집** 상자가 표시됩니다.
+   **템플릿 작업 편집** 상자가 새 환경에 표시됩니다.
+
+   ![템플릿 작업 편집에 대한 새 경험](assets/edit-template-task-box-unshimmed.png)
 
    >[!TIP]
    >
    >목록에서 템플릿 작업을 선택한 다음 헤더의 템플릿 작업 이름 오른쪽에 있는 **편집**&#x200B;을 클릭하여 **템플릿 작업 편집** 상자를 열 수도 있습니다.
 
+   이 문서의 [새 경험을 사용하여 템플릿 작업 편집](#edit-a-template-task-using-the-new-experience) 섹션에 설명된 대로 템플릿 작업을 계속 편집합니다.
+
+1. (선택 사항) **템플릿 작업 편집** 상자 아래쪽에 있는 **이전 경험으로 다시 전환**&#x200B;을 클릭하여 이전 경험에서 **템플릿 작업 편집** 상자를 엽니다.
+
    ![템플릿 작업 편집](assets/edit-template-tasks-box-classic-350x356.png)
 
-1. (조건부) 프로덕션 환경에서는 다음 섹션 중 하나에서 정보를 지정하는 것이 좋습니다.
+1. 다음 섹션 중 하나에서 정보를 지정하는 것이 좋습니다.
 
    * [개요](#overview)
    * [재무](#finance)
@@ -156,9 +162,6 @@ ht-degree: 4%
    * [댓글](#comment)
 
 1. 이 문서의 [이전 경험을 사용하여 템플릿 작업 편집](#edit-a-template-task-using-the-old-experience) 섹션에 설명된 대로 템플릿 작업을 계속 편집합니다.
-
-1. <span class="preview">(조건부) 미리 보기 환경에서 템플릿 작업 편집 상자가 새 환경에서 열립니다. 이 문서의 [새 경험을 사용하여 템플릿 작업 편집](#edit-a-template-task-using-the-new-experience) 섹션에 설명된 대로 템플릿 작업을 계속 편집합니다.</span>
-1. <span class="preview">(선택 사항) **템플릿 작업 편집** 상자 아래쪽에 있는 **이전 경험으로 다시 전환**&#x200B;을 클릭하여 이전 경험에서 **템플릿 작업 편집** 상자를 엽니다. 이 문서의 [이전 경험을 사용하여 템플릿 작업 편집](#edit-a-template-task-using-the-old-experience) 섹션에 설명된 대로 템플릿 작업을 계속 편집합니다.</span>
 
 ### 이전 경험을 사용하여 템플릿 작업 편집
 
@@ -438,8 +441,6 @@ ht-degree: 4%
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
    사용자 또는 다른 사용자가 이 템플릿에서 프로젝트를 만들 때 템플릿 작업에 적용한 모든 설정이 프로젝트 작업의 설정이 됩니다.
-
-<div class="preview">
 
 ### 새 경험을 사용하여 템플릿 작업 편집
 
@@ -767,4 +768,3 @@ ht-degree: 4%
 
    사용자 또는 다른 사용자가 이 템플릿에서 프로젝트를 만들 때 템플릿 작업에 적용한 모든 설정이 프로젝트 작업의 설정이 됩니다.
 
-</div>

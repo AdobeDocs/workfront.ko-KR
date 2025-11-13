@@ -6,9 +6,9 @@ description: 템플릿 영역에서 템플릿을 만들고 삭제할 수 있습�
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '734'
 ht-degree: 6%
 
 ---
@@ -17,13 +17,15 @@ ht-degree: 6%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+<!--<div class="preview"> 
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 템플릿 영역에서 템플릿을 만들고 삭제할 수 있습니다. 새 템플릿을 작성할 때 모든 작업 및 향후 프로젝트 설정에 대한 정보를 입력할 수 있습니다. 그런 다음 이 정보는 템플릿에서 만드는 모든 프로젝트로 전송됩니다.
 
@@ -118,13 +120,11 @@ ht-degree: 6%
 
    **새 템플릿 작업**&#x200B;을(를) 클릭하여 **새 템플릿 작업** 상자에서 템플릿에 작업을 추가합니다.
 
-   ![새 템플릿 작업 상자](assets/new-template-task-box.png)
+   **템플릿 작업 만들기** 상자가 새 환경에서 열립니다.
 
-   <span class="preview">템플릿 작업 **만들기** 상자가 새 환경에서 열립니다.</span>
+   ![새 템플릿 작업에 대한 새 경험](assets/new-template-task-box-unshimmed.png)
 
-1. <span class="preview">(조건부) 새 환경을 사용하여 **템플릿 작업 만들기** 상자에서 다음 영역의 정보를 업데이트합니다.</span>
-
-   <div class="preview">
+1. (조건부) 새 경험을 사용하여 **템플릿 작업 만들기** 상자에서 다음 영역의 정보를 업데이트합니다.
 
    * 템플릿 작업 이름
    * 개요
@@ -134,14 +134,15 @@ ht-degree: 6%
    * 문서
    * 설정
 
-   </div>
-
 1. **템플릿 작업 만들기** 클릭
 
    또는
 
-   <span class="preview">**템플릿 작업 만들기** 상자 아래쪽에 있는 **이전 경험으로 다시 전환**&#x200B;을 클릭합니다.</span>
-   <span class="preview">**새 템플릿 작업**&#x200B;이 이전 환경에서 열립니다.</span>
+   **템플릿 작업 만들기** 상자 아래쪽에 있는 **이전 경험으로 다시 전환**&#x200B;을 클릭합니다.
+
+   **새 템플릿 작업**&#x200B;이 이전 환경에서 열립니다.
+
+   ![새 템플릿 작업 상자](assets/new-template-task-box.png)
 
    >[!TIP]
    >
@@ -189,7 +190,7 @@ ht-degree: 6%
    * 문서
    * 위험
    * 승인 프로세스
-   * 결제 요율
+   * 청구 요율
    * 경비
    * 대기열 세부 정보
    * 주제 그룹 및 대기열 주제

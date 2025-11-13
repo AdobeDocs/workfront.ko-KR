@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -134,8 +134,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 * 빈 시트는 지원되지 않습니다.
 * 다음 유형의 필드는 지원되지 않으며 가져오기 시트의 필드에 매핑할 수 없습니다.
 
-   * Workfront 및 AEM Assets 개체 유형에 대한 연결 필드입니다.
-   * 연결된 Planning 레코드 또는 Workfront 및 AEM Assets 개체의 조회 필드
+   * Workfront, AEM Assets 오브젝트 유형 또는 GenStudio 브랜드에 대한 연결 필드입니다.
+   * 연결된 Planning 레코드, Workfront, AEM Assets 개체 또는 GenStudio 브랜드의 필드를 조회합니다.
    * 공식 필드
    * 만든 날짜, 만든 사람
    * 마지막 수정 날짜, 마지막 수정자
@@ -190,7 +190,7 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다�
 
    >[!TIP]
    >
-   >Workfront Planning 연결된 레코드의 필드에만 매핑할 수 있습니다. Workfront 또는 AEM Assets 연결의 필드에 매핑할 수 없습니다. 자세한 내용은 이 문서의 [Excel 또는 CSV 파일을 사용하여 레코드 형식을 가져오는 데 대한 고려 사항](#considerations-about-importing-record-types-using-an-excel-or-csv-file) 섹션을 참조하십시오.
+   >Workfront Planning 연결된 레코드의 필드에만 매핑할 수 있습니다. Workfront, AEM Assets 또는 GenStudio 브랜드 연결의 필드에 매핑할 수 없습니다. 자세한 내용은 이 문서의 [Excel 또는 CSV 파일을 사용하여 레코드 형식을 가져오는 데 대한 고려 사항](#considerations-about-importing-record-types-using-an-excel-or-csv-file) 섹션을 참조하십시오.
 
 1. (조건부) 필드에 대한 정보를 업데이트한 후 **저장**&#x200B;을 클릭합니다.
 

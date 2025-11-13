@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2047'
-ht-degree: 0%
+source-wordcount: '2050'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Product라는 다른 레코드 유형이 있으며 Budget이라는 통화 필드
 
      >[!NOTE]
      >
-     >**연결 유형** 옵션은 다른 작업 영역의 레코드를 연결하거나 Experience Manager 자산을 연결할 때 사용할 수 없습니다. 자세한 내용은 [연결된 레코드 종류 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하세요.
+     >**연결 유형** 옵션은 다른 작업 영역의 레코드를 연결하거나 Experience Manager 에셋 또는 GenStudio 브랜드를 연결할 때 사용할 수 없습니다. 자세한 내용은 [연결된 레코드 종류 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하세요.
 
    * **모양 기록**: 다음 옵션 중에서 선택하십시오.
       * **이름 및 이미지**: 연결된 레코드의 이름과 축소판 또는 아이콘을 표시합니다. 이 옵션은 기본적으로 선택되어 있습니다.
