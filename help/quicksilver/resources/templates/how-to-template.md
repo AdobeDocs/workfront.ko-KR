@@ -2,10 +2,10 @@
 title: [작업 제목]
 description: [작업 제목]
 draft: Probably
-source-git-commit: 32bf4cccee672b84e7c3e5b188a71979c0ac241e
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 0%
+source-wordcount: 144
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>[Any, Pro, Business, Enterprise] 이상</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 

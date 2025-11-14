@@ -6,7 +6,7 @@ description: 목록에 표시된 필드를 편집하여 작업 목록에서 작�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '2851'
 ht-degree: 3%
@@ -124,9 +124,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   다음 방법으로 변경 사항을 저장하는 Workfront 사이에서 결정할 수 있습니다.
 
-      * 모든 변경 후 자동으로
-     * 저장을 클릭한 후에만 수동으로.
-  
+   * 모든 변경 후 자동으로
+   * 저장 을 클릭한 후에만 수동으로 수행합니다.
+
   Workfront에서 변경한 내용을 목록에 저장하는 시기를 구성하는 방법에 대한 자세한 내용은 이 문서의 [목록에서 작업을 편집하기 전에 계획 모드 수정](#modify-plan-mode-before-editing-tasks-in-a-list) 섹션을 참조하십시오.
 
 * 다른 사용자는 작업에 대한 업데이트를 보려면 페이지를 새로 고쳐야 합니다.

@@ -6,9 +6,9 @@ description: 할당 백분율은 할당된 자원이 하루 동안 작업에 대
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '458'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>개체 권한</td>
    <td><p>작업에 대한 또는 더 높은 권한 부여</p>
-   <p>이전 경험을 사용하여 작업을 편집할 때 작업 편집 상자에서 할당 비율을 업데이트하는 권한 편집 새 경험에서 작업을 편집할 때 작업 편집 상자에서 더 이상 할당 비율을 관리할 수 없습니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">작업 편집</a>을 참조하세요.</p></td>
+   <p>이전 경험을 사용하여 작업을 편집할 때 작업 편집 상자에서 할당 비율을 업데이트하는 권한 편집</p>
+   <p><b>메모</b></p>
+   <p> 새 경험에서 작업을 편집할 때 작업 편집 상자에서 더 이상 할당 비율을 관리할 수 없습니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">작업 편집</a>을 참조하세요.</p></td>
   </tr>
  </tbody>
 </table>

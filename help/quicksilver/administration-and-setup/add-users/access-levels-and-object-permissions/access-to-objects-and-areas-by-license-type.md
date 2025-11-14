@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 24%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 24%
 |   | 플랜 | 작업 | 검토 | 요청 | 외부 |
 |---|---|---|---|---|---|
 | 프로젝트 | 편집 | 편집(만들기 권한 없음) | 보기 | 보기(세부 정보 페이지만) | 액세스 권한 없음 |
-| 작업 | 편집 | 편집 | 보기 | 보기 | 보기 |
+| 작업 | 편집 | 편집 | 보기 | 보기 | 액세스 권한 없음 |
 | 문제 | 편집 | 편집 | 편집 | 편집 | 액세스 권한 없음 |
 | 포트폴리오 | 편집 | 보기 | 보기 | 액세스 권한 없음 | 액세스 권한 없음 |
 | 프로그램 | 편집 | 보기 | 보기 | 액세스 권한 없음 | 액세스 권한 없음 |

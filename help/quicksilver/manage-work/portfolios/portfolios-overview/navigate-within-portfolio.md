@@ -6,9 +6,9 @@ description: 포트폴리오 내에서 탐색
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ## 포트폴리오 내에서 탐색
 
-1. **[!UICONTROL 의 오른쪽 위 모서리에 있는]**&#x200B;주 메뉴![&#x200B; 아이콘 &#x200B;](assets/main-menu-icon.png)주 메뉴[!DNL Adobe Workfront]을 클릭합니다.
+1. **[!UICONTROL 의 오른쪽 위 모서리에 있는]**&#x200B;주 메뉴![ 아이콘 ](assets/main-menu-icon.png)주 메뉴[!DNL Adobe Workfront]을 클릭합니다.
 
 1. [!UICONTROL 포트폴리오]를 클릭합니다.
 1. **[!UICONTROL 필터]** 드롭다운 메뉴에서 다음을 선택합니다.
@@ -130,7 +130,7 @@ ht-degree: 0%
      필터 만들기에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
 
-1. 왼쪽 패널의 **[!UICONTROL 프로그램]**&#x200B;을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
+1. 왼쪽 패널의 **[!UICONTROL 프로그램]**을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
 프로그램에 대한 자세한 내용은 [프로그램 만들기 및 관리](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) 섹션을 참조하십시오.
 
 1. (선택 사항) 왼쪽 패널에서 **[!UICONTROL Portfolio 세부 정보]** 영역을 확장한 다음 **[!UICONTROL 개요]** 또는 **[!UICONTROL 사용자 지정 Forms]**&#x200B;를 클릭하여 포트폴리오에 대한 정보를 편집합니다.
@@ -141,10 +141,8 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL Portfolio Optimizer]에 액세스하려면 회사에 다음 패키지가 있어야 합니다.
+   >[!UICONTROL Portfolio Optimizer]에 액세스하려면 회사에 [!DNL Workfront]Prime[!UICONTROL  이상 ] 패키지가 있어야 합니다.
    >
-   >[!UICONTROL Prime] 이상 [!DNL Workfront]\
-   >[!UICONTROL 비즈니스] 이상 [!DNL Workfront]
 
    Portfolio Optimizer 사용에 대한 자세한 내용은 [Portfolio Optimizer에서 프로젝트 관리: 문서 색인](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) 섹션을 참조하십시오.
 

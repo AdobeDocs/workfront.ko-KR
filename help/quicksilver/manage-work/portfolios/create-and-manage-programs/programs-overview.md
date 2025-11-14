@@ -7,9 +7,9 @@ description: 프로그램(Program)은 통합 특성을 갖는 프로젝트의 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
    <td> <p>임의</p>
-   <p>[!UICONTROL Business] 이상</p> </td> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 

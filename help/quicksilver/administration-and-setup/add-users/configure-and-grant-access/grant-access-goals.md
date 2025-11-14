@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 1%
+source-wordcount: '269'
+ht-degree: 0%
 
 ---
 
@@ -30,29 +30,49 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront 플랜</td> 
-   <td> <p>Pro 이상</p> </td> 
+   <td role="rowheader">Workfront 패키지</td> 
+   <td> <p>Workfront 또는 Workflow Ultimate</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>표준</p>
+   <p>플랜</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">제품</td> 
-   <td>Workfront Goals <p>Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> <p>Workfront 목표 는 새로운 Adobe Workfront 경험에서만 사용할 수 있습니다.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>시스템 관리자 액세스 수준이 있어야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>시스템 관리자 액세스 수준이 있어야 합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 수준을 확인하려면 Workfront 관리자에게 문의하세요.
-
-Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Pro or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront Goals <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration*</td> 
+   <td> <p>You must have the System Administrator access level.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 사용자 정의 액세스 수준을 사용하여 Workfront 목표에 대한 액세스 권한 부여
 
@@ -69,4 +89,9 @@ Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfr
 
 ## 라이선스 유형별 Workfront 목표에 액세스
 
-Workfront 관리자는 액세스 수준을 사용하여 플랜, 작업, 요청 또는 검토 라이선스가 있는 사용자에게 Workfront 목표에 대한 액세스 권한을 부여할 수 있습니다.
+Workfront 관리자는 액세스 수준을 사용하여 다음 라이선스를 가진 사용자에게 Workfront 목표에 대한 액세스 권한을 부여할 수 있습니다.
+
+* 표준, 라이트, 기여자
+* 플랜, 작업, 요청 또는 검토 라이선스.
+
+Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
