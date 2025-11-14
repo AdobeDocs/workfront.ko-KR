@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: 시스템에서 사용 가능한 라이선스 관리
 description: Adobe Workfront 관리자는 조직에 대해 구매한 라이선스 수와 현재 사용 중인 라이선스 수를 포함하여 Workfront 계정에 대한 정보에 액세스할 수 있습니다.
-author: Lisa, Becky
+author: Lisa, Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -49,15 +49,15 @@ Adobe Workfront 관리자는 조직에 대해 구매한 라이선스 수와 현�
 
 >[!NOTE]
 >
->다음 명령문은 신규 계획에만 적용됩니다.
+>다음 문은 Select, Prime 및 Ultimate 패키지에 적용됩니다.
 >
->Select 플랜의 경우:
+>Select 패키지의 경우:
 >
 >1. 시스템 관리자는 홈 그룹에 대한 제한을 설정할 수 없습니다.
 >2. 시스템 관리자는 모든 홈 그룹에서 사용된 총 라이선스 수만 볼 수 있습니다.
 >3. 그룹 관리자가 라이선스 페이지에 전혀 액세스할 수 없습니다.
 >
->Prime 및 Ultimate 플랜의 경우:
+>Prime 및 Ultimate 패키지의 경우:
 >
 >1. 시스템 관리자는 [라이센스] 페이지에 홈 그룹을 추가하여 해당 그룹의 라이센스 활용도를 볼 수 있으며 라이센스 제한도 설정할 수 있습니다.
 >2. 그룹 관리자는 라이센스 페이지에 액세스하여 시스템 관리자가 라이센스 페이지에 추가한 그룹에서 라이센스를 사용할 수 있습니다.
@@ -81,7 +81,7 @@ Workfront에 추가하는 사용자에게 액세스 수준을 할당하면 사�
    >
    >증명 라이선스는 Workfront 라이선스 외에 유료 Workfront Proof 추가 기능을 구입한 고객에게만 제공됩니다. 이 추가 기능에 대한 자세한 내용은 [Workfront Proof: 문서 색인](../../workfront-proof/workfront-proof.md)을 참조하세요.
 
-1. (조건부) 메시지 **최대값을 설정하려면 이 문서의**&#x200B;라이선스 페이지에 홈 그룹 추가 또는 제거[&#x200B; 섹션에 설명된 대로 시스템에 홈 그룹을 추가](#add-or-remove-a-home-group-to-the-licenses-page)해야 합니다.
+1. (조건부) 메시지 **최대값을 설정하려면 이 문서의**&#x200B;라이선스 페이지에 홈 그룹 추가 또는 제거[ 섹션에 설명된 대로 시스템에 홈 그룹을 추가](#add-or-remove-a-home-group-to-the-licenses-page)해야 합니다.
 
    >[!NOTE]
    >
@@ -133,8 +133,6 @@ If an organization has other paid add-on products, their license information als
 ![월별 결정 할당](assets/monthly-decision-allotment.png)
 
 ## 라이선스 페이지에 홈 그룹 추가 또는 제거 {#add-or-remove-a-home-group-to-the-licenses-page}
-
-<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 각 사용자는 하나의 홈 그룹에만 할당할 수 있습니다. Workfront은 각 홈 그룹에 할당되어 현재 사용되는 라이선스 수를 계산하여 그룹 중심의 라이선스 수를 제공합니다.
 

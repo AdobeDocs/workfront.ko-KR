@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 2%
@@ -60,7 +60,7 @@ Adobe Workfront 시스템 구성의 일부로, 고객 정보 페이지의 기본
 
 1. 왼쪽 패널에서 **시스템** > **고객 정보**&#x200B;를 클릭합니다.
 
-   구입한 Workfront 플랜에 따라 고객 정보 페이지에서 일부 섹션이 누락될 수 있습니다. 조직에서 사용하는 Workfront 플랜을 확인해야 하는 경우 계정 담당자에게 문의하십시오.
+   구매한 Workfront 패키지에 따라 고객 정보 페이지에서 일부 섹션이 누락될 수 있습니다. 조직에서 사용하는 Workfront 패키지를 확인하려면 계정 담당자에게 문의하십시오.
 
    고객 정보 영역에서 사용할 수 있는 섹션은 다음과 같습니다.
 
