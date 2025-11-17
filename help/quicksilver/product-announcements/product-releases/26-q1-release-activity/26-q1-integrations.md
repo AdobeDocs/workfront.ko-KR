@@ -4,9 +4,9 @@ description: 2026년 1분기 통합 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 81e95c6ebab98ad67d0364d0f3b7a63ce4568498
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,14 @@ ht-degree: 0%
 
 ## 이제 Salesforce 통합의 새 버전을 사용할 수 있습니다.
 
+>[!IMPORTANT]
+>
+>보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환하고 있습니다. 이 전환 프로세스의 일부로 새 버전을 포함한 Salesforce용 Workfront 통합은 **2026년 2월 28일** 이후에는 사용할 수 없습니다.
+
 >[!NOTE]
 >
 >미리 보기: 2025년 10월 30일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 10월 30일\
+>프로덕션 빠른 릴리스: 2025년 10월 30일\
 >모두를 위한 프로덕션: 2025년 10월 30일
 
 Workfront API에 대한 최근 변경 사항을 최신 상태로 유지하기 위해 새로운 Salesforce 통합을 만들었습니다. 새 통합은 이전 버전과 동일한 기능을 제공하며 API에서 더 이상 사용되지 않는 기능이 손실되지 않도록 업데이트되었습니다.
