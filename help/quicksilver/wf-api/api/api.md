@@ -9,7 +9,7 @@ feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 076fc9c5737cbb0eed8f0691c38f54f659931f7f
+source-git-commit: 2e2a407abea63c43a9b02b2ff4cdfcab98b3d81c
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 1%
@@ -34,8 +34,8 @@ ht-degree: 1%
 * [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-code-token-flow.md)
 * [JWT 플로우를 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-jwt-flow.md)
 * [PKCE 플로우를 사용하여 조직의 사용자 정의 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-pkce-flow.md)
-* [API 버전 21의 새로운 기능](../../wf-api/api/new-api-version-20.md)
-* [API 버전 20의 새로운 기능](../../wf-api/api/new-api-version-21.md)
+* [API 버전 21의 새로운 기능](../../wf-api/api/new-api-version-21.md)
+* [API 버전 20의 새로운 기능](../../wf-api/api/new-api-version-20.md)
 * [API 버전 19의 새로운 기능](../../wf-api/api/new-api-version-19.md)
 * [API 버전 18의 새로운 기능](../../wf-api/api/new-api-version-18.md)
 * [API 버전 17의 새로운 기능](../../wf-api/api/new-api-version-17.md)
