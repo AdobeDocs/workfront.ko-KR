@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 24%
@@ -18,7 +18,7 @@ ht-degree: 24%
 
 # 라이선스 유형별 오브젝트 및 영역에 대한 액세스
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 11/2025 -->
 
 아래 표는 각 Adobe Workfront 라이선스에서 Workfront의 개체 및 영역에 대해 허용하는 가장 높은 수준의 액세스(편집 또는 보기)를 보여 줍니다.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f741cee4fffc3bc4d686709bc35eda2d5954b04e
+source-git-commit: d6a54f22cfae73403278868b9c22727d1cb58e39
 workflow-type: tm+mt
-source-wordcount: '6933'
+source-wordcount: '6897'
 ht-degree: 5%
 
 ---
@@ -651,12 +651,12 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td role="rowheader">JSON 경로</td>
       <td><p>API에 대한 JSON 경로를 입력하거나 붙여넣습니다.</p> <p>이 옵션을 사용하면 API URL에서 반환되는 JSON에서 데이터를 추출할 수 있습니다. JSON 내에서 드롭다운 옵션에 표시할 값을 선택하는 데 사용됩니다.</p><p>예를 들어 API URL이 다음 형식으로 JSON을 반환하는 경우 "$.data[*].name"을 사용하여 미국과 캐나다를 드롭다운 옵션으로 선택할 수 있습니다.</br>
       <pre>
-      &lbrace;
-       데이터: &lbrace;
+      {
+       데이터: {
          { name: "미국"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>JSON 경로와 올바른 JSON 경로를 작성하는 방법에 대한 자세한 내용은 <a href="https://jsonpath.com/">https://jsonpath.com/</a>을(를) 참조하십시오.</p></td>
@@ -983,13 +983,9 @@ Adobe XD 파일을 추가하려면:
 >
 >이 섹션의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning에 나와 있습니다.
 >
->Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
+>Workfront Planning에 액세스하려면 추가 패키지가 있어야 합니다.
 >
->* 새로운 Workfront 패키지 및 라이선스. 기존 Workfront 계획 또는 라이선스에는 Workfront Planning을 사용할 수 없습니다.
->* Workfront Planning을 위한 추가 패키지
->* 조직의 Workfront 인스턴스는 Adobe 통합 경험에 온보딩되어야 합니다.
->
-> Workfront Planning에 액세스하기 위한 전체 요구 사항 목록은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+>Workfront Planning에 액세스하기 위한 전체 요구 사항 목록은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 > 
 >Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 

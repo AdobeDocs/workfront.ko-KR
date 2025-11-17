@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -291,127 +291,129 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 연결된 레코드 페이지에 대한 탭을 레코드에 추가하여 연결된 레코드 또는 개체에서 정보를 볼 수 있습니다. 이렇게 하면 테이블 보기의 연결된 레코드가 탭에 추가됩니다.
 
-레코드에 연결된 레코드 페이지를 추가할 때는 다음 사항을 고려하십시오.
+자세한 내용은 [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
 
-* 레코드 유형의 테이블 보기에서 레코드나 개체 유형을 레코드 유형에 연결한 후 연결된 레코드 페이지를 레코드에 추가할 수 있습니다.
+<!--this content has been moved to the page linked above
+Consider the following when adding a Connected records page to a record: 
 
-* 레코드의 미리 보기 영역 또는 레코드 페이지에서 연결된 레코드 페이지를 추가할 수 있습니다.
+* You can add a Connected records page to a record after you connected record or object types to the record type from the table view of a record type.
 
-* 연결된 레코드 페이지는 테이블 보기에서 연결된 개체나 한 개체 또는 레코드 유형의 레코드만 표시합니다. 페이지에 해당 유형의 모든 레코드가 표시되지 않습니다.
+* You can add a Connected records page from a record's preview area or the record's page.
 
-* 다음과 같은 연결된 레코드 또는 객체 유형에 대해 연결된 레코드 페이지를 추가할 수 있습니다.
+* Connected records pages display only the connected objects or records from one object or record type in a table view. The page does not display all records of that type. 
 
-   * Workfront Planning 레코드 유형
-   * Workfront 프로젝트, 프로그램, 포트폴리오, 그룹 또는 회사. Workfront에서 연결된 Workfront 개체에 액세스할 수 있는 권한이 없는 경우에도 연결된 개체를 볼 수 있습니다.
+* You can add Connected records pages for the following connected record or object types:
 
-  >[!NOTE]
-  >
-  > 연결된 AEM Assets 레코드에 대해 연결된 레코드 페이지를 추가할 수 없습니다.
+   * Workfront Planning record types
+   * Workfront projects, programs, portfolios, groups, or companies. You can view the connected Workfront objects even when you do not have permissions to access them in Workfront. 
 
-연결된 레코드 페이지를 추가하려면 다음을 수행하십시오.
+To add a Connected records page:
 
-1. 레코드 이름을 클릭하여 레코드 유형 페이지의 모든 보기에서 엽니다.
-1. 다음 영역 중 하나에서 **페이지 추가**&#x200B;를 클릭합니다.
+1. Click the name of the record to open it from any view of a record type page. 
+1. Click **Add page** from one of the following areas: 
 
-   * 레코드의 미리 보기 창
-   * 미리 보기 페이지의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭한 후 레코드의 세부 정보 페이지.
+   * The record's preview window
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
 
-   **페이지 만들기** 상자가 열립니다.
+   The **Create page** box opens.
 
-   ![연결된 레코드 추가 페이지 모달](assets/add-connection-view-page-modal.png)
+   ![Add Connected records page modal](assets/add-connection-view-page-modal.png) 
 
-1. **페이지 이름**&#x200B;을(를) 추가하고 **연결된 레코드 페이지**&#x200B;을(를) 클릭한 다음 **만들기**&#x200B;를 클릭합니다.
+1. Add the **Page name**, click **Connected records page**, then click **Create**.
 
-   연결된 새 레코드 페이지가 레코드의 페이지에 새 탭으로 추가됩니다.
+   A new connected records page is added as a new tab to the record's page.
+   
+   The records that are connected to the current record display in the table view.  
 
-   현재 레코드에 연결된 레코드가 테이블 뷰에 표시됩니다.
+      >[!TIP]
+      >
+      >You must add connected records in the table or Details area of a record before you can display them in a connected records page.
 
-   >[!TIP]
-   >
-   >연결된 레코드를 연결된 레코드 페이지에 표시하려면 먼저 레코드의 테이블 또는 세부 정보 영역에 연결된 레코드를 추가해야 합니다.
+   (^^^^^^All fields of the connected record display in the table view of the connected record's tab.^^^^^^^^)
+   
+   The first five fields of the connected records display by default. (^^^^No lookup fields display by default.^^^^^^^)
 
-   <!--All fields of the connected record display in the table view of the connected record's tab.-->
+   ![Audience connected table view under campaign details](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-   연결된 레코드의 처음 5개 필드는 기본적으로 표시됩니다. <!--No lookup fields display by default.-->
+1. (Optional) Search for or click the name of a connected record or object type in the list.
 
-   ![캠페인 세부 정보 아래의 대상자 연결 테이블 보기](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. (Optional and conditional) In the table view of the connected records page, do any of the following when viewing connected Planning records or any Workfront objects except for projects: 
 
-1. (선택 사항) 목록에서 연결된 레코드 또는 개체 유형의 이름을 검색하거나 클릭합니다.
+   * Click the name of a record. This opens the record's page in a new tab. 
 
-1. (선택 사항 및 조건부) 연결된 레코드 페이지의 테이블 보기에서 연결된 Planning 레코드 또는 프로젝트를 제외한 모든 Workfront 개체를 볼 때 다음 중 하나를 수행합니다. <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+   * Click **Connect** at the bottom of the table view to connect more records, then click outside the connection box to close it. The new records are automatically added to the table. 
 
-   * 레코드 이름을 클릭합니다. 새 탭에서 레코드 페이지가 열립니다.
+      For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+   * Edit any information from the connected records inline in the table view. 
 
-   * 표 보기 아래쪽에 있는 **연결**&#x200B;을 클릭하여 더 많은 레코드를 연결한 다음 연결 상자 바깥쪽을 클릭하여 닫습니다. 새 레코드는 자동으로 표에 추가됩니다.
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png)
+   
+      Or 
+      
+      Select one of the records, then click one of the following options in the blue bar at the bottom of the list: 
 
-     자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
-   * 테이블 보기에서 인라인으로 연결된 레코드의 모든 정보를 편집합니다.
+      * **View** to open the record page in a new tab
+      * **Copy link** to copy a link to the record page
+      * **Edit thumbnail** to open the **Record thumbnail** box and edit the record's thumbnail image
+      * **Duplicate** to duplicate the connected record. The duplicated record is also connected to the current record.
+      * **Insert record above or below** to add new records to the connected record type. New records added here are also connected to the current record. This option is not available in the blue bar when selecting a record in the table.
+      * **Delete** to delete the record. Deleting a connected record deletes it from its record type and from everywhere where the record is connected.
 
-   * 연결된 레코드의 이름을 마우스로 가리킨 다음 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
-     또는
+      >[!TIP]
+      >
+      >You can select more than one record or object to delete them.
 
-     레코드 중 하나를 선택한 다음 목록 하단의 파란색 막대에서 다음 옵션 중 하나를 클릭합니다.
+   * Inline edit any of the Planning records in the table on the Connected records page. 
+   
+      All other Workfront objects display in a read-only table view and you cannot edit them. 
+   
+1. (Optional and conditional) In the table view of the connected records page, do any of the following when viewing connected Workfront projects:
 
-      * 새 탭에서 레코드 페이지를 열려면 **보기**
-      * 레코드 페이지에 대한 링크를 복사하려면 **링크 복사**
-      * **축소판 편집**: **레코드 축소판** 상자를 열고 레코드의 축소판 이미지를 편집합니다.
-      * **복제**&#x200B;하여 연결된 레코드를 복제합니다. 복제된 레코드는 현재 레코드에도 연결됩니다.
-      * **위 또는 아래에 레코드를 삽입**&#x200B;하여 연결된 레코드 형식에 새 레코드를 추가합니다. 여기에 추가된 새 레코드도 현재 레코드와 연결됩니다. 이 옵션은 테이블에서 레코드를 선택할 때 파란색 막대에서 사용할 수 없습니다.
-      * 레코드를 삭제하려면 **삭제**&#x200B;하십시오. 연결된 레코드를 삭제하면 레코드 종류 및 레코드가 연결된 모든 위치에서 해당 레코드가 삭제됩니다.
+     * Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
 
-     표 보기에서 레코드를 편집하는 방법에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하십시오.
+      For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+     * Inline edit project information in the table.
+     * Click **New row** to create a project without a template. The new project is connected to the current record immediately.
 
-     >[!TIP]
-     >
-     >둘 이상의 레코드 또는 개체를 선택하여 삭제할 수 있습니다.
+         For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+     * Hover over a project and click the **More** menu [More menu](assets/more-menu.png)
+     
+         Or
 
-   * 연결된 레코드 페이지의 표에 있는 모든 Planning 레코드를 인라인 편집합니다.
+         Select one or more projects, and notice the blue bar at the bottom of the list, then click one of the following:
+         
+         * **Delete** to delete the project. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. 
+         * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record.
+      
+1. (Optional) Double-click the name of the **Connected records page** tab
 
-     다른 모든 Workfront 객체는 읽기 전용 테이블 뷰에 표시되므로 편집할 수 없습니다.
+   Or
 
-1. (선택 사항 및 조건부) 연결된 레코드 페이지의 표 보기에서 연결된 Workfront 프로젝트를 볼 때 다음 중 하나를 수행하십시오.
+   Hover over the name of the tab, then click **More** ![More menu](assets/more-menu.png), then click **Rename** to rename to new Connected view tab.
+1. (Optional) Use any of the following view elements in the toolbar of a connected record page to manage the table view:
 
-   * 연결된 레코드 페이지의 오른쪽 상단에서 **레코드 연결**&#x200B;을 클릭하여 기존 프로젝트를 연결합니다.
+   * Filters
+   * Sort
+   * Grouping
+   * Fields, to display, hide, or rearrange fields
+   * Row height
+   * Search
 
-   자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
-   * 테이블에서 프로젝트 정보를 인라인 편집합니다.
-   * 템플릿 없이 프로젝트를 만들려면 **새 행**&#x200B;을 클릭하세요. 새 프로젝트가 현재 레코드에 즉시 연결됩니다.
-
-     자세한 내용은 [레코드에 연결할 때 Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)를 참조하십시오.
-   * 프로젝트 위로 마우스를 가져간 후 **추가** 메뉴를 클릭합니다. [추가 메뉴](assets/more-menu.png)
-
-     또는
-
-     프로젝트를 하나 이상 선택하고 목록 하단의 파란색 막대를 확인한 후 다음 중 하나를 클릭합니다.
-
-      * 프로젝트를 삭제하려면 **삭제**&#x200B;하십시오. 프로젝트를 삭제하면 레코드에서 연결이 끊기고 Workfront의 휴지통으로 이동합니다.
-      * 레코드에서 프로젝트의 연결을 끊으려면 **연결을 끊습니다**. 프로젝트의 연결을 해제하면 현재 레코드에서 해당 프로젝트와 해당 조회 필드의 모든 값이 제거됩니다.
-
-1. (선택 사항) **연결된 레코드 페이지** 탭의 이름을 두 번 클릭합니다
-
-   또는
-
-   탭 이름을 마우스로 가리킨 다음 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭하여 새 연결된 보기 탭으로 이름을 바꿉니다.
-1. (선택 사항) 연결된 레코드 페이지의 도구 모음에서 다음 보기 요소를 사용하여 테이블 보기를 관리합니다.
-
-   * 필터
-   * 정렬
-   * 그룹화
-   * 필드, 필드를 표시, 숨기기 또는 다시 정렬
-   * 행 높이
-   * 검색
-
-   자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
+   For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
    >[!NOTE]
    >
-   >연결된 레코드 탭의 표 보기에서 필드를 만들거나 편집하거나 삭제할 수 없습니다.
+   >You cannot create, edit, or delete fields in the table view of a connected record's tab.
+   
+1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.-->
 
-1. (선택 사항) 연결된 레코드 페이지 탭의 이름을 마우스로 가리키고 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭하여 탭으로 제거합니다.
 
 <!--
-## Add a Brief page to a record's page
+## Add a Brief page to a record
+
+(^^^^^^^^^^move this content to its own article, like you did above - leave the header here with a link^^^^^^^^^^^^)
 
 You can add a Brief page to the record's preview or pages. 
 

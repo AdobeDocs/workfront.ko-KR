@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 관리자는 액세스 수준을 사용하여 Workfront 목표에 대한 사용자의 액세스를 정의할 수 있습니다.
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront 패키지</td> 
-   <td> <p>Workfront 또는 Workflow Ultimate</p> </td> 
+   <td> <p>Workfront Ultimate</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
