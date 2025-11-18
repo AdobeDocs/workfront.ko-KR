@@ -272,7 +272,7 @@ You can add updates to the following objects:
 이 문서에서는 프로젝트, 작업 또는 문제를 업데이트하는 방법에 대해 설명합니다. 대부분의 다른 객체를 업데이트하는 것도 유사합니다.
 
 1. 주석을 추가할 개체를 찾은 다음 해당 이름을 클릭하여 개체 페이지를 엽니다.
-1. 왼쪽 패널에서 **업데이트**를 클릭합니다.
+1. 왼쪽 패널에서 **업데이트**&#x200B;를 클릭합니다.
 기본적으로 **댓글** 탭이 선택되어 있습니다.
 
 1. <span class="preview">**새 댓글** 상자에 댓글을 입력하세요.</span>
@@ -459,7 +459,7 @@ You can add updates to the following objects:
 오브젝트의 업데이트 섹션에서 댓글 또는 답글을 검색할 수 있습니다.
 
 1. 개체의 **업데이트** 섹션으로 이동합니다.
-1. <!--or a user's name -->댓글&#x200B;**탭의 오른쪽 위 모서리에 있는**&#x200B;검색&#x200B;**상자에** 키워드를 입력하십시오.
+1. &#x200B;<!--or a user's name -->댓글&#x200B;**탭의 오른쪽 위 모서리에 있는**&#x200B;검색&#x200B;**상자에** 키워드를 입력하십시오.
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
