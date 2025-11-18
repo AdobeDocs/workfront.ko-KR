@@ -6,10 +6,10 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 >
 >자세한 내용은 계정 관리자에게 문의하십시오
 >
->Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
+>Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
 
 Adobe Workfront Planning을 사용하려면 라이선스 및 공유 권한 제한이 있습니다.
 

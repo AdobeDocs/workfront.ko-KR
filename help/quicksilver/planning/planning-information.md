@@ -1,19 +1,22 @@
 ---
-title: 'Adobe Workfront 계획 정보: 문서 색인'
+title: Adobe Workfront Planning에 대한 일반 정보
 description: 마케팅 운영 리더로서 Adobe Workfront Planning을 사용하여 모든 팀의 마케팅 라이프사이클 전반에서 작업을 구성할 수 있습니다. 이 섹션의 문서에서는 계획 기능을 구성하는 방법과 이를 캠페인 관리 작업의 일부로 사용하는 방법을 설명합니다.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Planning: 문서 색인
+# Adobe Workfront Planning에 대한 일반 정보
+
+<!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
+<!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -26,20 +29,7 @@ ht-degree: 0%
 
 아래 나열된 섹션의 문서에서는 Workfront Planning을 구성하고 사용하는 방법을 설명합니다.
 
-<!--consider removing the IMPORTANT below after GA-->
-
->[!IMPORTANT]
->
->아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
-
-## Adobe Workfront Planning에 대한 일반 정보
-
-새로운 Workfront Planning에 대한 일반적인 정보를 보려면 다음 문서에 액세스하십시오.
-
-* [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md): 이 솔루션에 고유한 용어 및 개념을 포함하여 Adobe Workfront Planning에 대한 높은 수준의 개요입니다. 여기에서 Workfront Planning으로 여정을 시작하는 것이 좋습니다.
-* [Adobe Workfront Planning 개체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md): Workfront Planning에서 만들 수 있는 개체 수에 대한 제한 사항 목록입니다.
-* [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md): 2024년 4분기 릴리스부터 시작되는 Workfront Planning에 대한 모든 릴리스 정보의 목록입니다.
-* [Adobe Workfront 계획 모범 사례](/help/quicksilver/planning/general/planning-best-practices.md): Workfront Planning 사용을 위한 FAQ 및 모범 사례 모음입니다.
+Adobe Workfront Planning에 대한 일반적인 정보 및 용어 이해는 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
 
 ## Workfront Planning 아키텍처 및 기능
 
@@ -57,6 +47,7 @@ ht-degree: 0%
 
    * 작업 영역 만들기, 편집, 삭제
    * 레코드 유형 만들기, 편집, 삭제
+   * 글로벌 레코드 유형 만들기
    * 레코드 유형 및 레코드 유형 연결의 예
    * Workspace 템플릿
 
@@ -96,7 +87,7 @@ ht-degree: 0%
 
 * [Adobe Workfront Planning API 기본 사항](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API의 목표는 HTTP를 통해 작동하는 REST 풀 아키텍처를 도입하여 Planning과의 통합 구축을 간소화하는 것입니다.
 
-* [Workfront Fusion용 Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Adobe Workfront 계획 모듈을 사용하면 Workfront Planning에서 이벤트가 발생할 때 시나리오를 트리거할 수 있습니다. 레코드를 생성, 읽기, 업데이트 및 삭제하거나 Adobe Workfront Planning 계정에 대한 사용자 정의 API 호출을 수행할 수도 있습니다.
+* [Workfront Fusion용 Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Adobe Workfront 계획 모듈을 사용하면 Workfront Planning에서 이벤트가 발생할 때 시나리오를 트리거할 수 있습니다. 레코드를 생성, 읽기, 업데이트 및 삭제하거나 Adobe Workfront Planning 계정에 대한 사용자 정의 API 호출을 수행할 수도 있습니다.
 
 * [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront Planning AI Assistant를 사용하여 명령을 사용하여 레코드를 검색하거나, 레코드를 생성, 업데이트 및 삭제할 수 있으며, 이를 통해 Assistant가 작업을 수행하도록 할 수 있습니다.
 

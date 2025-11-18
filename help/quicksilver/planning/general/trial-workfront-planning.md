@@ -7,9 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Adobe Workfront Planning 무료 평가판 시작
 
 Adobe Workfront은 현재 Adobe Workfront Planning 60일 무료 평가판을 제공하고 있습니다.
+
+평가판은 2025년 2월 1일부터 4월 1일 사이에 제공됩니다.
 
 이 체험판을 통해 Planning이 큰 그림 전략을 일상적인 작업과 어떻게 연결하는지 확인할 수 있습니다.
 
@@ -46,14 +48,33 @@ Workfront Planning 무료 체험판에 참여하려면 귀사에 다음 사항�
 법적 계약을 검토하고 수락하려면 다음 작업을 수행하십시오.
 
 1. Adobe Workfront에 시스템 관리자로 로그인합니다.
-1. **설정** > **시스템** > **환경 설정**(으)로 이동합니다.
-1. **기타 환경 설정** 섹션에서 **평가판 계약 검토**&#x200B;를 클릭합니다.
+1. (조건부) 평가판이 열리면 시스템 관리자는 사용권 계약에 동의하는 위치에 대한 링크가 있는 평가판 초대를 받게 됩니다.
 
-<!-- finish these steps-->
+   또는
+
+   **설정** > **시스템** > **환경 설정**(으)로 이동합니다.
+1. **기타 환경 설정** 섹션에서 **평가판 계약 검토**&#x200B;를 클릭합니다.
+1. 계약을 검토한 후 **동의**&#x200B;를 클릭합니다.
+
+   이제 조직은 2025년 4월 1일까지 Workfront 계획 심판에 등록됩니다.
+
+   **평가판 계획** 영역의 **모범 사례 작업 영역** 탭에서 사용할 수 있는 데이터에 다음 권한이 부여됩니다.
+
+   * 모든 시스템 관리자는 관리 권한을 가집니다.
+   * 다른 모든 사용자에게는 보기 권한이 있습니다.
+1. (선택 사항) **모범 사례 작업 영역** 탭을 탐색하고 작업 영역 또는 해당 개체를 다른 사용자와 공유합니다.
+
+   Workfront Planning 사용에 대한 자세한 내용은 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
+
+<!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps aboe - ???  -->
 
 ## 중요한 날짜 개요
 
 다음은 Adobe Workfront Planning 무료 평가판 제품과 관련된 몇 가지 중요한 날짜입니다.
+
+* 2025년 2월 1일 - Workfront Planning 체험판 출시
+* 2025년 4월 1일 - Workfront 계획 재판 종료. Workfront은 체험판이 끝난 후 6개월 동안 데이터를 보호합니다.
+* 2025년 11월 30일 - Workfront에서는 더 이상 이 날짜 이후에 데이터를 사용할 수 없습니다.
 
 <!--## Overview of the access to Workfront Planning -->
 

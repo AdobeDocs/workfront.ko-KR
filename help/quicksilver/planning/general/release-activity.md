@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '7386'
+source-wordcount: '7392'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Workfront Planning이 일반 공급자로 릴리스됨에 따라 이제 Workfron
 * 숫자
 * 백분율
 * 통화
-* 일자
+* Date
 * 태그
 
 자세한 내용은 문서 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)의 &quot;수식&quot; 섹션을 참조하십시오.
@@ -134,7 +134,7 @@ Workfront Planning이 일반 공급자로 릴리스됨에 따라 이제 Workfron
 
 * 구성 방법에 따라 요청 양식에는 다음 유형의 필드를 제외하고 레코드 유형의 모든 필드가 표시될 수 있습니다.
 
-   * 사용자
+   * 사람
    * 연결된 필드(Experience Manager 자산과의 연결 포함)
    * 연결된 조회 필드
    * 공식
@@ -615,7 +615,7 @@ Workfront Planning에서 작업 공간 템플릿 카드의 모양 및 필드를 
 
 * Workfront Planning용 시작하기 튜토리얼
 
-자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
+자세한 내용은 [Adobe Workfront 계획 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하세요.
 
 ### Workfront Planning에 대한 새로운 온보딩 경험
 
@@ -642,7 +642,7 @@ UNIQUE 연산자는 조회 필드 값에서 중복을 제거하고 고유한 값
 UNIQUE 연산자는 다음을 제외한 모든 필드 유형에 사용할 수 있습니다.
 
 * 단락
-* 사용자
+* 사람
 * 확인란 필드
 
 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
@@ -663,7 +663,7 @@ UNIQUE 연산자는 다음을 제외한 모든 필드 유형에 사용할 수 �
 
 미리보기: 결정 예정
 
-메인 메뉴에서 계획 영역 아이콘의 모양을 업데이트했습니다. 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
+메인 메뉴에서 계획 영역 아이콘의 모양을 업데이트했습니다. 자세한 내용은 [Adobe Workfront 계획 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하세요.
 
 ### Workfront Planning 프로그램 이름 바꾸기
 
@@ -918,7 +918,7 @@ Workfront Planning 알림에 대한 자세한 내용은 [Adobe Workfront Plannin
 
 메인 메뉴에 있는 마에스트로 영역의 이름을 계획으로 변경했습니다.
 
-Adobe Workfront Planning에 대한 개요는 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
+Adobe Workfront Planning에 대한 개요는 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
 
 ### 레코드 유형을 삭제할 때 새로운 경험
 
@@ -1058,7 +1058,7 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오는 것을 
 행 높이를 다음 크기 중 하나로 업데이트할 수 있습니다.
 
 * 짧음
-* 중간
+* 보통
 * 키 커.
 
 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
@@ -1130,7 +1130,7 @@ Planning 기능에서 라이선스 유형과 권한 간의 연결에 대한 자�
 
 * 단일 선택
 * 다중 선택
-* 사용자
+* 사람
 * 연결된 레코드 필드(계획 기능 레코드 유형 또는 Workfront 개체에 연결할 때)
 
 새로운 개선 사항으로, 더 작고 더 반응형 상자가 먼저 표시됩니다.

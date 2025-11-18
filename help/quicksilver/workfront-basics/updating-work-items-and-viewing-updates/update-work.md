@@ -6,10 +6,10 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '3201'
-ht-degree: 0%
+source-wordcount: '3203'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,7 @@ Workfront Planning의 카드, 목표 및 레코드에 대한 댓글에 대한 �
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -272,7 +272,7 @@ You can add updates to the following objects:
 이 문서에서는 프로젝트, 작업 또는 문제를 업데이트하는 방법에 대해 설명합니다. 대부분의 다른 객체를 업데이트하는 것도 유사합니다.
 
 1. 주석을 추가할 개체를 찾은 다음 해당 이름을 클릭하여 개체 페이지를 엽니다.
-1. 왼쪽 패널에서 **업데이트**&#x200B;를 클릭합니다.
+1. 왼쪽 패널에서 **업데이트**를 클릭합니다.
 기본적으로 **댓글** 탭이 선택되어 있습니다.
 
 1. <span class="preview">**새 댓글** 상자에 댓글을 입력하세요.</span>
@@ -363,7 +363,7 @@ You can add updates to the following objects:
 
    | **특성** | **도구 모음 단추** | **Mac 바로 가기 키** | **Windows 바로 가기 키** |
    |---|---|---|---|
-   | 볼드체 | ![굵게 아이콘](assets/mceclip10.png) | ⌘+b | Ctrl+B |
+   | 굵게 | ![굵게 아이콘](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 기울임체 | ![기울임꼴 아이콘](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 밑줄 | ![밑줄 아이콘](assets/mceclip8.png) | ⌘+u | Ctrl+U |
    | 하이퍼링크 | ![하이퍼링크 아이콘](assets/mceclip7.png) | <br>링크 추가 상자를 열려면 ⌘+K</br> <br>선택한 텍스트 위에 링크를 붙여넣으려면: ⌘+V</br> | <br>링크 추가 상자를 열려면 Ctrl+K</br> <br>선택한 텍스트 위에 링크를 붙여넣으려면: Ctrl+V</br> |
@@ -421,7 +421,7 @@ You can add updates to the following objects:
    >
    >* 목표
    >* 보드의 임시 카드
-   >* Workfront Planning의 레코드. 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
+   >* Workfront Planning의 레코드. 자세한 내용은 [Adobe Workfront 계획 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하세요.
    >
 
    업데이트에 이미지를 첨부하려면 다음 중 하나를 수행하십시오.
@@ -459,7 +459,7 @@ You can add updates to the following objects:
 오브젝트의 업데이트 섹션에서 댓글 또는 답글을 검색할 수 있습니다.
 
 1. 개체의 **업데이트** 섹션으로 이동합니다.
-1. &#x200B;<!--or a user's name -->댓글&#x200B;**탭의 오른쪽 위 모서리에 있는**&#x200B;검색&#x200B;**상자에** 키워드를 입력하십시오.
+1. <!--or a user's name -->댓글&#x200B;**탭의 오른쪽 위 모서리에 있는**&#x200B;검색&#x200B;**상자에** 키워드를 입력하십시오.
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
