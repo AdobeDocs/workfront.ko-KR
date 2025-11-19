@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 0%
+source-wordcount: '537'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,7 +70,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. [!UICONTROL 헤더 필드] 섹션에서 표시된 필드 위로 마우스를 가져간 후 다음 중 하나를 수행합니다.
+1. [!UICONTROL 헤더 필드] 섹션에서 현재 필드를 마우스로 가리키고 다음 중 하나를 수행합니다.
    * 필드를 제거하려면 **x** 아이콘을 클릭하십시오.
 
      또는
@@ -83,19 +83,15 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
 1. 오브젝트의 헤더에는 최대 5개의 필드가 있을 수 있습니다.
 이미 5개의 필드를 선택한 경우 새 필드를 추가하기 전에 필드를 제거해야 합니다.
-1. **필드 추가** 상자에서 추가하려는 편집할 수 없는 Workfront 필드의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 필드는 필드 추가 상자의 바로 오른쪽에 추가되며, 개체 헤더의 왼쪽 위 모서리에 첫 번째 필드로 표시됩니다.
+1. **필드 추가** 상자에서 추가할 사용자 지정 필드 또는 네이티브 Workfront 필드의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 필드는 필드 추가 상자의 바로 오른쪽에 추가되며, 개체 헤더의 오른쪽 위 모서리에 첫 번째 필드로 표시됩니다.
 
    >[!TIP]
    >
-   >* 객체의 세부내용(Details) 섹션의 개요 영역에 표시되고 편집할 수 없는 필드만 추가할 수 있습니다. 편집할 수 없는 필드는 사용자가 수동으로 편집할 수 없는 필드입니다. 이 숫자들은 Workfront에 의해 자동으로 계산됩니다.
-   >
-   >* 이미 기본 머리글의 일부인 편집 가능한 필드(예: 프로젝트 소유자, 상태, 완료율, 할당)를 추가할 수 있습니다.
+   >* 사용자 정의 필드나 오브젝트의 세부 정보 섹션의 개요 영역에서 사용할 수 있는 기본 필드를 추가할 수 있습니다. 예를 들어 문제에만 심각도 필드가 있으며 해당 필드는 프로젝트 또는 작업에 추가할 수 없습니다.
    >
    >* 문제의 헤더에 &quot;해결된 사람&quot; 필드를 추가할 때 문제와 연결된 해결 개체가 있으면 필드가 &quot;해결 중 문제, 작업 또는 프로젝트&quot;로 변경됩니다.
 
-
    ![헤더에 필드 추가](assets/add-field-to-header-in-lt-list.png)
-
 
 1. (선택 사항) 필드를 다른 순서로 끌어다 놓습니다.
 
