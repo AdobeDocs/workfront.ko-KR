@@ -2,7 +2,7 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: 액세스,모델,단계,다이어그램,수준,권한
+keywords: 액세스,모델,funnel,다이어그램,수준,권한
 navigation-topic: access-levels
 title: 다양한 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능
 description: 다음 표에는 다양한 액세스 레벨의 각 객체 유형에 사용할 수 있는 기능이 나열되어 있습니다.
@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: e894c1e2134d025420205c6575329a2a9079fadf
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 13%
@@ -27,7 +27,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->이 문서에서는 현재 Workfront 계획 모델의 액세스 수준에 사용할 수 있는 기능에 대해 설명합니다. 새 계획 모델에서 사용할 수 있는 기능을 보려면 [새 액세스 수준에 대해 각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)을 참조하십시오.
+>이 문서에서는 현재 Workfront 패키지 모델의 액세스 수준에 사용할 수 있는 기능에 대해 설명합니다. 새 패키지 모델에서 사용할 수 있는 기능을 보려면 [새 액세스 수준에 대해 각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)을 참조하십시오.
 
 ## 프로젝트
 
@@ -47,7 +47,7 @@ ht-degree: 13%
 | 프로젝트 승인 | ✓ | ✓ | ✓ |  |  |
 | 문서 추가 | ✓ | ✓ | ✓ |  |  |
 | 문제 추가 | ✓ | ✓ |  |  |  |
-|  작업 추가 | ✓ | ✓ |  |  |  |
+| 작업 추가 | ✓ | ✓ |  |  |  |
 | 업데이트/주석 제공 | ✓ | ✓ | ✓ |  |  |
 | 상태 변경 | ✓ |  |  |  |  |
 | 로그 시간 | ✓ | ✓ |  |  |  |
@@ -536,7 +536,7 @@ ht-degree: 13%
 
 &#42;&#42;재무 데이터에 대한 추가 액세스 및 프로젝트 재무 권한이 필요합니다. 재무 데이터에 대한 액세스 권한이 없는 플래너 사용자에게 리소스 관리 액세스 권한을 부여하는 경우 사용자는 리소스 플래너에서 시간별 할당을 계속 볼 수 있지만 비용 보기로 전환하거나 비즈니스 사례를 볼 수는 없습니다. 자세한 내용은 [재무 데이터에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) 및 [개체에 대한 재무 권한 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)를 참조하십시오.
 
-&#42;&#42;&#42;고급 설정에서 [할당]을 사용하도록 설정하여 개체에 연결할 수 있는 권한이 필요합니다. 자세한 내용은 문서 [개체에 대한 권한 공유 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)의 [상속된 권한 및 개체의 계층 구조 이해](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) 섹션을 참조하십시오.
+&#42;&#42;&#42;고급 설정에서 [할당]을 사용하도록 설정하여 개체에 연결할 수 있는 권한이 필요합니다. 자세한 내용은 문서 [개체에 대한 권한 공유 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object)의 [상속된 권한 및 개체의 계층 구조 이해](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) 섹션을 참조하십시오.
 
 ## 시나리오 플래너 영역
 
