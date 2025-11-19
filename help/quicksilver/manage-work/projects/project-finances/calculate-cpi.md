@@ -7,10 +7,10 @@ description: 원가 성과 지수(CPI)는 프로젝트 또는 태스크 레벨�
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-원가 성과 지수(CPI)는 프로젝트 또는 태스크 레벨에서 계획된 원가와 실제 원가 사이의 관계를 설명합니다. 프로젝트 관리자는 이 지표를 검토하여 특정 시점에 비용 이하로 또는 비용 이상으로 현재 추적 중인 작업 또는 프로젝트를 식별합니다. 비용은 PIM(Performance Index Method)에 따라 몇 시간 또는 몇 달러 단위로 측정할 수 있습니다. 성능 인덱스 메서드 설정에 대한 자세한 내용은 [PIM(성능 인덱스 메서드) 설정](../../../manage-work/projects/project-finances/set-pim.md)을 참조하십시오.
+원가 성과 지수(CPI)는 프로젝트 또는 태스크 레벨에서 계획된 원가와 실제 원가 사이의 관계를 설명합니다. 프로젝트 관리자는 이 지표를 검토하여 특정 시점에 비용 이하로 또는 비용 이상으로 현재 추적 중인 작업 또는 프로젝트를 식별합니다. 비용은 PIM(성과 지표 방법)에 따라 시간 또는 통화 단위로 측정할 수 있습니다. 성능 인덱스 메서드 설정에 대한 자세한 내용은 [PIM(성능 인덱스 메서드) 설정](../../../manage-work/projects/project-finances/set-pim.md)을 참조하십시오.
 
 시간 입력이 필요한 조직만 CPI를 사용할 수 있습니다. 또한 비용 기반 PIM 값은 작업 담당자(작업 역할 또는 사용자)에 대한 비용 비율을 정의한 조직에서만 정확합니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
