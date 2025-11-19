@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 49a8f32b45aaf9de0274617714ad7cd45b4e7e74
+source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -34,3 +34,5 @@ Data Connect에 대한 자세한 내용은 다음 문서를 참조하십시오.
 * [Workfront Data Connect 데이터 사전](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 * [Workfront Data Connect 쿼리 예제](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
 * [Workfront Data Connect 사용 지표 보기](/help/quicksilver/reports-and-dashboards/data-lake/view-usage-metrics.md)
+* [Data Connect에서 작업 내역 데이터 보기 사용](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
+* [Data Connect에서 데이터 새로 고침 모니터링 보기 사용](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
