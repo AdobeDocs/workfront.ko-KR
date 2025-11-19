@@ -1,14 +1,14 @@
 ---
 navigation-topic: notifications
-title: Adobe Workfront에서 항목 구독
+title: Experience Cloud 알림 개요
 description: Adobe Workfront은 모든 디지털 경험(DX) 제품을 Experience Cloud 알림이라는 일관된 단일 알림 시스템 아래에 통합했습니다.
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 49e1bb56c30ec54290a95f0c5eb224d86b9afafc
+source-git-commit: 56f63dad88c9ea7d51297bcad181983dc88acf50
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
