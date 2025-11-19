@@ -4,9 +4,9 @@ description: 2026년 1분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
+source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,9 @@ ht-degree: 0%
 
 이제 시작 날짜 및 ID로 입력된 날짜가 사용자 정의 양식, 필드 및 섹션에 저장됩니다. 보고서에서 이러한 데이터 옵션을 필터, 보기 또는 그룹화로 사용할 수 있습니다. 설정의 사용자 정의 양식, 필드 또는 섹션 목록에 표시하려면 새 뷰 또는 기존 뷰에 입력 일자 및 입력자: 이름을 열로 추가합니다.
 
+>[!NOTE]
+>
+>시작 날짜 및 ID로 입력된 날짜는 2025년 11월 13일 또는 그 이후에 생성된 사용자 정의 양식, 필드 및 섹션에서만 사용할 수 있습니다.
 
 ## 레이아웃 템플릿을 편집할 때 버튼 이름 업데이트
 
