@@ -4,9 +4,9 @@ description: Adobe App Builder 기반의 Workfront UI 확장 기능을 사용하
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,13 @@ Workfront 기본 메뉴에서 사용자 지정 응용 프로그램을 허용하�
 ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드는 템플릿에서 만들었습니다. 이 코드를 추가하여 추가 메뉴 항목을 만들 수 있습니다. ID 및 URL을 바꾸십시오.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    반환 &lbrack;
+    반환 [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -176,18 +176,18 @@ ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드�
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. 다음 코드 조각을 추가합니다.
 
-   ![코드 조각 &#x200B;](assets/7-extension-registration-step1-from-sam.png)
+   ![코드 조각 ](assets/7-extension-registration-step1-from-sam.png)
 
    이 예에서는 메인 메뉴 항목을 보여 줍니다. ID, 레이블, 아이콘 및 URL을 애플리케이션에 적합한 이름으로 업데이트해야 합니다. 여러 항목을 추가할 때 ID가 고유한지 확인합니다.
 
@@ -438,6 +438,19 @@ App Builder 앱 내에서 로컬 개발을 위해 `aio app run`을(를) 시작�
 구성이 올바르게 완료된 경우 Workfront에서 레이아웃 템플릿 페이지를 다시 로드하면 App Builder 애플리케이션의 버튼이 표시됩니다. 오브젝트의 기본 메뉴 및 왼쪽 패널에 앱 버튼을 추가하고 해당 영역에 앱 버튼이 올바르게 표시되는지 확인합니다.
 
 추가 지침은 Adobe Developer 사이트에서 AEM의 예를 사용하여 확인할 수 있습니다. https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+
+### Chrome 버전 142 이상에서 로컬 테스트를 허용하는 플래그 비활성화
+
+Chrome 버전 142에는 로컬 네트워크 액세스 제한이 도입되었습니다. 이러한 제한 사항은 로컬 테스트 환경을 방해할 수 있습니다.
+
+문제를 해결하려면 Chrome 설정에서 해당 플래그를 해제하여 로컬 네트워크 액세스 검사를 비활성화해야 합니다. `chrome://flags/#local-network-access-check`.
+
+플래그를 비활성화하려면
+
+1. Chrome을 열고 주소 표시줄에 `chrome://flags`을(를) 입력한 다음 **Enter**&#x200B;를 누릅니다.
+1. 맨 위에 있는 검색 창에서 **로컬 네트워크 액세스 확인**&#x200B;을 입력하십시오.
+1. **로컬 네트워크 액세스 확인** 플래그 옆에 있는 드롭다운 메뉴를 클릭하고 사용 안 함을 선택합니다.
+1. 변경 내용을 적용하려면 화면 하단에 나타나는 **다시 실행** 단추를 클릭하십시오.
 
 ## 애플리케이션 게시 및 제출 승인
 
