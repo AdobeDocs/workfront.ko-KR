@@ -4,9 +4,9 @@ description: 2026년 1분기 통합 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 81e95c6ebab98ad67d0364d0f3b7a63ce4568498
+source-git-commit: 192df9ef08f75b3a6a6e9a50908b6da6e861bdd6
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 
 2026년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
 
+## Experience Manager Assets용 Adobe Workfront 기본 통합에 대한 자산 선택기 업데이트됨
+
+
+>[!NOTE]
+>
+>미리 보기: 2025년 11월 20일
+>프로덕션 빠른 릴리스: 2025년 12월 11일\
+>모두를 위한 프로덕션: 2026년 1월 16일
+
+Experience Manager Assets용 Adobe Workfront 통합에서 에셋 선택기를 업그레이드했습니다. 이제 이 업그레이드를 사용하여 AEM 컬렉션을 선택하고 Workfront으로 직접 가져올 수 있습니다.
 
 ## 이제 Salesforce 통합의 새 버전을 사용할 수 있습니다.
 
