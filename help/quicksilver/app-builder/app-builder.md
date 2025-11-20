@@ -160,13 +160,13 @@ Workfront 기본 메뉴에서 사용자 지정 응용 프로그램을 허용하�
 ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드는 템플릿에서 만들었습니다. 이 코드를 추가하여 추가 메뉴 항목을 만들 수 있습니다. ID 및 URL을 바꾸십시오.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    반환 &lbrack;
+    반환 [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -176,18 +176,18 @@ ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드�
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. 다음 코드 조각을 추가합니다.
 
-   ![코드 조각 &#x200B;](assets/7-extension-registration-step1-from-sam.png)
+   ![코드 조각 ](assets/7-extension-registration-step1-from-sam.png)
 
    이 예에서는 메인 메뉴 항목을 보여 줍니다. ID, 레이블, 아이콘 및 URL을 애플리케이션에 적합한 이름으로 업데이트해야 합니다. 여러 항목을 추가할 때 ID가 고유한지 확인합니다.
 
