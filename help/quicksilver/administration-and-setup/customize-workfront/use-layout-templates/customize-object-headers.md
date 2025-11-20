@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
+source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '571'
 ht-degree: 3%
 
 ---
@@ -88,6 +88,8 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
    >[!TIP]
    >
    >* 사용자 정의 필드나 오브젝트의 세부 정보 섹션의 개요 영역에서 사용할 수 있는 기본 필드를 추가할 수 있습니다. 예를 들어 문제에만 심각도 필드가 있으며 해당 필드는 프로젝트 또는 작업에 추가할 수 없습니다.
+   >
+   >* 사용자가 헤더에서 사용자 정의 필드를 편집할 때 해당 필드가 오브젝트에 첨부되지 않은 사용자 정의 양식에 포함되면 사용자 정의 양식이 자동으로 오브젝트에 추가됩니다.
    >
    >* 문제의 헤더에 &quot;해결된 사람&quot; 필드를 추가할 때 문제와 연결된 해결 개체가 있으면 필드가 &quot;해결 중 문제, 작업 또는 프로젝트&quot;로 변경됩니다.
 
