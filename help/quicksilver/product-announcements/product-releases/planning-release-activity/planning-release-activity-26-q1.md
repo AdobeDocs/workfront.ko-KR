@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 21cab3964ffd79b4b58835fcb992f59eefee78ee
+source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >
 >미리 보기: 2025년 11월 13일
 >프로덕션 빠른 릴리스: 2025년 11월 13일
->모두를 위한 프로덕션: 2026년 11월 13일
+>모두를 위한 프로덕션: 2025년 11월 13일
 
 이제 Workfront Planning 레코드 유형을 Adobe GenStudio for Performance Marketing의 브랜드와 연결할 수 있습니다. 조직에 Workfront Planning과 Adobe GenStudio for Performance Marketing이 모두 있어야 합니다.
 
