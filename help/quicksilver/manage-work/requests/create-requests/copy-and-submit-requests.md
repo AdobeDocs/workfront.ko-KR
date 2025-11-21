@@ -6,20 +6,23 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 2%
+source-wordcount: '1588'
+ht-degree: 3%
 
 ---
 
 # 요청 복사 및 제출
 
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
+
 유사한 요청을 자주 제출하는 경우 제출된 기존 요청을 복사할 수 있습니다. 이 경우 기존 요청을 복사하고 최소 변경 내용을 적용한 다음 새 요청으로 다시 제출할 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +94,7 @@ ht-degree: 2%
   >
   >복사된 요청이 해결 중 오브젝트에 연결되어 있지 않습니다.
 
-## 요청 복사 및 제출
+## 기존 요청 경험에서 요청 복사 및 제출
 
 {{step1-to-requests}}
 
@@ -220,3 +223,44 @@ ht-degree: 2%
 1. **제출을 클릭합니다**.
 
    복사된 요청이 지정한 요청 대기열에 새 요청으로 제출됩니다.
+
+<div class="preview">
+
+## 새 요청 경험에서 요청 복사 및 제출
+
+Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사하고 제출할 수 있습니다.
+
+1. 요청 목록에 액세스하려면 Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)를 클릭한 다음 **[!UICONTROL 요청]**&#x200B;을 클릭하십시오.
+
+1. 홈에서 내 요청 위젯에 액세스하려면 다음을 수행하십시오.
+
+   1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+   1. 내 요청 위젯을 찾습니다.
+
+      내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.
+
+1. 요청 목록 또는 내 요청 위젯에서 복사할 요청 위로 마우스를 가져갑니다.
+
+   3점 추가 메뉴가 나타납니다.
+   ![](assets/more-menu.png)
+
+1. 요청 이름 오른쪽의 **자세히** 메뉴를 클릭한 다음 **복사**&#x200B;를 클릭합니다.
+
+   또는
+
+   선택한 요청을 마우스 오른쪽 단추로 클릭한 다음 **복사**&#x200B;를 클릭합니다.
+
+   >[!TIP]
+   >
+   >문제를 만들 수 있는 액세스 권한이 없는 경우 관리자가 요청 만들기를 제한했다는 경고가 표시됩니다.
+
+1. (선택 사항) 복사된 요청에서 모든 정보를 업데이트합니다. 사용 가능한 필드는 요청에 사용된 요청 대기열 또는 요청 양식에 따라 다릅니다.
+
+   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+
+1. **제출을 클릭합니다**.
+
+   복사된 요청이 새 요청으로 제출됩니다.
+
+</div>
+
