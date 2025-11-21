@@ -6,20 +6,22 @@ description: 새 요청을 입력할 때 Workfront에서 제안하는 사용 가
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 1%
+source-wordcount: '840'
+ht-degree: 3%
 
 ---
 
 # 초안에서 요청 만들기
 
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
+
 새 요청을 입력할 때 Workfront에서 제안하는 사용 가능한 초안을 사용할 수 있을 뿐만 아니라 초안 섹션에서 초안 요청에 액세스하고 여기에서 제출을 완료할 수도 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,13 +54,55 @@ ht-degree: 1%
 
 ## 초안에서 요청을 만들기 위한 사전 요구 사항
 
-초안에서 요청을 만들려면 먼저 다음을 수행해야 합니다. 
+초안에서 요청을 만들려면 먼저 다음을 수행해야 합니다.
 
 * 요청 만들기를 시작합니다. 이렇게 하면 초안 섹션에서 요청이 자동으로 초안으로 저장됩니다.
 
   요청 만들기에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
 ## 초안에서 요청 만들기
+
+초안에서 요청을 만드는 절차는 새 요청 경험과 이전 경험 간에 다릅니다.
+
+* <span class="preview">[새 요청 환경의 초안에서 요청을 만듭니다](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [기존 요청 환경의 초안에서 요청 만들기](#create-requests-from-drafts-in-the-legacy-requesting-experience)
+
+<div class="preview">
+
+### 새 요청 경험의 초안에서 요청 만들기
+
+
+
+<!--
+   
+1. Open the draft.
+
+   Drafts can be found in the following locations:
+
+   * In the requests list in the Requests area
+   * In the requests list in the My Requests widget in Home
+   * In the New request dialog (includes only drafts of requests created with the selected form)
+   
+-->
+1. 초안을 엽니다.
+
+   초안은 새 요청 대화 상자에서 찾을 수 있습니다(선택한 양식으로 생성된 요청의 초안만 포함).
+1. [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)에 설명된 대로 요청에 대한 정보를 업데이트하십시오.
+1. (선택 사항 및 조건부) 초안을 삭제하려면 요청을 입력하는 동안 언제든지 **취소** 초안을 클릭합니다. 그러면 초안이 삭제됩니다.
+
+   실수로 초안을 삭제한 경우 화면 하단의 메시지에서 즉시 **실행 취소**&#x200B;를 클릭할 수 있습니다. 이 옵션은 몇 초 동안만 사용할 수 있습니다.
+
+   초안 삭제에 대한 자세한 내용은 [제출된 요청 또는 요청 초안 삭제](../../../manage-work/requests/create-requests/delete-request-draft.md)를 참조하십시오.
+
+1. (선택 사항) 초안을 제출하지 않고 변경 사항을 저장하려면 새 요청 페이지를 둡니다. 변경 사항은 자동으로 저장됩니다.
+
+1. 요청에 대한 정보를 완료한 후 **제출**&#x200B;을 클릭합니다.
+
+   요청을 제출하면 초안이 삭제되고 복원할 수 없습니다.
+
+</div>
+
+### 기존 요청 환경의 초안에서 요청 만들기
 
 {{step1-to-requests}}
 
