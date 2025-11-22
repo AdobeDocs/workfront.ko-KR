@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 5068386e314e9c4c75ec5f9142c9f101b2c1e43f
+source-git-commit: 0c83d47e21148d2c6234e0c157da3381146a7128
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Workfront은 Adobe 디지털 경험 제품군의 일부입니다. Experience Clo
 
 ## 그대로 있는 게 뭐죠
 
-* 인앱 알림과 이메일 알림을 모두 받게 됩니다.
+* 전환의 첫 번째 단계에서 인앱 알림을 받은 다음 나중에 인앱 알림과 이메일 알림을 모두 받게 됩니다.
 
 * 기존 알림 환경 설정이 자동으로 이월됩니다.
 
