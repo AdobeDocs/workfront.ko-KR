@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: a335b035e82ebe3daa6a9687b362a9117f348e0e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Adobe Workfront에 대해 릴리스된 모든 제한된 가용성 기능의 목�
 
 >[!NOTE]
 >
->프로덕션 릴리스 날짜: 2025년 11월 xx일
+>프로덕션 릴리스 날짜: 2025년 11월 20일
 
 이제 요금 카드 내에서 하나 이상의 작업 역할 청구 요금에 백분율 기반 변경 사항을 적용할 수 있습니다. 각 비율을 하나씩 수동으로 업데이트하는 대신 한 번의 작업으로 선택한 모든 비율에 변경 사항을 적용할 수 있습니다.
 
