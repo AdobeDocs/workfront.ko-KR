@@ -7,18 +7,18 @@ description: 승인된 휴무는 일정에 영향을 주고 할당된 작업의 
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 4%
 
 ---
 
 # 개인 휴무 구성
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 12/2025 -->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있으며 프로덕션에 단계적으로 롤아웃할 때 릴리스됩니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront]은(는) 개인 휴무를 관리, 계산 및 추적하기 위해 기존 시스템을 복제하거나 대체하도록 설계되지 않았습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,18 +72,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe 통합 경험을 사용하는 경우 상단 탐색 영역에서 Workfront 계정 메뉴(프로필 사진)를 클릭한 다음 Workfront 프로필을 선택하여 Adobe 프로필에 액세스할 수 있습니다.
+>조직이 Adobe 통합 환경에 속해 있는 경우 상단 탐색 영역의 오른쪽 상단에 있는 **Adobe** 계정 메뉴(프로필 사진)를 클릭한 다음 **Workfront 프로필**&#x200B;을 클릭합니다.
 >
 >![workfront 프로필](assets/aue-profile.png)
 
 1. 왼쪽 패널에서 **[!UICONTROL 휴무]**&#x200B;를 클릭합니다.
 1. 개인 휴무에 대해 원하는 날짜를 선택합니다.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
    ![개인 휴무 일정](assets/personal-time-off-calendar-0925.png)
 
-   프로덕션 환경의 샘플 이미지:
-   ![개인 휴무 일정](assets/personal-time-off-calendar.png)
+   <!--Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
 
 1. 하루 종일 쉬려면 **[!UICONTROL 하루 종일]**&#x200B;을 선택하세요.
 
