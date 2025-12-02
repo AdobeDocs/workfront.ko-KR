@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -99,7 +99,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 요청을 승인하려면:
 
-1. 다음 중 하나를 수행하십시오.
+1. (조건부) Workfront에서 기존 요청 경험을 사용하는 경우 다음 중 하나를 수행하여 요청을 엽니다.
 
    * Workfront Planning에 액세스하여 하나 이상의 작업 영역을 볼 수 있는 경우 화면 오른쪽 상단의 **주 메뉴** ![점 주 메뉴](assets/dots-menu.png) 또는 사용 가능한 경우 왼쪽 상단의 **주 메뉴** ![선 주 메뉴](assets/lines-menu.png)를 클릭한 다음 **요청** > **제출됨** > **계획**&#x200B;을 클릭하고 **검토 보류 중** 또는 **검토 중** 상태의 요청을 클릭합니다.
 
@@ -113,7 +113,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    요청 페이지가 읽기 전용 모드로 열립니다.
 
    ![검토 상태의 읽기 전용 요청 페이지](assets/read-only-reqeust-page-in-review-status.png)
-
+1. Workfront에서 새로운 요청 환경을 사용하는 경우, 화면 오른쪽 상단의 **주 메뉴** ![점 주 메뉴](assets/dots-menu.png) 또는 왼쪽 상단의 **주 메뉴** ![선 주 메뉴](assets/lines-menu.png)를 클릭한 다음(사용 가능한 경우) **요청**&#x200B;을 클릭하고 승인할 요청을 **검토 보류 중** 또는 **검토 중** 상태로 클릭합니다.
 1. (선택 사항) 승인자를 보려면 요청의 오른쪽 상단에 있는 **승인** 아이콘 ![승인 아이콘](assets/approvals-icon.png)을 클릭합니다.
 1. **검토 및 승인**&#x200B;을 클릭한 후 다음 중 하나를 선택하십시오.
 

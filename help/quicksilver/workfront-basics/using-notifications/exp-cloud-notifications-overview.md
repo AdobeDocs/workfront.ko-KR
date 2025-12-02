@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 32fc05b24c762fafcb50875fa014c5fe76d584d1
+source-git-commit: 0c21f5a1df8bf1bc54d4ca73ba8d02808432e321
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 # Experience Cloud 알림 개요
 
-Adobe Workfront은 모든 DX(디지털 경험) 제품을 Experience Cloud 알림이라는 일관된 단일 알림 시스템에 통합합니다. 2026년 2월 또는 그 즈음부터 기존 Workfront 알림 서비스는 Adobe의 중앙 집중식 알림 시스템으로 마이그레이션되며, 이러한 알림이 발생하기 전에 팀에서 알려드립니다.
+Adobe Workfront 알림이 Adobe의 중앙 집중식 알림 시스템인 Experience Cloud 알림으로 이동합니다. 이 알림 시스템은 모든 디지털 경험 제품에서 사용됩니다.
+
+2026년 2월 또는 그 즈음부터 현재 Workfront 이메일 및 인앱 알림은 Experience Cloud 알림으로 마이그레이션됩니다. 이 작업은 단계적으로 완료됩니다. Workfront 팀은 마이그레이션이 시작되도록 설정되기 전에 조직에 알립니다.
 
 이 전환 후에는 Adobe Workfront 및 기타 Adobe DX 애플리케이션 전반의 모든 알림에 한 곳에서 액세스할 수 있으므로 알림을 받고 환경 설정을 관리하는 방법이 간단해집니다.
 

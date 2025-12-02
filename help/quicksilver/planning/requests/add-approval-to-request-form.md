@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 0%
+source-wordcount: '688'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ Workfront Planning에서 요청 양식을 만드는 방법에 대한 자세한 �
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,11 +90,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    **구성** 영역이 표시됩니다.
 
    ![구성 탭](assets/configuration-tab.png)
-1. **승인자** 필드에서 드롭다운 아이콘을 클릭하고 목록에서 하나 또는 여러 명의 사용자 또는 팀을 선택합니다
-
-   또는
-
-   승인자로 설정할 사용자 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다.
+1. **승인자** 필드에서 승인자로 설정할 사용자 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다.
+1. (선택 사항 및 조건부) 두 명 이상의 승인자를 설정했으며 결정을 내리는 데 한 명의 승인자만 필요한 경우 **한 개의 결정만 필요합니다** 옵션을 활성화합니다.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -103,11 +100,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >
    >* 한 명 또는 여러 명의 승인자를 요청 양식에 추가할 수 있습니다.
    >
-   >* 두 명 이상의 승인자를 추가하는 경우 Workfront Planning에서 레코드를 생성하기 전에 모든 승인자가 요청을 승인해야 합니다.
+   >* 두 명 이상의 승인자를 추가하고 [하나의 결정만 필요] 옵션을 활성화하지 않은 경우 Workfront Planning이 레코드를 생성하기 전에 모든 승인자가 요청을 승인해야 합니다.
    >
    >* 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다. 요청은 Workfront의 요청 영역에 있는 제출됨 섹션의 계획 탭에 남아 있습니다.
    >
-   >* 요청이 승인 또는 거부되기 전에 모든 승인자는 결정을 내려야 합니다.
+   >* 두 명 이상의 승인자를 추가할 때 [하나의 결정만 필요] 옵션이 활성화되어 있지 않은 경우 요청이 승인 또는 거부되기 전에 모든 승인자가 결정을 내려야 합니다.
    >
    >* 팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.
 
