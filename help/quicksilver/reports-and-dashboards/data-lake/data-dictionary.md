@@ -1665,15 +1665,15 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
 >
 >레코드 형식은 `enumClass` 속성을 통해 식별됩니다. 다음은 예상 형식입니다.<br>
 ><ul><li>CONDITION_OPTASK</li>
-&gt;<li>CONDITION_PROJ</li>
-&gt;<li>CONDITION_TASK</li>
-&gt;<li>PRIORITY_OPTASK</li>
-&gt;<li>PRIORITY_PROJECT</li>
-&gt;<li>PRIORITY_TASK</li>
-&gt;<li>SEVERITY_OPTASK</li>
-&gt;<li>STATUS_OPTASK</li>
-&gt;<li>STATUS_PROJECT</li>
-&gt;<li>STATUS_TASK</li></ul>
+>&gt;<li>CONDITION_PROJ</li>
+>&gt;<li>CONDITION_TASK</li>
+>&gt;<li>PRIORITY_OPTASK</li>
+>&gt;<li>PRIORITY_PROJECT</li>
+>&gt;<li>PRIORITY_TASK</li>
+>&gt;<li>SEVERITY_OPTASK</li>
+>&gt;<li>STATUS_OPTASK</li>
+>&gt;<li>STATUS_PROJECT</li>
+>&gt;<li>STATUS_TASK</li></ul>
 
 
 ### 문서
