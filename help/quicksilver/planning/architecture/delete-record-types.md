@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -50,12 +50,12 @@ ht-degree: 0%
    <td> 
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-<p>또는</p>
+또는
 <li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
 <div class="preview">
 <p>글로벌 레코드 유형을 삭제하려면</p>
 <ul><li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
-<p>또는</p>
+또는
 <li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
 </div>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 1%
+source-wordcount: '1199'
+ht-degree: 2%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 <p>연결 가능한 레코드 유형을 구성하려면: </p>
 <ul> 
 <li><p>모든 Workfront 패키지 및 모든 Planning 패키지</p></li>
-<p>또는</p>
+또는
 <li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
 
 <div class="preview">
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 <ul> 
 <li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
-<p>또는</p>
+또는
 <li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p>
 
@@ -163,9 +163,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
         이 문서에서는 처음부터 레코드 유형을 만드는 방법을 설명합니다.
 
-     <!--
-        * <span class="preview">By adding them from another workspace</span>
-            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
+      * <span class="preview">다른 작업 영역에서 추가</span>
+        <span class="preview">자세한 내용은 [다른 작업 영역에서 기존 레코드 형식 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)를 참조하십시오. </span>
 
 
 * 한 섹션 내에서 또는 작업 영역의 한 섹션에서 다른 섹션으로 레코드 유형을 이동할 수 있습니다. 한 작업 영역에서 다른 작업 영역으로 레코드 유형을 이동할 수 없습니다.
@@ -197,7 +196,7 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 1. (선택 사항) 작업 영역에 새 섹션을 추가하려면 **섹션 추가**&#x200B;를 클릭합니다.
 1. **레코드 종류 추가**&#x200B;를 클릭한 다음 **수동으로 추가**&#x200B;를 클릭합니다.
 
-   레코드 유형 추가 상자가 열립니다. <!--update screen shot for preview-->
+   레코드 유형 추가 상자가 열립니다.
 
    ![표시 형식 옵션이 있는 레코드 형식 상자 추가](assets/add-record-type-box-with-appearance-options.png)
 
@@ -207,13 +206,11 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    * **설명**: 레코드 형식에 대한 정보를 더 추가합니다.
    * 레코드 유형과 연관된 아이콘의 색과 모양을 선택합니다. 다음을 수행합니다.
       * 색상을 선택하여 새 레코드 유형을 식별합니다. 레코드 유형 아이콘의 색상입니다. 기본적으로 회색이 선택되어 있습니다.
-      * 목록에서 아이콘을 선택하거나 아이콘 이름을 입력하여 아이콘이 나타내는 내용을 설명한 다음 표시될 때 선택합니다. 레코드 유형의 아이콘입니다. 기본적으로 파일 아이콘이 선택되어 있습니다.
+      * 목록에서 아이콘을 선택하거나 검색 필드에 아이콘 이름을 입력하여 상징하는 것을 설명한 다음 표시될 때 선택합니다. 레코드 유형의 아이콘입니다. 기본적으로 파일 아이콘이 선택되어 있습니다.
 
-1. (선택 사항 및 조건부) 시스템 관리자인 경우 **고급 설정** <span class="preview"> 또는 **작업 영역 간 설정**</span> 탭을 클릭하고 레코드 유형의 작업 영역 간 기능에 대한 정보를 업데이트합니다.
+1. (선택 사항 및 조건부) 시스템 관리자인 경우 **고급 설정** <span class="preview">또는 **작업 영역 간 설정**</span> 탭을 클릭하고 <span class="preview">레코드 유형의 작업 영역 간 기능에 대한 정보를 업데이트합니다.
 
-   자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오. <!--update screen shot at production - Jan 2026-->
-
-   ![고급 설정 탭이 있는 레코드 종류 상자 편집](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![고급 설정 탭이 있는 레코드 종류 상자 편집](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.
 
@@ -280,16 +277,12 @@ CSV 또는 Excel 파일에서 정보를 가져올 때 다음을 가져올 수 �
 
 자세한 내용은 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 형식 만들기](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)를 참조하십시오.
 
-<!--
-
 <div class="preview">
 
-## Create record types by adding existing ones from another workspace 
+## 다른 작업 영역에서 기존 레코드 유형을 추가하여 레코드 유형 만들기
 
-You can add record types to a workspace by adding existing ones from another workspace. You can only add record types that have been configured as global record types. 
+다른 작업 영역에서 기존 레코드 유형을 추가하여 작업 영역에 레코드 유형을 추가할 수 있습니다. 글로벌 레코드 유형으로 구성된 레코드 유형만 추가할 수 있습니다.
 
-For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+자세한 내용은 [다른 작업 영역에서 기존 레코드 형식 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)를 참조하십시오.
 
 </div>
-
--->

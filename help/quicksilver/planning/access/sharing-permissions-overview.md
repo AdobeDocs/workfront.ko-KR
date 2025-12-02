@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1165'
 ht-degree: 5%
 
 ---
@@ -57,7 +57,7 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
   자세한 내용은 [레코드 종류 공유](/help/quicksilver/planning/access/share-record-types.md)를 참조하세요.
 
 
-* 보기
+* 보기 횟수
 
    * 시스템 관리자를 포함한 사용자에게 작업 공간 액세스에 대한 권한과 별도로 보기에 액세스할 수 있는 권한을 부여해야 합니다.
    * 보기를 공유할 때 필터, 그룹화, 정렬 또는 설정을 포함한 모든 보기 요소가 공유됩니다.
@@ -66,21 +66,6 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
 
   자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하세요.
 
-내부적으로 작업 공간, 보기 또는 레코드 유형을 다음 Workfront 엔티티와 공유할 수 있습니다.
-
-* 사용자
-* 그룹
-* 팀
-* 회사
-* 작업 역할
-
-작업 공간 및 레코드 유형을 다른 사용자와 공유할 때 레코드 유형의 권한 수준은 해당 작업 공간과 관련된 레코드 및 필드에 자동으로 상속됩니다.
-
->[!IMPORTANT]
->
->조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩된 경우 Planning 개체를 공유할 사용자를 Adobe Admin Console에 추가해야 합니다. Adobe Admin Console에 추가되지 않은 Workfront 사용자와 Planning 객체를 공유할 수 없습니다.
-
-
 ## Adobe Workfront Planning에서 객체 공유에 대한 고려 사항
 
 * Adobe Workfront 라이선스 유형은 Workfront Planning 권한과 함께 작동하여 작업 공간 및 해당 개체를 보고, 기여하고, 관리할 수 있는 액세스 권한을 부여합니다.
@@ -88,14 +73,30 @@ Workfront Planning에서 다음 객체를 수동으로 공유할 수 있습니�
   라이선스 유형이 Workfront Planning의 권한 수준에 영향을 주는 방법에 대한 자세한 내용은 [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/planning/access/license-type-overview.md)를 참조하십시오.
 * 시스템 관리자는 작성하지 않은 작업 영역을 포함하여 시스템의 모든 작업 영역을 관리할 수 있습니다.
 * 시스템 관리자를 포함한 다른 사용자는 자신이 만들었거나 자신과 공유된 보기에만 액세스할 수 있습니다. 시스템 관리자에게는 보기 관리에 대한 권한만 부여할 수 있습니다.
-* 작업 영역 또는 보기에 대한 링크를 다른 사용자와 공유할 수 있습니다.
 
-  다음과 같은 시나리오가 있습니다.
-   * 작업 공간에 대한 링크를 받는 사용자는 활성 사용자여야 하며 작업 공간에 액세스하려면 Workfront에 로그인해야 합니다.
-   * 보기에 대한 링크를 받은 사용자는 다음과 같은 방법으로 보기에 액세스할 수 있습니다.
+* 작업 공간 및 레코드 유형을 다른 사용자와 공유할 때 레코드 유형의 권한 수준은 해당 작업 공간과 관련된 레코드 및 필드에 자동으로 상속됩니다.
 
-      * 보기에 대한 링크가 내부적으로 공유된 경우 활성 사용자이고 Workfront에 로그인해야 합니다.
-      * Workfront에 로그인하지 않고도 Workfront의 외부 사용자일 수 있으며 공개적으로 공유된 링크에서 보기에 액세스할 수 있습니다.
+  >[!IMPORTANT]
+  >
+  >조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩된 경우 Planning 개체를 공유할 사용자를 Adobe Admin Console에 추가해야 합니다. Adobe Admin Console에 추가되지 않은 Workfront 사용자와 Planning 객체를 공유할 수 없습니다.
+
+* 다음과 같은 방법으로 Planning 객체를 공유할 수 있습니다.
+
+   * 내부적으로 작업 공간, 보기 또는 레코드 유형을 다음 Workfront 엔티티와 공유할 수 있습니다.
+
+      * 사용자
+      * 그룹
+      * 팀
+      * 회사
+      * 작업 역할
+
+     Planning 객체를 객체당 최대 100개의 엔티티와 공유할 수 있습니다.
+
+   * 내부적으로 다른 Planning 사용자와 작업 영역 또는 보기에 대한 링크를 공유합니다. 다음과 같은 시나리오가 있습니다.
+
+      * 작업 공간에 대한 링크를 받는 사용자는 활성 사용자여야 하며 작업 공간에 액세스하려면 Workfront에 로그인해야 합니다.
+      * 보기에 대한 내부 공유 링크를 받는 사용자는 활성 사용자여야 하며 보기에 액세스하려면 Workfront에 로그인해야 합니다.
+   * 외부에서, Workfront 계정이 없는 외부 사용자와 보기에 대한 공개 공유 링크를 공유합니다.
 
 ## Adobe Workfront Planning 개체에 대한 권한 공유
 
@@ -169,7 +170,7 @@ The following are the levels of permissions for record types:
 
 >[!NOTE]
 >
->*레코드 유형에서 권한을 제거하면 작업 영역에서 해당 권한을 제거하지 않는 한 작업 영역과 모든 레코드 유형에 대한 보기 권한이 계속 유지됩니다.
+>레코드 유형에서 권한을 제거하면 작업 영역에서 해당 권한을 제거하지 않는 한 작업 영역과 모든 레코드 유형에 대한 보기 권한이 계속 유지됩니다.
 
 ### 레코드에 대한 권한
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '5487'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ko ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -64,7 +64,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    <td> 
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-<p>또는</p>
+또는
 <li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
@@ -575,7 +575,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
    >
    >* 현재 레코드 유형에서 최대 4개의 필드(및 개체)가 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형(1)에 대한 공식 필드를 생성하고 활동이 Workfront 프로젝트(3)에 연결된 캠페인 레코드 유형(2)에 연결된 경우, 활동 레코드 유형에 대해 생성 중인 공식에서 프로젝트의 예산 필드(4)를 참조할 수 있습니다.
    >
-   >![공식 예제 프로젝트 예산 4개 필드 제거됨 &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![공식 예제 프로젝트 예산 4개 필드 제거됨 ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (선택 사항) **최대화**&#x200B;를 클릭하여 더 넓은 영역에서 수식 상자를 엽니다.

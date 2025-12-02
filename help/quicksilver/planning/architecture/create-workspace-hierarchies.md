@@ -4,10 +4,10 @@ description: 작업 영역의 레코드 유형 간에 여러 작업 영역 계�
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -52,7 +52,7 @@ hidefromtoc: yes
    <td> 
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-<p>또는</p>
+또는
 <li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 

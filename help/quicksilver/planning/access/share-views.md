@@ -6,23 +6,22 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 0%
+source-wordcount: '1902'
+ht-degree: 1%
 
 ---
 
 
 # 보기 공유
 
-<!--
+<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -42,7 +41,7 @@ This article describes how you can share a view with others. For information abo
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -170,6 +169,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 * 보기를 공개적으로 공유할 때는 회사 외부의 모든 사용자가 제한된 시간 동안 만료 날짜로 표시된 링크에 액세스할 수 있습니다. 공유 보기를 보는 데 로그인이 필요하지 않습니다.
 
+  >[!NOTE]
+  >
+  ><span class="preview">보조 작업 영역의 글로벌 레코드 유형에서 공개적으로 보기를 공유할 수 없습니다. 자세한 내용은 [다른 작업 영역에서 기존 레코드 형식 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).</span>를 참조하십시오.
+
+
 * 보기에 대한 액세스 권한이 있는 조직 외부의 사람은 다른 보기를 만들거나 공유 보기를 편집하거나 보기에서 레코드 정보를 추가, 삭제 또는 편집할 수 없습니다.
 
 ## 내부적으로 보기에 대한 권한 공유
@@ -239,6 +243,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 만든 보기 또는 관리 권한이 있는 보기를 Workfront 라이선스가 없고 조직 외부에 있을 수 있는 사람과 공유할 수 있습니다.
 
+<span class="preview">보조 작업 영역의 글로벌 레코드 유형에서 공개적으로 보기를 공유할 수 없습니다. </span>
+
 >[!IMPORTANT]
 >
 >작업 영역에 대한 관리 권한이 있는 사용자만 작업 영역 보기를 공개적으로 공유할 수 있습니다.
@@ -268,6 +274,11 @@ Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수
 1. **공개 링크 만들기** 설정을 사용하도록 설정합니다.
 
    링크를 사용할 수 있습니다. 공개 링크입니다. 링크를 공유하면 조직 외부의 직원을 포함하여 모든 사용자가 레코드 유형 페이지에 액세스하고 페이지의 레코드와 필드를 볼 수 있습니다.
+
+   >[!TIP]
+   >
+   ><span class="preview">보조 작업 영역의 글로벌 레코드 형식에 대해 **공개 링크 만들기** 설정이 흐리게 표시됩니다.</span>
+
 
 1. **링크 복사** 아이콘 ![링크 복사](assets/copy-link-view.png)를 클릭하여 링크를 클립보드에 복사합니다.
 

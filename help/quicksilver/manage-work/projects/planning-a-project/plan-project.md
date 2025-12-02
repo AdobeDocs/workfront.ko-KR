@@ -2,25 +2,26 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: 프로젝트 계획 개요
-description: 프로젝트가 무엇인지, 범위 및 구조를 설정하는 방법은 물론 일정, 타임라인, 시작 및 완료 날짜와 같은 주요 개념을 알아봅니다.
+description: 프로젝트는 Adobe Workfront의 큰 작업 항목입니다. 프로젝트를 더 작은 작업 항목인 작업으로 분류할 수 있습니다. 작업은 완료를 책임질 수 있는 사용자 또는 팀에 할당할 수 있습니다. 모든 사용자가 작업을 완료하면 프로젝트도 완료됩니다.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
 
 # 프로젝트 계획 개요
 
-<!--Audited: 01/2024-->
+<!--Audited: 12/2025-->
 
 <!--
-< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
--->
+< see if you need to add something about approval settings, issue for ad-hoc happenings and how to work with documents??-->
+
+<!--this article is linked to the ESM area in the UI; the ESM team on the Adobe side linked to this article for their -->
 
 프로젝트는 Adobe Workfront의 큰 작업 항목입니다. 프로젝트를 더 작은 작업 항목인 작업으로 분류할 수 있습니다. 작업은 완료를 책임질 수 있는 사용자 또는 팀에 할당할 수 있습니다. 모든 사용자가 작업을 완료하면 프로젝트도 완료됩니다.
 
@@ -32,7 +33,11 @@ ht-degree: 0%
 
 프로젝트의 초기 단계에서는 프로젝트를 실제로 수행해야 하는지 여부를 아직 결정하지 않았을 수 있습니다. 비용 효율적이지 않거나 리소스가 없을 수 있습니다. 이 계획 단계에서는 작업을 추가하지 않고 Workfront에서 프로젝트를 만들고 상태를 계획으로 설정할 수 있습니다.
 
+또는 프로젝트 요청을 제출하여 Portfolio 관리자에게 프로젝트를 전혀 생성할 수 있는지 여부를 문의할 수 있습니다. 이를 통해 프로젝트에 대한 비즈니스 사례를 제출할 수 있습니다. 이를 통해 프로젝트를 완료하는 데 필요한 사항을 예측할 수 있습니다. 이 옵션은 요청됨 상태의 프로젝트를 만듭니다.
+
 프로젝트 만들기에 대한 자세한 내용은 문서 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md)를 참조하십시오.
+
+프로젝트 요청 만들기에 대한 자세한 내용은 [프로젝트 요청](/help/quicksilver/manage-work/projects/create-projects/request-project.md)을 참조하세요.
 
 프로젝트를 계획하기 전에 다음 질문을 고려하십시오.
 
@@ -54,13 +59,19 @@ ht-degree: 0%
 
 ### 프로젝트의 시작 및 완료 일자 정의 {#define-the-start-and-completion-date-of-the-project}
 
-프로젝트를 계획할 때 가장 먼저 결정해야 하는 것 중 하나는 타임라인입니다. 즉, 언제 프로젝트를 시작할 수 있고 언제까지 완료해야 하는지 결정합니다. 프로젝트를 완료해야 하는 시기에 대한 기한을 설정할지 또는 시작점을 설정하고 그 상태에서 작업해야 할지 여부를 결정합니다.
+프로젝트를 계획할 때 가장 먼저 결정해야 하는 사항 중 하나는 타임라인입니다. 즉, 프로젝트를 시작할 수 있는 시기와 완료해야 하는 시간대를 결정합니다.
+
+프로젝트를 완료해야 하는 시기에 대한 기한을 설정할지 또는 시작점을 설정하고 그 상태에서 작업해야 할지 여부를 결정합니다.
 
 시작 일자부터 프로젝트를 스케줄링하거나 완료 일자부터 스케줄링할 수 있습니다. 프로젝트를 처음 만들 때 이 속성을 설정할 수 있으며 프로젝트를 편집하여 언제든지 변경할 수 있습니다.
+
+자세한 내용은 [프로젝트 편집](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
 ### 프로젝트 일정 정의 {#define-the-project-schedule}
 
 일정을 결정하고 이를 프로젝트 및 프로젝트에서 작업 완료를 담당하는 사용자와 연결해야 합니다.
+
+일정은 사용자가 프로젝트에서 작업할 수 있는 시간을 정의합니다.
 
 일정에 대해 다음 정의를 고려하십시오.
 
@@ -70,7 +81,7 @@ ht-degree: 0%
 
 사용자가 언제 작업할 수 있는지 아는 것은 프로젝트에 대한 작업의 진행 상황을 이해하는 데 중요합니다.
 
-여러 프로젝트 일정을 생성하고 프로젝트에 기본 일정을 적용할 수 있습니다. 추가적인 사용자 정의 일정은 서로 다른 개인에게 적용될 수 있습니다.
+Workfront 인스턴스에서 여러 일정을 만들고 모든 프로젝트에 사용할 기본 일정을 적용할 수 있습니다. 사용자 정의 일정을 추가로 만들어 다른 개인과 연결할 수도 있습니다.
 
 일정에 대한 자세한 내용은 문서 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
 
@@ -80,14 +91,19 @@ ht-degree: 0%
 
 다음 질문을 하는 것이 좋습니다.
 
-* 사건 및 과정을 기록하도록 하는 규정이 있습니까? 그렇다면 추적해야 할 사항은 무엇입니까?\
+* 사건 및 과정을 기록하도록 하는 규정이 있습니까? 그렇다면 추적해야 할 사항은 무엇입니까?
+
   Workfront을 사용하면 편집, 범위 변경, 상태 변경 및 작업을 기록하여 업계 관련 규정을 준수할 수 있습니다.\
   Workfront에서 추적할 업데이트를 정의하는 방법에 대한 자세한 내용은 문서 [시스템 추적 업데이트](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)를 참조하십시오.
 
-* Workfront에 저장할 필드가 없어서 추적해야 하는 정보가 있습니까? [예]인 경우 이 정보를 저장할 수 있는 프로젝트 또는 작업에 대한 사용자 지정 Forms을 만듭니다.\
+* Workfront에 저장할 필드가 없어서 추적해야 하는 정보가 있습니까?
+
+  [예]인 경우 이 정보를 저장할 수 있는 프로젝트 또는 작업에 대한 사용자 지정 Forms을 만듭니다.
+
   사용자 정의 양식 만들기에 대한 자세한 내용은 문서 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
-* 프로젝트에 대한 작업을 계속하기 전에 부여해야 하는 승인 확인 지점이 있습니까? 승인 진행을 선택하면 프로젝트를 만들 때 사용할 수 있는 프로젝트 또는 작업에 대한 승인 진행을 만듭니다.\
+* 프로젝트에 대한 작업을 계속하기 전에 부여해야 하는 승인 확인 지점이 있습니까? 승인 진행을 선택하면 프로젝트를 만들 때 사용할 수 있는 프로젝트 또는 작업에 대한 승인 진행을 만듭니다.
+
   승인 프로세스에 대한 자세한 내용은 문서 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
 ## 프로젝트 타임라인 작성
@@ -95,11 +111,12 @@ ht-degree: 0%
 프로젝트의 주요 목표를 결정하고 프로젝트를 추진할 가치가 있다고 결정한 후 각 목표에 대한 타임라인을 계산해야 합니다. 각 목표는 프로젝트에서 작업 중 하나가 될 수 있습니다.
 
 이를 통해 목표의 우선 순위를 정하고 그에 따라 작업 분류 구조를 계획할 수 있습니다. 작업 분류 구조는 프로젝트의 타임라인을 정의합니다.\
-프로젝트에서 작업을 만드는 방법에 대한 자세한 내용은 [작업 정의](#define-tasks) 섹션을 참조하십시오.
+프로젝트에서 작업을 만드는 방법에 대한 자세한 내용은 이 문서의 [작업 정의](#define-tasks) 섹션을 참조하십시오.
 
 프로젝트의 타임라인을 작성할 때는 다음 사항을 고려하십시오.
 
 * 더 큰 목표를 하위 작업으로 분류하고 시작 및 완료 일자를 정의합니다.
+* 임무를 개인 또는 팀에 할당하면 임무 책임자를 알 수 있습니다. 작업을 작업 역할에 할당할 수 있지만, 작업에 할당할 수 있는 사용자를 확신할 수 없는 경우 프로젝트의 초기 계획 단계에 대해서만 작업을 할당할 수 있습니다. 프로젝트를 시작한 후에는 작업 역할을 사용자 또는 팀 할당으로 바꾸는 것이 좋습니다.
 * 목표에 다른 목표에 대한 종속성이 있는지 확인합니다.
 
   이러한 종속성을 전임 작업으로 설정할 수 있습니다.
@@ -124,7 +141,7 @@ ht-degree: 0%
 
 다음과 같은 방법으로 프로젝트에 작업을 생성할 수 있습니다.
 
-* 인라인 편집에서 프로젝트에 작업을 추가합니다.
+* 프로젝트의 작업 목록을 인라인 편집할 때 프로젝트에 작업을 수동으로 추가하십시오.
 * 정의된 템플릿 작업이 있는 템플릿을 사용하여 프로젝트에 추가합니다.
 
   템플릿 작업이 프로젝트의 작업이 됩니다.

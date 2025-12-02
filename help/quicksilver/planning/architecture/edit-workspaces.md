@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
    <td> 
 <ul> 
 <li><p>모든 Workfront 및 모든 Planning 패키지</p></li>
-<p>또는</p>
+또는
 <li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
@@ -139,7 +139,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. 작업 영역을 편집하려면 다음 중 하나를 수행합니다.
 
    * 작업 영역 카드 위로 마우스를 가져간 다음 카드의 오른쪽 상단에 있는 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다
-또는
+또는 <!--Add this to the next bullet: <span class="preview"> Search for a workspace by name and</span>-->
    * 작업 영역 카드를 클릭하여 작업 영역을 연 다음 작업 영역 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭합니다.
 1. **편집**&#x200B;을 클릭합니다.
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 0%
+source-wordcount: '647'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 0%
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <ul><li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
-<p>또는</p>
+또는
 <li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
@@ -114,10 +114,11 @@ And
 
 >[!NOTE]
 >
->하나 이상의 다른 작업 영역에 전역으로 지정된 레코드 유형이 하나 이상 있는지 확인합니다.
+>하나 이상의 다른 기본 작업 영역에 전역으로 지정된 레코드 유형이 하나 이상 있는지 확인합니다.
 >
 >자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.
 
+1. 레코드 유형을 만들려는 작업 영역(보조 작업 영역)으로 이동합니다.
 1. 문서 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)에 설명된 대로 레코드 종류 만들기를 시작한 다음 **기존 항목 추가**&#x200B;를 클릭합니다. <!--check this - the option might have been renamed in the UI-->
 
    ![다른 작업 영역에서 추가할 수 있는 옵션과 함께 레코드 종류를 추가하는 모달](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
@@ -129,7 +130,7 @@ And
 1. **계속**&#x200B;을 클릭합니다.
 1. **레코드 종류 선택** 상자에서 기존 작업 영역에서 추가할 레코드 종류의 카드를 클릭한 다음 **추가**&#x200B;를 클릭합니다.
 
-   레코드 종류가 선택한 작업 영역에 추가되고 **글로벌 레코드 종류** 아이콘 ![](assets/global-icon.png)이(가) 레코드 종류의 카드에 표시됩니다.
+   레코드 종류가 선택한 보조 작업 영역에 추가되고 **글로벌 레코드 종류** 아이콘 ![](assets/global-icon.png)이(가) 레코드 종류의 카드에 표시됩니다.
 
    다음과 같은 상황이 발생합니다.
 

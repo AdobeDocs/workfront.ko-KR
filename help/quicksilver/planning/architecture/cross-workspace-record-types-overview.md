@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -112,6 +112,11 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
 
      자세한 내용은 [레코드 종류 삭제](/help/quicksilver/planning/architecture/delete-record-types.md)를 참조하세요.
    * 레코드 유형의 보기를 공유합니다.
+
+     보조 작업 영역의 글로벌 레코드 유형에서는 보기를 공개적으로 공유할 수 없습니다. 보조 작업 영역 내부에서만 보기를 공유할 수 있습니다.
+
+     자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하십시오.
+
 
      <!-- when they will be able to add fields to the secondary space, this bullet will need this extra information: 
          After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added. -->

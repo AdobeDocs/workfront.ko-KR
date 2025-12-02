@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 0%
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <p>모든 Workfront 및 모든 Planning 패키지</p>
-<p>또는</p>
+또는
 <p>모든 워크플로우 및 모든 Planning 패키지</p>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 

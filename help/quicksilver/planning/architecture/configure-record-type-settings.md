@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 2%
+source-wordcount: '462'
+ht-degree: 3%
 
 ---
 
@@ -52,21 +52,17 @@ ht-degree: 2%
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
 <p>모든 Workfront 및 Planning 패키지</p>
-<p>모든 Workfront 및 Planning 패키지</p>
+<p>모든 워크플로우 및 계획 패키지</p>
+<div class="preview">
 <p><b>메모</b></p>
-<p>연결 가능한 레코드 유형을 구성하려면: </p>
-<ul> 
-<li><p>모든 Workfront 패키지 및 모든 Planning 패키지</p></li>
-<p>또는</p>
-<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
-
 <p>글로벌 레코드 유형을 구성하려면 다음을 수행합니다.</p>
 
 <ul> 
 <li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
-<p>또는</p>
-<li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
-<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p>
+또는
+<li><p>모든 워크플로우 패키지 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
+<p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
+</div>
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 

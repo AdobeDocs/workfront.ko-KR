@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 1%
+source-wordcount: '461'
+ht-degree: 2%
 
 ---
 
@@ -31,12 +31,12 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 
 | Adobe Workfront Planning 개체 | 제한 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| 하나의 Workfront 인스턴스에 대한 작업 공간 수 | 제한 없음* |
+| 하나의 Workfront 인스턴스에 대한 작업 공간 수 | 무제한* |
 | 하나의 작업 영역에 대한 섹션 수 | 50 |
 | 하나의 작업 영역에 대한 레코드 유형 수 | 100(모든 섹션의 레코드 유형과 작업 공간 템플릿을 사용할 때 생성되는 레코드 유형 포함) |
 | 하나의 레코드 유형에 대한 레코드 수 | 25,000 |
-| 하나의 작업 영역에 대한 레코드 수 | Planning을 사용하는 고객의 경우 25,000명 <br>을(를) 사용하는 고객의 경우 500,000명 Planning Plus를 사용하는 고객 |
-| Workfront Planning 인스턴스 하나에 대한 총 레코드 수 | Planning Plus를 사용하는 고객의 경우 50만, Planning을 사용하는 고객의 경우 <br>2백만 |
+| 하나의 작업 영역에 대한 레코드 수 | 계획 선택: 25,000 <br> 계획 Prime: 500,000 <br> 계획 Ultimate: 1,000,000 |
+| Workfront Planning 인스턴스 하나에 대한 총 레코드 수 | Planning 선택: 500,000 <br> Planning Prime: 2,000,000 <br> Planning Ultimate: 무제한 |
 | 하나의 레코드 유형 또는 분류법에 대한 필드 수 | 500 |
 | 한 줄 텍스트 필드의 문자 수 | 1,000자 |
 | 단락 필드의 문자 수 | 10,000자 |
@@ -51,6 +51,7 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | 하나의 레코드 유형에 대한 공식 필드 수 | 20 |
 | <span class="preview">하나의 레코드 형식에 대한 연결 필드 수</span> | <span class="preview">30</span> |
 | 공식 필드 표현식의 문자 수 | 50,000 |
+| Planning 객체를 공유할 수 있는 엔티티(사용자, 역할, 팀, 회사, 그룹) 수 | 100 |
 
 *작업 영역은 관리하기 어려워질 수 있고 워크플로가 너무 많이 조각날 수 있으므로 너무 많이 사용하지 않는 것이 좋습니다.
 
