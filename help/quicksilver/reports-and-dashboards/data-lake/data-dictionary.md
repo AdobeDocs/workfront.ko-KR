@@ -7,9 +7,9 @@ description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
+source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8878'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
 >[!IMPORTANT]
 >
 >응용 프로그램 내의 많은 관계로 인해 전체 ERD를 읽을 수 없으므로 제공된 ERD(엔터티 관계 다이어그램)가 의도적으로 불완전합니다.<br>
->&#x200B;>이 다이어그램은 아래 [용어 표](#terminology-table) 섹션의 프로젝트 테이블에 문서화된 관계를 사용하여 프로젝트 데이터 보기에서 인접 개체로 데이터를 조인하는 방법에 대한 예를 제공합니다. 프로젝트 개체 관계에 대해 이 패턴을 이해하면 완전한 ERD는 필요하지 않습니다
+>이 다이어그램은 아래 [용어 표](#terminology-table) 섹션의 프로젝트 테이블에 문서화된 관계를 사용하여 프로젝트 데이터 보기에서 인접 개체로 데이터를 조인하는 방법에 대한 예를 제공합니다. 프로젝트 개체 관계에 대해 이 패턴을 이해하면 완전한 ERD는 필요하지 않습니다
 
 ## 날짜 유형
 
@@ -67,7 +67,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
 >[!NOTE]
 >
 >Workfront 애플리케이션의 진화하는 데이터 요구 사항을 지원하기 위해 사전 공지 없이 새 필드를 오브젝트 보기에 추가할 수 있습니다. 다운스트림 데이터 받는 사람이 추가할 때 추가 열을 처리할 준비가 되지 않은 경우 &quot;SELECT&quot; 쿼리를 사용하지 않도록 주의합니다.<br>
->&#x200B;>이름을 바꾸거나 열을 제거해야 하는 경우 이러한 변경 사항을 미리 알려드리겠습니다.
+>이름을 바꾸거나 열을 제거해야 하는 경우 이러한 변경 사항을 미리 알려드리겠습니다.
 
 ### 액세스 수준
 
@@ -856,7 +856,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     </tbody>
 </table>
 
-### 청구 요율
+### 과금 요율
 
 <table>
     <thead>
@@ -870,10 +870,10 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
       </thead>
       <tbody>
         <tr>
-            <td>청구 요율</td>
+            <td>과금 요율</td>
             <td>비율 또는 재정의 비율</td>
             <td>비율</td>
-            <td>청구 요율</td>
+            <td>과금 요율</td>
             <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
         </tr>
       </tbody>
@@ -1660,17 +1660,21 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         </tr>
     </tbody>
 </table>
-<div>* 레코드 유형은 'enumClass' 속성을 통해 식별됩니다. 다음은 예상 형식입니다.<br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>PRIORITY_PROJECT</li>
-<li>PRIORITY_TASK</li>
-<li>SEVERITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJECT</li>
-<li>STATUS_TASK</li></ul></div>
+
+>[!NOTE]
+>
+>레코드 형식은 `enumClass` 속성을 통해 식별됩니다. 다음은 예상 형식입니다.<br>
+><ul><li>CONDITION_OPTASK</li>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJECT</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJECT</li>
+&gt;<li>STATUS_TASK</li></ul>
+
 
 ### 문서
 
@@ -2820,7 +2824,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     </tbody>
 </table>
 
-### Hour
+### 시간
 
 <table>
     <thead>
@@ -2834,10 +2838,10 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
       </thead>
       <tbody>
         <tr>
-            <td>Hour</td>
-            <td>Hour</td>
             <td>시간</td>
-            <td>Hour</td>
+            <td>시간</td>
+            <td>시간</td>
+            <td>시간</td>
             <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
         </tr>
       </tbody>
@@ -3093,7 +3097,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
     </tbody>
 </table>
 
-### 저널 항목
+### 분개 기입
 
 <table>
     <thead>
@@ -3107,10 +3111,10 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
       </thead>
       <tbody>
         <tr>
-            <td>저널 항목</td>
-            <td>저널 항목</td>
+            <td>분개 기입</td>
+            <td>분개 기입</td>
             <td>JRNLE</td>
-            <td>저널 항목</td>
+            <td>분개 기입</td>
             <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
         </tr>
       </tbody>
@@ -6601,6 +6605,11 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         </tr>
     </tbody>
 </table>
+
+>[!NOTE]
+>
+>Team 개체 테이블에는 PROJECT, TEMPLATE 및 ADHOC의 세 가지 팀 형식이 저장됩니다. <br>
+>이러한 각 팀 유형은 Data Connect 데이터 레이크 보기에서 함께 표시됩니다. 반환할 특정 유형의 팀을 분리하려면 `teamtype` 열을 필터링해야 합니다. 예를 들어, 응용 프로그램의 팀 영역에 구성된 조직 구조의 일부인 기존 팀만 사용하려는 경우 다음과 같은 쿼리가 있을 수 있습니다. <code>select * from teams_current where teamtype = &#39;ADHOC&#39;;</code>
 
 ### 팀원
 
