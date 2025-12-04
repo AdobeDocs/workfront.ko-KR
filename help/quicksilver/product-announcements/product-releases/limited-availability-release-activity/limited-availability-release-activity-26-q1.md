@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bc222ec76ac94a44c33ee166036d84c164b1da01
+source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,19 @@ Adobe Workfront에 대해 릴리스된 모든 제한된 가용성 기능의 목�
 
 작업 기간이 0인 경우 고급 할당 화면의 계획된 시간 KPI를 더 이상 편집할 수 없습니다. 이전에는 계획된 시간을 편집할 수 있었지만 변경 사항이 저장되지 않았습니다.
 
-<!--### Maintenance Updates week of November 30-December 6, 2025
+### 2025년 11월 30일부터 12월 6일의 유지 보수 업데이트 주
+
+**환율 유효 환율을 사용하지 않을 때 환율 일자 필드가 숨겨짐**
+
+**시스템에서 환율 사용** 확인란을 선택하지 않으면 프로젝트 세부 정보 > 재무 영역의 **환율 날짜** 필드가 이제 숨겨집니다. 이전에는 프로젝트를 편집할 때 날짜 유효 환율이 활성화되지 않은 경우에도 프로젝트 세부 정보에 날짜 필드가 표시되었습니다.
+
+<!--### Maintenance Updates week of December 7-13, 2025
 
 **Title**
 
 text
 
-### Maintenance Updates week of December 7-13, 2025
+### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
