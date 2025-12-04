@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,21 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 보조 작업 영역에서 글로벌 레코드 유형에 대한 보기의 공개 공유가 제거됨
+
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 3일
+>프로덕션 빠른 릴리스: 2025년 12월 4일
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+
+보조 작업 공간에서 글로벌 레코드에 대한 보기를 공유할 때 공개 공유 탭을 제거했습니다. 기존 글로벌 레코드 유형에서 다른 작업 영역에 추가된 글로벌 레코드 유형에서는 보기를 공개적으로 공유할 수 없습니다. 원래 작업 영역에서 글로벌 레코드 유형 보기를 공개적으로 공유할 수 있습니다.
+
+자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하십시오.
+
 
 ## GenStudio for Performance Marketing 브랜드와 Workfront Planning 레코드 유형 연결
 

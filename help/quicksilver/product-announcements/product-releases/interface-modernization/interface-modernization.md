@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
+source-git-commit: 1ef57b73a77d0c622b3dbd57057c51d0ccbad7db
 workflow-type: tm+mt
-source-wordcount: '9416'
+source-wordcount: '9457'
 ht-degree: 0%
 
 ---
@@ -1415,6 +1415,13 @@ Workfront의 다른 영역 디자인에 맞게 프로젝트의 대기열 세부 
 이 업데이트에서는 각 이정표의 색상 및 색상 코드에 대한 정보도 추가했습니다.
 
 자세한 내용은 [마일스톤 경로 만들기](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)를 참조하세요.
+
+
+#### 포트폴리오의 프로젝트 섹션에 대한 새로운 모양과 느낌
+
+**미리 보기 및 프로덕션: 2025년 3월 18일**
+
+포트폴리오의 프로젝트 섹션에 있는 프로젝트 목록을 개선했습니다. 이제 목록이 Workfront의 대부분의 목록과 일치합니다.
 
 +++
 
