@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
+source-git-commit: 364d1263070c0249d13290700d705e29eb646012
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 5%
+source-wordcount: '1691'
+ht-degree: 7%
 
 ---
 
@@ -263,6 +263,11 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 * 요청을 만들고 해당 요청을 업데이트할 수 있음
 * 문서를 업로드하고 승인할 수 있음
 * 프로젝트, 작업 및 문제를 승인할 수 있음
+
+  >[!NOTE]
+  >
+  >기여자는 승인에 참여할 수 있지만 승인 탭에 액세스하여 승인 프로세스를 보거나 관리할 수 없습니다.
+
 * 제출한 문제의 상태를 검토할 수 있습니다.
 * 작업 항목에 할당할 수 있지만 완료할 수 없습니다.
 * 메인 메뉴에서만 요청에 액세스할 수 있습니다. 요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
@@ -333,9 +338,9 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 | 문제 | ✓ |   |   |
 | 포트폴리오 | ✓ |   |   |
 | 프로그램 | ✓ |   |   |
-| 보고서(대시보드 및 달력 보고서 포함) |   | ✓(캘린더 보고서만 해당되며 보고서를 공유할 수 없음) |   |
+| 보고서(대시보드 및 달력 보고서 포함) |   | ✓(캘린더 보고서만 해당, 보고서 공유 기능 없음) |   |
 | 필터, 보기 및 그룹화 | ✓ |   |   |
-| 문서 |   | ✓(문서 공유 기능 없음) |   |
+| 문서 |   | ✓(문서를 공유할 수 없음) |   |
 | 사용자 |   | ✓ |   |
 | 팀 | ✓ |   |   |
 | 템플릿 | ✓ |   |   |
