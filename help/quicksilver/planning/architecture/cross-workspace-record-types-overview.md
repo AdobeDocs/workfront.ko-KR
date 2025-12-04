@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
      자세한 내용은 [레코드 종류 삭제](/help/quicksilver/planning/architecture/delete-record-types.md)를 참조하세요.
    * 레코드 유형의 보기를 공유합니다.
 
-     보조 작업 영역의 글로벌 레코드 유형에서는 보기를 공개적으로 공유할 수 없습니다. 보조 작업 영역 내부에서만 보기를 공유할 수 있습니다.
+     보조 작업 영역의 글로벌 레코드 유형에서는 보기를 공개적으로 공유할 수 없습니다. 보조 작업 영역 내부에서만 보기를 공유할 수 있습니다. 원래 작업 영역에서 글로벌 레코드 유형에 대한 보기를 내부적으로 공개적으로 공유할 수 있습니다.
 
      자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하십시오.
 

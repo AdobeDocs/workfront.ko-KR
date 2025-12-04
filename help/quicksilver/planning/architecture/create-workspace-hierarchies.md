@@ -1,13 +1,13 @@
 ---
 title: Workspace 계층 만들기
-description: 작업 영역의 레코드 유형 간에 여러 작업 영역 계층을 만들 수 있습니다.
+description: 작업 영역 관리자는 Adobe Workfront Planning의 레코드 유형 간에 여러 작업 영역 계층을 생성할 수 있습니다. 작업 영역에서 레코드 유형을 연결하고 계층을 만들면 레코드 유형이 서로 연결되며, 한 레코드 유형이 상위로 지정되고 최대 6개의 다른 레코드 유형이 하위로 구성됩니다.
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 5%
+source-wordcount: '248'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,14 @@ hidefromtoc: yes
 
 # 작업 영역 계층 만들기
 
-작업 영역의 레코드 유형 간에 여러 작업 영역 계층을 만들 수 있습니다.
+작업 영역 관리자는 Adobe Workfront Planning의 레코드 유형 간에 여러 작업 영역 계층을 생성할 수 있습니다.
+
+작업 영역에서 레코드 유형을 연결하고 계층을 만들면 레코드 유형이 서로 연결되며, 한 레코드 유형이 상위로 지정되고 최대 6개의 다른 레코드 유형이 하위로 구성됩니다. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+계층은 헤더에 표시되는 레코드 종류 및 레코드 <!--ensure this is the case: does the breadcrumb show for both the RT and the record??-->에 대한 이동 경로를 생성합니다. 이렇게 하면 사용자는 워크플로의 모든 단계에서 계층 구조에서 자신의 위치를 알 수 있습니다.
+
+계층 및 이동 경로에 대한 일반적인 정보는 [계층 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)를 참조하십시오.
+
 
 ## 액세스 요구 사항
 
@@ -72,3 +79,5 @@ hidefromtoc: yes
 Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+## 작업 공간 계층 만들기

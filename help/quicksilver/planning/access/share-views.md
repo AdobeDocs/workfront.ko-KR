@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
@@ -277,7 +277,7 @@ Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수
 
    >[!TIP]
    >
-   ><span class="preview">보조 작업 영역의 글로벌 레코드 형식에 대해 **공개 링크 만들기** 설정이 흐리게 표시됩니다.</span>
+   ><span class="preview">보조 작업 영역에서 글로벌 레코드 형식에 대한 **공개 공유** 탭이 제거되었습니다.</span>
 
 
 1. **링크 복사** 아이콘 ![링크 복사](assets/copy-link-view.png)를 클릭하여 링크를 클립보드에 복사합니다.

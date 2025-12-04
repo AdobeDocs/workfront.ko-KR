@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -144,6 +144,7 @@ And
      >[!NOTE]
      >
      >새 레코드 종류의 모양, 추가 설정 또는 원본 필드는 편집할 수 없습니다. 원본 작업공간에서만 레코드 종류 및 원본 필드와 설정을 편집할 수 있습니다.
+     >
 
 1. (선택 사항) 을 클릭한 다음, 새로 추가된 레코드 유형을 작업 공간 내의 임의의 섹션으로 끌어다 놓습니다.
 1. (선택 사항) 새 레코드 종류의 카드 또는 해당 페이지의 레코드 종류 이름 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
