@@ -6,9 +6,9 @@ description: 새 요청을 입력할 때 Workfront에서 제안하는 사용 가
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
+source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '863'
 ht-degree: 3%
 
 ---
@@ -73,20 +73,15 @@ ht-degree: 3%
 
 
 
-<!--
-   
-1. Open the draft.
 
-   Drafts can be found in the following locations:
-
-   * In the requests list in the Requests area
-   * In the requests list in the My Requests widget in Home
-   * In the New request dialog (includes only drafts of requests created with the selected form)
-   
--->
 1. 초안을 엽니다.
 
-   초안은 새 요청 대화 상자에서 찾을 수 있습니다(선택한 양식으로 생성된 요청의 초안만 포함).
+   초안은 다음 위치에서 찾을 수 있습니다.
+
+   * 요청 영역의 요청 목록에서
+   * 홈 의 내 요청 위젯에 있는 요청 목록에서
+   * 새 요청 대화 상자(선택한 양식으로 생성된 요청의 초안만 포함)
+
 1. [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)에 설명된 대로 요청에 대한 정보를 업데이트하십시오.
 1. (선택 사항 및 조건부) 초안을 삭제하려면 요청을 입력하는 동안 언제든지 **취소** 초안을 클릭합니다. 그러면 초안이 삭제됩니다.
 

@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
+source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 3%
 
 ---
@@ -256,7 +256,7 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사
 
 1. (선택 사항) 복사된 요청에서 모든 정보를 업데이트합니다. 사용 가능한 필드는 요청에 사용된 요청 대기열 또는 요청 양식에 따라 다릅니다.
 
-   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+   복사된 요청에서 필드 값을 입력하거나 변경하면 초안으로 저장됩니다.
 
 1. **제출을 클릭합니다**.
 
