@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: fb57f04a4031eaf38f88c3a1b2542d64ee230a8c
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1673'
 ht-degree: 0%
 
 ---
@@ -85,27 +85,6 @@ Workfront 인스턴스에서 여러 일정을 만들고 모든 프로젝트에 �
 
 일정에 대한 자세한 내용은 문서 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
 
-### 프로젝트 계획에 필요한 추가 정보 관리 {#manage-additional-information-needed-for-planning-the-project}
-
-프로젝트를 계획할 때 프로젝트 작업을 시작하기 전에 설정해야 하는 추가 정보가 있습니다.
-
-다음 질문을 하는 것이 좋습니다.
-
-* 사건 및 과정을 기록하도록 하는 규정이 있습니까? 그렇다면 추적해야 할 사항은 무엇입니까?
-
-  Workfront을 사용하면 편집, 범위 변경, 상태 변경 및 작업을 기록하여 업계 관련 규정을 준수할 수 있습니다.\
-  Workfront에서 추적할 업데이트를 정의하는 방법에 대한 자세한 내용은 문서 [시스템 추적 업데이트](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)를 참조하십시오.
-
-* Workfront에 저장할 필드가 없어서 추적해야 하는 정보가 있습니까?
-
-  [예]인 경우 이 정보를 저장할 수 있는 프로젝트 또는 작업에 대한 사용자 지정 Forms을 만듭니다.
-
-  사용자 정의 양식 만들기에 대한 자세한 내용은 문서 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
-
-* 프로젝트에 대한 작업을 계속하기 전에 부여해야 하는 승인 확인 지점이 있습니까? 승인 진행을 선택하면 프로젝트를 만들 때 사용할 수 있는 프로젝트 또는 작업에 대한 승인 진행을 만듭니다.
-
-  승인 프로세스에 대한 자세한 내용은 문서 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
-
 ## 프로젝트 타임라인 작성
 
 프로젝트의 주요 목표를 결정하고 프로젝트를 추진할 가치가 있다고 결정한 후 각 목표에 대한 타임라인을 계산해야 합니다. 각 목표는 프로젝트에서 작업 중 하나가 될 수 있습니다.
@@ -172,3 +151,32 @@ Workfront 인스턴스에서 여러 일정을 만들고 모든 프로젝트에 �
    * 다른 제한 없이 사용 가능한 사용자에게 작업을 재할당합니다.\
      프로젝트 리소스 계획에 대한 자세한 내용은 문서 [리소스 계획: 문서 색인](../../../resource-mgmt/resource-planning/resource-planning-overview.md)을 참조하세요.\
      프로젝트에서 작업을 수행하기 위해 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)를 참조하십시오.
+
+## 프로젝트 계획에 필요한 추가 정보 관리 {#manage-additional-information-needed-for-planning-the-project}
+
+프로젝트를 계획할 때 프로젝트 작업을 시작하기 전에 설정해야 하는 추가 정보가 있습니다.
+
+다음 질문을 하는 것이 좋습니다.
+
+* 사건 및 과정을 기록하도록 하는 규정이 있습니까? 그렇다면 추적해야 할 사항은 무엇입니까?
+
+  Workfront을 사용하면 편집, 범위 변경, 상태 변경 및 작업을 기록하여 업계 관련 규정을 준수할 수 있습니다.\
+  Workfront에서 추적할 업데이트를 정의하는 방법에 대한 자세한 내용은 문서 [시스템 추적 업데이트](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)를 참조하십시오.
+
+* Workfront에 저장할 필드가 없어서 추적해야 하는 정보가 있습니까?
+
+  [예]인 경우 이 정보를 저장할 수 있는 프로젝트 또는 작업에 대한 사용자 지정 Forms을 만듭니다.
+
+  사용자 정의 양식 만들기에 대한 자세한 내용은 문서 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+
+* 프로세스를 문서화해야 합니까? 그리고 일상적인 작업의 일부이거나 프로젝트의 해결 방법을 결정하는 에셋으로 작업합니까? 그런 경우 문서 저장 시스템을 생성합니다.
+
+  자세한 내용은 [문서: 문서 색인](/help/quicksilver/documents/documents-overview.md)을 참조하세요.
+
+* 프로젝트에 대한 작업을 계속하기 전에 부여해야 하는 승인 확인 지점이 있습니까? 예. 프로젝트를 빌드하는 동안 사용할 수 있는 프로젝트 또는 작업에 대한 승인 프로세스를 만들고 작업을 계속하기 전에 승인해야 하는 문서나 증명에 대한 목록을 만듭니다.
+
+  승인에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
+   * [작업 항목에 대한 승인 프로세스를 만듭니다](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+   * [작업 검토 및 승인](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
+   * [통합 문서 승인에 사용할 수 있는 기능](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)

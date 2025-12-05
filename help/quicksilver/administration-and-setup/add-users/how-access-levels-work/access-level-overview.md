@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 364d1263070c0249d13290700d705e29eb646012
+source-git-commit: 5cea1b349867dbb408af97e6c2402a0d799af87b
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 7%
+source-wordcount: '1698'
+ht-degree: 6%
 
 ---
 
@@ -102,8 +102,6 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 | 재무 데이터 |   |   | ✓ |
 | 리소스 관리 |   |   | ✓ |
 | 시나리오 플래너 |   |   | ✓(기본 설정은 액세스 권한 없음) |
-| 보드 |   |   | ✓ |
-| 홈 |   |   | ✓ |
 | 목표 |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -155,8 +153,8 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
   <tr> 
    <td>작업</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td> </td> 
+   <td></td> 
+   <td>✓(제한적)</td> 
   </tr> 
   <tr> 
    <td>문제</td> 
@@ -215,7 +213,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
   <tr> 
    <td>재무 데이터</td> 
    <td></td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓(기본 설정은 액세스 권한 없음)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -229,23 +227,13 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
    <td> </td> 
    <td> </td> 
    <td>✓(기본 설정은 액세스 권한 없음)</td> 
-  </tr> 
-  <tr> 
-   <td>보드 </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-     <tr> 
-   <td>홈 </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-  </tr> 
-  <tr>   
+  </tr>
+
+<tr>   
    <td>목표 </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓(기본 설정은 액세스 권한 없음)</td> 
  </tbody> 
 </table>
 
@@ -282,8 +270,8 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 
 | Workfront 개체 유형 | 액세스 권한 없음 | 액세스 권한 보기 | 액세스 권한 편집 |
 |---|---|---|---|
-| 프로젝트 |   | ✓ |   |
-| 작업 |   | ✓ |   |
+| 프로젝트 |   | ✓(제한적) |   |
+| 작업 |   | ✓(제한적) |   |
 | 문제 |   |   | ✓ |
 | 포트폴리오 |   | ✓ |   |
 | 프로그램 |   | ✓ |   |
@@ -296,9 +284,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 | 재무 데이터 | ✓ |   |   |
 | 리소스 관리 | ✓ |   |   |
 | 시나리오 플래너 | ✓ |   |   |
-| 보드 |   |   | ✓(단순 카드) |
-| 홈 |   | ✓(내 업데이트) |   |
-| 목표 |   |   | ✓ |
+| 목표 |   |   | ✓(기본 설정은 액세스 권한 없음) |
 
 {style="table-layout:auto"}
 
@@ -347,8 +333,6 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 | 재무 데이터 | ✓ |   |   |
 | 리소스 관리 | ✓ |   |   |
 | 시나리오 플래너 | ✓ |   |   |
-| 보드 | ✓ |   |   |
-| 홈 | ✓ |   |   |
 | 목표 | ✓ |   |   |
 
 
