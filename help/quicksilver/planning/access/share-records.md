@@ -177,7 +177,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    **공유** 상자가 열립니다.
 
-   ![에서 상속된 사용 권한을 가진 레코드에 대한 ](assets/permissions-for-records-with-inherited-permissions-on.png)사용 권한
+   ![에서 상속된 사용 권한을 가진 레코드에 대한 &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)사용 권한
 
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역 및 레코드 유형에 대한 보기 이상의 권한이 있는 모든 사용자는 레코드를 볼 수 있습니다.
 
@@ -230,7 +230,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
 1. 복사한 링크를 다른 사용자와 공유합니다. 링크를 받은 사용자는 활성 사용자여야 하며 레코드 유형 페이지에 액세스하여 선택한 보기에 표시할 수 있도록 Workfront에 로그인해야 합니다. 레코드 유형을 볼 수 있으려면 레코드 유형에 대한 권한이 있어야 합니다. 자세한 내용은 [링크를 사용하여 레코드 공유](/help/quicksilver/planning/records/share-records.md)도 참조하세요.
 
-## 레코드에 대한 권한 제거(***************&#x200B;레코드 유형에서 복사되었습니다. 레코드에 대해 편집해야 하지만 LILITT의 SLACK 응답을 기다려야 함&#x200B;**********)
+## 레코드에 대한 권한 제거(**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***&#x200B;레코드 유형에서 복사되었습니다. 레코드에 대해 편집해야 하지만 LILITT의 SLACK 응답을 기다려야 함&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**)
 
 레코드에서 사용자의 권한을 제거할 수 있습니다. 그러나 레코드 유형에 대해 적어도 보기 권한을 제공하는 recordworkspace에 대해 적어도 보기 권한은 유지됩니다. 작업 영역의 레코드 유형에 대한 권한이 없도록 하려면 작업 영역에서 해당 액세스 권한을 제거해야 합니다.
 
