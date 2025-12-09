@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
 workflow-type: tm+mt
 source-wordcount: '1358'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
 >[!IMPORTANT]
 >
 >이 문서에 설명된 단계는 관리 권한이 있을 때 Workfront Planning에서 GenStudio 작업 영역을 업데이트하는 방법을 보여 줍니다.
->&#x200B;> GenStudio 작업 영역에 대한 Contribute 권한이 있는 경우 일부 기능을 사용할 수 없습니다.
+> GenStudio 작업 영역에 대한 Contribute 권한이 있는 경우 일부 기능을 사용할 수 없습니다.
 >
 >회사에 Workfront 인스턴스가 여러 개 있는 경우 모든 사용자는 Workfront Planning의 GenStudio 작업 영역에 대한 기여 권한을 받습니다.
 
@@ -83,7 +83,7 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -249,6 +249,11 @@ CAN YOU DO THIS??
 
    자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
 
+   <!--
+   >[!NOTE]
+   >
+   >You cannot remove GenStudio users from the GenStudio workspace, after you share that workspace with them.-->
+
 1. 해당 유형의 레코드를 보려면 레코드 유형 카드를 클릭합니다.
 
    레코드 종류, 보기 및 필드를 관리하려면 이 문서의 [Workfront Planning에서 GenStudio 레코드 종류 관리](#manage-genstudio-record-types-from-workfront-planning) 섹션을 참조하십시오.
@@ -288,6 +293,11 @@ CAN YOU DO THIS??
 보기에 대한 링크가 클립보드에 복사됩니다.
       * **현재 보기 내보내기**
 자세한 내용은 [테이블 보기에서 레코드 내보내기](/help/quicksilver/planning/records/export-records-from-the-table-view.md)를 참조하십시오.
+
+        <!--
+         >[!NOTE]
+         >
+         >You cannot remove GenStudio users from record types in the GenStudio workspace, after you share that workspace or the record types with them.-->
 
 1. 레코드 유형 보기를 관리하려면 다음을 수행합니다.
 
@@ -360,6 +370,15 @@ CAN YOU DO THIS??
      >[!TIP]
      >
      >Workfront Planning에서 생성된 필드는 GenStudio의 목록 보기에 표시되지 않습니다.
+
+     <!--when this releases, replace the tip above with this: 
+      
+      >[!NOTE]
+      >
+      >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
+      >
+      >* You can connect any GenStudio record type to the Brands GenStudio record type. 
+      >  Products and Personas are connected to Brands by default. -->
 
 1. 테이블 보기의 필드 위로 마우스를 가져간 다음 드롭다운 메뉴를 클릭하여 다음 중 하나를 수행합니다.
 

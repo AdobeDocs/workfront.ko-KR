@@ -10,16 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 0%
+source-wordcount: '328'
+ht-degree: 3%
 
 ---
 
 # 액세스 수준 개요
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>이 문서의 정보는 기존 액세스 수준을 나타냅니다. 새 액세스 수준에 대한 자세한 내용은 [새 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)를 참조하세요.
+
 
 Adobe Workfront 관리자는 2가지 용도로 사용자에게 액세스 수준을 할당합니다.
 
@@ -57,8 +62,18 @@ External은 주로 Workfront을 사용하지 않는 공동 작업자와 문서�
    <td> <p>사용자에게 액세스 수준을 할당하는 방법에 대한 지침은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">사용자 프로필 편집</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
-   <td>액세스 수준 표준, 라이트, 기여자</td> 
-   <td> <p>계획, 작업, 검토 또는 요청 대신 환경에 이러한 액세스 수준이 표시되면 조직에서 새로운 액세스 수준 모델을 사용합니다. 새 모델에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">새 액세스 수준 개요</a>를 참조하십시오.</p> </td> 
+   <td><b>액세스 수준 유형</b></td> 
+   <td><p>Workfront에는 두 가지 유형의 액세스 수준이 있습니다.</p>
+   <ul><li>기존 액세스 수준</li>
+   <ul><li>플랜</li>
+   <li>작업</li>
+   <li>검토</li>
+   <li>요청</li></ul>
+   <li>새로운 액세스 수준:</li>
+   <ul><li>표준</li>
+   <li>라이트</li>
+   <li>기여자</li></ul></ul> 
+   <p>새 액세스 수준에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">새 액세스 수준 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <!--
   <tr> 

@@ -10,20 +10,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 1%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
 # 사용자의 액세스 수준 및 라이선스 나열
 
+>[!NOTE]
+>
+>이 문서의 정보는 기존 액세스 수준을 나타냅니다. 새 액세스 수준에 대한 자세한 내용은 [새 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)를 참조하세요.
+
 사용자 목록 또는 보고서에서 각 사용자에게 할당된 액세스 수준 및 라이선스를 확인할 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 다음 항목이 있어야 합니다.
 

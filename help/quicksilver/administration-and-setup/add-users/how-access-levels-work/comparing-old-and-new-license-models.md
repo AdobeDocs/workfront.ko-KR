@@ -5,21 +5,26 @@ content-type: reference
 product-area: system-administration
 keywords: 액세스,수준,시스템,관리자,표준,조명,기여자
 navigation-topic: access-levels
-description: 이전 라이선스 모델과 새 라이선스 모델의 서로 다른 라이선스에서 사용할 수 있는 기능 비교 를 참조하십시오.
+description: 기존 라이선스 모델과 새 라이선스 모델의 서로 다른 라이선스에서 사용할 수 있는 기능 비교를 참조하십시오.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 37%
 
 ---
 
 # 라이선스 모델 간 기능 비교
 
-이 표에서는 기존 및 새 라이선스 모델에서 라이선스에 사용할 수 있는 기능을 보여 줍니다.
+Adobe Workfront에는 두 가지 유형의 액세스 수준이 있습니다.
+
+* 새로운 액세스 수준. 자세한 내용은 [새 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)를 참조하십시오.
+* 레거시 액세스 수준. 자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하세요.
+
+다음 표는 기존 및 새 라이선스 모델에서 라이선스에 사용할 수 있는 기능을 보여 줍니다.
 
 <table style="table-layout:auto"> 
  <col> 

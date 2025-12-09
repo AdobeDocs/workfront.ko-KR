@@ -10,16 +10,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: e894c1e2134d025420205c6575329a2a9079fadf
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 13%
+source-wordcount: '1586'
+ht-degree: 14%
 
 ---
 
 # 다양한 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능
 
 {{highlighted-preview}}
+
+>[!NOTE]
+>
+>이 문서의 정보는 기존 액세스 수준을 나타냅니다. 새 액세스 수준에 대한 자세한 내용은 [새 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)를 참조하세요.
 
 다음 표에는 다양한 액세스 레벨의 각 객체 유형에 사용할 수 있는 기능이 나열되어 있습니다.
 

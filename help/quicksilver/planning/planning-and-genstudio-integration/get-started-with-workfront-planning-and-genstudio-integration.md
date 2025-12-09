@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 사�
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -164,7 +164,7 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -249,7 +249,13 @@ Workfront Planning 권한에 대한 자세한 내용은 [Adobe Workfront Plannin
    * 레코드 유형 추가
    * 다른 사용자와 공유
 
-     GenStudio 계정이 없는 다른 사용자와 GenStudio 작업 영역을 공유할 수 있습니다. 조직의 IMS(Identity Management System)에서 사용할 수 있는 사용자만 공유할 수 있습니다. <!--check to see this is correct-->
+     GenStudio 계정이 없는 다른 사용자와 GenStudio 작업 영역을 공유할 수 있습니다. 조직의 IMS(Identity Management System)에서 사용할 수 있는 사용자만 공유할 수 있습니다.
+
+     <!--
+        >[!NOTE]
+        >
+        >You cannot remove GenStudio users from the GenStudio workspace or its record types' sharing. -->
+     <!--check to see this is correct-->
      <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
 * Planning에서 GenStudio 작업 영역에 대한 기여 권한이 있는 경우 Workfront Planning에서 작업 영역을 수정할 수 없습니다.
@@ -378,9 +384,20 @@ GenStudio 레코드 유형과 Workfront Planning의 다른 레코드 또는 개�
 
 ### Workfront Planning 작업 공간에서 GenStudio 브랜드에 대한 연결
 
-조직의 Workfront Planning과 Adobe GenStudio이 통합되면 Workfront Planning의 모든 작업 영역에 있는 모든 레코드 유형에서 Planning 레코드 유형을 GenStudio 브랜드에 연결할 수 있습니다.
+조직이 Workfront Planning과 Adobe GenStudio을 통합한 경우 Workfront Planning의 모든 작업 영역에 있는 모든 레코드 유형에서 Planning 레코드 유형을 GenStudio 브랜드에 연결할 수 있습니다.
 
 브랜드는 GenStudio 작업 영역에서 레코드 유형 카드로 표시되지 않습니다. 브랜드는 GenStudio 작업 영역의 연결을 포함하여 모든 Workfront Planning 레코드 유형에서 새 연결을 만들 수 있습니다.
+
+<!-- when this releases, replace the paragraph above with these:
+
+Brands are connected by default to the following GenStudio workspace record types:
+
+    * Products
+    * Personas
+
+Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces you have permissions to manage. 
+
+-->
 
 ## 미리보기 환경
 

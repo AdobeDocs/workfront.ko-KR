@@ -3,9 +3,9 @@ title: 계층 구조 및 이동 경로 개요
 description: 작업 영역의 레코드 유형 간에 여러 작업 영역 계층을 만들 수 있습니다.
 hide: true
 hidefromtoc: true
-source-git-commit: f345cc0d41dc1bd62e7361fa0755cb7ba72465a0
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,16 @@ hidefromtoc: yes
 
 작업 영역 관리자는 레코드 유형과 Adobe Workfront Planning의 다른 객체 유형 간에 유연하지만 구조화된 계층을 정의할 수 있습니다.
 
+계층은 레코드 유형 간의 연결입니다. 하나의 계층에서 최대 4개의 레코드 및 개체 유형을 연결할 수 있습니다.
+
+계층 만들기에 대한 자세한 내용은 [작업 영역 계층 만들기](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)를 참조하십시오.
+
 작업 공간에서 계층을 사용하면 다음과 같은 이점이 있습니다.
 
 * 팀이 실제로 계획, 운영 및 제공하는 방법을 반영하는 방식으로 작업을 구성합니다.
-* 사용자는 시스템의 위치를 나타내는 이동 경로 집합을 참조하여 현재 위치, 레코드 종류가 연결되는 방식 및 전략이 실행으로 흐르는 방식을 이해합니다.
+* 사용자가 현재 위치, 레코드 종류가 연결되는 방식 및 전략의 실행 흐름을 시스템에서 위치를 나타내는 탐색 표시 집합을 참조하여 이해할 수 있도록 합니다.
 * 더 나은 탐색을 제공하고 모든 워크플로우에서 명확성과 연속성을 만듭니다.
-* 계층은 엄격한 시스템 정의 구조를 적용하지 않으며, 대신 조직의 작동 방식에 맞는 흐름을 정의할 수 있도록 하여 모든 작업 단계에서 유연성과 일관성을 모두 지원합니다.
+* 조직의 작동 방식에 맞는 흐름을 정의하여 모든 작업 단계에서 유연성과 일관성을 모두 지원합니다.
 
 ## 계층 작업 시 고려 사항
 
@@ -52,11 +56,28 @@ hidefromtoc: yes
    * 계층에는 Planning 레코드 유형과 Workfront 객체 유형이 모두 포함될 수 있습니다.
 
      예를 들어 계획 전술 및 Workfront 프로젝트를 하위 항목으로 사용하는 캠페인 레코드 유형이 있을 수 있습니다.
-   * 글로벌 레코드 유형은 여러 계층 내의 여러 작업 영역에 나타날 수 있습니다.
+
+     <!--asking if ONLY projects are supported here in slack; if yes, make a note to say that only Projects are supported; also add a note about AEM -->
+   * 글로벌 레코드 유형은 여러 계층 내의 여러 작업 영역에 나타날 수 있습니다. <!--not sure if this AFTER they were added to another workspace; right now, I can see only the current workspace when building one??-->
    * Workfront 객체 유형은 여러 계층 및 다른 작업 공간에 표시될 수도 있습니다.
-     <!--Not sure what this means: * Shared record can't be part of hierarchies.-->
+   * 글로벌 레코드 유형은 다른 작업 영역의 계층에 속할 수 없습니다.
+
+     예를 들어 Campaign이 글로벌 레코드 유형이고 Workspace 1에 있는 계층의 일부인 경우 Workspace 2에 기존 레코드 유형으로 추가할 수 있지만 2에서는 계층의 일부가 될 수 없습니다. <!--verifying that this is not connectable RT and it is about global ones - checking in slack-->
    * 연결된 레코드 유형에 해당 필드를 만들지 않는 연결이 있는 레코드 유형도 계층의 일부일 수 있습니다. 계층 설정 중에 생성된 새 연결은 기본적으로 연결된 레코드 유형에 해당 필드를 생성합니다.
 
 ## 이동 경로를 볼 때 고려 사항
+
+레코드 유형 간에 계층을 만들면 해당 레코드 유형에 속하는 레코드에 대한 이동 경로를 생성합니다.
+
+예를 들어 계층을 만들고 전술 및 프로그램과 캠페인, 프로젝트 순으로 연결한 경우 계층에 연결된 유형의 레코드로 이동하면 레코드가 배치된 위치를 계층 구조에서 볼 수 있습니다.
+
+다음 사항을 고려하십시오.
+
+* 레코드 유형이 여러 작업 공간의 여러 계층에 속하는 경우 레코드 페이지의 레코드 이동 경로에서 계층 간을 전환할 수 있습니다.
+* 이동 경로는 Workfront 및 Planning에서 작동합니다.
+
+  예를 들어 Planning 캠페인 및 전술, Workfront 포트폴리오 및 프로그램에도 연결된 프로젝트를 볼 때 이동 경로에서 Planning 및 Workfront 계층 간에 전환할 수 있습니다.
+
+  자세한 내용은 [작업 영역 계층 만들기](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)를 참조하십시오.
 
 
