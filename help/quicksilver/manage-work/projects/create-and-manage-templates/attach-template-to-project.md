@@ -6,10 +6,10 @@ description: 프로젝트의 초기 생성 단계 또는 생성 후 프로젝트
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 5%
+source-wordcount: '1126'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -159,15 +159,23 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">아래에서 선택한 템플릿 작업을 프로젝트로 가져옵니다. 제외할 항목을 선택 취소합니다. </td> 
-      <td>프로젝트에 첨부하기 전에 템플릿에서 제외할 작업을 선택 취소합니다.</td> 
+      <td><p>프로젝트에 첨부하기 전에 템플릿에서 제외할 작업을 선택 취소합니다.</p>
+      <p><b>팁</b></p>
+      <p>작업을 하나만 선택할 수 있습니다.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">이 템플릿의 전임 작업으로 사용할 프로젝트 작업을 선택하십시오.</td> 
-      <td> <p>필드를 클릭하여 프로젝트 작업 목록을 표시한 다음 템플릿 작업을 시작하기 전에 완료해야 하는 작업을 선택합니다. 또는 템플릿을 첨부한 후 이 단계를 건너뛰고 프로젝트 내에서 관계를 설정할 수 있습니다. </p> <p> <strong>종속성 유형</strong>, <strong>지연 시간</strong> 정보를 선택하고 <strong>전임 작업 적용</strong> 확인란을 선택하여 전임 작업을 적용하려는 경우 </p> </td> 
+      <td> <p>필드 상자 내부를 클릭하여 프로젝트 작업 목록을 표시한 다음 템플릿 작업을 시작하기 전에 완료해야 하는 작업을 선택합니다. 또는 템플릿을 첨부한 후 이 단계를 건너뛰고 프로젝트 내에서 관계를 설정할 수 있습니다. </p> <p> <strong>종속성 유형</strong>, <strong>지연 시간</strong> 정보를 선택하고 <strong>전임 작업 적용</strong> 확인란을 선택하여 전임 작업을 적용하려는 경우 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">이 템플릿의 상위 작업으로 사용할 프로젝트 작업을 선택하십시오.</td> 
-      <td> 모든 템플릿 작업에 대해 상위 작업으로 지정할 프로젝트 작업을 선택합니다. 선택하지 않으면 모든 템플릿 작업이 현재 프로젝트 작업의 끝에 나타납니다. 템플릿을 첨부한 후 이 단계를 건너뛰고 프로젝트에서 작업을 이동할 수 있습니다.</td> 
+      <td> <p>모든 템플릿 작업에 대해 상위 작업으로 지정할 프로젝트 작업을 선택합니다. 선택하지 않으면 모든 템플릿 작업이 현재 프로젝트 작업의 끝에 나타납니다. 템플릿을 첨부한 후 이 단계를 건너뛰고 프로젝트에서 작업을 이동할 수 있습니다.</p>
+      <p><b>메모</b></p>
+      <p>추가 하위 항목이 있는 상위 템플릿 작업을 선택한 경우 프로젝트에 추가되면 상위 항목만 프로젝트 작업을 전임 작업으로 표시합니다. 하위 템플릿 작업에는 전임 작업이 표시되지 않습니다.</p>
+      <p>하위 템플릿 작업만 선택한 경우 프로젝트 작업은 프로젝트에 추가된 후 전임 작업으로 표시됩니다. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">옵션 섹션</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 

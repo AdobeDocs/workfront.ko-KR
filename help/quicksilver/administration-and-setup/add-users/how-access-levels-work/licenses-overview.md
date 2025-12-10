@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 문서의 정보는 새로운 액세스 수준에 적용됩니다. 기존 액세스 수준에 대한 자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하십시오.
+>이 문서의 정보는 현재 액세스 수준에 나와 있습니다. 기존 액세스 수준에 대한 자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하십시오.
 
 조직에서 Adobe Workfront을 구입할 때 특정 개수의 라이선스를 구입했습니다. Workfront 관리자는 사용자에게 액세스 수준을 할당할 때 각 사용자에게 두 가지 유형의 Workfront 라이선스 중 하나를 제공합니다.
 

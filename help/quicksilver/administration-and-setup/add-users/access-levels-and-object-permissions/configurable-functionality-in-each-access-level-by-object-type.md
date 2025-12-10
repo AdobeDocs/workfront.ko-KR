@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '3508'
 ht-degree: 10%
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->이 문서의 정보는 기존 액세스 수준을 나타냅니다. 새 액세스 수준에 대한 자세한 내용은 [새 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)를 참조하세요.
+>이 문서의 정보는 기존 액세스 수준을 나타냅니다. 현재 액세스 수준에 대한 자세한 내용은 [새 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)를 참조하세요.
 
 조직에 대한 액세스 수준을 구성할 때 액세스 수준에서 사용할 수 있는 특정 작업을 결정할 수 있습니다.
 

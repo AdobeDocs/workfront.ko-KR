@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '1654'
 ht-degree: 7%
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->이 문서의 정보는 기존 액세스 수준을 나타냅니다. 새 액세스 수준에 대한 자세한 내용은 [새 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)를 참조하세요.
+>이 문서의 정보는 기존 액세스 수준을 나타냅니다. 현재 액세스 수준에 대한 자세한 내용은 [새 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)를 참조하세요.
 
 
 현재 내장된 6개의 액세스 수준 각각은 특정 유형의 사용자를 위해 설계되었습니다. 이러한 액세스 수준을 사용하면 시스템에서 편집하고 볼 수 있는 사용자를 제어할 수 있습니다.

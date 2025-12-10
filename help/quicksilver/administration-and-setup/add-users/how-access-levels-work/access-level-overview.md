@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 6%
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->이 문서의 정보는 새로운 액세스 수준에 적용됩니다. 기존 액세스 수준에 대한 자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하십시오.
+>이 문서의 정보는 현재 액세스 수준에 나와 있습니다. 기존 액세스 수준에 대한 자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하십시오.
 
 Adobe Workfront 관리자는 2가지 용도로 사용자에게 액세스 수준을 할당합니다.
 

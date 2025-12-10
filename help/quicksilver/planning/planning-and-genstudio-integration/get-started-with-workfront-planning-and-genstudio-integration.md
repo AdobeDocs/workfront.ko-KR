@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2118'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Workfront Planning과 GenStudio for Performance Marketing 간의 통합을 사�
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -164,7 +164,7 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -242,6 +242,7 @@ Workfront Planning 권한에 대한 자세한 내용은 [Adobe Workfront Plannin
   ![Planning의 GenStudio 카드](assets/genstudio-card-with-tag-highlighted.png)
 
   자세한 내용은 [Adobe Workfront Planning에서 GenStudio 작업 영역 관리](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)를 참조하십시오.
+* GenStudio 작업 영역은 Workfront Planning에서 생성될 때 Workfront에 대한 액세스 권한도 가진 모든 GenStudio 사용자와 자동으로 공유됩니다.
 * Planning에서 GenStudio 작업 영역에 대한 관리 권한이 있는 경우 다음을 수행할 수 있습니다.
 
    * Planning에서 GenStudio 작업 공간 업데이트(이름, 설명, 아이콘)
@@ -254,9 +255,8 @@ Workfront Planning 권한에 대한 자세한 내용은 [Adobe Workfront Plannin
      <!--
         >[!NOTE]
         >
-        >You cannot remove GenStudio users from the GenStudio workspace or its record types' sharing. -->
-     <!--check to see this is correct-->
-     <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
+        >You cannot remove GenStudio users from the GenStudio workspace or its record types'sharing. -->
+  <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
 * Planning에서 GenStudio 작업 영역에 대한 기여 권한이 있는 경우 Workfront Planning에서 작업 영역을 수정할 수 없습니다.
 
@@ -265,16 +265,18 @@ Workfront Planning 권한에 대한 자세한 내용은 [Adobe Workfront Plannin
 * GenStudio for Performance Marketing 및 Planning에 모두 표시되는 레코드 유형은 Workfront Planning에 GenStudio 표시기가 있습니다.
 
   ![Workfront Planning의 GenStudio 레코드 유형 카드](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+* GenStudio 작업 영역의 레코드 유형은 Planning에서 작업 영역을 만들 때 Workfront에 액세스할 수 있는 모든 GenStudio 사용자와 자동으로 공유됩니다.
 * Planning에서 GenStudio 작업 영역에 대한 관리 권한이 있는 경우 Workfront Planning에서 다음을 수행할 수 있습니다.
    * GenStudio 레코드 유형 정보(모양, 고급 설정)를 편집합니다.
    * 다른 사용자와 GenStudio 레코드 유형을 공유합니다.
    * 레코드 유형을 만듭니다. 이러한 레코드 유형은 Workfront Planning에만 유지됩니다. GenStudio에는 표시되지 않습니다.
-   * GenStudio 작업 영역의 레코드를 다른 작업 영역에서 연결할 수 있도록 합니다.
-   * GenStudio 작업 영역의 레코드를 다른 작업 영역에 추가할 수 있도록 합니다.
+   * GenStudio 작업 영역에서 레코드 유형을 활성화하여 다른 작업 영역에서 연결할 수 있습니다.
+   * GenStudio 작업 공간의 레코드 유형을 다른 작업 공간에 추가할 수 있도록 합니다.
 * Planning에서 GenStudio 작업 영역에 대한 기여 권한이 있는 경우 Planning에서 GenStudio 레코드 유형을 수정할 수 없습니다.
 
 ### GenStudio 작업 영역의 레코드
 
+* 모든 GenStudio 레코드는 Planning에서 작업 영역을 만들 때 Workfront에 대한 액세스 권한도 가진 모든 GenStudio 사용자와 자동으로 공유됩니다.
 * GenStudio for Performance Marketing에서 GenStudio 레코드를 편집하면 Workfront의 모든 인스턴스에 변경 사항이 GenStudio 작업 공간에 표시됩니다.
 * Workfront Planning의 GenStudio 작업 영역에서 활성화 레코드를 만들거나 삭제할 수 없습니다.
 * Planning에서 GenStudio 작업 영역에 대한 관리 또는 기여 권한이 있는 경우 Workfront Planning에서 다음을 수행할 수 있습니다.
@@ -313,12 +315,10 @@ GenStudio 레코드 유형 필드에 대해 다음 사항을 고려하십시오.
 
      >[!TIP]
      >
-     >Workfront Planning에서 생성된 필드는 GenStudio에 표시되지 않습니다.
+     >Workfront Planning에서 생성된 필드는 GenStudio 목록에 표시되지 않습니다.
 
    * Workfront Planning에서 GenStudio 레코드 유형의 표 보기에서 필드를 숨깁니다.
-&lt;!—* Workfront Planning에서 GenStudio 레코드 유형에 대해 Workfront Planning에 생성된 필드를 삭제합니다. — 이는 Iskuhi에 따라 가능하지 않습니다. 링크가 있지만 오류가 발생합니다—>
-
-  <!--this is not true: You cannot delete fields imported from GenStudio from Workfront Planning.-->
+   * Workfront Planning에서 GenStudio에 생성된 필드는 삭제할 수 없습니다.
 
 * Planning에서 GenStudio 작업 영역에 대한 기여 권한이 있는 경우:
 

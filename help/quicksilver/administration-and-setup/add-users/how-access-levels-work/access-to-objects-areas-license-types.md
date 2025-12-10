@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 22%
@@ -22,7 +22,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->이 문서의 정보는 새로운 액세스 수준에 적용됩니다. 기존 액세스 수준에 대한 자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하십시오.
+>이 문서의 정보는 현재 액세스 수준에 나와 있습니다. 기존 액세스 수준에 대한 자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하십시오.
 
 아래 표는 각 Adobe Workfront 라이선스에서 Workfront의 개체 및 영역에 대해 허용하는 가장 높은 수준의 액세스(편집 또는 보기)를 보여 줍니다.
 
