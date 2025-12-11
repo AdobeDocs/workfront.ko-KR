@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 22%
+source-wordcount: '468'
+ht-degree: 20%
 
 ---
 
 # 새 라이센스로 오브젝트 및 영역에 액세스
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -44,7 +46,7 @@ ht-degree: 22%
     <tr>
         <td>프로젝트</td>
         <td>편집</td>
-        <td>보기</td>
+        <td><span class="preview">편집 **</span></td>
         <td>보기</td>
         <td>액세스 권한 없음</td>
     </tr>
@@ -149,6 +151,8 @@ ht-degree: 22%
 </table>
 
 기여자 라이선스가 있는 &#42;명의 사용자는 공유된 보고서, 대시보드 및 캘린더만 볼 수 있습니다.
+
+Light 라이선스가 있는 <span class="preview">&#42;&#42; 사용자는 편집 액세스 권한이 활성화된 경우에만 프로젝트 수준에서 시간을 기록할 수 있습니다. 프로젝트를 생성, 편집, 삭제 또는 공유할 수 없습니다. Light 사용자의 기본 수준은 View입니다.</span>
 
 >[!NOTE]
 >
