@@ -7,9 +7,9 @@ description: 목록 또는 보고서의 보기를 관리하여 목록 또는 보
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -43,24 +43,41 @@ ht-degree: 0%
     </tr>
     <tr>
         <td><strong>애자일 보기</strong></td>
-        <td>프로젝트의 작업 섹션에 있는 작업 목록에 적용할 수 있습니다. 애자일 보기를 사용자 정의하고 다른 사용자와 공유할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Adobe Workfront에서 보기 만들기 또는 편집</a>을 참조하세요.</td>
+        <td>게시판 또는 애자일 보기를 프로젝트의 작업 섹션에 있는 작업 목록 또는 프로젝트의 문제 섹션에 있는 문제 목록에 적용할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">애자일 보기에서 프로젝트 관리</a>를 참조하십시오.</td>
     </tr>
     <tr>
         <td><strong>간트 보기</strong></td>
         <td>프로젝트의 작업 섹션에 있는 작업 목록, 프로젝트 목록에 적용하거나 작업 또는 프로젝트 보고서에 추가할 수 있습니다. 미리 정의된 기본 제공 옵션을 사용하여 간트 보기에서 볼 정보를 사용자 정의할 수 있습니다. 작업 또는 프로젝트를 볼 수 있는 액세스 권한이 있는 모든 사용자는 간트 보기에서 볼 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">간트 차트 시작</a>을 참조하세요.</td>
        </tr>
+
+<tr>
+        <td><strong>향상된 보기</strong></td>
+        <td>향상된 보기는 향상된 목록을 기반으로 합니다. Workfront의 일부 지역에서 사용할 수 있습니다. 이러한 목록은 목록 항목을 표시하기 위해 표 형식을 사용하며 표준 보기나 목록과는 다른 모양과 느낌을 가집니다. 필터링, 그룹화, 열 관리 및 검색을 포함한 보기 관리도 향상되었습니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md">향상된 목록 사용</a>을 참조하세요.</td>
+       </tr>    
 </table>
+
+
 
 <!--NOTE FOR MAYBE LATER: consider adding calendar and board views, or Milestone view (not customizable) to this list of views (above)?! -->
 
 ## 보기 공유
 
-보기를 공유하는 방법에 대한 자세한 내용은 [필터, 보기 또는 그룹화 공유](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)를 참조하십시오.
+표준 보기의 요소를 공유할 수 있습니다.
+
+표준 보기를 공유하는 방법에 대한 자세한 내용은 [필터, 보기 또는 그룹화 공유](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)를 참조하십시오.
+
+간트 및 애자일 보기는 공유할 수 없습니다. 이러한 보기가 표시되는 영역에 액세스할 수 있는 모든 사용자는 동일한 정보를 볼 수 있습니다.
+
+<!-- add something about the enhanced views here, when we have a link-->
 
 ## 보기 제거
 
 뷰 제거 기능은 처음에 뷰를 만들었는지 또는 뷰를 공유했는지 여부에 따라 다르게 작동합니다. 기본 보기는 제거할 수 없습니다.
 
-자세한 내용은 [필터, 보기 및 그룹화 제거](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)를 참조하십시오.
+간트 또는 애자일 보기는 제거할 수 없습니다.
+
+표준 보기 제거에 대한 자세한 내용은 [필터, 보기 및 그룹화 제거](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)를 참조하십시오.
+
+<!-- add something about the enhanced views here, when we have a link-->
 
 

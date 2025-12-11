@@ -6,10 +6,10 @@ description: 중복되거나 오류로 생성된 작업을 삭제할 수 있습�
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 2%
+source-wordcount: '810'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,37 +98,40 @@ ht-degree: 2%
 
 작업을 삭제하면 작업에 연결된 다른 오브젝트에 영향을 줍니다.
 
-작업을 삭제하면 작업에 첨부된 다음 개체도 삭제됩니다.
+다음 사항을 고려하십시오.
 
-* 문서
+* 작업을 삭제하면 작업에 첨부된 다음 개체도 삭제됩니다.
+
+   * 문서
 
   체크 아웃된 문서가 첨부된 작업은 삭제할 수 없습니다. 문서 체크 아웃에 대한 자세한 내용은 [문서 체크 아웃](../../../documents/managing-documents/check-out-documents.md)을 참조하십시오.
 
-* 문제
-* 하위 작업
-* 참고
-* 승인
+   * 문제
+   * 하위 작업
+   * 참고
+   * 승인
 
-Workfront 관리자가 Workfront 인스턴스의 타임시트 및 시간 환경 설정에서 프로젝트, 작업 또는 문제 삭제 환경 설정을 구성하는 방법에 따라, 작업을 삭제할 때 작업에 기록된 시간이 다음 중 한 방법으로 처리됩니다.
+* Workfront 관리자가 Workfront 인스턴스의 타임시트 및 시간 환경 설정에서 프로젝트, 작업 또는 문제 삭제 환경 설정을 구성하는 방법에 따라, 작업을 삭제할 때 작업에 기록된 시간이 다음 중 한 방법으로 처리됩니다.
 
-* 프로젝트로 이동하며 작업이 나중에 복원되는 경우 작업에 복원되지 않습니다.
-* 작업이 나중에 복원되면 삭제되고 작업에 복원됩니다.
+   * 프로젝트로 이동하며 작업이 나중에 복원되는 경우 작업에 복원되지 않습니다.
+   * 작업이 나중에 복원되면 삭제되고 작업에 복원됩니다.
 
   시간이 기록된 작업이 있는 프로젝트를 삭제하려고 할 때도 적용됩니다.
 
-  <!--
+  문제에 기록된 시간에 대한 삭제 환경 설정을 구성하는 방법에 대한 자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하십시오.
+   * 작업에 대한 경비가 프로젝트로 이동됩니다.
+
+   * 작업 또는 작업 승인에 할당된 사용자가 프로젝트 팀에 남아 있습니다.
+
+  프로젝트 팀에 대한 자세한 내용은 [프로젝트 팀 개요](../../../manage-work/projects/planning-a-project/project-team-overview.md)를 참조하십시오.
+
+* 하위 작업을 삭제하고 상위 작업을 다른 프로젝트로 이동한 다음 삭제된 하위 작업을 복원하면 작업이 원래 프로젝트에 주 작업으로 다시 추가됩니다.
+
+<!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
-
-  문제에 기록된 시간에 대한 삭제 환경 설정을 구성하는 방법에 대한 자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하십시오.
-
-* 작업에 대한 경비가 프로젝트로 이동됩니다.
-
-* 작업 또는 작업 승인에 할당된 사용자가 프로젝트 팀에 남아 있습니다.
-
-  프로젝트 팀에 대한 자세한 내용은 [프로젝트 팀 개요](../../../manage-work/projects/planning-a-project/project-team-overview.md)를 참조하십시오.
 
 ## 작업 삭제
 

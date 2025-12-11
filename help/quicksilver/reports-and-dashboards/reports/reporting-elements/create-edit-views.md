@@ -6,10 +6,10 @@ description: 보기를 사용하여 화면에 표시할 정보 유형을 사용�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 1%
+source-wordcount: '898'
+ht-degree: 4%
 
 ---
 
@@ -19,11 +19,13 @@ ht-degree: 1%
 
 보기를 사용하여 화면에 표시할 정보 유형을 사용자 정의할 수 있습니다. Adobe Workfront에서 여러 유형의 보기를 사용할 수 있습니다.
 
-이 문서에서는 목록 및 보고서에 대한 표준 보기를 만들고 편집하는 방법과 애자일 보기를 만드는 방법을 설명합니다. 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
+이 문서에서는 목록 및 보고서에 대한 표준 보기를 만들고 편집하는 방법에 대해 설명합니다.
+
+자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +60,7 @@ ht-degree: 1%
 
 ## 보기 만들기 또는 사용자 지정
 
-표준 보기를 작성하는지 또는 애자일 보기를 작성하는지 여부에 따라 보기를 작성하거나 사용자 정의하는 프로세스가 다릅니다.
+뷰를 만들거나 사용자 정의하는 프로세스는 표준 뷰, 애자일 뷰 또는 보드 뷰를 만들거나 사용자 정의하는지에 따라 다릅니다.
 
 * [표준 보기 만들기 또는 사용자 지정](#create-or-customize-a-standard-view)
 * [애자일 보기 만들기 또는 사용자 지정](#create-or-customize-an-agile-view)
@@ -161,115 +163,116 @@ ht-degree: 1%
 
 ### 애자일 보기 만들기 또는 사용자 지정 {#create-or-customize-an-agile-view}
 
-애자일 보기를 만들거나 이전에 만든 기존 애자일 보기를 사용자 정의할 수 있습니다.
+보드 보기 라고도 하는 애자일 보기는 프로젝트의 작업 및 문제 목록에 대해서만 표시됩니다.
 
->[!IMPORTANT]
->
->애자일 보기는 프로젝트를 볼 때만 사용할 수 있습니다.
+사전 구성되어 있지만 특정 설정을 수정할 수 있습니다.
 
-애자일 보기에 대한 자세한 내용은 문서 [애자일 보기에서 프로젝트 관리](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)를 참조하십시오.
+애자일 또는 게시판 보기에 대한 자세한 내용은 문서 [애자일 보기에서 프로젝트 관리](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)를 참조하십시오.
+
+<!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >
->이 절차는 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.
+>This procedure only applies to the legacy Agile view, not to the board view of a project.
 
-애자일 보기를 생성하거나 사용자 정의하려면
+To create or customize an Agile view:
 
-1. 프로젝트의 작업 목록으로 이동합니다.
-1. **게시판** 아이콘 ![게시판 아이콘](assets/board-icon-for-agile-view.png)을 클릭한 다음 게시판 보기에서 **기존 애자일 사용**&#x200B;을 클릭합니다.
+1. Go to the list of tasks on a project.
+1. Click the **Board** icon ![Board icon](assets/board-icon-for-agile-view.png), and then click **Use legacy agile** on the board view.
 
-1. (조건부) 기존 애자일 보기를 사용자 정의하려면 다음을 수행합니다.
+1. (Conditional) To customize an existing Agile view:
 
-   1. **보기** 드롭다운 메뉴를 클릭한 다음 사용자 지정할 애자일 보기를 선택합니다.\
-      기본 애자일 보기는 사용자 정의할 수 없습니다.
+   1. Click the **View** drop-down menu, then select the Agile view you want to customize.  
+      You cannot customize the default Agile view.
+   
+   1. Click the **View** drop-down menu again, then click **Customize View**.  
+      ![Customize view](assets/view-agile-customize.png)
 
-   1. **보기** 드롭다운 메뉴를 다시 클릭한 다음 **보기 사용자 지정**&#x200B;을 클릭합니다.\
-      ![보기 사용자 지정](assets/view-agile-customize.png)
+1. (Conditional) To create a new Agile view, click **New View**.  
+   The **Customize Agile View** dialog box displays.  
 
-1. (조건부) 새 애자일 보기를 만들려면 **새 보기**&#x200B;를 클릭합니다.\
-   **애자일 보기 사용자 지정** 대화 상자가 표시됩니다.
+1. In the **Customize Agile View** dialog box, specify a name for the Agile view.  
+   We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.  
+   This name is displayed in the **View** drop-down menu when selecting a view.
 
-1. **애자일 보기 사용자 지정** 대화 상자에서 애자일 보기의 이름을 지정합니다.\
-   사용자가 이것이 애자일 보기임을 알 수 있도록 보기 이름에 &quot;애자일&quot;이라는 단어를 포함하는 것이 좋습니다.\
-   보기를 선택하면 **보기** 드롭다운 메뉴에 이 이름이 표시됩니다.
+1. Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. 애자일 보기의 스토리 보드에 표시할 상태 열을 정의합니다. [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)에 설명된 대로 Workfront 관리자가 정의한 작업 상태입니다.
+   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
 
-   애자일 스토리 보드에서는 시스템 상태만 사용할 수 있습니다. 구성원인 개별 그룹에 대해서만 상태를 사용할 수 있는 경우 애자일 스토리 보드에서 상태를 사용할 수 없습니다. 또한 사용자 정의 그룹에만 사용할 수 있는 상태의 작업은 애자일 보기에서 프로젝트를 볼 때 표시되지 않습니다.
-
-   사용자는 애자일 스토리 보드에서 이러한 상태 열 간에 스토리를 이동할 수 있습니다.\
-   상태 열을 정의할 때 다음을 수행할 수 있습니다.
+   Users can move stories among these status columns on the Agile story board.  
+   When defining status columns, you can do the following:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>상태 열 순서 바꾸기:</strong> </td> 
-      <td> 상태 열을 표시하려는 순서로 드래그합니다.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
+      <td role="rowheader"><strong>Reorder status columns:</strong> </td> 
+      <td> Drag a status column to the order where you want it to appear.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>상태 열 제거:</strong> </td> 
-      <td>제거할 열의 (x) 아이콘을 클릭합니다.<br>사용자 지정 상태가 보기에 추가되어 있고 해당 사용자 지정 상태가 "새로 만들기"와 같지 않으면 "새로 만들기" 상태를 제거할 수 없습니다.<br>사용자 지정 상태 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">상태 만들기 또는 편집</a>을 참조하세요.</td> 
+      <td role="rowheader"><strong>Remove status columns:</strong> </td> 
+      <td>Click the (x) icon on the column that you want to remove.<br>You cannot remove the "New" status unless a custom status has been added to the view and that custom status equates with "New."<br>For information about creating a custom status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>상태 열 추가:</strong> </td> 
-      <td> <p><strong>더하기</strong> 아이콘을 클릭한 다음 추가할 상태를 선택합니다.<br>모든 기본 시스템 상태와 사용자와 공유된 사용자 지정 상태가 표시됩니다.<br>표시할 상태를 최대 10개까지 구성할 수 있습니다.</p></td> 
+      <td role="rowheader"><strong>Add status columns:</strong> </td> 
+      <td> <p>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-   <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
-       -->
+   *********   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
+       *************
 
-1. **카드 색상을**&#x200B;과(와) 연결 영역에서 다음 옵션 중 하나를 선택하십시오.
+1. In the **Associate Card Color to** area, select from the following options:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>스토리:</strong> </td> 
-      <td>모든 하위 작업은 상위 작업의 색상과 일치하므로 주어진 수영장에 있는 모든 스토리의 색상은 동일합니다.<br>작업에 하위 작업이 없거나 상위 작업이 없는 경우 작업이 만들어지면 작업에 색상이 임의로 할당됩니다.</td> 
+      <td role="rowheader"><strong>Story:</strong> </td> 
+      <td>Any subtasks match the color of the parent task, so that the colors of all stories in any given swimlane are the same.<br>Colors are randomly assigned to tasks when they are created if the task does not have any subtasks or does not have a parent task.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>자유 형식:</strong> </td> 
-      <td> 사용자가 색상을 수동으로 변경할 때까지 문서 <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">스크럼 보드에서 색상별로 스토리 분류</a>에 설명된 대로 모든 카드는 기본적으로 파란색으로 표시됩니다. </td> 
+      <td role="rowheader"><strong>Free Form:</strong> </td> 
+      <td> All cards are displayed as blue by default until a user changes the color manually, as described in the article <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Categorize stories by color on the Scrum board</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>우선 순위:</strong> </td> 
-      <td> <p> 색상은 다음과 같이 스토리 우선 순위와 연결됩니다.</p> 
+      <td role="rowheader"><strong>Priority:</strong> </td> 
+      <td> <p> Colors are associated with the story priority, as follows:</p> 
        <ul> 
-        <li>높음 = 빨간색</li> 
-        <li>Medium = 노란색</li> 
-        <li>낮음 = 녹색<br>Workfront 관리자가 Workfront 시스템에 대해 사용자 지정 우선 순위를 구성한 경우, 가장 높은 우선 순위는 빨간색이고 두 번째 높은 우선 순위는 노란색이며 나머지 우선 순위는 녹색입니다.</li> 
+        <li>High = Red</li> 
+        <li>Medium = Yellow</li> 
+        <li>Low = Green<br>If your Workfront administrator has configured custom priorities for your Workfront system, the highest priority is red, the second-highest is yellow, and the remaining are green.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>작업 소유자:</strong> </td> 
-      <td> 기본 할당자가 동일한 모든 스토리의 색은 동일합니다.<br>기본 피할당자는 작업에 처음 할당된 사용자입니다. </td> 
+      <td role="rowheader"><strong>Task Owner:</strong> </td> 
+      <td> All stories with the same primary assignee are the same color.<br>The primary assignee is the user who was first assigned to the task. </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. **추가 필드** 영역에서 **필드 추가**&#x200B;를 클릭한 다음 스토리 카드에 추가할 필드를 선택합니다. (이는 보기를 사용자 정의하거나 보고서에 대한 열을 만들 때 추가할 수 있는 필드와 동일합니다.)\
-   이 프로세스를 반복하여 스토리 카드에 최대 3개의 추가 필드를 추가합니다.\
-   스토리 카드에 필드를 추가할 때 필드는 보기 전용이며 필드가 채워질 때만 표시됩니다.
+1. In the **Additional Fields** area, click **Add Field**, then select the field you want to add to story cards. (These are the same fields you can add when creating customizing a view or creating columns for a report.)  
+   Repeat this process to add up to three additional fields to the story cards.  
+   When you add fields to story cards, fields are view-only and display only when the field is populated.
 
-   기본적으로 스토리 카드에는 다음 유형의 데이터가 표시됩니다.
+   By default, the following types of data is displayed on the story card:
 
-   * 작업에 직접 연결된 링크가 있는 스토리 이름
-   * 프로젝트에 직접 연결되는 링크가 있는 프로젝트 이름\
-     이 링크는 반복에서 애자일 보기를 사용할 때만 표시되고, 프로젝트에서 애자일 보기를 사용할 때는 표시되지 않습니다.
-   * 작업 설명
-   * 현재 약정
-   * 완료율 자체를 조정하거나 완료된 점수 또는 시간을 조정하여 완료율을 조회 및 편집합니다.
-   * 할당된 사용자
+   * Story name with a link directly to the task
+   * The project name with a link directly to the project  
+     This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.
+   * The task description
+   * Current commitment
+   * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete
+   * Assigned Users
 
-   스토리 카드에 추가 데이터(사용자 정의 데이터 포함)를 표시할 수 있습니다. 여러 가지 이유로 스토리 카드에 추가 필드를 표시할 수 있습니다. 예를 들어, 프로젝트 내에서 여러 고객에 대한 스토리를 작업하는 경우 고객 ID를 표시하거나 작업 시작 날짜를 표시할 수 있습니다.
+   You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the project, or you might want to display the Task Start Date.
 
-1. **저장**&#x200B;을 클릭합니다.\
-   액세스 권한에 따라 보기가 저장되는 방법이 결정됩니다. 원래 뷰를 생성한 경우 변경 사항을 저장할 수 있습니다. 그렇지 않으면 버전을 저장하라는 메시지가 표시됩니다. 보기에 대한 변경 내용은 보기가 공유된 사용자에게 영향을 줍니다.
+1. Click **Save**.  
+   Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
-1. (선택 사항) 작업 목록으로 돌아가려면 **목록** 아이콘을 클릭합니다.
+1. (Optional) Click the **List** icon to return to the list of tasks.
+
+-->

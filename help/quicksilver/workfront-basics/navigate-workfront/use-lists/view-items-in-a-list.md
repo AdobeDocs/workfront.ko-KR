@@ -5,16 +5,16 @@ description: ' [!DNL Adobe Workfront] 에서 개체 목록을 보고 해당 개�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2301'
 ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Workfront]의 목록 시작
 
-<!--Audited: 11/2024-->
+<!--Audited: 12/2025-->
 
 [!DNL Adobe Workfront]의 개체 목록을 보고 해당 개체의 시작 날짜와 기한, 해당 개체에 할당된 사용자, 해당 개체와 연결된 다른 개체 등 해당 개체에 대한 정보를 얻을 수 있습니다.
 
@@ -206,7 +206,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>타임시트 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 타임시트] s &gt; [!UICONTROL 모든 타임시트]*</p> </li> 
+     <li> <p>[!UICONTROL 타임시트] &gt; [!UICONTROL 모든 타임시트]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -293,7 +293,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  </tbody> 
 </table>
 
-지정된 영역의 목록은 사용자 지정할 수 없습니다. [!DNL Workfront] 관리자는 시스템 수준에서 사용자 지정된 목록을 만들 수 있습니다. 또는 액세스 수준에 따라 보고서를 편집할 수 있는 액세스 권한이 있는 경우 이 개체에 대한 보고서를 만들 수 있습니다.
+*지정된 영역의 목록은 사용자 지정할 수 없습니다. [!DNL Workfront] 관리자는 시스템 수준에서 사용자 지정된 목록을 만들 수 있습니다. 또는 액세스 수준에 따라 보고서를 편집할 수 있는 액세스 권한이 있는 경우 이 개체에 대한 보고서를 만들 수 있습니다.
 
 ## 목록 요소
 
@@ -649,25 +649,19 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
   </tr> 
   <tr>
   <td> <p>기본적으로 <strong>모두</strong> 또는 최대 <strong>2,000</strong>개 항목 표시</p> </td> 
-   <td> 기본적으로 최대 100개의 항목을 표시하고 스크롤한 후에는 최대 2000개까지 표시합니다. </td> 
+   <td> 수동으로 스크롤한 후 목록의 모든 항목 표시 </td> 
   </tr>
 
 <tr> 
-   <td>목록의 맨 위에 있는 아이콘은 액세스 위치에 관계없이 모든 목록에서 어느 정도 일관됩니다. 일부 목록, 작업, 문제 또는 문서에는 이러한 객체 유형의 기능과 관련된 고유한 아이콘이 있습니다. </td> 
-   <td>목록의 맨 위에 있는 아이콘은 목록에 액세스하는 위치에 따라 다릅니다. 또한 목록에서 항목을 선택할 때 표시되는 목록의 맨 아래에 파란색 막대가 있습니다.</td> 
+   <td>목록의 항목과 상호 작용하는 것은 모든 오브젝트 유형에서 일관되며 목록 맨 위에 있는 아이콘을 사용하여 수행됩니다.  </td> 
+   <td>목록의 항목과 상호 작용하는 방법은 개체 유형에 따라 다를 수 있으며 목록 맨 위에 있는 아이콘과 목록 항목을 선택한 후 활성화된 파란색 도구 모음을 사용하여 수행됩니다. </td> 
   </tr>
 
-<tr> 
-   <td> <p>목록 상단의 도구 모음에 있는 아이콘을 사용하여 목록의 항목과 상호 작용할 수 있습니다</p> </td> 
-   <td> <p>업데이트할 항목에 따라 다음 중 하나를 수행하여 목록의 항목과 상호 작용합니다.</p>
-   <ul><li>검색, 새 항목 추가, 정렬 또는 필터링과 같은 일부 작업에 대해 맨 위에 있는 도구 모음의 아이콘을 사용합니다</li>
-   <li>목록에서 항목을 선택하고 목록 하단의 파란색 도구 모음의 아이콘을 사용하여 항목 삭제 또는 보기 등의 작업을 수행할 수 있습니다</li></ul> 
-   </tr>   
-   </td> 
+</td> 
   </tr> 
   <tr> 
    <td><p>목록의 항목에 셀 색상 변경을 적용할 수 있습니다</p></td>
-   <td><p>Workfront Planning에서만 목록의 항목에 셀 색상 변경 사항을 적용할 수 있습니다. </p></td>
+   <td><p>목록의 항목에는 셀 색상 변경 사항을 적용할 수 없습니다. </p></td>
    </td> 
    <td></td> 
   </tr> 
