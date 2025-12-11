@@ -5,9 +5,9 @@ description: AI를 사용하여 프롬프트를 입력하거나 문서를 제공
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
+source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1351'
 ht-degree: 3%
 
 ---
@@ -16,12 +16,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->* 이 기능은 다음 일정에 따라 공개 베타로 사용할 수 있습니다.
->
->   * 월별 릴리스: 2025년 9월 11일
->   * 분기별 릴리스: 2025년 10월 16일
->
->* 이 기능을 사용하려면 조직이 Workfront AI Assistant를 사용하기 위한 요구 사항을 충족해야 합니다. 자세한 내용은 [AI Assistant의 필수 구성 요소](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)를 참조하십시오.
+>이 기능을 사용하려면 조직이 Workfront AI Assistant를 사용하기 위한 요구 사항을 충족해야 합니다. 자세한 내용은 [AI Assistant의 필수 구성 요소](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)를 참조하십시오.
 
 AI 양식 채우기는 입력한 프롬프트에 따라 요청 필드를 자동 채우는 데 도움이 됩니다. 또한 업로드된 문서와 같은 텍스트를 기반으로 필드를 채울 수도 있습니다. 요청을 제출하기 전에 이러한 제안을 승인하거나 거부할 수 있습니다.
 

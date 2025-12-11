@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
+source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -69,7 +69,9 @@ Workfront 관리자는 조직이 Adobe 통합 경험으로 이동하는 날짜�
 
 자세한 내용은 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하십시오.
 
-[이 기능에 대한 비디오 데모를 봅니다.향상된 목록에 대한 &#x200B;](https://video.tv.adobe.com/v/3412388/){target=_blank}## 업데이트
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+
+## 향상된 목록 업데이트
 
 >[!NOTE]
 >

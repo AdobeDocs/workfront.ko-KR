@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: 1e830ccb4e87c231f57ae39e59988bb261737188
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,37 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## GenStudio 작업 영역에서 기본적으로 제품 및 성향에 브랜드 연결 필드 추가
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 11일
+>프로덕션 빠른 릴리스: 2025년 12월 11일
+>모두를 위한 프로덕션: 2025년 12월 11일
+
+이제 GenStudio for Performance Marketing Brand와의 연결 필드가 Workfront Planning의 GenStudio 작업 영역에서 제품 및 가상 사용자 레코드 유형에 기본적으로 추가됩니다.
+
+조직에 Workfront Planning과 Adobe GenStudio for Performance Marketing이 모두 있어야 합니다.
+
+이 개선 이전에는 Brand Connection 필드를 제품 및 가상 사용자를 비롯한 모든 레코드 유형에 수동으로만 추가할 수 있었습니다. Brand GenStudio 레코드 유형을 Workfront Planning의 다른 레코드 유형에 수동으로 연결할 수 있습니다.
+
+자세한 내용은 [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
+
+## Planning에서 GenStudio for Performance Marketing 사용자의 권한 제거 제한
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 11일
+>프로덕션 빠른 릴리스: 2025년 12월 11일
+>모두를 위한 프로덕션: 2025년 12월 11일
+
+Workfront Planning 오브젝트에서 GenStudio for Performance Marketing 사용자의 권한을 제거할 수 없도록 하는 가드레일을 추가했습니다. 이러한 개선 사항으로 인해 Planning의 GenStudio 작업 영역에서 GenStudio 사용자를 더 이상 제거할 수 없으며, GenStudio 작업 영역의 레코드 유형에 GenStudio 사용자가 포함된 경우 해당 레코드 유형에 대해 상속된 권한을 비활성화할 수 없습니다. 이 개선 전에 Planning의 GenStudio 작업 영역에서 이러한 사용자를 제거하면 GenStudio의 레코드 유형에도 대한 권한이 상실됩니다.
+
+조직에 Workfront Planning과 Adobe GenStudio for Performance Marketing이 모두 있어야 합니다.
+
+자세한 내용은 [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
+
 
 ## 보조 작업 영역에서 글로벌 레코드 유형에 대한 보기의 공개 공유가 제거됨
 

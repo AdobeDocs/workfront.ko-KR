@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 1분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '2108'
 ht-degree: 4%
 
 ---
@@ -40,6 +40,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [관리자 개선 사항](#administrator-enhancements)
 * [문서 및 승인 개선 사항](#documents-and-approvals-enhancements)
 * [통합 개선 사항](#integration-enhancements)
+* [프로젝트 개선 사항](#project-enhancements)
 * [보고 개선 사항](#reporting-enhancements)
 * [요청 개선 사항](#requests-enhancements)
 * [기타 개선 사항](#other-enhancements)
@@ -149,6 +150,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+### 프로젝트 개선 사항
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>기능</strong>
+        </td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-projects.md" class="MCXref xref" xrefformat="{para}">일반 사용자가 프로젝트에 시간을 기록할 수 있음</a>
+            <p>이제 일반 사용자가 프로젝트에 직접 시간을 기록할 수 있습니다. 이전에는 표준 라이선스 사용자만 프로젝트에 시간을 기록할 수 있었습니다.</p>
+        </td>
+        <td>2025년 12월 11일 금요일</td>
+        <td>2026년 1월 15일 금요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr>   
+  </tbody>
+</table>
+
 ### 보고 개선 사항
 
 <table style="table-layout:auto">
@@ -224,6 +248,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>분기별</strong></td>
     </tr>
     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">AI에서 제공하는 양식 채우기를 이제 요청에 사용할 수 있음</a>
+            <p>요청을 더 쉽게 만들 수 있도록 AI에서 제공하는 양식 채우기를 만들었습니다. 이제 프롬프트에 붙여넣거나 요청 양식에 문서를 업로드할 수 있으며 AI가 관련 정보를 꺼내 양식을 채웁니다.  </p>
+        </td>
+        <td>2025년 12월 11일 금요일</td>
+        <td>2025년 12월 11일 금요일</td>
+        <td>2025년 12월 11일 금요일</td>
+    </tr> 
+    <tr>
         <!--<td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
             <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
@@ -295,6 +328,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>2025년 11월 13일 금요일</td>
         <td>2026년 1월 15일 금요일</td>
              </tr>   
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">이제 더 많은 Workfront 조직에서 Adobe 통합 환경을 사용할 수 있습니다</a><p></p>
+            <p>조직이 Adobe 통합 경험의 이점을 이용할 수 있도록 하기 위해 기존 Workfront 고객이 이를 사용할 수 있도록 계속 노력하고 있습니다.</p>
+        </td>
+        <td><p>2025년 12월 11일 금요일</p></td>
+        <td><p>2026년 1월 15일 금요일</p></td>
+        <td><p>2026년 1월 15일 금요일</p></td>
+    <tr>
             </tbody>
         </table>
 
@@ -330,6 +372,16 @@ Workfront Planning의 새로운 기능은 프로덕션에서 사용할 수 있�
 * 목표
 
 ## 데스크톱 증명 뷰어 업데이트
+
+### 버전 2.1.54
+
+**모든 고객을 위한 프로덕션 릴리스: 2025년 12월 11일**
+
+Desktop Proofing Viewer가 2.1.52에서 2.1.54로 업데이트되었습니다. 이 업데이트에는 내부 도구 업데이트가 포함되었으며 최종 사용자 기능에는 영향을 주지 않았습니다.
+
+2.1.53 버전에는 내부 공구 설비 변경 사항도 포함되어 있습니다.
+
+이 업데이트는 Mac 및 Windows 모두에 해당됩니다.
 
 ### 버전 2.1.52
 
@@ -380,13 +432,13 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
