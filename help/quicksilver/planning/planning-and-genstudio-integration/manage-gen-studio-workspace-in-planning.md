@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1384'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -208,7 +208,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->GenStudio 작업 영역을 관리하기 전에 문서 [Workfront 계획 및 GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
+>GenStudio 작업 영역을 관리하기 전에 문서 [Adobe Workfront 계획 및 Adobe GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
 >
 
 1. GenStudio에 액세스할 수 있는 사용자로 Workfront에 로그인합니다.
@@ -263,7 +263,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->GenStudio 작업 영역을 관리하기 전에 문서 [Workfront 계획 및 GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
+>GenStudio 작업 영역을 관리하기 전에 문서 [Adobe Workfront 계획 및 Adobe GenStudio for Performance Marketing 통합 시작](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)을 참조하십시오.
 >
 
 1. 이 문서의 [GenStudio Planning에서 GenStudio 작업 영역 관리](#manage-the-genstudio-workspace-from-workfront-planning) 섹션에 설명된 대로 Workfront Planning의 Workfront 작업 영역으로 이동하여 레코드 유형 페이지를 엽니다.
@@ -367,29 +367,24 @@ CAN YOU DO THIS??
       * Workfront Planning 레코드 세부 정보
       * GenStudio 레코드 세부 정보
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >Workfront Planning에서 생성된 필드는 GenStudio의 목록 보기에 표시되지 않습니다.
-
-     <!--when this releases, replace the tip above with this: 
-      
-      >[!NOTE]
-      >
-      >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
-      >
-      >* You can connect any GenStudio record type to the Brands GenStudio record type. 
-      >  Products and Personas are connected to Brands by default. -->
+     >* Workfront Planning에서 생성된 필드는 GenStudio의 목록 보기에 표시되지 않습니다.
+     >
+     >* 모든 GenStudio 레코드 유형을 브랜드 GenStudio 레코드 유형에 연결할 수 있습니다.
+     >  제품 및 가상 사용자는 기본적으로 브랜드에 연결됩니다.
 
 1. 테이블 보기의 필드 위로 마우스를 가져간 다음 드롭다운 메뉴를 클릭하여 다음 중 하나를 수행합니다.
 
    * 정렬 기준:
    * 숨기기
    * 설정 편집
-     <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
-     <!--GenStudio-native fields are note removed from GenStudio. -->
+   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
-     >[!NOTE]
-     >
-     >GenStudio에서 관리 권한이 있는 경우에만 필드의 구성을 편집하고 필드를 추가할 수 있습니다.
+   <!--GenStudio-native fields are note removed from GenStudio. -->
+
+   >[!NOTE]
+   >
+   >GenStudio에서 관리 권한이 있는 경우에만 필드의 구성을 편집하고 필드를 추가할 수 있습니다.
 

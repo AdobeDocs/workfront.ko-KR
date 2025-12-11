@@ -5,10 +5,10 @@ description: ' [!DNL Adobe Workfront] 에서 개체 목록을 보고 해당 개�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '2275'
-ht-degree: 0%
+source-wordcount: '2405'
+ht-degree: 2%
 
 ---
 
@@ -29,9 +29,16 @@ ht-degree: 0%
 
   시스템 수준 목록 만들기에 대한 자세한 내용은 문서 [기본 필터, 보기, 그룹화 만들기, 편집 및 공유](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)를 참조하십시오.
 
+* 다음은 Workfront의 목록 유형입니다.
+
+   * 표준 목록
+   * 향상된 목록
+
+  자세한 내용은 이 문서에서 [표준 목록과 향상된 목록의 차이점](#the-difference-between-the-standard-and-the-enhanced-lists) 섹션을 참조하십시오.
+
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -99,8 +106,8 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 >[!NOTE]
 >
->* 이 목록은 포괄적이지 않습니다. 이러한 각 객체 목록은 보고서나 대시보드에도 표시될 수 있습니다. 예를 들어 프로젝트 보고서나 프로젝트 보고서가 포함된 대시보드에는 프로젝트 목록도 표시됩니다.
->* 이 목록에서 &quot;선택&quot;은 이름의 왼쪽에 있는 확인란이 아니라 항목의 이름을 클릭해야 함을 의미합니다.
+>이 목록은 포괄적이지 않습니다. 이러한 각 객체 목록은 보고서나 대시보드에도 표시될 수 있습니다. 예를 들어 프로젝트 보고서나 프로젝트 보고서가 포함된 대시보드에는 프로젝트 목록도 표시됩니다.
+
 
 
 <table style="table-layout:auto"> 
@@ -124,7 +131,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>프로그램 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL 포트폴리오 선택] &gt;[!UICONTROL 프로그램]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL 포트폴리오 클릭] &gt;[!UICONTROL 프로그램]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL 프로그램]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -133,26 +140,26 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL 프로젝트]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL 포트폴리오 선택] &gt;[!UICONTROL 프로젝트]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL 포트폴리오 선택] &gt;[!UICONTROL 프로그램] &gt;[!UICONTROL 프로그램 선택] &gt;[!UICONTROL 프로젝트]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL 포트폴리오 클릭] &gt;[!UICONTROL 프로젝트]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL 포트폴리오 클릭] &gt;[!UICONTROL 프로그램] &gt;[!UICONTROL 프로그램 클릭] &gt;[!UICONTROL 프로젝트]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>작업 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt; [!UICONTROL 작업]</p> </li> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 선택] &gt;[!UICONTROL 하위 작업]</p> </li> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 선택] &gt; [!UICONTROL 전임 작업*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL 프로젝트 클릭] &gt; [!UICONTROL Tasks]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 클릭] &gt;[!UICONTROL 하위 작업]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 클릭] &gt; [!UICONTROL 전임 작업*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>문제 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 프로젝트] &gt; [!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 문제]</p> </li> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 선택] &gt; [!UICONTROL 문제]</p> </li> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 선택] &gt;[!UICONTROL 하위 작업] &gt;[!UICONTROL 작업 선택] &gt; [!UICONTROL 문제]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt; [!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 문제]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 클릭] &gt; [!UICONTROL 문제]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 클릭] &gt;[!UICONTROL 하위 작업] &gt;[!UICONTROL 작업 클릭] &gt; [!UICONTROL 문제]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -188,11 +195,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL 문서]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL 포트폴리오 선택] &gt; [!UICONTROL 문서]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL 포트폴리오 선택] &gt;[!UICONTROL 프로그램] &gt;[!UICONTROL 프로그램 선택] &gt;[!UICONTROL 문서]</p> </li> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 문서]</p> </li> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 선택] &gt; [!UICONTROL 문서]</p> </li> 
-     <li> <p>[!UICONTROL 프로젝트] &gt; [!UICONTROL 선택] 프로젝트 &gt; [!UICONTROL 문제] &gt;[!UICONTROL 문제 선택] &gt; [!UICONTROL 문서]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL 포트폴리오 클릭] &gt; [!UICONTROL 문서]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL 포트폴리오 클릭] &gt;[!UICONTROL 프로그램] &gt;[!UICONTROL 프로그램 클릭] &gt;[!UICONTROL 문서]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 문서]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 클릭] &gt; [!UICONTROL 문서]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt; [!UICONTROL 프로젝트 클릭] &gt; [!UICONTROL 문제] &gt;[!UICONTROL 문제 클릭] &gt; [!UICONTROL 문서]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -206,38 +213,38 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>청구 요금 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 청구 요금*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 청구 요금*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>청구 기록 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 프로젝트] &gt; [!UICONTROL 프로젝트 선택] &gt; [!UICONTROL 청구 기록]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL 프로젝트 클릭] &gt; [!UICONTROL 청구 기록]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>위험 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 위험]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 위험]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>경비 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 경비]</p> </li> 
-     <li> <p>[!UICONTROL 프로젝트] &gt; [!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 선택] &gt;[!UICONTROL 경비]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt; [!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 클릭] &gt;[!UICONTROL 경비]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>시간 항목 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택]</p> </li> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 선택] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 선택] &gt;[!UICONTROL 시간]</p> </li> 
-     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 선택] 프로젝트 &gt;[!UICONTROL 문제] &gt;[!UICONTROL 선택] 문제 &gt;[!UICONTROL 시간]</p> </li>
+     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 클릭]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 클릭] &gt;[!UICONTROL 시간]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 클릭] 프로젝트 &gt;[!UICONTROL 문제] &gt;[!UICONTROL 클릭] 문제 &gt;[!UICONTROL 시간]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
@@ -252,7 +259,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups]</p> </li>
-     <li> <p>[!UICONTROL 설정] &gt;[!UICONTROL 그룹] &gt;[!UICONTROL 상위 그룹] &gt;[!UICONTROL 하위 그룹] 선택 </li> 
+     <li> <p>[!UICONTROL 설정] &gt;[!UICONTROL 그룹] &gt;[!UICONTROL 상위 그룹] &gt;[!UICONTROL 하위 그룹] 클릭 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -309,7 +316,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>[!UICONTROL Filter]</strong></td> 
+   <td><strong>[!UICONTROL 필터]</strong></td> 
    <td> <p>필터는 지정한 기준에 따라 불필요한 정보를 목록에서 제거합니다. </p> <p>자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">필터 개요</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
@@ -600,11 +607,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  </tbody> 
 </table>
 
-필터, 보기 및 그룹화를 만들 수 있으려면 액세스 권한이 있어야 합니다. 자세한 내용은 [필터, 보기 및 그룹화에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)를 참조하십시오.
+*필터, 보기 및 그룹화를 만들려면 액세스 권한이 있어야 합니다. 자세한 내용은 [필터, 보기 및 그룹화에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)를 참조하십시오.
 
-필터, 보기 및 그룹뿐만 아니라 보고서, 대시보드 및 달력에 대한 액세스 권한이 있어야 만들 수 있습니다. 자세한 내용은 [보고서, 대시보드 및 일정에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)를 참조하십시오.
+**필터, 보기, 그룹뿐만 아니라 보고서, 대시보드 및 달력에 액세스할 수 있어야 만들 수 있습니다. 자세한 내용은 [보고서, 대시보드 및 일정에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)를 참조하십시오.
 
-보고서 작성자가 대시보드에 표시되도록 목록 요소를 구성한 경우에만 대시보드에 배치된 보고서의 목록을 사용자 지정할 수 있습니다.
+***보고서 작성자가 대시보드에 표시되도록 목록 요소를 구성한 경우에만 대시보드에 배치된 보고서의 목록을 사용자 지정할 수 있습니다.
 
 >[!NOTE]
 >
@@ -612,46 +619,88 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 보고서 작성에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오. 사용자 지정 섹션 만들기에 대한 자세한 내용은 [사용자 지정 탭 또는 섹션 만들기](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)를 참조하십시오.
 
-## 업데이트된 목록과 기존 목록의 차이점
+## 표준 목록과 향상된 목록 간의 차이점
 
 [!DNL Workfront]에는 두 가지 유형의 목록이 있습니다.
 
-* 레거시 목록
+* 표준 목록
 
-  ![파란색 그룹화](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![표준 프로젝트 목록](assets/standard-list-screen-shot-gray-groupings.png)
 
-* 업데이트된 목록
+* 향상된 목록
 
-  ![회색 그룹화](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![향상된 목록](assets/enhanced-status-list.png)
 
-다음 표는 [!DNL Workfront]의 기존 목록과 업데이트된 목록의 몇 가지 차이점을 보여 줍니다.
+고급 목록의 기능은 액세스하는 페이지에 따라 다릅니다.
 
-<!--
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
--->
+향상된 목록에 대한 자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요.
+
+
+
+다음 표는 [!DNL Workfront]의 표준 목록과 향상된 목록 간의 몇 가지 차이점을 보여 줍니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><b>레거시 목록</b></td> 
-   <td><b>업데이트된 목록</b></td> 
+   <td><b>표준 목록</b></td> 
+   <td><b>향상된 목록</b></td> 
   </tr> 
-  <td> <p>기본적으로 <strong>100</strong>개 항목 표시</p> </td> 
-   <td> <p>기본적으로 <strong>모두</strong> 또는 최대 <strong>2,000</strong>개 항목 표시</p> </td> 
+  <tr>
+  <td> <p>기본적으로 <strong>모두</strong> 또는 최대 <strong>2,000</strong>개 항목 표시</p> </td> 
+   <td> 기본적으로 최대 100개의 항목을 표시하고 스크롤한 후에는 최대 2000개까지 표시합니다. </td> 
+  </tr>
+
+<tr> 
+   <td>목록의 맨 위에 있는 아이콘은 액세스 위치에 관계없이 모든 목록에서 어느 정도 일관됩니다. 일부 목록, 작업, 문제 또는 문서에는 이러한 객체 유형의 기능과 관련된 고유한 아이콘이 있습니다. </td> 
+   <td>목록의 맨 위에 있는 아이콘은 목록에 액세스하는 위치에 따라 다릅니다. 또한 목록에서 항목을 선택할 때 표시되는 목록의 맨 아래에 파란색 막대가 있습니다.</td> 
+  </tr>
+
+<tr> 
+   <td> <p>목록 상단의 도구 모음에 있는 아이콘을 사용하여 목록의 항목과 상호 작용할 수 있습니다</p> </td> 
+   <td> <p>업데이트할 항목에 따라 다음 중 하나를 수행하여 목록의 항목과 상호 작용합니다.</p>
+   <ul><li>검색, 새 항목 추가, 정렬 또는 필터링과 같은 일부 작업에 대해 맨 위에 있는 도구 모음의 아이콘을 사용합니다</li>
+   <li>목록에서 항목을 선택하고 목록 하단의 파란색 도구 모음의 아이콘을 사용하여 항목 삭제 또는 보기 등의 작업을 수행할 수 있습니다</li></ul> 
+   </tr>   
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>목록에서 항목을 찾으려면 CTRL+F 를 사용합니다.</p> </td> 
-   <td> <p>빠른 필터를 사용하여 큰 목록의 정보를 빠르게 찾을 수 있습니다</p> <p>목록에서 빠른 필터를 사용하는 방법에 대한 자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">목록에 빠른 필터 적용</a>을 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>서식 있는 텍스트 서식을 사용하여 사용자 지정 필드를 인라인 편집할 수 없습니다.</td> 
-   <td> <p>서식 있는 사용자 정의 필드의 텍스트를 굵게, 기울임체, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 따옴표를 허용하도록 구성할 수 있습니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">사용자 정의 양식 만들기</a>를 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>조건부 서식은 목록에 있는 링크의 텍스트 색상을 변경할 수 있습니다</td> 
-   <td>목록의 링크에 텍스트 색상 변경 내용을 적용할 수 없음</td> 
+   <td><p>목록의 항목에 셀 색상 변경을 적용할 수 있습니다</p></td>
+   <td><p>Workfront Planning에서만 목록의 항목에 셀 색상 변경 사항을 적용할 수 있습니다. </p></td>
+   </td> 
+   <td></td> 
   </tr> 
  </tbody> 
 </table>
+
+<!--
+consider adding things like adding fields on the fly in an enhanced list when we will be able to do this-->
+
+<!--old table: 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><b>Legacy lists</b></td> 
+   <td><b>Updated lists</b></td> 
+  </tr> 
+  <td> <p>Display <strong>100</strong> items by default</p> </td> 
+   <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Use CTRL+F to find items in a list</p> </td> 
+   <td> <p>Use quick filters to quickly find information in a large list</p> <p>For information about using quick filters in lists, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>You can't inline edit custom fields with rich text formatting.</td> 
+   <td> <p>Text in custom fields with formatting can be configured to allow bold, italics, underline, bullets, numbering, hyperlinks, and block quotes.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Conditional formatting can change the text color of links in a list</td> 
+   <td>Cannot apply text color changes to links in a list</td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
