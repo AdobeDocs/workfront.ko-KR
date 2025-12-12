@@ -166,7 +166,7 @@ Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe 
 
    권한을 요청한 개체가 Workfront에서 열립니다.
 
-1. (조건부) 사용 가능한 경우 **모든 알림 보기**를 클릭합니다.
+1. (조건부) 사용 가능한 경우 **모든 알림 보기**&#x200B;를 클릭합니다.
 **알림** 페이지가 Adobe Experience Cloud에서 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
 
 
