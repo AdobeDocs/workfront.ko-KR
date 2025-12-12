@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '359'
+ht-degree: 1%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 0%
 * 누군가가 기록 댓글에서 귀하 또는 귀하의 팀에 태그를 지정합니다.
 
   레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
-* 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청합니다.
-* 누군가 보기 또는 작업 영역 <!--Isk confirmed there is no notification for denying permissions - did not test-->에 대한 액세스 권한이 부여되었음을 확인합니다.
+* 누군가 보기 또는 작업 영역 <!--<span class="preview">or record</span>-->에 액세스할 수 있는 권한을 요청합니다.
+* 누군가 보기 또는 작업 영역 <!--<span class="preview">or record</span>-->에 대한 액세스 권한이 부여되었음을 확인합니다. <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## 액세스 요구 사항
 
@@ -155,8 +155,8 @@ OLD:
 
 ## 권한 요청 및 부여 시 인앱 알림 관리
 
-누군가 보기 또는 작업 영역에 대한 권한을 요청하거나 부여하면 인앱 알림을 받습니다.
+누군가 보기 또는 작업 영역에 대한 권한을 요청하거나 부여하면 인앱 알림을 받습니다. <!--<span class="preview">or record</span>-->
 
-보기 또는 작업 영역에 대한 권한 요청, 부여 또는 거부에 대한 자세한 내용은 [보기 또는 작업 영역에 대한 권한 요청](/help/quicksilver/planning/access/request-permissions.md)을 참조하십시오.
+권한 요청, 부여 또는 거부에 대한 자세한 내용은 [보기 또는 작업 영역에 대한 권한 요청](/help/quicksilver/planning/access/request-permissions.md)을 참조하십시오.
 
 Workfront Planning 알림 관리에 대한 자세한 내용은 [Adobe Workfront Planning 알림 환경 설정 관리](/help/quicksilver/planning/notifications/manage-notification-preferences.md)를 참조하십시오.

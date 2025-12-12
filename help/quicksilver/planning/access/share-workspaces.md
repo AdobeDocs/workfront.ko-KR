@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: f2fe6ef78b3032f7a89d4c816cb11b525634c067
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 1%
+source-wordcount: '789'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ This article describes how you can share a view with others. For information abo
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -210,3 +210,5 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. **저장**&#x200B;을 클릭합니다.
 
    제거된 사용자는 더 이상 작업공간이나 해당 객체에 액세스할 수 없습니다.
+
+   작업 영역 액세스에서 제거된 사용자에게 더 이상 이러한 권한이 없다는 알림이 없습니다.

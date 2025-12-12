@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 2%
@@ -74,7 +74,7 @@ Workfront Planning을 사용하려면 다음 액세스 권한이 있어야 합�
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
    <td>
    <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p>
-   <p><b>중요 사항</b></p>
+   <p><b>중요</b></p>
    <p>IMS(Adobe Identity Management System)에 추가된 사용자만 권한을 부여받고 Planning 필드에 추가할 수 있습니다.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p>
    </td>
@@ -177,6 +177,7 @@ Workfront Planning에서 다음 엔티티에 권한을 부여할 수 있습니�
 * 작업 영역
 * 레코드 유형
 * 보기 횟수
+  <!--move this above Views: * <span class="preview">Records</span>-->
 
 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 

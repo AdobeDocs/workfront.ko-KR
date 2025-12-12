@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 0%
+source-wordcount: '586'
+ht-degree: 1%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 0%
 * 누군가가 기록 댓글에서 귀하 또는 귀하의 팀에 태그를 지정합니다.
 
   레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
-* 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청합니다.
-* 누군가 보기 또는 작업 영역 <!--Isk confirmed that there is nno email for denying access but did not test-->에 대한 액세스 권한이 부여되었음을 확인합니다.
+* 누군가 보기, 작업 영역 또는 레코드 종류 <!--or <span class="preview">or a record</span>-->에 액세스할 수 있는 권한을 요청했습니다.
+* 누군가가 보기, 작업 영역 또는 레코드 형식 <!--<span class="preview">or record</span>-->에 대한 액세스 권한이 부여되었음을 확인합니다. <!--Isk confirmed that there is nno email for denying access but did not test-->
 * Workfront Planning 요청을 제출합니다. 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 * 누군가가 귀하가 제출한 Workfront Planning 요청을 승인하거나 거부합니다. 자세한 내용은 [Adobe Workfront Planning에서 요청 승인](/help/quicksilver/planning/requests/approve-request.md)을 참조하십시오.
 * 제출한 Workfront Planning 요청의 상태가 변경됩니다.
@@ -160,17 +160,17 @@ Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe 
 
 ## 권한 요청 및 부여 시 이메일 알림 관리
 
-1. (조건부 및 선택 사항) 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청하거나 부여하면 권한 요청을 알리는 이메일로 이동합니다. 이메일 발신자는 Adobe Experience Cloud입니다.
+1. (조건부 및 선택 사항) 누군가가 Planning 객체 유형에 액세스할 수 있는 권한을 요청하거나 부여한 후 권한 요청을 알리는 이메일로 이동합니다. 이메일 발신자는 Adobe Experience Cloud입니다.
 
 1. (선택 사항) 전자 메일 내부의 **Workfront** 상자에 있는 메시지를 클릭합니다.
 
-   Workfront에 레코드 세부 정보 페이지가 열립니다. 레코드를 업데이트하거나 댓글에 답글을 달 수 있습니다.
+   권한을 요청한 개체가 Workfront에서 열립니다.
 
-1. (조건부) 사용 가능한 경우 **모든 알림 보기**&#x200B;를 클릭합니다.
+1. (조건부) 사용 가능한 경우 **모든 알림 보기**를 클릭합니다.
 **알림** 페이지가 Adobe Experience Cloud에서 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
 
 
-보기 또는 작업 영역에 대한 권한 요청, 부여 또는 거부에 대한 자세한 내용은 [보기 또는 작업 영역에 대한 권한 요청](/help/quicksilver/planning/access/request-permissions.md)을 참조하십시오.
+권한 요청, 부여 또는 거부에 대한 자세한 내용은 [보기 또는 작업 영역에 대한 권한 요청](/help/quicksilver/planning/access/request-permissions.md)을 참조하십시오.
 
 Workfront Planning 알림 관리에 대한 자세한 내용은 [Adobe Workfront Planning 알림 환경 설정 관리](/help/quicksilver/planning/notifications/manage-notification-preferences.md)를 참조하십시오.
 

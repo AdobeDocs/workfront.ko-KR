@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 1%
 Workfront Planning에서 다음 작업이 발생하면 인앱 또는 이메일 알림을 받을 수 있습니다.
 
 * 누군가가 기록 페이지의 댓글에 귀하 또는 귀하의 팀을 추가합니다.
-* 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청합니다.
-* 누군가가 <!--I could not test this but Isk confirmed--> 보기 또는 작업 영역에 액세스할 수 있는 권한을 부여했습니다.
+* 누군가 보기 또는 작업 영역 <!--or <span class="preview">or a record</span>-->에 액세스할 수 있는 권한을 요청했습니다.
+* 누군가가 <!--or <span class="preview">or a record</span>--> 보기 또는 작업 영역에 액세스할 수 있는 권한을 부여했습니다. <!--I could not test this but Isk confirmed-->
 * Workfront Planning 요청을 제출합니다.
 * 누군가가 귀하가 제출한 Workfront Planning 요청을 승인하거나 거부합니다.
 * 제출한 Workfront Planning 요청의 상태가 변경됩니다.
@@ -177,7 +177,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 
