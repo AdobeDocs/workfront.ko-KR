@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
+source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 0%
+source-wordcount: '494'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Express과 함께 Workfront Proof을 사용하여
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ Workfront에서 승인 워크플로 템플릿이 생성되면 Express Enterprise
 
 Adobe Express에서 승인을 요청하려면 사용자에게 Standard Workfront 라이선스가 있어야 합니다.
 
-[디자인 승인을 받는 방법](https://helpx.adobe.com/kr/express/web/share-and-publish/share-and-collaborate/request-approval.html)을 알아보세요.
+[디자인 승인을 받는 방법](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)을 알아보세요.
 
 
 ## 빠른 템플릿을 리믹스하여 검토 및 승인을 위해 전송
@@ -97,8 +97,13 @@ Adobe Express 사용자는 자신의 요구 사항에 맞게 Express 템플릿�
 * 댓글 읽기
 * 외
 
-<!--Learn how to get approval on designs.   
-need link to help article-->
+### 승인 요청 시 Workfront 프로젝트 선택
+
+리믹스 익스프레스 템플릿에 대한 승인을 요청할 때 사용자는 증명을 보낼 Workfront 프로젝트를 선택할 수 있습니다. 이렇게 하면 모든 관련 에셋과 증명이 동일한 프로젝트 내에 체계적으로 정리될 수 있습니다.
+
+프로젝트를 선택하지 않으면 기본적으로 증명이 Express 관련 프로젝트로 전환됩니다.
+
+자세한 내용은 [검토 및 승인을 위해 템플릿 보내기](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)를 참조하십시오.
 
 ## 재혼합된 Express 파일 검토 및 승인
 

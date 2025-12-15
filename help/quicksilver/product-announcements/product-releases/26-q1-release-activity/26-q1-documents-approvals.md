@@ -4,9 +4,9 @@ description: 2026년 1분기 문서 및 승인 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
+source-git-commit: 0197be82879cbd2abfd053e4a93002884db252b4
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,20 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 1분기 릴리스의 문서 및 승인 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
+
+## Creative Cloud Express에서 검토를 보낼 때 Workfront 프로젝트 선택
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 15일
+>프로덕션 빠른 릴리스: 2025년 12월 15일\
+>모두를 위한 프로덕션: 2025년 12월 15일
+
+증명을 보낼 Workfront 프로젝트를 선택할 수 있습니다. 이렇게 하면 모든 관련 에셋과 증명이 동일한 프로젝트 내에 체계적으로 정리될 수 있습니다.
+
+이전에는 증명이 Express 특정 프로젝트에 자동으로 추가되었습니다.
+
+자세한 내용은 [Adobe Express 및 Workfront Proof 통합](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)을 참조하십시오.
 
 ## Workfront Proofing을 사용한 Adobe Express에 대한 교차 조직 지원
 
