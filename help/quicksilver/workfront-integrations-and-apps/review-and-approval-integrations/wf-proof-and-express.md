@@ -83,7 +83,7 @@ Workfront에서 승인 워크플로 템플릿이 생성되면 Express Enterprise
 
 Adobe Express에서 승인을 요청하려면 사용자에게 Standard Workfront 라이선스가 있어야 합니다.
 
-[디자인 승인을 받는 방법](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)을 알아보세요.
+[디자인 승인을 받는 방법](https://helpx.adobe.com/kr/express/web/share-and-publish/share-and-collaborate/request-approval.html)을 알아보세요.
 
 
 ## 빠른 템플릿을 리믹스하여 검토 및 승인을 위해 전송
@@ -103,7 +103,7 @@ Adobe Express 사용자는 자신의 요구 사항에 맞게 Express 템플릿�
 
 프로젝트를 선택하지 않으면 기본적으로 증명이 Express 관련 프로젝트로 전환됩니다.
 
-자세한 내용은 [검토 및 승인을 위해 템플릿 보내기](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)를 참조하십시오.
+자세한 내용은 [검토 및 승인을 위해 템플릿 보내기](https://helpx.adobe.com/kr/express/web/invite-collaborate/request-approval.html)를 참조하십시오.
 
 ## 재혼합된 Express 파일 검토 및 승인
 
