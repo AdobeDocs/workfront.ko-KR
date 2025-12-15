@@ -5,9 +5,9 @@ description: Adobe Workfront의 AI Assistant에 대해 알아보기
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 44db621643c76ab1f2c1b51d5e81cb0d1f827a58
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -139,6 +139,10 @@ Adobe Gen AI 계약을 요청하려면
 1. Adobe Gen AI 계약에 서명할 조직의 개인 이름과 이메일 주소를 입력합니다.
 
    계약서는 서명을 위해 이 개인에게 전송됩니다. 서명되고 반환되면 Adobe에서 계약을 검토한 다음 조직에 대해 AI 비서가 활성화됩니다.
+
+   >[!NOTE]
+   >
+   >Adobe이 AI Assistant를 검토하고 활성화할 수 있도록 계약서에 서명한 후 영업일 기준으로 1~3일이 소요됩니다.
 
 ## AI Assistant에서 프롬프트 생성에 대한 팁
 
