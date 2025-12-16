@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 78cf61d219cd1214a0846a45e2725fce7a8ebb2c
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1465'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -249,10 +249,13 @@ CAN YOU DO THIS??
 
    자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
 
-   <!--
    >[!NOTE]
    >
-   >You cannot remove GenStudio users from the GenStudio workspace, after you share that workspace with them.-->
+   >다음과 같은 공유 제한 사항이 있습니다.
+   >
+   >* GenStudio 작업 영역을 공유하면 GenStudio 사용자를 작업 영역에서 제거할 수 없습니다.
+   >* 사용자에게 GenStudio에서 권한이 있는 경우 Workfront Planning에서 보기로 액세스 권한을 변경할 수 없습니다. Planning의 GenStudio 작업 영역에서 최소한 Contribute 권한이 있어야 합니다.
+   >* GenStudio 작업 영역에서 GenStudio 레코드 유형에 대해 상속된 권한을 비활성화할 수 없습니다.
 
 1. 해당 유형의 레코드를 보려면 레코드 유형 카드를 클릭합니다.
 
@@ -353,11 +356,11 @@ CAN YOU DO THIS??
 
 1. 표 보기의 오른쪽 위 모서리에 있는 + 아이콘을 클릭하여 다음을 만듭니다.
 
-   * 레코드 필드
+   * 필드
 
      자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하세요.
 
-   * 레코드 연결
+   * 연결
 
      자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
@@ -369,6 +372,7 @@ CAN YOU DO THIS??
 
      >[!NOTE]
      >
+     >* GenStudio에서 관리 권한이 있는 경우에만 필드를 추가할 수 있습니다.
      >* Workfront Planning에서 생성된 필드는 GenStudio의 목록 보기에 표시되지 않습니다.
      >
      >* 모든 GenStudio 레코드 유형을 브랜드 GenStudio 레코드 유형에 연결할 수 있습니다.
@@ -386,5 +390,6 @@ CAN YOU DO THIS??
 
    >[!NOTE]
    >
-   >GenStudio에서 관리 권한이 있는 경우에만 필드의 구성을 편집하고 필드를 추가할 수 있습니다.
+   >* GenStudio에서 관리 권한이 있는 경우에만 GenStudio 필드의 구성을 편집할 수 있습니다.
+   >* GenStudio 필드는 삭제할 수 없습니다.
 
