@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-연결된 레코드 페이지에 대한 탭을 레코드에 추가하여 연결된 레코드 또는 개체에서 정보를 볼 수 있습니다. 이렇게 하면 테이블 보기의 연결된 레코드가 탭에 추가됩니다.
+연결된 레코드 페이지에 대한 탭을 Adobe Workfront Planning의 레코드에 추가하여 연결된 레코드 또는 개체에서 정보를 볼 수 있습니다. 이렇게 하면 테이블 보기의 연결된 레코드가 탭에 추가됩니다.
 
 레코드에 연결된 레코드 페이지를 추가할 때는 다음 사항을 고려하십시오.
 
@@ -38,12 +38,17 @@ ht-degree: 1%
    * Table
    * <span class="preview">Timeline</span>
    * <span class="preview">Calendar</span>
+
+* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
+
 -->
 
 * 다음과 같은 연결된 레코드 또는 객체 유형에 대해 연결된 레코드 페이지를 추가할 수 있습니다.
 
    * Workfront Planning 레코드 유형
-   * Workfront 프로젝트, 프로그램, 포트폴리오, 그룹 또는 회사. Workfront에서 연결된 Workfront 개체에 액세스할 수 있는 권한이 없는 경우에도 연결된 개체를 볼 수 있습니다.
+   * Workfront 프로젝트
+
+     Workfront에서 액세스할 수 있는 권한이 없는 경우에도 연결된 Workfront 프로젝트를 볼 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -73,7 +78,7 @@ ht-degree: 1%
    <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr>
 
@@ -98,7 +103,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## 레코드에 연결된 레코드 페이지 추가
 
-연결된 레코드 페이지를 레코드에 추가하기 전에 먼저 레코드 유형을 다른 레코드 또는 개체 유형과 연결해야 합니다.
+연결된 레코드 페이지를 레코드에 추가하기 전에 먼저 레코드 유형을 다른 레코드 유형 또는 Workfront 프로젝트와 연결해야 합니다.
 
 1. 레코드 이름을 클릭하여 레코드 유형 페이지의 모든 보기에서 엽니다.
 1. 다음 영역 중 하나에서 **페이지 추가**&#x200B;를 클릭합니다.
