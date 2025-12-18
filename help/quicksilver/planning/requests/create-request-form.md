@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2678'
 ht-degree: 1%
 
 ---
@@ -173,6 +173,10 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. [요청 양식 만들기 시작](#begin-creating-a-request-form) 섹션에 설명된 대로 요청 양식을 만들거나 편집하십시오.
 
+   또는
+
+   요청 양식 목록에서 요청 양식을 찾아 양식 이름 옆에 있는 상자를 클릭한 다음 화면 하단의 파란색 막대에서 **양식 편집**&#x200B;을 클릭합니다.
+
    선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
 
    ![캠페인 요청 양식 편집 모드](assets/campaigns-request-form-edit-mode.png)
@@ -195,8 +199,6 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
      요청 양식에 포함된 필드는 이 레코드 유형에 요청을 제출하는 모든 사람에게 표시됩니다.
 
 1. (선택 사항) 제거할 양식의 필드 위에 마우스를 놓은 다음 **x** 아이콘을 클릭하여 제거합니다. 양식 왼쪽의 **필드** 탭에 추가됩니다.
-
-   예를 들어 **제목** 필드는 Workfront Planning에 표시되지 않으므로 제거합니다. <!--remove this example if this becomes visible in Planning?-->
 
 1. (선택 사항) 양식에서 **기본 섹션**&#x200B;을(를) 제거하려면 다음을 수행하십시오.
 
@@ -235,14 +237,13 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
 1. (선택 사항) [양식 세부 정보 설정](#set-up-form-details)에 설명된 대로 양식 세부 정보를 설정합니다.
 
-1. (선택 사항) **구성** 탭을 클릭한 다음, 하나 이상의 사용자 또는 팀을 **승인자** 필드에 추가하여 이 레코드 양식에 대한 새 요청을 승인합니다.
+1. (선택 사항) 승인자를 추가하려면 **구성** 탭을 클릭한 다음 **승인자** 필드에 사용자 또는 팀을 하나 이상 추가하여 이 레코드 양식에 대한 새 요청을 승인하십시오.
 
    ![구성 탭](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
    * 한 명 또는 여러 명의 승인자를 요청 양식에 추가할 수 있습니다.
-   * 두 명 이상의 승인자를 추가하고 [하나의 결정만 필요] 옵션을 활성화하지 않은 경우 Workfront Planning이 레코드를 생성하기 전에 모든 승인자가 요청을 승인해야 합니다.
    * 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다. 요청은 Workfront의 요청 영역에 있는 제출됨 섹션의 계획 탭에 남아 있습니다.
    * 두 명 이상의 승인자를 추가할 때 [하나의 결정만 필요] 옵션이 활성화되어 있지 않은 경우 요청이 승인 또는 거부되기 전에 모든 승인자가 결정을 내려야 합니다.
    * 팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.
@@ -253,7 +254,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
 
 <!--
  

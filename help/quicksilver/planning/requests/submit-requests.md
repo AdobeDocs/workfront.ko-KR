@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 0%
+source-wordcount: '1871'
+ht-degree: 1%
 
 ---
 
@@ -106,7 +106,8 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 * 요청 양식을 제출하여 생성된 레코드는 Workfront Planning에서 다른 방법을 통해 추가된 레코드와 구분할 수 없습니다.
 
   자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
-* 제출된 요청은 Workfront의 요청 영역에 있는 제출됨 섹션의 계획 탭에 표시됩니다.
+* 제출된 요청은 Workfront의 요청 영역에 표시됩니다.
+* 제출된 Planning 요청은 새 요청 경험에서만 볼 수 있습니다. 레거시 요청 환경에서는 Planning 요청을 볼 수 없습니다.
 * 특정 필드 유형이 요청 양식 또는 양식 제출 후 요청 세부 정보 페이지에 표시되는 방법에는 제한이 있습니다.
 
   자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
@@ -130,19 +131,10 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
    >* 하나 이상의 작업 영역을 볼 수 있는 액세스 권한이 있습니다.
    >
 
-<!--Production-->
+1. **제출하려는 요청** 막대를 클릭하여 요청 양식 목록을 엽니다.
+1. 목록에서 요청 양식을 선택하거나 요청 양식 이름을 입력한 다음 목록에 표시될 때 선택합니다.
 
-1. 프로덕션 환경에서 **새 요청**&#x200B;을 클릭합니다.
-
-   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
-
-   **새 요청** 상자가 열리고 다음 정보가 표시됩니다.
-
-   * 가장 최근에 액세스한 6개의 Workfront 요청 대기열 및 Planning 요청 양식이 최근 섹션에 표시됩니다.
-   * 50개의 추가 Workfront 요청 큐 및 Planning 요청 양식이 **모든 요청 양식** 섹션에 알파벳 순서로 표시됩니다. 기본적으로 표시되지 않는 요청 대기열을 검색할 수 있습니다.
-
-1. 최근에 액세스한 요청 양식 영역에서 요청 양식 또는 대기열을 선택하거나, 목록에 양식 또는 대기열 이름을 입력한 다음 표시될 때 선택합니다.
-
+   창이 열리고 맨 위에 요청 양식 이름이 표시됩니다.
 1. 요청 양식에서 사용할 수 있는 필드를 업데이트합니다. 빨간색 별표가 있는 필드는 필수입니다.
 1. **제출을 클릭합니다**.
 
@@ -150,19 +142,13 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
    양식이 제출되고 다음 사항이 발생합니다.
 
-   * 요청 양식이 승인과 연결되어 있지 않은 경우 Workfront 요청 영역의 제출됨 섹션에 있는 계획 탭에 요청이 추가되고 양식에 연결된 레코드 유형에 새 레코드가 추가됩니다.
+   * 요청 양식이 승인과 연결되어 있지 않은 경우, 요청은 Workfront 요청 영역 및 내 요청 위젯의 요청 목록에 추가되고 새 레코드는 해당 양식과 연결된 레코드 유형에 추가됩니다.
 
-   * 요청 양식이 승인과 연결된 경우 Workfront 요청 영역의 제출됨 섹션에 있는 계획 탭에 요청이 추가됩니다. 새 레코드는 모든 승인자가 승인한 후에만 레코드 유형 페이지에 추가됩니다.
+   * 요청 양식이 승인과 연결된 경우 요청이 Workfront 요청 영역 및 내 요청 위젯의 요청 목록에 추가됩니다. 새 레코드는 승인자가 승인한 후에만 레코드 유형 페이지에 추가됩니다.
 
      자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
-     ![통합 워크플로 계획 탭에 대한 토글이 포함된 요청 영역](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
-
-     >[!IMPORTANT]
-     >
-     >하나 이상의 작업 영역에 액세스할 수 있는 모든 사용자는 요청 영역에서 계획 탭을 볼 수 있습니다. 볼 수 있는 권한 이상이 있는 작업 영역에 사용자 또는 다른 사람이 제출한 요청만 볼 수 있습니다. Workfront 관리자는 시스템의 작업 영역에 제출된 모든 요청을 볼 수 있습니다.
-
-   * 요청은 소유자, 승인자 및 작업 영역에 대해 최소 보기 권한이 있는 사람에게만 표시됩니다.
+   * 요청은 소유자, 승인자 및 작업 영역에 대해 최소 보기 권한이 있는 사람에게만 표시됩니다. Workfront 관리자는 시스템의 작업 영역에 제출된 모든 요청을 볼 수 있습니다.
 
    * 요청이 성공적으로 제출되었거나 검토를 위해 전송되었다는 인앱 및 이메일 알림을 받게 됩니다.
    * 요청 양식이 승인과 연결된 경우 승인자는 요청을 검토하고 승인하기 위한 인앱 및 이메일 알림을 수신합니다.
@@ -174,9 +160,6 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
      >이메일 확인 또는 승인 알림에 요청에 대한 링크가 있습니다.
 
 1. (선택 사항) 확인 메시지에서 **요청 보기**&#x200B;를 클릭하여 요청을 열거나 **X** 아이콘을 클릭하여 확인을 닫습니다.
-
-1. (선택 사항) 요청을 보려면 **요청** 영역에서 **계획** 탭을 클릭합니다.
-Planning 요청 양식에 제출된 보기 액세스 권한이 있는 모든 요청이 목록에 표시됩니다.
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
    * **필터**&#x200B;를 클릭하고 계획 탭에서 보려는 요청에 대한 조건을 추가하기 시작합니다.
@@ -243,17 +226,15 @@ Planning 요청 양식에 제출된 보기 액세스 권한이 있는 모든 요
 
    양식이 제출되고 다음 사항이 발생합니다.
 
-   * 요청 양식이 승인과 연결되어 있지 않은 경우 Workfront 요청 영역의 제출됨 섹션에 있는 계획 탭에 요청이 추가되고 양식에 연결된 레코드 유형에 새 레코드가 추가됩니다.
+   * 요청 양식이 승인과 연결되어 있지 않은 경우, 요청은 Workfront 요청 영역 및 내 요청 위젯의 요청 목록에 추가되고 새 레코드는 해당 양식과 연결된 레코드 유형에 추가됩니다.
 
-   * 요청 양식이 승인과 연결된 경우 Workfront 요청 영역의 제출됨 섹션에 있는 계획 탭에 요청이 추가됩니다. 새 레코드는 모든 승인자가 승인한 후에만 레코드 유형 페이지에 추가됩니다.
+   * 요청 양식이 승인과 연결된 경우 요청이 Workfront 요청 영역 및 내 요청 위젯의 요청 목록에 추가됩니다. 새 레코드는 모든 승인자가 승인한 후에만 레코드 유형 페이지에 추가됩니다.
 
      자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
-     ![요청의 계획 탭](assets/planning-tab-in-requests.png)
-
      >[!IMPORTANT]
      >
-     >하나 이상의 작업 영역에 액세스할 수 있는 모든 사용자는 요청 영역에서 계획 탭을 볼 수 있습니다. 볼 수 있는 권한 이상이 있는 작업 영역에 사용자 또는 다른 사람이 제출한 요청만 볼 수 있습니다. Workfront 관리자는 시스템의 작업 영역에 제출된 모든 요청을 볼 수 있습니다. <!--ensure this is correct; asking team in slack-->
+     >볼 수 있는 권한 이상이 있는 작업 영역에 사용자 또는 다른 사람이 제출한 요청만 볼 수 있습니다. Workfront 관리자는 시스템의 작업 영역에 제출된 모든 요청을 볼 수 있습니다. <!--ensure this is correct; asking team in slack-->
 
    * 요청이 성공적으로 제출되었거나 검토를 위해 전송되었다는 인앱 및 이메일 알림을 받게 됩니다.
    * 요청 양식이 승인과 연결된 경우 승인자는 요청을 검토하고 승인하기 위한 인앱 및 이메일 알림을 수신합니다.
@@ -262,7 +243,7 @@ Planning 요청 양식에 제출된 보기 액세스 권한이 있는 모든 요
      >
      >이메일 및 인앱 알림은 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩될 때만 표시됩니다.
 
-   * <span class="preview"> 요청이 승인되고 레코드가 만들어지면 승인자 및 승인됨 날짜 필드에 레코드에 승인에 대한 정보가 표시됩니다.</span>
+   <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
 1. (선택 사항) Workfront에서 요청을 열려면 **요청 보기**&#x200B;를 클릭합니다.
 
@@ -293,6 +274,24 @@ Planning 요청 양식에 제출된 보기 액세스 권한이 있는 모든 요
 
    Workfront Planning에서 레코드 유형 페이지가 열립니다.
 
+<div class="preview">
 
+## 기존 요청을 복사하여 요청 만들기
+
+Workfront의 요청 목록에서 요청을 복사한 다음 세부 사항을 편집하고 새 요청으로 제출할 수 있습니다.
+
+새 요청 경험에서만 사용할 수 있습니다.
+
+자세한 내용은 [요청 복사 및 제출](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md)을 참조하십시오.
+
+## 기존 초안에서 초안 및 요청 만들기
+
+요청의 초안을 만든 다음 초안으로 돌아가 나중에 요청으로 제출할 수 있습니다.
+
+새 요청 경험에서만 사용할 수 있습니다.
+
+지침은 [초안에서 요청 만들기](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)를 참조하십시오.
+
+</div>
 
 

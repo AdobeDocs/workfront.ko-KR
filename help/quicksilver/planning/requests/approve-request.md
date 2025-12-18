@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1122'
 ht-degree: 1%
 
 ---
@@ -142,7 +142,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    또는
 
-   Adobe Workfront의 왼쪽 위 모서리에 있는 [!UICONTROL 홈] 아이콘 ![홈 아이콘](/help/_includes/assets/home-icon-30x29.png)을 클릭합니다.
+   Adobe Workfront 왼쪽 상단의 [!UICONTROL 홈] 아이콘 ![홈 아이콘](/help/_includes/assets/home-icon-30x29.png)을 클릭한 다음 내 승인 위젯을 찾습니다.
 
 1. 승인하거나 거부할 객체를 찾습니다.
 

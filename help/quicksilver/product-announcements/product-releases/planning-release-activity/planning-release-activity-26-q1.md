@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a58e7da96c43dd308a213c6d7ef74d5085a2e1ba
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 필요한 정보를 더 쉽게 볼 수 있도록 프로젝트 연결 레코드 페이지에 보기를 공유하는 기능을 추가했습니다. 이제 다른 사용자, 팀 또는 그룹과 보기를 공유할 수 있습니다.
 
-공유를 포함한 요청 보기에 대한 자세한 내용은 [요청 영역에서 보기 만들기 및 관리](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)를 참조하십시오.
+자세한 내용은 [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
 
 ## 현재 사용자 와일드카드를 프로젝트 연결 보기 필터에서 사용할 수 있음
 
