@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 0%
+source-wordcount: '2506'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,6 +107,10 @@ ht-degree: 0%
    ![필드 라이브러리](assets/field-library.png)
 
 1. 검색 상자를 사용하거나 **계산됨** 섹션을 확장하여 필요한 계산된 필드를 찾은 다음 사용자 정의 양식에서 표시할 필드를 드래그합니다.
+
+1. <span class="preview">(조건부) **충돌 확인**&#x200B;을 클릭하여 이 계산된 필드에서 수식을 변경하면 영향을 받을 수 있는 모든 개체를 검토합니다.</span>
+
+   <span class="preview">계산 필드가 같은 두 개 이상의 양식이 개체에 연결되어 있으면 모든 양식에서 수식이 동일해야 합니다. 변경 내용으로 인해 충돌이 발생할 수 있는 경우 수식을 편집할 수 없습니다.</span>
 
 1. (선택 사항) 이전 단계를 반복하여 다른 필드를 추가합니다.
 
@@ -284,7 +288,7 @@ ht-degree: 0%
            >
            ><div>오브젝트에 첨부된 사용자 정의 양식에서 계산된 사용자 정의 필드의 날짜 및 시간 문은 조직의 인스턴스 및 사용자 프로필에 대해 설정된 시간대 구성이 아니라 UTC(협정 세계시)에 의해 계산되고 저장됩니다. 사용자 정의 양식의 계산은 각 사용자의 개별 시간대를 기반으로 하여 생성됩니다.</div>
 
-      +++
+        +++
 
    1. 큰 텍스트 상자를 클릭한 다음 계산에 추가할 수 있는 **식** 및 **필드**&#x200B;를 클릭합니다.
 
