@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 1%
+source-wordcount: '1267'
+ht-degree: 2%
 
 ---
 
@@ -60,7 +60,7 @@ Workfront Planning 레코드에 Workfront 객체를 연결하고 생성할 때 �
 
    * 레코드 유형의 표 보기
    * 연결 필드의 레코드 세부 정보 영역
-   * 세부 정보 영역에 있는 레코드의 연결된 레코드 페이지
+   * 레코드의 연결된 레코드 페이지
 
 * Workfront Planning의 다음 영역에서 포트폴리오와 프로그램을 만들 수 있습니다.
 
@@ -200,7 +200,7 @@ Workfront Planning의 다음 영역에서 Workfront Planning의 레코드와 프
 
 1. [레코드 연결](/help/quicksilver/planning/records/connect-records.md) 문서에 설명된 대로 레코드의 세부 정보 페이지 또는 레코드 유형의 테이블로 이동하여 Workfront Planning 레코드와 Workfront 프로젝트 연결을 시작합니다.
 
-1. (조건부) **프로젝트 추가**&#x200B;를 클릭합니다
+1. (조건부) **프로젝트 추가**를 클릭합니다
 또는
 프로젝트 이름을 입력한 다음 찾을 수 없는 경우 **프로젝트 추가**&#x200B;를 클릭합니다. [추가] 단추 다음에 입력한 프로젝트 이름이 옵니다.
 
