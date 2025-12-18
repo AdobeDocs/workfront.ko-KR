@@ -6,9 +6,9 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 8851a67e992152b05c44063e67070c0942a463bc
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '2607'
+source-wordcount: '2546'
 ht-degree: 2%
 
 ---
@@ -125,14 +125,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 
 {{step1-to-requests}}
 
-1. (선택 사항 및 조건부) 조직 및 Workfront 인스턴스에 다음 사항이 적용되는 경우 화면 오른쪽 상단의 **새 경험으로 전환** 설정을 선택합니다.
-
-   * 조직이 Workfront 패키지를 구매했습니다.
-   * 조직이 Adobe 통합 경험에 온보딩되었습니다.
-   * 관리자가 Workfront Planning에 대한 액세스 권한을 부여했습니다.
-   * Workfront Planning 작업 영역에 대한 보기 권한이 적어도 있습니다.
-
-   자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
+1. (선택 사항 및 조건부) 화면 오른쪽 상단의 **새 경험으로 전환** 설정을 선택합니다.
 
 1. 페이지의 오른쪽 상단에 있는 **새 요청**&#x200B;을 클릭합니다.
 
