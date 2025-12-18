@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,12 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 >
 >사용자가 이메일 및 인앱 알림을 수신할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.
 
-요청을 승인하려면:
+요청 자체, <span class="preview"> 또는 홈의 내 승인 위젯에서 레코드를 만드는 요청을 승인할 수 있습니다.</span>
+
+* [Workfront Planning에서 요청의 요청 승인](#approve-a-request-from-the-request-in-workfront-planning)
+* [홈의 내 승인 위젯에서 요청 승인](#approve-a-request-from-the-my-approvals-widget-in-home)
+
+### Workfront Planning에서 요청의 요청 승인
 
 1. (조건부) Workfront에서 기존 요청 경험을 사용하는 경우 다음 중 하나를 수행하여 요청을 엽니다.
 
@@ -128,3 +133,31 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * **거부됨**: 요청이 거부되었습니다.
 
    요청은 Workfront의 요청 영역에 있는 제출됨 섹션의 계획 탭에 남아 있습니다.
+
+<div class="preview">
+
+### 홈의 내 승인 위젯에서 요청 승인
+
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+
+   또는
+
+   Adobe Workfront의 왼쪽 위 모서리에 있는 [!UICONTROL 홈] 아이콘 ![홈 아이콘](/help/_includes/assets/home-icon-30x29.png)을 클릭합니다.
+
+1. 승인하거나 거부할 객체를 찾습니다.
+
+1. (선택 사항) 승인 또는 거부 옆에 있는 드롭다운 화살표를 클릭하고, 메모를 입력한 다음 추가 를 클릭하여 설명을 추가합니다.
+
+1. 다음 중 하나를 선택합니다.
+
+   * **승인**: 요청을 승인합니다. 모든 승인자가 요청을 승인한 후 요청 양식과 연결된 레코드 유형에 대해 레코드가 즉시 만들어집니다.
+   * **거부**: 사용자가 요청을 거부하는 유일한 승인자인 경우에도 이 요청은 거부됩니다. 요청 양식과 연결된 레코드 유형에 대해 만들어진 레코드가 없습니다.
+
+   요청을 제출한 사용자는 요청이 승인되거나 거부되면 이메일 및 인앱 알림을 받게 됩니다.
+
+   승인 결정에 따라 요청의 상태가 다음으로 변경됩니다.
+
+   * **완료**: 요청이 승인되었습니다.
+   * **거부됨**: 요청이 거부되었습니다.
+
+</div>

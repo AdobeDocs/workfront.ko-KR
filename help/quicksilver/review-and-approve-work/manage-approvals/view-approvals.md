@@ -6,14 +6,16 @@ description: 승인 프로세스를 통해 프로젝트, 작업 및 문제에 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 0%
+source-wordcount: '752'
+ht-degree: 2%
 
 ---
 
 # 승인 보기
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 승인 프로세스를 통해 프로젝트, 작업 및 문제에 대한 여러 단계의 승인을 유연하게 생성할 수 있습니다. Adobe Workfront 관리자는 승인 프로세스를 정의하여 시스템 전체에 일관성을 제공합니다.
 
@@ -23,7 +25,7 @@ Workfront에서 승인을 작업과 연결하는 방법에 대한 자세한 내�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +65,7 @@ Workfront의 여러 영역에서 승인을 보거나 관리할 수 있습니다.
 
 * 홈 영역에서
 
-   * 모든 프로젝트, 작업, 문제, 타임시트, 문서 및 승인 대기 중인 액세스가 홈 영역의 내 승인 위젯에 표시됩니다.
+   * 모든 프로젝트, 작업, 문제, 타임시트, 문서, 액세스 및 승인 대기 중인 <span class="preview">Workfront 계획 요청</span>이 홈 영역의 내 승인 위젯에 표시됩니다.
    * 내가 제출한 승인 필터 옵션을 선택하면 직접 제출한 승인이 홈 영역의 내 승인 위젯에도 표시됩니다. 자세한 내용은 이 문서의 [홈 영역에서 승인을 위해 제출한 작업 검토](#review-work-you-submit-for-approval-in-the-home-area) 섹션을 참조하십시오.
    * 관련된 프로젝트, 작업 또는 문제가 해결됨, 보류 중, 마감됨 또는 취소됨으로 표시되면 홈 영역의 내 승인 위젯에서 승인이 제거됩니다.
 
