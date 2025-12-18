@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e830ccb4e87c231f57ae39e59988bb261737188
+source-git-commit: a58e7da96c43dd308a213c6d7ef74d5085a2e1ba
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,122 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 연결된 레코드 프로젝트 페이지에서 보기 공유
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일\
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+필요한 정보를 더 쉽게 볼 수 있도록 프로젝트 연결 레코드 페이지에 보기를 공유하는 기능을 추가했습니다. 이제 다른 사용자, 팀 또는 그룹과 보기를 공유할 수 있습니다.
+
+공유를 포함한 요청 보기에 대한 자세한 내용은 [요청 영역에서 보기 만들기 및 관리](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)를 참조하십시오.
+
+## 현재 사용자 와일드카드를 프로젝트 연결 보기 필터에서 사용할 수 있음
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일\
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+사용자에게 적용되는 프로젝트 연결을 더 쉽게 필터링할 수 있도록 현재 사용자 와일드카드를 만들었습니다. 이제 필터링할 때 &quot;나(로그인한 사용자)&quot;를 선택할 수 있습니다. 그런 다음 필터는 요청 목록을 보고 있는 사용자에게 적용됩니다.
+
+여러 사용자가 사용할 보기에 필터를 추가할 때 편리할 수 있습니다. 각 사용자에게 적용되는 필터 결과가 표시됩니다.
+
+와일드카드는 값이 사용자인 필드에서 사용할 수 있습니다.
+
+필터를 포함하여 프로젝트 연결 보기 구성에 대한 자세한 내용은 [레코드에 연결된 레코드 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
+
+<!--
+
+## Create record type hierarchies in workspaces
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast: January 14, 2026 
+>Production all: January 15, 2026 
+
+You can now define flexible but structured hierarchies between record or object types.  
+
+Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have multiple hierarchies in one workspace. The first record type in the hierarchy is a parent, and all the other record or object types are its children objects.  
+
+You can use hierarchies to organize work in a way that reflects how your teams actually plan, operate, and deliver and to visualize how strategy flows into execution. 
+
+Consider the following when building hierarchies: 
+
+* You can have multiple hierarchies in a workspace 
+* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
+* A record type or a project can only have one parent in the same workspace. 
+* A record type can be the parent in multiple hierarchies 
+* Connectable record types cannot be used in hierarchies in other workspaces than their own. 
+* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.  
+
+When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
+
+For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+-->
+
+<!--
+
+## New unified breadcrumbs added to records' pages
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast: January 14, 2026 
+>Production for all: January 15, 2026 
+
+We have added breadcrumbs to a record's page to reflect its spot in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
+
+For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
+
+For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+-->
+
+## Workspace 기본 페이지 개선 사항
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 시간: 2026년 1월 14일
+>전체 프로덕션: 2026년 1월 15일
+
+Workfront Planning의 Workspaces 기본 페이지에 대해 다음과 같이 개선했습니다.
+
+* 더욱 빠르고 동적인 스크롤 환경. 이는 조직에 많은 작업 공간이 있고 시스템 관리자를 위한 경우 특히 표시됩니다.
+
+* 이제 이름별로 특정 작업 영역을 검색할 수 있는 검색 상자를 추가했습니다.
+
+* **다른 작업 영역** 탭의 이름이 **모든 작업 영역**(으)로 변경되었으며 사용자가 만든 작업 영역을 포함하여 볼 수 있는 권한 이상이 있는 모든 작업 영역이 포함됩니다.
+
+자세한 내용은 [작업 영역 편집](/help/quicksilver/planning/architecture/edit-workspaces.md)을 참조하십시오.
+
+<!--
+
+## Improvements to connected records pages
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast: January 14, 2026 
+>Production for all: January 15, 2026 
+
+To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
+
+* You can now add a timeline and a calendar view to a record's connected records page.
+* You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
+* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
+* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
+
+For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+-->
 
 ## GenStudio 작업 영역에서 기본적으로 제품 및 성향에 브랜드 연결 필드 추가
 
@@ -154,3 +270,9 @@ Workfront Planning 오브젝트에서 GenStudio for Performance Marketing 사용
 * 선택 값은 소문자로 표시되며, 여러 단어 선택의 경우 밑줄로 구분됩니다. 동일한 필드에 다른 선택 이름으로 이미 사용된 레이블을 사용하는 경우 Workfront이 값에 순차적 번호를 추가합니다.
 
 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
+
+
+
+
+
+

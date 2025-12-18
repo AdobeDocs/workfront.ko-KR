@@ -4,9 +4,9 @@ description: 2026년 1분기 통합 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 192df9ef08f75b3a6a6e9a50908b6da6e861bdd6
+source-git-commit: d0434e500daa257ec9070c5bb0279eb30545f64d
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,22 @@ ht-degree: 0%
 
 2026년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
 
-## Experience Manager Assets용 Adobe Workfront 기본 통합에 대한 자산 선택기 업데이트됨
 
+## Creative Cloud Express에서 검토를 보낼 때 Workfront 프로젝트 선택
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 15일
+>프로덕션 빠른 릴리스: 2025년 12월 15일\
+>모두를 위한 프로덕션: 2025년 12월 15일
+
+증명을 보낼 Workfront 프로젝트를 선택할 수 있습니다. 이렇게 하면 모든 관련 에셋과 증명이 동일한 프로젝트 내에 체계적으로 정리될 수 있습니다.
+
+이전에는 증명이 Express 특정 프로젝트에 자동으로 추가되었습니다.
+
+자세한 내용은 [Adobe Express 및 Workfront Proof 통합](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)을 참조하십시오.
+
+## Experience Manager Assets용 Adobe Workfront 기본 통합에 대한 자산 선택기 업데이트됨
 
 >[!NOTE]
 >
@@ -43,3 +57,4 @@ Experience Manager Assets용 Adobe Workfront 통합에서 에셋 선택기를 �
 Workfront API에 대한 최근 변경 사항을 최신 상태로 유지하기 위해 새로운 Salesforce 통합을 만들었습니다. 새 통합은 이전 버전과 동일한 기능을 제공하며 API에서 더 이상 사용되지 않는 기능이 손실되지 않도록 업데이트되었습니다.
 
 새 통합을 다운로드하고 설치하는 방법에 대한 지침 및 링크는 [Salesforce용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)를 참조하십시오.
+

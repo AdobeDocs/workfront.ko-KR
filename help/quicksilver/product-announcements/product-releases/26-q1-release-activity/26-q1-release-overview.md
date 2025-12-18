@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 1분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f126e75845e15ff5d4e0b327abcfafb1dbffd99
+source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2888'
 ht-degree: 4%
 
 ---
@@ -56,6 +56,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿의 우선 순위 관리</a>
+            <p>이제 레이아웃 템플릿에서 특정 사용자에 대한 우선 순위를 활성화하거나 비활성화할 수 있습니다. 이전에 조직에 대해 [우선 순위]를 비활성화한 경우, 이 변경 사항으로 레이아웃 템플릿에서 비활성화된 상태로 유지됩니다.</p>
+        </td>
+        <td>2025년 12월 18일 금요일</td>
+        <td>2025년 1월 14일 수요일</td>
+        <td>2025년 1월 15일 목요일</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">계산된 사용자 지정 필드에 대한 다중 양식 충돌 확인</a>
+            <p>사용자 정의 필드에서 표현식을 편집할 때 영향을 받을 수 있는 오브젝트를 표시하기 위해 충돌을 확인하는 옵션을 추가했습니다. 이 대화 상자는 공식 변경의 영향을 받을 수 있는 모든 객체를 객체 유형별로 그룹화하여 표시합니다. 각 객체의 세부 정보로 이동하고 필드를 검토하여 양식에서 필드를 제거할지 또는 표현식을 변경하지 않고 유지할지 여부를 결정할 수 있습니다.</p>
+        </td>
+        <td>2025년 12월 18일 금요일</td>
+        <td>2025년 1월 14일 수요일</td>
+        <td>2025년 1월 15일 목요일</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">사용자 지정 개체에 저장된 시작 날짜 및 입력한 ID</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
@@ -127,6 +145,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+
+
 ### 통합 개선 사항
 
 <table style="table-layout:auto">
@@ -137,6 +157,39 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>미리보기</strong></td>
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-home.md" class="MCXref xref" xrefformat="{para}">홈에서 언급 위젯 업데이트</a>
+            <p>홈의 언급 위젯에 대한 다음과 같은 사항이 개선되었습니다. <ul><li>이제 홈 의 언급 위젯에서도 대부분의 Workfront 오브젝트의 업데이트 영역에서 동일한 경험을 사용할 수 있습니다. </li><li>이제 언급 위젯에 지난 2주 동안 사용자가 작성하거나 태그 지정한 주석이 포함됩니다</li><ul></p>
+        </td>
+        <td>2025년 12월 17일 목요일</td>
+        <td>2026년 1월 14일 목요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr>   
+  </tbody>
+</table>
+
+### 통합 개선 사항
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>기능</strong>
+        </td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Creative Cloud Express에서 리뷰를 보낼 때 Workfront 프로젝트 선택</a><p>![배지 해제 일정]{type=Neutral}</p>
+            <p>증명을 보낼 Workfront 프로젝트를 선택할 수 있습니다. 이렇게 하면 모든 관련 에셋과 증명이 동일한 프로젝트 내에 체계적으로 정리될 수 있습니다. </p>
+        </td>
+        <td>2025년 12월 15일 화요일</td>
+        <td>2025년 12월 15일 화요일</td>
+        <td>2025년 12월 15일 화요일</td>
+    </tr>   
     </tr>
          <tr>
         <td>
@@ -193,6 +246,69 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
     </tr>
+ <!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Currency updates in Canvas Dashboards</a>
+            <p>We have made the following updates for currency fields:<ul><li>When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. </li><li>When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.</li><li>When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields</li></ul></p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>-->
+ <!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> Quick search table results in Canvas Dashboards</a>
+            <p>We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.</p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>-->
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">원형 차트에 대한 새 전체 표시 옵션</a>
+            <p>파이 차트를 도넛 차트로 변환하는 새로운 합계 표시 옵션을 도입했습니다. 이 기능을 사용하면 차트에 있는 모든 세그먼트의 합계를 나타내는 중앙 값을 표시할 수 있습니다.</p>
+        </td>
+        <td>2025년 12월 18일 금요일</td>
+        <td>2026년 1월 14일 목요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 파이 차트에 대한 새 구성 옵션</a>
+            <p>파이 차트에 대한 두 가지 새로운 구성 옵션이 도입되었습니다. <ul><li>세그먼트 레이블 숨기기: 이제 세그먼트 레이블이 너무 길고 차트 가독성에 영향을 주는 경우 원형 차트에서 숨기도록 선택할 수 있습니다.</li><li>차트 범례 숨기기 및 위치 변경: 이제 원형 차트 범례를 숨기도록 선택할 수 있습니다. 범례의 위치를 차트의 오른쪽(기본값), 왼쪽, 위쪽 또는 아래쪽으로 설정할 수도 있습니다. </li></ul></p>
+        </td>
+        <td>2025년 12월 18일 금요일</td>
+        <td>2026년 1월 14일 목요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드 그룹화 수 개선</a>
+            <p>현재 페이지의 레코드 수와 모든 페이지의 그룹화에 대한 전체 레코드 수를 표시하도록 캔버스 대시보드의 그룹화 막대를 업데이트했습니다. </p>
+        </td>
+        <td>2025년 12월 18일 금요일</td>
+        <td>2026년 1월 14일 목요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 보고서에 새로운 참조 줄 기능</a>
+            <p>이제 막대, 열 및 선 차트에서 참조 라인을 정의하여 시리즈 기반 보고서의 대상 또는 임계값을 설정할 수 있습니다. </p>
+        </td>
+        <td>2025년 12월 18일 금요일</td>
+        <td>2026년 1월 14일 목요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 차트 보고서에서 축 레이블 사용자 지정</a>
+            <p>이제 차트 보고서에서 축 레이블을 사용자 지정할 수 있습니다. 이 새 기능을 사용하면 기본 개체 및 필드 경로 대신 표시할 대체 축 레이블을 입력할 수 있습니다. 또한 축 레이블을 완전히 숨기도록 선택할 수 있습니다.</p>
+        </td>
+        <td>2025년 12월 18일 금요일</td>
+        <td>2026년 1월 14일 목요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr>   
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드에 보고서 복제</a><p>![배지 해제 일정]{type=Neutral}</p>
@@ -258,6 +374,42 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">만들어진 개체 링크를 요청 영역 및 내 요청 위젯에서 사용할 수 있습니다</a>
+            <p>특정 요청으로 만든 개체로 더 쉽게 이동할 수 있도록 만들어진 개체 열에 링크를 추가했습니다. 이제 이 열의 링크를 클릭하여 생성된 객체의 페이지로 바로 이동할 수 있습니다./p&gt;
+        </td>
+        <td>2025년 12월 18일 금요일</td>
+        <td>2026년 1월 14일 목요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr> 
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create groupings in the Requests list and My Requests widget</a>
+            <p>To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.</p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr> -->
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">요청 목록 및 내 요청 위젯에 사용자 정의 필드 추가</a>
+            <p>필요한 정보를 더 쉽게 볼 수 있도록 사용자 정의 필드를 요청 목록 및 홈 의 내 요청 위젯에 열로 추가하는 기능을 추가했습니다. 이제 사용자 정의 양식의 필드를 열로 추가할 수 있으며 해당 필드에 정보가 있는 요청은 목록 또는 위젯에 해당 정보를 표시합니다.</p><p>이 기능은 새 요청 환경에서만 사용할 수 있습니다.</p>
+        </td>
+        <td>2025년 12월 18일 금요일</td>
+        <td>2026년 1월 14일 목요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">현재 사용자 와일드카드를 요청 필터에서 사용할 수 있음</a>
+            <p>사용자에게 적용되는 요청을 더 쉽게 필터링할 수 있도록 현재 사용자 와일드카드를 만들었습니다. 이제 필터링할 때 "나(로그인한 사용자)"를 선택할 수 있습니다. 그런 다음 필터는 요청 목록을 보고 있는 사용자에게 적용됩니다.   </p>
+        </td>
+        <td>2025년 12월 18일 금요일</td>
+        <td>2026년 1월 14일 목요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">AI에서 제공하는 양식 채우기를 이제 요청에 사용할 수 있음</a>
             <p>요청을 더 쉽게 만들 수 있도록 AI에서 제공하는 양식 채우기를 만들었습니다. 이제 프롬프트에 붙여넣거나 요청 양식에 문서를 업로드할 수 있으며 AI가 관련 정보를 꺼내 양식을 채웁니다.  </p>
         </td>
@@ -266,14 +418,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>2025년 12월 11일 금요일</td>
     </tr> 
     <tr>
-        <!--<td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
-            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">요청 영역 및 내 요청 위젯에서 보기 공유</a>
+            <p>필요한 정보를 더 쉽게 볼 수 있도록 새 보고 환경에 보기를 공유하는 기능을 추가했습니다. 이제 다른 사용자, 팀 또는 그룹과 보기를 공유할 수 있습니다. </p>
         </td>
-        <td>December 4, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
-    </tr> -->
+        <td>2025년 12월 4일 금요일</td>
+        <td>2026년 1월 14일 목요일</td>
+        <td>2026년 1월 15일 금요일</td>
+    </tr> 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">새 요청 경험에 요청 초안 저장</a>
@@ -441,13 +593,13 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

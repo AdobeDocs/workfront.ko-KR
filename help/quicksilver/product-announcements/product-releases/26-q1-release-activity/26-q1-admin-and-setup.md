@@ -4,9 +4,9 @@ description: 2026년 1분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
+source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,36 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 1분기 릴리스의 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
+
+## 레이아웃 템플릿의 우선 순위 관리
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 2일
+>프로덕션 빠른 릴리스: 2026년 1월 14일
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+이제 레이아웃 템플릿에서 특정 사용자에 대한 우선 순위를 활성화하거나 비활성화할 수 있습니다. 이전에 조직에 대해 [우선 순위]를 비활성화한 경우, 이 변경 사항으로 레이아웃 템플릿에서 비활성화된 상태로 유지됩니다.
+
+요청에 대한 기본 액세스 권한이 있는 라이선스 유형에 대해 우선 순위가 자동으로 포함됩니다. 예를 들어 기여자 라이선스는 기본적으로 기본 메뉴에서 요청, 게시판 및 우선 순위를 보는 반면 외부 라이선스는 요청을 보거나 제출할 수 있는 액세스 권한이 없기 때문에 문서 및 게시판만 봅니다.
+
+
+자세한 내용은 [레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하십시오.
+
+## 계산된 사용자 정의 필드에 대한 다중 양식 충돌 확인
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+다른 사용자 정의 양식에 첨부할 때 동일한 계산된 필드에 다른 수식이 있을 수 있습니다. 동일한 계산된 필드를 포함하는 두 개 이상의 양식이 오브젝트에 첨부된 경우 수식은 모든 양식에서 동일해야 합니다. 변경 사항으로 인해 충돌이 발생할 수 있는 경우 공식을 편집할 수 없습니다.
+
+사용자 정의 필드에서 표현식을 편집할 때 영향을 받을 수 있는 오브젝트를 표시하기 위해 충돌을 확인하는 옵션을 추가했습니다. 이 대화 상자는 공식 변경의 영향을 받을 수 있는 모든 객체를 객체 유형별로 그룹화하여 표시합니다. 각 객체의 세부 정보로 이동하고 필드를 검토하여 양식에서 필드를 제거할지 또는 표현식을 변경하지 않고 유지할지 여부를 결정할 수 있습니다.
+
+자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
+
 
 ## 사용자 지정 개체에 저장된 시작 날짜 및 입력한 ID
 
@@ -61,3 +91,7 @@ ht-degree: 0%
 * 필드 라이브러리에서는 다른 사용자 정의 양식에 추가할 수 없습니다
 
 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+
+
+
+

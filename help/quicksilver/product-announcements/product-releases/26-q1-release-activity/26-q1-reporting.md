@@ -4,9 +4,9 @@ description: 2026년 1분기 보고 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
+source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,113 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 1분기 릴리스의 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
+
+<!--
+
+## Currency updates in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
+
+We have made the following updates for currency fields:
+
+* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
+
+* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
+
+* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
+
+-->
+
+<!--
+
+## Quick search table results in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
+
+We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+
+-->
+
+## 파이 차트에 대한 새 합계 표시 옵션
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+파이 차트를 도넛 차트로 변환하는 새로운 합계 표시 옵션을 도입했습니다. 이 기능을 사용하면 차트에 있는 모든 세그먼트의 합계를 나타내는 중앙 값을 표시할 수 있습니다.
+
+* 개수 합산 유형의 경우 표시되는 중심 값은 차트의 모든 세그먼트 수입니다.
+* 합계 합산 유형의 경우 표시되는 중심 값은 숫자 또는 통화 값의 합산된 합계입니다.
+* 평균, 최대 및 최소 합산 유형의 경우 중심 값에 그에 따라 평균, 최대 또는 최소 값이 표시됩니다.
+
+사용자는 합계에 대한 레이블을 표시하거나 숨기고 사용자 지정 레이블 값을 제공할 수도 있습니다.
+
+자세한 내용은 [캔버스 대시보드에 차트 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)을 참조하세요.
+
+## 캔버스 대시보드의 파이 차트에 대한 새 구성 옵션
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+파이 차트에 대한 두 가지 새로운 구성 옵션이 도입되었습니다.
+
+* 세그먼트 레이블 숨기기: 이제 세그먼트 레이블이 너무 길고 차트 가독성에 영향을 주는 경우 원형 차트에서 숨기도록 선택할 수 있습니다.
+* 차트 범례 숨기기 및 위치 변경: 이제 원형 차트 범례를 숨기도록 선택할 수 있습니다. 범례의 위치를 차트의 오른쪽(기본값), 왼쪽, 위쪽 또는 아래쪽으로 설정할 수도 있습니다.
+
+자세한 내용은 [캔버스 대시보드에 차트 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)을 참조하세요.
+
+## 캔버스 대시보드 그룹화 수 개선 사항
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+현재 페이지의 레코드 수와 모든 페이지의 그룹화에 대한 전체 레코드 수를 표시하도록 캔버스 대시보드의 그룹화 막대를 업데이트했습니다.
+
+예를 들어 그룹화 막대에 &quot;7 중 3&quot; 또는 &quot;21032 중 83&quot;이 표시되어 그룹화 내의 데이터 분포를 명확하게 볼 수 있습니다.
+
+이전에는 그룹화 막대에서 이 자세한 개수 정보를 제공하지 않았으므로 여러 페이지를 탐색할 때 그룹화 내의 총 레코드 수를 이해하는 것이 어려웠습니다.
+
+## 캔버스 대시보드의 보고서에서 새로운 참조 라인 기능
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+이제 막대, 열 및 선 차트에서 참조 라인을 정의하여 시리즈 기반 보고서의 대상 또는 임계값을 설정할 수 있습니다.
+
+참고: 참조 라인은 동적이 아니므로 여러 참조 라인을 적용할 수 없습니다. 향후 개선 사항을 모색하고 있지만 아직 계획 수립이 이루어지지 않고 있습니다.
+
+자세한 내용은 [캔버스 대시보드에 차트 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)을 참조하세요.
+
+## 캔버스 대시보드의 차트 보고서에서 축 레이블 사용자 지정
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+이제 차트 보고서에서 축 레이블을 사용자 지정할 수 있습니다. 이 새 기능을 사용하면 기본 개체 및 필드 경로 대신 표시할 대체 축 레이블을 입력할 수 있습니다. 또한 축 레이블을 완전히 숨기도록 선택할 수 있습니다.
+
+자세한 내용은 [캔버스 대시보드에 차트 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)을 참조하세요.
 
 ## 캔버스 대시보드에서 보고서 복제
 
@@ -75,3 +182,7 @@ Canvas Dashboards에서 로드 시간 지연을 방지하고 전체 성능을 �
 * 보고서의 기본 개체로부터의 거리: 10 제한
 * 테이블 보기의 열: 25개 제한
 * 대시보드 수준 필터 프롬프트: 10개 제한
+
+
+
+
