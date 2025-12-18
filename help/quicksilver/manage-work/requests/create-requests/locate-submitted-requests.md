@@ -8,15 +8,16 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
+source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
 
 # 제출된 요청 찾기
 
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 본인이나 다른 사람이 제출한 다음 유형의 요청이나 시작했지만 제출하지 않은 요청을 찾을 수 있습니다. Adobe Workfront의 다음 영역에서 이러한 요청을 찾을 수 있습니다.
 
@@ -71,11 +72,16 @@ ht-degree: 2%
 
 +++
 
-## 제출된 요청 찾기
+## 요청 영역에서 제출된 요청 찾기
 
 제출된 요청은 새 요청 경험을 사용하는지 또는 기존 요청 경험을 사용하는지에 따라 다릅니다.
 
+* [새 요청 경험에서 제출된 요청 찾기](#locate-submitted-requests-in-the-new-requesting-experience)
+* [기존 요청 경험에서 제출된 요청 찾기](#locate-submitted-requests-in-the-legacy-requesting-experience)
+
 ### 새 요청 경험에서 제출된 요청 찾기
+
+요청 영역 <span class="preview">에서 전송된 요청을 찾을 수 있습니다. 이 영역에는 해당 요청으로 만들어진 개체에 대한 링크가 포함되어 있습니다.</span>
 
 사용자 또는 다른 사용자가 새 요청 경험에서 제출한 요청을 찾으려면 다음을 수행하십시오.
 

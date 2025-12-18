@@ -6,9 +6,9 @@ description: 내 요청 위젯에서 요청을 제출할 수 있습니다. 필�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
+source-git-commit: ef44dcdc88da66d9cf357be53270ec717c06efe7
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '957'
 ht-degree: 4%
 
 ---
@@ -152,3 +152,18 @@ ht-degree: 4%
    용어가 포함된 요청은 주황색으로 강조 표시됩니다.
 
 1. (선택 사항) 강조 표시된 요청으로 이동하려면 검색 막대에서 위쪽 또는 아래쪽 화살표를 클릭합니다.
+
+<div class="preview">
+
+## 요청에 의해 생성된 오브젝트로 이동
+
+내 요청 위젯에서 요청에 의해 생성된 오브젝트를 찾을 수 있습니다.
+
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+1. (조건부) **내 요청** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 요청**&#x200B;을 찾습니다.
+1. 개체를 만든 요청을 찾습니다.
+1. 해당 요청에 대한 **만들어진 개체** 열에서 개체 이름을 클릭합니다.
+
+   객체의 페이지가 열립니다.
+
+</div>
