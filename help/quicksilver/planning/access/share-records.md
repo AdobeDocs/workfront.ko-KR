@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1772'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 2%
 
 # 레코드 공유
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--this will NOT be available in Preview ever - find a way to add this in this article that is prominent-->
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -185,7 +187,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    **공유** 상자가 열립니다.
 
-   ![에서 상속된 사용 권한을 가진 레코드에 대한 &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)사용 권한
+   ![에서 상속된 사용 권한을 가진 레코드에 대한 ](assets/permissions-for-records-with-inherited-permissions-on.png)사용 권한
 
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역 및 레코드 유형에 대해 **보기** 이상의 권한이 있는 모든 사용자는 레코드에 대해 동일한 권한을 가집니다.
 

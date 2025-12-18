@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -134,7 +134,12 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 {{step1-to-planning}}
 
-1. (조건부) Workfront 관리자인 경우 **내가 속한 작업 영역**&#x200B;을 클릭하여 만든 작업 영역에 액세스하거나 **다른 작업 영역**&#x200B;을 클릭하여 나와 공유된 작업 영역에 액세스합니다.
+1. (조건부) Workfront 관리자인 경우 다음 중 하나를 클릭합니다.
+
+   * 생성한 작업 영역에 액세스하기 위해 **내가 속한 작업 영역**
+   * 다른 사용자와 공유된 작업 영역에 액세스할 수 있는 **다른 작업 영역**
+또는
+     <span class="preview">**나와 공유된 작업 영역 또는 사용자가 만든 작업 영역에 액세스할 수 있는 모든 작업 영역**</span>
 
 1. (선택 사항) 추가 작업 영역을 표시하려면 **모두 표시**&#x200B;를 클릭합니다. 작업 영역 카드가 두 개 이상 있는 경우에만 **모두 표시** 링크가 표시됩니다.
 1. (선택 사항) 화면에 표시되는 작업 영역의 수를 제한하려면 **간단히 표시**&#x200B;를 클릭합니다.

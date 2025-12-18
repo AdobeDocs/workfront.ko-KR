@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 2%
 
 ---
@@ -41,8 +41,8 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | 한 줄 텍스트 필드의 문자 수 | 1,000자 |
 | 단락 필드의 문자 수 | 10,000자 |
 | 하나의 레코드 종류에 대한 단락 필드 수 | 20개 단락 필드 |
-| 레코드 종류 표에 붙여 넣을 수 있는 파일 크기 | 1MB |
-| 레코드 유형 테이블에 대한 API를 통해 가져올 수 있는 파일의 크기입니다. | 1.5MB |
+| 레코드 유형 테이블에서 정보를 가져오는 데 사용할 수 있는 파일 크기 | 1MB |
+| API를 통해 레코드 유형 테이블의 정보를 가져오는 데 사용할 수 있는 파일 크기 | 1.5MB |
 | API 요청을 수행할 수 있는 속도입니다 | 분당 요청 200개 |
 | 한 사용자가 하나의 레코드 유형에 대해 만들 수 있는 보기 수 | 10 |
 | 레코드 유형을 만들기 위해 가져올 수 있는 Excel 파일의 CSV 크기 | 5MB |

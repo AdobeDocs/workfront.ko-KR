@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 1%
+source-wordcount: '1067'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -121,7 +121,7 @@ ht-degree: 1%
    * 기준선
    * 비즈니스 사례 정보
    * 대기열 세부 정보
-   * 결제 요율
+   * 청구 요율
    * 청구 기록
 
      청구됨 상태의 청구 기록이 있는 프로젝트는 삭제할 수 없습니다. 자세한 내용은 [청구 기록 만들기](../../projects/project-finances/create-billing-records.md)를 참조하십시오.
@@ -174,6 +174,34 @@ ht-degree: 1%
 1. **예, 삭제**&#x200B;를 클릭합니다.
 
    프로젝트가 삭제되고 30일 동안 휴지통에 저장됩니다. Workfront 관리자는 이 시간 동안 휴지통에서 복원할 수 있습니다.
+
+## Workfront Planning 레코드의 연결된 레코드 페이지에서 프로젝트 삭제
+
+>[!NOTE]
+>
+>이 섹션의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning에 나와 있습니다.
+>
+>Workfront Planning에 액세스하기 위한 요구 사항 목록은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+> 
+>Workfront Planning에 대한 일반적인 정보는 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
+
+Workfront Planning 연결된 레코드 페이지에서 프로젝트에 액세스하고 삭제하려면 먼저 다음 사항이 있어야 합니다.
+
+* Workfront 프로젝트에 연결된 레코드 유형 계획 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+* 계획 레코드. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
+* Planning 레코드에 연결된 프로젝트를 표시하는 연결된 레코드 페이지입니다. 자세한 내용은 [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
+
+연결된 레코드 페이지에서 레코드를 삭제하려면 다음을 수행하십시오.
+
+1. 레코드에 연결된 프로젝트를 표시하는 연결된 레코드 페이지에서 프로젝트 이름을 마우스로 가리킨 다음 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭합니다
+
+   또는
+
+   목록에서 프로젝트를 한 개 또는 여러 개 선택합니다. 프로젝트 목록 하단의 파란색 막대를 확인합니다.
+
+1. **삭제**&#x200B;를 클릭한 다음 **삭제**&#x200B;를 클릭하여 확인합니다.
+
+   프로젝트가 삭제되고 Workfront 휴지통에 보관됩니다.
 
 ## 삭제된 프로젝트 복원
 
