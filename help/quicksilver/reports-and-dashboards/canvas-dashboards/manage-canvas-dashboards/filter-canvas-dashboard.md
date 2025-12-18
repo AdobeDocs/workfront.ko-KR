@@ -6,20 +6,22 @@ description: 필터가 생성되면 캔버스 대시보드에 필터를 적용�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '1013'
+ht-degree: 1%
 
 ---
 
 # 캔버스 대시보드 필터링
 
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경에서만 사용할 수 있습니다.</span>
+
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->&#x200B;>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
->&#x200B;>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
+>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -177,3 +179,22 @@ ht-degree: 0%
    ![조건 선택](assets/prompts-list.png)
 
 1. 패널을 숨기려면 오른쪽 상단의 **닫기** 아이콘 ![닫기 아이콘](assets/close-icon.png)을 클릭합니다.
+
+<span class="preview">
+
+## 통화 유형별로 대시보드 필터링
+
+대시보드 수준에서 다양한 통화 유형 간을 전환할 수 있습니다. 통화 필드가 포함된 보고서는 선택한 통화 유형을 반영하도록 업데이트됩니다.
+
+>[!NOTE]
+>
+>통화 필드는 보고서 수준에서 잠길 수 있습니다. 통화 필드가 잠겨 있으면 대시보드의 통화 유형을 변경할 때 해당 보고서의 통화 유형이 변경되지 않습니다.
+
+대시보드에 대한 통화 유형을 변경하려면
+
+1. 대시보드 세부 정보 페이지의 오른쪽 위 모서리에 있는 통화 드롭다운 메뉴를 클릭합니다.
+1. 목록에서 원하는 통화 유형을 선택합니다.
+
+   ![통화 드롭다운 변경](assets/filter-by-currency.png)
+
+</span>

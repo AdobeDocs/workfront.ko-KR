@@ -4,9 +4,9 @@ description: 2026년 1분기 보고 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -17,39 +17,35 @@ ht-degree: 0%
 
 2026년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
 
-<!--
 
-## Currency updates in Canvas Dashboards
 
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
-
-We have made the following updates for currency fields:
-
-* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
-
-* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
-
-* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
-
--->
-
-<!--
-
-## Quick search table results in Canvas Dashboards
+## 캔버스 대시보드의 통화 업데이트
 
 >[!NOTE]
 >
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일
+>모두를 위한 프로덕션: 2026년 1월 15일
 
-We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+통화 필드에 대해 다음과 같이 업데이트되었습니다.
 
--->
+* Workfront에 여러 통화가 정의된 경우 이제 생성 중에 대시보드에 대한 기본 통화를 선택할 수 있습니다.
+
+* 보고서를 만들 때 통화 필드를 잠글 수 있습니다. 이렇게 하면 대시보드 수준의 통화 기본 설정이 이러한 값 표시에 영향을 주지 않습니다.
+
+* 대시보드를 볼 때 사용자는 Workfront에서 정의된 통화 간에 전환할 수 있습니다. 이러한 변경 사항은 잠긴 통화 필드를 제외한 전체 대시보드에 적용됩니다.
+
+
+## 캔버스 대시보드의 빠른 검색 테이블 결과
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 18일
+>프로덕션 빠른 릴리스: 2026년 1월 14일
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+표 보고서에 빠른 검색을 추가했습니다. 이 검색은 모든 페이지에서 작동하므로 현재 표시되지 않는 데이터도 찾을 수 있습니다.
+
 
 ## 파이 차트에 대한 새 합계 표시 옵션
 
