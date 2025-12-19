@@ -7,9 +7,9 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '528'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,10 @@ Canvas Dashboards를 사용하면 문서 승인 결정 및 Workfront 계획을 �
 * Workfront 대시보드를 만들거나 편집하려면 Canvas 관리자가 액세스 수준의 대시보드에 대한 편집 액세스 권한을 부여해야 합니다. 편집 액세스 권한 부여에 대한 자세한 내용은 [보고서, 대시보드 및 일정에 대한 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)를 참조하십시오.
 
 ## 캔버스 대시보드 문서
+
+* 캔버스 대시보드 사용
+
+   * [캔버스 대시보드 사용](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
 
 * 캔버스 대시보드 베타
 

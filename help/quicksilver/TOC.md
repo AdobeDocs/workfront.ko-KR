@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 7a29fcef1ee9a3010b7efc0713b5bbe9ca48b5cc
 workflow-type: tm+mt
-source-wordcount: '13631'
+source-wordcount: '13634'
 ht-degree: 2%
 
 ---
@@ -978,7 +978,7 @@ ht-degree: 2%
          * [Adobe Workfront에서 로그아웃](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
          * [향상된 인증을 통해 사용자 암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
          * [이메일 초대 수신 및 Adobe Workfront 암호 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-         * [&#x200B; [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
+         * [ [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * 모바일 앱 {#mobile-apps}
       * [모바일 앱](workfront-basics/mobile-apps/mobile-apps.md)
@@ -1535,6 +1535,7 @@ ht-degree: 2%
    * [보고서 및 대시보드: 문서 색인](reports-and-dashboards/reports-and-dashboards-overview.md)
    * 캔버스 대시보드 {#canvas-dashboards}
       * [캔버스 대시보드 개요](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * [캔버스 대시보드 사용](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
       * 대시보드 만들기 {#create-dashboards}
          * [캔버스 대시보드 만들기: 문서 인덱스](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
          * [캔버스 대시보드 만들기](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
@@ -2207,7 +2208,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2215,8 +2216,8 @@ ht-degree: 2%
          * [XD 아트보드를 Workfront에 문서로 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [&#x200B; [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [&#x200B; [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [ [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator 및 InDesign용 Workfront 확장 {#workfront-for-illustrator-indesign}
          * [Illustrator 및 InDesign용 Workfront 확장 사용](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Adobe Workfront for Jira {#workfront-for-jira}

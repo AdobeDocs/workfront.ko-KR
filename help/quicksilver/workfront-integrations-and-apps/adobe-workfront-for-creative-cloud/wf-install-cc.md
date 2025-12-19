@@ -6,9 +6,9 @@ description: Adobe 마켓플레이스에서  [!DNL Adobe Workfront for design an
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 58ee0356a68dae35a1c77847f92e9e6a3d706ce6
+source-git-commit: 281733f00654911e2c1114485fca018b6a0feec1
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
@@ -159,7 +159,7 @@ ht-degree: 4%
 
    >[!TIP]
    >
-   >Mac에서 Finder로 이동하여 **Command+Shift+를 누릅니다.** 숨겨진 폴더를 표시하려면 **/Users/username/Library/Application Support**(으)로 이동한 다음 **Workfront** 폴더를 삭제합니다. `username`을(를) Mac 사용자 이름으로 바꾸어야 합니다.
+   >Mac에서 Finder로 이동하여 **Command+Shift+G**&#x200B;를 누르고 다음 위치로 이동합니다.  `~/Library/Application Support/Workfront`을(를) 클릭한 다음 **Workfront** 폴더를 삭제합니다.
 
 
 1. 플러그인으로 돌아가 Workfront 도메인을 입력합니다. 도메인은 `company-name.my.workfront.com`이(가) 아닌 `experience.adobe.com`이어야 합니다.
