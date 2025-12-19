@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,23 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 연결된 레코드 페이지 개선 사항
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 19일
+>프로덕션 빠른 시간: 2026년 1월 14일
+>전체 프로덕션: 2026년 1월 15일
+
+연결된 레코드 페이지로 작업할 때 보다 유연하게 사용할 수 있도록 이 Workfront Planning 영역에서 보기 기능을 개선했습니다. 다음은 레코드의 연결된 레코드 페이지에서 향상된 기능입니다.
+
+* 이제 레코드의 연결된 레코드 페이지에 타임라인 및 달력 보기를 추가할 수 있습니다.
+* 이제 연결된 레코드 페이지에서 모든 보기를 공유할 수 있습니다. 이러한 페이지에서 공유되는 보기는 Workfront Planning의 다른 영역에서 공유하는 모든 사용자가 시스템 전체에 볼 수 있습니다. Planning의 다른 영역에서 공유되는 모든 보기는 공유된 동일한 사용자에 대해 연결된 레코드 페이지에도 표시됩니다.
+* 각 레코드 또는 개체 유형당 연결된 레코드 페이지를 하나만 허용하는 제한 사항을 추가했습니다. 이 개선 이전에는 동일한 레코드 또는 개체 유형에 대해 여러 페이지를 추가할 수 있었습니다. 이제 연결된 하나의 레코드 페이지에서 동일한 레코드 종류에 대해 여러 보기를 사용할 수 있습니다.
+* 테이블 보기의 맨 아래에 **새 행** 링크가 추가되었으며 연결된 레코드 페이지의 오른쪽 상단에 **레코드 연결** 단추가 있습니다. 개선 전에는 **새 행** 링크 및 **레코드 연결** 단추가 프로젝트에 연결된 페이지에만 있었습니다.
+
+자세한 내용은 [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
 
 ## 연결된 레코드 프로젝트 페이지에서 보기 공유
 
@@ -116,26 +133,7 @@ Workfront Planning의 Workspaces 기본 페이지에 대해 다음과 같이 개
 
 자세한 내용은 [작업 영역 편집](/help/quicksilver/planning/architecture/edit-workspaces.md)을 참조하십시오.
 
-<!--
 
-## Improvements to connected records pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
-
-* You can now add a timeline and a calendar view to a record's connected records page.
-* You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
-* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
-* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
-
-For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-
--->
 
 ## GenStudio 작업 영역에서 기본적으로 제품 및 성향에 브랜드 연결 필드 추가
 
