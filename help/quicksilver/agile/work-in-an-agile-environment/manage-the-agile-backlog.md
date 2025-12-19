@@ -91,7 +91,7 @@ ht-degree: 1%
 스토리를 분류하려면:
 
 1. 분류할 스토리가 포함된 백로그로 이동합니다.
-1. 분류할 스토리를 선택한 다음 **[!UICONTROL 스토리 분류]**를 클릭합니다.
+1. 분류할 스토리를 선택한 다음 **[!UICONTROL 스토리 분류]**&#x200B;를 클릭합니다.
 [!UICONTROL 분석 스토리] 대화 상자가 표시됩니다.
    ![분석 스토리 대화 상자](assets/backlog-breakdown-dialog.png)
 
@@ -181,7 +181,7 @@ ht-degree: 1%
 1. (선택 사항) 기존 피할당자를 삭제합니다.
 1. **[!UICONTROL 피할당자 추가]**&#x200B;를 클릭합니다.
 1. 작업 또는 문제에 할당할 애자일 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 팀 이름을 클릭합니다.
-1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
+1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 이제 작업 또는 문제를 팀 백로그에서 사용할 수 있습니다.
 
 ## 백로그 내부 또는 외부로 스토리 이동
@@ -193,7 +193,7 @@ ht-degree: 1%
 ### 백로그에서 반복 또는 보드로 스토리 이동
 
 1. 애자일 팀의 백로그로 이동합니다.
-1. 반복 또는 칸반 보드로 이동할 스토리를 선택한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 다음으로 이동]**을 클릭합니다.
+1. 반복 또는 칸반 보드로 이동할 스토리를 선택한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 다음으로 이동]**&#x200B;을 클릭합니다.
 스토리를 [!UICONTROL Kanban] 보드로 이동하면 [!UICONTROL Kanban] 보드로 스토리 이동 보드가 표시됩니다.
 스토리를 반복으로 이동하면 [!UICONTROL 스토리를 반복으로 이동] 대화 상자가 표시됩니다.
    ![스토리 이동 대화 상자](assets/agile-backlog-addtoiteration.png)
@@ -216,4 +216,4 @@ ht-degree: 1%
 
 백로그에서 직접 하나 이상의 스토리(작업 및 문제 포함)를 내보낼 수 있습니다.
 
-[!DNL Workfront]데이터 내보내기[에 설명된 대로 ](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)의 다른 데이터를 내보내는 것과 같은 방식으로 백로그에서 스토리를 내보냅니다.
+[!DNL Workfront]데이터 내보내기[에 설명된 대로 &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)의 다른 데이터를 내보내는 것과 같은 방식으로 백로그에서 스토리를 내보냅니다.

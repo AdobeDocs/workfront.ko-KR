@@ -17,7 +17,7 @@ ht-degree: 3%
 
 다음 방법 중 하나로 반복에 스토리를 추가할 수 있습니다.
 
-* [애자일 백로그 관리[!UICONTROL 의 ]백로그에서 반복 또는 ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)Kanban[ 보드로 스토리 이동](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 섹션에 설명된 대로 반복이 만들어진 후 백로그에서
+* [애자일 백로그 관리[!UICONTROL 의 &#x200B;]백로그에서 반복 또는 &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)Kanban[&#x200B; 보드로 스토리 이동](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 섹션에 설명된 대로 반복이 만들어진 후 백로그에서
 
 * 개별 작업 또는 문제의 [!UICONTROL 세부 정보] 페이지에서
 * 작업 또는 문제 목록에서
@@ -95,7 +95,7 @@ ht-degree: 3%
 또는
 반복에 추가할 작업 또는 문제가 포함된 프로젝트, 보고서 또는 대시보드로 이동합니다. 그런 다음 작업 또는 문제를 하나 이상 선택합니다.
 
-1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png) > **[!UICONTROL 반복에 추가]**를 클릭합니다.
+1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png) > **[!UICONTROL 반복에 추가]**&#x200B;를 클릭합니다.
 애자일이 아닌 팀에 할당된 작업 또는 문제를 할당할 수 없습니다.
 
 1. **[!UICONTROL 다음에 추가]** 상자에서 반복 이름을 입력하고 목록에 나타나면 선택합니다.
