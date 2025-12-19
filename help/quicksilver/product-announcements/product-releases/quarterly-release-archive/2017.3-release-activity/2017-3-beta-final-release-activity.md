@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '3791'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2017.3 Beta 최종 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1&rbrace;**
+관리자용 **1}**
 
 * [승인 설정 영역에서 요청 회수를 위한 새 구성](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [기본 증명 역할 구성](#configure-default-proof-roles)
@@ -94,21 +94,21 @@ Workfront 관리자는 할당된 레이아웃 템플릿을 구성하여 조직�
 
 ## 애자일용 칸반  {#kanban-for-agile}
 
-이제 애자일 팀은 이미 지원되는 스크럼 애자일 방법론에 더하여 Workfront 내에서 Kanban 방법론을 사용할 수 있습니다.
+이제 애자일 팀은 이미 지원되는 스크럼 애자일 방법론 외에도 Workfront 내에서 Kanban 방법론을 사용할 수 있습니다.
 
 Workfront의 스크럼 및 칸반 애자일 방법론은 다음과 같은 점에서 다릅니다.
 
 **Workfront에서 Kanban을 사용할 때의 이점**
 
-* Kanban 애자일 스토리 보드에 백로그를 표시합니다.
+* Kanban Agile 스토리 보드에 백로그를 표시합니다.
 
   자세한 내용은에서 를 참조하십시오.
 
-* 다른 항목이 완료와 동일한 상태로 이동될 때 백로그에 있는 항목이 자동으로 Kanban 애자일 스토리 보드에 추가되도록 구성합니다.
+* 다른 항목이 완료와 동일한 상태로 이동될 때 백로그에 있는 항목이 Kanban Agile 스토리 보드에 자동으로 추가되도록 구성합니다.
 
   자세한 내용은 [Kanban 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)의 [백로그에서 자동으로 추가할 스토리 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)을 참조하십시오.
 
-* Kanban 애자일 스토리 보드에 표시할 WIP(Work In Progress) 한도를 구성합니다.
+* Kanban Agile 스토리 보드에 표시할 WIP(Work In Progress) 한도를 구성합니다.
 
   자세한 내용은 [Kanban 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)에서 [WIP(작업 진행 중) 제한 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)을 참조하십시오.
 
@@ -161,7 +161,7 @@ Workfront의 스크럼 및 칸반 애자일 방법론은 다음과 같은 점에
 
 이제 애자일 백로그에서 그룹화 및 필터 옵션을 사용할 수 있으므로 그룹화별로 백로그를 구성하고 특정 작업 및 문제를 필터링할 수 있습니다.
 
-이 변경 전에 보기에서 애자일 백로그에 적용할 수 있었습니다.
+이 변경 전에 애자일 백로그에 보기에 적용할 수 있었습니다.
 
 자세한 내용은  [애자일 백로그 관리](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)  [애자일 백로그를 관리합니다](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 

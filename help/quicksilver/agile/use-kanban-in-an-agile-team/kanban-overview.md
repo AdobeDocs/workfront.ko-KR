@@ -7,7 +7,7 @@ description: 칸반 보드의 작동 방식을 더 잘 이해하려면 이 문�
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 K[!UICONTROL anban] 방법에 대한 설명은 [애자일 팀 만들기](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)를 참조하십시오.
 
-애자일 팀 [!UICONTROL Kanban] 보드에서 [!DNL Workfront] [!UICONTROL 보드]&#x200B;(으)로 마이그레이션하려면 [애자일 팀 [!UICONTROL Kanban] 카드를  [!DNL Workfront] 보드](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)(으)로 마이그레이션 을 참조하십시오.
+애자일 팀 [!UICONTROL Kanban] 보드에서 [!DNL Workfront] [!UICONTROL 보드]&#x200B;(으)로 마이그레이션하려면 [애자일 팀 [!UICONTROL Kanban] 카드를  [!DNL Workfront] 보드로 마이그레이션](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)을 참조하세요.
 
 ## [!UICONTROL Kanban] 보드 레이아웃 및 함수
 
@@ -32,7 +32,7 @@ K[!UICONTROL anban] 방법에 대한 설명은 [애자일 팀 만들기](/help/q
 
 **스토리 상태**: 스토리가 있는 상태 열에 따라 스토리가 진행되는 방식을 나타냅니다.
 
-자세한 내용은 [Kanban[!UICONTROL &#x200B; 보드에서 스토리 상태 업데이트]를 참조하십시오.](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)
+자세한 내용은 [Kanban[!UICONTROL  보드에서 스토리 상태 업데이트]를 참조하십시오.](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)
 
 [[!UICONTROL 다음 위치에서 보기 만들기 또는 편집]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)의 [애자일 보기 만들기 또는 사용자 지정 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 섹션에 설명된 대로 애자일 보기를 수정하여 프로젝트에 대해 스토리 상태를 사용자 지정할 수 있습니다.
 

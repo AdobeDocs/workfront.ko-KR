@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2743'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,6 @@ ht-degree: 0%
       * <span class="preview">타임라인</span>
       * <span class="preview">일정</span>
    * 목록 보기에 연결된 Workfront 프로젝트를 표시할 수 있습니다.
-
-
-<!--replace the above bullet with this: 
-
-* You can display the objects in a connected records page in the following types of views:
-
-   * Table
-   * <span class="preview">Timeline</span>
-   * <span class="preview">Calendar</span>
-
-* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
-
--->
 
 * 다음과 같은 연결된 레코드 또는 객체 유형에 대해 연결된 레코드 페이지를 추가할 수 있습니다.
 
@@ -89,7 +76,7 @@ ht-degree: 0%
    <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr>
 
@@ -132,7 +119,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >[!TIP]
    >
    ><span class="preview">레코드 종류당 연결된 레코드 페이지를 하나씩 만들 수 있습니다. 연결된 레코드 형식에 이미 페이지가 있으면 더 이상 옵션으로 표시되지 않습니다.</span>
-
+   >
 
 1. (선택 사항 및 조건부) 페이지를 표시하기 위해 빌드하고 있는 레코드 또는 개체 형식의 연결된 필드가 두 개 이상인 경우 **참조 필드 선택** 목록에서 연결된 레코드 페이지에 표시할 레코드 또는 개체의 필드를 클릭합니다.
 
@@ -149,7 +136,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >
    >연결된 레코드를 연결된 레코드 페이지에 표시하려면 먼저 레코드의 테이블 또는 세부 정보 영역에 연결된 레코드를 추가해야 합니다. 그렇지 않으면 테이블이나 목록이 비어 있습니다.
 
-   연결된 레코드의 처음 5개 필드는 기본적으로 표시됩니다. <!--No lookup fields display by default.-->
+   연결된 레코드의 처음 5개 필드는 기본적으로 표시됩니다. 기본적으로 표시되는 조회 필드가 없습니다.
 
    ![캠페인 세부 정보 아래의 대상자 연결 테이블 보기](assets/audience-connected-table-view-under-campaign-details-page.png)
 
@@ -165,9 +152,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    또는
 
    탭 이름 위로 마우스를 가져간 다음 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭하여 새 연결된 레코드 페이지 탭으로 이름을 바꿉니다.
-
-
-   <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
 
 1. (선택 사항) 연결된 레코드 페이지 탭의 이름을 마우스로 가리키고 **자세히** ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **삭제**&#x200B;를 클릭하여 탭으로 제거합니다.
 
@@ -185,6 +169,7 @@ Planning 레코드에 대한 연결된 레코드 페이지 관리는 사용하�
 1. 기존 레코드를 연결하려면 테이블 보기 아래쪽에 있는 **연결**&#x200B;을 클릭하고 연결 상자에서 선택한 다음 상자 바깥쪽을 클릭하여 닫습니다. 레코드는 자동으로 표에 추가되고 선택한 레코드에 연결됩니다. 레코드를 추가하려면 먼저 해당 레코드가 있어야 합니다.
 
    자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
+
 1. 테이블 보기에서 인라인으로 연결된 레코드의 모든 정보를 편집합니다.
 1. 연결된 레코드의 이름을 마우스로 가리킨 다음 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다
 
@@ -204,6 +189,7 @@ Planning 레코드에 대한 연결된 레코드 페이지 관리는 사용하�
      >[!TIP]
      >
      >둘 이상의 레코드 또는 개체를 선택하여 삭제할 수 있습니다.
+     >
 
 1. 연결된 레코드 페이지의 표에 있는 모든 레코드를 인라인 편집합니다.
 1. 연결된 레코드 페이지의 도구 모음에서 다음 보기 요소를 사용하여 테이블 보기를 관리합니다.
@@ -220,6 +206,7 @@ Planning 레코드에 대한 연결된 레코드 페이지 관리는 사용하�
    >[!NOTE]
    >
    >연결된 레코드 탭의 표 보기에서 필드를 만들거나 편집하거나 삭제할 수 없습니다.
+   >
 
 <div class="preview">
 
@@ -233,6 +220,7 @@ Planning 레코드에 대한 연결된 레코드 페이지 관리는 사용하�
 1. 연결된 레코드 페이지의 오른쪽 위 모서리에서 **레코드 연결**&#x200B;을 클릭하여 기존 레코드를 연결하고 연결 상자에서 선택한 다음 상자 바깥쪽을 클릭하여 닫습니다. 레코드는 자동으로 표에 추가되고 선택한 레코드에 연결됩니다. 레코드를 추가하려면 먼저 해당 레코드가 있어야 합니다.
 
    자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
+
 1. 새 레코드를 추가하려면 표 하단의 **새 행**&#x200B;을 클릭합니다. 새 레코드는 선택한 레코드에 자동으로 연결됩니다.
 1. 테이블 보기에서 인라인으로 연결된 레코드의 모든 정보를 편집합니다.
 1. 연결된 레코드의 이름을 마우스로 가리킨 다음 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다
@@ -269,7 +257,10 @@ Planning 레코드에 대한 연결된 레코드 페이지 관리는 사용하�
    >[!NOTE]
    >
    >연결된 레코드 탭의 표 보기에서 필드를 만들거나 편집하거나 삭제할 수 없습니다.
+   >
+
 1. 보기 드롭다운 메뉴를 클릭하고 **새 보기**&#x200B;를 클릭하여 페이지에 대한 새 보기를 추가한 후 다음을 수행합니다.
+
    1. **보기 이름**&#x200B;을(를) 추가합니다.
    1. **보기 유형** 영역에서 다음 보기 유형 중 하나를 선택합니다.
 
@@ -282,12 +273,13 @@ Planning 레코드에 대한 연결된 레코드 페이지 관리는 사용하�
 
         자세한 내용은 이 문서의 [연결된 레코드 페이지에서 다중 보기 관리](#manage-multiple-views-from-the-connected-records-page) 섹션을 참조하십시오.
 
-   1. **만들기**&#x200B;를 클릭합니다.
+   1. **만들기**를 클릭합니다.
 새 보기가 보기 드롭다운 메뉴에 추가됩니다.
+
    1. (선택 사항) 만든 보기의 이름 위에 마우스를 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 옵션 중 하나를 클릭합니다.
+
       * 보기의 새 이름을 추가하려면 **이름 바꾸기**&#x200B;하세요.
       * **공유**
-
 
         자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하세요.
 
@@ -301,24 +293,6 @@ Planning 레코드에 대한 연결된 레코드 페이지 관리는 사용하�
         ![](assets/view-more-menu-projects-connected-records-page.png)
 
 </div>
-
-
-<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
-         * Portfolios
-         * Programs
-         * Groups
-         * Companies
-      Do any of the following in the table view of the connected records page: 
-      * Click the name of a object. This opens the object's page in a new tab. 
-      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
-      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
-      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
-      * **View** to open the record page in a new tab
-      * **Copy link** to copy a link to the record page
-      * **Disconnect** to disconnect the object from the record you are viewing. 
-      TIP      
-      You can select more than one record or object to disconnect them.
-      -->
 
 ### Workfront 프로젝트에 대해 연결된 레코드 페이지 관리
 
@@ -334,6 +308,7 @@ Planning 레코드에 대한 연결된 레코드 페이지 관리는 사용하�
 1. 템플릿 없이 프로젝트를 만들려면 **새 행**&#x200B;을 클릭하세요. 새 프로젝트는 현재 레코드에 자동으로 연결됩니다.
 
    자세한 내용은 [레코드에 연결할 때 Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)를 참조하십시오.
+
 1. 목록의 프로젝트 이름 위에 마우스를 놓고 **자세히** 메뉴 [추가 메뉴](assets/more-menu.png)를 클릭합니다.
 
    또는
@@ -346,10 +321,13 @@ Planning 레코드에 대한 연결된 레코드 페이지 관리는 사용하�
      >[!TIP]
      >
      >연결을 끊거나 삭제할 프로젝트를 두 개 이상 선택할 수 있습니다.
+     >
+
 1. 보기 드롭다운 메뉴를 클릭하고 **새 보기**&#x200B;를 클릭하여 페이지에 대한 새 보기를 추가한 후 다음을 수행합니다.
+
    1. **보기 이름**&#x200B;을(를) 추가합니다.
    1. **보기 형식** 영역에서 **목록**&#x200B;을(를) 선택하십시오.
-   1. **만들기**&#x200B;를 클릭합니다.
+   1. **만들기**를 클릭합니다.
 새 목록 보기가 보기 드롭다운 메뉴에 추가됩니다.
 
       자세한 내용은 이 문서의 [연결된 레코드 페이지에서 다중 보기 관리](#manage-multiple-views-from-the-connected-records-page) 섹션을 참조하십시오.
@@ -406,7 +384,7 @@ Planning 레코드에 대한 연결된 레코드 페이지 관리는 사용하�
    * **타임라인**. 자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
    * **일정**. 자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
 
-1. (선택 사항) 연결된 레코드 페이지에서 보기 이름을 마우스로 가리킨 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 다음 다음 중 하나를 클릭합니다. **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***&#x200B;가능한 모든 항목이 있는지 확인&#x200B;**&#x200B;**&#x200B;**&#x200B;***
+1. (선택 사항) 연결된 레코드 페이지에서 보기 이름을 마우스로 가리킨 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭하고 다음 중 하나를 클릭합니다.
 
    * **이름 바꾸기**
    * **공유**. 자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하세요.
@@ -424,3 +402,20 @@ Planning 레코드에 대한 연결된 레코드 페이지 관리는 사용하�
      >연결된 레코드 페이지에서 보기를 복제하면 동일한 레코드 유형을 볼 때 Workfront Planning의 다른 모든 영역에서 사용할 수 있습니다.
 
 </div>
+
+<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+         * Portfolios
+         * Programs
+         * Groups
+         * Companies
+      Do any of the following in the table view of the connected records page: 
+      * Click the name of a object. This opens the object's page in a new tab. 
+      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
+      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
+      * **View** to open the record page in a new tab
+      * **Copy link** to copy a link to the record page
+      * **Disconnect** to disconnect the object from the record you are viewing. 
+      TIP      
+      You can select more than one record or object to disconnect them.
+      -->

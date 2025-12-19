@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -133,4 +133,4 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    요청 양식을 사용하여 이전에 추가한 모든 레코드는 레코드 유형 페이지에 그대로 유지됩니다.
 
-   이전에 추가한 모든 요청은 계획 탭의 Workfront 요청 영역에 남아 있습니다.
+   이전에 추가한 모든 요청은 Workfront의 요청 영역에 남아 있습니다.

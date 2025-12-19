@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1875'
 ht-degree: 1%
 
 ---
@@ -186,7 +186,7 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
      >
      >**제목** 필드를 표시할 수 없습니다.
 
-     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+     ![요청 영역의 열 편집 상자](assets/columns-editing-box-in-requests-planning-tab.png)
 
 
 1. 목록에서 요청 이름을 클릭합니다.

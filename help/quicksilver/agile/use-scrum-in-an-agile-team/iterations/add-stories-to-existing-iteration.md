@@ -6,10 +6,10 @@ description: 다양한 방법으로 반복에 스토리를 추가할 수 있습�
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 다음 방법 중 하나로 반복에 스토리를 추가할 수 있습니다.
 
-* [애자일 백로그 관리[!UICONTROL 의 &#x200B;]백로그에서 반복 또는 &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)Kanban[&#x200B; 보드로 스토리 이동](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 섹션에 설명된 대로 반복이 만들어진 후 백로그에서
+* [애자일 백로그 관리[!UICONTROL 의 ]백로그에서 반복 또는 ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)Kanban[ 보드로 스토리 이동](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 섹션에 설명된 대로 반복이 만들어진 후 백로그에서
 
 * 개별 작업 또는 문제의 [!UICONTROL 세부 정보] 페이지에서
 * 작업 또는 문제 목록에서
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -95,7 +95,7 @@ ht-degree: 0%
 또는
 반복에 추가할 작업 또는 문제가 포함된 프로젝트, 보고서 또는 대시보드로 이동합니다. 그런 다음 작업 또는 문제를 하나 이상 선택합니다.
 
-1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png) > **[!UICONTROL 반복에 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 자세히]** ![추가 아이콘](assets/more-icon.png) > **[!UICONTROL 반복에 추가]**를 클릭합니다.
 애자일이 아닌 팀에 할당된 작업 또는 문제를 할당할 수 없습니다.
 
 1. **[!UICONTROL 다음에 추가]** 상자에서 반복 이름을 입력하고 목록에 나타나면 선택합니다.

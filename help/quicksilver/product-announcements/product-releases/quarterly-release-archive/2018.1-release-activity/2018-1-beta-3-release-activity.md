@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2018.1 Beta 3 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1&rbrace;**
+관리자용 **1}**
 
 * [그룹 관리자 개선 사항](#group-administrator-improvements)
 
@@ -194,7 +194,7 @@ HTML5 증명 뷰어의 비교 모드는 기존 증명 뷰어와 다음과 같은
 
 이제 애자일 백로그에서 그룹화 및 필터 옵션을 사용할 수 있으므로 그룹화별로 백로그를 구성하고 특정 작업 및 문제를 필터링할 수 있습니다.
 
-이 변경 전에 보기에서 애자일 백로그에 적용할 수 있었습니다.
+이 변경 전에 애자일 백로그에 보기에 적용할 수 있었습니다.
 
 자세한 내용은  [애자일 백로그 관리](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)  [애자일 백로그를 관리합니다](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 

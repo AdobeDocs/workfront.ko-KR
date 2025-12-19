@@ -6,10 +6,10 @@ description: 다양한 방법으로 반복에 대한 애자일 스토리를 만�
 author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +84,7 @@ ht-degree: 0%
       <td>스토리를 반복에 추가할 준비가 되면 이 옵션을 선택합니다. 이 옵션을 선택하면 백로그의 스토리를 반복에 추가할 준비가 되었음을 사용자에게 표시합니다.<br>스토리가 <strong>[!UICONTROL 준비]로 표시되었는지 여부에 관계없이 반복에 추가할 수 있습니다.</strong></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Estimate] (포인트)</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Estimate](포인트)</strong></td>
       <td>스토리의 예상 값을 지정합니다. 애자일 팀이 스토리를 포인트 단위로 추정하도록 구성된 경우 기본적으로 1포인트는 8시간입니다. 예상 시간이 스토리에 [!UICONTROL 계획된 시간]으로 추가됩니다.<br>예를 들어 스토리를 3점으로 예상하면 기본적으로 스토리에 24개의 [!UICONTROL 계획된 시간]을 추가합니다.<br>스토리에 하위 작업이 포함된 경우 모든 하위 작업에 대한 전체 예상 값이 상위 스토리의 예상 값을 결정합니다. 자세한 내용은 <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">기존 반복에 스토리 추가</a>를 참조하십시오.</td>
      </tr>
      <tr>
@@ -106,13 +106,13 @@ ht-degree: 0%
 
 ## 백로그에 애자일 스토리 만들기
 
-애자일 백로그 관리[&#x200B; 문서 &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories)관리[[!UICONTROL 의 &#x200B;]백로그에 새 스토리 만들기](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 섹션에 설명된 대로 애자일 백로그에서 애자일 스토리를 만들 수 있습니다.
+애자일 백로그 [관리](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) 문서 [[!UICONTROL 의 ]백로그에 새 스토리 만들기](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 섹션에 설명된 대로 애자일 백로그에서 애자일 스토리를 만들 수 있습니다.
 
 ## 작업 또는 문제를 애자일 스토리로 추가
 
 기존 작업 또는 문제를 반복에 스토리로 추가할 수 있습니다. 자세한 내용은 [기존 반복에 스토리 추가](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) 또는 [[!UICONTROL 스크럼] 보드에서 스토리 및 문제 추가](../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)를 참조하십시오.
 
-## 애자일 스토리에 하위 작업 만들기
+## 애자일 스토리에 대한 하위 작업 만들기
 
 다음 방법 중 하나를 사용하여 애자일 스토리에 대한 하위 작업을 만들 수 있습니다.
 

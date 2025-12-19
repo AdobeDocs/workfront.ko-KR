@@ -7,7 +7,7 @@ description: 목록 또는 보고서의 보기를 관리하여 목록 또는 보
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 <table style="table-layout:auto">
     <tr>
         <td><strong>표준 보기</strong></td>
-        <td>모든 개체 목록 또는 보고서에 적용할 수 있습니다. 표준 보기는 맞춤화가 매우 용이합니다. 표준 보기를 사용자 정의하고 다른 사용자와 공유할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Adobe Workfront에서 보기 만들기 또는 편집</a>을 참조하세요.</td>
+        <td>개체의 목록 또는 보고서에 적용할 수 있습니다. 표준 보기는 맞춤화가 매우 용이합니다. 표준 보기를 사용자 정의하고 다른 사용자와 공유할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Adobe Workfront에서 보기 만들기 또는 편집</a>을 참조하세요.</td>
     </tr>
     <tr>
         <td><strong>보드 보기</strong></td>
