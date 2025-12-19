@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
+source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -142,6 +142,7 @@ Workfront Planning의 Workspaces 기본 페이지에 대해 다음과 같이 개
 >미리 보기: 2025년 12월 11일
 >프로덕션 빠른 릴리스: 2025년 12월 11일
 >모두를 위한 프로덕션: 2025년 12월 11일
+>[!BADGE 일정 해제]{type=Neutral}
 
 이제 GenStudio for Performance Marketing Brand와의 연결 필드가 Workfront Planning의 GenStudio 작업 영역에서 제품 및 가상 사용자 레코드 유형에 기본적으로 추가됩니다.
 
@@ -158,6 +159,7 @@ Workfront Planning의 Workspaces 기본 페이지에 대해 다음과 같이 개
 >미리 보기: 2025년 12월 11일
 >프로덕션 빠른 릴리스: 2025년 12월 11일
 >모두를 위한 프로덕션: 2025년 12월 11일
+>[!BADGE 일정 해제]{type=Neutral}
 
 Workfront Planning 오브젝트에서 GenStudio for Performance Marketing 사용자의 권한을 제거할 수 없도록 하는 가드레일을 추가했습니다. 이러한 개선 사항으로 인해 Planning의 GenStudio 작업 영역에서 GenStudio 사용자를 더 이상 제거할 수 없으며, GenStudio 작업 영역의 레코드 유형에 GenStudio 사용자가 포함된 경우 해당 레코드 유형에 대해 상속된 권한을 비활성화할 수 없습니다. 이 개선 전에 Planning의 GenStudio 작업 영역에서 이러한 사용자를 제거하면 GenStudio의 레코드 유형에도 대한 권한이 상실됩니다.
 
