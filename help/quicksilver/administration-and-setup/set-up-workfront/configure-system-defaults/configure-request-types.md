@@ -8,10 +8,10 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '445'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,7 +87,7 @@ You must have at least one request type selected. You can select multiple reques
 1. **[!UICONTROL 프로젝트 환경 설정]** > **[!UICONTROL 상태]**&#x200B;를 클릭합니다.
 
 1. **[!UICONTROL 문제]** 탭을 클릭합니다.
-1. **[!UICONTROL 문제]** 탭의 맨 위에서 요청 유형의 이름을 마우스로 가리킨 다음 표시되는 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
+1. **[!UICONTROL 문제]** 탭의 맨 위에서 드롭다운을 클릭하고 요청 유형을 선택한 다음 표시되는 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 
    ![요청 유형 이름 편집](assets/edit-request-type-name-nwe.png)
 

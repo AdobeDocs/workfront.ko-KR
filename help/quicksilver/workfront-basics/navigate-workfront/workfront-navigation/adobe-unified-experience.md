@@ -6,10 +6,10 @@ description: Adobe Experience Cloud을 통해  [!DNL Workfront] 에 액세스하
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 1%
+source-wordcount: '718'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +91,7 @@ Adobe Admin Console의 사용자 관리에 대한 자세한 내용은 문서 [Ad
 
 ## [!DNL Workfront] 탐색
 
-[!UICONTROL &#x200B; 탐색 모음 왼쪽의 &#x200B;]기본 메뉴![&#x200B; 아이콘 &#x200B;](assets/main-menu-icon-left-nav.png)기본 메뉴 아이콘[!DNL Workfront]을 사용하여 액세스 권한이 있는 페이지로 이동합니다. [!UICONTROL 주 메뉴]에서 사용할 수 있는 옵션은 다음에 따라 다릅니다.
+[!UICONTROL  탐색 모음 왼쪽의 ]기본 메뉴![ 아이콘 ](assets/main-menu-icon-left-nav.png)기본 메뉴 아이콘[!DNL Workfront]을 사용하여 액세스 권한이 있는 페이지로 이동합니다. [!UICONTROL 주 메뉴]에서 사용할 수 있는 옵션은 다음에 따라 다릅니다.
 
 * **레이아웃 템플릿 구성**: [!DNL Workfront] 관리자가 레이아웃 템플릿에서 [!UICONTROL 주 메뉴]를 수정하는 방법에 대해 알아보려면 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴] 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하세요.
 * **라이선스 유형**: 다른 라이선스 유형에 대한 기본 구성에 대해 알아보려면 [[!UICONTROL 검토] 라이선스 사용자의 탐색 이해](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) 또는 [[!UICONTROL 작업] 라이선스 사용자의 탐색 이해](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)를 참조하십시오.
@@ -108,6 +108,9 @@ Adobe Admin Console의 사용자 관리에 대한 자세한 내용은 문서 [Ad
 
 * **[!UICONTROL 에 대해]**&#x200B;어두운 테마[!DNL Adobe Experience Cloud] 서식을 선택하세요.
 * 기본 및 보조 언어 기본 설정을 포함하여 **[!UICONTROL 에 대해]**&#x200B;기본 설정[!DNL Adobe Experience Cloud]을 설정합니다.
+  >[!NOTE]
+  >
+  >날짜 설정은 기본 언어 설정을 기반으로 합니다. 예를 들어 **영어(미국)**&#x200B;을 선택하면 날짜가 MM/DD/YYYY 형식으로 표시되고 **영어(영국)**&#x200B;을 선택하면 날짜가 DD/MM/YYYY 형식으로 표시됩니다.
 * **[!UICONTROL [!DNL Workfront]프로필에 액세스]**. 프로필에 등록된 후에는 **[!UICONTROL 기타]** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭하고 **[!UICONTROL 편집]**&#x200B;을 선택합니다. 프로필에 대한 자세한 내용은 [내 설정 구성](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)을 참조하십시오.
 * Adobe Experience Cloud **[!UICONTROL 로그아웃]**
 

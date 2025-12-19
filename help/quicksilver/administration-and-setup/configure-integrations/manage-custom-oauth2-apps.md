@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 0%
+source-wordcount: '649'
+ht-degree: 2%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 0%
 >* OAuth2의 컨텍스트에서 &quot;Oauth2 애플리케이션&quot;은 앱과 서버(예: [!DNL Workfront]) 간의 이러한 종류의 액세스 링크를 참조합니다. 자세한 내용은 [통합을 위한 OAuth2 응용 프로그램 만들기 [!DNL Workfront] 통합](../../administration-and-setup/configure-integrations/create-oauth-application.md)을 참조하십시오.
 >* 한 번에 최대 10개의 OAuth2 애플리케이션을 보유할 수 있습니다.
 
-* 사용자 지정 OAuth2 응용 프로그램 만들기에 대한 자세한 내용은 [통합을 위한 OAuth2 응용 프로그램 만들기 [!DNL Workfront] 통합](../../administration-and-setup/configure-integrations/create-oauth-application.md)을 참조하십시오.
-* 사용자 자격 증명(인증 코드 흐름)을 사용하여 OAuth2 응용 프로그램을 구성하고 사용하는 방법에 대한 지침은 [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth2 응용 프로그램 구성 및 사용](../../wf-api/api/oauth-app-code-token-flow.md)을 참조하십시오.
-* 서버 인증(JWT 흐름)을 사용하여 OAuth2 애플리케이션을 구성하고 사용하는 방법에 대한 지침은 [JWT 흐름을 사용하여 조직의 사용자 지정 OAuth2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-jwt-flow.md)을 참조하십시오.
+* 사용자 지정 OAuth2 응용 프로그램 만들기에 대한 정보, 지침 및 자세한 내용은 [통합을 위한 OAuth2 응용 프로그램 만들기 [!DNL Workfront] 통합](../../administration-and-setup/configure-integrations/create-oauth-application.md)을 참조하십시오.
+* 사용자 자격 증명(인증 코드 흐름)과 함께 OAuth2 응용 프로그램을 구성하고 사용하는 방법에 대한 정보, 지침 및 자세한 내용은 [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth2 응용 프로그램 구성 및 사용](../../wf-api/api/oauth-app-code-token-flow.md)을 참조하십시오.
+* 서버 인증(JWT 흐름)을 사용하여 OAuth2 응용 프로그램을 구성하고 사용하는 방법에 대한 정보, 지침 및 자세한 내용은 [JWT 흐름을 사용하여 조직의 사용자 지정 OAuth2 응용 프로그램 구성 및 사용](../../wf-api/api/oauth-app-jwt-flow.md)을 참조하십시오.
 * PKCE를 사용하여 OAuth2 응용 프로그램을 구성하고 사용하는 방법에 대한 지침은 [PKCE 흐름을 사용하여 조직의 사용자 지정 OAuth2 응용 프로그램 구성 및 사용](../../wf-api/api/oauth-app-pkce-flow.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 

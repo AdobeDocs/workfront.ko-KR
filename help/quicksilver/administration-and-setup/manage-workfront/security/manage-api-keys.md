@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: 87d3443c7b08c59d435e852c6a17df297e7023d6
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 2%
+source-wordcount: '1356'
+ht-degree: 3%
 
 ---
 
@@ -19,6 +19,21 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+
+
+>[!IMPORTANT]
+>
+>Workfront에서는 더 이상 `/login` 끝점 또는 API 키를 사용하지 않는 것이 좋습니다. 대신 다음 인증 방법 중 하나를 사용하십시오.
+>
+>* JWT를 사용한 서버 인증
+>* OAuth2를 통한 사용자 인증
+>
+>이러한 인증 방법 설정에 대한 지침은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
+>
+>Workfront에서 서버 인증을 사용하는 방법에 대한 지침은 [JWT 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)을 참조하십시오.
+>
+>Workfront에서 사용자 인증을 사용하는 방법에 대한 지침은 [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)을 참조하십시오.
 
 API 보안 취약점을 최소화하기 위해 Adobe Workfront 관리자는 애플리케이션이 사용자를 대신하여 Workfront에 액세스할 수 있도록 하는 데 사용되는 API 키를 관리할 수 있습니다.
 
@@ -35,7 +50,7 @@ Workfront API를 활용하는 애플리케이션의 예는 다음과 같습니�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,10 +88,6 @@ Workfront 관리자에게도 고유한 API 키가 있습니다. 애플리케이�
 ## 관리자 API 키 관리
 
 관리자 사용자 계정에 대한 API 키를 생성, 재설정 또는 제거할 수 있습니다.
-
->[!NOTE]
->
->API를 통해 API 키를 생성할 수도 있습니다. 자세한 내용은 [이벤트 구독 API](../../../wf-api/general/event-subs-api.md)의 [이벤트 구독 API](../../../wf-api/general/event-subs-api.md) 섹션을 참조하십시오.
 
 {{step-1-to-setup}}
 

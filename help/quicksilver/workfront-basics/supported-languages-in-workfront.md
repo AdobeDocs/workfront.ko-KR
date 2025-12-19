@@ -6,9 +6,9 @@ description: 브라우저의 언어 환경 설정과 Workfront 내의 기본 이
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Workfront Proof에서 지원되는 언어에 대한 자세한 내용은 [Workfro
 * Workfront Fusion에서는 사용자가 입력한 필드에 영어가 아닌 텍스트 문자를 사용할 수 없습니다.
 
 Workfront Fusion에 액세스하려면 귀사에서 Workfront Fusion 라이센스를 구매해야 합니다.\
-Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ## 언어 변경
 
@@ -106,10 +106,10 @@ Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](h
 
 조직이 Adobe Admin Console으로 마이그레이션되었는지 확인하려면 Workfront을 보는 데 사용하는 URL을 검사하십시오.
 
-| URL | Adobe 경험 |
-|---|---|
-| (CompanyName).my.workfront.com | Adobe Admin Console으로 마이그레이션되지 않음 |
-| experience.adobe.com | Adobe Admin Console으로 마이그레이션됨 |
+| URL | Adobe 경험 | 언어 제어 |
+|---|---|---|
+| (CompanyName).my.workfront.com | Adobe Admin Console으로 마이그레이션되지 않음 | [브라우저 언어 변경](#change-the-browser-language) |
+| experience.adobe.com | Adobe Admin Console으로 마이그레이션됨 | [Adobe Experience Cloud 언어 변경](#change-the-adobe-experience-cloud-language) |
 
 * [브라우저 언어 변경](#change-the-browser-language)
 * [Adobe Experience Cloud 언어 변경](#change-the-adobe-experience-cloud-language)
