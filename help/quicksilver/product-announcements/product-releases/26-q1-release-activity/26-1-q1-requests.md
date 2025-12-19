@@ -4,9 +4,9 @@ description: 2026년 1분기 요청 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Workfront의 요청 영역과 홈의 내 요청 위젯에서 요청 목록 보�
 
 요청을 더 쉽게 정리하고 복잡하지 않게 유지하기 위해 요청을 삭제하는 기능을 새 요청 환경에 추가했습니다. 이제 제출한 요청을 삭제할 수 있습니다. Workfront 관리자 및 Workfront Planning Workspace 관리자도 요청을 삭제할 수 있습니다.
 
-이전에는 삭제 요청을 사용할 수 없었습니다.
+이전에는 이 기능을 새 요청 환경에서 사용할 수 없었습니다.
 
 자세한 내용 및 지침은 [제출된 요청 또는 요청 초안 삭제](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md)를 참조하십시오.
 

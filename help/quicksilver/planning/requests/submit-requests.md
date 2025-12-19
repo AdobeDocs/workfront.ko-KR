@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1869'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 * Workfront Planning에는 다음이 있어야 합니다.
 
    * 작업 영역
-   * 레코드 종류.
+   * 레코드 유형
    * 레코드 유형과 연결된 요청 양식입니다.
 
      자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
@@ -162,7 +162,7 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 1. (선택 사항) 확인 메시지에서 **요청 보기**&#x200B;를 클릭하여 요청을 열거나 **X** 아이콘을 클릭하여 확인을 닫습니다.
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
-   * **필터**&#x200B;를 클릭하고 계획 탭에서 보려는 요청에 대한 조건을 추가하기 시작합니다.
+   * **필터**&#x200B;를 클릭하고 요청 목록에서 보려는 요청에 대한 조건을 추가하기 시작합니다.
 
      ![계획 요청 탭에서 필터 편집](assets/filters-editing-box-in-requests-planning-tab.png)
 
@@ -251,16 +251,14 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
    <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
-1. (선택 사항) **기본 메뉴** > **요청** > **계획** 탭을 클릭하여 요청을 확인한 다음 요청 이름을 클릭합니다.
+1. (선택 사항) **기본 메뉴** > **요청**&#x200B;을 클릭하여 요청을 확인한 다음 요청 이름을 클릭합니다.
 
    요청 세부 정보 페이지가 열립니다.
 
    ![댓글이 있는 요청 페이지](assets/new-request-page-with-comment.png)
 
-
-
 1. (선택 사항) [주석] 영역에 주석을 입력합니다.
-1. (조건부) 요청 양식이 승인과 연결되어 있지 않거나 요청이 승인된 경우 요청 이름을 클릭한 다음 **레코드** 필드의 레코드 이름을 클릭합니다.
+1. (조건부) 요청 양식이 승인과 연결되어 있지 않거나 요청이 승인된 경우 요청 이름을 클릭한 다음 **만들어진 개체** 필드에서 레코드 이름을 클릭합니다.
 
    레코드의 페이지가 Workfront Planning에 열립니다.
 
@@ -270,7 +268,7 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
    >
    >* 요청 양식이 승인과 연결된 경우 요청 페이지에서 레코드에 액세스하려면 승인을 받아야 합니다.
 
-1. (선택 사항) **레코드 종류**&#x200B;의 이름을 클릭합니다.
+1. (선택 사항) **개체 형식**&#x200B;의 이름을 클릭합니다.
 
    Workfront Planning에서 레코드 유형 페이지가 열립니다.
 

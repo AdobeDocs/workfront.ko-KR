@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1838'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 <!--checking on the below with Lilit-->
 
 * 사람, 그룹, 팀, 회사 또는 작업 역할과 같은 엔티티와 레코드를 공유할 수 있습니다.
+* 레코드를 공유할 때 사용자는 시스템에 레코드가 나타나는 모든 곳에서 동일한 액세스 권한을 갖습니다.
+* 레코드에 대한 권한을 제한하면 사용자는 더 이상 해당 레코드가 추가된 시스템의 어디에서든 해당 레코드와 조회 필드 값을 볼 수 없습니다.
+* Workfront은 최대 5개의 레코드 깊이에 있는 연결에서 레코드 권한을 확인하므로 사용자가 공유된 레코드만 볼 수 있습니다.
 * 레코드에 다음 수준의 권한을 부여할 수 있습니다.
 
    * 보기
@@ -187,7 +190,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    **공유** 상자가 열립니다.
 
-   ![에서 상속된 사용 권한을 가진 레코드에 대한 &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)사용 권한
+   ![에서 상속된 사용 권한을 가진 레코드에 대한 ](assets/permissions-for-records-with-inherited-permissions-on.png)사용 권한
 
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역 및 레코드 유형에 대해 **보기** 이상의 권한이 있는 모든 사용자는 레코드에 대해 동일한 권한을 가집니다.
 

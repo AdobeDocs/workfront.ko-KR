@@ -7,9 +7,9 @@ description: 목록 또는 보고서의 보기를 관리하여 목록 또는 보
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,8 @@ ht-degree: 0%
         <td>모든 개체 목록 또는 보고서에 적용할 수 있습니다. 표준 보기는 맞춤화가 매우 용이합니다. 표준 보기를 사용자 정의하고 다른 사용자와 공유할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Adobe Workfront에서 보기 만들기 또는 편집</a>을 참조하세요.</td>
     </tr>
     <tr>
-        <td><strong>애자일 보기</strong></td>
-        <td>게시판 또는 애자일 보기를 프로젝트의 작업 섹션에 있는 작업 목록 또는 프로젝트의 문제 섹션에 있는 문제 목록에 적용할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">애자일 보기에서 프로젝트 관리</a>를 참조하십시오.</td>
+        <td><strong>보드 보기</strong></td>
+        <td>게시판 보기를 프로젝트의 작업 섹션에 있는 작업 목록 또는 프로젝트의 문제 섹션에 있는 문제 목록에 적용하여 애자일 방법론을 사용하여 프로젝트를 관리할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">게시판 보기에서 애자일 프로젝트 관리</a>를 참조하십시오.</td>
     </tr>
     <tr>
         <td><strong>간트 보기</strong></td>
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 표준 보기를 공유하는 방법에 대한 자세한 내용은 [필터, 보기 또는 그룹화 공유](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)를 참조하십시오.
 
-간트 및 애자일 보기는 공유할 수 없습니다. 이러한 보기가 표시되는 영역에 액세스할 수 있는 모든 사용자는 동일한 정보를 볼 수 있습니다.
+간트 및 보드 보기는 공유할 수 없습니다. 이러한 보기가 표시되는 영역에 액세스할 수 있는 모든 사용자는 동일한 정보를 볼 수 있습니다.
 
 <!-- add something about the enhanced views here, when we have a link-->
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 뷰 제거 기능은 처음에 뷰를 만들었는지 또는 뷰를 공유했는지 여부에 따라 다르게 작동합니다. 기본 보기는 제거할 수 없습니다.
 
-간트 또는 애자일 보기는 제거할 수 없습니다.
+간트 또는 보드 보기는 제거할 수 없습니다.
 
 표준 보기 제거에 대한 자세한 내용은 [필터, 보기 및 그룹화 제거](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)를 참조하십시오.
 

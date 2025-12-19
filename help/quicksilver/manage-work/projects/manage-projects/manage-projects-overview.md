@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '131'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 * [프로젝트에서 사용자 제거](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)
 * [프로젝트에 대한 리소스 예약](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
 * [프로젝트 팀원과 통신](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-* [애자일 보기에서 프로젝트 관리](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+* [게시판 보기에서 애자일 프로젝트 관리](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [프로젝트 제한 개요](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [프로젝트 지표 이해](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [AI Assistant를 사용하여 업데이트 요약](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

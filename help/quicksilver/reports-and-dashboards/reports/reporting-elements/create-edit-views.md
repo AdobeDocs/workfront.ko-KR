@@ -6,9 +6,9 @@ description: 보기를 사용하여 화면에 표시할 정보 유형을 사용�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '893'
 ht-degree: 4%
 
 ---
@@ -60,10 +60,7 @@ ht-degree: 4%
 
 ## 보기 만들기 또는 사용자 지정
 
-뷰를 만들거나 사용자 정의하는 프로세스는 표준 뷰, 애자일 뷰 또는 보드 뷰를 만들거나 사용자 정의하는지에 따라 다릅니다.
-
-* [표준 보기 만들기 또는 사용자 지정](#create-or-customize-a-standard-view)
-* [애자일 보기 만들기 또는 사용자 지정](#create-or-customize-an-agile-view)
+표준 뷰를 작성하는지 또는 보드 뷰를 작성하는지 여부에 따라 뷰를 작성하거나 사용자 정의하는 프로세스가 다릅니다.
 
 ### 표준 보기 만들기 또는 사용자 지정 {#create-or-customize-a-standard-view}
 
@@ -161,13 +158,15 @@ ht-degree: 4%
 
    액세스 권한에 따라 보기가 저장되는 방법이 결정됩니다. 원래 뷰를 생성한 경우 변경 사항을 저장할 수 있습니다. 그렇지 않으면 버전을 저장하라는 메시지가 표시됩니다. 보기에 대한 변경 내용은 보기가 공유된 사용자에게 영향을 줍니다.
 
-### 애자일 보기 만들기 또는 사용자 지정 {#create-or-customize-an-agile-view}
+### 보드 보기 만들기 또는 사용자 지정 {#create-or-customize-an-agile-view}
 
-보드 보기 라고도 하는 애자일 보기는 프로젝트의 작업 및 문제 목록에 대해서만 표시됩니다.
+보드 보기를 사용하여 애자일 방법론에 따라 프로젝트를 관리할 수 있습니다.
+
+게시판 보기는 프로젝트의 작업 및 문제 목록에만 사용할 수 있습니다.
 
 사전 구성되어 있지만 특정 설정을 수정할 수 있습니다.
 
-애자일 또는 게시판 보기에 대한 자세한 내용은 문서 [애자일 보기에서 프로젝트 관리](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)를 참조하십시오.
+애자일 또는 게시판 보기에 대한 자세한 내용은 문서 [게시판 보기에서 애자일 프로젝트 관리](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)를 참조하십시오.
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
