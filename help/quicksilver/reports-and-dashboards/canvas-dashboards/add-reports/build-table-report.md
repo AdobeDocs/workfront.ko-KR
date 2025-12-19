@@ -6,10 +6,10 @@ description: 테이블 형식으로 데이터를 시각화하기 위해 캔버�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 1%
+source-wordcount: '1199'
+ht-degree: 2%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->&#x200B;>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
->&#x200B;>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
+>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -203,6 +203,16 @@ ht-degree: 1%
 1. 화면 오른쪽 상단에서 **저장**&#x200B;을 클릭합니다.
 
 ## 테이블 보고서 작성 시 고려 사항
+
+### 재무 데이터가 포함된 보고서
+
+액세스 수준에서 재무 데이터에 대한 보기 또는 편집 액세스 권한이 있는 사용자는 작업 또는 프로젝트 수준에서 재무 보기 권한이 제거되더라도 여전히 캔버스 대시보드 시각화에 재무 데이터가 표시됩니다.
+
+* 액세스 수준에서 재무 데이터 권한이 없는 사용자에게는 보고서에서 재무 데이터가 표시되지 않습니다.
+* 재무 데이터를 보는 사용자는 이미 볼 수 있는 권한이 있는 레코드(프로젝트, 작업, 문제 등)로 제한됩니다. 액세스할 수 없는 레코드에 대한 재무 값이 표시되지 않습니다.
+* 보고서 작성자는 대시보드에 재무 데이터를 포함할 때 주의해야 하며 의도하지 않은 액세스를 방지하기 위해 대시보드를 공유하는 사용자를 염두에 두어야 합니다.
+
+이는 알려진 한계이며, 가능한 한 빨리 해결할 계획이다.
 
 ### 필드 선택기 활용
 
