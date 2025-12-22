@@ -449,7 +449,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 ## 21.4 릴리스 웨비나
 
-Workfront 21.4 릴리스 웨비나는 2021년 9월 23일에 제공되었습니다. Workfront One[의 ](https://one.workfront.com/s/event)이벤트 페이지에서 웨비나 녹화를 볼 수 있습니다.
+Workfront 21.4 릴리스 웨비나는 2021년 9월 23일에 제공되었습니다. Workfront One[의 &#x200B;](https://one.workfront.com/s/event)이벤트 페이지에서 웨비나 녹화를 볼 수 있습니다.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
