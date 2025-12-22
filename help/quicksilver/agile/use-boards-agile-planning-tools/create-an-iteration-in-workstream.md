@@ -3,14 +3,14 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: 워크스트림에 반복 만들기
-description: 반복은 작업을 완료하기 위해 예약된 설정된 시간입니다. 일부 애자일 팀은 반복을 스프린트로 지칭할 수 있습니다.
+description: 반복은 작업을 완료하기 위해 예약된 설정된 시간입니다. 일부 애자일 팀은 반복을 스프린트로 참조할 수 있습니다.
 author: Jenny
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 >
 >작업 스트림은 특정 고객 그룹만 사용할 수 있습니다.
 
-반복은 작업을 완료하기 위해 예약된 설정된 시간입니다. 일부 애자일 팀은 반복을 스프린트로 지칭할 수 있습니다.
+반복은 작업을 완료하기 위해 예약된 설정된 시간입니다. 일부 애자일 팀은 반복을 스프린트로 참조할 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 

@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 사용자를 스토리에 쉽게 할당할 수 있도록 Kanban 및 Scrum 보드에 스토리 카드를 업데이트했습니다. 이제 스토리 카드가 확장될 때 팀이나 사용자 아바타를 클릭하여 할당을 추가할 수 있습니다. 이전에는 별도의 더하기 기호 아이콘을 찾아 클릭해야 했습니다.
 
-자세한 내용은
+자세한 내용은 다음 문서를 참조하십시오.
 
 * [칸반 보드에 있는 스토리에 사용자 할당](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
 * [스크럼 보드에서 스토리에 사용자 할당](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)을 참조하십시오.
 
-## 프로젝트에서 애자일 보기 변경 사항
+## 프로젝트의 애자일 보기 변경 사항
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 21.3 릴리스의 일부로 애자일 카드 헤더 및 스토리 보드에 대한 개선이 이루어졌습니다([애자일 카드 헤더 및 스토리 보드 업데이트](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile) 참조). 이러한 업데이트는 반복뿐만 아니라 프로젝트의 애자일 보기에 적용됩니다.
 
-21.4 릴리스에서는 프로젝트의 애자일 보기에 대한 이러한 개선 사항을 되돌립니다. 애자일 반복에 대한 변경 사항이 없습니다.
+21.4 릴리스에서는 프로젝트의 애자일 보기에 대한 이러한 개선 사항을 되돌립니다. 애자일 반복이 변경되지 않습니다.
 
 다음은 프로젝트의 애자일 보기와 관련하여 되돌려지는 변경 사항입니다.
 

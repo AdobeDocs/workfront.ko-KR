@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,7 +116,7 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
 
 1. 작업을 만들 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **작업**&#x200B;을 클릭합니다.
-1. (조건부) 현재 애자일 보기에서 작업 목록을 보고 있는 경우 오른쪽 상단의 **목록 보기** 아이콘 ![](assets/list-view-in-agile-view-for-tasks.png)을 클릭하여 작업 목록을 표시합니다.
+1. (조건부) 현재 애자일 보기에서 작업 목록을 보고 있다면 오른쪽 상단의 **목록 보기** 아이콘 ![](assets/list-view-in-agile-view-for-tasks.png)을 클릭하여 작업 목록을 표시합니다.
 1. (선택 사항) **계획 모드** 아이콘 ![](assets/nwe-plan-mode-icon-task-list.png)을 클릭하고 **수동 저장**&#x200B;을 선택한 다음 **표준** 또는 **타임라인 계획 수립**&#x200B;을 선택합니다. 기본적으로 사용되는 **자동 저장** 옵션이 비활성화됩니다.
 
    ![수동 저장 선택](assets/manual-save-option.png)

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 78cf61d219cd1214a0846a45e2725fce7a8ebb2c
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1488'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -195,6 +195,8 @@ Adobe GenStudio for Performance Marketing에 대한 자세한 내용은 [Adobe G
    </table>
 
 * GenStudio 작업 영역에 대한 작업 영역 구성, 레코드 유형, 보기 및 필드를 업데이트하는 것은 Workfront Planning 작업 영역을 해당 요소로 업데이트하는 것과 동일합니다.
+<!--Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* You cannot include GenStudio Brands in a hierarchy. -->
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -297,10 +299,9 @@ CAN YOU DO THIS??
       * **현재 보기 내보내기**
 자세한 내용은 [테이블 보기에서 레코드 내보내기](/help/quicksilver/planning/records/export-records-from-the-table-view.md)를 참조하십시오.
 
-        <!--
-         >[!NOTE]
-         >
-         >You cannot remove GenStudio users from record types in the GenStudio workspace, after you share that workspace or the record types with them.-->
+        >[!NOTE]
+        >
+        >해당 작업 영역 또는 레코드 유형을 GenStudio 작업 영역과 공유한 후에는 GenStudio 사용자를 레코드 유형에서 제거할 수 없습니다.
 
 1. 레코드 유형 보기를 관리하려면 다음을 수행합니다.
 
@@ -393,3 +394,15 @@ CAN YOU DO THIS??
    >* GenStudio에서 관리 권한이 있는 경우에만 GenStudio 필드의 구성을 편집할 수 있습니다.
    >* GenStudio 필드는 삭제할 수 없습니다.
 
+<!--Is this just Preview?? Or direct to Prod?? 
+
+## Create workspace hierarchies in the GenStudio workspace
+
+Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
+
+>[!NOTE]
+>
+>You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
+
+For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
+-->

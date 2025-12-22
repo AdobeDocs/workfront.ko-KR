@@ -6,10 +6,10 @@ description: 팀이 만들어지는 동안 또는 만들어진 후에 Kanban 애
 author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-[!DNL Adobe Workfront]애자일 팀 만들기[에 설명된 대로 &#x200B;](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
+[!DNL Adobe Workfront]애자일 팀 만들기[에 설명된 대로 ](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
 
 * 스크럼
 * 칸반
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 점 또는 시간을 사용하여 예상할 스토리를 구성할 수 있습니다.
 
-애자일 팀에 대한 스토리를 추정하는 방법을 구성하려면 다음을 수행하십시오.
+애자일 팀에 대한 스토리를 예측하는 방법을 구성하려면:
 
 {{step1-to-team}}
 
@@ -161,7 +161,7 @@ ht-degree: 1%
 
 칸반 팀의 WIP 제한을 정의할 때 [!UICONTROL Kanban] 보드의 [!UICONTROL 새로 만들기] 또는 [!UICONTROL 진행 중] 열에 나타날 수 있는 작업 수를 제한하여 팀이 현재 작업 중인 항목 수를 제어할 수 있습니다.
 
-Kanban 팀에 대한 WIP 제한을 구성한 후 [!UICONTROL Kanban] 보드의 [WIP(Work In Progress) 제한 관리[!UICONTROL 에 설명된 대로 WIP 제한을 보고 &#x200B;]Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md) 애자일 스토리 보드에서 업데이트할 수 있습니다.
+Kanban 팀에 대한 WIP 제한을 구성한 후 [!UICONTROL Kanban] 보드의 [WIP(Work In Progress) 제한 관리[!UICONTROL 에 설명된 대로 WIP 제한을 보고 ]Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md) 애자일 스토리 보드에서 업데이트할 수 있습니다.
 
 Kanban 팀의 WIP를 제한하려면
 
@@ -177,7 +177,7 @@ Kanban 팀의 WIP를 제한하려면
 1. **[!UICONTROL 애자일]** 섹션의 **[!UICONTROL 방법론]** 섹션에서 Kanban이 선택되었는지 확인하십시오.
 
 1. **[!UICONTROL 스토리 보드]** 섹션의 **[!UICONTROL WIP 제한]** 필드에서 [!UICONTROL Kanban] 애자일 스토리 보드의 각 열에 허용되는 최대 항목 수를 지정합니다. 각 열에 대해 다른 제한을 설정할 수 있습니다. 각 열에 대해 설정할 수 있는 최대 한도는 100입니다.
-설정하면 스토리 보드의 열에 대한 제한이 초과될 때마다 [!UICONTROL Kanban] 애자일 스토리 보드에 경고 메시지가 표시됩니다. 이 경고 메시지는 WIP 제한이 처음 초과된 경우에만 표시됩니다. 이 경고 메시지는 [!UICONTROL 완료]와(과) 같은 상태의 열에는 표시되지 않습니다.
+설정하면 WIP 제한이 [!UICONTROL Kanban] 애자일 스토리 보드의 열에 대한 제한을 초과할 때마다 경고 메시지를 표시합니다. 이 경고 메시지는 WIP 제한이 처음 초과된 경우에만 표시됩니다. 이 경고 메시지는 [!UICONTROL 완료]와(과) 같은 상태의 열에는 표시되지 않습니다.
 WIP 제한은 단순히 시각적 경고일 뿐 팀이 단일 열에 설정한 제한보다 더 많은 항목을 보유하는 것을 제한하지 않습니다.
 
    ![WIP 제한](assets/wip-limit-350x193.png)

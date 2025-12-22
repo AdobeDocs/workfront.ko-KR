@@ -6,10 +6,10 @@ description: 프로젝트에 대한 관리 액세스 권한이 있는 경우 Kan
 author: Jenny
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 프로젝트에 대한 관리 액세스 권한이 있는 경우 [!UICONTROL Kanban] 보드에 작업 또는 문제를 추가할 수 있습니다. 작업 또는 문제를 [!UICONTROL Kanban] 보드로 이동할 때는 다음 사항에 유의하십시오.
 
-* 작업 또는 문제가 애자일 팀에 할당되어 다른 팀의 [!UICONTROL Kanban] 보드로 이동한 경우 팀 할당이 변경되지 않습니다.
+* 작업 또는 문제가 애자일 팀에 할당되어 다른 팀의 [!UICONTROL Kanban] 보드로 이동되면 팀 할당이 변경되지 않습니다.
 * 작업 또는 문제가 팀에 할당되지 않은 경우 작업 또는 문제는 칸반 보드를 소유한 팀에 할당됩니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 

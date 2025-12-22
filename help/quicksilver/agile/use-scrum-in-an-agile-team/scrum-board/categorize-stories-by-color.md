@@ -6,10 +6,10 @@ description: 스크럼 보드 스토리의 기본 색상 연관성은 스토리 
 author: Jenny
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 스토리 보드의 기본 색상 연관성은 스토리 보드가 반복에 있는지 아니면 프로젝트에 있는지에 따라 다릅니다.
 
-* **[!UICONTROL 반복]**: 반복에서 스토리 보드 타일은 스토리와 연결된 프로젝트에 따라 색상으로 구분됩니다. (각 프로젝트에는 스토리 보드에 임의로 색상이 지정됩니다.) 각 애자일 팀에 대해 이 기본 동작을 변경할 수 있습니다. 반복에서 애자일 스토리의 색상은 프로젝트(기본값), 스토리 우선 순위, 소유자 또는 자유 형식에 연결할 수 있습니다. 자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) 문서에서 [애자일 스토리 보드에서 스토리에 색상 표시기가 사용되는 방법 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)을 참조하십시오.
+* **[!UICONTROL 반복]**: 반복에서 스토리 보드 타일은 스토리와 연결된 프로젝트에 따라 색상으로 구분됩니다. (각 프로젝트에는 스토리 보드에 임의로 색상이 지정됩니다.) 각 애자일 팀에 대해 이 기본 동작을 변경할 수 있습니다. 반복의 애자일 스토리 색상은 프로젝트(기본값), 스토리 우선 순위, 소유자 또는 자유 형식에 연결할 수 있습니다. 자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) 문서에서 [애자일 스토리 보드에서 스토리에 색상 표시기가 사용되는 방법 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)을 참조하십시오.
 
-* **[!UICONTROL 프로젝트]**: 프로젝트에서 모든 하위 작업은 상위 작업의 색상과 일치하므로 주어진 스윔에 있는 모든 스토리의 색상은 동일합니다. 작업에 하위 작업이 없거나 상위 작업이 없는 경우 작업이 생성될 때 색상이 임의로 할당됩니다. 애자일 보기를 수정하여 이 기본 동작을 변경할 수 있습니다. 프로젝트에서 애자일 스토리의 색상은 상위 스토리(기본값), 스토리 우선 순위, 소유자 또는 자유 형식에 연결할 수 있습니다. 자세한 내용은 [다음에서 [!UICONTROL 애자일 &#x200B;]보기 만들기 또는 사용자 지정](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) [을(를) 참조하십시오 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+* **[!UICONTROL 프로젝트]**: 프로젝트에서 모든 하위 작업은 상위 작업의 색상과 일치하므로 주어진 스윔에 있는 모든 스토리의 색상은 동일합니다. 작업에 하위 작업이 없거나 상위 작업이 없는 경우 작업이 생성될 때 색상이 임의로 할당됩니다. 애자일 보기를 수정하여 이 기본 동작을 변경할 수 있습니다. 프로젝트의 애자일 스토리 색상은 상위 스토리(기본값), 스토리 우선 순위, 소유자 또는 자유 형식에 연결할 수 있습니다. 자세한 내용은 [다음에서 [!UICONTROL 애자일 ]보기 만들기 또는 사용자 지정](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)[을(를) 참조하십시오 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 자유 형식 사용 시 스토리 색상 변경
 
-애자일 팀 설정이 구성되어 [!UICONTROL 카드 색상을 &#x200B;]에 연결 옵션이 [!UICONTROL 자유 형식]&#x200B;(으)로 설정된 경우 사용자가 개별 스토리 타일의 색상을 수동으로 변경할 수 있습니다. 이렇게 하면 팀이나 조직에 중요한 다른 유형의 정보를 전달하는 데 유용할 수 있습니다.
+애자일 팀 설정이 구성되어 [!UICONTROL 카드 색상을 ]에 연결 옵션이 [!UICONTROL 자유 형식]&#x200B;(으)로 설정된 경우 사용자가 개별 스토리 타일의 색상을 수동으로 변경할 수 있습니다. 이렇게 하면 팀이나 조직에 중요한 다른 유형의 정보를 전달하는 데 유용할 수 있습니다.
 
 {{step1-to-team}}
 

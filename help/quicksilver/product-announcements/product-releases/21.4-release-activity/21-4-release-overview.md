@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -252,7 +252,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 2021년 9월 9일<br></p> <p>프로덕션 릴리스: 21.4 릴리스 포함</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">프로젝트에서 애자일 보기에 대한 변경 내용</a> </p> <p>21.3 릴리스의 일부로 애자일 카드 헤더 및 스토리 보드에 대한 개선이 이루어졌습니다(<a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">애자일 카드 헤더 및 스토리 보드 업데이트</a> 참조). 이러한 업데이트는 반복뿐만 아니라 프로젝트의 애자일 보기에 적용됩니다.</p> <p>21.4 릴리스에서는 프로젝트의 애자일 보기에 대한 이러한 개선 사항을 되돌립니다. 애자일 반복에 대한 변경 사항이 없습니다.</p> <p>다음은 프로젝트의 애자일 보기와 관련하여 되돌려지는 변경 사항입니다.</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">프로젝트의 애자일 보기에 대한 변경 내용</a> </p> <p>21.3 릴리스의 일부로 애자일 카드 헤더 및 스토리 보드에 대한 개선이 이루어졌습니다(<a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">애자일 카드 헤더 및 스토리 보드 업데이트</a> 참조). 이러한 업데이트는 반복뿐만 아니라 프로젝트의 애자일 보기에 적용됩니다.</p> <p>21.4 릴리스에서는 프로젝트의 애자일 보기에 대한 이러한 개선 사항을 되돌립니다. 애자일 반복이 변경되지 않습니다.</p> <p>다음은 프로젝트의 애자일 보기와 관련하여 되돌려지는 변경 사항입니다.</p> 
     <ul> 
      <li> <p>스토리 카드와 보드 기둥의 너비를 조정할 수 있습니다.</p> </li> 
      <li> <p>열에 배경 음영이 없습니다.</p> </li> 
@@ -449,7 +449,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 ## 21.4 릴리스 웨비나
 
-Workfront 21.4 릴리스 웨비나는 2021년 9월 23일에 제공되었습니다. Workfront One[&#128279;](https://one.workfront.com/s/event)의 이벤트 페이지에서 웨비나 녹화를 볼 수 있습니다.
+Workfront 21.4 릴리스 웨비나는 2021년 9월 23일에 제공되었습니다. Workfront One[의 ](https://one.workfront.com/s/event)이벤트 페이지에서 웨비나 녹화를 볼 수 있습니다.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

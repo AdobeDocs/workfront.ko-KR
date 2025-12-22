@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 2018.2 Beta 4 릴리스에는 Workfront 관리자 및 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-관리자용 **1&rbrace;**
+관리자용 **1}**
 
 * [시스템 설정: 외부 페이지의 세션 정보](#system-setting-session-information-in-external-pages)
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ## 애자일 팀의 상태를 구성하기 위한 인터페이스 개선 {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
-애자일 팀에 대한 상태 구성 인터페이스가 다음과 같은 개선 사항으로 업데이트되었습니다.
+애자일 팀의 상태를 구성하기 위한 인터페이스가 다음과 같은 개선 사항으로 업데이트되었습니다.
 
 * 새로운 디자인
 * 드래그 앤 드롭으로 상태 열 순서 바꾸기 
@@ -145,7 +145,7 @@ Desktop Proofing Viewer와 브라우저 기반 증명 뷰어의 기능 차이에
 
 리소스 플래너 데이터를 Excel로 내보내는 방법에 대한 자세한 내용은 [리소스 플래너 탐색 개요](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)의 &quot;내보내기 옵션&quot; 섹션을 참조하십시오.
 
-리소스 플래너의 현재 Beta 프로그램에 참여하려면 [리소스 플래너 성능 Beta](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ko)를 참조하세요.
+리소스 플래너의 현재 Beta 프로그램에 참여하려면 [리소스 플래너 성능 Beta](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)를 참조하세요.
 
 ## 시스템 설정: 외부 페이지의 세션 정보 {#system-setting-session-information-in-external-pages}
 

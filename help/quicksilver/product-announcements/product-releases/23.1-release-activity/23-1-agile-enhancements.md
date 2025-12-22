@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Workfront 보드에 대한 스크럼 계획
 
-Adobe Workfront Boards의 새로운 스크럼 계획 기능은 애자일 프로세스를 관리하는 유연한 옵션을 제공합니다. 이러한 도구를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
+Adobe Workfront 보드의 새로운 스크럼 계획 기능은 애자일 프로세스를 관리할 수 있는 유연한 옵션을 제공합니다. 이러한 도구를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
 * 반복 또는 스프링에서 작업 추적
 * Velocity를 사용하여 팀 약정 안내

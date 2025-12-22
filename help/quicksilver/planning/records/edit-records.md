@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '2731'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -142,11 +142,14 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * 다른 레코드의 연결된 필드
    * 공식 유형 필드
    * 시스템 필드(생성자, 생성일, 마지막 수정자, 마지막 수정일)
-* 표시되는 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보가 연결된 레코드에 반영됩니다.
+* 표시되는 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보는 해당 레코드가 연결된 모든 작업 영역에서 연결된 레코드에 반영됩니다.
 * 레코드를 일괄적으로 편집할 수 없습니다. <!--this will probably change-->
 * URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .
 * 각 레코드에 표지 이미지를 추가할 수 있습니다. 이 이미지는 각 레코드에 대해 고유하며, 동시에 모든 레코드에 적용되지 않습니다.
 * 레코드 페이지의 필드 순서를 편집하고 레코드에 대한 표지 이미지를 추가할 수 있습니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
+* 타임라인 및 달력 보기에서 레코드의 크기를 조정하거나 위치를 변경하여 레코드의 시작 및 종료 날짜를 편집할 수 있습니다.
+
+  레코드에 대해 선택한 시작 및 종료 날짜가 읽기 전용인 경우 레코드 크기를 조정하거나 위치를 변경할 수 없습니다. 예를 들어 레코드의 시작 및 종료 날짜에 대해 조회 또는 공식 필드를 사용하면 타임라인 및 달력 보기에서 레코드의 크기를 조정하거나 위치를 변경할 수 없습니다. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
 
 ## 레코드 편집
 
@@ -266,6 +269,10 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. 레코드 막대를 클릭하고 누른 채 다른 위치에 끌어다 놓아 타임라인 및 날짜를 업데이트합니다. 레코드의 시작 및 종료 날짜는 자동으로 업데이트됩니다.
 
+   >[!IMPORTANT]
+   >
+   >레코드 막대의 끝을 끌어서 놓을 수 없으며 레코드에 대해 선택한 시작 날짜와 종료 날짜가 읽기 전용인 경우 레코드를 다른 날짜로 끌어서 놓을 수 없습니다. 예를 들어 레코드의 시작 및 종료 날짜에 대해 조회 또는 공식 필드를 사용하면 타임라인 보기에서 레코드의 크기를 조정하거나 위치를 변경할 수 없습니다. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+
 1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
 
    자세한 내용은 이 문서의 [보기에서 레코드 미리 보기에서 레코드 편집](#edit-a-record-from-the-records-preview-in-a-view) 섹션을 참조하십시오.
@@ -280,6 +287,10 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    ![크기를 조정할 달력 보기의 왼쪽 끝 막대](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
 1. 레코드 막대를 클릭하고 누른 채 다른 위치에 끌어다 놓아 타임라인 및 날짜를 업데이트합니다. 레코드의 시작 및 종료 날짜는 자동으로 업데이트됩니다.
+
+   >[!IMPORTANT]
+   >
+   >레코드 막대의 끝을 끌어서 놓을 수 없으며 레코드에 대해 선택한 시작 날짜와 종료 날짜가 읽기 전용인 경우 레코드를 다른 날짜로 끌어서 놓을 수 없습니다. 예를 들어 레코드의 시작 및 종료 날짜에 대해 조회 또는 공식 필드를 사용하면 달력 보기에서 레코드의 크기를 조정하거나 위치를 변경할 수 없습니다. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
 

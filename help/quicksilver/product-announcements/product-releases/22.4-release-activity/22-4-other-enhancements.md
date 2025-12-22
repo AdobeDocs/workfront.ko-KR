@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 22.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.4 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)를 참조하십시오.
 
-## InDesign을 위한 Adobe Workfront
+## InDesign용 Adobe Workfront
 
 이 플러그인은 이제 InDesign에서 설치할 수 있습니다. XD을 종료하지 않고도 작업 항목 세부 정보에 액세스하고, 업데이트 영역에서 동료와 공동 작업하고, 검토를 위해 증명을 제출할 수 있습니다. 지금 Adobe Creative Cloud 마켓플레이스로 이동하여 플러그인을 다운로드하십시오.
 
 플러그인에 대한 자세한 내용은 [[!DNL Adobe Workfront] 응용 프로그램 [!DNL Creative Cloud] 용 플러그인](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)을 참조하십시오.
 
-[오늘 마켓플레이스에서 InDesign을 위해 Adobe Workfront을 다운로드하세요](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[현재 마켓플레이스에서 InDesign용 Adobe Workfront을 다운로드하세요](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-또한 관리자는 Admin Console에서 [플러그인을 사용하여 패키지를 만들고](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)관리 또는 자체 관리 방식으로 사용자에게 배포할 수 있습니다.
+또한 관리자는 Admin Console에서 [플러그인을 사용하여 패키지를 만들고](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) 관리 또는 자체 관리 방식으로 사용자에게 배포할 수 있습니다.
 
 ## 기본 Experience Manager Assets 통합으로 개체 메타데이터 동기화
 
@@ -41,11 +41,11 @@ ht-degree: 0%
 
 ## 메타데이터가 프로그램 및 포트폴리오 상위 개체를 푸시합니다.
 
-이제 에셋을 Experience Manager Assets 또는 Assets Essentials으로 처음 전송하면 프로그램 및 포트폴리오 상위 개체에 대해 매핑되도록 구성된 모든 메타데이터도 전송됩니다.
+이제 에셋을 Experience Manager Assets 또는 Assets Essentials로 처음 전송하면 프로그램 및 포트폴리오 상위 오브젝트에 매핑되도록 구성된 메타데이터도 모두 전송됩니다.
 
 이전에는 상위 프로젝트 데이터만 전송되었습니다.
 
-자세한 내용은 [Experience Manager Assets 또는 Assets Essentials에게 문서 보내기](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)를 참조하십시오.
+자세한 내용은 [Experience Manager Assets 또는 Assets Essentials로 문서 보내기](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)를 참조하십시오.
 
 ## 팀 설명 확장됨
 

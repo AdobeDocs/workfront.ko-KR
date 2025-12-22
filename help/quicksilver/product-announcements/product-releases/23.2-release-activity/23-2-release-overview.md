@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -653,7 +653,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-23.2 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/ko/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
+23.2 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ### 교육 업데이트
 

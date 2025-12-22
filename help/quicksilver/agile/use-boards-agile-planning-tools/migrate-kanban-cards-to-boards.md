@@ -6,14 +6,14 @@ description: 애자일 팀 Kanban 보드에서 신규 또는 기존 Workfront �
 author: Jenny
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 애자일 팀 Kanban 카드를 Workfront 보드로 마이그레이션
+# 애자일 팀 Kanban 카드를 Workfront 보드에 마이그레이션
 
 애자일 팀 Kanban 보드에서 신규 또는 기존 Workfront 보드로 작업 항목을 마이그레이션할 수 있습니다. 마이그레이션을 실행하면 Kanban 보드의 모든 카드가 Workfront 보드에 복사됩니다. 특정 카드를 선택할 수 없습니다.
 
@@ -23,7 +23,7 @@ Workfront 보드의 카드 배치는 열 정책을 기반으로 합니다. (예�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 

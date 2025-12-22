@@ -6,10 +6,10 @@ description: Adobe Workfront을 사용하면 애자일 팀이 점진적이고 �
 author: Jenny
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +45,7 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>표준</p>
    <p>새 애자일 팀 만들기 계획</p>
-  <p>팀 또는 그 이상을 작업하여 팀을 애자일 팀으로 전환</p> </td> 
+  <p>팀 을 애자일 팀으로 전환하려면 이상을 작업하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 [!DNL Workfront]의 스크럼과 칸반 애자일 방법론을 사용하면 스토리 보드에서 스토리를 이동하여 스토리의 상태 변경 및 진행 상황을 나타낼 수 있습니다.
 
-[!DNL Workfront]의 스크럼 및 Kanban 애자일 방법론은 다음과 같은 점에서 다릅니다.
+[!DNL Workfront]의 스크럼 및 칸반 애자일 방법론은 다음과 같은 점에서 다릅니다.
 
 ### [!DNL Workfront]에서 Kanban을 사용할 때의 이점
 
@@ -115,7 +115,7 @@ ht-degree: 1%
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 이 활성 상태입니다]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL이 활성 상태입니다]</strong> </td> 
       <td>이 팀을 활성화하려면 이 옵션을 선택하십시오. 비활성 팀은 작업에 할당할 다른 사용자에게 표시되지 않습니다. </td> 
      </tr>
 
@@ -126,7 +126,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 팀 구성원]</strong> </td> 
-      <td>팀에 속한 사용자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 선택합니다.<br>이 프로세스를 반복하여 팀에 여러 사용자를 추가합니다.<br>사용자는 둘 이상의 팀에 속할 수 있으므로 애자일 팀과 애자일 팀이 아닌 팀 모두에 속할 수 있습니다.</td> 
+      <td>팀에 속한 사용자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 선택합니다.<br>이 프로세스를 반복하여 팀에 여러 사용자를 추가합니다.<br>사용자는 둘 이상의 팀에 속할 수 있으므로 애자일 팀과 애자일이 아닌 팀 모두에 속할 수 있습니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 설명]</strong> </td> 
@@ -143,7 +143,7 @@ ht-degree: 1%
    * [[!UICONTROL Kanban] 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
    * [[!UICONTROL 스크럼] 구성](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
-## 기존 팀을 애자일 팀으로 전환
+## 기존 팀을 애자일 팀으로 변환
 
 기존 팀을 애자일 팀으로 변환할 수 있습니다.
 

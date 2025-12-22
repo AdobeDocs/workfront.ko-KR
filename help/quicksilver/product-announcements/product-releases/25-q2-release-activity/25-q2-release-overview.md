@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            사용자 정의 양식 논리 개선 사항</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+            사용자 정의 양식 논리 개선 사항</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>사용자 정의 양식 논리 빌더에는 논리 규칙을 만들 수 있는 추가 공간을 제공하기 위해 업데이트된 인터페이스가 있습니다. 이 새 설계는 향후 추가될 수 있는 추가 논리 유형을 보다 쉽게 수용할 수 있습니다.</p><p>현재 디스플레이 및 건너뛰기 논리 옵션 외에도 유효성 검사 논리를 사용할 수 있습니다.</p>
         </td>
         <td>
@@ -68,7 +68,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             계산된 사용자 정의 필드에 표현식이 추가됨</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>이제 Workfront 계산된 사용자 정의 필드에는 ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT 및 ADDHOUR 표현식을 사용할 수 있습니다. 각 표현식의 정의와 예는 계산 편집기 및 Experience League에서 사용할 수 있습니다.</p>
         </td>
         <td>
@@ -105,7 +105,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Desktop Proofing 뷰어 업데이트 </a></p>[!BADGE In production &#x200B;]{type=Informative}
+            Desktop Proofing 뷰어 업데이트 </a></p>[!BADGE In production ]{type=Informative}
             <p>Desktop Proofing Viewer가 버전 2.1.45로 업데이트되었습니다. 이 업데이트를 통해 뷰어는
             <ul><li>일렉트론 버전</li><li>Chromium 버전 134</li><ul></p>
         </td>
@@ -120,7 +120,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            문서 보고서에서 한 번에 여러 문서 편집 </a></p>[!BADGE In production &#x200B;]{type=Informative}
+            문서 보고서에서 한 번에 여러 문서 편집 </a></p>[!BADGE In production ]{type=Informative}
             <p>이제 문서 보고서에서 여러 문서를 한 번에 편집할 수 있습니다. 설명을 편집하고 사용자 정의 양식을 업데이트할 수 있습니다.</p>
         </td>
         <td>
@@ -143,7 +143,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            모바일 앱의 증명 개선 사항(iOS만 해당)</a><p>[!BADGE In production &#x200B;]{type=Informative}</p></p>
+            모바일 앱의 증명 개선 사항(iOS만 해당)</a><p>[!BADGE In production ]{type=Informative}</p></p>
             <p>Adobe Workfront 모바일 앱에서 증명 기능에 대한 몇 가지 개선 사항을 사용할 수 있습니다.
             <ul>
             <li>이제 모바일 이메일 애플리케이션 또는 사용자와 공유된 링크에서 증명 파일을 열 수 있습니다. 이전에는 이메일의 링크가 지원되지 않았으며 Workfront 모바일 앱에서 증명에 액세스해야 했습니다.</li>
@@ -175,7 +175,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            프로젝트 편집 상자에서 프로젝트를 편집할 때 프로젝트에 주석 추가</a><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+            프로젝트 편집 상자에서 프로젝트를 편집할 때 프로젝트에 주석 추가</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>이제 프로젝트 편집 상자에서 편집할 때 프로젝트에 주석을 추가할 수 있습니다. 여러 프로젝트를 일괄적으로 편집할 때 한 번에 주석을 추가할 수도 있습니다. 이 업데이트 이전에는 프로젝트를 편집할 때 이 기능이 없었습니다.</p>
         </td>
         <td>
@@ -199,7 +199,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            이제 Data Connect에서 문서 승인 및 결정 데이터를 사용할 수 있습니다.</a><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+            이제 Data Connect에서 문서 승인 및 결정 데이터를 사용할 수 있습니다.</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>이제 Data Connect에서 문서 승인 및 결정을 위한 데이터에 액세스할 수 있습니다. 이 데이터 세트는 Workfront 문서에서 발생하는 Workfront 증명 기능과 Frame.io 승인의 문서 승인을 연결합니다. 이제 BI 시각화를 통해 지연 승인에 대한 주기 시간, 주기 수 및 타임라인 영향을 설명할 수 있습니다.</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront 캘린더 업데이트</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront 캘린더 업데이트</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>Workfront 캘린더의 모양과 느낌을 Workfront의 다른 영역과 일관된 최신 디자인으로 업데이트했습니다. 현재 Workfront 캘린더와는 다음과 같은 몇 가지 기능 차이점이 있습니다.
             <ul>
             <li>캘린더에 임시 항목을 추가하는 방법</li>
@@ -242,8 +242,8 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             버전 업그레이드 종단점을 사용하여 새 이벤트 구독 버전으로 업그레이드</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
-            <p>이제 Workfront에 이벤트 구독 버전이 있습니다. 새 버전은 Workfront API가 아니라 이벤트 구독 기능이 변경되었습니다. 이벤트 구독에 간격을 두지 않고 이벤트 구독을 새 버전으로 전환할 수 있습니다.</p>
+            [!BADGE In production ]{type=Informative}
+            <p>이제 Workfront에 이벤트 구독 버전이 있습니다. 신규 버전은 Workfront API의 변경이 아니라 이벤트 구독 기능의 변경입니다. 이벤트 구독에 간격을 두지 않고 이벤트 구독을 새 버전으로 전환할 수 있습니다.</p>
         </td>
         <td>
             <p><b>다음 날짜에 사용 가능:</b></p>
@@ -255,7 +255,7 @@ Workfront 릴리스는 월별 및 분기별 릴리스 트랙을 모두 고려하
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Workfront 업데이트 피드에서 Adobe Admin Console 사용자 변경 사항을 "시스템"으로 표시</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>이제 Adobe Admin Console 관리자가 Workfront 사용자의 사용자 정보를 변경하면 Workfront은 사용자 업데이트 영역의 시스템 활동 탭에 이 변경 내용을 "시스템"에 속하는 것으로 기록합니다. Adobe Admin Console 관리자에게 문의하십시오.</p>
+            Workfront 업데이트 피드에서 Adobe Admin Console 사용자 변경 사항을 "시스템"으로 표시</a></p><p>[!BADGE In production ]{type=Informative}</p><p>이제 Adobe Admin Console 관리자가 Workfront 사용자의 사용자 정보를 변경하면 Workfront은 사용자 업데이트 영역의 시스템 활동 탭에 이 변경 내용을 "시스템"에 속하는 것으로 기록합니다. Adobe Admin Console 관리자에게 문의하십시오.</p>
         </td>
         <td>
             <p><b>다음 날짜에 사용 가능:</b></p>
@@ -318,7 +318,7 @@ Data Connect 제품을 대체품으로 고려하는 것이 좋습니다. Data Co
 
 >[!IMPORTANT]
 >
->Workfront Fusion 설명서가 새 위치로 이동했습니다. Fusion에 대한 정보, 지침 및 릴리스는 [Workfront Fusion 설명서](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/home)를 참조하십시오.
+>Workfront Fusion 설명서가 새 위치로 이동했습니다. Fusion에 대한 정보, 지침 및 릴리스는 [Workfront Fusion 설명서](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)를 참조하십시오.
 >
 >현재 각 Fusion 설명서 문서에는 새 위치에 있는 해당 문서에 대한 링크가 포함되어 있습니다. 책갈피를 업데이트하십시오.
 >
@@ -352,7 +352,7 @@ API 버전 19의 경우 일부 리소스 및 끝점을 수정했습니다. 일�
 
 ### Workfront 유지 관리 업데이트
 
-2025년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/ko/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
+2025년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ### 교육 업데이트
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2838'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -89,7 +89,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -252,8 +252,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!TIP]
    >
-   ><span class="preview">하나의 레코드 형식에 대해 30개의 연결 필드 제한</span> 외에 하나의 레코드 형식에 대해 500개의 필드 제한이 있습니다. 특히 분류학적 레코드 유형의 경우 이 제한에 도달하지 않도록 이 설정을 해제하는 것이 좋습니다.
+   >* <span class="preview">하나의 레코드 형식에 대해 30개의 연결 필드 제한</span> 외에 하나의 레코드 형식에 대해 500개의 필드 제한이 있습니다. 특히 분류학적 레코드 유형의 경우 이 제한에 도달하지 않도록 이 설정을 해제하는 것이 좋습니다.
    >
+   > <!--* <span class="preview">Selecting the **Create corresponding field on linked record type** is a prerequisite for creating hierarchies.</span>-_>
 
 1. (조건부) **연결된 레코드 종류에 해당 필드 만들기**&#x200B;를 사용하도록 설정한 경우 사용자가 연결할 수 있는 레코드 수를 나타내려면 다음 옵션 중에서 선택하십시오.
 
@@ -278,7 +279,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!NOTE]
    >
-   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
 1. (조건부) Experience Manager Assets, Workfront Planning 레코드 유형 또는 GenStudio Brand에 연결하도록 선택하는 경우 **모양 기록** 영역에서 다음 옵션 중 하나를 선택합니다.

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1257'
 ht-degree: 2%
 
 ---
@@ -200,7 +200,7 @@ Workfront Planning의 다음 영역에서 Workfront Planning의 레코드와 프
 
 1. [레코드 연결](/help/quicksilver/planning/records/connect-records.md) 문서에 설명된 대로 레코드의 세부 정보 페이지 또는 레코드 유형의 테이블로 이동하여 Workfront Planning 레코드와 Workfront 프로젝트 연결을 시작합니다.
 
-1. (조건부) **프로젝트 추가**&#x200B;를 클릭합니다
+1. (조건부) **프로젝트 추가**를 클릭합니다
 또는
 프로젝트 이름을 입력한 다음 찾을 수 없는 경우 **프로젝트 추가**&#x200B;를 클릭합니다. [추가] 단추 다음에 입력한 프로젝트 이름이 옵니다.
 
@@ -227,7 +227,7 @@ Workfront Planning의 다음 영역에서 Workfront Planning의 레코드와 프
 
 1. 프로젝트에 대해 **연결된 레코드 페이지**&#x200B;를 추가하십시오.
 
-   자세한 내용은 문서 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)의 &quot;레코드에 연결된 레코드 페이지 추가&quot; 섹션을 참조하십시오.
+   자세한 내용은 [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
 
    연결된 레코드 페이지가 테이블 뷰에 표시됩니다. 연결된 프로젝트가 테이블에 표시됩니다.
 

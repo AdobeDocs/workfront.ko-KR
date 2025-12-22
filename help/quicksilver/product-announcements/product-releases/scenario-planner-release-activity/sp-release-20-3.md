@@ -8,7 +8,7 @@ description: Workfront Scenario Planner는 새로운 Adobe Workfront 환경에�
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Scenario Planner를 사용하여 여러 가정 시나리오를 만들고 비교�
 
   시나리오를 만들고 비교하고, 공동 작업 및 합의를 촉진하고, 실행한 다음 필요할 때 다시 계획합니다.
 
-시나리오 플래너는 계획을 보다 민첩하게 수행하는 데 도움이 됩니다. 회사의 전략 계획을 소유하고 있거나 단일 사업부, 부서 또는 팀에 대해 분기별 계획을 수행하고 있는 경우 시나리오 플래너가 도움을 줄 수 있습니다. 예산 또는 팀 리소스와 같은 제한을 기반으로 여러 시나리오를 빠르고 쉽게 만들고 비교할 수 있습니다.
+시나리오 플래너는 계획 수립에 더 민첩해질 수 있도록 도와줍니다. 회사의 전략 계획을 소유하고 있거나 단일 사업부, 부서 또는 팀에 대해 분기별 계획을 수행하고 있는 경우 시나리오 플래너가 도움을 줄 수 있습니다. 예산 또는 팀 리소스와 같은 제한을 기반으로 여러 시나리오를 빠르고 쉽게 만들고 비교할 수 있습니다.
 
 Scenario Planner를 사용하여 다음과 같은 질문에 답변할 수 있도록 Scenario Planner의 목표 또는 이니셔티브별로 시나리오를 모델링할 수 있습니다.
 

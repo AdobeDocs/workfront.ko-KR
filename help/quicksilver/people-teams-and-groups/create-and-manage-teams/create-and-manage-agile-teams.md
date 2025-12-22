@@ -6,7 +6,7 @@ description: 애자일 팀을 만들고 관리하는 방법에 대한 자세한 
 author: Jenny
 feature: People Teams and Groups
 exl-id: 86d115cf-0931-453f-aa0f-c96b31eb61d5
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 0%

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -44,6 +44,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 * 작업 공간 및 레코드 유형에 대한 Workfront 계획 및 보기에 대한 액세스 권한이 있는 모든 사용자는 레코드 간 또는 레코드와 다른 애플리케이션의 개체 간에 수행하는 연결을 볼 수 있습니다. 연결하려는 응용 프로그램의 사용 권한에 관계없이 연결된 레코드와 개체를 볼 수 있습니다.
 * 작업 공간 및 연결된 레코드가 있는 레코드 유형에 대한 관리 권한이 있는 경우 다른 사용자의 연결을 보고 편집할 수 있습니다.
 * 레코드 유형을 연결할 때 선택한 연결 유형에 따라 하나의 레코드를 다른 응용 프로그램에서 하나 또는 여러 개체에 연결할 수 있습니다. 자세한 내용은 문서 [연결된 레코드 형식 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)의 &quot;연결 형식&quot; 섹션을 참조하십시오.
+  <!--* <span class="preview">If connected record types are part of hierarchies, you can access any object type within the hierarchy from the records' pages. For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>-->
 
 ## 레코드를 연결할 수 있는 영역
 

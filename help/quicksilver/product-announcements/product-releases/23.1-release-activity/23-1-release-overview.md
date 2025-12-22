@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -123,7 +123,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront 보드에 대한 스크럼 계획</a><span style="color: #ff0000;"> 준비 중!</span></p>
-                        <p>Adobe Workfront Boards의 새로운 스크럼 계획 기능은 애자일 프로세스를 관리하는 유연한 옵션을 제공합니다. 이러한 도구를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
+                        <p>Adobe Workfront 보드의 새로운 스크럼 계획 기능은 애자일 프로세스를 관리할 수 있는 유연한 옵션을 제공합니다. 이러한 도구를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
                         <ul>
                         <li>반복 또는 스프링에서 작업 추적</li>
                         <li>Velocity를 사용하여 팀 약정 안내</li>
@@ -521,7 +521,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/ko/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
+22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ### 교육 업데이트
 

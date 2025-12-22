@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3232'
 ht-degree: 0%
 
 ---
@@ -733,11 +733,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/ko/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
+22.3 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)를 참조하십시오.
 
 ### 22.4 릴리스 웨비나
 
-22.4 릴리스 웨비나는 2022년 9월 22일 목요일 오전 9시(PDT)에 열립니다. 여기서 [웨비나를 등록](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)할 수 있습니다.
+22.4 릴리스 웨비나는 2022년 9월 22일 목요일 오전 9:00 AM PDT에서 열립니다. 여기서 [웨비나를 등록](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)할 수 있습니다.
 
 ### 교육 업데이트
 

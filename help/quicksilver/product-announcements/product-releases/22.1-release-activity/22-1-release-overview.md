@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 0%
@@ -127,7 +127,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>다음 날짜에 사용 가능:</strong> <p>미리보기 릴리스: 2021년 11월 11일 <br></p> <p>프로덕션 릴리스: 22.1 릴리스 포함 </p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 환경 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#view" class="MCXref xref" xrefformat="{para}">상태 및 회사에 대한 감사 로그 정보 보기</a> </p> <p>이제 설정의 감사 로그 영역에서 상태 및 회사와 관련된 정보를 보고 문제를 보다 쉽게 해결할 수 있습니다.</p> <p>For example:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#view" class="MCXref xref" xrefformat="{para}">상태 및 회사에 대한 감사 로그 정보 보기</a> </p> <p>이제 설정의 감사 로그 영역에서 상태 및 회사와 관련된 정보를 보고 문제를 보다 쉽게 해결할 수 있습니다.</p> <p>예:</p> 
     <ul> 
      <li> <p>이름을 바꾸거나, 잠기거나, 상태를 숨긴 사람과 언제 숨겼는지 파악할 수 있습니다.</p> </li> 
      <li> <p>회사에서 일부 구성원 또는 작업 역할을 삭제한 사람과 제거 시기를 확인할 수 있습니다.</p> </li> 
@@ -401,7 +401,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 ## 22.1 릴리스 웨비나
 
-Workfront 22.1 릴리스 웨비나는 2022년 1월 12일에 제공되었습니다. Workfront One[&#128279;](https://one.workfront.com/s/event)의 이벤트 페이지에서 웨비나 녹화를 볼 수 있습니다.
+Workfront 22.1 릴리스 웨비나는 2022년 1월 12일에 제공되었습니다. Workfront One[의 ](https://one.workfront.com/s/event)이벤트 페이지에서 웨비나 녹화를 볼 수 있습니다.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -6,10 +6,10 @@ description: 반복은 작업 용량 계획에서 스크럼 애자일 팀의 주
 author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,11 +70,11 @@ ht-degree: 0%
       <td>반복에 대한 목표를 추가합니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 시작 날짜]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 시작 일자]</strong></td> 
       <td>반복이 시작될 날짜를 입력합니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 종료 날짜]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 종료 일자]</strong></td> 
       <td><p>반복이 종료되어야 하는 날짜를 입력합니다. [!DNL Workfront]에서는 시작 날짜로부터 4주를 넘지 않도록 종료 날짜를 설정할 것을 권장합니다.</p><p>팁: 종료일로 근무일을 선택해야 합니다. 번다운 차트는 계산에 작업일만 사용합니다.<br>기본적으로 번다운 차트는 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">일정 만들기</a>에 설명된 대로 기본 일정을 사용하여 작업일을 정의합니다. 또는 팀별 휴무일을 통합하기 위해 애자일 팀은 <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">애자일 팀 만들기</a>의 "번다운 차트에 대한 대체 팀 일정 정의"에 설명된 대로 대체 일정을 사용하도록 선택할 수 있습니다.</p></td> 
      </tr> 
      <tr> 
@@ -118,7 +118,7 @@ ht-degree: 0%
       <td>반복의 이름을 지정합니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 시작 날짜]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 시작 일자]</strong></td> 
       <td> 반복을 시작해야 하는 날짜를 지정합니다.</td> 
      </tr> 
      <tr> 

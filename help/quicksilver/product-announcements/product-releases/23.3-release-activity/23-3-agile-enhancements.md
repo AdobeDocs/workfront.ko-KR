@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩된 경우 환경 설정 메뉴(프로필 사진)를 통해 모든 Adobe Experience Cloud에 대해 어두운 테마 서식을 활성화할 수 있으며 Workfront 보드에 대한 별도의 어두운 모드 옵션이 표시되지 않습니다.
+>조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩된 경우 환경 설정 메뉴(프로필 사진)를 통해 모든 Adobe Experience Cloud에 대해 어두운 테마 형식을 활성화할 수 있으며 Workfront 보드에 대한 별도의 어두운 모드 옵션이 표시되지 않습니다.
 
 자세한 내용은 [게시판 전자 메일 알림 및 환경 설정](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)을 참조하세요.
 

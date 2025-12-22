@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3359'
+source-wordcount: '3367'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    <ul><li><p>AEM 에셋을 Planning 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -392,7 +392,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
 >[!NOTE]
 >
->Workfront 관리자가 Experience Manager Assets과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront에서 Planning 레코드 및 해당 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+>Workfront 관리자가 Experience Manager Assets과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront에서 Planning 레코드 및 해당 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 레코드를 Experience Manager 에셋과 연결하려면 다음 작업을 수행하십시오.
 
@@ -478,7 +478,8 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 1. 레코드 이름을 클릭합니다.
 
    미리보기 페이지가 열립니다.
-1. (선택 사항) 레코드의 페이지를 열려면 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)를 클릭합니다.
+1. (선택 사항) **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭하여 새 브라우저 탭에서 레코드 페이지를 엽니다.
+   <!--1. (Optional and conditional) <span class="preview">Click the name of a record type in the breadcrumb of the record page header to access another record type in the same hierarchy. Hierarchies must exist for the record type of the record you are connecting before you can view them in the breadcrumb. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md). </span>-->
 1. 레코드의 미리 보기 또는 페이지에서 **연결** 탭을 클릭합니다.
 
    ![Workfront Planning의 레코드에 있는 연결 탭](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -531,7 +532,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
    ![연결된 레코드 세부 정보 탭에서 강조 표시된 연결 단추](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 
-   자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
+   자세한 내용은 [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
 1. 템플릿 없이 프로젝트를 만들려면 프로젝트 목록에서 **새 행**&#x200B;을 클릭하십시오. 새 프로젝트는 현재 레코드에 자동으로 연결됩니다.
 1. (선택 사항) 연결된 레코드를 찾을 수 없는 경우 **+ 추가**&#x200B;를 클릭하여 레코드를 만들고 연결합니다.
 
