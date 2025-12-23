@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -46,8 +46,9 @@ ht-degree: 0%
    * AEM Assets.
 * 계층은 Planning 레코드 유형과 Workfront 프로젝트를 동시에 포함할 수 있습니다.
 
-      예를 들어, 동일한 작업 영역 계층 구조에 있는 하위 항목으로 계획 전술 및 Workfront 프로젝트를 사용하는 캠페인 레코드 유형이 있을 수 있습니다.
-  * 선택한 레코드 유형 간의 연결이 이미 있으면 시스템이 기존 연결을 재사용합니다.
+  예를 들어 계획 전술 및 Workfront 프로젝트를 동일한 작업 공간 계층의 하위 항목으로 사용하는 캠페인 레코드 유형이 있을 수 있습니다.
+
+* 선택한 레코드 유형 간의 연결이 이미 있으면 시스템이 기존 연결을 재사용합니다.
 * 연결이 없으면 Workfront에서 계층 설정의 일부로 연결을 만듭니다.
 * 계층에 포함할 레코드 및 개체 형식에 대해 연결된 필드에 대해 **연결된 레코드 형식에 해당 필드 만들기** 설정이 켜져 있어야 합니다.
 * 레코드 유형이 계층의 일부인 경우 삭제할 수 없습니다.

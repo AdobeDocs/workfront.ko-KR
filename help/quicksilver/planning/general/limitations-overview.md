@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '523'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | Planning 객체를 공유할 수 있는 엔티티(사용자, 역할, 팀, 회사, 그룹) 수 | 100 |
 | <span class="preview">계층 구조의 레코드 종류 수</span> | 4 |
 | <span class="preview">작업 영역의 계층 구조 수</span> | 5 |
-| <span class="preview">계층의 한 하위 항목에 연결된 부모 레코드 수</span> | 10 |
+| <span class="preview">계층 구조 내에서 자식 레코드 형식의 레코드에 연결된 부모 레코드 형식의 레코드 수</span> | 10 |
 | 다중 선택 연결 형식의 한 레코드에 연결된 레코드 수 <span class="preview">레코드 사이에 계층 구조가 구성되지 않음</span> | 500 |
 
 *작업 영역은 관리하기 어려워질 수 있고 워크플로가 너무 많이 조각날 수 있으므로 너무 많이 사용하지 않는 것이 좋습니다.

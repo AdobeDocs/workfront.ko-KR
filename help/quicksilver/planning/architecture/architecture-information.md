@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,7 @@ Workfront Planning을 사용하면 조직에서 사용하는 개체 유형(또�
 * [레코드 유형에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 * [다른 작업 영역에서 기존 레코드 유형 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [레코드 종류의 설정 영역 구성](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
+* [계층 및 탐색 표시 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
+* [작업 영역 계층 만들기](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
 
 </div>
-
-<!--* [Hierarchies and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)-->
-<!--* [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)-->
-
