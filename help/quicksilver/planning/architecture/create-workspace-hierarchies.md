@@ -1,30 +1,18 @@
 ---
 title: Workspace 계층 만들기
-description: 작업 영역 관리자는 Adobe Workfront Planning의 레코드 유형 간에 여러 작업 영역 계층을 생성할 수 있습니다. 작업 영역에서 레코드 유형을 연결하고 계층을 만들면 레코드 유형이 서로 연결되며, 한 레코드 유형이 상위로 지정되고 최대 6개의 다른 레코드 유형이 하위로 구성됩니다.
-hide: true
-hidefromtoc: true
-exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 1%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Create Workspace Hierarchies
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: 작업 영역 관리자는 Adobe Workfront Planning의 레코드 유형 간에 여러 작업 영역 계층을 생성할 수 있습니다. 작업 영역에서 레코드 유형을 연결하고 계층을 만들면 레코드 유형이 서로 연결되며, 한 레코드 유형이 상위로 지정되고 최대 3개의 다른 레코드 유형이 하위로 구성됩니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 1%
+
 ---
 
--->
 
 # 작업 영역 계층 만들기
 
@@ -38,13 +26,11 @@ hidefromtoc: yes
 
 두 레코드 유형 간의 연결이 아직 없는 경우 계층 구조를 설정할 때 만들 수 있습니다. 계층이 정의되면 작업 공간 내에서 관련 레코드 유형 간에 구조화된 경로를 설정합니다.
 
-계층은 헤더에 표시되는 레코드 종류 및 해당 레코드 <!--ensure this is the case: does the breadcrumb show for both the RT and the record??-->에 대한 이동 경로를 생성합니다. 이렇게 하면 사용자는 워크플로의 모든 단계에서 계층 구조에서 자신의 위치를 알 수 있습니다.
+계층은 헤더에 표시되는 각 레코드에 대한 이동 경로를 생성합니다. 이렇게 하면 사용자는 워크플로의 모든 단계에서 계층 구조에서 자신의 위치를 알 수 있습니다.
 
 계층 및 이동 경로에 대한 일반적인 정보는 [계층 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)를 참조하십시오.
 
 ## 액세스 요구 사항
-
-<!--check the access to see if you oversimplified???-->
 
 +++ 을 확장하여 액세스 요구 사항을 보고 이 문서의 단계를 수행하십시오.  
 
@@ -85,10 +71,12 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## 작업 공간 계층 만들기
 
+하나의 작업 영역에서 최대 5개의 계층을 생성할 수 있습니다.
+
 {#step1-to-planning}
 
 1. 작업 영역 카드를 클릭합니다.
-1. 작업 영역 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **설정**&#x200B;을 클릭합니다.
+1. 작업 영역 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **설정**을 클릭합니다.
 기본적으로 **계층** 섹션이 열립니다.
 1. **계층** 페이지의 오른쪽 상단 모서리에서 **새 계층**&#x200B;을 클릭합니다.
 1. **개체 추가**&#x200B;를 클릭하고 드롭다운 메뉴에서 개체 유형을 선택합니다. 이 유형이 계층의 첫 번째 객체 유형이 됩니다. <!--logged bug to correct to "Add object type"-->
@@ -97,7 +85,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    Workfront 프로젝트는 계층 구조에서 다른 오브젝트 유형의 상위로 선택할 수 없습니다.
 
-1. **개체 추가**&#x200B;를 클릭하여 계층 구조의 첫 번째 자식 항목인 두 번째 개체 형식을 추가한 다음 드롭다운 메뉴에서 다른 개체 형식을 선택합니다.
+1. **개체 추가**를 클릭하여 계층 구조의 첫 번째 자식 항목인 두 번째 개체 형식을 추가한 다음 드롭다운 메뉴에서 다른 개체 형식을 선택합니다.
 각 추가 객체 유형은 이전 객체 유형의 하위가 됩니다.
 
    ![필드를 선택하지 않은 새 계층 상자](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
@@ -109,7 +97,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    새 연결 필드를 추가하려면 **새 연결 추가**&#x200B;를 클릭하십시오.
 
-   이렇게 하면 상위로 사용 중인 레코드 형식에서 연결 필드가 만들어지고 하위로 사용 중인 레코드 형식에서 해당 연결 필드가 만들어집니다.
+   이렇게 하면 상위로 사용 중인 레코드 유형에서 연결 필드가 만들어지고 하위로 사용 중인 레코드 유형에서 해당 연결 필드가 만들어집니다.
 
    Workfront 프로젝트에 대한 연결을 만드는 경우 프로젝트에 필드가 만들어지지 않습니다.
 
@@ -155,6 +143,13 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    * 작업 영역의 **계층** 섹션에 계층 구조가 추가되었습니다.
    * 연결 필드를 채우는 레코드는 레코드의 페이지로 이동할 때 이동 경로에 있는 모든 연결을 표시합니다.
+
+   >[!NOTE]
+   >
+   >하위 레코드 유형에서 하나의 레코드를 상위 레코드 유형에서 최대 10개의 레코드까지 연결할 수 있습니다.
+   >
+   >자세한 내용은 [계층 구조 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)를 참조하십시오.
+
 1. (선택 사항) 계층 위로 마우스를 가져간 다음 **자세히** 메뉴를 클릭합니다.
 
    ![계층 추가 메뉴 확장](assets/hierarchy-more-menu-expanded.png)

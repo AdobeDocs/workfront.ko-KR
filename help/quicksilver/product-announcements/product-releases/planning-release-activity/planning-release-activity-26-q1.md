@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
+source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,54 @@ ht-degree: 0%
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
+## 작업 영역에서 레코드 유형 계층 만들기
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 23일
+>프로덕션 빠른 릴리스: 2026년 1월 14일
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+이제 레코드 또는 개체 유형 간에 유연하지만 구조화된 계층을 정의할 수 있습니다.
+
+계층은 레코드 유형 간의 연결입니다. 하나의 계층에서 최대 4개의 레코드 및 객체 유형을 연결할 수 있으며, 하나의 작업 영역에서 최대 5개의 계층을 사용할 수 있습니다. 계층의 첫 번째 레코드 유형은 첫 번째 부모입니다.
+
+계층을 사용하여 작업을 구성하고 전략이 어떻게 실행되는지 시각화할 수 있습니다.
+
+계층을 작성할 때 다음 사항을 고려하십시오.
+
+* 계층 구조의 한 작업 영역과 Workfront 프로젝트에서 Planning 레코드 유형만 연결할 수 있습니다.
+* 레코드 종류 또는 프로젝트는 동일한 작업 영역에서 하나의 상위 항목만 가질 수 있습니다.
+* 레코드 유형은 여러 계층의 상위 유형이 될 수 있습니다.
+* 연결 가능한 레코드 종류는 해당 작업 영역 이외의 작업 영역의 계층에서 사용할 수 없습니다.
+* 글로벌 레코드 유형은 해당 유형이 생성되었거나 추가된 작업 영역에서만 계층에서 사용할 수 있습니다.
+
+자세한 내용은 [계층 구조 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)를 참조하십시오.
+
+## 새 통합 이동 경로가 레코드 페이지에 추가됨
+
+>[!NOTE]
+>
+>미리 보기: 2025년 12월 23일
+>프로덕션 빠른 릴리스: 2026년 1월 14일
+>모두를 위한 프로덕션: 2026년 1월 15일
+
+레코드 유형 간에 계층을 만들면 해당 레코드 유형에 속하는 레코드에 대한 이동 경로를 생성합니다.
+
+레코드 경로는 계층 구조에서 위치를 반영합니다. 계층을 만든 후에는 다른 상위 또는 하위 개체가 연결되는 것을 나타내는 레코드의 이동 경로를 페이지 맨 위에 볼 수 있습니다. 계층은 Workfront 및 Planning에서 일관됩니다.
+
+예를 들어 프로젝트의 Planning 계층 구조가 Planning 경로에서 Planning 레코드 유형에 연결되어 있는 경우 Planning 계층을 보고, Workfront에서 포트폴리오 또는 프로그램과 같은 Workfront 객체 유형에 연결되어 있는 경우 해당 Workfront 계층을 볼 수 있습니다.
+
+자세한 내용은 [계층 구조 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)를 참조하십시오.
+
+
 ## 연결된 레코드 페이지 개선 사항
 
 >[!NOTE]
 >
 >미리 보기: 2025년 12월 19일
 >프로덕션 빠른 시간: 2026년 1월 14일
->전체 프로덕션: 2026년 1월 15일
+>모두를 위한 프로덕션: 2026년 1월 15일
 
 연결된 레코드 페이지로 작업할 때 보다 유연하게 사용할 수 있도록 이 Workfront Planning 영역에서 보기 기능을 개선했습니다. 다음은 레코드의 연결된 레코드 페이지에서 향상된 기능입니다.
 
@@ -66,54 +107,6 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 필터를 포함하여 프로젝트 연결 보기 구성에 대한 자세한 내용은 [레코드에 연결된 레코드 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
 
-<!--
-
-## Create record type hierarchies in workspaces
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production all: January 15, 2026 
-
-You can now define flexible but structured hierarchies between record or object types.  
-
-Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have multiple hierarchies in one workspace. The first record type in the hierarchy is a parent, and all the other record or object types are its children objects.  
-
-You can use hierarchies to organize work in a way that reflects how your teams actually plan, operate, and deliver and to visualize how strategy flows into execution. 
-
-Consider the following when building hierarchies: 
-
-* You can have multiple hierarchies in a workspace 
-* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
-* A record type or a project can only have one parent in the same workspace. 
-* A record type can be the parent in multiple hierarchies 
-* Connectable record types cannot be used in hierarchies in other workspaces than their own. 
-* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.  
-
-When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
-
-For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
-
-<!--
-
-## New unified breadcrumbs added to records' pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-We have added breadcrumbs to a record's page to reflect its spot in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
-
-For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
-
-For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
 
 ## Workspace 기본 페이지 개선 사항
 
@@ -121,7 +114,7 @@ For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/plann
 >
 >미리 보기: 2025년 12월 18일
 >프로덕션 빠른 시간: 2026년 1월 14일
->전체 프로덕션: 2026년 1월 15일
+>모두를 위한 프로덕션: 2026년 1월 15일
 
 Workfront Planning의 Workspaces 기본 페이지에 대해 다음과 같이 개선했습니다.
 
@@ -132,7 +125,6 @@ Workfront Planning의 Workspaces 기본 페이지에 대해 다음과 같이 개
 * **다른 작업 영역** 탭의 이름이 **모든 작업 영역**(으)로 변경되었으며 사용자가 만든 작업 영역을 포함하여 볼 수 있는 권한 이상이 있는 모든 작업 영역이 포함됩니다.
 
 자세한 내용은 [작업 영역 편집](/help/quicksilver/planning/architecture/edit-workspaces.md)을 참조하십시오.
-
 
 
 ## GenStudio 작업 영역에서 기본적으로 제품 및 성향에 브랜드 연결 필드 추가

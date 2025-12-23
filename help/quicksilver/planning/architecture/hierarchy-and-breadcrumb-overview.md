@@ -1,28 +1,18 @@
 ---
 title: 계층 구조 및 이동 경로 개요
-description: 작업 영역의 레코드 유형 간에 여러 작업 영역 계층을 만들 수 있습니다.
-hide: true
-hidefromtoc: true
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 0%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Hierarchy and Breadcrumb Overview
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: 레코드 유형을 연결한 후 작업 공간의 레코드 유형 간에 여러 작업 공간 계층을 만들 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 0%
+
 ---
--->
+
+
 
 # 계층 구조 및 이동 경로 개요
 
@@ -30,7 +20,7 @@ hidefromtoc: yes
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
-작업 영역 관리자는 레코드 유형과 Adobe Workfront Planning의 다른 객체 유형 간에 유연하지만 구조화된 계층을 정의할 수 있습니다.
+작업 영역 관리자는 연결된 레코드 유형과 Adobe Workfront Planning의 다른 객체 유형 간에 유연하지만 구조화된 계층을 정의할 수 있습니다.
 
 계층은 레코드 유형 간 또는 레코드 유형과 Workfront 프로젝트 간의 연결입니다.
 
@@ -45,7 +35,7 @@ hidefromtoc: yes
 
 ## 계층 작업 시 고려 사항
 
-* 하나의 작업 영역에 대해 여러 계층을 생성할 수 있습니다.
+* 하나의 작업 영역에 대해 최대 5개의 계층을 생성할 수 있습니다.
 * 하나의 계층에서 최대 4개의 레코드 및 개체 유형을 연결할 수 있습니다.
 * 작업 영역 계층 구조에서 다음 객체 유형만 연결할 수 있습니다.
    * 계층을 작성하는 작업 영역에 속하는 레코드 유형입니다.
@@ -60,6 +50,9 @@ hidefromtoc: yes
   * 선택한 레코드 유형 간의 연결이 이미 있으면 시스템이 기존 연결을 재사용합니다.
 * 연결이 없으면 Workfront에서 계층 설정의 일부로 연결을 만듭니다.
 * 계층에 포함할 레코드 및 개체 형식에 대해 연결된 필드에 대해 **연결된 레코드 형식에 해당 필드 만들기** 설정이 켜져 있어야 합니다.
+* 레코드 유형이 계층의 일부인 경우 삭제할 수 없습니다.
+* 필드에서 참조된 레코드 유형이 계층의 일부인 경우 연결 필드를 삭제할 수 없습니다. 레코드 유형을 삭제하려면 먼저 계층에서 레코드 유형을 제거하거나 계층을 삭제해야 합니다.
+* 연결된 레코드 유형에서 조회 필드를 삭제할 수 있습니다. 필드의 정보는 복구할 수 없습니다.
 * 다음은 계층 설정에 대한 규칙입니다.
    * 레코드 유형은 지정된 작업 영역에서 하나의 상위 레코드 유형만 가질 수 있습니다.
 
@@ -77,18 +70,22 @@ hidefromtoc: yes
    * 글로벌 레코드 유형은 해당 작업 영역에 추가된 후 여러 계층 내의 여러 작업 영역에 나타날 수 있습니다.
 
      예를 들어 Campaign이 글로벌 레코드 유형이고 Workspace 1에 있는 계층의 일부인 경우 Workspace 2에 기존 레코드 유형으로 추가할 수 있으며 2에서 계층의 일부일 수 있습니다. 하지만 Workspace 1에서 글로벌 레코드 유형으로 지정되어야 Workspace 2의 계층 구조에 포함될 수 있지만 Workspace 2에 추가되지는 않습니다.
+   * 연결된 레코드 유형이 계층의 일부인 경우 하위 레코드 유형에서 하나의 레코드를 상위 레코드 유형에서 최대 10개의 레코드까지 연결할 수 있습니다.
+
+     예를 들어 상위 캠페인과 하위 레코드 담당자간에 계층 구조를 만드는 경우 동일한 담당자를 최대 10개의 캠페인에 연결할 수 있습니다.
 
 ## 이동 경로를 볼 때 고려 사항
-
-<!-- this might be incomplete, because I have no UI for this yet-->
 
 레코드 유형 간에 계층을 만들면 해당 레코드 유형에 속하는 레코드에 대한 이동 경로를 생성합니다.
 
 예를 들어 계층을 만들고 전술, 활동, 프로젝트 순으로 캠페인을 연결하는 경우 계층에 연결된 유형의 레코드로 이동하면 레코드가 배치된 위치를 계층 구조에서 볼 수 있습니다.
 
+![이동 경로](assets/breadcrumbs-on-project.png)
+
 다음 사항을 고려하십시오.
 
 * 레코드 유형이 여러 계층의 일부인 경우 레코드 페이지의 레코드 이동 경로에서 계층 간을 전환할 수 있습니다.
+* 계층의 레코드 유형에 여러 레코드가 있는 경우 이동 경로에서 레코드를 선택할 수 있습니다.
 * 이동 경로는 Workfront 및 Planning에서 작동합니다.
 
   예를 들어 Planning 캠페인 및 전술, Workfront 포트폴리오 및 프로그램에도 연결된 프로젝트를 볼 때 탐색 표시에서 Planning 및 Workfront 객체 유형 간을 전환할 수 있습니다.
