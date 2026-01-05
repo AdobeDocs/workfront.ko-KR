@@ -47,8 +47,8 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [ [!DNL Adobe Workfront for Jira] 설치](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
-* [ [!DNL Adobe Workfront for Jira] 구성](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
-* [ [!DNL Adobe Workfront] 과(와) [!DNL Jira] 사이의 항목 연결](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
-* [ [!DNL Jira] 에서 [!DNL Adobe Workfront] 사이의 연결된 항목 업데이트](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
+* [&#x200B; [!DNL Adobe Workfront for Jira] 설치](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
+* [&#x200B; [!DNL Adobe Workfront for Jira] 구성](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
+* [&#x200B; [!DNL Adobe Workfront] 과(와) [!DNL Jira] 사이의 항목 연결](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
+* [&#x200B; [!DNL Jira] 에서 [!DNL Adobe Workfront] 사이의 연결된 항목 업데이트](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
 * [[!UICONTROL [!DNL Jira] 활동 로그] 보기](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)

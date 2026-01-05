@@ -94,7 +94,7 @@ ht-degree: 1%
 [!DNL Workfront for Jira]을(를) 설치하려면
 
 1. [!DNL Jira]에 [!DNL Jira] 관리자로 로그인합니다.
-1. **[!DNL Workfront for Jira]**[[!DNL Atlassian Marketplace]&#x200B;에서 ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) 추가 기능을 찾으십시오.
+1. **[!DNL Workfront for Jira]**&#x200B;[[!DNL Atlassian Marketplace]&#x200B;에서 &#x200B;](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) 추가 기능을 찾으십시오.
 
 1. 설치하려면 **[!UICONTROL 지금 가져오기]**&#x200B;를 클릭하세요.
 
