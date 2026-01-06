@@ -5,10 +5,10 @@ description: 조직에서 AI Assistant에 액세스할 수 있는 액세스 수�
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 184636b0d8df85e75502fc3650900244cfbd0e80
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 8%
+source-wordcount: '212'
+ht-degree: 9%
 
 ---
 
@@ -48,7 +48,8 @@ Workfront 관리자는 조직에서 AI Assistant를 활성화할 사용자를 �
 
 지정된 액세스 수준에 대해 AI Assistant를 활성화하려면 다음과 같이 하십시오.
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
+{{step-1-to-setup}}
+
 1. 왼쪽 탐색에서 **액세스 수준**&#x200B;을 선택합니다.
 1. 원하는 액세스 수준을 선택한 다음 목록 위에 있는 **편집** ![편집 아이콘](assets/edit-icon.png) 아이콘을 클릭합니다.
 1. **액세스 수준 편집** 상자의 **추가 제한 설정...** 영역에서 **Workfront AI Assistant 사용 안 함** 확인란의 선택을 취소합니다.

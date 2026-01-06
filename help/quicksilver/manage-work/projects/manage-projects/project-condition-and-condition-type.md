@@ -7,7 +7,7 @@ description: 프로젝트 상태는 프로젝트가 진행되는 방식을 시�
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
@@ -78,25 +78,25 @@ ht-degree: 1%
    <td><strong>프로젝트 상태</strong></td> 
    <td><strong>프로젝트 진행 상태</strong></td> 
    <td><strong>Workfront 조건 표시기</strong></td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>대상</td> 
    <td>정시의 프로젝트 진행 상태일 때 프로젝트의 상태는 <strong>On Target</strong>입니다. </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>위험 상태</td> 
    <td>프로젝트의 진행 상태가 <strong>늦어짐</strong> 또는 <strong>위험</strong>인 경우 프로젝트의 상태는 <strong>위험</strong>입니다.</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>문제 발생</td> 
    <td>프로젝트의 진행 상태가 <strong>지연</strong>인 경우 프로젝트의 상태는 <strong>문제 발생</strong>입니다. </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

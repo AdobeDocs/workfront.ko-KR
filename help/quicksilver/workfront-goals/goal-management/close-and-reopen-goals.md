@@ -6,10 +6,10 @@ description: 목표를 완료했거나 더 이상 쓸모가 없어져 작업을 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 0%
+source-wordcount: '860'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto">
 <col>
@@ -189,12 +189,9 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
+{{step1-to-goals}}
 
-   목표 목록이 열립니다.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+목표 목록이 열립니다.
 
 1. (선택 사항) 활성 상태인 목표만 표시하도록 필터를 수정합니다.
 
@@ -255,12 +252,9 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)> **목표**&#x200B;를 클릭합니다.
+{{step1-to-goals}}
 
-   목표 목록이 열립니다.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+목표 목록이 열립니다.
 
 1. (선택 사항) 닫힌 목표만 표시하도록 필터를 수정합니다.
 

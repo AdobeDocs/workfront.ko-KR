@@ -6,10 +6,10 @@ description: 프로젝트에서 템플릿을 제거할 수 없습니다. 템플�
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -112,4 +112,4 @@ ht-degree: 1%
 
      보기 만들기에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
-1. 2단계에서 템플릿에서 만든 작업을 모두 선택한 다음 **삭제 아이콘**&#x200B;**> 예, 삭제**&#x200B;를 클릭합니다. 자세한 내용은 [작업 삭제](../../../manage-work/tasks/manage-tasks/delete-tasks.md)를 참조하십시오.
+1. 2단계에서 템플릿에서 만든 작업을 모두 선택한 다음 **삭제 아이콘****> 예, 삭제**를 클릭합니다. 자세한 내용은 [작업 삭제](../../../manage-work/tasks/manage-tasks/delete-tasks.md)를 참조하십시오.

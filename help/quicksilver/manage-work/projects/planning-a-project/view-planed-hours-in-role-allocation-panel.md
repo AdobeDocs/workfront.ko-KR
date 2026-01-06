@@ -6,10 +6,10 @@ description: 프로젝트의 역할 할당 패널에서 프로젝트의 작업 �
 author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 1%
+source-wordcount: '458'
+ht-degree: 5%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -104,8 +104,9 @@ able style="table-layout:auto">
 
 ## 역할 할당 패널에서 프로젝트 계획 시간 보기
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **프로젝트**&#x200B;를 클릭합니다.
-1. 액세스할 프로젝트의 이름을 클릭합니다. 프로젝트 페이지가 열립니다.
+{{step1-to-projects}}
+
+1. 액세스할 프로젝트의 이름을 클릭합니다. 프로젝트 페이지가 열립니다.
 1. 왼쪽 패널에서 다음 중 하나를 클릭합니다.
 
    * **작업**

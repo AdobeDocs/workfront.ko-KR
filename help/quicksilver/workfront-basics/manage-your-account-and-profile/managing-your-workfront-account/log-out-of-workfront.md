@@ -6,10 +6,10 @@ description: 보안상의 이유로  [!DNL Adobe Workfront] 에서 정기적으�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,5 +60,7 @@ ht-degree: 0%
 
 ## [!DNL Workfront] 계정에서 로그아웃
 
-1. **[!UICONTROL 의 오른쪽 위 모서리에 있는]**&#x200B;기본 메뉴![&#x200B; 아이콘 &#x200B;](assets/main-menu-icon.png)기본 메뉴 아이콘[!DNL Adobe Workfront]을 클릭한 다음 **[!UICONTROL 로그아웃]** ![로그아웃 아이콘](assets/logout-icon.png)을 클릭합니다.
+{{step1-click-main-menu}}
+
+1. **[!UICONTROL 로그아웃]** ![로그아웃 아이콘](assets/logout-icon.png)을 클릭합니다.
 1. 그러면 사용자 이름과 암호를 다시 입력할 수 있는 로그인 페이지로 돌아갑니다.

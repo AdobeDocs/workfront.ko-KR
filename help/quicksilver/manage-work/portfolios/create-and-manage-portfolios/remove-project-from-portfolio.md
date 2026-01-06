@@ -6,10 +6,10 @@ description: 포트폴리오에서 프로젝트를 제거하고 다른 포트폴
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ ht-degree: 0%
 ## 포트폴리오에서 프로젝트 제거
 
 1. Portfolio으로 이동하여 왼쪽 패널에서 **[!UICONTROL 프로젝트]**&#x200B;를 클릭합니다.
-1. 제거할 프로젝트를 선택합니다. 
+1. 제거할 프로젝트를 선택합니다.
 
    ![프로젝트 제거 단추](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 

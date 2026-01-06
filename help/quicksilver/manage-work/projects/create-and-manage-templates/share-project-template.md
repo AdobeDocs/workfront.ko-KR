@@ -6,10 +6,10 @@ description: 템플릿을 사용자와 공유하거나, 템플릿 수준에서 �
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 3%
+source-wordcount: '724'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Workfront 권한에 대한 자세한 내용은 [개체에 대한 공유 권한 �
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +97,7 @@ Workfront 권한에 대한 자세한 내용은 [개체에 대한 공유 권한 �
 
    또는
 
-   목록에서 템플릿을 선택하고 공유 아이콘 ![](assets/share-icon.png)을(를) 클릭한 다음 **템플릿**&#x200B;을(를) 클릭합니다.
+   목록에서 템플릿을 선택하고 공유 아이콘 ![템플릿 공유](assets/share-icon.png)를 클릭한 다음 **템플릿**&#x200B;을 클릭합니다.
 
    >[!TIP]
    >
@@ -117,7 +117,7 @@ Workfront 권한에 대한 자세한 내용은 [개체에 대한 공유 권한 �
 
    * **관리**: 이러한 권한이 있는 사용자는 템플릿을 편집하거나 삭제할 수 있습니다.
 
-     여기에서 사용할 수 있는 고급 설정 ![](assets/gear-icon-in-access-levels.png)에 대한 자세한 내용은 문서 [템플릿 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions)에서 [템플릿 공유에 대한 고급 설정](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) 섹션을 참조하십시오.
+     여기에서 사용할 수 있는 고급 설정 ![톱니바퀴 아이콘](assets/gear-icon-in-access-levels.png)에 대한 자세한 내용은 문서 [템플릿 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions)에서 [템플릿 공유를 위한 고급 설정](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) 섹션을 참조하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -145,9 +145,9 @@ Workfront 권한에 대한 자세한 내용은 [개체에 대한 공유 권한 �
 1. 각 엔티티에 대한 드롭다운 메뉴에서 다음을 선택합니다.
 
    * **액세스 권한 없음**: 템플릿에 액세스할 수 없는 사용자를 지정할 수 있습니다.\
-     이 옵션은 템플릿에서 프로젝트를 대량으로 공유하는 경우에만 사용할 수 있습니다. 
+     이 옵션은 템플릿에서 프로젝트를 대량으로 공유하는 경우에만 사용할 수 있습니다.
    * **보기**: 이러한 권한이 있는 사용자는 템플릿에서 만든 프로젝트를 볼 수 있습니다.
-   * **참여**: 이러한 권한이 있는 사용자는 템플릿에서 만든 프로젝트에 참여할 수 있습니다. 
+   * **참여**: 이러한 권한이 있는 사용자는 템플릿에서 만든 프로젝트에 참여할 수 있습니다.
    * **관리**: 이러한 권한이 있는 사용자는 이 템플릿에서 만든 프로젝트를 관리하거나 삭제할 수 있습니다.
 
 1. (선택 사항) **옵션** 아이콘을 클릭하여 프로젝트를 시스템 전체에서 사용할 수 있도록 합니다.

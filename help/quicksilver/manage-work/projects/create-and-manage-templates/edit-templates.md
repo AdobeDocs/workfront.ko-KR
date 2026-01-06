@@ -6,7 +6,7 @@ description: 프로젝트 템플릿을 편집하여 향후 프로젝트의 프�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '5672'
 ht-degree: 2%
@@ -508,7 +508,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td> <p>템플릿에 연결할 승인 프로세스를 선택합니다. Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 권한이 있는 사용자는 시스템 수준 또는 그룹 수준 프로젝트 승인 프로세스를 정의해야 템플릿과 연결할 수 있습니다. 승인 프로세스 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">작업 항목에 대한 승인 프로세스 만들기</a>를 참조하십시오.</p> <p>승인 프로세스를 추가할 때는 다음 사항을 고려하십시오. </p> 
       <ul> 
       <li>활성 승인 프로세스만 목록에 표시됩니다. </li> 
-      <li> <p>시스템 전체 및 그룹별 승인 프로세스가 목록에 표시됩니다. 템플릿 그룹 이외의 그룹과 연결된 승인 프로세스가 목록에 표시되지 않습니다.</p> <p><b>중요 사항</b>
+      <li> <p>시스템 전체 및 그룹별 승인 프로세스가 목록에 표시됩니다. 템플릿 그룹 이외의 그룹과 연결된 승인 프로세스가 목록에 표시되지 않습니다.</p> <p><b>중요</b>
 
    템플릿에 연결된 그룹이 변경되면 그룹별 승인 프로세스가 일회용 승인 프로세스가 됩니다. 프로젝트 그룹 변경 또는 승인 프로세스 변경 내용이 승인 설정에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">그룹 및 승인 프로세스 변경 내용이 할당된 승인 프로세스에 미치는 영향</a>을 참조하십시오. </p> </li>
    <li> <p>일회용 승인 프로세스를 추가한 경우 이 필드에 "사용자 지정"으로 표시됩니다. 자세한 내용은 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">새 승인 프로세스나 기존 승인 프로세스를 작업과 연결</a>을 참조하십시오. </p> 
@@ -781,7 +781,7 @@ To edit templates in bulk:
 
   승인 프로세스를 작업과 연결하는 방법에 대한 자세한 내용은 [새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)을 참조하십시오.
 
-* 결제 요율
+* 청구 요율
 
   템플릿에 대한 청구 요율을 추가하는 것은 프로젝트에 청구 요율을 추가하는 것과 비슷합니다. 자세한 내용은 [프로젝트 수준에서 작업 역할 청구 요금 재정의](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)를 참조하십시오.
 
@@ -1258,7 +1258,7 @@ For information about how these settings affect creating new tasks, see [Create 
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
-1. (Optional) **Select Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using&nbsp;Work Effort instead of Planned Hours in the project created from the template.
+1. (Optional) **Select Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using Work Effort instead of Planned Hours in the project created from the template.
 1. (Conditional and optional) If you selected Use Work Effort to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of Work Effort. The following percentage values are the defaults:
  
    | Work Effort level |Percentage value|

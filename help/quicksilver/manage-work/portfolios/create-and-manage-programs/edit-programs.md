@@ -6,10 +6,10 @@ description: 사용자가 만든 프로그램이나 다른 사용자가 사용�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -123,7 +123,7 @@ ht-degree: 1%
 1. **[!UICONTROL 개요]**&#x200B;를 클릭하고 다음 필드를 지정합니다.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;note below drafted for now)</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: note below drafted for now)</p>
    -->
 
    <!--
@@ -147,7 +147,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 프로그램 관리자]</td> 
-      <td> <p>프로그램 관리자로 표시할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 프로그램의 프로젝트에 정의된 작업을 감독할 수 있는 사람입니다. </p> <p><b><p>중요 사항</b></p> <p>사용자를 프로그램 관리자로 지정하면 프로그램 및 프로그램의 프로젝트에 대한 [!UICONTROL 관리] 권한이 자동으로 부여됩니다. </p> <p><b>팁</b></p> <p>프로그램 헤더에서 프로그램 관리자를 빠르게 업데이트할 수 있습니다. </p> </td> 
+      <td> <p>프로그램 관리자로 표시할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 프로그램의 프로젝트에 정의된 작업을 감독할 수 있는 사람입니다. </p> <p><b><p>중요</b></p> <p>사용자를 프로그램 관리자로 지정하면 프로그램 및 프로그램의 프로젝트에 대한 [!UICONTROL 관리] 권한이 자동으로 부여됩니다. </p> <p><b>팁</b></p> <p>프로그램 헤더에서 프로그램 관리자를 빠르게 업데이트할 수 있습니다. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
@@ -195,7 +195,7 @@ ht-degree: 1%
 
 
    변경 내용을 저장하면 추가한 댓글이 프로그램의 [!UICONTROL 업데이트] 탭에 표시되고 이에 포함된 사용자에게 전자 메일을 보냅니다.
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다
 
 
 ## 프로그램 일괄 편집

@@ -6,10 +6,10 @@ description: 프로젝트의 작업 일정 간에 충돌이 발생하는 경우�
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -93,7 +93,7 @@ ht-degree: 3%
    시간 단위에 대해 다음 옵션 중에서 선택합니다.
 
    * 분
-   * 시간. 이것이 기본값입니다.
+   * 시간. 이것이 기본값입니다.
    * 일
    * 주
    * 개월
@@ -107,6 +107,6 @@ ht-degree: 3%
    >
    >경과 시간은 작업 기간에 대한 시간 단위입니다. 휴일, 주말 및 휴무를 포함하는 작업의 계획된 시작 일자와 계획된 완료 일자 사이의 시간입니다. 즉, 경과 시간은 역일이 경과된 때이다.
 
-1. **저장**&#x200B;을 클릭합니다. 
+1. **저장**&#x200B;을 클릭합니다.
 
- 
+

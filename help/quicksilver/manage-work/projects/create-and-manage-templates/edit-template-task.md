@@ -7,10 +7,10 @@ description: 템플릿을 만든 후 템플릿 작업에 대한 정보를 편집
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '4633'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -213,7 +213,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
      </tr> 
      <tr> 
       <td role="rowheader"><strong>기간</strong> </td> 
-      <td> <p>이후 작업의 기간(분, 시간, 일, 주 또는 개월)을 지정합니다. 이 템플릿에서 만드는 향후 작업은 여기에 지정된 기간을 갖습니다.</p> <p>기본적으로 Workfront은 기간(일)을 측정합니다. 작업을 완료하기 전에 작업이 완료되지 않은 상태로 남아 있도록 허용하는 시간입니다. 작업의 <strong>기간 유형</strong>이(가) <strong>단순</strong>이거나 <strong>작업 제한 조건</strong>이(가) <strong>고정 날짜</strong>인 경우 작업의 기간을 지정할 수 없습니다.</p> <p><b>중요 사항</b></p> <p>기간은 일반적으로 템플릿 작업의 계획된 시작 일자와 계획된 완료 일자 사이의 시간이며 이러한 이유로 템플릿의 타임라인에 영향을 줍니다. 이를 통해 템플릿으로 만드는 향후 프로젝트의 타임라인이 결정됩니다. </p> </td> 
+      <td> <p>이후 작업의 기간(분, 시간, 일, 주 또는 개월)을 지정합니다. 이 템플릿에서 만드는 향후 작업은 여기에 지정된 기간을 갖습니다.</p> <p>기본적으로 Workfront은 기간(일)을 측정합니다. 작업을 완료하기 전에 작업이 완료되지 않은 상태로 남아 있도록 허용하는 시간입니다. 작업의 <strong>기간 유형</strong>이(가) <strong>단순</strong>이거나 <strong>작업 제한 조건</strong>이(가) <strong>고정 날짜</strong>인 경우 작업의 기간을 지정할 수 없습니다.</p> <p><b>중요</b></p> <p>기간은 일반적으로 템플릿 작업의 계획된 시작 일자와 계획된 완료 일자 사이의 시간이며 이러한 이유로 템플릿의 타임라인에 영향을 줍니다. 이를 통해 템플릿으로 만드는 향후 프로젝트의 타임라인이 결정됩니다. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>계획된 시간</strong> </td> 
@@ -330,7 +330,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader"><p><b>마일스톤</b></p></strong> </td> 
       <td> <p>선택한 템플릿 작업과 연결할 마일스톤을 선택하십시오.</p>
 
-   <p><b>중요 사항</b></p>
+   <p><b>중요</b></p>
    <p>이 필드를 표시하려면 마일스톤 경로를 템플릿과 연결해야 합니다. 자세한 내용은 <a href="../create-and-manage-templates/edit-templates.md">프로젝트 템플릿 편집</a>을 참조하세요.</p> 
    </td> 
      </tr>
@@ -549,7 +549,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <li>보통</li>
       <li>대형</li></ul>
 
-   <p><b>중요 사항</b></p>
+   <p><b>중요</b></p>
       <p>템플릿 작업 편집 시 <b>작업 노력을 사용하여 작업 계획 시간</b> 설정을 자동으로 계산하는 경우에만 템플릿 작업을 편집할 때 작업 노력 필드가 표시됩니다.</p>
 
    </td> 
@@ -598,7 +598,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       </tr> 
       <tr> 
          <td role="rowheader"><strong>기간</strong> </td> 
-         <td> <p>이후 작업의 기간(분, 시간, 일, 주 또는 개월)을 지정합니다. 이 템플릿에서 만드는 향후 작업은 여기에 지정된 기간을 갖습니다.</p> <p>기본적으로 Workfront은 기간(일)을 측정합니다. 작업을 완료하기 전에 작업이 완료되지 않은 상태로 남아 있도록 허용하는 시간입니다. 작업의 <strong>기간 유형</strong>이(가) <strong>단순</strong>이거나 <strong>작업 제한 조건</strong>이(가) <strong>고정 날짜</strong>인 경우 작업의 기간을 지정할 수 없습니다.</p> <p><b>중요 사항</b></p> <p>기간은 일반적으로 템플릿 작업의 계획된 시작 일자와 계획된 완료 일자 사이의 시간이며 이러한 이유로 템플릿의 타임라인에 영향을 줍니다. 이를 통해 템플릿으로 만드는 향후 프로젝트의 타임라인이 결정됩니다. </p> </td> 
+         <td> <p>이후 작업의 기간(분, 시간, 일, 주 또는 개월)을 지정합니다. 이 템플릿에서 만드는 향후 작업은 여기에 지정된 기간을 갖습니다.</p> <p>기본적으로 Workfront은 기간(일)을 측정합니다. 작업을 완료하기 전에 작업이 완료되지 않은 상태로 남아 있도록 허용하는 시간입니다. 작업의 <strong>기간 유형</strong>이(가) <strong>단순</strong>이거나 <strong>작업 제한 조건</strong>이(가) <strong>고정 날짜</strong>인 경우 작업의 기간을 지정할 수 없습니다.</p> <p><b>중요</b></p> <p>기간은 일반적으로 템플릿 작업의 계획된 시작 일자와 계획된 완료 일자 사이의 시간이며 이러한 이유로 템플릿의 타임라인에 영향을 줍니다. 이를 통해 템플릿으로 만드는 향후 프로젝트의 타임라인이 결정됩니다. </p> </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>계획된 시간</strong> </td> 
@@ -712,7 +712,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader"><p><b>마일스톤</b></p></strong> </td> 
       <td> <p>선택한 템플릿 작업과 연결할 마일스톤을 선택하십시오.</p>
 
-   <p><b>중요 사항</b></p>
+   <p><b>중요</b></p>
    <p>이 필드를 표시하려면 마일스톤 경로를 템플릿과 연결해야 합니다. 자세한 내용은 <a href="../create-and-manage-templates/edit-templates.md">프로젝트 템플릿 편집</a>을 참조하세요.</p> 
    </td> 
      </tr>

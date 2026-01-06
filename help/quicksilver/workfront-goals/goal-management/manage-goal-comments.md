@@ -6,10 +6,10 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 0%
+source-wordcount: '209'
+ht-degree: 8%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 >
 >Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto">
 <col>
@@ -138,8 +138,10 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 
 목표 페이지의 업데이트 섹션에서 목표에 주석을 추가할 수 있습니다.
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭하거나 왼쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 줄](assets/lines-main-menu.png)을(를) 클릭한 다음(사용 가능한 경우) **목표**&#x200B;를 클릭합니다.
+{{step1-to-goals}}
+
 이렇게 하면 목표 목록이 열립니다.
+
 1. 주석을 추가할 목표를 찾은 다음 해당 이름을 클릭하여 목표 페이지를 엽니다.
 1. 왼쪽 패널에서 **업데이트**&#x200B;를 클릭합니다.
 

@@ -7,7 +7,7 @@ description: Adobe Workfront은 타임라인에서 작업의 진행 상태를 �
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Adobe Workfront은 타임라인에서 작업의 진행 상태를 보고 작업�
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td scope="col"> <p> </p> <p><strong>정시</strong> </p> </td> 
+   <td scope="col"> <p> </p> <p><strong>정시</strong> </p> </td> 
    <td scope="col"> <p>모든 계획된 일자가 예상 일자와 일치하면 작업은 <strong>정시</strong>(으)로 간주됩니다. 이 진행 상태는 프로젝트가 일정보다 빠를 수 있으며 예상 일자는 계획 일자 이전일 수 있습니다.</p> <p>예상 날짜에 대한 자세한 내용은 <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">프로젝트, 작업 및 문제에 대한 예상 완료 날짜 개요</a>를 참조하십시오.</p> <p>작업 계획 완료 일자에 대한 자세한 내용은 다음 문서를 참조하십시오.</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">작업 계획 시작 날짜 개요</a> </p> </li> 

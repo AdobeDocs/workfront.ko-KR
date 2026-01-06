@@ -8,10 +8,10 @@ description: 기존 프로젝트에 템플릿을 첨부할 경우 템플릿의 �
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -55,236 +55,236 @@ ht-degree: 5%
   <tr> 
    <td>설명</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>상태</p> </td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
    <td>프로젝트의 필드가 비어 있는 경우 템플릿에서 전송됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>우선 순위</td> 
+   <td>우선순위</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>조건 유형</td> 
+   <td>상태 유형</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>일정 모드</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>계획된 일자</td> 
    <td>추가된 작업에 따라 변경될 수 있음</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>실제 일자</td> 
    <td>추가된 작업에 따라 변경될 수 있음</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
+   <td>포트폴리오</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>프로그램</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>그룹</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>회사</td> 
    <td>프로젝트의 필드가 비어 있는 경우 템플릿에서 전송됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>계획된 시간</td> 
    <td>추가된 작업에 따라 변경될 수 있음</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>프로젝트 소유자</td> 
    <td>프로젝트의 필드가 비어 있는 경우 템플릿에서 전송됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>프로젝트 스폰서</td> 
    <td>프로젝트의 필드가 비어 있는 경우 템플릿에서 전송됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>리소스 관리자</td> 
    <td>프로젝트의 기존 리소스 관리자 목록에 추가됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>사용자 지정 Forms</td> 
+   <td>사용자 정의 양식</td> 
    <td>프로젝트에 이미 있는 양식 외에 를 프로젝트에 추가했습니다.</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>예산</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>통화</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>PIM</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>EAC</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>계획된 이익</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>실제 이익</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>마일스톤 경로</td> 
    <td>프로젝트의 필드가 비어 있는 경우 템플릿에서 전송됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>완료 모드</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>요약 완료 모드</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>업데이트 유형</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>예약</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>사용자 휴무</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>리소스 레벨링 모드</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>위험(프로젝트 필드)</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>리소스 풀</td> 
    <td>프로젝트의 기존 리소스 풀 목록에 추가됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>시간 유형</td> 
    <td> <p>첨부 파일 프로세스 중에 선택 해제되면 프로젝트의 시간 유형 설정이 변경되지 않습니다. </p> <p>선택하면 템플릿 설정이 프로젝트로 전송됩니다. 프로젝트와 템플릿 모두에서 시간 유형 필터링이 예로 설정된 경우 템플릿의 시간 유형이 프로젝트의 시간 유형에 추가됩니다.</p> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p>✓ 덧신</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>미리 알림</td> 
    <td> <p>프로젝트에 대한 기존 미리 알림 목록에 추가되었습니다. </p> <p>첨부 프로세스 중에 선택을 취소한 경우 프로젝트 미리 알림은 변경되지 않습니다. </p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>작업 기본 승인 프로세스</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
-   <td>작업 기본 사용자 지정 Forms</td> 
+   <td>작업 기본 사용자 정의 양식</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>작업 노력</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>사용자가 인라인으로 문제를 추가하도록 허용</span> </td> 
    <td><span>프로젝트 정보가 유지됩니다</span> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>모든 설정</td> 
    <td>템플릿 설정이 프로젝트의 설정을 덮어씁니다.</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>작업</td> 
    <td>기존 프로젝트 작업 외에 작업 목록 맨 아래에 추가됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>문서</td> 
    <td>기존 프로젝트 문서에 추가하여 프로젝트에 추가됨</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>위험(프로젝트의 위험 영역에 있는 객체)</td> 
    <td>기존 프로젝트 위험에 추가하여 프로젝트에 추가됨 </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>승인 진행</td> 
    <td>템플릿에서 전송됨</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
-   <td>청구 요금</td> 
+   <td>청구 요율</td> 
    <td> <p>프로젝트의 기존 청구 요금에 더해 템플릿에서 전송됨. </p> <p>프로젝트와 템플릿 모두에서 동일한 작업 역할에 대해 다른 비율이 있는 경우 프로젝트의 비율은 변경되지 않습니다. </p> </td> 
-   <td> <p> </p> <p>✓ 덧신</p> </td> 
+   <td> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>청구 기록</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>경비</td> 
    <td>템플릿의 기존 비용에 더해 템플릿에서 전송됨</td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>재무 정보</td> 
-   <td> <p>첨부 프로세스에서 이 옵션을 선택하면 다음 필드가 프로젝트에 전송되거나 추가됩니다. </p> 
+   <td> <p>첨부 프로세스에서 이 옵션을 선택하면 다음 필드가 프로젝트에 전송되거나 추가됩니다. </p> 
     <ul> 
      <li> <p>고정 비용</p> <p>옵션을 선택하면 프로젝트의 업데이트된 고정 비용이 다음 공식을 사용하여 계산됩니다.</p> <p><code>Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost</code> </p> </li> 
      <li> <p>고정 수입</p> <p>옵션을 선택하면 다음 공식을 사용하여 프로젝트의 업데이트된 고정 수익이 계산됩니다.</p> <p><code>Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue </code> </p> </li> 
@@ -295,37 +295,37 @@ ht-degree: 5%
      <li> <p>프로젝트의 고정 비용 및 고정 수익은 유지됩니다.</p> </li> 
      <li> <p>템플릿에서 추가된 작업의 비용 및 수익 유형이 비용 없음 및 청구 불능으로 설정됩니다</p> </li> 
     </ul> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓ 덧신</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>시간</td> 
    <td>프로젝트 정보가 보존됨</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>대기열 세부 정보, 주제 그룹, 대기열 주제, 라우팅 규칙</td> 
    <td> <p>템플릿에서 전송됨</p> <p>첨부 파일 프로세스 중에 <strong>큐 속성 및 문제 설정</strong> 옵션을 선택하면 템플릿의 큐 세부 정보가 프로젝트의 세부 정보를 덮어씁니다. 이 경우 템플릿의 라우팅 규칙, 대기열 주제 및 주제 그룹이 프로젝트의 그룹에 추가됩니다. <br>프로젝트가 요청 대기열로 설정되어 있고 프로젝트에 첨부한 템플릿이 요청 대기열로 설정되어 있지 않은 경우 <strong>대기열 속성 및 문제 설정</strong> 상자를 선택한 상태로 두면 프로젝트의 대기열 정보가 제거됩니다. <br><strong>대기열 속성 및 문제 설정</strong> 상자를 선택 취소하면 프로젝트의 모든 대기열 설정 설정이 유지되며 템플릿의 대기열 설정 설정은 첨부되지 않습니다.</p> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓ 덧신</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>작업 제한</td> 
    <td> <p>템플릿에서 전송됨 </p> <p>첨부 프로세스 중에 선택 해제되면 프로젝트 일정 시작 설정에 따라 작업 제한 조건이 가능한 한 빨리 또는 가능한 한 늦게 설정됩니다. </p> </td> 
-   <td> <p> </p> <p> </p> <p style="text-align: center;">✓ 덧신</p> </td> 
+   <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
   </tr> 
   <tr> 
    <td>작업의 전임 작업</td> 
    <td> <p>템플릿에서 전송됨</p> <p>첨부 파일 프로세스 중에 선택을 취소하면 템플릿 작업 간의 모든 전임 작업 연결이 제거됩니다.</p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>공유 옵션</td> 
    <td> <p>첨부 파일 프로세스 중에 선택 해제되면 프로젝트 권한은 변경되지 않습니다.</p> <p>첨부 파일 프로세스 중에 선택된 경우 템플릿 권한이 프로젝트에 추가되거나 프로젝트의 권한을 덮어씁니다. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span>사용자 A에게 프로젝트에 대한 보기 권한이 있지만 템플릿에 대한 관리 권한이 있는 경우 템플릿을 첨부하면 사용자 A가 프로젝트에 대한 관리 액세스 권한을 갖게 됩니다.</p> </td> 
-   <td>✓ 덧신</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
 
- 
+
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -368,17 +368,17 @@ Attaching a template to a project is not the same as creating a project from a t
 <li> <p><b>Access settings</b> </p> </li>
 </ul>
 <ul>
-<li> <p><b>Custom&nbsp;Forms</b>:&nbsp;Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
+<li> <p><b>Custom Forms</b>: Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
 </ul>
 <ul>
-<li> <p><b>Start&nbsp;From</b> </p> </li>
+<li> <p><b>Start From</b> </p> </li>
 </ul>
 <p><strong>Project fields that are populated and they remain unchanged after attaching the template</strong></p>
 <p>The following fields remain unchanged on the project, even if they are also populated on the template, and they cannot be managed during attaching the template: </p>
 <ul>
 <li> <p style="font-weight: bold;">URL</p> </li>
 <li> <p style="font-weight: bold;">Project Owner</p> </li>
-<li> <p style="font-weight: bold;">Project&nbsp;Sponsor</p> </li>
+<li> <p style="font-weight: bold;">Project Sponsor</p> </li>
 <li> <p style="font-weight: bold;">Group</p> </li>
 <li> <p style="font-weight: bold;">Company</p> </li>
 <li> <p style="font-weight: bold;">Currency</p> </li>
@@ -389,8 +389,8 @@ Attaching a template to a project is not the same as creating a project from a t
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p style="font-weight: bold;">Issue Settings fields</p> </li>
 </ul>
 </div>
-<p>&nbsp;</p>
+<p> </p>
 </div>
 -->
 
- 
+

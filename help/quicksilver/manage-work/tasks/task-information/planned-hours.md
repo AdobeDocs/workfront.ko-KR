@@ -7,7 +7,7 @@ description: 작업, 문제 또는 프로젝트와 관련된 계획된 시간은
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2815'
 ht-degree: 0%
@@ -159,7 +159,7 @@ The daily hour amount represents one of the following:
 
 업무 균형자에서 작업 또는 문제에 할당된 각 사용자에 대한 일별 계획된 시간 할당을 볼 수 있습니다.
 
-계획된 시간의 일일 시간 양은 다음 중 하나를 나타냅니다. 
+계획된 시간의 일일 시간 양은 다음 중 하나를 나타냅니다.
 
 * 작업, 문제 또는 프로젝트 기간 중 각 날에 Workfront에서 균등하게 분배하는 기본 금액
 * 리소스 관리자가 관리하는 조정된 일일 할당
@@ -195,7 +195,7 @@ The daily hour amount represents one of the following:
 
 >[!IMPORTANT]
 >
->활용률 보고서의 계획된 시간은 작업과 문제 자체가 아니라 할당과 연관되어 있습니다. 활용성 보고서의 계획된 시간이 프로젝트의 작업 및 문제에 대한 계획된 시간과 항상 일치하는 것은 아닙니다. 그러나 계획된 시간은 작업 및 문제에 대한 할당과 연관된 시간과 일치합니다.
+>활용률 보고서의 계획된 시간은 작업과 문제 자체가 아니라 할당과 연관되어 있습니다. 활용성 보고서의 계획된 시간이 프로젝트의 작업 및 문제에 대한 계획된 시간과 항상 일치하는 것은 아닙니다. 그러나 계획된 시간은 작업 및 문제에 대한 할당과 연관된 시간과 일치합니다.
 
 활용성 보고서에서 다음 유형의 계획된 시간을 조회할 수 있습니다.
 
@@ -280,7 +280,7 @@ The daily hour amount represents one of the following:
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>Anna Asatryan</p>
 <p>3/22/2022 At 3:16 PM</p>
-<p>&nbsp;</p>
+<p> </p>
 <p>to Mark Paul, Corrie Butler, Arman Simonyan, Gagik Khalatyan, Alina Wilson, Artur Sargsyan, Vazgen Babayan, Anna Asatryan</p>
 <p>I have done some rough calculations on what the planned hours/revenues should look like Book.xlsx . And if we look, for example at the 2 users highlighted in one of the screenshots their planned hours look way off from what the calculation looks like in the spreadsheet (i.e. equally distributed allocation). When looking at the Workload balancer (the second screenshot), as an example for the user Yashas Mitta, I can see that the allocation has been modified. Obviously the utilization report calculates the allocations based on the modified contouring using the new work per day calculation. The project financial report uses the old, equal distribution of allocation along the full duration of the task. Hence. there is a difference when grouping per periods.</p>
 <p>Vazgen Babayan</p>

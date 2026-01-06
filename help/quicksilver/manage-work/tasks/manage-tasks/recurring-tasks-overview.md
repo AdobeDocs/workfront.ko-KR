@@ -9,7 +9,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 3%
@@ -100,4 +100,4 @@ Workfront에서 반복 작업을 만들 때 다음 사항을 고려하십시오.
 
 상위 작업에 대해 수행된 &#42;&#42; 할당은 되풀이의 모든 하위 작업에 적용됩니다. 상위 작업의 할당에 대한 변경 사항은 하위 작업의 개별 할당보다 우선 적용됩니다. 작업에 진행률이 표시되면 할당이 변경되지 않습니다.
 
- 
+

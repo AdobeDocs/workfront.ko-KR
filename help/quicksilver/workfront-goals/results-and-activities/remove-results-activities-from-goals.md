@@ -7,10 +7,10 @@ description: 결과, 활동 및 프로젝트가 더 이상 관련이 없을 때 
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 0%
+source-wordcount: '646'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 >
 >Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto">
 <col>
@@ -187,11 +187,9 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-   이렇게 하면 Workfront 목표 영역이 열리고 기본적으로 목표 목록이 표시됩니다.
+이렇게 하면 Workfront 목표 영역이 열리고 기본적으로 목표 목록이 표시됩니다.
 
 1. 결과 및 활동을 제거할 목표의 이름을 클릭합니다.
 
@@ -232,12 +230,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   이렇게 하면 Workfront 목표 영역이 열리고 기본적으로 목표 목록이 표시됩니다.
+이렇게 하면 Workfront 목표 영역이 열리고 기본적으로 목표 목록이 표시됩니다.
 
 1. 결과 및 활동을 제거할 목표의 이름을 클릭합니다.
 

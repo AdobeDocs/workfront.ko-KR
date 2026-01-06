@@ -6,27 +6,27 @@ description: Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # Microsoft 프로젝트로 프로젝트 내보내기
 
-Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼 수 있습니다. 
+Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼 수 있습니다.
 
 >[!IMPORTANT]
 >
 >* 일부 Workfront 필드는 Microsoft 프로젝트 파일에서 전송되지 않습니다.\
 >  Workfront과 Microsoft 프로젝트 간의 필드 호환성에 대한 자세한 내용은 문서 [Microsoft 프로젝트 필드를 Adobe Workfront 프로젝트에 매핑](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)을 참조하십시오.
->* 한 애플리케이션에서 다른 애플리케이션으로 프로젝트를 전송하는 횟수를 제한하는 것이 좋습니다. 
+>* 한 애플리케이션에서 다른 애플리케이션으로 프로젝트를 전송하는 횟수를 제한하는 것이 좋습니다.
 >
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,4 +101,4 @@ Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼 수 있습�
 
 1. **MS 프로젝트 내보내기**&#x200B;를 클릭합니다.
 
-   프로젝트가 XML 파일로 컴퓨터에 다운로드되어 Microsoft 프로젝트로 가져올 수 있습니다. 
+   프로젝트가 XML 파일로 컴퓨터에 다운로드되어 Microsoft 프로젝트로 가져올 수 있습니다.

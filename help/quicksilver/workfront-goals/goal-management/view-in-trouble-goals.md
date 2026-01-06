@@ -6,10 +6,10 @@ description: 문제가 진행 중인 목표 는 달성되지 못할 위험이 �
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 0%
+source-wordcount: '748'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto">
 <col>
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ## 목표 달성 시 문제 상황 진행에 도달하지 않도록 하기 위한 권장 사항
 
-목표 진행 상황에 도달하기 전에 목표 진행 상황을 자주 모니터링하고 목표 진행 상황에 도달할 때 진행 상황을 조정할 수 있습니다. 위험에 처한 목표는 곤경에 빠질 위험이 있다. 목표 진행 상황에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 상황 및 상태 개요](../../workfront-goals/goal-management/calculate-goal-progress.md)를 참조하십시오.
+목표 진행 상황에 도달하기 전에 목표 진행 상황을 자주 모니터링하고 목표 진행 상황에 도달할 때 진행 상황을 조정할 수 있습니다. 위험에 처한 목표는 곤경에 빠질 위험이 있다. 목표 진행 상황에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 상황 및 상태 개요](../../workfront-goals/goal-management/calculate-goal-progress.md)를 참조하십시오.
 
 목표 달성이 문제 상황으로 진행되기 전에 다음 사항을 권장합니다.
 
@@ -139,16 +139,13 @@ ht-degree: 0%
 
 ## 목표 목록에서 문제 발생 목표 검토
 
-Workfront 목표의 모든 섹션에서 목표를 검토할 수 있습니다. Workfront 목표 섹션에 대한 자세한 내용은 [Adobe Workfront 목표 섹션 개요](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)를 참조하십시오.
+Workfront 목표의 모든 섹션에서 목표를 검토할 수 있습니다. Workfront 목표 섹션에 대한 자세한 내용은 [Adobe Workfront 목표 섹션 개요](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)를 참조하십시오.
 
 이 문서에서는 목표 목록에서 목표를 검토하는 방법을 설명합니다.
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Workfront 목표 영역이 열리고 기본적으로 목표 목록 섹션이 표시됩니다.
+Workfront 목표 영역이 열리고 기본적으로 목표 목록 섹션이 표시됩니다.
 
 1. (권장) 위험 상태의 목표를 검토하려면 목표 목록 영역에 대해 다음 필터를 조정합니다.
 

@@ -7,7 +7,7 @@ description: 작업의 계획된 시작 일자는 작업 생성자가 작업에 
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 2%
@@ -22,18 +22,18 @@ ht-degree: 2%
 
 ## 작업의 계획된 시작 일자
 
-작업의 계획된 시작 일자를 지정하거나 특정 기준에 따라 작업을 Adobe Workfront에 맡겨 계산할 수 있습니다. 
+작업의 계획된 시작 일자를 지정하거나 특정 기준에 따라 작업을 Adobe Workfront에 맡겨 계산할 수 있습니다.
 
 * [작업의 계획된 시작 날짜를 수동으로 설정](#manually-set-the-planned-start-date-of-a-task)
 * [작업에 대한 계획된 시작 일자 계산 방법](#how-the-planned-start-date-is-calculated-for-a-task)
 
 ### 작업의 계획된 시작 일자 수동 설정 {#manually-set-the-planned-start-date-of-a-task}
 
-작업의 계획된 시작 일자 설정은 작업에 할당하는 작업 제한 유형에 따라 다릅니다. 
+작업의 계획된 시작 일자 설정은 작업에 할당하는 작업 제한 유형에 따라 다릅니다.
 
 작업을 생성할 때 계획된 시작 일자를 수동으로 설정할 수 있습니다. 자세한 내용은 [프로젝트에서 작업 만들기](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)를 참조하십시오.
 
-다음 작업 제한조건 중 하나를 선택하면 계획된 시작 일자를 수동으로 지정할 수 있습니다. 
+다음 작업 제한조건 중 하나를 선택하면 계획된 시작 일자를 수동으로 지정할 수 있습니다.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -83,7 +83,7 @@ ht-degree: 2%
 
   사용자 휴무 환경 설정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 또는 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하십시오.
 
-자동으로 설정되는 경우 계획된 시작 일자는 다음 계산에 따라 결정됩니다. 
+자동으로 설정되는 경우 계획된 시작 일자는 다음 계산에 따라 결정됩니다.
 
 ```
 Planned Start Date = Planned Completion Date - Task Duration
@@ -93,5 +93,5 @@ Planned Start Date = Planned Completion Date - Task Duration
 
 >[!NOTE]
 >
-> 계획된 시간 및 기간을 자동으로 조정하려면 프로젝트의 업데이트 유형도 자동 및 변경 시 또는 자동으로 설정되어야 합니다.\
+> 계획된 시간 및 기간을 자동으로 조정하려면 프로젝트의 업데이트 유형도 자동 및 변경 시 또는 자동으로 설정되어야 합니다.\
 >업데이트 유형에 대한 자세한 내용은 [프로젝트 업데이트 유형 선택](../../../manage-work/projects/manage-projects/select-project-update-type.md)을 참조하십시오.

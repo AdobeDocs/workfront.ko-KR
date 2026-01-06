@@ -6,10 +6,10 @@ description: 프로그램은 프로젝트 경계를 초월하는 공통 전략, 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 0%
+source-wordcount: '1244'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## 프로그램 만들기
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다.
+{{step1-click-main-menu}}
 
 1. 다음 중 하나를 수행합니다.
 
@@ -242,7 +242,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 활성 프로젝트 상태]</td> 
-   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 , 위험 상태  또는 문제 발생 로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
+   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 [!UICONTROL], 위험 상태 [!UICONTROL] 또는 문제 발생 [!UICONTROL]로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
   </tr> 
  </tbody> 
 </table>

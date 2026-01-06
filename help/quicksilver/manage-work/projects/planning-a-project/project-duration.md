@@ -7,7 +7,7 @@ description: Adobe Workfront은 가장 빠른 작업의 시작 일자와 가장 
 author: Alina
 feature: Work Management
 exl-id: b558eaad-669b-4079-b61a-07df227edfa2
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -40,13 +40,13 @@ Project Duration = Completion Date of the latest task - Start Date of the earlie
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Check these formulas? Should they be divided by the hours per day?!) </p>
 -->
 
-* **계획된 기간**: 
+* **계획된 기간**:
 
   ```
   Project Planned Duration = Planned Completion Date of the latest task - Planned Start Date of the earliest task / Typical hour per day
   ```
 
-* **실제 기간**: 
+* **실제 기간**:
 
   ```
   Project Actual Duration = Actual Completion Date of the latest task - Actual Start Date of the earliest task / Typical hour per day

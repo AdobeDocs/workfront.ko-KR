@@ -6,10 +6,10 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +65,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
 
 * 문제 작성자는 기본적으로 해당 문제에 대한 관리 권한이 있습니다.
 * 문제를 개별적으로 공유하거나 여러 문제를 한 번에 공유할 수 있습니다. 공유 문제는 Workfront에서 다른 항목을 공유하는 것과 동일합니다. Workfront에서 항목을 공유하는 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
-* 문제에 대해 다음 권한을 부여할 수 있습니다. 
+* 문제에 대해 다음 권한을 부여할 수 있습니다.
 
    * 보기
    * 참여
@@ -85,7 +85,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
    * 문제의 상위 개체(프로젝트, 프로그램 또는 포트폴리오)에 대한 권한을 지정합니다. 문제는 상위 오브젝트에서 권한을 상속합니다. 개체에 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)를 참조하십시오.
    * 문제가 있는 프로젝트를 만드는 데 사용되는 템플릿에 대한 프로젝트 공유에 엔티티를 추가합니다. 템플릿에서 프로젝트를 공유하는 방법에 대한 자세한 내용은 [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)를 참조하십시오.
 
-   * 프로젝트를 편집할 때 프로젝트의 모든 문제에 대한 권한을 지정합니다. 프로젝트에 대한 사용자의 권한에 따라 프로젝트의 문제 또는 요청에 대한 액세스를 관리하는 방법에 대한 자세한 내용은 [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)프로젝트 편집[&#x200B; 문서의 &#x200B;](../../manage-work/projects/manage-projects/edit-projects.md) 섹션을 참조하십시오.
+   * 프로젝트를 편집할 때 프로젝트의 모든 문제에 대한 권한을 지정합니다. 프로젝트에 대한 사용자의 권한에 따라 프로젝트의 문제 또는 요청에 대한 액세스를 관리하는 방법에 대한 자세한 내용은 [](../../manage-work/projects/manage-projects/edit-projects.md#access)프로젝트 편집[ 문서의 ](../../manage-work/projects/manage-projects/edit-projects.md) 섹션을 참조하십시오.
 
      >[!TIP]
      >
@@ -107,7 +107,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue at the project level</h2>
-<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)&nbsp;</p>
+<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are added to a project.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -117,7 +117,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
 <ul>
 <li><strong>View</strong></li>
 <li><strong>Contribute</strong></li>
-<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.&nbsp;</li>
+<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.  </li>
 </ul></li>
 <li value="5">(Optional) Select the <strong>Also grant ... access to the project</strong> field to also grant View, Contribute, or Manage permissions to the projects to the user assigned to the issue</li>
 <li value="6">In the <strong>When someone submits a REQUEST ...</strong> field, select from the following permissions levels:
@@ -132,7 +132,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
 </ul>
 </note></li>
 </ul></li>
-<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="8">Click <strong>Save Changes</strong>.</li>
 </ol>
 </div>
@@ -141,7 +141,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue in request queues</h2>
-<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)&nbsp;</p>
+<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are submitted to a request queue.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -153,7 +153,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
 <li><strong>Contribute Access</strong> </li>
 <li> <p><strong>Manage Access</strong> </p> </li>
 </ul> <p>Now, when someone submits a request to the selected project, they are granted the specified permissions to the request.</p> </li>
-<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="6">Click <strong>Save</strong>.</li>
 </ol>
 </div>
@@ -237,7 +237,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>작업</strong> </td> 
+   <td><strong>액션</strong> </td> 
    <td><strong>관리</strong> </td> 
    <td><strong>참여</strong> </td> 
    <td><strong>보기</strong> </td> 
@@ -245,26 +245,26 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
   <tr> 
    <td> <p> 문제 추가</p> </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
-   <td>삭제 </td> 
+   <td>삭제  </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>사용자 정의 양식 첨부</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>사용자 정의 필드 편집</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>문제 승인</td> 
@@ -275,8 +275,8 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
   <tr> 
    <td>승인 프로세스 추가</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>문서 추가</td> 
@@ -293,26 +293,26 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
   <tr> 
    <td>문제 이동</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>시간 기록</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>프로젝트로 전환*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>할당 수락</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>업데이트/주석</td> 
@@ -323,14 +323,14 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
   <tr> 
    <td>계획된 일자 수정</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>할당하기</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>공유</td> 
@@ -340,8 +340,8 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 문�
   </tr> 
   <tr> 
    <td>시스템 전체 공유</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

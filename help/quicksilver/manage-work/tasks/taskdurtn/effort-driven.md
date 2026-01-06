@@ -7,7 +7,7 @@ description: 작업량 고정 유형은 Adobe Workfront에서 작업에 대해 �
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## 작업량 고정 기간 유형 개요
 
-Workfront 또는 그룹 관리자는 시스템 또는 그룹의 기본 기간 유형을 작업량 고정(Effort Driven)으로 설정할 수 있습니다. 이 경우 모든 새 작업은 이 기간 유형으로 만들어집니다. 시스템 수준 또는 그룹 수준 프로젝트 환경 설정의 일부로 작업 및 문제 환경 설정을 변경하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
+Workfront 또는 그룹 관리자는 시스템 또는 그룹의 기본 기간 유형을 작업량 고정(Effort Driven)으로 설정할 수 있습니다. 이 경우 모든 새 작업은 이 기간 유형으로 만들어집니다. 시스템 수준 또는 그룹 수준 프로젝트 환경 설정의 일부로 작업 및 문제 환경 설정을 변경하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
 이 시나리오에서는 프로젝트 관리자로서 해당 작업이 실제로 작업주도형 작업인지 숙고하는 시간을 갖지 않는 한 프로젝트 계획을 임의로 단축할 위험이 있다.
 

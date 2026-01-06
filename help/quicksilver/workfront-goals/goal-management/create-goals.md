@@ -6,10 +6,10 @@ description: CEO, 관리자 또는 개별 기여자에 관계없이 Adobe Workfr
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 5%
+source-wordcount: '635'
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ CEO, 관리자 또는 개별 기여자에 관계없이 Adobe Workfront 목표에
 >
 >Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto">
 <col>
@@ -219,12 +219,10 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+목표 목록이 표시됩니다.
 
-   목표 목록이 표시됩니다.
 1. **새 목표**&#x200B;를 클릭합니다.
 
    새 목표 상자가 표시됩니다.

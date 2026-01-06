@@ -7,10 +7,10 @@ description: 투자 수익률(ROI)은 포트폴리오 관리자가 프로젝트�
 author: Lisa
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -40,15 +40,15 @@ Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budge
 
 Workfront의 다음 영역에서 프로젝트에 대한 ROI 값을 볼 수 있습니다.
 
-* 프로젝트가 포트폴리오와 연결된 경우 Portfolio 최적화 도구에서
+* 프로젝트가 포트폴리오와 연결된 경우 Portfolio Optimizer에서
 
   >[!NOTE]
   >
   >모든 프로젝트 ROI 값의 합계는 포트폴리오의 ROI입니다.
 
-  Portfolio 최적화 프로그램에 대한 자세한 내용은 문서 [Portfolio 최적화 프로그램 개요](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
+  Portfolio Optimizer에 대한 자세한 내용은 문서 [Portfolio Optimizer 개요](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하세요.
 
-* 다음 목록 및 보고서의 프로젝트 ROI 필드: 
+* 다음 목록 및 보고서의 프로젝트 ROI 필드:
 
    * 프로젝트
    * 작업

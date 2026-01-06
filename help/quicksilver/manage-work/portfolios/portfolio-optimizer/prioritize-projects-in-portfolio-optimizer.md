@@ -6,10 +6,10 @@ description: Portfolio Optimizer에서 프로젝트의 우선 순위를 지정�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,9 +94,8 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolio Optimizer]에서 프로젝트의 우선 순위 변경
 
-1. Adobe Workfront 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭합니다.
+{{step1-to-portfolios}}
 
-1. **[!UICONTROL 포트폴리오]**&#x200B;를 클릭합니다.
 1. (선택 사항) **[!UICONTROL 필터]** 드롭다운 메뉴에서 올바른 필터를 선택하여 올바른 포트폴리오 목록을 확인합니다.
 1. 포트폴리오의 이름을 클릭하여 엽니다.
 1. 왼쪽 패널에서 **[!UICONTROL Portfolio 최적화]**&#x200B;를 클릭합니다.

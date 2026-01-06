@@ -7,7 +7,7 @@ description: 목표를 활성화하려면 목표에 결과, 활동 또는 정렬
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 3%
@@ -145,7 +145,7 @@ This will have additional types in the future - add another section for types?
    <td><b><p>기능</p></b></td> 
    <td><b><p>결과</p></b></td> 
    <td><b><p>활동</p></b></td> 
-   <td> <p><strong>프로젝트</strong> </p> <p> </p> </td> 
+   <td> <p><strong>프로젝트</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><span style="font-weight: normal;">Workfront 인터페이스에서 개체 이름을 사용자 지정할 수 있습니다</span> </td> 
@@ -167,8 +167,8 @@ This will have additional types in the future - add another section for types?
   </tr> 
   <tr> 
    <td>이 중 하나를 여러 목표와 연결할 수 있습니다.</td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
@@ -181,13 +181,13 @@ This will have additional types in the future - add another section for types?
    <td>Workfront 목표에서 수동으로 업데이트해야 합니다.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>목표 종료 날짜에 완료해야 합니다.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>팀, 그룹 또는 회사가 아닌 사용자에게만 할당할 수 있습니다. </td> 
@@ -201,7 +201,7 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>시작 값과 끝 값 사이에 이를 달성할 수 있는 정도를 보여주는 값의 범위를 제공합니다. 종료 값에 가까우면 목표에 대한 진행률 값이 계산됩니다. </td> 
    <td>✔</td> 
    <td>✔</td> 

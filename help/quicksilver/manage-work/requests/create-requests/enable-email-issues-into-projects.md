@@ -6,10 +6,10 @@ description: 사용자가 이메일을 통해 프로젝트에 문제를 추가�
 author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 0%
 <!-- Audited: 4/2025 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
 사용자가 이메일을 통해 프로젝트에 문제를 추가할 수 있도록 프로젝트를 구성할 수 있습니다. 프로젝트가 요청 대기열로 지정된 경우에만 문제를 프로젝트로 이메일로 보내도록 허용할 수 있습니다. 요청 큐 프로젝트 만들기에 대한 자세한 내용은 [요청 큐 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +76,7 @@ ht-degree: 0%
 >* Workfront에서는 모든 클러스터에서 요청 대기열당 하나의 고유한 이메일을 허용합니다. 요청 대기열을 비활성화하도록 선택하면 만든 이메일 주소가 수신 이메일 주소 상자에 있는 한 유지됩니다. 수신 이메일 사용을 중단하기로 선택한 경우 나중에 사용할 수 있도록 수신 이메일 필드에서 해당 수신 이메일을 삭제해야 합니다.
 >
 >* 요청 대기열에 여러 개의 대기열 주제 또는 주제 그룹이 있는 경우 Workfront은 이메일 요청이 전달될 대기열 주제를 임의로 선택하여 이메일 요청을 관리하기 어렵게 합니다.
->  &#x200B;>이메일을 통해 요청을 수신하도록 설정한 프로젝트에는 대기열 주제가 두 개 이상 있어서는 안 됩니다. 제출된 요청이 다른 리소스 또는 프로젝트를 위한 경우 제출된 후 수동으로 라우팅하거나 이동해야 합니다.
+>이메일을 통해 요청을 수신하도록 설정한 프로젝트에는 대기열 주제가 두 개 이상 있어서는 안 됩니다. 제출된 요청이 다른 리소스 또는 프로젝트를 위한 경우 제출된 후 수동으로 라우팅하거나 이동해야 합니다.
 
 1. 이메일을 통해 문제를 수신할 수 있도록 활성화할 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **큐 세부 정보**&#x200B;를 클릭합니다.
@@ -94,7 +94,7 @@ ht-degree: 0%
    >
    >* 이 이메일 주소는 고유해야 하므로 삭제하면 나중에 사용할 수 없습니다.
    <!--
-   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
+   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in Workfront. Only emails created from this email address are added as issues.
    -->
 
 1. (선택 사항) **이메일을 통해 제출하지 못한 모든 문제 전달**&#x200B;을 선택한 다음 아래 상자에 전달 이메일 주소를 입력합니다.

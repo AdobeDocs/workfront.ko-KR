@@ -6,10 +6,10 @@ description: 목표 세부 정보 패널에 액세스하여 개별 목표에 대
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 >
 >Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto">
 <col>
@@ -201,7 +201,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    ![Goal details updates](assets/goal-details-updates-tab-350x280.png)
 
-1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab.&nbsp;They are selected by default: 
+1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab. They are selected by default: 
 
    | Option |Description  |
    |---|---|

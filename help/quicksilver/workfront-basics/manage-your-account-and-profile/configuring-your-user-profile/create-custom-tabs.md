@@ -6,10 +6,10 @@ description: ' [!DNL Workfront] 웹 응용 프로그램에 표시되는 정보�
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -28,23 +28,23 @@ ht-degree: 1%
 | **[!DNL Workfront]영역 또는 개체** | **기본 시스템 섹션** | **대시보드** |
 |---|---|---|
 | [!UICONTROL 프로젝트] 영역 | ✓ | ✓ |
-| [!UICONTROL 팀] | ✓ |   |
-| [!UICONTROL 요청] 영역 | ✓ |   |
-| [!UICONTROL 타임시트] 영역 | ✓ |   |
+| [!UICONTROL 팀] | ✓ |    |
+| [!UICONTROL 요청] 영역 | ✓ |    |
+| [!UICONTROL 타임시트] 영역 | ✓ |    |
 | [!UICONTROL Portfolio] | ✓ | ✓ |
 | [!UICONTROL 프로그램] | ✓ | ✓ |
 | [!UICONTROL 프로젝트] | ✓ | ✓ |
-| [!UICONTROL 작업] | ✓ |  ✓ |
-| [!UICONTROL 문제] |  ✓ |  ✓ |
-| [!UICONTROL 사용자] |  ✓ |  ✓ |
-| [!UICONTROL 문서] |  ✓ |  ✓ |
+| [!UICONTROL 작업] | ✓ | ✓ |
+| [!UICONTROL 문제] | ✓ | ✓ |
+| [!UICONTROL 사용자] | ✓ | ✓ |
+| [!UICONTROL 문서] | ✓ | ✓ |
 | [!UICONTROL 리소스 조달] 영역 | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto">
  <col> 

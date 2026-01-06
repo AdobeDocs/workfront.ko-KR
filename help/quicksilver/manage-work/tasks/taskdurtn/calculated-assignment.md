@@ -7,7 +7,7 @@ description: 계산된 할당은 Adobe Workfront에서 작업에 대해 설정�
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 -->
 
 * 계산된 할당 기간 유형을 사용하는 경우 지속 기간과 작업에 대한 계획된 시간 수를 모두 지정해야 합니다. 그런 다음 Workfront에서 계획된 시간의 양을 기간의 시간 수로 나눈 다음 작업에 할당된 자원의 수로 나누어 각 자원의 할당 비율을 계산합니다(할당 계산). 각 자원은 할당 비율에 대해 동일한 값을 갖게 됩니다. 이 경우 각 리소스에 대한 할당 값을 수정할 수 없습니다.
-* Workfront 또는 그룹 관리자는 시스템 또는 그룹의 기본 기간 유형을 계산된 지정으로 설정할 수 있습니다. 이 경우 모든 새 작업은 이 기간 유형으로 만들어집니다. 시스템 수준 또는 그룹 수준 프로젝트 환경 설정의 일부로 작업 및 문제 환경 설정을 변경하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
+* Workfront 또는 그룹 관리자는 시스템 또는 그룹의 기본 기간 유형을 계산된 지정으로 설정할 수 있습니다. 이 경우 모든 새 작업은 이 기간 유형으로 만들어집니다. 시스템 수준 또는 그룹 수준 프로젝트 환경 설정의 일부로 작업 및 문제 환경 설정을 변경하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
   이 경우 작업에는 기본적으로 1일 지속 시간과 0시간의 계획된 시간이 있습니다. 프로젝트 관리자가 더 정확한 기간을 설정하고 실제 예상 값으로 계획된 시간 필드를 채우지 않는 한, 리소스는 과소 할당된 것으로 표시됩니다.
 

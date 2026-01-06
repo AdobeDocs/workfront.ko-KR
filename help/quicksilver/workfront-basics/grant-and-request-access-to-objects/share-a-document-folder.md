@@ -6,10 +6,10 @@ description: 문서 영역에서 폴더와 해당 컨텐츠를 공유할 수 있
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 0%
+source-wordcount: '839'
+ht-degree: 2%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 -->
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,11 +94,11 @@ ht-degree: 0%
 
 ## 폴더 공유
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **문서**&#x200B;를 클릭합니다.
+{{step1-to-documents}}
 
-   또는
+또는
 
-   Workfront 개체를 연 상태에서 왼쪽 패널에서 **문서**&#x200B;를 클릭합니다.
+Workfront 개체를 연 상태에서 왼쪽 패널에서 **문서**&#x200B;를 클릭합니다.
 
 1. 폴더를 선택한 다음 도구 모음에서 공유 아이콘 ![](assets/share-icon.png)을(를) 클릭합니다.
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 ## 사용자가 공유된 폴더의 콘텐츠에 액세스하는 방법
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
 현재 폴더를 공유할 때 수신자의 문서 영역에 폴더가 표시되지 않습니다. 그러나 문서 보고서를 실행하여 해당 문서에 액세스할 수 있습니다.

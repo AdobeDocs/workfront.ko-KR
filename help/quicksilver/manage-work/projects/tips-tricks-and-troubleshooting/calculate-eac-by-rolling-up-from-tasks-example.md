@@ -7,7 +7,7 @@ description: 이 문서에서는 Adobe Workfront에 있는 프로젝트의 모�
 author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 2%
@@ -73,13 +73,13 @@ EAC 방법 = 작업/하위 작업에서 롤업
 1. 재무 다시 계산
 1. 작업 1에 대한 **CPI** = .04 다음과 같이 계산됨:\
    작업 1에 대한 **CPI** = *IF* 실제 시간 > 0 *THEN* CPI = TotalBudgetedCostWorkPerformed/실제 시간\
-       *ELSE* CPI = 1\
+   *ELSE* CPI = 1\
    작업 1에 대한 **CPI** = 1 / 25\
    작업 1에 대한 **CPI** = .04
 
 1. 작업 1에 대한 **EAC** = 125시간 다음과 같이 계산됨:\
    작업 1에 대한 **EAC** = *IF* CPI &lt;> 0 *THEN* EAC = 계획된 시간/ CPI\
-       *ELSE*
+   *ELSE*
 
    ```
    EAC = Planned  Hours + Actual  Hours
@@ -89,7 +89,7 @@ EAC 방법 = 작업/하위 작업에서 롤업
    작업 1에 대한 **EAC** = 125시간
 
 1. 작업 2와 3에 대한 CPI/EAC는 다음과 같습니다.\
-   작업  2 = .12 / 83.33  시간\
+   작업 2 = 0.12 / 83.33시간\
    작업 3 = 0.24 / 62.5시간
 
 1. **프로젝트에 대한 CPI** = .13 다음과 같이 계산됨:\
@@ -99,7 +99,7 @@ EAC 방법 = 작업/하위 작업에서 롤업
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *ELSE* CPI = 1
    **프로젝트에 대한 CPI** = 10 / 75\
    프로젝트에 대한 **CPI** = .13
 
@@ -116,10 +116,10 @@ EAC 방법 = 작업/하위 작업에서 롤업
 
 1. 아래와 같이 작업 3이 작업 4 및 5의 상위 항목이고 작업 1이 작업 2 및 3의 상위 항목인 6개의 작업으로 프로젝트 A를 만듭니다.\
    작업 1\
-      작업 2\
-      작업 3\
-         작업 4\
-         작업 5\
+   작업 2\
+   작업 3\
+   작업 4\
+   작업 5\
    작업 6
 
 1. 비용/시간 비율이 $100.00인 사용자 1에게 태스크 2, 4, 5 및 6을 지정합니다.
@@ -145,9 +145,9 @@ EAC 방법 = 작업/하위 작업에서 롤업
  <tbody> 
   <tr> 
    <td> <p>작업 1</p> </td> 
-   <td> </td> 
+   <td> </td> 
    <td> <p>10시간</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>작업 2</p> </td> 
@@ -157,9 +157,9 @@ EAC 방법 = 작업/하위 작업에서 롤업
   </tr> 
   <tr> 
    <td> <p>작업 3</p> </td> 
-   <td> </td> 
+   <td> </td> 
    <td> <p>10시간</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>작업 4</p> </td> 
@@ -191,7 +191,7 @@ EAC 방법 = 작업/하위 작업에서 롤업
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *ELSE* CPI = 1
    작업 2에 대한 **CPI** = 1 / 10\
    작업 2에 대한 **CPI** = .1
 
@@ -202,7 +202,7 @@ EAC 방법 = 작업/하위 작업에서 롤업
    EAC = Planned Hours / CPI
    ```
 
-       *ELSE* EAC = 계획된  시간 + 실제  시간\
+       *ELSE* EAC = 계획된 시간 + 실제 시간
    작업 2 **= 5 / .1에 대한** EAC\
    작업 2에 대한 **EAC** = 50시간
 
@@ -218,7 +218,7 @@ EAC 방법 = 작업/하위 작업에서 롤업
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *ELSE* CPI = 1
    작업 3에 대한 **CPI** = 11.5 / 30\
    작업 3에 대한 **CPI** = .38
 
@@ -233,7 +233,7 @@ EAC 방법 = 작업/하위 작업에서 롤업
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *ELSE* CPI = 1
    작업 1에 대한 **CPI** = 12.5 / 50\
    작업 1에 대한 **CPI** = .25
 
@@ -248,7 +248,7 @@ EAC 방법 = 작업/하위 작업에서 롤업
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *ELSE* CPI = 1
    **프로젝트에 대한 CPI** = 24.5 / 110\
    프로젝트에 대한 **CPI** = .22272\
    프로젝트에 대한 **CPI** = .22
@@ -429,64 +429,64 @@ EAC 방법 = 작업/하위 작업에서 롤업
 </table>
 
 1. 프로젝트 작업에서 재무 재계산을 실행합니다.
-1. 작업 1에 대한 **CPI**&#x200B;**1&rbrace; = .14 다음과 같이 계산됨:**\
-   작업 1에 대한 **CPI**&#x200B;**1&rbrace;  =** IF *실제 인건비 + UsedActualExpenseCost  &lt;> 0* THEN **
+1. 작업 1에 대한 **CPI****1} = .14 다음과 같이 계산됨:**\
+   **작업 1****에 대한 CPI** = *IF* 실제 인건비 + UsedActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-   *   ELSE* CPI = CPI_Labor\
-   작업 1에 대한 **CPI**&#x200B;**1&rbrace;  = (100+300) / (2500+400)**\
-   작업 1에 대한 **CPI**&#x200B;**1&rbrace;  = 400 / 2900**\
-   작업 1에 대한 **CPI**&#x200B;**1&rbrace;  = .14**
+   * ELSE* CPI = CPI_Labor\
+     **CPI****작업 1}에 대한** = (100+300) / (2500+400)\
+     **CPI****작업 1** = 400 / 2900\
+     작업 1에 대한 **CPI****1} = .14**
 
-1. **작업 1**&#x200B;**1에 대한 EAC** = $13,400.00\
-   **작업에 대한 CPI 인건비**&#x200B;**1&rbrace; = 실제 인건비 &lt;> 0 다음**
+1. **작업 1****1에 대한 EAC** = $13,400.00\
+   **작업에 대한 CPI 인건비****1} = 실제 인건비 &lt;> 0 다음**
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
-      ELSE CPI_Labor = 1\
-   **작업 &#x200B;**&#x200B;**에 대한 CPI 인건비** = 100/2500\
-   **작업 &#x200B;**&#x200B;**에 대한 CPI 부하 분산** = .04
+   ELSE CPI_Labor = 1\
+   **작업 ****에 대한 CPI 인건비** = 100/2500\
+   **작업 ****에 대한 CPI 부하 분산** = .04
 
-   **작업 1**&#x200B;**에 대한 EAC Labor** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **작업 1****에 대한 EAC Labor** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
-   *   ELSE* EAC  노무 = 계획 노무비 + 실제 노무비\
-   **작업 &#x200B;**&#x200B;**에 대한 EAC 인건비** = 500.00/.04\
-   **작업 &#x200B;**&#x200B;**에 대한 EAC 인건비** = $12,500.00
+   * ELSE* EAC 인건비 = 계획된 인건비 + 실제 인건비\
+     **작업 ****에 대한 EAC 인건비** = 500.00/.04\
+     **작업 ****에 대한 EAC 인건비** = $12,500.00
 
-   **EAC 경비**&#x200B;**작업 1&rbrace; = UsedActualExpenseCost + NotUsedPlannedExpense**\
-   **작업 &#x200B;**&#x200B;**에 대한 EAC 경비** = $400.00 + $500.00\
-   **작업 &#x200B;**&#x200B;**에 대한 EAC 경비** = $900.00
+   **EAC 경비****작업 1} = UsedActualExpenseCost + NotUsedPlannedExpense**\
+   **작업 ****에 대한 EAC 경비** = $400.00 + $500.00\
+   **작업 ****에 대한 EAC 경비** = $900.00
 
-   **EAC**&#x200B;**for Task 1** = EAC 인건비 + EAC 경비\
-   **작업 &#x200B;**&#x200B;**에 대한 EAC**  = $12,500.00 + $900.00\
-   **작업 &#x200B;**&#x200B;**에 대한 EAC**  = $13,400.00
+   **EAC****for Task 1** = EAC 인건비 + EAC 경비\
+   **작업 1****1에 대한 EAC** = $12,500.00 + $900.00\
+   **작업 1****1에 대한 EAC** = $13,400.00
 
 1. 다음은 작업 2 및 작업 3에 대한 CPI/EAC 값입니다.\
    작업 2 = .19 / $8,433.33\
-   작업 3 = .44 / $6,950.00&#x200B;**&#x200B;**
+   작업 3 = .44 / $6,950.00****
 
 1. 프로젝트의 CPI = .32\
-   **프로젝트의 CPI**&#x200B;**1&rbrace; =** IF *실제 인건비 + UsedActualExpenseCost  &lt;> 0* THEN **
+   **프로젝트용 CPI****1} =** IF *실제 인건비 + UsedActualExpenseCost &lt;> 0* THEN **
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-   *   ELSE* CPI = CPI_Labor\
-   **프로젝트용 CPI**&#x200B;**1&rbrace; = (1000 + 2300) / (7500 + 2700)**\
-   **프로젝트용 CPI**&#x200B;**1&rbrace; = 3300 / 10200**\
-   **프로젝트용 CPI**&#x200B;**1&rbrace; = .32**
+   * ELSE* CPI = CPI_Labor\
+     **프로젝트용 CPI****1} = (1000 + 2300) / (7500 + 2700)**\
+     **프로젝트용 CPI****1} = 3300 / 10200**\
+     **프로젝트용 CPI****1} = .32**
 
 1. 프로젝트의 EAC는 $28,783.33입니다.\
-   **프로젝트용 EAC**&#x200B;**1&rbrace; = EAC 작업 1 + EAC 작업 2 + EAC 작업 3**\
-   **프로젝트용 EAC**&#x200B;**1&rbrace; = $13,400.00 + $8,433.33 + $6,950.00**\
-   **프로젝트용 EAC**&#x200B;**1&rbrace; = $28,783.33**
+   **프로젝트용 EAC****1} = EAC 작업 1 + EAC 작업 2 + EAC 작업 3**\
+   **프로젝트용 EAC****1} = $13,400.00 + $8,433.33 + $6,950.00**\
+   **프로젝트용 EAC****1} = $28,783.33**

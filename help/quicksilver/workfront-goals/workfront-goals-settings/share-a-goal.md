@@ -6,10 +6,10 @@ description: 목표를 공유하면 목표를 만들지 않은 사람에게 목�
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 5%
+source-wordcount: '724'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 5%
 >
 >Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto">
 <col>
@@ -166,12 +166,9 @@ ht-degree: 5%
 
 ## 목표 공유
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   목표 목록이 표시됩니다.
+목표 목록이 표시됩니다.
 
 1. 목록에서 목표의 이름을 클릭합니다. 목표 페이지가 열립니다.
 
@@ -209,7 +206,7 @@ ht-degree: 5%
  </col> 
  <thead> 
   <tr> 
-   <th> <p><strong>작업</strong> </p> </th> 
+   <th> <p><strong>액션</strong> </p> </th> 
    <th> <p><strong>관리</strong> </p> </th> 
    <th> <p><strong>보기</strong> </p> </th> 
   </tr> 
@@ -248,32 +245,32 @@ ht-degree: 5%
   <tr> 
    <td>결과 또는 활동 편집</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>목표에 대한 결과 또는 활동 추가</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>프로젝트를 목표에 대한 활동으로 연결합니다**</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>목표 삭제</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>결과 또는 활동 삭제</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>목표에서 프로젝트 연결 해제</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,4 +283,4 @@ ht-degree: 5%
 
 프로젝트 권한에 대한 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)를 참조하십시오.
 
- 
+

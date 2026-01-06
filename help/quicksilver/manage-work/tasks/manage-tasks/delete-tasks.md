@@ -6,9 +6,9 @@ description: 중복되거나 오류로 생성된 작업을 삭제할 수 있습�
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '782'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 중복되거나 오류로 생성된 작업을 삭제할 수 있습니다.
 
-내역 정보(업데이트, 일정, 상태 또는 기타 필드 변경)가 있는 작업의 경우 삭제하지 않고 닫거나 정지된 상태로 표시하는 것이 좋습니다. 이렇게 하면 프로젝트의 내역 정보를 유지하는 데 도움이 됩니다.
+내역 정보(업데이트, 일정, 상태 또는 기타 필드 변경)가 있는 작업의 경우 삭제하지 않고 닫거나 정지된 상태로 표시하는 것이 좋습니다. 이렇게 하면 프로젝트의 내역 정보를 유지하는 데 도움이 됩니다.
 
 ## 액세스 요구 사항
 
@@ -68,7 +68,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects with access to&nbsp;Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects with access to Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,7 +89,7 @@ ht-degree: 5%
 * 작업에 시간이 기록된 경우 Workfront 또는 그룹 관리자는 Workfront 인스턴스에서 작업 및 문제 환경 설정을 구성하여 이러한 작업을 삭제할 수 있도록 허용해야 합니다. 시간이 기록된 작업이 있는 프로젝트를 삭제하려고 할 때도 적용됩니다.
 
   <!--
-  (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
+  (NOTE: the last statement is NWE only; not possible in classic)
   -->
 
   시간이 기록된 작업의 삭제를 활성화하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)의 &quot;삭제&quot; 섹션을 참조하십시오.
@@ -140,9 +140,8 @@ ht-degree: 5%
 
 ### 프로젝트에서 동시에 여러 작업 삭제  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step1-to-projects}}
 
-1. **프로젝트**&#x200B;를 클릭합니다.
 1. 삭제할 작업이 포함된 프로젝트 이름을 클릭합니다.
 1. 왼쪽 패널에서 **작업**&#x200B;을 클릭합니다.
 1. 다음 중 하나를 수행하십시오.
@@ -170,9 +169,8 @@ ht-degree: 5%
 
 ### 단일 작업 삭제 {#delete-a-single-task}
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step1-to-projects}}
 
-1. **프로젝트**&#x200B;를 클릭합니다.
 1. 삭제할 작업이 포함된 프로젝트 이름을 클릭합니다.
 1. 왼쪽 패널에서 **작업**&#x200B;을 클릭합니다.
 1. 삭제할 작업의 이름을 클릭합니다.

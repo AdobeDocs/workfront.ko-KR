@@ -5,10 +5,10 @@ description: 리소스 계획의 일부로, 프로젝트 수준 리소스 플래
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -132,7 +132,7 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
 
    선택한 프로젝트에 대한 리소스 플래너가 표시됩니다.
 
-   기본적으로 이 프로젝트와 연관된 처음 20개의 작업 역할은 리소스 예산 섹션에서 알파벳순으로 나열됩니다. 
+   기본적으로 이 프로젝트와 연관된 처음 20개의 작업 역할은 리소스 예산 섹션에서 알파벳순으로 나열됩니다.
 
    리소스 플래너에 대한 자세한 내용은 [리소스 플래너 개요](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
@@ -152,7 +152,7 @@ Adobe Workfront 시나리오 플래너를 사용하여 비즈니스 사례에서
    >   
    >
 
-    
+
 
 1. 오늘의 일정으로 돌아가려면 **오늘**&#x200B;을 클릭하세요.
 1. (선택 사항) **주**, **월** 또는 **분기**&#x200B;를 클릭하여 다른 기간에 프로젝트에 대한 정보를 표시합니다.

@@ -7,7 +7,7 @@ description: 프로젝트 관리자는 청구 요금을 사용하여 프로젝�
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '3691'
 ht-degree: 0%
@@ -176,7 +176,7 @@ Workfront 인스턴스의 작업 및 문제 환경 설정을 정의하는 방법
  <tbody> 
   <tr> 
    <td> <p>고정 수입</p> </td> 
-   <td> <p>이 유형은 프로젝트 및 작업과 함께 사용할 수 있습니다. </p> <p>템플릿을 프로젝트에 첨부할 때 템플릿의 고정 수익이 프로젝트의 고정 수익에 추가됩니다. 자세한 내용은 <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">프로젝트에 템플릿을 첨부하는 개요</a>를 참조하십시오. </p> <p>태스크의 경우 태스크 지정에 관계없이 태스크의 수익은 항상 태스크에 지정된 고정 금액을 사용하여 계산됩니다. </p> <p>하위 작업의 고정 수익은 상위 작업의 수익으로 적상된 다음 프로젝트의 수익으로 적상됩니다. 상위 작업 및/또는 프로젝트에 고정 금액이 정의된 경우 금액은 하위 작업에서 롤업된 계획된 수익에 추가됩니다.</p> <p>작업의 고정 매출액은 프로젝트의 청구 기록에 포함될 수 있습니다.</p> </td> 
+   <td> <p>이 유형은 프로젝트 및 작업과 함께 사용할 수 있습니다. </p> <p>템플릿을 프로젝트에 첨부할 때 템플릿의 고정 수익이 프로젝트의 고정 수익에 추가됩니다. 자세한 내용은 <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">프로젝트에 템플릿을 첨부하는 개요</a>를 참조하십시오. </p> <p>태스크의 경우 태스크 지정에 관계없이 태스크의 수익은 항상 태스크에 지정된 고정 금액을 사용하여 계산됩니다. </p> <p>하위 작업의 고정 수익은 상위 작업의 수익으로 적상된 다음 프로젝트의 수익으로 적상됩니다. 상위 작업 및/또는 프로젝트에 고정 금액이 정의된 경우 금액은 하위 작업에서 롤업된 계획된 수익에 추가됩니다.</p> <p>작업의 고정 매출액은 프로젝트의 청구 기록에 포함될 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>시간별 사용자</p> </td> 

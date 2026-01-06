@@ -6,10 +6,10 @@ description: 타임라인을 다시 계산하면 관리자는 프로젝트와 �
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -93,8 +93,8 @@ ht-degree: 0%
 >* 프로젝트의 타임라인이 15년을 초과하는 경우 해당 프로젝트에 대해 자동 재계산이 비활성화되며 수동 업데이트 유형만 선택할 수 있습니다. 프로젝트의 날짜를 15년 미만으로 변경하는 경우 타임라인이 자동으로 계산되기 전에 한 번 수동으로 다시 계산해야 합니다.
 >* 미리보기 및 사용자 지정 새로 고침 샌드박스 환경의 경우 야간 다시 계산이 비활성화되고 프로젝트 타임라인이 자동으로 다시 계산되지 않습니다. 미리보기 및 사용자 지정 새로 고침 샌드박스 환경에 대한 프로젝트 타임라인을 수동으로 다시 계산해야 합니다.
 >* 프로젝트가 복잡한 경우 자동 타임라인 재계산이 수행되지 않을 수 있습니다.
->  &#x200B;> 복잡한 프로젝트의 예로는 여러 종속성, 많은 작업 수, 여러 프로젝트 간 전임 작업 또는 여러 작업 들여쓰기가 있는 프로젝트가 있을 수 있습니다.
->  &#x200B;> Workfront은 프로젝트 페이지의 프로젝트 이름 오른쪽에 프로젝트 타임라인을 수동으로 다시 계산해야 한다는 경고를 표시합니다. 프로젝트에 대한 관리 권한이 있는 사용자만 타임라인을 수동으로 다시 계산할 수 있습니다.
+> 복잡한 프로젝트의 예로는 여러 종속성, 많은 작업 수, 여러 프로젝트 간 전임 작업 또는 여러 작업 들여쓰기가 있는 프로젝트가 있을 수 있습니다.
+> Workfront은 프로젝트 페이지의 프로젝트 이름 오른쪽에 프로젝트 타임라인을 수동으로 다시 계산해야 한다는 경고를 표시합니다. 프로젝트에 대한 관리 권한이 있는 사용자만 타임라인을 수동으로 다시 계산할 수 있습니다.
 >
 >   ![](assets/project-warning-to-manually-recalculate-timeline.png)
 >
@@ -134,11 +134,11 @@ or changes made to another project that the timeline is dependent on
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;content moved to the article linked above)</p>
+<p>(NOTE: content moved to the article linked above)</p>
 <p>You can configure how the timeline for your project is updated:</p>
 <ol>
 <li value="1">Go to the project for which you want to configure how the timeline is updated.</li>
-<li value="2"> <p>  Click the <strong>More</strong> icon <img src="assets/more-icon.png"> to the right of the project name, then click&nbsp; <strong>Edit</strong>. </p> <p>The <strong>Edit Project</strong> dialog box is displayed.</p> </li>
+<li value="2"> <p>  Click the <strong>More</strong> icon <img src="assets/more-icon.png"> to the right of the project name, then click  <strong>Edit</strong>. </p> <p>The <strong>Edit Project</strong> dialog box is displayed.</p> </li>
 <li value="3"> <p>Click<strong>Settings.</strong><br><img src="assets/screen-shot-2013-09-18-at-10.36.16-am-350x347.png" alt="" style="width: 350;height: 347;"></p> </li>
 <li value="4">In the <strong>Update Type</strong> drop-down list, select from the following options:<br><strong>- Automatic and On Change:</strong> (Default setting) The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on. The project timeline is also updated each night. <br>This is the recommended setting for this field because it ensures that the project timeline is always up to date.<br>When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed.
 <div>
@@ -226,12 +226,12 @@ If the timeline of a project is longer than 15 years, Workfront does not calcula
 If the timeline of a project is longer than 15 years, Workfront does not calculate the timeline automatically or on change. The Update Type of a project longer than 15 years is always Manual.
 </note>
 <ul>
-<li> <p><strong>Automatic and On Change:</strong>&nbsp;This is the default setting. The project timeline is updated each time a change occurs&nbsp;in the project or in another project that the timeline is dependent on. The project timeline is also updated each night.&nbsp; <br>This is the recommended setting as it ensures that the project timeline is always up to date.</p> <p>When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed. </p> <p> <img src="assets/dates-dimmed-when-insline-editing-350x146.png" style="width: 350;height: 146;"> </p> <p>This indicates that the recalculation is not yet finished, and the dates are subject to change. </p> </li>
-<li><strong>Change Only:</strong>&nbsp;The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on; scheduled updates do not occur. <br>You might want to select this option if you are concerned about system performance and if&nbsp;changes rarely occur in the project or in other projects that the timeline is dependent on.</li>
-<li> <p><strong>Automatic Only:</strong>&nbsp;The project timeline is updated each night; it is not updated immediately after changes are made.<br>You might want to select this option if you are concerned about system performance and if many changes occur each day in the project or in other projects that the timeline is dependent on.</p> <note type="note">
+<li> <p><strong>Automatic and On Change:</strong> This is the default setting. The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on. The project timeline is also updated each night.  <br>This is the recommended setting as it ensures that the project timeline is always up to date.</p> <p>When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed. </p> <p> <img src="assets/dates-dimmed-when-insline-editing-350x146.png" style="width: 350;height: 146;"> </p> <p>This indicates that the recalculation is not yet finished, and the dates are subject to change. </p> </li>
+<li><strong>Change Only:</strong> The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on; scheduled updates do not occur. <br>You might want to select this option if you are concerned about system performance and if changes rarely occur in the project or in other projects that the timeline is dependent on.</li>
+<li> <p><strong>Automatic Only:</strong> The project timeline is updated each night; it is not updated immediately after changes are made.<br>You might want to select this option if you are concerned about system performance and if many changes occur each day in the project or in other projects that the timeline is dependent on.</p> <note type="note">
 A project does not automatically recalculate each night if it is in Planning status. It only recalculates on change.
 </note> </li>
-<li><strong>Manual Only:</strong>&nbsp;The project timeline is updated only&nbsp;when you select the option to <strong>Recalculate Timelines</strong>, as described in the section "Manual Recalculation" in&nbsp;the article <a href="#" class="MCXref xref selected">Recalculate project timelines</a>.<br>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).</li>
+<li><strong>Manual Only:</strong> The project timeline is updated only when you select the option to <strong>Recalculate Timelines</strong>, as described in the section "Manual Recalculation" in the article <a href="#" class="MCXref xref selected">Recalculate project timelines</a>.<br>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).</li>
 </ul>
 </div>
 -->

@@ -6,10 +6,10 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 템�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -42,13 +42,13 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 템플릿을 보�
       * 보기
       * 관리
 
-   * 템플릿을 사용하여 만드는 향후 프로젝트입니다. 템플릿에서 만든 프로젝트에 개별 프로젝트와 동일한 수준의 권한을 부여할 수 있습니다. 
+   * 템플릿을 사용하여 만드는 향후 프로젝트입니다. 템플릿에서 만든 프로젝트에 개별 프로젝트와 동일한 수준의 권한을 부여할 수 있습니다.
 
      템플릿 수준에서 템플릿의 프로젝트를 공유하는 방법에 대한 자세한 내용은 [프로젝트 템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md)를 참조하십시오.
 
 * 템플릿이나 템플릿에서 만든 프로젝트를 공유할 때 기본적으로 사용자는 템플릿 또는 프로젝트와 관련된 모든 하위 개체에 대해 동일한 권한을 상속합니다.
 
-  Workfront의 개체 계층 구조에 대한 자세한 내용은  [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Workfront의 개체 계층 구조에 대한 자세한 내용은   [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * 템플릿을 공유할 때는 별도로 지정하지 않는 한 템플릿에서 만드는 향후 프로젝트의 문제뿐 아니라 모든 템플릿 작업 및 문서는 동일한 권한을 상속합니다.
 
@@ -61,7 +61,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 템플릿을 보�
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Share a template</h2>
-<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)&nbsp;</p>
+<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)  </p>
 <ol>
 <li value="1"> <p>Go to the template you want to share with other entities, click <strong>Template Actions</strong>, then <strong>Template Sharing</strong>.<br>Or</p> <p>Navigate to a list of templates, and select multiple templates from the list, then click <strong>Share Template</strong>.</p> <note type="note">
 If you select multiple templates, you cannot view who already has permissions to the individual templates.
@@ -90,9 +90,9 @@ You can share an object only with active users, teams,
 </note> </li>
 <li value="3">From the drop-down menu, select which level of permissions you want to grant.<br>Select from the following:<br>
 <ul>
-<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.&nbsp;</li>
+<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.  </li>
 <li><strong>View</strong>: Users with these permissions can view projects created from the template.</li>
-<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template&nbsp;</li>
+<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template  </li>
 <li><strong>Manage</strong>: Users with these permissions can manage or delete projects created from this template.<br><img src="assets/share-project-from-template-350x268.png" alt="share_project_from_template.png" style="width: 350;height: 268;"></li>
 </ul></li>
 <li value="4">(Optional) Click <strong>Advanced Settings</strong> to fine-tune your settings for each level of permissions. </li>
@@ -120,17 +120,17 @@ You can share an object only with active users, teams,
   <tr> 
    <td>복사</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>삭제</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>템플릿 세부 정보 편집</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>템플릿 보기</td> 
@@ -144,12 +144,12 @@ You can share an object only with active users, teams,
   </tr> 
   <tr> 
    <td>시스템 전체 공유</td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>문서 추가</p> <p>팁: 사람들이 프로젝트에 문서를 추가하는 것으로 생각하고 프로젝트 템플릿에 문서를 추가하는 경우가 있습니다. 이 설정을 사용하지 않도록 설정하여 수신자가 이 문제를 겪지 않도록 할 수 있습니다.</p> </td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

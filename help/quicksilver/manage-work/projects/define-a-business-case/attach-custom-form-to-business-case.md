@@ -5,16 +5,16 @@ description: 사용자 지정 Forms은 기존 Adobe Workfront 필드에 표시�
 author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 # 비즈니스 사례에 사용자 정의 양식 첨부
 
-사용자 지정 Forms은 기존 Adobe Workfront 필드에 표시되지 않는 정보를 수집하는 데 사용됩니다. 
+사용자 지정 Forms은 기존 Adobe Workfront 필드에 표시되지 않는 정보를 수집하는 데 사용됩니다.
 
 사용자 지정 Forms 만들기에 대한 자세한 내용은 문서 [사용자 지정 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 <!--Audit: 06/2025-->
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    ![사용자 정의 양식 세부 정보 확장](assets/expand-custom-form-details.png)
 
-<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+<!--1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->
+1. (Optional) Specify information in the fields of the custom form, then click **Save** . -->

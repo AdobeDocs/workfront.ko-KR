@@ -6,10 +6,10 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 사�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -55,7 +55,7 @@ Workfront의 개체 계층 구조에 대한 자세한 내용은 [Adobe Workfront
 </table>
 -->
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,6 +107,6 @@ Workfront의 개체 계층 구조에 대한 자세한 내용은 [Adobe Workfront
    >
    >상속된 권한을 제거하려면 관리 권한이 있어야 합니다.
 
- 
 
- 
+
+

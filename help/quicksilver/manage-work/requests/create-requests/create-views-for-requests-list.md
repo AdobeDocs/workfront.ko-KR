@@ -5,9 +5,9 @@ title: 요청 영역에서 보기 만들기 및 관리
 description: 새 요청 경험을 사용하는 경우 요청 영역에 대한 보기를 만들고 저장할 수 있습니다.
 author: Becky
 feature: Work Management
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '818'
 ht-degree: 2%
 
 ---
@@ -63,11 +63,14 @@ Workfront의 요청 영역과 홈의 내 요청 위젯에서 보기를 만들고
 
 Workfront의 요청 영역이나 홈의 내 요청 위젯에서 보기를 만들 수 있습니다.
 
-1. 요청 목록에 액세스하려면 Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)를 클릭한 다음 **[!UICONTROL 요청]**&#x200B;을 클릭하십시오.
+1. 요청 목록에 액세스하려면:
+
+   {{step1-to-requests}}
 
 1. 홈에서 내 요청 위젯에 액세스하려면 다음을 수행하십시오.
 
-   1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+   {{step1-to-home}}
+
    1. 내 요청 위젯을 찾습니다.
 
       내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.
@@ -83,11 +86,14 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 보기를 만들
 
 방금 만든 보기를 포함하여 기존 보기를 편집할 수 있습니다.
 
-1. 요청 목록에 액세스하려면 Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)를 클릭한 다음 **[!UICONTROL 요청]**&#x200B;을 클릭하십시오.
+1. 요청 목록에 액세스하려면:
+
+   {{step1-to-requests}}
 
 1. 홈에서 내 요청 위젯에 액세스하려면 다음을 수행하십시오.
 
-   1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+   {{step1-to-home}}
+
    1. 내 요청 위젯을 찾습니다.
 
       내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.
@@ -146,11 +152,14 @@ Workfront 관리자는 레이아웃 템플릿에 새 보기를 추가할 수 있
 
 만든 보기를 다른 사용자, 팀 또는 그룹과 공유할 수 있습니다.
 
-1. 요청 목록에 액세스하려면 Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)를 클릭한 다음 **[!UICONTROL 요청]**&#x200B;을 클릭하십시오.
+1. 요청 목록에 액세스하려면:
+
+   {{step1-to-requests}}
 
 1. 홈에서 내 요청 위젯에 액세스하려면 다음을 수행하십시오.
 
-   1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+   {{step1-to-home}}
+
    1. 내 요청 위젯을 찾습니다.
 
       내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.

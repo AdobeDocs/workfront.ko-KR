@@ -6,10 +6,10 @@ description: 작업 세부 정보 섹션의 개요 영역에 액세스하여 작
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,7 +122,7 @@ ht-degree: 4%
 1. 필드를 한 번 클릭하여 편집할 수 있는 필드를 편집하거나 **+추가**&#x200B;를 클릭하여 빈 필드에 정보를 추가하십시오.
 1. 나열된 다음 필드를 보거나 편집합니다.
 
-   일부 필드는 편집할 수 없습니다.  
+   일부 필드는 편집할 수 없습니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -199,7 +199,7 @@ ht-degree: 4%
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>일. 이것이 기본값입니다. </td> 
+            <td>일. 이것이 기본값입니다. </td> 
             <td>D</td> 
            </tr> 
            <tr> 
@@ -309,11 +309,11 @@ ht-degree: 4%
       <td> <p>이전 작업의 진행 상황과 완료에 따라 작업이 시작될 "실제" 날짜입니다. 이는 계산된 필드이며 수동으로 편집할 수 없습니다.</p> <p> 프로젝트가 처음 계획될 때 예상 시작 일자와 계획된 시작 일자가 동일하게 시작됩니다. 프로젝트가 발전하고 작업이 아직 시작되지 않은 경우 예상 시작 날짜는 계획된 시작 날짜에서 벗어날 수 있습니다. 예상 시작 날짜에 대한 자세한 내용은 <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">프로젝트 예상 시작 날짜 개요</a>를 참조하십시오. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">실제 시작 일자</td> 
+      <td role="rowheader">실제 시작 일자 기준</td> 
       <td> <p>작업의 실제 시작 일자를 지정합니다. 작업 상태를 진행 중으로 변경하면 일반적으로 기본값이 자동으로 채워집니다. 실제 시작 일자는 프로젝트 관리자 또는 작업 소유자가 수동으로 수정할 수도 있습니다. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">계획된 완료 일자</td> 
+      <td role="rowheader">계획된 완료 일자 기준</td> 
       <td> <p>작업이 계획될 때 표시되는 예상 완료 일자입니다. 계획된 완료 일자는 다음과 같은 여러 요인으로 설정할 수 있습니다.</p> 
        <ul> 
         <li>작업의 기간을 계획된 시작 일자에 추가하여 계획된 시작 일자부터 계획된 완료 일자가 계산됩니다. 프로젝트 관리자 또는 Workfront이 작업의 기간을 지정하면 계획된 완료 일자로 업데이트가 트리거됩니다. 계획된 일자가 변경되면 기간 이 업데이트되었기 때문인 경우가 많습니다.</li> 
@@ -326,7 +326,7 @@ ht-degree: 4%
       <td> <p>이전 작업의 진행 상황과 할당자가 작업에 대해 수행한 진행 상황 업데이트에 따라 작업이 완료되는 "실제" 날짜입니다. 이는 계산된 필드이며 수동으로 편집할 수 없습니다.</p> <p> 프로젝트가 처음 계획될 때 예상 완료 일자와 계획된 완료 일자가 동일하게 시작됩니다. 프로젝트가 발전하고 작업이 아직 시작되지 않은 경우 예상 완료 날짜는 계획된 완료 날짜에서 벗어날 수 있습니다. 예상 완료 날짜에 대한 자세한 내용은 <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">프로젝트, 작업 및 문제에 대한 예상 완료 날짜 개요</a>를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">실제 완료 일자</td> 
+      <td role="rowheader">실제 완료 일자 기준</td> 
       <td> <p>작업이 완료되는 실제 날짜와 시간을 지정합니다. 작업이 완료되는 기본 날짜 및 시간은 상태가 완료됨이 되는 실제 시간과 항상 일치합니다. 실제 완료 일자는 프로젝트 관리자 또는 작업 소유자가 수동으로 수정할 수도 있습니다. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -365,7 +365,7 @@ ht-degree: 4%
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -385,7 +385,7 @@ ht-degree: 4%
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--

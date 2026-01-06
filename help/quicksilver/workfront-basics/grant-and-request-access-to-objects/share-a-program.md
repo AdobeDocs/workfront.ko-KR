@@ -7,10 +7,10 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 사�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 �
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,7 +77,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 �
 
   Workfront의 개체 계층 구조에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)를 참조하십시오.
 
-* 프로그램에서 상속된 권한을 제거할 수 있습니다. 개체에서 권한을 제거하는 방법에 대한 자세한 내용은  [개체에서 권한 제거](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* 프로그램에서 상속된 권한을 제거할 수 있습니다. 개체에서 권한을 제거하는 방법에 대한 자세한 내용은   [개체에서 권한 제거](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## 프로그램 공유
 
@@ -153,20 +153,20 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 사용자에게 �
 
 다음 표에는 사용자가 프로그램을 보거나 관리할 수 있도록 허용할 때 부여할 수 있는 권한이 표시됩니다.
 
-| **작업** | **관리** | **보기** |
+| **액션** | **관리** | **보기** |
 |---|---|---|
-| 프로그램 세부 정보 편집 | ✓ |   |
+| 프로그램 세부 정보 편집 | ✓ |   |
 | 프로그램 보기 | ✓ | ✓ |
-| 프로그램 삭제 | ✓ |   |
-| 사용자 정의 양식 첨부 | ✓ |   |
-| 사용자 정의 필드 편집 | ✓ |   |
-| 프로젝트 추가 또는 제거&#42; | ✓ |   |
-| 프로젝트 승인 | ✓ |   |
+| 프로그램 삭제 | ✓ |   |
+| 사용자 정의 양식 첨부 | ✓ |   |
+| 사용자 정의 필드 편집 | ✓ |   |
+| 프로젝트 추가 또는 제거&#42; | ✓ |   |
+| 프로젝트 승인 | ✓ |   |
 | 문서 폴더 추가&#42; | ✓ | ✓ |
 | 문서 추가 | ✓ | ✓ |
 | 업데이트/주석 추가 | ✓ | ✓ |
 | 공유 | ✓ | ✓ |
-| 시스템 전체 공유 |   | ✓ |
+| 시스템 전체 공유 |   | ✓ |
 
 *이러한 권한은 액세스 수준 및 프로젝트와 같은 다른 오브젝트에 대한 권한에 의해 제어됩니다.
 

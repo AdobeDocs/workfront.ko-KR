@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1539'
 ht-degree: 3%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>제목</strong> </td> 
-      <td>원래 요청의 이름을 표시합니다. 필요한 경우 업데이트합니다. 그렇지 않으면 Workfront에서 복사된 요청의 이름을 <b>복사본 &lt;원본 요청 이름&gt;</b>으로 지정합니다. 필수 필드입니다.</td> 
+      <td>원래 요청의 이름을 표시합니다. 필요한 경우 업데이트합니다. 그렇지 않으면 Workfront에서 복사된 요청의 이름을 <b>복사본 &lt;원본 요청 이름&gt;</b>으로 지정합니다. 필수 필드입니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>설명</strong> </td> 
@@ -230,11 +230,12 @@ ht-degree: 3%
 
 Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사하고 제출할 수 있습니다.
 
-1. 요청 목록에 액세스하려면 Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)를 클릭한 다음 **[!UICONTROL 요청]**&#x200B;을 클릭하십시오.
+{{step1-to-requests}}
 
 1. 홈에서 내 요청 위젯에 액세스하려면 다음을 수행하십시오.
 
-   1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+   {{step1-to-home}}
+
    1. 내 요청 위젯을 찾습니다.
 
       내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.

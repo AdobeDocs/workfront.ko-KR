@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -134,12 +134,12 @@ ht-degree: 3%
       <td> <p>프로젝트 상태. </p> <p>팁: 모든 작업 및 문제가 완료되지 않으면 프로젝트를 완료할 수 없습니다. 프로젝트의 완료 모드가 자동으로 설정된 경우 프로젝트를 수동으로 완료할 수 없습니다. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">조건 유형</td> 
-      <td>관리자가 프로젝트의 상태를 설정하는지 또는 Workfront이 설정하는지 여부를 결정합니다. 프로젝트 상태에 대한 자세한 내용은 문서 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">프로젝트 상태 및 상태 유형 개요</a>를 참조하십시오.</td> 
+      <td role="rowheader">상태 유형</td> 
+      <td>관리자가 프로젝트의 상태를 설정하는지 또는 Workfront이 설정하는지 여부를 결정합니다. 프로젝트 상태에 대한 자세한 내용은 문서 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">프로젝트 상태 및 상태 유형 개요</a>를 참조하십시오.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">일정 모드</td> 
-      <td>프로젝트가 예약되는 방식을 설정합니다. 예를 들어 프로젝트가 시작 날짜부터 예약되었는지 또는 완료 날짜부터 예약되었는지 여부. </td> 
+      <td>프로젝트가 예약되는 방식을 설정합니다. 예를 들어 프로젝트가 시작 날짜부터 예약되었는지 또는 완료 날짜부터 예약되었는지 여부. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">계획된 시작 일자 및 시간</td> 
@@ -209,7 +209,7 @@ ht-degree: 3%
    | 작성자 | 프로젝트를 만든 사용자의 이름입니다. |
    | 마지막 업데이트 날짜 | 프로젝트를 마지막으로 업데이트한 날짜 및 시간입니다. |
    | 마지막으로 업데이트한 사람 | 프로젝트를 마지막으로 업데이트한 사용자의 이름입니다. |
-   | 템플릿 |   |
+   | 템플릿 |  |
 
 
 1. 회사에서 Adobe Workfront 시나리오 플래너에 대한 추가 라이선스를 구매했는데 프로젝트에 연결된 이니셔티브에서 게시된 정보가 있는 경우 시나리오 플래너 영역에서 다음 이니셔티브 정보를 검토하십시오.
@@ -236,15 +236,15 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"><span>이니셔티브 종료 날짜</span> </td> 
-      <td><span>프로젝트가 이니셔티브에 연결된 이니셔티브 종료 달의 마지막 날입니다. </span> </td> 
+      <td><span>프로젝트가 이니셔티브에 연결된 이니셔티브 종료 달의 마지막 날입니다. </span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span>FTE 및 시간의 이니셔티브 작업 역할</span> </td> 
-      <td> <p>이니셔티브에 연결된 작업 역할 및 시간 할당에 대한 정보입니다. 여기에는 다음이 포함됩니다.</p> 
+      <td> <p>이니셔티브에 연결된 작업 역할 및 시간 할당에 대한 정보입니다. 여기에는 다음 항목이 포함되어 있습니다.</p> 
        <ul> 
         <li>작업 역할 이름</li> 
         <li>FTE 수</li> 
-        <li> <p>모든 FTE의 시간 수</p> <p>시간이나 FTE를 사용하여 계획 또는 이니셔티브에 필요한 작업 역할의 양을 예상할 수 있습니다. </p> <p>자세한 내용은 <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">시나리오 플래너에서 계획 만들기 및 편집</a>을 참조하십시오. </p> </li> 
+        <li> <p>모든 FTE의 시간 수</p> <p>시간이나 FTE를 사용하여 계획 또는 이니셔티브에 필요한 작업 역할의 양을 예상할 수 있습니다. </p> <p>자세한 내용은 <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">시나리오 플래너에서 계획 만들기 및 편집</a>을 참조하십시오. </p> </li> 
        </ul> <p>팁: <span>이니셔티브에서 매월 작업 역할 수가 다른 경우 이 필드에 이니셔티브에 필요한 최대 역할 수가 표시됩니다. 예를 들어, 1월에 1명의 컨설턴트가 필요하고 2월에 2명의 컨설턴트가 필요한 경우 열에 2FTE와 모든 달에 2개의 FTE에 해당하는 시간이 표시됩니다.</span> </p> </td> 
      </tr> 
     </tbody> 

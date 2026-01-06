@@ -6,10 +6,10 @@ description: Adobe Workfront 관리자는 액세스 수준을 할당할 때 재�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터�
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
@@ -53,7 +53,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터�
 </table>
 -->
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터�
 
 ## 모든 공유 수준에 대한 재무 권한
 
-다음 표에는 객체에 대한 보기, 기여 또는 관리 권한을 부여할 때 사용자에게 부여되는 재무 권한이 표시됩니다. 
+다음 표에는 객체에 대한 보기, 기여 또는 관리 권한을 부여할 때 사용자에게 부여되는 재무 권한이 표시됩니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -126,7 +126,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터�
  <col> 
  <thead> 
   <tr> 
-   <th><strong>작업</strong> </th> 
+   <th><strong>액션</strong> </th> 
    <th><strong>관리</strong> </th> 
    <th><strong>참여</strong> </th> 
    <th><strong>보기</strong> </th> 
@@ -136,26 +136,26 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터�
   <tr> 
    <td>청구 기록 관리</td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
+   <td> <p>  </p> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>역할 청구 및 비용 요금 관리/보기</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>사용자 청구 및 비용 요금 관리/보기</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>재무 보기</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
    <td>자원 계획 도구에서 원가별 정보 조회</td> 
@@ -166,8 +166,8 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터�
   <tr> 
    <td>리소스 계획 도구의 예산 리소스*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>자원 계획 도구에서 자원 조회*</td> 

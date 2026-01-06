@@ -6,7 +6,7 @@ description: 프로젝트 세부 정보 섹션의 재무 영역에 액세스하�
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 4%
@@ -130,12 +130,12 @@ ht-degree: 4%
       <td> <p>청구 기록에 캡처된 고객 또는 기타 당사자에게 청구된 수익. 청구 기록에 대한 자세한 내용은 문서 <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">청구 기록 만들기</a>를 참조하십시오. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
+      <td role="rowheader"> </td> 
+      <td> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
+      <td role="rowheader"> </td> 
+      <td> </td> 
      </tr> 
     </tbody> 
    </table>

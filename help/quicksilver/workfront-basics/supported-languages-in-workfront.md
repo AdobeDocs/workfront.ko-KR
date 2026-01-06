@@ -6,9 +6,9 @@ description: 브라우저의 언어 환경 설정과 Workfront 내의 기본 이
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1137'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Workfront Proof에서 지원되는 언어에 대한 자세한 내용은 [Workfro
 * Workfront Fusion에서는 사용자가 입력한 필드에 영어가 아닌 텍스트 문자를 사용할 수 없습니다.
 
 Workfront Fusion에 액세스하려면 귀사에서 Workfront Fusion 라이센스를 구매해야 합니다.\
-Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ## 언어 변경
 
@@ -146,7 +146,8 @@ Workfront에서 지원하는 언어에 대한 자세한 내용은 [Adobe Workfro
 기본 Workfront 이메일 로케일을 변경하려면:
 
 1. Workfront에 Workfront 관리자로 로그인합니다.
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을 클릭합니다.
+
+{{step-1-to-setup}}
 
 1. **시스템** > **고객 정보**&#x200B;를 클릭합니다.
 
@@ -164,7 +165,9 @@ Workfront에서 지원하는 언어에 대한 자세한 내용은 [Adobe Workfro
 
 사용자 전자 메일 로케일을 변경하려면:
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 사용자 프로필 사진을 클릭합니다.
+{{step1-click-main-menu}}
+
+1. 사용자 프로필 사진을 클릭합니다.
 
 1. 기타 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 

@@ -6,10 +6,10 @@ description: 모든 기간 및 상태에서 기존 목표를 편집할 수 있�
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto">
 <col>
@@ -191,8 +191,10 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.\
-   목표 목록이 표시됩니다.
+{{step1-to-goals}}
+
+목표 목록이 표시됩니다.
+
 1. 목표를 클릭합니다.\
    목표 페이지가 표시됩니다.
 
@@ -228,7 +230,7 @@ Editing goals differs depending on what environment you use.
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. (선택 사항) 목표에 결과, 활동 또는 프로젝트를 추가하려면 왼쪽 패널의 **진행 표시기**&#x200B;를 클릭합니다. 진행 표시기를 추가하면 목표의 진행 상황을 추적할 수 있습니다.
+1. (선택 사항) 목표에 결과, 활동 또는 프로젝트를 추가하려면 왼쪽 패널의 **진행 표시기**를 클릭합니다. 진행 표시기를 추가하면 목표의 진행 상황을 추적할 수 있습니다.
 자세한 내용은 다음 문서를 참조하십시오.
    * [Adobe Workfront 목표의 목표에 활동 추가](../results-and-activities/add-activities-to-goals.md)
    * [Adobe Workfront 목표의 목표에 결과 추가](../results-and-activities/add-results-to-goals.md).

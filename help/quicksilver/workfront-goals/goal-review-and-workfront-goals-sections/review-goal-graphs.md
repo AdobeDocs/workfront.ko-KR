@@ -6,10 +6,10 @@ description: Adobe Workfront 목표의 그래프 섹션에서 목표의 전반�
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 0%
+source-wordcount: '899'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 
 >[!IMPORTANT]
 >
->선택한 기간 동안의 그래프 섹션에서 목표에 대한 총 개수를 볼 수 있습니다. 그러나 Workfront 목표는 전체 목표 진행 상태 및 완료율을 계산할 때 활성 및 마감됨 상태의 목표만 고려합니다.
+>선택한 기간 동안의 그래프 섹션에서 목표에 대한 총 개수를 볼 수 있습니다. 그러나 Workfront 목표는 전체 목표 진행 상태 및 완료율을 계산할 때 활성 및 마감됨 상태의 목표만 고려합니다.
 
 ## 액세스 요구 사항
 
@@ -31,7 +31,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 >
 >Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto">
 <col>
@@ -157,12 +157,9 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 
 ## 그래프로 목표 진행 상황 검토
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   그러면 Workfront 목표 영역이 열립니다.
+그러면 Workfront 목표 영역이 열립니다.
 
 1. 왼쪽 패널에서 **그래프**&#x200B;를 클릭합니다.
 
@@ -224,4 +221,4 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 
    진행률 차트의 맨 아래에 있는 **기준선**&#x200B;을 클릭하여 차트에서 예상되는 진행률을 제거합니다.
 
- 
+

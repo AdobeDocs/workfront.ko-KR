@@ -6,10 +6,10 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1196'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,18 +63,18 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작�
 * 작업을 개별적으로 공유하거나 여러 작업을 한 번에 일괄적으로 공유할 수 있습니다.\
   작업 공유는 다른 오브젝트 공유와 동일합니다. Workfront에서 항목을 공유하는 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 
-* 작업에 다음 권한을 부여할 수 있습니다. 
+* 작업에 다음 권한을 부여할 수 있습니다.
 
    * 보기
    * 관리
    * 참여
 * 작업을 공유할 때 기본적으로 사용자는 작업과 연결된 모든 하위 개체에 대해 동일한 권한을 상속합니다. 예를 들어, 하위 작업, 문제 및 작업에 첨부된 문서에 대한 동일한 권한을 상속합니다.\
-  Workfront의 개체 계층 구조에 대한 자세한 내용은  [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Workfront의 개체 계층 구조에 대한 자세한 내용은   [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
   Workfront 관리자는 문서가 사용자 액세스 수준의 상위 개체에서 권한을 상속해야 하는지 여부를 지정할 수 있습니다. 문서에 대해 상속된 사용 권한을 제한하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
 * 작업에서 상속된 권한을 제거할 수 있습니다.\
-  오브젝트에서 상속된 권한을 제거하는 방법에 대한 자세한 내용은  [개체에서 권한 제거](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+  오브젝트에서 상속된 권한을 제거하는 방법에 대한 자세한 내용은   [개체에서 권한 제거](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## 작업 공유 방법
 
@@ -87,7 +87,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작�
    * 작업의 상위 개체(프로젝트, 프로그램 또는 포트폴리오)에 대한 권한을 지정합니다. 작업은 상위 개체에서 권한을 상속합니다. 개체에 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)를 참조하십시오.
    * 작업이 있는 프로젝트를 만드는 데 사용되는 템플릿에 대한 프로젝트 공유에 엔티티를 추가합니다. 템플릿에서 프로젝트를 공유하는 방법에 대한 자세한 내용은 [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)를 참조하십시오.
 
-   * 프로젝트를 편집할 때 프로젝트의 모든 작업에 대한 권한을 지정합니다. 프로젝트에 대한 사용자의 권한에 따라 프로젝트의 작업에 대한 액세스를 관리하는 방법에 대한 자세한 내용은 문서 [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)프로젝트 편집[의 &#x200B;](../../manage-work/projects/manage-projects/edit-projects.md) 섹션을 참조하십시오.
+   * 프로젝트를 편집할 때 프로젝트의 모든 작업에 대한 권한을 지정합니다.  프로젝트에 대한 사용자의 권한에 따라 프로젝트의 작업에 대한 액세스를 관리하는 방법에 대한 자세한 내용은 문서 [](../../manage-work/projects/manage-projects/edit-projects.md#access)프로젝트 편집[의 ](../../manage-work/projects/manage-projects/edit-projects.md) 섹션을 참조하십시오.
 
   >[!TIP]
   >
@@ -185,13 +185,13 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작�
    <td scope="row">작업 추가</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">전임 작업 추가</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">문제 추가</td> 
@@ -202,26 +202,26 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작�
   <tr> 
    <td scope="row">작업 삭제</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row"> <p>일반 작업 편집<br></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">작업 상태 변경</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">작업 제한 사항 편집</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">작업 보기</td> 
@@ -244,50 +244,50 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작�
   <tr> 
    <td scope="row">작업 이동*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">시간 기록</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">계획된 일자 수정</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">할당 수락</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">할당하기</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">사용자 정의 양식 첨부</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">사용자 정의 필드 편집</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">승인 프로세스 만들기</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">작업 승인</td> 
@@ -298,14 +298,14 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작�
   <tr> 
    <td scope="row">재무 편집*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">경비 추가/편집</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">재무 보기</td> 
@@ -327,8 +327,8 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 작�
   </tr> 
   <tr> 
    <td scope="row">시스템 전체 공유</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

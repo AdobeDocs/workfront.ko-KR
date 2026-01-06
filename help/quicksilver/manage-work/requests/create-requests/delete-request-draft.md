@@ -6,10 +6,10 @@ description: 제출된 요청이나 요청 초안을 삭제할 수 있습니다.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: d87df92f548b19901374e982d1759efade644e17
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 2%
+source-wordcount: '638'
+ht-degree: 3%
 
 ---
 
@@ -76,11 +76,12 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 삭제
 
 ### 점 3개 메뉴에서 요청 삭제
 
-1. 요청 목록에 액세스하려면 Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)를 클릭한 다음 **[!UICONTROL 요청]**&#x200B;을 클릭하십시오.
+{{step1-to-requests}}
 
 1. 홈에서 내 요청 위젯에 액세스하려면 다음을 수행하십시오.
 
-   1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+   {{step1-to-home}}
+
    1. 내 요청 위젯을 찾습니다.
 
       내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.
@@ -106,11 +107,12 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 삭제
 
 ### 대량 삭제 요청
 
-1. 요청 목록에 액세스하려면 Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)를 클릭한 다음 **[!UICONTROL 요청]**&#x200B;을 클릭하십시오.
+{{step1-to-requests}}
 
 1. 홈에서 내 요청 위젯에 액세스하려면 다음을 수행하십시오.
 
-   1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+   {{step1-to-home}}
+
    1. 내 요청 위젯을 찾습니다.
 
       내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.

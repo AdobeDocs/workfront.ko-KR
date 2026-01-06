@@ -6,10 +6,10 @@ description: 공유에 액세스할 수 있는 개체에 대한 다른 사용자
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
       ![공유](assets/new-share-button.png)
    1. 객체에서 제거할 사용자, 역할, 팀, 그룹 또는 회사를 찾습니다.
-   1. **제거**&#x200B;를 클릭합니다.
+   1. **제거**를 클릭합니다.
 **제거 &lt; 사용자 이름 > from** 드롭다운 메뉴에서 선택한 개체에서만 액세스 권한을 제거할지 또는 해당 개체와 연결된 모든 자식 개체에서 액세스 권한을 제거할지를 선택합니다.
 
       ![제거](assets/remove-permissions-on-project-nwe-350x479.png)
@@ -115,7 +115,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
    The following scenarios exist:
 
-   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
+   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.  
    * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
    **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
@@ -150,11 +150,11 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
    >
    >상속된 권한 목록에서 개별 엔티티를 제거할 수 없습니다. 나열된 모든 엔티티에 대해서만 상속된 권한을 비활성화할 수 있습니다.
 
-1. **저장**&#x200B;을 클릭합니다. 
+1. **저장**&#x200B;을 클릭합니다.
 
 ## 개체를 비공개로 설정
 
-개체를 시스템 전체에서 공유했거나, 개체를 공개로 설정하여 외부 사용자와 공유한 경우, 시스템 전체 또는 공개 권한을 제거하여 개체를 다시 비공개로 만들 수 있습니다. 
+개체를 시스템 전체에서 공유했거나, 개체를 공개로 설정하여 외부 사용자와 공유한 경우, 시스템 전체 또는 공개 권한을 제거하여 개체를 다시 비공개로 만들 수 있습니다.
 
 개체를 시스템 전체에서 사용할 수 있게 하거나 공개적으로 사용할 수 있게 하는 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 

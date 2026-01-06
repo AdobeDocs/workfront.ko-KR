@@ -6,10 +6,10 @@ description: 한 오브젝트에 첨부된 사용자 정의 양식의 표시 순
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -180,6 +180,6 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
    또는
 
-   모든 양식을 동시에 확장하려면 **Forms 확장**&#x200B;을 클릭하십시오. 
+   모든 양식을 동시에 확장하려면 **Forms 확장**&#x200B;을 클릭하십시오.
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.

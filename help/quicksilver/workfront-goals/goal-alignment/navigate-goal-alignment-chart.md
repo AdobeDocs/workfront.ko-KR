@@ -6,10 +6,10 @@ description: '[목표 정렬] 섹션을 사용하여 순서에서 전체 조직�
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 >
 >Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,9 +125,8 @@ Or
 
 ## 목표 정렬 섹션 탐색
 
-1. 화면 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](../goal-alignment/assets/dots-main-menu-icon.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
+
 1. 왼쪽 패널에서 **목표 정렬**&#x200B;을 클릭합니다.
 1. 정렬 차트의 오른쪽 위 모서리에 있는 필터를 사용하여 중요한 목표만 선택합니다. Workfront 목표에서 필터를 사용하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 필터 정보](../../workfront-goals/goal-management/filter-information-wf-goals.md)를 참조하십시오.
 
@@ -159,7 +158,7 @@ Or
       <td role="rowheader">목표 진행률 표시줄 <span>및 진행률</span></td> 
       <td> <p>목표 진행률은 현재 얼마나 많은 목표를 달성했는지를 나타냅니다. 목표 기간 시작 이후 경과된 시간을 기준으로 목표에 대한 모든 정렬된 목표, 결과 및 활동의 진행 평균을 자동으로 계산합니다. 목표에 대한 진행률 계산에 대한 자세한 내용은 <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront 목표의 목표 진행률 및 조건 개요</a>를 참조하십시오. </p> 
        <div> 
-        <p>현재 날짜까지 목표의 실제 진행 상황입니다. 다음 진행률 값과 색상은 목표가 정시에 달성되는 정도를 나타냅니다. </p> 
+        <p>현재 날짜까지 목표의 실제 진행 상황입니다. 다음 진행률 값과 색상은 목표가 정시에 달성되는 정도를 나타냅니다. </p> 
         <ul> 
          <li><span>대상</span>(녹색 표시기): 목표가 정시에 달성되며 정시에 달성됩니다.</li> 
          <li> <span>위험 상태</span>(노란색 표시기): 목표가 늦어지고 기한 내에 달성되지 않을 수 있습니다.</li> 

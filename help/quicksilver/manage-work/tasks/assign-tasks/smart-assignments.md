@@ -7,7 +7,7 @@ description: 작업 및 문제 할당을 관리할 때 스마트 할당을 사�
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -192,7 +192,7 @@ Workfront은 문제에 대한 스마트 할당을 계산하는 것과 동일한 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Make smart assignments</h2>
-<p>(NOTE:&nbsp;this was moved to its own article: make-smart-assignments.) </p>
+<p>(NOTE: this was moved to its own article: make-smart-assignments.) </p>
 <p>Smart assignments are available in most locations where you can make assignments in Workfront.</p>
 <p>You can use smart assignments on tasks and issues that have previously been assigned to a job role or a team.</p> <note type="note">
 You must have a Plan or a Work license and have at least Contribute permissions to a task or an issue to be able to make assignments to the task or the issue. You must have the Make Assignments option enabled in your permission level to make assignments.

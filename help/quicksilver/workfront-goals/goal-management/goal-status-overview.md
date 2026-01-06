@@ -7,7 +7,7 @@ description: 목표 상태는 목표가 활성 상태이고 현재 진행 상황
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 4%
@@ -58,7 +58,7 @@ ht-degree: 4%
   | 마감됨 | 아니요 | 예 | 아니요 | - |
 
 * 닫힌 목표를 열면 목표의 진행 상황도 업데이트됩니다.
-* 목표에 대해 수행하는 특정 작업도 해당 상태를 업데이트합니다. 목표 상태를 업데이트하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
+* 목표에 대해 수행하는 특정 작업도 해당 상태를 업데이트합니다. 목표 상태를 업데이트하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
    * [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md)
    * [Adobe Workfront 목표에서 목표 활성화](../../workfront-goals/goal-management/activate-goals.md)
