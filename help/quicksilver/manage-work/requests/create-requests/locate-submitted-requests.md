@@ -1,35 +1,37 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: 제출된 요청 찾기
-description: 귀하 또는 다른 사람이 제출한 요청 또는 제출한 적이 없고 초안으로 저장된 요청을 찾을 수 있는 Adobe Workfront 영역에 대해 알아봅니다.
+title: 제출된 요청 보기
+description: 귀하 또는 다른 사람이 제출한 요청 또는 제출한 적이 없고 초안으로 저장된 요청을 볼 수 있는 Adobe Workfront 영역에 대해 알아봅니다.
 author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
+source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 2%
+source-wordcount: '1406'
+ht-degree: 3%
 
 ---
 
-# 제출된 요청 찾기
+# 제출된 요청 보기
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
-본인이나 다른 사람이 제출한 다음 유형의 요청이나 시작했지만 제출하지 않은 요청을 찾을 수 있습니다. Adobe Workfront의 다음 영역에서 이러한 요청을 찾을 수 있습니다.
+귀하 또는 다른 사람이 제출한 요청 또는 시작했지만 제출하지 않은 요청을 볼 수 있습니다. Adobe Workfront의 다음 영역에서 이러한 요청을 찾을 수 있습니다.
 
-* Workfront에 있는 요청 영역의 **Workfront** 탭: 다음 섹션에서 Workfront 요청 대기열에 제출된 요청을 찾습니다.
+* Workfront에 있는 요청 영역의 **Workfront** 탭: 다음 섹션에서 Workfront 요청 대기열에 제출된 요청을 봅니다.
    * **제출된 섹션**: 귀하 또는 다른 사람이 제출한 모든 요청이며 귀하는 최소한 보기에 액세스할 수 있습니다.
    * **초안 섹션** : 시작했지만 완료하지 않았고 제출한 적이 없는 모든 요청. 초안 요청에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
-  >[!TIP]
+  >[!NOTE]
   >
-  >자신의 초안 요청만 볼 수 있습니다.
+  >* 자신의 초안 요청만 볼 수 있습니다.
+  >* <span class="preview">새 요청 환경에서 제출된 요청 및 초안이 같은 목록에 있습니다. </span>
+  >* <span class="preview">기존 경험에서 만든 초안이 새 요청 경험에 표시되지 않습니다.</span>
 
-* Workfront에 있는 요청 영역의 **계획** 탭: Workfront Planning 요청 양식에 제출된 요청을 찾습니다. 조직은 Workfront Planning 패키지를 구매해야 합니다. 자세한 내용은 다음 문서를 참조하십시오.
+* Workfront에 있는 요청 영역의 **계획** 탭: Workfront Planning 요청 양식에 제출된 요청을 봅니다. 조직은 Workfront Planning 패키지를 구매해야 합니다. 자세한 내용은 다음 문서를 참조하십시오.
 
    * [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)
    * [Adobe Workfront Planning 요청을 제출하여 레코드 생성](/help/quicksilver/planning/requests/submit-requests.md)
@@ -72,18 +74,18 @@ ht-degree: 2%
 
 +++
 
-## 요청 영역에서 제출된 요청 찾기
+## 요청 영역에서 제출된 요청 보기
 
-제출된 요청은 새 요청 경험을 사용하는지 또는 기존 요청 경험을 사용하는지에 따라 다릅니다.
+제출된 요청 보기는 새 요청 경험을 사용하는지 아니면 기존 요청 경험을 사용하는지에 따라 다릅니다.
 
-* [새 요청 경험에서 제출된 요청 찾기](#locate-submitted-requests-in-the-new-requesting-experience)
-* [기존 요청 경험에서 제출된 요청 찾기](#locate-submitted-requests-in-the-legacy-requesting-experience)
+* [새 요청 경험에서 제출된 요청 보기](#view-submitted-requests-in-the-new-requesting-experience)
+* [기존 요청 경험에서 제출된 요청 보기](#view-submitted-requests-in-the-legacy-requesting-experience)
 
-### 새 요청 경험에서 제출된 요청 찾기
+### 새 요청 경험에서 제출된 요청 보기
 
-요청 영역 <span class="preview">에서 전송된 요청을 찾을 수 있습니다. 이 영역에는 해당 요청으로 만들어진 개체에 대한 링크가 포함되어 있습니다.</span>
+요청 영역 <span class="preview">에서 전송된 요청을 볼 수 있습니다. 이 영역에는 해당 요청으로 만들어진 개체에 대한 링크가 포함되어 있습니다.</span>
 
-사용자 또는 다른 사용자가 새 요청 경험에서 제출한 요청을 찾으려면 다음을 수행하십시오.
+사용자 또는 다른 사용자가 새 요청 경험에서 제출한 요청을 보려면 다음 작업을 수행하십시오.
 
 {{step1-to-requests}}
 
@@ -92,7 +94,7 @@ ht-degree: 2%
    요청 목록이 나타납니다.
 
 1. (선택 사항) 요청을 검색하려면 목록의 오른쪽 상단에 있는 검색 막대에 입력을 시작합니다. 입력하면 검색 결과가 표시됩니다.
-1. (선택 사항) **필터**&#x200B;를 클릭하고 찾을 요청에 대한 조건을 추가하기 시작합니다.
+1. (선택 사항) **필터**&#x200B;를 클릭하고 표시할 요청에 대한 조건을 추가하기 시작합니다.
 
    다음 필드를 기준으로 필터링할 수 있습니다.
 
@@ -105,18 +107,26 @@ ht-degree: 2%
 
    **And** 또는 **Or** 중 하나로 여러 필터를 연결할 수 있습니다.
 필터 조건을 추가하면 요청 목록이 자동으로 필터링됩니다.
-1. (선택 사항) 보기를 사용하여 찾을 요청에 중점을 둡니다.
+1. (선택 사항) 보기를 사용하여 표시할 요청에 중점을 둡니다.
 
    지침은 [요청 영역에서 보기 만들기 또는 편집](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)을 참조하십시오.
+1. (선택 사항) 상태 열을 선택하여 요청 상태를 확인합니다. 새 요청 경험에서 사용할 수 있는 상태는 다음과 같습니다.
+
+   * 초안: 이 요청은 아직 제출되지 않았습니다.
+   * 검토 보류 중
+   * 검토 중
+   * 거부됨
+   * 진행 중
+   * 완료
 
 >[!NOTE]
 >
 >* Workfront Planning이 있는 경우 Workfront 및 Planning 요청이 동일한 목록에 나타납니다. Workfront 요청은 개체 유형 열에 값 `Issue`을(를) 표시합니다.
 >* 50개의 요청이 표시된 요청 목록이 나타납니다. 더 많은 요청을 보려면 목록 맨 아래로 스크롤합니다.
 
-### 기존 요청 경험에서 제출된 요청 찾기
+### 기존 요청 경험에서 제출된 요청 보기
 
-귀하 또는 다른 사용자가 이전 요청 경험에서 제출한 요청을 찾으려면 다음을 수행하십시오.
+귀하 또는 다른 사용자가 이전 요청 경험에서 제출한 요청을 보려면 다음을 수행하십시오.
 
 {{step1-to-requests}}
 
@@ -253,5 +263,12 @@ ht-degree: 2%
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
+
+
+1. (선택 사항) 상태 열을 선택하여 요청 상태를 확인합니다. 새 요청 경험에서 사용할 수 있는 상태는 다음과 같습니다.
+
+   * 초안: 이 요청은 아직 제출되지 않았습니다.
+   * 진행 중
+   * 완료
 
 
