@@ -4,9 +4,9 @@ description: 2026년 1분기 보고 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -151,16 +151,6 @@ ht-degree: 0%
 * 기타 그룹: ID
 * 기타 역할: ID
 * 기타 팀: ID
-
-## 캔버스 대시보드의 그룹화 카운트 표시 개선
-
->[!NOTE]
->
->미리 보기: 2025년 11월 6일
->프로덕션 빠른 릴리스: 2025년 11월 13일
->모두를 위한 프로덕션: 2026년 1월 15일
-
-이제 테이블 보고서에 여러 개의 결과 페이지가 있고 테이블이 그룹화로 구성된 경우 테이블에는 현재 페이지에 대한 레코드 양과 모든 페이지에 대한 전체 레코드 수가 모두 표시됩니다. 예를 들어 표 보고서에 7개의 그룹화가 있고 첫 번째 페이지에 3이 표시되면 표에 7중 3이 표시됩니다.
 
 
 ## 캔버스 대시보드의 로드 시간을 개선하는 새로운 보호 기능
