@@ -3,13 +3,13 @@ title: Adobe Exchange에서 앱 획득 및 설치
 description: Adobe App Builder 기반의 Workfront UI 확장 기능을 사용하면 고객과 파트너가 맞춤화된 사용자 경험을 만들 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
+exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
+source-git-commit: 92d4cd209a4e40f80420a3aebb116077cd2141a8
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Exchange에서 앱 획득 및 설치
 
@@ -27,7 +27,7 @@ Workfront 파트너는 Workfront UI 확장, 즉 앱을 Workfront 인터페이스
 
 #### 실시간 결과, Adobe Workfront 바로 내
 
-Adobe Workfront 고객과 협력하여 일상적인 병목 현상을 예측 가능한 결과를 제공하는 반복 가능한 솔루션으로 전환합니다. EMC의 솔루션 라이브러리는 고객의 작업 현장에서 라이브 데이터를 활용하여 정확성, 속도 및 신뢰성을 높이는 데 도움이 됩니다. 여러분은 지도자들이 지금 일어나고 있는 일을 보고 다음에 일어날 일을 계획하도록 도울 수 있습니다. 현재 사용 가능하고 설치할 준비가 된 AtAppStore Adobe Exchange 앱을 탐색한 다음 현재 우선 순위에 맞는 앱을 선택한 다음 요구 사항이 증가함에 따라 확장하십시오.
+AtApp은 Adobe Workfront 고객과 협력하여 일상적인 병목 현상을 예측 가능한 결과를 제공하는 반복 가능한 솔루션으로 전환합니다. EMC의 솔루션 라이브러리는 점차 확대되고 있으며, 사용자가 근무하는 곳의 라이브 데이터를 활용하여 정확성, 속도 및 신뢰성을 높이는 데 도움이 됩니다. AtApp을 통해 리더는 현재 일어나고 있는 상황을 확인하고 다음에 일어날 일을 계획할 수 있습니다. 사용자는 현재 사용 가능하고 설치할 준비가 된 AtAppStore Adobe Exchange 앱을 탐색하고 현재 우선 순위에 맞는 앱을 선택한 다음 요구 사항이 증가함에 따라 크기를 조정할 수 있습니다.
 
 * [Excel Updater](https://exchange.adobe.com/apps/ec/abtt1rq7o9/atapp-excel-updater): Excel Updater 솔루션을 사용하면 API를 배우거나 코드를 작성하거나 서버를 설정하지 않고도 데이터를 Workfront에 통합할 수 있는 비용 효율적인 경로를 제공할 수 있으며 일회성 데이터 로드와 반복 데이터 로드 모두에 이상적입니다.
 
@@ -37,15 +37,31 @@ Adobe Workfront 고객과 협력하여 일상적인 병목 현상을 예측 가�
 
 ### 작업 포커스
 
-Workfocus는 Workfront을 위한 고급 자동화 및 통합 솔루션을 제공합니다. 앱은 다음에 중점을 둡니다.
+WorkFocus는 Adobe Workfront, Workfront Fusion, Workfront Planning, Firefly, AEM Assets 및 엔터프라이즈 자동화 분야를 전문으로 하는 Adobe Gold Solutions 파트너입니다. 당사의 독점 FCoE 애플리케이션을 기반으로 하는 FCoE(Fusion Center of Excellence)를 구축하여 조직이 책임감 있게 자동화를 확장할 수 있도록 지원합니다.
 
-* 타임라인 간소화
+#### FCoE(Fusion Center of Excellence) 애플리케이션
 
-* Fusion 워크플로우 자동화
+WorkFocus Fusion Center of Excellence 애플리케이션을 통해 조직은 전사적으로 Adobe Workfront Fusion의 가치를 관리, 확장 및 극대화할 수 있습니다.
 
-* 인스턴스 간 공동 작업 활성화
+많은 팀이 단편화된 Fusion 시나리오, 자동화 소유권 및 가치에 대한 가시성 제한, 표준의 일관성이 결여됨, 무질서한 자동화 등으로 어려움을 겪고 있습니다. FCoE 애플리케이션은 Fusion 자동화를 위한 중앙 기록 시스템을 제공하여 이러한 문제를 해결합니다.
 
-Workfocus 앱은 Workfront 내에서 기본적으로 작동하도록 설계되었으며 UI 확장을 활용하여 사용자에게 생산성을 높이고 수작업을 줄이는 강력한 도구를 제공합니다.
+주요 기능은 다음을 포함합니다.
+
+* Fusion 시나리오의 중앙 집중식 거버넌스 및 소유권
+* 시나리오 라이프사이클 관리 - 지원에서 수신
+* ROI 및 가치 실현 추적
+* 엔터프라이즈급 표준, 설명서 및 오류 처리
+* 엔터프라이즈 채택을 위한 확장 가능한 운영 모델
+
+그 결과, Fusion을 통해 가치 창출 시간을 단축하고 위험 요소를 줄이며 비즈니스에 실질적인 영향을 미칠 수 있습니다.
+
+#### WorkFocus 시작
+
+WorkFocus 팀은 Fusion Center of Excellence의 사용자 정의 데모를 예약하고 애플리케이션에 대한 무료 평가판을 마련하기 위해 조직을 초대합니다.
+
+향후 계획을 살펴보면 로드맵에는 2026년 Workfront 핵심 우수 센터 및 Workfront 계획 우수 센터 릴리스가 포함됩니다. Fusion Center of Excellence의 고객이 됨으로써 조직은 향후 출시될 이러한 솔루션의 로드맵에 영향을 미치고 기업 Workfront 거버넌스의 미래를 형성할 수 있는 기회를 얻게 됩니다.
+
+WorkFocus는 Workfront, Workfront Fusion, Workfront Planning, Firefly, AEM Assets 및 전체 컨텐츠 Supply chain에서 전략적 파트너로서 어떻게 사용될 수 있는지에 대해 논의하고 싶습니다.
 
 ## 사전 요구 사항 및 권한
 
@@ -83,7 +99,7 @@ Workfront용 앱을 보려면 Adobe Exchange으로 이동하여 Workfront 호환
 
 1. 앱 이름을 클릭합니다.
 1. 앱 목록의 오른쪽 상단 모서리에 있는 버튼을 클릭합니다.
-1. **예, 계속**&#x200B;을 클릭한 다음 최종 사용자 사용권 계약에 동의하십시오.
+1. **예, 계속**을 클릭한 다음 최종 사용자 사용권 계약에 동의하십시오.
    ![사용권 계약 확인](assets/2-aquire-application.png)
 
 ### 시스템 관리자에 대한 작업
@@ -113,7 +129,7 @@ Workfront용 앱을 보려면 Adobe Exchange으로 이동하여 Workfront 호환
 1. 설치할 앱을 찾아 화면 오른쪽에 있는 작업 메뉴를 엽니다.
 1. 앱 세부 사항 보기를 클릭합니다.
 1. 화면 왼쪽에서 환경을 선택하거나 새 환경을 추가합니다.
-1. **배포**&#x200B;를 클릭합니다.
+1. **배포**를 클릭합니다.
    ![앱 배포](assets/10-env-details-2.png)
 1. 설치 또는 사용 권한 할당(필요한 경우)
 
