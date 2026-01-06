@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 1분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
+source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
 workflow-type: tm+mt
-source-wordcount: '3013'
+source-wordcount: '2949'
 ht-degree: 4%
 
 ---
@@ -201,15 +201,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>2025년 12월 11일 금요일</td>
         <td>2026년 1월 15일 금요일</td>
     </tr>   
-     <tr>
+    <!-- <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">새로운 버전의 Salesforce 통합을 사용할 수 있음 </a>
-            <p>Workfront API에 대한 최근 변경 사항을 최신 상태로 유지하기 위해 새로운 Salesforce 통합을 만들었습니다. 새 통합은 이전 버전과 동일한 기능을 제공하며 API에서 더 이상 사용되지 않는 기능이 손실되지 않도록 업데이트되었습니다.</p><p>참고: 새 버전을 포함한 Salesforce 통합용 Workfront은 **2026년 2월 28일** 이후부터 사용할 수 없습니다. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">New version of Salesforce integration now available </a>
+            <p>To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.</p><p>NOTE: The Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. </p>
         </td>
-        <td>2025년 10월 30일 금요일</td>
-        <td>2025년 10월 30일 금요일</td>
-        <td>2025년 10월 30일 금요일</td>
-    </tr>   
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
+    </tr>   -->
   </tbody>
 </table>
 
@@ -594,13 +594,13 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
