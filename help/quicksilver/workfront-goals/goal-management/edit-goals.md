@@ -230,7 +230,7 @@ Editing goals differs depending on what environment you use.
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. (선택 사항) 목표에 결과, 활동 또는 프로젝트를 추가하려면 왼쪽 패널의 **진행 표시기**를 클릭합니다. 진행 표시기를 추가하면 목표의 진행 상황을 추적할 수 있습니다.
+1. (선택 사항) 목표에 결과, 활동 또는 프로젝트를 추가하려면 왼쪽 패널의 **진행 표시기**&#x200B;를 클릭합니다. 진행 표시기를 추가하면 목표의 진행 상황을 추적할 수 있습니다.
 자세한 내용은 다음 문서를 참조하십시오.
    * [Adobe Workfront 목표의 목표에 활동 추가](../results-and-activities/add-activities-to-goals.md)
    * [Adobe Workfront 목표의 목표에 결과 추가](../results-and-activities/add-results-to-goals.md).

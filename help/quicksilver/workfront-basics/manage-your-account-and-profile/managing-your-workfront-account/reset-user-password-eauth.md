@@ -50,7 +50,7 @@ ht-degree: 1%
 
 {{step-1-to-users}}
 
-1. 암호를 다시 설정해야 하는 **[!UICONTROL 사용자]**을(를) 선택하십시오.
+1. 암호를 다시 설정해야 하는 **[!UICONTROL 사용자]**&#x200B;을(를) 선택하십시오.
    ![사용자 선택](assets/100520classicnweselectuser-350x105.png)
 
 1. 원하는 **[!UICONTROL 사용자]를 선택한 후 표시되는**&#x200B;자세히&#x200B;**[!UICONTROL 단추]**&#x200B;를 클릭하고 드롭다운 메뉴에서 **[!UICONTROL 암호 찾기 이메일 보내기]** 옵션을 선택합니다.

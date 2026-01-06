@@ -24,7 +24,7 @@ ht-degree: 0%
 > 조직이 Adobe 통합 경험에 온보딩된 경우 날짜 환경 설정은 Adobe 통합 쉘에 설정된 언어 환경 설정에 따라 제어됩니다. 기본 언어 설정과 기본 날짜 설정은 `en-US`입니다.
 > 자세한 내용은 [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences)을 참조하세요.
 
-[!DNL Adobe Workfront]계획된 완료 일자[!UICONTROL , ]실제 완료 일자[!UICONTROL  또는 ]예상 완료 일자[!UICONTROL 와 같은 ] 날짜의 날짜 형식을 변경할 수 있습니다.
+[!DNL Adobe Workfront]계획된 완료 일자[!UICONTROL , &#x200B;]실제 완료 일자[!UICONTROL &#x200B; 또는 &#x200B;]예상 완료 일자[!UICONTROL 와 같은 &#x200B;] 날짜의 날짜 형식을 변경할 수 있습니다.
 
 예를 들어 날짜 형식을 _DD/MM/YYYY_&#x200B;에서 _MM/DD/YYYY_(으)로 변경하거나 그 반대로 변경할 수 있습니다.
 또는 날짜 형식을 _MM/DD/YY_&#x200B;에서 _YYYY년 월 DD일_(으)로 변경할 수 있습니다.
