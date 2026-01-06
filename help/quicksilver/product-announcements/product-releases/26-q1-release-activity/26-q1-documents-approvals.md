@@ -4,9 +4,9 @@ description: 2026년 1분기 문서 및 승인 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0197be82879cbd2abfd053e4a93002884db252b4
+source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 2026년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
 
-## Creative Cloud Express에서 검토를 보낼 때 Workfront 프로젝트 선택
+## Adobe Express에서 리뷰를 보낼 때 Workfront 프로젝트 선택
 
 >[!NOTE]
 >
