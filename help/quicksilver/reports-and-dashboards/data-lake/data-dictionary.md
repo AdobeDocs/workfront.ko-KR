@@ -7,9 +7,9 @@ description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
+source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8878'
+source-wordcount: '8904'
 ht-degree: 9%
 
 ---
@@ -42,14 +42,57 @@ Data Connect에서 다양한 보기 유형을 사용하여 가장 많은 insight
 
 ## 엔티티 관계 다이어그램
 
-Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 값뿐만 아니라 다른 개체와의 관계에 의해서도 정의됩니다. 아래의 엔티티 관계 다이어그램은 Data Connect에서 개체 관계의 높은 수준 매핑을 제공합니다. 다음 링크를 사용하여 다이어그램을 보고 다운로드할 수 있습니다.
+Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 값뿐만 아니라 다른 개체와의 관계에 의해서도 정의됩니다.
 
-[Data Connect 엔티티 관계 다이어그램](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+아래의 ERD(엔티티 관계 다이어그램)는 핵심 Workfront 개체에 대해 Data Connect의 개체 관계에 대한 높은 수준의 매핑을 제공합니다.
 
 >[!IMPORTANT]
 >
->응용 프로그램 내의 많은 관계로 인해 전체 ERD를 읽을 수 없으므로 제공된 ERD(엔터티 관계 다이어그램)가 의도적으로 불완전합니다.<br>
->이 다이어그램은 아래 [용어 표](#terminology-table) 섹션의 프로젝트 테이블에 문서화된 관계를 사용하여 프로젝트 데이터 보기에서 인접 개체로 데이터를 조인하는 방법에 대한 예를 제공합니다. 프로젝트 개체 관계에 대해 이 패턴을 이해하면 완전한 ERD는 필요하지 않습니다
+>다이어그램은 단일 개체를 중심으로 하며, 전체 Workfront 애플리케이션에 대한 전체 엔티티 관계 다이어그램을 나타내지는 않습니다. <br>
+>이러한 다이어그램은 관계를 사용하여 데이터를 인접한 오브젝트에 조인하는 방법의 예를 제공하기 위한 것입니다.
+
+### 예제 엔티티 관계 다이어그램
+
++++ 를 확장하여 예제 다이어그램 보기
+
+>[!TIP]
+>
+>다이어그램을 자세히 보려면 이미지를 마우스 오른쪽 단추로 클릭하고 **새 탭에서 이미지 열기**&#x200B;를 선택합니다.
+
+
+### 할당
+
+![할당 엔터티 관계 다이어그램](assets/Assignment-centered-ERD.png)
+
+
+### 문서 및 문서 승인
+
+![문서 및 문서 승인 엔터티 관계 다이어그램](assets/Document-and-Document-Approvals-centered-ERD.png)
+
+### 시간 및 타임시트
+
+![시간 및 타임시트 엔터티 관계 다이어그램](assets/Hours-and-Timesheet-centered-ERD.png)
+
+
+### 문제
+
+![엔터티 관계 다이어그램 문제](assets/Issue-centered-ERD.png)
+
+### 프로젝트
+
+![프로젝트 엔터티 관계 다이어그램](assets/Project-centered-ERD.png)
+
+
+### 작업
+
+![작업 엔터티 관계 다이어그램](assets/Task-centered-ERD.png)
+
+
+### 사용자
+
+![사용자 엔터티 관계 다이어그램](assets/User-centered-ERD.png)
+
++++
 
 ## 날짜 유형
 
@@ -1665,15 +1708,15 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
 >
 >레코드 형식은 `enumClass` 속성을 통해 식별됩니다. 다음은 예상 형식입니다.<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJECT</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJECT</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJECT</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJECT</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### 문서
@@ -3561,7 +3604,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
             <td>비노동 리소스 범주</td>
             <td>비노동 리소스 범주</td>
             <td>NLBRCY</td>
-            <td>비노동 리소스 범주</td>
+            <td>비노동 리소스 카테고리</td>
             <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
         </tr>
       </tbody>
