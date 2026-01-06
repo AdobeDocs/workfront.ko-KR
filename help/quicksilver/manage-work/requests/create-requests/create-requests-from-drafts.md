@@ -6,9 +6,9 @@ description: 새 요청을 입력할 때 Workfront에서 제안하는 사용 가
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '836'
 ht-degree: 3%
 
 ---
@@ -82,6 +82,10 @@ ht-degree: 3%
    * 홈 의 내 요청 위젯에 있는 요청 목록에서
    * 새 요청 대화 상자(선택한 양식으로 생성된 요청의 초안만 포함)
 
+   >[!NOTE]
+   >
+   >기존 요청 경험에서 생성된 초안은 새 요청 경험에서 사용할 수 없습니다.
+
 1. [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)에 설명된 대로 요청에 대한 정보를 업데이트하십시오.
 1. (선택 사항 및 조건부) 초안을 삭제하려면 요청을 입력하는 동안 언제든지 **취소** 초안을 클릭합니다. 그러면 초안이 삭제됩니다.
 
@@ -112,7 +116,7 @@ ht-degree: 3%
 1. [초안] 목록의 다음 열에서 각 초안에 대한 정보를 검토합니다.
 
    | 제목 | 이 이름은 요청을 만들기 시작할 때 입력한 이름입니다. |
-   |---|---|
+   | --- | --- |
    | 경로 | 요청을 원래 제출하려는 요청 대기열, 주제 그룹 및 대기열 주제의 이름입니다. |
    | 입력 일자 | 요청 생성을 시작한 날짜입니다. |
    | 마지막 업데이트 날짜 | 마지막 업데이트. 요청을 처음 시작한 이후 업데이트하지 않았다면 입력 일자와 마지막 업데이트 일자가 동일해야 합니다. |
@@ -141,9 +145,4 @@ ht-degree: 3%
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      요청을 제출하면 초안이 삭제되고 복원할 수 없습니다.
-
-   >[!NOTE]
-   >
-   >새 요청 경험에서 초안은 제출된 요청과 동일한 목록에 있습니다.
-   >새 경험에서 요청을 만드는 방법에 대한 자세한 내용은 요청 만들기 및 제출 문서에서 [Workfront 웹 앱에서 요청 만들기 및 초안 생성](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app)을 참조하십시오.
 

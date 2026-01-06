@@ -4,9 +4,9 @@ description: 2026년 1분기 요청 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -125,8 +125,6 @@ Workfront의 요청 영역과 홈의 내 요청 위젯에서 요청 목록 보�
 요청을 더 쉽게 만들고 제출할 수 있도록 새 요청 환경에 초안을 저장하는 기능을 추가했습니다. 이제 요청을 작성하고 닫으면 요청이 초안 상태로 저장되고 초안을 작성하는 데 사용되는 요청 양식에서 찾을 수 있습니다. 그런 다음 편리한 시간에 초안을 다시 열고, 업데이트하고, 제출할 수 있습니다.
 
 이전에는 이 기능을 새 요청 환경에서 사용할 수 없었습니다.
-
-기존 요청 경험에서 생성된 초안은 새 요청 경험에서 사용할 수 있습니다.
 
 요청 초안에 대한 자세한 내용은 [초안에서 요청 만들기](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)를 참조하십시오.
 
