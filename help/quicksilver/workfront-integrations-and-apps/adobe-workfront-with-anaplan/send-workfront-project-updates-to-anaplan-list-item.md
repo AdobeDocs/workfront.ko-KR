@@ -19,7 +19,7 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->이 문서의 &quot;캠페인&quot;은 이 시나리오가 나타내는 마케팅 캠페인 사용 사례를 참조합니다. [!DNL Workfront Fusion]에서 [!UICONTROL  Adobe Campaign 커넥터 또는 최근에 더 이상 사용되지 않는 ]캠페인[!DNL Workfront] 개체에 연결할 수 없습니다.
+>이 문서의 &quot;캠페인&quot;은 이 시나리오가 나타내는 마케팅 캠페인 사용 사례를 참조합니다. [!DNL Workfront Fusion]에서 [!UICONTROL &#x200B; Adobe Campaign 커넥터 또는 최근에 더 이상 사용되지 않는 &#x200B;]캠페인[!DNL Workfront] 개체에 연결할 수 없습니다.
 
 ## 액세스 요구 사항
 
@@ -86,11 +86,11 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">시장 시작 날짜의 [!UICONTROL]</td> 
+     <td role="rowheader">시장 시작 날짜의 </td> 
      <td>[!UICONTROL 날짜] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">시장 종료 날짜의 [!UICONTROL]</td> 
+     <td role="rowheader">시장 종료 날짜의 </td> 
      <td>[!UICONTROL 날짜]</td> 
     </tr> 
     <tr> 
@@ -172,7 +172,7 @@ CSV 콘텐츠 예
 
 3. [!UICONTROL 시장 시작 날짜]
 
-4. [!UICONTROL 마켓 종료 날짜의 ]
+4. [!UICONTROL 마켓 종료 날짜의 &#x200B;]
 
 5. [!UICONTROL 대상]
 
@@ -186,7 +186,7 @@ CSV 콘텐츠 예
 
 다음 단계를 완료하여 이 통합 시나리오를 Fusion 계정에 배포합니다. 필요한 [!DNL Workfront] 및 [!DNL Anaplan] 구성을 완료한 후에만 이 작업을 수행해야 합니다.
 
-1. [!UICONTROL 의 ]템플릿[!DNL Workfront Fusion] 메뉴로 이동한 다음 **[!UICONTROL 목록 항목 [!DNL Anaplan]에 Workfront 프로젝트 업데이트 보내기]** 시나리오 템플릿을 클릭합니다.
+1. [!UICONTROL 의 &#x200B;]템플릿[!DNL Workfront Fusion] 메뉴로 이동한 다음 **[!UICONTROL 목록 항목 [!DNL Anaplan]에 Workfront 프로젝트 업데이트 보내기]** 시나리오 템플릿을 클릭합니다.
 1. 다음 [!DNL Anaplan]개 변수에 대한 변수 값을 바꿉니다.
 
    <table style="table-layout:auto"> 
@@ -250,10 +250,10 @@ CSV 콘텐츠 예
 
 예산 요청 연결을 위한 추가 시나리오:
 
-* [[!UICONTROL 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기 [!DNL Adobe Workfront] 3}]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [[!UICONTROL 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기 [!DNL Adobe Workfront] 3&rbrace;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
 * [[!UICONTROL 프로젝트에  [!DNL Anaplan] 예산 할당 적용 [!DNL Adobe Workfront] 프로젝트]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 Campaign 요청 연결을 위한 추가 시나리오:
 
-* [[!UICONTROL 캠페인 요청에서  [!DNL Anaplan] 목록 항목 만들기 [!DNL Adobe Workfront] 3}]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [[!UICONTROL 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용 [!DNL Adobe Workfront] 3}]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [[!UICONTROL 캠페인 요청에서  [!DNL Anaplan] 목록 항목 만들기 [!DNL Adobe Workfront] 3&rbrace;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [[!UICONTROL 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용 [!DNL Adobe Workfront] 3&rbrace;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)

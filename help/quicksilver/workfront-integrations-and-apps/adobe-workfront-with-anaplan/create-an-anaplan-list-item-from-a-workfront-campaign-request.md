@@ -21,7 +21,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->이 문서의 &quot;캠페인&quot;은 이 시나리오가 나타내는 마케팅 캠페인 사용 사례를 참조합니다. [!DNL Workfront Fusion]에서 [!UICONTROL  Adobe Campaign 커넥터 또는 최근에 더 이상 사용되지 않는 ]캠페인[!DNL Workfront] 개체에 연결할 수 없습니다.
+>이 문서의 &quot;캠페인&quot;은 이 시나리오가 나타내는 마케팅 캠페인 사용 사례를 참조합니다. [!DNL Workfront Fusion]에서 [!UICONTROL &#x200B; Adobe Campaign 커넥터 또는 최근에 더 이상 사용되지 않는 &#x200B;]캠페인[!DNL Workfront] 개체에 연결할 수 없습니다.
 
 ## 액세스 요구 사항
 
@@ -97,11 +97,11 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">시장 시작 날짜의 [!UICONTROL]</td> 
+     <td role="rowheader">시장 시작 날짜의 </td> 
      <td>Date </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">시장 종료 날짜의 [!UICONTROL]</td> 
+     <td role="rowheader">시장 종료 날짜의 </td> 
      <td>Date</td> 
     </tr> 
     <tr> 
@@ -148,7 +148,7 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
 [!DNL Fusion] 계정에 이 통합 시나리오를 배포하려면 다음 단계를 완료하십시오. 필요한 [!DNL Workfront] 및 [!DNL Anaplan] 구성을 완료한 후에만 이 작업을 수행해야 합니다.
 
-1. [!UICONTROL 의 ]템플릿[!DNL Workfront Fusion] 메뉴로 이동한 다음 **[!UICONTROL Workfront 캠페인 요청에서 [!DNL Anaplan] 목록 항목 만들기]** 시나리오 템플릿을 클릭합니다.
+1. [!UICONTROL 의 &#x200B;]템플릿[!DNL Workfront Fusion] 메뉴로 이동한 다음 **[!UICONTROL Workfront 캠페인 요청에서 [!DNL Anaplan] 목록 항목 만들기]** 시나리오 템플릿을 클릭합니다.
 1. 다음 [!DNL Anaplan]개 변수에 대한 변수 값을 바꿉니다.
 
    | 변수 이름 | 값 바꾸기 |
@@ -174,7 +174,7 @@ Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfro
 
 이 템플릿으로 표시되는 워크플로우를 완료하려면 다음 추가 템플릿도 배포해야 합니다.
 
-* [[!UICONTROL 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용 [!DNL Adobe Workfront] 3}]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [[!UICONTROL 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용 [!DNL Adobe Workfront] 3&rbrace;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 지출 최적화를 위한 추가 시나리오는 다음과 같습니다.
 
