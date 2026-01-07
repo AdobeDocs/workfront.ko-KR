@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
+source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ Adobe Workfront에 대해 릴리스된 모든 제한된 가용성 기능의 목�
 
 **시스템에서 환율 사용** 확인란을 선택하지 않으면 프로젝트 세부 정보 > 재무 영역의 **환율 날짜** 필드가 이제 숨겨집니다. 이전에는 프로젝트를 편집할 때 날짜 유효 환율이 활성화되지 않은 경우에도 프로젝트 세부 정보에 날짜 필드가 표시되었습니다.
 
-<!--### Maintenance Updates week of January 4-10, 2026
+### 2026년 1월 4~10일 유지 보수 업데이트 주
 
-**Title**
+**작업 역할 비율에서 유효 일자 차이가 허용됨**
 
-text
+직무 역할 비율의 유효 일자는 이제 격차를 허용하지만, 중복 일자는 허용되지 않습니다. 간격 동안 청구 요금 계층의 다른 영역은 작업의 수익 유형에 따라 청구 요금을 결정하는 데 사용됩니다.
 
-### Maintenance Updates week of January 11-17, 2026
+<!--### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
