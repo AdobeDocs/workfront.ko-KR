@@ -4,9 +4,9 @@ description: 2026년 1분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
+source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ ht-degree: 0%
 
 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
-
-
 ## 사용자 정의 필드의 활성 플래그를 사용하여 필드 관리 개선
 
 >[!NOTE]
@@ -89,6 +87,10 @@ ht-degree: 0%
 
 * 보고서, 필터, 보기 또는 사용자 지정 필드를 추가할 수 있는 Workfront의 기타 위치에서 제외됩니다
 * 필드 라이브러리에서는 다른 사용자 정의 양식에 추가할 수 없습니다
+
+>[!NOTE]
+>
+>보고서, 필터, 보기 및 그룹화에서 제외는 필드가 비활성화되면 발생합니다. 필드를 사용하는 기존 보고서 요소는 필드가 비활성으로 표시될 때 변경되거나 제거되지 않습니다.
 
 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
