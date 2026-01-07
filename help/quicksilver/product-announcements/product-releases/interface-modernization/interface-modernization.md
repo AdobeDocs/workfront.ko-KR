@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1ef57b73a77d0c622b3dbd57057c51d0ccbad7db
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '9457'
+source-wordcount: '9443'
 ht-degree: 0%
 
 ---
@@ -1563,9 +1563,13 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 +++
 
-### 업데이트 및 주석
+<!--
+### Updates and Comments
 
-+++를 확장하여 Q2에 수행한 업데이트 및 댓글 인터페이스 업데이트를 봅니다.
++++Expand to view Updates and Comments interface updates made in Q2
+
++++
+-->
 
 ### 댓글에 대한 기타 메뉴 옵션의 인터페이스 업데이트
 

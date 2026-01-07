@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1711'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -170,7 +170,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL 클라우드 공급자]**&#x200B;를 선택하십시오.
-1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint] (Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
+1. **[!DNL SharePoint]** 옵션과 **[!UICONTROL [!DNL SharePoint](Graph API)]** 옵션이 모두 활성화되어 있는지 확인하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 왼쪽 탐색에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL [!DNL SharePoint]통합]**&#x200B;을 선택합니다.
 1. 기존의 모든 통합에 대해 목록의 왼쪽에 있는 확인 표시를 선택한 다음 **[!UICONTROL 사용 안 함]**&#x200B;을 선택합니다.

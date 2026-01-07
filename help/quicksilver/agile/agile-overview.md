@@ -7,7 +7,7 @@ description: 애자일은 팀이 일관적인 케이던스로 작고 관리하�
 author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Workfront에서 고급 애자일 사용을 시작하려면 다음을 수행하�
 
 1. 애자일 팀을 만듭니다.
 
-   자세한 내용은 문서 [애자일 팀 만들기](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1)에서 [애자일 팀 만들기](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) 또는 [기존 팀을 애자일 팀으로 변환](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) 섹션을 참조하십시오.
+   자세한 내용은 문서 [애자일 팀 만들기](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#create-an-agile-team-1)에서 [애자일 팀 만들기](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) 또는 [기존 팀을 애자일 팀으로 변환](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) 섹션을 참조하십시오.
 
 1. Kanban 또는 Scrum을 사용하도록 애자일 팀을 구성합니다.
 

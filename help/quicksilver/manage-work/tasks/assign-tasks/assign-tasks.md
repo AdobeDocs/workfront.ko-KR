@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2156'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -58,7 +58,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -191,7 +191,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. (선택 사항) **자동 저장** 드롭다운 메뉴를 클릭하고 다음 옵션 중에서 선택합니다.
 
    | 옵션 | 옵션 설명 |
-   |---|---| 
+   |---|---|
    | 자동 저장 | 작업에 대한 변경 사항은 자동으로 저장되며 되돌릴 수 없습니다. |
    | 수동 저장 | 변경 사항을 수동으로 저장해야 합니다. 저장하기 전에 변경 사항을 되돌릴 수 있습니다. |
    | 타임라인 계획 수립 | 변경 사항을 수동으로 저장해야 합니다. 저장하기 전에 변경 사항을 되돌릴 수 있습니다. 변경 사항 및 모든 프로젝트 종속성을 저장하는 것은 수동 저장을 선택하는 것보다 빠릅니다. |

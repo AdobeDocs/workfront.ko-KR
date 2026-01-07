@@ -6,10 +6,10 @@ description: 작업 작업 및 문제가 할당되면 내 작업 위젯, 내 작
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 0%
 
 작업 작업 및 문제가 할당되면 내 작업 위젯, 내 작업 위젯 및 내 문제 위젯에 나열됩니다.  작업 항목 및 요청을 보거나, 작업하거나, 제거할 수 있습니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 

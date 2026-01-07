@@ -6,10 +6,10 @@ description: 작업 항목을 효율적으로 찾고 관리하는 사용자 또�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2437'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -71,8 +71,6 @@ ht-degree: 0%
 </table>
 
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
-
-+++
 
 ## 업무 균형자 의 필터 개요
 

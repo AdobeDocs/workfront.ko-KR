@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -139,7 +139,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * 사용자
    * 작업 역할
    * 할당
-   * Hour
+   * 시간
    * 청구 기록
      <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
    * 경비
@@ -202,7 +202,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    * 오브젝트 유형: 가져올 필드의 Workfront 오브젝트 유형을 선택합니다.
    * 사용자 정의 양식: Workfront에서 하나 또는 여러 사용자 정의 양식을 선택합니다. 먼저 오브젝트 유형을 선택하지 않고 사용자 정의 양식을 선택할 수 있습니다.
-1. **+**&#x200B;을 클릭한 다음 **필드 추가**&#x200B;를 클릭합니다.
+1. **+**&#x200B;을 클릭한 다음 **필드 추가**를 클릭합니다.
 필드는 표 보기 및 레코드의 세부 사항 페이지에 추가됩니다.
 
    >[!IMPORTANT]

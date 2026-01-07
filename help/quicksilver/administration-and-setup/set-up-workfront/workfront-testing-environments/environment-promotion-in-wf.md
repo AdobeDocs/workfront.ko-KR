@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
    * [환경 프로모션 패키지 만들기 또는 편집](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Workfront API를 통해 이 프로세스를 수행하는 방법에 대한 지침은 [API를 사용하여  [!DNL Workfront] 환경 간에 개체 이동](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)을 참조하십시오. [!DNL Workfront] 
+* Workfront API를 통해 이 프로세스를 수행하는 방법에 대한 지침은 [API를 사용하여  [!DNL Workfront] 환경 간에 개체 이동 [!DNL Workfront] 을 참조하십시오.](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
 
 [이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -153,7 +153,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>ASSEMBLING 단계가 실패할 경우 프로모션 패키지가 자동으로 이 상태로 전환됩니다.</p><p>패키지를 ASSEMBLING 스테이지로 되돌리려면 어셈블 프로세스를 다시 트리거해야 합니다.</p><p>패키지 조립에 대한 자세한 내용은 환경 프로모션 패키지 만들기 또는 편집 문서에서 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">기존 패키지 편집 또는 조립</a> 섹션을 참조하십시오.</td> 
+   <td><p>ASSEMBLING 단계가 실패할 경우 프로모션 패키지가 자동으로 이 상태로 전환됩니다.</p><p>패키지를 ASSEMBLING 스테이지로 되돌리려면 어셈블 프로세스를 다시 트리거해야 합니다.</p><p>패키지 조립에 대한 자세한 내용은 환경 프로모션 패키지 만들기 또는 편집 문서에서 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">기존 패키지 편집 또는 조립</a> 섹션을 참조하십시오.</td> 
   </tr> 
   </tbody> 
 </table>

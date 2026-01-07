@@ -4,9 +4,9 @@ description: Adobe App Builder 기반의 Workfront UI 확장 기능을 사용하
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2269'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,6 @@ UI 확장을 만들려면 Adobe Developer Console에서 Adobe App Builder에 액
 >다음 모든 단계에 대해 올바른 IMS 조직을 선택했는지 확인하십시오. 여러 조직에 속해 있는 경우 잘못된 조직을 선택할 수 있습니다. 일반적으로 오른쪽 상단 모서리에 나열되어 있는 올바른 조직 아래에서 작업하고 있는지 확인합니다.
 
 1. 프로덕션으로 이동: https://adminconsole.adobe.com/
-
 1. **사용자** 섹션에서 **개발자** > **개발자 추가**&#x200B;를 클릭합니다.
 
    ![admin console에 사용자 추가](assets/manage-users-admin-console.png)
@@ -63,8 +62,8 @@ UI 확장을 만들려면 Adobe Developer Console에서 Adobe App Builder에 액
    >개발자를 관리하는 옵션이 표시되지 않으면 개발자 액세스를 허용하는 제품이 없는 것입니다.
 
 1. 사용자 이메일을 추가합니다. Admin Console 내에서 이미 추가된 기존 사용자를 검색해야 합니다.
+1. 필요한 제품을 개발자 프로필에 추가하고 **저장**&#x200B;을 클릭합니다.
 
-1. 필요한 제품을 개발자 프로필에 추가하고 **저장**&#x200B;을 클릭합니다.\
    ![개발자 추가](assets/add-developer.png)
 
 ### App Builder 액세스 권한 얻기
@@ -80,9 +79,7 @@ Adobe Developer Console을 사용하여 UI 확장을 빌드해야 합니다.
 추가 지침은 [Adobe Developer 사이트](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/)에서 확인할 수 있습니다.
 
 1. Adobe ID을 사용하여 Adobe Developer Console에 로그인합니다.
-
 1. 계정, 프로필 또는 조직을 선택합니다.
-
 1. 빠른 시작 영역에서 **템플릿으로 프로젝트 만들기**&#x200B;를 클릭하거나 **새 프로젝트 만들기 > 템플릿으로 프로젝트**&#x200B;를 클릭합니다.
 
    >[!IMPORTANT]
@@ -92,11 +89,8 @@ Adobe Developer Console을 사용하여 UI 확장을 빌드해야 합니다.
    ![템플릿에서 만들기](assets/create-from-template.png)
 
 1. **App Builder**&#x200B;을(를) 선택합니다.
-
 1. **프로젝트 제목** 및 **앱 이름**&#x200B;을 입력하십시오. 두 가지 모두 기본값이 있지만 값을 사용자 지정하면 나중에 원하는 프로젝트를 더 쉽게 식별할 수 있습니다.
-
 1. **런타임 포함**&#x200B;을 선택한 상태로 둡니다.
-
 1. **저장**&#x200B;을 클릭합니다.
 
 ## Adobe Developer(aio) CLI 사용
@@ -157,37 +151,37 @@ Workfront 기본 메뉴에서 사용자 지정 응용 프로그램을 허용하�
 
 1. ExtensionRegistration.js로 이동합니다.
 
-ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드는 템플릿에서 만들었습니다. 이 코드를 추가하여 추가 메뉴 항목을 만들 수 있습니다. ID 및 URL을 바꾸십시오.
+   ExtensionRegistration 함수에는 다음 코드가 표시됩니다. 이 코드는 템플릿에서 만들었습니다. 이 코드를 추가하여 추가 메뉴 항목을 만들 수 있습니다. ID 및 URL을 바꾸십시오.
 
-    &quot;
-    mainMenu: &lbrace;
-    
-    getItems() &lbrace;
-    
-    반환 &lbrack;
-    
-    &lbrace;
-    
-    id: &#39;main-menu-label&#39;,
-    
-    url: &#39;/index.html#/main-menu-label&#39;,
-    
-    label: &#39;Main menu label&#39;,
-    
-    icon: icon1,
-    
-    &rbrace;,
-    
-    &rbrack;;
-    
-    &rbrace;,
-    
-    &rbrace;
-    &quot;
+   ```
+   mainMenu: { 
+   
+           getItems() { 
+   
+               return [ 
+   
+               { 
+   
+                   id: 'main-menu-label', 
+   
+                   url: '/index.html#/main-menu-label', 
+   
+                   label: 'Main menu label', 
+   
+                   icon: icon1, 
+   
+               }, 
+   
+               ]; 
+   
+           }, 
+   
+           } 
+   ```
 
 1. 다음 코드 조각을 추가합니다.
 
-   ![코드 조각 &#x200B;](assets/7-extension-registration-step1-from-sam.png)
+   ![코드 조각 ](assets/7-extension-registration-step1-from-sam.png)
 
    이 예에서는 메인 메뉴 항목을 보여 줍니다. ID, 레이블, 아이콘 및 URL을 애플리케이션에 적합한 이름으로 업데이트해야 합니다. 여러 항목을 추가할 때 ID가 고유한지 확인합니다.
 
