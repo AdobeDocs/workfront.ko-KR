@@ -4,9 +4,9 @@ description: 2026년 1분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
+source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
+>이 기능은 미리보기 환경에서 일시적으로 사용할 수 없습니다
 >미리 보기: 2025년 12월 2일
 >프로덕션 빠른 릴리스: 2026년 1월 14일
 >모두를 위한 프로덕션: 2026년 1월 15일
+
 
 이제 레이아웃 템플릿에서 특정 사용자에 대한 우선 순위를 활성화하거나 비활성화할 수 있습니다. 이전에 조직에 대해 [우선 순위]를 비활성화한 경우, 이 변경 사항으로 레이아웃 템플릿에서 비활성화된 상태로 유지됩니다.
 
