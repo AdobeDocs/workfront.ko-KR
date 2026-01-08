@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 1%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -25,13 +25,17 @@ ht-degree: 1%
 
 <span class="preview">사용자 지정 필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 지정 양식 필드 라이브러리에서 필드를 더 이상 사용할 수 없습니다. 모든 새 필드는 기본적으로 활성으로 설정됩니다. </span>
 
+>[!NOTE]
+>
+>보고서, 필터, 보기 및 그룹화에서 제외는 필드가 비활성화되면 발생합니다. 필드를 사용하는 기존 보고서 요소는 필드가 비활성으로 표시될 때 변경되거나 제거되지 않습니다.
+
 사용자 정의 양식에서 사용자 정의 필드를 제거해도 추가된 다른 모든 양식에는 여전히 있으므로 양식이나 필드 영역에서 편집할 수 있습니다. 필드 삭제에 대한 자세한 내용은 [시스템에서 사용자 지정 필드 또는 위젯 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)를 참조하십시오.
 
 사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
