@@ -4,9 +4,9 @@ description: 2026년 1분기 요청 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,6 @@ For more information on creating views for the Request list and My Requests widg
 >모두를 위한 프로덕션: 2026년 1월 15일
 
 필요한 정보를 더 쉽게 볼 수 있도록 새 요청 환경에 보기를 공유하는 기능을 추가했습니다. 이제 다른 사용자, 팀 또는 그룹과 보기를 공유할 수 있습니다.
-
-Workfront의 요청 영역과 홈의 내 요청 위젯에서 요청 목록 보기를 공유할 수 있습니다. 공유 기능은 두 위치에서 동일하며, 공유를 포함한 보기 설정은 내 요청 위젯과 요청 영역 간에 이동할 때 유지됩니다.
 
 공유를 포함한 요청 보기에 대한 자세한 내용은 [요청 영역에서 보기 만들기 및 관리](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)를 참조하십시오.
 
