@@ -4,9 +4,9 @@ description: 2026년 1분기 요청 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 >모두를 위한 프로덕션: 2026년 1월 15일
 
 특정 요청으로 만든 개체로 더 쉽게 이동할 수 있도록 만들어진 개체 열에 링크를 추가했습니다. 이제 이 열의 링크를 클릭하여 생성된 객체의 페이지로 바로 이동할 수 있습니다.
+
+이 링크는 요청 자체가 개체를 만든 경우에만 사용할 수 있습니다. 요청이 프로젝트 또는 다른 객체로 전환된 경우 새 요청 경험의 요청 목록에서 전환된 객체에 대한 링크를 사용할 수 없습니다.
 
 이전에는 이 열에 개체의 이름만 포함되고 해당 링크는 포함되지 않았습니다.
 
