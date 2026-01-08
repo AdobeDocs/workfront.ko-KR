@@ -4,9 +4,9 @@ description: 2026년 1분기 문서 및 승인 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bde12a27b918fc98c7596d16b78b46d465c9e90a
+source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 2026년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
 
-## Workfront에서 AI 검토자를 위한 브랜드 설정
+<!--## Set up brands for the AI reviewer in Workfront
 
 >[!NOTE]
 >
->미리 보기: 2026년 1월 8일
->프로덕션 빠른 릴리스: 2026년 1월 8일\
->모두를 위한 프로덕션: 2026년 1월 8일
+>Preview: January 8, 2026 
+>Production fast release: January 8, 2026  
+>Production for everyone: January 8, 2026  
 
-이제 Workfront 설정 영역에서 AI 검토자의 브랜드를 설정할 수 있습니다. 이를 통해 조직의 브랜딩 지침을 기반으로 AI 검토 프로세스를 사용자 정의할 수 있습니다.
+You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
 
-AI 검토자는 현재 베타 버전입니다.
+The AI reviewer is currently in beta.-->
 
 ## Adobe Express에서 리뷰를 보낼 때 Workfront 프로젝트 선택
 
