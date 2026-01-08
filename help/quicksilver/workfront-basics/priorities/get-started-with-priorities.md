@@ -6,14 +6,16 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 2%
+source-wordcount: '1017'
+ht-degree: 3%
 
 ---
 
 # [!DNL Priorities] 시작
+
+{{preview-fast-release-general}}
 
 우선 순위는 작업 소유자에게 맞는 능률적이고 직관적인 경험입니다. 우선 순위는 작업 목록부터 시작하여 단계적으로 롤아웃됩니다.
 
@@ -24,6 +26,8 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 * 맞춤형 기능: 작업 소유자를 위해 고유하게 설계된 기능의 이점
 
 우선 순위 작업 목록 및 달력에는 사용자에게 할당된 작업 항목이 표시됩니다. 팀에 할당된 작업 항목을 볼 수 없습니다.
+
+<span class="preview">Workfront 관리자가 레이아웃 템플릿에서 사용자의 우선 순위를 활성화할 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하십시오.</span>
 
 ## 작업 찾기 및 구성
 
@@ -202,7 +206,8 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 작업 또는 문제의 세부 정보 페이지에서 실시간 업데이트를 볼 수 있습니다. 실시간 상태 표시기를 사용하여 다른 사용자가 사용자와 동시에 페이지를 보고 있는지 여부도 확인할 수 있습니다.
 
-## 고려 사항
 
-* 현재 Workfront 관리자는 레이아웃 템플릿을 통해 우선 순위를 사용자 정의할 수 없습니다.
-* 우선 순위의 작업에 액세스하는 것은 여러 탭에 걸쳐 있습니다. 향후 문서, 하위 작업, 승인 등과 같은 탭을 추가할 계획입니다. **피드백 제공** 단추를 사용하여 피드백을 제출하여 이러한 항목이 필요한지 알려 주십시오.
+<!--
+## Considerations
+
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
