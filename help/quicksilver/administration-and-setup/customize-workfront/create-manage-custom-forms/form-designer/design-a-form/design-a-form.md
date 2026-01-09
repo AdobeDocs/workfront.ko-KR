@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: f23414b3c4810e47fa084d303e640a289de1f98d
 workflow-type: tm+mt
-source-wordcount: '6899'
+source-wordcount: '6941'
 ht-degree: 5%
 
 ---
@@ -105,6 +105,10 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
    >
    >
    >복잡한 양식의 예로는 계단식 매개 변수가 있는 양식, 계산된 사용자 정의 데이터 필드 및 단일 필드의 여러 값 옵션이 있습니다.
+
+   >[!NOTE]
+   >
+   >기존 필드를 비활성화로 표시하면 해당 시점부터 보고 요소 및 사용자 정의 양식에서 사용할 수 없습니다. 비활성 필드가 현재 보고서나 양식에 사용되는 경우, 필드와 해당 내역 데이터가 제자리에 유지됩니다.
 
 1. 변경 내용을 저장하려면 **적용**&#x200B;을 클릭하고 다른 섹션으로 이동하여 양식을 계속 작성하십시오.
 
@@ -624,7 +628,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
      <tr> 
       <td role="rowheader">형식</td>
       <td><p>사용자 정의 필드에 캡처할 데이터 유형을 선택합니다.</p>
-      <p><strong>참고:</strong></p>
+      <p><strong>메모:</strong></p>
       <ul><li>양식을 저장한 후 형식 유형을 변경할 수 있습니다. 한 가지 제한 사항은 개체의 기존 모든 값을 새 유형으로 변환할 수 있어야 한다는 것입니다. (예를 들어, 형식 유형이 텍스트이고 객체가 "abc" 값을 저장하는 경우 필드를 변환할 수 없으며 "abc"를 숫자/통화로 변환할 수 없다는 오류가 발생합니다.) 수학 계산에서 필드를 사용하려면 숫자 또는 통화 형식을 선택해야 합니다.</li>
       <li>숫자 또는 통화를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</li>
       <li>숫자 필드의 문자 길이는 16자로 제한됩니다. 텍스트 필드를 사용하여 숫자를 입력하고 제한을 피할 수도 있습니다.</li>
@@ -651,12 +655,12 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td role="rowheader">JSON 경로</td>
       <td><p>API에 대한 JSON 경로를 입력하거나 붙여넣습니다.</p> <p>이 옵션을 사용하면 API URL에서 반환되는 JSON에서 데이터를 추출할 수 있습니다. JSON 내에서 드롭다운 옵션에 표시할 값을 선택하는 데 사용됩니다.</p><p>예를 들어 API URL이 다음 형식으로 JSON을 반환하는 경우 "$.data[*].name"을 사용하여 미국과 캐나다를 드롭다운 옵션으로 선택할 수 있습니다.</br>
       <pre>
-      &lbrace;
-       데이터: &lbrace;
+      {
+       데이터: {
          { name: "미국"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>JSON 경로와 올바른 JSON 경로를 작성하는 방법에 대한 자세한 내용은 <a href="https://jsonpath.com/">https://jsonpath.com/</a>을(를) 참조하십시오.</p></td>
