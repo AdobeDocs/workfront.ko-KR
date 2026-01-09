@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,23 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
 
 >[!IMPORTANT]
 >
->시스템의 레코드 유형에 대해 작업 영역 간 기능을 사용할 수 있도록 향상된 Workfront 패키지 요구 사항이 있습니다. 자세한 내용은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+>기록 유형에 대해 교차 작업 영역 기능을 활성화하려면 조직에서 다음 패키지를 구매해야 합니다.
+>
+>* 연결 가능한 레코드 유형을 구성하려면:
+>
+>   * 모든 Workfront 패키지 및 모든 Planning 패키지
+>
+>     또는
+>
+>   * 모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지
+>* <span class="preview">전역 레코드 종류를 구성하려면:</span>
+>  * <span class="preview">모든 Workfront 패키지 및 Planning Plus 패키지</span>
+>     
+>    또는
+>
+>  * <span class="preview">모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</span>
+>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오.
+>자세한 내용은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
 
 다음은 레코드 유형의 작업 영역 간 기능입니다.
@@ -45,7 +61,7 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
 
 일반적인 워크플로우를 사용하여 여러 팀 조직을 위한 Workfront Planning을 구현할 때 각 팀의 작업 영역에 추가하여 작업을 캡처 및 관리할 수 있는 주요 레코드 유형(예: 캠페인 또는 결과물)에 대한 일관된 구조와 메타데이터를 정의해야 할 수 있습니다.
 
-또한 중앙 수준으로 롤업하려면 각 팀의 작업이 필요할 수 있습니다.
+중앙 수준으로 롤업하려면 각 팀의 작업이 필요할 수도 있습니다.
 
 이러한 워크플로우에서는 한 작업 공간에 모든 것을 추가하거나 모든 작업 공간에 조직의 모든 사람을 추가할 필요 없이 팀 간 가시성을 잠금 해제하면서 팀이 작업을 일관되게 캡처하도록 할 수 있습니다. 글로벌 레코드 유형을 사용하여 이를 수행할 수 있습니다.
 

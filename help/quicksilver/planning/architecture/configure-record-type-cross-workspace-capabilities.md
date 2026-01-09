@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1654'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코
 <ul> 
 <li><p>모든 Workfront 패키지 및 모든 Planning 패키지</p></li>
 또는
-<li><p>모든 워크플로우 및 모든 계획</p></li></ul>
+<li>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
 
 <div class="preview">
 <p>글로벌 레코드 유형을 구성하려면 다음을 수행합니다.</p>
