@@ -4,9 +4,9 @@ description: 2026년 1분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
+source-git-commit: a524dd5519f450543e486d83bff6134a15f548d7
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -92,9 +92,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->보고서, 필터, 보기 및 그룹화에서 제외는 필드가 비활성화되면 발생합니다. 필드를 사용하는 기존 보고서 요소는 필드가 비활성으로 표시될 때 변경되거나 제거되지 않습니다.
+>기존 필드를 비활성화로 표시하면 해당 시점부터 보고 요소 및 사용자 정의 양식에서 사용할 수 없습니다. 비활성 필드가 현재 보고서나 양식에 사용되는 경우, 필드와 해당 내역 데이터가 제자리에 유지됩니다.
 
-자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+자세한 내용은 [사용자 지정 필드, 섹션 구분 또는 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)을 참조하세요.
 
 
 

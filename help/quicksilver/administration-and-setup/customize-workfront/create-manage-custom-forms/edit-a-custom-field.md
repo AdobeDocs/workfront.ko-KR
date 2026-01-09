@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
+source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 5%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->보고서, 필터, 보기 및 그룹화에서 제외는 필드가 비활성화되면 발생합니다. 필드를 사용하는 기존 보고서 요소는 필드가 비활성으로 표시될 때 변경되거나 제거되지 않습니다.
+>기존 필드를 비활성화로 표시하면 해당 시점부터 보고 요소 및 사용자 정의 양식에서 사용할 수 없습니다. 비활성 필드가 현재 보고서나 양식에 사용되는 경우, 필드와 해당 내역 데이터가 제자리에 유지됩니다.
 
 사용자 정의 양식에서 사용자 정의 필드를 제거해도 추가된 다른 모든 양식에는 여전히 있으므로 양식이나 필드 영역에서 편집할 수 있습니다. 필드 삭제에 대한 자세한 내용은 [시스템에서 사용자 지정 필드 또는 위젯 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)를 참조하십시오.
 
