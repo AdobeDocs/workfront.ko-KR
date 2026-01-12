@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -138,7 +138,7 @@ And
 
       * 모든 원본 필드
       * 모든 레코드 연결
-   * 해당 작업 영역에 대해 적어도 보기 권한이 있는 경우에만 동일한 글로벌 레코드 유형을 사용하는 다른 작업 영역에서 추가된 레코드를 볼 수 있습니다.
+   * 해당 작업 영역에 대해 적어도 보기 권한이 있는 경우에만 동일한 글로벌 레코드 유형을 사용하는 다른 작업 영역에서 추가된 레코드를 볼 수 있습니다. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
    * 읽기 전용 **Workspace** 필드가 새 레코드 형식 테이블 보기에 추가되었습니다. 필드에는 각 레코드가 생성된 작업 공간이 표시됩니다.
 
      >[!NOTE]

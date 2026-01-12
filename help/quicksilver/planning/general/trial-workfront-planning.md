@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront Planning용 체험판 프로그램 개요
+title: Adobe Workfront Planning 무료 평가판 시작
 description: Adobe Workfront은 현재 Adobe Workfront Planning 60일 무료 평가판을 제공하고 있습니다. 이 체험판을 통해 Planning이 큰 그림 전략을 일상적인 작업과 어떻게 연결하는지 확인할 수 있습니다. Planning은 마케팅 라이프사이클에 대한 중앙 집중식 가시성을 제공하여 팀 간의 공동 작업, 캠페인 실시간 추적 및 자동화된 워크플로우를 가능하게 합니다. 사용자 지정 작업 공간을 만들고 대화형 타임라인 및 캘린더로 작업을 시각화할 수 있습니다. 이 평가판을 통해 Planning을 통해 일일 작업을 전략적 목표에 맞게 조정하고 실행을 간소화하며 조직에 측정 가능한 결과를 도출하는 방법을 직접 확인할 수 있습니다.
 author: Alina
 feature: Workfront Planning
@@ -7,7 +7,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Adobe Workfront은 현재 Adobe Workfront Planning 60일 무료 평가판을 제
 
 >[!NOTE]
 >
->현재 Workfront Planning 고객은 Workfront Planning 체험판을 사용할 수 없습니다. 체험판은 Planning 고객이 아닌 Workfront 고객이 Workfront Planning을 경험하고, 이를 구현하는 일상적인 작업과 어떻게 큰 그림을 그리는 전략을 연결할 수 있는지 확인할 수 있는 기회입니다.
+>현재 Workfront Planning 고객은 Workfront Planning 체험판을 사용할 수 없습니다. 이 체험판은 Planning 고객이 아닌 Workfront <!-- is it Workfront or Adobe, or anyone--> 고객에게 Workfront Planning을 경험하고 이를 실현하는 일상적인 업무와 어떻게 큰 그림을 그리는 전략을 연결할 수 있는지 확인할 수 있는 기회입니다.
 
 
 Planning은 마케팅 라이프사이클에 대한 중앙 집중식 가시성을 제공하여 팀 간의 공동 작업, 캠페인 실시간 추적 및 자동화된 워크플로우를 가능하게 합니다. 사용자 지정 작업 공간을 만들고 대화형 타임라인 및 캘린더로 작업을 시각화할 수 있습니다.

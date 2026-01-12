@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1677'
 ht-degree: 1%
 
 ---
@@ -212,9 +212,10 @@ And
 
    보조 작업 영역의 글로벌 레코드 유형에서 추가된 레코드 유형은 **글로벌 레코드 유형** 아이콘 ![글로벌 레코드 유형 아이콘](assets/global-icon.png)도 표시합니다.
 1. (선택 사항) 글로벌 레코드 유형을 만든 원래 작업 영역으로 돌아가서 <!--ensure this stays accurate--> 위의 1-4단계를 수행하여 레코드 유형을 편집합니다
-1. (선택 사항) **이 레코드 형식이 사용되는 작업 영역 섹션**&#x200B;에서 전역 레코드가 추가된 작업 영역 목록을 검토하십시오. 작업공간 이름 옆에는 작업공간 소유자도 나열됩니다.
+1. (선택 사항) **이 레코드 형식이 사용되는 작업 영역** 섹션에서 전역 레코드가 추가된 작업 영역 목록을 검토합니다. 작업공간 이름 옆에는 작업공간 소유자도 나열됩니다.
 
    ![이 레코드 형식이 사용되는 작업 영역](assets/workspaces-where-this-record-type-is-used.png)
+1. (선택 사항) **이 레코드 형식이 사용되는 작업 영역** 섹션에 나열된 작업 영역 중 하나의 이름을 클릭하여 해당 작업 영역을 엽니다.
 
 </div>
 
