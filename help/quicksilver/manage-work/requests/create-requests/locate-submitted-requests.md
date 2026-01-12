@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 3%
+source-wordcount: '1512'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 3%
 
 ### 새 요청 경험에서 제출된 요청 보기
 
-요청 영역 <span class="preview">에서 전송된 요청을 볼 수 있습니다. 이 영역에는 해당 요청으로 만들어진 개체에 대한 링크가 포함되어 있습니다.</span>
+Planning 요청으로 생성된 개체에 대한 링크를 포함하는 요청 영역 <span class="preview">에서 제출된 요청을 볼 수 있습니다.</span>
 
 사용자 또는 다른 사용자가 새 요청 경험에서 제출한 요청을 보려면 다음 작업을 수행하십시오.
 
@@ -113,11 +113,15 @@ ht-degree: 3%
 1. (선택 사항) 상태 열을 선택하여 요청 상태를 확인합니다. 새 요청 경험에서 사용할 수 있는 상태는 다음과 같습니다.
 
    * 초안: 이 요청은 아직 제출되지 않았습니다.
-   * 검토 보류 중
-   * 검토 중
-   * 거부됨
-   * 진행 중
-   * 완료
+   * 검토 보류 중: (계획만 해당) 이 요청에는 승인자가 있으며 어떤 승인자도 요청을 열지 않았습니다.
+   * 검토 중: (계획만 해당) 이 요청에는 승인자가 있으며 한 명 이상의 승인자가 요청을 열었지만 결정된 사항이 없습니다.
+   * 거부됨: (Planning만 해당) 이 요청에 승인자가 있어 거부되었습니다.
+   * 진행 중:
+      * Workfront 워크플로: 요청이 전환되었으며 작업이 진행 중입니다.
+      * Workfront Planning: 요청 완료는 특정 계획 필드에 매핑되며 필드 값이 아직 완료 값과 일치하지 않습니다.
+
+        자세한 내용은 Adobe Workfront Planning에서 요청 양식 만들기 및 관리 문서에서 [구성 세부 정보 설정](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details)을 참조하십시오.
+   * 완료: 요청이 완료되었습니다.
 
 >[!NOTE]
 >
