@@ -171,7 +171,7 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
    * 편집
 
      모양, 작업 영역 간 기능 또는 원본 작업 영역에서 추가된 필드는 편집할 수 없습니다.
-   * <!-- remove this at Prod on Jan 15--> 공유
+   * &#x200B;<!-- remove this at Prod on Jan 15--> 공유
    * 요청 양식 만들기 및 관리
    * 자동화 제작 및 관리
 
