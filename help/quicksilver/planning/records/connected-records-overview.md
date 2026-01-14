@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # 연결된 레코드 개요
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -44,8 +44,8 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 * 작업 공간 및 레코드 유형에 대한 Workfront 계획 및 보기에 대한 액세스 권한이 있는 모든 사용자는 레코드 간 또는 레코드와 다른 애플리케이션의 개체 간에 수행하는 연결을 볼 수 있습니다. 연결하려는 응용 프로그램의 사용 권한에 관계없이 연결된 레코드와 개체를 볼 수 있습니다.
 * 작업 공간 및 연결된 레코드가 있는 레코드 유형에 대한 관리 권한이 있는 경우 다른 사용자의 연결을 보고 편집할 수 있습니다.
 * 레코드 유형을 연결할 때 선택한 연결 유형에 따라 하나의 레코드를 다른 응용 프로그램에서 하나 또는 여러 개체에 연결할 수 있습니다. 자세한 내용은 문서 [연결된 레코드 형식 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)의 &quot;연결 형식&quot; 섹션을 참조하십시오.
-* <span class="preview">연결된 레코드 형식이 계층의 일부인 경우 레코드 페이지에서 계층 내의 모든 개체 형식에 액세스할 수 있습니다. 자세한 내용은 [계층 구조 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)를 참조하십시오. </span>
-* <span class="preview">* 연결된 레코드 종류가 계층의 일부인 경우 자식 레코드 종류의 레코드 한 개를 부모 레코드 종류의 레코드 최대 10개까지 연결할 수 있습니다. 자세한 내용은 [계층 구조 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)를 참조하십시오. </span>
+* 연결된 레코드 유형이 계층의 일부인 경우 레코드 페이지에서 계층 내의 모든 객체 유형에 액세스할 수 있습니다. 자세한 내용은 [계층 구조 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)를 참조하십시오.
+* 연결된 레코드 유형이 계층의 일부인 경우 하위 레코드 유형에서 하나의 레코드를 상위 레코드 유형에서 최대 10개의 레코드까지 연결할 수 있습니다. 자세한 내용은 [계층 구조 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)를 참조하십시오.
 
 ## 레코드를 연결할 수 있는 영역
 

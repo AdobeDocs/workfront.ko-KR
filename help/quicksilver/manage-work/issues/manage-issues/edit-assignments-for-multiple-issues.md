@@ -6,10 +6,10 @@ description: 목록의 여러 문제에 대한 사용자 할당 수정
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 1%
+source-wordcount: '523'
+ht-degree: 4%
 
 ---
 
@@ -41,7 +41,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
-   <td> <p>표준</p>
+   <td> <p>기여자 이상</p>
    <p>요청 이상</p> </td> 
   </tr> 
   <tr> 

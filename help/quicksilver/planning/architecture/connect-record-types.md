@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '2853'
+source-wordcount: '2877'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 >[!NOTE]
 >
-><span class="preview">하나의 레코드 형식에 대해 최대 30개의 연결 필드를 사용할 수 있습니다.</span>
+>하나의 레코드 유형에 대해 최대 30개의 연결 필드를 가질 수 있습니다.
 
 이 문서에서는 두 개의 Workfront Planning 레코드 유형 또는 Workfront Planning 레코드 유형을 다른 응용 프로그램의 객체와 연결하는 방법에 대해 설명합니다.
 
@@ -89,7 +89,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -204,7 +204,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      >[!TIP]
      >
-     >다른 작업 영역에서 레코드 형식에 액세스할 수 있으려면 **다른 작업 영역에서 이 레코드 형식에 연결 허용** 설정이 **고급 설정** <span class="preview">의 레코드 형식 또는 **레코드 형식 편집**</span> 상자의 **작업 영역 간 설정** 탭에 대해 사용하도록 설정되어 있어야 합니다. 다른 작업공간에서 연결하도록 구성된 레코드 유형이 없는 경우 작업공간 섹션이 표시되지 않습니다.
+     >다른 작업 영역에서 레코드 형식에 액세스할 수 있으려면 **다른 작업 영역에서 이 레코드 형식에 연결 허용** 설정이 **고급 설정** 또는 **레코드 형식 편집** 상자의 **작업 영역 간 설정** 탭에서 레코드 형식에 대해 활성화되어 있어야 합니다. 다른 작업공간에서 연결하도록 구성된 레코드 유형이 없는 경우 작업공간 섹션이 표시되지 않습니다.
      >
      >자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오. <!--update screen shot at production-->
      >
@@ -252,9 +252,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!TIP]
    >
-   >* <span class="preview">하나의 레코드 형식에 대해 30개의 연결 필드 제한</span> 외에 하나의 레코드 형식에 대해 500개의 필드 제한이 있습니다. 특히 분류학적 레코드 유형의 경우 이 제한에 도달하지 않도록 이 설정을 해제하는 것이 좋습니다.
+   >* 하나의 레코드 유형에 대해 30개의 연결 필드로 제한됩니다. 또한 하나의 레코드 유형에 대해 500개의 필드로 제한됩니다. 특히 분류학적 레코드 유형의 경우 이 제한에 도달하지 않도록 이 설정을 해제하는 것이 좋습니다.
    >
-   >* <span class="preview">연결된 레코드 형식에 대해 **해당 필드 만들기**&#x200B;를 선택하는 것은 계층을 만들기 위한 필수 조건입니다.</span>
+   >* **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 선택하는 것은 계층을 만들기 위한 필수 조건입니다.
 
 1. (조건부) **연결된 레코드 종류에 해당 필드 만들기**&#x200B;를 사용하도록 설정한 경우 사용자가 연결할 수 있는 레코드 수를 나타내려면 다음 옵션 중에서 선택하십시오.
 
@@ -279,7 +279,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!NOTE]
    >
-   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
 1. (조건부) Experience Manager Assets, Workfront Planning 레코드 유형 또는 GenStudio Brand에 연결하도록 선택하는 경우 **모양 기록** 영역에서 다음 옵션 중 하나를 선택합니다.
@@ -309,6 +309,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >* Workfront 개체의 날짜 필드 정보는 Workfront에 표시되는 방식에 관계없이 Workfront Planning에서 24시간 형식으로 표시됩니다.
    >
    >   예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3:00(으)로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15:00(으)로 표시됩니다.
+   >* 프로덕션 환경에서는 사람 필드를 조회 필드로 추가할 수 없습니다. <span class="preview">미리 보기 환경에서 사람 필드를 조회 필드로 추가할 수 있습니다.</span>
+   >
 
 1. Click **Create**.
 
@@ -407,7 +409,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
      >[!TIP]
      >
      > 연결된 레코드 필드는 해당 응용 프로그램의 다른 응용 프로그램 객체에 대해서는 생성되지 않습니다.
-     >모든 레코드 유형에 대해 연결된 30개 필드 제한<span class="preview">과 함께 500개 필드 제한 </span>이 있으므로 분류법 레코드 유형에 대한 링크를 만들지 않는 것이 좋습니다.
+     >모든 레코드 유형에 대해 연결된 30개 필드의 제한 외에 500개 필드의 제한이 있으므로 분류 레코드 유형에 대한 링크를 만들지 않는 것이 좋습니다.
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 작업 영역 계층 만들기
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 작업 영역 관리자는 Adobe Workfront Planning의 레코드 유형 간에 여러 작업 영역 계층을 생성할 수 있습니다.
 
@@ -76,7 +76,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 {#step1-to-planning}
 
 1. 작업 영역 카드를 클릭합니다.
-1. 작업 영역 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **설정**&#x200B;을 클릭합니다.
+1. 작업 영역 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **설정**을 클릭합니다.
 기본적으로 **계층** 섹션이 열립니다.
 1. **계층** 페이지의 오른쪽 상단 모서리에서 **새 계층**&#x200B;을 클릭합니다.
 1. **개체 추가**&#x200B;를 클릭하고 드롭다운 메뉴에서 개체 유형을 선택합니다. 이 유형이 계층의 첫 번째 객체 유형이 됩니다. <!--logged bug to correct to "Add object type"-->
@@ -85,7 +85,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    Workfront 프로젝트는 계층 구조에서 다른 오브젝트 유형의 상위로 선택할 수 없습니다.
 
-1. **개체 추가**&#x200B;를 클릭하여 계층 구조의 첫 번째 자식 항목인 두 번째 개체 형식을 추가한 다음 드롭다운 메뉴에서 다른 개체 형식을 선택합니다.
+1. **개체 추가**를 클릭하여 계층 구조의 첫 번째 자식 항목인 두 번째 개체 형식을 추가한 다음 드롭다운 메뉴에서 다른 개체 형식을 선택합니다.
 각 추가 객체 유형은 이전 객체 유형의 하위가 됩니다.
 
    ![필드를 선택하지 않은 새 계층 상자](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)

@@ -1,13 +1,13 @@
 ---
 title: 계층 구조 및 이동 경로 개요
-description: 레코드 유형을 연결한 후 작업 공간의 레코드 유형 간에 여러 작업 공간 계층을 만들 수 있습니다.
+description: 작업 영역 관리자는 연결된 레코드 유형과 Adobe Workfront Planning의 다른 객체 유형 간에 유연하지만 구조화된 계층을 정의할 수 있습니다. 계층은 레코드 유형 간 또는 레코드 유형과 Workfront 프로젝트 간의 연결입니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 계층 구조 및 이동 경로 개요
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 작업 영역 관리자는 연결된 레코드 유형과 Adobe Workfront Planning의 다른 객체 유형 간에 유연하지만 구조화된 계층을 정의할 수 있습니다.
 
