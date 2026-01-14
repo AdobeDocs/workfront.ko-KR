@@ -7,18 +7,19 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 0a6e94c285cc5aaea97d840d644dc9b3ceea305e
+source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 4%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
 # Workfront AI 검토자 시작
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >이 기능은 현재 베타 버전입니다.
+
 
 Workfront AI 검토자를 사용하면 검토 및 승인 작업 과정에서 콘텐츠 속도를 높이고 브랜드 준수를 최적화할 수 있습니다. Workfront의 승인 템플릿 또는 개별 검토 및 승인 요청에 AI 검토자를 추가할 수 있습니다.
 
@@ -28,12 +29,11 @@ Workfront에서 AI 검토자를 설정하려면 시스템 관리자여야 합니
 
 모든 사용자는 검토 및 승인 요청에 AI 검토자를 추가할 수 있습니다.
 
-
 ## 전제 조건
 
 * 조직이 Adobe IMS(Identity Management System)로 마이그레이션되었어야 합니다.
 * Workfront 인스턴스에는 통합 승인이 활성화되어 있어야 합니다.
-* 조직에 GenStudio Foundation이 있어야 합니다.
+  <!--* Your organization must have GenStudio Foundation.-->
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 계약 서명에 대한 자세한 내용은 [Adobe Gen AI 계약 서명](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)을 참조하십시오.
 
@@ -60,12 +60,14 @@ AI 검토자는 다음 파일 유형을 검토할 수 있습니다.
 
 ## 브랜드 지침 설정
 
-Workfront AI 검토자는 콘텐츠를 검토할 때 Genstudio Foundation에 설정된 브랜드 지침을 사용합니다. 현재는 이미지에 대한 브랜드 가이드라인만 설정할 수 있습니다. 자세한 내용은 [Adobe GenStudio for Performance Marketing 시작](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started)을 참조하세요.
+Workfront AI 검토자는 콘텐츠를 검토할 때 브랜드 지침을 사용합니다. Workfront 관리자는 Workfront 설정 영역에서 브랜드 지침을 설정할 수 있습니다. &lt;!—GenStudio Foundation에서 만든 브랜드는 Workfront에서도 사용할 수 있습니다.
+
+자세한 내용은 [AI 검토자를 위한 브랜드 설정](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)을 참조하십시오.
 
 
 ## AI 검토자 만들기
 
-GenStudio Foundation에 하나 이상의 브랜드가 설정되면 Workfront 관리자는 설정 영역에서 AI 검토자 생성을 시작할 수 있습니다. 그런 다음 해당 AI 검토자를 승인 템플릿과 개별 검토 및 승인 요청에 할당할 수 있습니다. 현재 AI 검토자는 이미지 브랜드 지침에 대해서만 검토할 수 있습니다.
+하나 이상의 브랜드가 설정되면 Workfront 관리자는 설정 영역에서 AI 검토자 생성을 시작할 수 있습니다. 그런 다음 해당 AI 검토자를 승인 템플릿과 개별 검토 및 승인 요청에 할당할 수 있습니다. 현재 AI 검토자는 이미지 브랜드 지침에 대해서만 검토할 수 있습니다.
 
 자세한 내용은 [AI 검토자 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)를 참조하십시오.
 
@@ -110,6 +112,6 @@ AI 검토자는 검토 및 승인 워크플로에서 의사 결정자가 되도�
 ![AI 검토자 피드백](assets/ai-reviewer-feedback.png)
 
 
-## 비디오 워크스루
+<!--## Video Walkthrough
 
->[!VIDEO](https://video.tv.adobe.com/v/3470847/)
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)-->
