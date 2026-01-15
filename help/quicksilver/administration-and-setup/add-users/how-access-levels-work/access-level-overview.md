@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1749'
 ht-degree: 6%
 
 ---
@@ -117,7 +117,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 * 작업과 연결된 모든 항목 및 업데이트 보기
 * 프로젝트, 작업 및 문제 승인
 * 대시보드 및 보고서 보기
-* 작업 및 문제의 시간 추적 및 타임시트 승인
+* 프로젝트, 작업 및 문제의 시간 추적 및 타임시트 승인
 * 문제 만들기 및 관리
 
 액세스 수준이 낮은 사용자:
@@ -125,6 +125,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 * 작업 항목을 할당할 수 있지만 완료할 수 없습니다.
 * 메인 메뉴에서 요청 및 문서에 액세스할 수 있습니다.
 * 객체 생성 기능이 제한되어 있어 프로젝트, 포트폴리오, 프로그램 또는 보고서를 생성할 수 없습니다.
+* 편집 액세스 권한이 활성화된 경우에만 프로젝트 수준에서 시간을 기록할 수 있습니다. 프로젝트를 생성, 편집, 삭제 또는 공유할 수 없습니다.
 
 >[!NOTE]
 >
@@ -151,8 +152,8 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
   <tr> 
    <td>프로젝트</td> 
    <td> </td> 
-   <td>✓</td> 
    <td> </td> 
+   <td>✓(프로젝트 수준에서 로깅 시간)</td> 
   </tr> 
   <tr> 
    <td>작업</td> 

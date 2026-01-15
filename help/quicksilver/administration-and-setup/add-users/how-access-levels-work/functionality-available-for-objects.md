@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
+source-git-commit: eec482dceb9a35225cb28cccc13811a91536cc83
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 14%
@@ -32,7 +32,7 @@ ht-degree: 14%
 >[!NOTE]
 >
 >* 이 문서에서는 새 Workfront 패키지 모델의 액세스 수준에 사용할 수 있는 기능에 대해 설명합니다. 현재 패키지 모델에서 사용할 수 있는 기능을 보려면 [다양한 액세스 수준에 대해 각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)을 참조하십시오.
->* 최신 모델의 다양한 패키지에서 사용할 수 있는 기능 목록을 보려면 [Adobe Workfront 가격 및 패키징](https://business.adobe.com/kr/products/workfront/pricing.html)을 참조하십시오.
+>* 최신 모델의 다양한 패키지에서 사용할 수 있는 기능 목록을 보려면 [Adobe Workfront 가격 및 패키징](https://business.adobe.com/products/workfront/pricing.html)을 참조하십시오.
 
 ## 프로젝트
 
@@ -53,7 +53,7 @@ ht-degree: 14%
 | 작업 추가 | ✓ |   |   |   |
 | 업데이트/주석 제공 | ✓ | ✓ | ✓ |   |
 | 상태 변경 | ✓ |   |   |   |
-| 로그 시간 | ✓ | <span class="preview">✓</span> |   |   |
+| 로그 시간 | ✓ | ✓ |   |   |
 | 할당 편집 | ✓ |   |   |   |
 | 기준선 관리 | ✓ |   |   |   |
 | 위험 관리 | ✓ |   |   |   |
