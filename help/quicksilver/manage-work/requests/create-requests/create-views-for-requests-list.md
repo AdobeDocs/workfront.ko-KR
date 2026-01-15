@@ -5,9 +5,9 @@ title: 요청 영역에서 보기 만들기 및 관리
 description: 새 요청 경험을 사용하는 경우 요청 영역에 대한 보기를 만들고 저장할 수 있습니다.
 author: Becky
 feature: Work Management
-source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '693'
 ht-degree: 3%
 
 ---
@@ -93,15 +93,7 @@ Workfront의 요청 영역에서 보기를 만들 수 있습니다.
    >현재 프로덕션 환경에 열을 추가할 수 없습니다.
 1. (선택 사항) **열**&#x200B;을 클릭하고 요청 목록에서 열을 숨기거나 표시하거나 다시 정렬합니다.
 
-   ![열 상자](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >현재 프로덕션 환경에 열을 더 이상 추가할 수 없습니다.
-
-1. (선택 사항) **필터**&#x200B;를 클릭하고 Planning 탭에서 보려는 요청에 대한 조건을 추가하기 시작합니다.
-
-   ![계획 요청 탭에서 필터 편집](assets/filters-editing-box-in-requests-planning-tab.png)
+1. (선택 사항) **필터**&#x200B;를 클릭하고 보려는 요청에 대한 조건을 추가하기 시작합니다.
 
    다음 필드를 기준으로 필터링할 수 있습니다.
 

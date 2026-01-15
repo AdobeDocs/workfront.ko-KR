@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1440'
 ht-degree: 2%
 
 ---
@@ -19,21 +19,14 @@ ht-degree: 2%
 
 귀하 또는 다른 사람이 제출한 요청 또는 시작했지만 제출하지 않은 요청을 볼 수 있습니다. Adobe Workfront의 다음 영역에서 이러한 요청을 찾을 수 있습니다.
 
-* Workfront에 있는 요청 영역의 **Workfront** 탭: 다음 섹션에서 Workfront 요청 대기열에 제출된 요청을 봅니다.
-   * **제출된 섹션**: 귀하 또는 다른 사람이 제출한 모든 요청이며 귀하는 최소한 보기에 액세스할 수 있습니다.
-   * **초안 섹션** : 시작했지만 완료하지 않았고 제출한 적이 없는 모든 요청. 초안 요청에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
+* Workfront의 요청 영역
+* 홈의 내 요청 위젯
 
   >[!NOTE]
   >
   >* 자신의 초안 요청만 볼 수 있습니다.
   >* 새 요청 경험에서 제출된 요청과 초안이 동일한 목록에 있습니다.
   >* 기존 경험에서 만든 초안은 새 요청 경험에 표시되지 않습니다.
-
-* Workfront에 있는 요청 영역의 **계획** 탭: Workfront Planning 요청 양식에 제출된 요청을 봅니다. 조직은 Workfront Planning 패키지를 구매해야 합니다. 자세한 내용은 다음 문서를 참조하십시오.
-
-   * [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)
-   * [Adobe Workfront Planning 요청을 제출하여 레코드 생성](/help/quicksilver/planning/requests/submit-requests.md)
-
 
 ## 액세스 요구 사항
 
