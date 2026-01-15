@@ -4,9 +4,9 @@ description: 이 페이지에서는 2026년 2분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '708'
 ht-degree: 4%
 
 ---
@@ -37,10 +37,49 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront 개선 사항
 
-
+* [관리자 개선 사항](#administrator-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
+### 관리자 개선 사항
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>기능</strong>
+        </td>
+        <td><strong>미리보기</strong></td>
+        <td><strong>빠른 릴리스</strong></td>
+        <td><strong>분기별</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront 이메일 알림에 대한 새 IP 주소</a><p></p>
+            <p>Workfront에서 이메일 알림을 보내는 데 사용되는 IP 주소를 업데이트하는 중입니다. 허용 목록에 추가하다 조직에서 전자 메일 또는 방화벽 IP를 유지 관리하는 경우<b>아래의 새 IP 주소를 추가하여 Workfront 알림을 계속 전달해야 합니다</b>.</p><p>이러한 업데이트는 승인, 미리 알림, 증명 알림 및 기타 시스템 메시지를 포함하여 Workfront 애플리케이션에서 생성된 모든 아웃바운드 이메일에 적용됩니다.</p>
+            <ul>
+            <li>미국:
+            <ul>
+            <li>206.55.149.212</li>
+            <li>206.55.149.214</li>
+            <li>206.55.149.215</li>
+            <li>206.55.149.213</li>
+            <li>206.55.149.211</li>
+            </ul>
+            </li>
+            <li>EU: 
+            <ul>
+            <li>24.110.76.224</li>
+            <li>24.110.76.223</li>
+            </ul>
+            </li>
+            </ul> </p>
+        </td>
+        <td><p>2026년 1월 15일 금요일</p></td>
+        <td><p>2026년 1월 15일 금요일</p></td>
+        <td><p>2026년 1월 15일 금요일</p></td>
+    <tr>
+            </tbody>
+        </table>
 
 ### 기타 개선 사항
 
@@ -130,13 +169,13 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 
 ### Workfront 유지 관리 업데이트
 
-2025년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
