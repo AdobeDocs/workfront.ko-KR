@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 4%
@@ -17,13 +17,11 @@ ht-degree: 4%
 
 # 사용자 정의 필드, 섹션 구분 또는 위젯 추가 또는 편집
 
-{{preview-fast-release-general}}
-
 사용자 정의 양식을 열어 필드를 만들지 않고도 Workfront의 필드 영역에서 직접 새 사용자 정의 필드 또는 위젯을 추가할 수 있습니다.
 
 사용자 정의 양식에 사용되는 사용자 정의 필드, 섹션 구분 또는 위젯의 속성을 편집할 수도 있습니다. 여기에는 항목의 레이블, 이름, 지침 등이 포함됩니다.
 
-<span class="preview">사용자 지정 필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 지정 양식 필드 라이브러리에서 필드를 더 이상 사용할 수 없습니다. 모든 새 필드는 기본적으로 활성으로 설정됩니다. </span>
+사용자 정의 필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 필드를 더 이상 사용할 수 없습니다. 모든 새 필드는 기본적으로 활성으로 설정됩니다.
 
 >[!NOTE]
 >

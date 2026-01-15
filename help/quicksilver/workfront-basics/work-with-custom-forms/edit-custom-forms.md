@@ -7,16 +7,14 @@ description: 양식을 오브젝트에 첨부한 후 사용자 정의 양식에 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # 사용자 정의 양식 필드의 정보 편집
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,7 +120,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   ><span class="preview">여러 항목을 선택할 수 있는 필드에서는 선택할 수 있는 옵션 수를 제한할 수 있습니다. 확인란 및 다중 선택 드롭다운은 5000개의 선택 항목으로 제한됩니다.</span>
+   >여러 항목을 선택할 수 있는 필드에는 선택할 수 있는 옵션 수가 제한될 수 있습니다. 확인란 및 다중 선택 드롭다운은 5000개 선택으로 제한됩니다.
 
    모든 필드 형식에 대한 자세한 내용은 [사용자 지정 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 

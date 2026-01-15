@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # 양식에 계산된 필드 추가
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -95,10 +93,6 @@ ht-degree: 1%
 
 1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭한 다음 **Forms**&#x200B;을 클릭합니다.
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. **새 사용자 정의 양식**&#x200B;을 클릭합니다.
 
 1. **새 사용자 정의 양식** 대화 상자에서 사용자 정의 양식을 첨부할 개체 유형을 선택한 다음 **계속**&#x200B;을 클릭합니다.
@@ -108,9 +102,9 @@ ht-degree: 1%
 
 1. 검색 상자를 사용하거나 **계산됨** 섹션을 확장하여 필요한 계산된 필드를 찾은 다음 사용자 정의 양식에서 표시할 필드를 드래그합니다.
 
-1. <span class="preview">(조건부) **충돌 확인**&#x200B;을 클릭하여 이 계산된 필드에서 수식을 변경하면 영향을 받을 수 있는 모든 개체를 검토합니다.</span>
+1. (조건부) **충돌 확인**&#x200B;을 클릭하여 이 계산된 필드에서 수식을 변경하면 영향을 받을 수 있는 모든 개체를 검토합니다.
 
-   <span class="preview">계산 필드가 같은 두 개 이상의 양식이 개체에 연결되어 있으면 모든 양식에서 수식이 동일해야 합니다. 변경 내용으로 인해 충돌이 발생할 수 있는 경우 수식을 편집할 수 없습니다.</span>
+   동일한 계산된 필드를 포함하는 두 개 이상의 양식이 오브젝트에 첨부된 경우 수식은 모든 양식에서 동일해야 합니다. 변경 사항으로 인해 충돌이 발생할 수 있는 경우 공식을 편집할 수 없습니다.
 
 1. (선택 사항) 이전 단계를 반복하여 다른 필드를 추가합니다.
 
@@ -138,10 +132,6 @@ ht-degree: 1%
 1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭한 다음 **Forms**&#x200B;을 클릭합니다.
 
 1. **새 사용자 정의 양식**&#x200B;을 클릭합니다.
-
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
 1. **새 사용자 정의 양식** 대화 상자에서 사용자 정의 양식을 첨부할 개체 유형을 선택한 다음 **계속**&#x200B;을 클릭합니다.
 
@@ -176,8 +166,8 @@ ht-degree: 1%
       <p><strong>참고</strong>: <strong>통화</strong> 형식의 계산 필드에는 따옴표를 사용할 수 없습니다. (예를 들어, "800.00"이 아닌 800.00을 사용합니다.) 따옴표를 사용하면 통화 유형의 언어 서식과 관련된 뉘앙스로 인해 예기치 않은 결과가 발생할 수 있습니다.</p></td>
      </tr> 
      <tr>
-      <td><span class="preview">활성</span></td>
-      <td><span class="preview"><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></span></td>
+      <td>활성</td>
+      <td><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -288,7 +278,7 @@ ht-degree: 1%
            >
            ><div>오브젝트에 첨부된 사용자 정의 양식에서 계산된 사용자 정의 필드의 날짜 및 시간 문은 조직의 인스턴스 및 사용자 프로필에 대해 설정된 시간대 구성이 아니라 UTC(협정 세계시)에 의해 계산되고 저장됩니다. 사용자 정의 양식의 계산은 각 사용자의 개별 시간대를 기반으로 하여 생성됩니다.</div>
 
-      +++
+        +++
 
    1. 큰 텍스트 상자를 클릭한 다음 계산에 추가할 수 있는 **식** 및 **필드**&#x200B;를 클릭합니다.
 
