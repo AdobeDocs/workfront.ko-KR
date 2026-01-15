@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 0%
+source-wordcount: '429'
+ht-degree: 4%
 
 ---
 
 # 레이아웃 템플릿에 대한 관리 액세스 권한 부여
-
-{{preview-fast-release-general}}
 
 Adobe Workfront 관리자는 특정 그룹의 그룹 관리자가 템플릿을 편집할 수 있도록 레이아웃 템플릿에 대한 관리 액세스 권한을 부여할 수 있습니다. 이렇게 해도 그룹의 사용자에게는 템플릿이 할당되지 않습니다.
 
@@ -29,7 +27,7 @@ Adobe Workfront 관리자는 특정 그룹의 그룹 관리자가 템플릿을 �
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,4 +69,8 @@ Adobe Workfront 관리자는 특정 그룹의 그룹 관리자가 템플릿을 �
    >   
    >* 특정 그룹의 그룹 관리자에 대한 관리 액세스 권한을 부여하지 않는 경우 사용자 계정을 편집할 수 있는 모든 사용자는 레이아웃 템플릿에 대한 관리 액세스 권한을 갖게 됩니다. 일부 Workfront 관리자는 의도적으로 레이아웃 템플릿을 시스템 수준 레이아웃 템플릿으로 만들기 위해 해당 템플릿에 대한 관리 액세스 권한을 부여하지 않습니다.
 
-1. 언제든지 <span class="preview">**적용**</span> 또는 **저장**&#x200B;을 클릭하여 진행 상황을 저장한 다음 나중에 템플릿을 계속 수정할 수 있습니다.
+1. 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.
+
+   또는
+
+   사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.

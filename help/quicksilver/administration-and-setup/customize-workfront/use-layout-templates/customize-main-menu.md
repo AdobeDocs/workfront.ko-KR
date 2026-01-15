@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
+source-git-commit: 0f96a4d941eb4595ac60302b579cff31461272a7
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '659'
 ht-degree: 6%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의
-
-{{preview-fast-release-general}}
 
 <!--Audited: 01/2024-->
 
@@ -78,8 +76,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
      >
      >홈 영역 외에 기본 메뉴의 내 업데이트 영역을 포함하는 프로필과 연결된 레이아웃 템플릿이 없는 경우 기본적으로 기본 메뉴의 홈 아이콘에는 검토 라이선스 사용자(현재 라이선스 계획)의 내 업데이트 영역이 표시됩니다.
 
-
-   * <span class="preview">우선 순위</span>
+   * 우선순위
    * 포트폴리오
    * 프로그램
    * 프로젝트
@@ -135,20 +132,10 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
    변경 내용을 취소하려면 언제든지 **취소**&#x200B;를 클릭할 수도 있습니다.
 
-1. <span class="preview">미리 보기 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.</span>
-
-   <span class="preview">또는</span>
-
-   <span class="preview">사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.</span>
-
-1. 프로덕션 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다.
+1. 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.
 
    또는
 
-   사용자 지정을 마쳤으면 **저장**&#x200B;을 클릭합니다.
-
-   >[!TIP]
-   >
-   >언제든지 **저장**&#x200B;을 클릭하여 진행 상황을 저장한 다음 나중에 템플릿을 계속 수정할 수 있습니다.
+   사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.
 
 레이아웃 템플릿에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.

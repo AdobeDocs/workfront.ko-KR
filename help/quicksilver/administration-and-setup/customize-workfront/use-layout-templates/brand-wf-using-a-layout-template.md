@@ -8,18 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 0%
+source-wordcount: '525'
+ht-degree: 3%
 
 ---
 
 # 레이아웃 템플릿을 사용한 Adobe Workfront 브랜드
 
 <!--Audited: 09/2024-->
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -39,7 +37,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -88,20 +86,10 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. <span class="preview">미리 보기 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.</span>
-
-   <span class="preview">또는</span>
-
-   <span class="preview">사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.</span>
-
-1. 프로덕션 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다.
+1. 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.
 
    또는
 
-   사용자 지정을 마쳤으면 **저장**&#x200B;을 클릭합니다.
-
-   >[!TIP]
-   >
-   >언제든지 **저장**&#x200B;을 클릭하여 진행 상황을 저장한 다음 나중에 템플릿을 계속 수정할 수 있습니다.
+   사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.
 
 레이아웃 템플릿에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.

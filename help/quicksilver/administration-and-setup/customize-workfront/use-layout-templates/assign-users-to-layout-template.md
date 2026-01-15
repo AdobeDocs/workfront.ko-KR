@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 2%
 
 ---
 
 # 레이아웃 템플릿에 사용자 할당
-
-{{preview-fast-release-general}}
 
 만든 레이아웃 템플릿을 사용해야 하는 사용자, 작업 역할, 팀 또는 그룹에 할당할 수 있습니다.
 
@@ -33,7 +31,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +78,7 @@ ht-degree: 0%
 
    한 번에 최대 100명의 사용자를 할당할 수 있습니다.
 
-1. **완료**&#x200B;를 클릭한 다음 왼쪽 하단의 **저장** 또는 <span class="preview">**저장 후 닫기**</span>&#x200B;를 클릭합니다.
+1. **완료**&#x200B;를 클릭한 다음 왼쪽 하단의 **저장 및 닫기**&#x200B;를 클릭합니다.
 
    이 단계에서는 레이아웃 템플릿을 만들고 할당하는 프로세스를 완료합니다.
 

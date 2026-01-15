@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '532'
 ht-degree: 3%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정
-
-{{preview-fast-release-general}}
 
 Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 사용자가 오브젝트의 페이지를 열 때 오브젝트 헤더에 표시되는 필드를 구성할 수 있습니다.
 
@@ -97,18 +95,9 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
 1. (선택 사항) 필드를 다른 순서로 끌어다 놓습니다.
 
-1. <span class="preview">미리 보기 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.</span>
-
-   <span class="preview">또는</span>
-
-   <span class="preview">사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.</span>
-
-1. 프로덕션 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다.
+1. 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.
 
    또는
 
-   사용자 지정을 마쳤으면 **저장**&#x200B;을 클릭합니다.
+   사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.
 
-   >[!TIP]
-   >
-   >언제든지 **저장**&#x200B;을 클릭하여 진행 상황을 저장한 다음 나중에 템플릿을 계속 수정할 수 있습니다.

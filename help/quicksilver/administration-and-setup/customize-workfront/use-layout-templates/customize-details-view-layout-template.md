@@ -8,22 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 3%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정
 
-{{preview-fast-release-general}}
-
 Adobe Workfront 관리자는 작업, 문제, 문서, 프로그램 또는 포트폴리오를 보는 동안 사용자가 왼쪽 패널의 세부 정보 아이콘 ![세부 정보 아이콘](assets/project-details-icon.png)을 클릭할 때 표시되는 정보를 결정할 때 레이아웃 템플릿을 사용할 수 있습니다.
-
-<!--
-or billing record
--->
 
 이 정보가 표시되는 정보의 순서를 변경할 수도 있습니다. 예를 들어, 사용자가 보는 모든 작업에 대해 사용자 정의 Forms 정보를 사용자가 보는 모든 작업에 대한 세부 정보 보기의 맨 위로 이동할 수 있습니다.
 
@@ -67,7 +61,7 @@ or billing record
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,24 +102,11 @@ or billing record
 
      모든 필드는 기본적으로 활성화되어 있습니다. 영역의 **모두 선택** 확인란을 선택하거나 선택 취소하여 해당 영역의 모든 필드를 표시하거나 숨길 수 있습니다.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
-   ![레이아웃 템플릿의 세부 정보 보기](assets/layout-template-details-view-updated-save-buttons.png)
+     ![레이아웃 템플릿의 세부 정보 보기](assets/layout-template-details-view-updated-save-buttons.png)
 
-   프로덕션 환경의 샘플 이미지:
-   ![레이아웃 템플릿의 세부 정보 보기](assets/layout-template-details-view.png)
-
-1. <span class="preview">미리 보기 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.</span>
-
-   <span class="preview">또는</span>
-
-   <span class="preview">사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.</span>
-
-1. 프로덕션 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다.
+1. 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.
 
    또는
 
-   사용자 지정을 마쳤으면 **저장**&#x200B;을 클릭합니다.
+   사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.
 
-   >[!TIP]
-   >
-   >언제든지 **저장**&#x200B;을 클릭하여 진행 상황을 저장한 다음 나중에 템플릿을 계속 수정할 수 있습니다.

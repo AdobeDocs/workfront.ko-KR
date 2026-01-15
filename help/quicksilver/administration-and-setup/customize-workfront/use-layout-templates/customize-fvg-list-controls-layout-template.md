@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 0%
+source-wordcount: '763'
+ht-degree: 2%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 맞춤화
-
-{{preview-fast-release-general}}
 
 Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 드롭다운 메뉴에 나타나는 목록 컨트롤을 지정할 수 있습니다. 이러한 메뉴는 프로젝트의 작업 목록과 같은 Workfront 전체의 목록 위에 표시됩니다.
 
@@ -31,7 +29,7 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 필터, 보�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,18 +116,8 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 필터, 보�
     </tbody> 
    </table>
 
-1. <span class="preview">미리 보기 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.</span>
-
-   <span class="preview">또는</span>
-
-   <span class="preview">사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.</span>
-
-1. 프로덕션 환경에서: 레이아웃 템플릿을 계속 사용자 지정합니다.
+1. 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.
 
    또는
 
-   사용자 지정을 마쳤으면 **저장**&#x200B;을 클릭합니다.
-
-   >[!TIP]
-   >
-   >언제든지 **저장**&#x200B;을 클릭하여 진행 상황을 저장한 다음 나중에 템플릿을 계속 수정할 수 있습니다.
+   사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.
