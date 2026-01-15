@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >이 페이지에 설명된 절차는 Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
 >
->조직이 Adobe Admin Console에 온보딩된 경우 Adobe을 구성하려면 [허용 목록에 추가하다 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/kr/enterprise/kb/network-endpoints.html)을 참조하십시오.
+>조직이 Adobe Admin Console에 온보딩된 경우 Adobe을 구성하려면 [허용 목록에 추가하다 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)을 참조하십시오.
 >
 >조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
@@ -77,8 +77,8 @@ ht-degree: 0%
 >* Outlook용 Workfront
 
 * [클러스터 1, 2, 3, 5, 7, 8 및 9를 허용하는 IP 주소](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* 클러스터 4[에 대해 허용할 &#x200B;](#ip-addresses-to-allow-for-cluster-4)IP 주소
-* 클러스터 6[을(를) 허용할 &#x200B;](#ip-addresses-to-allow-for-cluster-6)IP 주소
+* 클러스터 4[에 대해 허용할 ](#ip-addresses-to-allow-for-cluster-4)IP 주소
+* 클러스터 6[을(를) 허용할 ](#ip-addresses-to-allow-for-cluster-6)IP 주소
 * [클러스터 10을 허용할 IP 주소](#ip-addresses-to-allow-for-cluster-10)
 * 테스트 드라이브를 허용할 [IP 주소](#IP%20Addre2)
 * [이벤트 구독을 구현할 때 허용할 IP 주소](#ip-addresses-to-allow-when-implementing-event-subscriptions)
@@ -124,13 +124,16 @@ ht-degree: 0%
      <li>35.161.82.137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
-     <li>54.71.252.65</li> 
-    </ul> <p>다음 IP 주소에 대한 자세한 내용은 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">21.1 릴리스와 함께 Adobe Workfront 전자 메일에 대한 새 IP 주소</a>를 참조하세요.</p> 
-    <ul> 
+     <li>54.71.252.65</li>
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
      <li>23.251.237.109</li> 
      <li>23.251.237.106</li> 
+     <li>206.55.149.212</li>
+     <li>206.55.149.214</li>
+     <li>206.55.149.215</li>
+     <li>206.55.149.213</li>
+     <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -161,11 +164,10 @@ ht-degree: 0%
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-
-다음 IP 주소에 대한 자세한 내용은 [21.1 릴리스와 함께 Adobe Workfront 전자 메일에 대한 새 IP 주소](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)를 참조하세요.
-
 * 23.251.239.98
 * 23.251.239.99
+* 24.110.76.224
+* 24.110.76.223
 
 ### 클러스터 6을 허용할 IP 주소 {#ip-addresses-to-allow-for-cluster-6}
 
@@ -187,6 +189,11 @@ ht-degree: 0%
      <li>34.66.82.65</li> 
      <li>34.66.82.66</li> 
      <li>34.66.82.67</li> 
+    <li>206.55.149.212</li>
+   <li>206.55.149.214</li>
+   <li>206.55.149.215</li>
+   <li>206.55.149.213</li>
+   <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
   <tr> 
@@ -220,6 +227,13 @@ ht-degree: 0%
 * 20.36.133.48/28
 * 20.81.156.240/28
 * 172.172.84.48/28
+
+### 클러스터 11에서 허용할 IP 주소
+
+클러스터 11의 Workfront 응용 프로그램에서 이메일을 받으려면 다음 IP 주소를 추가하십시오.
+
+* 24.110.76.224
+* 24.110.76.223
 
 ### 테스트 드라이브를 허용할 IP 주소
 
