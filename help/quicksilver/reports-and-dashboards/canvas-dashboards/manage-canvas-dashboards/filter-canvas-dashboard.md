@@ -6,16 +6,14 @@ description: 필터가 생성되면 캔버스 대시보드에 필터를 적용�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 1%
+source-wordcount: '989'
+ht-degree: 2%
 
 ---
 
 # 캔버스 대시보드 필터링
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 >[!IMPORTANT]
 >
@@ -180,7 +178,6 @@ ht-degree: 1%
 
 1. 패널을 숨기려면 오른쪽 상단의 **닫기** 아이콘 ![닫기 아이콘](assets/close-icon.png)을 클릭합니다.
 
-<span class="preview">
 
 ## 통화 유형별로 대시보드 필터링
 
@@ -196,5 +193,3 @@ ht-degree: 1%
 1. 목록에서 원하는 통화 유형을 선택합니다.
 
    ![통화 드롭다운 변경](assets/filter-by-currency.png)
-
-</span>

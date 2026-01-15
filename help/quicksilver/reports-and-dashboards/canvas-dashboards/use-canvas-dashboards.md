@@ -6,7 +6,7 @@ description: 캔버스 대시보드 사용
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: f49197b1d49437cd3b1b981d093ae2a357d13072
+source-git-commit: 41e283ceccd0a95daae005d998a2ed8050a1ab0b
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 1%
@@ -72,7 +72,14 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
    >
    >이러한 변경 사항은 현재 세션에만 적용되며 원래 보고서 구성에는 영향을 주지 않습니다. 이러한 변경 사항을 영구적으로 적용하려면 보고서를 편집해야 합니다.
 
-<!--### Use drilldowns
+
+<!--
+
+### Quick Search 
+
+### Filter
+### Use drilldowns
+
 
 You can use drilldowns in Canvas Dashboards to sort and group data within reports.
 

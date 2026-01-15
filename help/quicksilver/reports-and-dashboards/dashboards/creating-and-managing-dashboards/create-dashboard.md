@@ -6,19 +6,16 @@ description: 대시보드를 만들어 Adobe Workfront의 정보에 빠르게 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 4%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
 # 대시보드 만들기
 
 <!--Audited: 01/2025-->
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경에서만 사용할 수 있습니다.</span>
-
 
 대시보드를 만들어 Adobe Workfront의 정보에 빠르게 액세스할 수 있습니다. 최적의 공동 작업을 위해 다른 사용자와 공유할 수 있는 대시보드에 최대 25개의 보고서, 캘린더 및 외부 페이지를 추가할 수 있습니다.
 
@@ -88,11 +85,6 @@ ht-degree: 4%
      <tr>
       <td role="rowheader"><strong>설명 (선택 사항)</strong></td>
       <td>대시보드에 대한 설명입니다.</td>
-     </tr>
-      <tr>
-      <td role="rowheader"><strong>통화</strong></td>
-      <td><span class="preview">대시보드의 기본 통화 유형입니다. <br>
-      <br>대시보드를 필터링할 때 사용자가 다른 통화 유형을 전환할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">통화 유형별로 대시보드 필터링</a>을 참조하십시오.</span></td>
      </tr>
     </tbody>
    </table>

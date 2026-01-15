@@ -6,10 +6,10 @@ description: Canvas Dashboards를 사용하면 사용자 정의 가능한 대시
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 1%
+source-wordcount: '480'
+ht-degree: 5%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->&#x200B;>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
->&#x200B;>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
+>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
 >* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
@@ -29,7 +29,7 @@ Canvas Dashboards를 사용하면 사용자 정의 가능한 대시보드에 보
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -76,7 +76,29 @@ Canvas Dashboards를 사용하면 사용자 정의 가능한 대시보드에 보
 
 1. 오른쪽 상단 모서리에서 **새 대시보드**&#x200B;를 클릭합니다.
 
-1. **대시보드 만들기** 상자에 대시보드의 **이름** 및 **설명**&#x200B;을 입력하십시오.
+1. **대시보드 만들기** 상자에서
+
+1. 다음을 지정합니다.
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><strong>이름</strong></td>
+      <td><p>대시보드 이름을 입력합니다. 호환성 문제를 방지하려면 UTF-8 문자만 사용하는 것이 좋습니다.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>설명 (선택 사항)</strong></td>
+      <td>대시보드에 대한 설명을 입력합니다.</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>통화</strong></td>
+      <td>대시보드에 대한 기본 통화 유형을 선택합니다. <br>
+      <br>대시보드를 필터링할 때 사용자가 다른 통화 유형을 전환할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">통화 유형별로 대시보드 필터링</a>을 참조하십시오.</td>
+     </tr>
+    </tbody>
+   </table>
 
 1. Click **Create**. **보고서 상자 추가**&#x200B;가 열립니다. 여기에서 새 보고서를 만들거나 기존 보고서를 대시보드에 추가할 수 있습니다.
 
