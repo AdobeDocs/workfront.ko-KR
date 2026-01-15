@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
+source-git-commit: bbb0399787938033886807d0372e9958ce2fcc00
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '2003'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,40 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+
+## 글로벌 레코드 유형은 보조 작업 영역에서 공유할 수 있습니다
+
+>[!NOTE]
+>
+>미리 보기: 2026년 1월 15일
+>프로덕션 빠른 릴리스: 2026년 1월 15일
+>모두를 위한 프로덕션: 2026년 1월 15일
+>[!BADGE 일정 해제]{type=Neutral}
+
+이제 해당 작업 영역에서 보조 작업 영역에 추가한 글로벌 레코드 유형을 공유할 수 있습니다. 사용자는 공유 중인 보조 작업 영역의 모든 레코드에 대해서도 동일한 권한을 받습니다.
+
+>[!NOTE]
+>
+>사용자는 기본 작업 영역 또는 레코드 유형이 추가된 다른 보조 작업 영역에서 동일한 글로벌 레코드 유형에 대해 다른 권한을 가질 수 있습니다. Workspace 및 레코드 유형 권한을 레코드로 전송합니다.
+
+이 변경 이전에는 원래 기본 작업 영역에서만 글로벌 레코드 유형을 공유할 수 있었습니다.
+
+자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하세요.
+
+
+## 보조 작업 영역의 글로벌 레코드 유형에 추가된 레코드는 다른 보조 작업 영역에서 볼 수 없습니다
+
+>[!NOTE]
+>
+>미리 보기: 2026년 1월 15일
+>프로덕션 빠른 릴리스: 2026년 1월 15일
+>모두를 위한 프로덕션: 2026년 1월 15일
+>[!BADGE 일정 해제]{type=Neutral}
+
+보조 작업 공간의 글로벌 레코드 유형에 추가된 레코드는 해당 작업 공간이나 레코드 유형의 원래 기본 작업 공간에서만 볼 수 있습니다. 이 업데이트 이전에는, 보조 작업 영역에 추가된 레코드가 볼 수 있는 권한이 있는 다른 보조 작업 영역에서도 볼 수 있었습니다.
+
+자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하세요.
 
 ## 작업 영역에서 레코드 유형 계층 만들기
 
