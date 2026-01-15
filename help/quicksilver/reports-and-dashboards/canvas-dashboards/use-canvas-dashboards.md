@@ -6,9 +6,9 @@ description: 캔버스 대시보드 사용
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
+source-git-commit: f49197b1d49437cd3b1b981d093ae2a357d13072
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -72,17 +72,46 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
    >
    >이러한 변경 사항은 현재 세션에만 적용되며 원래 보고서 구성에는 영향을 주지 않습니다. 이러한 변경 사항을 영구적으로 적용하려면 보고서를 편집해야 합니다.
 
-<!--
-### Filter
+<!--### Use drilldowns
 
-### Drilldowns
+You can use drilldowns in Canvas Dashboards to sort and group data within reports.
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Click the name of an existing dashboard to open it.
+    ![Open a dashboard](assets/open-dashboard.png)
+1. Locate the report that you want to look at.
+1. Click on a data point within the report to drill down into more detailed information.
+1. Click the Show build table icon to open the drilldown settings. 
+1. Click Add Column to add additional columns to the drilldown table.
+
+ >[!IMPORTANT]
+>
+>These changes only apply to your current session and do not affect the original report configuration. To make permanent these changes, you need to edit the report.
 
 ### Add additional columns to table reports
 
-### Exporting Data
+
+## View reports with grouped data
+
+Report creators can configure reports to display grouped data. When viewing these reports on a Canvas Dashboard, you can expand or collapse the grouped data to see more or less detail.
+
+Data within groups is sorted alphabetically or chronologically by default, depending on the data type. You can click the column headers to sort the data within each group based on different attributes. When you sort by a different attribute, the order of the groups remains unchanged.
+
+When you sort by the same field that your report is grouped by, the group order can flip. For example, a text-based grouping that normally runs A–Z can switch to Z–A. This only happens when the sort column and the grouping attribute are the same.
+
 
 ## Saving and Sharing Dashboards
 
 After customizing your Canvas Dashboard, you can save your changes. Additionally, you can share the dashboard with other users in your organization, provided you have the appropriate sharing permissions.
 
 For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.-->
+
+## 그룹화된 데이터로 보고서 보기
+
+보고서 작성자는 그룹화된 데이터를 표시하도록 보고서를 구성할 수 있습니다. 보고서에 그룹화가 있으면 그룹화된 데이터를 확장하거나 축소하여 세부 정보를 더 많이 또는 더 적게 볼 수 있습니다.
+
+기본적으로 그룹화 자체는 필드 유형에 따라 알파벳순 또는 연대순으로 정렬됩니다. 각 그룹화 내의 데이터는 그룹화 정렬 순서와 독립적으로 정렬됩니다.
+
+열 헤더를 클릭하여 각 그룹 내의 데이터를 정렬할 수 있습니다. 그룹화 필드와 다른 필드를 기준으로 정렬하면 그룹 순서가 변경되지 않습니다.
+
+하지만 보고서를 그룹화한 필드와 같은 필드를 기준으로 정렬하면 그룹 순서가 변경될 수 있습니다. 예를 들어, 일반적으로 A-Z를 실행하는 텍스트 기반 그룹화는 Z-A로 전환할 수 있다.
