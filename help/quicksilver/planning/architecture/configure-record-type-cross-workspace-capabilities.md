@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1314'
 ht-degree: 1%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코드 유형을 구성할 수 있습니다.
 
 레코드 유형을 다음 중 하나로 지정할 수 있습니다.
 
-* <span class="preview">**글로벌 레코드 종류**: 사용자가 관리할 수 있는 다른 작업 영역에 글로벌 레코드 종류를 추가할 수 있습니다.</span>
+* **글로벌 레코드 종류**: 사용자가 관리할 수 있는 다른 작업 영역에 글로벌 레코드 종류를 추가할 수 있습니다.
 * **연결 가능한 레코드 종류**: 사용자는 다른 작업 영역에서 이 레코드 종류에 연결할 수 있습니다.
 
 작업 영역 관리자가 레코드 유형을 다른 작업 영역에 추가하거나 다른 작업 영역에서 연결하기 전에 먼저 레코드 유형의 작업 영역 간 기능을 정의해야 합니다.
@@ -64,7 +64,7 @@ Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코
 또는
 <li>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
 
-<div class="preview">
+
 <p>글로벌 레코드 유형을 구성하려면 다음을 수행합니다.</p>
 
 <ul> 
@@ -73,8 +73,7 @@ Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코
 <li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p>
 
-</div> 
-   </td> 
+</td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>표준</p>
@@ -131,7 +130,6 @@ And
 </tbody> 
 </table> -->
 
-<div class="preview">
 
 ## 글로벌 레코드 유형 구성
 
@@ -154,7 +152,7 @@ And
    작업 영역 페이지가 열리고 레코드 유형이 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 종류 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다. <!--add new screen shot without Share for now-->
+   * 레코드 종류 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다.
 
      ![레코드 종류 카드의 추가 메뉴 옵션](assets/more-menu-options-from-record-type-card.png)
 
@@ -163,7 +161,7 @@ And
 
    >[!TIP]
    >
-   >레코드 유형이 다른 작업 공간에 추가되면 해당 작업 공간에 글로벌 레코드 유형으로 표시됩니다. 이 경우 편집 및 설정 옵션이 흐리게 표시됩니다.
+   >레코드 유형이 다른 작업 공간에 추가되면 해당 작업 공간에 글로벌 레코드 유형으로 표시됩니다. 이 경우 [편집] 및 [설정] 옵션은 제거됩니다.
 
 1. (조건부) **편집**&#x200B;을 클릭한 경우 **레코드 종류 편집** 상자에서 **작업 영역 간 설정** 탭을 클릭합니다
 
@@ -190,7 +188,7 @@ And
    >
    >이 설정을 활성화할 수 있는 엔터티(사용자, 팀, 그룹, 역할 또는 회사)를 하나 이상 지정해야 합니다.
 
-1. (조건부) **레코드 종류 편집** 상자에서 **저장**&#x200B;을 클릭하거나 페이지 헤더의 **설정** 왼쪽에 있는 뒤로 화살표를 클릭하여 변경 내용을 저장합니다.
+1. (조건부) **레코드 종류 편집** 상자에서 **저장**&#x200B;을 클릭하거나 페이지 헤더의 **설정** 섹션 왼쪽에 있는 뒤로 화살표를 클릭하여 변경 내용을 저장합니다.
 
    다음과 같은 상황이 발생합니다.
 
@@ -206,7 +204,13 @@ And
      Workspace 필드에는 각 레코드가 생성되는 작업 영역이 표시됩니다.
 
      이 필드는 읽기 전용이므로 삭제할 수 없습니다.
+
+     >[!TIP]
+     >
+     >**Workspace** 필드의 필드 값이 비어 있는 경우 레코드가 만들어진 후 글로벌 레코드 형식이 삭제된 보조 작업 영역에서 레코드가 만들어졌습니다.
+
 1. (선택 사항) 다른 작업 영역으로 이동하여 기존 레코드 유형을 사용하여 레코드 유형을 만듭니다. 위의 단계에서 활성화한 레코드 유형을 선택합니다.
+
 
    자세한 내용은 [다른 작업 영역에서 기존 레코드 형식 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)를 참조하십시오.
 
@@ -217,59 +221,10 @@ And
    ![이 레코드 형식이 사용되는 작업 영역](assets/workspaces-where-this-record-type-is-used.png)
 1. (선택 사항) **이 레코드 형식이 사용되는 작업 영역** 섹션에 나열된 작업 영역 중 하나의 이름을 클릭하여 해당 작업 영역을 엽니다.
 
-</div>
 
 ## 연결 가능한 레코드 유형 구성
 
 <!--this is a UI term; don't change the title of this section-->
-
-레코드 유형을 작성하거나 편집할 때 다른 작업 영역에서 연결할 레코드 유형을 구성할 수 있습니다.
-
-연결할 수 있도록 레코드 종류를 구성하는 것은 구성에 대해 선택한 환경에 따라 다릅니다.
-
-### 프로덕션 환경에서 연결 가능한 레코드 유형 구성
-
-{{step1-to-planning}}
-
-1. 연결 가능한 레코드 유형으로 구성할 작업 영역을 클릭합니다.
-
-   작업 영역 페이지가 열리고 레코드 유형이 표시됩니다.
-1. 다음 중 하나를 수행하십시오.
-
-   * 레코드 종류 카드 위에 마우스를 올려 놓고 레코드 종류 카드의 오른쪽 상단에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다.
-
-     ![레코드 종류 카드의 추가 메뉴 옵션](assets/more-menu-options-from-record-type-card.png)
-
-   * 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 연 다음 레코드 유형 이름의 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
-
-1. **고급 설정** 탭을 클릭합니다.
-
-1. **다른 작업 영역에서 이 레코드 형식에 연결할 수 있도록 허용** 설정을 사용합니다.
-
-   ![다른 작업 공간에서 연결을 사용하도록 설정한 상태에서 레코드 고급 설정 편집 탭](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
-
-   활성화되면 레코드 종류는 연결 가능하고 다른 작업 영역에서 연결할 수 있습니다.
-
-1. 레코드 종류에 액세스할 수 있는 작업 공간을 선택합니다. 다음 옵션 중에서 선택합니다.
-
-   <!--check names of the setting: System wide?? OR All workspaces??-->
-
-   * **시스템 전체**: 사용자는 관리 권한이 있는 모든 작업 영역에서 이 레코드 형식에 연결할 수 있습니다.
-   * **특정 작업 영역**: 드롭다운 메뉴에서 작업 영역 관리자가 이 레코드 종류에 연결할 수 있는 작업 영역의 이름을 추가합니다.
-1. (조건부) **레코드 종류 편집** 상자에서 **저장**&#x200B;을 클릭하여 변경 내용을 저장합니다.
-
-   다음과 같은 상황이 발생합니다.
-
-   * 이제 지정한 작업 영역에서 레코드 유형 및 해당 필드에 연결할 수 있습니다.
-   * 레코드 유형 카드에 연결 가능한 레코드 유형 아이콘 ![연결 가능한 레코드 유형 아이콘](assets/connect-from-other-workspaces-icon.png)이 표시되어 구성에 지정한 모든 작업 영역에서 레코드 유형을 연결할 수 있음을 나타냅니다.
-
-1. (선택 사항) 다른 작업 영역으로 이동하여 위의 단계에서 작업 영역 간 연결을 활성화한 레코드 유형에 연결을 추가합니다.
-
-   자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
-
-<div class="preview">
-
-### 미리보기 환경에서 연결 가능한 레코드 유형 구성
 
 {{step1-to-planning}}
 
@@ -314,7 +269,9 @@ And
 
    자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
-</div>
+
+
+
 
 
 

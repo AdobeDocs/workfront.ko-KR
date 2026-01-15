@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--leave the choice value information in yellow till January 2026-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -225,5 +225,5 @@ Status 라는 단일 선택 필드에 New 및 Closed 라는 선택 사항이 있
 
    새 선택 항목이 단일 선택 필드에 즉시 추가됩니다.
 
-   <span class="preview">각 선택 항목에 새 값도 추가됩니다. API 호출 또는 기타 통합에서 선택 값을 사용할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).</span>를 참조하세요.
+   각 선택 항목에 새 값도 추가됩니다. API 호출 또는 기타 통합에서 선택 값을 사용할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 

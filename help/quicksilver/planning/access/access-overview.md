@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '751'
 ht-degree: 2%
 
 ---
@@ -16,13 +16,11 @@ ht-degree: 2%
 
 # Adobe Workfront Planning 액세스 개요
 
-<!--leave the global record type reference in yellow till Jan 2026-->
-
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -65,12 +63,11 @@ Workfront Planning을 사용하려면 다음 액세스 권한이 있어야 합�
    <ul><li><p>모든 Workfront 패키지 및 Planning 패키지</p></li>
    <li><p>모든 워크플로우 및 Planning Prime 및 Ultimate 패키지</p></li></ul>
 
-<div class="preview">
-   <p>글로벌 레코드 유형에 액세스하려면:</p>
+<p>글로벌 레코드 유형에 액세스하려면:</p>
    <ul><li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
    <li><p>모든 워크플로우 패키지 및 Planning Prime 및 Ultimate 패키지</p></li></ul> </td></tr>
-   </div>
-   <tr>
+
+<tr>
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
    <td>
    <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p>

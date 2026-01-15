@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1674'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 작업 영역 간 레코드 유형 개요
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -37,27 +37,24 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
 >
 >* 모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지
 >
-><span class="preview">전역 레코드 종류를 구성하려면:</span>
+>글로벌 레코드 유형을 구성하려면 다음을 수행합니다.
 >
->* <span class="preview">모든 Workfront 패키지 및 Planning Plus 패키지</span>
+>* 모든 Workfront 패키지 및 Planning Plus 패키지
 >     
 >   또는
 >
->* <span class="preview">모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</span>
+>* 모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지
 >
 >각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오.
 >자세한 내용은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
-
 다음은 레코드 유형의 작업 영역 간 기능입니다.
 
-* <span class="preview">**글로벌 레코드 종류**: 사용자가 관리하는 다른 작업 영역에 글로벌 레코드 종류를 추가할 수 있습니다.</span>
+* **글로벌 레코드 종류**: 사용자가 관리하는 다른 작업 영역에 글로벌 레코드 종류를 추가할 수 있습니다.
 
 * **연결 가능한 레코드 종류**: 사용자는 다른 작업 영역에서 이 레코드 종류에 연결할 수 있습니다.
 
 이 문서에서는 작업 영역 간 레코드 유형에 대한 개요를 제공합니다. 레코드 종류의 작업 영역 간 기능을 정의하는 방법에 대한 자세한 내용은 [레코드 종류에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.
-
-<div class="preview">
 
 ## 글로벌 레코드 유형 개요
 
@@ -141,21 +138,22 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
 
    * 삭제하십시오.
 
-     보조 작업 영역에서 레코드 유형을 삭제하면 보조 작업 영역에서만 레코드 유형이 제거됩니다. 보조 작업 영역에서 추가된 레코드 및 필드도 삭제됩니다. 레코드 유형은 원래 작업 공간이나 추가된 다른 보조 작업 공간에서 삭제되지 않습니다.
+     보조 작업 영역에서 레코드 유형을 삭제하면 보조 작업 영역에서만 레코드 유형이 제거됩니다. 보조 작업 영역에서 추가된 레코드 및 필드도 보조 공간에서 삭제됩니다. 보조 공간에 추가된 레코드는 기본 작업 공간에 남아 있습니다. 레코드 유형은 원래 작업 공간이나 추가된 다른 보조 작업 공간에서 삭제되지 않습니다.
 
      자세한 내용은 [레코드 종류 삭제](/help/quicksilver/planning/architecture/delete-record-types.md)를 참조하세요.
+
+   * 공유
+
+     보조 작업 공간에서 글로벌 레코드 유형을 공유하면 다음과 같은 결과가 발생합니다.
+
+      * 사용자가 보기 권한이 있는 작업 영역에 추가됩니다.
+      * 사용자는 보조 작업 영역에서 글로벌 레코드 유형의 모든 레코드에 대해 동일한 권한을 받습니다.
    * 레코드 유형의 보기를 공유합니다.
 
      보조 작업 영역의 글로벌 레코드 유형에서는 보기를 공개적으로 공유할 수 없습니다. 보조 작업 영역 내부에서만 보기를 공유할 수 있습니다. 원래 작업 영역에서 글로벌 레코드 유형에 대한 보기를 내부적으로 공개적으로 공유할 수 있습니다.
 
      자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하십시오.
 
-<!--Uncomment this at prod on Jan 15: * Share it-->
-
-<!--You can share a global record type added to a secondary workspace from the secondary space. By sharing a global record type in a secondary workspace, the following also occur:
-
-    * Users are added to the workspace with View permissions.
-    * Users receive the same permissions to all the records of the global record type in the secondary workspace.-->
 
 <!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
     After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
@@ -171,7 +169,6 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
    * 편집
 
      모양, 작업 영역 간 기능 또는 원본 작업 영역에서 추가된 필드는 편집할 수 없습니다.
-   * &#x200B;<!-- remove this at Prod on Jan 15--> 공유
    * 요청 양식 만들기 및 관리
    * 자동화 제작 및 관리
 
@@ -192,6 +189,7 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
    * 원래 작업 영역에 대한 관리 권한이 있고 보조 작업 영역에 대한 권한이 없는 경우 원래 작업 영역의 보조 작업 영역에서 추가된 레코드를 볼 수 있지만, 원래 작업 영역에서 관리할 수는 없습니다.
    * 보조 작업 영역에 대한 관리 권한이 있는 경우 글로벌 레코드 유형의 원래 작업 영역과 해당 레코드가 추가된 보조 작업 영역 모두에서 레코드를 관리할 수 있습니다.
    * 해당 작업 영역에 대한 보기 권한이 있는 경우에만 글로벌 레코드 유형이 추가된 추가 보조 작업 영역에서 레코드를 볼 수 있습니다. <!-- take this bullet out when we change this functionality on Jan 15-->
+* 보조 작업 영역에서는 글로벌 레코드 유형의 보기를 공개적으로 공유할 수 없습니다.
 
 ### 글로벌 레코드 유형의 연결에 대한 액세스 권한
 
@@ -206,8 +204,6 @@ Workfront Planning API를 사용하여 보조 작업 공간에서 글로벌 레�
 * 사용자에게 액세스 권한이 있는 경우 글로벌 레코드 유형의 원래 작업 영역에 레코드가 생성됩니다.
 
 * 사용자에게 액세스 권한이 없는 경우 글로벌 레코드 유형의 원래 작업 영역에 액세스할 수 없고 레코드를 만들 수 있는 작업 영역 ID를 제공해야 한다는 오류가 표시됩니다.
-
-</div>
 
 ## 연결 가능한 레코드 유형 개요
 

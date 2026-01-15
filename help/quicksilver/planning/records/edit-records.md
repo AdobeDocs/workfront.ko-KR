@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2899'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,9 @@ ht-degree: 0%
 
 # 레코드 편집
 
-<!--keep the choice values information in yellow till Jan 2026-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -141,15 +139,21 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 * 다음 유형의 필드는 자동으로 업데이트되며, 해당 값을 수동으로 편집할 수 없습니다.
    * 다른 레코드의 연결된 필드
    * 공식 유형 필드
-   * 시스템 필드(생성자, 생성일, 마지막 수정자, 마지막 수정일)
+   * 시스템 필드(생성자, 생성 날짜, 마지막 수정자, 마지막 수정 날짜, 승인 날짜, 승인자)
 * 표시되는 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보는 해당 레코드가 연결된 모든 작업 영역에서 연결된 레코드에 반영됩니다.
 * 레코드를 일괄적으로 편집할 수 없습니다. <!--this will probably change-->
 * URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .
-* 각 레코드에 표지 이미지를 추가할 수 있습니다. 이 이미지는 각 레코드에 대해 고유하며, 동시에 모든 레코드에 적용되지 않습니다.
-* 레코드 페이지의 필드 순서를 편집하고 레코드에 대한 표지 이미지를 추가할 수 있습니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
+* 각 레코드에 표지 이미지를 추가할 수 있습니다. 이 이미지는 각 레코드에 대해 고유하며, 동시에 모든 레코드에 적용되지 않습니다. 자세한 내용은 [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)를 참조하십시오.
+* 레코드의 세부 정보 페이지에서 필드의 순서를 편집할 수 있습니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
 * 타임라인 및 달력 보기에서 레코드의 크기를 조정하거나 위치를 변경하여 레코드의 시작 및 종료 날짜를 편집할 수 있습니다.
 
-  레코드에 대해 선택한 시작 및 종료 날짜가 읽기 전용인 경우 레코드 크기를 조정하거나 위치를 변경할 수 없습니다. 예를 들어 레코드의 시작 및 종료 날짜에 대해 조회 또는 공식 필드를 사용하면 타임라인 및 달력 보기에서 레코드의 크기를 조정하거나 위치를 변경할 수 없습니다. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+  레코드에 대해 선택한 시작 및 종료 날짜가 읽기 전용인 경우 레코드 크기를 조정하거나 위치를 변경할 수 없습니다. 예를 들어 레코드의 시작 및 종료 날짜에 대해 조회 또는 공식 필드를 사용할 때는 타임라인 및 달력 보기에서 레코드의 크기를 조정하거나 위치를 변경할 수 없습니다. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+
+  레코드의 날짜를 편집하려면 이 문서의 다음 섹션 중 하나를 참조하십시오.
+
+   * [레코드 유형의 달력 보기에서 레코드 편집](#edit-a-record-in-the-calendar-view-of-a-record-type)
+   * [레코드 유형의 타임라인 보기에서 레코드 편집](#edit-a-record-in-the-timeline-view-of-a-record-type)
+
 
 ## 레코드 편집
 
@@ -161,10 +165,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 * [보기의 레코드 미리보기](#edit-a-record-from-the-records-preview-in-a-view)
 * [레코드의 페이지](#edit-a-record-from-the-records-page)
 * [계획 섹션의 Workfront 개체](#edit-a-record-from-a-workfront-object-in-the-planning-section)
-
-레코드의 날짜를 편집하려면 다음을 수행합니다.
-
-* [타임라인 및 일정 보기에서 레코드 막대 크기 조정]
 
 ### 레코드 유형의 표 보기에서 인라인 레코드 편집
 
@@ -271,15 +271,13 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!IMPORTANT]
    >
-   >레코드 막대의 끝을 끌어서 놓을 수 없으며 레코드에 대해 선택한 시작 날짜와 종료 날짜가 읽기 전용인 경우 레코드를 다른 날짜로 끌어서 놓을 수 없습니다. 예를 들어 레코드의 시작 및 종료 날짜에 대해 조회 또는 공식 필드를 사용하면 타임라인 보기에서 레코드의 크기를 조정하거나 위치를 변경할 수 없습니다. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+   >레코드 막대의 끝을 끌어서 놓을 수 없으며 레코드에 대해 선택한 시작 날짜와 종료 날짜가 읽기 전용인 경우 레코드를 다른 날짜로 끌어서 놓을 수 없습니다. 예를 들어 레코드의 시작 및 종료 날짜에 대해 조회 또는 공식 필드를 사용할 때는 타임라인 보기에서 레코드의 크기를 조정하거나 위치를 변경할 수 없습니다. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
 
 1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
 
    자세한 내용은 이 문서의 [보기에서 레코드 미리 보기에서 레코드 편집](#edit-a-record-from-the-records-preview-in-a-view) 섹션을 참조하십시오.
 
 ### 레코드 유형의 달력 보기에서 레코드 편집
-
-<!--add another step about drag and drop here when that is available-->
 
 1. 달력 보기에서 레코드 유형 페이지를 엽니다. 자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
 1. (조건부) 달력 보기에서 레코드 막대의 끝을 마우스로 가리킨 다음 그 여백을 클릭하고 다른 날짜로 끌어서 놓습니다. 이렇게 하면 레코드의 시작 또는 종료 날짜가 자동으로 업데이트됩니다.
@@ -290,7 +288,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!IMPORTANT]
    >
-   >레코드 막대의 끝을 끌어서 놓을 수 없으며 레코드에 대해 선택한 시작 날짜와 종료 날짜가 읽기 전용인 경우 레코드를 다른 날짜로 끌어서 놓을 수 없습니다. 예를 들어 레코드의 시작 및 종료 날짜에 대해 조회 또는 공식 필드를 사용하면 달력 보기에서 레코드의 크기를 조정하거나 위치를 변경할 수 없습니다. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
+   >레코드 막대의 끝을 끌어서 놓을 수 없으며 레코드에 대해 선택한 시작 날짜와 종료 날짜가 읽기 전용인 경우 레코드를 다른 날짜로 끌어서 놓을 수 없습니다. 예를들어 레코드의 시작 및 종료 날짜에 대해 조회 또는 수식 필드를 사용할 때는 달력 보기에서 레코드의 크기를 조정하거나 위치를 변경할 수 없습니다. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. 레코드의 막대를 클릭하여 세부 정보 영역을 열고 모든 필드를 편집합니다.
 
@@ -444,5 +442,5 @@ Status 라는 단일 선택 필드에 New 및 Closed 라는 선택 사항이 있
 
    새 선택 항목이 단일 선택 필드에 즉시 추가됩니다.
 
-   <span class="preview">각 선택 항목에 새 선택 값도 추가됩니다. API 호출 또는 기타 통합에서 선택 값을 사용할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오. </span>
+   각 선택 항목에 새 선택 값도 추가됩니다. API 호출 또는 기타 통합에서 선택 값을 사용할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 

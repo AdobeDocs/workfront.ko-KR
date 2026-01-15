@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '5487'
+source-wordcount: '5427'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ko ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -24,9 +24,9 @@ ht-degree: 1%
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -234,7 +234,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
    * [확인란](#checkbox)
    * [공식](#formula)
    * [사람](#people)
-   * [제작자](#created-by)
+   * [생성한 사람](#created-by)
    * [제작 일자](#created-date)
    * [마지막 수정자](#last-modified-by)
    * [마지막 수정일](#last-modified-date)
@@ -327,20 +327,20 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
    새 다중 선택 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
-1. <span class="preview">(선택 사항) 테이블 보기의 필드 이름 위로 마우스를 가져간 후 필드 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 **필드 편집**&#x200B;을 클릭합니다.</span>
-1. <span class="preview">선택한 각 값을 표시하려면 **값 표시** 설정을 켭니다. 값은 Workfront 데이터베이스에 나타나는 각 선택 항목의 이름입니다. </span>
+1. (선택 사항) 테이블 보기의 필드 이름 위에 마우스를 놓고 필드 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 **필드 편집**&#x200B;을 클릭합니다.
+1. **값 표시** 설정을 켜서 각 선택 항목에 대한 값을 표시합니다. 값은 Workfront 데이터베이스에 나타나는 각 선택 항목의 이름입니다.
 
    >[!NOTE]
    >
-   >* <span class="preview">Workfront은 각 선택 항목에 대해 고유한 값을 할당합니다. </span>
+   >* Workfront은 각 선택 항목에 고유한 값을 할당합니다.
    >
-   >* <span class="preview">값이 소문자 형식의 선택 이름과 일치합니다. 여러 단어는 밑줄로 구분됩니다. </span>
+   >* 값은 소문자 형식의 선택 이름과 일치합니다. 여러 단어는 밑줄로 구분됩니다.
    >
-   >* <span class="preview">값이 여러 필드 간에 반복될 수 있지만 한 필드에 대해 고유해야 합니다.</span>
+   >* 값은 여러 필드 간에 반복될 수 있지만 한 필드에 대해 고유해야 합니다.
    >
-   ><span class="preview"> ![값 표시 전환](assets/show-values-toggle-and-choices-with-values.png)</span>
+   > ![값 표시 전환](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">(선택 사항) API 호출 및 기타 통합에서 선택 값을 사용합니다. </span>
+1. (선택 사항) API 호출 및 기타 통합에서 선택 값을 사용합니다.
 
 ### 단일 선택 {#single-select}
 
@@ -375,20 +375,20 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
    새 단일 선택 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
-1. <span class="preview">(선택 사항) 테이블 보기의 필드 이름 위로 마우스를 가져간 후 필드 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 **필드 편집**&#x200B;을 클릭합니다.</span>
-1. <span class="preview">선택한 각 값을 표시하려면 **값 표시** 설정을 켭니다. 값은 Workfront 데이터베이스에 나타나는 각 선택 항목의 이름입니다. </span>
+1. (선택 사항) 테이블 보기의 필드 이름 위에 마우스를 놓고 필드 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 **필드 편집**&#x200B;을 클릭합니다.
+1. **값 표시** 설정을 켜서 각 선택 항목에 대한 값을 표시합니다. 값은 Workfront 데이터베이스에 나타나는 각 선택 항목의 이름입니다.
 
    >[!NOTE]
    >
-   >* <span class="preview">Workfront은 각 선택 항목에 대해 고유한 값을 할당합니다. </span>
+   >* Workfront은 각 선택 항목에 고유한 값을 할당합니다.
    >
-   >* <span class="preview">값이 소문자 형식의 선택 이름과 일치합니다. 여러 단어는 밑줄로 구분됩니다. </span>
+   >* 값은 소문자 형식의 선택 이름과 일치합니다. 여러 단어는 밑줄로 구분됩니다.
    >
-   >* <span class="preview">값이 여러 필드 간에 반복될 수 있지만 한 필드에 대해 고유해야 합니다.</span>
+   >* 값은 여러 필드 간에 반복될 수 있지만 한 필드에 대해 고유해야 합니다.
    >
-   ><span class="preview"> ![값 표시 전환](assets/show-values-toggle-and-choices-with-values.png)</span>
+   > ![값 표시 전환](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">(선택 사항) API 호출 및 기타 통합에서 선택 값을 사용합니다. </span>
+1. (선택 사항) API 호출 및 기타 통합에서 선택 값을 사용합니다.
 
 ### Date {#date}
 
@@ -575,7 +575,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
    >
    >* 현재 레코드 유형에서 최대 4개의 필드(및 개체)가 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형(1)에 대한 공식 필드를 생성하고 활동이 Workfront 프로젝트(3)에 연결된 캠페인 레코드 유형(2)에 연결된 경우, 활동 레코드 유형에 대해 생성 중인 공식에서 프로젝트의 예산 필드(4)를 참조할 수 있습니다.
    >
-   >![공식 예제 프로젝트 예산 4개 필드 제거됨 &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![공식 예제 프로젝트 예산 4개 필드 제거됨 ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (선택 사항) **최대화**&#x200B;를 클릭하여 더 넓은 영역에서 수식 상자를 엽니다.
@@ -638,7 +638,7 @@ Workfront에서 필드를 가져오면 Workfront Planning 레코드 유형에 �
 
    새 사람 유형 필드가 레코드 유형에 열로 추가되고 해당 값이 레코드와 연결될 수 있습니다.
 
-### 제작자
+### 생성한 사람
 
 작성자 필드 유형을 사용하여 레코드를 만든 사용자를 레코드에 추가할 수 있습니다. 이 필드는 읽기 전용이며 레코드를 만들 때 로그인한 사용자의 이름으로 자동으로 채워집니다.
 

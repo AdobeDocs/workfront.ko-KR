@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1136'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # 레코드 유형 만들기
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -55,7 +55,6 @@ ht-degree: 2%
 또는
 <li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
 
-<div class="preview">
 <p>글로벌 레코드 유형을 구성하려면 다음을 수행합니다.</p>
 
 <ul> 
@@ -64,8 +63,7 @@ ht-degree: 2%
 <li><p>모든 워크플로우 및 Planning Prime 또는 Ultimate 패키지</p></li></ul>
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p>
 
-</div>
-   </td> </tr>
+</td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>표준</p>
@@ -163,8 +161,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
         이 문서에서는 처음부터 레코드 유형을 만드는 방법을 설명합니다.
 
-      * <span class="preview">다른 작업 영역에서 추가</span>
-        <span class="preview">자세한 내용은 [다른 작업 영역에서 기존 레코드 형식 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)를 참조하십시오. </span>
+      * 다른 작업 영역에서 추가
+자세한 내용은 [다른 작업 영역에서 기존 레코드 형식 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)를 참조하십시오.
 
 
 * 한 섹션 내에서 또는 작업 영역의 한 섹션에서 다른 섹션으로 레코드 유형을 이동할 수 있습니다. 한 작업 영역에서 다른 작업 영역으로 레코드 유형을 이동할 수 없습니다.
@@ -208,9 +206,9 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
       * 색상을 선택하여 새 레코드 유형을 식별합니다. 레코드 유형 아이콘의 색상입니다. 기본적으로 회색이 선택되어 있습니다.
       * 목록에서 아이콘을 선택하거나 검색 필드에 아이콘 이름을 입력하여 상징하는 것을 설명한 다음 표시될 때 선택합니다. 레코드 유형의 아이콘입니다. 기본적으로 파일 아이콘이 선택되어 있습니다.
 
-1. (선택 사항 및 조건부) 시스템 관리자인 경우 **고급 설정** <span class="preview">또는 **작업 영역 간 설정**</span> 탭을 클릭하고 <span class="preview">레코드 유형의 작업 영역 간 기능에 대한 정보를 업데이트합니다.
+1. (선택 사항 및 조건부) 시스템 관리자인 경우 **작업 영역 간 설정** 탭을 클릭하고 레코드 유형의 작업 영역 간 기능에 대한 정보를 업데이트합니다.
 
-   ![고급 설정 탭이 있는 레코드 종류 상자 편집](assets/edit-record-type-box-advanced-settings-tab.png) </span>
+   ![작업 영역 간 설정 탭이 있는 레코드 종류 상자 편집](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.
 
@@ -223,9 +221,9 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
    다른 작업 영역에서 이 레코드에 연결하도록 선택한 경우 **연결 가능한 레코드** 아이콘 ![다른 공간에서 연결 아이콘](assets/connect-from-other-workspaces-icon.png)이 레코드 카드에 표시됩니다.
 
-   <span class="preview">다른 작업 영역에 이 레코드를 추가할 수 있도록 선택한 경우 **글로벌 레코드** 아이콘 ![글로벌 레코드 유형 아이콘](assets/global-icon.png)이 레코드 카드에 표시됩니다. </span>
+   이 레코드를 다른 작업 영역에 추가할 수 있도록 선택한 경우 **글로벌 레코드** 아이콘 ![글로벌 레코드 유형 아이콘](assets/global-icon.png)이 레코드 카드에 표시됩니다.
 
-1. (선택 사항) 레코드 종류 카드 위에 마우스를 놓고 오른쪽 상단의 **자세히** 아이콘 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집** 또는 <span class="preview">**설정**</span>&#x200B;을 클릭하여 레코드 종류에 대한 정보를 수정합니다.
+1. (선택 사항) 레코드 종류 카드 위에 마우스를 놓고 오른쪽 상단의 **자세히** 아이콘 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집** 또는 **설정**&#x200B;을 클릭하여 레코드 종류에 대한 정보를 수정합니다.
 
    자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
 
@@ -277,12 +275,8 @@ CSV 또는 Excel 파일에서 정보를 가져올 때 다음을 가져올 수 �
 
 자세한 내용은 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 형식 만들기](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)를 참조하십시오.
 
-<div class="preview">
-
 ## 다른 작업 영역에서 기존 레코드 유형을 추가하여 레코드 유형 만들기
 
 다른 작업 영역에서 기존 레코드 유형을 추가하여 작업 영역에 레코드 유형을 추가할 수 있습니다. 글로벌 레코드 유형으로 구성된 레코드 유형만 추가할 수 있습니다.
 
 자세한 내용은 [다른 작업 영역에서 기존 레코드 형식 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)를 참조하십시오.
-
-</div>

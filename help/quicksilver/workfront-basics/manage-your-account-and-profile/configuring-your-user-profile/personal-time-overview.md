@@ -7,7 +7,7 @@ description: 승인된 휴무는 일정에 영향을 주고 할당된 작업의 
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!-- Audited: 12/2025 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront]은(는) 개인 휴무를 관리, 계산 및 추적하기 위해 기존 시스템을 복제하거나 대체하도록 설계되지 않았습니다.
 

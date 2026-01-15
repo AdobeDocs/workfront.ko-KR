@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # 필드 삭제
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -50,10 +50,10 @@ Workfront Planning에서 사용자 정의 필드를 만드는 방법에 대한 �
 또는
 <li><p>모든 워크플로우 및 모든 Planning 패키지</p></li></ul>
 
-<p><span class="preview">글로벌 레코드 유형에서 필드를 삭제하려면</span></p>
-<ul><li><p><span class="preview">모든 Workfront 패키지 및 Planning Plus 패키지</span></p></li>
+<p>글로벌 레코드 유형에서 필드를 삭제하려면</p>
+<ul><li><p>모든 Workfront 패키지 및 Planning Plus 패키지</p></li>
 또는
-<li><p><span class="preview">모든 워크플로우 및 Planning Prime 및 Ultimate 패키지</span></p></li></ul>
+<li><p>모든 워크플로우 및 Planning Prime 및 Ultimate 패키지</p></li></ul>
 
 <p>각 Workfront Planning 패키지에 포함된 내용에 대한 자세한 내용은 Workfront 계정 담당자에게 문의하십시오. </p> 
    </td> 
@@ -149,7 +149,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
-* <span class="preview">보조 작업 영역의 보조 작업 영역에 추가된 글로벌 레코드에서 필드를 삭제할 수 없습니다.</span>
+* 보조 작업 영역에서 보조 작업 영역에 추가된 글로벌 레코드에서는 필드를 삭제할 수 없습니다.
 
 ## 필드 삭제
 
@@ -184,4 +184,4 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * 선택한 레코드에 속하는 필드를 삭제하면 필드가 삭제되며 더 이상 레코드와 연결할 수 없습니다. 이 필드가 다른 레코드에 조회 필드로 추가되면 해당 필드도 삭제됩니다.
    * 연결 필드를 삭제하면 선택한 레코드에서 필드가 삭제됩니다. 또한 원본 레코드에서 해당 연결 필드도 삭제됩니다.
    * 연결된 레코드에서 추가된 조회 필드를 삭제하면 선택한 레코드 유형에서 필드가 삭제되지만 원래 레코드 유형에는 남아 있습니다.
-   * <span class="preview">기본 작업 영역에서 전역 레코드 형식에서 필드를 삭제하면 해당 레코드 형식이 추가된 모든 작업 영역에서 삭제됩니다. 보조 작업 영역에서 글로벌 레코드 형식에서 필드를 삭제할 수 없습니다.</span>
+   * 기본 작업 영역의 글로벌 레코드 유형에서 필드를 삭제하면 해당 레코드 유형이 추가된 모든 작업 영역에서 삭제됩니다. 보조 작업 영역에서는 글로벌 레코드 유형에서 필드를 삭제할 수 없습니다.

@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3968'
+source-wordcount: '3912'
 ht-degree: 2%
 
 ---
 
 # 타임라인 보기 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -282,7 +282,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. 타임라인 보기를 선택한 다음 표의 오른쪽 상단에 있는 **필터**&#x200B;를 클릭합니다.
 1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
-   * **필드 선택** ~ <span class="preview">필드 검색 또는 </span> 드롭다운 메뉴를 클릭하여 필드 목록을 표시하고 목록에서 필드 선택
+   * 필드를 검색하거나 목록에서 선택하려면 **필드를 선택하십시오**.
 
    * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
 
@@ -548,6 +548,8 @@ this is not possible right now; if this is the same functionality as the table v
 분류 기능을 사용하여 레코드의 타임라인 보기에 연결된 레코드를 표시할 수 있습니다. 레코드와 연결을 분류할 경우 연결된 다른 레코드의 타임라인을 보고 해당 레코드가 성능과 기한에 어떤 영향을 미칠 수 있는지 이해할 수 있습니다.
 
 #### 분류 기능을 사용할 때의 고려 사항
+
+연결된 레코드 종류별로 레코드의 타임라인을 분류할 때는 다음 사항을 고려하십시오.
 
 * 타임라인 보기에서 선택한 레코드 유형의 레코드 아래에 연결된 레코드나 개체를 표시할 수 있습니다.
 * 표준 모드에서 레코드를 볼 때만 연결된 레코드를 타임라인 보기에 표시할 수 있습니다. 타임라인 보기의 압축 모드에서는 분류 옵션을 사용할 수 없습니다.

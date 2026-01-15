@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1465'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,11 @@ ht-degree: 1%
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
-<!--keep global record types in yellow till Jan 2026-->
-
 # 레코드 유형 공유
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -183,16 +181,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 * 레코드 유형은 Workfront 외부의 사용자와 외부에서 공유할 수 없습니다.
 * 작업 공간 권한이 보기 권한보다 높지 않은 사용자에게 레코드 유형에 대한 권한을 부여하려면 먼저 보기 권한보다 높은 권한을 가진 사용자와 작업 공간을 공유해야 합니다. 그러면 레코드 유형에 작업 공간에 대한 더 높은 권한이 적용됩니다.
 
-<div class="preview">
-
-* 글로벌 레코드 유형을 공유할 때 다음과 같은 시나리오가 존재합니다.
-
-   * 원래 작업 영역에서 글로벌 레코드 유형을 공유할 수 있습니다.
-   * 글로벌 레코드 유형을 보조 작업 공간에 추가한 후에는 공유할 수 없습니다.
+* 글로벌 레코드 유형은 원래 작업 영역과 추가된 다른 보조 작업 영역 모두에서 공유할 수 있습니다.
 
   자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
-</div>
+
 
 ## 레코드 종류에 대한 권한 공유
 
@@ -209,7 +202,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    **공유** 상자가 열립니다.
 
-   ![에서 상속된 사용 권한을 가진 레코드 형식에 대한 &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)사용 권한
+   ![에서 상속된 사용 권한을 가진 레코드 형식에 대한 ](assets/permissions-for-record-types-with-inherited-permissions-on.png)사용 권한
 
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 레코드 유형을 볼 수 있습니다.
 

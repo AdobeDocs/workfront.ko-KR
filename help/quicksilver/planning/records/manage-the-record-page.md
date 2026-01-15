@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -222,7 +222,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -296,7 +296,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## 레코드에 연결된 레코드 페이지 추가
 
-연결된 레코드 페이지에 대한 탭을 레코드에 추가하여 연결된 레코드 또는 개체에서 정보를 볼 수 있습니다. 이렇게 하면 테이블 보기의 연결된 레코드가 탭에 추가됩니다.
+연결된 레코드 페이지의 탭을 레코드의 세부 정보 영역에 추가하여 연결된 레코드나 개체에서 정보를 볼 수 있습니다. 이렇게 하면 테이블 또는 목록 보기에서 연결된 레코드가 탭에 추가됩니다.
 
 자세한 내용은 [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
 

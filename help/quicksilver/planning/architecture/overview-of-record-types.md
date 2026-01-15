@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 레코드 유형 개요
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -45,13 +45,19 @@ Workfront Planning에서 조직의 요구 사항에 맞는 사용자 정의 레�
    * **운영 레코드 종류**: 전략 계획, 이니셔티브 또는 계획된 작업을 나타내는 레코드 종류. 예를 들어 Campaign, Activity, Tactic, Opportunity 는 운영 레코드 유형입니다.
    * **분류**: 작업 레코드 형식에 대한 특성을 캡처하는 레코드 형식입니다. 예를 들어 지역, 주소, 대상은 분류법입니다.
 
-  이러한 섹션의 이름을 바꾸거나 삭제하거나 더 많이 만들 수 있습니다.
+  단면 및 레코드 유형의 이름을 바꾸거나 삭제하거나 더 많이 만들 수 있습니다.
 
 * 처음부터 만든 작업공간에 레코드 유형을 만들면 작업공간에서 만든 모든 섹션에 레코드 유형을 배치할 수 있습니다.
-* 레코드 유형을 만들면 사용자와 작업 공간에 액세스할 수 있는 권한을 부여한 사용자만 레코드 유형을 볼 수 있습니다.
+* 레코드 유형을 만들 때는 사용자와 작업 영역에 액세스할 수 있는 권한을 부여한 사용자만 해당 작업 영역에 액세스할 수 있습니다.
 * 작업 영역에 대한 레코드 유형을 만들려면 먼저 작업 영역을 만들어야 합니다.
-* 한 작업 영역 또는 Workfront 인스턴스에서 가질 수 있는 레코드 종류의 수에 대한 제한 사항은 [Adobe Workfront Planning 개체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md)를 참조하십시오.
-* <span class="preview">레코드 종류를 전역으로 지정할 수 있습니다. 글로벌 레코드 유형은 다른 작업 공간에 기존 레코드 유형으로 추가할 수 있습니다. 자세한 내용은 [Conf레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>을 참조하십시오.
+
+  한 작업 영역 또는 Workfront 인스턴스에서 가질 수 있는 레코드 종류의 수에 대한 제한 사항은 [Adobe Workfront Planning 개체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md)를 참조하십시오.
+* 두 개 이상의 작업 영역에서 레코드 유형을 사용하려면 레코드 유형을 전역 또는 연결 가능한 것으로 지정할 수 있습니다.
+
+   * 글로벌 레코드 유형은 다른 작업 공간에 기존 레코드 유형으로 추가할 수 있습니다.
+   * 연결 가능한 레코드 형식은 다른 작업 영역에서 연결할 수 있습니다.
+
+  자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오.
 
 
 <!--

@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2873'
 ht-degree: 1%
 
 ---
 
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
+
+<!--take production and preview references out at prod-->
 
 # 레코드 유형 연결
 
@@ -89,7 +91,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -204,11 +206,11 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      >[!TIP]
      >
-     >다른 작업 영역에서 레코드 형식에 액세스할 수 있으려면 **다른 작업 영역에서 이 레코드 형식에 연결 허용** 설정이 **고급 설정** 또는 **레코드 형식 편집** 상자의 **작업 영역 간 설정** 탭에서 레코드 형식에 대해 활성화되어 있어야 합니다. 다른 작업공간에서 연결하도록 구성된 레코드 유형이 없는 경우 작업공간 섹션이 표시되지 않습니다.
+     >다른 작업 영역에서 레코드 형식에 액세스할 수 있도록 하려면 **다른 작업 영역에서 이 레코드 형식에 연결 허용** 설정이 **레코드 형식 편집** 상자의 **작업 영역 간 설정** 탭에서 레코드 형식에 대해 활성화되어 있어야 합니다. 다른 작업공간에서 연결하도록 구성된 레코드 유형이 없는 경우 작업공간 섹션이 표시되지 않습니다.
      >
      >자세한 내용은 [레코드 형식에 대한 작업 영역 간 기능 구성](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)을 참조하십시오. <!--update screen shot at production-->
      >
-     >![레코드 종류 상자 고급 설정 탭](assets/edit-record-type-box-advanced-settings-tab.png)
+     >![작업 영역 간 설정 탭에서 레코드 종류 상자 편집](assets/edit-record-type-box-advanced-settings-tab.png)
 
      <!--Old:
         [!TIP]
@@ -239,7 +241,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >동일한 레코드나 개체 유형에 여러 연결을 가질 수 있습니다. 연결된 필드 이름을 편집하지 않으면 Workfront은 연결된 레코드 이름 뒤에 숫자를 추가하여 동일한 이름으로 연결된 레코드 유형의 수를 나타냅니다.
 
 1. 연결된 레코드 필드에 대한 정보를 추가하여 **설명** 필드를 업데이트합니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
-1. (조건부) 레코드 종류 및 Adobe Experience Manager 에셋 개체 또는 레코드 종류 및 GenStudio Brand의 두 작업 영역에서 레코드 종류를 연결할 때 **여러 레코드 허용**&#x200B;을 선택합니다. 이 옵션을 선택하면 원본 레코드에 연결된 레코드 유형 필드가 표시될 때 사용자가 여러 레코드를 추가할 수 있음을 나타냅니다. 이 옵션은 기본적으로 선택되어 있습니다.
+1. (조건부) 레코드 종류 및 Adobe Experience Manager 에셋 개체, 레코드 종류 및 GenStudio Brand의 레코드 종류를 연결할 때 **여러 레코드 허용**&#x200B;을 선택합니다. 이 옵션을 선택하면 원본 레코드에 연결된 레코드 유형 필드가 표시될 때 사용자가 여러 레코드를 추가할 수 있음을 나타냅니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
    ![다른 작업 영역의 레코드 형식에 대한 새 연결](assets/new-connection-allow-multiple-records-box.png)
 
@@ -279,7 +281,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    >[!NOTE]
    >
-   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
 1. (조건부) Experience Manager Assets, Workfront Planning 레코드 유형 또는 GenStudio Brand에 연결하도록 선택하는 경우 **모양 기록** 영역에서 다음 옵션 중 하나를 선택합니다.
@@ -409,9 +411,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
      >[!TIP]
      >
      > 연결된 레코드 필드는 해당 응용 프로그램의 다른 응용 프로그램 객체에 대해서는 생성되지 않습니다.
-     >모든 레코드 유형에 대해 연결된 30개 필드의 제한 외에 500개 필드의 제한이 있으므로 분류 레코드 유형에 대한 링크를 만들지 않는 것이 좋습니다.
+     > 모든 레코드 유형에 대해 연결된 30개 필드의 제한 외에 500개 필드의 제한이 있으므로 분류 레코드 유형에 대한 링크를 만들지 않는 것이 좋습니다.
 
-   <!--see the span preview text in the TIP above; it might not show up in green-->
 
 1. (선택 사항 및 조건부) 원래 레코드 유형 또는 연결된 레코드 유형 테이블 보기에서 연결된 레코드 필드의 머리글에 있는 아래쪽 방향 화살표를 클릭한 다음 다음 중 하나를 클릭합니다.
 

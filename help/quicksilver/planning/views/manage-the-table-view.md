@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3500'
+source-wordcount: '3418'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 # 표 보기 관리
 
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -191,7 +191,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    추가하는 열은 레코드 유형에 액세스하고 레코드 페이지에서 새 필드로 추가되는 모든 사용자에게 표시됩니다.
 
-1. (선택 사항) 도구 모음에서 **필드** 아이콘 ![필드 아이콘](assets/fields-icon.png)을 클릭하고 목록에서 필드를 찾거나 <span class="preview">에서 필드를 검색</span>한 다음 필드 이름의 오른쪽에 있는 전환을 선택 취소하여 필드를 숨깁니다.
+1. (선택 사항) 도구 모음에서 **필드** 아이콘 ![필드 아이콘](assets/fields-icon.png)을 클릭하고 필드를 검색한 다음 필드 이름의 오른쪽에 있는 토글을 선택 취소하여 필드를 숨깁니다.
 
 1. 다음 중 하나를 수행하여 테이블의 열 순서를 변경합니다.
 
@@ -311,7 +311,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. 표 보기를 선택한 다음 표의 오른쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다.
 1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
-   * <span class="preview">필드를 검색하거나 </span> 드롭다운 메뉴를 클릭하여 필드 목록을 표시하고 목록에서 선택합니다.
+   * 필드를 검색하고 목록에 표시될 때 선택합니다.
 
    * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
 
@@ -542,7 +542,7 @@ To sort grouped records:
 
 1. (선택 사항) **행 색**&#x200B;을 클릭하여 조건을 정의하고 표 행에 다른 색 구성을 선택합니다.
 
-1. **색상 추가**&#x200B;를 클릭한 다음 <span class="preview">필드를 검색하거나 </span> 드롭다운 메뉴를 클릭하여 필드 목록을 표시하고 목록에서 선택합니다. 이것은 행의 색상을 결정할 값이 있는 필드입니다.
+1. **색상 추가**&#x200B;를 클릭한 다음 필드를 검색하여 목록에 표시되면 선택합니다. 이것은 행의 색상을 결정할 값이 있는 필드입니다.
 
    예를 들어 상태가 활성인 캠페인을 녹색으로 표시하려면 **상태**&#x200B;를 선택한 다음 필드에 대한 수정자와 값을 선택합니다.
 

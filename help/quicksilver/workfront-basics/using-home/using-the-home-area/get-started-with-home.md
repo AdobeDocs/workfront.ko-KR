@@ -6,10 +6,10 @@ description: 홈은 작업을 관리하는 데 도움이 됩니다. 이 유연�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 3%
+source-wordcount: '992'
+ht-degree: 4%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 3%
 
 <!--Audited: 12/2023-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -70,13 +70,10 @@ Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 
         평균 문서 승인 시간 및 의사 결정과 보류 중인 승인 및 기한 경과 승인의 목록 보기에 대한 정보가 포함된 2개의 차트를 표시합니다. 이 위젯을 사용하려면 [통합 승인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)을 사용하도록 설정해야 합니다.
 
 * **언급**\
-    프로덕션 환경에서는 내 업데이트 페이지와 유사하게 Workfront 전체의 최근 주석 스레드를 표시합니다. 회신 버튼을 사용하여 위젯 내에서 회신을 작성할 수 있습니다. 또한 이 위젯에는 지난 30일 동안 작업 또는 문제가 업데이트된 경우 할당한 작업 및 문제에 대한 댓글, 다른 사용자에게 할당한 댓글, 소유한 댓글, 기본 담당자인 댓글 또는 생성한 댓글이 표시됩니다.
+        최근 작성한 댓글이나 지난 2주 동안 추가했던 다른 사용자의 태그가 지정된 댓글이 표시됩니다. 회신 버튼을 사용하여 위젯 내에서 회신을 작성할 수 있습니다.
 
-  <div class="preview">
+  <!--old: In the Production environment, it displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.-->
 
-  미리보기 환경에서는 사용자가 최근 작성한 댓글이나 지난 2주 동안 다른 사용자가 사용자를 태그 지정한 댓글이 표시됩니다. 회신 버튼을 사용하여 위젯 내에서 회신을 작성할 수 있습니다.
-
-  </div>
 
 * **할 일**\
     이 고유한 위젯을 사용하면 자유롭게 편집할 수 있는 개인 체크리스트에 항목을 추가할 수 있습니다. 할 일은 개인 프로젝트의 작업으로 추적되며 완료 후 최대 2주 동안 유지됩니다.
