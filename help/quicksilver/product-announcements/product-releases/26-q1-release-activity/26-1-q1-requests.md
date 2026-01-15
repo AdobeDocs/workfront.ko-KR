@@ -4,9 +4,9 @@ description: 2026년 1분기 요청 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: d8f563bdbde76ae86b5e130a07d2dc66c8d2e034
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 이전에는 이 열에 개체의 이름만 포함되고 해당 링크는 포함되지 않았습니다.
 
-이러한 링크를 찾는 방법에 대한 자세한 내용은 를 참조하십시오. 열을 추가하는 방법은 다음을 참조하십시오.
+이러한 링크를 찾는 방법에 대한 자세한 내용은 다음을 참조하십시오.
 
 * [제출된 요청 찾기](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
 * [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

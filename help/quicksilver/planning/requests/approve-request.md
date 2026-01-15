@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
@@ -97,7 +97,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 >
 >사용자가 이메일 및 인앱 알림을 수신할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.
 
-요청 자체, <span class="preview"> 또는 홈의 내 승인 위젯에서 레코드를 만드는 요청을 승인할 수 있습니다.</span>
+요청 자체 또는 홈에 있는 내 승인 위젯에서 레코드를 만들도록 요청을 승인할 수 있습니다.
 
 * [Workfront Planning에서 요청의 요청 승인](#approve-a-request-from-the-request-in-workfront-planning)
 * [홈의 내 승인 위젯에서 요청 승인](#approve-a-request-from-the-my-approvals-widget-in-home)
@@ -134,8 +134,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    요청은 Workfront의 요청 영역에 남아 있습니다.
 
-<div class="preview">
-
 ### 홈의 내 승인 위젯에서 요청 승인
 
 {{step1-to-home}}
@@ -160,4 +158,3 @@ Adobe Workfront 왼쪽 상단의 [!UICONTROL 홈] 아이콘 ![홈 아이콘](/he
    * **완료**: 요청이 승인되었습니다.
    * **거부됨**: 요청이 거부되었습니다.
 
-</div>

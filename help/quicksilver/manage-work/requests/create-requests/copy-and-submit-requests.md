@@ -6,17 +6,15 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1517'
 ht-degree: 3%
 
 ---
 
 # 요청 복사 및 제출
 
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 유사한 요청을 자주 제출하는 경우 제출된 기존 요청을 복사할 수 있습니다. 이 경우 기존 요청을 복사하고 최소 변경 내용을 적용한 다음 새 요청으로 다시 제출할 수 있습니다.
 
@@ -224,8 +222,6 @@ ht-degree: 3%
 
    복사된 요청이 지정한 요청 대기열에 새 요청으로 제출됩니다.
 
-<div class="preview">
-
 ## 새 요청 경험에서 요청 복사 및 제출
 
 Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사하고 제출할 수 있습니다.
@@ -263,5 +259,4 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사
 
    복사된 요청이 새 요청으로 제출됩니다.
 
-</div>
 

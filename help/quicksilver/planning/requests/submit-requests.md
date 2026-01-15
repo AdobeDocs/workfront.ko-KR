@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1815'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -272,8 +272,6 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
    Workfront Planning에서 레코드 유형 페이지가 열립니다.
 
-<div class="preview">
-
 ## 기존 요청을 복사하여 요청 만들기
 
 Workfront의 요청 목록에서 요청을 복사한 다음 세부 사항을 편집하고 새 요청으로 제출할 수 있습니다.
@@ -290,6 +288,5 @@ Workfront의 요청 목록에서 요청을 복사한 다음 세부 사항을 편
 
 지침은 [초안에서 요청 만들기](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)를 참조하십시오.
 
-</div>
 
 

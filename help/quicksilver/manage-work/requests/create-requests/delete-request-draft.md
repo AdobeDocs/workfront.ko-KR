@@ -6,16 +6,14 @@ description: 제출된 요청이나 요청 초안을 삭제할 수 있습니다.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '618'
 ht-degree: 3%
 
 ---
 
 # 제출된 요청 또는 요청 초안 삭제
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
 
 제출된 요청이나 새 요청 경험에서 만든 요청 초안을 삭제할 수 있습니다. Workfront 관리자 및 Planning 작업 영역 관리자는 요청을 삭제할 수도 있습니다.
 
@@ -63,16 +61,13 @@ ht-degree: 3%
 
 +++
 
-
-<div class="preview">
-
-## 새 요청 경험에서 <!--or request drafts --> 요청을 삭제합니다.
+## 새 요청 경험에서 요청 또는 요청 초안 삭제
 
 Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 삭제할 수 있습니다.
 
-* Workfront 관리자는 조직의 <!-- and drafts--> 요청을 삭제할 수 있습니다.
-* Workfront Planning 작업 영역 관리자는 자신이 관리하는 Planning 작업 영역에서 <!--and drafts--> 요청을 삭제할 수 있습니다.
-* 사용자가 제출한 <!--and drafts--> 요청을 삭제할 수 있습니다.
+* Workfront 관리자는 조직의 요청 및 초안을 삭제할 수 있습니다.
+* Workfront Planning 작업 영역 관리자는 관리하는 Planning 작업 영역에서 요청 및 초안을 삭제할 수 있습니다.
+* 사용자는 제출한 요청 및 초안을 삭제할 수 있습니다.
 
 ### 점 3개 메뉴에서 요청 삭제
 
@@ -86,12 +81,12 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 삭제
 
       내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.
 
-1. 요청 목록 또는 내 요청 위젯에서 삭제할 요청 <!--or draft -->을(를) 마우스로 가리킵니다.
+1. 요청 목록 또는 내 요청 위젯에서 삭제할 요청 또는 초안을 마우스로 가리킵니다.
 
    3점 추가 메뉴가 나타납니다.
    ![](assets/more-menu.png)
 
-1. 요청 **이름 오른쪽에 있는**&#x200B;자세히<!--or draft--> 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+1. 요청 또는 초안 이름의 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
    또는
 
@@ -103,7 +98,7 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 삭제
 
 1. 대화 상자가 열리면 **삭제**&#x200B;를 클릭합니다.
 
-   <!--or draft--> 요청이 삭제되었습니다.
+   요청 또는 초안이 삭제되었습니다.
 
 ### 대량 삭제 요청
 

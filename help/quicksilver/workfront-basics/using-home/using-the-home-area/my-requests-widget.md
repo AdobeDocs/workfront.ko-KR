@@ -6,16 +6,14 @@ description: 내 요청 위젯에서 요청을 제출할 수 있습니다. 필�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 9e4f67b4f5b03e1fc4f8e1a9ab00cc42b9796325
+source-git-commit: cdb1c365d8fc8f90a8a3488b3c641c97457c8c8d
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '982'
 ht-degree: 4%
 
 ---
 
 # 내 요청 위젯 사용
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 >[!IMPORTANT]
 >
@@ -70,15 +68,11 @@ ht-degree: 4%
 
 지침은 홈 영역에서 작업 항목 및 프로젝트 만들기 문서에서 [요청 만들기](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)를 참조하십시오.
 
-<div class="preview">
-
 ## 요청 복사
 
 내 요청 위젯에서 요청을 복사하고 편집한 다음 새 요청으로 제출할 수 있습니다.
 
 자세한 내용은 문서 복사 및 요청 제출의 [새 요청 경험에서 요청 복사 및 제출](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)을 참조하십시오.
-
-</div>
 
 ## 요청 필터링
 
@@ -98,7 +92,7 @@ ht-degree: 4%
    * 상태
    * 작성자
 
-   <span class="preview">미리 보기 환경에서 열로 추가된 사용자 지정 필드를 기준으로 필터링할 수도 있습니다      뷰로 이동합니다.</span>
+   보기에 열로 추가된 모든 사용자 지정 필드를 기준으로 필터링할 수도 있습니다.
 
 1. 다음 필드에서 이 필터 조건에 사용할 연산자를 선택합니다. 사용 가능한 연산자는 선택한 필드에 따라 다릅니다.
 1. (조건부) 연산자 오른쪽에 필드가 나타나면 필터링할 값을 선택합니다.
@@ -135,9 +129,9 @@ ht-degree: 4%
 1. 내 요청 위젯에서 **열**&#x200B;을 클릭합니다.
 1. (선택 사항)열 순서를 바꾸려면 이동할 열의 드래그 핸들 ![드래그 핸들](assets/drag-handle.png)을 클릭하고 원하는 위치로 드래그합니다. 목록 맨 위에 있는 열은 내 요청 위젯에서 가장 왼쪽 열로 표시됩니다.
 1. (선택 사항) 토글을 사용하여 열이 내 요청 위젯에 표시되는지 여부를 제어합니다.
-1. <span class="preview">사용자 지정 필드를 열로 추가하려면 화면 오른쪽 근처에 있는 **열 추가** 아이콘 ![열 추가](assets/add-column.png)를 클릭하고 위젯에 열로 추가할 사용자 지정 양식 필드 옆에 있는 더하기 아이콘을 클릭합니다.</span>
+1. 사용자 정의 필드를 열로 추가하려면 화면 오른쪽 근처에 있는 **열 추가** 아이콘 ![열 추가](assets/add-column.png)를 클릭하고 위젯에 열로 추가하려는 사용자 정의 양식 필드 옆에 있는 더하기 아이콘을 클릭합니다.
 
-   <span class="preview">목록의 개체에 첨부된 양식의 사용자 지정 필드를 열로 추가할 수 있습니다.</span>
+   목록의 개체에 첨부된 양식의 사용자 정의 필드를 열로 추가할 수 있습니다.
 
 열 환경 설정은 자동으로 저장됩니다.
 
@@ -153,11 +147,13 @@ ht-degree: 4%
 
 1. (선택 사항) 강조 표시된 요청으로 이동하려면 검색 막대에서 위쪽 또는 아래쪽 화살표를 클릭합니다.
 
-<div class="preview">
-
 ## 요청에 의해 생성된 오브젝트로 이동
 
 내 요청 위젯에서 요청에 의해 생성된 오브젝트를 찾을 수 있습니다.
+
+>[!NOTE]
+>
+>생성된 객체에 대한 링크는 요청 자체가 객체를 생성한 경우 Planning 요청에 대해서만 새 요청 환경에서 사용할 수 있습니다. Workfront 요청이 프로젝트 또는 다른 오브젝트로 전환되는 경우 전환된 해당 오브젝트에 대한 링크를 새 요청 경험의 요청 목록에서 사용할 수 없습니다.
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **내 요청** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 요청**&#x200B;을 찾습니다.
@@ -166,4 +162,3 @@ ht-degree: 4%
 
    객체의 페이지가 열립니다.
 
-</div>

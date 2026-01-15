@@ -6,16 +6,14 @@ description: 새 요청을 입력할 때 Workfront에서 제안하는 사용 가
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
 
 # 초안에서 요청 만들기
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 새 요청을 입력할 때 Workfront에서 제안하는 사용 가능한 초안을 사용할 수 있을 뿐만 아니라 초안 섹션에서 초안 요청에 액세스하고 여기에서 제출을 완료할 수도 있습니다.
 
@@ -64,15 +62,10 @@ ht-degree: 3%
 
 초안에서 요청을 만드는 절차는 새 요청 경험과 이전 경험 간에 다릅니다.
 
-* <span class="preview">[새 요청 환경의 초안에서 요청을 만듭니다](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [새 요청 경험의 초안에서 요청 만들기](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [기존 요청 환경의 초안에서 요청 만들기](#create-requests-from-drafts-in-the-legacy-requesting-experience)
 
-<div class="preview">
-
 ### 새 요청 경험의 초안에서 요청 만들기
-
-
-
 
 1. 초안을 엽니다.
 
@@ -98,8 +91,6 @@ ht-degree: 3%
 1. 요청에 대한 정보를 완료한 후 **제출**&#x200B;을 클릭합니다.
 
    요청을 제출하면 초안이 삭제되고 복원할 수 없습니다.
-
-</div>
 
 ### 기존 요청 환경의 초안에서 요청 만들기
 

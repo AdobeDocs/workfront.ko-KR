@@ -6,16 +6,14 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
 workflow-type: tm+mt
-source-wordcount: '2546'
+source-wordcount: '2532'
 ht-degree: 2%
 
 ---
 
 # 요청 만들기 및 제출
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 <!--Audited: 12/2023-->
 
@@ -109,7 +107,10 @@ Workfront 관리자는 요청 대기열의 다음 구성 요소를 만들어야 
 
 Workfront 웹 앱에서 요청을 만들면 Workfront은 요청을 제출하기 전에 초안으로 저장합니다. Workfront은 요청 대기열을 선택하고 해당 정보를 입력하는 즉시 초안을 만듭니다.
 
-요청을 계속 제출하거나, 가능한 한 많은 정보를 작성하고 다른 곳으로 이동하여 나중에 완료할 수 있습니다. Workfront은 초안 폴더 <span class="preview">이나 요청 목록에서 시작한 초안 요청을 저장합니다.</span>
+요청을 계속 제출하거나, 가능한 한 많은 정보를 작성하고 다른 곳으로 이동하여 나중에 완료할 수 있습니다. Workfront은 사용자가 시작한 초안 요청을 저장합니다. 다음 위치에서 찾을 수 있습니다.
+
+* 새 요청 경험: 요청 목록
+* 레거시 요청 경험: 초안 폴더
 
 >[!IMPORTANT]
 >
@@ -145,7 +146,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
    >새 요청 경험과 관련하여 다음 사항을 고려하십시오.
    >* 이 목록에는 Workfront 요청 대기열과 Workfront Planning 요청 양식이 모두 포함되어 있습니다.
    >* 객체 유형별로 목록을 필터링할 수 있습니다.
-   >* <span class="preview">새 요청 환경에서 초안이 제출된 요청과 동일한 목록에 있습니다</span>.
+   >* 새 요청 경험에서 초안은 제출된 요청과 동일한 목록에 있습니다.
 
 1. (조건부) 새 경험으로 전환한 경우 주제 그룹 및 대기열 주제를 선택하고 양식을 계속 업데이트합니다.
 

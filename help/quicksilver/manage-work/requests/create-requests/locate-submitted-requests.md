@@ -8,16 +8,14 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1544'
 ht-degree: 2%
 
 ---
 
 # 제출된 요청 보기
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 귀하 또는 다른 사람이 제출한 요청 또는 시작했지만 제출하지 않은 요청을 볼 수 있습니다. Adobe Workfront의 다음 영역에서 이러한 요청을 찾을 수 있습니다.
 
@@ -28,8 +26,8 @@ ht-degree: 2%
   >[!NOTE]
   >
   >* 자신의 초안 요청만 볼 수 있습니다.
-  >* <span class="preview">새 요청 환경에서 제출된 요청 및 초안이 같은 목록에 있습니다. </span>
-  >* <span class="preview">기존 경험에서 만든 초안이 새 요청 경험에 표시되지 않습니다.</span>
+  >* 새 요청 경험에서 제출된 요청과 초안이 동일한 목록에 있습니다.
+  >* 기존 경험에서 만든 초안은 새 요청 경험에 표시되지 않습니다.
 
 * Workfront에 있는 요청 영역의 **계획** 탭: Workfront Planning 요청 양식에 제출된 요청을 봅니다. 조직은 Workfront Planning 패키지를 구매해야 합니다. 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -83,7 +81,11 @@ ht-degree: 2%
 
 ### 새 요청 경험에서 제출된 요청 보기
 
-Planning 요청으로 생성된 개체에 대한 링크를 포함하는 요청 영역 <span class="preview">에서 제출된 요청을 볼 수 있습니다.</span>
+Planning 요청으로 생성된 객체에 대한 링크를 포함하는 요청 영역에서 제출된 요청을 볼 수 있습니다.
+
+>[!NOTE]
+>
+>생성된 객체에 대한 링크는 요청 자체가 객체를 생성한 경우 Planning 요청에 대해서만 새 요청 환경에서 사용할 수 있습니다. Workfront 요청이 프로젝트 또는 다른 오브젝트로 전환되는 경우 전환된 해당 오브젝트에 대한 링크를 새 요청 경험의 요청 목록에서 사용할 수 없습니다.
 
 사용자 또는 다른 사용자가 새 요청 경험에서 제출한 요청을 보려면 다음 작업을 수행하십시오.
 
