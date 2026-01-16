@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: 85c6985d27ef0806e9152ecf2cbd90ca63a588c6
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -236,7 +236,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
    * 사용자 추가 또는 제거
    * 하위 그룹 추가 또는 제거
 
-### s {#job-role}
+### 작업 역할 {#job-role}
 
 사용자가 다음 작업 중 하나를 수행하면 시스템에서 작업 역할 감사 로그 항목을 생성합니다.
 
