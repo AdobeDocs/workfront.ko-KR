@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: bbb0399787938033886807d0372e9958ce2fcc00
+source-git-commit: d60123df6e18025a886809fa390137bdf9287e6e
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2014'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,10 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 
 ## Workspace 기본 페이지 개선 사항
+
+>[!IMPORTANT]
+>
+>이 기능은 미리보기 및 프로덕션 환경에서 일시적으로 제거되었습니다.
 
 >[!NOTE]
 >
