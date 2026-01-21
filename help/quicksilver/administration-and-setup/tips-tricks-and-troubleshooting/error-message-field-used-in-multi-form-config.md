@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 8b93842d7ce61c7c84b07639b6329bedf4254ffd
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,15 @@ ht-degree: 0%
 * 오브젝트에 첨부된 모든 사용자 정의 양식에서 필요한 계산이 포함된 새 계산된 사용자 정의 필드를 추가하고 이전 계산된 사용자 정의 필드를 더 이상 사용하지 않는 것으로 표시합니다.
 
 이 문서에서는 객체를 찾은 다음 이 세 가지 방법 중 하나로 문제를 해결하는 방법에 대해 설명합니다.
+
+>[!NOTE]
+>
+>오류가 표시되지만 사용자 지정 필드가 포함된 둘 이상의 개체를 찾을 수 없는 경우 휴지통을 확인하십시오. 휴지통에 있는 오브젝트에 필드가 포함되어 있을 수 있습니다. 휴지통의 오브젝트는 언제든지 복원할 수 있으므로 충돌이 해결될 때까지 다중 양식 충돌 오류가 계속 발생합니다.
+>
+>다른 표현식이 있는 필드를 추가하려면 다음 중 하나를 수행하여 이 충돌을 해결해야 합니다.
+>
+>* 충돌하는 사용자 정의 양식에서 필드 제거
+>* 삭제된 개체를 복원하고 충돌하는 사용자 정의 양식 중 하나를 분리한 다음 필요한 경우 개체를 다시 삭제합니다.
 
 ## 사용자 정의 양식이 첨부된 오브젝트 찾기 {#find-the-object-where-the-custom-forms-are-attached}
 
