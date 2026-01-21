@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: b926138cca96849f8c4490ec9550fecfd17da69a
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '647'
 ht-degree: 5%
 
 ---
@@ -60,7 +60,7 @@ AI 검토자는 다음 파일 유형을 검토할 수 있습니다.
 
 ## 브랜드 지침 설정
 
-Workfront AI 검토자는 콘텐츠를 검토할 때 브랜드 지침을 사용합니다. Workfront 관리자는 Workfront 설정 영역에서 브랜드 지침을 설정할 수 있습니다. &lt;!—GenStudio Foundation에서 만든 브랜드는 Workfront에서도 사용할 수 있습니다.
+Workfront AI 검토자는 콘텐츠를 검토할 때 브랜드 지침을 사용합니다. Workfront 관리자는 Workfront 설정 영역에서 브랜드 지침을 설정할 수 있습니다. <!--Brands created in GenStudio Foundation are also available in Workfront.-->
 
 자세한 내용은 [AI 검토자를 위한 브랜드 설정](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)을 참조하십시오.
 
