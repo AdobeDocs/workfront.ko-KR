@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 167037c90b2da8164db62fe6304ce935104bdf05
+source-git-commit: d84264110fe6abe2a260cc46483c78b9b0034b9b
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '112'
 ht-degree: 1%
 
 ---
@@ -34,8 +34,6 @@ Beta에서 사용할 수 있는 기능은 일부 고객에게는 제공되지 �
 * Workfront AI 검토자
 자세한 내용은 [Workfront AI 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)을 참조하세요.
 
-* AI 양식 채우기
-자세한 내용은 [AI 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청 작성](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)을 참조하십시오.
 
 
 <!--
