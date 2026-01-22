@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1883'
 ht-degree: 2%
 
 ---
@@ -190,7 +190,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    **공유** 상자가 열립니다.
 
-   ![에서 상속된 사용 권한을 가진 레코드에 대한 &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)사용 권한
+   ![에서 상속된 사용 권한을 가진 레코드에 대한 ](assets/permissions-for-records-with-inherited-permissions-on.png)사용 권한
 
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역 및 레코드 유형에 대해 **보기** 이상의 권한이 있는 모든 사용자는 레코드에 대해 동일한 권한을 가집니다.
 
@@ -198,7 +198,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    >[!TIP]
    >
-   >상속된 권한 목록에서 개별 엔티티를 제거할 수 없습니다.
+   >상속된 권한 목록에서 개별 엔티티를 제거할 수 없습니다. <!--test this!-->
 
 1. (선택 사항 및 조건부) 특정 엔티티와 레코드를 공유하고 작업 공간에 이미 있는 것과 다른 레코드 유형에 대한 액세스 권한을 부여하려면 다음을 수행합니다.
 
@@ -224,6 +224,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
    >* 사용자가 작업 공간 및 레코드 유형에 대한 기여 또는 관리 권한을 가지고 있는 경우 레코드에 대한 관리 권한을 유지합니다. 보기 권한이 흐리게 표시됩니다. <!--this is not dimmed at this time, Lilit to check-->
    >* 사용자에게 레코드 유형에 대한 Contribute 이상이 있으면 레코드에 대한 권한을 줄일 수 없습니다.
    > 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
+   >* 사용자와 레코드를 공유하면 기본 작업 역할 <span class="preview">과(와) 전자 메일</span>도 필드에 표시됩니다. 사용자 이메일을 보려면 액세스 수준의 사용자 개체에 대해 연락처 정보 보기 설정을 활성화해야 합니다.
 
 1. 작업 영역에 대한 권한이 없는 사용자에게 레코드를 볼 수 있는 액세스 권한을 부여하려면 **이 보기에 대한 액세스 권한 부여** 필드에 사용자, 그룹, 팀, 회사 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 

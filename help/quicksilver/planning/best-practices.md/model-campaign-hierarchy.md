@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 성공을 위한 프레임워크: 캠페인 계층 구조 모델링
 
-
+<!--see the file again for additional comments from Seth and others-->
 
 ## 목표
 

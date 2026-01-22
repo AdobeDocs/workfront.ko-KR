@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -221,15 +221,15 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 * 보조 작업 영역에서 글로벌 레코드 유형을 삭제하면 다음 항목도 삭제됩니다.
 
-   * 보조 작업공간에서 추가된 레코드는 보조 작업공간에서 삭제되며 복구할 수 없습니다.
-
-     보조 작업 영역에 추가된 레코드는 글로벌 레코드 유형의 기본 작업 영역에 그대로 유지됩니다. 글로벌 레코드 종류의 기본 작업 영역에서 이러한 레코드에 대한 **Workspace** 필드가 비어 있습니다. <!--checking on this with Lilit-->
+   * 보조 작업공간에서 추가된 레코드는 보조 작업공간과 원래 작업공간에서 삭제되며 복구할 수 없습니다.
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
 * 보조 작업 영역에서 삭제된 글로벌 레코드 유형은 복구할 수 없습니다.
 
 * 원래 레코드 유형은 원래 작업 영역뿐만 아니라 원래 작업 영역이 추가된 다른 작업 영역에도 유지됩니다.
+
+* 보조 작업공간의 기록 유형에 추가된 보기는 유지되며 사용자와 공유되는 경우 다른 작업공간에서 볼 수 있습니다.
 
 보조 작업 영역에서 글로벌 레코드 유형을 삭제하려면 다음을 수행합니다.
 

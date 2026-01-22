@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,8 @@ And
 
       * 모든 원본 필드
       * 모든 레코드 연결
-   * 해당 작업 영역에 대해 적어도 보기 권한이 있는 경우에만 동일한 글로벌 레코드 유형을 사용하는 다른 작업 영역에서 추가된 레코드를 볼 수 있습니다. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
+   * 보조 작업공간에서는 레코드 유형의 원본 작업공간에서 추가된 레코드를 볼 수 없습니다.
+   * 해당 작업 영역에 대해 적어도 보기 권한이 있는 경우 해당 작업 영역에서 레코드 유형의 원래 작업 영역에서 추가된 레코드를 원래 작업 영역에서만 볼 수 있습니다.
    * 읽기 전용 **Workspace** 필드가 새 레코드 형식 테이블 보기에 추가되었습니다. 필드에는 각 레코드가 생성된 작업 공간이 표시됩니다.
 
      >[!NOTE]
@@ -147,7 +148,12 @@ And
      >
 
 1. (선택 사항) 을 클릭한 다음, 새로 추가된 레코드 유형을 작업 공간 내의 임의의 섹션으로 끌어다 놓습니다.
-1. (선택 사항) 새 레코드 종류의 카드 또는 해당 페이지의 레코드 종류 이름 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+1. (선택 사항) 새 레코드 종류의 카드에서 또는 해당 페이지의 레코드 종류 이름 오른쪽에 있는 **자세히** 메뉴를 클릭한 후 다음 중 하나를 클릭합니다.
+
+   * **공유**&#x200B;하여 보조 작업 영역에서 레코드 형식을 공유합니다.
+   * 보조 작업 영역에서 레코드 종류를 삭제하려면 **삭제**&#x200B;하십시오. 보조 작업 영역에서 레코드 유형을 삭제하면 보조 작업 영역에서 추가된 레코드도 삭제됩니다.
+
+     보조 작업 영역에서 추가된 보기는 삭제되지 않습니다. <!--checking with Lilit - not sure if this is by design??-->
 
    자세한 내용은 문서 [레코드 종류 삭제](/help/quicksilver/planning/architecture/delete-record-types.md)의 &quot;전역 레코드 종류 삭제&quot; 섹션을 참조하십시오.
 

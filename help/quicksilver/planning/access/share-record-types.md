@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1547'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # 레코드 유형 공유
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -186,7 +186,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
   자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
 
-
 ## 레코드 종류에 대한 권한 공유
 
 작업 공간에 대한 관리 권한이 있는 경우 작업 공간의 개별 레코드 유형에 대한 권한을 조정할 수 있습니다.
@@ -202,14 +201,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    **공유** 상자가 열립니다.
 
-   ![에서 상속된 사용 권한을 가진 레코드 형식에 대한 &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)사용 권한
+   ![에서 상속된 사용 권한을 가진 레코드 형식에 대한 ](assets/permissions-for-record-types-with-inherited-permissions-on.png)사용 권한
 
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 레코드 유형을 볼 수 있습니다.
-
-   >[!WARNING]
-   >
-   >레코드 종류는 개별 사용자와 공유할 수 없습니다. 레코드 유형에 개별 사용자를 추가하면 해당 사용자도 작업 공간에 추가됩니다.
-
 
 1. (선택 사항) 작업 영역에서 권한을 상속하는 사용자, 팀, 그룹, 회사 또는 작업 역할을 보려면 **상속된 권한** 옵션 아래의 사용자 수를 클릭합니다.
 
@@ -235,6 +229,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >* 작업 영역에 대한 관리 권한이 있는 경우 사용자에게 레코드 유형에 대한 관리 권한보다 적은 권한을 부여할 수 없습니다.
    >* 작업 영역에 대한 기여 권한이 있는 경우 사용자에게 레코드 유형에 대한 권한을 덜 부여할 수 있습니다.
    > 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
+   >* 사용자와 레코드 유형을 공유하면 기본 작업 역할 <span class="preview">과(와) 전자 메일</span>도 필드에 표시됩니다. 사용자 이메일을 보려면 액세스 수준의 사용자 개체에 대해 연락처 정보 보기 설정을 활성화해야 합니다.
 
 1. 작업 영역에 대한 액세스 권한이 없는 사용자에게 레코드 종류를 볼 수 있는 액세스 권한을 부여하려면 **이 보기에 대한 액세스 권한 부여** 필드에 사용자, 그룹, 팀, 회사 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
