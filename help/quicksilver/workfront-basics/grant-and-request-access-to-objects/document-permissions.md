@@ -16,13 +16,13 @@ ht-degree: 5%
 
 # 문서 공유
 
-Workfront 관리자는 [설정]의 [액세스 수준] 영역에서 문서를 보거나 편집할 수 있는 사용자를 제어합니다. 자세한 내용은 문서에[ 대한 액세스 권한 부여를 참조하세요](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
+Workfront 관리자는 [설정]의 [액세스 수준] 영역에서 문서를 보거나 편집할 수 있는 사용자를 제어합니다. 자세한 내용은 문서에[&#x200B; 대한 액세스 권한 부여를 참조하세요](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
 또한 사용자는 업로드했거나 액세스 권한이 있는 문서를 공유하여 다른 사람에게 문서를 보거나 관리할 수 있는 권한 권한을 부여할 수 있습니다.
 
 * 사용 권한은 개별 항목에 적용되며 사용자가 수행할 수 있는 작업을 정의합니다.
 * 문서를 업로드하는 사람은 자동으로 모든 권한(관리 권한)을 갖습니다.
-* 전체 폴더를 공유하려면 문서 폴더[ 공유를 참조하십시오](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+* 전체 폴더를 공유하려면 문서 폴더[&#x200B; 공유를 참조하십시오](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Workfront에 문서를 업로드하는 사용자에게는 기본적으로 관리
 
 1. **문서** 페이지의 모든 문서&#x200B;**탭**&#x200B;에서 키보드의 명령&#x200B;**(Mac) 또는** Ctrl **(Windows)을 누른**&#x200B;상태에서 공유하려는 각 문서를 클릭합니다.
 
-1. 페이지 상단에서 공유&#x200B;**아이콘**&#x200B;공유 아이콘을![ 클릭합니다](assets/share-icon.png). 공유 모달이 열립니다.
+1. 페이지 상단에서 공유&#x200B;**아이콘**&#x200B;공유 아이콘을![&#x200B; 클릭합니다](assets/share-icon.png). 공유 모달이 열립니다.
 
    ![공유 아이콘](assets/share-documents-in-bulk.png)
 
@@ -147,7 +147,7 @@ Workfront에 문서를 업로드하는 사용자에게는 기본적으로 관리
 
 ## Adobe Systems 기업용 스토리지로 문서 공유
 
-Workfront는 Adobe Creative Cloud 제품과의 연결성을 강화하기 위해 Adobe Systems 엔터프라이즈 스토리지 솔루션으로 전환하고 있습니다. 기존 고객은 단계적으로 새 모델로 이동됩니다. Adobe Systems 엔터프라이즈 스토리지의 이점에 대한 자세한 내용은 엔터프라이즈 스토리지 개요를[ 방문](/help/quicksilver/review-and-approve-work/esm-overview.md)Adobe Systems.
+Workfront는 Adobe Creative Cloud 제품과의 연결성을 강화하기 위해 Adobe Systems 엔터프라이즈 스토리지 솔루션으로 전환하고 있습니다. 기존 고객은 단계적으로 새 모델로 이동됩니다. Adobe Systems 엔터프라이즈 스토리지의 이점에 대한 자세한 내용은 엔터프라이즈 스토리지 개요를[&#x200B; 방문](/help/quicksilver/review-and-approve-work/esm-overview.md)Adobe Systems.
 
 Workfront 인스턴스에서 Adobe Systems 엔터프라이즈 스토리지를 사용하는 경우 개별 문서를 직접 공유할 수 없습니다. 대신 프로젝트 수준에서 액세스 권한을 부여해야 합니다.
 
@@ -315,7 +315,7 @@ Workfront 인스턴스에서 Adobe Systems 엔터프라이즈 스토리지를 �
 
 &#42; 작업은 문서와 문서 폴더 모두에서 공유됩니다.
 
-&#42;&#42; 문서를 증명할 수 있으려면 Workfront 계정 계정과 연결된 별도의 교정 라이선스가 있어야 합니다. 교정 라이센스 획득에 대해서는 계정 관리자 에게 문의하십시오. Workfront의 교정에 대한 자세한 내용은 교정을[ 참조하십시오](../../review-and-approve-work/proofing/proofing.md).
+&#42;&#42; 문서를 증명할 수 있으려면 Workfront 계정 계정과 연결된 별도의 교정 라이선스가 있어야 합니다. 교정 라이센스 획득에 대해서는 계정 관리자 에게 문의하십시오. Workfront의 교정에 대한 자세한 내용은 교정을[&#x200B; 참조하십시오](../../review-and-approve-work/proofing/proofing.md).
 
 ## 문서 공유에 대한 고려 사항
 
@@ -339,12 +339,12 @@ Workfront 인스턴스에서 Adobe Systems 엔터프라이즈 스토리지를 �
 
 * Workfront 계정 계정이 없는 사람과 문서 액세스 권한 부여 필드에 이메일 주소를 추가하여 문서를 공유할 수 있습니다.
 * 문서를 공유하면 사용자는 모든 문서 버전 및 모든 문서 교정본에 대해 동일한 액세스 권한을 갖게 됩니다.\
-  Workfront의 교정에 대한 자세한 내용은 교정[ 섹션을 참조하십시오](../../review-and-approve-work/proofing/proofing.md).
+  Workfront의 교정에 대한 자세한 내용은 교정[&#x200B; 섹션을 참조하십시오](../../review-and-approve-work/proofing/proofing.md).
 
 * 연결된 개체에서 문서에 대한 사용 권한을 상속할 수 있습니다. Workfront 관리자는 사용자의 액세스 수준에서 문서에 대한 권한 상속을 제한할 수 있습니다.
 
-  문서에 대해 상속된 사용 권한을 제한하는 방법에 대한 자세한 내용은 사용자 지정 액세스 수준[ 만들기 또는 수정을 참조하십시오](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  문서에 대해 상속된 사용 권한을 제한하는 방법에 대한 자세한 내용은 사용자 지정 액세스 수준[&#x200B; 만들기 또는 수정을 참조하십시오](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-  문서에 대해 상속된 사용 권한을 수동으로 제거할 수 있습니다. 자세한 내용은 개체에서 사용 권한 제거 항목을 참조하십시오 [](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+  문서에 대해 상속된 사용 권한을 수동으로 제거할 수 있습니다. 자세한 내용은 개체에서 사용 권한 제거 항목을 참조하십시오 [&#128279;](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
 * 첨부된 문서는 첨부된 개체로부터만 사용 권한을 상속합니다. 개체에 폴더를 만들고 문서를 폴더로 이동하면 폴더에 폴더의 권한이 상속됩니다. 그러나 부모 또는 조부모 개체에 폴더를 만들고 문서를 해당 폴더로 이동하면 해당 폴더의 사용 권한이 상속되지 않습니다.
