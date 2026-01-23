@@ -4,9 +4,9 @@ description: Adobe Planning Designer을 사용하면 Workfront Planning의 레�
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 866b237db5d109b0a435145119a6412e41d960ab
+source-git-commit: bd3dde54d986416af847b2f3b2a1e8570d5ce3f2
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1278'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Workfront Planning에 대한 자세한 내용은 다음 문서를 참조하십�
 * [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)
 
 
-## 액세스 요구 사항
+## 액세스 요구 사항 <!--edit theses??-->
 
 +++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
@@ -72,20 +72,29 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## Planning Designer에 대해 Closed Beta 프로그램에 등록
 
-<!--edit this Or create a new article under Beta programs?? -->
+현재, sargism@adobe.com으로 이메일을 보내 Planning Designer에 대한 Closed Beta 프로그램에 참여를 요청할 수 있습니다.
 
-현재, Planning Designer에 대해 Closed Beta 프로그램 참여를 요청할 수 있습니다.
+이메일을 수신하면 엔지니어링 팀이 Workfront 인스턴스에서 계획 Designer을 켭니다.
+
+>[!IMPORTANT]
+>
+>시스템에서 Planning Designer을 사용하려면 먼저 귀사에서 AI Assistant 계약에 동의해야 합니다.
 
 ## Planning Designer에 대한 고려 사항
 
-* Planning Designer을 사용하려면 조직에서 Workfront AI Assistant를 사용하기 위한 요구 사항을 충족해야 합니다.
+* Planning Designer을 사용하려면 먼저 조직에 대한 AI Assistant를 켜야 합니다. 조직의 모든 사용자가 AI Assistant를 사용할 수 있으려면 다음 조건을 충족해야 합니다.
 
-  자세한 내용은 [AI Assistant의 필수 구성 요소](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)를 참조하십시오.
+   * Workfront은 귀사에서 AI Assistant를 사용할 수 있도록 해야 합니다.
 
-* Planning Designer을 사용하려면 시스템 관리자가 설정의 시스템 환경설정 영역에서 활성화해야 합니다.
+     자세한 내용은 [AI Assistant의 필수 구성 요소](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)를 참조하십시오.
+   * Workfront에서 조직에서 AI Assistant를 사용할 수 있도록 하면 주 Workfront 관리자가 액세스할 수 있습니다.
 
-* Planning 영역에서 Workfront AI Assistant를 사용하거나 Planning Designer을 사용하여 Planning 객체를 작성하는 프롬프트를 사용할 수 있습니다.
+     자세한 내용은 [시스템에 대한 기본 정보 구성](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)을 참조하십시오.
+   * Workfront 관리자는 AI Assistant 계약에 동의한 다음 다른 모든 사용자에 대해 AI Assistant를 켜야 합니다.
 
+     자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
+* 시스템 관리자가 조직에 대해 AI 비서를 켜면 기본적으로 모든 사용자가 계획 도우미를 사용할 수 있습니다(조직에서 사용할 수 있게 된 경우).
+* Planning Designer에서 수행하는 작업은 계획 영역에서 AI 도우미를 사용할 때도 수행할 수 있습니다.
 * 계획 영역에서 AI 어시스턴트에 의해 수행되는 작업이나 Planning Designer에 의해 수행되는 작업은 Workfront Planning 권한 및 Workfront 액세스 수준의 컨텍스트에 있습니다.
 
   자세한 내용은 다음 문서를 참조하십시오.
@@ -93,11 +102,13 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)
    * [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/planning/access/license-type-overview.md)
 
-* 사용자를 대신하여 Planning Designer에서 수행한 변경 사항은 레코드의 기록 패널에서 추적됩니다.
+* 사용자를 대신하여 AI Assistant 또는 Planning Designer에서 수행한 변경 사항은 레코드의 내역 패널에서 추적됩니다.
 
-* 명령을 사용하여 작업을 취소할 수 있습니다. 예를 들어 &quot;마지막 변경 내용 실행 취소&quot;를 입력하여 변경 내용을 되돌릴 수 있습니다.
+* Planning Designer에서 수행한 작업은 영구적이며 취소가 불가능합니다. 예를 들어 필드를 삭제하면 되돌릴 수 없습니다. Designer에서 제안한 모든 작업을 수락하기 전에 검토하십시오.
 
-* Planning Designer을 통해 객체를 생성, 업데이트 또는 삭제할 때 의도한 작업을 표시하고 확인을 요청합니다. 그런 다음 작업을 확인하거나 취소할 수 있습니다.
+  >[!IMPORTANT]
+  >
+  >Planning Designer을 통해 객체를 생성, 업데이트 또는 삭제할 때 프롬프트는 취소할 수 없는 작업에 대해서만 확인을 요청합니다. 예를 들어 레코드 유형이나 작업 영역을 삭제하면 되돌릴 수 없습니다. 레코드 삭제는 허용되지 않습니다. Planning Designer은 레코드 유형 또는 작업 영역을 삭제하려고 할 때만 확인을 요청합니다.
 
 * Planning Designer을 사용하여 작업 공간 및 레코드 유형을 만들면 뷰 및 필드도 자동으로 생성됩니다.
 
@@ -107,7 +118,7 @@ Planning Designer 또는 AI Assistant를 사용하여 다음 작업 중 하나�
 
 * 작업 공간 만들기 및 구성
 
-* 레코드 유형 만들기
+* 작업 공간에 글로벌 레코드 유형 정의 및 추가를 포함한 레코드 유형 만들기
 
 * 디자인 필드 또는 공식 필드
 
@@ -121,44 +132,32 @@ Planning Designer 또는 AI Assistant를 사용하여 다음 작업 중 하나�
 
 * 사용자 정의 보기 작성
 
-* 문서를 가져와서 레코드를 만듭니다.
+* 문서를 가져와서 레코드 만들기
 
-  가져온 문서에서 레코드를 만드는 방법은 Planning Designer에서만 사용할 수 있으며 AI Assistant에서는 사용할 수 없습니다.
+  예를 들어 회사의 조직도 사진을 업로드할 수 있으며 Planning Designer에서 이를 기반으로 작업 공간을 생성할 수 있습니다.
 
-  허용되는 파일 형식 및 크기에 대한 자세한 내용은 문서 [AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우는 방법](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)의 &quot;문서 보호&quot; 섹션을 참조하십시오.
+  가져온 문서에서 개체를 만드는 방법은 Planning Designer에서만 사용할 수 있으며 AI Assistant에서는 사용할 수 없습니다.
+
+  >[!IMPORTANT]
+  >
+  >.XLSX 및 .CSV 파일 유형은 지원되지만 Planning Designer을 통한 대규모 레코드 가져오기에는 사용할 수 없습니다.
+  >지금 많은 레코드를 가져와야 하는 경우 Planning에서 사용할 수 있는 수동 기능을 사용하여 가져오는 것이 좋습니다.
+  >
+  >자세한 내용은 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 만들기](/help/quicksilver/planning/records/import-file-to-create-records.md)를 참조하십시오.
+  >파일 형식 제한 사항에 대해서는 [AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우는 방법](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)의 &quot;업로드한 문서에 따라 제안 받기&quot; 섹션을 참조하십시오.
+
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
-
-## 조직에 대한 Designer 계획 활성화
-
-Workfront 관리자는 먼저 조직에 대해 Planning Designer을 활성화해야 합니다.
-
-<!--add steps here-->
-
-1. Workfront에 시스템 관리자로 로그인합니다.
-1. 화면 왼쪽 상단에서 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-shell.png)을 클릭한 다음 **설정**&#x200B;을 클릭합니다.
-1. 왼쪽 패널에서 **시스템** > 을 클릭한 다음 **AI 환경 설정** 영역으로 이동합니다.
-1. 다음 설정을 켭니다.
-   * **AI 사용**
-   * **AI 베타 옵트인**
-   * **Designer 계획**
-
-   ![시스템 환경 설정에서 Planning Designer 설정](assets/planning-designer-toggle-in-system-preferences.png)
-1. **저장**&#x200B;을 클릭합니다.
-
-   이제 표준 라이선스가 있는 시스템의 모든 사용자가 계획 영역의 작업 영역 기본 페이지에서 **AI로 디자인** 단추를 볼 수 있습니다. <!--check screen shot-->
-
-   ![작업 영역 페이지의 AI 단추로 디자인](assets/design-with-ai-button-on-workspaces-page.png)
-
-   이제 모든 사용자는 Planning Designer을 시작하고 사용하여 Workfront Planning 객체를 생성하고 업데이트할 수 있습니다.
 
 ## Planning Designer을 사용하여 객체 생성 또는 갱신
 
 별도로 지정하지 않는 한 Planning Designer 또는 AI Assistant를 사용하여 Workfront Planning에서 객체를 생성하거나 갱신할 수 있습니다.
 
-1. Workfront에 로그인한 다음 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭합니다.
+1. Workfront에 로그인한 다음 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭한 다음 **계획**&#x200B;을 클릭합니다.
 
-1. **계획**&#x200B;을 클릭합니다. 계획 영역이 열립니다.
+   **계획** 영역이 열립니다.
+
+   ![작업 영역 페이지에서 AI로 디자인 단추](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. **AI로 디자인**&#x200B;을 클릭합니다.
 
@@ -166,11 +165,11 @@ Workfront 관리자는 먼저 조직에 대해 Planning Designer을 활성화해
 
    ![계획 Designer 창](assets/planning-designer-window.png)
 
-1. 제공된 공간에서 AI Assistant에 대한 명령을 입력한 다음 완료되면 Enter 를 클릭합니다.
+1. 제공된 스페이스에서 AI Assistant에 대한 프롬프트를 입력한 다음 완료되면 Enter 키를 누릅니다.
 
    <!--add screen shot-->
 
-   예를 들어 아래 요청과 유사한 요청을 입력할 수 있습니다.
+   예를 들어 아래 프롬프트와 유사한 프롬프트를 입력할 수 있습니다.
 
    * 캠페인을 관리할 다섯 가지 레코드 유형으로 작업 영역 만들기 및 구성
 
@@ -196,12 +195,35 @@ Workfront 관리자는 먼저 조직에 대해 Planning Designer을 활성화해
 
    개체를 만드는 데 동의하면 변경 내용이 프롬프트 영역의 오른쪽에 표시됩니다.
 
-   프롬프트 오른쪽에 있는 미리보기 영역에서 작업 공간, 레코드 유형, 필드, 보기 및 레코드를 검토할 수 있습니다.
+   프롬프트 오른쪽에 있는 미리보기 영역에서 작업 공간, 레코드 유형, 필드, 보기 및 레코드를 볼 수 있습니다.
+
+   >[!TIP]
+   >
+   >일부 객체는 확인이 필요 없이 즉시 생성됩니다.
+
 1. (선택 사항) 객체를 추가로 편집하려면 추가 프롬프트를 입력합니다.
-1. (선택 사항) **AI 작업 영역 미리 보기 화면 전환** 아이콘 ![미리 보기 화면 숨기기 또는 표시 아이콘](assets/hide-show-preview-screen-in-planning-designer.png)을 클릭하여 오른쪽의 미리 보기 화면을 열거나 닫습니다.
+1. (선택 사항) **미리 보기 화면 표시 또는 숨기기** 아이콘 ![미리 보기 화면 표시 또는 숨기기 아이콘](assets/hide-show-preview-screen-in-planning-designer.png)을 클릭하여 오른쪽의 미리 보기 화면을 열거나 닫습니다.
 1. **새 탭에서 작업 영역 열기** ![새 탭에서 작업 영역 열기](assets/open-workspace-on-new-tab-icon.png)를 클릭하여 업데이트하려는 작업 영역을 새 탭에서 엽니다.
 1. **닫기** 아이콘 **X**&#x200B;을(를) 클릭하여 Planning Designer을 닫고 작업 영역 영역을 엽니다.
 1. Planning Designer을 사용하여 편집한 작업공간을 열고 해당 객체를 추가로 변경합니다.
+
+## 조직에 대한 Designer 계획 해제
+
+Workfront 관리자가 AI Assistant 계약을 수락하면 기본적으로 조직의 모든 사람에 대해 Planning Designer이 켜집니다.
+
+해제하려면:
+
+1. Workfront에 시스템 관리자로 로그인합니다.
+1. 화면 왼쪽 상단에서 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-shell.png)을 클릭한 다음 **설정**&#x200B;을 클릭합니다.
+1. 왼쪽 패널에서 **시스템** > 을 클릭한 다음 **AI 환경 설정** 영역으로 이동합니다.
+1. **계획 중인 Designer** 설정을 끕니다. <!--add new screen shot with info icon-->
+
+   ![시스템 환경 설정에서 Planning Designer 설정](assets/planning-designer-toggle-in-system-preferences.png)
+1. **저장**&#x200B;을 클릭합니다.
+
+   이렇게 하면 시스템의 모든 사용자에 대한 Planning Designer이 제거됩니다.
+
+
 
 
 

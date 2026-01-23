@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 179a20f1ae6ab723963cc78e9573560968500ac5
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 0%
+source-wordcount: '797'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ AI Assistant를 사용하여 현재 페이지 컨텍스트 및 레코드 구조�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -78,7 +78,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 * 사용자를 대신하여 AI 어시스턴트가 변경한 내용은 레코드 기록 패널에서 추적됩니다.
 
-* 명령을 사용하여 작업을 취소할 수 있습니다. 예를 들어 &quot;마지막 변경 내용 실행 취소&quot;를 입력하여 변경 내용을 되돌릴 수 있습니다.
+* AI 관리자가 수행하는 작업은 영구적이며 취소될 수 있습니다. 예를 들어 필드를 삭제하면 되돌릴 수 없습니다. AI 도우미가 제안한 모든 작업을 수락하기 전에 검토하십시오.
 
 * AI 어시스턴트를 통해 오브젝트를 생성, 업데이트, 삭제할 경우 AI 어시스턴트가 의도한 동작을 표시하고 확인을 요청한다. 그런 다음 작업을 확인하거나 취소할 수 있습니다.
 
