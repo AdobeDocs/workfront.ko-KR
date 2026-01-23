@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: b926138cca96849f8c4490ec9550fecfd17da69a
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ Workfront에서 AI 검토자를 설정하려면 시스템 관리자여야 합니
 
 * 조직이 Adobe IMS(Identity Management System)로 마이그레이션되었어야 합니다.
 * Workfront 인스턴스에는 통합 승인이 활성화되어 있어야 합니다.
-  <!--* Your organization must have GenStudio Foundation.-->
+* 조직에 GenStudio Foundation이 있어야 합니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 계약 서명에 대한 자세한 내용은 [Adobe Gen AI 계약 서명](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)을 참조하십시오.
 
@@ -60,7 +60,7 @@ AI 검토자는 다음 파일 유형을 검토할 수 있습니다.
 
 ## 브랜드 지침 설정
 
-Workfront AI 검토자는 콘텐츠를 검토할 때 브랜드 지침을 사용합니다. Workfront 관리자는 Workfront 설정 영역에서 브랜드 지침을 설정할 수 있습니다. <!--Brands created in GenStudio Foundation are also available in Workfront.-->
+Workfront AI 검토자는 콘텐츠를 검토할 때 브랜드 지침을 사용합니다. Workfront 관리자는 Workfront 설정 영역에서 브랜드 지침을 설정할 수 있습니다. GenStudio Foundation에서 만든 브랜드는 Workfront에서도 사용할 수 있습니다.
 
 자세한 내용은 [AI 검토자를 위한 브랜드 설정](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)을 참조하십시오.
 

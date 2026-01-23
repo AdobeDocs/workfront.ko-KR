@@ -6,9 +6,9 @@ description: AI 검토자를 위한 브랜드 설정
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '410'
 ht-degree: 5%
 
 ---
@@ -57,7 +57,7 @@ AI 검토자는 브랜드 가이드라인을 사용하여 검토 과정에서 �
 
 * 조직이 Adobe IMS(Identity Management System)로 마이그레이션되었어야 합니다.
 * Workfront 인스턴스에는 통합 승인이 활성화되어 있어야 합니다.
-  <!--* Your organization must have GenStudio Foundation.-->
+* 조직에 GenStudio Foundation이 있어야 합니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 계약 서명에 대한 자세한 내용은 [Adobe Gen AI 계약 서명](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)을 참조하십시오.
 
