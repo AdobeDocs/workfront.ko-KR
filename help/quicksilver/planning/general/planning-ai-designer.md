@@ -1,32 +1,33 @@
 ---
 title: Adobe Workfront Planning Designer 시작
-description: Adobe Planning Designer을 사용하면 Workfront Planning의 레코드 유형 및 필드로 완료된 새 작업 공간을 생성하거나 작업 공간에 객체를 추가하거나 레코드에 대한 변경 내역을 볼 수 있습니다.
+description: AI에서 제공하는 Adobe Planning Designer을 사용하여 작업 공간 및 데이터 구조를 쉽게 구성할 수 있습니다. Planning Designer은 작업 공간 생성 및 구성에서 필드 및 공식 정의, 레코드 관리, 변경 내용 검토 및 사용자 정의 보기 작성에 이르기까지 모든 작업을 지원합니다. Planning Designer은 직접 사용하든 AI Assistant를 통해 사용하든 상관없이 구조화되고 연결된 정보를 구축하고 유지할 수 있는 유연하고 강력한 환경을 제공합니다.
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: bd3dde54d986416af847b2f3b2a1e8570d5ce3f2
+author: Alina, Becky
+feature: Workfront Planning
+role: User, Admin
+source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 1%
+source-wordcount: '1480'
+ht-degree: 0%
 
 ---
 
 
-<!--add these at release to the metadata:
-
-author: Alina, Becky
-feature: Workfront Planning
-role: User, Admin -->
-
 # Adobe Workfront Planning Designer 시작
-
-{{planning-important-intro}}
-
-AI에서 제공하는 Adobe Planning Designer을 사용하여 새 작업 영역을 생성하거나, 작업 영역에 객체(레코드 유형, 레코드, 보기 또는 필드)를 추가하거나, 레코드에 대한 변경 내용을 볼 수 있습니다.
 
 >[!IMPORTANT]
 >
 >Planning Designer은 현재 Closed Beta 프로그램에 참여하는 사용자만 사용할 수 있습니다.
+>
+>이 문서의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning을 참조합니다.
+>
+>Workfront Planning에 액세스하기 위한 요구 사항 목록은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+> 
+>Workfront Planning에 대한 일반적인 정보는 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
+
+AI에서 제공하는 Adobe Planning Designer을 사용하여 작업 공간 및 데이터 구조를 쉽게 구성할 수 있습니다. Planning Designer은 작업 공간 생성 및 구성에서 필드 및 공식 정의, 레코드 관리, 변경 내용 검토 및 사용자 정의 보기 작성에 이르기까지 모든 작업을 지원합니다.
+
+Planning Designer은 직접 사용하든 AI Assistant를 통해 사용하든 상관없이 구조화되고 연결된 정보를 구축하고 유지할 수 있는 유연하고 강력한 환경을 제공합니다.
 
 Workfront Planning에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -70,7 +71,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 +++
 
-## Planning Designer에 대해 Closed Beta 프로그램에 등록
+## Planning Designer에 대해 마감된 Beta 프로그램에 등록
 
 현재, sargism@adobe.com으로 이메일을 보내 Planning Designer에 대한 Closed Beta 프로그램에 참여를 요청할 수 있습니다.
 
@@ -79,6 +80,22 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 >[!IMPORTANT]
 >
 >시스템에서 Planning Designer을 사용하려면 먼저 귀사에서 AI Assistant 계약에 동의해야 합니다.
+
+## Planning Designer에 대한 피드백 제출
+
+Beta 프로그램 중에 Planning Designer에 대한 피드백을 제출할 수 있습니다.
+
+1. Workfront에 로그인한 다음 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭한 다음 **계획**&#x200B;을 클릭합니다.
+
+   **계획** 영역이 열립니다.
+
+1. **AI로 만들기**&#x200B;를 클릭합니다. <!--update this tag name when they change it-->
+
+   **Workspace 계획 중** 창의 **Designer 설정** 영역이 열립니다. <!--replace shot below when they rename the area to Planning Designer-->
+
+1. 페이지 하단의 **여기에 피드백 제출**&#x200B;을 클릭합니다.
+1. 제공된 스페이스에 피드백을 추가한 다음 **제출**을 클릭합니다.
+귀하의 피드백은 엔지니어링 및 제품 팀에 제출됩니다.
 
 ## Planning Designer에 대한 고려 사항
 
@@ -93,7 +110,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * Workfront 관리자는 AI Assistant 계약에 동의한 다음 다른 모든 사용자에 대해 AI Assistant를 켜야 합니다.
 
      자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
-* 시스템 관리자가 조직에 대해 AI 비서를 켜면 기본적으로 모든 사용자가 계획 도우미를 사용할 수 있습니다(조직에서 사용할 수 있게 된 경우).
+* 시스템 관리자가 조직에 대해 AI 비서를 켜면 기본적으로 모든 사용자가 Planning Designer을 사용할 수 있습니다(조직에서 사용할 수 있게 된 경우).
 * Planning Designer에서 수행하는 작업은 계획 영역에서 AI 도우미를 사용할 때도 수행할 수 있습니다.
 * 계획 영역에서 AI 어시스턴트에 의해 수행되는 작업이나 Planning Designer에 의해 수행되는 작업은 Workfront Planning 권한 및 Workfront 액세스 수준의 컨텍스트에 있습니다.
 
@@ -155,13 +172,13 @@ Planning Designer 또는 AI Assistant를 사용하여 다음 작업 중 하나�
 
 1. Workfront에 로그인한 다음 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭한 다음 **계획**&#x200B;을 클릭합니다.
 
-   **계획** 영역이 열립니다.
+   **계획** 영역이 열립니다. <!--update screen shot when they change the name of the button-->
 
    ![작업 영역 페이지에서 AI로 디자인 단추](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. **AI로 디자인**&#x200B;을 클릭합니다.
+1. **AI로 만들기**&#x200B;를 클릭합니다. <!--update this when they change it-->
 
-   **계획 Designer** 창이 열립니다.
+   **Workspace 계획 중** 창의 **Designer 설정** 영역이 열립니다. <!--replace shot below when they rename the area to Planning Designer-->
 
    ![계획 Designer 창](assets/planning-designer-window.png)
 
@@ -216,7 +233,7 @@ Workfront 관리자가 AI Assistant 계약을 수락하면 기본적으로 조�
 1. Workfront에 시스템 관리자로 로그인합니다.
 1. 화면 왼쪽 상단에서 **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-shell.png)을 클릭한 다음 **설정**&#x200B;을 클릭합니다.
 1. 왼쪽 패널에서 **시스템** > 을 클릭한 다음 **AI 환경 설정** 영역으로 이동합니다.
-1. **계획 중인 Designer** 설정을 끕니다. <!--add new screen shot with info icon-->
+1. **온보딩 계획** 설정을 끕니다. <!--add new screen shot with info icon and new name of the toggle; ensure you don't show the AI Reviewer if it is not in Prod yet-->
 
    ![시스템 환경 설정에서 Planning Designer 설정](assets/planning-designer-toggle-in-system-preferences.png)
 1. **저장**&#x200B;을 클릭합니다.

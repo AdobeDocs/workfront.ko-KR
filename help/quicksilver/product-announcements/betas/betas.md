@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: d84264110fe6abe2a260cc46483c78b9b0034b9b
+source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '143'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,9 @@ Beta에서 사용할 수 있는 기능은 일부 고객에게는 제공되지 �
 * Workfront AI 검토자
 자세한 내용은 [Workfront AI 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)을 참조하세요.
 
+* Adobe Workfront Planning Designer은 폐쇄된 Beta에서 사용할 수 있습니다. 이 프로그램에 대한 액세스를 요청하기 위해 이메일을 보낼 수 있습니다.
+
+  자세한 내용은 [Adobe Workfront Planning Designer 시작](/help/quicksilver/planning/general/planning-ai-designer.md)을 참조하십시오.
 
 
 <!--
