@@ -94,7 +94,7 @@ Beta 프로그램 중에 Planning Designer에 대한 피드백을 제출할 수 
    **Workspace 계획 중** 창의 **Designer 설정** 영역이 열립니다. <!--replace shot below when they rename the area to Planning Designer-->
 
 1. 페이지 하단의 **여기에 피드백 제출**&#x200B;을 클릭합니다.
-1. 제공된 스페이스에 피드백을 추가한 다음 **제출**을 클릭합니다.
+1. 제공된 스페이스에 피드백을 추가한 다음 **제출**&#x200B;을 클릭합니다.
 귀하의 피드백은 엔지니어링 및 제품 팀에 제출됩니다.
 
 ## Planning Designer에 대한 고려 사항
