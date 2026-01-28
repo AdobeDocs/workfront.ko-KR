@@ -3,20 +3,20 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: 라이선스 유형별 오브젝트 및 영역에 대한 액세스
+title: 라이선스 유형별 오브젝트 및 영역에 대한 액세스(기존)
 description: 아래 표는 각 Adobe Workfront 라이선스에서 Workfront의 개체 및 영역에 대해 허용하는 가장 높은 수준의 액세스(편집 또는 보기)를 보여 줍니다.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '482'
 ht-degree: 23%
 
 ---
 
-# 라이선스 유형별 오브젝트 및 영역에 대한 액세스
+# 라이선스 유형별 오브젝트 및 영역에 대한 액세스(기존)
 
 <!-- Audited: 11/2025 -->
 

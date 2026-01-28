@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 액세스,모델,funnel,다이어그램,수준,권한
 navigation-topic: access-levels
-title: 다양한 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능
+title: 다양한 액세스 수준에 대해 각 객체 유형에서 사용할 수 있는 기능(기존)
 description: 다음 표에는 다양한 액세스 레벨의 각 객체 유형에 사용할 수 있는 기능이 나열되어 있습니다.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1588'
 ht-degree: 14%
 
 ---
 
-# 다양한 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능
+# 다양한 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능(기존)
 
 {{highlighted-preview}}
 

@@ -1,5 +1,5 @@
 ---
-title: 새 라이선스 플랜에서 비유료 사용자에 대한 자동 업그레이드 옵션 사용 안 함
+title: 비유료 사용자에 대한 자동 업그레이드 옵션 비활성화
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '188'
+ht-degree: 10%
 
 ---
 
-# 새 라이선스 플랜에서 비유료 사용자에 대한 자동 업그레이드 옵션 사용 안 함
+# 비유료 사용자에 대한 자동 업그레이드 옵션 비활성화
 
 증명 및 문서 결정은 새로운 플랜에 대한 모든 비유료 Workfront 라이선스에 대해 제한됩니다. 사용자가 할당된 결정 수에 도달하면 기본적으로 Light 라이선스로 업그레이드됩니다.
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 

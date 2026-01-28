@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 액세스,모델,funnel,다이어그램,수준,권한
 navigation-topic: access-levels
-title: 새 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능
+title: 각 객체 유형에 사용할 수 있는 기능
 description: 다음 표에는 다양한 액세스 레벨의 각 객체 유형에 사용할 수 있는 기능이 나열되어 있습니다.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: eec482dceb9a35225cb28cccc13811a91536cc83
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1326'
 ht-degree: 14%
 
 ---
 
-# 새 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능
+# 각 객체 유형에 사용할 수 있는 기능
 
 {{highlighted-preview}}
 
@@ -32,7 +32,7 @@ ht-degree: 14%
 >[!NOTE]
 >
 >* 이 문서에서는 새 Workfront 패키지 모델의 액세스 수준에 사용할 수 있는 기능에 대해 설명합니다. 현재 패키지 모델에서 사용할 수 있는 기능을 보려면 [다양한 액세스 수준에 대해 각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)을 참조하십시오.
->* 최신 모델의 다양한 패키지에서 사용할 수 있는 기능 목록을 보려면 [Adobe Workfront 가격 및 패키징](https://business.adobe.com/kr/products/workfront/pricing.html)을 참조하십시오.
+>* 최신 모델의 다양한 패키지에서 사용할 수 있는 기능 목록을 보려면 [Adobe Workfront 가격 및 패키징](https://business.adobe.com/products/workfront/pricing.html)을 참조하십시오.
 
 ## 프로젝트
 

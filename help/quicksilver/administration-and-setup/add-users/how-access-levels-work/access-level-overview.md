@@ -1,5 +1,5 @@
 ---
-title: 새로운 액세스 수준 개요
+title: 액세스 수준 개요
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1747'
 ht-degree: 6%
 
 ---
 
-# 새로운 액세스 수준 개요
+# 액세스 수준 개요
 
 >[!NOTE]
 >

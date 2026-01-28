@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '13724'
+source-wordcount: '13721'
 ht-degree: 2%
 
 ---
@@ -516,25 +516,25 @@ ht-degree: 2%
          * [감사 로그 보기 및 내보내기](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [사용자 로그인 정보 보기](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console에서 사용자 관리](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * 새로운 액세스 수준 작동 방식 {#access-levels}
-         * [새로운 액세스 수준 작동 방식](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [새로운 액세스 수준 개요](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [새 라이선스 개요](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [새 라이센스로 오브젝트 및 영역에 액세스](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [새 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-         * [새 라이선스 플랜에서 비유료 사용자에 대한 자동 업그레이드 옵션 사용 안 함](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+      * 액세스 수준 작동 방식 {#access-levels}
+         * [액세스 수준 작동 방식](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [액세스 수준 개요](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [라이선스 개요](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [라이센스에 의한 오브젝트 및 영역 액세스](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [각 객체 유형에 사용할 수 있는 기능](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [비유료 사용자에 대한 자동 업그레이드 옵션 비활성화](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [라이선스 모델 간 기능 비교](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * 액세스 수준 작동 방식 {#legacy-access-levels}
-         * [액세스 수준 작동 방식](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [액세스 개요](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [라이선스 개요](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [액세스 수준 및 권한](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [라이선스 유형별 오브젝트 및 영역에 대한 액세스](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-         * [각 객체 유형에 대한 기능](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [각 객체 유형에 대한 구성 가능한 액세스](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [기본 제공 액세스 수준](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [사용자의 액세스 수준 및 라이선스 나열](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * 레거시 액세스 수준의 작동 방식 {#legacy-access-levels}
+         * [레거시 액세스 수준의 작동 방식](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [이전 액세스 수준 개요](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [기존 라이선스 개요](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [기존 액세스 수준 및 권한](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [라이선스 유형별 오브젝트 및 영역에 대한 액세스(기존)](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [각 객체 유형에 대한 기능(이전)](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+         * [각 객체 유형에 대해 구성 가능한 액세스 권한 (기존)](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [기본 제공 액세스 수준 (기존)](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [사용자의 액세스 수준 및 라이선스 나열(기존)](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Workfront 액세스 구성 {#configure-access}
          * [액세스 구성](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [사용자 정의 액세스 수준 만들기 또는 수정](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -984,7 +984,7 @@ ht-degree: 2%
          * [Adobe Workfront에서 로그아웃](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
          * [향상된 인증을 통해 사용자 암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
          * [이메일 초대 수신 및 Adobe Workfront 암호 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-         * [&#x200B; [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
+         * [ [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * 모바일 앱 {#mobile-apps}
       * [모바일 앱](workfront-basics/mobile-apps/mobile-apps.md)
@@ -2221,7 +2221,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2229,8 +2229,8 @@ ht-degree: 2%
          * [XD 아트보드를 Workfront에 문서로 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [&#x200B; [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [&#x200B; [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [ [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator 및 InDesign용 Workfront 확장 {#workfront-for-illustrator-indesign}
          * [Illustrator 및 InDesign용 Workfront 확장 사용](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Adobe Workfront for Jira {#workfront-for-jira}
