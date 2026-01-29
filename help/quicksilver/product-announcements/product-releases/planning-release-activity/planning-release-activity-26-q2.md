@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
-## 레코드의 세부 정보 페이지에 표시되는 필드 구성
+## 레코드의 세부 정보 미리 보기 상자에 표시되는 필드 구성
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 >프로덕션 빠른 릴리스: 2026년 2월 12일
 >모두를 위한 프로덕션: 2026년 4월 16일
 
-테이블 보기에 표시된 필드를 기반으로 세부 사항 미리 보기 및 페이지 영역에서 레코드 필드를 표시하거나 숨길 수 있는 설정이 도입되었습니다.
+테이블 보기에 표시된 필드를 기반으로 레코드의 세부 정보 미리 보기 상자에 레코드 필드를 표시하거나 숨길 수 있는 설정이 도입되었습니다. 
 
-레코드의 세부 정보 영역에서 테이블 보기에 숨겨진 필드를 포함할지 또는 제외할지 선택할 수 있습니다. 이 설정을 끄면 세부 정보 영역에 숨겨진 필드가 표시되지 않습니다.
+이 새 설정을 사용하면 레코드의 세부 정보 미리 보기 영역에서 표 보기에 숨겨져 있는 필드를 포함할지 또는 제외할지 선택할 수 있습니다.
 
 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -275,12 +275,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    ![세부 정보 상자](assets/details-box.png)
 
-1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 상자 열기](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을 클릭하여 새 탭에서 레코드 페이지를 엽니다.
-
-   레코드의 **세부 정보** 탭이 기본적으로 열립니다.
-
-   ![세부 정보 페이지](assets/details-page.png)
-
 1. <span class="preview">(선택 사항 및 조건부) 세부 정보 페이지에 표시할 필드에 따라 다음 중 하나를 수행합니다.</span>
 
    <div class="preview">
@@ -288,12 +282,23 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * 레코드의 테이블 보기에서 숨겨지지 않은 필드만 보려면 **테이블 필드 표시** 설정을 선택하십시오. 기본 설정입니다.
    * **테이블 필드 표시** 설정을 선택 해제하여 숨겨진 필드를 포함하여 레코드의 테이블 보기에서 모든 필드를 표시합니다.
 
+   >[!TIP]
+   >
+   >**테이블 필드 표시** 설정은 레코드의 세부 정보 미리 보기 상자에서만 사용할 수 있습니다. 레코드의 세부 정보 페이지에서는 사용할 수 없습니다.
+
+
    <!--replace with this when they fix the UI text:
    * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
    * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
    -->
 
    </div>
+
+1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 상자 열기](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을 클릭하여 새 탭에서 레코드 페이지를 엽니다.
+
+   레코드의 **세부 정보** 탭이 기본적으로 열립니다.
+
+   ![세부 정보 페이지](assets/details-page.png)
 
 1. 레코드 **세부 정보** 탭에서 필드 이름 왼쪽에 있는 **grab** 아이콘 ![Grab 아이콘](assets/grab-icon.png)을 클릭한 다음 원하는 위치에 끌어다 놓습니다.
 

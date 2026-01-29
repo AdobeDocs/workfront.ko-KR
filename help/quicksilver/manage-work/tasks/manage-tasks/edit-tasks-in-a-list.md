@@ -6,9 +6,9 @@ description: 목록에 표시된 필드를 편집하여 작업 목록에서 작�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3236'
 ht-degree: 3%
 
 ---
@@ -21,8 +21,7 @@ ht-degree: 3%
 
 이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
-
+자세한 내용은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)를 참조하십시오.
 </div>
 
 목록에 표시된 필드를 편집하여 작업 목록에서 작업 정보를 편집할 수 있습니다. 작업을 편집하는 다른 방법에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.

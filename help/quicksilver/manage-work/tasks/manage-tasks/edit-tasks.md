@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
 workflow-type: tm+mt
-source-wordcount: '5366'
+source-wordcount: '5369'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 4%
 
 이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
 
-자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
+자세한 내용은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)를 참조하십시오.
 
 </div>
 
@@ -521,7 +521,7 @@ ht-degree: 4%
          </tbody> 
          </table>-->
 
-   1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**&#x200B;을 클릭합니다.
+   1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**을 클릭합니다.
 지정(Assignments) 영역이 이전 경험에 열립니다.
 
       ![작업 편집 상자의 할당 섹션](assets/nwe-assignments-section-edit-task-box-350x217.png)
