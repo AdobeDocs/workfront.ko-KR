@@ -4,9 +4,9 @@ description: 2026년 2분기 관리자 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 2분기 릴리스의 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
+
+
+
+## 이제 사용자 정의 양식에서 서식 있는 텍스트 필드 유형을 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 1월 29일
+>프로덕션 빠른 릴리스: 2026년 2월 12일\
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+사용자 정의 양식의 새 **서식 있는 텍스트** 필드 형식은 굵게, 기울임꼴, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 인용과 같은 기존 옵션 외에도 위 첨자 및 아래 첨자, 제목 및 표와 같은 서식 지정 옵션이 있는 강력한 텍스트 편집기입니다. 문자 길이는 15,000자로 제한됩니다.
+
+서식 있는 텍스트 필드 유형이 텍스트를 서식 있는 필드 유형으로 바꿉니다. 오른쪽의 필드 옵션에서 버튼을 클릭하여 서식 필드가 있는 기존 텍스트를 서식 있는 텍스트로 빠르게 변환할 수 있습니다.
+
+자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## Workfront 이메일 알림용 새 IP 주소
 
