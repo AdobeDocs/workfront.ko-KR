@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '3518'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 
 {{planning-important-intro}}
@@ -131,7 +131,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 1. Click **Create**.
 
    선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
-1. [양식을 구성](#configure-the-form)합니다.
+1. [요청 양식에 대한 세부 정보 설정](#set-up-details-for-the-request-form)을 계속합니다.
 
 <!--
 
@@ -166,7 +166,11 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 양식 세부 사항은 탭으로 나뉩니다.
 
 * **양식** 탭에서 필드 및 콘텐츠 요소를 양식에 추가할 수 있습니다.
-* **구성** 탭에서 양식의 승인 프로세스를 설정하고 요청 완료 옵션을 설정할 수 있습니다.&lt;
+* **구성** 탭에서 양식의 승인 프로세스를 설정하고 요청 완료 옵션을 설정할 수 있습니다.
+
+  >[!NOTE]
+  >
+  ><span class="preview">미리 보기 환경에서 설정 탭은 구성 탭을 대체합니다.</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### 양식 세부 정보 설정
@@ -226,9 +230,17 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 1. (선택 사항) **미리 보기**&#x200B;를 클릭하여 다른 사용자가 새 레코드를 제출하는 데 사용할 양식을 표시할 방법을 확인합니다.
-1. 양식에 대한 자세한 내용을 구성하려면 [구성 세부 정보 설정](#set-up-configuration-details)을 계속하거나 [요청 양식 작성 완료](#complete-request-form-creation)(으)로 이동하십시오.
+1. 다음 중 하나를 계속 진행합니다.
+
+   * 프로덕션 환경에서 양식에 대해 자세한 내용을 구성하려면 [구성 세부 정보를 설정합니다](#set-up-configuration-details)
+   * 프로덕션 환경에서 양식에 대해 자세한 내용을 구성하려면 <span class="preview">[설정 구성](#configure-settings)</span>
+   * 추가 설정을 구성하지 않으려면 [요청 양식 만들기를 완료합니다](#complete-request-form-creation).
 
 #### 구성 세부 정보 설정
+
+>[!NOTE]
+>
+>이 탭은 프로덕션 환경에서만 사용할 수 있습니다.
 
 구성 탭에서 승인 프로세스를 설정하고 이 양식에서 만든 요청이 완료됨으로 표시되는 시기를 구성할 수 있습니다.
 
@@ -254,7 +266,83 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+
+<div class="preview">
+
+### 설정 구성
+
+>[!NOTE]
+>
+>이 탭은 미리보기 환경에서만 사용할 수 있습니다.
+
+설정 탭에서 승인 규칙을 설정하고 이 양식에서 만든 요청이 완료됨으로 표시되는 시기를 구성할 수 있습니다.
+
+#### 승인 규칙 구성
+
+승인 규칙은 제출된 요청의 필드 값에 따라 승인 프로세스를 정의합니다.
+
+예를 들어 요청 양식에 &quot;캠페인 유형&quot; 필드가 있는 경우, 필드에 &quot;디지털&quot; 값이 있을 경우 한 사람에게, &quot;인쇄&quot; 값이 있을 경우 다른 사람에게 요청을 보내는 규칙을 만들 수 있습니다.
+
+승인 규칙을 추가할 때 다음 사항을 고려하십시오.
+
+* 규칙은 순서에 따라 우선 순위가 지정됩니다. 첫 번째 규칙 조건이 충족되면 목록 아래의 규칙에 대한 조건도 충족되는 경우에도 해당 규칙이 적용됩니다.
+* 조건이 충족되지 않으면 기본 규칙이 적용됩니다.
+* 한 명 또는 여러 명의 승인자를 승인 규칙에 추가할 수 있습니다.
+* 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다. 요청은 Workfront의 요청 영역에 남아 있습니다.
+* 두 명 이상의 승인자를 추가할 때 [하나의 결정만 필요] 옵션이 활성화되어 있지 않은 경우 요청이 승인 또는 거부되기 전에 모든 승인자가 결정을 내려야 합니다.
+* 팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.
+
+승인 추가에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
+
+요청 양식에 대한 승인 규칙을 설정하려면 다음을 수행합니다.
+
+1. [요청 양식 만들기 시작](#begin-creating-a-request-form) 섹션에 설명된 대로 요청 양식을 만들거나 편집하십시오.
+
+   선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
+1. (선택 사항) [양식 세부 정보 설정](#set-up-form-details)에 설명된 대로 양식 세부 정보를 설정합니다.
+
+1. 승인 규칙 구성을 시작하려면 왼쪽 탐색에서 승인 ![승인 아이콘](assets/approvals-icon-on-form.png)을 클릭하세요.
+
+1. (선택 사항) 기본 승인 프로세스를 설정하려면 기본 승인 규칙 영역의 **승인자** 필드에 사용자 또는 팀을 한 명 이상 추가한 다음 기본 승인자 중 한 명이 승인한 후에 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 클릭합니다.
+
+   ![기본 승인 규칙 영역](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. (선택 사항) 각 추가 승인 규칙에 대해 다음을 수행합니다.
+
+   1. **승인 규칙 추가** 클릭
+   1. 자리 표시자 제목 &quot;제목 없는 승인 규칙&quot;을 클릭하고 승인 규칙의 이름을 입력합니다.
+   1. **필드 선택**&#x200B;을 클릭하고 규칙을 활성화할 필드를 선택합니다.
+   1. 규칙에 대한 연산자를 선택합니다. 연산자는 필드 유형에 따라 다릅니다.
+   1. 선택한 연산자에 값이 필요한 경우 더하기 아이콘을 클릭하고 값을 하나 이상 추가합니다.
+   1. (선택 사항) 조건 추가를 클릭하고 추가 조건을 구성하여 AND 또는 OR를 사용하여 조건을 더 추가합니다.
+   1. 승인 규칙의 작업 영역의 **승인자** 필드에서 조건이 충족될 때 승인자에서 설정할 사용자 또는 팀을 하나 이상 추가합니다.
+   1. (조건부) 승인자 중 한 명이 레코드를 승인한 후 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 선택합니다.
+
+1. (선택 사항) 라우팅 규칙을 재정렬하려면 규칙 왼쪽에 있는 드래그 핸들을 클릭하고 규칙을 원하는 위치로 드래그합니다.
+
+   기본 규칙은 순서를 변경할 수 없습니다.
+
+1. (선택 사항) 라우팅 규칙을 삭제하려면 규칙 오른쪽에 있는 **X**&#x200B;을(를) 클릭합니다.
+1. **저장**&#x200B;을 클릭하여 승인 규칙을 저장합니다.
+1. [요청 완료 옵션 설정](#set-request-completion-options) 계속
+
+#### 요청 완료 옵션 설정
+
+완료 옵션을 사용하면 요청된 개체를 만들 때 요청이 완료됨으로 표시되는지 또는 만들어진 개체가 완료되었을 때 요청이 완료됨으로 표시되는지 여부를 설정할 수 있습니다. 지정된 조건을 기반으로 개체가 완료되는 시기를 정의합니다.
+
+1. [요청 양식 만들기 시작](#begin-creating-a-request-form) 섹션에 설명된 대로 요청 양식을 만들거나 편집하십시오.
+
+   선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
+1. (선택 사항) [양식 세부 정보 설정](#set-up-form-details)에 설명된 대로 양식 세부 정보를 설정합니다.
+
+1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
+1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+
+</div>
 
 <!--
  
