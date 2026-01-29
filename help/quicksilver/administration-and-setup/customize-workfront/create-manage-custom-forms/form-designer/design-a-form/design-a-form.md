@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
+source-git-commit: 9fcfea189bfc8827e41098823402f5e392b36d1b
 workflow-type: tm+mt
-source-wordcount: '6941'
+source-wordcount: '7040'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 # 사용자 정의 양식 만들기
 
 <!-- Audited: 6/2025 -->
+
+{{preview-fast-release-general}}
 
 Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
@@ -157,6 +159,10 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 
 * **한 줄 텍스트 필드**: 사용자가 필드에 한 줄 텍스트를 입력할 수 있습니다.
 * **단락 필드**: 사용자가 필드에 여러 줄의 텍스트를 입력할 수 있습니다.
+* <span class="preview">**서식 있는 텍스트**: 사용자가 필드에 여러 줄의 텍스트를 입력하고 굵게, 기울임꼴, 밑줄, 글머리 기호, 번호 매기기, 아래 첨자 및 위 첨자, 하이퍼링크, 블록 따옴표, 머리글 및 표로 텍스트 서식을 지정할 수 있습니다. 문자 길이는 15,000자로 제한되어 있어 텍스트와 서식을 지정할 수 있는 공간이 넓습니다.</span>
+
+  <span class="preview">서식 있는 텍스트 필드 유형이 텍스트를 서식 있는 필드 유형으로 바꾸고 있습니다. 오른쪽의 필드 옵션에서 **서식 있는 텍스트로 변환** 단추를 클릭하여 서식 있는 필드가 있는 기존 텍스트를 서식 있는 텍스트로 신속하게 변환할 수 있습니다.</span>
+
 * **서식 있는 텍스트 필드**: 필드에 여러 줄의 텍스트를 입력하고 굵게, 기울임꼴, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 따옴표로 텍스트 서식을 지정할 수 있습니다. 문자 길이는 15,000자로 제한되어 있어 많은 텍스트와 서식을 사용할 수 있습니다.
 
   이 사용자 정의 필드 유형은 목록 및 보고서의 필터에서 지원되지 않습니다.
@@ -177,6 +183,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 
    * 한 줄 텍스트
    * 단락
+   * <span class="preview">서식 있는 텍스트</span>
    * 서식 포함 텍스트
    * 설명 텍스트
 
@@ -197,6 +204,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
     <td><ul>
     <li>한 줄 텍스트</li>
     <li>단락</li>
+    <li><span class="preview">리치 텍스트</span></li>
     <li>서식 포함 텍스트</li>
     <li>설명 텍스트</li>
     </ul></td>
@@ -208,6 +216,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
     <td><ul>
     <li>한 줄 텍스트</li>
     <li>단락</li>
+    <li><span class="preview">리치 텍스트</span></li>
     <li>서식 포함 텍스트</li>
     </ul></td>
     </tr>
@@ -219,6 +228,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
     <td><ul>
     <li>한 줄 텍스트</li>
     <li>단락</li>
+    <li><span class="preview">리치 텍스트</span></li>
     <li>서식 포함 텍스트</li>
     <li>설명 텍스트</li>
     </ul></td>
@@ -231,6 +241,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
     <td><ul>
     <li>한 줄 텍스트</li>
     <li>단락</li>
+    <li><span class="preview">리치 텍스트</span></li>
     <li>서식 포함 텍스트</li>
     </ul></td>
     </tr>
@@ -266,15 +277,17 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
      <td><ul>
      <li>한 줄 텍스트</li>
      <li>단락</li>
+     <li><span class="preview">리치 텍스트</span></li>
      <li>서식 포함 텍스트</li>
      <li>설명 텍스트</li></ul></td>
     </tr>
     <tr> 
-      <td role="rowheader">필수 필드 만들기</td>
+      <td>필수 필드 만들기</td>
       <td><p>사용자가 사용자 정의 양식을 작성하기 위해 필드를 요구하려면 이 옵션을 선택합니다.</p></td>
     <td><ul>
     <li>한 줄 텍스트</li>
     <li>단락</li>
+    <li><span class="preview">리치 텍스트</span></li>
     <li>서식 포함 텍스트</li>
     </ul></td> 
     </tr> 
@@ -480,7 +493,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
 1. 화면 왼쪽의 **새 필드** 탭에서 다음 필드 중 하나를 찾아 캔버스의 섹션으로 끌어서 놓습니다.
 
    * 타이프 어헤드
-   * Date
+   * 일자
 
    ![필드를 섹션으로 드래그](assets/drag-field-to-section.png)
 
@@ -498,7 +511,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td> <p>(필수) 사용자 정의 필드 위에 표시할 설명 레이블을 입력합니다. 언제든지 레이블을 변경할 수 있습니다.</p> <p><b>중요</b>: 보고서에 특수 문자가 올바르게 표시되지 않으므로 이 레이블에 특수 문자를 사용하지 마십시오. 자세한 내용은 <a href="design-a-form.md#notes-on-field-names-and-labels">필드 이름 및 레이블에 대한 참고</a>을 참조하세요.</p> </td> 
        <td><ul>
     <li>타이프 어헤드</li>
-    <li>날짜</li>
+    <li>일자</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -507,7 +520,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <p>자세한 내용은 <a href="design-a-form.md#notes-on-field-names-and-labels">필드 이름 및 레이블에 대한 참고</a>을 참조하세요.</p> </td>
     <td><ul>
     <li>타이프 어헤드</li>
-    <li>Date</li>
+    <li>일자</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -517,14 +530,14 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       </td> 
          <td><ul>
     <li>타이프 어헤드</li>
-    <li>Date</li>
+    <li>일자</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">시간 표시(하루 기준)</td> 
       <td>필드에 날짜와 함께 시간을 표시하려면 이 옵션을 선택합니다.</td> 
          <td><ul>
-    <li>Date</li>
+    <li>일자</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -564,14 +577,14 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></td>
       <td><ul>
       <li>타이프 어헤드</li>
-      <li>Date</li></ul></td>
+      <li>일자</li></ul></td>
      </tr>
      <tr> 
       <td role="rowheader">필수 필드 만들기</td> 
       <td>사용자가 사용자 정의 양식을 작성하기 위해 필드를 요구하려면 이 옵션을 선택합니다. </td> 
        <td><ul>
     <li>타이프 어헤드</li>
-    <li>Date</li>
+    <li>일자</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -653,12 +666,12 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
       <td role="rowheader">JSON 경로</td>
       <td><p>API에 대한 JSON 경로를 입력하거나 붙여넣습니다.</p> <p>이 옵션을 사용하면 API URL에서 반환되는 JSON에서 데이터를 추출할 수 있습니다. JSON 내에서 드롭다운 옵션에 표시할 값을 선택하는 데 사용됩니다.</p><p>예를 들어 API URL이 다음 형식으로 JSON을 반환하는 경우 "$.data[*].name"을 사용하여 미국과 캐나다를 드롭다운 옵션으로 선택할 수 있습니다.</br>
       <pre>
-      &lbrace;
-       데이터: &lbrace;
+      {
+       데이터: {
          { name: "미국"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>JSON 경로와 올바른 JSON 경로를 작성하는 방법에 대한 자세한 내용은 <a href="https://jsonpath.com/">https://jsonpath.com/</a>을(를) 참조하십시오.</p></td>
