@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1545'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,9 @@ ht-degree: 0%
 
 # 레코드 페이지 레이아웃 관리
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -172,7 +171,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 * 페이지에 포함할 수 있는 섹션 수에는 제한이 없습니다.
 * 빈 섹션은 가질 수 없습니다. 섹션에 하나 이상의 필드가 있어야 합니다.
-* 한 섹션에서 다른 섹션으로 필드를 끌어다 놓을 수 있습니다. 자세한 내용은 이 문서의 [레코드 미리 보기 또는 세부 정보 페이지에서 필드 다시 정렬](#rearrange-fields-in-the-record-preview-or-details-page) 섹션을 참조하십시오.
+* 한 섹션에서 다른 섹션으로 필드를 끌어다 놓을 수 있습니다. 자세한 내용은 이 문서의 [레코드 미리 보기 또는 세부 정보 페이지의 필드 관리](#manage-fields-in-the-records-details-tab) 섹션을 참조하십시오.
 * 섹션에서 모든 필드를 제거하면 섹션이 자동으로 삭제되어 복구할 수 없습니다.
 
 레코드 미리 보기 또는 페이지에 섹션을 추가하려면 다음 작업을 수행하십시오.
@@ -205,7 +204,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. 레코드 미리 보기 또는 페이지의 **세부 정보** 탭에서 필드 왼쪽의 공백 위로 마우스를 가져간 다음 **섹션 추가** 아이콘 ![섹션 추가 아이콘](assets/add-section-icon.png)을 클릭하여 섹션을 추가합니다.
 1. 섹션 이름 내부를 클릭하고 **제목 없는 섹션**&#x200B;을(를) 이름으로 바꾼 다음 Enter를 클릭합니다. 섹션 아래에 표시되는 필드는 자동으로 새 섹션의 일부입니다.
-1. 이 문서의 [레코드 미리 보기 또는 세부 정보 페이지에서 필드 다시 정렬](#rearrange-fields-in-the-record-preview-or-details-page) 섹션에 설명된 대로 필드를 새 섹션으로 끌어다 놓습니다.
+1. 이 문서의 [레코드 미리 보기 또는 세부 정보 페이지의 필드 관리](#manage-fields-in-the-records-details-tab) 섹션에 설명된 대로 필드를 새 섹션으로 끌어다 놓습니다.
 
 1. (선택 사항) 섹션 이름 위에 마우스를 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다.
 
@@ -222,7 +221,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -254,7 +253,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * Workfront 개체는 Workfront Planning에서 레코드의 연결된 필드에서도 제거됩니다.
    * 계획 레코드에 연결된 Workfront 조회 필드의 값도 삭제됩니다.
 
-## 레코드의 세부 정보 탭에서 필드 다시 정렬
+## 레코드의 세부 정보 탭에서 필드 관리
 
 {{step1-to-planning}}
 
@@ -281,6 +280,20 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    레코드의 **세부 정보** 탭이 기본적으로 열립니다.
 
    ![세부 정보 페이지](assets/details-page.png)
+
+1. <span class="preview">(선택 사항 및 조건부) 세부 정보 페이지에 표시할 필드에 따라 다음 중 하나를 수행합니다.</span>
+
+   <div class="preview">
+
+   * 레코드의 테이블 보기에서 숨겨지지 않은 필드만 보려면 **테이블 필드 표시** 설정을 선택하십시오. 기본 설정입니다.
+   * **테이블 필드 표시** 설정을 선택 해제하여 숨겨진 필드를 포함하여 레코드의 테이블 보기에서 모든 필드를 표시합니다.
+
+   <!--replace with this when they fix the UI text:
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+   -->
+
+   </div>
 
 1. 레코드 **세부 정보** 탭에서 필드 이름 왼쪽에 있는 **grab** 아이콘 ![Grab 아이콘](assets/grab-icon.png)을 클릭한 다음 원하는 위치에 끌어다 놓습니다.
 
