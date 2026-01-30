@@ -6,10 +6,10 @@ description: 문제 상태를 업데이트하여 문제의 위치와 진행 방�
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 3%
+source-wordcount: '640'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,13 +122,13 @@ Workfront의 다음 영역에서 문제 상태를 업데이트할 수 있습니�
 
    문제 헤더의 버블 내부를 클릭하여 백분율을 입력합니다.
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![헤더의 작업 완료율 업데이트](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 1. (선택 사항) 업데이트에 대한 추가 정보를 제공하려면 다음 중 하나를 수행합니다.
 
    * 업데이트에 대한 메모를 추가하려면 **업데이트** 섹션으로 이동하여 **새 댓글**&#x200B;을 클릭한 다음 메모를 입력하세요.
 
-     ![](assets/nwe-issue-update-stream-message-box-350x125.png)
+     ![스트림 업데이트 메시지 상자 문제](assets/nwe-issue-update-stream-message-box-350x125.png)
 
    * 특정 사용자에게 업데이트에 대한 알림을 보내려면 댓글을 입력할 때 표시되는 **사람 또는 팀 태그 지정** 필드에 이름을 입력하세요. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
    * 문제의 커밋 일자를 업데이트하려면 **문제 세부 정보**&#x200B;를 클릭한 다음 **커밋 일자** 필드를 편집합니다. 자세한 내용은 [문제 편집](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)을 참조하세요.
@@ -147,7 +147,7 @@ When you are updating an issue status, you can also add an explanation about the
 1. Go to an issue that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the issue header and select a new status.
 
-   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
+   ![Issue status expanded in header](assets/nwe-issue-status-expanded-in-header-350x370.png)
 
 1. To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue.
 
@@ -155,7 +155,7 @@ When you are updating an issue status, you can also add an explanation about the
 
    Click inside the bubble in the header of the issue to enter a percentage.
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![Update task percent in header](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 -->
 

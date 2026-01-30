@@ -6,9 +6,9 @@ description: 프로젝트 상태 는 프로젝트와 관련된 작업이 원활�
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '531'
 ht-degree: 3%
 
 ---
@@ -110,7 +110,7 @@ Workfront 또는 그룹 관리자는 설정 영역에서 프로젝트 환경 설
 
 1. **조건 유형** 필드가 **수동**(으)로 설정되어 있는지 확인하십시오.
 
-   ![](assets/project-details-overview-select-condition.png)
+   ![프로젝트 세부 정보 개요 조건 선택](assets/project-details-overview-select-condition.png)
 
 1. **조건** 필드에서 연결된 작업이 원활하게 진행되는지 또는 지연되는지 여부에 대해 이해한 것과 일치하는 옵션을 선택합니다.
 

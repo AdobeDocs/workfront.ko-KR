@@ -6,10 +6,10 @@ description: 프로젝트 관리자는 프로젝트의 상태 유형을 업데�
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 2%
+source-wordcount: '304'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 
 <table style="table-layout:auto"> 
@@ -91,7 +91,7 @@ ht-degree: 2%
    * 프로젝트 이름의 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/qs-more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
    * 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭합니다.
 
-   ![](assets/update-condition-type-nwe-350x108.png)
+   ![조건 유형 업데이트](assets/update-condition-type-nwe-350x108.png)
 
 1. **조건 유형** 필드에서 다음 중 하나를 선택합니다.
 

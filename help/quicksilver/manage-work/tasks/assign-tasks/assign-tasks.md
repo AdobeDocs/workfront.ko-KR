@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '2479'
 ht-degree: 2%
@@ -276,7 +276,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. (선택 사항 및 조건부) 할당 대상 또는 할당 필드가 작업 목록에 표시되면 작업에 대해 이러한 열 중 하나를 클릭한 다음 할당자의 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭하여 작업에서 제거합니다.
 
 
-### 새 경험의 목록에서 여러 작업을 일괄적으로 할당
+#### 새 경험의 목록에서 여러 작업을 일괄적으로 할당
 
 1. 일괄 할당할 작업 목록으로 이동합니다.
 1. (조건부) 프로젝트 아래 작업 목록에 있는 경우 **자동 저장** 옵션이 선택되어 있는지 확인하십시오.

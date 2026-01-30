@@ -7,9 +7,9 @@ description: 프로젝트, 작업 및 문제의 Adobe Workfront 실제 시작 �
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '530'
 ht-degree: 3%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 3%
 다음 영역에서 프로젝트의 실제 시작 일자를 찾을 수 있습니다.
 
 * 프로젝트의 세부 정보 섹션에서 다음을 수행합니다.
-* 프로젝트 보고서 또는 보기에서 보고서에 객체 프로젝트의 실제 시작 일자를 추가할 때.
+* 프로젝트 보고서 또는 보기에서 보고서에 프로젝트 개체에 대한 **실제 시작 날짜**&#x200B;를 추가할 때.
 
   보고서 만들기에 대한 자세한 내용은 문서 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
 
@@ -116,8 +116,8 @@ ht-degree: 3%
 1. 실제 시작 일자를 보려는 프로젝트를 클릭합니다.
 1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭한 다음 **개요** 섹션으로 이동합니다.
 
-   실제 시작 일자 는 다른 프로젝트 일자 와 함께 표시됩니다.
+   ![강조 표시된 프로젝트 실제 시작 일자](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
-   ![](assets/nwe-project-actual-start-date--highlighted-350x367.png)
+   **실제 시작 날짜**&#x200B;가 다른 프로젝트 날짜와 함께 표시됩니다.
 
 

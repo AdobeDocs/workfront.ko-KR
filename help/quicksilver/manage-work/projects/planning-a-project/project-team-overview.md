@@ -7,9 +7,9 @@ description: 일부 용량의 프로젝트와 연결된 사용자가 프로젝�
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Adobe Workfront 관리자가 활성화할 수 있는 이메일 알림에 따라 
 
 프로젝트 영역 헤더에서 내가 진행 중인 프로젝트 필터가 선택되어 있는지 확인할 수 있습니다. 필터 패널 또는 헤더에서 적용할 수 있습니다.
 
-![](assets/nwe-project-list-buttons-350x187.png)
+![프로젝트 필터 단추](assets/nwe-project-list-buttons-350x187.png)
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -106,15 +106,22 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
   자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 * 요청 양식을 제출하여 생성된 레코드는 원래 요청에 연결됩니다. 이 연결을 제거할 수 없습니다.
-* 다음 영역에서 생성된 레코드와 요청을 모두 볼 수 있습니다.
+* 다음 영역에서 생성된 레코드와 레코드 만들기에 사용된 요청을 모두 볼 수 있습니다.
    * Workfront의 요청 영역
 
   <div class="preview">
 
-   * 원본 요청 연결 필드의 레코드 유형 페이지에 있는 레코드
-   * 원본 요청 연결 필드에 레코드의 세부 정보 미리 보기 상자
+   * Workfront Planning의 레코드 유형 페이지
+   * Workfront Planning의 기록 세부 정보 영역
 
   </div>
+
+  >[!TIP]
+  >
+  ><span class="preview">Workfront의 [요청] 영역에 있는 [제목] 필드 또는 Workfront Planning의 [원본 요청 연결] 필드에서 요청 이름을 볼 수 있습니다. </span>
+
+
+
 * 제출된 요청은 Workfront의 요청 영역에 표시됩니다.
 * 제출된 Planning 요청은 새 요청 경험에서만 볼 수 있습니다. 레거시 요청 환경에서는 Planning 요청을 볼 수 없습니다.
 자세한 내용은 [요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
@@ -167,7 +174,7 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 
      자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
 
-   * <span class="preview">원래 요청의 이름을 표시하는 Planning의 레코드 유형에 원래 요청 연결 필드를 추가할 수 있습니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하십시오. </span>
+   * <span class="preview">레코드를 만든 원본 요청의 이름을 표시하려면 원본 요청 연결 필드를 Planning의 레코드 형식에 추가할 수 있습니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하십시오. </span>
    * 요청은 소유자, 승인자 및 작업 영역에 대해 최소 보기 권한이 있는 사람에게만 표시됩니다. Workfront 관리자는 시스템의 작업 영역에 제출된 모든 요청을 볼 수 있습니다.
 
    * 요청이 성공적으로 제출되었거나 검토를 위해 전송되었다는 인앱 및 이메일 알림을 받게 됩니다.

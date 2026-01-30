@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3507'
 ht-degree: 2%
 
 ---
@@ -237,7 +237,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >
    >도구 모음의 필드 아이콘 왼쪽에 숨겨진 필드 수가 표시됩니다.
    >
-   ><span class="preview">숨겨진 필드는 레코드의 **세부 정보** 미리 보기 상자에 기본적으로 표시되지 않습니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)</span>를 참조하십시오.
+   ><span class="preview">숨겨진 필드는 레코드의 **세부 정보** 미리 보기 상자에 기본적으로 표시되지 않습니다. 모든 필드가 레코드의 세부 정보 페이지에 표시됩니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)</span>를 참조하십시오.
 
 
 1. **필드** 아이콘을 클릭하고 테이블의 열에 표시할 필드와 관련된 토글을 활성화합니다. 기본적으로 모든 필드가 표시됩니다.

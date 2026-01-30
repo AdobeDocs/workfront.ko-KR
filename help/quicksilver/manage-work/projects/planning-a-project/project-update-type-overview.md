@@ -7,9 +7,9 @@ description: 프로젝트의 업데이트 유형은 Adobe Workfront이 프로젝
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Workfront에서 프로젝트 타임라인을 다시 계산하려는 시기에 �
 
   작업 또는 프로젝트를 업데이트하고 타임라인 재계산을 트리거하면 사용 가능한 모든 날짜가 즉시 표시되어 작업을 계속할 수 있습니다. 작업이 100개를 초과하는 프로젝트의 경우 계산이 더 긴 날짜가 흐리게 표시됩니다.
 
-  ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+  인라인 편집할 때 ![날짜가 흐리게 표시됨](assets/dates-dimmed-when-insline-editing-350x146.png)
 
   이는 재계산이 아직 완료되지 않았으며, 날짜가 변경될 수 있음을 나타냅니다.
 

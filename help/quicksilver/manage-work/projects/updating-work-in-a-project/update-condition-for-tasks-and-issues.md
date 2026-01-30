@@ -6,10 +6,10 @@ description: 작업 또는 문제의 상태는 작업 또는 문제의 진행 �
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 1%
+source-wordcount: '1070'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항 {#access-requirements}
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -167,7 +167,7 @@ Workfront의 다양한 영역에서 작업 및 문제의 상태를 수동으로 
    * 일부 우려 사항
    * 주요 장애물
 
-   ![](assets/condition-in-task-header-0925.png)
+   ![작업 헤더의 조건](assets/condition-in-task-header-0925.png)
 
 <!--1. Click Enter to save the Condition.-->
 
@@ -185,7 +185,7 @@ Workfront의 다양한 영역에서 작업 및 문제의 상태를 수동으로 
 
 1. 기존 조건을 두 번 클릭하고 드롭다운 메뉴에서 새 값을 선택하여 문제 또는 작업 인라인의 **조건**&#x200B;을(를) 업데이트합니다.
 
-   ![](assets/condition-values-in-task-list-0925.png)
+   ![작업 목록의 조건 값](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >

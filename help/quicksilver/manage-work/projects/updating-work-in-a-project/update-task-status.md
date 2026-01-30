@@ -6,10 +6,10 @@ description: 작업 상태를 업데이트하여 작업의 위치와 전체 프�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -113,7 +113,7 @@ ht-degree: 1%
 
    **완료율** 버블 내부를 두 번 클릭하여 새 백분율을 수동으로 입력합니다.
 
-   ![](assets/percent-complete-status-widgets-task-header.png)
+   ![완료율 상태 위젯 작업 헤더](assets/percent-complete-status-widgets-task-header.png)
 
 1. (선택 사항) 업데이트에 대한 추가 정보를 제공하려면 다음 중 하나를 수행합니다.
 
@@ -142,7 +142,7 @@ ht-degree: 1%
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
 
 ## 작업 상태 자동 업데이트
 

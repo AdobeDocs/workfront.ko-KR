@@ -6,9 +6,9 @@ description: 타임라인을 다시 계산하면 관리자는 프로젝트와 �
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1077'
 ht-degree: 2%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 2%
 > 복잡한 프로젝트의 예로는 여러 종속성, 많은 작업 수, 여러 프로젝트 간 전임 작업 또는 여러 작업 들여쓰기가 있는 프로젝트가 있을 수 있습니다.
 > Workfront은 프로젝트 페이지의 프로젝트 이름 오른쪽에 프로젝트 타임라인을 수동으로 다시 계산해야 한다는 경고를 표시합니다. 프로젝트에 대한 관리 권한이 있는 사용자만 타임라인을 수동으로 다시 계산할 수 있습니다.
 >
->   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>   ![타임라인을 다시 계산하는 프로젝트 경고](assets/project-warning-to-manually-recalculate-timeline.png)
 >
 
 * [프로젝트 타임라인 자동 다시 계산](#automatic-recalculation-of-project-timelines)
@@ -183,7 +183,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
    프로젝트 목록 또는 보고서로 이동하여 하나 또는 여러 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-menu.png)를 클릭합니다.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![재무 드롭다운을 사용하여 표현식 타임라인을 다시 계산](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >

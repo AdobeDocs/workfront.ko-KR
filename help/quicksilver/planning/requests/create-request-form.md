@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3518'
+source-wordcount: '3550'
 ht-degree: 1%
 
 ---
@@ -190,13 +190,14 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
    * 선택한 레코드 유형의 표 보기에서 사용할 수 있는 레코드 필드입니다. <!--they are working on removing the limitation below-->
 
    * **기본 섹션**: Workfront이 요청 양식에 적용하는 기본 섹션 구분입니다. 모든 레코드 필드가 **기본 섹션** 영역에 표시됩니다.
-   * **제목** 필드: Workfront에서 요청을 식별하는 필드입니다. 제목 필드의 구성 및 값을 편집할 수 없습니다.
+   * **제목** 필드: Workfront에서 요청을 식별하는 필드입니다. **제목** 필드의 구성 및 값을 편집할 수 없습니다.
 
      >[!NOTE]
      >
      >* **제목** 필드는 요청 양식에 표시되면 값이 필요합니다. 그러나 필요한 경우 **제목** 필드를 제거할 수 있으며 요청자가 요청을 제출할 때 양식에 표시되지 않습니다.
-     >* 요청 양식에서 제목 필드가 누락되었지만 이후 레코드의 이름에 대한 이름 필드가 있는 경우 요청 이름은 생성된 레코드와 동일한 이름으로 자동 할당됩니다.
-     >* 요청 양식에 제목 필드와 이름 필드가 모두 없으면 `< Record name > request form < Entry date of the request >` 패턴을 사용하여 요청의 이름이 지정됩니다. 레코드의 이름은 **제목 없음**&#x200B;입니다.
+     >* 요청 양식에 **제목** 필드가 없지만 이후 레코드의 이름에 대한 이름 필드가 있는 경우, 요청의 이름은 생성된 레코드와 같은 이름으로 자동 할당됩니다.
+     >* 요청 양식에 **제목** 및 **이름** 필드가 모두 없으면 `< Request form name > < Entry date of the request >` 패턴을 사용하여 요청 이름이 지정됩니다. 레코드 이름은 **제목 없음**&#x200B;입니다.
+     >* <span class="preview">Workfront Planning에서 **제목** 필드의 정보를 보려면 요청 양식과 연결된 레코드 형식에 **원본 요청** 연결 필드를 추가할 수 있습니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md).</span>을 참조하세요.
 
    * 레코드 유형과 연결된 모든 필드.
 
@@ -266,7 +267,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
 
 <div class="preview">
 
@@ -340,7 +341,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
 
 </div>
 

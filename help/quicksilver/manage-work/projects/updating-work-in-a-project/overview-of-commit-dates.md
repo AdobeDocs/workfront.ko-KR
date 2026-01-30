@@ -7,9 +7,9 @@ description: 커밋 일자는 작업 또는 문제에 할당된 사용자가 작
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Workfront의 다음 영역에서 작업 및 문제의 커밋 일자를 찾을 �
 >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
 >
 >
->![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>![Project owner notification update stream about commit date change](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
 >
 -->
 
@@ -107,7 +107,7 @@ Workfront의 다음 영역에서 작업 및 문제의 커밋 일자를 찾을 �
 
   자세한 내용은 [프로젝트, 작업 및 문제의 예상 완료 일자 개요](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)를 참조하십시오.
 
-  ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+  ![강조 표시된 세부 정보의 작업 예상 완료 날짜](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
 * 알림 영역의 프로젝트 소유자에게는 작업 또는 문제 커밋 일자가 변경되었다는 알림이 표시됩니다.
 
