@@ -6,9 +6,9 @@ description: 중복되거나 오류로 생성된 작업을 삭제할 수 있습�
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '790'
 ht-degree: 5%
 
 ---
@@ -174,9 +174,9 @@ ht-degree: 5%
 1. 삭제할 작업이 포함된 프로젝트 이름을 클릭합니다.
 1. 왼쪽 패널에서 **작업**&#x200B;을 클릭합니다.
 1. 삭제할 작업의 이름을 클릭합니다.
-1. 오른쪽 상단의 **자세히** 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭합니다.
+1. 오른쪽 상단의 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-menu.png)를 클릭합니다.
 
-   ![](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![작업 수준에서 작업 삭제](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. **작업 삭제**&#x200B;를 클릭합니다.
 1. 삭제가 허용되는 경우 **삭제**&#x200B;를 클릭하십시오.

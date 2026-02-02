@@ -6,9 +6,9 @@ description: 프로젝트의 작업 일정 간에 충돌이 발생하는 경우�
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 9%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 9%
 
 1. **설정**&#x200B;을 클릭합니다.
 
-   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![작업을 편집할 때 레벨링 지연](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. **레벨링 지연**&#x200B;을(를) 시간 단위로 지정한 다음 시간 단위를 선택하십시오.\
    자원 충돌로 인해 작업 시작이 지연되는 시기입니다.

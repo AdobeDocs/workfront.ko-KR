@@ -1,5 +1,5 @@
 ---
-title: '성공의 프레임워크: Campaign 계층 모델링'
+title: '성공의 아키텍처: 캠페인 계층 구조 모델링'
 description: 복잡한 비즈니스 프로세스를 "Centers of Gravity" 및 다중 작업 공간 아키텍처를 사용하여 확장 가능하고 관리되는 캠페인 계층으로 변환하는 방법에 대해 알아봅니다.
 feature: Workfront Planning
 role: User, Admin
@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 성공을 위한 프레임워크: 캠페인 계층 구조 모델링
+# 성공의 아키텍처: 캠페인 계층 구조 모델링
 
 <!--see the file again for additional comments from Seth and others-->
 

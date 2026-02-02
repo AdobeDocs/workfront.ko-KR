@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +80,7 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **주제 그룹**&#x200B;을 클릭합니다.
 1. **새 주제 그룹**&#x200B;을 클릭합니다.
 
-   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
+   <!--   ![New topic group box](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. 다음 정보를 지정합니다.
 

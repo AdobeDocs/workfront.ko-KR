@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
@@ -145,7 +145,7 @@ Planning 요청으로 생성된 객체에 대한 링크를 포함하는 요청 �
    >
    >제출된 요청 목록의 열은 사용자 정의할 수 없습니다.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![제출된 새 목록](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. 기본적으로 다음 열이 표시됩니다.
@@ -189,17 +189,17 @@ Planning 요청으로 생성된 객체에 대한 링크를 포함하는 요청 �
    >
    >제출된 요청 목록에서 멀리 이동하면 선택한 정렬 옵션이 유지됩니다.
 
-1. (선택 사항) 목록에서 요청을 선택한 다음 **요약 열기** 아이콘 ![](assets/open-summary-with-text-nwe.png)을(를) 클릭하여 요약 패널을 열고 요청에 대한 추가 정보를 표시하거나 설명, 문서를 추가하거나 할당합니다. 요약 패널에 대한 자세한 내용은 [요약 개요](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.
+1. (선택 사항) 목록에서 요청을 선택한 다음 **요약 열기** 아이콘 ![텍스트가 있는 요약 열기](assets/open-summary-with-text-nwe.png)를 클릭하여 요약 패널을 열고 요청에 대한 추가 정보를 표시하거나 설명, 문서를 추가하거나 할당합니다. 요약 패널에 대한 자세한 내용은 [요약 개요](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.
 
    >[!TIP]
    >
    >요약 패널이 이미 열려 있는 경우 요약 열기 아이콘이 요약 닫기로 변경됩니다.
 
-1. (선택 사항 및 조건부) 오른쪽 위의 **X** 아이콘 또는 **요약 닫기** 아이콘 ![](assets/close-summary-with-text-nwe.png)을 클릭하여 요약 패널을 닫습니다.
+1. (선택 사항 및 조건부) 오른쪽 상단의 **X** 아이콘 또는 **요약 닫기** 아이콘 ![텍스트가 있는 요약 닫기](assets/close-summary-with-text-nwe.png)를 클릭하여 요약 패널을 닫습니다.
 
    문제가 작업 또는 프로젝트로 전환되고 전환 프로세스에서 문제가 삭제된 경우 요약 패널이 비어 있습니다. 문제 변환에 대한 자세한 내용은 [Adobe Workfront의 문제 변환 개요](../../../manage-work/issues/convert-issues/convert-issues.md)를 참조하십시오.
 
-1. 목록의 오른쪽 상단에 있는 **필터 아이콘** ![](assets/filter-nwepng.png)에서 아래 표에 나열된 필터를 선택하십시오.
+1. 목록의 오른쪽 상단에 있는 **필터 아이콘** ![필터 아이콘](assets/filter-nwepng.png)에서 아래 표에 나열된 필터를 선택하십시오.
 
    >[!TIP]
    >
@@ -232,7 +232,7 @@ Planning 요청으로 생성된 객체에 대한 링크를 포함하는 요청 �
     </tbody> 
    </table>
 
-1. (선택 사항) 이름 순으로 요청을 검색하려면 목록 맨 위에 있는 **페이지 필터링** 아이콘 ![](assets/search-icon.png)을(를) 클릭합니다. 목록이 검색 기준과 일치하는 결과로 업데이트됩니다.
+1. (선택 사항) 이름으로 요청을 검색하려면 목록 맨 위에 있는 **필터 페이지** 아이콘 ![검색 아이콘](assets/search-icon.png)을 클릭합니다. 목록이 검색 기준과 일치하는 결과로 업데이트됩니다.
 
 1. (조건부) Workfront 요청 대기열만 표시하려면 `Issue` 개체 형식을 검색하거나 필터링하십시오.</span>
 
@@ -266,7 +266,7 @@ Planning 요청으로 생성된 객체에 대한 링크를 포함하는 요청 �
 
    **필터** 및 **열**&#x200B;을(를) 사용하여 Planning 요청 목록의 정보를 업데이트하십시오.
 
-   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   ![요청 영역에 계획 탭 제출 섹션](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 

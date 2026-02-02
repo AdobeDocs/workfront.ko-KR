@@ -6,9 +6,9 @@ description: 제출된 요청이나 요청 초안을 삭제할 수 있습니다.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '608'
 ht-degree: 3%
 
 ---
@@ -81,12 +81,9 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 삭제
 
       내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.
 
-1. 요청 목록 또는 내 요청 위젯에서 삭제할 요청 또는 초안을 마우스로 가리킵니다.
+1. 홈의 **요청** 목록 또는 **내 요청** 위젯에서 삭제할 요청 또는 초안을 마우스로 가리킨 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다
 
-   3점 추가 메뉴가 나타납니다.
-   ![](assets/more-menu.png)
-
-1. 요청 또는 초안 이름의 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+1. **삭제** 클릭
 
    또는
 

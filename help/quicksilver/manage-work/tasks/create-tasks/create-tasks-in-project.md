@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1061'
 ht-degree: 2%
 
 ---
@@ -116,8 +116,8 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
 
 1. 작업을 만들 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **작업**&#x200B;을 클릭합니다.
-1. (조건부) 현재 애자일 보기에서 작업 목록을 보고 있다면 오른쪽 상단의 **목록 보기** 아이콘 ![](assets/list-view-in-agile-view-for-tasks.png)을 클릭하여 작업 목록을 표시합니다.
-1. (선택 사항) **계획 모드** 아이콘 ![](assets/nwe-plan-mode-icon-task-list.png)을 클릭하고 **수동 저장**&#x200B;을 선택한 다음 **표준** 또는 **타임라인 계획 수립**&#x200B;을 선택합니다. 기본적으로 사용되는 **자동 저장** 옵션이 비활성화됩니다.
+1. (조건부) 현재 애자일 보기에서 작업 목록을 보고 있는 경우 오른쪽 상단의 **목록 보기** 아이콘 ![작업에 대한 애자일 보기의 목록 보기](assets/list-view-in-agile-view-for-tasks.png)를 클릭하여 작업 목록을 표시합니다.
+1. (선택 사항) **계획 모드** 아이콘 ![작업 목록에 대한 계획 모드 아이콘](assets/nwe-plan-mode-icon-task-list.png)을 클릭하고 **수동 저장**&#x200B;을 선택한 다음 **표준** 또는 **타임라인 계획 수립**&#x200B;을 선택합니다. 기본적으로 사용되는 **자동 저장** 옵션이 비활성화됩니다.
 
    ![수동 저장 선택](assets/manual-save-option.png)
 
@@ -130,7 +130,7 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
    * 작업 목록 맨 위에서 **새 작업**&#x200B;을 클릭합니다.
    * 작업 목록 맨 아래에 있는 **작업 추가**&#x200B;를 클릭합니다.
 
-   ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
+   ![강조 표시된 목록의 새 작업 또는 작업 추가 단추](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
 1. (조건부) **새 작업**&#x200B;을 클릭한 경우 다음 작업을 수행하십시오.
 
@@ -140,11 +140,11 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
 
       작업의 모든 필드를 업데이트하려면 **추가 옵션**&#x200B;을 클릭하여 **작업 만들기** 상자를 엽니다.
 
-      ![](assets/nwe-create-task-small-screen-350x272.png)
+      ![작은 작업 상자 만들기](assets/nwe-create-task-small-screen-350x272.png)
 
       **작업 만들기** 상자가 열립니다.
 
-      ![](assets/create-task-larger-box-nwe-350x244.png)
+      ![작업 큰 상자 만들기](assets/create-task-larger-box-nwe-350x244.png)
 
 
       >[!NOTE]
@@ -173,7 +173,7 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
 
    특히 목록에 여러 작업을 추가할 때 이 옵션을 사용하는 것이 좋습니다.
 
-   ![](assets/add-more-tasks-inline.png)
+   ![인라인으로 더 많은 작업 추가](assets/add-more-tasks-inline.png)
 
 1. (조건부) 다음 중 하나를 수행합니다.
 
@@ -213,11 +213,11 @@ Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습�
 
    자세한 내용은 [필터: 개인 작업](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)을 참조하세요.
 
-   ![](assets/personal-tasks-report.png)
+   ![개인 작업 보고서](assets/personal-tasks-report.png)
 1. 개인 작업 보고서에서 작업 이름을 눌러 엽니다.
 
    Workfront은 개인 작업을 항상 &quot;&lt; 사용자의 전체 이름 > 의 작업&quot; 패턴에 따라 이름이 지정되는 목록에 없는 개인 프로젝트에 저장합니다. 예를 들어 개인 프로젝트의 이름을 &quot;Rick&#39;s Tasks&quot;로 지정할 수 있습니다.
 
-1. 작업 페이지에서 **추가 메뉴** ![](assets/more-icon.png)를 클릭한 다음 **이동**&#x200B;을 클릭합니다. 작업 이동에 대한 자세한 내용은 [작업 이동](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)을 참조하십시오.
+1. 작업 페이지에서 **추가 메뉴** ![추가 아이콘](assets/more-icon.png)을 클릭한 다음 **이동**&#x200B;을 클릭합니다. 작업 이동에 대한 자세한 내용은 [작업 이동](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)을 참조하십시오.
 
    작업 이동이 완료되면 선택한 프로젝트에 작업이 표시됩니다. 프로젝트 타임라인은 새 작업의 타임라인에 의해 영향을 받을 수 있습니다.

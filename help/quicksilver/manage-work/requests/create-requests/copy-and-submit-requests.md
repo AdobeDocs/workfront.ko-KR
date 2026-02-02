@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1520'
 ht-degree: 3%
 
 ---
@@ -104,19 +104,19 @@ ht-degree: 3%
 
 1. 새로 복사하여 제출할 요청을 찾은 후 다음 중 하나를 수행합니다.
 
-   * 선택한 다음 제출된 요청 목록의 왼쪽 상단 모서리에서 **복사** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)를 클릭합니다.
+   * 선택한 다음 제출된 요청 목록의 왼쪽 상단에 있는 **복사** ![복사 및 제출 아이콘](assets/copy-and-submit-as-new-requests-area-nwe.png)을 클릭합니다.
 
    >[!TIP]
    >
    > 요청을 먼저 선택하지 않은 경우 복사 아이콘이 흐리게 표시됩니다.
 
-   * 요청 이름 오른쪽의 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **새 이름으로 복사 및 제출**&#x200B;을 클릭합니다
+   * 요청 이름 오른쪽에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **새 이름으로 복사 및 제출**&#x200B;을 클릭합니다
 
      또는
 
      선택한 요청을 마우스 오른쪽 단추로 클릭한 다음 **새 요청으로 복사 및 제출**&#x200B;을 클릭합니다.
 
-     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![더 많은 메뉴 옵션 선택 요청](assets/request-selected-more-menu-options-nwe-350x191.png)
 
      >[!TIP]
      >
@@ -236,12 +236,9 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사
 
       내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.
 
-1. 요청 목록 또는 내 요청 위젯에서 복사할 요청 위로 마우스를 가져갑니다.
+1. 홈의 **요청** 목록 또는 **내 요청** 위젯에서 복사할 요청을 마우스로 가리킨 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다.
 
-   3점 추가 메뉴가 나타납니다.
-   ![](assets/more-menu.png)
-
-1. 요청 이름 오른쪽의 **자세히** 메뉴를 클릭한 다음 **복사**&#x200B;를 클릭합니다.
+1. **복사** 클릭
 
    또는
 

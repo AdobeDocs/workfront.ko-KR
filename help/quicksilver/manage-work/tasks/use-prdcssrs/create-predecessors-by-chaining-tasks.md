@@ -6,10 +6,10 @@ description: Adobe Workfront에서 여러 가지 방법으로 전임 작업 관�
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Workfront에서 여러 가지 방법으로 전임 작업 관계를 만들 
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +85,7 @@ Adobe Workfront에서 여러 가지 방법으로 전임 작업 관계를 만들 
 1. 왼쪽 패널에서 **작업**&#x200B;을 클릭합니다.
 1. (조건부) 작업 목록의 오른쪽 상단 모서리에서 **자동 저장**&#x200B;을 선택한 다음 연결할 작업을 선택합니다.
 
-   ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
+   강조 표시된 ![자동 저장 아이콘](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >

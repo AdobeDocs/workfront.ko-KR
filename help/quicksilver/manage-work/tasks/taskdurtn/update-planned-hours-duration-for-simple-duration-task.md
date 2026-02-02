@@ -6,10 +6,10 @@ description: 기본적으로 Adobe Workfront은 계획된 시간을 기반으로
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 1%
+source-wordcount: '450'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,13 +91,13 @@ ht-degree: 1%
 1. 작업 목록에서 기간 유형을 변경할 작업의 이름을 클릭합니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 작업 이름 옆에 있는 **자세히** 아이콘 ![](assets/qs-more-icon-on-an-object.png)을 클릭하고 **편집**&#x200B;을 클릭한 다음 **할당**&#x200B;을 클릭합니다.
+   * 작업 이름 옆에 있는 **자세히** 아이콘 ![개체의 자세히 아이콘](assets/qs-more-icon-on-an-object.png)을 클릭하고 **편집**&#x200B;을 클릭한 다음 **할당**&#x200B;을 클릭합니다.
    * 작업 헤더의 할당 영역에서 **할당 대상** 또는 할당 이름을 클릭한 다음 **고급**&#x200B;을 클릭합니다.
 
 1. 모든 할당에 대한 **계획된 시간**&#x200B;의 총 값(예: 10시간)을 입력하십시오. 작업에 할당된 모든 리소스 간에 총 계획된 시간이 균등하게 분배됩니다.
 1. (선택 사항) 작업에 할당된 각 자원의 계획된 시간을 수동으로 조정합니다. 리소스에 개별적으로 할당된 새 시간을 반영하도록 작업 업데이트에 대한 총 계획된 시간 수입니다.
 1. 작업 **기간**&#x200B;의 값(예: 2일)을 입력하십시오.
 
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![고급 할당 단순 기간 다중 리소스](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. **저장**&#x200B;을 클릭합니다.

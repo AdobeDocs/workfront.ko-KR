@@ -7,9 +7,9 @@ description: 작업에 전임 작업 관계를 추가할 때 종속성 루프가
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 작업 1을 작업 2의 전임 작업으로 만들려고 하면 작업 2가 완료될 때까지 작업 1을 시작할 수 없지만 작업 1이 완료될 때까지 작업 2를 시작할 수 없으므로 종속성 루프 오류가 발생합니다.
 
-![](assets/dependency-loop-error-message-350x209.png)
+![종속성 루프 오류 메시지](assets/dependency-loop-error-message-350x209.png)
 
-![](assets/dependency-loop-in-task-list-nwe-350x97.png)
+![작업 목록의 종속성 루프](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## 종속성 루프에 대한 고려 사항
 

@@ -6,9 +6,9 @@ description: 작업 제한 사항은 프로젝트에서 작업이 시작 및 종
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '304'
 ht-degree: 19%
 
 ---
@@ -80,22 +80,22 @@ ht-degree: 19%
 1. 왼쪽 패널에서 **작업** 섹션을 클릭합니다.
 1. 왼쪽 패널에서 **작업 세부 정보**&#x200B;를 클릭한 다음 개요 영역에서 **작업 제한**&#x200B;을 클릭합니다.
 
-   ![](assets/task-constraint-all-options-in-overview-350x254.png)
+   ![개요의 모든 옵션 ](assets/task-constraint-all-options-in-overview-350x254.png)에 작업 제한
 
 1. 다음 옵션 중에서 선택합니다
 
    | 고정 일자 | 자세한 내용은 [작업 제한 개요: 고정 날짜](../../../manage-work/tasks/task-constraints/fixed-dates.md)를 참조하십시오. |
    |---|---|
-   | 일자에 시작 | 자세한 내용은 [작업 제한 개요: &#x200B;](../../../manage-work/tasks/task-constraints/must-start-on.md)에 시작해야 합니다. |
+   | 일자에 시작 | 자세한 내용은 [작업 제한 개요: ](../../../manage-work/tasks/task-constraints/must-start-on.md)에 시작해야 합니다. |
    | 다음까지 완료 | 자세한 내용은 [작업 제한 개요: 다음까지 완료](../../../manage-work/tasks/task-constraints/must-finish-on.md)를 참조하십시오. |
    | 빠른 시일 내에 | 자세한 내용은 [작업 제한 개요: 가능한 한 빨리](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md)를 참조하십시오. |
    | 가능한 한 늦게 | 자세한 내용은 [작업 제한 개요: 가능한 한 늦게](../../../manage-work/tasks/task-constraints/as-late-as-possible.md)를 참조하십시오. |
    | 가장 빠른 가용 시간 | 자세한 내용은 [작업 제한 개요: 사용 가능한 가장 이른 시간](../../../manage-work/tasks/task-constraints/earliest-available-time.md)을 참조하세요. |
    | 최근 사용 가능한 시간 | 자세한 내용은 [작업 제한 개요: 사용 가능한 최신 시간](../../../manage-work/tasks/task-constraints/latest-available-time.md)을 참조하세요. |
-   | 다음 이전에 시작 | 자세한 내용은 [작업 제한 개요: &#x200B;](../../../manage-work/tasks/task-constraints/start-no-later-than.md) 이후에 시작 을 참조하십시오. |
+   | 다음 이전에 시작 | 자세한 내용은 [작업 제한 개요: ](../../../manage-work/tasks/task-constraints/start-no-later-than.md) 이후에 시작 을 참조하십시오. |
    | 다음 이후에 시작 | 자세한 내용은 [작업 제한 개요: 이후에 시작](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md)을(를) 참조하십시오. |
    | 다음보다 늦지 않게 완료 | 자세한 내용은 [작업 제한 개요: 다음까지 완료](../../../manage-work/tasks/task-constraints/finish-no-later-than.md)를 참조하십시오. |
-   | 다음 이후에 완료 | 자세한 내용은 [작업 제한 개요: &#x200B;](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md) 이후에 완료를 참조하십시오. |
+   | 다음 이후에 완료 | 자세한 내용은 [작업 제한 개요: ](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md) 이후에 완료를 참조하십시오. |
 
    {style="table-layout:auto"}
 

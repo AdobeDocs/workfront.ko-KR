@@ -7,10 +7,10 @@ description: 작업의 우선 순위를 정의하여 작업의 중요도를 나�
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,5 +102,5 @@ ht-degree: 4%
 
 1. 우선 순위를 수정할 작업으로 이동합니다.
 1. 왼쪽 패널에서 **작업 세부 정보**&#x200B;를 클릭합니다.
-1. **편집** 아이콘 ![](assets/qs-edit-icon.png)을 클릭한 다음 **개요** 영역에서 **우선 순위** 필드의 값을 선택합니다.
+1. **편집** 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭한 다음 **개요** 영역에서 **우선 순위** 필드의 값을 선택합니다.
 1. **저장** **변경 내용**&#x200B;을 클릭합니다.

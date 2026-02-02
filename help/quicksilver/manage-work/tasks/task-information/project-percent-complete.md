@@ -7,9 +7,9 @@ description: 프로젝트의 완료율 값은 프로젝트의 작업 계획된 �
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ Workfront은 개별 작업의 완료율을 사용하여 상위 작업의 완료�
 
   상위 총 계획된 시간은 각 하위 항목의 모든 계획된 시간의 합계를 나타냅니다.
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![작업이 포함된 프로젝트 완료율 및 계획된 시간](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * 지속 기간을 기준으로 완료율을 계산하는 경우 상위 작업 완료율은 다음 공식을 사용하여 계산됩니다.
 
   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![작업 완료율 및 기간 계산이 포함된 프로젝트](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!IMPORTANT]
   >
@@ -77,7 +77,7 @@ Workfront은 개별 작업의 완료율을 사용하여 상위 작업의 완료�
 
   프로젝트의 총 계획된 시간은 프로젝트에 대한 모든 주요 작업의 계획된 시간의 합계입니다.
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![작업이 포함된 프로젝트 완료율 및 계획된 시간 계산](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
   >[!NOTE]
   >
@@ -91,7 +91,7 @@ Workfront은 개별 작업의 완료율을 사용하여 상위 작업의 완료�
   >
   >Duration of the Project는 완료율을 표시하는 기본 작업의 모든 기간 합계입니다. 예를 들어, 기간이 2일인 독립 실행형 작업과 이 작업을 완료한 기간이 5일인 상위 작업이 있는 프로젝트는 두 작업이 같은 날 시작할 수 있더라도 총 기간이 7일입니다.
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![작업 완료율 및 기간 계산이 포함된 프로젝트](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!NOTE]
   >
@@ -101,7 +101,7 @@ Workfront은 개별 작업의 완료율을 사용하여 상위 작업의 완료�
 
 작업 기간을 사용하여 프로젝트의 완료율을 계산할 때 다음 예를 고려하십시오.
 
-![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+![작업 완료율 및 기간 계산이 포함된 프로젝트](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
 다음 정보는 프로젝트의 완료율을 계산하는 데 사용됩니다
 

@@ -6,9 +6,9 @@ description: 작업 세부 정보 섹션의 개요 영역에 액세스하여 작
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2104'
 ht-degree: 5%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 5%
    >
    >Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 설정하는 방법에 따라 작업 세부 정보 섹션의 필드가 재배열되거나 표시되지 않을 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오.
 
-1. 세부 정보 섹션의 오른쪽 상단에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭한 다음 **개요**&#x200B;를 클릭합니다.
+1. 세부 정보 섹션의 오른쪽 상단에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 **개요**&#x200B;를 클릭합니다.
 
    >[!TIP]
    >

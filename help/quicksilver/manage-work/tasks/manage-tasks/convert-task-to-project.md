@@ -6,9 +6,9 @@ description: 프로젝트의 작업을 완료하는 데 원래 계획보다 많�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1152'
 ht-degree: 4%
 
 ---
@@ -199,13 +199,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 ## 작업을 프로젝트로 전환
 
 1. 프로젝트로 전환할 작업으로 이동합니다.
-1. **자세히** 아이콘 ![](assets/more-icon.png)을 클릭한 다음 **프로젝트로 전환**&#x200B;을 클릭합니다.
+1. **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **프로젝트로 전환**&#x200B;을 클릭합니다.
 1. 다음 옵션 중 하나를 선택합니다.
 
    * 템플릿을 사용하지 않고 프로젝트를 만들려면 **새 프로젝트**
    * **템플릿에서 선택** 섹션의 템플릿
 
-     ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![작업을 프로젝트 템플릿으로 변환 옵션 드롭다운 메뉴](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. 표시되는 알림에서 **계속**&#x200B;을 클릭합니다.
 1. **프로젝트로 변환** 상자에서 다음을 지정합니다.

@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 0%
+source-wordcount: '890'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    새 작업 대화 상자가 표시됩니다.
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![작은 화면 작업 만들기](assets/nwe-create-task-small-screen-350x272.png)
 
 1. **추가 옵션**&#x200B;을 클릭한 다음 **작업 이름** 필드에 작업 이름을 입력하십시오.
 1. 새 작업을 추가했을 때와 같은 방법으로 작업을 계속 업데이트합니다. 새 작업을 추가하는 방법에 대한 자세한 내용은 [프로젝트에서 작업 만들기](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)를 참조하십시오.
@@ -109,7 +109,7 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **개요**&#x200B;를 클릭합니다.
 1. **되풀이 일정** 섹션까지 아래로 스크롤한 다음 **되풀이 작업으로 만들기** 옵션을 선택하십시오.
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![반복 일정 선택 새 반복 작업](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. **빈도** 드롭다운 목록에서 작업을 수행할 시간 단위 수와 시간 단위 유형을 선택합니다. 다음 옵션 중에서 선택합니다.
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
    상위 반복 작업에서 자동으로 채워지는 필드에 대한 자세한 내용은 [반복 작업 개요](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)를 참조하십시오.
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![작업 목록에서 작업 재조정](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. (선택 사항) 프로젝트의 다른 작업과 마찬가지로 각 반복 작업을 수정합니다.
 

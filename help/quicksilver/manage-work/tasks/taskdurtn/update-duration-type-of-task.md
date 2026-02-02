@@ -6,10 +6,10 @@ description: 작업의 기간 유형은 작업에 할당된 리소스 수, 총 �
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 6%
+source-wordcount: '292'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,7 +87,7 @@ ht-degree: 6%
 1. 왼쪽 패널에서 **작업** 섹션을 클릭합니다.
 1. 왼쪽 패널에서 **작업 세부 정보**&#x200B;를 클릭한 다음 개요 영역에서 **기간 유형**&#x200B;을 클릭합니다.
 
-   ![](assets/duration-type-all-options-on-overview-350x155.png)
+   ![Overview에 모든 옵션을 기간 입력](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. 다음 옵션 중에서 선택합니다
 

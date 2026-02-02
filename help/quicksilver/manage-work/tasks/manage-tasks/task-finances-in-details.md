@@ -6,9 +6,9 @@ description: 작업 세부 정보 섹션의 개요 영역에 액세스하여 작
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '838'
 ht-degree: 7%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 7%
 1. **작업 세부 정보**&#x200B;를 클릭합니다.
 1. (선택 사항) 작업 세부 정보 페이지의 오른쪽 상단에 있는 **모두 축소** 아이콘을 클릭합니다.
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![세부 정보 페이지의 모든 아이콘 축소](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ ht-degree: 7%
 
 1. **재무**&#x200B;을(를) 클릭하여 확장하여 작업에 대한 재무 정보를 봅니다.
 
-   세부 정보 섹션의 오른쪽 상단에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭한 다음 **재무**&#x200B;을(를) 클릭합니다.
+   세부 정보 섹션의 오른쪽 상단에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 **재무**&#x200B;을 클릭합니다.
 
 1. 필드를 한 번 클릭하여 편집할 수 있는 필드를 편집하거나 **+추가**&#x200B;를 클릭하여 빈 필드에 정보를 추가하십시오.
 1. **재무** 영역에서 다음 정보를 검토하거나 편집하십시오.
@@ -166,4 +166,4 @@ ht-degree: 7%
     </tbody> 
    </table>
 
-1. (조건부) 재무 섹션의 필드를 편집하는 경우 **변경 내용 저장**&#x200B;**1&rbrace;을 클릭합니다.**
+1. (조건부) 재무 섹션의 필드를 편집하는 경우 **변경 내용 저장****1}을 클릭합니다.**

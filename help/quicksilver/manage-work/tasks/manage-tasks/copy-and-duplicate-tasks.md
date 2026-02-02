@@ -6,10 +6,10 @@ description: 프로젝트에서 다른 프로젝트로 작업을 복사하거나
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 1%
+source-wordcount: '1744'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,9 +108,9 @@ ht-degree: 1%
    작업 보고서로 이동합니다.
 
 1. (조건부) 작업이 포함된 프로젝트를 연 경우 왼쪽 패널에서 **작업**&#x200B;을 클릭합니다.
-1. **플랜 모드** 아이콘 ![](assets/qs-list-mode-or-save-mode-icon-small.png)을 클릭하고 **자동 저장** 옵션이 활성화되어 있는지 확인하십시오.
+1. **플랜 모드** 아이콘 ![목록 모드 또는 저장 모드 아이콘](assets/qs-list-mode-or-save-mode-icon-small.png)을 클릭하고 **자동 저장** 옵션이 활성화되어 있는지 확인하십시오.
 
-   ![](assets/autosave-icon-on-highlighted-350x202.png)
+   ![자동 저장 아이콘 및 강조 표시](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -120,9 +120,9 @@ ht-degree: 1%
 
    * 작업 목록 맨 위에 있는 **추가 메뉴**&#x200B;를 클릭한 다음 **복사 위치**&#x200B;를 클릭합니다.
    * 선택한 작업을 마우스 오른쪽 단추로 클릭한 다음 **복사 위치**&#x200B;를 클릭합니다.
-   * 작업 하나를 선택할 때 목록에서 작업 이름 옆에 있는 **자세히** 메뉴 ![](assets/more-icon-task-list.png)을(를) 클릭한 다음 **복사 위치**&#x200B;를 클릭합니다.
+   * 작업 하나를 선택할 때 목록의 작업 이름 옆에 있는 **기타** 메뉴 ![작업 목록의 기타 아이콘](assets/more-icon-task-list.png)을 클릭한 다음 **복사 위치**&#x200B;를 클릭합니다.
 
-   ![](assets/copy-task-in-list-nwe-350x131.png)
+   ![목록의 작업 복사](assets/copy-task-in-list-nwe-350x131.png)
 
 1. 4단계부터 [작업 수준에서 작업 복사](#copy-a-task-at-the-task-level) 섹션에 설명된 대로 작업 복사를 계속하십시오.
 
@@ -136,9 +136,9 @@ ht-degree: 1%
 
 1. 검색하여 Workfront 시스템에서 작업을 찾습니다.
 1. 작업 이름을 클릭하여 엽니다.
-1. 작업 이름 옆에 있는 **자세히** 드롭다운 메뉴 ![](assets/qs-more-menu.png)을(를) 클릭한 다음 **복사 위치**&#x200B;를 클릭합니다.
+1. 작업 이름 옆에 있는 **자세히** 드롭다운 메뉴 ![기타 메뉴](assets/qs-more-menu.png)를 클릭한 다음 **복사 위치**&#x200B;를 클릭합니다.
 
-   ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
+   ![작업 수준의 옵션으로 작업 복사](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
    작업 복사 상자가 표시됩니다.
 
@@ -148,7 +148,7 @@ ht-degree: 1%
    >
    >목록에서 여러 작업을 복사하도록 선택하면 이 필드는 흐리게 표시되어 편집할 수 없습니다. 작업 이름 필드 위로 마우스를 가져가면 선택한 모든 작업 목록이 표시됩니다.
    >
-   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
+   >![여러 작업 상자에서 작업 복사](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
 1. **대상 프로젝트 선택** 필드에 작업을 복사할 **대상 프로젝트**&#x200B;의 이름을 입력하십시오.
 
@@ -163,7 +163,7 @@ ht-degree: 1%
 1. (조건부) 선택한 프로젝트에 대한 액세스 권한이 없는 경우 **액세스 권한 요청**&#x200B;을 클릭하여 프로젝트에 대한 액세스 권한을 요청하십시오.
 1. (조건부) 대상 프로젝트의 작업 중 하나에 작업을 추가할 수 있는 액세스 권한이 있는 경우 액세스 권한 요청 없이 선택한 대상 프로젝트에 작업을 계속 복사합니다.
 
-   ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
+   ![프로젝트에서 작업 요청 액세스 복사](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
@@ -241,7 +241,7 @@ ht-degree: 1%
 
    작업이 목록에 표시됩니다.
 
-   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. 상위 항목을 찾으면 해당 라디오 단추를 선택합니다.
 
@@ -251,7 +251,7 @@ ht-degree: 1%
 
    또는
 
-   목록에서 작업을 여러 개 선택하면 **작업 복사**&#x200B;를 클릭합니다.
+   목록에서 작업을 여러 개 선택하면 **작업 복사**를 클릭합니다.
 복사된 작업이 이제 지정된 프로젝트에 있으며 선택한 상위 작업의 하위 작업 또는 프로젝트의 마지막 작업입니다.
 
 ## 작업 복제
@@ -290,11 +290,11 @@ ht-degree: 1%
 1. 왼쪽 패널에서 **작업**&#x200B;을 클릭합니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * (조건부) **플랜 모드** 아이콘 ![](assets/qs-list-mode-or-save-mode-icon-small.png)을(를) 클릭하고 **자동 저장** 옵션이 활성화되어 있는지 확인한 다음, 복제할 작업을 선택하고 **추가 메뉴** ![](assets/qs-more-menu-29x11.png) > **복제**&#x200B;를 클릭합니다.
+   * (조건부) **플랜 모드** 아이콘 ![목록 모드 또는 저장 모드 작은 아이콘](assets/qs-list-mode-or-save-mode-icon-small.png)을 클릭하고 **자동 저장** 옵션이 활성화되어 있는지 확인한 다음, 복제할 작업을 선택하고 **추가 메뉴** ![추가 메뉴](assets/qs-more-menu-29x11.png) > **복제**&#x200B;를 클릭합니다.
 
-     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![목록 메뉴 항목의 중복 작업](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (조건부) **플랜 모드** 아이콘 ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **수동 저장** > **표준** 또는 **타임라인 계획 수립**&#x200B;을 클릭한 후 다음을 수행합니다.
+   * (조건부) **계획 모드** 아이콘 ![목록 모드 또는 저장 모드 작은 아이콘](assets/qs-list-mode-or-save-mode-icon-small.png) > **수동 저장** > **표준** 또는 **타임라인 계획 수립**&#x200B;을 클릭한 후 다음을 수행합니다.
 
       1. 복제할 작업을 선택하고 **복제**&#x200B;를 클릭합니다.
       1. (선택 사항) 변경 내용을 취소하고 작업을 복제하지 않으려면 **실행 취소**&#x200B;를 클릭하십시오.

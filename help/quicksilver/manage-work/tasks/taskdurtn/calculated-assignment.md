@@ -7,9 +7,9 @@ description: 계산된 할당은 Adobe Workfront에서 작업에 대해 설정�
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 예를 들어 아래 설명된 시나리오에서 각 작업의 기간은 3일입니다. 프로젝트 관리자는 기간(3일 또는 24시간)과 계획된 시간을 모두 수동으로 입력하므로 할당 백분율(또는 할당 백분율)이 계산됩니다.
 
-![](assets/calcassign-350x80.png)
+![계산된 할당 기간 유형](assets/calcassign-350x80.png)
 
 ## 작업의 기간 유형을 계산된 지정으로 변경
 

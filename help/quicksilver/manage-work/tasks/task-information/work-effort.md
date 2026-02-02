@@ -7,10 +7,10 @@ description: 작업 노력 개요
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 0%
+source-wordcount: '1488'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -130,15 +130,15 @@ ht-degree: 0%
 
 ## 계획된 시간 대신 작업 노력을 사용할 수 있도록 설정
 
-1. 프로젝트로 이동하여 **자세히** 메뉴 ![](assets/more-icon.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+1. 프로젝트로 이동하여 **자세히** 메뉴 ![추가 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 1. **작업 설정**&#x200B;을 클릭한 다음 옵션&#x200B;**작업 노력을 사용하여 작업 계획 시간을 자동으로 계산**&#x200B;합니다. 기본적으로 선택되어 있지 않습니다.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![프로젝트에 대한 작업 노력](assets/nwe-work-effort-on-projects-350x182.png)
 
    프로젝트에서 작업 노력을 사용하도록 설정하는 방법에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md) 문서의 &quot;작업 설정&quot; 섹션을 참조하십시오.
 
 1. 왼쪽 패널에서 **작업**&#x200B;을(를) 클릭한 다음 액세스할 작업의 이름을 클릭합니다.
-1. **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다. 작업에 단순 기간 유형이 있는지 확인합니다.
+1. **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다. 작업에 단순 기간 유형이 있는지 확인합니다.
 
    >[!TIP]
    >
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 1. **개요** 영역에서 작업 노력 드롭다운 메뉴를 클릭하여 작업을 완료하는 데 필요한 작업량을 수정합니다.
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![작업 페이지 편집에 대한 작업 노력](assets/work-effort-on-edit-task-page-350x239.png)
 
    작업의 작업 노력 필드를 업데이트하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 

@@ -6,10 +6,10 @@ description: 스마트 할당을 사용하여 작업을 완료하는 데 가장 
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +75,7 @@ ht-degree: 0%
    <!--For issues, the smart assignments display in the following sections: 
       * **Users and teams**
       * **Job roles**
-        ![](assets/smart-assignments-issue-header.png)-->
+        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)-->
 
    스마트 할당은 다음 섹션에 표시됩니다<!--, depending on which phase of the algorithm's calculation identified the assignments-->.
 

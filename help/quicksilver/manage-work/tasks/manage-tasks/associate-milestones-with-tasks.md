@@ -6,10 +6,10 @@ description: 프로젝트의 라이프타임에서 중요한 단계에 도달하
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 마일스톤 경로가 프로젝트와 연결되면 작업에 마일스톤을 할당할 수 있습니다.
 
-1. 작업으로 이동한 다음 작업 이름 오른쪽에 있는 **자세히** 아이콘 ![](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+1. 작업으로 이동한 다음 작업 이름 오른쪽에 있는 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
    작업 및 마일스톤에 1:1 관계가 있습니다. 동일한 이정표를 여러 작업에 첨부할 수 없습니다. 각 작업은 하나의 마일스톤에 연결되거나 각 마일스톤을 하나의 작업에 매핑할 수 있습니다.
 
@@ -111,8 +111,8 @@ ht-degree: 1%
 
    자세한 내용은 [Adobe Workfront에서 보기 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)을 참조하세요.
 
-   ![](assets/amwt3.png)
+   ![상태 아이콘](assets/amwt3.png)
 
 1. (선택 사항) 프로젝트 목록으로 이동하여 **마일스톤** 보기를 선택하여 마일스톤 작업의 진행 상황을 식별합니다.
 
-   ![](assets/milestone-view-project-list.png)
+   ![마일스톤 보기 프로젝트 목록](assets/milestone-view-project-list.png)

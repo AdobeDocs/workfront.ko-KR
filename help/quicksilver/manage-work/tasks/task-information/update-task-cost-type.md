@@ -6,10 +6,10 @@ description: 태스크의 계획 및 실제 비용과 해당 노무비는 각 �
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 12%
+source-wordcount: '223'
+ht-degree: 11%
 
 ---
 
@@ -84,7 +84,7 @@ Adobe Workfront의 비용 추적에 대한 자세한 내용은 [비용 추적](.
 1. 왼쪽 패널에서 **작업 세부 정보**&#x200B;를 클릭한 다음 **재무** 영역을 확장합니다.
 1. **비용 유형**&#x200B;을(를) 두 번 클릭하고 작업에 적용할 비용 유형을 선택합니다.
 
-   ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
+   ![작업 세부 정보의 작업 비용 유형 옵션](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    다음 옵션 중에서 선택합니다.
 

@@ -7,9 +7,9 @@ description: 계산된 작업은 Adobe Workfront에서 작업에 설정할 수 �
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ Work Required (Planned Hours) = SUM[(Duration of the task in hours) x (Percent a
 
 이 경우, 각 할당자는 계산된 작업 작업에 100% 할당됩니다.
 
-![](assets/calcwork-350x71.png)
+![계산된 작업 기간 유형](assets/calcwork-350x71.png)
 
 ## 작업의 기간 유형을 계산된 작업으로 변경
 

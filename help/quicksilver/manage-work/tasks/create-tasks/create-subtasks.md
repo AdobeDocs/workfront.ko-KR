@@ -6,10 +6,10 @@ description: Adobe Workfront에서 작업은 상위-하위 관계를 가질 수 
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 0%
+source-wordcount: '578'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Workfront에서 작업은 상위-하위 관계를 가질 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -96,12 +96,12 @@ Adobe Workfront에서 작업은 상위-하위 관계를 가질 수 있습니다.
 1. (조건부) 하위 작업으로 만들 작업이 상위 작업으로 만들 작업 바로 아래에 아직 없는 경우 작업 목록에서 적절한 위치로 끌어서 놓습니다.
 1. 하위 작업을 만들 작업을 선택하고 다음 중 하나를 수행합니다.
 
-   * 선택한 작업을 바로 위에 있는 작업의 하위 작업으로 만들려면 **들여쓰기** 아이콘 ![](assets/indent-icon-nwe-33x29.png)을(를) 클릭하십시오.
+   * 선택한 작업을 바로 위에 있는 작업의 하위 작업으로 만들려면 **들여쓰기** 아이콘 ![들여쓰기 아이콘](assets/indent-icon-nwe-33x29.png)을 클릭하십시오.
    * 표준 영어 QWERTY 키보드를 사용하는 경우 키보드에서 Option + > (Mac) 또는 Alt + > (Windows)를 누릅니다. 다른 언어에서는 Option + , (Mac) 또는 Alt + , (Windows) 명령을 사용하여 들여쓸 수 있습니다.
 
      >[!TIP]
      >
-     >인라인 편집에서 작업을 편집할 때 키보드 단축키가 작동하지 않습니다. 이 경우 들여쓰기 아이콘 ![](assets/indent-icon-nwe-33x29.png)을(를) 사용하여 하위 작업을 만듭니다.
+     >인라인 편집에서 작업을 편집할 때 키보드 단축키가 작동하지 않습니다. 이 경우 들여쓰기 아이콘 ![들여쓰기 아이콘](assets/indent-icon-nwe-33x29.png)을 사용하여 하위 작업을 만듭니다.
 
    * 작업을 상위 작업으로 지정할 작업 위로 끌어서 놓습니다.
 
@@ -132,7 +132,7 @@ Adobe Workfront에서 작업은 상위-하위 관계를 가질 수 있습니다.
 1. 하위 작업을 주 작업으로 만들 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **작업** 섹션을 클릭합니다.
 1. 기본 작업을 수행할 하위 작업을 선택합니다.
-1. 하위 작업을 주 작업으로 만들려면 **내어쓰기** 아이콘 ![](assets/outdent-icon-nwe-31x29.png)을(를) 클릭하십시오.
+1. 하위 작업을 기본 작업으로 만들려면 **내어쓰기** 아이콘 ![내어쓰기 아이콘](assets/outdent-icon-nwe-31x29.png)을 클릭하십시오.
 
    또는
 

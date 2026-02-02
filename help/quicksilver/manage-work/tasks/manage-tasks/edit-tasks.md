@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '5369'
+source-wordcount: '5428'
 ht-degree: 4%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 4%
 1. 편집할 작업을 클릭합니다.
 1. (조건부) 작업에 대한 제한된 정보를 편집하려면 왼쪽 패널에서 **작업 세부 정보**&#x200B;를 클릭하십시오.
 
-   ![](assets/nwe-task-details-expanded-350x273.png)
+   ![작업 세부 정보 확장됨](assets/nwe-task-details-expanded-350x273.png)
 
    작업 세부 정보 섹션의 다음 영역에서 정보를 편집하는 것이 좋습니다.
 
@@ -184,15 +184,15 @@ ht-degree: 4%
 
    세부 정보 섹션에서 정보를 편집하려면 다음 작업을 수행하십시오.
 
-   1. (선택 사항) 모든 영역을 축소하려면 오른쪽 상단의 **모두 축소** 아이콘 ![](assets/collapse-all-icon.png)을(를) 클릭합니다.
-   1. (선택 사항 및 조건부) 영역이 축소되면 각 영역 옆에 있는 **오른쪽 방향 화살표** ![](assets/right-pointing-arrow.png)를 클릭하여 편집할 영역을 확장합니다.
+   1. (선택 사항) 모든 영역을 축소하려면 오른쪽 상단의 **모두 축소** 아이콘 ![모두 축소](assets/collapse-all-icon.png)을 클릭합니다.
+   1. (선택 사항 및 조건부) 영역이 축소되면 각 영역 옆에 있는 **오른쪽 방향 화살표** ![오른쪽 방향 화살표](assets/right-pointing-arrow.png)를 클릭하여 편집할 영역을 확장합니다.
    1. 작업 세부 정보 탭의 정보 편집에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
       * [작업 세부 정보 개요 영역에서 작업 정보 관리](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [작업 세부 정보 섹션에서 작업 재무 관리](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (선택 사항) 작업에 첨부된 사용자 정의 양식이 없는 경우 **사용자 정의 양식 추가** 필드에 양식 이름을 입력한 다음 목록에 표시될 때 선택하고 **변경 내용 저장**&#x200B;을 클릭합니다.
-   1. (선택 사항) **내보내기** 아이콘 ![](assets/export.png)을(를) 클릭하여 개요 및 사용자 정의 양식 정보를 PDF 파일로 내보낸 다음 **내보내기**&#x200B;를 클릭합니다. 다음 중에서 선택합니다.
+   1. (선택 사항) **내보내기** 아이콘 ![내보내기 아이콘](assets/export.png)을 클릭하여 개요 및 사용자 정의 양식 정보를 PDF 파일로 내보낸 다음 **내보내기**&#x200B;를 클릭합니다. 다음 중에서 선택합니다.
 
       * 모두 선택(사용자 정의 양식이 하나 이상 첨부된 경우에만 표시됨)
       * 개요
@@ -200,15 +200,15 @@ ht-degree: 4%
 
       PDF 파일이 컴퓨터로 다운로드됩니다.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![내보내기 단추가 있는 문제 세부 정보 내보내기 선택 상자](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       자세한 내용은 [사용자 정의 양식 및 개체 세부 정보 내보내기](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)를 참조하십시오.
 
-1. (조건부) 작업에 대한 모든 정보를 편집하려면 작업에 대한 관리 권한이 있는 사용자는 작업 이름 옆에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
+1. (조건부) 작업에 대한 모든 정보를 편집하려면 작업에 대한 관리 권한이 있는 사용자는 작업 이름 옆에 있는 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
    또는
 
-   작업 목록에서 작업을 선택한 다음 목록 맨 위에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+   작업 목록에서 작업을 선택한 다음 목록 맨 위에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
    작업 편집 상자가 열립니다.
 
@@ -241,7 +241,7 @@ ht-degree: 4%
 1. 위에서 설명한 대로 작업 편집을 시작합니다.
 1. 왼쪽 패널에서 **작업 이름**&#x200B;을 클릭합니다.
 
-   ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   작업 상자 편집의 ![작업 이름 섹션](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. 작업 이름을 업데이트합니다.
 
@@ -252,7 +252,7 @@ ht-degree: 4%
 1. 위에서 설명한 대로 작업 편집을 시작합니다.
 1. 왼쪽 패널에서 **개요**&#x200B;를 클릭합니다.
 
-   ![](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![개요 섹션 편집 작업 상자](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. 작업에 대한 다음 정보를 업데이트합니다.
 
@@ -521,7 +521,7 @@ ht-degree: 4%
          </tbody> 
          </table>-->
 
-   1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**&#x200B;을 클릭합니다.
+   1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**을 클릭합니다.
 지정(Assignments) 영역이 이전 경험에 열립니다.
 
       ![작업 편집 상자의 할당 섹션](assets/nwe-assignments-section-edit-task-box-350x217.png)
@@ -843,7 +843,7 @@ ht-degree: 4%
 1. 위에서 설명한 대로 작업 편집을 시작합니다.
 1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭하거나 사용자 지정 양식이 이미 첨부되어 있는 경우 해당 양식 이름을 클릭합니다.
 
-   ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![사용자 정의 양식 섹션 작업 상자 편집](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. **사용자 정의 양식 추가**&#x200B;를 클릭하고 작업에 연결할 사용자 정의 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다.
 
@@ -862,7 +862,7 @@ ht-degree: 4%
 1. 이 문서의 [작업 편집](#Edit2) 섹션에 설명된 대로 작업 편집을 시작합니다.
 1. 왼쪽 패널에서 **재무**&#x200B;을 클릭합니다.
 
-   ![](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![재무 섹션 편집 작업 상자](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. 다음 필드를 업데이트합니다.
 
@@ -905,7 +905,7 @@ ht-degree: 4%
 1. 이 문서의 [작업 편집](#Edit2) 섹션에 설명된 대로 작업 편집을 시작합니다.
 1. 왼쪽 패널에서 **설정**&#x200B;을 클릭합니다.
 
-   ![](assets/nwe-settings-section-edit-task-box-350x304.png)
+   작업 상자 편집의 ![설정 섹션](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. 다음 필드를 업데이트합니다.
 
@@ -992,7 +992,7 @@ ht-degree: 4%
 시스템 또는 그룹 관리자는 작업 헤더에 표시되는 필드를 사용자 정의할 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오.
 
 
-![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![승인이 없고 종속성이 있는 작업 헤더](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 작업 헤더에는 기본적으로 다음 필드가 포함됩니다.
 

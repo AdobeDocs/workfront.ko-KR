@@ -6,9 +6,9 @@ description: 새 요청을 입력할 때 Workfront에서 제안하는 사용 가
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '827'
 ht-degree: 3%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 3%
 
    각 요청 대기열의 각 대기열 주제에 대한 초안이 이 목록에 표시됩니다.
 
-   ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   초안 목록이 있는 ![초안 섹션](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. (선택 사항) 열 헤더를 클릭하여 해당 열을 기준으로 목록을 정렬합니다.
 
@@ -133,7 +133,7 @@ ht-degree: 3%
 
      아직 제출할 준비가 되지 않았으며 나중에 다시 돌아와서 완료할 수 있는 경우 **닫기**&#x200B;를 클릭합니다. 요청이 초안 섹션에 저장되었으며, 다음에 이 요청 대기열에 대한 요청을 제출할 때 사용할 수 있습니다.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![새 요청에 대해 제출, 닫기, 버리기 단추](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      요청을 제출하면 초안이 삭제되고 복원할 수 없습니다.
 

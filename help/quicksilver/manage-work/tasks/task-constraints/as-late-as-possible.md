@@ -7,9 +7,9 @@ description: 가능한 한 늦게(ALAP)는 작업의 완료 시간을 가능한 
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ ht-degree: 0%
 
   **예:** 예를 들어 작업 A는 작업 B의 전임자입니다. 작업 A는 사용 가능한 최신 시간 제약 조건을 가지며 작업 B는 가능한 한 빨리 제한 조건을 갖습니다. 이러한 상황에서 작업 A는 가능한 프로젝트 시작에 가깝게 일정이 잡힌다.
 
-  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![최근 사용 가능한 시간 작업 제한](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **가능한 한 늦게:** 이 시나리오에서는 전임 작업에 가능한 한 늦게 제한을 사용하면 전임 작업에 우선 순위가 부여됩니다.
 
   **예:** 예를 들어 작업 A는 작업 B의 전임자입니다. 작업 A에는 가능한 한 늦게 제한이 있고 작업 B에는 가능한 한 빨리 제한이 있습니다. 이러한 상황에서 작업 A는 가능한 프로젝트 종료에 임박하여 예정되어 있다.
 
-  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![작업 목록에서 가능한 한 늦게 작업 제한](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 
 

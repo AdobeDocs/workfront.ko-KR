@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ When assigning users to work, their availability according to their schedules af
    >
    >**할당 대상** 필드를 사용하지 마십시오. 할당된 사용자가 아닌 작업에 대한 기본 소유자만 찾습니다.
 
-1. 할당을 수정할 작업을 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 할당을 수정할 작업을 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
    작업에 대한 할당 편집은 선택하는 환경에 따라 다릅니다.
 

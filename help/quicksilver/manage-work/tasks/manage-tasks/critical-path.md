@@ -7,10 +7,10 @@ description: 프로젝트의 중요 경로를 결정하는 것은 Adobe Workfron
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 3%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
      >작업의 후속 작업 날짜가 종속 작업 또는 프로젝트 날짜에 직접 영향을 주지 않는 경우 후속 작업이 중요 경로에 없습니다.
      >
      >
-     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >![중요 경로에 없는 후임 작업](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
    * 하위 작업이 중요 경로 작업으로 식별되는 경우, 예상 시작 일자와 상위 작업의 시간이 하위 작업의 시간과 동일한 경우, 상위 작업도 중요 경로 작업으로 식별됩니다.
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 

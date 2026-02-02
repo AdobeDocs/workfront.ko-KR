@@ -6,10 +6,10 @@ description: 작업의 완료율을 업데이트하여 해당 작업의 완료 �
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 0%
+source-wordcount: '692'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 * **작업 헤더에서**: 작업 헤더에서 작업의 완료율을 업데이트할 수 있습니다.
 
-  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![헤더의 업데이트 비율](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 * **작업의 요약 패널에서**: 다음 영역에서 작업을 볼 때 요약 패널의 맨 위에 있는 작업의 완료율을 업데이트할 수 있습니다.
 
@@ -108,7 +108,7 @@ ht-degree: 0%
    * 타임시트
    * 워크로드 밸런서
 
-  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+  ![강조 표시된 작업 요약의 업데이트 비율](assets/update-percent-complete-in-task-summary-highlighted.png)
 
   자세한 내용은 [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하세요.
 

@@ -6,9 +6,9 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2575'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
      >
      >Workfront은 사용자가 실제로 요청을 제출한 경우에만 경로를 저장합니다. 초안 요청에 대한 경로는 생성되지 않습니다.
 
-     ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![새 요청을 입력할 때 최근 경로 및 요청 큐 목록](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * **요청 큐** 섹션에서 요청 큐를 선택하십시오.
    * 이전에 액세스한 경로에 속하는 키워드를 입력하여 요청 대기열을 검색합니다.
@@ -169,7 +169,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
      >
      >특수 문자가 포함된 이름을 입력하면 문자를 입력하지 않아도 요청 대기열, 대기열 주제 또는 주제 그룹이 표시됩니다.
 
-     ![](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![강조 표시된 결과가 있는 요청 큐 검색 결과](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      사용 가능한 요청 대기열 및 최근 경로 목록은 결과에 강조 표시된 키워드가 포함된 경로만 포함하도록 동적으로 업데이트됩니다.
 
@@ -206,7 +206,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 
      기본적으로 세 개의 다른 대기열 주제의 최신 초안이 표시됩니다.
 
-     ![](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![새 요청 영역이 제거된 후 새 초안](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * 선택한 큐에 새 요청 입력을 시작합니다.
 
@@ -219,7 +219,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
    >주제 그룹 또는 대기열 주제 위로 마우스를 가져가면 오른쪽에 설명 필드가 표시됩니다. 여기에는 주제 그룹 또는 대기열 주제에 대한 추가 정보가 포함되어 있습니다.
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
+   >![요청을 제출할 때 대기열 주제에 대한 설명 표시](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    요청 대기열에 최대 10개의 주제 그룹 계층을 구축할 수 있습니다.\
@@ -327,7 +327,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 
      아직 제출할 준비가 되지 않았으며 나중에 다시 돌아와서 완료할 수 있는 경우 **닫기**&#x200B;를 클릭합니다. 요청이 초안 섹션에 저장되었으며, 다음에 이 요청 대기열에 대한 요청을 제출할 때 사용할 수 있습니다.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![새 요청에 대한 초안 제출, 닫기, 삭제 단추](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    요청을 제출하면 초안이 자동으로 삭제되고 복원할 수 없습니다.
 
