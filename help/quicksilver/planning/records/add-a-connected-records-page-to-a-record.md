@@ -273,7 +273,7 @@ When you create a connected records page for connected Planning records in the P
 
         자세한 내용은 이 문서의 [연결된 레코드 페이지에서 다중 보기 관리](#manage-multiple-views-from-the-connected-records-page) 섹션을 참조하십시오.
 
-   1. **만들기**를 클릭합니다.
+   1. **만들기**&#x200B;를 클릭합니다.
 새 보기가 보기 드롭다운 메뉴에 추가됩니다.
 
    1. (선택 사항) 만든 보기의 이름 위에 마우스를 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 옵션 중 하나를 클릭합니다.
@@ -326,7 +326,7 @@ When you create a connected records page for connected Planning records in the P
 
    1. **보기 이름**&#x200B;을(를) 추가합니다.
    1. **보기 형식** 영역에서 **목록**&#x200B;을(를) 선택하십시오.
-   1. **만들기**를 클릭합니다.
+   1. **만들기**&#x200B;를 클릭합니다.
 새 목록 보기가 **내 보기** 영역의 보기 드롭다운 메뉴에 추가됩니다.
 
       자세한 내용은 이 문서의 [연결된 레코드 페이지에서 다중 보기 관리](#manage-multiple-views-from-the-connected-records-page) 섹션을 참조하십시오.

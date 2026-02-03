@@ -101,7 +101,7 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
 [!UICONTROL 업무 균형자]에서 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 [[!UICONTROL 요약]을(를) 사용하여 [!UICONTROL 업무 균형자]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)에서 작업 항목 업데이트를 참조하십시오.
 
-문서의 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 문서 개요[[!UICONTROL 의 ]요약](../../documents/managing-documents/summary-for-documents.md)을 참조하십시오.
+문서의 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 문서 개요[[!UICONTROL 의 &#x200B;]요약](../../documents/managing-documents/summary-for-documents.md)을 참조하십시오.
 
 
 ## 작업 또는 문제 목록에서 [!UICONTROL 요약] 패널 보기
