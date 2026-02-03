@@ -6,9 +6,9 @@ description: 문서 영역에서 폴더와 해당 컨텐츠를 공유할 수 있
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '847'
 ht-degree: 2%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 Workfront 개체를 연 상태에서 왼쪽 패널에서 **문서**&#x200B;를 클릭합니다.
 
-1. 폴더를 선택한 다음 도구 모음에서 공유 아이콘 ![](assets/share-icon.png)을(를) 클릭합니다.
+1. 폴더를 선택한 다음 도구 모음에서 공유 아이콘 ![공유 아이콘](assets/share-icon.png)을 클릭합니다.
 
    폴더는 개체에 있는 폴더 계층의 상위 5개 수준에 있어야 하며 스마트 폴더일 수 없습니다.
 
@@ -132,7 +132,7 @@ Workfront 개체를 연 상태에서 왼쪽 패널에서 **문서**&#x200B;를 �
    </table>
 
 1. (선택 사항) 3-4단계를 반복하여 목록에 다른 이름을 추가하고 해당 옵션을 구성합니다.
-1. (선택 사항) 시스템의 모든 사용자가 폴더 및 해당 컨텐츠를 볼 수 있도록 하려면 공유 상자의 오른쪽 위 모서리에 있는 톱니바퀴 아이콘 ![](assets/gear-icon-settings-with-dn-arrow.jpg)을(를) 클릭한 다음 **이 항목을 시스템 전체에 표시합니다.**
+1. (선택 사항) 시스템의 모든 사용자가 폴더 및 해당 컨텐츠를 볼 수 있도록 하려면 공유 상자의 오른쪽 위 모서리에 있는 톱니바퀴 아이콘 ![아래쪽 화살표가 있는 톱니바퀴 아이콘 설정](assets/gear-icon-settings-with-dn-arrow.jpg)을 클릭한 다음 **이 항목을 시스템 전체에 표시합니다.**
 
    마음이 바뀌면 **시스템 전체 액세스 제거**(기본 옵션)를 클릭할 수 있습니다.
 

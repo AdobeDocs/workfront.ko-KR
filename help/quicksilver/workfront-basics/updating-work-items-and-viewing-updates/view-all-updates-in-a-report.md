@@ -6,9 +6,9 @@ description: 사용자가 객체에 대해 입력한 모든 업데이트를 보�
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '380'
 ht-degree: 4%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 4%
 1. (선택 사항) **필터**&#x200B;를 클릭한 다음 **필터 규칙 추가**&#x200B;를 클릭합니다.
 1. **참고** > **참고 텍스트** > **비어 있지 않음**&#x200B;에 대한 필터를 추가합니다.
 
-   ![](assets/note-note-text-not-blank-filter.png)
+   ![메모 텍스트 필드에 공백이 없습니다. 필터](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >

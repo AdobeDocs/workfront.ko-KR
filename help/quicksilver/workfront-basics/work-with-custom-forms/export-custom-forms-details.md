@@ -1,14 +1,13 @@
 ---
-title: 사용자 정의 양식 및 개체 세부 정보 내보내기
-description: 사용자 정의 양식 및 개체 세부 정보 내보내기
+title: 사용자 지정 Forms 및 개체 세부 정보 내보내기
+description: 오브젝트의 세부 정보 섹션에서 개요 및 사용자 정의 양식 정보를 PDF 파일로 내보낼 수 있습니다. 그런 다음 PDF을 인쇄하거나 다른 사용자와 공유할 수 있습니다.
 author: Alina
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 1%
+source-wordcount: '579'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +35,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,7 +124,7 @@ ht-degree: 1%
 
    개요 영역과 모든 사용자 정의 양식을 내보내려면 **모두 선택**&#x200B;을 선택할 수도 있습니다.
 
-   ![](assets/export-custom-form-button-menu.png)
+   ![사용자 정의 양식 내보내기 단추](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >

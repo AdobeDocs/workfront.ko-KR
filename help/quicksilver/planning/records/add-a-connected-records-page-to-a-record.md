@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
    <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr>
 
@@ -273,7 +273,7 @@ When you create a connected records page for connected Planning records in the P
 
         자세한 내용은 이 문서의 [연결된 레코드 페이지에서 다중 보기 관리](#manage-multiple-views-from-the-connected-records-page) 섹션을 참조하십시오.
 
-   1. **만들기**&#x200B;를 클릭합니다.
+   1. **만들기**를 클릭합니다.
 새 보기가 보기 드롭다운 메뉴에 추가됩니다.
 
    1. (선택 사항) 만든 보기의 이름 위에 마우스를 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 옵션 중 하나를 클릭합니다.
@@ -287,7 +287,7 @@ When you create a connected records page for connected Planning records in the P
       * **삭제**
 자세한 내용은 [레코드 보기 삭제](/help/quicksilver/planning/views/delete-record-views.md)를 참조하십시오.
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![연결된 레코드 페이지에서 추가 메뉴 보기](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >
@@ -326,7 +326,7 @@ When you create a connected records page for connected Planning records in the P
 
    1. **보기 이름**&#x200B;을(를) 추가합니다.
    1. **보기 형식** 영역에서 **목록**&#x200B;을(를) 선택하십시오.
-   1. **만들기**&#x200B;를 클릭합니다.
+   1. **만들기**를 클릭합니다.
 새 목록 보기가 **내 보기** 영역의 보기 드롭다운 메뉴에 추가됩니다.
 
       자세한 내용은 이 문서의 [연결된 레코드 페이지에서 다중 보기 관리](#manage-multiple-views-from-the-connected-records-page) 섹션을 참조하십시오.
@@ -340,7 +340,7 @@ When you create a connected records page for connected Planning records in the P
       * **삭제**
 자세한 내용은 [레코드 보기 삭제](/help/quicksilver/planning/views/delete-record-views.md)를 참조하십시오.
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![연결된 레코드 페이지에서 추가 메뉴 보기](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >

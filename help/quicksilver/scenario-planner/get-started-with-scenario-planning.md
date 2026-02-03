@@ -2,10 +2,9 @@
 title: 시나리오 플래너 시작
 description: Adobe Workfront Scenario Planner를 사용하여 회사의 전반적인 전략적 결과를 요약하는 엔터프라이즈 수준 계획을 작성할 수 있습니다. 계획에 대한 여러 이니셔티브를 정의하고 다양한 시나리오에 배치하여 계획을 실행하기 위한 최적의 솔루션을 찾을 수 있습니다.
 author: Alina
-draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%

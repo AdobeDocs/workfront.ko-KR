@@ -5,9 +5,9 @@ description: 요약 패널을 사용하여 작업 문제 목록, 문서 또는 �
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '908'
 ht-degree: 2%
 
 ---
@@ -101,17 +101,17 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
 [!UICONTROL 업무 균형자]에서 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 [[!UICONTROL 요약]을(를) 사용하여 [!UICONTROL 업무 균형자]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)에서 작업 항목 업데이트를 참조하십시오.
 
-문서의 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 문서 개요[[!UICONTROL 의 &#x200B;]요약](../../documents/managing-documents/summary-for-documents.md)을 참조하십시오.
+문서의 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 문서 개요[[!UICONTROL 의 ]요약](../../documents/managing-documents/summary-for-documents.md)을 참조하십시오.
 
 
 ## 작업 또는 문제 목록에서 [!UICONTROL 요약] 패널 보기
 
 1. 작업 또는 문제로 이동하여 목록에서 항목을 선택합니다.
-1. **[!UICONTROL 요약]** 아이콘 ![](assets/qs-summary-in-new-toolbar-small.png)을(를) 클릭합니다
+1. 새 도구 모음에서 **[!UICONTROL 요약]** 아이콘 ![요약](assets/qs-summary-in-new-toolbar-small.png)을 클릭합니다.
 
    또는
 
-   **[!UICONTROL 요청]** 영역의 ![](assets/open-summary-with-text-nwe.png)제출됨[!UICONTROL &#x200B; 섹션에서 &#x200B;]요약 열기[!UICONTROL &#x200B; 아이콘 &#x200B;]을(를) 클릭합니다.
+   **[!UICONTROL 요청]** 영역의 ![제출됨](assets/open-summary-with-text-nwe.png) 섹션에서 [!UICONTROL 요약 열기] 아이콘 [!UICONTROL 텍스트가 있는 요약 열기]을 클릭합니다.
 
    요약은 다른 작업 또는 문제를 클릭하거나 선택할 때 열려 있으며 수동으로 닫을 때까지 열려 있습니다.
 
@@ -123,13 +123,13 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
 1. (선택 사항) [!UICONTROL 요약] 패널을 닫으려면 다음 중 하나를 실행하십시오.
 
-   * 작업 또는 문제 목록에서 **[!UICONTROL 요약 열기]** 아이콘 ![](assets/summary-panel-icon.png)을(를) 클릭합니다
+   * 작업 또는 문제 목록에서 **[!UICONTROL 요약 열기]** 아이콘 ![요약 패널 아이콘](assets/summary-panel-icon.png)을 클릭합니다
 
      또는
 
      **요약** 패널의 오른쪽 위 모서리에 있는 [!UICONTROL X] 아이콘을 클릭합니다.
 
-   * [!UICONTROL 요청] 영역의 [!UICONTROL 제출됨] 섹션에서 **[!UICONTROL 요약 닫기]** 아이콘 ![](assets/close-summary-with-text-nwe.png)을 클릭합니다
+   * [!UICONTROL 요청] 영역의 [!UICONTROL 제출됨] 섹션에서 **[!UICONTROL 요약 닫기]** 아이콘 ![텍스트가 있는 요약 닫기](assets/close-summary-with-text-nwe.png)를 클릭합니다
 
      또는
 

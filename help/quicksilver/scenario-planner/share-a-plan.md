@@ -7,10 +7,10 @@ description: Adobe Workfront 시나리오 플래너에서 만든 플랜을 다�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 0%
+source-wordcount: '882'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -131,7 +131,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설�
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>작업</strong> </p> </th> 
+   <th> <p><strong>액션</strong> </p> </th> 
    <th> <p><strong>[!UICONTROL 관리]</strong> </p> </th> 
    <th> <p><strong>[!UICONTROL 보기]</strong> </p> </th> 
   </tr> 
@@ -221,7 +221,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설�
 
    또는
 
-   여러 개의 플랜을 일괄적으로 공유하도록 선택한 경우 플랜 목록 상단의 **[!UICONTROL 공유]** 아이콘 ![](assets/share-icon-26x26.png)을(를) 클릭하여 [!UICONTROL 플랜] 액세스 상자를 엽니다.
+   여러 개의 플랜을 일괄적으로 공유하도록 선택한 경우 플랜 목록 맨 위에 있는 **[!UICONTROL 공유]** 아이콘 ![공유 아이콘](assets/share-icon-26x26.png)을 클릭하여 [!UICONTROL 플랜] 액세스 상자를 엽니다.
 
    >[!TIP]
    >

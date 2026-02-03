@@ -7,9 +7,9 @@ description: 양식을 오브젝트에 첨부한 후 사용자 정의 양식에 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1222'
 ht-degree: 3%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 3%
    >
    >양식을 저장하려면 먼저 양식의 모든 필수 필드를 작성해야 합니다. 필수 필드의 이름 뒤에 별표가 붙습니다.
    >
-   >![](assets/nwe-required-custom-field.png)
+   >![필수 사용자 지정 필드](assets/nwe-required-custom-field.png)
 
    다른 사용자가 오브젝트의 계산된 사용자 정의 필드에서 참조하는 다른 오브젝트의 데이터를 변경할 때 변경 사항이 오브젝트에 자동으로 반영되지 않습니다. 개체의 모든 계산된 사용자 지정 필드를 수동으로 업데이트하는 방법에 대한 자세한 내용은 이 문서에서 [개체에 대한 모든 계산된 사용자 지정 필드 다시 계산](#recalculate-all-calculated-custom-fields-for-an-object)을 참조하십시오.
 
@@ -177,7 +177,7 @@ ht-degree: 3%
    * 프로그램
    * 문서
 
-1. 개체 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **표현식 다시 계산**&#x200B;을 클릭합니다.
+1. 개체 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **식 다시 계산**&#x200B;을 클릭합니다.
 
    이렇게 하면 오브젝트 양식의 모든 사용자 정의 필드가 다시 계산됩니다.
 
@@ -217,9 +217,9 @@ ht-degree: 3%
    * 포트폴리오
    * 프로그램
    * 경비
-1. **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **사용자 지정 표현식 다시 계산**&#x200B;을 클릭합니다.
+1. **기타** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭한 다음 **사용자 지정 표현식 다시 계산**&#x200B;을 클릭합니다.
 
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![프로젝트 목록에서 표현식 타임라인 재무 정보 다시 계산](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 Workfront은 선택한 모든 프로젝트에 대해 모든 사용자 정의 필드를 즉시 계산합니다.
 모든 객체 목록에 이 기능이 있는 것은 아닙니다.

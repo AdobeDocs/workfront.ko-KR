@@ -2,10 +2,9 @@
 title: 요청 대기열에 대한 링크 공유
 description: 요청을 제출할 때 요청 대기열, 주제 그룹 또는 대기열 주제에 대한 링크를 공유할 수 있습니다.
 author: Becky
-draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 10%

@@ -8,9 +8,9 @@ author: Becky and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 * 작업 또는 문제가 처음 사용자에게 할당되고 상태가 신규인 경우 해당 작업에 대한 작업으로 버튼이 표시됩니다.
 
-  ![](assets/nwe-work-on-it-button.png)
+  ![처리 중 단추](assets/nwe-work-on-it-button.png)
 
   >[!TIP]
   >
@@ -44,12 +44,12 @@ ht-degree: 1%
 
 * 처리(Work On It) 동의를 클릭하면 버튼이 완료로 표시로 변경됩니다. 처리 중 단추에 액세스할 수 있는 위치에 대한 자세한 내용은 이 문서의 [처리 중 찾기 및 완료 단추](#locate-the-work-on-it-and-done-button) 섹션을 참조하십시오.
 
-  ![](assets/nwe-mark-as-done-button-350x122.png)
+  ![완료로 표시](assets/nwe-mark-as-done-button-350x122.png)
 
 
 <!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
+  ![Home left Done with my part button](assets/home-left-done-with-my-part-button-350x184.png)-->
 
 ## 작업 위치 및 완료 버튼 {#locate-the-work-on-it-and-done-button}
 

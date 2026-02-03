@@ -7,9 +7,9 @@ description: 아래 나열된 객체에 기존 사용자 정의 양식을 추가
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 4%
 
 ---
@@ -114,7 +114,7 @@ Workfront 관리자 또는 플랜 라이선스와 사용자 정의 양식에 대
 ### 개체를 편집하여 개체에 사용자 정의 양식 추가 {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. 사용자 정의 양식을 추가하려는 객체로 이동합니다.
-1. **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집** ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. **기타** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭한 다음 **편집** ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. **사용자 지정 Forms** > **Forms 추가**&#x200B;를 클릭한 다음 드롭다운 메뉴에서 최대 10개의 양식을 선택합니다.
 
 1. (선택 사항) 사용자 정의 양식의 편집 가능한 필드에서 정보를 업데이트합니다.
@@ -158,11 +158,11 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. 객체 목록으로 이동합니다.
 1. 목록에서 여러 객체를 선택합니다.
 
-1. **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. **기타** 메뉴 ![기타 메뉴](assets/more-icon.png)를 클릭한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
    또는
 
-   목록 맨 위에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+   목록 맨 위에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
 1. **선택** 드롭다운 메뉴에서 선택한 모든 개체와 연결할 양식을 선택합니다.
 

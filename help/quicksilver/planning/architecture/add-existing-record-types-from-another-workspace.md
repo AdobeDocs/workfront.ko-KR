@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -130,7 +130,7 @@ And
 1. **계속**&#x200B;을 클릭합니다.
 1. **레코드 종류 선택** 상자에서 기존 작업 영역에서 추가할 레코드 종류의 카드를 클릭한 다음 **추가**&#x200B;를 클릭합니다.
 
-   레코드 종류가 선택한 보조 작업 영역에 추가되고 **글로벌 레코드 종류** 아이콘 ![](assets/global-icon.png)이(가) 레코드 종류의 카드에 표시됩니다.
+   레코드 종류가 선택한 보조 작업 영역에 추가되고 **글로벌 레코드 종류** 아이콘 ![글로벌 레코드 아이콘 기본 작업 영역](assets/global-icon.png)이 레코드 종류의 카드에 표시됩니다.
 
    다음과 같은 상황이 발생합니다.
 

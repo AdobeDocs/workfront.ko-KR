@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '3203'
+source-wordcount: '3154'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 <!-- Audited: 4/2025 -->
 
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 >
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
+>The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. 
 >
 >The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
@@ -45,7 +45,7 @@ ht-degree: 1%
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 >
-><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
+>The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. 
 -->
 
 다른 사용자에게 오브젝트의 상태 또는 진행 상황을 알리거나 추가 정보 또는 추가 리소스를 요청하기 위해 주석을 추가하여 Adobe Workfront 오브젝트에 업데이트를 추가할 수 있습니다.
@@ -272,12 +272,12 @@ You can add updates to the following objects:
 이 문서에서는 프로젝트, 작업 또는 문제를 업데이트하는 방법에 대해 설명합니다. 대부분의 다른 객체를 업데이트하는 것도 유사합니다.
 
 1. 주석을 추가할 개체를 찾은 다음 해당 이름을 클릭하여 개체 페이지를 엽니다.
-1. 왼쪽 패널에서 **업데이트**&#x200B;를 클릭합니다.
+1. 왼쪽 패널에서 **업데이트**를 클릭합니다.
 기본적으로 **댓글** 탭이 선택되어 있습니다.
 
-1. <span class="preview">**새 댓글** 상자에 댓글을 입력하세요.</span>
+1. **새 댓글** 상자에 댓글을 입력하세요.
 
-   <span class="preview">![새 댓글 상자](assets/comment-box-all-tabs.png)</span>
+   ![새 댓글 상자](assets/comment-box-all-tabs.png)
 
    >[!TIP]
    >
@@ -287,7 +287,7 @@ You can add updates to the following objects:
    * 변경 내용을 실행 취소하려면 CTRL + Z(⌘+z, Mac)
    * 변경 내용을 다시 실행하려면 CTRL+Y(⌘+Mac)
 
-1. <span class="preview">(선택 사항) **사람 또는 팀 태그 지정** 영역에서 이 댓글에 포함할 사용자 또는 팀의 이름이나 전자 메일을 입력하거나 목록에 표시될 때 선택하십시오. </span>
+1. (선택 사항) **사람 또는 팀 태그 지정** 영역에서 이 댓글에 포함할 사용자 또는 팀의 이름 또는 전자 메일을 입력하거나 목록에 표시될 때 선택합니다.
 1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하고, 업데이트에 이모지, 링크 또는 이미지를 추가하여 콘텐츠를 개선합니다. 자세한 내용은 이 문서의 [Workfront 업데이트에서 서식 있는 텍스트 사용](#use-rich-text-in-a-workfront-update) 섹션을 참조하십시오.
 
    >[!TIP]
@@ -370,7 +370,7 @@ You can add updates to the following objects:
    | 글머리 기호 목록 | ![글머리 기호 목록 아이콘](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 번호 매기기 목록 | ![번호 매기기 목록 아이콘](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
 
-   <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
+   <!--| Block Quote | ![Block quote icon](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
 
@@ -386,11 +386,11 @@ You can add updates to the following objects:
    >* 조직에서 Internet Explorer와 함께 Workfront을 사용하는 경우 업데이트에 붙여넣은 서식 있는 텍스트 서식이 손실되고 일반 텍스트로 표시됩니다. 리치 텍스트 도구 모음의 속성을 사용하여 텍스트 서식을 변경할 수 있습니다.
    >* 타임시트 영역에서 수행한 업데이트 또는 보고서에서 본 메모 및 마지막 조건 개체에 대해 서식 있는 텍스트 서식을 사용할 수 없습니다.
 
-   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
+   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![Block quote icon](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
    <!--remove this picture below and the bullet above when we remove legacy-->
 
-   <!--![](assets/block-quote-marked-350x144.png)-->
+   <!--![Block quote](assets/block-quote-marked-350x144.png)-->
 
 1. (선택 사항) 업데이트에 이모지를 추가하려면 **이모지** 아이콘 ![이모지 아이콘](assets/emoji-icon.png)을 클릭합니다.
 
@@ -434,7 +434,7 @@ You can add updates to the following objects:
    >[!IMPORTANT]
    >
    >
-   ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
+   >* 보드에서 목표 또는 임시 카드에 이미지를 추가할 수 없습니다.
    >
    >* 이미지 또는 첨부 파일 추가 아이콘을 보려면 Workfront 관리자가 Workfront 인터페이스 영역의 피드 업데이트 환경 설정 섹션에서 이미지 추가를 활성화해야 합니다. 자세한 내용은 [사용자 업데이트에 대한 환경 설정 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)을 참조하십시오.
    >* 최대 이미지 파일 크기는 7MB입니다. 지원되는 이미지 파일 유형은 .jpg, .gif 및 .png입니다.
@@ -459,7 +459,7 @@ You can add updates to the following objects:
 오브젝트의 업데이트 섹션에서 댓글 또는 답글을 검색할 수 있습니다.
 
 1. 개체의 **업데이트** 섹션으로 이동합니다.
-1. &#x200B;<!--or a user's name -->댓글&#x200B;**탭의 오른쪽 위 모서리에 있는**&#x200B;검색&#x200B;**상자에** 키워드를 입력하십시오.
+1. <!--or a user's name -->댓글&#x200B;**탭의 오른쪽 위 모서리에 있는**&#x200B;검색&#x200B;**상자에** 키워드를 입력하십시오.
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
@@ -560,7 +560,7 @@ This option copies the text from a specific update to the clipboard.
 1. Go to the update or reply you want to copy.
 1. Click the **More** menu, then click **Copy body text**.
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
+   ![Update stream comment menu](assets/update-stream-comment-menu-marked-350x152.png)
 
 #### Copy the thread link {#copy-the-thread-link}
 
@@ -570,7 +570,7 @@ This option copies the full thread link to the clipboard so you can share the th
 
 1. Click the **More** menu, then click **Copy thread link**.
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png) 
+   ![Stream comment menu marked](assets/update-stream-comment-menu-marked-350x152.png) 
 
 1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 
@@ -581,7 +581,7 @@ This option copies a specific update link to the clipboard. When you share the u
 1. Go to the update or reply you want to copy.
 1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
-   ![](assets/copy-update-link-old-ui.png)
+   ![Copy update link](assets/copy-update-link-old-ui.png)
 
 1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 

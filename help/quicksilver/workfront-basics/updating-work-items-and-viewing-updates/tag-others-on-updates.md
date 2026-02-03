@@ -6,10 +6,10 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 0%
+source-wordcount: '960'
+ht-degree: 1%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto">
  <col> 
@@ -167,13 +167,13 @@ ht-degree: 0%
 
    태그가 지정된 엔티티의 이름이 해당 아바타 옆에 최대 2개의 엔티티로 표시됩니다. 두 개 이상의 엔티티에 태그가 지정되어 있으면 태그가 지정된 추가 엔티티 수와 함께 첫 번째 엔티티의 이름이 표시됩니다.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![멤버 아이콘 확장됨](assets/members-icons-expanded-unshimmed.png)
 
    주석 텍스트에서 태그가 지정되면 해당 주석에서 이름이 강조 표시됩니다.
 
    작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
-1. (선택 사항) 댓글의 오른쪽 상단에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다. 태그 지정된 사용자를 제거한 다음 **제출**&#x200B;을 클릭합니다.
+1. (선택 사항) 댓글의 오른쪽 상단에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭합니다. 태그 지정된 사용자를 제거한 다음 **제출**&#x200B;을 클릭합니다.
 
    >[!IMPORTANT]
    >
@@ -206,7 +206,7 @@ You can manually tag users in the legacy Updates section.
    >
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   ![](assets/tag-users-in-update.png)
+   ![Tag users in update](assets/tag-users-in-update.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
@@ -225,7 +225,7 @@ You can manually tag users in the legacy Updates section.
 
    You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
-   ![](assets/tagging-transparency-350x192.png)
+   ![Tagging transparency](assets/tagging-transparency-350x192.png)
 -->
 
 작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
