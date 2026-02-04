@@ -5,10 +5,10 @@ title: 캔버스 대시보드의 통화 필드 사용
 description: 캔버스 대시보드의 통화 필드를 사용할 수 있습니다.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 3%
+source-wordcount: '622'
+ht-degree: 4%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 3%
 
    >[!IMPORTANT]
    >
-   >이 문서에 설명된 기능은 기본 통화 필드에만 적용됩니다. 통화 환율이 설정되어 있는 경우 사용자 정의 통화 필드에 대한 지원이 곧 제공됩니다.
+   >이 문서에 설명된 기능은 기본 통화 필드에만 적용됩니다. 사용자 정의 통화 필드에 대한 지원이 곧 제공됩니다.
 
 
 ## 캔버스 대시보드에 대한 기본 통화 설정
