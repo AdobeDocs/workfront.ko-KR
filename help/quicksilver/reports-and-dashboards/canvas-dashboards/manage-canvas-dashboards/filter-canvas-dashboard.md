@@ -6,9 +6,9 @@ description: 필터가 생성되면 캔버스 대시보드에 필터를 적용�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -179,17 +179,3 @@ ht-degree: 2%
 1. 패널을 숨기려면 오른쪽 상단의 **닫기** 아이콘 ![닫기 아이콘](assets/close-icon.png)을 클릭합니다.
 
 
-## 통화 유형별로 대시보드 필터링
-
-대시보드 수준에서 다양한 통화 유형 간을 전환할 수 있습니다. 통화 필드가 포함된 보고서는 선택한 통화 유형을 반영하도록 업데이트됩니다.
-
->[!NOTE]
->
->통화 필드는 보고서 수준에서 잠길 수 있습니다. 통화 필드가 잠겨 있으면 대시보드의 통화 유형을 변경할 때 해당 보고서의 통화 유형이 변경되지 않습니다.
-
-대시보드에 대한 통화 유형을 변경하려면
-
-1. 대시보드 세부 정보 페이지의 오른쪽 위 모서리에 있는 통화 드롭다운 메뉴를 클릭합니다.
-1. 목록에서 원하는 통화 유형을 선택합니다.
-
-   ![통화 드롭다운 변경](assets/filter-by-currency.png)

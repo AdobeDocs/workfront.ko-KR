@@ -4,9 +4,9 @@ description: 2026년 1분기 보고 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,14 @@ ht-degree: 0%
 >프로덕션 빠른 릴리스: 2026년 1월 14일
 >모두를 위한 프로덕션: 2026년 1월 15일
 
-통화 필드에 대해 다음과 같이 업데이트되었습니다.
+기본 통화 필드에 대해 다음과 같이 업데이트되었습니다.
 
 * Workfront에 여러 통화가 정의된 경우 이제 생성 중에 대시보드에 대한 기본 통화를 선택할 수 있습니다.
 
 * 보고서를 만들 때 통화 필드를 잠글 수 있습니다. 이렇게 하면 대시보드 수준의 통화 기본 설정이 이러한 값 표시에 영향을 주지 않습니다.
 
 * 대시보드를 볼 때 사용자는 Workfront에서 정의된 통화 간에 전환할 수 있습니다. 이러한 변경 사항은 잠긴 통화 필드를 제외한 전체 대시보드에 적용됩니다.
+
 
 
 ## 캔버스 대시보드의 빠른 검색 테이블 결과
