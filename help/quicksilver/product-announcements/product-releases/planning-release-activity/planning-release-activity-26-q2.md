@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: f722940bd7222ebec85aad143378f8f849357e5a
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,22 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 보조 작업 영역의 글로벌 레코드 유형 개선
+
+>[!NOTE]
+>
+>미리 보기: 2026년 2월 5일
+>프로덕션 빠른 릴리스: 2026년 3월 12일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+기본 작업 영역에서 보조 작업 영역에 추가된 글로벌 레코드 유형에 대한 가시성을 개선했습니다. 개선 사항에는 다음이 포함됩니다.
+
+* 레코드 유형이 다른 작업 영역에서 추가되었음을 나타내는 약간 수정된 글로벌 아이콘입니다.
+
+* 레코드 유형이 생성된 작업 영역을 명확하게 식별하는 새 아이콘의 툴팁이 개선되었습니다.
+
+자세한 내용은 [다른 작업 영역에서 기존 레코드 형식 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)를 참조하십시오.
 
 ## 레코드의 세부 정보 미리 보기 상자에 표시되는 필드 구성
 
