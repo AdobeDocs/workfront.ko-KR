@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 0%
@@ -192,7 +192,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    테이블 테이블 보기에서 첫째 열의 테이블 이름 필드에 있는 **세부 정보 열기** 아이콘 ![세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다.
 
-   레코드의 미리보기가 보기에서 열립니다.
+   <span class="preview">레코드의 미리 보기가 보기에서 열립니다.</span>
 
    ![세부 정보 상자](assets/details-box.png)
 
@@ -221,7 +221,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -271,7 +271,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    테이블 테이블 보기에서 첫째 열의 테이블 이름 필드에 있는 **세부 정보 열기** 아이콘 ![세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다.
 
-   레코드의 미리보기가 보기에서 열립니다.
+   <span class="preview">레코드의 미리 보기가 보기에서 열립니다.</span>
 
    ![세부 정보 상자](assets/details-box.png)
 

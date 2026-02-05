@@ -3,9 +3,9 @@ title: Adobe Workfront Planning 무료 평가판 시작
 description: Adobe Workfront은 Adobe Workfront Planning 60일 무료 체험판을 제공하고 있습니다. 이 체험판을 통해 Planning이 큰 그림 전략을 일상적인 작업과 어떻게 연결하는지 확인할 수 있습니다. Planning은 마케팅 라이프사이클에 대한 중앙 집중식 가시성을 제공하여 팀 간의 공동 작업, 캠페인 실시간 추적 및 자동화된 워크플로우를 가능하게 합니다. 사용자 지정 작업 공간을 만들고 대화형 타임라인 및 캘린더로 작업을 시각화할 수 있습니다. 이 평가판을 통해 Planning을 통해 일일 작업을 전략적 목표에 맞게 조정하고 실행을 간소화하며 조직에 측정 가능한 결과를 도출하는 방법을 직접 확인할 수 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1255'
 ht-degree: 1%
 
 ---
@@ -71,15 +71,29 @@ Workfront Planning 무료 평가판에 참여하려면 귀사가 다음 요구 �
    * 평가판 계약 수락 창. Workfront 관리자만 계약에 동의할 수 있습니다. 이 날짜부터 언제든지 체험판 계약에 동의할 수 있습니다.
 * **2026년 3월 2일**: Workfront Planning 평가판이 시작됩니다.
 
+  다음 항목이 Workfront 인스턴스에 추가됩니다.
+
+   * Workfront Planning 배너는 모든 사용자에게 계속 표시됩니다.
+   * **평가판 동의 검토** 기본 설정이 **설정** 영역에 추가되었습니다.
+
   다음과 같은 시나리오가 있습니다.
 
    * Workfront 관리자가 이 날짜 이전에 계약을 수락한 경우 주 메뉴에서 계획 영역을 찾아 Workfront Planning을 사용할 수 있습니다.
    * 이 날짜 이전에 Workfront 관리자가 계약을 수락하지 않은 경우 Workfront Planning에 액세스하려면 먼저 해당 계약에 동의해야 합니다.
+* **2026년 4월 1일**: 더 이상 평가판에 등록할 수 없습니다.
+
+  Workfront 인스턴스에서 다음 항목이 제거됩니다.
+
+   * Workfront Planning 체험판 배너.
+   * **평가판 동의 검토** 기본 설정이 **설정** 영역에서 제거되었습니다.
+
 * **2026년 5월 1일**: Workfront Planning 평가판이 닫히고 Planning에 대한 액세스 권한이 제거됩니다.
 
-  Workfront은 체험판이 끝난 후 데이터를 보호하지만 더 이상 액세스할 수 없습니다.
+  체험판에 참여했다면 Workfront은 체험판이 끝난 후 데이터를 보호합니다. 그러나 이 날짜 이후에는 더 이상 액세스할 수 없습니다.
 
   계약에 동의하는 시기에 관계없이 Planning에 대한 액세스는 이 날짜에 중단됩니다.
+
+  모든 Workfront Planning 평가판
 * **2026년 11월 30일**: Workfront은 이 날짜 이후에 더 이상 데이터를 보호하지 않습니다. 이 날짜 이전에 Workfront Planning을 구매하면 Planning 및 데이터에 다시 액세스할 수 있습니다.
 
 <!--Lauren wanted this out: 
@@ -144,7 +158,9 @@ Workfront Planning 무료 평가판에 참여하려면 귀사가 다음 요구 �
 
 * **2026년 3월 2일부터 5월 1일 사이**:
 
-  무료 평가판 사용 중에 계획 영역의 작업 공간에 다음 권한이 부여됩니다.
+  Workfront 또는 Workflow 라이선스 액세스 수준에 관계없이 Workfront Planning 체험판 프로그램 참여를 수락하면 Workfront Planning Prime 라이선스를 받게 됩니다.
+
+  시스템의 사용자는 무료 평가판 중에 계획 영역의 작업 공간에 대해 다음 권한을 받게 됩니다.
 
    * 모든 시스템 관리자는 작업 공간 탭에 대한 관리 권한을 갖습니다.
    * 다른 모든 사용자는 작업 영역 탭에 대한 보기 권한이 있지만 시스템 관리자는 작업 영역에 대한 관리 권한을 부여할 수 있습니다.
