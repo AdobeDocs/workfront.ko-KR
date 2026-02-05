@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 1%
@@ -147,6 +147,7 @@ And
      >
      >새 레코드 종류의 모양, 추가 설정 또는 원본 필드는 편집할 수 없습니다. 원본 작업공간에서만 레코드 종류 및 원본 필드와 설정을 편집할 수 있습니다.
      >
+
 1. <span class="preview">(선택 사항) 보조 작업 영역의 글로벌 레코드 유형 아이콘 ![글로벌 레코드 아이콘](assets/global-icon-secondary-workspace.png) 위로 마우스를 가져가면 레코드 유형이 추가된 원본 작업 영역의 이름을 볼 수 있습니다. </span>
 1. (선택 사항) 을 클릭한 다음, 새로 추가된 레코드 유형을 작업 공간 내의 임의의 섹션으로 끌어다 놓습니다.
 1. (선택 사항) 새 레코드 종류의 카드에서 또는 해당 페이지의 레코드 종류 이름 오른쪽에 있는 **자세히** 메뉴를 클릭한 후 다음 중 하나를 클릭합니다.

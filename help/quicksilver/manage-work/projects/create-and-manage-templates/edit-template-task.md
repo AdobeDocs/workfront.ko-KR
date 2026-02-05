@@ -7,10 +7,10 @@ description: 템플릿을 만든 후 템플릿 작업에 대한 정보를 편집
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
-source-wordcount: '4633'
-ht-degree: 5%
+source-wordcount: '7460'
+ht-degree: 4%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 5%
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+자세한 내용은 [인터페이스 현대화](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)를 참조하십시오.
 
-</div> -->
+</div>
 
 템플릿을 만든 후 템플릿 작업의 정보를 편집할 수 있습니다. 템플릿을 사용하여 프로젝트를 만들거나 템플릿을 프로젝트에 첨부한 후에는 템플릿 작업에 대해 업데이트하는 정보가 프로젝트 작업과 연결됩니다.
 
@@ -106,6 +106,17 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 템플릿 작업 편집
 
+템플릿 작업 편집은 작업을 편집하기 위해 선택한 환경에 따라 다릅니다.
+
+### 프로덕션 환경에서 템플릿 작업 편집
+
+>[!NOTE]
+>
+><span class="preview">일부 고객은 미리 보기 환경에서 편집하는 것과 같은 방식으로 프로덕션 환경에서 템플릿 작업을 편집할 수 있습니다.</span>
+>
+><span class="preview">미리 보기 환경에서 작업을 편집하는 방법에 대한 자세한 내용은 이 문서의 [미리 보기 환경에서 템플릿 작업 편집](#edit-template-tasks-in-the-preview-environment) 섹션을 참조하십시오. </span>
+
+
 템플릿 작업 편집 또는 템플릿 작업 세부 정보 영역을 사용하여 템플릿 작업을 편집할 수 있습니다.
 
 {{step1-to-templates}}
@@ -163,9 +174,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 이 문서의 [이전 경험을 사용하여 템플릿 작업 편집](#edit-a-template-task-using-the-old-experience) 섹션에 설명된 대로 템플릿 작업을 계속 편집합니다.
 
-### 이전 경험을 사용하여 템플릿 작업 편집
+#### 이전 경험을 사용하여 템플릿 작업 편집
 
-#### 개요 {#overview}
+##### 개요 {#overview}
 
 1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **개요**&#x200B;를 클릭합니다.
@@ -266,7 +277,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    **변경 내용 저장**&#x200B;을 클릭합니다.
 
-#### 재무 {#finance}
+##### 재무 {#finance}
 
 1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **재무**&#x200B;을 클릭합니다.
@@ -313,7 +324,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    **변경 내용 저장**&#x200B;을 클릭합니다.
 
-#### 설정 {#settings}
+##### 설정 {#settings}
 
 1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **설정**&#x200B;을 클릭합니다.
@@ -373,7 +384,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    **변경 내용 저장**&#x200B;을 클릭합니다.
 
-#### 할당 {#assignments}
+##### 할당 {#assignments}
 
 1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **할당**&#x200B;을 클릭합니다.
@@ -397,7 +408,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    **변경 내용 저장**&#x200B;을 클릭합니다.
 
-#### 사용자 정의 양식 {#custom-forms}
+##### 사용자 정의 양식 {#custom-forms}
 
 작업이 프로젝트에 추가될 때 기본적으로 작업에 자동으로 첨부될 사용자 정의 양식을 정의할 수 있습니다. 기본 작업 사용자 정의 양식을 포함하도록 프로젝트를 설정하는 방법에 대한 자세한 내용은 문서 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)의 &quot;작업&quot; 섹션을 참조하십시오.
 
@@ -430,7 +441,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    **변경 내용 저장**&#x200B;을 클릭합니다.
 
-#### 댓글 {#comment}
+##### 댓글 {#comment}
 
 1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **댓글**&#x200B;을 클릭하세요.
@@ -442,7 +453,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    사용자 또는 다른 사용자가 이 템플릿에서 프로젝트를 만들 때 템플릿 작업에 적용한 모든 설정이 프로젝트 작업의 설정이 됩니다.
 
-### 새 경험을 사용하여 템플릿 작업 편집
+#### 새 경험을 사용하여 템플릿 작업 편집
 
 새 경험에서 **템플릿 작업 편집** 상자를 연 후 다음 섹션에서 정보를 지정하는 것이 좋습니다.
 
@@ -454,7 +465,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * [설정](#settings-1)
 * [댓글](#comment-1)
 
-#### 템플릿 작업 이름
+##### 템플릿 작업 이름
 
 >[!TIP]
 >
@@ -472,7 +483,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    **저장**&#x200B;을 클릭합니다.
 
-#### 개요 {#overview-1}
+##### 개요 {#overview-1}
 
 1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **템플릿 작업 편집** 상자에서 왼쪽 패널의 **개요**&#x200B;를 클릭합니다.
@@ -563,7 +574,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    **저장**&#x200B;을 클릭합니다.
 
-#### 할당 {#assignments-1}
+##### 할당 {#assignments-1}
 
 1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **템플릿 작업 편집** 상자에서 왼쪽 패널의 **할당**&#x200B;을 클릭합니다.
@@ -613,7 +624,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    **저장**&#x200B;을 클릭합니다.
 
-#### 재무 {#finance-1}
+##### 재무 {#finance-1}
 
 1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **템플릿 작업 편집** 상자에서 왼쪽 패널의 **재무**&#x200B;을 클릭합니다.
@@ -660,7 +671,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    **저장**&#x200B;을 클릭합니다.
 
-#### 사용자 정의 양식 {#custom-forms-1}
+##### 사용자 정의 양식 {#custom-forms-1}
 
 작업이 프로젝트에 추가될 때 기본적으로 작업에 자동으로 첨부될 사용자 정의 양식을 정의할 수 있습니다. 기본 작업 사용자 정의 양식을 포함하도록 프로젝트를 설정하는 방법에 대한 자세한 내용은 문서 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)의 &quot;작업&quot; 섹션을 참조하십시오.
 
@@ -695,7 +706,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    **저장**&#x200B;을 클릭합니다.
 
-#### 설정 {#settings-1}
+##### 설정 {#settings-1}
 
 1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **템플릿 작업 상자 편집**&#x200B;에서 왼쪽 패널의 **설정**&#x200B;을 클릭합니다.
@@ -756,7 +767,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    **저장**&#x200B;을 클릭합니다.
 
-#### 댓글 {#comment-1}
+##### 댓글 {#comment-1}
 
 1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **템플릿 작업 편집** 상자에서 왼쪽 패널의 **설명**&#x200B;을 클릭합니다.
@@ -767,4 +778,468 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. **저장**&#x200B;을 클릭합니다.
 
    사용자 또는 다른 사용자가 이 템플릿에서 프로젝트를 만들 때 템플릿 작업에 적용한 모든 설정이 프로젝트 작업의 설정이 됩니다.
+
+
+<div class="preview">
+
+### 미리보기 환경에서 템플릿 작업 편집
+
+템플릿 작업 편집 또는 템플릿 작업 세부 정보 영역을 사용하여 템플릿 작업을 편집할 수 있습니다.
+
+{{step1-to-templates}}
+
+1. 템플릿 이름을 클릭하여 엽니다.
+1. 왼쪽 패널에서 **템플릿 작업**&#x200B;을 클릭합니다.
+1. 목록에서 템플릿 작업의 이름을 클릭하여 템플릿 작업을 엽니다.
+1. 템플릿 작업에 대한 제한된 정보를 편집하려면 다음 작업을 수행하십시오.
+   1. (선택 사항) 템플릿 작업에 업데이트를 추가하려면 왼쪽 패널에서 **업데이트**&#x200B;를 클릭합니다. 템플릿을 사용하여 프로젝트를 만들 경우 템플릿 작업 업데이트는 프로젝트 작업으로 전송되지 않습니다.
+   1. (선택 사항) 템플릿 작업에 문서를 추가하려면 왼쪽 패널에서 **문서**&#x200B;를 클릭합니다. 템플릿을 사용하여 프로젝트를 만들 때 문서가 프로젝트 작업으로 전송됩니다.
+   1. (조건부) 템플릿 작업에 대한 제한된 정보를 편집하려면 왼쪽 패널에서 **템플릿 작업 세부 정보**&#x200B;를 클릭한 다음 세부 정보 섹션의 영역으로 이동하여 각 영역에 대한 정보를 편집하십시오.
+   1. (선택 사항) 다음 중 하나를 수행합니다.
+      * **모두 축소** 아이콘 ![모두 축소](assets/collapse-all-icon.png)을 클릭하여 모든 영역을 축소합니다.
+      * **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 아래 영역 중 하나를 선택하거나 **모두 편집**&#x200B;을 클릭하여 모든 영역의 정보를 편집합니다.
+
+         * 개요
+         * 사용자 지정 Forms
+템플릿 작업에 첨부된 사용자 정의 양식이 있는 경우에만 사용자 정의 양식 이름이 표시됩니다.
+         * 재무
+
+        >[!TIP]
+        >
+        >세부 정보 영역에 표시되는 모든 필드에 대한 자세한 내용은 아래 설명된 대로 템플릿 작업 편집 상자를 사용하여 모든 필드를 계속 편집합니다.
+
+   1. (선택 사항) 템플릿 작업의 하위 항목을 추가하려면 왼쪽 패널의 **하위 작업** 섹션을 클릭합니다. 템플릿 작업에 대한 하위 작업을 추가하는 것은 프로젝트 작업 하위 작업을 추가하는 것과 비슷합니다. 자세한 내용은 문서 [하위 작업 만들기](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)의 &quot;작업 하위 작업 섹션에서 하위 작업 만들기&quot; 섹션을 참조하십시오.
+   1. (선택 사항) 왼쪽 패널에서 **경비**&#x200B;를 클릭하고 템플릿 작업에 경비를 추가합니다. 템플릿을 사용하여 프로젝트를 만들 때 템플릿 작업 비용이 향후 프로젝트 작업으로 이전됩니다.
+   1. (선택 사항) 왼쪽 패널에서 **승인**&#x200B;을 클릭하여 승인을 만들거나 전역 또는 그룹 수준의 승인을 템플릿 작업에 첨부합니다. 승인이 향후 프로젝트 작업으로 전송됩니다.
+   1. (선택 사항) 템플릿 작업의 전임 작업을 추가하려면 왼쪽 패널의 **전임 작업** 섹션을 클릭합니다. 템플릿 작업 전임 작업을 추가하는 것은 프로젝트 작업 전임 작업을 추가하는 것과 비슷합니다. 자세한 내용은 [전임 작업 영역을 사용하여 전임 작업 관계 만들기](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)를 참조하십시오.
+
+1. (조건부) 템플릿 작업 또는 여러 작업에 대한 모든 정보를 동시에 편집하려면 목록에서 클릭하여 선택한 다음 목록 맨 위에 있는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
+
+   **템플릿 작업 편집** 상자가 표시됩니다.
+
+   ![템플릿 작업 편집에 대한 새 경험](assets/edit-template-task-box-unshimmed.png)
+
+   >[!TIP]
+   >
+   >목록에서 템플릿 작업을 선택한 다음 헤더의 템플릿 작업 이름 오른쪽에 있는 **편집**&#x200B;을 클릭하여 **템플릿 작업 편집** 상자를 열 수도 있습니다.
+
+1. 다음 섹션 중 하나에서 정보를 지정하는 것이 좋습니다.
+
+* [템플릿 작업 이름](#template-task-name)
+* [개요](#overview-2)
+* [할당](#assignments-2)
+* [재무](#finance-2)
+* [사용자 정의 양식](#custom-forms-2)
+* [설정](#settings-2)
+* [댓글](#comment-2)
+
+1. 아래 섹션에 설명된 대로 템플릿 작업을 계속 편집합니다.
+
+#### 템플릿 작업 이름
+
+>[!TIP]
+>
+>템플릿 작업을 일괄적으로 편집할 때는 템플릿 작업 이름 섹션을 사용할 수 없습니다.
+
+
+1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
+1. 템플릿 작업 편집 상자에서 **템플릿 작업 이름**&#x200B;을 클릭하고 템플릿 작업의 이름을 추가합니다.
+
+   템플릿 작업을 일괄적으로 편집할 때는 이 보기를 사용할 수 없습니다.
+
+1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
+
+   또는
+
+   **저장**&#x200B;을 클릭합니다.
+
+#### 개요 {#overview-2}
+
+1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
+1. **템플릿 작업 편집** 상자에서 왼쪽 패널의 **개요**&#x200B;를 클릭합니다.
+
+   ![템플릿 작업 편집 개요 섹션](assets/template-task-edit-overview.png)
+
+1. 다음 중 하나를 업데이트합니다.
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>설명</strong> </td> 
+      <td>템플릿 작업에 대한 추가 정보를 추가합니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>우선 순위</strong> </td> 
+      <td> <p>템플릿 작업의 우선 순위를 지정할 수 있는 시각적 플래그입니다. </p> <p>다음 옵션 중에서 선택합니다.</p> 
+       <ul> 
+        <li> <p><strong>없음</strong> </p> </li> 
+        <li> <p><strong>낮음</strong> </p> </li> 
+        <li> <p> <b>보통</b></p> </li> 
+        <li> <p><b>높음</b> </p> </li> 
+        <li> <p><b>긴급</b> </p> </li> 
+       </ul> <p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a>을 참조하십시오.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>작업 제한 사항</strong> </td> 
+      <td> <p>이 템플릿으로 만든 프로젝트의 작업에는 이 제한 사항이 있습니다. 작업 제한은 작업이 완료되어야 하는 시기를 식별합니다. </p> <p>다음 옵션 중에서 선택합니다.</p> 
+       <ul> 
+        <li><strong>고정 날짜</strong>. <strong>계획된 시작</strong> 및 <strong>계획된 완료 일자를 지정하십시오.</strong></li> 
+        <li><strong>은(는) </strong>에 시작해야 합니다. <strong>계획된 시작 날짜를 지정하십시오.</strong></li> 
+        <li><strong>은(는)</strong>에 완료해야 합니다. <strong>계획된 완료 일자</strong>를 지정하십시오.</li> 
+        <li><strong>가능한 빨리</strong> </li> 
+        <li><strong>가능한 한 늦게</strong> </li> 
+        <li style="font-weight: bold;"><strong>가능한 가장 빠른 시간</strong> </li> 
+        <li style="font-weight: bold;"><strong>최근 사용 가능한 시간</strong> </li> 
+        <li>다음 이후에 시작: <strong>계획된 시작 일자</strong>를 지정하십시오.</li> 
+        <li><strong>다음 이후에 시작</strong>. <strong>계획된 시작 일자</strong>를 지정하십시오.</li> 
+        <li><strong>적어도 </strong>까지 완료 <strong>계획된 완료 일자</strong>를 지정하십시오.</li> 
+        <li><strong>다음 이후에 완료</strong>. <strong>계획된 완료 일자</strong>를 지정하십시오.</li> 
+       </ul> <p>작업 제한에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">작업 제한 개요</a>를 참조하십시오.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span style="font-weight: bold;">시작 일자</span><span style="font-weight: normal;">(선택 사항 및 조건부)</span> </td> 
+      <td> <p> 작업 제한 사항이 다음 중 하나인 경우에만 템플릿 작업의 시작 일을 지정할 수 있습니다.</p> 
+       <ul> 
+        <li>일자에 시작</li> 
+        <li>다음 이후에 시작</li> 
+        <li>다음 이전에 시작</li> 
+        <li>고정 일자</li> 
+       </ul> <p>이는 작업이 시작될 향후 프로젝트의 타임라인 내 날짜에 해당합니다. 다른 모든 제한의 경우, Workfront은 작업 간의 전임 작업 종속성에 따라 시작 일자를 계산합니다. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>완료 일자</strong><span style="font-weight: normal;">(선택 사항 및 조건부)</span> </td> 
+      <td> <p> 작업 제한 사항이 다음 중 하나인 경우에만 템플릿 작업의 완료 일자를 지정할 수 있습니다.</p> 
+       <ul style="list-style-type: circle;"> 
+        <li>다음까지 완료</li> 
+        <li>다음 이후에 완료</li> 
+        <li>다음보다 늦지 않게 완료</li> 
+        <li>고정 일자</li> 
+       </ul> <p>이는 작업이 완료될 향후 프로젝트의 타임라인 내 날짜에 해당합니다. 다른 모든 제약 조건의 경우 Workfront은 기간 및 전임 작업 종속성을 기준으로 완료 일자를 계산합니다. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>URL</strong> </td> 
+      <td>템플릿 작업에 대한 정보와 관련된 웹 링크를 지정합니다.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>작업 노력</strong> </td> 
+      <td>다음 옵션 중에서 선택합니다.
+      <ul><li>소형</li>
+      <li>보통</li>
+      <li>대형</li></ul>
+
+   <p><b>중요</b></p>
+      <p>템플릿 작업 편집 시 <b>작업 노력을 사용하여 작업 계획 시간</b> 설정을 자동으로 계산하는 경우에만 템플릿 작업을 편집할 때 작업 노력 필드가 표시됩니다.</p>
+
+   </td> 
+     </tr> 
+     </tbody> 
+   </table>
+
+1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
+
+   또는
+
+   **저장**&#x200B;을 클릭합니다.
+
+#### 할당 {#assignments-2}
+
+1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
+1. 왼쪽 패널에서 **할당**&#x200B;을 클릭합니다.
+
+   **할당** 영역이 열립니다.
+
+   ![템플릿 작업에 할당](assets/assignments-edit-template-tasks-box.png)
+
+1. **사람, 역할 또는 팀 검색** 필드에 사용자, 작업 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다.
+
+1. 다음 정보를 업데이트합니다.
+
+   <table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">기간 유형</td> 
+   <td> <p>이는 다음 간의 관계를 식별합니다. </p> 
+   <ul> 
+   <li> <p>작업에 할당된 리소스 수 </p> </li> 
+   <li> <p>작업을 완료하는 데 필요한 총 작업입니다. </p> </li> 
+   <li> <p> 작업의 총 기간입니다. </p> </li> 
+   </ul> <p>Workfront 관리자 또는 그룹 관리자는 시스템 또는 그룹의 작업에 대해 기본 기간 유형 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">시스템 전체 작업 및 문제 환경 설정 구성</a>을 참조하십시오. </p> <p>기간 유형을 사용하면 작업의 요구 사항에 따라 일관된 자원 할당을 설정할 수 있습니다. 작업의 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오. </p> <p>다음 옵션 중에서 선택합니다. </p> 
+   <ul> 
+   <li> <p>계산된 할당 </p> </li> 
+   <li> <p> 계산된 작업 </p> </li> 
+   <li> <p>작업량 고정 </p> </li> 
+   <li> <p>단순</p> </li> 
+   </ul> </td> 
+   </tr> 
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td role="rowheader">발생 횟수 당 기간</td> 
+   <td> <p>자동연장 작업의 상위 항목에만 표시됩니다. 작업을 만들 때 정의된 대로 각 반복 작업의 기간이 표시됩니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>를 참조하십시오. </p> <p> <b>참고</b>
+
+   개별 반복 작업에서 수정된 기간은 이 필드에 표시된 값을 표시하지 않습니다. </p> </td>
+   </tr> 
+   <tr> 
+   <td role="rowheader">기간</td> 
+   <td> 
+   <div> 
+   <div> 
+   <p>작업이 완료되기 전에 작업을 열어 두도록 허용하는 시간입니다. </p> 
+   <p><b>중요</b></p>
+   <p>작업 기간은 일반적으로 계획된 시작 일자와 계획된 완료 일자 사이의 시간이기 때문에 프로젝트의 타임라인에 영향을 줍니다.</p> 
+   <p>작업 기간 및 시간 단위를 표시하려면 다음을 수행합니다.</p> 
+   <ul> 
+   <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">시간 길이를 입력하고 드롭다운 메뉴에서 사용 가능한 시간 단위 중에서 선택합니다.</p> <p><b>팁</b></p>
+   작업 목록에서 작업 기간을 업데이트할 때 시간 단위의 약어를 사용할 수 있습니다. </p> </li> 
+   </ul> 
+   <p> 다음 표의 정규 시간 또는 경과 시간 옵션 중에서 선택할 수 있습니다. </p> 
+   <table style="table-layout:auto"> 
+   <col> 
+   <col data-mc-conditions=""> 
+   <tbody> 
+   <tr> 
+   <td>시간 단위</td> 
+   <td>약어</td> 
+   </tr> 
+   <tr> 
+   <td>분</td> 
+   <td>M</td> 
+   </tr> 
+   <tr> 
+   <td>시간</td> 
+   <td>H</td> 
+   </tr> 
+   <tr> 
+   <td>일. 이것이 기본값입니다. </td> 
+   <td>D</td> 
+   </tr> 
+   <tr> 
+   <td>주</td> 
+   <td>주</td> 
+   </tr> 
+   <tr> 
+   <td>개월</td> 
+   <td>T</td> 
+   </tr> 
+   <tr> 
+   <td>경과 시간(분)</td> 
+   <td>EM</td> 
+   </tr> 
+   <tr> 
+   <td>경과 시간</td> 
+   <td>EH</td> 
+   </tr> 
+   <tr> 
+   <td>경과 일수</td> 
+   <td>에드</td> 
+   </tr> 
+   <tr> 
+   <td>경과 주수</td> 
+   <td>EW</td> 
+   </tr> 
+   <tr> 
+   <td>경과 기간(월)</td> 
+   <td>ET</td> 
+   </tr> 
+   </tbody> 
+   </table>
+
+   <p><b>메모</b>
+
+   <p>경과 시간은 작업 기간에 대한 시간 단위입니다. 휴일, 주말 및 휴무를 포함하는 작업의 계획된 시작 일자와 계획된 완료 일자 사이의 시간입니다. 즉, 경과 시간은 역일이 경과된 때이다.
+
+   정규 시간은 공휴일, 주말 및 휴무를 고려하여 작업 기간에서 제외합니다. 작업 기간에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오. </p>
+   </div> 
+   </div> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">계획된 시간</td> 
+   <td> <p>작업에 대한 계획된 시간(시간)을 지정합니다. 작업 할당자가 완료하는 데 걸리는 실제 시간입니다. [기간 유형]이 [계산된 할당]으로 설정된 경우 작업의 계획된 시간 수만 지정할 수 있습니다. 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>를 참조하십시오.</p> 
+   <b>참고</b>
+   <p>
+   반복 작업을 만들 때 계획된 시간은 각 발생에 해당하는 시간입니다. 상위 작업의 계획된 시간은 모든 발생 항목에서 모든 계획된 시간의 합계입니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>를 참조하십시오.
+   </p>
+
+   </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">할당</td> 
+   <td> <p>작업 제한 사항이 계산된 작업량 또는 작업량 기준인 경우 각 할당자에 대해 <strong>할당 %</strong>(할당 백분율)을 지정하십시오. 피할당자의 일정에서 이 작업에 소비할 수 있는 시간입니다. 피할당자에 대한 할당 백분율을 변경하면 작업의 계획된 시간이 변경됩니다. </p> <p>작업 제한 사항이 단순하면 다음을 지정할 수 있습니다.</p> 
+   <ul> 
+   <li> <p>각 할당자의 할당 시간.</p> </li> 
+   <li> <p>작업의 계획된 시간</p> </li> 
+   <li> <p>작업 기간</p> </li> 
+   </ul> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">할당자의 역할</td> 
+   <td> <p>사용자를 피할당자로 선택한 경우 <strong>피할당자의 역할</strong> 드롭다운 메뉴에서 역할을 선택합니다. 피할당자가 이 작업에서 수행할 수 있는 역할입니다. </p> <p><b>팁</b>
+
+   프로필의 각 피할당자와 연결된 작업 역할만 드롭다운 메뉴에 나타납니다.</p> </td>
+   </tr> 
+   </tbody> 
+   </table>
+
+1. **저장**&#x200B;을 클릭하거나 다음 섹션을 계속합니다.
+
+#### 재무 {#finance-2}
+
+1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
+1. **템플릿 작업 편집** 상자에서 왼쪽 패널의 **재무**&#x200B;을 클릭합니다.
+
+   ![템플릿 작업 재무 섹션 편집](assets/template-task-edit-finance.png)
+
+1. 다음 중 하나를 업데이트합니다.
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>비용 유형</strong> </td> 
+      <td> <p>이후 태스크에 대한 원가 유형을 지정합니다. 작업의 시간 수에 따라 작업의 비용이 계산되는 방식이 결정됩니다. </p> <p>다음 옵션 중에서 선택합니다.</p> 
+       <ul> 
+        <li> <p style="font-weight: normal;"><span>비용 없음</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>시간별 고정</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>시간별 사용자</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>시간별 역할</span> </p> </li> 
+       </ul> <p>비용 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">비용 추적</a>을 참조하세요.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>수익 유형</strong> </td> 
+      <td> <p>이후 작업에 대한 수익 유형을 지정합니다. 작업의 시간 수를 기반으로 작업의 매출 계산 방법을 결정합니다.</p> <p style="font-weight: normal;">다음 옵션 중에서 선택합니다. </p> 
+       <ul> 
+        <li> <p style="font-weight: normal;">과금 불가</p> </li> 
+        <li> <p style="font-weight: normal;">시간별 사용자</p> </li> 
+        <li> <p style="font-weight: normal;">시간별 역할</p> </li> 
+        <li> <p style="font-weight: normal;">고정 시간별</p> </li> 
+        <li> <p style="font-weight: normal;">시간별 사용자(상한 포함)</p> </li> 
+        <li> <p style="font-weight: normal;">시간별 역할(수용작업량 포함)</p> </li> 
+        <li> <p style="font-weight: normal;">시간별 + 고정 사용자</p> </li> 
+        <li> <p style="font-weight: normal;">시간별 + 고정 역할</p> </li> 
+        <li> <p style="font-weight: normal;">고정 수입</p> </li> 
+       </ul> <p>수익 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">청구 및 수익 개요</a>를 참조하십시오.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
+
+   또는
+
+   **저장**&#x200B;을 클릭합니다.
+
+#### 사용자 정의 양식 {#custom-forms-2}
+
+작업이 프로젝트에 추가될 때 기본적으로 작업에 자동으로 첨부될 사용자 정의 양식을 정의할 수 있습니다. 기본 작업 사용자 정의 양식을 포함하도록 프로젝트를 설정하는 방법에 대한 자세한 내용은 문서 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)의 &quot;작업&quot; 섹션을 참조하십시오.
+
+템플릿 작업에 사용자 정의 양식을 추가하여 템플릿에서 프로젝트를 만들 때 프로젝트의 향후 작업에 사용자 정의 양식을 추가할 수도 있습니다.
+
+1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
+1. **템플릿 작업 편집** 상자에서 왼쪽 패널의 **사용자 지정 Forms**&#x200B;을 클릭합니다.
+
+   ![템플릿 작업 사용자 정의 양식 섹션 편집](assets/template-task-edit-custom-forms.png)
+
+1. 템플릿 작업과 연결할 사용자 정의 양식을 선택합니다.
+
+   이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다.
+활성 사용자 정의 양식만 목록에 표시됩니다.
+
+   사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+
+   템플릿 작업에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
+양식은 템플릿에서 만든 작업에 자동으로 추가됩니다.
+1. (조건부 및 선택 사항) 사용자 정의 양식을 템플릿 작업에 첨부한 경우 양식의 모든 필드를 편집합니다. 템플릿 작업을 저장하려면 모든 필수 필드를 지정해야 합니다.
+
+   >[!NOTE]
+   >
+   >Workfront 관리자가 사용자 정의 양식의 섹션에 대한 권한을 설정하는 방법에 따라 모든 사용자가 지정된 사용자 정의 양식에서 동일한 필드를 보거나 편집할 수 있는 것은 아닙니다. 사용자 정의 양식의 섹션 내에서 필드를 편집할 수 있는 권한은 템플릿 작업 또는 이후 작업에 대한 권한에 따라 다릅니다.\
+   >사용자 정의 양식의 섹션에서 권한을 설정하는 방법에 대한 자세한 내용은 [사용자 정의 양식 공유](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)를 참조하십시오.\
+   >작업 권한 설정에 대한 자세한 내용은 [작업 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)를 참조하십시오.\
+   >템플릿 권한 설정에 대한 자세한 내용은 [템플릿 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)를 참조하십시오.
+
+1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
+
+   또는
+
+   **저장**&#x200B;을 클릭합니다.
+
+#### 설정 {#settings-2}
+
+1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
+1. **템플릿 작업 상자 편집**&#x200B;에서 왼쪽 패널의 **설정**&#x200B;을 클릭합니다.
+
+   ![템플릿 작업 설정 편집 섹션](assets/template-task-edit-settings.png)
+
+1. 다음 중 하나를 업데이트합니다.
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+   <tr> 
+      <td role="rowheader"><p><b>마일스톤</b></p></strong> </td> 
+      <td> <p>선택한 템플릿 작업과 연결할 마일스톤을 선택하십시오.</p>
+
+   <p><b>중요</b></p>
+   <p>이 필드를 표시하려면 마일스톤 경로를 템플릿과 연결해야 합니다. 자세한 내용은 <a href="../create-and-manage-templates/edit-templates.md">프로젝트 템플릿 편집</a>을 참조하세요.</p> 
+   </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>추적 모드</strong> </td> 
+      <td> <p>이후 작업의 진행 상태를 추적하는 방법을 지정합니다. </p> <p>다음 옵션 중에서 선택합니다.</p> 
+       <ul> 
+        <li> <p><strong>사용자가 업데이트해야 함</strong> </p> </li> 
+        <li> <p><strong>정시 가정</strong> </p> </li> 
+        <li> <p><strong>지연 경고 무시</strong> </p> </li> 
+        <li> <p><strong>자동 완성</strong> </p> </li> 
+        <li> <p><strong>전임 작업</strong> </p> </li> 
+       </ul> <p>작업의 추적 모드에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">작업 추적 모드 개요</a>를 참조하세요.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>미리 알림</strong> </td> 
+      <td> <p>템플릿 작업에 첨부할 미리 알림을 선택합니다. 이 템플릿으로 만든 프로젝트의 향후 작업에 첨부됩니다. 작업에서 미리 알림을 선택하려면 먼저 시스템 관리자가 미리 알림을 구성해야 합니다. 미리 알림 구성에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">미리 알림 설정</a>을 참조하세요.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>승인 프로세스</strong> </td> 
+      <td> <p>템플릿 작업과 연결할 승인 프로세스를 선택합니다. 템플릿 작업과 연결하려면 먼저 Workfront 관리자가 시스템 수준 작업 승인 프로세스를 정의해야 합니다. <span>승인 프로세스에 대한 관리자 액세스 권한이 있는 사용자는 그룹별 승인 프로세스를 만들 수도 있습니다.</span> 승인 프로세스 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">작업 항목에 대한 승인 프로세스 만들기</a>를 참조하십시오.</p> <p>승인 프로세스를 추가할 때는 다음 사항을 고려하십시오. </p> 
+       <ul> 
+       <li>활성 승인 프로세스만 목록에 표시됩니다. </li> 
+       <li> <p>시스템 전체 및 그룹별 승인 프로세스가 목록에 표시됩니다. 템플릿 이외의 그룹과 연결된 승인 프로세스는 목록에 표시되지 않습니다.</p> <p>중요: 템플리트와 연관된 그룹이 변경되면 그룹별 승인 프로세스는 단일 사용 승인 프로세스가 됩니다. 프로젝트 그룹 변경 또는 승인 프로세스 변경 내용이 승인 설정에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">그룹 및 승인 프로세스 변경 내용이 할당된 승인 프로세스에 미치는 영향</a>을 참조하십시오. </p> </li> 
+       <li> <p>일회용 승인 프로세스를 추가한 경우 이 필드에 "&lt;Custom&gt;"으로 표시됩니다. 자세한 내용은 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">새 승인 프로세스나 기존 승인 프로세스를 작업과 연결</a>을 참조하십시오. </p>  </li> 
+       <li> <p>템플릿 작업을 일괄 편집할 때 다음과 같은 시나리오가 있습니다.</p> 
+       <ul> 
+       <li> <p>동일한 템플릿 그룹에서 템플릿 작업을 선택하면 시스템 레벨 및 그룹 레벨 승인 프로세스가 모두 이 필드에 표시됩니다.</p> </li> 
+       <li> <p>다른 템플릿 그룹에서 템플릿 작업을 선택하면 이 필드에는 시스템 수준 승인 프로세스만 표시됩니다.</p> </li> 
+       <li> <p>템플릿 작업 중 일회용 승인 프로세스가 첨부되어 있으면 선택한 시스템 수준 <span> 또는 그룹 수준 승인 프로세스</span>(으)로 바뀝니다. </p> </li> 
+       </ul> </li> 
+       </ul> </td> 
+     </tr>
+
+   </tbody> 
+   </table>
+
+1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
+
+   또는
+
+   **저장**&#x200B;을 클릭합니다.
+
+#### 댓글 {#comment-2}
+
+1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
+1. **템플릿 작업 편집** 상자에서 왼쪽 패널의 **설명**&#x200B;을 클릭합니다.
+
+   ![템플릿 작업 주석 섹션 편집](assets/template-task-edit-comment.png)
+
+1. **템플릿 작업에 업데이트 추가** 영역에서 사용 가능한 필드에 템플릿 작업의 업데이트 스트림에 표시할 주석을 지정합니다. 이 주석은 템플릿 및 템플릿 작업에 대한 보기 액세스 권한이 있고 메모를 볼 수 있는 액세스 권한이 있는 모든 사용자가 볼 수 있습니다.
+1. **저장**&#x200B;을 클릭합니다.
+
+   사용자 또는 다른 사용자가 이 템플릿에서 프로젝트를 만들 때 템플릿 작업에 적용한 모든 설정이 프로젝트 작업의 설정이 됩니다.
+
+</div>
+
 

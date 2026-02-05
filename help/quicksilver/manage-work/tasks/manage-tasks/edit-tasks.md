@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5475'
 ht-degree: 4%
 
 ---
@@ -378,6 +378,12 @@ ht-degree: 4%
 
 #### 프로덕션 환경에서 할당 영역 편집
 
+>[!NOTE]
+>
+><span class="preview">일부 고객은 미리 보기 환경에서 편집하는 것과 같은 방식으로 프로덕션 환경의 작업 편집 상자에서 할당을 편집할 수 있습니다.</span>
+>
+><span class="preview">미리 보기 환경에서 작업을 편집하는 방법에 대한 자세한 내용은 이 문서의 [미리 보기 환경에서 할당 영역 편집](#edit-the-assignments-area-in-the-preview-environment) 섹션을 참조하십시오. </span>
+
 1. 위에서 설명한 대로 작업 편집을 시작합니다.
 1. 왼쪽 패널에서 **할당**&#x200B;을 클릭합니다.
 
@@ -521,7 +527,7 @@ ht-degree: 4%
          </tbody> 
          </table>-->
 
-   1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**&#x200B;을 클릭합니다.
+   1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 전환**을 클릭합니다.
 지정(Assignments) 영역이 이전 경험에 열립니다.
 
       ![작업 편집 상자의 할당 섹션](assets/nwe-assignments-section-edit-task-box-350x217.png)
