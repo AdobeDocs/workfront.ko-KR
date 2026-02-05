@@ -1,18 +1,18 @@
 ---
-title: AI Assistant 프롬프트 우수 사례
+title: AI Assistant 프롬프트 및 우수 사례
 content-type: reference
 description: AI Assistant 사용 모범 사례에 대해 알아보고 프롬프트 예제 목록을 볼 수 있습니다.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: 4bab0129d694d7134a5dae90474678226368ca78
+source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 4%
 
 ---
 
-# AI Assistant 프롬프트 우수 사례
+# AI Assistant 프롬프트 및 우수 사례
 
 Workfront의 AI Assistant는 계정 데이터 및 특정 객체 유형에 대한 유용한 정보를 제공하여 작업을 보다 효과적으로 완수할 수 있는 강력한 도구입니다.
 
@@ -64,7 +64,7 @@ AI Assistant 개발 중 이 단계에서는 Workfront 프로세스에 대한 정
 Workfront 프로세스에 대한 프롬프트에 대한 자세한 내용은 이 문서에서 [Workfront 작업에 대한 자세한 정보를 확인하는 프롬프트](#prompts-to-learn-about-workfront-actions)를 참조하십시오.
 
 
-## 프롬프트 예
+## 프롬프트 예제
 
 아래 표에는 작업에 대한 정보를 생성하고 특정 Workfront 프로세스 또는 수행할 작업에 대해 자세히 알아보는 데 사용할 수 있는 프롬프트 예가 나와 있습니다.
 
