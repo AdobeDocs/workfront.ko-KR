@@ -7,56 +7,50 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
+exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
-
 # 30일 런치패드: 전략적 홈 구축
 
+{{planning-important-intro}}
 
-## 목표
+이 안내서를 사용하여 심리적 안전을 우선시하고 중단을 최소화하며 신속한 성공을 제공하는 전략을 설계하는 Adobe Workfront Planning을 배포하는 방법에 대해 알아보십시오.
 
-심리적 안전을 우선시하고 중단을 최소화하며 신속한 성공을 제공하는 전략을 사용하여 Workfront Planning을 배포하는 방법에 대해 알아봅니다.
+## 빠르게 시작하고 지능적으로 확장하는 방법 개요
 
+성공적인 롤아웃의 가장 일반적인 장애물은 기술이 아닙니다. &quot;기술 비난&quot;입니다. 팀이 새로운 사람, 새로운 프로세스 및 새로운 도구를 한 번에 사용하는 데 어려움을 겪게 되면 도구는 좌절의 대상이 됩니다.
 
+30일 런치패드는 &quot;팀 우선&quot; 채택 모델을 기반으로 구축됩니다. 일반적으로 수개월의 조정이 필요한 전사적 롤아웃을 시도하는 대신, 특정 기능 단위 내에서 즉각적인 ROI를 제공하는 분산된 팀 주도의 접근 방식에 집중합니다.
 
-## 개요: 빠르게 시작, 스마트한 확장
+## 자율권의 단계적 전환
 
-성공적인 출시에 가장 일반적인 장애물은 기술이 아니라 &quot;기술 비난&quot;입니다. 팀이 새로운 사람, 새로운 프로세스 및 새로운 도구를 한 번에 직면할 때 도구는 좌절의 대상이 됩니다.
+제품의 성공적인 롤아웃은 가이드 자율성을 사용합니다. 즉, 관리자는 통제되는 기본값과 템플릿으로 구성된 시스템에서 팀이 작업하는 방법을 정의합니다. 팀은 &quot;도로 위의 차선&quot;(기본 사항과 템플릿을 적용함)을 정의하며, 이를 통해 팀이 내부에서 모험을 유연하게 선택할 수 있습니다.
 
+가장 중요한 것은, 안내식 자율성이 진화적이라는 것이다. 관리자는 첫 번째 날에 전체 엔터프라이즈 분류를 적용하는 대신 첫 번째 파일럿 팀의 요구 사항에 따라 최소한의 글로벌 정의로 시작합니다.
 
+더 많은 팀이 온보딩됨에 따라 관리자는 일반적인 패턴을 관찰하고 글로벌 표준을 반복합니다.
 
-30일 시작 패드는 **&quot;Team-First&quot; 채택 모델**&#x200B;을 기반으로 만들어집니다. 일반적으로 수개월의 조정이 필요한 **전사적** 롤아웃을 시도하는 대신, 특정 기능 단위 내에서 즉각적인 ROI를 제공하는 분산형 팀 주도 접근 방식에 집중합니다.
+관리자는 컨트롤을 포기하는 것이 아니라 실제로 작동하는 내용에 따라 지능적으로 크기를 조절합니다.
 
+이 진화적 전환을 활성화하려면 다음을 수행합니다.
 
+1. 혁신할 준비가 되어 있고 의지가 있는 파일럿 팀을 선택하십시오.
+2. 론치 후 첫 15일을 사용하여 두 개의 모멘텀이 높은 경로 중 하나를 통해 모델을 증명하십시오.
 
-## 단계별 전환: 자율 관리
+   * **병렬 경로(또는 이중 추적 접근 방식):** 팀은 현재 워크플로를 유지하면서 Workfront Planning에서 다음 계획 주기를 동시에 모델링합니다.
 
-롤아웃이 완료되면 **안내 자율성**&#x200B;을 사용합니다. 즉, 관리자는 &quot;도로 위의 차선&quot;(기본 사항과 템플릿 관리)을 정의하면서 팀이 내부에서 모험을 유연하게 선택할 수 있도록 합니다.
+     이는 단일 실패 지점 위험 없이 근육 기억력과 자신감을 구축합니다.
 
+   * **정리 브레이크:** 샘플 데이터를 사용하여 모델의 유효성을 검사하는 초기 디자인 연습 후에 팀은 다음 주기를 위해 라이브 시작점을 Workfront Planning으로 직접 이동합니다.
 
+   두 가지 경로 모두 이론에서 벗어나 실제 애플리케이션으로 가능한 한 빨리 이동하여 도구를 샌드박스 연습으로 남기지 않고 실제 전략 작업에 사용하도록 하는 것이 목표입니다.
 
-결정적으로, 가이드된 자율성은 **진화**&#x200B;입니다. 관리자는 1일에 전체 엔터프라이즈 분류법을 적용하는 대신 첫 번째 파일럿 팀의 필요에 따라 최소한의 글로벌 정의로 시작합니다. 더 많은 팀이 온보딩됨에 따라 관리자는 일반적인 패턴을 관찰하고 글로벌 표준을 반복합니다. 컨트롤을 포기하는 것이 아니라 실제로 작동하는 내용에 따라 지능적으로 조절합니다.
-
-
-
-이러한 진화적 전환을 활성화하려면 혁신할 준비가 되어 있고 의지가 있는 파일럿 팀을 선택하십시오. 처음 15일은 두 개의 운동량이 큰 경로 중 하나를 통해 모델을 증명한다.
-
-
-
-* **병렬 경로(이중 추적):** 팀이 현재 워크플로를 유지하면서 Workfront Planning에서 다음 계획 주기를 동시에 모델링합니다. 이를 통해 단일 실패 지점 위험 없이 &quot;근육 기억&quot;과 자신감을 구축합니다.
-
-* **정리 브레이크:** 샘플 데이터를 사용하여 모델을 검증하는 초기 디자인 연습을 수행한 후 팀은 &quot;라이브&quot; 계획 시작 지점을 다음 주기를 위해 Workfront Planning으로 직접 이동합니다.
-
-
-
-두 가지 경로 모두 이론을 넘어 실제 애플리케이션으로 가능한 한 빨리 이동하여 도구가 &quot;샌드박스&quot; 연습으로 남아 있지 않고 실제 전략 작업에 사용되도록 하는 것이 목표입니다.
-
-
+<!--left here-->
 
 ## 30일 일정: &quot;번개 순간&quot;
 
@@ -155,3 +149,151 @@ ht-degree: 0%
 * **&quot;이유&quot;를 무시하지 마십시오.** 모든 팀원이 전략적 스레드를 통해 작업을 보다 쉽게 볼 수 있도록 하는 방법을 이해하는지 확인합니다.
 
 * **완벽해질 때까지 기다리지 마십시오.** 분류법이 발전합니다. 가장 잘 추측한 것부터 시작해서 점점 더 세련되게 가라.
+
+<!--
+
+Andy's original:
+
+## The 30-Day Launchpad: Rolling Out Your Strategic Home 
+
+ 
+
+## Goal 
+
+Learn how to roll out Workfront Planning (WFP) using a strategy that prioritizes psychological safety, minimizes disruption, and delivers quick wins. 
+
+ 
+
+## Overview: Start Fast, Scale Smart 
+
+The most common obstacle to a successful rollout isn't technology—it's "technology-blame." When teams face new people, new processes, and new tools at once, the tool becomes a target for frustration. 
+
+ 
+
+The 30-day launchpad is built on the **"Team-First" adoption model**. Instead of attempting an **Enterprise-Wide** rollout that usually requires months of coordination, we focus on a decentralized, team-led approach that delivers immediate ROI within a specific functional unit. 
+
+ 
+
+## The phased transition: Guided Autonomy 
+
+Successful rollouts use **Guided Autonomy**. This means the Admin defines the "lanes on the road" (governed defaults and templates) while allowing teams the flexibility to choose their own adventure within them.  
+
+ 
+
+Crucially, Guided Autonomy is **evolutionary**. Instead of enforcing a complete enterprise taxonomy on Day 1, the Admin starts with minimal global definitions based on the needs of the first pilot team. As more teams are onboarded, the Admin observes common patterns and iterates on the global standards. You aren't surrendering control; you are scaling it intelligently based on what actually works. 
+
+ 
+
+To activate this evolutionary shift, choose a pilot team that is ready and willing to innovate. Use the first 15 days to prove the model through one of two high-momentum paths: 
+
+ 
+
+*   **The Parallel Path (Dual-Tracking):** The team maintains their current workflow while simultaneously modeling their next planning cycle in WFP. This builds "muscle memory" and confidence without the risk of a single point of failure. 
+
+*   **The Clean Break:** After an initial design exercise using sample data to validate the model, the team moves their "live" planning start point directly into WFP for their next cycle. 
+
+ 
+
+In both paths, the goal is to move beyond theory and into real-world application as quickly as possible, ensuring the tool is used for actual strategic work rather than remaining a "sandbox" exercise. 
+
+ 
+
+## The 30-day timeline: Your "lightning moment" 
+
+A successful rollout is powered by momentum. This 30-day schedule moves you from configuration to your first automated win. 
+
+ 
+
+### Days 1-10: The team foundation 
+
+Build a strategic foundation by establishing a **lightweight Hub-and-Spoke architecture** from Day 1. While a complex enterprise-wide taxonomy is not required yet, you should immediately create two environments: a **Global Classification Workspace** (the Hub) and your first **Team Workspace** (the Spoke). 
+
+ 
+
+This **Team-First** architecture allows you to: 
+
+ 
+
+*   **Design the Hub to support the Spoke:** Focus the global classification workspace specifically on the objects that matter most to your pilot team (e.g., their specific Brands or Products). This firms up the **collaborative handshake between enterprise governance and team autonomy** while keeping the design effort manageable. 
+
+*   **Act as an Enabler, not a Guardian:** Shift your role from rule-setting to capability-building. Partner with the team to structure their planning environment. 
+
+*   **Collaborate on design:** Work directly with your pilot team to define the record types and fields that reflect their real-world needs, not an abstract corporate ideal. 
+
+*   **Connect strategy to work:** Enable the link between your planning records and the workflow module. 
+
+*   **Mirror current data:** Use the team's existing tools (Excel/Core) to populate WFP, ensuring the data feels familiar and relevant. 
+
+*   **Built for flexibility:** Remember that Workfront Planning is designed to evolve. You can start with team-level processes and easily elevate or migrate them to enterprise-level governance when the business is ready. 
+
+ 
+
+### Day 15: The first "lightning moment" 
+
+Aim for your first major win by Day 15: **automated project creation**. 
+
+*   Configure a native automation that detects a "Ready to Execute" status. 
+
+*   Trigger the creation of a linked project in the workflow module. 
+
+*   **The value:** Your team sees their strategic intent automatically trigger execution work. This "lightning moment" proves the value of the bridge and builds buy-in. 
+
+ 
+
+### Days 16-30: Gradual transition toward Enterprise Scale 
+
+With the "lightning moment" achieved, move the team's start point into WFP. As this **Team-First** model succeeds, you begin the path toward **Enterprise Scale** by identifying patterns that work. 
+
+ 
+
+*   **Introduce the intake form:** Use the form as the new gateway for strategic requests to ensure data integrity. 
+
+*   **Observe and standardize:** Use the Primary Workspace to observe how the pilot team uses the tool. These real-world examples will shape your eventual enterprise design. 
+
+*   **Decommission legacy spreadsheets:** Move fully into WFP as the process matures. 
+
+*   **Shift power users:** Use the **table view** for direct, high-velocity plan management. 
+
+ 
+
+## Success metrics for the launchpad 
+
+Look for these early indicators of health: 
+
+*   **Adoption:** The first 5-10 strategic records successfully link to execution projects. 
+
+*   **Advocacy:** The pilot team begins evangelizing the tool to adjacent teams. 
+
+*   **Efficiency:** Automation reduces the time from strategic approval to project start. 
+
+*   **Trust:** Stakeholders use WFP timelines rather than manual status decks for reviews. 
+
+ 
+
+## Best practices and tips 
+
+ 
+
+### Do: 
+
+*   **Start with an excited pilot team.** Acknowledge that a global rollout is a significant lift. Focus on a POC with a team that is eager to innovate and can provide a blueprint for others. 
+
+*   **Define lanes, not walls.** Use Guided Autonomy to provide structure without killing exploration. 
+
+*   **Prioritize psychological safety.** Let teams know that legacy tools stay until they are comfortable with the new flow. 
+
+*   **Celebrate the quick wins.** Highlight the first automated project creation to the entire team. 
+
+*   **Establish a champion.** Identify a power user in each team to lead the transition. 
+
+ 
+
+### Don't: 
+
+*   **Don't mandate "big bang" changes.** Forcing everyone to switch on Day 1 causes technology-blame. 
+
+*   **Don't ignore the "why."** Ensure every team member understands how the strategic thread makes their work more visible. 
+
+*   **Don't wait for perfection.** Your taxonomy will evolve. Start with your best guess and refine as you go. 
+
+-->

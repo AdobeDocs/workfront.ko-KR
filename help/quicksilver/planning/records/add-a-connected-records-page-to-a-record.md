@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
-
 
 # 레코드에 연결된 레코드 페이지 추가
 
@@ -76,7 +76,7 @@ ht-degree: 0%
    <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr>
 
@@ -273,7 +273,7 @@ When you create a connected records page for connected Planning records in the P
 
         자세한 내용은 이 문서의 [연결된 레코드 페이지에서 다중 보기 관리](#manage-multiple-views-from-the-connected-records-page) 섹션을 참조하십시오.
 
-   1. **만들기**&#x200B;를 클릭합니다.
+   1. **만들기**를 클릭합니다.
 새 보기가 보기 드롭다운 메뉴에 추가됩니다.
 
    1. (선택 사항) 만든 보기의 이름 위에 마우스를 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 옵션 중 하나를 클릭합니다.
@@ -295,7 +295,7 @@ When you create a connected records page for connected Planning records in the P
 
 ### Workfront 프로젝트에 대해 연결된 레코드 페이지 관리
 
-연결된 Workfront 프로젝트에 대해 연결된 레코드 페이지를 만들 때 다음 작업을 수행하십시오.
+연결된 Workfront 프로젝트에 대해 연결된 레코드 페이지를 만들 때 다음을 수행하여 페이지를 관리합니다.
 
 1. 레코드 유형 페이지로 이동하여 레코드 이름을 클릭합니다. 그러면 레코드의 미리보기 페이지가 열립니다.
 1. Workfront 프로젝트를 표시하는 연결된 레코드 페이지의 탭을 클릭합니다.
@@ -303,68 +303,34 @@ When you create a connected records page for connected Planning records in the P
 1. 연결된 레코드 페이지의 오른쪽 상단에서 **레코드 연결**&#x200B;을 클릭하여 기존 프로젝트를 연결합니다.
 
    자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
-1. 테이블에서 프로젝트 정보를 인라인 편집합니다.
-1. 템플릿 없이 프로젝트를 만들려면 **새 행**&#x200B;을 클릭하세요. 새 프로젝트는 현재 레코드에 자동으로 연결됩니다.
+1. 목록 보기의 셀 내부를 두 번 클릭하여 프로젝트의 필드를 편집합니다. 일부 필드는 읽기 전용입니다.
+1. 목록 보기를 편집하려면 다음 중 하나를 수행하십시오.
 
-   자세한 내용은 [레코드에 연결할 때 Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)를 참조하십시오.
+   * 템플릿 없이 프로젝트를 만들려면 **새 행**&#x200B;을 클릭하세요. 새 프로젝트는 현재 레코드에 자동으로 연결됩니다.
 
-1. 목록의 프로젝트 이름 위에 마우스를 놓고 **자세히** 메뉴 [추가 메뉴](assets/more-menu.png)를 클릭합니다.
+     자세한 내용은 [레코드에 연결할 때 Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)를 참조하십시오.
+   * 기존 **를 추가하려면 **보기 오른쪽 상단의 레코드 만들기&quot;를 클릭합니다. 프로젝트는 선택한 레코드에 즉시 연결됩니다.
 
-   또는
+   * 목록의 프로젝트 이름 위로 마우스를 가져간 후 **추가** 메뉴 [추가 메뉴](assets/more-menu.png)를 클릭하고 **보기**&#x200B;를 클릭하여 다른 탭에서 프로젝트를 엽니다.
 
-   프로젝트를 하나 이상 선택하고 목록 하단의 파란색 막대를 확인한 후 다음 중 하나를 클릭합니다.
+     또는
 
-   * 프로젝트를 삭제하려면 **삭제**&#x200B;하십시오. 프로젝트를 삭제하면 레코드에서 연결이 끊기고 Workfront의 휴지통으로 이동합니다. Workfront 관리자는 삭제된 프로젝트를 삭제된 후 최대 30일까지 복구할 수 있습니다.
-   * 레코드에서 프로젝트의 연결을 끊으려면 **연결을 끊습니다**. 프로젝트의 연결을 해제하면 현재 레코드에서 해당 프로젝트와 해당 조회 필드의 모든 값이 제거됩니다.
+     하나 이상의 프로젝트를 선택하고 목록 하단의 작업 표시줄에서 **삭제** 또는 **연결 해제**&#x200B;를 클릭하여 목록에서 항목을 제거합니다.
 
-     >[!TIP]
-     >
-     >연결을 끊거나 삭제할 프로젝트를 두 개 이상 선택할 수 있습니다.
-     >
 
-1. 보기 드롭다운 메뉴를 클릭하고 **새 보기**&#x200B;를 클릭하여 페이지에 대한 새 보기를 추가한 후 다음을 수행합니다.
+   * 보기 드롭다운 메뉴를 클릭하고 **새 보기**&#x200B;를 클릭하여 페이지에 새 보기를 추가한 다음 다음을 수행하거나 새 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **이름 바꾸기**, **공유** 또는 **보기 삭제**&#x200B;를 클릭합니다.
 
-   1. **보기 이름**&#x200B;을(를) 추가합니다.
-   1. **보기 형식** 영역에서 **목록**&#x200B;을(를) 선택하십시오.
-   1. **만들기**&#x200B;를 클릭합니다.
-새 목록 보기가 **내 보기** 영역의 보기 드롭다운 메뉴에 추가됩니다.
+     시스템 보기 또는 관리 권한이 없는 보기는 이름을 바꾸거나 공유 또는 삭제할 수 없습니다.
 
-      자세한 내용은 이 문서의 [연결된 레코드 페이지에서 다중 보기 관리](#manage-multiple-views-from-the-connected-records-page) 섹션을 참조하십시오.
+     ![연결된 레코드 페이지에서 추가 메뉴 보기](assets/view-more-menu-projects-connected-records-page.png)
 
-   1. (선택 사항) 만든 보기의 이름 위에 마우스를 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 옵션 중 하나를 클릭합니다.
-      * 보기의 새 이름을 추가하려면 **이름 바꾸기**&#x200B;하세요.
-      * **공유**
+   * 다음 중 하나를 클릭하여 보기의 요소를 업데이트합니다.
 
-        자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하세요.
+      * **필터**: 목록의 정보 양을 제한합니다.
+      * 열을 숨기거나 순서를 변경할 **열**
+      * 테이블 보기의 오른쪽 위 모서리에 있는 **+** 아이콘으로 기존 필드를 목록에 추가합니다. 필드를 추가하려면 먼저 해당 필드가 있어야 합니다.
 
-      * **삭제**
-자세한 내용은 [레코드 보기 삭제](/help/quicksilver/planning/views/delete-record-views.md)를 참조하십시오.
-
-        ![연결된 레코드 페이지에서 추가 메뉴 보기](assets/view-more-menu-projects-connected-records-page.png)
-
-        >[!NOTE]
-        >
-        >Workfront에서 만든 시스템 보기는 이름을 바꾸거나, 공유하거나, 삭제할 수 없습니다.
-
-   1. **필터** 아이콘 ![필터 아이콘](assets/filter-icon.png)을 클릭하고 필터를 사용하여 특정 프로젝트를 표시합니다.
-
-      >[!TIP]
-      >
-      >**소유자** 또는 **스폰서**&#x200B;와 같은 사람 유형 필드의 경우 와일드카드를 사용하여 로그인한 사용자가 이러한 역할에 할당된 프로젝트를 표시할 수 있습니다.
-      >
-      >![프로젝트 연결 레코드 페이지에 대한 사용자 와일드카드로 필터링](assets/filter-with-user-wildcard-project-connected-records-page.png)
-      >
-
-   1. 목록에서 열을 숨기거나 표시하려면 **열** 아이콘 ![열 아이콘](assets/columns-icon.png)을 클릭하십시오.
-   1. 테이블 보기의 오른쪽 위 모서리에 있는 **+** 아이콘을 클릭하여 기존 필드를 테이블에 추가합니다. 필드를 추가하려면 먼저 해당 필드가 있어야 합니다.
-
-      **열 관리자** 상자가 열립니다. 다음을 수행합니다.
-
-      1. **사용 가능** 열에서 기존 개체 필드를 검색한 다음 필드 이름 오른쪽의 **+**&#x200B;을(를) 클릭하여 **선택됨** 열에 추가합니다.
-
-         선택한 필드가 연결된 레코드 페이지의 표 보기에 추가됩니다.
-      1. 테이블 보기에서 제거하려면 **선택됨** 열의 필드 오른쪽에 있는 **-**&#x200B;을(를) 클릭합니다.
-      1. **저장**&#x200B;을 클릭하여 연결된 레코드 페이지 테이블 보기를 저장합니다.
+   목록 보기에서 개체를 관리하는 방법에 대한 자세한 내용은 [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)를 참조하십시오.
 
 <!-- this is repetitive from an earlier section above: 
 

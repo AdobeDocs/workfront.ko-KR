@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -26,5 +26,6 @@ ht-degree: 0%
 * [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 * [달력 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)
+* [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)
 * [레코드 보기 삭제](/help/quicksilver/planning/views/delete-record-views.md)
 * [중복 레코드 보기](/help/quicksilver/planning/views/duplicate-record-views.md)
