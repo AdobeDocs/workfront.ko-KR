@@ -7,10 +7,10 @@ description: 이 보고서 필터는 Adobe Workfront에서 자동으로 배달�
 author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -66,8 +66,7 @@ ht-degree: 1%
 1. **보고서에 대한 필터 규칙 설정** 영역에서 다음 코드를 복사하여 붙여 넣습니다.
 
    ```
-   scheduledReportID=0
-   scheduledReportID_Mod=notnull
+    scheduledReportsOM:ID_Mod=notblank
    ```
 
 1. **필터 저장**&#x200B;을 클릭합니다.
