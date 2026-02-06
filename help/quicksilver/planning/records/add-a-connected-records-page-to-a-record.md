@@ -273,7 +273,7 @@ When you create a connected records page for connected Planning records in the P
 
         자세한 내용은 이 문서의 [연결된 레코드 페이지에서 다중 보기 관리](#manage-multiple-views-from-the-connected-records-page) 섹션을 참조하십시오.
 
-   1. **만들기**를 클릭합니다.
+   1. **만들기**&#x200B;를 클릭합니다.
 새 보기가 보기 드롭다운 메뉴에 추가됩니다.
 
    1. (선택 사항) 만든 보기의 이름 위에 마우스를 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 옵션 중 하나를 클릭합니다.
@@ -309,7 +309,7 @@ When you create a connected records page for connected Planning records in the P
    * 템플릿 없이 프로젝트를 만들려면 **새 행**&#x200B;을 클릭하세요. 새 프로젝트는 현재 레코드에 자동으로 연결됩니다.
 
      자세한 내용은 [레코드에 연결할 때 Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)를 참조하십시오.
-   * 기존 **를 추가하려면 **보기 오른쪽 상단의 레코드 만들기&quot;를 클릭합니다. 프로젝트는 선택한 레코드에 즉시 연결됩니다.
+   * 기존 **를 추가하려면 &#x200B;** 보기 오른쪽 상단의 레코드 만들기&quot;를 클릭합니다. 프로젝트는 선택한 레코드에 즉시 연결됩니다.
 
    * 목록의 프로젝트 이름 위로 마우스를 가져간 후 **추가** 메뉴 [추가 메뉴](assets/more-menu.png)를 클릭하고 **보기**&#x200B;를 클릭하여 다른 탭에서 프로젝트를 엽니다.
 
