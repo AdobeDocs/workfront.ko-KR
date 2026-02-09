@@ -5,9 +5,9 @@ description: AI를 사용하여 프롬프트를 입력하거나 문서를 제공
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b34d7f48a51acf4bd6ddfa203c9e0024b2e8c280
+source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1416'
 ht-degree: 3%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 3%
 
 AI 양식 채우기는 입력한 프롬프트에 따라 요청 필드를 자동 채우는 데 도움이 됩니다. 또한 업로드된 문서와 같은 텍스트를 기반으로 필드를 채울 수도 있습니다. 요청을 제출하기 전에 이러한 제안을 승인하거나 거부할 수 있습니다.
 
-AI 양식 채우기는 이미 채운 필드를 덮어쓰지 않습니다.
-
-사용자는 액세스 권한이 없는 데이터에 대한 제안을 받지 않습니다.
-
 ## 액세스 요구 사항
 
 +++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
@@ -34,7 +30,7 @@ AI 양식 채우기는 이미 채운 필드를 덮어쓰지 않습니다.
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -59,7 +55,7 @@ AI 양식 채우기는 이미 채운 필드를 덮어쓰지 않습니다.
 
 ## 전제 조건
 
-AI 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우려면 다음 중 **모두**&#x200B;를 적용해야 합니다.
+AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우려면 다음 중 **모두**&#x200B;이(가) 적용되어야 합니다.
 
 * 조직이 Adobe IMS(Identity Management System)로 마이그레이션되었어야 합니다.
 * Adobe 통합 경험을 활성화해야 합니다.
@@ -70,6 +66,15 @@ AI 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 �
 * 조직의 시스템 설정에서 AI Assistant를 활성화해야 합니다. Workfront 관리자가 관리합니다.
 
   시스템 설정에서 AI Assistant를 활성화하는 방법에 대한 자세한 내용은 [AI Assistant 활성화 또는 비활성화](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)를 참조하십시오.
+
+## AI에서 제공하는 양식 채우기 사용 시 고려 사항
+
+AI에서 제공하는 양식 채우기를 사용할 때는 다음 사항을 고려하십시오
+
+* AI 양식 채우기는 이미 채운 필드를 덮어쓰지 않습니다.
+* 사용자는 액세스 권한이 없는 데이터에 대한 제안을 받지 않습니다.
+* AI에서 제공하는 양식 채우기에서 사용하는 파일은 24시간 동안 Azure 스토리지에 업로드됩니다. 문서 처리에 필요합니다.
+* Azure에 업로드된 모든 파일은 현재 24시간 저장소 기간 동안 미국 Azure 클러스터에 저장됩니다.
 
 ## 텍스트 프롬프트에서 제안 받기
 
