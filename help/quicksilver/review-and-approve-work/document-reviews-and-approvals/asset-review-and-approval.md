@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 통합 문서 승인에 사용 가능한 기능
+title: 문서 승인에 사용 가능한 기능
 description: Workfront에서 검토 및 승인을 위해 사용할 수 있는 시스템의 개요입니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f4dc0d28f7565b9dbc3c9ff4ee388eb8cf748b7f
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
-# 통합 문서 승인에 사용 가능한 기능
+# 문서 승인에 사용 가능한 기능
 
-현재 Workfront에서 통합 문서 승인을 위해 사용할 수 있는 시스템은 3개입니다.
+현재 Workfront에서 문서 승인을 위해 사용할 수 있는 시스템은 3개입니다.
 
 * [레거시 문서 승인](#legacy-document-approvals)
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 레거시 문서 승인
 
-기존 문서 승인은 2025년에 Workfront에서 제거됩니다. 통합 승인 시스템은 기존 문서 승인을 대체하도록 설계되었습니다.
+레거시 문서 승인은 향후 Workfront에서 제거됩니다. 통합 승인 시스템은 기존 문서 승인을 대체하도록 설계되었습니다.
 
 기존 문서 승인에 사용할 수 있는 주요 기능:
 

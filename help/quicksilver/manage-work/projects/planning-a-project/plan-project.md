@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: fb57f04a4031eaf38f88c3a1b2542d64ee230a8c
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1672'
 ht-degree: 0%
 
 ---
@@ -179,4 +179,4 @@ Workfront 인스턴스에서 여러 일정을 만들고 모든 프로젝트에 �
 
    * [작업 항목에 대한 승인 프로세스를 만듭니다](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
    * [작업 검토 및 승인](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
-   * [통합 문서 승인에 사용할 수 있는 기능](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+   * [문서 승인에 사용할 수 있는 기능](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
