@@ -5,15 +5,17 @@ recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Workfront Planning Designer 시작
+
+<!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
 >[!IMPORTANT]
 >
@@ -91,10 +93,10 @@ Beta 프로그램 중에 Planning Designer에 대한 피드백을 제출할 수 
 
 1. **AI로 만들기**&#x200B;를 클릭합니다. <!--update this tag name when they change it-->
 
-   **Workspace 계획 중** 창의 **Designer 설정** 영역이 열립니다. <!--replace shot below when they rename the area to Planning Designer-->
+   **계획 Designer** 창이 열립니다.
 
 1. 페이지 하단의 **여기에 피드백 제출**&#x200B;을 클릭합니다.
-1. 제공된 스페이스에 피드백을 추가한 다음 **제출**&#x200B;을 클릭합니다.
+1. 제공된 스페이스에 피드백을 추가한 다음 **제출**을 클릭합니다.
 귀하의 피드백은 엔지니어링 및 제품 팀에 제출됩니다.
 
 ## Planning Designer에 대한 고려 사항
@@ -178,7 +180,7 @@ Planning Designer 또는 AI Assistant를 사용하여 다음 작업 중 하나�
 
 1. **AI로 만들기**&#x200B;를 클릭합니다. <!--update this when they change it-->
 
-   **Workspace 계획 중** 창의 **Designer 설정** 영역이 열립니다. <!--replace shot below when they rename the area to Planning Designer-->
+   **계획 Designer** 창이 열립니다. <!--remove the Beta tag here when this removes from Beta-->
 
    ![계획 Designer 창](assets/planning-designer-window.png)
 
@@ -239,9 +241,3 @@ Workfront 관리자가 AI Assistant 계약을 수락하면 기본적으로 조�
 1. **저장**&#x200B;을 클릭합니다.
 
    이렇게 하면 시스템의 모든 사용자에 대한 Planning Designer이 제거됩니다.
-
-
-
-
-
-

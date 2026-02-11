@@ -7,20 +7,19 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+exl-id: e95ca8a2-6261-4f04-8c7c-1a0bfb1925f3
+source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
 
 ---
 
-
 # 누락된 마케팅 캘린더: 데크 없음, 명확성
 
+{{planning-important-intro}}
 
 매주 마케팅 팀은 전략이나 크리에이티브 작업이 아닌 보고 업무로 하루 종일 시간을 낭비합니다.
-
-
 
 대부분의 마케팅 조직은 주당 근무시간의 20% 이상(대략 하루 종일)을 자신이 하고 있는 일에 대해서만 보고하고 있습니다. 캠페인을 개선하지 않습니다. 전략을 짜지 않는 것. 업데이트 어셈블 중입니다. 따라서 가시성은 수동적이고, 지치고, 도착 시 종종 중단됩니다. 즉, 전송 즉시 더 이상 사용되지 않는 스프레드시트와 슬라이드 데크 사이에 갇히게 됩니다.
 
@@ -149,3 +148,138 @@ Workfront Planning은 유료 고객이 사용할 수 있으며 관리 설정을 
 * **섀도 작업을 무시하지 마십시오.** 보고 내용이 시스템 외부에 있는 위치를 식별하여 Planning으로 가져옵니다.
 
 * **위기 상황을 기다리지 마십시오.** 가시성이 급해지기 전에 전략적 홈을 설정하십시오.
+
+
+<!--
+
+Every week, marketing teams lose a full day—not to strategy or creative work, but to reporting. 
+
+Most marketing organizations spend 20% or more of their workweek—roughly one full day—just reporting on what they're doing. Not improving campaigns. Not shaping strategy. Just assembling updates. As a result, visibility is manual, exhausting, and often dead on arrival—trapped between disconnected spreadsheets and slide decks that go stale the moment they're sent. 
+
+ 
+
+## The Hidden Cost of "Shadow Planning" 
+
+ 
+
+Marketing leaders and project managers know this tension well: strategy lives in one place, while visibility lives somewhere else entirely. According to Forrester, 63% of organizations still rely on spreadsheets for budgeting and planning, locking critical information inside siloed files. 
+
+ 
+
+This gap creates what many teams quietly accept as normal—shadow planning. It's the invisible, ad-hoc work done outside the system just to keep leadership informed. And when visibility is manual, it's always behind reality. 
+
+ 
+
+The data tells the story: 
+
+* **58% of marketing teams** build routine reports manually in spreadsheets 
+
+* **65% then transpose those reports** into slide decks for leadership 
+
+ 
+
+The result is predictable: duplicate effort, version-control chaos, and hours spent maintaining artifacts that immediately fall out of date. 
+
+ 
+
+## A Single Place Where Strategy and Execution Meet 
+
+ 
+
+Workfront Planning offers teams something most marketing organizations lack: a Strategic Home. 
+
+ 
+
+It's a unified, live campaign calendar where planning and execution finally converge—without touching production work. Think of it as a safe playground: a place to explore, test, and visualize campaign strategy with real clarity. 
+
+ 
+
+## What Changes When Visibility Is Built In 
+
+ 
+
+### The status-meeting cycle breaks 
+
+No more manual timeline decks. Research shows 87% of marketers cite "triaging data" as their top time-waster. When updates happen automatically as work progresses, status stops being a meeting agenda item—and becomes a product feature. 
+
+ 
+
+### Campaign context becomes obvious 
+
+Creative work no longer floats in isolation. Teams can see how individual efforts ladder into the broader campaign roadmap without digging through folders or chasing updates. With live visibility, leaders can spend 70% of their time focused on what's next, not recounting what already happened. 
+
+ 
+
+### Exploration becomes safe 
+
+Because the platform can use sample data, teams can experiment with views, filters, and structures—without risking real production timelines. 
+
+ 
+
+## From Historian to Strategist 
+
+ 
+
+When hours once spent on reporting come back to you, your role fundamentally changes. You move from being the person who *documents* the work to the person who *directs* it. 
+
+ 
+
+### Stop being a "Historian" 
+
+In the traditional model, marketing teams often spend 70% of their status meetings recounting what already happened. By the time a slide deck is finished, the data is already historical—a snapshot of a past that has already shifted. You are effectively acting as a historian, manually compiling records of work that is already moving without you. 
+
+ 
+
+### Start operating as a "Strategist" 
+
+With a unified calendar, the data is always live, which flips the meeting cadence: leadership can spend **70% of their time on "what's next."** You move from reporting the news to making the news—focusing on strategy, creative output, and campaign optimization. 
+
+ 
+
+This strategic shift is built on three core pillars of live visibility: 
+
+ 
+
+* **Total visibility:** See every campaign across the business in a single live view, eliminating the familiar scramble to piece together a "complete picture" from disconnected systems. 
+
+* **Operational speed:** Risks and opportunities surface sooner. When insight flows continuously, speed becomes a competitive advantage—not a bottleneck. You don't wait for the weekly review to pivot; you adjust in the moment. 
+
+* **Strategic trust:** Work from data that's live, accurate, and noise-free. Analysts who aren't burdened by manual integrations are nearly 4× more likely to trust the accuracy of their data (Forrester Research). This trust is the foundation for making bold, data-informed decisions. 
+
+ 
+
+## Getting Started 
+
+ 
+
+Workfront Planning is available to paying customers and is enabled through administrative setup—meaning **System Admins control access**. If your organization already uses Adobe Workfront, getting started typically begins with a conversation about enabling Planning within your existing environment. If you're not yet a customer, the first step is exploring whether Planning is the right fit for your organization. 
+
+ 
+
+**Your move:** If manual reporting is draining your team, start the conversation. Talk with your System Admin about enabling Workfront Planning, or reach out to Adobe to learn how Planning can bring real-time clarity to your campaign strategy. 
+
+ 
+
+## Best Practices for Making It Stick 
+
+ 
+
+### Do 
+
+* **Create a lightning moment:** Show leadership a real-time pulse of a campaign. One live view is often all it takes to reset expectations. 
+
+* **Protect the noise-free layer:** Use Planning for the why and what. Let Workfront Workflow handle the how. 
+
+* **Celebrate the end of the deck:** Every hour reclaimed from manual reporting is an hour reinvested in strategic growth. 
+
+ 
+
+### Don't 
+
+* **Don't build manual status decks:** If you're updating a slide by hand, the data is already outdated. 
+
+* **Don't ignore shadow work:** Identify where reporting lives outside the system—and bring it into Planning. 
+
+* **Don't wait for a crisis:** Establish your strategic home before visibility becomes urgent.
+
+-->

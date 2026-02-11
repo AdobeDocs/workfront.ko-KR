@@ -6,10 +6,10 @@ description: 목록에 표시된 필드를 편집하여 작업 목록에서 작�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '3254'
-ht-degree: 3%
+source-wordcount: '2764'
+ht-degree: 4%
 
 ---
 
@@ -17,12 +17,13 @@ ht-degree: 3%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-자세한 내용은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)를 참조하십시오.
-</div>
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
+
+</div>-->
 
 목록에 표시된 필드를 편집하여 작업 목록에서 작업 정보를 편집할 수 있습니다. 작업을 편집하는 다른 방법에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
 
@@ -36,7 +37,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -492,71 +493,6 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
 
 여러 작업을 동시에 편집할 수 있습니다. 편집할 수 있도록 일괄 선택하는 작업에 대한 관리 권한이 있는지 확인합니다.
 
-여러 작업을 동시에 편집하는 것은 선택하는 환경에 따라 다릅니다.
-
-### 프로덕션 환경에서 작업을 일괄적으로 편집
-
-{{step1-to-projects}}
-
-1. **프로젝트** 페이지에서 프로젝트를 선택하십시오.
-1. 왼쪽 패널에서 **작업** 섹션을 클릭합니다.
-
-1. 목록 맨 위에 있는 **계획 모드** 아이콘 ![계획 모드 아이콘](assets/plan-mode-icon.png)을 클릭하고 **자동 저장** 옵션이 선택되어 있는지 확인하십시오.
-
-   ![자동 저장 설정 사용](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
-
-   >[!IMPORTANT]
-   >
-   >작업을 수동으로 저장할 때 작업을 일괄적으로 편집할 수 없습니다.
-
-1. 작업 목록에서 작업을 두 개 이상 선택합니다.
-1. (선택 사항) 작업 목록 맨 위에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-icon.png)를 클릭한 다음 **식을 다시 계산**&#x200B;하여 계산된 사용자 지정 필드의 모든 정보를 업데이트합니다.
-1. **편집** 아이콘 ![편집 아이콘](assets/qs-edit-icon.png)을 클릭합니다. **작업 편집** 상자가 새 환경에서 열립니다.
-
-   모든 작업에 대한 정보를 편집하는 것은 한 작업에 대한 정보를 편집하는 것과 동일합니다.
-
-   작업 편집에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
-
-1. (조건부) 새 경험에서 다음을 수행합니다.
-
-   1. 다음 영역 중 하나에서 선택한 모든 작업에 대해 변경할 정보를 지정합니다.
-
-      * 개요
-      * 할당
-      * 사용자 정의 양식
-      * 재무
-      * 설정
-      * 설정
-      * 댓글
-
-      >[!NOTE]
-      >
-      >* 선택한 모든 작업에 대해 변경 중인 정보는 **할당** 필드를 제외한 개별 작업에 대한 기존 정보를 재정의합니다. 일괄 편집에서 새 피할당자를 추가하면 해당 피할당자가 선택한 모든 작업에 추가됩니다. 다른 할당자가 선택한 작업에 할당되면 일괄 편집을 통해 추가된 할당자와 함께 할당된 상태로 유지됩니다.
-      >* 작업 기간을 편집하려면 선택한 작업의 작업 제한 사항이 동일해야 합니다. 그렇지 않으면 **기간** 필드가 채워지지 않습니다.
-      >
-      >* 활성 사용자 정의 양식만 목록에 표시됩니다. 선택한 작업에 일반적인 사용자 정의 양식이 없는 경우 이 섹션에 양식이 나열되지 않습니다.
-      >* 선택한 모든 작업에 첨부되고 편집 권한이 있는 양식의 필드만 편집할 수 있습니다.  사용자 정의 양식을 대량으로 편집하는 방법에 대한 자세한 내용은 [개체에 첨부된 사용자 정의 양식 관리](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)를 참조하십시오.
-
-   1. **저장**&#x200B;을 클릭합니다.
-   1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 다시 전환**&#x200B;을 클릭합니다.
-
-1. (조건부) 이전 경험에서 다음 작업을 수행합니다.
-
-   1. 다음 영역 중 하나에서 선택한 모든 작업에 대해 변경할 정보를 지정합니다.
-
-      * 개요
-      * 설정
-      * 할당
-      * 사용자 정의 양식
-      * 댓글
-
-   1. (선택 사항) **사용자 지정 Forms** 섹션에서 **사용자 지정 표현식 다시 계산** 옵션을 선택하여 선택한 작업에 첨부된 사용자 지정 양식에 있는 모든 계산된 사용자 지정 필드가 최신 상태가 되도록 합니다.
-   1. **변경 내용 저장**&#x200B;을 클릭합니다. 이제 선택한 모든 작업에 변경 사항이 모두 표시됩니다.
-
-<div class="preview">
-
-### 미리보기 환경에서 작업을 일괄적으로 편집
-
 {{step1-to-projects}}
 
 1. **프로젝트** 페이지에서 프로젝트를 선택하십시오.
@@ -598,5 +534,70 @@ Workfront에서 작업에 대한 변경 사항을 목록에 저장하는 시기�
 
 1. **저장**&#x200B;을 클릭합니다.
 
-</div>
 
+<!--Temporary content while changing the Assignments area:
+
+Editing multiple tasks at the same time differs depending on what environment you choose. 
+
+### Edit tasks in bulk in the Production environment
+
+{{step1-to-projects}}
+
+1. On the **Projects** page, select a project.
+1. In the left panel, click the **Tasks** section.
+
+1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
+
+   ![Enable the autosave setting](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+
+   >[!IMPORTANT]
+   >
+   >You can't edit tasks in bulk when saving tasks manually.
+
+1. Select more than one task in the tasks list. 
+1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.
+1. Click the **Edit** icon ![Edit icon](assets/qs-edit-icon.png). The **Edit Tasks** box opens in the new experience.
+
+   Editing the information on all tasks is identical to editing information on one task.
+
+   For more information about editing a task, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   
+1. (Conditional) In the new experience, do the following:
+      
+   1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+
+      * Overview
+      * Assignments
+      * Custom Forms
+      * Finance
+      * Settings
+      * Settings
+      * Comment
+
+      >[!NOTE]
+      >
+      >* The information you are changing on all the tasks selected will override the existing information on individual tasks, except for the **Assignments** field. Adding a new assignee in bulk edit will add that assignee to all the selected tasks. If other assignees are assigned to the selected tasks, they will remain assigned in addition to the one added through bulk edit.
+      >* If you want to edit task Duration, the tasks selected must have the same Task Constraint. Otherwise, the **Duration** field does not populate.
+      >
+      >* Only active custom forms display in the list. If the tasks selected do not have any common custom forms, no forms are listed in this section.
+      >* You can edit only the fields on the forms that are attached to all tasks selected and which you have permissions to edit.  For information about bulk editing custom forms, see [Manage custom forms attached to objects](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+
+   1. Click **Save**.
+   1. (Optional) Click **Switch back to old experience** at the bottom of the **Edit Tasks** box.
+
+1. (Conditional) In the old experience, do the following:
+
+   1. Specify the information you want to change for all the tasks you selected in any of the following areas:
+
+         * Overview
+         * Settings
+         * Assignments
+         * Custom Forms
+         * Comment
+ 
+   1. (Optional) In the **Custom Forms** section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the custom forms attached to the tasks selected are up to date. 
+   1. Click **Save Changes**. All changes you made are now visible on all the selected tasks.
+
+<div class="preview">
+
+### Edit tasks in bulk in the Preview environment-->

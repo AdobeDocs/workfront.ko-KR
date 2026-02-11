@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -279,14 +279,14 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    <div class="preview">
 
-   * 레코드의 테이블 보기에서 숨겨지지 않은 필드만 보려면 **테이블 필드 표시** 설정을 선택하십시오. 기본 설정입니다.
-   * **테이블 필드 표시** 설정을 선택 해제하여 숨겨진 필드를 포함하여 레코드의 테이블 보기에서 모든 필드를 표시합니다.
+   * **모든 필드 표시** 설정을 선택하여 숨겨진 필드를 포함하여 레코드의 테이블 보기에서 모든 필드를 봅니다.
+   * 레코드의 테이블 보기에서 숨겨지지 않은 필드만 보려면 **모든 필드 표시** 설정을 선택 취소합니다. 기본 설정입니다.
 
    </div>
 
    >[!TIP]
    >
-   ><span class="preview">**테이블 필드 표시** 설정은 레코드의 세부 정보 미리 보기 상자에서만 사용할 수 있습니다. 레코드의 세부 정보 페이지에서 사용할 수 없습니다.</span>
+   ><span class="preview">**모든 필드 표시** 설정은 레코드의 세부 정보 미리 보기 상자에서만 사용할 수 있습니다. 레코드의 세부 정보 페이지에서 사용할 수 없습니다.</span>
 
 
    <!--replace with this when they fix the UI text:

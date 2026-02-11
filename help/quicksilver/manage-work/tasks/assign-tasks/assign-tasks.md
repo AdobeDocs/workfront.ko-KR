@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '2479'
-ht-degree: 2%
+source-wordcount: '1617'
+ht-degree: 3%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 2%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 미리보기 릴리스의 1주일부터 모든 고객을 위한 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-자세한 내용은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)를 참조하십시오.
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md). 
 
-</div>
+</div>-->
 
 작업을 사용자, 작업 역할 또는 팀에 할당하여 작업 완료를 담당하는 사람을 표시할 수 있습니다. 한 번에 두 개 이상의 리소스에 작업을 할당할 수 있습니다.
 
@@ -66,7 +66,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -224,102 +224,6 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 ## 목록에서 여러 작업을 일괄적으로 할당
 
-목록에서 여러 작업을 일괄적으로 할당하는 방식은 선택하는 환경에 따라 다릅니다.
-
-### 프로덕션 환경의 목록에서 여러 작업을 일괄적으로 할당
-
-1. 일괄 할당할 작업 목록으로 이동합니다.
-1. (조건부) 프로젝트 아래 작업 목록에 있는 경우 **자동 저장** 옵션이 선택되어 있는지 확인하십시오.
-
-   >[!IMPORTANT]
-   >
-   >프로젝트에 작업을 수동으로 저장할 때 작업을 일괄적으로 편집할 수 없습니다.
-
-1. 작업 목록에서 여러 작업을 선택합니다.
-1. **편집**&#x200B;을 클릭합니다.
-
-   **작업 편집** 대화 상자가 새 환경에서 열립니다.
-
-1. 새 경험을 사용하여 작업을 계속 할당합니다.
-
-   자세한 내용은 이 문서의 [새 경험의 목록에서 여러 작업을 일괄적으로 할당](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) 섹션을 참조하십시오.
-
-1. (선택 사항) **작업 편집** 상자 아래쪽에 있는 **이전 경험으로 다시 전환**&#x200B;을 클릭하여 이전 경험을 엽니다.
-
-1. (조건부) 이전 환경을 사용하여 **할당** 영역에서 **할당자** 상자를 선택한 다음 모든 작업에 할당할 사용자, 작업 역할 또는 팀의 이름을 입력하세요.
-
-   >[!IMPORTANT]
-   >
-   >작업이 이미 할당된 경우 여기에 표시하는 리소스는 작업에 있는 기존 리소스를 대체하는 대신 작업에 추가됩니다.
-
-1. (선택 사항) 작업에 둘 이상의 리소스를 할당할 때 기본 피할당자 또는 작업 소유자인 리소스를 나타내려면 **작업 소유자** 열에서 라디오 단추를 선택합니다. 이 기능은 팀에 사용할 수 없습니다.
-1. (조건부) 선택한 모든 작업에 작업량 고정 또는 계산된 할당의 기간 유형이 있는 경우 작업에 할당된 각 리소스에 대해 **할당 %**&#x200B;을(를) 지정합니다. 이는 이러한 리소스가 작업 완료에 소비해야 하는 시간을 나타냅니다. 사용자 및 작업 역할에만 사용할 수 있습니다.
-
-   또는
-
-   선택한 모든 작업의 기간 유형이 단순인 경우 작업에 할당된 각 리소스에 대해 **시간**&#x200B;을(를) 지정하십시오. 모든 리소스에 대한 총 시간 은 작업에 대한 계획된 시간 수와 같아야 합니다.
-
-   >[!IMPORTANT]
-   >
-   >선택한 작업에 다른 기간 유형이 있거나 선택한 작업에 다른 기간 유형이 있는 경우 자원당 할당 백분율 또는 시간 수를 지정할 수 없습니다.
-
-   작업의 기간 유형에 대한 자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오.
-
-1. (선택 사항) 사용자를 작업에 할당할 때 **피할당자의 역할** 열의 **역할 선택** 드롭다운 메뉴에서 사용자가 작업에 대해 이행해야 하는 역할을 선택합니다. 역할을 선택하지 않으면 Workfront에서 자동으로 사용자의 기본 역할을 선택합니다.
-
-1. (선택 사항) 모든 작업에서 기존 피할당자를 제거하려면 다음 중 하나를 수행합니다.
-
-   1. 작업에서 제거할 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택하고 **피할당자 제거**&#x200B;를 클릭하여 피할당자를 더 제거합니다.
-   1. 선택한 모든 작업에서 할당자를 모두 제거하려면 **기존 할당자 모두 제거**&#x200B;를 클릭하십시오.
-
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
-1. (선택 사항 및 조건부) 할당 대상 또는 할당 필드가 작업 목록에 표시되면 작업에 대해 이러한 열 중 하나를 클릭한 다음 할당자의 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭하여 작업에서 제거합니다.
-
-
-#### 새 경험의 목록에서 여러 작업을 일괄적으로 할당
-
-1. 일괄 할당할 작업 목록으로 이동합니다.
-1. (조건부) 프로젝트 아래 작업 목록에 있는 경우 **자동 저장** 옵션이 선택되어 있는지 확인하십시오.
-
-   >[!IMPORTANT]
-   >
-   >프로젝트에 작업을 수동으로 저장할 때 작업을 일괄적으로 편집할 수 없습니다.
-
-1. 작업 목록에서 여러 작업을 선택합니다.
-1. **편집**&#x200B;을 클릭합니다.
-
-   **작업 편집** 대화 상자가 열립니다.
-
-1. **할당** 영역에서 제공된 **사람, 역할 또는 팀 검색** 필드에 사용자, 팀 또는 역할 이름을 입력한 다음 목록에 표시될 때 클릭합니다
-
-   또는
-
-   본인에게 할당하려면 **나에게 할당**&#x200B;을 클릭하세요.
-
-   >[!IMPORTANT]
-   >
-   >작업이 이미 할당된 경우 여기에 표시하는 리소스는 작업에 있는 기존 리소스를 대체하는 대신 작업에 추가됩니다.
-
-1. **기간 유형** 필드 내부를 클릭하고 기간 유형을 선택합니다.
-
-   작업의 기간 유형에 대한 자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오.
-
-1. (조건부) 선택한 **기간 유형**&#x200B;에 따라 다음 필드를 업데이트합니다.
-
-   * 기간
-   * 계획된 시간
-
-     자세한 내용은 [작업 편집](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
-
-1. (선택 사항) 모든 작업에서 기존 피할당자를 제거하려면 **사람, 역할 또는 팀 검색** 필드에서 이름 옆에 있는 **x**&#x200B;을 클릭합니다.
-
-1. **저장**&#x200B;을 클릭합니다.
-1. (선택 사항 및 조건부) **할당 대상** 또는 **할당** 필드가 작업 목록에 표시되면 작업에 대해 이러한 열 중 하나를 클릭한 다음 피할당자 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭하여 작업에서 제거합니다.
-
-<div class="preview">
-
-### 미리보기 환경의 목록에서 여러 작업을 일괄적으로 할당
-
 1. 일괄 할당할 작업 목록으로 이동합니다.
 1. (조건부) 프로젝트 아래 작업 목록에 있는 경우 **자동 저장** 옵션이 선택되어 있는지 확인하십시오.
 
@@ -355,7 +259,6 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. **저장**&#x200B;을 클릭합니다.
 1. (선택 사항 및 조건부) **할당 대상** 또는 **할당** 필드가 작업 목록에 표시되면 작업에 대해 이러한 열 중 하나를 클릭한 다음 피할당자 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭하여 작업에서 제거합니다.
 
-</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -372,3 +275,98 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 -->
 
 
+<!--Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
+
+### Assign multiple tasks in bulk from a list in the Production environment
+
+1. Go to a list of tasks that you want to assign in bulk. 
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens in the new experience.
+
+1. Continue assigning the tasks using the new experience.
+
+   For more information, see the section [Assign multiple tasks in bulk from a list in the new experience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in this article.
+
+1. (Optional) Click **Switch back to old experience** at the bottom of the **Edit Tasks** box to open the old experience.
+
+1. (Conditional) Using the old experience, in the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the tasks.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks. 
+
+1. (Optional) Select the radio button in the **Task Owner** column to indicate which resource is the primary assignee or the Owner of the task, when you assign more than one resource to the task. This is not available for teams. 
+1. (Conditional) Specify the **Allocation %** for each resource assigned to the task if all the tasks you selected have a Duration Type of Effort Driven or Calculated Assignment. This indicates how much of their time these resources should spend on completing the task. This is only available for users and job roles.
+
+   Or
+
+   Specify the amount of **Hours** for each resource assigned to the task if all the tasks you selected have a Duration Type of Simple. The total of all hours for all resources should equal the number of Planned Hours for the task.
+
+   >[!IMPORTANT]
+   >
+   >You cannot specify the allocation percentage or the number of hours per resource if the tasks you selected have different Duration Types or of the tasks you selected have different Duration Types.
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Optional) Select a role that the user should fulfill on the task from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to tasks. If you do not select a role, Workfront automatically selects the user's Primary Role. 
+
+1. (Optional) If you want to remove existing assignees from all tasks do one of the following:
+
+   1. Start typing the name of a user, role, or team you want to remove from the task, then select it when it appears on the list and click **Remove Assignee** to remove more assignees.
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected tasks.
+
+1. Click **Save Changes**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+
+#### Assign multiple tasks in bulk from a list in the new experience
+
+1. Go to a list of tasks that you want to assign in bulk.
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens.
+
+1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
+
+   Or 
+
+   Click **Assign to me** to assign it to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+
+1. Click inside the **Duration Type** field and choose a Duration Type. 
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+
+   * Duration
+   * Planned Hours
+
+      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+
+1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+
+1. Click **Save**.
+1. (Optional and conditional) When the **Assigned to** or the **Assignments** fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+<div class="preview">
+### Assign multiple tasks in bulk from a list in the Preview environment
+-->
