@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 0%
+source-wordcount: '823'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -58,6 +58,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
 사용자에게 Workfront의 재무 데이터에 대한 액세스 권한을 부여할 때 다음 사항을 고려하십시오.
 
+* 액세스 수준이 재무 데이터에 대한 액세스를 허용하지 않는 사용자는 다른 사용자가 재무 데이터를 볼 수 있도록 하는 액세스 권한을 부여할 수 없습니다. 여기에는 재무 데이터를 표시하는 프로젝트에 대한 액세스 권한을 부여하거나, 재무 데이터를 볼 수 있도록 액세스 수준을 수정하는 작업이 포함됩니다.
 * 액세스 수준이 재무 데이터에 대한 액세스를 허용하지 않는 사용자는 프로젝트에 대한 위험을 만들 수 없습니다. 자세한 내용은 [프로젝트에 대한 위험 만들기 및 편집](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)을 참조하세요.
 * 또한 액세스 레벨을 사용하여 사용자가 자원 할당을 예산 책정하거나 조회하기 위해 사용할 수 있는 자원 관리 활동을 결정할 수 있습니다. 자세한 내용은 [리소스 관리에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)를 참조하십시오.
 

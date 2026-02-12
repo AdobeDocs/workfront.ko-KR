@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 0%
+source-wordcount: '677'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Workfront 관리자는 다음 문서에 설명된 대로 액세스 수준�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Adobe Workfront 관리자는 다음 문서에 설명된 대로 액세스 수준�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
     <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -68,6 +68,8 @@ Adobe Workfront 관리자는 다음 문서에 설명된 대로 액세스 수준�
    >* 검토 라이선스가 있는 사용자는 전환된 문제의 프로젝트에 대한 보기 권한이 있지만 보기 권한은 제한됩니다.
    >* 사용자가 다른 사용자와 프로젝트를 공유할 때 부여할 수 있는 권한에 대한 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)를 참조하십시오.
    >* 특정 객체 유형에 대한 액세스 수준 설정을 구성할 때 해당 구성은 하위 등급 객체에 대한 사용자의 액세스 권한에 영향을 주지 않습니다. 예를 들어, 사용자가 자신의 액세스 수준에서 프로젝트를 삭제하지 못하도록 제한할 수 있지만 그렇다고 해서 프로젝트보다 낮은 순위의 작업을 삭제하지 못하도록 제한하지는 않습니다. 개체의 계층 구조에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)에서 [개체의 상호 종속성 및 계층 구조](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.
+   * 액세스 수준이 재무 데이터에 대한 액세스를 허용하지 않는 사용자는 다른 사용자가 재무 데이터를 볼 수 있도록 하는 액세스 권한을 부여할 수 없습니다. 여기에는 재무 데이터를 표시하는 프로젝트에 대한 액세스 권한을 부여하거나, 재무 데이터를 볼 수 있도록 액세스 수준을 수정하는 작업이 포함됩니다.
+
 
 1. (선택 사항) 만들기 옵션 오른쪽에 있는 **공유 기본값 설정**&#x200B;을 클릭한 다음 **규칙 추가**&#x200B;를 클릭하여 새 프로젝트에 대한 공유 규칙을 추가합니다.
 
