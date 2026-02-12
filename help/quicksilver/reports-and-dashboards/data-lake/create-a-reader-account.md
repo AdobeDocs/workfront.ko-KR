@@ -7,10 +7,10 @@ description: Data Connect 데이터에 액세스하려면 먼저 Snowflake 리�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 9cf221bda04614856a6a3670100742340fb73aee
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 0%
+source-wordcount: '630'
+ht-degree: 1%
 
 ---
 
@@ -67,7 +67,7 @@ Data Connect 데이터에 액세스하려면 먼저 조직에 대한 Snowflake �
 
 1. 왼쪽 패널에서 **시스템** > **데이터 연결**&#x200B;을 클릭합니다.
 
-1. 조직의 Reader 계정을 만들려면 **Reader 계정 만들기** 단추를 클릭하십시오. 이 프로세스는 자동으로 진행되지만 완료하는 데 몇 분 정도 걸릴 수 있습니다.
+1. 조직의 Reader 계정을 만들려면 **Reader 계정 만들기** 단추를 클릭하십시오. 이 프로세스는 자동으로 진행되지만 완료하는 데 최대 24시간이 소요될 수 있습니다.
 
 1. 완료되면 리더 계정이 이제 활성 상태임을 설명하는 대화 상자 창이 표시됩니다. 브라우저 페이지를 새로 고쳐 **새 연결 만들기** 단추에 액세스할 수 있습니다.
 
