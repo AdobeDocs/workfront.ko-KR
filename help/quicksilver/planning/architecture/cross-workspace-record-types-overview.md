@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1709'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
 
    다음 섹션에서는 글로벌 레코드 유형과 원래 또는 보조 작업 공간에서 글로벌 레코드 유형이 작동하는 방식에 대한 고려 사항을 설명합니다.
 
-### 원래 작업 영역의 글로벌 레코드 유형에 대한 고려 사항
+### 원래 기본 작업 영역의 글로벌 레코드 유형에 대한 고려 사항
 
 글로벌로 구성된 레코드 종류에는 다음 속성이 있습니다.
 
@@ -109,12 +109,24 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
    * 요청 양식 만들기 및 관리
    * 자동화 제작 및 관리
 
-* 글로벌 레코드 유형에 추가하는 레코드는 추가된 작업 영역에 대한 보기 권한이 있는 사용자만 볼 수 있습니다.
-* 보조 작업공간에서 추가하는 레코드는 원래 작업공간에서 롤업되고 표시됩니다. 원래 작업 영역의 모든 멤버에게 보기 권한이 부여됩니다.
-* 원래 글로벌 레코드 유형을 여러 보조 작업 공간에 추가하면 다음과 같은 시나리오가 있습니다.
+* 다음 레코드는 글로벌 레코드 유형의 기본 작업 공간에 표시됩니다.
 
-   * 원래 작업 영역의 구성원은 해당 작업 영역의 구성원이 아니더라도 작업 영역에서 추가된 모든 레코드에 대한 보기 권한을 자동으로 부여받습니다.
-   * 보조 작업 영역 구성원은 자신이 구성원으로 있는 작업 영역의 레코드만 볼 수 있습니다.
+   * 기본 작업 영역의 글로벌 레코드 유형에서 추가된 레코드
+   * 추가된 보조 작업 영역의 글로벌 레코드 유형에서 추가된 레코드
+
+     보조 작업공간에서 추가하는 레코드는 기본 작업공간에서 롤업되고 표시됩니다. 원래 주 작업 영역의 모든 구성원은 해당 구성원에 대한 보기 권한을 갖게 되며 보조 작업 영역에 대한 권한이 없는 경우에도 주 작업 영역에서만 레코드를 볼 수 있습니다.
+* 추가된 위치에 따라 기본 작업 영역에 표시되는 레코드에 대해 사용자가 가져야 하는 권한의 종류는 다음과 같습니다.
+
+   * 작업공간 및 원래 글로벌 레코드 유형에 대한 권한과 마찬가지로 기본 작업공간에서 생성된 레코드에 대한 권한이 있습니다.
+   * 보조 작업 공간에서 생성된 레코드에 대한 권한은 보조 작업 공간에서 생성된 레코드 및 해당 공간의 글로벌 레코드 유형에 대한 권한과 동일합니다.
+
+<!--Removed this as this was too confusing: 
+
+* When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
+
+    * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
+        * The primary workspace
+        * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.-->
 
 * 글로벌 레코드 유형에 연결된 레코드 유형은 이 레코드 유형이 추가된 작업 영역에서 연결에 사용할 수 있습니다.
 
@@ -175,12 +187,12 @@ Adobe Workfront Planning에서 레코드 유형에 대해 작업 영역 간 기�
 * 보조 작업 영역에 추가된 레코드는 이러한 작업 영역에 대한 보기 이상의 권한이 있는 경우 다음 작업 영역에서 볼 수 있습니다.
 
    * 추가된 보조 위치
-   * 글로벌 레코드 유형의 원래 작업 영역
+   * 글로벌 레코드 유형의 원래 기본 작업 영역
 
-* 보조 작업 공간에서 생성된 레코드에 대한 시나리오는 다음과 같습니다.
+* 다음 시나리오는 보조 작업 공간에서 생성된 레코드에 액세스하는 데 사용됩니다.
 
    * 원래 작업 영역에 대한 관리 권한이 있고 보조 작업 영역에 대한 권한이 없는 경우 원래 작업 영역의 보조 작업 영역에서 추가된 레코드를 볼 수 있지만, 원래 작업 영역에서 관리할 수는 없습니다.
-   * 보조 작업 영역에 대한 관리 권한이 있는 경우 글로벌 레코드 유형의 원래 작업 영역과 해당 레코드가 추가된 보조 작업 영역 모두에서 레코드를 관리할 수 있습니다.
+   * 원래 및 보조 작업 영역에 대한 관리 권한이 있는 경우 글로벌 레코드 유형의 원래 작업 영역과 해당 작업 영역이 추가된 보조 작업 영역 모두에서 레코드를 관리할 수 있습니다.
      <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
 * 보조 작업 영역에서는 글로벌 레코드 유형의 보기를 공개적으로 공유할 수 없습니다.
 

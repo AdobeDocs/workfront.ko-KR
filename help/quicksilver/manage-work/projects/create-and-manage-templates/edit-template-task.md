@@ -7,7 +7,7 @@ description: 템플릿을 만든 후 템플릿 작업에 대한 정보를 편집
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: e812338b1f20c6f8dc8679afe3215dbecc8ffc60
+source-git-commit: e186b4aa0b5c229015cf8f3dcd8993f8f0443c44
 workflow-type: tm+mt
 source-wordcount: '2958'
 ht-degree: 5%
@@ -404,7 +404,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </tr> 
    </tbody> 
    </table>
-1. 할당자의 이름 위에 마우스를 놓고 기본 항목으로 설정을 클릭합니다. 향후 프로젝트 작업의 소유자입니다.
+1. 피할당자의 이름을 마우스로 가리킨 다음 **기본으로 만들기**&#x200B;를 클릭합니다. 향후 프로젝트 작업의 **소유자**&#x200B;이(가) 됩니다.
 
    >[!TIP]
    >

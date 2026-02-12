@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1420'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ And
 
 작업 영역 관리자는 전역 레코드 유형을 자신이 관리하는 작업 영역에 추가할 수 있습니다. 레코드 유형의 원본 필드도 보조 작업 영역에 추가됩니다.
 
-사용자는 Contribute 권한이 있고 원래 작업 영역을 포함하여 글로벌 레코드 유형이 추가된 작업 영역에서 글로벌 레코드 유형에 레코드를 추가할 수 있습니다. 보기 권한만 있는 작업 공간에서 레코드를 볼 수 있습니다.
+사용자는 Contribute 권한이 있고 원래 작업 영역을 포함하여 글로벌 레코드 유형이 추가된 작업 영역에서 글로벌 레코드 유형에 레코드를 추가할 수 있습니다. 글로벌 레코드 유형의 기본 작업 공간에 대한 보기 권한만 있는 작업 공간에서 레코드를 볼 수 있습니다.
 
 자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
@@ -252,7 +252,7 @@ And
 
    활성화되면 레코드 유형에 액세스하고 다른 작업 공간에서 연결할 수 있습니다.
 
-1. 레코드 종류에 액세스할 수 있는 작업 공간을 선택합니다. 다음 옵션 중에서 선택합니다.
+1. 레코드 종류에 액세스할 수 있는 작업 공간을 선택합니다. 다음 선택 사항 중 하나를 선택합니다.
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
