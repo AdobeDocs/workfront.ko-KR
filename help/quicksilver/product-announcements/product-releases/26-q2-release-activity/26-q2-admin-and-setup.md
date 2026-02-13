@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
+source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >미리 보기: 2026년 1월 29일
->프로덕션 빠른 릴리스: 2026년 2월 12일\
+>프로덕션 빠른 릴리스: 2026년 2월 12일
 >모두를 위한 프로덕션: 2026년 4월 16일
+>
+>이 기능은 2026년 2월 13일에 프로덕션 환경에서 일시적으로 제거되었습니다.
 
 사용자 정의 양식의 새 **서식 있는 텍스트** 필드 형식은 굵게, 기울임꼴, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 인용과 같은 기존 옵션 외에도 위 첨자 및 아래 첨자, 제목 및 표와 같은 서식 지정 옵션이 있는 강력한 텍스트 편집기입니다. 문자 길이는 15,000자로 제한됩니다.
 
