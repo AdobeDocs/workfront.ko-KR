@@ -6,9 +6,10 @@ description: AI 검토자를 위한 브랜드 설정
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
+source-git-commit: 07b401c70dfd209d13c34cf62844f334f3260af1
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '429'
 ht-degree: 5%
 
 ---
@@ -31,7 +32,7 @@ AI 검토자는 브랜드 가이드라인을 사용하여 검토 과정에서 �
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -42,11 +43,17 @@ AI 검토자는 브랜드 가이드라인을 사용하여 검토 과정에서 �
    <td> <p>시스템 관리자여야 합니다.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Admin Console 권한</td> 
-   <td> <p>GenStudio Brand Manager여야 합니다.</p></td> 
+   <td role="rowheader">Admin Console 권한*</td> 
+   <td> <p>GenStudio Brand Manager여야 합니다.</p>
+    <p>참고: GenStudio Brand Manager를 선택하려면 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions">브랜드 권한 할당</a>에 설명된 단계를 따라야 합니다.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
@@ -60,6 +67,7 @@ AI 검토자는 브랜드 가이드라인을 사용하여 검토 과정에서 �
 * 조직에 GenStudio Foundation이 있어야 합니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 계약 서명에 대한 자세한 내용은 [Adobe Gen AI 계약 서명](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)을 참조하십시오.
+
 
 ## PDF을 사용하여 브랜드 만들기
 
