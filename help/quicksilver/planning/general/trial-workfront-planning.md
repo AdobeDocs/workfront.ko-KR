@@ -3,13 +3,13 @@ title: Adobe Workfront Planning 무료 평가판 시작
 description: Adobe Workfront은 Adobe Workfront Planning 60일 무료 체험판을 제공하고 있습니다. 이 체험판을 통해 Planning이 큰 그림 전략을 일상적인 작업과 어떻게 연결하는지 확인할 수 있습니다. Planning은 마케팅 라이프사이클에 대한 중앙 집중식 가시성을 제공하여 팀 간의 공동 작업, 캠페인 실시간 추적 및 자동화된 워크플로우를 가능하게 합니다. 사용자 지정 작업 공간을 만들고 대화형 타임라인 및 캘린더로 작업을 시각화할 수 있습니다. 이 평가판을 통해 Planning을 통해 일일 작업을 전략적 목표에 맞게 조정하고 실행을 간소화하며 조직에 측정 가능한 결과를 도출하는 방법을 직접 확인할 수 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
-
 
 <!--add at release to the metadata:
 author: Alina
@@ -154,6 +154,12 @@ Workfront Planning 무료 평가판에 참여하려면 귀사가 다음 요구 �
 
       Workfront Planning 사용에 대한 모범 사례는 [Adobe Workfront Planning 모범 사례](/help/quicksilver/planning/general/planning-best-practices.md)를 참조하십시오.
 
+## Workfront Planning에 대한 추가 정보
+
+Workfront Planning에 대한 일반적인 정보는 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
+
+Workfront Planning 구현 방법에 대한 모범 사례는 [Adobe Workfront Planning 모범 사례: 문서 색인](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)을 참조하십시오.
+
 ## 무료 체험판 중 Workfront Planning 데이터에 대한 권한
 
 * **2026년 3월 2일부터 5월 1일 사이**:
@@ -169,7 +175,3 @@ Workfront Planning 무료 평가판에 참여하려면 귀사가 다음 요구 �
 * **2026년 5월 1일 이후:**
 
   시스템의 모든 사용자가 Workfront Planning에 대한 액세스 권한을 제거했으며 Workfront에서 데이터를 보호합니다.
-
-
-
-

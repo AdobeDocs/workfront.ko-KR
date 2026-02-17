@@ -5,10 +5,8 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -97,7 +95,7 @@ Adobe Workfront Planning의 높은 수준 계획과 Workfront의 일일 실행 �
 
 이 접근 방식을 사용하려면 Adobe Workfront Fusion 라이선스가 필요합니다.
 
-자세한 내용은 [Workfront Fusion 설정 및 관리: 문서 인덱스](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)를 참조하십시오.
+자세한 내용은 [Workfront Fusion 설정 및 관리: 문서 인덱스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)를 참조하십시오.
 
 * **전송 트리거 사용:** 양식은 깔끔한 단일 전송 이벤트를 제공하므로 Fusion 자동화의 트리거로 사용할 수 있습니다. Fusion 시나리오는 양식 제출을 감지하고 즉시 Workfront에서 연결된 프로젝트를 생성할 수 있습니다.
 

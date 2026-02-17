@@ -5,12 +5,10 @@ feature: Workfront Planning
 role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -122,7 +120,7 @@ ht-degree: 0%
 
 ## 론치 패드에 대한 성공 지표 개요
 
-성공 표시를 지속적으로 찾고 검색 결과에서 조정하는 것이 좋습니다.
+성공 마커를 지속적으로 찾고 검색 결과에 따라 조정하는 것이 좋습니다.
 
 건강의 초기 지표를 찾아보세요.
 

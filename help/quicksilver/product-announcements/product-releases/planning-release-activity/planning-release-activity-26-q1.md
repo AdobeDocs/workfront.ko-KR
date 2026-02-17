@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d60123df6e18025a886809fa390137bdf9287e6e
+exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -146,7 +147,7 @@ Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려�
 
 >[!IMPORTANT]
 >
->이 기능은 미리보기 및 프로덕션 환경에서 일시적으로 제거되었습니다.
+>이 기능은 2026년 1월 20일부터 2월 17일까지 미리보기 및 프로덕션 환경에서 일시적으로 제거되었습니다.
 
 >[!NOTE]
 >
@@ -300,9 +301,3 @@ Workfront Planning 오브젝트에서 GenStudio for Performance Marketing 사용
 * 선택 값은 소문자로 표시되며, 여러 단어 선택의 경우 밑줄로 구분됩니다. 동일한 필드에 다른 선택 이름으로 이미 사용된 레이블을 사용하는 경우 Workfront이 값에 순차적 번호를 추가합니다.
 
 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
-
-
-
-
-
-
