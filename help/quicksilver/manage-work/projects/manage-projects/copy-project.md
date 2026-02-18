@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 93db334537b5ec12dc0c77d51f8b2d83d8348f3d
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '751'
 ht-degree: 7%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> <p>Adobe Workfront 패키지</p> </td>  
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront 라이선스</p> </td> 
@@ -111,6 +111,10 @@ ht-degree: 7%
   </tr> 
  </tbody> 
 </table>-->
+
+## 고려 사항
+
+* 프로젝트를 복사할 때에는 5분 처리 제한이 있습니다. 프로젝트에 많은 문서가 첨부되어 있고 복사하지 못하는 경우 일부 문서를 제거하고 다시 시도해야 할 수 있습니다.
 
 ## 단일 프로젝트 복사
 
