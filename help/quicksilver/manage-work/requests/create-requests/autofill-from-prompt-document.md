@@ -5,9 +5,9 @@ description: AI를 사용하여 프롬프트를 입력하거나 문서를 제공
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
+source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1374'
 ht-degree: 3%
 
 ---
@@ -73,8 +73,11 @@ AI에서 제공하는 양식 채우기를 사용할 때는 다음 사항을 고�
 
 * AI 양식 채우기는 이미 채운 필드를 덮어쓰지 않습니다.
 * 사용자는 액세스 권한이 없는 데이터에 대한 제안을 받지 않습니다.
-* AI에서 제공하는 양식 채우기에서 사용하는 파일은 24시간 동안 Azure 스토리지에 업로드됩니다. 문서 처리에 필요합니다.
-* Azure에 업로드된 모든 파일은 현재 24시간 저장소 기간 동안 미국 Azure 클러스터에 저장됩니다.
+
+<!--
+* Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
+* All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
+-->
 
 ## 텍스트 프롬프트에서 제안 받기
 
