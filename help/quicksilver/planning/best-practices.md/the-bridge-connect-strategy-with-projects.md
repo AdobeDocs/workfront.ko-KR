@@ -103,7 +103,7 @@ Adobe Workfront Planning의 높은 수준 계획과 Workfront의 일일 실행 �
 
 이 접근 방식을 사용하려면 Adobe Workfront Fusion 라이선스가 필요합니다.
 
-자세한 내용은 [Workfront Fusion 설정 및 관리: 문서 인덱스](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)를 참조하십시오.
+자세한 내용은 [Workfront Fusion 설정 및 관리: 문서 인덱스](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)를 참조하십시오.
 
 * **전송 트리거 사용:** 양식은 깔끔한 단일 전송 이벤트를 제공하므로 Fusion 자동화의 트리거로 사용할 수 있습니다. Fusion 시나리오는 양식 제출을 감지하고 즉시 Workfront에서 연결된 프로젝트를 생성할 수 있습니다.
 
