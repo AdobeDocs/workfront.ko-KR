@@ -1,7 +1,7 @@
 ---
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8fe1b2dc00c7b64b47717a17a51c0124da26d238
 workflow-type: tm+mt
-source-wordcount: '2609'
+source-wordcount: '2644'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,18 @@ ht-degree: 1%
 ## 1단계 - 프로필 사진 클릭 - {#step1-click-profile-pic}
 
 1. Adobe Workfront 오른쪽 상단의 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭한 다음 프로필 사진 옆에 있는 사용자 이름을 클릭합니다. 또는(가능한 경우) 위쪽 탐색 영역에서 프로필 사진을 클릭한 다음 **[!UICONTROL Workfront 프로필]**&#x200B;을 클릭합니다.
+
+## 워크플로우 Ultimate 참고 사항 {#ultimate-package}
+
+>[!IMPORTANT]
+>
+>이 기능을 사용하려면 Workflow Ultimate 패키지가 있어야 합니다.
+
+## 워크플로우 Prime/Ultimate 참고 사항 {#prime-or-ultimate-package}
+
+>[!IMPORTANT]
+>
+>이 기능을 사용하려면 Workflow Prime 또는 Workflow Ultimate 패키지가 있어야 합니다.
 
 <!-- Admin and Setup -->
 
@@ -464,7 +476,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 1. **[!UICONTROL 조직]** 섹션에서 **[!UICONTROL 홈 팀]** 필드를 선택합니다. 설정을 사용자와 연결할 팀의 이름을 입력하십시오. 목록에 팀의 이름이 표시되면 클릭합니다.
 
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
 선택한 사용자가 이제 홈 팀과 연결되었습니다.
 완료 버튼과 연관된 상태를 포함하여 모든 팀 설정이 이제 이러한 사용자에게 표시됩니다.
 
