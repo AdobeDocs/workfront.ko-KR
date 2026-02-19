@@ -6,16 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: e95ca8a2-6261-4f04-8c7c-1a0bfb1925f3
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
 
 # 마케팅 캘린더 만들기: 데크 없음, 명확함
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning을 참조합니다.
+>
+>이 문서에서 권장하는 기능을 지원하려면 조직에 Workfront Planning Prime 이상 패키지가 있어야 합니다.
+>
+>Workfront Planning에 액세스하기 위한 요구 사항 목록은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+> 
+>Workfront Planning에 대한 일반적인 정보는 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
 
 매주 마케팅 팀은 전략이나 크리에이티브 작업이 아닌 보고에 하루 종일 시간을 낭비합니다.
 

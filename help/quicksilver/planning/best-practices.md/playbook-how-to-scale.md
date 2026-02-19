@@ -6,16 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2549'
 ht-degree: 0%
 
 ---
 
 # 첫 승을 지속 가능한 모멘텀으로 전환: 관리형 스케일링을 위한 플레이북
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning을 참조합니다.
+>
+>이 문서에서 권장하는 기능을 지원하려면 조직에 Workfront Planning Prime 이상 패키지가 있어야 합니다.
+>
+>Workfront Planning에 액세스하기 위한 요구 사항 목록은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+> 
+>Workfront Planning에 대한 일반적인 정보는 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
 
 
 성공적인 첫 Adobe Workfront Planning 사용 사례를 선보이는 것은 수요 급증과 새로운 팀이 액세스를 원하고 리더십이 전사적 가시성의 잠재력을 확인하는 획기적인 순간입니다.

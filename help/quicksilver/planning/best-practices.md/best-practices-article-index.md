@@ -6,14 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 699bc34b-98c8-4620-9fdc-992d1ab9f501
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Planning 모범 사례: 문서 색인
+
+>[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning을 참조합니다.
+>
+>이 문서에서 권장하는 기능을 지원하려면 조직에 Workfront Planning Prime 이상 패키지가 있어야 합니다.
+>
+>Workfront Planning에 액세스하기 위한 요구 사항 목록은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+> 
+>Workfront Planning에 대한 일반적인 정보는 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
 
 다음 문서에서 안전을 우선시하고 중단을 최소화하며 신속한 성과를 제공하는 전략을 사용하여 조직에서 Adobe Workfront Planning을 배포하는 방법에 대한 팁을 알아보십시오.
 

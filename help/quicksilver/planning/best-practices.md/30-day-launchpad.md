@@ -6,16 +6,24 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # 전략적인 홈 구축: 30일 런치패드
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning을 참조합니다.
+>
+>이 문서에서 권장하는 기능을 지원하려면 조직에 Workfront Planning Prime 이상 패키지가 있어야 합니다.
+>
+>Workfront Planning에 액세스하기 위한 요구 사항 목록은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+> 
+>Workfront Planning에 대한 일반적인 정보는 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
 
 이 안내서를 사용하여 심리적 안전을 우선시하고 중단을 최소화하며 신속한 성공을 제공하는 전략을 설계하는 Adobe Workfront Planning을 배포하는 방법에 대해 알아보십시오.
 

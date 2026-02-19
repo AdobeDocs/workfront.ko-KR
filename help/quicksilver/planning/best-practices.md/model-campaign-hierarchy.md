@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,15 @@ ht-degree: 0%
 
 <!--see the file again for additional comments from Seth and others-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning을 참조합니다.
+>
+>이 문서에서 권장하는 기능을 지원하려면 조직에 Workfront Planning Prime 이상 패키지가 있어야 합니다.
+>
+>Workfront Planning에 액세스하기 위한 요구 사항 목록은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+> 
+>Workfront Planning에 대한 일반적인 정보는 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
 
 Adobe Workfront Planning에서 무게 중심 및 다중 작업 공간 아키텍처를 사용하여 복잡한 비즈니스 프로세스를 확장 가능하고 관리되는 캠페인 계층으로 변환하는 방법을 알아봅니다.
 
