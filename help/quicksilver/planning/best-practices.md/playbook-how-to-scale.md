@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,8 @@ ht-degree: 0%
 
 * **규칙**: 이러한 필드는 공유되며 필수입니다.
 
+자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
+
 ### 로컬 플레이그라운드(또는 &quot;스포크&quot;)
 
 다음은 지역 놀이터의 특성입니다
@@ -171,6 +173,8 @@ Workfront Planning을 확장하는 데 있어 일반적인 문제는 엔터프�
 * **레벨 2: 패턴 인식**: 관리자는 팀 B와 C가 유사한 필드를 사용하거나 요청함을 알게 됩니다.
 
 * **레벨 3: 엔터프라이즈 표준화**: 관리자가 글로벌 분류법 Workspace에서 레코드 유형으로 해당 필드의 표준화된 단일 버전을 만들고 팀에 신디케이트합니다.
+
+  자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
 ### 필드 사용 중지 방법
 
@@ -334,6 +338,8 @@ Workfront Planning을 확장하는 것은 기술적인 문제만큼이나 문화
 * [ ] **전역 가시성 부여**: 1일에 관련 기본 작업 영역 및 전역 분류 작업 영역에 대한 읽기 전용 액세스 권한을 부여합니다.
 
 * [ ] **전달 설정**: 해당 작업은 관련 기본 작업 영역을 어떻게 제공합니까? 예를 들어, 전역 레코드 유형 또는 특정 조회 필드를 통해 관련 기본 작업 공간으로 작업할 수 있습니다.
+
+  글로벌 레코드 형식에 대한 자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
 <!--original content: 
 

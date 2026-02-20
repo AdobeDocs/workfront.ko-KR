@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,8 @@ ht-degree: 0%
 이 팀 우선 아키텍처를 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 * **Spoke를 지원하는 허브를 디자인합니다.** 파일럿 팀에 가장 중요한 개체(특정 브랜드 또는 제품)에 특히 전역 분류 작업 영역을 집중할 수 있습니다. 이를 통해 설계 작업을 관리 가능한 상태로 유지하면서 기업 지배구조와 팀 자율성 간의 공동 작업을 강화할 수 있습니다.
+
+  자세한 내용은 [작업 영역 간 레코드 형식 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)를 참조하십시오.
 
 * **보호자가 아닌 Enabler로 작동:** 규칙 설정에서 기능 구축으로 역할을 전환합니다. 팀과 협력하여 계획 환경을 구성하십시오.
 

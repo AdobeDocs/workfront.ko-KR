@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,11 @@ Hub-and-spoke 접근 방식을 사용하여 아키텍처를 구축하려면 다�
 
 먼저 글로벌 분류에 대해 하나의 중앙 집중식 작업 영역을 설정하여 조직의 모든 사람이 이해해야 하는 주요 개념을 정의해야 합니다. 예를 들어, 중앙 작업 영역에서 브랜드, 지역, 제품, 가상 사용자 등의 레코드 유형을 만듭니다.
 
-자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+자세한 내용은 다음을 참조하십시오.
+
+* [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md)
+
+* [작업 영역 간 레코드 유형 개요](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 분류를 만들 때 다음을 설정하십시오.
 

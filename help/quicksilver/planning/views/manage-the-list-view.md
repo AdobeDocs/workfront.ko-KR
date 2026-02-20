@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -93,6 +93,8 @@ Workfront의 목록 보기 관리에 대한 자세한 내용은 [향상된 목�
 
    연결된 레코드 페이지는 목록 보기의 레코드에 연결된 프로젝트를 표시합니다.
 
+   <!--add new screen shot when they release Row colors/ special formatting for rows-->
+
    ![목록 보기의 연결된 레코드 페이지에 있는 프로젝트](assets/projects-on-connected-records-page-list-view.png)
 
 1. (선택 사항) 목록 보기를 수정하려면 다음 중 하나를 수행합니다.
@@ -108,10 +110,12 @@ Workfront의 목록 보기 관리에 대한 자세한 내용은 [향상된 목�
 
       >[!NOTE]
       >
-      >편집, 공유 또는 삭제하려면 보기 관리 권한이 있어야 합니다.
+      >* 편집, 공유 또는 삭제하려면 보기 관리 권한이 있어야 합니다.
       >
-      >시스템 보기는 수정할 수 없습니다.
+      >* 시스템 보기는 수정할 수 없습니다.
       >
+      <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        -->
    1. 보기에 필터를 추가하려면 **필터** 아이콘 ![필터 아이콘](assets/filter-icon.png)을 클릭하십시오. 결과는 목록에서 즉시 필터링됩니다. 필터를 저장하고 이름을 지정할 수 없습니다. 필터는 나중에 페이지에 액세스할 때 기억되며 공유 보기의 일부입니다.
    1. 보기에 표시하거나 숨길 열을 선택하려면 **열** 아이콘 ![열 아이콘](assets/columns-icon.png)을 클릭하십시오.
    1. 열 이름 위로 마우스를 가져간 후 열 이름 왼쪽의 아래쪽 화살표를 클릭하고 다음 중 하나를 클릭합니다.
@@ -123,7 +127,30 @@ Workfront의 목록 보기 관리에 대한 자세한 내용은 [향상된 목�
 
       목록 보기에 기존 필드만 추가할 수 있습니다.
 첫 번째 열에 표시되는 목록 보기에서 기본 필드를 제거할 수 없습니다.
+
+
+   <!--
+    1. <span class="preview">Click **Row colors** <!-insert icon and edit the name of the icon if they changed it->. The **Format** box opens. <!-change the name of the box when they update it-></span>
+        <span class="preview">Do the following: </span>
+        <div class="preview">
+        1. Define the formatting conditions in the **If** area by clicking **Add condition**, then select a field you want to format by and choose a field value. 
+            >[!TIP]
+            >
+            >Only field visible in the list view are available for conditional formatting.
+        1. (Optional) Click **Add condition** in the If area to add more conditions. 
+        1. Click the **Or** connector between conditions to change to **And**. **Or** is the default connector.  
+        1. In the **Format** area, select a field to indicate which column will be formatted. <!-edit this area, if it changes names???->
+        1. Click on the color circle to expand and choose another color.
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row that meets the conditions. 
+        1. (Optional) Click **Clear all** to remove all formatting.
+            The formatting is applies immediately.
+        1. Click outside the **Format** box to close it. 
+            This returns you to the list view. There is a blue dot next to the **Row colors** icon to indicate that the view has special formatting applied. <!-might need to edit the icon name and get a screen shot of the icon with the dot and insert it here->
+        </div>
+    -->
+
 1. (선택 사항) 목록의 오른쪽 위 모서리에 있는 검색 상자에 키워드를 추가하여 항목을 검색합니다.
+
 
    검색어와 일치하는 항목이 목록에서 강조 표시됩니다.
 1. (선택 사항) 목록에 항목을 더 추가하고 선택한 레코드에 자동으로 연결하려면 다음 중 하나를 수행하십시오.
