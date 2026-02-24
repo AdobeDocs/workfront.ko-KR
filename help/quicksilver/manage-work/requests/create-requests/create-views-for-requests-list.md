@@ -5,16 +5,24 @@ title: 요청 영역에서 보기 만들기 및 관리
 description: 새 요청 경험을 사용하는 경우 요청 영역에 대한 보기를 만들고 저장할 수 있습니다.
 author: Becky
 feature: Work Management
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
+source-git-commit: 8db8382d63d06c23f93a74a326ddb0e1227f44c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '689'
 ht-degree: 3%
 
 ---
 
+
 # 요청 영역에서 보기 만들기 및 관리
 
-새 요청 경험을 사용하는 경우 요청 영역에 대한 보기를 만들고 저장할 수 있습니다. 이러한 보기에는 필터 및 열 배열이 포함됩니다.
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
+
+새 요청 경험을 사용하는 경우 요청 영역에 대한 보기를 만들고 저장할 수 있습니다. 이러한 보기에는 필터 및 열 배열이 포함됩니다. <!--<span class="preview"> and groupings.</span> -->
 
 Workfront의 요청 영역에서 보기를 만들고 관리할 수 있습니다.
 
@@ -35,7 +43,7 @@ Workfront의 요청 영역에서 보기를 만들고 관리할 수 있습니다.
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -58,7 +66,7 @@ Workfront의 요청 영역에서 보기를 만들고 관리할 수 있습니다.
 
 +++
 
-## 요청 영역에 보기 만들기
+## 요청에 대한 보기 만들기
 
 Workfront의 요청 영역에서 보기를 만들 수 있습니다.
 
@@ -73,7 +81,7 @@ Workfront의 요청 영역에서 보기를 만들 수 있습니다.
 1. 새 보기의 이름을 입력하고 **만들기**&#x200B;를 클릭합니다.
 1. [요청 영역의 보기 편집](#edit-a-view-in-the-requests-area)을 계속합니다.
 
-## 요청 영역에서 보기 편집
+## 요청에 대한 보기 편집
 
 방금 만든 보기를 포함하여 기존 보기를 편집할 수 있습니다.
 
@@ -110,6 +118,10 @@ Workfront의 요청 영역에서 보기를 만들 수 있습니다.
 필터 조건을 추가하면 요청 목록이 자동으로 필터링됩니다.
 
 
+<!--
+1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -136,4 +148,3 @@ Workfront 관리자는 레이아웃 템플릿에 새 보기를 추가할 수 있
 1. **공유**&#x200B;를 선택합니다.
 1. 열리는 대화 상자에서 보기를 공유할 사용자, 팀 또는 그룹의 이름을 입력한 다음 표시될 때 목록에서 선택합니다.
 1. **저장**&#x200B;을 클릭합니다.
-
