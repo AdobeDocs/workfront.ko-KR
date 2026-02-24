@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '3507'
+source-wordcount: '3508'
 ht-degree: 2%
 
 ---
@@ -504,7 +504,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    ![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)
 
-
+   <!--For Feb 26, and change indent to the left:
+    1. <span class="preview">(Optional) Choose A-Z or Z-A from the sorting drop-down menu to the right of a selected field. This sorts the groupings in the timeline, accordingly.</span>
+    -->
 
 1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
 
@@ -582,9 +584,13 @@ To sort grouped records:
 
 1. 레코드 유형 페이지로 이동하여 보기를 엽니다.
 1. (조건부) 선택한 유형의 레코드를 편집하는 다른 사용자가 동시에 있는 경우, 해당 아바타가 보기의 오른쪽 상단에 표시됩니다.
-1. 아바타 옆에 있는 드롭다운 메뉴를 클릭하고 **공동 작업자 표시** 토글을 선택합니다. 기본적으로 토글이 선택됩니다.
+1. 아바타 옆에 있는 드롭다운 메뉴를 클릭하여 **공동 작업자 표시** 설정을 켭니다. 이 설정은 기본적으로 켜져 있습니다.
 
    ![공동 작업자 표시 전환](assets/show-collaborators-toggle-selected.png)
+
+   >[!TIP]
+   >
+   >모든 보기에서 **공동 작업자 표시** 전환을 선택할 수 있습니다. 현재 다른 사용자가 편집한 필드는 테이블 보기에서만 윤곽선이 표시됩니다.
 
 1. (조건부) 표 보기를 열면 다른 사람이 활발하게 편집하고 있는 필드가 표 보기에서 아바타의 윤곽에 해당하는 색으로 강조 표시됩니다.
 
@@ -592,9 +598,18 @@ To sort grouped records:
 
    ![실시간 지표 테이블 필드 및 아바타 연결](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-   >[!TIP]
-   >
-   >모든 보기에서 **공동 작업자 표시** 전환을 선택할 수 있습니다. 현재 다른 사용자가 편집한 필드는 테이블 보기에서만 윤곽선이 표시됩니다.
+<!--maybe include a screen shot after release if they update the UI text in this list of users-->
+
+<!--For Feb 26: 
+
+1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
+
+>[!TIP]
+>
+><span class="preview">Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.</span>
+
+-->
+
 
 
 

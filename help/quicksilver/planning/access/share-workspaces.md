@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '898'
 ht-degree: 2%
 
 ---
@@ -147,11 +147,32 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 {{step1-to-planning}}
 
-1. 공유할 작업 영역을 연 다음 화면 오른쪽 상단의 **공유**&#x200B;를 클릭합니다.
+1. 공유할 작업 영역을 연 다음 화면 오른쪽 상단의 **공유**&#x200B;를 클릭합니다. 공유 상자가 열립니다.
 
    작업 영역 오른쪽 상단의 ![공유 단추](assets/share-button-on-workspace-top-right.png)
 
-1. **이 작업 영역에 대한 액세스 권한 부여** 필드에서 사용자, 그룹, 팀, 회사 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+
+   <!--For Feb 26:1. <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>
+
+      * <span class="preview">If you are a System Administrator, select from the following options:</span>
+
+         <div class="preview">
+
+         * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
+         * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
+         
+         </div> 
+         
+      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+
+         <div class="preview">
+         
+         * **Only invited people can access**
+         * **Everyone in the system can view**
+         
+         </div>-->
+
+1. **이 작업 영역에 대한 액세스 권한 부여** 필드에서 사용자, 그룹, 팀, 회사 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 클릭합니다. <!--update screen shot at the release of system-wide permissions for workspaces-->
 
    ![그룹과 UI 공유](assets/sharing-ui-with-groups.png)
 
@@ -160,7 +181,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >* 팀, 그룹, 회사 및 작업 역할 외에도 Adobe Admin Console에 추가된 사용자와만 공유할 수 있습니다. Workfront 전용 사용자는 추가할 수 없습니다. 자세한 내용은 [Adobe Admin Console에서 사용자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
    >
    >* 사용자와 작업 영역을 공유하면 기본 작업 역할 <span class="preview">과(와) 전자 메일</span>도 필드에 표시됩니다. 사용자 이메일을 보려면 액세스 수준의 사용자 개체에 대해 연락처 정보 보기 설정을 활성화해야 합니다.
-
 
 1. 드롭다운 메뉴에서 다음 권한 수준 중 하나를 선택합니다.
    * 보기

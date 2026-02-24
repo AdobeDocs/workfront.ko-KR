@@ -6,14 +6,18 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1600'
 ht-degree: 3%
 
 ---
 
 # Adobe Workfront Planning 자동화 구성
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -22,10 +26,6 @@ ht-degree: 3%
 <!-- add a new section to this article to mention a new way to create WF objects from Planning: help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md-->
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 활성화된 경우 Planning 레코드에서 트리거될 때 Adobe Workfront Planning의 객체 또는 Workfront Planning의 레코드를 생성하도록 Workfront Planning에서 자동화를 구성할 수 있습니다. 생성된 개체 또는 레코드는 자동화를 트리거하는 레코드에 자동으로 연결됩니다.
 
@@ -151,12 +151,34 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    * **제목 없는 자동화**&#x200B;를 자동화 단추에 표시할 텍스트로 바꿉니다. 자동화를 사용하여 Workfront 개체 또는 Planning 레코드를 만들 때 이 단추를 클릭합니다.
    * **설명**: 자동화의 목적을 식별하려면 설명을 추가하십시오.
-1. **저장**&#x200B;을 클릭합니다.
+1. **저장**을 클릭합니다.
 자동화 세부 정보 페이지가 열립니다.
 
-1. 자동화의 세부 정보 페이지에서 **트리거** 섹션의 다음 필드를 업데이트하십시오.
+1. 자동화의 세부 정보 페이지에서 **트리거** 섹션의 다음 옵션 중 하나를 선택하십시오.
 
-   * **트리거**: 자동화를 트리거할 작업을 선택하십시오. 예를 들어 **단추 클릭**&#x200B;을 선택합니다. <!--update this step with a list of all possible triggers; right now only Button click is available-->
+   * **트리거**: 자동화를 트리거할 작업을 선택하십시오.
+
+      * 버튼 클릭
+        <!--For Feb 26 and add Preview disclaimer at the top: * <span class="preview">Field value change</span>-->
+
+   <!-- For Feb 26:
+   1. (Conditional) If you selected **Button click**, go to the step below that describes the **Actions** area. 
+
+   1. <span class="preview">(Conditional) If you selected **Field value change**, do the following in the **Settings** section: </span>
+
+      1. <span class="preview">Choose a field from the drop-down menu. These are fields associated with the record type you selected.</span> 
+      1. <span class="preview">Continue defining conditions for the selected field.</span>
+      1. <span class="preview">Click **Add condition** to add up to 5 fields and define their condition.</span>
+         
+         <span class="preview">Workfront Planning will create objects automatically when the conditions are met. </span>
+
+         ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
+
+         >[!TIP]
+         >
+         ><span class="preview">The modifier in each condition changes with the type of fields you select.</span>
+   
+   -->
 
 1. **작업** 섹션에서 다음 필드를 업데이트합니다. <!--submitted bugs for these fields - see if they need changing here-->
    * **작업**: 자동화를 트리거할 때 Workfront에서 수행할 작업을 선택합니다. 필수 필드입니다.
