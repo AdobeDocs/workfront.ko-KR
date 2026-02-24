@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 793419db3e9552e2e425aec26300b8c2b4ab8583
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 2%
+source-wordcount: '1133'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -49,11 +49,13 @@ ht-degree: 2%
 >* Workfront에서 사용자를 비활성화하면 Workfront과 디지털 증명 모두에 대한 사용자 라이선스가 제거됩니다. 또한 사용자에게 더 이상 작업을 할당할 수 없습니다. 사용자가 비활성화되면 다른 사용자가 해당 사용자의 Workfront 라이선스 및 증명 라이선스를 사용할 수 있습니다. 비활성화된 사용자 프로필의 다른 모든 정보는 변경되지 않습니다.
 >
 >* Workfront의 사용자를 비활성화해도 Adobe Admin Console의 Workfront 제품 프로필에서 사용자가 제거되지는 않습니다. 자세한 내용은 [사용자 삭제](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)를 참조하십시오.
+>
+>* 사용자가 Admin Console 사용자 그룹에 있고 제품 프로필이 이러한 사용자 그룹 중 하나 이상에 추가된 경우 Workfront에서 사용자를 비활성화해도 제품에서 실제로 제거되지는 않습니다. Admin Console의 사용자 그룹에서 사용자를 제거해야 합니다.
 
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +63,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
