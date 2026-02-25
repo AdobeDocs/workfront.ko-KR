@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
+source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
 workflow-type: tm+mt
-source-wordcount: '3097'
-ht-degree: 3%
+source-wordcount: '3387'
+ht-degree: 5%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 3%
 * 문서 버전
 * 경비
 * 필드
-* Hour
+* 시간
 * 문제
 * 메모
 * 포트폴리오
@@ -100,7 +100,7 @@ ht-degree: 3%
 
 ## 이벤트 구독 오버로드 방지
 
-이벤트 구독 서비스는 모든 사용자에게 이벤트를 안정적으로 전달하도록 설계되었습니다. 이를 위해 단일 사용자의 과도한 이벤트 생성으로 모든 사용자에게 잠재적인 서비스 품질 문제가 발생할 수 있는 것을 방지하기 위한 안전 장치를 마련했다. 따라서 짧은 시간 내에 너무 많은 이벤트를 높은 비율로 생성하는 사용자는 샌드박싱과 이벤트 전달 지연을 경험할 수 있습니다.
+이벤트 구독 서비스는 모든 사용자에게 이벤트를 안정적으로 전달하도록 설계되었습니다. 이를 위해 모든 사용자에서 잠재적인 서비스 품질 문제를 일으킬 수도 있는 단일 사용자의 과도한 이벤트 생성을 방지하기 위한 안전장치가 마련되었습니다. 그 결과, 짧은 기간 내에 너무 많은 이벤트를 높은 비율로 생성하는 사용자는 샌드박스 작업과 이벤트 게재가 지연될 수 있습니다.
 
 ## 구독 리소스 구성
 
@@ -165,7 +165,7 @@ ht-degree: 3%
         <td scope="col"><p>필드</p></td> 
        </tr> 
       <tr> 
-        <td scope="col"><p>Hour</p></td> 
+        <td scope="col"><p>시간</p></td> 
         <td scope="col">시간</td> 
        </tr> 
        <tr> 
@@ -343,7 +343,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 응답 헤더 | 예 |
 |---|---|
 | Content-Length | `→0` |
-| Date | `→Wed, 05 Apr 2017 21:23:33 GMT` |
+| 일자 | `→Wed, 05 Apr 2017 21:23:33 GMT` |
 | 위치 | `→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2` |
 | 서버 | `→Apache-Coyote/1.1` |
 
@@ -401,7 +401,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 응답 헤더 | 예 |
 |---|---|
 | Content-Type | `→application/json;charset=UTF-8` |
-| Date | `→Wed, 05 Apr 2017 21:29:32 GMT` |
+| 일자 | `→Wed, 05 Apr 2017 21:29:32 GMT` |
 | 서버 | `→Apache-Coyote/1.1` |
 | 전송 인코딩 | `→chunked` |
 
@@ -877,7 +877,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 ### 중첩된 필터 사용
 
-이벤트 구독은 중첩된 필드 이름을 사용하여 이벤트의 중첩된 필드에 대한 필터링을 지원합니다. 예를 들어, `newState.data.customField1 = 'myCustomeFieldValue'`인 메시지를 필터링하려면 필터를 사용하여 다음 구독을 만들 수 있습니다.
+이벤트 구독은 중첩된 필드 이름을 사용하여 이벤트의 중첩된 필드에 대한 필터링을 지원합니다. 예를 들어, `newState.data.customField1 = 'myCustomFieldValue'`인 메시지를 필터링하려면 필터를 사용하여 다음 구독을 만들 수 있습니다.
 
 ```
 {
@@ -918,6 +918,103 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 ],
 "filterConnector": 'AND'
 ```
+
+### 필터 그룹(조합 필터) 사용
+
+이벤트 구독은 표준 필터와 함께 필터 그룹을 지원하여 중첩된 논리 조건을 지원합니다.
+
+필터 그룹을 사용하면 이벤트 구독 필터 내에 중첩된 논리 조건(AND/OR)을 만들 수 있습니다.
+
+각 필터 그룹에는 다음이 포함될 수 있습니다.
+
+* 자체 커넥터: `AND` 또는 `OR`
+* 각각 독립형 필터와 동일한 구문 및 비헤이비어를 사용하는 여러 필터
+
+그룹 내의 모든 필터 지원:
+
+* 비교 연산자: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `contains`, `notContains`, `containsOnly`, `changed`
+* 상태 옵션: `newState`, `oldState`
+* 필드 타깃팅: 모든 유효한 오브젝트 필드 이름
+
+그룹에는 최소 2개의 필터가 있어야 합니다.
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+이 예는 다음을 보여 줍니다.
+
+
+* 최상위 필터(그룹 외부):
+
+  { &quot;`fieldName`&quot;: &quot;`percentComplete`&quot;, &quot;`fieldValue`&quot;: &quot;`100`&quot;, &quot;`comparison`&quot;: &quot;`lt`&quot; }
+
+  이 필터는 업데이트된 작업의 percentComplete 필드가 100보다 작은지 확인합니다.
+
+* 필터 그룹(`OR`을(를) 사용한 중첩된 필터):
+
+  { &quot;`type`&quot;: &quot;`group`&quot;, &quot;`connector`&quot;: &quot;`OR`&quot;, &quot;`filters`&quot;: [{ &quot;`fieldName`&quot;: &quot;`status`&quot;, &quot;`fieldValue`&quot;: &quot;`CUR`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }, { &quot;`fieldName`&quot;: &quot;`priority`&quot;, &quot;`fieldValue`&quot;: &quot;`1`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }] }
+
+  이 그룹은 두 개의 내부 필터를 평가합니다.
+
+   * 먼저 작업 상태가 &quot;현재&quot;(현재)와 같은지 확인합니다.
+
+   * 두 번째는 우선 순위가 &quot;1&quot;(높은 우선 순위)인지 확인합니다.
+
+  커넥터가 &quot;OR&quot;이므로 두 조건 중 하나가 true이면 이 그룹이 전달됩니다.
+
+* 최상위 커넥터(filterConnector: `AND`):
+
+  최상위 필터 사이의 가장 바깥쪽 커넥터는 `AND`입니다.
+
+  즉, 이벤트가 일치하려면 최상위 필터와 그룹이 모두 전달되어야 합니다.
+
+* 구독은 다음과 같은 경우에 트리거됩니다.
+
+  완료율이 100보다 작습니다.
+
+  및
+
+  상태가 &quot;현재&quot; 또는 우선순위가 &quot;1&quot;입니다.
+
+#### 성능 및 제한 사항
+
+일관된 성능 및 유지 관리를 위해 다음을 수행합니다.
+
+* 각 구독은 최대 10개의 필터 그룹을 지원합니다(각 그룹에는 여러 필터가 포함됨).
+* 각 필터 그룹은 이벤트 처리 중 잠재적인 성능 저하를 방지하기 위해 최대 5개의 필터를 포함할 수 있습니다.
+* 최대 10개의 필터 그룹(각각 5개의 필터 포함)이 지원되지만 복잡한 필터 논리를 사용하는 활성 구독이 많으면 이벤트 평가 중에 지연이 발생할 수 있습니다.
+
+이러한 제한을 초과하는 경우 논리를 단순화하거나 구독을 여러 개의 더 작은 것으로 분할하는 것이 좋습니다.
 
 ### 커넥터 필드 사용
 
@@ -1095,7 +1192,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 
 | 응답 헤더 | 예 |
 |---|---|
-| Date | `→Wed, 05 Apr 2017 21:33:41 GMT` |
+| 일자 | `→Wed, 05 Apr 2017 21:33:41 GMT` |
 | 서버 | `→Apache-Coyote/1.1` |
 
 
