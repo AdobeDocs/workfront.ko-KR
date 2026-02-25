@@ -5,10 +5,10 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +41,7 @@ An example of how this can be used would be helpful here and/or in the section <
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -100,7 +100,8 @@ An example of how this can be used would be helpful here and/or in the section <
         <ul> 
          <li> <p>미리 알림은 지정된 날짜 및 모든 기준이 충족되면 24시간 후에 시작됩니다.</p> </li> 
          <li> <p>프로젝트, 작업 및 문제에 대한 미리 알림은 매일 밤 자정(미국 산지 표준시)에 트리거됩니다. 해당 날짜부터 미리 알림을 받을 자격이 있는 모든 오브젝트는 해당 시간 직후 지정된 사용자에게 알림을 트리거합니다.</p> </li> 
-         <li> <p>타임시트에 대한 미리 알림은 시간대 및 타임시트의 종료 날짜, 시작 날짜 또는 마지막 업데이트 날짜를 기준으로 지정된 시간에 전송됩니다.</p> </li> 
+         <li> <p>타임시트 미리 알림은 조직의 시간대 및 타임시트의 종료 날짜, 시작 날짜 또는 마지막 업데이트 날짜를 기반으로 합니다. 개별 사용자 시간대는 미리 알림의 시간에 영향을 주지 않습니다.</p> 
+      </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
