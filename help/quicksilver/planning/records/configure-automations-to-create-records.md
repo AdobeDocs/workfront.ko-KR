@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
 workflow-type: tm+mt
 source-wordcount: '1600'
 ht-degree: 3%
@@ -151,7 +151,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    * **제목 없는 자동화**&#x200B;를 자동화 단추에 표시할 텍스트로 바꿉니다. 자동화를 사용하여 Workfront 개체 또는 Planning 레코드를 만들 때 이 단추를 클릭합니다.
    * **설명**: 자동화의 목적을 식별하려면 설명을 추가하십시오.
-1. **저장**&#x200B;을 클릭합니다.
+1. **저장**을 클릭합니다.
 자동화 세부 정보 페이지가 열립니다.
 
 1. 자동화의 세부 정보 페이지에서 **트리거** 섹션의 다음 옵션 중 하나를 선택하십시오.
@@ -169,7 +169,21 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
       1. <span class="preview">Choose a field from the drop-down menu. These are fields associated with the record type you selected.</span> 
       1. <span class="preview">Continue defining conditions for the selected field.</span>
       1. <span class="preview">Click **Add condition** to add up to 5 fields and define their condition.</span>
+
+         <span class="preview">You can add any of the following types of fields:</span> 
+
+         <div class="preview">
+
+         * Single-select
+         * Multi-select
+         * Single-line text
+         * Paragraph
+         * Number
+         * Checkbox
+         * Date
          
+         </div>
+
          <span class="preview">Workfront Planning will create objects automatically when the conditions are met. </span>
 
          ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
@@ -177,6 +191,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
          >[!TIP]
          >
          ><span class="preview">The modifier in each condition changes with the type of fields you select.</span>
+         >
+         
    
    -->
 
