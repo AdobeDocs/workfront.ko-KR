@@ -4,9 +4,10 @@ description: 2026년 1분기 릴리스 기간 동안의 기타 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d3db97d2b36bdba955d8cbf6a9bd784dff5a440c
+exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
+source-git-commit: 58a04a3c2eb9d0db195f89391e607c3061f2d784
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,12 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 1분기 릴리스의 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
+
+## 이제 이벤트 구독이 필터 풀을 지원합니다.
+
+이제 이벤트 구독은 중첩된 논리 조건을 지원하기 위해 독립 실행형 필터와 함께 필터 그룹을 지원합니다. 새 변경 사항을 반영하도록 공개 문서를 업데이트해야 합니다.
+
+자세한 내용은 이벤트 구독 API 문서에서 [필터 그룹 사용](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)을 참조하세요.
 
 
 ## 다중 선택 필드에 대한 선택 제한
