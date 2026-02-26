@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront] 에서  [!DNL Slack]알림 수신'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 1%
+source-wordcount: '614'
+ht-degree: 4%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 1%
 [!DNL Adobe Workfront for Slack]을(를) 설치한 후에는 [!DNL Workfront]에서 [!DNL Slack]개의 알림을 받을 수 있습니다.\
 [!DNL Workfront for Slack] 설치에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을 참조하십시오.
 
-[!UICONTROL &#x200B; 인터페이스의 알림 버블에 표시되는 &#x200B;]알림[!DNL Workfront]의 선택 개수를 [!DNL Slack]에서도 전달할 수 있습니다.
+[!UICONTROL  인터페이스의 알림 버블에 표시되는 ]알림[!DNL Workfront]의 선택 개수를 [!DNL Slack]에서도 전달할 수 있습니다.
 
 전자 메일 알림은 [!DNL Workfront] 인터페이스 알림과 독립적으로 작동합니다. 사용자 또는 [!DNL Workfront] 관리자는 전자 메일 알림을 비활성화할 수 있지만 [!DNL Workfront]에서는 인터페이스 알림을 비활성화할 수 없습니다.\
 그러나 [!DNL Workfront] 인터페이스 내에서만 해당 알림에 집중하려면 [!DNL Slack]에서 받을 수 있는 [!DNL Workfront] 알림을 비활성화할 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,11 +37,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>임의</p>
+   <td> <p>Any</p>
   </tr> 
  </tbody> 
 </table>
@@ -76,6 +76,12 @@ ht-degree: 1%
    * [!UICONTROL 새 작업 또는 문제에 할당됨]
    * [!UICONTROL 내 팀이 새 작업 또는 문제에 할당되었습니다]
    * [!UICONTROL 새 승인 또는 액세스 요청을 받습니다]
+
+     >[!NOTE]
+     >
+     >승인이란 기존 문서 승인을 의미합니다. 통합 문서 승인은 현재 [!DNL Slack]에서 지원되지 않습니다. Workfront의 다양한 승인 시스템에 대한 자세한 내용은 [문서 승인에 사용할 수 있는 기능](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)을 참조하세요.
+
+
    * [!UICONTROL 누군가가 지시된 업데이트에 나를 포함시킵니다.]
    * [!UICONTROL 내가 있는 스레드에 누군가 댓글을 남겼습니다]
    * [!UICONTROL 내가 구독 중인 작업, 문제 또는 프로젝트에 업데이트가 이루어짐]
