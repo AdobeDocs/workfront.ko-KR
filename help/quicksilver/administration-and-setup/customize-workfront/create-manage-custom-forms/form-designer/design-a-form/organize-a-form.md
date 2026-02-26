@@ -8,20 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 796c7e0a15a7a26c5cd3f0115d72946f0f28bcf2
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 0%
+source-wordcount: '1353'
+ht-degree: 2%
 
 ---
 
 # 양식 구성 및 미리 보기
 
+{{preview-fast-release-general}}
+
 양식 디자이너를 사용하여 사용자 정의 양식을 구성하고 미리 보기하여 제대로 설정되었는지 확인할 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -81,6 +83,10 @@ ht-degree: 0%
       <td role="rowheader">설명</td> 
       <td>섹션의 용도를 사용자에게 설명하려면 텍스트를 입력합니다. 사용자 정의 양식에서 섹션의 레이블 아래에 표시됩니다.</td> 
      </tr> 
+      <td><span class="preview">기본적으로 축소됨</span></td>
+      <td><span class="preview">기본적으로 양식 자체를 확장하면 사용자 정의 양식의 모든 섹션이 확장됩니다. 사용자가 양식을 열 때 기본적으로 섹션을 축소하려면 이 옵션을 선택합니다.</span></td>
+     <tr>
+     </tr>
      <tr> 
       <td role="rowheader"> <p>액세스 권한 부여</p> </td> 
       <td> <p> 이 섹션을 보고 해당 필드 값을 편집하려면 사용자 정의 양식이 첨부된 오브젝트에서 사용자에게 필요한 권한을 선택하십시오. 
