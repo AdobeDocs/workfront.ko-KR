@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '959'
 ht-degree: 2%
 
 ---
@@ -153,15 +153,14 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
 
-   <!--For Feb 26:
-   1. <span class="preview">(Conditional) If you are a System Administrator, select from the following options:</span>
+1. <span class="preview">(조건부) 시스템 관리자인 경우 다음 옵션 중 하나를 선택하십시오.</span>
 
-         <div class="preview">
+   <div class="preview">
 
-         * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
-         * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
-         
-         </div> -->
+   * **초대된 사람만 액세스할 수 있습니다**: 공유 상자에서 엔터티를 선택하고 작업 영역에 대한 액세스 권한을 선택해야 합니다. 이것이 기본 선택입니다.
+   * **시스템의 모든 사용자가 볼 수 있음**: Planning에 액세스할 수 있는 시스템의 모든 사용자는 Planning의 **작업 영역** 영역에서 작업 영역을 볼 수 있습니다.
+
+   </div>
 
    <!--only  for March 4:
 
