@@ -358,7 +358,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 Workfront One을 사용하면 한 번의 로그인으로 Workfront에서 가장 중요한 콘텐츠, 리소스 및 뉴스를 모두 한 곳에서 확인할 수 있습니다. Experience, Community 및 Training 사이트를 통합하여 원하는 항목을 보다 쉽게 찾을 수 있습니다.
 
-[Workfront One에 대해 자세히 알아보세요](https://business.adobe.com/products/workfront.html).
+[Workfront One에 대해 자세히 알아보세요](https://business.adobe.com/kr/products/workfront.html).
 
 ### 2020.1 릴리스 웨비나 {#2020-1-release-webinar}
 
