@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
+source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1777'
 ht-degree: 3%
 
 ---
 
 # Adobe Workfront Planning 자동화 구성
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -151,7 +151,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    * **제목 없는 자동화**&#x200B;를 자동화 단추에 표시할 텍스트로 바꿉니다. 자동화를 사용하여 Workfront 개체 또는 Planning 레코드를 만들 때 이 단추를 클릭합니다.
    * **설명**: 자동화의 목적을 식별하려면 설명을 추가하십시오.
-1. **저장**&#x200B;을 클릭합니다.
+1. **저장**을 클릭합니다.
 자동화 세부 정보 페이지가 열립니다.
 
 1. 자동화의 세부 정보 페이지에서 **트리거** 섹션의 다음 옵션 중 하나를 선택하십시오.
@@ -159,42 +159,37 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * **트리거**: 자동화를 트리거할 작업을 선택하십시오.
 
       * 버튼 클릭
-        <!--For Feb 26 and add Preview disclaimer at the top: * <span class="preview">Field value change</span>-->
+      * <span class="preview">필드 값 변경</span>
 
-   <!-- For Feb 26:
-   1. (Conditional) If you selected **Button click**, go to the step below that describes the **Actions** area. 
+   1. (조건부) **단추 클릭**&#x200B;을 선택한 경우 **작업** 영역을 설명하는 아래 단계로 이동하십시오.
 
-   1. <span class="preview">(Conditional) If you selected **Field value change**, do the following in the **Settings** section: </span>
+   1. <span class="preview">(조건부) **필드 값 변경**&#x200B;을(를) 선택한 경우 **설정** 섹션에서 다음 작업을 수행하십시오. </span>
 
-      1. <span class="preview">Choose a field from the drop-down menu. These are fields associated with the record type you selected.</span> 
-      1. <span class="preview">Continue defining conditions for the selected field.</span>
-      1. <span class="preview">Click **Add condition** to add up to 5 fields and define their condition.</span>
+      1. <span class="preview">드롭다운 메뉴에서 필드를 선택합니다. 선택한 레코드 종류와 관련된 필드입니다.</span>
+      1. <span class="preview">선택한 필드에 대한 조건을 계속 정의합니다.</span>
+      1. <span class="preview">최대 5개의 필드를 추가하고 해당 조건을 정의하려면 **조건 추가**&#x200B;를 클릭하십시오.</span>
 
-         <span class="preview">You can add any of the following types of fields:</span> 
+         <span class="preview">다음 형식의 필드를 추가할 수 있습니다.</span>
 
          <div class="preview">
 
-         * Single-select
-         * Multi-select
-         * Single-line text
-         * Paragraph
-         * Number
-         * Checkbox
-         * Date
-         
+         * 단일 선택
+         * 다중 선택
+         * 한 줄 텍스트
+         * 단락
+         * 숫자
+         * 확인란
+         * 일자
+
          </div>
 
-         <span class="preview">Workfront Planning will create objects automatically when the conditions are met. </span>
+         <span class="preview">조건이 충족되면 Workfront Planning에서 개체를 자동으로 만듭니다. </span>
 
-         ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
+         ![필드 값 변경 트리거가 선택됨](assets/field-value-change-trigger-selected.png)
 
          >[!TIP]
          >
-         ><span class="preview">The modifier in each condition changes with the type of fields you select.</span>
-         >
-         
-   
-   -->
+         ><span class="preview">각 조건의 한정자는 선택한 필드 유형에 따라 변경됩니다.</span>
 
 1. **작업** 섹션에서 다음 필드를 업데이트합니다. <!--submitted bugs for these fields - see if they need changing here-->
    * **작업**: 자동화를 트리거할 때 Workfront에서 수행할 작업을 선택합니다. 필수 필드입니다.

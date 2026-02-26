@@ -5,9 +5,9 @@ description: 고급 목록은 목록 항목을 표시하기 위해 표 형식을
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: 2b01a9b4c697ae814ff894120fcc61df1a461e4e
+source-git-commit: 8e2f41f18b57aca77fd6af905ff8e04486879e39
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2315'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,8 @@ ht-degree: 1%
 | 우선순위 | <ul><li>홈 > 왼쪽 메뉴에서 우선 순위 아이콘 선택</li><li>메인 메뉴 > 우선 순위</li></ul> |
 | 요청 목록 | <ul><li>요청(새 경험만 해당)</li><li>홈의 내 요청 위젯</li></ul> |
 | 설정 상태, 우선 순위, 심각도 및 환율 목록 | <ul><li>설정 > 프로젝트 환경 설정 > 상태</li><li>설정 > 프로젝트 환경 설정 > 우선 순위</li><li>설정 > 프로젝트 환경 설정 > 심각도</li><li>설정 > 프로젝트 환경 설정 > 환율</li></ul> |
-| <span class="preview">보고서 목록</span> | <span class="preview">주 메뉴 > 보고서</span> <p><span class="preview">향상된 목록 형식은 **공유 가능한 폴더 사용**&#x200B;을 사용하도록 설정한 경우에만 적용됩니다. 자세한 내용은 [공유 가능한 보고서 폴더 사용](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span>을 참조하세요. |
+
+<!--|<span class="preview">List of reports</span> | <span class="preview">Main Menu &gt; Reports</span> <p><span class="preview">The enhanced list format is only applied when **Use shareable folders** is turned on. For information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |-->
 
 ## 향상된 목록에 항목 추가
 
