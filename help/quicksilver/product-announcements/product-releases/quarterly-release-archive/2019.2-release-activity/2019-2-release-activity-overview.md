@@ -7,16 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: baa50860-e23a-4be8-8192-f0400099294f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
 # 2019.2 릴리스 활동 개요
 
-이 페이지에서는 2019.2 릴리스에 포함된 기능에 대한 정보를 제공합니다. 이 콘텐츠를 PDF 형식으로 다운로드하려면 [여기](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5)로 이동하세요.
+이 페이지에서는 2019.2 릴리스에 포함된 기능에 대한 정보를 제공합니다.<!-- To download this content in PDF format, go [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).-->
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ ht-degree: 1%
   이제 리소스 관리에 새 액세스 수준을 사용할 수 있으므로 플랜 라이선스가 있는 사용자가 편집 액세스 권한을 가질 수 있습니다.
 
 
-* [리소스 플래너의 Portfolio 우선 순위별 프로젝트 주문](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#order)
+* [리소스 플래너에서 Portfolio 우선 순위별 프로젝트 주문](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#order)
 
   이제 리소스 플래너에서 포트폴리오 우선 순위별로 프로젝트를 주문할 수 있습니다.
 
@@ -100,7 +100,7 @@ ht-degree: 1%
 
 * [Workfront for Microsoft Teams 개선 사항](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-integration-enhancements.md#workfron)
 
-  이제 Workfront for Microsoft Teams을 사용할 때 작업 요청을 제출하고 Workfront 알림을 관리할 수 있습니다.
+  이제 Microsoft Teams용 Workfront을 사용할 때 작업 요청을 제출하고 Workfront 알림을 관리할 수 있습니다.
 
 ### 증명 개선 사항
 
@@ -157,7 +157,7 @@ API 버전 3에 대한 지원은 2018년 11월에 종료되었습니다. Workfro
 
 Flash 기술에 의존하는 모든 기능은 2018.3 릴리스부터 Workfront에서 제거되었으며 새 솔루션으로 대체되었습니다.
 
-기존 Flash 도구 및 대체 요소에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
+기존 Flash 도구 및 대체 도구에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
 
 ### 제거할 다양한 Single Sign-On 옵션 {#various-single-sign-on-options-to-be-removed}
 

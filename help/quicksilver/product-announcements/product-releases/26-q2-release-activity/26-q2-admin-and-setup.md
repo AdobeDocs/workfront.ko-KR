@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
+source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ ht-degree: 0%
 
 ## 기본적으로 사용자 정의 양식 섹션 접기
 
+>[!NOTE]
+>
+>미리 보기: 2026년 2월 26일
+>프로덕션 빠른 릴리스: 2026년 3월 12일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
 기본적으로 양식 자체를 확장하면 사용자 정의 양식의 모든 섹션이 확장됩니다. 사용자 정의 양식 디자이너의 새 옵션을 사용하면 사용자가 양식을 열 때 기본적으로 축소될 섹션을 표시할 수 있습니다. 이 옵션은 필드가 아닌 섹션 수준에서 적용됩니다.
 
 자세한 내용은 [양식 구성 및 미리 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)를 참조하세요.
@@ -29,7 +35,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >미리 보기: 2026년 1월 29일
->프로덕션 빠른 릴리스: TBD
+>프로덕션 빠른 릴리스: 2026년 2월 12일
 >모두를 위한 프로덕션: TBD
 >
 >이 기능은 2026년 2월 13일에 프로덕션 환경에서 일시적으로 제거되었습니다.

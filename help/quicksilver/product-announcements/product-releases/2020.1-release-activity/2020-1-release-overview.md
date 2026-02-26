@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 이러한 개선 사항은 현재 미리보기 환경에서 사용할 수 있으며 2020년 3월 30일이 시작되는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-이 페이지를 PDF 형식으로 다운로드하려면 [여기](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2)로 이동하세요.
+<!--To download this page in PDF format, go [here](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).-->
 
 일부 기능은 2020.1 릴리스 전에 릴리스되었습니다. 2020.1 릴리스 이전에 릴리스된 기능을 보려면 [20.1 릴리스 이전에 프로덕션에 릴리스된 기타 Workfront Classic 기능](../../../product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)을 참조하십시오.
 
@@ -358,7 +358,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 Workfront One을 사용하면 한 번의 로그인으로 Workfront에서 가장 중요한 콘텐츠, 리소스 및 뉴스를 모두 한 곳에서 확인할 수 있습니다. Experience, Community 및 Training 사이트를 통합하여 원하는 항목을 보다 쉽게 찾을 수 있습니다.
 
-[Workfront One에 대해 자세히 알아보세요](https://business.adobe.com/kr/products/workfront.html).
+[Workfront One에 대해 자세히 알아보세요](https://business.adobe.com/products/workfront.html).
 
 ### 2020.1 릴리스 웨비나 {#2020-1-release-webinar}
 
@@ -366,7 +366,7 @@ Workfront One을 사용하면 한 번의 로그인으로 Workfront에서 가장 
 
 ### 1분기 제품 로드맵 웨비나 {#q1-product-roadmap-webinar}
 
-[Q1 로드맵 웨비나](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter)에서 제공될 작업에 대해 자세히 알아보세요. 이 웨비나는 2020년 3월 26일 오전 9시에 열립니다. MT 등록하려면 링크를 클릭하십시오.
+[Q1 로드맵 웨비나](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter)에서 제공될 작업에 대해 자세히 알아보세요. 이 웨비나는 2020년 3월 26일 오전 9:00a에 열립니다. MT 등록하려면 링크를 클릭하십시오.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
