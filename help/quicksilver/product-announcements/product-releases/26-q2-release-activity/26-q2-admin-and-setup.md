@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
+source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,19 @@ ht-degree: 0%
 
 2026년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
 
+## 기본적으로 사용자 정의 양식 섹션 접기
 
+기본적으로 양식 자체를 확장하면 사용자 정의 양식의 모든 섹션이 확장됩니다. 사용자 정의 양식 디자이너의 새 옵션을 사용하면 사용자가 양식을 열 때 기본적으로 축소될 섹션을 표시할 수 있습니다. 이 옵션은 필드가 아닌 섹션 수준에서 적용됩니다.
+
+자세한 내용은 [양식 구성 및 미리 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)를 참조하세요.
 
 ## 이제 사용자 정의 양식에서 서식 있는 텍스트 필드 유형을 사용할 수 있습니다.
 
 >[!NOTE]
 >
 >미리 보기: 2026년 1월 29일
->프로덕션 빠른 릴리스: 2026년 2월 12일
->모두를 위한 프로덕션: 2026년 4월 16일
+>프로덕션 빠른 릴리스: TBD
+>모두를 위한 프로덕션: TBD
 >
 >이 기능은 2026년 2월 13일에 프로덕션 환경에서 일시적으로 제거되었습니다.
 
