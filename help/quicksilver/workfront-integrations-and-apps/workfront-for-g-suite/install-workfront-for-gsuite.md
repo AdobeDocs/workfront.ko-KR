@@ -7,9 +7,9 @@ description: Google Workspace 마켓플레이스에서 Google Workspace용  [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환하고 있습니다. 이 전환 프로세스의 일부로 다음 Google Workspace용 Workfront 기능은 **2026년 2월 28일** 이후에 사용할 수 없습니다.
+>보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환했습니다. 이 전환 프로세스의 일부로 다음 Google Workspace 기능용 Workfront **을(를) 더 이상 사용할 수 없습니다**.
 >
 >* Workfront 내에서 Google Workspace 기능 액세스
 >
@@ -26,44 +26,48 @@ ht-degree: 0%
 >
 >조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
+>Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
 
-[!DNL Adobe Workfront for Google Workspace] 마켓플레이스에서 [!DNL Google Workspace] 추가 기능을 설치할 수 있습니다.
+<!--
 
-## 액세스 요구 사항
+You can install the [!DNL Adobe Workfront for Google Workspace] add-on from the [!DNL Google Workspace] Marketplace.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>표준</p><p>작업 이상</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## [!DNL Workfront for Google Workspace] 설치
+## Install [!DNL Workfront for Google Workspace]
 
-1. 다음 링크를 클릭합니다. [[!DNL Workfront for Google Workspace]](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
+1. Click the following link: [[!DNL Workfront for Google Workspace]](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
 
-   또는
+   Or
 
-   [!DNL Google Workspace] 앱의 오른쪽 끝에 있는 [!DNL Google Workspace] 추가 기능 사이드바에서 더하기 기호 아이콘([!DNL Gmail], [!DNL Google Calendar] 또는 [!DNL Google Drive])을 클릭합니다. *[!DNL Workfront for Google Workspace]*&#x200B;을(를) 검색한 다음 표시되는 [!DNL Workfront for Google Workspace] 앱 항목을 클릭합니다.
+   Click the plus sign icon in the [!DNL Google Workspace] add-ons sidebar at the far-right of a [!DNL Google Workspace] app ([!DNL Gmail], [!DNL Google Calendar], or [!DNL Google Drive]). Search for *[!DNL Workfront for Google Workspace]*, then click the [!DNL Workfront for Google Workspace] app item that appears.
 
-1. **[!UICONTROL 설치]**&#x200B;를 클릭한 다음 나타나는 메시지를 따릅니다.
-1. (조건부) [!DNL Google Workspace] 앱에서 페이지의 오른쪽 끝에 있는 [!DNL Workfront] 추가 기능 사이드바에 ![&#x200B; 아이콘 &#x200B;](assets/wf-lion-icon.png)Workfront 아이콘[!DNL Google Workspace]이 표시되지 않으면 페이지를 새로 고치십시오.
+1. Click **[!UICONTROL Install]**, then follow the prompts that appear.
+1. (Conditional) In your [!DNL Google Workspace] app, if you don't see the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page, refresh the page.
 
-로그인에 대한 자세한 내용은 [로그인 및 로그아웃 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)을 참조하세요.
+For information about logging in, see [Log in and out of [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+
+-->

@@ -7,10 +7,10 @@ description: Google Workspace을 종료하지 않고  [!DNL Adobe Workfront] 개
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환하고 있습니다. 이 전환 프로세스의 일부로 다음 Google Workspace용 Workfront 기능은 **2026년 2월 28일** 이후에 사용할 수 없습니다.
+>보다 안정적이고 확장 가능한 통합을 제공하기 위해 Workfront 자동화 및 통합(Fusion)을 사용하는 현대적이고 유연한 통합 접근 방식으로 전환했습니다. 이 전환 프로세스의 일부로 다음 Google Workspace 기능용 Workfront **을(를) 더 이상 사용할 수 없습니다**.
 >
 >* Workfront 내에서 Google Workspace 기능 액세스
 >
@@ -26,60 +26,64 @@ ht-degree: 1%
 >
 >조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
 >
->Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+>Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 >
->Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
+>Google Workspace용 Workfront 자동화 및 통합 모듈의 특정 기능에 대한 자세한 내용은 [Gmail 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) 및 [Google 달력 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)을 참조하십시오.
 
-[!DNL Google Workspace]을(를) 종료하지 않고 [!DNL Adobe Workfront] 개체에 새 업데이트 또는 기존 업데이트에 대한 회신을 게시할 수 있습니다.
+<!--
 
-## 액세스 요구 사항
+Without leaving [!DNL Google Workspace], you can post a new update or a reply to an existing update on a [!DNL Adobe Workfront] object.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>표준</p><p>작업 이상</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 전제 조건
+## Prerequisites
 
-[!DNL Workfront]에서 [!DNL Google Workspace] 개체를 업데이트하려면 먼저 다음을 수행해야 합니다
+Before you can update a [!DNL Workfront] object in [!DNL Google Workspace], you must
 
-* [!DNL Workfront for Google Workspace] 설치\
-   지침은 [설치 [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)를 참조하십시오.
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## [!DNL Workfront]에서 [!DNL Google Workspace] 개체 업데이트
+## Update a [!DNL Workfront] object in [!DNL Google Workspace]
 
-1. [!DNL Google Workspace]보기 및 관리[개체 세부 정보 확인 [!DNL Adobe Workfront] 에 설명된 대로  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)에서 개체를 봅니다.
+1. View the object in [!DNL Google Workspace] as described in [View and manage [!DNL Adobe Workfront] object details from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
 
-1. 새 업데이트를 게시하는 경우 **[!UICONTROL 업데이트]** 탭을 클릭합니다.
-1. **[!UICONTROL 새 업데이트 시작]**&#x200B;을 클릭한 다음 새 업데이트를 입력하십시오.
+1. Click the **[!UICONTROL Updates]** tab if you are posting a new update.
+1. Click **[!UICONTROL Start a new update]**, then type a new update.
 
-   또는
+   Or
 
-   기존 업데이트에서 **[!UICONTROL 회신]**&#x200B;을 클릭한 다음 업데이트에 대한 회신을 입력하십시오.
+   Click **[!UICONTROL Reply]** under an existing update, then type your reply to the update.
 
-   **[!UICONTROL 회신]**&#x200B;을 클릭하면 **[!UICONTROL 모든 업데이트 보기]**&#x200B;를 클릭하여 **[!UICONTROL 업데이트]** 탭으로 돌아갈 수 있습니다.
+   If you click **[!UICONTROL Reply]**, you can click **[!UICONTROL View all updates]** to go back to the **[!UICONTROL Updates]** tab.
 
-1. (선택 사항) 사용자 또는 팀에 태그를 지정하려면 다음을 수행합니다.
+1. (Optional) To tag users or teams:
 
-   1. **[!UICONTROL 알림]**&#x200B;을 클릭합니다.
-   1. **[!UICONTROL 사용자 또는 팀 검색]**&#x200B;을 클릭하고 사용자 또는 팀의 이름을 입력한 다음 아래 목록에 표시될 때 해당 이름을 클릭합니다.
-   1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-   1. 알림을 보낼 다른 사용자 또는 팀에 대해 이 세 단계를 반복합니다.
+   1. Click **[!UICONTROL Notify]**.
+   1. Click **[!UICONTROL Search for a user or team]**, type the name of the user or team, then click the name when you see it in the list that appears below.
+   1. Click **[!UICONTROL Save]**.
+   1. Repeat these three steps for any other users or teams you want to notify.
 
-1. **[!UICONTROL 게시물]**&#x200B;을 클릭합니다.
+1. Click **[!UICONTROL Post]**.
+
+-->
