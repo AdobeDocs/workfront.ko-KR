@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: b889ba54594275587c97fe3a5073f2e28df97350
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1169'
 ht-degree: 4%
 
 ---
@@ -192,24 +192,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>2026년 3월 12일 금요일</p></td>
         <td><p>2026년 4월 16일 금요일</p></td>
     </tr>
-<!--    <tr>
+   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Shareable Report Folders</a><p></p>
-            <p>You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">공유 가능한 보고서 폴더</a><p></p>
+            <p>이제 공유 가능한 보고서 폴더를 사용하여 보고서를 구성하고 공유할 수 있습니다. 이 새로운 기능은 대량의 보고서를 관리하는 팀이 확장 가능하고 일관된 액세스 제어를 유지하는 데 도움이 됩니다.</p>
         </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
-    </tr>-->
-    <!--<tr>
+        <td><p>2025년 2월 26일 목요일</p></td>
+        <td><p>2026년 3월 12일 금요일</p></td>
+        <td><p>2026년 4월 16일 금요일</p></td>
+    </tr>
+    <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Improved Date Labels for Chart Groupings in Canvas Dashboards</a><p></p>
-            <p>Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드의 차트 그룹화에 대한 날짜 레이블이 개선됨</a><p></p>
+            <p>데이터를 날짜별로 그룹화하는 차트에 이제 더 명확하고 읽기 쉬운 날짜 레이블이 표시됩니다. 이 업데이트를 통해 날짜 레이블은 선택한 그룹화 기준 옵션(예: 일, 주, 월 또는 년)에 따라 동적으로 조정되므로 차트를 쉽게 읽고 해석할 수 있습니다.</p><p>참고: 캔버스 대시보드는 현재 베타 버전입니다.</p>
         </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
-    </tr>-->
+        <td><p>2025년 2월 26일 목요일</p></td>
+        <td><p>2026년 3월 12일 금요일</p></td>
+        <td><p>2026년 4월 16일 금요일</p></td>
+    </tr>
              </tbody>
         </table>
 
@@ -325,13 +325,13 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 
 ### Workfront 유지 관리 업데이트
 
-2025년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

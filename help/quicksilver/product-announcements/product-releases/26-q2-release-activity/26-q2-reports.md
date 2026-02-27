@@ -4,10 +4,11 @@ description: 2026년 2분기 보고 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8bcea5cec9f68deacc5f89ca7703303a1b00769f
+exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
+source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -31,29 +32,25 @@ ht-degree: 1%
 
 자세한 내용은 [사용자 지정 보고서 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
 
-<!--
-
-## Shareable Report Folders
+## 공유 가능한 보고서 폴더
 
 >[!NOTE]
 >
->Preview: February 26, 2026
->Production fast release: March 12, 2026
->Production for everyone: April 16, 2026
+>미리 보기: 2026년 2월 26일
+>프로덕션 빠른 릴리스: 2026년 3월 12일
+>모두를 위한 프로덕션: 2026년 4월 16일
 
-You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control:
+이제 공유 가능한 보고서 폴더를 사용하여 보고서를 구성하고 공유할 수 있습니다. 이 새로운 기능은 대량의 보고서를 관리하는 팀이 확장 가능하고 일관된 액세스 제어를 유지하는 데 도움이 됩니다.
 
-* **Create organized folder structures**: System administrators can create top-level folders, and users with manage access can create subfolders up to 4 levels deep.
-* **Granular permission controls**: Share folders with two permission levels:
-   * View: Users can open reports and share folders
-   * Manage: Users can edit folder details, add/remove items, and automatically receive manage access to all reports within the folder
-* **Inherited permissions**: Permissions cascade from parent folders to all subfolders and reports within the folder tree
-* **Enhanced list experience**: When you enable sharable folders, you will have access to the enhanced list experience. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+* **구성된 폴더 구조를 만듭니다**: 시스템 관리자는 최상위 수준의 폴더를 만들 수 있으며, 관리 액세스 권한이 있는 사용자는 최대 4단계의 하위 폴더를 만들 수 있습니다.
+* **세부 권한 컨트롤**: 다음 두 가지 권한 수준으로 폴더를 공유합니다.
+   * 보기: 사용자는 보고서를 열고 폴더를 공유할 수 있습니다
+   * 관리: 사용자는 폴더 세부 사항을 편집하고, 항목을 추가/제거하고, 폴더 내의 모든 보고서에 대한 관리 액세스 권한을 자동으로 수신할 수 있습니다
+* **상속된 사용 권한**: 사용 권한이 상위 폴더에서 폴더 트리 내의 모든 하위 폴더 및 보고서로 캐스케이드됩니다
+* **향상된 목록 환경**: 공유 가능한 폴더를 사용하도록 설정하면 향상된 목록 환경에 액세스할 수 있습니다. 자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요.
 
 
-For more information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
-
--->
+자세한 내용은 [공유 가능한 보고서 폴더 사용](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)을 참조하세요.
 
 ## 캔버스 대시보드의 차트 그룹화에 대한 날짜 레이블이 개선됨
 
@@ -63,10 +60,12 @@ For more information, see [Use shareable report folders](/help/quicksilver/repor
 >프로덕션 빠른 릴리스: 2026년 3월 12일
 >모두를 위한 프로덕션: 2026년 4월 16일
 
+>[!NOTE]
+>
+>Canvas Dashboards는 현재 베타 버전입니다.
+
 데이터를 날짜별로 그룹화하는 차트에 이제 더 명확하고 읽기 쉬운 날짜 레이블이 표시됩니다. 이 업데이트를 통해 날짜 레이블은 선택한 그룹화 기준 옵션(예: 일, 주, 월 또는 년)에 따라 동적으로 조정되므로 차트를 쉽게 읽고 해석할 수 있습니다.
 
 <table> <tbody> <tr> <td>Day</td> <td>전체 날짜를 표시합니다. 예: 2026/3/12</td> </tr> <tr> <td>주</td> <td>서식이 지정된 주 시작 날짜를 표시합니다. 예, 2026년 3월 8일</td> </tr> <tr> <td>Month</td> <td>월과 연도를 표시합니다. 예제 2026년 3월</td> </tr> <tr> <td>Year</td> <td>연도만 표시합니다. 예: 2026</td> </tr> </tbody> </table>
 
 이전에는 차트 그룹화에 선택한 기간의 시작 일자가 항상 숫자 형식으로 표시되었습니다.
-
-
