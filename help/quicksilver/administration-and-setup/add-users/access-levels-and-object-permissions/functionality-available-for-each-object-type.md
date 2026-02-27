@@ -10,16 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 57632f1949e849aca3f26874382f1101b9b0cf89
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1585'
 ht-degree: 14%
 
 ---
 
 # 다양한 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능(기존)
-
-{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -506,7 +504,6 @@ ht-degree: 14%
 | 과금 기록 관리 | ✓ |  |  |
 | 경비 관리 | ✓ | ✓ |  |
 | 재무 데이터 보기 | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">등급 카드 관리</span> | ✓ |  |  |
 | 자원 계획 도구에서 원가별 정보 조회 | ✓ |  |  |
 | 리소스 계획 도구의 예산 리소스&#42;&#42; | ✓ |  |  |
 | 리소스 계획 도구&#42;에서 리소스 할당 보기 | ✓ | ✓ | ✓ |
