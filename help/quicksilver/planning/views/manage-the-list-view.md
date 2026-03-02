@@ -129,7 +129,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
       목록 보기에 기존 필드만 추가할 수 있습니다.
 첫 번째 열에 표시되는 목록 보기에서 기본 필드를 제거할 수 없습니다.
 
-   1. <span class="preview">셀 서식 지정&#x200B;**아이콘**&#x200B;셀 서식 지정 아이콘![을 클릭합니다. ](assets/format-cells-icon.png) **Format** 상자가 열립니다.</span> <!--change the name of the box when they update it-->
+   1. <span class="preview">셀 서식 지정&#x200B;**아이콘**&#x200B;셀 서식 지정 아이콘![을 클릭합니다. &#x200B;](assets/format-cells-icon.png) **Format** 상자가 열립니다.</span> <!--change the name of the box when they update it-->
       <span class="preview">다음을 수행합니다. </span>
 
       1. **조건 추가**&#x200B;를 클릭합니다.
