@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '4014'
 ht-degree: 2%
 
 ---
 
 # 타임라인 보기 관리
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 
 {{planning-important-intro}}
@@ -334,7 +334,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
             <p>비어 있지 않음</p></td>
         </tr>
         <tr>
-            <td>Date</td>
+            <td>일자</td>
             <td><p>다음과 같음</p>
             <p>다음이 아님</p>
             <p>다음 이후</p>
@@ -406,7 +406,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;을 클릭하고 다른 필드를 검색한 다음 목록에 표시될 때 해당 필드를 클릭합니다.
 
    그룹화는 타임라인에 자동으로 적용되며 그룹화 상자 내에 레코드가 표시됩니다.
-
+1. <span class="preview">(선택 사항) 선택한 필드 이름 옆에 있는 **A -> Z** 또는 **Z -> A** 드롭다운 메뉴를 클릭하여 그룹화의 오름차순 또는 내림차순 정렬 순서를 선택합니다. 그룹화는 타임라인 보기에서 선택한 알파벳 순서로 표시됩니다. </span>
 1. (선택 사항) 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
 
    그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '3588'
+source-wordcount: '3563'
 ht-degree: 2%
 
 ---
@@ -504,8 +504,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    ![테이블 보기에 적용된 그룹화](assets/grouping-applied-in-table-view.png)
 
-1. <span class="preview">(선택 사항) 선택한 필드 오른쪽의 정렬 드롭다운 메뉴에서 A-Z 또는 Z-A를 선택합니다. 따라서 타임라인에서 그룹화가 정렬됩니다.</span>
-
 1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
 
    또는
@@ -596,7 +594,7 @@ To sort grouped records:
 
    ![실시간 지표 테이블 필드 및 아바타 연결](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-<!--maybe include a screen shot after release if they update the UI text in this list of users-->
+   <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
 1. <span class="preview">(선택 사항) 다른 사용자가 편집한 필드가 있는 셀의 오른쪽 위 모서리에 있는 삼각형을 클릭합니다. 현재 필드를 편집하고 있는 사용자 목록이 표시됩니다.</span>
 

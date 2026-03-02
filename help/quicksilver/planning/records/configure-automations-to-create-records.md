@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 3%
@@ -151,7 +151,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    * **제목 없는 자동화**&#x200B;를 자동화 단추에 표시할 텍스트로 바꿉니다. 자동화를 사용하여 Workfront 개체 또는 Planning 레코드를 만들 때 이 단추를 클릭합니다.
    * **설명**: 자동화의 목적을 식별하려면 설명을 추가하십시오.
-1. **저장**&#x200B;을 클릭합니다.
+1. **저장**을 클릭합니다.
 자동화 세부 정보 페이지가 열립니다.
 
 1. 자동화의 세부 정보 페이지에서 **트리거** 섹션의 다음 옵션 중 하나를 선택하십시오.
@@ -161,7 +161,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
       * 버튼 클릭
       * <span class="preview">필드 값 변경</span>
 
-   1. (조건부) **단추 클릭**&#x200B;을 선택한 경우 **작업** 영역을 설명하는 아래 단계로 이동하십시오.
+   1. (조건부) **단추 클릭**&#x200B;을 선택한 경우 **작업** 영역을 설명하는 아래 9단계로 이동하십시오. <!--ensure this number stays accurate-->
 
    1. <span class="preview">(조건부) **필드 값 변경**&#x200B;을(를) 선택한 경우 **설정** 섹션에서 다음 작업을 수행하십시오. </span>
 
