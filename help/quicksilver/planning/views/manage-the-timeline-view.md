@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
 workflow-type: tm+mt
-source-wordcount: '4014'
+source-wordcount: '4067'
 ht-degree: 2%
 
 ---
@@ -401,12 +401,23 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
 1. 타임라인 보기의 오른쪽 상단 모서리에서 **그룹화**&#x200B;을(를) 클릭합니다.
 
-   ![연결된 필드가 있는 UI 타임라인 보기 그룹화](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![연결된 필드가 있는 UI 타임라인 보기 그룹화](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;을 클릭하고 다른 필드를 검색한 다음 목록에 표시될 때 해당 필드를 클릭합니다.
 
    그룹화는 타임라인에 자동으로 적용되며 그룹화 상자 내에 레코드가 표시됩니다.
-1. <span class="preview">(선택 사항) 선택한 필드 이름 옆에 있는 **A -> Z** 또는 **Z -> A** 드롭다운 메뉴를 클릭하여 그룹화의 오름차순 또는 내림차순 정렬 순서를 선택합니다. 그룹화는 타임라인 보기에서 선택한 알파벳 순서로 표시됩니다. </span>
+1. <span class="preview">(선택 사항 및 조건부) 그룹화할 필드 유형에 따라 다음 정렬 옵션 중 하나를 선택하여 그룹화를 오름차순 또는 내림차순으로 정렬합니다. </span>
+
+   <div class="preview">
+
+   * 선택 필드, 텍스트 필드, 단락 필드, 연결된 레코드 또는 개체, 사람 필드의 **A -> Z** 또는 **Z -> A**
+   * 숫자, 통화 또는 백분율 필드의 경우 **0 -> 9** 또는 **9 -> 0**&#x200B;입니다.
+   * 날짜 필드의 **가장 이른 날짜 -> 가장 늦은 날짜** 또는 **가장 늦은 날짜 -> 가장 이른 날짜**
+
+   </div>
+
+   <span class="preview"> 타임라인 보기의 그룹화가 그에 따라 정렬됩니다. 그룹화 내부의 레코드는 기본 정렬인 **시작 날짜** 순서로 정렬됩니다. </span>
+
 1. (선택 사항) 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
 
    그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
