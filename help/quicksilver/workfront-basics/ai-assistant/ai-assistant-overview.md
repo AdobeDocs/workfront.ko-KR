@@ -1,14 +1,14 @@
 ---
 title: Workfront의 AI 지원
 content-type: reference
-description: Adobe Workfront의 AI Assistant에 대해 알아보기
+description: Adobe Workfront의 AI 어시스턴트에 대해 알아보기
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
+source-git-commit: 2619aa432a8c0b12d0d910df8eb05447fa50f387
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 1%
+source-wordcount: '834'
+ht-degree: 4%
 
 ---
 
@@ -22,28 +22,26 @@ Workfront의 AI 어시스턴트는 자연어 대화에서 인앱 정보와 제�
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td><p>새로 만들기: 모두</p>
-       <p>또는</p>
-       <p>현재: 사용할 수 없음</p></td>
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>선택 이상 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 사용할 수 없음</p></td>
+   <td><p>표준</p>
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## AI Assistant 사전 요구 사항
 
