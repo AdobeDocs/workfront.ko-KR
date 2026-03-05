@@ -270,7 +270,7 @@ And
 
    활성화되면 레코드 유형에 액세스하고 다른 작업 공간에서 연결할 수 있습니다.
 
-1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> 레코드 종류에 액세스할 수 있는 작업 공간을 선택합니다. 다음 선택 사항 중 하나를 선택합니다.
+1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> 레코드 종류에 액세스할 수 있는 작업 공간을 선택합니다. 다음 선택 사항 중 하나를 선택합니다.
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
