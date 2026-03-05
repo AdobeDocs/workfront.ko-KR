@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: f0ded5d6b71ea99b7fad5b7c199838ef175b18cc
+source-git-commit: e23cd8613a54ce54ae93ea1a4ea14c022fbd1ae2
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 1%
@@ -21,6 +21,24 @@ ht-degree: 1%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+<!--
+
+## Allow non-admin users to make a record type connectable 
+
+>[!NOTE]
+>
+>Preview: March 5, 2026
+>Production fast release: April 15, 2026
+>Production for everyone: April 16, 2026
+
+We are now allowing non-administrators who are workspace managers to make a record type connectable from specific workspaces.  
+
+Before this update, non-administrators could not enable record types to be connectable. Now, they can enable the record types to be connectable from specific workspaces. They cannot enable record types to be connectable from all workspaces in the system. 
+
+For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+
+-->
 
 ## 트리거 기반 자동화
 

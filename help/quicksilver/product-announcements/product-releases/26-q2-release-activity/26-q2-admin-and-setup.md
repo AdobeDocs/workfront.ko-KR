@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,23 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 2분기 릴리스의 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
+
+## 이제 사용자 정의 분기를 설정에서 별도의 페이지로 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 3월 5일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+프로젝트 환경 설정 섹션에서 사용자 정의 분기 영역을 이동했습니다. 이제 설정의 독립 실행형 섹션입니다. 
+이 업데이트에는 다음 사항이 포함됩니다.
+
+* 사용자 정의 영역 이 설정의 프로젝트 환경 설정 섹션에서 제거됩니다
+* 사용자 정의 분기 섹션이 설정 왼쪽 패널에 추가됩니다. 기능은 그대로 유지됩니다. 
+* 사용자 정의 분기 섹션이 그룹의 프로젝트 환경 설정 섹션에서 제거되었습니다. 그룹 관리자가 더 이상 사용자 정의 분기 설정을 볼 수 없습니다. 
+
+자세한 내용은 [사용자 정의 영역 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)을 참조하세요.
 
 ## 기본적으로 사용자 정의 양식 섹션 접기
 

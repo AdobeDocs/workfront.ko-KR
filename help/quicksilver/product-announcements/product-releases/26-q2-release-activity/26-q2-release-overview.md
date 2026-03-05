@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 8fdc6d1b72967b2a52295c31cb83d43594817d6f
+source-git-commit: d721f04259046f271e9f420e445af6e87d67a5c0
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1352'
 ht-degree: 4%
 
 ---
@@ -51,12 +51,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <col style="width: 50%;" />
             <col style="width: 25%;" />
             <tbody>
-               <tr>
+              <tr>
         <td><strong>기능</strong>
         </td>
         <td><strong>미리보기</strong></td>
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
+        </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">사용자 정의 분기가 프로젝트 환경 설정에서 제거됨</a><p>프로젝트 환경 설정 섹션에서 사용자 정의 분기 영역을 이동했습니다. 이제 설정의 독립 실행형 섹션입니다.</p>
+        </td>
+        <td><p>2025년 3월 5일 목요일</p></td>
+        <td><p>2026년 4월 15일 목요일</p></td>
+        <td><p>2026년 4월 16일 금요일</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">기본적으로 사용자 정의 양식 섹션 축소</a><p>기본적으로 양식 자체를 확장하면 사용자 정의 양식의 모든 섹션이 확장됩니다. 사용자 정의 양식 디자이너의 새 옵션을 사용하면 사용자가 양식을 열 때 기본적으로 축소될 섹션을 표시할 수 있습니다. 이 옵션은 필드가 아닌 섹션 수준에서 적용됩니다.</p>
@@ -65,7 +74,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>2026년 3월 12일 금요일</p></td>
         <td><p>2026년 4월 16일 금요일</p></td>
     </tr>
-    <tr>
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">이제 사용자 정의 양식에서 서식 있는 텍스트 필드 형식을 사용할 수 있습니다</a><p>사용자 정의 양식의 새 <b>서식 있는 텍스트</b> 필드 형식은 굵게, 기울임꼴, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 인용과 같은 기존 옵션 외에도 위 첨자 및 아래 첨자, 제목 및 표와 같은 서식 지정 옵션이 있는 강력한 텍스트 편집기입니다. 문자 길이는 15,000자로 제한됩니다.</p>
         </td>
@@ -349,13 +358,13 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 
 ### Workfront 유지 관리 업데이트
 
-2025년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
