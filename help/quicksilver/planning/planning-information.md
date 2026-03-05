@@ -1,16 +1,16 @@
 ---
 title: Adobe Workfront Planning에 대한 일반 정보
-description: 마케팅 운영 리더로서 Adobe Workfront Planning을 사용하여 모든 팀의 마케팅 라이프사이클 전반에서 작업을 구성할 수 있습니다. 이 섹션의 문서에서는 계획 기능을 구성하는 방법과 이를 캠페인 관리 작업의 일부로 사용하는 방법을 설명합니다.
-short-description: 문서 및 추가 리소스를 사용하여 조직에서 Adobe Workfront Planning을 구현하고 효과적으로 사용하는 방법을 알아보십시오.
+description: 마케팅 운영 리더로서 Adobe Workfront 계획 수립을 사용하여 모든 팀의 마케팅 라이프사이클 전반에 걸쳐 작업을 구성할 수 있습니다. 이 섹션의 문서에서는 계획 수립 기능을 구성하는 방법과 이를 캠페인 관리 작업의 일부로 사용하는 방법을 설명합니다.
+short-description: 문서 및 추가 리소스를 활용하여 조직에서 Adobe Workfront 계획 수립을 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: ddb72bcf8e1a330e39f1e52a1d89d9478a7afb98
+source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 12%
 
 ---
 
@@ -88,7 +88,7 @@ Adobe Workfront Planning에 대한 일반적인 정보 및 용어 이해는 [Ado
 
 * [Adobe Workfront Planning API 기본 사항](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API의 목표는 HTTP를 통해 작동하는 REST 풀 아키텍처를 도입하여 Planning과의 통합 구축을 간소화하는 것입니다.
 
-* [Workfront Fusion용 Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Adobe Workfront 계획 모듈을 사용하면 Workfront Planning에서 이벤트가 발생할 때 시나리오를 트리거할 수 있습니다. 레코드를 생성, 읽기, 업데이트 및 삭제하거나 Adobe Workfront Planning 계정에 대한 사용자 정의 API 호출을 수행할 수도 있습니다.
+* [Workfront Fusion용 Adobe Workfront 계획 모듈](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Adobe Workfront 계획 모듈을 사용하면 Workfront Planning에서 이벤트가 발생할 때 시나리오를 트리거할 수 있습니다. 레코드를 생성, 읽기, 업데이트 및 삭제하거나 Adobe Workfront Planning 계정에 대한 사용자 정의 API 호출을 수행할 수도 있습니다.
 
 * [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront Planning AI Assistant를 사용하여 명령을 사용하여 레코드를 검색하거나, 레코드를 생성, 업데이트 및 삭제할 수 있으며, 이를 통해 Assistant가 작업을 수행하도록 할 수 있습니다.
 
@@ -98,3 +98,10 @@ Adobe Workfront Planning에 대한 일반적인 정보 및 용어 이해는 [Ado
 
 * **Workfront Planning 보고 기능**: 이제 Workfront 캔버스 대시보드를 사용하여 보고서에서 Workfront Planning 정보를 볼 수 있습니다. 자세한 내용은 [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)를 참조하십시오.
 
+## Workfront Planning 릴리스 활동
+
+<!--update this with the new release activity page - the article index for all Planning releases-->
+
+Workfront Planning에 대한 새로운 기능을 정기적으로 릴리스하고 있습니다.
+
+릴리스된 기능의 최신 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
