@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4066'
 ht-degree: 2%
 
 ---
@@ -176,7 +176,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      >[!TIP]
      >
-     >이 메시지는 조직이 구매하기 전에 Planning 및 사용자 정의 분기가 이미 활성화된 직후에만 표시되어야 합니다. 조직에 대해 Workfront Planning을 활성화한 후에는 분기 간 중복 및 간격이 허용되지 않습니다.
+     >이 메시지는 조직이 구매하기 전에 계획 및 사용자 정의 분기가 이미 활성화된 직후에 표시되어야 합니다. 조직에 대해 Workfront Planning을 활성화한 후에는 분기 간 중복 및 간격이 허용되지 않습니다.
 
    * 분기가 부분적으로 설정되어 있고 동일한 연도 내의 일부 월이 누락된 경우 스크롤하여 누락된 분기로 나머지 연도를 설정해야 한다는 누락된 분기를 표시할 때 알림을 받을 수 있습니다.
 

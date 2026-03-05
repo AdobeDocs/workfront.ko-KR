@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
+source-git-commit: 4713864c21d23b507f4d19d7a7955128768e077d
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1434'
 ht-degree: 1%
 
 ---
@@ -76,8 +76,26 @@ Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코
 </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>표준</p>
-   </td> 
+   <td>
+   <p>레코드를 글로벌로 만들려면:</p>
+   <ul><li>표준 이상</li></ul>
+   <p>레코드를 연결 가능하게 만들려면:</p>
+   <ul><li>시스템 관리자</li></ul>
+
+<!--replace the above with this at release:
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>In the Production environment:</li>
+   <ul><li>System Administrator</li></ul></ul>
+
+   <div class="preview">
+   <ul><li>In the Preview environment:</li>
+   <ul><li>Standard to make a record connectable from specific workspaces</li>
+   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+   </div>-->
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
@@ -252,12 +270,13 @@ And
 
    활성화되면 레코드 유형에 액세스하고 다른 작업 공간에서 연결할 수 있습니다.
 
-1. 레코드 종류에 액세스할 수 있는 작업 공간을 선택합니다. 다음 선택 사항 중 하나를 선택합니다.
+1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> 레코드 종류에 액세스할 수 있는 작업 공간을 선택합니다. 다음 선택 사항 중 하나를 선택합니다.
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
-   * **모든 작업 영역**: 사용자는 관리 권한이 있는 모든 작업 영역에서 이 레코드 형식에 연결할 수 있습니다.
+   * **모든 작업 영역**: 사용자는 관리 권한이 있는 모든 작업 영역에서 이 레코드 형식에 연결할 수 있습니다. <!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
    * **특정 작업 영역**: 드롭다운 메뉴에서 작업 영역 관리자가 이 레코드 종류에 연결할 수 있는 작업 영역의 이름을 추가합니다.
+
 1. (조건부) **레코드 종류 편집** 상자에서 **저장**&#x200B;을 클릭하거나 페이지 헤더의 **설정** 왼쪽에 있는 뒤로 화살표를 클릭하여 변경 내용을 저장합니다.
 
    다음과 같은 상황이 발생합니다.
