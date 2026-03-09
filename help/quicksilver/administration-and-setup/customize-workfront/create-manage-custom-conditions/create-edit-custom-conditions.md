@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -128,7 +128,8 @@ Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작
 사용자 지정 조건에 대한 자세한 내용은 [사용자 지정 조건](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)을 참조하세요.
 
 
-<!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+<!-- 
+   THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)
