@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Planning Designer은 직접 사용하든 AI Assistant를 통해 사용하든 상
 
 Workfront Planning에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [Adobe Workfront Planning에 대한 일반 정보](/help/quicksilver/planning/planning-information.md)
+* [Adobe Workfront Planning에 대한 일반 정보 및 문서 색인](/help/quicksilver/planning/planning-information.md)
 * [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)
 
@@ -96,7 +96,7 @@ Beta 프로그램 중에 Planning Designer에 대한 피드백을 제출할 수 
    **계획 Designer** 창이 열립니다.
 
 1. 페이지 하단의 **여기에 피드백 제출**&#x200B;을 클릭합니다.
-1. 제공된 스페이스에 피드백을 추가한 다음 **제출**&#x200B;을 클릭합니다.
+1. 제공된 스페이스에 피드백을 추가한 다음 **제출**을 클릭합니다.
 귀하의 피드백은 엔지니어링 및 제품 팀에 제출됩니다.
 
 ## Planning Designer에 대한 고려 사항

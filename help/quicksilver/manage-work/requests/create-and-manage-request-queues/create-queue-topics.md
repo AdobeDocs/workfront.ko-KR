@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 대기열 주제 만들기
 description: 대기열 항목은 라우팅 규칙과 함께 작동하여 들어오는 작업을 자동으로 사용자, 작업 역할, 팀에 할당하거나 프로젝트에 배치합니다. 대기열 항목은 라우팅 규칙을 구현하기 위해 존재해야 하는 조건을 정의합니다.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '964'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <!--drafted - replace table with P&P:
 
@@ -64,7 +64,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

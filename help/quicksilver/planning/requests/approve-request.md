@@ -3,10 +3,10 @@ title: Adobe Workfront Planning에서 요청 승인
 description: 사용자가 Adobe Workfront Planning의 승인과 연결된 요청 양식에 요청을 제출하면 승인자는 보류 중인 승인에 대한 알림 및 이메일을 수신합니다. Workfront Planning에서 개체를 만들기 전에 요청을 승인해야 합니다.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
@@ -69,7 +69,7 @@ ht-degree: 1%
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>임의</p> 
+   <td><p>Any</p> 
   </td> 
   </tr> 
   <tr> 

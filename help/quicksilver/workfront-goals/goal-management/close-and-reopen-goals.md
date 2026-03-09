@@ -6,9 +6,9 @@ description: 목표를 완료했거나 더 이상 쓸모가 없어져 작업을 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,8 @@ ht-degree: 2%
  <tr>
   <td> <p>Adobe Workfront 패키지</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>메모</b></p>
+<p>다른 Workfront 패키지가 있는 경우 Workfront 담당자에게 문의하십시오.</p>
    </td> 
   </tr> 
  <tr>

@@ -6,10 +6,10 @@ description: 더 이상 연결할 수 없는 경우 두 목표 간의 정렬을 
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 5%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 >
 >Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto">
 <col>
@@ -43,7 +43,8 @@ ht-degree: 1%
  <tr>
   <td> <p>Adobe Workfront 패키지</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>메모</b></p>
+<p>다른 Workfront 패키지가 있는 경우 Workfront 담당자에게 문의하십시오.</p>
    </td> 
   </tr> 
  <tr>

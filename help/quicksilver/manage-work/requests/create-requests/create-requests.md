@@ -4,11 +4,11 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: 요청 만들기
 description: 요청과 문제는 Adobe Workfront에서 상호 교환 가능합니다. Workfront에서 요청을 제출하거나, 다른 애플리케이션에서 요청을 제출하거나, 요청 대기열로 설정된 프로젝트로 요청을 이메일로 보내어 요청을 만들 수 있습니다.
-author: Becky
+author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 3c5f7d54e29398b61ffd15b71dbfd462aabd7a0c
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%

@@ -3,13 +3,13 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: 요청 대기열에 대한 액세스 권한 제공
 description: 요청 대기열에 대한 액세스 권한을 제공하면 조직에서 Adobe Workfront의 요청 영역에서 요청 대기열을 볼 수 있는 사용자를 결정합니다.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

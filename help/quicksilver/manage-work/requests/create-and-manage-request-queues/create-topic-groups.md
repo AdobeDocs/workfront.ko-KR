@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 주제 그룹 만들기
 description: 주제 그룹은 요청 대기열과 연관됩니다. 요청 특성에 따라 요청 대기열을 여러 카테고리에 계층화할 수 있습니다.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 4%
@@ -31,7 +31,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront 라이선스</p> </td> 

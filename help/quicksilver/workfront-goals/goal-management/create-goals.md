@@ -6,9 +6,9 @@ description: CEO, 관리자 또는 개별 기여자에 관계없이 Adobe Workfr
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '648'
 ht-degree: 8%
 
 ---
@@ -38,7 +38,8 @@ CEO, 관리자 또는 개별 기여자에 관계없이 Adobe Workfront 목표에
  <tr>
   <td> <p>Adobe Workfront 패키지</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>메모</b></p>
+<p>다른 Workfront 패키지가 있는 경우 Workfront 담당자에게 문의하십시오.</p>
    </td> 
   </tr>
  <tr>

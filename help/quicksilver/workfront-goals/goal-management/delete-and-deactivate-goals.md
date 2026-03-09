@@ -6,9 +6,9 @@ description: 목표 작업을 시작할 때 조직에서 관련이 없게 되면
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '603'
 ht-degree: 3%
 
 ---
@@ -38,7 +38,8 @@ ht-degree: 3%
  <tr>
   <td> <p>Adobe Workfront 패키지</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>메모</b></p>
+<p>다른 Workfront 패키지가 있는 경우 Workfront 담당자에게 문의하십시오.</p>
    </td> 
   </tr>
  <tr>

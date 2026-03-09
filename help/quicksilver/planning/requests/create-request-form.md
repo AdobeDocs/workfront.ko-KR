@@ -3,10 +3,10 @@ title: Adobe Workfront Planning에서 요청 양식 생성 및 관리
 description: Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 요청 양식을 만들어 해당 레코드 유형과 연결할 수 있습니다. 그런 다음 다른 내부 또는 외부 사용자와 링크를 공유할 수 있습니다. 양식에 대한 링크가 있는 사용자는 해당 양식의 필드 값을 채울 수 있으며, 양식 제출을 통해 관련 레코드 유형에 대한 새 레코드를 추가할 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '3550'
 ht-degree: 1%
@@ -267,7 +267,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
 
 <div class="preview">
 
@@ -341,7 +341,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
 
 </div>
 

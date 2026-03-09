@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: 제출된 요청 재요청 초안 삭제
 description: 제출된 요청이나 요청 초안을 삭제할 수 있습니다.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 3%
@@ -34,7 +34,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

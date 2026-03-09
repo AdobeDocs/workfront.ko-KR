@@ -2,10 +2,10 @@
 title: AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청 채우기
 content-type: reference
 description: AI를 사용하여 프롬프트를 입력하거나 문서를 제공하여 요청 필드를 자동으로 채울 수 있습니다.
-author: Becky
+author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 3%

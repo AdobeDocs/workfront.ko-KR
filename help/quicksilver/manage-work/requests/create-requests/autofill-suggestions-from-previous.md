@@ -2,13 +2,13 @@
 title: 이전 요청의 데이터를 사용하여 요청 자동 완성
 content-type: reference
 description: AI를 사용하여 이전 요청의 데이터를 사용하여 요청 필드를 자동으로 완료할 수 있습니다.
-author: Becky
+author: Alina
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ AI를 통해 이전 요청을 기반으로 요청 필드를 자동 완성할 수
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +30,7 @@ AI를 통해 이전 요청을 기반으로 요청 필드를 자동 완성할 수
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

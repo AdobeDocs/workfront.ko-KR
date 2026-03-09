@@ -7,9 +7,9 @@ description: 활동은 목표의 진행 상황을 측정합니다. 연결된 결
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '402'
 ht-degree: 6%
 
 ---
@@ -39,7 +39,8 @@ ht-degree: 6%
  <tr>
   <td> <p>Adobe Workfront 패키지</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>메모</b></p>
+<p>다른 Workfront 패키지가 있는 경우 Workfront 담당자에게 문의하십시오.</p>
    </td> 
   </tr>
  <tr>

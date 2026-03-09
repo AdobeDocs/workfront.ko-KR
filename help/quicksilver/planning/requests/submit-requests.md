@@ -3,10 +3,10 @@ title: Adobe Workfront Planning 요청 제출
 description: 누군가가 Adobe Workfront Planning의 레코드 유형 페이지에서 요청 양식에 대한 링크를 귀하에게 공유하면 요청을 추가하여 요청 양식과 연관된 레코드 유형에 대한 레코드를 생성할 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '2252'
 ht-degree: 0%

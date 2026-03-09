@@ -7,7 +7,7 @@ description: 시나리오 플래너에는 Adobe Workfront과 별도의 라이센
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 1b06589a705cf218239ff1273b865c05e4ceb96f
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -24,21 +24,21 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-올바른 액세스 또는 권한이 없으면 [!UICONTROL 의 &#x200B;]시나리오[!DNL &#x200B; Adobe Workfront] 영역을 보거나 조직의 계획 또는 이니셔티브를 관리하지 못할 수 있습니다. 계획 및 이니셔티브의 관리에는 계획 및 이니셔티브 생성, 편집 및 삭제가 포함됩니다.
+올바른 액세스 또는 권한이 없으면 [!UICONTROL 의 ]시나리오[!DNL  Adobe Workfront] 영역을 보거나 조직의 계획 또는 이니셔티브를 관리하지 못할 수 있습니다. 계획 및 이니셔티브의 관리에는 계획 및 이니셔티브 생성, 편집 및 삭제가 포함됩니다.
 
 ## [!DNL Adobe Workfront Scenario Planner]을(를) 보고 사용하는 데 필요한 액세스 권한
 
 [!DNL Workfront Scenario Planner]에 액세스하려면 다음 조건을 모두 충족하는지 확인해야 합니다.
 
-1. 조직에 Workfront Ultimate 패키지가 있어야 합니다.
+* 조직에 Workfront Ultimate 패키지가 있어야 합니다.
 
-   시나리오 플래너는 Workfront 워크플로 패키지에 사용할 수 없습니다.
+  시나리오 플래너는 Workfront 워크플로 패키지에 사용할 수 없습니다.
 
-   현재 Workfront을 갱신하고 있으며 시나리오 플래너를 유지하려는 경우 Workfront 계정 담당자에게 문의하십시오.
+  현재 Workfront을 갱신하고 있으며 시나리오 플래너를 유지하려는 경우 Workfront 계정 담당자에게 문의하십시오.
 
-   신규 고객인 경우 시나리오 플래너를 더 이상 구매할 수 없습니다.
+  신규 고객인 경우 시나리오 플래너를 더 이상 구매할 수 없습니다.
 
-   <!--Old: 
+  <!--Old: 
     Depending on whether you use the new or the current Workfront plan, your organization must have one of the following:
     * For the new plans, your organization must have the  [!UICONTROL Ultimate] [!DNL Workfront] plan. The Scenario Planner is included only in the [!UICONTROL Ultimate] plan. 
     * For the current Workfront plans, your organization must have both of the following: 
@@ -46,28 +46,28 @@ might need to add information about the permissions to plans/ initiatives if tho
       
       * Your organization must purchase a [!DNL Workfront Scenario Planner] license, in addition to a [!DNL Workfront] license. Contact your [!DNL Workfront] Account Representative to learn about [!DNL Workfront Scenario Planner] licenses. -->
 
-1. 다음 Workfront 라이선스 중 하나가 있어야 합니다.
+* 다음 Workfront 라이선스 중 하나가 있어야 합니다.
 
    * [!UICONTROL 밝게] 이상
    * [!UICONTROL 검토자] 이상
 
-   <!--Old: 
+  <!--Old: 
       * For the current licenses: 
         * [!UICONTROL Plan]
         * [!UICONTROL Work]
         * [!UICONTROL Review]-->
-   <!--Old: 
+  <!--Old: 
       >[!NOTE]
       > 
       >* When using the new licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
       >
       >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner. -->
 
-1. [!DNL Workfront] 관리자가 액세스 수준의 [!UICONTROL 에 대한 &#x200B;]보기[!UICONTROL &#x200B; 또는 &#x200B;]편집[!DNL Scenario Planner] 액세스 권한을 부여해야 합니다.
+* [!DNL Workfront] 관리자가 액세스 수준의 [!UICONTROL 에 대한 ]보기[!UICONTROL  또는 ]편집[!DNL Scenario Planner] 액세스 권한을 부여해야 합니다.
 
-   [!DNL Workfront Scenario Planner]에 대한 액세스 권한 부여에 대한 자세한 내용은 [액세스 권한 부여 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)를 참조하십시오.
+  [!DNL Workfront Scenario Planner]에 대한 액세스 권한 부여에 대한 자세한 내용은 [액세스 권한 부여 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)를 참조하십시오.
 
-1. (선택 사항 및 권장) 계획 및 이니셔티브에 대한 재무 정보를 보거나 업데이트하려면 [!DNL Workfront] 관리자가 액세스 수준의 [!UICONTROL 재무 데이터]에 대한 액세스 권한도 부여해야 합니다. 액세스 수준의 재무 데이터 부여에 대한 자세한 내용은 [재무 데이터에 대한 액세스 권한 부여](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)를 참조하십시오.
+* (선택 사항 및 권장) 계획 및 이니셔티브에 대한 재무 정보를 보거나 업데이트하려면 [!DNL Workfront] 관리자가 액세스 수준의 [!UICONTROL 재무 데이터]에 대한 액세스 권한도 부여해야 합니다. 액세스 수준의 재무 데이터 부여에 대한 자세한 내용은 [재무 데이터에 대한 액세스 권한 부여](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)를 참조하십시오.
 
 
 <!--1. (Optional) If you need to access plans you didn't create, a plan creator must give you the correct permissions to their plan to access it. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.-->

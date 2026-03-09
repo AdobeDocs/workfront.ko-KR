@@ -6,10 +6,10 @@ description: 개인 목표가 있는 개별 기여자의 경우 조직의 전략
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 0%
+source-wordcount: '739'
+ht-degree: 3%
 
 ---
 
@@ -41,16 +41,18 @@ Adobe Workfront 목표에는 두 가지 접근 방식으로 목표를 연결할 
 >
 >Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
 
-+++을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody>
 
-<td> <p>Adobe Workfront 패키지</p> </td> 
+<td> <p>Adobe Workfront 패키지</p> 
+  </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p> <p><b>메모</b></p>
+<p>다른 Workfront 패키지가 있는 경우 Workfront 담당자에게 문의하십시오.</p>
    </td> 
   </tr> 
   <tr> 

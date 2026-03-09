@@ -6,10 +6,10 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 8%
+source-wordcount: '222'
+ht-degree: 9%
 
 ---
 
@@ -51,13 +51,14 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
  <tr>
   <td> <p>Adobe Workfront 패키지</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>메모</b></p>
+<p>다른 Workfront 패키지가 있는 경우 Workfront 담당자에게 문의하십시오.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront 라이선스</td>
  <td>
- <p>임의</p></td>
+ <p>Any</p></td>
  </tr>
   <tr>
  <td role="rowheader">액세스 수준 구성</td>

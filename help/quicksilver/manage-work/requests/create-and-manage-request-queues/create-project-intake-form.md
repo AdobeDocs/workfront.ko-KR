@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: 프로젝트 접수 Forms 만들기
 description: 프로젝트 접수 양식을 사용하여 Workfront에서 프로젝트를 작성하는 프로세스를 단순화할 수 있습니다
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 5ff71313c550d949079e7426b657a0a4e19a656c
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 2%

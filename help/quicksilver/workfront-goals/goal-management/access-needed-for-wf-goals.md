@@ -7,9 +7,9 @@ description: Adobe Workfront 관리자는 Adobe Workfront 목표에 액세스하
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: dacfd8ef7475b197ac6ce5dd598c99df97037479
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,13 @@ ht-degree: 0%
 
 Adobe Workfront 목표에 액세스하려면 Adobe Workfront 관리자가 다음 조건을 모두 충족하는지 확인해야 합니다.
 
-* 조직은 과거에 Adobe Workfront 목표 패키지를 구매했습니다. Adobe Workfront 목표를 더 이상 구매할 수 없습니다.
+* 조직에 Workfront Ultimate 패키지가 있어야 합니다.
+
+  Workfront 목표는 Workfront 워크플로 패키지에 사용할 수 없습니다.
+
+  현재 Workfront을 갱신하고 있으며 Workfront 목표를 유지하고자 하는 경우 Workfront 계정 담당자에게 문의하십시오.
+
+  신규 고객인 경우 Workfront 목표를 더 이상 구매할 수 없습니다.
 
   자세한 내용은 이 문서의 [Workfront 목표 조직 액세스 권한 얻기](#obtain-workfront-goals-organization-access) 섹션을 참조하십시오.
 
@@ -52,7 +58,9 @@ Adobe Workfront 목표에 액세스하려면 Adobe Workfront 관리자가 다음
 ## Workfront 목표 조직 액세스 권한 얻기 {#obtain-workfront-goals-organization-access}
 
 Workfront 목표를 포함한 마지막 Adobe Workfront 패키지는 Adobe Workfront Ultimate입니다.
+
 Workfront 목표는 더 이상 최신 패키지를 구입할 수 없습니다.
+
 Workfront 목표에 대해 문의하려면 계정 담당자에게 문의하십시오.
 
 <!--Old: >

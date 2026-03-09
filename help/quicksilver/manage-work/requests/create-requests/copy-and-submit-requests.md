@@ -1,12 +1,12 @@
 ---
 title: 요청 복사 및 제출
 description: 유사한 요청을 자주 제출하는 경우 제출된 기존 요청을 복사할 수 있습니다. 이 경우 기존 요청을 복사하고 최소 변경 내용을 적용한 다음 새 요청으로 다시 제출할 수 있습니다.
-author: Becky
+author: Alina
 feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

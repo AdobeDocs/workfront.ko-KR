@@ -3,12 +3,12 @@ title: Adobe Workfront Planning에서 요청 양식에 승인 추가
 description: 레코드를 생성하기 전에 Adobe Workfront Planning 요청 양식에 승인 프로세스를 추가하여 제출된 모든 요청에 대한 승인을 시작할 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1210'
 ht-degree: 1%
 
 ---
@@ -123,17 +123,15 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 <div class="preview">
 
-## 요청 양식에 승인 규칙 추가
+## 미리보기 환경에서 요청 양식에 승인 규칙 추가
 
->[!NOTE]
->
->이 기능은 미리보기 환경에서만 사용할 수 있습니다.
-
-승인 규칙은 제출된 요청의 필드 값에 따라 승인 프로세스를 정의합니다.
+승인 규칙은 제출된 요청의 필드 값을 기준으로 승인 프로세스를 정의합니다.
 
 예를 들어 요청 양식에 &quot;캠페인 유형&quot; 필드가 있는 경우, 필드에 &quot;디지털&quot; 값이 있을 경우 한 사람에게, &quot;인쇄&quot; 값이 있을 경우 다른 사람에게 요청을 보내는 규칙을 만들 수 있습니다.
 
 승인 규칙을 추가할 때 다음 사항을 고려하십시오.
+
+<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * 한 명 또는 여러 명의 승인자를 승인 규칙에 추가할 수 있습니다.
 * 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다. 요청은 Workfront의 요청 영역에 남아 있습니다.
@@ -142,18 +140,16 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 요청 양식에 대한 승인 규칙을 설정하려면 다음을 수행합니다.
 
-1. [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)에 설명된 대로 레코드 유형에 대한 요청 양식 만들기를 시작합니다.
-1. **설정**&#x200B;을 클릭합니다.
+1. [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md) 문서에 설명된 대로 레코드 유형에 대한 요청 양식 만들기를 시작합니다.
+1. 요청 양식이 열리면 **설정**&#x200B;을 클릭합니다.
 
-   설정 탭이 표시됩니다.
+   **설정** 탭이 열립니다.
 
 1. 승인 규칙 구성을 시작하려면 왼쪽 패널에서 **승인** ![승인 아이콘](assets/approvals-icon-on-form.png)을 클릭하세요.
 
 1. (선택 사항) 기본 승인 프로세스를 설정하려면 **기본 승인 규칙** 영역의 **승인자** 필드에 하나 이상의 사용자 또는 팀을 추가한 다음 기본 승인자 중 하나가 승인했을 때 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 클릭합니다.
 
    ![기본 승인 규칙 영역](assets/default-approvers.png)
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. (선택 사항) 승인 규칙 추가를 시작합니다. 각 승인 규칙에 대해 다음 작업을 수행합니다.
 
@@ -164,7 +160,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    1. 선택한 연산자에 값이 필요한 경우 더하기 아이콘을 클릭하고 값을 하나 이상 추가합니다.
    1. (선택 사항) 조건을 더 추가하려면 **조건 추가**&#x200B;를 클릭하고 C-E단계와 같이 추가 조건을 구성하여 **And** 또는 **Or** 문을 통해 연결합니다.
    1. 승인 규칙의 **작업** 영역의 **승인자** 필드에 조건이 충족될 때 승인자에서 설정할 사용자 또는 팀을 하나 이상 추가하십시오.
-   1. (조건부) 승인자 중 한 명이 레코드를 승인한 후 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 선택합니다.
+   1. (조건부 및 선택 사항) 승인자 중 한 명이 레코드를 승인한 후 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 선택하십시오. 그렇지 않으면 모든 승인자는 요청이 승인되거나 거부되기 전에 승인을 결정해야 합니다.
 
 1. **저장**&#x200B;을 클릭하여 승인 규칙을 저장합니다.
 1. (선택 사항) 요청 양식을 공유한 적이 없으면 **게시**&#x200B;를 클릭합니다.

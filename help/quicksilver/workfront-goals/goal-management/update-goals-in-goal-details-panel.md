@@ -6,9 +6,9 @@ description: 목표 세부 정보 패널에 액세스하여 개별 목표에 대
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '589'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,8 @@ ht-degree: 4%
  <tr>
   <td> <p>Adobe Workfront 패키지</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>메모</b></p>
+<p>다른 Workfront 패키지가 있는 경우 Workfront 담당자에게 문의하십시오.</p>
    </td> 
   </tr>
  <tr>

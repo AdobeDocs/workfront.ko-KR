@@ -4,13 +4,13 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: 요청 대기열 생성 및 관리
 description: Adobe Workfront에서 요청 대기열을 만들어 조직에서 계획되지 않은 작업을 캡처할 수 있습니다. 다음 문서에서는 프로젝트가 요청 대기열로 작동하도록 구성하는 방법을 설명합니다.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: a5827c25cf3a10a8664cabbd2f23bdc635ab8041
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%
