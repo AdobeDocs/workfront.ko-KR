@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 0%
@@ -139,7 +139,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 * 다음 유형의 필드는 자동으로 업데이트되며, 해당 값을 수동으로 편집할 수 없습니다.
    * 다른 레코드의 연결된 필드
    * 공식 유형 필드
-   * 시스템 필드(생성자, 생성 날짜, 마지막 수정자, 마지막 수정 날짜, 승인 날짜, 승인자)
+   * 시스템 필드(작성자, 만든 날짜, 마지막 수정자, 마지막 수정 날짜, 승인 날짜, 승인자 <!--, <span class="preview">Record ID</span>-->)
 * 표시되는 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보는 해당 레코드가 연결된 모든 작업 영역에서 연결된 레코드에 반영됩니다.
 * 레코드를 일괄적으로 편집할 수 없습니다. <!--this will probably change-->
 * URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .

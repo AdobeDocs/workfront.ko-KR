@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -147,6 +147,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * 마지막 수정 날짜, 마지막 수정자
    * 승인 일자, 승인자
    * 사람
+     <!--* <span class="preview">Record ID</span>-->
    * 다중 또는 단일 선택 필드를 가져오고 Planning의 유사한 필드보다 더 많은 선택 사항이 있는 경우 가져오는 동안 추가 옵션이 생성됩니다. 작업 영역에 대한 관리 권한이 있는 사용자만 새 선택 사항을 가져올 수 있습니다.
 
 ## CSV 또는 Excel 파일을 가져와서 레코드 만들기

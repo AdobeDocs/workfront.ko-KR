@@ -7,28 +7,34 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1886'
 ht-degree: 2%
 
 ---
-
 
 <!--update metadata with real information at release-->
 
 # 레코드 공유
 
-<!--this will NOT be available in Preview ever - find a way to add this in this article that is prominent-->
+<!--
+this will NOT be available in Preview ever - find a way to add this in this article that is prominent
+-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-레코드 종류의 개별 레코드에 대한 사용자의 권한을 조정할 수 있습니다.
+Adobe Workfront Planning에서 레코드 유형의 개별 레코드에 대한 사람들의 권한을 조정할 수 있습니다.
+
+>[!WARNING]
+>
+>이 문서에 설명된 정보는 미리보기 환경에서 사용할 수 없습니다. 모든 Workfront Planning 고객은 프로덕션 환경에서만 사용할 수 있습니다.
 
 다음과 같은 방법으로 Adobe Workfront Planning 레코드를 공유할 수 있습니다.
 
@@ -44,23 +50,24 @@ ht-degree: 2%
 
    * [레코드 유형 공유](/help/quicksilver/planning/access/share-record-types.md)
 
-* **공유** 옵션을 사용하여 레코드를 공유합니다.
+* **공유** 옵션을 사용하여 개별 레코드를 공유하거나 여러 레코드를 일괄적으로 공유합니다.
 
   이 문서에서는 **공유** 옵션을 사용하여 다른 사용자와 레코드를 공유하는 방법에 대해 설명합니다.
 
 >[!IMPORTANT]
 >
->작업 영역에 대한 액세스 권한이 있는 사용자는 작업 영역의 모든 레코드에 대한 최소 보기 권한을 자동으로 부여받습니다.
->보기를 공유해도 사용자에게 레코드에 대한 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 종류 및 레코드에 대한 권한을 부여할 수 있습니다.
+>* 작업 영역에 대한 액세스 권한이 있는 사용자는 작업 영역의 모든 레코드에 대한 최소 보기 권한을 자동으로 부여받습니다.
+>* 보기를 공유해도 사용자에게 레코드에 대한 권한이 부여되지 않습니다. 공유 작업 영역만 사용자에게 레코드 종류 및 레코드에 대한 권한을 부여할 수 있습니다.
 >
 >Workfront Planning에서 개체 공유에 대한 일반적인 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
-
 
 ## 액세스 요구 사항
 
 +++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
+<!--
+at GA, check that the Workfront plans article linked below has Planning info
+-->
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,7 +86,7 @@ ht-degree: 2%
 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>임의</p> 
+   <td><p>Any</p> 
    <p><b>메모</b></p>
    <p>Standard 라이선스가 있는 사람에게만 레코드에 대한 관리 권한을 부여할 수 있습니다. 다른 모든 라이센스는 보기 권한만 가질 수 있으며, 해당 라이센스에 대한 관리 옵션은 흐리게 표시됩니다.</p>
   </td> 
@@ -112,13 +119,14 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## 레코드 공유 시 고려 사항
 
-<!--maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information-->
+<!--
+maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information
+-->
 
 <!--checking on the below with Lilit-->
 
 * 사람, 그룹, 팀, 회사 또는 작업 역할과 같은 엔티티와 레코드를 공유할 수 있습니다.
-* 레코드를 공유할 때 사용자는 시스템에 레코드가 나타나는 모든 곳에서 동일한 액세스 권한을 갖습니다.
-* 레코드에 대한 권한을 제한하면 사용자는 더 이상 해당 레코드가 추가된 시스템의 어디에서든 해당 레코드와 조회 필드 값을 볼 수 없습니다.
+* 레코드에 대한 권한을 제한하면 사용자는 더 이상 해당 레코드가 표시되는 시스템의 어느 곳에서든 해당 레코드와 조회 필드 값을 볼 수 없습니다.
 * Workfront은 최대 5개의 레코드 깊이에 있는 연결에서 레코드 권한을 확인하므로 사용자가 공유된 레코드만 볼 수 있습니다.
 * 레코드에 다음 수준의 권한을 부여할 수 있습니다.
 
@@ -140,7 +148,6 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
      >
      >**작업 영역의 모든 사용자에게 레코드 종류 또는 레코드에 대한 사용 권한 보기**&#x200B;를 부여하도록 선택하면 작업 영역 사용 권한의 공유 목록에 나열된 모든 사용자에게 레코드 종류 및 레코드에 대한 동일한 사용 권한이 부여됩니다. 이는 상속된 사용 권한이 비활성화된 경우에도 마찬가지입니다.
 
-
 * 사용자와 레코드를 공유하면 기본적으로 레코드 유형에 있는 권한과 동일한 권한으로 추가됩니다.
 
   예:
@@ -148,13 +155,24 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * 레코드 유형에 대한 보기 권한이 있는 경우 레코드에 대한 보기 권한을 갖게 됩니다
    * 레코드 유형에 대한 기여 또는 관리 권한이 있는 경우 레코드에 대한 관리 권한을 얻습니다
 
-* 작업 영역 관리자는 레코드 유형 또는 작업 영역에 대한 권한이 없는 사용자와 레코드를 공유할 수 있습니다. 이 경우 추가된 엔티티 옆에 작업 영역 또는 레코드 유형에 액세스할 수 없음을 알리는 경고가 있습니다. <!--ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too--> 레코드 종류 및 작업 영역에 사용자를 추가하거나 공유를 취소할 레코드에 사용자를 계속 추가할 수 있습니다.
+* 작업 영역 관리자는 레코드 유형 또는 작업 영역에 대한 권한이 없는 사용자와 레코드를 공유할 수 있습니다. 이 경우 추가된 엔티티 옆에 작업 공간 또는 레코드 유형에 액세스할 수 없음을 알리는 경고가 있습니다.  레코드 유형 및 작업 영역에도 추가할 레코드에 사용자를 계속 추가하거나 공유를 취소할 수 있습니다.
 
-* 사용자가 작업 공간 및 레코드 유형에 대한 관리 또는 기여 권한을 가지고 있고 이를 레코드 권한에 추가하면 보기 권한이 흐리게 표시됩니다. 레코드 유형에 대한 권한과 동일한 권한을 보유하며, 레코드에 대해 더 낮은 권한을 부여할 수 없습니다. <!--Lilit is checking on this, it is not working correctly-->
+<!--
+ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too
+-->
 
-  작업 영역 또는 레코드 유형에 대한 보기 권한이 있는 경우 레코드에 대한 보기 권한은 그대로 유지됩니다. 상속된 권한을 비활성화하고 초대된 사용자만 액세스할 수 있음 설정을 선택하여 레코드에 대한 관리 권한을 부여할 수 있습니다. <!-- I think this is right, but because of the above not working, I can't test-->
+* 사용자가 작업 공간 및 레코드 유형에 대한 관리 또는 기여 권한을 가지고 있고 이를 레코드 권한에 추가하면 보기 권한이 흐리게 표시됩니다. 레코드 유형에 대한 권한과 동일한 권한을 보유하며, 레코드에 대해 더 낮은 권한을 부여할 수 없습니다.
+<!--
+Lilit is checking on this, it is not working correctly
+-->
 
-<!-- not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.-->
+<!--
+   check on this: I cannot disable inherited permissions when this setting is ON and this documented in a TIP below: When they have View permissions to the workspace or the record type, they retain View permissions to the records. You can grant them Manage permissions to the record by disabling Inherited permissions and selecting the Only invited people can access setting.
+   -->
+
+<!-- 
+   not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.
+   -->
 
 * 단일 레코드에 대해 상속된 사용 권한을 비활성화할 수 있습니다. 이 경우 개별 레코드에 사용 권한을 부여하거나 **작업 영역의 모든 사용자가 볼 수 있음** 옵션에 속하는 경우 사용 권한을 얻을 수 있습니다.
 
@@ -162,16 +180,17 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
   예를 들어 레코드가 보기 권한이 있는 사용자와 공유되고 해당 그룹이 관리 액세스 권한이 있는 경우 레코드에 대한 관리 권한을 받습니다.
 
-<!--Too granular??
-
-If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
-
-If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions -->
+  <!--
+   Too granular??
+   If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
+   If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions 
+   -->
 
 * 연결된 레코드의 수식 필드 또는 조회 필드가 사용 권한이 없는 레코드의 필드를 기반으로 하는 경우 다른 방법으로 액세스할 수 없는 레코드의 요소를 올바르게 계산할 수 있습니다.
 
-<!-- not sure if any of the Share record types points might match here - ask Lilit??-->
-
+  <!--
+   not sure if any of the Share record types points might match here - ask Lilit??
+   -->
 
 ## 레코드 권한 공유
 
@@ -190,7 +209,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    **공유** 상자가 열립니다.
 
-   ![에서 상속된 사용 권한을 가진 레코드에 대한 &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)사용 권한
+   ![에서 상속된 사용 권한을 가진 레코드에 대한 ](assets/permissions-for-records-with-inherited-permissions-on.png)사용 권한
 
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역 및 레코드 유형에 대해 **보기** 이상의 권한이 있는 모든 사용자는 레코드에 대해 동일한 권한을 가집니다.
 
@@ -208,7 +227,12 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
    >
    >Workspace 관리자는 레코드 유형 및 레코드에 대한 관리 권한을 계속 가집니다.
 
-   1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **초대된 사용자만 액세스할 수 있음**&#x200B;을(를) 선택합니다.
+   1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **초대된 사용자만 액세스할 수 있음**&#x200B;을(를) 선택합니다. 레코드를 공유할 개별 사용자, 그룹, 팀 또는 회사를 표시해야 합니다.
+
+      >[!TIP]
+      >
+      >이 설정을 선택하면 상속된 권한을 비활성화하거나 활성화할 수 없습니다.
+
 
    1. **이 레코드 형식에 대한 액세스 권한 부여** 필드에서 작업 영역 또는 레코드 형식에 대해 다른 권한 수준을 부여할 사용자, 팀, 그룹, 회사 또는 작업 역할을 추가합니다.
    1. 다음 권한 수준 중 하나를 선택합니다.

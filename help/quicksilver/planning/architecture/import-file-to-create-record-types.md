@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 1%
@@ -141,6 +141,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * 마지막 수정 날짜, 마지막 수정자
    * 승인 일자, 승인자
    * 사람
+     <!--* <span class="preview">Record ID</span>-->
 
 Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져오려면 다음을 수행합니다.
 
