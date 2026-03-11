@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 8bcea5cec9f68deacc5f89ca7703303a1b00769f
+source-git-commit: 995de2bc4ea3284d9411b0e9f624cb7611774b95
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
@@ -42,21 +42,25 @@ For more information, see [Create a document approval workflow](/help/quicksilve
 
 -->
 
-## 다단계 승인 워크플로 템플릿 설정 및 사용
+<!--
+
+## Set up and use multi-stage approval workflow templates
 
 >[!NOTE]
 >
->미리 보기: 2026년 2월 26일
->프로덕션 빠른 릴리스: 2026년 3월 12일
->모두를 위한 프로덕션: 2026년 4월 16일
+>Preview: February 26, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
 
-이제 다단계 승인 워크플로 템플릿을 구성하고 재사용할 수 있으므로 반복 가능한 승인 워크플로 전반에 일관된 거버넌스를 보다 쉽게 적용할 수 있습니다.
+You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. 
 
-승인 워크플로우 템플릿을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
+With approval workflow templates, you can: 
 
-* 고유 참여자 및 기한을 사용하여 순차적 승인 단계 만들기
-* 승인 시작 중 수동 설정 시간 단축
-* 필요한 이해 당사자가 적절한 단계에 참여하도록 보장
+* Create sequential approval stages with unique participants and deadlines
+* Reduce manual setup time during approval initiation
+* Ensure required stakeholders are engaged at the right stage
 
-자세한 내용은 [문서에 대한 승인 워크플로 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)를 참조하십시오.
+For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
+
+-->
