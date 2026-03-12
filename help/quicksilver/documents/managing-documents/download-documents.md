@@ -6,10 +6,10 @@ description: Adobe Workfront에서 문서를 개별적으로 또는 대량으로
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 0%
+source-wordcount: '356'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Workfront에서 문서를 개별적으로 또는 대량으로 다운로드
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +27,7 @@ Adobe Workfront에서 문서를 개별적으로 또는 대량으로 다운로드
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -50,16 +50,22 @@ Adobe Workfront에서 문서를 개별적으로 또는 대량으로 다운로드
 
 +++
 
-## 개별 문서 다운로드
+## 기존 문서 영역에서 문서 다운로드
+
+조직이 기존 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. 기존 Workfront 스토리지에 대한 자세한 내용은 [기존 Workfront 스토리지와 Adobe 엔터프라이즈 스토리지의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md)을 참조하십시오.
+
+### 이전 문서 영역에서 개별 문서 다운로드
 
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 찾습니다.
 
 1. **선택한 항목 다운로드** 아이콘 ![선택한 항목 다운로드](assets/download-icon.png)를 클릭합니다.
 
-## 여러 문서를 동시에 다운로드
+![개별 문서 다운로드](assets/legacy-doc-download.png)
 
-여러 문서를 동시에 다운로드할 수 있습니다. 
+### 이전 문서 영역에서 동시에 여러 문서 다운로드
+
+여러 문서를 동시에 다운로드할 수 있습니다.
 
 1. 다운로드할 문서가 포함된 문서 영역으로 이동합니다.
 1. (선택 사항) 문서 목록에서 다운로드할 개별 문서를 선택합니다.
@@ -72,3 +78,12 @@ Adobe Workfront에서 문서를 개별적으로 또는 대량으로 다운로드
 1. 선택한 항목 다운로드 아이콘 ![선택한 항목 다운로드 아이콘](assets/download-icon.png)을 클릭합니다.
 
    폴더는 .zip 파일로 다운로드되며 4GB로 제한됩니다.
+
+## 새 문서 영역에서 문서 다운로드
+
+조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;을(를) 선택합니다.
+1. 필요한 문서를 찾은 다음 **다운로드**&#x200B;를 클릭합니다.
+
+![문서 다운로드](assets/download-new-doc.png)

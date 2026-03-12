@@ -8,10 +8,10 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 0%
+source-wordcount: '905'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p> 임의</p> </td> 
+   <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -66,7 +66,9 @@ ht-degree: 0%
 
 +++
 
-## 문서 일괄 편집
+## 이전 문서 영역에서 문서를 일괄적으로 편집
+
+조직이 기존 Workfront 스토리지를 사용하고 있는 경우 Workfront의 문서에 액세스하면 기존 문서 영역이 표시됩니다. Workfront 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지와 레거시 Workfront 스토리지의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)을 참조하십시오.
 
 문서를 일괄적으로 편집하려면
 
@@ -93,6 +95,31 @@ ht-degree: 0%
     </table>
 1. **저장**&#x200B;을 클릭합니다.
 
+## 새 문서 영역에서 문서를 일괄적으로 편집
+
+
+조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+
+문서를 일괄적으로 편집하려면
+
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
+1. 키보드에서 ctrl 또는 cmd를 누르고 편집할 문서를 선택합니다.
+1. 페이지 하단에서 편집 을 클릭합니다.
+   ![여러 문서 편집](assets/bulk-edit-documents.png)
+1. (선택 사항) **설명**&#x200B;을 추가하거나 편집합니다. 각 문서에 대한 설명이 다른 경우 설명 상자에 _여러 값_&#x200B;이 표시됩니다. 모든 문서에 대해 동일한 설명을 추가할 수 있지만 일괄 편집 시 개별 문서 설명을 편집할 수는 없습니다.
+1. 사용자 정의 양식을 사용하여 다음과 같이 변경합니다.
+
+   <table>
+    <tr>
+    <td><strong>양식 추가</strong></td>
+    <td><strong>사용자 정의 양식</strong> 섹션에서 선택한 문서에 새 사용자 정의 양식을 추가할 수 있습니다. 선택한 모든 문서에 첨부된 사용자 정의 양식은 <strong>공통 사용자 정의 양식</strong> 섹션에 표시됩니다.  </td>
+    </tr>
+    <tr>
+    <td><strong>양식 편집</strong></td>
+    <td>첨부된 사용자 정의 양식을 편집합니다. 변경하는 정보는 개별 문서의 기존 정보를 덮어씁니다. 문서 간에 서로 다른 값이 있는 필드는 "여러 값"으로 표시됩니다. </td>
+    </tr>
+    </table>
+1. **저장**&#x200B;을 클릭합니다.
 
 ## 문서 보고서에서 문서를 일괄적으로 편집
 
@@ -101,7 +128,6 @@ ht-degree: 0%
 [사용자 지정 보고서 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)에 설명된 대로 문서 보고서를 만듭니다.
 1. 편집할 문서를 선택합니다.
 1. 편집 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
-   ![페이지의 아이콘 위치 편집](assets/edit-multiple-documents.png)
 1. (선택 사항) **설명**&#x200B;을 추가하거나 편집합니다. 각 문서에 대한 설명이 다른 경우 설명 상자에 _여러 값_&#x200B;이 표시됩니다. 모든 문서에 대해 동일한 설명을 추가할 수 있지만 일괄 편집 시 개별 문서 설명을 편집할 수는 없습니다.
 1. 사용자 정의 양식을 사용하여 다음과 같이 변경합니다.
 

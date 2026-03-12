@@ -6,13 +6,13 @@ description: Frame.io 통합과 함께 Adobe Experience Manager 사용
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 8c5202bcdb367266d31a2e056eed9a286f286518
+exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1431'
 ht-degree: 1%
 
 ---
-
 
 # Frame.io 통합과 함께 Adobe Experience Manager 사용
 
@@ -96,7 +96,7 @@ ht-degree: 1%
 1. 왼쪽 패널에서 **[!UICONTROL 문서]**&#x200B;를 선택한 다음 **[!UICONTROL [!DNL Experience Manager]통합]**&#x200B;을 선택합니다.
 1. **[!UICONTROL [!DNL Experience Manager] 통합 추가]**&#x200B;를 선택합니다.
 1. Workfront 및 Experience Manager Assets에서 이 통합과 상호 작용할 때 사용자가 볼 이름을 **[!UICONTROL 이름]** 필드에 입력하십시오.
-1. **[!UICONTROL 탐색 URL]** 필드에서 탐색 URL이 자동으로 채워집니다. 이 읽기 전용 URL은 빠른 액세스를 위해 [!DNL Experience Manager]기본 메뉴[!UICONTROL 에서 조직의 &#x200B;] 인스턴스에 연결하는 데 사용됩니다.
+1. **[!UICONTROL 탐색 URL]** 필드에서 탐색 URL이 자동으로 채워집니다. 이 읽기 전용 URL은 빠른 액세스를 위해 [!DNL Experience Manager]기본 메뉴[!UICONTROL 에서 조직의 ] 인스턴스에 연결하는 데 사용됩니다.
 1. **[!UICONTROL [!DNL Experience Manager]Assets 저장소]** 드롭다운 메뉴에서 저장소를 선택합니다. 사용자 프로필이 할당된 조직 ID와 연결된 [!DNL Experience Manager] 저장소가 자동으로 채워집니다.
    ![experience manager 저장소 선택](assets/setup-information.png)
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 
 메타데이터 필드를 구성하려면:
 
-1. [!DNL Experience Manager Assets]Adobe과(와) [&#x200B; [!DNL Workfront]  간의 에셋 메타데이터 매핑 구성 [!DNL Experience Manager Assets]에 설명된 대로 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)에서 메타데이터 스키마를 구성합니다.
+1. [!DNL Experience Manager Assets]Adobe과(와) [ [!DNL Workfront]  간의 에셋 메타데이터 매핑 구성 [!DNL Experience Manager Assets]에 설명된 대로 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)에서 메타데이터 스키마를 구성합니다.
 
 
 1. Workfront에서 사용자 정의 양식 필드를 구성합니다. [!DNL Workfront]에 사용할 수 있는 기본 제공 사용자 지정 필드가 많습니다. 그러나 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 필드를 만들 수도 있습니다.
@@ -151,7 +151,7 @@ Workfront 지원 필드를 Experience Manager Assets의 태그에 매핑할 수 
 
 Experience Manager Assets에서 태그를 만들면 메타데이터 섹션의 태그 드롭다운 아래에 태그가 표시됩니다. 필드를 태그에 연결하려면 메타데이터 매핑 영역의 Experience Manager Assets 필드 드롭다운에서 `xcm:keywords`을(를) 선택합니다.
 
-태그를 만들고 관리하는 방법을 포함하여 Experience Manager Assets의 태그에 대한 자세한 내용은 [태그 관리](https://experienceleague.adobe.com/ko/docs/experience-manager-64/administering/contentmanagement/tags)를 참조하십시오.
+태그를 만들고 관리하는 방법을 포함하여 Experience Manager Assets의 태그에 대한 자세한 내용은 [태그 관리](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)를 참조하십시오.
 
 **Experience Manager Assets 사용자 지정 메타데이터 스키마 필드**
 
@@ -240,34 +240,39 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials로 문서를 
 문서를 전송하려면:
 
 1. Workfront의 **문서** 영역으로 이동하여 보낼 문서를 선택하십시오.
-1. **보내기**&#x200B;를 클릭한 다음 관리자가 설정한 Experience Manager 통합을 선택합니다.
+1. 화면 맨 아래의 표시줄에서 **보내기**&#x200B;를 클릭합니다.
+
+1. 관리자가 설정한 Experience Manager 통합을 선택한 다음 **보내기**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
    >Workfront 관리자는 이 통합에 사용할 이름을 선택할 수 있으므로 Assets 또는 Assets Essentials에 대해 구체적으로 언급하지 않을 수 있습니다.
 
-   ![전송 대상](assets/send-to-aem.png)
 
 1. 에셋을 이동할 위치를 선택한 다음 **폴더 선택**&#x200B;을 클릭합니다.
-1. 원하는 대상을 찾으면 **저장**&#x200B;을 클릭하세요.
 
-### 새 버전 보내기
 
-이전에 Workfront에 업로드한 문서에 새 버전을 추가할 수 있습니다. 자세한 내용은 [새 문서 버전 업로드](/help/quicksilver/documents/managing-documents/upload-new-document-version.md)를 참조하십시오. 최신 버전이 업로드되면 Assets Essentials로 전송할 수 있습니다. Workfront의 매핑된 필드가 변경된 경우 새 버전은 전송 시 Assets Essentials의 메타데이터를 업데이트합니다.
+<!-- not sure if this is in yet
+
+### Send a new version
+
+You can add a new version to a document you have previously uploaded to Workfront. For more information, see [Upload a new version of a document](/help/quicksilver/documents/managing-documents/upload-new-document-version.md). After the latest version is uploaded, you can send it to Assets Essentials. If a mapped field in Workfront has changed, the new version updates the metadata in Assets Essentials when it sends.
 
 >[!IMPORTANT]
 >
->새 버전을 Workfront에 업로드하기 전에 파일 이름을 바꾸는 것이 좋습니다. 이전 버전과 정확히 동일한 파일 이름의 새 버전을 업로드하는 경우 Workfront에서 가장 최근 버전만 다운로드할 수 있습니다. 파일 이름과 관계없이 Experience Manager Assets 또는 Assets Essentials에서 모든 버전을 다운로드할 수 있습니다. <!--Is this still a thing with ESM?-->
+>Before you upload a new version to Workfront, we recommend renaming the file. If you upload a new version with the exact same file name as a previous version, only the most recent version can be downloaded from Workfront. All versions can be downloaded from Experience Manager Assets or Assets Essentials regardless of the file name. - is this accuate for ESM?
 
-최신 버전을 보내려면
+To send the most recent version:
 
-1. Workfront의 **문서** 영역으로 이동하여 문서를 찾습니다.
-1. **전송 대상**&#x200B;을 선택한 다음 관리자가 설정한 Experience Manager 통합을 선택하십시오.
+1. Go to the **Documents** area in Workfront, and locate the document.
+1. In the bar at the bottom of the screen, click **Send to**. 
+
+1. Choose the Experience Manager integration your administrator set up, then click **Send**.
 
    >[!NOTE]
    >
-   >Workfront 관리자는 이 통합에 사용할 이름을 선택할 수 있으므로 Assets 또는 Assets Essentials에 대해 특별히 언급하지 않을 수 있습니다.
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
 
-   ![전송 대상](assets/send-to-aem.png)
-
-1. **저장**&#x200B;을 클릭합니다. 새 버전이 이전 버전과 동일한 위치에 저장됩니다.
+1. Click **Save**. The new version saves in the same location as the previous version.
+ 
+ -->

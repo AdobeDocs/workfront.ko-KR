@@ -6,10 +6,10 @@ description: 템플릿을 프레임워크로 사용하여 Adobe Workfront에서 
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront 라이선스</td> 
@@ -165,7 +165,7 @@ ht-degree: 1%
       * 템플릿의 모든 작업 수
       * 템플릿 사용자 정의 양식의 이름
 
-   1. (선택 사항) 왼쪽 창의 템플릿 이름 위에 마우스를 놓고 **즐겨찾기** **아이콘** ![즐겨찾기 아이콘](assets/favorites-icon-small.png)을 클릭하여 나중에 사용할 수 있도록 즐겨찾기로 표시합니다.
+   1. (선택 사항) 왼쪽 패널의 템플릿 이름 위에 마우스를 놓고 **즐겨찾기** **아이콘** ![즐겨찾기 아이콘](assets/favorites-icon-small.png)을 클릭하여 나중에 사용할 수 있도록 즐겨찾기로 표시합니다.
 
       또는
 

@@ -6,10 +6,10 @@ description: 문서의 승인자로 할당된 경우 여러 가지 방법으로 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 0%
+source-wordcount: '1178'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 문서의 승인자로 할당된 경우 여러 가지 방법으로 승인 결정을 내릴 수 있습니다.
 
-새 문서 승인 만들기에 대한 자세한 내용은 [문서 검토 또는 승인 요청 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
+새 문서 승인 만들기에 대한 자세한 내용은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 
 <table style="table-layout:auto"> 
@@ -34,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
    * **승인**: 문서를 변경할 필요가 없으며 사용할 준비가 되었습니다.
    * **변경 사항과 함께 승인**: 문서를 변경해야 하며, 문서를 사용할 준비가 되었습니다. 추가 승인이 필요하지 않습니다.
-   * **작업 필요**: 문서를 변경해야 하며 사용할 준비가 되지 않았습니다. 지정된 변경 사항이 적용되면 문서를 새 버전으로 업로드하고 다른 승인을 거쳐야 합니다. 새 버전을 업로드하는 방법에 대한 자세한 내용은 이 문서에서 [필요에 따라 새 버전 만들기](#create-a-new-version-as-needed)를 참조하십시오.
+   * **작업 필요**: 문서를 변경해야 하며 사용할 준비가 되지 않았습니다. 지정된 변경 사항이 적용되면 문서를 새 버전으로 업로드하고 다른 승인을 거쳐야 합니다. 새 버전 업로드에 대한 자세한 내용은 [새 문서 버전 업로드 및 승인 요청](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)을 참조하십시오.
 
 결정을 내리면 문서 소유자에게 이메일을 통해 알림이 전송됩니다.
 

@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 20%
+source-wordcount: '117'
+ht-degree: 18%
 
 ---
 
@@ -34,5 +34,6 @@ ht-degree: 20%
 * [프로젝트에 대한 타임라인 재계산 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
 * [사용자 정의 영역 활성화](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
 * [조직의 빠른 릴리스 활성화 또는 비활성화](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+* [조직을 위한 Adobe 엔터프라이즈 스토리지 활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
 * [위치 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
 * [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)

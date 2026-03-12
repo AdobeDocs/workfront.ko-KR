@@ -6,10 +6,10 @@ description: 업로드한 문서를 삭제할 수 있습니다. 특정 문서에
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 1%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +27,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p> 임의</p> </td> 
+   <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -50,13 +50,36 @@ ht-degree: 1%
 
 +++
 
+## 이전 문서 영역에서 문서 삭제
+
+조직이 기존 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. 기존 Workfront 스토리지에 대한 자세한 내용은 [기존 Workfront 스토리지와 Adobe 엔터프라이즈 스토리지의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md)을 참조하십시오.
+
 문서를 삭제하려면 다음을 수행합니다.
 
-1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 찾습니다.
 
 1. 문서 영역 위의 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다.
 
 1. 표시되는 상자에서 **예, 삭제**&#x200B;를 클릭하여 확인합니다.
 
-시스템 또는 그룹 관리자는 [삭제된 항목 복원](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)에 설명된 대로 문서를 삭제한 후 30일 이내에 복원할 수 있습니다.
+   시스템 또는 그룹 관리자는 [삭제된 항목 복원](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)에 설명된 대로 문서를 삭제한 후 30일 이내에 복원할 수 있습니다.
+
+   ![문서 삭제](assets/delete-documents-legacy.png)
+
+
+## 새 문서 영역에서 문서 삭제
+
+조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+
+문서를 삭제하려면 다음을 수행합니다.
+
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;을(를) 선택합니다.
+
+1. 필요한 문서를 찾은 다음 **삭제**&#x200B;를 클릭합니다.
+
+1. 표시되는 상자에서 **삭제**&#x200B;를 클릭하여 확인합니다.
+
+   시스템 또는 그룹 관리자는 [삭제된 항목 복원](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)에 설명된 대로 문서를 삭제한 후 30일 이내에 복원할 수 있습니다.
+
+   ![문서 삭제](assets/delete-documents-new.png)

@@ -6,10 +6,10 @@ description: 문서에 대한 관리 권한이 있는 사용자는 문서를 다
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 1%
+source-wordcount: '410'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p> 임의</p> </td> 
+   <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -58,16 +58,48 @@ ht-degree: 1%
 
 +++
 
-## 문서 이동
+## 이전 문서 영역에서 문서 이동
+
+조직이 기존 Workfront 스토리지를 사용하고 있는 경우 Workfront의 문서에 액세스하면 기존 문서 영역이 표시됩니다. Workfront 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지와 레거시 Workfront 스토리지의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)을 참조하십시오.
+
+문서를 이동하려면 다음을 수행합니다.
 
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 찾습니다.
 
 1. **이동** 아이콘 ![이동 아이콘](assets/move-document--25x19.png)을 클릭합니다.
+   ![페이지에서 아이콘 위치 이동](assets/move-doc-legacy.png)
+
 1. 나타나는 상자의 드롭다운 메뉴에서 **문제**, **프로젝트** 또는 **작업**&#x200B;을 클릭하여 문서를 이동할 개체 유형을 나타냅니다. 
 
 1. 텍스트 상자에 **문제**, **프로젝트** 또는 **작업**&#x200B;의 이름을 입력하십시오.
 
+   >[!NOTE]
+   >
+   >기존 Workfront 스토리지를 사용해야 다른 프로젝트, 작업 또는 문제로 이동할 수 있습니다.
+
 1. **마침**&#x200B;을 클릭합니다.
 
 문서 세부 정보 페이지에서 문서를 이동할 수도 있습니다.
+
+## 새 문서 영역에서 문서 이동
+
+조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+
+문서를 이동하려면 다음을 수행합니다.
+
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
+1. 필요한 문서를 찾습니다.
+1. 페이지 하단의 **이동**&#x200B;을 클릭합니다.
+
+![페이지에서 아이콘 위치 이동](assets/move-new-doc.png)
+
+1. 나타나는 상자의 드롭다운 메뉴에서 **문제**, **프로젝트** 또는 **작업**&#x200B;을 클릭하여 문서를 이동할 개체 유형을 나타냅니다.
+
+1. 텍스트 상자에 **문제**, **프로젝트** 또는 **작업**&#x200B;의 이름을 입력하십시오.
+
+   >[!NOTE]
+   >
+   >엔터프라이즈 스토리지를 사용해야 다른 프로젝트, 작업 또는 문제로 이동할 수 있습니다.
+
+1. **이동**&#x200B;을 클릭합니다.

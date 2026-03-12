@@ -6,10 +6,10 @@ description: 문서를 체크 아웃하여 다른 사용자가 해당 문서를 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 0%
+source-wordcount: '674'
+ht-degree: 2%
 
 ---
 
@@ -17,9 +17,14 @@ ht-degree: 0%
 
 문서를 체크 아웃하여 다른 사용자가 해당 문서를 삭제하거나 새 버전의 문서를 업로드하지 못하도록 할 수 있습니다. 한 번에 한 명의 사용자만 문서를 체크 아웃할 수 있습니다. Adobe Workfront에 업로드된 모든 문서는 물론 서드파티 문서 공급자(Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint 또는 기타 모든 사용자 지정 공급자)에 연결된 문서를 체크 아웃할 수 있습니다. 
 
+>[!NOTE]
+>
+>이 기능은 새 문서 영역에서 사용할 수 없습니다.<br>
+>조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +32,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
