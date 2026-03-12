@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1504'
 ht-degree: 1%
 
 ---
@@ -81,26 +81,23 @@ Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td>
+   <p>프로덕션 환경에서: </p>
    <p>레코드를 글로벌로 만들려면:</p>
    <ul><li>표준 이상</li></ul>
    <p>레코드를 연결 가능하게 만들려면:</p>
    <ul><li>시스템 관리자</li></ul>
 
-<!--
-   replace the above with this at release:
-   <p>To make a record global:</p>
-   <ul><li>Standard or higher</li></ul>
-   <p>To make a record connectable:</p>
-   <ul><li>In the Production environment:</li>
-   <ul><li>System Administrator</li></ul></ul>
-   -->
-<!--
-   <div class="preview">
-   <ul><li>In the Preview environment:</li>
-   <ul><li>Standard to make a record connectable from specific workspaces</li>
-   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+<div class="preview">
+
+<p>미리보기 환경에서:</p>
+   <p>레코드를 글로벌로 만들려면:</p>
+   <ul><li>표준 이상</li></ul>
+   <p>레코드를 연결 가능하게 만들려면:</p>
+
+<ul><li>특정 작업 영역에서 연결할 수 있는 레코드를 만드는 표준</li>
+   <li>모든 작업 영역에서 연결할 수 있는 레코드를 만드는 시스템 관리자</li></ul>
    </div>
-   -->
+
 
 </td> 
   </tr> 
@@ -273,17 +270,13 @@ this is a UI term; don't change the title of this section
 
 1. **다른 작업 영역에서 이 레코드 형식에 연결 허용** 설정을 사용합니다.
 
-   <!-- add new screen shot with new tab name-->
-
    ![다른 작업 공간에서 연결을 사용하도록 설정한 상태에서 작업 공간 간 설정 탭 편집](assets/edit-record-type-box-cross-workspace-settings-connectable-record-type-enabled.png)
 
    활성화되면 레코드 유형에 액세스하고 다른 작업 공간에서 연결할 수 있습니다.
 
-1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> 레코드 종류에 액세스할 수 있는 작업 공간을 선택합니다. 다음 선택 사항 중 하나를 선택합니다.
+1. <span class="preview">(조건부) 보유하고 있는 라이선스에 따라</span> 레코드 종류에 액세스할 수 있는 작업 영역을 선택하십시오. 다음 선택 사항 중 하나를 선택합니다.
 
-   <!--check names of the setting: System wide?? OR All workspaces??-->
-
-   * **모든 작업 영역**: 사용자는 관리 권한이 있는 모든 작업 영역에서 이 레코드 형식에 연결할 수 있습니다. <!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
+   * **모든 작업 영역**: 사용자는 관리 권한이 있는 모든 작업 영역에서 이 레코드 형식에 연결할 수 있습니다. <span class="preview">표준 라이선스가 있는 작업 영역 관리자의 경우 이 옵션이 흐리게 표시됩니다. 시스템 관리자만 모든 작업 영역에서 레코드 종류 연결을 설정할 수 있습니다.</span>
    * **특정 작업 영역**: 드롭다운 메뉴에서 작업 영역 관리자가 이 레코드 종류에 연결할 수 있는 작업 영역의 이름을 추가합니다.
 
 1. (조건부) **레코드 종류 편집** 상자에서 **저장**&#x200B;을 클릭하거나 페이지 헤더의 **설정** 왼쪽에 있는 뒤로 화살표를 클릭하여 변경 내용을 저장합니다.
