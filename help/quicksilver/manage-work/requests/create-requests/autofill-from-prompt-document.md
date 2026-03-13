@@ -5,9 +5,9 @@ description: AI를 사용하여 프롬프트를 입력하거나 문서를 제공
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 65bb04377c3d819de3df12a0dc9dfc3878152d51
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1390'
 ht-degree: 3%
 
 ---
@@ -189,7 +189,6 @@ AI에서 제공하는 양식 채우기는 프롬프트를 사용하여 요청을
 <td>
 <ul>
 <li>BMP</li>
-<li>CSV</li>
 <li>DOC</li>
 <li>DOCX</li>
 <li>GIF</li>

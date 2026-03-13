@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
+source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 2분기 릴리스의 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
+
+## Data Connect 연결을 위한 새 인증 옵션
+
+>[!NOTE]
+>
+>미리 보기: 2026년 3월 12일
+>프로덕션 빠른 릴리스: 2026년 3월 12일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+이제 RSA 키 또는 PAT(Programmatic Access Tokens) 연결을 사용하여 Data Connect를 인증할 수 있으므로 기존 사용자 이름/암호 자격 증명에 보다 안전하고 유연한 대안을 추가할 수 있습니다.
+
+이러한 새로운 옵션을 통해 조직은 사용자 기반 로그인 방법에 의존하지 않고 Power BI, Tableau 및 기타 타사 BI 도구에서 안정적인 연결을 유지할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>2026년 6월에 다단계 인증(MFA)을 사용하려면 사용자 이름/암호 자격 증명이 필요합니다. Data Connect에서 인증 프로세스에서 MFA에서 작동하지 않는 서드파티 시각화 도구, 데이터 프로세서 및 스크립트로 데이터를 로드하는 데 사용되는 서비스 사용자 계정의 경우 RSA 또는 PAT 기반 인증으로 전환하는 것이 좋습니다.
 
 ## 보고서를 작성할 때 표시되는 사용자 정의 필드 레이블
 
