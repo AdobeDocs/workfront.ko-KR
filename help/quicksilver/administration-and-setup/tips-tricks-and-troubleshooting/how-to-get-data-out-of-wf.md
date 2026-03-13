@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: bbd00374a6b291582cd03b9d0471d8547eb6ab7f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,7 @@ ht-degree: 0%
 
 * **비용:** 자세한 내용을 보려면 [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/)&#x200B;(으)로 이동하세요.
 
-## 데이터베이스 팀에 [!DNL Postgres] 데이터 덤프 파일 요청
 
-고객 지원 팀에 요청을 제출해야 합니다. 그러면 데이터베이스 팀에 요청을 제출하여 데이터가 포함된 데이터베이스 덤프 파일(.dmp [!DNL Postgres] 파일)을 내보냅니다. 저장된 모든 문서를 검색하기 위해 추가 요청이 NOC 팀에 전송됩니다.
-
-* **장점**: 사용자 지정 필드와 시스템에 저장된 문서를 포함하여 전체 데이터를 로드합니다.
-
-* **단점**: [!DNL Postgres] 데이터베이스에 업로드하고 테이블 간의 관계를 다시 설정하지 않으면 이 파일을 읽을 수 없습니다. 문서는 별도의 파일 서버에 저장되며 NOC 팀에서 별도의 프로세스를 사용하여 별도로 추출해야 합니다. 이렇게 하면 문서에 대한 조직이 없으며 해당 문서가 모두 GUID에 의해 참조됩니다.
-
-* **비용**: 팀이 파일을 만드는 데 걸리는 시간에 따라 이 다운로드와 관련된 비용이 있습니다. 자세한 내용을 확인하거나 이 프로세스를 시작하려면 AE/CAE에 문의하십시오.
 
 ## [!UICONTROL 킥스타트]를 통해 내보내기
 
