@@ -1,13 +1,13 @@
 ---
 title: 설정 영역에서 팀 설정 편집
 description: Adobe Workfront 관리자는 설정 영역에서 팀 설정을 편집할 수 있습니다. 팀에 사용자를 추가하고, 팀의 레이아웃 템플릿을 설정하고, 팀이 작업 항목을 완료할 때 상태를 기록하는 방법을 설정할 수 있습니다.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 963a7099aa673d6ac96b7058b9fcb745f325d21e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '595'
 ht-degree: 6%
 
 ---
@@ -35,14 +35,13 @@ Adobe Workfront 관리자는 설정 영역에서 팀 설정을 편집할 수 있
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td><p>새로운 기능: 표준</p>
-       <p>또는</p>
-       <p>현재: 플랜</p></td>
+   <td><p>표준</p>
+       <p>플랜</p></td>
   </tr> 
   </tr> 
   <tr> 
