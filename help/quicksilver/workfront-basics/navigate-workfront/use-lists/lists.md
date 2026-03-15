@@ -21,9 +21,9 @@ ht-degree: 0%
 
 이 섹션에는 목록에 대한 다음 문서가 포함되어 있습니다.
 
-* [ [!DNL Adobe Workfront]의 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
+* [&#x200B; [!DNL Adobe Workfront]의 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [목록에 빠른 필터 적용](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
-* [ [!DNL Adobe Workfront]의 목록에서 항목을 인라인 편집합니다.](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
+* [&#x200B; [!DNL Adobe Workfront]의 목록에서 항목을 인라인 편집합니다.](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
 * [목록 표시 방법 수정](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
 * [목록 내보내기](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)
 * [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)

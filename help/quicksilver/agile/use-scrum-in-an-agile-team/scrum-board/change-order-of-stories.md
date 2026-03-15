@@ -59,4 +59,4 @@ ht-degree: 3%
 
 애자일 반복과 달리 애자일 보기에서 프로젝트를 볼 때는 스토리 순서를 변경할 수 없습니다. 프로젝트의 스토리 순서를 수정하려면 표준 보기에서 프로젝트를 봐야 합니다.
 
-프로젝트 보기를 변경하는 방법에 대한 자세한 내용은 [[!UICONTROL Agile] 보기[!UICONTROL 에서 ]프로젝트 관리](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)를 참조하십시오. 애자일 보기를 선택하는 대신 표준 보기를 선택합니다.
+프로젝트 보기를 변경하는 방법에 대한 자세한 내용은 [[!UICONTROL Agile] 보기[!UICONTROL 에서 &#x200B;]프로젝트 관리](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)를 참조하십시오. 애자일 보기를 선택하는 대신 표준 보기를 선택합니다.

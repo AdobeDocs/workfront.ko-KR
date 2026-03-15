@@ -72,10 +72,10 @@ ht-degree: 4%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 준비]</strong></td>
-      <td>스토리를 이터레이션에 추가할 준비가 된 경우 이 옵션을 선택합니다. 이 옵션을 선택하면 백로그의 스토리를 이터레이션에 추가할 준비가 된 스토리가 사용자에게 표시됩니다.<br>스토리가 <strong>[!UICONTROL Ready](으)로 표시되어 있는지 여부에 관계 없이 반복에 스토리를 추가할 수 있습니다.</strong></td>
+      <td>스토리를 이터레이션에 추가할 준비가 된 경우 이 옵션을 선택합니다. 이 옵션을 선택하면 백로그의 스토리를 이터레이션에 추가할 준비가 된 스토리가 사용자에게 표시됩니다.<br>스토리가 <strong>[!UICONTROL Ready] (으)로 표시되어 있는지 여부에 관계 없이 반복에 스토리를 추가할 수 있습니다.</strong></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 예상](포인트)</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 예상] (포인트)</strong></td>
       <td>스토리에 대한 견적을 지정합니다. 민첩한 팀이 스토리를 포인트로 추정하도록 구성된 경우 기본적으로 1포인트는 8시간과 같습니다. 예측은 스토리에 [!UICONTROL 계획 시간]으로 추가됩니다.<br>예를 들어 스토리를 3점으로 예상하는 경우 기본 동작은 스토리에 24시간의 예정 시간을 추가하는 것입니다.<br>스토리에 하위 작업이 포함되어 있는 경우 모든 하위 작업에 대한 전체 추정치가 상위 스토리의 예측을 결정한다는 것을 기억하십시오. 자세한 내용은 <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md" class="MCXref xref">[!UICONTROL Scrum] 보드의 기존 스토리에 하위 작업 추가</a>를 참조하세요.</td>
      </tr>
      <tr>

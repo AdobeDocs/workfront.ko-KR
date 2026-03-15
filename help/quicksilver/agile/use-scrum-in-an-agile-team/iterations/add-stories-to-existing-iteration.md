@@ -17,7 +17,7 @@ ht-degree: 3%
 
 다음과 같은 방법으로 이터레이션에 스토리를 추가할 수 있습니다.
 
-* [애자일 백로그 관리[!UICONTROL 의 ]백로그에서 이터레이션으로 스토리 이동 또는 ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)간판[ 보드](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 섹션에 설명된 대로 이터레이션이 만들어진 후 백로그에서
+* [애자일 백로그 관리[!UICONTROL 의 &#x200B;]백로그에서 이터레이션으로 스토리 이동 또는 &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)간판[&#x200B; 보드](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) 섹션에 설명된 대로 이터레이션이 만들어진 후 백로그에서
 
 * 개별 작업 또는 문제의 [!UICONTROL 세부 정보] 페이지에서
 * 작업 또는 문제 목록에서
@@ -70,7 +70,7 @@ ht-degree: 3%
 * 다음과 같은 경우 이 작업에서는 반복의 종료 날짜를 사용합니다.
 
    * 프로젝트에 [!UICONTROL 계획된 완료 날짜]가 설정되어 있지 않습니다.
-   * 프로젝트의 [!UICONTROL 계획된 시작 날짜]는 반복의 시작 날짜 또는 *계획된 완료 날짜*&#x200B;보다 이전 또는 [!UICONTROL 일 ]이고, 프로젝트의 *계획된 완료 날짜는 반복의 종료 날짜 이전 또는*&#x200B;일 것입니다.
+   * 프로젝트의 [!UICONTROL 계획된 시작 날짜]는 반복의 시작 날짜 또는 *계획된 완료 날짜*&#x200B;보다 이전 또는 [!UICONTROL 일 &#x200B;]이고, 프로젝트의 *계획된 완료 날짜는 반복의 종료 날짜 이전 또는*&#x200B;일 것입니다.
 
 * 작업은 다음과 같은 경우 프로젝트의 [!UICONTROL 계획된 완료 날짜]를 사용합니다.
 
@@ -95,7 +95,7 @@ ht-degree: 3%
 또는
 이터레이션에 추가할 작업이나 문제가 포함된 프로젝트, 보고서 또는 대시보드로 이동합니다. 그런 다음 하나 이상의 작업 또는 문제를 선택합니다.
 
-1. **[!UICONTROL 추가]** ![기타 아이콘](assets/more-icon.png) > **[!UICONTROL 반복에 추가]**를 클릭합니다.
+1. **[!UICONTROL 추가]** ![기타 아이콘](assets/more-icon.png) > **[!UICONTROL 반복에 추가]**&#x200B;를 클릭합니다.
 비애자일 팀에 할당된 작업이나 문제는 할당할 수 없습니다.
 
 1. **[!UICONTROL 다음에 추가]** 상자에 반복 이름을 입력하고 목록에 나타나면 선택합니다.

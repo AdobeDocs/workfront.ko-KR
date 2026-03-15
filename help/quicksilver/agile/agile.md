@@ -25,7 +25,7 @@ ht-degree: 0%
 * [보드 시작: 문서 색인](../agile/get-started-with-boards/get-started-with-boards.md)
 * [보드에서 애자일 계획 도구 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
 * [애자일 개요](../agile/agile-overview.md)
-* [ [!DNL Adobe Workfront]에서 애자일 시작](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+* [&#x200B; [!DNL Adobe Workfront]에서 애자일 시작](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [애자일 팀의 칸반](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [애자일 팀의 스크럼](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [애자일 환경에서 작업](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)

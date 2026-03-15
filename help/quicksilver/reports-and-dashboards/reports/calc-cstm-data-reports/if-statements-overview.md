@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * **Condition Operator** = this is the operator that helps you build the condition of your &quot;IF&quot; statement. For example, &quot;is equal to&quot; or &quot;is greater than&quot; are condition operators. For a list of condition operators that you can use in statements, see [Condition operators in calculated custom expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True****Expression** = This is the &quot;True&quot; variable, which tells the equation which indicator to display once the criteria of the condition are met (true indicators).
+* **True**&#x200B;**Expression** = This is the &quot;True&quot; variable, which tells the equation which indicator to display once the criteria of the condition are met (true indicators).
 
 * **False Expression** = This is the &quot;False&quot; variable, which tells the equation which indicator to display when the criteria of the condition are not met (false indicators).
 

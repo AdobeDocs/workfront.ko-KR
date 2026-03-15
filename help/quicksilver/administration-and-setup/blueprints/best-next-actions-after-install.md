@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 템플릿 작업 기간 및 작업량 예측 업데이트 {#update-template-task-duration-and-effort-estimates}
 
-템플릿의 모든 작업에는 계획된 기간 및 계획된 투입 예상치가 포함됩니다. 이러한 예측은 이러한 활동에 대한 지속 시간 및 체류 시간의 시작점 역할을 합니다. 그러나 조직의 역량, 기술 및 페이스는 독특합니다. 각 작업의 예상 기간과 노력을 검토하여 조직의 요구 사항을 반영하도록 조정해야 합니다. 자세한 내용은 [작업 세부 정보 개요[!UICONTROL  영역]에서 ](../../manage-work/tasks/manage-tasks/task-information-in-overview.md)작업 정보 관리를 참조하십시오.
+템플릿의 모든 작업에는 계획된 기간 및 계획된 투입 예상치가 포함됩니다. 이러한 예측은 이러한 활동에 대한 지속 시간 및 체류 시간의 시작점 역할을 합니다. 그러나 조직의 역량, 기술 및 페이스는 독특합니다. 각 작업의 예상 기간과 노력을 검토하여 조직의 요구 사항을 반영하도록 조정해야 합니다. 자세한 내용은 [작업 세부 정보 개요[!UICONTROL &#x200B; 영역]에서 &#x200B;](../../manage-work/tasks/manage-tasks/task-information-in-overview.md)작업 정보 관리를 참조하십시오.
 
 ### 마일스톤 경로 및 마일스톤 연결 {#associate-a-milestone-path-and-milestones}
 

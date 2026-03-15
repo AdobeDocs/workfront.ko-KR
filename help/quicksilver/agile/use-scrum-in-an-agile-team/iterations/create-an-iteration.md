@@ -152,7 +152,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >  반복에 작업을 추가하면 [[!UICONTROL 작업 시작 날짜가 ]반복에 추가될 때 작업 시작 날짜가 계산되는 방법](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration)에 설명된 대로 작업 시작 날짜가 계산됩니다.
+   >  반복에 작업을 추가하면 [[!UICONTROL 작업 시작 날짜가 &#x200B;]반복에 추가될 때 작업 시작 날짜가 계산되는 방법](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration)에 설명된 대로 작업 시작 날짜가 계산됩니다.
 
 
 ## 이터레이션에 추가할 때 작업 시작 날짜를 계산하는 방법 이해 {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
