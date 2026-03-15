@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: manage-workfront
 title: 이메일
 description: Adobe Workfront의 이메일은 알림, 미리 알림 및 사용자 초대로 구성됩니다. 시스템 관리자는 많은 이메일 설정을 구성해야 하지만, 다른 사용자(액세스 수준에 따라 다름)는 이메일 기능을 사용하여 작업과 관련된 자신의 커뮤니케이션을 관리함으로써 다양한 이점을 얻을 수 있습니다.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -38,4 +38,4 @@ Workfront의 이메일(내부 및 외부 모두)은 다양하고 동적입니다
 * [자동 미리 알림 설정](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
 * [전자 메일 템플릿 구성](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)
 * [Adobe Workfront 응용 프로그램에서 전자 메일 허용](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
-* [새 사용자에 대한 이메일 초대 관리](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
+* [새 사용자를 위한 이메일 초대 관리](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)

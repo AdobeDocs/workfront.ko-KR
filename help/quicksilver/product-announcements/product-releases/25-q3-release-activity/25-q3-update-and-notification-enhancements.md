@@ -1,10 +1,11 @@
 ---
 title: 2025년 3분기 업데이트 및 알림 개선 사항
 description: 2025년 3분기 프로젝트 개선 사항
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: da73dc4e060e018e7a9254319bbaab6d333ce056
+exl-id: 26ed0bee-2fd4-480d-b55c-3c5a289d25b0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -30,5 +31,3 @@ ht-degree: 0%
 성능을 개선하기 위해 댓글에 사용자를 추가할 때 수정된 경험을 도입했습니다. 이제 &quot;사람 또는 팀 태그 지정&quot; 링크는 댓글에 사용자 또는 팀을 추가한 후에도 댓글 상자에 계속 유지됩니다. 이 변경 이전에는 댓글에 사람 또는 팀 추가를 시작한 후 &quot;사람 또는 팀 태그 지정&quot; 링크가 제거되었습니다. 이 변경 사항은 주석을 추가할 수 있는 모든 Workfront 오브젝트에 도입되었습니다.
 
 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
-
-

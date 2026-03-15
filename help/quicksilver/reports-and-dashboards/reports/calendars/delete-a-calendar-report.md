@@ -1,27 +1,27 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: 캘린더 보고서 삭제
-description: 자신이 소유하거나 다른 사람이 나와 공유한 캘린더를 삭제할 수 있습니다. 캘린더를 삭제하면 캘린더를 공유한 사용자가 캘린더에 액세스할 수 없게 됩니다.
-author: Jenny
+title: Delete a Calendar Report
+description: You can delete a calendar that you own or that others shared with you. Once deleted, the calendar becomes inaccessible to users with whom you have shared it.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
 # 캘린더 보고서 삭제
 
-자신이 소유하거나 다른 사람이 나와 공유한 캘린더를 삭제할 수 있습니다. 캘린더를 삭제하면 캘린더를 공유한 사용자가 캘린더에 액세스할 수 없게 됩니다.
+You can delete a calendar that you own or that others shared with you. Once deleted, the calendar becomes inaccessible to users with whom you have shared it.
 
-기존 대체 캘린더가 없으면 기본 캘린더를 삭제할 수 없습니다. 모든 달력을 삭제하려고 하면 기본 달력이 자동으로 만들어집니다.
+You can&#39;t delete your default calendar unless you have an existing alternative calendar. If you try to delete all of your calendars, the system automatically creates a default calendar for you.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +31,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -44,7 +44,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>캘린더 보고서를 삭제할 수 있는 액세스 권한과 함께 이 보고서에 대한 액세스 관리</td> 
+   <td>Manage access to the calendar report, with access to delete it</td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +56,9 @@ ht-degree: 2%
 
 ## 캘린더 보고서 삭제
 
-1. 삭제할 달력으로 이동합니다.
-1. 달력 드롭다운 메뉴 옆에 있는 **자세히** 메뉴를 클릭합니다.
-   ![일정 추가 메뉴](assets/more-menu-calendar.png)
+1. Go to the calendar you want to delete.
+1. Click the **More** menu next to the Calendar drop-down menu.
+   ![calendar more menu](assets/more-menu-calendar.png)
 
-1. 드롭다운 목록에서 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+1. Select **[!UICONTROL Delete]** from the drop-down list.
 1. **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.

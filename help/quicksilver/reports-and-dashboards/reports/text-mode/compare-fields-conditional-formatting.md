@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 조건부 서식의 필드 비교
 description: 조건부 서식을 사용하여 보기에서 두 개의 서로 다른 필드를 비교하고 필드 간에 특정 기준이 충족될 때 해당 필드를 강조 표시할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -44,7 +44,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서의 보기를 편집하려면 보고서에 대한 권한 관리</p> <p>보기에 대한 권한 관리</p></td> 
+   <td> <p>보고서에 대한 권한 관리를 통해 보고서에서 보기 편집</p> <p>보기에 대한 권한 관리</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,10 +63,10 @@ ht-degree: 1%
 1. (조건부) 보고서를 사용하는 경우 보고서 편집기의 **열(보기)** 탭에서 조건부 서식을 지정할 열의 헤더를 클릭하여 선택합니다.\
    예를 들어 계획된 시작 날짜와 실제 시작 날짜 필드를 비교하여 조건부 서식을 추가하려면 **실제 시작 날짜** 열을 선택합니다.
 
-1. **고급 옵션**&#x200B;을 클릭한 다음 이 열에 대한 **규칙 추가**&#x200B;를 클릭합니다.
+1. **고급 옵션**&#x200B;을 클릭한 다음 **이 열에 대한 규칙 추가**&#x200B;를 클릭합니다.
 
 1. 빌더에 있는 기존 값을 사용하여 비교 기준을 입력하고 조건부 서식을 지정합니다.\
-   예를 들어, 실제 시작 일자가 계획된 시작 일자보다 늦거나 큰 작업을 강조 표시하려고 합니다. 보다 큼 수정자를 선택하고 날짜 필드에서 실제 날짜를 선택합니다.
+   예를 들어 실제 시작 날짜가 계획된 시작 날짜보다 늦거나 큰 작업을 강조 표시하려고 합니다. 보다 큼 수정자를 선택하고 날짜 필드에서 실제 날짜를 선택합니다.
 
    ![실제 시작 날짜에 대한 조건부 서식](assets/cond-format-1-350x84.png)
 
@@ -90,7 +90,7 @@ ht-degree: 1%
    >[!NOTE]
    >
    >Workfront 네이티브 필드를 비교하는 경우 필드 이름에 카멜 대/소문자 구문을 사용하십시오. 사용자 지정 필드를 비교하는 경우 첫 번째 필드와 비교하는 이름 필드에 **DE:Actual 필드 이름**&#x200B;을(를) 사용하십시오.\
-   >예를 들어 **실제 시작 날짜**&#x200B;를 **배달 날짜**(으)로 레이블이 지정된 사용자 지정 필드와 비교하는 경우 텍스트 모드 코드에 다음 문을 추가하십시오.
+   >예를 들어, **실제 시작 날짜**&#x200B;를 **배달 날짜**&#x200B;라는 사용자 지정 필드와 비교하는 경우 텍스트 모드 코드에 다음 문을 추가하십시오.
    >
    >`styledef.case.0.comparison.rightmethod=DE:Delivery Date`
 

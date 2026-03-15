@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Kanban 개요
 description: 칸반 보드의 작동 방식을 더 잘 이해하려면 이 문서를 검토하십시오.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -32,7 +32,7 @@ K[!UICONTROL anban] 방법에 대한 설명은 [애자일 팀 만들기](/help/q
 
 **스토리 상태**: 스토리가 있는 상태 열에 따라 스토리가 진행되는 방식을 나타냅니다.
 
-자세한 내용은 [Kanban[!UICONTROL &#x200B; 보드에서 스토리 상태 업데이트]를 참조하십시오.](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)
+자세한 내용은 [Kanban[!UICONTROL  보드에서 스토리 상태 업데이트]를 참조하십시오.](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)
 
 [[!UICONTROL 다음 위치에서 보기 만들기 또는 편집]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)의 [애자일 보기 만들기 또는 사용자 지정 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 섹션에 설명된 대로 애자일 보기를 수정하여 프로젝트에 대해 스토리 상태를 사용자 지정할 수 있습니다.
 

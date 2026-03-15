@@ -4,13 +4,13 @@ keywords: 사용자,위임,보고서,위임,승인
 navigation-topic: create-and-manage-reports
 title: 사용자 위임 보고서 만들기
 description: 사용자 위임 보고서 만들기
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Workfront에서 사용자는 프로젝트, 작업 및 문제 승인을 다
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +49,7 @@ Adobe Workfront에서 사용자는 프로젝트, 작업 및 문제 승인을 다
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: '애자일 계획 도구 개요: 문서 색인'
 description: Ad Hoc 및 연결된 카드를 사용하여 보드를 만들 때 보드에서 추가 애자일 계획 도구를 활용할 수 있습니다.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%

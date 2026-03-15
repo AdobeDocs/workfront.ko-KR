@@ -3,15 +3,15 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: 보고 요소 개요
-description: 모든 Adobe Workfront 보고서와 목록은 세 가지 필수 요소인 보기, 필터 및 그룹화의 조합입니다.
-author: Nolan
+description: 모든 Adobe Workfront 보고서 및 목록은 보기, 필터 및 그룹화의 세 가지 필수 요소의 조합입니다.
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 2%
 
 <!-- Audited: 11/2024 -->
 
-모든 Adobe Workfront 보고서와 목록은 다음 세 가지 필수 요소의 조합입니다.
+모든 Adobe Workfront 보고서 및 목록은 다음 세 가지 필수 요소의 조합입니다.
 
 * 보기
 * 필터
 * 그룹화
 
-선택적으로, 보고서에 프롬프트 및 차트를 추가할 수도 있습니다.
+프롬프트와 차트를 보고서에 추가할 수도 있습니다(선택 사항).
 
 프롬프트 만들기에 대한 자세한 내용은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)를 참조하십시오.
 
-보고서에서 차트를 만드는 방법에 대한 자세한 내용은 [보고서에 차트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)를 참조하세요.
+보고서에서 차트를 만드는 방법에 대한 자세한 내용은 [보고서에 차트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)를 참조하십시오.
 
-이 섹션에는 다음 문서가 포함됩니다.
+이 섹션에는 다음 문서가 포함되어 있습니다.
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program)-->
 * [보고 요소: 필터, 보기 및 그룹화](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
@@ -42,13 +42,13 @@ ht-degree: 2%
 * [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfront에서 보기 만들기 또는 편집](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
 * [보기에서 조건부 서식 사용](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
-* Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 * [Adobe Workfront에서 그룹화 만들기](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 * [기존 그룹화 편집](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 * [Adobe Workfront에서 보기 만들기 또는 편집](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
-* [날짜 기반 와일드카드를 사용하여 보고서를 일반화하십시오](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
-* [사용자 기반 와일드카드를 사용하여 보고서를 일반화하십시오](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
+* [날짜 기반 와일드카드를 사용하여 보고서를 일반화](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
+* [보고서를 일반화하는 데 사용자 기반 와일드카드 사용](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
 * [필터, 보기 또는 그룹화 공유](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [필터, 보기 및 그룹화 제거](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
-* [마일스톤 보기 사용](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
+* [이정표 보기 사용](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
 * [열 너비 및 순서 수정](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)

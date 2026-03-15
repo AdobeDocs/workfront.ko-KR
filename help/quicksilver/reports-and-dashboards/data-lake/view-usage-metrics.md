@@ -4,13 +4,13 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Workfront Data Connect 사용 지표 보기
 description: Workfront Data Connect 지표 탭을 사용하여 월별 컴퓨팅 사용 시간과 수행된 쿼리 수에 따라 조직의 사용 지표를 볼 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 

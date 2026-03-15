@@ -2,19 +2,19 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
-title: Workfront의 그룹과 팀 비교
-description: 그룹 및 팀은 Adobe Workfront의 사용자 컬렉션입니다. 그룹과 팀 간의 차이점과 유사성에 대해 알아봅니다.
-author: Jenny and Becky
+title: Workfront의 그룹 및 팀
+description: 그룹 및 팀은 Adobe Workfront 사용자의 컬렉션입니다. 그룹과 팀 간의 차이점과 유사점에 대해 알아봅니다.
+author: Courtney and Becky
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
 
 ---
 
-# Workfront의 그룹과 팀 비교
+# Workfront의 그룹 및 팀
 
 <!-- Audited: 12/2023 -->
 
@@ -34,11 +34,11 @@ ht-degree: 1%
 
 ## 팀을 사용하여 부서 내의 작업 구조를 나타냅니다.
 
-부서 팀의 일상적인 작업 구조에 맞게 팀을 구성하는 것이 좋습니다.
+부서별 팀의 일상적인 작업 구조에 맞게 팀을 구성하는 것이 좋습니다.
 
-예를 들어 급여 팀, AP 팀 및 AR 팀이 있을 수 있습니다. 일반적으로 이러한 각 팀의 직원들은 해당 팀과 유사한 프로젝트, 작업 또는 문제에 대해 작업합니다.
+예를 들어, Payroll 팀, Accounts Payable 팀 및 Accounts Receivable 팀이 있을 수 있습니다. 일반적으로 이러한 각 팀의 사람들은 해당 팀과 유사한 프로젝트, 작업 또는 문제에 대해 작업합니다.
 
-팀을 만들고 관리하는 방법에 대한 자세한 내용은 [팀 만들기 및 관리](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)를 참조하세요.
+팀 만들기 및 관리에 대한 자세한 내용은 [팀 만들기 및 관리](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)를 참조하세요.
 
 ## 그룹 및 팀 기능 비교
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 | **기능** | **그룹** | **팀** |
 |---|---|---|
 | 플래너가 만들 수 있습니다. |  | ✓ |
-| Workfront 관리자만 만들 수 있습니다. | ✓ |  |
+| Workfront 관리자만 제작할 수 있습니다. | ✓ |  |
 | 개체 공유 | ✓ | ✓ |
 | 작업 할당 |  | ✓ |
 | 문제 할당 |  | ✓ |
@@ -58,11 +58,11 @@ ht-degree: 1%
 | 사람 또는 팀 영역에서 보기 |  | ✓ |
 | 작업 목록 보기 |  | ✓ |
 | 리소스 플래너에서 사용자 필터링 | ✓ | ✓ |
-| 업무 균형자에서 사용자 필터링 | ✓ | ✓ |
-| 활용성 보고서에서 사용자 필터링 | ✓ | ✓ |
-| 프로젝트 또는 템플릿에 대한 마일스톤 경로 가시성 | ✓ |  |
-| 사용자 지정 Forms 가시성 | ✓ |  |
-| 일정 가시성 | ✓ |  |
+| 작업 부하 분산 장치의 사용자 필터링 | ✓ | ✓ |
+| 사용률 보고서에서 사용자 필터링 | ✓ | ✓ |
+| 프로젝트 또는 템플릿의 이정표 경로 표시 | ✓ |  |
+| 사용자 정의 Forms 표시 | ✓ |  |
+| 일정 표시 | ✓ |  |
 | 타임시트 프로필 할당 | ✓ | ✓ |
 | 레이아웃 템플릿 할당 | ✓ | ✓ |
 | 플랜 라이선스가 있는 모든 사용자는 플랜을 다른 사용자에게 할당할 수 있습니다. |  | ✓ |

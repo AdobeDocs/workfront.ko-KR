@@ -1,14 +1,14 @@
 ---
 title: 분개 입력 보고서를 사용하여 갱신 영역에 대해 보고
 description: 저널 게시물 보고서는 이전에 Adobe Workfront API를 통해서만 사용할 수 있었던 프로젝트, 작업, 문제 및 기타 개체의 업데이트 영역에서 시스템 업데이트를 표시합니다. 특정 사용 사례를 위한 고급 보고서이지만, 보다 간편한 형식을 사용하면 Workfront 내의 프로젝트 활동 및 시스템 업데이트에 대해 보다 쉽게 보고할 수 있습니다.
-author: Nolan
+author: Courtney
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2763'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +41,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

@@ -3,22 +3,22 @@ filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
 title: ' [!DNL Workfront] 보드에 대한 초기 기능 옵트인'
-description: 이 문서를 읽고  [!DNL Workfront Boards] 초기 기능 옵트인에 대해 알아보십시오.
-author: Jenny
+description: 이 문서에서  [!DNL Workfront Boards] 초기 기능 옵트인에 대해 알아보십시오.
+author: Courtney
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
-# [!DNL Workfront] [!UICONTROL 보드]에 대한 초기 기능 옵트인
+# [!DNL Workfront] [!UICONTROL 게시판]에 대한 초기 기능 옵트인
 
-[!DNL Adobe Workfront] [!UICONTROL 보드]에 대한 초기 기능 옵트인이 2022년 7월에 시작되었습니다.
+[!DNL Adobe Workfront] [!UICONTROL 보드]에 대한 초기 기능 옵트인은 2022년 7월에 출시되었습니다.
 
-[!DNL Adobe Workfront] [!UICONTROL 보드]는 열과 카드가 포함된 공유 보드에 대한 액세스를 제공하여 팀 공동 작업을 허용하는 유연한 도구입니다.
+[!DNL Adobe Workfront] [!UICONTROL 보드]는 열과 카드가 포함된 공유 보드에 대한 액세스 권한을 제공하여 팀 공동 작업을 허용하는 유연한 도구입니다.
 
 보드에 대한 일반적인 정보는 [[!UICONTROL 보드] 개요](/help/quicksilver/agile/boards-overview.md)를 참조하십시오.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
    <td>릴리스됨</td>
   </tr>
     <tr>
-   <td>보드 및 Ad Hoc 카드 만들기</td>
+   <td>보드 및 임시 카드 만들기</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
@@ -45,7 +45,7 @@ ht-degree: 0%
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>보드 및 임시 카드 삭제 및 보관</td>
+   <td>보드와 임시 카드 삭제 및 보관</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ ht-degree: 0%
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>열에 [!UICONTROL 진행 중인 작업] 제한 추가</td>
+   <td>Add [!UICONTROL Work in Progress] limits to columns</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
@@ -77,7 +77,7 @@ ht-degree: 0%
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>업데이트된 필터</td>
+   <td>Updated filters</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
@@ -89,15 +89,15 @@ ht-degree: 0%
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>프로젝트별로 연결된 카드 필터링</td>
+   <td>Filter connected cards by project</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>카드 폴오프 정의</td>
+   <td>Define card falloff</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>게시판 검색 및 대시보드 정렬</td>
+   <td>Search for a board and sort the dashboard</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
@@ -105,7 +105,7 @@ ht-degree: 0%
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>열에서 카드 카운터 사용</td>
+   <td>열에 카드 카운터 사용</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
@@ -121,15 +121,15 @@ ht-degree: 0%
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>작업 스트림 만들기 및 작업 스트림에 보드 추가</td>
+   <td>Create workstreams and add boards to workstreams</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>반복 만들기</td>
+   <td>Create iterations</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>카드 목록 또는 백로그 정의</td>
+   <td>Define card list or backlog</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
@@ -137,7 +137,7 @@ ht-degree: 0%
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>카드의 필드 표시 사용자 지정</td>
+   <td>카드에 필드 표시 사용자 정의</td>
    <td>릴리스됨</td>
   </tr>  
   <tr>
@@ -153,15 +153,15 @@ ht-degree: 0%
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>보드에 대한 이메일 알림 정의</td>
+   <td>게시판에 대한 전자 메일 알림 정의</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>보드에 레거시 Kanban 카드 마이그레이션</td>
+   <td>기존 간판 카드를 보드로 마이그레이션</td>
    <td>이 기능은 2023년 5월 18일 프로덕션에서 사용할 수 있으며 초기 기능 옵트인의 일부가 아닙니다.</td>
   </tr>
   <tr>
-   <td>동적 보드 만들기</td>
+   <td>다이내믹 보드 만들기</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
@@ -169,11 +169,11 @@ ht-degree: 0%
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>접수 열에서 간소화된 필터 사용</td>
+   <td>접수 열에 단순화된 필터 사용</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>Ad Hoc 및 연결된 카드에 주석 사용</td>
+   <td>임시 및 연결된 카드에서 주석 사용</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
@@ -183,11 +183,11 @@ ht-degree: 0%
  </tbody>
 </table>
 
-## 초기 기능 옵트인
+## Opt in to early features
 
 ### 가용성
 
-보드에 대한 초기 기능은 모든 조직에서 사용할 수 있습니다. 관여는 완전히 선택 사항입니다.
+Early features for boards are available to all organizations. 관여는 완전히 선택 사항입니다.
 
 ### 옵트인
 
@@ -197,9 +197,9 @@ ht-degree: 0%
 
 1. 대시보드 화면 상단의 ![초기 기능 옵트인](assets/early-feature-opt-in-not-enabled.png)([!UICONTROL 초기 기능 옵트인])을 클릭합니다.
 1. **[!UICONTROL 사용]**&#x200B;을 클릭합니다.
-1. 보드의 초기 기능 사용을 시작합니다.
+1. Start using the early features of boards.
 
-## 피드백 제출
+## Submit feedback
 
 1. 게시판에 있는 동안 **[!UICONTROL 피드백]** 단추를 클릭하세요.
 1. 양식을 작성한 다음 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
@@ -208,17 +208,17 @@ ht-degree: 0%
 
 ### 조직에서 초기 기능을 옵트인했는지 어떻게 알 수 있습니까?
 
-보드에 대한 초기 기능을 활성화했는지 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+Contact your [!DNL Workfront] administrator to find out if they have enabled early features for boards.
 
 ### 특정 사용자에게만 초기 기능을 활성화할 수 있습니까?
 
 [!DNL Workfront] 관리자가 보드에 대한 초기 기능을 사용하도록 설정하면 조직의 모든 사용자가 옵트인됩니다.
 
-그러나 [!DNL Workfront] 관리자는 레이아웃 템플릿이 있는 개별 사용자 또는 사용자 그룹의 [!UICONTROL 기본 메뉴]에서 보드 옵션을 숨길 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴 사용자 지정]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하세요.
+However, the [!DNL Workfront] administrator can hide the Boards option from the [!UICONTROL Main Menu] for individual users or groups of users with a layout template. For information, see [Customize the [!UICONTROL Main Menu] using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
->사용자가 URL을 사용하여 보드에 액세스하는 것은 중지되지 않습니다. [!DNL Boards]기본 메뉴[!UICONTROL 에서 &#x200B;] 옵션을 볼 수 없도록 합니다.
+>This does not stop users from accessing boards using a URL. It only prevents them from seeing the [!DNL Boards] option in the [!UICONTROL Main Menu].
 
 ### 가입한 후 초기 기능을 옵트아웃할 수 있습니까?
 

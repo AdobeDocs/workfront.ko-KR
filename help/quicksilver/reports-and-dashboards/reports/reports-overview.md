@@ -4,11 +4,11 @@ product-area: reporting
 navigation-topic: reports-and-dashboards
 title: 보고서
 description: 다음 영역을 검토하여 Adobe Workfront의 보고에 대해 알아보십시오.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 1%

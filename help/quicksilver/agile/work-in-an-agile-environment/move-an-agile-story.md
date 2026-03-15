@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: 애자일 스토리 이동
-description: 애자일 스토리를 다른 반복(스크럼 팀의 경우)이나 백로그(Kanban 및 스크럼 팀의 경우)로 이동할 수 있습니다.
-author: Jenny
+description: 애자일 스토리를 다른 반복(스크럼 팀)이나 백로그(간판 및 스크럼 팀)로 이동할 수 있습니다.
+author: Courtney
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 # 애자일 스토리 이동
 
-애자일 스토리를 다른 반복(스크럼 팀의 경우)이나 백로그(Kanban 및 스크럼 팀의 경우)로 이동할 수 있습니다.
+애자일 스토리를 다른 반복(스크럼 팀)이나 백로그(간판 및 스크럼 팀)로 이동할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -29,10 +29,10 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스</td> 
    <td> <p>표준</p> 
    <p>작업 이상</p> </td> 
   </tr>
@@ -43,20 +43,20 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
-## 반복 또는 Kanban 보드에서 백로그로 스토리 이동
+## 이터레이션 또는 간판 보드에서 백로그로 스토리 이동
 
-1. 백로그로 이동할 스토리가 포함된 반복 또는 Kanban 보드로 이동합니다.
-1. 페이지 상단의 반복 머리글을 클릭합니다.
+1. 백로그로 이동하려는 스토리가 포함된 반복 또는 간판 보드로 이동합니다.
+1. 페이지 상단에 있는 이터레이션 머리글을 클릭합니다.
 1. **[!UICONTROL 스토리]** 탭에서 이동할 스토리를 선택합니다.
-1. **[!UICONTROL 자세히]** > **[!UICONTROL 이동]**&#x200B;을 클릭합니다. **[!UICONTROL 이동]** 대화 상자가 표시됩니다.
+1. **[!UICONTROL 자세히]** > **[!UICONTROL 이동]**&#x200B;을 클릭합니다. **[!UICONTROL 이동 위치]** 대화 상자가 표시됩니다.
 
    ![스토리 이동 대화 상자](assets/iteration-story-move.png)
 
-1. **team_name의 백로그**&#x200B;를 선택하십시오. 위의 예에서 팀 이름은 **마케팅**&#x200B;입니다.
+1. **team_name의 백로그**&#x200B;를 선택하십시오. 위의 예에서 팀 이름은 **Marketing**&#x200B;입니다.
 
 1. **[!UICONTROL 이동]**&#x200B;을 클릭합니다.
 
@@ -66,13 +66,13 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> **[!UICONTROL 이동]** 옵션은 반복의 상위 스토리에 사용할 수 없습니다. 하위 작업은 다른 반복으로만 이동할 수 있습니다.
+> **[!UICONTROL 이동]** 옵션은 반복의 부모 스토리에 사용할 수 없습니다. 하위 작업을 다른 이터레이션으로만 이동할 수 있습니다.
 
 
 1. 이동할 스토리가 포함된 반복으로 이동합니다.
-1. 페이지 상단의 반복 머리글을 클릭합니다.
+1. 페이지 상단에 있는 이터레이션 머리글을 클릭합니다.
 1. **[!UICONTROL 스토리]** 탭에서 이동할 스토리를 선택합니다.
-1. **[!UICONTROL 자세히]** > **[!UICONTROL 이동]**&#x200B;을 클릭합니다. **[!UICONTROL 이동]** 대화 상자가 표시됩니다.
+1. **[!UICONTROL 자세히]** > **[!UICONTROL 이동]**&#x200B;을 클릭합니다. **[!UICONTROL 이동 위치]** 대화 상자가 표시됩니다.
 
    ![스토리 이동 대화 상자](assets/iteration-story-move.png)
 
@@ -81,6 +81,6 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >작업 항목 [!UICONTROL 계획된 시작 일자] 및 [!UICONTROL 계획된 완료 일자]가 [!UICONTROL 팀 편집] 페이지의 설정에 영향을 받습니다. 자세한 내용은 문서 [[!UICONTROL 스크럼 구성]에서 &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)구성[, 작업 항목을 반복에 추가할 때 날짜가 적용되는 방법](../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 섹션을 참조하십시오.
+   >작업 항목 [!UICONTROL 계획 시작 날짜] 및 [!UICONTROL 계획 완료 날짜]는 [!UICONTROL 팀 편집] 페이지의 설정에 영향을 받습니다. 자세한 내용은 [[!UICONTROL 스크럼 구성] 문서의 ](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)이터레이션에 작업 항목을 추가할 때 날짜가 적용되는 방법[ 섹션을 참조하십시오.](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
 1. **[!UICONTROL 이동]**&#x200B;을 클릭합니다.

@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '보기: 사용자 개인 휴무'
-description: '보기: 사용자 개인 휴무'
-author: Nolan
+description: 'View: User Personal Time Off'
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 5%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
 -->
 
-사용자의 휴무 정보를 캡처하는 휴무 보고서를 작성할 수 있습니다.
+You can build a Time Off report to capture users&#39; time off information.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -57,33 +57,33 @@ ht-degree: 5%
 
 +++
 
-## 사용자 개인 휴무 보기
+## View user personal time off
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고서 > 새 보고서**&#x200B;를 클릭합니다.
-1. 드롭다운 메뉴에서 **휴무**&#x200B;를 선택합니다.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Reports > New Report**.
+1. From the drop-down menu, select **Time Off**.
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
-   이 보고서는 기본적으로 보기에 다음 필드를 표시합니다.
+   The report displays the following fields in the view by default:
 
-   | 사용자 | 프로필에 휴가를 표시한 사용자의 이름입니다. |
+   | 사용자 | The name of the user who indicated the time off in their profile. |
    |---|---|
-   | 시작 일자 | 사용자가 지정한 휴무 기간의 시작 일자. |
-   | 종료 일자 | 사용자가 지정한 휴무 기간의 종료 일자. |
+   | 시작 일자 | The Start Date of the period of time off that the user indicated. |
+   | 종료 일자 | The End Date of the period of time off that the user indicated. |
 
    {style="table-layout:auto"}
 
-1. (선택 사항) 다음 탭 중 하나를 편집하여 보고서 작성을 완료합니다.
+1. (Optional) Finish creating the report by editing any of the following tabs:
 
    * 열(조회)
    * 그룹화
    * 필터
    * 차트
 
-   보고서 만들기에 대한 자세한 내용은 문서 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
+   For information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
    >[!TIP]
    >
-   >보고서를 더 쉽게 읽을 수 있도록 사용자 개체에 대한 그룹화를 추가하는 것이 좋습니다.
+   >We recommend adding a grouping for the User object, to make the report easier to read.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Add Time Off information to a user report</h2>

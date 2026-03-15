@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 계산된 사용자 정의 표현식의 조건 연산자
 description: 텍스트 모드를 사용할 때 Adobe Workfront에서 계산된 사용자 지정 데이터를 작성할 때 조건 연산자 또는 수정자를 사용할 수 있습니다.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 2%
@@ -83,7 +83,7 @@ Workfront에서 다음 조건 수정자를 사용할 수 있습니다.
   <tr> 
    <td>다음이 아님 </td> 
    <td>! </td> 
-   <td> <p>위의 연산자 앞에 이 연산자를 추가하여 연산자를 무효화합니다. </p> <p>For example: </p> 
+   <td> <p>위의 연산자 앞에 이 연산자를 추가하여 연산자를 무효화합니다. </p> <p>예: </p> 
     <ul> 
      <li>같음: = </li> 
      <li>같지 않음: != </li> 

@@ -4,10 +4,10 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Data Connect 쿼리 예
 description: 예제 쿼리를 사용하여 특정 종류의 쿼리의 구문 및 구조를 숙지할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -182,10 +182,10 @@ FROM
 >[!NOTE]
 >
 >PowerBI 또는 Tableau에서 이 쿼리를 자체 &quot;보기&quot;로 사용하는 것이 좋습니다.  `<object>_event view`에서 다른 필드를 가져오려면 이 쿼리의 출력을 `<object>_event view`(으)로 다시 조인합니다.  조인 필드는 다음과 같습니다. <br>
->&#x200B;>projects_event의 경우 
->&#x200B;>`From projects_event p`
->&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
->&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>projects_event의 경우 
+>`From projects_event p`
+>`Join <above query> c on c.projectid = p.projectid  `
+>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

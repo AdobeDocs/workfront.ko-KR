@@ -3,20 +3,20 @@ content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: 작업 및 팀 요청 관리
-description: 요청은 보류 중인 작업 또는 문제 할당을 나타냅니다. 개인에게 작업 요청이 이루어지고, 팀에게 팀 요청이 이루어진다.
-author: Jenny
+description: 보류 중인 작업 또는 문제 할당을 나타내는 요청입니다. 개인에게 작업 요청이 이루어지고, 팀에게 팀 요청이 이루어진다.
+author: Courtney
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 # 작업 및 팀 요청 관리
 
-요청은 보류 중인 작업 또는 문제 할당을 나타냅니다. 개인에게 작업 요청이 이루어지고, 팀에게 팀 요청이 이루어진다.
+보류 중인 작업 또는 문제 할당을 나타내는 요청입니다. 작업 요청은 개인에게, 팀 요청은 팀에 이루어집니다.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,13 +32,13 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td>
    <p>요청을 할당하거나 작업하려면 다음을 수행합니다.
-   <p>밝거나 높음</p>
+   <p>가벼움 또는 그 이상</p>
   <p>검토 이상</p>
    <p>요청을 재할당하려면
    <p>표준</p>
@@ -62,8 +62,8 @@ ht-degree: 0%
 다음 방법 중 하나로 작업 및 문제에 팀을 할당할 수 있습니다.
 
 * [!UICONTROL 간트 차트]를 통해
-* 작업 또는 문제 목록에서(개별적으로 또는 일괄적으로)
-* 작업 또는 문제를 만들거나 수정할 때
+* 작업 또는 문제 목록에서(개별적으로 또는 대량으로)
+* 작업 또는 문제가 생성되거나 수정되는 경우
 * 요청에 대한 라우팅 규칙을 통해(문제만)
 
 이 섹션에 설명된 대로 팀 페이지에서 팀에 요청을 수동으로 할당할 수 있습니다.
@@ -80,15 +80,15 @@ ht-degree: 0%
 
 1. 열려 있는 상자에 정보를 입력합니다.
 1. **[!UICONTROL 요청 보내기]**&#x200B;를 클릭합니다.\
-   이제 팀에게 팀 요청 탭에 표시되는 새 작업이 할당됩니다. 이 작업은 현재 프로젝트와 연결되어 있지 않지만 [작업 이동](../../manage-work/tasks/manage-tasks/move-tasks.md)에 설명된 대로 이동할 수 있습니다.
+   이제 팀에게 팀 요청 탭에 표시되는 새 작업이 할당됩니다. 이 작업은 현재 프로젝트에 연결되어 있지 않지만 [작업 이동](../../manage-work/tasks/manage-tasks/move-tasks.md)에 설명된 대로 이동할 수 있습니다.
 
-## 요청 재할당 {#reassign-requests}
+## 요청 재지정 {#reassign-requests}
 
 팀에 할당된 요청을 재할당할 수 있습니다.
 
 {{step1-to-team}}
 
-1. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
+1. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색하십시오.
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 팀 요청]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 다시 할당]** 아이콘을 클릭합니다.
 

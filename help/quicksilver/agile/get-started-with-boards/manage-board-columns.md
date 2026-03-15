@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 보드 열 관리
 description: 새 보드에는 기본적으로 3개의 열이 있습니다. 열을 더 추가하고, 열의 순서를 변경하고, 열의 이름을 바꾸고, 필요하지 않은 열을 삭제할 수 있습니다. 열 정책을 정의할 수도 있습니다.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,10 +35,10 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스</td> 
    <td> 
    <p>기여자 이상</p> 
    <p>요청 이상</p>
@@ -47,7 +47,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -86,11 +86,11 @@ ht-degree: 0%
 보드에서 열을 삭제하면 복구할 수 없습니다.
 
 1. 보드에 액세스합니다.
-1. 열에서 **[!UICONTROL 기타]** 메뉴 ![기타 메뉴](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+1. 열에서 **[!UICONTROL 추가]** 메뉴 ![추가 메뉴](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
    >[!NOTE]
    >
-   >보관된 카드를 포함하여 카드가 포함된 열은 삭제할 수 없습니다. 카드가 들어 있는 열을 삭제하려는 경우 해당 카드에 대해 다른 열을 선택해야 합니다.
+   >보관된 카드를 포함하여 카드가 포함된 열은 삭제할 수 없습니다. 카드가 들어 있는 열을 삭제하려고 하면 해당 카드에 대해 다른 열을 선택해야 합니다.
 
 ## 카드 수 표시
 
@@ -113,10 +113,10 @@ ht-degree: 0%
 
 열 정책에는 필드 값을 자동으로 업데이트하는 것과 진행 중인 작업 제한 설정이 포함됩니다.
 
-상태 업데이트 정책은 카드와 열 모두에 대해 자동으로 작동합니다.
+상태를 업데이트하는 정책은 카드와 열 모두에 대해 자동으로 작동합니다.
 
-* 카드가 정책이 있는 열로 이동되면 카드 상태가 정책에 정의된 상태로 업데이트됩니다. 이 방법은 Ad Hoc과 연결된 카드 모두에 적용됩니다.
-* 카드의 Ad Hoc 또는 연결된 카드 상태가 정책의 열 상태와 일치하도록 업데이트되거나 연결된 카드 상태가 Workfront의 다른 곳에서 업데이트되면 카드가 자동으로 해당 열로 이동합니다. 또한 카드의 사용자 지정 상태가 열에 할당된 시스템 상태와 일치하는 경우 카드가 해당 열로 이동됩니다.
+* 정책이 있는 열로 카드를 이동하면 카드 상태가 정책에 정의된 상태로 업데이트됩니다. 이는 Ad Hoc 카드와 연결된 카드 모두에 적용됩니다.
+* 카드의 임시 카드 또는 연결된 카드 상태가 정책의 열 상태와 일치하도록 업데이트되거나 연결된 카드 상태가 Workfront의 다른 곳에서 업데이트되면 카드가 자동으로 해당 열로 이동됩니다. 또한 카드의 사용자 지정 상태가 열에 할당된 시스템 상태와 일치하는 경우 카드가 해당 열로 이동됩니다.
 
 카드 상태가 기존 열 정책에 설정된 상태와 일치하지 않으면 카드가 배치된 열에 남아 있습니다.
 
@@ -148,12 +148,12 @@ ht-degree: 0%
 1. (선택 사항) 카드 피할당자에 대한 값을 설정합니다.
 
    1. **[!UICONTROL 피할당자]** 확인란을 선택하십시오.
-   1. 작업을 선택합니다.
+   1. 작업을 선택하십시오.
 
-      * **[!UICONTROL 피할당자에 추가]:** 선택한 피할당자는 이 열로 이동할 때 카드의 기존 피할당자 목록에 추가됩니다.
-      * **[!UICONTROL 피할당자 재정의]:** 선택한 피할당자는 다른 모든 피할당자를 재정의하며, 이 열로 이동할 때 카드의 유일한 피할당자가 됩니다.
+      * **[!UICONTROL 할당자에 추가]:** 선택한 할당자는 이 열로 이동할 때 카드의 기존 할당자 목록에 추가됩니다.
+      * **[!UICONTROL 할당자 재정의]:** 선택한 할당자는 다른 할당자를 모두 재정의하고 이 열로 이동할 때 카드의 유일한 할당자가 됩니다.
 
-   1. [!UICONTROL **할당 추가**]&#x200B;를 클릭하고 사용자를 검색합니다. 검색 결과에서 피할당자를 선택합니다. 모든 Workfront 사용자 및 팀을 선택할 수 있습니다.
+   1. [!UICONTROL **할당 추가**]&#x200B;를 클릭하고 사용자를 검색합니다. 검색 결과에서 담당자를 선택합니다. 모든 Workfront 사용자 및 팀을 선택할 수 있습니다.
 
       ![열의 할당자](assets/boards-column-assignees.png)
 
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 1. 열에 추가할 수 있는 카드 수를 제한하려면 **[!UICONTROL 진행 중인 작업 제한]** 정책을 사용하도록 설정하십시오. **[!UICONTROL 제한 설정]** 필드에 제한 번호를 입력하십시오.
 
-   ![&#x200B; 열에 대한 &#x200B;](assets/boards-wip-limit-in-column.png)WIP 제한
+   ![ 열에 대한 ](assets/boards-wip-limit-in-column.png)WIP 제한
 
    자세한 내용은 [게시판에서 WIP(Work In Progress) 한도 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)를 참조하십시오.
 

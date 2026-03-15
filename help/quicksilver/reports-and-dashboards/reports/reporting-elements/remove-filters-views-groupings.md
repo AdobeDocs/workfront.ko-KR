@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 필터, 보기 및 그룹화 제거
 description: 목록 및 보고서를 만들었거나 사용자와 공유한 경우, 목록 및 보고서에서 필터, 보기 또는 그룹화를 제거할 수 있습니다. 기본 필터, 보기 또는 그룹화는 제거할 수 없습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</strong></td> 
@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-    <td> <p>제거할 필터, 보기 또는 그룹화에 대한 공유 액세스 권한이 있는 권한 보기</p></td> 
+    <td> <p>제거할 필터, 보기 또는 그룹화에 대해 공유할 수 있는 액세스 권한이 있는 보기</p></td> 
    </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 1. 프로젝트, 작업, 문제, 포트폴리오, 프로그램, 사용자, 템플릿 또는 그룹 목록으로 이동합니다.
 1. **필터** 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭합니다.
-1. 삭제할 권한이 있는 필터에 마우스를 가져다 대고 **자세히** 메뉴 ![추가 아이콘](assets/more-icon-spectrum.png)을 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+1. 삭제할 권한이 있는 필터 위로 마우스를 가져간 후 **자세히** 메뉴 ![자세히 아이콘](assets/more-icon-spectrum.png)을 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
    ![필터 삭제](assets/new-filters-more-menu-options-with-delete.png)
 

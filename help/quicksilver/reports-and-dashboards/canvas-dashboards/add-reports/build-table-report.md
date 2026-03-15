@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 캔버스 대시보드에서 표 보고서 작성
 description: 테이블 형식으로 데이터를 시각화하기 위해 캔버스 대시보드에 테이블 보고서를 추가할 수 있습니다.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1199'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>임의 </p> 
+<p>Any </p> 
    </td> 
 <tr> 
  <tr> 
@@ -208,7 +208,7 @@ ht-degree: 2%
 
 액세스 수준에서 재무 데이터에 대한 보기 또는 편집 액세스 권한이 있는 사용자는 작업 또는 프로젝트 수준에서 재무 보기 권한이 제거되더라도 여전히 캔버스 대시보드 시각화에 재무 데이터가 표시됩니다.
 
-* 액세스 수준에서 재무 데이터 권한이 없는 사용자에게는 보고서에서 재무 데이터가 표시되지 않습니다.
+* 액세스 수준에서 재무 데이터 권한이 없는 사용자에게는 보고서에 재무 데이터가 표시되지 않습니다.
 * 재무 데이터를 보는 사용자는 이미 볼 수 있는 권한이 있는 레코드(프로젝트, 작업, 문제 등)로 제한됩니다. 액세스할 수 없는 레코드에 대한 재무 값이 표시되지 않습니다.
 * 보고서 작성자는 대시보드에 재무 데이터를 포함할 때 주의해야 하며 의도하지 않은 액세스를 방지하기 위해 대시보드를 공유하는 사용자를 염두에 두어야 합니다.
 

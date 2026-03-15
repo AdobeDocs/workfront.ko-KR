@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '보기: 열의 콘텐츠 숨기기'
 description: 보기의 열에서 정보를 숨길 수 있습니다. 열의 텍스트 모드를 수정하여 이 작업을 수행할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-보기의 열에서 정보를 숨길 수 있습니다. 열의 텍스트 모드를 수정하여 이 작업을 수행할 수 있습니다.
+뷰의 열에서 정보를 숨길 수 있습니다. 열의 텍스트 모드를 수정하여 이 작업을 수행할 수 있습니다.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,13 +36,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
    <p>보기를 수정하기 위한 기여자 또는 요청 </p>
-   <p>표준 또는 보고서 수정 계획</p>
+   <p>표준 또는 계획: 보고서 수정</p>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -65,7 +65,7 @@ ht-degree: 0%
 1. 작업 목록으로 이동합니다.
 1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 클릭합니다.
 
-1. **열 추가**&#x200B;를 클릭하고 **이 열에 표시** 필드에 &quot;작업 번호&quot;를 입력한 다음 목록에 표시되면 선택합니다.
+1. **열 추가**&#x200B;를 클릭하고 **이 열에 표시** 필드에 &quot;작업 번호&quot;를 입력한 다음 목록에 표시될 때 선택하십시오.
 
 1. **텍스트 모드로 전환**&#x200B;을 클릭한 다음 **텍스트 모드 편집**&#x200B;을 클릭합니다.
 1. **텍스트 모드 편집** 상자에서 찾은 텍스트를 제거하고 다음 코드로 바꿉니다.

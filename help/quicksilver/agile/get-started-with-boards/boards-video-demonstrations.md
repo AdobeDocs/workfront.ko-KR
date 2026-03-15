@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: Workfront Boards 비디오 데모
 description: 이 비디오에서는 Adobe Workfront에서 사용할 수 있는 다양한 유형의 보드를 소개하고 일상적인 작업에서 보드를 사용하는 방법에 대한 예를 보여 줍니다.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -58,7 +58,7 @@ Kanban 보드에는 Workfront에서 작업 및 문제를 보드로 가져오기 
 
 보드는 일정 기간 동안 자신 또는 팀을 위해 작업을 계획하는 데 도움이 될 수 있습니다.
 
-[계획 게시판의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3416380/){target=_blank}
+[계획 보드의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3416380/){target=_blank}
 
 ### 하이브리드 작업 관리
 

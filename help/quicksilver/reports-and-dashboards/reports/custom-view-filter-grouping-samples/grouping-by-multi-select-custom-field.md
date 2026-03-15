@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 다중 선택 사용자 정의 필드로 보고서 그룹화
 description: 텍스트 모드를 사용해야만 Adobe Workfront 보고서의 다중 선택 사용자 지정 필드에 있는 값별로 그룹화할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 0%
 다중 선택 사용자 정의 필드의 예는 다음과 같습니다.
 
 * 확인란
-* 드롭다운 메뉴 다중 선택
+* 다중 선택 드롭다운 메뉴
 
 텍스트 모드 사용에 대한 자세한 내용은 문서 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
 
-## 다중 선택 사용자 정의 필드로 그룹화할 때의 고려 사항
+## 다중 선택 사용자 정의 필드로 그룹화할 때 고려 사항
 
-* 텍스트 모드 그룹화를 사용하는 보고서는 차트로 작성할 수 없습니다. 다중 선택 사용자 정의 필드를 참조하는 추가 계산된 필드를 만들어 다중 선택 사용자 정의 필드의 값으로 보고서를 차트로 작성해야 합니다.
+* 텍스트 모드 그룹화를 사용하는 보고서는 차트로 작성할 수 없습니다. 다중 선택 사용자 정의 필드를 참조하는 추가 계산된 필드를 생성하여 다중 선택 사용자 정의 필드 값으로 보고서를 차트로 표시해야 합니다.
 
   자세한 내용은 [다중 선택 사용자 지정 필드로 보고서 차트 만들기](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)를 참조하세요.
 * 선택한 항목이 있는 항목은 한 번만 카운트됩니다.
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,16 +47,16 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>필터 수정을 위한 기여자 또는 요청 </p>
-   <p>표준 또는 보고서 수정 계획</p>
+   <p>참여자 또는 필터 수정 요청 </p>
+   <p>보고서 수정을 위한 표준 또는 계획</p>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td role="rowheader">액세스 레벨 구성</td> 
    <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 필터 수정</p> </td> 
   </tr> 
   <tr> 
@@ -70,15 +70,15 @@ ht-degree: 0%
 
 +++
 
-## 다중 선택 사용자 정의 필드로 보고서 그룹화
+## 사용자 정의 필드를 다중 선택하여 보고서 그룹화
 
-다중 선택 사용자 지정 필드로 그룹화하려면 다음 사전 요구 사항이 있어야 합니다.
+다중 선택 사용자 정의 필드로 그룹화할 수 있으려면 다음과 같은 사전 요구 사항이 있어야 합니다.
 
-* 다중 선택 사용자 정의 필드를 사용자 정의 양식에서 작성합니다.\
-  사용자 정의 양식을 작성하고 사용자 정의 필드를 추가하는 방법에 대한 자세한 내용은 문서 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+* 사용자 정의 양식에서 다중 선택 사용자 정의 필드를 작성합니다.\
+  사용자 지정 양식을 작성하고 사용자 지정 필드를 추가하는 방법에 대한 자세한 내용은 문서 [사용자 지정 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
-* 사용자 정의 양식을 오브젝트에 첨부합니다.
-* 다중 선택 사용자 정의 필드를 각 오브젝트의 값으로 채웁니다.
+* 사용자 정의 양식을 개체에 첨부합니다.
+* 다중 선택 사용자 정의 필드를 각 개체의 값으로 채웁니다.
 
 보고서에서 다중 선택 사용자 정의 필드로 그룹화하려면 다음을 수행합니다.
 
@@ -91,16 +91,16 @@ ht-degree: 0%
 1. **그룹화 기준** 상자에서 텍스트를 선택하고 다음 코드로 바꿉니다.
 
    <pre>
-   group.0.displayname=다중 선택 사용자 지정 필드 이름
+   group.0.displayname=사용자 지정 필드 이름을 다중 선택합니다.
    group.0.valueexpression={DE:Multi-select Custom Field Name}
    group.0.valueformat=HTML
    group.0.textmode=true
    </pre>
 
-1. 다중 선택 사용자 정의 필드 이름 은 Workfront 인스턴스에 표시되므로 다중 선택 사용자 정의 필드의 실제 이름으로 바꿉니다.
+1. &quot;다중 선택 사용자 정의 필드 이름&quot;을 Workfront 인스턴스에 표시되는 다중 선택 사용자 정의 필드의 실제 이름으로 바꿉니다.
 1. **저장 후 닫기**&#x200B;를 클릭합니다.
 
-   보고서의 개체는 다중 선택 사용자 지정 필드의 값으로 그룹화됩니다.
+   보고서의 개체는 다중 선택 사용자 정의 필드의 값으로 그룹화됩니다.
 
    ![다중 선택 필드 그룹화](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 

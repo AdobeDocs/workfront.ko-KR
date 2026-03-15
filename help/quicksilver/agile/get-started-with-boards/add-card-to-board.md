@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 보드에 Ad Hoc 카드 추가
 description: Ad Hoc 카드를 보드에 빠르게 추가하고 보드에 있는 멤버에게 할당할 수 있습니다. 카드는 작업, 문제, 개인, 그룹 또는 보드에 포함할 모든 유형의 항목을 나타낼 수 있습니다.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -82,7 +82,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 상태]</strong> </td> 
-      <td>카드 상태를 선택합니다. 카드 상단에서 <strong>[!UICONTROL Mark Complete]</strong>을(를) 클릭하면 상태가 자동으로 [!UICONTROL Complete] (으)로 변경됩니다.</td> 
+      <td>카드 상태를 선택합니다. 카드 상단에서 <strong>[!UICONTROL Mark Complete]</strong>을(를) 클릭하면 상태가 자동으로 [!UICONTROL Complete](으)로 변경됩니다.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 기한]</strong></td> 

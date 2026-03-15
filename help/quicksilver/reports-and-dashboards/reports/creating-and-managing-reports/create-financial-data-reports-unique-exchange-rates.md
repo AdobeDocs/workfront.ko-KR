@@ -3,25 +3,25 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 고유 환율로 재무 데이터 보고서 만들기
 description: Adobe Workfront에 여러 환율이 구성된 경우 기본 통화 이외의 통화로 표시하도록 보고서 및 목록의 재무 값을 설정할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 고유 환율로 재무 데이터 보고서 만들기
+# 고유한 환율로 재무 데이터 보고서 생성
 
 <!-- Audited: 11/2024 -->
 
-Adobe Workfront에 여러 환율이 구성된 경우 기본 통화 이외의 통화로 표시하도록 보고서 및 목록의 재무 값을 설정할 수 있습니다.
+Adobe Workfront에 환율이 여러 개 구성된 경우 기본 통화가 아닌 다른 통화로 표시되도록 보고서 및 목록에 재무 값을 설정할 수 있습니다.
 
 >[!IMPORTANT]
 >
->보기에서 기본 통화 이외의 통화를 선택하면 프로젝트 목록 맨 아래에 더 이상 **작업 추가** 및 **문제 추가** 링크가 표시되지 않습니다.
+>보기에서 기본 통화 이외의 통화를 선택하면 프로젝트 목록 하단에 **작업 추가** 및 **문제 추가** 링크가 더 이상 표시되지 않습니다.
 
 특정 프로젝트의 기본 통화를 변경하는 방법에 대한 자세한 내용은 [프로젝트 통화 변경](../../../manage-work/projects/project-finances/change-project-currency.md)을 참조하십시오.
 
@@ -29,7 +29,7 @@ Adobe Workfront에 여러 환율이 구성된 경우 기본 통화 이외의 통
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Adobe Workfront에 여러 환율이 구성된 경우 기본 통화 이외의 통
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -48,7 +48,7 @@ Adobe Workfront에 여러 환율이 구성된 경우 기본 통화 이외의 통
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> </td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -69,8 +69,8 @@ Adobe Workfront에 여러 환율이 구성된 경우 기본 통화 이외의 통
 
 보고서 작업 시 통화 간에 재무 값을 변환하려면 다음을 수행합니다.
 
-1. 재무 값을 다른 통화로 변환할 보고서로 이동합니다.
-1. **보기** 드롭다운 목록을 클릭하고 **통화 변경**&#x200B;을 클릭한 다음, 다음 통화 중 재무 값을 표시할 통화를 선택하십시오.
+1. 재무 값을 다른 통화로 변환하려는 보고서로 이동합니다.
+1. **보기** 드롭다운 목록을 클릭하고 **통화 변경**&#x200B;을 클릭한 다음 재무 값을 표시할 통화 중 하나를 선택합니다.
 
    * 프로젝트의 원래 통화
    * 다른 통화 중 하나
@@ -111,19 +111,19 @@ Adobe Workfront에 여러 환율이 구성된 경우 기본 통화 이외의 통
 
    ![통화](assets/qs-currency-350x217.png)
 
-1. 두 프로젝트에 시간을 기록합니다.
+1. 두 프로젝트의 작업 시간을 기록합니다.
 
-   로깅 시간에 대한 자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md)을 참조하십시오.
+   로깅 시간에 대한 자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md)을 참조하세요.
 
-1. **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고**&#x200B;를 클릭합니다.
+1. **기본 메뉴** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고**&#x200B;를 클릭합니다.
 1. **새 보고서**&#x200B;를 클릭한 다음 **프로젝트 보고서**&#x200B;를 클릭합니다.
 1. **열(보기)** 탭에서 **실제 비용** 열을 추가하고 **합계**&#x200B;로 요약합니다.
 
    열을 만드는 방법에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
-1. **그룹화** 탭에서 **계획된 완료 일자** 그룹화를 적용합니다.
+1. **그룹화** 탭에서 **계획된 완료 날짜** 그룹화를 적용합니다.
 
-   그룹화를 만드는 방법에 대한 자세한 내용은 Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
+   그룹을 만드는 방법에 대한 자세한 내용은 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
 
 1. **필터** 탭에서 **프로젝트 이름**&#x200B;에 대한 필터를 추가하고 통화가 다른 두 프로젝트를 선택합니다.
 
@@ -137,23 +137,23 @@ Adobe Workfront에 여러 환율이 구성된 경우 기본 통화 이외의 통
 
 ## 프로젝트 수준의 보고서에 프로젝트 통화 표시
 
-그룹화가 프로젝트 내의 작업 또는 시간 목록에 적용되는 경우 그룹화의 합계는 프로젝트 통화로 표시됩니다.
+프로젝트 내의 작업이나 시간 목록에 그룹화가 적용된 경우 그룹화의 합계는 프로젝트 통화로 표시됩니다.
 
-1. 시스템 기본 통화가 아닌 사용자 지정 통화로 프로젝트를 만듭니다.
-1. 프로젝트로 이동하여 작업에 기록된 시간이 포함되어 있는지 확인합니다.
+1. 시스템 기본 통화가 아닌 사용자 정의 통화로 프로젝트를 만듭니다.
+1. 프로젝트로 이동하여 작업에 대해 기록된 시간이 포함되어 있는지 확인합니다.
 
-   로깅 시간에 대한 자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md)을 참조하십시오.
+   로깅 시간에 대한 자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md)을 참조하세요.
 
    >[!NOTE]
    >
-   >작업은 시간당 비용 비율이 있는 사용자 또는 작업 역할에 할당되어야 합니다.
+   >작업은 시간당 비용 비율로 사용자 또는 작업 역할에 할당되어야 합니다.
 
 1. **작업**&#x200B;을 클릭합니다.
 1. **보기** 드롭다운 메뉴를 확장하고 **새 보기**&#x200B;를 선택합니다.
 1. 새 보기에 **실제 비용**&#x200B;을(를) 새 열로 추가하고 **합계**&#x200B;로 요약합니다.
 1. **완료**&#x200B;를 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.
 1. **그룹화** 드롭다운 메뉴를 확장하고 **새 그룹화**&#x200B;을 선택합니다.
-1. 새 그룹화에 **실제 완료 날짜**&#x200B;를 새 필드로 추가한 다음 **그룹화 저장**&#x200B;을 클릭합니다.
+1. 새 그룹화에서 **실제 완료 날짜**&#x200B;를 새 필드로 추가한 다음 **그룹화 저장**&#x200B;을 클릭합니다.
 
    **실제 비용** 열은 새 그룹화에 요약되고 합계를 프로젝트 통화로 표시합니다.
 

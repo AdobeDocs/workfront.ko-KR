@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '그룹화: 그룹화에서 표시 이름 편집'
 description: 목록 및 보고서에서 그룹화의 이름을 사용자에게 보다 친숙한 이름으로 바꿀 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 그룹화의 이름을 사용자에게 보다 친숙한 이름으로 바꿀 수 있습니다.
 
-예를 들어 표준 Portfolio 이름 그룹화를 프로젝트 목록에 적용하면 그룹화의 이름이 *Portfolio: 이름:`<name of portfolio>`*(으)로 표시됩니다.
+예를 들어, 표준 Portfolio 이름 그룹화를 프로젝트 목록에 적용하는 경우 그룹화의 이름은 *Portfolio: 이름:`<name of portfolio>`*(으)로 나타납니다.
 
 ![편집되지 않은 이름으로 그룹화](assets/grouping-unedited-name-350x167.png)
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,16 +38,16 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
    <p>필터 수정을 위한 기여자 또는 요청 </p>
-   <p>표준 또는 보고서 수정 계획</p>
+   <p>보고서 수정을 위한 표준 또는 계획</p>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
+   <td role="rowheader">액세스 레벨 구성</td> 
    <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 필터 수정</p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ ht-degree: 0%
 프로젝트 그룹화에서 표시 이름을 변경하려면 다음과 같이 하십시오.
 
 1. 프로젝트 목록으로 이동합니다.
-1. **그룹화** 드롭다운 메뉴에서 **새 그룹화**&#x200B;을 선택합니다.
+1. **그룹화** 드롭다운 메뉴에서 **새 그룹화**&#x200B;를 선택합니다.
 
 1. **그룹화 추가**&#x200B;를 클릭하고 **그룹화 기준:** 필드에 &quot;Portfolio 이름&quot;을 입력한 다음 목록에 표시될 때 선택합니다.
 
@@ -99,6 +99,6 @@ ht-degree: 0%
      ![이름이 없는 편집된 이름으로 그룹화](assets/grouping-edited-name-no-name-350x162.png)
 
 1. **완료**&#x200B;를 클릭한 다음 **그룹화 저장**&#x200B;을 클릭합니다.
-1. (선택 사항) 그룹화 이름을 업데이트한 다음 **그룹화 저장**&#x200B;을 클릭합니다.
+1. (선택 사항) 그룹화 이름을 업데이트한 다음 **그룹화 저장**&#x200B;을 클릭하십시오.
 
    그룹화의 기본 이름은 텍스트 모드 정보에 따라 수정됩니다.

@@ -6,12 +6,12 @@ title: JumpSeat 통합 구성
 description: ' [!DNL JumpSeat] 을(를)  [!DNL Workfront] 과(와) 통합하여 사용자 지정 제품 내 지침을 만들 수 있습니다.'
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-author: Nolan, Becky
+author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table>
   <tr>
@@ -90,7 +90,7 @@ ht-degree: 6%
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 
@@ -111,4 +111,4 @@ https://{mycompanyname}.jumpseat.io
 
 >[!TIP]
 >
->[!DNL JumpSeat] 통합 구성에 대한 자세한 내용은 [!DNL JumpSeat]JumpSeat+Workfront[에 대한 &#x200B;](https://jumpseat.io/landing-page/jumpseat-workfront/) 설명서를 참조하십시오.
+>[!DNL JumpSeat] 통합 구성에 대한 자세한 내용은 [!DNL JumpSeat]JumpSeat+Workfront[에 대한 ](https://jumpseat.io/landing-page/jumpseat-workfront/) 설명서를 참조하십시오.

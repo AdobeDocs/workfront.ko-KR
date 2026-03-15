@@ -4,13 +4,13 @@ keywords: 저장,새로 만들기,보고서,복사
 navigation-topic: create-and-manage-reports
 title: 보고서 사본 만들기
 description: 액세스 권한이 있는 보고서의 복사본을 만들 수 있습니다. 사용자 지정 보고서의 정확한 사본을 만들거나 기본 보고서의 새 버전을 저장할 수 있습니다. 보고서를 복사하면 복사한 보고서의 소유자가 되어 내 보고서 섹션에 표시됩니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +30,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

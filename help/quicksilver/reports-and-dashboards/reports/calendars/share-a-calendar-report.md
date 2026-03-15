@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 캘린더 보고서 공유
 description: 다른 사용자와 캘린더를 공유할 수 있으며 공개적으로 사용할 수 있도록 하여  [!DNL Adobe Workfront] 라이선스가 없는 사람이 캘린더를 볼 수 있도록 합니다.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,10 +30,10 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스</td> 
    <td><p>라이트</p>
        <p>검토</p></td> 
   </tr> 
@@ -52,16 +52,16 @@ ht-degree: 1%
 
 +++
 
-## [!DNL Workfront]명의 사용자와 캘린더 공유 {#share-a-calendar-with-workfront-users}
+## [!DNL Workfront]명의 사용자와 일정 공유 {#share-a-calendar-with-workfront-users}
 
-캘린더를 공유하는 것은 다른 오브젝트를 공유하는 것과 비슷합니다. [!DNL Adobe Workfront]에서 개체를 공유하는 방법에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
+달력을 공유하는 것은 다른 개체를 공유하는 것과 비슷합니다. [!DNL Adobe Workfront]에서 개체를 공유하는 방법에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
 
-사용자가 공유한 캘린더가 캘린더 이름 옆에 별표(&#42;)로 표시됩니다.
+사용자와 공유된 캘린더는 캘린더 이름 옆에 별표(&#42;)로 표시됩니다.
 
-[!DNL Workfront] 내의 일정을 공유하려면:
+[!DNL Workfront] 내에서 캘린더를 공유하려면:
 
-1. 공유할 캘린더로 이동합니다.
-1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **공유**&#x200B;를 클릭합니다.
+1. 공유할 달력으로 이동합니다.
+1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **공유**를 클릭합니다.
    ![일정 추가 메뉴](assets/more-menu-calendar.png)
 1. **[!UICONTROL 일정 액세스 권한 부여]** 필드에서 일정을 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.\
    권한 설정에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하세요.
@@ -71,32 +71,32 @@ ht-degree: 1%
 
    * **[!UICONTROL 보기]:** 사용자는 일정을 검토하고 공유할 수 있습니다.
 
-     ![보기 액세스 권한과 일정 공유](assets/view-calendar.png)
+     ![보기 권한과 일정 공유](assets/view-calendar.png)
 
-   * **[!UICONTROL 관리]:** 사용자는 캘린더에 대한 전체 액세스 권한을 가지며, 액세스 수준에서 부여된 관리 권한과 모든 보기 권한을 제외합니다.
+   * **[!UICONTROL 관리]:** 사용자에게는 달력에 대한 모든 액세스 권한과 액세스 수준에서 부여된 관리 권한을 제외한 모든 보기 권한이 있습니다.
 
-     ![관리 액세스 권한으로 일정 공유](assets/manage-calendar.png)
+     ![관리 액세스 권한과 일정 공유](assets/manage-calendar.png)
 
      >[!NOTE]
      >
-     >[!DNL Workfront] 관리자와 일정 작성자는 이러한 엔터티에서 권한을 제거할 수 있습니다.
+     >[!DNL Workfront] 관리자 및 일정 작성자는 이러한 엔터티에서 권한을 제거할 수 있습니다.
 
-1. (선택 사항) 사용자의 역할에 따라 **[!UICONTROL 고급 옵션]**&#x200B;을 클릭한 다음 **[!UICONTROL 공유{3&#x200B;}를 클릭하여 사용자가 다른 사용자와 캘린더를 공유할 수 있도록 할 수 있습니다.]**
+1. (선택 사항) 사용자의 역할에 따라 **[!UICONTROL 고급 옵션]**&#x200B;을 클릭한 다음 **[!UICONTROL 공유]**&#x200B;을 클릭하여 사용자가 다른 사용자와 일정을 공유할 수 있습니다.
 
-   권한 수준에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
+   권한 수준에 대한 자세한 내용은 [개체에 대한 권한 공유 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
 
 1. (선택 사항) 모든 [!DNL Workfront] 사용자가 캘린더를 사용할 수 있도록 하려면 톱니바퀴 아이콘을 클릭한 다음, 드롭다운 메뉴에서 **[!UICONTROL 시스템 전체에 표시]**&#x200B;를 클릭하여 모든 [!DNL Workfront] 사용자가 개체를 사용할 수 있도록 합니다.\
    모든 사용자는 사용자가 설정한 권한에 따라 개체를 볼 수 있습니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 공개 링크와 캘린더 공유
+## 공개 링크로 달력 공유
 
-캘린더를 공개하고 [!DNL Workfront] 라이선스가 없는 사람과 링크를 공유할 수 있습니다.
+일정을 공개하고 [!DNL Workfront] 라이선스가 없는 사람과 링크를 공유할 수 있습니다.
 
-1. 공유할 캘린더로 이동합니다.
+1. 공유할 달력으로 이동합니다.
 1. **[!UICONTROL 일정 작업]**&#x200B;을 클릭한 다음 **[!UICONTROL 공유]**&#x200B;를 클릭합니다.
-1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭합니다.
+1. 달력 이름 옆에 있는 **자세히** 메뉴를 클릭합니다.
    ![일정 추가 메뉴](assets/more-menu-calendar.png)
 **공개 링크 복사**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
@@ -106,10 +106,10 @@ ht-degree: 1%
 [!DNL Workfront]명의 사용자와 개인 캘린더 링크를 공유할 수 있습니다. 사용자가 링크를 사용할 때 캘린더를 보려면 로그인해야 합니다.
 
 1. 공유할 캘린더로 이동합니다.
-1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **[!UICONTROL 공유 가능한 링크 가져오기]**&#x200B;를 클릭합니다.
+1. 일정 이름 옆에 있는 **자세히** 메뉴를 클릭한 다음 **[!UICONTROL 공유 가능한 링크 가져오기]**를 클릭합니다.
    ![일정 추가 메뉴](assets/more-menu-calendar.png)
 
    >[!NOTE]
    >
-   >[!DNL Workfront]명의 사용자가 캘린더에 액세스할 수 있어야 링크로 캘린더에 액세스할 수 있습니다. 액세스 권한을 부여하려면 [사용자 [!DNL Workfront] 와 일정 공유](#share-a-calendar-with-workfront-users)를 참조하세요.\
+   >[!DNL Workfront]명의 사용자가 링크를 사용하여 달력에 액세스하려면 달력에 액세스할 수 있어야 합니다. 액세스 권한을 부여하려면 [사용자 [!DNL Workfront] 와 일정 공유](#share-a-calendar-with-workfront-users)를 참조하세요.\
    >사용자에게 액세스 권한이 없는 경우 브라우저에 링크를 붙여넣은 후 요청할 수 있습니다.

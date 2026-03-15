@@ -3,29 +3,29 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: 대시보드에 요청 대기열 포함
 description: 요청 영역으로 이동할 필요 없이 새 요청 대기열을 대시보드에 포함하여 사용자에게 요청 대기열에 직접 액세스할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# 대시보드에 요청 대기열 포함
+# 대시보드에 요청 큐 포함
 
 <!-- Audited: 1/2025 -->
 
-요청 영역으로 이동할 필요 없이 새 요청 대기열을 대시보드에 포함하여 사용자에게 요청 대기열에 직접 액세스할 수 있습니다.
+새 요청 큐를 대시보드에 포함시켜 요청 영역으로 이동할 필요 없이 사용자에게 요청 큐에 대한 직접 액세스를 제공할 수 있습니다.
 
-예를 들어, 헬프 데스크 대기열과 같이 전체 조직에 열려 있는 요청 대기열이나 모든 사용자가 정기적으로 액세스해야 하는 PTO 요청 대기열이 있는 경우, 빠르고 쉽게 액세스할 수 있도록 요청 대기열을 대시보드 중 하나에 직접 삽입하는 것이 편리할 수 있습니다. 이를 설정하는 프로세스는 대시보드에 외부 페이지를 생성하는 프로세스와 유사합니다.
+예를 들어, 전체 조직에 열려 있는 요청 대기열(예: 헬프데스크 대기열 또는 모든 사용자가 정기적으로 액세스해야 하는 PTO 요청 대기열)이 있는 경우, 빠르고 쉽게 액세스할 수 있도록 요청 대기열을 대시보드 중 하나에 직접 삽입하는 것이 편리할 수 있습니다. 이를 설정하는 프로세스는 대시보드에 외부 페이지를 생성하는 프로세스와 유사합니다.
 
 먼저 요청 대기열에 대한 URL을 얻어야 합니다. 두 번째로 외부 페이지를 추가하여 URL을 대시보드에 포함할 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -53,7 +53,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 
 +++
@@ -68,11 +68,11 @@ ht-degree: 1%
 
 ## 요청 대기열의 URL 가져오기 {#obtain-the-url-of-the-request-queue}
 
-사용자가 대시보드에서 액세스할 때 표시할 요청 대기열의 부분에 따라 여러 가지 방법으로 요청 대기열의 URL을 가져올 수 있습니다.
+대시보드에서 액세스할 때 사용자에게 노출하려는 요청 큐의 부분에 따라 여러 방법으로 요청 큐의 URL을 가져올 수 있습니다.
 
-* [요청 유형을 변경할 수 있는 특정 대기열 주제에 대한 링크를 가져옵니다](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
+* [요청 유형을 변경할 수 있는 특정 큐 주제에 대한 링크 가져오기](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
 
-* [요청 대기열에 대한 링크 및 요청 유형을 변경할 수 있는 기능을 가져옵니다](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+* [요청 큐에 대한 링크 및 요청 유형을 변경할 수 있는 기능을 가져옵니다.](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
 
 * [요청 유형을 변경할 수 없는 요청 대기열에 대한 링크 가져오기](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
@@ -103,14 +103,14 @@ ht-degree: 1%
 
    프로젝트에서 요청 대기열을 만드는 방법에 대한 자세한 내용을 보려면 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)(으)로 이동하십시오.
 
-1. **대기열 세부 정보**(으)로 이동합니다.
+1. **큐 세부 정보**(으)로 이동합니다.
 1. **직접 액세스 URL** 필드에 있는 코드를 복사합니다.
 
    코드는 다음과 유사해야 합니다.
 
    `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
-   선택한 프로젝트와 연결된 요청 대기열에 대한 링크입니다. 요청 유형이 미리 선택됩니다.
+   선택한 프로젝트와 연결된 요청 큐에 대한 링크입니다. 요청 유형이 미리 선택되어 있습니다.
 
    사용자는 필요한 주제 그룹 또는 대기열 주제를 선택하거나 다른 요청 유형을 선택할 수 있습니다.
 
@@ -120,9 +120,9 @@ ht-degree: 1%
 
 미리 선택된 요청 유형에 대한 링크를 공유하는 경우 해당 사용자에 대해 요청 유형이 선택되고 변경될 수 없습니다(흐리게 표시됨). 사용자는 필요한 주제 그룹 또는 대기열 주제를 선택할 수 있습니다. 사용자가 다른 요청 유형을 보고 선택하지 않으려는 경우에 유용합니다. 요청 영역의 탐색이 표시되지 않습니다.
 
-1. 요청 대기열로 지정된 프로젝트로 이동합니다.
+1. 요청 큐로 지정된 프로젝트로 이동합니다.
 
-   프로젝트에서 요청 대기열을 만드는 방법에 대한 자세한 내용을 보려면 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)(으)로 이동하십시오.
+   프로젝트에서 요청 큐를 만드는 방법에 대한 자세한 내용을 보려면 [요청 큐 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)로 이동하십시오.
 
 1. **대기열 세부 정보**(으)로 이동합니다.
 1. **포함된 코드** 필드에 있는 코드를 복사합니다.
@@ -141,9 +141,9 @@ ht-degree: 1%
 
    선택한 프로젝트와 연결된 요청 대기열에 대한 링크입니다. 요청 유형은 미리 선택되었으며 변경할 수 없습니다.
 
-   사용자는 선택한 요청 유형에 필요한 주제 그룹 또는 대기열 주제를 선택할 수 있습니다. 사용자가 다른 요청 유형을 선택할 수 없습니다.
+   사용자는 선택한 요청 유형에 필요한 주제 그룹 또는 대기열 주제를 선택할 수 있습니다. 사용자는 다른 요청 유형을 선택할 수 없습니다.
 
-   ![요청 큐 코드](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![큐 코드 요청](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## 대시보드에 요청 대기열 포함
 
@@ -163,9 +163,9 @@ ht-degree: 1%
 
    * **이름**: 대시보드에 표시할 요청 대기열의 이름을 입력하십시오. 필수 필드입니다.
 
-   * **설명**: 이 외부 페이지에 표시할 설명을 입력하십시오. 이 필드는 필수 필드가 아니며 보고용으로만 중요합니다. 대시보드에 표시되지 않습니다.
+   * **설명**: 이 외부 페이지에 표시할 설명을 입력하십시오. 이 필드는 필수 필드가 아니며 보고 목적으로만 중요합니다. 대시보드에 표시되지 않습니다.
 
-   * **URL**: 1단계에서 설명한 방법 중 하나를 사용하여 얻은 URL을 붙여 넣습니다.
+   * **URL**: 1단계에서 설명한 메서드 중 하나를 사용하여 가져온 URL을 붙여 넣습니다.
 
    * **높이**: 외부 페이지의 높이를 입력하십시오. 요청 대기열이 포함된 외부 페이지가 대시보드에서 차지하는 공간을 정의합니다. 필수 필드이며 기본값은 500입니다.
 
@@ -175,7 +175,7 @@ ht-degree: 1%
 
    요청 대기열은 대시보드에 별도의 대시보드 구성 요소로 표시됩니다.
 
-1. (선택 사항) **대시보드 작업**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭하여 보고서, 캘린더 또는 추가 외부 페이지를 동일한 대시보드에 추가합니다.
+1. (선택 사항) 보고서, 일정 또는 추가 외부 페이지를 동일한 대시보드에 추가하려면 **대시보드 작업**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
    대시보드에 구성 요소를 추가하는 방법에 대한 자세한 내용은 [대시보드 만들기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)를 참조하십시오.
 

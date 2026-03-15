@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Adobe Workfront에서 필터 만들기 또는 편집
-description: 필터를 사용하여 항목 목록의 화면에 표시되는 정보의 양을 제한할 수 있습니다. 객체에 대한 특정 정보를 기준으로 특정 기준을 정의하고 해당 기준을 충족하는 객체만 표시할 수 있습니다.
-author: Nolan
+description: 필터를 사용하여 항목 목록에 화면에 표시되는 정보의 양을 제한할 수 있습니다. 객체에 대한 특정 정보를 기준으로 특정 기준을 정의하고 해당 기준을 충족하는 객체만 표시할 수 있습니다.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2375'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!-- Audited: 11/2024 -->
 
-필터를 사용하여 항목 목록의 화면에 표시되는 정보의 양을 제한할 수 있습니다. 객체에 대한 특정 정보를 기준으로 특정 기준을 정의하고 해당 기준을 충족하는 객체만 표시할 수 있습니다.
+필터를 사용하여 항목 목록에 화면에 표시되는 정보의 양을 제한할 수 있습니다. 객체에 대한 특정 정보를 기준으로 특정 기준을 정의할 수 있으며 해당 기준에 맞는 객체만 표시할 수 있습니다.
 
 Adobe Workfront에서 다음 유형의 필터를 적용할 수 있습니다.
 
@@ -33,7 +33,7 @@ Adobe Workfront에서 다음 유형의 필터를 적용할 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,12 +41,12 @@ Adobe Workfront에서 다음 유형의 필터를 적용할 수 있습니다.
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</strong></td> 
    <td> 
-    <p>필터 수정을 위한 기여자 또는 요청</p>
+    <p>참여자 또는 필터 수정 요청</p>
     <p>보고서에서 필터를 수정하는 표준 또는 계획</p>
    </td>
   </tr> 
@@ -144,8 +144,8 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해
   >      `OR`
   >      `B AND C`
   >
-  >1. 기존 인터페이스의 필터를 변경합니다.
-  >1. 표준 빌더로 다시 전환합니다. 필터 문은 위에서 설명한 대로 기존 빌더에서 지원되는 논리에 따라 표시됩니다.
+  >1. 레거시 인터페이스의 필터를 변경합니다.
+  >1. 표준 빌더로 다시 전환합니다. filter 문은 위에서 설명한 대로 legacy builder에서 지원되는 논리에 따라 표시됩니다.
   >
   >      필터는 다음과 같이 표준 빌더 인터페이스에 표시됩니다.
   >  
@@ -171,7 +171,7 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해
 
    ![표준 필터 빌더](assets/new-filters-all-filter-types.png)
 
-1. 다음 필터 목록을 검토하십시오.
+1. 다음 필터 목록을 검토합니다.
 
    <table style="table-layout:auto">
    <col>
@@ -279,7 +279,7 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해
 
    >[!TIP]
    >
-   >텍스트 모드에서만 지원되는 필터를 수정해야 하는 경우 표준 빌더 인터페이스를 사용하고 텍스트 모드만 사용하여 가능한 많은 필터를 빌드하는 것이 좋습니다.
+   >텍스트 모드에서만 지원되는 필터를 수정해야 하는 경우 표준 빌더 인터페이스를 사용하고 텍스트 모드만 사용하여 가능한 많은 필터를 만드는 것이 좋습니다.
 
    텍스트 모드 인터페이스를 사용하여 필터를 만드는 방법에 대한 자세한 내용은 [텍스트 모드를 사용하여 필터 편집](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)을 참조하십시오.
 
@@ -305,9 +305,9 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해
 
 1. **아이콘** 드롭다운 메뉴에서 새 필터의 아이콘을 선택합니다.
 
-   ![필터 아이콘 선택](assets/new-filter-select-icon.png)
+   ![필터의 아이콘 선택](assets/new-filter-select-icon.png)
 
-1. (선택 사항) 필터에 대한 설명을 추가하여 필터의 고유한 내용을 나타냅니다. 설명은 필터 목록의 필터 이름 아래에 표시됩니다.
+1. (선택 사항) 고유한 내용을 나타내는 필터 설명을 추가합니다. 설명은 필터 목록의 필터 이름 아래에 표시됩니다.
 
    >[!TIP]
    >
@@ -338,7 +338,7 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해
 
    * 다른 사용자와 필터를 공유하거나 시스템 전체에서 사용할 수 있도록 합니다. 자세한 내용은 [필터 공유, 보기 또는 그룹화](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)를 참조하세요.
 
-   * 더 이상 유효하지 않거나 중복되는 필터는 삭제하십시오. 소유한 필터만 삭제할 수 있습니다. 공유된 필터를 제거할 수 있습니다. 자세한 내용은 [필터, 보기 및 그룹화 제거](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)를 참조하십시오.
+   * 필터가 더 이상 유효하지 않거나 중복되면 삭제하십시오. 소유한 필터만 삭제할 수 있습니다. 공유된 필터를 제거할 수 있습니다. 자세한 내용은 [필터, 보기 및 그룹화 제거](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)를 참조하십시오.
 
 ## 기존 빌더에서 필터 만들기 또는 편집 {#create-filter-in-legacy-builder}
 
@@ -396,13 +396,13 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해
 
 1. (선택 사항) **텍스트 모드로 전환**&#x200B;을 클릭하여 텍스트 모드 인터페이스를 사용하여 필터를 추가합니다.
 
-   텍스트 모드 인터페이스를 사용하여 필터를 만드는 방법에 대한 자세한 내용은 [텍스트 모드를 사용하여 필터 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)을 참조하십시오.
+   텍스트 모드 인터페이스를 사용하여 필터를 만드는 방법에 대한 자세한 내용은 [텍스트 모드를 사용하여 필터 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)을 참조하세요.
 
 1. **필터 저장**&#x200B;을 클릭하여 필터를 만들거나 선택한 필터를 변경 내용으로 바꿉니다.
 
    또는
 
-   선택한 필터에서 새 필터를 만들려면 **새 필터로 저장**&#x200B;을 클릭합니다.
+   **새 필터로 저장**&#x200B;을 클릭하여 선택한 필터에서 새 필터를 만듭니다.
 
    새 필터가 필터 목록에 표시되고 선택한 목록 또는 보고서에 자동으로 적용됩니다.
 

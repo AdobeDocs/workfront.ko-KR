@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Adobe Workfront에서 그룹화 만들기
-description: 사용자 지정 그룹화를 처음부터 만들거나 기존 그룹화를 사용자 지정할 수 있습니다.
-author: Nolan
+description: 사용자 지정 그룹을 처음부터 만들거나 기존 그룹을 사용자 지정할 수 있습니다.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 1%
 
 보고서 또는 목록의 결과를 그룹화하여 구성할 수 있습니다. 그룹화는 특정 정보에 따라 정보를 분류합니다.
 
-사용자 지정 그룹화를 처음부터 만들거나 기존 그룹화를 사용자 지정할 수 있습니다. 아래 단계에 따라 그룹화를 처음부터 만듭니다.
+사용자 지정 그룹을 처음부터 만들거나 기존 그룹을 사용자 지정할 수 있습니다. 아래 단계에 따라 그룹을 처음부터 만듭니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,10 +33,10 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</strong></td> 
+   <td role="rowheader">Adobe Workfront 라이센스</strong></td> 
    <td> 
     <p>기여자</p>
     <p>요청</p>
@@ -49,32 +49,32 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td><p>보고서에서 그룹화를 편집하려면 보고서에 대한 권한 관리</p></td> 
+   <td><p>보고서에 대한 권한 관리 를 사용하여 보고서의 그룹을 편집합니다</p></td> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 ## 그룹화 만들기
 
-1. 사용자 지정 그룹화를 만들 보고서 또는 목록으로 이동합니다.
-1. **그룹화** 아이콘 을 클릭합니다.
+1. 사용자 지정 그룹을 만들 보고서 또는 목록으로 이동합니다.
+1. **그룹화** 아이콘을 클릭합니다.
 
    ![새 그룹화 선택](assets/newgrouping-nwe-standard-350x304.png)
 
-1. **+ 새 그룹화**&#x200B;을(를) 클릭합니다.
+1. **+ 새 그룹화**을(를) 클릭합니다.
 그룹화 시작을 만들기 위한 인터페이스 빌더입니다.
 
 1. **그룹화 미리 보기** 영역에서 **그룹화 추가**&#x200B;를 클릭하여 보고서의 정보를 구성하는 방법을 정의합니다. 보고서에서 그룹화가 표시되는 모양에 대한 미리보기가 아래에 표시되어 있습니다.
 
 1. 보고서에서 정보를 구성하는 방법을 나타내는 필드 이름을 입력한 다음 드롭다운 목록에 나타나면 해당 필드 이름을 클릭합니다.
-1. (선택 사항 및 조건부) 업데이트된 목록에서 그룹화를 작성할 때 그룹화의 결과를 확장하지 않고 축소되게 표시하려면 **기본적으로 이 그룹화를 축소**&#x200B;를 선택합니다. 이 설정은 기본적으로 비활성화되며 그룹화 결과는 항상 확장된 목록에 표시됩니다.
+1. (선택 사항 및 조건부) 업데이트된 목록에서 그룹화를 작성할 때 그룹화의 결과가 확장되지 않고 축소되도록 하려면 **기본적으로 이 그룹화 축소**&#x200B;를 선택하십시오. 이 설정은 기본적으로 비활성화되며 그룹화 결과는 항상 확장된 목록에 표시됩니다.
 
-   업데이트된 목록과 기존 목록에 대한 자세한 내용은 문서 [Adobe Workfront 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)에서 [업데이트된 목록과 기존 목록의 차이점](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) 섹션을 참조하십시오.
+   업데이트된 목록과 레거시 목록에 대한 자세한 내용은 문서 [Adobe Workfront에서 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)에서 [업데이트된 목록과 레거시 목록의 차이점](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) 섹션을 참조하십시오.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Edit existing grouping article and Common uses of text mode)</p>
@@ -82,8 +82,8 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >* 목록을 볼 때 수동으로 그룹화를 조정하면 Workfront은 로그아웃하기 전까지 수동 기본 설정을 기억합니다. 다시 로그인하면 이 설정에 따라 목록이 표시됩니다.
-   >* 차트 요소나 레거시 목록에서 그룹화에 액세스하면 그룹화 결과가 항상 확장되어 표시됩니다. 이러한 경우 이 설정은 무시됩니다.
+   >* 목록을 볼 때 그룹화를 수동으로 조정하면 Workfront은 로그아웃할 때까지 수동 환경 설정을 기억합니다. 다시 로그인하면 이 설정에 따라 목록이 표시됩니다.
+   >* 그룹화 결과는 차트 요소나 레거시 목록에서 확장된 값으로 액세스한 후에는 항상 표시됩니다. 이러한 경우 이 설정은 무시됩니다.
 
 1. 4, 5, 6단계를 반복하여 추가 그룹화를 정의합니다.\
    정보 구성을 위해 최대 3개의 그룹화를 정의할 수 있습니다. 매트릭스 보고서를 만들어 최대 4개의 그룹화로 정보를 추가로 구성할 수 있습니다. 매트릭스 보고서에 대한 자세한 내용은 [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)를 참조하십시오.
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 다음도 참조하십시오.
 
-* Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 * [보고 요소: 필터, 보기 및 그룹화](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 * [기존 그룹화 편집](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 

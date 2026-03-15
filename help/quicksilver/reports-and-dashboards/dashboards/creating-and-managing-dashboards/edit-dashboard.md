@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: 대시보드 편집
 description: 대시보드의 목적은 정보에 대한 빠른 액세스를 제공하는 것입니다. 대시보드를 보고서, 달력 및 외부 페이지로 채울 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 
 <table style="table-layout:auto"> 
@@ -44,7 +44,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -70,9 +70,9 @@ ht-degree: 2%
 
 ## 전제 조건
 
-대시보드를 편집하려면 먼저 대시보드를 만들어야 합니다.
+대시보드를 편집하려면 먼저 만들어야 합니다.
 
-대시보드를 만드는 방법에 대한 자세한 내용은 [대시보드 만들기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)를 참조하십시오.
+대시보드 만들기에 대한 자세한 내용은 [대시보드 만들기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)를 참조하세요.
 
 ## 대시보드 편집
 
@@ -90,11 +90,11 @@ ht-degree: 2%
    * **이름**: 대시보드 이름을 편집합니다.
    * **설명**: 대시보드에 대한 설명을 지정하십시오.
 
-1. **사용 가능한 보고서 및 일정** 섹션에서 검색 막대에 보고서, 일정 또는 외부 페이지의 이름을 입력한 다음 레이아웃 창의 보고서, 일정 또는 외부 페이지를 오른쪽으로 끌어서 놓습니다.
+1. **사용 가능한 보고서 및 일정** 섹션에서 검색 표시줄에 보고서, 일정 또는 외부 페이지의 이름을 입력한 다음 오른쪽에 있는 레이아웃 창에 보고서, 일정 또는 외부 페이지를 끌어 놓습니다.
 
    >[!NOTE]
    >
-   >항목을 검색할 때 가장 최근에 생성된 2,000개의 보고서 중 하나가 반환됩니다. 유니코드 문자가 포함된 보고서 이름은 검색 결과에 반환되지 않습니다. 다른 소스에서 이름을 복사하고 붙여넣는 대신 이름을 입력하여 Workfront에서 객체 이름을 지정할 때 유니코드 문자를 포함하지 않는 것이 좋습니다.
+   >항목을 검색하면 가장 최근에 생성된 2,000개의 보고서 중 하나가 반환됩니다. 유니코드 문자가 포함된 보고서 이름은 검색 결과에 반환되지 않습니다. 다른 소스에서 이름을 복사하고 붙여넣는 대신 이름을 입력하여 Workfront에서 개체의 이름을 지정할 때 유니코드 문자를 포함하지 않는 것이 좋습니다.
 
 1. (선택 사항) 원하는 레이아웃에 해당하는 라디오 단추를 클릭하여 대시보드에 대한 새 레이아웃을 선택합니다.
 1. (선택 사항) 기존 보고서의 이름 위로 마우스를 가져간 후 휴지통 아이콘을 클릭하여 대시보드에서 제거합니다.
@@ -102,6 +102,6 @@ ht-degree: 2%
 1. (선택 사항) 대시보드에 외부 페이지를 추가하려면 **외부 페이지 추가**&#x200B;를 클릭합니다.\
    또는\
    대시보드에서 기존 외부 페이지를 찾은 다음 그 위로 마우스를 가져간 다음 **편집** 아이콘을 클릭하여 외부 페이지를 편집합니다.\
-   대시보드에서 외부 페이지를 추가하거나 편집하는 방법에 대한 자세한 내용은 [외부 웹 페이지를 대시보드에 포함](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)을 참조하십시오.
+   대시보드에서 외부 페이지를 추가하거나 편집하는 방법에 대한 자세한 내용은 [대시보드에 외부 웹 페이지 포함](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)을 참조하세요.
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.

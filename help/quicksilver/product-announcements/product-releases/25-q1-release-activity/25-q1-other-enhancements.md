@@ -1,11 +1,11 @@
 ---
 title: 2025년 1분기 릴리스 일정 동안의 기타 개선 사항
 description: 2025년 1분기 릴리스 기간 동안의 기타 개선 사항
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >미리보기 릴리스: 2024년 11월 21일, 모든 고객을 위한 프로덕션 릴리스: 2024년 12월 5일
 
-Experience Manager Assets 및 Assets Essentials과 Adobe Workfront 통합을 사용할 때 이동 및 삭제된 에셋을 처리하는 방식이 변경되었습니다.
+Experience Manager Assets 및 Assets Essentials와 Adobe Workfront 통합을 사용할 때 이동 및 삭제된 에셋을 처리하는 방식이 변경되었습니다.
 
 * 삭제된 에셋: Assets 또는 Assets Essentials의 연결된 폴더 내에서 에셋이 삭제되면 삭제된 에셋은 프로젝트 문서 영역에 유지됩니다.
 * 이동된 에셋: 에셋을 Assets 또는 Assets essentials의 연결된 폴더 외부로 이동하면 이동된 에셋은 프로젝트 문서 영역에 유지됩니다.

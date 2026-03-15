@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '그룹화: Portfolio 소유자, 프로그램 소유자, 프로젝트 소유자 및 프로젝트 상태에 대한 4단계 작업 그룹화'
 description: 이 작업 그룹화는 4가지 수준의 그룹화를 제공합니다. 이 경우 작업은 Portfolio 소유자, 프로그램 소유자, 프로젝트 소유자 및 프로젝트 상태별로 그룹화됩니다. 표준 인터페이스를 사용하여 최대 3개의 그룹화 수준만 가질 수 있습니다. 네 번째 수준을 추가하려면 텍스트 모드를 사용해야 합니다. 보고서를 동시에 4개 이상의 기준으로 그룹화할 수 없습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a1780a57-b94c-4d3a-b526-9bf45dba21f1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '필터: 동일한 필드(''AND'' 문)를 참조하는 여러 필터 규칙을 만듭니다.'
 description: 표준 모드 인터페이스에서 동일한 필드를 참조하는 여러 필터를 만들려고 할 때(AND 한정자 사용) 보고서를 저장하고 Report Builder를 종료하면 필터 중 하나가 삭제됩니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-표준 모드 인터페이스에서 동일한 필드를 참조하는 여러 필터를 만들려고 할 때(AND 한정자 사용) 보고서를 저장하고 Report Builder를 종료하면 필터 중 하나가 삭제됩니다.
+표준 모드 인터페이스에서 동일한 필드를 참조하는 여러 필터를 생성하려고 할 때(AND 한정자 사용) 보고서를 저장하고 보고서 작성기를 종료하면 필터 중 하나가 삭제됩니다.
 
-**예:** 이름에 &quot;녹색&quot;이라는 단어는 들어 있지만 &quot;빨간색&quot;이라는 단어는 들어 있지 않은 작업만 볼 수 있습니다. Adobe Workfront에서는 동일한 필드(작업 이름)를 참조하지만 다른 수정자를 사용하고 다른 값을 참조하므로 표준 모드 인터페이스를 사용하여 다음 필터 규칙을 저장할 수 없습니다.
+**예:** &quot;녹색&quot;이라는 단어는 포함하지만 이름에 &quot;빨강&quot;이라는 단어는 포함하지 않는 작업만 볼 수 있습니다. Adobe Workfront에서는 동일한 필드(작업 이름)를 참조하지만 다른 수정자를 사용하고 다른 값을 참조하므로 표준 모드 인터페이스를 사용하여 다음 필터 규칙을 저장할 수 없습니다.
 
 * 작업 이름 > 포함 > 녹색
 * 작업 이름 > 포함하지 않음 > 빨간색
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,13 +37,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
    <p>필터 수정을 위한 기여자 또는 요청 </p>
-   <p>표준 또는 보고서 수정 계획</p>
+   <p>보고서 수정을 위한 표준 또는 계획</p>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >유사한 필터를 빌드하려면 먼저 첫 번째 문을 빌드합니다. For example:
+   >유사한 필터를 빌드하려면 먼저 첫 번째 문을 빌드합니다. 예:
    >
    >```
    >name=green

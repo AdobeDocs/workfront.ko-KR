@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: "이메일 알림: 기사 색인"
+title: '이메일 알림: 문서 색인'
 description: Adobe Workfront 관리자는 사용자를 위한 이벤트 알림, 미리 알림 및 이메일 템플릿을 구성할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94b07085-8e3d-4137-9820-38aaa257a3ed
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%

@@ -1,21 +1,21 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: 달력 보고서에서 예상 일자 사용
-description: 달력 보고서는 작업의 시각적 표현을 제공하는 동적 보고서입니다. 작업, 문제 및 프로젝트에 대해 달력 보고서의 예상 일자 필드를 사용할 수 있습니다.
-author: Jenny
+title: Use Projected Dates in a Calendar Report
+description: A calendar report is a dynamic report that provides a visual representation of your work. You can use Projected Date fields in a calendar report for tasks, issues, and projects.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# 일정 보고서에서 [!UICONTROL 예상 일자] 사용
+# Use [!UICONTROL Projected Dates] in a calendar report
 
-달력 보고서는 작업의 시각적 표현을 제공하는 동적 보고서입니다. 다음 객체에 대해 달력 보고서의 예상 일자 필드를 사용할 수 있습니다.
+A calendar report is a dynamic report that provides a visual representation of your work. You can use Projected Date fields in a calendar report for the following objects:
 
 * 작업
 * 문제
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -57,17 +57,17 @@ ht-degree: 1%
 
 ## 항목 그룹 설정
 
-항목 그룹을 캘린더에 표시할 방법을 선택할 수 있습니다.
+You can choose how you want the group of items to display on your calendar.
 
 {{step1-to-calendars}}
 
-1. 새 항목 그룹을 추가할 일정을 선택하고 기타 메뉴를 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+1. Select the calendar you want to add a new group of items, click the More menu, then **Edit**.
 또는
-**[!UICONTROL + 새 일정]**&#x200B;을 클릭하고 프로젝트 이름을 입력한 다음 **[!UICONTROL 고급 항목 추가]**&#x200B;를 클릭합니다.
+Click **[!UICONTROL + New Calendar]**, enter the project name, then click **[!UICONTROL Add advanced items]**.
 
    >[!NOTE]
    >
-   >캘린더 보고서를 만들려면 액세스 수준에 [!UICONTROL 보고서], [!UICONTROL 대시보드] 및 [!UICONTROL 캘린더]에 대해 [!UICONTROL 편집] 액세스 권한이 있어야 합니다.
+   >You must have [!UICONTROL Edit] access to [!UICONTROL Reports], [!UICONTROL Dashboards], and [!UICONTROL Calendars] in your access level to create a calendar report.
 
 1. 왼쪽의 **[!UICONTROL 일정에 추가]**&#x200B;를 클릭한 다음 **[!UICONTROL 고급 항목 추가]**&#x200B;를 클릭합니다.
 
@@ -78,15 +78,15 @@ ht-degree: 1%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 이 항목 그룹의 이름을 지정합니다.]</strong></td>
-      <td>항목 그룹의 이름을 입력합니다.</td>
+      <td role="rowheader"><strong>[!UICONTROL Name this group of items]</strong></td>
+      <td>Type a name for the group of items.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 색상]</strong></td>
-      <td>항목 그룹의 색상을 선택합니다. 모든 항목이 달력 보고서에 선택한 색상으로 표시됩니다.</td>
+      <td role="rowheader"><strong>[!UICONTROL Color]</strong></td>
+      <td>Select a color for the group of items. All items display in the selected color on the calendar report.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 날짜 필드]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
       <td><p><strong>[!UICONTROL 예상 날짜]</strong>을(를) 선택하십시오. 예상 일자에 대한 자세한 내용은 </p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">프로젝트 예상 시작 일자 개요</a></li>
@@ -99,7 +99,7 @@ ht-degree: 1%
        <ul>
         <li><strong>[!UICONTROL 시작 날짜만]</strong>: 캘린더에 개체가 단일 날짜에 표시됩니다.</li>
         <li><strong>[!UICONTROL 종료 날짜만]</strong>: 캘린더에 개체가 단일 날짜에 표시됩니다.</li>
-        <li><strong>[!UICONTROL Duration] (시작~끝)</strong>: 일정에서 일 범위에 걸쳐 개체를 표시합니다.</li>
+        <li><strong>[!UICONTROL Duration](시작~끝)</strong>: 일정에서 일 범위에 걸쳐 개체를 표시합니다.</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
@@ -115,7 +115,7 @@ ht-degree: 1%
 
 1. 다음 섹션을 계속합니다.
 
-## 항목 그룹에 개체 추가
+## Add objects to the group of items
 
 항목을 표시할 방법을 설정한 후에는 달력에 표시할 객체를 그룹화에 추가해야 합니다.
 
@@ -139,9 +139,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >특정 객체에 대해 기본 레이블 옵션을 사용할 수 없는 경우 객체 이름이 대신 표시됩니다. 예를 들어 [!UICONTROL 상위 작업] 레이블을 선택하고 개체와 연결된 상위 작업이 없으면 [!DNL Adobe Workfront]에 캘린더에서 보고 있는 개체 이름이 표시됩니다.
+   >If the default label options are not available for a certain object, the object name is shown instead. For example, when the [!UICONTROL Parent Task] label is selected and there is no parent task associated with the object, [!DNL Adobe Workfront] displays the object name you are viewing in the calendar.
 
-   ![작업 레이블 설정](assets/set-task-labels.png)
+   ![set task labels](assets/set-task-labels.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

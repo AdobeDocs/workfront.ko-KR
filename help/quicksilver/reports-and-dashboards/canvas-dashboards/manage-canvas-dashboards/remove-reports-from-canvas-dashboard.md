@@ -3,11 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 대시보드에서 보고서 제거
 description: 보고서를 추가한 후 대시보드에서 제거할 수 있습니다.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 대시보드에서 보고서를 제거하면 영구적으로 제거됩니다. 보고서가 삭제된 후 다시 추가해야 하는 경우 보고서를 다시 만들어야 합니다.
 
-+++ 를 확장하여 액세스 요구 사항을 확인합니다.
++++ 를 확장하여 액세스 요구 사항을 확인합니다. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -35,7 +35,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랜</p></td> 
    <td> 
-<p>임의 </p> 
+<p>Any </p> 
    </td> 
 <tr> 
  <tr> 

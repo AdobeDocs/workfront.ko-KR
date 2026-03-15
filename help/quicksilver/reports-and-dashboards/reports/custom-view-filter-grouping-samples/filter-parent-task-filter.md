@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '필터: 상위 작업 표시'
 description: 아래 작업 필터를 적용하여 작업 작업을 표시할 수 있습니다. 작업 작업은 독립적으로 작업할 수 있는 작업이며 다른 작업의 상위 작업이 아닙니다. 한 예에서 필터는 상위 자신일 수 있는 하위 작업을 식별합니다. 이 경우 작업이 아닙니다.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 1%
 
 <!--Audited: 10/2024-->
 
-아래 작업 필터를 적용하여 작업 작업을 표시할 수 있습니다. 작업 작업은 독립적으로 작업할 수 있는 작업이며 다른 작업의 상위 작업이 아닙니다. 한 예에서 필터는 상위 자신일 수 있는 하위 작업을 식별합니다. 이 경우 작업이 아닙니다.
+아래 작업 필터를 적용하여 작업 중인 작업을 표시할 수 있습니다. 작업 작업은 독립적으로 작업할 수 있는 작업이며 다른 작업의 상위 작업이 아닙니다. 한 예에서, 필터는 그들 자신이 부모일 수 있는 자식 태스크를 식별한다. 이 경우, 그들은 작업 하지 않습니다.
 
 >[!TIP]
 >
->* 보고서에 필터를 두 개 이상 추가하는 것이 좋다면 Report Builder 인터페이스를 사용하여 모든 필터를 추가하고, 다른 필터 규칙이 모두 추가된 후 텍스트 모드로 전환을 클릭하는 것이 좋습니다. 그런 다음 위에 언급된 대로 상위 작업 필터에 대한 코드를 추가할 수 있습니다. 
->* 또한 보고서를 읽기 쉽게 하려면 프로젝트 이름에 대한 그룹화를 추가하는 것이 좋습니다. 보고서에 그룹화를 추가하는 방법에 대한 자세한 내용은 문서 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
+>* 보고서에 필터를 두 개 이상 추가하는 것이 좋습니다. 보고서 작성기 인터페이스를 사용하여 모든 필터를 추가하고 다른 필터 규칙이 모두 추가된 후 텍스트 모드로 전환을 클릭하는 것이 좋습니다. 그런 다음 위에 설명된 대로 상위 작업 필터에 대한 코드를 추가할 수 있습니다. 
+>* 또한 보고서를 읽기 쉽게 하려면 [프로젝트 이름] 그룹을 추가하는 것이 좋습니다. 보고서에 그룹을 추가하는 방법에 대한 자세한 내용은 문서 [Adobe Workfront의 그룹 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
 >
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -69,7 +69,7 @@ ht-degree: 1%
 1. **작업 보고서**&#x200B;를 선택하십시오.
 1. **필터**&#x200B;를 클릭합니다.
 1. **필터 규칙 추가**&#x200B;를 클릭합니다.
-1. **필드 이름 입력 시작...** 줄에서 **하위 항목 수**&#x200B;를 입력한 다음 목록에 표시되면 **작업 >> 하위 항목 수**&#x200B;를 클릭합니다.
+1. **필드 이름 입력 시작...** 줄에 **자식 수**&#x200B;를 입력한 다음 목록에 표시되면 **작업 >> 자식 수**&#x200B;를 클릭하십시오.
 
 1. 수정자에 대해 **같음(대/소문자 구분)**&#x200B;을 선택한 다음, 하위 항목 수에 대해 **0**&#x200B;을(를) 입력하십시오.\
    ![상위 작업 필터](assets/parent-task-filter-from-the-ui-350x76.png)
@@ -101,7 +101,7 @@ ht-degree: 1%
 1. **필드 이름 입력 시작...** 줄에서 **상위 ID**&#x200B;을(를) 입력한 다음 목록에 표시될 때 **작업 >> 상위 ID**&#x200B;을(를) 선택합니다.
 1. 한정자에 대해 **Is Not Blank**&#x200B;을(를) 선택하십시오.
 
-   ![상위 ID가 비어 있지 않습니다](assets/filter-parent-id-not-blank-350x100.png)
+   ![부모 ID가 비어 있지 않습니다.](assets/filter-parent-id-not-blank-350x100.png)
 
    또는
 
@@ -127,13 +127,13 @@ ht-degree: 1%
 1. 수정자에 대해 **같음(대/소문자 구분)**&#x200B;을 선택한 다음, 하위 항목 수에 대해 **0**&#x200B;을(를) 입력하십시오.
 1. **다른 필터 규칙 추가**&#x200B;를 클릭합니다.
 1. **필드 이름 입력 시작...** 줄에서 **상위 ID**&#x200B;을(를) 입력한 다음 목록에서 **작업 >> 상위 ID**&#x200B;을(를) 선택합니다.
-1. 한정자에 대해 **Is Blank**&#x200B;를 선택합니다.
+1. 한정자에 대해 **비어 있음**&#x200B;을 선택합니다.
 
-   ![상위 ID가 비어 있고 하위 항목이 없습니다](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![부모 ID가 비어 있고 자식이 없습니다.](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    또는
 
-   6~10단계 <!--ensure steps above stay accurate--> 대신 **텍스트 모드로 전환**&#x200B;을 클릭하고 텍스트 편집 창에서 다음 텍스트를 복사하여 붙여 넣습니다.
+   6~10단계 <!--ensure steps above stay accurate--> 대신 **텍스트 모드로 전환**&#x200B;을 클릭하고 텍스트 편집 창에서 다음 텍스트를 복사하여 붙여넣습니다.
 
    ```
    numberOfChildren=0

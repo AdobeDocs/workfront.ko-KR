@@ -3,9 +3,9 @@ content-type: overview
 title: 요약 개요
 description: 요약 패널을 사용하여 작업 문제 목록, 문서 또는 작업 및 문제를 표시하는  [!DNL Adobe Workfront] 의 다른 영역에서 작업 항목 정보를 직접 검토하고 업데이트할 수 있습니다.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 [!UICONTROL 요약] 패널을 사용하여 작업, 문제, 문서 목록 또는 작업 및 문제를 표시하는 [!DNL Adobe Workfront]의 다른 영역에서 작업 항목 정보를 직접 검토하고 업데이트할 수 있습니다.
 
-Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필드를 수정할 수 있습니다. 요약 패널에 최대 16개의 필드를 추가할 수 있습니다.
+Workfront 또는 그룹 관리자는 [요약] 패널에 표시되는 영역과 필드를 수정할 수 있습니다. 요약 패널에 최대 16개의 필드를 추가할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -54,10 +54,10 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 업무 균형자]의 [!UICONTROL Unassigned] 및 [!UICONTROL Assigned] 작업 영역의 작업</td> 
+   <td>[!UICONTROL Workload Balancer]의 [!UICONTROL Unassigned] 및 [!UICONTROL Assigned] 작업 영역의 작업</td> 
   </tr> 
    <tr> 
-   <td>[!UICONTROL 타임시트]의 작업</td> 
+   <td>[!UICONTROL 작업표]의 작업</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>문제</b></td> 
@@ -71,10 +71,10 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 업무 균형자]의 [!UICONTROL 할당된 작업] 영역에서 문제</td> 
+   <td>[!UICONTROL Workload Balancer]의 [!UICONTROL Assigned Work] 영역에 있는 문제</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Requests] 영역의 [!UICONTROL Submitted] 섹션에 있는 문제</td> 
+   <td>[!UICONTROL Requests] 영역의 [!UICONTROL Submitted] 섹션에 문제가 있습니다.</td> 
   </tr> 
 </tr> 
    <tr> 
@@ -101,7 +101,7 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
 [!UICONTROL 업무 균형자]에서 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 [[!UICONTROL 요약]을(를) 사용하여 [!UICONTROL 업무 균형자]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)에서 작업 항목 업데이트를 참조하십시오.
 
-문서의 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 문서 개요[[!UICONTROL 의 &#x200B;]요약](../../documents/managing-documents/summary-for-documents.md)을 참조하십시오.
+문서의 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 [[!UICONTROL 문서의 요약] 개요](../../documents/managing-documents/summary-for-documents.md)를 참조하세요.
 
 
 ## 작업 또는 문제 목록에서 [!UICONTROL 요약] 패널 보기
@@ -111,17 +111,17 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
    또는
 
-   **[!UICONTROL 요청]** 영역의 ![제출됨](assets/open-summary-with-text-nwe.png) 섹션에서 [!UICONTROL 요약 열기] 아이콘 [!UICONTROL 텍스트가 있는 요약 열기]을 클릭합니다.
+   **[!UICONTROL 요청]** 영역의 ![제출됨](assets/open-summary-with-text-nwe.png) 섹션에서 [!UICONTROL 요약 열기] 아이콘 [!UICONTROL 텍스트가 있는 요약 열기]를 클릭합니다.
 
-   요약은 다른 작업 또는 문제를 클릭하거나 선택할 때 열려 있으며 수동으로 닫을 때까지 열려 있습니다.
+   요약을 연 후에는 다른 작업이나 문제를 클릭하거나 선택할 때 열려 있으며 수동으로 닫을 때까지 열려 있습니다.
 
    >[!TIP]
    >
-   >작업 또는 문제를 한 번에 하나만 선택하여 [!UICONTROL 요약] 패널에서 세부 정보를 볼 수 있습니다.
+   >한 번에 하나의 작업 또는 하나의 문제만 선택하여 [!UICONTROL 요약] 패널에서 해당 세부 정보를 볼 수 있습니다.
 
    ![요약 패널](assets/summary-panel-for-task-new-comments.png)
 
-1. (선택 사항) [!UICONTROL 요약] 패널을 닫으려면 다음 중 하나를 실행하십시오.
+1. (선택 사항) [!UICONTROL 요약] 패널을 닫으려면 다음 중 하나를 수행합니다.
 
    * 작업 또는 문제 목록에서 **[!UICONTROL 요약 열기]** 아이콘 ![요약 패널 아이콘](assets/summary-panel-icon.png)을 클릭합니다
 
@@ -133,7 +133,7 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
      또는
 
-     요약 패널의 오른쪽 위 모서리에 있는 **X** 아이콘을 클릭합니다.
+     [요약] 패널의 오른쪽 위 모서리에 있는 **X** 아이콘을 클릭합니다.
 
 ## [!UICONTROL 완료율]
 
@@ -145,13 +145,13 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
 ## [!UICONTROL 업데이트]
 
-[!UICONTROL 요약]의 [!UICONTROL 업데이트] 섹션을 사용하여 선택한 작업 또는 문제에 대한 최근 업데이트를 보고 업데이트하십시오. 작업의 **[!UICONTROL 업데이트]** 탭으로 직접 이동하려면 [!UICONTROL 모두 보기]를 클릭합니다.
+[!UICONTROL 요약]의 [!UICONTROL 업데이트] 섹션을 사용하여 최근 업데이트를 보고 선택한 작업 또는 문제에 대해 업데이트하세요. **[!UICONTROL 모두 보기]**&#x200B;를 클릭하여 작업의 [!UICONTROL 업데이트] 탭으로 바로 이동합니다.
 
-요약 패널의 ![업데이트 섹션](assets/summary-updates-section.png)
+![요약 패널의 업데이트 섹션](assets/summary-updates-section.png)
 
 ## [!UICONTROL 문서]
 
-선택한 작업 또는 문제에 첨부된 문서를 보려면 [!UICONTROL 요약]의 [!UICONTROL 문서] 섹션을 사용하십시오. 문서 미리보기를 열려면 썸네일을 클릭합니다. 작업 또는 문제의 [!UICONTROL 문서] 탭으로 바로 이동하려면 **[!UICONTROL 문서]** 제목을 클릭합니다.
+선택한 작업 또는 문제에 첨부된 문서를 보려면 [!UICONTROL 요약]의 [!UICONTROL 문서] 섹션을 사용하십시오. 축소판을 클릭하여 문서 미리 보기를 엽니다. 작업 또는 문제의 [!UICONTROL 문서] 탭으로 직접 이동하려면 **[!UICONTROL 문서]** 제목을 클릭합니다.
 
 요약 패널의 ![문서 섹션](assets/summary-documents-section.png)
 
@@ -183,8 +183,8 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
 ## 승인
 
-선택한 작업 또는 문제에 첨부된 승인을 보려면 [!UICONTROL 요약]의 [!UICONTROL 승인] 섹션을 사용하십시오. 승인을 추가하지 않은 경우 드롭다운 메뉴에서 기존 승인을 선택하거나 **[!UICONTROL 일회용 승인 프로세스 만들기]**&#x200B;를 클릭하여 작업 또는 문제의 [!UICONTROL 승인] 탭으로 바로 이동합니다.
+[!UICONTROL 요약]의 [!UICONTROL 승인] 섹션을 사용하여 선택한 작업 또는 문제에 첨부된 승인을 봅니다. 승인을 추가하지 않은 경우 드롭다운 메뉴에서 기존 승인을 선택하거나 **[!UICONTROL 일회용 승인 프로세스 만들기]**&#x200B;를 클릭하여 작업 또는 문제의 [!UICONTROL 승인] 탭으로 바로 이동합니다.
 
-작업 또는 문제의 [!UICONTROL 승인] 탭으로 직접 이동하려면 **[!UICONTROL 승인]** 제목을 클릭합니다.
+작업 또는 문제의 [!UICONTROL Approvals] 탭으로 직접 이동하려면 **[!UICONTROL Approvals]** 제목을 클릭합니다.
 
-요약 패널의 ![승인 섹션](assets/summary-approvals-section.png)
+![요약 패널의 승인 섹션](assets/summary-approvals-section.png)

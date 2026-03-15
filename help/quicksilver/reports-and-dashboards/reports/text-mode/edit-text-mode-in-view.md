@@ -1,27 +1,27 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: 텍스트 모드를 사용하여 보기 편집
-description: 텍스트 모드를 사용하여 목록이나 보고서의 보기를 편집하여 표준 인터페이스에서 사용할 수 없는 필드에 액세스하고 보다 복잡한 보기를 만들 수 있습니다.
-author: Nolan
+title: 텍스트 모드를 사용하여 뷰 편집
+description: 텍스트 모드를 사용하여 목록 또는 보고서에서 보기를 편집하여 표준 인터페이스에서 사용할 수 없는 필드에 액세스하고 보다 복잡한 보기를 만들 수 있습니다.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# 텍스트 모드를 사용하여 보기 편집
+# 텍스트 모드를 사용하여 뷰 편집
 
 <!-- Audited: 1/2025 -->
 
-텍스트 모드를 사용하여 목록이나 보고서의 보기를 편집하여 표준 인터페이스에서 사용할 수 없는 필드에 액세스하고 보다 복잡한 보기를 만들 수 있습니다.
+텍스트 모드를 사용하여 목록 또는 보고서에서 보기를 편집하여 표준 인터페이스에서 사용할 수 없는 필드에 액세스하고 보다 복잡한 보기를 만들 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,10 +29,10 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스</td> 
    <td> 
      <p>표준</p>
      <p>플랜</p>
@@ -40,47 +40,47 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서의 보고 요소를 편집합니다.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 달력에 대한 액세스 권한을 편집하여 보고서의 보고 요소를 편집합니다</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서의 보기를 편집할 수 있도록 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p> </td> 
+   <td> <p>보고서에 대한 권한 관리를 통해 보고서의 보기 편집</p> <p>편집할 보기에 대한 권한 관리</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 ## 전제 조건
 
-보고서나 목록에서 텍스트 모드 사용을 시작하기 전에 항상 Workfront 텍스트 모드 구문을 잘 알고 있는지 확인하십시오.
+보고서나 목록에서 텍스트 모드 사용을 시작하기 전에 항상 Workfront 텍스트 모드 구문에 익숙한지 확인하십시오.
 
 자세한 내용은 다음 문서를 참조하십시오.
 
 * [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [텍스트 모드 구문 개요](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [사용자 정의 보기, 필터링 및 그룹화 샘플: 문서 인덱스](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [사용자 정의 보기, 필터 및 그룹화 샘플: 문서 색인](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## 보기에서 텍스트 모드 편집
 
-텍스트 모드를 사용하여 뷰를 편집하는 것은 보고서와 목록에 대해 동일합니다. 보고서 또는 목록에서 보기에 액세스하는 방법은 다릅니다.
+텍스트 모드를 사용한 보기 편집은 보고서 및 목록에 대해 동일합니다. 보고서나 목록에서 보기에 액세스하는 것은 다릅니다.
 
 >[!TIP]
 >
->표준 모드에서 가능한 한 많은 보기를 작성한 다음 텍스트 모드로 변환하여 편집하는 것이 좋습니다.
+>표준 모드에서 가능한 한 많은 보기를 작성한 후 텍스트 모드로 전환하여 편집하는 것이 좋습니다.
 
-뷰 빌드에 대한 자세한 내용은 [Adobe Workfront의 뷰 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
+보기를 작성하는 방법에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
 보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 
 1. 다음 중 하나를 수행하십시오.
 
-   1. 보고서에서 보기에 액세스하려면 보고서로 이동한 다음 **보고서 작업** > **편집** > **열(보기)** 탭을 클릭합니다.
-   1. 목록에서 보기에 액세스하려면 목록으로 이동한 후 **보기** 드롭다운 메뉴에서 수정할 보기를 마우스로 가리키고 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
+   1. 보고서에서 보기에 액세스하려면 보고서로 이동한 다음 **보고서 작업** > **편집** > **열(보기)** 탭을 클릭하십시오.
+   1. 목록에서 보기에 액세스하려면 목록으로 이동하여 **보기** 드롭다운 메뉴에서 수정할 보기를 마우스로 가리킨 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
-      뷰 빌더 가 열립니다.
+      뷰 빌더가 열립니다.
 
 1. 보기에서 열을 선택합니다.
 
@@ -90,15 +90,15 @@ ht-degree: 3%
 
    >[!TIP]
    >
-   >텍스트 모드를 사용하여 뷰를 편집하려면 한 번에 한 열씩 편집해야 합니다.
+   >텍스트 모드를 사용하여 뷰를 편집하려면 한 번에 하나의 열을 편집해야 합니다.
 
-1. 빌더의 오른쪽 상단에 있는 **텍스트 모드로 전환**&#x200B;을 클릭한 다음 **텍스트 모드 편집**&#x200B;을 클릭합니다.
+1. 빌더의 오른쪽 위 모서리에서 **텍스트 모드로 전환**&#x200B;을 클릭한 다음 **텍스트 모드 편집**&#x200B;을 클릭합니다.
 
    >[!NOTE]
    >
-   >텍스트 모드에서 열을 편집하면 Workfront에서 `textmode=true` 코드 행을 열에 추가합니다. 텍스트 모드에서 열이 수정되었음을 나타냅니다.
+   >텍스트 모드에서 열을 편집하면 Workfront에서 열에 `textmode=true` 코드 행을 추가합니다. 이는 열이 텍스트 모드에서 수정되었음을 나타냅니다.
 
-   다음 표에서는 텍스트 모드 보기의 주요 행에 대해 설명합니다.
+   다음 표에서는 텍스트 모드 보기의 주요 행을 간략하게 설명합니다.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make this a snippet and add it to the grouping article too)</p>
@@ -115,7 +115,7 @@ ht-degree: 3%
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=&lt;/cod></p> </td> 
+      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=</cod></p> </td> 
       <td> <p>This is the name of the object or of the field as it appears in the database. For more information about how objects and fields appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>The following scenarios exist:</p> 
         
         <li value="1"> <p> If the name of the field you display is a phrase instead of a single noun, you must use camel case syntax for the <code>valuefield</code>. For example, for the Planned Start Date of a task the code is: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
@@ -194,15 +194,15 @@ ht-degree: 3%
        </div>
 
    <div>
-      <code>aggregator. </code>줄에 <code>valuefield </code> 또는 <code>valueexpression</code>이(가) 포함될 수 있습니다.
+      <code>aggregator. </code>줄에 <code>valuefield </code> 또는 <code>valueexpression</code>이(가) 있을 수 있습니다.
        </div> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 변경 내용을 저장하고 보기를 계속 편집하려면 **적용**&#x200B;을 클릭합니다.
-1. 보고서를 저장하려면 **저장 + 닫기**&#x200B;를 클릭하십시오.
+1. 변경 내용을 저장하고 보기를 계속 편집하려면 **적용**&#x200B;을 클릭하세요.
+1. 보고서를 저장하려면 **저장 + 닫기**&#x200B;를 클릭하세요.
 
    또는
 
-   **보기 저장**&#x200B;을 클릭하여 목록에 보기를 저장합니다.
+   **보기 저장**&#x200B;을 클릭하여 보기를 목록에 저장합니다.

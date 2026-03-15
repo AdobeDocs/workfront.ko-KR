@@ -5,13 +5,13 @@ keywords: 감사,추적,사용자 정의,필드
 navigation-topic: calculate-custom-data-reports
 title: '계산된 사용자 정의 필드 예: 필드의 편집 내역 표시'
 description: 사용자가 사용자 정의 필드를 정기적으로 업데이트하며 필드에 대한 모든 변경 사항의 로그와 변경 사항이 발생한 날짜를 캡처하려는 경우 계산된 사용자 정의 필드에서 이 정보를 캡처할 수 있습니다.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +45,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>Adobe Workfront 패키지</p> </td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront 라이선스</p> </td> 

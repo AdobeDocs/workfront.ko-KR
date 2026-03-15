@@ -2,11 +2,11 @@
 navigation-topic: announcements
 title: 향상된 Analytics 사용 중단 안내서
 description: 이 페이지에는 향상된 Analytics의 향후 사용 중단에 대한 정보가 포함되어 있습니다.
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%

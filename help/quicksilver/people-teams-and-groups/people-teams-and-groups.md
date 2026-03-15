@@ -4,11 +4,11 @@ product-area: user-management;agile-and-teams
 navigation-topic: teams-and-groups
 title: '팀 및 그룹: 문서 색인'
 description: 팀 및 그룹 작업에 대해 알려면 다음 영역을 검토하십시오.
-author: Jenny and Becky
+author: Courtney and Becky
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: 1ff36a4b-637a-46f2-ac1a-6a8d2c146862
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 보드에서 연결된 카드 사용
 description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드에 추가할 수 있습니다.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 6e136bed16c2b20f05267ac181dcc462b1a2aed4
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 * [!UICONTROL 하위 작업]
 * [!UICONTROL 문서]
 
-연결된 카드를 Workfront과 동기화하려면 보드 이름 옆에 있는 **[!UICONTROL 기타]** 메뉴 ![[!UICONTROL 기타 메뉴]](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 연결된 항목 동기화]**&#x200B;를 선택합니다. 보관된 카드가 Workfront 작업 및 문제와 동기화되지 않습니다. 카드를 복원하면 다시 동기화됩니다.
+연결된 카드를 Workfront과 동기화하려면 보드 이름 옆에 있는 **[!UICONTROL 기타]** 메뉴 ![[!UICONTROL 기타 메뉴]](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 연결된 항목 동기화]**&#x200B;를 선택합니다. 보관된 카드는 Workfront 작업 및 문제와 동기화되지 않습니다. 카드를 복원하면 다시 동기화됩니다.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -59,7 +59,7 @@ ht-degree: 2%
   </tr>
   <tr>
    <td role="rowheader">개체 권한</td>
-   <td><p>Workfront 작업 또는 문제에 대한 이상의 권한 보기</p>
+   <td><p>View or higher permissions to the Workfront task or issue</p>
 </td>
   </tr>
  </tbody> 
@@ -69,12 +69,12 @@ ht-degree: 2%
 
 +++
 
-## 연결된 카드 추가
+## Add a connected card
 
 {{step1-to-boards}}
 
 1. 보드에 액세스합니다. 자세한 내용은 [게시판 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md)을 참조하세요.
-1. **[!UICONTROL 카드 추가] > [!UICONTROL 연결된 카드]**&#x200B;를 클릭합니다.
+1. Click **[!UICONTROL Add card] > [!UICONTROL Connected card]**.
 1. 프로젝트를 선택한 다음 보드에 카드로 추가할 작업 또는 문제를 선택하십시오.
 
    여러 개체를 선택할 수 있으며, 이 개체는 모두 별도의 카드로 추가됩니다.
@@ -142,12 +142,12 @@ ht-degree: 2%
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 사용자 정의 필드]</strong></td>
       <td><p>추가한 모든 사용자 정의 필드가 이 영역에 표시됩니다.</p>
-      <p>자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">카드에 표시할 필드 사용자 지정</a>을 참조하십시오.</p></td>
+      <p>자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">카드에 표시되는 필드 사용자 지정</a>을 참조하세요.</p></td>
      </tr>
      <tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 하위 작업]</strong></td>
-      <td><p>작업에 대한 기존 하위 작업이 이 섹션에 표시됩니다. 새 하위 작업을 추가하려면 <strong>[!UICONTROL 하위 작업 추가]</strong>를 클릭하십시오.</p>
+      <td><p>이 섹션에는 작업에 대한 기존의 모든 하위 작업이 나타납니다. 새 하위 작업을 추가하려면 <strong>[!UICONTROL Add Subtask]</strong>을(를) 클릭합니다.</p>
       <p>섹션 맨 위에 있는 카운터는 완료된 하위 작업 수와 총 하위 작업 수를 보여 줍니다.</p>
       <p>하위 작업에 대한 자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">보드에서 하위 작업 관리</a>를 참조하십시오.</p></td>
      </tr>
@@ -162,11 +162,11 @@ ht-degree: 2%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 시간]</strong></td>
-      <td>아래의 "연결된 카드에 시간 기록"을 참조하십시오.</td>
+      <td>See "Log hours on a connected card," below.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p><strong>[!UICONTROL New comment]</strong> 필드를 클릭하고 설명을 입력하십시오. 서식 도구를 사용하여 텍스트 서식을 지정합니다. 사용자 또는 팀에 태그를 지정하려면 댓글 영역 하단에 있는 검색 상자를 사용합니다. 사용자는 보드에서 멤버일 필요가 없습니다. 연결된 카드에 태그가 지정된 사용자는 이메일 알림을 받게 됩니다.</p><p>카드에 주석을 추가하려면 <strong>[!UICONTROL Submit]</strong>을(를) 클릭합니다.</p>
+      <td><p><strong>[!UICONTROL New comment]</strong> 필드를 클릭하고 설명을 입력하십시오. 서식 도구를 사용하여 텍스트 서식을 지정합니다. 사용자 또는 팀에 태그를 지정하려면 댓글 영역 하단에 있는 검색 상자를 사용합니다. 사용자는 보드에서 멤버일 필요가 없습니다. Tagged users on connected cards will receive email notifications.</p><p>카드에 주석을 추가하려면 <strong>[!UICONTROL Submit]</strong>을(를) 클릭합니다.</p>
       <p>댓글에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">작업 업데이트</a>를 참조하세요.</p></td>
      </tr>
      <tr> 
@@ -178,10 +178,10 @@ ht-degree: 2%
 
    왼쪽 탐색 패널을 사용하여 카드 세부 정보에서 필드의 섹션 사이를 이동합니다.
 
-1. **[!UICONTROL 닫기]**&#x200B;를 클릭하여 게시판으로 돌아갑니다.
+1. **[!UICONTROL 닫기]**를 클릭하여 게시판으로 돌아갑니다.
 카드에 연결된 객체, 담당자, 태그, 기한, 체크리스트 카운터, 예상 시간, 상태 등이 표시됩니다.
 
-   ![보드에 카드 추가됨](assets/boards-connected-card-details-110922.png)
+   ![Card added to board](assets/boards-connected-card-details-110922.png)
 
 ## 연결된 카드 분리
 
@@ -195,10 +195,10 @@ ht-degree: 2%
 >
 >이러한 시나리오 양쪽에서 새로 고친 후에는 동일한 작업 또는 문제에 대한 두 개의 카드(임시 카드와 연결된 카드)가 있습니다.
 
-보드 수준에서 카드 연결을 끊으려면:
+To disconnect a card at the board level:
 
 1. 보드에 액세스합니다.
-1. 연결된 카드에서 **[!UICONTROL 추가]** 메뉴 ![추가 메뉴](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 연결 끊기]**&#x200B;를 선택합니다.
+1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the connected card and select **[!UICONTROL Disconnect]**.
 1. 확인 메시지에서 **[!UICONTROL 연결 끊기]**&#x200B;를 클릭합니다.
 
 카드 수준에서 카드 연결을 끊으려면:
@@ -237,12 +237,12 @@ Ad Hoc 카드를 만든 후 연결된 카드로 변환할 수 있습니다. Ad H
 시간 로깅 필드는 기본적으로 연결된 카드에 표시되지 않습니다. [!UICONTROL **카드**] 아래의 [!UICONTROL 구성] 영역에서 [!UICONTROL 시간]을(를) 사용하도록 설정해야 합니다. 자세한 내용은 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)을 참조하십시오.
 
 1. 작업 또는 문제의 시간 수를 입력합니다.
-1. 기본값과 다른 경우 드롭다운 메뉴에서 [!UICONTROL 시간 유형]을(를) 선택하십시오.
+1. 기본값과 다른 경우 드롭다운 메뉴에서 [!UICONTROL 시간 유형]을 선택합니다.
 1. [!UICONTROL **로그 시간**]&#x200B;을 클릭합니다.
 
-   ![카드에 시간 기록](assets/log-hours-on-card.png)
+   ![카드에 대한 시간 기록](assets/log-hours-on-card.png)
 
-   카드에 기록된 시간도 연결된 작업 또는 문제에 저장됩니다.
+   카드에 로그온한 시간은 연결된 작업이나 문제에도 저장됩니다.
 
 카드의 로깅 시간은 작업 또는 문제의 로깅 시간과 동일합니다. 자세한 내용은 문서 [시간 기록](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)의 &quot;프로젝트, 작업 또는 문제에 대한 시간 기록&quot;을 참조하십시오.
 

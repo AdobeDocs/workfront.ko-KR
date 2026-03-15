@@ -3,10 +3,11 @@ product-area: reports and dashboards
 navigation-topic: data-connect
 title: Data Connect의 작업 내역 보기 사용
 description: Data Connect를 통해 Workfront 관리자는 작업 내역 보기에서 각 데이터 새로 고침 작업의 세부 기록에 액세스할 수 있습니다.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
+exl-id: d658c3df-5fa5-4756-ac42-71d9aed481df
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%

@@ -3,9 +3,9 @@ navigation-topic: use-lists
 title: ' [!DNL Adobe Workfront]의 목록 시작'
 description: ' [!DNL Adobe Workfront] 에서 개체 목록을 보고 해당 개체의 시작 날짜와 기한, 해당 개체에 할당된 사용자, 해당 개체와 연결된 다른 개체 등 개체에 대한 정보를 얻을 수 있습니다.'
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 2%
@@ -20,21 +20,21 @@ ht-degree: 2%
 
 다음은 [!DNL Workfront]에 있는 목록의 몇 가지 특성입니다.
 
-* 시스템의 다른 사용자가 다른 위치에서 업데이트하는 정보를 업데이트하기 위해 5분마다 자동으로 새로 고침을 나열합니다.
-* [!DNL Workfront]의 일부 영역에는 기본 개체 목록이 미리 구성되어 있습니다.
+* 시스템의 다른 사용자가 다른 곳에서 업데이트하고 있는 정보를 업데이트하기 위해 5분마다 자동으로 새로 고침을 나열합니다.
+* [!DNL Workfront]의 일부 영역은 기본 개체 목록으로 미리 구성되어 있습니다.
 
-  이렇게 미리 구성된 대부분의 목록을 사용자 지정할 수 있습니다.
+  사전 구성된 이러한 목록 대부분을 사용자 정의할 수 있습니다.
 
 * [!DNL Workfront] 관리자는 [!DNL Workfront]의 다양한 영역에 적용할 사용자 지정 목록을 만들 수 있습니다.
 
-  시스템 수준 목록 만들기에 대한 자세한 내용은 문서 [기본 필터, 보기, 그룹화 만들기, 편집 및 공유](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)를 참조하십시오.
+  시스템 수준 목록 만들기에 대한 자세한 내용은 [기본 필터, 보기 및 그룹 만들기, 편집 및 공유](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md) 문서를 참조하십시오.
 
 * 다음은 Workfront의 목록 유형입니다.
 
    * 표준 목록
    * 향상된 목록
 
-  자세한 내용은 이 문서에서 [표준 목록과 향상된 목록의 차이점](#the-difference-between-the-standard-and-the-enhanced-lists) 섹션을 참조하십시오.
+  자세한 내용은 이 문서의 [표준 목록과 향상된 목록의 차이](#the-difference-between-the-standard-and-the-enhanced-lists) 섹션을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -46,7 +46,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -206,21 +206,21 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>타임시트 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 타임시트] &gt; [!UICONTROL 모든 타임시트]*</p> </li> 
+     <li> <p>[!UICONTROL 작업표] &gt; [!UICONTROL 모든 작업표]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>청구 요금 목록</td> 
+   <td>청구율 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 청구 요금*]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 청구 비율*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>청구 기록 목록</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL 프로젝트 클릭] &gt; [!UICONTROL 청구 기록]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt; [!UICONTROL 프로젝트 클릭] &gt; [!UICONTROL 청구 레코드]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -235,11 +235,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL Expenses]</p> </li> 
-     <li> <p>[!UICONTROL 프로젝트] &gt; [!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 클릭] &gt;[!UICONTROL 경비]</p> </li> 
+     <li> <p>[!UICONTROL 프로젝트] &gt; [!UICONTROL 프로젝트 클릭] &gt;[!UICONTROL 작업] &gt;[!UICONTROL 작업 클릭] &gt;[!UICONTROL 비용]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>시간 항목 목록</td> 
+   <td>시 항목 목록</td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL 프로젝트] &gt;[!UICONTROL 프로젝트 클릭]</p> </li> 
@@ -321,11 +321,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL 보기]</strong></td> 
-   <td> <p>보기는 화면에 표시할 필드(열)를 정의합니다.</p> <p>자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">의 [!DNL Adobe Workfront]</a>보기 개요를 참조하십시오.</p> </td> 
+   <td> <p>뷰는 화면에 표시할 필드(열)를 정의합니다.</p> <p>자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">의 [!DNL Adobe Workfront]</a>보기 개요를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL 그룹화]</strong></td> 
-   <td> <p>그룹화는 사용자가 지정하는 기준에 따라 영역의 목록에 있는 객체를 구분합니다.</p> <p>예를 들어 목록의 문제는 상태 또는 우선 순위별로 섹션에 표시될 수 있습니다.</p> <p>표준 그룹화에는 최대 3개의 그룹화 레이어를 사용할 수 있으며, 텍스트 모드에서 그룹화를 구성하는 경우 네 번째 레이어를 추가할 수 있습니다.</p> <p>그룹화에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">의 [!DNL Adobe Workfront]</a>그룹화 개요를 참조하십시오.</p> <p>텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">텍스트 모드 개요</a>를 참조하십시오.</p> </td> 
+   <td> <p>그룹화는 사용자가 지정하는 기준에 따라 목록에서 객체를 영역별로 분리합니다.</p> <p>예를 들어, 목록의 문제는 상태 또는 우선 순위별로 섹션에 표시될 수 있습니다.</p> <p>표준 그룹화에는 최대 3개의 그룹화 레이어를 사용할 수 있으며, 텍스트 모드에서 그룹화를 구성하는 경우 네 번째 레이어를 추가할 수 있습니다.</p> <p>그룹화에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">의 [!DNL Adobe Workfront]</a>그룹화 개요를 참조하십시오.</p> <p>텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">텍스트 모드 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -359,19 +359,19 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <tbody> 
   <tr> 
    <td><strong>인라인 편집</strong> </td> 
-   <td> <p>개체 및 해당 정보를 목록에서 직접 편집합니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">의 목록에서 [!DNL Adobe Workfront]</a>인라인 편집 항목을 참조하십시오.</p> 
+   <td> <p>목록에서 직접 개체 및 개체의 정보를 편집합니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">의 목록에서 [!DNL Adobe Workfront]</a>인라인 편집 항목을 참조하십시오.</p> 
    <p><b>참고:</b></p>
-   <p>그룹화에서는 인라인 편집을 할 수 없습니다.</p>
+   <p>그룹에서는 인라인 편집을 수행할 수 없습니다.</p>
 
 </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><strong>[!UICONTROL Summary]로 업데이트</strong> </td> 
-   <td> <p>[!UICONTROL 요약] 패널을 사용하여 프로젝트 수준에서 작업 및 문제를 업데이트합니다.</p> <p><b>팁:</b></p> <p>요약 은 일부 오브젝트에 사용할 수 없으며 작업 또는 문제 보고서에서 사용할 수 없습니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">요약 개요</a>를 참조하세요.</p> </td> 
+   <td><strong>[!UICONTROL 요약]</strong> 업데이트 </td> 
+   <td> <p>[!UICONTROL Summary] 패널을 사용하여 프로젝트 수준의 작업 및 문제를 업데이트합니다.</p> <p><b>팁:</b></p> <p>요약 은 일부 오브젝트에 사용할 수 없으며 작업 또는 문제 보고서에서 사용할 수 없습니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">요약 개요</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>목록 표시 사용자 지정</strong> </td> 
-   <td> <p>목록, 열 배열, 항목 정렬 순서 또는 표시되는 항목 수의 모양과 느낌을 사용자 지정합니다.</p> <p><b>참고:</b></p> <p>[!DNL Workfront]에서 로그아웃하거나 브라우저를 닫으면 페이지에 표시할 항목 수에 대한 변경 내용이 되돌아갑니다. 변경 사항은 8시간 후 되돌릴 수도 있습니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">목록 표시 방법 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>목록, 열 배열, 항목 정렬 순서 또는 표시되는 항목 수의 모양과 느낌을 사용자 정의합니다.</p> <p><b>참고:</b></p> <p>[!DNL Workfront]에서 로그아웃하거나 브라우저를 닫으면 페이지에 표시할 항목 수에 대한 변경 내용이 되돌아갑니다. 변경 사항은 8시간 후 되돌릴 수도 있습니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">목록 표시 방법 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>빠른 필터</strong> </td> 
@@ -430,7 +430,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
   </tr> 
   <tr> 
    <td> <img src="assets/qs-add-to-iteration-icon-in-new-toolbar-for-issues.png"> </td> 
-   <td>[!UICONTROL 추가 위치]</td> 
+   <td>[!UICONTROL 다음에 추가]</td> 
    <td> <p>대화 상자를 열어 선택한 문제를 반복에 추가합니다.</p> <p>이 기능은 문제에만 사용할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
@@ -466,22 +466,22 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
    <td>[!UICONTROL 간트 차트]</td> 
-   <td> <p>[!UICONTROL 간트 차트] 보기에 목록을 표시합니다.</p> <p>프로젝트 및 작업에만 사용할 수 있습니다.</p> </td> 
+   <td> <p>목록을 [!UICONTROL Gantt 차트] 보기로 표시합니다.</p> <p>프로젝트 및 작업에만 사용할 수 있습니다.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
    <td>[!UICONTROL Filter] 드롭다운 메뉴</td> 
-   <td> <p>필터 목록 및 필터 관리를 위한 추가 옵션(만들기 포함)을 표시합니다. </p> <p>작은 화면에서 필터 이름은 필터 아이콘으로 바뀝니다. "[!UICONTROL All]" 이외의 필터를 적용하면 필터 아이콘에 파란색 점이 표시됩니다.</p> </td> 
+   <td> <p>필터 목록 표시 및 필터 생성을 포함한 필터 관리를 위한 추가 옵션. </p> <p>작은 화면에서 필터 이름은 필터 아이콘으로 바뀝니다. "[!UICONTROL All]" 이외의 필터를 적용하면 필터 아이콘에 파란색 점이 표시됩니다.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
    <td>[!UICONTROL 보기] 드롭다운 메뉴</td> 
-   <td> <p>뷰 목록과 뷰 관리를 위한 추가 옵션(예: 뷰 생성)을 표시합니다. </p> <p>작은 화면에서 보기 이름이 [!UICONTROL 보기] 아이콘으로 바뀝니다. "[!UICONTROL Standard]" 이외의 다른 보기를 적용할 때 [!UICONTROL 보기] 아이콘에 파란색 점이 표시됩니다.</p> </td> 
+   <td> <p>뷰 목록과 뷰 관리를 위한 추가 옵션(예: 뷰 생성)을 표시합니다. </p> <p>작은 화면에서 보기 이름이 [!UICONTROL 보기] 아이콘으로 바뀝니다. "[!UICONTROL Standard]"가 아닌 다른 보기를 적용하면 [!UICONTROL View] 아이콘에 파란색 점이 표시됩니다.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
    <td>[!UICONTROL 그룹화] 드롭다운 메뉴</td> 
-   <td> <p>그룹화 목록과 그룹화 관리를 위한 추가 옵션(만들기 포함)을 표시합니다. </p> <p>작은 화면에서 그룹화 이름이 [!UICONTROL grouping] 아이콘으로 바뀝니다. "[!UICONTROL Nothing]" 이외의 그룹화를 적용하면 [!UICONTROL Grouping] 아이콘에 파란색 점이 표시됩니다.</p> </td> 
+   <td> <p>그룹 목록을 표시하고 그룹 생성을 포함하여 그룹을 관리하기 위한 추가 옵션을 표시합니다. </p> <p>작은 화면에서 그룹화 이름이 [!UICONTROL grouping] 아이콘으로 바뀝니다. "[!UICONTROL Nothing]" 이외의 그룹화를 적용하면 [!UICONTROL Grouping] 아이콘에 파란색 점이 표시됩니다.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
@@ -530,7 +530,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Workfront] 관리자와 [!UICONTROL Plan] 라이선스가 있는 사용자만 만들 수 있습니다.</p> </td> 
+   <td> <p>[!UICONTROL Plan] 라이선스가 있는 [!DNL Workfront] 관리자 및 사용자만 만들 수 있습니다.</p> </td> 
    <td> </td> 
    <td>✓**</td> 
   </tr> 
@@ -540,12 +540,12 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>표준 모드에서 사용자 지정 가능</p> </td> 
+   <td> <p>표준 모드에서 사용자 정의 가능</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>텍스트 모드에서 사용자 지정 가능</p> </td> 
+   <td> <p>텍스트 모드에서 사용자 정의 가능</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -585,8 +585,8 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>대시보드에 추가할 수 있습니다.</p> </td> 
-   <td> ✓*** </td> 
+   <td> <p>대시보드에 추가할 수 있습니다</p> </td> 
+   <td> *** </td> 
    <td>✓</td> 
   </tr> 
   <tr> 

@@ -3,11 +3,11 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 텍스트 모드 구문 개요
 description: 텍스트 모드 인터페이스를 사용하여 목록 및 보고서에서 보다 복잡한 보기, 필터, 그룹화 및 사용자 지정된 프롬프트를 만들 수 있습니다. 텍스트 모드를 사용하면 표준 모드 인터페이스에서 사용할 수 없는 필드 및 해당 속성에 액세스할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 0%
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 * 코드 및 구문 행은 필터 및 사용자 지정 프롬프트에 대해 유사합니다.
 
-  자세한 내용은 다음을 참조하십시오.
+  자세한 내용은 다음 문서를 참조하십시오.
 
    * [텍스트 모드를 사용하여 필터 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
    * [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)

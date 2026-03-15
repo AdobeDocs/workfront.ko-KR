@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: 애자일 백로그 관리
 description: 작업 및 문제는 팀이 사용 중인 애자일 방법론에 따라 애자일 팀에 할당되고 해당 팀의 백로그에 이야기로 추가될 수 있습니다.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -62,11 +62,11 @@ ht-degree: 1%
 * [[!UICONTROL 스토리 분류]개](#break-down-stories)
 * [스토리 편집](#edit-stories)
 
-### 스토리 순서 바꾸기 {#reorder-stories}
+### 스토리 재정렬 {#reorder-stories}
 
-드래그 앤 드롭 방법을 사용하여 백로그 목록에서 스토리를 재정렬할 수 있습니다.
+끌어다 놓기 방법을 사용하여 백로그 목록에서 스토리의 순서를 변경할 수 있습니다.
 
-1. 스토리를 재정렬하려는 애자일 백로그로 이동합니다.
+1. 스토리를 재정렬하려는 Agile 백로그로 이동합니다.
 1. **[!UICONTROL 보기]** 드롭다운 메뉴에서 **[!UICONTROL 백로그]** 보기 또는 **[!UICONTROL 순서]** 열이 포함된 사용자 지정 보기를 선택합니다.
 
    >[!NOTE]
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 ### 스토리 분류 {#break-down-stories}
 
-백로그에 있는 스토리의 크기가 다르기 때문에 사용자는 해당 스토리를 반복을 위해 작업 가능한 크기로 분류할 수 있습니다. 스토리를 분류하면 스토리가 나타내는 작업에 하위 작업이 만들어지고 백로그에 있는 원래 작업을 대체합니다. 상위 작업 또는 하위 작업을 애자일 팀에 할당할 수 있지만 두 작업을 동시에 팀에 할당할 수는 없습니다.
+백로그의 스토리는 크기가 다양하므로 반복을 위해 작업 가능한 크기로 나눌 수 있습니다. 스토리를 분류하면 스토리가 나타내는 작업에 하위 작업이 만들어지고 백로그에 있는 원래 작업을 대체합니다. 상위 작업 또는 하위 작업을 애자일 팀에 할당할 수 있지만 두 작업을 동시에 팀에 할당할 수는 없습니다.
 
 >[!NOTE]
 >
@@ -88,14 +88,14 @@ ht-degree: 1%
 >* 스토리는 프로젝트와 관련된 경우에만 분류할 수 있습니다.
 
 
-스토리를 분류하려면:
+스토리 나누기:
 
-1. 분류할 스토리가 포함된 백로그로 이동합니다.
-1. 분류할 스토리를 선택한 다음 **[!UICONTROL 스토리 분류]**&#x200B;를 클릭합니다.
+1. 분해할 스토리가 포함된 백로그로 이동합니다.
+1. 분석할 스토리를 선택한 다음 **[!UICONTROL 분석 스토리]**를 클릭하세요.
 [!UICONTROL 분석 스토리] 대화 상자가 표시됩니다.
    ![분석 스토리 대화 상자](assets/backlog-breakdown-dialog.png)
 
-1. 스토리의 이름과 예상 값을 지정하고 스토리가 준비되었는지 여부를 선택합니다.
+1. 스토리의 이름과 예상 가격을 지정하고 스토리가 준비되었는지 여부를 선택합니다.
 1. 원래 스토리에서 다른 스토리를 만들려면 **[!UICONTROL 스토리 추가]**&#x200B;를 클릭하세요.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -116,14 +116,14 @@ ht-degree: 1%
 
 백로그에서 스토리를 만들려면:
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 팀]**&#x200B;을 클릭합니다.
+1. Adobe Workfront 오른쪽 상단에서 **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(사용 가능한 경우) 왼쪽 상단에서 **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)를 클릭한 다음 **[!UICONTROL 팀]**&#x200B;을 클릭합니다.
 
-1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 스크럼 팀을 선택하거나 검색 막대에서 팀을 검색하고 표시될 때 선택합니다.
+1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 스크럼 팀을 선택하거나 검색 막대에서 팀을 검색하고 표시되는 경우 선택합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL 백로그]**&#x200B;를 선택합니다.
 1. 작업 또는 문제 생성 여부에 따라 다음 중 하나를 수행합니다.
 
-   * **작업을 만들려면:** **[!UICONTROL 스토리]**&#x200B;를 클릭하세요.
+   * **작업을 만들려면** **[!UICONTROL 스토리]**&#x200B;를 클릭하세요.
 
    * **문제를 만들려면:** **[!UICONTROL 문제]**&#x200B;를 클릭하세요.
 
@@ -172,7 +172,7 @@ ht-degree: 1%
 
 애자일 팀에 작업 또는 문제를 할당할 수 있습니다. 작업 또는 문제가 할당되면 팀 백로그에 새 스토리로 표시됩니다.
 
-애자일 팀에 작업 또는 문제를 할당하려면 다음을 수행하십시오.
+Agile 팀에 작업 또는 문제를 할당하려면 다음을 수행하십시오.
 
 1. 할당할 작업이 포함된 프로젝트로 이동합니다.
 1. 목록에서 작업 또는 문제를 선택합니다.
@@ -181,7 +181,7 @@ ht-degree: 1%
 1. (선택 사항) 기존 피할당자를 삭제합니다.
 1. **[!UICONTROL 피할당자 추가]**&#x200B;를 클릭합니다.
 1. 작업 또는 문제에 할당할 애자일 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 팀 이름을 클릭합니다.
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
 이제 작업 또는 문제를 팀 백로그에서 사용할 수 있습니다.
 
 ## 백로그 내부 또는 외부로 스토리 이동
@@ -192,8 +192,8 @@ ht-degree: 1%
 
 ### 백로그에서 반복 또는 보드로 스토리 이동
 
-1. 애자일 팀의 백로그로 이동합니다.
-1. 반복 또는 칸반 보드로 이동할 스토리를 선택한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 다음으로 이동]**&#x200B;을 클릭합니다.
+1. Agile 팀의 백로그로 이동합니다.
+1. 반복 또는 칸반 보드로 이동할 스토리를 선택한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 다음으로 이동]**을 클릭합니다.
 스토리를 [!UICONTROL Kanban] 보드로 이동하면 [!UICONTROL Kanban] 보드로 스토리 이동 보드가 표시됩니다.
 스토리를 반복으로 이동하면 [!UICONTROL 스토리를 반복으로 이동] 대화 상자가 표시됩니다.
    ![스토리 이동 대화 상자](assets/agile-backlog-addtoiteration.png)
@@ -216,4 +216,4 @@ ht-degree: 1%
 
 백로그에서 직접 하나 이상의 스토리(작업 및 문제 포함)를 내보낼 수 있습니다.
 
-[!DNL Workfront]데이터 내보내기[에 설명된 대로 &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)의 다른 데이터를 내보내는 것과 같은 방식으로 백로그에서 스토리를 내보냅니다.
+[!DNL Workfront]데이터 내보내기[에 설명된 대로 ](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)의 다른 데이터를 내보내는 것과 같은 방식으로 백로그에서 스토리를 내보냅니다.

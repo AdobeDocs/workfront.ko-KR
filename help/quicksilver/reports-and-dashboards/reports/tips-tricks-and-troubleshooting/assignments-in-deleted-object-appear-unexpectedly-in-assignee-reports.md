@@ -1,9 +1,9 @@
 ---
 title: 삭제된 오브젝트의 할당이 할당자 보고서에 예기치 않게 표시됨
 description: 삭제된 오브젝트의 할당이 할당자 보고서에 예기치 않게 표시됨
-author: Nolan
+author: Courtney
 draft: Probably
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: '보고 요소: 필터, 보기 및 그룹화'
 description: Workfront에서 모든 목록과 보고서에 포함해야 하는 주요 요소는 필터, 보기 및 그룹입니다. 각 요소는 모든 보고서 내에 서로 다른 정보를 제공합니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Adobe Workfront에서 목록 또는 보고서를 가능하게 하는 몇 가지 
 
   필터에 대한 자세한 내용은 문서 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하십시오.
 
-## 보기
+## 보기 횟수
 
 보고서 보기를 정의하여 보고서에 포함할 정보를 정의합니다. 모든 보고 요소와 마찬가지로 보기는 하나의 객체 유형을 기반으로 합니다.
 

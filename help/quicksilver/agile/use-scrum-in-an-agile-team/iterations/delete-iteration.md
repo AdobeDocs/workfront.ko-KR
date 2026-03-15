@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: 반복 삭제
 description: 더 이상 필요하지 않은 경우 애자일 팀에 대한 반복을 삭제할 수 있습니다.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 11%
  <tbody> 
    <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

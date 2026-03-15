@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 다른 사용자의 액세스 권한으로 보고서 실행 및 전달
 description: 기본적으로 사용자는 보기 권한이 있는 보고서 내의 개체만 볼 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -109,7 +109,7 @@ ht-degree: 1%
 1. **보고서 보내기**&#x200B;를 클릭합니다.
 
 1. **액세스 권한이 있는 이 보고서 배달:** 필드에서 보고서가 전자 메일에 배달될 때 표시할 사용자의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 기본값은 보고서를 작성하는 사용자의 이름입니다.\
-   ![액세스 권한이 &#x200B;](assets/unshimmed-send-report-access-rights-of.png)인 보고서를 보냈습니다.
+   ![액세스 권한이 ](assets/unshimmed-send-report-access-rights-of.png)인 보고서를 보냈습니다.
 
    >[!NOTE]
    >

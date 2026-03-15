@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 보고서 설정 편집
 description: 보고서의 설정을 편집하여 다른 사용자에게 표시되는 방법이나 사용자가 보고서를 실행하기 전에 어떤 정보를 묻는 메시지를 표시할 수 있는지 정의할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -55,14 +55,14 @@ ht-degree: 7%
 
 ## 방법 단계
 
-1. **기본 메뉴** > **보고서**(으)로 이동하여 보고서 만들기를 시작한 다음 보고서의 개체를 선택합니다.
+1. Start creating a report by going to the **Main menu** > **Reports**, then select the object of your report.
 
    또는
 
-   기존 보고서를 연 다음 **보고서 작업** > **편집**&#x200B;을 클릭합니다.
+   Open an existing report, then click **Report Actions** > **Edit**.
 
-1. Report Builder의 오른쪽 위 모서리에서 **보고서 설정**&#x200B;을 클릭합니다.
-1. 다음 보고서 설정을 구성합니다.
+1. Click **Report Settings** in the upper-right corner of the report builder.
+1. Configure the following report settings:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,16 +77,16 @@ ht-degree: 7%
       <td>보고서의 목적 및 용도를 설명하는 문을 지정합니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">다음의 액세스 권한으로 이 보고서 실행:</td> 
-      <td>다른 사용자를 위해 이 보고서를 표시할 때 사용할 액세스 권한을 가진 사용자를 선택합니다. 다른 사용자의 액세스 권한으로 보고서를 실행하는 방법에 대한 자세한 내용은 문서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">다른 사용자의 액세스 권한으로 보고서 실행 및 전달</a>을 참조하십시오.</td> 
+      <td role="rowheader">Run this report with the Access Rights of</td> 
+      <td>Select the user whose access rights you want this report to use when displaying for other users. For more information about running a report with the access rights of another user, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Run and deliver a report with the access rights of another user</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">보고서가 로드되면</td> 
-      <td>보고서가 로드될 때 모든 사용자에 대해 표시되는 기본 탭을 선택합니다.</td> 
+      <td role="rowheader">When the Report loads, show the</td> 
+      <td>Select the default tab that is displayed for all users when the report loads.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">보고서가 대시보드에 로드되면 ... 항목을 표시합니다.</td> 
-      <td>보고서가 대시보드에 로드될 때 모든 사용자에 대해 표시되는 항목 수를 지정합니다. 기본값은 15개 항목이며 최대 항목 수는 200개입니다.</td> 
+      <td role="rowheader">When the report loads on a dashboard, show ... items</td> 
+      <td>Specify the number of items that are displayed for all users when the report loads on a dashboard. 기본값은 15개 항목이며 최대 항목 수는 200개입니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">세부 정보 탭에서 리소스 그리드 보기 표시</td> 
@@ -97,16 +97,16 @@ ht-degree: 7%
         --></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">세부 정보 탭에서 특별 보기 표시</td> 
-      <td>(프로젝트 보고서만 해당) 사용자가 세부 정보 탭에서 이 정보에 액세스할 때 표시되는 보기 유형을 지정합니다. 예를 들어 마일스톤 또는 간트 보기를 선택할 수 있습니다.</td> 
+      <td role="rowheader">Show a special view on the Details tab</td> 
+      <td>(Project Report Only) Specify the type of view users will see when they access this information on the Details tab. For example, you can select a Milestone or Gantt view.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">기본으로 간트 보기에서 이 보고서 표시</td> 
-      <td>(프로젝트 보고서 및 작업 보고서만 해당) 사용자가 이 보고서의 세부 정보 탭을 볼 때 간트 보기를 자동으로 활성화하려면 이 옵션을 선택합니다.<br>프로젝트 보고서 및 작업 보고서에서 간트 차트를 보는 방법에 대한 자세한 내용은 문서 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">간트 차트에서 정보 보기 </a>의 "프로젝트 목록 간트 차트에서 작업 정보 보기" 섹션을 참조하십시오.</td> 
+      <td>(Project Report and Task Report Only) Select this option to have the Gantt view automatically enabled when users view the Details tab in this report.<br>For more information about viewing the Gantt chart in project reports and task reports, see the section "View task information in the project list Gantt Chart" in the article <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">View information in the Gantt Chart </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">보고서에서 보기 변경 가능</td> 
-      <td>사용자가 보고서를 실행할 때 보기를 변경할 수 있도록 하려면 이 옵션을 선택합니다.</td> 
+      <td>Select this option to allow users to change the View when running the report.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">보고서에서 그룹 변경 가능</td> 
@@ -119,7 +119,7 @@ ht-degree: 7%
     </tbody> 
    </table>
 
-1. 보고서에 대한 프롬프트를 설정하려면 **보고서 프롬프트**&#x200B;를 클릭하십시오.\
+1. Click **Report Prompts** to set up any prompts for the report.\
    보고서에 프롬프트를 추가하는 방법에 대한 자세한 내용은 문서 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)를 참조하십시오.
 
 1. **완료,**&#x200B;를 클릭한 다음 **저장 + 닫기**&#x200B;를 클릭합니다.
@@ -130,5 +130,5 @@ ht-degree: 7%
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
 * [보고서 시작](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [Adobe Workfront 기본 제공 보고서 사용](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

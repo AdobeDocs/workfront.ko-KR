@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 매트릭스 보고서 만들기
 description: 매트릭스 보고서는 요약 정보를 집계된 테이블 형식으로 표시하므로 기존 보고서처럼 목록에 표시된 경우보다 쉽게 볼 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1083'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 0%
 
 ## 매트릭스 보고서에 데이터를 표시하는 방법
 
-매트릭스 보고서의 정보는 항상 숫자로 표시됩니다. 대부분의 경우 숫자 값이 포함된 열은 매트릭스 보고서(예: 기록된 시간 및 실제 비용)에 표시하는 데 가장 적합합니다.
+매트릭스 보고서의 정보는 항상 숫자로 표시됩니다. In most cases, columns that contain a numerical value are best for displaying in a matrix report (such as hours logged and actual cost).
 
-하지만 다른 열(예: 상태)은 다음 그래픽과 같이 여전히 매트릭스 보고서에 표시될 수 있습니다.\
-![매트릭스 상태](assets/report-matrix-status-350x73.png)
+However, other columns (such as Status) can still be displayed in the matrix report as shown in the following graphic:\
+![Matrix status](assets/report-matrix-status-350x73.png)
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +42,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -76,24 +76,24 @@ ht-degree: 0%
 1. (조건부) 보기를 이미 만들었으며 이 보고서에 적용하려면 **기존 보기 적용**&#x200B;을 클릭한 다음 드롭다운 목록에서 보기를 선택하십시오.
 1. (조건부) 보고서에 대한 새 보기를 만들려면 다음 단계를 완료하십시오.
 
-   1. **열(보기)** 탭을 클릭한 다음 매트릭스 보고서에 요약할 열을 선택합니다.
-   1. **열 설정** 영역에서 **이 열을 다음 기준으로 요약** 드롭다운 목록을 클릭한 다음 정보를 요약하는 데 사용할 수 있는 옵션 중 하나를 선택하십시오.
+   1. Click the **Columns (View)** tab, then select a column that you want to be summarized in the matrix report.
+   1. In the **Column Settings** area, click the **Summarize this column by** drop-down list, then select one of the available options for summarizing the information.
 
       >[!IMPORTANT]
       >
-      >이 옵션을 선택하지 않으면 열의 정보가 매트릭스 보고서에 올바르게 표시되지 않습니다.
+      >If this option is not selected, the information from the column is not displayed correctly in the matrix report.
 
-      ![요약된 매트릭스](assets/qs-report-matrix-summarized-350x392.png)
+      ![Matrix summarized](assets/qs-report-matrix-summarized-350x392.png)
 
-   1. 열(보기) 탭에서 각 열에 대해 이 프로세스를 반복한 다음 **완료**&#x200B;를 클릭합니다.
+   1. Repeat this process for each column in the Columns (View) tab, then click **Done**.
 
-1. **그룹화** 탭을 클릭합니다.
+1. Click the **Groupings** tab.
 1. (조건부) 그룹화를 이미 만든 경우 이 보고서에 적용하려면 **기존 그룹화 적용**&#x200B;을 클릭한 다음 드롭다운 목록에서 그룹화를 선택합니다.
 1. (조건부) 보고서에 대한 새 매트릭스 그룹화를 만들려면 다음 단계를 완료하십시오.
 
    1. 빌더 인터페이스의 오른쪽 상단에서 **매트릭스 그룹화로 전환**&#x200B;을 선택합니다.
    1. **행 그룹화** 섹션에서 표의 가로 그룹화를 설정하는 행 그룹화를 식별합니다.
-   1. (선택 사항) 행 그룹화를 추가하려면 **보조 행 그룹화 추가**&#x200B;를 클릭합니다.
+   1. (Optional) To add an additional row grouping, click **Add secondary Row Grouping**.
    1. **열 그룹화** 섹션에서 표의 세로 그룹화를 설정하는 열 그룹화를 식별합니다.
    1. (선택 사항) 열 그룹화를 추가하려면 **보조 열 그룹화 추가**&#x200B;를 클릭합니다.
    1. (조건부) 날짜별 그룹화를 추가하는 경우 결과를 일, 주, 월, 분기 또는 연도로 그룹화할지 여부도 지정합니다.\
@@ -104,11 +104,11 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >**결과가 없는 분기 표시** 필드는 매트릭스 그룹화에만 사용할 수 있으며 표준 그룹화에는 사용할 수 없습니다.\
-      >유효한 데이터가 있는 두 분기 사이에 있는 데이터가 없는 분기만 매트릭스 탭의 데이터 값에 대해 0을 표시합니다. 필터에서 선택한 일정의 시작 및 끝에 있는 데이터가 없는 분기는 매트릭스 그룹화에 전혀 표시되지 않습니다. 결과가 없는 분기는 보고서의 세부 정보 탭에 그룹화로 표시되지 않습니다.
+      >The **Show quarters with no results** field is only available for matrix groupings, and not for standard groupings.\
+      >Only the quarters with no data that are located in-between two quarters with valid data will display zero for the data values in the matrix tab. The quarters that have no data that are located at the beginning and the end of the timeframe selected by your filter do not appear at all in the matrix grouping. The quarters with no results will not display in a grouping on the Details tab of the report.
 
-1. (선택 사항 및 조건부) **매트릭스 설정**&#x200B;을 클릭한 후 다음 선택 사항 중에서 선택합니다.\
-   **레코드 수 표시:** 특정 필드의 총 항목 수가 있는 행을 표시하려면 이 옵션을 선택하십시오.\
+1. (Optional and conditional) Click **Matrix Settings**, then select from the following options:\
+   **Show Record Counts:** Select this option to display a row with the total number of entries for the given field.\
    **값 표시 열:** 이 옵션을 선택하면 다음 정보가 매트릭스에 표시됩니다.
 
    * 레코드 수
@@ -126,8 +126,9 @@ ht-degree: 0%
      >   * 숫자 및 통화 값에 대한 사용자 정의 데이터 필드는 상위, 1차 하위 구성요소, 1차 상위 구성요소 및 독립 실행형 작업과 같은 모든 작업을 집계합니다. **값** 열에 계획된 시간 또는 실제 시간을 표시하는 매트릭스 보고서를 만든 경우 상위 개체(예: 상위 작업)에 대한 시간 또는 비용 정보가 매트릭스 보고서에 표시되지 않습니다. 상위 개체에 대한 시간을 보려면 **세부 정보** 탭을 확인해야 합니다.
      >   
      >   
-     >**조건부 규칙:** 집계되는 값에 대한 서식 규칙을 설정합니다.\
+     >
 
+   **조건부 규칙:** 집계되는 값에 대한 서식 규칙을 설정합니다.\
    규칙을 추가한 후 해당 규칙과 일치하는 필드가 표시되는 방식에 대한 필드 및 텍스트 스타일을 정의할 수 있습니다. 규칙 정의를 마친 후 **규칙 추가**&#x200B;를 클릭한 다음 **완료**&#x200B;를 클릭하여 규칙을 저장합니다.
 
 1. 보고서에 표시할 정보를 정의하려면 **필터** 탭을 클릭하십시오.

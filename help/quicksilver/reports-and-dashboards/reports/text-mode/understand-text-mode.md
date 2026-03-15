@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 텍스트 모드 개요
 description: 보고서나 목록을 구성하는 요소를 만들 때 표준 또는 텍스트 모드 인터페이스를 사용하여 Adobe Workfront에서 보고서나 목록을 빌드할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%

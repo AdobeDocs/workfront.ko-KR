@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: 자원 가동률 보고서 개요
 description: 활용성 보고서를 사용하면 단일 보고서에서 하나 이상의 프로젝트에 대한 진행 상황이나 비용을 볼 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c85b880a-c4a7-49ed-8118-ef9942a47bc3
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%

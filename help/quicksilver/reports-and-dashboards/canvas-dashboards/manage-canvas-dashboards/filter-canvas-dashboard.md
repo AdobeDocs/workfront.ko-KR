@@ -3,10 +3,10 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 캔버스 대시보드 필터링
 description: 필터가 생성되면 캔버스 대시보드에 필터를 적용할 수 있습니다.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 2%
@@ -41,7 +41,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>임의 </p> 
+<p>Any </p> 
    </td> 
 <tr> 
  <tr> 

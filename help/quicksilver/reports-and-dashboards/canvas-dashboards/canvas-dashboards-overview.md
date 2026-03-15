@@ -3,11 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards
 title: 캔버스 대시보드 개요
 description: 캔버스 대시보드에 대해 알아보기
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 2%

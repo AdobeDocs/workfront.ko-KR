@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 애자일 개요
 description: 애자일은 팀이 일관적인 케이던스로 작고 관리하기 쉬운 양의 작업을 완료할 수 있도록 하는 작업 방법론입니다. 애자일에서 팀은 백로그 또는 스토리 보드의 스토리를 관리하며 프로젝트의 작업은 관리하지 않습니다. [!DNL Adobe Workfront] 팀이 애자일 방식으로 작업할 수 있도록 도와주는 도구를 제공합니다.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%

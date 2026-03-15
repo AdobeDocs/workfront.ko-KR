@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 사용자 지정 보고서 만들기
 description: 보고서를 만들어 Adobe Workfront에서 조직에 필요한 정보에 대한 액세스 권한을 제공할 수 있습니다. Workfront에서 사용할 수 있는 모든 기본 제공 보고서를 사용하거나 사용자 지정 보고서를 처음부터 빌드할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 1%
 
 <!--Audited: 10/2024-->
 
-보고서를 만들어 Adobe Workfront에서 조직에 필요한 정보에 대한 액세스 권한을 제공할 수 있습니다. Workfront에서 사용할 수 있는 모든 기본 제공 보고서를 사용하거나 사용자 지정 보고서를 처음부터 빌드할 수 있습니다.
+보고서를 만들어 Adobe Workfront에서 조직에 필요한 정보에 대한 액세스 권한을 제공할 수 있습니다. Workfront에서 사용할 수 있는 기본 제공 보고서를 사용하거나 사용자 지정 보고서를 처음부터 작성할 수 있습니다.
 
 기본 제공 보고서에 대한 자세한 내용은 [Adobe Workfront 기본 제공 보고서 사용](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)을 참조하세요.
 
-보고서를 복사하여 만드는 방법에 대한 자세한 내용은 [보고서 복사본 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)를 참조하십시오.
+보고서를 복사하여 만드는 방법에 대한 자세한 내용은 [보고서 복사본 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)를 참조하세요.
 
 클래스, 비디오 및 튜토리얼을 포함하여 보고서를 만들고 관리하는 방법에 대한 자세한 내용은 Adobe Experience League 사이트의 학습 섹션을 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,10 +36,10 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스</td> 
    <td> 
       <p>표준</p>
       <p>플랜</p>
@@ -47,16 +47,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> </td> 
+   <td> <p>보고서, 대시보드, 달력에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>작성한 보고서에 대한 관리 권한을 받습니다</p>  </td> 
+   <td> <p>작성한 보고서에 대한 관리 권한을 얻습니다</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -92,11 +92,11 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td>열(조회)</td> 
-      <td> <p>보고서에 열을 추가하면 보고서에 포함된 정보가 결정됩니다.</p> <p>열을 추가하는 방법은 <a href="#add-columns-view-to-a-report" class="MCXref xref">보고서에 열(보기) 추가</a>를 참조하세요.<br></p> </td> 
+      <td> <p>보고서에 열을 추가하면 보고서에 포함되는 정보가 결정됩니다.</p> <p>열을 추가하는 방법을 알아보려면 <a href="#add-columns-view-to-a-report" class="MCXref xref">보고서에 열(보기) 추가</a>를 참조하십시오.<br></p> </td> 
      </tr> 
      <tr> 
       <td>그룹화</td> 
-      <td> <p>보고서에 그룹화를 추가하면 보고서가 구성되는 방식이 결정됩니다.</p> <p>그룹화를 추가하는 방법은 <a href="#add-groupings-to-a-report" class="MCXref xref">보고서에 그룹화 추가</a>를 참조하세요.</p> </td> 
+      <td> <p>보고서에 그룹을 추가하면 보고서 구성 방법이 결정됩니다.</p> <p>그룹을 추가하는 방법을 알아보려면 <a href="#add-groupings-to-a-report" class="MCXref xref">보고서에 그룹 추가</a>를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td>필터</td> 
@@ -118,11 +118,11 @@ ht-degree: 1%
 1. Report Builder에서 **열(보기)** 탭을 선택하여 보고서에 표시할 열을 식별합니다.
 1. (선택 사항) **기존 보기 적용**&#x200B;을 클릭하고 드롭다운 메뉴에서 보기 이름을 클릭하여 기존 보기를 사용합니다.
 
-   보기 만들기에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
+   보기를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하세요.
 
-1. (선택 사항) 기존 열을 제거하려면 제거할 열을 클릭한 다음 열 헤더에서 현재 이름 옆에 있는 **x**&#x200B;을 클릭합니다.
+1. (선택 사항) 기존 열을 제거하려면 제거할 열을 클릭한 다음 열 머리글에서 현재 이름 옆의 **x**&#x200B;을(를) 클릭합니다.
 
-1. 새 열을 추가하려면 **열 추가**&#x200B;를 클릭하세요.
+1. 새 열을 추가하려면 **열 추가**&#x200B;를 클릭하십시오.
 
    또는
 
@@ -147,11 +147,11 @@ ht-degree: 1%
 
 1. (선택 사항) 그룹화를 사용 중이며 열에 있는 정보를 요약(집계)하려면 **열 설정** 영역에서 **이 열을 다음 기준으로 요약** 드롭다운 목록을 클릭한 다음 열의 정보를 집계하는 데 사용할 옵션을 선택하십시오.
 
-   집계된 정보가 그룹화 행의 열에 표시됩니다.
+   그룹화 행의 열에는 집계된 정보가 표시됩니다.
 
    ![그룹화에 대한 요약 집계](assets/aggregate-summary-displays-on-groupings-2022-350x195.png)
 
-   열의 데이터 요약에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
+   열의 데이터를 요약하는 방법에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
    >[!NOTE]
    >
@@ -159,11 +159,11 @@ ht-degree: 1%
    >
    >* 실제 시간을 제외한 모든 숫자 및 통화 필드(예: 계획된 또는 실제 인건비, 계획된 또는 실제 경비, 계획된 또는 실제 원가, 계획된 시간)는 하위 태스크 및 독립형 태스크에 대한 값만 집계합니다. 상위 작업 또는 상위 작업의 값을 집계하지 않습니다.
    >* 실제 시간은 기본 상위 작업과 독립형 작업에 대한 값을 집계합니다. 상위 작업 또는 하위 작업의 상위 작업에 대한 값은 집계하지 않습니다.
-   >* 숫자 및 통화 값에 대한 사용자 정의 데이터 필드는 상위, 1차 하위 구성요소, 1차 상위 구성요소 및 독립 실행형 작업과 같은 모든 작업을 집계합니다.
+   >* 숫자 및 통화 값에 대한 사용자 지정 데이터 필드는 모든 작업(상위, 하위, 상위 및 독립 실행형 작업)을 집계합니다.
 
    보고서에서 그룹화를 사용하는 방법에 대한 자세한 내용은 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
 
-1. (선택 사항) 열에 대해 다음 정보를 지정하려면 **고급 옵션**&#x200B;을 클릭합니다.
+1. (선택 사항) 열에 대해 다음 정보를 지정하려면 **고급 옵션**&#x200B;을 클릭하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -175,11 +175,11 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">필드 형식</td> 
-      <td> <p>열의 필드에 값을 표시할 형식을 선택합니다.</p> </td> 
+      <td> <p>열의 필드에 대해 값을 표시할 형식을 선택하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">대시보드에 있을 때 이 열 표시</td> 
-      <td> <p>보고서가 다른 보고서와 나란히 표시되는 경우 대시보드에 이 열을 표시하려면 이 옵션을 선택합니다. 이 옵션을 선택하지 않으면 보고서가 나란히 표시되는 대시보드에서 보고서를 볼 때 이 열이 표시되지 않습니다.</p> </td> 
+      <td> <p>보고서가 다른 보고서와 나란히 표시될 때 대시보드에 이 열을 표시하려면 이 옵션을 선택합니다. 이 옵션을 선택하지 않으면 보고서가 나란히 표시되는 대시보드에서 보고서를 볼 때 이 열이 표시되지 않습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">열 규칙</td> 
@@ -204,12 +204,12 @@ ht-degree: 1%
 
    ![그룹화 추가](assets/nwe-add-grouping-350x230.png)
 
-1. 그룹화로 추가할 필드를 입력하십시오. 필드를 사용할 수 있는 경우 해당 필드는 연결할 수 있는 각 오브젝트에 대해 채워집니다. 필드 이름을 클릭하여 해당 그룹화에 추가합니다.
-1. (선택 사항) **텍스트 모드로 전환**&#x200B;을 클릭하여 텍스트 모드에서 그룹화를 만들 수 있습니다. 텍스트 모드 사용에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
+1. 그룹화로 추가할 필드를 입력하십시오. 필드를 사용할 수 있는 경우, 필드가 연결될 수 있는 각 객체에 대해 채워집니다. 필드 이름을 클릭하여 해당 그룹에 추가합니다.
+1. (선택 사항) **텍스트 모드로 전환**&#x200B;을 클릭하여 텍스트 모드에서 그룹을 만들도록 선택할 수 있습니다. 텍스트 모드 사용에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
 
-   새 그룹화를 만드는 방법에 대한 자세한 내용은 Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
+   새 그룹을 만드는 방법에 대한 자세한 내용은 [Adobe Workfront의 그룹 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하세요.
 
-1. (선택 사항) 이 그룹화의 결과를 확장하지 않고 축소하려면 **기본적으로 이 그룹화 축소**&#x200B;를 선택합니다.
+1. (선택 사항) 이 그룹의 결과를 확장되지 않고 축소된 상태로 표시하려면 **기본적으로 이 그룹 축소**&#x200B;를 선택합니다.
 
    이 설정은 기본적으로 비활성화되며 그룹화 결과는 항상 확장된 목록에 표시됩니다.
 
@@ -230,13 +230,13 @@ ht-degree: 1%
 
 1. 이 문서의 [보고서 만들기](#create-a-report) 섹션에 설명된 대로 보고서 만들기를 시작합니다.
 1. Report Builder에서 **필터** 탭을 선택하여 보고서에 포함할 정보의 양을 식별합니다.
-1. 사용자 지정 필터를 추가하려면 **필터 규칙 추가**&#x200B;를 클릭하십시오.\
+1. **필터 규칙 추가**&#x200B;를 클릭하여 사용자 지정 필터를 추가합니다.\
    또는\
-   기존 필터를 사용하려면 **기존 필터 적용**&#x200B;을 선택하십시오.
+   **기존 필터 적용**&#x200B;을 선택하여 기존 필터를 사용합니다.
 
    ![필터 추가](assets/nwe-add-a-filter-350x93.png)
 
-1. **필터 규칙 추가**&#x200B;를 클릭한 경우 필터로 추가할 필드를 입력하세요. 필드를 사용할 수 있는 경우 해당 필드는 연결할 수 있는 각 오브젝트에 대해 채워집니다. 필드 이름을 클릭하여 해당 필터에 추가합니다.\
+1. **필터 규칙 추가**&#x200B;를 클릭한 경우 필터로 추가할 필드를 입력합니다. 필드를 사용할 수 있는 경우, 필드가 연결될 수 있는 각 객체에 대해 채워집니다. 필드 이름을 클릭하여 해당 필터에 추가합니다.\
    필터 수정자를 사용하여 필터를 빌드합니다. 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)를 참조하십시오.
 
    새 필터를 만드는 방법에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
@@ -258,6 +258,6 @@ ht-degree: 1%
 
    보고서에서 차트를 만드는 방법에 대한 자세한 내용은 [보고서에 차트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)를 참조하세요.
 
-1. **적용**&#x200B;을 클릭하여 지금까지 변경 내용을 적용하고 다음 옵션을 사용하여 보고서 편집을 계속합니다.
+1. **적용**&#x200B;을 클릭하여 지금까지 변경 내용을 적용하고 다음 옵션을 사용하여 보고서를 계속 편집합니다.
 
    보고서 편집을 완료하고 보고서를 저장하려면 **저장 + 닫기**&#x200B;를 클릭합니다.

@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: '계산된 사용자 정의 필드 예: 문제 사용자 정의 양식에 문제 작성자의 관리자 표시'
-description: 계산된 사용자 정의 필드를 사용하면 문제에 첨부된 사용자 정의 양식에 문제 작성자의 관리자 이름을 표시할 수 있습니다. 동일한 명령문을 사용하여 프로젝트, 문제 및 기타 개체에 대해 유사한 계산된 필드를 작성할 수 있습니다.
-author: Jenny
+title: '계산된 사용자 정의 필드 예: 문제 사용자 정의 양식에 문제 작성자의 관리자를 표시합니다.'
+description: 계산된 사용자 정의 필드를 사용하여 문제에 첨부된 사용자 정의 양식에 문제 작성자의 관리자 이름을 표시할 수 있습니다. 동일한 명령문을 사용하여 프로젝트, 문제 및 기타 개체에 대해 유사한 계산된 필드를 작성할 수 있습니다.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# 계산된 사용자 정의 필드 예: 문제 사용자 정의 양식에 문제 작성자의 관리자 표시
+# 계산된 사용자 정의 필드 예: 문제 사용자 정의 양식에 문제 작성자의 관리자를 표시합니다.
 
-계산된 사용자 정의 필드를 사용하면 문제에 첨부된 사용자 정의 양식에 문제 작성자의 관리자 이름을 표시할 수 있습니다. 동일한 명령문을 사용하여 프로젝트, 문제 및 기타 개체에 대해 유사한 계산된 필드를 작성할 수 있습니다.
+계산된 사용자 정의 필드를 사용하여 문제에 첨부된 사용자 정의 양식에 문제 작성자의 관리자 이름을 표시할 수 있습니다. 동일한 명령문을 사용하여 프로젝트, 문제 및 기타 개체에 대해 유사한 계산된 필드를 작성할 수 있습니다.
 
 <!--outdated link: 
 >[!TIP]
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>Adobe Workfront 패키지</p> </td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront 라이선스</p> </td> 
@@ -43,32 +43,32 @@ ht-degree: 0%
       <p>플랜</p></td>
   </tr> 
   <tr> 
-   <td><p>액세스 수준 구성</p></td> 
+   <td><p>액세스 레벨 구성</p></td> 
    <td> <p>사용자 정의 양식에 대한 관리 액세스</p> </td> 
   </tr> 
   <tr> 
    <td> <p>개체 권한</p> </td> 
-   <td> <p>사용자 정의 양식 편집에 대한 액세스 권한을 가지고 양식이 첨부된 오브젝트에 대한 액세스 기여</p></td> 
+   <td> <p>Contribute 사용자 정의 양식 편집에 대한 액세스 권한을 통해 양식이 첨부된 개체에 대한 액세스 권한 부여</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하세요.
 
 +++
 
-## 문제 사용자 정의 양식에 문제 작성자의 관리자 표시
+## 문제 사용자 정의 양식에 문제 작성자 관리자를 표시합니다.
 
-다음 단계에서는 문제를 만든 사용자의 관리자 이름을 캡처할 수 있는 문제 사용자 정의 양식에 대해 계산된 필드를 만드는 방법을 보여줍니다. 예를 들어 작업, 프로젝트 또는 포트폴리오를 생성한 사용자의 관리자 이름을 캡처하려는 경우에는 프로세스가 동일합니다.
+다음 단계는 문제를 만든 사용자의 관리자 이름을 캡처할 수 있는 문제 사용자 정의 양식에 대해 계산된 필드를 만드는 방법을 보여 줍니다. 예를 들어, 작업, 프로젝트 또는 포트폴리오를 생성한 사용자의 관리자 이름을 캡처하려는 경우에도 프로세스는 동일합니다.
 
-1. 문제 사용자 정의 양식을 만들고 계산된 필드를 추가합니다.
+1. 문제 사용자 정의 양식을 만들고 여기에 계산된 필드를 추가합니다.
 
    사용자 정의 양식을 만들고 계산된 필드를 추가하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
    * [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 
-1. 다음 텍스트 모드 코드를 복사하여 사용자 정의 양식의 **계산** 필드에 붙여넣습니다.
+1. 다음 텍스트 모드 코드를 복사하여 사용자 지정 양식의 **계산** 필드에 붙여 넣습니다.
 
    ```
    {owner}.{manager}.{name}
@@ -80,4 +80,4 @@ ht-degree: 0%
 
 1. **완료**&#x200B;를 클릭한 다음 **저장 + 닫기**&#x200B;를 클릭합니다.
 
-   문제를 만든 사용자의 관리자는 필드가 포함된 양식을 문제에 첨부할 때 계산된 필드에 표시됩니다.
+   문제를 생성한 사용자의 관리자는 해당 필드가 포함된 양식이 문제에 첨부될 때 계산된 필드에 표시됩니다.

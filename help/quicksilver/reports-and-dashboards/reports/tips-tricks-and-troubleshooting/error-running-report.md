@@ -3,14 +3,14 @@ content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: '보고서를 실행할 때 오류 메시지: ''현재 로그인되어 있지 않습니다.'''
-description: '''현재 로그인하지 않음'' 오류 메시지에 대해 알아봅니다.'
-author: Nolan
+description: '''현재 로그인하지 않았습니다.'' 오류 메시지에 대해 알아봅니다.'
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 6%
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -26,10 +26,10 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스</td> 
    <td> 
      <p>표준</p>
      <p>작업 이상</p>
@@ -37,7 +37,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> </td> 
+   <td> <p>보고서, 대시보드, 달력에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -46,7 +46,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -65,14 +65,14 @@ ht-degree: 6%
 ## 솔루션
 
 보고서 설정을 변경하려면 보고서에 대한 관리 권한이 있어야 합니다.\
-보고서를 조정하고 결과를 보려면 다음 작업을 수행하십시오.
+보고서를 조정하고 결과를 보려면:
 
 1. 보고서로 이동합니다.
 1. **보고서 작업** > **편집** > **보고서 설정**&#x200B;을 클릭합니다.
 
-1. **액세스 권한:** 필드에서 이 보고서 실행에서 활성 사용자의 이름을 지정하십시오.\
+1. **액세스 권한:** 필드로 이 보고서 실행 필드에서 활성 사용자의 이름을 지정하십시오.\
    또는\
-   **액세스 권한:** 필드가 비어 있는 상태로 이 보고서 실행
+   **액세스 권한:** 필드를 비워 두고 이 보고서 실행
 
 1. **완료**&#x200B;를 클릭합니다.
 1. **저장 및 닫기**&#x200B;를 클릭합니다.\

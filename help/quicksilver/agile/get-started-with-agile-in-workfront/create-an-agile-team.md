@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: 애자일 팀 만들기
 description: Adobe Workfront을 사용하면 애자일 팀이 점진적이고 조직적인 방식으로 작업을 완료할 수 있습니다.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 2%
@@ -39,7 +39,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -115,7 +115,7 @@ ht-degree: 2%
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 이 활성 상태입니다]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL이 활성 상태입니다]</strong> </td> 
       <td>이 팀을 활성화하려면 이 옵션을 선택하십시오. 비활성 팀은 작업에 할당할 다른 사용자에게 표시되지 않습니다. </td> 
      </tr>
 

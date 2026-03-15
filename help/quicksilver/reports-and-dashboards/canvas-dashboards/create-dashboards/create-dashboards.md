@@ -3,10 +3,10 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 캔버스 대시보드 만들기
 description: Canvas Dashboards를 사용하면 사용자 정의 가능한 대시보드에 보고서를 만들고 추가하여 계정 데이터를 빠르게 시각화할 수 있습니다.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 5%
@@ -40,7 +40,7 @@ Canvas Dashboards를 사용하면 사용자 정의 가능한 대시보드에 보
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>임의 </p> 
+<p>Any </p> 
    </td> 
 <tr> 
  <tr> 

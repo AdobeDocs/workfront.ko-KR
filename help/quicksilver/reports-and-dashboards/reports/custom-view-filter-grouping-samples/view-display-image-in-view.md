@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '보기: 열에 문자열 대신 이미지 표시'
 description: 텍스트 모드를 사용하여 뷰의 개체 이름을 이미지로 바꿀 수 있습니다. 교체하는 오브젝트를 열 수 있는 이미지에 링크를 추가할 수도 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -103,5 +103,5 @@ ht-degree: 0%
    valueformat=
    ```
 
-1. **완료** > **보기 저장**&#x200B;을 클릭합니다.
+1. **완료** > **보기 저장**을 클릭합니다.
 선택한 이미지는 프로젝트 보기에서 프로젝트 이름을 대체하며 이미지는 프로젝트에 대한 링크입니다.

@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 텍스트 모드 보고서에서 날짜 형식 지정
 description: Adobe Workfront의 보고서와 목록에 날짜를 다양한 형식으로 표시하도록 구성할 수 있습니다. 날짜 형식을 설정하려면 열에서 텍스트 모드 코드의 valueformat 라인을 수정해야 합니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%

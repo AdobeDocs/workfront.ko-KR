@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 텍스트 모드를 사용하여 필터 편집
 description: 텍스트 모드를 사용하여 목록 또는 보고서에서 필터를 편집하여 표준 인터페이스에서 사용할 수 없는 필드에 액세스하고 보다 복잡한 필터를 만들 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1044'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 텍스트 모드를 사용하여 목록 또는 보고서에서 필터를 편집하여 표준 인터페이스에서 사용할 수 없는 필드에 액세스하고 보다 복잡한 필터를 만들 수 있습니다.
 
-필터를 만들 때의 텍스트 모드 예에 대한 자세한 내용은 문서 [사용자 지정 보기, 필터 및 그룹화 샘플: 문서 인덱스](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters)의 [사용자 지정 필터 샘플](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md) 섹션을 참조하십시오.
+필터를 만들 때 추가 텍스트 모드 예제는 문서 [사용자 지정 보기, 필터 및 그룹화 샘플: 문서 인덱스](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters)의 [사용자 지정 필터의 샘플](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md) 섹션을 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +31,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -41,12 +41,12 @@ ht-degree: 1%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>필터, 보기 및 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드 및 달력에 대한 액세스 권한을 편집하여 보고서의 보고 요소를 편집합니다.</p></td> 
+   <td role="rowheader">액세스 레벨 구성</td> 
+   <td> <p>필터, 보기 및 그룹에 대한 액세스 편집</p> <p>보고서, 대시보드 및 일정에 대한 액세스 권한을 편집하여 보고서의 보고 요소 편집</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에서 필터를 편집할 보고서에 대한 권한 관리</p> <p>편집할 필터에 대한 권한 관리</p> </td> 
+   <td> <p>보고서에서 필터를 편집하기 위한 보고서 권한 관리</p> <p>필터에 대한 편집 권한 관리</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,17 +57,17 @@ ht-degree: 1%
 
 ## 전제 조건
 
-보고서나 목록에서 텍스트 모드 사용을 시작하기 전에 항상 Workfront 텍스트 모드 구문을 잘 알고 있는지 확인하십시오.
+보고서 또는 목록에서 텍스트 모드를 사용하기 전에 항상 Workfront 텍스트 모드 구문에 익숙한지 확인하십시오.
 
 자세한 내용은 다음 문서를 참조하십시오.
 
 * [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [텍스트 모드 구문 개요](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [사용자 정의 보기, 필터링 및 그룹화 샘플: 문서 인덱스](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [사용자 정의 보기, 필터 및 그룹화 샘플: 기사 색인](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## 필터에서 텍스트 모드 편집
 
-텍스트 모드를 사용하여 필터를 편집하는 것은 보고서와 목록에 대해 동일합니다. 보고서나 목록에서 필터에 액세스하는 방법은 서로 다릅니다.
+텍스트 모드를 사용하여 필터를 편집하는 것은 보고서와 목록의 경우와 동일합니다. 보고서나 목록에서 필터에 액세스하는 방법은 서로 다릅니다.
 
 >[!TIP]
 >
@@ -83,7 +83,7 @@ ht-degree: 1%
 
    또는
 
-   보고서에서 필터에 액세스하려면 보고서로 이동한 다음 **보고서 작업** > **편집** > **필터** 탭을 클릭합니다.
+   보고서에서 필터에 액세스하려면 보고서로 이동한 다음 **보고서 동작** > **편집** > **필터** 탭을 클릭합니다.
 
 1. 다음 중 하나를 수행하십시오.
 
@@ -91,9 +91,9 @@ ht-degree: 1%
 
    또는
 
-   기존 필터 빌더 또는 보고서에서 사용하는 경우 **필터 규칙 추가**&#x200B;를 클릭하여 필터의 조건을 추가합니다. 그런 다음 빌더 오른쪽에서 **텍스트 모드로 전환**&#x200B;을 클릭한 다음 **텍스트 모드 편집**&#x200B;을 클릭합니다.
+   기존 필터 작성기나 보고서에서 사용하는 경우 **필터 규칙 추가**&#x200B;를 클릭하여 필터의 조건 추가를 시작합니다. 그런 다음 빌더의 오른쪽에서 **텍스트 모드로 전환** 및 **텍스트 모드 편집**&#x200B;을 클릭합니다.
 
-1. 텍스트 모드를 사용하여 필터 문을 추가합니다. 각 필터 문에는 다음 줄과 추가 정보가 포함될 수 있습니다.
+1. 텍스트 모드를 사용하여 필터 문을 추가합니다. 각 필터 문에는 다음 줄 및 추가 정보가 포함될 수 있습니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -104,16 +104,16 @@ ht-degree: 1%
       <td><b>예</b></td> 
      </tr> 
      <tr> 
-      <td> <p>필드 이름 및 Workfront 데이터베이스에 나타나는 값과 동일합니다.</p> <p>이 라인은 필수입니다.</p> <p> 데이터베이스에 개체 및 필드가 표시되는 방법에 대한 자세한 내용은 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API 탐색기</a>를 참조하십시오.</p> </td> 
+      <td> <p>필드 이름 및 Workfront 데이터베이스에 나타나는 값과 동일합니다.</p> <p>이 라인은 필수입니다.</p> <p> 데이터베이스에 개체와 필드가 나타나는 방식에 대한 자세한 내용은 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API 탐색기</a>를 참조하십시오.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>진행 중 상태의 작업을 필터링하려면 다음 줄을 사용하십시오.</p> <p><code>status=INP</code> </p> <p><b>팁</b>
 
-   상태를 필터링할 때는 이름이 아닌 세 글자로 된 상태 코드를 사용해야 합니다.</p> </td>
+   상태에 대해 필터링할 때는 이름이 아닌 세 문자로 된 상태 코드를 사용해야 합니다.</p> </td>
    </tr> 
      <tr> 
-      <td> <p>필드 이름 수정자 및 수정자가 동일한 항목. 필터링 기준 필드가 충족해야 하는 조건을 나타냅니다.</p> <p>이 라인은 필수입니다.</p> </td> 
-      <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>필터링하는 작업의 상태가 [진행 중]과 같아야 함을 나타내려면 위의 줄 외에 다음 줄을 사용하십시오.</p> <p><code>status_Mod=in</code> </p> <p>수정자가 범위인 경우 수정자를 나타내는 라인이 두 개 있습니다.</p> 
+      <td> <p>필드 이름 수정자 및 수정자가 같음. 필터링 기준으로 사용할 필드가 충족해야 하는 조건을 나타냅니다.</p> <p>이 줄은 필수 항목입니다.</p> </td> 
+      <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>필터링하는 작업의 상태가 진행 중임을 나타내려면 위의 행 외에 다음 행을 사용하십시오.</p> <p><code>status_Mod=in</code> </p> <p>수정자가 범위인 경우 수정자를 나타내는 라인이 두 개 있습니다.</p> 
        <div> <span class="autonumber"><span><b>예 </b></span></span> 
-        <p>다음 텍스트 모드 필터는 진행 중이며 현재 달 내에 계획된 완료 일자가 있고 특정 GUID를 가진 사용자에게 할당된 작업을 찾습니다.</p> 
+        <p>이 필터는 진행 중인 작업, 현재 월 내의 완료 예정 날짜 및 특정 GUID를 가진 사용자에게 할당된 작업을 찾는 텍스트 모드 필터입니다.</p> 
         <p><code>assignedToID=580a55a4000701f4b2d7dee1e7a9d427</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
         <p><code>status=INP</code> </p> 
@@ -121,18 +121,18 @@ ht-degree: 1%
         <p><code>plannedCompletionDate=$$TODAYbm</code> </p> 
         <p><code>plannedCompletionDate_Mod=between</code> </p> 
         <p><code>plannedCompletionDate_Range=$$TODAYem</code> </p> 
-        <p>텍스트 모드의 전체 필터 수정자 목록은 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">필터 및 조건 수정자</a> 문서를 참조하십시오.</p> 
+        <p>텍스트 모드의 필터 한정자 전체 목록을 보려면 문서 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">필터 및 조건 한정자</a>를 참조하십시오.</p> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>문 연산자. 기본적으로 각 필터 문은 "AND" 연산자로 연결됩니다. 텍스트 모드 인터페이스에는 표시되지 않습니다. 두 문 사이에 "OR" 연산자를 추가하여 두 조건 중 하나 또는 다른 조건을 충족할 수 있는 객체를 필터링할 것임을 나타낼 수도 있습니다.</p> <p>필터 연산자는 명령문이 두 개 이상 있는 필터에만 필요합니다.</p> <p>팁:   
+      <td> <p>문 연산자. 기본적으로 각 필터 문은 "AND" 연산자로 연결되어 있습니다. 텍스트 모드 인터페이스에는 표시되지 않습니다. 두 문 사이에 "OR" 연산자를 추가하여 두 조건 중 하나 또는 다른 조건을 충족할 수 있는 객체를 필터링할 것임을 나타낼 수도 있습니다.</p> <p>필터 연산자는 명령문이 두 개 이상 있는 필터에만 필요합니다.</p> <p>팁:   
         <ul> 
          <li> <p>"OR"은 대소문자를 구분하므로 항상 대문자로 표기해야 합니다.</p> </li> 
          <li> <p>연산자를 AND에서 OR로 변경하면 목록 항목의 수가 늘어날 수 있습니다.</p> </li> 
         </ul> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div> <span class="autonumber"><span><b>예 </b></span></span> 
-        <p>진행 중 상태이거나 계획된 완료 일자가 오늘인 작업을 필터링하려면 다음을 사용합니다. </p> 
+        <p>진행 중 상태이거나 계획 완료 날짜가 오늘인 작업에 대해 필터링하려면 다음을 사용합니다. </p> 
         <p><code>status=INP</code> </p> 
         <p><code>status_Mod=in</code> </p> 
         <p><code>OR:1:plannedCompletionDate=$$TODAY</code> </p> 
@@ -153,23 +153,23 @@ ht-degree: 1%
 
 1. &quot;OR&quot; 연산자로 연결된 필터 문을 추가하려면 다음을 수행합니다.
 
-   1. OR:1:을(를) 입력하고 그 뒤에 필터링할 개체 또는 특성과 비교하려는 값을 추가합니다. 신규를 제외한 모든 상태의 작업을 참조하려면 다음 라인을 사용합니다.
+   1. 필터링할 개체 또는 특성 및 비교하려는 값이 앞에 OR:1:을(를) 입력한 새 코드 줄을 추가합니다. 신규를 제외한 모든 상태의 태스크를 참조하려면 다음 라인을 사용합니다.
 
       `OR:1:status=NEW`
 
-   1. 두 번째 줄을 추가하고 OR:1:을(를) 입력한 다음 개체, 수정자 및 수정자 코드를 입력합니다. 신규를 제외한 모든 태스크 상태를 참조하는 코드 라인의 수정자를 정의하려면 다음 수정자 라인을 사용합니다.
+   1. 두 번째 줄을 추가하고 OR:1:을 입력한 다음 개체, 수정자 및 수정자 코드를 입력합니다. New를 제외한 모든 태스크 상태를 참조하는 코드 라인의 수정자를 정의하려면 다음 수정자 라인을 사용합니다.
 
       `OR:1:status_Mod=notin`
 
-      새 문의 각 줄 앞에는 &quot;OR:`<number>`:&quot;이 와야 합니다.
+      새 문의 각 줄 앞에는 &quot;OR:`<number>`:&quot;가 와야 합니다.
 
       필터에서 &quot;OR&quot; 문을 만드는 방법에 대한 자세한 내용은 [텍스트 모드 필터에서 &quot;OR&quot; 문 만들기](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)를 참조하십시오.
 
       >[!NOTE]
       >
-      >동일한 필터에 여러 &quot;OR&quot; 문이 있을 수 있습니다. 새 &quot;OR&quot; 문이 있을 때마다 &quot;OR:&quot; 다음의 숫자가 증가합니다.
+      >동일한 필터에 여러 개의 &quot;OR&quot; 문을 가질 수 있습니다. 새 &quot;OR&quot; 문이 있을 때마다 &quot;OR:&quot; 뒤에 나오는 숫자가 증가합니다.
       >
-      >진행 중 상태이거나 로그인한 사용자에게 할당되었거나 오늘 계획된 완료 일자가 있는 작업을 필터링하려면 다음을 사용합니다.
+      >진행 중 상태이거나 로그인한 사용자에게 할당되었거나 현재 계획 완료 날짜가 지정된 작업을 필터링하려면 다음을 사용합니다.
       >
       >`status=INP`
       >`status_Mod=in`
@@ -178,7 +178,7 @@ ht-degree: 1%
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. 텍스트 모드 변경 내용을 저장하고 보고서 또는 필터를 계속 편집하려면 **적용** 또는 **완료**&#x200B;를 클릭하십시오.
+1. **적용** 또는 **완료**&#x200B;를 클릭하여 텍스트 모드 변경 내용을 저장하고 보고서 또는 필터 편집을 계속합니다.
 1. **저장 + 닫기**&#x200B;를 클릭하여 보고서를 저장하거나 **필터 저장**&#x200B;을 클릭하여 필터를 목록에 저장합니다.
 
 

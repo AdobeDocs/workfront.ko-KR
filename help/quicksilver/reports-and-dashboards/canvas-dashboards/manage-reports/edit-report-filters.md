@@ -2,14 +2,14 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 캔버스 대시보드에서 보고서 필터 편집
-description: 보고서 필터가 캔버스 대시보드에 적용된 후 편집할 수 있습니다.
-author: Courtney and Jenny
+description: 보고서 필터를 캔버스 대시보드에 적용한 후 편집할 수 있습니다.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->&#x200B;>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
->&#x200B;>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능의 일부가 완료되지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침을 따라 귀하의 경험과 관련된 피드백을 제출하십시오.<br>
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원 팀에 티켓을 제출하십시오. 자세한 내용은 [고객 지원에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.<br>
+>이 Beta는 다음 클라우드 공급자에서 사용할 수 없습니다.
 >
->* Amazon Web Services에 대한 자체 키 가져오기
+>* 나만의 Amazon Web Services 키 가져오기
 >* Azure
 >* Google Cloud 플랫폼
 
-보고서 필터를 캔버스 대시보드에 적용하면 프로젝트 진행 시 표시되는 데이터를 업데이트할 수 있습니다.
+보고서 필터를 [캔버스 대시보드]에 적용한 후 편집하여 프로젝트가 진행되는 동안 표시되는 데이터를 업데이트할 수 있습니다.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,7 +40,7 @@ ht-degree: 9%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>임의 </p> 
+<p>Any </p> 
    </td> 
 <tr> 
  <tr> 
@@ -52,8 +52,8 @@ ht-degree: 9%
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td><p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p>
+   <td role="rowheader"><p>액세스 레벨 구성</p></td> 
+   <td><p>보고서, 대시보드 및 일정에 대한 액세스 편집</p>
   </td> 
   </tr>  
         <tr> 
@@ -90,11 +90,11 @@ ht-degree: 9%
 
 1. **필터 편집**&#x200B;을 클릭합니다.
 
-1. 편집할 필드 또는 수정자를 선택한 다음 필요에 따라 현재 선택 사항을 조정합니다.
+1. 편집할 필드 또는 수정자를 선택한 다음 필요에 따라 현재 선택 항목을 조정합니다.
 
    ![조건 추가](assets/add-condition.png)
 
-1. (선택 사항) 다른 필터링 기준 집합을 추가하려면 **필터 그룹 추가**&#x200B;를 클릭합니다. 세트 사이의 기본 연산자는 AND입니다. 연산자를 클릭하여 OR로 변경합니다.
+1. (선택 사항) 다른 필터링 기준 집합을 추가하려면 **필터 그룹 추가**&#x200B;를 클릭하십시오. 세트 사이의 기본 연산자는 AND입니다. 연산자를 클릭하여 OR로 변경합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -102,11 +102,11 @@ ht-degree: 9%
 
 ### 날짜 기반 와일드카드 필터 변수
 
-날짜 기반 와일드카드 옵션은 모든 날짜 필터 속성과 함께 사용할 수 있습니다. 보고서에 날짜 기반 와일드카드를 추가하는 방법에 대한 자세한 내용은 문서 [날짜 기반 와일드카드를 사용하여 보고서 일반화](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)를 참조하십시오.
+날짜 기반 와일드카드 옵션은 모든 날짜 필터 특성과 함께 사용할 수 있습니다. 보고서에 날짜 기반 와일드카드를 추가하는 방법에 대한 자세한 내용은 [날짜 기반 와일드카드를 사용하여 보고서 일반화](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) 문서를 참조하십시오.
 
 >[!NOTE]
 >
->시간 부분을 포함하지 않거나 날짜 와일드카드 $$TODAY 또는 $$NOW를 사용하는 날짜 및 시간 계산을 만드는 경우, 시스템은 현지 시간대가 아닌 UTC(협정 세계시) 시간대에 따라 날짜를 사용합니다. 이로 인해 예상치 못한 날짜 결과가 발생할 수 있습니다.
+>시간 부분이 포함되지 않았거나 날짜 와일드카드 $$TODAY 또는 $$NOW를 사용하는 날짜 및 시간 계산을 만드는 경우 시스템은 현지 시간대가 아닌 UTC(협정 세계시) 시간대에 따라 날짜를 사용합니다. 이로 인해 예기치 않은 날짜 결과가 발생할 수 있습니다.
 
 다음 날짜 기반 와일드카드 중에서 선택할 수 있습니다.
 
@@ -115,12 +115,12 @@ ht-degree: 9%
  <col> 
  <tbody> 
   <tr valign="top"> 
-   <td width="100" role="rowheader"> <p><strong>$$TODAY</strong> </p> </td> 
-   <td> <p>내일, 다음 주 또는 다음 달에 필터를 다시 빌드하지 않도록 이 와일드카드를 사용하여 날짜 구분 필터를 빌드하는 것이 좋습니다.</p> <p>예를 들어 오늘 전에 마감된 모든 작업을 표시하려는 경우 작업 필터에서 다음 규칙을 사용할 수 있습니다. <em>계획된 시작 일자가 $$TODAY보다 작음</em>.</p> <p>$$TODAY는 현재 날짜의 자정과 항상 같습니다.</p> </td> 
+   <td width="100" role="rowheader"> <p><strong>$$오늘</strong> </p> </td> 
+   <td> <p>이 와일드카드를 사용하여 날짜에 민감한 필터를 빌드하므로 내일, 다음 주 또는 다음 달에 필터를 다시 빌드하지 않는 것이 좋습니다.</p> <p>예를 들어 오늘 이전에 만기된 모든 작업을 표시하려면 작업 필터에 <em>계획 시작 날짜가 $$TODAY</em>보다 작은 규칙을 사용할 수 있습니다.</p> <p>$$TODAY는 항상 현재 날의 자정과 같습니다.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
-   <td> <p>$$TODAY 와일드카드와 유사하지만 현재 날짜 및 시간을 포함합니다. $$NOW는 현재 날짜 및 시간과 같습니다.</p> <p>예를 들어 현재 시간까지 제공된 모든 시간 항목을 표시하려면 시간 필터에서 <em>계획된 시작 일자가 $$NOW</em>보다 작은 규칙을 사용하여 표시할 수 있습니다.</p> <p>참고: 이 와일드카드는 리소스 플래너에서 지원되지 않습니다.</p> </td> 
+   <td width="100" role="rowheader"> <p><strong>$$지금</strong> </p> </td> 
+   <td> <p>$$TODAY 와일드카드와 비슷하지만 현재 날짜와 시간을 포함합니다. $$NOW는 현재 날짜 및 시간과 같습니다.</p> <p>예를 들어 현재 시간까지 제공된 모든 시간 항목을 표시하려면 시간 필터에 다음 규칙을 사용하여 이 작업을 수행할 수 있습니다. <em>계획 시작 날짜가 $$NOW</em>보다 작습니다.</p> <p>주: 이 와일드카드는 리소스 계획자에서 지원되지 않습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,9 +130,9 @@ ht-degree: 9%
 | 속성 |   |
 |---|---|
 | **q** | 달력 분기 |
-| **시간** | 시간 |
+| **h** | 시간 |
 | **d** | 일 |
-| **너비** | 주 |
+| **w** | 주 |
 | **분** | 개월 |
 | **y** | 년 |
 
@@ -140,8 +140,8 @@ ht-degree: 9%
 
 | **한정자** | |
 |---|---|
-| **b** | 기간의 시작(지정된 속성이 없음)은 기본적으로 주의 시작(일요일)으로 설정됩니다. |
-| **e** | 기간의 종료(지정된 속성이 없으면 기본값: 주의 종료: 토요일) |
+| **b** | 기간의 시작(지정된 속성 없이 기본값은 주의 시작: 일요일)입니다. |
+| **e** | 기간 종료(지정된 속성 없이 기본값은 주의 종료: 토요일) |
 
 {style="table-layout:auto"}
 
@@ -152,7 +152,7 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-예를 들어 와일드카드 `$$TODAYb+2w`은(는) &quot;이번 주 초부터 2주&quot;를 참조합니다. 와일드카드 *`$$NOW+2h`은(는) &quot;지금부터 2시간 후&quot;를 참조합니다.
+예를들어 와일드카드 `$$TODAYb+2w`은(는) &quot;이 주의 시작일로부터 2주&quot;를 참조합니다. 와일드카드 *`$$NOW+2h`은(는) &quot;지금부터 2시간 후&quot;를 참조합니다.
 
 ### 로그인한 사용자 와일드카드 필터 변수
 
@@ -181,7 +181,7 @@ ht-degree: 9%
 
 ### 필드 유형별 필드 연산자
 
-+++ 를 확장하여 필드 유형별 필드 연산자 목록을 봅니다. 
++++ 필드 유형별로 필드 연산자 목록을 보려면 확장합니다. 
 
 <table>
     <tr>
@@ -231,8 +231,8 @@ ht-degree: 9%
         <td></td>
     </tr>
     <tr>
-        <td>정수 / 더블</td>
-             <td>프로젝트: 계획된 시간
+        <td>정수 / 이중</td>
+             <td>프로젝트: 계획 시간
         <br>작업: 완료율</td>
               <td><ul>
         <li>Equal</li>
@@ -247,14 +247,14 @@ ht-degree: 9%
         <td></td>
     </tr>
        <tr>
-        <td> 날짜 / 날짜 시간 </td>
-                    <td>프로젝트: 계획된 시작 일자
+        <td> 날짜/날짜 시간 </td>
+                    <td>프로젝트: 계획 시작 일자
         <br>시간: 시작 날짜</td>
               <td><ul>
         <li>Equal</li>
         <li>같지 않음</li>
         </ul></td>
-        <td><b>상대적 날짜 설정</b> 옵션을 전환하여 상대적 날짜 와일드카드를 적용하여 보고서를 보다 동적이고 일반적인 날짜 기간에 따라 자동으로 조정할 수 있습니다. 
+        <td><b>상대 날짜 설정</b> 옵션을 전환하면 상대 날짜 와일드카드를 적용하여 보고서를 더 동적으로 만들고 공통 날짜 기간을 기반으로 자가 조정할 수 있습니다. 
          <ul><li>$$오늘</li>
          <li>$$NOW</li>
          </ul>
@@ -264,7 +264,7 @@ ht-degree: 9%
         <td>부울 </td>
                   <td>프로젝트: 문서 있음
         <br>작업: 중요
-        <br> 사용자: 활성 상태입니다.</td>
+        <br> 사용자: 활성 상태</td>
         <td><ul>
         <li>Equal</li>
         <li>같지 않음</li>

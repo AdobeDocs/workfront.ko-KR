@@ -4,11 +4,11 @@ content-type: release-notes
 navigation-topic: proof-release-activity
 title: Adobe Workfront proof 23.3 릴리스 활동 시작 2023년 6월 5일 주
 description: 이 페이지에서는 미리보기 환경에 대한 Adobe Workfront Proof의 23.3 릴리스에 대해 향상된 모든 기능을 설명합니다. 이러한 개선 사항은 2023년 6월 5일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b52020a5-e58b-48f6-9714-8e2ebe606729
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%

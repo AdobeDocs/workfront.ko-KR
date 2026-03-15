@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: 캔버스 대시보드 공유
 description: 다른 Adobe Workfront 사용자가 보거나 편집할 수 있도록 캔버스 대시보드를 공유할 수 있습니다.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 >* Azure
 >* Google Cloud 플랫폼
 
-다른 Adobe Workfront 사용자가 보거나 편집할 수 있도록 캔버스 대시보드를 공유할 수 있습니다.
+You can share a Canvas dashboard with other Adobe Workfront users so they can view or edit it.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -39,7 +39,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
    <td> 
-<p>임의 </p> 
+<p>Any </p> 
    </td> 
 <tr> 
  <tr> 
@@ -52,13 +52,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td><p>보고서, 대시보드 및 캘린더에 대한 액세스 보기</p>
+   <td><p>View access to Reports, Dashboards, and Calendars</p>
   </td> 
   </tr>  
     </tr>  
         <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td><p>대시보드를 공유할 대시보드에 대한 권한 보기</p>
+   <td><p>View permissions for the dashboard to share the dashboard</p>
    <p>대시보드 권한을 할당하려면 대시보드에 대한 권한을 관리하십시오.</p>
   </td> 
   </tr>
@@ -72,15 +72,15 @@ ht-degree: 0%
 
 * 대시보드는 사용자, 팀, 그룹, 작업 역할 또는 회사 리소스와 공유할 수 있습니다.
 
-* 기본적으로 대시보드 작성자는 대시보드에 대한 관리 권한을 갖습니다.
+* By default, the creator of a dashboard has Manage permissions for the dashboard.
 
-* 시스템 관리자와 관리 권한이 있는 사용자는 대시보드에 대한 보기 또는 관리 액세스 권한을 부여할 수 있습니다.
+* System administrators and users with Manage permission can grant View or Manage access to a dashboard.
 
-* 대시보드에 대한 보기 권한이 있는 사용자는 대시보드에 대한 보기 액세스 권한을 부여할 수 있습니다.
+* Users with View permission to a dashboard can grant View access to a dashboard.
 
-* 대시보드를 공유할 때 대시보드가 공유되는 리소스는 대시보드에 표시된 보고서에 대한 권한을 상속합니다.
+* When sharing a dashboard, the resources it&#39;s shared with will inherit permissions to the reports displayed on the dashboard.
 
-* 대시보드가 레이아웃 템플릿을 통해 배포되면 대시보드(및 해당 보고서)에 대한 자동 보기 권한이 레이아웃 템플릿에 할당된 모든 리소스에 부여됩니다.
+* When a dashboard is distributed through a layout template, an automatic View permission for the dashboard (and its reports) is granted to all resources assigned to the layout template.
 
 
 ## 캔버스 대시보드 공유
@@ -98,18 +98,18 @@ ht-degree: 0%
 
 1. **액세스 권한 부여** 필드에서 캔버스 대시보드를 공유할 특정 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 선택합니다.
 
-1. (선택 사항) 대시보드에 대한 리소스의 액세스를 편집하려면 이름 옆에 있는 **보기**&#x200B;를 클릭한 다음 나타나는 드롭다운 목록에서 **관리**&#x200B;를 선택합니다.
+1. (Optional) To edit a resource&#39;s access to the dashboard, click **View** next to their name, then select **Manage** in the drop-down list that appears.
 
    >[!NOTE]
    >
-   > 사용자에게 액세스 수준을 통해 할당된 대시보드에 대한 편집 권한이 없는 경우 대시보드에 대한 관리 권한을 할당할 수 없습니다.
+   > When users do not have the Edit permissions to a dashboard assigned through their access level, they cannot be assigned Manage permissions to a dashboard.
 
-1. 대시보드를 공유할 각 리소스에 대해 5-6단계를 반복합니다.
+1. Repeat steps 5-6 for each resource you want to share the dashboard with.
 
-1. **공유** 단추를 클릭합니다. 받는 사람은 대시보드가 사용자와 공유되었음을 알리는 전자 메일 알림을 받으며, 이제 **대시보드** > **캔버스 대시보드** > **공유 대시보드**&#x200B;에서 액세스할 수 있습니다.
+1. Click the **Share** button. The recipients receive an email notification informing them that the dashboard has been shared with them, which they can now access at **Dashboards** > **Canvas Dashboards** > **Shared Dashboards**.
 
    >[!NOTE]
    >
-   > 이메일 알림에 대한 개별 사용자 환경 설정 및 시스템 제외가 적용될 수 있습니다. <br>
-   > 알림은 사용자와 직접 공유할 때만 전송됩니다. 그룹, 역할, 회사 및 팀에 공유해도 전자 메일 알림이 생성되지 않습니다.<br>
+   > Individual user preferences and system exclusions for email notifications may apply. <br>
+   > Notifications are only sent when shared directly with a user. 그룹, 역할, 회사 및 팀에 공유해도 전자 메일 알림이 생성되지 않습니다.<br>
    > 레이아웃 템플릿에서 상속된 권한은 대시보드 액세스에 대한 이메일 알림을 생성하지 않습니다.
