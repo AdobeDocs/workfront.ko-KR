@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '416'
 ht-degree: 1%
 
 ---
@@ -155,8 +155,16 @@ OLD:
 
 ## 권한 요청 및 부여 시 인앱 알림 관리
 
-누군가 보기 또는 작업 영역에 대한 권한을 요청하거나 부여하면 인앱 알림을 받습니다. <!--<span class="preview">or record</span>-->
+누군가 보기, 작업 영역 또는 레코드 유형에 대해 권한을 요청하거나 부여하면 인앱 알림을 받습니다. <!--<span class="preview">or record</span>-->
 
 권한 요청, 부여 또는 거부에 대한 자세한 내용은 [보기 또는 작업 영역에 대한 권한 요청](/help/quicksilver/planning/access/request-permissions.md)을 참조하십시오.
 
 Workfront Planning 알림 관리에 대한 자세한 내용은 [Adobe Workfront Planning 알림 환경 설정 관리](/help/quicksilver/planning/notifications/manage-notification-preferences.md)를 참조하십시오.
+
+## Planning 요청을 승인 또는 거부할 때 인앱 알림 관리
+
+누군가가 승인 요청을 제출하거나 누군가가 내가 제출한 요청을 승인하면 인앱 알림을 받게 됩니다.
+
+요청 제출에 대한 자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
+
+요청 승인에 대한 자세한 내용은 [Adobe Workfront Planning에서 요청 승인](/help/quicksilver/planning/requests/approve-request.md)을 참조하십시오.

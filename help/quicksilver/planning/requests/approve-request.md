@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '987'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 +++
 
-## 레코드 만들기 요청 승인
+## 레코드 작성을 위한 Planning 요청 승인
 
 사용자가 승인과 연결된 레코드 유형 요청 양식에 요청을 추가하면 요청이 승인자에게 전송됩니다.
 
@@ -93,32 +93,34 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 * 인앱 알림
 * 이메일 알림
 
+알림에서 요청 승인에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
+* [Adobe Workfront Planning 이메일 알림 관리](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
+* [Adobe Workfront Planning 인앱 알림 관리](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)
+
 >[!NOTE]
 >
 >사용자가 이메일 및 인앱 알림을 수신할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.
 
 요청 자체 또는 홈에 있는 내 승인 위젯에서 레코드를 만들도록 요청을 승인할 수 있습니다.
 
-* [Workfront Planning에서 요청의 요청 승인](#approve-a-request-from-the-request-in-workfront-planning)
-* [홈의 내 승인 위젯에서 요청 승인](#approve-a-request-from-the-my-approvals-widget-in-home)
+### 통지 또는 요청 영역에서 Planning 요청 승인
 
-### Workfront Planning에서 요청의 요청 승인
+1. 다음 중 하나를 수행하여 요청을 엽니다.
 
-1. (조건부) Workfront에서 기존 요청 경험을 사용하는 경우 다음 중 하나를 수행하여 요청을 엽니다.
-
-   * Workfront Planning에 액세스하여 하나 이상의 작업 영역을 볼 수 있는 경우 화면 오른쪽 상단의 **주 메뉴** ![점 주 메뉴](assets/dots-menu.png) 또는 사용 가능한 경우 왼쪽 상단의 **주 메뉴** ![선 주 메뉴](assets/lines-menu.png)를 클릭한 다음 **요청** > **제출됨** > **계획**&#x200B;을 클릭하고 **검토 보류 중** 또는 **검토 중** 상태의 요청을 클릭합니다.
+   * 왼쪽 상단 모서리에서 **주 메뉴** ![줄 주 메뉴](assets/lines-menu.png)를 클릭한 다음 **요청** > **새 경험 사용**&#x200B;을 클릭하고 **검토 보류 중** 상태의 요청을 클릭합니다.
 
      >[!TIP]
      >
-     >Workfront Planning에 대한 액세스 권한이 없거나 작업 영역을 볼 수 있는 액세스 권한이 없는 경우 이메일 또는 인앱 알림을 사용하는 승인 요청에만 액세스할 수 있습니다.
+     >* Workfront Planning에 대한 액세스 권한이 없거나 작업 영역을 볼 수 있는 액세스 권한이 없는 경우 이메일 또는 인앱 알림을 사용하는 승인 요청에만 액세스할 수 있습니다.
+     >* 기존 요청 환경에서 Planning 요청에 액세스할 수 없습니다.
 
    * 화면 오른쪽 상단에 있는 **알림** 영역 아이콘 ![통합 셸의 알림 영역 아이콘](assets/notifications-area-icon-unified-shell.png)을 클릭하고 승인 보류 중인 요청에 대한 알림을 클릭하여 요청을 엽니다.
-   * 승인 보류 중인 요청을 알리는 전자 메일의 전자 메일 알림으로 이동한 다음 **요청 열기**&#x200B;를 클릭하여 요청을 엽니다. <!--add the name of the button here, from the email-->
+   * 승인 보류 중인 요청을 알리는 전자 메일의 전자 메일 알림으로 이동한 다음 **요청 열기**&#x200B;를 클릭하여 요청을 엽니다.
 
    요청 페이지가 읽기 전용 모드로 열립니다.
 
    ![검토 상태의 읽기 전용 요청 페이지](assets/read-only-reqeust-page-in-review-status.png)
-1. Workfront에서 새로운 요청 환경을 사용하는 경우 화면 오른쪽 상단의 **주 메뉴** ![점 주 메뉴](assets/dots-menu.png) 또는 왼쪽 상단의 **주 메뉴** ![선 주 메뉴](assets/lines-menu.png)를 클릭한 다음(사용 가능한 경우) **요청**&#x200B;을 클릭하고 **검토 보류 중** 상태로 승인할 요청을 클릭합니다.
 1. (선택 사항) 승인자를 보려면 요청의 오른쪽 상단에 있는 **승인** 아이콘 ![승인 아이콘](assets/approvals-icon.png)을 클릭합니다.
 1. **검토 및 승인**&#x200B;을 클릭한 후 다음 중 하나를 선택하십시오.
 
@@ -132,21 +134,20 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * **완료**: 요청이 승인되었습니다.
    * **거부됨**: 요청이 거부되었습니다.
 
-   요청은 Workfront의 요청 영역에 남아 있습니다.
+   요청이 Workfront의 **요청** 영역에 남아 있습니다.
 
 ### 홈의 내 승인 위젯에서 요청 승인
 
 {{step1-to-home}}
 
-또는
+1. **Home**&#x200B;의 **내 승인** 위젯으로 이동합니다.
 
-Adobe Workfront 왼쪽 상단의 [!UICONTROL 홈] 아이콘 ![홈 아이콘](/help/_includes/assets/home-icon-30x29.png)을 클릭한 다음 내 승인 위젯을 찾습니다.
+   ![홈의 내 승인 위젯](assets/my-approvals-widget-in-home.png)
+1. 승인하거나 거부할 Planning 요청을 찾습니다.
 
-1. 승인하거나 거부할 객체를 찾습니다.
+1. (선택 사항) **승인** 또는 **거부** 옆에 있는 드롭다운 화살표를 클릭하고 메모를 입력한 다음 **추가**&#x200B;를 클릭하여 댓글을 추가합니다.
 
-1. (선택 사항) 승인 또는 거부 옆에 있는 드롭다운 화살표를 클릭하고, 메모를 입력한 다음 추가 를 클릭하여 설명을 추가합니다.
-
-1. 다음 중 하나를 선택합니다.
+1. 다음 중 하나를 클릭합니다.
 
    * **승인**: 요청을 승인합니다. 모든 승인자가 요청을 승인한 후 요청 양식과 연결된 레코드 유형에 대해 레코드가 즉시 만들어집니다.
    * **거부**: 사용자가 요청을 거부하는 유일한 승인자인 경우에도 이 요청은 거부됩니다. 요청 양식과 연결된 레코드 유형에 대해 만들어진 레코드가 없습니다.

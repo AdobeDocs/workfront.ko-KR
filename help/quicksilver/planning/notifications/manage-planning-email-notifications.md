@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -166,7 +166,7 @@ Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe 
 
    권한을 요청한 개체가 Workfront에서 열립니다.
 
-1. (조건부) 사용 가능한 경우 **모든 알림 보기**&#x200B;를 클릭합니다.
+1. (조건부) 사용 가능한 경우 **모든 알림 보기**를 클릭합니다.
 **알림** 페이지가 Adobe Experience Cloud에서 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
 
 
@@ -180,6 +180,13 @@ Workfront Planning 알림 관리에 대한 자세한 내용은 [Adobe Workfront 
 요청을 제출한 후 또는 제출한 요청이 승인 또는 거부된 후. 이메일을 보낸 사람은 Adobe Workfront입니다.
 
 1. (선택 사항) **요청 열기**&#x200B;를 클릭합니다. 그러면 Workfront Planning에서 요청이 열립니다.
+
+1. 요청의 오른쪽 상단 모서리에서 **검토 및 승인** 단추를 클릭한 후 다음 중 하나를 클릭합니다.
+
+   * 요청을 승인하려면 **승인**&#x200B;하세요. Planning 요청을 승인하면 레코드가 생성됩니다.
+   * 요청을 거부하려면 **거부**&#x200B;하십시오. Workfront Planning에서 요청을 거부하면 레코드가 생성되지 않습니다. 요청이 **거부됨** 상태로 요청 영역에 저장됩니다.
+
+   ![계획 요청의 검토 및 승인 단추](assets/review-approval-button-with-drop-down-expanded.png)
 
 1. 화면 오른쪽 상단의 **알림** 아이콘 ![알림 영역 아이콘 통합 셸](assets/notifications-area-icon-unified-shell.png)을 클릭하여 **알림** 페이지에 액세스합니다.
 
