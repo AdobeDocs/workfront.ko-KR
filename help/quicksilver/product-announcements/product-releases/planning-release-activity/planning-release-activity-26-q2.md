@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: 1e05945e24770848da9d2c77b81b9475e43797ea
+source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -81,7 +81,7 @@ For information, see [Create fields](/help/quicksilver/planning/fields/create-fi
 
 기본적으로 작업 영역은 &quot;초대된 사용자만 액세스할 수 있음&quot; 권한으로 설정됩니다.
 
-이 변경 이전에는 이러한 작업 공간 공유 권한을 선택하는 기능이 종료되지 않았습니다.
+이 변경 이전에는 이러한 작업 공간 공유 권한을 선택하는 기능이 없었습니다.
 
 자세한 내용은 작업 공간 공유(help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
 
