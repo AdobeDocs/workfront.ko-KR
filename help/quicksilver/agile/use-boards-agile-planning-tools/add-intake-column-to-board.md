@@ -7,9 +7,9 @@ description: 정의한 필터에 따라 Workfront에 작업 및 문제를 추가
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+source-git-commit: db2e91e795bbc4ecc9953eb0c7643c7ae1f1c911
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1023'
 ht-degree: 5%
 
 ---
@@ -145,8 +145,6 @@ ht-degree: 5%
 ## 접수 열 사용
 
 접수 열의 카드는 다른 보드 열로 이동할 때까지 편집할 수 없습니다. 카드를 클릭하여 읽기 전용 보기로 열거나 ![작업 또는 문제 열기](assets/boards-launch-icon.png)를 클릭하여 새 브라우저 탭에서 작업 또는 문제를 열 수 있습니다.
-
-접수 열의 항목을 수동으로 재정렬할 수 있습니다.
 
 접수 열의 오른쪽 상단에 있는 아이콘은 현재 열에 있는 카드 수와 적용된 필터 수를 보여 줍니다.
 
