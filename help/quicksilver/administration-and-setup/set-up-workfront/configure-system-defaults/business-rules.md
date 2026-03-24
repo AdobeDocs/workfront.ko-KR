@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: b6731b9877237916259a862863b30c8ef65ad343
+source-git-commit: 061694c7db64d3f4957903ae21e436f52c77a07e
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 2%
+source-wordcount: '1326'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -144,6 +144,12 @@ IF(
    * 위험
    * 요율 카드
    * 할당
+   * 사용자
+   * 역할
+   * 시간
+   * 템플릿
+   * 휴무
+   * 리소스 풀
 
 1. 규칙 빌더 대화 상자에서 비즈니스 규칙의 **이름**&#x200B;을(를) 입력하십시오.
 1. **활성 상태임** 필드에서 규칙을 저장할 때 규칙을 활성화해야 하는지 여부를 선택합니다.
