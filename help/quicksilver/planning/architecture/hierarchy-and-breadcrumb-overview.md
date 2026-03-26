@@ -5,20 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+exl-id: de066d44-d214-47cc-8483-37c2623585ea
+source-git-commit: 16da53ace7c5b3fadf9b4142ac6146bc3fe5ebd5
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
 
-
-
 # 계층 구조 및 이동 경로 개요
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 작업 영역 관리자는 연결된 레코드 유형과 Adobe Workfront Planning의 다른 객체 유형 간에 유연하지만 구조화된 계층을 정의할 수 있습니다.
 
@@ -79,12 +78,13 @@ ht-degree: 0%
 
 레코드 유형 간에 계층을 만들면 해당 레코드 유형에 속하는 레코드에 대한 이동 경로를 생성합니다.
 
-예를 들어 계층을 만들고 전술, 활동, 프로젝트 순으로 캠페인을 연결하는 경우 계층에 연결된 유형의 레코드로 이동하면 레코드가 배치된 위치를 계층 구조에서 볼 수 있습니다.
+예를 들어 계층을 만들고 전술, 활동 순으로 캠페인을 연결하는 경우 계층에 연결된 유형의 레코드로 이동하면 레코드가 배치된 위치를 계층 구조에서 볼 수 있습니다. 레코드가 여러 작업 영역에 표시되면 탐색 표시의 작업 영역 이름으로 시작하여 <span class="preview">각 작업 영역의 경로를 볼 수 있습니다.</span>
 
-![이동 경로](assets/breadcrumbs-on-project.png)
+![이동 경로](assets/breadcrumbs-on-activities-planning-only.png)
 
 다음 사항을 고려하십시오.
 
+* [기록 세부 정보] 페이지와 레코드의 미리 보기 영역에 [탐색 표시]가 표시됩니다.
 * 레코드 유형이 여러 계층의 일부인 경우 레코드 페이지의 레코드 이동 경로에서 계층 간을 전환할 수 있습니다.
 * 계층의 레코드 유형에 여러 레코드가 있는 경우 이동 경로에서 레코드를 선택할 수 있습니다.
 * 이동 경로는 Workfront 및 Planning에서 작동합니다.
@@ -93,5 +93,3 @@ ht-degree: 0%
 
   자세한 내용은 [작업 영역 계층 만들기](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)를 참조하십시오.
 * 레코드를 편집하면 레코드가 속한 모든 작업 공간 및 모든 계층에서 변경 사항이 표시됩니다.
-
-
