@@ -8,16 +8,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 061694c7db64d3f4957903ae21e436f52c77a07e
+source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1417'
 ht-degree: 3%
 
 ---
 
 # 비즈니스 규칙 만들기 및 편집
 
-비즈니스 규칙을 사용하면 Workfront 객체에 검증을 적용하고 특정 조건이 충족될 때 사용자가 객체를 생성, 편집 또는 삭제하지 못하도록 할 수 있습니다. 비즈니스 규칙을 사용하면 데이터 무결성을 손상시킬 수 있는 작업을 방지하여 데이터 품질과 운영 효율성을 향상시킬 수 있습니다.
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+-->
+
+비즈니스 규칙을 사용하면 Workfront 객체에 검증을 적용하고 특정 조건이 충족될 때 사용자가 객체를 생성, 편집 또는 삭제하지 못하도록 할 수 있습니다. 비즈니스 규칙 유효성 검사는 데이터 무결성을 손상시킬 수 있는 작업을 방지하여 데이터 품질과 운영 효율성을 개선하는 데 도움이 됩니다.
+
+<!--
+
+<div class="preview">
+
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+
+</div>
+
+-->
 
 단일 비즈니스 규칙은 하나의 객체에만 할당할 수 있습니다. 예를 들어 특정 조건에서 프로젝트를 편집하지 않는 비즈니스 규칙을 만드는 경우 동일한 규칙을 작업에 적용할 수 없습니다. 작업에 대해 동일한 조건으로 별도의 비즈니스 규칙을 만들어야 합니다.
 
@@ -42,8 +58,9 @@ ht-degree: 3%
   <tr>
    <td>Adobe Workfront 패키지
    </td>
-   <td> <p>Ultimate</p>
-    <p>워크플로 얼티밋</p>
+   <td> <p>비즈니스 규칙 유효성 검사:<ul><li><p>Ultimate</p></li><li>
+    <p>워크플로 얼티밋</p></li></ul></p><p>비즈니스 규칙 자동화:<ul><li>
+    <p>워크플로 얼티밋</p></li><ul></p>
    </td>
   </tr> 
   <tr> 
@@ -63,7 +80,12 @@ ht-degree: 3%
 
 ## 비즈니스 규칙 시나리오
 
-비즈니스 규칙의 형식은 &quot;정의된 조건이 충족되는 경우 사용자가 오브젝트에 대한 작업을 수행할 수 없게 되며 메시지가 표시됩니다.&quot;입니다.
+* [비즈니스 규칙 유효성 검사 시나리오](#scenarios-for-business-rule-validation)
+* [비즈니스 규칙 자동화를 위한 시나리오](#scenarios-for-business-rule-automation)
+
+### 비즈니스 규칙 유효성 검사 시나리오
+
+비즈니스 규칙 유효성 검사 형식은 &quot;정의된 조건이 충족되는 경우 사용자가 오브젝트에 대한 작업을 수행할 수 없게 되며 메시지가 표시됩니다.&quot;입니다.
 
 비즈니스 규칙의 속성 및 기타 함수 구문은 사용자 정의 양식의 계산된 필드 구문과 동일합니다. 구문에 대한 자세한 내용은 [양식 디자이너를 사용하여 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
 
@@ -117,15 +139,53 @@ IF(
 )
 ```
 
+
+<!--
+
+## Scenarios for business rule automation
+
+>[!NOTE]
+>
+>Your organization must have a Workflow Ultimate package to use business rule automation.
+
+The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+
+Business rule automation formulas do not require an error message
+
+To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+
+```
+IF(true, true)
+```
+
+To share a project only if that's project has been approved, use a formula like the following:
+
+```
+IF({status} = "APR", true)
+```
+
+You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+
+-->
+
 ## 새 비즈니스 규칙 추가
 
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **비즈니스 규칙**&#x200B;을 클릭합니다.
 1. **새 비즈니스 규칙**&#x200B;을 클릭합니다.
-1. 비즈니스 규칙을 할당할 개체 유형을 선택한 다음 **계속**&#x200B;을 클릭합니다.
 
-   ![개체 선택](assets/object-for-business-rule3.png)
+1. 규칙 빌더 대화 상자에서 비즈니스 규칙의 **이름**&#x200B;을(를) 입력하십시오.
+1. **활성 상태임** 필드에서 규칙을 저장할 때 규칙을 활성화해야 하는지 여부를 선택합니다.
+
+   **아니요**&#x200B;를 선택하면 규칙이 비활성 상태로 저장되며 나중에 활성화할 수 있습니다.
+
+1. (선택 사항) 비즈니스 규칙의 **설명**&#x200B;과(와) 비즈니스 규칙을 적용할 때 수행할 작업을 입력합니다.
+
+
+1. 비즈니스 규칙을 할당할 객체 유형을 선택합니다.
+
+   ![개체 선택](assets/object-for-business-rule4.png)
 
    다음 객체에 비즈니스 규칙을 적용할 수 있습니다.
 
@@ -150,6 +210,17 @@ IF(
    * 템플릿
    * 휴무
    * 리소스 풀
+<!--
+   * <span class="preview">Job role</span>
+   * <span class="preview">Non-labor resource category</span>
+   * <span class="preview">Resource Pool</span>
+   * <span class="preview">Time Off</span>
+   * <span class="preview">Hour</span>
+   * <span class="preview">Staffing Plan</span>
+   * <span class="preview">Template</span>
+   * <span class="preview">Staffing Plan Resource</span>
+   * <span class="preview">Team</span>
+-->
 
 1. 규칙 빌더 대화 상자에서 비즈니스 규칙의 **이름**&#x200B;을(를) 입력하십시오.
 1. **활성 상태임** 필드에서 규칙을 저장할 때 규칙을 활성화해야 하는지 여부를 선택합니다.
@@ -158,11 +229,10 @@ IF(
 
 1. 비즈니스 규칙에 대한 **트리거**&#x200B;를 선택하십시오. 옵션은 다음과 같습니다.
 
-   * **개체를 만들 때:** 사용자가 개체를 만들려고 할 때 규칙이 적용됩니다.
-   * **개체 편집 시:** 사용자가 개체를 편집하려고 하면 규칙이 적용됩니다.
-   * **개체 삭제 시:** 사용자가 개체를 삭제하려고 할 때 규칙이 적용됩니다.
+   * **생성됨** 사용자가 개체를 만들려고 할 때 규칙이 적용됩니다.
+   * **편집됨** 사용자가 개체를 편집하려고 할 때 규칙이 적용됩니다.
+   * **삭제됨** 사용자가 개체를 삭제하려고 할 때 규칙이 적용됩니다.
 
-1. (선택 사항) 비즈니스 규칙의 **설명**&#x200B;과(와) 비즈니스 규칙을 적용할 때 수행할 작업을 입력합니다.
 1. 비즈니스 규칙 대화 상자의 중앙에 있는 공식 편집기에서 공식을 작성합니다.
 
    비즈니스 규칙의 형식은 &quot;정의된 조건이 충족되는 경우 사용자가 오브젝트에 대한 작업을 수행할 수 없게 되며 메시지가 표시됩니다.&quot;입니다.
@@ -172,13 +242,13 @@ IF(
    * &quot;객체&quot;는 비즈니스 규칙을 생성할 때 선택한 객체 유형입니다. 대화 상자의 머리글에 표시됩니다.
    * &quot;작업&quot;은 규칙에 대해 선택한 트리거입니다(객체 만들기, 편집 또는 삭제).
    * 개체와 작업이 이미 정의되어 있으므로 수식에 포함하지 않습니다.
-   * 사용자 지정 오류 메시지는 비즈니스 규칙을 트리거할 때 사용자에게 표시됩니다. 무엇이 잘못되었는지, 어떻게 문제를 수정해야 하는지에 대한 명확한 지침을 제공해야 한다.
+   * 비즈니스 규칙을 트리거할 때 사용자 지정 오류 메시지 <!--<span class="preview">is included only if the rule is for validation, and </span>-->이(가) 사용자에게 표시됩니다. 무엇이 잘못되었는지, 어떻게 문제를 수정해야 하는지에 대한 명확한 지침을 제공해야 한다.
 
      오류 메시지에 정적 URL을 포함하여 설명서 또는 기타 유용한 페이지에 연결하여 규칙의 제한 사항 내에서 사용자가 작업을 수정하는 방법을 안내할 수 있습니다.
 
      이 예에서 &quot;자세히 알아보기&quot;는 URL에 연결됩니다. `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL은 괄호로 묶어야 하지만 대괄호로 묶인 링크 텍스트는 필요하지 않습니다. 전체 URL을 표시할 수 있으며 클릭할 수 있는 링크가 됩니다.
 
-   ![비즈니스 규칙 추가 대화 상자](assets/add-business-rule-dialog-no-ai-button.png)
+   ![비즈니스 규칙 추가 대화 상자](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
 
    이 예제는 프로젝트에 대한 비즈니스 규칙입니다. 현재 월이 11월인 경우 사용자는 새 프로젝트를 만들 수 없으며 이 메시지가 표시됩니다.
 
@@ -190,11 +260,46 @@ IF(
 
    사용 가능한 필드 목록은 비즈니스 규칙의 개체 유형과 관련된 필드로 제한됩니다.
 
+1. (조건부) 작업을 확인하는 경우, 조직이 Workfront Ultimate 패키지에 있는 경우, 그 다음 영역에서 **개체 유효성 검사**&#x200B;를 선택합니다.
+
+   다른 패키지의 경우 이 옵션을 미리 선택합니다.
+
+<!--
+
+1. (Conditional) To automate another action,, select the action. 
+
+   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+   -->
+
 1. 비즈니스 규칙 작성을 마치면 **저장**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
 >비즈니스 규칙을 추가한 후에는 연결된 개체를 추가, 편집 또는 삭제하여 비즈니스 규칙을 테스트하여 규칙이 제대로 적용되었는지 확인해야 합니다.
+
+<!--
+
+<div class="preview">
+
+### Business rule automation options
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+
+|Automation|Further configuration|
+|---|---|
+|Attach a custom form|Select the custom form that you want to add|
+|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+
+-->
 
 ## 비즈니스 규칙 활성화
 
