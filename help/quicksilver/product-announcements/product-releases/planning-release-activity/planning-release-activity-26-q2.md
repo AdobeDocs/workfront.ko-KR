@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
+source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,18 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 이동 경로 재디자인
+
+>[!NOTE]
+>
+>미리 보기: 2026년 3월 26일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+레코드 종류 및 레코드에서 탐색 표시를 표시하는 방법을 다시 디자인했습니다. 이제 이동 경로에서 자세히 를 클릭하면 레코드와 개체의 이름이 여러 줄에 표시됩니다. 이 기능이 향상되기 전에 자세히를 클릭하면 드롭다운 메뉴에 레코드 및 개체의 이름이 표시됩니다.
+
+자세한 내용은 [계층 구조 및 이동 경로 개요](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)를 참조하십시오.
 
 <!--
 
