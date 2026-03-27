@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-source-git-commit: a5041aecad22d3e576d7f0e9a4388a3e5bc69565
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Frame.io 뷰어를 사용하여 Workfront에서 문서를 검토하고 승인할
 
 Frame.io 뷰어로 Workfront 문서를 검토하면 댓글을 남기거나 문서, 이미지 또는 비디오의 특정 섹션을 표시하여 팀과 효율적으로 공동 작업하고 피드백이 명확하고 실행 가능한지 확인할 수 있습니다.
 
-Workfront과의 Frame.io 통합에 대한 자세한 내용은 [Frame.io 통합 개요](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)를 참조하십시오.
+Workfront과의 Frame.io 통합에 대한 자세한 내용은 [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)를 참조하십시오.
 
 
 <!--## Access requirements
@@ -59,13 +59,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## 전제 조건
 
-* Workfront 인스턴스에 Workfront 및 Frame.io 통합이 설정되어 있어야 합니다. 자세한 내용은 [Frame.io 통합 개요](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements)를 참조하십시오.
+* Workfront 인스턴스에 Workfront 및 Frame.io 통합이 설정되어 있어야 합니다. 자세한 내용은 [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements)를 참조하십시오.
 
 ## 문서 검토
 
 검토자는 에셋에 주석을 추가하고 에셋에 표시할 수 있습니다. 완료되면 Workfront에서 검토 완료를 표시할 수 있습니다. 에셋이 승인 프로세스에서 앞으로 이동하기 위해서는 검토를 완료로 표시할 필요가 없습니다.
 
-1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**을 클릭합니다.
 또는
 Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
 
@@ -87,7 +87,7 @@ Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검
 
 문서에 대해 결정을 내리려면
 
-1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**을 클릭합니다.
 또는
 Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
 
