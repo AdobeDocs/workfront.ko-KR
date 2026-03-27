@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 7bf762870af2bbc4f4889d66cf713d4533a30ff5
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 #### Frame.io의 콘텐츠 검토 및 승인
 
-Frame.io 뷰어에서 직접 콘텐츠를 검토하고 승인하여 플랫폼 간에 전환할 필요가 없습니다. 이 통합을 통해 피드백 주기를 단축하고 모든 검토 활동을 한 곳에 유지할 수 있습니다. 자세한 내용은 [Frame.io 통합 시작](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)을 참조하세요.
+Frame.io 뷰어에서 직접 콘텐츠를 검토하고 승인하여 플랫폼 간에 전환할 필요가 없습니다. 이 통합을 통해 피드백 주기를 단축하고 모든 검토 활동을 한 곳에 유지할 수 있습니다. 자세한 내용은 [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)을 참조하세요.
 
 #### Adobe Experience Manager과의 연결
 

@@ -1,81 +1,202 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 통합 승인 개요
-description: 이미 보류 중인 승인이 있는 문서에 승인자 또는 검토자를 추가할 수 있습니다.
+title: 통합 검토 및 승인 개요
+description: Workfront 및 Frame.io에서 제공하는 통합 검토 및 승인에 대해 자세히 알아보십시오 .
 author: Courtney
 feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 72915fc9f3c262d9c90fd205c6be3776ac20e303
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 3%
+source-wordcount: '835'
+ht-degree: 0%
 
 ---
 
-# 통합 승인 개요
+
+# 통합 검토 및 승인 개요
+
+Workfront 및 Frame.io에서 제공하는 통합 검토 및 승인을 사용하면 프로젝트 코디네이터가 Workfront에서 프로젝트를 관리하고 작업을 계획할 수 있으며 크리에이티브, 마케터 및 이해 관계자가 Frame.io에서 에셋을 검토하고 승인할 수 있습니다.
+
+## 통합 요구 사항
+
+* Workfront 및 Frame.io는 동일한 IMS(Identity Management system) 조직에 배포해야 합니다.
+
+* 사용자는 IMS 조직 내에서 하나의 Workfront 인스턴스에만 속할 수 있습니다.
+
+* Workfront 인스턴스는 Adobe Unified Experience 및 Adobe 엔터프라이즈 스토리지에서 활성화되어야 합니다.
+
+* 통합은 Adobe Professional Services에서 구성해야 합니다.
+
+
+## Adobe 엔터프라이즈 스토리지 기반
+
+통합 검토 및 승인은 Adobe 및 Frame.io를 포함하여 Adobe 엔터프라이즈 제품 전반에 걸쳐 에셋의 중앙 저장소 역할을 하는 클라우드 기반 스토리지 솔루션인 Workfront 엔터프라이즈 스토리지를 기반으로 합니다. <!--, and Creative Cloud.-->
+
+Adobe 엔터프라이즈 스토리지의 주요 이점은 다음과 같습니다.
+
+* 크리에이티브 및 작업 관리 자산을 위한 통합 스토리지 레이어
+* 보안 액세스 제어를 위해 Adobe IMS(Identity Management system)를 사용한 중앙 집중식 권한
+* Workfront 및 Frame.io <!--, and Creative Cloud apps -->에서 전체 에셋 가시성
+* 엔터프라이즈 요구 사항에 맞는 확장 가능한 스토리지 및 할당량 관리
+
+자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+
+## 통합 검토 및 승인
+
+통합된 검토 및 승인을 통해 다음과 같은 작업을 수행할 수 있습니다.
+
+* Workfront에서 바로 검토 및 승인 만들기 및 관리
+* 검토 및 승인 상태를 실시간으로 추적
+* 한 곳에서 피드백 및 승인 중앙 집중화
+* 모든 관련자가 최신 버전의 자산에 액세스할 수 있는지 확인합니다.
+* AI 검토자를 활용하여 브랜드 준수 검토 자동화
+* 외
+
+자세한 내용은 [통합 문서 승인: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)을 참조하세요.
+
+
+### Frame.io 뷰어 사용
+
+Frame.io 뷰어를 사용하여 에셋을 검토하고 승인합니다. Frame.io 뷰어에서는
+
+* 마크업 및 주석 달기 도구
+* 버전 기록 및 비교
+* 비디오 검토에 대한 타임스탬프가 지정된 댓글
+* 이동 중 검토 및 승인을 위한 모바일 액세스
+
+자세한 내용은 [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)을 참조하세요.
+
+#### 비디오 검토 제한
+
+비디오 증명 요청에 대한 연간 한도는 조직의 총 유료 Workfront 사용자 라이선스의 10%(표준 및 라이트)로 설정되어 있습니다. 이 상한은 조직 수준에서 적용됩니다.
+
+Workfront 관리자는 사용량이 상한의 80% 및 100%에 도달하면 알림을 받습니다.
+
+이 제한은 Frame.io Enterprise 고객에게는 적용되지 않습니다.
+
+#### Frame.io 뷰어에서 지원되는 파일 형식
+
+Frame.io 뷰어는 모든 일반적인 비디오, 이미지, 오디오, PDF 및 MS® Office 유형을 지원합니다. 지원되는 파일의 자세한 목록을 보려면 [Frame.io에서 지원되는 파일 형식](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)을 참조하세요.
+
+#### Frame.io 뷰어에 대한 액세스 및 라이선스
+
+Frame.io 뷰어는 모든 Workfront 검토 및 승인 워크플로의 기본 뷰어입니다. 유료 라이선스가 있는 모든 Workfront 사용자에 대해 자동으로 포함됩니다. 검토 및 승인을 위해 Frame.io 뷰어를 사용하는 데 추가 Frame.io 라이선스가 필요하지 않습니다.
+
+조직에서 Frame.io의 프로젝트에 직접 에셋을 업로드하는 등 이 통합에서 사용할 수 있는 추가 Frame.io 기능을 활용하려는 경우 Frame.io Enterprise 라이선스를 구입할 수 있습니다. 데모 일정을 예약하고 전체 Frame.io 솔루션의 이점을 살펴보려면 Adobe 계정 담당자에게 문의하십시오.
+
+이 통합에서는 Workfront 증명 기능을 사용할 수 없습니다.
+
+## Workfront의 강력한 프로젝트 관리
+
+프로젝트 코디네이터는 Workfront의 강력한 프로젝트 관리 기능을 활용하여 작업을 계획, 추적 및 관리할 수 있습니다.
+
+Workfront에서 프로젝트를 관리하는 방법에 대한 자세한 내용은 [프로젝트: 문서 색인](/help/quicksilver/manage-work/projects/create-projects/create-project.md)을 참조하세요.
+
+### 적용된 구조 및 이름 지정 규칙
+
+통합 검토 및 승인은 Adobe 엔터프라이즈 스토리지를 사용하여 빌드되므로 프로젝트 및 문서를 관리할 때 알아야 하는 강제 구조 및 이름 지정 규칙이 있습니다.
+
+* 오브젝트 이름은 고유해야 하며 복제할 수 없습니다.
+* Adobe 엔터프라이즈 스토리지에는 계층 트리에서 상위 항목이 동일한 피어 개체에 대한 고유한 이름이 필요합니다
+* 문서가 동일한 프로젝트에 속하는 경우 문서에 동일한 이름을 사용할 수 없습니다.
+* 문서 이름에는 다음 특수 문자를 사용할 수 없습니다. \ / : * ? &quot; | &lt; >
+* 문서 이름은 최대 255자로 제한됩니다.
+
+이러한 제한 사항을 고려하여 Workfront은 충돌을 방지하기 위해 필요에 따라 개체나 문서의 이름을 자동으로 변경합니다.
+
+### 공유 및 권한
+
+통합의 일부로, 사용자 권한은 Workfront에서 제어되며 Frame.io로 아래로 흐릅니다. 즉, Frame.io에서 사용자를 프로젝트에 초대하거나 Frame.io에서 사용자 권한을 수정할 수 없습니다. 이러한 작업은 Workfront의 프로젝트 공유 모달을 통해 수행해야 합니다.
+
+다음 표에서는 Workfront 권한이 Frame.io 권한에 매핑되는 방식을 보여 줍니다.
+
+<table>
+<tr>
+<th>Workfront 사용자 권한</th>
+<th>Frame.io 사용자 권한</th>
+</tr>
+<tr>
+<td>관리</td>
+<td>편집 및 공유</td>
+</tr>
+<tr>
+<td>참여</td>
+<td>편집 및 공유</td>
+</tr>
+<tr>
+<td>보기</td>
+<td>주석만</td>
+</tr>
+</table>
+
+
+
+### Workfront의 문서 관리
+
+Workfront에 업로드된 문서는 Adobe 엔터프라이즈 스토리지에 저장되며 Workfront 및 Frame.io 모두에서 액세스할 수 있습니다. Workfront의 작업 또는 문제에 문서를 업로드하면 작업 또는 문제의 권한을 상속하는 Adobe 엔터프라이즈 스토리지에 시스템 생성 폴더가 생성됩니다. 해당 작업 또는 문제에 업로드된 모든 문서는 해당 폴더에 저장되며 이 폴더에서 권한을 상속합니다. Workfront의 문서에 대한 자세한 내용은 [새 문서 영역 개요](/help/quicksilver/documents/managing-documents/documents-area.md) 및 [Adobe 엔터프라이즈 스토리지 모델에 대한 개체 권한 및 액세스 수준 개요](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)를 참조하십시오.
+
+### 문서 경험 제한 사항
+
+다음 문서 기능은 포함되지 않습니다.
+
+<!--* External document providers-->
+* Workfront의 증명에 액세스
+* Workfront의 문서 뷰어
+* 즐겨 찾는 문서
+* 요청 문서
+
+
+
+
+
+
+
+
+
+
+<!--
+# Unified Approvals overview
 
 >[!IMPORTANT]
 >
->이 문서의 내용은 특정 계정에만 사용할 수 있는 업데이트된 문서 승인 기능에 적용됩니다. 표준 승인 프로세스에 대한 자세한 내용은 [작업 승인](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)에 나열된 문서를 참조하십시오.
+>The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-이전에 새 문서 승인이라고 했던 통합 승인은 현재 Adobe Workfront에서 개발 중인 기존 승인 프로세스를 전체적으로 재설계한 것입니다. 현재 제한된 릴리스에서 제공되고 있는 이 솔루션은 포괄적인 이해 관계자 참여 및 버전별 문서 승인이 필요한 비즈니스에 실용적이고 효과적인 솔루션이 되도록 설계되었습니다. 사려 깊은 디자인과 목적적인 새로운 기능을 통해 승인 프로세스에서 공동 작업, 역할 명확성 및 버전 제어를 용이하게 하여 효율성과 책임성을 높일 수 있습니다.
+Unified Approvals, previously referred to as New Document Approvals, is a holistic redesign of the existing approvals process that is currently in development for Adobe Workfront. Currently available in limited release, it is designed to be a practical and effective solution for businesses requiring comprehensive stakeholder engagement and version-specific document approvals. Its thoughtful design and purposeful new features facilitate collaboration, role clarity, and version control in the approval process, enhancing efficiency and accountability.
 
-## 증명 및 기존 문서 승인과의 주요 차이점
+## Key differences from Proofing and legacy document approvals
 
-**증명 차이점**
+**Differences from Proofing**
 
-* 문서 승인 참여자는 증명 워크플로 탭이 아니라 문서 요약에 표시됩니다.
-* 통합 승인은 현재 보고 도구에서 지원되지 않습니다.
+* Document approval participants display in the document Summary, not the proofing workflow tab.
+* Unified Approvals are not supported in the current reporting tool. 
 
-  새 Canvas Dashboards Beta를 [검토 및 승인을 위한 보고서 대시보드를 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)에 참여하거나 새 홈에서 사용할 수 있는 문서 승인 지표 위젯을 사용할 수 있으며 Canvas Dashboards는 통합 승인에 대한 다음 세부 정보를 제공합니다.
+    You can join the new Canvas Dashboards beta to [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), or you can use the Document approval metrics widget available in new Home and Canvas Dashboards provides the following details about Unified Approvals:
 
-   * 결정에 의한 승인
-   * 평균 승인 시간
-   * 보류 중인 승인
-   * 기한이 경과된 승인
+    * Approvals by decision
+    * Average approval time
+    * Pending approvals
+    * Overdue approvals
 
-**기존 문서 승인과의 차이점**
+**Differences from Legacy document approvals**
 
-통합 승인을 통해 다음과 같은 작업을 수행할 수 있습니다.
+With Unified Approvals, you can
 
-* 승인자 외에 검토자 추가
-* 전체 Workfront 팀을 검토자 또는 승인자로 지정
-* 검토 또는 승인 마감 설정
-* 승인 템플릿 만들기 및 재사용
-* 새 버전 사용
-* Workfront 홈 위젯에서 승인에 대한 여러 주요 성능 지표 보기
-* 캔버스 대시보드를 사용하여 통합 승인에 대한 보고 세부 사항을 봅니다
+* Add reviewers in addition to approvers
+* Designate an entire Workfront team as either reviewers or approvers
+* Set a deadline for the review or approval
+* Create and resuse approval templates
+* Utilize new versions 
+* View multiple key performance indicators for your approvals in Workfront Home widgets
+* Use Canvas Dashboards to view reporting details about Unified Approvals
 
-## 통합 승인 사용
+## Using Unified Approvals
 
-문서 승인을 만들거나 관리하려는 사용자의 경우 [통합 승인 설정 및 관리: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)에 나열된 문서를 참조하십시오.
+For users looking to create or manage document approvals, see the articles listed in [Set up and manage unified approvals: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-요청을 받은 문서를 검토하거나 승인하려는 사용자의 경우 [문서 승인 및 검토: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)에 나열된 문서를 참조하십시오.
+For users looking to review or approve documents for which they have received a request, see the articles listed in [Approve and review documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-<!--
-
-## New features and design goals
-
->[!VIDEO](https://video.tv.adobe.com/v/3420544/)  
-
-* **Inclusive stakeholder participation**\
-    Unified Approvals allow the inclusion of both individual contributors and entire teams in the approval process. Facilitating this broader participation ensures comprehensive stakeholder engagement and fosters a more informed and collaborative decision-making environment.
-
-* **Differentiated review and approval roles**\
-     Unified Approvals is designed to recognize and respect the varying roles within the approval process. By providing the ability to identify and designate reviewers—users who are notified to provide feedback but do not have decision-making authority—the quality of feedback is enhanced while maintaining clarity of final approval authority.
-
-* **Version-specific approvals**\
-    The iterative nature of document development often leads to multiple versions of the same document. Unified Approvals accommodates this reality by providing unique approval chains for each version of a document. This allows users to upload a new version and add new approvers or reviewers as needed, ensuring that feedback and approval are specific to the document version and eliminating potential confusion.
-
-* **Audit trails**\
-    With Unified Approvals, an audit trail of all approval activities is maintained in the activity stream, providing a valuable resource for future reference and compliance.
-
-## Release plan
-
-We are making Unified Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which Unified Approvals are available with each release.
-
-If you would like to have Unified Approvals enabled in your production environment, please reach out to your Customer Success or Strategic Account Manager.
 
 
 -->
