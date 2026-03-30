@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -22,9 +22,13 @@ ht-degree: 0%
 
 ## Workfront 및 Frame.io에서 제공하는 통합 검토 및 승인
 
-간소화된 검토 및 승인 경험인 Workfront 및 Frame.io에서 제공하는 통합 검토 및 승인을 소개하게 되어 기쁘게 생각합니다.
 
-이 새로운 기능은 신규 고객 및 갱신 시 기존 고객에게 제공됩니다.
+>[!IMPORTANT]
+>
+>이 새로운 기능은 신규 고객 및 갱신 시 기존 고객에게 제공됩니다.
+
+
+간소화된 검토 및 승인 경험인 Workfront 및 Frame.io에서 제공하는 통합 검토 및 승인을 소개하게 되어 기쁘게 생각합니다.
 
 ### 새로운 기능
 
