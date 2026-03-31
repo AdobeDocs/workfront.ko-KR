@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,17 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning의 레코드의 연결된 레코드 페이지에서 액세스할 때 목록 보기에 프로젝트와 해당 필드를 표시할 수 있습니다. <!--change 'projects' to other objects when they become available and the location of the list view-->
+Workfront Planning의 다음 영역에서 목록 보기에서 객체를 볼 수 있습니다.
 
-이 문서에서는 레코드의 연결된 레코드 페이지에 프로젝트를 표시하는 목록 보기를 만들거나 편집하는 방법과 보기에서 프로젝트를 편집하는 방법에 대해 설명합니다. <!--change 'projects' to other objects when they become available and the location of the list view-->
+* 레코드 세부 정보 영역의 프로젝트에 대해 연결된 레코드 페이지
+
+  ![목록 보기의 연결된 레코드 페이지에 있는 프로젝트](assets/projects-on-connected-records-page-list-view.png)
+
+* 레코드 유형 수준의 요청 양식 목록
+
+  ![목록 보기의 요청 양식](assets/request-forms-in-list-view.png)
+
+이 문서에서는 Workfront Planning에서 객체를 표시하는 목록 보기를 탐색, 생성 또는 편집하는 방법에 대해 설명합니다. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## 액세스 요구 사항
 
@@ -72,35 +80,62 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 ## 목록 보기에 대한 고려 사항
 
-* 목록 보기의 레코드 유형 페이지에서 모든 객체 유형을 볼 수는 없습니다.
+* 연결된 레코드 페이지 목록 보기에 대해 다음 사항을 고려하십시오.
 
-  다음 객체는 레코드의 연결된 레코드 페이지에서 볼 때만 목록 보기에 표시할 수 있습니다.
-
-   * Workfront 프로젝트
+   * 레코드의 연결된 레코드 페이지에 있는 목록 보기에서만 프로젝트를 볼 수 있습니다. 연결된 레코드 페이지의 다른 개체나 레코드 종류에는 목록 보기를 사용할 수 없습니다.
 
   연결된 레코드 페이지를 만드는 방법에 대한 자세한 내용은 [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
-* 레코드의 연결된 레코드 페이지에서 목록 보기를 보려면 먼저 Workfront 프로젝트를 Planning 레코드 유형과 연결해야 합니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+   * 레코드의 연결된 레코드 페이지에서 목록 보기를 보려면 먼저 Workfront 프로젝트를 Planning 레코드 유형과 연결해야 합니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+   * 레코드의 연결된 레코드 페이지에서 프로젝트에 대한 목록 보기를 여러 개 만들 수 있습니다.
+
+* 요청 양식 목록 보기에 대해 다음 사항을 고려하십시오.
+
+   * Planning 요청 양식에 대해 추가 목록 보기를 생성하거나 편집할 수 없습니다. Workfront은 요청 양식에 대해 하나의 목록 보기를 만듭니다. <!--this will change-->
+
+     요청 양식에 대한 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
+* 표시되는 위치에 따라 모든 목록 보기에 이 문서에 설명된 것과 동일한 요소가 모두 있는 것은 아닙니다.
 
 
 ## 목록 보기 관리 {#manage-a-list-view}
 
-목록 보기는 향상된 목록과 유사합니다. 자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요.
+목록 보기는 향상된 목록과 유사합니다. 향상된 보기의 요소 대부분은 Workfront Planning의 목록 보기에도 존재합니다.
 
+자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요.
+
+<!--
 {{step1-to-planning}}
 
-1. 작업 영역 카드를 클릭한 다음 레코드 유형 카드를 클릭합니다.
-1. 보기에서 레코드 이름을 클릭하여 레코드의 미리 보기 또는 세부 정보 페이지를 엽니다.
-1. **레코드에 연결된 레코드 페이지 추가** 문서에 설명된 대로 연결된 프로젝트에 대해 [연결된 레코드 페이지](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 추가하십시오.
+1. (Conditional) To access a projects connected page, do the following: 
 
-   연결된 레코드 페이지는 목록 보기의 레코드에 연결된 프로젝트를 표시합니다.
+    1. Click a workspace card, then click a record type card. 
+    1. From any view, click the name of a record to open the record's preview or details page. 
+    1. Add a **Connected records page** for connected projects as described in the article [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-   <!--add new screen shot when they release Conditional formatting MVP -->
+    The Connected records page displays projects connected to the record in the list view. 
 
-   ![목록 보기의 연결된 레코드 페이지에 있는 프로젝트](assets/projects-on-connected-records-page-list-view.png)
+    ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
-1. (선택 사항) 목록 보기를 수정하려면 다음 중 하나를 수행합니다.
+1. (Conditional) To access a list of request forms, do the following: 
 
-   1. 목록의 오른쪽 상단 모서리에서 드롭다운 보기 메뉴를 확장하여 다른 보기를 선택하거나 **새 보기**&#x200B;를 클릭하여 다른 보기를 만듭니다.
+    1. {{step1-to-planning}}
+
+    1. (Conditional) To access a projects connected page, do the following: 
+
+    1. Click a workspace card, then click a record type card.
+    1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name in the header, then click **Manage request forms**.
+
+        A list of request forms displays.
+
+-->
+
+1. 다음 영역 중 하나의 목록 보기로 이동합니다.
+
+   * 레코드의 세부 정보 영역에 연결된 레코드 페이지
+   * 레코드의 요청 양식 페이지
+
+1. (조건부) 사용 가능한 경우 다음 중 하나를 수행하여 목록 보기를 수정합니다.
+
+   1. 목록의 왼쪽 상단 모서리에서 드롭다운 보기 메뉴를 확장하여 다른 보기를 선택하거나 **새 보기**&#x200B;를 클릭하여 다른 보기를 만듭니다.
 
       보기가 시스템 전체에서 공유됩니다. 하나의 레코드 유형에 대한 프로젝트 보기를 만드는 경우 연결된 프로젝트를 표시하는 다른 레코드 유형에서 볼 수 있습니다.
 
@@ -117,6 +152,17 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
       >
       >* <span class="preview">원래 기본 설정을 복원하도록 수정한 후 [보기] 권한만 있는 공유 보기를 재설정하거나 변경 내용과 함께 복사하고 복사본을 공유할 수 있습니다. 자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요. </span>
 
+      <!--
+        And hide everything else below for these elements, after moving it to the Use enhanced lists article: 
+        1. <span class="preview">To update one of the following view elements, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md):</span>
+            <div class="preview">
+            * Filter
+            * Columns
+            * Format cells
+            * Row height
+            </div>
+        -->
+
    1. 보기에 필터를 추가하려면 **필터** 아이콘 ![필터 아이콘](assets/filter-icon.png)을 클릭하십시오. 결과는 목록에서 즉시 필터링됩니다. 필터를 저장하고 이름을 지정할 수 없습니다. 필터는 나중에 페이지에 액세스할 때 기억되며 공유 보기의 일부입니다.
    1. 보기에 표시하거나 숨길 열을 선택하려면 **열** 아이콘 ![열 아이콘](assets/columns-icon.png)을 클릭하십시오.
    1. 열 이름 위로 마우스를 가져간 후 열 이름 왼쪽의 아래쪽 화살표를 클릭하고 다음 중 하나를 클릭합니다.
@@ -129,11 +175,17 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
       목록 보기에 기존 필드만 추가할 수 있습니다.
 첫 번째 열에 표시되는 목록 보기에서 기본 필드를 제거할 수 없습니다.
 
-   1. <span class="preview">셀 서식 지정&#x200B;**아이콘**&#x200B;셀 서식 지정 아이콘![을 클릭합니다. &#x200B;](assets/format-cells-icon.png) **Format** 상자가 열립니다.</span> <!--change the name of the box when they update it-->
+   1. <span class="preview">셀 서식 지정&#x200B;**아이콘**&#x200B;셀 서식 지정 아이콘![을 클릭합니다. ](assets/format-cells-icon.png) **Format** 상자가 열립니다.</span> <!--change the name of the box when they update it-->
       <span class="preview">다음을 수행합니다. </span>
 
       1. **조건 추가**&#x200B;를 클릭합니다.
-      1. <span class="preview">**If** 줄에서 필드를 선택하고 필드 값을 선택한 다음 **조건 추가**&#x200B;를 클릭합니다. </span>
+      1. <span class="preview">**If** 줄에서 필드를 선택하고 필드 값을 선택한 다음 수정자를 추가합니다. 수정자는 선택한 필드 유형에 따라 변경됩니다. </span>
+
+         >[!TIP]
+         >
+         ><span class="preview">목록 보기에 표시되는 필드만 조건부 서식에 사용할 수 있습니다.</span>
+
+      1. <span class="preview">(선택 사항) 필드 값을 추가하는 대신 **다른 필드와 비교** 아이콘 ![다른 필드와 비교](assets/compare-to-another-field-icon.png)를 클릭하고 선택한 필드의 값과 비교할 필드를 선택합니다. 예를 들어 프로젝트 소유자가 프로젝트 스폰서와 일치하는 프로젝트를 필터링할 수 있습니다. </span>
 
          >[!TIP]
          >
@@ -149,7 +201,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
       1. 조건 사이에 있는 **Or** 커넥터를 클릭하여 **And**(으)로 변경하고 여러 조건을 동시에 충족해야 함을 나타냅니다. **또는**&#x200B;이(가) 기본 커넥터입니다.
       1. **서식** 줄에서 서식을 지정할 열을 나타내는 필드를 선택합니다. <!--edit this area, if it changes names??-->
-      1. (선택 사항) 선택한 필드 옆의 **색상 원** 아이콘 ![색상 원 아이콘](assets/color-circle.png)을 클릭하여 확장하고 다른 색상을 선택합니다.
+      1. (선택 사항) 선택한 필드 옆의 **색상 원** 아이콘 ![색상 원 아이콘](assets/color-circle.png)을 클릭하여 확장하고 다른 색상 <!--for a cell or the text of the cell that matches your criteria-->을(를) 선택합니다. <!--is this where the bold, italic is? I had no UI for this when I wrote it-->
       1. 조건을 충족하는 필드의 전체 행에 서식을 적용하려면 **행에 적용** 설정을 켭니다.
       1. (선택 사항) **형식** 상자에서 **조건 추가**&#x200B;를 클릭하여 다른 필드에 다른 규칙을 추가하고 위의 단계를 반복합니다.
       1. (선택 사항) 모든 서식을 제거하려면 **모두 지우기**&#x200B;를 클릭합니다.
@@ -160,6 +212,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 **셀 서식 지정** 아이콘 옆에 특수 서식이 적용되었음을 나타내는 파란색 점이 있습니다.
 
       </div>
+
+   <!--leave these here-->
 
 1. (선택 사항) 목록의 오른쪽 위 모서리에 있는 검색 상자에 키워드를 추가하여 항목을 검색합니다.
 
@@ -178,9 +232,9 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    또는
 
-   항목을 하나 이상 선택하고 목록 하단의 작업 표시줄을 확인한 후 다음 중 하나를 클릭합니다.
+   항목을 하나 이상 선택하고 목록 하단의 작업 표시줄을 확인한 다음, 사용 가능한 경우 다음 중 하나를 클릭합니다.
 
-   * 프로젝트를 삭제하려면 **삭제**&#x200B;하십시오. 프로젝트를 삭제하면 레코드에서 연결이 끊기고 Workfront의 휴지통으로 이동합니다. Workfront 관리자는 삭제된 프로젝트를 삭제된 후 최대 30일까지 복구할 수 있습니다.
+   * 항목을 삭제하려면 **삭제**&#x200B;하십시오. 프로젝트를 삭제하면 레코드에서 연결이 끊기고 Workfront의 휴지통으로 이동합니다. Workfront 관리자는 삭제된 프로젝트를 삭제된 후 최대 30일까지 복구할 수 있습니다. 양식을 삭제해도 양식을 제출할 때 생성된 요청 또는 레코드는 삭제되지 않습니다.
    * 레코드에서 프로젝트의 연결을 끊으려면 **연결을 끊습니다**. 프로젝트의 연결을 해제하면 현재 레코드에서 해당 프로젝트와 해당 조회 필드의 모든 값이 제거됩니다.
 
    연결된 레코드 페이지 목록 보기의 ![작업 표시줄](assets/actions-bar-connected-records-page-list-view.png)

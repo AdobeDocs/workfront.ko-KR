@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1529'
 ht-degree: 3%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>제목</strong> </td> 
-      <td>원래 요청의 이름을 표시합니다. 필요한 경우 업데이트합니다. 그렇지 않으면 Workfront에서 복사된 요청의 이름을 <b>복사본 &lt;원본 요청 이름&gt;</b>으로 지정합니다. 필수 필드입니다.</td> 
+      <td>원래 요청의 이름을 표시합니다. 필요한 경우 업데이트합니다. 그렇지 않으면 Workfront에서 복사된 요청의 이름을 <b>복사본 &lt;원본 요청의 이름&gt;</b>으로 지정합니다. 필수 필드입니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>설명</strong> </td> 
@@ -226,17 +226,21 @@ ht-degree: 3%
 
 Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사하고 제출할 수 있습니다.
 
-{{step1-to-requests}}
+1. 다음 중 하나를 수행하십시오.
 
-1. 홈에서 내 요청 위젯에 액세스하려면 다음을 수행하십시오.
+   {{step1-to-requests}}
+
+   1. **Home**&#x200B;에서 **내 요청** 위젯에 액세스하려면:
 
    {{step1-to-home}}
 
-   1. 내 요청 위젯을 찾습니다.
+   1. **내 요청** 위젯을 찾습니다.
 
       내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.
 
-1. 홈의 **요청** 목록 또는 **내 요청** 위젯에서 복사할 요청을 마우스로 가리킨 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다.
+1. 홈의 **요청** 목록 또는 **내 요청** 위젯에서 복사할 요청을 마우스로 가리킨 다음 이름 옆에 있는 **자세히** 메뉴를 클릭합니다.
+
+   ![추가 메뉴](assets/more-menu.png)
 
 1. **복사** 클릭
 

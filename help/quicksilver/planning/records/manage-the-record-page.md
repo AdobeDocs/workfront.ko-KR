@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 2f1c3d4311f54f7f273b2304e39e6fbfc0f4b657
+source-git-commit: 8252e3456e26de3352ebcfd2d66f3d2e63b46428
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 0%
@@ -221,7 +221,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -282,23 +282,25 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * **모든 필드 표시** 설정을 선택하여 숨겨진 필드를 포함하여 레코드의 테이블 보기에서 모든 필드를 봅니다.
    * 레코드의 테이블 보기에서 숨겨지지 않은 필드만 보려면 **모든 필드 표시** 설정을 선택 취소합니다. 기본 설정입니다.
 
-     <!--
+   </div>
+
+   <!--
       replace with this when they fix the UI text:
       * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
       * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
       -->
 
-   </div>
-
    >[!TIP]
    >
    ><span class="preview">**모든 필드 표시** 설정은 레코드의 세부 정보 미리 보기 상자에서만 사용할 수 있습니다. 레코드의 세부 정보 페이지에서 사용할 수 없습니다.</span>
-1. (선택 사항) 연결된 레코드로 이동하려면 세부 정보 페이지 상단의 이동 경로에서 해당 레코드의 이름을 클릭합니다. <span class="preview">이동 경로에 레코드 이름이 표시되지 않으면 **자세히**&#x200B;를 클릭하세요. 여러 행에 탐색 표시가 표시됩니다. 이동 경로를 줄여서 한 행에 표시하려면 **간단히**&#x200B;를 클릭하세요.</span>
+
+1. (선택 사항) 연결된 레코드로 이동하려면 세부 정보 페이지 상단의 이동 경로에서 해당 레코드의 이름을 클릭합니다. <span class="preview">
+
+   이동 경로에 레코드 이름이 표시되지 않으면 **자세히**&#x200B;를 클릭하세요. 여러 행에 탐색 표시가 표시됩니다. 이동 경로를 줄여서 한 행에 표시하려면 **간단히**&#x200B;를 클릭하세요.</span>
 
    >[!TIP]
    >
    >레코드의 세부 정보 페이지에서 탐색 표시를 보려면 작업 영역에 레코드 유형, 레코드 및 계층이 연결되어 있어야 합니다.
-
 
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 상자 열기](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 

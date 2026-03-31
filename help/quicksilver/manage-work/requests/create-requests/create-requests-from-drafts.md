@@ -6,10 +6,10 @@ description: 새 요청을 입력할 때 Workfront에서 제안하는 사용 가
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,8 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>Any </p> </td> 
+   <td> <p>모든 Adobe Workfront 또는 워크플로우 패키지</p>
+   <p>Workfront Planning에 대한 요청을 만드는 모든 Adobe Workfront Planning 패키지 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -38,12 +39,9 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>문제에 대한 액세스 편집</p>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> 제품</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Planning 요청 또는 요청 양식을 보려면 Adobe Workfront Planning이 있어야 합니다.</td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+</tbody> 
 </table>
 
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
