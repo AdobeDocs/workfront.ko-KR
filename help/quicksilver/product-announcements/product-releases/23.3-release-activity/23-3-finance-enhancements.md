@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -40,4 +40,4 @@ ht-degree: 0%
 
 새로운 기능인 요금 카드를 사용하면 위치에 따라 작업 역할당 여러 청구 요금을 정의할 수 있습니다. 작업 역할 및 위치에 대한 청구 요금에 유효 일자가 포함될 수도 있습니다. 프로젝트에 비율 카드를 부착하여 특정 작업 역할 및 위치에 대한 모든 비율 정보를 한 번에 적용할 수 있습니다. 또한 위치 기반 역할은 할당 수준에서 비율을 대체할 수 있는 가능성이 있는 작업에 할당할 수 있습니다.
 
-자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [요금 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) 및 [청구 및 수익 개요](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)를 참조하십시오.
+자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) 및 [청구 및 수익 개요](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)를 참조하십시오.

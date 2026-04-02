@@ -6,10 +6,12 @@ description: 작업 세부 정보 섹션의 개요 영역에 액세스하여 작
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 7%
+source-wordcount: '987'
+ht-degree: 6%
 
 ---
 
@@ -18,6 +20,8 @@ ht-degree: 7%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
+
+{{highlighted-preview}}
 
 작업 세부 정보 섹션의 개요 영역에 액세스하여 작업의 재무 정보를 보거나 편집할 수 있습니다. 이 영역에서 보거나 편집할 수 있는 필드의 수는 제한되어 있습니다.
 
@@ -33,7 +37,8 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>사용자 및 역할 시간당 수익 및 비용 유형을 사용하고 초과 근무 비율을 추가하려면: 워크플로우 Ultimate</p>
+      <p>다른 모든 설정을 편집하고 다른 모든 수익 및 비용 유형을 사용하려면: 모든 Workfront 또는 워크플로우 패키지</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -55,7 +60,8 @@ ht-degree: 7%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -77,7 +83,8 @@ ht-degree: 7%
    <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 작업 세부 정보 섹션에서 작업 재무 편집
 
@@ -117,6 +124,7 @@ ht-degree: 7%
         <li> <p>고정 시간별 </p> </li> 
         <li> <p> 시간별 사용자 </p> </li> 
         <li> <p> 시간별 역할</p> </li> 
+        <li> <p> <span class="preview">시간별 사용자 및 역할</span></p> </li> 
        </ul> <p>비용 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">비용 추적</a> 을 참조하십시오. Workfront 관리자 또는 그룹 관리자는 시스템 또는 그룹의 작업에 대해 기본 비용 유형 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a> 을 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
@@ -126,13 +134,16 @@ ht-degree: 7%
         <li> <p> 과금 불가 </p> </li> 
         <li> <p>시간별 사용자 </p> </li> 
         <li> <p>시간별 역할 </p> </li> 
+        <li> <p> <span class="preview">시간별 사용자 및 역할</span></p> </li>
         <li> <p>고정 시간별 </p> </li> 
         <li> <p>시간별 사용자(상한 포함) </p> </li> 
-        <li> <p>시간별 역할(수용작업량 포함) </p> </li> 
+        <li> <p>시간별 역할(수용작업량 포함) </p> </li>
+        <li> <p> <span class="preview">시간별 사용자 및 역할(상한 포함)</span></p> </li> 
         <li> <p>시간별 + 고정 사용자 </p> </li> 
         <li> <p>시간별 + 고정 역할 </p> </li> 
+        <li> <p> <span class="preview">시간별 사용자 및 역할 + 고정</span></p> </li>
         <li> <p>고정 수입 </p> </li> 
-       </ul> <p>수익 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">청구 및 수익 개요</a> 를 참조하십시오. </p> <p>Workfront 관리자 또는 그룹 관리자는 시스템 또는 그룹의 작업에 대한 기본 수익 유형 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오.</p> </td> 
+       </ul> <p>수익 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">청구 및 수익 개요</a> 및 <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">수익 및 비용 계층 개요</a>를 참조하십시오. </p> <p>Workfront 관리자 또는 그룹 관리자는 시스템 또는 그룹의 작업에 대한 기본 수익 유형 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">계획된 비용</td> 
@@ -150,8 +161,17 @@ ht-degree: 7%
       <td role="rowheader">실제 수익</td> 
       <td> <p>실제 시간, 수익 유형 및 사용자 또는 작업 역할에 대한 시간당 요금을 기반으로 작업과 연결된 수익을 표시하는 계산입니다. 비용 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">비용 추적</a>을 참조하세요.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">초과 근무 비율</span></td> 
+      <td><span class="preview"><p>작업에 대한 초과 근무 승수(예: 1.5 또는 2.0)를 입력합니다. 기본값은 1.0(승수 없음)입니다. 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">초과 근무 비율 정의</a>를 참조하십시오.</p><p>초과 근무 비율 필드를 보려면</p>
+       <ul>
+       <li>작업의 수익 유형은 시간별 사용자 및 역할이어야 합니다. 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">수익 및 비용 계층 구조 개요</a>를 참조하십시오.</li>
+       <li>작업 세부 정보 보기의 재무 영역에 대해 레이아웃 템플릿에서 필드를 활성화해야 합니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정</a>을 참조하십시오.</li>
+       </ul>
+      </span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>CPI/SPI/CSI</strong> </td> 
+      <td role="rowheader">CPI/SPI/CSI</td> 
       <td> <p>지정된 시간에 작업이 수행되는 방식을 보여 주는 작업 성능 지표입니다. 이 값은 프로젝트의 성과 지수 방법을 기반으로 계산됩니다.<br>자세한 내용은 다음 문서를 참조하십시오.</p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">CPI(비용 성과 지표) 계산</a> </p> </li> 
@@ -166,4 +186,4 @@ ht-degree: 7%
     </tbody> 
    </table>
 
-1. (조건부) 재무 섹션의 필드를 편집하는 경우 **변경 내용 저장**&#x200B;**1&rbrace;을 클릭합니다.**
+1. (조건부) 재무 섹션의 필드를 편집하는 경우 **변경 내용 저장**&#x200B;을 클릭합니다.

@@ -6,10 +6,10 @@ description: 재원은 프로젝트에 기록된 시간 또는 비용 및 수익
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 0%
+source-wordcount: '1605'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +27,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td>임의 </td> 
+   <td>Any </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -93,7 +93,7 @@ ht-degree: 0%
   자세한 내용은 [회사 수준에서 작업 역할 청구 요금 대체](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)를 참조하십시오.
 
 * 프로젝트 수준(작업 역할의 경우)\
-  프로젝트 수준에서 작업 역할 요율 재정의에 대한 자세한 내용은 문서 [작업 역할 청구 요율 재정의 개요 및 프로젝트의 수익 계산](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
+  프로젝트 수준에서 작업 역할 요율 재정의에 대한 자세한 내용은 문서 [청구 요율 재정의 개요 및 프로젝트 수익 계산](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
 
 예를 들어 프로젝트 진행 중 사용자의 청구 요금이 시간당 $50에서 $75로 변경되고 기존의 모든 데이터를 이전 요금($50 및 시간)으로 계속 계산되게 하려는 경우, 그러나 프로젝트 재정이 다시 계산되면 기존 재무 데이터가 있는 작업의 매출은 새 청구 요금(시간당 75달러)을 반영하도록 업데이트됩니다.
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 프로젝트 수준에서 작업 역할에 대한 청구 요금이 변경되면 지정된 기간 내에 잠긴 여러 청구 요금 무시를 사용하여 프로젝트에서 이미 계산된 기존 수익을 유지할 수 있습니다.
 
-여러 청구 요율 재정의 사용에 대한 자세한 내용은 문서 [작업 역할 청구 요율 재정의 개요 및 프로젝트의 수익 계산](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
+여러 청구 요율 재정의 사용에 대한 자세한 내용은 문서 [청구 요율 재정의 개요 및 프로젝트 수익 계산](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
 
 >[!NOTE]
 >

@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,11 @@ ht-degree: 0%
 * [필터, 보기 및 그룹화에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [시나리오 플래너에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
 * [리소스 관리에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [등급 카드에 대한 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Adobe Workfront 목표에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* [브랜드 권한에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
 
-## 참조:
+## 참조 -
 
 * 액세스 수준에 대한 일반적인 정보는 [액세스 수준 작동 방식](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)을 참조하십시오.
 * 사용자가 개체를 서로 공유하는 방법과 해당 개체에 대한 보기 및 편집 권한을 부여하는 방법에 대한 자세한 내용은 [개체에 대한 권한 부여 및 요청](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) 및 [액세스 수준과 권한이 함께 작동하는 방법](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)을 참조하십시오.

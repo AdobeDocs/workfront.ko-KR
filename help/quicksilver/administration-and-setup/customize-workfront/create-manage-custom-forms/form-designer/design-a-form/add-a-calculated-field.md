@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
 workflow-type: tm+mt
-source-wordcount: '2506'
+source-wordcount: '2714'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 # 양식에 계산된 필드 추가
 
 <!-- Audited: 5/2025 -->
+
+{{highlighted-preview}}
 
 사용자 정의 양식을 오브젝트에 첨부할 때 기존 데이터를 사용하여 새 데이터를 생성하는 계산된 사용자 정의 필드를 추가할 수 있습니다.
 
@@ -53,7 +55,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -168,6 +170,22 @@ ht-degree: 1%
      <tr>
       <td>활성</td>
       <td><p>이 옵션은 기본적으로 켜져 있습니다.<p><p>필드를 비활성으로 설정하면 보고서, 필터 및 보기에서 제외되며 사용자 정의 양식 필드 라이브러리에서 더 이상 사용할 수 없습니다.</p></td>
+     </tr>
+     <tr>
+      <td><span class="preview">자동 권한</span></td>
+      <td><span class="preview"><p>수식에 사용된 필드에서 재무 권한이 자동으로 부여되도록 하려면 이 옵션을 켭니다. 권한 정의는 아래의 재무 권한 유형 필드에 표시됩니다.</p><p>수식의 모든 필드에 대한 액세스 권한이 필요합니다. 예를 들어 계산된 필드에서 두 개의 필드가 사용되고 그 중 하나에 청구 권한이 적용되고 두 번째에 비용 권한이 적용되는 경우 계산된 값을 보려면 사용자에게 청구 및 비용 요금을 모두 볼 수 있는 권한이 있어야 합니다.</p></span></td>
+     </tr>
+     <tr>
+      <td><span class="preview">재무 권한 유형</span></td>
+      <td><p><span class="preview">자동 권한 필드가 꺼져 있으면 사용자가 이 사용자 정의 필드를 보거나 편집하기 위해 보유해야 하는 재무 권한 유형을 선택할 수 있습니다. 계산된 필드에는 모든 형식이 허용됩니다. 수식에 사용된 필드에 따라 이 필드의 활성 여부가 결정됩니다. 권한 필드가 비어 있으면 수식의 필드가 재무 권한을 지원하지 않습니다.</span></p>
+      <ul span class="preview">
+      <li><p><strong>권한 필요 없음:</strong> 모든 사용자가 이 필드를 볼 수 있음</p></li>
+      <li><p><strong>일반:</strong> 사용자는 일반 금융을 편집하거나 볼 수 있는 권한이 있어야 합니다.</p></li>
+      <li><p><strong>청구:</strong> 사용자에게 청구 요율을 편집하거나 볼 수 있는 권한이 있어야 합니다.</p></li>
+      <li><p><strong>비용:</strong> 사용자가 비용 비율을 편집하거나 볼 수 있는 권한이 있어야 합니다.</p></li>
+      </ul>
+      <p><span class="preview">자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">사용자 지정 필드에서 재무 데이터에 대한 액세스 제한</a>을 참조하십시오.</span></p>
+      </td>
      </tr>
     </tbody> 
    </table>

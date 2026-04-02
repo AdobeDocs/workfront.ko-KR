@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 2%
+source-wordcount: '738'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +27,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -47,21 +47,21 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
 ## 사용자에 대한 액세스 구성
 
-사용자가 만든 기본 액세스 수준 또는 사용자 지정 액세스 수준을 사용하여 다른 사용자가 보고 편집할 수 있는 정보를 관리할 수 있습니다. 기본 플랜 및 작업 라이선스가 있는 사용자는 다른 사용자의 연락처 정보를 볼 수 있습니다. 다음 사용자 중 한 명이 다른 사용자를 만들고 편집할 수 있습니다.
+사용자가 만든 기본 액세스 수준 또는 사용자 지정 액세스 수준을 사용하여 다른 사용자가 보고 편집할 수 있는 정보를 관리할 수 있습니다. 기본 표준, 플랜 및 작업 라이선스가 있는 사용자는 다른 사용자의 연락처 정보를 볼 수 있습니다. 다음 사용자 중 한 명이 다른 사용자를 만들고 편집할 수 있습니다.
 
 * Workfront 관리자.
 
   자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)를 참조하십시오.
 
-* 이 문서에 설명된 대로 사용자에게 액세스할 수 있는 기본 플랜 라이선스가 있는 사용자.
+* 이 문서에 설명된 대로 사용자에게 액세스할 수 있는 기본 Standard 또는 Plan 라이선스를 가진 사용자.
 
   회사 또는 기본 회사의 사용자만 볼 수 있도록 제한된 사용자는 볼 수 있는 사용자만 편집할 수 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
 
-* 다른 사용자의 관리자로 지정된 기본 플랜 라이선스를 가진 사용자.
+* 다른 사용자의 관리자로 지정된 기본 Standard 또는 Plan 라이선스를 가진 사용자.
 
   액세스 수준의 사용자에 대한 편집 액세스 권한이 부여된 사용자는 자신에게 보고하는 사용자를 관리할 수 있습니다. 사용자 관리에 대한 자세한 내용은 [조직도 보기](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)를 참조하십시오.
 
-* 사용자를 생성한 기본 플랜 라이선스가 있는 사용자는 자신이 생성한 사용자를 비활성화, 삭제 또는 편집할 수 있습니다. 새 사용자를 만드는 방법에 대한 자세한 내용은 [사용자 추가](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
+* 사용자를 생성한 기본 Standard 또는 Plan 라이선스가 있는 사용자는 자신이 생성한 사용자를 비활성화, 삭제 또는 편집할 수 있습니다. 새 사용자를 만드는 방법에 대한 자세한 내용은 [사용자 추가](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
 
 ## 사용자 정의 액세스 수준을 사용하여 사용자 편집에 대한 사용자 액세스 구성
 
@@ -81,7 +81,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>만들기</strong> </td> 
+      <td role="rowheader"><strong>선택 사항에서</strong> </td> 
       <td> <p>사용자가 사용자를 만들 수 있습니다.<br>이 옵션은 기본적으로 사용됩니다.</p> 
      <p><b>참고</b>: 조직에서 Adobe Admin Console에 온보딩한 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.</p>
         </td>  

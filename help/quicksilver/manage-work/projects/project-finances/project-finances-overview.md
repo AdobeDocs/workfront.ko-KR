@@ -8,9 +8,9 @@ author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 5a112a0fe9f7e40f57fef82b35860615c9408b95
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -69,13 +69,9 @@ ht-degree: 0%
 
 [계획된 인건비 계산](../../../manage-work/projects/project-finances/planned-labor-cost.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/export-billing-record-details.md" class="MCXref xref" xrefformat="{para}">Export billing record details as a PDF file</a> </p>
--->
+[수익 및 원가 계층 개요](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/how-workfront-calculates-finances.md" class="MCXref xref" xrefformat="{para}">How Adobe Workfront calculates finances </a> </p>
--->
+[프로젝트 수준에서 사용자 비용 비율 재정의](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
 
 ## 청구 요금
 
@@ -85,8 +81,14 @@ ht-degree: 0%
 
 [프로젝트 수준 청구 요율을 회사 수준 청구 요율로 재정의](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
 
-[작업 역할 청구 요금 재정의 및 프로젝트의 수익 계산에 대한 개요](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+[프로젝트의 청구 요율 오버라이드 및 수익 계산에 대한 개요](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
 [프로젝트 수준에서 작업 역할 청구 요금 재정의](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
 
+[프로젝트 수준에서 사용자 청구 요금 재정의](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
+
 [프로젝트에 요금 카드 첨부](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+
+[청구에 대한 작업 역할 설정](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+
+[초과 근무 비율 정의](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)

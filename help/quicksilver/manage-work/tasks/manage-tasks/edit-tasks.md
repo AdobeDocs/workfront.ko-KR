@@ -7,14 +7,18 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '4076'
 ht-degree: 4%
 
 ---
 
 # 작업 편집
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -28,13 +32,16 @@ ht-degree: 4%
 </div>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div> -->
+</div>
+-->
+
 
 직접 만들었거나 Contribute 또는 Manage 권한이 있는 작업에 대한 정보를 편집할 수 있습니다.
 
@@ -48,7 +55,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>Any</p> </td> 
+   <td>  <p>사용자 및 역할 시간당 수익 및 비용 유형을 사용하고 초과 근무 비율을 추가하려면: 워크플로우 Ultimate</p>
+      <p>다른 모든 설정을 편집하고 다른 모든 수익 및 비용 유형을 사용하려면: 모든 Workfront 또는 워크플로우 패키지</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -82,7 +90,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,7 +127,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 작업 편집 제한 사항
 
@@ -572,6 +582,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
         <li> <p>고정 시간별 </p> </li> 
         <li> <p> 시간별 사용자 </p> </li> 
         <li> <p> 시간별 역할</p> </li> 
+        <li> <p> <span class="preview">시간별 사용자 및 역할</span></p> </li> 
        </ul> <p>비용 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">비용 추적</a> 을 참조하십시오. Workfront 관리자 또는 그룹 관리자는 시스템 또는 그룹의 작업에 대해 기본 비용 유형 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a> 을 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
@@ -581,14 +592,26 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
       <li> <p> 과금 불가 </p> </li> 
       <li> <p>시간별 사용자 </p> </li> 
       <li> <p>시간별 역할 </p> </li> 
+      <li> <p> <span class="preview">시간별 사용자 및 역할</span></p> </li> 
       <li> <p>고정 시간별 </p> </li> 
       <li> <p>시간별 사용자(상한 포함) </p> </li> 
       <li> <p>시간별 역할(수용작업량 포함) </p> </li> 
+      <li> <p> <span class="preview">시간별 사용자 및 역할(상한 포함)</span></p> </li> 
       <li> <p>시간별 + 고정 사용자 </p> </li> 
       <li> <p>시간별 + 고정 역할 </p> </li> 
+      <li> <p> <span class="preview">시간별 사용자 및 역할 + 고정</span></p> </li> 
       <li> <p>고정 수입 </p> </li> 
-       </ul> <p>수익 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">청구 및 수익 개요</a> 를 참조하십시오. </p> <p>Workfront 관리자 또는 그룹 관리자는 시스템 또는 그룹의 작업에 대한 기본 수익 유형 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오.</p> </td> 
+       </ul> <p>수익 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">청구 및 수익 개요</a> 및 <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">수익 및 비용 계층 개요</a>를 참조하십시오. </p> <p>Workfront 관리자 또는 그룹 관리자는 시스템 또는 그룹의 작업에 대한 기본 수익 유형 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">초과 근무 비율</span></td> 
+      <td><span class="preview"><p>작업에 대한 초과 근무 승수(예: 1.5 또는 2.0)를 입력합니다. 기본값은 1.0(승수 없음)입니다. 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">초과 근무 비율 정의</a>를 참조하십시오.</p><p>초과 근무 비율 필드를 보려면</p>
+       <ul>
+       <li>작업의 수익 유형은 시간별 사용자 및 역할이어야 합니다. 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">수익 및 비용 계층 구조 개요</a>를 참조하십시오.</li>
+       <li>작업 세부 정보 보기의 재무 영역에 대해 레이아웃 템플릿에서 필드를 활성화해야 합니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정</a>을 참조하십시오.</li>
+       </ul>
+      </span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -710,7 +733,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 작업을 일괄 저장하는 방법에 대한 자세한 내용은 문서 [목록에서 작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)의 &quot;일괄 작업 편집&quot; 섹션을 참조하십시오.
 
-<!--Temporary content while changing Assignments area: 
+<!--
+Temporary content while changing Assignments area: 
 
 Editing assignments is different in the Edit Task box depending on which environment you choose.
 
@@ -848,7 +872,8 @@ Editing assignments is different in the Edit Task box depending on which environ
          </table>
       
    
-      <!--<tr> 
+      <!--
+      <tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -1019,4 +1044,5 @@ Editing assignments is different in the Edit Task box depending on which environ
 
 <div class="preview">
 
-#### Edit the Assignments area in the Preview environment-->
+#### Edit the Assignments area in the Preview environment
+-->

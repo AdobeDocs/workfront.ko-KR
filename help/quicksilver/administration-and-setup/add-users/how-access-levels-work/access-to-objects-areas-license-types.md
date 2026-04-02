@@ -9,16 +9,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 09bbb257a80c3f85abea9d238900d63c493fea2e
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 20%
+source-wordcount: '488'
+ht-degree: 22%
 
 ---
 
 # 라이센스에 의한 오브젝트 및 영역 액세스
 
 <!-- Audited: 2/2024 -->
+
+{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -105,6 +107,13 @@ ht-degree: 20%
         <td>보기</td>
     </tr>
     <tr>
+        <td><span class="preview">작업 역할</span></td>
+        <td>편집</td>
+        <td>보기</td>
+        <td>보기</td>
+        <td>액세스 권한 없음</td>
+    </tr>
+    <tr>
         <td>팀</td>
         <td>편집</td>
         <td>보기</td>
@@ -134,6 +143,13 @@ ht-degree: 20%
     </tr>
     <tr>
         <td>시나리오 플래너</td>
+        <td>편집</td>
+        <td>보기</td>
+        <td>액세스 권한 없음</td>
+        <td>액세스 권한 없음</td>
+    </tr>
+    <tr>
+        <td><span class="preview">요율 카드</span></td>
         <td>편집</td>
         <td>보기</td>
         <td>액세스 권한 없음</td>
@@ -176,4 +192,5 @@ ht-degree: 20%
 * [재무 데이터에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [리소스 관리에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [시나리오 플래너에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [등급 카드에 대한 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Adobe Workfront 목표에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

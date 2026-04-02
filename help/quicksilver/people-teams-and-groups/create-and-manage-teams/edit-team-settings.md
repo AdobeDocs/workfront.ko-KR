@@ -6,10 +6,12 @@ description: Workfront 관리자 및 플랜 또는 작업 라이선스가 있는
 author: Courtney
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 5%
+source-wordcount: '494'
+ht-degree: 4%
 
 ---
 
@@ -86,5 +88,7 @@ ht-degree: 5%
 
       * [작업에 대한 [!UICONTROL 완료] 단추 구성](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [문제에 대한 [!UICONTROL 완료] 단추 구성](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+
+   * 사용자 정의 양식을 첨부합니다. 자세한 내용은 [개체에 사용자 정의 양식 추가](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
 
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.

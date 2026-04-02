@@ -5,10 +5,10 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 0%
+source-wordcount: '566'
+ht-degree: 3%
 
 ---
 
@@ -16,23 +16,21 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-요금 카드는 위치에 따라 작업 역할당 여러 청구 요금을 저장합니다. 각각 청구 요금이 다른 파리에 기반을 둔 Designer과 뉴욕에 기반을 둔 두 번째 Designer의 작업 역할이 있을 수 있습니다. 하지만 요금 카드의 작업 역할에는 위치가 필요하지 않습니다. 요금 카드의 작업 역할(및 가능한 위치)에 대한 청구 요금에는 유효 날짜도 포함될 수 있습니다.
+요금 카드는 속성을 기준으로 작업 역할당 여러 청구 요금을 저장합니다. 예를 들어, 각각 청구 요금이 다른 에이전시에 할당되지 않은 Designer(파리 기반, 에이전시 A), 다른 Designer(파리 기반, 에이전시 B), 세 번째 Designer(뉴욕 기반)의 작업 역할이 있을 수 있습니다. 하지만 비율 카드의 작업 역할에는 속성이 필요하지 않습니다. 속성은 보다 세부적인 비율을 설정하는 도구 역할을 합니다. 요금 카드의 청구 요금도 날짜 유효일 수 있으므로 지정된 날짜에 요금이 시작되고 종료됩니다.
 
-프로젝트에 요금 카드를 첨부하면 위치별 모든 역할과 관련 청구 요금이 프로젝트에 추가됩니다.
+프로젝트에 요금 카드를 첨부하면 모든 역할과 관련 청구 요금이 프로젝트에 추가됩니다.
 
 >[!NOTE]
 >
->요금 카드를 첨부하면 프로젝트의 기존 청구 요금이 무시됩니다.
+>요금 카드를 첨부하면 프로젝트의 기존 요금 카드 청구 요금이 무시됩니다. 프로젝트에 직접 추가된 청구 요금 무시는 제거되지 않습니다.
 
-프로젝트의 요금 카드에서 직접 청구 요금을 편집할 수 있습니다. 기본 요금 카드에 저장된 요금에는 영향을 주지 않습니다.
+등급 카드 만들기에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)를 참조하십시오.
 
-등급 카드 만들기에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)를 참조하십시오.
-
-프로젝트의 작업 역할 청구 요율 재정의 및 프로젝트 수익 계산에 대한 일반 정보는 [작업 역할 청구 요율 재정의 개요 및 프로젝트의 수익 계산](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
+프로젝트의 작업 역할 청구 요율 재정의 및 프로젝트 수익 계산에 대한 일반 정보는 [프로젝트의 청구 요율 재정의 및 수익 계산 개요](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,21 +38,19 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td>임의</td> 
+   <td>워크플로 얼티밋</td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
-   <td>
-   <p>표준</p>
-   <p>플랜</p></td> 
+   <td>표준</td> 
   </tr> 
   <tr> 
    <td>액세스 수준 구성</td> 
-   <td> <p>프로젝트 및 재무 데이터에 대한 액세스 편집</p> <p>작업 역할에 대한 관리 액세스</p></td> 
+   <td>프로젝트, 재무 데이터 및 등급 카드에 대한 액세스 편집</td> 
   </tr> 
   <tr> 
    <td>개체 권한</td> 
-   <td>재무 데이터 편집이 포함된 프로젝트에 대한 권한 관리 </td> 
+   <td>청구 요금 편집 권한으로 프로젝트에 대한 권한 관리</td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,17 +62,33 @@ ht-degree: 0%
 ## 프로젝트에 요금 카드 첨부
 
 1. 프로젝트로 이동합니다.
-1. 왼쪽 패널에서 **청구 요금**&#x200B;을 클릭합니다.
+1. 왼쪽 패널에서 **요금**&#x200B;을 클릭한 다음 **청구**&#x200B;를 선택합니다.
 1. **청구 요금 추가 > 요금 카드 첨부**&#x200B;를 클릭합니다.
 
-   요금 카드 첨부 페이지가 열립니다. 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)를 참조하십시오.
+   **요금 카드 첨부** 상자가 열립니다. 목록에서 요금 카드를 검색할 수 있습니다.
+
+   ![요금 카드 상자 첨부](assets/attach-rate-card-dialog.png)
+
+   >[!NOTE]
+   >
+   >요금 카드의 그룹 및 회사는 이 목록에서 필터로 사용됩니다. 프로젝트에는 그룹 및 회사 필드도 포함되어 있으므로 Workfront은 이러한 값을 사용하여 사용 가능한 비율 카드 목록을 시스템 전체의 모든 비율 카드가 아닌 프로젝트 컨텍스트와 관련된 비율카드로 좁힙니다.
+   >
+   >일치 항목이 정확할 필요는 없습니다. 프로젝트의 그룹/회사 구성에 따라 빈 그룹 및/또는 회사 값이 있는 등급 카드가 여전히 표시될 수 있습니다. 예를 들어, 프로젝트에 선택한 그룹이 있지만 회사가 비어 있는 경우, 비율 카드의 회사가 다르거나 비어 있더라도 해당 그룹과 관련된 비율 카드가 표시될 수 있습니다.
 
 1. 프로젝트에 추가할 요금 카드를 선택하고 **첨부**&#x200B;를 클릭합니다.
 
    요금 카드 및 모든 작업 역할 요금이 청구 요금 목록에 추가됩니다.
 
-   ![등급 카드가 프로젝트에 추가됨](assets/billing-rates-added-from-rate-card.png)
+   ![등급 카드가 프로젝트에 추가됨](assets/rate-card-on-project.png)
 
-   >[!NOTE]
-   >
-   >청구 요금 목록에서 요금 카드에서 가져온 하나 이상의 작업 역할을 제거할 수 있습니다. 프로젝트에서 작업 역할 청구 요율을 제거해도 기본 요율 카드에서 제거되지 않습니다.
+## 프로젝트에서 비율 카드 제거
+
+프로젝트에서 비율 카드를 제거하면 해당 작업의 모든 역할 비율이 제거됩니다. 요금제에서 가져온 프로젝트에서는 개별 요금을 제거할 수 없습니다.
+
+프로젝트에 직접 추가된 사용자 또는 작업 역할에 대한 청구 요율 무시는 전체 요율 카드를 제거하지 않고 제거할 수 있습니다.
+
+1. 프로젝트로 이동합니다.
+1. 왼쪽 패널에서 **요금**&#x200B;을 클릭한 다음 **청구**&#x200B;를 선택합니다.
+1. **제거** 아이콘 ![제거 아이콘](assets/remove-icon.png)을 클릭합니다.
+1. 확인 메시지에서 **확인**&#x200B;을 클릭하여 요금 카드를 제거합니다.
+

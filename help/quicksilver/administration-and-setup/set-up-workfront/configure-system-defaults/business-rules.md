@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 3%
+source-wordcount: '1823'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +31,7 @@ ht-degree: 3%
 
 <div class="preview">
 
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
 
 </div>
 
@@ -139,34 +141,51 @@ IF(
 )
 ```
 
+### 비즈니스 규칙에서 현지화 사용
 
-<!--
+조직에서 사용자 정의 현지화를 사용하는 경우 비즈니스 규칙에서 비즈니스 규칙 메시지의 번역을 활성화해야 합니다. 번역이 활성화되어 있지 않을 경우, 메시지 텍스트가 로컬라이제이션 목록에 있고 사용자의 브라우저가 적절한 언어로 설정되어 있더라도 메시지는 영어로 독자에게 표시됩니다.
 
-## Scenarios for business rule automation
+규칙을 구성할 때 메시지 앞에 TRANSLATE라는 단어를 삽입하고 메시지를 괄호로 묶습니다.
+
+>[!BEGINSHADEBOX]
+
+예:
+
+이 예제에서는 &quot;완료된 프로젝트를 편집할 수 없습니다&quot;라는 메시지가 설정의 현지화 영역에 포함되어 있고 사용자의 브라우저가 현지화된 언어로 설정되어 있다고 가정합니다.
+
+* `IF({status} = "CPL", "You cannot edit completed projects.") `
+메시지가 영어로 표시됩니다.
+* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
+메시지가 현지화된 언어로 표시됩니다.
+
+>[!ENDSHADEBOX]
+
+사용자 지정 지역화에 대한 자세한 내용은 [사용자 지정 지역화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)을 참조하십시오.
+
+## 비즈니스 규칙 자동화를 위한 시나리오
 
 >[!NOTE]
 >
->Your organization must have a Workflow Ultimate package to use business rule automation.
+>비즈니스 규칙 자동화를 사용하려면 조직에 Workflow Ultimate 패키지가 있어야 합니다.
 
-The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+비즈니스 규칙 자동화의 형식은 &quot;정의된 조건이 충족되면 선택한 자동화가 트리거됩니다&quot;입니다.
 
-Business rule automation formulas do not require an error message
+비즈니스 규칙 자동화 수식은 오류 메시지가 필요하지 않습니다
 
-To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+프로젝트가 생성될 때와 같이 선택한 객체와 작업이 발생할 때마다 자동화가 실행되도록 하려면 다음 공식을 사용합니다.
 
 ```
 IF(true, true)
 ```
 
-To share a project only if that's project has been approved, use a formula like the following:
+해당 프로젝트가 승인된 경우에만 프로젝트를 공유하려면 다음과 같은 공식을 사용합니다.
 
 ```
 IF({status} = "APR", true)
 ```
 
-You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+[비즈니스 규칙 유효성 검사를 위한 시나리오](#scenarios-for-business-rule-validation) 섹션에 설명된 대로 비즈니스 규칙 작업에 와일드카드를 사용할 수 있습니다.
 
--->
 
 ## 새 비즈니스 규칙 추가
 
@@ -210,15 +229,15 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * 템플릿
    * 휴무
    * 리소스 풀
+   * 작업 역할
+   * 비노동 리소스 카테고리
+   * 리소스 풀
+   * 휴무
+   * 시간
+   * 직원 채용 플랜
+   * 템플릿
+   * 직원 채용 플랜 리소스
 <!--
-   * <span class="preview">Job role</span>
-   * <span class="preview">Non-labor resource category</span>
-   * <span class="preview">Resource Pool</span>
-   * <span class="preview">Time Off</span>
-   * <span class="preview">Hour</span>
-   * <span class="preview">Staffing Plan</span>
-   * <span class="preview">Template</span>
-   * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
 -->
 
@@ -242,13 +261,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * &quot;객체&quot;는 비즈니스 규칙을 생성할 때 선택한 객체 유형입니다. 대화 상자의 머리글에 표시됩니다.
    * &quot;작업&quot;은 규칙에 대해 선택한 트리거입니다(객체 만들기, 편집 또는 삭제).
    * 개체와 작업이 이미 정의되어 있으므로 수식에 포함하지 않습니다.
-   * 비즈니스 규칙을 트리거할 때 사용자 지정 오류 메시지 <!--<span class="preview">is included only if the rule is for validation, and </span>-->이(가) 사용자에게 표시됩니다. 무엇이 잘못되었는지, 어떻게 문제를 수정해야 하는지에 대한 명확한 지침을 제공해야 한다.
+   * 사용자 지정 오류 메시지 <span class="preview">은(는) 유효성 검사를 위한 규칙인 경우에만 포함되며, 비즈니스 규칙을 트리거할 때 </span>이(가) 사용자에게 표시됩니다. 무엇이 잘못되었는지, 어떻게 문제를 수정해야 하는지에 대한 명확한 지침을 제공해야 한다.
 
      오류 메시지에 정적 URL을 포함하여 설명서 또는 기타 유용한 페이지에 연결하여 규칙의 제한 사항 내에서 사용자가 작업을 수정하는 방법을 안내할 수 있습니다.
 
      이 예에서 &quot;자세히 알아보기&quot;는 URL에 연결됩니다. `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL은 괄호로 묶어야 하지만 대괄호로 묶인 링크 텍스트는 필요하지 않습니다. 전체 URL을 표시할 수 있으며 클릭할 수 있는 링크가 됩니다.
 
-   ![비즈니스 규칙 추가 대화 상자](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
+   ![비즈니스 규칙 추가 대화 상자](assets/add-business-rule-new.png)
 
    이 예제는 프로젝트에 대한 비즈니스 규칙입니다. 현재 월이 11월인 경우 사용자는 새 프로젝트를 만들 수 없으며 이 메시지가 표시됩니다.
 
@@ -264,17 +283,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    다른 패키지의 경우 이 옵션을 미리 선택합니다.
 
-<!--
+1. <span class="preview">(조건부) 다른 작업을 자동화하려면 해당 작업을 선택하십시오. </span>
 
-1. (Conditional) To automate another action,, select the action. 
-
-   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+   <span class="preview">이러한 작업에 대한 자세한 내용은 이 문서의 [비즈니스 규칙 자동화 옵션](#business-rule-automation-options) 섹션을 참조하십시오.</span>
 
    >[!NOTE]
    >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
-
-   -->
+   ><span class="preview">유효성 검사 외에 작업을 사용하려면 조직이 Workflow Ultimate 패키지에 있어야 합니다. 이러한 다른 옵션이 표시되지 않으면 조직이 Workflow Ultimate 패키지에 없습니다.</span>
 
 1. 비즈니스 규칙 작성을 마치면 **저장**&#x200B;을 클릭합니다.
 
@@ -282,24 +297,22 @@ You can use wildcards in business rule actions, as described in the section [Sce
 >
 >비즈니스 규칙을 추가한 후에는 연결된 개체를 추가, 편집 또는 삭제하여 비즈니스 규칙을 테스트하여 규칙이 제대로 적용되었는지 확인해야 합니다.
 
-<!--
-
 <div class="preview">
 
-### Business rule automation options
+### 비즈니스 규칙 자동화 옵션
 
-   >[!NOTE]
-   >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+>[!NOTE]
+>
+>유효성 검사 외에 작업을 사용하려면 조직이 Workflow Ultimate 패키지에 있어야 합니다. 이러한 다른 옵션이 표시되지 않으면 조직이 Workflow Ultimate 패키지에 없는 것입니다.
 
-You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+비즈니스 규칙이 트리거될 때 이러한 작업을 자동화하도록 설정할 수 있습니다. 사용 가능한 작업은 선택한 객체 유형에 따라 다릅니다.
 
-|Automation|Further configuration|
+| 자동화 | 추가 구성 |
 |---|---|
-|Attach a custom form|Select the custom form that you want to add|
-|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+| 사용자 정의 양식 첨부 | 추가할 사용자 정의 양식 선택 |
+| 오브젝트 공유 | 개체를 공유할 사람, 역할, 그룹, 회사 또는 액세스 수준을 선택합니다. |
 
--->
+</div>
 
 ## 비즈니스 규칙 활성화
 
@@ -310,3 +323,4 @@ You can set these actions to automate when the business rule is triggered. Avail
 1. 규칙 목록에서 비즈니스 규칙을 선택하고 편집 아이콘을 클릭합니다.
 1. 비즈니스 규칙 대화 상자에서 **활성 상태임**&#x200B;에 대해 **예**&#x200B;를 선택합니다.
 1. **저장**&#x200B;을 클릭합니다.
+

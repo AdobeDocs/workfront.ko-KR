@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 0%
+source-wordcount: '436'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 라이센스</td> 
@@ -83,4 +83,4 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >프로젝트에서 변경된 작업 역할 비율은 해당 프로젝트에만 영향을 줍니다. 회사 수준에서 변경된 요금은 모든 프로젝트에 영향을 줍니다. 자세한 내용은 [작업 역할 청구 요율 재정의 개요 및 프로젝트의 수익 계산](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
+   >프로젝트에서 변경된 작업 역할 비율은 해당 프로젝트에만 영향을 줍니다. 회사 수준에서 변경된 요금은 모든 프로젝트에 영향을 줍니다. 자세한 내용은 [청구 요금 오버라이드 및 프로젝트 수익 계산 개요](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)를 참조하십시오.

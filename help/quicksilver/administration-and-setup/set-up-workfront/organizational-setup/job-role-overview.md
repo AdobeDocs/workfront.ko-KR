@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 1dd0faae822310616e2ca3d067169d5620846736
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 3%
@@ -61,6 +61,6 @@ ht-degree: 3%
   >사용자에게 사용자 프로필에 레이아웃 템플릿이 할당된 경우 해당 템플릿은 기본 작업 역할에 할당된 템플릿보다 우선합니다. 자세한 내용은 [레이아웃 템플릿에 사용자 할당](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
 
 * [!DNL Adobe Workfront Scenario Planner]을(를) 사용할 때 리소스의 가용성을 관리하기 위해 계획 및 이니셔티브에 작업 역할을 할당할 수 있습니다. [!DNL Scenario Planner]에 대한 추가 라이선스가 필요합니다. 자세한 내용은 [시작하기 [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md)를 참조하십시오.
-* 다른 국가의 자원으로 작업할 때 다른 통화를 기준으로 작업 역할 비율을 대체할 수 있습니다. 이를 통해 작업 항목에 대한 보다 정확한 비용 및 수익 금액을 얻을 수 있습니다.
+* 다른 국가의 자원으로 작업할 때 유효 일자 작업 역할 비율에 대한 통화를 변경할 수 있습니다. 이를 통해 작업 항목에 대한 보다 정확한 비용 및 수익 금액을 얻을 수 있습니다.
 
   자세한 내용은 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.

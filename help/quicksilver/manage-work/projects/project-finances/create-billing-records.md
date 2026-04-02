@@ -5,10 +5,10 @@ description: 수익 및 추적 경비를 설정하는 것 외에도 청구해야
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 1%
+source-wordcount: '1633'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +30,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -144,7 +144,7 @@ ht-degree: 1%
      >[!NOTE]
      >
      >프로젝트 수준에서 작업 역할에 대한 청구 요율을 재정의할 수 있습니다.\
-     >자세한 내용은 문서 [프로젝트 작업 역할 청구 요금 개요](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)의 &quot;프로젝트 수준에서 작업 역할 청구 요금 오버라이드&quot; 섹션을 참조하십시오.
+     >자세한 내용은 문서 [프로젝트 청구 요금 오버라이드 및 수익 계산 개요](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)의 &quot;프로젝트 수준에서 작업 역할 청구 요금 오버라이드&quot; 섹션을 참조하십시오.
 
 * 프로젝트 설정에서 이 프로젝트에 대해 승인할 시간 필요 옵션을 선택한 경우 프로젝트 소유자는 기록된 시간을 승인해야 합니다.\
   자세한 내용은 [프로젝트 승인 시간 필요](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)를 참조하십시오.
