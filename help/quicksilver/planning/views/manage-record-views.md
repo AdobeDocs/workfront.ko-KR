@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1375'
 ht-degree: 2%
 
 ---
@@ -115,7 +117,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -177,7 +180,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 </td>
   </tr>
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## 레코드 보기 작업 시 고려 사항
 
@@ -281,6 +285,16 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    ![보기 상자 만들기](assets/create-view-box.png)
 
 1. (선택 사항) 기존 보기를 편집하려면 현재 보기 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 **검색** 필드에 보기 이름을 입력하고 키보드에서 Enter 키를 누릅니다.
+
+   >[!TIP]
+   >
+   ><span class="preview">다음 키보드 조합을 사용하여 Workfront Planning 페이지에서 글로벌 검색 상자를 열고 보기를 검색할 수 있습니다.</span>
+   >
+   >* <span class="preview">Windows용 CTRL+K</span>
+   >* Mac용 <span class="preview">⌘+K</span>
+   >
+   >![글로벌 검색 상자](assets/global-search-box.png)
+
 1. (선택 사항) 보기 드롭다운 메뉴에서 원하는 순서로 보기를 드래그하여 놓습니다.
 
    ![레코드 형식 목록의 보기 형식 드롭다운](assets/view-types-drop-down-from-record-type-list.png)

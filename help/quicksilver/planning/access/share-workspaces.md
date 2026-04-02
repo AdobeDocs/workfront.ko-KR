@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1064'
 ht-degree: 2%
 
 ---
@@ -24,7 +26,8 @@ ht-degree: 2%
 Adobe Workfront Planning에서 작업할 때 공동 작업을 보장하기 위해 다른 사용자와 작업 영역을 공유할 수 있습니다.
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 >[!NOTE]
 >
@@ -67,7 +70,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -124,7 +128,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 작업 공간 공유에 대한 고려 사항
 
@@ -174,6 +179,10 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >* 팀, 그룹, 회사 및 작업 역할 외에도 Adobe Admin Console에 추가된 사용자와만 공유할 수 있습니다. Workfront 전용 사용자는 추가할 수 없습니다. 자세한 내용은 [Adobe Admin Console에서 사용자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
    >
    >* 사용자와 작업 영역을 공유하면 기본 작업 역할 <span class="preview">과(와) 전자 메일</span>도 필드에 표시됩니다. 사용자 이메일을 보려면 액세스 수준의 사용자 개체에 대해 연락처 정보 보기 설정을 활성화해야 합니다.
+
+1. <span class="preview">(선택 사항) 그룹, 팀, 역할 또는 회사와 공유할 때 엔터티 이름 위로 마우스를 가져간 후 오른쪽 방향 화살표를 클릭하여 권한을 받는 사용자 목록을 확장합니다. </span>
+
+   ![그룹과 작업 영역 공유](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
 1. 드롭다운 메뉴에서 다음 권한 수준 중 하나를 선택합니다.
    * 보기

@@ -6,14 +6,19 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '301'
+ht-degree: 8%
 
 ---
 
 # 우선 순위 작업 목록 열 사용자 정의
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 우선 순위의 작업 목록에서 열을 사용자 정의하여 작업 방식을 지원할 수 있습니다.
 
@@ -25,7 +30,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +40,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
@@ -65,7 +70,7 @@ ht-degree: 0%
 
 {{step1-to-priorities}}
 
-1. 화면 왼쪽에서 **열**&#x200B;을 클릭합니다.
+1. 화면 왼쪽에서 **열**을 클릭합니다.
    ![열](assets/columns-new.png)
 1. 작업 목록에서 열을 활성화 또는 비활성화하려면 전환을 사용하십시오.
 
@@ -80,3 +85,22 @@ ht-degree: 0%
 >[!NOTE]
 >
 >이름 열은 고정되어 이동할 수 없습니다.
+
+<div class="preview">
+
+### 우선 순위 목록에서 행 높이 변경
+
+{{step1-to-priorities}}
+
+1. **행 높이** 아이콘을 클릭합니다.
+
+   행의 세로 길이가 업데이트됩니다. 다음 선택 사항 중 하나를 선택합니다.
+
+   * 짧음
+   * 표준. 이것이 기본 선택입니다.
+   * 보통
+   * 높음
+
+   목록이 즉시 업데이트됩니다.
+
+</div>

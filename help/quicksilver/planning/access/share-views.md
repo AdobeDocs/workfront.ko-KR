@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '2016'
 ht-degree: 1%
 
 ---
@@ -37,7 +39,8 @@ ht-degree: 1%
 
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 ## 액세스 요구 사항
 
@@ -62,7 +65,7 @@ This article describes how you can share a view with others. For information abo
 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
-   <td><p>임의</p> 
+   <td><p>Any</p> 
   </td> 
   </tr> 
   <tr> 
@@ -91,7 +94,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -149,7 +153,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 보기 공유 시 고려 사항
 
@@ -214,12 +219,15 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    >
    >* 사용자와 보기를 공유할 때 기본 작업 역할 <span class="preview">과(와) 이메일</span>도 필드에 표시됩니다. 사용자 이메일을 보려면 액세스 수준의 사용자 개체에 대해 연락처 정보 보기 설정을 활성화해야 합니다.
 
-
    * **작업 영역의 모든 사용자가 볼 수 있습니다**: 작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자가 보기에 액세스할 수 있습니다.
 
 1. **이 보기에 대한 액세스 권한 부여** 필드에서 사용자, 그룹, 팀, 회사 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
    ![그룹과 보기 공유](assets/sharing-a-view-ui-with-groups.png)
+
+1. <span class="preview">(선택 사항) 그룹, 팀, 역할 또는 회사와 공유할 때 엔터티 이름 위로 마우스를 가져간 후 오른쪽 방향 화살표를 클릭하여 권한을 받는 사용자 목록을 확장합니다. </span>
+
+   ![팀과 보기 공유](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
 1. 드롭다운 메뉴에서 다음 권한 수준 중 하나를 선택합니다.
    * 보기
@@ -294,8 +302,16 @@ Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수
    >
    >사람 또는 전역 아이콘이 없는 보기는 사용자가 만든 보기이며 다른 사용자와 공유되지 않습니다. 공유되지 않은 보기는 사용자에게만 표시됩니다.
 
-
 1. (선택 사항) 복사한 링크를 이메일, 채팅 메시지, 문서 또는 Workfront 댓글에 붙여넣어 다른 사용자와 공유할 수 있습니다.
+
+   <div class="preview">
+
+   다른 사용자가 공개 보기를 열면 헤더에 다음과 같은 보기 정보가 표시됩니다.
+
+   * 보기 이름 및 아이콘
+   * 보기에 표시되는 레코드 유형의 이름
+
+   </div>
 
 ## 보기에 링크 복사
 
