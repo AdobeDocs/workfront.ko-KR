@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
+source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,44 @@ ht-degree: 0%
 
 2026년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
 
-## Workfront 및 Frame.io에서 제공하는 통합 검토 및 승인
+## AI 공동 작업자를 지원하기 위해 GenStudio Foundations 프로비저닝 활성화됨
 
+>[!NOTE]
+>
+>미리 보기: 2026년 3월 31일
+>프로덕션 빠른 릴리스: 2026년 3월 31일
+>모두를 위한 프로덕션: 2026년 3월 31일
+
+2026년 3월 31일에 모든 Workfront 고객이 GenStudio Foundation에 대해 프로비저닝되었으며, Admin Console 시스템 관리자는 이 추가 기능을 알리는 이메일을 받게 됩니다. 이 제품은 Workfront 고객이 AI 공동 작업자 릴리스에 필요한 경우 브랜드에 Workfront 고객에 대한 액세스 권한을 부여할 수 있도록 만 제공됩니다. 제품 자체는 브랜드 를 위한 액세스 메커니즘일 뿐이며 GenStudio Foundation 제품에서 사용할 수 있는 추가 기능은 없습니다.
+
+고객은 이 신제품에 대해 요금을 받지 않습니다.
+
+## 내 승인 위젯 업데이트
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+홈의 내 승인 위젯에 다음과 같은 개선 사항이 추가되었습니다.
+
+* 승인 목록을 가장 오래된 먼저 또는 가장 최신 순으로 정렬
+* 위젯을 전체 화면으로 확장
+
+자세한 내용은 [내 승인 위젯으로 승인 관리](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)를 참조하십시오.
+
+## Workfront 및 Frame.io에서 제공하는 통합 검토 및 승인
 
 >[!IMPORTANT]
 >
 >이 새로운 기능은 신규 고객 및 갱신 시 기존 고객에게 제공됩니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 3월 12일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
 
 
 간소화된 검토 및 승인 경험인 Workfront 및 Frame.io에서 제공하는 통합 검토 및 승인을 소개하게 되어 기쁘게 생각합니다.

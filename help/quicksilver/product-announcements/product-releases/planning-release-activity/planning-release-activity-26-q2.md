@@ -7,9 +7,11 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -21,6 +23,138 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+
+## 목록 보기의 행 높이를 늘리는 새로운 기능
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+목록 보기에서 행 높이를 조정하는 새 설정을 추가했습니다.
+
+자세한 내용은 목록 보기 관리(help/quicksilver/planning/views/manage-the-list-view.md)를 참조하십시오.
+
+자세한 내용은 [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)를 참조하십시오.
+
+## 공개적으로 공유된 보기에 레코드 유형 이름 및 보기 아이콘 추가
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+레코드 종류에 대한 공개 공유 링크를 열 때 수신자가 수신한 보기를 항상 이해할 수 있도록 보기 아이콘 및 보기 이름 외에도 레코드 종류의 이름을 공유 보기 페이지에 추가했습니다.
+
+자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하세요.
+
+## 요청 양식 목록에 새 그룹화 기능 추가됨
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+정보를 보다 효율적으로 구성할 수 있도록 레코드 유형의 요청 양식 페이지에서 항목을 그룹화하는 기능을 추가했습니다.
+
+이 기능이 향상되기 전에는 이 영역에 이 기능이 없었습니다.
+
+자세한 내용은 [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)를 참조하십시오.
+
+## 공유 엔티티 목록을 확장하여 사용자 표시
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+이제 그룹, 팀, 회사 및 역할을 확장하여 작업 공간이나 보기를 공유할 때 멤버를 볼 수 있습니다. 이 기능이 향상되기 전에는 레코드 유형을 공유할 때만 이러한 개체에 대해 멤버 자격 목록을 사용할 수 있었습니다.
+
+자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오.
+
+## Workfront Planning 구현을 위한 다중 작업 공간, 모범 사례 템플릿
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+조직에서 Workfront Planning의 구현을 간소화하는 데 도움이 되는 템플릿 패키지를 소개합니다. 모범 사례 프레임워크 템플릿을 설치하면 Workfront에서 전략적 계획 수립을 시작하는 데 필요한 모든 정보가 포함된 최대 6개의 작업 영역을 만들 수 있습니다.
+
+다중 작업 영역 템플릿에는 사용자가 빌드한 모든 사용자 지정 작업 영역에서 사용할 수 있는 코어 레코드 유형을 설정하는 전역 템플릿이 들어 있습니다. 또한 템플릿에는 예로 사용할 수 있고 서로 및 Workfront의 다른 오브젝트와 상호 연결되는 5개의 작업 공간이 더 포함되어 있습니다.
+
+자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
+
+>[!NOTE]
+>
+> 이 개선 사항은 Prime 이상 패키지를 보유한 고객에게만 제공됩니다.
+
+## Workfront Planning 페이지에서 Workfront Planning 객체에 대한 전역 검색
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+이제 모든 Planning 페이지에서 다음 주요 조합을 사용하여 Workfront Planning의 모든 페이지에서 작업 공간, 레코드 유형 또는 보기를 검색할 수 있습니다.
+
+* Windows의 경우 CTRL+K
+* Mac의 경우 ⌘+K
+
+Planning 랜딩 페이지에 추가된 새 검색 상자에서 작업 공간, 레코드 유형 또는 보기를 검색할 수도 있습니다.
+
+자세한 내용은 [작업 영역 편집](/help/quicksilver/planning/architecture/edit-workspaces.md)을 참조하십시오.
+
+## 레코드의 연결된 페이지에 있는 프로젝트 목록에 추가 조건부 서식 적용
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+이제 레코드의 연결된 페이지에 있는 프로젝트 목록에 추가 조건부 서식을 적용할 수 있습니다.
+
+새로운 조건부 서식 지정 기능에는 다음이 포함됩니다.
+
+* 텍스트에 색상 추가
+
+* 셀에서 텍스트를 굵게 또는 기울임체로 설정
+
+* 전체 행에 조건부 서식을 적용하는 기능
+
+이 기능이 향상되기 전에는 셀의 배경에 색상을 추가하는 기능만 있었습니다.
+
+자세한 내용은 [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)를 참조하십시오.
+
+## 목록 보기에 필터에 대해 개인화된 이름 추가됨
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+목록 보기에서 팀, 그룹, 회사 및 역할 필터에 대해 다음과 같이 개인화된 이름을 추가했습니다.
+
+* 내 홈 팀, 내 팀
+
+* 내 홈 그룹, 내 그룹
+
+* 내 기본 역할, 내 역할
+
+* 내 회사
+
+필터 옵션을 표시하려면 필드가 보기에 표시된 개체에 있어야 합니다.
+
+자세한 내용은 [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)를 참조하십시오.
 
 ## 이동 경로 재디자인
 

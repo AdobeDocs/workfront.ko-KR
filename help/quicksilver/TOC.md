@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '13813'
+source-wordcount: '13913'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 2%
          * [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [2026년 2분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
          * [2026년 2분기 문서 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
+         * [2026년 2분기 엔터프라이즈 운영 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md)
          * [2026년 2분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
          * [2026년 2분기 보고 개선 사항](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
          * [2026년 2분기 개선 요청](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
@@ -463,9 +464,8 @@ ht-degree: 2%
          * [조직의 빠른 릴리스 활성화 또는 비활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [조직을 위한 Adobe 엔터프라이즈 스토리지 활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
          * [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
-         * [위치 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
-         * [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
-         * [템플릿에서 비율 카드 가져오기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/import-rate-cards.md)
+         * [사용자 정의 현지화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
+         * [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
       * 일정 및 타임시트 환경 설정 구성 {#configure-timesheets-schedules}
          * [일정 및 타임시트 환경 설정 구성](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [일정 개요](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -561,7 +561,9 @@ ht-degree: 2%
          * [필터, 보기, 그룹화에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
          * [시나리오 플래너에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [리소스 관리에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+         * [등급 카드에 대한 액세스 권한 부여](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
          * [Workfront 목표에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+         * [브랜드 권한에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
       * Workfront에서 SSO(Single Sign-On) {#sso}
          * [SSO(Single Sign-On): 문서 색인](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [SSO(Single Sign-On) 개요](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
@@ -588,6 +590,7 @@ ht-degree: 2%
          * [메인 메뉴 사용자 정의](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
          * [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [왼쪽 패널 사용자 정의](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+         * [레이아웃 템플릿을 사용하여 기타 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
          * [세부 사항 보기 사용자 지정](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [레이아웃 템플릿을 사용하여 요약 패널 사용자 정의](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [새 홈 맞춤화](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
@@ -611,6 +614,7 @@ ht-degree: 2%
             * [양식에 계산된 필드 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [사용자 정의 양식 및 필드에 논리 규칙 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
             * [사용자 정의 양식의 고급 논리 예](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
+            * [사용자 정의 필드에서 재무 데이터에 대한 액세스 제한](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)
             * [사용자 정의 양식의 외부 조회 필드 예](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [양식 구성 및 미리 보기](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
          * 사용자 정의 양식 관리 {#manage-custom-forms}
@@ -783,6 +787,15 @@ ht-degree: 2%
          * [그룹 프로젝트 템플릿 관리](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
          * [그룹의 삭제된 항목 관리](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
          * [그룹의 복원된 항목 관리](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
+   * 기업 운영 관리 {#manage-enterprise-operations}
+      * [엔터프라이즈 작업 관리: 문서 색인](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
+      * [엔터프라이즈 운영 기능 개요](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-capabilities-overview.md)
+      * [위치 구성](/help/quicksilver/administration-and-setup/manage-enterprise-operations/configure-locations.md)
+      * [비율 속성 정의](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)
+      * [등급 카드 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
+      * [템플릿에서 비율 카드 가져오기](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
+      * [프로젝트에 대한 푸시 비율 변경](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
+      * [요금 카드 공유](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
    * 통합 구성 {#configure-integrations}
       * [통합 구성](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront 통합](administration-and-setup/configure-integrations/workfront-integrations-1.md)
@@ -879,7 +892,7 @@ ht-degree: 2%
       * [우선 순위: 문서 색인](workfront-basics/priorities/priorities-toc.md)
       * [우선 순위 시작](workfront-basics/priorities/get-started-with-priorities.md)
       * [우선 순위에서 프로젝트 및 작업 항목 세부 정보 보기](workfront-basics/priorities/view-task-project-details.md)
-      * [우선 순위에서 작업 필터링 및 그룹화](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+      * [우선 순위를 사용하여 작업 필터링, 그룹화 및 정렬](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [작업 목록 열 사용자 정의](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [중요한 작업 항목의 우선 순위 지정](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
       * [우선 순위에서 작업 및 문제 만들기](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
@@ -991,7 +1004,7 @@ ht-degree: 2%
          * [Adobe Workfront에서 로그아웃](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
          * [향상된 인증을 통해 사용자 암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
          * [이메일 초대 수신 및 Adobe Workfront 암호 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-         * [&#x200B; [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
+         * [ [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * 모바일 앱 {#mobile-apps}
       * [모바일 앱](workfront-basics/mobile-apps/mobile-apps.md)
@@ -1224,6 +1237,7 @@ ht-degree: 2%
          * [템플릿을 사용하여 프로젝트 만들기](manage-work/projects/create-projects/create-project-from-template.md)
          * [Microsoft 프로젝트에서 프로젝트 가져오기](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [프로젝트 기준선 만들기](manage-work/projects/create-projects/create-baselines.md)
+         * [프로젝트 스냅샷 생성 및 보기](manage-work/projects/create-projects/create-snapshots.md)
       * 프로젝트에 대한 작업 업데이트 {#update-work-on-a-project}
          * [프로젝트 작업 업데이트: 문서 색인](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [그룹에 연결된 작업에 상태 적용](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1298,13 +1312,18 @@ ht-degree: 2%
          * [프로젝트 재무 영역에서 정보 관리](manage-work/projects/project-finances/manage-project-finance-area.md)
          * [프로젝트 통화 변경](manage-work/projects/project-finances/change-project-currency.md)
          * [비용 추적](manage-work/projects/project-finances/track-costs.md)
+         * [프로젝트 수준에서 사용자 비용 비율 재정의](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
          * [프로젝트 경비 관리](manage-work/projects/project-finances/manage-project-expenses.md)
+         * [수익 및 원가 계층 개요](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
          * [청구 및 수익 개요](manage-work/projects/project-finances/billing-and-revenue-overview.md)
          * [청구 기록 만들기](manage-work/projects/project-finances/create-billing-records.md)
          * [프로젝트 수준 청구 요율을 회사 수준 청구 요율로 재정의](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
-         * [작업 역할 청구 요금 재정의 및 프로젝트의 수익 계산에 대한 개요](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+         * [프로젝트의 청구 요율 오버라이드 및 수익 계산에 대한 개요](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [프로젝트 수준에서 작업 역할 청구 요금 재정의](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [프로젝트 수준에서 사용자 청구 요금 재정의](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
          * [프로젝트에 요금 카드 첨부](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+         * [청구에 대한 작업 역할 설정](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+         * [초과 근무 비율 정의](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)
          * [프로젝트 계획 이익 개요](manage-work/projects/project-finances/project-planned-benefit.md)
          * [PIM(성과 지표 메서드) 설정](manage-work/projects/project-finances/set-pim.md)
          * [투자 수익률(ROI) 계산](manage-work/projects/project-finances/calculate-roi.md)
@@ -1860,23 +1879,22 @@ ht-degree: 2%
       * [통합 문서 승인: 문서 색인](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [문서 승인에 사용 가능한 기능](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [문서 의사 결정 상태 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Workfront AI 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+      * [Workfront 콘텐츠 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * [Adobe 엔터프라이즈 스토리지 모델에 대한 개체 권한 및 액세스 수준 개요](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
       * 자산 및 문서 승인 설정 및 관리 {#manage-asset-review-and-approval}
          * [통합 승인 설정 및 관리: 문서 색인](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-         * [AI 검토자 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
-         * [AI 검토자를 위한 브랜드 설정](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
-         * [문서 승인 워크플로 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [문서 승인 워크플로에 추가 승인자 또는 검토자 추가](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [문서 승인 워크플로에서 승인자 또는 검토자 제거](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [문서에 대한 승인 워크플로 템플릿 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [콘텐츠 검토자를 위한 브랜드 만들기 및 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+         * [문서 검토 또는 승인 요청 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [에셋 또는 문서에 추가 검토자 또는 승인자 추가](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [에셋 또는 문서에서 승인자 또는 검토자 제거](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [자산 및 문서에 대한 승인 템플릿 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [통합 승인 및 증명 함께 사용](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [새 문서 버전 업로드 및 승인 요청](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
          * [검토 및 승인을 위한 보고서 대시보드 만들기](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * 에셋 및 문서 검토 및 승인 {#review-and-approve-documents}
          * [문서 검토 및 승인: 문서 색인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [AI 검토자 점수 및 피드백 보기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+         * [콘텐츠 검토자 점수 및 피드백 보기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [문서 승인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
          * [Frame.io 뷰어에서 문서 검토 및 승인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
@@ -2234,7 +2252,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2242,8 +2260,8 @@ ht-degree: 2%
          * [XD 아트보드를 Workfront에 문서로 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [&#x200B; [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [&#x200B; [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [ [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator 및 InDesign용 Workfront 확장 {#workfront-for-illustrator-indesign}
          * [Illustrator 및 InDesign용 Workfront 확장 사용](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Adobe Workfront for Jira {#workfront-for-jira}
