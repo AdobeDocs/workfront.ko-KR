@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 * [우선 순위 시작](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [우선 순위에서 프로젝트 및 작업 항목 세부 정보 보기](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
-* [우선 순위에서 작업 필터링 및 그룹화](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+* [우선 순위를 사용하여 작업 필터링, 그룹화 및 정렬](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [우선 순위 작업 목록 열 사용자 정의](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
 * [중요한 작업 항목의 우선 순위 지정](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
 * [우선 순위에서 작업 및 문제 만들기](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)

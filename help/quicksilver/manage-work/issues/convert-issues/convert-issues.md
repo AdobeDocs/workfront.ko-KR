@@ -8,10 +8,12 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 2%
+source-wordcount: '1541'
+ht-degree: 3%
 
 ---
 
@@ -164,7 +166,8 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
@@ -256,3 +259,12 @@ ht-degree: 2%
 >[!CAUTION]
 >
 >문제의 기본 담당자가 변경되거나 문제가 전환된 후 프로젝트 또는 작업에서 문제가 연결 해제되는 경우 전환된 문제 작성자 이름이 업데이트되지 않고 문제가 전환된 시점의 문제의 원래 기본 담당자가 표시됩니다.
+
+## 요청 목록에서 원래 문제 및 변환된 오브젝트 보기
+
+홈의 요청 영역 및 내 요청 위젯에서 원래 문제 및 변환된 오브젝트를 볼 수 있습니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* [제출된 요청 보기](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

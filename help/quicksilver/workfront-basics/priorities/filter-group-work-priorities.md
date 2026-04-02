@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: 우선 순위를 사용하여 작업 필터링 및 그룹화
+title: 우선 순위를 사용하여 작업 필터링, 그룹화 및 정렬
 description: 필터를 사용하여 원하는 작업을 찾은 다음 그룹화를 적용하여 체계적으로 관리할 수 있습니다.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 4%
+source-wordcount: '653'
+ht-degree: 7%
 
 ---
 
-# 우선 순위를 사용하여 작업 필터링 및 그룹화
+# 우선 순위를 사용하여 작업 필터링, 그룹화 및 정렬
 
 필터를 사용하여 원하는 작업을 찾은 다음 그룹화를 적용하여 체계적으로 관리할 수 있습니다.
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -33,7 +33,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 

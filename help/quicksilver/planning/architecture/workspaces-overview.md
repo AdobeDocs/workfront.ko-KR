@@ -6,14 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
 # 작업 공간 개요
+
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -30,8 +34,11 @@ ht-degree: 0%
 
    * 처음부터
    * 템플릿 사용. 템플릿에는 미리 구성된 레코드 종류 수와 해당 필드가 포함되어 있습니다.
+   * AI 기반 Planning Designer 사용. 이 기능은 현재 Beta에 있습니다.
+   * <span class="preview">다중 작업 영역 템플릿 번들을 사용 중입니다.</span>
 
   자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
+
 * 작업 공간은 조직 단위(팀, 그룹, 부서 또는 부서)가 작동하는 프레임워크입니다. 필드와 연결할 수 없습니다. 작업 영역 내의 레코드 유형만 필드와 연결할 수 있습니다.
 
   자세한 내용은 [레코드 종류 개요](/help/quicksilver/planning/architecture/overview-of-record-types.md)를 참조하세요.

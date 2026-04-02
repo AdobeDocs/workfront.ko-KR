@@ -6,9 +6,11 @@ description: 새 요청을 입력할 때 Workfront에서 제안하는 사용 가
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '855'
 ht-degree: 2%
 
 ---
@@ -58,7 +60,9 @@ ht-degree: 2%
 
 ## 초안에서 요청 만들기
 
-초안에서 요청을 만드는 절차는 새 요청 경험과 이전 경험 간에 다릅니다.
+Workfront 및 Planning 요청 모두에 대해 초안에서 요청을 생성할 수 있습니다.
+
+초안에서 요청을 만드는 것은 새 요청 경험과 기존 경험 간에 다릅니다.
 
 * [새 요청 경험의 초안에서 요청 만들기](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [기존 요청 환경의 초안에서 요청 만들기](#create-requests-from-drafts-in-the-legacy-requesting-experience)
@@ -88,9 +92,14 @@ ht-degree: 2%
 
 1. 요청에 대한 정보를 완료한 후 **제출**&#x200B;을 클릭합니다.
 
-   요청을 제출하면 초안이 삭제되고 복원할 수 없습니다.
+   요청을 제출하면 초안이 새 요청으로 대체되며 초안으로 복원할 수 없습니다.
 
 ### 기존 요청 환경의 초안에서 요청 만들기
+
+>[!NOTE]
+>
+>기존 경험을 사용하여 Planning 요청 초안에서 요청을 만들 수 없습니다.
+
 
 {{step1-to-requests}}
 

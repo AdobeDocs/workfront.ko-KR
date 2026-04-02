@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3602'
 ht-degree: 1%
 
 ---
@@ -105,7 +107,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 ### 요청 양식 만들기 시작
 
-<!--span class="preview">, or from the Requests area of Workfront.</span>--> 양식과 연결된 레코드 형식에서 요청 양식을 만들 수 있습니다.
+<!--<span class="preview"> or from the Requests area of Workfront</span>--> 양식과 연결된 레코드 형식에서 요청 양식을 만들 수 있습니다.
 
 #### 레코드 유형에서 요청 양식 만들기
 
@@ -160,8 +162,6 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
    The request form for the selected record type opens in the Form tab.
 1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
-
-
 
 </div>
 
@@ -273,7 +273,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
 
 <div class="preview">
 
@@ -347,7 +347,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
 
 </div>
 
@@ -414,7 +414,19 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. 페이지 헤더의 레코드 종류 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **요청 양식 관리**&#x200B;를 클릭합니다.
 
-   레코드 유형과 연관된 모든 요청 양식이 테이블 보기에 표시됩니다.
+   **요청 양식** 페이지가 열리고 레코드 형식과 관련된 모든 요청 양식이 표 보기에 표시됩니다.
+1. (선택 사항) **요청 양식** 페이지에서 다음 보기 요소를 업데이트하여 테이블에 정보가 표시되는 방식을 변경합니다.
+
+   * 열
+
+   <!--
+   <div class="preview">
+   * Grouping <!-ensure they will change the label by Prod->
+   * Row height
+   </div>
+   -->
+
+   자세한 내용은 [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)를 참조하십시오.
 
 1. (선택 사항) 테이블 보기에서 요청 양식 이름 위로 마우스를 가져간 후 양식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭하고 다음 중 하나를 클릭합니다.
 
@@ -423,6 +435,8 @@ For information on creating automations in other areas of Workfront Planning, se
    * **공유**: 양식에 액세스할 수 있는 사용자를 수정하려면 이 항목을 클릭하십시오.
    * **링크 복사**: 양식을 열지 않고 요청 양식의 링크를 빠르게 복사하려면 이 링크를 클릭하십시오.
    * **삭제**: 양식을 삭제하려면 이 항목을 클릭하십시오. 양식을 사용하여 추가된 모든 요청 및 레코드는 삭제되지 않습니다. 양식을 복구할 수 없습니다.
+
+   <!--update screen shot at preview:-->
 
    ![요청 양식 목록의 요청 양식에 대한 추가 메뉴](assets/more-menu-on-request-form-from-request-forms-list.png)
 

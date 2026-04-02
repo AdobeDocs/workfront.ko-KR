@@ -6,9 +6,11 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1615'
 ht-degree: 3%
 
 ---
@@ -28,7 +30,9 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>Any </p> </td> 
+   <td> <p>모든 Workfront 또는 워크플로우 패키지</p>
+
+<p>Planning 요청을 복사하고 제출할 모든 Workfront Planning 패키지 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -44,10 +48,12 @@ ht-degree: 3%
    <td role="rowheader">개체 권한</td> 
    <td><p>요청 대기열에 요청을 추가하는 액세스 권한</p> <p>기존 요청에 대한 이상의 권한 보기</p> <p>요청 대기열 설정에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>를 참조하십시오. </p> </td> 
   </tr>
+  <!--
   <tr> 
-   <td role="rowheader"> 제품</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Planning 요청 또는 요청 양식을 보려면 Adobe Workfront Planning이 있어야 합니다.</td> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -58,6 +64,11 @@ ht-degree: 3%
 ## 전제 조건
 
 귀하 또는 귀하 조직의 누군가가 이전에 제출한 요청을 복사하여 다시 제출할 수 있어야 합니다. 요청이 다른 사용자에게 속한 경우 새 요청으로 복사하고 제출하려면 보기 액세스 권한이 있어야 합니다.
+
+다음 요청 유형 중 하나를 복사하여 다시 제출할 수 있습니다.
+
+* Workfront 요청, 요청 큐에 제출됨
+* 회사에서 Planning 패키지를 구입한 경우 Planning 요청 양식에 Workfront Planning 요청이 제출되었습니다.
 
 ## 요청을 새 요청으로 복사 및 제출하는 것에 대한 고려 사항
 
@@ -92,7 +103,51 @@ ht-degree: 3%
   >
   >복사된 요청이 해결 중 오브젝트에 연결되어 있지 않습니다.
 
+## 새 요청 경험에서 요청 복사 및 제출
+
+Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사하고 제출할 수 있습니다.
+
+1. 다음 중 하나를 수행하십시오.
+
+   {{step1-to-requests}}
+
+   1. **Home**&#x200B;에서 **내 요청** 위젯에 액세스하려면:
+
+   {{step1-to-home}}
+
+   1. **내 요청** 위젯을 찾습니다.
+
+      내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.
+
+1. 홈의 **요청** 목록 또는 **내 요청** 위젯에서 복사할 요청을 마우스로 가리킨 다음 이름 옆에 있는 **자세히** 메뉴를 클릭합니다.
+
+   ![추가 메뉴](assets/more-menu.png)
+
+1. **복사** 클릭
+
+   또는
+
+   선택한 요청을 마우스 오른쪽 단추로 클릭한 다음 **복사**&#x200B;를 클릭합니다.
+
+   >[!TIP]
+   >
+   >문제를 만들 수 있는 액세스 권한이 없는 경우 관리자가 요청 만들기를 제한했다는 경고가 표시됩니다.
+
+1. (선택 사항) 복사된 요청에서 모든 정보를 업데이트합니다. 사용 가능한 필드는 요청에 사용된 요청 대기열 또는 요청 양식에 따라 다릅니다.
+
+   복사된 요청에서 필드 값을 입력하거나 변경하면 초안으로 저장됩니다.
+
+1. **제출을 클릭합니다**.
+
+   복사된 요청이 새 요청으로 제출됩니다.
+
+   원래 요청에서 해결 중인 오브젝트는 복사되지 않습니다.
+
+   Planning 요청을 복사하고 재실행하면 최초 요청의 양식과 연관된 레코드 유형에 대해 다른 레코드가 생성됩니다.
+
 ## 기존 요청 경험에서 요청 복사 및 제출
+
+회사에서 Workfront Planning 패키지를 구입한 경우 기존 요청 경험에서 Planning 요청을 복사하여 제출할 수 없습니다.
 
 {{step1-to-requests}}
 
@@ -222,42 +277,6 @@ ht-degree: 3%
 
    복사된 요청이 지정한 요청 대기열에 새 요청으로 제출됩니다.
 
-## 새 요청 경험에서 요청 복사 및 제출
 
-Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사하고 제출할 수 있습니다.
-
-1. 다음 중 하나를 수행하십시오.
-
-   {{step1-to-requests}}
-
-   1. **Home**&#x200B;에서 **내 요청** 위젯에 액세스하려면:
-
-   {{step1-to-home}}
-
-   1. **내 요청** 위젯을 찾습니다.
-
-      내 요청 위젯에 대한 자세한 내용은 [내 요청 위젯 사용](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)을 참조하십시오.
-
-1. 홈의 **요청** 목록 또는 **내 요청** 위젯에서 복사할 요청을 마우스로 가리킨 다음 이름 옆에 있는 **자세히** 메뉴를 클릭합니다.
-
-   ![추가 메뉴](assets/more-menu.png)
-
-1. **복사** 클릭
-
-   또는
-
-   선택한 요청을 마우스 오른쪽 단추로 클릭한 다음 **복사**&#x200B;를 클릭합니다.
-
-   >[!TIP]
-   >
-   >문제를 만들 수 있는 액세스 권한이 없는 경우 관리자가 요청 만들기를 제한했다는 경고가 표시됩니다.
-
-1. (선택 사항) 복사된 요청에서 모든 정보를 업데이트합니다. 사용 가능한 필드는 요청에 사용된 요청 대기열 또는 요청 양식에 따라 다릅니다.
-
-   복사된 요청에서 필드 값을 입력하거나 변경하면 초안으로 저장됩니다.
-
-1. **제출을 클릭합니다**.
-
-   복사된 요청이 새 요청으로 제출됩니다.
 
 

@@ -6,9 +6,11 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '2961'
+source-wordcount: '2978'
 ht-degree: 0%
 
 ---
@@ -69,7 +71,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -122,7 +125,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
-  </tr> -->
+  </tr>
+  -->
 
 ## 레코드 편집에 대한 고려 사항
 
@@ -142,7 +146,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    * 시스템 필드(생성자, 생성자, 마지막 수정자, 마지막 수정 날짜, 승인자, 승인자, <span class="preview">레코드 ID</span>)
 * 표시되는 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보는 해당 레코드가 연결된 모든 작업 영역에서 연결된 레코드에 반영됩니다.
 * 레코드를 일괄적으로 편집할 수 없습니다. <!--this will probably change-->
-* URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .
+* URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다.
 * 각 레코드에 표지 이미지를 추가할 수 있습니다. 이 이미지는 각 레코드에 대해 고유하며, 동시에 모든 레코드에 적용되지 않습니다. 자세한 내용은 [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)를 참조하십시오.
 * 레코드의 세부 정보 페이지에서 필드의 순서를 편집할 수 있습니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
 * 타임라인 및 달력 보기에서 레코드의 크기를 조정하거나 위치를 변경하여 레코드의 시작 및 종료 날짜를 편집할 수 있습니다.
@@ -187,6 +191,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. (조건부) 테이블 보기를 만들려면 표 보기의 탭을 클릭하거나 **+ 보기**&#x200B;를 클릭합니다. 마지막으로 액세스할 때 다른 유형의 보기에서 레코드 유형을 보지 않은 경우 테이블 보기는 기본 보기여야 합니다.
 
    선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
+1. (선택 사항) 검색 상자를 클릭하고 키워드를 추가하여 편집할 레코드를 찾습니다.
+
 1. 레코드 행 내부를 클릭하여 인라인 레코드에 대한 정보 편집을 시작합니다.
 
    ![서식 있는 표 보기로 레코드 단락 필드 편집](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -248,7 +254,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 1. (선택 사항) 다음 키보드 단축키를 사용하여 레코드 정보 편집 또는 복사 및 붙여넣기를 실행 취소하거나 재실행할 수 있습니다.
 
    * 변경 내용을 실행 취소하려면 CTRL + Z(⌘ + Z, Mac)
-   * Mac 변경 내용을 다시 실행하려면 CTRL + Shift + Z(⌘ + Shift + Z)
+   * 변경 내용을 다시 실행하려면 CTRL + Shift + Z(⌘ + Shift + Z)
 
    >[!TIP]
    >

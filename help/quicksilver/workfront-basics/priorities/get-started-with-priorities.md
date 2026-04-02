@@ -6,9 +6,11 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1018'
 ht-degree: 3%
 
 ---
@@ -103,7 +105,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 * 상태
 * 프로젝트
 
-자세한 내용은 [우선 순위에서 작업 필터링 및 그룹화](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)를 참조하십시오.
+자세한 내용은 [우선 순위를 사용하여 작업 필터링, 그룹화 및 정렬](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)을 참조하세요.
 
 ### 내 포커스를 사용하여 중요한 작업 항목의 우선 순위 지정
 
@@ -210,4 +212,5 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 <!--
 ## Considerations
 
-* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
+-->

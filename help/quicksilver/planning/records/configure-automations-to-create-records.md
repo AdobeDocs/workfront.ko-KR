@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1790'
 ht-degree: 3%
 
 ---
@@ -59,6 +61,7 @@ Workfront Planning의 레코드 유형 페이지에서 자동화를 구성하고
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td><p>표준</p>
+   <p>필드 값 변경에 따라 자동화를 구성할 수 있는 액세스 권한을 갖는 시스템 관리자</p>
    </td> 
   </tr> 
   <tr> 
@@ -74,7 +77,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -131,7 +135,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Workfront Planning에서 자동화 구성
 
@@ -151,7 +156,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    * **제목 없는 자동화**&#x200B;를 자동화 단추에 표시할 텍스트로 바꿉니다. 자동화를 사용하여 Workfront 개체 또는 Planning 레코드를 만들 때 이 단추를 클릭합니다.
    * **설명**: 자동화의 목적을 식별하려면 설명을 추가하십시오.
-1. **저장**&#x200B;을 클릭합니다.
+1. **저장**을 클릭합니다.
 자동화 세부 정보 페이지가 열립니다.
 
 1. 자동화의 세부 정보 페이지에서 **트리거** 섹션의 다음 옵션 중 하나를 선택하십시오.
