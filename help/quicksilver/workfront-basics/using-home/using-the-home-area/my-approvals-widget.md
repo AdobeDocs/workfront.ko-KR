@@ -5,14 +5,17 @@ title: 내 승인 위젯을 사용하여 승인 관리
 description: 내 승인 위젯에는 보류 중, 할당, 위임 및 제출된 모든 승인이 한 곳에 표시됩니다. 여기에서 승인을 필터링 및 구성하고 필요한 경우 결정을 내리고 승인을 위임할 수 있습니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 4981d9adb2cae53e30f13aa2a7aa6857befbf3ca
+exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
+source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 5%
+source-wordcount: '431'
+ht-degree: 8%
 
 ---
 
 # 내 승인 위젯을 사용하여 승인 관리
+
+{{highlighted-preview}}
 
 내 승인 위젯에는 보류 중, 할당, 위임 및 제출된 모든 승인이 한 곳에 표시됩니다. 여기에서 승인을 필터링 및 구성하고 필요한 경우 결정을 내리고 승인을 위임할 수 있습니다.
 
@@ -28,7 +31,7 @@ ht-degree: 5%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +39,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -70,9 +73,16 @@ ht-degree: 5%
    >작업 역할 또는 그룹에 할당된 승인이 홈에 표시되지 않습니다. 팀에 할당된 승인은 각 팀 구성원의 내 승인 위젯에 표시됩니다.
 
 
+1. <span class="preview">(조건부) **정렬** 드롭다운 메뉴를 클릭한 다음 **가장 최근 항목 먼저**&#x200B;를 선택하여 가장 최근에 추가된 승인을 확인합니다.</span>
+
+
+1. <span class="preview">(선택 사항) 전체 화면 아이콘 ![전체 화면 아이콘](assets/full-screen.png)을 클릭하여 전체 화면에서 내 승인 위젯을 엽니다.</span>
+
 1. 승인 결정을 내릴 품목을 선택합니다.
 
    ![내 승인 위젯](assets/my-approvals-widget.png)
+
+   <!--update screenshot after production release-->
 
 1. 오른쪽 패널에서 승인 결정을 내릴 때 사용할 수 있는 옵션 중 하나를 클릭합니다. 승인하는 항목의 유형에 따라 페이지의 오른쪽 상단에 다음 옵션이 표시됩니다.
 
