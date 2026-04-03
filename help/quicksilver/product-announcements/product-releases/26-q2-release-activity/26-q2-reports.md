@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
@@ -19,6 +19,22 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 2분기 릴리스의 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
+
+## 예약된 보고서 게재가 이제 링크 기반 이메일을 지원합니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 3일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+이제 Workfront에 예약된 보고서에 대한 새로운 링크 게재 유형이 포함됩니다. 이 옵션은 파일을 생성하여 첨부하는 대신 Workfront의 보고서에 대한 직접 링크가 포함된 이메일을 보내어 수신자가 애플리케이션에서 최신 데이터를 볼 수 있도록 합니다.
+
+링크 옵션은 이제 새로 생성된 예약된 보고서 게재 규칙의 기본 게재 유형이며 기존 파일 기반 형식(HTML, PDF, Excel 및 TSV)은 계속 사용할 수 있습니다.
+
+이 변경 사항으로 보고서 게재 이메일의 모양새도 업데이트했습니다.
+
+자세한 내용은 [자동 보고서 배달 예약](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)을 참조하세요.
 
 ## 캔버스 대시보드에서 특정 사용자로 보고서 실행
 
@@ -35,22 +51,6 @@ ht-degree: 0%
 이를 통해 Planning 작업 공간, 레코드 유형 또는 권한 부여 설정에 대한 액세스가 다른 경우에도 대시보드 뷰어 전체에서 보다 일관되고 안정적인 데이터를 얻을 수 있습니다.
 
 자세한 내용은 [캔버스 대시보드에 KPI 보고서 빌드](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [캔버스 대시보드에 차트 보고서 빌드](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) 또는 [캔버스 대시보드에 테이블 보고서 빌드](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)를 참조하십시오.
-
-## 예약된 보고서 게재가 이제 링크 기반 이메일을 지원합니다.
-
->[!NOTE]
->
->미리 보기: 2026년 4월 2일
->프로덕션 빠른 릴리스: 2026년 4월 15일
->모두를 위한 프로덕션: 2026년 4월 16일
-
-이제 Workfront에 예약된 보고서에 대한 새로운 링크 게재 유형이 포함됩니다. 이 옵션은 파일을 생성하여 첨부하는 대신 Workfront의 보고서에 대한 직접 링크가 포함된 이메일을 보내어 수신자가 애플리케이션에서 최신 데이터를 볼 수 있도록 합니다.
-
-링크 옵션은 이제 새로 생성된 예약된 보고서 게재 규칙의 기본 게재 유형이며 기존 파일 기반 형식(HTML, PDF, Excel 및 TSV)은 계속 사용할 수 있습니다.
-
-이 변경 사항으로 보고서 게재 이메일의 모양새도 업데이트했습니다.
-
-자세한 내용은 [자동 보고서 배달 예약](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)을 참조하세요.
 
 ## Data Connect 연결을 위한 새 인증 옵션
 
