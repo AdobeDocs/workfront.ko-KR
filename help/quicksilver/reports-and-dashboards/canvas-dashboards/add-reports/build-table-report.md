@@ -8,14 +8,17 @@ feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 8%
+source-wordcount: '1302'
+ht-degree: 7%
 
 ---
 
 # 캔버스 대시보드에서 표 보고서 작성
+
+{{highlighted-preview}}
+
 
 >[!IMPORTANT]
 >
@@ -96,6 +99,14 @@ ht-degree: 8%
    1. 보고서 **이름**&#x200B;을(를) 입력하십시오.
 
    1. **설명** 보고서를 입력하십시오.
+
+   1. <span class="preview">(선택 사항) **액세스 권한이**&#x200B;인 이 보고서 실행 필드에서 보고서를 사용할 권한을 가진 사용자의 이름을 입력한 다음 목록에 표시될 때 사용자를 선택합니다. 다른 사용자로 실행되도록 보고서를 구성할 때 대시보드의 모든 뷰어에는 자체 액세스 수준에 관계없이 동일한 데이터가 표시됩니다. 사용자를 선택하지 않으면 각 뷰어에 자체 권한에 따라 데이터가 표시됩니다.
+
+      >[!IMPORTANT]
+      >
+      >선택한 사용자가 비활성화되거나 관련 작업 공간 또는 레코드 유형에 대한 액세스 권한이 없는 경우 보고서에 불완전한 데이터가 표시되거나 렌더링되지 않을 수 있습니다.
+
+   </span>
 
 1. 아래 단계에 따라 **테이블 빌드** 섹션을 구성하십시오.
 
