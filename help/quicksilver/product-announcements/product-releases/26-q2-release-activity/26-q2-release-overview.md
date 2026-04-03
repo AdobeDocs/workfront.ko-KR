@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: fb848a84a1339b98a549584c87af2083115d3440
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2263'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2026년 2분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -132,7 +132,7 @@ ht-degree: 4%
         <td><strong>미리보기</strong></td>
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
-    <tr>
+   <tr>
         <td>
             AI 공동 작업자 <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">을(를) 지원하기 위해 </a>GenStudio Foundations 프로비저닝을 사용하도록 설정했습니다.<p></p>
             <p>2026년 3월 31일에 모든 Workfront 고객이 GenStudio Foundation에 대해 프로비저닝되었으며, Admin Console 시스템 관리자는 이 추가 기능을 알리는 이메일을 받게 됩니다. 이 제품은 Workfront 고객이 AI 공동 작업자 릴리스에 필요한 경우 브랜드에 Workfront 고객에 대한 액세스 권한을 부여할 수 있도록 만 제공됩니다. 제품 자체는 브랜드 를 위한 액세스 메커니즘일 뿐이며 GenStudio Foundation 제품에서 사용할 수 있는 추가 기능은 없습니다.</p><p>고객은 이 신제품에 대해 요금을 받지 않습니다.</p>
@@ -251,6 +251,15 @@ ht-degree: 4%
         <td><strong>분기별</strong></td>
         </tr>
     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">문서 버전 </a>의 현재 버전 필드<p></p>
+            <p>최신 버전의 문서를 보다 쉽게 식별하고 보고할 수 있도록 Document Version 개체에 <code>currentVersion</code> 부울 필드를 추가했습니다.</p>
+        </td>
+        <td><p>2026년 4월 2일 금요일</p></td>
+        <td><p>2026년 4월 15일 목요일</p></td>
+        <td><p>2026년 4월 16일 금요일</p></td>
+    </tr>
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">예약된 보고서 배달이 이제 링크 기반 전자 메일을 지원합니다</a><p></p>
             <p>이제 Workfront에 예약된 보고서에 대한 새로운 링크 게재 유형이 포함됩니다. 이 옵션은 파일을 생성하여 첨부하는 대신 Workfront의 보고서에 대한 직접 링크가 포함된 이메일을 보내어 수신자가 애플리케이션에서 최신 데이터를 볼 수 있도록 합니다.</p>
@@ -477,13 +486,13 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 
 ### Workfront 유지 관리 업데이트
 
-2026년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2026년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

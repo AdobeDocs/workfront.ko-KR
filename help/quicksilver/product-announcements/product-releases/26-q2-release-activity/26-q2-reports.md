@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,29 @@ ht-degree: 0%
 
 2026년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
 
+## 문서 버전에 대한 현재 버전 필드
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 2일
+>프로덕션 빠른 릴리스: 2026년 4월 15일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+최신 버전의 문서를 보다 쉽게 식별하고 보고할 수 있도록 Document Version 개체에 `currentVersion` 부울 필드를 추가했습니다.
+이 업데이트:
+
+* 필터, 보기, 그룹화 및 차트에서 `currentVersion`을(를) 사용할 수 있습니다.
+* 이 필드는 문서 버전 보고서의 캔버스 필드 선택기에서 사용할 수 있습니다.
+
+* 새 버전을 업로드할 때:
+
+   * 새 버전이 `TRUE`(으)로 표시됨
+   * 이전 버전이 `FALSE`(으)로 표시됨
+
+* 보고서는 캔버스 대시보드 및 이전 보고에서 현재 버전을 일관되게 식별할 수 있습니다
+
+`isCurrentVersion` 또는 `isDocumentCurrentVersion`을(를) 사용하는 클래식 보고서에 대한 기존 필터는 문서화된 대로 계속 작동합니다.
+
 ## 예약된 보고서 게재가 이제 링크 기반 이메일을 지원합니다.
 
 >[!NOTE]
@@ -28,7 +51,7 @@ ht-degree: 0%
 >프로덕션 빠른 릴리스: 2026년 4월 15일
 >모두를 위한 프로덕션: 2026년 4월 16일
 
-이제 Workfront에 예약된 보고서에 대한 새로운 링크 게재 유형이 포함됩니다. 이 옵션은 파일을 생성하여 첨부하는 대신 Workfront의 보고서에 대한 직접 링크가 포함된 이메일을 보내어 수신자가 애플리케이션에서 최신 데이터를 볼 수 있도록 합니다.
+이제 Workfront에 예약된 보고서에 대한 새로운 링크 게재 유형이 포함됩니다. 이 옵션은 파일을 생성하고 첨부하는 대신 Workfront의 보고서에 대한 직접 링크가 포함된 전자 메일을 보내 수신자가 애플리케이션에서 가장 최신 데이터를 {{$include }}볼 수 있도록 합니다.
 
 링크 옵션은 이제 새로 생성된 예약된 보고서 게재 규칙의 기본 게재 유형이며 기존 파일 기반 형식(HTML, PDF, Excel 및 TSV)은 계속 사용할 수 있습니다.
 
