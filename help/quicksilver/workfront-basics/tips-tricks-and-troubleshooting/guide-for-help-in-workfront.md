@@ -43,12 +43,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td><strong>에서 [!DNL Workfront]&#x200B;[!DNL Adobe Experience League]</strong> 체크 아웃 </td> 
-   <td> <p><a href="https://experienceleague.adobe.com/en/docs/workfront">https://experienceleague.adobe.com/en/docs/workfront</a>의 맨 위에 있는 검색 창을 사용하여 특정 문서, 토론 또는 교육을 찾을 수 있습니다. 모든 항목 [!DNL Workfront]에 대한 검색 엔진으로 생각하십시오.</p> <p>여기에서 다음 리소스를 찾을 수도 있습니다.</p> 
+   <td> <p><a href="https://experienceleague.adobe.com/ko/docs/workfront">https://experienceleague.adobe.com/ko/docs/workfront</a>의 맨 위에 있는 검색 창을 사용하여 특정 문서, 토론 또는 교육을 찾을 수 있습니다. 모든 항목 [!DNL Workfront]에 대한 검색 엔진으로 생각하십시오.</p> <p>여기에서 다음 리소스를 찾을 수도 있습니다.</p> 
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/ko/docs/workfront/using/home">설명서</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home">튜토리얼</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/ko/docs/workfront/using/product-announcements/product-releases/product-releases">릴리스</a> </p></li> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API 설명서</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API 설명서</a> </p> </li> 
      <li> <p>등</p> </li> 
     </ul> </td> 
   </tr> 
@@ -70,7 +70,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td><strong>요청 시 자세히 알아보고 [!DNL Workfront] 교육을 통해 자세히 알아보기</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">Experience League</a>에서는 [!DNL Workfront]의 주요 기능을 사용하여 플래너, 작업자, 공동 작업자 및 시스템 관리자를 시작하고 실행할 수 있는 역할 기반 학습 경로를 제공합니다.<br>관심 항목에 대한 학습 경로, 비디오 튜토리얼 및 다운로드 가능한 안내서를 탐색하여 [!DNL Workfront] 지식을 확장</a>하십시오.<br></td> 
+   <td><a href="https://experienceleague.adobe.com/ko">Experience League</a>에서는 [!DNL Workfront]의 주요 기능을 사용하여 플래너, 작업자, 공동 작업자 및 시스템 관리자를 시작하고 실행할 수 있는 역할 기반 학습 경로를 제공합니다.<br>관심 항목에 대한 학습 경로, 비디오 튜토리얼 및 다운로드 가능한 안내서를 탐색하여 [!DNL Workfront] 지식을 확장</a>하십시오.<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,15 +84,15 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td>고객을 강조 표시하는 리소스 <a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront]개</a> </td> 
+   <td>고객을 강조 표시하는 리소스 <a href="https://business.adobe.com/kr/resources/main.html?Products=Workfront">[!DNL Workfront]개</a> </td> 
    <td>웨비나, 전자책, 백서, 비디오 및 보고서에 대한 출발점입니다.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">사례 연구 </a></td> 
+   <td><a href="https://business.adobe.com/kr/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">사례 연구 </a></td> 
    <td>고객의 당면 과제와 [!DNL Workfront] 솔루션 및 이점을 강조하는 60개 이상의 사례 연구 모음을 읽어 보십시오.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront] 커뮤니티</a> </td> 
+   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ko">[!DNL Workfront] 커뮤니티</a> </td> 
    <td>[!DNL Workfront] 커뮤니티에서는 전 세계 [!DNL Workfront]명의 사용자 및 전문가와 대화를 나눌 수 있습니다. 그들은 항상 여러분의 질문에 대답하거나 올바른 방향으로 여러분을 안내하기 위해 그곳에 있습니다.</td> 
   </tr> 
  </tbody> 
@@ -145,14 +145,14 @@ ht-degree: 1%
 
 | [[!DNL Adobe Workfront] 통합](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | [!DNL Workfront]을(를) 타사 응용 프로그램과 통합할 수 있습니다. 통합은 [!DNL Workfront]의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 이 기술 자료 문서에서는 통합 옵션을 다루고 다음 방향을 안내합니다. |
 |---|---|
-| [[!DNL Workfront] 기본 제공 통합](https://business.adobe.com/products/workfront/integrations.html) | Workfront의 무료 기본 제공 통합을 사용하면 사용자와 팀이 동일한 워크플로 및 프로세스를 유지하면서 Workfront 플랫폼으로 원활하게 전환할 수 있습니다. |
-| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | [!DNL Workfront]을(를) 100개 이상의 응용 프로그램에 연결하여 코드 없이 비즈니스 크리티컬 프로세스를 쉽게 자동화할 수 있습니다. |
+| [[!DNL Workfront] 기본 제공 통합](https://business.adobe.com/kr/products/workfront/integrations.html) | Workfront의 무료 기본 제공 통합을 사용하면 사용자와 팀이 동일한 워크플로 및 프로세스를 유지하면서 Workfront 플랫폼으로 원활하게 전환할 수 있습니다. |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/home) | [!DNL Workfront]을(를) 100개 이상의 응용 프로그램에 연결하여 코드 없이 비즈니스 크리티컬 프로세스를 쉽게 자동화할 수 있습니다. |
 
 {style="table-layout:auto"}
 
 ## [!DNL Workfront]은(는) 유지 관리를 언제 수행합니까? [!DNL Workfront]이(가) 다운되었는지 어떻게 확인할 수 있습니까?
 
-[status.adobe.com](https://status.adobe.com/)을(를) 구독하면 유지 관리 일정 및 중단 문제에 대한 최신 정보를 얻을 수 있습니다.
+[status.adobe.com](https://status.adobe.com/ko-kr/)을(를) 구독하면 유지 관리 일정 및 중단 문제에 대한 최신 정보를 얻을 수 있습니다.
 
 [!DNL Workfront] 상태 사이트에 대한 자세한 내용은 [상태 사이트 [!DNL Adobe Workfront] 3&rbrace;를 참조하세요.](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
 
@@ -165,8 +165,8 @@ ht-degree: 1%
 
 The following dashboards can help you as a [!DNL Workfront] administrator maintain Workfront:
 
-| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
+| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045?profile.language=ko#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
 |---|---|
-| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
+| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299?profile.language=ko) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
 
 -->
