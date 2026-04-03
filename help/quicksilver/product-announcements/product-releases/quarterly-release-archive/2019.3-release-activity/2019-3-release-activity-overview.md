@@ -471,4 +471,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 3분기 제품 로드맵 웨비나 {#q3-product-roadmap-webinar}
 
-8월 1일 오전 9시[분에 ](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)Q3 로드맵 웨비나:00에서 제공될 작업에 대해 자세히 알아보세요. MST.
+8월 1일 오전 9시[분에 &#x200B;](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)Q3 로드맵 웨비나:00에서 제공될 작업에 대해 자세히 알아보세요. MST.

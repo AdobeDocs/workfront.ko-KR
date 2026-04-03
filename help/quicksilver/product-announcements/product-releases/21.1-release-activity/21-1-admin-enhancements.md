@@ -65,7 +65,7 @@ ht-degree: 0%
 
 자세한 내용은 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
 
-이 기능은 이제 Workfront One의 새로운 Workfront 경험 2부: 프로젝트 설정[에서 ](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)관리자 기본 사항에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 새로운 Workfront 경험 2부: 프로젝트 설정[에서 &#x200B;](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)관리자 기본 사항에 포함되어 있습니다.
 
 ## 포트폴리오와 프로그램에 대한 액세스 수준 설정을 개별적으로 구성
 

@@ -65,4 +65,4 @@ Adobe 통합 경험에는 다음이 포함됩니다.
 
 팀 및 사용자는 이 변경 사항에 포함되지 않습니다. 사용자는 여전히 팀과 사용자 이름을 볼 수 있습니다.
 
-자세한 내용은 [ 개체 개요 문서의 ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects)개체 액세스 제한[!DNL Adobe Workfront] 섹션을 참조하십시오.
+자세한 내용은 [&#x200B; 개체 개요 문서의 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects)개체 액세스 제한[!DNL Adobe Workfront] 섹션을 참조하십시오.
