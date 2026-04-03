@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: d7e85faa0e6da2218d7e983d00fd992dc858a1d9
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 2%
+source-wordcount: '1327'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Workfront 관리자가 상태 잠금을 해제한 경우 관리하는 그룹의 
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -90,11 +90,12 @@ Workfront 관리자가 상태 잠금을 해제한 경우 관리하는 그룹의 
 
    또는
 
-   기존 상태를 편집하려면 편집할 상태를 마우스로 가리킨 다음 맨 오른쪽에 표시되는 **편집** 옵션을 클릭합니다.
+   기존 상태를 편집하는 경우 해당 상태에 대한 확인란을 클릭한 다음 화면 하단의 배너에서 **편집**&#x200B;을 클릭합니다.
 
-   ![그룹 상태](assets/group-statuses-edit.jpg)
+   ![그룹 상태](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
+   >
    >다음 경우에만 그룹의 상태를 편집할 수 있습니다.
    >      
    >* 상태가 생성된 그룹을 관리합니다.
@@ -166,15 +167,16 @@ Workfront 관리자인 경우 시스템 전체 상태를 만든 다음 필요하
 
 1. Workfront 관리자인 경우 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)에 설명된 대로 시스템 전체에서 잠금 해제된 상태를 만듭니다.
 1. 오른쪽 위 모서리의 상자에서 **시스템 상태**&#x200B;를 삭제하고 상태를 숨기려는 그룹의 이름을 입력한 다음 표시될 때 이름을 클릭합니다.
-1. 그룹에서 숨길 상태를 마우스로 가리킨 다음 표시될 때 **편집**&#x200B;을 클릭합니다.
+1. 편집할 상태의 확인란을 클릭한 다음 화면 하단의 배너에서 **편집**&#x200B;을 클릭합니다.
 
-   ![상태 편집](assets/hover-click-edit.jpg)
+
+   ![상태 편집](assets/group-statuses-edit-new.png)
 
 1. 표시되는 **상태 숨기기** 옵션을 활성화하십시오.
 
    ![상태 숨기기](assets/hide-group-status.png)
 
-1. **저장**&#x200B;을 클릭합니다.
+1. **업데이트를 클릭합니다**.
 
    상태는 흐리게 표시되며 더 이상 해당 그룹의 모든 사용자에게 표시되지 않습니다.
 

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6c7dd2504ce20274f8b80a306fc1075ec5761da6
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: '544'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -63,9 +63,9 @@ ht-degree: 0%
 1. 왼쪽 패널에서 **그룹**&#x200B;을 클릭합니다.
 1. 최상위 그룹의 이름을 클릭합니다.
 1. 왼쪽 패널에서 **상태**&#x200B;를 클릭합니다.
-1. 표시되는 상태 목록에서 삭제할 상태를 마우스로 가리킨 다음 맨 오른쪽에 나타나면 **삭제**&#x200B;를 클릭합니다.
+1. 표시되는 상태 목록에서 삭제할 상태의 확인란을 클릭한 다음 화면 하단의 배너에서 **삭제**&#x200B;를 클릭합니다.
 
-   ![삭제](assets/hover-click-delete.jpg)
+   ![삭제](assets/delete-status.png)
 
 1. 표시되는 상자에서 삭제하려는 상태를 사용하고 있던 객체(프로젝트, 작업, 문제 및 승인 프로세스)에 대한 대체 상태를 지정할 상태를 선택합니다.
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
         기본 Workfront 상태에 대한 자세한 내용은 [시스템 프로젝트 상태 목록 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [시스템 작업 상태 목록 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) 및 [시스템 문제 상태 목록 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)의 4가지 필수 문제 상태에 대한 정보를 참조하십시오.
 
-1. **상태 삭제**&#x200B;를 클릭합니다.
+1. **삭제**&#x200B;를 클릭합니다.
 
    삭제된 상태가 그룹의 해당 유형에 대한 기본 상태인 경우 교체 상태가 적용됩니다.
 

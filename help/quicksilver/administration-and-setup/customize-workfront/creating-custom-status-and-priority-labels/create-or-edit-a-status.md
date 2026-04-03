@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 48745335495433e25ad0a27a6726dda7fe8a97d8
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 3%
+source-wordcount: '942'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -67,13 +67,13 @@ Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자
 
 1. (조건부) 시스템 전체에서 사용할 상태를 만들거나 편집하는 경우 오른쪽 상단의 상자에서 **시스템 상태**&#x200B;가 선택되어 있는지 확인하십시오.
 
-   ![시스템 상태](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![시스템 상태](assets/system-statuses-in-upper-rt-corner-new-png.png)
 
    또는
 
    그룹 또는 하위 그룹의 상태일 경우 오른쪽 상단 모서리에 그룹 이름을 입력한 다음 표시될 때 선택합니다.
 
-   ![그룹에 대한 시스템 상태](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![그룹에 대한 시스템 상태](assets/system-statuses-in-upper-rt-corner-group-new-png.png)
 
 1. 상태와 연결할 개체 유형(**프로젝트**, **작업** 또는 **문제**)의 탭을 선택하십시오.
 
@@ -81,9 +81,9 @@ Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자
 
    또는
 
-   기존 상태를 편집하는 경우 해당 상태를 마우스로 가리킨 다음 맨 오른쪽에 표시되는 **편집** 아이콘을 클릭합니다.
+   기존 상태를 편집하는 경우 해당 상태에 대한 확인란을 클릭한 다음 화면 하단의 배너에서 **편집**&#x200B;을 클릭합니다.
 
-   ![사용자 지정 상태 편집](assets/custom-status-edit.png)
+   ![사용자 지정 상태 편집](assets/edit-in-banner.png)
 
 1. 다음 옵션을 사용하여 상태를 구성합니다.
 
