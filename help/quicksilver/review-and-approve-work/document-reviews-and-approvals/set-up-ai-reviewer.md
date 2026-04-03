@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 콘텐츠 검토자 만들기
-description: Workfront에 브랜드를 하나 이상 설정한 후에는 여러 콘텐츠 검토자를 만들어 승인 템플릿 및 개별 검토 및 승인 요청에 할당할 수 있습니다.
+title: AI 검토자 만들기
+description: Workfront에 브랜드를 하나 이상 설정한 후에는 여러 AI 검토자를 만들어 승인 템플릿과 개별 검토 및 승인 요청에 할당할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -11,20 +11,20 @@ hidefromtoc: true
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: 551f316bcfd5e0a1390e7be4679e06cd6808e969
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 8%
 
 ---
 
-# 콘텐츠 검토자 만들기
+# AI 검토자 만들기
 
 >[!NOTE]
 >
 >이 기능은 현재 베타 버전입니다.
 
-Workfront에 브랜드를 하나 이상 설정한 후에는 여러 콘텐츠 검토자를 만들어 승인 템플릿 및 개별 검토 및 승인 요청에 할당할 수 있습니다.
+Workfront에 브랜드를 하나 이상 설정한 후에는 여러 AI 검토자를 만들어 승인 템플릿과 개별 검토 및 승인 요청에 할당할 수 있습니다.
 
 
 ## 액세스 요구 사항
@@ -58,26 +58,26 @@ Workfront에 브랜드를 하나 이상 설정한 후에는 여러 콘텐츠 검
 
 시작하기 전에 Workfront에서 이미지 브랜드 지침을 설정해야 합니다. 자세한 내용은 [콘텐츠 검토자를 위한 브랜드 만들기 및 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)를 참조하십시오.
 
-## 콘텐츠 검토자 추가
+## AI 검토자 추가
 
 >[!NOTE]
 >
->콘텐츠 검토자는 검토 및 승인 워크플로에서 의사 결정자가 되도록 설계되지 않았습니다. 지정된 브랜드 요구 사항에 맞게 에셋을 조정하기 위한 점수 및 권장 사항만 제공합니다.
+>AI 검토자는 검토 및 승인 워크플로에서 의사 결정자가 되도록 설계되지 않았습니다. 지정된 브랜드 요구 사항에 맞게 에셋을 조정하기 위한 점수 및 권장 사항만 제공합니다.
 
 콘텐츠 검토자를 추가하려면 다음 작업을 수행하십시오.
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **검토 및 승인** > **콘텐츠 검토자**(으)로 이동합니다.
+1. 왼쪽 패널에서 **검토 및 승인** > **AI 검토자**(으)로 이동합니다.
 1. **새로 추가**&#x200B;를 클릭합니다.
 1. 검토자 이름을 지정합니다.
 1. **브랜드**&#x200B;를 선택하십시오.
 1. **지침 유형** 드롭다운 메뉴에서 다음 중 하나를 선택합니다.
-   * **이미지**: 콘텐츠 검토자는 Workfront에서 설정한 이미지 브랜드 지침에 따라 에셋을 검토합니다.
-   * **브랜드 음성**: 콘텐츠 검토자는 Workfront에서 설정한 브랜드 음성 지침에 따라 자산을 검토합니다.
+   * **이미지**: AI 검토자는 Workfront에서 설정한 이미지 브랜드 지침에 따라 자산을 검토합니다.
+   * **브랜드 음성**: AI 검토자는 Workfront에서 설정한 브랜드 음성 지침에 따라 자산을 검토합니다.
 1. Click **Create**.
 
-   콘텐츠 검토자가 만들어지면 사용자는 콘텐츠 검토자를 승인 템플릿 또는 개별 승인에 추가할 수 있습니다.
+   AI 검토자가 생성되면 사용자는 승인 템플릿 또는 개별 승인에 AI 검토자를 추가할 수 있습니다.
 
    자세한 내용은 다음 문서를 참조하십시오.
 
