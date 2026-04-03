@@ -9,7 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -52,7 +54,7 @@ Adobe 엔터프라이즈 스토리지의 주요 이점은 다음과 같습니다
 * 검토 및 승인 상태를 실시간으로 추적
 * 한 곳에서 피드백 및 승인 중앙 집중화
 * 모든 관련자가 최신 버전의 자산에 액세스할 수 있는지 확인합니다.
-* AI 검토자를 활용하여 브랜드 준수 검토 자동화
+* 콘텐츠 검토자를 활용하여 브랜드 준수 검토 자동화
 * 외
 
 자세한 내용은 [통합 문서 승인: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)을 참조하세요.
