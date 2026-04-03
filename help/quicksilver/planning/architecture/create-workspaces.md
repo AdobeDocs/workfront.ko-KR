@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,11 @@ Old:
 
   자세한 내용은 이 문서의 [모범 사례 다중 작업 영역 템플릿 번들을 사용하여 여러 작업 영역 만들기](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) 섹션을 참조하십시오
 
+  >[!TIP]
+  >
+  >모범 사례 템플릿 번들을 사용하지 않으면 한 번에 여러 작업 공간을 만들 수 없습니다.
+
+
 </div>
 
 ### 처음부터 또는 템플릿에서 작업 공간 만들기
@@ -238,9 +243,10 @@ Old:
 
 >[!IMPORTANT]
 >
->번들에 포함된 모든 작업 공간, 레코드 유형, 필드 및 레코드 이름은 샘플이며 사용자 환경을 반영하지 않습니다.
+>번들에 포함된 작업 공간 및 레코드의 이름은 예이며 사용자 환경의 반영이 아닙니다.
 >
->이 템플릿 번들을 Planning 구조의 예제로 사용하고 조직의 워크플로를 반영하는 객체 생성을 진행하는 것이 좋습니다.
+>레코드 유형 및 필드의 이름은 권장 사항에 따라 모든 산업에서 구현을 위한 표준으로 모든 조직에서 사용할 수 있습니다.
+>
 
 {{step1-to-planning}}
 

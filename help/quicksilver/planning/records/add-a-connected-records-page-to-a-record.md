@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
    <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr>
 
@@ -277,7 +277,7 @@ When you create a connected records page for connected Planning records in the P
 
         자세한 내용은 이 문서의 [연결된 레코드 페이지에서 다중 보기 관리](#manage-multiple-views-from-the-connected-records-page) 섹션을 참조하십시오.
 
-   1. **만들기**&#x200B;를 클릭합니다.
+   1. **만들기**를 클릭합니다.
 새 보기가 보기 드롭다운 메뉴에 추가됩니다.
 
    1. (선택 사항) 만든 보기의 이름 위에 마우스를 놓고 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 옵션 중 하나를 클릭합니다.
@@ -303,38 +303,47 @@ When you create a connected records page for connected Planning records in the P
 
 1. 레코드 유형 페이지로 이동하여 레코드 이름을 클릭합니다. 그러면 레코드의 미리보기 페이지가 열립니다.
 1. Workfront 프로젝트를 표시하는 연결된 레코드 페이지의 탭을 클릭합니다.
-선택한 레코드에 연결된 프로젝트가 목록 보기에 표시됩니다.
-1. 연결된 레코드 페이지의 오른쪽 상단에서 **레코드 연결**&#x200B;을 클릭하여 기존 프로젝트를 연결합니다.
 
-   자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
-1. 목록 보기의 셀 내부를 두 번 클릭하여 프로젝트의 필드를 편집합니다. 일부 필드는 읽기 전용입니다.
-1. 목록 보기를 편집하려면 다음 중 하나를 수행하십시오.
+   ![연결된 프로젝트 레코드 페이지](assets/projects-connected-records-page-table.png)
 
-   * 템플릿 없이 프로젝트를 만들려면 **새 행**&#x200B;을 클릭하세요. 새 프로젝트는 현재 레코드에 자동으로 연결됩니다.
+   선택한 레코드에 연결된 프로젝트가 목록 보기에 표시됩니다.
 
-     자세한 내용은 [레코드에 연결할 때 Workfront Planning에서 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)를 참조하십시오.
-   * 기존 **를 추가하려면 &#x200B;** 보기 오른쪽 상단의 레코드 만들기&quot;를 클릭합니다. 프로젝트는 선택한 레코드에 즉시 연결됩니다.
+   목록 보기에서 개체를 관리하거나 편집하는 방법에 대한 자세한 내용은 [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)를 참조하십시오.
 
-   * 목록의 프로젝트 이름 위로 마우스를 가져간 후 **추가** 메뉴 [추가 메뉴](assets/more-menu.png)를 클릭하고 **보기**&#x200B;를 클릭하여 다른 탭에서 프로젝트를 엽니다.
+<!-- 
+removed this part, so we won't have to have duplicate information to keep up with for the list view in Planning: 
+1. Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
 
-     또는
+   For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+1. Double-click inside a cell in the list view to edit a project's fields. Some fields are read-only. 
+1. Do one of the following to edit the list view: 
 
-     하나 이상의 프로젝트를 선택하고 목록 하단의 작업 표시줄에서 **삭제** 또는 **연결 해제**&#x200B;를 클릭하여 목록에서 항목을 제거합니다.
+   * Click **New row** to create a project without a template. The new project is automatically connected to the current record.
 
+      For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Click **Create records **in the upper-right corner of the view to add existing projects. Projects are immediately connected to the selected record. 
 
-   * 보기 드롭다운 메뉴를 클릭하고 **새 보기**&#x200B;를 클릭하여 페이지에 새 보기를 추가한 다음 다음을 수행하거나 새 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **이름 바꾸기**, **공유** 또는 **보기 삭제**&#x200B;를 클릭합니다.
+   * Hover over a project name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the project in another tab
+     
+      Or
 
-     시스템 보기 또는 관리 권한이 없는 보기는 이름을 바꾸거나 공유 또는 삭제할 수 없습니다.
+      Select one or more projects, and from the actions bar at the bottom of the list, click **Delete** or **Disconnect** to remove the item from the list.
+      
 
-     ![연결된 레코드 페이지에서 추가 메뉴 보기](assets/view-more-menu-projects-connected-records-page.png)
+   * Click the views dropdown menu, and click **New view** to add a new view for the page, then do the following, or click the **More** menu ![More menu](assets/more-menu.png) to the right of a new name, then **Rename**, **Share**, or **Delete** the view. 
 
-   * 다음 중 하나를 클릭하여 보기의 요소를 업데이트합니다.
+      You cannot rename, share or delete System Views or views you do not have Manage permissions to.
 
-      * **필터**: 목록의 정보 양을 제한합니다.
-      * 열을 숨기거나 순서를 변경할 **열**
-      * 테이블 보기의 오른쪽 위 모서리에 있는 **+** 아이콘으로 기존 필드를 목록에 추가합니다. 필드를 추가하려면 먼저 해당 필드가 있어야 합니다.
+      ![View more menu on Projects Connected records page](assets/view-more-menu-projects-connected-records-page.png)
 
-   목록 보기에서 개체를 관리하는 방법에 대한 자세한 내용은 [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)를 참조하십시오.
+   * Click one of the following to update the view's elements: 
+
+      * **Filter** to limit the amount of information in the list
+      * **Columns** to hide columns or change their order
+      * The **+** icon in the upper-right corner of the table view to add existing fields to the list. Fields must exist before you can add them. 
+
+   For more information about managing objects in a list view, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+-->
 
 <!--
  this is repetitive from an earlier section above: 
