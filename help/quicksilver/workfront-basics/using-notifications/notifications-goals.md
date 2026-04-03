@@ -6,10 +6,12 @@ description: '알림: 목표'
 author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +25,7 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +33,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
@@ -56,10 +58,10 @@ ht-degree: 2%
 
 ## 전제 조건
 
-* 업데이트하려는 [!DNL Goals] 알림의 사용자에게는 [!DNL Goals]기본 메뉴[!UICONTROL 의 &#x200B;] 영역을 포함하는 레이아웃 템플릿이 있어야 합니다.
+* 업데이트하려는 [!DNL Goals] 알림의 사용자에게는 [!DNL Goals]기본 메뉴[!UICONTROL 의 ] 영역을 포함하는 레이아웃 템플릿이 있어야 합니다.
 
 
-## [!DNL Goals]사용자 프로필[!UICONTROL &#x200B; 영역의 &#x200B;]개 알림
+## [!DNL Goals]사용자 프로필[!UICONTROL  영역의 ]개 알림
 
 다음 표에 나열된 알림은 [!DNL Workfront Goals]에서 발생하는 이벤트(예: 누군가 사용자에게 목표, 결과 또는 활동을 할당하거나 사용자가 소유한 목표, 결과 또는 활동을 업데이트하는 사람)에 대해 알려줍니다. 받는 알림을 구성하는 방법에 대한 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
@@ -95,7 +97,8 @@ ht-degree: 2%
   </tbody> 
 </table>
 
-<!--these were removed at some point: 
+<!--
+these were removed at some point: 
 
    <td><strong>Someone liked my comment on a Goal</strong></td> 
    <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 

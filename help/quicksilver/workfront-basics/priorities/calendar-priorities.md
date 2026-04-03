@@ -6,10 +6,12 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -28,7 +30,7 @@ ht-degree: 4%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +40,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -155,5 +157,5 @@ ht-degree: 4%
 1. **표시줄 스타일** 탭에서 달력의 작업 항목 표시줄에 표시할 필드를 최대 5개까지 선택하십시오.
    ![샘플 막대](assets/sample-task-for-field-config.png)
 
-1. **색상** 탭에서 작업 항목을 표시할 방법을 선택합니다. 예를 들어 **프로젝트**&#x200B;을(를) 선택하면 작업 목록에서 프로젝트에 할당된 색상에 따라 작업 항목이 표시됩니다.
+1. **색상** 탭에서 작업 항목을 표시할 방법을 선택합니다. 예를 들어 **프로젝트**을(를) 선택하면 작업 목록에서 프로젝트에 할당된 색상에 따라 작업 항목이 표시됩니다.
    ![샘플 색상 프로젝트](assets/sample-calendar-projects.png)

@@ -6,7 +6,9 @@ description: 템플릿을 프레임워크로 사용하여 Adobe Workfront에서 
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 2%
@@ -77,7 +79,8 @@ ht-degree: 2%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,7 +111,8 @@ ht-degree: 2%
    <p>When you create a project, you automatically receive Manage permissions to the project.</p></td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 프로젝트 영역의 템플릿에서 프로젝트 만들기
 
@@ -179,7 +183,8 @@ ht-degree: 2%
 
       ![템플릿 세부 정보](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
-      <!--no longer available, after unshimming - Oct 2025:
+      <!--
+      no longer available, after unshimming - Oct 2025:
       >[!NOTE]
       >
       >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**.

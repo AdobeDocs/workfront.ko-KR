@@ -6,10 +6,12 @@ description: 리소스 풀에 보유할 수 있는 사용자 수에는 제한이
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -23,7 +25,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +33,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -58,7 +60,7 @@ ht-degree: 2%
 {{step1-to-resourcing}}
 
 1. 왼쪽 패널에서 **리소스 풀**&#x200B;을 클릭합니다.
-1. 리소스 풀을 선택하고 **편집**&#x200B;을 클릭합니다.
+1. 리소스 풀을 선택하고 **편집**을 클릭합니다.
 또는\
    리소스 풀의 이름을 클릭합니다.
 
@@ -69,7 +71,9 @@ ht-degree: 2%
    ![리소스 풀에서 사용자 제거](assets/remove-users-from-resource-pool.png)
 
 1. 리소스 풀에서 사용자를 제거하려면 사용자 수준에서 X 아이콘을 클릭하십시오. 해당 항목이 표시되는 모든 목록에서 제거됩니다.
-   <!--Or  
-   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
+   <!--
+   Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.
+   -->
 
 1. **저장**&#x200B;을 클릭합니다.

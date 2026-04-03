@@ -6,7 +6,10 @@ description: Adobe Workfront은 2022년 4월 6일에 API 버전 20을 출시했�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 6d2aa582a72aad098e397a5e59abdee84165a426
+exl-id: 2cf9d708-ce62-4434-8352-31dd8440ecb9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1792'
 ht-degree: 0%
@@ -212,16 +215,20 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (하위 프로젝트 추가)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--           <p>Modified the following possible values:</p>
+<!--
+           <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>forbiddenActions</b>
@@ -234,16 +241,20 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (하위 프로젝트 추가)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>secondaryActions</b>
@@ -256,16 +267,20 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (하위 프로젝트 추가)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -296,16 +311,20 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (하위 프로젝트 추가)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -336,16 +355,20 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (하위 프로젝트 추가)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>forbiddenActions</b>
@@ -358,16 +381,20 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (하위 프로젝트 추가)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>secondaryActions</b>
@@ -380,16 +407,20 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (하위 프로젝트 추가)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -713,7 +744,8 @@ BillingRecord 개체는 청구할 수 있는 수익, 시간 또는 비용을 기
 </table>
 
 
-<!--### Category (CTGY)
+<!--
+### Category (CTGY)
 
 A Category object is a custom form.
 
@@ -749,7 +781,8 @@ A Category object is a custom form.
       </td>
     </tr>
   </tbody>
-</table>-->
+</table>
+-->
 
 ### CategoryParameter(CTGAA)
 
@@ -1161,16 +1194,20 @@ QueueDef 개체는 사용자가 문제를 제출할 수 있도록 헬프 데스�
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (하위 프로젝트 추가)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>requestorForbiddenActions</b>
@@ -1183,16 +1220,20 @@ QueueDef 개체는 사용자가 문제를 제출할 수 있도록 헬프 데스�
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (하위 프로젝트 추가)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -1241,7 +1282,7 @@ Rate 개체가 `ATTRIBUTE_ATTACHABLE` 플래그를 추가했습니다.
           <li>통화</li>
           <li>잠김</li>
           <li>유형</li>
-          <li>값</li>
+          <li>value</li>
           </ul>
           </li>
         </ul>
@@ -1637,6 +1678,3 @@ Work 개체는 Task와 OpTask가 모두 상속하는 공통 인터페이스이�
     </tr>
   </tbody>
 </table>
-
-
-

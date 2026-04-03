@@ -5,7 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: e82c1a122f7a11fda2210de75c5f62c5fbaa35f0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1875'
 ht-degree: 3%
@@ -19,9 +21,11 @@ ht-degree: 3%
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 2025년 3분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 이 페이지가 추가 개선 사항으로 업데이트됩니다.
 
 
-<!-- Keep commented until Final Preview release.
+<!--
+ Keep commented until Final Preview release.
 
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>.
+-->
 
 >[!IMPORTANT]
 >
@@ -74,9 +78,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">데스크톱 증명 뷰어 업데이트</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
             <p>Desktop Proofing Viewer가 버전 2.1.50으로 업데이트되었습니다. 이 업데이트에는 내부 도구 업데이트가 포함되어 있으며 최종 사용자 기능에는 영향을 주지 않습니다.
         </td>
-        <td>2025년 6월 16일 화요일</td>
-        <td>2025년 6월 16일 화요일</td>
-        <td>2025년 6월 16일 화요일</td>
+        <td>2025년 6월 16일</td>
+        <td>2025년 6월 16일</td>
+        <td>2025년 6월 16일</td>
     </tr> 
     <tr>
         <td>
@@ -112,9 +116,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             Google Drive에 액세스하는 타사 애플리케이션의 경우 애플리케이션이 사용자별 동의 모델을 채택해야 합니다. 따라서 개별 에셋이 Workfront에서 표시되도록 한 번에 하나씩 연결되어야 합니다. <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">문서 통합 구성</a>을 참조하세요.
              추가 정보. </p>
         </td>
-        <td>2023년 5월 25일</td>
-        <td>2023년 5월 25일</td>
-        <td>2023년 5월 25일</td>
+        <td>2024년 5월 8일</td>
+        <td>2024년 5월 8일</td>
+        <td>2024년 5월 8일</td>
     </tr>  
     <tr>
         <td>
@@ -122,8 +126,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>이제 증명 뷰어에 새 문서 승인 결정 버튼이 표시됩니다. 이제 간단한 증명을 만든 다음 문서 요약에서 승인자와 검토자를 추가하면 승인자가 증명 뷰어 내에서 직접 결정을 내릴 수 있습니다.</p>
         </td>
         <td>2025년 4월 10일 금요일</td>
-        <td>2025년 4월 17일 금요일</td>
-        <td>2025년 4월 17일 금요일</td>
+        <td>2025년 4월 17일</td>
+        <td>2025년 4월 17일</td>
     </tr>     
   </tbody>
 </table>
@@ -387,15 +391,16 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
 
 
 
-<!-- HTML you might need
+<!--
+ HTML you might need
 
 New table
 

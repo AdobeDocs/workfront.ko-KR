@@ -3,11 +3,13 @@ content-type: faq
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 공유 열의 데이터가 대시보드 보고서에 표시되지 않음
-description: Data from shared columns does not display when the report is placed in a multiple column dashboard layout, but it does display on a single column layout. Line breaks are also overridden.
+description: 보고서를 여러 열 대시보드 레이아웃에 배치하면 공유 열의 데이터가 표시되지 않지만 단일 열 레이아웃에는 표시됩니다. 줄 바꿈도 재정의됩니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: b8307182-3ec1-4f16-8427-48ef7a65f969
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -18,24 +20,24 @@ ht-degree: 1%
 
 ## 문제
 
-Data from shared columns does not display when the report is placed in a multiple column dashboard layout, but it does display on a single column layout. Line breaks are also overridden.
+보고서를 여러 열 대시보드 레이아웃에 배치하면 공유 열의 데이터가 표시되지 않지만 단일 열 레이아웃에는 표시됩니다. 줄 바꿈도 재정의됩니다.
 
 ## 원인
 
-Only columns marked as
+열로 표시된 열만
 
 ```
 shortview=true
 ```
 
-are included in the dashboard view of the report when the dashboard layout has the left/right split or the left/middle/right split set up.
+대시보드 레이아웃에 왼쪽/오른쪽 분할 또는 왼쪽/중간/오른쪽 분할이 설정되면 보고서의 대시보드 보기에 포함됩니다.
 
 ## 솔루션
 
-Access the view used in the report and open text mode. (For more information, see [Edit a view using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).) Label all columns in the report, including the columns used in a shared/merged column, with
+보고서에 사용된 보기에 액세스하고 텍스트 모드를 엽니다. 자세한 내용은 [텍스트 모드를 사용하여 보기 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)을 참조하십시오. 공유/병합된 열에 사용된 열을 포함하여 보고서의 모든 열에 레이블을 지정합니다.
 
 ```
 shortview=true
 ```
 
-. The report columns will then display properly in the dashboard.
+. 그러면 보고서 열이 대시보드에 제대로 표시됩니다.

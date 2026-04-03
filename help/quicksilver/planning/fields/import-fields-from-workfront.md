@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 8%
@@ -17,9 +19,11 @@ ht-degree: 8%
 
 # Adobe Workfront에서 필드 가져오기
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -63,7 +67,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 +++  
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -119,7 +124,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## Workfront에서 필드 가져오기에 대한 고려 사항
@@ -161,7 +167,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
   | 다중 선택 드롭다운 | 다중 선택 |
   | 사용자 자동 완성 필터는 지원되지 않습니다. | 사람 |
   | 계산됨* | 공식 |
-  | Date | Date |
+  | 일자 | 일자 |
   | 확인란 그룹 | 다중 선택 |
   | 라디오 단추 | 다중 선택 |
 
@@ -202,7 +208,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    * 오브젝트 유형: 가져올 필드의 Workfront 오브젝트 유형을 선택합니다.
    * 사용자 정의 양식: Workfront에서 하나 또는 여러 사용자 정의 양식을 선택합니다. 먼저 오브젝트 유형을 선택하지 않고 사용자 정의 양식을 선택할 수 있습니다.
-1. **+**&#x200B;을 클릭한 다음 **필드 추가**&#x200B;를 클릭합니다.
+1. **+**&#x200B;을 클릭한 다음 **필드 추가**를 클릭합니다.
 필드는 표 보기 및 레코드의 세부 사항 페이지에 추가됩니다.
 
    >[!IMPORTANT]

@@ -6,10 +6,12 @@ description: Adobe Creative Cloud 애플리케이션을 계속 사용하고 Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -21,14 +23,15 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!-- <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -37,7 +40,8 @@ ht-degree: 0%
    <p>Standard</p>
    <p>Work or higher</p> </td> 
   </tr> 
-  <tr> -->
+  <tr>
+  -->
    <td role="rowheader">추가 제품</td> 
    <td>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</td> 
   </tr> 
@@ -68,14 +72,14 @@ ht-degree: 0%
    ![작업 목록으로 돌아가기](assets/go-back-to-work-list-350x314.png)
 
 1. **[!UICONTROL 작업 목록]**&#x200B;에서 완료로 표시할 작업 또는 문제를 선택하십시오.
-1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.  이 작업 또는 문제에 할당된 유일한 사용자인 경우 [!UICONTROL 에서 항목 &#x200B;]완료[!UICONTROL &#x200B; 또는 &#x200B;]해결됨[!DNL Workfront]을(를) 표시합니다.
+1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.  이 작업 또는 문제에 할당된 유일한 사용자인 경우 [!UICONTROL 에서 항목 ]완료[!UICONTROL  또는 ]해결됨[!DNL Workfront]을(를) 표시합니다.
 1. (조건부) 이 작업 또는 문제에 여러 사용자가 할당된 경우 [!UICONTROL 완료]를 클릭하면 드롭다운이 열립니다. 그런 다음 다음을 수행할 수 있습니다.
 
    작업 또는 문제를 완료하기 위해 다른 사용자도 작업을 수행해야 하는 경우 **[!UICONTROL 내 파트 완료]**&#x200B;를 클릭합니다.
 
    또는
 
-   작업 또는 문제에 대해 추가 작업을 수행할 필요가 없는 경우 **[!UICONTROL 완료]**(작업) 또는 **[!UICONTROL 해결됨]**(문제)을 클릭합니다. [!UICONTROL 에서 항목 &#x200B;]완료[!UICONTROL &#x200B; 또는 &#x200B;]확인됨[!DNL Workfront]을(를) 표시합니다.
+   작업 또는 문제에 대해 추가 작업을 수행할 필요가 없는 경우 **[!UICONTROL 완료]**(작업) 또는 **[!UICONTROL 해결됨]**(문제)을 클릭합니다. [!UICONTROL 에서 항목 ]완료[!UICONTROL  또는 ]확인됨[!DNL Workfront]을(를) 표시합니다.
 
    >[!NOTE]
    >

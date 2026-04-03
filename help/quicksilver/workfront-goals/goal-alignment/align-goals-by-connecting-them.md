@@ -6,7 +6,9 @@ description: 개인 목표가 있는 개별 기여자의 경우 조직의 전략
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 3%
@@ -80,7 +82,8 @@ Adobe Workfront 목표에는 두 가지 접근 방식으로 목표를 연결할 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -131,7 +134,8 @@ Adobe Workfront 목표에는 두 가지 접근 방식으로 목표를 연결할 
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## 목표를 서로 연결하여 정렬
 

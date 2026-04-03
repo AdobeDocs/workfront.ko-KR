@@ -7,7 +7,9 @@ description: 다중 선택 사용자 지정 필드에서 선택한 선택 사항
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 2%
@@ -134,12 +136,14 @@ ht-degree: 2%
 1. (선택 사항) 차트로 작성하려는 모든 계산된 필드가 값으로 채워지도록 하려면 보고서의 모든 오브젝트에서 사용자 정의 표현식을 다시 계산해야 합니다.
 표현식 다시 계산에 대한 자세한 내용은 [사용자 지정 필드의 정보 편집](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md)을 참조하십시오.
 
-   <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
+   <!--
+   from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
    1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
    ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
    >[!NOTE]
    >
-   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. -->
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**.
+   -->
 
 1. 다중 선택 사용자 정의 필드를 참조하는 계산된 필드에 대한 차트를 추가하려는 보고서로 이동합니다.
 1. **보고서 동작**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다.

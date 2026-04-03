@@ -7,7 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 74ca298c-daac-4119-97cd-251b9f7f0efc
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 1%
@@ -56,27 +58,35 @@ ht-degree: 1%
    <td> <p><strong>릴리스 날짜</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">새 목록의 모양과 느낌을 업데이트함</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">새 목록의 모양과 느낌을 업데이트했습니다</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated look and feel of new lists</a>
-     --> <span style="color: #ff0000;">- 수정됨</span></p> <p>이제 프로젝트, 작업 및 시간 목록에 업데이트된 모양과 느낌이 있습니다. 2019.4 릴리스로 업데이트될 예정이었던 다른 목록은 향후 릴리스로 업데이트됩니다.</p> </td> 
+     -->
+     <span style="color: #ff0000;">- 수정됨</span></p> <p>이제 프로젝트, 작업 및 시간 목록에 업데이트된 모양과 느낌이 있습니다. 2019.4 릴리스로 업데이트될 예정이었던 다른 목록은 향후 릴리스로 업데이트됩니다.</p> </td>
    <td> <p>미리보기 릴리스: 2019년 10월 4일</p> <p>프로덕션 릴리스: 2019년 11월, 2019.4 릴리스</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">보고서, 템플릿 작업, Portfolio 등의 목록에 새 디자인이 적용됨</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">보고서, 템플릿 작업, 포트폴리오 등의 목록에 새 디자인이 적용됨</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New design applied to lists for Reports, Template tasks, Portfolios, and more</a>
-     --><span style="color: #ff0000;"> -릴리스에서 제거됨</span> </p> <p>이제 다양한 추가 목록 유형에서 새 목록 디자인을 사용할 수 있습니다.</p> </td> 
+     -->
+     <span style="color: #ff0000;"> -릴리스에서 제거됨</span> </p> <p>이제 다양한 추가 목록 유형에서 새 목록 디자인을 사용할 수 있습니다.</p> </td>
    <td> <p>미리보기 릴리스: 2019년 10월 11일</p> <p>프로덕션 릴리스: 2019년 11월, 2019.4 릴리스</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new2" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">새 도구 설명이 빠른 필터에 추가됨</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new2" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">새 도구 설명이 빠른 필터에 추가됨</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New tooltip added to quick filters</a>
-     --> </p> <p> 목록에서 항목을 찾기 위해 브라우저의 기본 기능을 사용하는 대신 다시 디자인된 모든 목록에서 빠른 필터를 사용할 수 있습니다. </p> </td> 
+     -->
+     </p> <p> 목록에서 항목을 찾기 위해 브라우저의 기본 기능을 사용하는 대신 다시 디자인된 모든 목록에서 빠른 필터를 사용할 수 있습니다. </p> </td>
    <td> <p>미리보기 릴리스: 2019년 10월 11일</p> <p>프로덕션 릴리스: 2019년 11월, 2019.4 릴리스</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new3" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">빠른 필터의 새 단축키</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new3" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">빠른 필터의 새 단축키</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New shortcuts for quick filters</a>
-     --> </p> <p>이제 키보드 단축키 미리 알림을 목록의 빠른 필터 검색 상자 내에서 사용할 수 있으므로 필터에 쉽게 액세스할 수 있습니다.</p> </td> 
+     -->
+     </p> <p>이제 키보드 단축키 미리 알림을 목록의 빠른 필터 검색 상자 내에서 사용할 수 있으므로 필터에 쉽게 액세스할 수 있습니다.</p> </td>
    <td> <p>미리보기 릴리스: 2019년 8월 30일</p> <p>프로덕션 릴리스: 2019년 11월, 2019.4 릴리스</p> </td> 
   </tr> 
  </tbody> 
@@ -93,33 +103,43 @@ ht-degree: 1%
    <td> <p><strong>릴리스 날짜</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#workfron" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">iPad용 Workfront 앱</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#workfron" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">iPad용 Workfront 앱</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Workfron" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Workfront app for iPad</a>
-     --> </p> <p>Workfront은 이제 iPad을 위해 특별히 디자인되고 최적화된 새로운 모바일 앱을 제공합니다. </p> <p>iPad과 iPhone 모두에서 Workfront을 사용하는 방법에 대한 자세한 내용은 <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref">iOS용 Adobe Workfront</a>을 참조하십시오.</p> </td> 
+     -->
+     </p> <p>Workfront은 이제 iPad을 위해 특별히 디자인되고 최적화된 새로운 모바일 앱을 제공합니다. </p> <p>iPad과 iPhone 모두에서 Workfront을 사용하는 방법에 대한 자세한 내용은 <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref">iOS용 Adobe Workfront</a>을 참조하십시오.</p> </td>
    <td> <p>미리보기 릴리스: 미리보기 가용성 없음</p> <p>프로덕션 릴리스: 2019년 11월, 2019.4 릴리스</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#delete" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Android에서 모바일 앱을 사용하여 개체 삭제</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#delete" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Android에서 모바일 앱을 사용하여 개체 삭제</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on Android</a>
-     --> </p> <p>이제 Android 모바일 앱에서 작업, 문제 및 타임시트와 같은 개체를 삭제할 수 있습니다.</p> </td> 
+     -->
+     </p> <p>이제 Android 모바일 앱에서 작업, 문제 및 타임시트와 같은 개체를 삭제할 수 있습니다.</p> </td>
    <td> <p>미리보기 릴리스: 2019년 10월 4일</p> <p>프로덕션 릴리스: 2019년 11월, 2019.4 릴리스</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Android에서 모바일 앱을 사용하여 작업, 문제 및 요청을 프로젝트로 전환</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Android에서 모바일 앱을 사용하여 작업, 문제 및 요청을 프로젝트로 전환</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Convert Tasks, Issues, and Requests to a Project using the mobile app on Android</a>
-     --> </p> <p>이제 Android의 Workfront 모바일 앱에서 개별 작업, 문제 및 요청을 프로젝트로 변환할 수 있습니다.</p> </td> 
+     -->
+     </p> <p>이제 Android의 Workfront 모바일 앱에서 개별 작업, 문제 및 요청을 프로젝트로 변환할 수 있습니다.</p> </td>
    <td> <p>미리보기 릴리스: 2019년 10월 4일</p> <p>프로덕션 릴리스: 2019년 11월, 2019.4 릴리스</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#access" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">모바일에서 기존 즐겨찾기에 액세스하고 새 즐겨찾기를 추가</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#access" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">모바일에서 기존 즐겨찾기에 액세스하고 새 즐겨찾기를 추가</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Access" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Access existing Favorites and add new Favorites on mobile</a>
-     --> </p> <p>이제 iOS 및 Android 장치 모두에서 Workfront 모바일 앱의 즐겨찾기 메뉴에 액세스할 수 있습니다. 즐겨찾기 메뉴에서 기존 항목에 액세스하고 즐겨찾기 메뉴에 새 항목을 추가할 수 있습니다.</p> </td> 
+     -->
+     </p> <p>이제 iOS 및 Android 장치 모두에서 Workfront 모바일 앱의 즐겨찾기 메뉴에 액세스할 수 있습니다. 즐겨찾기 메뉴에서 기존 항목에 액세스하고 즐겨찾기 메뉴에 새 항목을 추가할 수 있습니다.</p> </td>
    <td> <p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Android에서 탐색 업데이트됨</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Android에서 탐색 업데이트됨</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Updated" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated Navigation on Android</a>
-     --> </p> <p>Android 모바일 앱에서의 탐색은 브라우저에서 Workfront에 액세스할 때 탐색과 더 유사합니다</p> </td> 
+     -->
+     </p> <p>Android 모바일 앱에서의 탐색은 브라우저에서 Workfront에 액세스할 때 탐색과 더 유사합니다</p> </td>
    <td> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -136,15 +156,19 @@ ht-degree: 1%
    <td> <p><strong>릴리스 날짜</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#the" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">업무 균형자 베타</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#the" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">업무 균형자 베타</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Resource-Management-enhancements-1912990902?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Workload Balancer beta</a>
-     --> </p> <p>업무 균형자 는 리소스의 업무 로드를 관리하기 위한 새로운 인터페이스를 제공합니다. 이는 향후 리소스 스케줄러를 대체하기 위한 것입니다.</p> </td> 
+     -->
+     </p> <p>업무 균형자 는 리소스의 업무 로드를 관리하기 위한 새로운 인터페이스를 제공합니다. 이는 향후 리소스 스케줄러를 대체하기 위한 것입니다.</p> </td>
    <td> <p>미리보기 릴리스: 2019년 10월 11일</p> <p>프로덕션 릴리스: 2019년 11월, 2019.4 릴리스</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#resource" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">리소스 플래너 사용자 지정 열</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#resource" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">리소스 플래너 사용자 지정 열</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Resource-Management-enhancements-1912990902?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Resource&nbsp;Planner custom columns</a>
-     --> </p> <p>이제 리소스 플래너에 표시하는 열을 사용자 정의하여 가장 관심 있는 정보만 포함할 수 있습니다.</p> </td> 
+     -->
+     </p> <p>이제 리소스 플래너에 표시하는 열을 사용자 정의하여 가장 관심 있는 정보만 포함할 수 있습니다.</p> </td>
    <td> <p>미리보기 릴리스: 2019년 10월 24일</p> <p>프로덕션 릴리스: 2019년 11월, 2019.4 릴리스</p> </td> 
   </tr> 
  </tbody> 
@@ -161,9 +185,11 @@ ht-degree: 1%
    <td> <p><strong>릴리스 날짜</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md#start" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Adobe CC 문서에서 자동화된 증명 워크플로 시작</a> <!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md#start" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Adobe CC 문서에서 자동 증명 워크플로 시작</a>
+   <!--
       <a href="https://experience.workfront.com/s/article/2019-4-other-enhancements-742784455?language=en_US&amp;r=10&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Start an automated proofing workflow from an Adobe CC document</a>
-     --></p> <p>Adobe CC를 종료하지 않고 작성한 Adobe CC 문서에 대한 자동화된 증명 워크플로를 시작할 수 있습니다.</p> </td> 
+     -->
+     </p> <p>Adobe CC를 종료하지 않고 작성한 Adobe CC 문서에 대한 자동화된 증명 워크플로를 시작할 수 있습니다.</p> </td>
    <td> <p>미리보기 릴리스: 미리보기 가용성 없음</p> <p>프로덕션 릴리스: 2019년 11월, 2019.4 릴리스</p> </td> 
   </tr> 
   <!--
@@ -203,7 +229,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-## Workfront 유지 보수 업데이트
+## Workfront 유지 관리 업데이트
 
 2019.4 릴리스 동안 수행된 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350)를 참조하십시오.
 
@@ -298,7 +324,7 @@ TLS 1.2 to be required in Workfront
 
 Flash 기술에 의존하는 모든 기능은 2018.3 릴리스부터 Workfront에서 제거되었으며 새 솔루션으로 대체되었습니다.
 
-기존 Flash 도구 및 대체 요소에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
+기존 Flash 도구 및 대체 도구에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">

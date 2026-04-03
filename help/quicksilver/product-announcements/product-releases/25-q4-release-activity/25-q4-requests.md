@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -23,8 +25,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >미리 보기: 2025년 10월 2일
->&#x200B;>프로덕션 빠른 릴리스: 2025년 10월 15일
->&#x200B;>모두를 위한 프로덕션: 2025년 10월 16일
+>프로덕션 빠른 릴리스: 2025년 10월 15일
+>모두를 위한 프로덕션: 2025년 10월 16일
 
 필요한 정보를 더 쉽게 볼 수 있도록 요청 영역에 보기를 만들고 저장하는 기능을 추가했습니다. 이제 필터 및 열 구성을 포함하여 보기를 저장하고 보기 간에 전환할 수 있습니다. Workfront 관리자는 레이아웃 템플릿에 새 보기를 추가할 수 있습니다.
 
@@ -32,7 +34,8 @@ ht-degree: 0%
 
 자세한 내용 및 지침은 [요청 영역에서 보기 만들기](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)를 참조하십시오.
 
-<!--## New combined Status column in unified Request list 
+<!--
+## New combined Status column in unified Request list 
 
 >[!NOTE]
 >
@@ -45,7 +48,8 @@ To simplify the unified request experience, the Status column now displays both 
 For more information on creating requests see:
 
 * For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+-->
 
 ## 요청 경험 업데이트
 

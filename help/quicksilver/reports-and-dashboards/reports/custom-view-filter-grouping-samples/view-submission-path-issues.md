@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '보기: 문제에 대한 제출 경로'
-description: 문제 보고서 보기에서 문제가 제출되는 경로를 표시할 수 있습니다. 경로는 문제가 원래 제출된 큐, 주제 그룹 및 큐 주제를 나타냅니다.
+description: 문제 보고서 보기에서 문제가 제출된 경로를 표시할 수 있습니다. 경로는 문제가 원래 제출된 대기열, 주제 그룹 및 대기열 주제를 나타냅니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 7%
@@ -18,7 +20,7 @@ ht-degree: 7%
 
 <!--Audited: 11/2024-->
 
-문제 보고서 보기에서 문제가 제출되는 경로를 표시할 수 있습니다. 경로는 문제가 원래 제출된 큐, 주제 그룹 및 큐 주제를 나타냅니다.
+문제 보고서 보기에서 문제가 제출된 경로를 표시할 수 있습니다. 경로는 문제가 원래 제출된 대기열, 주제 그룹 및 대기열 주제를 나타냅니다.
 
 ![issue_submission_path.png](assets/issue-submission-path-350x66.png)
 
@@ -35,14 +37,14 @@ ht-degree: 7%
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>콘텐츠 작가 또는 보기 수정 요청 </p>
-   <p>표준 또는 계획: 보고서 수정</p>
+   <p>보기를 수정하기 위한 기여자 또는 요청 </p>
+   <p>표준 또는 보고서 수정 계획</p>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>보고서, 대시보드, 달력에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스를 편집하여 보기 수정</p> </td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 보기 수정</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -51,7 +53,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 
 +++

@@ -6,7 +6,9 @@ description: 팀을 만들면 기본적으로 팀 소유자가 됩니다.
 author: Courtney
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 5%
@@ -17,7 +19,7 @@ ht-degree: 5%
 
 팀을 만들면 기본적으로 팀 소유자가 됩니다.
 
-팀 보고서를 만들 때 모든 팀의 팀 소유자를 볼 수 있으며 보고서에 [!UICONTROL 소유자 이름] 필드를 포함할 수 있습니다. 보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
+팀에 대한 보고서를 만들 때 모든 팀에 대한 팀 소유자를 볼 수 있으며 보고서에 [!UICONTROL 소유자 이름] 필드를 포함할 수 있습니다. 보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 
 [!DNL Adobe Workfront] 관리자가 [!UICONTROL 설정] 영역에서 팀을 만드는 방법에 대한 자세한 내용은 [[!UICONTROL 설정] 영역에서 팀 만들기](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)를 참조하십시오.
 
@@ -69,7 +71,7 @@ ht-degree: 5%
 
      애자일 팀에 대한 자세한 내용은 [애자일 팀 만들기](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)를 참조하십시오.
 
-   * **[!UICONTROL 팀 구성원]:** 팀에 추가할 사용자의 이름을 입력하기 시작한 다음 드롭다운 목록에 나타나면 이름을 선택합니다.
+   * **[!UICONTROL 팀원]:** 팀에 추가할 사용자 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 선택합니다.
 
      이 프로세스를 반복하여 팀에 여러 사용자를 추가합니다.
 

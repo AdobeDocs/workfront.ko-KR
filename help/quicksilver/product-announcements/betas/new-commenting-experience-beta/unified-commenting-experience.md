@@ -9,10 +9,12 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -61,7 +63,8 @@ ht-degree: 1%
 * 사용자의 프로필 상자를 편집할 때 &quot;업데이트 상태에서 완료율 표시&quot; 설정이 제거됩니다. 작업 또는 문제의 완료율을 업데이트하는 기능이 제거되었습니다.
 
 
-<!--removed this note on November 28, 2023, when this limitation was removed: 
+<!--
+removed this note on November 28, 2023, when this limitation was removed: 
 
 >[!NOTE]
 >
@@ -94,9 +97,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>댓글 만들기/읽기/회신/삭제 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
   </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
 
 <td> 
@@ -106,9 +109,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>리치 텍스트(인용 및 이모지 제외)
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
 
 <td> 
@@ -118,9 +121,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>리치 텍스트(이모티콘)
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
    <td> 
    </td>
@@ -130,9 +133,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>리치 텍스트(블록 인용)
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
-   <td> ✓ 덧신
+   <td> ✓
    </td>
     <td> 2023년 2분기
    </td>
@@ -142,9 +145,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td> 견적 주석
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
-   <td> ✓ 덧신
+   <td> ✓
    </td>
    <td> 2023년 2분기
    </td>
@@ -153,9 +156,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>댓글에 반응(예: 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -164,9 +167,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>댓글에 이미지 첨부 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
       <td> 
    </td>
@@ -175,9 +178,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>댓글에 직원 태그 지정 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -188,7 +191,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
    <td> 
    </td>
@@ -198,7 +201,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
    <td> 
    </td>
@@ -207,9 +210,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>회사에 비공개인 댓글 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -217,7 +220,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>댓글 게시 취소 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
    <td>댓글 편집으로 대체됨 
    </td>
@@ -227,7 +230,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>시스템 업데이트 끄기 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
    <td>활동 탭으로 대체됨 
    </td>
@@ -239,7 +242,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> ✓ 덧신
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -247,9 +250,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>페이지에서 이동할 때 주석 초안 저장 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -259,7 +262,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
    <td> 
    </td>
@@ -267,9 +270,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>로그 시간 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
    <td> 
    </td>
@@ -277,7 +280,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
     <tr>
    <td>스레드 링크 복사 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
    <td> 복사 링크로 대체됨
    </td>
@@ -287,7 +290,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>주석 링크 복사 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
    <td> 복사 링크로 대체됨
    </td>
@@ -297,9 +300,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>견적 주석 텍스트 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
   <td>2023년 2분기 
    </td>
@@ -307,9 +310,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>본문 복사 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
-   <td> ✓ 덧신
+   <td> ✓
    </td>
    <td>
    </td>
@@ -319,7 +322,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> ✓ 덧신
+   <td> ✓
    </td>
    <td>2024년 1분기 
    </td>
@@ -331,7 +334,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> ✓ 덧신
+   <td> ✓
    </td>
    <td>2024년 1분기 
    </td>
@@ -340,9 +343,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>댓글에 이미지 드래그 앤 드롭
    </td>
-   <td> ✓ 덧신
+   <td> ✓
    </td>
-   <td> ✓ 덧신
+   <td> ✓
    </td>
    <td>2024년 1분기 
    </td>
@@ -351,7 +354,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>사용자 정의 양식 편집 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -361,7 +364,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>댓글을 달면서 상태, 조건, 커밋 일자를 편집할 수 있는 기능 
    </td>
-   <td>✓ 덧신 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -371,7 +374,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>시스템 업데이트에 대한 회신 
    </td>
-   <td> ✓ 덧신
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -381,9 +384,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>다른 사용자로 로그인한 댓글을 추가할 때 "대신" 표시
    </td>
-   <td> ✓ 덧신
+   <td> ✓
    </td>
-   <td> ✓ 덧신
+   <td> ✓
    </td>
    <td>
    </td>
@@ -392,7 +395,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>업데이트 섹션에서 커밋 일자가 변경되면 프로젝트 소유자가 작업의 계획된 완료 일자를 변경할 수 있습니다.
    </td>
-   <td> ✓ 덧신
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -501,7 +504,8 @@ Depending on what objects you access the commenting experience for, you might se
 -->
 
 
-<!--before August 17: 
+<!--
+before August 17: 
 
 The new commenting experience is currently supported for the following objects:
 
@@ -522,7 +526,8 @@ The new commenting experience is currently supported for the following objects:
 
 -->
 
-<!--Depending on the environment you access the commenting experience you can do one of the following: 
+<!--
+Depending on the environment you access the commenting experience you can do one of the following: 
 
 * Enable the commenting experience Beta in the Production environment
 * <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>

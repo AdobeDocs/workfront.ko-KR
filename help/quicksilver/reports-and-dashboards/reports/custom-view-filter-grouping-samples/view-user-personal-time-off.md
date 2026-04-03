@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '보기: 사용자 개인 휴무'
-description: 'View: User Personal Time Off'
+description: '보기: 사용자 개인 휴무'
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 12%
@@ -22,7 +24,7 @@ ht-degree: 12%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
 -->
 
-You can build a Time Off report to capture users&#39; time off information.
+사용자의 휴무 정보를 캡처하는 휴무 보고서를 작성할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -57,33 +59,33 @@ You can build a Time Off report to capture users&#39; time off information.
 
 +++
 
-## View user personal time off
+## 사용자 개인 휴무 보기
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Reports > New Report**.
-1. From the drop-down menu, select **Time Off**.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **보고서 > 새 보고서**&#x200B;를 클릭합니다.
+1. 드롭다운 메뉴에서 **휴무**&#x200B;를 선택합니다.
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
-   The report displays the following fields in the view by default:
+   이 보고서는 기본적으로 보기에 다음 필드를 표시합니다.
 
-   | 사용자 | The name of the user who indicated the time off in their profile. |
+   | 사용자 | 프로필에 휴가를 표시한 사용자의 이름입니다. |
    |---|---|
-   | 시작 일자 | The Start Date of the period of time off that the user indicated. |
-   | 종료 일자 | The End Date of the period of time off that the user indicated. |
+   | 시작 일자 | 사용자가 지정한 휴무 기간의 시작 일자. |
+   | 종료 일자 | 사용자가 지정한 휴무 기간의 종료 일자. |
 
    {style="table-layout:auto"}
 
-1. (Optional) Finish creating the report by editing any of the following tabs:
+1. (선택 사항) 다음 탭 중 하나를 편집하여 보고서 작성을 완료합니다.
 
    * 열(조회)
    * 그룹화
    * 필터
    * 차트
 
-   For information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   보고서 만들기에 대한 자세한 내용은 문서 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
 
    >[!TIP]
    >
-   >We recommend adding a grouping for the User object, to make the report easier to read.
+   >보고서를 더 쉽게 읽을 수 있도록 사용자 개체에 대한 그룹화를 추가하는 것이 좋습니다.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Add Time Off information to a user report</h2>

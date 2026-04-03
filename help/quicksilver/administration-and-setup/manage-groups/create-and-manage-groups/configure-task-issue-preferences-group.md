@@ -9,18 +9,22 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2166'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 그룹에 대한 작업 및 문제 환경 설정 구성
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 조직의 그룹이 시스템 수준에서 구성된 방식과 별도로 작업 또는 문제 환경 설정을 구성해야 하는 경우 Adobe Workfront 관리자가 환경 설정을 잠금 해제할 수 있습니다. 그런 다음 그룹 관리자는 그룹에 대한 기본 설정을 구성할 수 있으며 이는 그룹과 관련된 모든 작업 또는 문제에 영향을 미칩니다.
 
@@ -43,7 +47,7 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +55,7 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -140,9 +144,11 @@ Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자
        <ul> 
         <li><strong>원래 문제를 유지하고 해결 방법을 작업에 연결</strong>: 문제를 전환할 때 작업이 완료될 때까지 문제로 계속 표시됩니다. 작업이 완료되면 문제의 상태가 자동으로 [닫힘]으로 변경됩니다.</li> 
         <li><strong>기본 담당자가 작업에 액세스할 수 있도록 허용</strong>: 기본 담당자(문제 작성자)에게 작업을 검토하고 업데이트하며 진행 상황에 대한 최신 정보를 제공할 수 있는 액세스 권한을 부여합니다.</li> 
-        <li> <p><strong>전환 중에 이러한 설정을 변경할 수 있도록 허용</strong>: 문제를 전환하는 사용자가 문제를 작업으로 전환하는 동안 이러한 옵션을 변경할 수 있도록 허용합니다.</p> <!--
+        <li> <p><strong>전환 중에 이러한 설정을 변경할 수 있도록 허용</strong>: 문제를 전환하는 사용자가 문제를 작업으로 전환하는 동안 이러한 옵션을 변경할 수 있도록 허용합니다.</p>
+        <!--
           Screenshot when possible</p>
-         --> </li> 
+         -->
+         </li>
        </ul> </td> 
      </tr> 
      <tr> 

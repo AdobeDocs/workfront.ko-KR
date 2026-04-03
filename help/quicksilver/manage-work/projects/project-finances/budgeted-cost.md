@@ -7,7 +7,9 @@ description: 활용성 보고서를 사용한 예산 비용 추적 프로젝트 
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 2%
@@ -75,9 +77,11 @@ ht-degree: 2%
     </tr> 
     <tr> 
      <td>프로젝트 예산 비용</td> 
-     <td> <!--
+     <td>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>프로젝트 보고서</p> <p>프로젝트(재무 데이터) 보고서</p> <p>작업 보고서</p> <p>문제 보고서</p> <p>예산 시간 보고서</p> <p>보고서 만들기에 대한 자세한 내용은 문서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">사용자 지정 보고서 만들기</a>를 참조하십시오.</p> </td> 
+      -->
+      <p>프로젝트 보고서</p> <p>프로젝트(재무 데이터) 보고서</p> <p>작업 보고서</p> <p>문제 보고서</p> <p>예산 시간 보고서</p> <p>보고서 만들기에 대한 자세한 내용은 문서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">사용자 지정 보고서 만들기</a>를 참조하십시오.</p> </td>
     </tr> 
    </tbody> 
   </table>

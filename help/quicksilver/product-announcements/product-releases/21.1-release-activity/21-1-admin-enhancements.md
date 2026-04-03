@@ -8,7 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
-source-git-commit: 6fe1a2c71f53d6b314c2b1402a547f9c934bfbea
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 0%
@@ -63,7 +65,7 @@ ht-degree: 0%
 
 자세한 내용은 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
 
-이 기능은 이제 Workfront One의 새로운 Workfront 경험 2부: 프로젝트 설정[&#128279;](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)에서 관리자 기본 사항에 포함되어 있습니다.
+이 기능은 이제 Workfront One의 새로운 Workfront 경험 2부: 프로젝트 설정[에서 ](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home)관리자 기본 사항에 포함되어 있습니다.
 
 ## 포트폴리오와 프로그램에 대한 액세스 수준 설정을 개별적으로 구성
 
@@ -89,16 +91,16 @@ ht-degree: 0%
 
 자세한 내용은 [사용자 정의 양식 필드에서 정보 편집](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)을 참조하십시오.
 
-## Workfront 허용 목록에 추가하다 이메일 구성
+## Workfront 이메일 구성
 
-허용 목록에 추가하다 이제 데이터 보안을 강화하기 위해 이메일 도메인을 사용하여 다음을 수행할 수 있습니다.
+이제 데이터 보안을 강화하기 위해 이메일 도메인을 사용하여 다음을 수행할 수 있습니다.
 
 * Workfront에 저장된 보고서나 문서가 포함된 Workfront 이메일의 이동 경로 제어
 * 제어 이메일 도메인은 사용자가 사용자 프로필에 지정할 수 있는 이메일 주소에 있을 수 있습니다
 
-허용 목록에 추가하다 예를 들어, 위험 상태의 고객을 나열하는 보고서와 같은 중요한 데이터를 보호하려는 경우 이메일 도메인에 내부 이메일 또는 도메인만 포함할 수 있습니다. 이러한 방식으로 사용자는 해당 보고서(또는 다른 Workfront 보고서)를 외부 이메일 주소로 보낼 수 없습니다.
+예를 들어, 위험 상태의 고객을 나열하는 보고서와 같은 중요한 데이터를 보호하려는 경우 이메일 도메인에 내부 이메일 또는 도메인만 포함할 수 있습니다. 이러한 방식으로 사용자는 해당 보고서(또는 다른 Workfront 보고서)를 외부 이메일 주소로 보낼 수 없습니다.
 
-허용 목록에 추가하다 허용 목록에 추가하다 자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) 문서 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) 섹션을 참조하십시오.
+자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) 문서 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) 섹션을 참조하십시오.
 
 ## 하위 그룹에 그룹 관리자 할당
 
@@ -106,7 +108,7 @@ ht-degree: 0%
 
 이전에는 최상위 그룹만 그룹 관리자를 가질 수 있었으며, 이러한 관리자는 최상위 그룹 아래의 모든 하위 그룹을 관리했습니다.
 
-자세한 내용은 문서 [하위 그룹 개요](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)의 [하위 그룹의 그룹 관리자](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) 섹션을 참조하십시오.
+자세한 내용은 문서 [하위 그룹 개요](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for)의 [하위 그룹의 그룹 관리자](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md) 섹션을 참조하십시오.
 
 이제 이 기능은 새 Workfront 환경의 [관리자 기본 사항, Workfront One의 1부: 사용자 조직](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home) 학습 경로에 포함되어 있습니다.
 
@@ -125,9 +127,11 @@ ht-degree: 0%
 * [모든 그룹에 대한 이벤트 알림의 구성 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-<!--This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/ko/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
+<!--
+This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
-This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.-->
+This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.
+-->
 
 ## 그룹 영역에서 그룹 프로젝트 및 승인 진행을 사용하여 작업
 

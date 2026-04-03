@@ -6,7 +6,9 @@ description: Adobe Workfront의 여러 영역에서 프로젝트, 작업 또는 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 47f029fbbc165db36e750907c9a14bb3c0718d58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 2%
@@ -109,7 +111,7 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
       <td role="rowheader">Google 드라이브 또는 SharePoint과 같은 서드파티 애플리케이션에서 문서 업로드</td> 
       <td> 
        <ol> 
-        <li value="1"> <p><strong>새로 추가</strong> 드롭다운 메뉴에서 <strong>&lt;name_of_third-party_application&gt;</strong>에서 선택합니다.</p> <p>예를 들어 Google 드라이브에서 문서를 업로드하려면 <strong>Google 드라이브에서</strong>을(를) 클릭합니다.</p> </li> 
+        <li value="1"> <p><strong>새로 추가</strong> 드롭다운 메뉴에서 <strong>From &lt;name_of_third-party_application&gt;</strong>을(를) 선택합니다.</p> <p>예를 들어 Google 드라이브에서 문서를 업로드하려면 <strong>Google 드라이브에서</strong>을(를) 클릭합니다.</p> </li> 
         <li value="2"> <p>화면의 지침에 따라 서드파티 애플리케이션에서 문서를 선택합니다.<br></p> <p>연결된 문서에 대한 자세한 내용은 <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">외부 응용 프로그램에서 문서 연결</a>을 참조하세요.</p> </li> 
        </ol> </td> 
      </tr> 

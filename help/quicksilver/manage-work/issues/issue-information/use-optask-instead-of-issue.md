@@ -6,7 +6,9 @@ description: 문제의 이름이 Adobe Workfront 데이터베이스에 opTask로
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -29,8 +31,10 @@ ht-degree: 0%
 
   보고서에서 텍스트 모드를 사용하는 방법에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
 
-<!--* When you pull information about issues using our API.  
-  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
+<!--
+* When you pull information about issues using our API.  
+  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)
+  -->
 
 * 킥스타트 데이터 가져오기 시트의 문제 필드를 업데이트할 때.
 

@@ -6,7 +6,9 @@ description: 텍스트 모드에서 조건부 서식 사용
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 2%
@@ -17,9 +19,9 @@ ht-degree: 2%
 
 <!--Audited: 01/2025-->
 
-표준 인터페이스 빌더는 조직의 요구 사항에 부합하도록 보고 요소를 생성할 때 광범위한 유연성을 제공합니다.
+표준 인터페이스 빌더는 조직의 요구 사항을 충족하는 보고 요소를 만들 때 광범위한 유연성을 제공합니다.
 
-표준 인터페이스를 사용하여 뷰에 조건부 서식을 적용할 수 있습니다.\
+표준 인터페이스를 사용하여 보기에서 조건부 서식을 적용할 수 있습니다.\
 보기에 조건부 서식을 적용하는 방법에 대한 자세한 내용은 [보기에서 조건부 서식 사용](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)을 참조하십시오.
 
 ## 액세스 요구 사항
@@ -43,11 +45,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 달력에 대한 액세스 권한을 편집하여 보고서의 보기 편집</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서의 보기 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에서 보기를 편집할 수 있는 보고서 권한 관리</p> <p>보기에 대한 편집 권한을 관리합니다.</p> </td> 
+   <td> <p>보고서의 보기를 편집할 수 있도록 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -95,12 +97,12 @@ ht-degree: 2%
 
 ### 열 설정 {#column-settings}
 
-보기에 조건부 서식을 추가하려면 먼저 텍스트 모드 인터페이스를 사용해야 합니다.
+조건부 서식을 보기에 추가하려면 먼저 텍스트 모드 인터페이스에 익숙해야 합니다.
 
-뷰에서 조건부 서식을 사용할 때 열의 다음 요소를 사용자 정의할 수 있습니다.
+보기에서 조건부 서식을 사용할 때 열의 다음 요소를 사용자 지정할 수 있습니다.
 
 * [열 머리글](#column-headers)
-* [날짜 형식 지정](#format-dates)
+* [날짜 서식](#format-dates)
 * [숫자 서식](#format-numbers)
 
 #### 열 헤더 {#column-headers}
@@ -178,8 +180,8 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 
 >[!NOTE]
 >
->* 이 문은 회사 이름 열에 적용할 수 있지만 보고서의 다른 열에도 적용할 수 있습니다. 녹색 텍스트는 프로젝트에 연결된 회사가 있는 경우에만 표시됩니다. 조건이 열에 최종적으로 표시되는지 여부에 관계없이 `[field name]`, `[value]` 및 `[qualifier]` 드라이브를 기억하십시오.
->* 한정자를 사용하여 작업할 때는 `cicontains`이(가) 아닌 `equal`을(를) 사용하는 것이 좋습니다. 기본적으로 `equal`은(는) ID 번호를 찾습니다. `cicontains` 한정자를 사용하면 해당 이름으로 항목에 액세스할 수 있습니다.
+>* 이 문은 회사 이름 열에 적용할 수 있지만 보고서의 다른 열에도 적용할 수 있습니다. 프로젝트에 연결된 회사가 있는 경우에만 녹색 텍스트가 표시됩니다. 조건이 열에 표시되는지 여부에 관계없이 `[field name]`, `[value]` 및 `[qualifier]` 드라이브를 기억하십시오.
+>* 한정자를 사용할 때는 `cicontains`보다 `equal`을(를) 사용하는 것이 좋습니다. 기본적으로 `equal`은(는) ID 번호를 찾습니다. `cicontains` 한정자를 사용하면 해당 이름으로 항목에 액세스할 수 있습니다.
 
 ![텍스트 모드 예](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
@@ -357,7 +359,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 사용 가능한 이미지를 사용하려면 다음 코드와 값을 적용합니다.
 
-| **아이콘** | **선: image.case.0.comparison.truetext=** |
+| **아이콘** | **줄: image.case.0.comparison.truetext=** |
 |---|---|
 | 찡그린 얼굴 ![찡그린 얼굴](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
 | 행복한 얼굴 ![행복한 얼굴](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
@@ -400,7 +402,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
    * 일자
    * 통화
 
-* 계산을 표시하는 열에 집계기를 추가할 수 있습니다. 집계된 값은 뷰 또는 보고서의 그룹화에 표시됩니다. 자세한 내용은 [그룹화: 그룹화에서 여러 계산된 값을 집계한 결과 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)를 참조하십시오.
+* 계산을 표시하는 열에 집계를 추가할 수 있습니다. 집계된 값은 보기 또는 보고서의 그룹화에 표시됩니다. 자세한 내용은 [그룹화: 그룹화에서 계산된 여러 값을 집계한 결과를 표시합니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)을 참조하십시오.
 * 열 정의에 대한 코드 행은 애그리게이터를 소개하고 앞에 &quot;애그리게이터&quot;가 오는 코드 행과 동일해야 합니다. 예를 들어 프로젝트에 계획된 시간을 표시하는 열이 있는 경우 열의 기본 행의 텍스트 모드는 다음과 같습니다.
 
 ```

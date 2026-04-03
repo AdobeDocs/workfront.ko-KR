@@ -7,7 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 1774acc60b857b4588dc02bcf596bbf8ea4e56e1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2540'
 ht-degree: 0%
@@ -66,7 +68,8 @@ Workfront Planning에서 수행된 요청에 대해 보다 쉽게 통신할 수 
 
 댓글을 포함하여 요청을 하는 방법에 대한 자세한 내용은 [레코드를 만들 수 있도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
-<!--## Approve a Workfront Planning request in the My Approvals widget
+<!--
+## Approve a Workfront Planning request in the My Approvals widget
 
 >[!NOTE]
 >
@@ -78,7 +81,8 @@ To make it easier to approve Workfront Planning requests, we've added them to th
 
 Previously, Workfront approvals could be managed only within Workfront Planning.
 
-For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).-->
+For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
+-->
 
 ## 레코드의 연결된 레코드 페이지에서 Workfront 프로젝트 및 기타 개선 사항을 인라인 편집합니다.
 
@@ -96,7 +100,8 @@ For more information on approving requests, see [Approve a request in Adobe Work
 
 자세한 내용은 [레코드 페이지 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
 
-<!--## Unified request form list now available
+<!--
+## Unified request form list now available
 
 >[!NOTE]
 >
@@ -108,7 +113,8 @@ To make it easier to find the request form you're looking for in Workfront Plann
 
 Previously, request forms were located only on the object for which they were created.
 
-For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+-->
 
 ## Planning 보기 도구 모음 및 액세스 지점 재디자인
 
@@ -130,7 +136,8 @@ For more information on request forms, see [Create and manage a request form in 
 
 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하십시오.
 
-<!--## Enhancements to request forms in Workfront Planning
+<!--
+## Enhancements to request forms in Workfront Planning
 
 >[!NOTE]
 >
@@ -143,7 +150,8 @@ To make the request process simpler, we've made some enhancements to request for
 * Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
 * Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
 
-For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+-->
 
 ## 달력 주별 보기에서 레코드 크기 조정
 
@@ -411,7 +419,8 @@ Workfront Planning의 공식 필드 및 Workfront의 계산된 사용자 정의 
 
 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
 
-<!--## Updates to Requesting experience 
+<!--
+## Updates to Requesting experience 
 
 >[!NOTE]
 >
@@ -433,7 +442,8 @@ Previously, Workfront and Workfront Planning requests were on separate tabs, and
 For more information on creating requests see:
 
 * For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md) -->
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+-->
 
 ## 타임라인 보기에서 레코드 만들기
 

@@ -6,7 +6,9 @@ description: ' [!DNL Adobe Workfront] 에 정의된 일정은 번다운 시 휴�
 author: Courtney
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 7%
@@ -51,7 +53,7 @@ ht-degree: 7%
 
 ## 번다운 차트에 대체 팀 일정 사용
 
-1. [!DNL Workfront]일정 만들기[에 설명된 대로 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) 관리자가 이미 대체 일정을 만들었는지 확인하십시오.
+1. [!DNL Workfront]일정 만들기[에 설명된 대로 ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) 관리자가 이미 대체 일정을 만들었는지 확인하십시오.
 
 {{step1-to-team}}
 

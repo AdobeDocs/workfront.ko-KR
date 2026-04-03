@@ -7,7 +7,9 @@ description: 증명 승인 보고서에서 현재 문서 버전 필터를 사용
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 4%
@@ -70,7 +72,7 @@ ht-degree: 4%
    증명 승인 보고서를 만들려면 오른쪽 상단의 **기본 메뉴** 아이콘 ![기본 메뉴 아이콘](assets/main-menu-icon.png)을 클릭하거나 왼쪽 상단의 **기본 메뉴** 아이콘 ![기본 메뉴 줄](assets/lines-main-menu.png)을(를) 클릭한 다음 사용 가능한 경우 **보고서** ![보고서 아이콘](assets/reports-in-main-menu.png)을 클릭하십시오.
 
 1. **새 보고서**&#x200B;를 클릭합니다. 객체 유형 목록이 표시됩니다.
-1. 목록에서 **증명 승인**&#x200B;을 클릭합니다.
+1. 목록에서 **증명 승인**을 클릭합니다.
 Report Builder가 열립니다.
 1. **필터**&#x200B;를 클릭한 다음 **필터 규칙 추가**&#x200B;를 클릭합니다.
 

@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '보기: 작업 또는 프로젝트 목록에 원래 문제 정보 표시'
-description: 문제가 목록의 작업 및 프로젝트로 변환된 후 원래 문제에 있는 정보를 작업 및 프로젝트 목록 보기에 표시할 수 있습니다.
+description: 문제가 목록의 작업 및 프로젝트로 전환된 후 원래 문제의 정보를 작업 및 프로젝트 목록 보기에 표시할 수 있습니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 5%
@@ -16,17 +18,17 @@ ht-degree: 5%
 
 # 보기: 작업 또는 프로젝트 목록에 원래 문제 정보 표시
 
-문제가 목록의 작업 및 프로젝트로 변환된 후 원래 문제에 있는 다음 정보를 작업 및 프로젝트 목록 보기에 표시할 수 있습니다.
+문제가 목록의 작업 및 프로젝트로 전환된 후 원래 문제의 다음 정보를 작업 및 프로젝트 목록 보기에 표시할 수 있습니다.
 
 * 전환된 문제 이름
 * 전환된 문제 입력 일자
-* 변환된 문제 작성자 이름
+* 전환된 문제 작성자 이름
 
 표준 Report Builder를 사용하여 보기를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-프로젝트 및 작업 목록에 추가 문제 정보를 포함하는 방법에 대한 자세한 내용은 [작업 및 프로젝트에 대한 원래 문제 세부 정보 보기](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)를 참조하십시오.
+프로젝트 및 작업 목록에 추가 문제 정보를 포함하는 방법에 대한 자세한 내용은 [보기: 작업 및 프로젝트에 대한 시작 문제 세부 정보](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)를 참조하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

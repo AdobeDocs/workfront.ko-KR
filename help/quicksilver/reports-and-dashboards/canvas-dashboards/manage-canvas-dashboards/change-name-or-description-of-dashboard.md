@@ -2,11 +2,13 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: 캔버스 대시보드의 이름 또는 설명 변경
-description: 캔버스 대시보드를 만든 후 해당 대시보드의 이름이나 설명을 편집할 수 있습니다.
+description: 캔버스 대시보드를 만든 후 캔버스 대시보드의 이름이나 설명을 편집할 수 있습니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 7%
@@ -17,18 +19,18 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
->가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원팀에 티켓을 제출하십시오. 자세한 내용은 [고객 지원에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>를 참조하십시오.
->이 베타는 다음 클라우드 공급자에서 사용할 수 없습니다.
+>캔버스 대시보드 기능은 현재 베타 단계에 참여하는 사용자만 사용할 수 있습니다. 이 단계에서 기능 일부가 완전하지 않거나 의도한 대로 작동하지 않을 수 있습니다. Canvas Dashboards Beta 개요 문서의 [피드백 제공](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) 섹션에 있는 지침에 따라 경험에 대한 피드백을 제출하십시오.<br>
+>가능한 버그 또는 기술 문제에 대한 피드백이 있는 경우 Workfront 지원에 티켓을 제출하십시오. 자세한 내용은 [고객 지원 센터에 문의](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)<br>를 참조하세요.
+>다음 클라우드 공급자에서는 이 Beta를 사용할 수 없습니다.
 >
->* Amazon Web Services용 고유 키 가져오기
+>* Amazon Web Services에 대한 자체 키 가져오기
 >* Azure
 >* Google Cloud 플랫폼
 
 
-캔버스 대시보드를 만든 후 해당 대시보드의 이름이나 설명을 편집할 수 있습니다.
+캔버스 대시보드를 만든 후 캔버스 대시보드의 이름이나 설명을 편집할 수 있습니다.
 
-대시보드에 대한 모든 변경 사항은 액세스 권한이 있는 모든 사용자에게 영향을 줍니다.
+대시보드에 대한 모든 변경 사항은 해당 변경 사항에 액세스할 수 있는 모든 사용자에게 영향을 줍니다.
 
 ## 액세스 요구 사항
 
@@ -47,7 +49,7 @@ ht-degree: 7%
    </td> 
 <tr> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront 라이센스</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td> 
 <p>표준</p> 
 <p>플랜</p> 
@@ -56,7 +58,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td role="rowheader"><p>액세스 수준 구성</p></td> 
-   <td><p>보고서, 대시보드 및 달력에 대한 액세스 편집</p>
+   <td><p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p>
   </td> 
   </tr>  
     <tr> 
@@ -67,21 +69,21 @@ ht-degree: 7%
 </tbody> 
 </table>
 
-이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 +++
 
 ## 전제 조건
 
 대시보드의 이름이나 설명을 변경하려면 먼저 대시보드를 만들어야 합니다.
 
-자세한 내용은 [캔버스 대시보드 만들기](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)를 참조하십시오.
+자세한 내용은 [캔버스 대시보드 만들기](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)를 참조하세요.
 
 
 ## 대시보드 이름 및 설명 변경
 
 >[!NOTE]
 >
->캔버스 대시보드를 공유한 사용자는 캔버스 대시보드 인벤토리 목록 및 대시보드 세부 정보 섹션에서 해당 이름과 설명을 볼 수 있습니다.
+>와 Canvas 대시보드를 공유한 사용자는 Canvas 대시보드 인벤토리 목록 및 대시보드 세부 정보 섹션에서 이름과 설명을 볼 수 있습니다.
 
 {{step1-to-dashboards}}
 
@@ -91,7 +93,7 @@ ht-degree: 7%
 
 1. 화면 상단의 대시보드 이름 오른쪽에 있는 **세부 정보** ![세부 정보 아이콘](assets/details-icon.png) 아이콘을 클릭합니다.
 
-1. 새 **이름** 및 **설명**&#x200B;을(를) 입력하십시오.
+1. 새 **이름** 및 **설명**&#x200B;을 입력하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
 

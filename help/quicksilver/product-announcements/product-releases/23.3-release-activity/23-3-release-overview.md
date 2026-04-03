@@ -5,7 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -435,7 +437,8 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>                
- <!--               <tr>
+ <!--
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
                         <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
@@ -450,7 +453,8 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
+                -->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">프로젝트를 만들 때 Adobe Experience Manager Assets에 연결된 폴더를 자동으로 만듭니다</a></p>
@@ -785,7 +789,8 @@ Proof 모바일 앱은 23.10 릴리스(2023년 10월)를 통해 공식적으로 
 Workfront 모바일 앱에는 Workfront 로그인이 필요합니다. 외부 사용자 및 게스트는 증명 작업에 증명 앱을 계속 사용할 수 있지만, 더 이상 지원되지 않으며 23.10 릴리스(2023년 10월)를 통해 사용할 수 없게 됩니다.
 
 
-<!-- HTML you might need
+<!--
+ HTML you might need
 
 New table
 

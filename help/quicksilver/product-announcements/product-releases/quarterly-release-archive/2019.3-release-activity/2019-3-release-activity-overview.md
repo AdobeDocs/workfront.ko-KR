@@ -7,9 +7,11 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1296'
 ht-degree: 1%
 
 ---
@@ -158,14 +160,16 @@ ht-degree: 1%
 
 * [iOS에서 모바일 앱을 사용하여 개체 삭제](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
-  <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
+  <!--
+    <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
 
   이제 모바일 앱에서 작업, 문제 및 타임시트와 같은 개체를 삭제할 수 있습니다. 개체를 삭제하려면 개체에 대한 올바른 권한이 있어야 합니다.
 
 * [모바일 앱을 사용하여 암호 재설정](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#reset)
 
-  <!--<MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
+  <!--
+  <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
   -->
 
   암호를 잊은 경우 Workfront 모바일 앱을 사용하여 암호를 재설정할 수 있습니다.
@@ -351,7 +355,7 @@ Workfront 모바일 앱에서의 경험을 개선하기 위해 몇 가지 새로
   We are removing the Documents and Issues tabs from the Agile iteration details page.
 -->
 
-## Workfront 유지 보수 업데이트
+## Workfront 유지 관리 업데이트
 
 2019.3 릴리스 동안 수행된 유지 관리 업데이트에 대한 자세한 내용은 를 참조하십시오.
 
@@ -403,7 +407,7 @@ TLS 1.2 to be required in Workfront
 
 Flash 기술에 의존하는 모든 기능은 2018.3 릴리스부터 Workfront에서 제거되었으며 새 솔루션으로 대체되었습니다.
 
-기존 Flash 도구 및 대체 요소에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
+기존 Flash 도구 및 대체 도구에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +471,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 3분기 제품 로드맵 웨비나 {#q3-product-roadmap-webinar}
 
-8월 1일 오전 9시에 열리는 [Q3 로드맵 웨비나](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)에서 제공될 작업에 대해 자세히 알아보십시오. MST.
+8월 1일 오전 9시[분에 ](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)Q3 로드맵 웨비나:00에서 제공될 작업에 대해 자세히 알아보세요. MST.

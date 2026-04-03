@@ -7,7 +7,9 @@ description: 여러 개별 열에 표시되는 정보를 병합하여 하나의 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 1%
@@ -90,7 +92,7 @@ ht-degree: 1%
 
    `sharecol=true`
 
-   Workfront 목록 또는 보고서의 처음 두 열을 병합할 때 첫 번째 열의 개체에 대한 정보가 포함된 텍스트 줄 앞에는 `column.0.`이(가) 있고 두 번째 열에 대한 정보가 포함된 텍스트 줄 앞에는 `column.1.`이(가) 있습니다.
+   목록 또는 보고서의 처음 두 열을 병합할 때 첫 번째 열의 개체에 대한 정보가 포함된 텍스트 줄 앞에는 `column.0.`이(가) 있고 두 번째 열에 대한 정보가 포함된 텍스트 줄 앞에는 `column.1.`이(가) 있습니다.
 
    첫 번째 열의 열 번호 앞에 해당 열의 번호를 붙여야 합니다. 열 계산은 항상 `column.0.`(으)로 레이블이 지정된 목록 또는 보고서의 맨 왼쪽 열로 시작됩니다.
 
@@ -141,7 +143,7 @@ ht-degree: 1%
 
    `sharecol=true`
 
-   Workfront 목록 또는 보고서의 처음 두 열을 병합할 때 첫 번째 열의 개체에 대한 정보가 포함된 각 텍스트 줄 앞에 `column.0.`, 공유 정보가 포함된 열 뒤에 `column.1.`이(가) 있고 두 번째 열에 대한 정보가 포함된 텍스트 줄 앞에 `column.2.`이(가) 있습니다.
+   목록 또는 보고서의 처음 두 열을 병합할 때 첫 번째 열의 개체에 대한 정보가 포함된 각 텍스트 줄 앞에 `column.0.`, 공유 정보가 포함된 열 뒤에 `column.1.`이(가) 있고 두 번째 열에 대한 정보가 포함된 텍스트 줄 앞에 `column.2.`이(가) 있습니다.
 
    결합된 열이 뷰의 중간에 있으면 뷰의 위치에 따라 열의 번호가 매겨집니다. 열 계산은 항상 `column.0.`(으)로 레이블이 지정된 목록 또는 보고서의 맨 왼쪽 열로 시작됩니다.
 

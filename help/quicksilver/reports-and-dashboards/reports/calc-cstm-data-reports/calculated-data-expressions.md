@@ -7,7 +7,9 @@ description: 데이터 표현식을 사용하여 Adobe Workfront에서 계산된
 author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%
@@ -121,26 +123,26 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 
-   <td> <p>날짜에 개월 수를 추가하고 형식은 다음과 같이 지정합니다.
+   <td> <p>날짜에 개월 수를 추가하고 형식은 다음과 같습니다.
 
 </p><p><code>ADDMONTHS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDYEARS</strong> </td> 
-   <td> <p>날짜에 연도 수를 추가하고 형식은 다음과 같이 지정합니다.</p>
+   <td> <p>날짜에 연도 수를 추가하고 형식은 다음과 같습니다.</p>
 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDHOURS</strong> </td> 
-   <td> <p>날짜에 시간 수를 추가하고 형식은 다음과 같이 지정합니다.</p>
+   <td> <p>날짜에 시간(시) 수를 추가하고 형식은 다음과 같습니다.</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
    <p>참고: 이 표현식은 Workfront Planning에서 지원되지 않습니다.</p></td> 
   </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
-   <td> <p>날짜의 시간 부분을 지우고 형식은 다음과 같습니다. 이 예에서 날짜는 작업 객체의 시작 날짜입니다.</p>
+   <td> <p>날짜의 시간 부분을 지우고 형식을 다음과 같이 지정합니다. 이 예에서 날짜는 작업 객체의 입력 날짜입니다.</p>
 
 <p><code>CLEARTIME({entryDate})</code></p> </td> 
   </tr> 
@@ -236,7 +238,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>년</strong> </td> 
-   <td> <p>날짜의 연도를 다음 서식으로 4자리 숫자로 반환합니다. 이 예에서 날짜는 작업 객체의 입력 날짜입니다.</p>
+   <td> <p>날짜의 연도를 다음과 같은 형식의 4자리 숫자로 반환합니다. 이 예에서 날짜는 작업 객체의 입력 날짜입니다.</p>
 
 <p><code>YEAR({entryDate})</code></p> </td> 
   </tr> 
@@ -259,31 +261,31 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td><strong>절대</strong> </td> 
-   <td>숫자의 절대값을 반환하며 형식은 다음과 같습니다. 이 예제에서는 사용자 지정 양식이 첨부된 개체 아래의 개체 수를 사용합니다.
+   <td>숫자의 절대값을 반환하며 형식은 다음과 같습니다. 이 예제에서는 사용자 정의 양식이 첨부된 오브젝트 아래에 있는 오브젝트의 수를 사용합니다.
 
 <p><code>ABS({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
    <td><strong>평균</strong> </td> 
-   <td>숫자의 평균을 반환하고 형식은 다음과 같습니다.
+   <td>숫자의 평균을 반환하며 형식은 다음과 같습니다.
 
 <p><code>AVERAGE(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
    <td><strong>CEIL</strong> </td> 
-   <td>숫자를 가장 가까운 정수로 반올림하고 형식을 다음과 같이 지정합니다. 이 예제에서는 사용자 지정 양식이 첨부된 개체 아래의 개체 수를 사용합니다.
+   <td>숫자를 가장 가까운 정수로 반올림하고 형식을 다음과 같이 지정합니다. 이 예제에서는 사용자 정의 양식이 첨부된 오브젝트 아래에 있는 오브젝트의 수를 사용합니다.
 
 <p><code>CEIL({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
    <td><strong>DIV</strong> </td> 
-   <td>제공된 순서대로 모든 숫자를 나누며 형식은 다음과 같이 지정합니다.
+   <td>제공된 순서대로 모든 숫자를 나눕니다. 형식은 다음과 같습니다.
 
 <p><code>DIV(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
    <td><strong>층</strong> </td> 
-   <td>숫자를 가장 가까운 정수로 내림하며 형식은 다음과 같습니다. 이 예제에서는 사용자 지정 양식이 첨부된 개체 아래의 개체 수를 사용합니다.
+   <td>숫자를 가장 가까운 정수로 내림하고 형식을 다음과 같이 지정합니다. 이 예제에서는 사용자 정의 양식이 첨부된 오브젝트 아래에 있는 오브젝트의 수를 사용합니다.
 
 <p><code>FLOOR({numberOfChildren})</code></p></td> 
   </tr> 
@@ -370,7 +372,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-### 텍스트 계산된 사용자 지정 필드 {#text-calculated-custom-fields}
+### 계산된 사용자 정의 필드 텍스트 {#text-calculated-custom-fields}
 
 다음 표현식을 사용하여 텍스트 형식의 값을 표시하는 계산된 사용자 지정 필드를 만들 수 있습니다.
 
@@ -394,7 +396,7 @@ ht-degree: 2%
 
 <tr> 
    <td><strong>ARRAYCONTAINS</strong> </td> 
-   <td> <p>목록 또는 배열에서 특정 값을 검색합니다. 값이 발견되면 함수는 True를 반환하고, 그렇지 않으면 False를 반환합니다. </p> 
+   <td> <p>목록 또는 배열에서 특정 값을 검색합니다. 값이 발견되면 이 함수는 True를 반환하고, 그렇지 않으면 False를 반환합니다. </p> 
    <p>표현식의 형식은 다음과 같습니다.</p>
    <p><code>ARRAYCONTAINS(array, value)</code></p> 
    </td> 
@@ -422,17 +424,17 @@ ht-degree: 2%
    <p>표현식의 형식은 다음과 같습니다.</p>
    <p><code>CASE(indexNumber, value1, value2, ...)</code></p>
 
-<p>예를 들어 다음 표현식은 계산된 열에서 요일 이름(1=일요일, 2=월요일 등)을 반환합니다.</p>
+<p>예를 들어, 다음 표현식은 계산된 열에서 1=일요일, 2=월요일 등 요일의 이름을 반환합니다.</p>
 
 <p><code>CASE(DAYOFWEEK({entryDate}),"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")</code></p>
 
-<p>DAYOFWEEK, DAYOFMONTH 및 MONTH와 같이 숫자를 반환하는 다른 표현식과 함께 가장 잘 작동합니다.</p> </td> 
+<p>DAYOFWEEK, DAYOFMONTH 및 MONTH와 같이 숫자를 반환하는 다른 표현식에 가장 적합합니다.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>CONCAT</strong> </td> 
-   <td> <p>문자열을 연결하고 형식은 다음과 같습니다.</p><p><code>CONCAT(string1,"separator", string2)</code></p> <p>다음은 포함할 수 있는 구분 기호의 예입니다.</p> 
+   <td> <p>문자열을 연결하고 형식을 다음과 같이 지정합니다.</p><p><code>CONCAT(string1,"separator", string2)</code></p> <p>다음은 포함할 수 있는 구분 기호의 예입니다.</p> 
     <ul> 
-     <li>a 공백: " "</li> 
+     <li>공백: " "</li> 
      <li>대시: "-"</li> 
      <li>슬래시: "/"</li> 
      <li>쉼표: ","</li> 
@@ -505,7 +507,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>ISBLANK</strong> </td> 
-   <td> <p>값이 null이거나 비어 있으면 true를 반환합니다. 그렇지 않으면 식이 false를 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.
+   <td> <p>값이 null이거나 비어 있으면 true를 반환합니다. 그렇지 않으면 표현식이 false를 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.
 
 </p><p><code>ISBLANK(value)</code></p> </td> 
   </tr> 
@@ -517,13 +519,13 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>LEN</strong> </td> 
-   <td> <p>문자열의 길이를 반환하고 형식은 다음과 같습니다.</p>
+   <td> <p>문자열의 길이를 반환하고 형식을 다음과 같이 지정합니다.</p>
 
 <p><code>LEN(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>하위</strong> </td> 
-   <td>문자열을 소문자로 반환하고 형식은 다음과 같습니다.
+   <td><strong>LOWER</strong> </td> 
+   <td>문자열을 소문자로 반환하고 형식은 다음과 같이 지정합니다.
 
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
@@ -536,8 +538,8 @@ ht-degree: 2%
    </td> 
   </tr>
   <tr> 
-   <td><strong>REMOVEACENTS</strong> </td> 
-   <td> <p>입력 문자열의 모든 악센트 부호에서 분음 부호를 제거합니다. </p> 
+   <td><strong>REMOVEACCENTS</strong> </td> 
+   <td> <p>입력 문자열의 모든 악센트 부호가 있는 문자에서 분음 부호를 제거합니다. </p> 
    <p>표현식의 형식은 다음과 같습니다.</p>
    <p><code>REMOVEACCENTS(string)</code></p> 
    <p>예를 들어, "아캉스가 있는 헬로 월드"는 "악센트가 있는 헬로 월드"가 됩니다. </p>
@@ -560,13 +562,13 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>오른쪽</strong> </td> 
-   <td> <p>문자열의 오른쪽에서 지정된 문자 수를 반환하며 형식은 다음과 같습니다.</p>
+   <td> <p>문자열 오른쪽에서 지정된 문자 수를 반환하며 형식은 다음과 같습니다.</p>
 
 <p><code>RIGHT(string, length)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>검색</strong> </td> 
-   <td> <p>지정된 시작 위치에서 시작하여 withinText 문자열에서 findText가 처음 발생하는 인덱스를 반환하거나, 텍스트를 찾을 수 없는 경우 -1을 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.</p>
+   <td> <p>지정된 시작 위치에서 시작하는 문자열 withinText에서 findText의 첫 번째 발생 횟수 인덱스를 반환하거나 텍스트를 찾을 수 없는 경우 -1을 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.</p>
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 

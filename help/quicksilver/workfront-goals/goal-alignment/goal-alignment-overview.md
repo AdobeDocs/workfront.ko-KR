@@ -7,7 +7,9 @@ description: 목표 정렬을 사용하면 조직의 모든 구성원이 서로 
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 1%
@@ -27,7 +29,8 @@ ht-degree: 1%
 >Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
 
-<!--Old:
+<!--
+Old:
 >Your organization must have the following to use the functionality described in this article:
 >
 >* For the new plan and license structure:
@@ -41,7 +44,8 @@ ht-degree: 1%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).-->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 목표 정렬은 목표 관리의 중요한 부분입니다. 조직의 모든 구성원이 서로의 목표를 팀, 그룹 및 회사의 조직 목표에 맞춰 전략을 추진하려면 달성해야 하는 목표를 동일한 페이지에 있도록 할 수 있습니다.
 
@@ -58,7 +62,7 @@ ht-degree: 1%
   >
   >이 구조는 최대한 단순하게 유지하는 것이 좋습니다.
 
-* 역할에 따라 다른 종류의 목표를 업데이트해야 합니다. For example:
+* 역할에 따라 다른 종류의 목표를 업데이트해야 합니다. 예:
 
    * 개별 기여자로서 팀, 그룹 및 회사 수준의 목표에 맞게 조정해야 하는 자신의 목표에 기여하는 것이 좋습니다. 목표를 업데이트하면 다른 모든 상위 목표에 대한 진행률이 업데이트되어야 합니다.
    * CEO 또는 비즈니스 관리자로서 목표에 기여하고 팀, 그룹 및 회사에 할당된 목표를 업데이트하는 것이 좋습니다.

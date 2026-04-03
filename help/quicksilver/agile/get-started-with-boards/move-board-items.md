@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Manage Cards
-description: You can move a card to any column on the board, or copy a card.
+title: 카드 관리
+description: 카드를 보드의 임의의 열로 이동하거나 카드를 복사할 수 있습니다.
 author: Courtney
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 6%
@@ -21,7 +23,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->You can&#39;t move a card from one board to another board.
+>한 보드에서 다른 보드로 카드를 이동할 수 없습니다.
 
 ## 액세스 요구 사항
 
@@ -54,39 +56,39 @@ ht-degree: 6%
 {{step1-to-boards}}
 
 1. 보드에 액세스합니다. 자세한 내용은 [게시판 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md)을 참조하세요.
-1. Drag and drop the card into another column, in the position you want it to appear.
+1. 카드를 표시할 위치의 다른 열에 끌어다 놓습니다.
 
    또는
 
-   Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Move]**. Then, on the **[!UICONTROL Move Item]** box, choose another column and select **[!UICONTROL Move]**.
+   카드에서 **[!UICONTROL 기타]** 메뉴 ![기타 메뉴](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 이동]**&#x200B;을 선택합니다. 그런 다음 **[!UICONTROL 항목 이동]** 상자에서 다른 열을 선택하고 **[!UICONTROL 이동]**&#x200B;을 선택합니다.
 
-   ![Move card](assets/boards-move-card-350x217.png)
+   ![카드 이동](assets/boards-move-card-350x217.png)
 
    >[!NOTE]
    >
-   >When you use the **[!UICONTROL Move Item]** box, the card is always moved to the top of the column.
+   >**[!UICONTROL 항목 이동]** 상자를 사용하면 카드가 항상 열의 맨 위로 이동됩니다.
 
-## Move cards to the top or bottom of a column
+## 카드를 열의 상단 또는 하단으로 이동
 
 1. 보드에 액세스합니다.
 1. 카드를 열에 표시할 위치로 끌어다 놓습니다.
 
    또는
 
-   Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Top of column]** or **[!UICONTROL Bottom of column]**.
+   카드에서 **[!UICONTROL 자세히]** 메뉴 ![추가 메뉴](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 열 상단]** 또는 **[!UICONTROL 열 하단]**&#x200B;을 선택합니다.
 
    ![추가 메뉴](assets/boards-moremenu-350x329.png)
 
-## Copy a card
+## 카드 복사
 
-Copying an ad hoc card duplicates all fields on the card, including checklist items.
+임시 카드를 복사하면 체크리스트 항목을 포함하여 카드의 모든 필드가 복제됩니다.
 
 >[!NOTE]
 >
->You can&#39;t copy connected cards.
+>연결된 카드는 복사할 수 없습니다.
 
 1. 보드에 액세스합니다.
-1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Copy]**.
+1. 카드에서 **[!UICONTROL 기타]** 메뉴 ![[!UICONTROL 기타 메뉴]](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 복사]**&#x200B;를 선택합니다.
 
    ![추가 메뉴](assets/boards-moremenu-350x329.png)
 

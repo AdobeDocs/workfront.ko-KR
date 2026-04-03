@@ -8,7 +8,9 @@ author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -25,7 +27,7 @@ ht-degree: 0%
 * [보드 시작: 문서 색인](../agile/get-started-with-boards/get-started-with-boards.md)
 * [보드에서 애자일 계획 도구 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
 * [애자일 개요](../agile/agile-overview.md)
-* [&#x200B; [!DNL Adobe Workfront]에서 애자일 시작](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+* [ [!DNL Adobe Workfront]에서 애자일 시작](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [애자일 팀의 칸반](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [애자일 팀의 스크럼](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [애자일 환경에서 작업](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)

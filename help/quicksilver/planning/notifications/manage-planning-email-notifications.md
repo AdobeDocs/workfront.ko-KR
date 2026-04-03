@@ -6,7 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 1%
@@ -16,9 +18,11 @@ ht-degree: 1%
 
 # Adobe Workfront Planning 이메일 알림 관리
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -28,7 +32,7 @@ ht-degree: 1%
 
   레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
 * 누군가 보기, 작업 영역 또는 레코드 종류 <!--or <span class="preview">or a record</span>-->에 액세스할 수 있는 권한을 요청했습니다.
-* 누군가가 보기, 작업 영역 또는 레코드 형식 <!--<span class="preview">or record</span>-->에 대한 액세스 권한이 부여되었음을 확인합니다. <!--Isk confirmed that there is nno email for denying access but did not test-->
+* 누군가가 보기, 작업 영역 또는 레코드 형식 <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->에 대한 액세스 권한이 부여되었음을 확인합니다.
 * Workfront Planning 요청을 제출합니다. 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 * 누군가가 귀하가 제출한 Workfront Planning 요청을 승인하거나 거부합니다. 자세한 내용은 [Adobe Workfront Planning에서 요청 승인](/help/quicksilver/planning/requests/approve-request.md)을 참조하십시오.
 * 제출한 Workfront Planning 요청의 상태가 변경됩니다.
@@ -166,7 +170,7 @@ Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe 
 
    권한을 요청한 개체가 Workfront에서 열립니다.
 
-1. (조건부) 사용 가능한 경우 **모든 알림 보기**&#x200B;를 클릭합니다.
+1. (조건부) 사용 가능한 경우 **모든 알림 보기**를 클릭합니다.
 **알림** 페이지가 Adobe Experience Cloud에서 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
 
 

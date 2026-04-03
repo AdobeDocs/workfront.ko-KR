@@ -9,10 +9,12 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,16 +22,20 @@ ht-degree: 1%
 
 <!--Audited: 05/2025-->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
-**Linked to Creating Billing Record-->
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+**Linked to Creating Billing Record
+-->
 
-<!--<div class="preview">
+<!--
+<div class="preview">
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>-->
+</div>
+-->
 
 시간 유형은 시간 항목을 정의하는 데 사용하는 레이블입니다. 시간 유형과 시간 항목을 연결할 수 있습니다.
 
@@ -57,7 +63,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +71,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 라이센스</td> 
@@ -127,7 +133,7 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 범위]</td> 
-      <td> <p><strong>범위</strong> 드롭다운 메뉴에서 시간 유형이 일반 또는 프로젝트별 시간 유형인지 선택합니다.</p> <p>일반 시간 유형은 타임시트에서만 볼 수 있으며 프로젝트, 작업 또는 문제와 연결할 수 없습니다.</p> <p><b>중요 사항</b></p><p> 사용자 정의 시간 유형이 [!UICONTROL 프로젝트 특정]이고 [!UICONTROL 일반]으로 변경한 경우 기존의 모든 작업, 문제 및 프로젝트 시간이 해당 시스템 기본 유형으로 설정됩니다.</p> </td> 
+      <td> <p><strong>범위</strong> 드롭다운 메뉴에서 시간 유형이 일반 또는 프로젝트별 시간 유형인지 선택합니다.</p> <p>일반 시간 유형은 타임시트에서만 볼 수 있으며 프로젝트, 작업 또는 문제와 연결할 수 없습니다.</p> <p><b>중요</b></p><p> 사용자 정의 시간 유형이 [!UICONTROL 프로젝트 특정]이고 [!UICONTROL 일반]으로 변경한 경우 기존의 모든 작업, 문제 및 프로젝트 시간이 해당 시스템 기본 유형으로 설정됩니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count as Revenue]</td> 
@@ -174,7 +180,7 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 범위]</td> 
-      <td> <p><strong>범위</strong> 드롭다운 메뉴에서 시간 유형이 일반 또는 프로젝트별 시간 유형인지 선택합니다.</p> <p>일반 시간 유형은 타임시트에서만 볼 수 있으며 프로젝트, 작업 또는 문제와 연결할 수 없습니다.</p> <p><b>중요 사항</b></p> <p>사용자 정의 시간 유형이 [!UICONTROL 프로젝트 특정]이고 [!UICONTROL 일반]으로 변경한 경우 기존의 모든 작업, 문제 및 프로젝트 시간이 해당 시스템 기본 유형으로 설정됩니다.</p> </td> 
+      <td> <p><strong>범위</strong> 드롭다운 메뉴에서 시간 유형이 일반 또는 프로젝트별 시간 유형인지 선택합니다.</p> <p>일반 시간 유형은 타임시트에서만 볼 수 있으며 프로젝트, 작업 또는 문제와 연결할 수 없습니다.</p> <p><b>중요</b></p> <p>사용자 정의 시간 유형이 [!UICONTROL 프로젝트 특정]이고 [!UICONTROL 일반]으로 변경한 경우 기존의 모든 작업, 문제 및 프로젝트 시간이 해당 시스템 기본 유형으로 설정됩니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count as Revenue]</td> 

@@ -6,7 +6,9 @@ description: 웹 브라우저에서 사용할 수 있는 인쇄 옵션을 사용
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 12%
@@ -99,7 +101,7 @@ ht-degree: 12%
       <td>Internet Explorer, Microsoft Edge 및 Mozilla Firefox</td> 
       <td> <p>참고: Internet Explorer 버전 11을 사용하는 경우 서드파티 플러그인을 설치하지 않으면 PDF에 인쇄 기능을 사용하지 못할 수 있습니다.</p> 
        <ol> 
-        <li value="1">Microsoft <strong>프린터</strong> 또는 <strong>프린터 선택</strong> 필드에서 <strong>PDF으로 인쇄</strong>를 선택한 다음 변경할 다른 인쇄 옵션을 수정합니다.</li> 
+        <li value="1"><strong>프린터</strong> 또는 <strong>프린터 선택</strong> 필드에서 <strong>PDF으로 인쇄</strong>를 선택한 다음 변경할 다른 인쇄 옵션을 수정합니다.</li> 
         <li value="2"><strong>인쇄</strong>를 클릭합니다.</li> 
         <li value="3"><strong>파일 이름</strong> 입력</li> 
         <li value="4">(선택 사항) 파일의 새 폴더 대상을 선택합니다.</li> 

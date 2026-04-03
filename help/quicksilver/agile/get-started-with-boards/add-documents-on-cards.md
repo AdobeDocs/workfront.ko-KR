@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Add Documents on Cards
-description: You can add documents to connected cards on Adobe Workfront Boards.
+title: 카드에 문서 추가
+description: Adobe Workfront 보드에서 연결된 카드에 문서를 추가할 수 있습니다.
 author: Courtney
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 6%
@@ -15,11 +17,11 @@ ht-degree: 6%
 
 # 카드에 문서 추가
 
-You can add documents to connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and documents added on the task or issue are visible on the card. The same file types are supported in both areas. For more information on documents in Workfront, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Adobe Workfront 보드에서 연결된 카드에 문서를 추가할 수 있습니다. 카드에 추가한 모든 문서는 연결된 작업 또는 문제의 문서 탭에서 사용할 수 있으며 작업 또는 문제에 추가된 문서는 카드에 표시됩니다. 두 영역에서 동일한 파일 유형이 지원됩니다. Workfront의 문서에 대한 자세한 내용은 [파일 시스템에서 Adobe Workfront에 문서 추가](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)를 참조하십시오.
 
 >[!NOTE]
 >
->Documents are only available on connected cards. For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>문서는 연결된 카드에서만 사용할 수 있습니다. 자세한 내용은 [보드에 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -51,22 +53,22 @@ You can add documents to connected cards on Adobe Workfront Boards. Any document
 
 +++
 
-## Add a document to a card
+## 카드에 문서 추가
 
 {{step1-to-boards}}
 
-1. Open the connected card you want to add a document to.
-1. Drag and drop the file into the [!UICONTROL Documents] area, or click [!UICONTROL **Add document**] to select a file.
+1. 문서를 추가할 연결된 카드를 엽니다.
+1. 파일을 [!UICONTROL 문서] 영역으로 끌어다 놓거나 [!UICONTROL **문서 추가**]&#x200B;를 클릭하여 파일을 선택하십시오.
 
-   The file appears in the [!UICONTROL Documents] area.
+   파일이 [!UICONTROL 문서] 영역에 나타납니다.
 
-   ![Documents added to card](assets/add-document-to-card.png)
+   ![문서에 추가된 문서](assets/add-document-to-card.png)
 
-## View an existing document from the card
+## 카드에서 기존 문서 보기
 
-1. On the card, locate the [!UICONTROL Documents] area. Click ![List icon](assets/docs-list-icon.png) to view all documents in a list, or click ![Gallery icon](assets/docs-gallery-icon.png) to view the documents in a gallery.
-1. Hover over the document thumbnail, and click [!UICONTROL **Preview**] to view the file in the browser or [!UICONTROL **Download**] to download the file to your computer.
+1. 카드에서 [!UICONTROL 문서] 영역을 찾습니다. 목록에 있는 모든 문서를 보려면 ![목록 아이콘](assets/docs-list-icon.png)을 클릭하고 갤러리에서 문서를 보려면 ![갤러리 아이콘](assets/docs-gallery-icon.png)을 클릭하십시오.
+1. 문서 썸네일 위로 마우스를 가져간 다음 [!UICONTROL **미리 보기**]&#x200B;를 클릭하여 브라우저에서 파일을 보거나 [!UICONTROL **다운로드**]&#x200B;를 클릭하여 컴퓨터에 파일을 다운로드합니다.
 
    >[!NOTE]
    >
-   >PDFs do not show a thumbnail image.
+   >PDF에는 썸네일 이미지가 표시되지 않습니다.

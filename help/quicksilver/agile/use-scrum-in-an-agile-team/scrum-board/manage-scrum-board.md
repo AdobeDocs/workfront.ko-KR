@@ -6,7 +6,9 @@ description: 스크럼 보드에서 다른 반복 또는 백로그로 스토리 
 author: Courtney
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 3%
@@ -73,7 +75,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >작업 항목 [!UICONTROL 계획된 시작 일자] 및 [!UICONTROL 계획된 완료 일자]가 [!UICONTROL 팀 편집] 페이지의 설정에 영향을 받습니다. 자세한 내용은 문서 [[!UICONTROL 스크럼 구성]에서 &#x200B;](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)구성[, 작업 항목을 반복에 추가할 때 날짜가 적용되는 방법](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 섹션을 참조하십시오.
+   >작업 항목 [!UICONTROL 계획된 시작 일자] 및 [!UICONTROL 계획된 완료 일자]가 [!UICONTROL 팀 편집] 페이지의 설정에 영향을 받습니다. 자세한 내용은 문서 [[!UICONTROL 스크럼 구성]에서 ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)구성[, 작업 항목을 반복에 추가할 때 날짜가 적용되는 방법](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 섹션을 참조하십시오.
 
 1. **[!UICONTROL 이동]**&#x200B;을 클릭합니다.
 

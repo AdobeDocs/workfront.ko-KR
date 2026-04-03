@@ -8,7 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -64,21 +66,21 @@ ht-degree: 2%
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이센스</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
    <td> <p>문제 및 문서의 경우:</p>
 
 <ul><li><p>기여자 이상</p></li>
    <li><p>요청 이상</p></li></ul>
 
 <p>기타 모든 객체의 경우:</p>
-   <ul><li><p>가벼움 또는 그 이상</p></li>
+   <ul><li><p>밝거나 높음</p></li>
    <li><p>검토 이상</p></li></ul>
 
 </td>  
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
-   <td> <p>업데이트 대상 객체에 대한 액세스 보기 또는 편집</p> </td> 
+   <td> <p>업데이트가 있는 오브젝트에 대한 보기 또는 편집 액세스 권한</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
@@ -91,7 +93,8 @@ ht-degree: 2%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -116,7 +119,8 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Workfront에서 업데이트 또는 회신에 회신
 
@@ -133,22 +137,22 @@ ht-degree: 2%
 
    **모두** 탭을 클릭한 다음 **댓글에서 답글 작성**&#x200B;을 클릭하여 댓글 탭에서 댓글을 열고 회신합니다. 모두 탭에서 회신할 수 없습니다.
 
-1. (선택 사항) 회신에 이전 업데이트의 텍스트를 포함하려면 회신할 댓글의 오른쪽 위 모서리에 있는 **자세히** 메뉴를 클릭한 다음 **견적 회신**&#x200B;을 클릭하세요. 이전 업데이트의 텍스트가 회색 세로줄로 표시된 입력 영역에 나타납니다.
-1. **회신**&#x200B;을 클릭하세요.
+1. (선택 사항) 회신에 이전 업데이트의 텍스트를 포함하려면 회신할 댓글의 오른쪽 상단에 있는 **자세히** 메뉴를 클릭한 다음 **회신 견적**&#x200B;을 클릭합니다. 이전 업데이트의 텍스트가 입력 영역에 세로로 회색 선으로 표시됩니다.
+1. **회신**&#x200B;을 클릭합니다.
 
-   ![빈 상자를 업데이트하려면 회신](assets/reply-to-update-empty-box.png)
+   ![빈 상자를 업데이트하는 회신](assets/reply-to-update-empty-box.png)
 
-   **회신 추가...** 상자 아래쪽에서 대화에 적극적으로 참여하는 사용자를 볼 수 있으며 더 추가하거나 더 이상 관련이 없는 사용자를 제거할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트 또는 회신이 이루어질 때마다 알림을 받습니다. 더 많은 사용자에 태그를 지정하여 회신에 추가할 수도 있습니다.  더 많은 사용자에게 태그를 지정하려면 [다른 사용자에게 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
+   **회신 추가...** 상자 아래쪽에 대화에 적극적으로 참여한 사용자가 표시되어 더 이상 관련이 없는 사용자를 추가하거나 제거할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트 또는 회신이 이루어질 때마다 알림을 받습니다. 더 많은 사용자에 태그를 지정하여 회신에 추가할 수도 있습니다.  더 많은 사용자를 태그 지정하려면 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
 
    >[!TIP]
    >
-   >   기존 답글에 답글을 추가하려면 **답글 추가..** 상자에 입력을 시작하거나 원본 댓글에서 **답글**&#x200B;을 클릭하세요. 회신이 스레드 끝에 추가됩니다.
+   >   기존 회신에 회신을 추가하려면 **회신 추가...** 상자에 입력을 시작하거나 원래 댓글에서 **회신**&#x200B;을 클릭할 수 있습니다. 답변은 스레드 끝에 추가됩니다.
 
-1. 답글 입력을 시작하고 리치 텍스트 도구 모음의 추가 옵션을 사용합니다. 리치 텍스트 또는 기타 업데이트 기능 사용에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
+1. 답글 입력을 시작하고 리치 텍스트 도구 모음에서 추가 옵션을 사용하십시오. 서식 있는 텍스트나 기타 업데이트 기능에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 1. 회신을 저장하려면 **제출**&#x200B;을 클릭하세요.
 
-1. (선택 사항) 회신을 관리할 추가 옵션을 보려면 회신할 댓글의 오른쪽 상단 모서리에 있는 **자세히** 메뉴 ![자세히 메뉴](assets/more-menu.png)를 클릭하세요. 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
+1. (선택 사항) 회신을 관리할 추가 옵션을 보려면 회신할 댓글의 오른쪽 상단에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭합니다. 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
@@ -179,10 +183,10 @@ ht-degree: 2%
 
 다음과 같은 방법으로 이메일 알림에서 업데이트에 회신할 수 있습니다.
 
-* 받은 이메일에 답장을 보냅니다. 답글 이메일이 원본 댓글에 대한 Workfront 답글로 추가됩니다.
+* 받은 이메일에 답장을 보냅니다. 답글 이메일이 원래 의견에 대한 Workfront 답글로 추가됩니다.
 * 이메일 내의 댓글 버튼을 사용하여 Workfront으로 다시 이동하고 업데이트 영역에서 업데이트에 회신할 수 있습니다.
 
-다음은 작업의 업데이트 탭에서 업데이트한 결과로 트리거되는 이메일 알림의 예입니다.
+다음은 작업의 업데이트 탭에서 업데이트한 결과로서 트리거되는 이메일 알림의 예입니다.
 
 ![email.png](assets/email-350x202.png)
 

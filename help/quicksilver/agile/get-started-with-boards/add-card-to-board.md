@@ -6,7 +6,9 @@ description: Ad Hoc 카드를 보드에 빠르게 추가하고 보드에 있는 
 author: Courtney
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 2%
@@ -82,7 +84,7 @@ ht-degree: 2%
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 상태]</strong> </td> 
-      <td>카드 상태를 선택합니다. 카드 상단에서 <strong>[!UICONTROL Mark Complete]</strong>을(를) 클릭하면 상태가 자동으로 [!UICONTROL Complete] (으)로 변경됩니다.</td> 
+      <td>카드 상태를 선택합니다. 카드 상단에서 <strong>[!UICONTROL Mark Complete]</strong>을(를) 클릭하면 상태가 자동으로 [!UICONTROL Complete](으)로 변경됩니다.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 기한]</strong></td> 

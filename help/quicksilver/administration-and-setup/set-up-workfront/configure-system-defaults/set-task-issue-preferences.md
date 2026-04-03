@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2228'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,12 +21,16 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
-Linked to Converting Issues.-->
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
+Linked to Converting Issues.
+-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 [!DNL Adobe Workfront] 관리자는 작업 및 문제에 대한 시스템 전체 환경 설정을 구성할 수 있습니다. 이러한 환경 설정은 사용자가 [!DNL Workfront]에서 작업 및 문제를 만드는 방식에 영향을 줍니다.
@@ -34,7 +40,7 @@ Linked to Converting Issues.-->
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +48,7 @@ Linked to Converting Issues.-->
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 라이센스</td> 
@@ -84,7 +90,7 @@ Linked to Converting Issues.-->
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[!UICONTROL 시작 날짜]</td> 
+    <td role="rowheader">[!UICONTROL 시작 일자]</td> 
     <td> <p>프로젝트 관리자의 새 작업에 대한 기본 시작 날짜를 결정합니다. 새 작업의 시작 일자는 프로젝트의 계획된 시작 일자 또는 작업이 생성된 날짜일 수 있습니다.</p> </td> 
     </tr> 
     <tr> 
@@ -121,7 +127,7 @@ Linked to Converting Issues.-->
     <td role="rowheader">[!UICONTROL 문제를 작업으로 전환할 때]</td> 
     <td> <p>이 섹션의 설정은 문제에서 작업으로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
       <ul> 
-      <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 작업에 연결]</strong>: 문제를 전환할 때 작업이 완료될 때까지 문제로 계속 표시됩니다. 작업이 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed] (으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다.</p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
+      <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 작업에 연결]</strong>: 문제를 전환할 때 작업이 완료될 때까지 문제로 계속 표시됩니다. 작업이 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다.</p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
         <ul> 
           <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a> </p> </li> 
           <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a> </p> </li> 
@@ -134,7 +140,7 @@ Linked to Converting Issues.-->
     <td role="rowheader">[!UICONTROL 문제를 프로젝트로 전환할 때]</td> 
     <td> <p>이 섹션의 설정은 문제에서 프로젝트로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
       <ul> 
-      <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 프로젝트에 연결]</strong>: 문제를 전환할 때 프로젝트가 완료될 때까지 문제로 계속 표시됩니다. 프로젝트가 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed] (으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다. </p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
+      <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 프로젝트에 연결]</strong>: 문제를 전환할 때 프로젝트가 완료될 때까지 문제로 계속 표시됩니다. 프로젝트가 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다. </p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
         <ul> 
           <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a> </p> </li> 
           <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a> </p> </li> 
@@ -177,15 +183,15 @@ Linked to Converting Issues.-->
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[!UICONTROL 작업 또는 문제가 "신규"에서 "진행 중"으로 변경되면 실제 시작 일자를] (으)로 설정합니다.</td> 
-    <td> <p>작업 또는 문제가 [!DNL Workfront]&#x200B;[!UICONTROL New]<strong>에서 </strong>[!UICONTROL In Progress]<strong>(으)로 이동할 때 실제 시작 날짜가 </strong>에 기록되는 경우 다음 옵션 중 하나를 선택하십시오.</p> 
+    <td role="rowheader">[!UICONTROL 작업 또는 문제가 "신규"에서 "진행 중"으로 변경되면 실제 시작 일자를](으)로 설정합니다.</td> 
+    <td> <p>작업 또는 문제가 [!DNL Workfront][!UICONTROL New]<strong>에서 </strong>[!UICONTROL In Progress]<strong>(으)로 이동할 때 실제 시작 날짜가 </strong>에 기록되는 경우 다음 옵션 중 하나를 선택하십시오.</p> 
       <ul> 
       <li><strong>[!UICONTROL Now]:</strong> 실제 시작 날짜가 현재 날짜로 설정되어 있습니다.</li> 
       <li><strong>[!UICONTROL 계획된 시작 일자]:</strong> 실제 시작 일자가 작업 또는 문제의 계획된 시작 일자로 설정됩니다.</li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL 작업 또는 문제가 완료되면 실제 완료 일자를] (으)로 설정하십시오.</td> 
+    <td role="rowheader">[!UICONTROL 작업 또는 문제가 완료되면 실제 완료 일자를](으)로 설정하십시오.</td> 
     <td> <p>작업 또는 문제가 완료될 때 실제 완료 날짜가 [!DNL Workfront]에 기록되는 경우 다음 옵션 중 하나를 선택하십시오.</p> 
       <ul> 
       <li><strong>[!UICONTROL Now]:</strong> 실제 완료 날짜가 현재 날짜로 설정되어 있습니다.</li> 

@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: 간판 보드의 스토리에 사용자 할당
-description: 사용자는 간판 보드에서 직접 스토리에 할당할 수 있습니다.
+title: 칸반 보드의 스토리에 사용자 할당
+description: 칸반 보드에서 직접 스토리에 사용자를 할당할 수 있습니다.
 author: Courtney
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 9%
@@ -15,7 +17,7 @@ ht-degree: 9%
 
 # [!UICONTROL Kanban] 보드의 스토리에 사용자 할당
 
-사용자는 간판 보드에서 직접 스토리에 할당할 수 있습니다.
+칸반 보드에서 직접 스토리에 사용자를 할당할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -32,14 +34,14 @@ ht-degree: 9%
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>표준</p> 
    <p>작업 이상</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -47,11 +49,11 @@ ht-degree: 9%
 
 {{step1-to-team}}
 
-1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 간판 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
+1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 Kanban 팀을 선택하거나 검색 창에서 팀을 검색합니다.
 
-1. 사용자를 할당하려는 Agile [!UICONTROL Kanban] 보드로 이동합니다.
+1. 사용자를 할당하려는 애자일 [!UICONTROL Kanban] 보드로 이동합니다.
 1. 사용자를 추가하려는 [!UICONTROL Kanban] 보드의 스토리 타일로 이동합니다.
-1. 스토리 타일에서 팀 아바타(또는 이미 할당된 사용자 아바타)를 클릭하고 스토리에 할당할 사용자 이름을 입력한 다음 나타나는 이름을 클릭합니다. 추천된 사용자를 선택할 수도 있습니다.
+1. 스토리 타일에서 팀 아바타(또는 이미 할당된 경우 사용자 아바타)를 클릭하고 스토리에 할당할 사용자의 이름을 입력한 다음 표시될 때 이름을 클릭합니다. 추천 사용자를 선택할 수도 있습니다.
 
    >[!TIP]
    >

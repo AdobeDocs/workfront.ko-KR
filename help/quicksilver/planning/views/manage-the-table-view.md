@@ -6,7 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3563'
 ht-degree: 2%
@@ -77,7 +79,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -138,7 +141,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 </td>
   </tr>
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 표 보기를 사용하여 레코드 편집
 
@@ -529,7 +533,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
       보기에 적용되는 그룹화 수에 따라 일부 옵션을 사용할 수 없습니다.
 
-<!-- this is not available yet: 
+<!--
+ this is not available yet: 
 
 To sort grouped records: 
 

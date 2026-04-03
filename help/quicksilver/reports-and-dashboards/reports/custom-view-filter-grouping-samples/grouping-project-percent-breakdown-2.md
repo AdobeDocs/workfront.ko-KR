@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '그룹화: 프로젝트 백분율 분류 2'
-description: 이 사용자 지정 프로젝트 그룹화에서는 완료율 값 범위를 기준으로 그룹화된 프로젝트를 표시할 수 있습니다. 분류는 0~10%, 11~20%, 21~30% 등과 같이 10% 포인트 증분의 완료 퍼센트 값을 표시합니다.
+description: 이 사용자 정의 프로젝트 그룹에서는 완료율 값 범위로 그룹화된 프로젝트를 표시할 수 있습니다. 분류는 0~10%, 11~20%, 21~30% 등 10% 포인트 증가의 완료율 값을 표시합니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 7%
@@ -18,9 +20,9 @@ ht-degree: 7%
 
 <!--Audited: 10/2024-->
 
-이 사용자 지정 프로젝트 그룹화에서는 완료율 값 범위를 기준으로 그룹화된 프로젝트를 표시할 수 있습니다. 분류는 0~10%, 11~20%, 21~30% 등과 같이 10% 포인트 증분의 완료 퍼센트 값을 표시합니다.
+이 사용자 정의 프로젝트 그룹에서는 완료율 값 범위로 그룹화된 프로젝트를 표시할 수 있습니다. 분류는 0~10%, 11~20%, 21~30% 등 10% 포인트 증가의 완료율 값을 표시합니다.
 
-다음 그룹화는 완료 퍼센트 값별로 프로젝트를 다음 그룹화 중 하나로 구성합니다.
+다음 그룹화는 완료율 값별로 프로젝트를 이러한 그룹화 중 하나로 구성합니다.
 
 * 0%
 * 1-10%
@@ -50,14 +52,14 @@ ht-degree: 7%
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>참여자 또는 필터 수정 요청 </p>
-   <p>표준 또는 계획: 보고서 수정</p>
+   <p>필터 수정을 위한 기여자 또는 요청 </p>
+   <p>표준 또는 보고서 수정 계획</p>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>보고서, 대시보드, 달력에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스를 편집하여 필터 수정</p> </td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 필터 수정</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -66,19 +68,19 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
-## 프로젝트 백분율 분류별로 그룹화
+## 프로젝트 비율 분류별 그룹화
 
-이 그룹화를 적용하려면 다음을 수행합니다.
+이 그룹화를 적용하려면:
 
 1. 프로젝트 목록으로 이동합니다.
-1. **그룹화** 드롭다운 메뉴에서 **새 그룹화**&#x200B;를 선택합니다.
+1. **그룹화** 드롭다운 메뉴에서 **새 그룹화**&#x200B;을 선택합니다.
 
 1. **텍스트 모드로 전환**&#x200B;을 클릭합니다.
-1. 상자의 텍스트를 제거하고 다음 코드를 사용 가능한 공간에 붙여 넣습니다.
+1. 상자의 텍스트를 제거하고 사용 가능한 공간에 다음 코드를 붙여넣습니다.
 
    ```
    group.0.linkedname=direct
@@ -89,4 +91,4 @@ ht-degree: 7%
    ```
 
 1. **완료** > **그룹화 저장**&#x200B;을 클릭합니다.
-1. (선택 사항) 그룹화 이름을 업데이트한 후 **그룹화 저장**&#x200B;을 클릭합니다.
+1. (선택 사항) 그룹화 이름을 업데이트한 다음 **그룹화 저장**&#x200B;을 클릭합니다.

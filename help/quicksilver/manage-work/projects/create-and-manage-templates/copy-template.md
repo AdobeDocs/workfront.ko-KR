@@ -6,10 +6,12 @@ description: 처음부터 프로젝트 템플릿을 작성할 수 있을 뿐만 
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -21,7 +23,7 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 다음 액세스 권한이 있어야 합니다.
 
@@ -31,7 +33,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -53,7 +55,8 @@ ht-degree: 3%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
  <col> 
  <col> 
@@ -76,7 +79,8 @@ ht-degree: 3%
    <td> <p>View or higher permissions to a template</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 템플릿 복사 관련 고려 사항
 
@@ -94,7 +98,7 @@ ht-degree: 3%
 
 다음 항목은 기존 템플릿에서 새 템플릿으로 복사되지 않습니다.
 
-* 결제 요율
+* 청구 요율
 * 사용자 댓글
 
 ## 템플릿 복사

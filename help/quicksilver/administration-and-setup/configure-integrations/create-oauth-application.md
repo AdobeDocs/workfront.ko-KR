@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1960'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +33,7 @@ ht-degree: 6%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +41,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -126,7 +128,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
 {{step-1-to-setup}}
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth2 응용 프로그램]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 앱 통합 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 앱 통합 만들기]**를 클릭합니다.
 **새 OAuth2 응용 프로그램** 상자가 표시됩니다.
 1. **새 OAuth2 응용 프로그램** 상자에서 **[!UICONTROL 컴퓨터 대 컴퓨터 응용 프로그램]**&#x200B;을 선택합니다.
 1. 새 응용 프로그램의 이름을 입력하십시오(예: &quot;[!DNL Workfront] for ClientApp&quot;).
@@ -211,7 +213,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 리디렉션 URL]</td> 
-      <td>사용자가 [!DNL Workfront] (으)로 인증되면 이 경로로 리디렉션됩니다.</td> 
+      <td>사용자가 [!DNL Workfront](으)로 인증되면 이 경로로 리디렉션됩니다.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 새로 고침 토큰 순환]</td> 
@@ -314,9 +316,11 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
    </tbody> 
    </table>
 
-   <!-- removed this from the table, and added "Developer name" and following rows:
+   <!--
+    removed this from the table, and added "Developer name" and following rows:
    [!UICONTROL App Description URL]</td> 
-      <td>This can be a link to an "About us" page or a page with more information about the integration.> -->
+      <td>This can be a link to an "About us" page or a page with more information about the integration.>
+      -->
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

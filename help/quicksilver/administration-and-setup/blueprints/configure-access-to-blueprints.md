@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 3%
@@ -21,7 +23,7 @@ ht-degree: 3%
 
 시스템 관리자는 다음 작업을 수행할 수 있습니다.
 
-* 레이아웃 템플릿의 기본 메뉴에 [!UICONTROL 블루프린트]를 추가하고 사용자 또는 그룹에 레이아웃 템플릿을 할당하십시오. 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴 사용자 지정] 및 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)레이아웃 템플릿에 사용자 할당[을 참조하십시오.](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
+* 레이아웃 템플릿의 기본 메뉴에 [!UICONTROL 블루프린트]를 추가하고 사용자 또는 그룹에 레이아웃 템플릿을 할당하십시오. 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴 사용자 지정] 및 ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)레이아웃 템플릿에 사용자 할당[을 참조하십시오.](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
   >[!NOTE]
   >

@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -63,4 +65,4 @@ Adobe 통합 경험에는 다음이 포함됩니다.
 
 팀 및 사용자는 이 변경 사항에 포함되지 않습니다. 사용자는 여전히 팀과 사용자 이름을 볼 수 있습니다.
 
-자세한 내용은 [&#x200B; 개체 개요 문서의 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects)개체 액세스 제한[!DNL Adobe Workfront] 섹션을 참조하십시오.
+자세한 내용은 [ 개체 개요 문서의 ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects)개체 액세스 제한[!DNL Adobe Workfront] 섹션을 참조하십시오.

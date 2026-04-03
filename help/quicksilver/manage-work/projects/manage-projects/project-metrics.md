@@ -8,7 +8,9 @@ description: 프로젝트 지표는 프로젝트에서 발생하는 작업을 �
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 2%
@@ -29,7 +31,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -51,7 +53,8 @@ ht-degree: 2%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +78,8 @@ ht-degree: 2%
    <td> <p>View permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 전제 조건
 
@@ -101,11 +105,13 @@ ht-degree: 2%
 
 이러한 작업 또는 문제를 확인하는 방법에 대한 자세한 내용은 [지표 세부 정보 보기](#view-metrics-details)를 참조하세요.
 
-<!--this was deprecated: 
+<!--
+this was deprecated: 
 >[!TIP]
 >
 >To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
->To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
+-->
 
 ## 프로젝트 KPI
 

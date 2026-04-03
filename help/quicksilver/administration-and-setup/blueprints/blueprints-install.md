@@ -9,7 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%
@@ -87,7 +89,7 @@ ht-degree: 4%
 1. (선택 사항) 블루프린트의 작동 방식을 알아보려면 **[!UICONTROL 세부 정보]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
 1. 프로덕션 환경 또는 샌드박스 환경에 설치하도록 선택합니다.\
-   자세한 내용은 [블루프린트는 어디에서 설치할 수 있습니까?이 문서의 &#x200B;](#where-should-i-install-a-blueprint) 섹션.
+   자세한 내용은 [블루프린트는 어디에서 설치할 수 있습니까?이 문서의 ](#where-should-i-install-a-blueprint) 섹션.
 1. **구성** 페이지에서 다음 중 하나를 수행하도록 선택할 수 있습니다.
 
    * 블루프린트를 그대로 설치합니다. 구성이 필요하지 않은 블루프린트 유형의 경우 이 옵션만 제공됩니다. 구성이 필요한 블루프린트 유형의 경우 선택적으로 지금 블루프린트를 설치하고 나중에 구성할 수 있습니다. **[!UICONTROL 다음으로 설치]**&#x200B;를 클릭합니다.

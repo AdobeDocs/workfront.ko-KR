@@ -4,10 +4,12 @@ description: 오브젝트의 세부 정보 섹션에서 개요 및 사용자 정
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -43,7 +45,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront 패키지</p> </td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront 라이선스</p> </td> 
@@ -70,7 +72,8 @@ ht-degree: 3%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -92,7 +95,8 @@ ht-degree: 3%
    <td> <p>View or higher permissions to the project, task, or issue whose form you want to export</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 전제 조건
 

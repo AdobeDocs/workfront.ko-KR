@@ -6,7 +6,9 @@ description: 이 문서를 검토하여 Kanban 보드에서 기존 스토리에 
 author: Courtney
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 6%
@@ -61,4 +63,4 @@ ht-degree: 6%
 
 1. 하위 작업을 추가할 스토리가 포함된 [!UICONTROL Kanban] 보드로 이동합니다.
 1. [!UICONTROL Kanban] 보드의 스토리 타일에서 작업 이름을 클릭합니다.
-1. [!DNL Workfront]하위 작업 만들기[에 설명된 대로 &#x200B;](../../manage-work/tasks/create-tasks/create-subtasks.md) 내의 다른 작업 목록에서처럼 작업에 하위 작업을 추가하십시오.
+1. [!DNL Workfront]하위 작업 만들기[에 설명된 대로 ](../../manage-work/tasks/create-tasks/create-subtasks.md) 내의 다른 작업 목록에서처럼 작업에 하위 작업을 추가하십시오.

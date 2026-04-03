@@ -5,7 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2245'
 ht-degree: 4%
@@ -19,9 +21,11 @@ ht-degree: 4%
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2025년 4분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
 
 
-<!-- Keep commented until Final Preview release.
+<!--
+ Keep commented until Final Preview release.
 
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>.
+-->
 
 >[!IMPORTANT]
 >
@@ -64,15 +68,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>필요한 데이터에 대한 액세스 권한을 보유하는지 확인하기 위해 개체에서 사용자 정의 양식을 제거할 때 확인 대화 상자를 추가했습니다. 객체에서 사용자 정의 양식을 제거하면 해당 양식의 데이터가 객체에서 영구적으로 제거됩니다. 이제 이 대화 상자에서 이 데이터가 제거된다는 사실을 확인함으로써 필요한 데이터를 제거하지 않도록 할 수 있습니다. </p>
         </td>
         <td>2025년 9월 24일 목요일</td>
-        <td>2025년 9월 25일 금요일</td>
-        <td>2025년 9월 25일 금요일</td>
+        <td>2025년 9월 25일</td>
+        <td>2025년 9월 25일</td>
     </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">새 게시판 관리자 보기</a><p></p>
             <p>보드 관리 보기에는 시스템 관리자가 마지막으로 업데이트된 시간, 각 보드에 있는 카드 수 등을 포함하여 전체 보드 세부 사항에 대한 빠른 스냅샷을 얻는 데 사용할 수 있는 계정의 모든 보드 목록이 포함되어 있습니다.</p>
         </td>
-        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 9월 11일</td>
         <td>2025년 10월 15일 목요일</td>
         <td>2025년 10월 16일 금요일</td>
     </tr> 
@@ -82,7 +86,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>예정된 AI 기능을 보다 쉽게 보고 영향을 줄 수 있도록 귀사에서 해당 기능에 대한 베타를 활성화할 수 있도록 했습니다. 이제 시스템 환경 설정에서 현재 사용 가능한 AI Beta 기능 중 하나 이상을 활성화하도록 선택할 수 있습니다.</p>
         </td>
         <td>2025년 8월 28일 금요일</td>
-        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 9월 11일</td>
         <td>2025년 10월 16일 금요일</td>
     </tr>     
      <tr>
@@ -210,7 +214,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>새 내 요청 위젯에는 새 요청 경험에서 생성된 요청만 표시됩니다.</p>
         </td>
         <td>2025년 8월 21일 금요일</td>
-        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 9월 11일</td>
         <td>2025년 10월 16일 금요일</td>
     </tr>     
   </tbody>
@@ -227,7 +231,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
     </tr>
-      <!--<tr>
+      <!--
+      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
             <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
@@ -235,16 +240,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>August 21, 2025</td>
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
-    </tr> -->
+    </tr>
+    -->
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">새 프로젝트 상태 베타</a>
             <p>새로운 프로젝트 상태 기능은 AI Assistant의 기능을 활용하여 프로젝트의 수행 방식과 주의가 필요한 영역에 대한 평가를 즉시 제공합니다.</p>
             <p>AI Assistant는 프로젝트, 프로그램 및 여러 프로젝트에 대한 프로젝트 상태 평가를 생성할 수 있습니다.</p>
         </td>
-        <td>2025년 9월 11일 금요일</td>
-        <td>2025년 9월 11일 금요일</td>
-        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 9월 11일</td>
+        <td>2025년 9월 11일</td>
+        <td>2025년 9월 11일</td>
     </tr> 
   <tr>
         <td>
@@ -266,7 +272,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>이제 목록의 할당에 <b>고급</b> 단추를 사용할 수 있으므로 고급 할당 페이지에 더 빨리 액세스할 수 있습니다. 고급 할당에 액세스하기 위한 <b>사람</b> 아이콘은 목록의 할당에서도 사용할 수 있습니다.</p>
         </td>
         <td>2025년 8월 7일 금요일</td>
-        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 9월 11일</td>
         <td>2025년 10월 16일 금요일</td>
     </tr> 
   </tbody>
@@ -326,7 +332,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>2025년 10월 15일 목요일</td>
         <td>2025년 10월 16일 금요일</td>
     </tr> 
-    <!--<tr>
+    <!--
+    <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">New combined Status column in unified Request list</a><p></p>
             <p>To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.</p>
@@ -334,7 +341,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>August 28, 2025</td>
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
-    </tr>  -->   
+    </tr>
+    -->
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">요청 중인 경험에 대한 업데이트</a><p></p>
@@ -348,7 +356,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </p>
         </td>
         <td>2025년 8월 21일 금요일</td>
-        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 9월 11일</td>
         <td>2025년 10월 16일 금요일</td>
     </tr>     
   </tbody>
@@ -372,7 +380,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">이제 더 많은 Workfront 조직에서 Adobe 통합 환경을 사용할 수 있습니다</a><p></p>
             <p>조직이 Adobe 통합 경험의 이점을 이용할 수 있도록 하기 위해 기존 Workfront 고객이 이를 사용할 수 있도록 계속 노력하고 있습니다.</p><p><span style="color: #ff0000;">Adobe 통합 환경을 단계적으로 롤아웃할 수 있습니다.</span> </p>
         </td>
-        <td><p>2025년 9월 11일 금요일</p><p>또는</p><p>2025년 12월 11일 금요일</p></td>
+        <td><p>2025년 9월 11일</p><p>또는</p><p>2025년 12월 11일 금요일</p></td>
         <td><p>2025년 10월 16일 금요일</p><p>또는</p><p>2026년 1월 15일 금요일</p></td>
         <td><p>2025년 10월 16일 금요일</p><p>또는</p><p>2026년 1월 15일 금요일</p></td>
     <tr>
@@ -385,7 +393,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </ul>
         </td>
         <td>2025년 8월 28일 금요일</td>
-        <td>2025년 9월 11일 금요일</td>
+        <td>2025년 9월 11일</td>
         <td>2025년 10월 16일 금요일</td>
     </tr>     
                  <tr>
@@ -465,7 +473,7 @@ Desktop Proofing Viewer가 버전 2.1.52로 업데이트되어 버그 수정 사
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ### API 버전 20
 
@@ -477,8 +485,8 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

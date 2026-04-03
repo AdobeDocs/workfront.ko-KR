@@ -6,7 +6,9 @@ description: 더 이상 연결할 수 없는 경우 두 목표 간의 정렬을 
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 5%
@@ -75,7 +77,8 @@ ht-degree: 5%
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -124,7 +127,8 @@ ht-degree: 5%
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## 전제 조건
 

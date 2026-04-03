@@ -7,7 +7,9 @@ description: 이 사용자 정의 프로젝트 그룹에서는 완료율 값 범
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7cdc8e56-3486-4e78-b494-b2ba9389c1f7
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 8%
@@ -18,7 +20,7 @@ ht-degree: 8%
 
 <!--Audited: 10/2024-->
 
-이 사용자 정의 프로젝트 그룹화에서는 완료율 값 범위로 그룹화된 프로젝트를 표시할 수 있습니다. 분류는 0~25%, 26~50%, 51~75% 등 25% 포인트 증가의 완료율 값을 보여 줍니다.
+이 사용자 정의 프로젝트 그룹에서는 완료율 값 범위로 그룹화된 프로젝트를 표시할 수 있습니다. 분류는 0~25%, 26~50%, 51~75% 등 25% 포인트 증가의 완료율 값을 보여 줍니다.
 
 다음 그룹화는 완료율 값별로 프로젝트를 이러한 그룹화 중 하나로 구성합니다.
 
@@ -64,7 +66,7 @@ ht-degree: 8%
 
 +++
 
-## 프로젝트별 분류 퍼센트 분석
+## 프로젝트 비율 분류별 그룹화
 
 이 그룹화를 적용하려면:
 

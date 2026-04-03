@@ -2,31 +2,33 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '보기: 작업 보기의 기간 및 계획된 작업에 대한 기준 차이'
+title: '보기: 작업 보기의 기간 및 계획된 작업에 대한 초기 계획 차이'
 description: 기간 및 계획된 작업에 대한 베이스라인 차이를 봅니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 8%
 
 ---
 
-# 보기: 작업 보기의 기간 및 계획된 작업에 대한 기준 차이
+# 보기: 작업 보기의 기간 및 계획된 작업에 대한 기준선 차이
 
 <!--Audited: 11/2024-->
 
 이 보기는 작업 보기에 다음을 표시합니다.
 
-* 기본 작업 정보가 있는 작업 정보입니다.
-* [기간]과 [기본 기준 요소 기간]의 차이입니다.
-* 계획된 작업 시간과 기본 베이스라인 계획된 작업 시간의 차이.
+* 기준선 작업 정보가 포함된 작업 정보.
+* 지속 시간과 기본 기준선 지속 시간의 차이입니다.
+* 계획된 작업과 기본 베이스라인 계획된 작업의 차이입니다.
 
 >[!NOTE]
 >
->다음 보기에 표시된 데이터는 실제 작업 값을 기본 기준 요소 작업과 연관된 값과 비교합니다.
+>다음 보기에 표시되는 데이터는 실제 작업 값을 기본 기준선 작업과 연결된 값과 비교합니다.
 
 ![baseline_variance_in_a_task_view.png](assets/baseline-variance-in-a-task-view-350x38.png)
 
@@ -43,14 +45,14 @@ ht-degree: 8%
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>참여자 또는 필터 수정 요청 </p>
-   <p>표준 또는 계획: 보고서 수정</p>
+   <p>필터 수정을 위한 기여자 또는 요청 </p>
+   <p>표준 또는 보고서 수정 계획</p>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>보고서, 대시보드, 달력에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스를 편집하여 필터 수정</p> </td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 필터 수정</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -59,15 +61,15 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
-## 작업 보기에서 기간 및 계획된 작업에 대한 기준 차이 보기
+## 작업 보기에서 기간 및 계획된 작업에 대한 기준선 차이 보기
 
 1. 작업 목록으로 이동합니다.
-1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 선택하거나 기존 보기를 편집합니다.
-1. 첫 번째 열을 제외한 모든 열을 뷰에서 제거합니다.
+1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 선택하거나 기존 보기를 편집하세요.
+1. 첫 번째 열을 제외하고 뷰의 모든 열을 제거합니다.
 1. 첫 번째 열을 선택한 상태에서 **텍스트 모드로 전환**&#x200B;을 클릭한 다음 **텍스트 보기 편집**&#x200B;을 클릭합니다.
 1. 아래 텍스트를 복사하여 보기의 첫 번째 열에 붙여넣습니다.
 

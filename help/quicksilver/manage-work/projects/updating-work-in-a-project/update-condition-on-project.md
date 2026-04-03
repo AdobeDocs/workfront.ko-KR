@@ -6,10 +6,12 @@ description: 프로젝트 상태 는 프로젝트와 관련된 작업이 원활�
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -31,7 +33,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td><p>임의</p> </td> 
+   <td><p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -57,7 +59,8 @@ ht-degree: 3%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +92,8 @@ ht-degree: 3%
      </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 자동으로 조건 설정
 

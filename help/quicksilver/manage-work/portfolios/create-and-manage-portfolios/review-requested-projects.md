@@ -6,10 +6,12 @@ description: 프로젝트 요청은 Adobe Workfront에서 [!UICONTROL 요청됨]
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 <!--Audited: 10/2025-->
 
-검토를 위해 여러 개의 프로젝트 요청이 제출되면 프로젝트 관리 사무소나 포트폴리오 위원회는 제출된 요청을 검토하고 프로젝트 요청 승인을 결정할 수 있습니다. 프로젝트 요청은 [!UICONTROL 에서 &#x200B;]요청됨[!DNL Adobe Workfront] 상태의 프로젝트로 표시됩니다.
+검토를 위해 여러 개의 프로젝트 요청이 제출되면 프로젝트 관리 사무소나 포트폴리오 위원회는 제출된 요청을 검토하고 프로젝트 요청 승인을 결정할 수 있습니다. 프로젝트 요청은 [!UICONTROL 에서 ]요청됨[!DNL Adobe Workfront] 상태의 프로젝트로 표시됩니다.
 
 다음 중 하나를 수행하여 검토를 위해 프로젝트 요청을 제출할 수 있습니다.
 
@@ -32,7 +34,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다. 
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +42,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>임의</p> </td> 
+   <td><p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
@@ -62,7 +64,8 @@ ht-degree: 0%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +88,8 @@ ht-degree: 0%
    <td> <p>[!UICONTROL View] permissions or higher on the portfolio</p> <p>[!UICONTROL Manage] permissions on the projects to update their status</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 프로젝트 보고서에서 요청된 프로젝트 검토
 

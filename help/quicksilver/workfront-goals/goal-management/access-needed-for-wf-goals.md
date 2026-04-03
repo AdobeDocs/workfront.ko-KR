@@ -7,7 +7,9 @@ description: Adobe Workfront 관리자는 Adobe Workfront 목표에 액세스하
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -63,7 +65,8 @@ Workfront 목표는 더 이상 최신 패키지를 구입할 수 없습니다.
 
 Workfront 목표에 대해 문의하려면 계정 담당자에게 문의하십시오.
 
-<!--Old: >
+<!--
+Old: >
 Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
 * **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
@@ -72,7 +75,8 @@ Depending on which Workfront plan your company is currently on, the following sc
 
   After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 
-For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## 라이선스 유형 및 액세스 수준 설정 업데이트  {#update-license-types-and-access-level-settings}
 
@@ -83,7 +87,8 @@ For information about Workfront access requirements, see [Access requirements in
    * 기여자 이상
    * 요청 이상
 
-<!--Old: 
+<!--
+Old: 
 * **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
 
   * Contributor

@@ -6,10 +6,12 @@ description: 개인 작업은 사용자가 홈 영역에서 직접 생성하는 
 author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -45,7 +47,7 @@ Adobe Workfront은 임시 작업 요청을 저장하고 Windows가 각 사용자
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +57,7 @@ Adobe Workfront은 임시 작업 요청을 저장하고 Windows가 각 사용자
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 패키지</strong></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
@@ -78,7 +80,8 @@ Adobe Workfront은 임시 작업 요청을 저장하고 Windows가 각 사용자
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -103,7 +106,8 @@ Adobe Workfront은 임시 작업 요청을 저장하고 Windows가 각 사용자
   </tr> 
  
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## 개인 작업 요청 만들기
@@ -115,7 +119,7 @@ Adobe Workfront은 임시 작업 요청을 저장하고 Windows가 각 사용자
    >Workfront 관리자는 사용자가 액세스 수준을 구성할 때 특정 사용자가 표시되지 않도록 할 수 있습니다.
 
 1. 헤더의 사용자 이름 오른쪽에 있는 **추가 메뉴** ![](assets/more-menu.png)을(를) 클릭합니다.
-1. **작업 요청 보내기**&#x200B;를 클릭합니다.
+1. **작업 요청 보내기**를 클릭합니다.
 **사용자에게 작업 요청 보내기** 상자가 표시됩니다.
 
    ![](assets/personal-task-box.png)

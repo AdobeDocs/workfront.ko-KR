@@ -6,10 +6,12 @@ description: '승인 요청을 위임하면 다른 사용자에게 일정 기간
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 14360a82b0de65587a9413b58d9c69abb55fa29d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -35,7 +37,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +47,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
@@ -149,12 +151,13 @@ ht-degree: 0%
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 승인** 위젯을 추가합니다.
 
-1. 내 승인 위젯으로 이동한 다음 **위임 편집**&#x200B;을 클릭합니다.
+1. 내 승인 위젯으로 이동한 다음 **위임 편집**을 클릭합니다.
    ![위임 편집](assets/edit-delegations.png)
 <!--
    Or
 
-   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   -->
+   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.
+   -->
 
 1. (조건부) 다음 중 하나를 수행합니다.
 

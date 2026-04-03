@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 8252e3456e26de3352ebcfd2d66f3d2e63b46428
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 0%
@@ -78,7 +80,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 +++   
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col>
  </col>
@@ -139,7 +142,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
   </td>
   </tr>
  </tbody>
-</table>-->
+</table>
+-->
 
 ## 레코드 페이지 작업에 대한 고려 사항
 
@@ -221,7 +225,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -326,7 +330,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 자세한 내용은 [레코드에 연결된 레코드 페이지 추가](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)를 참조하십시오.
 
-<!--this content has been moved to the page linked above
+<!--
+this content has been moved to the page linked above
 Consider the following when adding a Connected records page to a record: 
 
 * You can add a Connected records page to a record after you connected record or object types to the record type from the table view of a record type.
@@ -440,7 +445,8 @@ To add a Connected records page:
    >
    >You cannot create, edit, or delete fields in the table view of a connected record's tab.
    
-1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.-->
+1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
+-->
 
 
 <!--
@@ -450,13 +456,11 @@ To add a Connected records page:
 
 You can add a Brief page to the record's preview or pages. 
 
-Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+Brief pages contain the same information as the Details tab, in a read-only format. edit this when we can remove fields from this page
+-->
 
 <!--
 1. From a record's page view, click the name of a record to open its preview or page.
 1. Click **Add page** > **Brief**. 
 1. Add the **Page name**, then click **Create**. 
 -->
-
-
-

@@ -6,10 +6,12 @@ description: Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -34,7 +36,7 @@ Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼 수 있습�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -58,7 +60,8 @@ Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼 수 있습�
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +86,8 @@ Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼 수 있습�
    <td> <p> View or higher permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Workfront에서 Microsoft 프로젝트로 프로젝트 내보내기
 

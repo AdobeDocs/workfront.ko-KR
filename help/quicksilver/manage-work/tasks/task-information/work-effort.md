@@ -7,7 +7,9 @@ description: 작업 노력 개요
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 1%
@@ -38,11 +40,13 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">작업 노력 </td> 
-   <td> <p>사용자가 작업을 완료하는 데 일일 작업량이 작은지, 중간인지 또는 크는지를 정의하는 수동 레이블입니다. <!--
+   <td> <p>사용자가 작업을 완료하는 데 일일 작업량이 작은지, 중간인지 또는 크는지를 정의하는 수동 레이블입니다.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
       </MadCap:conditionalText>
-     --> </p> <p>작업 노력에 대해 다음 사항을 고려하십시오.</p> 
+     -->
+     </p> <p>작업 노력에 대해 다음 사항을 고려하십시오.</p>
     <ul> 
      <li>이 필드는 단순 기간 유형의 작업에만 사용할 수 있습니다. </li> 
      <li>이 레이블의 사용을 활성화하고 프로젝트 수준에서 이와 연관된 작업 시간의 백분율을 정의할 수 있습니다. </li> 
@@ -67,7 +71,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -90,7 +94,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,7 +121,8 @@ ht-degree: 1%
    <td> <p>Manage permissions to a project and its tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 작업 노력 사용 시 고려 사항
 

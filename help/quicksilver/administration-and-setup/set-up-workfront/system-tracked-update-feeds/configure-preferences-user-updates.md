@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -23,7 +25,7 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +33,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
@@ -52,7 +54,8 @@ ht-degree: 3%
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -73,7 +76,8 @@ ht-degree: 3%
    <td><p>To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.</p><p>To perform them for a group, you must be a manager of that group.</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 사용자가 업데이트에 이미지를 추가할 수 있도록 허용
 
@@ -85,7 +89,7 @@ ht-degree: 3%
 >* 이미지는 개체의 [!UICONTROL 업데이트] 탭을 통해 액세스할 수 있으며 [!UICONTROL 기본 메뉴]의 [!UICONTROL 문서] 영역에서도 사용할 수 있습니다.
 >
 
-1. **[!UICONTROL 의 오른쪽 상단에 있는]**&#x200B;주 메뉴![&#x200B; 아이콘 &#x200B;](assets/main-menu-icon.png)주 메뉴 아이콘[!DNL Adobe Workfront]을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
+1. **[!UICONTROL 의 오른쪽 상단에 있는]**&#x200B;주 메뉴![ 아이콘 ](assets/main-menu-icon.png)주 메뉴 아이콘[!DNL Adobe Workfront]을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 1. 왼쪽 패널에서 **[!UICONTROL 인터페이스]** > **[!UICONTROL 피드 업데이트]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 환경 설정]** 탭을 선택합니다.
 

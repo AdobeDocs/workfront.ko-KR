@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -27,7 +29,8 @@ The highlighted information on this page refers to functionality not yet general
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div> -->
+</div>
+-->
 
 [!DNL Adobe Workfront]은(는) 다음 이벤트를 기록하기 위해 개체의 [!UICONTROL 업데이트] 영역에서 자동 시스템 업데이트를 생성합니다.
 
@@ -48,7 +51,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +59,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
@@ -75,7 +78,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -96,7 +100,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## 개체 유형에 대해 [!DNL Workfront]에서 추적하는 필드 확인
 
@@ -146,7 +151,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >
    >[!DNL Workfront]이(가) 이미 필드를 추적하는 중이면 목록에서 두 번 추가할 수 없습니다.
 
-1. [!DNL Workfront]에서 추적할 모든 필드를 추가한 후 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. [!DNL Workfront]에서 추적할 모든 필드를 추가한 후 **[!UICONTROL 추가]**를 클릭합니다.
 추가한 기본 제공 필드는 **[!UICONTROL 기본 제공 필드]** 하위 탭에 표시되고 사용자 지정 필드는 **[!UICONTROL 사용자 지정 필드]** 하위 탭에 표시됩니다.
 **[!UICONTROL 모든 필드]** 하위 탭에는 [!DNL Workfront]에서 추적하는 기본 제공 필드와 사용자 지정 필드가 모두 표시됩니다.
 

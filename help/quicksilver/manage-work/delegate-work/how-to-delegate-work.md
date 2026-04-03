@@ -6,7 +6,9 @@ description: 부재 중 할당된 작업을 임시로 위임할 수 있습니다
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1547'
 ht-degree: 1%
@@ -56,7 +58,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -84,7 +86,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 +++
 
-<!--note from the table for Object permissions:
+<!--
+note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
@@ -92,7 +95,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 이 문서에 설명된 활동을 수행하기 전에 다음을 확인해야 합니다.
 
-* [!DNL Workfront] 또는 그룹 관리자가 [!UICONTROL **인스턴스의**]&#x200B;설정[!UICONTROL &#x200B; 영역에 있는 &#x200B;]작업 및 문제 환경 설정[!UICONTROL &#x200B; 섹션에서 &#x200B;]사용자가 작업 및 문제를 위임하도록 허용[!DNL Workfront] 설정을 사용하도록 설정했습니다.
+* [!DNL Workfront] 또는 그룹 관리자가 [!UICONTROL **인스턴스의**]&#x200B;설정[!UICONTROL  영역에 있는 ]작업 및 문제 환경 설정[!UICONTROL  섹션에서 ]사용자가 작업 및 문제를 위임하도록 허용[!DNL Workfront] 설정을 사용하도록 설정했습니다.
 
   자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
@@ -151,7 +154,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
    * 작업 및 문제가 다른 사용자에게 위임되었다는 표시는 [!DNL Workfront]에서 할당을 볼 수 있는 대부분의 영역에 표시됩니다. 대리자 이름이 포함되지 않은 영역에 대한 자세한 내용은 [위임 작업 개요](delegate-work-overview.md)를 참조하십시오.
 
-   * 위임이 있음을 나타내기 위해 [!UICONTROL **Home**] 영역의 [!UICONTROL **Delegate**] 단추가 [!UICONTROL **위임 편집**] (으)로 변경됩니다.
+   * 위임이 있음을 나타내기 위해 [!UICONTROL **Home**] 영역의 [!UICONTROL **Delegate**] 단추가 [!UICONTROL **위임 편집**](으)로 변경됩니다.
      <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
       (NOTE: is this shot correct? See UI - this is a mock)
@@ -191,7 +194,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 ## 위임된 작업 및 위임 정보 찾기
 
-<!--(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
+<!--
+(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
 -->
 
 작업 및 문제가 위임되면 [!DNL Workfront]에서 위임된 작업 또는 위임자를 확인할 수 있는 몇 가지 영역이 있습니다.

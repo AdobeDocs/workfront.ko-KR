@@ -1,12 +1,14 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Delete a Calendar Report
-description: You can delete a calendar that you own or that others shared with you. Once deleted, the calendar becomes inaccessible to users with whom you have shared it.
+title: 캘린더 보고서 삭제
+description: 자신이 소유하거나 다른 사람이 나와 공유한 캘린더를 삭제할 수 있습니다. 캘린더를 삭제하면 캘린더를 공유한 사용자가 캘린더에 액세스할 수 없게 됩니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 11%
@@ -15,9 +17,9 @@ ht-degree: 11%
 
 # 캘린더 보고서 삭제
 
-You can delete a calendar that you own or that others shared with you. Once deleted, the calendar becomes inaccessible to users with whom you have shared it.
+자신이 소유하거나 다른 사람이 나와 공유한 캘린더를 삭제할 수 있습니다. 캘린더를 삭제하면 캘린더를 공유한 사용자가 캘린더에 액세스할 수 없게 됩니다.
 
-You can&#39;t delete your default calendar unless you have an existing alternative calendar. If you try to delete all of your calendars, the system automatically creates a default calendar for you.
+기존 대체 캘린더가 없으면 기본 캘린더를 삭제할 수 없습니다. 모든 달력을 삭제하려고 하면 기본 달력이 자동으로 만들어집니다.
 
 ## 액세스 요구 사항
 
@@ -44,7 +46,7 @@ You can&#39;t delete your default calendar unless you have an existing alternati
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td>Manage access to the calendar report, with access to delete it</td> 
+   <td>캘린더 보고서를 삭제할 수 있는 액세스 권한과 함께 이 보고서에 대한 액세스 관리</td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +58,9 @@ You can&#39;t delete your default calendar unless you have an existing alternati
 
 ## 캘린더 보고서 삭제
 
-1. Go to the calendar you want to delete.
-1. Click the **More** menu next to the Calendar drop-down menu.
-   ![calendar more menu](assets/more-menu-calendar.png)
+1. 삭제할 달력으로 이동합니다.
+1. 달력 드롭다운 메뉴 옆에 있는 **자세히** 메뉴를 클릭합니다.
+   ![일정 추가 메뉴](assets/more-menu-calendar.png)
 
-1. Select **[!UICONTROL Delete]** from the drop-down list.
+1. 드롭다운 목록에서 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.

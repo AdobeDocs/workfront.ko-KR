@@ -7,10 +7,12 @@ description: 템플릿 작업이 더 이상 필요하지 않으면 삭제할 수
 author: Alina
 feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -25,7 +27,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +35,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 패키지</p></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
@@ -55,7 +57,8 @@ ht-degree: 2%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ ht-degree: 2%
    <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 템플릿 작업 삭제
 

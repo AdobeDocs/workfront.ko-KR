@@ -6,7 +6,9 @@ description: 작업 세부 정보 섹션의 개요 영역에 액세스하여 작
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2104'
 ht-degree: 5%
@@ -39,7 +41,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p>Adobe Workfront 패키지</p> </td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront 라이선스 </p> </td> 
@@ -69,7 +71,8 @@ ht-degree: 5%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -99,7 +102,8 @@ ht-degree: 5%
    <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 작업 세부 정보 개요 섹션에서 작업 정보 편집
 

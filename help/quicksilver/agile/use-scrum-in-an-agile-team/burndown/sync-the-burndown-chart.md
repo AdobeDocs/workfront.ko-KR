@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Synchronize Data in the Burndown Chart
-description: The burndown chart is synchronized automatically with data in your project or iteration. If the burndown chart ever becomes out of sync with data in the project or iteration, you can manually synchronize it.
+title: 번다운 차트에서 데이터 동기화
+description: 번다운 차트는 프로젝트 또는 반복의 데이터와 자동으로 동기화됩니다. 번다운 차트가 프로젝트 또는 반복의 데이터와 동기화되지 않는 경우 수동으로 동기화할 수 있습니다.
 author: Courtney
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 9%
@@ -15,7 +17,7 @@ ht-degree: 9%
 
 # 번다운 차트에서 데이터 동기화
 
-The burndown chart is synchronized automatically with data in your project or iteration. If the burndown chart ever becomes out of sync with data in the project or iteration, you can manually synchronize it.
+번다운 차트는 프로젝트 또는 반복의 데이터와 자동으로 동기화됩니다. 번다운 차트가 프로젝트 또는 반복의 데이터와 동기화되지 않는 경우 수동으로 동기화할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -43,11 +45,11 @@ The burndown chart is synchronized automatically with data in your project or it
 
 +++
 
-## Manually synchronize the burndown chart with data in your iteration
+## 번다운 차트를 반복의 데이터와 수동으로 동기화
 
 {{step1-to-team}}
 
 1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 스크럼 팀을 선택하거나 검색 창에서 팀을 검색합니다.
 
-1. Go to the iteration where you want to manually synchronize the burndown chart.
-1. Click the synchronize icon ![Sync icon](assets/agile-syncicon.png) next to the iteration name.
+1. 번다운 차트를 수동으로 동기화하려는 반복으로 이동합니다.
+1. 반복 이름 옆에 있는 동기화 아이콘 ![동기화 아이콘](assets/agile-syncicon.png)을 클릭합니다.

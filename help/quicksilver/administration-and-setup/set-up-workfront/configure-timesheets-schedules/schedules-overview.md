@@ -10,7 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -21,9 +23,11 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 스케줄을 사용하여 작업 주를 정의하고 사용자 또는 프로젝트와 스케줄을 연관시킬 수 있습니다. 이를 통해 [!DNL Adobe Workfront]에서 타임라인 및 사용자 가용성을 계산할 수 있습니다. 지침은 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
 
@@ -53,7 +57,7 @@ Workfront에서 일정을 사용할 때는 다음 사항을 고려하십시오.
 
   >[!IMPORTANT]
   >
-  >[!DNL Workfront]은(는) 사용자나 프로젝트 일정을 사용하여 리소스 플래너에서 리소스 가용성을 확인합니다. 사용할 일정은 [!UICONTROL 리소스 가용성 계산] 설정에 대해 선택한 [!DNL Workfront] 관리자에 따라 다릅니다. 리소스 관리 설정에 대한 자세한 내용은 [리소스 관리 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하십시오.
+  >[!DNL Workfront]은(는) 사용자나 프로젝트 일정을 사용하여 리소스 플래너에서 리소스 가용성을 확인합니다. 사용할 일정은 [!DNL Workfront]리소스 가용성 계산[!UICONTROL  설정에 대해 선택한 ] 관리자에 따라 다릅니다. 리소스 관리 설정에 대한 자세한 내용은 [리소스 관리 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하십시오.
 
 ## 일정 계층
 

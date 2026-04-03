@@ -7,7 +7,9 @@ description: 이 문서에서는 Adobe Workfront의 타임시트 레이아웃에
 author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -18,11 +20,13 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 이 문서에서는 Adobe Workfront의 타임시트 레이아웃에 대해 설명하므로 타임시트를 사용자 정의하고 활용하여 시간을 기록하는 방법을 더 잘 이해할 수 있습니다.
 
@@ -151,8 +155,10 @@ ht-degree: 1%
 
 자세한 내용은 [일회용 타임시트 만들기](../create-and-manage-timesheets/create-tmshts.md) 또는 [타임시트 프로필 만들기, 편집 및 할당](../create-and-manage-timesheets/create-timesheet-profiles.md)을 참조하세요.
 
-<!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
-You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
+<!--
+drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
+You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.
+-->
 
 ## 시간 입력 주석
 

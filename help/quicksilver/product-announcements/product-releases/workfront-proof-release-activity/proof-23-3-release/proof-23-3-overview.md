@@ -3,12 +3,14 @@ product-previous: workfront-proof
 content-type: release-notes
 navigation-topic: proof-release-activity
 title: Adobe Workfront Proof 및 23.3 릴리스
-description: This page provides information about functionality for Adobe Workfront Proof in the new Adobe Workfront experience that is releasing to the Production environment with the 23.3 release.
+description: 이 페이지에서는 23.3 릴리스가 포함된 프로덕션 환경에 릴리스되는 새 Adobe Workfront 경험의 Adobe Workfront Proof 기능에 대한 정보를 제공합니다.
 author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -17,9 +19,9 @@ ht-degree: 0%
 
 # Adobe Workfront Proof 및 23.3 릴리스
 
-This page provides information about functionality for Adobe Workfront Proof that is releasing to the Production environment within the 23.3 release timeframe.
+이 페이지에서는 23.3 릴리스 기간 내에 프로덕션 환경에 릴리스되는 Adobe Workfront Proof 기능에 대한 정보를 제공합니다.
 
-For a list of all changes available for all areas of Workfront at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+23.3 릴리스 주기 동안 이 시점에서 Workfront의 모든 영역에 사용할 수 있는 모든 변경 사항 목록을 보려면 [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)를 참조하십시오.
 
 <table>
             <col style="width: 50%;" />
@@ -37,18 +39,18 @@ For a list of all changes available for all areas of Workfront at this point in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Postpone updates for the Desktop Proofing Viewer</a> </p>
-                        <p>Based on user feedback, we are adding the option to postpone updates for the Desktop Proofing Viewer. Users can now opt to delay an update and continue with their work, but will be reminded that an update is available each time they open the Desktop Proofing Viewer.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">데스크톱 증명 뷰어에 대한 업데이트 연기</a> </p>
+                        <p>사용자 피드백을 기반으로 Desktop Proofing Viewer에 대한 업데이트를 연기하는 옵션을 추가하고 있습니다. 이제 사용자는 업데이트를 지연하고 작업을 계속할 수 있지만 Desktop Proofing Viewer를 열 때마다 업데이트를 사용할 수 있다는 메시지가 표시됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p><i>For users using manual installation, with version 2.1.26</i></p>
-                                <p>Preview and production release: July 27, 2023</p>
+                                <p><i>수동 설치를 사용하는 사용자의 경우, 버전 2.1.26</i></p>
+                                <p>미리보기 및 프로덕션 릴리스: 2023년 7월 27일</p>
                             </li>
                             <li>
-                                <p><i>For users using automatic installation, with version 2.1.28</i></p>
-                                <p>Preview and production release: August 10, 2023</p>
+                                <p><i>자동 설치를 사용하는 사용자의 경우, 버전 2.1.28</i></p>
+                                <p>미리보기 및 프로덕션 릴리스: 2023년 8월 10일</p>
                             </li>
                         </ul>
                     </td>
@@ -56,33 +58,33 @@ For a list of all changes available for all areas of Workfront at this point in 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Microsoft Office 증명에 대한 지원 변경</a></p>
-                        <p>To maintain a robust and scalable proof processing solution, we are changing our supported Microsoft Office file types and file size limits.</p>
+                        <p>강력하고 확장 가능한 증명 처리 솔루션을 유지하기 위해 지원되는 Microsoft Office 파일 형식 및 파일 크기 제한을 변경하고 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: June 8, 2023<br /></p>
+                                <p>미리보기 릴리스: 2023년 6월 8일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: June 8, 2023</span></p>
+                                <p><span class="preview">프로덕션 릴리스: 2023년 6월 8일</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Desktop Proofing Viewer update</a></p>
-                        <p>The Desktop Proofing Viewer has been updated to version 2.1.24! This update includes Chrome v100 support for reviewing interactive proofs, as well as a number of isssue fixes.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">데스크톱 증명 뷰어 업데이트</a></p>
+                        <p>Desktop Proofing Viewer가 버전 2.1.24로 업데이트되었습니다. 이 업데이트에는 대화형 증명 검토를 위한 Chrome v100 지원과 많은 문제 수정 사항이 포함되어 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Preview release: May 10, 2023<br /></p>
+                                <p>미리보기 릴리스: 2023년 5월 10일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: May 10, 2023</span></p>
+                                <p><span class="preview">프로덕션 릴리스: 2023년 5월 10일</span></p>
                             </li>
                         </ul>
                     </td>

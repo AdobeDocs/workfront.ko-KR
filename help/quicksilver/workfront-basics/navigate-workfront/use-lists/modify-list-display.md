@@ -1,11 +1,13 @@
 ---
 navigation-topic: use-lists
 title: 목록 표시 방법 수정
-description: ' [!DNL Adobe Workfront]에서 목록을 표시하는 방법을 사용자 지정할 수 있습니다. 목록을 보는 다른 사용자는 변경 사항을 볼 수 없습니다.'
+description: ' [!DNL Adobe Workfront]에서 목록을 표시하는 방법을 사용자 지정할 수 있습니다. 목록을 보는 다른 사용자에게는 변경 사항이 표시되지 않습니다.'
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 2%
@@ -16,7 +18,7 @@ ht-degree: 2%
 
 <!--Audited: 11/2024-->
 
-[!DNL Adobe Workfront]에서 목록을 표시하는 방법을 사용자 지정할 수 있습니다. 목록을 보는 다른 사용자는 변경 사항을 볼 수 없습니다.
+[!DNL Adobe Workfront]에서 목록을 표시하는 방법을 사용자 지정할 수 있습니다. 목록을 보는 다른 사용자에게는 변경 사항이 표시되지 않습니다.
 
 다음과 같은 사용자 정의를 수행할 수 있습니다.
 
@@ -30,7 +32,7 @@ ht-degree: 2%
 
 위의 임시 사용자 지정 외에도, 로그아웃하거나 브라우저를 닫은 후에도 [!DNL Workfront]이(가) 유지하는 목록의 정렬 기준 열을 조정할 수도 있습니다. 그러나 다른 사용자가 목록 보기에서 정렬 옵션을 편집하면 이전 정렬 선택은 유지되지 않습니다.
 
-목록에 표시되는 정보를 수정하는 방법에 대한 자세한 내용은 [보고 요소: 필터, 보기 및 그룹](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)을 참조하세요.
+목록에 표시되는 정보를 수정하는 방법에 대한 자세한 내용은 [보고 요소: 필터, 보기 및 그룹화](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -57,12 +59,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>목록에 적용된 보기에 대한 [!UICONTROL 보기] 이상의 권한</p>  </td> 
+   <td> <p>목록에 적용된 보기에 대한 [!UICONTROL 보기] 이상 권한</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하세요.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -92,13 +94,13 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >기본적으로 업데이트된 목록에는 2,000개 항목이 표시되고 레거시 목록에는 100개 항목이 표시됩니다. 목록에 2,000개가 넘는 항목이 포함되어 있으면 모든 항목을 한 페이지에 표시할 수 없습니다.
+   >기본적으로 업데이트된 목록에 대해서는 2,000개 항목이 표시되고 이전 목록에 대해서는 100개 항목이 표시됩니다. 목록에 항목이 2,000개를 초과하는 경우 모든 항목을 한 페이지에 표시할 수 없습니다.
    >
    >
    >오브젝트에 서식이 지정된 텍스트 필드가 있는 큰 목록에서 최상의 성능을 얻으려면 이 숫자를 250으로 제한하는 것이 좋습니다.
    >
    >
-   >두 목록 유형에 대한 자세한 내용은 [목록 시작하기](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)의 [업데이트된 목록과 기존 목록의 차이 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) 섹션을 참조하십시오.
+   >두 목록 유형에 대한 자세한 내용은 문서 [목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)에서 [업데이트된 목록과 기존 목록의 차이점 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) 섹션을 참조하십시오.
 
    목록의 결과는 페이지당 선택한 항목 수를 표시하도록 페이지가 지정됩니다. 뒤로 및 앞으로 화살표를 클릭하거나 특정 페이지를 선택하여 다른 페이지의 결과에 액세스할 수 있습니다.
 
@@ -112,12 +114,12 @@ ht-degree: 2%
 
    목록에 있는 열의 너비와 순서를 사용자 지정하는 방법에 대한 자세한 내용은 문서 [열 너비와 순서 수정](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)을 참조하십시오.
 
-1. 목록의 정렬 순서를 조정하려면 열 머리글을 클릭하여 선택한 다음 키보드에서 CMD 키([!DNL Mac]) 또는 CTRL 키([!DNL Windows])를 길게 누르고 추가 열 머리글을 최대 2개까지 선택하여 정렬합니다.
+1. 목록의 정렬 순서를 조정하려면 열 머리글을 클릭하여 선택한 다음 키보드에서 CMD 키([!DNL Mac]의) 또는 CTRL 키([!DNL Windows]의)를 누른 채 최대 2개의 추가 열 머리글을 선택하여 정렬합니다.
 
-   목록은 선택된 각 열별로 선택한 순서대로 정렬됩니다.
+   목록은 선택한 각 열을 선택한 순서대로 정렬합니다.
 
-   목록에 대한 모든 수정 사항은 즉시 저장됩니다.
+   목록의 수정 사항이 모두 즉시 저장됩니다.
 
    >[!NOTE]
    >
-   >[!UICONTROL 설정]에서 [!UICONTROL 그룹] 영역의 그룹을 정렬하는 경우, 목록 정렬 방법을 변경할 때 그룹 및 하위 그룹의 계층 구조 보기가 분리되지 않습니다. 하위 그룹은 상위 그룹과 함께 유지됩니다. 목록은 먼저 최상위 그룹별로 정렬됩니다. 그런 다음 각 상위 그룹 아래에서 같은 레벨에 있는 하위 그룹 목록이 함께 정렬됩니다.
+   >[!UICONTROL 설정]의 [!UICONTROL 그룹] 영역에서 그룹을 정렬하는 경우 목록 정렬 방법을 변경할 때 그룹 및 해당 하위 그룹의 계층 보기가 분리되지 않습니다. 하위 그룹은 상위 그룹과 함께 유지됩니다. 목록은 먼저 최상위 그룹별로 정렬됩니다. 그런 다음 각 상위 그룹 아래에서 동일한 수준에 있는 하위 그룹 목록이 함께 정렬됩니다.

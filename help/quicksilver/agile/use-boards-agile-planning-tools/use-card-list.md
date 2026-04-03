@@ -7,7 +7,9 @@ description: 작업 스트림에 카드 목록을 만들고 카드를 반복에 
 author: Courtney
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 3%
@@ -50,7 +52,7 @@ ht-degree: 3%
 
 +++
 
-## Add cards to the card list
+## 카드 목록에 카드 추가
 
 {{step1-to-boards}}
 
@@ -89,13 +91,13 @@ ht-degree: 3%
    </table>
 
 1. [!UICONTROL **저장**]&#x200B;을 클릭합니다.
-1. Continue adding cards until you have built the card list.
+1. 카드 목록을 빌드할 때까지 카드를 계속 추가합니다.
 
-## View cards
+## 카드 보기
 
-To view all cards for the workstream in a single list, click [!UICONTROL **List view**] on the Card List tab.
+작업 스트림의 모든 카드를 단일 목록으로 보려면 [카드 목록] 탭에서 [!UICONTROL **목록 보기**]&#x200B;를 클릭하십시오.
 
-To view all cards for the workstream grouped by iteration, click [!UICONTROL **Iteration view**]. 계획되지 않은 카드가 자체 그룹에 표시됩니다.
+반복별로 그룹화된 작업 스트림의 모든 카드를 보려면 [!UICONTROL **반복 보기**]&#x200B;를 클릭하십시오. 계획되지 않은 카드가 자체 그룹에 표시됩니다.
 
 기존 카드를 편집하려면 목록에서 해당 카드를 선택한 다음 [!UICONTROL **편집**]&#x200B;을 클릭하세요.
 
@@ -116,15 +118,15 @@ To view all cards for the workstream grouped by iteration, click [!UICONTROL **I
 1. [!UICONTROL **검색**]&#x200B;을 클릭하고 검색어를 입력하세요. 그런 다음 Enter 키를 누릅니다.
 
    검색어가 포함된 모든 카드가 표시됩니다.
-Click the X to clear the search.
+X를 클릭하여 검색을 지웁니다.
 
-   ![Search for cards in a board](assets/boards-searchbox.png)
+   ![보드에서 카드 검색](assets/boards-searchbox.png)
 
-## Add cards to an iteration
+## 반복에 카드 추가
 
 >[!NOTE]
 >
->You must create an iteration before you can add cards to it. 자세한 내용은 [워크플로에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)를 참조하십시오.
+>카드를 추가하려면 먼저 반복을 만들어야 합니다. 자세한 내용은 [워크플로에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)를 참조하십시오.
 
 1. 워크스트림에 대한 카드 목록에 액세스합니다.
 1. [!UICONTROL **반복 보기**]&#x200B;를 선택하여 어떤 카드가 반복에 할당되고 어떤 카드가 계획되지 않았는지 확인하십시오.

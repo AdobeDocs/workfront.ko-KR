@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Add a List of Task Successors in a Column'
-description: You can add a column to a task view to show a list of the successors of the tasks. The Task Successors column includes the number of the successor as well as the name.
+title: '보기: 열에 작업 후임 작업 목록 추가'
+description: 작업 보기에 열을 추가하여 작업 후임 작업 목록을 표시할 수 있습니다. 작업 승계자 열에는 승계자 수와 이름이 포함됩니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 8%
@@ -18,7 +20,7 @@ ht-degree: 8%
 
 <!--Audited: 11/2024-->
 
-You can add a column to a task view to show a list of the successors of the tasks. The **Task Successors** column includes the number of the successor as well as the name.
+작업 보기에 열을 추가하여 작업 후임 작업 목록을 표시할 수 있습니다. **작업 후임 작업** 열에는 후임 작업의 수와 이름이 포함됩니다.
 
 ![task_view_with_a_list_of_successors_.png](assets/task-view-with-a-list-of-successors--350x118.png)
 
@@ -56,12 +58,12 @@ You can add a column to a task view to show a list of the successors of the task
 +++
 
 
-## Add a list of task successors in a column
+## 열에 작업 후임 작업 목록 추가
 
-To add this column to a task view:
+이 열을 작업 보기에 추가하려면 다음 작업을 수행하십시오.
 
-1. Go to a task list.
-1. Expand the **View** drop-down menu, and click **New View**.
+1. 작업 목록으로 이동합니다.
+1. **보기** 드롭다운 메뉴를 확장하고 **새 보기**&#x200B;를 클릭합니다.
 1. **열 추가**&#x200B;를 클릭합니다.
 1. **텍스트 모드로 전환**&#x200B;을 클릭한 다음 **텍스트 모드 편집**&#x200B;을 클릭합니다.
 1. **텍스트 모드 편집** 상자에서 모든 텍스트를 제거하고 다음 코드로 바꿉니다.

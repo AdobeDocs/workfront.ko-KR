@@ -7,7 +7,9 @@ description: 시간 및 날짜 차이를 계산하는 방법을 알아봅니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 2%
@@ -20,7 +22,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Adobe Workfront에서 같은 종류의 서로 다른 두 개체 간 시간 및 날짜 차이를 계산할 수 없습니다. 예를 들어, 서로 다른 두 프로젝트, 태스크 또는 문제에 대해서는 두 일자 간의 시간 및 일자 차이를 계산할 수 없습니다.
+>Adobe Workfront에서 같은 종류의 서로 다른 두 개체 간의 시간 및 날짜 차이를 계산할 수 없습니다. 예를 들어 서로 다른 두 프로젝트, 작업 또는 문제에 대한 두 날짜 간의 시간 및 날짜 차이를 계산할 수 없습니다.
 
 다음 항목 간의 차이를 계산할 수 있습니다.
 
@@ -46,7 +48,7 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>참여자 또는 필터 수정 요청 </p>
+   <p>필터 수정을 위한 기여자 또는 요청 </p>
    <p>표준 또는 보고서 수정 계획</p>
   </tr> 
   <tr> 
@@ -64,9 +66,9 @@ ht-degree: 2%
 
 +++
 
-## 동일한 개체에 있는 두 날짜 필드 간의 시간 및 날짜 차이 계산
+## 동일한 오브젝트에 있는 두 날짜 필드 간의 시간 및 날짜 차이 계산
 
-예를 들어, 태스크의 계획 완료 일자와 실제 완료 일자 간의 차이를 계산할 수 있습니다.
+예를 들어 작업의 계획된 완료 일자와 실제 완료 일자 간의 차이를 계산할 수 있습니다.
 
 ![날짜 차이 보기](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
@@ -91,14 +93,14 @@ ht-degree: 2%
     valueformat=HTML
    ```
 
-1. **저장**&#x200B;을 클릭한 다음 **보기 저장**&#x200B;을 클릭하세요.
+1. **저장**&#x200B;을 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.
 
-## 개체의 필드와 부모 개체의 다른 필드 간에 시간 및 날짜 차이를 계산합니다.
+## 개체의 필드와 부모 개체의 다른 필드 간의 시간 및 날짜 차이를 계산합니다.
 
-개체 및 해당 부모 목록은 [Adobe Workfront에서 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 &quot;개체의 상호 종속성 및 계층 구조 이해&quot; 섹션을 참조하십시오.\
-예를 들어, 태스크의 계획 완료 일자와 해당 상위 태스크 또는 태스크가 있는 프로젝트의 계획 완료 일자 간의 차이를 계산할 수 있습니다.
+개체 및 상위 개체의 목록을 보려면 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)에서 &quot;개체의 상호 종속성 및 계층 구조 이해&quot; 섹션을 참조하십시오.\
+예를 들어 작업의 계획된 완료 일자와 상위 작업 또는 작업이 진행 중인 프로젝트의 계획된 완료 일자 간의 차이를 계산할 수 있습니다.
 
-![계획된 완료 날짜 차이 보기](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![계획된 완료 일자 차이 보기](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. 작업 목록으로 이동합니다.
 1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 클릭합니다.
@@ -110,7 +112,7 @@ ht-degree: 2%
 1. **열 추가**&#x200B;를 클릭한 다음 **텍스트 모드로 전환** > **텍스트 모드 편집**&#x200B;을 클릭합니다.
 1. **텍스트 모드 편집** 상자에서 찾은 텍스트를 제거하고 다음 코드 중 하나로 바꿉니다.
 
-   * 프로젝트의 계획 완료 일자와 태스크의 계획 완료 일자 간의 차이를 표시하려면
+   * 프로젝트의 계획된 완료 일자와 태스크의 계획된 완료 일자 간의 차이를 표시하려면
 
      ```
       displayname=Project Planned Completion - Task Planned Completion (Days)
@@ -119,7 +121,7 @@ ht-degree: 2%
       valueformat=HTML
      ```
 
-   * 상위 태스크의 계획 완료 일자와 태스크의 계획 완료 일자 간의 차이를 표시하려면
+   * 상위 작업의 계획된 완료 일자와 작업의 계획된 완료 일자 간의 차이를 표시하려면 다음을 수행합니다.
 
      ```
       valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)

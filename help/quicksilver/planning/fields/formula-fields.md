@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 5%
@@ -29,7 +31,8 @@ ht-degree: 5%
 
 자세한 내용은 문서 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)의 &quot;수식&quot; 섹션을 참조하십시오.
 
-<!--do we need these for an overview article?
+<!--
+do we need these for an overview article?
 
 ## Access requirements
 
@@ -70,7 +73,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 -->
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -127,7 +131,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
  
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 공식 필드에 대한 고려 사항
 
@@ -145,7 +150,7 @@ For more information about Workfront access requirements, see [Access requiremen
    * 비율
    * 통화
    * 태그
-   * Date
+   * 일자
 
   자세한 내용은 문서 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)의 &quot;수식&quot; 섹션을 참조하십시오.
 * 새 수식에서 수식 필드를 참조할 수 있습니다. 공식 필드에서 참조되는 필드에서 값이 업데이트되면 해당 필드를 참조하는 모든 후속 필드 또는 해당 필드가 포함된 공식 필드가 자동으로 업데이트됩니다.

@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +22,8 @@ ht-degree: 2%
 <!--
 >[!IMPORTANT]
 >
->This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release. -->
+>This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release.
+-->
 
 Adobe Workfront IP 주소 75로 Workfront 액세스를 제한하거나 지정한 IP 주소 범위로 액세스를 제한하는 허용 목록에 추가하다 IP 를 구성할 수 있습니다. 이렇게 하면 Workfront 애플리케이션에 추가 보안 계층을 제공할 수 있습니다.
 
@@ -28,7 +31,7 @@ Adobe Workfront IP 주소 75로 Workfront 액세스를 제한하거나 지정한
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +39,7 @@ Adobe Workfront IP 주소 75로 Workfront 액세스를 제한하거나 지정한
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -55,19 +58,19 @@ Adobe Workfront IP 주소 75로 Workfront 액세스를 제한하거나 지정한
 
 ## 기타 허용 목록
 
-허용 목록에 추가하다 방화벽 또는 메일 서버가 특정 공급업체에 대해서만 액세스를 허용하도록 구성된 경우 특정 IP 주소를 해당 공급업체에 추가해야 합니다. 그러면 환경과 Adobe Workfront 서버 간에 통신이 열립니다. 허용 목록에 추가하다 자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하세요.
+방화벽 또는 메일 서버가 특정 공급업체에 대해서만 액세스를 허용하도록 구성된 경우 특정 IP 주소를 해당 공급업체에 추가해야 합니다. 그러면 환경과 Adobe Workfront 서버 간에 통신이 열립니다. 자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하세요.
 
-또한, 조직에서 Enterprise 플랜을 사용하는 경우, Workfront의 이메일을 수락할 수 있는 이메일 도메인과 사용자가 Workfront 사용자 프로필에 지정한 이메일 주소에 있을 수 있는 이메일 도메인을 제어하도록 Workfront 이메일 허용 목록을 구성할 수 있습니다. 허용 목록에 추가하다 자세한 내용은 [전자 메일 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)을 참조하십시오.
+또한, 조직에서 Enterprise 플랜을 사용하는 경우, Workfront의 이메일을 수락할 수 있는 이메일 도메인과 사용자가 Workfront 사용자 프로필에 지정한 이메일 주소에 있을 수 있는 이메일 도메인을 제어하도록 Workfront 이메일 허용 목록을 구성할 수 있습니다. 자세한 내용은 [전자 메일 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)을 참조하십시오.
 
 ## 허용 목록에 추가하다에 IP 주소 추가
 
-Workfront허용 목록에 추가하다 에 IP 주소를 추가한 후에는 해당 IP 주소만 Workfront에 액세스하는 데 사용할 수 있습니다. 다른 IP 주소에서 Workfront에 액세스하려고 하는 사용자에게는 IP 주소가 차단되었음을 나타내는 오류 메시지가 표시됩니다.
+Workfront에 IP 주소를 추가한 후에는 해당 IP 주소만 Workfront에 액세스하는 데 사용할 수 있습니다. 다른 IP 주소에서 Workfront에 액세스하려고 하는 사용자에게는 IP 주소가 차단되었음을 나타내는 오류 메시지가 표시됩니다.
 
 {{step-1-to-setup}}
 
 1. **시스템** > **고객 정보**&#x200B;를 클릭합니다.
 
-1. **IP 허용 목록허용 목록에 추가하다 을 사용**&#x200B;하는 IP **섹션에서 IP**&#x200B;활성화를 선택합니다.
+1. **IP 허용 목록을 사용**&#x200B;하는 IP **섹션에서 IP**&#x200B;활성화를 선택합니다.
 
    이 옵션은 기본적으로 비활성화되어 있습니다.
 

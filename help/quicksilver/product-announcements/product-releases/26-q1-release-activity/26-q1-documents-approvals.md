@@ -4,7 +4,10 @@ description: 2026년 1분기 문서 및 승인 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
+exl-id: 2c3133c3-aaa9-424c-81f5-9e4e1f4a486f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -17,7 +20,8 @@ ht-degree: 0%
 
 2026년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
 
-<!--## Set up brands for the AI reviewer in Workfront
+<!--
+## Set up brands for the AI reviewer in Workfront
 
 >[!NOTE]
 >
@@ -27,7 +31,8 @@ ht-degree: 0%
 
 You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
 
-The AI reviewer is currently in beta.-->
+The AI reviewer is currently in beta.
+-->
 
 ## Adobe Express에서 리뷰를 보낼 때 Workfront 프로젝트 선택
 
@@ -67,4 +72,3 @@ Workfront Proofing과 함께 Adobe Express에 대한 교차 조직 지원을 소
 이제 Experience Manager Assets을 사용하여 검토 및 승인 주기&#x200B;을 거친 디지털 에셋을 관리하고 저장할 수 있습니다. 이 통합을 통해 Adobe Experience Manager, Frame.io 및 Workfront의 기능을 활용하여 컨텐츠 관리 및 공동 작업 프로세스를 간소화할 수 있습니다.
 
 자세한 내용은 [Frame.io 통합에 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)을 참조하십시오.
-

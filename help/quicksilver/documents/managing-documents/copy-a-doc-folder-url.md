@@ -6,7 +6,9 @@ description: Workfront 객체에 포함된 모든 문서 폴더에 대한 링크
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 7%
@@ -15,7 +17,7 @@ ht-degree: 7%
 
 # 문서 폴더에 링크 복사 및 공유
 
-[!DNL Workfront]프로그램[!UICONTROL , &#x200B;]Portfolio[!UICONTROL , &#x200B;]프로젝트[!UICONTROL , &#x200B;]작업[!UICONTROL &#x200B; 또는 &#x200B;]문제[!UICONTROL &#x200B; 개체에 포함된 문서 폴더에 대한 직접 링크를 복사할 수 있습니다. &#x200B;] [!UICONTROL 문서] 영역에 포함된 폴더는 사용자 프로필에 직접 연결되어 다른 사용자와 공유할 수 없으므로 기본 메뉴에서 해당 폴더에 대한 링크를 복사할 수 없습니다.
+[!DNL Workfront]프로그램[!UICONTROL , ]Portfolio[!UICONTROL , ]프로젝트[!UICONTROL , ]작업[!UICONTROL  또는 ]문제[!UICONTROL  개체에 포함된 문서 폴더에 대한 직접 링크를 복사할 수 있습니다. ] [!UICONTROL 문서] 영역에 포함된 폴더는 사용자 프로필에 직접 연결되어 다른 사용자와 공유할 수 없으므로 기본 메뉴에서 해당 폴더에 대한 링크를 복사할 수 없습니다.
 
 >[!NOTE]
 >
@@ -57,5 +59,5 @@ ht-degree: 7%
 문서 폴더에 링크를 복사하려면 다음을 수행합니다.
 
 1. 문서 폴더가 포함된 [!DNL Workfront] 개체로 이동합니다.
-1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL URL 복사]**&#x200B;를 선택합니다. 이 링크를 공유하여 폴더에 대한 빠른 액세스를 제공할 수 있습니다. 폴더를 보려면 사용자에게 객체에 대한 보기 액세스 권한이 적어도 있어야 합니다.
+1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL URL 복사]**를 선택합니다. 이 링크를 공유하여 폴더에 대한 빠른 액세스를 제공할 수 있습니다. 폴더를 보려면 사용자에게 객체에 대한 보기 액세스 권한이 적어도 있어야 합니다.
    ![문서 폴더 url 복사](assets/copy-doc-folder-url.png)

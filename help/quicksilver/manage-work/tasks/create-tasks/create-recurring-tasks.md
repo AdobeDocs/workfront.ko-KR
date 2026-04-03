@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -32,7 +34,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -56,7 +58,8 @@ ht-degree: 2%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +87,8 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## 반복 작업 만들기
 
@@ -124,7 +128,7 @@ ht-degree: 2%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>일</strong> </td> 
+      <td role="rowheader"><strong>Day</strong> </td> 
       <td> <p>작업은 선택한 케이던스에 따라 매일, 2일마다, 3일마다 반복됩니다. 6일마다 작업을 반복하도록 구성할 수 있습니다. 기본 설정은 1일입니다. </p> </td> 
      </tr> 
      <tr> 
@@ -136,11 +140,11 @@ ht-degree: 2%
       <td> <p> 작업은 선택한 케이던스에 따라 매주, 2주마다, 3주마다 반복됩니다.</p> <p><strong>반복</strong> 필드에서 각 작업을 수행할 요일을 선택합니다. 여러 날을 선택할 수 있습니다. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>개월</strong> </td> 
+      <td role="rowheader"><strong>Month</strong> </td> 
       <td> <p>작업은 선택한 케이던스에 따라 매월, 2개월마다, 3개월마다 반복됩니다. 1개월에서 12개월 중에 선택할 수 있습니다. </p> <p>작업을 수행하려면 <strong>반복</strong> 필드에서 다음 옵션 중에서 선택하십시오.</p> 
        <ul> 
-        <li> <p><strong>매달 &lt;월 날짜&gt;</strong>일 </p> <p>1일에서 30일까지 날짜를 선택하거나 <strong>마지막</strong>을(를) 선택할 수 있습니다. 예를 들어 "30일에 매달"를 선택할 수 있습니다. </p> </li> 
-        <li> <p><strong>매달 &lt;숫자&gt; &lt;요일&gt;</strong>에 </p> <p>첫 번째 드롭다운 메뉴에서 해당 월의 주 수에 대해 1에서 4 사이의 숫자를 선택하거나 "마지막"을 선택할 수 있습니다. </p> <p>두 번째 드롭다운 메뉴에서 요일을 선택할 수 있습니다. </p> <p>예를 들어 "매월 두 번째 화요일에"를 선택할 수 있습니다. </p> </li> 
+        <li> <p><strong>매달 &lt;월 날짜&gt;</strong> </p> <p>1일에서 30일까지 날짜를 선택하거나 <strong>마지막</strong>을(를) 선택할 수 있습니다. 예를 들어 "30일에 매달"를 선택할 수 있습니다. </p> </li> 
+        <li> <p><strong>매월 &lt;숫자&gt; &lt;요일&gt;</strong> </p> <p>첫 번째 드롭다운 메뉴에서 해당 월의 주 수에 대해 1에서 4 사이의 숫자를 선택하거나 "마지막"을 선택할 수 있습니다. </p> <p>두 번째 드롭다운 메뉴에서 요일을 선택할 수 있습니다. </p> <p>예를 들어 "매월 두 번째 화요일에"를 선택할 수 있습니다. </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

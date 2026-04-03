@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: User Job Role Percentage of FTE Availability'
-description: You can add a column to the view of a user list to display a list of the Job Roles the user is associated with as well as the percentage of FTE availability for each job role, as defined in the user profile.
+title: '보기: FTE 가용성의 사용자 작업 역할 백분율'
+description: 사용자 목록 보기에 열을 추가하여 사용자와 연관된 작업 역할 목록과 사용자 프로필에 정의된 대로 각 작업 역할에 대한 FTE 가용성 비율을 표시할 수 있습니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 6%
@@ -18,11 +20,11 @@ ht-degree: 6%
 
 <!--Audited: 11/2024-->
 
-You can add a column to the view of a user list to display a list of the Job Roles the user is associated with as well as the percentage of FTE availability for each job role, as defined in the user profile.
+사용자 목록 보기에 열을 추가하여 사용자와 연관된 작업 역할 목록과 사용자 프로필에 정의된 대로 각 작업 역할에 대한 FTE 가용성 비율을 표시할 수 있습니다.
 
-For information about defining the percentage of FTE availability for users, see [Edit a user&#39;s profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+사용자의 FTE 사용 가능 비율을 정의하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
-![user_with_percent_avialbility_per_role.png](assets/user-with-percent-avialbility-per-role-350x138.png)
+![user_with_percent_availability_per_role.png](assets/user-with-percent-avialbility-per-role-350x138.png)
 
 ## 액세스 요구 사항
 
@@ -58,15 +60,15 @@ For information about defining the percentage of FTE availability for users, see
 
 +++
 
-## View user Job Role percentage of FTE availability
+## FTE 가용성의 사용자 작업 역할 백분율 보기
 
-1. Go to a list of users.
-1. From the  **View**  drop-down menu, select  **New View**.
+1. 사용자 목록으로 이동합니다.
+1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 선택합니다.
 
-1. In the **Column Preview**  area, click **Add Column**.
+1. **열 미리 보기** 영역에서 **열 추가**&#x200B;를 클릭합니다.
 
-1. Click the header of the new column, then click **Switch to Text Mode** > **Edit Text Mode**.
-1. Remove the text you find in the  **Edit Text Mode**  box, and replace it with the following code:
+1. 새 열의 헤더를 클릭한 다음 **텍스트 모드로 전환** > **텍스트 모드 편집**&#x200B;을 클릭합니다.
+1. **텍스트 모드 편집** 상자에서 찾은 텍스트를 제거하고 다음 코드로 바꿉니다.
 
    ```
    displayname=Roles Time Percentage

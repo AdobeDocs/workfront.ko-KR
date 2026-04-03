@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '보기: 상위 작업 정보가 있는 시간'
-description: 이 시간 보기는 시간이 기록된 작업의 이름과 상위 작업의 이름을 표시합니다.
+description: 이 시간 보기에는 시간이 기록된 작업의 이름과 상위 작업의 이름이 표시됩니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c24555fc-3bae-451b-8a44-28a8158199d1
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 8%
@@ -18,7 +20,7 @@ ht-degree: 8%
 
 <!--Audited: 11/2024-->
 
-이 시간 보기는 시간이 기록된 작업의 이름과 상위 작업의 이름을 표시합니다.
+이 시간 보기에는 시간이 기록된 작업의 이름과 상위 작업의 이름이 표시됩니다.
 
 ![custom_hour_view_with_task_and_parent_task_info.png](assets/custom-hour-view-with-task-and-parent-task-info-350x55.png)
 
@@ -37,12 +39,12 @@ ht-degree: 8%
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>컨텐츠 작가 또는 뷰 수정 요청 </p>
-   <p>보고서 수정을 위한 표준 또는 계획</p>
+   <p>보기를 수정하기 위한 기여자 또는 요청 </p>
+   <p>표준 또는 보고서 수정 계획</p>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 레벨 구성</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹에 대한 액세스를 편집하여 보기 수정</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 보기 수정</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -61,7 +63,7 @@ ht-degree: 8%
 1. 시간 목록으로 이동합니다.
 1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 선택합니다.
 
-1. **열 미리 보기** 영역에서 하나를 제외한 모든 열을 제거합니다.
+1. **열 미리 보기** 영역에서 열을 제외한 모든 열을 제거하십시오.
 1. 나머지 열의 머리글을 클릭한 다음 **텍스트 모드로 전환**&#x200B;을 클릭합니다.
 1. **텍스트 모드 편집**&#x200B;을 클릭합니다.
 1. **텍스트 모드 편집** 상자에서 찾은 텍스트를 제거하고 다음 코드로 바꿉니다.

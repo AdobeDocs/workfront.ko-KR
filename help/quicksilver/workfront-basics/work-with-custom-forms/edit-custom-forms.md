@@ -7,7 +7,9 @@ description: 양식을 오브젝트에 첨부한 후 사용자 정의 양식에 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 3%
@@ -30,7 +32,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront 패키지</p> </td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront 라이선스</p> </td> 
@@ -57,7 +59,8 @@ ht-degree: 3%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,7 +87,8 @@ ht-degree: 3%
     </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 전제 조건
 

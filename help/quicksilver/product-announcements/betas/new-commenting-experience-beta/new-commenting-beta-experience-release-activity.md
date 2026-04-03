@@ -9,7 +9,9 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1870'
 ht-degree: 0%
@@ -24,7 +26,8 @@ ht-degree: 0%
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
 * <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+-->
 
 
 >[!IMPORTANT]
@@ -313,23 +316,23 @@ Beta 경험에 댓글을 다는 문제와 기본적으로 다음 날짜에 Workf
 * 미리보기 및 프로덕션: 2023년 5월 4일
 
 
-### 2023년 4월 27일
+### 2023년 4월 27일 금요일
 
 베타 문제를 댓글로 달고 목표에 대해 다음 유지 보수 업데이트가 릴리스되었습니다.
 
-주석을 편집할 때 첨부된 이미지를 편집합니다. 자세한 내용은 2023년 4월 &lt;a href=&quot;https://experienceleague.adobe.com/ko/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates</a> 문서의 &quot;4월 27일 유지 보수 업데이트&quot; 섹션을 참조하십시오.
+주석을 편집할 때 첨부된 이미지를 편집합니다. 자세한 내용은 2023년 4월 &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates</a> 문서의 &quot;4월 27일 유지 보수 업데이트&quot; 섹션을 참조하십시오.
 
-### 2023년 4월 20일
-
-베타 문제를 댓글로 달고 목표에 대해 다음 유지 보수 업데이트가 릴리스되었습니다.
-
-목표 및 주석 달기 베타 경험의 문제에 대한 업데이트에서 이동할 때 이미지를 초안으로 유지합니다. 자세한 내용은 2023년 4월 &lt;a href=&quot;https://experienceleague.adobe.com/ko/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates</a> 문서의 &quot;4월 20일 유지 보수 업데이트&quot; 섹션을 참조하십시오.
-
-### 2023년 4월 17일
+### 2023년 4월 20일 금요일
 
 베타 문제를 댓글로 달고 목표에 대해 다음 유지 보수 업데이트가 릴리스되었습니다.
 
-문제(새 댓글 달기 Beta 경험) 및 목표의 업데이트 섹션에서 표시되는 화면 영역 외부에 새 댓글을 표시합니다. 자세한 내용은 2023년 4월 &lt;a href=&quot;https://experienceleague.adobe.com/ko/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates</a> 문서의 &quot;4월 17일 유지 보수 업데이트&quot; 섹션을 참조하십시오.
+목표 및 주석 달기 베타 경험의 문제에 대한 업데이트에서 이동할 때 이미지를 초안으로 유지합니다. 자세한 내용은 2023년 4월 &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates</a> 문서의 &quot;4월 20일 유지 보수 업데이트&quot; 섹션을 참조하십시오.
+
+### 2023년 4월 17일 화요일
+
+베타 문제를 댓글로 달고 목표에 대해 다음 유지 보수 업데이트가 릴리스되었습니다.
+
+문제(새 댓글 달기 Beta 경험) 및 목표의 업데이트 섹션에서 표시되는 화면 영역 외부에 새 댓글을 표시합니다. 자세한 내용은 2023년 4월 &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates</a> 문서의 &quot;4월 17일 유지 보수 업데이트&quot; 섹션을 참조하십시오.
 
 
 ### 2023년 4월 6일 주

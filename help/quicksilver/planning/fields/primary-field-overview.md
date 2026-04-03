@@ -6,7 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -16,9 +18,11 @@ ht-degree: 0%
 
 # 기본 필드 개요
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -47,7 +51,7 @@ ht-degree: 0%
 
    * 레코드 페이지 및 미리 보기 상자의 헤더 영역
    * 연결된 레코드 필드
-   * 보기
+   * 보기 횟수
 * 다른 필드를 기본 필드로 지정하지 않으면 테이블 보기에서 기본 필드를 이동, 숨기기 또는 삭제할 수 없습니다.
 * 기본 필드는 항상 잠겨 있으며 테이블 뷰의 가로 스크롤의 일부가 아닙니다.
 * 테이블 보기의 기본 필드를 변경하면 기본 필드를 선택하는 다른 모든 사용자의 보기에 영향을 줍니다.

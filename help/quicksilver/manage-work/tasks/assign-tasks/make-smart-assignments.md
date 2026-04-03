@@ -6,7 +6,9 @@ description: 스마트 할당을 사용하여 작업을 완료하는 데 가장 
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 5%
@@ -35,7 +37,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -72,10 +74,12 @@ ht-degree: 5%
 
 1. 지정 필드에 커서를 놓고 2초 동안 기다립니다.
 
-   <!--For issues, the smart assignments display in the following sections: 
+   <!--
+   For issues, the smart assignments display in the following sections: 
       * **Users and teams**
       * **Job roles**
-        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)-->
+        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)
+        -->
 
    스마트 할당은 다음 섹션에 표시됩니다<!--, depending on which phase of the algorithm's calculation identified the assignments-->.
 

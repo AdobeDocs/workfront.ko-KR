@@ -6,10 +6,12 @@ description: Adobe Workfront 플러그인 전체에서 작업을 업데이트할
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +23,7 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 
 <table style="table-layout:auto"> 
@@ -31,7 +33,8 @@ ht-degree: 3%
  </col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td>Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,7 +42,8 @@ ht-degree: 3%
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">추가 제품</td> 
    <td>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</td> 
@@ -96,4 +100,4 @@ ht-degree: 3%
 1. **[!UICONTROL 새 업데이트]**&#x200B;를 클릭합니다.
 1. 업데이트를 입력합니다.
 1. (선택 사항) 사용자에 태그를 지정하려면 @ 기호와 사용자 이름을 입력한 다음 드롭다운 메뉴에서 해당 이름을 선택합니다.
-1. **[!UICONTROL 제출]**&#x200B;을 클릭합니다. 업데이트는 Adobe Workfront 웹 애플리케이션과 실시간으로 동기화됩니다.
+1. **[!UICONTROL 제출을 클릭합니다]**. 업데이트는 Adobe Workfront 웹 애플리케이션과 실시간으로 동기화됩니다.

@@ -6,10 +6,12 @@ description: 작업의 추적 모드에 따라 Adobe Workfront에서 작업 진�
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -31,7 +33,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -55,7 +57,8 @@ ht-degree: 14%
 
 +++
 
-<!--old: 
+<!--
+old: 
 <table style="table-layout:auto"> 
  <col> 
  <col> 

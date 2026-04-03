@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +27,7 @@ Adobe Workfront 시스템 구성의 일부로, 고객 정보 페이지의 기본
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +35,7 @@ Adobe Workfront 시스템 구성의 일부로, 고객 정보 페이지의 기본
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -74,16 +76,17 @@ Adobe Workfront 시스템 구성의 일부로, 고객 정보 페이지의 기본
 
    * **IP 허용 목록**
 
-     사용자가 Workfront허용 목록에 추가하다 에 액세스할 수 있는 IP 주소를 허용 목록에 추가하는 방법에 대한 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
+     사용자가 Workfront에 액세스할 수 있는 IP 주소를 허용 목록에 추가하는 방법에 대한 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
 
    * **전자 메일 허용 목록**
 
-     전자 메일을 허용 목록에 추가하다허용 목록에 추가하다 에 추가하는 방법에 대한 자세한 내용은 [전자 메일 구성](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)을 참조하십시오.
+     전자 메일을 허용 목록에 추가하다에 추가하는 방법에 대한 자세한 내용은 [전자 메일 구성](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)을 참조하십시오.
 
    <!--
    * **License**
 
-     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     -->
 
 ## 기본 정보 구성 {#configure-basic-info}
 

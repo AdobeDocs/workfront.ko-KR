@@ -5,10 +5,12 @@ description: 스코어카드를 사용하여 프로젝트가 이전에 설정한
 author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +102,8 @@ ht-degree: 0%
 
    이제 스코어카드가 프로젝트와 연결되고 프로젝트에 점수가 매겨집니다.
 
-<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
+<!--
+This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
 1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
 

@@ -7,7 +7,9 @@ description: 프로그램(Program)은 통합 특성을 갖는 프로젝트의 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -35,7 +37,7 @@ Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 패키지</td> 
-   <td> <p>임의</p>
+   <td> <p>Any</p>
     </td> 
   </tr> 
   <tr> 
@@ -60,7 +62,8 @@ Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트
 
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -88,7 +91,8 @@ Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## 프로그램 작업에 대한 고려 사항

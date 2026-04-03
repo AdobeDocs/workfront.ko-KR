@@ -6,7 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -208,7 +210,8 @@ Workfront Planning은 전략적 의도의 미래이지만 Canvas Dashboard를 �
 * **사일로를 만들지 않음:** 팀이 동일한 데이터를 다시 입력하지 않도록 레코드 형식이 작업 영역 간에 공유되어 있는지 확인하십시오.
 
 
-<!--original content:
+<!--
+original content:
 
 
 ## Goal 

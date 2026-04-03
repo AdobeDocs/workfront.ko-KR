@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '보기: 작성자의 회사 이름에 대한 문제'
+title: '보기: 작성자의 회사 이름 관련 문제'
 description: 이 문제 보기에는 문제를 제출한 사용자와 연결된 회사 이름이 표시됩니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -35,14 +37,14 @@ ht-degree: 8%
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>콘텐츠 작가 또는 보기 수정 요청 </p>
-   <p>표준 또는 계획: 보고서 수정</p>
+   <p>보기를 수정하기 위한 기여자 또는 요청 </p>
+   <p>표준 또는 보고서 수정 계획</p>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>보고서, 대시보드, 달력에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스를 편집하여 보기 수정</p> </td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 보기 수정</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -51,17 +53,17 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-이 표에 있는 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 
 +++
 
-## 발신자의 회사 이름에 대한 문제 보기
+## 작성자의 회사 이름과 관련된 문제 보기
 
 1. 문제 목록으로 이동합니다.
 1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 선택합니다.
-1. **열 미리 보기** 영역에서 열을 제외한 모든 열을 제거합니다.
-1. 나머지 열의 헤더를 클릭하고 **텍스트 모드로 전환**&#x200B;을 클릭한 다음 **텍스트 모드 편집**&#x200B;을 클릭합니다.
+1. **열 미리 보기** 영역에서 열을 제외한 모든 열을 제거하십시오.
+1. 나머지 열의 머리글을 클릭하고 **텍스트 모드로 전환**&#x200B;을 클릭한 다음 **텍스트 모드 편집**&#x200B;을 클릭합니다.
 1. **텍스트 모드 편집** 상자에서 찾은 텍스트를 제거하고 다음 코드로 바꿉니다.
 
 

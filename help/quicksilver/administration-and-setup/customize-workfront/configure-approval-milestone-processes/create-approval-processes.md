@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +77,8 @@ ht-degree: 2%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 
 ## 작업 항목에 대한 시스템 수준 또는 그룹 수준의 글로벌 승인 프로세스 만들기
@@ -114,7 +118,8 @@ For more detail about the information in this table, see [Access requirements in
 
    그룹 수준 승인 프로세스를 만드는 경우 **그룹** ![그룹 아이콘](assets/groups-icon.png)을 클릭하고 그룹 이름을 클릭한 다음 **승인**&#x200B;을 클릭합니다.
 
-   <!--hidden for the new tab redesign - August 2023: 
+   <!--
+   hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
@@ -200,7 +205,7 @@ For more detail about the information in this table, see [Access requirements in
        </ul> 
        <ul> 
        <li> <p>프로젝트 소유자에게 승인을 할당하고 아무도 프로젝트 소유자로 지정되지 않으면, 승인 권한은 설정 영역의 고객 정보 섹션에 표시된 대로 기본 Workfront 관리자에게 재할당됩니다. 자세한 내용은 <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">시스템에 대한 기본 정보 구성</a>을 참조하십시오.  </p> </li> 
-       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>이 프로세스를 반복하여 단계에 여러 승인자를 추가할 수 있습니다. 단일 단계에는 승인자로 사용자, 팀 및 작업 역할의 조합이 포함될 수 있습니다. 단계에 추가할 수 있는 승인자 수에는 제한이 없습니다.</p> <p><b>중요 사항</b></p> <p>승인자로 작업 역할을 할당하면 프로젝트 팀에 있는 해당 작업 역할과 연결된 모든 사용자가 승인에 대해 의사 결정을 내릴 수 있습니다. </p> <p>팀을 승인자로 할당하면 해당 팀의 모든 사용자가 승인에 대한 결정을 내릴 수 있습니다. </p> <p>프로젝트 팀에 대한 자세한 내용은 <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">프로젝트 팀 개요</a>를 참조하십시오. 작업 승인에 대한 자세한 내용은 <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">작업 승인 </a>을(를) 참조하십시오.</p> </p> </td> 
+       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>이 프로세스를 반복하여 단계에 여러 승인자를 추가할 수 있습니다. 단일 단계에는 승인자로 사용자, 팀 및 작업 역할의 조합이 포함될 수 있습니다. 단계에 추가할 수 있는 승인자 수에는 제한이 없습니다.</p> <p><b>중요</b></p> <p>승인자로 작업 역할을 할당하면 프로젝트 팀에 있는 해당 작업 역할과 연결된 모든 사용자가 승인에 대해 의사 결정을 내릴 수 있습니다. </p> <p>팀을 승인자로 할당하면 해당 팀의 모든 사용자가 승인에 대한 결정을 내릴 수 있습니다. </p> <p>프로젝트 팀에 대한 자세한 내용은 <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">프로젝트 팀 개요</a>를 참조하십시오. 작업 승인에 대한 자세한 내용은 <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">작업 승인 </a>을(를) 참조하십시오.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br> <br> 결정은 하나만 필요합니다. 여러 승인자를 단계에 추가하는 경우에만 표시됩니다. </td> 

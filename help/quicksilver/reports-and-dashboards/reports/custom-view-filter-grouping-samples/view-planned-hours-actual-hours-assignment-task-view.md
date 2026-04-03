@@ -2,23 +2,25 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '보기: 태스크 뷰에서 계획된 시간과 발령당 실제 시간 비교'
-description: 이 작업 보기에는 작업의 총 계획 시간, 각 담당자에게 할당된 계획 시간 수(여러 사용자에게 작업이 할당된 경우), 작업의 총 실제 시간 및 각 담당자가 기록한 실제 시간 수가 표시됩니다.
+title: '보기: 작업 보기에서 계획된 시간과 할당당 실제 시간 비교'
+description: 이 작업 보기에는 작업의 총 계획된 시간, 각 할당자에게 할당된 계획된 시간 수(작업이 여러 사용자에게 할당된 경우), 작업의 총 실제 시간 및 각 할당자가 기록한 실제 시간 수가 표시됩니다.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f249ff57-50c7-4aa9-a563-cb7f5562b96a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 6%
 
 ---
 
-# 보기: 태스크 뷰에서 계획된 시간과 발령당 실제 시간 비교
+# 보기: 작업 보기에서 계획된 시간과 할당당 실제 시간 비교
 
 <!--Audited: 11/2024-->
 
-이 작업 보기에는 작업의 총 계획 시간, 각 담당자에게 할당된 계획 시간 수(여러 사용자에게 작업이 할당된 경우), 작업의 총 실제 시간 및 각 담당자가 기록한 실제 시간 수가 표시됩니다.
+이 작업 보기에는 작업의 총 계획된 시간, 각 할당자에게 할당된 계획된 시간 수(작업이 여러 사용자에게 할당된 경우), 작업의 총 실제 시간 및 각 할당자가 기록한 실제 시간 수가 표시됩니다.
 
 ![multi_assignment_budget_vs_actual_for_tasks.png](assets/multi-assignment-budget-vs-actual-for-tasks-350x66.png)
 
@@ -37,12 +39,12 @@ ht-degree: 6%
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> 
-   <p>컨텐츠 작가 또는 뷰 수정 요청 </p>
-   <p>보고서 수정을 위한 표준 또는 계획</p>
+   <p>보기를 수정하기 위한 기여자 또는 요청 </p>
+   <p>표준 또는 보고서 수정 계획</p>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 레벨 구성</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹에 대한 액세스를 편집하여 보기 수정</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 보기 수정</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -56,12 +58,12 @@ ht-degree: 6%
 
 +++
 
-## 작업 보기에서 계획된 시간 및 할당당 실제 시간 보기
+## 작업 보기에서 계획된 시간과 할당당 실제 시간 보기
 
 1. 작업 목록으로 이동합니다.
 1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 선택합니다.
 
-1. **열 미리 보기** 영역에서 하나를 제외한 모든 열을 제거합니다.
+1. **열 미리 보기** 영역에서 열을 제외한 모든 열을 제거하십시오.
 1. 나머지 열의 머리글을 클릭하고 **텍스트 모드로 전환** > **텍스트 모드 편집**&#x200B;을 클릭합니다.
 1. **텍스트 모드 편집** 상자에서 찾은 텍스트를 제거하고 다음 코드로 바꿉니다.
 

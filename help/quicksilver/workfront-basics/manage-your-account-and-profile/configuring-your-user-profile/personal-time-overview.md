@@ -7,7 +7,9 @@ description: 승인된 휴무는 일정에 영향을 주고 할당된 작업의 
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 4%
@@ -46,7 +48,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -81,8 +83,10 @@ ht-degree: 4%
 
    ![개인 휴무 일정](assets/personal-time-off-calendar-0925.png)
 
-   <!--Sample image in the Production environment:
-   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
+   <!--
+   Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)
+   -->
 
 1. 하루 종일 쉬려면 **[!UICONTROL 하루 종일]**&#x200B;을 선택하세요.
 

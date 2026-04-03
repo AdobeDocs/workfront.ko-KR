@@ -7,10 +7,12 @@ description: 업무 균형자 는 리소스 조달 영역의 여러 프로젝트
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -38,7 +40,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +48,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td>
+   <td><p>Any</p></td>
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -197,4 +199,5 @@ For a project:
    * Assign work to any user that might not be on the project.
 
    * View additional work that users are assigned to on other projects.
-   * Adjust user allocations to work items.-->
+   * Adjust user allocations to work items.
+   -->

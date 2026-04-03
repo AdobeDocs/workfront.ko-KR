@@ -6,7 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1776'
 ht-degree: 5%
@@ -15,9 +17,11 @@ ht-degree: 5%
 
 # 달력 보기 관리
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -70,7 +74,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 +++ 
 
-<!--Old:
+<!--
+Old:
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -132,7 +137,8 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
   </tr>
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 달력 보기 관리 {#manage-a-calendar-view}
 
@@ -273,7 +279,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
             <p>비어 있지 않음</p></td>
         </tr>
         <tr>
-            <td>Date</td>
+            <td>일자</td>
             <td><p>다음과 같음</p>
             <p>다음이 아님</p>
             <p>다음 이후</p>
@@ -325,7 +331,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형 페이지에 대한 일정 보기를 만듭니다.
 1. (조건부) 월별 달력 보기를 표시한 다음 달력의 도구 모음에서 **행 높이**&#x200B;를 클릭합니다.
-1. 다음 옵션 중에서 선택합니다.
+1. 다음 선택 사항 중 하나를 선택합니다.
 
    <table>
     <thead>
