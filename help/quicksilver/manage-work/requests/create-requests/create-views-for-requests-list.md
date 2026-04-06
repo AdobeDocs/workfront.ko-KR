@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 3%
 
 ---
@@ -105,7 +105,12 @@ Workfront에서는 직접 만들 수 있는 보기 외에도 홈의 요청 영�
 
 1. 요청 목록에서 **보기** 드롭다운 메뉴 ![보기 드롭다운](assets/view-icon-requests.png)을 클릭하고 **새 보기**&#x200B;를 클릭합니다.
 
-   ![새 보기](assets/create-new-view.png)
+   <!-- 
+   
+   replace the screen shot with release
+   ![New view](assets/create-new-view.png)
+
+   -->
 
 1. 새 보기의 이름을 입력하고 **만들기**&#x200B;를 클릭합니다.
 1. [요청 보기 편집](#edit-a-view-for-requests)을 계속합니다.

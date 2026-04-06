@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
+source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '663'
 ht-degree: 7%
 
 ---
@@ -155,7 +155,8 @@ ht-degree: 7%
 
 1. 작업 목록 왼쪽 상단에서 **그룹**&#x200B;을 클릭합니다.
 1. 작업 목록을 구성할 그룹을 선택하십시오.
-   ![그룹](assets/groups-new.png)
+
+![그룹](assets/groups-new.png)
 
 +++를 확장하여 사용 가능한 그룹에 대한 자세한 정보를 확인합니다.
 
@@ -172,7 +173,7 @@ ht-degree: 7%
 
 내 우선 순위 또는 상태별로 그룹화할 때 범주 간에 개별 작업 항목을 끌어다 놓을 수 있습니다.
 
-1. **상태** 또는 **내 우선 순위**&#x200B;별로 작업을 그룹화합니다.
+1. **상태** 또는 **내 포커스**&#x200B;별로 작업을 그룹화합니다.
 2. 작업 항목 위로 마우스를 가져가 **드래그** 아이콘을 클릭하고 원하는 범주로 이동합니다.
    ![드래그 아이콘](assets/drag-and-drop.png)
 
@@ -192,6 +193,6 @@ ht-degree: 7%
 
 ### 모든 그룹 섹션 확장 또는 축소
 
-모든 그룹 섹션을 확장하거나 축소하려면 **그룹**&#x200B;을 열고 **모두 확장** 또는 **모두 축소**&#x200B;를 클릭합니다.
+모든 그룹 섹션을 확장하거나 축소하려면 **그룹**&#x200B;을 열고 그룹화가 축소되면 **모두 확장**&#x200B;을 클릭하고 그룹화가 확장되면 **모두 축소**&#x200B;를 클릭합니다.
 
 ![그룹 확장 또는 축소](assets/expand-collapse-groups.png)

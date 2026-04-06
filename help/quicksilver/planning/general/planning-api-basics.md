@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1008'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ Workfront Planning은 다음 검색 수정자를 지원합니다.
     <tr>
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
-        <td>필드 값이 비어 있지 않은 레코드를 반환합니다.  </td>
+        <td>필드 값이 비어 있는 레코드를 반환합니다.  </td>
         <td><ul><li>“” </li><li>null </li><ul>  </td>
     </tr>
     <tr>
@@ -196,7 +196,7 @@ Workfront Planning은 다음 검색 수정자를 지원합니다.
 |---|---|
 | 텍스트 | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
 | 긴 텍스트 | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
-| 숫자 | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
+| 번호 | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
 | 백분율 | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
 | 통화 | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
 | 일자 | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isNotEmpty, $isNotEmpty |

@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -160,15 +160,23 @@ Old:
 
    * 시스템 관리자인 경우 다음 옵션 중 하나를 선택하십시오.</span>
 
-      * <span class="preview">**초대된 사람만 액세스할 수 있습니다**: 공유 상자에서 엔터티를 선택하고 작업 영역에 대한 액세스 권한을 선택해야 합니다. 이것이 기본 선택입니다. </span>
-      * <span class="preview">**시스템의 모든 사용자가 볼 수 있음**: Planning에 액세스할 수 있는 시스템의 모든 사용자가 Planning의 **작업 영역** 영역에서 작업 영역을 볼 수 있습니다.</span>
+     <div class="preview">
+
+      * **초대된 사람만 액세스할 수 있습니다**: 공유 상자에서 엔터티를 선택하고 작업 영역에 대한 액세스 권한을 선택해야 합니다. 이것이 기본 선택입니다.
+      * **시스템의 모든 사용자가 볼 수 있음**: Planning에 액세스할 수 있는 시스템의 모든 사용자는 Planning의 **작업 영역** 영역에서 작업 영역을 볼 수 있습니다.
+
+     </div>
 
    * <span class="preview">(조건부) 표준 라이선스가 있는 작업 영역 관리자인 경우 다음 선택 사항 중 하나를 볼 수 있지만 변경할 수는 없습니다.</span>
 
-      * <span class="preview">**초대된 사람만 액세스할 수 있습니다**. 기본 설정입니다.</span>
-      * <span class="preview">**시스템의 모든 사용자가 볼 수 있음**</span>
+     <div class="preview">
 
-     <span class="preview">작업 영역에 대한 전역 권한을 변경하려면 시스템 관리자에게 요청해야 합니다.</span>
+      * **초대된 사람만 액세스할 수 있습니다**. 기본 설정입니다.
+      * **시스템의 모든 사용자가 볼 수 있음**
+
+     시스템 관리자에게 작업공간에 대한 전역 권한을 변경하도록 요청해야 합니다.
+
+     </div>
 
 1. **이 작업 영역에 대한 액세스 권한 부여** 필드에서 사용자, 그룹, 팀, 회사 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
