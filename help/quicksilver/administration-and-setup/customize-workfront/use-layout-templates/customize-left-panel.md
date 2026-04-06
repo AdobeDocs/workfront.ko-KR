@@ -90,7 +90,7 @@ ht-degree: 2%
      <tr> 
       <td>[!UICONTROL 프로젝트]</td> 
       <td>프로젝트 이름</td> 
-      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 기록], [!UICONTROL 비용], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!UICONTROL 사용자], [!UICONTROL 사용자] 사용률], [!UICONTROL 대기열 세부 정보], [!UICONTROL 라우팅 규칙], [!UICONTROL 대기열 주제], [!UICONTROL 주제 그룹], [!UICONTROL 지표], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
+      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 기록], [!UICONTROL 비용], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!UICONTROL 사용자], [!UICONTROL 사용자] 사용률&rbrack;, [!UICONTROL 대기열 세부 정보], [!UICONTROL 라우팅 규칙], [!UICONTROL 대기열 주제], [!UICONTROL 주제 그룹], [!UICONTROL 지표], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 작업]</td> 
@@ -142,7 +142,7 @@ ht-degree: 2%
      <tr> 
       <td><span class="preview">[!UICONTROL 리소스 조달]</span></td> 
       <td><span class="preview">[!UICONTROL 기본 메뉴]의 [!UICONTROL 리소스] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
-      <td><span class="preview">[!UICONTROL Planner](숨길 수 없음), [!UICONTROL 업무 균형자], [!UICONTROL 사용률], [!UICONTROL 리소스 풀]</span></td> 
+      <td><span class="preview">[!UICONTROL Planner] (숨길 수 없음), [!UICONTROL 업무 균형자], [!UICONTROL 사용률], [!UICONTROL 리소스 풀]</span></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -182,7 +182,7 @@ ht-degree: 2%
      <tr> 
        <td><span class="preview">[!UICONTROL Rate Card]</span></td> 
        <td><span class="preview">요금 카드의 이름</span></td> 
-       <td><span class="preview">[!UICONTROL 작업 역할 및 비율](숨길 수 없음), [!UICONTROL 비율 카드 세부 정보]</span></td> 
+       <td><span class="preview">[!UICONTROL 작업 역할 및 비율] (숨길 수 없음), [!UICONTROL 비율 카드 세부 정보]</span></td> 
      </tr>
      <tr> 
        <td><span class="preview">[!UICONTROL Group]</span></td> 
