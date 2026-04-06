@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 6%
+source-wordcount: '1765'
+ht-degree: 5%
 
 ---
 
@@ -126,6 +126,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 * 메인 메뉴에서 요청 및 문서에 액세스할 수 있습니다.
 * 객체 생성 기능이 제한되어 있어 프로젝트, 포트폴리오, 프로그램 또는 보고서를 생성할 수 없습니다.
 * 편집 액세스 권한이 활성화된 경우에만 프로젝트 수준에서 시간을 기록할 수 있습니다. 프로젝트를 생성, 편집, 삭제 또는 공유할 수 없습니다.
+* 문제 및 문서에 대해서만 사용자 정의 양식을 업데이트할 수 있습니다.
 
 >[!NOTE]
 >
@@ -262,6 +263,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
   >기여자는 승인에 참여할 수 있지만 승인 탭에 액세스하여 승인 프로세스를 보거나 관리할 수 없습니다.
 
 * 제출한 문제의 상태를 검토할 수 있습니다.
+* 문제 및 문서에 대해서만 사용자 정의 양식을 업데이트할 수 있습니다.
 * 작업 항목에 할당할 수 있지만 완료할 수 없습니다.
 * 메인 메뉴에서만 요청에 액세스할 수 있습니다. 요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
