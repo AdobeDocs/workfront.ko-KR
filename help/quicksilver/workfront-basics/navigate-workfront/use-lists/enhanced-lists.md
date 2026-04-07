@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
-source-wordcount: '2913'
+source-wordcount: '2915'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
 | 요청 목록 | <ul><li>요청(새 경험만 해당)</li><li>홈의 내 요청 위젯</li></ul> |
 | 설정 상태, 우선 순위, 심각도 및 환율 목록 | <ul><li>설정 > 프로젝트 환경 설정 > 상태</li><li>설정 > 프로젝트 환경 설정 > 우선 순위</li><li>설정 > 프로젝트 환경 설정 > 심각도</li><li>설정 > 프로젝트 환경 설정 > 환율</li></ul> |
 | <span class="preview">보고서 목록</span> | <span class="preview">보고서(**공유 가능한 폴더 사용**&#x200B;을 설정해야 함)</span> |
-| <span class="preview">설치 프로그램의 작업 역할 및 속도 목록</span> | <span class="preview">설정 > 요금 카드 > 요금 카드 선택 > 작업 역할 및 요금</span> |
+| <span class="preview">속도 카드에 대한 작업 역할 및 속도 목록</span> | <span class="preview">설정 > 요금 카드 > 요금 카드 선택 > 작업 역할 및 요금</span> |
 | <span class="preview">번역 목록</span> | <span class="preview">설정 > 로컬라이제이션</span> |
 | <span class="preview">스냅숏 목록</span> | <span class="preview">프로젝트 > 스냅숏</span> |
 | <span class="preview">청구할 리소스 목록</span> | <span class="preview">프로젝트 > 청구용 리소스</span> |
