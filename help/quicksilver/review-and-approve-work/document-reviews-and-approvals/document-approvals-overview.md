@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
 workflow-type: tm+mt
-source-wordcount: '3892'
+source-wordcount: '3874'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,6 @@ ht-degree: 0%
 * 사용자는 IMS 조직 내에서 하나의 Workfront 인스턴스에만 속할 수 있습니다.
 
 * Workfront 인스턴스는 Adobe Unified Experience 및 Adobe 엔터프라이즈 스토리지에서 활성화되어야 합니다.
-
-* 통합은 Adobe Professional Services에서 구성해야 합니다.
 
 
 ## Adobe 엔터프라이즈 스토리지 기반
@@ -180,8 +178,6 @@ Workfront에 업로드된 문서는 Adobe 엔터프라이즈 스토리지에 저
 * 사용자는 IMS 조직 내에서 하나의 Workfront 인스턴스에만 속할 수 있습니다.
 
 * Workfront 인스턴스는 Adobe Unified Experience 및 Adobe 엔터프라이즈 스토리지에서 활성화되어야 합니다.
-
-* 통합은 Adobe Professional Services에서 구성해야 합니다.
 
 * Workfront 고객은 V2 SKU를 사용해야 합니다(계약 이벤트가 필요할 수 있으므로 Adobe 계정 담당자에게 문의).
 

@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Workfront 인스턴스에 Workfront 및 Frame.io 통합이 설정되어 있어�
 * 사용자는 IMS 조직 내에서 하나의 Workfront 인스턴스에만 속할 수 있습니다.
 
 * Workfront 인스턴스는 Adobe Unified Experience 및 Adobe 엔터프라이즈 스토리지에서 활성화되어야 합니다.
-
-* 통합은 Adobe Professional Services에서 구성해야 합니다.
 
 ## Workfront의 작업 시작 및 계획
 
