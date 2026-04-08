@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,8 @@ financial management의 향상된 기능은 다음과 같습니다.
 
 자세한 내용은 [프로젝트 스냅숏 만들기 및 보기](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)를 참조하세요.
 
+[프로젝트 스냅숏의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+
 >[!NOTE]
 >
 >* 프로젝트 스냅샷은 Workflow Ultimate 패키지의 조직에서만 사용할 수 있습니다.
@@ -96,6 +98,8 @@ financial management의 향상된 기능은 다음과 같습니다.
 **비즈니스 프로필**&#x200B;은(는) 안전하고 확장 가능한 시스템 액세스를 제공하고 엔터프라이즈 거버넌스를 강화하는 데 도움이 됩니다.
 
 자세한 내용은 [비즈니스 프로필 개요](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)를 참조하세요.
+
+[비즈니스 프로필에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -110,6 +114,8 @@ financial management의 향상된 기능은 다음과 같습니다.
 ### 사용자 정의 양식 및 필드 개선 사항
 
 사용자 정의 양식의 고급 로직은 보다 명확한 통찰력과 보다 정확한 프로젝트 및 재무 관리를 제공합니다.
+
+[사용자 정의 양식 및 필드 개선 사항에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 사용자 정의 양식의 향상된 기능은 다음과 같습니다.
 
@@ -159,6 +165,8 @@ financial management의 향상된 기능은 다음과 같습니다.
 
 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
+[레이아웃 템플릿 개선 사항의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+
 ### 사용자 지정 지역화
 
 >[!NOTE]
@@ -171,6 +179,8 @@ financial management의 향상된 기능은 다음과 같습니다.
 
 자세한 내용은 [사용자 지정 지역화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)을 참조하십시오.
 
+[사용자 지정 지역화에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+
 ### Business Rules를 사용하여 작업 자동화
 
 >[!NOTE]
@@ -180,3 +190,6 @@ financial management의 향상된 기능은 다음과 같습니다.
 이제 Workfront 관리자는 특정 조건이 충족될 때 작성, 편집 또는 수정된 개체에 대한 작업을 자동화하도록 비즈니스 규칙을 구성할 수 있습니다. 사용 가능한 작업에는 개체 공유 또는 사용자 정의 양식을 개체에 첨부하는 작업이 포함됩니다.
 
 자세한 내용은 [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)을 참조하세요.
+
+[비즈니스 규칙 개선 사항의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
