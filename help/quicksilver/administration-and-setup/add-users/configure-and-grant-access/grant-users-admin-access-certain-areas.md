@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 4%
@@ -15,6 +15,8 @@ ht-degree: 4%
 # 사용자에게 특정 영역에 대한 관리 액세스 권한 부여
 
 <!--Linked in several places, do not rename or change URL.-->
+
+{{highlighted-preview}}
 
 Adobe Workfront 관리자는 액세스 수준을 사용하여 표준 또는 플랜 라이선스 사용자에게 시스템의 특정 영역에 대한 관리 액세스 권한을 부여할 수 있습니다.
 

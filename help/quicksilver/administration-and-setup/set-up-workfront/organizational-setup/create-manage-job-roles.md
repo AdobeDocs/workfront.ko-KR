@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1703'
 ht-degree: 1%
 
 ---
@@ -69,8 +69,7 @@ ht-degree: 1%
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **[!UICONTROL 작업 역할]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 새 작업 역할]**&#x200B;을 클릭합니다.
-<!-- 1. Click **New Job Role > Create new job role**.  -->
+1. **[!UICONTROL 새 작업 역할] <span class="preview">> 새 작업 역할 만들기**.</span>를 클릭합니다.
 1. 다음 필드에 정보를 입력합니다.
 
    * **이름**: 작업 역할의 이름을 나타냅니다. Workfront에서 작업 역할 필드가 표시되는 모든 위치에 표시되는 이름입니다.
