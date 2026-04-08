@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1765'
-ht-degree: 5%
+source-wordcount: '1775'
+ht-degree: 6%
 
 ---
 
@@ -102,6 +102,8 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 | 필터, 보기 및 그룹화 |   |   | ✓ |
 | 문서 |   |   | ✓ |
 | 사용자 |   |   | ✓ |
+| 작업 역할 |   |   | ✓ |
+| 팀 |   |   | ✓ |
 | 템플릿 |   |   | ✓ |
 | 재무 데이터 |   |   | ✓ |
 | 리소스 관리 |   |   | ✓ |
@@ -204,7 +206,13 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
    <td>✓</td> 
    <td> </td> 
   </tr> 
-    <tr> 
+  <tr> 
+   <td>작업 역할</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>팀</td> 
    <td> </td> 
    <td>✓</td> 
@@ -286,6 +294,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 | 필터, 보기 및 그룹화 |   |   | ✓ |
 | 문서 |   |   | ✓ |
 | 사용자 |   | ✓ |   |
+| 작업 역할 |   | ✓ |   |
 | 팀 |   | ✓ |   |
 | 템플릿 | ✓ |   |   |
 | 재무 데이터 | ✓ |   |   |
@@ -335,6 +344,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 | 필터, 보기 및 그룹화 | ✓ |   |   |
 | 문서 |   | ✓(문서를 공유할 수 없음) |   |
 | 사용자 |   | ✓ |   |
+| 작업 역할 | ✓ |   |   |
 | 팀 | ✓ |   |   |
 | 템플릿 | ✓ |   |   |
 | 재무 데이터 | ✓ |   |   |
