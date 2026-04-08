@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
+source-git-commit: 16ca615d8a0432f371debb832236e788ee5beb88
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 2026년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
 
-## 이제 AI 공동 작업자 사용 가능
+## 콘텐츠 검토 AI Collaborator 이제 사용 가능
 
 >[!NOTE]
 >
@@ -28,13 +28,11 @@ ht-degree: 0%
 >프로덕션 빠른 릴리스: 2026년 4월 15일
 >모두를 위한 프로덕션: 2026년 4월 16일
 
-일상적인 작업에서 AI의 이점을 더 쉽게 누릴 수 있도록 AI 공동 작업자를 만들었습니다. AI 공동 작업자는 프로젝트 및 작업에 AI 에이전트를 온보딩하는 방법입니다. 브랜드 가이드라인으로 AI Collaborator를 구성한 다음 사용자와 마찬가지로 작업에 할당할 수 있습니다.
+일상적인 작업에서 AI의 이점을 보다 쉽게 이용할 수 있도록 콘텐츠 검토 AI 공동 작업자를 만들었습니다. 공동 작업자는 AI 에이전트를 프로젝트 및 작업에 온보딩하는 방법입니다. 브랜드 가이드라인으로 AI Collaborator를 구성한 다음 사용자와 마찬가지로 작업에 할당할 수 있습니다.
 
-현재 AI 공동 작업자를 사용하여 콘텐츠를 검토할 수 있습니다. 향후 더 많은 AI Collaborator 기능을 사용할 수 있습니다.
+현재 콘텐츠 검토는 AI 공동 작업자만 사용할 수 있습니다. 향후 더 많은 AI Collaborator 기능을 사용할 수 있습니다.
 
-<!--
-For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
--->
+자세한 내용은 [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)을 참조하십시오.
 
 ## 이제 사용자 정의 분기를 설정에서 별도의 페이지로 사용할 수 있습니다.
 
