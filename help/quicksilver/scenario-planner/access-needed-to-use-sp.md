@@ -9,7 +9,7 @@ feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 82152918c528a5f5ed91081dfcb2b6fdc6dc8e09
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-올바른 액세스 또는 권한이 없으면 [!UICONTROL 의 &#x200B;]시나리오[!DNL &#x200B; Adobe Workfront] 영역을 보거나 조직의 계획 또는 이니셔티브를 관리하지 못할 수 있습니다. 계획 및 이니셔티브의 관리에는 계획 및 이니셔티브 생성, 편집 및 삭제가 포함됩니다.
+올바른 액세스 또는 권한이 없으면 [!UICONTROL 의 ]시나리오[!DNL  Adobe Workfront] 영역을 보거나 조직의 계획 또는 이니셔티브를 관리하지 못할 수 있습니다. 계획 및 이니셔티브의 관리에는 계획 및 이니셔티브 생성, 편집 및 삭제가 포함됩니다.
 
 ## [!DNL Adobe Workfront Scenario Planner]을(를) 보고 사용하는 데 필요한 액세스 권한
 
@@ -55,24 +55,24 @@ might need to add information about the permissions to plans/ initiatives if tho
    * [!UICONTROL 밝게] 이상
    * [!UICONTROL 검토자] 이상
 
-  <!--
+<!--
     Old: 
       * For the current licenses: 
         * [!UICONTROL Plan]
         * [!UICONTROL Work]
         * [!UICONTROL Review]
-        -->
+-->
 
-  <!--
+<!--
     Old: 
       >[!NOTE]
       > 
       >* When using the new licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
       >
       >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner.
-      -->
+-->
 
-* [!DNL Workfront] 관리자가 액세스 수준의 [!UICONTROL 에 대한 &#x200B;]보기[!UICONTROL &#x200B; 또는 &#x200B;]편집[!DNL Scenario Planner] 액세스 권한을 부여해야 합니다.
+* [!DNL Workfront] 관리자가 액세스 수준의 [!UICONTROL 에 대한 ]보기[!UICONTROL  또는 ]편집[!DNL Scenario Planner] 액세스 권한을 부여해야 합니다.
 
   [!DNL Workfront Scenario Planner]에 대한 액세스 권한 부여에 대한 자세한 내용은 [액세스 권한 부여 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)를 참조하십시오.
 
