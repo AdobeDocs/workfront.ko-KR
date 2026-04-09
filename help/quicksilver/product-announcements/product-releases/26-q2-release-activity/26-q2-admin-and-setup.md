@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 16ca615d8a0432f371debb832236e788ee5beb88
+source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 자세한 내용은 [양식 구성 및 미리 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)를 참조하세요.
 
-## 이제 사용자 정의 양식에서 서식 있는 텍스트 필드 유형을 사용할 수 있습니다.
+## 서식 있는 텍스트 필드에서 텍스트를 서식 있는 필드 유형으로 바꾸기
 
 >[!NOTE]
 >
