@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
+source-git-commit: 735fc46cb982ebd7e28bed486589efe415741683
 workflow-type: tm+mt
 source-wordcount: '3874'
 ht-degree: 0%
@@ -404,7 +404,7 @@ Adobe 엔터프라이즈 스토리지의 주요 이점은 다음과 같습니다
 
 * 동일한 프로젝트 내의 문서는 이름을 공유할 수 없습니다.
 
-* 프로그램, 포트폴리오, 프로젝트, 템플릿, 작업, 문제, 문서, 문서 폴더 이름에는 `\\ / : \* ? \" \| \< \>` 특수 문자를 사용할 수 없으며 255자로 제한됩니다.
+* 프로그램, 포트폴리오, 프로젝트, 템플릿, 작업, 문제, 문서, 문서 폴더 이름에는 `\ / : * ? " | < >` 특수 문자를 사용할 수 없으며 255자로 제한됩니다.
 
 Workfront은 충돌을 방지하기 위해 필요에 따라 객체 또는 문서의 이름을 자동으로 바꿉니다.
 

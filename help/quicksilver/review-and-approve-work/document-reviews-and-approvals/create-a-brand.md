@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 4%
+source-wordcount: '581'
+ht-degree: 3%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 4%
 1. 왼쪽 패널에서 **검토 및 승인** > **브랜드**(으)로 이동합니다.
 1. 화면 오른쪽 상단에서 **브랜드 추가**&#x200B;를 클릭합니다.
 1. 브랜드 이름을 지정합니다.
-1. 브랜드 파일을 업로드하려면 **PDF 업로드**&#x200B;를 클릭하세요.
+1. 브랜드 파일을 업로드하려면 **PDF 업로드**를 클릭하세요.
    ![브랜드 pdf 업로드](assets/upload-PDF.png)
 1. **계속**&#x200B;을 클릭합니다.
 1. 브랜드 가이드라인이 포함된 PDF 파일을 하나 이상 업로드한 다음 **브랜드 추가**&#x200B;를 클릭합니다.
@@ -129,3 +129,12 @@ ht-degree: 4%
 
 
 1. 완료되면 **게시**&#x200B;를 클릭하여 콘텐츠 검토자가 브랜드를 사용할 수 있도록 합니다.
+
+
+## 브랜드 지침 작성에 대한 우수 사례
+
+*  측정 가능한 기준을 설명하는 브랜드 지침을 작성하십시오. 콘텐츠 검토자는 콘텐츠를 문자 그대로 평가하므로 객관적인 규칙이 주관적인 규칙보다 더 일관된 점수를 생성합니다.
+
+* 지침에서 &quot;회피&quot;, &quot;유지&quot; 또는 &quot;확인&quot;과 같은 단어를 찾습니다. 이는 종종 강화할 수 있는 규칙을 나타냅니다. 모호한 지침을 특정 단어, 형식 또는 제한 목록으로 바꿉니다. 예를 들어 &quot;일반적인 스키 클리셰를 피하십시오&quot;를 &quot;gnar,&#39; &#39;pow,&#39; 또는 &#39;shred&#39;를 사용하지 마십시오&quot;로 바꿉니다.
+
+* 주관성을 제거할 수 없다면 범위를 좁히세요. 광범위한 형용사를 특정한 제한으로 바꾸십시오. 예를 들어, &quot;직접적이고 행동지향적&quot;은 &quot;직접적이고 행동지향적&quot;이 됩니다; filler words를 생략하고 언어를 헤징합니다.&quot;
