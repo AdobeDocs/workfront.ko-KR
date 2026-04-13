@@ -63,7 +63,7 @@ ht-degree: 2%
 
 ## 개체 이름 사용자 지정
 
-[!DNL Workfront] 관리자는 [!DNL Workfront]레이아웃 템플릿[!UICONTROL 을(를) 사용하여 ]에서 개체 이름을 사용자 지정할 수 있습니다.
+[!DNL Workfront] 관리자는 [!DNL Workfront]레이아웃 템플릿[!UICONTROL 을(를) 사용하여 &#x200B;]에서 개체 이름을 사용자 지정할 수 있습니다.
 
 [!UICONTROL 레이아웃 템플릿]을 사용하여 개체 이름을 사용자 지정하는 방법에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->[!DNL Workfront]레이아웃 템플릿[!UICONTROL 을(를) 저장한 후 사용자의 새 개체 이름을 표시하려면 해당 사용자가 로그아웃한 후 ]에 다시 로그인해야 합니다.
+>[!DNL Workfront]레이아웃 템플릿[!UICONTROL 을(를) 저장한 후 사용자의 새 개체 이름을 표시하려면 해당 사용자가 로그아웃한 후 &#x200B;]에 다시 로그인해야 합니다.
 
 >[!IMPORTANT]
 >
@@ -217,7 +217,7 @@ Open API를 사용하여 데이터베이스의 모든 개체에 대해 보고할
 
 >[!NOTE]
 >
-> * 레이아웃 템플릿을 사용하여 오브젝트의 이름을 사용자 정의한 경우 Report Builder의 오브젝트 이름도 사용자 정의되었습니다. 사용자 정의된 개체를 알고 Report Builder에서 사용자 정의된 이름을 찾습니다. [!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 이 문서에서 [레이아웃 템플릿[!UICONTROL 을 사용하여 사용자 지정할 수 있는 ]](#object-names-that-can-be-customized-using-a-layout-template)개체 이름을 참조하십시오.
+> * 레이아웃 템플릿을 사용하여 오브젝트의 이름을 사용자 정의한 경우 Report Builder의 오브젝트 이름도 사용자 정의되었습니다. 사용자 정의된 개체를 알고 Report Builder에서 사용자 정의된 이름을 찾습니다. [!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 이 문서에서 [레이아웃 템플릿[!UICONTROL 을 사용하여 사용자 지정할 수 있는 &#x200B;]](#object-names-that-can-be-customized-using-a-layout-template)개체 이름을 참조하십시오.
 > * 보고서에서 텍스트 모드를 사용할 때 텍스트 모드 표현식의 개체 이름은 사용자 지정된 개체 이름이 아니라 [!DNL Workfront]의 표준 이름입니다. 보고서에서 텍스트 모드를 사용하는 방법에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
 
 보고서 작성에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.\
@@ -295,7 +295,7 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 교정쇄 승인]
    * 승인을 위해 제출된 증명, [!UICONTROL 승인자]에 대한 정보, 요청자에 대한 정보(요청자가 라이선스가 있는 [!DNL Workfront] 사용자인 경우), 버전 정보, 증명 ID 및 증명 생성 날짜를 포함하여 증명 승인에 대한 다양한 정보를 볼 수 있습니다.\
       [!UICONTROL 증명 승인] 보고서에는 아직 결정이 내려지지 않은 사용자의 내 작업 영역에서 사용할 수 있는 증명만 포함됩니다.\
-   * [!DNL Workfront]내에서 증명 공유[의 ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)증명에 사용자 추가[에 설명된 대로  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)에서 증명 승인이 할당됩니다.
+   * [!DNL Workfront]내에서 증명 공유[의 &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)증명에 사용자 추가[에 설명된 대로  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)에서 증명 승인이 할당됩니다.
 
 * [!UICONTROL 큐]
 * [!UICONTROL 대기열 주제]
