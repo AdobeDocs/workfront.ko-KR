@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '628'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,6 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 조직에서
 
 >[!NOTE]
 >
->* Outlook 추가 기능 영역에는 사용자 지정된 레이블이 표시되지 않습니다.
 >* 레이블을 사용자 지정할 때 문법 및 기타 문제가 발생할 수 있습니다. 예를 들어 &quot;문제&quot;를 &quot;요청&quot;으로 변경하면 UI에서 &quot;요청&quot;이라는 구문이 표시되는 위치가 있을 수 있습니다. 자세한 내용은 문서 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)에서 [개체 이름 사용자 지정의 의미](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)를 참조하십시오.
 >
 
@@ -53,7 +52,7 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 조직에서
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 

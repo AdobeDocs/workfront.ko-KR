@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 0%
 * [사용자 정의 양식 개선 사항](custom-form-enhancements.md)
 * [iOS 및 Android용 모바일 앱 업데이트(2017년 8월 초)](updated-mobile-app.md)
 * [Adobe Workfront에서 TLS 1.2 필요](tls-1-disabled.md)
-* [이제 Outlook 365 추가 기능을 사용할 수 있습니다.](../../outlook-365-add-in/outlook-365-add-in-now-available.md)
 * [Adobe Workfront에서 Flash 기반 도구 교체](replace-flash-tools.md)
 * [요청 대기열에 대한 POP 전자 메일을 21.1로 대체할 새 Adobe Workfront 관리 시스템](pop-removal-request-queue.md)
 * [요청 대기열에 대한 POP 이메일을 21.1로 대체하는 새로운 Adobe Workfront 관리 시스템](pop-removal-request-queue.md)

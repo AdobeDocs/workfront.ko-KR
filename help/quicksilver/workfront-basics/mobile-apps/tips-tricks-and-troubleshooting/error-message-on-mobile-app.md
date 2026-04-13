@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: " [!DNL Adobe Workfront] 모바일 앱에서 오류 메시지: '계정이 API를 사용할 수 없습니다.'"
-description: " [!DNL Adobe Workfront] 모바일 앱에서 오류 메시지: '계정이 API를 사용할 수 없습니다.'"
+title: ' [!DNL Adobe Workfront] 모바일 앱에서 오류 메시지: ''계정이 API를 사용할 수 없습니다.'''
+description: ' [!DNL Adobe Workfront] 모바일 앱에서 오류 메시지: ''계정이 API를 사용할 수 없습니다.'''
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '163'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜</strong></td> 
-   <td> <p> 임의</p> </td> 
+   <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe [!DNL Workfront] 라이선스</strong></td> 
@@ -53,7 +53,7 @@ ht-degree: 2%
 1. **[!UICONTROL 설정]** 영역으로 이동합니다.
 1. **[!UICONTROL 시스템]** 메뉴를 확장한 다음 **[!UICONTROL 기본 설정]**&#x200B;을 클릭합니다.
 
-1. **[!UICONTROL 보안]** 섹션에서 **[!UICONTROL 사람들이 [!DNL Workfront]의 모바일 응용 프로그램과 [!DNL Workfront Outlook] 추가 기능]** 옵션을 사용하여 사용하도록 설정합니다.
+1. **[!UICONTROL 보안]** 섹션에서 **[!UICONTROL 사람들이 [!DNL Workfront]의 모바일 애플리케이션을 사용하도록 허용]** 옵션을 선택하여 사용하도록 설정합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.\
-   이제 시스템의 모든 사용자가 모바일 앱 및 [!DNL Outlook]에서 [!DNL Workfront]에 액세스할 수 있습니다.
+   이제 시스템의 모든 사용자가 모바일 앱에서 [!DNL Workfront]에 액세스할 수 있습니다.

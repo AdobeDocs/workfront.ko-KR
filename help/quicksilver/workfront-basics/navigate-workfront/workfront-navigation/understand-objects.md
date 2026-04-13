@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront] 에 표시하는 정보는  [!DNL Workfron
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '2508'
-ht-degree: 1%
+source-wordcount: '2456'
+ht-degree: 2%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 ## 개체 이름 사용자 지정
 
-[!DNL Workfront] 관리자는 [!UICONTROL 레이아웃 템플릿]을(를) 사용하여 [!DNL Workfront]에서 개체 이름을 사용자 지정할 수 있습니다.
+[!DNL Workfront] 관리자는 [!DNL Workfront]레이아웃 템플릿[!UICONTROL 을(를) 사용하여 ]에서 개체 이름을 사용자 지정할 수 있습니다.
 
 [!UICONTROL 레이아웃 템플릿]을 사용하여 개체 이름을 사용자 지정하는 방법에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->[!UICONTROL 레이아웃 템플릿]을(를) 저장한 후 사용자의 새 개체 이름을 표시하려면 해당 사용자가 로그아웃한 후 [!DNL Workfront]에 다시 로그인해야 합니다.
+>[!DNL Workfront]레이아웃 템플릿[!UICONTROL 을(를) 저장한 후 사용자의 새 개체 이름을 표시하려면 해당 사용자가 로그아웃한 후 ]에 다시 로그인해야 합니다.
 
 >[!IMPORTANT]
 >
@@ -126,16 +126,6 @@ Workfront에서 다른 개체의 이름은 사용자 지정할 수 없습니다.
 * 이메일
 * 모바일 앱
 
-### 사용자 지정된 개체 이름을 반영하지 않는 [!DNL Workfront]의 영역
-
-다음 영역에는 업데이트된 개체 이름이 표시되지 않습니다.
-
-<!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Referenced Object Type selection for a Typeahead field in a Custom Form </p> <p>(NOTE: drafting this because I don't think this is true)</p> </li>
-  -->
-
-* [!DNL Outlook] 추가 기능
-
 ### 개체 이름 사용자 지정의 의미
 
 [!DNL Workfront]에서 개체 이름을 사용자 지정할 때는 다음 사항에 유의해야 합니다.
@@ -155,7 +145,7 @@ Workfront에서 다른 개체의 이름은 사용자 지정할 수 없습니다.
 
 [!DNL Workfront] 설명서는 항상 개체의 기본 이름을 참조합니다. 개체의 이름이 사용자 지정된 경우 해당 개체와 관련된 아이콘을 사용하여 사용자 지정된 개체가 기본 개체 [!DNL Workfront]에 해당하는지 파악할 수 있습니다.
 
-[!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 [레이아웃 템플릿](#object-names-that-can-be-customized-using-a-layout-template)을 사용하여 사용자 지정할 수 있는 개체 이름을 참조하십시오.
+[!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 [레이아웃 템플릿[!UICONTROL 을 사용하여 사용자 지정할 수 있는 개체 이름을 참조하십시오.]](#object-names-that-can-be-customized-using-a-layout-template)
 
 다음은 Workfront에 있는 개체 및 해당 아이콘 목록입니다.
 
@@ -202,7 +192,7 @@ Workfront에서 다른 개체의 이름은 사용자 지정할 수 없습니다.
 | [!UICONTROL 프로그램] | ✓ | ✓ |
 | [!UICONTROL 대시보드] | ✓ | ✓ |
 | [!UICONTROL 회사] | ✓ | ✓ |
-| [!UICONTROL 메모] (또는 [!UICONTROL 업데이트]) | ✓ |  |
+| [!UICONTROL 메모]&#x200B;(또는 [!UICONTROL 업데이트]) | ✓ |  |
 
 [!DNL Workfront]에서 기본 및 고급 검색을 실행하는 방법에 대한 자세한 내용은 [검색 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md)을 참조하십시오.
 
@@ -227,7 +217,7 @@ Open API를 사용하여 데이터베이스의 모든 개체에 대해 보고할
 
 >[!NOTE]
 >
-> * 레이아웃 템플릿을 사용하여 오브젝트의 이름을 사용자 정의한 경우 Report Builder의 오브젝트 이름도 사용자 정의되었습니다. 사용자 정의된 개체를 알고 Report Builder에서 사용자 정의된 이름을 찾습니다. [!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 이 문서에서 [!UICONTROL 레이아웃 템플릿][&#128279;](#object-names-that-can-be-customized-using-a-layout-template)을 사용하여 사용자 지정할 수 있는 개체 이름을 참조하십시오.
+> * 레이아웃 템플릿을 사용하여 오브젝트의 이름을 사용자 정의한 경우 Report Builder의 오브젝트 이름도 사용자 정의되었습니다. 사용자 정의된 개체를 알고 Report Builder에서 사용자 정의된 이름을 찾습니다. [!DNL Workfront]에서 사용자 지정할 수 있는 개체에 대한 자세한 내용은 이 문서에서 [레이아웃 템플릿[!UICONTROL 을 사용하여 사용자 지정할 수 있는 ]](#object-names-that-can-be-customized-using-a-layout-template)개체 이름을 참조하십시오.
 > * 보고서에서 텍스트 모드를 사용할 때 텍스트 모드 표현식의 개체 이름은 사용자 지정된 개체 이름이 아니라 [!DNL Workfront]의 표준 이름입니다. 보고서에서 텍스트 모드를 사용하는 방법에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
 
 보고서 작성에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.\
@@ -239,7 +229,7 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 
 * [!UICONTROL 프로젝트]
 * [!UICONTROL 작업]
-* [!UICONTROL 시간]
+* [!UICONTROL Hour]
 * [!UICONTROL 문제]
 * [!UICONTROL 사용자]
 * [!UICONTROL 액세스] 수준
@@ -275,7 +265,7 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 그룹화]
 * [!UICONTROL 시간 유형]
 * [!UICONTROL 이니셔티브]
-   * 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입한 경우에만 플랜의 하위 개체인 이니셔티브에 대한 보고서를 만들 수 있습니다. 이니셔티브에 대한 자세한 내용은  [!DNL Workfront Scenario Planner][&#128279;](../../../scenario-planner/initiatives-overview.md)에서 이니셔티브 개요 를 참조하십시오.
+   * 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입한 경우에만 플랜의 하위 개체인 이니셔티브에 대한 보고서를 만들 수 있습니다. 이니셔티브에 대한 자세한 내용은 [에서  [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md)이니셔티브 개요 를 참조하십시오.
 
 * 이니셔티브 작업 역할
    * 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입한 경우에만 플랜의 이니셔티브와 연결된 작업 역할에 대한 보고서를 만들 수 있습니다. 이니셔티브를 만들고 작업 역할과 연결하는 방법에 대한 자세한 내용은 [이니셔티브 만들기 및 편집 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md)을 참조하십시오.
@@ -291,8 +281,8 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 참고] 또는 [!UICONTROL 업데이트]
    * 개별 사용자가 추가한 댓글에 대해 보고할 수 있습니다.
 
-* [!UICONTROL 매개 변수] (또는 [!UICONTROL 사용자 지정 필드])
-* [!UICONTROL 매개 변수 그룹] (또는 [!UICONTROL 섹션 구분])
+* [!UICONTROL 매개 변수]&#x200B;(또는 [!UICONTROL 사용자 지정 필드])
+* [!UICONTROL 매개 변수 그룹]&#x200B;(또는 [!UICONTROL 섹션 구분])
 * [!UICONTROL Portfolio]
 * [!UICONTROL 프로그램]
 * [!UICONTROL 프로젝트(재무 데이터)]
@@ -305,11 +295,11 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 교정쇄 승인]
    * 승인을 위해 제출된 증명, [!UICONTROL 승인자]에 대한 정보, 요청자에 대한 정보(요청자가 라이선스가 있는 [!DNL Workfront] 사용자인 경우), 버전 정보, 증명 ID 및 증명 생성 날짜를 포함하여 증명 승인에 대한 다양한 정보를 볼 수 있습니다.\
       [!UICONTROL 증명 승인] 보고서에는 아직 결정이 내려지지 않은 사용자의 내 작업 영역에서 사용할 수 있는 증명만 포함됩니다.\
-   * [내에서 증명 공유 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)의 [증명에 사용자 추가](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)에 설명된 대로 [!DNL Workfront]에서 증명 승인이 할당됩니다.
+   * [!DNL Workfront]내에서 증명 공유[의 ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)증명에 사용자 추가[에 설명된 대로  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)에서 증명 승인이 할당됩니다.
 
 * [!UICONTROL 큐]
 * [!UICONTROL 대기열 주제]
-* [!UICONTROL 요금] (작업 역할 [!UICONTROL 청구 요금] 정보를 표시함)
+* [!UICONTROL 요금]&#x200B;(작업 역할 [!UICONTROL 청구 요금] 정보를 표시함)
 * [!UICONTROL 미리 알림]
 * [!UICONTROL 보고서]
 * [!UICONTROL 리소스 풀]
@@ -336,4 +326,4 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
    * 이번 달에 사용자가 증명 및 문서에 대해 내린 결정 횟수를 보고할 수 있습니다.
 
 * [!UICONTROL 보기]
-* [!UICONTROL 작업 항목] (작업 및 문제에 대한 보고서 생성)
+* [!UICONTROL 작업 항목]&#x200B;(작업 및 문제에 대한 보고서 생성)

@@ -11,10 +11,10 @@ role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 77970e17611a61308018db82d4b72fb7fe988ac1
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 9%
+source-wordcount: '117'
+ht-degree: 13%
 
 ---
 
@@ -56,12 +56,6 @@ ht-degree: 9%
 1. 페이지의 오른쪽 상단에 있는 **[!UICONTROL 설치],**&#x200B;를 클릭합니다.
 
 1. **[!UICONTROL 시스템],**&#x200B;을 확장한 다음 **[!UICONTROL 환경 설정].**&#x200B;을 클릭합니다.
-
-1. 사용자가 **[!UICONTROL 모바일 앱에서 [!DNL Workfront Outlook]을(를) 사용하거나 Outlook용]**&#x200B;을(를) 설치 및 사용할 수 있도록 하려면 [!DNL Workfront]Workfront의 모바일 응용 프로그램 사용 허용 및 [!DNL Workfront] 추가 기능[!DNL Workfront] 설정을 선택하세요.\
-   이 옵션은 기본적으로 활성화되어 있습니다.
-
 1. **[!UICONTROL 저장].** 클릭
 
 사이트에 대해 [!DNL Workfront] 모바일 앱을 사용하도록 설정한 후 사용하는 방법에 대한 자세한 내용은 [모바일 앱 사용 [!DNL Adobe Workfront] 을 참조하십시오](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
-
-[!DNL Workfront for Outlook]을(를) 사용하는 방법에 대한 자세한 내용은 [사용 [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) 섹션을 참조하십시오.
