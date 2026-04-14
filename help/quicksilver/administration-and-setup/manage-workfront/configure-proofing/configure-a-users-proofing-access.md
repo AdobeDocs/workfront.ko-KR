@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 0%
+source-wordcount: '1102'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 Workfront 및 Work
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -33,7 +33,7 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 Workfront 및 Work
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -50,19 +50,6 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 Workfront 및 Work
 
 +++
 
-## 사용자에 대한 증명 활성화 및 비활성화(기존 계획만 해당) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
-
-조직에서 Workfront 관리자로서 레거시 Select 또는 Premium Workfront 계획을 사용하는 경우 사용자에 대한 증명 기능을 활성화하거나 비활성화할 수 있습니다.
-
-사용자에 대한 증명을 활성화하면 Workfront에서 사용자의 증명이 자동으로 생성되는 옵션을 활성화합니다.
-
-사용자를 증명 사용자로 활성화할 수 있지만, Workfront 기본 메뉴에서 Workfront Proof 인터페이스로 직접 이동하려면 관리자 권한이 있어야 합니다. Workfront 시스템의 모든 증명 사용자에 대해 이 옵션을 활성화하는 방법에 대한 자세한 내용은 [모든 사용자에 대한 Workfront 주 메뉴를 통해 Workfront Proof 액세스 구성](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users)을 참조하십시오.
-
-1. **기본 메뉴**&#x200B;에서 **사용자**&#x200B;를 선택합니다.
-
-1. 사용자를 선택한 다음 **편집** 아이콘을 클릭합니다.
-1. **액세스** 섹션에서 **사용자가 증명을 생성할 수 있음**&#x200B;을(를) 선택하거나 선택 취소합니다.
-
 ## 사용자의 증명 권한 프로필 구성
 
 선택한 권한 프로필은 조직 내에 있는 각 증명에 대해 사용자에게 부여됩니다.
@@ -75,7 +62,7 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 Workfront 및 Work
 
    >[!NOTE]
    >
-   >기존 Workfront 플랜을 사용하는 경우 [사용자에 대한 증명 활성화 및 비활성화(기존 플랜만 해당)](#enable-and-disable-proofing-for-a-user-legacy-plans-only) 섹션에 설명된 대로 **사용자가 증명을 생성할 수 있음** 옵션이 활성화되어 있는지 확인하십시오.
+   >기존 Workfront 플랜을 사용하는 경우 **사용자에 대한 증명 활성화 및 비활성화(기존 플랜만 해당)** 섹션에 설명된 대로 [사용자가 증명을 생성할 수 있음](#enable-and-disable-proofing-for-a-user-legacy-plans-only) 옵션이 활성화되어 있는지 확인하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -141,7 +128,7 @@ Workfront 지원에 문의하고 요청을 제출하여 모든 사용자에게 W
 
 1. **증명 기본값**&#x200B;에서 **대화형 증명을 위한 데스크톱 증명 뷰어** 행 끝에 있는 **설정**&#x200B;을 클릭합니다.
 
-1. [조직에 대한 증명 설정 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) 문서의 [데스크톱 증명 뷰어](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer)에 설명된 대로 데스크톱 증명 뷰어 설정을 수정합니다.
+1. [조직에 대한 증명 설정 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer) 문서의 [데스크톱 증명 뷰어](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)에 설명된 대로 데스크톱 증명 뷰어 설정을 수정합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -152,4 +139,4 @@ Workfront 지원에 문의하고 요청을 제출하여 모든 사용자에게 W
 자세한 내용은 증명 뷰어에서 [대화형 증명 해상도 변경](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)을 참조하십시오.
 
 1. [Workfront에서 Workfront Proof 액세스](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)에 설명된 대로 Adobe Workfront에서 Workfront Proof 인터페이스에 액세스합니다.
-1. [조직에 대한 증명 설정 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) 문서의 [증명에 대한 사용자 지정 장치 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs)에 설명된 대로 데스크톱 증명 뷰어 설정을 수정합니다.
+1. [조직에 대한 증명 설정 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs) 문서의 [증명에 대한 사용자 지정 장치 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)에 설명된 대로 데스크톱 증명 뷰어 설정을 수정합니다.
