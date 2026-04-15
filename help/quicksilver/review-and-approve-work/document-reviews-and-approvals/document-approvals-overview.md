@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca06f89747110f1abc4cc6ff46490ac6f7a54e96
+source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
 workflow-type: tm+mt
-source-wordcount: '3876'
+source-wordcount: '3846'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,7 @@ ht-degree: 0%
 
 ## 통합 요구 사항
 
-* Workfront 및 Frame.io는 동일한 IMS(Identity Management system) 조직에 배포해야 합니다.
-
-* 사용자는 IMS 조직 내에서 하나의 Workfront 인스턴스에만 속할 수 있습니다.
-
-* Workfront 인스턴스는 Adobe Unified Experience 및 Adobe 엔터프라이즈 스토리지에서 활성화되어야 합니다.
+* Workfront 통합 경험에서 Adobe 인스턴스를 활성화해야 합니다.
 
 
 ## Adobe 엔터프라이즈 스토리지 기반
