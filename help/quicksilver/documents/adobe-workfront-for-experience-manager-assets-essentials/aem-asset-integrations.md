@@ -6,10 +6,10 @@ description: Workfront과 Experience Manager Assets 또는 Assets Essentials 간
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: deb38abd0c7b4ba41eb21a6539f00d009158f986
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 3%
+source-wordcount: '323'
+ht-degree: 5%
 
 ---
 
@@ -32,6 +32,12 @@ Workfront과 Experience Manager Assets 또는 Assets Essentials 간의 통합을
 * 기존의 연결된 자산에 대한 메타데이터를 쉽게 동기화
 * Workfront에서 변경될 때 포트폴리오, 프로그램, 프로젝트, 작업, 문제 및 문서 메타데이터를 자동으로 업데이트
 * 조직 ID를 통해 여러 Experience Manager Assets 저장소를 하나의 Workfront 환경에 또는 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 원활하게 연결합니다
+* Experience Manager Assets의 Content Advisor 기능을 활용합니다. Content Advisor를 사용하여 다음과 같은 작업을 수행할 수 있습니다
+   * 콘텐츠를 업로드하여 유사한 에셋 검색
+   * 에셋에 대한 빠른 세부 정보 보기
+   * 콘텐츠 조각 액세스
+   * 컬렉션 탐색
+   * 기타. 자세한 내용은 [Experience Manager Assets Content Advisor 설명서]를 참조하십시오.
 
 
 ## 전제 조건
@@ -54,7 +60,7 @@ Workfront과 Experience Manager Assets 또는 Assets Essentials 간의 통합을
 
 ## 시작하기
 
-1. [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑을 구성합니다](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑을 구성합니다](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 1. 통합 설정:
    1. [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 또는

@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: ac3534cde15da84ae12f577b05eced88f74068e7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 0%
 <!-- Audited: 4/2025 -->
 
 * [Adobe Experience Manager Assets 통합 개요](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-* [Experience Manager Assets 또는 Assets Essentials에서 에셋 및 폴더 연결](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [Experience Manager Assets의 Content Advisor와 자산 및 폴더 연결](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [Experience Manager Assets Essentials에서 에셋 및 폴더 연결](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)
 * [Experience Manager Assets 또는 Assets Essentials에 대해 매핑된 메타데이터 보기](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
 * [Experience Manager Assets 또는 Assets Essentials로 문서 보내기](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
 * [Experience Manager Assets 또는 Assets Essentials에 대해 연결된 에셋 증명](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
