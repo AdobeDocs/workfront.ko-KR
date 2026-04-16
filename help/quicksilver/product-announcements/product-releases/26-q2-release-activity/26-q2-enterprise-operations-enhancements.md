@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: 855ff527d54fa7212555675bf2d89466384b59ca
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -192,4 +192,23 @@ financial management의 향상된 기능은 다음과 같습니다.
 자세한 내용은 [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)을 참조하세요.
 
 [비즈니스 규칙 개선 사항의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
+
+### 일자 유효 비율에 대해 허용되는 간격
+
+>[!NOTE]
+>
+>이 기능은 모든 Workfront 및 워크플로우 패키지의 조직에서 사용할 수 있습니다.
+>등급 카드는 Workflow Ultimate 패키지의 조직에서만 사용할 수 있습니다.
+
+Workfront을 사용하면 청구 및 비용 요금에 대한 날짜 범위 간 간격을 유지할 수 있지만, 의도적인지 확인하는 경고가 표시됩니다.
+
+날짜 범위 사이에 차이가 있을 수 있습니다. 요금이 있는 곳이라면 어디에나 있습니다.
+
+* 작업 역할의 비율
+* 사용자 프로필의 비율
+* 요금 카드의 요금
+* 프로젝트 수준에서 이러한 비율을 재정의할 때
+
+자세한 내용은 [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 및 [요금 카드 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)를 참조하십시오.
 

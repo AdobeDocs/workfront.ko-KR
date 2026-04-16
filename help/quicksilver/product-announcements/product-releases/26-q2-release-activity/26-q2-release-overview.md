@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2362'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2026년 2분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
 
-라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/ko/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
+라이브 웨비나는 각 분기별 릴리스에 대해 진행되며, 새로운 기능을 강조하고 자세한 정보를 제공합니다. 등록하려면 [이벤트 페이지](https://experienceleague.adobe.com/en/events?filters=Workfront)를 방문하여 Workfront을 필터링하세요.
 
 >[!IMPORTANT]
 >
@@ -134,6 +134,15 @@ ht-degree: 4%
         <td><strong>분기별</strong></td>
    <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Workfront에서 AEM Assets용 Content Advisor를 사용하여 더 빠르게 콘텐츠를 검색하고 재사용할 수 있습니다. </a><p></p>
+            <p>이제 Workfront에서 Adobe Experience Manager Assets 통합을 통해 Content Advisor를 사용할 수 있으므로 팀이 가치가 높은 기존 컨텐츠를 보다 쉽게 검색하고 재사용할 수 있습니다.</p>
+        </td>
+        <td><p>2026년 4월 16일 금요일</p></td>
+        <td><p>2026년 4월 16일 금요일</p></td>
+        <td><p>2026년 4월 16일 금요일</p></td>
+    </tr>
+   <tr>
+        <td>
             AI 공동 작업자 <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">을(를) 지원하기 위해 </a>GenStudio Foundations 프로비저닝을 사용하도록 설정했습니다.<p></p>
             <p>2026년 3월 31일에 모든 Workfront 고객이 GenStudio Foundation에 대해 프로비저닝되었으며, Admin Console 시스템 관리자는 이 추가 기능을 알리는 이메일을 받게 됩니다. 이 제품은 Workfront 고객이 AI 공동 작업자 릴리스에 필요한 경우 브랜드에 Workfront 고객에 대한 액세스 권한을 부여할 수 있도록 만 제공됩니다. 제품 자체는 브랜드 를 위한 액세스 메커니즘일 뿐이며 GenStudio Foundation 제품에서 사용할 수 있는 추가 기능은 없습니다.</p><p>고객은 이 신제품에 대해 요금을 받지 않습니다.</p>
         </td>
@@ -197,6 +206,16 @@ ht-degree: 4%
         <td>
             이제 Adobe Workfront에서 <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}">엔터프라이즈 작업 기능을 사용할 수 있습니다</a><p></p>
             <p>Adobe Workfront의 고급 엔터프라이즈 운영 기능은 재무, 프로젝트 및 엔터프라이즈 액세스를 관리하는 통합적이고 확장 가능한 방법입니다. 이러한 기능은 기업이 수익성 있고 효율적으로 운영해야 하는 가시성과 제어를 제공합니다.</p><p>이러한 기능에는 다음 업데이트가 포함됩니다.<ul><li>고급 재무 관리 - 비율 속성, 비율 카드, 재설계된 고급 지정 경험, 일자 유효 환율 및 추가 고급 기능 포함</li><li>이전 데이터 추적 - 프로젝트 스냅샷 포함</li><li>엔터프라이즈 권한 - 비즈니스 프로필, 액세스 수준 및 오브젝트 권한의 별도 비용 및 청구 요금 포함</li><li>사용자 정의 양식 및 필드 개선 사항 - 새로운 고급 논리 유형, 통화 형식 필드의 재무 권한 유형 설정, 더 많은 오브젝트에 사용자 정의 양식을 추가하는 기능 및 양식 디자이너 인터페이스 개선 사항 포함</li><li>레이아웃 템플릿 개선 사항 - 더 많은 오브젝트의 헤더 및 왼쪽 탐색 메뉴 사용자 정의, 레이아웃 템플릿의 기본 메뉴 옵션 업데이트 및 더 보기 메뉴 사용자 정의 포함</li><li>사용자 정의 현지화 - 다른 언어로 사용자 정의 용어 및 구를 정의하는 기능 포함</li><li>비즈니스 규칙 개선 사항 - 특정 조건이 충족될 때 생성, 편집 또는 수정된 객체에 대한 작업을 자동화하는 기능을 포함합니다</li></ul></p>
+ </p>
+        </td>
+        <td><p>2026년 4월 2일 금요일</p></td>
+        <td><p>2026년 4월 15일 목요일</p></td>
+        <td><p>2026년 4월 16일 금요일</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}">날짜 유효 기간에 대해 허용되는 간격</a><p></p>
+            <p>Workfront을 사용하면 청구 및 비용 요금에 대한 날짜 범위 간 간격을 유지할 수 있지만, 의도적인지 확인하는 경고가 표시됩니다.</p>
  </p>
         </td>
         <td><p>2026년 4월 2일 금요일</p></td>
@@ -486,13 +505,13 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 
 ### Workfront 유지 관리 업데이트
 
-2026년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2026년 2분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

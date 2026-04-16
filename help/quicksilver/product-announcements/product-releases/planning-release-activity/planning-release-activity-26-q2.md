@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 62e23ddf3fc90c1e1e993ad4155564964be07b93
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1984'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,25 @@ ht-degree: 0%
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
+
+## 이제 Adobe Experience Manager에 연결된 레코드에서 컨텐츠 관리자를 사용할 수 있습니다
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 16일
+>프로덕션 빠른 릴리스: 2026년 4월 16일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+이제 Workfront Planning에서 Experience Manager의 콘텐츠 관리자에 액세스할 수 있습니다. 콘텐츠 관리자를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
+
+* 스마트 제안 또는 캠페인 개요 세부 정보를 사용하여 콘텐츠 검색
+* 재사용 전에 주요 세부 정보를 확인하여 컨텐츠 적합성을 신속하게 평가
+* 콘텐츠 조각 검색 및 재사용
+* 컬렉션을 탐색하여 관련 브랜드 내 콘텐츠 식별
+
+Planning의 연결된 필드에서 사용할 자산 또는 컨텐츠 조각을 컨텐츠 권고자에서 선택할 수 있습니다.
+
+Workfront Planning에서 Content Advisor에 액세스하는 방법에 대한 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하십시오.
 
 ## 목록 보기의 행 높이를 늘리는 새로운 기능
 

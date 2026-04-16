@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,27 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 2분기 릴리스의 문서 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)를 참조하십시오.
+
+## Workfront의 AEM Assets용 Content Advisor를 사용하여 컨텐츠를 보다 빠르게 검색하고 재사용할 수 있습니다.
+
+>[!NOTE]
+>
+>미리 보기: 2026년 4월 16일
+>프로덕션 빠른 릴리스: 2026년 4월 16일
+>모두를 위한 프로덕션: 2026년 4월 16일
+
+이제 Workfront에서 Adobe Experience Manager Assets 통합을 통해 Content Advisor를 사용할 수 있으므로 팀이 가치가 높은 기존 컨텐츠를 보다 쉽게 검색하고 재사용할 수 있습니다.
+
+Content Advisor를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
+
+* 스마트 제안 또는 캠페인 개요 세부 정보를 사용하여 콘텐츠 검색
+* 재사용 전에 주요 세부 정보를 확인하여 컨텐츠 적합성을 신속하게 평가
+* 콘텐츠 조각 검색 및 재사용
+* 컬렉션을 탐색하여 관련 브랜드 내 콘텐츠 식별
+
+이러한 통합을 통해 팀은 Workfront 내에서 바로 중복 컨텐츠 생성을 줄이고 실행 속도를 높이며 기존 AEM 자산의 가치를 극대화할 수 있습니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
 ## AI 공동 작업자를 지원하기 위해 GenStudio Foundations 프로비저닝 활성화됨
 
