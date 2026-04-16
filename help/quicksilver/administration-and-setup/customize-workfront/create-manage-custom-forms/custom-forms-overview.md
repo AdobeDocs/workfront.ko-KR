@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 11%
+source-wordcount: '390'
+ht-degree: 13%
 
 ---
 
 # 사용자 정의 양식 개요
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -33,17 +31,7 @@ ht-degree: 11%
 
 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
-<div class="preview">
-
-미리보기 환경의 샘플 이미지:
-
 ![샘플 양식 디자이너](assets/form-designer-example-032526.png)
-
-</div>
-
-프로덕션 환경의 샘플 이미지:
-
-![샘플 양식 디자이너](assets/form-designer-example.png)
 
 ## 사용자 정의 필드 및 위젯
 
@@ -61,6 +49,7 @@ Workfront에서 다음 유형의 사용자 정의 필드를 사용자 정의 양
 * 외부 조회
 * 기본 필드 참조
 * 타이프 어헤드
+* 계획 필드 연결
 * 계산됨
 * 일자
 * 확인란 그룹
@@ -92,8 +81,11 @@ Workfront에서 다음 유형의 사용자 정의 필드를 사용자 정의 양
 * 포트폴리오
 * 경비
 * 그룹
+* 작업 역할
+* 팀
 * 반복
 * 청구 기록
+* 요율 카드
 
 개체에 사용자 정의 양식을 첨부하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
 

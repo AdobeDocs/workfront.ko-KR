@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '2958'
-ht-degree: 5%
+source-wordcount: '3008'
+ht-degree: 6%
 
 ---
 
@@ -52,8 +52,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
+   <td>  <p>사용자 및 역할 시간별 수익 및 비용 유형을 사용하려면: Workflow Ultimate</p>
+      <p>다른 모든 설정을 편집하고 다른 모든 수익 및 비용 유형을 사용하려면: 모든 Workfront 또는 워크플로우 패키지</p>  </td> 
+  </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>표준</p>
@@ -439,6 +440,7 @@ Old:
         <li> <p style="font-weight: normal;"><span>시간별 고정</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>시간별 사용자</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>시간별 역할</span> </p> </li> 
+        <li> <p style="font-weight: normal;">시간별 사용자 및 역할</p> </li>
        </ul> <p>비용 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">비용 추적</a>을 참조하세요.</p> </td> 
      </tr> 
      <tr> 
@@ -448,11 +450,14 @@ Old:
         <li> <p style="font-weight: normal;">과금 불가</p> </li> 
         <li> <p style="font-weight: normal;">시간별 사용자</p> </li> 
         <li> <p style="font-weight: normal;">시간별 역할</p> </li> 
+        <li> <p style="font-weight: normal;">시간별 사용자 및 역할</p> </li>
         <li> <p style="font-weight: normal;">고정 시간별</p> </li> 
         <li> <p style="font-weight: normal;">시간별 사용자(상한 포함)</p> </li> 
         <li> <p style="font-weight: normal;">시간별 역할(수용작업량 포함)</p> </li> 
+        <li> <p style="font-weight: normal;">시간별 사용자 및 역할 (상한 포함)</p> </li>
         <li> <p style="font-weight: normal;">시간별 + 고정 사용자</p> </li> 
         <li> <p style="font-weight: normal;">시간별 + 고정 역할</p> </li> 
+        <li> <p style="font-weight: normal;">시간별 사용자 및 역할 (고정 포함)</p> </li>
         <li> <p style="font-weight: normal;">고정 수입</p> </li> 
        </ul> <p>수익 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">청구 및 수익 개요</a>를 참조하십시오.</p> </td> 
      </tr> 

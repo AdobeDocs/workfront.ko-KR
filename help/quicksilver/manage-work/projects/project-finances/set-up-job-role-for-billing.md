@@ -6,7 +6,8 @@ title: 청구에 대한 작업 역할 설정
 description: Workfront을 사용하면 사용자에게 기본 작업 역할과 다른 작업 역할의 비용을 청구할 수 있습니다. 이 기능은 개인이 다른 요금으로 청구되어야 하는 작업을 일시적으로 수행할 때 유용합니다.
 author: Lisa
 feature: Work Management
-source-git-commit: d92908d358ca53ae9d443fd76556e3e8b273e3cb
+exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 3%
@@ -14,8 +15,6 @@ ht-degree: 3%
 ---
 
 # 청구에 대한 작업 역할 설정
-
-{{highlighted-preview-article-level}}
 
 Workfront을 사용하면 사용자에게 기본 작업 역할과 다른 작업 역할의 비용을 청구할 수 있습니다. 이 기능은 개인이 다른 요금으로 청구되어야 하는 작업을 일시적으로 수행할 때 유용합니다.
 

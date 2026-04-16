@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 4%
+source-wordcount: '898'
+ht-degree: 3%
 
 ---
 
@@ -66,15 +66,34 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 ## 사용자 정의 액세스 수준을 사용하여 사용자 편집에 대한 사용자 액세스 구성
 
 1. [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에 설명된 대로 액세스 수준을 만들거나 편집하십시오.
-1. 플랜 또는 작업 라이선스가 있는 사용자가 다른 사용자의 프로필을 보는 기능을 변경하려면 다음을 수행하십시오.
+1. 표준, 플랜 또는 작업 라이선스가 있는 사용자가 다른 사용자의 정보를 볼 수 있는 기능을 변경하려면 ![사용자](assets/gear-icon-settings.png) 오른쪽에 있는 **보기** 단추의 톱니바퀴 아이콘 **톱니바퀴 아이콘**&#x200B;을 클릭한 다음 **설정을 미세 조정** 상자에서 부여할 보기 옵션을 선택하십시오.
 
-   1. ![](assets/gear-icon-settings.png)사용자&#x200B;**오른쪽에 있는**&#x200B;보기&#x200B;**단추의 톱니바퀴 아이콘**&#x200B;을(를) 클릭합니다.
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>청구 요금 보기</strong> </td> 
+      <td> 사용자가 사용자 프로필에 대한 청구 요금을 볼 수 있습니다.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>연락처 정보 보기</strong> </td> 
+      <td> 사용자가 다른 사용자의 사용자 세부 사항 페이지를 볼 수 있습니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>비용 요금 보기</strong> </td> 
+      <td> 사용자가 사용자 프로필에 대한 비용 비율을 볼 수 있습니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>일반 재무 보기</strong> </td> 
+      <td> 사용자가 사용자 프로필의 일반 재무 필드(청구 또는 비용 요금과 관련이 없음)를 볼 수 있습니다.</td>
+     </tr> 
+    </tbody> 
+   </table>
 
-   1. **연락처 정보 보기**&#x200B;를 사용하지 않도록 설정한 다음 X를 클릭하여 **설정 세부 조정** 상자를 닫습니다.
+   ![보기 사용자 설정 미세 조정](assets/fine-tune-view-users.png)
 
-      ![사용자 설정 미세 조정](assets/fine-tune-users.png)
-
-1. 플랜 라이선스 액세스 권한이 있는 사용자가 다른 사용자를 편집할 수 있는 기능을 수정하려면 ![](assets/gear-icon-settings.png)사용자&#x200B;**오른쪽에 있는**&#x200B;편집&#x200B;**단추의 톱니바퀴 아이콘**&#x200B;을(를) 클릭한 다음 부여할 기능을 선택하십시오.
+1. 표준 또는 플랜 라이선스 액세스 권한을 가진 사용자가 다른 사용자를 편집할 수 있는 기능을 수정하려면 ![사용자](assets/gear-icon-settings.png) 오른쪽에 있는 **편집** 단추의 톱니바퀴 아이콘 **톱니바퀴 아이콘**&#x200B;을 클릭한 다음 **설정을 미세 조정** 상자에서 부여할 편집 옵션을 선택하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -89,6 +108,18 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
      <tr> 
       <td role="rowheader"><strong>삭제</strong> </td> 
       <td> <p> 사용자가 직접 만든 사용자를 삭제할 수 있도록 허용합니다.<br>이 옵션은 기본적으로 사용됩니다.</p> <p><b>참고</b>: 조직에서 Adobe Admin Console에 온보딩한 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>청구 요금 편집</strong> </td> 
+      <td> 사용자가 사용자 프로필의 청구 요금을 편집할 수 있습니다.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>비용 요금 편집</strong> </td> 
+      <td> 사용자가 사용자 프로필의 비용 비율을 편집할 수 있습니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>일반 재무 편집</strong> </td> 
+      <td> 사용자가 사용자 프로필의 일반 재무 필드(청구 또는 비용 요금과 관련이 없음)를 편집할 수 있습니다.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>사용자 관리자(모든 사용자)</strong> </td> 
@@ -108,6 +139,18 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
          <li><p>사용자 암호 재설정</p><p><b>참고</b>: 그룹 관리자가 Workfront 관리자로 로그인하거나 해당 관리자의 암호를 다시 설정할 수 없습니다.</p></li>
         </ul><p>이 옵션은 기본적으로 비활성화되어 있습니다.</p></p> </td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"><strong>청구 요금 보기</strong> </td> 
+      <td> 사용자가 사용자 프로필에 대한 청구 요금을 볼 수 있습니다.</td>  
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>비용 요금 보기</strong> </td> 
+      <td> 사용자가 사용자 프로필에 대한 비용 비율을 볼 수 있습니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>일반 재무 보기</strong> </td> 
+      <td> 사용자가 사용자 프로필의 일반 재무 필드(청구 또는 비용 요금과 관련이 없음)를 볼 수 있습니다.</td>
+     </tr>
     </tbody> 
    </table>
 

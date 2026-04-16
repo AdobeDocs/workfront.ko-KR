@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '591'
 ht-degree: 4%
 
 ---
@@ -109,6 +109,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 1. 작업의 **기간 유형**&#x200B;이(가) **단순**&#x200B;인지 확인하십시오.
 1. 각 작업 할당자에 대한 **할당** 필드를 수정합니다. 작업의 전체 기간 동안 이 작업에 대한 각 할당에 대한 전체 할당입니다. 작업의 전체 **계획된 시간**&#x200B;도 업데이트할 수 있습니다.
 
+   조직의 Workfront 또는 워크플로 패키지에 따라 이러한 화면 중 하나가 표시될 수 있습니다.
+
    ![할당 수정](assets/advanced-assignments-duration-type-allocations.png)
+
+   ![할당 수정](assets/new-aa-allocation-by-hour.png)
 
 1. **저장**&#x200B;을 클릭합니다.

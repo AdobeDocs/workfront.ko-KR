@@ -6,7 +6,8 @@ title: 초과 근무 비율 정의
 description: 태스크에 대한 초과 근무 비율을 정의하여 태스크 지정에 대한 계획 수익 계산을 조정할 수 있습니다.
 author: Lisa
 feature: Work Management
-source-git-commit: bf8dcc9dfa9697c8d212072bb511c57aa01e7529
+exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 6%
@@ -14,8 +15,6 @@ ht-degree: 6%
 ---
 
 # 초과 근무 비율 정의
-
-{{highlighted-preview-article-level}}
 
 작업에 초과 근무 비율이 추가되면 해당 작업의 모든 할당에 적용됩니다. 해당 작업의 모든 계획된 시간을 곱하여 계획된 수익 계산에 영향을 줍니다.
 
@@ -87,4 +86,3 @@ ht-degree: 6%
 1. 왼쪽 패널에서 **작업 세부 정보**&#x200B;를 클릭합니다.
 1. **재무** 영역의 **초과 근무 비율** 필드에 초과 근무 승수를 입력합니다.
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
-

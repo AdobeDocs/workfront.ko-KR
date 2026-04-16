@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 0%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -57,7 +57,6 @@ ht-degree: 0%
 >
 >자세한 내용은 [여러 개체 유형이 섹션 구분 권한에 미치는 영향](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions)을 참조하십시오.
 
-
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
@@ -66,9 +65,9 @@ ht-degree: 0%
 
 1. 추가 개체 유형을 추가할 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon2.png)을 클릭합니다.
 
-1. 양식의 맨 위에서 **개체 유형** 뒤에 있는 더하기 기호 + 를 클릭한 다음 표시되는 메뉴에서 원하는 유형을 선택합니다. 이 단계를 반복하여 원하는 만큼 객체 유형을 추가할 수 있습니다.
+1. 양식 맨 위에서 **개체 형식**&#x200B;을 클릭한 다음 표시되는 메뉴에서 추가할 형식을 선택합니다. 이 단계를 반복하여 원하는 만큼 객체 유형을 추가할 수 있습니다.
 
-   ![새 개체 추가](assets/add-new-object.png)
+   ![새 개체 추가](assets/add-new-object-to-custom-form-041026.png)
 
 1. **저장 후 닫기**&#x200B;를 클릭합니다.
 
@@ -92,9 +91,5 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
 1. 편집할 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon2.png)을 클릭합니다.
-1. 양식에서 삭제할 **개체 형식**&#x200B;의 X를 클릭합니다.
-
-   ![개체 유형 삭제](assets/delete-object-types.png)
-
-1. (선택 사항) 양식에서 제거할 다른 객체 유형에 대해 이전 단계를 반복합니다.
+1. 양식의 맨 위에서 **개체 유형**&#x200B;을 클릭한 다음 양식에서 삭제할 개체의 확인란을 선택 취소합니다.
 1. **적용**&#x200B;을 클릭한 다음 **저장 및 닫기**&#x200B;를 클릭합니다.

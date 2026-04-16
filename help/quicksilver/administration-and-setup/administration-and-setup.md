@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 17%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 17%
 * [Adobe Workfront 사용자 지정](../administration-and-setup/customize-workfront/customize-workfront.md)
 * [Adobe Workfront 관리](../administration-and-setup/manage-workfront/manage-workfront.md)
 * [그룹 관리](../administration-and-setup/manage-groups/manage-groups.md)
-* [엔터프라이즈 작업 관리: 문서 색인](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
+* [기업 운영 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
 * [통합 구성](../administration-and-setup/configure-integrations/workfront-integrations.md)
 * [블루프린트](../administration-and-setup/blueprints/blueprints.md)
 * [관리 및 설정을 위한 팁, 요령 및 문제 해결](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)

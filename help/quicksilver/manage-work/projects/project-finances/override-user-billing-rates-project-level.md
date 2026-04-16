@@ -6,7 +6,8 @@ title: 프로젝트 수준에서 사용자 청구 요금 재정의
 description: 이 문서에서는 프로젝트에 대한 시스템 사용자 청구 요율을 재정의하는 방법에 대해 설명합니다.
 author: Lisa
 feature: Work Management
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 2%
@@ -14,8 +15,6 @@ ht-degree: 2%
 ---
 
 # 프로젝트 수준에서 사용자 청구 요금 재정의
-
-{{highlighted-preview-article-level}}
 
 프로젝트 관리자는 특정 프로젝트의 사용자에 대한 청구 요금을 지정할 수 있습니다. 이 프로젝트 수준의 청구 요율은 이 사용자의 시스템 수준의 청구 요율을 무시합니다. Workfront은 시스템 수준 청구 요율을 사용하는 대신 사용자의 프로젝트 수준 청구 요율을 사용하여 수익을 계산합니다.
 

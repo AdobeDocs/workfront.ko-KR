@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 3%
@@ -17,13 +17,11 @@ ht-degree: 3%
 
 # 레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정
 
-{{highlighted-preview}}
-
 Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 사용자가 오브젝트의 페이지를 열 때 오브젝트 헤더에 표시되는 필드를 구성할 수 있습니다.
 
 >[!IMPORTANT]
 >
->현재 프로젝트, 작업, 문제, <span class="preview">포트폴리오, 프로그램, 템플릿, 청구 기록, 팀, 사용자, 회사, 그룹 및 요금 카드에 대해 개체 헤더를 사용자 지정할 수 있습니다.</span>
+>오브젝트 헤더 사용자 정의는 현재 프로젝트, 작업, 문제, 포트폴리오, 프로그램, 템플릿, 청구 기록, 팀, 사용자, 회사, 그룹 및 요금 카드에 대해 사용할 수 있습니다.
 
 ![개체 헤더 필드](assets/object-header-fields.png)
 

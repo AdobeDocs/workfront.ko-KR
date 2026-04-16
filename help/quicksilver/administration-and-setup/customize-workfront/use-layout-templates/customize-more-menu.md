@@ -8,7 +8,8 @@ description: 레이아웃 템플릿을 사용하여 사용자가 Adobe Workfront
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2faeea4f8128b7858232048d687c270a1e3709f5
+exl-id: bee0117d-a15b-494a-833a-179a42ae4f74
+source-git-commit: 665b15170805feba2b55850faf1b73cdc0416305
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 6%
@@ -16,8 +17,6 @@ ht-degree: 6%
 ---
 
 # 레이아웃 템플릿을 사용하여 기타 메뉴 사용자 지정
-
-{{highlighted-preview-article-level}}
 
 레이아웃 템플릿을 사용하여 사용자가 Adobe Workfront에서 프로젝트, 작업, 문제, 포트폴리오 및 프로그램 개체를 볼 때 추가 메뉴(3점 메뉴)를 클릭할 때 표시되는 옵션을 결정할 수 있습니다.
 

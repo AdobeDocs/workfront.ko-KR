@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a49c9157-05d8-41a6-93c3-068d835b52e3
-source-git-commit: 6ccb4669a973a8f855120e83de7c0d437c9495a4
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,5 @@ ht-degree: 0%
 * [템플릿을 사용하여 프로젝트 만들기](../../../manage-work/projects/create-projects/create-project-from-template.md)
 * [Microsoft 프로젝트에서 프로젝트 가져오기](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
 * [프로젝트 기준선 만들기](../../../manage-work/projects/create-projects/create-baselines.md)
-<!-- * [Create and view project snapshots](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md) -->
+* [프로젝트 스냅샷 생성 및 보기](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)
 

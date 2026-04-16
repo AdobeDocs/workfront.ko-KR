@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # 위치 구성
-
-{{highlighted-preview-article-level}}
 
 비율 카드의 작업 역할에 속성으로 지정할 수 있는 기본 위치를 구성할 수 있습니다. 이렇게 하면 요금 카드가 각 위치의 시장 요금을 정확하게 반영합니다.
 

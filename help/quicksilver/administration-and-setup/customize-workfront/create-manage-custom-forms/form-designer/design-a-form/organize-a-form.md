@@ -10,16 +10,14 @@ role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1351'
 ht-degree: 2%
 
 ---
 
 # 양식 구성 및 미리 보기
-
-{{preview-fast-release-general}}
 
 양식 디자이너를 사용하여 사용자 정의 양식을 구성하고 미리 보기하여 제대로 설정되었는지 확인할 수 있습니다.
 
@@ -85,8 +83,8 @@ ht-degree: 2%
       <td role="rowheader">설명</td> 
       <td>섹션의 용도를 사용자에게 설명하려면 텍스트를 입력합니다. 사용자 정의 양식에서 섹션의 레이블 아래에 표시됩니다.</td> 
      </tr> 
-      <td><span class="preview">기본적으로 축소됨</span></td>
-      <td><span class="preview">기본적으로 양식 자체를 확장하면 사용자 정의 양식의 모든 섹션이 확장됩니다. 사용자가 양식을 열 때 기본적으로 섹션을 축소하려면 이 옵션을 선택합니다.</span></td>
+      <td>기본적으로 축소됨</td>
+      <td>기본적으로 양식 자체를 확장하면 사용자 정의 양식의 모든 섹션이 확장됩니다. 사용자가 양식을 열 때 기본적으로 섹션을 축소하려면 이 옵션을 선택합니다.</td>
      <tr>
      </tr>
      <tr> 
@@ -120,7 +118,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><p>논리 추가</p></td> 
-      <td><p>표시 논리를 사용하여 사용자가 양식을 작성할 때 다중 선택 사용자 정의 필드에서 선택한 항목에 따라 섹션을 양식에 표시할지 여부를 지정합니다.</p><p><strong>참고:</strong> 섹션 구분 아래의 모든 개별 필드에 표시 논리가 적용되어 있고 논리의 결과로 해당 필드가 모두 숨겨져 있으면 사용자 지정 양식에서 전체 섹션이 숨겨집니다. 이 문제는 표시 논리가 섹션 구분에 적용되지 않는 경우에도 발생합니다.</p><p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">양식 디자이너를 사용하여 표시 논리 추가 및 건너뛰기 논리 추가</a>를 참조하십시오.</p></td> 
+      <td><p>표시 논리를 사용하여 사용자가 양식을 작성할 때 다중 선택 사용자 정의 필드에서 선택한 항목에 따라 섹션을 양식에 표시할지 여부를 지정합니다.</p><p><strong>참고:</strong> 섹션 구분 아래의 모든 개별 필드에 표시 논리가 적용되어 있고 논리의 결과로 해당 필드가 모두 숨겨져 있으면 사용자 지정 양식에서 전체 섹션이 숨겨집니다. 이 문제는 표시 논리가 섹션 구분에 적용되지 않는 경우에도 발생합니다.</p><p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">사용자 정의 양식 및 필드에 논리 규칙 추가</a>를 참조하십시오.</p></td> 
      </tr> 
     </tbody> 
    </table>

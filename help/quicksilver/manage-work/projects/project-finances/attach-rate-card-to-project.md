@@ -5,7 +5,7 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 3%
@@ -13,8 +13,6 @@ ht-degree: 3%
 ---
 
 # 프로젝트에 요금 카드 첨부
-
-{{highlighted-preview-article-level}}
 
 요금 카드는 속성을 기준으로 작업 역할당 여러 청구 요금을 저장합니다. 예를 들어, 각각 청구 요금이 다른 에이전시에 할당되지 않은 Designer(파리 기반, 에이전시 A), 다른 Designer(파리 기반, 에이전시 B), 세 번째 Designer(뉴욕 기반)의 작업 역할이 있을 수 있습니다. 하지만 비율 카드의 작업 역할에는 속성이 필요하지 않습니다. 속성은 보다 세부적인 비율을 설정하는 도구 역할을 합니다. 요금 카드의 청구 요금도 날짜 유효일 수 있으므로 지정된 날짜에 요금이 시작되고 종료됩니다.
 

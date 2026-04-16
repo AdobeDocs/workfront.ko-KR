@@ -7,7 +7,7 @@ description: Adobe Workfront에서 프로젝트, 작업 및 문제에 대한 비
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '2755'
 ht-degree: 0%
@@ -18,11 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 02/2024 -->
 
-{{highlighted-preview}}
-
 Adobe Workfront에서 프로젝트, 작업 및 문제에 대한 비용을 추적할 수 있습니다.
-
-<div class="preview">
 
 ## Workfront의 비용 계산 방법 - Workflow Ultimate 패키지
 
@@ -47,8 +43,6 @@ Adobe Workfront에서 프로젝트, 작업 및 문제에 대한 비용을 추적
   비용 계층 구조에 대한 자세한 내용은 [수익 및 비용 계층 구조 개요](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)를 참조하십시오.
 
 * Workfront은 문제에 대한 실제 비용만 계산하며, 문제에는 비용 유형이 없습니다. 자세한 내용은 이 문서의 [Workfront에서 문제 비용을 추적하는 방법](#how-workfront-tracks-costs-for-issues) 섹션을 참조하십시오.
-
-</div>
 
 ## Workfront의 비용 계산 방법 - 기타 모든 패키지
 
@@ -228,8 +222,8 @@ Workfront은 프로젝트의 각 개별 작업에 대한 계획된 비용과 실
    <td> <p><strong>계획된 비용</strong>은(는) 다음 수식으로 계산됩니다. </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>태스크 계획 노무비 계산 방법:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>참고: 작업에 여러 리소스를 할당하면 Workfront은 각 리소스에 할당된 작업의 백분율을 기준으로 계획된 시간에 대한 계산을 조정합니다. 또한 공식의 시간별 비율은 비율의 모든 날짜 유효 변경 사항을 고려합니다.</p> <p><strong>실제 비용</strong>은(는) 다음 수식으로 계산됩니다. </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>태스크 실제 노무비 계산 기준:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>예를 들어 작업 역할이나 시간당 비용 비율이 $20인 작업 역할이 있는 사용자에게 작업이 할당됩니다. 사용자가 작업에 대해 5시간을 기록할 때 실제 인건비는 해당 작업에 대해 $100입니다. 작업에 할당된 사용자에게 작업에 연결된 작업 역할이 없는 경우 실제 비용은 기본 작업 역할의 시간당 비용을 기반으로 계산됩니다. 작업 역할이 없거나 작업 역할의 시간당 비용 비율이 정의되지 않은 경우 작업의 실제 비용은 0입니다. </p> <p>참고: 시간별 역할 작업의 실제 시간은 시간을 기록하는 사용자와 연결된 역할이 아니라 작업과 연결된 사용자의 작업 역할을 기준으로 계산됩니다. 또한 공식의 시간당 비용 비율은 비율의 모든 유효 일자 변경을 고려합니다.</p> <p>Workfront 관리자가 설정의 타임시트 및 시간 환경 설정 영역에서 <strong>시간 항목에 수동으로 작업 역할 할당</strong> 설정을 사용하도록 설정한 경우 작업에 대한 사용자 로깅 시간이 이 시간과 연결할 다른 역할을 선택하면 시간별 역할 작업의 실제 비용이 시간이 기록될 때 지정된 역할을 기반으로 계산됩니다. 특정 작업 역할에 대한 로깅 시간 활성화에 대한 자세한 내용은 문서 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">타임시트 및 시간 환경 설정 구성</a>을 참조하십시오.</p> </p> </td> 
   </tr>
   <tr> 
-   <td> <p><span class="preview">시간별 사용자 및 역할</span></p> </td> 
-   <td> <p><span class="preview"><strong>계획된 비용</strong>은(는) 다음 수식으로 계산됩니다.</span></p> <p><span class="preview"><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </span></p> <p><span class="preview">태스크 계획 노무비 계산 방법:</span></p> <p><span class="preview"><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> <p><span class="preview"><strong>실제 비용</strong>은(는) 다음 수식으로 계산됩니다.</span></p> <p><span class="preview"><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </span></p> <p><span class="preview">태스크 실제 노무비 계산 기준:</span></p> <p><span class="preview"><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> </td> 
+   <td> <p>&gt;시간별 사용자 및 역할</p> </td> 
+   <td> <p><strong>계획된 비용</strong>은(는) 다음 수식으로 계산됩니다.</p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code></p> <p>태스크 계획 노무비 계산 방법:</p> <p><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code></p> <p><strong>실제 비용</strong>은(는) 다음 수식으로 계산됩니다.</p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code></p> <p>태스크 실제 노무비 계산 기준:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code></p> </td> 
   </tr> 
   <tr> 
    <td> <p>고정 시간별</p> </td> 

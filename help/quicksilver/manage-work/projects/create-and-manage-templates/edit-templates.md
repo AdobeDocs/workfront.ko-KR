@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '4971'
-ht-degree: 2%
+source-wordcount: '5076'
+ht-degree: 3%
 
 ---
 
@@ -268,7 +268,7 @@ Old:
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
 1. **템플릿 편집** 상자에서 **재무**&#x200B;을 클릭합니다.
 
-   ![서식 파일 상자 재무 섹션 편집](assets/edit-template-box-finance-section.png)
+   ![서식 파일 상자 재무 섹션 편집](assets/edit-template-finance-section-040626.png)
 
 1. 다음 필드를 업데이트합니다.
 
@@ -276,6 +276,14 @@ Old:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>프로젝트 청구 요율 정보 유지</strong></td>
+      <td><p>이 옵션을 사용으로 설정하면 모든 발령 청구 요금이 청구 계층에서 적용 가능한 가장 높은 요금에 영구적으로 동결됩니다. 이는 일회성 선택이며, 프로젝트에 할당 또는 시간이 있으면 옵션을 비활성화할 수 없습니다. 보존 후에는 프로젝트의 어느 곳에서든 할당 청구 요율을 변경, 편집 또는 대체할 수 없습니다.</p></td>
+     </tr>
+     <tr>
+      <td><strong>시스템 날짜의 유효 환율 사용</strong></td>
+      <td><p>이 옵션을 선택하면 시스템 수준의 일자 유효 환율이 항상 사용되며 프로젝트에 환율 대체가 허용되지 않습니다.</p> <p>옵션을 선택한 경우 시작할 <strong>환율 날짜</strong>도 선택해야 합니다.</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>통화</strong></td> 
       <td><p>향후 프로젝트의 통화가 시스템의 기본 통화와 다른 경우 통화를 지정합니다. 시스템에 기본 통화만 있는 경우에는 이 필드가 표시되지 않습니다.<br>통화에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">환율 설정</a>을 참조하세요.</p></td> 

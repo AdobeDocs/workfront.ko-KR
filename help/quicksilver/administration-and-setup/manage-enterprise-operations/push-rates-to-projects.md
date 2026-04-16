@@ -7,7 +7,8 @@ description: 요금 카드는 작업을 완료할 작업 역할에 대해 시간
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 38441ec5ae6fd8cf5c79f939403d5966c5616c98
+exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 6%
@@ -15,8 +16,6 @@ ht-degree: 6%
 ---
 
 # 프로젝트에 대한 푸시 비율 변경
-
-{{highlighted-preview-article-level}}
 
 요금 카드가 <!--or a staffing plan--> 프로젝트에 첨부된 경우에도 요금 카드의 요금을 조정할 수 있습니다. 그런 다음 선택적으로 해당 요금을 요금 카드가 첨부된 <!--and staffing plans --> 프로젝트에 푸시할 수 있습니다. 새 요금을 푸시하지 않으면 원래 요금이 <!-- or staffing plan--> 프로젝트에 유지됩니다.
 

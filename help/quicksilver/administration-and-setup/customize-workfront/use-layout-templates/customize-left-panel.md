@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f490d72b46073786cc079eec0640a0b535533281
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 2%
@@ -16,8 +16,6 @@ ht-degree: 2%
 ---
 
 # 레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 정의
-
-{{highlighted-preview}}
 
 <!--Audited: 10/2024-->
 
@@ -90,7 +88,7 @@ ht-degree: 2%
      <tr> 
       <td>[!UICONTROL 프로젝트]</td> 
       <td>프로젝트 이름</td> 
-      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 기록], [!UICONTROL 비용], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!UICONTROL 사용자], [!UICONTROL 사용자] 사용률&rbrack;, [!UICONTROL 대기열 세부 정보], [!UICONTROL 라우팅 규칙], [!UICONTROL 대기열 주제], [!UICONTROL 주제 그룹], [!UICONTROL 지표], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
+      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 기록], [!UICONTROL 비용], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!UICONTROL 사용자], [!UICONTROL 사용자] 사용률], [!UICONTROL 대기열 세부 정보], [!UICONTROL 라우팅 규칙], [!UICONTROL 대기열 주제], [!UICONTROL 주제 그룹], [!UICONTROL 지표], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 작업]</td> 
@@ -140,9 +138,9 @@ ht-degree: 2%
       <td>[!UICONTROL 프로젝트]</td> 
      </tr> 
      <tr> 
-      <td><span class="preview">[!UICONTROL 리소스 조달]</span></td> 
-      <td><span class="preview">[!UICONTROL 기본 메뉴]의 [!UICONTROL 리소스] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
-      <td><span class="preview">[!UICONTROL Planner] (숨길 수 없음), [!UICONTROL 업무 균형자], [!UICONTROL 사용률], [!UICONTROL 리소스 풀]</span></td> 
+      <td>[!UICONTROL 리소스 조달]</td> 
+      <td>[!UICONTROL 기본 메뉴]의 [!UICONTROL 리소스] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Planner](숨길 수 없음), [!UICONTROL 업무 균형자], [!UICONTROL 사용률], [!UICONTROL 리소스 풀]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -175,19 +173,19 @@ ht-degree: 2%
       <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
      <tr> 
-       <td><span class="preview">[!UICONTROL 사용자 세부 사항]</span></td> 
-       <td><span class="preview">사용자 이름</span></td> 
-       <td><span class="preview">[!UICONTROL 세부 사항], [!UICONTROL 조직 차트], [!UICONTROL 휴무], [!UICONTROL 사용자 지정 Forms], [!UICONTROL 비즈니스 프로필], [!UICONTROL 업데이트], [!UICONTROL 업무 균형자]</span></td> 
+       <td>[!UICONTROL 사용자 세부 사항]</td> 
+       <td>사용자 이름</td> 
+       <td>[!UICONTROL 세부 사항], [!UICONTROL 조직 차트], [!UICONTROL 휴무], [!UICONTROL 사용자 지정 Forms], [!UICONTROL 비즈니스 프로필], [!UICONTROL 업데이트], [!UICONTROL 업무 균형자]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Rate Card]</span></td> 
-       <td><span class="preview">요금 카드의 이름</span></td> 
-       <td><span class="preview">[!UICONTROL 작업 역할 및 비율] (숨길 수 없음), [!UICONTROL 비율 카드 세부 정보]</span></td> 
+       <td>[!UICONTROL Rate Card]</td> 
+       <td>요금 카드의 이름</td> 
+       <td>[!UICONTROL 작업 역할 및 비율](숨길 수 없음), [!UICONTROL 비율 카드 세부 정보]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Group]</span></td> 
-       <td><span class="preview">그룹 이름</span></td> 
-       <td><span class="preview">[!UICONTROL 그룹 멤버], [!UICONTROL 하위 그룹 멤버], [!UICONTROL 그룹 세부 정보], [!UICONTROL 프로젝트 환경 설정], [!UICONTROL 작업 및 문제 환경 설정], [!UICONTROL 타임시트 및 시간], [!UICONTROL 하위 그룹], [!UICONTROL 상태], [!UICONTROL 이벤트 알림], [!UICONTROL 포트폴리오], [!UICONTROL 프로그램], [!UICONTROL 프로젝트], [!UICONTROL Templates], [!UICONTROL 최근 삭제됨], [!UICONTROL 최근에 복원됨], [!UICONTROL 승인], [!UICONTROL 회사], [!UICONTROL 팀], [!UICONTROL 일정], [!UICONTROL 타임시트 프로필], [!UICONTROL 레이아웃 템플릿]</span></td> 
+       <td>[!UICONTROL Group]</td> 
+       <td>그룹 이름</td> 
+       <td>[!UICONTROL 그룹 멤버], [!UICONTROL 하위 그룹 멤버], [!UICONTROL 그룹 세부 정보], [!UICONTROL 프로젝트 환경 설정], [!UICONTROL 작업 및 문제 환경 설정], [!UICONTROL 타임시트 및 시간], [!UICONTROL 하위 그룹], [!UICONTROL 상태], [!UICONTROL 이벤트 알림], [!UICONTROL 포트폴리오], [!UICONTROL 프로그램], [!UICONTROL 프로젝트], [!UICONTROL Templates], [!UICONTROL 최근 삭제됨], [!UICONTROL 최근에 복원됨], [!UICONTROL 승인], [!UICONTROL 회사], [!UICONTROL 팀], [!UICONTROL 일정], [!UICONTROL 타임시트 프로필], [!UICONTROL 레이아웃 템플릿]</td> 
      </tr>
      <!--
       <tr> 

@@ -9,7 +9,8 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
+exl-id: 421cfc8c-8c81-4d48-9fa7-ce603f33d8a9
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%
@@ -17,8 +18,6 @@ ht-degree: 1%
 ---
 
 # 엔터프라이즈 운영 기능 개요
-
-{{highlighted-preview-article-level}}
 
 고급 엔터프라이즈 운영 기능은 재무, 리소스, 프로젝트 및 엔터프라이즈 액세스를 관리할 수 있는 통합적이고 확장 가능한 방법입니다. 이러한 기능은 기업이 수익성 있고 효율적으로 운영해야 하는 가시성과 제어를 제공합니다.
 
@@ -57,11 +56,10 @@ Workfront 사용자 정의 양식 로직의 향상된 기능을 통해 데이터
 
 사용자가 입력한 레이블에 대해 Adobe Workfront에서 사용자 정의 번역을 추가할 수 있으므로 팀이 언어를 자체 용어 및 로컬 요구 사항에 맞게 유연하게 조정할 수 있습니다. 이렇게 하면 시스템 전체에서 일관되고, 액세스가 가능하고, 전역적으로 정렬된 경험이 만들어집니다.
 
-자세한 내용은 [사용자 지정 지역화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)을 참조하세요.
+자세한 내용은 [사용자 지정 지역화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)을 참조하십시오.
 
 ## 비즈니스 작업
 
 이제 특정 조건이 충족될 때 작성, 편집 또는 수정된 객체에 대한 작업을 자동화하도록 비즈니스 규칙을 구성할 수 있습니다. 사용 가능한 작업에는 개체 공유 또는 사용자 정의 양식을 개체에 첨부하는 작업이 포함됩니다.
 
 자세한 내용은 [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)을 참조하세요.
-
