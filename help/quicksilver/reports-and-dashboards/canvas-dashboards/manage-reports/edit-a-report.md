@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 ---
 
 # 캔버스 대시보드에서 보고서 편집
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -88,13 +86,11 @@ ht-degree: 4%
 
    ![보고서 편집](assets/edit-report-box.png)
 
-1. <span class="preview">**구성** 대화 상자에서 왼쪽에 나열된 섹션의 정보를 편집합니다. 이러한 섹션은 편집 중인 보고서 유형에 따라 달라집니다.
+1. **구성** 대화 상자에서 왼쪽에 나열된 섹션의 정보를 편집합니다. 이러한 섹션은 편집 중인 보고서 유형에 따라 달라집니다.
 
    >[!TIP]
    >
    >모든 보고서 유형에 대한 세부 정보 섹션에는 **액세스 권한으로 이 보고서 실행** 옵션이 포함되어 있습니다. 이 옵션을 사용하여 보고서 데이터를 렌더링하는 데 사용할 수 있는 권한을 가진 사용자를 지정하여 모든 대시보드 뷰어에 동일한 데이터가 표시되도록 하십시오. 자세한 내용은 [KPI 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [차트 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) 또는 [테이블 보고서 작성](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)을 참조하세요.
-
-   </span>
 
 1. (선택 사항) KPI 보고서를 편집할 경우 다음 섹션에서 필요에 따라 정보를 편집합니다.
 

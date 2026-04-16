@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -17,8 +17,6 @@ ht-degree: 1%
 ---
 
 # Workfront 콘텐츠 검토자 시작
-
-{{highlighted-preview-article-level}}
 
 콘텐츠 검토자는 프로젝트, 작업 및 문서에 추가할 수 있는 AI 에이전트의 한 유형인 AI 공동 작업자입니다. 설정 영역에서 AI 공동 작업자를 구성하고 사용자와 동일하게 할당할 수 있습니다.
 

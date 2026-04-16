@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
+source-git-commit: 243aa2b0893e3034d37b959384a50b8a5e4a4bf0
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 3%
@@ -17,8 +17,6 @@ ht-degree: 3%
 ---
 
 # 콘텐츠 검토자를 위한 브랜드 만들기 및 관리
-
-{{highlighted-preview-article-level}}
 
 콘텐츠 검토자는 브랜드 지침을 사용하여 검토 프로세스 중에 콘텐츠를 평가합니다. 브랜드 지침이 포함된 PDF 파일을 업로드하거나 브랜드 요소를 수동으로 입력하여 Workfront에서 브랜드를 만들 수 있습니다.
 
@@ -76,7 +74,7 @@ ht-degree: 3%
 1. 왼쪽 패널에서 **검토 및 승인** > **브랜드**(으)로 이동합니다.
 1. 화면 오른쪽 상단에서 **브랜드 추가**&#x200B;를 클릭합니다.
 1. 브랜드 이름을 지정합니다.
-1. 브랜드 파일을 업로드하려면 **PDF 업로드**&#x200B;를 클릭하세요.
+1. 브랜드 파일을 업로드하려면 **PDF 업로드**를 클릭하세요.
    ![브랜드 pdf 업로드](assets/upload-PDF.png)
 1. **계속**&#x200B;을 클릭합니다.
 1. 브랜드 가이드라인이 포함된 PDF 파일을 하나 이상 업로드한 다음 **브랜드 추가**&#x200B;를 클릭합니다.

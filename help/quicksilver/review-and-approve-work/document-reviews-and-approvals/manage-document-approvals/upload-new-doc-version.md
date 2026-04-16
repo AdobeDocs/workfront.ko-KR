@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 2%
+source-wordcount: '650'
+ht-degree: 3%
 
 ---
 
 # 새 문서 버전 업로드 및 승인 요청
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 이전 검토에서 문서가 &quot;작업 필요&quot;로 표시되어 있는 경우, 원본 문서에 새 버전을 업로드하고 다른 버전의 승인을 시작할 수 있습니다. 새 버전의 문서를 업로드하면 이전 버전이 잠깁니다.
 
@@ -64,51 +62,8 @@ ht-degree: 2%
 +++
 
 
-## 드래그 앤 드롭을 사용하여 프로덕션 환경에 새 버전을 추가합니다.
 
->[!NOTE]
->
->드래그 앤 드롭은 Internet Explorer에서 작동하지 않습니다.
-
-
-문서에 대한 또 다른 검토 및 승인이 필요한 경우 Workfront에서 새 문서 버전을 만들 수 있습니다.
-
-이전 참여자, 새 참여자 또는 두 가지 모두를 혼합하여 추가할 수 있습니다. 문서 세부 정보 페이지에서 이전 버전 및 참여자에 대한 정보를 볼 수 있습니다.
-
-새 버전을 추가하려면 다음을 수행하십시오.
-
-1. Workfront의 문서로 이동합니다.
-1. 이전 문서 위에 새 파일을 끌어다 놓습니다. 이렇게 하면 새 버전이 자동으로 만들어집니다.
-
-1. 문서 업로드가 완료되면 문서를 선택한 다음 **문서 세부 정보**&#x200B;를 클릭합니다.
-   ![문서 세부 정보 페이지 열기](assets/open-doc-details.png)
-
-
-1. 왼쪽 패널에서 **승인**&#x200B;을 클릭한 다음 **추가**&#x200B;를 클릭합니다.
-
-1. 모든 이전 참가자를 추가하려면 **모두 추가**&#x200B;를 클릭하세요. 필요에 따라 새 참여자를 추가하거나 이전 참여자를 제거할 수도 있습니다.
-
-
-1. 기존 승인 템플릿을 추가하려면 템플릿 버튼을 클릭하고 템플릿 이름을 입력하십시오.
-
-   >[!TIP]
-   >
-   >   표준 라이선스가 있는 사용자는 설정 영역에서 재사용 가능한 승인 템플릿을 만들 수 있습니다. 자세한 내용은 [문서에 대한 승인 워크플로 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)를 참조하십시오.
-
-
-1. (선택 사항) 승인 기한을 설정합니다. 사용자와 팀은 지정된 기한 24시간 전에 이메일로 72시간 전에 알림을 받습니다.
-
-1. 모든 검토자와 승인자를 추가했으면 **요청 제출**&#x200B;을 클릭합니다. 참가자에게는 이메일을 통해 알림이 전송됩니다.
-
-   ![승인을 위해 새 버전을 제출](assets/add-previous-participants.png)
-
-
-
-
-
-<div class="preview">
-
-## 드래그 앤 드롭을 사용하여 이전 문서 영역의 미리보기 환경에 새 버전을 추가합니다
+## 드래그 앤 드롭을 사용하여 이전 문서 영역에 새 버전을 추가합니다.
 
 조직이 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. Workfront 스토리지에 대한 자세한 내용은 [Workfront 스토리지와 Adobe 엔터프라이즈 스토리지 비교](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)를 참조하십시오.
 
@@ -175,8 +130,3 @@ ht-degree: 2%
 
    ![승인 요청](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
-
-
-
-</div>
-
