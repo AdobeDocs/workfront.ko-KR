@@ -10,32 +10,19 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1864'
 ht-degree: 4%
 
 ---
 
 # 비즈니스 규칙 만들기 및 편집
 
-<!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
--->
-
 비즈니스 규칙을 사용하면 Workfront 객체에 검증을 적용하고 특정 조건이 충족될 때 사용자가 객체를 생성, 편집 또는 삭제하지 못하도록 할 수 있습니다. 비즈니스 규칙 유효성 검사는 데이터 무결성을 손상시킬 수 있는 작업을 방지하여 데이터 품질과 운영 효율성을 개선하는 데 도움이 됩니다.
 
-<!--
+Workflow Ultimate 패키지가 있는 조직은 특정 조건이 충족될 때 작성, 편집 또는 수정된 오브젝트에 대한 작업을 자동화하도록 비즈니스 규칙을 구성할 수도 있습니다. 사용 가능한 작업에는 오브젝트 공유 또는 오브젝트에 사용자 정의 양식 첨부 등이 포함됩니다.
 
-<div class="preview">
-
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
-
-</div>
-
--->
 
 단일 비즈니스 규칙은 하나의 객체에만 할당할 수 있습니다. 예를 들어 특정 조건에서 프로젝트를 편집하지 않는 비즈니스 규칙을 만드는 경우 동일한 규칙을 작업에 적용할 수 없습니다. 작업에 대해 동일한 조건으로 별도의 비즈니스 규칙을 만들어야 합니다.
 
@@ -261,7 +248,7 @@ IF({status} = "APR", true)
    * &quot;객체&quot;는 비즈니스 규칙을 생성할 때 선택한 객체 유형입니다. 대화 상자의 머리글에 표시됩니다.
    * &quot;작업&quot;은 규칙에 대해 선택한 트리거입니다(객체 만들기, 편집 또는 삭제).
    * 개체와 작업이 이미 정의되어 있으므로 수식에 포함하지 않습니다.
-   * 사용자 지정 오류 메시지 <span class="preview">은(는) 유효성 검사를 위한 규칙인 경우에만 포함되며, 비즈니스 규칙을 트리거할 때 </span>이(가) 사용자에게 표시됩니다. 무엇이 잘못되었는지, 어떻게 문제를 수정해야 하는지에 대한 명확한 지침을 제공해야 한다.
+   * 사용자 지정 오류 메시지는 규칙이 유효성 검사를 위한 경우에만 포함되며 비즈니스 규칙을 트리거할 때 사용자에게 표시됩니다. 무엇이 잘못되었는지, 어떻게 문제를 수정해야 하는지에 대한 명확한 지침을 제공해야 한다.
 
      오류 메시지에 정적 URL을 포함하여 설명서 또는 기타 유용한 페이지에 연결하여 규칙의 제한 사항 내에서 사용자가 작업을 수정하는 방법을 안내할 수 있습니다.
 
@@ -283,21 +270,19 @@ IF({status} = "APR", true)
 
    다른 패키지의 경우 이 옵션을 미리 선택합니다.
 
-1. <span class="preview">(조건부) 다른 작업을 자동화하려면 해당 작업을 선택하십시오. </span>
+1. (조건부) 다른 작업을 자동화하려면 작업을 선택합니다.
 
-   <span class="preview">이러한 작업에 대한 자세한 내용은 이 문서의 [비즈니스 규칙 자동화 옵션](#business-rule-automation-options) 섹션을 참조하십시오.</span>
+   이러한 작업에 대한 자세한 내용은 이 문서의 [비즈니스 규칙 자동화 옵션](#business-rule-automation-options) 섹션을 참조하십시오.
 
    >[!NOTE]
    >
-   ><span class="preview">유효성 검사 외에 작업을 사용하려면 조직이 Workflow Ultimate 패키지에 있어야 합니다. 이러한 다른 옵션이 표시되지 않으면 조직이 Workflow Ultimate 패키지에 없습니다.</span>
+   >유효성 검사 외에 작업을 사용하려면 조직이 Workflow Ultimate 패키지에 있어야 합니다. 이러한 다른 옵션이 표시되지 않으면 조직이 Workflow Ultimate 패키지에 없는 것입니다.
 
 1. 비즈니스 규칙 작성을 마치면 **저장**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
 >비즈니스 규칙을 추가한 후에는 연결된 개체를 추가, 편집 또는 삭제하여 비즈니스 규칙을 테스트하여 규칙이 제대로 적용되었는지 확인해야 합니다.
-
-<div class="preview">
 
 ### 비즈니스 규칙 자동화 옵션
 
@@ -311,8 +296,6 @@ IF({status} = "APR", true)
 |---|---|
 | 사용자 정의 양식 첨부 | 추가할 사용자 정의 양식 선택 |
 | 오브젝트 공유 | 개체를 공유할 사람, 역할, 그룹, 회사 또는 액세스 수준을 선택합니다. |
-
-</div>
 
 ## 비즈니스 규칙 활성화
 

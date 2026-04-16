@@ -11,16 +11,14 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
 
 # 비즈니스 프로필 개요
-
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 특정 고객의 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 비즈니스 프로필은 에이전시와 같은 고객이 사용자 액세스를 효율적으로 관리하고 그룹 수준에서 권한을 정확하게 제어할 수 있는 향상된 권한 모델입니다. 비즈니스 프로필에서는 그룹별 개체에 대해 고유한 권한이 있습니다. 추가 객체를 비즈니스 프로필과 직접 공유할 수도 있습니다.
 

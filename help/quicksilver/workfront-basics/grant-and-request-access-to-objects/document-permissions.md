@@ -9,16 +9,14 @@ feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 4%
+source-wordcount: '1443'
+ht-degree: 5%
 
 ---
 
 # 기존 Workfront 스토리지에서 문서 공유
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 Workfront 관리자는 설정의 액세스 수준 영역에서 문서를 보거나 편집할 수 있는 사용자를 제어합니다. 자세한 내용은 [문서에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)를 참조하십시오.
 
@@ -83,7 +81,7 @@ Workfront에 문서를 업로드하는 사용자에게는 기본적으로 관리
 
    ![문서 공유](assets/share-a-document-350x160.png)
 
-1. **문서 액세스 권한 부여** 필드에서 문서를 공유할 사용자, 팀, 역할, 그룹, 회사, <span class="preview">또는 비즈니스 프로필</span>의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
+1. **문서 액세스 권한 부여** 필드에서 문서를 공유할 사용자, 팀, 역할, 그룹, 회사 또는 비즈니스 프로필</span>의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
 
    >[!TIP]
    >
@@ -126,7 +124,7 @@ Workfront에 문서를 업로드하는 사용자에게는 기본적으로 관리
 
    ![공유 아이콘](assets/share-documents-in-bulk.png)
 
-1. **문서 액세스 권한 부여** 필드에서 문서를 공유할 사용자, 팀, 역할, 그룹, 회사, <span class="preview">또는 비즈니스 프로필</span>의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
+1. **문서 액세스 권한 부여** 필드에서 문서를 공유할 사용자, 팀, 역할, 그룹, 회사 또는 비즈니스 프로필의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
 
    >[!TIP]
    >

@@ -10,16 +10,14 @@ role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 1%
+source-wordcount: '938'
+ht-degree: 2%
 
 ---
 
 # 레이아웃 템플릿에 사용자 할당
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 만든 레이아웃 템플릿을 사용해야 하는 사용자, 작업 역할, 팀 또는 그룹에 할당할 수 있습니다.
 
@@ -33,7 +31,7 @@ ht-degree: 1%
 
 그룹의 레이아웃 템플릿에 대한 자세한 내용은 [그룹의 레이아웃 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)을 참조하십시오.
 
-<span class="preview">레이아웃 템플릿 및 비즈니스 프로필에 대한 자세한 내용은 [비즈니스 프로필 개요](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>를 참조하십시오.
+레이아웃 템플릿 및 비즈니스 프로필에 대한 자세한 내용은 [비즈니스 프로필 개요](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -74,13 +72,13 @@ ht-degree: 1%
    >레이아웃 템플릿이 만족스러우면 [새 레이아웃 템플릿 테스트](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)에 설명된 대로 테스트하는 것이 좋습니다.
 
 1. 페이지 상단 섹션에서 **할당 대상**&#x200B;을 클릭합니다.
-1. 표시되는 상자에서 **사용자, 작업 역할, 팀, 그룹, <span class="preview">또는 액세스 수준 추가</span>**&#x200B;를 클릭하고 사용자, 작업 역할, 팀, 그룹, <span class="preview">또는 액세스 수준</span>의 이름을 입력한 다음 드롭다운에 표시될 때 이름을 클릭합니다.
+1. 표시되는 상자에서 **사용자, 작업 역할, 팀, 그룹 또는 액세스 수준 추가**&#x200B;를 클릭하고 사용자, 작업 역할, 팀, 그룹 또는 액세스 수준을 입력한 다음 드롭다운에 표시될 때 이름을 클릭합니다.
 
    최근에 추가된 이름이 파란색 배경과 함께 표시됩니다. 이 기능은 방금 추가한 이름과 이미 목록에 있는 이름을 구분할 수 있으므로 기존 레이아웃 템플릿을 편집할 때 유용합니다.
 
-   다른 레이아웃 템플릿에 이미 할당된 사용자, 작업 역할, 팀, 그룹, ![또는 액세스 수준](assets/info-icon.png)의 이름 오른쪽에 정보 아이콘 <span class="preview">정보 아이콘</span>이 표시됩니다. 아이콘 위로 마우스를 가져가면 해당 레이아웃 템플릿의 이름을 볼 수 있으며 기존 할당을 재정의할지 여부를 결정할 수 있습니다.
+   다른 레이아웃 템플릿에 이미 할당된 사용자, 작업 역할, 팀, 그룹 또는 액세스 수준의 이름 오른쪽에 정보 아이콘 ![정보 아이콘](assets/info-icon.png)이 표시됩니다. 아이콘 위로 마우스를 가져가면 해당 레이아웃 템플릿의 이름을 볼 수 있으며 기존 할당을 재정의할지 여부를 결정할 수 있습니다.
 
-1. 필요에 따라 다른 사용자, 작업 역할, 팀, 그룹, <span class="preview"> 또는 액세스 수준</span>에 레이아웃 템플릿을 할당하려면 앞의 두 단계를 반복합니다.
+1. 필요에 따라 레이아웃 템플릿을 다른 사용자, 작업 역할, 팀, 그룹 또는 액세스 수준에 할당하려면 앞의 두 단계를 반복합니다.
 
    한 번에 최대 100명의 사용자를 할당할 수 있습니다.
 
@@ -96,7 +94,7 @@ ht-degree: 1%
 * 사용자가 가지고 있는 특정 작업 역할에
 * 사용자가 속한 특정 팀에게
 * 사용자가 속한 특정 그룹에게
-* <span class="preview">특정 액세스 수준으로 사용자를 할당</span>
+* 특정 액세스 수준으로 사용자를 할당합니다.
 
 그러나 레이아웃 템플릿은 사용자가 언제든지 한 개만 볼 수 있습니다. 표시되는 템플릿은 다음 우선순위 계층에 의해 결정됩니다.
 
@@ -113,7 +111,7 @@ ht-degree: 1%
 
   사용자의 홈 그룹에 할당된 템플릿만 사용자에게 표시됩니다. 다른 그룹에 할당된 템플릿이 표시되지 않습니다.
 
-* <span class="preview"> 액세스 수준: 개인 사용자, 기본 작업 역할을 가진 사용자, 홈 팀의 구성원 또는 홈 그룹의 구성원으로 레이아웃 템플릿이 할당되지 않은 경우 액세스 수준에 할당된 템플릿이 표시됩니다.</span>
+* 액세스 수준: 개인 사용자, 기본 작업 역할이 있는 사용자, 홈 팀의 구성원 또는 홈 그룹의 구성원으로 레이아웃 템플릿이 할당되지 않은 경우 액세스 수준에 할당된 템플릿이 표시됩니다.
 
 ## 많은 사용자가 레이아웃 템플릿에 할당됨
 

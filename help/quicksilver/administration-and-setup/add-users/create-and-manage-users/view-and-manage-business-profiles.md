@@ -11,16 +11,14 @@ role: Admin
 exl-id: 2227cdb7-909c-429d-a078-4f508157a679
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 10%
+source-wordcount: '200'
+ht-degree: 11%
 
 ---
 
 # 비즈니스 프로필 보기 및 관리
-
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 특정 고객의 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 사용자에게 비즈니스 프로필을 할당하려면 그룹 및 관련 액세스 수준을 할당해야 합니다.
 
