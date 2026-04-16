@@ -6,9 +6,9 @@ description: 만든 개체 또는 사용자와 공유된 개체에 대한 권한
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: dec69522dd5f233bfabe84a9846b8e1246993a2a
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1353'
 ht-degree: 1%
 
 ---
@@ -59,6 +59,8 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
    * [캘린더 보고서 공유](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * **필터, 보기 및 그룹화**: 자세한 내용은 [필터, 보기 또는 그룹화 공유](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)를 참조하십시오.
+
+* **등급 카드**: 자세한 내용은 [등급 카드 공유](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)를 참조하십시오.
 
 * **계획**: 자세한 내용은 [시나리오 플래너에서 계획 공유](../../scenario-planner/share-a-plan.md)를 참조하십시오.
 
@@ -118,7 +120,7 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
      <li><p>개체 보기</p></li> 
      <li><p>오브젝트에 문서 추가</p></li> 
      <li><p>오브젝트에 문제 추가(작업 또는 프로젝트인 경우)</p></li> 
-     <li><p>객체에 대한 재무 정보 보기</p></li> 
+     <li><p>객체에 대한 비용 요금, 청구 요금 또는 일반 재무 정보 조회</p></li> 
      <li> <p>오브젝트 공유<br></p> <p>객체를 공유할 때 다른 사용자에게 상위 레벨이 아니라 해당 객체에 대해서만 가지고 있는 동일한 권한 레벨을 부여할 수 있습니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -140,7 +142,7 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
     <ul> 
      <li>보기 및 기여 권한에 포함된 모든 작업</li> 
      <li>삭제</li> 
-     <li>재무 정보 관리</li> 
+     <li>비용 요금, 청구 요금 또는 일반 재무 정보를 관리합니다.</li> 
     </ul> </td> 
   </tr> 
   <tr> 

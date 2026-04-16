@@ -6,9 +6,9 @@ description: 재원은 프로젝트에 기록된 시간 또는 비용 및 수익
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1632'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>개체 권한</td> 
-   <td>재무 관리 권한으로 프로젝트에 대한 권한 관리</td> 
+   <td>비용 요금 편집, 청구 요금 편집 및 일반 재무 편집 권한을 사용하여 프로젝트에 대한 권한을 관리합니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,21 +79,24 @@ ht-degree: 1%
 
 수익률은 프로젝트 기간 동안 변경될 수 있습니다.
 
-청구 요금 및 매출에 대한 자세한 내용은 문서 [청구 및 매출 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)를 참조하십시오.
+청구 요금 및 매출에 대한 자세한 내용은 [청구 및 매출 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)를 참조하십시오.
 
 수익률은 다음 수준에서 변경될 수 있습니다.
 
 * 시스템 수준(작업 역할의 경우)\
-  시스템 수준에서 청구 요금이 포함된 작업 역할을 만드는 방법에 대한 자세한 내용은 문서 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
+  시스템 수준에서 청구 요금이 포함된 작업 역할을 만드는 방법에 대한 자세한 내용은 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
 
 * 사용자 수준\
-  사용자의 청구 요금 정보를 변경하는 방법에 대한 자세한 내용은 문서 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
+  사용자의 청구 요금 정보를 변경하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
 * 회사 수준(작업 역할의 경우)\
   자세한 내용은 [회사 수준에서 작업 역할 청구 요금 대체](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)를 참조하십시오.
 
-* 프로젝트 수준(작업 역할의 경우)\
-  프로젝트 수준에서 작업 역할 요율 재정의에 대한 자세한 내용은 문서 [청구 요율 재정의 개요 및 프로젝트 수익 계산](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
+* 등급 카드 수준
+등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)를 참조하십시오.
+
+* 프로젝트 수준(작업 역할, 사용자 및 등급 카드의 경우)\
+  프로젝트 수준에서 요율을 오버라이드하는 방법에 대한 자세한 내용은 [프로젝트 청구 요율 오버라이드 및 수익 계산 개요](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)를 참조하십시오.
 
 예를 들어 프로젝트 진행 중 사용자의 청구 요금이 시간당 $50에서 $75로 변경되고 기존의 모든 데이터를 이전 요금($50 및 시간)으로 계속 계산되게 하려는 경우, 그러나 프로젝트 재정이 다시 계산되면 기존 재무 데이터가 있는 작업의 매출은 새 청구 요금(시간당 75달러)을 반영하도록 업데이트됩니다.
 
@@ -106,13 +109,13 @@ ht-degree: 1%
 
 프로젝트에 대한 재무를 다시 계산하지 않거나 청구된 청구 기록에 기록된 시간을 잠글 때, 요금 변경 후 기록된 시간은 새로운 요율로 계산되며, 비용 요금 변경 전 기록된 시간은 이전 요율로 계속 계산됩니다.
 
-청구 기록 만들기에 대한 자세한 내용은 문서 [청구 기록 만들기](../../../manage-work/projects/project-finances/create-billing-records.md)를 참조하십시오.
+청구 기록 만들기에 대한 자세한 내용은 [청구 기록 만들기](../../../manage-work/projects/project-finances/create-billing-records.md)를 참조하십시오.
 
 #### 여러 청구 요금 무시를 사용하여 프로젝트 수익 유지 {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
 프로젝트 수준에서 작업 역할에 대한 청구 요금이 변경되면 지정된 기간 내에 잠긴 여러 청구 요금 무시를 사용하여 프로젝트에서 이미 계산된 기존 수익을 유지할 수 있습니다.
 
-여러 청구 요율 재정의 사용에 대한 자세한 내용은 문서 [청구 요율 재정의 개요 및 프로젝트 수익 계산](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
+여러 청구 요율 재정의 사용에 대한 자세한 내용은 [청구 요율 재정의 개요 및 프로젝트의 수익 계산](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -123,12 +126,15 @@ ht-degree: 1%
 원가율은 다음 레벨에서 변경될 수 있습니다.
 
 * 시스템 수준(작업 역할의 경우)\
-  시스템 수준에서 비용 요율로 작업 역할을 만드는 방법에 대한 자세한 내용은 문서 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
+  시스템 수준에서 비용 요율로 작업 역할을 만드는 방법에 대한 자세한 내용은 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
 
 * 사용자 수준\
-  사용자의 비용 정보를 변경하는 방법에 대한 자세한 내용은 문서 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
+  사용자의 비용 정보를 변경하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
-위에서 언급한 모든 수준에서 청구 요금이 변경되면 프로젝트에 기록되고 이전 요율을 사용하여 계산된 시간을 청구됨 상태의 청구 기록에 잠궈 프로젝트에서 이미 계산된 기존 비용을 보존할 수 있습니다. 청구 기록 만들기에 대한 자세한 내용은 문서 [청구 기록 만들기](../../../manage-work/projects/project-finances/create-billing-records.md)를 참조하십시오.
+* 프로젝트 수준(사용자용)
+사용자 비용 비율 재정의에 대한 자세한 내용은 [프로젝트 수준에서 사용자 비용 비율 재정의](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)를 참조하십시오.
+
+위에서 언급한 모든 수준에서 청구 요금이 변경되면 프로젝트에 기록되고 이전 요율을 사용하여 계산된 시간을 청구됨 상태의 청구 기록에 잠궈 프로젝트에서 이미 계산된 기존 비용을 보존할 수 있습니다. 청구 기록 만들기에 대한 자세한 내용은 [청구 기록 만들기](../../../manage-work/projects/project-finances/create-billing-records.md)를 참조하십시오.
 
 청구 기록을 만들지 않으려면 이 문서의 [프로젝트에 대한 재무 수동 다시 계산](#manually-recalculate-finances-for-a-project) 섹션에 설명된 대로 재무 수동 다시 계산 옵션을 사용하지 않을 수도 있습니다.
 
@@ -148,13 +154,13 @@ ht-degree: 1%
 
 1. 재무 정보를 다시 계산하려는 프로젝트로 이동한 다음 프로젝트 이름 오른쪽에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-icon-on-an-object.png)를 클릭합니다.
 
-   ![프로젝트 수준 추가 드롭다운](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![프로젝트 수준 추가 드롭다운](assets/project-level-more-dropdown.png)
 
    또는
 
    프로젝트 목록 또는 보고서로 이동하여 하나 또는 여러 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-icon-on-an-object.png)를 클릭합니다.
 
-   ![표현식 다시 계산](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![재무 다시 계산](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >
@@ -180,7 +186,7 @@ ht-degree: 1%
 1. 프로젝트 목록으로 이동합니다.
 1. 목록에서 여러 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![추가 메뉴](assets/qs-more-icon-on-an-object.png)를 클릭합니다.
 
-   ![표현식 다시 계산](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![재무 다시 계산](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >

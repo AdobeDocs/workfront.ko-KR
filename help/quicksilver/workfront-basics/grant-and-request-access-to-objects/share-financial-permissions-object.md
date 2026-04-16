@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '560'
 ht-degree: 11%
 
 ---
 
 # 개체에 대한 재무 권한 공유
-
-{{highlighted-preview}}
 
 Adobe Workfront 관리자는 액세스 수준을 할당할 때 재무 데이터를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 자세한 내용은 [재무 데이터에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)를 참조하십시오.
 
@@ -80,8 +78,7 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>적어도 재무 보기 권한이 포함된 프로젝트, 작업 및 문제에 대한 권한 이상 보기</p>
-   <p><span class="preview">적어도 청구 요금 보기, 비용 요금 보기 또는 일반 재무 권한 보기가 포함된 프로젝트, 작업 및 문제에 대한 권한 이상 보기</span></p></td> 
+   <td> 적어도 청구 요금 보기, 비용 요금 보기 및 일반 재무 권한 보기가 포함된 프로젝트, 작업 및 문제에 대한 권한 이상 보기</td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,6 +93,7 @@ drafted for P&P:
 
 * 프로젝트, 작업 및 문제에 대한 재무 권한을 부여할 수 있습니다.
 * 권한은 상속될 수 있습니다. 프로젝트에 대한 일반 재무 보기 권한이 있는 경우 프로젝트의 작업 및 문제에 대한 일반 재무 보기 권한이 자동으로 상속됩니다.
+* 청구 및 비용 요금에 대한 권한을 부여하면 사용자가 해당 객체에 대한 요율을 보거나 편집할 수 있습니다. 일반 재무에 대한 권한을 통해 사용자는 오브젝트의 일반 재무 필드(청구 또는 비용 요금과 관련이 없음)를 보거나 편집할 수 있습니다.
 
 객체에 재무 권한을 부여하려면 다음을 수행합니다.
 
@@ -116,10 +114,8 @@ drafted for P&P:
 
 1. 동일한 드롭다운 메뉴에서 권한 수준 옆에 있는 고급 옵션 아이콘을 클릭한 후 다음 중 하나를 수행합니다.
 
-   * 이전 단계에서 세 가지 옵션 중 하나를 선택한 경우 **재무 보기**&#x200B;가 선택되어 있는지 확인하십시오.
-   * 이전 단계에서 **재무 관리**&#x200B;를 선택한 경우 **재무 관리**&#x200B;를 선택해야 합니다.
-   * <span class="preview">권한 수준에 따라 **청구 요금 보기**, **비용 요금 보기** 및 **일반 재무 보기**&#x200B;를 선택하십시오.</span>
-   * <span class="preview">**관리** 사용 권한에만 대해 **청구 요금 편집**, **비용 요금 편집** 및 **일반 재무 편집**&#x200B;을 선택하십시오.</span>
+   * 권한 수준에 관계없이 필요에 따라 **청구 요금 보기**, **비용 요금 보기** 및 **일반 재무 보기**&#x200B;를 선택하십시오.
+   * **관리** 권한에만 해당, 필요에 따라 **청구 요금 편집**, **비용 요금 편집** 및 **일반 재무 편집**&#x200B;을 선택하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -148,55 +144,37 @@ drafted for P&P:
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>역할 청구 및 비용 요금 관리/보기</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>사용자 청구 및 비용 요금 관리/보기</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>재무 보기</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>  ✓</td> 
-  </tr>
-  <tr> 
-   <td><span class="preview">과금 요율 편집</span></td> 
+   <td>과금 요율 편집</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">비용 요율 편집</span></td> 
+   <td>비용 요율 편집</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>  
   <tr> 
-   <td><span class="preview">일반 재무 편집</span></td> 
+   <td>일반 재무 편집</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>
   <tr> 
-   <td><span class="preview">결제 요율 조회</span></td> 
+   <td>결제 요율 조회</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">비용 요율 조회</span></td> 
+   <td>비용 요율 조회</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr>  
   <tr> 
-   <td><span class="preview">일반 재무 조회</span></td> 
+   <td>일반 재무 조회</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
@@ -225,3 +203,21 @@ drafted for P&P:
 &#42;추가 리소스 관리 액세스 권한이 필요합니다.
 
 리소스 관리 액세스에 대한 자세한 내용은 [리소스 관리에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)를 참조하십시오.
+
+<!--
+These rows removed from last table.
+
+  <tr> 
+   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+
+-->

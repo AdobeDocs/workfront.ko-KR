@@ -1,20 +1,18 @@
 ---
 title: 작업 역할에 액세스 권한 부여
 description: Adobe Workfront 관리자는 액세스 수준을 통해 Workfront에서 작업 역할에 대한 사용자의 액세스 권한을 정의할 수 있습니다.
-author: Becky and Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '379'
 ht-degree: 5%
 
 ---
 
 # 작업 역할에 대한 액세스 권한 부여
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)에 설명된 대로 사용자의 액세스 수준을 통해 작업 역할에 대한 사용자의 액세스 권한을 정의할 수 있습니다.
 
@@ -59,14 +57,20 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
    ![작업 역할 액세스 미세 조정](assets/job-role-access-view-fine-tune.png)
 
-   **보기** 액세스 권한이 있는 사용자는 기존 작업 역할을 보고 선택적으로 작업 역할 청구 요금, 비용 요금 및 일반 재무 정보를 볼 수 있습니다.
+   **보기** 액세스 권한이 있는 사용자는 기존 작업 역할을 보고 선택적으로 다음을 수행할 수 있습니다.
+
+   * 작업 역할에 대한 청구 요금 보기
+   * 작업 역할에 대한 원가율 보기
+   * 작업 역할의 일반 재무 필드 보기(청구 또는 비용 요금과 관련이 없음)
 
    **편집** 액세스 권한이 있는 사용자는 기존 작업 역할을 보고 편집할 수 있으며 선택적으로 다음을 수행할 수 있습니다.
 
    * 새 작업 역할 만들기
    * 작업 역할 삭제
-   * 작업 역할 청구 요금, 비용 요금 및 일반 재무 보기
-   * 작업 역할 청구 요금, 비용 요금 및 일반 재무 편집
+   * 작업 역할의 청구 요금 편집
+   * 작업 역할의 비용 비율 편집
+   * 작업 역할의 일반 재무 필드 편집(청구 또는 비용 요금과 관련이 없음)
+   * 작업 역할 청구 요금, 비용 요금 및 일반 재무 필드 보기
 
 1. (선택 사항) 작업 중인 액세스 수준의 다른 개체 및 영역에 대한 액세스 설정을 구성하려면 [Adobe Workfront에 대한 액세스 구성](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)에 나열된 문서 중 하나(예: [작업에 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md))를 계속 사용하십시오.
 1. 완료되면 **저장**&#x200B;을 클릭하세요.

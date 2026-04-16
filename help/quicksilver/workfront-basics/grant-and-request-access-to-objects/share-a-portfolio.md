@@ -4,9 +4,9 @@ description: 포트폴리오에 액세스할 수 있는 권한이 있는 경우 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '914'
 ht-degree: 3%
 
 ---
@@ -162,5 +162,11 @@ Workfront의 개체 계층 구조에 대한 자세한 내용은 [Adobe Workfront
 | 업데이트/주석 | ✓ | ✓ |
 | 공유 | ✓ | ✓ |
 | 시스템 전체 공유 |   | ✓ |
+| 청구 요금 편집&#42; | ✓ |   |
+| 비용 요금 편집&#42; | ✓ |   |
+| 일반 재무 편집&#42; | ✓ |   |
+| 청구 요금 보기&#42; | ✓ | ✓ |
+| 비용 요금 보기&#42; | ✓ | ✓ |
+| 일반 재무 보기&#42; | ✓ | ✓ |
 
 *이러한 권한은 액세스 수준 및 프로젝트, 프로그램, 문서 등의 다른 개체에 대한 권한에 의해 제어됩니다.

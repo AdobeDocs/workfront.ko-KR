@@ -6,10 +6,10 @@ description: 프로젝트 수준 청구 요율을 회사 수준 청구 요율로
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 1%
+source-wordcount: '457'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +31,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>개체 권한</td> 
-   <td>재무 관리 권한으로 프로젝트에 대한 권한 관리</td> 
+   <td>청구 요금 및 일반 재무 편집 권한이 있는 프로젝트에 대한 권한 관리</td> 
   </tr> 
  </tbody> 
 </table>
