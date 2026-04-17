@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '2954'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,11 @@ ht-degree: 0%
 
 # 레코드 유형 연결
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -94,7 +95,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>AEM 에셋을 Planning 레코드 유형과 연결하기 위한 AEM Assets 및 Workfront 간의 통합 및 Adobe Experience Manager Assets 라이선스.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 기사 색인</a>을 참조하십시오. </p></li>
    <li><p> 레코드 유형을 GenStudio 브랜드와 연결하는 Adobe GenStudio for Performance Marketing 라이선스</p>
-   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
+   <p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketing 시작</a>을 참조하세요.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -228,18 +229,16 @@ Old:
 
      >[!TIP]
      >
-     ><span class="preview">다음 키보드 조합을 사용하여 모든 Workfront Planning 페이지에서 글로벌 검색 상자를 열고 레코드 종류를 검색할 수 있습니다.</span>
+     >다음 키보드 조합을 사용하여 Workfront Planning 페이지에서 글로벌 검색 상자를 열고 레코드 유형을 검색할 수 있습니다.
      >
-     >* <span class="preview">Windows용 CTRL+K</span>
-     >* Mac용 <span class="preview">⌘+K</span>
+     >* Windows의 경우 CTRL+K
+     >* Mac의 경우 ⌘+K
      >
      >![글로벌 검색 상자](assets/global-search-box.png)
 
    * **Workfront 개체 유형** 섹션의 **프로젝트, Portfolio, 프로그램, 회사** 또는 **그룹**.
 
      ![Workfront 프로젝트 연결 선택](assets/multi-select-connection-picker-project.png)
-
-   <div class="preview">
 
    * **Workfront 개체 유형** 섹션의 **원본 요청** 개체 유형입니다.
 
@@ -254,8 +253,6 @@ Old:
      >* [레코드를 만들 수 있도록 Adobe Workfront Planning 요청을 제출](/help/quicksilver/planning/requests/submit-requests.md).
 
      ![원래 요청 연결 선택](assets/original-request-connection-selection.png)
-
-   </div>
 
 
    * **Experience Manager 응용 프로그램** 섹션의 **Adobe**.
@@ -319,7 +316,7 @@ Old:
 
    >[!NOTE]
    >
-   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
+   >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오.
 
 
 1. (조건부) Experience Manager, Workfront Planning 레코드 유형 또는 GenStudio Brand에 연결하도록 선택하는 경우 **모양 기록** 영역에서 다음 옵션 중 하나를 선택합니다.
@@ -349,14 +346,15 @@ Old:
 
    >[!TIP]
    >
-   >* 다른 응용 프로그램의 참조 필드를 조회 필드로 추가할 수 없습니다. 예를 들어 Workfront 프로젝트에 연결할 때 Planning에서 프로젝트 그룹 또는 회사를 조회 필드로 추가할 수 없습니다.
+   >* 다른 응용 프로그램의 참조 필드를 조회 필드로 추가할 수 없습니다. 예를 들어 Workfront 프로젝트에 연결할 때 Planning에서 프로젝트, 그룹 또는 회사를 조회 필드로 추가할 수 없습니다.
    >
-   >* 프로덕션 환경에서는 Workfront 사용자 필드(프로젝트 소유자 또는 프로젝트 스폰서와 같은 필드 포함)를 조회 필드로 추가할 수 없습니다. <span class="preview">미리 보기 환경에서 사용자 필드를 조회 필드로 추가할 수 있습니다.</span>
+   ><!--* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
    >
    >* Workfront 개체의 날짜 필드 정보는 Workfront에 표시되는 방식에 관계없이 Workfront Planning에서 24시간 형식으로 표시됩니다.
    >
    >   예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3:00(으)로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15:00(으)로 표시됩니다.
-   >* 프로덕션 환경에서는 사람 필드를 조회 필드로 추가할 수 없습니다. <span class="preview">미리 보기 환경에서 사람 필드를 조회 필드로 추가할 수 있습니다.</span>
+   >
+   ><!--* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>-->
 
 1. Click **Create**.
 

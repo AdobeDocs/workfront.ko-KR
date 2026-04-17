@@ -8,20 +8,22 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '694'
 ht-degree: 3%
 
 ---
 
 # 내 요청 위젯 사용
 
-<!--remove Preview and Production references at Production release April 15, 2026-->
+<!--
+remove Preview and Production references at Production release April 15, 2026
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -102,14 +104,9 @@ To configure the filter in the My Requests widget:
    * 보기
    * 필터
    * 열
-
-   <div class="preview">
-
    * 그룹화
    * 셀 서식 지정
    * 행 높이
-
-   </div>
 
    요청 목록에서 보기 요소를 업데이트하는 방법에 대한 자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하십시오.
 
@@ -212,7 +209,7 @@ Consider the following when working with views in the My Requests widget:
 >
 >* 제목 필드의 Planning 및 Workfront 요청.
 >* 생성된 객체 필드의 Planning 요청에서 생성된 Planning 레코드.
->* <span class="preview">미리 보기 환경의 개체 작성 필드에서 Workfront 요청에서 전환된 Workfront 작업 및 문제.</span>
+>* 생성된 개체 필드의 Workfront 요청에서 전환된 Workfront 작업 및 문제
 
 1. 왼쪽 상단의 **[!UICONTROL 주 메뉴]** ![주 메뉴 아이콘](assets/lines-main-menu.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) **내 요청** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 요청**&#x200B;을 찾은 다음 클릭하여 **Home**&#x200B;에 추가합니다.
@@ -223,10 +220,7 @@ Consider the following when working with views in the My Requests widget:
 
    >[!TIP]
    >
-   >프로덕션 환경에서는 Planning 레코드만 **만들어진 개체** 필드에 링크가 있습니다.
-   >   
-   ><span class="preview">미리보기 환경에서 Planning 요청에서 생성된 Planning 레코드뿐 아니라 문제에서 변환된 Workfront 작업 및 프로젝트도 **생성된 개체** 필드에 링크가 있습니다.</span>
-   >
+   >Planning 요청에서 생성된 Planning 레코드뿐만 아니라 문제에서 변환된 Workfront 작업 및 프로젝트에는 **생성된 개체** 필드에 링크가 있습니다.
 
 
 

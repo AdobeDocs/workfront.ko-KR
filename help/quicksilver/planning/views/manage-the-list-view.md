@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 0%
+source-wordcount: '1791'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,11 @@ ht-degree: 0%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -158,15 +160,13 @@ Removed - more direct steps below:
       >
       >* 시스템 보기는 수정할 수 없습니다.
       >
-      >* <span class="preview">원래 기본 설정을 복원하도록 수정한 후 [보기] 권한만 있는 공유 보기를 재설정하거나 변경 내용과 함께 복사하고 복사본을 공유할 수 있습니다. 자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요. </span>
+      >* 보기 권한만 있는 사용자와 공유된 보기를 재설정하거나 원래 기본 설정을 복원하도록 수정한 후 해당 보기를 재설정하거나 변경 사항과 함께 복사하고 사본을 공유할 수 있습니다. 자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요.
 
    1. 보기에 필터를 추가하려면 **필터** 아이콘 ![필터 아이콘](assets/filter-icon.png)을 클릭하십시오. 결과는 목록에서 즉시 필터링됩니다. 필터를 저장하고 이름을 지정할 수 없습니다. 필터는 나중에 페이지에 액세스할 때 기억되며 공유 보기의 일부입니다.
 
       >[!TIP]
       >
-      ><span class="preview">개인화된 필터를 적용하려면 필드 값에 대해 다음 옵션 중 하나를 선택하십시오.
-      >
-      ><div class="preview">
+      >개인화된 필터를 적용하려면 필드 값에 대해 다음 옵션 중 하나를 선택합니다.
       >
       >* **내(로그인한 사용자)**&#x200B;가 사용자를 참조하는 필드에서 로그인한 사용자를 참조합니다.
       >
@@ -177,8 +177,6 @@ Removed - more direct steps below:
       >* **내 회사**&#x200B;에서 회사를 참조하는 필드에 회사를 참조합니다.
       > 
       >* **내 역할** 또는 **내 기본 역할**&#x200B;을(를) 참조하여 필드에서 작업 역할을 참조합니다.
-      >
-      ></div>
 
    1. 보기에 표시하거나 숨길 열을 선택하려면 **열** 아이콘 ![열 아이콘](assets/columns-icon.png)을 클릭하십시오.
    1. 열 이름 위로 마우스를 가져간 후 열 이름 왼쪽의 아래쪽 화살표를 클릭하고 다음 중 하나를 클릭합니다.
@@ -191,58 +189,54 @@ Removed - more direct steps below:
       목록 보기에 기존 필드만 추가할 수 있습니다.
 첫 번째 열에 표시되는 목록 보기에서 기본 필드를 제거할 수 없습니다.
 
-   1. <span class="preview">셀 서식 지정&#x200B;**아이콘**&#x200B;셀 서식 지정 아이콘![을 클릭합니다. &#x200B;](assets/format-cells-icon.png) **Format** 상자가 열립니다.</span> <!--change the name of the box when they update it-->
-      <span class="preview">다음을 수행합니다. </span>
+   1. **셀 서식 지정** 아이콘 ![셀 서식 지정 아이콘](assets/format-cells-icon.png)을 클릭합니다. **서식** 상자가 열립니다. <!--change the name of the box when they update it-->
+다음을 수행합니다.
 
-      1. <span class="preview">**조건 추가**.</span>
-      1. <span class="preview">**If** 줄에서 필드를 선택하고 필드 값을 선택한 다음 수정자를 추가합니다. 수정자는 선택한 필드 유형에 따라 변경됩니다. </span>
-
-         >[!TIP]
-         >
-         ><span class="preview">목록 보기에 표시되는 필드만 조건부 서식에 사용할 수 있습니다.</span>
-
-      1. <span class="preview">(선택 사항) 필드 값을 추가하는 대신 **다른 필드와 비교** 아이콘 ![다른 필드와 비교](assets/compare-to-another-field-icon.png)를 클릭하고 선택한 필드의 값과 비교할 필드를 선택합니다. 예를 들어 프로젝트 소유자와 프로젝트 스폰서 필드를 비교할 수 있습니다. </span>
+      1. **조건 추가**&#x200B;를 클릭합니다.
+      1. **If** 줄에서 필드를 선택하고 필드 값을 선택한 다음 수정자를 추가합니다. 수정자는 선택한 필드 유형에 따라 변경됩니다.
 
          >[!TIP]
          >
-         ><span class="preview">조건부 서식은 목록 보기에 표시되는 필드만 사용할 수 있습니다. 비교하는 필드의 형식은 동일해야 합니다. </span>
+         >목록 보기에 표시되는 필드만 조건부 서식에 사용할 수 있습니다.
 
-      1. <span class="preview">(선택 사항) **If** 줄에서 **조건 추가**&#x200B;를 클릭하여 동일한 규칙에 조건을 더 추가합니다.</span>
+      1. (선택 사항) 필드 값을 추가하는 대신 **다른 필드와 비교** 아이콘 ![다른 필드와 비교](assets/compare-to-another-field-icon.png)를 클릭하고 선택한 필드의 값과 비교할 필드를 선택합니다. 예를 들어 프로젝트 소유자와 프로젝트 스폰서 필드를 비교할 수 있습니다.
 
          >[!TIP]
          >
-         ><span class="preview">조정 규칙에 최대 10개의 조건을 추가할 수 있으며 필드에 최대 20개의 규칙을 사용할 수 있습니다.</span>
+         >목록 보기에 표시되는 필드만 조건부 서식에 사용할 수 있습니다. 비교하는 필드의 형식은 동일해야 합니다.
 
-      1. <span class="preview">조건 사이에 있는 **Or** 커넥터를 클릭하여 **And**(으)로 변경하고 여러 조건을 동시에 충족해야 함을 나타냅니다. **또는**&#x200B;이(가) 기본 커넥터입니다.</span>
-      1. <span class="preview">**서식** 줄에서 서식을 지정할 열을 나타내는 필드를 선택합니다.</span> <!--edit this area, if it changes names??-->
-      1. <span class="preview">(선택 사항) 선택한 필드 옆에 있는 **색상 원** 아이콘 ![색상 원 아이콘](assets/color-circle.png)을 클릭하여 확장하고 **셀 채우기** 영역에서 다른 색상을 선택하여 셀의 배경색을 변경하거나 **텍스트 색상** 영역에서 색상을 선택하여 셀의 텍스트 색상을 변경합니다.</span>
-      1. <span class="preview">**텍스트 서식** 아이콘 ![텍스트 서식 아이콘](assets/text-format-icon.png)을 클릭하고 다음 옵션 중 하나를 선택하여 셀의 텍스트 서식을 지정합니다.</span>
-         * <span class="preview">굵게</span>
-         * <span class="preview">기울임꼴</span>
+      1. (선택 사항) **If** 줄에서 **조건 추가**&#x200B;를 클릭하여 동일한 규칙에 조건을 더 추가합니다.
 
-      1. <span class="preview">조건에 맞는 필드의 전체 행에 서식을 적용하려면 **행에 적용** 설정을 켭니다.</span>
-      1. <span class="preview">(선택 사항) **형식** 상자에서 **조건 추가**&#x200B;를 클릭하여 다른 필드에 대한 다른 규칙을 추가하고 위의 단계를 반복합니다.</span>
-      1. <span class="preview">(선택 사항) **모두 지우기**&#x200B;를 클릭하여 모든 서식을 제거합니다.</span>
-      1. <span class="preview">닫으려면 **서식** 상자 바깥쪽을 클릭합니다.</span>
+         >[!TIP]
+         >
+         >조정 규칙에서 최대 10개의 조건을 추가할 수 있으며 필드에 대해 최대 20개의 규칙을 가질 수 있습니다.
 
-         <span class="preview">목록 보기로 돌아갑니다.</span>
-         <span class="preview">서식이 목록 보기에 바로 적용됩니다.</span>
-         <span class="preview">**셀 서식 지정** 아이콘 옆에 특수 서식이 적용되었음을 나타내는 파란색 점이 있습니다.</span>
+      1. 조건 사이에 있는 **Or** 커넥터를 클릭하여 **And**(으)로 변경하고 여러 조건을 동시에 충족해야 함을 나타냅니다. **또는**&#x200B;이(가) 기본 커넥터입니다.
+      1. **서식** 줄에서 서식을 지정할 열을 나타내는 필드를 선택합니다. <!--edit this area, if it changes names??-->
+      1. (선택 사항) 선택한 필드 옆에 있는 **색상 원** 아이콘 ![색상 원 아이콘](assets/color-circle.png)을 클릭하여 확장하고 **셀 채우기** 영역에서 다른 색상을 선택하여 셀의 배경색을 변경하거나 **텍스트 색상** 영역에서 색상을 선택하여 셀의 텍스트 색상을 변경합니다.
+      1. **텍스트 형식** 아이콘 ![텍스트 형식 아이콘](assets/text-format-icon.png)을 클릭하고 다음 옵션 중에서 선택하여 셀의 텍스트 형식을 지정합니다.
+         * 굵게
+         * 이탤릭체
 
-   1. <span class="preview">(선택 사항) **그룹화** 아이콘 ![그룹화 아이콘](assets/grouping-icon.png) &lt;!-이 항목을 &quot;그룹화&quot;??->로 업데이트하여 공통 필드로 목록에 있는 항목을 그룹화했습니다. 옵션 중 하나를 선택하거나 검색 창을 사용하여 필드를 찾습니다.</span>
+      1. 조건을 충족하는 필드의 전체 행에 서식을 적용하려면 **행에 적용** 설정을 켭니다.
+      1. (선택 사항) **형식** 상자에서 **조건 추가**&#x200B;를 클릭하여 다른 필드에 다른 규칙을 추가하고 위의 단계를 반복합니다.
+      1. (선택 사항) 모든 서식을 제거하려면 **모두 지우기**&#x200B;를 클릭합니다.
+      1. **서식** 상자 바깥쪽을 클릭하여 닫습니다.
 
-      <span class="preview">필드를 그룹화하려면 먼저 필드가 목록에 있는 열이어야 합니다. 모든 필드 형식을 그룹화에 사용할 수 있는 것은 아닙니다.</span>
+         이렇게 하면 목록 보기로 돌아갑니다.
+서식은 목록 보기에 즉시 적용됩니다.
+**셀 서식 지정** 아이콘 옆에 특수 서식이 적용되었음을 나타내는 파란색 점이 있습니다.
 
-   1. <span class="preview">행의 세로 길이를 업데이트하려면 **행 높이** 아이콘 ![행 높이 아이콘](assets/row-height-icon.png)을 클릭하세요. 다음 옵션 중에서 선택하십시오. </span>
+   1. (선택 사항) 목록의 항목을 공통 필드로 그룹화하려면 **그룹화** 아이콘 ![그룹화 아이콘](assets/grouping-icon.png) <!--have they updated this to "Grouping"??-->을(를) 클릭합니다. 옵션 중 하나를 선택하거나 검색 창을 사용하여 필드를 찾습니다.
 
-      <div class="preview">
+      필드를 그룹화하려면 먼저 필드가 목록의 열이어야 합니다. 일부 필드 유형은 그룹화에 사용할 수 없습니다.
+
+   1. 행의 세로 길이를 업데이트하려면 **행 높이** 아이콘 ![행 높이 아이콘](assets/row-height-icon.png)을 클릭하십시오. 다음 선택 사항 중 하나를 선택합니다.
 
       * 짧음
       * 표준. 이것이 기본 선택입니다.
       * 보통
       * 높음
-
-      </div>
 
    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 

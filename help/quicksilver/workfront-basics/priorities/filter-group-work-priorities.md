@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 7%
@@ -153,8 +153,8 @@ ht-degree: 7%
 
 {{step1-to-priorities}}
 
-1. 작업 목록 왼쪽 상단에서 **그룹**&#x200B;을 클릭합니다.
-1. 작업 목록을 구성할 그룹을 선택하십시오.
+1. 작업 목록 왼쪽 상단에서 **그룹화**&#x200B;을 클릭합니다.
+1. 작업 목록을 구성할 그룹화를 선택하십시오.
 
 ![그룹](assets/groups-new.png)
 
@@ -179,11 +179,11 @@ ht-degree: 7%
 
 ## 작업 정렬
 
-### 그룹으로 정렬
+### 그룹화로 정렬
 
-그룹 내에서 작업을 정렬하려면 **그룹**&#x200B;을 열고 오름차순 또는 내림차순으로 정렬할지 선택하십시오.
+그룹화 내에서 작업을 정렬하려면 **그룹화**&#x200B;을 열고 오름차순 또는 내림차순으로 정렬할지 선택하세요.
 
-![그룹에서 정렬](assets/sort-in-groups.png)
+![그룹화에서 정렬](assets/sort-in-groups.png)
 
 ### 열 정렬
 
