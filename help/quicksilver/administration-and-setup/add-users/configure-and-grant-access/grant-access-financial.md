@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: 82f2fbb55dd46b9bfc55e9864c38f600041de968
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 2%
+source-wordcount: '787'
+ht-degree: 3%
 
 ---
 
 # 재무 데이터에 대한 액세스 권한 부여
-
-{{highlighted-preview}}
 
 Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)에 설명된 대로 사용자의 액세스 수준을 통해 다음에 대한 사용자의 액세스 권한을 정의할 수 있습니다.
 
@@ -61,18 +59,14 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 * 액세스 수준이 재무 데이터에 대한 액세스를 허용하지 않는 사용자는 다른 사용자가 재무 데이터를 볼 수 있도록 하는 액세스 권한을 부여할 수 없습니다. 여기에는 재무 데이터를 표시하는 프로젝트에 대한 액세스 권한을 부여하거나, 재무 데이터를 볼 수 있도록 액세스 수준을 수정하는 작업이 포함됩니다.
 * 액세스 수준이 재무 데이터에 대한 액세스를 허용하지 않는 사용자는 프로젝트에 대한 위험을 만들 수 없습니다. 자세한 내용은 [프로젝트에 대한 위험 만들기 및 편집](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)을 참조하세요.
 * 또한 액세스 레벨을 사용하여 사용자가 자원 할당을 예산 책정하거나 조회하기 위해 사용할 수 있는 자원 관리 활동을 결정할 수 있습니다. 자세한 내용은 [리소스 관리에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)를 참조하십시오.
-* <span class="preview">청구 요금, 비용 요금 및 일반 금융에 대한 액세스는 별개이므로 복잡한 금융 세부 정보를 처리하는 다양한 사용자 역할에 대해 보다 정확하게 제어할 수 있습니다. 일반 재무는 청구 및 비용 요율을 포함하지 않는 추가 재무 데이터입니다.</span>
+* 청구 요금, 비용 요금 및 일반 금융에 대한 액세스는 별개이므로 복잡한 금융 세부 정보를 처리하는 다양한 사용자 역할에 대해 보다 정확하게 제어할 수 있습니다. 일반 금융은 청구 및 비용 요율을 포함하지 않는 추가 금융 데이터입니다.
 
 ## 사용자 정의 액세스 수준을 사용하여 재무 데이터에 대한 사용자 액세스 구성
 
 1. [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에 설명된 대로 액세스 수준을 만들거나 편집하십시오.
 1. 재무 데이터 오른쪽의 ![](assets/gear-icon-settings.png)보기&#x200B;**또는**&#x200B;편집&#x200B;**단추에서 톱니바퀴 아이콘**&#x200B;을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
    ![재무 데이터 액세스 세부 조정](assets/financial-data-access-fine-tune.png)
-
-   프로덕션 환경의 샘플 이미지:
-   ![재무 데이터 액세스 세부 조정](assets/financial-data-fine-tune-nwe.png)
 
 1. (선택 사항) **관리 액세스 허용** 영역에서 다음 옵션을 선택합니다.
 
@@ -131,36 +125,66 @@ If you make changes here, make them also in the "Grant access to" articles where
 
 * 프로젝트 및 작업 객체 아래의 재무 섹션
 * 비즈니스 사례
-* 프로젝트의 청구 요금 및 청구 기록
-* 사용자 프로필의 시간당 비용 및 시간당 청구
-* 작업 역할의 시간당 비용 및 시간당 청구
+* 프로젝트의 청구 기록
+* 프로젝트의 청구 요금 및 비용 요금
+
+<!--  
+
+* Cost per hour and billing per hour on user profiles
+* Cost per hour and billing per hour on Job Roles
+
+-->
 
 ### 액세스 권한 보기
 
 재무 데이터에 대한 보기 액세스 권한이 있는 사용자는 다음을 볼 수 있습니다(편집할 수 없음).
 
 * 프로젝트 및 작업 객체 아래의 재무 섹션
+
+  위의 4단계에서 보기 단추의 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 사용하여 구성할 수 있습니다.
+
 * 비즈니스 사례
-* 프로젝트의 청구 요금 및 청구 기록
-* 사용자 프로필의 시간당 비용 및 시간당 청구
+* 프로젝트의 청구 기록
+* 프로젝트의 청구 요금 및 비용 요금
 
   위의 4단계에서 보기 단추의 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 사용하여 구성할 수 있습니다.
 
-* 작업 역할의 시간당 비용 및 시간당 청구
+<!--  
 
-  위의 4단계에서 보기 단추의 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 사용하여 구성할 수 있습니다.
+* Cost per hour and billing per hour on user profiles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
+* Cost per hour and billing per hour on Job Roles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
+-->
 
 ### 액세스 권한 편집
 
 재무 데이터에 대한 편집 액세스 권한이 있는 사용자는 다음을 보고 편집할 수 있습니다.
 
 * 프로젝트 및 작업 객체 아래의 재무 섹션
+
+  위의 4단계에서 편집 단추의 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 사용하여 구성할 수 있습니다.
+
 * 비즈니스 사례
-* 프로젝트의 청구 요금, 청구 기록 및 비용 요금
-* 사용자 프로필의 시간당 비용 및 시간당 청구
+* 프로젝트의 청구 기록
+* 프로젝트의 청구 요금 및 비용 요금
 
   위의 4단계에서 편집 단추의 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 사용하여 구성할 수 있습니다.
 
-* 작업 역할의 시간당 비용 및 시간당 청구
+<!--  
 
-  위의 4단계에서 편집 단추의 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 사용하여 구성할 수 있습니다.
+* Cost per hour and billing per hour on user profiles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
+* Cost per hour and billing per hour on Job Roles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
+-->
+
+
