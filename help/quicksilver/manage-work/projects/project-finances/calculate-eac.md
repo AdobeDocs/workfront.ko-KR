@@ -7,10 +7,10 @@ description: 성과 지표인 EAC(완료 시 추정 비용)는 프로젝트 또�
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 1%
+source-wordcount: '826'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -48,7 +48,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>개체 권한</td> 
-   <td>재무 보기 권한이 있는 프로젝트에 대한 보기 이상의 권한</td> 
+   <td>일반 재무 보기 권한이 있는 프로젝트에 대한 보기 이상의 권한</td> 
   </tr> 
  </tbody> 
 </table>

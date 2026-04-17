@@ -7,9 +7,9 @@ description: 일정 성과 지수(SPI)는 계획된 일정과 실제 일정 간�
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '397'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td>임의</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -46,7 +46,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>개체 권한</td> 
-   <td>재무 보기 권한이 있는 프로젝트에 대한 보기 이상의 권한</td> 
+   <td>일반 재무 보기 권한이 있는 프로젝트에 대한 보기 이상의 권한</td> 
   </tr> 
  </tbody> 
 </table>
