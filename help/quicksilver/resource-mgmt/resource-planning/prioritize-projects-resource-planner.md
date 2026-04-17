@@ -6,10 +6,10 @@ description: 프로젝트는 가장 중요한 프로젝트가 맨 위에 있는 
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 1%
+source-wordcount: '1302'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +27,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td>
+   <td><p>Any</p></td>
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -36,11 +36,12 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>액세스 수준 구성</td> 
-   <td> <p>리소스 플래너에서 우선순위 및 예산 시간 편집에 대한 액세스 권한이 포함된 리소스 관리에 대한 액세스 편집</p> <p>재무 데이터, 프로젝트 및 사용자에 대한 액세스 편집</p></td> 
+   <td> <p>리소스 플래너에서 우선순위 및 예산 시간 편집에 대한 액세스 권한이 포함된 리소스 관리에 대한 액세스 편집</p> <p>비용 비율 편집 및 일반 재무 편집에 대한 액세스 권한이 포함된 재무 데이터에 대한 액세스 편집</p>
+    <p>프로젝트 및 사용자에 대한 액세스 편집</p></td> 
   </tr> 
   <tr> 
    <td>개체 권한</td> 
-   <td> <p>재무 관리 기능으로 예산을 책정하려는 프로젝트에 대한 권한을 관리합니다.</p></td>
+   <td> <p>원가율 편집 기능 및 일반 재무 편집 기능을 사용하여 예산 책정하려는 프로젝트에 대한 권한을 관리합니다.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +108,7 @@ ht-degree: 1%
 >
 >Portfolio Optimizer에서 프로젝트의 우선 순위를 지정하려면 회사에 Prime 이상 Workfront 패키지가 있어야 합니다.
 >
->Workfront 패키지에 대한 자세한 내용은 [Adobe Workfront 패키지 및 가격](https://business.adobe.com/kr/products/workfront/pricing.html)을 참조하세요.
+>Workfront 패키지에 대한 자세한 내용은 [Adobe Workfront 패키지 및 가격](https://business.adobe.com/products/workfront/pricing.html)을 참조하세요.
 >
 >Portfolio Optimizer에서 프로젝트 우선 순위를 지정하는 방법에 대한 자세한 내용은 [Portfolio Optimizer에서 프로젝트 우선 순위 지정](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)을 참조하십시오.
 

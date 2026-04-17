@@ -8,9 +8,9 @@ feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '7099'
+source-wordcount: '7110'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
      <li> <p>프로젝트</p> </li> 
      <li> <p>포트폴리오</p> </li> 
      <li> <p>프로그램</p> </li> 
-     <li> <p>재무 데이터(원가별로 정보를 조회하려는 경우)</p> </li> 
+     <li> <p>원가별로 정보를 조회하려면 원가율 조회 및 일반 재무 조회에 대한 액세스를 포함하는 재무 데이터</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -457,7 +457,7 @@ Note from the table from above "Function" header in the middle of the table; rig
 
      {{step1-to-utilization-report}}
 
-      1. 사용률 보고서에 필터를 적용한 다음 **실행**&#x200B;을 클릭합니다.
+      1. 사용률 보고서에 필터를 적용한 다음 **실행**을 클릭합니다.
 활용률 보고서를 실행하기 전에 필터에서 하나 이상의 프로젝트를 지정해야 합니다. 사용률 보고서를 필터링하는 방법에 대한 자세한 내용은 이 문서에서 [사용률 정보 필터링](#filter-utilization-information)을 참조하십시오.\
          개별 역할 및 프로젝트(역할은 연관된 프로젝트 내에서 그룹화됨)에 대한 활용률 정보가 표시됩니다.
 
@@ -554,8 +554,8 @@ Note from the table from above "Function" header in the middle of the table; rig
 
 1. 새 필터를 만들려면 **필터 저장**&#x200B;을 클릭합니다.\
    또는\
-   기존 필터를 수정하려면 **필터 저장** 단추 옆에 있는 화살표를 클릭한 다음 **새 필터 저장**&#x200B;을 클릭합니다.
-**필터 이름** 필드에 필터 이름을 입력하고 **저장**&#x200B;을 클릭합니다.
+   기존 필터를 수정하려면 **필터 저장** 단추 옆에 있는 화살표를 클릭한 다음 **새 필터 저장**을 클릭합니다.
+**필터 이름** 필드에 필터 이름을 입력하고 **저장**을 클릭합니다.
 사용률 영역은 필터에 포함한 정보로 필터링됩니다.
 
 ### 저장된 필터 적용 {#apply-a-saved-filter}
