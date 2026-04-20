@@ -99,7 +99,7 @@ ht-degree: 7%
      >* Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 시작](/help/quicksilver/planning/general/planning-overview.md)을 참조하십시오.
 
    * **대시보드 추가**&#x200B;를 클릭합니다
-      * <!--**Quick link name**-->**사용자 지정 이름** 필드에 수사적 이름을 입력하십시오.
+      * &#x200B;<!--**Quick link name**-->**사용자 지정 이름** 필드에 수사적 이름을 입력하십시오.
       * **대시보드 추가** 필드 <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->에서 대시보드를 선택하십시오.
       * **추가를 클릭합니다**.
 
