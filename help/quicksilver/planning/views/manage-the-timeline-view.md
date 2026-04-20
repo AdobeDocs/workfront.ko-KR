@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '4066'
+source-wordcount: '4067'
 ht-degree: 2%
 
 ---
@@ -251,7 +251,7 @@ Old:
 
    >[!TIP]
    >
-   >분류에 표시된 Workfront 및 AEM Assets 개체 유형에 대한 타임라인에서는 레코드 크기를 조정하고 드래그 앤 드롭할 수 없습니다.
+   >분류에 표시된 Workfront 및 Adobe Experience Manager 개체 유형에 대한 타임라인에서는 레코드 크기를 조정하고 드래그 앤 드롭할 수 없습니다.
 
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [필터](#add-filters)

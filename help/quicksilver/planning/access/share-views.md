@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2005'
 ht-degree: 1%
 
 ---
@@ -18,12 +18,15 @@ ht-degree: 1%
 
 # 보기 공유
 
-<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
+<!--
+there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes
+-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -217,7 +220,7 @@ Old:
    >
    >* 팀, 그룹, 회사 및 작업 역할 외에도 Adobe Admin Console에 추가된 사용자와만 공유할 수 있습니다. Workfront 전용 사용자는 추가할 수 없습니다. 자세한 내용은 [Adobe Admin Console에서 사용자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
    >
-   >* 사용자와 보기를 공유할 때 기본 작업 역할 <span class="preview">과(와) 이메일</span>도 필드에 표시됩니다. 사용자 이메일을 보려면 액세스 수준의 사용자 개체에 대해 연락처 정보 보기 설정을 활성화해야 합니다.
+   >* 사용자와 보기를 공유할 때 기본 작업 역할과 이메일도 필드에 표시됩니다. 사용자 이메일을 보려면 액세스 수준의 사용자 개체에 대해 연락처 정보 보기 설정을 활성화해야 합니다.
 
    * **작업 영역의 모든 사용자가 볼 수 있습니다**: 작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자가 보기에 액세스할 수 있습니다.
 
@@ -225,7 +228,7 @@ Old:
 
    ![그룹과 보기 공유](assets/sharing-a-view-ui-with-groups.png)
 
-1. <span class="preview">(선택 사항) 그룹, 팀, 역할 또는 회사와 공유할 때 엔터티 이름 위로 마우스를 가져간 후 오른쪽 방향 화살표를 클릭하여 권한을 받는 사용자 목록을 확장합니다. </span>
+1. (선택 사항) 그룹, 팀, 역할 또는 회사와 공유할 때 엔티티 이름 위로 마우스를 이동하고 오른쪽 화살표를 클릭하여 권한을 받는 사용자 목록을 확장합니다.
 
    ![팀과 보기 공유](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
@@ -239,15 +242,20 @@ Old:
 
 1. **저장**&#x200B;을 클릭합니다.
 
-   보기가 현재 다른 사용자와 공유되고 있음을 나타내기 위해 사람 아이콘 ![다른 사용자와 공유되는 보기 아이콘](assets/view-shared-with-others-people-icon.png)(으)로 업데이트됩니다.
-
    보기를 공유한 사용자는 인앱 및 이메일 알림을 모두 수신합니다.
 
-   >[!TIP]
-   >
-   >사람 또는 전역 아이콘이 없는 보기는 사용자가 만든 보기이며 다른 사용자와 공유되지 않습니다. 공유되지 않은 보기는 사용자에게만 표시됩니다.
-
 1. 복사한 링크를 다른 사용자와 공유합니다. 링크를 받은 사용자는 활성 사용자여야 하며 레코드 유형 페이지에 액세스하여 선택한 보기에 표시할 수 있도록 Workfront에 로그인해야 합니다.
+
+1. (선택 사항) 보기 이름 위로 마우스를 가져가면 보기 소유자의 이름과 보기가 비공개 또는 공개적으로 공유되는지 여부를 알 수 있습니다.
+
+   다음 레이블이 있습니다.
+
+   * **공개**: 보기가 공개적으로 공유됩니다. 자세한 내용은 이 문서의 [공개적으로 보기에 대한 권한 공유](#share-permissions-to-a-view-publicly) 섹션을 참조하십시오.
+   * **사용자가 소유함**: 사용자가 보기를 만듭니다.
+   * **회원님과 공유**: 다른 사용자가 보기를 만들고 회원님과 공유합니다. 소유자의 이름도 표시됩니다.
+   * **개인**: 보기를 만들었거나 다른 사용자가 만들었으나 공개적으로 공유되지 않습니다.
+
+   ![비공개 공유 보기를 레이블 위로 가리키기](assets/privately-shared-view-hover-over-label.png)
 
 ## 공개적으로 보기에 권한 공유
 
@@ -296,22 +304,16 @@ Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수
 
 1. **저장**&#x200B;을 클릭합니다.
 
-   보기가 공개적으로 공유되었음을 나타내기 위해 전역 아이콘 ![공개 공유 보기 아이콘 강조 표시](assets/public-shared-view-icon-highlighted.png)로 업데이트됩니다.
+1. (선택 사항) 보기 목록에서 보기 이름 위로 마우스를 가져가면 보기가 이제 공개적으로 공유되었음을 알 수 있습니다.
 
-   >[!TIP]
-   >
-   >사람 또는 전역 아이콘이 없는 보기는 사용자가 만든 보기이며 다른 사용자와 공유되지 않습니다. 공유되지 않은 보기는 사용자에게만 표시됩니다.
+   ![공개 공유 보기를 레이블 위로 가리킴](assets/publicly-shared-view-hover-over-label.png)
 
 1. (선택 사항) 복사한 링크를 이메일, 채팅 메시지, 문서 또는 Workfront 댓글에 붙여넣어 다른 사용자와 공유할 수 있습니다.
 
-   <div class="preview">
-
    다른 사용자가 공개 보기를 열면 헤더에 다음과 같은 보기 정보가 표시됩니다.
 
-   * 보기 이름 및 아이콘
+   * 보기 이름 및 아이콘. 아이콘은 뷰 유형(테이블, 타임라인 또는 달력)을 나타냅니다.
    * 보기에 표시되는 레코드 유형의 이름
-
-   </div>
 
 ## 보기에 링크 복사
 

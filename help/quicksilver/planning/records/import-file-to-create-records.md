@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -142,8 +142,8 @@ Old:
 * 빈 시트는 지원되지 않습니다.
 * 다음 유형의 필드는 지원되지 않으며 가져오기 시트의 필드에 매핑할 수 없습니다.
 
-   * Workfront 및 AEM Assets 개체 유형에 대한 연결 필드입니다. 연결 필드만 Planning 레코드 유형에 매핑할 수 있습니다.
-   * 연결된 Planning 레코드 또는 Workfront 및 AEM Assets 개체의 조회 필드
+   * Workfront 및 Adobe Experience Manager 개체 유형에 대한 연결 필드입니다. 연결 필드만 Planning 레코드 유형에 매핑할 수 있습니다.
+   * 연결된 Planning 레코드 또는 Workfront 및 Adobe Experience Manager 개체의 조회 필드
    * 공식 필드
    * 만든 날짜, 만든 사람
    * 마지막 수정 날짜, 마지막 수정자
