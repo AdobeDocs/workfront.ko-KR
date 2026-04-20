@@ -5,7 +5,7 @@ description: ' [!DNL Adobe Workfront] 의 화면 맨 위에 표시되는 위쪽 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 4ad4873f1646a2ff499d03dabd9749d43022f6b1
+source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -66,7 +66,7 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
 
 ## [!UICONTROL 검색] 메뉴
 
-[!DNL Workfront]의 오른쪽 상단 모서리에 있는 **[!UICONTROL 검색]** 아이콘 ![](assets/search-icon.png)을(를) 사용하면 기본 검색을 수행하거나 특정 개체로 검색을 제한하거나 [!UICONTROL 고급 검색]을 사용하여 특정 개체에 대한 키워드를 검색하고 필터를 사용하여 특정 필드로 검색을 제한할 수 있습니다.
+**[!UICONTROL 의 오른쪽 상단 모서리에 있는]**&#x200B;검색![](assets/search-icon.png) 아이콘 [!DNL Workfront]을(를) 사용하면 기본 검색을 수행하거나 특정 개체로 검색을 제한하거나 [!UICONTROL 고급 검색]을 사용하여 특정 개체에 대한 키워드를 검색하고 필터를 사용하여 특정 필드로 검색을 제한할 수 있습니다.
 
 검색에 대한 자세한 내용은 [검색 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md)을 참조하세요.
 
@@ -84,15 +84,11 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
 
 * **레이아웃 템플릿 구성**: [!DNL Workfront] 관리자가 레이아웃 템플릿에서 [!UICONTROL 주 메뉴]를 수정하는 방법에 대해 알아보려면 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴] 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하세요.
 
-* **라이선스 유형**: 다른 라이선스 유형에 대한 기본 구성에 대해 알아보려면 [Review-license 사용자에 대한 탐색 이해](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) 또는 [[!UICONTROL Work]-license 사용자에 대한 탐색 이해](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)를 참조하세요.
+* **라이선스 유형**: 다른 라이선스 유형에 대한 기본 구성에 대해 알아보려면 [Light 라이선스 사용자의 탐색 이해](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) 또는 [[!UICONTROL 작업] 라이선스 사용자의 탐색 이해](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)를 참조하십시오.
 
 각 아이콘을 사용하면 Workfront의 다른 영역으로 이동할 수 있습니다.
 
 각 영역에 대한 자세한 내용은 다음을 참조하십시오.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
--->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -138,7 +134,7 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL 도움말]</p> </td> 
-   <td> <p><b>[!UICONTROL 도움말]</b>을 클릭하면 도움말 문서에 액세스하고, 교육을 찾고, 고객 지원 티켓을 제출하는 등의 작업을 수행할 수 있는 [!DNL Adobe Experience League] (으)로 이동합니다.</p> <p>[!DNL Experience League]이나 다른 도움말 방법에 대한 자세한 내용은 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Adobe Workfront에서 도움말을 찾는 빠른 안내</a>를 참조하세요.</p> </td> 
+   <td> <p><b>[!UICONTROL 도움말]</b>을 클릭하면 도움말 문서에 액세스하고, 교육을 찾고, 고객 지원 티켓을 제출하는 등의 작업을 수행할 수 있는 [!DNL Adobe Experience League](으)로 이동합니다.</p> <p>[!DNL Experience League]이나 다른 도움말 방법에 대한 자세한 내용은 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Adobe Workfront에서 도움말을 찾는 빠른 안내</a>를 참조하세요.</p> </td> 
   </tr>
 
 <tr> 

@@ -8,9 +8,9 @@ author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '964'
 ht-degree: 1%
 
 ---
@@ -94,13 +94,13 @@ Workfront Proof에서 지원되는 언어에 대한 자세한 내용은 [Workfro
 * Workfront Fusion에서는 사용자가 입력한 필드에 영어가 아닌 텍스트 문자를 사용할 수 없습니다.
 
 Workfront Fusion에 액세스하려면 귀사에서 Workfront Fusion 라이센스를 구매해야 합니다.\
-Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ## 언어 변경
 
 다음 설정을 수정하여 Workfront을 보는 언어 및 발신 이메일의 언어를 변경할 수 있습니다.
 
-* 브라우저의 언어(Adobe Admin Console이 아닌 사용자의 경우)
+<!--* DELETE THIS SECTION MARCH 2026 The language on your browser (for users not on the Adobe Admin Console)-->
 * AEM 프로필의 기본 및 보조 언어(Adobe Admin Console 사용자용)
 * Workfront 계정의 고객 정보 및 사용자 이메일 로케일 설정.
 
@@ -117,14 +117,18 @@ Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](h
 * [Adobe Experience Cloud 언어 변경](#change-the-adobe-experience-cloud-language)
 * [Workfront 및 사용자 이메일 로케일 변경](#change-the-workfront-and-user-locales)
 
-### 브라우저 언어 변경 {#change-the-browser-language}
+<!--DELETE THIS SECTION MARCH 2026-->
 
-조직이 Adobe Admin Console으로 마이그레이션되지 않은 경우 브라우저 언어를 변경하면 Workfront 인터페이스가 해당 언어로 표시됩니다.\
-Workfront에서 지원하는 언어에 대한 자세한 내용은 [Adobe Workfront에서 지원되는 언어](#supported-languages)를 참조하십시오.
+<!--
 
-브라우저 언어는 개별 사용자 단위로 변경해야 합니다.
+### Change the browser language {#change-the-browser-language}
 
-브라우저 언어를 변경하는 방법에 대한 특정 정보는 브라우저의 &quot;도움말&quot; 메뉴를 참조하십시오.
+If your organization has not been migrated to the Adobe Admin Console, when you change the browser language, your Workfront interface displays in that language.   
+For more information about what languages are supported by Workfront, see [Supported languages in Adobe Workfront](#supported-languages).
+
+The browser language must be changed on an individual user basis.
+
+See the "Help" menu for your browser for specific information about how to change the language of your browser.-->
 
 ### Adobe Experience Cloud 언어 변경
 
@@ -159,20 +163,23 @@ Workfront에서 지원하는 언어에 대한 자세한 내용은 [Adobe Workfro
 
 ### 사용자 이메일 로케일 변경 {#change-the-user-locale}
 
-사용자 이메일 로케일을 변경할 때는 보내는 메시지에 사용되는 언어, 날짜 및 숫자 형식을 수정합니다. 이러한 설정은 설정의 고객 정보 영역에서 선택한 시스템 설정보다 우선 적용됩니다.
+<!--
+
+
+When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.-->
 
 >[!NOTE]
 >
->조직이 Adobe 통합 환경을 사용하는 경우 언어 환경 설정은 Adobe 프로필에 저장되고 이메일 로케일은 사용되지 않습니다. 이 문서에서 [Adobe Experience Cloud 언어 변경](#change-the-adobe-experience-cloud-language)을 참조하십시오.
+>언어 환경 설정은 Adobe 프로필에 저장되며 이메일 로케일은 사용되지 않습니다. 이 문서에서 [Adobe Experience Cloud 언어 변경](#change-the-adobe-experience-cloud-language)을 참조하십시오.
 
-사용자 전자 메일 로케일을 변경하려면:
+<!--To change your User Email Locale:
 
 {{step1-click-main-menu}}
 
-1. 사용자 프로필 사진을 클릭합니다.
+1. Click your user profile picture.
 
-1. 기타 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+1. Click the More menu ![](assets/more-icon.png), then click **Edit**.
 
-1. **기본 설정** 섹션에서 **전자 메일 로케일** 드롭다운 목록을 클릭하여 Workfront 전자 메일을 표시할 언어를 선택합니다.
+1. In the **Preferences** section, click the **Email Locale** drop-down list to select the language that you want Workfront emails to display in.
 
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
+1. Click **Save Changes**.-->

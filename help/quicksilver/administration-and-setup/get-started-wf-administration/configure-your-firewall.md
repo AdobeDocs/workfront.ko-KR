@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >이 페이지에 설명된 절차는 Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
 >
->조직이 Adobe Admin Console에 온보딩된 경우 Adobe을 구성하려면 [허용 목록에 추가하다 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/kr/enterprise/kb/network-endpoints.html)을 참조하십시오.
+>조직이 Adobe Admin Console에 온보딩된 경우 Adobe을 구성하려면 [허용 목록에 추가하다 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)을 참조하십시오.
 >
 >조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
@@ -32,12 +32,6 @@ ht-degree: 0%
 >조직이 허용 목록에 추가하다를 구성하는 방식은 각 조직마다 고유합니다. IT 팀과 협력하여 조직의 절차를 식별하고 이러한 추가 사항을 구현합니다.
 
 방화벽 또는 메일 서버가 특정 공급업체에 대해서만 액세스를 허용하도록 구성된 경우 특정 IP 주소를 해당 공급업체에 추가해야 합니다. 이렇게 하면 사용자 환경과 Adobe Workfront 서버 간에 통신이 열리고 다음 프로세스가 허용됩니다.
-
-* Workfront 애플리케이션에서 메시지 보내기
-
-  >[!NOTE]
-  >
-  >조직의 Workfront 인스턴스가 Adobe IMS를 사용하여 활성화된 경우 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
 
 * 사용자 정의 문서 통합 구성 시 문서 웹후크 사용
 * Workfront 이벤트 구독 사용
@@ -71,8 +65,8 @@ ht-degree: 0%
 ## 허용 목록에 추가하다에 추가할 IP 주소
 
 * [클러스터 1, 2, 3, 5, 7, 8 및 9를 허용하는 IP 주소](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* 클러스터 4[에 대해 허용할 &#x200B;](#ip-addresses-to-allow-for-cluster-4)IP 주소
-* 클러스터 6[을(를) 허용할 &#x200B;](#ip-addresses-to-allow-for-cluster-6)IP 주소
+* 클러스터 4[에 대해 허용할 ](#ip-addresses-to-allow-for-cluster-4)IP 주소
+* 클러스터 6[을(를) 허용할 ](#ip-addresses-to-allow-for-cluster-6)IP 주소
 * [클러스터 10을 허용할 IP 주소](#ip-addresses-to-allow-for-cluster-10)
 * 테스트 드라이브를 허용할 [IP 주소](#IP%20Addre2)
 * [이벤트 구독을 구현할 때 허용할 IP 주소](#ip-addresses-to-allow-when-implementing-event-subscriptions)
@@ -434,7 +428,7 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
 * *.static.workfront.com
 
 
-  다음 도메인을 모두 제외하는 정적 도메인입니다. 원하는 경우 개별 도메인을 추가할 수 있습니다.
+  다음 도메인을 모두 포함하는 정적 도메인입니다. 원하는 경우 개별 도메인을 추가할 수 있습니다.
 
    * mfe.static.workfront.com
    * mfe-c.static.workfront.com
@@ -442,7 +436,7 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-조직이 Adobe 통합 경험을 사용하는 경우 다음 도메인을 사용합니다. 이러한 도메인은 `*.adobe.com`에 포함되어 있지만 필요한 경우 추가할 수 있습니다.
+조직은 Adobe 통합 경험을 기반으로 하므로 다음 도메인을 사용합니다. 이러한 도메인은 `*.adobe.com`에 포함되어 있지만 필요한 경우 추가할 수 있습니다.
 
 * &lt;사용자 도메인>.my.workfront.adobe.com
 * &lt;사용자 도메인>.preview.workfront.adobe.com
@@ -451,6 +445,8 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
 
 
 Workfront Fusion의 경우 다음 도메인을 추가합니다.
+
+<!--Remove me October 2026-->
 
 * Adobe 통합 경험을 기반으로 하지 않는 조직의 경우:
    * app.workfrontfusion.com (미국 AWS)

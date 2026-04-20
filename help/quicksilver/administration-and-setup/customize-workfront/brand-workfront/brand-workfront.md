@@ -4,16 +4,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: Workfront 관리자는 Workfront 인스턴스의 브랜딩을 사용자 정의하고 사용자 지정 도움말 URL을 만들 수 있습니다.
+description: Workfront 관리자는 사용자 정의 도움말 URL을 만들 수 있습니다.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a733194-f99b-4066-949f-755046b8d515
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 11%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 

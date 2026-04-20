@@ -10,7 +10,7 @@ role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 4%
@@ -25,18 +25,6 @@ ht-degree: 4%
 >abstract="사용자를 비활성화하면 Workfront와 Frame.io에서 해당 사용자가 제거됩니다. 비활성화된 사용자는 나중에 다시 활성화할 수 있습니다."
 
 <!--Audited 5/2025-->
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-
--->
 
 사용자가 조직을 떠나면 다른 사용자를 업데이트에 추가하거나 작업을 할당할 때 혼동을 주지 않도록 시스템에서 비활성화하는 것이 좋습니다. 사용자를 비활성화하면 다른 사용자가 시스템에서 사람을 검색할 때 더 이상 해당 이름이 표시되지 않습니다.
 

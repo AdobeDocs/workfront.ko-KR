@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '577'
 ht-degree: 4%
 
 ---
@@ -168,4 +168,4 @@ ht-degree: 4%
 
 1. 플러그인으로 돌아가 Workfront 도메인을 입력합니다. 도메인은 `company-name.my.workfront.com`이(가) 아닌 `experience.adobe.com`이어야 합니다.
 
-   Adobe 통합 환경을 사용하는 경우 [Workfront 도메인을 찾으려면](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) [설정], [고객 정보]로 이동하십시오.
+   [Workfront 도메인을 찾으려면](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) 설치, 고객 정보로 이동하십시오.

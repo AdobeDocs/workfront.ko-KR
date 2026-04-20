@@ -7,7 +7,7 @@ description: Adobe [!DNL Workfront] 은(는) 조직의 보다 안전하고 통�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 3%
@@ -35,3 +35,5 @@ Adobe [!DNL Workfront]은(는) 몇 개의 [!DNL Mobile Device Management]&#x200B
 * Android
 
 Workfront 인스턴스는 Adobe Identity Management System(IMS)에 있어야 합니다.
+
+<!--remove this note October 2026-->

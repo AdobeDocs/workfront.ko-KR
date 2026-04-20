@@ -10,9 +10,9 @@ author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '249'
 ht-degree: 14%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->Adobe 통합 환경을 사용하는 경우 응용 프로그램 URL `.workfront.adobe.com`을(를) 사용해야 합니다.
+>응용 프로그램 URL `.workfront.adobe.com`을(를) 사용해야 합니다.
 
 
 
@@ -92,7 +92,7 @@ ht-degree: 14%
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 
@@ -113,4 +113,4 @@ https://{mycompanyname}.jumpseat.io
 
 >[!TIP]
 >
->[!DNL JumpSeat] 통합 구성에 대한 자세한 내용은 [!DNL JumpSeat]JumpSeat+Workfront[에 대한 &#x200B;](https://jumpseat.io/landing-page/jumpseat-workfront/) 설명서를 참조하십시오.
+>[!DNL JumpSeat] 통합 구성에 대한 자세한 내용은 [!DNL JumpSeat]JumpSeat+Workfront[에 대한 ](https://jumpseat.io/landing-page/jumpseat-workfront/) 설명서를 참조하십시오.

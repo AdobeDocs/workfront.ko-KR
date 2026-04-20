@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1473'
 ht-degree: 3%
 
 ---
@@ -61,8 +61,11 @@ AI 양식 채우기는 입력한 프롬프트에 따라 요청 필드를 자동 
 
 AI에서 제공하는 양식 채우기를 사용하여 프롬프트 또는 문서를 사용하여 요청을 채우려면 다음 중 **모두**&#x200B;이(가) 적용되어야 합니다.
 
-* 조직이 Adobe IMS(Identity Management System)로 마이그레이션되었어야 합니다.
-* Adobe 통합 경험을 활성화해야 합니다.
+<!--
+Remove me October 2026
+* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled
+-->
 * 조직에 Select, Prime 또는 Ultimate Workfront 플랜이 있어야 합니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
 

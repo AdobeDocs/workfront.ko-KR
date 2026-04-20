@@ -11,9 +11,9 @@ role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1242'
 ht-degree: 1%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 1%
      </ul>
    </ul>
      <p>자세한 내용은 <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">증명 및 GenStudio for Performance Marketing 통합 시작</a>을 참조하십시오.</p> 
-     </td>  <td><ul><li>Workfront과 GenStudio for Performance Marketing 모두에 대한 라이센스가 있어야 합니다.</li><li>Workfront 인스턴스는 Adobe 통합 환경에 있어야 합니다.</li><li>Workfront 및 GenStudio for Performance Marketing을 동일한 IMS 조직에 배포해야 합니다.</li></ul></td> 
+     </td>  <td><ul><li>Workfront과 GenStudio for Performance Marketing 모두에 대한 라이센스가 있어야 합니다.</li><li>Workfront 및 GenStudio for Performance Marketing을 동일한 IMS 조직에 배포해야 합니다.</li></ul></td> 
    <td>모든 요구 사항이 충족되면 Workfront 설정 영역에서 통합을 전환할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">증명 및 GenStudio for Performance Marketing 통합 시작</a>을 참조하십시오. </td> 
   </tr>
   <tr> 
@@ -129,8 +129,8 @@ ht-degree: 1%
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
-     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/ko/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Adobe Workfront]개 응용 프로그램용 [!DNL Creative Cloud] 플러그 인 설치</a>를 참조하십시오.</p> 
+     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치합니다.</p></li></ul>
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Adobe Workfront]개 응용 프로그램용 [!DNL Creative Cloud] 플러그 인 설치</a>를 참조하십시오.</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -250,7 +250,7 @@ ht-degree: 1%
 
   [!DNL Adobe Workfront Fusion]은(는) 앱과 서비스 내에서 작업을 연결하여 데이터를 자동으로 전송하고 변환하는 시나리오를 만듭니다. 많은 앱에 대한 전용 커넥터를 보유하고 있지만 공개 API를 사용하여 모든 애플리케이션에 연결할 수 있습니다.
 
-  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+  자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan]&#x200B;([!DNL Workfront Fusion] 필요)

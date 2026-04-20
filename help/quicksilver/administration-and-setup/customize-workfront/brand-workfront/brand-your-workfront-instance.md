@@ -3,15 +3,15 @@ title: Adobe Workfront 인스턴스 브랜딩
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: Workfront 관리자는 로그인 화면, 상단 탐색 영역 및 메인 메뉴에 로고가 있는 Workfront을 브랜딩할 수 있습니다. 로그인 화면의 배경 이미지와 색상을 변경할 수도 있습니다.
+description: Adobe Workfront에서 더 이상 브랜딩을 사용할 수 없습니다. 이 기능은 Workfront에서 Adobe Experience Cloud으로 온보딩하는 과정의 일부로 더 이상 사용되지 않습니다.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 2%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
@@ -23,118 +23,125 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->이 페이지에 설명된 프로시저는 [!DNL Adobe Experience Cloud]에 아직 온보딩되지 않은 조직에만 적용됩니다.
+>Adobe Workfront에서 더 이상 브랜딩을 사용할 수 없습니다. 이 기능은 Workfront에서 Adobe Experience Cloud으로 온보딩하는 과정의 일부로 더 이상 사용되지 않습니다.
+
+<!-- 
+
+
+>[!IMPORTANT]
 >
-> 조직이 [!DNL Adobe Experience Cloud]에 온보딩된 경우 브랜딩을 사용할 수 없습니다.
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
 
-Workfront 관리자는 다음 위치에 로고가 있는 Workfront을 브랜딩할 수 있습니다.
+As a Workfront administrator, you can brand Workfront with logos in the following places:
 
-* 로그인 화면
+* Login screen
 
-  로그인 화면의 ![브랜드](assets/brand-login-screen-nwe-adobe.jpg)
+  ![Brand in login screen](assets/brand-login-screen-nwe-adobe.jpg)
 
-* 상위 탐색 영역
+* Top navigation area
 
-  ![위쪽 탐색의 브랜드](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![Brand in top navigation](assets/brand-top-nav-area-nwe-adobe.jpg)
 
-* 메인 메뉴
+* Main Menu
 
-  주 메뉴의 ![브랜드](assets/brand-main-menu-adobe.jpg)
+  ![Brand in main menu](assets/brand-main-menu-adobe.jpg)
 
-로그인 화면의 배경 이미지와 색상을 변경할 수도 있습니다.
+You can also change the background image and color of the login screen:
 
-로그인 화면의 ![배너](assets/wf_banner_on_login_screen-adobe.png)
+![Banner on login screen](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >
->* 조직의 Workfront 인스턴스가 사용자 정의 SSO 포털을 사용하는 경우 로그인 배경 이미지 및 색상을 변경할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
+>* Changing the login background image and color is not available if your organization's Workfront instance uses a custom SSO portal. See your network or IT administrator if you need more information.
 >
-><!-- or is enabled with Adobe IMS -->
 >
->* Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 특정 그룹 및 사용자에 대한 Workfront을 브랜딩할 수도 있습니다. 레이아웃 템플릿의 브랜딩은 이 문서에 설명된 시스템 수준 브랜딩을 무시합니다. 레이아웃 템플릿의 브랜딩에 대한 지침은 [레이아웃 템플릿을 사용하여 Adobe Workfront 브랜딩](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)을 참조하십시오.
+>* A Workfront administrator or group administrator can also brand Workfront for certain groups and users using a layout template. Branding in a layout template overrides the system-level branding explained in this article. For instructions on branding in a layout template, see [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
-## 액세스 요구 사항
+## Access requirements
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront 라이선스</td> 
-   <td><p>표준</p>
-       <p>플랜</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td>액세스 수준 구성</td> 
-   <td>시스템 관리자</td> 
+   <td>Access level configurations</td> 
+   <td>System Administrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## 로그인 화면에 브랜딩
+## Brand the login screen
 
 {{step-1-to-setup}}
 
-1. **시스템** > **브랜딩**&#x200B;을 클릭합니다.
+1. Click **System** > **Branding**.
 
-1. 다음 변경 중 하나를 수행하여 브랜딩 이미지로 Workfront을 사용자 지정합니다.
+1. Make any of the following changes to customize Workfront with your branding images.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>홈 아이콘 <span style="font-weight: normal;">(위쪽 탐색 영역의 맨 왼쪽에 표시됨)</span>에 브랜딩합니다.</p> </td> 
-      <td> <p><strong>위쪽 탐색 영역</strong> 섹션의 <strong>홈 아이콘</strong>에서 상자의 아무 곳이나 클릭한 다음 로고 이미지를 찾아 선택합니다. 또는 이미지를 상자로 드래그합니다.</p> <p>이미지를 자르려면 스크롤 컨트롤을 사용하고 이미지를 지정된 공간 내에서 원하는 위치로 드래그합니다.</p> <p>120 x 120 이미지를 사용하는 것이 좋습니다. GIF, JPG, PNG, SVG 형식 중 하나일 수 있습니다.</p> <p>이 아이콘은 사용자가 PDF 파일로 내보내는 보고서, 목록, 대시보드 및 게재된 보고서에도 표시됩니다.</p> </td> 
+      <td role="rowheader"> <p>Brand the Home icon <span style="font-weight: normal;">(displays at the far left of the top navigation area)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Home icon</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 120 x 120 image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> <p>This icon also appears in reports, lists, dashboards, and delivered reports that users export as PDF files.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>주 메뉴 <img src="assets/main-menu-icon.png"> 로고 <span style="font-weight: normal;"> 브랜딩(주 메뉴의 오른쪽 위 모서리에 표시)</span></p> </td> 
-      <td> <p><strong>위쪽 탐색 영역</strong> 섹션의 <strong>기본 메뉴 로고</strong>에서 상자의 아무 곳이나 클릭한 다음 로고 이미지를 찾아 선택합니다. 또는 이미지를 상자로 드래그합니다.</p> <p>이미지를 자르려면 스크롤 컨트롤을 사용하고 이미지를 지정된 공간 내에서 원하는 위치로 드래그합니다.</p> <p>300 x 120픽셀 이미지를 사용하는 것이 좋습니다. GIF, JPG, PNG, SVG 형식 중 하나일 수 있습니다.</p> </td> 
+      <td role="rowheader"> <p>Brand the Main Menu <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;">(displays in the upper-right corner of the Main Menu)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Main Menu logo</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">로그인 화면 로고 <span style="font-weight: normal;">을(를) 브랜딩합니다(사용자가 로그인 자격 증명을 입력하는 상자의 왼쪽 상단에 표시됨)</span></td> 
-      <td> <p><strong>로그인 화면</strong>에서 상자의 아무 곳이나 클릭한 다음 로고 이미지를 찾아 선택합니다. 이미지를 자르려면 스크롤 컨트롤을 사용하고 이미지를 지정된 공간 내에서 원하는 위치로 드래그합니다.</p> <p>300 x 120픽셀 이미지를 사용하는 것이 좋습니다. GIF, JPG, PNG, SVG 형식 중 하나일 수 있습니다.</p> </td> 
+      <td role="rowheader">Brand the login screen logo <span style="font-weight: normal;">(displays in the top-left of the box where users type login credentials)</span></td> 
+      <td> <p>Under <strong>Login Screen</strong>, click anywhere in the box, then find and select your logo image. To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">로그인 화면 배경색 <span style="font-weight: normal;">(사용자가 로그인 자격 증명을 입력하는 상자 뒤에 표시됨)</span>을(를) 브랜딩합니다.</td> 
-      <td> <p><strong>로그인 화면</strong>에서 <strong>배경색</strong>을 설정합니다. </p> <p>RGB 또는 HEX 색상 코드를 사용할 수 있습니다.</p> <p>배경색은 로그인 화면 배경이 로그인 화면 배경 이미지(이 표의 다음 행 참조)보다 크거나 이미지에 투명도가 있는 경우에만 표시됩니다.</p> </td> 
+      <td role="rowheader">Brand the login screen background color <span style="font-weight: normal;">(displays behind the box where users type login credentials)</span></td> 
+      <td> <p>Under <strong>Login Screen</strong>, set a <strong>Background Color</strong>. </p> <p>You can use RGB or HEX color codes.</p> <p>The background color is visible only if the login screen background is larger than the login screen background image (see the next row in this table) or if there is any transparency in the image.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">로그인 화면 배경 이미지 <span style="font-weight: normal;">(사용자가 로그인 자격 증명을 입력하는 상자 뒤에 표시됨)</span>에 브랜딩합니다.</td> 
+      <td role="rowheader">Brand the login screen background image <span style="font-weight: normal;">(displays behind the box where users type their login credentials)</span></td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1"> <p> <strong>로그인 화면</strong> 영역의 <strong>배경 이미지</strong> 아래에서 상자를 클릭한 다음 JPG 또는 PNG 이미지 또는 이미지(최대 20개)를 찾아 선택합니다. </p> <p>여러 배경 이미지가 무작위 순서로 표시되므로 사용자가 로그인 페이지를 새로 고칠 때마다 변경됩니다. 이미지는 2MB 이하인 것이 좋습니다.</p> </li> 
-        <li value="2"> <p>업로드한 각 배경 이미지 위로 마우스를 가져간 후 설정(톱니바퀴) 아이콘을 클릭하고 다음 옵션 중 하나를 사용하여 로그인 화면 배경에 이미지가 표시될 위치와 방법을 지정합니다.</p> 
+        <li value="1"> <p> In the <strong>Login Screen</strong> area, under <strong>Background Image</strong>, click the box, then find and select your JPG or PNG image or images (up to 20 ). </p> <p>Multiple background images display in random order, changing each time users refresh their login page. We recommend images no larger than 2 MB.</p> </li> 
+        <li value="2"> <p>Hover over each background image you have uploaded, click the Settings (gear) icon, and use any of the following options to specify where and how you want the image to appear in the login screen background:</p> 
          <ul> 
-          <li> <p><strong>화면 채우기</strong>: 이미지를 로그인 화면 배경에 맞추면 이미지가 커질 수 있습니다. 최상의 결과를 얻으려면 고해상도 이미지(최대 2MB)를 사용하십시오.</p> <p>이 옵션을 사용하면 사용자 지정할 수 없는 Workfront 배너가 이미지의 일부를 가립니다.</p> </li> 
-          <li> <p><strong>타일</strong>: 로그인 화면 배경 영역에 이미지를 원래 크기로 바둑판식으로 배열합니다. 패턴을 생성하는 데 유용합니다. 배경 영역의 왼쪽 위 모서리, 가운데 위 또는 오른쪽 위에서 타일링을 시작하려면 파란색 정렬 옵션을 선택합니다.</p> </li> 
-          <li> <p><strong>위치</strong>: 로그인 화면 배경 영역의 왼쪽 위, 가운데 위 또는 오른쪽 위의 파란색 정렬 옵션 중 하나를 사용하여 선택한 위치에 이미지를 원래 크기로 배치합니다.</p> <p>배경색은 로그인 화면의 나머지 배경 영역을 채웁니다. 배경색에 대한 자세한 내용은 이 표의 이전 행을 참조하십시오.</p> </li> 
+          <li> <p><strong>Fill Screen</strong>: Fits the image to the login screen background, which may enlarge the image. Use a high-resolution image (up to 2 MB) for the best results.</p> <p>When you use this option, the Workfront banner, which is not customizable, obscures part your image.</p> </li> 
+          <li> <p><strong>Tile</strong>: Tiles your image across the login screen background area, in its original size. This is useful for creating a pattern. Select a blue alignment option to start the tiling from the top-left corner, top-center, or top-right of the background area.</p> </li> 
+          <li> <p><strong>Position</strong>: Places your image in its original size in the position you choose using one of the blue alignment options: the top-left, top-center, or top-right of the login screen background area.</p> <p>The background color fills the rest of the login screen background area. For more about the background color, see the preceding row in this table.</p> </li> 
          </ul> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">기본 브랜딩으로 재설정</td> 
-      <td> <p>기본 브랜딩으로 재설정하면 업로드한 모든 사진과 이미지가 삭제됩니다.</p> <p>화면 오른쪽 아래에서 <strong>모든 브랜딩을 Workfront 기본값으로 재설정</strong>을 클릭한 다음 <strong>예</strong>를 클릭합니다.</p> </td> 
+      <td role="rowheader">Reset to the default branding</td> 
+      <td> <p>Resetting to the default branding deletes all photos and images that you have uploaded.</p> <p>Click <strong>Reset all branding to Workfront defaults</strong> in the lower-right corner of the screen, then click <strong>Yes</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!NOTE]
    >
-   >조직의 Workfront 인스턴스가 사용자 정의 SSO 포털을 사용하는 경우에는 사용할 수 없습니다.
+   >This is not available if your organization's Workfront instance uses a custom SSO portal.
    >
-   ><!--  or is enabled with Adobe IMS -->
    >
-   >자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
+   >See your network or IT administrator if you need more information.
 
-1. **저장**&#x200B;을 클릭합니다.
+1. Click **Save**.
+
+-->

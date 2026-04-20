@@ -6,10 +6,10 @@ description: 증명에서 콘텐츠를 보는 방법에 대해 알아봅니다.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 0%
+source-wordcount: '818'
+ht-degree: 2%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Workfront 인스턴스가 통합 환경에 있는 경우 증명 뷰어가 새 탭에서 열립니다.
+>증명 뷰어가 새 탭에서 열립니다.
 
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,11 +32,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">증명 역할 </td> 

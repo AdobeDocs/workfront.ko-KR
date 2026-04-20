@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '425'
 ht-degree: 4%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->조직이 Adobe 통합 환경에 속해 있는 경우 상단 탐색 영역의 오른쪽 상단에 있는 **Adobe** 계정 메뉴(프로필 사진)를 클릭한 다음 **Workfront 프로필**&#x200B;을 클릭합니다.
+>상단 탐색 영역에서 Workfront 계정 메뉴(프로필 사진)를 클릭한 다음 Workfront 프로필을 선택하여 Adobe 프로필에 액세스할 수 있습니다.
 >
 >![workfront 프로필](assets/aue-profile.png)
 

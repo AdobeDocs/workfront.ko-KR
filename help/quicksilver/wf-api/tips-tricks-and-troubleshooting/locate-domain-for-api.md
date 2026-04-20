@@ -7,18 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 1%
+source-wordcount: '163'
+ht-degree: 12%
 
 ---
 
 # Adobe Workfront API 호출에 대한 도메인 형식
 
-Workfront API에 대한 API를 호출하면 호출에서 조직의 도메인을 사용합니다. 이 도메인 URL의 형식은 조직이 Adobe 통합 셸에 온보딩되었는지 여부에 따라 다릅니다.
+Workfront API에 대한 API를 호출하면 호출에서 조직의 도메인을 사용합니다.
 
-조직이 Adobe 통합 셸에 있는지 확인하려면 Workfront 페이지를 볼 때 표시되는 URL을 검사합니다.
+API 호출을 위해 만드는 URL은 Workfront에 연결하는 데 사용하는 URL에 따라 다릅니다.
 
 | Workfront URL의 시작 문자: | API 호출용 URL: |
 |---|---|
@@ -26,7 +26,7 @@ Workfront API에 대한 API를 호출하면 호출에서 조직의 도메인을 
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Workfront API에 대한 API를 호출하면 호출에서 조직의 도메인을 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

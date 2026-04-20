@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '231'
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Workfront 관리자 및 인증된 Workfront 지원 담당자는 Workfront 
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Adobe Workfront 관리자 및 인증된 Workfront 지원 담당자는 Workfront 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -60,25 +60,30 @@ Adobe Workfront 관리자 및 인증된 Workfront 지원 담당자는 Workfront 
 
 Workfront 지원 센터에 문의하여 도메인 변경에 대한 도움을 받을 수도 있습니다.
 
-## SSO 고객인 경우 새 도메인 업데이트
+<!--
 
-회사에서 SSO를 활용하는 경우 Workfront 도메인을 변경한 후 다음 단계를 수행해야 합니다.
+## Update the new domain if you are an SSO customer
+
+If your company utilizes SSO, the following steps are required after you have your Workfront domain changed.
 
 >[!NOTE]
 >
->조직의 Workfront 인스턴스가 Adobe IMS를 사용하여 활성화된 경우 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 {{step-1-to-setup}}
 
-1. 왼쪽 사이드바에서 **시스템** > **고객 정보**&#x200B;를 클릭하고 고객 정보 페이지에서 도메인이 업데이트되었는지 확인하십시오.
+1. In the left sidebar, click **System** > **Customer Info** and make sure that your domain is updated on the Customer Info page.
 
-1. 왼쪽 사이드바에서 **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
+1. In the left sidebar, click **System** > **Single Sign-On (SSO)**.
 
-1. **SAML 2.0 메타데이터 다운로드**&#x200B;를 클릭합니다.
-1. 파일이 다운로드되면 열고 다음 사항을 확인합니다.
+1. Click **Download SAML 2.0 Metadata**.
+1. After the file is downloaded, open it and make sure of the following:
 
-   1. **entityID**&#x200B;이(가) 새 도메인을 가리키고 있습니다.
-   1. **`<md:AssertionConsumerService>`** 내의 모든 위치가 새 도메인을 가리킵니다.
+   1. **entityID** is pointing to the new domain.
+   1. All locations within **`<md:AssertionConsumerService>`** point to the new domain.
 
-1. 다운로드한 메타데이터 파일을 나중에 업데이트할 수 있도록 ID 공급자에게 제공합니다.
-1. 조직에서 사용하는 모든 Workfront 통합에 대해 도메인이 업데이트되었는지 확인합니다.
+1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
+1. Make sure the domain is updated for all Workfront integrations used by your organization.
+
+
+-->

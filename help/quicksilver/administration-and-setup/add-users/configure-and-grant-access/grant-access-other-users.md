@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 3%
@@ -102,12 +102,12 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
      <tr> 
       <td role="rowheader"><strong>선택 사항에서</strong> </td> 
       <td> <p>사용자가 사용자를 만들 수 있습니다.<br>이 옵션은 기본적으로 사용됩니다.</p> 
-     <p><b>참고</b>: 조직에서 Adobe Admin Console에 온보딩한 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.</p>
+     <p><b>참고</b>: 조직에서 Adobe Admin Console에 온보딩한 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.<!--Check this October 2026--></p>
         </td>  
      </tr> 
      <tr> 
       <td role="rowheader"><strong>삭제</strong> </td> 
-      <td> <p> 사용자가 직접 만든 사용자를 삭제할 수 있도록 허용합니다.<br>이 옵션은 기본적으로 사용됩니다.</p> <p><b>참고</b>: 조직에서 Adobe Admin Console에 온보딩한 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.</p> </td> 
+      <td> <p> 사용자가 직접 만든 사용자를 삭제할 수 있도록 허용합니다.<br>이 옵션은 기본적으로 사용됩니다.</p> <p><b>참고</b>: 조직에서 Adobe Admin Console에 온보딩한 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.<!--Check this October 2026--></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>청구 요금 편집</strong> </td> 

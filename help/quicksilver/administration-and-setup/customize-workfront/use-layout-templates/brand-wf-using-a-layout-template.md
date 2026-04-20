@@ -3,15 +3,15 @@ title: 레이아웃 템플릿을 사용한 Adobe Workfront 브랜드
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 특정 그룹, 팀, 작업 역할 및 사용자에 대해 상단 탐색 영역 및 메인 메뉴의 로고를 사용자 정의할 수 있습니다. 이는 자체 브랜딩이 있는 대규모 조직의 그룹에 특히 유용합니다.
+description: Adobe Workfront에서 더 이상 브랜딩을 사용할 수 없습니다. 이 기능은 Workfront에서 Adobe Experience Cloud으로 온보딩하는 과정의 일부로 더 이상 사용되지 않습니다.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 3%
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
@@ -21,75 +21,82 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->이 페이지에 설명된 프로시저는 [!DNL Adobe Experience Cloud]에 아직 온보딩되지 않은 조직에만 적용됩니다.
+>Adobe Workfront에서 더 이상 브랜딩을 사용할 수 없습니다. 이 기능은 Workfront에서 Adobe Experience Cloud으로 온보딩하는 과정의 일부로 더 이상 사용되지 않습니다.
+
+<!-- 
+
+
+>[!IMPORTANT]
 >
-> 조직이 [!DNL Adobe Experience Cloud]에 온보딩된 경우 브랜딩을 사용할 수 없습니다.
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
 
-레이아웃 템플릿을 사용하여 특정 그룹, 팀, 작업 역할 및 사용자에 대해 상단 탐색 영역 및 메인 메뉴의 로고를 사용자 정의할 수 있습니다. 이는 자체 브랜딩이 있는 대규모 조직의 그룹에 특히 유용합니다.
+You can use a layout template to customize the logos in the top navigation area and on the Main Menu for certain groups, teams, job roles, and users. This is especially useful for groups in a large organization that have their own branding.
 
-그룹의 레이아웃 템플릿에 대한 자세한 내용은 [그룹의 레이아웃 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)을 참조하십시오.
+For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 >[!NOTE]
 >
->[Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)에 설명된 대로 Workfront 관리자는 시스템 수준에서 전체 조직에 대해 동일한 브랜딩 사용자 지정을 수행할 수 있습니다. 그러나 레이아웃 템플릿의 브랜딩은 시스템 수준 브랜딩을 무시합니다.
+>A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding.
 
-<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
+## Access requirements
 
-## 액세스 요구 사항
-
-+++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront 라이선스</td> 
-   <td><p>표준</p>
-       <p>플랜</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
-   <td>액세스 수준 구성</td> 
-   <td> <p>시스템 수준에서 이러한 단계를 수행하려면 시스템 관리자 액세스 수준이 필요합니다.</p>
-        <p>그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 레이아웃 템플릿을 사용한 Adobe Workfront 브랜드
+## Brand Adobe Workfront using a layout template
 
-1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
-1. ![사용자에게 표시되는 항목 사용자 지정](assets/dropdown-arrow.png)에서 아래쪽 화살표 **아래쪽 화살표**&#x200B;를 클릭한 다음 **브랜딩**&#x200B;을 클릭합니다.
-1. 이 레이아웃 템플릿이 할당된 사용자를 위해 브랜딩 이미지로 Workfront을 사용자 정의하려면 다음 중 하나를 변경하십시오.
+1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Click the down arrow ![Down arrow](assets/dropdown-arrow.png) under **Customize what users see**, then click **Branding**.
+1. Make any of the following changes to customize Workfront with branding images for those who are assigned this layout template.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>홈 아이콘 <span style="font-weight: normal;">(위쪽 탐색 영역의 맨 왼쪽에 표시됨)</span>에 브랜딩합니다.</p> </td> 
-      <td> <p><strong>위쪽 탐색 영역</strong> 섹션의 <strong>홈 아이콘</strong>에서 상자의 아무 곳이나 클릭한 다음 로고 이미지를 찾아 선택합니다. 또는 이미지를 상자로 드래그합니다.</p> <p>이미지를 자르려면 스크롤 컨트롤을 사용하고 이미지를 지정된 공간 내에서 원하는 위치로 드래그합니다.</p> <p>120 x 120 이미지를 사용하는 것이 좋습니다. GIF, JPG, PNG, SVG 형식 중 하나일 수 있습니다.</p> <p>이 아이콘은 사용자가 PDF 파일로 내보내는 보고서, 목록, 대시보드 및 게재된 보고서에도 표시됩니다.</p> </td> 
+      <td role="rowheader"> <p>Brand the Home icon <span style="font-weight: normal;">(displays at the far left of the top navigation area)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Home icon</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 120 x 120 image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> <p>This icon also appears in reports, lists, dashboards, and delivered reports that users export as PDF files.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>주 메뉴 <img src="assets/main-menu-icon.png"> 로고 <span style="font-weight: normal;"> 브랜딩(주 메뉴의 오른쪽 위 모서리에 표시)</span></p> </td> 
-      <td> <p> <p> <p><strong>위쪽 탐색 영역</strong> 섹션의 <strong>기본 메뉴 로고</strong>에서 상자의 아무 곳이나 클릭한 다음 로고 이미지를 찾아 선택합니다. 또는 이미지를 상자로 드래그합니다.</p> <p>이미지를 자르려면 스크롤 컨트롤을 사용하고 이미지를 지정된 공간 내에서 원하는 위치로 드래그합니다.</p> <p>300 x 120픽셀 이미지를 사용하는 것이 좋습니다. GIF, JPG, PNG, SVG 형식 중 하나일 수 있습니다.</p> </p> </p> </td> 
+      <td role="rowheader"> <p>Brand the Main Menu <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;">(displays in the upper-right corner of the Main Menu)</span></p> </td> 
+      <td> <p> <p> <p>In the <strong>Top navigation area</strong> section, under <strong>Main Menu logo</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 레이아웃 템플릿을 계속 사용자 지정합니다. 언제든지 **적용**&#x200B;을 클릭하여 진행 상황을 저장할 수 있습니다.
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
-   또는
+   Or
 
-   사용자 지정을 마쳤으면 **저장 후 닫기**&#x200B;를 클릭합니다.
+   If you are finished customizing, click **Save and Close**.
 
-레이아웃 템플릿에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
+For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+-->

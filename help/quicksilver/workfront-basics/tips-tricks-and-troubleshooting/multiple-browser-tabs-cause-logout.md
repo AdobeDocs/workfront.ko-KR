@@ -6,18 +6,14 @@ description: 사용자가 여러 개의 브라우저 탭을 열어 놓은 경우
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 440640f5b916b76096c99eed8253236de477a02a
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 29%
+source-wordcount: '164'
+ht-degree: 32%
 
 ---
 
 # 여러 브라우저 탭으로 인해 Workfront이 로그아웃됨
-
->[!IMPORTANT]
->
->이 문제는 Adobe IMS에 온보딩된 조직에만 적용됩니다.
 
 ## 문제
 

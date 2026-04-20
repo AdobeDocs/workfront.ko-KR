@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 4%
@@ -48,6 +48,8 @@ Workfront의 AI 어시스턴트는 자연어 대화에서 인앱 정보와 제�
 ## AI Assistant 사전 요구 사항
 
 조직에서 AI Assistant를 활성화하려면 다음 중 **모두**&#x200B;을(를) 적용해야 합니다.
+
+<!--Remove me October 2026-->
 
 * 조직이 Adobe IMS(Identity Management System)로 마이그레이션되었어야 합니다.
 * Adobe 통합 경험을 활성화해야 합니다.

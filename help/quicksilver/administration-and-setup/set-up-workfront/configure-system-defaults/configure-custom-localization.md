@@ -7,16 +7,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '370'
 ht-degree: 7%
 
 ---
 
 # 사용자 정의 현지화 구성
 
-사용자 정의 현지화를 사용하면 다른 언어로 사용자 정의 용어 및 구를 정의할 수 있습니다. 그런 다음 Workfront에서는 이러한 용어를 사용자의 Adobe Identity Management(IMS) 설정에 있는 언어 세트로 표시합니다. 사용자가 Adobe IMS를 사용하고 있지 않으면 용어가 사용자의 브라우저 설정에 설정된 언어로 표시됩니다.
+사용자 정의 현지화를 사용하면 다른 언어로 사용자 정의 용어 및 구를 정의할 수 있습니다. 그런 다음 Workfront에서는 이러한 용어를 사용자의 Adobe Identity Management(IMS) 설정에 있는 언어 세트로 표시합니다.
 
 예를 들어 레이블 &quot;Target Audience&quot;를 설정하여 독일어 단어 &quot;Zielgruppe&quot;로 번역할 수 있습니다. 브라우저의 기본 언어로 선택된 독일어를 사용하는 모든 사용자에게는 영어로 &quot;Target Audience&quot;라는 레이블이 지정된 필드에 대한 레이블로 &quot;Zielgruppe&quot;라는 단어가 표시됩니다.
 

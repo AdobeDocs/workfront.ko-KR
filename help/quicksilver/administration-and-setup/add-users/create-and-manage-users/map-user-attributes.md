@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 1%
+source-wordcount: '586'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ SSO(Single Sign-On)를 사용하여 ID 공급자의 Active Directory에서 Adobe
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ SSO(Single Sign-On)를 사용하여 ID 공급자의 Active Directory에서 Adobe
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -60,75 +60,6 @@ SSO(Single Sign-On)를 사용하여 ID 공급자의 Active Directory에서 Adobe
   예: &quot;last name&quot;을 매핑하고 ID 공급자의 값을 업데이트하지 않고 Workfront에서 이름을 업데이트하는 경우, 다음에 사용자가 로그인할 때 ID 공급자의 값에 맞게 성을 덮어씁니다.
 
 ## 조직의 사용자 속성 매핑
-
-속성 매핑 절차는 조직이 Adobe 통합 경험을 사용하는지 여부에 따라 다릅니다.
-
-조직이 Adobe 통합 환경에 있는지 확인하려면 Workfront에 액세스하는 데 사용하는 URL을 검사하십시오.
-
-| URL | Adobe 경험 |
-|---|---|
-| (CompanyName).my.workfront.com | 클래식 경험 |
-| experience.adobe.com | Adobe 통합 경험 |
-
-* [클래식 경험에서 사용자 속성 매핑](#map-user-attributes-in-the-classic-experience)
-* [Adobe 통합 경험의 사용자 속성 매핑](#map-user-attributes-in-the-adobe-unified-experience)
-
-### 클래식 경험에서 사용자 속성 매핑
-
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **설정** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
-
-1. **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
-
-1. **Type** 드롭다운에서 **SAML 2.0**&#x200B;을(를) 클릭합니다.
-
-1. **사용자 특성 매핑**&#x200B;을 클릭합니다.
-
-   ![사용자 특성 매핑](assets/map-user-attributes.png)
-
-1. 표시되는 옵션 행에서 Workfront 사용자에게 필요한 속성을 매핑합니다.
-
-   주소, 관리자, 작업 역할, 홈 그룹 등의 속성을 매핑할 수 있습니다.
-
-   특성 매핑은 1:1 비율로 작동합니다. 예를 들어 사용자가 속한 모든 그룹을 설정할 수 없으며 사용자당 하나만 설정할 수 있습니다.
-
-   >[!IMPORTANT]
-   >
-   >속성 매핑에서는 액세스 수준을 매핑하지 않는 것이 좋습니다. 기본값 설정 시 관리자 액세스를 실수로 제거하지 않도록 주의하십시오.
-
-   다음 표에서는 속성을 매핑하는 데 사용할 수 있는 필드에 대해 설명합니다.
-
-   <table style="table-layout:auto"> 
-    <col data-mc-conditions=""> 
-    <col data-mc-conditions=""> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Workfront 사용자 속성</td> 
-      <td>매핑할 속성의 이름을 선택합니다</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">디렉터리 속성</td> 
-      <td>사용할 SSO 속성 레이블을 입력합니다.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">기본 값</td> 
-      <td> <p>Workfront 사용자 속성을 선택한 후 연결 중에 값이 NULL이면, 이 필드는 시스템에서 해당 기본값으로 채워집니다. 속성 매핑 규칙을 적용할 경우에만 여기에 값을 입력합니다(7단계 참조). 기본값은 이러한 규칙에 대한 예외로 작동합니다.</td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. (선택 사항) 속성에 규칙을 추가하려면 **규칙**&#x200B;을 클릭합니다.
-
-   1. 드롭다운에서 사용할 속성 수정자를 선택합니다.
-   1. 오른쪽의 2개 필드에 디렉토리 속성 값과 대체할 값을 입력합니다.
-
-      ![규칙 필드](assets/rule-fields.png)
-
-   **규칙 추가**&#x200B;를 클릭하여 속성에 규칙을 더 추가할 수 있습니다.
-
-1. (선택 사항) 더 많은 사용자 특성을 매핑하려면 **매핑 추가**&#x200B;를 클릭하고 6-7단계를 반복합니다.
-1. **저장**&#x200B;을 클릭합니다.
-
-### Adobe 통합 경험의 사용자 속성 매핑
 
 1. Adobe Workfront 왼쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-left.png)을 클릭한 다음 **설정** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 

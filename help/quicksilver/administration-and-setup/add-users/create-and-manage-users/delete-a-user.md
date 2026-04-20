@@ -8,18 +8,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 1%
+source-wordcount: '832'
+ht-degree: 3%
 
 ---
 
 # 사용자 삭제
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
 >이 페이지에 설명된 절차는 Adobe Business Platform에 아직 온보딩되지 않은 조직에만 적용됩니다. Adobe Business Platform에 온보딩한 경우 Adobe Admin Console에서 사용자를 삭제해야 합니다.
+>
+>**이제 모든 조직이 Adobe Admin Console에 온보딩되었으므로 이 페이지의 정보는 가까운 시일 내에 제거됩니다.**
 >
 >조직이 Adobe Business Platform에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
@@ -33,7 +37,7 @@ ht-degree: 1%
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -41,7 +45,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +53,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -87,7 +91,7 @@ ht-degree: 1%
      >[!NOTE]
      >
      >사용자를 비활성화하고 사용자와 연결된 보고서나 대시보드를 더 이상 볼 수 없는 경우 **액세스 권한** 필드로 이 보고서 실행을 업데이트해야 할 수 있습니다.\
-     >자세한 내용은 [비활성화된 사용자가 소유한 보고서에 액세스할 수 없는 이유는 무엇입니까?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)보고서 FAQ[&#x200B; 문서의 &#x200B;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 섹션.
+     >자세한 내용은 [비활성화된 사용자가 소유한 보고서에 액세스할 수 없는 이유는 무엇입니까?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)보고서 FAQ[ 문서의 ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 섹션.
 
    * 문서
    * 업데이트
@@ -107,12 +111,15 @@ ht-degree: 1%
    * 작업, 문제, 프로젝트, 포트폴리오
    * 대시보드
 
-     <!--
+  <!--
+
      >[!NOTE]
      >
      >You also lose access to custom sections that contained dashboards associated to the deleted user.  
+     >
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
-     -->
+
+   -->
 
    * 업데이트
    * 시간
