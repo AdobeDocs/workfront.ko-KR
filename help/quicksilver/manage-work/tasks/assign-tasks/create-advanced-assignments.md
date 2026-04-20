@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: daaa13d5a3ebbd249f0093181ee7834f9db43fdb
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3457'
 ht-degree: 0%
 
 ---
@@ -96,20 +96,17 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 이 고급 할당 레이아웃은 작업에만 적용됩니다. 문제에 대해서는 [고급 할당 만들기 - 다른 모든 패키지](#create-advanced-assignments--all-other-packages)를 참조하십시오.
 
-<!--
-
 >[!NOTE]
 >
->Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
-
--->
+>이전의 고급 할당 경험은 기본값입니다. 고급 지정 창의 오른쪽 상단에 있는 버튼을 사용하여 새 경험을 수동으로 켜야 합니다.
+>이전 경험에 대한 자세한 내용은 아래의 [고급 할당 만들기 - 기타 모든 패키지](#create-advanced-assignments--all-other-packages)를 참조하십시오.
 
 1. 작업을 할당할 프로젝트로 이동합니다.
 1. 왼쪽 패널에서 **작업** 또는 **문제**&#x200B;를 클릭한 다음 목록에서 작업 이름을 클릭합니다.
 
    >[!TIP]
    >
-   >작업 목록에서 직접 고급 할당을 수행할 수 있습니다. 작업과 같은 줄에 있는 **할당** 필드 내부를 클릭한 다음 목록의 맨 아래에 있는 **고급** 또는 할당 상자의 오른쪽 위 모서리에 있는 **사람 아이콘**&#x200B;을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.
+   >작업 목록에서 직접 고급 할당을 수행할 수 있습니다. 작업과 같은 줄에 있는 **할당** 필드 내부를 클릭한 다음 목록의 맨 아래에 있는 **고급** 또는 할당 상자의 오른쪽 위 모서리에 있는 **사람 아이콘**을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.
    >![고급 또는 인물 아이콘을 클릭합니다](assets/access-aa-from-lists.png)
 
 1. 작업 헤더의 **할당** 필드에서 **할당 대상**&#x200B;을 클릭합니다
@@ -327,7 +324,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!TIP]
    >
-   >작업 또는 문제 목록에서 직접 고급 할당을 수행할 수 있습니다. 작업 또는 문제와 같은 줄에 있는 **할당** 필드 내부를 클릭한 다음, 목록의 맨 아래에 있는 **고급** 또는 할당 상자의 오른쪽 위 모서리에 있는 **사람 아이콘**&#x200B;을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.
+   >작업 또는 문제 목록에서 직접 고급 할당을 수행할 수 있습니다. 작업 또는 문제와 같은 줄에 있는 **할당** 필드 내부를 클릭한 다음, 목록의 맨 아래에 있는 **고급** 또는 할당 상자의 오른쪽 위 모서리에 있는 **사람 아이콘**을 클릭하여 고급 할당 창을 엽니다. 5단계로 건너뛰고 고급 할당을 계속 작성합니다.
    >![고급 또는 인물 아이콘을 클릭합니다](assets/access-aa-from-lists.png)
 
 1. 작업 또는 문제의 헤더에 있는 **할당** 필드에서 **할당 대상**&#x200B;을 클릭합니다
