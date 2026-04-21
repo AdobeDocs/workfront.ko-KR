@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 >프로덕션 빠른 릴리스: 2026년 4월 15일
 >모두를 위한 프로덕션: 2026년 4월 16일
 
-이제 Workfront에 예약된 보고서에 대한 새로운 링크 게재 유형이 포함됩니다. 이 옵션은 파일을 생성하고 첨부하는 대신 Workfront의 보고서에 대한 직접 링크가 포함된 전자 메일을 보내 수신자가 애플리케이션에서 가장 최신 데이터를 {{$include }}볼 수 있도록 합니다.
+이제 Workfront에 예약된 보고서에 대한 새로운 링크 게재 유형이 포함됩니다. 이 옵션은 파일을 생성하고 첨부하는 대신 Workfront의 보고서에 대한 직접 링크가 포함된 전자 메일을 보내 수신자가 응용 프로그램에서 가장 최신 데이터를 `{{$include }}`을(를) 볼 수 있도록 합니다.
 
 링크 옵션은 이제 새로 생성된 예약된 보고서 게재 규칙의 기본 게재 유형이며 기존 파일 기반 형식(HTML, PDF, Excel 및 TSV)은 계속 사용할 수 있습니다.
 

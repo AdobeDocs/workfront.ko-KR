@@ -8,7 +8,7 @@ author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 1%
@@ -94,7 +94,7 @@ Workfront Proof에서 지원되는 언어에 대한 자세한 내용은 [Workfro
 * Workfront Fusion에서는 사용자가 입력한 필드에 영어가 아닌 텍스트 문자를 사용할 수 없습니다.
 
 Workfront Fusion에 액세스하려면 귀사에서 Workfront Fusion 라이센스를 구매해야 합니다.\
-Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 ## 언어 변경
 
@@ -128,7 +128,8 @@ For more information about what languages are supported by Workfront, see [Suppo
 
 The browser language must be changed on an individual user basis.
 
-See the "Help" menu for your browser for specific information about how to change the language of your browser.-->
+See the "Help" menu for your browser for specific information about how to change the language of your browser.
+-->
 
 ### Adobe Experience Cloud 언어 변경
 
@@ -164,15 +165,15 @@ See the "Help" menu for your browser for specific information about how to chang
 ### 사용자 이메일 로케일 변경 {#change-the-user-locale}
 
 <!--
-
-
-When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.-->
+When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.
+-->
 
 >[!NOTE]
 >
 >언어 환경 설정은 Adobe 프로필에 저장되며 이메일 로케일은 사용되지 않습니다. 이 문서에서 [Adobe Experience Cloud 언어 변경](#change-the-adobe-experience-cloud-language)을 참조하십시오.
 
-<!--To change your User Email Locale:
+<!--
+To change your User Email Locale:
 
 {{step1-click-main-menu}}
 
@@ -182,4 +183,5 @@ When changing your User Email Locale, you modify the language, date, and number 
 
 1. In the **Preferences** section, click the **Email Locale** drop-down list to select the language that you want Workfront emails to display in.
 
-1. Click **Save Changes**.-->
+1. Click **Save Changes**.
+-->

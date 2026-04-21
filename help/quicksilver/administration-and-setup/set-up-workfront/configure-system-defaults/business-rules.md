@@ -10,9 +10,9 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1820'
 ht-degree: 4%
 
 ---
@@ -224,14 +224,9 @@ IF({status} = "APR", true)
    * 직원 채용 플랜
    * 템플릿
    * 직원 채용 플랜 리소스
-<!--
+   <!--
    * <span class="preview">Team</span>
--->
-
-1. 규칙 빌더 대화 상자에서 비즈니스 규칙의 **이름**&#x200B;을(를) 입력하십시오.
-1. **활성 상태임** 필드에서 규칙을 저장할 때 규칙을 활성화해야 하는지 여부를 선택합니다.
-
-   **아니요**&#x200B;를 선택하면 규칙이 비활성 상태로 저장되며 나중에 활성화할 수 있습니다.
+   -->
 
 1. 비즈니스 규칙에 대한 **트리거**&#x200B;를 선택하십시오. 옵션은 다음과 같습니다.
 
@@ -306,4 +301,3 @@ IF({status} = "APR", true)
 1. 규칙 목록에서 비즈니스 규칙을 선택하고 편집 아이콘을 클릭합니다.
 1. 비즈니스 규칙 대화 상자에서 **활성 상태임**&#x200B;에 대해 **예**&#x200B;를 선택합니다.
 1. **저장**&#x200B;을 클릭합니다.
-

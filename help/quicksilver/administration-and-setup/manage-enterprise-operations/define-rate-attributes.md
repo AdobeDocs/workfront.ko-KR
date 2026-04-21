@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 1%
@@ -86,7 +86,8 @@ Workfront은 현재 속도 속성으로 사용할 수 있는 세 가지 시스�
 
 <!--
 BULLET POINT Staffing plan resources
-BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.
+-->
 
 <!--Non-labor resource categories and -->작업 역할은 객체 수준에서 직접 비율 속성을 지원하지 않습니다. 정의된 비율을 통해 비율 속성에 연결됩니다.
 

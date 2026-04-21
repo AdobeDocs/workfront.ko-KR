@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-[!DNL Adobe Workfront] 관리자는 [!UICONTROL Workfront]에서 문서를 관리하도록 문서 통합을 구성할 수 있습니다. 문서가 문서 서비스 응용 프로그램에만 저장되고 [!UICONTROL Workfront] 자체에는 저장되지 않도록 [!UICONTROL Workfront]을(를) 구성할 수도 있습니다. 자세한 내용은 [외부 애플리케이션에서 문서 연결[!UICONTROL 에서 &#x200B;]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider)Workfront[에서 외부 클라우드 공급자로 문서 업데이트 및 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
+[!DNL Adobe Workfront] 관리자는 [!UICONTROL Workfront]에서 문서를 관리하도록 문서 통합을 구성할 수 있습니다. 문서가 문서 서비스 응용 프로그램에만 저장되고 [!UICONTROL Workfront] 자체에는 저장되지 않도록 [!UICONTROL Workfront]을(를) 구성할 수도 있습니다. 자세한 내용은 [외부 애플리케이션에서 문서 연결[!UICONTROL 에서 ]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider)Workfront[에서 외부 클라우드 공급자로 문서 업데이트 및 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
 >[!NOTE]
 >
->[!DNL Workfront Proof]과(와) [!DNL Workfront] 서버 간 통신을 허용하려면 특정 IP 주소를 허용 목록에 추가하다에 추가해야 할 수 있습니다. 허용 목록에 추가하다 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
+>[!DNL Workfront Proof]과(와) [!DNL Workfront] 서버 간 통신을 허용하려면 특정 IP 주소를 허용 목록에 추가하다에 추가해야 할 수 있습니다. 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table>
   <tr>
@@ -69,8 +69,8 @@ ht-degree: 2%
 문서 관리를 위해 다음 통합을 구성할 수 있습니다.
 
 <!--
-  Experience Manager Assets Essentials </p>
-  -->
+   Experience Manager Assets Essentials </p>
+   -->
 
 * [!DNL Workfront DAM]
 
@@ -143,7 +143,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 기본 API URL] </td> 
-      <td>API 호출을 위한 기본 HTTP 또는 보안 HTTP URL입니다. For example, <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
+      <td>API 호출을 위한 기본 HTTP 또는 보안 HTTP URL입니다. 예: <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 인증 유형]</td> 
@@ -168,7 +168,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 토큰 끝점 URL]</td> 
-      <td>OAuth 토큰을 검색하는 데 사용되는 전체 API URL.</td> 
+      <td>OAuth 토큰을 가져오는 데 사용되는 전체 API URL.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 클라이언트 ID]</td> 
@@ -187,7 +187,7 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >[!DNL Workfront]사용자 지정 통합[!UICONTROL &#x200B; 페이지 하단에 표시되는 &#x200B;] 리디렉션 URI에는 외부 문서 공급자에 이 통합을 등록하는 데 사용된 URI가 나열됩니다.
+   >[!DNL Workfront]사용자 지정 통합[!UICONTROL  페이지 하단에 표시되는 ] 리디렉션 URI에는 외부 문서 공급자에 이 통합을 등록하는 데 사용된 URI가 나열됩니다.
 
 1. (조건부) **[!UICONTROL 인증 유형]**&#x200B;에 대해 **[!UICONTROL ApiKey]** 인증을 선택한 경우 사용자 지정 문서 공급자가 발급한 API 키를 입력하십시오.
 
@@ -201,7 +201,7 @@ ht-degree: 2%
 
 사용자가 서드파티 문서 통합을 구성한 후 이를 사용할 수 있는 방법에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
-### [!DNL Workfront] DAM[!UICONTROL [!DNL Workfront]&#x200B;(으)로 메타데이터를 보내도록 &#x200B;] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
+### [!DNL Workfront] DAM[!UICONTROL [!DNL Workfront]&#x200B;(으)로 메타데이터를 보내도록 ] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>
