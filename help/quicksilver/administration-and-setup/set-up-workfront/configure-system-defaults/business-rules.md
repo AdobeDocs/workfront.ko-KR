@@ -10,10 +10,10 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
+source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 4%
+source-wordcount: '1803'
+ht-degree: 3%
 
 ---
 
@@ -202,30 +202,25 @@ IF({status} = "APR", true)
    * 문서
    * 프로그램
    * 경비
+   * 사용자
    * 회사
    * 반복
    * 청구 기록
    * 그룹
-   * 비노동 리소스
    * 위험
    * 요율 카드
    * 할당
-   * 사용자
-   * 역할
-   * 시간
-   * 템플릿
-   * 휴무
-   * 리소스 풀
    * 작업 역할
-   * 비노동 리소스 카테고리
    * 리소스 풀
    * 휴무
    * 시간
-   * 직원 채용 플랜
    * 템플릿
-   * 직원 채용 플랜 리소스
    <!--
-   * <span class="preview">Team</span>
+   * Non-labor resource
+   * Non-labor resource category
+   * Staffing Plan
+   * Staffing Plan Resource
+   * Team
    -->
 
 1. 비즈니스 규칙에 대한 **트리거**&#x200B;를 선택하십시오. 옵션은 다음과 같습니다.
