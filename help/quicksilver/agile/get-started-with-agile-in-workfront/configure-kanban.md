@@ -19,7 +19,7 @@ ht-degree: 2%
 
 <!--Audited: 12/2023-->
 
-[!DNL Adobe Workfront]애자일 팀 만들기[에 설명된 대로 ](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
+[!DNL Adobe Workfront]애자일 팀 만들기[에 설명된 대로 &#x200B;](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
 
 * 스크럼
 * 칸반
