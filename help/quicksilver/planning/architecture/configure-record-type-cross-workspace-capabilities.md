@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1421'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,11 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
 
 {{planning-important-intro}}
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코드 유형을 구성할 수 있습니다.
 
@@ -83,22 +85,20 @@ Adobe Workfront Planning에서 여러 작업 영역에서 작동하도록 레코
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td> 
    <td>
-   <p>프로덕션 환경에서: </p>
-   <p>레코드를 글로벌로 만들려면:</p>
-   <ul><li>표준 이상</li></ul>
-   <p>레코드를 연결 가능하게 만들려면:</p>
-   <ul><li>시스템 관리자</li></ul>
+   <!--
+   <p>In the Production environment: </p>
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>System Administrator</li></ul>
+   -->
 
-<div class="preview">
-
-<p>미리보기 환경에서:</p>
-   <p>레코드를 글로벌로 만들려면:</p>
+<p>레코드를 글로벌로 만들려면:</p>
    <ul><li>표준 이상</li></ul>
    <p>레코드를 연결 가능하게 만들려면:</p>
 
 <ul><li>특정 작업 영역에서 연결할 수 있는 레코드를 만드는 표준</li>
    <li>모든 작업 영역에서 연결할 수 있는 레코드를 만드는 시스템 관리자</li></ul>
-   </div>
 
 
 </td> 
@@ -240,7 +240,7 @@ this is a UI term; don't change the title of this section
 
    자세한 내용은 [다른 작업 영역에서 기존 레코드 형식 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)를 참조하십시오.
 
-   보조 작업 영역의 글로벌 레코드 유형에서 추가된 레코드 유형은 화살표를 포함하는 <span class="preview">유사한 **글로벌 레코드 유형** 아이콘 ![보조 작업 영역의 글로벌 레코드 유형 아이콘](assets/global-icon-secondary-workspace.png)을 표시합니다. 이는 레코드 유형을 다른 작업 영역에서 가져왔음을 나타냅니다. 보조 작업 영역 전역 아이콘 위로 마우스를 가져가면 원래 작업 영역의 이름을 배울 수 있습니다.</span>
+   보조 작업 영역의 글로벌 레코드 유형에서 추가된 레코드 유형은 화살표를 포함하는 유사한 **글로벌 레코드 유형** 아이콘 ![보조 작업 영역의 글로벌 레코드 유형](assets/global-icon-secondary-workspace.png)을(를) 표시합니다. 이는 레코드 유형을 다른 작업 영역에서 가져왔음을 나타냅니다. 보조 작업 영역 글로벌 아이콘 위로 마우스를 가져가면 원래 작업 영역의 이름을 배울 수 있습니다.
 1. (선택 사항) 글로벌 레코드 유형을 만든 원래 작업 영역으로 돌아가서 <!--ensure this stays accurate--> 위의 1-4단계를 수행하여 레코드 유형을 편집합니다
 1. (선택 사항) **이 레코드 형식이 사용되는 작업 영역** 섹션에서 전역 레코드가 추가된 작업 영역 목록을 검토합니다. 작업공간 이름 옆에는 작업공간 소유자도 나열됩니다.
 
@@ -276,9 +276,9 @@ this is a UI term; don't change the title of this section
 
    활성화되면 레코드 유형에 액세스하고 다른 작업 공간에서 연결할 수 있습니다.
 
-1. <span class="preview">(조건부) 보유하고 있는 라이선스에 따라</span> 레코드 종류에 액세스할 수 있는 작업 영역을 선택하십시오. 다음 선택 사항 중 하나를 선택합니다.
+1. (조건부) 보유하고 있는 라이센스에 따라 레코드 유형에 액세스할 수 있는 작업 공간을 선택합니다. 다음 선택 사항 중 하나를 선택합니다.
 
-   * **모든 작업 영역**: 사용자는 관리 권한이 있는 모든 작업 영역에서 이 레코드 형식에 연결할 수 있습니다. <span class="preview">표준 라이선스가 있는 작업 영역 관리자의 경우 이 옵션이 흐리게 표시됩니다. 시스템 관리자만 모든 작업 영역에서 레코드 종류 연결을 설정할 수 있습니다.</span>
+   * **모든 작업 영역**: 사용자는 관리 권한이 있는 모든 작업 영역에서 이 레코드 형식에 연결할 수 있습니다. 이 옵션은 Standard 라이센스가 있는 작업 영역 관리자에 대해 흐리게 표시됩니다. 시스템 관리자만 모든 작업 영역에서 레코드 유형 연결을 설정할 수 있습니다.
    * **특정 작업 영역**: 드롭다운 메뉴에서 작업 영역 관리자가 이 레코드 종류에 연결할 수 있는 작업 영역의 이름을 추가합니다.
 
 1. (조건부) **레코드 종류 편집** 상자에서 **저장**&#x200B;을 클릭하거나 페이지 헤더의 **설정** 왼쪽에 있는 뒤로 화살표를 클릭하여 변경 내용을 저장합니다.

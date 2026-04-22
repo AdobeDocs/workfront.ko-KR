@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3185'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,11 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -83,7 +84,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
       * 작성자, 마지막 수정자, 승인자
       * 생성 날짜, 마지막 수정 날짜, 승인 날짜
-      * <span class="preview">레코드 ID</span>
+      * 레코드 ID
       * Workfront 개체의 조회 필드
       * Workfront Planning 연결된 레코드의 조회 필드
 
@@ -172,12 +173,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 양식 세부 사항은 탭으로 나뉩니다.
 
 * **양식** 탭에서 필드 및 콘텐츠 요소를 양식에 추가할 수 있습니다.
-* **구성** 탭에서 양식의 승인 프로세스를 설정하고 요청 완료 옵션을 설정할 수 있습니다.
-
-  >[!NOTE]
-  >
-  ><span class="preview">미리 보기 환경에서 설정 탭이 구성 탭으로 대체되었습니다.</span>
-  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
+* **설정** 탭에서 양식의 승인 프로세스를 설정하고 요청 완료 옵션을 설정할 수 있습니다.
 
 #### 양식 세부 정보 설정
 
@@ -203,7 +199,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
      >* **제목** 필드는 요청 양식에 표시되면 값이 필요합니다. 그러나 필요한 경우 **제목** 필드를 제거할 수 있으며 요청자가 요청을 제출할 때 양식에 표시되지 않습니다.
      >* 요청 양식에 **제목** 필드가 없지만 이후 레코드의 이름에 대한 이름 필드가 있는 경우, 요청의 이름은 생성된 레코드와 같은 이름으로 자동 할당됩니다.
      >* 요청 양식에 **제목** 및 **이름** 필드가 모두 없으면 `< Request form name > < Entry date of the request >` 패턴을 사용하여 요청 이름이 지정됩니다. 레코드 이름은 **제목 없음**&#x200B;입니다.
-     >* <span class="preview">Workfront Planning에서 **제목** 필드의 정보를 보려면 요청 양식과 연결된 레코드 형식에 **원본 요청** 연결 필드를 추가할 수 있습니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md).</span>을 참조하세요.
+     >* Workfront Planning에서 **제목** 필드의 정보를 보려면 요청 양식과 연결된 레코드 종류에 **원본 요청** 연결 필드를 추가할 수 있습니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
    * 레코드 유형과 연결된 모든 필드.
 
@@ -239,49 +235,48 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 1. (선택 사항) **미리 보기**&#x200B;를 클릭하여 다른 사용자가 새 레코드를 제출하는 데 사용할 양식을 표시할 방법을 확인합니다.
 1. 다음 중 하나를 계속 진행합니다.
 
-   * 프로덕션 환경에서 양식에 대해 자세한 내용을 구성하려면 [구성 세부 정보를 설정합니다](#set-up-configuration-details)
-   * 프로덕션 환경에서 양식에 대해 자세한 내용을 구성하려면 <span class="preview">[설정 구성](#configure-settings)</span>
+   <!--
+   * [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form in the Production environment
+   -->
+   * 프로덕션 환경에서 양식에 대해 자세한 내용을 구성하려면 [설정 구성](#configure-settings)
    * 추가 설정을 구성하지 않으려면 [요청 양식 만들기를 완료합니다](#complete-request-form-creation).
 
-#### 구성 세부 정보 설정
+<!--
+#### Set up Configuration details
 
 >[!NOTE]
 >
->이 탭은 프로덕션 환경에서만 사용할 수 있습니다.
+>This tab is available only in the Production environment.
 
-구성 탭에서 승인 프로세스를 설정하고 이 양식에서 만든 요청이 완료됨으로 표시되는 시기를 구성할 수 있습니다.
+On the Configuration tab, you can set the approval process and configure when a request created from this form will be marked as Completed.
 
-1. [요청 양식 만들기 시작](#begin-creating-a-request-form) 섹션에 설명된 대로 요청 양식을 만들거나 편집하십시오.
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+   
+    The request form for the selected record type opens in the Form tab. 
+1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).    
 
-   선택한 레코드 유형에 대한 요청 양식이 양식 탭에서 열립니다.
-1. (선택 사항) [양식 세부 정보 설정](#set-up-form-details)에 설명된 대로 양식 세부 정보를 설정합니다.
+1. (Optional) If you want to add approvers, click the **Configuration** tab, then add at least one user or team to the **Approvers** field to approve new requests for this record form. 
 
-1. (선택 사항) 승인자를 추가하려면 **구성** 탭을 클릭한 다음 **승인자** 필드에 사용자 또는 팀을 하나 이상 추가하여 이 레코드 양식에 대한 새 요청을 승인하십시오.
+   ![Configuration tab](assets/configuration-tab.png)
 
-   ![구성 탭](assets/configuration-tab.png)
+   (******)-below bullet list is duplicated in the Add approval to a request form article(****)
 
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
+   * You can add one or several approvers to a request form.
+   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+   * If a team is set as an approver, only one decision is required from the team.
 
-   * 한 명 또는 여러 명의 승인자를 요청 양식에 추가할 수 있습니다.
-   * 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다. 요청은 Workfront의 요청 영역에 남아 있습니다.
-   * 두 명 이상의 승인자를 추가할 때 [하나의 결정만 필요] 옵션이 활성화되어 있지 않은 경우 요청이 승인 또는 거부되기 전에 모든 승인자가 결정을 내려야 합니다.
-   * 팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
-   요청 양식에 승인을 추가하는 방법에 대한 자세한 내용은 [요청 양식에 승인 추가](/help/quicksilver/planning/requests/add-approval-to-request-form.md)를 참조하십시오.
+1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
 
-1. (조건부) 승인자 중 한 명이 레코드를 승인한 후 레코드를 만들려면 **한 개의 결정만 필요합니다** 확인란을 선택합니다.
+1. Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.
+1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
+1. Continue to [Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
 
-1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
-1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
-
-<div class="preview">
+-->
 
 ### 설정 구성
-
->[!NOTE]
->
->이 탭은 미리보기 환경에서만 사용할 수 있습니다.
 
 설정 탭에서 승인 규칙을 설정하고 이 양식에서 만든 요청이 완료됨으로 표시되는 시기를 구성할 수 있습니다.
 
@@ -347,9 +342,7 @@ Workfront Planning 요청 제출에 대한 자세한 내용은 [레코드를 만
 
 1. 요청된 개체를 만들 때 이 양식에서 만든 요청을 완료됨으로 표시할지 또는 요청된 개체가 완료될 때 완료됨으로 표시할지 선택합니다.
 1. (조건부) 요청된 객체가 완료될 때 요청이 완료로 표시되도록 선택한 경우 객체가 완료되는 시기를 나타내는 필드 및 값을 선택합니다. 예를 들어 생성된 객체의 상태가 완료로 설정된 경우 Status 필드와 Complete 값을 선택하여 요청을 완료할 수 있습니다.
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
-
-</div>
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[요청 양식 만들기 완료](#complete-request-form-creation)를 계속합니다.
 
 <!--
  
@@ -383,23 +376,24 @@ For information on creating automations in other areas of Workfront Planning, se
 ### 요청 양식 작성 완료
 
 1. [요청 양식 만들기 시작](#begin-creating-a-request-form) 및 [요청 양식에 대한 세부 정보 설정](#set-up-details-for-the-request-form)에 설명된 대로 양식을 만들고 설정합니다.
-1. (선택 사항) 헤더의 양식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭하여 양식 이름을 업데이트합니다.
+1. (선택 사항) 헤더의 양식 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭하여 양식 이름과 **설명**&#x200B;을 업데이트한 다음 **저장**&#x200B;을 클릭합니다.
 
 1. 양식을 게시하고 고유한 링크를 얻으려면 **게시**&#x200B;를 클릭하십시오.
 
    다음과 같은 상황이 발생합니다.
 
    * **게시** 단추가 제거되었습니다.
+
+     양식은 Workfront 주 메뉴의 요청 영역에서 사용할 수 있습니다.
    * **게시 취소** 단추가 양식에 추가됩니다. 클릭하면 양식에 액세스할 수 없습니다.
    * **공유** 단추가 양식에 추가됩니다.
-   * 양식은 Workfront 주 메뉴의 요청 영역에서 사용할 수 있습니다.
 
 1. 양식을 다른 사용자와 공유하려면 **공유**&#x200B;를 클릭하세요.
 
    요청 양식 공유에 대한 자세한 내용은 이 문서의 [요청 양식 공유](#share-a-request-form) 섹션을 참조하십시오
 1. 머리글에서 양식 이름 왼쪽에 있는 왼쪽 화살표를 클릭하여 양식을 닫습니다.
 
-   **요청 양식** 테이블 보기가 열리고 양식이 추가됩니다.
+   **요청 양식** 목록 보기가 열리고 양식이 추가됩니다.
 
 ## 기존 요청 양식 관리
 
@@ -418,13 +412,8 @@ For information on creating automations in other areas of Workfront Planning, se
 1. (선택 사항) **요청 양식** 페이지에서 다음 보기 요소를 업데이트하여 테이블에 정보가 표시되는 방식을 변경합니다.
 
    * 열
-
-   <!--
-   <div class="preview">
-   * Grouping <!-ensure they will change the label by Prod->
-   * Row height
-   </div>
-   -->
+   * 그룹화
+   * 행 높이
 
    자세한 내용은 [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)를 참조하십시오.
 
@@ -435,8 +424,6 @@ For information on creating automations in other areas of Workfront Planning, se
    * **공유**: 양식에 액세스할 수 있는 사용자를 수정하려면 이 항목을 클릭하십시오.
    * **링크 복사**: 양식을 열지 않고 요청 양식의 링크를 빠르게 복사하려면 이 링크를 클릭하십시오.
    * **삭제**: 양식을 삭제하려면 이 항목을 클릭하십시오. 양식을 사용하여 추가된 모든 요청 및 레코드는 삭제되지 않습니다. 양식을 복구할 수 없습니다.
-
-   <!--update screen shot at preview:-->
 
    ![요청 양식 목록의 요청 양식에 대한 추가 메뉴](assets/more-menu-on-request-form-from-request-forms-list.png)
 

@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
 
 # 계층 구조 및 이동 경로 개요
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 작업 영역 관리자는 연결된 레코드 유형과 Adobe Workfront Planning의 다른 객체 유형 간에 유연하지만 구조화된 계층을 정의할 수 있습니다.
 
@@ -80,13 +82,13 @@ ht-degree: 0%
 
 레코드 유형 간에 계층을 만들면 해당 레코드 유형에 속하는 레코드에 대한 이동 경로를 생성합니다.
 
-예를 들어 계층을 만들고 전술, 활동 순으로 캠페인을 연결하는 경우 계층에 연결된 유형의 레코드로 이동하면 레코드가 배치된 위치를 계층 구조에서 볼 수 있습니다. 레코드가 여러 작업 영역에 표시되면 탐색 표시의 작업 영역 이름으로 시작하여 <span class="preview">각 작업 영역의 경로를 볼 수 있습니다.</span>
+예를 들어 계층을 만들고 전술, 활동 순으로 캠페인을 연결하는 경우 계층에 연결된 유형의 레코드로 이동하면 레코드가 배치된 위치를 계층 구조에서 볼 수 있습니다. 레코드가 여러 작업 공간에 표시되는 경우 이동 경로의 작업 공간 이름부터 시작하여 각 작업 공간의 경로를 볼 수 있습니다.
 
 ![이동 경로](assets/breadcrumbs-on-activities-planning-only.png)
 
 다음 사항을 고려하십시오.
 
-* [기록 세부 정보] 페이지와 레코드의 미리 보기 영역에 [탐색 표시]가 표시됩니다.
+* 이동 경로는 레코드의 미리 보기 영역과 레코드의 세부 사항 페이지에 표시됩니다.
 * 레코드 유형이 여러 계층의 일부인 경우 레코드 페이지의 레코드 이동 경로에서 계층 간을 전환할 수 있습니다.
 * 계층의 레코드 유형에 여러 레코드가 있는 경우 이동 경로에서 레코드를 선택할 수 있습니다.
 * 이동 경로는 Workfront 및 Planning에서 작동합니다.

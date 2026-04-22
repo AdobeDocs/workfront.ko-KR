@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2224'
 ht-degree: 0%
 
 ---
@@ -217,10 +217,14 @@ Workfront Planning 구현 방법에 대한 모범 사례는 [Adobe Workfront Pla
 1. (조건부 및 필수) Workfront 관리자로서 무료 체험판 계약서에 서명합니다.
 
    자세한 내용은 이 문서의 [Adobe Workfront Planning 무료 체험판 등록](#enroll-in-the-adobe-workfront-planning-free-trial) 섹션을 참조하십시오.
-1. **기본 메뉴** 아이콘 ![](assets/main-menu-shell.png)을(를) 클릭한 다음 **계획**&#x200B;을 클릭합니다. 아이콘 옆에 **평가판** 레이블이 표시됩니다.
+1. (조건부) Workfront 관리자가 평가판 계약에 서명한 후 **기본 메뉴** 아이콘 ![](assets/main-menu-shell.png)을(를) 클릭한 다음 다음 다음 중 하나를 클릭하여 **계획** 영역에 액세스합니다.
+
+   * **계획**. 아이콘 옆에 **평가판** 레이블이 표시됩니다.
+   * **프로젝트**, **요청**, **캘린더**&#x200B;를 클릭한 다음 **캠페인 캘린더 살펴보기**
+   * **포트폴리오**, **프로그램** 또는 포트폴리오 또는 프로그램의 포트폴리오    그런 다음 **사용자 지정 계층 탐색**&#x200B;을 클릭합니다.
 
    **계획** 영역이 **샘플 작업 영역** 탭에서 열립니다.
-1. **샘플 작업 영역** 탭에서 사용할 수 있는 다음 작업 영역을 검토하십시오.
+1. **샘플 작업 영역** 탭에서 다음 작업 영역을 검토하십시오.
 
    * **전역 분류 및 분류**: 기록 마케팅 시스템의 기반이 되는 샘플 Planning 개체 유형을 포함합니다.
 

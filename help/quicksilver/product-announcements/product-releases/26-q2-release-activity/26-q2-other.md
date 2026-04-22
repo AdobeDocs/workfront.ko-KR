@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: b934764d12aa81f836b5d71b624ce9d83aab63b1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '609'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,10 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->사전 정의된 보기에는 미리보기 릴리스가 없으며 4월 16일에 프로덕션에 직접 릴리스될 예정입니다.
+>사전 정의된 보기에는 미리보기 릴리스가 없으며 프로덕션에 직접 릴리스됩니다.
+>미리 보기: 미정
+>프로덕션 빠른 릴리스: TBD
+>모두를 위한 프로덕션: TBD
 
 요청 목록을 보다 효율적으로 구성할 수 있도록 요청 영역의 요청 목록 및 홈의 내 요청 위젯에 다음과 같은 사전 정의된 보기를 추가했습니다.
 

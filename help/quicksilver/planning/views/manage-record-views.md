@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 2%
@@ -288,10 +288,10 @@ Old:
 
    >[!TIP]
    >
-   ><span class="preview">다음 키보드 조합을 사용하여 Workfront Planning 페이지에서 글로벌 검색 상자를 열고 보기를 검색할 수 있습니다.</span>
+   >다음 키보드 조합을 사용하여 Workfront Planning 페이지에서 글로벌 검색 상자를 열고 보기를 검색할 수 있습니다.
    >
-   >* <span class="preview">Windows용 CTRL+K</span>
-   >* Mac용 <span class="preview">⌘+K</span>
+   >* Windows의 경우 CTRL+K
+   >* Mac의 경우 ⌘+K
    >
    >![글로벌 검색 상자](assets/global-search-box.png)
 

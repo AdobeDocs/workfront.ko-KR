@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1004'
 ht-degree: 2%
 
 ---
 
 # 작업 공간 공유
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -156,39 +158,31 @@ Old:
 
    작업 영역 오른쪽 상단의 ![공유 단추](assets/share-button-on-workspace-top-right.png)
 
-1. <span class="preview">(조건부) 사용 중인 액세스 수준에 따라 다음 중 하나를 수행합니다.
+1. (조건부) 보유하고 있는 액세스 수준에 따라 다음 중 하나를 수행합니다.
 
-   * 시스템 관리자인 경우 다음 옵션 중 하나를 선택하십시오.</span>
-
-     <div class="preview">
+   * 시스템 관리자인 경우 다음 옵션 중에서 선택합니다.
 
       * **초대된 사람만 액세스할 수 있습니다**: 공유 상자에서 엔터티를 선택하고 작업 영역에 대한 액세스 권한을 선택해야 합니다. 이것이 기본 선택입니다.
       * **시스템의 모든 사용자가 볼 수 있음**: Planning에 액세스할 수 있는 시스템의 모든 사용자는 Planning의 **작업 영역** 영역에서 작업 영역을 볼 수 있습니다.
 
-     </div>
-
-   * <span class="preview">(조건부) 표준 라이선스가 있는 작업 영역 관리자인 경우 다음 선택 사항 중 하나를 볼 수 있지만 변경할 수는 없습니다.</span>
-
-     <div class="preview">
+   * (조건부) Standard 라이센스가 있는 작업 공간 관리자인 경우 다음 선택 사항 중 하나를 볼 수 있지만 변경할 수는 없습니다.
 
       * **초대된 사람만 액세스할 수 있습니다**. 기본 설정입니다.
       * **시스템의 모든 사용자가 볼 수 있음**
 
      시스템 관리자에게 작업공간에 대한 전역 권한을 변경하도록 요청해야 합니다.
 
-     </div>
-
 1. **이 작업 영역에 대한 액세스 권한 부여** 필드에서 사용자, 그룹, 팀, 회사 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
-   <span class="preview">![그룹과 UI 공유](assets/sharing-ui-with-groups.png)</span>
+   ![그룹과 UI 공유](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
    >* 팀, 그룹, 회사 및 작업 역할 외에도 Adobe Admin Console에 추가된 사용자와만 공유할 수 있습니다. Workfront 전용 사용자는 추가할 수 없습니다. 자세한 내용은 [Adobe Admin Console에서 사용자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
    >
-   >* 사용자와 작업 영역을 공유하면 기본 작업 역할 <span class="preview">과(와) 전자 메일</span>도 필드에 표시됩니다. 사용자 이메일을 보려면 액세스 수준의 사용자 개체에 대해 연락처 정보 보기 설정을 활성화해야 합니다.
+   >* 사용자와 작업 영역을 공유하면 기본 작업 역할과 이메일도 필드에 표시됩니다. 사용자 이메일을 보려면 액세스 수준의 사용자 개체에 대해 연락처 정보 보기 설정을 활성화해야 합니다.
 
-1. <span class="preview">(선택 사항) 그룹, 팀, 역할 또는 회사와 공유할 때 엔터티 이름 위로 마우스를 가져간 후 오른쪽 방향 화살표를 클릭하여 권한을 받는 사용자 목록을 확장합니다. </span>
+1. (선택 사항) 그룹, 팀, 역할 또는 회사와 공유할 때 엔티티 이름 위로 마우스를 이동하고 오른쪽 화살표를 클릭하여 권한을 받는 사용자 목록을 확장합니다.
 
    ![그룹과 작업 영역 공유](assets/share-workspace-role-expanding-arrow-highlighted.png)
 

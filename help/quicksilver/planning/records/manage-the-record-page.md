@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1641'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 # 레코드 페이지 레이아웃 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,6 +175,7 @@ Old:
 
 레코드 페이지에 섹션을 추가할 때 다음 사항을 고려하십시오.
 
+* 레코드의 모든 필드를 표시하는 경우에만 섹션을 추가할 수 있습니다. 테이블 보기에서 숨겨진 필드를 숨길 때는 섹션을 추가할 수 없습니다.
 * 페이지에 포함할 수 있는 섹션 수에는 제한이 없습니다.
 * 빈 섹션은 가질 수 없습니다. 섹션에 하나 이상의 필드가 있어야 합니다.
 * 한 섹션에서 다른 섹션으로 필드를 끌어다 놓을 수 있습니다. 자세한 내용은 이 문서의 [레코드 미리 보기 또는 세부 정보 페이지의 필드 관리](#manage-fields-in-the-records-details-tab) 섹션을 참조하십시오.
@@ -196,7 +199,7 @@ Old:
 
    테이블 보기에서 첫째 열의 테이블 이름 필드에 있는 **세부 정보 열기** 아이콘 ![세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다.
 
-   <span class="preview">레코드의 미리 보기가 보기에서 열립니다.</span>
+   레코드의 미리보기가 보기에서 열립니다.
 
    ![세부 정보 상자](assets/details-box.png)
 
@@ -225,7 +228,7 @@ Old:
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -275,32 +278,24 @@ Old:
 
    테이블 테이블 보기에서 첫째 열의 테이블 이름 필드에 있는 **세부 정보 열기** 아이콘 ![세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다.
 
-   <span class="preview">레코드의 미리 보기가 보기에서 열립니다.</span>
+   레코드의 미리보기가 보기에서 열립니다.
 
    ![세부 정보 상자](assets/details-box.png)
 
-1. <span class="preview">(선택 사항 및 조건부) 세부 정보 페이지에 표시할 필드에 따라 다음 중 하나를 수행합니다.</span>
+1. (선택 사항 및 조건부) 세부 정보 페이지에 표시할 필드에 따라 다음 중 하나를 수행합니다.
 
-   <div class="preview">
 
-   * **모든 필드 표시** 설정을 선택하여 숨겨진 필드를 포함하여 레코드의 테이블 보기에서 모든 필드를 봅니다.
-   * 레코드의 테이블 보기에서 숨겨지지 않은 필드만 보려면 **모든 필드 표시** 설정을 선택 취소합니다. 기본 설정입니다.
+   * **세부 정보** 페이지에 모든 레코드 필드를 포함하려면 **모든 필드 표시** 설정을 선택하십시오. 기본 설정입니다.
+   * **세부 정보** 페이지에서 레코드의 테이블 보기에 숨겨진 레코드의 필드를 제외하려면 **모든 필드 표시** 설정의 선택을 취소하십시오.
 
-   </div>
+     >[!TIP]
+     >
+     >* **모든 필드 표시** 설정은 레코드의 세부 정보 미리 보기 상자에서만 사용할 수 있습니다. 레코드의 세부 정보 페이지가 브라우저 창에서 열리면 사용할 수 없습니다.
+     >* 세부 정보 미리 보기 상자에서 숨겨진 필드를 제외하면 레코드의 페이지에 섹션을 추가할 수 없습니다.
 
-   <!--
-      replace with this when they fix the UI text:
-      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-      -->
+1. (선택 사항) 연결된 레코드로 이동하려면 세부 정보 페이지 상단의 이동 경로에서 해당 레코드의 이름을 클릭합니다.
 
-   >[!TIP]
-   >
-   ><span class="preview">**모든 필드 표시** 설정은 레코드의 세부 정보 미리 보기 상자에서만 사용할 수 있습니다. 레코드의 세부 정보 페이지에서 사용할 수 없습니다.</span>
-
-1. (선택 사항) 연결된 레코드로 이동하려면 세부 정보 페이지 상단의 이동 경로에서 해당 레코드의 이름을 클릭합니다. <span class="preview">
-
-   이동 경로에 레코드 이름이 표시되지 않으면 **자세히**&#x200B;를 클릭하세요. 여러 행에 탐색 표시가 표시됩니다. 이동 경로를 줄여서 한 행에 표시하려면 **간단히**&#x200B;를 클릭하세요.</span>
+   이동 경로에 레코드 이름이 표시되지 않으면 **자세히**&#x200B;를 클릭하세요. 여러 행에 탐색 표시가 표시됩니다. 이동 경로를 줄여서 한 행에 표시하려면 **간단히**&#x200B;를 클릭하세요.
 
    >[!TIP]
    >
