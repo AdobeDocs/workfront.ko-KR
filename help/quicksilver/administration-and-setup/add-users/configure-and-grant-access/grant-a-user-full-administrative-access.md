@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1542'
 ht-degree: 5%
 
 ---
@@ -25,8 +25,6 @@ ht-degree: 5%
 >**이제 모든 조직이 Adobe Admin Console으로 마이그레이션되었으므로 이 문서의 정보는 더 이상 관련이 없으며 곧 제거될 예정입니다.**
 >
 >Adobe Admin Console에서 전체 관리자 액세스 권한을 부여하는 방법에 대한 지침은 [Adobe Admin Console에서 사용자 관리](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
->
->조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 Adobe Workfront 관리자는 시스템 관리자 액세스 수준을 할당하여 다른 Workfront 관리자를 만들 수 있습니다. 이 액세스 수준을 가진 사용자는 직접 만들지 않은 항목을 포함하여 Workfront의 모든 항목에 대해 완전한 관리 액세스 권한을 갖습니다.
 

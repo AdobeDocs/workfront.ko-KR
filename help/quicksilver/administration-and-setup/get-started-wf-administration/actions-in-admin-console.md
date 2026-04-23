@@ -8,18 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
 # 플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe Business Platform)
 
-Adobe Workfront 관리자는 조직이 Adobe Business Platform에 온보딩되었는지 여부에 따라 관리 책임과 절차가 다를 수 있습니다. 이 문서에서는 다르게 처리되는 절차와 Workfront 및 Adobe Admin Console 모두에 대한 지침 링크를 나열합니다.
+<!--Remove me October 2026-->
 
-조직이 Adobe Business Platform에 온보딩된 경우 사용자는 Adobe Business Platform을 사용하여 Adobe Workfront에 액세스합니다. 이것의 의미는 다음과 같습니다.
+이제 모든 Workfront 조직이 Adobe Business Platform으로 온보딩되었습니다. Adobe Workfront 관리자가 되면 조직이 Adobe Business Platform에 온보딩되었으므로 관리 책임과 절차가 달라질 수 있습니다. 이 문서에서는 현재 다르게 처리되는 절차를 나열합니다.
+
+조직이 Adobe Business Platform에 온보딩되었으므로 사용자는 Adobe Business Platform을 사용하여 Adobe Workfront에 액세스합니다. 이것의 의미는 다음과 같습니다.
 
 * 시스템 관리자는 Adobe Admin Console을 통해 생성됩니다.
 * SAML 인증서 갱신은 Adobe Admin Console을 통해 처리됩니다.
@@ -54,7 +56,7 @@ Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Adm
      </ul> </td> 
     <td> 
      <ul> 
-      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
   <tr> 
@@ -65,7 +67,7 @@ Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Adm
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -77,7 +79,7 @@ Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Adm
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -89,7 +91,7 @@ Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Adm
     <td> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
   <tr> 
@@ -100,7 +102,7 @@ Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Adm
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -111,7 +113,7 @@ Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Adm
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/kr/enterprise/using/manage-directory-users.html">Manage directory users</a>
+     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Manage directory users</a>
      </p><p>Note: Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
@@ -123,7 +125,7 @@ Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Adm
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -134,7 +136,7 @@ Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Adm
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -145,7 +147,7 @@ Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Adm
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -161,7 +163,7 @@ Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Adm
 
 ## SAML 인증서 갱신
 
-Adobe Admin Console에서 SAML 인증서를 갱신하는 방법에 대한 지침은 [Federated ID 문제 해결](https://helpx.adobe.com/kr/enterprise/kb/tshoot-fed-id.html)의 &quot;SAML 응답의 디지털 서명이 확인되지 않았습니다...&quot; 섹션을 참조하십시오.
+Adobe Admin Console에서 SAML 인증서를 갱신하는 방법에 대한 지침은 [Federated ID 문제 해결](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)의 &quot;SAML 응답의 디지털 서명이 확인되지 않았습니다...&quot; 섹션을 참조하십시오.
 
 <!--
 
@@ -172,7 +174,7 @@ Adobe Admin Console에서 SAML 인증서를 갱신하는 방법에 대한 지침
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/kr/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
+     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -182,7 +184,7 @@ Adobe Admin Console에서 SAML 인증서를 갱신하는 방법에 대한 지침
 
 ## SSO(Single Sign-On)
 
-Adobe Business Platform은 사용자의 SSO(Single Sign-On)를 제어하기 때문에 다음 작업과 기능은 Adobe Business Platform을 통해 자동으로 처리됩니다. 조직이 아직 Adobe Business Platform에 온보딩되지 않은 경우 Workfront에서 다음 작업을 수행해야 합니다.
+Adobe Business Platform은 사용자의 SSO(Single Sign-On)를 제어하기 때문에 다음 작업과 기능은 Adobe Business Platform을 통해 자동으로 처리됩니다. 따라서 다음 작업은 더 이상 사용할 수 없습니다.
 
 
 * [SAML 2.0으로 Adobe Workfront 구성](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)

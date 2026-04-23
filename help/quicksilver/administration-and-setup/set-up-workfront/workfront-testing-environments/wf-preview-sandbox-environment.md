@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 6aa0aa5b8ffd088e3d79e7d1be66373a7f753f99
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -156,9 +156,11 @@ SSO(Single Sign-On)에 대한 자세한 내용은 [Adobe Workfront의 SSO 개요
 
 >[!IMPORTANT]
 >
->이 페이지에 설명된 절차는 [!DNL Adobe Admin Console]에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 [!DNL Adobe Admin Console]에 온보딩되었다면 별도의 작업이 필요하지 않습니다.
+>이 섹션에서 설명하는 프로시저는 [!DNL Adobe Admin Console]에 아직 온보딩되지 않은 조직에만 적용됩니다. 이제 모든 조직이 [!DNL Adobe Admin Console]에 온보딩되었으므로 작업이 필요하지 않습니다.
 >
 >조직이 [!DNL Adobe Admin Console]에 온보딩되었는지 여부에 따라 다른 프로시저 목록을 보려면 [플랫폼 기반 관리 차이점([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>
+>이 섹션은 가까운 시일 내에 제거됩니다.
 
 
 SSO(Single Sign-On) 솔루션에서 작동하도록 미리보기 샌드박스를 구성하려면 프로덕션 환경에서 별도로 구성하여 이 작업을 수행할 수 있습니다. 미리보기 샌드박스의 SSO 구성은 프로덕션 환경의 SSO 구성과 독립적입니다.

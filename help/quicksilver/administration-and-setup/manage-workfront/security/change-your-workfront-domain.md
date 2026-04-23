@@ -8,20 +8,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 8%
+source-wordcount: '241'
+ht-degree: 11%
 
 ---
 
 # Adobe Workfront 도메인 변경
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->이 페이지에 설명된 절차는 Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Workfront 도메인을 변경할 수 없습니다.
+>이 페이지에 설명된 절차는 Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다. 이제 모든 조직이 Adobe Admin Console에 온보딩되었으므로 **Workfront 도메인을 변경할 수 없습니다**.
 >
 >조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
+>
+>이 문서는 가까운 시일 내에 제거될 수 있습니다.
 
 Adobe Workfront 관리자 및 인증된 Workfront 지원 담당자는 Workfront 지원 팀에 조직의 Workfront 도메인을 변경하는 데 도움을 요청할 수 있습니다.
 
