@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -141,8 +141,6 @@ Old:
 </table>
 -->
 
-
-
 ## 레코드에 댓글을 달 때 고려 사항
 
 * 레코드의 댓글 섹션에서 Workfront Planning의 레코드에 댓글 및 응답을 추가할 수 있습니다.
@@ -158,10 +156,6 @@ Old:
   예를 들어 Workfront의 프로젝트에 추가된 댓글은 Workfront Planning의 캠페인에 연결된 동일한 프로젝트에 표시되지 않으며, Workfront Planning 프로젝트에 추가된 댓글은 Workfront에 표시되지 않습니다.
 
 * 사용자 또는 팀에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 개별적으로 태그가 지정된 사용자와 태그가 지정된 팀의 사용자는 모두 인앱 알림과 업데이트에 대한 이메일을 받습니다.
-
-  >[!NOTE]
-  >
-  >   Adobe 통합 경험과 함께 온보딩한 고객의 사용자만 인앱 알림과 이메일 알림을 모두 받습니다. 회사에서 Adobe 통합 환경을 사용하는지 확인하려면 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하세요.
 
 * 레코드에 업데이트를 추가하고 Workfront Planning의 다음 영역에서 변경 내역을 검토할 수 있습니다.
 
@@ -197,7 +191,7 @@ Old:
 1. (선택 사항) 변경을 실행 취소하거나 재실행하려면 다음 단축키를 사용합니다.
    * 변경 내용을 실행 취소하려면 CTRL + Z(⌘+z, Mac)
    * 변경 내용을 다시 실행하려면 CTRL+Y(⌘+Mac)
-1. (선택 사항 및 조건부) Workfront 인스턴스가 Adobe 통합 경험의 일부인 경우 **@**&#x200B;을(를) 추가한 다음 사용자 또는 팀 이름을 추가하여 업데이트에서 태그를 지정합니다. 자세한 내용은 이 문서의 [레코드 댓글에 대한 고려 사항](#considerations-about-commenting-on-a-record) 섹션을 참조하십시오.
+1. **@**&#x200B;을(를) 추가한 다음 사용자 또는 팀의 이름을 추가하여 업데이트에서 태그를 지정하십시오. 자세한 내용은 이 문서의 [레코드 댓글에 대한 고려 사항](#considerations-about-commenting-on-a-record) 섹션을 참조하십시오.
 
 1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하거나 이모지 또는 업데이트 링크를 추가하여 콘텐츠를 강화할 수 있습니다.
 

@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1763'
 ht-degree: 3%
 
 ---
 
 # Adobe Workfront Planning 자동화 구성
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -156,7 +158,7 @@ Old:
 
    * **제목 없는 자동화**&#x200B;를 자동화 단추에 표시할 텍스트로 바꿉니다. 자동화를 사용하여 Workfront 개체 또는 Planning 레코드를 만들 때 이 단추를 클릭합니다.
    * **설명**: 자동화의 목적을 식별하려면 설명을 추가하십시오.
-1. **저장**&#x200B;을 클릭합니다.
+1. **저장**을 클릭합니다.
 자동화 세부 정보 페이지가 열립니다.
 
 1. 자동화의 세부 정보 페이지에서 **트리거** 섹션의 다음 옵션 중 하나를 선택하십시오.
@@ -164,37 +166,33 @@ Old:
    * **트리거**: 자동화를 트리거할 작업을 선택하십시오.
 
       * 버튼 클릭
-      * <span class="preview">필드 값 변경</span>
+      * 필드 값 변경
 
-   1. (조건부) **단추 클릭**&#x200B;을 선택한 경우 **작업** 영역을 설명하는 아래 9단계로 이동하십시오. <!--ensure this number stays accurate-->
+1. (조건부) **단추 클릭**&#x200B;을 선택한 경우 **작업** 영역을 설명하는 아래 9단계로 이동하십시오. <!--ensure this number stays accurate-->
 
-   1. <span class="preview">(조건부) **필드 값 변경**&#x200B;을(를) 선택한 경우 **설정** 섹션에서 다음 작업을 수행하십시오. </span>
+1. (조건부) **필드 값 변경**&#x200B;을(를) 선택한 경우 **설정** 섹션에서 다음 작업을 수행하십시오.
 
-      1. <span class="preview">드롭다운 메뉴에서 필드를 선택합니다. 선택한 레코드 종류와 관련된 필드입니다.</span>
-      1. <span class="preview">선택한 필드에 대한 조건을 계속 정의합니다.</span>
-      1. <span class="preview">최대 5개의 필드를 추가하고 해당 조건을 정의하려면 **조건 추가**&#x200B;를 클릭하십시오.</span>
+   1. 드롭다운 메뉴에서 필드를 선택합니다. 선택한 레코드 유형과 연관된 필드입니다.
+   1. 선택한 필드에 대한 조건을 계속 정의합니다.
+   1. 최대 5개의 필드를 추가하고 해당 조건을 정의하려면 **조건 추가**&#x200B;를 클릭하십시오.
 
-         <span class="preview">다음 형식의 필드를 추가할 수 있습니다.</span>
+      다음 유형의 필드를 추가할 수 있습니다.
 
-         <div class="preview">
+      * 단일 선택
+      * 다중 선택
+      * 한 줄 텍스트
+      * 단락
+      * 숫자
+      * 확인란
+      * 일자
 
-         * 단일 선택
-         * 다중 선택
-         * 한 줄 텍스트
-         * 단락
-         * 숫자
-         * 확인란
-         * 일자
+      Workfront Planning은 조건이 충족되면 자동으로 객체를 생성합니다.
 
-         </div>
+      ![필드 값 변경 트리거가 선택됨](assets/field-value-change-trigger-selected.png)
 
-         <span class="preview">조건이 충족되면 Workfront Planning에서 개체를 자동으로 만듭니다. </span>
-
-         ![필드 값 변경 트리거가 선택됨](assets/field-value-change-trigger-selected.png)
-
-         >[!TIP]
-         >
-         ><span class="preview">각 조건의 한정자는 선택한 필드 유형에 따라 변경됩니다.</span>
+      >[!TIP]
+      >
+      >각 조건의 수정자는 선택한 필드 유형에 따라 변경됩니다.
 
 1. **작업** 섹션에서 다음 필드를 업데이트합니다. <!--submitted bugs for these fields - see if they need changing here-->
    * **작업**: 자동화를 트리거할 때 Workfront에서 수행할 작업을 선택합니다. 필수 필드입니다.
@@ -218,7 +216,7 @@ Old:
       * **프로젝트가 만들어지는 연결된 필드**: 새 프로젝트가 표시될 연결된 필드입니다. 필수 필드입니다.
       * **프로젝트 템플릿**: Workfront에서 프로젝트를 만드는 데 사용할 프로젝트 템플릿을 선택하십시오.
 
-   * 여러 프로젝트 만들기:
+   * **여러 프로젝트 만들기**:
       * **프로젝트가 만들어지는 연결된 필드**: 새 프로젝트가 표시될 연결된 필드입니다. 필수 필드입니다.
       * **레코드를 만들 필드**: 선택한 레코드 형식에서 다중 또는 단일 선택 필드를 선택합니다. Workfront은 자동화를 트리거하는 위치에서 현재 레코드에서 선택된 각 필드 선택 사항에 대한 프로젝트를 만듭니다.
 
@@ -301,25 +299,28 @@ Old:
 
    선택한 레코드 유형에 사용할 수 있는 자동화 목록이 열립니다.
 
-1. (선택 사항) 자동화를 편집, 비활성화 또는 삭제하려면 다음 중 하나를 수행합니다.
+1. (선택 사항) 자동화 목록에서 자동화를 보거나, 비활성화하거나, 삭제하려면 자동화 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 후 다음 중 하나를 수행하십시오.
 
-   1. 자동화 목록에서 저장된 자동화의 이름을 마우스로 가리킨 다음 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭합니다.
+   * 필드 값 변경 자동화의 경우 **보기**&#x200B;를 클릭하여 자동화 설정을 봅니다.
 
-   1. 다음 정보를 업데이트하려면 **편집**&#x200B;을 클릭하세요.
+     >[!TIP]
+     >
+     >필드 값 변경에 의해 자동화가 트리거되는 경우 자동화의 설정을 저장한 후에는 편집할 수 없습니다.
 
-      * 자동화 이름 오른쪽에 있는 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭하여 자동화 이름을 변경합니다.
+   * 단추 클릭 자동화의 경우 **편집**&#x200B;을 클릭하여 다음 정보를 업데이트합니다.
+
+      * 자동화 이름 오른쪽의 **자세히** 메뉴 ![추가 메뉴](assets/more-menu.png)를 클릭한 다음 **편집**&#x200B;을 클릭하여 자동화 이름을 지정합니다.
       * **작업** 필드를 제외한 자동화의 모든 필드.
 
-        >[!TIP]
-        >
-        >자동화를 위해 원래 선택한 작업은 변경할 수 없습니다.
+     >[!TIP]
+     >
+     >자동화를 위해 원래 선택한 작업은 변경할 수 없습니다.
 
+   * 레코드의 테이블 보기에서 자동화를 제거하고 사용자가 레코드 또는 개체를 만드는 데 자동화를 사용하지 못하도록 하려면 **사용 안 함**&#x200B;을 클릭합니다.
 
-   1. 레코드의 테이블 보기에서 자동화를 제거하고 사용자가 레코드 또는 개체를 만드는 데 자동화를 사용하지 못하도록 하려면 **사용 안 함**&#x200B;을 클릭합니다.
+     비활성화된 자동화를 사용하여 생성된 레코드는 원래 선택한 레코드에 연결된 상태로 유지됩니다.
 
-      비활성화된 자동화를 사용하여 생성된 레코드는 원래 선택한 레코드에 연결된 상태로 유지됩니다.
+     다시 사용하려면 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 다시 클릭한 다음 **활성화**&#x200B;를 클릭하십시오.
+   * 자동화를 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 삭제된 자동화는 복구할 수 없습니다.
 
-      다시 사용하려면 **추가** 메뉴 ![추가 메뉴](assets/more-menu.png)를 다시 클릭한 다음 **활성화**&#x200B;를 클릭하십시오.
-   1. 자동화를 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 삭제된 자동화는 복구할 수 없습니다.
-
-      삭제된 자동화를 사용하여 생성된 레코드는 원래 선택한 레코드에 연결된 상태로 유지됩니다.
+     삭제된 자동화를 사용하여 생성된 레코드는 원래 선택한 레코드에 연결된 상태로 유지됩니다.

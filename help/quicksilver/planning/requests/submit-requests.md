@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2342'
 ht-degree: 1%
 
 ---
@@ -137,7 +137,6 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    >[!TIP]
    >
-   >이 설정은 Workfront 인스턴스가 Adobe 통합 경험에 온보딩될 때만 사용할 수 있습니다.
    >
    >이 영역에서 Workfront Planning 요청을 제출하려면 다음 조건을 충족해야 합니다.
    >
@@ -192,11 +191,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    * 요청이 성공적으로 제출되었거나 검토를 위해 전송되었다는 인앱 및 이메일 알림을 받게 됩니다.
    * 요청 양식이 승인과 연결된 경우 승인자는 요청을 검토하고 승인하기 위한 인앱 및 이메일 알림을 수신합니다.
 
-     >[!NOTE]
-     >
-     >이메일 및 인앱 알림은 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩될 때만 표시됩니다.
-     >
-     >이메일 확인 또는 승인 알림에 요청에 대한 링크가 있습니다.
+     이메일 확인 또는 승인 알림에 요청에 대한 링크가 있습니다.
 
 1. (선택 사항) 확인 메시지에서 **요청 보기**&#x200B;를 클릭하여 요청을 열거나 **X** 아이콘을 클릭하여 확인을 닫습니다.
 1. (선택 사항) 정보가 요청 목록에 표시되는 방식을 관리하려면 목록에 대해 다음 보기 요소를 갱신합니다.
@@ -289,10 +284,6 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    * 요청이 성공적으로 제출되었거나 검토를 위해 전송되었다는 인앱 및 이메일 알림을 받게 됩니다.
    * 요청 양식이 승인과 연결된 경우 승인자는 요청을 검토하고 승인하기 위한 인앱 및 이메일 알림을 수신합니다.
-
-     >[!NOTE]
-     >
-     >이메일 및 인앱 알림은 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩될 때만 표시됩니다.
 
      요청이 승인되고 레코드가 생성되면 승인자 및 승인자 일자 필드에 레코드의 승인에 대한 정보가 표시됩니다.
 

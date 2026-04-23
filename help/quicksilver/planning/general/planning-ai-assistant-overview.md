@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
@@ -115,9 +115,9 @@ Workfront Planning의 다음 영역에서 AI Assistant를 찾을 수 있습니�
 
 ## 계획 영역에서 AI 지원에 액세스
 
-1. Workfront에 로그인한 다음 화면 오른쪽 상단의 **주 메뉴** 아이콘 ![점 주 메뉴](assets/dots-main-menu.png) 또는 사용 가능한 경우 왼쪽 상단의 **주 메뉴** 아이콘 ![선 주 메뉴](assets/lines-main-menu.png)을 클릭합니다.
+1. Workfront에 로그인한 다음 왼쪽 상단의 **주 메뉴** 아이콘 ![줄 주 메뉴](assets/lines-main-menu.png)를 클릭한 다음 **계획**&#x200B;을 클릭합니다.
 
-. **계획**&#x200B;을 클릭합니다. 계획 영역이 열립니다.
+   계획 영역이 열립니다.
 
 1. **작업 영역 카드**&#x200B;를 클릭합니다.
 

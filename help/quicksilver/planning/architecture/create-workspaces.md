@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
@@ -217,11 +217,10 @@ Old:
 
    작업공간을 생성한 사용자의 이름은 작업공간 카드에 소유자로 저장됩니다.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >현재 IMS(Adobe Identity Management System)로 전환 중인 사용자의 경우 IMS 사용자가 아닌 Workfront 전용 사용자가 만든 작업 영역은 **System**&#x200B;에서 만든 대로 표시됩니다.
+   >**System**&#x200B;에서 만든 대로 Adobe Admin Console에 추가되지 않은 Workfront 전용 사용자가 만든 작업 영역입니다.
    >
-   >IMS에 대한 자세한 내용은 [Workfront용 Adobe 통합 환경](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을 참조하세요.
 
 ### 모범 사례 다중 작업 영역 템플릿 번들을 사용하여 여러 작업 영역 만들기
 

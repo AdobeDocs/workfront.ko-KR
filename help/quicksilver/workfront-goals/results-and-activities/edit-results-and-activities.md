@@ -9,7 +9,7 @@ feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 3%
@@ -191,7 +191,7 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
+1. **주 메뉴** ![주 메뉴 아이콘](assets/lines-main-menu.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 1. 목표 목록에서 목표 이름을 클릭하여 목표 페이지를 엽니다.
 1. 왼쪽 패널에서 **진행률 표시기**&#x200B;를 클릭합니다.
 1. 진행 상태 표시기 목록에서 결과를 선택하고 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
@@ -236,7 +236,7 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. **주 메뉴** ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
+1. **주 메뉴** ![주 메뉴 아이콘](assets/lines-main-menu.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 1. 목표 목록에서 목표 이름을 클릭하여 목표 페이지를 엽니다.
 1. 왼쪽 패널에서 **진행률 표시기**&#x200B;를 클릭합니다.
 1. 진행 상태 표시기 목록에서 활동을 선택하고 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.

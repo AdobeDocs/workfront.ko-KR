@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 * 계층에 다음 객체 유형을 추가할 수 없습니다.
    * 연결 가능한 레코드 유형 또는 글로벌 레코드 유형으로 설정된 경우에도 다른 작업 영역의 레코드 유형입니다. 계층을 빌드하고 있는 작업 영역에 글로벌 레코드 유형이 추가된 경우에만 계층에 글로벌 레코드 유형을 추가할 수 있습니다.
    * 기타 모든 Workfront 개체.
-   * AEM Assets 또는 컨텐츠 조각.
+   * Adobe Experience Manager Assets 또는 컨텐츠 조각.
 * 계층은 Planning 레코드 유형과 Workfront 프로젝트를 동시에 포함할 수 있습니다.
 
   예를 들어 계획 전술 및 Workfront 프로젝트를 동일한 작업 공간 계층의 하위 항목으로 사용하는 캠페인 레코드 유형이 있을 수 있습니다.

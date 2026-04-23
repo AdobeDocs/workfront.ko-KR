@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '3563'
+source-wordcount: '3503'
 ht-degree: 2%
 
 ---
 
 # 표 보기 관리
 
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -241,7 +242,7 @@ Old:
    >
    >도구 모음의 필드 아이콘 왼쪽에 숨겨진 필드 수가 표시됩니다.
    >
-   ><span class="preview">숨겨진 필드는 레코드의 **세부 정보** 미리 보기 상자에 기본적으로 표시되지 않습니다. 모든 필드가 레코드의 세부 정보 페이지에 표시됩니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)</span>를 참조하십시오.
+   >기본적으로 숨겨진 필드는 레코드의 **세부 정보** 미리 보기 상자에 표시되지 않습니다. 모든 필드가 레코드의 세부 정보 페이지에 표시됩니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
 
 
 1. **필드** 아이콘을 클릭하고 테이블의 열에 표시할 필드와 관련된 토글을 활성화합니다. 기본적으로 모든 필드가 표시됩니다.
@@ -601,11 +602,11 @@ To sort grouped records:
 
    <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-1. <span class="preview">(선택 사항) 다른 사용자가 편집한 필드가 있는 셀의 오른쪽 위 모서리에 있는 삼각형을 클릭합니다. 현재 필드를 편집하고 있는 사용자 목록이 표시됩니다.</span>
+1. (선택 사항) 다른 사용자가 편집한 필드가 포함된 셀의 오른쪽 위 모서리에 있는 삼각형을 클릭합니다. 현재 필드를 편집하고 있는 사용자 목록이 표시됩니다.
 
 >[!TIP]
 >
-><span class="preview">실시간 현재 상태 표시기에는 Workfront Planning의 모든 위치에서 현재 필드를 편집하고 있는 사용자가 표시됩니다. 여기에는 레코드의 테이블 보기 또는 세부 정보 영역이 포함됩니다.</span>
+>실시간 현재 상태 표시기에는 Workfront Planning의 아무 곳에서나 현재 필드를 편집하고 있는 사용자가 표시됩니다. 여기에는 레코드의 테이블 보기 또는 세부 정보 영역이 포함됩니다.
 
 
 

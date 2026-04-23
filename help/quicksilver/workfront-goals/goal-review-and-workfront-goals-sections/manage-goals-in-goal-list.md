@@ -8,7 +8,7 @@ feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 4%
@@ -246,7 +246,7 @@ Workfront 목표의 다음 섹션에서 목표를 보고 관리할 수 있습니
 
 목표 목록에서 목표를 관리하려면 다음을 수행하십시오.
 
-1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](assets/lines-main-menu.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 
    <!--
     Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)

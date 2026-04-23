@@ -10,10 +10,10 @@ role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2701'
-ht-degree: 1%
+source-wordcount: '2615'
+ht-degree: 2%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 1%
         </td> 
   </tr>
   <tr> 
-   <td role="rowheader">[!UICONTROL 새 프로젝트의 상태를] (으)로 설정</td> 
+   <td role="rowheader">[!UICONTROL 새 프로젝트의 상태를](으)로 설정</td> 
    <td> <p>새 프로젝트의 상태를 확인합니다.</p>  <p><b>참고</b>  
      <ul> 
       <li>귀하 또는 다른 [!DNL Workfront] 관리자가 여기에서 선택한 상태를 숨기는 경우 기본 상태가 상태 목록의 첫 번째 상태로 변경됩니다.</li> 
@@ -128,7 +128,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 진행 상태를 기반으로 프로젝트의 상태를 자동으로 설정]</td> 
-   <td> <p>이 환경 설정을 통해 사용자는 프로젝트의 [!UICONTROL Condition]을(를) 수동으로([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trol])(으)로 설정하거나 [!DNL Workfront]에게 타임라인에서 프로젝트의 진행에 따라 [!UICONTROL Condition] (진행 상태)을 자동으로 설정하도록 할 수 있습니다. 프로젝트 상태에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">프로젝트 상태 및 상태 유형 개요</a>를 참조하십시오.</p> </td> 
+   <td> <p>이 환경 설정을 통해 사용자는 프로젝트의 [!UICONTROL Condition]을(를) 수동으로([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trol])(으)로 설정하거나 [!DNL Workfront]에게 타임라인에서 프로젝트의 진행에 따라 [!UICONTROL Condition](진행 상태)을 자동으로 설정하도록 할 수 있습니다. 프로젝트 상태에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">프로젝트 상태 및 상태 유형 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 자동으로 기준선 만들기]</p> </td> 
@@ -136,14 +136,14 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 성능 인덱스 메서드] </p> </td> 
-   <td> <p>프로젝트에 대한 PIM(성과 지표 메서드)은 [!DNL Workfront]이(가) CPI([!UICONTROL 비용 성과 지표] 및 EAC(완료 시 추정 비용&rbrack;) 같은 성과 값 지표를 계산하는 데 사용하는 메서드를 제어합니다. 자세한 내용은 <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">CPI([!UICONTROL Cost Performance Index]) 계산</a> 및 <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL EAC(완료 시 추정 계산])</a>을 참조하십시오.</p> 
+   <td> <p>프로젝트에 대한 PIM(성과 지표 메서드)은 [!DNL Workfront]이(가) CPI([!UICONTROL 비용 성과 지표] 및 EAC(완료 시 추정 비용]) 같은 성과 값 지표를 계산하는 데 사용하는 메서드를 제어합니다. 자세한 내용은 <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">CPI([!UICONTROL Cost Performance Index]) 계산</a> 및 <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL EAC(완료 시 추정 계산])</a>을 참조하십시오.</p> 
     <ul> 
      <li><strong>[!UICONTROL 시간 기반]</strong>: [!DNL Workfront]은(는) [!UICONTROL 계획된 시간]을 사용하여 EAC 및 CPI와 같은 성능 지표를 계산합니다. PIM이 시간을 기반으로 계산되면 EAC는 시간을 나타내는 숫자로 표시됩니다. [!UICONTROL 계획된 시간] 값이 0이 아닌지 확인합니다.</li> 
      <li> <p><strong>[!UICONTROL 비용 기반]</strong>: [!DNL Workfront]은(는) [!UICONTROL 계획된 인건비]를 사용하여 EAC 및 CPI와 같은 성과 지표를 계산합니다. 작업 역할 또는 사용자가 시간당 비용 요율과 연결되어 있는지 확인합니다. PIM이 비용을 기반으로 계산되면 EAC는 통화 값으로 표시됩니다.</p> <p>프로젝트 관리자는 [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL Finance] 영역을 사용하여 프로젝트 수준에서 이 설정을 수정할 수 있습니다. 자세한 내용은 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">프로젝트 [!UICONTROL Finance] 영역의 정보 관리</a>를 참조하십시오.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>완료 시 [!UICONTROL 예상 &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>완료 시 [!UICONTROL 예상 ]</p> </td> 
    <td> <p>[!DNL Workfront]에서 프로젝트의 예상 총 비용을 나타내는 EAC([!UICONTROL 완료 시 예상 비용])를 계산하는 데 사용하는 데이터를 결정합니다.</p> 
     <ul> 
      <li><strong>[!UICONTROL 프로젝트 수준에서 계산]</strong>: 상위 작업 및 프로젝트에 대한 EAC는 EAC 공식에 [!UICONTROL 실제 노동 비용] 또는 [!UICONTROL 실제 노동 비용]을 입력하여 결정됩니다. 이 계산에는 상위 작업 또는 프로젝트에 직접 추가된 [!UICONTROL 실제 시간] 또는 [!UICONTROL 비용 및 경비]가 포함됩니다.</li> 
@@ -165,7 +165,7 @@ ht-degree: 1%
    <td role="rowheader">[!UICONTROL 일정 출처]</td> 
    <td> <p>새 프로젝트를 만들 때 시작 일자 또는 완료 일자에서 예약할지 여부를 결정합니다.</p> 
     <ul> 
-     <li><strong>[!UICONTROL 시작 날짜]</strong>: 새 작업은 가능한 한 빨리  작업 제한으로 기본 설정되고 프로젝트 관리자에게 프로젝트에 대한 [!UICONTROL 계획된 시작 날짜]를 입력하라는 메시지가 표시됩니다.</li> 
+     <li><strong>[!UICONTROL 시작 날짜]</strong>: 새 작업은 가능한 한 빨리 [!UICONTROL] 작업 제한으로 기본 설정되고 프로젝트 관리자에게 프로젝트에 대한 [!UICONTROL 계획된 시작 날짜]를 입력하라는 메시지가 표시됩니다.</li> 
      <li><strong>[!UICONTROL 완료 날짜]</strong>: 새 작업은 [!UICONTROL 가능한 한 늦게] 작업 제한으로 기본 설정되고 프로젝트 관리자에게 프로젝트에 대한 [!UICONTROL 계획된 완료 날짜]를 입력하라는 메시지가 표시됩니다.</li> 
     </ul> </td> 
   </tr> 
@@ -239,12 +239,14 @@ ht-degree: 1%
      <li><strong>[!UICONTROL 주당 일반 근무일]</strong>: 프로젝트에서 작업 중인 사용자의 표준 주간을 설정합니다. 기본값은 5일입니다.</li> 
     </ul> <p>이 두 가지 옵션은 일을 시간으로, 또는 주를 일로 변환합니다.</p> <p>예를 들어, 계획된 시간이 8개인 작업이 있고 기간을 계획된 시간을 기반으로 계산하면 [!DNL Workfront]은(는) 기간을 일로 표시하기 위해 해당 시간을 일로 변환합니다.</p> <p>[!DNL Workfront]은(는) 일반적인 [!UICONTROL 주당 근무일] 필드에서 시스템의 FTE(Full Time Equivalent) 값을 계산합니다. [!DNL Workfront]이(가) 사용자에 대한 할당을 계산할 때 사용하는 것입니다.</p> <p>이러한 값은 프로젝트 타임라인, 리소스 예산 책정 또는 프로젝트에 대한 시간을 기록할 때 사용됩니다. </p> <p><a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL 구성] 타임시트 및 시간 환경 설정</a>에 설명된 대로 시스템에서 사용자에 대한 타임시트를 설정할 때는 사용되지 않습니다.</p> <p><b>참고</b>:</p> <p>[!DNL Workfront] 관리자는 [!UICONTROL 타임라인 계산] 환경 설정을 잠금 해제할 수 없습니다.</p> </td> 
   </tr> 
+  <!--
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[!UICONTROL 사용자 정의 분기]</p> </td> 
-   <td> <span class="preview">미리 보기 환경의 프로젝트 환경 설정 섹션에서 사용자 지정 분기 영역이 제거되었습니다.</span> 
-   <span class="preview">자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">사용자 정의 영역 사용</a>을 참조하세요.</p></span>
-   <p>프로덕션 환경에서 프로젝트를 작업할 사용자에 대해 사용자 정의 연간 분기를 구성합니다. 사용자 정의 분기는 일반적으로 한 해 동안의 기존 분기 분류와 일치하지 않는 분기입니다. 여러 개의 사용자 정의 영역을 추가할 수 있습니다.   <p><b>참고</b>: </p><p>[!DNL Workfront] 관리자는 [!UICONTROL 사용자 정의 영역] 환경 설정의 잠금을 해제할 수 없으며 그룹 관리자는 그룹 수준에서 이러한 설정을 편집할 수 없습니다.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
+   <td> <span class="preview">The Custom Quarters area has been removed from the Project Preferences section in the Preview environment.</span> 
+   <span class="preview">For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p></span>
+   <p>In the Production environment, configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters.   <p><b>NOTE</b>: </p><p>[!DNL Workfront] administrators cannot unlock [!UICONTROL Custom Quarters] preferences and group administrators cannot edit these settings at the group level.</p> </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -282,8 +284,8 @@ ht-degree: 1%
       </ul></li>
      <li><strong>[!UICONTROL 문제 추가 및 편집]</strong>: 사용자가 다음을 수행할 수 있도록 허용합니다.
       <ul>
-       <li>프로젝트가 [!UICONTROL Complete], [!UICONTROL Dead] 또는 [!UICONTROL Pending Approval] (으)로 표시된 후 프로젝트 내의 문제를 편집합니다.</li>
-       <li>프로젝트가 [!UICONTROL Complete] 또는 [!UICONTROL Dead] (으)로 표시된 후 프로젝트에 문제를 추가합니다. ([!UICONTROL 승인 보류 중]인 프로젝트에는 문제를 추가할 수 없습니다.)</li>
+       <li>프로젝트가 [!UICONTROL Complete], [!UICONTROL Dead] 또는 [!UICONTROL Pending Approval](으)로 표시된 후 프로젝트 내의 문제를 편집합니다.</li>
+       <li>프로젝트가 [!UICONTROL Complete] 또는 [!UICONTROL Dead](으)로 표시된 후 프로젝트에 문제를 추가합니다. ([!UICONTROL 승인 보류 중]인 프로젝트에는 문제를 추가할 수 없습니다.)</li>
       </ul></li> 
      <li> <p><strong>[!UICONTROL 프로젝트와 해당 작업 및 문제에 문서 추가]</strong>: 프로젝트가 [!UICONTROL 완료] 또는 [!UICONTROL 중단]으로 표시된 후 사용자가 프로젝트에 문서를 추가하거나 프로젝트 내의 작업 및 문제에 문서를 추가할 수 있습니다.</p> <p>이 옵션은 승인 보류 중인 프로젝트에는 적용되지 않습니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 템플릿 첨부]</strong>: 프로젝트가 [!UICONTROL 완료] 또는 [!UICONTROL 중단]으로 표시된 후 사용자가 프로젝트에 템플릿을 첨부할 수 있도록 허용합니다.</p> <p>이 옵션은 승인 보류 중인 프로젝트에는 적용되지 않습니다.</p> </li> 

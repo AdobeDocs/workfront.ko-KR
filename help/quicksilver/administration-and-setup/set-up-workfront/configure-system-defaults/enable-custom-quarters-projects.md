@@ -10,10 +10,10 @@ role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 3%
+source-wordcount: '364'
+ht-degree: 4%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 3%
 
 <!--Audited: 03/2026-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 조직의 분기가 달력 날짜(예: 업무일 또는 쇼핑일) 이외의 특정 기준을 기반으로 하는 경우, 보고를 위해 사용자 정의 분기를 만들 수 있습니다.
 
@@ -64,10 +66,7 @@ ht-degree: 3%
 
 {{step-1-to-setup}}
 
-1. (조건부) 사용자 정의 분기에 액세스하는 환경에 따라 다음 중 하나를 수행합니다.
-
-   * 프로덕션 환경에서 **[!UICONTROL 프로젝트 환경 설정]** > **[!UICONTROL 프로젝트].**&#x200B;을 클릭합니다.
-   * <span class="preview">미리 보기 환경에서 **[!UICONTROL 사용자 지정 분기]**&#x200B;를 클릭합니다.</span>
+1. **[!UICONTROL 사용자 지정 분기]**&#x200B;를 클릭합니다.
 
 1. **[!UICONTROL 사용자 정의 영역 사용]**&#x200B;을 선택합니다.
 

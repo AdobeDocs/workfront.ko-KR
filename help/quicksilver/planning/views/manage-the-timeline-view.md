@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4007'
 ht-degree: 2%
 
 ---
 
 # 타임라인 보기 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -405,22 +406,18 @@ Old:
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
 1. 타임라인 보기의 오른쪽 상단 모서리에서 **그룹화**&#x200B;을(를) 클릭합니다.
 
-   <span class="preview">![연결된 필드가 있는 UI 타임라인 보기 그룹화](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![연결된 필드가 있는 UI 타임라인 보기 그룹화](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;을 클릭하고 다른 필드를 검색한 다음 목록에 표시될 때 해당 필드를 클릭합니다.
 
    그룹화는 타임라인에 자동으로 적용되며 그룹화 상자 내에 레코드가 표시됩니다.
-1. <span class="preview">(선택 사항 및 조건부) 그룹화할 필드 유형에 따라 다음 정렬 옵션 중 하나를 선택하여 그룹화를 오름차순 또는 내림차순으로 정렬합니다. </span>
-
-   <div class="preview">
+1. (선택 사항 및 조건부) 그룹화하기로 선택한 필드 유형에 따라 다음 정렬 옵션 중 하나를 선택하여 그룹화를 오름차순 또는 내림차순으로 정렬합니다.
 
    * 선택 필드, 텍스트 필드, 단락 필드, 연결된 레코드 또는 개체, 사람 필드의 **A -> Z** 또는 **Z -> A**
    * 숫자, 통화 또는 백분율 필드의 경우 **0 -> 9** 또는 **9 -> 0**&#x200B;입니다.
    * 날짜 필드의 **가장 이른 날짜 -> 가장 늦은 날짜** 또는 **가장 늦은 날짜 -> 가장 이른 날짜**
 
-   </div>
-
-   <span class="preview"> 타임라인 보기의 그룹화가 그에 따라 정렬됩니다. 그룹화 내부의 레코드는 기본 정렬인 **시작 날짜** 순서로 정렬됩니다. </span>
+   타임라인 보기의 그룹화가 그에 따라 정렬됩니다. 그룹화 내부의 레코드는 기본 정렬인 **시작 날짜** 순서로 정렬됩니다.
 
 1. (선택 사항) 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
 

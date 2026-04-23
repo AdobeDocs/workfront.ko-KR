@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '929'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--take Preview and Production references at Production time-->
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -82,58 +82,53 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 * 최소 한 명 이상의 승인자가 요청을 거부하고 다른 모든 승인자가 요청을 승인하면 Workfront의 요청 영역에 대해 요청이 만들어지지만 요청 양식과 연결된 레코드 유형에 대해서는 레코드가 만들어지지 않습니다.
 * 요청 양식에 승인을 추가하는 것은 선택 사항입니다. Workfront Planning은 요청 양식이 승인과 연관되지 않은 경우 요청이 제출되면 즉시 레코드를 생성합니다.
 
-## 프로덕션 환경에서 요청 양식에 승인 추가
+<!--
 
-1. [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)에 설명된 대로 레코드 유형에 대한 요청 양식 만들기를 시작합니다.
-1. **구성**&#x200B;을 클릭합니다.
+## Add an approval to a request form in the Production environment
 
-   **구성** 영역이 표시됩니다.
+1. Start creating a request form for a record type, as described in [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. Click **Configuration**.
 
-   ![구성 탭](assets/configuration-tab.png)
-1. **승인자** 필드에서 승인자로 설정할 사용자 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택합니다.
-1. (선택 사항 및 조건부) 두 명 이상의 승인자를 설정했으며 결정을 내리는 데 한 명의 승인자만 필요한 경우 **한 개의 결정만 필요합니다** 옵션을 활성화합니다.
+    The **Configuration** area displays.
 
-   <!--most of the Note below is duplicated in the Create a request form article-->
+    ![Configuration tab](assets/configuration-tab.png)
+1. In the **Approvers** field, start typing the name of a user or team that you want to set as an approver, then select it when it displays in the list. 
+1. (Optional and conditional) If you have set more than one approver, and only need one approver to make a decision, enable the **Only one decision is required** option.
 
-   >[!NOTE]
-   >
-   >
-   >* 한 명 또는 여러 명의 승인자를 요청 양식에 추가할 수 있습니다.
-   >
-   >* 두 명 이상의 승인자를 추가하고 [하나의 결정만 필요] 옵션을 활성화하지 않은 경우 Workfront Planning이 레코드를 생성하기 전에 모든 승인자가 요청을 승인해야 합니다.
-   >
-   >* 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다. 요청은 Workfront의 요청 영역에 남아 있습니다.
-   >
-   >* 두 명 이상의 승인자를 추가할 때 [하나의 결정만 필요] 옵션이 활성화되어 있지 않은 경우 요청이 승인 또는 거부되기 전에 모든 승인자가 결정을 내려야 합니다.
-   >
-   >* 팀이 승인자로 설정된 경우 팀에서 하나의 결정만 필요합니다.
+    (****most of the Note below is duplicated in the Create a request form article***)
 
-
-1. (선택 사항) 요청 양식을 공유한 적이 없으면 **게시**&#x200B;를 클릭합니다.
-
-   또는
-
-   양식을 공유하려면 **공유**&#x200B;를 클릭한 다음 **링크 복사**&#x200B;를 클릭합니다.
-1. (선택 사항) 사용자가 공유하는 링크를 사용하고 요청을 제출하면 Workfront Planning은 승인자에게 승인 인앱 알림과 이메일을 보냅니다.
-
-   >[!NOTE]
-   >
-   >사용자가 이메일 및 인앱 알림을 수신할 수 있으려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.
+      >[!NOTE]
+      >
+      >
+      >* You can add one or several approvers to a request form.
+      >
+      >* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must approve the request before Workfront Planning creates a record.
+      >
+      >* If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+      >
+      >* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+      >
+      >* If a team is set as an approver, only one decision is required from the team.
 
 
-   요청 승인에 대한 자세한 내용은 [요청 승인](/help/quicksilver/planning/requests/approve-request.md)을 참조하세요.
+1. (Optional) Click **Publish** if you have never shared the request form before.
 
-<div class="preview">
+    Or
 
-## 미리보기 환경에서 요청 양식에 승인 규칙 추가
+    Click **Share** to share the form, then **Copy link**. 
+1. (Optional) After a user uses the link you share and submits a request, Workfront Planning sends an approval in-app notification and an email to the approvers.
+
+   For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
+
+-->
+
+## 요청 양식에 승인 규칙 추가
 
 승인 규칙은 제출된 요청의 필드 값을 기준으로 승인 프로세스를 정의합니다.
 
 예를 들어 요청 양식에 &quot;캠페인 유형&quot; 필드가 있는 경우, 필드에 &quot;디지털&quot; 값이 있을 경우 한 사람에게, &quot;인쇄&quot; 값이 있을 경우 다른 사람에게 요청을 보내는 규칙을 만들 수 있습니다.
 
 승인 규칙을 추가할 때 다음 사항을 고려하십시오.
-
-<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * 한 명 또는 여러 명의 승인자를 승인 규칙에 추가할 수 있습니다.
 * 최소 한 명 이상의 승인자가 요청을 거부하면 요청이 거부되고 레코드가 만들어지지 않습니다. 요청은 Workfront의 요청 영역에 남아 있습니다.
@@ -174,5 +169,3 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
 1. **저장**&#x200B;을 클릭하여 승인 규칙을 저장합니다.
 1. (선택 사항) 요청 양식을 공유한 적이 없으면 **게시**&#x200B;를 클릭합니다.
-
-</div>
