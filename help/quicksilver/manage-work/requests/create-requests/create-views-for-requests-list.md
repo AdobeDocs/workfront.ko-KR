@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 3%
 
 ---
@@ -189,7 +189,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 
 ## 레이아웃 템플릿에 요청 보기 추가
 
-Workfront 관리자는 요청 영역에 대한 레이아웃 템플릿에 새 보기를 추가할 수 있습니다.
+Workfront 관리자는 요청 영역에 대한 템플릿을 레이아웃하기 위해 새 보기 또는 시스템 보기를 추가하거나 제거할 수 있습니다.
 
 자세한 내용은 [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)을 참조하십시오.
 

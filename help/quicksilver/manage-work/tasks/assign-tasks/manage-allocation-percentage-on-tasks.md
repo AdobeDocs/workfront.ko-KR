@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 5%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
@@ -63,9 +63,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>개체 권한</td>
    <td><p>작업에 대한 또는 더 높은 권한 부여</p>
-   <p>이전 경험을 사용하여 작업을 편집할 때 작업 편집 상자에서 할당 비율을 업데이트하는 권한 편집</p>
-   <p><b>메모</b></p>
-   <p> 새 경험에서 작업을 편집할 때 작업 편집 상자에서 더 이상 할당 비율을 관리할 수 없습니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">작업 편집</a>을 참조하세요.</p></td>
+   <p>작업 편집 상자에서 할당 백분율을 업데이트할 권한을 편집합니다.</p>
+   <!--
+   Not true anymore: 
+   <p><b>NOTE</b></p>
+   <p> You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p>
+   -->
+   </td>
   </tr>
  </tbody>
 </table>
@@ -73,12 +77,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
-
-<!--
-Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
-
-<p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
 
 ## 작업에 대한 비율 할당 수정에 대한 고려 사항
 

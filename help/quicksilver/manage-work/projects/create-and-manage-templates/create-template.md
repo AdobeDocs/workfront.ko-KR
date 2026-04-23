@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '740'
 ht-degree: 8%
 
 ---
@@ -126,7 +126,7 @@ Old:
 
    **새 템플릿 작업**&#x200B;을(를) 클릭하여 **새 템플릿 작업** 상자에서 템플릿에 작업을 추가합니다.
 
-   **템플릿 작업 만들기** 상자가 새 환경에서 열립니다.
+   **새 템플릿 작업**&#x200B;을 클릭하면 **템플릿 작업 만들기** 상자가 새 환경에서 열립니다.
 
    ![새 템플릿 작업에 대한 새 경험](assets/new-template-task-box-unshimmed.png)
 

@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 6%
@@ -154,13 +154,13 @@ Old:
 
 1. 다음 섹션 중 하나에서 정보를 지정하는 것이 좋습니다.
 
-* [템플릿 작업 이름](#template-task-name)
-* [개요](#overview)
-* [할당](#assignments)
-* [재무](#finance)
-* [사용자 정의 양식](#custom-forms)
-* [설정](#settings)
-* [댓글](#comment)
+   * [템플릿 작업 이름](#template-task-name)
+   * [개요](#overview)
+   * [할당](#assignments)
+   * [재무](#finance)
+   * [사용자 정의 양식](#custom-forms)
+   * [설정](#settings)
+   * [댓글](#comment)
 
 1. 아래 섹션에 설명된 대로 템플릿 작업을 계속 편집합니다.
 
