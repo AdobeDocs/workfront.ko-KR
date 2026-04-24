@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8e8eec4977614529a1bab78dda003cdcdf32dba0
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '2274'
+source-wordcount: '2317'
 ht-degree: 2%
 
 ---
@@ -120,7 +120,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 >
 >이 페이지에 설명된 절차는 Adobe Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다.
 >
->조직이 Adobe Admin Console에 온보딩되었다면 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하세요.
+>조직이 Adobe Admin Console에 온보딩되었다면 [Adobe Workfront과 Adobe Business Platform 간의 관리 차이점](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 ## 1단계 - 사용자 가져오기 {#step-1-to-users}
 
@@ -476,12 +476,12 @@ OLD:
 1. Adobe Workfront의 왼쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다.
 
 1. **[!UICONTROL 사용자]**&#x200B;를 클릭한 다음 홈 팀에 연결할 사용자를 선택하십시오.
-1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**을 선택합니다.
    ![](/help/_includes/assets/user-settings-nwe-350x291.png)
 
 1. **[!UICONTROL 조직]** 섹션에서 **[!UICONTROL 홈 팀]** 필드를 선택합니다. 설정을 사용자와 연결할 팀의 이름을 입력하십시오. 목록에 팀의 이름이 표시되면 클릭합니다.
 
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
 선택한 사용자가 이제 홈 팀과 연결되었습니다.
 완료 버튼과 연관된 상태를 포함하여 모든 팀 설정이 이제 이러한 사용자에게 표시됩니다.
 
