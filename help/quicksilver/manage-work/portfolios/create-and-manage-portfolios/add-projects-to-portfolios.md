@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: fee6b71eeb0ca79703a2a9e29a14040b91cb7387
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 3%
+source-wordcount: '514'
+ht-degree: 2%
 
 ---
 
@@ -29,8 +29,22 @@ ht-degree: 3%
 
 포트폴리오에 프로젝트를 추가할 때 다음 사항을 고려하십시오.
 
-* 포트폴리오에는 무제한의 프로젝트가 포함될 수 있지만 하나의 포트폴리오만 프로젝트에 연결할 수 있습니다.
+* 한 개의 포트폴리오만 프로젝트와 연결할 수 있습니다.
 * 프로젝트는 삭제되거나 다른 포트폴리오와 연결될 때까지 포트폴리오에 남아 있습니다.
+* 포트폴리오에는 프로젝트를 무제한으로 포함할 수 있습니다.
+
+>[!CAUTION]
+>
+>   상속된 권한은 많은 하위 오브젝트에서 사용되는 경우 올바르게 적용되지 않을 수 있습니다.
+>   
+>   상속된 권한 문제를 방지하기 위해 다음 방법을 권장합니다.
+>
+>   * 단일 상위(포트폴리오 또는 프로그램) 아래에 있는 하위 개체(프로젝트) 수를 제한합니다. 포트폴리오 또는 프로그램당 10,000개 이하의 프로젝트를 권장합니다.
+>   * 하위 수준 개체에 권한을 적용하여 상속 깊이를 줄입니다.
+>
+>     예를 들어, 포트폴리오에서 상속된 권한을 프로그램에 적용한 다음 프로젝트에 의존하지 않고 프로젝트 수준에서 직접 권한을 적용합니다.
+>   * 더 적은 수의 프로젝트를 포함하도록 프로그램을 분할하므로 권한 복잡성이 줄어듭니다.
+
 
 ## 액세스 요구 사항
 
@@ -56,12 +70,12 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p> <p>프로젝트에 대한 [!UICONTROL 관리] 권한</p>  </td> 
+   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,17 +108,17 @@ Old:
 </table>
 -->
 
-## 포트폴리오에 프로젝트 추가
+## Add a project to a portfolio
 
-1. 포트폴리오로 이동한 다음 왼쪽 패널에서 **[!UICONTROL 프로젝트]**&#x200B;를 클릭합니다.
+1. Go to a portfolio, then click **[!UICONTROL Projects]** in the left panel.
 
-   ![프로젝트가 있는 Portfolio](assets/qs-portfolio-with-projects-350x90.png)
+   ![Portfolio with projects](assets/qs-portfolio-with-projects-350x90.png)
 
-1. **[!UICONTROL 새 프로젝트]**&#x200B;를 클릭하고 프로젝트를 추가할 방법을 선택하십시오.
+1. Click **[!UICONTROL New Project]** and select a method for adding a project.
 
    >[!TIP]
    >
-   >[!UICONTROL 마일스톤] 보기에서 프로젝트 목록을 볼 때는 프로젝트를 추가할 수 없습니다.
+   >You cannot add a project when you view the list of projects in the [!UICONTROL Milestone] view.
 
    다음 옵션 중에서 선택합니다.
 
@@ -113,33 +127,33 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 기존 프로젝트]</td> 
-      <td> <p>이미 생성된 프로젝트를 추가합니다.</p> </td> 
+      <td role="rowheader">[!UICONTROL Existing Project]</td> 
+      <td> <p>Add a project that has already been created.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 새 프로젝트]</td> 
-      <td> <p>새 프로젝트를 추가합니다. </p> <p>새 프로젝트 만들기에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">프로젝트 만들기</a>를 참조하십시오. </p> </td> 
+      <td role="rowheader">[!UICONTROL New Project]</td> 
+      <td> <p>Add a new project. </p> <p>For more information about creating a new project, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL MS Project]에서 프로젝트 가져오기] </td> 
-      <td> <p>이전에 [!DNL MS Project]에서 내보내고 컴퓨터에 저장한 프로젝트를 추가합니다. </p> <p>[!DNL Microsoft Project]에서 가져와 새 프로젝트를 만드는 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">[!DNL Microsoft Project]</a>에서 프로젝트 가져오기를 참조하십시오.</p> </td> 
+      <td role="rowheader">[!UICONTROL Import a Project from [!DNL MS Project]] </td> 
+      <td> <p>Add a project that you previously exported from [!DNL MS Project] and have saved on your computer. </p> <p>For more information about creating a new project by importing it from [!DNL Microsoft Project], see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 요청 프로젝트]</td> 
-      <td> <p>프로젝트가 승인되도록 요청합니다.</p> <p>프로젝트 요청에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-projects/request-project.md">프로젝트 요청</a>을 참조하십시오. </p> </td> 
+      <td role="rowheader">[!UICONTROL Request Project]</td> 
+      <td> <p>Request that a project is approved.</p> <p>For information about requesting projects, see <a href="../../../manage-work/projects/create-projects/request-project.md">Requesting a Project</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 템플릿의 새로운 기능]</td> 
-      <td> <p>기존 템플릿을 사용하여 새 프로젝트를 추가합니다. </p> <p>템플릿으로 프로젝트를 만드는 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">템플릿을 사용하여 프로젝트 만들기</a>를 참조하십시오.</p> </td> 
+      <td role="rowheader">[!UICONTROL New from Template]</td> 
+      <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    ![새 프로젝트 드롭다운](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (조건부) 기존 프로젝트를 추가하도록 선택한 경우 **프로젝트 추가** 상자가 열립니다. <!--check this after UI changes-->
+1. (Conditional) If you selected to add an existing project, the **Add Projects** box opens. <!--check this after UI changes-->
 
-   ![기존 프로젝트 추가](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
+   ![Add existing project](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
 1. **[!UICONTROL 이 Portfolio에 프로젝트 추가]** 필드에 프로젝트 이름을 입력한 다음 목록에 나타나면 클릭합니다.  <!--check this after UI changes-->
 
