@@ -78,9 +78,7 @@ Adobe Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 
      >     예를 들어, 진행 중 상태와 관련된 작업 승인이 있는 경우 승인이 승인되면 해당 작업은 자동으로 진행 중으로 상태를 변경합니다. 상태를 완료됨 또는 승인과 연관되지 않은 다른 상태로 자동 변경할 수 없습니다.
      >   
      >   
-     >
-
-   * 승인 프로세스와 연결된 엔티티는 사용자, 작업 역할 또는 팀일 수 있습니다. 사용자는 승인을 수락하거나 거부할 책임이 있습니다. 프로젝트에서 특정 역할을 수행하는 사용자에게 승인을 할당할 수 있습니다. 예를 들어 프로젝트 소유자 또는 스폰서에게 승인을 할당할 수 있습니다. 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
+     >* 승인 프로세스와 연결된 엔티티는 사용자, 작업 역할 또는 팀일 수 있습니다. 사용자는 승인을 수락하거나 거부할 책임이 있습니다. 프로젝트에서 특정 역할을 수행하는 사용자에게 승인을 할당할 수 있습니다. 예를 들어 프로젝트 소유자 또는 스폰서에게 승인을 할당할 수 있습니다. 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
      다음과 같은 시나리오가 있습니다.
 
