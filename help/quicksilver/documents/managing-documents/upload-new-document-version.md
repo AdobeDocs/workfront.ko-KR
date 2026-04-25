@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 3%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 새 버전의 파일 이름이 이전 버전의 파일 이름과 다른 경우 Workfront에 새 파일 이름으로 문서가 표시됩니다.
 
-문서에 증명이 포함되어 있고 새 버전의 증명 문서를 만들려면 문서 [문서에 대한 증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#uploading-a-document-and-creating-a-new-version-of-a-proof)에서 [문서 업로드 및 새 버전의 증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md) 섹션을 참조하십시오.
+문서에 증명이 포함되어 있고 새 버전의 증명 문서를 만들려면 문서 [문서에 대한 증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)에서 [문서 업로드 및 새 버전의 증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#uploading-a-document-and-creating-a-new-version-of-a-proof) 섹션을 참조하십시오.
 
-외부 응용 프로그램에서 Workfront에 연결된 문서의 새 버전을 추가하는 방법에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add)에서 [연결된 문서의 새 버전 추가](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)를 참조하십시오.
+외부 응용 프로그램에서 Workfront에 연결된 문서의 새 버전을 추가하는 방법에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)에서 [연결된 문서의 새 버전 추가](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -37,7 +37,8 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p> Any</p> </td> 
+   <td> <p>기존 Workfront 스토리지를 사용하여 문서를 관리하는 모든 Workfront 패키지</p>
+<p>Adobe 엔터프라이즈 스토리지를 사용하여 문서를 관리하는 모든 워크플로 패키지</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

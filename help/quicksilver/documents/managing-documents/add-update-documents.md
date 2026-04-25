@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '522'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,8 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p> Any</p> </td> 
+   <td> <p>기존 Workfront 스토리지를 사용하여 문서를 관리하는 모든 Workfront 패키지</p>
+<p>Adobe 엔터프라이즈 스토리지를 사용하여 문서를 관리하는 모든 워크플로 패키지</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -66,7 +67,7 @@ ht-degree: 3%
 1. 필요한 문서를 찾아 다음 중 하나를 수행합니다.
 
    * 목록의 문서를 클릭하고 오른쪽 상단의 **요약 열기** 아이콘 ![요약 열기 아이콘](assets/qs-summary-in-new-toolbar-small.png)을 클릭한 다음 새 댓글을 추가하거나 **회신**&#x200B;을 클릭하여 기존 댓글에 회신을 추가합니다. 요약에 대한 자세한 내용은 [문서에 대한 요약 개요](../../documents/managing-documents/summary-for-documents.md)를 참조하십시오.
-   * 문서 위로 마우스를 가져간 후 왼쪽 패널에서 **문서 세부 정보**&#x200B;를 클릭한 다음 **업데이트**&#x200B;를 클릭합니다.
+   * 문서 위로 마우스를 가져간 후 왼쪽 패널에서 **문서 세부 정보**&#x200B;를 클릭한 다음 **업데이트**를 클릭합니다.
 개체에 업데이트를 추가하는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
    업데이트 및 답글이 문서와 상위 오브젝트에 추가됩니다. 자세한 내용은 [섹션 업데이트 개요](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하세요.
@@ -89,5 +90,5 @@ ht-degree: 3%
 
 1. 문서가 포함된 개체로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;를 선택합니다.
 1. 필요한 문서를 찾은 다음 주석 아이콘 ![주석 아이콘](assets/new-doc-comment-icon.png)을 클릭하여 [주석] 패널을 엽니다.
-1. 텍스트 상자에 댓글을 입력한 다음 **제출**&#x200B;을 클릭합니다.
+1. 텍스트 상자에 댓글을 입력한 다음 **제출**을 클릭합니다.
    ![새 문서 주석 패널](assets/comments-new-doc.png)

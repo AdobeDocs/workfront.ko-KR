@@ -6,10 +6,10 @@ description: 홈 영역에서 직접 문서 승인에 추가 승인자를 추가
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 628f668f0c5df34eb967729224d91a28cebbb17c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +27,8 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의</p> </td> 
+   <td><p>기존 Workfront 스토리지를 사용하여 승인을 관리하는 모든 Workfront 패키지</p>
+<p>Adobe 엔터프라이즈 스토리지를 사용하여 승인을 관리하는 모든 워크플로우 패키지</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

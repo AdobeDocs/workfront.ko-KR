@@ -8,9 +8,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 66674732-6ad7-477b-8473-03b1dac750a3
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [승인 프로세스 개요](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-* [문서 승인 요청](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
+* [레거시 문서 승인 요청](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 * [작업 승인](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [승인 보기](../../review-and-approve-work/manage-approvals/view-approvals.md)
 * [승인자에게 제출된 승인에 대해 알림](../../review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)

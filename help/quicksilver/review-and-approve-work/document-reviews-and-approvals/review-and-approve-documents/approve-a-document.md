@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1204'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,8 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>기존 Workfront 스토리지를 사용하여 승인을 관리하는 모든 Workfront 패키지</p>
+<p>Adobe 엔터프라이즈 스토리지를 사용하여 승인을 관리하는 모든 워크플로우 패키지</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -73,50 +74,50 @@ ht-degree: 1%
 
 1. 페이지 왼쪽 상단의 **필터**&#x200B;를 클릭하고 **승인**&#x200B;이 선택되어 있는지 확인하십시오.
 
-   귀하의 승인이 필요한 모든 작업 항목이 목록에 표시됩니다.
+   All work items that require your approval are displayed in the list.
 
    >[!NOTE]
    >
-   >* 작업 역할 또는 그룹에 할당된 승인이 홈에 나열되지 않습니다.
-   >* 팀에 할당된 승인은 홈에서 각 개별 팀 멤버의 내 승인 위젯에 표시됩니다.
+   >* Approvals assigned to Job Roles or Groups aren&#39;t listed in Home.
+   >* Approvals assigned to Teams display in each individual team member&#39;s My Approvals widget in Home.
 
-1. 승인 결정을 내릴 목록에서 문서 승인 을 클릭합니다. 승인에 대한 정보가 페이지 오른쪽에 나타납니다.
+1. Click on the document approval in the list for which you want to make an approval decision. Information regarding the approval will appear on the right side of the page.
 
-1. 페이지의 오른쪽 상단 모서리에서 다음 두 가지 승인 옵션 중 하나를 클릭합니다.
+1. Click one of the following two approval options in the top-right corner of the page:
 
-   * **승인** 드롭다운에는 다음 두 가지 옵션이 있습니다.
+   * The **Approve** dropdown contains two options:
 
-      * **승인**&#x200B;은(는) 이 문서 버전에 변경이 필요하지 않으며 승인이 있음을 나타냅니다.
+      * **Approve** indicates that no changes are needed for this version of the document and that approval is given.
 
-      * **변경 사항과 함께 승인**&#x200B;은(는) 문서에 일부 작은 변경 내용이 여전히 필요함을 나타내지만, 이러한 변경 내용이 적용되는 조건으로 승인이 제공됩니다. 이 옵션을 선택하면 문서를 승인하는 데 필요한 변경 내용을 지정할 수 있는 **다음 단계**&#x200B;라는 텍스트 상자가 포함된 창이 나타납니다. 해당 정보를 입력하고 **메시지 추가**&#x200B;를 클릭하거나 **건너뛰기**&#x200B;를 클릭하여 추가 정보 없이 승인 결정을 보낼 수 있습니다.
+      * **Approve with changes** indicates that some small changes are still required on the document, but approval is given on the condition that those changes are made. If you select this option, a window will appear that contains a text box named **Next steps** where you can specify what changes are needed for the document to be approved. You may either enter that information and click **Add message**, or you may click **Skip** to send the approval decision without additional information.
 
-   * **작업 필요**&#x200B;는 문서 버전이 승인되지 않았으며 중요한 변경이 필요함을 나타냅니다.
+   * **Needs work** indicates that the document version is not approved and requires significant changes.
 
-   홈에서 문서 승인을 볼 때는 다음 사항을 고려하십시오.
+   Consider the following when viewing document approvals in Home:
 
-   * 승인을 요청한 사용자의 이름은 홈 문서 이름 위에 &quot;*사용자 A*&#x200B;이(가) 승인을 원함...&quot;이라는 텍스트와 함께 표시되고, 승인을 선택하면 오른쪽에 표시되는 승인 정보에서 **제출자**&#x200B;에도 표시됩니다.
+   * The name of the user who requested the approval is displayed above the document name in Home with the text &quot;*User A* would like your approval on...&quot;, as well as under **Submitted By** in the approval information that displays on the right once an approval is selected.
 
-   * 승인에 대한 결정이 내려지면 **새로 고침** 단추를 클릭하거나 브라우저 페이지를 새로 고칠 때까지 &quot;결정됨&quot; 텍스트가 있는 승인이 내 승인 탭에 유지됩니다.
+   * After a decision is made on an approval, the approval remains in the My Approvals tab with the text &quot;Decision Made&quot; until you click the **Refresh** button, or until you refresh the browser page.
 
-## 문서 페이지에서 문서 승인
+## Approve a document from the document page
 
 1. 문서 이름을 클릭하여 문서 페이지로 이동합니다.
 
-1. 문서 이름 옆의 버전 드롭다운에서 승인 보류 중인 문서 버전을 선택합니다. 기본적으로 최신 버전이 선택됩니다.
+1. Select the version of the document that is pending your approval in the version dropdown next to the document&#39;s name. 기본적으로 최신 버전이 선택됩니다.
 
-   현재 선택한 문서 버전에 대기 중인 승인이 있는 경우 페이지 오른쪽 상단에 승인 결정 버튼이 표시되고 다른 문서 버전에 대기 중인 승인이 있는 경우 버전 드롭다운 메뉴에 빨간색 점이 표시됩니다.
+   If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the page; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
 
    <!--
    ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
-1. 페이지의 오른쪽 상단 모서리에서 다음 두 가지 승인 옵션 중 하나를 클릭합니다.
+1. Click one of the following two approval options in the top-right corner of the page:
 
-   * **승인** 드롭다운에는 다음 두 가지 옵션이 있습니다.
+   * The **Approve** dropdown contains two options:
 
-      * **승인**&#x200B;은(는) 이 문서 버전에 변경이 필요하지 않으며 승인이 있음을 나타냅니다.
+      * **Approve** indicates that no changes are needed for this version of the document and that approval is given.
 
-      * **변경 사항과 함께 승인**&#x200B;은(는) 문서에 일부 작은 변경 내용이 여전히 필요함을 나타내지만, 이러한 변경 내용이 적용되는 조건으로 승인이 제공됩니다. 이 옵션을 선택하면 문서를 승인하는 데 필요한 변경 내용을 지정할 수 있는 **다음 단계**&#x200B;라는 텍스트 상자가 포함된 창이 나타납니다. 해당 정보를 입력하고 **메시지 추가**&#x200B;를 클릭하거나 **건너뛰기**&#x200B;를 클릭하여 추가 정보 없이 승인 결정을 보낼 수 있습니다.
+      * **Approve with changes** indicates that some small changes are still required on the document, but approval is given on the condition that those changes are made. If you select this option, a window will appear that contains a text box named **Next steps** where you can specify what changes are needed for the document to be approved. 해당 정보를 입력하고 **메시지 추가**&#x200B;를 클릭하거나 **건너뛰기**&#x200B;를 클릭하여 추가 정보 없이 승인 결정을 보낼 수 있습니다.
 
    * **작업 필요**&#x200B;는 문서 버전이 승인되지 않았으며 중요한 변경이 필요함을 나타냅니다.
 

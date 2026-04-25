@@ -1,34 +1,34 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Frame.io 뷰어로 검토 및 승인
-description: Frame.io 뷰어를 사용하여 문서를 검토하고 승인하는 방법에 대해 알아봅니다.
+title: Review and approve with the Frame.io viewer
+description: Learn how to review and approve documents using the Frame.io viewer.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 0%
+source-wordcount: '600'
+ht-degree: 3%
 
 ---
 
-# Frame.io 뷰어로 검토 및 승인
+# Review and approve with the Frame.io viewer
 
-Frame.io 뷰어를 사용하여 Workfront에서 문서를 검토하고 승인할 수 있습니다.
+You can review and approve documents in Workfront using the Frame.io viewer.
 
-Frame.io 뷰어로 Workfront 문서를 검토하면 댓글을 남기거나 문서, 이미지 또는 비디오의 특정 섹션을 표시하여 팀과 효율적으로 공동 작업하고 피드백이 명확하고 실행 가능한지 확인할 수 있습니다.
+Reviewing Workfront documents with the Frame.io viewer allows you to leave comments or mark up specific sections of a document, image, or video to collaborate efficiently with your team and ensure that feedback is clear and actionable.
 
-Workfront과의 Frame.io 통합에 대한 자세한 내용은 [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)를 참조하십시오.
+For more information on the Frame.io integration with Workfront, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 
-<!--
-## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
+## 액세스 요구 사항
+
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,41 +37,42 @@ Workfront과의 Frame.io 통합에 대한 자세한 내용은 [통합 검토 및
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
+   <td> <p>기존 Workfront 스토리지를 사용하여 승인을 관리하는 모든 Workfront 패키지</p>
+<p>Adobe 엔터프라이즈 스토리지를 사용하여 승인을 관리하는 모든 워크플로우 패키지</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses</td> 
-   <td> <p>Request or higher</p>
-   <p>Contributor or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>요청 이상</p>
+   <p>기여자 이상</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Documents</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>문서에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit access to the object associated with the document</p> </td> 
+   <td role="rowheader">개체 권한</td> 
+   <td> <p>문서와 연관된 객체에 대한 액세스 편집</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
--->
+
 
 ## 전제 조건
 
-* Workfront 인스턴스에 Workfront 및 Frame.io 통합이 설정되어 있어야 합니다. 자세한 내용은 [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements)를 참조하십시오.
+* You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
 ## 문서 검토
 
-검토자는 에셋에 주석을 추가하고 에셋에 표시할 수 있습니다. 완료되면 Workfront에서 검토 완료를 표시할 수 있습니다. 에셋이 승인 프로세스에서 앞으로 이동하기 위해서는 검토를 완료로 표시할 필요가 없습니다.
+As a reviewer, you can add comments to and mark up assets. Once finished, you can mark your review complete in Workfront. Marking the review as complete is not required for the asset to move forward in the approval process.
 
-1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+1. Go to your review email notification, and click **Go to review**.
 또는
-Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
+Go the Workfront Home page, find the My Approvals widget, then click **Open review**.
 
    >[!NOTE]
    > 
@@ -91,7 +92,7 @@ Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검
 
 문서에 대해 결정을 내리려면
 
-1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**&#x200B;을 클릭합니다.
+1. 리뷰 전자 메일 알림으로 이동한 다음 **리뷰로 이동**을 클릭합니다.
 또는
 Workfront 홈 페이지로 이동하여 내 승인 위젯을 찾은 다음 **검토 열기**&#x200B;를 클릭합니다.
 

@@ -5,9 +5,10 @@ title: Experience Manager Assets Essentials에서 에셋 및 폴더 연결
 description: Experience Manager Assets Essentials의 에셋 또는 폴더를 문서를 지원하는 모든 Adobe Workfront 개체에 연결할 수 있습니다. Assets Essentials에서 전송된 Assets은 Workfront의 전체 문서 스토리지에 포함되지 않습니다. Workfront에서 Assets Essentials로 업로드되고 전송되는 문서는 전체 스토리지에 포함됩니다.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: a9dfc5c7838668bd3007c157a4e1a53ab4bd86f5
+exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '628'
 ht-degree: 4%
 
 ---
@@ -17,6 +18,8 @@ ht-degree: 4%
 Experience Manager Assets Essentials의 에셋 또는 폴더를 문서를 지원하는 모든 Adobe Workfront 개체에 연결할 수 있습니다.
 
 Content Advisor를 사용하여 Experience Manager Assets에서 에셋 및 폴더를 연결하려면 [Experience Manager Assets에서 제공하는 Content Advisor와 에셋 및 폴더 연결](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)을 참조하십시오.
+
+엔터프라이즈 스토리지에 있는 경우 [Frame.io 통합에 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)을 참조하십시오.
 
 
 ## 액세스 요구 사항

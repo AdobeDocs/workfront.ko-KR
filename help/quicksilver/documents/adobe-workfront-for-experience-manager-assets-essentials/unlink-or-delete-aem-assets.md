@@ -6,9 +6,9 @@ description: Adobe Experience Manager Assets에서 Workfront에 연결된 항목
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Experience Manager Assets 또는 Assets Essentials에서 에셋 및 폴더 연결 해제 또는 삭제
 
 Adobe Experience Manager Assets에서 Workfront에 연결된 항목에 대한 연결을 해제하거나 삭제할 수 있습니다.
+
+>[!NOTE]
+>
+>이 기능은 새 문서 영역에서 사용할 수 없습니다.
 
 ## Workfront에서 연결된 문서 또는 폴더 삭제
 
@@ -30,8 +34,8 @@ Workfront에서 연결된 문서 또는 폴더를 삭제하면 Experience Manage
 
 외부 애플리케이션에서 링크된 문서 또는 폴더를 삭제하면 해당 문서 또는 폴더는 Workfront에서도 삭제될 때까지 Workfront 시스템에 남아 있습니다.
 
-* Adobe Experience Manager as a Cloud Service에서 자산을 삭제하려면 Adobe Experience Manager as a Cloud Service 설명서에서 [자산 삭제](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)를 참조하십시오.
-* Adobe Experience Manager Assets Essentials에서 에셋을 삭제하려면 Adobe Experience Manager Assets Essentials 설명서의 [에셋 또는 폴더 삭제](https://experienceleague.adobe.com/ko/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)를 참조하십시오.
+* Adobe Experience Manager as a Cloud Service에서 자산을 삭제하려면 Adobe Experience Manager as a Cloud Service 설명서에서 [자산 삭제](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)를 참조하십시오.
+* Adobe Experience Manager Assets Essentials에서 에셋을 삭제하려면 Adobe Experience Manager Assets Essentials 설명서의 [에셋 또는 폴더 삭제](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)를 참조하십시오.
 
 
 
