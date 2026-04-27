@@ -9,9 +9,9 @@ feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 기본 보드 기능을 사용하는 방법에 대한 자세한 내용은 [보드 시작하기: 문서 색인](../agile/get-started-with-boards/get-started-with-boards.md)을 참조하십시오. 보드의 애자일 계획 도구에 대한 자세한 내용은 [애자일 계획 도구 개요](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)를 참조하십시오.
 
-프로젝트에서 보드를 사용하는 방법에 대한 자세한 내용은 [애자일 보기에서 프로젝트 관리](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)를 참조하십시오.
+프로젝트에서 보드를 사용하는 방법에 대한 자세한 내용은 [보드 보기에서 애자일 프로젝트 관리](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)를 참조하십시오.
 
 모바일 앱에서 보드에 액세스할 수도 있습니다. 자세한 내용은 모바일용 [[!DNL Adobe Workfront] [!UICONTROL 보드]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)를 참조하십시오.
 

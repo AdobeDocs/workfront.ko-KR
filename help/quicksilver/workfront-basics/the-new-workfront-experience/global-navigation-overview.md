@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront] 의 화면 맨 위에 표시되는 위쪽 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
+source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront]의 화면 맨 위에 표시되는 위쪽 탐색 막대를 사용하면 플랫폼의 다른 영역을 쉽게 찾아 탐색할 수 있습니다.
 
-![위쪽 탐색 모음](assets/global-navigation-bar.png)
+![위쪽 탐색 모음](assets/wf-top-navigation-2026.png)
 
 ## [!UICONTROL 홈] 아이콘
 
@@ -27,6 +27,86 @@ ht-degree: 0%
 기본적으로 홈 아이콘은 홈 영역을 엽니다. 홈에 대한 자세한 내용은 [[!UICONTROL 홈] 영역 사용](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)을 참조하세요.
 
 Workfront 관리자는 레이아웃 템플릿을 만들어 사용자에게 할당하여 홈 아이콘을 사용자 정의하여 다른 페이지를 열 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 랜딩 페이지 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)을 참조하세요.
+
+## [!UICONTROL 메인 메뉴]
+
+<!--
+>[!IMPORTANT]
+>
+>The Main Menu described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+-->
+
+**[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon-left-nav.png)에서 [!UICONTROL 주 메뉴]를 엽니다. 여기서 Workfront의 다른 영역으로 이동할 수 있습니다.
+
+[!UICONTROL 주 메뉴]에서 사용할 수 있는 옵션은 다음에 따라 다릅니다.
+
+* **레이아웃 템플릿 구성**: [!DNL Workfront] 관리자가 레이아웃 템플릿에서 [!UICONTROL 주 메뉴]를 수정하는 방법에 대해 알아보려면 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴] 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하세요.
+
+* **라이선스 유형**: 다른 라이선스 유형에 대한 기본 구성에 대해 알아보려면 [Light 라이선스 사용자의 탐색 이해](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) 또는 [[!UICONTROL 작업] 라이선스 사용자의 탐색 이해](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)를 참조하십시오.
+
+각 아이콘을 사용하면 Workfront의 다른 영역으로 이동할 수 있습니다.
+
+각 영역에 대한 자세한 내용은 다음을 참조하십시오.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>[!UICONTROL Home]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">[!UICONTROL Home] 영역 사용</a></li> 
+     <li>[!UICONTROL 포트폴리오]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio 관리</a></li> 
+     <li>[!UICONTROL 프로그램]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">프로그램 만들기 및 관리 </a></li> 
+     <li>[!UICONTROL 프로젝트]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">프로젝트: 문서 색인</a></li> 
+     <li><a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">보고서</a></li> 
+     <li><a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">대시보드</a></li> 
+     <li>[!UICONTROL 캘린더]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">캘린더: 기사 색인</a></li> 
+     <li>[!UICONTROL 리소스 조달]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">리소스 관리 </a></li> 
+     <li>[!UICONTROL Teams]: <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">팀 만들기 및 관리</a></li> 
+     <li>[!UICONTROL 사용자]: <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">사용자 만들기 및 관리</a></li> 
+    </ul> </td> 
+   <td> 
+    <ul> 
+     <li>[!UICONTROL 요청]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">요청 만들기</a></li> 
+     <li>[!UICONTROL 타임시트]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">타임시트: 문서 인덱스</a></li> 
+     <li><a href="../../documents/documents-overview.md" class="MCXref xref">문서</a></li> 
+     <li>[!UICONTROL 템플릿]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">프로젝트 템플릿 만들기 및 관리: 문서 인덱스</a></li> 
+     <li>[!UICONTROL 보드]: <a href="/help/quicksilver/agile/boards-overview.md">보드 개요</a></li>
+     <li>[!UICONTROL 블루프린트]: <a href="/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md">블루프린트 개요</a></li>
+     <li>[!UICONTROL 우선 순위]: <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">우선 순위 시작</a></li>
+     <li>[!UICONTROL 목표]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] 개요</a></li> 
+     <li>[!UICONTROL 시나리오]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">시나리오 플래너 개요</a></li> 
+     <li>[!UICONTROL 증명]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] 증명: 문서 인덱스</a></li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+메인 메뉴의 하단에서 다음 항목에 액세스할 수 있습니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p class="bold">[!UICONTROL 설치]</p> </td> 
+   <td> <p><b>[!UICONTROL Setup]</b>을(를) 클릭하면 [!DNL Workfront] 계정의 다양한 측면을 구성할 수 있는 [!UICONTROL Setup] 영역으로 이동합니다. 액세스 설정에 따라 구성할 수 있는 항목이 제한될 수 있습니다.</p> <p>[!UICONTROL Setup] 영역에 대한 자세한 내용은 <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">관리 및 설정: 문서 인덱스</a>를 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p class="bold">[!UICONTROL 도움말]</p> </td> 
+   <td> <p><b>[!UICONTROL 도움말]</b>을 클릭하면 도움말 문서에 액세스하고, 교육을 찾고, 고객 지원 티켓을 제출하는 등의 작업을 수행할 수 있는 [!DNL Adobe Experience League](으)로 이동합니다.</p> <p>[!DNL Experience League]이나 다른 도움말 방법에 대한 자세한 내용은 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Adobe Workfront에서 도움말을 찾는 빠른 안내</a>를 참조하세요.</p> </td> 
+  </tr>
+  <!--
+  <tr> 
+   <td> <p class="bold">[!UICONTROL Logout]</p> </td> 
+   <td>Clicking <b>[!UICONTROL Logout]</b> logs you out of [!DNL Workfront].</td> 
+  </tr>
+  -->
+ </tbody> 
+</table>
 
 ## 고정된 페이지
 
@@ -66,81 +146,7 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
 
 ## [!UICONTROL 검색] 메뉴
 
-**[!UICONTROL 의 오른쪽 상단 모서리에 있는]**&#x200B;검색![](assets/search-icon.png) 아이콘 [!DNL Workfront]을(를) 사용하면 기본 검색을 수행하거나 특정 개체로 검색을 제한하거나 [!UICONTROL 고급 검색]을 사용하여 특정 개체에 대한 키워드를 검색하고 필터를 사용하여 특정 필드로 검색을 제한할 수 있습니다.
+[!DNL Workfront]의 오른쪽 상단 모서리에 있는 **[!UICONTROL 검색]** 아이콘 ![](assets/search-icon.png)을(를) 사용하면 기본 검색을 수행하거나 특정 개체로 검색을 제한하거나 [!UICONTROL 고급 검색]을 사용하여 특정 개체에 대한 키워드를 검색하고 필터를 사용하여 특정 필드로 검색을 제한할 수 있습니다.
 
 검색에 대한 자세한 내용은 [검색 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md)을 참조하세요.
-
-## [!UICONTROL 메인 메뉴]
-
->[!IMPORTANT]
->
->이 페이지에 설명된 기본 메뉴는 [!DNL Adobe Experience Cloud]에 아직 온보딩되지 않은 조직에만 적용됩니다.
->
-> 조직이 [!DNL Adobe Experience Cloud]에 온보딩된 경우 [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)을(를) 참조하십시오.
-
-**[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)에서 [!UICONTROL 주 메뉴]를 엽니다. 여기서 Workfront의 다른 영역으로 이동할 수 있습니다.
-
-[!UICONTROL 주 메뉴]에서 사용할 수 있는 옵션은 다음에 따라 다릅니다.
-
-* **레이아웃 템플릿 구성**: [!DNL Workfront] 관리자가 레이아웃 템플릿에서 [!UICONTROL 주 메뉴]를 수정하는 방법에 대해 알아보려면 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴] 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하세요.
-
-* **라이선스 유형**: 다른 라이선스 유형에 대한 기본 구성에 대해 알아보려면 [Light 라이선스 사용자의 탐색 이해](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) 또는 [[!UICONTROL 작업] 라이선스 사용자의 탐색 이해](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)를 참조하십시오.
-
-각 아이콘을 사용하면 Workfront의 다른 영역으로 이동할 수 있습니다.
-
-각 영역에 대한 자세한 내용은 다음을 참조하십시오.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>[!UICONTROL Home]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">[!UICONTROL Home] 영역 사용</a></li> 
-     <li>[!UICONTROL 포트폴리오]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio 관리</a></li> 
-     <li>[!UICONTROL 프로그램]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">프로그램 만들기 및 관리 </a></li> 
-     <li>[!UICONTROL 프로젝트]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">프로젝트: 문서 색인</a></li> 
-     <li><a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">보고서</a></li> 
-     <li><a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">대시보드</a></li> 
-     <li>[!UICONTROL 캘린더]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">캘린더: 기사 색인</a></li> 
-     <li>[!UICONTROL 리소스 조달]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">리소스 관리 </a></li> 
-     <li>[!UICONTROL Teams]: <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">팀 만들기 및 관리</a></li> 
-     <li>[!UICONTROL 사용자]: <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">사용자 만들기 및 관리</a></li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!UICONTROL 요청]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">요청 만들기</a></li> 
-     <li>[!UICONTROL 타임시트]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">타임시트: 문서 인덱스</a></li> 
-     <li><a href="../../documents/documents-overview.md" class="MCXref xref">문서</a></li> 
-     <li>[!UICONTROL 템플릿]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">프로젝트 템플릿 만들기 및 관리: 문서 인덱스</a></li> 
-     <li>[!UICONTROL 목표]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] 개요</a></li> 
-     <li>[!UICONTROL 시나리오]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">시나리오 플래너 개요</a></li> 
-     <li>[!UICONTROL 증명]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] 증명: 문서 인덱스</a></li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-메인 메뉴의 하단에서 다음 항목에 액세스할 수 있습니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p class="bold">[!UICONTROL 설치]</p> </td> 
-   <td> <p><b>[!UICONTROL Setup]</b>을(를) 클릭하면 [!DNL Workfront] 계정의 다양한 측면을 구성할 수 있는 [!UICONTROL Setup] 영역으로 이동합니다. 액세스 설정에 따라 구성할 수 있는 항목이 제한될 수 있습니다.</p> <p>[!UICONTROL Setup] 영역에 대한 자세한 내용은 <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">관리 및 설정: 문서 인덱스</a>를 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p class="bold">[!UICONTROL 도움말]</p> </td> 
-   <td> <p><b>[!UICONTROL 도움말]</b>을 클릭하면 도움말 문서에 액세스하고, 교육을 찾고, 고객 지원 티켓을 제출하는 등의 작업을 수행할 수 있는 [!DNL Adobe Experience League] (으)로 이동합니다.</p> <p>[!DNL Experience League]이나 다른 도움말 방법에 대한 자세한 내용은 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Adobe Workfront에서 도움말을 찾는 빠른 안내</a>를 참조하세요.</p> </td> 
-  </tr>
-
-<tr> 
-   <td> <p class="bold">[!UICONTROL 로그아웃]</p> </td> 
-   <td><b>[!UICONTROL Logout]</b>을(를) 클릭하면 [!DNL Workfront]에서 로그아웃됩니다.</td> 
-  </tr> 
- </tbody> 
-</table>
 

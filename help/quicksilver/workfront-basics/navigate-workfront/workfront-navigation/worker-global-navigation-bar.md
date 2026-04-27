@@ -7,16 +7,16 @@ description: ' [!DNL Adobe Workfront] 관리자가 할당한 액세스 수준에
 author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 1b44fbfc6900efe247db760e958f626d665754c7
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 작업] 라이선스 사용자의 탐색 이해
 
-[!UICONTROL &#x200B; 관리자가 귀하에게 할당한 액세스 수준에 따라 &#x200B;]주 메뉴[!DNL Adobe Workfront]가 변경됩니다. 기본적으로 액세스 수준에서 허용하는 기능을 포함하는 영역에만 액세스할 수 있습니다. 각 액세스 수준의 기본 레이아웃의 구성 요소를 이해하려면 [기본 정보 [!DNL Adobe Workfront] 레이아웃](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)을 참조하세요.
+[!DNL Adobe Workfront] 관리자가 귀하에게 할당한 액세스 수준에 따라 [!UICONTROL 주 메뉴]가 변경됩니다. 기본적으로 액세스 수준에서 허용하는 기능을 포함하는 영역에만 액세스할 수 있습니다. 각 액세스 수준의 기본 레이아웃의 구성 요소를 이해하려면 [기본 정보 [!DNL Adobe Workfront] 레이아웃](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)을 참조하세요.
 
 ## 작업자의 기본 [!UICONTROL 기본 메뉴] 이해
 
@@ -34,7 +34,9 @@ ht-degree: 0%
 
 * **[!UICONTROL 캘린더]**: 나와 공유된 캘린더가 여기에 표시됩니다. 자세한 내용은 [캘린더: 기사 색인](../../../reports-and-dashboards/reports/calendars/calendars.md)을 참조하세요.
 
-* **[!UICONTROL 팀]**: 팀에 할당된 작업 및 문제가 이 영역에 표시됩니다. 작업자는 기본적으로 [!DNL Workfront]팀[!UICONTROL &#x200B; 영역을 보는 유일한 &#x200B;] 사용자입니다.
+* **[!UICONTROL 리소스 조달]**: 리소스 계획 도구에서 리소스 할당을 보고 여기에서 리소스 풀을 볼 수 있습니다. 자세한 내용은 [리소스 관리](../../../resource-mgmt/manage-resources.md)를 참조하세요.
+
+* **[!UICONTROL 팀]**: 팀에 할당된 작업 및 문제가 이 영역에 표시됩니다. 작업자는 기본적으로 [!UICONTROL 팀] 영역을 보는 유일한 [!DNL Workfront] 사용자입니다.
 
   자세한 내용은 [팀 만들기 및 관리](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)를 참조하십시오.
 
@@ -44,13 +46,13 @@ ht-degree: 0%
 
 * **[!UICONTROL 문서]**: 여기에서 문서를 업로드하거나 나와 공유된 문서를 검토할 수 있습니다. 자세한 내용은 [문서](../../../documents/documents-overview.md)를 참조하십시오.
 
-* **[!UICONTROL 리소스 조달]**: 리소스 계획 도구에서 리소스 할당을 보고 여기에서 리소스 풀을 볼 수 있습니다. 자세한 내용은 [리소스 관리](../../../resource-mgmt/manage-resources.md)를 참조하세요.
+* **[!UICONTROL 블루프린트]**: [!DNL Workfront] 관리자가 블루프린트에 대한 요청 큐를 구성한 경우 시스템에서 기존 블루프린트를 검토하고 설치할 블루프린트를 요청합니다. 자세한 내용은 [블루프린트 개요](../../../administration-and-setup/blueprints/blueprints-overview.md)를 참조하십시오.
+
+* **[!UICONTROL 우선 순위]**: 작업을 빠르게 관리하고 우선 순위를 지정할 수 있습니다. 자세한 내용은 [우선 순위 시작](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)을 참조하세요.
 
 * **[!UICONTROL 보드]**: 수행할 작업을 반영하는 열과 카드가 포함된 공유 보드를 사용하여 팀 구성원과 융통성 있게 작업하고 공동 작업합니다. 자세한 내용은 [게시판 시작: 문서 색인](../../../agile/get-started-with-boards/get-started-with-boards.md)을 참조하세요.
 
-* **[!UICONTROL 블루프린트]**: [!DNL Workfront] 관리자가 블루프린트에 대한 요청 큐를 구성한 경우 시스템에서 기존 블루프린트를 검토하고 설치할 블루프린트를 요청합니다. 자세한 내용은 [블루프린트 개요](../../../administration-and-setup/blueprints/blueprints-overview.md)를 참조하십시오.
-
-![작업자 주 메뉴](assets/worker-main-menu-350x426.png)
+![작업자 주 메뉴](assets/worker-main-menu-2026.png)
 
 ## 기본 [!UICONTROL 기본 메뉴] 사용자 지정
 
