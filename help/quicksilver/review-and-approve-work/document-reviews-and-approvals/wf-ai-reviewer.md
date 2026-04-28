@@ -11,8 +11,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 72fa86e6dc653905181603e0111f65eb0ca5965b
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 1%
+source-wordcount: '789'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Workfront에서 컨텐츠 검토자를 설정하려면 시스템 관리자여야
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="지원되지 않는 파일 유형"
->abstract="이 콘텐츠 검토자는 선택한 파일 형식을 지원하지 않습니다. 지원되는 파일 유형을 업로드하거나 콘텐츠 검토자를 제거하여 요청을 제출합니다."
+>abstract="이 콘텐츠 검토자는 선택한 파일 형식을 지원하지 않습니다. 지원되는 파일 유형을 업로드하거나 콘텐츠 검토자를 제거하여 요청을 제출하십시오."
 
 콘텐츠 검토자는 다음 파일 유형을 검토할 수 있습니다.
 
