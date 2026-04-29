@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: ccdace08434cd2abc1290a1ae038ba20f0adbdf6
 workflow-type: tm+mt
-source-wordcount: '3544'
+source-wordcount: '3571'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 | ![대상 필드에 대한 편집 논리](assets/editability-logic-icon.png) | 필드는 편집 가능성 논리가 적용되는 대상 필드입니다. 정의된 조건이 충족되는 경우 필드를 편집할 수 있거나 읽기 전용으로 사용할 수 있습니다. 대상 필드 및 참조 필드는 편집 가능 논리에 대해 동일할 수 있습니다. |
 | ![참조 필드에 대한 편집 논리](assets/editability-logic-reference-field.png) | 필드는 편집 논리의 참조 필드입니다. 이 필드에서 정의된 조건이 충족되면 대상 필드에 논리가 적용됩니다. 대상 필드 및 참조 필드는 편집 가능 논리에 대해 동일할 수 있습니다. |
 
-[논리 아이콘](assets/custom-form-logic-icon-samples.png)
+![논리 아이콘](assets/custom-form-logic-icon-samples.png)
 
 표시 및 건너뛰기 논리에만 해당하는 경우 필드 설정에서 기존 논리 규칙을 표시할 필드를 선택합니다.
 
@@ -234,7 +234,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->양식 디자이너의 표준 기본값 논리는 여전히 존재합니다. 두 유형이 동일한 필드에 적용되는 경우 고급 논리가 우선합니다. 표준 기본값 논리에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)에서 [라디오 단추, 확인란 그룹 및 드롭다운 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+>양식 디자이너의 표준 기본값 논리는 여전히 존재합니다. 두 유형이 동일한 필드에 적용되는 경우 고급 논리가 우선합니다. 표준 기본값 논리에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에서 [라디오 단추, 확인란 그룹 및 드롭다운 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)를 참조하십시오.
 
 ### 예
 
