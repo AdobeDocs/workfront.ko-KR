@@ -8,16 +8,16 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL 스크럼] 구성
 
-[!DNL Adobe Workfront]애자일 팀 만들기[에 설명된 대로 &#x200B;](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
+[애자일 팀 만들기](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)에 설명된 대로 [!DNL Adobe Workfront]에서 애자일 팀을 만들 수 있습니다. 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
 
 * 스크럼
 * 칸반
@@ -82,7 +82,8 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
    [!UICONTROL 표준], [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
-   ![팀 편집](assets/edit-team-settings-350x205.png)
+
+   ![팀 편집](assets/edit-team-settings-scrum.png)
 
 1. **[!UICONTROL 애자일]** 섹션의 **[!UICONTROL 다음에서 스토리 예상]** 영역에서 스토리의 크기(작업 부하)를 예상하는 데 포인트를 사용할지 또는 시간을 사용할지 여부를 선택합니다. 점(Points)을 선택하는 경우 1점과 동일한 시간을 지정합니다. (기본값은 1포인트 = 8시간입니다.) 스토리에 추가된 계획된 시간 수입니다.
 
@@ -106,16 +107,12 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 {{step1-to-team}}
 
 1. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
-
 1. 관리할 애자일 팀을 선택합니다.
 1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
    [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
 
-   ![팀 편집](assets/edit-team-settings-350x205.png)
-
 1. **[!UICONTROL 애자일]** 섹션에서 **[!UICONTROL 스토리 게시판]** 영역을 찾습니다.
-
 1. (선택 사항) 스토리 보드에 상태 열을 추가하려면 **[!UICONTROL 열 추가]**&#x200B;를 클릭합니다.
 1. (선택 사항) 드래그 앤 드롭 표시기를 사용하여 상태 열을 드래그하여 스토리 보드의 상태 열을 재정렬합니다. 첫 번째 열은 이동할 수 없으며 첫 번째 열 앞에 다른 열을 드래그할 수 없습니다.
 
@@ -137,7 +134,7 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
 ### 프로젝트에 대한 상태 열 구성 {#configure-status-columns-for-projects}
 
-프로젝트의 상태 열을 구성하는 방법에 대한 자세한 내용은 문서 [다음 위치에서 보기 만들기 또는 편집[!UICONTROL 에서 &#x200B;]애자일](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) 보기 만들기 또는 사용자 지정[&#x200B; 섹션을 참조하십시오. [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+프로젝트의 상태 열을 구성하는 방법에 대한 자세한 내용은 문서 [다음 위치에서 보기 만들기 또는 편집 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)에서 [애자일] 보기 만들기 또는 사용자 지정](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) 섹션을 참조하십시오.[!UICONTROL 
 
 ## 애자일 스토리 보드에서 스토리 카드에 표시할 추가 필드를 구성합니다.
 
@@ -164,12 +161,10 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 {{step1-to-team}}
 
 1. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
-
 1. 관리할 애자일 팀을 선택합니다.
 1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
-[!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
 
-   ![팀 편집](assets/edit-team-settings-350x205.png)
+   [!UICONTROL 표준], [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
 
 1. **[!UICONTROL 애자일]** 섹션에서 필드 이름을 입력하여 찾습니다.
 
@@ -188,15 +183,12 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 {{step1-to-team}}
 
 1. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
-
 1. 관리할 애자일 팀을 선택합니다.
 1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
-   [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
+   [!UICONTROL 표준], [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
 
-   ![팀 편집](assets/edit-team-settings-350x205.png)
-
-1. [!UICONTROL 애자일] 섹션의 [!UICONTROL 카드 색상을 &#x200B;]에 연결 영역에서 다음 옵션 중 하나를 선택하십시오.
+1. [!UICONTROL 애자일] 섹션의 [!UICONTROL 카드 색상을 ]에 연결 영역에서 다음 옵션 중 하나를 선택하십시오.
 
    * **[!UICONTROL 프로젝트]**: 스토리가 연결된 프로젝트와 색상이 연결되어 있습니다. 스토리가 만들어지면 [애자일 스토리 만들기](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md)에 설명된 대로 프로젝트와 연결되어야 합니다. 동일한 프로젝트의 모든 작업이 동일한 색상으로 표시됩니다.
    * **[!UICONTROL 자유 형식]**: 스크럼 보드의 [[!UICONTROL 색상별 스토리 분류]에 설명된 대로 사용자가 색상을 수동으로 변경할 때까지 기본적으로 모든 카드가 파란색으로 표시됩니다](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
@@ -209,7 +201,6 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
         시스템 관리자가 [!DNL Workfront] 시스템에 대해 사용자 지정 우선 순위를 구성한 경우 가장 높은 우선 순위는 빨간색이고 두 번째 높은 우선 순위는 노란색이며 세 번째 높은 우선 순위는 녹색입니다.
    * **[!UICONTROL 작업 소유자]**: 기본 피할당자가 같은 모든 스토리의 색이 같습니다. 기본 할당자는 작업에 처음 할당된 사용자입니다.
 
-
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 
 ## 반복에 작업 항목을 추가할 때 날짜가 적용되는 방식 구성
@@ -220,12 +211,15 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
 1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 스크럼 팀을 선택하거나 검색 창에서 팀을 검색합니다.
 1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
-[!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
-1. [!UICONTROL 애자일] 섹션의 [!UICONTROL 작업 항목이 반복에 추가되면] 영역에서 다음 옵션 중 하나를 선택하십시오.
+
+   [!UICONTROL 표준], [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
+
+1. [!UICONTROL 애자일] 섹션의 [!UICONTROL **작업 항목이 반복에 추가되면**] 영역에서 다음 옵션 중 하나를 선택하십시오.
 
    * **[!UICONTROL 반복 시작 및 종료 날짜와 일치하도록 계획된 시작 날짜 및 계획된 완료 날짜를 수정합니다]**: 작업 항목이 반복에 추가되면 작업 항목 날짜가 반복 날짜로 변경됩니다.
 
-     날짜가 수정되는 방법에 대한 자세한 내용은 [기존 반복에 스토리 추가](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates) 문서의 [스토리 추가가 작업 날짜에 미치는 영향 이해](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) 섹션을 참조하십시오.
+     날짜가 수정되는 방법에 대한 자세한 내용은 [기존 반복에 스토리 추가](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) 문서의 [스토리 추가가 작업 날짜에 미치는 영향 이해](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates) 섹션을 참조하십시오.
+
    * **[!UICONTROL 반복 시작 및 종료 날짜와 일치하도록 계획된 시작 날짜와 계획된 완료 날짜를 수정하지 마십시오]**: 작업 항목이 반복에 추가되면 작업 항목은 원래 날짜를 유지합니다.
 
    날짜 옵션을 변경하면 반복에 이미 있는 작업 항목의 날짜가 조정되지 않습니다.
