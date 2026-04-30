@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '697'
 ht-degree: 2%
 
 ---
@@ -113,7 +113,7 @@ Old:
    * 포트폴리오 [!UICONTROL 정렬]
    * 포트폴리오 [!UICONTROL 순 가치]
 
-1. (선택 사항)   왼쪽 패널의 **[!UICONTROL 프로젝트]**&#x200B;를 클릭하여 선택한 포트폴리오와 연결된 프로젝트를 확인한 다음 **[!UICONTROL 필터]** 드롭다운 메뉴에서 다음 필터 중 하나를 선택합니다.
+1. (선택 사항) 왼쪽 패널에서 **[!UICONTROL 프로젝트]**&#x200B;를 클릭하여 선택한 포트폴리오와 연결된 프로젝트를 확인한 다음 **[!UICONTROL 필터]** 드롭다운 메뉴에서 다음 필터 중 하나를 선택합니다.
 
    * **[!UICONTROL 활성]**: 다음 상태의 선택한 포트폴리오와 연결된 모든 프로젝트를 포함합니다.
 
@@ -133,7 +133,7 @@ Old:
      필터 만들기에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
 
-1. 왼쪽 패널의 **[!UICONTROL 프로그램]**&#x200B;을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
+1. 왼쪽 패널의 **[!UICONTROL 프로그램]**을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
 프로그램에 대한 자세한 내용은 [프로그램 만들기 및 관리](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) 섹션을 참조하십시오.
 
 1. (선택 사항) 왼쪽 패널에서 **[!UICONTROL Portfolio 세부 정보]** 영역을 확장한 다음 **[!UICONTROL 개요]** 또는 **[!UICONTROL 사용자 지정 Forms]**&#x200B;를 클릭하여 포트폴리오에 대한 정보를 편집합니다.
@@ -144,12 +144,28 @@ Old:
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL Portfolio Optimizer]에 액세스하려면 회사에 [!DNL Workfront]Prime[!UICONTROL &#x200B; 이상 &#x200B;] 패키지가 있어야 합니다.
+   >[!UICONTROL Portfolio Optimizer]에 액세스하려면 회사에 [!UICONTROL Prime] 이상 [!DNL Workfront] 패키지가 있어야 합니다.
    >
 
    Portfolio Optimizer 사용에 대한 자세한 내용은 [Portfolio Optimizer에서 프로젝트 관리: 문서 색인](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) 섹션을 참조하십시오.
 
 1. (선택 사항) 포트폴리오에 문서를 첨부하려면 왼쪽 패널에서 **문서**&#x200B;를 클릭합니다.
+
+   >[!NOTE]
+   >
+   >포트폴리오에 문서를 추가하는 방법은 조직이 Workfront에 사용하는 스토리지 유형에 따라 다릅니다.
+   >일부 고객은 다음 문서 스토리지 환경 모두에 액세스할 수 있습니다.
+   >
+   >  * **기존 Workfront 저장소**: 이 저장소를 사용하는 포트폴리오의 이름 옆에 기존 저장소 아이콘 ![기존 저장소 아이콘](assets/legacy-storage-project-icon.png)이(가) 있습니다.
+   >  * **Adobe 엔터프라이즈 스토리지**
+   >
+   >Workfront 관리자가 귀사에서 사용하는 스토리지를 결정하거나 각 포트폴리오를 연결할 스토리지를 선택할 수 있도록 합니다.
+   >자세한 내용은 [조직에 Adobe 엔터프라이즈 스토리지 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하십시오.
+   >
+   >포트폴리오에 문서를 추가하는 방법은 사용하는 스토리지 유형에 따라 다릅니다.
+   >
+   >자세한 내용은 [파일 시스템에서 Adobe Workfront에 문서 추가](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)를 참조하십시오.
+
 1. (선택 사항) 포트폴리오의 업데이트 스트림에 설명을 추가하려면 왼쪽 패널에서 **[!UICONTROL 업데이트]**&#x200B;를 클릭합니다. 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 1. (선택 사항) 다음 중 하나를 수행하려면 **[!UICONTROL 기타] 메뉴** ![기타 메뉴](assets/qs-more-icon-on-an-object.png)를 클릭하십시오.
 

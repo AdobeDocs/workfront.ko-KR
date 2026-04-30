@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '924'
 ht-degree: 3%
 
 ---
@@ -112,6 +112,9 @@ Old:
 * **문제가 요청 대기열과 연결되어 있는 경우:** 문제를 다른 개체로 이동했을 때 문제가 요청 대기열과 연결되어 있으면 이동된 문제는 첫 번째 문제가 발생한 원래 대기열과 더 이상 연결되지 않습니다.
 * **문서가 문제에 첨부되어 있을 때:** 문제를 다른 개체로 옮기면 문제에 문서가 첨부되어 있을 때 문서, 해당 버전 및 증명도 새 문제로 이동합니다. 문서와 연결된 모든 승인이 이동되지 않습니다.
 * **문제가 문서 또는 폴더에 연결되어 있는 경우:** 문서 또는 폴더가 Google Drive와 같은 서드파티 서비스에 연결되어 있는 문제를 이동하면 문서에 대한 링크가 문제와 함께 이동합니다.
+* **저장소 형식이 다른 프로젝트 간 문제를 이동할 때**: Workfront 저장소 프로젝트에서 Adobe 저장소 프로젝트로 문제를 복사할 수 없습니다. 그 반대도 마찬가지다. 모든 고객에게 두 가지 유형의 스토리지가 있는 것은 아닙니다.
+
+  자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
 ## 목록에서 문제 이동
 

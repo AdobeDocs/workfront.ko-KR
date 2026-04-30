@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 3%
+source-wordcount: '1614'
+ht-degree: 2%
 
 ---
 
@@ -167,6 +167,17 @@ Old:
 
      문제를 전환하여 프로젝트를 만들 때 템플릿을 사용하는 경우 위의 두 번째 시나리오를 참조하여 어떤 그룹 및 Workfront이 새 프로젝트에 적용되는지 파악하십시오.
 
+* 프로젝트와 그 하위 객체(작업 및 문제)에 문서가 저장되는 위치는 Workfront 관리자가 설정의 시스템 환경 설정 영역에서 스토리지 환경 설정에 대한 기본값으로 선택하는 항목에 따라 다릅니다. Workfront 인스턴스에서 문서를 저장하는 위치에 따라 다음 유형의 프로젝트를 만들 수 있습니다.
+
+   * 레거시 Workfront 스토리지 프로젝트
+   * Adobe 엔터프라이즈 스토리지 프로젝트
+
+  자세한 내용은 [조직에 Adobe 엔터프라이즈 스토리지 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하십시오.
+
+* 엔터프라이즈 스토리지 프로젝트를 만들 때 프로젝트의 **문서** 섹션에 프로젝트 이름과 동일한 문서 폴더가 만들어집니다. 프로젝트에 작업을 추가하면 작업 이름이 포함된 폴더가 각 작업의 **문서** 섹션에 추가됩니다.
+
+자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
+
 ## 처음부터 프로젝트 만들기
 
 >[!NOTE]
@@ -175,15 +186,40 @@ Old:
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 사용 가능한 경우 왼쪽 위의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 또는 Adobe Workfront 오른쪽 위의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을(를) 클릭한 다음 **프로젝트**&#x200B;를 클릭하고 **새 프로젝트**&#x200B;를 확장합니다.
+   * 왼쪽 상단의 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **프로젝트**&#x200B;를 클릭하고 **새 프로젝트**&#x200B;를 확장합니다.
    * 포트폴리오로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 프로그램으로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 그룹 관리자는 관리하는 그룹의 프로젝트 섹션에서 프로젝트를 만들 수도 있습니다. 자세한 내용은 [그룹의 프로젝트 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)을 참조하세요.
 
-   ![새 프로젝트 메뉴](assets/new-project-dropdown-nwe-350x358.png)
+   ![새 프로젝트 메뉴](assets/new-project-drop-down-with-legacy-storage-option.png)
 
-1. 처음부터 프로젝트를 만들려면 메뉴에서 **새 프로젝트**&#x200B;를 클릭하십시오.
-1. 프로젝트의 이름을 입력합니다. Enter 키를 눌러 이름을 저장합니다.
+1. (조건부) 조직에서 사용 중인 문서 저장소에 따라 다음 중 하나를 클릭합니다.
+
+   * **새 프로젝트**. Workfront 관리자가 **Adobe Enterprise** 또는 **기존 Workfront**&#x200B;를 선택하고 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정을 선택하거나 선택하지 않은 경우.
+   * **새 프로젝트(기존 저장소)**, Workfront 관리자가 **Adobe Enterprise** 또는 **기존 Workfront**&#x200B;를 선택하고 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정도 선택한 경우.
+
+     이 옵션은 [설정] 영역에서 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정을 선택한 경우에만 표시됩니다.
+
+     자세한 내용은 [조직에 Adobe 엔터프라이즈 스토리지 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하십시오.
+
+     >[!NOTE]
+     >
+     >Workfront 스토리지 포트폴리오나 프로그램에서 엔터프라이즈 스토리지 프로젝트를 만들면 해당 포트폴리오나 프로그램도 엔터프라이즈 스토리지 객체로 변환됩니다. 동일한 포트폴리오 또는 프로그램에 속한 다른 모든 Workfront 스토리지 프로젝트는 변경되지 않습니다.
+
+     프로젝트가 생성되며 기본 이름은 Workfront에서 문서에 사용하는 스토리지에 따라 다음과 같은 패턴을 따릅니다.
+
+      * Workfront 저장소 프로젝트용 **제목 없는 프로젝트**.
+
+        Workfront 스토리지 프로젝트는 이름 옆에 **기존 Workfront 스토리지** 아이콘 ![기존 스토리지 프로젝트 아이콘](assets/legacy-storage-project-icon.png)을 표시합니다.
+
+      * Adobe 스토리지 프로젝트의 **제목 없는 프로젝트 - &lt; Month day, year hour.minute.second >**
+
+        >[!IMPORTANT]
+        >
+        >Adobe 엔터프라이즈 스토리지를 사용하는 프로젝트의 이름은 고유해야 합니다.
+
+
+1. 프로젝트 헤더에서 프로젝트의 이름을 업데이트합니다. Enter 키를 눌러 이름을 저장합니다.
 
    ![프로젝트 이름 입력](assets/rename-untitled-project.png)
 

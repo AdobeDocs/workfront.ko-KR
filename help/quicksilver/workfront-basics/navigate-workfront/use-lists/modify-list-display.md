@@ -7,9 +7,9 @@ author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -74,9 +74,9 @@ ht-degree: 2%
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+    
    By default, groupings are collapsed.
-   </MadCap:conditionalText>
+    
    <br> </p>
    -->
 
@@ -100,7 +100,7 @@ ht-degree: 2%
    >오브젝트에 서식이 지정된 텍스트 필드가 있는 큰 목록에서 최상의 성능을 얻으려면 이 숫자를 250으로 제한하는 것이 좋습니다.
    >
    >
-   >두 목록 유형에 대한 자세한 내용은 문서 [목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)에서 [업데이트된 목록과 기존 목록의 차이점 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) 섹션을 참조하십시오.
+   >두 목록 유형에 대한 자세한 내용은 문서 [목록 시작 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)에서 [업데이트된 목록과 기존 목록의 차이점](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 섹션을 참조하십시오.
 
    목록의 결과는 페이지당 선택한 항목 수를 표시하도록 페이지가 지정됩니다. 뒤로 및 앞으로 화살표를 클릭하거나 특정 페이지를 선택하여 다른 페이지의 결과에 액세스할 수 있습니다.
 

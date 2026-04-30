@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '3318'
+source-wordcount: '3385'
 ht-degree: 1%
 
 ---
@@ -342,7 +342,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 전자 메일 로케일]</strong> </td> 
    <td><p>여기에서 원하는 언어를 지정하십시오. 발신 전자 메일 메시지에 사용되는 언어, 날짜 및 숫자 형식을 제어합니다.</p>
-   <p><strong>참고:</strong> 조직에서 Adobe 통합 환경을 사용하는 경우 언어 환경 설정은 Adobe 프로필에 저장되고 전자 메일 로케일은 사용되지 않습니다. 자세한 내용은 문서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Experience Cloud에서 지원되는 언어</a>에서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Workfront 언어 변경</a>을 참조하십시오.</p></td> 
+   <p><strong>참고:</strong> 조직에서 Adobe 통합 환경을 사용하는 경우 언어 환경 설정은 Adobe 프로필에 저장되고 전자 메일 로케일은 사용되지 않습니다. 자세한 내용은 문서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Experience Cloud에서 지원되는 언어</a>에서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Workfront 언어 변경</a>을 참조하십시오.</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL 작업이 자동으로 할당되면 작업 상태를 진행 중으로 자동 설정합니다.]</strong> </td>
   <td>자신에게 할당한 작업 상태를 새로 만들기 대신 진행 중으로 자동 설정하려면 이 옵션을 선택합니다.</td>
@@ -372,7 +372,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 이 활성 상태입니다]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL이 활성 상태입니다]</strong> </td> 
    <td>이 필드는 [!DNL Workfront] 관리자이기도 한 사용자만 볼 수 있으며 기본적으로 활성화되어 있어야 합니다. 사용자가 활성 상태로에 로그인할 수 있음을 의미합니다. [!DNL Workfront]</td> 
   </tr> 
   <tr> 
@@ -381,18 +381,18 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 레이아웃 템플릿]</strong> </td> 
-   <td>이 필드는 [!UICONTROL Standard], [!UICONTROL Plan] 또는 [!UICONTROL [!DNL Workfront] 관리자] 액세스 수준이 있는 사용자에게 표시되며, 관리자 액세스 권한도 있는 [!UICONTROL [!DNL Workfront] 관리자] 또는 [!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스를 가진 사용자만 편집할 수 있습니다. 여기에서 레이아웃 템플릿을 선택하여 Workfront 인터페이스의 룩과 필드를 업데이트합니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">사용자 액세스 권한 부여</a>에서 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자 액세스 수준을 사용하여 사용자를 편집하도록 사용자 액세스 권한 구성</a>을 참조하십시오.<br>레이아웃 템플릿 및 이러한 템플릿이 인터페이스에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">레이아웃 템플릿 만들기 및 관리</a>를 참조하십시오.</td> 
+   <td>이 필드는 [!UICONTROL Standard], [!UICONTROL Plan] 또는 [!UICONTROL [!DNL Workfront] 관리자] 액세스 수준이 있는 사용자에게 표시되며, 관리자 액세스 권한도 있는 [!UICONTROL [!DNL Workfront] 관리자] 또는 [!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스를 가진 사용자만 편집할 수 있습니다. 여기에서 레이아웃 템플릿을 선택하여 Workfront 인터페이스의 룩과 필드를 업데이트합니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자 액세스 권한 부여</a>에서 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">사용자 액세스 수준을 사용하여 사용자를 편집하도록 사용자 액세스 권한 구성</a>을 참조하십시오.<br>레이아웃 템플릿 및 이러한 템플릿이 인터페이스에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">레이아웃 템플릿 만들기 및 관리</a>를 참조하십시오.</td> 
   </tr>
-  <!--
+  &lt;!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><strong>Log in as</strong> </td> 
-    <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you.
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-        <span class="PinkDraftNote">Add a note about this being only for the Enterprise package if they decide to do it that way. Functionality that may come in a later sprint: If you want to be notified when the administrator logs in as you, select Receive an email when this user logs in.</span> 
-       </MadCap:conditionalText>
-      </p> </td> 
-   </tr>
-  --> 
+    <td role="rowheader"><strong>다음으로 로그인</strong> </td> 
+    <td> <p><strong>현재 속한 그룹과 연결된 Workfront 관리자 또는 그룹 관리자에 대한 액세스 권한을 추가</strong>하여 사용자로 로그인하세요. 로그인을 위해 <strong>액세스 만료 날짜</strong>를 선택하십시오. </p> <p>이 작업을 반복하여 여러 관리자에게 로그인 액세스 권한을 부여할 수 있습니다.</p> <p>이 섹션에서 선택한 설정은 사용자만 볼 수 있습니다.
+
+    &lt;span class=&quot;PinkDraftNote&quot;>엔터프라이즈 패키지만 이 방법으로 수행하기로 결정한 경우 이에 대한 메모를 추가합니다. 이후 스프린트에서 제공될 수 있는 기능: 관리자가 사용자로 로그인할 때 알림을 받으려면 이 사용자가 로그인할 때 이메일 수신을 선택합니다.&lt;/span>
+    
+    &lt;/p> &lt;/td>
+</tr>
+  --&gt; 
   <tr> 
    <td role="rowheader"><strong>(조건부) [!UICONTROL 사용자가 증명을 생성할 수 있음(... 증명 라이선스 중... 남아 있음)]</strong></td> 
    <td>이 필드는 회사에서 레거시 [!DNL Workfront] 패키지를 사용하고 [!DNL Workfront Proof] 구성 요소를 구입한 경우에만 사용할 수 있습니다. 이 옵션을 선택하면 증명 사용자로 활성화됩니다. 구매한 총 증명 라이선스 수 중 시스템에 사용된 증명 라이선스 수도 표시됩니다. 이 필드는 [!DNL Workfront]명의 관리자이기도 한 사용자만 볼 수 있고 편집할 수 있습니다. [!DNL Workfront]에서 증명을 위한 플랜 옵션에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">증명 기능에 대한 액세스([!DNL Workfront]</a>)를 참조하십시오.</td>
@@ -432,11 +432,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 홈 팀]</strong> </td> 
-   <td> <p>드롭다운 메뉴에서 <strong>[!UICONTROL 홈 팀]</strong>을(를) 선택합니다. 이 필드는 [!UICONTROL Standard], [!UICONTROL Plan] 또는 [!UICONTROL System Administrator] 액세스 수준이 있는 사용자에게 표시되며, 관리자 액세스 권한도 있는 [!DNL Workfront]명의 관리자 또는 [!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스를 가진 사용자만 편집할 수 있습니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">사용자 액세스 권한 부여</a>에서 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자 액세스 수준을 사용하여 사용자를 편집하도록 사용자 액세스 권한 구성</a>을 참조하십시오.<br></p> <p>레이아웃 템플릿이 팀과 연결되어 있는 경우 <strong>홈 팀</strong>이(가) [!DNL Workfront] 인터페이스의 모양과 느낌에 영향을 줄 수 있습니다. </p> <p>팀에 대한 자세한 내용은 <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">팀 개요</a>를 참조하세요.</p> </td>
+   <td> <p>드롭다운 메뉴에서 <strong>[!UICONTROL 홈 팀]</strong>을(를) 선택합니다. 이 필드는 [!UICONTROL Standard], [!UICONTROL Plan] 또는 [!UICONTROL System Administrator] 액세스 수준이 있는 사용자에게 표시되며, 관리자 액세스 권한도 있는 [!DNL Workfront]명의 관리자 또는 [!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스를 가진 사용자만 편집할 수 있습니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자 액세스 권한 부여</a>에서 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">사용자 액세스 수준을 사용하여 사용자를 편집하도록 사용자 액세스 권한 구성</a>을 참조하십시오.<br></p> <p>레이아웃 템플릿이 팀과 연결되어 있는 경우 <strong>홈 팀</strong>이(가) [!DNL Workfront] 인터페이스의 모양과 느낌에 영향을 줄 수 있습니다. </p> <p>팀에 대한 자세한 내용은 <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">팀 개요</a>를 참조하세요.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 기타 팀]</strong> </td> 
-   <td> <p>두 개 이상의 팀에 속할 수 있습니다. 팀 이름을 입력하여 이 필드에 속한 추가 팀을 지정한 다음, 목록에 표시될 때 클릭하여 선택합니다. 너무 많은 팀에 속해 있으면 팀에 할당된 작업에 대해 혼란이 발생할 수 있습니다. 팀에 대한 자세한 내용은 <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">팀 개요</a>를 참조하세요.</p> <p>이 필드는 [!UICONTROL Standard], [!UICONTROL Plan] 또는 [!UICONTROL System Administrator] 라이선스가 있는 사용자에게 표시되며, [!DNL Workfront]명의 관리자 또는 [!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스가 있고 관리 사용자 액세스 권한도 있는 사용자만 편집할 수 있습니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">사용자 액세스 권한 부여</a>에서 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자 액세스 수준을 사용하여 사용자를 편집하도록 사용자 액세스 권한 구성</a>을 참조하십시오.</p> </td>
+   <td> <p>두 개 이상의 팀에 속할 수 있습니다. 팀 이름을 입력하여 이 필드에 속한 추가 팀을 지정한 다음, 목록에 표시될 때 클릭하여 선택합니다. 너무 많은 팀에 속해 있으면 팀에 할당된 작업에 대해 혼란이 발생할 수 있습니다. 팀에 대한 자세한 내용은 <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">팀 개요</a>를 참조하세요.</p> <p>이 필드는 [!UICONTROL Standard], [!UICONTROL Plan] 또는 [!UICONTROL System Administrator] 라이선스가 있는 사용자에게 표시되며, [!DNL Workfront]명의 관리자 또는 [!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스가 있고 관리 사용자 액세스 권한도 있는 사용자만 편집할 수 있습니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자 액세스 권한 부여</a>에서 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">사용자 액세스 수준을 사용하여 사용자를 편집하도록 사용자 액세스 권한 구성</a>을 참조하십시오.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 홈 그룹]</strong> </td> 
@@ -461,11 +461,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 비활성화 날짜 설정]</strong></td>
-   <td><p>일정 시간이 지나면 계정을 비활성화하도록 예약하려면 이 단추를 클릭합니다. 표시되는 <strong>[!UICONTROL 예약된 비활성화 날짜]</strong>에서 계정이 비활성화되는 다음 날짜를 지정합니다. 사용자 비활성화에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">사용자 비활성화 또는 다시 활성화</a>에서 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">비활성화 예약</a>을 참조하세요. </p><p>[!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스가 있거나 [!DNL Workfront] 관리자인 경우 계정의 비활성화 필드를 편집할 수 있습니다. </p></td> 
+   <td><p>일정 시간이 지나면 계정을 비활성화하도록 예약하려면 이 단추를 클릭합니다. 표시되는 <strong>[!UICONTROL 예약된 비활성화 날짜]</strong>에서 계정이 비활성화되는 다음 날짜를 지정합니다. 사용자 비활성화에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">사용자 비활성화 또는 다시 활성화</a>에서 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">비활성화 예약</a>을 참조하세요. </p><p>[!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스가 있거나 [!DNL Workfront] 관리자인 경우 계정의 비활성화 필드를 편집할 수 있습니다. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 기본 역할]</strong></td> 
-   <td> <p>Workfront에서 수행할 수 있는 기본 작업 역할입니다. 할당된 모든 작업 및 문제도 기본적으로 이 작업 역할에 할당됩니다. 작업 역할은 리소스 관리에서 필수적입니다. 작업 역할에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">작업 역할 만들기 및 관리</a>를 참조하십시오.</p> <p>관리자 액세스 권한이 있는 [!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스가 있거나 [!DNL Workfront] 관리자인 경우에만 이 필드를 업데이트할 수 있습니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">사용자 액세스 권한 부여</a>에서 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자 액세스 수준을 사용하여 사용자를 편집하도록 사용자 액세스 권한 구성</a>을 참조하십시오.</p> </td> 
+   <td> <p>Workfront에서 수행할 수 있는 기본 작업 역할입니다. 할당된 모든 작업 및 문제도 기본적으로 이 작업 역할에 할당됩니다. 작업 역할은 리소스 관리에서 필수적입니다. 작업 역할에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">작업 역할 만들기 및 관리</a>를 참조하십시오.</p> <p>관리자 액세스 권한이 있는 [!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스가 있거나 [!DNL Workfront] 관리자인 경우에만 이 필드를 업데이트할 수 있습니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자 액세스 권한 부여</a>에서 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">사용자 액세스 수준을 사용하여 사용자를 편집하도록 사용자 액세스 권한 구성</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(조건부) [!UICONTROL 기본 역할]을 선택한 경우 [!UICONTROL FTE 가용성 백분율] 필드가 표시됩니다.</strong></td> 
@@ -473,7 +473,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 기타 역할]</strong> </td> 
-   <td> <p>[!DNL Workfront]에서 여러 작업 역할을 가질 수 있습니다. 작업 역할은 리소스 관리에서 필수적입니다. 작업 역할에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">작업 역할 만들기 및 관리</a>를 참조하십시오.</p> <p>관리자 액세스 권한이 있는 [!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스가 있거나 [!DNL Workfront] 관리자인 경우에만 이 필드를 업데이트할 수 있습니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">사용자 액세스 권한 부여</a>에서 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자 액세스 수준을 사용하여 사용자를 편집하도록 사용자 액세스 권한 구성</a>을 참조하십시오.</p> </td> 
+   <td> <p>[!DNL Workfront]에서 여러 작업 역할을 가질 수 있습니다. 작업 역할은 리소스 관리에서 필수적입니다. 작업 역할에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">작업 역할 만들기 및 관리</a>를 참조하십시오.</p> <p>관리자 액세스 권한이 있는 [!UICONTROL Standard] 또는 [!UICONTROL Plan] 라이선스가 있거나 [!DNL Workfront] 관리자인 경우에만 이 필드를 업데이트할 수 있습니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자 액세스 권한 부여</a>에서 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">사용자 액세스 수준을 사용하여 사용자를 편집하도록 사용자 액세스 권한 구성</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(조건부) 다른 역할을 하나 또는 여러 개 선택한 경우 각 역할에 대해 [!UICONTROL PERCENTAGE OF FTE Availability] 필드가 표시됩니다.</strong></td> 

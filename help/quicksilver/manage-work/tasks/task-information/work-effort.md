@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1532'
 ht-degree: 1%
 
 ---
@@ -41,17 +41,17 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">작업 노력 </td> 
    <td> <p>사용자가 작업을 완료하는 데 일일 작업량이 작은지, 중간인지 또는 크는지를 정의하는 수동 레이블입니다.
-   <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
-      </MadCap:conditionalText>
-     -->
-     </p> <p>작업 노력에 대해 다음 사항을 고려하십시오.</p>
-    <ul> 
-     <li>이 필드는 단순 기간 유형의 작업에만 사용할 수 있습니다. </li> 
-     <li>이 레이블의 사용을 활성화하고 프로젝트 수준에서 이와 연관된 작업 시간의 백분율을 정의할 수 있습니다. </li> 
-    </ul> </td> 
-  </tr> 
+   &lt;!--
+
+    작업량 수준은 일일 작업 시간의 백분율입니다. (참고: 이 초안을 유지합니다. Vazgen이 필요하지 않다고 말했지만 사용자의 피드백을 기다리고 있습니다)
+    
+    —>
+    &lt;/p> &lt;p>작업 노력에 대해 다음 사항을 고려하십시오.&lt;/p>
+    &lt;ul>
+    &lt;li>이 필드는 단순 기간 유형의 작업에만 사용할 수 있습니다. &lt;/li>
+    &lt;li>이 레이블의 사용을 활성화하고 프로젝트 수준에서 이와 연결된 작업 시간의 백분율을 정의할 수 있습니다. &lt;/li>
+    &lt;/ul> &lt;/td>
+</tr> 
  </tbody> 
 </table>
 

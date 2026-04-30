@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ note from the table for Object permissions:
 
 이 문서에 설명된 활동을 수행하기 전에 다음을 확인해야 합니다.
 
-* [!DNL Workfront] 또는 그룹 관리자가 [!UICONTROL **인스턴스의**]&#x200B;설정[!UICONTROL &#x200B; 영역에 있는 &#x200B;]작업 및 문제 환경 설정[!UICONTROL &#x200B; 섹션에서 &#x200B;]사용자가 작업 및 문제를 위임하도록 허용[!DNL Workfront] 설정을 사용하도록 설정했습니다.
+* [!DNL Workfront] 또는 그룹 관리자가 [!DNL Workfront] 인스턴스의 [!UICONTROL 설정] 영역에 있는 [!UICONTROL 작업 및 문제 환경 설정] 섹션에서 [!UICONTROL **사용자가 작업 및 문제를 위임하도록 허용**] 설정을 사용하도록 설정했습니다.
 
   자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
@@ -136,7 +136,7 @@ note from the table for Object permissions:
      >
      >종료 날짜 필드를 비워 두고 종료 날짜 없음 옵션을 선택하지 않으면 위임은 현재 날짜에만 설정됩니다.
 
-     ![대리자 상자 확장](assets/delegate-box-expanded-in-home.png)
+     ![대리자 상자 확장됨](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. [!UICONTROL **저장**]&#x200B;을 클릭합니다.
@@ -154,11 +154,11 @@ note from the table for Object permissions:
 
    * 작업 및 문제가 다른 사용자에게 위임되었다는 표시는 [!DNL Workfront]에서 할당을 볼 수 있는 대부분의 영역에 표시됩니다. 대리자 이름이 포함되지 않은 영역에 대한 자세한 내용은 [위임 작업 개요](delegate-work-overview.md)를 참조하십시오.
 
-   * 위임이 있음을 나타내기 위해 [!UICONTROL **Home**] 영역의 [!UICONTROL **Delegate**] 단추가 [!UICONTROL **위임 편집**] (으)로 변경됩니다.
+   * 위임이 있음을 나타내기 위해 [!UICONTROL **Home**] 영역의 [!UICONTROL **Delegate**] 단추가 [!UICONTROL **위임 편집**](으)로 변경됩니다.
      <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
       (NOTE: is this shot correct? See UI - this is a mock)
-      </MadCap:conditionalText>
+       
       -->
 
      ![위임 편집 단추](assets/edit-delegation-button-on-my-work-widget.png)
@@ -173,7 +173,7 @@ note from the table for Object permissions:
 
 종료 날짜를 선택하거나 수동으로 위임을 중지할 수 있습니다. 위임 날짜가 변경된 경우 위임 시간대를 수정할 수도 있습니다.
 
-1. [!UICONTROL **홈**] 영역으로 이동한 다음 [!UICONTROL **내 작업**], **내 작업** 또는 **내 문제** 위젯에서 **위임 편집**&#x200B;을 클릭합니다.
+1. [!UICONTROL **홈**] 영역으로 이동한 다음 **내 작업**, **내 작업** 또는 **내 문제** 위젯에서 [!UICONTROL **위임 편집**]&#x200B;을 클릭합니다.
 1. [!UICONTROL 작업 및 문제 위임 중지] 상자에서 다음 중 하나를 수행합니다.
    * [!UICONTROL **시작 날짜**] 또는 [!UICONTROL **종료 날짜**]&#x200B;를 수정하세요.
    * [!UICONTROL **위임 중지**] 클릭

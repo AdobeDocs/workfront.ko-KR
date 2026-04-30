@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 2%
+source-wordcount: '1388'
+ht-degree: 1%
 
 ---
 
@@ -124,7 +124,7 @@ Old:
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 사용 가능한 경우 왼쪽 위의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 또는 Adobe Workfront 오른쪽 위의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을(를) 클릭한 다음 **프로젝트**&#x200B;를 클릭하고 **새 프로젝트**&#x200B;를 확장합니다.
+   * 왼쪽 상단의 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **프로젝트**&#x200B;를 클릭하고 **새 프로젝트**&#x200B;를 확장합니다.
    * 포트폴리오로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
 
      >[!TIP]
@@ -153,15 +153,34 @@ Old:
 
    ![즐겨찾는 템플릿 선택](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
-   또는
-
-   다음을 수행합니다.
+   또는 다음을 수행합니다.
 
    1. **템플릿의 새 프로젝트**&#x200B;를 클릭합니다.
-   1. **템플릿 검색** 필드에서 템플릿 이름을 입력하고 목록에 표시될 때 클릭합니다.
-   1. 오른쪽의 템플릿 세부 사항을 검토합니다.
+   1. (선택 사항) **템플릿 검색** 필드에서 템플릿 이름을 입력하고 목록에 표시될 때 클릭합니다.
+   1. 다음 템플릿 유형 중 하나의 이름을 클릭하여 선택합니다.
 
-      템플릿 세부 정보에는 다음 항목이 포함됩니다.
+      * Workfront 스토리지 템플릿
+
+        Workfront 스토리지 템플릿은 이름 옆에 기존 스토리지 아이콘 ![기존 스토리지 아이콘](assets/legacy-storage-project-icon.png)을 표시합니다.
+
+        템플릿 및 향후 프로젝트에 대한 문서는 Workfront 저장소에 저장됩니다.
+      * Adobe 스토리지 템플릿
+
+        템플릿 및 향후 프로젝트에 대한 문서는 Adobe 엔터프라이즈 스토리지에 저장됩니다.
+
+      >[!NOTE]
+      >
+      >* Adobe 엔터프라이즈 스토리지 템플릿을 사용하면 Adobe 엔터프라이즈 스토리지 프로젝트가 만들어집니다.
+      >
+      >* Workfront 스토리지 템플릿을 사용하면 Workfront 스토리지 프로젝트가 만들어집니다.
+      >
+      >* Workfront 스토리지 포트폴리오 또는 프로그램에서 Adobe 엔터프라이즈 스토리지 템플릿을 사용하는 경우 프로젝트는 Adobe 엔터프라이즈 스토리지 프로젝트이며 포트폴리오 또는 프로그램도 Adobe 엔터프라이즈 스토리지 객체로 변환됩니다. 동일한 포트폴리오 또는 프로그램에 속한 다른 모든 Workfront 스토리지 프로젝트는 변경되지 않습니다.
+      >
+      > 모든 고객에게 두 가지 유형의 문서 저장소가 모두 있는 것은 아닙니다.
+      >
+      >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
+
+   1. 오른쪽에서 다음 템플릿 세부 사항을 검토합니다.
 
       * 템플릿 기간
       * 템플릿 소유자
@@ -207,9 +226,17 @@ Old:
 
    이전 단계에서 변경하지 않은 경우 템플릿에 정의된 모든 세부 정보가 새로 생성된 프로젝트와 자동으로 연결됩니다.
 
+   프로젝트의 문서 섹션에 있는 Adobe 스토리지 프로젝트에 대해 프로젝트와 동일한 이름의 문서 폴더가 자동으로 생성됩니다.
+
 ## 템플릿 영역의 템플릿에서 프로젝트 만들기
 
 프로젝트 영역에서 시작하는 대신 템플릿으로 시작하여 템플릿에서 프로젝트를 만들 수 있습니다.
+
+>[!NOTE]
+>
+>Workfront 문서 저장소와 관련된 템플릿은 기존 Workfront 스토리지 프로젝트를 만듭니다. Adobe 엔터프라이즈 문서 스토리지와 연관된 템플릿은 Adobe 스토리지 프로젝트를 만듭니다. 모든 고객에게 두 가지 유형의 스토리지가 있는 것은 아닙니다.
+>
+>자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
 {{step1-to-templates}}
 
@@ -233,3 +260,5 @@ Old:
 1. **프로젝트 만들기**&#x200B;를 클릭합니다.
 
    이전 단계에서 변경하지 않은 경우 템플릿에 정의된 모든 세부 정보가 새로 생성된 프로젝트와 자동으로 연결됩니다.
+
+   프로젝트의 문서 섹션에 있는 Adobe 스토리지 프로젝트에 대해 프로젝트와 동일한 이름의 문서 폴더가 자동으로 생성됩니다.
