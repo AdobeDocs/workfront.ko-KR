@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '763'
 ht-degree: 4%
 
 ---
 
 # 시스템 기본 정보 구성하기
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -66,23 +68,30 @@ Adobe Workfront 시스템 구성의 일부로, 고객 정보 페이지의 기본
 
    고객 정보 영역에서 사용할 수 있는 섹션은 다음과 같습니다.
 
-   * **기본 정보**
+* **기본 정보**
 
-     Workfront에서 기본 정보를 구성하는 방법에 대한 자세한 내용은 [기본 정보 구성](#configure-basic-info)을 참조하십시오.
+  Workfront에서 기본 정보를 구성하는 방법에 대한 자세한 내용은 [기본 정보 구성](#configure-basic-info)을 참조하십시오.
 
-   * **API 키 설정**
 
-     API 키 설정에 대한 자세한 내용은 [API 키 관리](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)를 참조하십시오.
 
-   * **IP 허용 목록**
+* <span class="preview">**저장소 개요**
 
-     사용자가 Workfront에 액세스할 수 있는 IP 주소를 허용 목록에 추가하는 방법에 대한 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
+  문서 저장소 사용 및 할당량 확인에 대한 자세한 내용은 [문서 저장소 제한 확인](../../documents/managing-documents/check-document-storage.md).</span>을 참조하세요.
 
-   * **전자 메일 허용 목록**
 
-     전자 메일을 허용 목록에 추가하다에 추가하는 방법에 대한 자세한 내용은 [전자 메일 구성](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)을 참조하십시오.
+* **API 키 설정**
 
-   <!--
+  API 키 설정에 대한 자세한 내용은 [API 키 관리](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)를 참조하십시오.
+
+* **IP 허용 목록**
+
+  사용자가 Workfront에 액세스할 수 있는 IP 주소를 허용 목록에 추가하는 방법에 대한 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
+
+* **전자 메일 허용 목록**
+
+  전자 메일을 허용 목록에 추가하다에 추가하는 방법에 대한 자세한 내용은 [전자 메일 구성](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)을 참조하십시오.
+
+<!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
@@ -132,14 +141,6 @@ Adobe Workfront 시스템 구성의 일부로, 고객 정보 페이지의 기본
       <td role="rowheader">기본 이메일 로케일</td> 
       <td>발신 전자 메일 메시지에 사용되는 언어, 날짜 및 숫자 형식을 제어합니다. 여기에서 선택한 로케일은 새 사용자를 만들 때 기본값입니다. 사용자는 사용자 프로필에서 로케일을 수정할 수 있습니다. 사용자가 로케일을 수정하면 Workfront 이메일의 언어, 날짜 및 번호 형식이 프로필 환경 설정과 일치합니다. 프로필 환경 설정 수정에 대한 자세한 내용은 <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">내 설정 구성</a>을 참조하세요.</td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">스토리지 할당량</td> 
-      <td> <p>Workfront 인스턴스에서 사용할 수 있는 문서 저장 공간의 양입니다.<br>할당량에는 Workfront에 직접 업로드하는 문서가 포함되어 있습니다.<br>다음을 포함하지 않습니다.</p> 
-       <ul> 
-        <li>다른 서드파티 서비스 공급자(SharePoint, Google Drive, Webdam, Box, Dropbox, 기타 모든 Document Asset Management 공급자)로부터 Workfront에 연결하는 문서입니다.</li> 
-        <li>Workfront 데이터(프로젝트, 작업, 문제, 사용자 등).</li> 
-       </ul> </td> 
-     </tr>
     </tbody> 
    </table>
 
