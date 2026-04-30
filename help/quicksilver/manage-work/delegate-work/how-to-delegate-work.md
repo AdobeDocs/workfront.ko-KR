@@ -154,7 +154,7 @@ note from the table for Object permissions:
 
    * 작업 및 문제가 다른 사용자에게 위임되었다는 표시는 [!DNL Workfront]에서 할당을 볼 수 있는 대부분의 영역에 표시됩니다. 대리자 이름이 포함되지 않은 영역에 대한 자세한 내용은 [위임 작업 개요](delegate-work-overview.md)를 참조하십시오.
 
-   * 위임이 있음을 나타내기 위해 [!UICONTROL **Home**] 영역의 [!UICONTROL **Delegate**] 단추가 [!UICONTROL **위임 편집**](으)로 변경됩니다.
+   * 위임이 있음을 나타내기 위해 [!UICONTROL **Home**] 영역의 [!UICONTROL **Delegate**] 단추가 [!UICONTROL **위임 편집**] (으)로 변경됩니다.
      <!--
        
       (NOTE: is this shot correct? See UI - this is a mock)
