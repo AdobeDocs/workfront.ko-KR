@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 89a9e5d0ecf2daa9b423251c5c87a98d967a66a5
 workflow-type: tm+mt
-source-wordcount: '21621'
+source-wordcount: '21714'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 # [!DNL Adobe Workfront] 용어 용어집
 
 <!--Audited: 12/2023-->
+
+Bob: 4-30
 
 >[!IMPORTANT]
 >
@@ -118,7 +120,7 @@ ht-degree: 0%
     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates</li>
     --> 
-     <li>[!UICONTROL Project] (재무 데이터)</li> 
+     <li>[!UICONTROL Project](재무 데이터)</li> 
      <li>[!UICONTROL 예산 시간]</li> 
     </ul> <p>의 경우
     <!--
@@ -135,7 +137,7 @@ ht-degree: 0%
        </MadCap:conditionalText>
      -->
       리소스에 할당된 [!UICONTROL 계획된 시간]의 양입니다.</li>
-     <li> <p>[!UICONTROL 할당 날짜]는 작업에 [!UICONTROL 작업 역할] 할당이 시작되는 주의 첫째 날(일요일)입니다. 리소스([!UICONTROL 작업 역할])는 할당된 작업의 [!UICONTROL Duration] 동안 주에 있는 수만큼 [!UICONTROL 할당 날짜]를 가질 수 있습니다. 작업이 여러 달에 걸쳐 있는 경우 해당 월의 첫 번째 날이 작업의 [!UICONTROL Duration] 내에 있으면 [!UICONTROL 할당 날짜]가 될 수도 있습니다.</p> <p>예를 들어, 3주 이상이고 [!UICONTROL 계획된 시간]이 90개인 작업에 [!UICONTROL 작업 역할]을 할당할 수 있습니다. 이러한 시간은 작업 기간 동안 균등하게 분배되므로 매일 작업 역할에 6 [!UICONTROL 계획된 시간]을 할당합니다.</p> <p><em> 작업의 </em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours]/ [!UICONTROL Duration] 동안 [!UICONTROL Work Days]의 수입니다. </p> <p>그 결과 세 개의 [!UICONTROL 할당 날짜]가 있으며, 작업의 [!UICONTROL 기간] 동안 매주 일요일마다 하나씩 특정 수의 [!UICONTROL 계획된 시간]과 연결되어 있습니다.<br>작업이 한 달의 마지막 주 중간에 시작되고 새 달 시작 후 2주 후에 끝나는 경우 작업에는 4개의 [!UICONTROL 할당 날짜]가 있습니다. 하나는 작업의 [!UICONTROL 기간] 동안 매주 일요일에, 하나는 새 달의 첫째 날에 사용됩니다.</p> <p>이 정보를 최대한 활용하려면
+     <li> <p>[!UICONTROL 할당 날짜]는 작업에 [!UICONTROL 작업 역할] 할당이 시작되는 주의 첫째 날(일요일)입니다. 리소스([!UICONTROL 작업 역할])는 할당된 작업의 [!UICONTROL Duration] 동안 주에 있는 수만큼 [!UICONTROL 할당 날짜]를 가질 수 있습니다. 작업이 여러 달에 걸쳐 있는 경우 해당 월의 첫 번째 날이 작업의 [!UICONTROL Duration] 내에 있으면 [!UICONTROL 할당 날짜]가 될 수도 있습니다.</p> <p>예를 들어, 3주 이상이고 [!UICONTROL 계획된 시간]이 90개인 작업에 [!UICONTROL 작업 역할]을 할당할 수 있습니다. 이러한 시간은 작업 기간 동안 균등하게 분배되므로 매일 작업 역할에 6 [!UICONTROL 계획된 시간]을 할당합니다.</p> <p></em> 작업의 <em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours]/ [!UICONTROL Duration] 동안 [!UICONTROL Work Days]의 수입니다. </p> <p>그 결과 세 개의 [!UICONTROL 할당 날짜]가 있으며, 작업의 [!UICONTROL 기간] 동안 매주 일요일마다 하나씩 특정 수의 [!UICONTROL 계획된 시간]과 연결되어 있습니다.<br>작업이 한 달의 마지막 주 중간에 시작되고 새 달 시작 후 2주 후에 끝나는 경우 작업에는 4개의 [!UICONTROL 할당 날짜]가 있습니다. 하나는 작업의 [!UICONTROL 기간] 동안 매주 일요일에, 하나는 새 달의 첫째 날에 사용됩니다.</p> <p>이 정보를 최대한 활용하려면
        <!--
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           Resource Estimates or a 
@@ -305,7 +307,8 @@ ht-degree: 0%
     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  added to the Capacity Planner but is excluded from the budget calculation,  the value is <i>Included but not Calculated</i>.  </li>
     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is  added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
     </ul>
-    --> </td> 
+    --> 
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 분류]</td> 
@@ -322,8 +325,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 예산 비용]</td>
-
-<td> <p>프로젝트의 리소스 예산 책정과 관련된 비용입니다. </p>
+   <td> <p>프로젝트의 리소스 예산 책정과 관련된 비용입니다. </p>
    <p>필드는 [!DNL Workfront]의 다음 영역에 다음 이름으로 표시됩니다.</p>
    <ul>
    <li>[!UICONTROL 비즈니스 사례 요약] 패널의 <strong>[!UICONTROL 예산 비용]</strong></li>
@@ -336,7 +338,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 예산 시간]</td> 
-   <td> <p>프로젝트에서 완료하는 데 필요한 작업에 대한 리소스 예산 시간. 이 필드는 프로젝트 또는 프로젝트 리소스에 대해 [!UICONTROL 비즈니스 사례] ([!UICONTROL 리소스 플래너])의 [!UICONTROL 리소스 예산 책정] 영역에서 예산이 책정된 시간을 나타냅니다.</p> <p>자세한 내용은 <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">프로젝트에 대한 [!UICONTROL 예산 인건비] 및 [!UICONTROL 예산 시간] 이해</a>를 참조하십시오. </p> 
+   <td> <p>프로젝트에서 완료하는 데 필요한 작업에 대한 리소스 예산 시간. 이 필드는 프로젝트 또는 프로젝트 리소스에 대해 [!UICONTROL 비즈니스 사례]([!UICONTROL 리소스 플래너])의 [!UICONTROL 리소스 예산 책정] 영역에서 예산이 책정된 시간을 나타냅니다.</p> <p>자세한 내용은 <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">프로젝트에 대한 [!UICONTROL 예산 인건비] 및 [!UICONTROL 예산 시간] 이해</a>를 참조하십시오. </p> 
     <!-- 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
@@ -365,7 +367,7 @@ ht-degree: 0%
        </tr> 
        <tr> 
         <td>[!UICONTROL 버드. Hours]</td> 
-        <td> <p>[!UICONTROL 예산 시간] 보고서</p><p>예산 시간 보고서의 [!UICONTROL 예산 시간] 개체는 더 이상 사용되지 않는 리소스 관리 도구와 관련된 정보를 참조합니다. "버드만. 이 보고서의 "시간" 필드는 프로젝트 [!UICONTROL 비즈니스 사례]의 [!UICONTROL 리소스 플래너] 또는 [!UICONTROL 리소스 예산 책정] 영역에서 예산 책정된 시간을 나타냅니다. </p> <p>보고서 만들기에 대한 자세한 내용은 문서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">사용자 지정 보고서 만들기</a>를 참조하십시오.</p> </td> 
+        <td> <p>[!UICONTROL 예산 시간] 보고서</p><p>예산 시간 보고서의 [!UICONTROL 예산 시간] 개체는 더 이상 사용되지 않는 리소스 관리 도구와 관련된 정보를 참조합니다. "[!UICONTROL 버드만. 이 보고서의 "시간" 필드는 프로젝트 [!UICONTROL 비즈니스 사례]의 [!UICONTROL 리소스 플래너] 또는 [!UICONTROL 리소스 예산 책정] 영역에서 예산 책정된 시간을 나타냅니다. </p> <p>보고서 만들기에 대한 자세한 내용은 문서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">사용자 지정 보고서 만들기</a>를 참조하십시오.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL 리소스 플래너 예산 시간] </td> 
@@ -472,7 +474,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 비즈니스 사례]</td> 
-   <td> <p>프로젝트를 [!UICONTROL Idea] 상태에서 [!UICONTROL Planning] 상태로 앞으로 이동해야 하는지 여부를 평가하는 데 사용되는 도구입니다. 즉, [!UICONTROL 비즈니스 사례]는 특히 포트폴리오의 다른 프로젝트와 비교할 때 프로젝트를 시작하고 완료하는 것이 가치가 있는지 여부를 조직에서 결정하는 데 도움이 됩니다.</p> <p>자세한 내용은 <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref"> 프로젝트에 대한 </a>[!UICONTROL 비즈니스 사례 만들기]를 참조하십시오.</p> </td> 
+   <td> <p>프로젝트를 [!UICONTROL Idea] 상태에서 [!UICONTROL Planning] 상태로 앞으로 이동해야 하는지 여부를 평가하는 데 사용되는 도구입니다. 즉, [!UICONTROL 비즈니스 사례]는 특히 포트폴리오의 다른 프로젝트와 비교할 때 프로젝트를 시작하고 완료하는 것이 가치가 있는지 여부를 조직에서 결정하는 데 도움이 됩니다.</p> <p>자세한 내용은 </a> 프로젝트에 대한 <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">[!UICONTROL 비즈니스 사례 만들기]를 참조하십시오.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 비즈니스 사례 예산 시간]</td> 
@@ -494,40 +496,30 @@ ht-degree: 0%
   </tr> 
    <tr> 
    <td>[!UICONTROL 시작 가능]</td> 
-   <td> <p>이 필드는 작업이 작업을 시작할 준비가 되었는지 여부를 나타냅니다. 시작할 준비가 되면 작업의 [!UICONTROL 시작 가능] 필드를 [!UICONTROL True]로 설정합니다. </p> <p>자세한 내용은 작업 <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">에 대한 </a>"[!UICONTROL 시작 가능]" 개요를 참조하십시오.</p> 
+   <td> <p>이 필드는 작업이 작업을 시작할 준비가 되었는지 여부를 나타냅니다. 시작할 준비가 되면 작업의 [!UICONTROL 시작 가능] 필드를 [!UICONTROL True]로 설정합니다. </p> <p>자세한 내용은 작업 </a>에 대한 <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">"[!UICONTROL 시작 가능]" 개요를 참조하십시오.</p> 
    <!--
      <p>(NOTE: everything below is drafted because I created a new article linked above with all this information - it was getting kind of too big for just a table cell)</p>
-    -->
-    <!--
      <p>Workfront checks for the following things before it marks a task as True for the Can Start field:<br></p>
-    --> 
-    <!--
      <ul> 
       <li> If the task has a parent, it checks to see if the value of Can Start for the parent it set to True. If the value for the parent is False, then all the subtasks have the value of Can Start set to False, as well.  </li> 
       <li> It also checks to see if the predecessors of the task as well as the predecessors of their parents are complete. If they are complete, the Can Start value for the task is set to True. If any of the task predecessors or their parents' predecessors are not complete, or have a status of Complete-Pending Approval, then the Can Start value for the task is set to False.  </li> 
      </ul>
-    --> 
-    <!--
      <p>For information about task predecessors, see <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overview of task predecessors</a>.</p>
-    -->
-    <!--
      <p>Tip: If the Dependency Type between a task and its predecessors is Start-Start, the predecessor must start before the predecessor relationship is considered resolved and the successor tasks can start. For information about dependency types, see <a href="../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md" class="MCXref xref">Overview of task dependency types</a>. </p>
-    -->
-    </td>
+   -->
+  </td>
   </tr>
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Capacity</td> 
     <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
    </tr>
-  -->
-
-<tr> 
+  --> 
+  <tr> 
    <td> <p>용량</p> </td> 
    <td> <p>작업에 할당할 수 있는 리소스 사용 가능 시간. "가용성"을 참조하십시오. </p></td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td> <p>[!UICONTROL 범주]</p> </td> 
    <td> <p>범주는 사용자 정의 양식입니다. 이 개체에 대한 보고서를 작성하고 다른 개체 보고서에도 표시할 수 있습니다. 일부 객체에는 사용자 정의 양식 또는 범주가 있을 수 없습니다. 다음 객체에는 사용자 정의 양식이 있을 수 있습니다. <br></p> 
     <ul> 
@@ -576,11 +568,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 하위 작업]</td> 
-   <td>[!UICONTROL 상위 작업] ([!UICONTROL 요약 작업])의 [!UICONTROL 하위 작업]인 작업입니다.</td> 
+   <td>[!UICONTROL 상위 작업]([!UICONTROL 요약 작업])의 [!UICONTROL 하위 작업]인 작업입니다.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 하위]</td> 
-   <td>[!UICONTROL 상위 작업] ([!UICONTROL 요약 작업])에 대한 [!UICONTROL 하위 작업]의 컬렉션입니다.</td> 
+   <td>[!UICONTROL 상위 작업]([!UICONTROL 요약 작업])에 대한 [!UICONTROL 하위 작업]의 컬렉션입니다.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Coaching] 및 [!UICONTROL Training]</td> 
@@ -621,7 +613,7 @@ ht-degree: 0%
    <td>[!UICONTROL 완료 모드]</td> 
    <td> <p>프로젝트가 [!UICONTROL Complete]로 표시되는 방식을 나타냅니다. 다음 두 가지 값을 가질 수 있습니다.</p> 
     <ul> 
-     <li>[!UICONTROL Manual]: 사용자는 프로젝트 상태를 [!UICONTROL Complete] (으)로 변경해야 합니다.</li> 
+     <li>[!UICONTROL Manual]: 사용자는 프로젝트 상태를 [!UICONTROL Complete](으)로 변경해야 합니다.</li> 
      <li>[!UICONTROL 자동]: 프로젝트의 모든 작업이 100% 완료되고 모든 문제가 종료되면 프로젝트 상태가 [!UICONTROL 완료]로 자동 변경됩니다.</li> 
     </ul> </td> 
   </tr> 
@@ -652,9 +644,8 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL 상태 업데이트]</td> 
    <td> <p>이 필드에는 작업, 프로젝트 또는 문제의 현재 상태가 표시됩니다. 이 옵션은 작업, 프로젝트 또는 문제의 소유자가 [!UICONTROL 업데이트 상태] 필드에 제공한 최신 업데이트와 새 조건을 표시합니다.</p> <p>조건 업데이트에 대한 설명은 [!UICONTROL 조건 업데이트] 열에 표시되지 않고 기본 업데이트만 표시됩니다.</p> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 연결된 레코드 유형]</td> 
    <td> <p>Workfront Planning에서 다음 중 하나를 연결할 수 있습니다. </p>
    <ul>
@@ -665,28 +656,24 @@ ht-degree: 0%
    <p>자세한 내용은 <a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md">연결된 레코드 종류 개요</a>를 참조하세요.  </p>
   <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p>
  </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 연결된 레코드]</td> 
    <td> <p>Workfront Planning에서 두 가지 레코드 유형을 연결한 후 해당 유형의 두 개별 레코드를 서로 연결할 수 있습니다.  </p>
    <p>레코드를 연결하면 한 레코드나 다른 응용 프로그램의 개체 정보를 다른 레코드에 표시할 수 있습니다.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/planning/records/connected-records-overview.md">연결된 레코드 개요</a>를 참조하십시오. </p>
-
-<p>Workfront Planning에는 추가 라이센스가 필요합니다. </p>
- </td> 
-  </tr>
-
-<tr> 
+  <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p>
+  </td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 연결]</td> 
    <td> <p>Workfront Planning에서 연결은 연결된 레코드 유형 또는 연결된 레코드를 의미할 수 있습니다. Workfront Planning에는 추가 라이센스가 필요합니다.</p> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 제약 조건 날짜]</td> 
    <td> <p>[!UICONTROL Must Start On]과 같이 특정 날짜에 연결된 [!UICONTROL Task Constraint]를 사용하는 경우 해당 특정 날짜가 작업의 [!UICONTROL Constraint Date]가 됩니다.</p> <p>다음 작업 제약 조건은 [!UICONTROL 제약 조건 날짜] 필드를 업데이트합니다.</p> 
     <ul> 
-     <li>[!UICONTROL 은(는) 다음에 시작해야 합니다.]</li> 
+     <li>[!UICONTROL은(는) 다음에 시작해야 합니다.]</li> 
      <li>[!UICONTROL 다음까지 완료]</li> 
      <li>[!UICONTROL 늦지 않게 시작]</li> 
      <li>[!UICONTROL 다음 이후에 시작]</li> 
@@ -700,7 +687,7 @@ ht-degree: 0%
    <td>[!UICONTROL 제약 조건 일]</td> 
    <td> <p>Must Start On과 같이 특정 날짜에 연결된 템플릿 작업에서 작업 제한 사항을 사용하는 경우 해당 특정 날짜가 템플릿 작업의 제한 일자가 됩니다.</p> <p>다음 작업 제약 조건은 [!UICONTROL Constraint Day] 필드를 업데이트합니다.</p> 
     <ul> 
-     <li>[!UICONTROL 은(는) 다음에 시작해야 합니다.]</li> 
+     <li>[!UICONTROL은(는) 다음에 시작해야 합니다.]</li> 
      <li>[!UICONTROL 다음까지 완료]</li> 
      <li>[!UICONTROL 늦지 않게 시작]</li> 
      <li>[!UICONTROL 다음 이후에 시작]</li> 
@@ -720,28 +707,22 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 비용]</td> 
-   <td> <p>프로젝트, 작업 또는 문제를 완료할 때 지출해야 하는 통화 금액입니다. </p> <p>프로젝트와 관련된 인건비, 경비, 위험에 대한 다양한 유형의 비용을 추적할 수 있습니다. [!DNL Workfront]의 비용 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/track-costs.md">비용 추적</a>을 참조하세요.</p> 
+   <td> <p>프로젝트, 작업 또는 문제를 완료할 때 지출해야 하는 통화 금액입니다. </p> <p>프로젝트와 관련된 인건비, 경비, 위험에 대한 다양한 유형의 비용을 추적할 수 있습니다.[!DNL Workfront]의 비용 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/track-costs.md">비용 추적</a>을 참조하세요.</p> 
    </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 비용 성과 지수(CPI)]</td> 
    <td> <p>[!UICONTROL 원가 성과 지수(CPI)]는 계획된 원가와 실제 원가 간의 프로젝트 또는 태스크 레벨에서의 관계를 설명합니다. 프로젝트 관리자는 이 지표를 검토하여 특정 시점에 비용 이하로 또는 비용 이상으로 현재 추적 중인 작업 또는 프로젝트를 식별합니다. 비용은 [!UICONTROL Performance Index Method(PIM)]에 따라 시간 또는 통화로 측정할 수 있습니다.</p> 
-    <p> 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md">CPI(비용 성과 지표) 계산</a>을 참조하십시오.</p>
-
-</td> 
-  </tr>
-
-<tr> 
+    <p> 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md">CPI(비용 성과 지표) 계산</a>을 참조하십시오.</p>  
+   </td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL CSI(비용 일정 성과 지표)]</td> 
    <td> <p>[!UICONTROL CSI(Cost Schedule Performance Index)]는 [!UICONTROL CPI(Cost Performance Index)]와 [!UICONTROL SPI(Schedule Performance Index)]를 비용과 일정의 균형을 맞추는 하나의 일반 지표로 결합하는 자동 계산입니다. 이러한 값을 함께 곱하면 단일 지표가 더 낮은 예산에서 오래 걸리는 일정을 설명할 수 있으며 그 반대의 경우도 가능합니다. 프로젝트 관리자는 이를 사용하여 프로젝트 중간 일정을 추진하기 위해 비용이 투입될 때 일반 프로젝트 또는 작업 상태를 확인할 수 있습니다.</p> 
     <p> 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-csi.md">비용 일정 성과 지표 계산</a>을 참조하십시오.</p>
     </td> 
-  </tr>
-
-
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 비용 유형]</td> 
    <td>작업의 경우 [!UICONTROL 비용 유형]에 따라 작업의 비용 발생 방법이 결정됩니다. 일부 예에는 [!UICONTROL Fixed Hourly], [!UICONTROL User Hourly] 및 [!UICONTROL User Hourly plus Fixed]가 있습니다. </td> 
   </tr> 
@@ -851,9 +832,8 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL 문서 버전]</td> 
    <td> <p>동일한 문서가 동일한 오브젝트에 업로드될 때마다 버전 번호가 지정됩니다. 사용자는 이전 버전의 문서에 대한 몇 가지 옵션을 보고 변경할 수 있습니다.</p> <p>자세한 내용은 <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">문서 버전 관리</a>를 참조하십시오.</p> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 기한]</td> 
    <td> <p>작업 또는 문제가 완료될 예정일. 작업 또는 문제의 기한은 계획된 완료 일자와 동일한 날짜입니다.</p>
     <p>작업 및 문제 기한은 작업 및 문제 목록과 보고서에 표시됩니다.</p> 
@@ -886,7 +866,6 @@ ht-degree: 0%
      <li>[!UICONTROL Effort Driven]</li> 
      <li>[!UICONTROL Simple]</li> 
     </ul> <p>자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 개요 [!UICONTROL 기간] 및 [!UICONTROL 기간 유형]</a>을(를) 참조하십시오.</p> 
-    --&gt;
     </td>
    </tr> 
    <tr> 
@@ -914,28 +893,24 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL 참여]</td> 
-   <td>작업, 프로젝트, 팀 또는 조직에 대한 헌신과 믿음이 줄어드는 시기를 나타내는 [!UICONTROL 작업 성과 지표] (WPI)입니다. 이것은 여러분이 그 믿음과 헌신을 되살리기 위해 행동해야 한다는 것을 나타냅니다. WPI는 다음과 같은 간단한 질문을 통해 측정됩니다. "기대했던 바를 이해했습니까? 네가 맡은 일이 조직에 영향을 미쳤니? 일을 잘하셨습니까?"</td> 
+   <td>작업, 프로젝트, 팀 또는 조직에 대한 헌신과 믿음이 줄어드는 시기를 나타내는 [!UICONTROL 작업 성과 지표](WPI)입니다. 이것은 여러분이 그 믿음과 헌신을 되살리기 위해 행동해야 한다는 것을 나타냅니다. WPI는 다음과 같은 간단한 질문을 통해 측정됩니다. "기대했던 바를 이해했습니까? 네가 맡은 일이 조직에 영향을 미쳤니? 일을 잘하셨습니까?"</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Enterprise Goals]</td> 
    <td>회사 목표 지표에 기여하는 다양한 분야의 목표.</td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>완료 시 [!UICONTROL 예상]</td> 
    <td><p>EAC(완료 시 추정 비용)는 프로젝트 또는 작업이 완료될 때의 예상 총 비용을 나타냅니다.</p>
    <p>프로젝트 설정으로 EAC 값을 계산하는 방법을 정의할 수 있습니다.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-eac.md">EAC(완료 시 추정 비용) 계산</a>을 참조하십시오. </p>
    </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 예상 기한]</td> 
    <td>프로젝트, 작업 및 문제 보고서에서 예상 기한은 Workfront이 항목이 완료될 것으로 예상하는 날짜입니다.</td> 
-  </tr>
-
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 이벤트]</td> 
    <td>프로젝트 또는 작업의 모든 변경 사항.</td> 
   </tr> 
@@ -958,27 +933,20 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL 외부 시스템]</td> 
    <td>지정된 기록 시스템 외부에 저장되고 관리되는 모든 서비스 또는 소프트웨어.</td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 필드]</td> 
    <td><p>모든 Workfront 개체 또는 이 개체와 관련된 정보가 데이터베이스에 나타납니다. </p>
    <p>예를 들어 "project", "user", "hour"는 필드뿐만아니라 Workfront 개체입니다. "Name", "status", "owner", "start date"는 위의 오브젝트와 연결된 Workfront 필드입니다. </p>
-
-<p>개체를 참조할 때 "개체"와 "필드"라는 용어가 서로 교환되어 사용될 수 있습니다.</p>
+   <p>개체를 참조할 때 "개체"와 "필드"라는 용어가 서로 교환되어 사용될 수 있습니다.</p>
    <p>보고 범위에서 "필드"는 보고서에 캡처할 객체 또는 객체에 대한 정보를 나타냅니다.</p>
-
-<p><b>메모</b></p>
-
-<p>텍스트 추가 보고에서 필드는 데이터베이스에 나타나는 개체 또는 해당 정보를 참조합니다.</p>
+   <p><b>메모</b></p>
+   <p>텍스트 추가 보고에서 필드는 데이터베이스에 나타나는 개체 또는 해당 정보를 참조합니다.</p>
    <p>사용자 인터페이스에 표시되는 이름이 데이터베이스의 필드 이름과 다른 경우가 있습니다. 예를 들어 "issue"는 Workfront 인터페이스에 있는 개체의 이름이지만, "opTask"는 Workfront 데이터베이스에 있는 개체(또는 필드)의 이름입니다. </p> 
    <p> 텍스트 모드 보고서, 보기, 필터 또는 그룹화를 작성할 때 또는 계산된 필드를 만들 때 데이터베이스에 나타나는 필드를 사용하는 것이 중요합니다.</p>
-
-<p>자세한 내용은 <a href="../../../wf-api/general/api-explorer.md">API 탐색기</a> 및 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">텍스트 모드 개요</a>를 참조하십시오.</p>
-
-<p>기본적으로 Workfront에는 개체와 해당 정보를 정의하는 필드 세트가 함께 제공됩니다. 사용자 정의 필드를 만들어 객체를 정의할 수도 있지만 사용자 정의 객체를 만들 수는 없습니다.</p>
-
-<p>Workfront Planning에서 모든 레코드 유형에 대한 사용자 정의 필드를 만들 수 있습니다. Workfront 레코드 유형은 매우 제한된 수의 필드를 제공합니다. 모든 필드를 처음부터 만들고 레코드 유형과 연결해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/fields/fields-overview.md">필드 개요</a>를 참조하세요. </p> <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p>   
+   <p>자세한 내용은 <a href="../../../wf-api/general/api-explorer.md">API 탐색기</a> 및 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">텍스트 모드 개요</a>를 참조하십시오.</p>  
+   <p>기본적으로 Workfront에는 개체와 해당 정보를 정의하는 필드 세트가 함께 제공됩니다. 사용자 정의 필드를 만들어 객체를 정의할 수도 있지만 사용자 정의 객체를 만들 수는 없습니다.</p> 
+   <p>Workfront Planning에서 모든 레코드 유형에 대한 사용자 정의 필드를 만들 수 있습니다. Workfront 레코드 유형은 매우 제한된 수의 필드를 제공합니다. 모든 필드를 처음부터 만들고 레코드 유형과 연결해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/fields/fields-overview.md">필드 개요</a>를 참조하세요. </p> <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p>   
   </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL 필터]</td> 
@@ -1008,31 +976,28 @@ ht-degree: 0%
    <td>[!UICONTROL 폴더]</td> 
    <td>폴더는 객체와 연관된 문서나 보고서를 구성하는 데 사용됩니다.</td> </tr>
   <tr>
-  <td>[!UICONTROL FTE] (전시간에 해당)</td> 
+  <td>[!UICONTROL FTE](전시간에 해당)</td> 
    <td>자원이 작업에 사용 가능한 시간을 나타내는 FTE(Full Time Equivalent)입니다. 
    [!UICONTROL FTE] 필드는 다음 영역에 표시됩니다. 
   <ul>
    <li> 사용자 프로필(사용자 편집 또는 생성 시) </li>
    <li> [!UICONTROL Resource Planner] </li>
-   <li> [!UICONTROL Scenario Planner] (Workfront Scenario Planner에 추가 라이센스 필요) </li>
+   <li> [!UICONTROL Scenario Planner](Workfront Scenario Planner에 추가 라이센스 필요) </li>
    <li> 사용자 목록 및 보고서 </li> </ul>
-
-<p>[!UICONTROL FTE]은(는) 최대 1의 십진수여야 하며 0일 수 없습니다. </p>
+   <p>[!UICONTROL FTE]은(는) 최대 1의 십진수여야 하며 0일 수 없습니다. </p>
    <p> [!UICONTROL FTE]가 1이면(프로필에 정의된 대로 사용자의 [!UICONTROL FTE] 필드에 대한 기본값임) 리소스(사용자 또는 역할)가 가용성을 계산하는 일정을 기반으로 전체 시간을 작동함을 의미합니다. </p>
    <p>Workfront 관리자는 사용자의 가용성을 확인하는 데 사용할 일정을 결정합니다.  </p>
    <ul>
    <li> [!UICONTROL 기본 일정]을 사용하면 Workfront은 프로필에 있는 사용자의 [!UICONTROL FTE]을(를) 사용하여 가용성을 계산합니다. </li>
    <li> 사용자 일정이 사용될 때 Workfront은 사용자의 휴무, [!UICONTROL Work Time] 값 및 [!UICONTROL Default Schedule]의 시간을 사용하여 사용자의 [!UICONTROL FTE]을(를) 계산합니다. </li> </ul>
-
-<p>자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">리소스 관리 환경 설정 구성</a>을 참조하십시오.  </p>
+   <p>자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">리소스 관리 환경 설정 구성</a>을 참조하십시오.  </p>
    <p>[!DNL Workfront]에서 일정을 만드는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">일정 만들기</a>를 참조하십시오. </p>
-
-<p><b>메모</b></p>
+   <p><b>메모</b></p>
    <p>[!UICONTROL Scenario Planner]의 모든 계산에 대해 Workfront은 다음 값을 사용합니다. 1 [!UICONTROL FTE] = 8 시간.</p>
    <p>자세한 내용은 <a href="../../../scenario-planner/get-started-with-scenario-planning.md">[!UICONTROL 시나리오 플래너 시작]</a>을 참조하세요. </p>
    </td> </tr> 
    </tbody> 
-   </table>
+</table>
 
 <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
@@ -1068,7 +1033,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 목표 계층]</td> 
-   <td> <p>[!UICONTROL Goal] 및 [!UICONTROL Project] 보고서에서 이 필드는 다른 목표에 맞춰질 때 전략 목표가 속한 계층의 목표를 표시하는 컬렉션 필드입니다. 목표는 ▸ 구분 기호로 구분됩니다. </p> <p>이 필드에는 목표와 목표의 부모만 표시됩니다. 하위 목표는 표시되지 않습니다. </p> <p>[!DNL Workfront Goals]의 목표 정렬에 대한 자세한 내용은 <a href="../../../workfront-goals/goal-alignment/goal-alignment-overview.md">의 [!DNL Workfront Goals]</a>목표 정렬 개요를 참조하십시오. </p> 
+   <td> <p>[!UICONTROL Goal] 및 [!UICONTROL Project] 보고서에서 이 필드는 다른 목표에 맞춰질 때 전략 목표가 속한 계층의 목표를 표시하는 컬렉션 필드입니다. 목표는 ▸ 구분 기호로 구분됩니다. </p> <p>이 필드에는 목표와 목표의 부모만 표시됩니다. 하위 목표는 표시되지 않습니다. </p> <p>[!DNL Workfront Goals]의 목표 정렬에 대한 자세한 내용은 [!DNL Workfront Goals]</a>의 <a href="../../../workfront-goals/goal-alignment/goal-alignment-overview.md">목표 정렬 개요를 참조하십시오. </p> 
    <p>이 필드는 조직에서 [!DNL Workfront Goals]을(를) 구입한 경우에만 표시됩니다. [!DNL Workfront Goals]을(를) 사용하여 전략적 목표를 관리하는 방법에 대한 자세한 내용은 <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals] 개요 </a>을(를) 참조하십시오. </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -1110,33 +1075,24 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL 소유자]</td> 
    <td>[!UICONTROL Hour] 보고서에서 [!UICONTROL Owner]는 시간이 속하는 사용자입니다. 이는 실제로 시간을 기록하는 사용자와 다릅니다. 이러한 두 엔티티는 경우에 따라 두 명의 서로 다른 사용자가 될 수 있습니다. <br>다른 사용자의 로깅 시간에 대한 자세한 내용은 문서 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">로그 시간</a>을 참조하십시오.</td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>시간 상태</td> 
-   <td> <p>사용자가 작업, 문제 또는 프로젝트에 대해 기록하는 실제 시간에 대해 Workfront에서 설정한 속성입니다. </p>
-
-시간 항목은 Workfront에서 다음 상태 중 하나를 가질 수 있습니다.
-<ul>
+   <td> <p>사용자가 작업, 문제 또는 프로젝트에 대해 기록하는 실제 시간에 대해 Workfront에서 설정한 속성입니다. </p>시간 항목은 Workfront에서 다음 상태 중 하나를 가질 수 있습니다.
+   <ul>
    <li><b>제출됨</b>: 시간이 프로젝트, 작업 또는 문제에 기록되었습니다. 청구 기록에 포함되어 있거나 아직 청구 기록에 추가되지 않았습니다.</li>
    <li><b>승인됨</b>: 시간이 기록되었으며 프로젝트 소유자가 승인했습니다. 청구 기록에 포함되어 있거나 아직 청구 기록에 추가되지 않았습니다.</li> 
    <li><b>승인되지 않음</b>: 시간이 기록되었으며 프로젝트 소유자가 거부되었습니다. 청구 기록에 포함되어 있거나 아직 청구 기록에 추가되지 않았습니다.</li>
    <li><b>청구됨</b>: 시간이 기록되어 청구 기록에 추가되었으며 청구 기록 상태가 청구됨으로 표시되었습니다. 프로젝트 소유자의 승인이 필요하지 않았습니다.</li>
    <li><b>청구됨 및 승인됨</b>: 시간이 기록되었으며 프로젝트 소유자가 승인했으며 청구 기록 상태가 청구됨으로 표시되었습니다.</li>
-   </ul>
-
-<p>시간이 청구 기록의 일부인 경우 시간 상태는 시간이 승인되었는지 또는 시간이 속한 청구 기록이 청구되었는지 여부를 나타냅니다. 시간 항목의 시간 상태는 시간 목록 또는 보고서에만 표시됩니다. </p>
-
-<p>청구 기록에 시간을 추가하는 방법에 대한 자세한 내용은 문서 <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >청구 기록 만들기</a>의 "청구 기록에 시간 추가" 섹션을 참조하십시오.</p>
-
-<p>프로젝트 시간 승인에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" >프로젝트 승인 시간 필요</a>를 참조하십시오.</p>
-
-<p><b>팁</b></p>
-
-<p>작업 항목에 직접 기록되지 않는 일반 시간은 시간 상태를 표시하지 않습니다. </p> </td> 
+   </ul> 
+   <p>시간이 청구 기록의 일부인 경우 시간 상태는 시간이 승인되었는지 또는 시간이 속한 청구 기록이 청구되었는지 여부를 나타냅니다. 시간 항목의 시간 상태는 시간 목록 또는 보고서에만 표시됩니다. </p>
+   <p>청구 기록에 시간을 추가하는 방법에 대한 자세한 내용은 문서 <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >청구 기록 만들기</a>의 "청구 기록에 시간 추가" 섹션을 참조하십시오.</p>
+   <p>프로젝트 시간 승인에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" >프로젝트 승인 시간 필요</a>를 참조하십시오.</p>
+   <p><b>팁</b></p>
+   <p>작업 항목에 직접 기록되지 않는 일반 시간은 시간 상태를 표시하지 않습니다. </p> </td> 
   </tr>
-
-<tr> 
+  <tr> 
    <td>[!UICONTROL 시간 유형]</td> 
    <td> <p>사용자가 작업, 문제 또는 프로젝트에 대해 기록하는 실제 시간에 대해 설정할 수 있는 속성입니다. [!UICONTROL Vacation] 및 [!UICONTROL Time Off]와 같이 작업에 직접 연결되지 않은 기록된 시간에 대한 속성이기도 합니다.</p> <p>자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md" class="MCXref xref">시간 유형 관리</a>를 참조하십시오.</p> </td> 
   </tr> 
@@ -1158,23 +1114,23 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Initiative]</td> 
-   <td> <p>[!DNL Workfront Scenario Planner]에서 계획을 여러 개의 이니셔티브로 분할하여 계획을 보다 쉽게 관리할 수 있습니다. <span>[!UICONTROL Initiative] 보고서를 작성하고 [!UICONTROL Project] 보고서의 [!UICONTROL Initiative] 정보에 액세스할 수 있습니다.</span></p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p>회사에서 [!DNL Initiative] 라이선스를 구입하지 않은 경우 [!DNL Workfront] 인스턴스에 [!DNL Workfront Scenario Planner] 보고서가 표시되지 않습니다. API를 통해 [!UICONTROL Initiatives]에 액세스할 수 없습니다.</p> </td> 
+   <td> <p>[!DNL Workfront Scenario Planner]에서 계획을 여러 개의 이니셔티브로 분할하여 계획을 보다 쉽게 관리할 수 있습니다. <span>[!UICONTROL Initiative] 보고서를 작성하고 [!UICONTROL Project] 보고서의 [!UICONTROL Initiative] 정보에 액세스할 수 있습니다.</span></p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p>회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입하지 않은 경우 [!DNL Workfront] 인스턴스에 [!DNL Initiative] 보고서가 표시되지 않습니다. API를 통해 [!UICONTROL Initiatives]에 액세스할 수 없습니다.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>[!UICONTROL 이니셔티브 작업 역할]</span> </td> 
-   <td> <p><span>[!UICONTROL 이니셔티브 작업 역할] 보고서 유형은 [!DNL Workfront Scenario Planner]의 계획 이니셔티브와 관련된 작업 역할에 대한 정보를 표시합니다.</span> </p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p><span>회사에서 [!DNL Workfront] 라이선스를 구입하지 않은 경우 이 보고서 유형은 [!DNL Workfront Scenario Planner] 인스턴스에 표시되지 않습니다.</p> </td> 
+   <td> <p><span>[!UICONTROL 이니셔티브 작업 역할] 보고서 유형은 [!DNL Workfront Scenario Planner]의 계획 이니셔티브와 관련된 작업 역할에 대한 정보를 표시합니다.</span> </p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p><span>회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입하지 않은 경우 이 보고서 유형은 [!DNL Workfront] 인스턴스에 표시되지 않습니다.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>[!UICONTROL 이니셔티브 작업 역할 시간]</span> </td> 
-   <td> <p><span> [!UICONTROL 이니셔티브 작업 역할] 보고서에서 이니셔티브의 작업 역할과 연결된 시간을 표시합니다.</span> </p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p>회사에서 [!DNL Workfront] 라이선스를 구입하지 않은 경우 이 필드와 [!UICONTROL 이니셔티브 작업 역할] 보고서 유형이 [!DNL Workfront Scenario Planner] 인스턴스에 표시되지 않습니다.</p> </td> 
+   <td> <p><span> [!UICONTROL 이니셔티브 작업 역할] 보고서에서 이니셔티브의 작업 역할과 연결된 시간을 표시합니다.</span> </p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p>회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입하지 않은 경우 이 필드와 [!UICONTROL 이니셔티브 작업 역할] 보고서 유형이 [!DNL Workfront] 인스턴스에 표시되지 않습니다.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 이니셔티브 작업 역할 수]</td> 
-   <td> <p>[!UICONTROL 이니셔티브 작업 역할] 보고서에서 이니셔티브와 연관된 특정 작업 역할의 수를 표시합니다.</p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p>회사에서 [!DNL Workfront] 라이선스를 구입하지 않은 경우 이 필드와 [!UICONTROL 이니셔티브 작업 역할] 보고서 유형이 [!DNL Workfront Scenario Planner] 인스턴스에 표시되지 않습니다.</p> </td> 
+   <td> <p>[!UICONTROL 이니셔티브 작업 역할] 보고서에서 이니셔티브와 연관된 특정 작업 역할의 수를 표시합니다.</p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p>회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입하지 않은 경우 이 필드와 [!UICONTROL 이니셔티브 작업 역할] 보고서 유형이 [!DNL Workfront] 인스턴스에 표시되지 않습니다.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 이니셔티브 마지막 게시 날짜]</td> 
-   <td> <p>계획 이니셔티브가 프로젝트에 마지막으로 게시된 날짜를 표시하는 [!UICONTROL 이니셔티브], [!UICONTROL 이니셔티브 작업 역할] 및 [!UICONTROL 프로젝트] 보고서의 필드입니다. 이니셔티브를 게시하여 프로젝트를 만들거나 이니셔티브에 연결된 프로젝트를 업데이트할 수 있습니다.</p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p><span>이니셔티브 게시에 대한 자세한 내용은 </span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">시나리오 게시를 참조하여 [!DNL Workfront Scenario Planner]</a>에서 프로젝트를 만들고 업데이트하십시오. 회사에서 [!DNL Workfront] 라이선스를 구입하지 않은 경우 [!DNL Workfront Scenario Planner] 인스턴스에 이 필드가 표시되지 않습니다.</p> </td> 
+   <td> <p>계획 이니셔티브가 프로젝트에 마지막으로 게시된 날짜를 표시하는 [!UICONTROL 이니셔티브], [!UICONTROL 이니셔티브 작업 역할] 및 [!UICONTROL 프로젝트] 보고서의 필드입니다. 이니셔티브를 게시하여 프로젝트를 만들거나 이니셔티브에 연결된 프로젝트를 업데이트할 수 있습니다.</p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p><span>이니셔티브 게시에 대한 자세한 내용은 </span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">시나리오 게시를 참조하여 [!DNL Workfront Scenario Planner]</a>에서 프로젝트를 만들고 업데이트하십시오. 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입하지 않은 경우 [!DNL Workfront] 인스턴스에 이 필드가 표시되지 않습니다.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 인라인 검색]</td> 
@@ -1185,7 +1141,7 @@ ht-degree: 0%
    <td>사용자 지정 보기, 필터, 그룹화, 목록 컨트롤 등을 정의할 수 있는 응용 프로그램 영역입니다.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>[!UICONTROL 이 회사 목표]</p></td> 
+   <td> <p>[!UICONTROL이 회사 목표]</p></td> 
    <td> <p>[!DNL goal reports]에서 조직이 해당 목표에 소유자로 지정되었는지 여부를 나타내기 위해 각 전략 목표에 대한 "[!UICONTROL True]/ [!UICONTROL False]" 값이 표시됩니다. </p> 
    <p>이 필드는 조직에서 [!DNL Workfront Goals]을(를) 구입한 경우에만 표시됩니다. [!DNL Workfront Goals]을(를) 사용하여 전략적 목표를 관리하는 방법에 대한 자세한 내용은 <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals] 개요 </a>을(를) 참조하십시오.</p>
   </tr> 
@@ -1230,7 +1186,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL Kanban 플래그]</td> 
-   <td> <p>[!UICONTROL Task] 보고서 또는 [!UICONTROL Issue] 보고서에서 [!UICONTROL Kanban Flag] 필드는 [!UICONTROL Kanban 보드]의 스토리에 설정된 플래그 상태를 표시합니다. 가능한 값은 [!UICONTROL On Track], [!UICONTROL Ready to Pull] 및 [!UICONTROL Blocked]입니다.</p> <p>[!UICONTROL Kanban story board]의 스토리에 플래그 상태를 설정하는 방법에 대한 자세한 내용은 다음을 참조하십시오.  문서 <a href="../../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md" class="MCXref xref">[!UICONTROL Kanban board]</a>의 스토리에 플래그를 사용합니다.</p> </td> 
+   <td> <p>[!UICONTROL Task] 보고서 또는 [!UICONTROL Issue] 보고서에서 [!UICONTROL Kanban Flag] 필드는 [!UICONTROL Kanban 보드]의 스토리에 설정된 플래그 상태를 표시합니다. 가능한 값은 [!UICONTROL On Track], [!UICONTROL Ready to Pull] 및 [!UICONTROL Blocked]입니다.</p> <p>[!UICONTROL Kanban story board]의 스토리에 플래그 상태를 설정하는 방법에 대한 자세한 내용은 문서 <a href="../../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md" class="MCXref xref">[!UICONTROL Kanban board]의 스토리에 플래그 사용</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>KPI</td> 
@@ -1245,7 +1201,7 @@ ht-degree: 0%
    <td> <p>[!UICONTROL Lag]를 계산하는 방법입니다. 다음과 같을 수 있습니다.</p> 
     <ul> 
      <li>[!UICONTROL 일수] (근무일)</li> 
-     <li>[!UICONTROL 캘린더 일] (휴일 무시)</li> 
+     <li>[!UICONTROL 캘린더 일](휴일 무시)</li> 
      <li>[!UICONTROL 백분율]</li> 
      <li>[!UICONTROL 요일]</li> 
     </ul> <p>자세한 내용은 <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">지연 유형 개요</a>를 참조하십시오.</p> </td>
@@ -1272,8 +1228,7 @@ ht-degree: 0%
    <p>이 필드를 [!UICONTROL Task] 보고서에 추가하면 작업의 하위 개체(예: 문제, 하위 작업 또는 문서)에 남아 있는 업데이트가 이 열에 표시되지 않습니다.</p> 
    <p><b>메모</p>
    <p>API를 사용하여 오브젝트에 추가된 마지막 메모가 Workfront의 보고서에 표시되지 않습니다. API를 사용하여 개체에 대한 최신 업데이트를 추가한 경우 [!DNL Last Note] 필드가 비어 있습니다. </p>
-
-</td> 
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 마지막 조회자]</td> 
@@ -1289,15 +1244,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 레이아웃 유형]</td> 
-   <td>[!UICONTROL 사용자 지정 보기]와 함께 [!UICONTROL 레이아웃 유형]은 [!UICONTROL 사용자 지정 보기]의 유형을 지정합니다. 현재는 목록만 사용할 수 있습니다. 나중에 [!UICONTROL 세부 사항] (개체의 [!UICONTROL 세부 사항] 보기)을 사용할 수 있게 됩니다.</td> 
+   <td>[!UICONTROL 사용자 지정 보기]와 함께 [!UICONTROL 레이아웃 유형]은 [!UICONTROL 사용자 지정 보기]의 유형을 지정합니다. 현재는 목록만 사용할 수 있습니다. 나중에 [!UICONTROL 세부 사항](개체의 [!UICONTROL 세부 사항] 보기)을 사용할 수 있게 됩니다.</td> 
   </tr> 
   <!--
   <tr data-mc-conditions=""> 
    <td>Legacy Budgeted Cost</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Cost</i>. </p> </td> 
   </tr>
-  --> 
-  <!--
   <tr data-mc-conditions=""> 
    <td>Legacy Budgeted Hours</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Hours</i>. </p> <p>
@@ -1305,33 +1258,20 @@ ht-degree: 0%
         This field shows the number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. 
        <br>If there  are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.   
      </p> </td> </tr>
-     -->
-  <!--
   <tr data-mc-conditions=""> 
    <td>Legacy Budgeted Labor Cost</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <p>The field is still visible in some reports and lists. </p> <p>See <i>Budgeted Labor Cost</i>. </p> 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In a project report, this field shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project.  </p>
-    -->
-    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:</p>
-    -->
-    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code style="font-style: normal;">Legacy Budgeted Labor Cost = SUM(Job Role Cost per Hour * Legacy Budgeted Hours per Job Role)</code> </p>
-    -->
-    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about calculating Legacy Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>    </p>
-    -->
-    </td>
-  </tr> 
-  <tr> 
-   <!--
     <td>Legacy Resource Pool</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> 
    <p>Although not recommended, you may update the information in this report using the API.</p> 
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection  of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
-    -->
-    </td>
+  -->
+  </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 기존 실제 시간]</td> 
@@ -1360,7 +1300,7 @@ ht-degree: 0%
    <td>[!UICONTROL 목록 컨트롤]</td> 
    <td> <p>사용자 지정 필터, 보기 및 그룹화를 개별 사용자에게 연결하거나 모든 사용자에게 전역적으로 연결할 수 있는 [!UICONTROL 인터페이스 설치]의 일부입니다.</p> </td> 
   </tr> 
-<tr> 
+  <tr> 
    <td>[!UICONTROL 조회 필드]</td> 
    <td> <p>Workfront Planning에서 두 레코드 유형 간에 연결을 설정하고 개별 레코드를 함께 연결한 후 연결 중인 레코드에서 연결된 레코드의 필드를 참조할 수 있습니다.</p>
    <p>예를 들어 캠페인 레코드 유형을 Workfront 프로젝트 오브젝트 유형과 연결하는 경우, 캠페인 레코드에 연결된 프로젝트의 예산 필드를 표시할 수 있습니다. 예산 프로젝트 필드는 캠페인에 대한 프로젝트의 조회 필드입니다.</p> <p>조회 필드의 값은 연결된 레코드에서 자동으로 채워집니다.</p>
@@ -1437,8 +1377,7 @@ ht-degree: 0%
    <td>[!UICONTROL Journal Entry] 보고서에서 [!UICONTROL Old Number Value]을(를) 대체하는 필드의 업데이트된 값이 표시됩니다.
    자세한 내용은 이 문서의 "[!UICONTROL Old Number Value]"를 참조하십시오.</td> 
   </tr>
-
-<tr data-mc-conditions=""> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL 청구 불능 경비]</td> 
    <td> <p>고객에게 청구 가능으로 표시되지 않은 비용. 이는 계획된 비용이거나 실제 비용일 수 있습니다.</p> <p>뷰 및 보고서에 추가할 수 있는 계획된 청구 불가능한 비용 및 실제 청구 불가능한 비용 필드를 사용할 수 있습니다. 프로젝트 또는 작업 세부 정보 페이지에는 표시되지 않습니다.</p>
    <p>다음 유형의 보고서에서 이러한 필드를 찾을 수 있습니다.</p>
@@ -1450,8 +1389,7 @@ ht-degree: 0%
    <p>경비를 청구 가능 경비로 표시하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">프로젝트 경비 관리</a>를 참조하십시오.</p>
    </td> 
   </tr>
-
-<tr> 
+  <tr> 
    <td>[!UICONTROL 비근무일]</td> 
    <td>할당 완료에 할당되지 않은 날짜. 일반적으로 휴가일, 휴일 또는 주말입니다. API 탐색기에서 용어 표시. </td> 
   </tr> 
@@ -1462,26 +1400,20 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL 메모 텍스트]</td> 
    <td> <p>모든 객체에 대해 사용자가 입력한 업데이트 텍스트가 표시됩니다. </p> </td> 
-  </tr>
-
-<tr data-mc-conditions="">
-
-<td>[!UICONTROL 연결된 목표 수]</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL 연결된 목표 수]</td> 
    <td> <p>[!UICONTROL Project] 보고서에서 이 수는 프로젝트와 관련된 전략적 목표의 수입니다. 프로젝트를 전략적 목표와 연결하는 방법에 대한 자세한 내용은 <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">[!DNL Adobe Workfront Goals]</a>의 목표에 프로젝트 추가를 참조하십시오.</p> 
    <p>전략적 목표에 대한 자세한 내용은 이 문서의 "[!UICONTROL 목표]"도 참조하십시오.</p> 
    <p>이 필드는 조직에서 [!DNL Workfront Goals]을(를) 구입한 경우에만 표시됩니다. [!DNL Workfront Goals]을(를) 사용하여 전략적 목표를 관리하는 방법에 대한 자세한 내용은 <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">[!UICONTROL Adobe Workfront 목표]의 목표에 프로젝트 추가</a>를 참조하십시오. </p> </td> 
-  </tr>
-
-<tr>
-
-<td>[!UICONTROL 하위 항목 수]</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 하위 항목 수]</td> 
    <td> <p>[!UICONTROL Project] 보고서에서 이 수는 작업에 있는 하위 작업 또는 하위 작업의 수입니다. 
    <p><b>팁</b></p>
    <code>{numberOfChildren}</code> 계산을 작업 사용자 정의 양식의 계산된 사용자 정의 필드에 추가하여 사용자 정의 필드에 작업의 자식 수를 표시할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">양식에 계산된 필드 추가</a>를 참조하십시오. 
-    </td>
-
-
-</tr> 
+    </td> 
+  </tr> 
   <tr> 
    <td>[!UICONTROL 개체]</td> 
    <td> <p>[!DNL Adobe Workfront]에 표시하는 정보는 [!DNL Workfront] 데이터베이스에 저장된 개체로 표시됩니다. 개체는 Workfront의 정보를 유도하는 요소입니다. 객체의 몇 가지 예는 다음과 같습니다.</p> 
@@ -1503,12 +1435,10 @@ ht-degree: 0%
      <li>[!UICONTROL 시간]</li> 
      <li>[!UICONTROL 청구 요금]</li> 
      <li>[!UICONTROL Templates]</li> 
-     <li>[!UICONTROL 템플릿 작업]</li>
-
-<p><b>메모</b></p>
+     <li>[!UICONTROL 템플릿 작업]</li> 
+  <p><b>메모</b></p>
   <p>이 목록은 광범위하지 않습니다. </p>
-
-</ul> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">[!UICONTROL Adobe Workfront]의 개체 이해</a>를 참조하십시오.</p> </td> 
+  </ul> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">[!UICONTROL Adobe Workfront]의 개체 이해</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 개체 유형]</td> 
@@ -1516,10 +1446,10 @@ ht-degree: 0%
   </tr> 
  <tr> 
    <td>[!UICONTROL Old Number Value]</td> 
-   <td>[!UICONTROL 분개 기입] 보고서에서 필드의 원래 값이 업데이트되기 전에 표시됩니다. 필드의 값이 업데이트되면 [!UICONTROL Journal Entry] 보고서에 [!UICONTROL New Number Value] (으)로 표시됩니다. 자세한 내용은 "[!UICONTROL New Number Value]"도 참조하십시오.</td> 
+   <td>[!UICONTROL 분개 기입] 보고서에서 필드의 원래 값이 업데이트되기 전에 표시됩니다. 필드의 값이 업데이트되면 [!UICONTROL Journal Entry] 보고서에 [!UICONTROL New Number Value](으)로 표시됩니다. 자세한 내용은 "[!UICONTROL New Number Value]"도 참조하십시오.</td> 
   </tr>
   <tr> 
-   <td>변경 시에만 </td> 
+   <td>변경 시에만 [!UICONTROL]</td> 
    <td> <p>[!UICONTROL 프로젝트 업데이트] 유형 중 하나입니다. 이 옵션을 선택하면 프로젝트 또는 프로젝트 내 작업에 대한 업데이트 또는 변경이 수행될 때만 [!UICONTROL Project Projected] 및 [!UICONTROL Planned] 타임라인이 업데이트됩니다. 매일 밤 프로젝트를 업데이트하지는 않습니다.</p> <p>자세한 내용은 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">프로젝트 업데이트 형식 선택 </a>을(를) 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
@@ -1623,14 +1553,14 @@ ht-degree: 0%
    <td>[!UICONTROL 완료율]</td> 
    <td> <p>작업, 프로젝트 또는 문제와 관련된 작업의 완료율을 보여 주는 프로젝트, 작업 또는 문제 필드.</p> <p>문제 및 작업 시 이 필드를 수동으로 업데이트할 수 있습니다. </p> <p>프로젝트 및 상위 작업의 경우 이 필드는 모든 작업 작업에서 롤업되므로 수동으로 업데이트할 수 없습니다. </p> <p>자세한 내용은 <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">프로젝트 [!UICONTROL 완료율] 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
-<tr> 
+  <tr> 
    <td>[!UICONTROL PIM(Performance Index Method)]</td> 
    <td> <p>프로젝트에 대한 [!UICONTROL PIM(성과 지표 메서드)]은 Adobe Workfront이 CPI(원가 성과 지표), CSI(원가 일정 성과 지표), SPI(일정 성과 지표) 및 EAC(완료 시 추정)와 같은 프로젝트 성과 지표를 계산하는 데 사용하는 방법을 제어합니다.</p> 
    <p>Workfront은 시간 또는 비용을 사용하여 이러한 값을 계산합니다.</p>
    <p>자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/set-pim.md">PIM(성능 인덱스 메서드) 설정</a>을 참조하십시오.</p>
    </td> 
-  </tr>
- <tr> 
+   </tr>
+   <tr> 
    <td>[!UICONTROL Permission]</td> 
    <td> <p>일반적으로 항목에 대한 작업을 완료하거나 항목을 볼 수 있도록 부여되는, 오브젝트의 사용자에게 부여되는 권한. 다음에 대한 권한을 부여할 수 있습니다.</p> 
     <ul> 
@@ -1647,13 +1577,13 @@ ht-degree: 0%
      <li>[!UICONTROL Filters]</li> 
      <li>[!UICONTROL 그룹화]</li> 
     </ul> <p>자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">개체에 대한 공유 권한 개요</a>를 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
+   </tr> 
+   <tr> 
    <td>[!UICONTROL 계획]</td> 
    <td> <p>[!DNL Workfront] 시스템의 전체 라이선스 유형입니다. [!DNL Workfront]의 모든 기능에 액세스하려면 사용자에게 이 권한이 있어야 합니다.</p> <p>자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront]개 라이선스 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Plan] ([!DNL Scenario Planner])</td> 
+   <td>[!UICONTROL Plan]([!DNL Scenario Planner])</td> 
    <td> <p>[!DNL Workfront] 시나리오 플래너로 작업할 때 플랜이 주 개체입니다. 회사의 장단기 미래에 대한 전략을 간략히 설명하고 각 높은 수준의 결과를 식별하여 [!DNL Workfront] 시나리오 플래너에 플랜으로 추가할 수 있습니다. </p> <p>보고서에 [!DNL Scenario Planner] 계획을 표시할 수 없으며 [!DNL Workfront] API를 통해 액세스할 수 없습니다. </p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
@@ -1684,11 +1614,11 @@ ht-degree: 0%
    <td>[!UICONTROL 계획된 일자 정렬]</td> 
    <td> <p>Workfront에서 항목이 계획된 완료 일자와 관련하여 완료될 때 표시할 프로젝트, 작업 및 문제를 지정하는 자동 표시기입니다. </p>
    <p>다음은 계획된 일자 정렬 표시기에 가능한 값입니다. </p>
-<ul>
-<li>계획된 완료 일자에 완료될 예정입니다.</li>
-<li>계획된 완료 일자 이전에 완료될 예정입니다.</li>
-<li>계획된 완료 일자 이후에 완료될 예정입니다.</li></ul>
-<p>계획된 일자 정렬은 프로젝트, 작업, 문제 목록 및 보고서에 표시됩니다. </p></td> 
+  <ul>
+  <li>계획된 완료 일자에 완료될 예정입니다.</li>
+  <li>계획된 완료 일자 이전에 완료될 예정입니다.</li>
+  <li>계획된 완료 일자 이후에 완료될 예정입니다.</li></ul>
+  <p>계획된 일자 정렬은 프로젝트, 작업, 문제 목록 및 보고서에 표시됩니다. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 계획된 기간]</td> 
@@ -1705,8 +1635,8 @@ ht-degree: 0%
    <p>프로젝트의 경우 [!DNL Workfront]은(는) 다음 공식을 사용하여 [!UICONTROL 계획된 경비]를 계산합니다.</p> <p><code>Project [!UICONTROL Planned Expense Cost] = SUM (All Project [!UICONTROL Planned Expense Costs]) + SUM (All Tasks [!UICONTROL Planned Expense Costs])</code> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (Drafting this because not sure if this is correct anymore)</p>
-    -->
-    </td>
+   -->
+  </td>
   </tr> 
   <tr> 
    <td>[!UICONTROL 계획된 시간]</td> 
@@ -1715,7 +1645,7 @@ ht-degree: 0%
      <li> <p>문제의 경우 이 필드를 수동으로 업데이트할 수 있습니다. 문제 계획 시간이 프로젝트 계획 시간에 추가되지 않습니다. </p> <p><b>팁</b></p> <p>문제 보고서에서 [!UICONTROL 계획된 시간] 필드 중 하나가 [!UICONTROL 작업] 필드로 바뀝니다. 필드에는 문제에 대한 계획된 시간 수가 표시됩니다. 자세한 내용은 이 표의 "work" 또는 "[!UICONTROL Work]" 필드를 참조하십시오. </p> </li> 
     </ul> 
     <ul> 
-     <li> <p>작업의 [!UICONTROL Calculated Assignment] 또는 [!UICONTROL Simple]이 작업의 [!UICONTROL Duration Type]인 경우 이 필드를 수동으로 업데이트할 수 있습니다. 이 필드는 작업의 [!UICONTROL Duration Type]이(가) [!UICONTROL Calculated Work] 또는 [!UICONTROL Effort Driven]인 경우 [!DNL Workfront]에 의해 계산됩니다.<br>[!UICONTROL Task Duration]에 대한 자세한 내용은 문서 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 [!UICONTROL Duration] 및 [!UICONTROL Duration Type]</a>을(를) 참조하십시오.</p> </li> 
+     <li> <p>작업의 [!UICONTROL Calculated Assignment] 또는 [!UICONTROL Simple]이 작업의 [!UICONTROL Duration Type]인 경우 이 필드를 수동으로 업데이트할 수 있습니다. 이 필드는 작업의 [!UICONTROL Duration Type]이(가) [!UICONTROL Calculated Work] 또는 [!UICONTROL Effort Driven]인 경우 [!DNL Workfront]에 의해 계산됩니다.<br>[!UICONTROL Task Duration]에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 [!UICONTROL Duration] 및 [!UICONTROL Duration Type]</a> 문서를 참조하십시오.</p> </li> 
     </ul> 
     <ul> 
      <li> <p>프로젝트의 경우 [!DNL Workfront]은(는) 프로젝트의 모든 작업에서 모든 계획된 시간을 추가하여 계획된 시간을 계산합니다. </p> </li> 
@@ -1736,9 +1666,9 @@ ht-degree: 0%
     --> 
     <p>[!UICONTROL 프로젝트 세부 사항] 영역과 프로젝트 보고서에 표시되는 [!UICONTROL 계획된 수익] 프로젝트는 [!UICONTROL 사용률] 보고서에 표시되는 계획된 수익과 다릅니다. </p> <p>[!UICONTROL 프로젝트 세부 정보] 영역의 [!UICONTROL 계획된 수익]은 프로젝트의 고정 수익과 작업 수익을 반영합니다. [!UICONTROL 활용성 보고서]의 [!UICONTROL 계획된 수익]은 프로젝트의 작업에만 연결된 [!UICONTROL 계획된 수익]을 표시합니다. </p> 
      <p><b>예</b></p>  
-      <p>프로젝트에 $20 시간당 비율의 컨설턴트에게 10시간이 할당된 작업이 1개 있고 프로젝트에 $100 [!UICONTROL 고정 수입]이 있는 경우 [!UICONTROL 사용률] 보고서에는 [!UICONTROL 계획 수입] (작업의 시간과 연결된 [!UICONTROL 계획 수입])에 대해 $200이 표시됩니다. [!UICONTROL 프로젝트 세부 정보] 섹션에는 작업의 $300([!UICONTROL 계획된 수익] 및 프로젝트의 고정 수익이 표시됩니다. </p> 
+      <p>프로젝트에 $20 시간당 비율의 컨설턴트에게 10시간이 할당된 작업이 1개 있고 프로젝트에 $100 [!UICONTROL 고정 수입]이 있는 경우 [!UICONTROL 사용률] 보고서에는 [!UICONTROL 계획 수입](작업의 시간과 연결된 [!UICONTROL 계획 수입])에 대해 $200이 표시됩니다. [!UICONTROL 프로젝트 세부 정보] 섹션에는 작업의 $300([!UICONTROL 계획된 수익] 및 프로젝트의 고정 수익이 표시됩니다. </p> 
     <p>[!DNL Workfront]의 수익 추적에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md">청구 및 수익 개요</a>를 참조하십시오. </p> 
-    <p>사용률 보고서의 [!UICONTROL 계획된 수익] 계산에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md">리소스 사용률 정보 보기 </a>를 참조하십시오. </p> 
+    <p>[!UICONTROL 사용률 보고서의 [!UICONTROL 계획된 수익] 계산에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md">리소스 사용률 정보 보기 </a>를 참조하십시오. </p> 
     </td> 
   </tr> 
   <tr> 
@@ -1827,8 +1757,8 @@ ht-degree: 0%
     <ul> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-progress-status.md" class="MCXref xref">프로젝트 진행 상태 개요</a> </p> </li> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a> </p> </li> 
-     <li> <p><a href="../../../workfront-goals/goal-management/calculate-goal-progress.md">의 목표 진행 상황 및 조건에 대한 [!DNL Adobe Workfront Goals]</a>개요 </p>
-     <p>조직에서 [!DNL goals]을(를) 구입한 경우에만 [!DNL Workfront Goals] 필드에 대한 [!UICONTROL 목표] 보고서 및 [!UICONTROL 진행 상태]가 표시됩니다. [!DNL Workfront Goals]의 전략적 목표에 대한 자세한 내용은 <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals] 개요</a>를 참조하십시오. </p> </li>
+     <li> <p>[!DNL Adobe Workfront Goals]</a>의 목표 진행 상황 및 조건에 대한 <a href="../../../workfront-goals/goal-management/calculate-goal-progress.md">개요 </p>
+     <p>조직에서 [!DNL Workfront Goals]을(를) 구입한 경우에만 [!DNL goals] 필드에 대한 [!UICONTROL 목표] 보고서 및 [!UICONTROL 진행 상태]가 표시됩니다. [!DNL Workfront Goals]의 전략적 목표에 대한 자세한 내용은 <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals] 개요</a>를 참조하십시오. </p> </li>
     </ul> </td> 
   </tr> 
   <td>[!UICONTROL 프로젝트]</td> 
@@ -1837,7 +1767,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 프로젝트 할당 계획 시간]</td> 
-   <td> <p>[!UICONTROL 이니셔티브 작업 역할] 보고서에서 프로젝트의 작업 또는 문제에 할당된 작업 역할과 연관된 [!UICONTROL 계획된 시간] 수를 표시합니다. 회사에서 [!DNL Workfront] 라이선스를 구입하지 않은 경우 이 필드와 [!UICONTROL 이니셔티브 작업 역할] 보고서 유형이 [!DNL Workfront Scenario Planner] 인스턴스에 표시되지 않습니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Workfront Scenario Planner] 개요</a>를 참조하십시오. </p> </td> 
+   <td> <p>[!UICONTROL 이니셔티브 작업 역할] 보고서에서 프로젝트의 작업 또는 문제에 할당된 작업 역할과 연관된 [!UICONTROL 계획된 시간] 수를 표시합니다. 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입하지 않은 경우 이 필드와 [!UICONTROL 이니셔티브 작업 역할] 보고서 유형이 [!DNL Workfront] 인스턴스에 표시되지 않습니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md">[!DNL Workfront Scenario Planner] 개요</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 프로젝트 세부 정보]</td> 
@@ -1885,7 +1815,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 증명 결정]</td> 
-   <td> <p>[!UICONTROL Document Version] 개체가 포함된 보고서(예: [!UICONTROL Document Version] 보고서)의 경우  및 [!UICONTROL Proof Approval] 보고서) 이 필드에는 증명의 결정 상태(보류 중, 변경 필수 또는 승인됨)가 표시됩니다</p> </td> 
+   <td> <p>[!UICONTROL Document Version] 개체가 포함된 보고서([!UICONTROL Document Version] 보고서 및 [!UICONTROL Proof Approval] 보고서 등)에서 이 필드는 증명의 결정 상태(보류 중, 변경 필수 또는 승인됨)를 표시합니다</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 증명 이름]</td> 
@@ -1897,7 +1827,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 증명 진행 상황]</td> 
-   <td> <p>[!UICONTROL Document Version] 개체(예: [!UICONTROL Document Version] 보고서 및 [!UICONTROL Proof Approval] 보고서)가 포함된 보고서에는 증명의 진행 상태([!UICONTROL Sent], [!UICONTROL Opened], [!UICONTROL Composed], [!UICONTROL Decision Made])가 표시됩니다.</p> <p>자세한 내용은 <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md#understanding-progress-and-status" class="MCXref xref">증명 진행 상황 및 상태 개요</a>의 <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md" class="MCXref xref">증명 진행 상황 개요</a>를 참조하십시오.</p> </td> 
+   <td> <p>[!UICONTROL Document Version] 개체(예: [!UICONTROL Document Version] 보고서 및 [!UICONTROL Proof Approval] 보고서)가 포함된 보고서에는 증명의 진행 상태([!UICONTROL Sent], [!UICONTROL Opened], [!UICONTROL Composed], [!UICONTROL Decision Made])가 표시됩니다.</p> <p>자세한 내용은 <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md" class="MCXref xref">증명 진행 상황 및 상태 개요</a>의 <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md#understanding-progress-and-status" class="MCXref xref">증명 진행 상황 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 증명]</td> 
@@ -1935,26 +1865,22 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL 준비]</td> 
    <td> <p>작업 보고서의 이 필드는 [!UICONTROL 애자일] 작업이 백로그에서 [!UICONTROL 준비]로 표시되었는지 여부를 나타냅니다. 이 플래그는 [!UICONTROL Agile] 팀에 할당된 작업인 [!UICONTROL Agile] 작업에만 적용됩니다. </p> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 레코드]</td> 
    <td> <p>Workfront Planning에서 레코드는 레코드 유형의 고유한 인스턴스입니다.</p>
-<p>작업 영역에 레코드 유형을 추가한 후 레코드 유형의 페이지에 해당 유형의 레코드를 추가할 수 있습니다.</p>
-<p>예를 들어 "Campaign"은 레코드 유형이고 "EMEA에 대한 여름 캠페인"은 캠페인 레코드 유형의 레코드입니다.</p>
-<p>레코드 만들기에 대한 자세한 내용은 <a href="/help/quicksilver/planning/records/create-records.md">레코드 만들기</a>를 참조하세요. </p> <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p></td> 
-  </tr>
-
-
-<tr> 
+  <p>작업 영역에 레코드 유형을 추가한 후 레코드 유형의 페이지에 해당 유형의 레코드를 추가할 수 있습니다.</p>
+  <p>예를 들어 "Campaign"은 레코드 유형이고 "EMEA에 대한 여름 캠페인"은 캠페인 레코드 유형의 레코드입니다.</p>
+  <p>레코드 만들기에 대한 자세한 내용은 <a href="/help/quicksilver/planning/records/create-records.md">레코드 만들기</a>를 참조하세요. </p> <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 레코드 유형]</td> 
    <td> <p>Workfront Planning의 객체 유형입니다.</p>
-<p>객체 유형이 사전 정의된 Workfront과 달리 Workfront Planning에서는 고유한 객체 유형을 만들 수 있습니다.Workfront Planning 객체 유형을 레코드 유형이라고 합니다.</p>
-<p>예를 들어 Workfront에서 프로그램, Portfolio, 프로젝트, 작업 또는 문제의 객체 유형이 이미 생성되었습니다.</p>
-<p>Workfront Planning에서 조직의 워크플로에 맞는 모든 레코드 유형을 만들 수 있습니다. 나중에 레코드 종류 간에 어떤 관계가 있는지 정의하거나 양식 종속성을 정의할 수 있습니다.</p> 레코드 종류 만들기에 대한 자세한 내용은 <a href="/help/quicksilver/planning/architecture/create-record-types.md">레코드 종류 만들기</a>를 참조하세요. </p> <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p></td> 
-  </tr>
-
-<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  <p>객체 유형이 사전 정의된 Workfront과 달리 Workfront Planning에서는 고유한 객체 유형을 만들 수 있습니다.Workfront Planning 객체 유형을 레코드 유형이라고 합니다.</p>
+  <p>예를 들어 Workfront에서 프로그램, Portfolio, 프로젝트, 작업 또는 문제의 객체 유형이 이미 생성되었습니다.</p>
+  <p>Workfront Planning에서 조직의 워크플로에 맞는 모든 레코드 유형을 만들 수 있습니다. 나중에 레코드 종류 간에 어떤 관계가 있는지 정의하거나 양식 종속성을 정의할 수 있습니다.</p> 레코드 종류 만들기에 대한 자세한 내용은 <a href="/help/quicksilver/planning/architecture/create-record-types.md">레코드 종류 만들기</a>를 참조하세요. </p> <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p></td> 
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL 반복 빈도]</td> 
    <td> <p>반복 작업 상위의 [!UICONTROL 작업 세부 사항] 또는 [!UICONTROL 작업 편집] 상자에 표시되는 필드입니다. 반복 작업이 발생하는 빈도입니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>를 참조하십시오. </p> </td> 
   </tr> 
@@ -1965,23 +1891,20 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL 거부 문제]</td> 
    <td>프로젝트 또는 작업 보고서에서 프로젝트 또는 작업에 대한 승인이 거부될 때 발생하는 문제입니다. 거부 문제에 대한 자세한 내용은 문서 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">작업 항목에 대한 승인 프로세스 만들기</a>를 참조하십시오. </td> 
-  </tr>
-
-<tr>
+  </tr> 
+  <tr>
   <td>관계 유형</td>
-  <td><p>Workfront 개체는 항상 다음 관계 유형 중 하나를 사용하여 서로 연결됩니다.</p>
-
-<ul><li> <b>일대다</b>: 이 관계에서 한 개체가 다른 형식의 다른 여러 개체에 연결될 수 있습니다. 예를 들어 한 프로젝트에 여러 작업이 있을 수 있습니다. 프로젝트-작업 관계는 일대다 관계입니다. 표준 인터페이스를 사용하여 보고서에 이 관계를 표시할 수 없습니다. 일대다 관계를 보려면 텍스트 모드 보고를 사용해야 합니다.</li>
+  <td><p>Workfront 개체는 항상 다음 관계 유형 중 하나를 사용하여 서로 연결됩니다.</p> 
+  <ul><li> <b>일대다</b>: 이 관계에서 한 개체가 다른 형식의 다른 여러 개체에 연결될 수 있습니다. 예를 들어 한 프로젝트에 여러 작업이 있을 수 있습니다. 프로젝트-작업 관계는 일대다 관계입니다. 표준 인터페이스를 사용하여 보고서에 이 관계를 표시할 수 없습니다. 일대다 관계를 보려면 텍스트 모드 보고를 사용해야 합니다.</li>
   <li><b>일대일</b>: 이 관계에서 한 개체는 다른 형식의 다른 개체에 연결될 수 있습니다. 예를 들어 프로젝트에는 그룹이 하나만 있을 수 있습니다. 프로젝트-그룹 관계는 일대일 관계입니다. 표준 보고서에서 객체 간의 일대일 관계를 표시할 수 있습니다.</li>
   <li><b>다대일</b>: 이 관계에서 여러 개체는 다른 형식의 다른 개체 하나에만 연결할 수 있습니다. 예를 들어 여러 작업을 동일한 프로젝트에 연결할 수 있습니다. 작업-프로젝트 관계는 다대일 관계입니다. 표준 보고서에서 객체 간의 다대일 관계를 표시할 수 있습니다. </li>
   <li><b>많음에서 많음</b>: 이 관계에서 같은 형식의 여러 개체를 다른 형식의 여러 개체에 연결할 수 있습니다. 예를 들어 여러 사용자가 여러 다른 팀에 속할 수 있고 팀은 여러 사용자에 속할 수 있습니다. 표준 인터페이스를 사용하여 보고서에 이 관계를 표시할 수 없습니다. 다대다 관계를 보려면 텍스트 모드 보고를 사용해야 합니다. </li> </ul>
   </td></tr>
-<tr> 
+  <tr> 
    <td>[!UICONTROL 남은 위험 비용]</td> 
    <td> <p>프로젝트의 [!UICONTROL 계획된 위험 비용]과 프로젝트에 대한 모든 위험의 총 [!UICONTROL 실제 비용] 간의 차이를 표시하는 프로젝트 필드입니다. </p> <p>프로젝트에 대한 [!UICONTROL 남은 위험 비용]은 다음 공식을 사용하여 계산됩니다.</p> <p><code>[!UICONTROL Remaining Risk Cost] = Project [!UICONTROL Planned Risk Cost] - SUM([!UICONTROL Actual Cost] for all risks)</code> </p> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 재계획]</td> 
    <td>문제를 복구하거나 극복하기 위해 프로젝트 날짜 변경. 예를 들어 몇 달 동안 보류된 프로젝트는 정확한 날짜를 반영하도록 재계획해야 합니다. 프로젝트의 날짜 또는 작업의 날짜를 조정하는 수동 작업입니다. </td> 
   </tr> 
@@ -2011,15 +1934,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 문제 해결]</td> 
-   <td> <p>문제 보고서에서 보기 또는 필터의 이 필드를 사용하여 문제를 해결하는 문제를 참조하십시오. </p> <p>보고서에 해결 중인 개체를 표시하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">해결 및 해결 가능한 개체 개요 </a>의 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">보고서에 해결 가능한 개체 및 해결 가능한 개체 정보 보기</a>를 참조하십시오.</p> </td> 
+   <td> <p>문제 보고서에서 보기 또는 필터의 이 필드를 사용하여 문제를 해결하는 문제를 참조하십시오. </p> <p>보고서에 해결 중인 개체를 표시하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 및 해결 가능한 개체 개요 </a>의 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">보고서에 해결 가능한 개체 및 해결 가능한 개체 정보 보기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 프로젝트 확인]</td> 
-   <td> <p>문제 보고서에서 보기 또는 필터의 이 필드를 사용하여 문제를 해결하는 프로젝트를 참조하십시오. </p> <p>보고서에 해결 중인 개체를 표시하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">해결 및 해결 가능한 개체 개요 </a>의 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">보고서에 해결 가능한 개체 및 해결 가능한 개체 정보 보기</a>를 참조하십시오.</p> </td> 
+   <td> <p>문제 보고서에서 보기 또는 필터의 이 필드를 사용하여 문제를 해결하는 프로젝트를 참조하십시오. </p> <p>보고서에 해결 중인 개체를 표시하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 및 해결 가능한 개체 개요 </a>의 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">보고서에 해결 가능한 개체 및 해결 가능한 개체 정보 보기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 해결 작업]</td> 
-   <td> <p>문제 보고서에서 보기 또는 필터의 이 필드를 사용하여 문제를 해결하는 작업을 참조하십시오. </p> <p>보고서에 해결 중인 개체를 표시하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">해결 및 해결 가능한 개체 개요 </a>의 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">보고서에 해결 가능한 개체 및 해결 가능한 개체 정보 보기</a>를 참조하십시오.</p> </td> 
+   <td> <p>문제 보고서에서 보기 또는 필터의 이 필드를 사용하여 문제를 해결하는 작업을 참조하십시오. </p> <p>보고서에 해결 중인 개체를 표시하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 및 해결 가능한 개체 개요 </a>의 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">보고서에 해결 가능한 개체 및 해결 가능한 개체 정보 보기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Resource]</td> 
@@ -2057,8 +1980,7 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL 리소스 플래너 예산 인건비]</td> 
    <td> <p>리소스 플래너를 사용하여 프로젝트 작업 역할에 대해 예산 책정된 시간과 관련된 비용입니다. </p> <p>이 문서의 "예산 인건비"도 참조하십시오. </p> </td>
-
-</tr> 
+  </tr> 
   <tr> 
    <td>[!UICONTROL 리소스 풀]</td> 
    <td> <p>리소스 풀은 프로젝트와 연결할 수 있는 사용자 컬렉션입니다. 동일한 리소스 풀의 사용자는 일반적으로 동일한 부서에 속하거나, 유사한 기술 또는 상호 보완적인 기술을 보유하고 있거나, 동일한 예산으로 자금이 조달됩니다. 여러 리소스 풀을 프로젝트 또는 사용자에게 연결할 수 있습니다. 리소스 풀은 프로젝트에만 할당되거나 여러 프로젝트에서 공유할 수 있습니다.</p> 
@@ -2093,8 +2015,7 @@ ht-degree: 0%
      <li> <p>프로젝트의 위험 정도를 나타내는 프로젝트의 필드입니다. 위험 수준에 따라 프로젝트 실행의 우선 순위를 지정할 수 있습니다. 프로젝트는 다음과 같은 위험 수준을 가질 수 있습니다.</p> <p>- [!UICONTROL 매우 낮음]</p> <p>- [!UICONTROL 낮음]</p> <p>- [!UICONTROL Medium]</p> <p>- [!UICONTROL 높음]</p> <p>- [!UICONTROL 매우 높음]</p> <p>프로젝트에 대해 표시하는 위험 수준은 사용자 지정할 수 없습니다. </p> <p> 프로젝트의 위험 업데이트에 대한 자세한 내용은 문서 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">프로젝트 편집</a>의 " 프로젝트 설정" 섹션을 참조하십시오. 보고서에 프로젝트의 위험 필드를 표시할 수 있습니다. </p> </li> 
      <li> <p>프로젝트 수명 중에 발생할 수 있는 이벤트로, 프로젝트의 비용, 범위 또는 일정에 대한 잠재적인 영향을 식별합니다. 프로젝트에 대한 잠재적 위험을 정의하고 프로젝트의 비즈니스 사례를 작성할 때 발생할 확률 또는 비용을 연관시킵니다. 프로젝트의 비즈니스 사례에 위험을 추가하는 방법에 대한 자세한 내용은 "프로젝트에 대한 위험 만들기 및 편집"을 참조하십시오. </p> <p>보고서에 [!UICONTROL 비즈니스 사례]에 정의된 위험을 표시할 수 없습니다. 보고서와 목록에는 여러 유형의 위험 비용만 표시할 수 있습니다. </p> </li> 
     </ul> </td>
-
-</tr> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 위험 비용]</td> 
    <td> <p>프로젝트의 위험과 관련된 비용입니다. 다음은 보고서에 표시할 수 있는 프로젝트와 관련된 위험 비용입니다.</p> 
@@ -2103,9 +2024,8 @@ ht-degree: 0%
      <li> <p>[!UICONTROL 계획된 위험 비용]: 프로젝트에 대한 모든 [!UICONTROL 잠재적 위험 비용]의 합계를 표시하는 프로젝트의 필드입니다. 이 문서의 "[!UICONTROL 계획된 위험 비용]"도 참조하십시오. </p> <p>잠재적 위험 비용에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">잠재적 위험 비용 계산 </a>을(를) 참조하십시오. </p> </li> 
      <li> <p>[!UICONTROL 남은 위험 비용]: 모든 위험의 [!UICONTROL 실제 비용] 합계와 [!UICONTROL 계획된 위험 비용] 간의 차이를 표시하는 프로젝트의 필드입니다. 이 문서의 "남은 위험 비용"을 참조하십시오. </p> </li>
     </ul> </td> 
-  </tr>
-
-<tr data-mc-conditions=""> 
+  </tr> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL 위험 관리]</td> 
    <td>위험을 식별, 완화 및 모니터링하는 프로세스</td> 
   </tr> 
@@ -2141,23 +2061,22 @@ ht-degree: 0%
    <td>검색 기준이 저장된 검색입니다. 저장된 검색을 사용하면 검색 기준을 다시 입력할 필요 없이 동일한 검색을 쉽게 다시 실행할 수 있습니다.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
-   <td>[!UICONTROL 시나리오] ([!DNL Workfront Fusion]) </td> 
-   <td> <p>시나리오는 앱/서비스 간에 데이터를 전송하고 변환하는 방법을 나타내는 일련의 단계(모듈)로 구성됩니다.</p> <p>[!DNL Workfront Fusion]의 시나리오에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] 시나리오 개요</a>를 참조하십시오.</p> </td> 
+   <td>[!UICONTROL 시나리오]([!DNL Workfront Fusion]) </td> 
+   <td> <p>시나리오는 앱/서비스 간에 데이터를 전송하고 변환하는 방법을 나타내는 일련의 단계(모듈)로 구성됩니다.</p> <p>[!DNL Workfront Fusion]의 시나리오에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] 시나리오 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 시나리오] ([!DNL Workfront Scenario Planner]) </td> 
-   <td> <p>[!DNL Scenario Planner]에서 시나리오는 계획의 사본입니다. </p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p>시나리오 만들기에 대한 자세한 내용은 <a href="../../../scenario-planner/create-and-compare-scenarios-for-a-plan.md">에서 [!DNL Scenario Planner]</a>계획 시나리오 만들기 및 비교를 참조하십시오. </p> </td> 
+   <td>[!UICONTROL 시나리오]([!DNL Workfront Scenario Planner]) </td> 
+   <td> <p>[!DNL Scenario Planner]에서 시나리오는 계획의 사본입니다. </p> <p>[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">[!DNL Scenario Planner] 개요</a>를 참조하십시오. </p> <p>시나리오 만들기에 대한 자세한 내용은 [!DNL Scenario Planner]</a>에서 <a href="../../../scenario-planner/create-and-compare-scenarios-for-a-plan.md">계획 시나리오 만들기 및 비교를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 일정]</td> 
    <td>근무 시간을 포함한 주별 근무 일정은 휴일(예: 휴일) 및 예외 일(예: 토요일 근무일)과 결합됩니다. Yiu는 일정을 프로젝트 및 사용자와 연결할 수 있습니다.</td> 
   </tr> 
-<tr> 
+  <tr> 
    <td>[!UICONTROL SPI(일정 성과 지수)]</td> 
    <td><p>[!UICONTROL SPI(일정 성과 지수)]는 계획된 일정과 실제 일정 간의 관계를 설명합니다. Adobe Workfront은 프로젝트 및 작업 수준에서 SPI를 계산합니다. 프로젝트 관리자는 이 지표를 검토하여 작업 또는 프로젝트가 현재 예정보다 앞당겨지거나 지연되고 있는지 확인합니다.</p>
-  <p>자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-spi.md">SPI(일정 성과 지수) 계산</a>을 참조하세요.
-
-</td> 
+  <p>자세한 내용은 <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-spi.md">SPI(일정 성과 지수) 계산</a>을 참조하세요.   
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 
@@ -2220,9 +2139,8 @@ ht-degree: 0%
     <p>예를 들어 Source 열이 있는 보고서에 다음 중 하나를 추가할 수 있습니다. </p>
     <ul><li>문서 또는 시간 보고서에 대한 프로젝트 이름, 작업 이름 또는 문제 이름 열입니다.</li>
     <li>문제 보고서에 대한 프로젝트 이름 또는 작업 이름 열입니다. </li> </ul>
-    자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">다른 사용자의 액세스 권한으로 보고서 실행 및 전달</a>을 참조하세요.
-
-</td> 
+    자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">다른 사용자의 액세스 권한으로 보고서 실행 및 전달</a>을 참조하세요. 
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 시작 일자]</td> 
@@ -2254,8 +2172,8 @@ ht-degree: 0%
      <li>[!UICONTROL 피드백 대기 중]</li> 
      <li>[!UICONTROL 보류 중]</li> 
      <li>[!UICONTROL 확인됨]</li> 
-     <li>[!UICONTROL 이 해결되지 않음]</li> 
-     <li>[!UICONTROL 을 복제할 수 없음]</li> 
+     <li>[!UICONTROL이 해결되지 않음]</li> 
+     <li>[!UICONTROL을 복제할 수 없음]</li> 
      <li>[!UICONTROL 검증 완료]</li> 
      <li>[!UICONTROL 다시 열림]</li> 
     </ul> <p>문제 상태에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">시스템 문제 상태 목록에 액세스</a>를 참조하십시오.</p> 
@@ -2325,8 +2243,7 @@ ht-degree: 0%
    <td>[!UICONTROL Strategic Alignment]</td> 
    <td>포트폴리오 및 프로그램 전반에서 회사 목표를 측정하고 정렬합니다.</td> 
   </tr>
-
-<tr> 
+  <tr> 
    <td><code>[!UICONTROL stretch]</code></td> 
    <td><p>텍스트 모드 인터페이스를 사용할 때 보고서 열에 사용됩니다. </p>
    <p><code>[!UICONTROL stretch]</code>은(는) 보기에 필요하지 않은 추가 공간을 차지하는 열을 식별하는 데 사용됩니다. 일반적인 사용자를 위한 작업 영역의 사용자 인터페이스 폭은 약 850픽셀이다. 즉, 4개의 보기가 있는 경우
@@ -2334,8 +2251,7 @@ ht-degree: 0%
    <p>보기에 있는 열 중 하나 이상에 대해 추가 코드 줄 <code>[!UICONTROL usewidths=true]</code>을(를) 사용하면 열 스트레치가 적용됩니다. 
    </td> 
   </tr>
-
-<tr> 
+  <tr> 
    <td>[!UICONTROL 구독자]</td> 
    <td> <p>프로젝트, 작업 또는 문제를 구독하는 사용자.</p> <p>보고서에서 이 필드를 사용하면 구독자 목록이 표시되고 각 구독자는 쉼표로 구분됩니다.</p> <p>자세한 내용은 문서 <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">[!DNL Adobe Workfront]</a>의 항목 구독 을 참조하십시오.</p> </td> 
   </tr> 
@@ -2357,9 +2273,8 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL 작업]</td> 
-   <td> <p>최종 목표 달성(프로젝트 완료)을 위한 단계로 수행해야 하는 활동.</p>
-
-<p>작업은 궁극적으로 프로젝트를 완료하는 더 작은 작업 단위로서 더 큰 작업 단위를 나타냅니다.</p>
+   <td> <p>최종 목표 달성(프로젝트 완료)을 위한 단계로 수행해야 하는 활동.</p> 
+   <p>작업은 궁극적으로 프로젝트를 완료하는 더 작은 작업 단위로서 더 큰 작업 단위를 나타냅니다.</p>
    <p>작업은 독립적으로 존재할 수 없습니다. 항상 프로젝트의 일부입니다. </p>
    <p>작업에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">작업 개요</a>를 참조하십시오.</p> 
    <p>작업 만들기에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/create-tasks/create-tasks-in-project.md">프로젝트에서 작업 만들기</a>를 참조하십시오.
@@ -2405,7 +2320,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL Thumbnail]</td> 
-   <td> <p> [!UICONTROL Document] 목록 또는 보고서에서 문서의 미리보기를 썸네일에 표시합니다. </p> <p> <strong>[!UICONTROL Thumbnail]</strong> 선택  보고서에서 33~66픽셀 너비의 축소판을 봅니다. </p> <p>축소판 크기는 목록 또는 보고서에서 열의 너비를 수정할 때 조정됩니다.</p> <p>이 문서에서 "[!UICONTROL Large Thumbnail]"도 참조하십시오.</p> </td> 
+   <td> <p> [!UICONTROL Document] 목록 또는 보고서에서 문서의 미리보기를 썸네일에 표시합니다. </p> <p> 보고서에서 33-66픽셀 너비의 썸네일을 보려면 <strong>[!UICONTROL 썸네일]</strong>을(를) 선택하십시오. </p> <p>축소판 크기는 목록 또는 보고서에서 열의 너비를 수정할 때 조정됩니다.</p> <p>이 문서에서 "[!UICONTROL Large Thumbnail]"도 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 휴무]</td> 
@@ -2544,25 +2459,20 @@ ht-degree: 0%
    <td> <p>보고서 목록에는 이번 달 동안 보고서를 본 횟수가 표시됩니다.<br>보고서 목록의 사용 정보에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">보고서 사용 현황 보기</a> 문서를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 이 이번 분기 조회수]</td> 
+   <td>[!UICONTROL이 이번 분기 조회수]</td> 
    <td>보고서 목록에는 이 분기 동안 보고서를 본 횟수가 표시됩니다.<br>보고서 목록의 사용 정보에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">보고서 사용 현황 보기</a> 문서를 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 올해의 조회수]</td> 
    <td>보고서 목록에는 올해 동안 보고서를 본 횟수가 표시됩니다.<br>보고서 목록의 사용 정보에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">보고서 사용 현황 보기</a> 문서를 참조하십시오.</td> 
-  </tr>
-
-<tr>
+  </tr> 
+  <tr>
   <td> <code>[!UICONTROL width]</code>
   </td>
-<td> 보고서에서 [!UICONTROL 텍스트 모드] 인터페이스를 사용할 때 각 열의 너비를 픽셀 단위로 지정할 수 있는 코드 행입니다. Workfront에서는 각 필드에 대해 제안된 너비를 제공합니다.
-필드 유형과 형식에 따라 조정할 수도 있습니다.
-열에 지정된 너비를 적용하려면 추가 <code>[!UICONTROL usewidths=true]</code> 코드 행을 사용해야 합니다. 
+  <td> 보고서에서 [!UICONTROL 텍스트 모드] 인터페이스를 사용할 때 각 열의 너비를 픽셀 단위로 지정할 수 있는 코드 행입니다. Workfront에서는 각 필드에 대해 제안된 너비를 제공하지만 필드 유형과 형식에 따라 조정할 수 있습니다. 열에 지정된 너비를 적용하려면 추가 <code>[!UICONTROL usewidths=true]</code> 코드 행을 사용해야 합니다. 
   </td>
-
-</tr>
-
-<tr> 
+  </tr>
+  <tr> 
    <td><code>[!UICONTROL work]</code> </td> 
    <td> <p>프로젝트, 작업 또는 문제 보고서에서 텍스트 모드에서 다음 문을 사용하면 프로젝트, 작업 또는 문제의 계획된 시간이 표시됩니다.</p>
    <code><p>valuefield=work</p>
@@ -2597,7 +2507,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 작업 관리 혼합]</td> 
-   <td>비즈니스를 실행하기 위해 할당된 작업과 비즈니스를 변경하기 위해 할당된 작업의 비율의 [!UICONTROL 작업 성과 지표] (WPI). 혼합 WPI를 사용하면 전략에 실제 작업 할당이 적용되었는지 여부를 조직 수준에서 이해할 수 있습니다.</td> 
+   <td>비즈니스를 실행하기 위해 할당된 작업과 비즈니스를 변경하기 위해 할당된 작업의 비율의 [!UICONTROL 작업 성과 지표](WPI). 혼합 WPI를 사용하면 전략에 실제 작업 할당이 적용되었는지 여부를 조직 수준에서 이해할 수 있습니다.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 작업 관리 리소스]</td> 
@@ -2659,9 +2569,8 @@ ht-degree: 0%
    <p>valueformat=HTML</p>
    </code>
     <p>텍스트 모드 사용에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">텍스트 모드 구문 개요</a>를 참조하십시오. </p> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Workspace] </td> 
    <td> <p>Workfront Planning에서 작업 공간은 특정 조직의 운영 라이프사이클을 정의하는 레코드 유형의 컬렉션입니다. 작업 공간은 조직 단위의 작업 프레임입니다.</p>
    <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p>
@@ -2669,5 +2578,3 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
-
-
