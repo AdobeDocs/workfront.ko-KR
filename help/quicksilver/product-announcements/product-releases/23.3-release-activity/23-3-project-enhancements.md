@@ -34,4 +34,4 @@ ht-degree: 0%
 
 공유 옵션을 더 직관적으로 공유하기 위해 프로젝트, 작업 및 문제에 대한 더 보기 메뉴에서 제거했습니다. 이제 [추가] 메뉴 바로 앞에 개체의 이름 옆에 새 공유 단추가 표시됩니다. 문서, 포트폴리오 및 프로그램 공유는 변경되지 않습니다.
 
-개체 공유에 대한 자세한 내용은 [개체 공유](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)를 참조하십시오.
+개체 공유에 대한 자세한 내용은 [개체 공유](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)를 참조하십시오.
