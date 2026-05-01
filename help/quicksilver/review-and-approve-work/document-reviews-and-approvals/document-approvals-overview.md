@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '3846'
+source-wordcount: '3890'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,12 @@ ht-degree: 0%
 
 ![Workfront에서 작업을 관리하는 프로젝트 코디네이터와 Frame.io 뷰어에서 피드백을 제공하고 결정을 내리는 검토자와 승인자가 통합된 검토 및 승인 워크플로를 보여 주는 다이어그램](assets/Unified-Review-Approvals-Image.png)
 
+<!--
+## Integration requirements
 
-## 통합 요구 사항
+* The Workfront instance must be enabled on the Adobe Unified Experience.
 
-* Workfront 통합 경험에서 Adobe 인스턴스를 활성화해야 합니다.
-
+-->
 
 ## Adobe 엔터프라이즈 스토리지 기반
 
@@ -192,7 +193,7 @@ Workfront에 업로드된 문서는 Adobe 엔터프라이즈 스토리지에 저
 
 **액세스하려면 어떻게 해야 합니까?**
 
-통합 검토 및 승인에 액세스하려면 조직이 Workfront V2 SKU를 사용해야 합니다. 현재 V2 SKU를 사용하지 않는 경우 Adobe과의 계약 이벤트가 필요합니다. 시작하려면 다음 단계를 따르십시오. 
+통합 검토 및 승인에 액세스하려면 조직이 Workfront V2 SKU를 사용해야 합니다. 현재 V2 SKU를 사용하지 않는 경우 Adobe과의 계약 이벤트가 필요합니다. 시작하려면 다음 단계를 따르십시오.
 
 * 현재 Adobe 플랜이 통합 검토 및 승인을 지원하는지 확인하려면 Workfront 계정 담당자에게 문의하십시오.
 

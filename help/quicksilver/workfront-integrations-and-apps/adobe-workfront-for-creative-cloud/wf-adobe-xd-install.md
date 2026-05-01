@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '502'
 ht-degree: 5%
 
 ---
@@ -54,7 +54,7 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
   -->
   <tr> 
    <td role="rowheader">추가 제품</td> 
-   <td><p>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</p></td> 
+   <td><p>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,11 +73,11 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
 
 [비디오 튜토리얼은 여기에서 봅니다](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은 [에서 사용자의  [!DNL Adobe Workfront] [!UICONTROL [!DNL Creative Cloud]] for [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)패키지 만들기를 참조하십시오.
+[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
 
 ## 개별적으로 [!DNL Adobe Workfront for XD] 플러그 인을 설치하십시오.
 
-[!DNL Adobe Workfront for XD]에서 직접 [!DNL Adobe Exchange] 플러그인을 설치할 수 있습니다.
+[!DNL Adobe Exchange]에서 직접 [!DNL Adobe Workfront for XD] 플러그인을 설치할 수 있습니다.
 
 1. Adobe Exchange의 [XD용 Adobe Workfront 설치 페이지](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share)&#x200B;(으)로 이동합니다.
 1. 표시되는 대화 상자에서 **데스크톱 앱 [!DNL Adobe Creative Cloud] 열기**&#x200B;를 클릭합니다.
@@ -139,6 +139,5 @@ Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설
 
 1. Adobe Workfront for XD 플러그인을 제거하고 다시 설치하여 도메인 및 오류를 지웁니다.
 
-1. Workfront 도메인을 입력합니다. 도메인은 `company-name.my.workfront.com`이(가) 아닌 `experience.adobe.com`이어야 합니다.
+1. Workfront 도메인을 입력합니다. 도메인은 `experience.adobe.com`이(가) 아닌 `company-name.my.workfront.com`이어야 합니다.
 
-Adobe 통합 경험을 사용하는 경우 Workfront 도메인을 찾으려면 다음으로 이동합니다.
