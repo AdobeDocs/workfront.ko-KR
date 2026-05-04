@@ -7,22 +7,21 @@ description: ' [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud] (으)
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
-hidefromtoc: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront plugin]에서 [!DNL Creative Cloud] (으)로 문서 및 증명 업로드
+# [!DNL Adobe Workfront plugin]에서 [!DNL Creative Cloud]&#x200B;(으)로 문서 및 증명 업로드
 
 프로젝트를 빠른 검토 및 승인을 위한 문서로 업로드하거나 간단히 [!DNL Adobe Workfront]에 저장할 수 있습니다.
 
 >[!NOTE]
 >
->Premiere Pro 및 After Effects에서는 문서 및 증명 업로드가 현재 지원되지 않습니다.
+>문서 및 증명 업로드는 현재 Premiere Pro 및 After Effects에서 지원되지 않습니다.
 
 
 ## 문서 제한
@@ -49,7 +48,7 @@ ht-degree: 0%
 
    <table>
     <tr>
-    <td><strong>PDF 및 PDF 인쇄</strong>
+    <td><strong>PDF 및 PDF-PRINT</strong>
     </td>
     <td><strong>별도의 PDF 파일 만들기</strong>를 선택 취소합니다.
     </td>

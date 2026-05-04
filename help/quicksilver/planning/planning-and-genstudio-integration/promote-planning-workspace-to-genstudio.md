@@ -2,11 +2,10 @@
 title: Workfront Planning 작업 영역을 GenStudio으로 승격
 description: GenStudio for Performance Marketing 작업 영역은 회사가 제품을 모두 구매하고 Workfront 인스턴스가 회사의 GenStudio 인스턴스와 통합되는 경우 Adobe Workfront Planning에서 사용할 수 있습니다. Workfront Planning 작업 영역을 GenStudio으로 승격하고 두 시스템에서 해당 정보를 보고 업데이트할 수 있습니다.
 hide: true
-hidefromtoc: true
 exl-id: 0747fb80-496f-41c0-b469-1203e1605f05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%

@@ -6,12 +6,11 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 0%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +29,7 @@ Adobe Workfront 관리자는 SAML(Security Assertion Markup Language) 2.0 프로
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +37,7 @@ Adobe Workfront 관리자는 SAML(Security Assertion Markup Language) 2.0 프로
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

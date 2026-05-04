@@ -6,11 +6,10 @@ description: ' [!DNL Workfront] 환경에 대해 향상된 인증(eAuth)을 사�
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '197'
 ht-degree: 1%
 
 ---
@@ -31,7 +30,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p> 임의</p> </td> 
+   <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -53,7 +52,7 @@ ht-degree: 1%
 1. 암호를 다시 설정해야 하는 **[!UICONTROL 사용자]**&#x200B;을(를) 선택하십시오.
    ![사용자 선택](assets/100520classicnweselectuser-350x105.png)
 
-1. 원하는 **[!UICONTROL 사용자]를 선택한 후 표시되는**&#x200B;자세히&#x200B;**[!UICONTROL 단추]**&#x200B;를 클릭하고 드롭다운 메뉴에서 **[!UICONTROL 암호 찾기 이메일 보내기]** 옵션을 선택합니다.
+1. 원하는 **[!UICONTROL 사용자]**&#x200B;를 선택한 후 표시되는 **[!UICONTROL 자세히] 단추**&#x200B;를 클릭하고 드롭다운 메뉴에서 **[!UICONTROL 암호 찾기 이메일 보내기]** 옵션을 선택합니다.
 
    ![암호 찾기 이메일 보내기](assets/100520classicnwesendemail-350x134.png)
 

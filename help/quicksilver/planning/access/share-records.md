@@ -5,14 +5,13 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
 hide: true
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1892'
 ht-degree: 2%
 
 ---
@@ -211,7 +210,7 @@ Lilit is checking on this, it is not working correctly
 
    **공유** 상자가 열립니다.
 
-   ![에서 상속된 사용 권한을 가진 레코드에 대한 &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)사용 권한
+   ![&#128279;](assets/permissions-for-records-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드에 대한 사용 권한
 
 1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **작업 영역의 모든 사용자가 볼 수 있음** 옵션이 기본적으로 선택됩니다.  작업 영역 및 레코드 유형에 대해 **보기** 이상의 권한이 있는 모든 사용자는 레코드에 대해 동일한 권한을 가집니다.
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: de64f43d115c3f1c563fde761e5776b7213ae55f
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '14083'
+source-wordcount: '14097'
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 2%
       * 2025년 3분기 릴리스 {#release-25-q3}
          * [2025년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
          * [증명 및 문서 관리 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
-         * [프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)
+         * {hide-from-toc}[프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)
          * [홈 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-home-enhancements.md)
          * [보고 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
          * [업데이트 및 알림 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
@@ -246,9 +246,9 @@ ht-degree: 2%
          * [Adobe Workfront Planning의 2025년 1분기 릴리스 활동](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Adobe Workfront Planning의 2024년 4분기 릴리스 활동](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Adobe Workfront 제한된 가용성 릴리스 활동{#limited-availability-release-activity}
-         * [Adobe Workfront의 제한된 가용성 기능 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
-         * [Adobe Workfront의 제한된 가용성 기능에 대한 2026년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
-         * [Adobe Workfront의 제한된 가용성 기능에 대한 2026년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+         * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
+         * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능에 대한 2026년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
+         * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능에 대한 2026년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
       * Adobe Workfront Scenario Planner 릴리스 활동 {#scenario-planner-release}
          * [Adobe Workfront Scenario Planner 릴리스 활동](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [21.3 릴리스의 Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -429,13 +429,13 @@ ht-degree: 2%
       * [Beta 프로그램](product-announcements/betas/betas.md)
       * 캔버스 대시보드 베타 {#canvas-dashboards-beta}
          * [캔버스 대시보드 베타 정보](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
-         * [보고 캔버스 베타 개요](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
-         * [캔버스 대시보드 베타: 릴리스 활동](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
+         * {hide-from-toc}[보고 캔버스 베타 개요](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+         * {hide-from-toc}[캔버스 대시보드 베타: 릴리스 활동](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * 새 댓글 달기 경험 Beta {#new-commenting-experience-beta}
-         * [새 댓글 달기 Beta 경험 정보](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
-         * [새 댓글 달기 환경](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
-         * [새로운 댓글 달기 경험 릴리스 활동](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-         * [새로운 주석 달기 경험 FAQ](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
+         * {hide-from-toc}[새 댓글 달기 Beta 경험 정보](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+         * {hide-from-toc}[새 댓글 달기 경험](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+         * {hide-from-toc}[새 댓글 달기 경험 릴리스 활동](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+         * {hide-from-toc}[새 댓글 달기 경험 FAQ](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * 관리 및 설정 {#administration-and-setup}
    * [관리 및 설정: 문서 색인](administration-and-setup/administration-and-setup.md)
    * 관리 시작 {#get-started-administration}
@@ -710,8 +710,8 @@ ht-degree: 2%
          * [Workfront 도메인 변경](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
          * [API 키 관리](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [개인정보 처리방침](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
-         * [향상된 인증 개요](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * [향상된 인증을 사용할 때 IDP에서 SAML 2.0 메타데이터 업데이트](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+         * {hide-from-toc}[향상된 인증 개요](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
+         * {hide-from-toc}[향상된 인증을 사용할 때 IDP에서 SAML 2.0 메타데이터 업데이트](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * 환율 {#exchange-rates}
          * [환율](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [환율 설정](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -854,7 +854,7 @@ ht-degree: 2%
       * [인증되지 않은 이메일이 승인되지 않음](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
       * [Workfront: ZScaler 설정으로 인해 성능이 저하될 수 있음](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [사용자 자격 증명과 SAML 자격 증명 비교](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
-      * [액세스 수준의 자동 업그레이드 옵션 업데이트](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
+      * {hide-from-toc}[액세스 수준의 자동 업그레이드 옵션 업데이트](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront 기본 사항 {#basics}
    * [Adobe Workfront 기본 사항: 문서 색인](workfront-basics/workfront-basics.md)
    * [Adobe Workfront 용어 목록](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
@@ -910,7 +910,7 @@ ht-degree: 2%
       * [우선 순위 달력에서 작업 관리](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * 홈 {#home}
       * [홈](workfront-basics/using-home/home.md)
-      * [기존 홈에서 새 홈으로 이동](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+      * {hide-from-toc}[기존 홈에서 새 홈으로 이동](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
       * 홈 영역 사용 {#use-home-area}
          * [홈 영역 사용: 문서 색인](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [홈 시작](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
@@ -958,7 +958,7 @@ ht-degree: 2%
       * [오브젝트에 첨부된 사용자 정의 양식 관리](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * 알림 사용 {#use-notifications}
       * [알림 사용: 문서 색인](workfront-basics/using-notifications/use-notifications.md)
-      * [Experience Cloud 알림 개요](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
+      * {hide-from-toc}[Experience Cloud 알림 개요](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [알림 개요](workfront-basics/using-notifications/wf-notifications.md)
       * [이메일 알림 수정](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Adobe Workfront에서 항목 구독](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -1007,7 +1007,7 @@ ht-degree: 2%
          * [Adobe Workfront 계정 관리](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Adobe Workfront에 로그인](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [Adobe Workfront에서 로그아웃](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-         * [향상된 인증을 통해 사용자 암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+         * {hide-from-toc}[향상된 인증으로 사용자 암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
          * [이메일 초대 수신 및 Adobe Workfront 암호 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
          * [&#x200B; [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
@@ -1175,7 +1175,7 @@ ht-degree: 2%
       * [문서 삭제](documents/managing-documents/delete-documents.md)
       * [클립보드에서 이미지 붙여넣기](documents/managing-documents/paste-image-clipboard.md)
       * [문서 일괄 편집](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-      * [Workfront 문서 세부 정보 내의 AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+      * {hide-from-toc}[Workfront 문서 세부 정보 내의 AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * 문서 구성 {#organize-documents}
       * [문서 구성](documents/organizing-documents/organize-documents.md)
       * [문서 폴더 만들기](documents/organizing-documents/create-documents-folder.md)
@@ -1572,7 +1572,7 @@ ht-degree: 2%
 * 보고 {#reporting}
    * [보고서 및 대시보드: 문서 색인](reports-and-dashboards/reports-and-dashboards-overview.md)
    * 캔버스 대시보드 {#canvas-dashboards}
-      * [캔버스 대시보드 개요](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * {hide-from-toc}[캔버스 대시보드 개요](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
       * [캔버스 대시보드 사용](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
       * 대시보드 만들기 {#create-dashboards}
          * [캔버스 대시보드 만들기: 문서 인덱스](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
@@ -1793,13 +1793,13 @@ ht-degree: 2%
          * [대시보드 인쇄](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
          * [대시보드 공유](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [대시보드에서 외부 페이지 제거](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
-         * [캔버스 대시보드 개요](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+         * {hide-from-toc}[캔버스 대시보드 개요](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Workfront Data Connect 개요](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Snowflake에 대한 Reader 계정 또는 연결 만들기](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Workfront Data Connect에 연결 설정](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect 데이터 사전](reports-and-dashboards/data-lake/data-dictionary.md)
-      * [데이터 사전 테스트](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+      * {hide-from-toc}[데이터 사전 테스트](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
       * [Workfront Data Connect 쿼리 예제](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Workfront Data Connect 사용 지표 보기](reports-and-dashboards/data-lake/view-usage-metrics.md)
       * [Data Connect에서 작업 내역 데이터 보기 사용](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -1870,7 +1870,7 @@ ht-degree: 2%
    * [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
    * [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
    * [비유료 사용자에 대한 제한된 문서 및 증명 결정 개요](review-and-approve-work/proof-doc-decision-limits.md)
-   * [AI 검토자 설정](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+   * {hide-from-toc}[AI 검토자 설정](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
    * 작업 승인 {#work-approvals}
       * [작업 승인](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [승인 프로세스 개요](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
@@ -2023,7 +2023,7 @@ ht-degree: 2%
          * [대화형 증명이 새 버전으로 추가되면 증명 버전을 다운로드하거나 미리 볼 수 없음](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * 기본 통합 {#native-integrations}
       * [기본 통합 검토 및 승인: 문서 색인](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-      * [GenStudio for Performance Marketing 및 Frame.io 통합 시작](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
+      * {hide-from-toc}[GenStudio for Performance Marketing 및 Frame.io 통합 시작](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
       * [증명 및 Creative Cloud Express 시작](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [증명 및 GenStudio for Performance Marketing 통합 시작](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [Frame.io 통합과 함께 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
@@ -2186,7 +2186,7 @@ ht-degree: 2%
       * [작업 공간 공유](planning/access/share-workspaces.md)
       * [레코드 유형 공유](planning/access/share-record-types.md)
       * [보기 공유](planning/access/share-views.md)
-      * [레코드 공유](planning/access/share-records.md)
+      * {hide-from-toc}[레코드 공유](planning/access/share-records.md)
       * [보기 또는 작업 영역에 대한 권한 요청](planning/access/request-permissions.md)
    * Adobe Workfront 계획 레코드 {#adobe-workfront-planning-records}
       * [레코드: 문서 인덱스](planning/records/records-information.md)
@@ -2236,10 +2236,10 @@ ht-degree: 2%
       * [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합: 문서 색인](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
       * [Adobe Workfront Planning 및 Adobe GenStudio for Performance Marketing 통합 시작](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Adobe Workfront Planning에서 GenStudio 작업 공간 관리](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-      * [Workfront Planning 작업 영역을 GenStudio으로 승격](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
+      * {hide-from-toc}[Workfront Planning 작업 영역을 GenStudio으로 승격](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
    * Adobe Workfront Planning Standalone {#planning-standalone}
-      * [Adobe Workfront Planning Standalone: 문서 색인](planning/planning-sta/planning-sta-article-index.md)
-      * [Adobe Workfront Planning Standlone 시작](planning/planning-sta/get-started-with-planning-sta.md)
+      * {hide-from-toc}[Adobe Workfront Planning Standalone: 문서 색인](planning/planning-sta/planning-sta-article-index.md)
+      * {hide-from-toc}[Adobe Workfront Planning Standlone 시작](planning/planning-sta/get-started-with-planning-sta.md)
 * Adobe Workfront 통합 {#adobe-workfront-integrations}
    * [Adobe Workfront 통합](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront 기본 제공 통합 개요](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
@@ -2260,7 +2260,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [[!DNL [!DNL Adobe Workfront plugin] 에서   Creative Cloud] (으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * {hide-from-toc}[문서 및 증명을  [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud] (으)로 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2523,14 +2523,14 @@ ht-degree: 2%
          * [Workfront Proof 사용자 및 연락처를 위한 팁, 요령 및 문제 해결](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
          * [사용자의 기타 그룹 일괄 편집](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
    * Workfront Proof mobile {#wf-proof-mobile}
-      * [Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
+      * {hide-from-toc}[Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
       * Workfront Proof 모바일 앱 {#wf-proof-mobile-apps}
-         * [Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-         * [Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
-         * [태블릿용 Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
+         * {hide-from-toc}[Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+         * {hide-from-toc}[Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+         * {hide-from-toc}[태블릿용 Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
       * Workfront Proof 모바일 앱에 대한 팁, 요령 및 문제 해결 {#ttt-wf-proof-mobile-apps}
-         * [Workfront Proof 모바일 앱에 대한 팁, 요령 및 문제 해결](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
-         * [Workfront Proof 모바일 앱에 로그인할 수 없음](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
+         * {hide-from-toc}[Workfront Proof 모바일 앱에 대한 팁, 요령 및 문제 해결](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
+         * {hide-from-toc}[Workfront Proof 모바일 앱에 로그인할 수 없음](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
    * Workfront Proof 기술 코너 {#wf-proof-tech-corner}
       * [Workfront Proof 기술 코너](workfront-proof/wp-tech-corner/tech-corner.md)
       * 증명 유형 {#proof-types}
@@ -2659,9 +2659,9 @@ ht-degree: 2%
    * 일반 {#general}
       * [일반](proofhq-api/general/general.md)
       * [개요](proofhq-api/general/overview.md)
-      * [코드 샘플](proofhq-api/general/code-samples.md)
+      * {hide-from-toc}[코드 샘플](proofhq-api/general/code-samples.md)
       * [SOAP API FAQ](proofhq-api/general/soap-api-faqs.md)
-* [숨겨진 테스트 문서](hidden-test.md)
+* {hide-from-toc}[숨겨진 테스트 문서](hidden-test.md)
 * App Builder {#app-builder}
    * [App Builder: 문서 색인](/help/quicksilver/app-builder/app-builder-toc.md)
    * [Adobe Exchange에서 앱 획득 및 설치](/help/quicksilver/app-builder/install-apps-on-exchange.md)

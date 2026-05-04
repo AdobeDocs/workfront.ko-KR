@@ -2,12 +2,11 @@
 title: 숨겨진 테스트
 description: 숨겨진 테스트
 hide: true
-hidefromtoc: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 5ab33ae7ee37f4afa2546af32af205ef546bae22
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 2%
+ht-degree: 19%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항(패키지가 그대로 유지되며 라이센스 행을 업데이트하는 경우 예)
 
-을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +38,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의 </p> 
+   <td> <p>Any </p> 
    </td> 
   </tr> 
   <tr> 
@@ -62,7 +61,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,7 +69,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -92,7 +91,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +99,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -123,7 +122,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항(새로운 기능이 2023/2025 패키지에만 있는 예입니다.)
 
-을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table>
   <tr>
@@ -151,7 +150,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항(다른 제품이 필요한 예입니다.)
 
-을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table>
   <tr>
@@ -202,7 +201,7 @@ ht-degree: 2%
 
 ## 대부분의 Workfront Planning에 대한 액세스 요구 사항
 
-을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -260,7 +259,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 >이전에 귀사에서 Adobe Scenario Planner를 구입한 경우에는 계속 이 회사에 종속되어 있습니다. 시나리오 플래너를 더 이상 구입할 수 없습니다.
 
 
-을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 

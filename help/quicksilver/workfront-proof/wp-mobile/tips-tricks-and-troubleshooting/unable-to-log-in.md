@@ -2,11 +2,10 @@
 title: ' [!DNL Workfront Proof] 모바일 앱에 로그인할 수 없습니다.'
 description: Workfront Proof 모바일 앱 로그인 문제 해결.
 hide: true
-hidefromtoc: true
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
