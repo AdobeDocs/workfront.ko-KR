@@ -3,14 +3,16 @@ title: 숨겨진 테스트
 description: 숨겨진 테스트
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: 25c6a73ca1f7580606a361c93a7c10d2f01271c2
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '617'
 ht-degree: 19%
 
 ---
 
 # 숨겨진 테스트
+
+5월 4일
 
 더 큰 저장소에서 게시 시간을 테스트하는 데 사용되는 숨겨진 파일입니다.
 
@@ -222,7 +224,7 @@ ht-degree: 19%
    <td> 
 <p>모든 Adobe Workfront Workflow 패키지 및 모든 Adobe Workfront Planning 패키지</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront platform(**&#x200B;**&#x200B;이 문제를 해결하시겠습니까? 아니면 이 문제를 맨 아래에 연결된 문서의 일부로 만드시겠습니까???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Adobe Workfront platform(****이 문제를 해결하시겠습니까? 아니면 이 문제를 맨 아래에 연결된 문서의 일부로 만드시겠습니까???*****)</p></td> 
    <td> 
 <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
