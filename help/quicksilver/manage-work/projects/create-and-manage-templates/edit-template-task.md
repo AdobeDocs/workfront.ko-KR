@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3062'
 ht-degree: 6%
 
 ---
@@ -123,13 +123,19 @@ Old:
 1. 템플릿 작업에 대한 제한된 정보를 편집하려면 다음 작업을 수행하십시오.
    1. (선택 사항) 템플릿 작업에 업데이트를 추가하려면 왼쪽 패널에서 **업데이트**&#x200B;를 클릭합니다. 템플릿을 사용하여 프로젝트를 만들 경우 템플릿 작업 업데이트는 프로젝트 작업으로 전송되지 않습니다.
    1. (선택 사항) 템플릿 작업에 문서를 추가하려면 왼쪽 패널에서 **문서**&#x200B;를 클릭합니다. 템플릿을 사용하여 프로젝트를 만들 때 문서가 프로젝트 작업으로 전송됩니다.
+
+      >[!TIP]
+      >
+      >템플릿 작업에 문서를 추가하는 작업은 조직이 Workfront 또는 Adobe 저장소를 사용하여 문서를 저장하는지에 따라 다릅니다. 자세한 내용은 [파일 시스템에서 Adobe Workfront에 문서 추가](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)를 참조하십시오.
+
    1. (조건부) 템플릿 작업에 대한 제한된 정보를 편집하려면 왼쪽 패널에서 **템플릿 작업 세부 정보**&#x200B;를 클릭한 다음 세부 정보 섹션의 영역으로 이동하여 각 영역에 대한 정보를 편집하십시오.
    1. (선택 사항) 다음 중 하나를 수행합니다.
       * **모두 축소** 아이콘 ![모두 축소](assets/collapse-all-icon.png)을 클릭하여 모든 영역을 축소합니다.
       * **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭한 다음 아래 영역 중 하나를 선택하거나 **모두 편집**&#x200B;을 클릭하여 모든 영역의 정보를 편집합니다.
 
+
          * 개요
-         * 사용자 지정 Forms
+         * 사용자 정의 양식
 템플릿 작업에 첨부된 사용자 정의 양식이 있는 경우에만 사용자 정의 양식 이름이 표시됩니다.
          * 재무
 
@@ -603,6 +609,11 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+      
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 

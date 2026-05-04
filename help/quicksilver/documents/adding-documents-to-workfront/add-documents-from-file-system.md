@@ -2,29 +2,36 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: 파일 시스템에서 Adobe Workfront에 문서 추가
-description: You can add documents to projects, tasks, or issues in multiple areas in Adobe Workfront.
-author: Courtney
+description: Adobe Workfront의 여러 영역에서 프로젝트, 작업 또는 문제에 문서를 추가할 수 있습니다.
+author: Courtney, Alina
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1312'
 ht-degree: 2%
 
 ---
 
 # 파일 시스템에서 Adobe Workfront에 문서 추가
 
-Workfront에는 현재 기존 문서 영역과 새 문서 영역의 두 가지 버전이 있습니다. 조직에서 사용하는 버전은 조직이 기존 Workfront 스토리지를 사용하는지 아니면 엔터프라이즈 스토리지를 사용하는지에 따라 다릅니다. 이러한 저장소 유형에 대한 자세한 내용은 [Adobe 엔터프라이즈 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+Adobe Workfront에는 현재 다음 두 가지 유형의 문서 저장소가 있습니다.
 
-Adding documents to Workfront differs depending on which version of the documents area your organization uses.
+* 기존 Workfront 스토리지
+* Adobe 엔터프라이즈 스토리지
 
-* [Add documents to from your file system in the legacy documents area](#add-documents-from-your-file-system-in-the-legacy-documents-area)
-* [Add documents to Workfront in the new documents area](#add-documents-to-workfront-in-the-new-documents-area)
+이러한 저장소 유형에 대한 자세한 내용은 [Adobe 엔터프라이즈 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
+>[!NOTE]
+>
+>일부 고객은 두 가지 유형의 문서 저장소를 모두 보유하고 있으며 일부 고객은 Workfront 또는 Adobe 저장소만 보유하고 있습니다.
 
+Workfront에 문서를 추가하는 방법은 조직에서 사용하는 문서 영역의 버전에 따라 다릅니다.
+
+* [기존 문서 영역에 파일 시스템의 문서 추가](#add-documents-from-your-file-system-in-the-legacy-documents-area)
+* [새 문서 영역에서 Workfront에 문서 추가](#add-documents-to-workfront-in-the-new-documents-area)
 
 ## 액세스 요구 사항
 
@@ -47,8 +54,8 @@ Adding documents to Workfront differs depending on which version of the document
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Legacy Workfront Storage: Edit access to Documents</p> 
-   <p>Enterprise storage: Edit access to Documents is enabled by default and cannot be changed</p>
+   <td> <p>레거시 Workfront 스토리지: 문서에 대한 액세스 편집</p> 
+   <p>엔터프라이즈 스토리지: 문서에 대한 편집 액세스는 기본적으로 활성화되어 있으며 변경할 수 없습니다</p>
    </td> 
   </tr> 
  </tbody> 
@@ -58,17 +65,23 @@ Adding documents to Workfront differs depending on which version of the document
 
 +++
 
-## Add documents from your file system in the legacy documents area
+## 기존 문서 영역에 파일 시스템의 문서 추가
 
-If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Differences between Adobe enterprise storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+조직에서 기존 Workfront 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다.
 
-You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
+Workfront 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지와 레거시 Workfront 스토리지의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)을 참조하십시오.
 
-* The global Documents area
-* The Documents area for a Workfront object
-* A connected card on a Workfront board
+Workfront의 다음 영역에 문서를 추가할 수 있습니다.
 
-새 버전의 문서를 업로드하고 Google 드라이브, Dropbox 및 Microsoft OneDrive와 같은 서드파티 클라우드 공급업체의 문서에 대한 링크를 추가할 수도 있습니다. 새 문서 버전 추가에 대한 자세한 내용은 [새 문서 버전 업로드](../../documents/managing-documents/upload-new-document-version.md)를 참조하십시오. 타사 클라우드 공급업체의 문서를 추가하는 방법에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
+* 메인 메뉴의 문서 영역
+* Workfront 오브젝트의 문서 영역(프로젝트, 작업, 문제, 템플릿, 템플릿 작업, 포트폴리오, 프로그램)
+* Workfront 보드에 연결된 카드
+
+새 버전의 문서를 업로드하고 Google 드라이브, Dropbox 및 Microsoft OneDrive와 같은 서드파티 클라우드 공급업체의 문서에 대한 링크를 추가할 수도 있습니다.
+
+새 문서 버전 추가에 대한 자세한 내용은 [새 문서 버전 업로드](../../documents/managing-documents/upload-new-document-version.md)를 참조하십시오.
+
+타사 클라우드 공급업체의 문서를 추가하는 방법에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
 Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 없습니다. 그러나 업로드가 성공하려면 5분 이내에 완료되어야 하며 사용 가능한 저장 공간이 충분해야 합니다.
 
@@ -87,7 +100,7 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
 
 문서를 추가하려면 다음 작업을 수행하십시오.
 
-1. 새 문서를 추가할 프로젝트, 작업 또는 문제로 이동합니다.
+1. 새 문서를 추가할 Workfront 개체로 이동합니다.
 1. **문서** 탭을 클릭한 다음 **새로 추가** 드롭다운 메뉴를 클릭합니다.
 
    ![새 문서 추가](assets/add-new-doc.png)
@@ -129,14 +142,15 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
     </tbody> 
    </table>
 
+   선택한 객체의 문서 섹션에 문서가 추가됩니다.
 
 ## 새 문서 영역에서 Workfront에 문서 추가
 
-엔터프라이즈 스토리지 모델을 사용하여 프로젝트, 작업 또는 문제에 문서를 추가할 수 있습니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+Adobe 엔터프라이즈 스토리지 모델을 사용하여 객체에 문서를 추가할 수 있습니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
 새 문서 영역에서 현재 지원되지 않는 기능:
 
-* 글로벌 문서 영역에 문서 업로드
+* 주 메뉴의 문서 영역에 문서 업로드
 * Google 드라이브, Dropbox 및 Microsoft OneDrive와 같은 서드파티 클라우드 공급업체의 문서에 대한 링크를 추가합니다.
 * 문서 요청 중
 * 폴더에 링크 복사
@@ -144,66 +158,59 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
 * 클립보드에서 이미지 붙여넣기
 * 스마트 폴더 추가
 
-
 ### 새 문서 영역에서 Workfront에 문서 추가
 
 조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
-<!--
->[!IMPORTANT]
->
->* You can upload up to 150 documents at one time.
->* There is no limit on the file size. 
->* Document downloads are limited to 4GB.
--->
-
 문서를 추가하려면 다음 작업을 수행하십시오.
 
-1. 새 문서를 추가할 프로젝트, 작업 또는 문제로 이동합니다.
-1. Click the **Documents** in the left panel.
-1. Click **New** on the right side of the page or drag and drop the file into the drop zone that appears. You can add multiple documents at one time.
+1. 새 문서를 추가할 Workfront 개체로 이동합니다.
+1. 왼쪽 패널에서 **문서** 섹션을 클릭합니다.
+1. 페이지 오른쪽의 **새로 만들기**&#x200B;를 클릭하거나 파일을 표시되는 드롭 영역으로 끌어다 놓습니다. 여러 문서를 한 번에 추가할 수 있습니다.
 
-   ![Add a new document](assets/add-new-doc-new-doc.png)
+   ![새 문서 추가](assets/add-new-doc-new-doc.png)
 
 새 버전의 문서를 Workfront에 업로드하는 방법에 대한 자세한 내용은 [새 버전의 문서 업로드](../../documents/managing-documents/upload-new-document-version.md)를 참조하십시오.
 
-## Document security for enterprise storage
+문서를 업로드할 객체와 동일한 이름의 폴더가 문서 섹션에 자동으로 생성되고 문서가 폴더에 추가됩니다.
 
-Workfront prevents viruses and other malicious content from entering the site via documents in the following ways:
+## 엔터프라이즈 스토리지를 위한 문서 보안
 
-**How Workfront detects corrupted files**
+Workfront은 다음과 같은 방법으로 문서를 통해 바이러스 및 기타 악성 콘텐츠가 사이트로 유입되는 것을 방지합니다.
 
-Document scanning is automatically enabled for objects using the enterprise storage model.
+**Workfront에서 손상된 파일을 검색하는 방법**
 
-All files under 500 MB are scanned when they are uploaded. Files over 500 MB are not scanned. If Workfront detects a corrupted document, it is automatically removed.
+Adobe 엔터프라이즈 스토리지 모델을 사용하는 객체에 대해 문서 스캔이 자동으로 활성화됩니다.
 
-**File name restrictions**
+500MB 이하의 모든 파일은 업로드 시 스캔됩니다. 500MB가 넘는 파일은 검사되지 않습니다. Workfront에서 손상된 문서를 감지하면 자동으로 제거됩니다.
 
-Because this integration is built using Adobe enterprise storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
+**파일 이름 제한**
 
-* Object names must be unique and can&#39;t be duplicated
-* Adobe enterprise storage requires unique names for peer objects with the same parent in the hierarchy tree
-* Documents can&#39;t have the same name if they belong to the same project
-* Document names can&#39;t contain any of the following special characters: `\ / : * ? " | < >`
-* Document names are limited to 255 characters maximum
+이 통합은 Adobe 엔터프라이즈 스토리지를 사용하여 구축되므로 프로젝트 및 문서를 관리할 때 알아야 하는 일부 강제 구조 및 이름 지정 규칙이 있습니다.
 
-With these limitations in mind, Workfront automatically renames objects or documents as needed to prevent conflicts.
+* 오브젝트 이름은 고유해야 하며 복제할 수 없습니다.
+* Adobe 엔터프라이즈 스토리지에는 계층 트리에서 상위 항목이 동일한 피어 개체에 대한 고유한 이름이 필요합니다
+* 문서가 동일한 프로젝트에 속하는 경우 문서에 동일한 이름을 사용할 수 없습니다.
+* 문서 이름에는 다음 특수 문자를 사용할 수 없습니다. `\ / : * ? " | < >`
+* 문서 이름은 최대 255자로 제한됩니다.
+
+이러한 제한 사항을 고려하여 Workfront은 충돌을 방지하기 위해 필요에 따라 개체나 문서의 이름을 자동으로 변경합니다.
 
 
-## Document security for legacy Workfront storage
+## 레거시 Workfront 스토리지에 대한 문서 보안
 
-Workfront site prevents viruses and other malicious content from entering the site via documents in the following ways:
+Workfront은 다음과 같은 방법으로 문서를 통해 바이러스 및 기타 악성 콘텐츠가 사이트로 유입되는 것을 방지합니다.
 
-**How Workfront detects corrupted files**
+**Workfront에서 손상된 파일을 검색하는 방법**
 
-Document scanning is enabled for your organization only upon request.
+문서 스캔은 요청이 있을 때만 활성화됩니다.
 
-If document scanning is enabled, files under 25 MB are scanned when they are uploaded. Files over 25 MB are not scanned.
+문서 스캔이 활성화된 경우 25MB 이하의 파일을 업로드할 때 스캔됩니다. 25MB가 넘는 파일은 검사되지 않습니다.
 
-If Workfront detects a corrupted document, a message appears indicating that the file is corrupt. You also receive an email notification when Workfront detects potentially malicious content and the file is slated for removal.
+Workfront에서 손상된 문서를 감지하면 파일이 손상되었음을 나타내는 메시지가 나타납니다. 또한 Workfront에서 잠재적인 악성 콘텐츠를 탐지하고 파일을 제거할 예정이 되면 이메일 알림을 받게 됩니다.
 
-Corrupted files are removed within 24 hours of detection unless you remove it manually. If you delete a corrupted file, Workfront tracks this action as an update. If you allow Workfront to remove it, then no updates are recorded.
+수동으로 제거하지 않는 한 검색 후 24시간 이내에 손상된 파일이 제거됩니다. 손상된 파일을 삭제하면 Workfront이 이 작업을 업데이트로 추적합니다. Workfront에서 제거하도록 허용하면 업데이트가 기록되지 않습니다.
 
-**File name restrictions**
+**파일 이름 제한**
 
-Files that are uploaded to Workfront cannot contain certain characters in file names. If a file contains any of the following characters in the file name, the characters are removed from the file name when the file is uploaded: `! # % * \ | ' " / ? < > { } [ ]`.
+Workfront에 업로드된 파일은 파일 이름에 특정 문자를 포함할 수 없습니다. 파일에 파일 이름에 다음 문자가 포함되어 있으면 파일을 업로드할 때 파일 이름에서 해당 문자가 제거됩니다. `! # % * \ | ' " / ? < > { } [ ]`.
