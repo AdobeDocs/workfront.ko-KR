@@ -3,14 +3,16 @@ title: 숨겨진 테스트
 description: 숨겨진 테스트
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: aa90f5437ddd4ff7476271a322926e5eaf24d6b4
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '618'
 ht-degree: 19%
 
 ---
 
 # 숨겨진 테스트
+
+5월 4번째 벌
 
 더 큰 저장소에서 게시 시간을 테스트하는 데 사용되는 숨겨진 파일입니다.
 
