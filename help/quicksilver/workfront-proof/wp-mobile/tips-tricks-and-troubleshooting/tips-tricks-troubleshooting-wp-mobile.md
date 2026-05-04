@@ -2,11 +2,10 @@
 title: ' [!DNL Workfront Proof] 모바일 앱에 대한 팁, 요령 및 문제 해결'
 description: Workfront Proof mobile 문제를 해결하는 방법에 대해 알아봅니다.
 hide: true
-hidefromtoc: true
 exl-id: b8384c56-345d-428a-bb86-05fa4001d3ea
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -19,4 +18,4 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [&#x200B; [!DNL Workfront Proof] 모바일 앱에 로그인할 수 없습니다.](../../../workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
+* [ [!DNL Workfront Proof] 모바일 앱에 로그인할 수 없습니다.](../../../workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)

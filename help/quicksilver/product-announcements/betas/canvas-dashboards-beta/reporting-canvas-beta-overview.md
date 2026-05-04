@@ -5,14 +5,13 @@ title: '보고 캔버스 Beta: 개요'
 description: Adobe Workfront에 예정된 보고 캔버스 도구의 베타 프로그램에 대한 정보
 author: Courtney
 feature: Product Announcements
-hidefromtoc: true
 hide: true
 exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---

@@ -5,14 +5,13 @@ description: Adobe Workfront은 모든 디지털 경험(DX) 제품을 Experience
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: true
-source-git-commit: 0c21f5a1df8bf1bc54d4ca73ba8d02808432e321
+exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
-
 
 # Experience Cloud 알림 개요
 
@@ -72,7 +71,7 @@ Workfront은 Adobe 디지털 경험 제품군의 일부입니다. Experience Clo
 
 1. **Experience Cloud** 패널의 오른쪽 위 모서리에서 **설정** 아이콘![설정 아이콘](assets/settings-icon.png)을 클릭합니다.
 
-1. **알림** 섹션에서 ![Workfront](assets/arrow-icon.png) 타일의 화살표 아이콘 **Workfront 타일 화살표**&#x200B;를 클릭합니다.
+1. **알림** 섹션에서 **Workfront** 타일의 화살표 아이콘 ![Workfront 타일 화살표](assets/arrow-icon.png)를 클릭합니다.
 
 1. **다음 범주에 대해 알림** 섹션에서 **멘션** 및 **요청** 모두에 대해 받을 알림 유형을 선택하십시오.
    * **멘션**: 다른 사용자가 귀하를 댓글에 태그 지정할 때 알림을 받습니다.
@@ -101,4 +100,3 @@ Workfront은 Adobe 디지털 경험 제품군의 일부입니다. Experience Clo
 
 아니요. 기존의 모든 통합 및 자동화는 평소대로 계속 작동합니다.
 +++
-

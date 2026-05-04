@@ -2,11 +2,10 @@
 title: Workfront Proof 모바일 앱
 description: Workfront Proof 모바일 앱에 대해 알아봅니다.
 hide: true
-hidefromtoc: true
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -41,7 +40,7 @@ iOS 장치의 경우 새 앱을 설치하기 전에 iOS 장치의 이전 [!DNL W
 
 >[!NOTE]
 >
->모바일 장치의 소프트웨어 제한으로 인해 iOS 장치의 MP3와 같은 SWF 파일 또는 오디오 파일을 검토할 수 없습니다. 모바일 장치의 SWF 파일 또는 오디오 파일에서 만들어진 증명을 검토하려면 [!DNL Workfront Proof]에 업로드하기 전에 지원되는 형식으로 변환하십시오.
+>모바일 장치의 소프트웨어 제한으로 인해 SWF 파일 또는 iOS 장치의 MP3와 같은 오디오 파일을 검토할 수 없습니다. 모바일 장치의 SWF 파일 또는 오디오 파일에서 만들어진 증명을 검토하려면 [!DNL Workfront Proof]에 업로드하기 전에 지원되는 형식으로 변환하십시오.
 
 ## 앱 시작
 
@@ -133,7 +132,7 @@ iOS 장치의 경우 새 앱을 설치하기 전에 iOS 장치의 이전 [!DNL W
 
    ![tap_the_add_comment_button.png](assets/tap-the-add-comment-button-350x541.png)
 
-1. [!UICONTROL 패닝 모드] (2), [!UICONTROL 사각형 도구] (3), [!UICONTROL 자유 곡선 그리기] (4) 또는 [!UICONTROL 화살표] 도구(5) 중에서 선택합니다.
+1. [!UICONTROL 패닝 모드]&#x200B;(2), [!UICONTROL 사각형 도구]&#x200B;(3), [!UICONTROL 자유 곡선 그리기]&#x200B;(4) 또는 [!UICONTROL 화살표] 도구(5) 중에서 선택합니다.
 
    마크업의 선 색상을 변경할 수도 있습니다(6).
 

@@ -2,11 +2,10 @@
 title: 태블릿용 Workfront Proof 모바일 앱
 description: ' [!DNL Workfront Proof] 태블릿 앱을 사용하면 이동 중에 편리하게 증명을 검토하고 승인할 수 있습니다. 앱을 모든 사용자가 다운로드할 수 있습니다. 태블릿이나 휴대폰에서 증명을 검토할 수 있도록  [!DNL Workfront Proof] 사용자가 아니어도 됩니다.'
 hide: true
-hidefromtoc: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1995'
 ht-degree: 0%
 
 ---
@@ -143,8 +142,8 @@ ht-degree: 0%
 
    | **[!UICONTROL 강조]** | 텍스트를 강조 표시하고 주석 상자에 복사합니다. |
    |---|---|
-   | **[!UICONTROL 바꾸기]** | 텍스트와 함께 [[!UICONTROL REPLACE]] 및 [[!UICONTROL WITH]]을(를) 댓글 상자에 추가하여 대체 텍스트를 보다 쉽게 추천할 수 있습니다. |
-   | **[!UICONTROL 삭제]** | 텍스트를 누르고 [DELETE]을(를) 댓글 상자에 추가합니다. |
+   | **[!UICONTROL Replace]** | 텍스트와 함께 [[!UICONTROL REPLACE]] 및 [[!UICONTROL WITH]]을(를) 댓글 상자에 추가하여 대체 텍스트를 보다 쉽게 추천할 수 있습니다. |
+   | **[!UICONTROL 삭제]** | 텍스트를 표시하고 댓글 상자에 [DELETE]을(를) 추가합니다. |
    | **[!UICONTROL 다음 항목 뒤에 삽입]** | 주석 상자에 [다음 항목 뒤에 삽입]을 추가합니다. |
 
    {style="table-layout:auto"}
@@ -213,7 +212,7 @@ ht-degree: 0%
 | 대시보드 | 모바일 앱 대시보드로 돌아갑니다. |
 |---|---|
 | **[!UICONTROL 워크플로]** | 검토 단계의 세부 정보를 검토자 목록, 기한, 진행률 표시줄, 결정 및 댓글 및 답글 수와 함께 표시합니다. |
-| **[!UICONTROL 세부 정보]** | 증명, 추가 공유 옵션 및 활동 감사 추적에 대한 정보를 표시합니다. |
+| **[!UICONTROL 세부 사항]** | 증명, 추가 공유 옵션 및 활동 감사 추적에 대한 정보를 표시합니다. |
 | **[!UICONTROL 공유]** | 증명 URL 및 포함 코드를 표시합니다. |
 | **[!UICONTROL 알림]** | 현재 검토 중인 증명에 대한 이메일 경고를 업데이트할 수 있습니다. 기본 설정은 변경되지 않습니다. |
 | **[!UICONTROL 잠금]** | 증명을 잠글 수 있습니다. 이 옵션을 보려면 증명에 대한 편집 권한이 있어야 합니다. |

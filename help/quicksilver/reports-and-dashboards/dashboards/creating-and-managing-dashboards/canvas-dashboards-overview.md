@@ -1,13 +1,12 @@
 ---
 title: 캔버스 대시보드 개요
 description: 보고 캔버스 시각화를 기존 보고서와 통합하고 새로운 레이아웃 옵션을 제공하는 캔버스 대시보드를 만들 수 있습니다.
-hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
