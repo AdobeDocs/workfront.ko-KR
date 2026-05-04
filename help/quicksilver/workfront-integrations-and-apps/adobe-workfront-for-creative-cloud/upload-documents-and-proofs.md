@@ -2,8 +2,8 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: ' [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드'
-description: ' [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드'
+title: ' [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud] (으)로 문서 및 증명 업로드'
+description: ' [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud] (으)로 문서 및 증명 업로드'
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
