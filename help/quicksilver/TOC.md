@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: 1f657dc9041fcfbc8ea5b8ffcbcad0db96860dd2
 workflow-type: tm+mt
-source-wordcount: '14097'
+source-wordcount: '14083'
 ht-degree: 2%
 
 ---
@@ -2661,11 +2661,11 @@ ht-degree: 2%
       * [개요](proofhq-api/general/overview.md)
       * {hide-from-toc}[코드 샘플](proofhq-api/general/code-samples.md)
       * [SOAP API FAQ](proofhq-api/general/soap-api-faqs.md)
-* {hide-from-toc}[숨겨진 테스트 문서](hidden-test.md)
 * App Builder {#app-builder}
    * [App Builder: 문서 색인](/help/quicksilver/app-builder/app-builder-toc.md)
    * [Adobe Exchange에서 앱 획득 및 설치](/help/quicksilver/app-builder/install-apps-on-exchange.md)
    * [Adobe App Builder을 사용하여 Workfront에 대한 맞춤형 애플리케이션 만들기](/help/quicksilver/app-builder/app-builder.md)
+* {hide-from-toc}[숨겨진 테스트 문서](hidden-test.md)
 
 
 
