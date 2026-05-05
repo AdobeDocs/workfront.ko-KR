@@ -3,13 +3,13 @@ content-type: reference
 product-area: documents
 navigation-topic: manage-documents
 title: 문서에 대한 요약 개요
-description: The Summary allows you to interact with important information directly from the documents list.
+description: 요약을 사용하면 문서 목록에서 직접 중요한 정보와 상호 작용할 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 5%
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 <!--Audited: April, 2024-->
 
-You can use the Summary panel to access and update important information directly from the documents list.
+요약 패널을 사용하여 문서 목록에서 직접 중요한 정보에 액세스하고 업데이트할 수 있습니다.
 
 
 +++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
@@ -62,11 +62,11 @@ You can use the Summary panel to access and update important information directl
 
 +++
 
-## Summary for documents in the legacy documents experience
+## 레거시 문서 환경의 문서에 대한 요약
 
 조직이 기존 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. 기존 Workfront 스토리지에 대한 자세한 내용은 [기존 Workfront 스토리지와 Adobe 엔터프라이즈 스토리지의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md)을 참조하십시오.
 
-### Open the Summary view in the legacy documents experience
+### 레거시 문서 환경에서 요약 보기를 엽니다.
 
 {{step1-to-documents}}
 
@@ -74,14 +74,14 @@ You can use the Summary panel to access and update important information directl
 
 1. 페이지의 오른쪽 상단 모서리에서 **요약 열기** 아이콘 ![요약 열기 아이콘](assets/qs-summary-in-new-toolbar-small.png)을 클릭합니다. **문서 요약** 사이드 패널이 열립니다.
 
-   ![Summary details](assets/document-summary-panel.png)
+   ![요약 정보](assets/document-summary-panel.png)
 
-   After you open the Summary, it will remain open on this page (even if you click on other documents) until you manually close it.
+   요약을 연 후에는 수동으로 닫을 때까지 다른 문서를 클릭해도 이 페이지에서 열려 있는 상태로 유지됩니다.
 
 
 ### 세부 사항
 
-Use the Details section to view high-level overview information and interact with custom forms. Click Details at the top of the section to go to the full Document Details page.
+세부 정보 섹션을 사용하여 높은 수준의 개요 정보를 보고 사용자 정의 양식과 상호 작용할 수 있습니다. 섹션 상단의 세부 정보 를 클릭하여 전체 문서 세부 정보 페이지로 이동합니다.
 
 * [개요](#overview)
 * [사용자 정의 양식](#custom-forms)
@@ -127,26 +127,26 @@ Use the Details section to view high-level overview information and interact wit
 
 ![문서 요약 버전](assets/versions-section.png)
 
-## Summary for documents in the new documents experience
+## 새 문서 환경의 문서에 대한 요약
 
 조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
 ### 세부 사항
 
-Use the Details section to view high-level overview information and interact with custom forms.
+세부 정보 섹션을 사용하여 높은 수준의 개요 정보를 보고 사용자 정의 양식과 상호 작용할 수 있습니다.
 
-![Document summary details in new documents experience](assets/summary-details.png)
+![새 문서 환경의 문서 요약 세부 정보](assets/summary-details.png)
 
 ### 승인
 
-Use the Approvals section to create an approval workflow. You can also remind participants about an approval or delete the approval. Document approvers can access the Frame.io viewer or use the Summary to make a decision.
+승인 섹션을 사용하여 승인 워크플로를 만듭니다. 참가자에게 승인에 대해 미리 알리거나 승인을 삭제할 수도 있습니다. 문서 승인자는 Frame.io 뷰어에 액세스하거나 요약을 사용하여 결정할 수 있습니다.
 
-For more information about approvals and Frame.io, see
+승인 및 Frame.io에 대한 자세한 내용은
 
-* [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-* [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+* [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+* [문서 검토 또는 승인 요청을 만듭니다](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-![Document summary approvals in new documents experience](assets/summary-approvals.png)
+![새 문서 경험의 문서 요약 승인](assets/summary-approvals.png)
 
 
 <!-- resubmit the approval and cancel the previous decision, or delete the approval. Document approvers can use the Summary to make a decision.-->
@@ -154,20 +154,20 @@ For more information about approvals and Frame.io, see
 
 ### 버전
 
-버전 섹션을 사용하여 특정 문서에 대해 작성된 버전 수를 볼 수 있습니다. Click the More icon to do the following:
+버전 섹션을 사용하여 특정 문서에 대해 작성된 버전 수를 볼 수 있습니다. 자세히 아이콘을 클릭하여 다음을 수행합니다.
 
-* Rename a version
-* View document details
-* Request approval on a specific version
+* 버전 이름 바꾸기
+* 문서 세부 정보 보기
+* 특정 버전에 대한 승인 요청
 * Frame.io에서 열기
-* Download the version
-* Share the version
-* Delete the version
+* 버전 다운로드
+* 버전 공유
+* 버전 삭제
 
-![Document summary versions in new documents experience](assets/summary-versions.png)
+![새 문서 환경의 문서 요약 버전](assets/summary-versions.png)
 
 ### 기록
 
-Use the History section to view a list of all activities related to the document.
+기록 섹션을 사용하여 문서와 관련된 모든 활동 목록을 볼 수 있습니다.
 
-![Document summary history in new documents experience](assets/summary-history.png)
+![새 문서 환경의 문서 요약 기록](assets/summary-history.png)

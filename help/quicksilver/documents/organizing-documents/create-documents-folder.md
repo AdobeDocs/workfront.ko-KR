@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 2%
@@ -67,13 +67,13 @@ ht-degree: 2%
 
 Workfront 개체를 연 상태에서 왼쪽 패널에서 **문서**&#x200B;를 클릭합니다.
 
-1. Click the view options above the right panel to change how the documents are displayed.
+1. 문서 표시 방법을 변경하려면 오른쪽 패널 위의 보기 옵션을 클릭합니다.
 
-   ![Document view options](assets/screenshot-2016-07-07-12.46.54.png)
+   ![문서 보기 옵션](assets/screenshot-2016-07-07-12.46.54.png)
 
-### Create folders and subfolders
+### 폴더 및 하위 폴더 만들기
 
-Create folders to better organize your documents. You can create up to 2,000 folders on an object and up to 50 subfolders within each folder. Subfolders count towards the 2,000 folder maximum.
+문서를 보다 효율적으로 구성하려면 폴더를 만드십시오. 개체에 최대 2,000개의 폴더를 만들고 각 폴더 내에 최대 50개의 하위 폴더를 만들 수 있습니다. 하위 폴더는 최대 2,000개 폴더 수에 해당합니다.
 
 {{step1-to-documents}}
 
@@ -81,33 +81,33 @@ Create folders to better organize your documents. You can create up to 2,000 fol
 
 Workfront 개체를 연 상태에서 왼쪽 패널에서 **문서**&#x200B;를 클릭합니다.
 
-1. To create a top-level folder, ensure that nothing is selected, then click **Add New** > **Folder**.
+1. 최상위 폴더를 만들려면 선택한 항목이 없는지 확인한 다음 **새로 추가** > **폴더**&#x200B;를 클릭합니다.
 
    또는
 
-   To create a sub-folder, select the folder where you want to create the sub-folder, then click **Add New** > **Folder**.
+   하위 폴더를 만들려면 하위 폴더를 만들 폴더를 선택한 다음 **새로 추가** > **폴더**&#x200B;를 클릭합니다.
 
-### Sharing folders
+### 폴더 공유
 
-For information about sharing folders, see [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+폴더 공유에 대한 자세한 내용은 [문서 폴더 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)를 참조하십시오.
 
-## Create document folders in the new documents area
+## 새 문서 영역에 문서 폴더 만들기
 
 조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
-### System-generated folders
+### 시스템 생성 폴더
 
-When you upload a document to a task or issue, Workfront automatically creates a system-generated folder named after the task or issue. This folder is linked to the task or issue and inherits its permissions. System-generated folders are visible in the project-level documents area.
+문서를 작업 또는 문제에 업로드하면 Workfront에서 작업 또는 문제의 이름을 딴 라는 시스템 생성 폴더를 자동으로 생성합니다. 이 폴더는 작업 또는 문제에 연결되어 있으며 해당 권한을 상속합니다. 시스템에서 생성한 폴더가 프로젝트 수준 문서 영역에 표시됩니다.
 
-For more information about folder permissions, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+폴더 사용 권한에 대한 자세한 내용은 [문서 사용 권한 작동 방식](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)을 참조하세요.
 
-### Create subfolders
+### 하위 폴더 만들기
 
-You can create subfolders within a system-generated folder to organize documents further. All subfolders inherit permissions from the parent folder.
+시스템 생성 폴더 내에 하위 폴더를 만들어 문서를 추가로 구성할 수 있습니다. 모든 하위 폴더는 상위 폴더에서 권한을 상속합니다.
 
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-1. Click into the folder you want to create a subfolder in, then click the **Add folder** ![add folder icon](assets/add-folder-icon.png) icon.
-   ![add subfolder](assets/add-subfolder.png)
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;을(를) 선택합니다.
+1. 하위 폴더를 만들 폴더를 클릭한 다음 **폴더 추가** ![폴더 추가 아이콘](assets/add-folder-icon.png) 아이콘을 클릭합니다.
+   ![하위 폴더 추가](assets/add-subfolder.png)
 1. 하위 폴더 이름을 입력한 다음 **만들기**&#x200B;를 클릭합니다.
 
 ### 폴더 이름 바꾸기
@@ -142,7 +142,7 @@ You can create subfolders within a system-generated folder to organize documents
 
    ![폴더 이동](assets/rename-folder.png)
 
-<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new documents area -->
+<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new Documents area -->
 
 ### 폴더 삭제
 
@@ -152,4 +152,4 @@ You can create subfolders within a system-generated folder to organize documents
 1. 삭제할 폴더를 찾은 다음 **자세히** ![추가 아이콘](assets/more-icon.png) 아이콘을 클릭합니다.
 1. **삭제**&#x200B;를 클릭합니다.
 
-   ![delete folder](assets/rename-folder.png)
+   ![폴더 삭제](assets/rename-folder.png)
