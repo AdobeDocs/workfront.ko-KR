@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: e5fb42aa8d9eae17e1bddbd9832bdf064bc4605e
+source-git-commit: f177f0b678c8ac31241cb103d13ecd0f11cabd1e
 workflow-type: tm+mt
 source-wordcount: '3571'
 ht-degree: 0%
@@ -151,9 +151,9 @@ ht-degree: 0%
 
 다음 조건을 사용하면 리소스 관리자의 작업 역할이 있는 사용자가 양식을 볼 때만 리소스 필수 섹션이 표시됩니다.
 
-```IF($$USER.{roleID}="123abc", true)```
+`IF($$USER.{roleID}="123abc", true)`
 
-```123abc```은(는) 리소스 관리자의 역할 ID를 나타냅니다.
+`123abc`은(는) 리소스 관리자의 역할 ID를 나타냅니다.
 
 역할에 대해 ![양식 섹션 표시됨](assets/advanced-display-on-form1.png)
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 다음 조건을 사용하면 프로젝트가 완료될 때만 판매된 KPI 필드가 표시됩니다. 이 논리는 양식 섹션 대신 필드에 직접 적용됩니다. 필드가 있는 섹션에 이미 정의되어 있으므로 필드를 볼 수 있는 역할을 지정할 필요가 없습니다.
 
-```IF({status}="CPL", true)```
+`IF({status}="CPL", true)`
 
 ![필드가 전체 프로젝트에 표시됨](assets/advanced-display-on-form2.png)
 
