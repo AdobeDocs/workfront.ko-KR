@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1629'
 ht-degree: 2%
 
 ---
@@ -167,12 +167,17 @@ Old:
 
      문제를 전환하여 프로젝트를 만들 때 템플릿을 사용하는 경우 위의 두 번째 시나리오를 참조하여 어떤 그룹 및 Workfront이 새 프로젝트에 적용되는지 파악하십시오.
 
-* 프로젝트와 그 하위 객체(작업 및 문제)에 문서가 저장되는 위치는 Workfront 관리자가 설정의 시스템 환경 설정 영역에서 스토리지 환경 설정에 대한 기본값으로 선택하는 항목에 따라 다릅니다. Workfront 인스턴스에서 문서를 저장하는 위치에 따라 다음 유형의 프로젝트를 만들 수 있습니다.
+* 프로젝트 및 그 하위 오브젝트(작업 및 문제)에 대해 문서가 저장되는 위치는 Workfront 관리자가 설정의 시스템 환경 설정 영역에서 스토리지 환경 설정에 대한 기본값으로 선택하는 항목에 따라 다릅니다. Workfront 인스턴스에서 문서를 저장하는 위치에 따라 다음 유형의 프로젝트를 만들 수 있습니다.
 
    * 레거시 Workfront 스토리지 프로젝트
    * Adobe 엔터프라이즈 스토리지 프로젝트
 
   자세한 내용은 [조직에 Adobe 엔터프라이즈 스토리지 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하십시오.
+
+  >[!TIP]
+  >
+  > Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
+
 
 * 엔터프라이즈 스토리지 프로젝트를 만들 때 프로젝트의 **문서** 섹션에 프로젝트 이름과 동일한 문서 폴더가 만들어집니다. 프로젝트에 작업을 추가하면 작업 이름이 포함된 폴더가 각 작업의 **문서** 섹션에 추가됩니다.
 
@@ -204,15 +209,16 @@ Old:
 
      >[!NOTE]
      >
-     >Workfront 스토리지 포트폴리오나 프로그램에서 엔터프라이즈 스토리지 프로젝트를 만들면 해당 포트폴리오나 프로그램도 엔터프라이즈 스토리지 객체로 변환됩니다. 동일한 포트폴리오 또는 프로그램에 속한 다른 모든 Workfront 스토리지 프로젝트는 변경되지 않습니다.
+     >* Workfront 스토리지 포트폴리오나 프로그램에서 엔터프라이즈 스토리지 프로젝트를 만들면 해당 포트폴리오나 프로그램도 엔터프라이즈 스토리지 객체로 변환됩니다. 동일한 포트폴리오 또는 프로그램에 속한 다른 모든 Workfront 스토리지 프로젝트는 변경되지 않습니다.
+     >* Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
 
      프로젝트가 생성되며 기본 이름은 Workfront에서 문서에 사용하는 스토리지에 따라 다음과 같은 패턴을 따릅니다.
 
-      * Workfront 저장소 프로젝트용 **제목 없는 프로젝트**.
+      * Workfront 저장소 프로젝트의 `Untitled Project`.
 
         Workfront 스토리지 프로젝트는 이름 옆에 **기존 Workfront 스토리지** 아이콘 ![기존 스토리지 프로젝트 아이콘](assets/legacy-storage-project-icon.png)을 표시합니다.
 
-      * Adobe 스토리지 프로젝트의 **제목 없는 프로젝트 - &lt; Month day, year hour.minute.second >**
+      * Adobe 스토리지 프로젝트용 `Untitled Project - < Month day, year hour.minute.second >`
 
         >[!IMPORTANT]
         >

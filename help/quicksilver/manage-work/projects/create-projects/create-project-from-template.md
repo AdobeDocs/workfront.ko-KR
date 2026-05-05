@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1393'
 ht-degree: 1%
 
 ---
@@ -176,7 +176,7 @@ Old:
       >
       >* Workfront 스토리지 포트폴리오 또는 프로그램에서 Adobe 엔터프라이즈 스토리지 템플릿을 사용하는 경우 프로젝트는 Adobe 엔터프라이즈 스토리지 프로젝트이며 포트폴리오 또는 프로그램도 Adobe 엔터프라이즈 스토리지 객체로 변환됩니다. 동일한 포트폴리오 또는 프로그램에 속한 다른 모든 Workfront 스토리지 프로젝트는 변경되지 않습니다.
       >
-      > 모든 고객에게 두 가지 유형의 문서 저장소가 모두 있는 것은 아닙니다.
+      > Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
       >
       >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
@@ -234,7 +234,7 @@ Old:
 
 >[!NOTE]
 >
->Workfront 문서 저장소와 관련된 템플릿은 기존 Workfront 스토리지 프로젝트를 만듭니다. Adobe 엔터프라이즈 문서 스토리지와 연관된 템플릿은 Adobe 스토리지 프로젝트를 만듭니다. 모든 고객에게 두 가지 유형의 스토리지가 있는 것은 아닙니다.
+>Workfront 문서 저장소와 관련된 템플릿은 기존 Workfront 스토리지 프로젝트를 만듭니다. Adobe 엔터프라이즈 문서 스토리지와 연관된 템플릿은 Adobe 스토리지 프로젝트를 만듭니다. Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
 >
 >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
