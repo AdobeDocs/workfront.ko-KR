@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
+source-git-commit: 2a08a1139664517b9ccf41121e8bb0dc686028ab
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2720'
 ht-degree: 1%
 
 ---
@@ -171,7 +171,7 @@ ht-degree: 1%
      </tr>
      <tr>
       <td>자동 권한</td>
-      <td><p>수식에 사용된 필드에서 재무 권한이 자동으로 부여되도록 하려면 이 옵션을 켭니다. 권한 정의는 아래의 재무 권한 유형 필드에 표시됩니다.</p><p>수식의 모든 필드에 대한 액세스 권한이 필요합니다. 예를 들어 계산된 필드에서 두 개의 필드가 사용되고 그 중 하나에 청구 권한이 적용되고 두 번째에 비용 권한이 적용되는 경우 계산된 값을 보려면 사용자에게 청구 및 비용 요금을 모두 볼 수 있는 권한이 있어야 합니다.</p></td>
+      <td><p>수식에 사용된 필드에서 재무 권한이 자동으로 부여되도록 하려면 이 옵션을 켭니다. 권한 정의는 아래의 재무 권한 유형 필드에 표시됩니다.</p><p>수식의 모든 필드에 대한 액세스 권한이 필요합니다. 예를 들어 계산된 필드가 청구 권한이 있는 필드와 비용 권한이 있는 필드 두 개를 사용하는 경우 계산된 값을 보려면 사용자에게 두 필드를 볼 수 있는 권한이 있어야 합니다.</p></td>
      </tr>
      <tr>
       <td>재무 권한 유형</td>
@@ -310,7 +310,7 @@ ht-degree: 1%
       >
       >다음 중 원하는 작업을 수행하여 계산에 도움을 받을 수 있습니다.
       > 
-      >* 계산에서 식 위로 마우스를 가져가면 설명, 사용 방법을 보여 주는 예제 및 문서 **계산된 데이터 식의 개요**&#x200B;에서 자세한 정보로 연결되는 [자세히 알아보기](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) 링크를 볼 수 있습니다.
+      >* 계산에서 식 위로 마우스를 가져가면 설명, 사용 방법을 보여 주는 예제 및 문서 [계산된 데이터 식의 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)에서 자세한 정보로 연결되는 **자세히 알아보기** 링크를 볼 수 있습니다.
       >  ![식 도움말 텍스트](assets/hover-expression-help-text.jpg)
       >* 색상 코딩을 사용하여 추가한 구성 요소를 식별합니다. 표현식은 파란색으로 표시되고 필드는 녹색으로 표시됩니다.
       >  ![필드 식의 색](assets/colors-fields-expressions.jpg)
