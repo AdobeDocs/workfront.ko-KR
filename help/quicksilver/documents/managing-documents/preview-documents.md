@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 5%
@@ -75,13 +75,13 @@ ht-degree: 5%
    * .plain
    * .pdf
 
-## Preview a document in the new documents area
+## 새 문서 영역에서 문서 미리보기
 
 조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
-Some file formats cannot be previewed.
+일부 파일 형식은 미리 볼 수 없습니다.
 
-+++Expand to view unsupported file formats for previewing documents.
++++를 확장하여 문서 미리 보기에 지원되지 않는 파일 형식을 봅니다.
 
 다음 파일 형식은 미리보기 창에 표시할 수 없습니다.
 
@@ -96,14 +96,14 @@ Some file formats cannot be previewed.
 <li>xlsx</li>
 <li>ppt</li>
 <li>pptx</li>
-<li>doc</li>
+<li>문서</li>
 <li>docx</li>
-<li>ase</li>
+<li>사례</li>
 <li>indd</li>
 <li>inddc</li>
 <li>pdf</li>
 <li>pdfl</li>
-<li>pdfs</li>
+<li>pdf</li>
 <li>pdfp</li>
 <li>펍</li>
 <li>odp</li>
