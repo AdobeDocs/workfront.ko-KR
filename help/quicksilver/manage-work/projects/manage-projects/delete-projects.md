@@ -9,9 +9,9 @@ exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1106'
 ht-degree: 3%
 
 ---
@@ -114,6 +114,8 @@ Old:
    * 문서
 
      첨부된 문서가 체크 아웃된 프로젝트는 삭제할 수 없습니다. 문서 체크 아웃에 대한 자세한 내용은 [문서 체크 아웃](../../../documents/managing-documents/check-out-documents.md)을 참조하십시오.
+
+     프로젝트가 휴지통의 문서 탭에서 삭제될 때 삭제된 개별 문서는 복원할 수 없습니다. 프로젝트를 복원할 때 프로젝트가 삭제되었을 때만 삭제된 문서를 복원할 수 있습니다.
 
    * 작업
    * 하위 작업

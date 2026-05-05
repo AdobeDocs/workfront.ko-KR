@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '830'
 ht-degree: 5%
 
 ---
@@ -109,6 +109,8 @@ Old:
    * 문서
 
   체크 아웃된 문서가 첨부된 작업은 삭제할 수 없습니다. 문서 체크 아웃에 대한 자세한 내용은 [문서 체크 아웃](../../../documents/managing-documents/check-out-documents.md)을 참조하십시오.
+
+  휴지통의 문서 탭에서 작업을 삭제할 때 삭제된 개별 문서는 복원할 수 없습니다. 작업을 복원할 때 작업이 삭제된 경우에만 삭제된 문서를 복원할 수 있습니다.
 
    * 문제
    * 하위 작업

@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '7859'
+source-wordcount: '8113'
 ht-degree: 1%
 
 ---
@@ -282,18 +282,26 @@ Old:
          <td> <p><strong>완료 날짜부터 예약</strong>을 선택하는 날짜를 지정하십시오. </p> <p><strong>시작 날짜부터 일정</strong>을 선택하는 경우 이 필드는 읽기 전용입니다.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>포트폴리오</strong></td> 
-         <td>프로젝트가 속한 Portfolio을 나타냅니다. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. 활성 포트폴리오만 프로젝트와 연결할 수 있습니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>를 참조하십시오.
-         <p><b>메모</b></p>
-         <p>프로젝트에 포트폴리오를 추가하거나 제거하려면 관리 권한이 있어야 합니다.</p>
+      <td role="rowheader"><strong>포트폴리오</strong></td> 
+      <td>프로젝트가 속한 Portfolio을 나타냅니다. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. 활성 포트폴리오만 프로젝트와 연결할 수 있습니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>를 참조하십시오.
+      <p><b>참고</b></p>
+      <ul>
+      <li>프로젝트에 포트폴리오를 추가하거나 제거하려면 관리 권한이 있어야 합니다.</li>
+      <li>조직에서 Workfront 및 Adobe 문서 스토리지 유형을 모두 사용하는 경우 Workfront 스토리지 프로젝트를 Adobe 스토리지 포트폴리오와 연결할 수 없습니다. 그 반대도 마찬가지다. Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.</li></ul> 
+      자세한 내용은 <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">프로젝트 및 관련 개체에 대한 문서 관리 개요</a>를 참조하십시오. 
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>프로그램</strong></td> 
          <td> <p>프로젝트에 대해 Portfolio을 선택한 경우 프로젝트에 대한 프로그램을 지정합니다. 일부 포트폴리오에는 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 프로젝트와 연결할 수 있습니다. </p> <p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>를 참조하십시오.</p> 
-      <p><b>메모</b></p>
-         <p>프로젝트에 추가하거나 제거하려면 프로그램에 대한 관리 권한이 있어야 합니다.</p>   
-      </td> 
+      <p><b>참고</b></p>
+      <ul>
+      <li>프로젝트에 추가하거나 제거하려면 프로그램에 대한 관리 권한이 있어야 합니다.</li>
+      <li>조직에서 Workfront 및 Adobe 문서 스토리지 유형을 모두 사용하는 경우 Workfront 스토리지 프로젝트를 Adobe 스토리지 프로그램과 연결할 수 없습니다. 그 반대도 마찬가지다. Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다. 프로그램은 해당 프로그램이 속한 포트폴리오에서 저장소 유형을 상속합니다. </li></ul>
+
+   자세한 내용은 <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">프로젝트 및 관련 개체에 대한 문서 관리 개요</a>를 참조하십시오.
+
+   </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>그룹</strong></td> 
@@ -532,7 +540,7 @@ Old:
       </tr> 
       <tr> 
        <td role="rowheader"><strong>리소스 레벨링 모드</strong> </td> 
-       <td> <p> <p>다음 옵션 중에서 선택합니다.</p> <p>- <strong>수동</strong>: 리소스를 수동으로 레벨링해야 합니다(기본 설정임).</p> <p>- <strong>자동</strong>: Workfront에서 리소스를 레벨링합니다.</p> <p>리소스 레벨링에 대한 자세한 내용은 간트 차트 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">에서 </a>리소스 레벨링을 참조하십시오.</p> </p> </td> 
+       <td> <p> <p>다음 옵션 중에서 선택합니다.</p> <p>- <strong>수동</strong>: 리소스를 수동으로 레벨링해야 합니다(기본 설정임).</p> <p>- <strong>자동</strong>: Workfront에서 리소스를 레벨링합니다.</p> <p>리소스 레벨링에 대한 자세한 내용은 간트 차트 </a>에서 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">리소스 레벨링을 참조하십시오.</p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>위험</strong> </td> 
@@ -594,7 +602,7 @@ Old:
 
 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 기본값을 정의할 수 있습니다.
 
-이러한 설정이 새 작업 만들기에 미치는 영향에 대한 자세한 내용은 [작업 만들기 개요](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa) 문서의 [프로젝트에 작업을 추가할 때 작업 기본값](../../../manage-work/tasks/create-tasks/create-tasks-overview.md) 섹션을 참조하십시오.
+이러한 설정이 새 작업 만들기에 미치는 영향에 대한 자세한 내용은 [작업 만들기 개요](../../../manage-work/tasks/create-tasks/create-tasks-overview.md) 문서의 [프로젝트에 작업을 추가할 때 작업 기본값](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa) 섹션을 참조하십시오.
 
 1. 위에 설명된 대로 프로젝트 편집을 시작합니다.
 1. 왼쪽 패널에서 **작업 설정**&#x200B;을 클릭합니다.
@@ -795,6 +803,10 @@ Old:
   >예를 들어 확인란 필드에 세 개의 확인란(옵션1, 옵션2, 옵션3)이 있고 옵션1은 모든 프로젝트에 대해 선택 취소되어 있을 수 있으며 옵션2와 옵션3은 일부 프로젝트에 대해 선택되어 있고 선택한 다른 프로젝트에 대해 선택 취소되어 있을 수 있습니다. 모든 프로젝트에 대해 옵션 1을 선택하려면 변경 사항을 저장하기 전에 선택한 모든 프로젝트에 대해 옵션 2와 3을 일치시켜야 하므로 선택한 모든 프로젝트에서 일치되도록 선택하거나 선택을 취소해야 합니다. 옵션을 변경하지 않으면 필드를 그대로 저장할 수 있으며 프로젝트는 모든 옵션에 대한 현재 선택을 유지합니다.
 
 * 다른 그룹에 속하는 여러 프로젝트를 선택할 경우 상태 필드에 표시되는 상태는 그룹 수준 상태가 아니라 시스템 수준 상태입니다.
+
+* 문서 저장소 유형이 다른 여러 프로젝트를 선택하고 선택한 프로젝트에 대해 Portfolio 또는 프로그램을 업데이트하려는 경우 Workfront 저장소 프로젝트를 Adobe 저장소 포트폴리오와 연결할 수 없습니다. 그 반대도 마찬가지다. 이 경우 한 번에 저장소 유형이 유사한 프로젝트만 선택해야 합니다.
+
+  Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
 
 프로젝트를 일괄적으로 편집하려면 다음 작업을 수행하십시오.
 

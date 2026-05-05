@@ -8,9 +8,9 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1734'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 # 요청 복사 및 제출
 
 
-유사한 요청을 자주 제출하는 경우 제출된 기존 요청을 복사할 수 있습니다. 이 경우 기존 요청을 복사하고 최소 변경 내용을 적용한 다음 새 요청으로 다시 제출할 수 있습니다.
+유사한 요청을 자주 제출하는 경우 제출된 기존 요청을 복사할 수 있습니다. 이 경우 기존 요청을 복사하고 최소 변경 내용을 적용한 다음 새 요청으로 다시 제출할 수 있습니다. 요청이 원래 요청과 동일한 요청 대기열로 제출됩니다.
 
 ## 액세스 요구 사항
 
@@ -232,16 +232,16 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>할당</strong></span> </td> 
-      <td> <p>요청을 할당해야 하는 활성 사용자, 작업 역할 또는 팀의 이름을 나타냅니다. </p> <p> 두 명 이상의 사용자, 작업 역할 또는 팀을 지정할 수 있습니다. </p> <p>요청 대기열이 설정된 방법에 따라 세 가지 리소스 유형 모두 대신 하나 또는 두 가지 유형의 리소스에만 요청을 할당할 수 있습니다. </p> <p>요청 대기열을 적절한 리소스로 자동으로 라우팅할 수 있도록 라우팅 규칙을 사용하는 것이 좋습니다. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">요청 대기열이 설정된 방법에 따라 한 가지 유형의 리소스만 요청에 할당할 수 있습니다(예: 사용자). 라우팅 규칙도 요청 대기열에 연결되어 있으며 자동으로 요청을 다른 유형의 리소스(예: 팀)로 라우팅하는 경우 요청을 제출할 때 수동으로 지정하는 엔티티(사용자)와 라우팅 규칙에 지정된 리소스(팀) 모두에 요청이 할당됩니다.</p> <p style="font-weight: normal;">자세한 내용은 다음 문서를 참조하십시오.</p> 
-        <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 큐 만들기</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">라우팅 규칙 만들기</a> <br> </p> </li> 
-        </ul> </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>요청을 할당해야 하는 활성 사용자, 작업 역할 또는 팀의 이름을 나타냅니다. </p> <p> 두 명 이상의 사용자, 작업 역할 또는 팀을 지정할 수 있습니다. </p> <p>요청 대기열이 설정된 방법에 따라 세 가지 리소스 유형 모두 대신 하나 또는 두 가지 유형의 리소스에만 요청을 할당할 수 있습니다. </p> <p>요청 대기열을 적절한 리소스로 자동으로 라우팅할 수 있도록 라우팅 규칙을 사용하는 것이 좋습니다. </p>
+      <p><p style="font-weight: normal;">요청 대기열이 설정된 방법에 따라 한 가지 유형의 리소스만 요청에 할당할 수 있습니다(예: 사용자). 라우팅 규칙도 요청 대기열에 연결되어 있으며 자동으로 요청을 다른 유형의 리소스(예: 팀)로 라우팅하는 경우 요청을 제출할 때 수동으로 지정하는 엔티티(사용자)와 라우팅 규칙에 지정된 리소스(팀) 모두에 요청이 할당됩니다.</p> <p style="font-weight: normal;">자세한 내용은 다음 문서를 참조하십시오.</p> 
+      <ul> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 큐 만들기</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">라우팅 규칙 만들기</a> <br> </p> </li> 
+      </ul> </p>
+       </td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader"><strong>계획된 시간</strong> </td> 
       <td> <p>이 요청을 완료하는 데 걸리는 시간을 예상합니다.</p> </td> 
      </tr> 
@@ -261,8 +261,16 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사
       <td role="rowheader"><strong>문서</strong> </td> 
       <td> <p>요청에 문서를 추가합니다. 원래 요청에 첨부된 문서는 복사된 요청으로 전송되지 않습니다.</p> <p><b>팁</b>
 
-   요청 대기열을 설정한 방법에 따라 문서 섹션이 사용자 정의 필드의 앞 또는 뒤에 표시될 수 있습니다.</p> <p> </p> </td>
-   </tr> 
+   요청 대기열을 설정한 방법에 따라 문서 섹션이 사용자 정의 필드의 앞 또는 뒤에 표시될 수 있습니다.</p> <p> </p>
+   <p>Workfront 관리자가 환경에 대해 선택한 문서 스토리지 유형에 따라 요청에 첨부된 문서가 다음에 추가됩니다.</p>
+      <ul><li>Workfront 저장소를 사용하는 요청의 경우 문서가 새로 생성된 요청의 문서 섹션에 추가됩니다.</li>
+      <li>Adobe 엔터프라이즈 스토리지를 사용하는 요청의 경우, 문서가 요청과 동일한 이름으로 새로 생성된 폴더에 추가되고 제출 프로세스 중에 요청에 자동으로 추가됩니다. </li></ul>
+      <p>Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.</p>
+      <p>문제 및 요청 스토리지 유형이 프로젝트에서 상속되었습니다. </p>
+      <p>자세한 내용은 <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">프로젝트 및 관련 개체에 대한 문서 관리 개요</a>를 참조하십시오.</p>
+
+   </td> 
+     </tr> 
     </tbody> 
    </table>
 

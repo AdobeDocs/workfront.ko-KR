@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '5076'
+source-wordcount: '5112'
 ht-degree: 3%
 
 ---
@@ -181,7 +181,7 @@ Old:
          <ul> 
          <li><p><strong>없음</strong></p></li> 
          <li><p><strong>낮음</strong></p></li> 
-         <li><p><strong>일반</strong></p></li> 
+         <li><p><strong>보통</strong></p></li> 
          <li><p><strong>높음</strong></p></li> 
          <li><p><strong>긴급</strong></p></li> 
          </ul><p><p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a>을 참조하십시오.</p></p></td> 
@@ -391,7 +391,7 @@ Old:
        </ul> 
        </div> <p>다음 옵션 중에서 선택합니다.<br></p> 
        <ul> 
-       <li> <p><strong>자동 및 변경 시</strong>(기본 설정): 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경(변경 시)이 발생할 때마다 향후 프로젝트 타임라인이 업데이트됩니다. 프로젝트 타임라인은 매일 밤 자동 업데이트됩니다.<br>이 설정은 프로젝트 타임라인이 항상 최신 상태이므로 이 필드에 권장되는 설정입니다.<br>타임라인 재계산을 트리거하는 작업 또는 프로젝트에 작업을 수행하면 사용 가능한 모든 날짜가 즉시 표시되어 작업을 계속할 수 있습니다. 작업이 100개를 초과하는 프로젝트의 경우 더 긴 재계산이 필요한 날짜가 물음표로 짧게 표시됩니다(1초에서 5초 사이 또는 큰 프로젝트의 경우 최대 1분). 이는 재계산이 아직 완료되지 않았으며, 날짜가 변경될 수 있음을 나타냅니다.<br></p> </li> 
+       <li> <p><strong>자동 및 변경 시</strong>(기본 설정): 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경(변경 시)이 발생할 때마다 향후 프로젝트 타임라인이 업데이트됩니다. 프로젝트 타임라인이 매일 밤(자동) 업데이트됩니다.<br>이 설정은 프로젝트 타임라인이 항상 최신 상태가 되도록 하기 때문에 이 필드에 권장되는 설정입니다.<br>타임라인 재계산을 트리거하는 작업 또는 프로젝트에 작업을 수행하면 사용 가능한 모든 날짜가 즉시 표시되어 작업을 계속할 수 있습니다. 작업이 100개를 초과하는 프로젝트의 경우 더 긴 재계산이 필요한 날짜가 물음표로 짧게 표시됩니다(1초에서 5초 사이 또는 큰 프로젝트의 경우 최대 1분). 이는 재계산이 아직 완료되지 않았으며, 날짜가 변경될 수 있음을 나타냅니다.<br></p> </li> 
        </ul> 
        <ul> 
        <li> <p><strong>변경 전용</strong>: 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경 사항이 발생할 때마다 프로젝트 타임라인이 업데이트됩니다. 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경 사항이 거의 발생하지 않는 경우 이 옵션을 선택할 수 있습니다.<br></p> </li> 
@@ -420,7 +420,7 @@ Old:
        <td> <p>다음 옵션 중에서 선택합니다.<br></p> 
        <ul> 
        <li> <p><strong>수동</strong>: 이 템플릿으로 만든 프로젝트에서 리소스를 수동으로 레벨링해야 합니다(기본 설정임).</p> </li> 
-       <li> <p><strong>자동:</strong> Workfront은 향후 프로젝트에서 리소스를 레벨링합니다. <br>리소스 레벨링에 대한 자세한 내용은 간트 차트 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">에서 </a>리소스 레벨링을 참조하십시오. </p> </li> 
+       <li> <p><strong>자동:</strong> Workfront은 향후 프로젝트에서 리소스를 레벨링합니다. <br>리소스 레벨링에 대한 자세한 내용은 간트 차트 </a>에서 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">리소스 레벨링을 참조하십시오. </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
@@ -439,7 +439,7 @@ Old:
        <td> <p>템플릿과 연결된 리소스 풀을 지정합니다. 리소스 풀은 프로젝트 완료에 동시에 필요한 사용자 컬렉션입니다. 리소스 풀에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 리소스 풀 개요 </a>을(를) 참조하십시오.</p> <p> <p><b>메모</b>
 
        템플릿을 일괄적으로 편집하면 선택한 모든 템플릿에 공통되는 리소스 풀만 이 필드에 나타납니다. 선택한 템플릿에 공유 리소스 풀이 없는 경우 이 필드는 비어 있습니다. 여기에서 지정한 리소스 풀은 템플릿의 개별 리소스 풀을 덮어씁니다.&lt;/p> &lt;/p> &lt;/td>
-       &lt;/tr>
+     &lt;/tr>
    
    <tr> 
       <td role="rowheader"><strong>이 프로젝트를 승인할 시간 필요</strong></td>
@@ -451,7 +451,7 @@ Old:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>시간 유형 필터링</strong> </td> 
-      <td> <p>다음 사항을 고려하십시오.</p> <p>향후 프로젝트에서 모든 프로젝트별 시간 유형을 사용할 수 있도록 하려면 <strong>아니요</strong>를 선택하십시오. (기본 선택 사항입니다.)</p> <p>또는</p> <p><strong>예</strong>를 선택하여 향후 프로젝트에서 프로젝트별 시간 형식의 하위 집합만 사용할 수 있도록 한 다음 사용할 시간 형식을 선택하십시오. (Shift 키를 누른 상태로 여러 시간 유형을 선택합니다.)</p> <p>이 옵션을 선택하면 프로젝트(또는 프로젝트 내의 작업 및 문제)에 시간을 기록할 때 선택한 시간 유형만 선택할 수 있습니다. 최소 1개의 시간 유형을 선택해야 합니다. 이 옵션을 선택하고 시간 유형을 선택하지 않으면 프로젝트에서 모든 시간 유형을 사용할 수 있습니다.</p> <p>사용자가 프로젝트에서 이러한 시간 유형 옵션을 보려면 개별 사용자 수준에서 동일한 시간 유형을 선택해야 합니다. </p> <p>사용자 수준에서 시간 유형을 정의하는 방법에 대한 자세한 내용은 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">로그 시간</a>의 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">로그 시간</a> 섹션을 참조하십시오.</p> </td> 
+      <td> <p>다음 사항을 고려하십시오.</p> <p>향후 프로젝트에서 모든 프로젝트별 시간 유형을 사용할 수 있도록 하려면 <strong>아니요</strong>를 선택하십시오. (기본 선택 사항입니다.)</p> <p>또는</p> <p><strong>예</strong>를 선택하여 향후 프로젝트에서 프로젝트별 시간 형식의 하위 집합만 사용할 수 있도록 한 다음 사용할 시간 형식을 선택하십시오. (Shift 키를 누른 상태로 여러 시간 유형을 선택합니다.)</p> <p>이 옵션을 선택하면 프로젝트(또는 프로젝트 내의 작업 및 문제)에 시간을 기록할 때 선택한 시간 유형만 선택할 수 있습니다. 최소 1개의 시간 유형을 선택해야 합니다. 이 옵션을 선택하고 시간 유형을 선택하지 않으면 프로젝트에서 모든 시간 유형을 사용할 수 있습니다.</p> <p>사용자가 프로젝트에서 이러한 시간 유형 옵션을 보려면 개별 사용자 수준에서 동일한 시간 유형을 선택해야 합니다. </p> <p>사용자 수준에서 시간 유형을 정의하는 방법에 대한 자세한 내용은 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">로그 시간</a>의 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">로그 시간</a> 섹션을 참조하십시오.</p> </td> 
       </tr> 
       <tr> 
       <td role="rowheader"><strong>미리 알림</strong> </td> 
@@ -531,7 +531,7 @@ Old:
 
    이 옵션을 비활성화하면 템플릿에서 만든 프로젝트에 문제를 추가할 수 있는 권한이 있는 사용자는 프로젝트와 연결된 새 문제 버튼 또는 요청 대기열을 사용하여 추가할 수 있습니다.
 
-   프로젝트에서 문제 설정을 구성하는 방법에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md#issue) 문서의 [문제 설정](../../../manage-work/projects/manage-projects/edit-projects.md) 섹션을 참조하십시오.
+   프로젝트에서 문제 설정을 구성하는 방법에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md) 문서의 [문제 설정](../../../manage-work/projects/manage-projects/edit-projects.md#issue) 섹션을 참조하십시오.
 
    프로젝트에서 문제를 만드는 방법에 대한 자세한 내용은 [문제 만들기](../../../manage-work/issues/manage-issues/create-issues.md)를 참조하십시오.
 
@@ -761,6 +761,8 @@ To edit templates in bulk:
 템플릿의 작업에 다음 항목을 추가할 수 있습니다.
 
 * 문서
+
+  자세한 내용은 [템플릿 작업 편집](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)을 참조하십시오.
 * 경비
 
   경비 추가에 대한 자세한 내용은 [프로젝트 경비 관리](../../../manage-work/projects/project-finances/manage-project-expenses.md)를 참조하십시오.
