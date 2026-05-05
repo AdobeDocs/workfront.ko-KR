@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: d1173e35a2455610474664f93159b97a54957488
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 8%
+source-wordcount: '901'
+ht-degree: 7%
 
 ---
 
@@ -114,7 +114,26 @@ Old:
 
 1. **새 템플릿**&#x200B;을 클릭합니다.
 
-   템플릿에 제목이 없습니다.
+1. (조건부) 조직에서 사용 중인 문서 저장소에 따라 다음 중 하나를 클릭합니다.
+
+   * **새 템플릿**. Workfront 관리자가 **Adobe Enterprise** 또는 **기존 Workfront**&#x200B;를 선택하고 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정을 선택하거나 선택하지 않은 경우.
+   * **새 템플릿(기존 저장소)**: Workfront 관리자가 **Adobe Enterprise** 또는 **기존 Workfront**&#x200B;를 선택하고 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정도 선택했습니다.
+
+     이 옵션은 [설정] 영역에서 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정을 선택한 경우에만 표시됩니다.
+
+     자세한 내용은 [조직에 Adobe 엔터프라이즈 스토리지 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하십시오.
+
+     템플릿은 만들어지며 기본 이름은 Workfront에서 문서에 사용하는 스토리지에 따라 다음과 같은 패턴을 따릅니다.
+
+      * Worfront-storage 템플릿에 대한 **제목 없는 템플릿**.
+
+        Workfront 스토리지 템플릿은 이름 옆에 **기존 Workfront 스토리지** 아이콘 ![기존 스토리지 프로젝트 아이콘](assets/legacy-storage-project-icon.png)을 표시합니다.
+
+      * **제목 없는 템플릿 - Adobe 스토리지 템플릿의 경우 &lt; Month day, year hour.minute.second >**
+
+        >[!IMPORTANT]
+        >
+        >Adobe 저장소를 사용하는 템플릿의 이름은 고유해야 합니다.
 
    ![새 템플릿](assets/create-template-nwe-2022-350x102.png)
 

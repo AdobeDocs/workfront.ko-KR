@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: da46d6784350c8394330799fe2177e82d3519041
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '550'
 ht-degree: 4%
 
 ---
@@ -106,7 +106,7 @@ old permissions model:
 1. Workfront에 로그인.
 1. 다음 중 하나를 수행하십시오.
 
-   * 사용 가능한 경우 왼쪽 위의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 또는 Adobe Workfront 오른쪽 위의 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을(를) 클릭한 다음 **프로젝트**&#x200B;를 클릭하고 **새 프로젝트**&#x200B;를 확장합니다.
+   * 왼쪽 상단의 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **프로젝트**&#x200B;를 클릭하고 **새 프로젝트**&#x200B;를 확장합니다.
    * 포트폴리오로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 프로그램으로 이동한 다음 **새 프로젝트**&#x200B;를 확장합니다.
    * 그룹 관리자인 경우 관리하는 그룹의 **프로젝트** 섹션에서 프로젝트를 만들 수 있습니다. 자세한 내용은 [그룹의 프로젝트 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)을 참조하세요.
