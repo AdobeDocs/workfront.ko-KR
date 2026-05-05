@@ -8,9 +8,9 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 500bf31ff0cff309cb0cdda063503abb297f858c
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2636'
 ht-degree: 1%
 
 ---
@@ -122,7 +122,9 @@ Google 및 Microsoft OneDrive와 같은 외부 애플리케이션에서 Workfron
 
 >[!IMPORTANT]
 >
->Dropbox은 파일 경로를 기반으로 문서를 저장합니다. 이로 인해 Dropbox에서 연결된 파일을 이동하거나 이름을 바꾸거나 삭제하면 Workfront에서 액세스할 수 없게 됩니다.
+>* Dropbox은 파일 경로를 기반으로 문서를 저장합니다. 이로 인해 Dropbox에서 연결된 파일을 이동하거나 이름을 바꾸거나 삭제하면 Workfront에서 액세스할 수 없게 됩니다.
+>* 파일 선택기에서 공유 OneDrive 폴더를 검색할 수 없습니다. 사용자와 공유된 파일을 연결하려면 OneDrive 파일 선택기의 검색 창을 사용하여 이름으로 파일을 찾은 다음 선택하여 Workfront에 추가합니다.
+
 
 1. 문서를 원하는 Workfront의 **문서** 영역으로 이동합니다.
 1. **새로 추가**&#x200B;를 클릭한 다음 문서를 Workfront에 연결할 외부 문서 공급자를 클릭합니다.
