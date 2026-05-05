@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '222'
 ht-degree: 5%
 
 ---
@@ -19,11 +19,35 @@ ht-degree: 5%
 
 <!--Audited: 2024-->
 
+하나의 로그인은 Workfront 및 모든 Adobe CX 엔터프라이즈 애플리케이션에 사용됩니다.
+
+자세한 내용은 [CX 엔터프라이즈 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)를 참조하십시오.
+
+## [!DNL Workfront] 액세스
+
+CX Enterprise에 로그인하면 상단 탐색 영역에서 조직 전환기를 클릭하여 액세스할 수 있는 [!DNL Workfront] 조직 및 환경을 모두 볼 수 있습니다. 작업할 [!DNL Workfront] 조직 또는 환경을 선택하십시오. 조직에서 사용하는 환경에는 [!UICONTROL 미리 보기] 및 [!UICONTROL 샌드박스]가 포함될 수 있습니다.
+
+![조직 및 환경 [!DNL Workfront]개 보기](assets/wf-org-instance-switcher-2026.png)
+
+>[!NOTE]
+>
+>CX Enterprise에 처음 로그인하면 기본적으로 조직은 알파벳 목록의 첫 번째 조직으로 설정됩니다. 다음에 로그인할 때 조직은 기본적으로 사용자가 마지막으로 방문한 조직으로 설정됩니다.
+
+액세스 권한이 있는 CX 엔터프라이즈 제품 목록에 [!DNL Workfront]이(가) 나타납니다. CX 엔터프라이즈 홈 페이지의 빠른 액세스 메뉴에서 [!DNL Workfront]을(를) 선택하거나 제품 전환기 ![제품 전환기](assets/main-menu-icon.png)를 사용하여 언제든지 애플리케이션을 변경할 수 있습니다.
+
+![응용 프로그램에 액세스하려면 [!DNL Workfront]을(를) 선택하십시오](assets/cx-enterprise-home-2026.png)
+
+>[!NOTE]
+>
+>Workfront이 열려 있는 페이지에서 브라우저 탭 세션이 만료되고 다른 브라우저 탭에 활성 Workfront 세션이 있는 경우 만료된 탭을 다시 로드하여 Workfront 페이지를 다시 열 수 있습니다.
+
+<!--
 >[!IMPORTANT]
 >
->이 페이지에 설명된 절차는 Adobe Admin Console에 아직 온보딩되지 않은 조직에만 적용되므로 제거되었습니다.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->이제 모든 Workfront 조직이 Adobe Admin Console에 온보딩되었습니다.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
