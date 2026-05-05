@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
+source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '977'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,9 @@ Frame.io에 대한 자세한 내용은 [Frame.io 시작하기](https://support.f
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
-<!--
-## Integration requirements
+## 액세스 요구 사항
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
--->
+* Frame.io 뷰어 및 Adobe 엔터프라이즈 스토리지를 사용하려면 Workfront 계약에 V2 Workfront SKU가 포함되어야 합니다. 자세한 내용은 [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval)의 FAQ를 참조하십시오.
 
 ## Workfront의 작업 시작 및 계획
 
