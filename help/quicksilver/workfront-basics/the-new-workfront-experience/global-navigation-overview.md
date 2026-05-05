@@ -5,7 +5,7 @@ description: ' [!DNL Adobe Workfront] 의 화면 맨 위에 표시되는 위쪽 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
+source-git-commit: 201a4430cfaa10bb99ef63ec96ecdccd3b07b0f1
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%
@@ -29,14 +29,6 @@ ht-degree: 0%
 Workfront 관리자는 레이아웃 템플릿을 만들어 사용자에게 할당하여 홈 아이콘을 사용자 정의하여 다른 페이지를 열 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 랜딩 페이지 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)을 참조하세요.
 
 ## [!UICONTROL 메인 메뉴]
-
-<!--
->[!IMPORTANT]
->
->The Main Menu described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
->
-> If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
--->
 
 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon-left-nav.png)에서 [!UICONTROL 주 메뉴]를 엽니다. 여기서 Workfront의 다른 영역으로 이동할 수 있습니다.
 
