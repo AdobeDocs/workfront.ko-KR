@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2151'
 ht-degree: 2%
 
 ---
@@ -94,6 +94,13 @@ Old:
 ## 고려 사항
 
 * 문제를 프로젝트로 전환할 때는 5분 처리 제한이 있습니다. 문제에 많은 문서가 첨부되어 있고 전환하지 못하는 경우, 일부 문서를 제거하고 다시 시도해야 할 수 있습니다.
+* 조직에서 기존 Workfront 및 Adobe 엔터프라이즈 문서 저장소를 모두 사용하는 경우 문제를 프로젝트로 전환할 때 다음과 같은 시나리오가 존재합니다. <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+   * Workfront 스토리지 문제로 Workfront 스토리지 프로젝트가 생성되었습니다.
+   * Adobe 엔터프라이즈 스토리지 문제로 Adobe 스토리지 프로젝트가 생성되었습니다.
+   * Workfront 스토리지 템플릿을 사용하여 Adobe 스토리지 문제를 전환하면 Adobe 스토리지 프로젝트가 생성됩니다.
+   * Adobe 스토리지 템플릿을 사용하여 Workfront 스토리지 문제를 전환하면 Workfront 스토리지 프로젝트가 생성됩니다.
+
+     자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
 ## 문제를 프로젝트로 전환
 
@@ -225,6 +232,14 @@ Old:
 
    ![프로젝트로 전환](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
+   >[!TIP]
+   >
+   >* Workfront 스토리지 템플릿을 사용하여 Adobe 스토리지 문제를 전환하면 Adobe 스토리지 프로젝트가 생성됩니다.
+   >* Adobe 스토리지 템플릿을 사용하여 Workfront 스토리지 문제를 전환하면 Workfront 스토리지 프로젝트가 생성됩니다.
+   >
+   >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
+
+
 1. 템플릿에 필드가 이미 채워져 있으면 [!UICONTROL 프로젝트로 전환] 상자에서 필드가 미리 채워집니다. 프로젝트와 더 잘 일치하도록 미리 채워진 값을 편집할 수 있습니다. 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
    >[!TIP]
@@ -258,20 +273,20 @@ Old:
      >
      >또는 조직의 최상위 그룹이 그룹을 별도로 구성한 경우 여기에서 사용할 수 있는 옵션은 6단계에서 새 프로젝트에 대해 선택한 그룹에 따라 다릅니다. 자세한 내용은 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
 
-   1. [!UICONTROL **사용자 지정 Forms**]&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
+1. [!UICONTROL **사용자 지정 Forms**]&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
 
-      * 템플릿에 첨부된 사용자 정의 양식을 검토하십시오. 그들은 새 프로젝트로 이전할 것이다.
-      * 문제에 첨부된 사용자 정의 양식을 검토하십시오. 프로젝트 양식인 경우 프로젝트로 전송됩니다.
-      * 모든 필수 필드에 유효한 정보가 있는지 확인하십시오.
-      * 사용자 정의 양식을 원하는 위치로 ![드래그 아이콘](assets/drag-object-icon.png)하여 다시 정렬합니다.
-      * 프로젝트로 전송하지 않을 양식 오른쪽의 **x** 아이콘을 클릭합니다.
-      * 필요한 경우 문제의 사용자 정의 양식 정보를 프로젝트로 전송합니다.
+   * 템플릿에 첨부된 사용자 정의 양식을 검토하십시오. 그들은 새 프로젝트로 이전할 것이다.
+   * 문제에 첨부된 사용자 정의 양식을 검토하십시오. 프로젝트 양식인 경우 프로젝트로 전송됩니다.
+   * 모든 필수 필드에 유효한 정보가 있는지 확인하십시오.
+   * 사용자 정의 양식을 원하는 위치로 ![드래그 아이콘](assets/drag-object-icon.png)하여 다시 정렬합니다.
+   * 프로젝트로 전송하지 않을 양식 오른쪽의 **x** 아이콘을 클릭합니다.
+   * 필요한 경우 문제의 사용자 정의 양식 정보를 프로젝트로 전송합니다.
 
-        >[!TIP]
-        >
-        >* 문제에 첨부된 다중 오브젝트 사용자 정의 양식이 문제와 프로젝트 모두에서 사용하도록 구성된 경우 해당 문제의 필드와 프로젝트의 사용자 정의 양식 둘 다에 필드가 있는 경우 전환할 때 양식에 저장된 모든 정보가 유지됩니다.
-        >* 계산된 필드가 있는 다중 오브젝트 사용자 정의 양식이 문제 및 프로젝트에 첨부된 경우 문제 및 프로젝트는 양식의 계산된 사용자 정의 필드에서 참조되는 모든 필드와 호환되어야 합니다. 비호환성이 있는 경우 조정할 것을 알리는 메시지가 표시됩니다. 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
-        >* 템플릿에 첨부된 사용자 정의 양식에 문제에 첨부된 사용자 정의 양식에서도 사용자 정의 필드가 포함된 경우 문제의 필드 값이 새 프로젝트에 사용됩니다. 하지만, 해당 문제에 대한 사용자 정의 필드가 비어 있는 경우, 템플릿의 값이 사용됩니다.
+     >[!TIP]
+     >
+     >* 문제에 첨부된 다중 오브젝트 사용자 정의 양식이 문제와 프로젝트 모두에서 사용하도록 구성된 경우 해당 문제의 필드와 프로젝트의 사용자 정의 양식 둘 다에 필드가 있는 경우 전환할 때 양식에 저장된 모든 정보가 유지됩니다.
+     >* 계산된 필드가 있는 다중 오브젝트 사용자 정의 양식이 문제 및 프로젝트에 첨부된 경우 문제 및 프로젝트는 양식의 계산된 사용자 정의 필드에서 참조되는 모든 필드와 호환되어야 합니다. 비호환성이 있는 경우 조정할 것을 알리는 메시지가 표시됩니다. 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
+     >* 템플릿에 첨부된 사용자 정의 양식에 문제에 첨부된 사용자 정의 양식에서도 사용자 정의 필드가 포함된 경우 문제의 필드 값이 새 프로젝트에 사용됩니다. 하지만, 해당 문제에 대한 사용자 정의 필드가 비어 있는 경우, 템플릿의 값이 사용됩니다.
 
 1. (선택 사항) 필요에 따라 추가 프로젝트 세부 &#x200B; 정보(프로젝트 소유자, 프로젝트 날짜) 및 작업을 설정합니다.
 
