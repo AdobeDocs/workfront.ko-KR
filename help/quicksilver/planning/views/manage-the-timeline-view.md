@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '4035'
+source-wordcount: '4068'
 ht-degree: 2%
 
 ---
@@ -212,8 +212,14 @@ Old:
       * **연도**: 연도 표시가 있는 분기와 월을 표시합니다.
       * **분기**: 분기가 표시된 월과 주를 표시합니다.
       * **월**: 주 및 일을 표시합니다.
+
+     >[!TIP]
+     >
+     >타임라인 보기에는 기본 분기에 따라 회계 주만 표시됩니다. Workfront 관리자가 설정 영역에서 사용자 정의 분기를 켜면 주 정보가 타임라인 보기에 표시되지 않습니다.
+
 1. (선택 사항) 날짜가 같은 줄에 겹치지 않는 레코드를 표시하려면 **작게 보기로 전환**&#x200B;을 클릭합니다. <!--check to see if they updated the name of the setting here-->
 1. (조건부) 모드를 **작게**(으)로 변경한 경우 **표준 보기로 전환** 보기를 클릭하여 레코드를 별도의 줄로 표시합니다. **표준** 옵션이 기본값입니다.  <!--check to see if they updated the name of the setting here-->
+
 
 1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
 

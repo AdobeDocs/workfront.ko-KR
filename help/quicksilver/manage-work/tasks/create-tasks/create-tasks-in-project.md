@@ -9,9 +9,9 @@ role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1116'
 ht-degree: 2%
 
 ---
@@ -167,6 +167,12 @@ Old:
 
    1. (조건부 및 선택 사항) 작업을 반복하려면 **반복 빈도** 필드를 업데이트하십시오. 반복 작업 만들기에 대한 자세한 내용은 [반복 작업 만들기](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)를 참조하세요.
    1. (선택 사항) 왼쪽 패널에서 **문서**&#x200B;를 클릭하여 새 작업에 문서를 첨부한 다음 **파일 추가 또는 연결**&#x200B;을 클릭하여 컴퓨터 또는 다른 서비스에서 작업에 문서를 추가하거나 컴퓨터 또는 다른 서비스에서 문서 및 폴더를 연결합니다.
+
+      >[!TIP]
+      >
+      >조직에서 기존 Workfront 및 Adobe 엔터프라이즈 문서 스토리지를 모두 액세스할 수 있는 경우 작업에서 사용하는 스토리지 유형에 따라 작업의 문서 영역이 다르게 표시될 수 있습니다. 작업은 프로젝트에서 저장소 유형을 상속합니다.
+      >
+      >자세한 내용은 [파일 시스템에서 Adobe Workfront에 문서 추가](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)를 참조하십시오.
 
 1. (조건부) 5단계에서 **작업 추가**&#x200B;를 클릭한 경우 인라인 편집을 사용하여 작업 정보 입력을 시작한 다음 Enter 키를 누릅니다.
 
