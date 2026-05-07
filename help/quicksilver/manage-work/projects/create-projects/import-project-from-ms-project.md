@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: da46d6784350c8394330799fe2177e82d3519041
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 4%
+source-wordcount: '601'
+ht-degree: 3%
 
 ---
 
@@ -120,11 +120,18 @@ old permissions model:
 1. **파일 선택**&#x200B;을 클릭한 다음 Microsoft 프로젝트에서 내보낸 .xml 파일을 컴퓨터에서 찾습니다.
 1. 선택한 파일을 가져옵니다. Workfront은 가져오기 프로세스를 시작하고 Microsoft 프로젝트에서 내보낸 파일을 기반으로 새 프로젝트를 만듭니다.
 
-   가져오기 프로세스가 완료되면 가져오기가 성공적으로 완료되었음을 확인하는 메시지가 표시되는 새 프로젝트 페이지로 이동합니다.
-
    >[!NOTE]
    >
    >Workfront의 파일 업로드 시간은 15분으로 제한됩니다. 파일 업로드가 이보다 오래 걸리는 경우 프로젝트를 더 작은 프로젝트로 분류하여 별도로 가져오는 것이 좋습니다. 작업을 Workfront으로 가져온 다음에는 작업을 한 프로젝트에서 다른 프로젝트로 이동하여 한 프로젝트로 결합합니다. 작업 이동에 대한 자세한 내용은 [작업 이동](../../../manage-work/tasks/manage-tasks/move-tasks.md)을 참조하십시오.
+
+   가져오기 프로세스가 완료되면 가져오기가 성공적으로 완료되었음을 확인하는 메시지가 표시되는 새 프로젝트 페이지로 이동합니다.
+
+   >[!CAUTION]
+   >
+   >Workfront 인스턴스가 Workfront 및 Adobe 문서 스토리지를 모두 액세스할 수 있는 경우 Workfront 관리자가 Adobe 엔터프라이즈 스토리지를 시스템의 기본값으로 설정한 경우에도 MS Project에서 프로젝트를 가져오면 Workfront 스토리지 프로젝트가 생성됩니다.
+   >
+   >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
+
 
 1. (선택 사항) Workfront에서 프로젝트를 계속 편집합니다. 프로젝트 편집에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
