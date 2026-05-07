@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '840'
 ht-degree: 2%
 
 ---
@@ -121,7 +121,9 @@ Workfront 사용자가 Workfront으로 이메일을 보낼 때 다음 상황이 
 
   >[!NOTE]
   >
-  > MSG 파일은 지원되지 않으며 Workfront의 문제에 첨부되지 않습니다.
+  >* MSG 파일은 지원되지 않으며 Workfront의 문제에 첨부되지 않습니다.
+  >
+  >* 기존 Workfront 및 Adobe 엔터프라이즈 문서 스토리지를 모두 액세스할 수 있는 환경의 경우, Workfront 관리자가 설정 영역에서 기본 스토리지 환경 설정에 대해 선택한 항목에 관계없이 요청이 프로젝트에서 문서 스토리지 유형을 상속합니다. 자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
 * 이메일을 보내는 사용자가 Workfront에서 새 문제에 대한 기본 담당자가 됩니다.
 * 이메일의 본문은 4,000자를 초과할 수 없습니다.
