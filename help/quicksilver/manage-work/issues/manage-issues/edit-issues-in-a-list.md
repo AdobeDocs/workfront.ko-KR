@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '908'
 ht-degree: 3%
 
 ---
@@ -152,10 +152,15 @@ Old:
 
    | 아이콘 | 액션 |
    |---|---|
-   | 문서 ![문서 아이콘](assets/documents-icon-in-summary.png) | 문제에 문서를 추가하려면 **여기를 클릭**&#x200B;하세요. |
+   | 문서* ![문서 아이콘](assets/documents-icon-in-summary.png) | 문제에 문서를 추가하려면 **여기를 클릭**&#x200B;하세요. |
    | 세부 정보 ![세부 정보 아이콘](assets/details-icon-in-summary.png) | 을(를) 클릭하여 문제에 대한 정보를 업데이트합니다. |
    | 시간 ![로그 시간](assets/log-time-icon-in-summary.png) | 클릭하여 시간을 기록합니다. |
    | 승인 ![승인 아이콘](assets/approvals-icon-in-summary.png) | 문제 승인을 추가하려면 클릭하십시오. |
+
+   *조직에서 Adobe 엔터프라이즈 문서 스토리지를 사용하는 경우 요약 패널에서 Adobe 스토리지 문제에 문서를 추가할 수 없습니다.
+
+   자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
+
 
 1. (선택 사항) **요약 열기** 아이콘을 다시 클릭하거나 요약 오른쪽 상단의 **X 아이콘**&#x200B;을 클릭하여 패널을 닫고 문제를 인라인으로 편집합니다.
 
