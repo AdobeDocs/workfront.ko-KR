@@ -8,14 +8,14 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 4%
 
 ---
 
-# [!DNL Adobe Workfront]의 [!DNL Adobe Creative Cloud] 알림 보기 및 관리
+# [!DNL Adobe Creative Cloud]의 [!DNL Adobe Workfront] 알림 보기 및 관리
 
 승인해야 하는 항목, 받은 할당 또는 연결된 항목에 대한 댓글 및 변경 사항에 대한 알림을 [!DNL Adobe Workfront]에서 Adobe Creative Cloud으로 받을 수 있습니다.
 
@@ -36,7 +36,7 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> Any</td> 
   </tr> 
@@ -49,7 +49,7 @@ ht-degree: 4%
   -->
   <tr> 
    <td role="rowheader">추가 제품</td> 
-   <td>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</td> 
+   <td>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</td> 
   </tr> 
  </tbody> 
 </table>

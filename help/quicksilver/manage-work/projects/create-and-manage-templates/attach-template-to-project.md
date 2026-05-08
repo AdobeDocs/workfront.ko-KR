@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 8%
+source-wordcount: '1130'
+ht-degree: 5%
 
 ---
 
@@ -162,7 +162,7 @@ ht-degree: 8%
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">작업 섹션</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-tasks-section-nwe-350x289.png" style="width: 350;height: 289;"> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">아래에서 선택한 템플릿 작업을 프로젝트로 가져옵니다. 제외하려면 선택을 취소하십시오. </td> 
+      <td role="rowheader">아래에서 선택한 템플릿 작업을 프로젝트로 가져옵니다. 제외할 항목을 선택 취소합니다. </td> 
       <td><p>프로젝트에 첨부하기 전에 템플릿에서 제외할 작업을 선택 취소합니다.</p>
       <p><b>팁</b></p>
       <p>작업을 하나만 선택할 수 있습니다.</p>
@@ -185,7 +185,7 @@ ht-degree: 8%
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">옵션 섹션</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">아래 선택된 항목이 프로젝트로 전송됩니다. 제외하려면 선택을 취소하십시오.</td> 
+      <td role="rowheader">아래에서 선택한 항목이 프로젝트로 전송됩니다. 제외할 항목을 선택 취소합니다.</td> 
       <td> <p>프로젝트에 첨부하기 전에 템플릿에서 제외할 정보에 대한 확인란의 선택을 취소합니다. 각 필드에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">프로젝트에 템플릿을 첨부하는 개요</a>를 참조하십시오. </p> <p>중요: <strong>대기열 속성 및 문제 설정</strong> 상자를 선택하면 템플릿의 대기열 세부 정보가 프로젝트의 대기열 세부 정보를 덮어씁니다. 이 경우 템플릿의 라우팅 규칙, 대기열 주제 및 주제 그룹이 프로젝트의 그룹에 추가됩니다. <br>프로젝트가 요청 대기열로 설정되어 있고 프로젝트에 첨부한 템플릿이 요청 대기열로 설정되어 있지 않은 경우 <strong>대기열 속성 및 문제 설정</strong> 상자를 선택한 상태로 두면 프로젝트의 대기열 정보가 제거됩니다. <br><strong>대기열 속성 및 문제 설정</strong> 상자를 선택 취소하면 프로젝트의 모든 대기열 설정 설정이 유지되며 템플릿의 대기열 설정 설정은 첨부되지 않습니다. </p> </td> 
      </tr> 
      <tr> 

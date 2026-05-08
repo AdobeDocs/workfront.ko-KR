@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: ed348f44-eae1-4478-8425-6114f2b310ad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '2885'
-ht-degree: 5%
+source-wordcount: '3176'
+ht-degree: 11%
 
 ---
 
@@ -115,23 +115,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
-   <tr>
+    <tr>
         <td><strong>기능</strong>
         </td>
         <td><strong>미리보기</strong></td>
         <td><strong>빠른 릴리스</strong></td>
         <td><strong>분기별</strong></td>
-        </tr>
-       <!--
-       <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
-            <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
-            <p>The AI reviewer is currently in beta.</p>
-        </td>
-        <td>January 8, 2026</td>
-        <td>January 8, 2026</td>
-        <td>January 8, 2026</td>
+    </tr>
+    <!--
+    <tr>
+    <td>
+        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+        <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
+        <p>The AI reviewer is currently in beta.</p>
+    </td>
+    <td>January 8, 2026</td>
+    <td>January 8, 2026</td>
+    <td>January 8, 2026</td>
     </tr>
     -->
     </tr>
@@ -608,13 +608,13 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 * Salesforce용 Workfront
 
 조직의 Google Workspace 통합 요구 사항에 맞게 Workfront 자동화 및 통합을 사용하는 것이 좋습니다.
-Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
+Workfront 자동화 및 통합에 대한 개요는 [Adobe Workfront Fusion 개요](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)를 참조하십시오.
 
 
 ### Workfront 유지 관리 업데이트
 
-2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ko)를 참조하십시오.
+2025년 1분기 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ### 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ko)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront 자습서 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.

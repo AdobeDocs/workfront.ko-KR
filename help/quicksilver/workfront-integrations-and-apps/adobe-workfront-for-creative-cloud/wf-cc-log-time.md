@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '208'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 8%
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
@@ -43,7 +43,7 @@ ht-degree: 8%
   -->
   <tr> 
    <td role="rowheader">추가 제품</td> 
-   <td>[!DNL Adobe Creative Cloud] 라이선스 외에 [!DNL Workfront] 라이선스가 있어야 합니다.</td> 
+   <td>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 

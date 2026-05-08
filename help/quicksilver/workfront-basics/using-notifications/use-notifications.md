@@ -7,9 +7,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * [[!DNL Adobe Workfront] 알림](../../workfront-basics/using-notifications/wf-notifications.md)
 * [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
-* [&#x200B; [!DNL Adobe Workfront]의 항목 구독](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+* [ [!DNL Adobe Workfront]의 항목 구독](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 * [인앱 알림 개요](../../workfront-basics/using-notifications/in-app-notifications-overview.md)
 * [인앱 알림 보기 및 관리](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * [미리보기 샌드박스 환경에서 이메일 게재 활성화](../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
