@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 8c5290f5c9724fa1b382b0acf2a541fe7d3d44fa
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 4%
@@ -76,7 +76,7 @@ ht-degree: 4%
             <td><strong>분기별</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">미리 정의된 보기가 요청 영역 및 내 요청 위젯의 요청 목록에 추가됨</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">미리 정의된 보기가 요청 영역 및 내 요청 위젯의 요청 목록에 추가됨</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
                 <p>요청 목록을 보다 효율적으로 구성할 수 있도록 요청 영역의 요청 목록 및 홈의 내 요청 위젯에 사전 정의된 보기를 추가했습니다.</p>
             </td>
             <td><p>2026년 4월 23일</p></td>
@@ -85,6 +85,7 @@ ht-degree: 4%
         </tr>
     </tbody>
 </table>
+
 
 ## 기타 영역에 대한 릴리스 노트
 
