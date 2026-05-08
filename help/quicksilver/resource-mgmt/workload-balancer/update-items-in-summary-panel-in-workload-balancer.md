@@ -6,10 +6,10 @@ description: 업무 균형자에서 요약 패널을 열어 할당된 작업 영
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td>
+   <td><p>Any</p></td>
   </tr>
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -91,6 +91,12 @@ ht-degree: 2%
    >상위 작업이 업무 균형자에 표시되지 않으므로 요약 섹션에서 하위 작업 섹션으로 이동하여 하위 작업을 추가하면 원래 작업이 제거됩니다.
 
    요약을 사용하여 정보를 업데이트하는 방법에 대한 자세한 내용은 [요약 개요](../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.
+
+   >[!NOTE]
+   >
+   >조직에서 Adobe 엔터프라이즈 문서 저장소를 사용하는 경우 요약 패널에서 Adobe 스토리지 작업 항목에 문서를 추가할 수 없습니다.
+   >
+   >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
 1. (조건부) 작업 항목의 섹션을 연 경우 브라우저의 **뒤로 단추**&#x200B;를 클릭하여 업무 균형자로 돌아갑니다.
 1. 요약 오른쪽 상단의 **닫기 아이콘** ![닫기 아이콘](assets/close-icon.png)을 클릭하여 닫습니다.

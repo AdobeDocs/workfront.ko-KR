@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1781'
 ht-degree: 2%
 
 ---
@@ -102,6 +102,10 @@ Old:
    * 하위 작업이 새 작업으로 전송됩니다.
 
 * 한 번에 하나의 작업을 복사할 수도 있고 목록에서 작업을 편집할 때 한 번에 여러 작업을 복사할 수도 있습니다.
+
+* 조직에서 기존 Workfront 및 Adobe 엔터프라이즈 스토리지를 모두 사용하는 경우 서로 다른 스토리지 유형을 사용하는 프로젝트 간에 작업을 복사할 수 없습니다.
+
+  자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
 ## 목록의 작업 복사 {#copy-tasks-in-a-list}
 
@@ -245,7 +249,7 @@ Old:
 
    작업이 목록에 표시됩니다.
 
-   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. 상위 항목을 찾으면 해당 라디오 단추를 선택합니다.
 
@@ -255,7 +259,7 @@ Old:
 
    또는
 
-   목록에서 작업을 여러 개 선택하면 **작업 복사**&#x200B;를 클릭합니다.
+   목록에서 작업을 여러 개 선택하면 **작업 복사**를 클릭합니다.
 복사된 작업이 이제 지정된 프로젝트에 있으며 선택한 상위 작업의 하위 작업 또는 프로젝트의 마지막 작업입니다.
 
 ## 작업 복제
