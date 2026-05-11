@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 143cb1477bb6e404907e680dfcee98a89177de60
+source-git-commit: 7c4a22a4ecf0b5919e3a4d578c93262a672197a6
 workflow-type: tm+mt
-source-wordcount: '14089'
+source-wordcount: '14106'
 ht-degree: 2%
 
 ---
@@ -1869,6 +1869,7 @@ ht-degree: 2%
    * [작업 검토 및 승인](review-and-approve-work/review-and-approve-work.md)
    * [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
    * [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+   * [Adobe 엔터프라이즈 스토리지의 Workfront으로 이동](/help/quicksilver/review-and-approve-work/workfront-storage.md)
    * [비유료 사용자에 대한 제한된 문서 및 증명 결정 개요](review-and-approve-work/proof-doc-decision-limits.md)
    * {hide-from-toc}[AI 검토자 설정](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
    * 작업 승인 {#work-approvals}
@@ -2029,6 +2030,7 @@ ht-degree: 2%
       * [Frame.io 통합과 함께 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
    * 승인을 위한 팁, 요령 및 문제 해결 {#ttt-approvals}
       * [승인을 위한 팁, 요령 및 문제 해결: 문서 색인](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [통합 검토 및 승인을 위해 Workfront Fusion 시나리오 업데이트](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)
       * [모든 사용자에 대한 증명 및 문서 결정 수 보기](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 타임시트 {#timesheets}
    * [타임시트: 문서 색인](timesheets/timesheets-all.md)

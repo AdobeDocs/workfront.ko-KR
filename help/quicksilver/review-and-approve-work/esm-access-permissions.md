@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d10138467d81bbe87375d6a64e4fd5e269691808
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 0%
+source-wordcount: '944'
+ht-degree: 1%
 
 ---
 
@@ -104,8 +104,30 @@ Adobe 엔터프라이즈 스토리지를 사용하는 프로젝트, 프로그램
 * 문서 썸네일
 
 
+## Frame.io에 대한 권한 매핑
 
+통합의 일부로, 사용자 권한은 Workfront에서 제어되며 Frame.io로 아래로 흐릅니다. 즉, Frame.io에서 사용자를 프로젝트에 초대하거나 Frame.io에서 사용자 권한을 수정할 수 없습니다. 이러한 작업은 Workfront의 프로젝트 공유 모달을 통해 수행해야 합니다.
 
+다음 표에서는 Workfront 권한이 Frame.io 권한에 매핑되는 방식을 보여 줍니다.
+
+<table>
+<tr>
+<th>Workfront 사용자 권한</th>
+<th>Frame.io 사용자 권한</th>
+</tr>
+<tr>
+<td>관리</td>
+<td>편집 및 공유</td>
+</tr>
+<tr>
+<td>참여</td>
+<td>편집 및 공유</td>
+</tr>
+<tr>
+<td>보기</td>
+<td>주석만</td>
+</tr>
+</table>
 
 
 
