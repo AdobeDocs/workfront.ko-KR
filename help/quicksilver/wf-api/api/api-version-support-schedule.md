@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 62177a9cedcaf3155f95e91fc4ee506d7f6a04aa
+source-git-commit: 682cf24c4c7932afeb66a2e5434fe3cec887e889
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 18%
+source-wordcount: '529'
+ht-degree: 25%
 
 ---
 
@@ -26,7 +26,7 @@ API 버전 식별 및 사용에 대한 자세한 내용은 [통합에서 API 버
 
 >[!NOTE]
 >
->기존 Workfront 커넥터는 Workfront API 버전 20을 사용하며, 이 버전은 28.4 릴리스(2028년 4월)에서 더 이상 사용되지 않을 예정입니다. 레거시 커넥터의 모듈은 해당 시간까지 계속 작동합니다.
+>이전 Workfront 커넥터는 28.4 릴리스(2028년 4월)와 함께 사용되지 않을 예정인 Workfront API 버전 20을 사용합니다. 이전 커넥터의 모듈은 해당 시간까지 계속 작동합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,6 +41,12 @@ API 버전 식별 및 사용에 대한 자세한 내용은 [통합에서 API 버
   </tr> 
  </thead> 
  <tbody> 
+ <tr>
+   <td>22</td> 
+   <td> <p>2026년 5월 8일</p> </td> 
+   <td> <p>**2029년 중</p> <p>(29.4 릴리스 포함)</p> </td> 
+   <td></td> 
+  </tr> 
  <tr>
    <td>21</td> 
    <td> <p>2025년 10월 23일 금요일</p> </td> 
@@ -66,7 +72,7 @@ API 버전 식별 및 사용에 대한 자세한 내용은 [통합에서 API 버
    <td></td> 
   </tr>  <tr>
    <td>17</td> 
-   <td> <p>2023년 10월 12일</p> </td> 
+   <td> <p>2023년 10월 12일 금요일</p> </td> 
    <td> <p>**2026년 중</p> <p>(26.10 릴리스 포함)</p> </td> 
    <td></td> 
   </tr> 
@@ -126,7 +132,7 @@ API 버전 식별 및 사용에 대한 자세한 내용은 [통합에서 API 버
   </tr> 
   <tr> 
    <td>7</td> 
-   <td>2017년 4월 </td> 
+   <td>2017년 4월</td> 
    <td> <p>2020년 4월</p> <p>(2020.2 릴리스 포함)</p> </td> 
    <td>2025년 9월 30일(일부 조직에 대해 2025년 10월까지 연장)</td> 
   </tr> 
