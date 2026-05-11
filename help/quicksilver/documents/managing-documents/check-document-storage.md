@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: e25be455e16beee813e612b983bca1302f129e6f
+source-git-commit: 7b6d24d6a5b7fd052a3e7c97034e920e771022a6
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '436'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,12 @@ ht-degree: 2%
 
 ## Adobe 엔터프라이즈 스토리지
 
-조직에서 Adobe 엔터프라이즈 스토리지를 사용하는 경우 고객 정보에 기존 Workfront 스토리지, Adobe 엔터프라이즈 스토리지 및 Frame.io에 대한 다양한 섹션으로 사용량을 구분하는 스토리지 개요가 표시됩니다. 또한 Workfront은 사용량이 할당량을 초과할 때 업로드에 소프트 캡을 적용하여 사용자가 문서를 계속 업로드할 수 있도록 합니다.
+<!--
+If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your V2 Workfront SKU and any storage provisioned through a Frame.io Enterprise SKU or add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
+
+Beginning with the May 2026 release, you can view your pooled storage quota and a usage breakdown on the Customer Info page.
+
+-->
 
 ### 고객 정보에 대한 스토리지 사용량 보기
 
@@ -84,8 +89,11 @@ Adobe 엔터프라이즈 문서 스토리지를 확인하려면 다음을 수행
 
 1. 왼쪽 패널에서 **시스템** > **고객 정보**&#x200B;를 클릭합니다.
 1. **저장소 개요** 섹션으로 이동합니다.
-1. Adobe 엔터프라이즈 스토리지 사용량을 확인합니다.
-   <!--Both Workfront and Frame.io usage are broken down separately, but roll up to the total usage for Adobe enterprise storage.-->
+1. 사용량을 검토합니다. 스토리지 개요 는 풀링된 스토리지 할당량을 표시하고 사용량을 다음으로 나눕니다.
+
+   * Workfront 레거시 프로젝트 및 Adobe 엔터프라이즈 스토리지 프로젝트가 파란색 막대에 표시됩니다.
+   * 프레임 독립 실행형 프로젝트가 녹색 막대에 표시됩니다. 이러한 프로젝트는 Workfront과 별개이며 Frame.io Enterprise 라이선스가 있는 경우에만 사용할 수 있습니다.
+
 
 ![고객 정보의 Adobe 엔터프라이즈 스토리지 사용](assets/storage-usage.png)
 
@@ -93,6 +101,6 @@ Adobe 엔터프라이즈 문서 스토리지를 확인하려면 다음을 수행
 
 ### 관리자용 이메일 알림
 
-사용량이 스토리지 할당량의 75%, 85% 또는 100%를 초과하면 Workfront에서 시스템 관리자에게 이메일 알림을 보냅니다.
+사용량이 스토리지 할당량의 75%, 90% 또는 100%를 초과하면 Workfront에서 시스템 관리자에게 이메일 알림을 보냅니다.
 
 </div>
