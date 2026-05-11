@@ -6,7 +6,7 @@ description: Adobe 엔터프라이즈 스토리지에서 Workfront 롤아웃을 
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 722ba7f6617e3ccc1a1dcbf51f5d539c550617ab
+source-git-commit: 8daaeacae50e0f0245c2783fd6c827da192ae706
 workflow-type: tm+mt
 source-wordcount: '2360'
 ht-degree: 0%
@@ -219,3 +219,4 @@ Adobe 엔터프라이즈 스토리지가 사용자에게 표시되는 방식을 
 * [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [문서 영역](/help/quicksilver/documents/managing-documents/documents-area.md)
 * [Adobe 엔터프라이즈 스토리지 모델에 대한 개체 권한 및 액세스 수준 개요](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+
