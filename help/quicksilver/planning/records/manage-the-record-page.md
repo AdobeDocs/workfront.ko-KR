@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
+source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -282,7 +282,7 @@ Old:
 
    ![세부 정보 상자](assets/details-box.png)
 
-1. (선택 사항 및 조건부) 세부 정보 페이지에 표시할 필드에 따라 다음 중 하나를 수행합니다.
+1. (선택 사항 및 조건부) <!--If you are using the Production environment,--> 세부 정보 페이지에 표시할 필드에 따라 다음 중 하나를 수행합니다.
 
 
    * **세부 정보** 페이지에 모든 레코드 필드를 포함하려면 **모든 필드 표시** 설정을 선택하십시오. 기본 설정입니다.
@@ -292,6 +292,33 @@ Old:
      >
      >* **모든 필드 표시** 설정은 레코드의 세부 정보 미리 보기 상자에서만 사용할 수 있습니다. 레코드의 세부 정보 페이지가 브라우저 창에서 열리면 사용할 수 없습니다.
      >* 세부 정보 미리 보기 상자에서 숨겨진 필드를 제외하면 레코드의 페이지에 섹션을 추가할 수 없습니다.
+
+
+   <!--
+   1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
+      >[!TIP]
+      >
+      > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view.</span>
+   -->
+   <!--
+   <div class="preview">
+   In the Preview environment, continue with the following: 
+   1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
+   1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
+      1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
+      1. Hover over the fields on the view and click the **Hide and drag field** icon ![Hide and drag field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field or place it in another spot on the page. 
+         >[!TIP]
+         >
+         >* Custom pages are visible by everyone who accesses the record. 
+         >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+      1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+         >[!TIP]
+         >
+         >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
+      1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
+      1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
+   </div>
+   -->
 
 1. (선택 사항) 연결된 레코드로 이동하려면 세부 정보 페이지 상단의 이동 경로에서 해당 레코드의 이름을 클릭합니다.
 
