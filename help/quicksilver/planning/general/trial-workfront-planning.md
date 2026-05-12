@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
 workflow-type: tm+mt
 source-wordcount: '2368'
 ht-degree: 0%
@@ -21,6 +21,13 @@ ht-degree: 0%
 
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
+
+<!--
+and remove the IMPORTANT below - it conflicts with this one: 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
+-->
 
 Adobe Workfront Planning은 마케팅 라이프사이클에 대한 중앙 집중식 가시성을 제공하여 팀 간의 공동 작업, 캠페인 실시간 추적 및 자동화된 워크플로우를 가능하게 합니다. 사용자 지정 작업 공간을 만들고 대화형 타임라인 및 캘린더로 작업을 시각화할 수 있습니다.
 
