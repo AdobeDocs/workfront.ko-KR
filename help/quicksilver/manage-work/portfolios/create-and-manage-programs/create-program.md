@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1278'
 ht-degree: 2%
 
 ---
@@ -106,13 +106,18 @@ Old:
   Workfront에서 킥스타트를 사용하여 데이터를 가져오는 방법에 대한 자세한 내용은 [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)를 참조하십시오.
 
 
-* Workfront Planning의 레코드 유형에서 프로그램을 연결할 때 프로그램을 추가합니다.
+* 다음과 같은 방법으로 Workfront Planning에서 프로그램을 만듭니다.
 
-  추가 Workfront Planning 패키지가 있어야 합니다.
+   * Workfront Planning의 레코드 유형에서 연결할 때
 
-  Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+  레코드에 프로그램을 추가하여 프로그램을 만드는 방법에 대한 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;연결할 때 레코드 만들기&quot; 섹션을 참조하십시오.
+   * Workfront Planning 자동화 사용.
 
-  포트폴리오를 레코드에 추가하여 만드는 방법에 대한 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;연결할 때 레코드 만들기&quot; 섹션을 참조하십시오.
+  자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오.
+
+  Workfront Planning에 대한 새 Workfront 라이선스 및 추가 Workfront Planning 패키지가 있어야 합니다.
+
+  Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
 ## 프로그램 만들기
 
@@ -129,7 +134,7 @@ Old:
       1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
    * [!UICONTROL 포트폴리오] 영역에서 프로그램을 만듭니다.
 
-      1. **[!UICONTROL 기본 메뉴]**&#x200B;에서 [!UICONTROL 포트폴리오]를 클릭한 다음 포트폴리오를 엽니다.
+      1. [!UICONTROL 기본 메뉴]에서 **[!UICONTROL 포트폴리오]**&#x200B;를 클릭한 다음 포트폴리오를 엽니다.
       1. 왼쪽 패널에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
       1. **[!UICONTROL 새 프로그램]** 드롭다운 메뉴를 클릭한 다음 **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
 
@@ -248,7 +253,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 활성 프로젝트 상태]</td> 
-   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 , 위험 상태  또는 문제 발생 로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
+   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 [!UICONTROL], 위험 상태 [!UICONTROL] 또는 문제 발생 [!UICONTROL]로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
   </tr> 
  </tbody> 
 </table>

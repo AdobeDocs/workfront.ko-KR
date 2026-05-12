@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1417'
 ht-degree: 3%
 
 ---
@@ -118,6 +118,10 @@ Old:
 * 기본적으로 다음 항목은 작업과 함께 이동하지 않습니다.
 
    * 마일스톤
+
+* 조직에서 기존 Workfront 및 Adobe 엔터프라이즈 스토리지를 모두 사용하는 경우 서로 다른 스토리지 유형을 사용하는 프로젝트 간에 작업을 이동할 수 없습니다.
+
+  자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
 ## 목록에서 작업 이동
 
@@ -271,7 +275,7 @@ Old:
 
    작업이 목록에 표시됩니다.
 
-   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >
