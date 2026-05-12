@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 2%
@@ -177,7 +177,6 @@ Old:
   >[!TIP]
   >
   > Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
-
 
 * 엔터프라이즈 스토리지 프로젝트를 만들 때 프로젝트의 **문서** 섹션에 프로젝트 이름과 동일한 문서 폴더가 만들어집니다. 프로젝트에 작업을 추가하면 작업 이름이 포함된 폴더가 각 작업의 **문서** 섹션에 추가됩니다.
 

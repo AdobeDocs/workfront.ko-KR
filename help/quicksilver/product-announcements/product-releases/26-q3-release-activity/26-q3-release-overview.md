@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a7c2c2fc9af216ed68e608f82c1268ae5b8d9357
+source-git-commit: a0294e107bffab97b64d5c94187515a01f914190
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '588'
 ht-degree: 5%
 
 ---
@@ -98,10 +98,11 @@ Workfront Fusion의 새로운 기능은 표준 릴리스 일정이 아닌 케이
 릴리스의 이 시점에는 Workfront Planning 개선 사항이 없습니다.
 
 <!--
-
-New features in Workfront Planning are available in Production. For more information about the latest features, see [Third Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md).
-
+New features in Workfront Planning are available in Production.
 -->
+
+최신 기능에 대한 자세한 내용은 [Adobe Workfront Planning의 2026년 3분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)을 참조하십시오.
+
 
 ### 기타 Workfront 개선 사항
 

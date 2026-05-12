@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: da46d6784350c8394330799fe2177e82d3519041
+source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '637'
 ht-degree: 2%
 
 ---
@@ -152,6 +152,8 @@ Old:
     </tbody> 
    </table>
 
+   <!-- update screen shot for both kinds of storages??-->
+
    ![새 프로젝트 드롭다운](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (조건부) 기존 프로젝트를 추가하도록 선택한 경우 **프로젝트 추가** 상자가 열립니다. <!--check this after UI changes-->
@@ -161,6 +163,19 @@ Old:
 1. **[!UICONTROL 이 Portfolio에 프로젝트 추가]** 필드에 프로젝트 이름을 입력한 다음 목록에 나타나면 클릭합니다.  <!--check this after UI changes-->
 
    두 개 이상의 프로젝트를 추가할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >조직에서 기존 Workfront 및 Adobe 엔터프라이즈 문서 스토리지를 모두 사용하는 경우 다음과 같은 시나리오가 있습니다.
+   >
+   >
+   >* Adobe 스토리지 프로젝트를 Workfront 스토리지 포트폴리오에 추가하고 포트폴리오에 첨부된 문서가 없으면 포트폴리오가 Adobe 스토리지 포트폴리오로 변환됩니다.
+   >* Adobe 스토리지 프로젝트를 Workfront 스토리지 포트폴리오에 추가하고 포트폴리오에 문서가 첨부되어 있으면 포트폴리오 문서 스토리지는 Workfront 스토리지에 유지됩니다. 그러나 기존 Workfront 저장소 아이콘 ![기존 Workfront 저장소 아이콘](assets/legacy-storage-project-icon.png)이(가) 포트폴리오에서 제거되었습니다.
+   >* Adobe 스토리지 포트폴리오에 Workfront 스토리지 프로젝트를 추가할 수 없습니다.
+   >
+   >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
+   >
+   >모든 Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 있는 것은 아닙니다.
 
 1. (선택 사항) 포트폴리오에 추가하지 않으려면 프로젝트 이름 오른쪽에 있는 **X** 아이콘을 클릭하여 목록에서 제거합니다.
 

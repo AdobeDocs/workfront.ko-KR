@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: fe5165a858bc306348a59594692ce3912e2e531b
+source-git-commit: a0294e107bffab97b64d5c94187515a01f914190
 workflow-type: tm+mt
-source-wordcount: '14105'
+source-wordcount: '14114'
 ht-degree: 2%
 
 ---
@@ -238,6 +238,7 @@ ht-degree: 2%
          * [21.1 기타 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning 릴리스 활동{#planning-release-activity}
          * [Adobe Workfront Planning 릴리스 활동](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Adobe Workfront Planning의 2026년 3분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
          * [Adobe Workfront Planning의 2026년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
          * [Adobe Workfront Planning의 2026년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
          * [Adobe Workfront Planning의 2025년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)

@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 3%
+source-wordcount: '884'
+ht-degree: 2%
 
 ---
 
@@ -97,13 +97,18 @@ Old:
 
   Workfront에서 킥스타트를 사용하여 데이터를 가져오는 방법에 대한 자세한 내용은 [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)를 참조하십시오.
 
-* Workfront Planning의 레코드 유형에서 포트폴리오를 연결할 때 포트폴리오를 추가합니다.
+* 다음과 같은 방법으로 Workfront Planning에서 포트폴리오를 추가합니다.
 
-  Workfront Planning에 대한 새 Workfront 라이선스와 추가 Workfront Planning 라이선스가 있어야 합니다.
-
-  Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+   * Workfront Planning의 레코드 유형에서 연결할 때
 
   포트폴리오를 레코드에 추가하여 만드는 방법에 대한 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;연결할 때 레코드 만들기&quot; 섹션을 참조하십시오.
+   * Workfront Planning 자동화 사용.
+
+  자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오.
+
+  Workfront Planning에 대한 새 Workfront 라이선스 및 추가 Workfront Planning 패키지가 있어야 합니다.
+
+  Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
 
 ## 포트폴리오 만들기
@@ -111,8 +116,35 @@ Old:
 {{step1-click-main-menu}}
 
 1. **[!UICONTROL 포트폴리오]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 새 Portfolio]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 제목 없는 Portfolio]**&#x200B;을(를) 포트폴리오에 사용할 이름으로 바꾸십시오.
+
+1. (조건부) 조직에서 사용 중인 문서 저장소에 따라 다음 중 하나를 클릭합니다.
+
+   * **새 포트폴리오**. Workfront 관리자가 **Adobe Enterprise** 또는 **기존 Workfront**&#x200B;를 선택하고 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정을 선택하거나 선택하지 않은 경우.
+   * **새 포트폴리오(기존 저장소)**. Workfront 관리자가 **Adobe Enterprise** 또는 **기존 Workfront**&#x200B;를 선택하고 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정도 선택했습니다.
+
+     이 옵션은 [설정] 영역에서 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정을 선택한 경우에만 표시됩니다.
+
+     자세한 내용은 [조직에 Adobe 엔터프라이즈 스토리지 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하십시오.
+
+     >[!NOTE]
+     >
+     >Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
+
+     포트폴리오가 만들어지고 기본 이름은 Workfront이 문서에 사용하는 스토리지에 따라 다음과 같은 패턴을 따릅니다.
+
+      * Workfront 스토리지 포트폴리오용 `Untitled Portfolio`.
+
+        Workfront 스토리지 포트폴리오는 이름 옆에 **기존 Workfront 스토리지** 아이콘 ![기존 스토리지 포트폴리오 아이콘](assets/legacy-storage-project-icon.png)을 표시합니다.
+
+      * Adobe 스토리지 포트폴리오용 `Untitled Portfolio - < Month day, year hour.minute.second >`
+
+        >[!IMPORTANT]
+        >
+        >Adobe 엔터프라이즈 스토리지를 사용하는 포트폴리오의 이름은 고유해야 합니다.
+
+     Adobe 스토리지 포트폴리오의 경우 포트폴리오와 동일한 이름의 새 문서 폴더가 문서 영역에 자동으로 만들어집니다.
+
+1. 포트폴리오 헤더에서 포트폴리오의 이름을 새 이름으로 바꿉니다.
 
    이름에는 최대 255자를 사용할 수 있습니다.
 
@@ -144,7 +176,7 @@ Old:
     </tbody> 
    </table>
 
-1. (선택 사항) **[!UICONTROL Portfolio 세부 정보]** 페이지의 오른쪽 위 모서리에 있는 [!UICONTROL 사용자 정의 양식 추가] 상자 내부를 클릭하여 포트폴리오에 대한 사용자 정의 양식을 선택하고 사용자 정의 필드를 업데이트합니다.
+1. (선택 사항) [!UICONTROL Portfolio 세부 정보] 페이지의 오른쪽 위 모서리에 있는 **[!UICONTROL 사용자 정의 양식 추가]** 상자 내부를 클릭하여 포트폴리오에 대한 사용자 정의 양식을 선택하고 사용자 정의 필드를 업데이트합니다.
 
    >[!TIP]
    >
