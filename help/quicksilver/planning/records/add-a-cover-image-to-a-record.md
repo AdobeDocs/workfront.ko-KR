@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
@@ -178,12 +178,16 @@ Old:
 
    레코드의 미리보기가 보기에서 열립니다.
 
+   <!--update screen shot for new details views preview-->
+
    ![세부 정보 미리 보기 상자](assets/details-box.png)
 
 
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 열기](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
    레코드 페이지가 열립니다.
+
+   <!--update screen shot for new details views preview-->
 
    ![세부 정보 페이지](assets/details-page.png)
 
@@ -207,6 +211,8 @@ Old:
 1. **이미지 사용**&#x200B;을 클릭합니다.
 
    이미지는 레코드 미리 보기 또는 세부 사항 페이지의 맨 위에 업로드되고 변경 사항이 자동으로 저장됩니다.
+
+   <!--update screen shot for new details views preview-->
 
    ![표지 이미지로 페이지 기록](assets/record-page-with-cover-image.png)
 

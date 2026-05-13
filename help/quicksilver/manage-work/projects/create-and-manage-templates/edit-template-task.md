@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3123'
 ht-degree: 6%
 
 ---
@@ -583,6 +583,23 @@ Old:
 1. **저장**&#x200B;을 클릭합니다.
 
    사용자 또는 다른 사용자가 이 템플릿에서 프로젝트를 만들 때 템플릿 작업에 적용한 모든 설정이 프로젝트 작업의 설정이 됩니다.
+
+
+## 목록에서 템플릿 작업 편집
+
+다음 영역의 목록에서 템플릿 작업을 편집할 수 있습니다.
+
+* 템플릿의 템플릿 작업 섹션
+* 템플릿 작업 보고서
+
+목록에서 템플릿 작업을 편집하는 것은 목록에서 프로젝트 작업을 편집하는 것과 비슷합니다.
+
+>[!TIP]
+>
+>템플릿 작업에 사용할 수 있는 계획 모드가 없습니다.
+
+
+자세한 내용은 [목록의 작업 편집](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)을 참조하세요.
 
 
 <!--

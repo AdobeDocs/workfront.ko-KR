@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 1%
+source-wordcount: '1803'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 Workfront Planning의 다음 영역에서 목록 보기에서 객체를 볼 수 있습니다.
 
-* 레코드 세부 정보 영역의 프로젝트에 대해 연결된 레코드 페이지
+* 레코드의 세부 정보 영역 <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->에 있는 프로젝트에 대해 연결된 레코드 페이지
 
   ![목록 보기의 연결된 레코드 페이지에 있는 프로젝트](assets/projects-on-connected-records-page-list-view.png)
 
@@ -189,11 +189,6 @@ Removed - more direct steps below:
       목록 보기에 기존 필드만 추가할 수 있습니다.
 첫 번째 열에 표시되는 목록 보기에서 기본 필드를 제거할 수 없습니다.
 
-      <!-- 
-        update indent here: 
-        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
-        -->
-
    1. **셀 서식 지정** 아이콘 ![셀 서식 지정 아이콘](assets/format-cells-icon.png)을 클릭합니다. **서식** 상자가 열립니다. <!--change the name of the box when they update it-->
 다음을 수행합니다.
 
@@ -232,7 +227,7 @@ Removed - more direct steps below:
 서식은 목록 보기에 즉시 적용됩니다.
 **셀 서식 지정** 아이콘 옆에 특수 서식이 적용되었음을 나타내는 파란색 점이 있습니다.
 
-   1. (선택 사항) 목록의 항목을 공통 필드로 그룹화하려면 **그룹화** 아이콘 ![그룹화 아이콘](assets/grouping-icon.png) <!--have they updated this to "Grouping"??-->을(를) 클릭합니다. 옵션 중 하나를 선택하거나 검색 창을 사용하여 필드를 찾습니다.
+   1. (선택 사항) 목록의 항목을 공통 필드로 그룹화하려면 **그룹화** 아이콘 ![그룹화 아이콘](assets/grouping-icon.png)을 클릭합니다. 옵션 중 하나를 선택하거나 검색 창을 사용하여 필드를 찾습니다.
 
       필드를 그룹화하려면 먼저 필드가 목록의 열이어야 합니다. 일부 필드 유형은 그룹화에 사용할 수 없습니다.
 
@@ -243,7 +238,7 @@ Removed - more direct steps below:
       * 보통
       * 높음
 
-   <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
+      <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. (선택 사항) 목록의 오른쪽 위 모서리에 있는 검색 상자에 키워드를 추가하여 항목을 검색합니다.
 
@@ -253,19 +248,21 @@ Removed - more direct steps below:
 
    * 기존 항목을 추가하려면 목록의 오른쪽 상단에 있는 **레코드 연결**&#x200B;을 클릭합니다.
    * 새 항목을 추가하려면 목록의 맨 아래에 있는 **새 행**&#x200B;을 클릭하세요.
-1. 목록에 있는 연결된 항목의 이름을 클릭하여 다른 브라우저 탭에서 엽니다.
+1. 목록에서 항목의 이름을 클릭하여 다른 브라우저 탭에서 엽니다.
 1. 목록에서 셀 내부를 두 번 클릭하여 필드의 정보를 편집한 다음 Enter 키를 눌러 변경 사항을 저장합니다.
 
    일부 필드는 읽기 전용입니다. 예를 들어 프로젝트의 완료율은 시스템에서 계산한 필드이며 수동으로 편집할 수 없습니다.
 
-1. 목록의 항목 이름 위로 마우스를 가져간 후 **추가** 메뉴 [추가 메뉴](assets/more-menu.png)를 클릭하고 **보기**&#x200B;를 클릭하여 다른 탭에서 프로젝트를 엽니다.
+1. 마우스로 목록의 항목 이름을 가리키고 **추가** 메뉴 [추가 메뉴](assets/more-menu.png)를 클릭한 다음 **보기**&#x200B;를 클릭하여 다른 탭에서 항목을 엽니다
 
    또는
 
-   항목을 하나 이상 선택하고 목록 하단의 작업 표시줄을 확인한 다음, 사용 가능한 경우 다음 중 하나를 클릭합니다. 목록 보기에 액세스하는 영역에 따라 다음 옵션 중 하나를 클릭합니다.
+   항목을 하나 이상 선택하고 목록 하단의 작업 표시줄을 확인한 다음, 사용 가능한 경우 다음 중 하나를 클릭합니다.
+
+   목록 보기에 액세스하는 영역에 따라 다음 옵션 중 하나를 클릭합니다.
 
    * 항목을 삭제하려면 **삭제**&#x200B;하십시오. 프로젝트를 삭제하면 레코드에서 연결이 끊기고 Workfront의 휴지통으로 이동합니다. Workfront 관리자는 삭제된 프로젝트를 삭제된 후 최대 30일까지 복구할 수 있습니다. 양식을 삭제해도 양식을 제출할 때 생성된 요청 또는 레코드는 삭제되지 않습니다.
-   * 레코드에서 프로젝트의 연결을 끊으려면 **연결을 끊습니다**. 프로젝트의 연결을 해제하면 현재 레코드에서 해당 프로젝트와 해당 조회 필드의 모든 값이 제거됩니다.
+   * 레코드에서 프로젝트의 연결을 끊으려면 연결된 프로젝트 페이지에서 **연결 끊기**&#x200B;를 사용하십시오. 프로젝트의 연결을 해제하면 현재 레코드에서 해당 프로젝트와 해당 조회 필드의 모든 값이 제거됩니다.
 
      연결된 레코드 페이지 목록 보기의 ![작업 표시줄](assets/actions-bar-connected-records-page-list-view.png)
 
