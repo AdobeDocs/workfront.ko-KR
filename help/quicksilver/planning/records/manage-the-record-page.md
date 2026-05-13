@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 0%
@@ -201,11 +201,15 @@ Old:
 
    레코드의 미리보기가 보기에서 열립니다.
 
+   <!--update screen shot for details views preview-->
+
    ![세부 정보 상자](assets/details-box.png)
 
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 열기](assets/open-details-in-a-new-tab-icon.png)을 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
    레코드 페이지가 열립니다. 기본적으로 세부 정보 탭이 열립니다.
+
+   <!--update screen shot for details views preview-->
 
    ![세부 정보 페이지](assets/details-page.png)
 
@@ -228,7 +232,7 @@ Old:
 
      또는
 
-     섹션을 한 위치 아래로 이동하려면 **아래로 이동**&#x200B;을 클릭합니다.
+     섹션을 한 위치 아래로 이동하려면 **아래로 이동**을 클릭합니다.
 섹션의 모든 필드가 섹션과 함께 이동합니다.
 
    * 섹션을 삭제하려면 **삭제**&#x200B;를 클릭하십시오. 섹션이 삭제되어 복구할 수 없습니다. 이 유형의 레코드에 액세스하는 모든 사용자가 더 이상 삭제된 섹션을 볼 수 없습니다.
@@ -280,6 +284,8 @@ Old:
 
    레코드의 미리보기가 보기에서 열립니다.
 
+   <!--update screen shot for details views preview-->
+
    ![세부 정보 상자](assets/details-box.png)
 
 1. (선택 사항 및 조건부) <!--If you are using the Production environment,--> 세부 정보 페이지에 표시할 필드에 따라 다음 중 하나를 수행합니다.
@@ -302,16 +308,21 @@ Old:
    -->
    <!--
    <div class="preview">
+
    In the Preview environment, continue with the following: 
+   
    1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
    1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
       1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide and drag field** icon ![Hide and drag field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field or place it in another spot on the page. 
+      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
+     
          >[!TIP]
          >
          >* Custom pages are visible by everyone who accesses the record. 
          >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+     
       1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+     
          >[!TIP]
          >
          >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
@@ -331,6 +342,8 @@ Old:
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![새 탭에서 세부 정보 상자 열기](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
    레코드 **세부 정보** 페이지가 새 탭에서 열립니다.
+
+   <!--update screen shot for details views preview-->
 
    ![세부 정보 페이지](assets/details-page.png)
 

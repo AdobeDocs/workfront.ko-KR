@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2954'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 레코드 만들기에 대한 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
-&lt;!— 여기에서 세부 사항 보기의 필드가 표 보기의 필드와 동일하다고 언급하십시오. 이 문서는 레코드 관리 보기에서 연결되어 이 정보를 참조합니다—>
+&lt;!— 여기에서 세부 정보 보기의 필드가 표 보기의 필드와 동일하다고 언급하십시오. 이 문서는 레코드 관리 보기에서 연결되어 있으며 이 정보를 참조합니다.—>
 
 ## 액세스 요구 사항
 
@@ -147,7 +147,7 @@ Old:
    * 시스템 필드 (작성자, 생성자, 마지막 수정자, 마지막 수정 날짜, 승인 날짜, 승인자 , 레코드 ID)
 * 표시되는 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보는 해당 레코드가 연결된 모든 작업 영역에서 연결된 레코드에 반영됩니다.
 * 레코드를 일괄적으로 편집할 수 없습니다. <!--this will probably change-->
-* URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다.
+* URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .
 * 각 레코드에 표지 이미지를 추가할 수 있습니다. 이 이미지는 각 레코드에 대해 고유하며, 동시에 모든 레코드에 적용되지 않습니다. 자세한 내용은 [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)를 참조하십시오.
 * 레코드의 세부 정보 페이지에서 필드의 순서를 편집할 수 있습니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
 * 타임라인 및 달력 보기에서 레코드의 크기를 조정하거나 위치를 변경하여 레코드의 시작 및 종료 날짜를 편집할 수 있습니다.
@@ -319,6 +319,8 @@ Old:
 
    테이블 보기에서 첫째 열의 테이블 이름 필드에 있는 **세부 정보 열기** 아이콘 ![세부 정보 열기 아이콘](assets/open-details-icon-in-table-name-field.png)을 클릭합니다. 레코드의 미리보기가 보기에서 열립니다.
 
+   <!--update screenshot for new details views preview-->
+
    ![세부 정보 상자](assets/details-box.png)
 
 1. (선택 사항) 레코드 제목 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **이름 바꾸기**&#x200B;를 클릭합니다. 레코드의 제목으로 표시되는 필드가 업데이트됩니다.
@@ -373,6 +375,8 @@ Old:
      ![레코드 행의 상황에 맞는 메뉴](assets/contextual-menu-for-record-row.png)
 
      레코드 페이지가 열립니다.
+
+     <!--update screenshot for new details views preview-->
 
      ![세부 정보 페이지](assets/details-page.png)
 
