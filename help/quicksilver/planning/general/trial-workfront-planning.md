@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
 workflow-type: tm+mt
-source-wordcount: '2368'
+source-wordcount: '2329'
 ht-degree: 0%
 
 ---
@@ -20,25 +20,26 @@ ht-degree: 0%
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
-<!--
-and this important, and remove the IMPORTANT below - it conflicts with this one: 
 >[!IMPORTANT]
 >
->The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
--->
+>Adobe Workfront Planning 체험판 기간은 2026년 5월 15일에 마감됩니다. 이 문서는 일정 기간 동안 활성 상태이지만 곧 중단됩니다. 나중에 책갈피를 업데이트하는 것이 좋습니다.
+
+이 문서의 정보에서는 Workfront Planning 체험판 기간 동안 사용할 수 있었던 기능에 대해 설명합니다.
 
 Adobe Workfront Planning은 마케팅 라이프사이클에 대한 중앙 집중식 가시성을 제공하여 팀 간의 공동 작업, 캠페인 실시간 추적 및 자동화된 워크플로우를 가능하게 합니다. 사용자 지정 작업 공간을 만들고 대화형 타임라인 및 캘린더로 작업을 시각화할 수 있습니다.
 
+<!--
 >[!IMPORTANT]
 >
->* Adobe Workfront은 Workfront Planning 고객이 아닌 모든 Adobe Workfront 고객에게 Adobe Workfront Planning 60일 무료 체험판을 제공하고 있습니다.
+>* Adobe Workfront is offering a 60-day free trial of Adobe Workfront Planning to all Adobe Workfront customers who are not also Workfront Planning customers. 
 >
->* 2026년 4월 1일에 가입기간이 종료되어 현재 휴업 중이다.
+>* The sign-up period ended on April 1, 2026 and it is now closed. 
 >
->* 평가판 계약에 동의하고 평가판에 등록한 경우 다음 날짜 사이에 사용할 수 있습니다. 2026년 3월 2일~5월 1일. 액세스는 2026년 5월 15일까지 활성 상태로 유지됩니다.
+>* If you accepted the trial agreement and are enrolled in the trial, it is available between the following dates: March 2 - May 1, 2026. Access will remain active until May 15, 2026.
 >
->* 체험판은 론치 후 60일 동안 사용할 수 있으며, 가입한 후 60일 동안은 사용할 수 없습니다.
+>* Note that the trial is available for 60 days from its launch, and not for 60 days from when you joined it.
 >
+-->
 
 이 평가판을 통해 Planning이 일상적인 작업을 전략적 목표에 맞게 조정하고 실행을 간소화하며 조직의 측정 가능한 결과를 도출하는 방법을 직접 확인할 수 있습니다.
 

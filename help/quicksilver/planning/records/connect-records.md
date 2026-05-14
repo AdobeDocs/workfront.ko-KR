@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
 workflow-type: tm+mt
-source-wordcount: '3445'
+source-wordcount: '3546'
 ht-degree: 1%
 
 ---
@@ -473,7 +473,7 @@ Experience Manager 개체와 레코드를 연결하려면 다음을 수행하십
      >
      >* Workfront Planning 연결 레코드에 대한 연결된 레코드 필드는 Experience Manager Assets 애플리케이션에서 연결된 Experience Manager 자산에 대해 생성되지 않습니다.
 
-1. (선택 사항 및 조건부) 에셋의 경우 Experience Manager에 연결한 레코드 유형으로 이동하고 연결된 레코드 필드에서 에셋의 이름을 클릭합니다. 에셋의 Experience Manager 세부 정보가 팝업 창에 표시됩니다. <!--not sure if this is also possible for fragments??-->
+1. (선택 사항 및 조건부) Experience Manager에 연결한 레코드 유형으로 이동하고 연결된 레코드 필드에서 에셋의 이름을 클릭합니다. 에셋의 Experience Manager 세부 정보가 팝업 창에 표시됩니다. <!--not sure if this is also possible for fragments??-->
 
    ![AEM 세부 정보 및 썸네일이 포함된 자산 팝업 창](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -489,11 +489,15 @@ Experience Manager 개체와 레코드를 연결하려면 다음을 수행하십
    * 제작일
    * 수정일
 
-1. (선택 사항 및 조건부) 에셋의 경우 Experience Manager에서 Experience Manager 에셋 레코드 페이지를 열려면 연결하려는 레코드의 레코드 유형 페이지로 이동하고 연결된 레코드 필드에서 에셋 이름을 클릭하여 팝업 창을 연 다음 **AEM에서 열기** 아이콘 ![AEM에서 에셋 열기 아이콘](assets/open-asset-icon.png)을 클릭하여 에셋을 엽니다. <!--not sure if this is also possible for fragments??-->
+     >[!TIP]
+     >
+     >Experience Manager 객체 세부 정보 창은 Planning에서 연결된 객체가 표시되는 모든 위치에서 표시됩니다. 예를 들어 테이블 창이나 레코드의 세부 정보 영역에서 AEM 객체에 대한 세부 정보 창을 열 수 있습니다.
+
+1. (선택 사항 및 조건부) Experience Manager에서 Experience Manager 에셋 또는 조각 레코드 페이지를 열려면 연결하려는 레코드의 레코드 유형 페이지로 이동하고 연결된 레코드 필드에서 에셋 이름을 클릭하여 팝업 창을 연 다음 **AEM에서 열기** 아이콘 ![AEM에서 에셋 열기 아이콘](assets/open-asset-icon.png)을 클릭하여 에셋을 엽니다. <!--not sure if this is also possible for fragments??-->
 
    이렇게 하면 Adobe Experience Manager Assets에서 Experience Manager 에셋이 열립니다.
 
-1. (선택 사항 및 조건부) 에셋의 경우 레코드 종류의 테이블 보기에서 연결된 Experience Manager 에셋의 열 헤더 위로 마우스를 가져간 다음 드롭다운 메뉴를 클릭한 다음 **조회 필드 편집**&#x200B;을 클릭합니다. <!--not sure if this is also possible for fragments??-->
+1. (선택 사항 및 조건부) 레코드 종류의 테이블 보기에서 연결된 Experience Manager 에셋 또는 조각의 열 머리글을 마우스로 가리킨 다음 드롭다운 메뉴를 클릭한 다음 **조회 필드 편집**&#x200B;을 클릭합니다. <!--not sure if this is also possible for fragments??-->
 
 1. **선택하지 않은 필드** 영역 <!--not sure if this is also possible for fragments??-->에서 Experience Manager Assets 개체 필드 추가
 
