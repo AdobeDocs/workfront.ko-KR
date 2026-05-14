@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
+source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -55,35 +55,32 @@ We recommend to use the Sample workspaces as examples only, and rather use the m
 
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
-## Custom views for a record's Details page 
-
->[!NOTE]
->
->Preview: May 14, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-To allow for better flexibility of visualizing your information in a record's details page, we have introduced the ability to create custom views for this page.  
-
-In addition to adding two already-built details page views that contain either all the records fields or just the fields visible in the table view, you can now create custom views for a record's details pages. The views you create are visible to everyone that can access the record.  
-
-This update removes the **Show all fields** setting and replaces it with custom details views.  
-
-For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
-
-## Add groupings to a Projects connected record page
-
->[!NOTE]
->
->Preview: May 14, 2026     
->Production fast: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-You can now group your information in the projects connected records page of a record in Workfront Planning. This capability did not exist in this area prior to this enhancement.  
-
-For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
-
 -->
+
+## 레코드의 세부 정보 페이지에 대한 사용자 지정 보기
+
+>[!NOTE]
+>
+>미리 보기: 2026년 5월 14일>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
+
+레코드의 세부 정보 페이지에서 정보를 시각화할 수 있는 유연성을 높이기 위해 이 페이지에 대한 사용자 지정 보기를 만드는 기능이 도입되었습니다.
+
+이제 모든 레코드 필드 또는 테이블 보기에 표시되는 필드만 포함하는 이미 빌드된 두 개의 세부 정보 페이지 보기를 추가할 수 있을 뿐만 아니라 레코드의 세부 정보 페이지에 대한 사용자 지정 보기를 만들 수도 있습니다. 만든 보기는 레코드에 액세스할 수 있는 모든 사용자가 볼 수 있습니다.
+
+이 업데이트는 **모든 필드 표시** 설정을 제거하고 사용자 지정 세부 정보 보기로 대체합니다.
+
+자세한 내용은 [레코드 페이지 관리](/help/quicksilver/planning/records/manage-the-record-page.md)를 참조하십시오.
+
+## 프로젝트에 연결된 레코드 페이지에 그룹화 추가
+
+>[!NOTE]
+>
+>미리 보기: 2026년 5월 14일\
+>프로덕션 fast: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
+
+이제 Workfront Planning에 있는 레코드의 연결된 레코드 프로젝트 페이지에서 정보를 그룹화할 수 있습니다. 이 기능이 향상되기 전에는 이 영역에 존재하지 않았습니다.
+
+자세한 내용은 [목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)를 참조하십시오.
 
 
 <!--
