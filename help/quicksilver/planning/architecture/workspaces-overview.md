@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 0%
 
 작업 영역은 조직 단위에서 사용하는 레코드 유형의 컬렉션이며 해당 단위의 작업 주기 및 프로세스를 나타냅니다. Adobe Workfront Planning에서 작업 공간을 완전히 사용자 정의할 수 있습니다.
 
+<!--update screenshot with preview-->
 
 ![작업 영역 랜딩 페이지 관리자 계정](assets/workspaces-landing-page-admin-account.png)
 
@@ -51,7 +52,18 @@ ht-degree: 0%
       * **내가 있는 작업 영역**: 사용자가 만든 작업 영역 또는 사용자와 공유된 작업 영역을 표시합니다.
       * **다른 작업 영역**: 시스템의 다른 작업 영역을 모두 표시합니다.
 
+     <!--
+      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
+      -->
+
+     <!--      
+        >[!NOTE]
+        >
+        ><span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
+        -->
+
    * 다른 모든 사용자의 경우, 사용자가 생성한 작업공간과 다른 사용자가 사용자와 공유한 작업공간이 작업공간 영역에 표시됩니다.
+  <!--* <span class="preview">**Sample workspaces**: Displays for Standard-license users when a Workfront administrator shared the workspaces on the tab with them. The tab displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span> -->
 
 * 작업 영역에 포함된 레코드 유형은 조직 단위의 작업 수명 주기와 개념을 반영해야 합니다.
 
