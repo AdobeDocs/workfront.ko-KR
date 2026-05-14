@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1230'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 2%
 ## [!DNL Workfront]의 영역에 대한 왼쪽 패널 사용자 지정:
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
-1. ![사용자에게 표시되는 항목 사용자 지정](assets/dropdown-arrow.png) 아래의 아래쪽 화살표 **[!UICONTROL 아래쪽 화살표]**&#x200B;를 클릭한 다음 왼쪽 패널을 사용자 지정할 개체 유형 또는 [!DNL Workfront] 영역의 이름을 클릭합니다.
+1. **[!UICONTROL 사용자에게 표시되는 항목 사용자 지정]** 아래의 아래쪽 화살표 ![아래쪽 화살표](assets/dropdown-arrow.png)를 클릭한 다음 왼쪽 패널을 사용자 지정할 개체 유형 또는 [!DNL Workfront] 영역의 이름을 클릭합니다.
 
    왼쪽 패널을 사용자 지정할 수 있는 개체 형식과 [!DNL Workfront] 영역이 다음 표에 나열되어 있습니다.
 
@@ -88,7 +88,7 @@ ht-degree: 2%
      <tr> 
       <td>[!UICONTROL 프로젝트]</td> 
       <td>프로젝트 이름</td> 
-      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 기록], [!UICONTROL 비용], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!UICONTROL 사용자], [!UICONTROL 사용자] 사용률&rbrack;, [!UICONTROL 대기열 세부 정보], [!UICONTROL 라우팅 규칙], [!UICONTROL 대기열 주제], [!UICONTROL 주제 그룹], [!UICONTROL 지표], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
+      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 리소스], [!UICONTROL 청구 기록], [!UICONTROL 경비], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [ !NICONTROL uicontrol People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL 사용자 정의 응용 프로그램]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 작업]</td> 
