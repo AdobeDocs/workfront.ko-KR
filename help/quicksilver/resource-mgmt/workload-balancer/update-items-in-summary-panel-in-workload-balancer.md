@@ -6,9 +6,9 @@ description: 업무 균형자에서 요약 패널을 열어 할당된 작업 영
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 6%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >조직에서 Adobe 엔터프라이즈 문서 저장소를 사용하는 경우 요약 패널에서 Adobe 스토리지 작업 항목에 문서를 추가할 수 없습니다.
+   >조직에서 문서에 Adobe 클라우드 스토리지를 사용하는 경우 요약 패널에서 Adobe 클라우드 스토리지 작업 항목에 문서를 추가할 수 없습니다.
    >
    >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 

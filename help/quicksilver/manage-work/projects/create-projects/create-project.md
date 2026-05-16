@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1639'
 ht-degree: 2%
 
 ---
@@ -170,15 +170,15 @@ Old:
 * 프로젝트 및 그 하위 오브젝트(작업 및 문제)에 대해 문서가 저장되는 위치는 Workfront 관리자가 설정의 시스템 환경 설정 영역에서 스토리지 환경 설정에 대한 기본값으로 선택하는 항목에 따라 다릅니다. Workfront 인스턴스에서 문서를 저장하는 위치에 따라 다음 유형의 프로젝트를 만들 수 있습니다.
 
    * 레거시 Workfront 스토리지 프로젝트
-   * Adobe 엔터프라이즈 스토리지 프로젝트
+   * Adobe 클라우드 스토리지 프로젝트
 
-  자세한 내용은 [조직에 Adobe 엔터프라이즈 스토리지 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하십시오.
+  자세한 내용은 [조직에 Adobe 클라우드 저장소 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하세요.
 
   >[!TIP]
   >
   > Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
 
-* 엔터프라이즈 스토리지 프로젝트를 만들 때 프로젝트의 **문서** 섹션에 프로젝트 이름과 동일한 문서 폴더가 만들어집니다. 프로젝트에 작업을 추가하면 작업 이름이 포함된 폴더가 각 작업의 **문서** 섹션에 추가됩니다.
+* Adobe 클라우드 저장소 프로젝트를 만들 때 프로젝트의 **문서** 섹션에 프로젝트 이름과 동일한 문서 폴더가 만들어집니다. 프로젝트에 작업을 추가하면 작업 이름이 포함된 폴더가 각 작업의 **문서** 섹션에 추가됩니다.
 
 자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
@@ -199,29 +199,29 @@ Old:
 
 1. (조건부) 조직에서 사용 중인 문서 저장소에 따라 다음 중 하나를 클릭합니다.
 
-   * **새 프로젝트**. Workfront 관리자가 **Adobe Enterprise** 또는 **기존 Workfront**&#x200B;를 선택하고 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정을 선택하거나 선택하지 않은 경우.
-   * **새 프로젝트(기존 저장소)**, Workfront 관리자가 **Adobe Enterprise** 또는 **기존 Workfront**&#x200B;를 선택하고 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정도 선택한 경우.
+   * **새 프로젝트**, Workfront 관리자가 **Adobe 클라우드 저장소** 또는 **레거시 Workfront**&#x200B;를 선택하고 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정을 선택하거나 선택하지 않은 경우.
+   * **새 프로젝트(기존 저장소)**, Workfront 관리자가 **Adobe 클라우드 저장소** 또는 **기존 Workfront**&#x200B;를 선택하고 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정도 선택한 경우.
 
      이 옵션은 [설정] 영역에서 **사용자가 저장소 공급자를 선택할 수 있도록 허용** 설정을 선택한 경우에만 표시됩니다.
 
-     자세한 내용은 [조직에 Adobe 엔터프라이즈 스토리지 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하십시오.
+     자세한 내용은 [조직에 Adobe 클라우드 저장소 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하세요.
 
      >[!NOTE]
      >
-     >* Workfront 스토리지 포트폴리오나 프로그램에서 엔터프라이즈 스토리지 프로젝트를 만들면 해당 포트폴리오나 프로그램도 엔터프라이즈 스토리지 객체로 변환됩니다. 동일한 포트폴리오 또는 프로그램에 속한 다른 모든 Workfront 스토리지 프로젝트는 변경되지 않습니다.
+     >* 기존 Adobe 스토리지 포트폴리오 또는 프로그램에서 Workfront 클라우드 스토리지 프로젝트를 만들면 포트폴리오 또는 프로그램도 Adobe 클라우드 스토리지 개체로 변환됩니다. 동일한 포트폴리오 또는 프로그램에 속한 다른 모든 레거시 Workfront 스토리지 프로젝트는 변경되지 않습니다.
      >* Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
 
      프로젝트가 생성되며 기본 이름은 Workfront에서 문서에 사용하는 스토리지에 따라 다음과 같은 패턴을 따릅니다.
 
-      * Workfront 저장소 프로젝트의 `Untitled Project`.
+      * 기존 Workfront 저장소 프로젝트의 `Untitled Project`.
 
-        Workfront 스토리지 프로젝트는 이름 옆에 **기존 Workfront 스토리지** 아이콘 ![기존 스토리지 프로젝트 아이콘](assets/legacy-storage-project-icon.png)을 표시합니다.
+        기존 Workfront 저장소 프로젝트는 이름 옆에 **기존 Workfront 저장소** 아이콘 ![기존 저장소 프로젝트 아이콘](assets/legacy-storage-project-icon.png)을 표시합니다.
 
-      * Adobe 스토리지 프로젝트용 `Untitled Project - < Month day, year hour.minute.second >`
+      * Adobe 클라우드 저장소 프로젝트용 `Untitled Project - < Month day, year hour.minute.second >`
 
         >[!IMPORTANT]
         >
-        >Adobe 엔터프라이즈 스토리지를 사용하는 프로젝트의 이름은 고유해야 합니다.
+        >Adobe 클라우드 스토리지를 사용하는 프로젝트의 이름은 고유해야 합니다.
 
 
 1. 프로젝트 헤더에서 프로젝트의 이름을 업데이트합니다. Enter 키를 눌러 이름을 저장합니다.

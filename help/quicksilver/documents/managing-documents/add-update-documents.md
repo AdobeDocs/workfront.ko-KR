@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '524'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>기존 Workfront 스토리지를 사용하여 문서를 관리하는 모든 Workfront 패키지</p>
-<p>Adobe 엔터프라이즈 스토리지를 사용하여 문서를 관리하는 모든 워크플로 패키지</p> </td> 
+<p>Adobe 클라우드 스토리지를 사용하여 문서를 관리하는 모든 워크플로우 패키지</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -59,7 +59,7 @@ ht-degree: 3%
 
 ## 이전 문서 영역에 문서에 대한 업데이트 추가
 
-조직이 기존 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. 기존 Workfront 스토리지에 대한 자세한 내용은 [기존 Workfront 스토리지와 Adobe 엔터프라이즈 스토리지의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md)을 참조하십시오.
+조직이 기존 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. 기존 Workfront 저장소에 대한 자세한 내용은 [기존 Workfront 저장소와 Adobe 클라우드 저장소 간의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md)을 참조하십시오.
 
 ### 문서에 대한 업데이트 추가 또는 회신
 
@@ -67,7 +67,7 @@ ht-degree: 3%
 1. 필요한 문서를 찾아 다음 중 하나를 수행합니다.
 
    * 목록의 문서를 클릭하고 오른쪽 상단의 **요약 열기** 아이콘 ![요약 열기 아이콘](assets/qs-summary-in-new-toolbar-small.png)을 클릭한 다음 새 댓글을 추가하거나 **회신**&#x200B;을 클릭하여 기존 댓글에 회신을 추가합니다. 요약에 대한 자세한 내용은 [문서에 대한 요약 개요](../../documents/managing-documents/summary-for-documents.md)를 참조하십시오.
-   * 문서 위로 마우스를 가져간 후 왼쪽 패널에서 **문서 세부 정보**&#x200B;를 클릭한 다음 **업데이트**&#x200B;를 클릭합니다.
+   * 문서 위로 마우스를 가져간 후 왼쪽 패널에서 **문서 세부 정보**&#x200B;를 클릭한 다음 **업데이트**를 클릭합니다.
 개체에 업데이트를 추가하는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
    업데이트 및 답글이 문서와 상위 오브젝트에 추가됩니다. 자세한 내용은 [섹션 업데이트 개요](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하세요.
@@ -86,9 +86,9 @@ ht-degree: 3%
 
 ## 새 문서 영역에 문서에 대한 업데이트 추가
 
-조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
 1. 문서가 포함된 개체로 이동한 다음 왼쪽 패널에서 **문서**&#x200B;를 선택합니다.
 1. 필요한 문서를 찾은 다음 주석 아이콘 ![주석 아이콘](assets/new-doc-comment-icon.png)을 클릭하여 [주석] 패널을 엽니다.
-1. 텍스트 상자에 댓글을 입력한 다음 **제출**&#x200B;을 클릭합니다.
+1. 텍스트 상자에 댓글을 입력한 다음 **제출**을 클릭합니다.
    ![새 문서 주석 패널](assets/comments-new-doc.png)

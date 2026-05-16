@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '515'
 ht-degree: 4%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 4%
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>기존 Workfront 스토리지를 사용하여 문서를 관리하는 모든 Workfront 패키지</p>
-<p>Adobe 엔터프라이즈 스토리지를 사용하여 문서를 관리하는 모든 워크플로 패키지</p> </td> 
+<p>Adobe 클라우드 스토리지를 사용하여 문서를 관리하는 모든 워크플로우 패키지</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -59,7 +59,7 @@ ht-degree: 4%
 
 ## 이전 문서 영역에 사용자 정의 양식 추가
 
-조직이 기존 Workfront 스토리지를 사용하고 있는 경우 Workfront의 문서에 액세스하면 기존 문서 영역이 표시됩니다. Workfront 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지와 레거시 Workfront 스토리지의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)을 참조하십시오.
+조직이 기존 Workfront 스토리지를 사용하고 있는 경우 Workfront의 문서에 액세스하면 기존 문서 영역이 표시됩니다. Workfront 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소와 레거시 Workfront 저장소 간의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)을 참조하십시오.
 
 문서에 사용자 정의 양식을 추가하려면 다음과 같이 하십시오.
 
@@ -86,13 +86,13 @@ ht-degree: 4%
 
 ## 새 문서 영역에 사용자 정의 양식 추가
 
-조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
 문서에 사용자 정의 양식을 추가하려면 다음과 같이 하십시오.
 
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 선택합니다.
-1. 오른쪽의 **세부 정보** 섹션에서 **편집**&#x200B;을 클릭합니다.
+1. 오른쪽의 **세부 정보** 섹션에서 **편집**을 클릭합니다.
    ![세부 정보 섹션의 편집 단추](assets/edit-custom-form.png)
 1. **사용자 지정 Forms** 필드에서 입력을 시작하고 사용자 지정 양식을 선택합니다.
 1. **저장**&#x200B;을 클릭합니다. 사용자 정의 양식이 세부 정보 섹션에 표시됩니다.
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 선택합니다.
-1. 오른쪽의 **세부 정보** 섹션에서 **편집**&#x200B;을 클릭합니다.
+1. 오른쪽의 **세부 정보** 섹션에서 **편집**을 클릭합니다.
    ![세부 정보 섹션의 편집 단추](assets/edit-custom-form.png)
 1. **사용자 지정 Forms** 섹션에서 편집할 양식을 찾습니다.
 1. 필요한 사항을 변경한 다음 **저장**&#x200B;을 클릭합니다.

@@ -7,9 +7,9 @@ description: Workfront에 있는 동안 Experience Manager Assets 또는 Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials와
 >[!NOTE]
 >
 >이 기능은 새 문서 영역에서 사용할 수 없습니다.<br>
->조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 여기에서 Experience Manager Assets 또는 Assets Essentials의 에셋을 추가할 수 있지만 연결된 폴더를 만들 수는 없습니다.
+>조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 여기에서 Experience Manager Assets 또는 Assets Essentials의 에셋을 추가할 수 있지만 연결된 폴더를 만들 수는 없습니다.
 
 ## 액세스 요구 사항
 
@@ -95,5 +95,5 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials와
    >
    >Workfront 관리자는 이 통합에 사용할 이름을 선택할 수 있으므로 Experience Manager Assets 또는 Assets Essentials에 대해 특별히 언급하지 않을 수 있습니다.
 
-1. **연결된 폴더 만들기**&#x200B;를 선택합니다. 시스템은 통합 설정 시 지정된 위치를 기반으로 Experience Manager에 폴더를 자동으로 생성합니다.
+1. **연결된 폴더 만들기**를 선택합니다. 시스템은 통합 설정 시 지정된 위치를 기반으로 Experience Manager에 폴더를 자동으로 생성합니다.
    ![연결된 폴더 만들기](assets/linked-folder.png)

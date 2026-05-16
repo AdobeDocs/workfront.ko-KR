@@ -6,9 +6,9 @@ description: Experience Manager Assets Essentials의 에셋 또는 폴더를 문
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '629'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ Experience Manager Assets Essentials의 에셋 또는 폴더를 문서를 지원
 
 Content Advisor를 사용하여 Experience Manager Assets에서 에셋 및 폴더를 연결하려면 [Experience Manager Assets에서 제공하는 Content Advisor와 에셋 및 폴더 연결](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)을 참조하십시오.
 
-엔터프라이즈 스토리지에 있는 경우 [Frame.io 통합에 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)을 참조하십시오.
+Adobe 클라우드 저장소에 있는 경우 [Frame.io 통합에 Adobe Experience Manager 사용](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)을 참조하세요.
 
 
 ## 액세스 요구 사항

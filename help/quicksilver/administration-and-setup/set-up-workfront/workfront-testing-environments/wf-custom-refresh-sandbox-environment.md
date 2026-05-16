@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1683'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >  또한 Preview 샌드박스에 필요하지 않은 Custom Refresh 샌드박스를 얻는 추가 비용이 있습니다.
 >
->  미리 보기 샌드박스에 대한 자세한 내용은 [미리 보기 샌드박스 환경 [!DNL Adobe Workfront] 을 참조하십시오.](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
+>  미리 보기 샌드박스에 대한 자세한 내용은 [미리 보기 샌드박스 환경](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)을 참조하십시오. [!DNL Adobe Workfront] 
 
 ## 액세스 요구 사항
 
@@ -82,6 +82,12 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 </note>
 -->
 
+## 사용자 정의 새로 고침 샌드박스의 Adobe 클라우드 스토리지
+
+Adobe 클라우드 스토리지는 사용자 정의 새로 고침 샌드박스에서 사용할 수 있으므로 프로덕션에서 활성화하기 전에 테스트할 수 있습니다. 그러나 Frame.io 뷰어는 샌드박스 환경에서 사용할 수 없으므로 프로덕션에서 전체 통합 검토 및 승인 환경을 확인해야 합니다.
+
+Adobe 클라우드 스토리지를 지원하는 Workfront 버전으로 업그레이드한 후 샌드박스의 Adobe 클라우드 스토리지 기능에 액세스하려면 사용자 지정 새로 고침 샌드박스를 새로 고쳐야 합니다. 새로 고침이 완료되면 Adobe 클라우드 스토리지 테스트를 시작할 수 있습니다. 자세한 내용은 [조직에 Adobe 클라우드 저장소 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하세요.
+
 ## 프로덕션 환경에서 사용자 정의 새로 고침 샌드박스에 액세스 {#access-the-custom-refresh-sandbox-from-your-production-environment}
 
 [!DNL Workfront] 관리자는 프로덕션 환경에서 사용자 지정 새로 고침 샌드박스에 액세스할 수 있습니다.
@@ -92,7 +98,7 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 사용자 지정 새로 고침 샌드박스에 액세스하려면:
 
-1. **[!UICONTROL 의 오른쪽 상단에 있는]**&#x200B;주 메뉴![&#x200B; 아이콘 &#x200B;](assets/main-menu-icon.png)주 메뉴 아이콘[!DNL Adobe Workfront]을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
+1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴 아이콘](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![톱니바퀴 설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
 
 1. **[!UICONTROL 시스템]** >**[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
 

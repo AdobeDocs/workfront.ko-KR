@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -166,12 +166,12 @@ Old:
 
    >[!NOTE]
    >
-   >조직에서 기존 Workfront 및 Adobe 엔터프라이즈 문서 스토리지를 모두 사용하는 경우 다음과 같은 시나리오가 있습니다.
+   >조직에서 문서에 레거시 Workfront 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 다음과 같은 시나리오가 존재합니다.
    >
    >
-   >* Adobe 스토리지 프로젝트를 Workfront 스토리지 포트폴리오에 추가하고 포트폴리오에 첨부된 문서가 없으면 포트폴리오가 Adobe 스토리지 포트폴리오로 변환됩니다.
-   >* Adobe 스토리지 프로젝트를 Workfront 스토리지 포트폴리오에 추가하고 포트폴리오에 문서가 첨부되어 있으면 포트폴리오 문서 스토리지는 Workfront 스토리지에 유지됩니다. 그러나 기존 Workfront 저장소 아이콘 ![기존 Workfront 저장소 아이콘](assets/legacy-storage-project-icon.png)이(가) 포트폴리오에서 제거되었습니다.
-   >* Adobe 스토리지 포트폴리오에 Workfront 스토리지 프로젝트를 추가할 수 없습니다.
+   >* 기존 Adobe 스토리지 포트폴리오에 Workfront 클라우드 스토리지 프로젝트를 추가하고 포트폴리오에 첨부된 문서가 없으면 포트폴리오가 Adobe 클라우드 스토리지 포트폴리오로 변환됩니다.
+   >* 기존 Adobe 스토리지 포트폴리오에 Workfront 클라우드 스토리지 프로젝트를 추가하고 포트폴리오에 문서가 첨부되어 있으면 포트폴리오 문서 스토리지는 Workfront 스토리지에 유지됩니다. 그러나 기존 Workfront 저장소 아이콘 ![기존 Workfront 저장소 아이콘](assets/legacy-storage-project-icon.png)이(가) 포트폴리오에서 제거되었습니다.
+   >* 기존 Workfront 스토리지 프로젝트를 Adobe 클라우드 스토리지 포트폴리오에 추가할 수 없습니다.
    >
    >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
    >
