@@ -8,7 +8,7 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 3%
@@ -194,7 +194,7 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>제목</strong> </td> 
-      <td>원래 요청의 이름을 표시합니다. 필요한 경우 업데이트합니다. 그렇지 않으면 Workfront에서 복사된 요청의 이름을 <b>복사본 &lt;원본 요청의 이름&gt;</b>으로 지정합니다. 필수 필드입니다.</td> 
+      <td>원래 요청의 이름을 표시합니다. 필요한 경우 업데이트합니다. 그렇지 않으면 Workfront에서 복사된 요청의 이름을 <b>복사본 &lt;원본 요청 이름&gt;</b>으로 지정합니다. 필수 필드입니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>설명</strong> </td> 
@@ -264,7 +264,7 @@ Workfront의 요청 영역이나 홈의 내 요청 위젯에서 요청을 복사
    요청 대기열을 설정한 방법에 따라 문서 섹션이 사용자 정의 필드의 앞 또는 뒤에 표시될 수 있습니다.</p> <p> </p>
    <p>Workfront 관리자가 환경에 대해 선택한 문서 스토리지 유형에 따라 요청에 첨부된 문서가 다음에 추가됩니다.</p>
       <ul><li>Workfront 저장소를 사용하는 요청의 경우 문서가 새로 생성된 요청의 문서 섹션에 추가됩니다.</li>
-      <li>Adobe 엔터프라이즈 스토리지를 사용하는 요청의 경우, 문서가 요청과 동일한 이름으로 새로 생성된 폴더에 추가되고 제출 프로세스 중에 요청에 자동으로 추가됩니다. </li></ul>
+      <li>Adobe 클라우드 스토리지를 사용하는 요청의 경우 문서가 요청과 동일한 이름으로 새로 생성된 폴더에 추가되고 제출 프로세스 중에 요청에 자동으로 추가됩니다. </li></ul>
       <p>Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.</p>
       <p>문제 및 요청 스토리지 유형이 프로젝트에서 상속되었습니다. </p>
       <p>자세한 내용은 <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">프로젝트 및 관련 개체에 대한 문서 관리 개요</a>를 참조하십시오.</p>

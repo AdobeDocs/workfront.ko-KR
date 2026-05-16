@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '929'
 ht-degree: 3%
 
 ---
@@ -112,7 +112,7 @@ Old:
 * **문제가 요청 대기열과 연결되어 있는 경우:** 문제를 다른 개체로 이동했을 때 문제가 요청 대기열과 연결되어 있으면 이동된 문제는 첫 번째 문제가 발생한 원래 대기열과 더 이상 연결되지 않습니다.
 * **문서가 문제에 첨부되어 있을 때:** 문제를 다른 개체로 옮기면 문제에 문서가 첨부되어 있을 때 문서, 해당 버전 및 증명도 새 문제로 이동합니다. 문서와 연결된 모든 승인이 이동되지 않습니다.
 * **문제가 문서 또는 폴더에 연결되어 있는 경우:** 문서 또는 폴더가 Google Drive와 같은 서드파티 서비스에 연결되어 있는 문제를 이동하면 문서에 대한 링크가 문제와 함께 이동합니다.
-* **저장소 형식이 다른 프로젝트 간 문제를 이동할 때**: Workfront 저장소 프로젝트에서 Adobe 저장소 프로젝트로 문제를 복사할 수 없습니다. 그 반대도 마찬가지다. Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
+* **저장소 형식이 다른 프로젝트 간 문제를 이동할 때**: 기존 Workfront 저장소 프로젝트에서 Adobe 클라우드 저장소 프로젝트로 문제를 복사할 수 없습니다. 그 반대도 마찬가지다. Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
 
   자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 

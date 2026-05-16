@@ -12,10 +12,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 18%
+source-wordcount: '120'
+ht-degree: 20%
 
 ---
 
@@ -37,5 +37,5 @@ ht-degree: 18%
 * [사용자 정의 영역 활성화](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
 * [조직의 빠른 릴리스 활성화 또는 비활성화](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
 * [사용자 정의 현지화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
-* [조직을 위한 Adobe 엔터프라이즈 스토리지 활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+* [조직에 Adobe 클라우드 스토리지 활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
 * [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)

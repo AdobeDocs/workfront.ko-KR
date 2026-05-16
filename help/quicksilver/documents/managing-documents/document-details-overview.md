@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 레거시 문서 영역
 
-조직이 기존 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. 기존 Workfront 스토리지에 대한 자세한 내용은 [기존 Workfront 스토리지와 Adobe 엔터프라이즈 스토리지의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md)을 참조하십시오.
+조직이 기존 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. 기존 Workfront 저장소에 대한 자세한 내용은 [기존 Workfront 저장소와 Adobe 클라우드 저장소 간의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md)을 참조하십시오.
 
 
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 ## 새 문서 영역
 
-조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
 문서 세부 정보 페이지에서 문서에 대해 다음 작업을 수행할 수 있습니다.
 

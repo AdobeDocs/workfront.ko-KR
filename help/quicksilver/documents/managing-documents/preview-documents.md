@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '380'
 ht-degree: 5%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 5%
   <tr> 
    <td role="rowheader">Adobe Workfront 패키지</td> 
    <td> <p>기존 Workfront 스토리지를 사용하여 문서를 관리하는 모든 Workfront 패키지</p>
-<p>Adobe 엔터프라이즈 스토리지를 사용하여 문서를 관리하는 모든 워크플로 패키지</p> </td> 
+<p>Adobe 클라우드 스토리지를 사용하여 문서를 관리하는 모든 워크플로우 패키지</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -55,7 +55,7 @@ ht-degree: 5%
 
 ## 이전 문서 영역에서 문서 미리 보기
 
-조직이 기존 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. 기존 Workfront 스토리지에 대한 자세한 내용은 [기존 Workfront 스토리지와 Adobe 엔터프라이즈 스토리지의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md)을 참조하십시오.
+조직이 기존 Workfront 스토리지에 있는 경우 Workfront의 문서에 액세스할 때 기존 문서 영역이 표시됩니다. 기존 Workfront 저장소에 대한 자세한 내용은 [기존 Workfront 저장소와 Adobe 클라우드 저장소 간의 차이점](/help/quicksilver/review-and-approve-work/esm-overview.md)을 참조하십시오.
 
 문서를 미리 보려면 다음과 같이 하십시오.
 
@@ -77,7 +77,7 @@ ht-degree: 5%
 
 ## 새 문서 영역에서 문서 미리보기
 
-조직에서 엔터프라이즈 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. 엔터프라이즈 스토리지에 대한 자세한 내용은 [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
+조직에서 Adobe 클라우드 스토리지를 사용하는 경우 Workfront의 문서에 액세스할 때 새 문서 영역이 표시됩니다. Adobe 클라우드 저장소에 대한 자세한 내용은 [Adobe 클라우드 저장소 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)를 참조하십시오.
 
 일부 파일 형식은 미리 볼 수 없습니다.
 

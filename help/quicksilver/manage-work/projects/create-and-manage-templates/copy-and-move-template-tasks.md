@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2239'
+source-wordcount: '2241'
 ht-degree: 4%
 
 ---
@@ -108,7 +108,7 @@ Old:
 
    * 이정표.
 
-* 템플릿 작업을 Workfront-storage 템플릿에서 Adobe-storage 템플릿으로 복사하거나 이동할 수 없습니다. 그 반대도 마찬가지다. Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
+* 템플릿 작업을 기존 Workfront 스토리지 템플릿에서 Adobe 클라우드 스토리지 템플릿으로 복사하거나 이동할 수 없습니다. 그 반대도 마찬가지다. Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
 
   자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 

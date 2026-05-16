@@ -11,7 +11,7 @@ hide: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
@@ -70,7 +70,7 @@ GenStudio for Performance Marketing과 Frame.io를 통합하여 다음과 같은
 
 * Workfront 및 GenStudio for Performance Marketing을 동일한 IMS(Identity Management system) 조직에 배포해야 합니다.
 
-* Workfront 인스턴스에는 Adobe 엔터프라이즈 스토리지가 활성화되어 있어야 합니다. 자세한 내용은 [Adobe 엔터프라이즈 저장소 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하세요.
+* Workfront 인스턴스에는 Adobe 클라우드 스토리지가 활성화되어 있어야 합니다. 자세한 내용은 [Adobe 클라우드 저장소 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하세요.
 
 
 ## Workfront 통합 승인 템플릿을 사용하여 승인 워크플로 정의

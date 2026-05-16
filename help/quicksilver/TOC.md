@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 9a86968cf8fff2c7c930aa6c8408ab8566905cb8
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '14119'
 ht-degree: 2%
@@ -468,7 +468,7 @@ ht-degree: 2%
          * [프로젝트 타임라인 재계산](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [사용자 정의 영역 활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [조직의 빠른 릴리스 활성화 또는 비활성화](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-         * [조직을 위한 Adobe 엔터프라이즈 스토리지 활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+         * [조직에 Adobe 클라우드 스토리지 활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
          * [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [사용자 정의 현지화 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
          * [AI 공동 작업자 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
@@ -1871,7 +1871,7 @@ ht-degree: 2%
    * [작업 검토 및 승인](review-and-approve-work/review-and-approve-work.md)
    * [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
    * [통합 검토 및 승인 시작](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-   * [Adobe 엔터프라이즈 스토리지의 Workfront으로 이동](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+   * [Adobe 클라우드 스토리지의 Workfront으로 이동](/help/quicksilver/review-and-approve-work/workfront-storage.md)
    * [비유료 사용자에 대한 제한된 문서 및 증명 결정 개요](review-and-approve-work/proof-doc-decision-limits.md)
    * {hide-from-toc}[AI 검토자 설정](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
    * 작업 승인 {#work-approvals}
@@ -1891,8 +1891,8 @@ ht-degree: 2%
       * [문서 승인에 사용 가능한 기능](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [문서 의사 결정 상태 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Workfront 콘텐츠 검토자 시작](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
-      * [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)
-      * [Adobe 엔터프라이즈 스토리지 모델에 대한 개체 권한 및 액세스 수준 개요](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+      * [Adobe 클라우드 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)
+      * [Adobe 클라우드 스토리지 모델에 대한 개체 권한 및 액세스 수준 개요](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
       * 자산 및 문서 승인 설정 및 관리 {#manage-asset-review-and-approval}
          * [통합 승인 설정 및 관리: 문서 색인](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [콘텐츠 검토자를 위한 브랜드 만들기 및 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)

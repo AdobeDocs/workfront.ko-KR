@@ -8,7 +8,7 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 2%
@@ -157,10 +157,10 @@ Old:
    >일부 고객은 다음 문서 스토리지 환경 모두에 액세스할 수 있습니다.
    >
    >  * **기존 Workfront 저장소**: 이 저장소를 사용하는 포트폴리오의 이름 옆에 기존 저장소 아이콘 ![기존 저장소 아이콘](assets/legacy-storage-project-icon.png)이(가) 있습니다.
-   >  * **Adobe 엔터프라이즈 스토리지**
+   >  * **Adobe 클라우드 저장소**
    >
    >Workfront 관리자가 귀사에서 사용하는 스토리지를 결정하거나 각 포트폴리오를 연결할 스토리지를 선택할 수 있도록 합니다.
-   >자세한 내용은 [조직에 Adobe 엔터프라이즈 스토리지 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하십시오.
+   >자세한 내용은 [조직에 Adobe 클라우드 저장소 사용](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)을 참조하세요.
    >
    >포트폴리오에 문서를 추가하는 방법은 사용하는 스토리지 유형에 따라 다릅니다.
    >

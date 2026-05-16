@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,18 @@ Frame.io에 대한 자세한 내용은 [Frame.io 시작하기](https://support.f
 
 ## 액세스 요구 사항
 
-* Frame.io 뷰어 및 Adobe 엔터프라이즈 스토리지를 사용하려면 Workfront 계약에 V2 Workfront SKU가 포함되어야 합니다. 자세한 내용은 [통합 검토 및 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval)의 FAQ를 참조하십시오.
+* Adobe 클라우드 스토리지를 지원하는 Workfront 버전을 사용해야 합니다. 조직이 이미 지원되는 버전을 사용하고 있지 않은 경우 Adobe 계정 담당자에게 문의하십시오.
 
 ## Workfront의 작업 시작 및 계획
 
-프로젝트 코디네이터는 Workfront에서 프로젝트를 만들고 작업을 계획할 수 있습니다. Frame.io 통합이 활성화된 인스턴스에서 만든 프로젝트는 Adobe 에코시스템 내에서 에셋을 저장하고 관리할 수 있는 Adobe 엔터프라이즈 스토리지를 사용합니다.
+프로젝트 코디네이터는 Workfront에서 프로젝트를 만들고 작업을 계획할 수 있습니다. Frame.io 통합이 활성화된 인스턴스에서 만든 프로젝트는 Adobe 생태계 내에서 에셋을 저장하고 관리할 수 있는 Adobe 클라우드 스토리지를 사용합니다.
 
 조직에 Frame.io Enterprise 라이센스가 있는 경우 Workfront에서 만든 프로젝트도 Frame.io에 표시되므로 사용자가 두 제품 중 하나에서 자산을 상호 작용하고 업로드할 수 있습니다.
 
-Frame.io의 Adobe 엔터프라이즈 스토리지 또는 프로젝트에 대한 자세한 내용은
+Frame.io의 Adobe 클라우드 저장소 또는 프로젝트에 대한 자세한 내용은
 
 * [Workspace 개요: 프로젝트](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [Adobe 엔터프라이즈 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [Adobe 클라우드 스토리지 개요](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## 에셋 검토 및 승인
 

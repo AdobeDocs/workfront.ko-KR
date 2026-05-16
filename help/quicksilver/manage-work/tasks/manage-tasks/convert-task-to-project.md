@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1269'
 ht-degree: 3%
 
 ---
@@ -95,11 +95,11 @@ Old:
 * 모든 하위 작업, 문제 및 메모가 새 프로젝트에 롤업됩니다.
 * 문서, 문서 버전 및 증명이 새 프로젝트로 이동됩니다.
 * 작업을 프로젝트로 전환할 때는 5분 처리 제한이 있습니다. 작업에 많은 문서가 첨부되어 있고 변환하지 못하는 경우 일부 문서를 제거하고 다시 시도해야 할 수 있습니다.
-* 조직에서 레거시 Workfront 및 Adobe Enterprise 문서 저장소를 모두 사용하는 경우 작업을 프로젝트로 전환할 때 다음과 같은 시나리오가 존재합니다. <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * Workfront 스토리지 작업은 Workfront 스토리지 프로젝트를 만듭니다.
-   * Adobe 엔터프라이즈 스토리지 작업은 Adobe 스토리지 프로젝트를 만듭니다.
-   * Workfront-storage 템플릿을 사용하여 Adobe-storage 작업을 전환하면 Adobe-storage 프로젝트가 만들어집니다.
-   * Adobe 스토리지 템플릿을 사용하여 Workfront 스토리지 작업을 전환하면 Workfront 스토리지 프로젝트가 만들어집니다.
+* 조직에서 문서에 레거시 Workfront 및 Adobe 클라우드 저장소를 모두 사용하는 경우 작업을 프로젝트로 전환할 때 다음과 같은 시나리오가 존재합니다. <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+   * 기존 Workfront 스토리지 작업은 기존 Workfront 스토리지 프로젝트를 만듭니다.
+   * Adobe 클라우드 스토리지 작업은 Adobe 클라우드 스토리지 프로젝트를 만듭니다.
+   * 기존 Workfront 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 작업을 전환하면 Adobe 클라우드 스토리지 프로젝트가 만들어집니다.
+   * Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 작업을 전환하면 기존 Workfront 스토리지 프로젝트가 만들어집니다.
 
      자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 

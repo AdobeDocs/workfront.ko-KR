@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2167'
 ht-degree: 2%
 
 ---
@@ -94,11 +94,11 @@ Old:
 ## 고려 사항
 
 * 문제를 프로젝트로 전환할 때는 5분 처리 제한이 있습니다. 문제에 많은 문서가 첨부되어 있고 전환하지 못하는 경우, 일부 문서를 제거하고 다시 시도해야 할 수 있습니다.
-* 조직에서 기존 Workfront 및 Adobe 엔터프라이즈 문서 저장소를 모두 사용하는 경우 문제를 프로젝트로 전환할 때 다음과 같은 시나리오가 존재합니다. <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-   * Workfront 스토리지 문제로 Workfront 스토리지 프로젝트가 생성되었습니다.
-   * Adobe 엔터프라이즈 스토리지 문제로 Adobe 스토리지 프로젝트가 생성되었습니다.
-   * Workfront 스토리지 템플릿을 사용하여 Adobe 스토리지 문제를 전환하면 Adobe 스토리지 프로젝트가 생성됩니다.
-   * Adobe 스토리지 템플릿을 사용하여 Workfront 스토리지 문제를 전환하면 Workfront 스토리지 프로젝트가 생성됩니다.
+* 조직에서 문서에 레거시 Workfront 및 Adobe 클라우드 저장소를 모두 사용하는 경우 문제를 프로젝트로 전환할 때 다음과 같은 시나리오가 존재합니다. <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+   * 이전 Workfront 스토리지 문제로 이전 Workfront 스토리지 프로젝트가 생성되었습니다.
+   * Adobe 클라우드 스토리지 문제로 Adobe 클라우드 스토리지 프로젝트가 생성되었습니다.
+   * 기존 Workfront 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 문제를 전환하면 Adobe 클라우드 스토리지 프로젝트가 생성됩니다.
+   * Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 문제를 전환하면 기존 Workfront 스토리지 프로젝트가 만들어집니다.
 
      자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
@@ -234,8 +234,8 @@ Old:
 
    >[!TIP]
    >
-   >* Workfront 스토리지 템플릿을 사용하여 Adobe 스토리지 문제를 전환하면 Adobe 스토리지 프로젝트가 생성됩니다.
-   >* Adobe 스토리지 템플릿을 사용하여 Workfront 스토리지 문제를 전환하면 Workfront 스토리지 프로젝트가 생성됩니다.
+   >* 기존 Workfront 스토리지 템플릿을 사용하여 Adobe 클라우드 스토리지 문제를 전환하면 Adobe 클라우드 스토리지 프로젝트가 생성됩니다.
+   >* Adobe 클라우드 스토리지 템플릿을 사용하여 기존 Workfront 스토리지 문제를 전환하면 기존 Workfront 스토리지 프로젝트가 만들어집니다.
    >
    >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 

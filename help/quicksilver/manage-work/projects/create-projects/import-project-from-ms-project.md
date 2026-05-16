@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '604'
 ht-degree: 3%
 
 ---
@@ -128,7 +128,7 @@ old permissions model:
 
    >[!CAUTION]
    >
-   >Workfront 인스턴스가 Workfront 및 Adobe 문서 스토리지를 모두 액세스할 수 있는 경우 Workfront 관리자가 Adobe 엔터프라이즈 스토리지를 시스템의 기본값으로 설정한 경우에도 MS Project에서 프로젝트를 가져오면 Workfront 스토리지 프로젝트가 생성됩니다.
+   >Workfront 인스턴스가 문서에 대한 Workfront 및 Adobe 클라우드 스토리지에 모두 액세스할 수 있는 경우 Workfront 관리자가 Adobe 클라우드 스토리지를 시스템의 기본값으로 설정한 경우에도 MS Project에서 프로젝트를 가져오면 기존 Workfront 스토리지 프로젝트가 만들어집니다.
    >
    >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 

@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '8107'
+source-wordcount: '8112'
 ht-degree: 1%
 
 ---
@@ -287,7 +287,7 @@ Old:
       <p><b>참고</b></p>
       <ul>
       <li>프로젝트에 포트폴리오를 추가하거나 제거하려면 관리 권한이 있어야 합니다.</li>
-      <li>조직에서 기존 Workfront 및 Adobe 엔터프라이즈 스토리지를 모두 사용하는 경우 서로 다른 스토리지 유형을 사용하는 프로젝트 간에 작업을 복사할 수 없습니다. Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.</li></ul> 
+      <li>조직에서 기존 Workfront 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 서로 다른 스토리지 유형을 사용하는 프로젝트 간에 작업을 복사할 수 없습니다. Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.</li></ul> 
       자세한 내용은 <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">프로젝트 및 관련 개체에 대한 문서 관리 개요</a>를 참조하십시오. 
       </td> 
       </tr> 
@@ -297,7 +297,7 @@ Old:
       <p><b>참고</b></p>
       <ul>
       <li>프로젝트에 추가하거나 제거하려면 프로그램에 대한 관리 권한이 있어야 합니다.</li>
-      <li>조직에서 Workfront 및 Adobe 문서 스토리지 유형을 모두 사용하는 경우 Workfront 스토리지 프로젝트를 Adobe 스토리지 프로그램과 연결할 수 없습니다. 그 반대도 마찬가지다. Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다. 프로그램은 해당 프로그램이 속한 포트폴리오에서 저장소 유형을 상속합니다. </li></ul>
+      <li>조직에서 문서에 Workfront 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 레거시 Workfront 스토리지 프로젝트를 Adobe 클라우드 스토리지 프로그램과 연결할 수 없습니다. 그 반대도 마찬가지다. Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다. 프로그램은 해당 프로그램이 속한 포트폴리오에서 저장소 유형을 상속합니다. </li></ul>
 
    자세한 내용은 <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">프로젝트 및 관련 개체에 대한 문서 관리 개요</a>를 참조하십시오.
 
@@ -804,7 +804,7 @@ Old:
 
 * 다른 그룹에 속하는 여러 프로젝트를 선택할 경우 상태 필드에 표시되는 상태는 그룹 수준 상태가 아니라 시스템 수준 상태입니다.
 
-* 문서 저장소 유형이 다른 여러 프로젝트를 선택하고 선택한 프로젝트에 대해 Portfolio 또는 프로그램을 업데이트하려는 경우 Workfront 저장소 프로젝트를 Adobe 저장소 포트폴리오와 연결할 수 없습니다. 그 반대도 마찬가지다. 이 경우 한 번에 저장소 유형이 유사한 프로젝트만 선택해야 합니다.
+* 문서 저장소 유형이 다른 여러 프로젝트를 선택하고 선택한 프로젝트에 대해 Portfolio 또는 프로그램을 업데이트하려는 경우 레거시 Workfront 저장소 프로젝트를 Adobe 클라우드 저장소 포트폴리오와 연결할 수 없습니다. 그 반대도 마찬가지다. 이 경우 한 번에 저장소 유형이 유사한 프로젝트만 선택해야 합니다.
 
   Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
 
