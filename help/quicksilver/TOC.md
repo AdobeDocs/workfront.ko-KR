@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5539dea2754b38ba7a00b90b1d1ff10ff6309991
 workflow-type: tm+mt
-source-wordcount: '14119'
+source-wordcount: '14144'
 ht-degree: 2%
 
 ---
@@ -940,6 +940,11 @@ ht-degree: 2%
       * [AI Assistant 활성화 또는 비활성화](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [AI를 사용하여 요청 자동 채우기](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
       * [프로젝트 상태 개요](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
+   * {hide-from-toc} Workfront MCP 서버 {#workfront-mcp-server}
+      * {hide-from-toc}[Workfront MCP 서버: 문서 인덱스](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+      * {hide-from-toc}[Adobe Workfront MCP 서버 개요](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
+      * {hide-from-toc}[Adobe Workfront MCP 서버 구성](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+      * {hide-from-toc}[Adobe Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
    * 작업 항목 업데이트 및 업데이트 보기 {#update-work-items-view-updates}
       * [작업 항목 업데이트 및 업데이트 보기: 문서 색인](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [업데이트 섹션 개요](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
