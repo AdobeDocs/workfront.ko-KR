@@ -10,10 +10,10 @@ recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 434962cc354e545296610a73902d94fa1b6811f5
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 60%
+source-wordcount: '212'
+ht-degree: 59%
 
 ---
 
@@ -39,4 +39,5 @@ Adobe Workfront의 기본적인 내용을 파악하고 홈이나 우선순위 �
 * [계정 및 프로필 관리](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [모바일 앱](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Workfront의 AI 지원](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+* [Workfront 서버](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
 * [Adobe Workfront 기본 사항에 대한 팁, 요령 및 문제 해결](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
