@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+source-git-commit: 9527a0597f90e20cd611d9f64056b8f7e1116be1
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 10%
+source-wordcount: '1482'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 10%
 >
 >이 페이지에 설명된 절차는 Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다. 이제 모든 조직이 Adobe Admin Console에 온보딩되었으므로 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
 >
->조직이 Adobe Admin Console에 온보딩된 후 허용 목록에 추가하다를 구성하려면 [Adobe 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/kr/enterprise/kb/network-endpoints.html)을 참조하십시오.
+>조직이 Adobe Admin Console에 온보딩된 후 허용 목록에 추가하다를 구성하려면 [Adobe 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)을 참조하십시오.
 >
 >조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 Adobe Workfront과 Adobe Business Platform 간의 [관리 차이점](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
@@ -67,8 +67,8 @@ ht-degree: 10%
 ## 허용 목록에 추가하다에 추가할 IP 주소
 
 * [클러스터 1, 2, 3, 5, 7, 8 및 9를 허용하는 IP 주소](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* 클러스터 4[&#128279;](#ip-addresses-to-allow-for-cluster-4)에 대해 허용할 IP 주소
-* 클러스터 6[&#128279;](#ip-addresses-to-allow-for-cluster-6)을(를) 허용할 IP 주소
+* 클러스터 4](#ip-addresses-to-allow-for-cluster-4)에 대해 허용할 [IP 주소
+* 클러스터 6](#ip-addresses-to-allow-for-cluster-6)을(를) 허용할 [IP 주소
 * [클러스터 10을 허용할 IP 주소](#ip-addresses-to-allow-for-cluster-10)
 * 테스트 드라이브를 허용할 [IP 주소](#IP%20Addre2)
 * [이벤트 구독을 구현할 때 허용할 IP 주소](#ip-addresses-to-allow-when-implementing-event-subscriptions)
@@ -76,62 +76,69 @@ ht-degree: 10%
 * [Jira용 Workfront 사용을 위해 추가할 IP 주소](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [모든 클러스터에 추가할 URL Workfront](#urls-to-add-for-all-clusters-workfront)
 
-### 클러스터 1, 2, 3, 5, 7, 8 및 9를 허용하는 IP 주소 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
+### Workfront 애플리케이션에서 이메일을 받으려면
 
-프로덕션 환경이 클러스터 1, 2, 3, 5, 7, 8 또는 9에 있는 경우 다음 IP 주소를 허용해야 합니다.
+방화벽 또는 메일 서버가 특정 공급업체에 대해서만 액세스를 허용하도록 구성된 경우 Workfront 애플리케이션에서 이메일을 받으려면 허용 목록에 추가하다에 다음 IP 주소를 추가해야 합니다.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">SSO, 문서 웹후크 또는 기타 기능의 경우</td> 
-   <td> 
-    <ul> 
-     <li>35.160.0.242</li> 
-     <li>34.213.36.118</li> 
-     <li>3.209.27.146</li> 
-     <li>18.205.251.4</li> 
-     <li>34.211.224.9</li> 
-     <li>54.218.48.56</li> 
-     <li>52.36.154.34</li> 
-     <li>54.244.142.219</li> 
-     <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
-     <li>54.203.255.135/32</li> 
-     <li>35.155.2.51/32</li> 
-     <li>52.34.192.77/32</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront 애플리케이션에서 이메일을 받으려면</td> 
-   <td> 
-    <ul> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-     <li>13.58.86.183</li> 
-     <li>34.209.181.84</li> 
-     <li>35.161.82.137</li> 
-     <li>52.14.70.114</li> 
-     <li>52.15.230.220</li> 
-     <li>54.71.252.65</li>
-     <li>23.251.237.107</li> 
-     <li>23.251.237.108</li> 
-     <li>23.251.237.109</li> 
-     <li>23.251.237.106</li> 
-     <li>206.55.149.212</li>
-     <li>206.55.149.214</li>
-     <li>206.55.149.215</li>
-     <li>206.55.149.213</li>
-     <li>206.55.149.211</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+#### 미국 지역: 군집 1, 2, 3, 5, 6, 7, 8, 9, 10
 
-### 클러스터 4에서 허용할 IP 주소 {#ip-addresses-to-allow-for-cluster-4}
+* 206.55.149.211
+* 206.55.149.212
+* 206.55.149.213
+* 206.55.149.214
+* 206.55.149.215
+* 23.251.237.106
+* 23.251.237.107
+* 23.251.237.108
+* 23.251.237.109
+* 54.240.119.54
+* 54.240.119.55
+* 54.240.60.174
+* 54.240.60.175
+* 54.240.61.222
+* 54.240.61.223
 
-프로덕션 환경이 클러스터 4에 있는 경우 SSO를 위해 다음 IP 주소를 추가하고 Webhook 통합을 문서화하고 Workfront 애플리케이션에서 이메일을 받으십시오.
+#### EU 지역: 클러스터 4, 11, 12 및 13
+
+* 23.251.239.98
+* 23.251.239.99
+* 24.110.76.223
+* 24.110.76.224
+* 69.169.230.231
+* 69.169.230.232
+
+
+### SSO, 문서 Webhook 통합 및 기타 기능
+
+#### 미국 지역: 군집 1, 2, 3, 5, 6, 7, 8, 9, 10
+
+**클러스터 1, 2, 3, 5, 6, 7, 8, 9**
+
+
+* 35.160.0.242
+* 34.213.36.118
+* 3.209.27.146
+* 18.205.251.4
+* 34.211.224.9
+* 54.218.48.56
+* 52.36.154.34
+* 54.244.142.219
+* 52.39.217.230
+* 44.241.82.96
+* 54.203.255.135/32
+* 35.155.2.51/32
+* 52.34.192.77/32
+
+**클러스터 10**
+
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
+
+#### EU 지역: 클러스터 4 및 11
+
+
+**사용자 지정 4**
 
 * 52.31.132.175
 * 52.19.188.226
@@ -139,8 +146,6 @@ ht-degree: 10%
 * 52.29.41.175
 * 52.29.197.69
 * 52.48.124.108
-* 69.169.230.231
-* 69.169. 230.232
 * 3.121.91.129
 * 3.122.11.35
 * 34.246.27.40
@@ -154,76 +159,7 @@ ht-degree: 10%
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-* 23.251.239.98
-* 23.251.239.99
-* 24.110.76.224
-* 24.110.76.223
 
-### 클러스터 6을 허용할 IP 주소 {#ip-addresses-to-allow-for-cluster-6}
-
-프로덕션 환경이 클러스터 6에 있는 경우 다음 IP 주소를 추가합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Workfront 애플리케이션에서 이메일을 받으려면</td> 
-   <td> 
-    <ul> 
-     <li>34.94.227.64</li> 
-     <li>34.94.227.65</li> 
-     <li>34.94.227.66</li> 
-     <li>34.94.227.67</li> 
-     <li>34.66.82.64</li> 
-     <li>34.66.82.65</li> 
-     <li>34.66.82.66</li> 
-     <li>34.66.82.67</li> 
-    <li>206.55.149.212</li>
-   <li>206.55.149.214</li>
-   <li>206.55.149.215</li>
-   <li>206.55.149.213</li>
-   <li>206.55.149.211</li>
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">이메일 서비스를 사용하려면</td> 
-   <td> 
-    <ul> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-     <li>13.58.86.183</li> 
-     <li>34.209.181.84</li> 
-     <li>35.161.82.137</li> 
-     <li>52.14.70.114</li> 
-     <li>52.15.230.220</li> 
-     <li>54.71.252.65 </li> 
-    </ul> </td> 
-  </tr> 
-    <tr> 
-   <td role="rowheader">Mailgun 이메일 서비스를 사용하려면</td> 
-   <td> 
-    <ul> 
-     <li>143.55.228.56 </li> 
-     <li>209.61.151.229</li> 
-     <li>69.72.43.7</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### 클러스터 10을 허용할 IP 주소
-
-* 20.36.133.48/28
-* 20.81.156.240/28
-* 172.172.84.48/28
-
-### 클러스터 11에서 허용할 IP 주소
-
-클러스터 11의 Workfront 응용 프로그램에서 이메일을 받으려면 다음 IP 주소를 추가하십시오.
-
-* 24.110.76.224
-* 24.110.76.223
 
 ### 테스트 드라이브를 허용할 IP 주소
 
@@ -554,32 +490,8 @@ Workfront Fusion의 경우 다음 도메인을 추가합니다.
 
 ### 발신 이메일의 경우 {#for-outgoing-email}
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>Prod-US(클러스터 1, 2, 3, 5 및 7)</p> </td> 
-   <td> 
-    <ul> 
-     <li> 23.251.237.106</li> 
-     <li>23.251.237.107</li> 
-     <li>23.251.237.108</li> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Prod-EU(Cluster 4)</td> 
-   <td> 
-    <ul> 
-     <li>23.251.239.98</li> 
-     <li>69.169.230.231</li> 
-     <li>69.169.230.232</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+위의 [Workfront 응용 프로그램에서 전자 메일을 받으려면](#to-receive-email-from-the-workfront-application) 섹션을 참조하십시오.
+
 
 ## 최상의 Workfront Proof 성능을 위해 열 포트
 
