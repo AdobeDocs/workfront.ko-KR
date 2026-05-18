@@ -9,9 +9,9 @@ feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 {{step1-to-boards}}
 
-1. 대시보드의 **[!UICONTROL 작업 스트림]** 영역에서 [!UICONTROL 작업 스트림 추가]를 클릭합니다.
+1. 대시보드의 [!UICONTROL 작업 스트림] 영역에서 **[!UICONTROL 작업 스트림 추가]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 제목 없는 작업 스트림]**&#x200B;을 바꿀 이름을 입력하고 Enter 키를 누르십시오.
 
    워크스트림에 보드를 추가하거나 [!UICONTROL **모든 보드**]&#x200B;를 클릭하여 대시보드로 돌아갈 수 있습니다.
@@ -66,7 +66,7 @@ ht-degree: 2%
 ## 워크스트림에 새 보드 만들기
 
 1. 아직 작업 스트림에 있지 않은 경우 대시보드에서 [!UICONTROL **작업 스트림 보기**]&#x200B;를 클릭하여 기존 작업 스트림을 엽니다.
-1. 작업 스트림의 **[!UICONTROL 보드]** 탭에서 [!UICONTROL 보드 추가]를 클릭합니다.
+1. 작업 스트림의 [!UICONTROL 보드] 탭에서 **[!UICONTROL 보드 추가]**&#x200B;를 클릭합니다.
 1. 보드에 사용할 템플릿을 선택합니다.
 
 | 템플릿 | 설명 |

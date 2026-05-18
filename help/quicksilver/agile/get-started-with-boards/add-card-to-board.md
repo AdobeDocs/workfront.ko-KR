@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >이름 필드 외부를 클릭하면 Ad Hoc 카드가 맨 왼쪽 열 하단에 자동으로 &quot;제목 없음&quot;으로 저장됩니다. 카드를 저장하지 않고 종료하려면 [!UICONTROL **카드 세부 정보**] 상자의 아무 곳이나 클릭하지 않고 [!UICONTROL 취소]를 클릭해야 합니다.
+   >이름 필드 외부를 클릭하면 Ad Hoc 카드가 맨 왼쪽 열 하단에 자동으로 &quot;제목 없음&quot;으로 저장됩니다. 카드를 저장하지 않고 종료하려면 [!UICONTROL 카드 세부 정보] 상자의 아무 곳이나 클릭하지 않고 [!UICONTROL **취소**]&#x200B;를 클릭해야 합니다.
 
 1. **[!UICONTROL 카드 세부 정보]** 상자에 다음 정보를 추가하십시오.
 

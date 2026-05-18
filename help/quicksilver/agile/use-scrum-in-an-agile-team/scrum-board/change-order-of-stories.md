@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '402'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -61,4 +61,4 @@ ht-degree: 3%
 
 애자일 반복과 달리 애자일 보기에서 프로젝트를 볼 때는 스토리 순서를 변경할 수 없습니다. 프로젝트의 스토리 순서를 수정하려면 표준 보기에서 프로젝트를 봐야 합니다.
 
-프로젝트 보기를 변경하는 방법에 대한 자세한 내용은 [[!UICONTROL 애자일] 보기에서 [!UICONTROL 프로젝트 관리]를 참조하십시오](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). 애자일 보기를 선택하는 대신 표준 보기를 선택합니다.
+프로젝트 보기를 변경하는 방법에 대한 자세한 내용은 [!UICONTROL 애자일] 보기에서 [[!UICONTROL 프로젝트 관리]를 참조하십시오](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). 애자일 보기를 선택하는 대신 표준 보기를 선택합니다.

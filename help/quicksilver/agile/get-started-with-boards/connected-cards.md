@@ -8,9 +8,9 @@ feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1532'
 ht-degree: 2%
 
 ---
@@ -62,12 +62,12 @@ ht-degree: 2%
   <tr>
    <td role="rowheader">개체 권한</td>
    <td><p>Workfront 작업 또는 문제에 대한 이상의 권한 보기</p>
-</td>
+   </td>
   </tr>
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -236,7 +236,7 @@ Ad Hoc 카드를 만든 후 연결된 카드로 변환할 수 있습니다. Ad H
 
 연결된 작업 또는 문제에 시간을 기록하려면 올바른 권한이 있어야 합니다.
 
-시간 로깅 필드는 기본적으로 연결된 카드에 표시되지 않습니다. [!UICONTROL **카드**] 아래의 [!UICONTROL 구성] 영역에서 [!UICONTROL 시간]을(를) 사용하도록 설정해야 합니다. 자세한 내용은 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)을 참조하십시오.
+시간 로깅 필드는 기본적으로 연결된 카드에 표시되지 않습니다. [!UICONTROL 카드] 아래의 [!UICONTROL 구성] 영역에서 [!UICONTROL **시간**]&#x200B;을(를) 사용하도록 설정해야 합니다. 자세한 내용은 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)을 참조하십시오.
 
 1. 작업 또는 문제의 시간 수를 입력합니다.
 1. 기본값과 다른 경우 드롭다운 메뉴에서 [!UICONTROL 시간 유형]을(를) 선택하십시오.

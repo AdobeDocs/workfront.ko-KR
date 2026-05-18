@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 1%
+source-wordcount: '1337'
+ht-degree: 2%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -103,7 +103,7 @@ ht-degree: 1%
 
 ### 스토리 편집 {#edit-stories}
 
-[!UICONTROL 작업 편집] 및 [!UICONTROL 문제 편집]의 [일괄 작업 편집](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) 및 일괄 작업 편집에 설명된 대로 프로젝트 내의 모든 작업 또는 문제를 일괄적으로 편집할 수 있으므로 백로그의 [스토리](../../manage-work/tasks/manage-tasks/edit-tasks.md) 또는 [문제](../../manage-work/issues/manage-issues/edit-issues.md) 탭에서 직접 스토리를 편집할 수 있습니다.
+[작업 편집](../../manage-work/tasks/manage-tasks/edit-tasks.md) 및 [문제 편집](../../manage-work/issues/manage-issues/edit-issues.md)의 [일괄 작업 편집](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) 및 일괄 작업 편집에 설명된 대로 프로젝트 내의 모든 작업 또는 문제를 일괄적으로 편집할 수 있으므로 백로그의 [!UICONTROL 스토리] 또는 [!UICONTROL 문제] 탭에서 직접 스토리를 편집할 수 있습니다.
 
 ## 백로그에 새 스토리 만들기 {#create-new-stories-on-the-backlog}
 
@@ -218,4 +218,4 @@ ht-degree: 1%
 
 백로그에서 직접 하나 이상의 스토리(작업 및 문제 포함)를 내보낼 수 있습니다.
 
-[!DNL Workfront]데이터 내보내기[에 설명된 대로 &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)의 다른 데이터를 내보내는 것과 같은 방식으로 백로그에서 스토리를 내보냅니다.
+[데이터 내보내기](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)에 설명된 대로 [!DNL Workfront]의 다른 데이터를 내보내는 것과 같은 방식으로 백로그에서 스토리를 내보냅니다.

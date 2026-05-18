@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 6%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -58,7 +58,7 @@ ht-degree: 6%
 
    ![태그 관리자 선택](assets/boards-tagmanager-350x189.png)
 
-1. [!UICONTROL 태그 관리자] 대화 상자의 [!UICONTROL **보드 태그**] 섹션에서 [!UICONTROL 태그 추가]를 선택합니다.
+1. [!UICONTROL 태그 관리자] 대화 상자의 [!UICONTROL 보드 태그] 섹션에서 [!UICONTROL **태그 추가**]&#x200B;를 선택합니다.
 1. 강조 표시된 상자에 태그 이름을 입력한 다음 드롭다운 메뉴에서 이 태그의 색상을 선택합니다. 태그는 자동으로 저장됩니다.
 1. (조건부) 추가 태그를 만들려면 4-5단계를 반복합니다.
 1. 상자의 오른쪽 상단 모서리에서 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
