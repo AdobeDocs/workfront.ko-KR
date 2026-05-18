@@ -8,7 +8,7 @@ feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 2%
@@ -52,7 +52,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 
 ### [!DNL Workfront]에서 Kanban을 사용할 때의 이점
 
-[!DNL Kanban]의 [!DNL Workfront] 애자일 방법론을 사용하면 진행 중인 작업의 양을 제한하면서 애자일 스토리 보드에서 스토리를 보다 쉽게 이동할 수 있습니다. [!DNL Kanban] 애자일 방법론을 사용할 때 시작 및 종료 날짜가 없습니다.
+[!DNL Workfront]의 [!DNL Kanban] 애자일 방법론을 사용하면 진행 중인 작업의 양을 제한하면서 애자일 스토리 보드에서 스토리를 보다 쉽게 이동할 수 있습니다. [!DNL Kanban] 애자일 방법론을 사용할 때 시작 및 종료 날짜가 없습니다.
 
 다음 기능은 이 방법을 지원합니다.
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 자세한 내용은 [백로그를 [!UICONTROL Kanban] 보드에 추가](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)를 참조하십시오.
 
 * 다른 항목이 완료와 동일한 상태로 이동될 때 백로그에 있는 항목이 [!UICONTROL Kanban] 애자일 스토리 보드에 자동으로 추가되도록 구성하십시오.
-자세한 내용은 문서 [Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)의 [백로그에서 자동으로 추가할 스토리 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 섹션을 참조하십시오.
+자세한 내용은 문서 [Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)의 [백로그에서 자동으로 추가할 스토리 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) 섹션을 참조하십시오.
 
 * [!UICONTROL Kanban] 애자일 스토리 보드에 표시할 WIP(Work In Progress) 한도를 구성합니다.
 자세한 내용은 [Kanban 보드에서 WIP(작업 진행 중) 제한 관리](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)를 참조하십시오.
@@ -117,7 +117,7 @@ ht-degree: 2%
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 이 활성 상태입니다]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL이 활성 상태입니다]</strong> </td> 
       <td>이 팀을 활성화하려면 이 옵션을 선택하십시오. 비활성 팀은 작업에 할당할 다른 사용자에게 표시되지 않습니다. </td> 
      </tr>
 

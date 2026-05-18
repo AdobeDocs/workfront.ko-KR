@@ -8,9 +8,9 @@ feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1075'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -173,7 +173,7 @@ ht-degree: 1%
 
 1. 열에 추가할 수 있는 카드 수를 제한하려면 **[!UICONTROL 진행 중인 작업 제한]** 정책을 사용하도록 설정하십시오. **[!UICONTROL 제한 설정]** 필드에 제한 번호를 입력하십시오.
 
-   ![&#x200B; 열에 대한 &#x200B;](assets/boards-wip-limit-in-column.png)WIP 제한
+   ](assets/boards-wip-limit-in-column.png) 열에 대한 ![WIP 제한
 
    자세한 내용은 [게시판에서 WIP(Work In Progress) 한도 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)를 참조하십시오.
 

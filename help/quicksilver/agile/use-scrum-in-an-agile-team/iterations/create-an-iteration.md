@@ -2,15 +2,15 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: 반복 만들기
-description: 반복은 작업 용량 계획에서 스크럼 애자일 팀의 주요 구성 요소입니다. [!DNL Adobe Workfront] 스크럼 애자일 팀이 팀 요구 사항에 맞게 여러 반복을 만들어 작업을 관리할 수 있도록 허용합니다.
+description: 반복은 작업 용량을 계획할 때 스크럼 애자일 팀의 주요 구성 요소입니다. [!DNL Adobe Workfront] 스크럼 애자일 팀이 팀 요구 사항에 맞게 여러 반복을 만들어 작업을 관리할 수 있도록 합니다.
 author: Courtney
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1025'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -81,11 +81,11 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
-      <td> 반복에 사용할 용량을 지정합니다. 팀이 반복에서 달성할 수 있는 포인트 또는 시간 수입니다. 입력한 숫자는 반복에 있는 모든 스토리의 합계에서 나온 포인트 또는 시간 수보다 크거나 같아야 합니다.<br>[!DNL Workfront]은(는) 기본적으로 이 필드를 50개 용량으로 미리 채웁니다. </td> 
+      <td> 반복에 사용할 용량을 지정합니다. 팀이 반복에서 달성할 수 있는 포인트 또는 시간 수입니다. 입력한 숫자는 반복에 있는 모든 스토리의 합계에서 나온 포인트 또는 시간 수보다 크거나 같아야 합니다.<br>[!DNL Workfront] 이 필드는 기본적으로 50개 용량으로 미리 채워집니다. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
-      <td>팀의 포커스 비율을 지정합니다. 팀의 모든 구성원이 이 반복에 완전히 집중하게 되면 포커스는 100%가 됩니다.<br>[!DNL Workfront]이(가) 기본적으로 이 필드를 100%로 미리 채웁니다. </td> 
+      <td>팀의 포커스 비율을 지정합니다. 팀의 모든 멤버가 이 반복에 완전히 집중되는 경우 포커스는 100%가 됩니다.<br>[!DNL Workfront] 이 필드는 기본적으로 100%로 미리 채워집니다. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -129,11 +129,11 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
-      <td>팀의 포커스 비율을 지정합니다. 팀의 모든 구성원이 이 반복에 완전히 집중하게 되면 포커스는 100%가 됩니다.<br>[!DNL Workfront]이(가) 이 필드를 팀의 과거 반복 횟수의 평균 값으로 미리 채웁니다. 팀의 첫 번째 반복인 경우 이 필드 값은 기본적으로 0입니다.</td> 
+      <td>팀의 포커스 비율을 지정합니다. 팀의 모든 멤버가 이 반복에 완전히 집중되는 경우 포커스는 100%가 됩니다.<br>[!DNL Workfront] 이 필드를 팀의 과거 반복 횟수의 평균 값으로 미리 채웁니다. 팀의 첫 번째 반복인 경우 이 필드 값은 기본적으로 0입니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL Capacity]</strong></td> 
-      <td> 반복에 사용할 용량을 지정합니다. 팀이 반복에서 달성할 수 있는 포인트 또는 시간 수입니다. 입력한 숫자는 반복에 있는 모든 스토리의 합계에서 나온 포인트 또는 시간 수보다 크거나 같아야 합니다.<br>[!DNL Workfront]이(가) 이 필드를 팀의 과거 반복 횟수의 평균 값으로 미리 채웁니다. 팀의 첫 번째 반복인 경우 이 필드 값은 기본적으로 0입니다.</td> 
+      <td> 반복에 사용할 용량을 지정합니다. 팀이 반복에서 달성할 수 있는 포인트 또는 시간 수입니다. 입력한 숫자는 반복에 있는 모든 스토리의 합계에서 나온 포인트 또는 시간 수보다 크거나 같아야 합니다.<br>[!DNL Workfront] 이 필드를 팀의 과거 반복 횟수의 평균 값으로 미리 채웁니다. 팀의 첫 번째 반복인 경우 이 필드 값은 기본적으로 0입니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL 목표]</strong></td> 
@@ -142,7 +142,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. **[!UICONTROL 저장]을 클릭합니다.** 반복이 만들어집니다.
+1. **[!UICONTROL 저장].** 클릭 이터레이션이 작성됩니다.
 
 ## 백로그 탭의 기존 반복에 작업 또는 문제 추가
 
@@ -165,4 +165,4 @@ ht-degree: 2%
 
 프로젝트 시작 날짜가 반복 시작 날짜 이후이고 프로젝트 종료 날짜가 반복 종료 날짜 이후인 경우 [!UICONTROL 프로젝트 종료 날짜]이(가) 반복 종료 날짜 대신 사용됩니다.
 
-개별 스크럼 팀이 반복 날짜가 아닌 프로젝트 날짜를 기본적으로 사용하도록 구성할 수 있습니다. 자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) 문서의 [반복에 작업 항목을 추가할 때 날짜가 적용되는 방법 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 섹션을 참조하십시오.
+개별 스크럼 팀이 반복 날짜가 아닌 프로젝트 날짜를 기본적으로 사용하도록 구성할 수 있습니다. 자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 문서의 [반복에 작업 항목을 추가할 때 날짜가 적용되는 방법 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) 섹션을 참조하십시오.

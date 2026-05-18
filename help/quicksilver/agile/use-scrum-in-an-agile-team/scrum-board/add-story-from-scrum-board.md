@@ -8,9 +8,9 @@ feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '416'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->작업 항목 [!UICONTROL 계획된 시작 일자] 및 [!UICONTROL 계획된 완료 일자]가 [!UICONTROL 팀 편집] 페이지의 설정에 영향을 받습니다. 자세한 내용은 문서 [[!UICONTROL 스크럼 구성]에서 &#x200B;](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)구성[, 작업 항목을 반복에 추가할 때 날짜가 적용되는 방법](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 섹션을 참조하십시오.
+>작업 항목 [!UICONTROL 계획된 시작 일자] 및 [!UICONTROL 계획된 완료 일자]가 [!UICONTROL 팀 편집] 페이지의 설정에 영향을 받습니다. 자세한 내용은 문서 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)에서 [[!UICONTROL 구성], 작업 항목을 반복에 추가할 때 날짜가 적용되는 방법](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) 섹션을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -48,7 +48,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

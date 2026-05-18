@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 7%
 
 ---
@@ -47,13 +47,13 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 ## 번다운 차트에 대체 팀 일정 사용
 
-1. [!DNL Workfront]일정 만들기[에 설명된 대로 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) 관리자가 이미 대체 일정을 만들었는지 확인하십시오.
+1. [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)에 설명된 대로 [!DNL Workfront] 관리자가 이미 대체 일정을 만들었는지 확인하십시오.
 
 {{step1-to-team}}
 

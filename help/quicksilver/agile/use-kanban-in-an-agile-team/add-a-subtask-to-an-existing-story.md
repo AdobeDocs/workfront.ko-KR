@@ -8,9 +8,9 @@ feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '305'
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -63,4 +63,4 @@ ht-degree: 6%
 
 1. 하위 작업을 추가할 스토리가 포함된 [!UICONTROL Kanban] 보드로 이동합니다.
 1. [!UICONTROL Kanban] 보드의 스토리 타일에서 작업 이름을 클릭합니다.
-1. [!DNL Workfront]하위 작업 만들기[에 설명된 대로 &#x200B;](../../manage-work/tasks/create-tasks/create-subtasks.md) 내의 다른 작업 목록에서처럼 작업에 하위 작업을 추가하십시오.
+1. [하위 작업 만들기](../../manage-work/tasks/create-tasks/create-subtasks.md)에 설명된 대로 [!DNL Workfront] 내의 다른 작업 목록에서처럼 작업에 하위 작업을 추가하십시오.
