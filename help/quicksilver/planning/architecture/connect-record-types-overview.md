@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2261'
 ht-degree: 1%
 
 ---
@@ -131,29 +131,36 @@ ht-degree: 1%
       * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오. <!--not sure if this is also possible for content fragments-->
       * GenStudio for Performance Marketing의 브랜드에서는 계획 레코드 필드에 액세스할 수 없습니다.
 
-   * **연결된 레코드 또는 개체에서 조회 필드를 추가할 때**: 연결된 레코드 필드를 만들 수 있을 뿐만 아니라 연결된 레코드 또는 개체 형식의 필드에 연결할 수도 있습니다. 이 필드를 조회 필드라고 합니다. 연결하려는 레코드의 정보가 있는 연결된(또는 조회 필드) 필드는 연결하려는 레코드에 표시됩니다. <!--not sure if this is also possible for content fragments-->
+   * **연결된 레코드 또는 개체에서 조회 필드를 추가할 때**: 연결된 레코드 필드를 만들 수 있을 뿐만 아니라 연결된 레코드 또는 개체 형식의 필드에 연결할 수도 있습니다. 이 필드를 조회 필드라고 합니다. 연결하려는 레코드의 정보가 있는 연결된(또는 조회 필드) 필드는 연결하려는 레코드에 표시됩니다.
 
-     다른 레코드 유형이나 다른 응용 프로그램 객체의 필드를 Workfront Planning 레코드 유형에 연결할 수 있습니다.
+     조회 필드를 추가할 때 다음 사항을 고려하십시오.
 
-     연결된 필드는 읽기 전용이며 연결된 레코드의 정보를 자동으로 표시합니다.
+      * 다른 레코드 유형이나 다른 응용 프로그램 객체의 필드를 Workfront Planning 레코드 유형에 연결할 수 있습니다.
 
-     수식, 필터 또는 그룹화에서 다른 레코드 또는 개체 형식의 조회 필드를 참조할 수 있습니다.
+      * 조회 필드는 읽기 전용이며 연결된 레코드의 정보를 자동으로 표시합니다.
 
-     예를 들어 &quot;캠페인&quot; 레코드 유형을 Workfront 프로젝트와 연결하고 프로젝트의 계획된 완료 일자 필드를 Workfront 계획 레코드로 가져오도록 선택하면 캠페인에 대해 연결된 필드(프로젝트의 계획된 완료 일자)가 자동으로 생성됩니다. 연결된 이 필드는 수동으로 편집할 수 없습니다. 계획된 완료 일자(프로젝트 시작) 필드에는 연결된 프로젝트의 계획된 완료 일자가 표시됩니다.
+      * 일부 필드는 Workfront Planning에서 연결할 수 없습니다. 예를 들어 AEM 콘텐츠 조각에는 다음 필드만 지원됩니다. <!--this information is also in "Connect record types"-->
+
+         * 작성자 및 작성일
+         * 수정자 및 수정된 위치
+
+      * 수식, 필터 또는 그룹화에서 다른 레코드 또는 개체 형식의 조회 필드를 참조할 수 있습니다.
+
+        예를 들어 &quot;캠페인&quot; 레코드 유형을 Workfront 프로젝트와 연결하고 프로젝트의 계획된 완료 일자 필드를 Workfront 계획 레코드로 가져오도록 선택하면 캠페인에 대해 연결된 필드(프로젝트의 계획된 완료 일자)가 자동으로 생성됩니다. 연결된 이 필드는 수동으로 편집할 수 없습니다. 계획된 완료 일자(프로젝트 시작) 필드에는 Workfront에 설정된 대로 연결된 프로젝트의 계획된 완료 일자가 표시됩니다.
 
      >[!IMPORTANT]
      >
      >작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 링크된 객체 유형의 응용 프로그램에서 자신의 권한 또는 액세스 수준이나 다른 작업 영역에서 본인의 권한에 관계없이 조회 필드에서 정보를 볼 수 있습니다.
 
-     연결된 레코드 필드 앞에는 관계 아이콘 ![관계 필드 아이콘](assets/relationship-field-icon.png)이(가) 있습니다.
+      * 연결된 레코드 필드 앞에는 관계 아이콘 ![관계 필드 아이콘](assets/relationship-field-icon.png)이(가) 있습니다.
 
-     연결된 필드 앞에는 필드 유형을 식별하는 아이콘이 표시됩니다. 예를 들어 연결된(또는 조회) 필드 앞에는 필드가 숫자, 단락 또는 날짜임을 나타내는 아이콘이 표시됩니다.
+      * 연결된 조회 필드 앞에는 필드 유형을 식별하는 아이콘이 표시됩니다. 조회 필드 앞에는 필드가 숫자, 단락 또는 날짜임을 나타내는 아이콘이 표시됩니다.
 
-     >[!TIP]
-     >
-     >Workfront 개체의 날짜 필드 정보는 Workfront에 표시되는 방식에 관계없이 Workfront Planning에서 24시간 형식으로 표시됩니다.
-     >
-     >예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3:00(으)로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15:00(으)로 표시됩니다.
+        >[!TIP]
+        >
+        >Workfront 개체의 날짜 필드 정보는 Workfront에 표시되는 방식에 관계없이 Workfront Planning에서 24시간 형식으로 표시됩니다.
+        >
+        >예를 들어 프로젝트의 계획된 시작 일자가 Workfront에서 오후 3:00(으)로 표시되는 경우 가져온 조회 필드에서는 Workfront Planning에서 15:00(으)로 표시됩니다.
 
    * Workfront Planning에서 계층을 생성하려면 레코드 유형을 연결해야 합니다. 레코드 유형 연결이 없으면 계층 구조를 만들 때 자동으로 만들어집니다. 자세한 내용은 [작업 영역 계층 만들기](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)를 참조하십시오.
 
