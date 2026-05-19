@@ -716,7 +716,7 @@ The following functionality is soon to be removed from Workfront:
 
 >[!IMPORTANT]
 >
->Workfront Fusion 설명서가 새 위치로 이동했습니다. Fusion에 대한 정보, 지침 및 릴리스는 [Workfront Fusion 설명서](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)를 참조하십시오.
+>Workfront Fusion 설명서가 새 위치로 이동했습니다. Fusion에 대한 정보, 지침 및 릴리스는 [Workfront Fusion 설명서](https://experienceleague.adobe.com/ko/docs/workfront-fusion/using/home)를 참조하십시오.
 >
 >현재 각 Fusion 설명서 문서에는 새 위치에 있는 해당 문서에 대한 링크가 포함되어 있습니다. 책갈피를 업데이트하십시오.
 >
