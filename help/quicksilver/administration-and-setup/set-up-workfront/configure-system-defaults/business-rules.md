@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1808'
 ht-degree: 3%
 
 ---
@@ -242,7 +242,7 @@ IF({status} = "APR", true)
 
      오류 메시지에 정적 URL을 포함하여 설명서 또는 기타 유용한 페이지에 연결하여 규칙의 제한 사항 내에서 사용자가 작업을 수정하는 방법을 안내할 수 있습니다.
 
-     이 예에서 &quot;자세히 알아보기&quot;는 URL에 연결됩니다. `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL은 괄호로 묶어야 하지만 대괄호로 묶인 링크 텍스트는 필요하지 않습니다. 전체 URL을 표시할 수 있으며 클릭할 수 있는 링크가 됩니다.
+     이 예제에서 &quot;자세히 알아보기&quot;는 URL에 연결됩니다. `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL은 괄호로 묶어야 하지만, 괄호로 묶인 링크 텍스트는 필요하지 않습니다. 전체 URL을 표시할 수 있으며 클릭할 수 있는 링크가 됩니다.
 
    ![비즈니스 규칙 추가 대화 상자](assets/add-business-rule-new.png)
 

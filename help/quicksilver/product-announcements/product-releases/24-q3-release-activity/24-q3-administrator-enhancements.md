@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
 source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 환경 프로모션에 대한 자세한 내용은 [Workfront 환경 간 개체 이동 개요(환경 프로모션)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)를 참조하십시오.
 
-[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 >[!IMPORTANT]
 >
