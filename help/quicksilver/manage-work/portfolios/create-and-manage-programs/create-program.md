@@ -191,7 +191,7 @@ Old:
 
 </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL이 활성화됨] </td> 
+   <td role="rowheader">[!UICONTROL 이 활성화됨] </td> 
    <td> <p>이 프로그램을 활성화하고 사용자가 이 프로그램을 찾아 프로젝트와 연결하려면 이 설정을 확인하십시오.</p>
    <p>선택하지 않으면 프로젝트 또는 템플릿의 프로그램 필드에 프로그램이 표시되지 않습니다. </p> 
  </td> 
@@ -271,7 +271,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 활성 프로젝트 상태]</td> 
-   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 [!UICONTROL], 위험 상태 [!UICONTROL] 또는 문제 발생 [!UICONTROL]로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
+   <td>이는 프로그램에 있는 프로젝트의 [!UICONTROL Condition]이 Target에 대한 , 위험 상태  또는 문제 발생 로 설정된 비율을 계산한 것입니다. 여기에 표시된 프로젝트는 [!UICONTROL Current] 및 [!UICONTROL Approved] 상태의 프로젝트입니다. </td> 
   </tr> 
  </tbody> 
 </table>
