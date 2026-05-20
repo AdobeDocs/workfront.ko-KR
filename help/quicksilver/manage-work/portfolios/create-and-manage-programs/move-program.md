@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 5%
+source-wordcount: '382'
+ht-degree: 3%
 
 ---
 
 # 포트폴리오에 기존 프로그램 추가
 
-<!--Audited: 10/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -87,6 +87,21 @@ Old:
 
 ## 포트폴리오에 기존 프로그램 추가
 
+>[!NOTE]
+>
+>조직에서 문서에 레거시 Workfront 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 다음과 같은 시나리오가 있습니다.
+>
+>
+>* 기존 Adobe 스토리지 포트폴리오에 Workfront 클라우드 스토리지 프로그램을 추가하고 포트폴리오에 첨부된 문서가 없으면 포트폴리오가 Adobe 클라우드 스토리지로 변환됩니다.
+>* 기존 Adobe 스토리지 포트폴리오에 Workfront 클라우드 스토리지 프로그램을 추가하고 포트폴리오에 문서가 첨부되어 있으면 포트폴리오 문서 스토리지는 Workfront 스토리지에 유지됩니다. 그러나 기존 Workfront 저장소 아이콘 ![기존 Workfront 저장소 아이콘](assets/legacy-storage-project-icon.png)이(가) 포트폴리오에서 제거되었습니다.
+>* 기존 Workfront 스토리지 프로그램을 Adobe 클라우드 스토리지 포트폴리오에 추가할 수 없습니다.
+>
+>자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
+>
+>모든 Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 있는 것은 아닙니다.
+
+기존 프로그램을 다른 포트폴리오에 추가하려면 다음 작업을 수행하십시오.
+
 1. 포트폴리오로 이동한 다음 왼쪽 패널에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 기존 프로그램]**&#x200B;을 클릭합니다.
@@ -108,3 +123,4 @@ Old:
 1. **[!UICONTROL 프로그램 추가]**&#x200B;를 클릭합니다.
 
    선택한 포트폴리오의 **[!UICONTROL 프로그램]** 탭에 프로그램이 표시됩니다.
+

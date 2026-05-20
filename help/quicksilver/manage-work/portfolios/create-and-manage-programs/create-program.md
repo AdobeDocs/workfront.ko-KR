@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 2%
+source-wordcount: '1449'
+ht-degree: 1%
 
 ---
 
 # 프로그램 만들기
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -127,17 +127,27 @@ Old:
 
    * [!UICONTROL 프로그램] 영역에서 프로그램을 만듭니다.
 
-      1. 기본 메뉴에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
+      1. [!DNL **주 메뉴**] ![주 메뉴](assets/lines-main-menu.png)에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
       1. **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
       1. 표시되는 상자에서 **[!UICONTROL Portfolio 선택]** 필드에 기존 Portfolio의 이름을 입력합니다.
       1. **[!UICONTROL 이름]** 필드에 새 프로그램의 이름을 입력하십시오.
       1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
    * [!UICONTROL 포트폴리오] 영역에서 프로그램을 만듭니다.
 
-      1. [!UICONTROL 기본 메뉴]에서 **[!UICONTROL 포트폴리오]**&#x200B;를 클릭한 다음 포트폴리오를 엽니다.
+      1. [!DNL **주 메뉴**] ![주 메뉴](assets/lines-main-menu.png)에서 **[!UICONTROL 포트폴리오]**&#x200B;를 클릭한 다음 포트폴리오를 엽니다.
       1. 왼쪽 패널에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
       1. **[!UICONTROL 새 프로그램]** 드롭다운 메뉴를 클릭한 다음 **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
+   * 기존 프로그램 추가:
+      1. [!DNL **주 메뉴**] ![주 메뉴](assets/lines-main-menu.png)에서 **[!UICONTROL 포트폴리오]**&#x200B;를 클릭한 다음 포트폴리오를 엽니다.
+      1. 왼쪽 패널에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
+      1. **[!UICONTROL 새 프로그램]** 드롭다운 메뉴를 클릭한 다음 **[!UICONTROL 기존 프로그램]**&#x200B;을 클릭합니다.
+      1. 기존 프로그램의 이름을 입력하거나 드롭다운 메뉴를 클릭하고 목록에서 선택합니다.
 
+     >[!NOTE]
+     >
+     >조직에서 Workfront 레거시 및 Adobe 클라우드 문서 스토리지를 모두 사용하는 경우 프로그램과 다른 스토리지 유형의 프로젝트를 프로그램에 추가할 수 없습니다.
+     >Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다.
+     >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
 1. (조건부) 포트폴리오에서 프로그램을 만든 경우 **[!UICONTROL 제목 없는 프로그램]** 필드에 프로그램 이름을 지정하십시오.
 
@@ -172,13 +182,20 @@ Old:
       <td role="rowheader">[!UICONTROL 프로그램 관리자]</td> 
       <td> <p>프로그램 관리자 역할을 수행할 사용자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 사용자 이름을 클릭합니다. 이는 [!UICONTROL 프로그램 소유자]와 동일합니다. </p> <p>팁: 프로그램 헤더에서 프로그램 관리자를 업데이트할 수도 있습니다. </p> </td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td role="rowheader">[!UICONTROL Group] </td> 
       <td> <p>그룹이 프로그램을 소유하고 있거나 프로그램 완료를 위한 권한이 있는 경우 단일 그룹의 이름을 추가합니다. </p> <p>마우스로 가리키고 그 옆에 표시되는 [!UICONTROL 정보] 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> 
-       <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-        <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
-       </div> </td> 
-     </tr> 
+       <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
+        </td> 
+     </tr>
+
+</tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL 이 활성화됨] </td> 
+   <td> <p>이 프로그램을 활성화하고 사용자가 이 프로그램을 찾아 프로젝트와 연결하려면 이 설정을 확인하십시오.</p>
+   <p>선택하지 않으면 프로젝트 또는 템플릿의 프로그램 필드에 프로그램이 표시되지 않습니다. </p> 
+ </td> 
+   </tr> 
     </tbody> 
    </table>
 
@@ -210,7 +227,7 @@ Old:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">헤더 정보</td> 
+   <td role="rowheader"><strong>헤더 정보</strong></td> 
    <td> <strong>참고</strong> </td> 
   </tr> 
   <tr> 
@@ -223,19 +240,20 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader">개체 유형 및 활성화 상태의 이름</td> 
-   <td>프로그램을 볼 때 "프로그램"이라는 단어가 주황색 아이콘으로 표시됩니다. "[!UICONTROL Deactivated]"라는 단어가 그 옆에 표시되고 프로그램이 [!UICONTROL Active]로 표시되지 않으면 윤곽선이 회색으로 표시됩니다. </td> 
+   <td>프로그램을 볼 때 "프로그램"이라는 단어가 주황색 아이콘으로 표시됩니다. 프로그램이 [!UICONTROL **프로그램 세부 정보**] 영역에서 [!UICONTROL Is Active]로 표시되지 않으면 "[!UICONTROL Deactivated]"라는 단어가 그 옆에 표시됩니다. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">프로그램의 작업 영역 </td> 
    <td> <p>프로그램에 대한 추가 정보 또는 편집 옵션에 액세스하려면 다음 중 하나를 클릭합니다.</p> 
     <ul> 
      <li>즐겨찾기 목록에 프로그램을 추가하는 별 아이콘</li> 
+     <li>다른 사용자와 공유할 [!UICONTROL **Share**] 단추</li> 
      <li> <p>다음 중 하나를 수행하려면 [!UICONTROL More] 메뉴 <img src="assets/qs-more-menu.png">을(를) 사용하십시오. </p> 
       <ul> 
        <li>프로그램 편집</li> 
        <li>비활성화합니다. 프로그램이 비활성화되면 더 이상 프로젝트 수준의 프로젝트와 연결할 수 없습니다. </li> 
        <li> <p>삭제하십시오. 프로그램을 삭제해도 프로그램의 프로젝트는 삭제되지 않습니다. 프로젝트와 프로그램의 연관성을 제거합니다. </p> </li> 
-       <li>다른 사용자와 공유</li> 
+       <li>프로그램에 대한 표현식을 다시 계산합니다. 이렇게 하면 프로그램의 사용자 정의 양식에서 계산된 모든 사용자 정의 필드가 다시 계산됩니다. </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

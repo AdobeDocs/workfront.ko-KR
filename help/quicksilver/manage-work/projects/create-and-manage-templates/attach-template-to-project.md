@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 5%
+source-wordcount: '1179'
+ht-degree: 4%
 
 ---
 
@@ -114,6 +114,12 @@ ht-degree: 5%
 ## 기존 프로젝트에 템플릿 첨부 {#attach-a-template-to-an-existing-project}
 
 프로젝트 페이지나 프로젝트 목록 또는 보고서에서 프로젝트에 템플릿을 첨부할 수 있습니다.
+
+>[!NOTE]
+>
+>조직에서 기존 Workfront 및 Adobe 클라우드 문서 스토리지를 모두 사용하는 경우 프로젝트의 스토리지 유형과 다른 스토리지 유형을 사용하여 템플릿을 첨부할 수 있습니다. 프로젝트의 문서 저장소는 변경되지 않습니다.
+>
+>자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
 
 {{step1-to-projects}}
 

@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '21714'
+source-wordcount: '21829'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!--Audited: 04/2026-->
 
-Bob: 4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -1436,6 +1436,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>변경 시에만 </td> 
    <td> <p>[!UICONTROL 프로젝트 업데이트] 유형 중 하나입니다. 이 옵션을 선택하면 프로젝트 또는 프로젝트 내 작업에 대한 업데이트 또는 변경이 수행될 때만 [!UICONTROL Project Projected] 및 [!UICONTROL Planned] 타임라인이 업데이트됩니다. 매일 밤 프로젝트를 업데이트하지는 않습니다.</p> <p>자세한 내용은 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">프로젝트 업데이트 형식 선택 </a>을(를) 참조하십시오.</p> </td> 
+  </tr>
+
+</tr>
+  <tr> 
+   <td>[!UICONTROL 기존 Workfront 스토리지]</td> 
+   <td>  <p>기존 Workfront 저장소 아이콘 <img src="assets/legacy-storage-project-icon.png">은(는) 개체가 Workfront 문서 저장소와 연결되어 있음을 나타냅니다. </p> 
+   <p>이 아이콘은 객체 이름 근처, 객체 헤더 또는 일부 목록에 표시됩니다. </p>
+   <p>일부 고객은 기존 Workfront 및 Adobe 클라우드 문서 스토리지를 모두 보유하고 있습니다. 두 가지 유형의 스토리지를 모두 보유한 고객의 경우 이러한 환경 중 하나에 문서를 저장할 수 있습니다.</p>
+   <p>다음 객체에는 Workfront 또는 Adobe 클라우드 문서 저장소가 있을 수 있습니다.</p>
+   <ul><li>프로젝트</li>
+   <li>포트폴리오</li>
+   <li>프로그램</li>
+   <li>템플릿</li>
+   <li>작업</li>
+   <li>문제</li>
+   <li>템플릿 작업</li></ul>
+   <p>프로젝트, 포트폴리오, 프로그램 및 템플릿만 기존 Workfront 스토리지에서 아이콘을 표시할 수 있습니다. </p>
+   <p>Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 없을 수 있습니다. 
+  <p>자세한 내용은 <a href="/help/quicksilver/review-and-approve-work/esm-overview.md">Adobe 클라우드 저장소 개요</a>를 참조하십시오. </p>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 작업]</td> 
