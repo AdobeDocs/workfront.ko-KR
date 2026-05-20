@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
 workflow-type: tm+mt
-source-wordcount: '3914'
+source-wordcount: '3928'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Frame.io 뷰어는 모든 일반적인 비디오, 이미지, 오디오, PDF 및 
 
 #### Frame.io 뷰어에 대한 액세스 및 라이선스
 
-Frame.io 뷰어는 모든 Workfront 검토 및 승인 워크플로의 기본 뷰어입니다. 유료 라이선스가 있는 모든 Workfront 사용자에 대해 자동으로 포함됩니다. 검토 및 승인을 위해 Frame.io 뷰어를 사용하는 데 추가 Frame.io 라이선스가 필요하지 않습니다.
+Frame.io 뷰어는 모든 Workfront 검토 및 승인 워크플로의 기본 뷰어입니다. 추가 비용 없이 검토 또는 승인에 할당된 외부 사용자를 포함하여 모든 Workfront 사용자에 대해 자동으로 포함됩니다. 검토 및 승인을 위해 Frame.io 뷰어를 사용하는 데 추가 Frame.io 라이선스가 필요하지 않습니다.
 
 조직에서 Frame.io의 프로젝트에 직접 에셋을 업로드하는 등 이 통합에서 사용할 수 있는 추가 Frame.io 기능을 활용하려는 경우 Frame.io Enterprise 라이선스를 구입할 수 있습니다. 데모 일정을 예약하고 전체 Frame.io 솔루션의 이점을 살펴보려면 Adobe 계정 담당자에게 문의하십시오.
 
@@ -180,7 +180,7 @@ Workfront에 업로드된 문서는 Adobe 클라우드 저장소에 저장되며
 
 **이 통합을 사용하려면 Frame.io 라이선스가 필요합니까?**
 
-아니요. Frame.io 뷰어는 추가 비용 없이 유료 라이선스가 있는 모든 Workfront 사용자에 대해 자동으로 포함됩니다. Workfront을 통해 에셋을 검토하고 승인하기 위해 별도의 Frame.io 라이선스가 필요하지 않습니다.
+아니요. Frame.io 뷰어는 에셋을 검토하거나 승인하도록 초대된 외부 사용자를 포함하여 추가 비용 없이 모든 Workfront 사용자에 대해 자동으로 포함됩니다. Workfront을 통해 에셋을 검토하고 승인하기 위해 별도의 Frame.io 라이선스가 필요하지 않습니다.
 
 귀사에서 Frame.io의 프로젝트에 직접 에셋을 업로드하는 것과 같이 추가 Frame.io 기능에 액세스하려는 경우 Frame.io Enterprise 라이선스를 구입할 수 있습니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
 
