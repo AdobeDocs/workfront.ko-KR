@@ -5,10 +5,11 @@ title: 프로그램 삭제 및 비활성화
 description: 프로그램은 프로젝트 경계를 초월하는 공통 전략, 목표 또는 목표를 공유하는 프로젝트 컬렉션을 나타냅니다. 프로그램은 포트폴리오의 하위 구분이며 포트폴리오 외부에 존재할 수 없습니다. 일반적으로 프로그램은 동일한 포트폴리오 내의 다른 프로그램과 동일한 리소스를 공유합니다. 프로그램이 관련이 없게 되면 삭제하거나 비활성화할 수 있습니다.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+exl-id: 605d1ec5-ca2e-4ff0-87e1-fa53d8ac4a95
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: '464'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +35,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 패키지</td>
 
-<td> <p>임의</p> </td> 
+<td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
@@ -73,7 +74,14 @@ ht-degree: 0%
 {{step1-to-programs}}
 
 1. 프로그램 이름을 클릭하여 엽니다.
-1. 프로그램 이름 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **프로그램 비활성화**&#x200B;를 클릭합니다.
+1. 다음 중 하나를 수행하십시오.
+
+   * 프로그램 이름 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **프로그램 비활성화**&#x200B;를 클릭합니다.
+   * 프로그램 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **편집**&#x200B;을 클릭합니다
+
+     또는
+
+     왼쪽 패널의 **프로그램 세부 정보** 섹션을 클릭하고 **활성 상태임** 상자를 선택 취소합니다.
 
    프로그램이 즉시 비활성화되고 다음 상황이 발생합니다.
 

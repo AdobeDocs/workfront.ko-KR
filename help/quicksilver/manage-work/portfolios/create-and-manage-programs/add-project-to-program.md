@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 2%
 
 ---
 
 # 프로그램에 프로젝트 추가
 
-<!--Audited: 08/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -114,26 +114,34 @@ old:
    <table style="table-layout:auto"> 
     <col> 
     <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 기존 프로젝트]</td> 
-      <td> <p>이미 생성된 프로젝트를 추가합니다.</p> </td> 
-     </tr> 
-     <tr> 
+    <tbody>
+
+   <tr> 
       <td role="rowheader">[!UICONTROL 새 프로젝트]</td> 
       <td> <p>새 프로젝트를 처음부터 추가합니다. </p> <p>처음부터 프로젝트를 만드는 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">프로젝트 만들기</a>를 참조하십시오. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL MS Project]에서 프로젝트 가져오기] </td> 
+      <td role="rowheader">[!UICONTROL 새 프로젝트(기존 저장소)]</td> 
+      <td> <p>새 Workfront 스토리지 프로젝트를 추가합니다. </p>
+      <p>이 옵션은 조직이 Workfront 및 Adobe 클라우드 문서 스토리지를 모두 사용하는 경우에만 표시됩니다. Workfront 인스턴스에 두 가지 유형의 스토리지가 모두 없을 수 있습니다.</p>
+      <p>프로젝트 만들기에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">프로젝트 만들기</a>를 참조하십시오. </p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">[!UICONTROL 템플릿의 새 프로젝트]</td> 
+      <td> <p>기존 템플릿을 사용하여 새 프로젝트를 추가합니다. </p> <p>템플릿으로 프로젝트를 만드는 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">템플릿을 사용하여 프로젝트 만들기</a>를 참조하십시오.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 가져오기 [!DNL MS Project]] </td> 
       <td> <p>이전에 [!DNL MS Project]에서 내보내고 컴퓨터에 저장한 프로젝트를 추가합니다. </p> <p>[!DNL Microsoft Project]에서 가져와 새 프로젝트를 만드는 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">[!DNL Microsoft Project]</a>에서 프로젝트 가져오기를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 요청 프로젝트]</td> 
       <td> <p>작업을 시작하기 전에 새 프로젝트가 승인되도록 요청합니다.</p> <p>프로젝트 요청에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-projects/request-project.md">프로젝트 요청</a>을 참조하십시오. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 템플릿의 새로운 기능]</td> 
-      <td> <p>기존 템플릿을 사용하여 새 프로젝트를 추가합니다. </p> <p>템플릿으로 프로젝트를 만드는 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">템플릿을 사용하여 프로젝트 만들기</a>를 참조하십시오.</p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL 기존 프로젝트]</td> 
+      <td> <p>이미 생성된 프로젝트를 추가합니다.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -147,8 +155,22 @@ old:
    1. **[!UICONTROL 프로젝트 추가]** 상자에서 **이 프로그램에 프로젝트 추가** 필드에 프로젝트 이름을 입력한 다음 목록에 표시될 때 선택합니다. <!--check casing on links and buttons-->
 
       두 개 이상의 프로젝트를 추가할 수 있습니다.
+
+      >[!NOTE]
+      >
+      >조직에서 문서에 레거시 Workfront 및 Adobe 클라우드 스토리지를 모두 사용하는 경우 다음과 같은 시나리오가 있습니다.
+      >
+      >
+      >* Adobe 클라우드 스토리지 프로젝트를 레거시 Workfront 스토리지 프로그램에 추가하고 프로그램에 문서가 첨부되지 않은 경우 프로그램 및 해당 포트폴리오는 Adobe 클라우드 스토리지 개체로 변환됩니다.
+      >* 기존 Adobe 스토리지 프로그램에 Workfront 클라우드 스토리지 프로젝트를 추가하고 프로그램 또는 포트폴리오에 문서가 첨부되어 있으면 프로그램 또는 포트폴리오 문서 스토리지가 Workfront 스토리지에 유지됩니다. 그러나 레거시 Workfront 저장소 아이콘 ![레거시 Workfront 저장소 아이콘](assets/legacy-storage-project-icon.png)은(는) 프로그램 또는 포트폴리오(프로젝트를 이동하기 전에 문서가 첨부된 어느 것이든)에서 제거됩니다.
+      >* 기존 Workfront 스토리지 프로젝트를 Adobe 클라우드 스토리지 프로그램에 추가할 수 없습니다.
+      >
+      >자세한 내용은 [프로젝트 및 관련 개체에 대한 문서 관리 개요](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)를 참조하십시오.
+      >
+      >모든 Workfront 인스턴스에 두 가지 유형의 문서 저장소가 모두 있는 것은 아닙니다.
+
    1. (선택 사항) 프로그램에 추가하지 않으려면 프로젝트 이름 옆에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete-icon.png)을 클릭합니다.
 
    1. **[!UICONTROL 프로젝트 추가]**&#x200B;를 클릭합니다. <!--check at unshimming-->
 
-      프로젝트가 프로그램의 **[!UICONTROL 프로젝트]** 탭에 나타나고 이제 프로그램 및 프로그램의 각 포트폴리오와 연결됩니다.
+      프로젝트는 프로그램의 **[!UICONTROL 프로젝트]** 탭에 표시되며 이제 프로그램 및 프로그램의 각 포트폴리오와 연결됩니다.

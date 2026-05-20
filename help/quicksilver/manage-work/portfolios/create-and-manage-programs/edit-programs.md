@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 3%
+source-wordcount: '1160'
+ht-degree: 2%
 
 ---
 
@@ -154,8 +154,17 @@ ht-degree: 3%
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>그룹이 프로그램과 연결되어 있거나 프로그램 완료를 위한 권한이 있는 경우 단일 그룹의 이름을 추가합니다. </p> <p><b>팁</b></p>  <p>[!UICONTROL 프로그램 세부 정보] 페이지에서 [!UICONTROL 그룹] 필드에 액세스할 때 다음 작업을 수행하여 올바른 그룹을 선택했는지 확인합니다. </p> <p>그룹 이름을 마우스로 가리킨 다음 그 옆에 있는 [!UICONTROL 정보] 아이콘 <img src="assets/info-icon.png">을(를) 클릭합니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>[!UICONTROL 프로그램 편집] 상자에서는 이 옵션을 사용할 수 없습니다. </p> </p> </td> 
-     </tr> 
-    </tbody> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL이 활성화됨]</td> 
+      <td> <p>이 프로그램을 활성화하고 사용자가 이 프로그램을 찾아 프로젝트와 연결하려면 이 설정을 확인하십시오.</p>
+   <p>선택하지 않으면 프로젝트 또는 템플릿의 프로그램 필드에 프로그램이 표시되지 않습니다. </p>
+   <p>이 설정은 기본적으로 선택되어 있습니다. </p>
+   </td> 
+     </tr>
+
+   </tbody> 
    </table>
 
    <!--

@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 2%
@@ -249,7 +249,7 @@ Old:
 
    작업이 목록에 표시됩니다.
 
-   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. 상위 항목을 찾으면 해당 라디오 단추를 선택합니다.
 
@@ -259,7 +259,7 @@ Old:
 
    또는
 
-   목록에서 작업을 여러 개 선택하면 **작업 복사**&#x200B;를 클릭합니다.
+   목록에서 작업을 여러 개 선택하면 **작업 복사**를 클릭합니다.
 복사된 작업이 이제 지정된 프로젝트에 있으며 선택한 상위 작업의 하위 작업 또는 프로젝트의 마지막 작업입니다.
 
 ## 작업 복제
