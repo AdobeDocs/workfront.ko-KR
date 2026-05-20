@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 34861693e7671c3e485668ab7887a4cd05ae6e99
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Frame.io에 대한 자세한 내용은 [Frame.io 시작하기](https://support.f
 
 프로젝트 코디네이터는 Workfront에서 프로젝트를 만들고 작업을 계획할 수 있습니다. Frame.io 통합이 활성화된 인스턴스에서 만든 프로젝트는 Adobe 생태계 내에서 에셋을 저장하고 관리할 수 있는 Adobe 클라우드 스토리지를 사용합니다.
 
-조직에 Frame.io Enterprise 라이센스가 있는 경우 Workfront에서 만든 프로젝트도 Frame.io에 표시되므로 사용자가 두 제품 중 하나에서 자산을 상호 작용하고 업로드할 수 있습니다.
+조직에 Frame.io Enterprise 라이센스가 있는 경우 Workfront에서 만든 프로젝트도 Frame.io에 표시되므로 사용자가 두 제품 중 하나에서 자산을 상호 작용하고 업로드할 수 있습니다. Frame.io에서 모든 Workfront 연결 프로젝트는 **Workfront 연결 프로젝트**&#x200B;라는 단일 Workspace으로 그룹화됩니다. 연결된 프로젝트가 Frame.io에서 표시되고 작동하는 방법에 대한 자세한 내용은 Frame.io 설명서의 [Adobe Workfront 통합 개요](https://help.frame.io/en/articles/12242607-adobe-workfront-integration-overview)를 참조하십시오.
 
 Frame.io의 Adobe 클라우드 저장소 또는 프로젝트에 대한 자세한 내용은
 
