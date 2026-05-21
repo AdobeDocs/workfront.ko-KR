@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2222'
 ht-degree: 1%
 
 ---
@@ -376,13 +376,15 @@ GenStudio 레코드 유형 필드에 대해 다음 사항을 고려하십시오.
 
 관리 권한이 있는 GenStudio 작업 영역에서 레코드 유형 간에 연결을 만들 수 있습니다.
 
+<!--When AEM object types are connected to GenStudio record types, AEM object metadata reflects on Planning records-->
+
 GenStudio 레코드 유형과 Workfront Planning의 다른 레코드 또는 개체 유형 간에 다음과 같은 연결을 만들 수 있습니다.
 
 * 두 가지 GenStudio 레코드 유형
 * 동일한 작업 영역의 GenStudio 레코드 유형과 Planning 레코드 유형
 * 다른 작업 공간에서 연결하도록 레코드 유형이 구성된 경우 다른 작업 공간의 GenStudio 레코드 유형 및 Planning 레코드 유형입니다.
 * GenStudio 레코드 유형 및 Workfront 개체 유형(프로젝트, 포트폴리오, 프로그램, 회사, 그룹)
-* GenStudio 레코드 유형 및 AEM 개체 유형입니다.
+* GenStudio 레코드 유형 및 AEM 개체 유형입니다. Workfont Planning 및 Adobe GenStudio for Performance Marketing에 대한 라이센스 외에 Adobe Experience Manager이 AEM 객체에 액세스할 수 있는 라이센스가 있어야 합니다.
 * GenStudio 레코드 유형 및 GenStudio 브랜드. 브랜드 연결은 기본적으로 제품 및 가상 사용자 레코드 유형에 추가됩니다.
 
 ### GenStudio 레코드 유형의 요청 양식 및 자동화
