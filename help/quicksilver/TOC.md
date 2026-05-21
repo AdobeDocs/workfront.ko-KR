@@ -251,7 +251,7 @@ ht-degree: 2%
       * Adobe Workfront 제한된 가용성 릴리스 활동{#limited-availability-release-activity}
          * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
          * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능에 대한 2026년 1분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
-         * Adobe Workfront의 제한된 가용성 기능에 대한 {hide-from-toc}[2026년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+         * {hide-from-toc}[Adobe Workfront의 제한된 가용성 기능에 대한 2026년 2분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
       * Adobe Workfront Scenario Planner 릴리스 활동 {#scenario-planner-release}
          * [Adobe Workfront Scenario Planner 릴리스 활동](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [21.3 릴리스의 Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -1017,7 +1017,7 @@ ht-degree: 2%
          * [Adobe Workfront에서 로그아웃](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
          * {hide-from-toc}[향상된 인증으로 사용자 암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
          * [이메일 초대 수신 및 Adobe Workfront 암호 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-         * [ [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
+         * [&#x200B; [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * 모바일 앱 {#mobile-apps}
       * [모바일 앱](workfront-basics/mobile-apps/mobile-apps.md)
@@ -2270,7 +2270,7 @@ ht-degree: 2%
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * {hide-from-toc}[문서 및 증명을  [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)(으)로 업로드
+         * {hide-from-toc}[문서 및 증명을  [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud] (으)로 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용하여 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2278,8 +2278,8 @@ ht-degree: 2%
          * [XD 아트보드를 Workfront에 문서로 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [ [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [ [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [&#x200B; [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [&#x200B; [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator 및 InDesign용 Workfront 확장 {#workfront-for-illustrator-indesign}
          * [Illustrator 및 InDesign용 Workfront 확장 사용](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Adobe Workfront for Jira {#workfront-for-jira}
@@ -2539,7 +2539,7 @@ ht-degree: 2%
          * {hide-from-toc}[Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
          * {hide-from-toc}[태블릿용 Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
       * Workfront Proof 모바일 앱에 대한 팁, 요령 및 문제 해결 {#ttt-wf-proof-mobile-apps}
-         * Workfront Proof 모바일 앱에 대한 {hide-from-toc}[팁, 요령 및 문제 해결](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
+         * {hide-from-toc}[Workfront Proof 모바일 앱에 대한 팁, 요령 및 문제 해결](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
          * {hide-from-toc}[Workfront Proof 모바일 앱에 로그인할 수 없음](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
    * Workfront Proof 기술 코너 {#wf-proof-tech-corner}
       * [Workfront Proof 기술 코너](workfront-proof/wp-tech-corner/tech-corner.md)
