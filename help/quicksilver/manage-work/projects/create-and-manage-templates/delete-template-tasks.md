@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '285'
 ht-degree: 8%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->삭제된 템플릿 작업은 복구할 수 없습니다. 템플릿에 있는 모든 작업을 복구하는 템플릿을 복구할 수 있습니다. 템플릿이 아닌 템플릿 작업을 삭제하면 복구할 수 없습니다.
+>삭제된 템플릿 작업 및 추가 정보(할당, 문서, 승인)는 복구할 수 없습니다. 템플릿에 있는 모든 작업을 복구하는 템플릿을 복구할 수 있습니다. 템플릿이 아닌 템플릿 작업을 삭제하면 복구할 수 없습니다.
 
 
 ## 액세스 요구 사항
