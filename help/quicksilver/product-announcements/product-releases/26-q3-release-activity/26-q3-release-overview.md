@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5160a8bf1eadef19f1a041080670e1efe3777d2f
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '785'
 ht-degree: 4%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 4%
 ## Adobe Workfront 개선 사항
 
 * [문서 개선 사항](#documents-enhancements)
+* [향상된 Financial Management](#financial-management-enhancements)
 * [보고 개선 사항](#reporting-enhancements)
 * [요청 개선 사항](#requesting-enhancements)
 
@@ -68,6 +69,30 @@ ht-degree: 4%
             <td><p>2026년 4월 30일</p></td>
             <td><p>2026년 5월 14일</p></td>
             <td><p>2026년 7월 16일</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### 향상된 Financial Management
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>기능</strong>
+            </td>
+            <td><strong>미리보기</strong></td>
+            <td><strong>빠른 릴리스</strong></td>
+            <td><strong>분기별</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">속도 특성을 비율로 사용한 후에는 편집할 수 없습니다.</a><p>[!BADGE 해제 일정]{type=Neutral}</p><p>[!BADGE 워크플로우 Ultimate]{type=Informative}</p>
+                <p>속성이 Workfront의 속도에 추가되면 설정 영역에서 해당 속성 및 해당 필터를 더 이상 편집할 수 없습니다. 이렇게 하면 데이터 무결성을 유지하고 특성이 업데이트될 때 비율이 실수로 변경되는 것을 방지합니다.</p>
+            </td>
+            <td><p>2026년 5월 21일</p></td>
+            <td><p>2026년 5월 21일</p></td>
+            <td><p>2026년 5월 21일</p></td>
         </tr>
     </tbody>
 </table>
