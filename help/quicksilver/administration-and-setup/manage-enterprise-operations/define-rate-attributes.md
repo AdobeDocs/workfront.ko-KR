@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d5346953162f82f0c1b35d623a0b47104127918d
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 1%
 비율 속성은 작업 역할 이상의 비율에 차원을 추가할 수 있도록 함으로써 Adobe Workfront의 비율 카드 및 비율 기능을 확장합니다. 이는 직무 역할뿐만 아니라 에이전시, 위치, 브랜드, 비용 센터 등과 같은 요인에 따라 요금이 달라지는 에이전시와 기업에 매우 중요합니다.
 이러한 속성을 결합하면 Workfront에서 자동으로 올바른 할당 비율을 선택하여 프로젝트 간 재무 정확성과 일관성을 보장할 수 있습니다.
 
+비율 속성은 일회성 기본 설정입니다.
+
 >[!IMPORTANT]
 >
->비율 속성은 일회성 기본 설정입니다.
-
-속성을 활성화하고 등급 카드 및 요율에 적용하고 나면 나중에 변경하면 전체 재무 설정에서 데이터 무결성이 손상될 수 있습니다.
+>비율 속성이 활성화되고 비율 카드 및 비율에 적용되면 편집할 수 없습니다. 이렇게 하면 재무 설정의 데이터 무결성이 유지됩니다.
 
 ## 비율 속성 개요
 
