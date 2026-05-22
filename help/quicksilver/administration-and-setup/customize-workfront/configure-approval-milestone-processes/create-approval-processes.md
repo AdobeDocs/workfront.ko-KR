@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: 사용자가 작업 항목(프로젝트, 작업, 문제, 템플릿 또는 템플릿 작업), 문서 또는 증명에 첨부할 수 있는 승인 프로세스를 만들 수 있습니다. 승인 프로세스를 통해 시스템에서 객체를 진행하기 전에 객체에 지정된 임무 책임자가 특정 변경 사항을 검토하도록 할 수 있습니다.
-author: Alina
+author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
 source-wordcount: '2231'
 ht-degree: 3%

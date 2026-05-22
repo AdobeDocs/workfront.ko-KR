@@ -5,12 +5,12 @@ content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
 description: 사용자가 작업 항목, 문서 또는 증명에 첨부할 수 있는 승인 프로세스를 만들 수 있습니다. 시스템의 모든 프로젝트에 적용할 수 있는 마일스톤 경로를 만들 수도 있습니다.
-author: Alina
+author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: 87a64e84c36d99cbafde4f40725467219db8e79b
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 4%
