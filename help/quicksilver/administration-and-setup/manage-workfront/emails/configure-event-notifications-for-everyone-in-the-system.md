@@ -7,7 +7,7 @@ role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
-이벤트 알림은 특정 이벤트가 발생하면 사용자에게 이메일을 트리거합니다. Adobe Workfront 관리자 또는 플래너 액세스 수준이 있는 사용자는 시스템의 모든 사용자에 대한 이벤트 알림을 구성할 수 있습니다. 이벤트 알림의 구성은 활성화 또는 비활성화로 구성됩니다.
+이벤트 알림은 특정 이벤트가 발생하면 사용자에게 이메일을 트리거합니다. Adobe Workfront 관리자 또는 표준 또는 플랜 액세스 수준을 가진 사용자는 시스템의 모든 사용자에 대한 이벤트 알림을 구성할 수 있습니다. 이벤트 알림의 구성은 활성화 또는 비활성화로 구성됩니다.
 
 <!--Alina annotation on the word "all" in 2nd sentence: abive, drafted and remains QS only-->
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 먼저 모든 사용자가 Workfront 인스턴스의 설정 영역에서 수신할 알림을 지정해야 합니다. 설정 영역에서 알림을 활성화하면 각 사용자의 프로필 페이지에서 해당 알림이 활성화된 상태로 표시됩니다.
 
-설정 영역에서 알림이 활성화되고 알림이 사용자의 프로필 페이지에 표시되면 개별 사용자 또는 플랜 라이선스가 있는 다른 사용자는 사용자 프로필에서 활성화된 알림을 구성하여 특정 사용자가 수신하는 알림과 그 빈도를 제어할 수도 있습니다. 자세한 내용은 [전자 메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
+설정 영역에서 알림이 활성화되고 알림이 사용자의 프로필 페이지에 표시되면 개별 사용자 또는 표준 또는 플랜 라이선스가 있는 다른 사용자가 사용자 프로필에서 활성화된 알림을 구성하여 특정 사용자가 받는 알림과 받는 빈도를 제어할 수도 있습니다. 자세한 내용은 [전자 메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
 활성화하거나 비활성화할 수 있는 모든 이벤트 알림 목록을 보려면 [이벤트 알림 유형](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)을 참조하세요.
 
@@ -54,7 +54,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>미리 알림에 대한 관리 액세스 권한이 있는 플래너 이상</p> </td> 
+   <td> <p>미리 알림에 대한 관리자 액세스</p> </td> 
   </tr> 
  </tbody> 
 </table>

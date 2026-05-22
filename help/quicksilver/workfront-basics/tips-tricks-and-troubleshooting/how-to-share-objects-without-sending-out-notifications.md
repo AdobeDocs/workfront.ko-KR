@@ -5,13 +5,13 @@ title: 알림을 생성하지 않고 오브젝트를 공유하는 방법
 description: 오브젝트를 공유하고 이 변경 내용에 대한 알림이 전송되지 않도록 하는 방법을 알아봅니다. 이 기능은 개체를 대량으로 공유할 때 특히 유용합니다.
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: b14dd633edec3e9746f7f1412445b74bcd37a676
+exl-id: 02106282-addb-4bdd-82d2-9da5a5f6a687
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 4%
+source-wordcount: '577'
+ht-degree: 6%
 
 ---
-
 
 # 알림을 생성하지 않고 오브젝트를 공유하는 방법
 
@@ -36,9 +36,7 @@ Adobe Workfront에서 오브젝트를 공유하면 오브젝트를 공유하는 
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-객체를 공유하려면 다음 항목이 있어야 합니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,13 +44,12 @@ Adobe Workfront에서 오브젝트를 공유하면 오브젝트를 공유하는 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td> <p>임의 </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새 라이선스: Standard</p> 
-   또는
-   <p>현재 라이선스: 플랜</p>
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>표준</p>
+   <p>플랜</p>
    </td> 
   </tr> 
   <tr> 
@@ -70,7 +67,7 @@ Adobe Workfront에서 오브젝트를 공유하면 오브젝트를 공유하는 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -110,9 +107,3 @@ Adobe Workfront에서 오브젝트를 공유하면 오브젝트를 공유하는 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
    객체는 선택한 사용자와 공유되었으며, 이 변경 사항에 대한 이메일 알림을 받은 사용자는 없습니다.
-
-
-
-
-
-

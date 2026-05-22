@@ -6,10 +6,10 @@ description: 예기치 않은 결과를 포함하여 내가 진행 중인 프로
 feature: Get Started with Workfront
 author: Alina
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 3%
+source-wordcount: '180'
+ht-degree: 13%
 
 ---
 
@@ -17,15 +17,13 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table>
   <tr>
    <td>Adobe Workfront 패키지
    </td>
-   <td> <p>Prime 또는 Ultimate</p>
-    <p>워크플로 얼티밋</p>
-   </td>
+   <td>Any</td>
   </tr>
   <tr>
    <td>Adobe Workfront 라이선스

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 6%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->그룹 관리자와 다른 사용자를 편집할 수 있는 플랜 라이선스가 있는 사용자는 해당 사용자의 프로필을 편집할 때 다른 사용자에게 시스템 수준 또는 그룹 수준 일정을 추가할 수 있습니다.
+>그룹 관리자와 다른 사용자를 편집할 수 있는 Standard 또는 Plan 라이선스를 가진 사용자는 해당 사용자의 프로필을 편집할 때 다른 사용자에게 시스템 수준 또는 그룹 수준 일정을 추가할 수 있습니다.
 
 리소스 계획에 일정을 사용하는 방법에 대한 자세한 내용은 [일정 개요](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) 및 [리소스 플래너 개요](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 

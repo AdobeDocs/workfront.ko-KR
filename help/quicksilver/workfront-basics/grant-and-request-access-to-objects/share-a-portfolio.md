@@ -4,16 +4,16 @@ description: 포트폴리오에 액세스할 수 있는 권한이 있는 경우 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '901'
 ht-degree: 3%
 
 ---
 
 # 포트폴리오 공유
 
-Adobe Workfront 관리자는 액세스 수준을 할당할 때 포트폴리오를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 포트폴리오를 편집하려면 액세스 권한이 있는 플랜 라이선스가 있어야 합니다. 자세한 내용은 [포트폴리오에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)를 참조하십시오.
+Adobe Workfront 관리자는 액세스 수준을 할당할 때 포트폴리오를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 포트폴리오 편집에 액세스하려면 Standard 또는 Plan 라이선스가 있어야 합니다. 자세한 내용은 [포트폴리오에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)를 참조하십시오.
 
 권한이 부여된 액세스 수준과 함께 특정 포트폴리오를 사용자와 공유할 수 있는 사용자로부터 보거나 관리할 수 있는 권한을 받을 수도 있습니다. 액세스 수준 및 사용 권한에 대한 자세한 내용은 [액세스 수준 및 사용 권한이 함께 작동하는 방법](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)을 참조하세요.
 

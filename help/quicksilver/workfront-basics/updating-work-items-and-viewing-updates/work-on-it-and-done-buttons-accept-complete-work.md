@@ -10,9 +10,9 @@ role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '774'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 다음과 같은 사용자는 처리 중(Work On It) 및 완료(Done) 단추를 볼 수 있습니다.
 
-* Standard 라이센스(신규) 또는 Plan 또는 Work 라이센스(현재)
+* 표준 라이선스, 플랜 또는 작업 라이선스
 * 작업 또는 문제에 대한 편집 액세스 권한 이상 제한
 
 >[!NOTE]

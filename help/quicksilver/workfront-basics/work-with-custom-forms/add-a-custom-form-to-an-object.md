@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '747'
 ht-degree: 4%
 
 ---
@@ -106,7 +106,7 @@ Old:
 
 ## 전제 조건
 
-Workfront 관리자 또는 플랜 라이선스와 사용자 정의 양식에 대한 관리 액세스 권한이 있는 사용자는 사용자 정의 양식을 오브젝트에 추가하려면 먼저 사용자 정의 양식을 만들어야 합니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+Workfront 관리자 또는 표준 또는 계획 라이선스와 사용자 정의 양식에 대한 관리 액세스 권한을 가진 사용자는 사용자 정의 양식을 오브젝트에 추가하기 전에 사용자 정의 양식을 만들어야 합니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## 오브젝트에 사용자 정의 양식 추가
 

@@ -9,10 +9,10 @@ feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 8%
+source-wordcount: '332'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-Adobe Workfront에서 사용자는 프로젝트, 작업 및 문제 승인을 다른 사용자에게 위임하여 사용자가 부재 중일 때 승인이 관리되도록 할 수 있습니다. 플랜 라이선스가 있는 사용자는 사용자 위임 보고서를 만들어 다음을 볼 수 있습니다.
+Adobe Workfront에서 사용자는 프로젝트, 작업 및 문제 승인을 다른 사용자에게 위임하여 사용자가 부재 중일 때 승인이 관리되도록 할 수 있습니다. 표준 또는 플랜 라이선스가 있는 사용자는 사용자 위임 보고서를 만들어 다음을 볼 수 있습니다.
 
 * 작업, 문제 및 프로젝트 승인을 다른 사용자에게 위임한 사용자
 * 작업, 문제 및 프로젝트 승인이 할당된 사용자

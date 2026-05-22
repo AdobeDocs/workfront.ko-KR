@@ -8,9 +8,9 @@ author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '3702'
 ht-degree: 0%
 
 ---
@@ -295,7 +295,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 활성 프로젝트 상태]</td> 
-   <td>이는 프로그램에 있는 활성 프로젝트의 [!UICONTROL Condition]이 Target에 대한 , 위험 상태  또는 문제 발생 로 설정된 비율을 계산한 것입니다.</td> 
+   <td>이는 프로그램에 있는 활성 프로젝트의 [!UICONTROL Condition]이 Target에 대한 [!UICONTROL], 위험 상태 [!UICONTROL] 또는 문제 발생 [!UICONTROL]로 설정된 비율을 계산한 것입니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -700,7 +700,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 라이선스 사용 중] </td> 
-   <td> <p>[!UICONTROL Licenses in use] 상자는 그룹 및 해당 하위 그룹에 있는 [!UICONTROL Plan] 및 [!UICONTROL Work] 라이선스 사용자 수를 표시합니다. 숫자를 클릭하면 5개의 모든 라이선스 유형에 대한 이 정보를 볼 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">새 [!DNL Adobe Workfront] 경험에서 그룹에 할당되어 사용되는 라이선스 수를 확인</a>하세요.</p> </td> 
+   <td> <p>[!UICONTROL Licenses in use] 상자는 그룹 및 해당 하위 그룹에 있는 [!UICONTROL Standard] 또는 [!UICONTROL Plan] 및 [!UICONTROL Work] 라이선스 사용자 수를 표시합니다. 숫자를 클릭하면 모든 라이선스 유형에 대한 이 정보를 볼 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">그룹에 할당되어 사용되는 라이선스 수 보기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 그룹 관리자]</td> 
@@ -747,7 +747,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">승인 [!UICONTROL 결정] 영역</td> 
-   <td> [!UICONTROL Decisions] 영역은 문서 헤더의 오른쪽 위 모서리에 표시됩니다. 이 영역은 승인 단계와 승인자 또는 검토자 여부에 따라 다릅니다. <ul><li> <p>승인자인 경우 다음 아이콘을 사용하여 문서에 대한 승인을 관리할 수 있습니다.</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL 회수]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL 거부]</p> <p>승인 결정에 대한 자세한 내용은 <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">작업 승인</a>을 참조하세요.</li><li><p>검토자인 경우 내 검토 완료 버튼을 클릭하여 문서를 검토했음을 나타낼 수 있습니다.</p><p>문서 검토에 대한 자세한 내용은 <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">문서 검토</a>를 참조하십시오.</p></li><li>그렇지 않은 경우 이 영역에는 문서에 대한 현재 검토 및 승인 상태가 표시됩니다.</li><ul></p> </td> 
+   <td> 문서 헤더의 오른쪽 상단에 [!UICONTROL Decisions] 영역이 표시됩니다.이 영역은 승인 단계와 승인자 또는 검토자 여부에 따라 다릅니다. <ul><li> <p>승인자인 경우 다음 아이콘을 사용하여 문서에 대한 승인을 관리할 수 있습니다.</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL 회수]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL 거부]</p> <p>승인 결정에 대한 자세한 내용은 <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">작업 승인</a>을 참조하세요.</li><li><p>검토자인 경우 내 검토 완료 버튼을 클릭하여 문서를 검토했음을 나타낼 수 있습니다.</p><p>문서 검토에 대한 자세한 내용은 <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">문서 검토</a>를 참조하십시오.</p></li><li>그렇지 않은 경우 이 영역에는 문서에 대한 현재 검토 및 승인 상태가 표시됩니다.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -922,7 +922,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 상태]</td> 
-   <td>목표가 활성 상태인지, 새 상태인지, 아니면 닫혀 있는지 여부를 나타냅니다. 목표 상태를 수동으로 업데이트할 수 없습니다. 자세한 내용은 <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">의 [!DNL Adobe Workfront Goals]</a>목표 상태 개요를 참조하십시오.</td> 
+   <td>목표가 활성 상태인지, 새 상태인지, 아니면 닫혀 있는지 여부를 나타냅니다. 목표 상태를 수동으로 업데이트할 수 없습니다. 자세한 내용은 [!DNL Adobe Workfront Goals]</a>의 <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">목표 상태 개요를 참조하십시오.</td> 
   </tr> 
  </tbody> 
 </table>

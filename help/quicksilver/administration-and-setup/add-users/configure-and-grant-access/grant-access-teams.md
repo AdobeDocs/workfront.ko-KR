@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 8%
+source-wordcount: '677'
+ht-degree: 7%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 ## 사용자 정의 액세스 수준을 사용하여 팀의 편집에 대한 사용자 액세스 구성
 
 1. [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에 설명된 대로 액세스 수준을 만들거나 편집하십시오.
-1. 팀 오른쪽의 ![](assets/gear-icon-settings.png)보기&#x200B;**또는**&#x200B;편집&#x200B;**단추에서 톱니바퀴 아이콘**&#x200B;을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
+1. 팀 오른쪽의 **보기** 또는 **편집** 단추에서 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
 
    ![팀 미세 조정](assets/fine-tune-teams.png)
 
@@ -71,7 +71,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
        </tbody>
       </table>
 
-   * **편집**: 플랜 라이선스와 작업 라이선스가 있는 사용자가 팀을 관리하는 방법을 구성하는 경우 다음 옵션 중 하나를 변경하십시오.
+   * **편집**: Standard, Plan 또는 Work 라이선스를 가진 사용자가 팀을 관리하는 방법을 구성하는 경우 다음 옵션을 변경하십시오.
 
      <table style="table-layout:auto">
        <col>
@@ -79,19 +79,19 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
        <tbody>
         <tr>
          <td role="rowheader">만들기</td>
-         <td><p>플랜 라이선스 또는 작업 라이선스가 있는 사용자가 팀을 만들 수 있도록 허용합니다.</p><p>이 옵션은 기본적으로 활성화되어 있습니다.</p></td>
+         <td><p>Standard, Plan 또는 Work 라이선스가 있는 사용자가 팀을 만들 수 있습니다.</p><p>이 옵션은 기본적으로 활성화되어 있습니다.</p></td>
         </tr>
         <tr>
          <td role="rowheader">삭제</td>
-         <td><p> 플랜 라이선스가 있는 사용자가 편집할 수 있는 액세스 권한이 있는 팀을 삭제할 수 있도록 허용합니다(작업 라이선스가 있는 사용자는 사용할 수 없음).</p><p>이 옵션은 기본적으로 활성화되어 있습니다.</p></td>
+         <td><p> Standard 또는 Plan 라이선스가 있는 사용자가 편집 액세스 권한이 있는 팀을 삭제할 수 있도록 허용합니다(작업 라이선스가 있는 사용자는 사용할 수 없음).</p><p>이 옵션은 기본적으로 활성화되어 있습니다.</p></td>
         </tr>
         <tr>
          <td role="rowheader">내가 관리하는 그룹의 팀 편집(그룹 관리자 전용)</td>
-         <td><p>그룹 관리자로 지정된 플랜 라이선스 사용자가 자신이 관리하는 그룹과 관련된 팀을 편집할 수 있도록 허용합니다.</p><p>이 옵션은 기본적으로 활성화되어 있습니다.</p></td>
+         <td><p>그룹 관리자로 지정된 Standard 또는 Plan 라이선스 사용자가 자신이 관리하는 그룹과 관련된 팀을 편집할 수 있도록 허용합니다.</p><p>이 옵션은 기본적으로 활성화되어 있습니다.</p></td>
         </tr>
         <tr>
          <td role="rowheader">내가 속한 팀 편집</td>
-         <td><p>플랜 라이선스 또는 작업 라이선스에서 사용자가 멤버인 팀을 편집할 수 있도록 허용합니다.</p><p>이 옵션은 기본적으로 비활성화되어 있습니다.</p></td>
+         <td><p>표준, 플랜 또는 작업 라이선스가 있는 사용자가 멤버인 팀을 편집할 수 있도록 허용합니다.</p><p>이 옵션은 기본적으로 비활성화되어 있습니다.</p></td>
         </tr>
         <tr>
          <td role="rowheader">내 그룹과 관련된 팀 보기</td>
@@ -125,4 +125,4 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
 ## 라이선스 유형별 팀에 액세스
 
-각 액세스 수준의 사용자가 팀을 사용하여 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams)의 [팀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) 섹션을 참조하십시오.
+각 액세스 수준의 사용자가 팀을 사용하여 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)의 [팀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#teams) 섹션을 참조하십시오.

@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,7 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 1. 관리할 애자일 팀을 선택합니다.
 1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
-   [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
+   [!UICONTROL 표준], [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
 
 1. **[!UICONTROL 애자일]** 섹션에서 **[!UICONTROL 스토리 게시판]** 영역을 찾습니다.
 1. (선택 사항) 스토리 보드에 상태 열을 추가하려면 **[!UICONTROL 열 추가]**&#x200B;를 클릭합니다.
@@ -134,7 +134,7 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
 ### 프로젝트에 대한 상태 열 구성 {#configure-status-columns-for-projects}
 
-프로젝트의 상태 열을 구성하는 방법에 대한 자세한 내용은 문서 [다음 위치에서 보기 만들기 또는 편집 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)에서 [애자일] 보기 만들기 또는 사용자 지정(../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) 섹션을 참조하십시오.
+프로젝트의 상태 열을 구성하는 방법에 대한 자세한 내용은 문서 [다음 위치에서 보기 만들기 또는 편집 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)에서 [애자일] 보기 만들기 또는 사용자 지정](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) 섹션을 참조하십시오.[!UICONTROL 
 
 ## 애자일 스토리 보드에서 스토리 카드에 표시할 추가 필드를 구성합니다.
 
@@ -188,7 +188,7 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
    [!UICONTROL 표준], [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
 
-1. [!UICONTROL 애자일] 섹션의 [!UICONTROL 카드 색상을 &#x200B;]에 연결 영역에서 다음 옵션 중 하나를 선택하십시오.
+1. [!UICONTROL 애자일] 섹션의 [!UICONTROL 카드 색상을 ]에 연결 영역에서 다음 옵션 중 하나를 선택하십시오.
 
    * **[!UICONTROL 프로젝트]**: 스토리가 연결된 프로젝트와 색상이 연결되어 있습니다. 스토리가 만들어지면 [애자일 스토리 만들기](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md)에 설명된 대로 프로젝트와 연결되어야 합니다. 동일한 프로젝트의 모든 작업이 동일한 색상으로 표시됩니다.
    * **[!UICONTROL 자유 형식]**: 스크럼 보드의 [[!UICONTROL 색상별 스토리 분류]에 설명된 대로 사용자가 색상을 수동으로 변경할 때까지 기본적으로 모든 카드가 파란색으로 표시됩니다](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
