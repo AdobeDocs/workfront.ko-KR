@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ee971729c414018a04b1d1fc2a59760e9ea0a59a
+source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
 workflow-type: tm+mt
-source-wordcount: '21832'
+source-wordcount: '21952'
 ht-degree: 0%
 
 ---
@@ -686,6 +686,10 @@ ht-degree: 0%
    <td>화면 왼쪽에 있는 메뉴로, 항목이 활성 컨텐츠와 상관 관계를 맺도록 변경됩니다. 예를 들어 사용자가 프로젝트를 볼 때 [!UICONTROL 상황별 메뉴]에 프로젝트 관련 정보 및 도구에 대한 링크가 표시됩니다.</td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL 기여자]</td> 
+   <td><p>일반적으로 라이선스 유형입니다. [!UICONTROL 기여자] 라이센스가 있는 사용자는 시스템에서 발생할 새 작업에 대한 요청을 제출할 수 있습니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">액세스 수준 개요</a>를 참조하세요.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Converted Issue Originator]</td> 
    <td>문제가 프로젝트 또는 작업으로 변환될 때 문제의 [!UICONTROL 기본 담당자]인 사용자에 대한 정보를 표시하는 프로젝트 또는 작업 보고서의 필드입니다. 필드는 [!UICONTROL 프로젝트 세부 사항] 섹션에도 표시되며, 여기에서는 변환된 문제의 [!UICONTROL 기본 담당자]의 이름을 표시합니다. 이 문서에서 "[!UICONTROL 기본 담당자]"도 참조하십시오.</td> 
   </tr> 
@@ -1276,6 +1280,10 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL 라이선스 제한 작업]</td> 
    <td> <p>[!UICONTROL 그룹] 보기 또는 보고서에서 이 필드는 해당 그룹이 [!UICONTROL 홈 그룹]으로 지정된 사용자에게 할당할 수 있는 최대 [!UICONTROL 작업] 라이선스 수를 표시합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Light]</td> 
+   <td><p>일반적으로 라이선스 유형입니다. [!UICONTROL Light] 라이선스가 있는 사용자는 시스템에서 작업 항목을 검토하고 승인할 수 있습니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">액세스 수준 개요</a>를 참조하세요.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limited User]</td> 
@@ -2147,7 +2155,11 @@ The designated full time equivalency for users. A full-time user should have 100
     <li>문제 보고서에 대한 프로젝트 이름 또는 작업 이름 열입니다. </li> </ul>
     자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">다른 사용자의 액세스 권한으로 보고서 실행 및 전달</a>을 참조하세요. 
    </td> 
-  </tr> 
+  </tr>
+  <tr>
+   <td>[!UICONTROL Standard]</td> 
+   <td> <p>[!DNL Workfront] 시스템의 전체 라이선스 유형입니다. [!DNL Workfront]의 모든 기능에 액세스하려면 사용자에게 이 권한이 있어야 합니다.</p><p>이 모델의 라이선스의 경우 Work와 동등한 것이 없습니다. 이전에 작업 라이선스가 있었던 사용자는 해당 라이선스의 모든 기능을 가진 표준 사용자가 됩니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">액세스 수준 개요</a>를 참조하세요.</p> </td> 
+  </tr>  
   <tr> 
    <td>[!UICONTROL 시작 일자]</td> 
    <td> <p>항목에 대한 작업이 시작되도록 설정된 날짜. [!DNL Workfront]에 몇 가지 시작 날짜가 있습니다. </p> 
@@ -2584,3 +2596,4 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
  </tbody> 
 </table>
+
