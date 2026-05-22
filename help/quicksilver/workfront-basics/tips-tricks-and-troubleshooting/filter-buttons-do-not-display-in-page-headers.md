@@ -6,10 +6,10 @@ description: 페이지 헤더에 표시되지 않는 필터 단추 문제를 해
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '287'
+ht-degree: 10%
 
 ---
 
@@ -17,15 +17,13 @@ ht-degree: 3%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table>
   <tr>
    <td>Adobe Workfront 패키지
    </td>
-   <td> <p>Prime 또는 Ultimate</p>
-    <p>워크플로 얼티밋</p>
-   </td>
+   <td>Any</td>
   </tr>
   <tr>
    <td>Adobe Workfront 라이선스

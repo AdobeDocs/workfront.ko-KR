@@ -7,9 +7,9 @@ description: Workfront에 있는 동안 Experience Manager Assets 또는 Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 3%
 
 ---
@@ -59,7 +59,7 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials와
   <tr>
    <td><strong>액세스 수준 구성</strong>
    </td>
-   <td>Experience Manager 통합을 구성하려면 Workfront 관리자여야 합니다. 구성된 후 플랜 라이선스가 있는 사용자는 개별 프로젝트에 연결된 폴더를 설정할 수 있습니다.
+   <td>Experience Manager 통합을 구성하려면 Workfront 관리자여야 합니다. 구성 후 Standard 또는 Plan 라이선스가 있는 사용자는 개별 프로젝트에 연결된 폴더를 설정할 수 있습니다.
    </td>
   </tr>
 </table>

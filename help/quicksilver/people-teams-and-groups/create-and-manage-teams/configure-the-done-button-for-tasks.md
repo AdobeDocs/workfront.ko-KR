@@ -8,9 +8,9 @@ feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '767'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 특정 권한이 있는 사용자는 [!UICONTROL 완료] 단추를 구성하여 시스템의 특정 상태와 연결할 수 있습니다. [!UICONTROL Workfront]의 작업에 대해 [!UICONTROL 완료] 단추가 작동하는 방법은 두 가지가 있습니다.
 
-* 사용자에게 할당된 홈 팀이 있는 경우 [!DNL Workfront] 관리자 또는 [!UICONTROL 계획] 라이선스가 있는 사용자가 팀 구성원의 특정 상태를 반영하도록 [!UICONTROL 완료] 단추를 구성할 수 있습니다. 이 문서에서 [팀에 대한 [!UICONTROL 완료] 단추 구성](#configure-the-uicontrol-done-button-for-a-team)을(를) 참조하십시오.
+* 사용자에게 할당된 홈 팀이 있는 경우 [!DNL Workfront] 관리자 또는 [!UICONTROL 표준] 또는 [!UICONTROL 계획] 라이선스를 가진 사용자는 팀 구성원의 특정 상태를 반영하도록 [!UICONTROL 완료] 단추를 구성할 수 있습니다. 이 문서에서 [팀에 대한 [!UICONTROL 완료] 단추 구성](#configure-the-uicontrol-done-button-for-a-team)을(를) 참조하십시오.
 * 사용자에게 [!UICONTROL 홈 팀]이 없지만 프로필에 [!UICONTROL 다른 팀]이 있는 경우 Workfront은 사용자와 연결된 모든 팀에서 [!UICONTROL 완료] 단추 설정을 검색합니다. 선택은 임의이며 팀과 연관된 상태가 작업에 사용됩니다.
 * 사용자에게 할당된 홈 팀이 없는 경우 작업의 [!UICONTROL 완료] 단추가 완료 상태로 연결됩니다. 이 시나리오에는 사용 가능한 구성 옵션이 없습니다. [!UICONTROL 완료] 단추의 기본값은 자동으로 이 상태입니다.
 
@@ -98,7 +98,7 @@ ht-degree: 4%
 
 사용자를 홈 팀과 연결하려면 다음 작업을 수행하십시오.
 
-1. **[!UICONTROL 의 오른쪽 위 모서리에 있는]**&#x200B;주 메뉴![](assets/main-menu-icon.png) 아이콘 [!DNL Adobe Workfront]을(를) 클릭합니다.
+1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
 
 1. **[!UICONTROL 사용자]**&#x200B;를 클릭한 다음 홈 팀에 연결할 사용자를 선택하십시오.
 1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.\

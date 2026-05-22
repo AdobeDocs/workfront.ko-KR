@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 12%
+source-wordcount: '339'
+ht-degree: 5%
 
 ---
 
@@ -52,11 +52,11 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 ## 사용자 정의 액세스 수준을 사용하여 필터, 보기 및 그룹화에 대한 사용자 액세스 구성
 
 1. [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에 설명된 대로 액세스 수준을 만들거나 편집하십시오.
-1. 필터 오른쪽의 ![](assets/gear-icon-settings.png)보기&#x200B;**또는**&#x200B;편집&#x200B;**단추에서 톱니바퀴 아이콘**&#x200B;을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
+1. 필터 오른쪽의 **보기** 또는 **편집** 단추에서 톱니바퀴 아이콘 ![](assets/gear-icon-settings.png)을(를) 클릭한 다음 **설정을 미세 조정**&#x200B;에서 부여할 기능을 선택합니다.
 
    ![](assets/gear-icon-filters-dashboards-groupings.png)
 
-   기본적으로 플랜, 작업, 검토자 또는 요청 라이선스가 있는 사용자는 전체 보기 및 편집 권한이 있습니다. 외부 사용자 라이선스가 있는 사용자는 필터, 보기 및 그룹화에 액세스할 수 없습니다.
+   기본적으로 표준, 플랜, 작업, 라이트, 검토자, 기여자 또는 요청 라이선스를 가진 사용자는 전체 보기 및 편집 기능을 사용할 수 있습니다. 외부 사용자 라이선스가 있는 사용자는 필터, 보기 및 그룹화에 액세스할 수 없습니다.
 
    <!--
    If this changes, undraft section with table below
@@ -67,13 +67,16 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
    액세스 수준이 만들어지면 사용자에게 이를 할당할 수 있습니다. 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
+## 라이선스 유형별 필터, 보기 및 그룹화에 액세스
+
+각 액세스 수준의 사용자가 필터, 보기 및 그룹화로 수행할 수 있는 작업에 대한 자세한 내용은 문서 [각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)의 [필터, 보기 및 그룹화](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#filters-views-and-groupings) 섹션을 참조하십시오.
+
 <!--
-## Access to filters, views, and groupings by license type
 
-Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
--->
+Drafting out this section for now because the table is redundant since all four license types can do everything.
 
-이 표에는 Workfront 관리자가 각 라이선스 유형을 가진 사용자가 필터, 보기 및 그룹화를 수행하도록 할 수 있는 사항이 나와 있습니다. Workfront 라이선스 유형에 대한 자세한 내용은 [Adobe Workfront 라이선스 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)를 참조하십시오.
+
+This table lists what a Workfront administrator can allow users with each license type to do with filter, views, and groupings. For information about the Workfront license types, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
 <table style="table-layout:auto">
 <col>
@@ -83,51 +86,51 @@ Drafting out this section for now because the table is redundant since all four 
 <col>
 <thead>
 <tr>
-<th> 액션 </th>
-<th> 플래너 </th>
-<th> 보조 </th>
-<th> 검토자 </th>
-<th> 요청자 </th>
+<th> Action </th>
+<th> Planner </th>
+<th> Worker </th>
+<th> Reviewer </th>
+<th> Requester </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>필터, 보기 및 그룹화 편집</td>
+<td>Edit filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>필터, 보기 및 그룹화 만들기</td>
+<td>Create filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>필터, 보기 및 그룹화 보기</td>
+<td>View filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>필터, 보기 및 그룹화 삭제</td>
+<td>Delete filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>필터, 보기 및 그룹화 공유</td>
+<td>Share filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>필터, 보기 및 그룹화를 시스템 전체에서 공유</td>
+<td>Share filters, views, and groupings system-wide</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
@@ -135,3 +138,5 @@ Drafting out this section for now because the table is redundant since all four 
 </tr>
 </tbody>
 </table>
+
+-->

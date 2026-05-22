@@ -9,9 +9,9 @@ feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '381'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 | **기능** | **그룹** | **팀** |
 |---|---|---|
-| 플래너가 만들 수 있습니다. |  | ✓ |
+| Standard 또는 Plan 라이선스 사용자는 |  | ✓ |
 | Workfront 관리자만 만들 수 있습니다. | ✓ |  |
 | 개체 공유 | ✓ | ✓ |
 | 작업 할당 |  | ✓ |
@@ -67,7 +67,7 @@ ht-degree: 1%
 | 일정 가시성 | ✓ |  |
 | 타임시트 프로필 할당 | ✓ | ✓ |
 | 레이아웃 템플릿 할당 | ✓ | ✓ |
-| 플랜 라이선스가 있는 모든 사용자는 플랜을 다른 사용자에게 할당할 수 있습니다. |  | ✓ |
+| Standard 또는 Plan 라이선스를 가진 모든 사용자는 이 라이선스를 다른 사용자에게 할당할 수 있습니다. |  | ✓ |
 | 상태 사용자 지정 | ✓ |  |
 | [!UICONTROL 완료] 단추 사용자 지정 |  | ✓ |
 | 라이선스 추적 | ✓ |  |

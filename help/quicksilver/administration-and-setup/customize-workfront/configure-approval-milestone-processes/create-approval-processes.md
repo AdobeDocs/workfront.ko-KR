@@ -10,9 +10,9 @@ role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2231'
 ht-degree: 3%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 패키지*</td> 
+   <td role="rowheader">Adobe Workfront 패키지</td> 
    <td><p>시스템 수준 또는 단일 사용 승인 프로세스의 경우:</p><ul><li><p>모든 패키지</p></li></ul>
    <p>그룹 수준 승인 프로세스의 경우:</p>
    <ul><li><p>워크플로우 Prime 또는 Ultimate</p></li>
@@ -73,7 +73,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -176,7 +176,7 @@ For more detail about the information in this table, see [Access requirements in
        <ul> 
        <li> <b>모든 그룹</b>을(를) 선택하면 시스템 전체 상태만 사용할 수 있습니다.
        <li> <p>특정 그룹을 선택하면 해당 그룹에 사용 가능한 상태만 사용할 수 있습니다</p> </li> 
-       </ul> <p>승인 프로세스가 상태로 작동하는 방법에 대한 자세한 내용은 문서 <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">승인 프로세스 개요</a>에서 <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">승인 프로세스가 상태를 사용하는 방법</a> 섹션을 참조하십시오.</p> </td> 
+       </ul> <p>승인 프로세스가 상태로 작동하는 방법에 대한 자세한 내용은 문서 <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">승인 프로세스 개요</a>에서 <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">승인 프로세스가 상태를 사용하는 방법</a> 섹션을 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">단계 이름</td> 
@@ -260,6 +260,6 @@ For more detail about the information in this table, see [Access requirements in
 
 ## 사용자가 단일 작업 항목에 대한 글로벌 승인 프로세스를 수정할 수 있도록 설정
 
-기본적으로 프로젝트, 작업 및 문제에 대한 관리 권한이 있는 사용자는 프로젝트, 작업 및 문제에 대한 일회용 승인 프로세스를 만들 수 있습니다. 단일 사용 승인 프로세스를 프로젝트, 작업 및 문제에 추가하는 방법에 대한 자세한 내용은 문서 [새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process)의 [단일 사용 승인 프로세스를 프로젝트, 작업, 문제, 템플릿 또는 템플릿 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) 섹션을 참조하십시오.
+기본적으로 프로젝트, 작업 및 문제에 대한 관리 권한이 있는 사용자는 프로젝트, 작업 및 문제에 대한 일회용 승인 프로세스를 만들 수 있습니다. 단일 사용 승인 프로세스를 프로젝트, 작업 및 문제에 추가하는 방법에 대한 자세한 내용은 문서 [새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)의 [단일 사용 승인 프로세스를 프로젝트, 작업, 문제, 템플릿 또는 템플릿 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) 섹션을 참조하십시오.
 
 작업 항목과 연결된 글로벌 승인 프로세스에 대한 설정을 변경할 수도 있습니다. 이러한 변경 사항은 시스템 수준 승인 프로세스와 연결된 프로젝트, 작업 또는 문제에만 영향을 줍니다. 자세한 내용은 문서 [새 승인 프로세스나 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)의 &quot;특정 개체에서 사용할 전역 승인 프로세스 수정&quot; 섹션을 참조하십시오.

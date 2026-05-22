@@ -8,16 +8,14 @@ feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
 
 # 업무 균형자에서 리소스를 관리하는 데 필요한 액세스
-
-{{preview-fast-release-general}}
 
 올바른 액세스 또는 권한이 없으면 업무 균형자에서 작업 할당을 보거나 관리하지 못할 수 있습니다.
 
@@ -90,7 +88,7 @@ For information about where you can locate the Workload Balancer in Workfront, s
 
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-<span class="preview">모든 사용자는 자신의 프로필에서 업무 균형자를 볼 수 있는 액세스 권한을 갖습니다. 이는 라이선스 또는 액세스 수준에 의해 제한되지 않습니다. 사용자 프로필의 업무 균형자 는 읽기 전용이며 할당 및 할당을 변경할 수 없습니다.</span>
+모든 사용자는 자신의 프로필에서 업무 균형자를 볼 수 있는 액세스 권한을 갖습니다. 이는 라이선스 또는 액세스 수준에 의해 제한되지 않습니다. 사용자 프로필의 업무 균형자 는 읽기 전용이며 할당 및 할당을 변경할 수 없습니다.
 
 ## 업무 균형자에서 할당을 관리하는 데 필요한 액세스
 
@@ -124,8 +122,4 @@ For information about where you can locate the Workload Balancer in Workfront, s
 
 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-<!--
-these notes were inside the table: for the Edit access to Res Management
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Financial Data access level, see the article<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>. (NOTE: this is not possible yet!)</p>
-    -->
+

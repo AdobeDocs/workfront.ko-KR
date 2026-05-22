@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 미리 알림과 관련된 특성은 다음과 같습니다.
 
-* 관리자 또는 플랜 라이선스가 있고 미리 알림에 대한 관리 액세스 권한이 있는 사용자가 만들 수 있습니다.
+* 관리자 또는 표준 플랜 라이선스 및 미리 알림에 대한 관리 액세스 권한을 가진 모든 사용자가 만들 수 있습니다.
 * 오브젝트에 수동으로만 연결할 수 있음
 * 첨부된 오브젝트에 대해서만 알림 가능
 * 소유자, 작성자, 승인자 또는 할당자와 같은 다양한 개체 관련자에게 보낼 수 있습니다

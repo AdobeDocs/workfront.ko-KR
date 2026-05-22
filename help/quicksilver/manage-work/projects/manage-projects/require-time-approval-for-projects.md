@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 2%
        <li>프로젝트에 대한 관리 권한이 있는 경우 다른 사용자가 프로젝트에 기록한 시간을 승인하거나 거부할 수 있습니다.</li>
        <li> 프로젝트에 대한 기여 또는 보기 액세스 권한이 있는 경우 귀하 또는 귀하를 보고하는 다른 사용자가 기록한 시간만 승인하거나 거부할 수 있습니다.<br></li>
       </ul></li> 
-     <li>타임시트 및 시간에 대한 관리 액세스 권한이 있는 플랜 라이선스가 있습니다. 이 경우:
+     <li>타임시트 및 시간에 대한 관리 액세스 권한이 있는 표준 또는 플랜 라이선스가 있습니다. 이 경우:
       <ul>
        <li>볼 수 있는 최소 권한이 있는 프로젝트의 시간을 승인하거나 거부할 수 있습니다. </li>
       </ul></li> 
