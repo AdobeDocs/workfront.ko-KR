@@ -5,13 +5,13 @@ content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: 이 문서에서는 Workfront 관리자(또는 승인 프로세스에 대한 관리 액세스 권한이 있는 사용자)가 그룹과의 연결을 변경할 때 승인 프로세스가 이미 사용 중일 때 발생하는 상황을 설명합니다.
-author: Alina
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1539'
 ht-degree: 1%
 
 ---
