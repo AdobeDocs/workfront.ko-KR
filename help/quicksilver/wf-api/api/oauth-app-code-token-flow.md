@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 947a12504623e31a28d660675b12fb90522a56f4
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ OAuth2로 사용자를 로그인하려면 다음 프로세스를 사용하십시
 
    토큰 끝점에 대한 CURL 호출의 **예:** 예:
 
-   예 1
+   예제 1
 
    ```
       curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \
@@ -157,7 +157,7 @@ OAuth2로 사용자를 로그인하려면 다음 프로세스를 사용하십시
    }
    ```
 
-   액세스 토큰은 ```sessionID```과(와) 동일하며 일반 ```sessionID```과(와) 같은 방식으로 만료됩니다.
+   액세스 토큰은 `sessionID`과(와) 동일하며 일반 `sessionID`과(와) 같은 방식으로 만료됩니다.
 
    >[!IMPORTANT]
    >
