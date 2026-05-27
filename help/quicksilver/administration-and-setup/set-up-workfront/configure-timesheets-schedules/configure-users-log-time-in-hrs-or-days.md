@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cc1991e-293b-4619-b542-bfff4b558faa
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 3051f3dd10c2fa570a7e43fb72441d7fba6478a2
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,6 @@ ht-degree: 0%
 
 <!--this article should be removed from the admin area because this is not an admin function; we have another article linked below in the user area for timesheets -->
 
-[!UICONTROL Planner] 라이선스가 있는 사용자는 시간을 [!DNL Adobe Workfront]에 몇 시간 또는 며칠로 기록할지 여부를 구성할 수 있습니다. [!DNL Workfront] 관리자는 조직의 개별 사용자 또는 전체 여러 사용자에 대해 이 설정을 구성할 수 있습니다. 기본적으로 사용자는 시간을 시간 단위로 기록합니다.
+[!UICONTROL Standard] 또는 [!UICONTROL Planner] 라이선스가 있는 사용자는 시간을 [!DNL Adobe Workfront]에 시간 또는 일 단위로 기록할지 여부를 구성할 수 있습니다. [!DNL Workfront] 관리자는 조직의 개별 사용자 또는 전체 여러 사용자에 대해 이 설정을 구성할 수 있습니다. 기본적으로 사용자는 시간을 시간 단위로 기록합니다.
 
 시간을 시간 또는 일 단위로 기록하도록 사용자를 구성하는 방법에 대한 자세한 내용은 [시간이 시간 또는 일 단위로 기록되는지 여부 구성](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)을 참조하십시오.
