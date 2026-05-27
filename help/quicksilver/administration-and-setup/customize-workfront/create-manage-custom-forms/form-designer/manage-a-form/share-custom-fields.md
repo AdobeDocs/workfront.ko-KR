@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 1%
+source-wordcount: '744'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +31,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td>Adobe Workfront 패키지</td> 
-   <td><p>임의</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront 라이선스</td> 
@@ -49,79 +49,78 @@ ht-degree: 1%
 
 +++
 
-## 양식 목록에서 사용자 정의 필드 또는 위젯 공유 구성
+<!--
+
+## Configure sharing a custom field or widget from the list of forms
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
-1. 필드 영역을 열려면 **필드**&#x200B;를 클릭하세요.
-1. 공유를 구성할 항목을 선택한 다음 ![공유 아이콘](assets/share-icon.png)을 클릭합니다.
-1. 표시되는 사용자 지정 필드 액세스 상자에서 항목을 공유할 사람과 공유할 방법을 지정합니다.
+1. In the left panel, click **Custom Forms**.
+1. Click **Fields** to open the Fields area.
+1. Select the item you want to configure sharing for, then click ![Share icon](assets/share-icon.png).
+1. In the Custom Field Access box that displays, specify who you want to share the item with and how you want to share it:
 
-   1. **사용자 지정 필드 액세스** 상자의 왼쪽 하단 모서리 근처에 있는 **사용자 지정 필드 액세스 권한 부여**&#x200B;에서 항목을 공유할 사용자, 팀, 작업 역할, 그룹 또는 회사의 이름을 입력한 다음 표시될 때 이름을 클릭합니다.
+   1. Near the lower-left corner of the **Custom Field Access** box, under **Give custom field access to**, start typing the name of a user, team, job role, group, or company you want to share the item with, then click the name when it appears.
 
-      ![사용자 지정 필드 액세스 상자](assets/share-field-give-access-to.jpg)
+      ![Custom Field Access box](assets/share-field-give-access-to.jpg)
 
-   1. 항목 공유 방법을 자세히 알아보려면 이름 오른쪽에 있는 드롭다운 목록을 클릭한 후 다음 옵션 중 하나를 사용하십시오.
+   1. If you want to be more specific about how you want to share the item, click the drop-down list to the right of the name, then use any of the following options:
 
-      ![공유 옵션](assets/share-field-view-mng-options.jpg)
+      ![Sharing options](assets/share-field-view-mng-options.jpg)
 
       <table style="table-layout:auto"> 
        <col> 
        <col> 
        <tbody> 
         <tr> 
-         <td role="rowheader">보기</td> 
-         <td> <p><strong>고급 설정</strong>을 클릭하여 사용자의 액세스 권한을 사용하여 사용자 정의 양식에 항목을 추가하거나 다른 사용자와 공유할 수 있게 할지 여부를 지정할 수 있습니다.</p> </td> 
+         <td role="rowheader">View it</td> 
+         <td> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to use their access to add the item to a custom form or share it with other users.</p> </td> 
         </tr> 
         <tr> 
-         <td role="rowheader">관리함</td> 
-         <td> <p>에 액세스하여 사용자 정의 필드를 편집하고, 필드 라이브러리 및 사용자 정의 양식을 작성한 페이지에서 볼 수 있습니다.</p> <p><strong>고급 설정</strong>을 클릭하여 사용자의 액세스 권한을 사용하여 시스템에서 항목을 삭제할지 또는 다른 사용자와 공유할 것인지 지정할 수 있습니다.</p> </td> 
+         <td role="rowheader">Manage it</td> 
+         <td> <p>Allows access to edit the custom field and to see it in the Field Library and on the page where you build custom forms.</p> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to use their access to delete the item from the system or share it with other users.</p> </td> 
         </tr> 
        </tbody> 
-      </table>
+      </table>   
 
-1. (선택 사항) 이전 단계를 반복하여 다른 이름을 목록에 추가하고 해당 옵션을 구성합니다.
-1. (선택 사항) 필드에 대한 시스템 전체 공유 옵션을 선택하려면 오른쪽 상단 모서리의 톱니바퀴 아이콘 ![설정 아이콘](assets/gear-icon-settings.png)을 클릭합니다.
+1. (Optional) Repeat the previous step to add other names to the list and configure their options.
+1. (Optional) Click the gear icon ![Settings icon](assets/gear-icon-settings.png) in the top-right corner if you want to choose a system-wide sharing option for the field.
 
-   다음 옵션 중 일부가 이 드롭다운 메뉴에 동시에 표시되는 것은 아닙니다. 예를 들어 두 번째 옵션은 다른 두 개 중 하나를 선택한 경우에만 표시됩니다.
+   Not all of the following options display in this drop-down menu at the same time. For example, the second one displays only when one of the other two are selected.
 
-   * **Workfront의 모든 사용자가 편집할 수 있도록 시스템 전체에서 편집할 수 있게 만들기**(기본 옵션)
+   * **Make this editable system-wide so that everyone in Workfront can edit it** (the default option)
 
-     사용자 정의 필드 또는 위젯을 추가하고 이에 대한 공유를 제한하지 않으면 사용자 정의 양식에 대한 액세스 권한이 있는 모든 사용자가 사용자 정의 필드 또는 위젯을 보고 속성을 편집할 수 있습니다.
+     When you add a custom field or widget and you don't limit sharing for it, everyone in the system who has access to custom forms can view it and edit its properties.
+   
+   * **Remove system-wide edit access**
 
-   * **시스템 전체 편집 액세스 제거**
+     Limits access to only those whom you added to the list. 
+   
+   * **Make this visible system-wide so that everyone in Workfront can see it**
 
-     목록에 추가한 사용자만 액세스할 수 있습니다.
+1. Click **Save**.
 
-   * **Workfront의 모든 사용자가 볼 수 있도록 시스템 전체에 표시**
+-->
 
-1. **저장**&#x200B;을 클릭합니다.
-
-## 양식 디자이너에서 사용자 정의 필드 또는 위젯 공유 구성
+## 사용자 정의 필드 또는 위젯 공유 구성
 
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
-1. 사용자 정의 양식을 열거나 새 사용자 정의 양식을 만듭니다.
-1. 양식 디자이너에서 공유를 구성할 항목을 선택한 다음 오른쪽의 필드 편집 영역에서 **공유**&#x200B;를 클릭합니다.
-1. 표시되는 상자에서 **사용자 정의 양식 액세스 권한 부여**&#x200B;에 항목을 공유할 사용자, 팀, 작업 역할, 그룹 또는 회사의 이름을 입력한 다음 **이름이 표시되면**&#x200B;을 누릅니다.
+1. 양식 및 필드 목록에서 공유하려면 다음을 수행합니다.
+
+   1. 필드 영역을 열려면 **필드**&#x200B;를 클릭하세요.
+   1. 공유할 필드를 선택한 다음 ![공유 아이콘](assets/share-icon.png)을 클릭합니다.
+
+1. 양식 디자이너에서 공유하려면 다음을 수행합니다.
+   1. 사용자 정의 양식을 열거나 새 사용자 정의 양식을 만듭니다.
+   1. 양식 디자이너에서 공유할 필드를 선택한 다음 오른쪽의 필드 편집 영역에서 **공유**&#x200B;를 클릭합니다.
+
+1. 공유 상자의 **필드 액세스 권한 부여**&#x200B;에서 항목을 공유할 사용자, 팀, 작업 역할, 그룹, 회사 또는 비즈니스 프로필 이름을 입력한 다음 **이름이 표시되면**&#x200B;을 누릅니다.
 1. 항목 공유 방법을 자세히 알아보려면 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 후 다음 옵션 중 하나를 사용하십시오.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-      <tbody> 
-       <tr> 
-        <td role="rowheader">보기</td> 
-        <td> <p><strong>고급 설정</strong>을 클릭하여 사용자가 사용자 정의 양식에 항목을 추가하거나 다른 사용자와 공유할 수 있게 할지 여부를 지정합니다.</p> </td> 
-       </tr> 
-       <tr> 
-        <td role="rowheader">관리함</td> 
-        <td> <p>액세스 권한을 부여하여 사용자 정의 필드를 편집하고 필드 라이브러리와 양식 디자이너 모두에서 볼 수 있게 합니다.</p> <p><strong>고급 설정</strong>을 클릭하여 사용자가 시스템에서 항목을 삭제할지 또는 다른 사용자와 공유할 수 있는지를 지정합니다.</p> </td> 
-       </tr> 
-     </tbody> 
-    </table>
+   * **보기**: **고급 설정** 아이콘 ![고급 설정 아이콘](assets/configure-options-icon.png)을 클릭하여 사용자가 사용자 정의 양식에 항목을 추가할지 또는 다른 사용자와 공유할 것인지 지정합니다.
+   * **관리**: 사용자 지정 필드를 편집하고 필드 라이브러리와 양식 디자이너 모두에서 볼 수 있는 액세스 권한을 허용합니다. **고급 설정** 아이콘 ![고급 설정 아이콘](assets/configure-options-icon.png)을 클릭하여 사용자가 시스템에서 항목을 삭제할지 또는 다른 사용자와 공유할지 여부를 지정합니다.
 
 1. (선택 사항) 5-6단계를 반복하여 목록에 다른 이름을 추가하고 해당 옵션을 구성합니다.
 1. (선택 사항) 필드에 대한 시스템 전체 공유 옵션을 선택합니다.
@@ -131,6 +130,9 @@ ht-degree: 1%
      사용자 정의 필드 또는 위젯을 추가하고 이에 대한 공유를 제한하지 않으면 사용자 정의 양식에 대한 액세스 권한이 있는 모든 사용자가 사용자 정의 필드 또는 위젯을 보고 속성을 편집할 수 있습니다.
 
    * **시스템의 모든 사용자가 볼 수 있음**
+
+     사용자 정의 양식에 액세스할 수 있는 시스템의 모든 사용자는 필드를 볼 수 있지만 편집할 수는 없습니다.
+
    * **초대된 사람만 액세스할 수 있음**
 
      목록에 추가한 항목에 대한 액세스만 제한합니다.
@@ -141,7 +143,7 @@ ht-degree: 1%
 
 ## 사용자 정의 양식을 공유할 때 사용자 정의 필드 및 위젯에 대한 상속된 액세스 권한
 
-다른 사용자가 그룹, 작업 역할, 팀 또는 회사와 사용자 정의 양식을 공유할 경우 수신자는 양식에 있는 모든 사용자 정의 필드 및 위젯에 대한 보기 액세스 권한을 상속합니다. 양식의 해당 항목에 대한 이 수준의 액세스 권한은 항상 유지되므로 양식을 만든 사람이 의도한 대로 수신자에게 양식이 기능할 수 있습니다. 양식에 대한 편집 액세스 권한이 있는 수신자에게도 마찬가지입니다.
+다른 사용자가 그룹, 작업 역할, 팀, 회사 또는 비즈니스 프로필과 사용자 정의 양식을 공유할 경우 수신자는 양식에 있는 모든 사용자 정의 필드 및 위젯에 대한 보기 액세스 권한을 상속합니다. 양식의 해당 항목에 대한 이 수준의 액세스 권한은 항상 유지되므로 양식을 만든 사람이 의도한 대로 수신자에게 양식이 기능할 수 있습니다. 양식에 대한 편집 액세스 권한이 있는 수신자에게도 마찬가지입니다.
 
 사용자 정의 필드 또는 위젯에 대한 액세스 권한을 상속받은 사람을 찾을 수 있으며 액세스 권한을 제거할 수 있습니다.
 
@@ -160,4 +162,4 @@ ht-degree: 1%
 
 ### 공유된 사용자 정의 양식의 사용자 정의 필드 또는 위젯에 대한 액세스 제거 {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-공유된 사용자 정의 양식의 사용자 정의 필드 또는 위젯에 대한 액세스를 제거해야 하는 경우 양식 공유를 해제해야 합니다. 자세한 내용은 문서 [사용자 정의 양식 공유](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms)에서 [사용자 정의 양식에 대한 액세스 제거](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) 섹션을 참조하십시오.
+공유된 사용자 정의 양식의 사용자 정의 필드 또는 위젯에 대한 액세스를 제거해야 하는 경우 양식 공유를 해제해야 합니다. 자세한 내용은 문서 [사용자 정의 양식 공유](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)에서 [사용자 정의 양식에 대한 액세스 제거](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form) 섹션을 참조하십시오.
