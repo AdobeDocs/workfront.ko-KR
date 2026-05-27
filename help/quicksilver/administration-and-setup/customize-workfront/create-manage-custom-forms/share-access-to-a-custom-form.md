@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
+source-git-commit: 3e6ae76eea2e12fc7fc3a45dad753261a7bad628
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 사용자 정의 양식 공유
 
-{#preview-fast-release-general}
+{{preview-fast-release-general}}
 
 사용자 정의 양식에 대한 액세스 권한을 구성하여 개인, 역할, 그룹, 팀, 회사, 비즈니스 프로필 등 해당 양식을 보고, 공유하고, 편집할 수 있는 사용자를 제어할 수 있습니다.
 
