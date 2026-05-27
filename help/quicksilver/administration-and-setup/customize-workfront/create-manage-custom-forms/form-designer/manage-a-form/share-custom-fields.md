@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: a8e2558469d3abc355eb58f81658db3d1cfc7315
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 2%
@@ -163,3 +163,5 @@ ht-degree: 2%
 ### 공유된 사용자 정의 양식의 사용자 정의 필드 또는 위젯에 대한 액세스 제거 {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
 공유된 사용자 정의 양식의 사용자 정의 필드 또는 위젯에 대한 액세스를 제거해야 하는 경우 양식 공유를 해제해야 합니다. 자세한 내용은 문서 [사용자 정의 양식 공유](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)에서 [사용자 정의 양식에 대한 액세스 제거](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form) 섹션을 참조하십시오.
+
+
