@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f11daa69f72c32418298ac75f81b0fb64835d99b
+source-git-commit: 3988b9f7ce6f0de0a1864cd3a81fc7b8f15cd90f
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -27,35 +27,9 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
+
+
 <!--
-
-## List view updates 
-
->[!NOTE]
->
->Preview: May 28, 2026
->Production fast release: June 11, 2026
->Production for everyone: July 16, 2026
-
-Multiple field types on the list view have been updated to include keyboard navigation and other enhancements. 
-
-Multi-, Single-select, and Assignee fields now offer keyboard navigation in the list view: 
-
-* Use the up and down arrows on your keyboard to move through the list of people. 
-
-* Press the space bar to select a person or to remove a selected person. 
-
-On single and multi-select fields in the list view:  
-
-* You can add new options directly from the editor when no results are found. Note that this feature may not be available on all lists. 
-
-* The field interaction is now keyboard accessible. This includes navigation between the tags, search options, and list using the up and down arrows. Press the space bar to select an item or remove a selected item. 
-
-Reference fields such as typeahead and external lookup fields, have received some interface enhancements. 
-
-Also, where available, the experience of dragging and dropping columns has been improved visually. 
-
-For more information, see [Manage the list view in Adobe Workfront Planning](/help/quicksilver/planning/views/manage-the-list-view.md). 
 
 ## Planning Designer now available in Beta for all Workfront Planning customers
 
@@ -74,36 +48,6 @@ Whether used directly or through the AI Assistant, the Planning Designer provide
 A Workfront administrator can manage the availability of the Planning Designer from the System Preferences area in Setup.   
 
 For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
-
-## Workfront reference fields are enabled as lookup fields for Planning connections
-
->[!NOTE]
->
->Preview: May 27, 2026 
->Production fast release: June 11, 2026  
->Production for everyone: July 16, 2026 
-
-You can now add Workfront reference fields as lookup fields when connecting a Planning record type with a Workfront object type. 
-
-For example, you can add the Portfolio, Program, Group or Company information from the Project object to a project connection field of a campaign in Planning.  
-
-For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-
-## Edit submitted Planning requests
-
->[!NOTE]
->
->Preview: May 27, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-Users can now edit Planning requests after they submitted them. The following users can edit a submitted request: 
-
-* The request creator 
-* Workspace managers for the workspace where the request was submitted 
-* System administrators 
-
-For more information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
 
 ## Synchronize Metadata from Planning to AEM Content Fragments  
 
@@ -139,20 +83,6 @@ Information added to a GenStudio record type in Workfront Planning displays in a
 
 For information, see [Get Started with Adobe Workfront Planning and GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
-## New filters for the timeline view breakdown feature 
-
->[!NOTE]
->
->Preview: May 27, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-You can now filter information in the timeline view based on criteria that match items included in the breakdown of the records.  
-
-Prior to this enhancement, you could only apply filters for the main records in the timeline view. 
-
-For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
-
 ## Grant permissions to records
 
 ***********CHECKING WITH LILIT ABOUT PREVIEW************ 
@@ -180,17 +110,7 @@ You can give users the following permissions levels:
 
 For information, see [Share records](/help/quicksilver/planning/access/share-records.md).
 
-## New indication that edited and deleted fields impact request forms 
 
->[!NOTE]
->
->Preview: May 27, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-We have added a reminder that record fields that you edit or delete might impact request forms that contain those fields. Now, you will have a chance to review the affected forms and ensure the changes you want to make to the fields will not impact existing information.  
-
-For information, see [Edit field settings](/help/quicksilver/planning/fields/edit-fields.md). 
 
 ## New Sample workspaces tab added to the Planning landing page
 
@@ -244,6 +164,84 @@ For Workfront Planning API specifications, see the [Workfront Planning API](http
 -->
 
 
+## 목록 보기 업데이트
+
+>[!NOTE]
+>
+>미리 보기: 2026년 5월 27일>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
+
+키보드 탐색 및 기타 개선 사항을 포함하도록 목록 보기의 여러 필드 유형이 업데이트되었습니다.
+
+다중, 단일 선택 및 할당자 필드는 이제 목록 보기에서 키보드 탐색을 제공합니다.
+
+* 키보드의 위쪽 및 아래쪽 화살표를 사용하여 사람 목록을 이동합니다.
+
+* 스페이스바를 눌러 사용자를 선택하거나 선택한 사용자를 제거합니다.
+
+목록 보기의 단일 및 다중 선택 필드에서 다음을 수행합니다.
+
+* 결과를 찾을 수 없을 때 편집기에서 직접 새 옵션을 추가할 수 있습니다. 일부 목록에서는 이 기능을 사용할 수 없습니다.
+
+* 이제 키보드에서 필드 상호 작용에 액세스할 수 있습니다. 여기에는 위쪽 및 아래쪽 화살표를 사용한 태그, 검색 옵션, 목록 간의 탐색이 포함됩니다. 스페이스 바를 눌러 항목을 선택하거나 선택한 항목을 제거합니다.
+
+자동 완성 및 외부 조회 필드와 같은 참조 필드에 몇 가지 인터페이스 개선 사항이 수신되었습니다.
+
+또한 사용 가능한 경우 열을 끌어서 놓는 경험이 시각적으로 개선되었습니다.
+
+자세한 내용은 [Adobe Workfront Planning에서 목록 보기 관리](/help/quicksilver/planning/views/manage-the-list-view.md)를 참조하십시오.
+
+## Workfront 참조 필드는 Planning 연결에 대한 조회 필드로 활성화됩니다
+
+>[!NOTE]
+>
+>미리 보기: 2026년 5월 27일>프로덕션 빠른 릴리스: 2026년 6월 11일\
+>모두를 위한 프로덕션: 2026년 7월 16일
+
+이제 Planning 레코드 유형을 Workfront 개체 유형으로 연결할 때 Workfront 참조 필드를 조회 필드로 추가할 수 있습니다.
+
+예를 들어 프로젝트 객체의 Portfolio, 프로그램, 그룹 또는 회사 정보를 Planning에서 캠페인의 프로젝트 연결 필드에 추가할 수 있습니다.
+
+자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+
+## 타임라인 보기 분류 기능에 대한 새 필터
+
+>[!NOTE]
+>
+>미리 보기: 2026년 5월 27일>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
+
+이제 레코드 분류에 포함된 개체와 일치하는 조건을 기준으로 타임라인 보기에서 정보를 필터링할 수 있습니다.
+
+이 개선 이전에는 타임라인 보기의 기본 레코드에 대한 필터만 적용할 수 있었습니다.
+
+자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
+
+## 편집되고 삭제된 필드가 요청 양식에 영향을 준다는 새로운 표시
+
+>[!NOTE]
+>
+>미리 보기: 2026년 5월 27일>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
+
+편집하거나 삭제하는 레코드 필드가 해당 필드를 포함하는 요청 양식에 영향을 줄 수 있다는 미리 알림을 추가했습니다. 이제 영향을 받는 양식을 검토하고 필드에 적용할 변경 사항이 기존 정보에 영향을 주지 않는지 확인할 수 있습니다.
+
+자세한 내용은 [필드 설정 편집](/help/quicksilver/planning/fields/edit-fields.md)을 참조하세요.
+
+## 제출된 Planning 요청 편집
+
+>[!NOTE]
+>
+>미리 보기: 2026년 5월 27일>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
+
+이제 Planning 요청을 제출한 후 요청에서 레코드가 생성되기 전에 편집할 수 있습니다.
+
+다음 사용자는 제출된 요청을 편집할 수 있습니다.
+
+* 요청 작성자
+* 요청이 제출된 작업 공간의 Workspace 관리자
+* 시스템 관리자
+
+이 개선 사항 이전에는 제출된 요청을 편집할 수 없었습니다.
+
+자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
 ## AEM 컨텐츠 조각에 대한 새 미리보기 창
 
