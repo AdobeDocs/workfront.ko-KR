@@ -9,7 +9,7 @@ hide: true
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: f11daa69f72c32418298ac75f81b0fb64835d99b
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 2%
@@ -224,9 +224,9 @@ Lilit is checking on this, it is not working correctly
 
    1. **상속된 권한** 드롭다운 메뉴에서 **사용 안 함**&#x200B;을(를) 선택합니다.
 
-   >[!TIP]
-   >
-   >Workspace 관리자는 레코드 유형 및 레코드에 대한 관리 권한을 계속 가집니다.
+      >[!TIP]
+      >
+      >Workspace 관리자는 레코드 유형 및 레코드에 대한 관리 권한을 계속 가집니다.
 
    1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 **초대된 사용자만 액세스할 수 있음**&#x200B;을(를) 선택합니다. 레코드를 공유할 개별 사용자, 그룹, 팀 또는 회사를 표시해야 합니다.
 
