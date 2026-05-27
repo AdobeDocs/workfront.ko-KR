@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 2%
@@ -190,3 +190,4 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 1. 공유 상자에서 양식에 더 이상 액세스하지 않으려는 사용자, 팀, 역할, 그룹, 회사 또는 비즈니스 프로필 이름 오른쪽에 있는 드롭다운 메뉴를 클릭하고 **제거**&#x200B;를 선택합니다.
 1. (선택 사항) 제거할 다른 이름에 대해 이전 단계를 반복합니다.
 1. **저장**&#x200B;을 클릭합니다.
+
