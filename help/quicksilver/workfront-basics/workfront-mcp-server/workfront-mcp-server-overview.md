@@ -5,7 +5,7 @@ title: Adobe Workfront MCP 서버 개요
 description: Adobe Workfront MCP 서버가 수행하는 작업과 AI 아젠틱 플랫폼에서 자연어 대화를 통해 Workfront과 작업할 수 있는 방법을 알아봅니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 # Adobe Workfront MCP 서버 개요
 
 {{highlighted-preview-article-level}}
-
 
 [!DNL Adobe Workfront] MCP 서버는 Workfront 인스턴스를 [!DNL Claude] 또는 [!DNL ChatGPT]과(와) 같은 AI 에이전트 플랫폼에 연결합니다. AI 아젠틱 플랫폼에서 자연어 요청을 통해 Workfront 항목을 찾고 만들고 업데이트하고 관리할 수 있습니다.
 
@@ -52,4 +51,3 @@ Workfront MCP 서버는 MCP 호환 AI 에이전트 플랫폼(예: [!DNL Claude] 
 설정 후 AI 에이전트 플랫폼에 자연어로 된 Workfront 항목을 검색, 생성, 업데이트 및 관리하도록 요청할 수 있습니다.
 
 예제 요청, 주의해야 할 사항, 데이터 및 보안에 대한 정보 등 자세한 내용은 [Adobe Workfront MCP 서버 사용](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)을 참조하십시오.
-

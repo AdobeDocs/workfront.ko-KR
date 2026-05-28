@@ -5,7 +5,7 @@ title: Adobe Workfront MCP 서버 구성
 description: 자연어 대화를 통해 Workfront과 작업할 수 있도록 Workfront 인스턴스 및 AI 아젠틱 플랫폼을 구성합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 46cc21fb1b7bb66b34dac5e7aa53c096c46e5b29
+source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 # Adobe Workfront MCP 서버 구성
 
 {{highlighted-preview-article-level}}
-
 
 [!DNL Adobe Workfront] MCP 서버를 사용하면 지원되는 AI 에이전트 플랫폼에서 자연어 대화를 통해 Workfront 데이터로 작업할 수 있습니다.
 
@@ -223,9 +222,6 @@ What happens next
 
 +++
 
-
-
-
 ## 설정에 대한 FAQ
 
 +++ 를 확장하여 Workfront MCP 서버 설정에 대한 FAQ를 봅니다.
@@ -239,4 +235,3 @@ What happens next
 Workfront 관리자와 AI 에이전트 플랫폼의 관리자 모두. Workfront 관리자는 Workfront 측에서 MCP 서버 액세스를 활성화합니다. AI 에이전트 플랫폼의 관리자는 해당 플랫폼 측에서 Workfront 액세스를 활성화합니다. [!DNL Claude]의 경우 [!DNL Claude] Enterprise 관리자가 [!DNL Adobe Workfront] 커넥터를 사용하도록 설정합니다.
 
 +++
-
