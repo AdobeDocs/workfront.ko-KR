@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,10 @@ ht-degree: 0%
 
 <!--leave the choice value information in yellow till January 2026-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -196,6 +195,15 @@ this is not yet true, but it might come later:
    >* 필드를 저장한 후에는 필드 유형을 업데이트할 수 없습니다.
    >
    >* 필드 구성(필드 옵션 또는 수식 표현식)을 수정하면 수정된 필드에 이미 정보가 들어 있는 레코드가 해당 값을 실시간으로 업데이트합니다. 필드 구성 변경에 의해 트리거된 값 변경에 대한 경고 및 감사 로그가 없습니다. 필드를 보는 모든 사용자는 수정 사항이 적용된 새 값을 즉시 볼 수 있습니다.
+
+1. <span class="preview">(조건부) 업데이트하려는 필드가 요청 양식의 일부인 경우 **필드 변경 사항 검토** 상자가 표시되어 변경 사항의 영향을 받을 양식을 나타냅니다. 다음 중 하나를 실행하십시오.</span>
+
+   <div class="preview">
+
+   * 오른쪽 화살표를 클릭하여 변경의 영향을 받는 양식을 표시한 다음, 양식 이름을 클릭하여 양식을 새 탭에서 열고 필드를 양식에 유지할지 또는 양식을 추가로 변경할지 결정합니다.
+   * 표시되는 모든 영역의 필드를 업데이트하려면 **변경 내용 유지**&#x200B;를 클릭하십시오.
+
+   </div>
 
    필드 정보는 작업 영역을 볼 수 있는 액세스 권한이 있는 모든 사용자에 대해 업데이트됩니다.
 
