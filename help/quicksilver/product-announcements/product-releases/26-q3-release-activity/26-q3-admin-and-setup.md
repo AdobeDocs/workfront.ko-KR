@@ -4,7 +4,7 @@ description: 2026년 3분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -66,4 +66,3 @@ ht-degree: 0%
 현재 오브젝트를 벌크 편집할 때 필수 필드는 사용자가 필드를 수정할 때만 적용됩니다. 필드가 수정되지 않으면 선택 사항으로 처리되고 확인되지 않습니다.
 
 이제 새 시스템 기본 설정을 사용하여 필수 필드를 일괄 편집할 수 있습니다. 모든 필수 필드에 값이 없으면 대량 편집 개체가 저장되지 않도록 하려면 설정 > 시스템 > 환경 설정 페이지에서 **항상 대량 편집에 필수 필드 적용** 옵션을 선택하십시오.
-

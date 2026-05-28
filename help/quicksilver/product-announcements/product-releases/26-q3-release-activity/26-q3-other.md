@@ -4,7 +4,7 @@ description: 2026년 3분기 릴리스 기간 동안의 기타 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ec0c6db3ed0ff470af64fa28ca3e69f0f0bf840a
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -61,4 +61,3 @@ Workfront을 Claude, ChatGPT, Copilot, Gemini 등의 MCP 호환 AI 플랫폼에 
 또한 끌어서 놓기를 사용할 수 있는 목록에서 열을 끌어서 놓는 경험이 시각적으로 개선되었습니다.
 
 자세한 내용은 [향상된 목록 사용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)을 참조하세요.
-
