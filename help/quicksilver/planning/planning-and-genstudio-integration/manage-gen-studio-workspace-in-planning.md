@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 2%
@@ -17,6 +17,7 @@ ht-degree: 2%
 
 
 <!--
+
 Better metadata, at publishing:
 ---
 title: Manage the GenStudio Workspace in Adobe Workfront Planning
@@ -26,6 +27,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 ---
+
 -->
 
 <!--MUST update the access requirements below - not complete!!!!!!!!!-->
@@ -88,7 +90,7 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -147,7 +149,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
