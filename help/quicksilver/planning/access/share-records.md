@@ -204,7 +204,7 @@ Lilit is checking on this, it is not working correctly
 
    **공유** 상자가 열립니다.
 
-   ](assets/permissions-for-records-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드에 대한 ![사용 권한
+   ![&#128279;](assets/permissions-for-records-with-inherited-permissions-on.png)에서 상속된 사용 권한을 가진 레코드에 대한 사용 권한
 
    >[!WARNING]
    >
