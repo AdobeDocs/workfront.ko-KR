@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 3%
@@ -50,4 +50,3 @@ ht-degree: 3%
 Workfront 관리자는 레이아웃 템플릿에서 보기를 추가하거나 제거할 수 있습니다. 보기를 편집, 삭제 또는 공유할 수 없습니다. 복사하고 복사본을 업데이트하거나 공유할 수 있습니다.
 
 자세한 내용은 [요청 영역에서 보기 만들기 및 관리](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)를 참조하십시오.
-

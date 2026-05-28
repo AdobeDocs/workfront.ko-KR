@@ -4,7 +4,7 @@ description: 2026년 3분기 보고 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -42,4 +42,3 @@ ht-degree: 0%
 이전에는 관련 레코드 간의 조인으로 각 관련 레코드에 대해 상위 레코드를 한 번 반복할 수 있었습니다. 예를 들어 특정 사용자에게 할당된 작업으로 필터링된 프로젝트 보고서에서 각 프로젝트는 일치하는 모든 작업에 대해 한 번씩 반복됩니다. 프로젝트 예산을 합산한 KPI는 올바른 $1,250 대신 $6,000을 표시할 수 있습니다.
 
 캔버스 대시보드 인터페이스에는 변경 사항이 없습니다. 기존 보고서는 이 릴리스 이후 정확한 데이터를 자동으로 반환합니다.
-
