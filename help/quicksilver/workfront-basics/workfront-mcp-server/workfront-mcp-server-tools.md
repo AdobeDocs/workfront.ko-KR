@@ -5,7 +5,7 @@ title: Adobe Workfront MCP 서버 도구
 description: Workfront 영역별로 그룹화된 Adobe Workfront MCP 서버를 통해 사용할 수 있는 도구의 참조 목록입니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f4f73cf44107850573e1a6966568645b9537b757
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '1615'
 ht-degree: 5%

@@ -4,9 +4,9 @@ description: 2026년 3분기 보고 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a86968cf8fff2c7c930aa6c8408ab8566905cb8
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2026년 3분기 릴리스의 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2026년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)를 참조하십시오.
+
+## 캔버스 대시보드 보고서의 사용자 지정 통화 데이터 필드
+
+>[!NOTE]
+>
+>미리 보기: 2026년 5월 28일>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
+
+이제 캔버스 대시보드 보고서는 System Setup에서 여러 환율을 구성하는 경우를 포함하여 열, 필터, 그룹화 및 집계로서 사용자 지정 통화 데이터 필드를 지원합니다. 사용자 지정 통화 데이터 필드가 열 또는 합계로 표시되면 필드가 보고서 수준에서 잠겨 있지 않은 경우 값이 대시보드의 환율에 선택된 통화로 전환됩니다.
+
+두 번째 환율 통화가 추가된 후 &quot;제한된 필드&quot; 메시지로 인해 이전에 실패한 보고서가 이제 렌더링됩니다. 복수 환율이 정의된 경우 계획 통화 필드는 제한된 상태로 유지됩니다.
+
+자세한 내용은 [캔버스 대시보드의 통화 필드 사용](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)을 참조하세요.
 
 ## 캔버스 대시보드 보고서의 데이터 정확도 개선
 
@@ -30,3 +42,4 @@ ht-degree: 0%
 이전에는 관련 레코드 간의 조인으로 각 관련 레코드에 대해 상위 레코드를 한 번 반복할 수 있었습니다. 예를 들어 특정 사용자에게 할당된 작업으로 필터링된 프로젝트 보고서에서 각 프로젝트는 일치하는 모든 작업에 대해 한 번씩 반복됩니다. 프로젝트 예산을 합산한 KPI는 올바른 $1,250 대신 $6,000을 표시할 수 있습니다.
 
 캔버스 대시보드 인터페이스에는 변경 사항이 없습니다. 기존 보고서는 이 릴리스 이후 정확한 데이터를 자동으로 반환합니다.
+

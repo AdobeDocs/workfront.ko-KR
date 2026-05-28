@@ -4,9 +4,9 @@ description: 2026년 3분기 재무 관리 개선 사항
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ba7ac2d144a6dea7218eb58a0b421b915ae2714e
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,5 @@ ht-degree: 0%
 속성이 Workfront의 속도에 추가되면 설정 영역에서 해당 속성 및 해당 필터를 더 이상 편집할 수 없습니다. 이렇게 하면 데이터 무결성을 유지하고 특성이 업데이트될 때 비율이 실수로 변경되는 것을 방지합니다.
 
 자세한 내용은 [비율 특성 정의](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)를 참조하십시오.
+
 

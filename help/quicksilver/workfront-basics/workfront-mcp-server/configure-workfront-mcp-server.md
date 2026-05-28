@@ -5,9 +5,9 @@ title: Adobe Workfront MCP 서버 구성
 description: 자연어 대화를 통해 Workfront과 작업할 수 있도록 Workfront 인스턴스 및 AI 아젠틱 플랫폼을 구성합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f4f73cf44107850573e1a6966568645b9537b757
+source-git-commit: 46cc21fb1b7bb66b34dac5e7aa53c096c46e5b29
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -224,21 +224,19 @@ What happens next
 +++
 
 
-<!--
+
+
+## 설정에 대한 FAQ
+
++++ 를 확장하여 Workfront MCP 서버 설정에 대한 FAQ를 봅니다.
+
+### 여러 Workfront 인스턴스에 한 번에 연결할 수 있습니까?
+
+아니요. 각 연결은 AI 에이전트 플랫폼을 단일 Workfront 인스턴스에 연결합니다. 전환하려면 연결을 끊고 다시 연결하여 새 인스턴스를 인증합니다.
+
+### 어느 관리자가 이 기능을 활성화합니까?
+
+Workfront 관리자와 AI 에이전트 플랫폼의 관리자 모두. Workfront 관리자는 Workfront 측에서 MCP 서버 액세스를 활성화합니다. AI 에이전트 플랫폼의 관리자는 해당 플랫폼 측에서 Workfront 액세스를 활성화합니다. [!DNL Claude]의 경우 [!DNL Claude] Enterprise 관리자가 [!DNL Adobe Workfront] 커넥터를 사용하도록 설정합니다.
+
 +++
 
-## Frequently asked questions about setup
-
-+++ Expand to view frequently asked questions about setting up the Workfront MCP server.
-
-### Can I connect to multiple Workfront instances at once?
-
-No. Each connection ties an AI agentic platform to a single Workfront instance. To switch, disconnect and reconnect, authenticating to the new instance.
-
-### Which administrator enables this?
-
-Both your Workfront administrator and the administrator for your AI agentic platform. Your Workfront administrator enables MCP server access on the Workfront side. The administrator for your AI agentic platform enables Workfront access on that platform's side. For [!DNL Claude], the [!DNL Claude] Enterprise administrator enables the [!DNL Adobe Workfront] connector.
-
-+++
-
--->
