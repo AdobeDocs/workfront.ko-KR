@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4251'
 ht-degree: 2%
 
 ---
 
 # 타임라인 보기 관리
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 {{planning-important-intro}}
 
@@ -286,11 +286,13 @@ Old:
 
 * 연결된 레코드 필드 또는 조회 필드를 기준으로 필터링할 수 있습니다.
 * 여러 값을 표시하는 조회 필드를 기준으로 필터링할 수 있습니다.
+* <span class>타임라인 보기의 레코드 종류 또는 보기의 분류 구조에 속하는 연결된 레코드 종류를 필터링할 수 있습니다. </span>
 
 타임라인 보기에 필터를 추가하려면 다음을 수행합니다.
 
 1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형 페이지에 대한 타임라인 보기를 만듭니다.
-1. 타임라인 보기를 선택한 다음 표의 오른쪽 상단에 있는 **필터**&#x200B;를 클릭합니다.
+1. 타임라인 보기를 선택한 다음 표의 왼쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다.
+1. <span class>(조건부)분류 구조를 타임라인 보기에 추가한 경우 필터 상자의 첫 번째 드롭다운에서 레코드 종류를 확장합니다. 표시되는 타임라인 보기의 레코드 유형입니다. </span>
 1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
    * 필드를 검색하고 목록에서 선택하려면 **필드를 선택하십시오**.
@@ -374,14 +376,19 @@ Old:
    * **OR**: 지정한 조건을 모두 충족해야 합니다.
 기본 옵션입니다.
 
-   1. (선택 사항) 필터 그룹화를 추가하고 **AND** 또는 **OR** 연산자로 결합하십시오.
-
-      ![보기의 다중 계층 필터](assets/multi-tiered-filters-in-views.png)
+1. (선택 사항) 필터 그룹화를 추가하고 **AND** 또는 **OR** 연산자로 결합하십시오.
 
    레코드 목록은 필터 조건에 따라 자동으로 필터링됩니다.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (선택 사항) 필터 조건을 제거하려면 **x** 아이콘을 클릭하십시오.
+1. <span class="preview">(선택 사항 및 조건부) 타임라인 보기에 분류 구조를 추가한 경우 다음 드롭다운에서 레코드 유형을 확장하고 위와 동일한 단계를 반복하여 분류에 포함된 레코드 유형에 대한 필터를 추가합니다. </span>
+
+   <span class="preview"> 분류에 있는 모든 레코드 형식에 대해 반복합니다.</span>
+
+   ![타임라인 보기에 대한 분류가 있는 다중 계층 필터](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+
+   <span class="preview">타임라인 보기에서만 분류 레코드 종류를 필터링할 수 있습니다.</span>
 1. (선택 사항) **필터** 또는 페이지의 다른 위치를 클릭하여 필터 상자를 닫습니다. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
