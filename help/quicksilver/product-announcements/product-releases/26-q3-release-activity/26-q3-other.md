@@ -4,9 +4,9 @@ description: 2026년 3분기 릴리스 기간 동안의 기타 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: ec0c6db3ed0ff470af64fa28ca3e69f0f0bf840a
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,20 @@ ht-degree: 0%
 
 2026년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)를 참조하십시오.
 
-## Workfront MCP 서버를 사용하여 AI 아젠틱 플랫폼을 Workfront에 연결
+
+## Workfront MCP 서버를 사용하여 Workfront을 AI 도구에 연결
 
 >[!NOTE]
 >
 >미리 보기: 2026년 5월 28일>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
 
-이미 사용하고 있는 AI 아젠틱 플랫폼의 Workfront과 협력합니다. 새로운 Workfront MCP 서버는 Workfront을 클라우드 또는 ChatGPT와 같은 지원되는 AI 에이전트 플랫폼과 연결하므로 자연어 대화를 통해 Workfront 항목을 찾고, 만들고, 업데이트하고, 관리할 수 있습니다. 지연된 작업을 요청하거나, 프로젝트의 완료 날짜를 푸시하고, 승인자에게 미리 알림을 보내거나, 캠페인 예산을 업데이트하면 AI 에이전트 플랫폼이 Workfront에서 작업을 수행합니다.
+팀의 운영 컨텍스트는 Workfront에 있습니다. 이제 Workfront MCP 서버를 사용하면 팀이 이미 사용하고 있는 AI 도구 내에서 해당 컨텍스트를 실행할 수 있습니다.
 
-Workfront MCP 서버는 MCP와 호환되는 AI 아젠틱 플랫폼과 연동하므로 팀에 Workfront의 AI 기반 작업을 위한 유연한 기반을 제공합니다.
+Workfront을 Claude, ChatGPT, Copilot, Gemini 등의 MCP 호환 AI 플랫폼에 연결하고 자연어를 사용하여 선택한 AI 도구를 종료하지 않고도 Workfront 항목을 찾고, 만들고, 업데이트하고, 관리합니다. 지연된 작업을 요청하고, 프로젝트 완료 날짜를 푸시하고, 승인자에게 알림 메시지를 보내고, 캠페인 예산을 업데이트합니다. 그러면 AI 플랫폼이 Workfront에서 작업을 수행합니다.
+
+또한 Claude의 AI 기술과 예정된 작업을 통해 라이브 Workfront 데이터에 대해 사전 예방적으로 실행되는 반복 워크플로우를 자동화하여 더욱 발전할 수 있습니다. 예를 들어, 월요일 아침 프로젝트 브리핑, 주간 용량 보고서, 월간 캠페인 상태 점검 — 한 번 설정하면 AI가 이를 자동으로 처리하며 작업의 전체 컨텍스트에 기반합니다.
+
+이는 AI가 풍부한 운영 데이터를 기반으로 하며 인간과 AI가 협력하여 작업을 전속력으로 진행할 수 있는 아젠틱 작업 관리 시스템의 기반입니다.
 
 >[!IMPORTANT]
 >
