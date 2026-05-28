@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1179'
 ht-degree: 2%
 
 ---
@@ -155,7 +155,7 @@ Old:
 
       * CSV 또는 Excel 파일을 사용하여 가져올 때.
 
-        자세한 내용은 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 형식 만들기](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)를 참조하십시오.
+        자세한 내용은 이 문서의 [CSV 또는 Excel 파일에서 정보를 가져와서 레코드 형식 만들기](#create-record-types-by-importing-information-from-a-csv-or-excel-file) 섹션을 참조하십시오.
 
      >[!TIP]
      >
@@ -168,7 +168,7 @@ Old:
         이 문서에서는 처음부터 레코드 유형을 만드는 방법을 설명합니다.
 
       * 다른 작업 영역에서 추가
-자세한 내용은 [다른 작업 영역에서 기존 레코드 형식 추가](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)를 참조하십시오.
+자세한 내용은 이 문서에서 [다른 작업 영역에서 기존 레코드 형식을 추가하여 레코드 형식 만들기](#create-record-types-by-adding-existing-ones-from-another-workspace) 섹션을 참조하십시오.
 
 
 * 한 섹션 내에서 또는 작업 영역의 한 섹션에서 다른 섹션으로 레코드 유형을 이동할 수 있습니다. 한 작업 영역에서 다른 작업 영역으로 레코드 유형을 이동할 수 없습니다.

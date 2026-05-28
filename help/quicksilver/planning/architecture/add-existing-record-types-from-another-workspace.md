@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '793'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 작업 영역 관리자는 다른 작업 영역에 있는 레코드 유형을 Adobe Workfront Planning에서 관리하는 작업 영역에 추가할 수 있습니다.
 
@@ -134,7 +134,9 @@ And
    >시스템의 다른 작업 영역에 추가하도록 구성된 레코드 형식이 없으면 **기존 항목 추가** 옵션이 표시되지 않습니다.
 
 1. **계속**&#x200B;을 클릭합니다.
-1. **레코드 종류 선택** 상자에서 기존 작업 영역에서 추가할 레코드 종류의 카드를 클릭한 다음 **추가**&#x200B;를 클릭합니다.
+1. (조건부) **레코드 종류 선택** 상자에서 기존 작업 영역에서 추가할 레코드 종류의 카드를 클릭한 다음 **추가**&#x200B;를 클릭합니다.
+
+   <span class="preview">미리 보기 환경을 사용하는 경우 클릭하여 여러 레코드 종류를 선택한 다음 **추가**&#x200B;를 클릭합니다. 사용 가능한 모든 작업 영역의 모든 글로벌 레코드 형식이 목록에 표시됩니다.</span>
 
    선택한 보조 작업 영역에 레코드 유형이 추가되고 보조 작업 영역의 **글로벌 레코드 유형** 아이콘 ![글로벌 레코드 아이콘](assets/global-icon-secondary-workspace.png)이 레코드 유형의 카드에 표시됩니다.
 글로벌 레코드 유형 아이콘은 보조 작업 공간의 레코드 유형에 표시될 때 레코드 유형이 기존 레코드 유형에서 추가되었음을 나타내는 화살표를 포함합니다.
@@ -171,7 +173,7 @@ This will be released later with another epic:
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.
 -->
 
-&lt;!—Lilit를 사용하여 자동화 또는 요청 양식을 보조 글로벌 RT에 추가할 수 있는지 확인??—/ yes인 경우 해당 문서에 대한 링크가 있는 단계 추가—>
+&lt;!—자동화 또는 요청 양식을 보조 글로벌 RT에 추가할 수 있는지 Lilitt에서 확인??—/ yes인 경우 해당 문서에 대한 링크가 있는 단계 추가—>
 
 
 

@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 1%
+source-wordcount: '1769'
+ht-degree: 2%
 
 ---
 
@@ -88,7 +88,7 @@ GenStudio-Workfront Planning 통합에 대한 일반적인 정보는 [Adobe Work
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing 사용자 역할</p></td> 
    <td><p><ul><li>캠페인, 제품 및 가상 사용자에 액세스할 수 있는 모든 GenStudio 사용자 역할</li>
    <li>정품 인증에 액세스하기 위한 GenStudio System Manager <!--and Events--></li></ul>
-   자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
+   자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">사용자 역할 및 권한</a>을 참조하세요. 
    </p>
   </td> 
   </tr>   
@@ -147,7 +147,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -377,9 +377,9 @@ Workfront Planning 기본 페이지가 열립니다.
 
      GenStudio 작업 영역에서 생성된 필드는 다음 영역에 표시됩니다.
 
-      * Workfront Planning 보기
-      * Workfront Planning 레코드 세부 정보
-      * GenStudio 레코드 세부 정보
+      * Workfront Planning의 Workfront Planning 보기
+      * Workfront Planning의 Workfront Planning 레코드 세부 정보
+      * GenStudio for Performance Marketing의 GenStudio 레코드 세부 정보
 
      >[!NOTE]
      >
@@ -388,6 +388,23 @@ Workfront Planning 기본 페이지가 열립니다.
      >
      >* 모든 GenStudio 레코드 유형을 브랜드 GenStudio 레코드 유형에 연결할 수 있습니다.
      >  제품 및 가상 사용자는 기본적으로 브랜드에 연결됩니다.
+     >
+     >* Planning의 GenStudio 레코드 유형을 Adobe Experience Manager의 AEM Assets 또는 컨텐츠 조각과 연결할 수 있습니다. AEM 개체에 연결하려면 AEM 라이선스가 있어야 합니다.
+     >
+
+1. (조건부) Planning의 GenStudio 작업 영역에서 GenStudio 에셋 또는 콘텐츠 조각과 AEM 레코드 유형을 연결한 경우 다음을 수행하여 AEM으로 이동하고 GenStudio 레코드 정보를 봅니다.
+
+   1. (조건부) GenStudio 작업 공간에 연결된 AEM 에셋에서 에셋 이름을 클릭한 다음 **AEM에서 열기** 아이콘 ![AEM에서 열기 아이콘](assets/open-in-aem-icon.png)을 클릭하여 AEM에서 에셋을 엽니다.
+   1. 오른쪽 패널에서 **Campaign** 탭을 클릭하여 선택합니다.
+
+      **Campaign** 필드의 자산 표시에 연결된 캠페인의 이름입니다. 읽기 전용 필드입니다.
+자산이 Planning의 GenStudio 작업 영역에서 **Region**, **Persona**, **Product** 또는 **Channel**&#x200B;에도 연결되어 있는 경우 이러한 레코드 유형의 각 필드는 읽기 전용 모드로 자산의 **Campaign** 탭에 해당 이름을 표시합니다.
+   1. (조건부) Planning의 GenStudio 작업 영역에 있는 연결된 AEM 컨텐츠 조각에서 컨텐츠 조각의 이름을 클릭한 다음 **AEM에서 열기** 아이콘 ![AEM에서 열기 아이콘](assets/open-in-aem-icon.png)을 클릭하여 AEM에서 컨텐츠 조각을 엽니다.
+   1. **홈** 아이콘 ![AEM의 홈 아이콘](assets/home-icon-in-aem.png)을 클릭하여 콘텐츠 조각 목록으로 이동한 다음 콘텐츠 조각 이름 오른쪽에 있는 **정보** 아이콘 ![AEM의 정보 아이콘](assets/info-icon-in-aem.png)을 클릭합니다.
+   1. 오른쪽 패널에서 **메타데이터** 탭을 클릭합니다.
+
+      콘텐츠 조각에 연결된 캠페인 이름이 **xdm: campaignName** 필드에 표시됩니다. 읽기 전용 필드입니다. <!--tried to log a bug to rename this field-->
+자산이 Planning의 GenStudio 작업 영역에서 **지역**, **페르소나**, **제품** 또는 **채널**&#x200B;에도 연결된 경우 이러한 레코드 유형의 각 필드는 읽기 전용 모드로 콘텐츠 조각의 **메타데이터** 탭에 해당 이름을 표시합니다.
 
 1. 테이블 보기의 필드 위로 마우스를 가져간 다음 드롭다운 메뉴를 클릭하여 다음 중 하나를 수행합니다.
 
