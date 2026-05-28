@@ -9,15 +9,17 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
+source-git-commit: 90a15077a38f4740bc52835f2aab361535832df0
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '4002'
 ht-degree: 0%
 
 ---
 
 
 # 통합 검토 및 승인 개요
+
+{{highlighted-preview}}
 
 통합된 검토 및 승인은 Adobe Workfront 및 Adobe Frame.io를 긴밀하게 연결된 하나의 경험으로 통합하여 마케팅 관리, 크리에이티브 검토 및 콘텐츠 전달 간의 차이를 해결합니다.
 프로젝트 코디네이터는 크리에이티브, 마케터 및 이해 당사자가 연결되지 않은 도구 간에 파일을 이동하지 않고도 전문가 수준의 Frame.io 뷰어에서 자산을 검토하고 승인하는 동안 Workfront에서 작업을 관리합니다.
@@ -303,7 +305,9 @@ For both single-stage and multi-stage reviews, automated reminder emails are sen
 
 예. 승인자 및 검토자는 검토 또는 승인에 할당되면 이메일 알림을 받습니다. 자동 미리 알림 이메일도 기한 72시간 전, 기한 24시간 전 및 마감일 자체에 전송됩니다.
 
-이메일 알림 메시지를 사용자 정의하는 기능은 현재 사용할 수 없지만 제품 로드맵에 있습니다.
+프로덕션 환경에서는 이메일 알림 메시지를 사용자 지정하는 기능을 현재 사용할 수 없지만 제품 로드맵에 있습니다.
+
+<span class="preview">미리 보기에서 승인 워크플로의 각 단계에 사용자 지정 메시지를 추가할 수 있습니다. 이 메시지는 승인 이메일 알림과 Workfront의 승인 탭에 표시됩니다. 모든 단계에 대해 동일한 메시지를 사용하거나 단계별로 다른 메시지를 사용할 수 있으며 메시지에 최대 500자를 포함할 수 있습니다. 승인 워크플로가 만들어진 후 사용자 지정 메시지를 편집하면 업데이트된 이메일 알림이 기존 참여자에게 전송됩니다. 나중에 참가자를 추가하면 해당 이메일 알림에 사용자 지정 메시지가 포함됩니다. 자세한 내용은 [문서 승인 워크플로 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).</span>를 참조하십시오.
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**
