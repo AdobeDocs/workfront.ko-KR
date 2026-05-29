@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
@@ -54,14 +54,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>   <p>작업 영역 </a>에 대한 이상의 권한 보기 </p>  
+   <td>   <p>작업 공간에 대한 이상의 권한 보기 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> 라이트 또는 기여자 라이선스가 있는 사용자에게 Planning이 포함된 레이아웃 템플릿을 할당해야 합니다.
-   <p>표준 사용자 및 시스템 관리자에게는 기본적으로 계획 영역이 활성화되어 있습니다.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>

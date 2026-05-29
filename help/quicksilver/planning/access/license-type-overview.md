@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ### 작업 공간 및 레코드 유형에 대한 라이선스 유형 및 권한
 
-표준 라이선스가 있는 사용자만 작업 공간 및 레코드 유형에 대한 Contribute 또는 Manage 권한을 가질 수 있습니다. 작업 공간 및 레코드 유형에 대한 기여 및 관리 권한도 레코드 및 필드로 전송됩니다.
+표준 라이선스가 있는 사용자만 작업 공간 및 레코드 유형에 대한 Contribute 또는 Manage 권한을 가질 수 있습니다. 작업 공간 및 레코드 유형에 대한 기여 및 관리 권한도 기본적으로 레코드 및 필드로 전송됩니다.
 
 시스템 관리자는 작성하지 않은 작업 영역을 포함하여 시스템의 모든 작업 영역을 볼 수 있습니다.
 
