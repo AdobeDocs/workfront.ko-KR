@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1443'
 ht-degree: 2%
 
 ---
@@ -248,6 +248,15 @@ ht-degree: 2%
             <td><strong>미리보기</strong></td>
             <td><strong>빠른 릴리스</strong></td>
             <td><strong>분기별</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">댓글 알림 전자 메일에 대한 모양과 느낌을 업데이트했습니다</a><p>[!BADGE 해제 일정]{type=Neutral}</p>
+                <p>업데이트 영역의 댓글에 대한 이메일 알림은 광범위한 Adobe 이메일 디자인에 맞는 새로운 모양과 느낌을 제공합니다. 이전 주석의 스레드는 더 이상 이메일 본문에 포함되지 않습니다.</p>
+            </td>
+            <td><p>단계적 롤아웃, 발표될 시작일</p></td>
+            <td><p>단계적 롤아웃, 발표될 시작일</p></td>
+            <td><p>단계적 롤아웃, 발표될 시작일</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Workfront MCP 서버를 사용하여 AI 에이전트 플랫폼을 Workfront에 연결</a>

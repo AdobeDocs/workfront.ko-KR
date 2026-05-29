@@ -4,9 +4,9 @@ description: 2026년 3분기 릴리스 기간 동안의 기타 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 
 2026년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)를 참조하십시오.
 
+
+## 댓글 알림 이메일에 대한 모양과 느낌을 업데이트했습니다.
+
+>[!NOTE]
+>
+>고객을 위한 프로덕션 릴리스: 단계적 롤아웃, 발표될 시작일
+
+업데이트 영역의 댓글에 대한 이메일 알림은 광범위한 Adobe 이메일 디자인에 맞는 새로운 모양과 느낌을 제공합니다.
+
+업데이트된 이메일 형식에는 다음이 포함됩니다.
+
+* 이전 Workfront 브랜딩을 대체하는 새 Adobe Workfront 헤더입니다.
+* 가장 최근 댓글에 중점을 둔 간소화된 레이아웃입니다.
+* 항목을 직접 열려면 기본 **Workfront에서 보기** 단추입니다.
+
+이전 주석의 스레드는 더 이상 이메일 본문에 포함되지 않습니다. 항목에 대한 이전 설명을 보려면 **Workfront에서 보기**&#x200B;를 사용하여 Workfront에서 대화를 엽니다.
+
+이러한 변경 사항은 단계적으로 고객에게 전달됩니다. 롤아웃 일정이 확정되면 이 페이지가 업데이트됩니다.
+
+![댓글 알림 email.png](assets/email-look-and-feel-update.png) 업데이트됨
 
 ## Workfront MCP 서버를 사용하여 Workfront을 AI 도구에 연결
 
