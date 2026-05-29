@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1789'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,10 @@ ht-degree: 1%
 
 # Workfront 개체에서 레코드 연결 관리
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+
 
 {{planning-important-intro}}
 
@@ -71,7 +70,7 @@ ht-degree: 1%
    <p>Workfront Planning에서:</p>
    <ul><li>작업 공간 및 레코드 유형에 대한 권한을 보고 연결된 레코드를 볼 수 있습니다 </li>
    또는
-   <li> 작업 공간 및 레코드 유형에 참여하거나 더 높은 권한을 부여하여 레코드 연결 또는 연결 해제</a></li></ul> 
+   <li> 작업 영역 및 레코드 형식에 대한 또는 그 이상의 권한을 제공하고 레코드를 연결하거나 연결을 끊으려면 <span class="preview">레코드에 대한 권한을 관리합니다</span></a></li></ul> 
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 Workfront Planning 작업 영역에 대한 권한을 가집니다</p> 
   </td>
   </tr>   
@@ -263,7 +262,7 @@ Workfront 객체의 Planning 연결 필드에서 Workfront Planning 레코드를
 * 하나의 레코드 유형만 하나의 Planning 연결 필드에 연결할 수 있습니다. 양식에 있는 Planning 연결 필드 수에는 제한이 없습니다.
 * Planning 연결 사용자 정의 필드가 있는 사용자 정의 양식을 Workfront 객체에 첨부하려면 객체, 레코드 및 Workfront Planning에 대한 올바른 액세스 및 권한이 있어야 합니다.
 * Workfront 개체의 Planning 연결 필드에서 레코드를 연결하거나 연결을 끊으려면 Workfront Planning의 작업 영역에 대한 Contribute 권한이 있어야 합니다.
-* Workfront Planning 레코드 유형은 먼저 Workfront 객체 유형에 연결되어야 합니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하십시오.이렇게 하면 Workfront에서 Workfront Planning 레코드에 액세스할 수 있습니다.
+* Workfront Planning 레코드 유형은 먼저 Workfront 객체 유형에 연결되어야 합니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.이렇게 하면 Workfront Planning 레코드에 Workfront에서 액세스할 수 있습니다.
 * Workfront Planning 연결이 가능한 객체에 대해서만 Workfront 객체의 Planning 연결 필드에서 레코드를 연결하거나 연결을 해제할 수 있습니다.
 
   예를 들어 Planning 연결 필드가 있는 사용자 정의 양식을 작업에 첨부할 수 있지만 Workfront Planning 객체를 작업에 연결할 수는 없습니다.

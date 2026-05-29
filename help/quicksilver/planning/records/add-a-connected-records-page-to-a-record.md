@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 0%
+source-wordcount: '1626'
+ht-degree: 1%
 
 ---
 
 # 레코드에 연결된 레코드 페이지 추가
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 연결된 레코드 페이지에 대한 탭을 Adobe Workfront Planning의 레코드에 추가하여 연결된 레코드 또는 개체에서 정보를 볼 수 있습니다. 이렇게 하면 테이블 보기의 연결된 레코드가 탭에 추가됩니다.
 
@@ -92,7 +92,7 @@ ht-degree: 0%
   <tr>
    <td role="rowheader"><p>개체 권한</p></td>
    <td>
-   <p>작업 공간 및 레코드 유형에 대한 또는 그 이상의 권한 기여 </p>  
+   <p>작업 영역, 레코드 종류 및 <span class="preview">레코드에 대한 권한 관리</span>에 대한 권한 이상 제공 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> 
   </td>
   </tr>   
@@ -268,7 +268,7 @@ When you create a connected records page for connected Planning records in the P
    1. **보기 이름**&#x200B;을(를) 추가합니다.
    1. **보기 유형** 영역에서 다음 보기 유형 중 하나를 선택합니다.
 
-      * 표
+      * 테이블
 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하세요.
       * 타임라인
 자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.

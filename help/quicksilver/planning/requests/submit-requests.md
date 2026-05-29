@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2592'
 ht-degree: 1%
 
 ---
@@ -179,7 +179,7 @@ Not sure how to change the request status, but dev also said: Changing the names
       * **제목**: 요청 영역에 추가된 원래 요청의 이름입니다. 요청 목록에서 **제목** 필드를 숨기거나 제거할 수 없습니다. 이름에는 Planning에서 요청 페이지를 여는 링크가 있습니다.
       * **만들어진 개체**: Planning에 표시되는 요청에서 만들어진 레코드의 이름. 작성된 개체 이름에는 요청에서 작성된 레코드를 여는 링크가 있습니다.
       * **개체 형식**: Planning의 요청에서 레코드를 만든 작업 영역의 이름 및 레코드 형식입니다.
-      * **상태**: 요청 개체의 상태입니다.
+      * **상태**: 요청 개체의 상태입니다. 요청 상태에 대한 자세한 내용은 [제출된 요청 보기](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)를 참조하십시오.
       * **요청 양식**: Planning의 레코드 유형과 연결된 요청 양식의 이름입니다.
       * **만들어진 개체 상태**: 만들어진 레코드의 상태입니다.
 

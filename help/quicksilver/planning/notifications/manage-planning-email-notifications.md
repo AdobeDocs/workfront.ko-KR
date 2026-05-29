@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '641'
 ht-degree: 1%
 
 ---
@@ -164,14 +164,14 @@ Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe 
 
 ## 권한 요청 및 부여 시 이메일 알림 관리
 
-1. (조건부 및 선택 사항) 누군가가 Planning 객체 유형에 액세스할 수 있는 권한을 요청하거나 부여한 후 권한 요청을 알리는 이메일로 이동합니다. 이메일 발신자는 Adobe Experience Cloud입니다.
+1. (조건부 및 선택 사항) 누군가가 Planning 객체에 대한 액세스 권한을 요청하거나 부여한 후 권한 요청을 알리는 이메일로 이동합니다. 이메일 발신자는 Adobe Experience Cloud입니다.
 
 1. (선택 사항) 전자 메일 내부의 **Workfront** 상자에 있는 메시지를 클릭합니다.
 
    권한을 요청한 개체가 Workfront에서 열립니다.
 
 1. (조건부) 사용 가능한 경우 **모든 알림 보기**&#x200B;를 클릭합니다.
-**알림** 페이지가 Adobe Experience Cloud에서 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
+Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
 
 
 권한 요청, 부여 또는 거부에 대한 자세한 내용은 [보기 또는 작업 영역에 대한 권한 요청](/help/quicksilver/planning/access/request-permissions.md)을 참조하십시오.
@@ -180,8 +180,7 @@ Workfront Planning 알림 관리에 대한 자세한 내용은 [Adobe Workfront 
 
 ## Workfront Planning 요청 제출, 승인 또는 거부에 대한 이메일 알림 관리
 
-1. (선택 사항) Workfront이 귀하에게 보내는 이메일로 이동합니다
-요청을 제출한 후 또는 제출한 요청이 승인 또는 거부된 후. 이메일을 보낸 사람은 Adobe Workfront입니다.
+1. (선택 사항) 요청을 제출한 후 또는 제출한 요청이 승인 또는 거부된 후 Workfront이 보내는 이메일로 이동합니다. 이메일을 보낸 사람은 Adobe Workfront입니다.
 
 1. (선택 사항) **요청 열기**&#x200B;를 클릭합니다. 그러면 Workfront Planning에서 요청이 열립니다.
 

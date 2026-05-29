@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 4%
+source-wordcount: '597'
+ht-degree: 3%
 
 ---
 
 # 보기 또는 작업 영역에 대한 권한 요청
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 <!-- 
 no longer needed: 
@@ -77,7 +77,10 @@ no longer needed:
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>  <p>권한 요청이 부여되면 다음 권한을 얻을 수 있습니다.</p>
    <ul><li><p>보기에 대한 보기 또는 관리</p></li>
-   <li><p>작업 공간에 대한 보기, 기여 또는 관리</p></li></ul>  
+   <li><p>작업 공간에 대한 보기, 기여 또는 관리</p></li>
+   <li><p>레코드 종류에 대한 보기, 기여 또는 관리</p></li>
+   <li><p><span class="preview">레코드에 대한 보기 또는 관리</span></p></li>
+   </ul>  
    <p>작업 공간 및 보기에 대한 관리 권한이 있는 사용자만 보기를 공개적으로 공유할 수 있습니다.</p></td> 
   </tr> 
 <tr>
@@ -168,17 +171,22 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 -->
 
 
-## 보기 또는 작업 영역에 대한 권한 요청
+## 권한 요청
 
-보기에 대한 권한을 요청하는 것은 작업 공간에 권한을 요청하는 것과 비슷합니다.
+보기에 대한 권한을 요청하는 것은 작업 영역, 레코드 종류 또는 <span class="preview">레코드</span>에 대한 권한을 요청하는 것과 비슷합니다.
 
-다른 사용자가 액세스 권한이 없는 작업 영역 또는 보기에 대한 링크를 귀하와 공유하는 경우:
+다른 사용자가 작업 영역, 레코드 종류, <span class="preview">레코드</span> 또는 액세스 권한이 없는 보기에 대한 링크를 귀하와 공유하는 경우:
 
 1. 보기 또는 작업 공간에 대해 사용자와 공유되는 링크를 클릭합니다.
 
    보기 또는 작업 영역에 대한 액세스 권한이 없음을 알리는 **액세스 권한이 없습니다** 페이지가 표시됩니다.
 
    ![보기에 대한 액세스 권한 요청](assets/request-access-to-view.png)
+
+   >[!NOTE]
+   >
+   >레코드 종류 또는 <span class="preview">레코드</span>에 대한 액세스 권한이 없는 경우 페이지에 대한 액세스 권한이 없으면 작업 영역에 대한 액세스 권한이 있어야 합니다.
+
 
 1. (조건부) 공유 링크가 액세스 권한이 있는 작업 영역의 보기용인 경우 **기존 보기로 열기**&#x200B;를 클릭합니다. 작업공간에 액세스할 수 있는 권한이 있는 경우 기본 보기에서 레코드 유형 페이지가 열립니다.
 
