@@ -6,9 +6,9 @@ description: 작업 작업 및 문제가 할당되면 내 작업 위젯, 내 작
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: f1ab7f32131f997f65fb56834fa683ed6a020b0a
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '808'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
@@ -80,12 +80,14 @@ ht-degree: 2%
    * 작업 및 상위 사용자에게 작업을 수행할 수 없는 선행 작업 또는 작업 제한이 있을 수 있습니다.
    * 작업 또는 문제의 [!UICONTROL 계획된 시작 일자]가 향후 2주 이상입니다.
 
-1. **[!UICONTROL 작업]** 또는 [!UICONTROL 문제]에서 [!UICONTROL 작업 중]을 클릭하여 현재 작업 중인 작업 및 문제를 표시합니다.
-1. **[!UICONTROL 문제]** 아래의 [!UICONTROL 요청됨]을(를) 클릭하여 귀하로부터 요청된 문제(귀하에게 할당된 문제)를 표시하지만 아직 작업에 동의하지 않았습니다.
+1. [!UICONTROL 작업] 또는 [!UICONTROL 문제]에서 **[!UICONTROL 작업 중]**&#x200B;을 클릭하여 현재 작업 중인 작업 및 문제를 표시합니다.
+1. [!UICONTROL 문제] 아래의 **[!UICONTROL 요청됨]**&#x200B;을(를) 클릭하여 귀하로부터 요청된 문제(귀하에게 할당된 문제)를 표시하지만 아직 작업에 동의하지 않았습니다.
 
 ## 팀 요청 위젯에서 팀 요청에 액세스
 
-[!UICONTROL Home] 영역의 팀 요청 위젯에서 팀에 직접 할당된 요청에 액세스할 수 있습니다. 팀 요청에 대한 자세한 내용은 [팀 요청 개요](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)를 참조하십시오.
+[!UICONTROL Home] 영역의 팀 요청 위젯에서 팀에 직접 할당된 요청에 액세스할 수 있습니다. [!UICONTROL 팀 요청] 위젯은 팀에 대한 요청을 최대 2,000개까지 표시할 수 있습니다.
+
+팀 요청에 대한 자세한 내용은 [팀 요청 개요](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)를 참조하십시오.
 
 팀 요청에 액세스하려면:
 

@@ -9,9 +9,9 @@ feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ab336c13968f1420ec08eb7ae965b697a862bfb4
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >애자일 팀에는 팀 요청이 없습니다.
 
-[!UICONTROL 팀 요청] 탭에는 현재 드롭다운 목록에서 선택된 팀에 대한 할당 대기 중인 요청이 표시됩니다. 괄호로 묶인 숫자는 작업할 준비가 된 항목의 수를 나타냅니다.
+[!UICONTROL 팀 요청] 탭에는 현재 드롭다운 목록에서 선택된 팀에 대한 할당 대기 중인 요청이 표시됩니다. 괄호로 묶인 숫자는 작업할 준비가 된 항목의 수를 나타냅니다. [!UICONTROL 팀 요청] 탭에는 팀에 대한 요청이 최대 2,000개까지 표시될 수 있습니다.
 
 팀 요청은 특정 사용자에게 지정되지 않은 보류 중인 작업 항목을 나타냅니다. 대신 팀에 할당되고 해당 팀의 모든 구성원이 해당 항목에 대한 책임을 수락하도록 자원할 수 있습니다. 사용자가 팀 요청에 대해 작업을 자원하는 경우 해당 사용자는 작업 할당을 자신의 것으로 수락합니다. 작업은 팀 외에 개별 사용자에게 할당됩니다.
 
