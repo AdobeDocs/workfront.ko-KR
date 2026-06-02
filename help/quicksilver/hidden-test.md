@@ -4,10 +4,16 @@ description: 숨겨진 테스트
 hide: true
 hold: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: b5c64bb3d1c4e7a1337a8b5672a5f95dd8d5ef7f
+TQID: https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 26100d45462943a833c9362a139f8cc68d30b5ed
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 19%
+source-wordcount: 623
+ht-degree: 18%
 
 ---
 
@@ -227,7 +233,7 @@ U로 4번째 벌
    <td> 
 <p>모든 Adobe Workfront Workflow 패키지 및 모든 Adobe Workfront Planning 패키지</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront platform(**&#x200B;**&#x200B;이 문제를 해결하시겠습니까? 아니면 이 문제를 맨 아래에 연결된 문서의 일부로 만드시겠습니까???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Adobe Workfront platform(****이 문제를 해결하시겠습니까? 아니면 이 문제를 맨 아래에 연결된 문서의 일부로 만드시겠습니까???*****)</p></td> 
    <td> 
 <p>Workfront Planning에 액세스하려면 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다.</p> 
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 Adobe 통합 환경</a>을 참조하십시오. </p> 
@@ -294,4 +300,5 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 </table>
 
 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
 
