@@ -6,24 +6,34 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/krlFOQ-FeaEJt6oJgGp6FuE-6OaOxeW7sz48WmmuRbE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 1%
+source-wordcount: 856
+ht-degree: 0%
 
 ---
-
 
 # 작업 영역 편집
 
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 
 
 {{planning-important-intro}}
@@ -152,11 +162,9 @@ Old:
    * 생성한 작업 영역에 액세스하기 위해 **내가 속한 작업 영역**
    * **모든 작업 영역** 사용자와 공유된 작업 영역 또는 사용자가 만든 작업 영역에 액세스할 수 있습니다.
 
-   <!--
    >[!NOTE]
    >
-   ><span class="preview">You cannot edit the workspaces on the **Sample workspaces** tab. We recommend using the multi-workspace template bundle to create workspaces similar to those on the Sample workspace tab and edit your own. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).</span> 
-   -->
+   ><span class="preview">**샘플 작업 영역** 탭에서 작업 영역을 편집할 수 없습니다. 다중 작업 영역 템플릿 번들을 사용하여 샘플 작업 영역 탭의 작업 영역과 유사한 작업 영역을 만들고 직접 편집하는 것이 좋습니다. 자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md).</span>를 참조하십시오.
 
 1. (선택 사항) 추가 작업 영역을 표시하려면 **모두 표시**&#x200B;를 클릭합니다. 작업 영역 카드가 두 개 이상 있는 경우에만 **모두 표시** 링크가 표시됩니다.
 1. (선택 사항) 화면에 표시되는 작업 영역의 수를 제한하려면 **간단히 표시**&#x200B;를 클릭합니다.

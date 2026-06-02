@@ -6,15 +6,28 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+TQID: https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '3095'
+source-wordcount: 3118
 ht-degree: 1%
 
 ---
-
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
@@ -193,7 +206,12 @@ Old:
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
 1. 테이블 보기의 오른쪽 위 모서리에 있는 **+** 아이콘을 클릭한 다음 **새 연결** 탭을 클릭합니다.
 
-   ![Workfront AEM 옵션이 있는 새 연결 탭](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+   ![Workfront, AEM 및 GenStudio 브랜드와 새로운 연결 탭](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+
+   <!--
+    Old shot:
+    ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+    -->
 
 1. 레코드 유형을 검색하거나 다음 중 하나를 선택합니다.
 
@@ -287,9 +305,9 @@ Old:
    >
    >* **연결된 레코드 형식에 해당 필드 만들기**&#x200B;를 선택하는 것은 계층을 만들기 위한 필수 조건입니다.
    >
-   >* 연결된 레코드 필드는 해당 응용 프로그램의 다른 응용 프로그램 객체에 대해서는 생성되지 않습니다. 예를 들어 Planning 레코드에 연결된 Workfront 객체에 대해 생성된 필드는 없습니다.
-   >
-   >   
+   >* 연결된 레코드 필드는 해당 응용 프로그램의 다른 응용 프로그램 객체에 대해서는 생성되지 않습니다. 예:
+   >   * Planning 레코드에 연결된 Workfront 객체에 대해 생성된 필드가 없습니다.
+   >   * GenStudio 작업 영역의 레코드 유형에 연결되어 있는 경우 Planning 레코드 유형에 대해 생성된 필드가 없습니다.
 
 1. (조건부) **연결된 레코드 종류에 해당 필드 만들기**&#x200B;를 사용하도록 설정한 경우 사용자가 연결할 수 있는 레코드 수를 나타내려면 다음 옵션 중에서 선택하십시오.
 
