@@ -6,24 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 0%
+source-wordcount: 1311
+ht-degree: 1%
 
 ---
 
-
 # 작업 공간 만들기
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -230,12 +232,12 @@ Old:
 >
 >모범 사례 템플릿 번들을 사용하여 한 번에 여러 작업 공간을 만드는 것은 다음 전제 조건을 충족해야 사용할 수 있습니다.
 >
->* 조직에서 Workfront Planning Prime 또는 Ultimate 패키지를 구매했습니다.
+>* 조직에서 Workfront 또는 Workflow Planning Prime 또는 Ultimate 패키지를 구매했습니다.
 >* 시스템 관리자입니다.
 
 다중 작업 영역 템플릿 번들을 사용하여 한 번의 클릭으로 6개의 작업 영역을 만들 수 있습니다.
 
-번들에 포함된 템플릿에는 Planning 구현을 시작하는 데 도움이 되는 작업 공간, 레코드 유형, 레코드, 보기 및 필드가 포함되어 있습니다.
+번들에 포함된 템플릿에는 Planning 구현을 시작하는 데 도움이 되는 작업 공간, 레코드 유형, 레코드, 보기 및 필드가 포함되어 있습니다. 자세한 내용은 [작업 영역 템플릿 목록](/help/quicksilver/planning/architecture/workspace-templates.md)을 참조하세요.
 
 >[!IMPORTANT]
 >
@@ -246,27 +248,44 @@ Old:
 
 {{step1-to-planning}}
 
-1. **작업 영역 만들기** 클릭
+1. 다음 중 하나를 수행하십시오.
 
-   작업 공간 만들기 상자가 표시됩니다. 작업공간을 처음부터 만들거나 사용 가능한 템플릿 중 하나를 사용하여 만들 수 있습니다.
+   * **작업 영역 만들기**&#x200B;를 클릭한 후 다음 단계를 수행합니다.
 
-1. **여기에서 시작(권장)** 영역에서 **작업 영역 설정 검토**&#x200B;를 클릭합니다.
-1. (선택 사항) 미리 정의된 다음 작업 영역 템플릿 내에서 **미리 보기**&#x200B;를 클릭하여 각 템플릿에 대한 미리 보기 상자를 엽니다.
+      1. 작업 공간 만들기 상자가 표시됩니다. 작업공간을 처음부터 만들거나 사용 가능한 템플릿 중 하나를 사용하여 만들 수 있습니다.
 
-   * &#x200B;1. 글로벌 분류 및 분류
+      1. **여기에서 시작(권장)** 영역에서 **작업 영역 설정 검토**&#x200B;를 클릭합니다.
+      1. (선택 사항) 미리 정의된 다음 작업 영역 템플릿 내에서 **미리 보기**&#x200B;를 클릭하여 각 템플릿에 대한 미리 보기 상자를 엽니다.
 
-     전역 분류 및 분류 템플릿에는 Workfront Planning의 성공적인 구현을 위해 사용자 환경에서 생성하는 것이 권장되는 모든 레코드 유형 및 필드가 포함되어 있습니다.
+         * &#x200B;1. 글로벌 분류 및 분류
 
-     나중에 사용자가 만든 다른 작업 영역에서 이 템플릿의 레코드 유형을 연결하거나 가져올 수 있습니다.
-   * &#x200B;2. Fréscopa 글로벌 마케팅
-   * 3.Fréscopa 소셜 마케팅
-   * 4.Fréscopa 미디어 및 홍보
-   * 5.Fréscopa 글로벌 이벤트
-   * 6.Fréscopa 경영진 리더십
+           전역 분류 및 분류 템플릿에는 Workfront Planning의 성공적인 구현을 위해 사용자 환경에서 생성하는 것이 권장되는 모든 레코드 유형 및 필드가 포함되어 있습니다.
 
-1. 각 작업 영역 템플릿에 대해 **미리 보기** 상자를 연 후 **뒤로**&#x200B;를 클릭하여 **작업 영역 만들기** 상자로 돌아가거나 **템플릿 사용**&#x200B;을 클릭하여 번들에 포함된 템플릿을 사용하고 작업 영역을 만듭니다.
+           나중에 사용자가 만든 다른 작업 영역에서 이 템플릿의 레코드 유형을 연결하거나 가져올 수 있습니다.
+         * &#x200B;2. Fréscopa 글로벌 마케팅
+         * 3.Fréscopa 소셜 마케팅
+         * 4.Fréscopa 미디어 및 홍보
+         * 5.Fréscopa 글로벌 이벤트
+         * 6.Fréscopa 경영진 리더십
 
-   작업 영역이 만들어지고 시스템 관리자의 **내가 있는 작업 영역** 및 **모든 작업 영역** 탭에 표시됩니다. 모든 Standard License 사용자는 시스템 관리자가 작업 공간을 만들고 새 작업 공간을 공유하면 작업 공간 영역에서 작업 공간을 볼 수 있습니다.
+      1. 각 작업 영역 템플릿에 대해 **미리 보기** 상자를 연 후 **뒤로**&#x200B;를 클릭하여 **작업 영역 만들기** 상자로 돌아가거나 **템플릿 사용**&#x200B;을 클릭하여 번들에 포함된 템플릿을 사용하고 작업 영역을 만듭니다.
+
+   <div class="preview">
+
+   * **샘플 작업 공간** 탭을 클릭한 다음 다음 다음 단계를 수행합니다.
+
+      1. 탭에서 작업 공간 템플릿 중 하나를 클릭하여 각 템플릿의 레코드 유형 및 필드를 검토합니다. **샘플 작업 영역** 탭의 템플릿은 읽기 전용입니다.
+      1. 템플릿의 오른쪽 상단에서 **템플릿으로 만들기**&#x200B;를 클릭합니다.
+      1. (선택 사항) 모든 템플릿에서 **미리 보기**&#x200B;를 클릭하여 레코드 종류 및 해당 필드를 봅니다.
+
+         >[!TIP]
+         >
+         >템플릿에서 레코드 유형 카드를 클릭하면 오른쪽 패널에 레코드 유형의 필드가 표시됩니다.
+      1. **템플릿 사용**&#x200B;을 클릭합니다.
+
+   </div>
+
+   6개의 작업 공간이 만들어지고 시스템 관리자를 위한 **내가 있는 작업 공간** 및 **모든 작업 공간** 탭에 표시됩니다. 모든 Standard License 사용자는 시스템 관리자가 작업 공간을 만들고 새 작업 공간을 공유하면 작업 공간 영역에서 작업 공간을 볼 수 있습니다.
 
 1. 생성한 작업 영역을 편집하고 조직에 해당하는 레코드 유형, 레코드, 보기 및 필드를 추가합니다.
 

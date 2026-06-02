@@ -6,13 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
+TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: 2304
 ht-degree: 1%
 
 ---
-
 
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
@@ -43,39 +47,12 @@ ht-degree: 1%
   >
   >Workfront Planning에서 하나의 레코드 유형에 대해 최대 30개의 연결된 필드를 가질 수 있습니다.
 
+* 레코드 유형에서 새 연결 필드를 수동으로 추가하여 Workfront Planning의 다음 엔티티를 연결할 수 있습니다.
 
-* 레코드 및 개체 유형 연결에 대해 다음 사항을 고려하십시오.
+   * 두 가지 레코드 유형
 
-   * 레코드 유형에서 새 연결 필드를 수동으로 추가하여 Workfront Planning의 다음 엔티티를 연결할 수 있습니다.
-
-      * 두 가지 레코드 유형
-
-        기본적으로 동일한 작업 영역에서 두 개의 레코드 유형을 연결할 수 있습니다. 조직에서 더 높은 수준의 Workfront 또는 Planning 패키지를 구입한 경우 레코드 유형을 설정하여 다른 작업 영역의 레코드 유형과 연결할 수도 있습니다. 자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
-      * 다른 응용 프로그램의 레코드 형식과 개체 형식입니다.
-
-     레코드와 개체 형식을 연결하는 방법에 대한 자세한 내용은 [레코드 형식 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하십시오.
-
-     레코드 유형을 다른 레코드 또는 개체 유형과 수동으로 연결한 후 개별 레코드 및 개체를 연결할 수 있습니다.
-
-     자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
-
-   * 엔티티 간의 연결은 다음 시나리오에서 자동으로 설정됩니다.
-
-      * 자동화를 사용하여 레코드 유형의 페이지에서 레코드를 만드는 경우.
-
-        레코드 유형 또는 레코드 유형과 다른 응용 프로그램의 개체 유형 간의 연결은 자동화가 연결된 레코드나 개체를 만들 때 자동으로 만들어집니다.
-
-        자세한 내용은 [Adobe Workfront Planning 자동화 구성](/help/quicksilver/planning/records/configure-automations-to-create-records.md)을 참조하십시오.
-
-      * 레코드 유형에 대한 요청 양식을 구성하여 레코드 또는 개체를 만드는 경우.
-
-        레코드 유형과 요청 객체 유형 간의 연결은 레코드를 생성하는 Planning 요청을 제출하고 승인할 때 자동으로 생성됩니다.
-
-        자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
-
-        Workfront의 요청 영역에 있는 **제목** 필드 또는 Workfront Planning의 원본 요청 연결 필드에서 원본 요청을 볼 수 있습니다.
-
-   * 다음 응용 프로그램에서 Workfront Planning 레코드 유형과 다음 객체 유형을 연결할 수 있습니다.
+     기본적으로 동일한 작업 영역에서 두 개의 레코드 유형을 연결할 수 있습니다. 조직에서 더 높은 수준의 Workfront 또는 Planning 패키지를 구입한 경우 레코드 유형을 설정하여 다른 작업 영역의 레코드 유형과 연결할 수도 있습니다. 자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
+   * 이러한 응용 프로그램의 레코드 유형 및 다음 개체 유형:
 
       * Adobe Workfront:
 
@@ -107,7 +84,43 @@ ht-degree: 1%
         >
         >Adobe Experience Manager 개체 및 GenStudio 브랜드와 연결하려면 다음 항목이 있어야 합니다.
         >* Adobe Experience Manager 라이선스
-        >* Adobe GenStudio for Performance Marketing 라이선스
+        >* Adobe GenStudio for Performance Marketing 라이선스.
+
+   * GenStudio 작업 공간 및 다음 엔티티의 GenStudio for Performance Marketing 레코드 유형:
+
+      * Workfront Planning 레코드 유형
+      * Workfront 개체
+      * AEM 개체(자산 또는 컨텐츠 조각)
+      * GenStudio for Performance Marketing 브랜드
+
+        >[!NOTE]
+        >
+        >* Adobe GenStudio 작업 공간 레코드 유형을 Planning의 다른 GenStudio 레코드 유형에 연결할 수 없습니다.
+        >* GenStudio 작업 영역에서는 Planning 레코드 유형을 레코드 유형에 연결할 수 없습니다.
+
+
+     레코드 유형을 다른 레코드 또는 개체 유형과 수동으로 연결한 후 개별 레코드 및 개체를 연결할 수 있습니다.
+
+     레코드와 개체 형식을 연결하는 방법에 대한 자세한 내용은 [레코드 형식 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하십시오.
+
+     자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
+
+* 엔티티 간의 연결은 다음 시나리오에서 자동으로 설정됩니다.
+
+   * 자동화를 사용하여 레코드 유형의 페이지에서 레코드를 만드는 경우.
+
+     레코드 유형 또는 레코드 유형과 다른 응용 프로그램의 개체 유형 간의 연결은 자동화가 연결된 레코드나 개체를 만들 때 자동으로 만들어집니다.
+
+     자세한 내용은 [Adobe Workfront Planning 자동화 구성](/help/quicksilver/planning/records/configure-automations-to-create-records.md)을 참조하십시오.
+
+   * 레코드 유형에 대한 요청 양식을 구성하여 레코드 또는 개체를 만드는 경우.
+
+     레코드 유형과 요청 객체 유형 간의 연결은 레코드를 생성하는 Planning 요청을 제출하고 승인할 때 자동으로 생성됩니다.
+
+     자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
+
+     Workfront의 요청 영역에 있는 **제목** 필드 또는 Workfront Planning의 원본 요청 연결 필드에서 원본 요청을 볼 수 있습니다.
+
 
 * 두 개의 레코드 유형 또는 레코드 유형과 다른 응용 프로그램의 개체 유형이 연결되어 있는 경우 다음과 같은 시나리오가 있습니다.
 
@@ -128,7 +141,7 @@ ht-degree: 1%
       * Workfront 오브젝트에서 Planning 레코드 필드에 액세스할 수 없습니다.
       * 계획 레코드는 Workfront 오브젝트의 계획 섹션에서 볼 수 있습니다. 자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
       * Planning 연결 사용자 정의 필드를 만들어 Workfront 객체의 사용자 정의 양식에 첨부할 수 있습니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
-      * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오. <!--not sure if this is also possible for content fragments-->
+      * Workfront 관리자가 Experience Manager과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront Assets에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)을 참조하십시오. <!--not sure if this is also possible for content fragments-->
       * GenStudio for Performance Marketing의 브랜드에서는 계획 레코드 필드에 액세스할 수 없습니다.
 
    * **연결된 레코드 또는 개체에서 조회 필드를 추가할 때**: 연결된 레코드 필드를 만들 수 있을 뿐만 아니라 연결된 레코드 또는 개체 형식의 필드에 연결할 수도 있습니다. 이 필드를 조회 필드라고 합니다. 연결하려는 레코드의 정보가 있는 연결된(또는 조회 필드) 필드는 연결하려는 레코드에 표시됩니다.

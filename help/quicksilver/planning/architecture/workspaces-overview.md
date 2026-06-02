@@ -6,26 +6,27 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: 516
 ht-degree: 0%
 
 ---
 
 # 작업 공간 개요
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
 작업 영역은 조직 단위에서 사용하는 레코드 유형의 컬렉션이며 해당 단위의 작업 주기 및 프로세스를 나타냅니다. Adobe Workfront Planning에서 작업 공간을 완전히 사용자 정의할 수 있습니다.
 
-<!--update screenshot with preview-->
+<!--update screenshot with production, it was broken at Preview-->
 
 ![작업 영역 랜딩 페이지 관리자 계정](assets/workspaces-landing-page-admin-account.png)
 
@@ -45,35 +46,31 @@ ht-degree: 0%
 * 작업 공간은 조직 단위(팀, 그룹, 부서 또는 부서)가 작동하는 프레임워크입니다. 필드와 연결할 수 없습니다. 작업 영역 내의 레코드 유형만 필드와 연결할 수 있습니다.
 
   자세한 내용은 [레코드 종류 개요](/help/quicksilver/planning/architecture/overview-of-record-types.md)를 참조하세요.
-* Workfront 라이선스에 따라 작업 공간은 계획 영역의 다음 탭에 표시됩니다.
+* 작업 공간은 계획 영역의 다음 탭에 표시됩니다.
 
-   * 시스템 관리자의 경우 작업 공간은 다음 탭으로 표시됩니다.
+   * **내가 있는 작업 영역**: 사용자가 만든 작업 영역 또는 사용자와 공유된 작업 영역을 표시합니다.
+   * **다른 작업 영역**: 시스템의 다른 작업 영역을 모두 표시합니다. 이 기능은 시스템 관리자만 사용할 수 있습니다.
+   * <span class="preview">**샘플 작업 영역**: 모범 사례 작업 영역의 기본 제공 예제를 표시합니다. 작업 공간, 레코드 종류를 편집하거나 레코드 또는 필드를 추가할 수 없지만 다른 사용자와 추가, 편집 및 공유할 수 있습니다.</span>
 
-      * **내가 있는 작업 영역**: 사용자가 만든 작업 영역 또는 사용자와 공유된 작업 영역을 표시합니다.
-      * **다른 작업 영역**: 시스템의 다른 작업 영역을 모두 표시합니다.
+  >[!NOTE]
+  >
+  ><span class="preview">샘플 작업 영역을 편집하지 않고 대신 참조로 사용하여 직접 만드는 것이 좋습니다. 다중 작업 영역 템플릿 번들을 사용하여 샘플 작업 영역 탭에 나열된 작업 영역과 동일한 작업 영역을 생성합니다. 자세한 내용은 문서 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)의 &quot;모범 사례 다중 작업 영역 템플릿 번들을 사용하여 여러 작업 영역 만들기&quot; 섹션을 참조하십시오. </span>
 
-     <!--
-      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span> (************TEST THIS WITH SYSTEM ADMINS AND STANDARD USERS**********)
-      -->
+<!--
+No longer the case - they match now: 
 
-   * 다른 모든 사용자의 경우, 사용자가 생성한 작업공간과 다른 사용자가 사용자와 공유한 작업공간이 작업공간 영역에 표시됩니다.
+* For all other users:
 
-  <!--
+* **Workspaces I'm on**: Workspaces they created (for Standard-license users) and workspaces others shared with them display in the Workspaces area.
 
-    ******************* If Standard users can see the Sample workspaces, then replace the last bullet with this: 
+<div class="preview"> 
 
-   * For all other users:
+* **Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.
 
-        * (****************what is the name of this tab????*******) Workspaces they created and workspaces others shared with them display in the Workspaces area. 
-        * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span>
-    
-    -->
+</div>
+-->
 
-  <!--      
-    >[!NOTE]
-    >
-    ><span class="preview">We recommend to not edit the sample workspaces, but instead to use them as a reference to create your own. Use the multi-workspace template bundle to create workspaces identical to the ones listed in the Sample workspaces tab. For information, see the section "Create multiple workspaces using a best-practice multi-workspace template bundle" in the article [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). </span> 
-    -->
+
 
 * 작업 영역에 포함된 레코드 유형은 조직 단위의 작업 수명 주기와 개념을 반영해야 합니다.
 

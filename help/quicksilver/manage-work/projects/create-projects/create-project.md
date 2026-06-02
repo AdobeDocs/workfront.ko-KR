@@ -6,11 +6,17 @@ description: 프로젝트는 Adobe Workfront의 대규모 작업 단위입니다
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/ftDbs1BguO-wdhSEzFe318xKOV86cbfBbyHkm0FPmqM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: 1682
 ht-degree: 2%
 
 ---
@@ -123,7 +129,15 @@ Old:
 
   Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
-  프로젝트에 레코드를 추가하여 프로젝트를 만드는 방법에 대한 자세한 내용은 문서 [Workfront Planning에서 레코드에 연결할 때 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)의 &quot;Workfront Planning의 레코드와 연결할 때 프로젝트 만들기&quot; 섹션을 참조하십시오.
+  레코드에 프로젝트를 추가하여 만드는 방법에 대한 자세한 내용은 문서 [Workfront Planning에서 프로젝트에 연결할 때 Workfront 개체 만들기](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)의 &quot;Workfront Planning의 레코드와 연결할 때 프로젝트 만들기&quot; 섹션을 참조하십시오.
+
+* Workfront Planning 자동화를 사용하여 프로젝트를 추가합니다.
+
+  자세한 내용은 [Adobe Workfront Planning 레코드 자동화를 사용하여 개체 만들기](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)를 참조하십시오.
+
+  Workfront Planning에 대한 새 Workfront 라이선스 및 추가 Workfront Planning 패키지가 있어야 합니다.
+
+  Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
 ## 전제 조건
 

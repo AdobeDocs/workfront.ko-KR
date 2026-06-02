@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: 'https://experienceleague.adobe.com/SrMrI5ZjxxF1E40TcOgwNjTwWUMpQ3EeXREFjDmr45E'
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: 934
 ht-degree: 1%
 
 ---
-
 
 # 작업 영역 계층 만들기
 
@@ -80,7 +84,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 {#step1-to-planning}
 
 1. 작업 영역 카드를 클릭합니다.
-1. 작업 영역 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **설정**&#x200B;을 클릭합니다.
+1. 작업 영역 이름 오른쪽에 있는 **기타** 메뉴 ![기타 메뉴](assets/more-menu.png)를 클릭한 다음 **설정**을 클릭합니다.
 기본적으로 **계층** 섹션이 열립니다.
 1. **계층** 페이지의 오른쪽 상단 모서리에서 **새 계층**&#x200B;을 클릭합니다.
 1. **개체 추가**&#x200B;를 클릭하고 드롭다운 메뉴에서 개체 유형을 선택합니다. 이 유형이 계층의 첫 번째 객체 유형이 됩니다. <!--logged bug to correct to "Add object type"-->
@@ -89,7 +93,7 @@ Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명
 
    Workfront 프로젝트는 계층 구조에서 다른 오브젝트 유형의 상위로 선택할 수 없습니다.
 
-1. **개체 추가**&#x200B;를 클릭하여 계층 구조의 첫 번째 자식 항목인 두 번째 개체 형식을 추가한 다음 드롭다운 메뉴에서 다른 개체 형식을 선택합니다.
+1. **개체 추가**를 클릭하여 계층 구조의 첫 번째 자식 항목인 두 번째 개체 형식을 추가한 다음 드롭다운 메뉴에서 다른 개체 형식을 선택합니다.
 각 추가 객체 유형은 이전 객체 유형의 하위가 됩니다.
 
    ![필드를 선택하지 않은 새 계층 상자](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
