@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,19 @@ ht-degree: 0%
 
 2026년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2026년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)를 참조하십시오.
 
-<!--
-## Print summary for documents in the new Documents area
+
+## 새 문서 영역의 문서에 대한 요약 인쇄
 
 >[!NOTE]
 >
->Preview: May 28, 2026
->Production fast release: June 11, 2026
->Production for everyone: July 16, 2026
+>미리 보기: 2026년 6월 2일>프로덕션 빠른 릴리스: 2026년 6월 11일>모두를 위한 프로덕션: 2026년 7월 16일
 
-You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage. 
+이제 새 문서 영역에서 직접 문서 승인의 인쇄 가능한 요약을 열 수 있습니다. 이 기능은 Adobe 클라우드 스토리지를 사용하는 조직에서 사용할 수 있습니다.
 
-After a document has an approval, a **Print summary** option appears in the Document Details panel's Overview section. Clicking **Open Print Summary** opens the Frame.io Print Comments page, which shows the asset preview, comments, and approval decisions in a printable format.
+문서에 승인이 있으면 [문서 세부 정보] 패널의 [개요] 섹션에 **인쇄 요약** 옵션이 나타납니다. **인쇄 요약 열기**&#x200B;를 클릭하면 인쇄 가능한 형식으로 자산 미리 보기, 설명 및 승인 결정을 표시하는 Frame.io 인쇄 설명 페이지가 열립니다.
 
-For more information, see [Document Details overview](/help/quicksilver/documents/managing-documents/document-details-overview.md) and [Summary for documents overview](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
--->
+자세한 내용은 [문서 세부 정보 개요](/help/quicksilver/documents/managing-documents/document-details-overview.md) 및 [문서에 대한 요약 개요](/help/quicksilver/documents/managing-documents/summary-for-documents.md)를 참조하십시오.
+
 
 ## 문서 승인 워크플로 단계에 사용자 지정 메시지 추가
 
